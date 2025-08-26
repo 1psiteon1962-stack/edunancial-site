@@ -20,11 +20,12 @@
     <section>
       <h2>Send us a message</h2>
 
-      <!-- Netlify form (no backend needed) -->
+      <!-- Netlify form: no backend needed -->
       <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
-        <!-- required for Netlify form detection -->
+        <!-- hidden field required by Netlify -->
         <input type="hidden" name="form-name" value="contact" />
-        <!-- honeypot (kept hidden by CSS) -->
+
+        <!-- Honeypot field (invisible to users, helps block bots) -->
         <p class="hidden">
           <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
         </p>
@@ -41,7 +42,7 @@
 
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" required></textarea>
+          <textarea id="message" name="message" required></textarea>
         </div>
 
         <button type="submit">Send</button>
@@ -51,6 +52,11 @@
 
   <footer>
     <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
   </footer>
 </body>
 </html>
