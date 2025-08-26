@@ -21,8 +21,13 @@
       <p>Edunancial, Inc. is a financial education company dedicated to empowering teens, young adults, and entrepreneurs with practical, easy-to-use tools and resources.</p>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+  
+  <footer><footer>
+  <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+</footer>
+  <p>&copy; 2025 
