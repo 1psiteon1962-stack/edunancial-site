@@ -1,71 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shop | Edunancial</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <title>Edunancial — Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Courses, seminars, and workshops by Edunancial." />
 </head>
 <body>
   <header>
-    <h1>Edunancial Shop</h1>
     <nav>
-      <a href="/index.html">Home</a> |
-      <a href="/about.html">About</a> |
-      <a href="/contact.html">Contact</a> |
-      <a href="/shop.html" aria-current="page">Shop</a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/about-es">Español</a>
     </nav>
+    <h1>Edunancial Shop</h1>
+    <p>Courses and seminars you can put to work right away.</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Books & Courses</h2>
-
-      <div class="grid">
-        <!-- Product 1 -->
-        <article class="card">
-          <img src="https://picsum.photos/seed/book1/600/400" alt="Book cover" />
-          <h3>Financial Literacy 101 (Paperback)</h3>
-          <p class="price">$19.99</p>
-          <p>Start with the basics—budgeting, saving, and credit.</p>
-          <div class="actions">
-            <a class="button" href="https://square.link/u/REPLACE_1" target="_blank" rel="noopener">Buy now</a>
-          </div>
-        </article>
-
-        <!-- Product 2 -->
-        <article class="card">
-          <img src="https://picsum.photos/seed/ebook/600/400" alt="eBook cover" />
-          <h3>Financial Literacy 101 (eBook)</h3>
-          <p class="price">$9.99</p>
-          <p>Instant download, English & Spanish included.</p>
-          <div class="actions">
-            <a class="button" href="https://square.link/u/REPLACE_2" target="_blank" rel="noopener">Buy now</a>
-          </div>
-        </article>
-
-        <!-- Product 3 -->
-        <article class="card">
-          <img src="https://picsum.photos/seed/webinar/600/400" alt="Webinar" />
-          <h3>Live Webinar: Money & Mindset</h3>
-          <p class="price">$29.00</p>
-          <p>60-minute live session + Q&A. Includes replay.</p>
-          <div class="actions">
-            <a class="button" href="https://square.link/u/REPLACE_3" target="_blank" rel="noopener">Reserve seat</a>
-          </div>
-        </article>
+  <main style="padding:1.5rem;">
+    <section style="max-width:1000px;margin:0 auto;">
+      <div style="display:flex;align-items:center;gap:0.5rem;margin:0 0 1rem;">
+        <input id="memberToggle" type="checkbox" />
+        <label for="memberToggle"><strong>I’m a member (show member pricing)</strong></label>
       </div>
+
+      <div id="catalog" class="grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;"></div>
+      <p style="margin-top:1rem;font-size:0.9rem;color:#444;">
+        Paying with crypto? Use the “Pay with Crypto” button. For cards/Apple/Google Pay, use the Stripe buttons.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Edunancial, Inc. All rights reserved.</p>
     <nav>
-      <a href="/index.html">Home</a> |
-      <a href="/about.html">About</a> |
-      <a href="/contact.html">Contact</a> |
-      <a href="/shop.html">Shop</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/about-es">Español</a>
     </nav>
+    <p>© 2025 Edunancial. All rights reserved.</p>
   </footer>
+
+<script>
+(async function () {
+  const catalogEl = document.getElementById('catalog');
+  const memberToggle = document.getElementById('memberToggle');
+
+  async function getProducts() {
+    const res = await fetch('/products_assets.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('Failed to load product catalog');
+    const data = await res.json();
+    return Array.isArray(data.products) ? data.products : [];
+  }
+
+  function card(product, isMember) {
+    const wrap = document.createElement('article');
+    wrap.style.background = '#fff';
+    wrap.style.borderRadius = '8px';
+    wrap.style.boxShadow = '0 2px 5px rgba(0,0,0,0.08)';
+    wrap.style.padding = '1rem';
+
+    const h3 = document.createElement('h3');
+    h3.textContent = product.title;
+
+    const p = document.createElement('p');
+    p.textContent = product.description;
+
+    const price = document.createElement('p');
+    price.style.fontWeight = 'bold';
+    price.style.margin = '0.5rem 0 1rem';
+    price.textContent = `$${product.price_usd} USD`;
+
+    const btnRow = document.createElement('div');
+    btnRow.style.display = 'flex';
+    btnRow.style.flexWrap = 'wrap';
+    btnRow.style.gap = '0.5rem';
+
+    // Public price
+    if (product.public_link) {
+      const a = document.createElement('a');
+      a.href = product.public_link;
+      a.className = 'button';
+      a.textContent = 'Buy (Stripe)';
+      a.rel = 'noopener';
+      a.target = '_blank';
+      btnRow.appendChild(a);
+    }
+
+    // Member price (only when toggled)
+    if (isMember && product.member_link) {
+      const a = document.createElement('a');
+      a.href = product.member_link;
+      a.className = 'button';
+      a.textContent = 'Member Price (Stripe)';
+      a.rel = 'noopener';
+      a.target = '_blank';
+      btnRow.appendChild(a);
+    }
+
+    // Crypto
+    if (product.crypto_link) {
+      const a = document.createElement('a');
+      a.href = product.crypto_link;
+      a.className = 'button';
+      a.textContent = 'Pay with Crypto';
+      a.rel = 'noopener';
+      a.target = '_blank';
+      btnRow.appendChild(a);
+    }
+
+    wrap.append(h3, p, price, btnRow);
+    return wrap;
+  }
+
+  async function render() {
+    catalogEl.innerHTML = '';
+    const products = await getProducts();
+    const isMember = !!memberToggle.checked;
+    products.forEach(prod => catalogEl.appendChild(card(prod, isMember)));
+  }
+
+  memberToggle.addEventListener('change', render);
+  render().catch(err => {
+    catalogEl.innerHTML = '<p>Unable to load products right now.</p>';
+    console.error(err);
+  });
+})();
+</script>
 </body>
 </html>
