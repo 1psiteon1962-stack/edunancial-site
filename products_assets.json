@@ -1,0 +1,19 @@
+<script>
+fetch('/products_assets.json')
+  .then(r=>r.json())
+  .then(items=>{
+    const el=document.getElementById('catalog');
+    el.innerHTML=items.map(p=>`
+      <article class="card">
+        <h3>${p.title}</h3>
+        <p class="muted">${p.desc}</p>
+        <p><span class="price">$${p.price}</span> • <span class="member">Members: $${p.memberPrice}</span></p>
+        <div class="btnbar">
+          <a class="btn primary" href="${p.stripe}" target="_blank">Pay with Card</a>
+          <a class="btn gray" href="${p.square}" target="_blank">Square</a>
+          <a class="btn gray" href="${p.coinbase}" target="_blank">Bitcoin / Crypto</a>
+        </div>
+      </article>
+    `).join('');
+  });
+</script>
