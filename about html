@@ -1,33 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Edunancial</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us | Edunancial</title>
+  <meta name="description" content="The story of how Edunancial was born—our mission, milestones, and values empowering new generations with bilingual financial literacy." />
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
   <header>
     <h1>About Edunancial</h1>
+    <p>Where Education and Financial Literacy Meet</p>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
-      <a href="contact.html">Contact</a>
+      <a href="/index.html">Home</a>
+      <a href="/shop.html">Shop</a>
+      <a href="/about.html" aria-current="page">About</a>
+      <a href="/contact.html">Contact</a>
     </nav>
   </header>
+
   <main>
+    <!-- Origin Story -->
     <section>
-      <h2>Who We Are</h2>
-      <p>Edunancial, Inc. is a financial education company dedicated to empowering teens, young adults, and entrepreneurs with practical, easy-to-use tools and resources.</p>
+      <h2>How Edunancial Was Born</h2>
+      <p>
+        Edunancial began with a simple observation: smart, hardworking people were
+        leaving school without the tools to make confident money decisions. We kept
+        hearing the same questions—How do I budget? What’s a credit score? Where do I start
+        investing?—in classrooms, community centers, and living rooms.
+      </p>
+      <p>
+        So we started small: free, plain-language workshops for teens and young adults,
+        offered in English and Spanish. The first handout became a short booklet. The
+        booklet grew into a practical book. From there, Edunancial took shape as a
+        bilingual learning hub focused on one goal: **turn financial literacy into a
+        habit** anyone can start today.
+      </p>
+      <p><em>“La educación financiera abre puertas.”</em> We built Edunancial to hold those doors open.
+      </p>
+    </section>
+
+    <!-- Milestones -->
+    <section>
+      <h2>Milestones</h2>
+      <ul>
+        <li>Hosted our first bilingual workshop for local students and families.</li>
+        <li>Published an easy-to-read starter guide and companion audiobook.</li>
+        <li>Launched online lessons and live webinars focused on budgeting, credit, and investing basics.</li>
+        <li>Created a community program to support book clubs and investment clubs.</li>
+      </ul>
+    </section>
+
+    <!-- What We Do Now -->
+    <section>
+      <h2>What We Offer Today</h2>
+      <ul>
+        <li>📘 Books &amp; eBooks that explain money clearly—no jargon.</li>
+        <li>🎧 Audiobooks in English and Spanish.</li>
+        <li>💻 Online courses, tools, and live webinars with Q&amp;A.</li>
+        <li>🤝 Community programs for schools, nonprofits, and clubs.</li>
+      </ul>
+      <p>
+        Ready to dive in? Visit the <a class="button" href="/shop.html">Shop</a> or
+        <a class="button secondary" href="/contact.html">Contact Us</a> for partnerships and bulk orders.
+      </p>
+    </section>
+
+    <!-- Values -->
+    <section>
+      <h2>Our Values</h2>
+      <ul>
+        <li><strong>Clarity:</strong> We teach with plain language and real-world examples.</li>
+        <li><strong>Access:</strong> Bilingual resources so more families can learn together.</li>
+        <li><strong>Action:</strong> Every lesson ends with a next step you can take today.</li>
+        <li><strong>Community:</strong> Money is easier with support—learn in groups, not alone.</li>
+      </ul>
+    </section>
+
+    <!-- Who We Serve -->
+    <section>
+      <h2>Who We Serve</h2>
+      <p>
+        Teens, college-bound students, first-time workers, entrepreneurs, and any
+        adult ready to reset their money habits. We also partner with schools,
+        youth programs, and community organizations.
+      </p>
+    </section>
+
+    <!-- Call to Action -->
+    <section>
+      <h2>Join the Movement</h2>
+      <p>
+        Whether you’re starting your first budget or helping your community build
+        generational wealth, Edunancial is here for you—en inglés y en español.
+      </p>
+      <p>
+        <a class="button" href="/shop.html">Explore Resources</a>
+        <a class="button secondary" href="/contact.html">Partner With Us</a>
+      </p>
     </section>
   </main>
-  
+
   <footer>
-  <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-</footer>
- 
+    <p>© 2025 Edunancial, Inc. | West Palm Beach, Florida</p>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/shop.html">Shop</a>
+      <a href="/about.html">About</
