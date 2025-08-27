@@ -1,154 +1,158 @@
-/* ===== Reset & Base ===== */
-body {
+/* ========= Base / Reset ========= */
+:root{
+  --blue:#003366;
+  --red:#c62828;
+  --text:#222;
+  --muted:#666;
+  --bg:#f7f7f9;
+  --card:#ffffff;
+  --link:#0b57d0;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  padding:0;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  color: #222;
-
-  /* Red → White → Blue stripes, repeated 3 times */
-  background: repeating-linear-gradient(
-    to bottom,
-    #c62828 0%,   #c62828 11.11%,   /* Red */
-    #ffffff 11.11%, #ffffff 22.22%, /* White */
-    #003366 22.22%, #003366 33.33%  /* Blue */
-  );
-  background-size: 100% 33.33%; /* Each full cycle = 1/3 viewport height */
-  background-attachment: fixed;
+  line-height:1.6;
+  color:var(--text);
+  background:var(--bg);
 }
 
-/* ===== Header & Nav ===== */
-header {
-  padding: 1rem;
-  text-align: center;
+/* ========= Header ========= */
+header{
+  background:var(--blue);
+  color:#fff;
+  padding:1rem 1rem;
+  text-align:center;
 }
-header h1 {
-  margin: 0;
-  font-size: 1.75rem;
+header h1{
+  margin:0;
+  font-size:1.9rem;
+  letter-spacing:.3px;
 }
-header nav {
-  margin-top: 0.5rem;
+header nav{ margin-top:.4rem; }
+header nav a{
+  color:#fff;
+  text-decoration:none;
+  margin:0 .65rem;
+  font-weight:700;
 }
-header nav a {
-  color: #003366;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
+header nav a:hover,
+header nav a:focus{ text-decoration:underline; }
+
+/* ========= Hero (Red band) ========= */
+.hero{
+  background:var(--red);
+  color:#fff;
+  padding:2rem 1rem;
+  text-align:center;
 }
-header nav a:hover {
-  text-decoration: underline;
+.hero h2{
+  margin:.25rem 0 .5rem;
+  font-size:clamp(1.6rem,4vw,2.4rem);
+}
+.hero p{
+  margin:0 auto 1rem;
+  max-width:720px;
+  font-size:1.05rem;
+}
+.hero .btn{
+  background:#fff;
+  color:var(--red);
+  border:none;
+  border-radius:8px;
+  padding:.7rem 1.2rem;
+  font-weight:800;
+  text-decoration:none;
+  display:inline-block;
+}
+.hero .btn:hover{ filter:brightness(0.95); }
+
+/* ========= Main Content ========= */
+main{ padding:1.5rem 1rem; }
+.section{ max-width:980px; margin:0 auto; }
+
+.content-box{
+  background:var(--card);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.06);
+  padding:1.2rem 1.25rem;
+  margin:0 auto 1rem;
 }
 
-/* ===== Main Content ===== */
-main {
-  padding: 1.5rem;
-}
-h2 {
-  color: #003366;
-  margin-top: 0;
-}
-h3 {
-  color: #c62828;
-}
+h2{ color:var(--blue); margin-top:0; }
+h3{ color:var(--red); margin:.5rem 0; }
+p.lead{ color:var(--muted); }
 
-/* ===== Forms ===== */
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+/* ========= Forms ========= */
+form{
+  max-width:640px;
+  margin:0 auto;
+  background:var(--card);
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.06);
+  padding:1.2rem 1.25rem;
+  border:1px solid rgba(0,0,0,.06);
 }
-.form-group {
-  margin-bottom: 1rem;
-}
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
+.form-group{ margin-bottom:1rem; }
+label{ display:block; margin-bottom:.45rem; font-weight:700; }
 input[type="text"],
 input[type="email"],
-textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
+textarea{
+  width:100%;
+  padding:.75rem;
+  border:1px solid #cfcfd2;
+  border-radius:6px;
+  font-size:1rem;
+  background:#fff;
 }
-textarea {
-  min-height: 120px;
-}
+textarea{ min-height:120px; resize:vertical; }
 
-/* ===== Buttons ===== */
-button, .btn {
-  display: inline-block;
-  background: #003366;
-  color: #fff;
-  padding: 0.75rem 1.25rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: bold;
-  text-decoration: none;
+/* ========= Buttons / Links ========= */
+button,.btn{
+  display:inline-block;
+  background:var(--blue);
+  color:#fff;
+  padding:.7rem 1.1rem;
+  border:none;
+  border-radius:8px;
+  font-weight:800;
+  text-decoration:none;
+  cursor:pointer;
 }
-button:hover, .btn:hover {
-  background: #0055aa;
-}
+button:hover,.btn:hover{ filter:brightness(1.08); }
 
-/* ===== Footer ===== */
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  background: #ffffffcc;
-  border-top: 1px solid #e6e6e6;
-}
-footer nav {
-  margin-bottom: 0.5rem;
-}
-footer nav a {
-  color: #003366;
-  text-decoration: none;
-  margin: 0 10px;
-}
-footer nav a:hover {
-  text-decoration: underline;
-}
+a{ color:var(--link); }
+a:hover,a:focus{ text-decoration:underline; }
 
-/* ===== Utility & Helpers ===== */
+/* ========= Footer ========= */
+footer{
+  background:var(--blue);
+  color:#fff;
+  text-align:center;
+  padding:1rem 1rem;
+  margin-top:2rem;
+}
+footer nav{ margin-bottom:.5rem; }
+footer nav a{
+  color:#fff;
+  text-decoration:none;
+  margin:0 .65rem;
+  font-weight:700;
+}
+footer nav a:hover{ text-decoration:underline; }
 
-/* Keeps long text easy to read on bright stripes */
-.content-box {
-  background: #ffffffcc;
-  backdrop-filter: saturate(110%);
-  border-radius: 10px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-  padding: 1rem 1.25rem;
-}
+/* ========= Utilities ========= */
+.container{ max-width:980px; margin:0 auto; padding:0 1rem; }
+.mt-1{ margin-top:.5rem } .mt-2{ margin-top:1rem } .mt-3{ margin-top:1.5rem }
+.mb-1{ margin-bottom:.5rem } .mb-2{ margin-bottom:1rem } .mb-3{ margin-bottom:1.5rem }
 
-/* Use if header/footer need solid backing */
-.header-solid, .footer-solid {
-  background: #ffffffee;
-  color: #111;
-}
-.header-solid a, .footer-solid a {
-  color: #0b57d0;
-}
-
-/* Hero area directly on stripes */
-.hero-flag {
-  padding: 2rem 1rem;
-  text-align: center;
-}
-.hero-flag h2 {
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  margin-bottom: 0.5rem;
-}
-.hero-flag p {
-  font-size: 1.1rem;
-  margin: 0 auto;
-  max-width: 640px;
+/* ========= Responsive tweaks ========= */
+@media (max-width: 720px){
+  header h1{ font-size:1.5rem; }
+  .hero{ padding:1.5rem 1rem; }
+  .hero p{ font-size:1rem; }
 }
