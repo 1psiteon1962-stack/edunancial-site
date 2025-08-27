@@ -16,9 +16,11 @@
       <a href="/shop.html">Shop</a>
       <a href="/about.html" aria-current="page">About</a>
       <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
-
+<div class="lang-toggle">
+  <a href="about.html" aria-current="page">English</a> | 
+  <a href="about-es.html">Español</a>
+</div>
+</header>
   <main>
     <!-- Origin Story -->
     <section>
