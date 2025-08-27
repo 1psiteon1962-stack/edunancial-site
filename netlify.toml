@@ -1,19 +1,23 @@
+# ========= Netlify Configuration =========
+
 [build]
   publish = "."
 
-# Apex -> www redirects (cover http + https variants)
+# ========= Redirects =========
+# Redirect root domain → www (both http and https)
 [[redirects]]
   from = "http://edunancial.com/*"
   to = "https://www.edunancial.com/:splat"
   status = 301
   force = true
+
 [[redirects]]
   from = "https://edunancial.com/*"
   to = "https://www.edunancial.com/:splat"
   status = 301
   force = true
 
-# Global security headers
+# ========= Security Headers =========
 [[headers]]
   for = "/*"
   [headers.values]
@@ -22,19 +26,17 @@
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
-
-    # Lock down what the browser can load
-    # (update GA/Stripe/Square/Coinbase domains as you add them)
     Content-Security-Policy = """
       default-src 'self';
       script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com;
       connect-src 'self' https://www.google-analytics.com;
       img-src 'self' data: https:;
       style-src 'self' 'unsafe-inline';
-      frame-src https://commerce.coinbase.com https://checkout.stripe.com;
+      frame-src https://commerce.coinbase.com https://checkout.stripe.com https://squareup.com;
     """
 
-# Attach an Edge Function to all requests (see guard.js below)
+# ========= Edge Functions =========
+# Run the guard.js function on every request
 [[edge_functions]]
   path = "/*"
   function = "guard"
