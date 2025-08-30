@@ -1,61 +1,117 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Acerca de — Edunancial</title>
-  <meta name="description" content="La inspiración de Edunancial: una conversación padre–hijo — 'Sí, pero no sé cómo'. EN/ES.">
+  <title>About — Edunancial</title>
+  <meta name="description" content="Why Edunancial exists: a real father–son moment, and a mission to teach the how of money.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
     <div class="container nav-row">
       <a class="brand" href="index.html">Edunancial</a>
-      <div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
-      <div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div>
+      <div class="nav-links">
+        <a href="index.html" class="i18n-en">Home</a>
+        <a href="index.html" class="i18n-es">Inicio</a>
+        <a href="pricing.html" class="i18n-en">Plans</a>
+        <a href="pricing.html" class="i18n-es">Planes</a>
+        <a href="about.html" class="i18n-en">About</a>
+        <a href="about.html" class="i18n-es">Acerca</a>
+        <a href="contact.html" class="i18n-en">Contact</a>
+        <a href="contact.html" class="i18n-es">Contacto</a>
+      </div>
+      <!-- Persistent CTA in nav -->
+      <a class="btn red i18n-en" href="pricing.html" style="margin-left:.5rem">Join</a>
+      <a class="btn red i18n-es" href="pricing.html" style="margin-left:.5rem">Unirte</a>
+      <!-- Language toggle -->
+      <div class="lang" style="margin-left:.5rem">
+        <button class="btn secondary" onclick="LANG.set('en')">EN</button>
+        <button class="btn secondary" onclick="LANG.set('es')">ES</button>
+      </div>
     </div>
   </nav>
 
   <header class="hero">
     <div class="container">
-      <div class="i18n-es"><h1>Acerca de Edunancial</h1><p class="muted" style="color:#fff">De una charla con mi hijo a una misión bilingüe.</p></div>
-      <div class="i18n-en"><h1>About Edunancial</h1><p class="muted" style="color:#fff">From a talk with my Son to a bilingual mission.</p></div>
+      <div class="i18n-en">
+        <h1>About Edunancial</h1>
+        <p class="muted" style="color:#fff">From a single question to a mission to teach the how of money.</p>
+      </div>
+      <div class="i18n-es">
+        <h1>Acerca de Edunancial</h1>
+        <p class="muted" style="color:#fff">De una pregunta a una misión para enseñar el cómo del dinero.</p>
+      </div>
     </div>
   </header>
 
   <main class="section">
     <div class="container card">
-      <div class="i18n-es">
-        <h2>La conversación que lo cambió todo</h2>
-        <p>Un día le pregunté a mi hijo: <em>“¿Quieres trabajar con tu cabeza?”</em> Me dijo: <strong>“Sí… pero no sé cómo.”</strong> Esa honestidad nos mostró una verdad: hay talento y ganas, pero falta un camino claro.</p>
-        <h2>Nuestra misión</h2>
-        <p>Edunancial existe para enseñar el <em>cómo</em>: pasos concretos, sin jerga, con plantillas y ejemplos reales. Todo en inglés y español.</p>
-        <h3>Lo que encontrarás</h3>
-        <ul>
-          <li>Lecciones cortas y aplicables.</li>
-          <li>Plantillas listas para usar.</li>
-          <li>Hábitos, comunidad y recordatorios.</li>
-        </ul>
-      </div>
+      <article class="i18n-en">
+        <h2>Our Story</h2>
+        <p>When my Son was <strong>11 years old</strong>, he walked into the room as I was ending a call with a business client. As he came over to me, my phone signaled that a <strong>payment was made from that client</strong>. He saw the notice and asked, <em>“How did you make money on the phone?”</em></p>
+        <p>I told him, <em>“I work with my head.”</em> Then I asked if he wanted to <strong>work with his head</strong> too. He thought for a moment and said, <em>“Yes… but I don’t know how.”</em></p>
+        <p>Now at <strong>15 years old</strong>, he selects stocks to invest in with an <strong>8–12% ROI</strong> using his own money, wants to start buying options, and is <strong>planning a business</strong>. That experience led to founding Edunancial, because <strong>financial literacy</strong> can help anyone improve their circumstances.</p>
 
-      <div class="i18n-en">
-        <h2>The conversation that changed everything</h2>
-        <p>One day I asked my Son: <em>“Do you want to work with your head?”</em> He answered: <strong>“Yes… but I don’t know how.”</strong> That honesty revealed a truth: there’s potential and drive, but the path isn’t clear.</p>
-        <h2>Our mission</h2>
-        <p>Edunancial exists to teach the <em>how</em>: concrete steps, no jargon, with templates and real examples. In English and Spanish.</p>
-        <h3>What you’ll find</h3>
+        <h2>What we do</h2>
         <ul>
-          <li>Short, practical lessons.</li>
-          <li>Ready-to-use templates.</li>
-          <li>Habits, community, and reminders.</li>
+          <li>No-jargon lessons with clear steps.</li>
+          <li>Templates and checklists you can use today.</li>
+          <li>Habits, reminders, and community.</li>
+          <li>Bilingual: English and Spanish.</li>
         </ul>
-      </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h3>Ready to get started?</h3>
+          <p class="muted">Clear, step-by-step financial literacy in English & Spanish.</p>
+          <a class="btn red" href="pricing.html">View plans</a>
+        </div>
+      </article>
+
+      <article class="i18n-es">
+        <h2>Nuestra historia</h2>
+        <p>Cuando mi hijo tenía <strong>11 años</strong>, entró en la habitación justo cuando yo terminaba una llamada con un cliente de negocios. Al acercarse, mi teléfono indicó que se había realizado un <strong>pago de ese cliente</strong>. Vio el aviso y me preguntó: <em>“¿Cómo ganaste dinero por teléfono?”</em></p>
+        <p>Le respondí: <em>“Trabajo con mi cabeza.”</em> Luego le pregunté si él también quería <strong>trabajar con su cabeza</strong>. Pensó un momento y dijo: <em>“Sí, pero no sé cómo.”</em></p>
+        <p>Hoy, con <strong>15 años</strong>, ya invierte su propio dinero, sabe seleccionar acciones con un <strong>ROI del 8–12%</strong>, quiere empezar a comprar opciones y está <strong>planificando un negocio</strong>. Esa experiencia llevó a fundar Edunancial, porque la <strong>educación financiera</strong> puede ayudar a cualquiera a mejorar sus circunstancias.</p>
+
+        <h2>Qué hacemos</h2>
+        <ul>
+          <li>Lecciones sin jerga, con pasos claros.</li>
+          <li>Plantillas y listas que puedes usar hoy.</li>
+          <li>Hábitos, recordatorios y comunidad.</li>
+          <li>Bilingüe: inglés y español.</li>
+        </ul>
+
+        <div class="card" style="margin-top:1rem">
+          <h3>¿Listo para empezar?</h3>
+          <p class="muted">Educación financiera clara y paso a paso en inglés y español.</p>
+          <a class="btn red" href="pricing.html">Ver planes</a>
+        </div>
+      </article>
     </div>
   </main>
 
-  <footer><div class="container"><p>© <span id="year"></span> Edunancial. All rights reserved.</p></div></footer>
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Edunancial. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
+    // Default to English, remember user choice
+    const LANG = {
+      set(l){
+        localStorage.setItem('edu_lang', l);
+        document.documentElement.setAttribute('lang', l);
+      },
+      init(){
+        const saved = localStorage.getItem('edu_lang') || 'en';
+        document.documentElement.setAttribute('lang', saved);
+        const y = document.getElementById('year');
+        if (y) y.textContent = new Date().getFullYear();
+      }
+    };
+    document.addEventListener('DOMContentLoaded', LANG.init);
   </script>
 </body>
 </html>
