@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page not found | Edunancial</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — Edunancial</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main style="max-width:700px;margin:3rem auto;text-align:center">
-    <h1>404</h1>
-    <p>That page isn’t here. Let’s get you back on track.</p>
-    <p><a class="btn" href="index.html">Go to Home</a></p>
-  </main>
+  <header class="hero"><div class="container"><h1>404</h1><p class="muted" style="color:#fff">Page not found • Página no encontrada</p></div></header>
+  <main class="section"><div class="container card">
+    <p>Try the <a href="index.html">home page</a> or <a href="contact.html">contact us</a>.</p>
+  </div></main>
+  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
 </body>
 </html>
