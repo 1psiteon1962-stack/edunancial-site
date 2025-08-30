@@ -1,23 +1,58 @@
 [build]
   publish = "."
 
-[[redirects]]; short routes
-from="/privacy"      to="/privacy.html"      status=301
 [[redirects]]
-from="/terms"        to="/terms.html"        status=301
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 301
+
 [[redirects]]
-from="/pricing"      to="/pricing.html"      status=301
+  from = "/terms"
+  to = "/terms.html"
+  status = 301
+
 [[redirects]]
-from="/about"        to="/about.html"        status=301
+  from = "/pricing"
+  to = "/pricing.html"
+  status = 301
+
 [[redirects]]
-from="/contact"      to="/contact.html"      status=301
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
 [[redirects]]
-from="/cookies"      to="/cookies.html"      status=301
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
 [[redirects]]
-from="/security"     to="/security.html"     status=301
+  from = "/cookies"
+  to = "/cookies.html"
+  status = 301
+
 [[redirects]]
-from="/accessibility" to="/accessibility.html" status=301
+  from = "/security"
+  to = "/security.html"
+  status = 301
+
 [[redirects]]
-from="/refunds"      to="/refunds.html"      status=301
+  from = "/accessibility"
+  to = "/accessibility.html"
+  status = 301
+
 [[redirects]]
-from="/disclaimer"   to="/disclaimer.html"   status=301
+  from = "/refunds"
+  to = "/refunds.html"
+  status = 301
+
+[[redirects]]
+  from = "/disclaimer"
+  to = "/disclaimer.html"
+  status = 301
+
+# 404 fallback for any unmatched route
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
