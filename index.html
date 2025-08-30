@@ -15,12 +15,15 @@
     .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
     .nav-links a { text-decoration:none; color:#111; margin:0 .5rem; }
     .brand { font-weight:800; letter-spacing:.3px; }
+
+    /* HERO */
     .hero { background:#fafafa; border-bottom:1px solid #eee; }
-    .hero h1 { font-size: clamp(1.8rem, 2.8vw, 2.6rem); margin:0 0 .5rem; }
-    .hero p { margin:0 0 1rem; max-width: 65ch; }
+    .hero h1 { font-size: clamp(1.8rem, 2.8vw, 2.6rem); margin:0 0 .5rem; color:#111; font-weight:700; }
+    .hero p { margin:0 0 1rem; max-width: 65ch; color:#333; }
     .cta-row { display:flex; gap:.5rem; flex-wrap:wrap; }
     .btn { padding:.6rem 1rem; border-radius:10px; border:1px solid #111; background:#111; color:#fff; text-decoration:none; display:inline-block; }
     .btn.secondary { background:#fff; color:#111; }
+
     /* Pricing UI */
     .pricing { max-width: var(--max); margin: 2rem auto; padding: 1rem; }
     .pricing-header { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; margin-bottom:1rem; }
@@ -32,9 +35,11 @@
     .price { font-size:1.6rem; font-weight:700; margin:.5rem 0 1rem; }
     .btn-primary { display:inline-block; padding:.6rem 1rem; border-radius:10px; background:#111; color:#fff; text-decoration:none; }
     .btn-crypto { display:inline-block; padding:.6rem 1rem; border-radius:10px; background:#333; color:#fff; text-decoration:none; margin-left:.5rem; }
+
     dialog#region-picker { padding:1rem 1.25rem; border:none; border-radius:16px; }
     .region-grid { display:grid; grid-template-columns:repeat(2, minmax(140px,1fr)); gap:.5rem; margin:1rem 0; }
     .region-grid button { padding:.5rem .75rem; border-radius:10px; border:1px solid #e5e7eb; background:#fff; cursor:pointer; }
+
     footer { border-top:1px solid #eee; background:#fafafa; margin-top:2rem; }
     .muted { color:#666; font-size:.95rem; }
   </style>
@@ -157,7 +162,8 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+      const y = document.getElementById('year'); 
+      if (y) y.textContent = new Date().getFullYear();
     });
   </script>
 
