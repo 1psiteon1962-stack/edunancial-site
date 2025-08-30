@@ -1,51 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Acerca de — Edunancial</title>
   <meta name="description" content="Nuestra misión: educación financiera bilingüe, clara y práctica.">
-  <style>
-    :root{--max:1100px}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.55}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
-    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}.brand{font-weight:800;text-decoration:none;color:#111}
-    .nav-links a{margin:0 .5rem;text-decoration:none;color:#111}.btn{padding:.55rem .9rem;border-radius:12px;border:1px solid #111;background:#fff}
-    .section{max-width:var(--max);margin:2rem auto;padding:1rem}.card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
-    .muted{color:#555}footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem}
-    .i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
     <div class="container nav-row">
-      <a href="index.html" class="brand">Edunancial</a>
-      <div class="nav-links">
-        <a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a>
-      </div>
-      <div><button class="btn" onclick="LANG.set('en')">EN</button><button class="btn" onclick="LANG.set('es')">ES</button></div>
+      <a class="brand" href="index.html">Edunancial</a>
+      <div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
+      <div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div>
     </div>
   </nav>
 
-  <main class="container section">
-    <article class="card">
-      <div class="i18n-es">
-        <h1>Nuestra misión</h1>
-        <p>Edunancial existe para enseñar dinero en lenguaje claro. Queremos que más personas entiendan presupuesto, crédito, inversión básica y emprendimiento.</p>
-        <h3>Cómo trabajamos</h3>
-        <ul><li>Lecciones cortas y aplicables.</li><li>Plantillas listas para usar.</li><li>Comunidad de apoyo y recordatorios.</li></ul>
-      </div>
-      <div class="i18n-en">
-        <h1>Our mission</h1>
-        <p>Edunancial exists to teach money in plain language. We want more people to master budgeting, credit, basic investing, and entrepreneurship.</p>
-        <h3>How we work</h3>
-        <ul><li>Short, practical lessons.</li><li>Ready-to-use templates.</li><li>Supportive community and reminders.</li></ul>
-      </div>
-    </article>
-  </main>
+  <header class="hero"><div class="container">
+    <div class="i18n-es"><h1>Acerca de Edunancial</h1><p class="muted" style="color:#fff">Misión: educación financiera clara, bilingüe y práctica.</p></div>
+    <div class="i18n-en"><h1>About Edunancial</h1><p class="muted" style="color:#fff">Mission: clear, bilingual, practical financial education.</p></div>
+  </div></header>
 
-  <footer><div class="container"><p class="muted">© <span id="year"></span> Edunancial</p></div></footer>
-  <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
-  </script>
+  <main class="section"><div class="container card">
+    <div class="i18n-es">
+      <h2>Nuestra misión</h2><p>Explicar el dinero sin jerga y con herramientas que funcionan.</p>
+      <h3>Cómo trabajamos</h3><ul><li>Lecciones cortas y aplicables.</li><li>Plantillas listas.</li><li>Comunidad y recordatorios.</li></ul>
+    </div>
+    <div class="i18n-en">
+      <h2>Our mission</h2><p>Explain money without jargon, with tools that work.</p>
+      <h3>How we work</h3><ul><li>Short, practical lessons.</li><li>Ready-to-use templates.</li><li>Community and reminders.</li></ul>
+    </div>
+  </div></main>
+
+  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
+  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
 </body>
 </html>
