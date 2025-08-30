@@ -3,57 +3,29 @@
 <head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Reembolsos y Cancelaciones — Edunancial</title>
-  <meta name="description" content="Política de reembolsos y cancelaciones para planes mensuales. EN/ES.">
-  <style>
-    :root{--max:900px}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}header{border-bottom:1px solid #eee;background:#fafafa}
-    .row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}.btn{padding:.55rem .9rem;border-radius:12px;border:1px solid #111;background:#fff}
-    .muted{color:#555}.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem;text-align:center}
-  </style>
+  <meta name="description" content="Política de reembolsos y cancelaciones. EN/ES.">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header><div class="container row"><a href="index.html" style="text-decoration:none;color:#111;font-weight:800">Edunancial</a><div><button class="btn" onclick="LANG.set('en')">EN</button><button class="btn" onclick="LANG.set('es')">ES</button></div></div></header>
-  <main class="container">
-    <article class="i18n-es">
-      <h1>Política de Reembolsos y Cancelaciones</h1>
-      <p class="muted">Vigente desde: [fecha]</p>
-      <h2>1. Alcance</h2><p>Aplica a planes mensuales Básico ($5) y Pro ($10).</p>
-      <h2>2. Reembolsos</h2>
-      <ul>
-        <li>Las tarifas se cobran por adelantado y no son reembolsables, salvo que la ley lo exija.</li>
-        <li>Errores de cobro/duplicados serán reembolsados al confirmarse.</li>
-      </ul>
-      <h2>3. Cancelaciones</h2>
-      <ul>
-        <li>Puedes cancelar en cualquier momento; el acceso continúa hasta el fin del período facturado.</li>
-        <li>No hay reembolso por meses parciales.</li>
-      </ul>
-      <h2>4. Cómo solicitar</h2><p>Escríbenos a <a href="mailto:support@edunancial.com">support@edunancial.com</a> con tu correo y número de pedido.</p>
-      <h2>5. Ley aplicable</h2><p>Delaware (EE. UU.).</p>
-    </article>
-
-    <article class="i18n-en">
-      <h1>Refunds & Cancellations Policy</h1>
-      <p class="muted">Effective: [date]</p>
-      <h2>1. Scope</h2><p>Applies to monthly Basic ($5) and Pro ($10) plans.</p>
-      <h2>2. Refunds</h2>
-      <ul>
-        <li>Fees are billed in advance and are non-refundable, except where required by law.</li>
-        <li>Billing errors/duplicates will be refunded upon confirmation.</li>
-      </ul>
-      <h2>3. Cancellations</h2>
-      <ul>
-        <li>You may cancel anytime; access continues through the end of the billed period.</li>
-        <li>No refunds for partial months.</li>
-      </ul>
-      <h2>4. How to Request</h2><p>Email <a href="mailto:support@edunancial.com">support@edunancial.com</a> with your email and order number.</p>
-      <h2>5. Governing Law</h2><p>Delaware, USA.</p>
-    </article>
-  </main>
+  <nav><div class="container nav-row"><a class="brand" href="index.html">Edunancial</a><div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div></div></nav>
+  <header class="hero"><div class="container"><div class="i18n-es"><h1>Reembolsos y Cancelaciones</h1></div><div class="i18n-en"><h1>Refunds & Cancellations</h1></div></div></header>
+  <main class="section"><div class="container card">
+    <div class="i18n-es">
+      <h3>Alcance</h3><p>Aplica a Básico ($5/mes) y Pro ($10/mes).</p>
+      <h3>Reembolsos</h3><ul><li>Cobro por adelantado; no reembolsable salvo por ley.</li><li>Errores/duplicados se reembolsan al confirmarse.</li></ul>
+      <h3>Cancelaciones</h3><ul><li>Puedes cancelar en cualquier momento; acceso hasta fin del período facturado.</li><li>No hay reembolsos por meses parciales.</li></ul>
+      <h3>Solicitudes</h3><p><a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
+      <h3>Ley aplicable</h3><p>Delaware (EE. UU.).</p>
+    </div>
+    <div class="i18n-en">
+      <h3>Scope</h3><p>Applies to Basic ($5/mo) and Pro ($10/mo).</p>
+      <h3>Refunds</h3><ul><li>Billed in advance; non-refundable except where required by law.</li><li>Errors/duplicates refunded upon confirmation.</li></ul>
+      <h3>Cancellations</h3><ul><li>Cancel anytime; access continues through end of billing period.</li><li>No refunds for partial months.</li></ul>
+      <h3>Requests</h3><p><a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
+      <h3>Governing Law</h3><p>Delaware, USA.</p>
+    </div>
+  </div></main>
   <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
-  </script>
+  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
 </body>
 </html>
