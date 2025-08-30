@@ -3,105 +3,46 @@
 <head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Política de Privacidad — Edunancial</title>
-  <meta name="description" content="Privacidad y consentimiento de comunicaciones para Edunancial (EN/ES).">
-  <style>
-    :root{--max:900px}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.55}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}header{border-bottom:1px solid #eee;background:#fafafa}
-    .row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}.btn{padding:.55rem .9rem;border-radius:12px;border:1px solid #111;background:#fff}
-    .muted{color:#555}.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem;text-align:center}
-  </style>
+  <meta name="description" content="Privacidad y consentimiento de comunicaciones. EN/ES.">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="container row">
-      <a href="index.html" style="text-decoration:none;color:#111;font-weight:800">Edunancial</a>
-      <div><button class="btn" onclick="LANG.set('en')">EN</button><button class="btn" onclick="LANG.set('es')">ES</button></div>
-    </div>
-  </header>
+  <nav><div class="container nav-row"><a class="brand" href="index.html">Edunancial</a><div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div></div></nav>
+  <header class="hero"><div class="container"><div class="i18n-es"><h1>Política de Privacidad</h1></div><div class="i18n-en"><h1>Privacy Policy</h1></div></div></header>
 
-  <main class="container">
-    <!-- ES -->
+  <main class="section"><div class="container card">
     <article class="i18n-es">
-      <h1>Política de Privacidad</h1>
-      <p class="muted">Vigente desde: [fecha]</p>
-      <h2>1. Información que recopilamos</h2>
-      <ul>
-        <li><strong>Identificadores:</strong> nombre, correo, teléfono.</li>
-        <li><strong>Pago:</strong> procesado por terceros (por ej., Stripe/Square).</li>
-        <li><strong>Comunicaciones:</strong> emails, SMS, llamadas y chats.</li>
-        <li><strong>Técnica:</strong> IP, dispositivo, navegador, cookies.</li>
-        <li><strong>Preferencias:</strong> idioma (si lo proporcionas).</li>
-      </ul>
-      <h2>2. Uso de la información</h2>
-      <ul>
-        <li>Proveer membresías (Básico/Pro) y acceso a contenidos.</li>
-        <li>Enviar <strong>emails/SMS/llamadas</strong> sobre la cuenta, actualizaciones y promociones.</li>
-        <li>Cumplir obligaciones legales y mejorar el servicio.</li>
-      </ul>
-      <h2>3. Consentimiento de comunicaciones</h2>
-      <p>Al suscribirte, otorgas tu <strong>consentimiento expreso</strong> para recibir emails, SMS, llamadas y sistemas automatizados, conforme a la ley. Puedes retirar tu consentimiento usando “unsubscribe” o respondiendo <strong>STOP</strong> a SMS. Pueden aplicar tarifas del operador.</p>
-      <h2>4. Divulgación</h2>
-      <ul>
-        <li><strong>Proveedores:</strong> pago, hosting, soporte, analítica.</li>
-        <li><strong>Cumplimiento legal:</strong> cuando la ley lo requiera.</li>
-      </ul>
-      <p><em>No vendemos</em> información personal.</p>
-      <h2>5. Tus derechos</h2>
-      <p><strong>California (CCPA/CPRA):</strong> saber, acceder, eliminar (con excepciones) y optar por no “vender/compartir” datos (no vendemos).</p>
-      <p><strong>NY Shield Act:</strong> solicitar medidas de resguardo y corrección de inexactitudes.</p>
-      <p><strong>UE/GDPR:</strong> acceso, rectificación, eliminación, restricción/objeción, retirar consentimiento.</p>
-      <h2>6. Menores</h2><p>No dirigido a menores de 13; si recibimos datos de un menor, los eliminaremos.</p>
-      <h2>7. Cookies</h2><p>Usamos cookies para autenticación y analítica. Ver <a href="cookies.html">Cookies</a>.</p>
-      <h2>8. Seguridad</h2><p>Medidas razonables (SSL, 2FA, acceso restringido). Ningún método es 100% seguro.</p>
-      <h2>9. Accesibilidad</h2><p>Consulta <a href="accessibility.html">Accesibilidad</a>. Si tienes problemas, escríbenos.</p>
-      <h2>10. Fuerza mayor</h2><p>No somos responsables por fallas causadas por eventos fuera de nuestro control (desastres, pandemias, cortes de Internet/proveedores).</p>
-      <h2>11. Ley aplicable</h2><p>Delaware (EE. UU.).</p>
-      <h2>12. Cambios</h2><p>Podemos actualizar esta Política; la fecha se ajustará aquí.</p>
-      <h2>13. Contacto</h2><p>Privacidad/datos: <a href="mailto:privacy@edunancial.com">privacy@edunancial.com</a> • Soporte: <a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
+      <h3>Información que recopilamos</h3>
+      <ul><li>Identificadores: nombre, correo, teléfono.</li><li>Pago: procesado por terceros.</li><li>Comunicaciones: emails, SMS, llamadas, chats.</li><li>Técnica: IP, dispositivo, navegador, cookies.</li></ul>
+      <h3>Uso</h3><ul><li>Proveer membresías y contenidos.</li><li>Enviar <strong>emails/SMS/llamadas</strong> sobre cuenta, novedades y promociones.</li><li>Cumplir obligaciones legales y mejorar el servicio.</li></ul>
+      <h3>Consentimiento de comunicaciones</h3>
+      <p>Al suscribirte, otorgas <strong>consentimiento expreso</strong> para recibir emails, SMS, llamadas y mensajes automatizados conforme a la ley. Puedes darte de baja con “unsubscribe” o respondiendo <strong>STOP</strong> a SMS.</p>
+      <h3>Divulgación</h3><ul><li>Proveedores (pagos, hosting, soporte, analítica).</li><li>Cumplimiento legal cuando se requiera.</li></ul><p><em>No vendemos</em> información personal.</p>
+      <h3>Tus derechos</h3><p>California (CCPA/CPRA), NY Shield, UE/GDPR: acceso, rectificación, eliminación, objeción/restricción.</p>
+      <h3>Cookies</h3><p>Ver <a href="cookies.html">Cookies</a>. Usamos cookies para autenticación, idioma y analítica básica.</p>
+      <h3>Seguridad</h3><p>Medidas razonables (SSL/TLS, 2FA). Ningún método es 100% seguro.</p>
+      <h3>Accesibilidad</h3><p>Consulta <a href="accessibility.html">Accesibilidad</a>.</p>
+      <h3>Ley aplicable</h3><p>Delaware (EE. UU.).</p>
+      <h3>Contacto</h3><p><a href="mailto:privacy@edunancial.com">privacy@edunancial.com</a> • <a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
     </article>
 
-    <!-- EN -->
     <article class="i18n-en">
-      <h1>Privacy Policy</h1>
-      <p class="muted">Effective: [date]</p>
-      <h2>1. Information We Collect</h2>
-      <ul>
-        <li><strong>Identifiers:</strong> name, email, phone.</li>
-        <li><strong>Payment Data:</strong> processed by third parties (e.g., Stripe/Square).</li>
-        <li><strong>Communications:</strong> emails, SMS, calls, chats.</li>
-        <li><strong>Technical:</strong> IP, device, browser, cookies.</li>
-        <li><strong>Preferences:</strong> language (if provided).</li>
-      </ul>
-      <h2>2. How We Use Information</h2>
-      <ul>
-        <li>Provide memberships (Basic/Pro) and content access.</li>
-        <li>Send <strong>emails/SMS/calls</strong> about account, updates, and promotions.</li>
-        <li>Meet legal obligations and improve the service.</li>
-      </ul>
-      <h2>3. Consent to Communications</h2>
-      <p>By subscribing, you give <strong>express consent</strong> to receive emails, SMS, calls, and automated messages, to the extent permitted by law. You may opt out via unsubscribe or by replying <strong>STOP</strong> to SMS. Carrier rates may apply.</p>
-      <h2>4. Disclosure</h2>
-      <ul><li><strong>Service Providers:</strong> payments, hosting, support, analytics.</li><li><strong>Legal Compliance:</strong> when required by law.</li></ul>
-      <p>We <em>do not sell</em> personal information.</p>
-      <h2>5. Your Rights</h2>
-      <p><strong>California (CCPA/CPRA):</strong> know/access/delete (with exceptions) and opt-out of sale/sharing (we don’t sell).</p>
-      <p><strong>NY Shield Act:</strong> request safeguards; correct inaccuracies.</p>
-      <p><strong>EU/GDPR:</strong> access, rectify, delete, restrict/object, withdraw consent.</p>
-      <h2>6. Children</h2><p>Not directed to children under 13; we will delete child data upon discovery.</p>
-      <h2>7. Cookies</h2><p>We use cookies for auth and analytics. See <a href="cookies.html">Cookies</a>.</p>
-      <h2>8. Security</h2><p>Reasonable measures (SSL, 2FA, restricted access). No method is 100% secure.</p>
-      <h2>9. Accessibility</h2><p>See <a href="accessibility.html">Accessibility</a>. Contact us if you encounter barriers.</p>
-      <h2>10. Force Majeure</h2><p>We are not responsible for failures caused by events beyond our control (disasters, pandemics, Internet/provider outages).</p>
-      <h2>11. Governing Law</h2><p>Delaware, USA.</p>
-      <h2>12. Changes</h2><p>We may update this Policy; the effective date will change here.</p>
-      <h2>13. Contact</h2><p>Privacy/data: <a href="mailto:privacy@edunancial.com">privacy@edunancial.com</a> • Support: <a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
+      <h3>Information We Collect</h3>
+      <ul><li>Identifiers: name, email, phone.</li><li>Payment: processed by third parties.</li><li>Communications: emails, SMS, calls, chats.</li><li>Technical: IP, device, browser, cookies.</li></ul>
+      <h3>Use</h3><ul><li>Provide memberships and content.</li><li>Send <strong>emails/SMS/calls</strong> about account, updates, promotions.</li><li>Legal compliance and service improvement.</li></ul>
+      <h3>Consent to Communications</h3>
+      <p>By subscribing, you give <strong>express consent</strong> to receive emails, SMS, calls, and automated messages as permitted by law. Opt out via unsubscribe or replying <strong>STOP</strong> to SMS.</p>
+      <h3>Disclosure</h3><ul><li>Service providers (payments, hosting, support, analytics).</li><li>Legal compliance when required.</li></ul><p>We <em>do not sell</em> personal data.</p>
+      <h3>Your Rights</h3><p>California (CCPA/CPRA), NY Shield, EU/GDPR: access, correction, deletion, objection/restriction.</p>
+      <h3>Cookies</h3><p>See <a href="cookies.html">Cookies</a>. We use cookies for auth, language, and basic analytics.</p>
+      <h3>Security</h3><p>Reasonable measures (SSL/TLS, 2FA). No method is 100% secure.</p>
+      <h3>Accessibility</h3><p>See <a href="accessibility.html">Accessibility</a>.</p>
+      <h3>Governing Law</h3><p>Delaware, USA.</p>
+      <h3>Contact</h3><p><a href="mailto:privacy@edunancial.com">privacy@edunancial.com</a> • <a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
     </article>
-  </main>
+  </div></main>
 
-  <footer><div class="container"><p class="muted">© <span id="year"></span> Edunancial</p></div></footer>
-  <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
-  </script>
+  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
+  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
 </body>
 </html>
