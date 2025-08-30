@@ -1,121 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Planes y Precios — Edunancial</title>
-  <meta name="description" content="Básico $5/mes, Pro $10/mes. Bilingüe EN/ES.">
-  <style>
-    :root { --max: 1100px; } *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.55}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}
-    nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #eee}
-    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
-    .brand{font-weight:800;text-decoration:none;color:#111}
-    .nav-links a{margin:0 .5rem;text-decoration:none;color:#111}
-    .btn{display:inline-block;padding:.65rem 1rem;border-radius:12px;border:1px solid #111;background:#111;color:#fff;text-decoration:none}
-    .btn.secondary{background:#fff;color:#111}
-    header.hero{background:#fafafa;border-bottom:1px solid #eee}
-    header.hero h1{font-size:clamp(1.8rem,2.8vw,2.6rem);margin:.2rem 0 .6rem}
-    .section{max-width:var(--max);margin:2rem auto;padding:1rem}
-    .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
-    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff;position:relative}
-    .badge{position:absolute;top:12px;right:12px;padding:.25rem .5rem;border-radius:8px;border:1px solid #111;background:#111;color:#fff;font-size:.8rem}
-    .price{font-size:1.9rem;font-weight:800;margin:.5rem 0}.term{color:#555;font-size:.95rem}
-    .muted{color:#555} footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem}
-    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
-  </style>
+  <meta name="description" content="Básico $5/mes y Pro $10/mes. Cambia o cancela cuando quieras.">
+  <link rel="stylesheet" href="style.css" />
+  <script src="region-pricing.js" defer></script>
 </head>
 <body>
   <nav>
     <div class="container nav-row">
-      <a href="index.html" class="brand">Edunancial</a>
+      <a class="brand" href="index.html">Edunancial</a>
       <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="pricing.html">Plans</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
+        <a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a>
       </div>
-      <div>
-        <button class="btn secondary" onclick="LANG.set('en')">EN</button>
-        <button class="btn secondary" onclick="LANG.set('es')">ES</button>
-      </div>
+      <div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div>
     </div>
   </nav>
 
   <header class="hero">
     <div class="container">
-      <div class="i18n-es">
-        <h1>Planes y precios</h1>
-        <p class="muted">Simple y claro. Cambia o cancela cuando quieras.</p>
-      </div>
-      <div class="i18n-en">
-        <h1>Plans & pricing</h1>
-        <p class="muted">Simple and clear. Change or cancel anytime.</p>
-      </div>
+      <div class="i18n-es"><h1>Planes y precios</h1><p class="muted" style="color:#fff">Simple y claro. Cambia o cancela cuando quieras.</p></div>
+      <div class="i18n-en"><h1>Plans & pricing</h1><p class="muted" style="color:#fff">Simple and clear. Change or cancel anytime.</p></div>
     </div>
   </header>
 
   <section class="section">
-    <div class="plans">
-      <!-- BASIC $5 -->
-      <article class="card">
+    <div class="container plans">
+      <article class="card plan">
         <div class="i18n-es">
-          <h3>Básico</h3>
-          <div class="price">$5</div>
-          <div class="term">/mes</div>
+          <h3 style="color:var(--blue)">Básico</h3>
+          <div class="price" data-price-usd="5">$5</div><div class="term">/mes</div>
           <p class="muted">Acceso al sitio: lecciones, plantillas y comunidad. <strong>Sin descuentos</strong> en productos o servicios.</p>
-          <a class="btn" href="#">Suscribirse</a>
+          <a class="btn dark" href="#">Suscribirse</a>
         </div>
         <div class="i18n-en">
-          <h3>Basic</h3>
-          <div class="price">$5</div>
-          <div class="term">/month</div>
+          <h3 style="color:var(--blue)">Basic</h3>
+          <div class="price" data-price-usd="5">$5</div><div class="term">/month</div>
           <p class="muted">Site access: lessons, templates, and community. <strong>No discounts</strong> on products or services.</p>
-          <a class="btn" href="#">Subscribe</a>
+          <a class="btn dark" href="#">Subscribe</a>
         </div>
       </article>
 
-      <!-- PRO $10 -->
-      <article class="card" style="border-width:2px">
+      <article class="card plan" style="border-width:2px">
         <span class="badge i18n-es">Mejor valor</span>
         <span class="badge i18n-en">Best value</span>
         <div class="i18n-es">
-          <h3>Pro</h3>
-          <div class="price">$10</div>
-          <div class="term">/mes</div>
+          <h3 style="color:var(--blue)">Pro</h3>
+          <div class="price" data-price-usd="10">$10</div><div class="term">/mes</div>
           <p class="muted">Todo lo del Básico <strong>+</strong> descuentos en productos y servicios (libros, cursos, socios), y acceso anticipado a nuevos recursos.</p>
-          <a class="btn" href="#">Suscribirse</a>
+          <a class="btn red" href="#">Suscribirse</a>
         </div>
         <div class="i18n-en">
-          <h3>Pro</h3>
-          <div class="price">$10</div>
-          <div class="term">/month</div>
+          <h3 style="color:var(--blue)">Pro</h3>
+          <div class="price" data-price-usd="10">$10</div><div class="term">/month</div>
           <p class="muted">Everything in Basic <strong>+</strong> discounts on products & services (books, courses, partners), and early access to new resources.</p>
-          <a class="btn" href="#">Subscribe</a>
+          <a class="btn red" href="#">Subscribe</a>
         </div>
       </article>
     </div>
 
-    <div class="card" style="margin-top:1rem">
-      <div class="i18n-es">
-        <p class="muted">Nota: Somos una plataforma educativa. No damos asesoría financiera, legal ni fiscal. Ver <a href="terms.html">Términos</a> y <a href="disclaimer.html">Aviso legal</a>.</p>
-      </div>
-      <div class="i18n-en">
-        <p class="muted">Note: We are an educational platform. We do not provide financial, legal, or tax advice. See <a href="terms.html">Terms</a> and <a href="disclaimer.html">Disclaimer</a>.</p>
-      </div>
+    <div class="container card" style="margin-top:1rem">
+      <div class="i18n-es"><p class="muted">Plataforma educativa. No asesoría financiera, legal ni fiscal. Ver <a href="terms.html">Términos</a> y <a href="disclaimer.html">Aviso legal</a>.</p></div>
+      <div class="i18n-en"><p class="muted">Educational platform; not financial, legal, or tax advice. See <a href="terms.html">Terms</a> and <a href="disclaimer.html">Disclaimer</a>.</p></div>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a></p>
+      <div class="nav-links" style="margin:.5rem 0">
+        <a href="about.html">About</a> • <a href="contact.html">Contact</a> • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a> • <a href="refunds.html">Refunds</a> • <a href="accessibility.html">Accessibility</a> • <a href="cookies.html">Cookies</a> • <a href="security.html">Security</a>
+      </div>
+      <p>© <span id="year"></span> Edunancial. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
+    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
   </script>
 </body>
 </html>
