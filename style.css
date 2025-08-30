@@ -1,0 +1,45 @@
+/* Edunancial — Red • White • Blue theme */
+:root{
+  --blue:#0b3a6a; --blue-900:#0a2f57;
+  --red:#b91c1c; --red-700:#991b1b;
+  --ink:#0b0b0c; --muted:#516172; --paper:#fff;
+  --border:#e5e7eb; --soft:#f5f7fb; --radius:16px; --max:1100px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.55;background:var(--paper)}
+/* Layout */
+.container{max-width:var(--max);margin:0 auto;padding:1rem}
+.section{max-width:var(--max);margin:2rem auto;padding:1rem}
+.grid-2{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:860px){.grid-2{grid-template-columns:1.1fr .9fr}}
+.card{border:1px solid var(--border);border-radius:var(--radius);background:#fff;padding:1rem}
+.muted{color:var(--muted)} h1,h2,h3{line-height:1.25} h2,h3{color:var(--red)}
+/* Nav */
+nav{position:sticky;top:0;z-index:20;background:var(--blue);color:#fff;border-bottom:3px solid var(--red)}
+.nav-row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+.brand{font-weight:900;text-decoration:none;color:#fff;font-size:1.25rem}
+.nav-links a{margin:0 .75rem;color:#fff;text-decoration:none}
+.nav-links a:hover{text-decoration:underline}
+.lang button{margin-left:.25rem}
+/* Buttons */
+.btn{display:inline-block;padding:.65rem 1rem;border-radius:12px;border:2px solid var(--paper);background:var(--paper);color:var(--red);text-decoration:none;font-weight:700}
+.btn.secondary{background:transparent;color:#fff;border-color:#fff}
+.btn.dark{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.red{background:var(--red);border-color:var(--red);color:#fff}
+/* Hero */
+header.hero{background:var(--red);color:#fff}
+header.hero h1{font-size:clamp(1.8rem,2.8vw,2.6rem);margin:.2rem 0 .6rem}
+header.hero p{margin:0 0 1rem;max-width:65ch}
+.hero .btn{border-color:#fff}
+/* Pricing */
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.plan{position:relative}
+.badge{position:absolute;top:12px;right:12px;padding:.25rem .5rem;border-radius:8px;border:1px solid var(--red);background:var(--red);color:#fff;font-size:.8rem}
+.price{font-size:1.9rem;font-weight:900;margin:.25rem 0}
+.term{color:var(--muted);font-size:.95rem}
+/* Footer */
+footer{background:var(--blue);color:#fff;border-top:3px solid var(--red);margin-top:2rem}
+footer a{color:#fff;text-decoration:underline} footer p{margin:.25rem 0}
+/* i18n toggle */
+.i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
