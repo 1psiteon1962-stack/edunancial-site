@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Educación financiera clara</title>
-  <meta name="description" content="Historia real, educación financiera práctica y planes simples. EN/ES.">
+  <title>Edunancial — Clear, step-by-step financial literacy</title>
+  <meta name="description" content="Edunancial helps you learn to work with your head—clear, bilingual financial literacy, templates, and habits.">
   <link rel="stylesheet" href="style.css" />
   <script src="region-pricing.js" defer></script>
 </head>
@@ -13,90 +13,90 @@
     <div class="container nav-row">
       <a class="brand" href="index.html">Edunancial</a>
       <div class="nav-links">
-        <a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a>
+        <a href="index.html" class="i18n-en">Home</a>
+        <a href="index.html" class="i18n-es">Inicio</a>
+        <a href="pricing.html" class="i18n-en">Plans</a>
+        <a href="pricing.html" class="i18n-es">Planes</a>
+        <a href="about.html" class="i18n-en">About</a>
+        <a href="about.html" class="i18n-es">Acerca</a>
+        <a href="contact.html" class="i18n-en">Contact</a>
+        <a href="contact.html" class="i18n-es">Contacto</a>
       </div>
-      <div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div>
+      <!-- Persistent CTA in nav -->
+      <a class="btn red i18n-en" href="pricing.html" style="margin-left:.5rem">Join</a>
+      <a class="btn red i18n-es" href="pricing.html" style="margin-left:.5rem">Unirte</a>
+      <!-- Language toggle -->
+      <div class="lang" style="margin-left:.5rem">
+        <button class="btn secondary" onclick="LANG.set('en')">EN</button>
+        <button class="btn secondary" onclick="LANG.set('es')">ES</button>
+      </div>
     </div>
   </nav>
 
   <header class="hero">
     <div class="container">
-      <div class="i18n-es">
-        <h1>Aprende a trabajar con tu cabeza.</h1>
-        <p>Edunancial nace de una historia real sobre <strong>educación financiera</strong> y superación personal.</p>
-        <a class="btn" href="#story">Nuestra historia</a>
-        <a class="btn secondary" href="pricing.html" style="margin-left:.5rem">Ver planes</a>
-      </div>
       <div class="i18n-en">
         <h1>Learn to work with your head.</h1>
-        <p>Edunancial began with a true story about <strong>financial literacy</strong> and self-reliance.</p>
-        <a class="btn" href="#story">Our story</a>
-        <a class="btn secondary" href="pricing.html" style="margin-left:.5rem">View plans</a>
+        <p>Practical financial literacy you can actually use—clear steps, templates, and habits, in English and Spanish.</p>
+        <a class="btn" href="pricing.html">Join Pro — $10/month</a>
+        <a class="btn secondary" href="pricing.html" style="margin-left:.5rem">Start with Basic — $5/month</a>
+      </div>
+      <div class="i18n-es">
+        <h1>Aprende a trabajar con tu cabeza.</h1>
+        <p>Educación financiera práctica—pasos claros, plantillas y hábitos, en inglés y español.</p>
+        <a class="btn" href="pricing.html">Únete a Pro — $10/mes</a>
+        <a class="btn secondary" href="pricing.html" style="margin-left:.5rem">Empieza con Básico — $5/mes</a>
       </div>
     </div>
   </header>
 
+  <!-- Story section -->
   <section class="section" id="story">
     <div class="container card">
-      <!-- Spanish -->
-      <article class="i18n-es">
-        <h2>La historia que nos inspira</h2>
-        <p>Cuando mi hijo tenía <strong>11 años</strong>, entró en la habitación justo cuando yo terminaba una llamada con un cliente de negocios. Al acercarse, mi teléfono indicó que se había realizado un <strong>pago de ese cliente</strong>. Mi hijo vio el aviso y me preguntó: <em>“¿Cómo ganaste dinero por teléfono?”</em></p>
-        <p>Le respondí: <em>“Trabajo con mi cabeza.”</em> Luego le pregunté si él también quería <strong>trabajar con su cabeza</strong>. Pensó un momento y dijo: <em>“Sí, pero no sé cómo.”</em></p>
-        <p>Hoy, con <strong>15 años</strong>, ya invierte su propio dinero, sabe seleccionar acciones con un <strong>ROI del 8–12%</strong>, quiere empezar a comprar opciones y está <strong>planificando un negocio</strong>. Por eso creo que la <strong>educación financiera</strong> puede ayudar a cualquiera a mejorar su situación.</p>
-        <h3>Nuestra promesa</h3>
-        <ul>
-          <li>Explicaciones sin jerga y pasos claros.</li>
-          <li>Plantillas y listas para aplicar hoy.</li>
-          <li>Hábitos, comunidad y recordatorios.</li>
-          <li>Todo en <strong>inglés y español</strong>.</li>
-        </ul>
-      </article>
-
-      <!-- English -->
       <article class="i18n-en">
         <h2>The story that drives us</h2>
-        <p>When my Son was <strong>11 years old</strong>, he walked into the room as I was ending a call with a business client. As he came over, my phone signaled that a <strong>payment was made from that client</strong>. He saw the notice and asked, <em>“How did you make money on the phone?”</em></p>
+        <p>When my Son was <strong>11 years old</strong>, he walked into the room as I was ending a call with a business client. As he came over to me, my phone signaled that a <strong>payment was made from that client</strong>. He saw the notice and asked, <em>“How did you make money on the phone?”</em></p>
         <p>I told him, <em>“I work with my head.”</em> Then I asked if he wanted to <strong>work with his head</strong> too. He thought for a moment and said, <em>“Yes… but I don’t know how.”</em></p>
-        <p>Now at <strong>15 years old</strong>, he selects stocks to invest in with an <strong>8–12% ROI</strong> using his own money, wants to start buying options, and is <strong>planning a business</strong>. This is why I believe financial literacy can help anyone improve their circumstances.</p>
-        <h3>Our commitment</h3>
-        <ul>
-          <li>No-jargon explanations with clear steps.</li>
-          <li>Templates and checklists you can use today.</li>
-          <li>Habits, community, and reminders.</li>
-          <li>Everything in <strong>English and Spanish</strong>.</li>
-        </ul>
+        <p>Now at <strong>15 years old</strong>, he selects stocks to invest in with an <strong>8–12% ROI</strong> using his own money, wants to start buying options, and is <strong>planning a business</strong>. This is why I believe financial literacy can help anyone improve their financial circumstances.</p>
+      </article>
+
+      <article class="i18n-es">
+        <h2>La historia que nos inspira</h2>
+        <p>Cuando mi hijo tenía <strong>11 años</strong>, entró en la habitación justo cuando yo terminaba una llamada con un cliente de negocios. Al acercarse, mi teléfono indicó que se había realizado un <strong>pago de ese cliente</strong>. Vio el aviso y me preguntó: <em>“¿Cómo ganaste dinero por teléfono?”</em></p>
+        <p>Le respondí: <em>“Trabajo con mi cabeza.”</em> Luego le pregunté si él también quería <strong>trabajar con su cabeza</strong>. Pensó un momento y dijo: <em>“Sí, pero no sé cómo.”</em></p>
+        <p>Hoy, con <strong>15 años</strong>, ya invierte su propio dinero, sabe seleccionar acciones con un <strong>ROI del 8–12%</strong>, quiere empezar a comprar opciones y está <strong>planificando un negocio</strong>. Por eso creo que la educación financiera puede ayudar a cualquiera a mejorar sus circunstancias.</p>
       </article>
     </div>
   </section>
 
+  <!-- Pillars / How it works -->
   <section class="section" id="pillars">
     <div class="container grid-2">
       <aside class="card">
-        <h3 class="i18n-es">Bienes Raíces</h3><p class="muted i18n-es">Propiedad, financiamiento y flujo de caja.</p>
-        <h3 class="i18n-es">Activos en Papel</h3><p class="muted i18n-es">Acciones, nociones de opciones y disciplina.</p>
-        <h3 class="i18n-es">Negocios</h3><p class="muted i18n-es">De la idea a la operación resiliente.</p>
-
         <h3 class="i18n-en">Real Estate</h3><p class="muted i18n-en">Property, financing, and cashflow.</p>
         <h3 class="i18n-en">Paper Assets</h3><p class="muted i18n-en">Stocks, options basics, disciplined approach.</p>
         <h3 class="i18n-en">Business</h3><p class="muted i18n-en">From idea to resilient operations.</p>
+
+        <h3 class="i18n-es">Bienes Raíces</h3><p class="muted i18n-es">Propiedad, financiamiento y flujo de caja.</p>
+        <h3 class="i18n-es">Activos en Papel</h3><p class="muted i18n-es">Acciones, nociones de opciones y disciplina.</p>
+        <h3 class="i18n-es">Negocios</h3><p class="muted i18n-es">De la idea a la operación resiliente.</p>
       </aside>
 
       <article class="card">
-        <div class="i18n-es">
-          <h3>Cómo funciona</h3>
-          <ol class="muted">
-            <li>Elige tu plan — <strong>Básico</strong> o <strong>Pro</strong>.</li>
-            <li>Accede a lecciones y plantillas aplicables hoy.</li>
-            <li>Mejora cada mes con hábitos, comunidad y recordatorios.</li>
-          </ol>
-        </div>
         <div class="i18n-en">
           <h3>How it works</h3>
           <ol class="muted">
             <li>Pick your plan — <strong>Basic</strong> or <strong>Pro</strong>.</li>
             <li>Access lessons and templates you can use today.</li>
-            <li>Improve every month with habits, community, and reminders.</li>
+            <li>Build habits with reminders and community.</li>
+          </ol>
+        </div>
+        <div class="i18n-es">
+          <h3>Cómo funciona</h3>
+          <ol class="muted">
+            <li>Elige tu plan — <strong>Básico</strong> o <strong>Pro</strong>.</li>
+            <li>Accede a lecciones y plantillas aplicables hoy.</li>
+            <li>Construye hábitos con recordatorios y comunidad.</li>
           </ol>
         </div>
       </article>
@@ -106,14 +106,45 @@
   <footer>
     <div class="container">
       <div class="nav-links" style="margin:.5rem 0">
-        <a href="about.html">About</a> • <a href="contact.html">Contact</a> • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a> • <a href="refunds.html">Refunds</a> • <a href="accessibility.html">Accessibility</a> • <a href="cookies.html">Cookies</a> • <a href="security.html">Security</a>
+        <a href="about.html" class="i18n-en">About</a> •
+        <a href="contact.html" class="i18n-en">Contact</a> •
+        <a href="privacy.html" class="i18n-en">Privacy</a> •
+        <a href="terms.html" class="i18n-en">Terms</a> •
+        <a href="disclaimer.html" class="i18n-en">Disclaimer</a> •
+        <a href="refunds.html" class="i18n-en">Refunds</a> •
+        <a href="accessibility.html" class="i18n-en">Accessibility</a> •
+        <a href="cookies.html" class="i18n-en">Cookies</a> •
+        <a href="security.html" class="i18n-en">Security</a>
+
+        <a href="about.html" class="i18n-es">Acerca</a> •
+        <a href="contact.html" class="i18n-es">Contacto</a> •
+        <a href="privacy.html" class="i18n-es">Privacidad</a> •
+        <a href="terms.html" class="i18n-es">Términos</a> •
+        <a href="disclaimer.html" class="i18n-es">Aviso legal</a> •
+        <a href="refunds.html" class="i18n-es">Reembolsos</a> •
+        <a href="accessibility.html" class="i18n-es">Accesibilidad</a> •
+        <a href="cookies.html" class="i18n-es">Cookies</a> •
+        <a href="security.html" class="i18n-es">Seguridad</a>
       </div>
       <p>© <span id="year"></span> Edunancial. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
+    // Default to English, remember user choice
+    const LANG = {
+      set(l){
+        localStorage.setItem('edu_lang', l);
+        document.documentElement.setAttribute('lang', l);
+      },
+      init(){
+        const saved = localStorage.getItem('edu_lang') || 'en';
+        document.documentElement.setAttribute('lang', saved);
+        const y = document.getElementById('year');
+        if (y) y.textContent = new Date().getFullYear();
+      }
+    };
+    document.addEventListener('DOMContentLoaded', LANG.init);
   </script>
 </body>
 </html>
