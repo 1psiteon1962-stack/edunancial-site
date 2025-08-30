@@ -1,144 +1,23 @@
-############################################
-# Netlify configuration for edunancial.com #
-############################################
-
-# We deploy a static site from the repo root
 [build]
   publish = "."
 
-############################################
-# Canonical domain + HTTPS enforcement
-############################################
-
-# Force http -> https (any host)
+[[redirects]]; short routes
+from="/privacy"      to="/privacy.html"      status=301
 [[redirects]]
-  from = "http://*"
-  to   = "https://:splat"
-  status = 301
-  force = true
-
-# Force apex -> www (already-https)
+from="/terms"        to="/terms.html"        status=301
 [[redirects]]
-  from = "https://edunancial.com/*"
-  to   = "https://www.edunancial.com/:splat"
-  status = 301
-  force  = true
-
-############################################
-# Pretty URLs for your main pages
-# (Netlify usually handles this, but we pin it.)
-############################################
-
-# Home already served at /
-# About
+from="/pricing"      to="/pricing.html"      status=301
 [[redirects]]
-  from = "/about"
-  to   = "/about.html"
-  status = 200
+from="/about"        to="/about.html"        status=301
 [[redirects]]
-  from = "/about-es"
-  to   = "/about-es.html"
-  status = 200
-
-# Contact
+from="/contact"      to="/contact.html"      status=301
 [[redirects]]
-  from = "/contact"
-  to   = "/contact.html"
-  status = 200
-
-# Shop
+from="/cookies"      to="/cookies.html"      status=301
 [[redirects]]
-  from = "/shop"
-  to   = "/Shop.html"
-  status = 200
-
-# Members landing (public route name; you can add content later)
+from="/security"     to="/security.html"     status=301
 [[redirects]]
-  from = "/members"
-  to   = "/members_index.html"
-  status = 200
-
-############################################
-# Security headers (strong defaults)
-############################################
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    X-Frame-Options           = "DENY"
-    X-Content-Type-Options    = "nosniff"
-    Referrer-Policy           = "strict-origin-when-cross-origin"
-    Permissions-Policy        = "geolocation=(), microphone=(), camera=()"
-
-    # Content Security Policy
-    # - If you add other providers (chat widgets, etc.), include them here.
-    Content-Security-Policy = """
-      default-src 'self';
-      script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/;
-      connect-src 'self' https://www.google-analytics.com;
-      img-src 'self' data: https:;
-      style-src 'self' 'unsafe-inline';
-      frame-src https://checkout.stripe.com https://commerce.coinbase.com https://*.squareup.com https://www.google.com/recaptcha/;
-      child-src https://checkout.stripe.com https://commerce.coinbase.com https://*.squareup.com;
-      object-src 'none';
-      base-uri 'self';
-      form-action 'self' https://checkout.stripe.com https://commerce.coinbase.com https://*.squareup.com;
-    """
-
-############################################
-# Caching strategy
-############################################
-
-# HTML: always fresh
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
-
-# Root document (served as text/html)
-[[headers]]
-  for = "/"
-  [headers.values]
-    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
-
-# CSS & JS: long cache with immutable (bust by changing file name)
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Images & icons
-[[headers]]
-  for = "/*.(png|jpg|jpeg|gif|webp|svg|ico)"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Data JSON (product catalog) — cache but allow fast updates
-[[headers]]
-  for = "/products_assets.json"
-  [headers.values]
-    Cache-Control = "public, max-age=300, stale-while-revalidate=86400"
-
-############################################
-# Members section (simple Basic Auth gate)
-# Change the password below.
-############################################
-[[headers]]
-  for = "/members_index.html"
-  [headers.values]
-    Basic-Auth = "member:CHANGE_THIS_MEMBER_PASSWORD"
-
-############################################
-# 404 fallback
-############################################
-# If you have a custom 404.html in repo root, Netlify will serve it.
-# This redirect ensures SPA-like behavior isn’t required.
+from="/accessibility" to="/accessibility.html" status=301
 [[redirects]]
-  from = "/*"
-  to   = "/404.html"
-  status = 404
-  force  = false
+from="/refunds"      to="/refunds.html"      status=301
+[[redirects]]
+from="/disclaimer"   to="/disclaimer.html"   status=301
