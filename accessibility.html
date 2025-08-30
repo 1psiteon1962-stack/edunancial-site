@@ -4,29 +4,16 @@
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Accesibilidad — Edunancial</title>
   <meta name="description" content="Declaración de accesibilidad. EN/ES.">
-  <style>
-    :root{--max:900px}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}header{border-bottom:1px solid #eee;background:#fafafa}
-    .row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}.btn{padding:.55rem .9rem;border-radius:12px;border:1px solid #111;background:#fff}
-    .i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem;text-align:center}
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header><div class="container row"><a href="index.html" style="text-decoration:none;color:#111;font-weight:800">Edunancial</a><div><button class="btn" onclick="LANG.set('en')">EN</button><button class="btn" onclick="LANG.set('es')">ES</button></div></div></header>
-  <main class="container">
-    <article class="i18n-es">
-      <h1>Declaración de Accesibilidad</h1>
-      <p>Buscamos cumplir con WCAG 2.1 AA. Si encuentras barreras, escríbenos a <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</p>
-    </article>
-    <article class="i18n-en">
-      <h1>Accessibility Statement</h1>
-      <p>We aim to meet WCAG 2.1 AA. If you encounter barriers, contact <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</p>
-    </article>
-  </main>
+  <nav><div class="container nav-row"><a class="brand" href="index.html">Edunancial</a><div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div></div></nav>
+  <header class="hero"><div class="container"><div class="i18n-es"><h1>Declaración de Accesibilidad</h1></div><div class="i18n-en"><h1>Accessibility Statement</h1></div></div></header>
+  <main class="section"><div class="container card">
+    <div class="i18n-es"><p>Buscamos cumplir con WCAG 2.1 AA. Si encuentras barreras, escríbenos a <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</p></div>
+    <div class="i18n-en"><p>We aim to meet WCAG 2.1 AA. If you encounter barriers, contact <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</p></div>
+  </div></main>
   <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>
-    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
-  </script>
+  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
 </body>
 </html>
