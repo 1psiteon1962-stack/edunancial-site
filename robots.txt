@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.edunancial.com/sitemap.xml
+Sitemap: https://edunancial.com/sitemap.xml
