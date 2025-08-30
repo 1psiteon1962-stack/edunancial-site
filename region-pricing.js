@@ -2,7 +2,10 @@
 (function(){
   const CFG = window.EDU_PRICING_CONFIG;
 
-  // Helpers
+  // ===== Feature flags =====
+  const USE_SQUARE_FUNCTION = false; // flip to true when you add the Netlify function
+
+  // ===== Helpers =====
   const getCookie = (name) => {
     const m = document.cookie.match(new RegExp('(^| )'+name+'=([^;]+)'));
     return m ? decodeURIComponent(m[2]) : null;
@@ -15,116 +18,116 @@
   const $ = (s,root=document)=>root.querySelector(s);
   const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
 
+  async function fetchSquarePrices(region){
+    try {
+      // If you add Netlify function: /netlify/functions/get-prices
+      const url = `/.netlify/functions/get-prices?region=${encodeURIComponent(region)}`;
+      const res = await fetch(url);
+      if (!res.ok) return null;
+      return await res.json(); // { region, priceByPlan: { BASIC:{amount,currency}, ... } }
+    } catch { return null; }
+  }
+
   function guessRegion() {
-    // 1) Edge cookie if present
     const edge = getCookie("eduregion");
     if (edge) return edge;
-
-    // 2) Browser language hint
     const lang = (navigator.language || "en-US").toUpperCase();
     if (lang.includes("-US")) return "US";
     if (lang.includes("-PR")) return "PR";
-    if (lang.startsWith("ES-")) return "DO"; // Spanish – default to DO for LatAm unless overridden
-    if (lang.startsWith("FR-") || lang.startsWith("DE-") || lang.startsWith("IT-") || lang.startsWith("ES-") || lang.startsWith("PT-")) return "EU";
-
+    if (lang.startsWith("ES-")) return "DO";
+    if (/^(FR|DE|IT|ES|PT)/.test(lang)) return "EU";
     return "ROW";
   }
-
   function getLang() {
-    // Match your site’s language toggle (default EN)
     return (storage.getItem("edu_lang") || document.documentElement.lang || "en").slice(0,2);
   }
-
-  function currencyFor(region) {
-    return CFG.currencyByRegion[region] || "USD";
+  function setLang(lang) {
+    storage.setItem("edu_lang", lang);
+    document.documentElement.setAttribute("lang", lang);
+    render();
   }
-
-  function formatMoney(amount, currency, locale='en-US') {
-    try {
-      return new Intl.NumberFormat(locale, { style: "currency", currency }).format(amount);
-    } catch (_e) {
-      return `${currency} ${amount}`;
-    }
-  }
-
   function currentRegion() {
     return storage.getItem("edu_region") || getCookie("eduregion") || guessRegion();
   }
-
   function setRegion(region, pinned=true) {
     storage.setItem("edu_region", region);
     setCookie("eduregion", region);
     if (pinned) setCookie("eduregion_pinned", "1");
     render();
   }
-
-  function setLang(lang) {
-    storage.setItem("edu_lang", lang);
-    document.documentElement.setAttribute("lang", lang);
-    render();
+  function currencyFor(region) {
+    return CFG.currencyByRegion[region] || "USD";
+  }
+  function formatMoney(amount, currency, locale='en-US') {
+    try { return new Intl.NumberFormat(locale, { style: "currency", currency }).format(amount); }
+    catch { return `${currency} ${amount}`; }
   }
 
-  // Expose for buttons
+  // expose for HTML buttons
   window.EDU_UI = { setRegion, setLang };
 
-  function render() {
+  async function render() {
     const region = currentRegion();
     const lang = getLang();
-    const currency = currencyFor(region);
     const locale = lang === "es" ? "es-ES" : "en-US";
 
-    // Update region label
+    // Try Square function (optional)
+    let squareData = null;
+    if (USE_SQUARE_FUNCTION) squareData = await fetchSquarePrices(region);
+
+    // Header labels
     const regionLabelEl = $("#region-label");
     const changeBtn = $("#region-change-btn");
-    if (regionLabelEl) {
-      regionLabelEl.textContent = (CFG.labels.regionLabel[lang] || CFG.labels.regionLabel.en) + ": " + region;
-    }
-    if (changeBtn) {
-      changeBtn.textContent = CFG.labels.change[lang] || CFG.labels.change.en;
-    }
+    if (regionLabelEl) regionLabelEl.textContent = (CFG.labels.regionLabel[lang] || CFG.labels.regionLabel.en) + ": " + region;
+    if (changeBtn) changeBtn.textContent = CFG.labels.change[lang] || CFG.labels.change.en;
 
-    // Update plan cards
+    // Plan cards
     $$("[data-plan]").forEach(card => {
       const planId = card.getAttribute("data-plan");
       const plan = CFG.display[planId];
       if (!plan) return;
 
-      const nameEl = card.querySelector("[data-plan-name]");
-      const priceEl = card.querySelector("[data-plan-price]");
-      const perEl = card.querySelector("[data-plan-per]");
-      const btnEl = card.querySelector("[data-plan-select]");
+      const nameEl   = card.querySelector("[data-plan-name]");
+      const priceEl  = card.querySelector("[data-plan-price]");
+      const perEl    = card.querySelector("[data-plan-per]");
+      const btnEl    = card.querySelector("[data-plan-select]");
+      const cryptoEl = card.querySelector("[data-plan-crypto]");
 
       if (nameEl) nameEl.textContent = plan.name[lang] || plan.name.en;
 
-      const raw = plan.prices[region] ?? plan.prices.ROW;
-      if (priceEl) priceEl.textContent = formatMoney(raw, currency, locale);
-      if (perEl) perEl.textContent = CFG.labels.perMonth[lang] || CFG.labels.perMonth.en;
+      const sq = squareData?.priceByPlan?.[planId] || null;
+      const currency = sq?.currency || currencyFor(region);
+      const amount   = sq?.amount ?? (plan.prices[region] ?? plan.prices.ROW);
 
-      // Checkout links by region with fallback
-      const links = CFG.checkoutLinks[planId] || {};
-      const href = links[region] || links.ROW || "#";
+      if (priceEl) priceEl.textContent = formatMoney(amount, currency, locale);
+      if (perEl)   perEl.textContent = CFG.labels.perMonth[lang] || CFG.labels.perMonth.en;
+
+      // Square link (primary)
+      const links = CFG.checkoutLinks?.[planId] || {};
+      const href  = links[region] || links.ROW || "#";
       if (btnEl) {
         btnEl.textContent = CFG.labels.selectPlan[lang] || CFG.labels.selectPlan.en;
         btnEl.setAttribute("href", href);
       }
-    });
 
-    // Language toggles (optional)
-    $$("[data-i18n]").forEach(el => {
-      const key = el.getAttribute("data-i18n");
-      const parts = key.split(".");
-      let ref = CFG.labels;
-      for (const p of parts) ref = ref?.[p];
-      if (typeof ref === "string") el.textContent = ref;
-      else if (ref && typeof ref === "object") el.textContent = ref[lang] || ref.en || "";
+      // Bitcoin link (optional; hidden if empty)
+      if (cryptoEl) {
+        const cLinks = CFG.cryptoLinks?.[planId] || {};
+        const cHref  = cLinks[region] || cLinks.ROW || "";
+        if (cHref) {
+          cryptoEl.style.display = "inline-block";
+          cryptoEl.setAttribute("href", cHref);
+          cryptoEl.textContent = lang === "es" ? "Pagar con Bitcoin" : "Pay with Bitcoin";
+        } else {
+          cryptoEl.style.display = "none";
+        }
+      }
     });
   }
 
-  // Region picker modal (very lightweight)
   function initRegionPicker() {
     const picker = $("#region-picker");
     if (!picker) return;
-
     picker.addEventListener("click", (e) => {
       const r = e.target.closest("[data-region]");
       if (r) {
@@ -132,7 +135,6 @@
         picker.open = false;
       }
     });
-
     const change = $("#region-change-btn");
     if (change) change.addEventListener("click", () => picker.open = true);
   }
