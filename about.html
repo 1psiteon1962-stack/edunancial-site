@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Acerca de — Edunancial</title>
-  <meta name="description" content="Nuestra misión: educación financiera bilingüe, clara y práctica.">
+  <meta name="description" content="La inspiración de Edunancial: una conversación padre–hijo — 'Sí, pero no sé cómo'. EN/ES.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,23 +16,46 @@
     </div>
   </nav>
 
-  <header class="hero"><div class="container">
-    <div class="i18n-es"><h1>Acerca de Edunancial</h1><p class="muted" style="color:#fff">Misión: educación financiera clara, bilingüe y práctica.</p></div>
-    <div class="i18n-en"><h1>About Edunancial</h1><p class="muted" style="color:#fff">Mission: clear, bilingual, practical financial education.</p></div>
-  </div></header>
-
-  <main class="section"><div class="container card">
-    <div class="i18n-es">
-      <h2>Nuestra misión</h2><p>Explicar el dinero sin jerga y con herramientas que funcionan.</p>
-      <h3>Cómo trabajamos</h3><ul><li>Lecciones cortas y aplicables.</li><li>Plantillas listas.</li><li>Comunidad y recordatorios.</li></ul>
+  <header class="hero">
+    <div class="container">
+      <div class="i18n-es"><h1>Acerca de Edunancial</h1><p class="muted" style="color:#fff">De una charla con mi hijo a una misión bilingüe.</p></div>
+      <div class="i18n-en"><h1>About Edunancial</h1><p class="muted" style="color:#fff">From a talk with my Son to a bilingual mission.</p></div>
     </div>
-    <div class="i18n-en">
-      <h2>Our mission</h2><p>Explain money without jargon, with tools that work.</p>
-      <h3>How we work</h3><ul><li>Short, practical lessons.</li><li>Ready-to-use templates.</li><li>Community and reminders.</li></ul>
-    </div>
-  </div></main>
+  </header>
 
-  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
+  <main class="section">
+    <div class="container card">
+      <div class="i18n-es">
+        <h2>La conversación que lo cambió todo</h2>
+        <p>Un día le pregunté a mi hijo: <em>“¿Quieres trabajar con tu cabeza?”</em> Me dijo: <strong>“Sí… pero no sé cómo.”</strong> Esa honestidad nos mostró una verdad: hay talento y ganas, pero falta un camino claro.</p>
+        <h2>Nuestra misión</h2>
+        <p>Edunancial existe para enseñar el <em>cómo</em>: pasos concretos, sin jerga, con plantillas y ejemplos reales. Todo en inglés y español.</p>
+        <h3>Lo que encontrarás</h3>
+        <ul>
+          <li>Lecciones cortas y aplicables.</li>
+          <li>Plantillas listas para usar.</li>
+          <li>Hábitos, comunidad y recordatorios.</li>
+        </ul>
+      </div>
+
+      <div class="i18n-en">
+        <h2>The conversation that changed everything</h2>
+        <p>One day I asked my Son: <em>“Do you want to work with your head?”</em> He answered: <strong>“Yes… but I don’t know how.”</strong> That honesty revealed a truth: there’s potential and drive, but the path isn’t clear.</p>
+        <h2>Our mission</h2>
+        <p>Edunancial exists to teach the <em>how</em>: concrete steps, no jargon, with templates and real examples. In English and Spanish.</p>
+        <h3>What you’ll find</h3>
+        <ul>
+          <li>Short, practical lessons.</li>
+          <li>Ready-to-use templates.</li>
+          <li>Habits, community, and reminders.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="container"><p>© <span id="year"></span> Edunancial. All rights reserved.</p></div></footer>
+  <script>
+    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
+  </script>
 </body>
 </html>
