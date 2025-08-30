@@ -1,174 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Financial Literacy for Everyone</title>
-  <meta name="description" content="Edunancial: bilingual financial literacy, membership plans, and resources for young adults and entrepreneurs." />
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Edunancial — Educación financiera clara</title>
+  <meta name="description" content="Aprende dinero sin complicaciones: presupuesto, crédito, inversión básica y negocios. EN/ES.">
   <style>
-    :root { --max: 1100px; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; color:#111; }
-    header, nav, main, footer { width:100%; }
-    .container { max-width: var(--max); margin: 0 auto; padding: 1rem; }
-    nav { border-bottom:1px solid #eee; background:#fff; position:sticky; top:0; z-index:20; }
-    .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .nav-links a { text-decoration:none; color:#111; margin:0 .5rem; }
-    .brand { font-weight:800; letter-spacing:.3px; }
-
-    /* HERO */
-    .hero { background:#fafafa; border-bottom:1px solid #eee; }
-    .hero h1 { font-size: clamp(1.8rem, 2.8vw, 2.6rem); margin:0 0 .5rem; color:#111; font-weight:700; }
-    .hero p { margin:0 0 1rem; max-width: 65ch; color:#333; }
-    .cta-row { display:flex; gap:.5rem; flex-wrap:wrap; }
-    .btn { padding:.6rem 1rem; border-radius:10px; border:1px solid #111; background:#111; color:#fff; text-decoration:none; display:inline-block; }
-    .btn.secondary { background:#fff; color:#111; }
-
-    /* Pricing UI */
-    .pricing { max-width: var(--max); margin: 2rem auto; padding: 1rem; }
-    .pricing-header { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; margin-bottom:1rem; }
-    .region-pill { background:#f2f2f2; padding:.25rem .5rem; border-radius:999px; font-size:.9rem; }
-    .btn-link { background:none; border:none; text-decoration:underline; cursor:pointer; padding:0; }
-    .plans { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:1rem; }
-    .plan-card { border:1px solid #e5e7eb; border-radius:16px; padding:1rem; background:#fff; }
-    .plan-card h3 { margin:.25rem 0 .25rem; }
-    .price { font-size:1.6rem; font-weight:700; margin:.5rem 0 1rem; }
-    .btn-primary { display:inline-block; padding:.6rem 1rem; border-radius:10px; background:#111; color:#fff; text-decoration:none; }
-    .btn-crypto { display:inline-block; padding:.6rem 1rem; border-radius:10px; background:#333; color:#fff; text-decoration:none; margin-left:.5rem; }
-
-    dialog#region-picker { padding:1rem 1.25rem; border:none; border-radius:16px; }
-    .region-grid { display:grid; grid-template-columns:repeat(2, minmax(140px,1fr)); gap:.5rem; margin:1rem 0; }
-    .region-grid button { padding:.5rem .75rem; border-radius:10px; border:1px solid #e5e7eb; background:#fff; cursor:pointer; }
-
-    footer { border-top:1px solid #eee; background:#fafafa; margin-top:2rem; }
-    .muted { color:#666; font-size:.95rem; }
+    :root { --max: 1100px; } *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.55}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #eee}
+    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+    .brand{font-weight:800;text-decoration:none;color:#111}
+    .nav-links a{margin:0 .5rem;text-decoration:none;color:#111}
+    .btn{display:inline-block;padding:.65rem 1rem;border-radius:12px;border:1px solid #111;background:#111;color:#fff;text-decoration:none}
+    .btn.secondary{background:#fff;color:#111}
+    header.hero{background:#fafafa;border-bottom:1px solid #eee}
+    header.hero h1{font-size:clamp(1.8rem,2.8vw,2.6rem);margin:.2rem 0 .6rem}
+    header.hero p{margin:0 0 1rem;color:#333;max-width:65ch}
+    .cta-row{display:flex;gap:.5rem;flex-wrap:wrap}
+    .section{max-width:var(--max);margin:2rem auto;padding:1rem}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:1rem}
+    @media(min-width:860px){.grid-2{grid-template-columns:1.1fr .9fr}}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .muted{color:#555} footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
   </style>
 </head>
-
 <body>
-  <!-- NAV -->
   <nav>
     <div class="container nav-row">
-      <div class="brand">Edunancial</div>
+      <a href="index.html" class="brand">Edunancial</a>
       <div class="nav-links">
         <a href="index.html">Home</a>
+        <a href="pricing.html">Plans</a>
         <a href="about.html">About</a>
-        <a href="Shop.html">Shop</a>
-        <a href="members_index.html">Members</a>
         <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
       </div>
       <div>
-        <button type="button" class="btn-link" onclick="EDU_UI?.setLang('en')">EN</button> |
-        <button type="button" class="btn-link" onclick="EDU_UI?.setLang('es')">ES</button>
+        <button class="btn secondary" onclick="LANG.set('en')">EN</button>
+        <button class="btn secondary" onclick="LANG.set('es')">ES</button>
       </div>
     </div>
   </nav>
 
-  <!-- HERO (bilingual via JS) -->
   <header class="hero">
     <div class="container">
-      <h1 id="hero-headline">Financial literacy for everyone — bilingual and practical</h1>
-      <p id="hero-paragraph">
-        Learn money skills the clear way: budgeting, credit, investing, and business basics.
-        Membership includes lessons, templates, and community — with region-based pricing.
-      </p>
-      <div class="cta-row">
-        <a class="btn" href="#plans" id="hero-cta-primary">View Plans</a>
-        <a class="btn secondary" href="about.html" id="hero-cta-secondary">How Edunancial started</a>
+      <div class="i18n-es">
+        <h1>Educación financiera para todos — bilingüe y práctica</h1>
+        <p>Aprende a manejar tu dinero con claridad: presupuesto, crédito, inversión básica y negocios. Lecciones, plantillas y comunidad — sin complicaciones.</p>
+        <div class="cta-row">
+          <a class="btn" href="#our-story">Nuestra historia</a>
+          <a class="btn secondary" href="pricing.html">Ver planes</a>
+        </div>
+      </div>
+      <div class="i18n-en">
+        <h1>Financial literacy for everyone — bilingual and practical</h1>
+        <p>Learn money skills the clear way: budgeting, credit, basic investing, and business basics. Lessons, templates, and community — without the jargon.</p>
+        <div class="cta-row">
+          <a class="btn" href="#our-story">Our story</a>
+          <a class="btn secondary" href="pricing.html">View plans</a>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- MAIN -->
-  <main>
-    <!-- PRICING -->
-    <section class="pricing" id="plans">
-      <div class="pricing-header">
-        <span id="region-label" class="region-pill">Region: …</span>
-        <button id="region-change-btn" type="button" class="btn-link">Change</button>
-        <span style="margin-left:1rem">
-          <button type="button" class="btn-link" onclick="EDU_UI.setLang('en')">EN</button> |
-          <button type="button" class="btn-link" onclick="EDU_UI.setLang('es')">ES</button>
-        </span>
-      </div>
-
-      <div class="plans">
-        <!-- BASIC -->
-        <article class="plan-card" data-plan="BASIC">
-          <h3 data-plan-name>Basic</h3>
-          <div class="price">
-            <span data-plan-price>$0.00</span> <small data-plan-per>/month</small>
+  <section class="section" id="our-story">
+    <div class="grid-2">
+      <article class="card">
+        <div class="i18n-es">
+          <h2>Por qué existimos</h2>
+          <p>Explicamos el dinero sin palabras complicadas. Creamos guías y plantillas que puedes usar hoy, y una comunidad que te acompaña. Todo en inglés y español.</p>
+          <h3>Lo que obtienes</h3>
+          <ul>
+            <li>Lecciones cortas, claras y aplicables.</li>
+            <li>Plantillas de presupuesto, metas y negocio.</li>
+            <li>Comunidad y recordatorios útiles (EN/ES).</li>
+          </ul>
+          <div class="cta-row" style="margin-top:.5rem">
+            <a class="btn" href="pricing.html">Ver planes</a>
+            <a class="btn secondary" href="about.html">Conócenos</a>
           </div>
-          <a data-plan-select href="#" class="btn-primary">Select</a>
-          <a data-plan-crypto href="#" class="btn-crypto">Pay with Bitcoin</a>
-          <p class="muted">Great for getting started: core lessons and templates.</p>
-        </article>
-
-        <!-- PREMIUM -->
-        <article class="plan-card" data-plan="PREMIUM">
-          <h3 data-plan-name>Premium</h3>
-          <div class="price">
-            <span data-plan-price>$0.00</span> <small data-plan-per>/month</small>
+        </div>
+        <div class="i18n-en">
+          <h2>Why we exist</h2>
+          <p>We explain money without jargon. We build guides and templates you can use today, plus a supportive community. Everything in English and Spanish.</p>
+          <h3>What you get</h3>
+          <ul>
+            <li>Short, practical lessons.</li>
+            <li>Budget, goals, and small-business templates.</li>
+            <li>Community and helpful reminders (EN/ES).</li>
+          </ul>
+          <div class="cta-row" style="margin-top:.5rem">
+            <a class="btn" href="pricing.html">View plans</a>
+            <a class="btn secondary" href="about.html">About us</a>
           </div>
-          <a data-plan-select href="#" class="btn-primary">Select</a>
-          <a data-plan-crypto href="#" class="btn-crypto">Pay with Bitcoin</a>
-          <p class="muted">Everything in Basic plus advanced modules and community Q&amp;A.</p>
-        </article>
+        </div>
+      </article>
 
-        <!-- LIFETIME -->
-        <article class="plan-card" data-plan="LIFETIME">
-          <h3 data-plan-name>Lifetime</h3>
-          <div class="price">
-            <span data-plan-price>$0.00</span> <small>/one-time</small>
-          </div>
-          <a data-plan-select href="#" class="btn-primary">Select</a>
-          <a data-plan-crypto href="#" class="btn-crypto">Pay with Bitcoin</a>
-          <p class="muted">One payment. Lifetime access to all current and future lessons.</p>
-        </article>
-      </div>
-    </section>
+      <aside class="card">
+        <div class="i18n-es">
+          <h3>Cómo funciona</h3>
+          <ol class="muted">
+            <li>Elige tu plan (Básico o Pro).</li>
+            <li>Accede a lecciones y plantillas.</li>
+            <li>Mejora cada mes con la comunidad.</li>
+          </ol>
+        </div>
+        <div class="i18n-en">
+          <h3>How it works</h3>
+          <ol class="muted">
+            <li>Pick your plan (Basic or Pro).</li>
+            <li>Access lessons and templates.</li>
+            <li>Improve every month with the community.</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+  </section>
 
-    <!-- REGION PICKER -->
-    <dialog id="region-picker">
-      <h4>Select your region</h4>
-      <div class="region-grid">
-        <button data-region="US">United States</button>
-        <button data-region="PR">Puerto Rico</button>
-        <button data-region="DO">Dominican Republic</button>
-        <button data-region="MX">Mexico</button>
-        <button data-region="CA">Canada</button>
-        <button data-region="EU">European Union</button>
-        <button data-region="ROW">Rest of World</button>
-      </div>
-      <form method="dialog"><button>Close</button></form>
-    </dialog>
-  </main>
-
-  <!-- FOOTER -->
   <footer>
     <div class="container">
-      <p class="muted">
-        © <span id="year"></span> Edunancial, Inc. West Palm Beach, Florida.
-        Bilingual financial education for new generations.
-      </p>
-      <p class="muted">
-        <a href="privacy.html">Privacy</a> •
-        <a href="terms.html">Terms</a> •
-        <a href="sitemap.xml">Sitemap</a> •
-        <a href="robots.txt">Robots</a>
-      </p>
+      <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a></p>
     </div>
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const y = document.getElementById('year'); 
-      if (y) y.textContent = new Date().getFullYear();
-    });
+    const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)
   </script>
-
-  <!-- REQUIRED ORDER -->
-  <script src="pricing-config.js"></script>
-  <script src="region-pricing.js"></script>
 </body>
 </html>
