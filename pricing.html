@@ -1,57 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Plans — Edunancial</title>
-<link rel="stylesheet" href="css/style.css">
-<style>
-  :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
-  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink)}
-  header,footer{background:#fff;border-bottom:1px solid #e5e7eb}
-  .container{max-width:var(--max);margin:0 auto;padding:0 16px}
-  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
-  .brand{font-weight:800;color:var(--blue);text-decoration:none}
-  .hero{padding:42px 0;background:linear-gradient(135deg,#163a74,#c92525);color:#fff}
-  .hero h1{margin:0 0 .4rem 0;font-size:2.2rem}
-  .muted{color:#64748b}
-  /* region-pricing cards already styled in region-pricing.js; just spacing here */
-  .section{padding:24px 0}
-</style>
-
-<!-- Load UI helpers, consent (will conditionally show), then pricing scripts -->
-<script>window.EDN_GA_ID=""; /* add GA4 ID when ready */</script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title data-i18n="plans_title">Plans</title>
+<meta name="description" content="Basic and Gold memberships — monthly or annual — with bilingual lessons and templates.">
+<link rel="stylesheet" href="style.css"/>
 <script src="edn-ui.js" defer></script>
 <script src="edn-consent.js" defer></script>
 <script src="pricing-config.js" defer></script>
 <script src="region-pricing.js" defer></script>
 </head>
-
 <body>
-<header>
-  <div class="container nav">
-    <a class="brand" href="index.html">Edunancial</a>
-    <nav>
-      <a href="index.html">Home</a> • <strong>Plans</strong> • <a href="story.html">Our Story</a> • <a href="contact.html">Contact</a>
-      <span style="margin-left:.75rem"><button class="i18n-btn" data-lang="en">EN</button><button class="i18n-btn" data-lang="es">ES</button></span>
+<header class="nav">
+  <div class="container nav-row">
+    <a class="brand" href="index.html" data-i18n="brand">Edunancial</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+      <a href="story.html" data-i18n="nav_story">Our Story</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
     </nav>
+    <div class="lang">
+      <button data-edn-lang="en" class="active">EN</button>
+      <button data-edn-lang="es">ES</button>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
     <h1 data-i18n="plans_title">Plans</h1>
-    <p data-i18n="plans_sub">Clear, flexible pricing. You’ll see the final amount before checkout.</p>
+    <p data-i18n="plans_sub">Clear, flexible pricing...</p>
   </div>
 </section>
 
-<main class="container section">
-  <!-- MOUNT POINT: plans get injected here -->
-  <div id="plans-root"></div>
+<main class="section">
+  <div class="container">
+    <div id="plans-root"></div>
+  </div>
 </main>
 
 <footer>
-  <div class="container" style="padding:16px 0">
-    <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+  <div class="row">
+    <span>© 2025 Edunancial</span> •
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a> •
+    <a href="terms.html" data-i18n="footer_terms">Terms</a> •
+    <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
   </div>
 </footer>
 </body>
