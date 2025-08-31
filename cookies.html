@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cookies — Edunancial</title>
-  <meta name="description" content="Política de cookies. EN/ES.">
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav><div class="container nav-row"><a class="brand" href="index.html">Edunancial</a><div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div></div></nav>
-  <header class="hero"><div class="container"><div class="i18n-es"><h1>Política de Cookies</h1></div><div class="i18n-en"><h1>Cookie Policy</h1></div></div></header>
-  <main class="section"><div class="container card">
-    <div class="i18n-es"><p>Usamos cookies para autenticación, preferencia de idioma y analítica básica. Puedes bloquear cookies en tu navegador; algunas funciones podrían verse afectadas.</p></div>
-    <div class="i18n-en"><p>We use cookies for authentication, language preference, and basic analytics. You may block cookies in your browser; some features may be affected.</p></div>
-  </div></main>
-  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cookies • Ultima Defensa Legal</title>
+<link rel="stylesheet" href="/css/style.css"></head><body>
+<nav class="topbar">
+  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
+  <ul class="menu">
+    <li><a href="/index.html" data-i18n="nav.home">Home</a></li>
+    <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
+    <li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li>
+  </ul>
+  <button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button>
+</nav>
+
+<main class="container">
+  <h1 data-i18n="cookies.title">Cookie Notice</h1>
+  <div class="card only-en"><p>We use strictly necessary cookies for security and forms, and analytics cookies to improve the site. You can control cookies in your browser settings.</p></div>
+  <div class="card only-es"><p>Usamos cookies estrictamente necesarias para seguridad y formularios, y cookies de analítica para mejorar el sitio. Puedes controlarlas en la configuración del navegador.</p></div>
+</main>
+
+<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
+<script src="/js/i18n.js" defer></script>
+</body></html>
