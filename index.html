@@ -1,89 +1,79 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Edunancial — Financial literacy for everyone</title>
-<link rel="stylesheet" href="css/style.css">
-<style>
-  :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
-  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink)}
-  header,footer{background:#fff;border-bottom:1px solid #e5e7eb}
-  .container{max-width:var(--max);margin:0 auto;padding:0 16px}
-  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
-  .brand{font-weight:800;color:var(--blue);text-decoration:none}
-  .hero{padding:46px 0;background:linear-gradient(135deg,#163a74,#c92525);color:#fff;text-align:center}
-  .hero h1{margin:0 0 .6rem 0;font-size:2.4rem;line-height:1.15}
-  .hero p{margin:0 auto 1.2rem auto;max-width:760px}
-  .cta-row{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
-  .btn{display:inline-block;padding:.7rem 1.1rem;border-radius:12px;text-decoration:none;font-weight:800}
-  .btn.light{background:#fff;color:#0b3d91;border:2px solid #fff}
-  .btn.primary{background:#d62828;color:#fff;border:2px solid #d62828}
-  .section{padding:28px 0}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-  .card{border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff}
-  .muted{color:#64748b}
-  h2.section-title{font-size:1.8rem;margin:0 0 .6rem}
-</style>
-
-<script>window.EDN_GA_ID="";</script>
+<meta name="description" content="Bilingual financial literacy: budgeting, credit, saving, investing. Lessons, templates, community, and flexible plans.">
+<link rel="stylesheet" href="style.css"/>
 <script src="edn-ui.js" defer></script>
 <script src="edn-consent.js" defer></script>
 <script src="pricing-config.js" defer></script>
 <script src="region-pricing.js" defer></script>
 </head>
-
 <body>
-<header>
-  <div class="container nav">
-    <a class="brand" href="index.html">Edunancial</a>
-    <nav>
-      <strong>Home</strong> • <a href="#how" data-i18n="nav_how">How it works</a> • <a href="story.html">Our Story</a> • <a href="pricing.html">Plans</a> • <a href="contact.html">Contact</a>
-      <span style="margin-left:.75rem"><button class="i18n-btn" data-lang="en">EN</button><button class="i18n-btn" data-lang="es">ES</button></span>
+<header class="nav">
+  <div class="container nav-row">
+    <a class="brand" href="index.html" data-i18n="brand">Edunancial</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+      <a href="story.html" data-i18n="nav_story">Our Story</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
     </nav>
+    <div class="lang">
+      <button data-edn-lang="en" class="active">EN</button>
+      <button data-edn-lang="es">ES</button>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h1 data-i18n="hero_title">Financial literacy for everyone — bilingual and practical</h1>
-    <p data-i18n="hero_sub">Learn budgeting, credit, saving, and investing the clear way. Lessons, templates, and community — with flexible pricing.</p>
+    <h1 data-i18n="hero_h1">Financial literacy for everyone — bilingual and practical</h1>
+    <p data-i18n="hero_p">Learn budgeting, credit, saving, and investing the clear way...</p>
     <div class="cta-row">
-      <a class="btn light" href="#how" data-i18n="cta_how">How it works</a>
-      <a class="btn light" href="story.html" data-i18n="cta_story">Our story</a>
-      <a class="btn primary" href="#plans" data-i18n="cta_plans">View plans</a>
+      <a class="btn primary" href="#how" data-i18n="cta_how">How it works</a>
+      <a class="btn outline" href="story.html" data-i18n="cta_story">Our story</a>
+      <a class="btn red" href="pricing.html" data-i18n="cta_plans">View plans</a>
     </div>
   </div>
 </section>
 
-<main class="container">
-  <section id="how" class="section">
-    <h2 class="section-title" data-i18n="how_title">How it works</h2>
-    <div class="cards">
-      <div class="card">
-        <h3 data-i18n="how_1_t">1. Learn</h3>
-        <p class="muted" data-i18n="how_1_d">Short EN/ES lessons with real examples and downloadable templates.</p>
-      </div>
-      <div class="card">
-        <h3 data-i18n="how_2_t">2. Apply</h3>
-        <p class="muted" data-i18n="how_2_d">Use toolkit templates to budget, save, and start investing with confidence.</p>
-      </div>
-      <div class="card">
-        <h3 data-i18n="how_3_t">3. Grow</h3>
-        <p class="muted" data-i18n="how_3_d">Build habits, join community tips, and level-up with advanced lessons.</p>
+<main>
+  <section class="section" id="how">
+    <div class="container">
+      <h2 data-i18n="how_title">How it works</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 data-i18n="how_1_h">1. Learn</h3>
+          <p data-i18n="how_1_p">Short EN/ES lessons...</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="how_2_h">2. Apply</h3>
+          <p data-i18n="how_2_p">Use toolkit templates...</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="how_3_h">3. Grow</h3>
+          <p data-i18n="how_3_p">Build habits...</p>
+        </article>
       </div>
     </div>
   </section>
 
-  <section id="plans" class="section">
-    <h2 class="section-title" data-i18n="plans_title">Plans</h2>
-    <!-- MOUNT POINT -->
-    <div id="plans-root"></div>
+  <section class="section">
+    <div class="container">
+      <div id="plans-root"></div>
+    </div>
   </section>
 </main>
 
 <footer>
-  <div class="container" style="padding:16px 0">
-    <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+  <div class="row">
+    <span>© 2025 Edunancial</span> •
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a> •
+    <a href="terms.html" data-i18n="footer_terms">Terms</a> •
+    <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
   </div>
 </footer>
 </body>
