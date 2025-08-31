@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About — Edunancial</title>
-  <meta name="description" content="The origin of Edunancial: an 11-year-old's question in the office and a step-by-step path to strong money habits through age 15." />
+  <meta name="description" content="The origin and path of Edunancial — from an office moment to clear habits and responsible investing. Bilingual, simple, and hopeful." />
   <link rel="stylesheet" href="css/style.css" />
   <style>
     :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
@@ -24,7 +24,22 @@
     ul li{margin:.35rem 0}
     footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
     footer a{color:var(--blue);text-decoration:none;margin:0 .5rem}
+
+    /* I18N */
+    .i18n-en { display:block; }
+    .i18n-es { display:none; }
+    html[lang="es"] .i18n-es { display:block; }
+    html[lang="es"] .i18n-en { display:none; }
   </style>
+  <script>
+    (function () {
+      const KEY = 'edn_lang';
+      function setLang(l){ localStorage.setItem(KEY,l); document.documentElement.setAttribute('lang', l); }
+      function init(){ setLang(localStorage.getItem(KEY) || 'en'); }
+      window.EDN_UI = { setLang, init };
+      document.addEventListener('DOMContentLoaded', init);
+    })();
+  </script>
 </head>
 <body>
   <!-- NAV -->
@@ -34,12 +49,12 @@
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="index.html#story">Story</a>
+        <a href="story.html">Story</a>
         <a href="index.html#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','en')">EN</button>
-        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','es')">ES</button>
+        <button type="button" class="btn" onclick="EDN_UI.setLang('en')">EN</button>
+        <button type="button" class="btn" onclick="EDN_UI.setLang('es')">ES</button>
       </div>
     </div>
   </nav>
@@ -47,8 +62,14 @@
   <!-- HERO -->
   <header class="hero">
     <div class="container">
-      <h1>About Edunancial</h1>
-      <p>From a single question in the office to a clear path of habits, earning, and responsible investing.</p>
+      <div class="i18n-en">
+        <h1>About Edunancial</h1>
+        <p>From a single question in the office to a clear path of habits, earning, and responsible investing.</p>
+      </div>
+      <div class="i18n-es">
+        <h1>Acerca de Edunancial</h1>
+        <p>De una sola pregunta en la oficina a un camino claro de hábitos, ingresos y inversión responsable.</p>
+      </div>
     </div>
   </header>
 
@@ -56,56 +77,110 @@
     <!-- ORIGIN -->
     <section class="section">
       <div class="container">
-        <h2>The origin</h2>
-        <div class="card">
-          <p>In the office, just after hanging up a call, my 11-year-old son walked in and asked: <em>“How do I make money with my head?”</em> We didn’t want a lecture. We wanted a plan — small steps, real decisions, and simple tools. That’s how Edunancial began.</p>
+        <div class="i18n-en">
+          <h2>The origin</h2>
+          <div class="card">
+            <p>In the office, just after hanging up a call, my 11-year-old son walked in and asked: <em>“How do I make money with my head?”</em> We didn’t want a lecture — we wanted a plan: small steps, real decisions, and simple tools. That’s how Edunancial began.</p>
+          </div>
+        </div>
+        <div class="i18n-es">
+          <h2>El origen</h2>
+          <div class="card">
+            <p>En la oficina, justo después de colgar una llamada, mi hijo de 11 años entró y preguntó: <em>“¿Cómo hago dinero con mi cabeza?”</em> No queríamos un discurso, sino un plan: pasos pequeños, decisiones reales y herramientas sencillas. Así nació Edunancial.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- TIMELINE -->
+    <!-- TIMELINE (Age 13 & 14 updated as requested) -->
     <section class="section" style="background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red);">
       <div class="container">
-        <h2>The path (ages 11–15)</h2>
-        <div class="card">
-          <h3 style="color:var(--red);margin:.2rem 0 .5rem">Age 11 — First Money Habits</h3>
-          <ul>
-            <li>Saves a small portion of allowance and gifts.</li>
-            <li>Learns delayed gratification.</li>
-            <li>Opens a basic savings account with a parent.</li>
-          </ul>
+        <div class="i18n-en">
+          <h2>The path (ages 11–15)</h2>
+          <div class="card">
+            <h3 style="color:var(--red);margin:.2rem 0 .5rem">Age 11 — First Money Habits</h3>
+            <ul>
+              <li>Saves a small portion of allowance and gifts.</li>
+              <li>Learns delayed gratification.</li>
+              <li>Opens a basic savings account with a parent.</li>
+            </ul>
 
-          <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 12 — Early Tracking</h3>
-          <ul>
-            <li>Keeps a simple ledger of money in/out.</li>
-            <li>Uses categories: saving, spending, giving.</li>
-            <li>Understands trade-offs in choices.</li>
-          </ul>
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 12 — Early Tracking</h3>
+            <ul>
+              <li>Keeps a simple ledger of money in/out.</li>
+              <li>Uses categories: saving, spending, giving.</li>
+              <li>Understands trade-offs in choices.</li>
+            </ul>
 
-          <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 13 — Earning & Responsibility</h3>
-          <ul>
-            <li>Starts small paid jobs for neighbors.</li>
-            <li>Links work → earnings → savings goals.</li>
-            <li>Sets and reaches a target for a big purchase.</li>
-          </ul>
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 13 — Discipline with Allowance</h3>
+            <ul>
+              <li><strong>Learns self-discipline to use his allowance wisely</strong> (prioritizing needs, delaying wants).</li>
+              <li>Sets a savings target and practices sticking to it.</li>
+              <li>Understands that every dollar has a job.</li>
+            </ul>
 
-          <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 14 — Expanding Tools</h3>
-          <ul>
-            <li>Experiments with budgeting/tracking apps.</li>
-            <li>Explores compound interest with simple examples.</li>
-            <li>Compares “safe” savings vs. higher-risk ideas.</li>
-          </ul>
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 14 — Building Wealth Paths</h3>
+            <ul>
+              <li><strong>Gains and refines paths to wealth-building</strong> (better budgeting, smarter goal-setting, safer habits).</li>
+              <li>Uses simple tools to track progress clearly.</li>
+              <li>Recognizes risk and keeps decisions age-appropriate.</li>
+            </ul>
 
-          <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 15 — Practical Investing</h3>
-          <ul>
-            <li>Saves a fixed percentage of every dollar earned.</li>
-            <li>Tracks goals consistently (notebook + app).</li>
-            <li>Earns through small jobs and local projects.</li>
-            <li><strong>Buys physical silver and gold with his own funds.</strong></li>
-            <li>Understands diversification.</li>
-          </ul>
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 15 — Practical Investing</h3>
+            <ul>
+              <li>Saves a fixed percentage of every dollar earned.</li>
+              <li>Tracks goals consistently (notebook + app).</li>
+              <li>He <strong>buys physical silver and gold with his own funds</strong>.</li>
+              <li>Has selected stocks with <strong>8–12% ROI</strong> and wants to explore options responsibly.</li>
+              <li>Understands diversification and long-term thinking.</li>
+            </ul>
 
-          <p class="muted" style="margin-top:1rem">This is financial education — not investment advice. Decisions should be made with a responsible adult.</p>
+            <p class="muted" style="margin-top:1rem">Educational journey — not financial or investment advice.</p>
+          </div>
+        </div>
+
+        <div class="i18n-es">
+          <h2>El camino (11–15 años)</h2>
+          <div class="card">
+            <h3 style="color:var(--red);margin:.2rem 0 .5rem">11 — Primeros hábitos con el dinero</h3>
+            <ul>
+              <li>Ahorra una parte de la mesada y los regalos.</li>
+              <li>Aprende a esperar (postergar compras impulsivas).</li>
+              <li>Abre una cuenta de ahorro básica con un adulto.</li>
+            </ul>
+
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">12 — Registro temprano</h3>
+            <ul>
+              <li>Lleva un registro sencillo de entradas y salidas.</li>
+              <li>Usa categorías: ahorro, gasto, donación.</li>
+              <li>Comprende los intercambios en cada decisión.</li>
+            </ul>
+
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">13 — Disciplina con la mesada</h3>
+            <ul>
+              <li><strong>Aprende autodisciplina para usar su mesada con sabiduría</strong> (prioriza necesidades, retrasa deseos).</li>
+              <li>Define una meta de ahorro y la cumple con constancia.</li>
+              <li>Comprende que cada dólar tiene un propósito.</li>
+            </ul>
+
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">14 — Rutas para crear patrimonio</h3>
+            <ul>
+              <li><strong>Gana y perfecciona caminos hacia la construcción de patrimonio</strong> (mejor presupuesto, metas más claras, hábitos seguros).</li>
+              <li>Usa herramientas simples para medir avances.</li>
+              <li>Reconoce el riesgo y mantiene decisiones acordes a su edad.</li>
+            </ul>
+
+            <h3 style="color:var(--red);margin:1rem 0 .5rem">15 — Inversión práctica</h3>
+            <ul>
+              <li>Ahorra un porcentaje fijo de cada ingreso.</li>
+              <li>Registra metas con constancia (libreta + app).</li>
+              <li><strong>Compra plata y oro físicos con sus propios fondos</strong>.</li>
+              <li>Ha seleccionado acciones con <strong>8–12% de ROI</strong> y quiere explorar opciones con responsabilidad.</li>
+              <li>Entiende la diversificación y el largo plazo.</li>
+            </ul>
+
+            <p class="muted" style="margin-top:1rem">Trayectoria educativa — no es asesoría financiera o de inversión.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -113,9 +188,17 @@
     <!-- PURPOSE -->
     <section class="section">
       <div class="container">
-        <h2>Purpose</h2>
-        <div class="card">
-          <p>Build judgment, responsibility, and confidence so young people can make good decisions with money — now and later. Keep lessons short, tools simple, and progress visible.</p>
+        <div class="i18n-en">
+          <h2>Purpose</h2>
+          <div class="card">
+            <p>Build judgment, responsibility, and confidence so young people can make good money decisions — now and later. Keep lessons short, tools simple, and progress visible.</p>
+          </div>
+        </div>
+        <div class="i18n-es">
+          <h2>Propósito</h2>
+          <div class="card">
+            <p>Formar criterio, responsabilidad y confianza para que los jóvenes tomen buenas decisiones con el dinero — hoy y mañana. Lecciones breves, herramientas simples y progreso visible.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -127,7 +210,7 @@
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', ()=>{ const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); });
+    document.addEventListener('DOMContentLoaded', ()=>{ const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear(); });
   </script>
 </body>
 </html>
