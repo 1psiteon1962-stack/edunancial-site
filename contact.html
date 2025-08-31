@@ -1,33 +1,39 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact • Ultima Defensa Legal</title>
-<link rel="stylesheet" href="/css/style.css"></head><body>
-<nav class="topbar">
-  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-  <ul class="menu">
-    <li><a href="/index.html" data-i18n="nav.home">Home</a></li>
-    <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
-    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
-    <li><a href="/contact.html" data-i18n="nav.contact" aria-current="page">Contact</a></li>
-  </ul>
-  <button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button>
-</nav>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto — Edunancial</title>
+<script src="edn-ui.js" defer></script>
+<style>
+:root{--blue:#0b3d91;--bg:#f8fafc;--max:900px}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg)}
+.container{max-width:var(--max);margin:0 auto;padding:1rem}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem}
+label{display:block;margin:.6rem 0 .25rem}input,textarea{width:100%;padding:.65rem;border:1px solid #e5e7eb;border-radius:10px}
+.btn{margin-top:.8rem;padding:.6rem 1rem;border-radius:12px;border:2px solid var(--blue);background:var(--blue);color:#fff;font-weight:700}
+.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
+</style>
+</head>
+<body>
 <main class="container">
-  <h1 data-i18n="contact.title">Contact Us</h1>
-  <p class="notice" data-i18n="contact.msg">Send us a message and we’ll reply within 1 business day.</p>
-  <form class="card" name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact">
-    <label><span data-i18n="contact.name">Your Name</span>
-      <input name="name" placeholder="Jane Doe" required></label>
-    <label><span data-i18n="contact.email">Email</span>
-      <input type="email" name="email" placeholder="you@example.com" required></label>
-    <label><span data-i18n="contact.message">Message</span>
-      <textarea name="message" rows="6" placeholder="..."></textarea></label>
-    <button class="btn" type="submit" data-i18n="contact.send">Send</button>
-  </form>
+  <div class="card i18n-es">
+    <h1>Contáctanos</h1>
+    <form method="post" action="mailto:support@edunancial.com" enctype="text/plain">
+      <label>Tu nombre</label><input name="name" placeholder="Nombre">
+      <label>Email</label><input type="email" name="email" placeholder="you@example.com" required>
+      <label>Mensaje</label><textarea name="message" rows="6" placeholder="..."></textarea>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </div>
+  <div class="card i18n-en">
+    <h1>Contact Us</h1>
+    <form method="post" action="mailto:support@edunancial.com" enctype="text/plain">
+      <label>Your name</label><input name="name" placeholder="Name">
+      <label>Email</label><input type="email" name="email" placeholder="you@example.com" required>
+      <label>Message</label><textarea name="message" rows="6" placeholder="..."></textarea>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
 </main>
-
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script>
-</body></html>
+</body>
+</html>
