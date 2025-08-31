@@ -1,58 +1,81 @@
 [build]
   publish = "."
 
+# Legacy Spanish pages → canonical
+[[redirects]]; legacy
+  from = "/index_es.html"
+  to = "/index.html"
+  status = 301
+  force = true
 [[redirects]]
+  from = "/subscribe_es.html"
+  to = "/subscribe.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/attorneys_es.html"
+  to = "/attorneys.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/404.es.html"
+  to = "/404.html"
+  status = 301
+  force = true
+
+# Pretty links
+[[redirects]]; pretty
   from = "/privacy"
   to = "/privacy.html"
   status = 301
-
 [[redirects]]
   from = "/terms"
   to = "/terms.html"
   status = 301
-
-[[redirects]]
-  from = "/pricing"
-  to = "/pricing.html"
-  status = 301
-
-[[redirects]]
-  from = "/about"
-  to = "/about.html"
-  status = 301
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact.html"
-  status = 301
-
-[[redirects]]
-  from = "/cookies"
-  to = "/cookies.html"
-  status = 301
-
-[[redirects]]
-  from = "/security"
-  to = "/security.html"
-  status = 301
-
-[[redirects]]
-  from = "/accessibility"
-  to = "/accessibility.html"
-  status = 301
-
 [[redirects]]
   from = "/refunds"
   to = "/refunds.html"
   status = 301
-
 [[redirects]]
   from = "/disclaimer"
   to = "/disclaimer.html"
   status = 301
-
-# 404 fallback for any unmatched route
 [[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+  from = "/cookies"
+  to = "/cookies.html"
+  status = 301
+[[redirects]]
+  from = "/security"
+  to = "/security.html"
+  status = 301
+[[redirects]]
+  from = "/accessibility"
+  to = "/accessibility.html"
+  status = 301
+[[redirects]]
+  from = "/gift"
+  to = "/gift.html"
+  status = 301
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+
+# Force PDFs to download (attachment)
+[[headers]]
+  for = "/assets/pamphlet/UDL_Pamphlet_EN.pdf"
+  [headers.values]
+    Content-Disposition = "attachment; filename=UDL_Pamphlet_EN.pdf"
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "/assets/pamphlet/UDL_Pamphlet_ES.pdf"
+  [headers.values]
+    Content-Disposition = "attachment; filename=UDL_Pamphlet_ES.pdf"
+    Cache-Control = "public, max-age=604800"
