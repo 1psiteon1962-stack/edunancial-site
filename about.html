@@ -1,36 +1,34 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Acerca de — Edunancial</title>
-  <meta name="description" content="La historia y el propósito de Edunancial: educación financiera para jóvenes y familias.">
+  <title>About — Edunancial</title>
+  <meta name="description" content="About Edunancial: practical financial education for teens and families with real examples and simple habits." />
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    :root{--max:1100px}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}
-    nav{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:20}
-    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .nav-links a{text-decoration:none;color:#111;margin:0 .5rem}
-    .brand{font-weight:800}
-    .section{padding:2rem 1rem}
-    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
-    .muted{color:#666}
-    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem}
-    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
-    .btn{padding:.6rem 1rem;border-radius:10px;border:1px solid #111;background:#111;color:#fff;text-decoration:none;display:inline-block}
-    .btn.secondary{background:#fff;color:#111}
+    :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#111; line-height:1.6; background:#fff; }
+    header, main, footer { width:100%; }
+    .container { max-width:var(--max); margin:0 auto; padding:1rem; }
+    nav { border-bottom:2px solid var(--blue); background:#fff; position:sticky; top:0; z-index:20; }
+    .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .nav-links a { text-decoration:none; color:#111; margin:0 .75rem; font-weight:500; }
+    .brand { font-weight:800; color:var(--blue); }
+    .hero { background:var(--white); border-bottom:2px solid var(--red); padding:2rem 1rem; text-align:center; }
+    .hero h1 { font-size:clamp(1.8rem,3vw,2.6rem); margin:0 0 .5rem; font-weight:800; color:var(--blue); }
+    .section { padding:2rem 1rem; }
+    .section h2 { color:var(--blue); font-size:1.6rem; margin-bottom:.75rem; }
+    .card { border:1px solid #e5e7eb; border-radius:16px; padding:1rem; background:#fff; }
+    ul { margin:.5rem 0 0 1.2rem; }
+    ul li { margin:.35rem 0; }
+    footer { border-top:2px solid var(--blue); background:#fafafa; margin-top:2rem; text-align:center; padding:1rem; }
+    footer a { color:var(--blue); text-decoration:none; margin:0 .5rem; }
+    .btn { background:#eee; color:#111; border:none; border-radius:8px; padding:.5rem .9rem; }
   </style>
-  <script>
-    window.EDN_UI = {
-      setLang(l){ localStorage.setItem('edn_lang', l); document.documentElement.setAttribute('lang', l); },
-      init(){ const l = localStorage.getItem('edn_lang') || 'es'; document.documentElement.setAttribute('lang', l); }
-    };
-    document.addEventListener('DOMContentLoaded', EDN_UI.init);
-  </script>
 </head>
 <body>
+  <!-- NAV -->
   <nav aria-label="Main">
     <div class="container nav-row">
       <div class="brand">Edunancial</div>
@@ -41,66 +39,76 @@
         <a href="index.html#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('en')">EN</button>
-        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('es')">ES</button>
+        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','en')">EN</button>
+        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','es')">ES</button>
       </div>
     </div>
   </nav>
 
-  <main class="section">
+  <!-- HERO -->
+  <header class="hero">
     <div class="container">
-      <!-- Spanish -->
-      <article class="i18n-es">
-        <h1>Nuestra historia</h1>
-        <p>Edunancial nació para enseñar finanzas con ejemplos reales que los jóvenes puedan aplicar hoy. Creemos que los buenos hábitos se construyen temprano con pequeñas victorias.</p>
+      <h1>About Edunancial</h1>
+      <p>We teach money the simple, practical way—through habits, real examples, and small wins that add up.</p>
+    </div>
+  </header>
 
-        <div class="card" style="margin-top:1rem">
-          <h2>Quién es el estudiante</h2>
-          <p>Actualmente, con <strong>15 años</strong>, practica lo que aprende:</p>
-          <ul>
-            <li>Ahorra un porcentaje fijo de cada ingreso.</li>
-            <li>Registra gastos y metas mensuales.</li>
-            <li>Gana dinero con tareas/proyectos locales.</li>
-            <li><strong>Compra plata y oro físicos con sus propios fondos.</strong></li>
-          </ul>
-          <p class="muted">Esto es educación financiera, no asesoría de inversión. Las decisiones deben tomarse con un adulto responsable.</p>
+  <main>
+    <!-- OUR STORY -->
+    <section class="section">
+      <div class="container">
+        <h2>Our story</h2>
+        <div class="card">
+          <p>Edunancial started with a straightforward goal: help teens and families build strong financial habits early, using real-life situations instead of theory.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="card" style="margin-top:1rem">
-          <h2>Propósito</h2>
-          <p>Formar criterios, responsabilidad y herramientas para tomar buenas decisiones con el dinero en la vida real.</p>
-        </div>
-      </article>
-
-      <!-- English -->
-      <article class="i18n-en">
-        <h1>Our story</h1>
-        <p>Edunancial was created to teach finance with real-life examples teens can use today. Good habits start early with small wins.</p>
-
-        <div class="card" style="margin-top:1rem">
-          <h2>Who the student is</h2>
-          <p>At <strong>15 years old</strong>, he practices what he learns:</p>
+    <!-- WHO HE IS -->
+    <section class="section">
+      <div class="container">
+        <h2>Who the student is (age 15)</h2>
+        <div class="card">
           <ul>
-            <li>Saves a fixed percentage of every dollar earned.</li>
-            <li>Logs monthly expenses and goals.</li>
-            <li>Earns money through local jobs/projects.</li>
+            <li>Saves a fixed percentage of every dollar he earns.</li>
+            <li>Logs expenses and monthly goals with a notebook and an app.</li>
+            <li>Earns money through small jobs and local projects.</li>
             <li><strong>Buys physical silver and gold with his own funds.</strong></li>
           </ul>
-          <p class="muted">This is financial education, not investment advice. Decisions should be made with a responsible adult.</p>
+          <p style="margin-top:.75rem;color:#555">This is financial education, not investment advice. Decisions should be made with a responsible adult.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="card" style="margin-top:1rem">
-          <h2>Purpose</h2>
-          <p>Build judgment, responsibility, and tools to make good money decisions in real life.</p>
+    <!-- APPROACH -->
+    <section class="section" style="background:#f9fafb; border-top:2px solid var(--red); border-bottom:2px solid var(--red);">
+      <div class="container">
+        <h2>Our approach</h2>
+        <div class="card">
+          <ul>
+            <li><strong>Clarity:</strong> plain language and short lessons.</li>
+            <li><strong>Practice:</strong> small, repeatable actions over time.</li>
+            <li><strong>Responsibility:</strong> safe use of money, respect for work, and goal setting.</li>
+            <li><strong>Progress:</strong> basics → intermediate → advanced decision-making.</li>
+          </ul>
         </div>
-      </article>
-    </div>
+      </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="section">
+      <div class="container">
+        <h2>Mission</h2>
+        <div class="card">
+          <p>Build judgment, responsibility, and confidence so young people can make good decisions with money—now and later.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <!-- FOOTER -->
   <footer>
-    <div class="container">
-      <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
-    </div>
+    <p>© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
   </footer>
 
   <script>
