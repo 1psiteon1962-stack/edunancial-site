@@ -1,140 +1,74 @@
-/* region-pricing.js — renders plans into #plans-root on any page that has it */
-(function () {
-  function $(sel, root = document) { return root.querySelector(sel); }
-  function $all(sel, root = document) { return Array.from(root.querySelectorAll(sel)); }
+<script>
+function ednRenderPlans(){
+  const root = document.getElementById("plans-root");
+  if (!root) return;
+  const lang = document.documentElement.getAttribute("lang") || "en";
+  const T = EDN_I18N[lang];
+  const P = window.EDN_PRICING;
 
-  function fmt(n, currency) {
-    try {
-      return new Intl.NumberFormat(undefined, { style: "currency", currency }).format(n);
-    } catch {
-      return "$" + n.toFixed(2);
-    }
-  }
+  // UI toggle
+  const wrap = document.createElement("section");
+  wrap.className = "edn-plans";
+  const active = (localStorage.getItem("edn_billing")||"monthly");
+  function btn(isAnnual){ return `
+    <button data-mode="monthly" class="edn-toggle ${!isAnnual?'on':''}">${T.plan_monthly}</button>
+    <button data-mode="annual"  class="edn-toggle ${isAnnual?'on':''}">${T.plan_annual}</button>
+  `;}
+  wrap.innerHTML = `
+    <div class="container">
+      <h2 class="center" data-i18n="plans_title">${T.plans_title}</h2>
+      <p class="muted center" data-i18n="plans_sub">${T.plans_sub}</p>
+      <div class="toggle-row">${btn(active==="annual")}</div>
+      <div class="cards" id="edn-plan-cards"></div>
+    </div>
+  `;
+  root.innerHTML = ""; root.appendChild(wrap);
 
-  function renderPlans() {
-    const mount = document.getElementById("plans-root");
-    if (!mount) return; // page has no plans area — nothing to do
-
-    const cfg = window.EDN_PRICING || {};
-    const mult = (cfg.regionMultiplier && cfg.regionMultiplier()) || 1.0;
-
-    const prices = {
-      basic: {
-        m: Math.round(cfg.basic.monthly * mult * 100) / 100,
-        y: Math.round(cfg.basic.annual * mult * 100) / 100
-      },
-      gold: {
-        m: Math.round(cfg.gold.monthly * mult * 100) / 100,
-        y: Math.round(cfg.gold.annual * mult * 100) / 100
-      }
-    };
-
-    // i18n labels (read from current page language)
-    const lang = document.documentElement.lang === "es" ? "es" : "en";
-    const t = (k, fallback) => {
-      const pack = (window.__EDN_I18N_CACHE ||= {});
-      if (!pack.en) pack.en = {};
-      // Pull from the same map used by edn-ui.js by reading data-i18n of a temp element
-      const map = {
-        en: {
-          monthly: "Monthly", annually: "Annually",
-          plan_basic: "Basic", plan_gold: "Gold",
-          plan_basic_desc: "Access to lessons, templates, and community. No discounts.",
-          plan_gold_desc: "Everything in Basic + member discounts, early-bird offers, and specials.",
-          choose_plan: "Choose plan", per_month: "/month", per_year: "/year", upgrade_anytime: "You can upgrade anytime."
-        },
-        es: {
-          monthly: "Mensual", annually: "Anual",
-          plan_basic: "Básico", plan_gold: "Oro",
-          plan_basic_desc: "Acceso a lecciones, plantillas y comunidad. Sin descuentos.",
-          plan_gold_desc: "Todo en Básico + descuentos para miembros, preventas y ofertas.",
-          choose_plan: "Elegir plan", per_month: "/mes", per_year: "/año", upgrade_anytime: "Puedes mejorar en cualquier momento."
-        }
-      };
-      return (map[lang] && map[lang][k]) || (map.en && map.en[k]) || fallback || k;
-    };
-
-    // simple monthly/annual toggle (local to the plans area)
-    const wrapper = document.createElement("div");
-    wrapper.innerHTML = `
-      <div style="display:flex;justify-content:flex-end;gap:8px;margin:8px 0 16px">
-        <button type="button" data-term="m" class="term-btn" style="padding:.45rem .8rem;border-radius:10px;border:1px solid #e5e7eb;font-weight:700">${t("monthly")}</button>
-        <button type="button" data-term="y" class="term-btn" style="padding:.45rem .8rem;border-radius:10px;border:1px solid #e5e7eb;font-weight:700;opacity:.7">${t("annually")}</button>
-      </div>
-      <div class="plans-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px"></div>
-      <p style="margin-top:10px;color:#64748b;font-size:.95rem">${t("upgrade_anytime")}</p>
-    `;
-    mount.innerHTML = "";
-    mount.appendChild(wrapper);
-
-    const grid = $(".plans-grid", wrapper);
-
-    function card(nameKey, descKey, priceM, priceY, features) {
-      const card = document.createElement("article");
-      card.className = "plan-card";
-      card.style.cssText = "border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff";
-      card.innerHTML = `
-        <h3 style="margin:.25rem 0 0">${t(nameKey)}</h3>
-        <p style="color:#64748b;margin:.25rem 0 1rem">${t(descKey)}</p>
-        <div class="price" data-m="${priceM}" data-y="${priceY}" style="font-size:1.6rem;font-weight:800;margin:.25rem 0 8px">
-          <span class="price-number">${fmt(priceM, cfg.currency)}</span>
-          <span class="price-term" style="font-size:.9rem;color:#64748b">${t("per_month")}</span>
-        </div>
-        <ul style="margin:0 0 12px 20px;padding:0;color:#0f172a">${(features||[]).map(li=>`<li>${li}</li>`).join("")}</ul>
-        <button type="button" class="choose-btn" style="background:#d62828;color:#fff;border:0;padding:.6rem 1rem;border-radius:12px;font-weight:800">${t("choose_plan")}</button>
+  function renderCards(mode){
+    const cfg = P[mode];
+    const node = wrap.querySelector("#edn-plan-cards");
+    node.innerHTML = ["basic","gold"].map(kind=>{
+      const planName = kind==="basic"?T.plan_basic:T.plan_gold;
+      const data = cfg[kind];
+      const feats = data.features.map(k=>`<li>${T[k]}</li>`).join("");
+      const note = data.note?`<div class="note">${data.note}</div>`:"";
+      return `
+        <article class="card plan">
+          <h3>${planName}</h3>
+          <div class="price">$${data.price} <span class="per">/${mode==='annual'?'year':'month'}</span></div>
+          ${note}
+          <h4 class="includes">${T.plan_includes}</h4>
+          <ul class="features">${feats}</ul>
+          <button class="btn select" data-kind="${kind}" data-mode="${mode}">${T.plan_btn_select}</button>
+          ${kind==='basic'?`<div class="upgrade"><a href="pricing.html#gold" class="link">${T.plan_upgrade}</a></div>`:""}
+        </article>
       `;
-      return card;
-    }
-
-    const basicCard = card(
-      "plan_basic",
-      "plan_basic_desc",
-      prices.basic.m,
-      prices.basic.y,
-      (cfg.features && cfg.features.basic) || []
-    );
-    const goldCard = card(
-      "plan_gold",
-      "plan_gold_desc",
-      prices.gold.m,
-      prices.gold.y,
-      (cfg.features && cfg.features.gold) || []
-    );
-    grid.appendChild(basicCard);
-    grid.appendChild(goldCard);
-
-    function updateTerm(term) {
-      $all(".term-btn", wrapper).forEach(b=>{
-        const active = b.getAttribute("data-term")===term;
-        b.style.opacity = active ? "1" : ".7";
-        b.style.background = active ? "#0b3d91" : "#fff";
-        b.style.color = active ? "#fff" : "#0b3d91";
-        b.style.borderColor = "#0b3d91";
-      });
-      $all(".price", wrapper).forEach(p=>{
-        const m = parseFloat(p.getAttribute("data-m"));
-        const y = parseFloat(p.getAttribute("data-y"));
-        $(".price-number", p).textContent = fmt(term==="m"?m:y, cfg.currency);
-        $(".price-term", p).textContent = term==="m" ? t("per_month") : t("per_year");
-      });
-    }
-
-    $all(".term-btn", wrapper).forEach(b=>{
-      b.addEventListener("click", ()=>updateTerm(b.getAttribute("data-term")));
+    }).join("");
+    // bind selects
+    node.querySelectorAll(".btn.select").forEach(b=>{
+      b.onclick = ()=>{
+        const kind = b.getAttribute("data-kind");
+        const mode = b.getAttribute("data-mode");
+        // placeholder checkout action
+        location.href = `thank-you.html?plan=${kind}&cycle=${mode}`;
+      };
     });
-    updateTerm("m"); // default
-
-    // Hook “Choose plan” buttons (replace with Square/checkout later)
-    $all(".choose-btn", wrapper).forEach((btn, idx)=>{
-      btn.addEventListener("click", ()=>{
-        const plan = idx===0 ? "basic" : "gold";
-        alert("Selected: " + plan.toUpperCase() + " — connect to Square checkout here.");
-      });
-    });
-
-    // Rerender prices when language changes (only labels change)
-    document.addEventListener("edn:lang", ()=>updateTerm("m"));
   }
 
-  document.addEventListener("DOMContentLoaded", renderPlans);
-})();
+  renderCards(active);
+
+  // Toggle handling
+  wrap.querySelectorAll(".edn-toggle").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const mode = btn.getAttribute("data-mode");
+      wrap.querySelectorAll(".edn-toggle").forEach(x=>x.classList.remove("on"));
+      btn.classList.add("on");
+      localStorage.setItem("edn_billing", mode);
+      renderCards(mode);
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", ednRenderPlans);
+window.addEventListener("edn:lang", ednRenderPlans);
+</script>
