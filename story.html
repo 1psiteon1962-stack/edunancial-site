@@ -4,60 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Story — Edunancial</title>
-  <meta name="description" content="The origin of Edunancial: from an 11-year-old’s question to disciplined saving, investing, and hope — bilingual, simple, and uplifting." />
+  <meta name="description" content="From an 11-year-old’s question to disciplined saving and responsible investing at 15 — a hopeful, bilingual story." />
   <link rel="stylesheet" href="css/style.css" />
   <style>
     :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#111; line-height:1.6; background:#fff; }
-    header, main, footer { width:100%; }
-    .container { max-width:var(--max); margin:0 auto; padding:1rem; }
-
-    /* NAV */
-    nav { border-bottom:2px solid var(--blue); background:#fff; position:sticky; top:0; z-index:20; }
-    .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .nav-links a { text-decoration:none; color:#111; margin:0 .75rem; font-weight:500; }
-    .brand { font-weight:800; color:var(--blue); }
-    .btn { background:#eee; color:#111; border:none; border-radius:8px; padding:.5rem .9rem; cursor:pointer; }
-
-    /* HERO */
-    .hero { background:var(--white); border-bottom:2px solid var(--red); padding:2rem 1rem; text-align:center; }
-    .hero h1 { font-size:clamp(1.8rem,3vw,2.6rem); margin:0 0 .5rem; font-weight:800; color:var(--blue); }
-    .hero p { margin:.5rem auto 1rem; max-width:70ch; color:#333; }
-    .cta { background:var(--red); color:#fff; font-weight:700; border:none; border-radius:8px; padding:.7rem 1.2rem; text-decoration:none; display:inline-block; }
-
-    /* STORY */
-    .section { padding:2rem 1rem; }
-    .section h2 { color:var(--blue); font-size:1.6rem; margin-bottom:1rem; }
-    .card { border:1px solid #e5e7eb; border-radius:16px; padding:1rem; background:#fff; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
-    blockquote { border-left:4px solid var(--red); padding:.5rem 1rem; margin:1rem 0; color:#333; background:#fff; border-radius:8px; }
-    .hope { background:#f9fafb; border-top:2px solid var(--red); border-bottom:2px solid var(--red); }
-
-    /* I18N */
-    .i18n-en { display:block; }
-    .i18n-es { display:none; }
-    html[lang="es"] .i18n-es { display:block; }
-    html[lang="es"] .i18n-en { display:none; }
-
-    /* FOOTER */
-    footer { border-top:2px solid var(--blue); background:#fafafa; margin-top:2rem; text-align:center; padding:1rem; }
-    footer a { color:var(--blue); text-decoration:none; margin:0 .5rem; }
-    .muted { color:#666; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6;background:#fff}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    nav{border-bottom:2px solid var(--blue);background:#fff;position:sticky;top:0;z-index:20}
+    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .nav-links a{text-decoration:none;color:#111;margin:0 .75rem;font-weight:500}
+    .brand{font-weight:800;color:var(--blue)}
+    .btn{background:#eee;color:#111;border:none;border-radius:8px;padding:.5rem .9rem;cursor:pointer}
+    .hero{background:var(--white);border-bottom:2px solid var(--red);padding:2rem 1rem;text-align:center}
+    .hero h1{font-size:clamp(1.8rem,3vw,2.6rem);margin:0 0 .5rem;font-weight:800;color:var(--blue)}
+    .hero p{margin:.5rem auto 1rem;max-width:70ch;color:#333}
+    .cta{background:var(--red);color:#fff;font-weight:700;border:none;border-radius:8px;padding:.7rem 1.2rem;text-decoration:none;display:inline-block}
+    .section{padding:2rem 1rem}
+    .section h2{color:var(--blue);font-size:1.6rem;margin-bottom:1rem}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+    blockquote{border-left:4px solid var(--red);padding:.5rem 1rem;margin:1rem 0;color:#333;background:#fff;border-radius:8px}
+    .accent{background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red)}
+    footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
+    footer a{color:var(--blue);text-decoration:none;margin:0 .5rem}
+    .muted{color:#666}
+    /* i18n */
+    .i18n-en{display:block}.i18n-es{display:none}
+    html[lang="es"] .i18n-en{display:none} html[lang="es"] .i18n-es{display:block}
   </style>
   <script>
-    // Robust language toggle (persists and updates immediately)
     (function () {
-      const KEY = 'edn_lang';
+      const KEY='edn_lang';
       function setLang(l){ localStorage.setItem(KEY,l); document.documentElement.setAttribute('lang', l); }
-      function init(){ setLang(localStorage.getItem(KEY) || 'en'); }
-      window.EDN_UI = { setLang, init };
+      function init(){ setLang(localStorage.getItem(KEY)||'en'); const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();}
+      window.EDN_UI={setLang,init};
       document.addEventListener('DOMContentLoaded', init);
     })();
   </script>
 </head>
 <body>
-  <!-- NAV -->
   <nav aria-label="Main">
     <div class="container nav-row">
       <div class="brand">Edunancial</div>
@@ -69,121 +55,108 @@
         <a href="index.html#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn" onclick="EDN_UI.setLang('en')">EN</button>
-        <button type="button" class="btn" onclick="EDN_UI.setLang('es')">ES</button>
+        <button class="btn" onclick="EDN_UI.setLang('en')">EN</button>
+        <button class="btn" onclick="EDN_UI.setLang('es')">ES</button>
       </div>
     </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero">
     <div class="container">
       <div class="i18n-en">
         <h1>A real story of financial education and hope</h1>
-        <p>From a question in the office to a path of habits, responsible investing, and clear goals — bilingual, simple, and purposeful.</p>
+        <p>From a question in the office to a path of habits, responsible investing, and clear goals — simple, bilingual, purposeful.</p>
         <a class="cta" href="#origin">Read the story</a>
       </div>
       <div class="i18n-es">
         <h1>Una historia real de educación financiera y esperanza</h1>
-        <p>De una pregunta en la oficina a un camino de hábitos, inversión responsable y metas claras — bilingüe, simple y con propósito.</p>
+        <p>De una pregunta en la oficina a un camino de hábitos, inversión responsable y metas claras — simple, bilingüe y con propósito.</p>
         <a class="cta" href="#origin">Leer la historia</a>
       </div>
     </div>
   </header>
 
-  <!-- ORIGIN -->
   <section class="section" id="origin">
     <div class="container">
       <div class="i18n-en">
         <h2>How it began</h2>
         <div class="card">
-          <p>When my son was <strong>11 years old</strong>, he walked into my office just as I was saying goodbye to a client on the phone. As he came toward me, my phone lit up: a payment from that client had arrived.</p>
-          <p>He saw it and asked, <em>“How did you make money like that?”</em> I told him, <strong>“I work with my head — and you can do the same if you want.”</strong></p>
-          <p>He said he wanted to work with his head, but admitted he didn’t know how. <strong>Our journey began that day</strong>, and the roots of <strong>Edunancial</strong> were planted.</p>
+          <p>At <strong>11</strong>, my son walked in as I ended a client call; a payment notification hit my phone.</p>
+          <p>“<em>How did you make money like that?</em>” he asked. I said, <strong>“I work with my head — and you can too.”</strong> He wanted to, but didn’t know how. <strong>That day Edunancial took root.</strong></p>
         </div>
       </div>
-
       <div class="i18n-es">
         <h2>Cómo empezó</h2>
         <div class="card">
-          <p>Cuando mi hijo tenía <strong>11 años</strong>, entró a mi oficina justo cuando me despedía de un cliente por teléfono. Mientras venía hacia mí, el teléfono se iluminó: había llegado el pago de ese cliente.</p>
-          <p>Él lo vio y preguntó: <em>“¿Cómo hiciste dinero así?”</em> Le respondí: <strong>“Trabajo con mi cabeza — y tú puedes hacer lo mismo si quieres.”</strong></p>
-          <p>Dijo que quería trabajar con su cabeza, pero admitió que no sabía cómo empezar. <strong>Nuestro camino comenzó ese día</strong>, y nacieron las raíces de <strong>Edunancial</strong>.</p>
+          <p>A los <strong>11</strong> años, mi hijo entró cuando terminaba una llamada; llegó una notificación de pago.</p>
+          <p>“<em>¿Cómo hiciste dinero así?</em>” preguntó. Le dije: <strong>“Trabajo con mi cabeza — y tú también puedes.”</strong> Quería hacerlo, pero no sabía cómo. <strong>Ese día nació Edunancial.</strong></p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TODAY (AGE 15) -->
+  <section class="section">
+    <div class="container grid">
+      <div class="card i18n-en">
+        <h2>From interest to action</h2>
+        <p>We turned a question into a plan: save, track, earn through real work, and learn responsible money decisions.</p>
+        <blockquote>“Financial literacy isn’t memorizing terms; it’s practicing small decisions.”</blockquote>
+      </div>
+      <div class="card i18n-es">
+        <h2>Del interés a la acción</h2>
+        <p>Convertimos una pregunta en un plan: ahorrar, registrar, ganar con trabajo real y aprender decisiones responsables.</p>
+        <blockquote>“La educación financiera se practica con decisiones pequeñas.”</blockquote>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container">
       <div class="card">
         <div class="i18n-en">
           <h2>Today at 15</h2>
           <ul>
-            <li>He has selected and bought stocks earning a <strong>8–12% ROI</strong>.</li>
-            <li>He <strong>buys physical silver and gold with his own funds</strong>.</li>
-            <li>He aims to explore <strong>options trading</strong> and plans to start his own business.</li>
+            <li>Selected and bought stocks with <strong>8–12% ROI</strong>.</li>
+            <li><strong>Buys physical silver and gold with his own funds</strong>.</li>
+            <li>Planning to explore options trading and form a business.</li>
           </ul>
         </div>
         <div class="i18n-es">
-          <h2>Hoy, a los 15 años</h2>
+          <h2>Hoy, a los 15</h2>
           <ul>
-            <li>Ha seleccionado y comprado acciones con un <strong>ROI del 8–12%</strong>.</li>
+            <li>Seleccionó y compró acciones con <strong>8–12% de ROI</strong>.</li>
             <li><strong>Compra plata y oro físicos con sus propios fondos</strong>.</li>
-            <li>Desea explorar <strong>opciones</strong> y planea iniciar su propio negocio.</li>
+            <li>Piensa explorar opciones y formar un negocio.</li>
           </ul>
         </div>
         <p class="muted i18n-en" style="margin-top:.5rem">Educational story — not financial or investment advice.</p>
-        <p class="muted i18n-es" style="margin-top:.5rem">Historia educativa — no constituye asesoría financiera o de inversión.</p>
+        <p class="muted i18n-es" style="margin-top:.5rem">Historia educativa — no es asesoría financiera o de inversión.</p>
       </div>
     </div>
   </section>
 
-  <!-- HOPE -->
-  <section class="section hope">
+  <!-- INVITE + CONTACT (new) -->
+  <section class="section accent" id="invite">
     <div class="container">
-      <div class="card">
-        <div class="i18n-en">
-          <h2>Hope for everyone</h2>
-          <p>This shows that with the right <strong>financial literacy</strong>, anyone can use their skills to improve their circumstances. It’s not luck; it’s clear steps and consistency.</p>
-          <blockquote>“With simple habits and clear guidance, young people can build a future with purpose.”</blockquote>
+      <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem">
+        <div class="i18n-en" style="max-width:680px">
+          <h2 style="margin:.2rem 0">Invite your family & friends</h2>
+          <p class="muted" style="margin:.2rem 0 0">Subscribers are invited to help others start their journey. Share Edunancial with family and friends and grow the <strong>Edunancial Family</strong> — a community focused on good habits, respect, and hope.</p>
         </div>
-        <div class="i18n-es">
-          <h2>Esperanza para todos</h2>
-          <p>Esto demuestra que con la <strong>educación financiera</strong> adecuada, cualquiera puede usar sus habilidades para mejorar su situación. No es suerte; son pasos claros y constancia.</p>
-          <blockquote>“Con hábitos sencillos y guía clara, los jóvenes pueden construir un futuro con propósito.”</blockquote>
+        <div class="i18n-es" style="max-width:680px">
+          <h2 style="margin:.2rem 0">Invita a tu familia y amigos</h2>
+          <p class="muted" style="margin:.2rem 0 0">Invitamos a los suscriptores a ayudar a otros a comenzar su camino. Comparte Edunancial con familia y amigos y crece la <strong>Familia Edunancial</strong> — una comunidad con buenos hábitos, respeto y esperanza.</p>
+        </div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <a class="cta" href="mailto:info@edunancial.com">info@edunancial.com</a>
+          <a class="cta" href="mailto:support@edunancial.com" style="background:#1f2937">support@edunancial.com</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA (updated to Training, Education & Support + Online Club with moderation) -->
-  <section class="section">
-    <div class="container">
-      <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap">
-        <div class="i18n-en">
-          <h2 style="margin:.2rem 0">Training, Education & Support</h2>
-          <p class="muted" style="margin:.2rem 0 0">We’re forming an <strong>Edunancial online club</strong> where families can share progress. The community will be <strong>actively moderated</strong> to stay respectful, legally compliant, and on-mission.</p>
-        </div>
-        <div class="i18n-es">
-          <h2 style="margin:.2rem 0">Capacitación, Educación y Apoyo</h2>
-          <p class="muted" style="margin:.2rem 0 0">Formamos un <strong>club en línea de Edunancial</strong> para compartir avances. La comunidad será <strong>moderada activamente</strong> para mantener el respeto, el cumplimiento legal y el enfoque en la misión.</p>
-        </div>
-        <a class="cta" href="mailto:info@edunancial.com">info@edunancial.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
     <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear();
-    });
-  </script>
 </body>
 </html>
