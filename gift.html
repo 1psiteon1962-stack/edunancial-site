@@ -23,7 +23,7 @@
   </style>
   <script src="udl-consent.js" defer></script>
   <script>
-    // Simple i18n
+    // Language toggle
     window.UDL_UI = window.UDL_UI || {};
     UDL_UI.setLang = (l)=>{ localStorage.setItem('udl_lang', l); document.documentElement.setAttribute('lang', l); };
     document.addEventListener('DOMContentLoaded', ()=>{
@@ -31,8 +31,7 @@
       document.documentElement.setAttribute('lang', saved);
       const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear();
     });
-
-    // Track downloads only when consented (see udl-consent.js)
+    // Track downloads if consented
     function trackGift(lang){
       if (window.UDL_CONSENT && typeof UDL_CONSENT.track==='function'){
         UDL_CONSENT.track('gift_download', {lang});
