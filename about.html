@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About — Edunancial</title>
-  <meta name="description" content="The origin and path of Edunancial — from an office moment to clear habits and responsible investing. Bilingual, simple, and hopeful." />
+  <meta name="description" content="Origin and path of Edunancial — bilingual and hopeful." />
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
+    :root{--blue:#1d4ed8;--red:#dc2626;--white:#ffffff;--max:1100px}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6;background:#fff}
     .container{max-width:var(--max);margin:0 auto;padding:1rem}
     nav{border-bottom:2px solid var(--blue);background:#fff;position:sticky;top:0;z-index:20}
@@ -15,34 +15,30 @@
     .nav-links a{text-decoration:none;color:#111;margin:0 .75rem;font-weight:500}
     .brand{font-weight:800;color:var(--blue)}
     .btn{background:#eee;color:#111;border:none;border-radius:8px;padding:.5rem .9rem}
-    .hero{background:var(--white);border-bottom:2px solid var(--red);padding:2rem 1rem;text-align:center}
+    .hero{background:#fff;border-bottom:2px solid var(--red);padding:2rem 1rem;text-align:center}
     .hero h1{font-size:clamp(1.8rem,3vw,2.6rem);margin:0 0 .5rem;font-weight:800;color:var(--blue)}
     .section{padding:2rem 1rem}
     .section h2{color:var(--blue);font-size:1.6rem;margin-bottom:.75rem}
     .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
-    ul{margin:.5rem 0 0 1.2rem}
-    ul li{margin:.35rem 0}
+    ul{margin:.5rem 0 0 1.2rem} ul li{margin:.35rem 0}
+    .accent{background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red)}
     footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
     footer a{color:var(--blue);text-decoration:none;margin:0 .5rem}
-
-    /* I18N */
-    .i18n-en { display:block; }
-    .i18n-es { display:none; }
-    html[lang="es"] .i18n-es { display:block; }
-    html[lang="es"] .i18n-en { display:none; }
+    /* i18n */
+    .i18n-en{display:block}.i18n-es{display:none}
+    html[lang="es"] .i18n-en{display:none} html[lang="es"] .i18n-es{display:block}
   </style>
   <script>
     (function () {
-      const KEY = 'edn_lang';
+      const KEY='edn_lang';
       function setLang(l){ localStorage.setItem(KEY,l); document.documentElement.setAttribute('lang', l); }
-      function init(){ setLang(localStorage.getItem(KEY) || 'en'); }
-      window.EDN_UI = { setLang, init };
+      function init(){ setLang(localStorage.getItem(KEY)||'en'); const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); }
+      window.EDN_UI={setLang,init};
       document.addEventListener('DOMContentLoaded', init);
     })();
   </script>
 </head>
 <body>
-  <!-- NAV -->
   <nav aria-label="Main">
     <div class="container nav-row">
       <div class="brand">Edunancial</div>
@@ -53,164 +49,94 @@
         <a href="index.html#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn" onclick="EDN_UI.setLang('en')">EN</button>
-        <button type="button" class="btn" onclick="EDN_UI.setLang('es')">ES</button>
+        <button class="btn" onclick="EDN_UI.setLang('en')">EN</button>
+        <button class="btn" onclick="EDN_UI.setLang('es')">ES</button>
       </div>
     </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero">
     <div class="container">
-      <div class="i18n-en">
-        <h1>About Edunancial</h1>
-        <p>From a single question in the office to a clear path of habits, earning, and responsible investing.</p>
-      </div>
-      <div class="i18n-es">
-        <h1>Acerca de Edunancial</h1>
-        <p>De una sola pregunta en la oficina a un camino claro de hábitos, ingresos y inversión responsable.</p>
-      </div>
+      <div class="i18n-en"><h1>About Edunancial</h1><p>From one question to a clear path of habits, earning, and responsible investing.</p></div>
+      <div class="i18n-es"><h1>Acerca de Edunancial</h1><p>De una pregunta a un camino claro de hábitos, ingresos e inversión responsable.</p></div>
     </div>
   </header>
 
   <main>
-    <!-- ORIGIN -->
     <section class="section">
       <div class="container">
         <div class="i18n-en">
           <h2>The origin</h2>
-          <div class="card">
-            <p>In the office, just after hanging up a call, my 11-year-old son walked in and asked: <em>“How do I make money with my head?”</em> We didn’t want a lecture — we wanted a plan: small steps, real decisions, and simple tools. That’s how Edunancial began.</p>
-          </div>
+          <div class="card"><p>After a client call, my 11-year-old asked, “How do I make money with my head?” We built a plan of small steps and real decisions. That’s Edunancial.</p></div>
         </div>
         <div class="i18n-es">
           <h2>El origen</h2>
-          <div class="card">
-            <p>En la oficina, justo después de colgar una llamada, mi hijo de 11 años entró y preguntó: <em>“¿Cómo hago dinero con mi cabeza?”</em> No queríamos un discurso, sino un plan: pasos pequeños, decisiones reales y herramientas sencillas. Así nació Edunancial.</p>
-          </div>
+          <div class="card"><p>Tras una llamada con un cliente, mi hijo de 11 años preguntó: “¿Cómo hago dinero con mi cabeza?” Creamos un plan con pasos pequeños y decisiones reales. Ese es Edunancial.</p></div>
         </div>
       </div>
     </section>
 
-    <!-- TIMELINE (Age 13 & 14 updated as requested) -->
-    <section class="section" style="background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red);">
+    <section class="section accent">
       <div class="container">
         <div class="i18n-en">
-          <h2>The path (ages 11–15)</h2>
+          <h2>The path (11–15)</h2>
           <div class="card">
-            <h3 style="color:var(--red);margin:.2rem 0 .5rem">Age 11 — First Money Habits</h3>
-            <ul>
-              <li>Saves a small portion of allowance and gifts.</li>
-              <li>Learns delayed gratification.</li>
-              <li>Opens a basic savings account with a parent.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 12 — Early Tracking</h3>
-            <ul>
-              <li>Keeps a simple ledger of money in/out.</li>
-              <li>Uses categories: saving, spending, giving.</li>
-              <li>Understands trade-offs in choices.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 13 — Discipline with Allowance</h3>
-            <ul>
-              <li><strong>Learns self-discipline to use his allowance wisely</strong> (prioritizing needs, delaying wants).</li>
-              <li>Sets a savings target and practices sticking to it.</li>
-              <li>Understands that every dollar has a job.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 14 — Building Wealth Paths</h3>
-            <ul>
-              <li><strong>Gains and refines paths to wealth-building</strong> (better budgeting, smarter goal-setting, safer habits).</li>
-              <li>Uses simple tools to track progress clearly.</li>
-              <li>Recognizes risk and keeps decisions age-appropriate.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">Age 15 — Practical Investing</h3>
-            <ul>
-              <li>Saves a fixed percentage of every dollar earned.</li>
-              <li>Tracks goals consistently (notebook + app).</li>
-              <li>He <strong>buys physical silver and gold with his own funds</strong>.</li>
-              <li>Has selected stocks with <strong>8–12% ROI</strong> and wants to explore options responsibly.</li>
-              <li>Understands diversification and long-term thinking.</li>
-            </ul>
-
+            <h3 style="color:#dc2626;margin:.2rem 0 .5rem">Age 11 — First Money Habits</h3>
+            <ul><li>Saves a portion of allowance and gifts.</li><li>Learns delayed gratification.</li><li>Opens a basic savings account.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">Age 12 — Early Tracking</h3>
+            <ul><li>Keeps a simple ledger of money in/out.</li><li>Uses categories: saving, spending, giving.</li><li>Understands trade-offs.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">Age 13 — Discipline with Allowance</h3>
+            <ul><li><strong>Self-discipline to use allowance wisely</strong> (prioritize needs, delay wants).</li><li>Sets a savings target and sticks to it.</li><li>Every dollar has a job.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">Age 14 — Wealth-Building Paths</h3>
+            <ul><li><strong>Gains and refines paths to wealth-building</strong> (better budgeting, clearer goals, safer habits).</li><li>Uses simple tools to track progress.</li><li>Keeps decisions age-appropriate.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">Age 15 — Practical Investing</h3>
+            <ul><li>Saves a fixed percentage of income.</li><li>Tracks goals (notebook + app).</li><li><strong>Buys physical silver and gold with his own funds</strong>; selected stocks with <strong>8–12% ROI</strong>; studies options responsibly.</li><li>Understands diversification and long-term thinking.</li></ul>
             <p class="muted" style="margin-top:1rem">Educational journey — not financial or investment advice.</p>
           </div>
         </div>
 
         <div class="i18n-es">
-          <h2>El camino (11–15 años)</h2>
+          <h2>El camino (11–15)</h2>
           <div class="card">
-            <h3 style="color:var(--red);margin:.2rem 0 .5rem">11 — Primeros hábitos con el dinero</h3>
-            <ul>
-              <li>Ahorra una parte de la mesada y los regalos.</li>
-              <li>Aprende a esperar (postergar compras impulsivas).</li>
-              <li>Abre una cuenta de ahorro básica con un adulto.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">12 — Registro temprano</h3>
-            <ul>
-              <li>Lleva un registro sencillo de entradas y salidas.</li>
-              <li>Usa categorías: ahorro, gasto, donación.</li>
-              <li>Comprende los intercambios en cada decisión.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">13 — Disciplina con la mesada</h3>
-            <ul>
-              <li><strong>Aprende autodisciplina para usar su mesada con sabiduría</strong> (prioriza necesidades, retrasa deseos).</li>
-              <li>Define una meta de ahorro y la cumple con constancia.</li>
-              <li>Comprende que cada dólar tiene un propósito.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">14 — Rutas para crear patrimonio</h3>
-            <ul>
-              <li><strong>Gana y perfecciona caminos hacia la construcción de patrimonio</strong> (mejor presupuesto, metas más claras, hábitos seguros).</li>
-              <li>Usa herramientas simples para medir avances.</li>
-              <li>Reconoce el riesgo y mantiene decisiones acordes a su edad.</li>
-            </ul>
-
-            <h3 style="color:var(--red);margin:1rem 0 .5rem">15 — Inversión práctica</h3>
-            <ul>
-              <li>Ahorra un porcentaje fijo de cada ingreso.</li>
-              <li>Registra metas con constancia (libreta + app).</li>
-              <li><strong>Compra plata y oro físicos con sus propios fondos</strong>.</li>
-              <li>Ha seleccionado acciones con <strong>8–12% de ROI</strong> y quiere explorar opciones con responsabilidad.</li>
-              <li>Entiende la diversificación y el largo plazo.</li>
-            </ul>
-
+            <h3 style="color:#dc2626;margin:.2rem 0 .5rem">11 — Primeros hábitos</h3>
+            <ul><li>Ahorra parte de la mesada y los regalos.</li><li>Aprende a esperar.</li><li>Abre una cuenta de ahorro básica.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">12 — Registro temprano</h3>
+            <ul><li>Registro simple de entradas y salidas.</li><li>Categorías: ahorro, gasto, donación.</li><li>Comprende los intercambios.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">13 — Disciplina con la mesada</h3>
+            <ul><li><strong>Autodisciplina para usar la mesada con sabiduría</strong> (prioriza necesidades, retrasa deseos).</li><li>Meta de ahorro y constancia.</li><li>Cada dólar tiene un propósito.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">14 — Rutas de patrimonio</h3>
+            <ul><li><strong>Gana y perfecciona caminos de creación de patrimonio</strong> (mejor presupuesto, metas claras, hábitos seguros).</li><li>Herramientas simples para medir avances.</li><li>Decisiones acordes a su edad.</li></ul>
+            <h3 style="color:#dc2626;margin:1rem 0 .5rem">15 — Inversión práctica</h3>
+            <ul><li>Ahorra un porcentaje fijo.</li><li>Registra metas (libreta + app).</li><li><strong>Compra plata y oro físicos con sus propios fondos</strong>; acciones con <strong>8–12% de ROI</strong>; estudia opciones con responsabilidad.</li><li>Diversificación y visión de largo plazo.</li></ul>
             <p class="muted" style="margin-top:1rem">Trayectoria educativa — no es asesoría financiera o de inversión.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PURPOSE -->
-    <section class="section">
+    <!-- INVITE + CONTACT (new) -->
+    <section class="section" id="invite">
       <div class="container">
-        <div class="i18n-en">
-          <h2>Purpose</h2>
-          <div class="card">
-            <p>Build judgment, responsibility, and confidence so young people can make good money decisions — now and later. Keep lessons short, tools simple, and progress visible.</p>
+        <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem">
+          <div class="i18n-en" style="max-width:680px">
+            <h2 style="margin:.2rem 0">Invite family & friends</h2>
+            <p class="muted" style="margin:.2rem 0 0">Subscribers can invite loved ones to join the <strong>Edunancial Family</strong> and begin their own journey. Help others build habits, respect, and hope.</p>
           </div>
-        </div>
-        <div class="i18n-es">
-          <h2>Propósito</h2>
-          <div class="card">
-            <p>Formar criterio, responsabilidad y confianza para que los jóvenes tomen buenas decisiones con el dinero — hoy y mañana. Lecciones breves, herramientas simples y progreso visible.</p>
+          <div class="i18n-es" style="max-width:680px">
+            <h2 style="margin:.2rem 0">Invita a familia y amigos</h2>
+            <p class="muted" style="margin:.2rem 0 0">Los suscriptores pueden invitar a sus seres queridos a unirse a la <strong>Familia Edunancial</strong> y comenzar su propio camino. Ayuda a otros a construir hábitos, respeto y esperanza.</p>
+          </div>
+          <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+            <a class="btn" style="background:#dc2626;color:#fff" href="mailto:info@edunancial.com">info@edunancial.com</a>
+            <a class="btn" style="background:#1f2937;color:#fff" href="mailto:support@edunancial.com">support@edunancial.com</a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER -->
   <footer>
-    <p>© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
+    <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', ()=>{ const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear(); });
-  </script>
 </body>
 </html>
