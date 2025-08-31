@@ -1,121 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Members — Edunancial</title>
-<link rel="stylesheet" href="css/style.css">
-<style>
-  :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
-  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink)}
-  .container{max-width:var(--max);margin:0 auto;padding:0 16px}
-  header,footer{background:#fff;border-bottom:1px solid #e5e7eb}
-  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
-  .brand{font-weight:800;color:var(--blue);text-decoration:none}
-  .btn{display:inline-block;padding:.6rem 1rem;border-radius:12px;font-weight:800;text-decoration:none}
-  .btn.primary{background:#d62828;color:#fff;border:2px solid #d62828}
-  .btn.outline{background:#fff;color:#0b3d91;border:2px solid #0b3d91}
-  .badge{display:inline-block;background:#0b3d91;color:#fff;border-radius:999px;padding:.2rem .6rem;font-size:.8rem;margin-left:.5rem}
-  .hero{background:#f8fafc;padding:24px 0;border-bottom:1px solid #e5e7eb}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:18px 0}
-  .card{border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff}
-  .muted{color:#64748b}
-  .upgrade{border:2px dashed #d62828;background:#fff5f5}
-</style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title data-i18n="members_title">Members</title>
+<link rel="stylesheet" href="style.css"/>
 <script src="edn-ui.js" defer></script>
 <script src="edn-consent.js" defer></script>
+<script src="edn-members.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="container nav">
-    <a class="brand" href="index.html">Edunancial</a>
-    <nav>
-      <a href="index.html">Home</a> • <a href="pricing.html">Plans</a> • <a href="videos.html">Videos</a> • <a href="shop.html">Materials</a>
+<header class="nav">
+  <div class="container nav-row">
+    <a class="brand" href="index.html" data-i18n="brand">Edunancial</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+      <a href="story.html" data-i18n="nav_story">Our Story</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
     </nav>
+    <div class="lang"><button data-edn-lang="en" class="active">EN</button><button data-edn-lang="es">ES</button></div>
   </div>
 </header>
 
-<section class="hero">
+<main class="section">
   <div class="container">
-    <h1>Member dashboard <span id="tier-badge" class="badge">Basic</span></h1>
-    <p class="muted">Access your lessons, videos, and downloads. Upgrade to unlock discounts and early access.</p>
-    <div id="upgrade-cta" style="margin-top:10px"></div>
-  </div>
-</section>
-
-<main class="container">
-  <div class="grid">
-    <div class="card">
-      <h3>Start learning</h3>
-      <p class="muted">Jump into core lessons and downloadable templates.</p>
-      <a class="btn outline" href="index.html#how">Go to lessons</a>
-    </div>
-
-    <div class="card">
-      <h3>Videos</h3>
-      <p class="muted">Watch free previews; Gold unlocks full catalog and discounts.</p>
-      <a class="btn outline" href="videos.html">Open videos</a>
-    </div>
-
-    <div class="card">
-      <h3>Materials</h3>
-      <p class="muted">Download the free pamphlet and get member deals on add-ons.</p>
-      <a class="btn outline" href="shop.html">Open materials</a>
-    </div>
-
-    <div class="card">
-      <h3>Your tier</h3>
-      <p class="muted">Switch for testing (will be automatic after checkout).</p>
-      <div>
-        <button class="btn outline" onclick="EDN_setTier('basic')">Set Basic</button>
-        <button class="btn primary" onclick="EDN_setTier('gold')">Set Gold</button>
-      </div>
+    <h1 data-i18n="members_title">Members</h1>
+    <p data-i18n="members_lead">Welcome. Choose a member action below.</p>
+    <div id="edn-members-actions" class="cards">
+      <button class="card btn" data-action="basic" data-i18n="members_basic">Basic: view lessons/templates</button>
+      <button class="card btn" data-action="gold"  data-i18n="members_gold">Gold: access discounts & specials</button>
     </div>
   </div>
 </main>
 
 <footer>
-  <div class="container" style="padding:16px 0">
-    <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+  <div class="row">
+    <span>© 2025 Edunancial</span> •
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a> •
+    <a href="terms.html" data-i18n="footer_terms">Terms</a> •
+    <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
   </div>
 </footer>
-
-<!-- membership helpers -->
-<script>
-  /* load membership util inline (or include via separate file) */
-</script>
-<!-- paste the tiny helper file here or include it once globally -->
-<?/* if you prefer as external file, remove the PHP tag and use <script src="edn-members.js"></script> */?>
-<script>
-  // Inject the helper now:
-</script>
-<!-- For simplicity, include the helper inline -->
-<script>
-/* === begin edn-members.js snippet === */
-const KEY="edn_member";function g(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch{return{}}}
-function s(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch{}}
-function init(){const m=g();if(!m.tier){m.tier="basic";s(m)}return m}
-function cls(t){document.documentElement.classList.remove("tier-basic","tier-gold");document.documentElement.classList.add(t==="gold"?"tier-gold":"tier-basic")}
-window.EDN_member=function(){return init()}
-window.EDN_isGold=function(){return init().tier==="gold"}
-window.EDN_setTier=function(t){const m=init();m.tier=t==="gold"?"gold":"basic";s(m);cls(m.tier);document.dispatchEvent(new CustomEvent("edn:tierchange",{detail:m.tier}))}
-cls(init().tier);
-/* === end helper === */
-(function render(){
-  function ui(){
-    const badge=document.getElementById('tier-badge');
-    const cta=document.getElementById('upgrade-cta');
-    const gold=EDN_isGold();
-    badge.textContent=gold?'Gold':'Basic';
-    if(!gold){
-      cta.innerHTML=`<div class="card upgrade"><strong>Unlock everything with Gold.</strong><br>
-        Discounts, early-bird access, full video catalog, monthly Q&A, and more.<br>
-        <a class="btn primary" href="pricing.html">Upgrade to Gold</a></div>`;
-    }else{
-      cta.innerHTML=`<div class="card" style="border-color:#0b3d91"><strong>Thanks for being Gold!</strong> Enjoy your benefits.</div>`;
-    }
-  }
-  ui(); document.addEventListener("edn:tierchange",ui);
-})();
-</script>
 </body>
 </html>
