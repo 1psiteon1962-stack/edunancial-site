@@ -1,77 +1,58 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Plans — Edunancial</title>
-  <meta name="description" content="Clear, flexible pricing. You’ll see the final amount before checkout." />
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
-    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fff}
-    .container{max-width:var(--max);margin:0 auto;padding:0 16px}
-    header{border-bottom:1px solid #e5e7eb;background:#fff}
-    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-    .brand{font-weight:800;font-size:1.15rem;color:var(--blue);text-decoration:none}
-    .links a{margin:0 10px;text-decoration:none;color:var(--ink)}
-    .lang{display:flex;gap:8px}
-    .lang button{border:2px solid var(--blue);background:#fff;color:var(--blue);border-radius:12px;padding:6px 10px;font-weight:700}
-    .lang button.active{background:var(--blue);color:#fff}
-    .hero{background:linear-gradient(135deg,#0b3d91, #d62828);color:#fff}
-    .hero-inner{padding:40px 0}
-    .hero h1{margin:.25rem 0 0}
-    .muted{color:var(--muted)}
-    section{padding:28px 0}
-    #plans-root .plans{margin-top:.4rem}
-  </style>
-  <script>window.EDN_GA_ID="";</script>
-  <script src="edn-ui.js" defer></script>
-  <script src="edn-consent.js" defer></script>
-  <script src="pricing-config.js" defer></script>
-  <script src="region-pricing.js" defer></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plans — Edunancial</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink)}
+  header,footer{background:#fff;border-bottom:1px solid #e5e7eb}
+  .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+  .brand{font-weight:800;color:var(--blue);text-decoration:none}
+  .hero{padding:42px 0;background:linear-gradient(135deg,#163a74,#c92525);color:#fff}
+  .hero h1{margin:0 0 .4rem 0;font-size:2.2rem}
+  .muted{color:#64748b}
+  /* region-pricing cards already styled in region-pricing.js; just spacing here */
+  .section{padding:24px 0}
+</style>
+
+<!-- Load UI helpers, consent (will conditionally show), then pricing scripts -->
+<script>window.EDN_GA_ID=""; /* add GA4 ID when ready */</script>
+<script src="edn-ui.js" defer></script>
+<script src="edn-consent.js" defer></script>
+<script src="pricing-config.js" defer></script>
+<script src="region-pricing.js" defer></script>
 </head>
+
 <body>
-  <header>
-    <div class="container nav">
-      <a class="brand" href="index.html">Edunancial</a>
-      <nav class="links" aria-label="Primary">
-        <a href="index.html" data-i18n="nav_home">Home</a>
-        <a href="story.html" data-i18n="nav_story">Our Story</a>
-        <a href="pricing.html" data-i18n="nav_plans">Plans</a>
-        <a href="contact.html" data-i18n="nav_contact">Contact</a>
-      </nav>
-      <div class="lang" aria-label="Language">
-        <button id="lang-en" class="active">EN</button>
-        <button id="lang-es">ES</button>
-      </div>
-    </div>
-  </header>
-
-  <div class="hero">
-    <div class="container hero-inner">
-      <h1 data-i18n="plans_h1">Plans</h1>
-      <p class="muted" style="color:#fff;opacity:.95" data-i18n="plans_tag">Clear, flexible pricing. You’ll see the final amount before checkout.</p>
-    </div>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">Edunancial</a>
+    <nav>
+      <a href="index.html">Home</a> • <strong>Plans</strong> • <a href="story.html">Our Story</a> • <a href="contact.html">Contact</a>
+      <span style="margin-left:.75rem"><button class="i18n-btn" data-lang="en">EN</button><button class="i18n-btn" data-lang="es">ES</button></span>
+    </nav>
   </div>
+</header>
 
-  <main>
-    <section>
-      <div class="container">
-        <!-- Plans render here -->
-        <div id="plans-root"></div>
-      </div>
-    </section>
-  </main>
+<section class="hero">
+  <div class="container">
+    <h1 data-i18n="plans_title">Plans</h1>
+    <p data-i18n="plans_sub">Clear, flexible pricing. You’ll see the final amount before checkout.</p>
+  </div>
+</section>
 
-  <footer>
-    <div class="container muted">
-      <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
-    </div>
-  </footer>
+<main class="container section">
+  <!-- MOUNT POINT: plans get injected here -->
+  <div id="plans-root"></div>
+</main>
 
-  <script>
-    document.getElementById('lang-en').addEventListener('click', ()=>window.EDN_setLang('en'));
-    document.getElementById('lang-es').addEventListener('click', ()=>window.EDN_setLang('es'));
-  </script>
+<footer>
+  <div class="container" style="padding:16px 0">
+    <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+  </div>
+</footer>
 </body>
 </html>
