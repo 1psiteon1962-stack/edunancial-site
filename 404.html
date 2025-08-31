@@ -1,15 +1,34 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>404 • UDL</title>
-<link rel="stylesheet" href="/css/style.css"><meta name="robots" content="noindex"></head><body>
-<nav class="topbar"><a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-<ul class="menu"><li><a href="/index.html" data-i18n="nav.home">Home</a></li><li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li></ul>
-<button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button></nav>
-<main class="container">
-  <h1 data-i18n="404.title">Page not found</h1>
-  <p class="notice only-en">Let’s take you back home.</p>
-  <p class="notice only-es">Volvamos a inicio.</p>
-  <p><a class="btn" href="/index.html">Home</a></p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Edunancial</title>
+<script src="edn-ui.js" defer></script>
+<style>
+:root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:900px}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+.container{max-width:var(--max);margin:0 auto;padding:1rem}
+header{background:#fff;border-bottom:1px solid #e5e7eb}
+.brand{font-weight:900;color:var(--blue);text-decoration:none}
+h1{font-size:2rem;margin:.2rem 0}
+.btn{display:inline-block;padding:.65rem 1rem;border-radius:12px;border:2px solid var(--blue);background:var(--blue);color:#fff;text-decoration:none;font-weight:700}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem;margin-top:1rem}
+.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
+</style>
+</head>
+<body>
+<header><div class="container"><a class="brand" href="index.html">Edunancial</a></div></header>
+<main class="container card">
+  <div class="i18n-es">
+    <h1>Página no encontrada</h1>
+    <p>No pudimos encontrar lo que buscabas. Volvamos a inicio.</p>
+    <p><a class="btn" href="index.html">Inicio</a></p>
+  </div>
+  <div class="i18n-en">
+    <h1>Page not found</h1>
+    <p>We couldn’t find that page. Let’s go back home.</p>
+    <p><a class="btn" href="index.html">Home</a></p>
+  </div>
 </main>
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script></body></html>
+</body>
+</html>
