@@ -1,75 +1,33 @@
-# Netlify config — Ultima Defensa Legal
 [build]
   publish = "."
 
-# ---------- Redirects ----------
-# Legacy Spanish pages → canonical
-[[redirects]]
-  from = "/index_es.html"
-  to   = "/index.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/subscribe_es.html"
-  to   = "/subscribe.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/attorneys_es.html"
-  to   = "/attorneys.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/404.es.html"
-  to   = "/404.html"
-  status = 301
-  force = true
-
-# Pretty links
-[[redirects]]
+# Pretty URLs
+[[redirects]]  # /privacy -> /privacy.html
   from = "/privacy"
   to   = "/privacy.html"
   status = 301
-
 [[redirects]]
   from = "/terms"
   to   = "/terms.html"
   status = 301
-
 [[redirects]]
   from = "/refunds"
   to   = "/refunds.html"
   status = 301
-
-[[redirects]]
-  from = "/disclaimer"
-  to   = "/disclaimer.html"
-  status = 301
-
-[[redirects]]
-  from = "/cookies"
-  to   = "/cookies.html"
-  status = 301
-
 [[redirects]]
   from = "/security"
   to   = "/security.html"
   status = 301
-
 [[redirects]]
-  from = "/accessibility"
-  to   = "/accessibility.html"
+  from = "/pricing"
+  to   = "/pricing.html"
+  status = 301
+[[redirects]]
+  from = "/story"
+  to   = "/story.html"
   status = 301
 
-[[redirects]]
-  from = "/gift"
-  to   = "/gift.html"
-  status = 301
-
-# ---------- Security headers ----------
+# Security headers
 [[headers]]
   for = "/*"
   [headers.values]
@@ -79,16 +37,3 @@
     Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
-
-# ---------- Force-download for pamphlet PDFs ----------
-[[headers]]
-  for = "/assets/pamphlet/UDL_Pamphlet_EN.pdf"
-  [headers.values]
-    Content-Disposition = "attachment; filename=UDL_Pamphlet_EN.pdf"
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "/assets/pamphlet/UDL_Pamphlet_ES.pdf"
-  [headers.values]
-    Content-Disposition = "attachment; filename=UDL_Pamphlet_ES.pdf"
-    Cache-Control = "public, max-age=604800"
