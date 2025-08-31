@@ -1,50 +1,74 @@
-/* pricing-config.js — simple plan catalog (no provider links yet) */
+/* pricing-config.js — Edunancial plans (EN/ES) with Monthly/Annual pricing.
+   - Basic (free)
+   - Gold (paid)
+   - Annual shows “per month” AND the billed-yearly total in UI (handled by region-pricing.js)
+*/
+
 window.EDN_PLANS = [
   {
     id: "basic",
     name: { en: "Basic", es: "Básico" },
-    price: 0,
-    term: { en: "/month", es: "/mes" },
+    monthly: 0,
+    annual: 0,             // billed yearly total; 0 stays 0
     features: {
-      en: ["Intro lessons (EN/ES)", "Templates: budget & savings", "Community tips"],
-      es: ["Lecciones intro (EN/ES)", "Plantillas: presupuesto y ahorro", "Consejos de la comunidad"]
+      en: [
+        "Access to public lessons (EN/ES)",
+        "Starter templates (budget & savings)",
+        "Community tips",
+        "Free pamphlet download",
+        "No discounts on store/events"
+      ],
+      es: [
+        "Acceso a lecciones públicas (EN/ES)",
+        "Plantillas iniciales (presupuesto y ahorro)",
+        "Consejos de la comunidad",
+        "Folleto gratuito (descarga)",
+        "Sin descuentos en tienda/eventos"
+      ]
     },
     cta: { en: "Start free", es: "Comienza gratis" },
     href: "contact.html"
   },
   {
-    id: "core",
-    name: { en: "Core", es: "Esencial" },
-    price: 7,
-    term: { en: "/month", es: "/mes" },
+    id: "gold",
+    name: { en: "Gold", es: "Oro" },
+    monthly: 12,           // default monthly price
+    annual: 108,           // billed yearly total (2 months free)
     features: {
-      en: ["Full lesson library", "Investing primers", "Goal tracking"],
-      es: ["Biblioteca completa", "Introducción a inversión", "Seguimiento de metas"]
+      en: [
+        "Everything in Basic",
+        "Full lesson library + investing primers",
+        "Specials & member discounts",
+        "Early-bird access to new lessons/events",
+        "Monthly Q&A / office hours",
+        "Extra templates (net worth, sinking funds, pay-yourself-first)",
+        "Free pamphlet download",
+        "Priority support"
+      ],
+      es: [
+        "Todo en Básico",
+        "Biblioteca completa + introducción a inversión",
+        "Ofertas y descuentos para miembros",
+        "Acceso anticipado a nuevas lecciones/eventos",
+        "Sesión mensual de preguntas y respuestas",
+        "Plantillas extra (patrimonio, fondos, páguese primero)",
+        "Folleto gratuito (descarga)",
+        "Soporte prioritario"
+      ]
     },
-    cta: { en: "Get started", es: "Empezar" },
-    href: "contact.html"
-  },
-  {
-    id: "plus",
-    name: { en: "Plus", es: "Plus" },
-    price: 12,
-    term: { en: "/month", es: "/mes" },
-    features: {
-      en: ["Everything in Core", "Practice challenges", "Monthly Q&A"],
-      es: ["Todo Esencial", "Retos de práctica", "Preguntas y respuestas mensuales"]
-    },
-    cta: { en: "Join now", es: "Únete" },
-    href: "contact.html"
+    cta: { en: "Join Gold", es: "Unirte a Oro" },
+    href: "contact.html" // replace with Square checkout later
   }
 ];
 
-/* Optional regional adjustments (silent; no “Region” label shown) */
-window.EDN_PRICE_OVERRIDES = function (countryCode /* e.g., 'US' */, stateCode /* e.g., 'TX' */) {
-  // Example: lower price in PR; tweak per your strategy
+/* Optional silent regional pricing adjustments (no “Region” label shown).
+   Return an object keyed by plan id; each value can include { monthly, annual } overrides.
+   Example below: Puerto Rico lower price for Gold.
+*/
+window.EDN_PRICE_OVERRIDES = function (countryCode, stateCode) {
   const adj = {};
   if (countryCode === "US" && stateCode === "PR") {
-    adj.core = 5;
-    adj.plus = 9;
+    adj.gold = { monthly: 9, annual: 90 };
   }
   return adj;
 };
