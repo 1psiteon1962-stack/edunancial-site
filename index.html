@@ -44,9 +44,14 @@
     .promise h3{margin:.2rem 0 .4rem}
     .promise strong{font-weight:800}
 
+    /* CONTACT buttons */
+    .contact-btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;text-decoration:none;color:#fff;margin-right:.5rem}
+    .contact-btn.primary{background:#dc2626}
+    .contact-btn.dark{background:#1f2937}
+
     /* FOOTER */
     footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
-    footer a{color:var(--blue);text-decoration:none;margin:0 .5rem}
+    footer a{color:#1d4ed8;text-decoration:none;margin:0 .5rem}
 
     /* I18N */
     .i18n-en{display:block}.i18n-es{display:none}
@@ -55,10 +60,10 @@
   <script>
     // Persisted EN/ES toggle
     (function () {
-      const KEY = 'edn_lang';
+      const KEY='edn_lang';
       function setLang(l){ localStorage.setItem(KEY,l); document.documentElement.setAttribute('lang', l); }
-      function init(){ setLang(localStorage.getItem(KEY) || 'en'); const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); }
-      window.EDN_UI = { setLang, init };
+      function init(){ setLang(localStorage.getItem(KEY)||'en'); const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); }
+      window.EDN_UI={ setLang, init };
       document.addEventListener('DOMContentLoaded', init);
     })();
   </script>
@@ -91,12 +96,12 @@
     </div>
   </header>
 
-  <!-- ORIGIN + TIMELINE STORY (short home version) -->
+  <!-- ORIGIN + TIMELINE STORY (home version) -->
   <section class="section" id="story">
     <div class="container">
       <h2>How Edunancial started — and how it grew</h2>
       <div class="card" style="margin-bottom:1rem">
-        <p><strong>The spark:</strong> After a client call, my 11-year-old asked, <em>“How do I make money with my head?”</em> That one question became our mission: teach young people how to think about money — clearly, simply, practically.</p>
+        <p><strong>The spark:</strong> After a client call, my 11-year-old asked, <em>“How do I make money with my head?”</em> That question became our mission: teach young people how to think about money — clearly, simply, practically.</p>
       </div>
 
       <div class="timeline">
@@ -159,27 +164,33 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- CONTACT (neutral + two emails, bilingual text) -->
   <section class="section" id="contact">
     <div class="container">
       <h2>Contact</h2>
-      <p>Want Edunancial for your school or family? Contact us for materials and sessions.</p>
-      <p><a href="mailto:info@edunancial.com" class="btn">info@edunancial.com</a></p>
+      <div class="i18n-en">
+        <p>Questions about Edunancial, subscriptions, or resources? We’re here to help.</p>
+      </div>
+      <div class="i18n-es">
+        <p>¿Tienes preguntas sobre Edunancial, suscripciones o recursos? Estamos para ayudarte.</p>
+      </div>
+      <p>
+        <a class="contact-btn primary" href="mailto:support@edunancial.com">support@edunancial.com</a>
+        <a class="contact-btn dark" href="mailto:info@edunancial.com">info@edunancial.com</a>
+      </p>
     </div>
   </section>
 
-  <!-- NEW: PROMISE + INVITATION (unique to Home) -->
+  <!-- PROMISE + INVITATION (unique to Home) -->
   <section class="section accent" id="family">
     <div class="container">
       <div class="card promise">
-        <!-- English -->
         <div class="i18n-en">
           <h3><strong>Financial literacy for everyone.</strong></h3>
           <p>At Edunancial, we believe money skills should be clear, practical, and bilingual. Every tool and lesson is designed to empower <strong>teens, families, entrepreneurs, and communities</strong>.</p>
           <h3 style="margin-top:1rem"><strong>Join the Edunancial Family.</strong></h3>
           <p>Subscribers can invite family and friends to share the journey. Together, we grow a respectful and inspiring community where good habits build stronger futures.</p>
         </div>
-        <!-- Spanish -->
         <div class="i18n-es">
           <h3><strong>Educación financiera para todos.</strong></h3>
           <p>En Edunancial creemos que las habilidades con el dinero deben ser claras, prácticas y bilingües. Cada herramienta y lección está diseñada para empoderar a <strong>jóvenes, familias, emprendedores y comunidades</strong>.</p>
