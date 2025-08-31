@@ -1,45 +1,44 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pricing • Ultima Defensa Legal</title>
-<link rel="stylesheet" href="/css/style.css"></head><body>
-<nav class="topbar">
-  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-  <ul class="menu">
-    <li><a href="/index.html" data-i18n="nav.home">Home</a></li>
-    <li><a href="/pricing.html" data-i18n="nav.pricing" aria-current="page">Pricing</a></li>
-    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
-    <li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li>
-  </ul>
-  <button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button>
-</nav>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planes — Edunancial</title>
+  <script src="edn-ui.js" defer></script>
+  <style>
+    :root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:1100px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    header{background:#fff;border-bottom:1px solid #e5e7eb}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    .brand{font-weight:900;color:var(--blue);text-decoration:none}
+    .btn{padding:.55rem .9rem;border-radius:12px;border:2px solid var(--blue);background:#fff;color:var(--blue)}
+    .muted{color:#475569}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container row">
+    <a class="brand" href="index.html">Edunancial</a>
+    <div><button class="btn" onclick="EDN_UI.setLang('en')">EN</button>
+         <button class="btn" onclick="EDN_UI.setLang('es')">ES</button></div>
+  </div>
+</header>
 
 <main class="container">
-  <h1 data-i18n="pricing.title">Membership Pricing</h1>
-  <p class="notice" data-i18n="pricing.note">Regional pricing applies automatically at checkout.</p>
-
-  <section class="grid grid-2">
-    <div class="card">
-      <h2 data-i18n="pricing.individual">Individual</h2>
-      <p><span class="only-en"><strong>$19.99</strong> per month</span><span class="only-es"><strong>$19.99</strong> por mes</span></p>
-      <ul class="notice">
-        <li class="only-en">Bilingual intake & case routing</li><li class="only-es">Intake bilingüe y enrutamiento</li>
-        <li class="only-en">Member rates with participating attorneys</li><li class="only-es">Tarifas de miembro con abogados participantes</li>
-      </ul>
-      <a href="/thank-you.html" class="btn" data-i18n="pricing.choose">Choose Plan</a>
-    </div>
-    <div class="card">
-      <h2 data-i18n="pricing.attorney">Attorney</h2>
-      <p><span class="only-en"><strong>$49</strong> per month</span><span class="only-es"><strong>$49</strong> por mes</span></p>
-      <p class="notice" data-i18n="pricing.attorney.note">Includes at least one free or reduced consultation required.</p>
-      <ul class="notice">
-        <li class="only-en">Qualified lead routing + profile</li><li class="only-es">Leads calificados + perfil</li>
-        <li class="only-en">Bilingual intake notes</li><li class="only-es">Notas de intake bilingüe</li>
-      </ul>
-      <a href="/thank-you.html" class="btn" data-i18n="pricing.choose">Choose Plan</a>
-    </div>
-  </section>
+  <div class="i18n-es">
+    <h1>Planes</h1>
+    <p class="muted">Verás el precio final antes de pagar. Los precios se ajustan automáticamente.</p>
+  </div>
+  <div class="i18n-en">
+    <h1>Plans</h1>
+    <p class="muted">You’ll see the final price before checkout. Prices adjust automatically.</p>
+  </div>
+  <div id="plans-root"></div>
 </main>
 
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script>
-</body></html>
+<script src="pricing-config.js"></script>
+<script src="region-pricing.js"></script>
+</body>
+</html>
