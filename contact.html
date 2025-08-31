@@ -1,39 +1,53 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contacto — Edunancial</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title data-i18n="contact_title">Contact</title>
+<link rel="stylesheet" href="style.css"/>
 <script src="edn-ui.js" defer></script>
-<style>
-:root{--blue:#0b3d91;--bg:#f8fafc;--max:900px}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg)}
-.container{max-width:var(--max);margin:0 auto;padding:1rem}
-.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem}
-label{display:block;margin:.6rem 0 .25rem}input,textarea{width:100%;padding:.65rem;border:1px solid #e5e7eb;border-radius:10px}
-.btn{margin-top:.8rem;padding:.6rem 1rem;border-radius:12px;border:2px solid var(--blue);background:var(--blue);color:#fff;font-weight:700}
-.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-</style>
+<script src="edn-consent.js" defer></script>
+<script src="pricing-config.js" defer></script>
+<script src="region-pricing.js" defer></script>
 </head>
 <body>
-<main class="container">
-  <div class="card i18n-es">
-    <h1>Contáctanos</h1>
-    <form method="post" action="mailto:support@edunancial.com" enctype="text/plain">
-      <label>Tu nombre</label><input name="name" placeholder="Nombre">
-      <label>Email</label><input type="email" name="email" placeholder="you@example.com" required>
-      <label>Mensaje</label><textarea name="message" rows="6" placeholder="..."></textarea>
-      <button class="btn" type="submit">Enviar</button>
-    </form>
+<header class="nav">
+  <div class="container nav-row">
+    <a class="brand" href="index.html" data-i18n="brand">Edunancial</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+      <a href="story.html" data-i18n="nav_story">Our Story</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang"><button data-edn-lang="en" class="active">EN</button><button data-edn-lang="es">ES</button></div>
   </div>
-  <div class="card i18n-en">
-    <h1>Contact Us</h1>
-    <form method="post" action="mailto:support@edunancial.com" enctype="text/plain">
-      <label>Your name</label><input name="name" placeholder="Name">
-      <label>Email</label><input type="email" name="email" placeholder="you@example.com" required>
-      <label>Message</label><textarea name="message" rows="6" placeholder="..."></textarea>
-      <button class="btn" type="submit">Send</button>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1 data-i18n="contact_title">Contact Us</h1>
+    <p data-i18n="contact_lead">Send us a message and we’ll reply within 1 business day.</p>
+
+    <form class="card" netlify method="POST" name="contact">
+      <label><span data-i18n="contact_name">Your Name</span><br/>
+      <input type="text" name="name" required style="width:100%;padding:.6rem;border-radius:.5rem;border:1px solid #ddd"></label><br/><br/>
+      <label><span data-i18n="contact_email">Email</span><br/>
+      <input type="email" name="email" required style="width:100%;padding:.6rem;border-radius:.5rem;border:1px solid #ddd"></label><br/><br/>
+      <label><span data-i18n="contact_message">Message</span><br/>
+      <textarea name="message" rows="6" style="width:100%;padding:.6rem;border-radius:.5rem;border:1px solid #ddd"></textarea></label><br/><br/>
+      <button class="btn red" type="submit" data-i18n="contact_send">Send</button>
     </form>
   </div>
 </main>
+
+<footer>
+  <div class="row">
+    <span>© 2025 Edunancial</span> •
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a> •
+    <a href="terms.html" data-i18n="footer_terms">Terms</a> •
+    <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
+  </div>
+</footer>
 </body>
 </html>
