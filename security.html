@@ -1,14 +1,35 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Security • Ultima Defensa Legal</title>
-<link rel="stylesheet" href="/css/style.css"></head><body>
-<nav class="topbar"> <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-  <ul class="menu"><li><a href="/index.html" data-i18n="nav.home">Home</a></li><li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li><li><a href="/story.html" data-i18n="nav.story">Our Story</a></li><li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li></ul>
-  <button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button></nav>
-<main class="container">
-  <h1 data-i18n="security.title">Security</h1>
-  <div class="card only-en"><p>HTTPS enforced, HSTS, rate-limits, spam protection, and geo-controls at the edge. Report issues to security@ultimadefensalegal.com.</p></div>
-  <div class="card only-es"><p>HTTPS forzado, HSTS, límites de tasa, protección anti-spam y controles geográficos en el borde. Reporta problemas a security@ultimadefensalegal.com.</p></div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seguridad — Edunancial</title>
+  <script src="edn-ui.js" defer></script>
+  <style>
+    :root{--max:900px}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f8fafc}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1rem}
+    .i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
+  </style>
+</head>
+<body>
+<main class="container card">
+  <div class="i18n-es">
+    <h1>Seguridad</h1>
+    <ul>
+      <li>HTTPS en todo el sitio; cabeceras de seguridad reforzadas.</li>
+      <li>Pagos procesados por terceros conformes PCI; no almacenamos tarjetas.</li>
+      <li>Datos mínimos y controlados; acceso limitado.</li>
+    </ul>
+  </div>
+  <div class="i18n-en">
+    <h1>Security</h1>
+    <ul>
+      <li>Full-site HTTPS and hardened security headers.</li>
+      <li>Payments handled by PCI-compliant providers; we don’t store card data.</li>
+      <li>Minimal, controlled data; limited access.</li>
+    </ul>
+  </div>
 </main>
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script></body></html>
+</body>
+</html>
