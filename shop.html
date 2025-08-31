@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Materials — Edunancial</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink)}
+  .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+  header,footer{background:#fff;border-bottom:1px solid #e5e7eb}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+  .brand{font-weight:800;color:var(--blue);text-decoration:none}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:18px 0}
+  .card{border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff}
+  .muted{color:#64748b}
+  .btn{display:inline-block;padding:.5rem .9rem;border-radius:12px;text-decoration:none;font-weight:800}
+  .btn.primary{background:#d62828;color:#fff;border:2px solid #d62828}
+  .btn.outline{background:#fff;color:#0b3d91;border:2px solid #0b3d91}
+  .price{font-weight:800}
+</style>
+<script src="edn-ui.js" defer></script>
+<script src="edn-consent.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">Edunancial</a>
+    <nav>
+      <a href="index.html">Home</a> • <a href="pricing.html">Plans</a> • <a href="members.html">Members</a> • <a href="videos.html">Videos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Materials</h1>
+  <p class="muted">Download your free pamphlet anytime. Gold members see discounted pricing on add-ons.</p>
+
+  <div class="grid" id="shop"></div>
+</main>
+
+<footer>
+  <div class="container" style="padding:16px 0">
+    <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+  </div>
+</footer>
+
+<script>
+/* minimal membership helper inline (same as above) */
+const KEY="edn_member";function g(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch{return{}}}
+function s(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch{}}
+function init(){const m=g();if(!m.tier){m.tier="basic";s(m)}return m}
+window.EDN_isGold=function(){return init().tier==="gold"}
+</script>
+
+<script>
+const catalog = [
+  { id:"pamphlet", title:"Financial Literacy Pamphlet (PDF)", free:true, file:"pamphlet.pdf" },
+  { id:"template-budget", title:"Budget Template (Spreadsheet)", price:9.00, memberPrice:5.00 },
+  { id:"template-networth", title:"Net Worth & Sinking Funds (Spreadsheet)", price:12.00, memberPrice:7.00 },
+  { id:"ebook-starter", title:"Money Starter eBook (PDF)", price:14.00, memberPrice:9.00 }
+];
+function money(n){ return n.toLocaleString("en-US",{style:"currency",currency:"USD"}); }
+function render(){
+  const gold = EDN_isGold();
+  const el = document.getElementById('shop');
+  el.innerHTML = catalog.map(p=>{
+    if(p.free){
+      return `<div class="card">
+        <h3>${p.title}</h3>
+        <p class="muted">Free download for everyone.</p>
+        <a class="btn primary" href="${p.file||'#'}" ${p.file?'download':''}>Download</a>
+      </div>`;
+    }else{
+      const price = gold ? p.memberPrice : p.price;
+      const pricing = gold ? `<span class="price">${money(price)}</span> <span class="muted">member price</span>` :
+                             `<span class="price">${money(price)}</span> <span class="muted">(Gold: ${money(p.memberPrice)})</span>`;
+      const ctas = gold
+        ? `<a class="btn primary" href="contact.html">Get it</a>`
+        : `<a class="btn primary" href="pricing.html">Unlock Gold</a> <a class="btn outline" href="contact.html">Buy</a>`;
+      return `<div class="card"><h3>${p.title}</h3><div>${pricing}</div><div style="margin-top:.6rem">${ctas}</div></div>`;
+    }
+  }).join("");
+}
+render();
+</script>
+</body>
+</html>
