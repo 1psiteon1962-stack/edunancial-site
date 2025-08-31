@@ -1,25 +1,14 @@
-/* pricing-config.js — prices and features */
+<script>
 window.EDN_PRICING = {
+  // Display currency only; actual checkout to be wired to Square/Bitcoin later.
   currency: "USD",
-  // Base prices (you can change these anytime)
-  basic: { monthly: 9, annual: 90 },
-  gold: { monthly: 19, annual: 190 },
-  // Region adjustment (return multiplier). For now, 1.0 = no change.
-  // You can adjust by US state, or later by country/IP.
-  regionMultiplier: function () {
-    return 1.0;
+  monthly: {
+    basic: { price: 9,  features: ["plan_basic_benefits","plan_free_pamphlet"] },
+    gold:  { price: 19, features: ["plan_gold_benefits","plan_free_pamphlet"] }
   },
-  features: {
-    basic: [
-      "Lessons (EN/ES) & templates",
-      "Community tips",
-      "Newsletter + free pamphlet"
-    ],
-    gold: [
-      "Everything in Basic",
-      "Member discounts & specials",
-      "Early-bird access to paid videos",
-      "Upgrade/cancel anytime"
-    ]
+  annual: {
+    basic: { price: 90,  features: ["plan_basic_benefits","plan_free_pamphlet"], note:"(2 months free)" },
+    gold:  { price: 190, features: ["plan_gold_benefits","plan_free_pamphlet"], note:"(2 months free)" }
   }
 };
+</script>
