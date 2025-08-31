@@ -1,4 +1,4 @@
-/* edn-ui.js — Global EN/ES toggle for Edunancial (Spanish default) */
+/* edn-ui.js */
 (function () {
   const KEY = "edn_lang";
   const FALLBACK = "es";
