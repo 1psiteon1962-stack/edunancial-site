@@ -1,55 +1,50 @@
-<script>
-// -------- EDIT THESE VALUES ONLY --------
-window.EDU_PRICING_CONFIG = {
-  // HERO (bilingual marketing copy)
-  hero: {
-    headline: {
-      en: "Financial literacy for everyone — bilingual and practical",
-      es: "Educación financiera para todos — bilingüe y práctica"
+/* pricing-config.js — simple plan catalog (no provider links yet) */
+window.EDN_PLANS = [
+  {
+    id: "basic",
+    name: { en: "Basic", es: "Básico" },
+    price: 0,
+    term: { en: "/month", es: "/mes" },
+    features: {
+      en: ["Intro lessons (EN/ES)", "Templates: budget & savings", "Community tips"],
+      es: ["Lecciones intro (EN/ES)", "Plantillas: presupuesto y ahorro", "Consejos de la comunidad"]
     },
-    paragraph: {
-      en: "Learn money skills the clear way: budgeting, credit, investing, and business basics. Membership includes lessons, templates, and community — with region-based pricing.",
-      es: "Aprende sobre dinero de manera clara: presupuestos, crédito, inversiones y fundamentos de negocios. La membresía incluye lecciones, plantillas y comunidad — con precios según la región."
+    cta: { en: "Start free", es: "Comienza gratis" },
+    href: "contact.html"
+  },
+  {
+    id: "core",
+    name: { en: "Core", es: "Esencial" },
+    price: 7,
+    term: { en: "/month", es: "/mes" },
+    features: {
+      en: ["Full lesson library", "Investing primers", "Goal tracking"],
+      es: ["Biblioteca completa", "Introducción a inversión", "Seguimiento de metas"]
     },
-    ctaPrimary: { en: "View Plans", es: "Ver planes" },
-    ctaSecondary: { en: "How Edunancial started", es: "Cómo comenzó Edunancial" }
+    cta: { en: "Get started", es: "Empezar" },
+    href: "contact.html"
   },
-
-  // Pricing + regions
-  currencyByRegion: {
-    US: "USD", PR: "USD", DO: "USD", MX: "MXN", CA: "CAD", EU: "EUR", ROW: "USD"
-  },
-  display: {
-    BASIC: {
-      name: { en: "Basic", es: "Básico" },
-      prices: { US: 5.00, PR: 5.00, DO: 5.00, MX: 89, CA: 7.00, EU: 5.00, ROW: 5.00 }
+  {
+    id: "plus",
+    name: { en: "Plus", es: "Plus" },
+    price: 12,
+    term: { en: "/month", es: "/mes" },
+    features: {
+      en: ["Everything in Core", "Practice challenges", "Monthly Q&A"],
+      es: ["Todo Esencial", "Retos de práctica", "Preguntas y respuestas mensuales"]
     },
-    PREMIUM: {
-      name: { en: "Premium", es: "Premium" },
-      prices: { US: 15.00, PR: 15.00, DO: 15.00, MX: 269, CA: 19.00, EU: 15.00, ROW: 15.00 }
-    },
-    LIFETIME: {
-      name: { en: "Lifetime", es: "De por vida" },
-      prices: { US: 199.00, PR: 199.00, DO: 199.00, MX: 3699, CA: 259.00, EU: 199.00, ROW: 199.00 }
-    }
-  },
-  checkoutLinks: {
-    BASIC:  { US:"https://square.link/u/your-basic-us",  PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" },
-    PREMIUM:{ US:"https://square.link/u/your-premium-us",PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" },
-    LIFETIME:{US:"https://square.link/u/your-lifetime-us",PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" }
-  },
-  // Optional Bitcoin links; leave blank to hide the BTC button
-  cryptoLinks: {
-    BASIC:   { US:"", PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" },
-    PREMIUM: { US:"", PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" },
-    LIFETIME:{ US:"", PR:"", DO:"", MX:"", CA:"", EU:"", ROW:"" }
-  },
-  labels: {
-    regionLabel: { en: "Region", es: "Región" },
-    change:      { en: "Change", es: "Cambiar" },
-    perMonth:    { en: "/month", es: "/mes" },
-    selectPlan:  { en: "Select", es: "Elegir" }
+    cta: { en: "Join now", es: "Únete" },
+    href: "contact.html"
   }
+];
+
+/* Optional regional adjustments (silent; no “Region” label shown) */
+window.EDN_PRICE_OVERRIDES = function (countryCode /* e.g., 'US' */, stateCode /* e.g., 'TX' */) {
+  // Example: lower price in PR; tweak per your strategy
+  const adj = {};
+  if (countryCode === "US" && stateCode === "PR") {
+    adj.core = 5;
+    adj.plus = 9;
+  }
+  return adj;
 };
-// -------- END EDIT ZONE --------
-</script>
