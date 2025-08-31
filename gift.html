@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Regalo para Miembros — Ultima Defensa Legal</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="description" content="Descarga tu folleto educativo como miembro activo.">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root{--max:900px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.5}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    header{border-bottom:1px solid #eee;background:#fafafa}
+    .row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+    .btn{display:inline-block;padding:.7rem 1rem;border-radius:12px;text-decoration:none;cursor:pointer}
+    .btn-primary{background:#111;color:#fff;border:1px solid #111}
+    .btn-secondary{background:#fff;color:#111;border:1px solid #111}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .muted{color:#666}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
+    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem;text-align:center}
+  </style>
+  <script src="udl-consent.js" defer></script>
+  <script>
+    // Simple i18n
+    window.UDL_UI = window.UDL_UI || {};
+    UDL_UI.setLang = (l)=>{ localStorage.setItem('udl_lang', l); document.documentElement.setAttribute('lang', l); };
+    document.addEventListener('DOMContentLoaded', ()=>{
+      const saved = localStorage.getItem('udl_lang') || 'es';
+      document.documentElement.setAttribute('lang', saved);
+      const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear();
+    });
+
+    // Track downloads only when consented (see udl-consent.js)
+    function trackGift(lang){
+      if (window.UDL_CONSENT && typeof UDL_CONSENT.track==='function'){
+        UDL_CONSENT.track('gift_download', {lang});
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container row">
+      <a href="index.html" style="text-decoration:none;color:#111;font-weight:800">Ultima Defensa Legal</a>
+      <div>
+        <button class="btn btn-secondary" onclick="UDL_UI.setLang('en')">EN</button>
+        <button class="btn btn-secondary" onclick="UDL_UI.setLang('es')">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="card i18n-es">
+      <h1>Tu regalo: Folleto educativo para miembros</h1>
+      <p class="muted">Gracias por tu membresía. Descarga tu folleto (PDF). Solo para uso personal.</p>
+      <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+        <a class="btn btn-primary" href="assets/pamphlet/UDL_Pamphlet_ES.pdf" download onclick="trackGift('es')">Descargar en Español (PDF)</a>
+        <a class="btn btn-secondary" href="assets/pamphlet/UDL_Pamphlet_EN.pdf" download onclick="trackGift('en')">Descargar en Inglés (PDF)</a>
+      </div>
+      <p class="muted" style="margin-top:1rem">¿Problemas con la descarga? Escríbenos: <a href="mailto:support@ultimadefensalegal.com">support@ultimadefensalegal.com</a></p>
+    </article>
+
+    <article class="card i18n-en">
+      <h1>Your Gift: Member Educational Pamphlet</h1>
+      <p class="muted">Thank you for your membership. Download your pamphlet (PDF). For personal use only.</p>
+      <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+        <a class="btn btn-primary" href="assets/pamphlet/UDL_Pamphlet_EN.pdf" download onclick="trackGift('en')">Download in English (PDF)</a>
+        <a class="btn btn-secondary" href="assets/pamphlet/UDL_Pamphlet_ES.pdf" download onclick="trackGift('es')">Download in Spanish (PDF)</a>
+      </div>
+      <p class="muted" style="margin-top:1rem">Having trouble? Email us at <a href="mailto:support@ultimadefensalegal.com">support@ultimadefensalegal.com</a></p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="muted">© <span id="year"></span> Ultima Defensa Legal • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></p>
+    </div>
+  </footer>
+</body>
+</html>
