@@ -1,49 +1,46 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Educación financiera práctica</title>
-  <meta name="description" content="Educación financiera para jóvenes y familias. Hábitos de ahorro, inversión responsable y preparación para la vida real.">
+  <title>Edunancial — Practical Financial Education</title>
+  <meta name="description" content="Real-world financial education for teens and families. Savings habits, money choices, and basic investing with real examples.">
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    :root { --max: 1100px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#111; line-height:1.6; }
-    a { color: inherit; }
+    :root {
+      --blue: #1d4ed8;
+      --red: #dc2626;
+      --white: #ffffff;
+      --max: 1100px;
+    }
+    body {
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:#111;
+      line-height:1.6;
+      background:#fff;
+    }
     header, main, footer { width:100%; }
     .container { max-width: var(--max); margin:0 auto; padding:1rem; }
-    nav { border-bottom:1px solid #eee; background:#fff; position:sticky; top:0; z-index:20; }
+    nav { border-bottom:2px solid var(--blue); background:#fff; position:sticky; top:0; z-index:20; }
     .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .nav-links a { text-decoration:none; color:#111; margin:0 .5rem; }
-    .brand { font-weight:800; letter-spacing:.3px; }
+    .nav-links a { text-decoration:none; color:#111; margin:0 .75rem; font-weight:500; }
+    .brand { font-weight:800; color: var(--blue); }
 
-    .hero { background:#fafafa; border-bottom:1px solid #eee; }
-    .hero h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin:0 0 .5rem; font-weight:800; }
-    .hero p { margin:.3rem 0 1rem; max-width:70ch; color:#333; }
+    .hero { background:var(--white); border-bottom:2px solid var(--red); padding:2rem 1rem; text-align:center; }
+    .hero h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin:0 0 .5rem; font-weight:800; color: var(--blue);}
+    .hero p { margin:.5rem 0 1rem; max-width:70ch; color:#333; }
+    .hero .btn { background: var(--red); color:#fff; font-weight:600; border:none; border-radius:8px; padding:.7rem 1.2rem; text-decoration:none; }
 
     .section { padding: 2rem 1rem; }
-    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:1rem; }
-    .card { border:1px solid #e5e7eb; border-radius:16px; padding:1rem; background:#fff; }
-    .card h3 { margin:.2rem 0 .5rem; }
-    .muted { color:#666; }
+    .section h2 { color: var(--blue); font-size:1.6rem; margin-bottom:1rem; }
 
-    .list { margin: .5rem 0 0 1.2rem; }
-    .list li { margin:.35rem 0; }
+    ul { margin: .5rem 0 0 1.2rem; }
+    ul li { margin:.35rem 0; }
 
-    footer { border-top:1px solid #eee; background:#fafafa; margin-top:2rem; }
-    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
-    .btn { padding:.6rem 1rem; border-radius:10px; border:1px solid #111; background:#111; color:#fff; text-decoration:none; display:inline-block; }
-    .btn.secondary { background:#fff; color:#111; }
+    footer { border-top:2px solid var(--blue); background:#fafafa; margin-top:2rem; text-align:center; padding:1rem; }
+    footer a { color:var(--blue); text-decoration:none; margin:0 .5rem; }
   </style>
-  <script>
-    // Simple i18n helper shared across pages
-    window.EDN_UI = {
-      setLang(l){ localStorage.setItem('edn_lang', l); document.documentElement.setAttribute('lang', l); },
-      init(){ const l = localStorage.getItem('edn_lang') || 'es'; document.documentElement.setAttribute('lang', l); }
-    };
-    document.addEventListener('DOMContentLoaded', EDN_UI.init);
-  </script>
 </head>
 <body>
   <!-- NAV -->
@@ -57,8 +54,8 @@
         <a href="#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('en')">EN</button>
-        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('es')">ES</button>
+        <button type="button" class="btn" style="background:#eee;color:#111" onclick="document.documentElement.setAttribute('lang','en')">EN</button>
+        <button type="button" class="btn" style="background:#eee;color:#111" onclick="document.documentElement.setAttribute('lang','es')">ES</button>
       </div>
     </div>
   </nav>
@@ -66,124 +63,49 @@
   <!-- HERO -->
   <header class="hero">
     <div class="container">
-      <div class="i18n-es">
-        <h1>Educación financiera real para jóvenes y familias.</h1>
-        <p>Hábitos de ahorro, responsabilidad con el dinero e inversión básica explicados con ejemplos de la vida real.</p>
-        <a class="btn" href="#what-now">Ver lo que hace hoy</a>
-      </div>
-      <div class="i18n-en">
-        <h1>Real-world financial education for teens and families.</h1>
-        <p>Savings habits, responsible money choices, and basic investing—taught with real examples.</p>
-        <a class="btn" href="#what-now">See what he does now</a>
-      </div>
+      <h1>Real-world financial education for teens and families.</h1>
+      <p>Savings habits, responsible money choices, and basic investing—taught with real examples.</p>
+      <a class="btn" href="#story">See what he does now</a>
     </div>
   </header>
 
-  <!-- WHAT HE DOES NOW (15-year-old) -->
-  <section class="section" id="what-now">
+  <!-- WHAT HE DOES NOW -->
+  <section class="section" id="story">
     <div class="container">
-      <div class="i18n-es">
-        <h2>Lo que hace ahora con 15 años</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Hábitos diarios</h3>
-            <ul class="list">
-              <li>Ahorra un porcentaje fijo de todo ingreso que recibe.</li>
-              <li>Lleva registro de gastos y metas en una libreta y app.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Ingreso y trabajo</h3>
-            <ul class="list">
-              <li>Gana dinero con pequeñas tareas y proyectos locales.</li>
-              <li>Aprende habilidades que puede vender (p. ej., tecnología básica).</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Inversión responsable</h3>
-            <ul class="list">
-              <li>Utiliza cuentas custodia/ahorro para metas de mediano plazo.</li>
-              <li><strong>Compra plata y oro físicos con sus propios fondos.</strong></li>
-            </ul>
-          </article>
-        </div>
-      </div>
-
-      <div class="i18n-en">
-        <h2>What he does now at 15</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Daily habits</h3>
-            <ul class="list">
-              <li>Saves a fixed percentage of every dollar he earns.</li>
-              <li>Tracks expenses and goals in a notebook and app.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Earning & work</h3>
-            <ul class="list">
-              <li>Earns money through small jobs and local projects.</li>
-              <li>Builds skills he can offer (e.g., basic tech help).</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Responsible investing</h3>
-            <ul class="list">
-              <li>Uses custodial/savings accounts for mid-term goals.</li>
-              <li><strong>Buys physical silver and gold with his own funds.</strong></li>
-            </ul>
-          </article>
-        </div>
-      </div>
-      <p class="muted i18n-es" style="margin-top:.75rem">Nota: Esto no es asesoría financiera. Es educación y ejemplo práctico.</p>
-      <p class="muted i18n-en" style="margin-top:.75rem">Note: This is not financial advice. It’s education and practical example.</p>
+      <h2>What he does now at 15</h2>
+      <ul>
+        <li>Saves a fixed percentage of every dollar he earns.</li>
+        <li>Tracks expenses and goals in a notebook and app.</li>
+        <li>Earns money through small jobs and local projects.</li>
+        <li><strong>Buys physical silver and gold with his own funds.</strong></li>
+      </ul>
     </div>
   </section>
 
   <!-- LEARN -->
-  <section class="section" id="learn" style="background:#fafafa; border-top:1px solid #eee; border-bottom:1px solid #eee;">
+  <section class="section" id="learn" style="background:#f9fafb; border-top:2px solid var(--red); border-bottom:2px solid var(--red);">
     <div class="container">
-      <div class="i18n-es">
-        <h2>Aprender por etapas</h2>
-        <div class="cards">
-          <div class="card"><h3>Base</h3><p>Presupuesto, ahorro, metas y seguridad.</p></div>
-          <div class="card"><h3>Intermedio</h3><p>Interés compuesto, cuentas bancarias y responsabilidad.</p></div>
-          <div class="card"><h3>Avanzado</h3><p>Diversificación, riesgos y análisis de decisiones.</p></div>
-        </div>
-      </div>
-      <div class="i18n-en">
-        <h2>Learn in stages</h2>
-        <div class="cards">
-          <div class="card"><h3>Basics</h3><p>Budgeting, saving, goals, and safety.</p></div>
-          <div class="card"><h3>Intermediate</h3><p>Compound interest, banking, responsibility.</p></div>
-          <div class="card"><h3>Advanced</h3><p>Diversification, risks, and decision analysis.</p></div>
-        </div>
-      </div>
+      <h2>Learn in stages</h2>
+      <ul>
+        <li><strong>Basics:</strong> Budgeting, saving, goals, and safety.</li>
+        <li><strong>Intermediate:</strong> Compound interest, banking, responsibility.</li>
+        <li><strong>Advanced:</strong> Diversification, risks, and decision analysis.</li>
+      </ul>
     </div>
   </section>
 
-  <!-- CONTACT / CTA -->
+  <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container">
-      <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
-        <div class="i18n-es">
-          <h3>¿Quieres traer Edunancial a tu escuela o familia?</h3>
-          <p class="muted" style="margin:0">Escríbenos y te compartimos materiales y sesiones.</p>
-        </div>
-        <div class="i18n-en">
-          <h3>Want Edunancial for your school or family?</h3>
-          <p class="muted" style="margin:0">Contact us for materials and sessions.</p>
-        </div>
-        <a class="btn" href="mailto:info@edunancial.com">info@edunancial.com</a>
-      </div>
+      <h2>Contact</h2>
+      <p>Want Edunancial for your school or family? Contact us for materials and sessions.</p>
+      <p><a href="mailto:info@edunancial.com" class="btn">info@edunancial.com</a></p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <div class="container">
-      <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
-    </div>
+    <p>© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
   </footer>
 
   <script>
