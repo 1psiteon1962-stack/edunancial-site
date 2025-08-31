@@ -1,37 +1,50 @@
 [build]
   publish = "."
 
-# Pretty URLs
-[[redirects]]; basics
+# ---------- Pretty URLs ----------
+[[redirects]]
   from = "/privacy"
   to   = "/privacy.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/terms"
   to   = "/terms.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/refunds"
   to   = "/refunds.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/security"
   to   = "/security.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/pricing"
   to   = "/pricing.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/story"
   to   = "/story.html"
   status = 301
+  force = true
+
 [[redirects]]
   from = "/contact"
   to   = "/contact.html"
   status = 301
+  force = true
 
-# Security headers (tight but GA-friendly)
+# ---------- Security Headers ----------
 [[headers]]
   for = "/*"
   [headers.values]
@@ -42,8 +55,8 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
 
-# Custom 404
+# ---------- Custom 404 ----------
 [[redirects]]
   from = "/*"
-  to = "/404.html"
+  to   = "/404.html"
   status = 404
