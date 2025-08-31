@@ -1,42 +1,137 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ultima Defensa Legal</title>
-<link rel="stylesheet" href="/css/style.css">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://ultimadefensalegal.com/">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial — Educación financiera clara y práctica</title>
+  <meta name="description" content="Aprende a manejar dinero con claridad: presupuesto, crédito, inversión y emprendimiento. Bilingüe EN/ES.">
+  <link rel="stylesheet" href="style.css" />
+  <script src="edn-ui.js" defer></script>
+  <!-- Consent/analytics script optional; add when ready -->
+  <style>
+    :root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:1100px}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+    a{color:var(--blue)} .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    nav{background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:20}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    .brand{font-weight:900;letter-spacing:.3px;color:var(--blue);text-decoration:none}
+    .nav-links a{margin:0 .6rem;text-decoration:none;color:var(--ink)}
+    .btn{display:inline-block;padding:.65rem 1rem;border-radius:12px;border:2px solid var(--blue);background:var(--blue);color:#fff;text-decoration:none}
+    .btn.alt{background:#fff;color:var(--blue)}
+    .flag{display:inline-block;width:14px;height:14px;background:linear-gradient(90deg,#002868 0 33%,#fff 33% 66%,#bf0a30 66%);border-radius:2px;vertical-align:-2px;margin-right:.35rem}
+    header.hero{background:linear-gradient(150deg,#0b3d9112,#d6282810), #fff;border-bottom:1px solid #e5e7eb}
+    .hero h1{font-size: clamp(1.8rem,2.8vw,2.6rem);margin:.2rem 0 .6rem}
+    .muted{color:#475569}
+    .section{padding:2rem 1rem}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1rem}
+    footer{background:#fff;border-top:1px solid #e5e7eb;margin-top:2rem}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
+  </style>
 </head>
 <body>
-<nav class="topbar">
-  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-  <ul class="menu">
-    <li><a href="/index.html" data-i18n="nav.home" aria-current="page">Home</a></li>
-    <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
-    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
-    <li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li>
-    <li><a href="/members_index.html" data-i18n="nav.members">Member Portal</a></li>
-  </ul>
-  <button id="lang-toggle" class="langbtn" aria-label="Toggle language"><span id="lang-label">ES</span></button>
-</nav>
+  <nav>
+    <div class="container row">
+      <a class="brand" href="index.html"><span class="flag"></span>Edunancial</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#how">How it works</a>
+        <a href="story.html">Our Story</a>
+        <a href="pricing.html">Plans</a>
+        <a href="members_index.html">Members</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <button class="btn alt" onclick="EDN_UI.setLang('en')">EN</button>
+        <button class="btn alt" onclick="EDN_UI.setLang('es')">ES</button>
+      </div>
+    </div>
+  </nav>
 
-<main class="container">
-  <section class="hero">
-    <h1 data-i18n="hero.title">Legal help that speaks your language.</h1>
-    <p class="notice" data-i18n="hero.subtitle">Bilingual membership with access to local attorneys and real savings.</p>
-    <p>
-      <a href="/pricing.html" class="btn" data-i18n="cta.join">Join Now</a>
-      <a href="/story.html" class="badge" data-i18n="cta.learn">Learn More</a>
-    </p>
+  <header class="hero">
+    <div class="container">
+      <div class="i18n-es">
+        <h1>Educación financiera para todos — bilingüe y práctica</h1>
+        <p class="muted">Aprende presupuesto, crédito, ahorro e inversión de forma clara. Plantillas, lecciones, comunidad — y precios que se adaptan.</p>
+        <p>
+          <a class="btn" href="#how">Cómo funciona</a>
+          <a class="btn alt" href="story.html">Nuestra historia</a>
+          <a class="btn" style="border-color:var(--red);background:var(--red)" href="pricing.html">Ver planes</a>
+        </p>
+      </div>
+      <div class="i18n-en">
+        <h1>Financial literacy for everyone — bilingual and practical</h1>
+        <p class="muted">Learn budgeting, credit, saving, and investing the clear way. Lessons, templates, community — with flexible pricing.</p>
+        <p>
+          <a class="btn" href="#how">How it works</a>
+          <a class="btn alt" href="story.html">Our story</a>
+          <a class="btn" style="border-color:var(--red);background:var(--red)" href="pricing.html">View plans</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="how">
+    <div class="container">
+      <div class="i18n-es">
+        <h2>Cómo funciona</h2>
+        <div class="cards">
+          <div class="card"><h3>1. Aprende</h3><p>Lecciones cortas en EN/ES con ejemplos reales y plantillas descargables.</p></div>
+          <div class="card"><h3>2. Aplica</h3><p>Pon en práctica un plan mensual: presupuesto, ahorro, crédito e inversión.</p></div>
+          <div class="card"><h3>3. Progresa</h3><p>Seguimiento de metas y comunidad de apoyo con actividades semanales.</p></div>
+        </div>
+      </div>
+      <div class="i18n-en">
+        <h2>How it works</h2>
+        <div class="cards">
+          <div class="card"><h3>1. Learn</h3><p>Short EN/ES lessons with real examples and downloadable templates.</p></div>
+          <div class="card"><h3>2. Apply</h3><p>Run a monthly plan: budgeting, saving, credit, and investing.</p></div>
+          <div class="card"><h3>3. Grow</h3><p>Track goals and get community support with weekly activities.</p></div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="grid grid-3">
-    <div class="card"><h3 class="only-en">Bilingual Intake & Matching</h3><h3 class="only-es">Intake y Asignación Bilingüe</h3><p class="notice only-en">Tell us your issue; we route you to a nearby attorney.</p><p class="notice only-es">Cuéntanos tu caso; te conectamos con un abogado cercano.</p></div>
-    <div class="card"><h3 class="only-en">Transparent Pricing</h3><h3 class="only-es">Precios Transparentes</h3><p class="notice only-en">Regional pricing auto-applied at checkout.</p><p class="notice only-es">Precio regional aplicado automáticamente al pagar.</p></div>
-    <div class="card"><h3 class="only-en">Real Savings</h3><h3 class="only-es">Ahorros Reales</h3><p class="notice only-en">Members get at least one free or reduced consult.</p><p class="notice only-es">Miembros reciben al menos una consulta gratis o con descuento.</p></div>
+  <section class="section" style="background:#fff;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb">
+    <div class="container">
+      <div class="i18n-es">
+        <h2>Resultados reales</h2>
+        <p class="card">“Mi hijo comenzó a invertir con confianza y ahora ahorra e invierte con disciplina.” — Padre de 15-añero</p>
+      </div>
+      <div class="i18n-en">
+        <h2>Real results</h2>
+        <p class="card">“My son began investing with confidence and now saves and invests consistently.” — Parent of a 15-year-old</p>
+      </div>
+    </div>
   </section>
-</main>
 
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script>
-</body></html>
+  <section class="section">
+    <div class="container">
+      <div class="i18n-es">
+        <h2>Planes</h2>
+        <p class="muted">Precios mostrados según tu ubicación. Siempre verás el precio final antes de pagar.</p>
+      </div>
+      <div class="i18n-en">
+        <h2>Plans</h2>
+        <p class="muted">Prices shown are appropriate for your location. You’ll always see the final price before checkout.</p>
+      </div>
+      <div id="plans-root"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="muted">
+        © <span id="y"></span> Edunancial •
+        <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> •
+        <a href="refunds.html">Refunds</a> • <a href="security.html">Security</a> •
+        <a href="story.html">Our Story</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="pricing-config.js"></script>
+  <script src="region-pricing.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
