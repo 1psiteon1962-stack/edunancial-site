@@ -1,14 +1,34 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thank You • UDL</title>
-<link rel="stylesheet" href="/css/style.css"></head><body>
-<nav class="topbar"><a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
-<ul class="menu"><li><a href="/index.html" data-i18n="nav.home">Home</a></li><li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li></ul>
-<button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button></nav>
-<main class="container">
-  <h1 data-i18n="thanks.title">Thank You</h1>
-  <div class="card only-en"><p>Your membership setup is in progress. Check your email for your member ID and call-in instructions.</p></div>
-  <div class="card only-es"><p>Estamos configurando tu membresía. Revisa tu correo para tu ID de miembro e instrucciones de llamada.</p></div>
-</main>
-<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
-<script src="/js/i18n.js" defer></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gracias — Membresía Activa | Edunancial</title>
+  <script src="edn-ui.js" defer></script>
+  <style>
+    :root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:900px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1rem}
+    .btn{padding:.6rem 1rem;border-radius:12px;border:2px solid var(--blue);background:var(--blue);color:#fff;text-decoration:none}
+    .btn.alt{background:#fff;color:var(--blue)}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <div class="i18n-es">
+        <h1>¡Gracias! Tu membresía está activa.</h1>
+        <p>Revisa tu correo con tu ID de miembro y los detalles de acceso.</p>
+        <p><a class="btn" href="index.html">Inicio</a> <a class="btn alt" href="pricing.html">Extender 3 meses</a></p>
+      </div>
+      <div class="i18n-en">
+        <h1>Thank you! Your membership is active.</h1>
+        <p>Check your email for your Member ID and access details.</p>
+        <p><a class="btn" href="index.html">Home</a> <a class="btn alt" href="pricing.html">Extend 3 months</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
