@@ -1,42 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Términos de Servicio — Edunancial</title>
-  <meta name="description" content="Términos para Básico $5 y Pro $10. EN/ES.">
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav><div class="container nav-row"><a class="brand" href="index.html">Edunancial</a><div class="nav-links"><a href="index.html">Home</a><a href="pricing.html">Plans</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><div class="lang"><button class="btn secondary" onclick="LANG.set('en')">EN</button><button class="btn secondary" onclick="LANG.set('es')">ES</button></div></div></nav>
-  <header class="hero"><div class="container"><div class="i18n-es"><h1>Términos de Servicio</h1></div><div class="i18n-en"><h1>Terms of Service</h1></div></div></header>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms • Ultima Defensa Legal</title>
+<link rel="stylesheet" href="/css/style.css"></head><body>
+<nav class="topbar">
+  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
+  <ul class="menu">
+    <li><a href="/index.html" data-i18n="nav.home">Home</a></li>
+    <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
+    <li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li>
+  </ul>
+  <button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button>
+</nav>
 
-  <main class="section"><div class="container card">
-    <article class="i18n-es">
-      <h3>Naturaleza del servicio</h3><p>Plataforma educativa bilingüe. <strong>No</strong> brindamos asesoría financiera, legal ni fiscal.</p>
-      <h3>Membresías y pago</h3><ul><li>Básico $5/mes (sin descuentos) y Pro $10/mes (con descuentos).</li><li>Cobro por adelantado; no reembolsable salvo por ley. Puedes cancelar en cualquier momento.</li></ul>
-      <h3>Uso</h3><ul><li>Acceso individual. No compartir credenciales.</li><li>Respeta derechos de autor.</li></ul>
-      <h3>Comunicaciones</h3><p>Consientes recibir emails/SMS/llamadas (incl. automatizados) según la ley. Baja por “unsubscribe” o “STOP”.</p>
-      <h3>Sin garantía de resultado</h3><p>No garantizamos resultados financieros.</p>
-      <h3>Arbitraje y renuncia a acción colectiva</h3><p>Disputas por <strong>arbitraje vinculante y confidencial</strong>. <strong>Renuncia</strong> a demandas colectivas; solo reclamos individuales.</p>
-      <h3>Limitación de responsabilidad</h3><p>No somos responsables por daños indirectos, incidentales o consecuentes.</p>
-      <h3>Fuerza mayor</h3><p>Sin responsabilidad por demoras/fallas causadas por eventos fuera de nuestro control razonable (desastres, pandemias, caídas de Internet/proveedores, acciones gubernamentales). Reanudaremos el servicio tan pronto sea práctico.</p>
-      <h3>Ley aplicable y sede</h3><p>Delaware (EE. UU.).</p>
-    </article>
+<main class="container">
+  <h1 data-i18n="terms.title">Terms of Use</h1>
+  <div class="card only-en"><p>By using UDL you agree to our membership rules, billing terms, and dispute resolution. Venue and jurisdiction: **Palm Beach County, Florida, Superior Court**. UDL is not a law firm; participating attorneys are independent.</p></div>
+  <div class="card only-es"><p>Al usar UDL aceptas nuestras reglas de membresía, términos de facturación y resolución de disputas. Fuero y jurisdicción: **Condado de Palm Beach, Florida, Tribunal Superior**. UDL no es un bufete; los abogados participantes son independientes.</p></div>
+</main>
 
-    <article class="i18n-en">
-      <h3>Nature of Service</h3><p>Bilingual educational platform. We do <strong>not</strong> provide financial, legal, or tax advice.</p>
-      <h3>Memberships & Payment</h3><ul><li>Basic $5/mo (no discounts) and Pro $10/mo (includes discounts).</li><li>Billed in advance; non-refundable except as required by law. Cancel anytime.</li></ul>
-      <h3>Use</h3><ul><li>Individual access; do not share credentials.</li><li>Respect copyrights.</li></ul>
-      <h3>Communications</h3><p>You consent to emails/SMS/calls (including automated) as permitted by law. Opt-out via unsubscribe or SMS “STOP”.</p>
-      <h3>No Guarantee</h3><p>No financial outcomes are guaranteed.</p>
-      <h3>Arbitration & Class Action Waiver</h3><p>All disputes resolved by <strong>confidential binding arbitration</strong>. <strong>Class action waiver:</strong> claims must be brought individually.</p>
-      <h3>Limitation of Liability</h3><p>No liability for indirect, incidental, or consequential damages.</p>
-      <h3>Force Majeure</h3><p>No liability for delays/failures due to events beyond reasonable control (disasters, pandemics, Internet/provider outages, government actions). We will resume performance as soon as practicable.</p>
-      <h3>Governing Law & Venue</h3><p>Delaware, USA.</p>
-    </article>
-  </div></main>
-
-  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>const LANG={set(l){localStorage.setItem('edu_lang',l);document.documentElement.setAttribute('lang',l)},init(){document.getElementById('year').textContent=new Date().getFullYear();document.documentElement.setAttribute('lang',localStorage.getItem('edu_lang')||'es')}};document.addEventListener('DOMContentLoaded',LANG.init)</script>
-</body>
-</html>
+<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
+<script src="/js/i18n.js" defer></script>
+</body></html>
