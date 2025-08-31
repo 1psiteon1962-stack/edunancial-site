@@ -4,131 +4,147 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nuestra historia — Edunancial</title>
+  <meta name="description" content="Cómo nació Edunancial: una historia real que demuestra que cualquiera puede aprender educación financiera.">
   <script src="edn-ui.js" defer></script>
   <style>
-    :root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:980px}
+    :root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:1100px}
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
-    a{color:var(--blue);text-decoration:none}
-    header{background:#fff;border-bottom:1px solid #e5e7eb}
+    a{text-decoration:none;color:inherit}
+
     .container{max-width:var(--max);margin:0 auto;padding:1rem}
+
+    /* Header */
+    header.top{background:#fff;border-bottom:1px solid #e5e7eb}
     .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
     .brand{font-weight:900;color:var(--blue)}
-    .btn{padding:.55rem .9rem;border-radius:12px;border:2px solid var(--blue);background:#fff;color:var(--blue)}
-    .flag{display:inline-block;width:14px;height:14px;background:linear-gradient(90deg,#002868 0 33%,#fff 33% 66%,#bf0a30 66%);border-radius:2px;vertical-align:-2px;margin-right:.35rem}
-    .hero{background:linear-gradient(150deg,#0b3d9112,#d6282810),#fff;border-bottom:1px solid #e5e7eb}
+    .btn{padding:.55rem .9rem;border-radius:10px;border:2px solid var(--blue);background:#fff;color:var(--blue);font-weight:600}
+    nav a{margin:0 .5rem;color:var(--ink);font-weight:500}
+
+    /* Hero */
+    .hero{position:relative;color:#fff;text-align:center}
+    .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--blue),var(--red))}
+    .hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.45)}
+    .hero > .inner{position:relative;z-index:1;padding:3.5rem 1rem}
     .hero h1{margin:.2rem 0}
-    .lead{font-size:1.1rem;color:#475569}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:1.25rem}
-    .quote{border-left:4px solid var(--red);padding-left:.9rem;margin:1rem 0;color:#334155}
+    .hero p{max-width:820px;margin:.25rem auto 0;font-size:1.08rem}
+
+    /* Content */
+    main{padding:2rem 1rem}
     .grid{display:grid;grid-template-columns:1fr;gap:1rem}
-    @media (min-width:820px){.grid{grid-template-columns:1.2fr .8fr}}
+    @media(min-width:860px){.grid{grid-template-columns:1.2fr .8fr}}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem}
+    .lead{font-size:1.1rem;color:#475569}
+    .quote{border-left:4px solid var(--red);padding-left:.9rem;margin:1rem 0;color:#334155}
     .badge{display:inline-block;background:var(--red);color:#fff;border-radius:999px;padding:.25rem .6rem;font-size:.8rem;font-weight:700;letter-spacing:.3px}
-    .list{list-style:none;padding:0;margin:.2rem 0}
+    .list{list-style:none;padding:0;margin:.25rem 0}
     .list li{margin:.45rem 0;display:flex;gap:.5rem}
     .list li::before{content:"✔";color:var(--blue);font-weight:800}
-    footer{border-top:1px solid #e5e7eb;background:#fff;margin-top:2rem;text-align:center;color:#475569}
+
+    footer{border-top:1px solid #e5e7eb;background:#fff;text-align:center;padding:1rem;color:#475569;margin-top:2rem}
+
+    /* Bilingual */
     .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
   </style>
 </head>
 <body>
-  <header class="hero">
+  <header class="top">
     <div class="container row">
-      <a class="brand" href="index.html"><span class="flag"></span>Edunancial</a>
+      <a class="brand" href="index.html">Edunancial</a>
+      <nav>
+        <a href="index.html" class="i18n-es">Inicio</a>
+        <a href="index.html" class="i18n-en">Home</a>
+        <a href="pricing.html" class="i18n-es">Planes</a>
+        <a href="pricing.html" class="i18n-en">Plans</a>
+      </nav>
       <div>
         <button class="btn" onclick="EDN_UI.setLang('en')">EN</button>
         <button class="btn" onclick="EDN_UI.setLang('es')">ES</button>
       </div>
     </div>
-    <div class="container" style="padding-top:0">
+  </header>
+
+  <section class="hero">
+    <div class="inner">
       <div class="i18n-es">
         <h1>Nuestra historia</h1>
-        <p class="lead">Creemos que la alfabetización financiera no es un talento, es una habilidad — y cualquier persona puede aprenderla.</p>
+        <p>La alfabetización financiera no es un talento: es una habilidad. Con pasos claros, cualquiera puede aprenderla.</p>
       </div>
       <div class="i18n-en">
         <h1>Our Story</h1>
-        <p class="lead">We believe financial literacy isn’t a talent — it’s a skill. And anyone can learn it.</p>
+        <p>Financial literacy isn’t a talent — it’s a skill. With clear steps, anyone can learn it.</p>
       </div>
     </div>
-  </header>
+  </section>
 
   <main class="container">
     <div class="grid">
-      <!-- Story column -->
+      <!-- Story -->
       <article class="card">
         <div class="i18n-es">
-          <p>
+          <p class="lead">
             Todo comenzó una tarde, cuando mi hijo tenía 11 años. Entró a mi cuarto justo cuando terminé una llamada con un cliente.
             Vio que mi teléfono se iluminó: el pago había llegado en ese instante. Con los ojos muy abiertos me preguntó:
             <em>“¿Cómo hiciste eso?”</em>
           </p>
           <p>
-            Le respondí: “En el ejército trabajé mucho con la espalda; ahora trabajo con la cabeza. ¿Tú con qué quieres trabajar:
-            con la espalda o con la cabeza?” Pensó un momento y dijo: “Con la cabeza… pero no sé cómo. Enséñame.”
+            Le respondí: “En el ejército trabajé con la espalda; ahora trabajo con la cabeza. ¿Con cuál quieres trabajar tú?” 
+            Pensó un momento y dijo: “Con la cabeza… pero no sé cómo. Enséñame.” 
+            No lo sabía entonces, pero allí nació <strong>Edunancial</strong>.
           </p>
-          <p>
-            No lo supe en ese minuto, pero allí nació <strong>Edunancial</strong>: una promesa de aprender juntos habilidades que duran para toda la vida.
-          </p>
-
           <div class="quote">
-            “Aprender a manejar el dinero es como aprender un idioma: paso a paso, se vuelve natural. No necesitas mucho para empezar;
-            necesitas empezar.” 
+            “Aprender a manejar el dinero es como aprender un idioma: paso a paso se vuelve natural. No necesitas mucho para empezar; necesitas empezar.”
           </div>
-
           <p>
-            Hoy, con 15 años y usando sus propios fondos, mi hijo ha comprado y vendido acciones que él mismo seleccionó y analizó,
-            logrando entre <strong>8–12% de rendimiento</strong>; ha comprado, vendido y aún posee plata y oro físicos; está planeando un negocio
-            y se prepara para invertir con opciones. No por suerte, sino por hábitos.
+            Hoy, con 15 años y usando sus propios fondos, mi hijo ha comprado y vendido acciones que él mismo analizó con un
+            <strong>8–12% de rendimiento</strong>, ha comprado y vendido plata y oro físicos —y aún posee—, está planificando un negocio
+            y se prepara para operar opciones. No por suerte, sino por hábitos.
           </p>
           <p>
-            Esas habilidades también son para ti. Con lecciones claras, plantillas, y una comunidad que acompaña, cualquiera puede
-            aprender a presupuestar, ahorrar, invertir y construir.
+            Esas mismas habilidades son para ti: lecciones claras, plantillas sencillas y una comunidad que acompaña para
+            presupuestar, ahorrar, invertir y construir.
           </p>
         </div>
 
         <div class="i18n-en">
-          <p>
-            It started one afternoon when my son was 11. He walked in just as I finished a call with a client.
-            He saw my phone light up — the payment landed right then. Eyes wide, he asked,
-            <em>“How did you do that?”</em>
+          <p class="lead">
+            It started one afternoon when my son was 11. He walked in as I ended a call with a client and saw my phone light up — the payment had arrived.
+            Eyes wide, he asked, <em>“How did you do that?”</em>
           </p>
           <p>
-            I told him, “In the military I worked a lot with my back; now I work with my head. Which do you want to use —
-            your back or your head?” He thought for a moment and said, “My head… but I don’t know how. Teach me.”
+            I said, “In the military I worked with my back; now I work with my head. Which do you want to use?”
+            He thought and said, “My head… but I don’t know how. Teach me.” 
+            I didn’t know it then, but that’s when <strong>Edunancial</strong> was born.
           </p>
-          <p>
-            I didn’t know it then, but that’s when <strong>Edunancial</strong> was born — a promise to learn the skills that last a lifetime.
-          </p>
-
           <div class="quote">
-            “Money skills are like learning a language: step by step, they become natural. You don’t need a lot to start;
-            you just need to start.”
+            “Money skills are like learning a language: step by step, they become natural. You don’t need a lot to start — you just need to start.”
           </div>
-
           <p>
             Now at 15, with his own funds, he has bought and sold stocks he researched himself, earning <strong>8–12% ROI</strong>;
-            he has bought, sold, and still owns physical silver and gold; he’s planning a business and preparing to trade options —
-            not by luck, but by habits.
+            he’s bought and sold — and still owns — physical silver and gold, is planning a business, and is preparing to trade options.
+            Not by luck, but by habits.
           </p>
           <p>
-            Those same habits are for you. With clear lessons, templates, and a supportive community, anyone can
-            learn to budget, save, invest, and build.
+            Those same habits are for you: clear lessons, simple templates, and a supportive community to budget, save, invest, and build.
           </p>
         </div>
       </article>
 
-      <!-- Mission / Promise column -->
+      <!-- Promise -->
       <aside class="card">
         <div class="i18n-es">
           <span class="badge">Nuestra promesa</span>
           <h3 style="margin:.6rem 0 0">Aprender. Aplicar. Progresar.</h3>
           <ul class="list">
             <li>Lecciones cortas y bilingües (EN/ES).</li>
-            <li>Plantillas sencillas para presupuesto, ahorro e inversión.</li>
-            <li>Pequeñas acciones semanales que se vuelven hábitos.</li>
+            <li>Plantillas para presupuesto, ahorro e inversión.</li>
+            <li>Acciones semanales que se convierten en hábitos.</li>
             <li>Precios claros que se adaptan; sin sorpresas.</li>
           </ul>
-          <p style="margin-top:1rem"><a class="btn" href="pricing.html">Ver planes</a> <a class="btn" style="border-color:#d62828;color:#d62828" href="index.html">Inicio</a></p>
+          <p style="margin-top:.8rem">
+            <a class="btn" href="pricing.html">Ver planes</a>
+            <a class="btn" style="border-color:var(--red);color:var(--red)" href="index.html">Inicio</a>
+          </p>
         </div>
 
         <div class="i18n-en">
@@ -136,20 +152,24 @@
           <h3 style="margin:.6rem 0 0">Learn. Apply. Grow.</h3>
           <ul class="list">
             <li>Short, bilingual lessons (EN/ES).</li>
-            <li>Simple templates for budgeting, saving, and investing.</li>
-            <li>Small weekly actions that become habits.</li>
+            <li>Templates for budgeting, saving, and investing.</li>
+            <li>Weekly actions that become habits.</li>
             <li>Clear, flexible pricing — no surprises.</li>
           </ul>
-          <p style="margin-top:1rem"><a class="btn" href="pricing.html">View plans</a> <a class="btn" style="border-color:#d62828;color:#d62828" href="index.html">Home</a></p>
+          <p style="margin-top:.8rem">
+            <a class="btn" href="pricing.html">View plans</a>
+            <a class="btn" style="border-color:var(--red);color:var(--red)" href="index.html">Home</a>
+          </p>
         </div>
       </aside>
     </div>
   </main>
 
   <footer>
-    <div class="container" style="padding:1rem">
-      © <span id="y"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a>
-    </div>
+    © <span id="y"></span> Edunancial •
+    <a href="privacy.html">Privacy</a> •
+    <a href="terms.html">Terms</a> •
+    <a href="refunds.html">Refunds</a>
   </footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
