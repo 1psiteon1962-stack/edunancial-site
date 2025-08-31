@@ -1,209 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Practical Financial Education</title>
-  <meta name="description" content="Real-world financial education for teens, families, entrepreneurs, and communities — bilingual, simple, and hopeful." />
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6;background:#fff}
-    header,main,footer{width:100%}
-    .container{max-width:var(--max);margin:0 auto;padding:1rem}
-
-    /* NAV */
-    nav{border-bottom:2px solid var(--blue);background:#fff;position:sticky;top:0;z-index:20}
-    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .nav-links a{text-decoration:none;color:#111;margin:0 .75rem;font-weight:500}
-    .brand{font-weight:800;color:var(--blue)}
-    .btn{background:#eee;color:#111;border:none;border-radius:8px;padding:.5rem .9rem;cursor:pointer}
-
-    /* HERO */
-    .hero{background:var(--white);border-bottom:2px solid var(--red);padding:2rem 1rem;text-align:center}
-    .hero h1{font-size:clamp(1.8rem,3vw,2.6rem);margin:0 0 .5rem;font-weight:800;color:var(--blue)}
-    .hero p{margin:.5rem auto 1rem;max-width:70ch;color:#333}
-    .hero .cta{background:var(--red);color:#fff;font-weight:700;border:none;border-radius:8px;padding:.7rem 1.2rem;text-decoration:none;display:inline-block}
-
-    /* SECTIONS */
-    .section{padding:2rem 1rem}
-    .section h2{color:var(--blue);font-size:1.6rem;margin-bottom:1rem}
-    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
-    .muted{color:#666}
-    ul{margin:.5rem 0 0 1.2rem}
-    ul li{margin:.35rem 0}
-
-    /* TIMELINE */
-    .timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
-    .age{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
-    .age h3{margin:.2rem 0 .5rem;color:var(--red)}
-
-    /* PROMISE + INVITE */
-    .accent{background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red)}
-    .promise h3{margin:.2rem 0 .4rem}
-    .promise strong{font-weight:800}
-
-    /* CONTACT buttons */
-    .contact-btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;text-decoration:none;color:#fff;margin-right:.5rem}
-    .contact-btn.primary{background:#dc2626}
-    .contact-btn.dark{background:#1f2937}
-
-    /* FOOTER */
-    footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
-    footer a{color:#1d4ed8;text-decoration:none;margin:0 .5rem}
-
-    /* I18N */
-    .i18n-en{display:block}.i18n-es{display:none}
-    html[lang="es"] .i18n-en{display:none} html[lang="es"] .i18n-es{display:block}
-  </style>
-  <script>
-    // Persisted EN/ES toggle
-    (function () {
-      const KEY='edn_lang';
-      function setLang(l){ localStorage.setItem(KEY,l); document.documentElement.setAttribute('lang', l); }
-      function init(){ setLang(localStorage.getItem(KEY)||'en'); const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); }
-      window.EDN_UI={ setLang, init };
-      document.addEventListener('DOMContentLoaded', init);
-    })();
-  </script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ultima Defensa Legal</title>
+<link rel="stylesheet" href="/css/style.css">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://ultimadefensalegal.com/">
 </head>
 <body>
-  <!-- NAV -->
-  <nav aria-label="Main">
-    <div class="container nav-row">
-      <div class="brand">Edunancial</div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="story.html">Story</a>
-        <a href="#learn">Learn</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <div>
-        <button class="btn" onclick="EDN_UI.setLang('en')">EN</button>
-        <button class="btn" onclick="EDN_UI.setLang('es')">ES</button>
-      </div>
-    </div>
-  </nav>
+<nav class="topbar">
+  <a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
+  <ul class="menu">
+    <li><a href="/index.html" data-i18n="nav.home" aria-current="page">Home</a></li>
+    <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+    <li><a href="/story.html" data-i18n="nav.story">Our Story</a></li>
+    <li><a href="/contact.html" data-i18n="nav.contact">Contact</a></li>
+    <li><a href="/members_index.html" data-i18n="nav.members">Member Portal</a></li>
+  </ul>
+  <button id="lang-toggle" class="langbtn" aria-label="Toggle language"><span id="lang-label">ES</span></button>
+</nav>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="container">
-      <h1>Real-world financial education for teens, families, and communities.</h1>
-      <p>Bilingual, practical, and hopeful — built on clear habits, real examples, and small wins that add up.</p>
-      <a class="cta" href="#story">Read the Story</a>
-    </div>
-  </header>
-
-  <!-- ORIGIN + TIMELINE STORY (home version) -->
-  <section class="section" id="story">
-    <div class="container">
-      <h2>How Edunancial started — and how it grew</h2>
-      <div class="card" style="margin-bottom:1rem">
-        <p><strong>The spark:</strong> After a client call, my 11-year-old asked, <em>“How do I make money with my head?”</em> That question became our mission: teach young people how to think about money — clearly, simply, practically.</p>
-      </div>
-
-      <div class="timeline">
-        <div class="age">
-          <h3>Age 11 — First Money Habits</h3>
-          <ul>
-            <li>Saves a small portion of allowance and gifts.</li>
-            <li>Learns delayed gratification (wait vs. impulse).</li>
-            <li>Opens a basic savings account with a parent.</li>
-          </ul>
-        </div>
-        <div class="age">
-          <h3>Age 12 — Early Tracking</h3>
-          <ul>
-            <li>Keeps a simple ledger of money in/out.</li>
-            <li>Uses categories: saving, spending, giving.</li>
-            <li>Understands trade-offs in choices.</li>
-          </ul>
-        </div>
-        <div class="age">
-          <h3>Age 13 — Earning & Responsibility</h3>
-          <ul>
-            <li>Starts small paid jobs for neighbors.</li>
-            <li>Links work → earnings → savings goals.</li>
-            <li>Sets and reaches a target for a big purchase.</li>
-          </ul>
-        </div>
-        <div class="age">
-          <h3>Age 14 — Expanding Tools</h3>
-          <ul>
-            <li>Experiments with budgeting/tracking apps.</li>
-            <li>Compares safe saving vs. higher-risk ideas.</li>
-            <li>Builds judgment through simple examples.</li>
-          </ul>
-        </div>
-        <div class="age">
-          <h3>Age 15 — Practical Investing</h3>
-          <ul>
-            <li>Saves a fixed percentage of every dollar earned.</li>
-            <li>Tracks goals consistently (notebook + app).</li>
-            <li><strong>Buys physical silver and gold with his own funds.</strong></li>
-            <li>Selects stocks with 8–12% ROI; learns diversification.</li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="muted" style="margin-top:1rem">Educational story — not financial or investment advice.</p>
-    </div>
+<main class="container">
+  <section class="hero">
+    <h1 data-i18n="hero.title">Legal help that speaks your language.</h1>
+    <p class="notice" data-i18n="hero.subtitle">Bilingual membership with access to local attorneys and real savings.</p>
+    <p>
+      <a href="/pricing.html" class="btn" data-i18n="cta.join">Join Now</a>
+      <a href="/story.html" class="badge" data-i18n="cta.learn">Learn More</a>
+    </p>
   </section>
 
-  <!-- LEARN -->
-  <section class="section" id="learn" style="background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red);">
-    <div class="container">
-      <h2>Learn in stages</h2>
-      <ul>
-        <li><strong>Basics:</strong> Budgeting, saving, goals, and safety.</li>
-        <li><strong>Intermediate:</strong> Compound interest, banking, responsibility.</li>
-        <li><strong>Advanced:</strong> Diversification, risk awareness, decision analysis.</li>
-      </ul>
-    </div>
+  <section class="grid grid-3">
+    <div class="card"><h3 class="only-en">Bilingual Intake & Matching</h3><h3 class="only-es">Intake y Asignación Bilingüe</h3><p class="notice only-en">Tell us your issue; we route you to a nearby attorney.</p><p class="notice only-es">Cuéntanos tu caso; te conectamos con un abogado cercano.</p></div>
+    <div class="card"><h3 class="only-en">Transparent Pricing</h3><h3 class="only-es">Precios Transparentes</h3><p class="notice only-en">Regional pricing auto-applied at checkout.</p><p class="notice only-es">Precio regional aplicado automáticamente al pagar.</p></div>
+    <div class="card"><h3 class="only-en">Real Savings</h3><h3 class="only-es">Ahorros Reales</h3><p class="notice only-en">Members get at least one free or reduced consult.</p><p class="notice only-es">Miembros reciben al menos una consulta gratis o con descuento.</p></div>
   </section>
+</main>
 
-  <!-- CONTACT (neutral + two emails, bilingual text) -->
-  <section class="section" id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <div class="i18n-en">
-        <p>Questions about Edunancial, subscriptions, or resources? We’re here to help.</p>
-      </div>
-      <div class="i18n-es">
-        <p>¿Tienes preguntas sobre Edunancial, suscripciones o recursos? Estamos para ayudarte.</p>
-      </div>
-      <p>
-        <a class="contact-btn primary" href="mailto:support@edunancial.com">support@edunancial.com</a>
-        <a class="contact-btn dark" href="mailto:info@edunancial.com">info@edunancial.com</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- PROMISE + INVITATION (unique to Home) -->
-  <section class="section accent" id="family">
-    <div class="container">
-      <div class="card promise">
-        <div class="i18n-en">
-          <h3><strong>Financial literacy for everyone.</strong></h3>
-          <p>At Edunancial, we believe money skills should be clear, practical, and bilingual. Every tool and lesson is designed to empower <strong>teens, families, entrepreneurs, and communities</strong>.</p>
-          <h3 style="margin-top:1rem"><strong>Join the Edunancial Family.</strong></h3>
-          <p>Subscribers can invite family and friends to share the journey. Together, we grow a respectful and inspiring community where good habits build stronger futures.</p>
-        </div>
-        <div class="i18n-es">
-          <h3><strong>Educación financiera para todos.</strong></h3>
-          <p>En Edunancial creemos que las habilidades con el dinero deben ser claras, prácticas y bilingües. Cada herramienta y lección está diseñada para empoderar a <strong>jóvenes, familias, emprendedores y comunidades</strong>.</p>
-          <h3 style="margin-top:1rem"><strong>Únete a la Familia Edunancial.</strong></h3>
-          <p>Los suscriptores pueden invitar a familiares y amigos a compartir el camino. Juntos, crecemos una comunidad respetuosa e inspiradora donde los buenos hábitos construyen futuros más fuertes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
-  </footer>
-</body>
-</html>
+<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
+<script src="/js/i18n.js" defer></script>
+</body></html>
