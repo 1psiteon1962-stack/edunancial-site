@@ -1,38 +1,77 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Planes — Edunancial</title>
-<script src="edn-ui.js" defer></script>
-<style>
-:root{--blue:#0b3d91;--red:#d62828;--bg:#f8fafc;--ink:#0f172a;--max:1100px}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
-.container{max-width:var(--max);margin:0 auto;padding:1rem}a{text-decoration:none;color:inherit}
-header{background:#fff;border-bottom:1px solid #e5e7eb}.nav{display:flex;justify-content:space-between;align-items:center;gap:1rem}.brand{font-weight:900;color:var(--blue)}
-nav a{margin:0 .5rem}.btn{padding:.55rem .9rem;border-radius:10px;border:2px solid var(--blue);background:#fff;color:var(--blue);font-weight:700}
-.hero{position:relative;color:#fff;text-align:center}.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--blue),var(--red))}.hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.45)}.hero>.inner{position:relative;z-index:1;padding:3.5rem 1rem}
-.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plans — Edunancial</title>
+  <meta name="description" content="Clear, flexible pricing. You’ll see the final amount before checkout." />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root{--blue:#0b3d91;--red:#d62828;--ink:#0f172a;--muted:#64748b;--max:1100px}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fff}
+    .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+    header{border-bottom:1px solid #e5e7eb;background:#fff}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{font-weight:800;font-size:1.15rem;color:var(--blue);text-decoration:none}
+    .links a{margin:0 10px;text-decoration:none;color:var(--ink)}
+    .lang{display:flex;gap:8px}
+    .lang button{border:2px solid var(--blue);background:#fff;color:var(--blue);border-radius:12px;padding:6px 10px;font-weight:700}
+    .lang button.active{background:var(--blue);color:#fff}
+    .hero{background:linear-gradient(135deg,#0b3d91, #d62828);color:#fff}
+    .hero-inner{padding:40px 0}
+    .hero h1{margin:.25rem 0 0}
+    .muted{color:var(--muted)}
+    section{padding:28px 0}
+    #plans-root .plans{margin-top:.4rem}
+  </style>
+  <script>window.EDN_GA_ID="";</script>
+  <script src="edn-ui.js" defer></script>
+  <script src="edn-consent.js" defer></script>
+  <script src="pricing-config.js" defer></script>
+  <script src="region-pricing.js" defer></script>
 </head>
 <body>
-<header><div class="container nav">
-  <a class="brand" href="index.html">Edunancial</a>
-  <nav><a href="index.html">Home</a><a href="story.html">Our Story</a></nav>
-  <div><button class="btn" onclick="EDN_UI.setLang('en')">EN</button><button class="btn" onclick="EDN_UI.setLang('es')">ES</button></div>
-</div></header>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">Edunancial</a>
+      <nav class="links" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="story.html" data-i18n="nav_story">Our Story</a>
+        <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="lang" aria-label="Language">
+        <button id="lang-en" class="active">EN</button>
+        <button id="lang-es">ES</button>
+      </div>
+    </div>
+  </header>
 
-<section class="hero"><div class="inner">
-  <div class="i18n-es"><h1>Planes</h1><p>Precios claros y flexibles. Sin sorpresas.</p></div>
-  <div class="i18n-en"><h1>Plans</h1><p>Clear, flexible pricing. No surprises.</p></div>
-</div></section>
+  <div class="hero">
+    <div class="container hero-inner">
+      <h1 data-i18n="plans_h1">Plans</h1>
+      <p class="muted" style="color:#fff;opacity:.95" data-i18n="plans_tag">Clear, flexible pricing. You’ll see the final amount before checkout.</p>
+    </div>
+  </div>
 
-<main class="container" style="padding:2rem 1rem"><div id="plans-root"></div></main>
+  <main>
+    <section>
+      <div class="container">
+        <!-- Plans render here -->
+        <div id="plans-root"></div>
+      </div>
+    </section>
+  </main>
 
-<footer class="container" style="border-top:1px solid #e5e7eb;padding:1rem;color:#475569;text-align:center">
-  © <span id="y"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a>
-</footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-<script src="pricing-config.js"></script>
-<script src="region-pricing.js"></script>
+  <footer>
+    <div class="container muted">
+      <small>© 2025 Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a></small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('lang-en').addEventListener('click', ()=>window.EDN_setLang('en'));
+    document.getElementById('lang-es').addEventListener('click', ()=>window.EDN_setLang('es'));
+  </script>
 </body>
 </html>
