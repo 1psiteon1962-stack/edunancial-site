@@ -1,89 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About — Edunancial</title>
-  <meta name="description" content="Why Edunancial exists: a real father–son moment, and a mission to teach the how of money.">
-  <link rel="stylesheet" href="style.css" />
+  <title>Acerca de — Edunancial</title>
+  <meta name="description" content="La historia y el propósito de Edunancial: educación financiera para jóvenes y familias.">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root{--max:1100px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    nav{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:20}
+    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .nav-links a{text-decoration:none;color:#111;margin:0 .5rem}
+    .brand{font-weight:800}
+    .section{padding:2rem 1rem}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .muted{color:#666}
+    footer{border-top:1px solid #eee;background:#fafafa;margin-top:2rem}
+    .i18n-en{display:none} html[lang="en"] .i18n-en{display:block} html[lang="en"] .i18n-es{display:none}
+    .btn{padding:.6rem 1rem;border-radius:10px;border:1px solid #111;background:#111;color:#fff;text-decoration:none;display:inline-block}
+    .btn.secondary{background:#fff;color:#111}
+  </style>
+  <script>
+    window.EDN_UI = {
+      setLang(l){ localStorage.setItem('edn_lang', l); document.documentElement.setAttribute('lang', l); },
+      init(){ const l = localStorage.getItem('edn_lang') || 'es'; document.documentElement.setAttribute('lang', l); }
+    };
+    document.addEventListener('DOMContentLoaded', EDN_UI.init);
+  </script>
 </head>
 <body>
-  <nav>
+  <nav aria-label="Main">
     <div class="container nav-row">
-      <a class="brand" href="index.html">Edunancial</a>
+      <div class="brand">Edunancial</div>
       <div class="nav-links">
-        <a href="index.html" class="i18n-en">Home</a>
-        <a href="index.html" class="i18n-es">Inicio</a>
-        <a href="pricing.html" class="i18n-en">Plans</a>
-        <a href="pricing.html" class="i18n-es">Planes</a>
-        <a href="about.html" class="i18n-en">About</a>
-        <a href="about.html" class="i18n-es">Acerca</a>
-        <a href="contact.html" class="i18n-en">Contact</a>
-        <a href="contact.html" class="i18n-es">Contacto</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#learn">Learn</a>
+        <a href="index.html#contact">Contact</a>
       </div>
-      <a class="btn red i18n-en" href="pricing.html" style="margin-left:.5rem">Join</a>
-      <a class="btn red i18n-es" href="pricing.html" style="margin-left:.5rem">Unirte</a>
-      <div class="lang" style="margin-left:.5rem">
-        <button class="btn secondary" onclick="LANG.set('en')">EN</button>
-        <button class="btn secondary" onclick="LANG.set('es')">ES</button>
+      <div>
+        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('en')">EN</button>
+        <button type="button" class="btn secondary" style="border-color:#ddd" onclick="EDN_UI.setLang('es')">ES</button>
       </div>
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="container">
-      <div class="i18n-en">
-        <h1>About Edunancial</h1>
-        <p class="muted" style="color:#fff">From a single question to a mission to teach the how of money.</p>
-      </div>
-      <div class="i18n-es">
-        <h1>Acerca de Edunancial</h1>
-        <p class="muted" style="color:#fff">De una pregunta a una misión para enseñar el cómo del dinero.</p>
-      </div>
-    </div>
-  </header>
-
   <main class="section">
-    <div class="container card">
-      <article class="i18n-en">
-        <h2>Our Story</h2>
-        <p>When my Son was <strong>11 years old</strong>, he walked into the room as I was ending a call with a business client. As he came over to me, my phone signaled that a <strong>payment was made from that client</strong>. He saw the notice and asked, <em>“How did you make money on the phone?”</em></p>
-        <p>I told him, <em>“I work with my head.”</em> Then I asked if he wanted to <strong>work with his head</strong> too. He thought for a moment and said, <em>“Yes… but I don’t know how.”</em></p>
-        <p>Now at <strong>15 years old</strong>, he selects stocks to invest in with an <strong>8–12% ROI</strong> using his own money, wants to start buying options, and is <strong>planning a business</strong>. That experience led to founding Edunancial, because <strong>financial literacy</strong> can help anyone improve their circumstances.</p>
-
-        <h2>What we do</h2>
-        <ul>
-          <li>No-jargon lessons with clear steps.</li>
-          <li>Templates and checklists you can use today.</li>
-          <li>Habits, reminders, and community.</li>
-          <li>Bilingual: English and Spanish.</li>
-        </ul>
+    <div class="container">
+      <!-- Spanish -->
+      <article class="i18n-es">
+        <h1>Nuestra historia</h1>
+        <p>Edunancial nació para enseñar finanzas con ejemplos reales que los jóvenes puedan aplicar hoy. Creemos que los buenos hábitos se construyen temprano con pequeñas victorias.</p>
 
         <div class="card" style="margin-top:1rem">
-          <h3>Ready to get started?</h3>
-          <p class="muted">Clear, step-by-step financial literacy in English & Spanish.</p>
-          <a class="btn red" href="pricing.html">View plans</a>
+          <h2>Quién es el estudiante</h2>
+          <p>Actualmente, con <strong>15 años</strong>, practica lo que aprende:</p>
+          <ul>
+            <li>Ahorra un porcentaje fijo de cada ingreso.</li>
+            <li>Registra gastos y metas mensuales.</li>
+            <li>Gana dinero con tareas/proyectos locales.</li>
+            <li><strong>Compra plata y oro físicos con sus propios fondos.</strong></li>
+          </ul>
+          <p class="muted">Esto es educación financiera, no asesoría de inversión. Las decisiones deben tomarse con un adulto responsable.</p>
+        </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h2>Propósito</h2>
+          <p>Formar criterios, responsabilidad y herramientas para tomar buenas decisiones con el dinero en la vida real.</p>
         </div>
       </article>
 
-      <article class="i18n-es">
-        <h2>Nuestra historia</h2>
-        <p>Cuando mi hijo tenía <strong>11 años</strong>, entró en la habitación justo cuando yo terminaba una llamada con un cliente de negocios. Al acercarse, mi teléfono indicó que se había realizado un <strong>pago de ese cliente</strong>. Vio el aviso y me preguntó: <em>“¿Cómo ganaste dinero por teléfono?”</em></p>
-        <p>Le respondí: <em>“Trabajo con mi cabeza.”</em> Luego le pregunté si él también quería <strong>trabajar con su cabeza</strong>. Pensó un momento y dijo: <em>“Sí, pero no sé cómo.”</em></p>
-        <p>Hoy, con <strong>15 años</strong>, ya invierte su propio dinero, sabe seleccionar acciones con un <strong>ROI del 8–12%</strong>, quiere empezar a comprar opciones y está <strong>planificando un negocio</strong>. Esa experiencia llevó a fundar Edunancial, porque la <strong>educación financiera</strong> puede ayudar a cualquiera a mejorar sus circunstancias.</p>
-
-        <h2>Qué hacemos</h2>
-        <ul>
-          <li>Lecciones sin jerga, con pasos claros.</li>
-          <li>Plantillas y listas que puedes usar hoy.</li>
-          <li>Hábitos, recordatorios y comunidad.</li>
-          <li>Bilingüe: inglés y español.</li>
-        </ul>
+      <!-- English -->
+      <article class="i18n-en">
+        <h1>Our story</h1>
+        <p>Edunancial was created to teach finance with real-life examples teens can use today. Good habits start early with small wins.</p>
 
         <div class="card" style="margin-top:1rem">
-          <h3>¿Listo para empezar?</h3>
-          <p class="muted">Educación financiera clara y paso a paso en inglés y español.</p>
-          <a class="btn red" href="pricing.html">Ver planes</a>
+          <h2>Who the student is</h2>
+          <p>At <strong>15 years old</strong>, he practices what he learns:</p>
+          <ul>
+            <li>Saves a fixed percentage of every dollar earned.</li>
+            <li>Logs monthly expenses and goals.</li>
+            <li>Earns money through local jobs/projects.</li>
+            <li><strong>Buys physical silver and gold with his own funds.</strong></li>
+          </ul>
+          <p class="muted">This is financial education, not investment advice. Decisions should be made with a responsible adult.</p>
+        </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h2>Purpose</h2>
+          <p>Build judgment, responsibility, and tools to make good money decisions in real life.</p>
         </div>
       </article>
     </div>
@@ -91,25 +99,14 @@
 
   <footer>
     <div class="container">
-      <p>© <span id="year"></span> Edunancial. All rights reserved.</p>
+      <p class="muted">© <span id="year"></span> Edunancial • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="disclaimer.html">Disclaimer</a></p>
     </div>
   </footer>
 
   <script>
-    // Default to English, remember user choice
-    const LANG = {
-      set(l){
-        localStorage.setItem('edu_lang', l);
-        document.documentElement.setAttribute('lang', l);
-      },
-      init(){
-        const saved = localStorage.getItem('edu_lang') || 'en';
-        document.documentElement.setAttribute('lang', saved);
-        const y = document.getElementById('year');
-        if (y) y.textContent = new Date().getFullYear();
-      }
-    };
-    document.addEventListener('DOMContentLoaded', LANG.init);
+    document.addEventListener('DOMContentLoaded', () => {
+      const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear();
+    });
   </script>
 </body>
 </html>
