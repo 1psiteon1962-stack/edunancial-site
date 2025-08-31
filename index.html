@@ -4,42 +4,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edunancial — Practical Financial Education</title>
-  <meta name="description" content="Real-world financial education for teens and families. Savings habits, money choices, and basic investing with real examples.">
+  <meta name="description" content="Real-world financial education for teens and families. The full story: from an 11-year-old's question to disciplined saving, earning, and responsible investing at 15." />
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    :root {
-      --blue: #1d4ed8;
-      --red: #dc2626;
-      --white: #ffffff;
-      --max: 1100px;
-    }
-    body {
-      margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:#111;
-      line-height:1.6;
-      background:#fff;
-    }
-    header, main, footer { width:100%; }
-    .container { max-width: var(--max); margin:0 auto; padding:1rem; }
-    nav { border-bottom:2px solid var(--blue); background:#fff; position:sticky; top:0; z-index:20; }
-    .nav-row { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .nav-links a { text-decoration:none; color:#111; margin:0 .75rem; font-weight:500; }
-    .brand { font-weight:800; color: var(--blue); }
-
-    .hero { background:var(--white); border-bottom:2px solid var(--red); padding:2rem 1rem; text-align:center; }
-    .hero h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin:0 0 .5rem; font-weight:800; color: var(--blue);}
-    .hero p { margin:.5rem 0 1rem; max-width:70ch; color:#333; }
-    .hero .btn { background: var(--red); color:#fff; font-weight:600; border:none; border-radius:8px; padding:.7rem 1.2rem; text-decoration:none; }
-
-    .section { padding: 2rem 1rem; }
-    .section h2 { color: var(--blue); font-size:1.6rem; margin-bottom:1rem; }
-
-    ul { margin: .5rem 0 0 1.2rem; }
-    ul li { margin:.35rem 0; }
-
-    footer { border-top:2px solid var(--blue); background:#fafafa; margin-top:2rem; text-align:center; padding:1rem; }
-    footer a { color:var(--blue); text-decoration:none; margin:0 .5rem; }
+    :root { --blue:#1d4ed8; --red:#dc2626; --white:#ffffff; --max:1100px; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;line-height:1.6;background:#fff}
+    header,main,footer{width:100%}
+    .container{max-width:var(--max);margin:0 auto;padding:1rem}
+    /* NAV */
+    nav{border-bottom:2px solid var(--blue);background:#fff;position:sticky;top:0;z-index:20}
+    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .nav-links a{text-decoration:none;color:#111;margin:0 .75rem;font-weight:500}
+    .brand{font-weight:800;color:var(--blue)}
+    .btn{background:#eee;color:#111;border:none;border-radius:8px;padding:.5rem .9rem;cursor:pointer}
+    /* HERO */
+    .hero{background:var(--white);border-bottom:2px solid var(--red);padding:2rem 1rem;text-align:center}
+    .hero h1{font-size:clamp(1.8rem,3vw,2.6rem);margin:0 0 .5rem;font-weight:800;color:var(--blue)}
+    .hero p{margin:.5rem auto 1rem;max-width:70ch;color:#333}
+    .hero .cta{background:var(--red);color:#fff;font-weight:600;border:none;border-radius:8px;padding:.7rem 1.2rem;text-decoration:none;display:inline-block}
+    /* SECTIONS */
+    .section{padding:2rem 1rem}
+    .section h2{color:var(--blue);font-size:1.6rem;margin-bottom:1rem}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .muted{color:#666}
+    ul{margin:.5rem 0 0 1.2rem}
+    ul li{margin:.35rem 0}
+    /* TIMELINE */
+    .timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+    .age{border:1px solid #e5e7eb;border-radius:16px;padding:1rem;background:#fff}
+    .age h3{margin:.2rem 0 .5rem;color:var(--red)}
+    /* FOOTER */
+    footer{border-top:2px solid var(--blue);background:#fafafa;margin-top:2rem;text-align:center;padding:1rem}
+    footer a{color:var(--blue);text-decoration:none;margin:0 .5rem}
   </style>
 </head>
 <body>
@@ -50,12 +47,13 @@
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="#story">Story</a>
         <a href="#learn">Learn</a>
         <a href="#contact">Contact</a>
       </div>
       <div>
-        <button type="button" class="btn" style="background:#eee;color:#111" onclick="document.documentElement.setAttribute('lang','en')">EN</button>
-        <button type="button" class="btn" style="background:#eee;color:#111" onclick="document.documentElement.setAttribute('lang','es')">ES</button>
+        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','en')">EN</button>
+        <button type="button" class="btn" onclick="document.documentElement.setAttribute('lang','es')">ES</button>
       </div>
     </div>
   </nav>
@@ -64,32 +62,76 @@
   <header class="hero">
     <div class="container">
       <h1>Real-world financial education for teens and families.</h1>
-      <p>Savings habits, responsible money choices, and basic investing—taught with real examples.</p>
-      <a class="btn" href="#story">See what he does now</a>
+      <p>The complete story — sparked by an 11-year-old’s question — built on saving, tracking, earning, and responsible investing by 15.</p>
+      <a class="cta" href="#story">Read the Story</a>
     </div>
   </header>
 
-  <!-- WHAT HE DOES NOW -->
+  <!-- ORIGIN + TIMELINE STORY -->
   <section class="section" id="story">
     <div class="container">
-      <h2>What he does now at 15</h2>
-      <ul>
-        <li>Saves a fixed percentage of every dollar he earns.</li>
-        <li>Tracks expenses and goals in a notebook and app.</li>
-        <li>Earns money through small jobs and local projects.</li>
-        <li><strong>Buys physical silver and gold with his own funds.</strong></li>
-      </ul>
+      <h2>How Edunancial started — and how it grew</h2>
+      <div class="card" style="margin-bottom:1rem">
+        <p><strong>The spark:</strong> In the office, just after hanging up a call, my son (age 11) walked in and asked, <em>“How do I make money with my head?”</em> That one question became our mission: teach young people how to think about money — clearly, simply, practically.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="age">
+          <h3>Age 11 — First Money Habits</h3>
+          <ul>
+            <li>Saves a small portion of allowance and gifts.</li>
+            <li>Learns delayed gratification (wait vs. impulse).</li>
+            <li>Opens a basic savings account with a parent.</li>
+          </ul>
+        </div>
+        <div class="age">
+          <h3>Age 12 — Early Tracking</h3>
+          <ul>
+            <li>Keeps a simple ledger of money in/out.</li>
+            <li>Uses categories: saving, spending, giving.</li>
+            <li>Understands trade-offs in choices.</li>
+          </ul>
+        </div>
+        <div class="age">
+          <h3>Age 13 — Earning & Responsibility</h3>
+          <ul>
+            <li>Starts small paid jobs for neighbors.</li>
+            <li>Links work → earnings → savings goals.</li>
+            <li>Sets and reaches a target for a big purchase.</li>
+          </ul>
+        </div>
+        <div class="age">
+          <h3>Age 14 — Expanding Tools</h3>
+          <ul>
+            <li>Experiments with budgeting/tracking apps.</li>
+            <li>Explores compound interest with simple examples.</li>
+            <li>Compares “safe” savings vs. higher-risk ideas.</li>
+          </ul>
+        </div>
+        <div class="age">
+          <h3>Age 15 — Practical Investing</h3>
+          <ul>
+            <li>Saves a fixed percentage of every dollar earned.</li>
+            <li>Tracks goals consistently (notebook + app).</li>
+            <li>Earns through small jobs and local projects.</li>
+            <li><strong>Buys physical silver and gold with his own funds.</strong></li>
+            <li>Learns diversification (don’t put everything in one place).</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="muted" style="margin-top:1rem">This is financial education — not investment advice. Decisions should be made with a responsible adult.</p>
     </div>
   </section>
 
   <!-- LEARN -->
-  <section class="section" id="learn" style="background:#f9fafb; border-top:2px solid var(--red); border-bottom:2px solid var(--red);">
+  <section class="section" id="learn" style="background:#f9fafb;border-top:2px solid var(--red);border-bottom:2px solid var(--red);">
     <div class="container">
       <h2>Learn in stages</h2>
       <ul>
         <li><strong>Basics:</strong> Budgeting, saving, goals, and safety.</li>
         <li><strong>Intermediate:</strong> Compound interest, banking, responsibility.</li>
-        <li><strong>Advanced:</strong> Diversification, risks, and decision analysis.</li>
+        <li><strong>Advanced:</strong> Diversification, risk awareness, decision analysis.</li>
       </ul>
     </div>
   </section>
@@ -109,9 +151,7 @@
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const y=document.getElementById('year'); if (y) y.textContent=new Date().getFullYear();
-    });
+    document.addEventListener('DOMContentLoaded', ()=>{ const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear(); });
   </script>
 </body>
 </html>
