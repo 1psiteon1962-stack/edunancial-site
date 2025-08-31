@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>404 — Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero"><div class="container"><h1>404</h1><p class="muted" style="color:#fff">Page not found • Página no encontrada</p></div></header>
-  <main class="section"><div class="container card">
-    <p>Try the <a href="index.html">home page</a> or <a href="contact.html">contact us</a>.</p>
-  </div></main>
-  <footer><div class="container"><p>© <span id="year"></span> Edunancial</p></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>404 • UDL</title>
+<link rel="stylesheet" href="/css/style.css"><meta name="robots" content="noindex"></head><body>
+<nav class="topbar"><a href="/index.html" class="brand" data-i18n="brand">Ultima Defensa Legal</a>
+<ul class="menu"><li><a href="/index.html" data-i18n="nav.home">Home</a></li><li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li></ul>
+<button id="lang-toggle" class="langbtn"><span id="lang-label">ES</span></button></nav>
+<main class="container">
+  <h1 data-i18n="404.title">Page not found</h1>
+  <p class="notice only-en">Let’s take you back home.</p>
+  <p class="notice only-es">Volvamos a inicio.</p>
+  <p><a class="btn" href="/index.html">Home</a></p>
+</main>
+<footer class="container"><small data-i18n="footer.rights">All rights reserved.</small></footer>
+<script src="/js/i18n.js" defer></script></body></html>
