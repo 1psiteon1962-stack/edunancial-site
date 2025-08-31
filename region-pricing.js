@@ -1,24 +1,52 @@
-/* region-pricing.js — optional, disabled by default (keeps UI clean; no "region" text anywhere) */
-(function(){
-  const ENABLE_REGION = false;            // set to true to enable silent display adjustments
-  const MULTIPLIER_BY_COUNTRY = {         // e.g., 'MX':0.85,'IN':0.70,'US':1.0
-  };
-  function getCountryFromCookie(){
-    try{
-      const m = document.cookie.match(/(?:^|;\s*)EDU_COUNTRY=([A-Z]{2})/);
-      return m ? m[1] : null;
-    }catch(e){ return null; }
+/* region-pricing.js — renders plans into #plans-root, silent regional adjust */
+(function () {
+  const $ = (sel) => document.querySelector(sel);
+  function lang(){ return document.documentElement.getAttribute("lang") === "en" ? "en" : "es"; }
+  function fmtUSD(n){ return n === 0 ? (lang()==="en"?"$0.00":"$0.00") : n.toLocaleString("en-US",{style:"currency",currency:"USD"}); }
+
+  function getRegion(){
+    // Lightweight guess; refine later if needed
+    const nav = (navigator.language || "").toLowerCase();
+    const cc = nav.includes("-") ? nav.split("-")[1].toUpperCase() : "US";
+    // Optional: detect state from ?state=XX
+    const u = new URL(location.href);
+    const st = (u.searchParams.get("state") || "").toUpperCase();
+    return { country: cc, state: st };
   }
-  function formatUSD(x){ return '$' + Number(x).toFixed(0); }
-  function run(){
-    if(!ENABLE_REGION) return;
-    const c = getCountryFromCookie();
-    if(!c || !MULTIPLIER_BY_COUNTRY[c]) return;
-    const k = MULTIPLIER_BY_COUNTRY[c];
-    document.querySelectorAll('[data-price-usd]').forEach(el=>{
-      const base = parseFloat(el.getAttribute('data-price-usd')||'0');
-      el.textContent = formatUSD(base*k);
-    });
+
+  function render(){
+    const root = $("#plans-root");
+    if (!root || !window.EDN_PLANS) return;
+
+    const { country, state } = getRegion();
+    const adj = (window.EDN_PRICE_OVERRIDES && window.EDN_PRICE_OVERRIDES(country, state)) || {};
+    const l = lang();
+
+    root.innerHTML = `
+      <style>
+        .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+        .plan{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1rem}
+        .price{font-size:1.8rem;font-weight:800;color:#0b3d91;margin:.1rem 0}
+        .btn{display:inline-block;padding:.6rem 1rem;border-radius:12px;border:2px solid #d62828;background:#d62828;color:#fff;text-decoration:none;font-weight:700}
+        .feat{color:#475569;margin:.3rem 0}
+      </style>
+      <div class="plans">
+        ${window.EDN_PLANS.map(p=>{
+          const price = (adj[p.id] ?? p.price);
+          return `
+            <div class="plan">
+              <h3>${p.name[l]}</h3>
+              <div class="price">${fmtUSD(price)} <span style="font-size:.9rem;color:#475569">${p.term[l]}</span></div>
+              <ul class="feat">
+                ${p.features[l].map(f=>`<li>${f}</li>`).join("")}
+              </ul>
+              <a class="btn" href="${p.href}">${p.cta[l]}</a>
+            </div>`;
+        }).join("")}
+      </div>
+    `;
   }
-  document.addEventListener('DOMContentLoaded', run);
+
+  document.addEventListener("DOMContentLoaded", render);
+  document.addEventListener("edn:langchange", render);
 })();
