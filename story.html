@@ -1,90 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Our Story — Edunancial</title>
-<meta name="description" content="An 11-year-old asked how money worked. That moment started Edunancial. Anyone can learn money skills.">
-
-<link rel="canonical" href="https://edunancial.com/story.html"/>
-<link rel="alternate" href="https://edunancial.com/story.html?lang=en" hreflang="en"/>
-<link rel="alternate" href="https://edunancial.com/story.html?lang=es" hreflang="es"/>
-<link rel="alternate" href="https://edunancial.com/story.html" hreflang="x-default"/>
-
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://edunancial.com/story.html">
-<meta property="og:site_name" content="Edunancial">
-<meta property="og:title" content="Our Story — Edunancial">
-<meta property="og:description" content="Anyone can learn money skills. See how Edunancial began and what it teaches.">
-<meta property="og:image" content="https://edunancial.com/img/og-cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-<style>
-  :root{--blue:#0b2a4a;--red:#e01e24;--ink:#111827;--muted:#6b7280;--max:900px}
-  *{box-sizing:border-box} html,body{margin:0}
-  body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
-  .nav{background:var(--blue);color:#fff;border-bottom:2px solid #0a2745}
-  .wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
-  .nav-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:10px}
-  .nav a{color:#fff;text-decoration:none;font-weight:600;margin-right:12px}
-  .lang button{border:2px solid #fff;background:transparent;color:#fff;border-radius:12px;padding:6px 10px;font-weight:700;cursor:pointer}
-  .lang button[aria-current="true"]{background:#fff;color:var(--blue)}
-  main .wrap{padding:20px 16px}
-  .btn{padding:.8rem 1rem;border-radius:12px;border:0;font-weight:800;background:var(--red);color:#fff}
-  footer{background:var(--blue);color:#fff;border-top:1px solid #0a2745}
-  footer .wrap{padding:14px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-  footer a{color:#fff}
-</style>
+<meta name="description" content="How Edunancial was born — inspired by teaching financial literacy to the next generation.">
+<style>body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#f7f8fb;color:#111}header,footer{background:#0b2a4a;color:#fff}.wrap{max-width:900px;margin:0 auto;padding:16px}</style>
 </head>
 <body>
-<header class="nav">
-  <div class="wrap nav-row">
-    <div class="brand">Edunancial</div>
-    <nav>
-      <a href="index.html" data-i18n="nav_home">Home</a>
-      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
-      <a href="story.html" data-i18n="nav_story">Our Story</a>
-      <a href="contact.html" data-i18n="nav_contact">Contact</a>
-    </nav>
-    <div class="lang">
-      <button data-lang="en" aria-current="true">EN</button>
-      <button data-lang="es">ES</button>
-    </div>
-  </div>
-</header>
-
-<main>
-  <div class="wrap">
-    <h1 data-i18n="story_title">Our Story</h1>
-    <h2 style="color:#e01e24" data-i18n="story_h2">Anyone can learn money skills.</h2>
-    <p>When my son was eleven, he walked in just as a client payment hit my phone... That moment is when Edunancial was born.</p>
-    <p>Today at fifteen, he’s researched stocks (8–12% ROI), owns silver and gold, and plans a business. These skills can last a lifetime, and anyone can learn them.</p>
-    <p><a class="btn" href="pricing.html" data-i18n="cta_plans">View plans</a></p>
-  </div>
-</main>
-
-<footer>
-  <div class="wrap">
-    <small>© 2025 Edunancial</small>
-    <div style="display:flex;gap:12px;flex-wrap:wrap">
-      <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
-      <a href="terms.html" data-i18n="footer_terms">Terms</a>
-      <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
-    </div>
-  </div>
-</footer>
-
-<script>
-(function(){
-  const T = { en:{nav_home:"Home",nav_plans:"Plans",nav_story:"Our Story",nav_contact:"Contact",story_title:"Our Story",story_h2:"Anyone can learn money skills.",cta_plans:"View plans",footer_privacy:"Privacy",footer_terms:"Terms",footer_refunds:"Refunds"},
-              es:{nav_home:"Inicio",nav_plans:"Planes",nav_story:"Nuestra historia",nav_contact:"Contacto",story_title:"Nuestra historia",story_h2:"Cualquiera puede aprender finanzas.",cta_plans:"Ver planes",footer_privacy:"Privacidad",footer_terms:"Términos",footer_refunds:"Reembolsos"} };
-  const getLang=()=>localStorage.getItem("lang")||"en"; const setLang=(l)=>{localStorage.setItem("lang",l);apply();};
-  function apply(){ const L=T[getLang()]||T.en; document.documentElement.lang=getLang(); document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n"); if(L[k]) el.textContent=L[k];}); }
-  document.addEventListener("DOMContentLoaded",()=>{apply(); document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-lang]").forEach(x=>x.removeAttribute("aria-current")); b.setAttribute("aria-current","true"); setLang(b.getAttribute("data-lang"));}));});
-})();
-</script>
+<header><div class="wrap"><h1 data-i18n="story_title">Our Story</h1></div></header>
+<main><div class="wrap">
+<p>When my son was 11 years old, he came into my room as I was finishing a client call. He saw the payment come through on my phone and asked: “How did you do that?” I told him that in the military I worked with my back, but now I work with my head. I asked him: “Do you want to work with your back or your head?” He thought, then said: “With my head — but I don’t know how. Show me.”</p>
+<p>That moment was the spark. Today, at 15, he has already bought and sold stocks, managed gold and silver, and is preparing for options trading. The skills he learned will last a lifetime. That’s how Edunancial was born — to help anyone build financial literacy and a better future.</p>
+</div></main>
+<footer><div class="wrap"><small>© 2025 Edunancial</small></div></footer>
+<script src="shared.js"></script>
 </body>
 </html>
