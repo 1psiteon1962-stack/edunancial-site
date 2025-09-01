@@ -3,18 +3,64 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Edunancial — Financial literacy for everyone</title>
+<title>Edunancial — Financial literacy for everyone (EN/ES)</title>
 <meta name="description" content="Bilingual financial literacy: budgeting, credit, saving, investing. Lessons, templates, community, and flexible plans.">
-<link rel="stylesheet" href="style.css"/>
-<script src="edn-ui.js" defer></script>
-<script src="edn-consent.js" defer></script>
-<script src="pricing-config.js" defer></script>
-<script src="region-pricing.js" defer></script>
+
+<link rel="canonical" href="https://edunancial.com/"/>
+<link rel="alternate" href="https://edunancial.com/?lang=en" hreflang="en"/>
+<link rel="alternate" href="https://edunancial.com/?lang=es" hreflang="es"/>
+<link rel="alternate" href="https://edunancial.com/" hreflang="x-default"/>
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://edunancial.com/">
+<meta property="og:site_name" content="Edunancial">
+<meta property="og:title" content="Financial literacy for everyone — bilingual and practical">
+<meta property="og:description" content="Learn budgeting, credit, saving, and investing with bilingual lessons and templates.">
+<meta property="og:image" content="https://edunancial.com/img/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{--blue:#0b2a4a;--red:#e01e24;--ink:#111827;--muted:#6b7280;--bg:#f7f8fb;--card:#fff;--ring:#e6e9ef;--max:1100px}
+  *{box-sizing:border-box} html,body{margin:0}
+  body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
+  .nav{background:var(--blue);color:#fff;border-bottom:2px solid #0a2745}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+  .nav-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:10px}
+  .nav-links{display:flex;gap:14px;flex-wrap:wrap}
+  .nav a{color:#fff;text-decoration:none;font-weight:600}
+  .lang button{border:2px solid #fff;background:transparent;color:#fff;border-radius:12px;padding:6px 10px;font-weight:700;cursor:pointer}
+  .lang button[aria-current="true"]{background:#fff;color:var(--blue)}
+  .hero{background:linear-gradient(135deg,#102a43,#1b3760,#aa1d22);color:#fff}
+  .hero .wrap{padding:40px 16px}
+  .cta-row{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{padding:.8rem 1rem;border-radius:12px;border:0;font-weight:800;cursor:pointer}
+  .btn.primary{background:var(--red);color:#fff}
+  .btn.ghost{background:#fff;color:var(--blue)}
+  .section{padding:20px 16px}
+  .cards{display:grid;grid-template-columns:1fr;gap:12px}
+  @media(min-width:720px){.cards{grid-template-columns:repeat(3,1fr)}}
+  .card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:16px}
+  footer{background:var(--blue);color:#fff;border-top:1px solid #0a2745}
+  footer .wrap{padding:14px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  footer a{color:#fff}
+</style>
+
+<!-- Org + Website JSON-LD -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Edunancial","url":"https://edunancial.com","logo":"https://edunancial.com/img/logo.png","sameAs":[]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Edunancial","url":"https://edunancial.com","potentialAction":{"@type":"SearchAction","target":"https://edunancial.com/?q={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
 </head>
 <body>
 <header class="nav">
-  <div class="container nav-row">
-    <a class="brand" href="index.html" data-i18n="brand">Edunancial</a>
+  <div class="wrap nav-row">
+    <div class="brand">Edunancial</div>
     <nav class="nav-links">
       <a href="index.html" data-i18n="nav_home">Home</a>
       <a href="pricing.html" data-i18n="nav_plans">Plans</a>
@@ -22,59 +68,97 @@
       <a href="contact.html" data-i18n="nav_contact">Contact</a>
     </nav>
     <div class="lang">
-      <button data-edn-lang="en" class="active">EN</button>
-      <button data-edn-lang="es">ES</button>
+      <button data-lang="en" aria-current="true">EN</button>
+      <button data-lang="es">ES</button>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <div class="container">
+  <div class="wrap">
     <h1 data-i18n="hero_h1">Financial literacy for everyone — bilingual and practical</h1>
-    <p data-i18n="hero_p">Learn budgeting, credit, saving, and investing the clear way...</p>
+    <p data-i18n="hero_p">Learn budgeting, credit, saving, and investing the clear way. Lessons, templates, and community — with flexible pricing.</p>
     <div class="cta-row">
-      <a class="btn primary" href="#how" data-i18n="cta_how">How it works</a>
-      <a class="btn outline" href="story.html" data-i18n="cta_story">Our story</a>
-      <a class="btn red" href="pricing.html" data-i18n="cta_plans">View plans</a>
+      <a class="btn ghost" href="#how" data-i18n="cta_how">How it works</a>
+      <a class="btn ghost" href="story.html" data-i18n="cta_story">Our story</a>
+      <a class="btn primary" href="pricing.html" data-i18n="cta_plans">View plans</a>
     </div>
   </div>
 </section>
 
 <main>
-  <section class="section" id="how">
-    <div class="container">
+  <section id="how" class="section">
+    <div class="wrap">
       <h2 data-i18n="how_title">How it works</h2>
       <div class="cards">
-        <article class="card">
-          <h3 data-i18n="how_1_h">1. Learn</h3>
-          <p data-i18n="how_1_p">Short EN/ES lessons...</p>
-        </article>
-        <article class="card">
-          <h3 data-i18n="how_2_h">2. Apply</h3>
-          <p data-i18n="how_2_p">Use toolkit templates...</p>
-        </article>
-        <article class="card">
-          <h3 data-i18n="how_3_h">3. Grow</h3>
-          <p data-i18n="how_3_p">Build habits...</p>
-        </article>
+        <article class="card"><h3 data-i18n="how_1_t">1. Learn</h3><p data-i18n="how_1_d"></p></article>
+        <article class="card"><h3 data-i18n="how_2_t">2. Apply</h3><p data-i18n="how_2_d"></p></article>
+        <article class="card"><h3 data-i18n="how_3_t">3. Grow</h3><p data-i18n="how_3_d"></p></article>
       </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div id="plans-root"></div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="row">
-    <span>© 2025 Edunancial</span> •
-    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a> •
-    <a href="terms.html" data-i18n="footer_terms">Terms</a> •
-    <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
+  <div class="wrap">
+    <small>© 2025 Edunancial</small>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+      <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
+    </div>
   </div>
 </footer>
+
+<!-- Consent-aware analytics (Plausible by default) -->
+<script>
+(function(){
+  try{
+    if(localStorage.getItem("edn-consent")==="no") return;
+    var s=document.createElement("script");
+    s.defer=true; s.setAttribute("data-domain","edunancial.com");
+    s.src="https://plausible.io/js/plausible.js";
+    document.head.appendChild(s);
+  }catch(e){}
+})();
+</script>
+
+<!-- Lightweight i18n wiring -->
+<script>
+(function(){
+  const T = {
+    en:{nav_home:"Home",nav_plans:"Plans",nav_story:"Our Story",nav_contact:"Contact",
+        hero_h1:"Financial literacy for everyone — bilingual and practical",
+        hero_p:"Learn budgeting, credit, saving, and investing the clear way. Lessons, templates, and community — with flexible pricing.",
+        cta_how:"How it works",cta_story:"Our story",cta_plans:"View plans",
+        how_title:"How it works",how_1_t:"1. Learn",how_1_d:"Short EN/ES lessons with real examples and templates.",
+        how_2_t:"2. Apply",how_2_d:"Use toolkit templates to budget, save, and invest.",
+        how_3_t:"3. Grow",how_3_d:"Build habits, join tips, and level up.",
+        footer_privacy:"Privacy",footer_terms:"Terms",footer_refunds:"Refunds"},
+    es:{nav_home:"Inicio",nav_plans:"Planes",nav_story:"Nuestra historia",nav_contact:"Contacto",
+        hero_h1:"Educación financiera para todos — bilingüe y práctica",
+        hero_p:"Aprende presupuesto, crédito, ahorro e inversión de forma clara. Lecciones, plantillas y comunidad — con precios flexibles.",
+        cta_how:"Cómo funciona",cta_story:"Nuestra historia",cta_plans:"Ver planes",
+        how_title:"Cómo funciona",how_1_t:"1. Aprende",how_1_d:"Lecciones EN/ES con ejemplos reales y plantillas.",
+        how_2_t:"2. Aplica",how_2_d:"Usa plantillas para presupuestar, ahorrar e invertir.",
+        how_3_t:"3. Crece",how_3_d:"Crea hábitos, únete a consejos y avanza.",
+        footer_privacy:"Privacidad",footer_terms:"Términos",footer_refunds:"Reembolsos"}
+  };
+  const getLang=()=>localStorage.getItem("lang")||"en";
+  const setLang=(l)=>{localStorage.setItem("lang",l);apply();};
+  function apply(){
+    const L=T[getLang()]||T.en; document.documentElement.lang=getLang();
+    document.querySelectorAll("[data-i18n]").forEach(el=>{
+      const k=el.getAttribute("data-i18n"); if(L[k]) el.textContent=L[k];
+    });
+  }
+  document.addEventListener("DOMContentLoaded",()=>{
+    apply();
+    document.querySelectorAll("[data-lang]").forEach(b=>{
+      b.addEventListener("click",()=>{ document.querySelectorAll("[data-lang]").forEach(x=>x.removeAttribute("aria-current")); b.setAttribute("aria-current","true"); setLang(b.getAttribute("data-lang")); });
+    });
+  });
+})();
+</script>
 </body>
 </html>
