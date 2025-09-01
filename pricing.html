@@ -1,60 +1,58 @@
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Plans — Edunancial (Basic & Gold, 3-Month Commitment)</title>
-<meta name="description" content="Choose Basic or Gold. Gold includes free mini courses. Also available: 3-month commitment (pay upfront) then $19/mo.">
-
-<link rel="canonical" href="https://edunancial.com/pricing.html"/>
-<link rel="alternate" href="https://edunancial.com/pricing.html?lang=en" hreflang="en"/>
-<link rel="alternate" href="https://edunancial.com/pricing.html?lang=es" hreflang="es"/>
-<link rel="alternate" href="https://edunancial.com/pricing.html" hreflang="x-default"/>
-
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://edunancial.com/pricing.html">
-<meta property="og:site_name" content="Edunancial">
-<meta property="og:title" content="Edunancial Plans — Basic & Gold with Mini Courses Included">
-<meta property="og:description" content="Mobile-first and bilingual pricing. Gold includes mini courses. 3-month upfront option available.">
-<meta property="og:image" content="https://edunancial.com/img/og-cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plans & Pricing — Edunancial</title>
+<meta name="description" content="Choose between Basic and Gold memberships. Bilingual.">
+<link rel="canonical" href="https://edunancial.com/pricing.html">
+<link rel="alternate" href="https://edunancial.com/pricing.html?lang=en" hreflang="en">
+<link rel="alternate" href="https://edunancial.com/pricing.html?lang=es" hreflang="es">
+<link rel="alternate" href="https://edunancial.com/pricing.html" hreflang="x-default">
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-<!-- Product/Offer schema for plans -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Product",
-  "name":"Edunancial Gold Membership",
-  "description":"Gold membership includes all mini courses, member discounts, and specials.",
-  "brand":{"@type":"Brand","name":"Edunancial"},
-  "offers":[
-    {
-      "@type":"Offer",
-      "name":"Gold Monthly",
-      "price":"19",
-      "priceCurrency":"USD",
-      "url":"https://edunancial.com/pricing.html",
-      "availability":"https://schema.org/InStock"
-    },
-    {
-      "@type":"Offer",
-      "name":"Gold Annual",
-      "price":"190",
-      "priceCurrency":"USD",
-      "url":"https://edunancial.com/pricing.html",
-      "availability":"https://schema.org/InStock"
-    },
-    {
-      "@type":"Offer",
-      "name":"Gold (3-Month Commitment Upfront)",
-      "price":"57",
-      "priceCurrency":"USD",
-      "url":"https://edunancial.com/pricing.html",
-      "availability":"https://schema.org/InStock"
-    }
-  ]
-}
-</script>
+<style>
+/* Same base styles as index */
+:root{--blue:#0b2a4a;--red:#e01e24;--bg:#f7f8fb;--card:#fff;--ring:#e6e9ef}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#111}
+header,footer{background:var(--blue);color:#fff}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.cards{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:720px){.cards{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:16px;display:flex;flex-direction:column}
+.price{font-size:1.5rem;font-weight:800}
+.btn{margin-top:auto;padding:.8rem 1rem;border-radius:12px;border:0;font-weight:800;cursor:pointer}
+.btn.primary{background:var(--red);color:#fff}
+</style>
 </head>
+<body>
+<header><div class="wrap"><h1 data-i18n="plans_title">Membership Plans</h1></div></header>
+<main><div class="wrap">
+<div class="cards">
+  <div class="card">
+    <h2 data-i18n="basic_title">Basic</h2>
+    <p data-i18n="basic_desc">Access to site, free pamphlet, no discounts.</p>
+    <div class="price">$9/mo • $90/yr</div>
+    <a class="btn primary" data-plan="basic_m" href="#">Join Basic</a>
+  </div>
+  <div class="card">
+    <h2 data-i18n="gold_title">Gold</h2>
+    <p data-i18n="gold_desc">Includes mini courses, discounts, specials.</p>
+    <div class="price">$19/mo • $190/yr</div>
+    <a class="btn primary" data-plan="gold_m" href="#">Join Gold</a>
+  </div>
+  <div class="card">
+    <h2 data-i18n="commit_title">Gold Commitment</h2>
+    <p data-i18n="commit_desc">Pay 3 months upfront ($57), then $19/mo.</p>
+    <div class="price">$57 upfront</div>
+    <a class="btn primary" data-plan="commit" href="#">Join Commitment</a>
+  </div>
+</div>
+</div></main>
+<footer><div class="wrap">
+  <small>© 2025 Edunancial</small>
+  <div><a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a> • <a href="cookie-policy.html">Cookies</a></div>
+</div></footer>
+<script src="shared.js"></script>
+</body>
+</html>
