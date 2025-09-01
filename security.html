@@ -1,33 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Seguridad — Edunancial</title>
-<script src="edn-ui.js" defer></script>
-<style>
-:root{--max:900px}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f8fafc}
-.container{max-width:var(--max);margin:0 auto;padding:1rem}.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem}
-.i18n-en{display:none}html[lang="en"] .i18n-en{display:block}html[lang="en"] .i18n-es{display:none}
-</style>
-</head>
-<body>
-<main class="container card">
-  <div class="i18n-es">
-    <h1>Seguridad</h1>
-    <ul>
-      <li>HTTPS en todo el sitio; cabeceras de seguridad reforzadas.</li>
-      <li>Pagos procesados por terceros conformes PCI (p. ej., Square/Stripe); no almacenamos tarjetas.</li>
-      <li>Datos mínimos y acceso restringido.</li>
-    </ul>
-  </div>
-  <div class="i18n-en">
-    <h1>Security</h1>
-    <ul>
-      <li>Site-wide HTTPS; hardened security headers.</li>
-      <li>Payments handled by PCI-compliant providers (e.g., Square/Stripe); we don’t store card data.</li>
-      <li>Minimal data; limited access.</li>
-    </ul>
-  </div>
-</main>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Security — Edunancial</title>
+<style>body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;margin:0;color:#111}
+header,footer{background:#0b2a4a;color:#fff}.wrap{max-width:900px;margin:0 auto;padding:16px}</style></head><body>
+<header><div class="wrap"><h1>Security</h1></div></header>
+<main><div class="wrap">
+<ul>
+<li>HTTPS everywhere; HSTS, CSP, and modern headers.</li>
+<li>No card data stored on our servers; payments handled by Square.</li>
+<li>Data minimization and deletion on request.</li>
+</ul>
+<p>Report a security concern: <a href="mailto:security@edunancial.com">security@edunancial.com</a></p>
+</div></main>
+<footer><div class="wrap"><small>© 2025 Edunancial</small></div></footer>
+</body></html>
