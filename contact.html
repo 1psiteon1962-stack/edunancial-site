@@ -1,95 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact — Edunancial</title>
-<meta name="description" content="Contact Edunancial. We reply within one business day.">
-
-<link rel="canonical" href="https://edunancial.com/contact.html"/>
-<link rel="alternate" href="https://edunancial.com/contact.html?lang=en" hreflang="en"/>
-<link rel="alternate" href="https://edunancial.com/contact.html?lang=es" hreflang="es"/>
-<link rel="alternate" href="https://edunancial.com/contact.html" hreflang="x-default"/>
-
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://edunancial.com/contact.html">
-<meta property="og:title" content="Contact — Edunancial">
-<meta property="og:description" content="Send us a message. We’ll reply within one business day.">
-<meta property="og:image" content="https://edunancial.com/img/og-cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
+<meta name="description" content="Contact Edunancial for support, partnerships, and media.">
 <style>
-  :root{--blue:#0b2a4a;--ink:#111827;--ring:#e6e9ef;--max:900px}
-  *{box-sizing:border-box} html,body{margin:0}
-  body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
-  .nav{background:var(--blue);color:#fff;border-bottom:2px solid #0a2745}
-  .wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
-  .nav-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:10px}
-  .nav a{color:#fff;text-decoration:none;font-weight:600;margin-right:12px}
-  .lang button{border:2px solid #fff;background:transparent;color:#fff;border-radius:12px;padding:6px 10px;font-weight:700;cursor:pointer}
-  .lang button[aria-current="true"]{background:#fff;color:var(--blue)}
-  main .wrap{padding:20px 16px}
-  form{display:grid;gap:10px}
-  input,textarea{width:100%;padding:12px;border:1px solid var(--ring);border-radius:12px}
-  .btn{padding:.8rem 1rem;border-radius:12px;border:0;font-weight:800;background:#e01e24;color:#fff}
-  footer{background:var(--blue);color:#fff;border-top:1px solid #0a2745}
-  footer .wrap{padding:14px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-  footer a{color:#fff}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#f7f8fb;color:#111}
+header,footer{background:#0b2a4a;color:#fff}
+.wrap{max-width:900px;margin:0 auto;padding:16px}
+input,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px;margin-bottom:10px}
+button{padding:.8rem 1rem;border-radius:12px;border:0;background:#e01e24;color:#fff;font-weight:800;cursor:pointer}
 </style>
 </head>
 <body>
-<header class="nav">
-  <div class="wrap nav-row">
-    <div class="brand">Edunancial</div>
-    <nav>
-      <a href="index.html" data-i18n="nav_home">Home</a>
-      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
-      <a href="story.html" data-i18n="nav_story">Our Story</a>
-      <a href="contact.html" data-i18n="nav_contact">Contact</a>
-    </nav>
-    <div class="lang">
-      <button data-lang="en" aria-current="true">EN</button>
-      <button data-lang="es">ES</button>
-    </div>
-  </div>
-</header>
-
-<main>
-  <div class="wrap">
-    <h1 data-i18n="contact_title">Contact Us</h1>
-    <p data-i18n="contact_lead">Send us a message and we’ll reply within one business day.</p>
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact">
-      <label>Your Name<input name="name" required></label>
-      <label>Email<input name="email" type="email" required></label>
-      <label>Message<textarea name="message" rows="6" required></textarea></label>
-      <button class="btn" type="submit" data-i18n="contact_send">Send</button>
-    </form>
-  </div>
-</main>
-
+<header><div class="wrap"><h1 data-i18n="contact_title">Contact Us</h1></div></header>
+<main><div class="wrap">
+<form name="edn-contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="edn-contact">
+  <label>Name / <span lang="es">Nombre</span>
+    <input type="text" name="name" required>
+  </label>
+  <label>Email / <span lang="es">Correo</span>
+    <input type="email" name="email" required>
+  </label>
+  <label>Message / <span lang="es">Mensaje</span>
+    <textarea name="message" rows="5" required></textarea>
+  </label>
+  <button type="submit">Send / <span lang="es">Enviar</span></button>
+</form>
+</div></main>
 <footer>
   <div class="wrap">
-    <small>© 2025 Edunancial</small>
-    <div style="display:flex;gap:12px;flex-wrap:wrap">
-      <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
-      <a href="terms.html" data-i18n="footer_terms">Terms</a>
-      <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
-    </div>
+    <small>© 2025 Edunancial • 
+      <a href="privacy.html">Privacy</a> • 
+      <a href="terms.html">Terms</a> • 
+      <a href="refunds.html">Refunds</a> • 
+      <a href="cookie-policy.html">Cookies</a> • 
+      <a href="data-requests.html#dns">Do-Not-Sell/Share</a> • 
+      <a href="accessibility.html">Accessibility</a> • 
+      <a href="security.html">Security</a>
+    </small>
   </div>
 </footer>
-
-<script>
-(function(){
-  const T={en:{nav_home:"Home",nav_plans:"Plans",nav_story:"Our Story",nav_contact:"Contact",contact_title:"Contact Us",contact_lead:"Send us a message and we’ll reply within one business day.",contact_send:"Send",footer_privacy:"Privacy",footer_terms:"Terms",footer_refunds:"Refunds"},
-           es:{nav_home:"Inicio",nav_plans:"Planes",nav_story:"Nuestra historia",nav_contact:"Contacto",contact_title:"Contáctanos",contact_lead:"Envíanos un mensaje y responderemos en 1 día laboral.",contact_send:"Enviar",footer_privacy:"Privacidad",footer_terms:"Términos",footer_refunds:"Reembolsos"}};
-  const getLang=()=>localStorage.getItem("lang")||"en"; const setLang=(l)=>{localStorage.setItem("lang",l);apply();};
-  function apply(){const L=T[getLang()]||T.en; document.documentElement.lang=getLang(); document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n"); if(L[k]) el.textContent=L[k];});}
-  document.addEventListener("DOMContentLoaded",()=>{apply(); document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-lang]").forEach(x=>x.removeAttribute("aria-current")); b.setAttribute("aria-current","true"); setLang(b.getAttribute("data-lang"));}));});
-})();
-</script>
+<script src="shared.js"></script>
 </body>
 </html>
