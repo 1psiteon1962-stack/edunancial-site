@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://edunancial.com/</loc></url>
-  <url><loc>https://edunancial.com/index.html</loc></url>
   <url><loc>https://edunancial.com/pricing.html</loc></url>
-  <url><loc>https://edunancial.com/about.html</loc></url>
+  <url><loc>https://edunancial.com/story.html</loc></url>
   <url><loc>https://edunancial.com/contact.html</loc></url>
+  <url><loc>https://edunancial.com/videos.html</loc></url>
+  <url><loc>https://edunancial.com/shop.html</loc></url>
+  <url><loc>https://edunancial.com/members.html</loc></url>
+  <url><loc>https://edunancial.com/thank-you.html</loc></url>
   <url><loc>https://edunancial.com/privacy.html</loc></url>
   <url><loc>https://edunancial.com/terms.html</loc></url>
-  <url><loc>https://edunancial.com/cookies.html</loc></url>
-  <url><loc>https://edunancial.com/accessibility.html</loc></url>
-  <url><loc>https://edunancial.com/security.html</loc></url>
   <url><loc>https://edunancial.com/refunds.html</loc></url>
-  <url><loc>https://edunancial.com/disclaimer.html</loc></url>
-  <url><loc>https://edunancial.com/robots.txt</loc></url>
+  <url><loc>https://edunancial.com/faq.html</loc></url>
 </urlset>
