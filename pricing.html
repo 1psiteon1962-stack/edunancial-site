@@ -1,58 +1,358 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Plans & Pricing — Edunancial</title>
-<meta name="description" content="Choose between Basic and Gold memberships. Bilingual.">
+<meta name="description" content="Choose between Basic and Gold memberships, including a 3-month upfront Gold commitment option. Bilingual EN/ES, mobile-first.">
 <link rel="canonical" href="https://edunancial.com/pricing.html">
 <link rel="alternate" href="https://edunancial.com/pricing.html?lang=en" hreflang="en">
 <link rel="alternate" href="https://edunancial.com/pricing.html?lang=es" hreflang="es">
 <link rel="alternate" href="https://edunancial.com/pricing.html" hreflang="x-default">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Plans & Pricing — Edunancial">
+<meta property="og:description" content="Basic and Gold memberships with flexible billing. Bilingual EN/ES.">
+<meta property="og:url" content="https://edunancial.com/pricing.html">
+<meta property="og:site_name" content="Edunancial">
+<meta name="twitter:card" content="summary_large_image">
+
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-/* Same base styles as index */
-:root{--blue:#0b2a4a;--red:#e01e24;--bg:#f7f8fb;--card:#fff;--ring:#e6e9ef}
-body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#111}
-header,footer{background:var(--blue);color:#fff}
-.wrap{max-width:1100px;margin:0 auto;padding:16px}
+:root{
+  --blue:#0b2a4a; --red:#e01e24; --ink:#111827; --muted:#6b7280;
+  --bg:#f7f8fb; --card:#fff; --ring:#e6e9ef; --max:1100px
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
+
+/* Nav */
+.nav{background:var(--blue);color:#fff;border-bottom:2px solid #0a2745}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+.nav-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:10px}
+.nav-links{display:flex;gap:14px;flex-wrap:wrap}
+.nav a{color:#fff;text-decoration:none;font-weight:600}
+.lang button{border:2px solid #fff;background:transparent;color:#fff;border-radius:12px;padding:6px 10px;font-weight:700;cursor:pointer}
+.lang button[aria-current="true"]{background:#fff;color:var(--blue)}
+
+/* Page */
+header.page{background:#102a43;color:#fff;padding:28px 0}
+header.page h1{margin:0}
+header.page p{margin:.4rem 0 0;color:#e6f0ff}
+main .wrap{padding:18px 16px}
+
+/* Billing toggle */
+.billing{display:flex;gap:10px;align-items:center;margin:12px 0 18px 0;flex-wrap:wrap}
+.switch{position:relative;display:inline-block;width:54px;height:28px}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#d1d5db;border-radius:999px;transition:.2s}
+.slider:before{position:absolute;content:"";height:22px;width:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s;box-shadow:0 1px 2px rgba(0,0,0,.25)}
+input:checked + .slider{background:#0b2a4a}
+input:checked + .slider:before{transform:translateX(26px)}
+
+/* Cards */
 .cards{display:grid;grid-template-columns:1fr;gap:16px}
-@media(min-width:720px){.cards{grid-template-columns:repeat(3,1fr)}}
-.card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:16px;display:flex;flex-direction:column}
-.price{font-size:1.5rem;font-weight:800}
+@media(min-width:800px){.cards{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:16px;display:flex;flex-direction:column;min-height:260px}
+.card h2{margin:0 0 .25rem 0}
+.sub{color:var(--muted);margin:0 0 .75rem 0}
+.price{font-size:1.75rem;font-weight:800;margin:.25rem 0}
+.save{font-size:.9rem;color:#0b7a2a;font-weight:700}
+.features{margin:.6rem 0 1rem 0;padding-left:18px}
+.features li{margin:.25rem 0}
 .btn{margin-top:auto;padding:.8rem 1rem;border-radius:12px;border:0;font-weight:800;cursor:pointer}
 .btn.primary{background:var(--red);color:#fff}
+.note{font-size:.9rem;color:var(--muted);margin-top:12px}
+
+/* Footer */
+footer{background:var(--blue);color:#fff;border-top:1px solid #0a2745}
+footer .wrap{padding:14px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+footer a{color:#fff}
+.footer-links{display:flex;gap:12px;flex-wrap:wrap}
+.cookie-link{cursor:pointer;text-decoration:underline}
 </style>
+
+<!-- Structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Edunancial Membership",
+  "brand": {"@type":"Organization","name":"Edunancial"},
+  "offers": [
+    {
+      "@type":"AggregateOffer",
+      "name":"Basic",
+      "priceCurrency":"USD",
+      "offers":[
+        {"@type":"Offer","price":"9","priceValidUntil":"2026-12-31","availability":"https://schema.org/InStock"},
+        {"@type":"Offer","price":"90","priceValidUntil":"2026-12-31","availability":"https://schema.org/InStock"}
+      ]
+    },
+    {
+      "@type":"AggregateOffer",
+      "name":"Gold",
+      "priceCurrency":"USD",
+      "offers":[
+        {"@type":"Offer","price":"19","priceValidUntil":"2026-12-31","availability":"https://schema.org/InStock"},
+        {"@type":"Offer","price":"190","priceValidUntil":"2026-12-31","availability":"https://schema.org/InStock"}
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
-<header><div class="wrap"><h1 data-i18n="plans_title">Membership Plans</h1></div></header>
-<main><div class="wrap">
-<div class="cards">
-  <div class="card">
-    <h2 data-i18n="basic_title">Basic</h2>
-    <p data-i18n="basic_desc">Access to site, free pamphlet, no discounts.</p>
-    <div class="price">$9/mo • $90/yr</div>
-    <a class="btn primary" data-plan="basic_m" href="#">Join Basic</a>
+
+<!-- Top Nav (same as Home) -->
+<header class="nav">
+  <div class="wrap nav-row">
+    <div class="brand">Edunancial</div>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="pricing.html" data-i18n="nav_plans">Plans</a>
+      <a href="courses.html" data-i18n="nav_courses">Mini Courses</a>
+      <a href="story.html" data-i18n="nav_story">Our Story</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang">
+      <button data-lang="en" aria-current="true">EN</button>
+      <button data-lang="es">ES</button>
+    </div>
   </div>
-  <div class="card">
-    <h2 data-i18n="gold_title">Gold</h2>
-    <p data-i18n="gold_desc">Includes mini courses, discounts, specials.</p>
-    <div class="price">$19/mo • $190/yr</div>
-    <a class="btn primary" data-plan="gold_m" href="#">Join Gold</a>
+</header>
+
+<!-- Page header -->
+<header class="page">
+  <div class="wrap">
+    <h1 data-i18n="plans_title">Membership Plans</h1>
+    <p class="sub" data-i18n="plans_sub">Choose monthly or annual billing. Gold includes courses, specials, and discounts.</p>
+
+    <!-- Billing switch -->
+    <div class="billing">
+      <span data-i18n="bill_monthly">Monthly</span>
+      <label class="switch" aria-label="Billing period">
+        <input id="billToggle" type="checkbox" aria-checked="false" role="switch">
+        <span class="slider"></span>
+      </label>
+      <span data-i18n="bill_annual">Annual</span>
+      <span class="save" id="saveBadge" style="display:none" data-i18n="save_badge">Save with annual</span>
+    </div>
   </div>
-  <div class="card">
-    <h2 data-i18n="commit_title">Gold Commitment</h2>
-    <p data-i18n="commit_desc">Pay 3 months upfront ($57), then $19/mo.</p>
-    <div class="price">$57 upfront</div>
-    <a class="btn primary" data-plan="commit" href="#">Join Commitment</a>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="cards">
+
+      <!-- Basic -->
+      <article class="card">
+        <h2 data-i18n="basic_title">Basic</h2>
+        <p class="sub" data-i18n="basic_desc">Access to site, free pamphlet, no discounts.</p>
+        <div class="price"><span id="p_basic">$9</span> <span id="p_basic_unit">/mo</span></div>
+        <ul class="features">
+          <li data-i18n="feat_access">Full site access (articles, tools)</li>
+          <li data-i18n="feat_pamphlet">Free financial literacy pamphlet</li>
+          <li data-i18n="feat_support">Email support</li>
+        </ul>
+        <a class="btn primary" data-plan="basic_m" href="#" data-i18n="cta_join_basic">Join Basic</a>
+        <p class="note" data-i18n="note_upgrade">You can upgrade to Gold anytime.</p>
+      </article>
+
+      <!-- Gold -->
+      <article class="card">
+        <h2 data-i18n="gold_title">Gold</h2>
+        <p class="sub" data-i18n="gold_desc">Includes mini courses, specials, and member discounts.</p>
+        <div class="price"><span id="p_gold">$19</span> <span id="p_gold_unit">/mo</span></div>
+        <ul class="features">
+          <li data-i18n="feat_courses">All mini courses included</li>
+          <li data-i18n="feat_discounts">Member-only discounts & specials</li>
+          <li data-i18n="feat_perks">Early access to new materials</li>
+        </ul>
+        <a class="btn primary" data-plan="gold_m" href="#" data-i18n="cta_join_gold">Join Gold</a>
+        <p class="note"><a href="subscription.html" style="color:inherit;text-decoration:underline" data-i18n="note_sub_policy">See subscription policy</a></p>
+      </article>
+
+      <!-- Gold Commitment -->
+      <article class="card">
+        <h2 data-i18n="commit_title">Gold Commitment</h2>
+        <p class="sub" data-i18n="commit_desc">Pay 3 months upfront, then $19/mo unless you cancel.</p>
+        <div class="price">$57 <span data-i18n="commit_once">upfront</span></div>
+        <ul class="features">
+          <li data-i18n="feat_3months">Covers first 3 months of Gold</li>
+          <li data-i18n="feat_then19">Then $19/month afterward</li>
+          <li data-i18n="feat_allgold">Includes all Gold benefits</li>
+        </ul>
+        <a class="btn primary" data-plan="commit" href="#" data-i18n="cta_commit">Start 3-Month Commitment</a>
+        <p class="note" data-i18n="note_cancel">Cancel renewals anytime in your account settings.</p>
+      </article>
+
+    </div>
+
+    <p class="note" style="margin-top:16px">
+      <span data-i18n="legal_line">All prices in USD. Educational content only — not financial advice. See</span>
+      <a href="refunds.html" style="color:inherit;text-decoration:underline" data-i18n="link_refunds">Refunds</a>,
+      <a href="terms.html" style="color:inherit;text-decoration:underline" data-i18n="link_terms">Terms</a>,
+      <a href="privacy.html" style="color:inherit;text-decoration:underline" data-i18n="link_privacy">Privacy</a>.
+    </p>
   </div>
-</div>
-</div></main>
-<footer><div class="wrap">
-  <small>© 2025 Edunancial</small>
-  <div><a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="refunds.html">Refunds</a> • <a href="cookie-policy.html">Cookies</a></div>
-</div></footer>
+</main>
+
+<footer>
+  <div class="wrap">
+    <small>© 2025 Edunancial • <span data-i18n="edu_note">Educational content only — not financial advice.</span></small>
+    <div class="footer-links">
+      <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+      <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      <a href="refunds.html" data-i18n="footer_refunds">Refunds</a>
+      <a href="cookie-policy.html" data-i18n="footer_cookie">Cookie Policy</a>
+      <a class="cookie-link" id="openPrefs" data-i18n="footer_prefs">Cookie Settings</a>
+      <a href="data-requests.html#dns" data-i18n="footer_dns">Do-Not-Sell/Share</a>
+      <a href="accessibility.html" data-i18n="footer_a11y">Accessibility</a>
+      <a href="security.html" data-i18n="footer_sec">Security</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Shared site script (toggle, consent, waitlist).
+     This page also adds a small helper below for billing and prelaunch gating. -->
 <script src="shared.js"></script>
+
+<script>
+/* ---------- Local helpers for this page ---------- */
+
+/* Add translations for this page if the global i18n exists. */
+(function(){
+  const ext = {
+    en:{
+      plans_title:"Membership Plans",
+      plans_sub:"Choose monthly or annual billing. Gold includes courses, specials, and discounts.",
+      bill_monthly:"Monthly",
+      bill_annual:"Annual",
+      save_badge:"Save with annual",
+      basic_title:"Basic",
+      basic_desc:"Access to site, free pamphlet, no discounts.",
+      gold_title:"Gold",
+      gold_desc:"Includes mini courses, specials, and member discounts.",
+      commit_title:"Gold Commitment",
+      commit_desc:"Pay 3 months upfront, then $19/mo unless you cancel.",
+      commit_once:"upfront",
+      feat_access:"Full site access (articles, tools)",
+      feat_pamphlet:"Free financial literacy pamphlet",
+      feat_support:"Email support",
+      feat_courses:"All mini courses included",
+      feat_discounts:"Member-only discounts & specials",
+      feat_perks:"Early access to new materials",
+      feat_3months:"Covers first 3 months of Gold",
+      feat_then19:"Then $19/month afterward",
+      feat_allgold:"Includes all Gold benefits",
+      cta_join_basic:"Join Basic",
+      cta_join_gold:"Join Gold",
+      cta_commit:"Start 3-Month Commitment",
+      note_upgrade:"You can upgrade to Gold anytime.",
+      note_sub_policy:"See subscription policy",
+      note_cancel:"Cancel renewals anytime in your account settings.",
+      legal_line:"All prices in USD. Educational content only — not financial advice. See",
+      link_refunds:"Refunds", link_terms:"Terms", link_privacy:"Privacy"
+    },
+    es:{
+      plans_title:"Planes de Membresía",
+      plans_sub:"Elige pago mensual o anual. Gold incluye cursos, ofertas y descuentos.",
+      bill_monthly:"Mensual",
+      bill_annual:"Anual",
+      save_badge:"Ahorra con el anual",
+      basic_title:"Básico",
+      basic_desc:"Acceso al sitio, folleto gratuito, sin descuentos.",
+      gold_title:"Gold",
+      gold_desc:"Incluye mini cursos, ofertas y descuentos para miembros.",
+      commit_title:"Compromiso Gold",
+      commit_desc:"Paga 3 meses por adelantado, luego $19/mes salvo cancelación.",
+      commit_once:"por adelantado",
+      feat_access:"Acceso completo al sitio (artículos, herramientas)",
+      feat_pamphlet:"Folleto de educación financiera gratuito",
+      feat_support:"Soporte por correo",
+      feat_courses:"Todos los mini cursos incluidos",
+      feat_discounts:"Ofertas y descuentos solo para miembros",
+      feat_perks:"Acceso anticipado a nuevo material",
+      feat_3months:"Cubre los primeros 3 meses de Gold",
+      feat_then19:"Luego $19/mes",
+      feat_allgold:"Incluye todos los beneficios de Gold",
+      cta_join_basic:"Unirme a Básico",
+      cta_join_gold:"Unirme a Gold",
+      cta_commit:"Iniciar compromiso de 3 meses",
+      note_upgrade:"Puedes cambiar a Gold en cualquier momento.",
+      note_sub_policy:"Ver política de suscripción",
+      note_cancel:"Cancela renovaciones en tu cuenta cuando quieras.",
+      legal_line:"Todos los precios en USD. Contenido educativo — no es asesoría financiera. Ver",
+      link_refunds:"Reembolsos", link_terms:"Términos", link_privacy:"Privacidad"
+    }
+  };
+  try{
+    if(window.T){ // merge into global dictionary used by shared.js
+      for(const k of Object.keys(ext.en)) window.T.en[k]=ext.en[k];
+      for(const k of Object.keys(ext.es)) window.T.es[k]=ext.es[k];
+      if(typeof window.applyI18n==="function") window.applyI18n();
+    }
+  }catch(e){}
+})();
+
+/* Billing toggle logic (monthly/annual) */
+(function(){
+  const PRICE = {
+    basic:{m:{val:"$9",unit:"/mo"}, y:{val:"$90",unit:"/yr"}},
+    gold :{m:{val:"$19",unit:"/mo"}, y:{val:"$190",unit:"/yr"}}
+  };
+  const LINKS = {
+    // Set these when Square is live:
+    basic_m:"#", basic_y:"#",
+    gold_m:"#",  gold_y:"#",
+    commit :"#"
+  };
+  // Use global PRELAUNCH if provided by shared.js; default true as a safe fallback.
+  const PRELAUNCH = (typeof window.PRELAUNCH !== "undefined") ? window.PRELAUNCH : true;
+
+  const toggle = document.getElementById("billToggle");
+  const saveBadge = document.getElementById("saveBadge");
+  function setBilling(isAnnual){
+    const mode = isAnnual ? "y" : "m";
+    document.getElementById("p_basic").textContent = PRICE.basic[mode].val;
+    document.getElementById("p_basic_unit").textContent = PRICE.basic[mode].unit;
+    document.getElementById("p_gold").textContent  = PRICE.gold[mode].val;
+    document.getElementById("p_gold_unit").textContent  = PRICE.gold[mode].unit;
+
+    // Update button plan keys
+    document.querySelectorAll("[data-plan]").forEach(btn=>{
+      const key = btn.getAttribute("data-plan");
+      if(key==="commit") return; // commitment is fixed
+      const base = key.startsWith("basic")?"basic":"gold";
+      btn.setAttribute("data-plan", base + "_" + (isAnnual?"y":"m"));
+    });
+    saveBadge.style.display = isAnnual ? "inline-block" : "none";
+  }
+  // Default to Monthly
+  setBilling(false);
+  toggle.addEventListener("change", e => setBilling(e.target.checked));
+
+  // Intercept clicks to handle prelaunch/waitlist
+  document.querySelectorAll("[data-plan]").forEach(btn=>{
+    btn.addEventListener("click", function(ev){
+      ev.preventDefault();
+      const plan = this.getAttribute("data-plan");
+      if(PRELAUNCH){
+        if(typeof window.openWL === "function"){ window.openWL(); }
+        else alert("Payments go live soon. Join the waitlist on the Home page.");
+        return;
+      }
+      const url = LINKS[plan] || "#";
+      if(url==="#"){ alert("Checkout link not set yet."); return; }
+      window.location.href = url;
+    });
+  });
+})();
+</script>
+
 </body>
 </html>
+```0
