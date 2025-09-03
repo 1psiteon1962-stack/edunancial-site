@@ -5,11 +5,8 @@
 <title>Products • Edunancial</title>
 <style>
   :root{
-    --bg:#0b0f1a; --card:#121726; --ink:#e9eefb; --muted:#b9c6ff; --line:#202a45;
-    --accent:#5aa6ff;
-    --red:#ef4444;     /* Red series (Real Estate)   */
-    --white:#f8fafc;   /* White series (Paper Assets)*/
-    --blue:#3b82f6;    /* Blue series (Business)     */
+    --bg:#0b0f1a; --card:#121726; --ink:#e9eefb; --muted:#b9c6ff; --line:#202a45; --accent:#5aa6ff;
+    --red:#ef4444; --white:#f8fafc; --blue:#3b82f6;
   }
   *{box-sizing:border-box}
   body{margin:0;background:linear-gradient(180deg,#0b0f1a,#0a1429);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
@@ -23,12 +20,12 @@
   .menu a:hover{background:#ffffff12}
   .badge{display:inline-flex;align-items:center;gap:8px;background:#173055;border:1px solid #25406f;color:#cfe0ff;border-radius:999px;padding:6px 10px}
   .btn{display:inline-block;background:var(--accent);padding:10px 14px;border-radius:10px;color:#041028;font-weight:700}
-  .btn.ghost{background:#2c3858;color:#e9eefb}
   .hero{padding:46px 16px}
-  .h1{font-size:36px;line-height:1.1;margin:0 0 10px}
+  .h1{font-size:36px;margin:0 0 10px}
   .lead{color:var(--muted);max-width:720px}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column}
+  .cover{width:100%;aspect-ratio: 0.65; border-radius:14px; overflow:hidden; border:1px solid var(--line); background:#0b0f1a}
   .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:6px 10px;font-weight:700}
   .pill.red{background:color-mix(in oklab, var(--red) 22%, black);border:1px solid color-mix(in oklab, var(--red) 55%, black)}
   .pill.white{background:#e5eaf7;border:1px solid #c8d3ef;color:#0b0f1a}
@@ -37,11 +34,12 @@
   .stripe.red{background:linear-gradient(90deg,var(--red),#b91c1c)}
   .stripe.white{background:linear-gradient(90deg,#ffffff,#dbeafe)}
   .stripe.blue{background:linear-gradient(90deg,var(--blue),#1d4ed8)}
-  .title{font-weight:800;margin:6px 0}
-  .price{font-weight:800;margin-top:auto}
+  .title{font-weight:800;margin:10px 0 4px}
+  .subtitle{color:#cfe0ff;font-size:14px;margin:0 0 8px}
   footer{border-top:1px solid #1f2a44;color:#b7c6ff66;margin-top:40px}
   .tiny{font-size:13px}
   [data-i18n]{transition:opacity .15s}
+  figure{margin:0} figcaption{display:none}
 </style>
 </head>
 <body>
@@ -64,9 +62,9 @@
 
 <main class="wrap hero">
   <p class="badge" data-i18n="tag">Catalog • Red • White • Blue</p>
-  <h1 class="h1" data-i18n="title">Choose from our color series</h1>
+  <h1 class="h1" data-i18n="title">Front covers (preview only)</h1>
   <p class="lead" data-i18n="lead">
-    Explore products organized by learning path: Red (Real Estate), White (Paper Assets), and Blue (Business Ownership).
+    Covers switch to English or Spanish with the toggle. Products will activate after ISBNs and payments are set.
   </p>
 
   <!-- RED: Real Estate -->
@@ -74,23 +72,34 @@
     <div class="stripe red"></div>
     <div class="pill red" data-i18n="red.t">Red • Real Estate</div>
     <div class="grid">
+      <!-- Flipping Houses cover -->
       <article class="card">
-        <div class="title" data-i18n="red.p1.t">Building Wealth with Tax Liens & Deeds (Book)</div>
-        <p data-i18n="red.p1.d">Learn the difference, where to buy, and strategies to acquire title or earn interest.</p>
-        <div class="price">US$15</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#premium" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
-      </article>
-      <article class="card">
-        <div class="title" data-i18n="red.p2.t">House Flipping Fundamentals (Course)</div>
-        <p data-i18n="red.p2.d">Sourcing, rehab budgets, ARV, and deal calculators for beginners.</p>
-        <div class="price">US$25</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#premium" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
+        <figure class="cover" aria-label="Flipping Houses cover">
+          <svg viewBox="0 0 1650 2550" role="img">
+            <rect width="1650" height="2550" fill="#0b0f1a"/>
+            <rect x="120" y="180" width="1410" height="2190" rx="24" fill="#121726" stroke="#202a45" stroke-width="6"/>
+            <rect x="120" y="180" width="1410" height="44" fill="#ef4444"/>
+            <!-- Title -->
+            <text id="redTitle" x="180" y="560" font-family="Inter, Arial, sans-serif" font-size="110" fill="#e9eefb" font-weight="800">
+              Buying + Flipping Houses for Profit
+            </text>
+            <!-- Series -->
+            <text id="redSeries" x="180" y="660" font-family="Inter, Arial, sans-serif" font-size="56" fill="#b9c6ff">
+              Red Series • Real Estate
+            </text>
+            <!-- Simple house icon -->
+            <rect x="180" y="730" width="240" height="160" fill="#ef4444"/>
+            <polygon points="180,730 300,650 420,730" fill="#ef4444"/>
+            <rect x="260" y="790" width="80" height="100" fill="#121726"/>
+            <!-- Author line -->
+            <text id="authorLineRed" x="180" y="2320" font-family="Inter, Arial, sans-serif" font-size="42" fill="#cfe0ff">
+              Edunancial • Waldemar M. Caban, JD MA
+            </text>
+          </svg>
+        </figure>
+        <h3 class="title" data-i18n="red.h3">Buying and Flipping Houses for Profit</h3>
+        <p class="subtitle" data-i18n="red.series">Red Series • Real Estate</p>
+        <p><a class="btn" href="#" data-i18n="coming">Coming soon</a></p>
       </article>
     </div>
   </section>
@@ -100,49 +109,61 @@
     <div class="stripe white"></div>
     <div class="pill white" data-i18n="white.t">White • Paper Assets</div>
     <div class="grid">
+      <!-- Options cover -->
       <article class="card">
-        <div class="title" data-i18n="white.p1.t">Options Trading (Book + Mini-Course)</div>
-        <p data-i18n="white.p1.d">Calls, puts, straddles—when to use each, pros/cons, and risk control.</p>
-        <div class="price">US$15</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#basic" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
-      </article>
-      <article class="card">
-        <div class="title" data-i18n="white.p2.t">Index Investing Playbook (Mini-Course)</div>
-        <p data-i18n="white.p2.d">Compare index strategies vs. value picks with simple valuation steps.</p>
-        <div class="price">US$9</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#basic" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
+        <figure class="cover" aria-label="Options Trading cover">
+          <svg viewBox="0 0 1650 2550" role="img">
+            <rect width="1650" height="2550" fill="#0b0f1a"/>
+            <rect x="120" y="180" width="1410" height="2190" rx="24" fill="#121726" stroke="#202a45" stroke-width="6"/>
+            <rect x="120" y="180" width="1410" height="44" fill="#f8fafc"/>
+            <text id="whiteTitle" x="180" y="560" font-family="Inter, Arial, sans-serif" font-size="120" fill="#e9eefb" font-weight="800">
+              OPTIONS TRADING
+            </text>
+            <text id="whiteSeries" x="180" y="660" font-family="Inter, Arial, sans-serif" font-size="56" fill="#b9c6ff">
+              White Series • Paper Assets
+            </text>
+            <!-- Simple candlestick motif -->
+            <rect x="220" y="760" width="16" height="140" fill="#e9eefb"/><rect x="228" y="730" width="2" height="200" fill="#e9eefb"/>
+            <rect x="270" y="780" width="16" height="100" fill="#e9eefb"/><rect x="278" y="740" width="2" height="180" fill="#e9eefb"/>
+            <rect x="320" y="740" width="16" height="160" fill="#e9eefb"/><rect x="328" y="700" width="2" height="230" fill="#e9eefb"/>
+            <text id="authorLineWhite" x="180" y="2320" font-family="Inter, Arial, sans-serif" font-size="42" fill="#cfe0ff">
+              Edunancial • Waldemar M. Caban, JD MA
+            </text>
+          </svg>
+        </figure>
+        <h3 class="title" data-i18n="white.h3">Options Trading</h3>
+        <p class="subtitle" data-i18n="white.series">White Series • Paper Assets</p>
+        <p><a class="btn" href="#" data-i18n="coming">Coming soon</a></p>
       </article>
     </div>
   </section>
 
-  <!-- BLUE: Business Ownership -->
+  <!-- BLUE: Business -->
   <section style="margin-top:28px">
     <div class="stripe blue"></div>
-    <div class="pill blue" data-i18n="blue.t">Blue • Business Ownership</div>
+    <div class="pill blue" data-i18n="blue.t">Blue • Business</div>
     <div class="grid">
+      <!-- Business Profit cover -->
       <article class="card">
-        <div class="title" data-i18n="blue.p1.t">Business is About Making Profit (Book)</div>
-        <p data-i18n="blue.p1.d">Mindset, pricing, and lean systems to move from operator to owner.</p>
-        <div class="price">US$15</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#basic" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
-      </article>
-      <article class="card">
-        <div class="title" data-i18n="blue.p2.t">Start a Teen Side-Business (Workshop)</div>
-        <p data-i18n="blue.p2.d">Pick an idea, set up, and launch with simple scripts and checklists.</p>
-        <div class="price">US$19</div>
-        <p style="margin-top:8px">
-          <a class="btn" href="checkout.html#premium" data-i18n="buy">Pay</a>
-          <a class="btn ghost" href="#" data-i18n="details">Details</a>
-        </p>
+        <figure class="cover" aria-label="Business is About Making Profit cover">
+          <svg viewBox="0 0 1650 2550" role="img">
+            <rect width="1650" height="2550" fill="#0b0f1a"/>
+            <rect x="120" y="180" width="1410" height="2190" rx="24" fill="#121726" stroke="#202a45" stroke-width="6"/>
+            <rect x="120" y="180" width="1410" height="44" fill="#3b82f6"/>
+            <text id="blueTitle" x="180" y="560" font-family="Inter, Arial, sans-serif" font-size="110" fill="#e9eefb" font-weight="800">
+              BUSINESS IS ABOUT MAKING PROFIT
+            </text>
+            <text id="blueSeries" x="180" y="660" font-family="Inter, Arial, sans-serif" font-size="56" fill="#b9c6ff">
+              Blue Series • Business
+            </text>
+            <text id="authorLineBlue" x="180" y="2320" font-family="Inter, Arial, sans-serif" font-size="42" fill="#cfe0ff">
+              Edunancial • Waldemar M. Caban, JD MA
+            </text>
+          </svg>
+        </figure>
+        <h3 class="title" data-i18n="blue.h3">Business is About Making Profit</h3>
+        <p class="subtitle" data-i18n="blue.series">Blue Series • Business</p>
+        <p><a class="btn" href="#" data-i18n="coming">Coming soon</a></p>
       </article>
     </div>
   </section>
@@ -155,61 +176,67 @@
 </footer>
 
 <script>
-/* ====== I18N ====== */
+/* ==== Text dictionary (HTML + SVG) ==== */
 const dict={
   en:{
     "nav.home":"Home","nav.about":"About","nav.products":"Products","nav.pricing":"Pricing","nav.pay":"Pay",
     "tag":"Catalog • Red • White • Blue",
-    "title":"Choose from our color series",
-    "lead":"Explore products organized by learning path: Red (Real Estate), White (Paper Assets), and Blue (Business Ownership).",
-    "red.t":"Red • Real Estate",
-    "red.p1.t":"Building Wealth with Tax Liens & Deeds (Book)",
-    "red.p1.d":"Learn the difference, where to buy, and strategies to acquire title or earn interest.",
-    "red.p2.t":"House Flipping Fundamentals (Course)",
-    "red.p2.d":"Sourcing, rehab budgets, ARV, and deal calculators for beginners.",
-    "white.t":"White • Paper Assets",
-    "white.p1.t":"Options Trading (Book + Mini-Course)",
-    "white.p1.d":"Calls, puts, straddles—when to use each, pros/cons, and risk control.",
-    "white.p2.t":"Index Investing Playbook (Mini-Course)",
-    "white.p2.d":"Compare index strategies vs. value picks with simple valuation steps.",
-    "blue.t":"Blue • Business Ownership",
-    "blue.p1.t":"Business is About Making Profit (Book)",
-    "blue.p1.d":"Mindset, pricing, and lean systems to move from operator to owner.",
-    "blue.p2.t":"Start a Teen Side-Business (Workshop)",
-    "blue.p2.d":"Pick an idea, set up, and launch with simple scripts and checklists.",
-    "buy":"Pay","details":"Details"
+    "title":"Front covers (preview only)",
+    "lead":"Covers switch to English or Spanish with the toggle. Products will activate after ISBNs and payments are set.",
+    "red.t":"Red • Real Estate","white.t":"White • Paper Assets","blue.t":"Blue • Business",
+    "red.h3":"Buying and Flipping Houses for Profit","white.h3":"Options Trading","blue.h3":"Business is About Making Profit",
+    "red.series":"Red Series • Real Estate","white.series":"White Series • Paper Assets","blue.series":"Blue Series • Business",
+    "coming":"Coming soon",
+    // SVG cover text:
+    "_redTitle":"Buying + Flipping Houses for Profit",
+    "_redSeries":"Red Series • Real Estate",
+    "_whiteTitle":"OPTIONS TRADING",
+    "_whiteSeries":"White Series • Paper Assets",
+    "_blueTitle":"BUSINESS IS ABOUT MAKING PROFIT",
+    "_blueSeries":"Blue Series • Business"
   },
   es:{
     "nav.home":"Inicio","nav.about":"Nosotros","nav.products":"Productos","nav.pricing":"Precios","nav.pay":"Pagar",
     "tag":"Catálogo • Rojo • Blanco • Azul",
-    "title":"Elige de nuestras series por color",
-    "lead":"Explora productos por ruta de aprendizaje: Rojo (Bienes Raíces), Blanco (Activos en Papel) y Azul (Propiedad de Negocios).",
-    "red.t":"Rojo • Bienes Raíces",
-    "red.p1.t":"Construyendo Riqueza con Tax Liens & Deeds (Libro)",
-    "red.p1.d":"Aprende la diferencia, dónde comprar y estrategias para obtener el título o intereses.",
-    "red.p2.t":"Fundamentos del House Flipping (Curso)",
-    "red.p2.d":"Búsqueda de ofertas, presupuestos de rehab, ARV y calculadoras para principiantes.",
-    "white.t":"Blanco • Activos en Papel",
-    "white.p1.t":"Opciones Bursátiles (Libro + Mini-Curso)",
-    "white.p1.d":"Calls, puts, straddles—cuándo usar cada uno, pros/contras y control de riesgo.",
-    "white.p2.t":"Guía de Inversión en Índices (Mini-Curso)",
-    "white.p2.d":"Compara estrategias por índice vs. picks de valor con pasos simples de valoración.",
-    "blue.t":"Azul • Propiedad de Negocios",
-    "blue.p1.t":"El Negocio se Trata de Ganar Utilidad (Libro)",
-    "blue.p1.d":"Mentalidad, precios y sistemas lean para pasar de operador a dueño.",
-    "blue.p2.t":"Inicia un Negocio para Jóvenes (Taller)",
-    "blue.p2.d":"Elige idea, configura y lanza con guiones y listas de verificación.",
-    "buy":"Pagar","details":"Detalles"
+    "title":"Portadas (solo vista previa)",
+    "lead":"Las portadas cambian a Inglés o Español con el selector. Los productos se activarán después de los ISBN y pagos.",
+    "red.t":"Rojo • Bienes Raíces","white.t":"Blanco • Activos en Papel","blue.t":"Azul • Negocios",
+    "red.h3":"Comprar y Voltear Casas con Ganancia","white.h3":"Opciones Bursátiles","blue.h3":"El Negocio se Trata de Ganar Utilidad",
+    "red.series":"Serie Roja • Bienes Raíces","white.series":"Serie Blanca • Activos en Papel","blue.series":"Serie Azul • Negocios",
+    "coming":"Próximamente",
+    // SVG cover text:
+    "_redTitle":"Comprar y Voltear Casas con Ganancia",
+    "_redSeries":"Serie Roja • Bienes Raíces",
+    "_whiteTitle":"OPCIONES BURSÁTILES",
+    "_whiteSeries":"Serie Blanca • Activos en Papel",
+    "_blueTitle":"EL NEGOCIO SE TRATA DE GANAR UTILIDAD",
+    "_blueSeries":"Serie Azul • Negocios"
   }
 };
-function setLang(lang){
-  localStorage.setItem('lang',lang);
+
+function setLang(l){
+  localStorage.setItem('lang', l);
+  // Update HTML strings
   document.querySelectorAll('[data-i18n]').forEach(el=>{
-    const k=el.getAttribute('data-i18n'); if(dict[lang]&&dict[lang][k]) el.textContent=dict[lang][k];
+    const k=el.getAttribute('data-i18n');
+    if(dict[l][k]) el.textContent = dict[l][k];
   });
-  document.documentElement.lang = lang;
+  // Update SVG cover text by IDs
+  const map = {
+    redTitle: "_redTitle",
+    redSeries: "_redSeries",
+    whiteTitle: "_whiteTitle",
+    whiteSeries: "_whiteSeries",
+    blueTitle: "_blueTitle",
+    blueSeries: "_blueSeries"
+  };
+  Object.entries(map).forEach(([id,key])=>{
+    const el = document.getElementById(id);
+    if(el && dict[l][key]) el.textContent = dict[l][key];
+  });
+  document.documentElement.lang = l;
 }
-setLang(localStorage.getItem('lang')||'en');
+setLang(localStorage.getItem('lang') || 'en');
 document.getElementById('enBtn').onclick=()=>setLang('en');
 document.getElementById('esBtn').onclick=()=>setLang('es');
 document.getElementById('y').textContent=new Date().getFullYear();
