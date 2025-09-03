@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial — Our Story</title>
+  <meta name="description" content="Edunancial's origin story: no jargon, no shame—just practical tools to earn, save, and invest." />
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0f172a; --muted:#475569; --ring:#e2e8f0;
+      --card:#f8fafc; --accent:#0ea5e9; --accent2:#111827;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1024px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:12px 0;border-bottom:1px solid var(--ring)}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.3px}
+    .logo{width:32px;height:32px;border-radius:8px;
+      background:linear-gradient(135deg,#1d4ed8,#0ea5e9);box-shadow:0 4px 16px rgba(14,165,233,.35)}
+    nav{display:flex;gap:16px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:10px}
+    nav a:hover{background:var(--card)}
+    .lang{display:flex;gap:8px}
+    .lang button{padding:8px 10px;border-radius:10px;border:1px solid var(--ring);background:#fff;cursor:pointer}
+    .lang button[aria-pressed="true"]{outline:2px solid var(--accent);border-color:var(--accent)}
+
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;padding:40px 0;align-items:center}
+    .hero-card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(2,6,23,.05)}
+    .eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .title{font-size:clamp(28px,4.5vw,40px);line-height:1.1;font-weight:900;margin:0 0 12px}
+    .lead{font-size:clamp(16px,2.5vw,18px);color:#1f2937;margin:0 0 16px}
+    .bullets{display:grid;gap:10px;margin:16px 0 0}
+    .bullet{display:flex;gap:10px;align-items:flex-start}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:7px}
+
+    .section{padding:24px 0}
+    .card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:20px}
+    .cta{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;
+      background:var(--accent);color:#fff;font-weight:700;border:none;cursor:pointer}
+    .cta:focus{outline:2px solid #0284c7}
+    .muted{color:var(--muted)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+    @media (max-width:840px){ .hero{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Edunancial</span>
+      </div>
+      <div class="lang" role="tablist" aria-label="Language toggle">
+        <button id="btn-en" role="tab" aria-selected="true" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button id="btn-es" role="tab" aria-selected="false" aria-pressed="false" onclick="setLang('es')">ES</button>
+      </div>
+    </header>
+
+    <!-- ENGLISH -->
+    <main id="content-en" lang="en">
+      <section class="hero">
+        <div class="hero-card">
+          <div class="eyebrow">Our Story</div>
+          <h1 class="title">“How do I make money with my head?”</h1>
+          <p class="lead">
+            Edunancial was born the night my son asked that question. He was 11. I didn’t have a textbook answer—so we built one.
+          </p>
+          <p class="lead">
+            We teach families how to turn ideas, skills, and grit into income: how credit really works, how to price your time, and how to make your first $100 the smart way—not the hard way.
+          </p>
+          <div class="bullets">
+            <div class="bullet"><span class="dot"></span><span><strong>No jargon, no shame.</strong> Real steps you can take today.</span></div>
+            <div class="bullet"><span class="dot"></span><span><strong>Tools that stick.</strong> Checklists, playbooks, and clear examples.</span></div>
+            <div class="bullet"><span class="dot"></span><span><strong>For the long game.</strong> Habits that turn “someday” into results.</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="sr-only">What we do</h2>
+          <p class="muted">What we do</p>
+          <ul>
+            <li>Bite-size lessons you can finish on a bus ride</li>
+            <li>Step-by-step playbooks to earn, save, and protect what you build</li>
+            <li>Simple tools to understand risk, ROI, and next actions</li>
+          </ul>
+          <hr style="border:none;border-top:1px solid var(--ring);margin:16px 0">
+          <p class="muted">Why it matters</p>
+          <p>Money is emotional before it’s mathematical. We start with the human story—yours—then add the numbers so they finally make sense.</p>
+        </div>
+      </section>
+
+      <section class="section card">
+        <h3 style="margin-top:0">From a question to a habit</h3>
+        <p>
+          At 11, he asked the question that started Edunancial. By 15, he shows the habit we teach:
+          saving and investing his own money in <strong>silver and gold</strong>, analyzing companies,
+          choosing when to <strong>buy, hold, or sell stocks</strong> based on expected ROI, and
+          actively <strong>planning a business</strong>.
+        </p>
+        <p>
+          That’s the point: make smart money moves a normal part of growing up—and give families the
+          language and tools to do it together.
+        </p>
+        <button class="cta" onclick="document.getElementById('get-started-en').scrollIntoView({behavior:'smooth'})">
+          Get started
+        </button
