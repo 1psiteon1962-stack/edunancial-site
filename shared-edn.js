@@ -1,14 +1,16 @@
 /*!
- * Edunancial — site-wide EN/ES toggle + Story auto-restore (non-destructive)  v2
+ * Edunancial — Always-visible EN/ES toggle (no page edits)  v3
  * File: /shared-edn.js
- * Goal: Bring back the language toggle and the inspirational "Our Story"
- *       WITHOUT deleting/overwriting existing content.
+ * Purpose: Guarantee the language toggle shows & works site-wide.
+ * - Renders toggle in nav if present; also renders a fixed fallback widget.
+ * - Uses capture-phase click/touch handlers so other scripts can't block it.
+ * - Applies i18n to [data-i18n] elements; does not change your existing content.
  */
 (function(){
   "use strict";
   if (window.__EDN_READY__) return; window.__EDN_READY__ = true;
 
-  /* ========= i18n dictionary ========= */
+  /* ===== i18n dictionary (keys only used where your HTML has data-i18n) ===== */
   const T = {
     en:{
       "nav.home":"Home","nav.books":"Books","nav.courses":"Mini-Courses","nav.contact":"Contact",
@@ -21,7 +23,12 @@
       "books.title":"Books (English & Español)","books.sub":"Full-color covers by track: Red = Real Estate, White = Paper Assets, Blue = Business.",
       "btn.buy":"Buy","btn.more":"Learn more",
       "courses.title":"Mini-Courses","courses.sub":"Live sessions — one theme each week. Join from your phone.",
+      "course.red.t":"Oct 18 — Real Estate (Red)","course.white.t":"Oct 25 — Paper Assets (White)","course.blue.t":"Nov 8 — Business (Blue)",
       "course.cta":"Reserve seat",
+      "audio.title":"Listen: Red, White & Blue messages",
+      "audio.red":"There are many ways to buy real estate. The question is, what’s your plan? · Hay muchas maneras de comprar bienes raíces. La pregunta es, ¿cuál es su plan?",
+      "audio.white":"Pay yourself first. Every pay you get take a percentage you can afford. Work towards 40%. · Páguese a usted mismo primero. Cada pago, separe un porcentaje que pueda permitirse. Trabaje hacia el 40%.",
+      "audio.blue":"…in business you can make money and still be in bankruptcy court. That’s why business is about making Profit. · …en los negocios usted puede ganar dinero y aún estar en el tribunal de bancarrota. Por eso el negocio se trata de obtener Ganancia.",
       "disclaimer":"Edunancial does not provide legal or investment advice. Education only."
     },
     es:{
@@ -35,123 +42,118 @@
       "books.title":"Libros (English & Español)","books.sub":"Portadas por ruta: Rojo = Bienes Raíces, Blanco = Activos de Papel, Azul = Negocios.",
       "btn.buy":"Comprar","btn.more":"Saber más",
       "courses.title":"Mini-cursos","courses.sub":"Sesiones en vivo — un tema por semana. Únase desde su teléfono.",
+      "course.red.t":"18 de oct — Bienes Raíces (Rojo)","course.white.t":"25 de oct — Activos de Papel (Blanco)","course.blue.t":"8 de nov — Negocios (Azul)",
       "course.cta":"Reservar",
+      "audio.title":"Escuche: Mensajes Rojo, Blanco y Azul",
+      "audio.red":"Hay muchas maneras de comprar bienes raíces. La pregunta es, ¿cuál es su plan? · There are many ways to buy real estate. The question is, what’s your plan?",
+      "audio.white":"Páguese a usted mismo primero. Cada pago, separe un porcentaje que pueda permitirse. Trabaje hacia el 40%. · Pay yourself first. Every pay you get take a percentage you can afford. Work towards 40%.",
+      "audio.blue":"…en los negocios usted puede ganar dinero y aún estar en el tribunal de bancarrota. Por eso el negocio se trata de obtener Ganancia. · …in business you can make money and still be in bankruptcy court. That’s why business is about making Profit.",
       "disclaimer":"Edunancial no brinda asesoría legal ni de inversión. Solo educación."
     }
   };
 
-  /* ========= helpers ========= */
+  /* ===== helpers ===== */
   const qs=(s,r=document)=>r.querySelector(s);
   const qsa=(s,r=document)=>Array.from(r.querySelectorAll(s));
   const getLang=()=>{try{return localStorage.getItem("edn_lang")||"en";}catch{return"en";}};
   const setLang=l=>{try{localStorage.setItem("edn_lang",l);}catch{};document.documentElement.setAttribute("lang",l);};
   const dict=()=>T[getLang()]||T.en;
-  const norm=s=>(s||"").replace(/\s+/g," ").trim();
 
-  /* ========= mount language toggle (non-destructive) ========= */
-  function ensureToggle(){
-    // Try to place inside nav; fall back to a fixed widget if no nav
-    const nav = qs("nav.site .wrap") || qs("nav .wrap") || qs("nav") || null;
-    let bar = qs("#edn-lang");
-    if (!bar){
-      bar = document.createElement("div");
-      bar.id = "edn-lang";
-      if (nav) nav.appendChild(bar); else document.body.appendChild(bar);
-    }
-    // Render buttons (idempotent)
-    bar.innerHTML = `
-      <button data-lang="en" type="button">EN</button>
-      <button data-lang="es" type="button">ES</button>
-    `;
-    // Minimal styles (inline so no CSS file required)
-    Object.assign(bar.style, {display:"flex",gap:"8px",marginLeft: nav ? "12px" : "0", position: nav ? "static":"fixed", top: nav ? "":"10px", right: nav ? "":"10px", zIndex: "2147483647"});
-    qsa("#edn-lang button").forEach(b=>{
-      b.style.cssText = "font-weight:700;border:1px solid rgba(0,0,0,.25);padding:6px 10px;border-radius:12px;background:#fff;color:#0b2c54;cursor:pointer";
-      b.classList.toggle("active", b.dataset.lang===getLang());
-    });
-
-    // Click handler (capture to survive other scripts)
-    bar.addEventListener("click",e=>{
-      const btn = e.target.closest("button[data-lang]"); if(!btn) return;
-      setLang(btn.dataset.lang); applyI18n();
-      qsa("#edn-lang button").forEach(b=>b.classList.toggle("active", b===btn));
-    }, {capture:true});
-  }
-
-  /* ========= Our Story auto-restore (only if missing) ========= */
-  function ensureStory(){
-    // Detect if a section with the story key already exists
-    const existing = qsa("[data-i18n='story.title'], [data-i18n='story.badge']").length > 0;
-    if (existing) return; // do not duplicate; we preserve what you have
-
-    const main = qs("main") || document.body;
-    // Insert near the top (but after any hero/header if present)
-    const section = document.createElement("section");
-    section.className = "card";
-    section.setAttribute("data-edn-injected","story");
-
-    section.innerHTML = `
-      <span class="badge" data-i18n="story.badge">Our Story</span>
-      <h2 class="section-title" data-i18n="story.title">Why Edunancial?</h2>
-      <p data-i18n="story.p1">We started Edunancial to make financial education simple, practical, and respectful. No hype. No guilt.</p>
-      <p data-i18n="story.p2">Red, White and Blue is our framework: buy or control assets (Red), build liquid wealth (White), and run a profitable business (Blue).</p>
-      <p data-i18n="story.p3">You deserve tools that work in English or Spanish, affordable plans, and options to act today.</p>
-    `;
-
-    // Basic inline style so it looks like your cards without needing CSS edits
-    section.style.cssText = "background:#fff;border-radius:18px;box-shadow:0 6px 22px rgba(11,34,57,.12);padding:18px;margin:18px 0";
-    const h2s = section.querySelectorAll(".section-title"); h2s.forEach(h=>h.style.margin="8px 0 14px");
-
-    // Find insertion point: after the first existing section/hero if any
-    const firstSection = qs("main section, .hero, header.hero");
-    if (firstSection && firstSection.parentNode===main) {
-      main.insertBefore(section, firstSection.nextSibling);
-    } else {
-      main.prepend(section);
-    }
-  }
-
-  /* ========= i18n apply ========= */
+  /* ===== apply translations to elements that opt-in via data-i18n ===== */
   function applyI18n(){
-    const d = dict();
-    // Translate any element with data-i18n
+    const d=dict();
     qsa("[data-i18n]").forEach(el=>{
-      const k = el.getAttribute("data-i18n");
-      const val = d[k];
-      if (!val) return;
-      if (el.firstChild && el.childNodes.length>1){
-        // Replace only text nodes
-        for (const n of el.childNodes){ if (n.nodeType===3) n.nodeValue = val; }
-      } else {
-        el.textContent = val;
+      const k=el.getAttribute("data-i18n"); const val=d[k];
+      if(!val) return;
+      if(el.childNodes.length>1){
+        for(const n of el.childNodes){ if(n.nodeType===3) n.nodeValue=val; }
+      }else{
+        el.textContent=val;
       }
     });
-    // Update toggle state
-    qsa("#edn-lang button").forEach(b=>b.classList.toggle("active", b.dataset.lang===getLang()));
-    // Title fallback
-    if (document.title.trim()==="" || /Edunancial/i.test(document.title)) {
-      document.title = d["hero.title"] || document.title;
-    }
+    // reflect active state
+    qsa('#edn-lang button,[data-edn-fab] button').forEach(b=>{
+      b.classList.toggle("active", b.dataset.lang===getLang());
+    });
   }
 
-  /* ========= observe DOM changes (keep things translated) ========= */
+  /* ===== render toggle inside nav if present ===== */
+  function ensureNavToggle(){
+    const host = qs("nav.site .wrap") || qs("nav .wrap") || qs("nav");
+    if(!host) return;
+    let bar = qs("#edn-lang");
+    if(!bar){
+      bar = document.createElement("div");
+      bar.id = "edn-lang";
+      host.appendChild(bar);
+    }
+    bar.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
+    // minimal styles, strong enough to survive most CSS
+    bar.style.display="flex"; bar.style.gap="8px"; bar.style.marginLeft="12px";
+    qsa("#edn-lang button").forEach(b=>{
+      b.style.cssText="font-weight:700;border:1px solid rgba(255,255,255,.6);padding:6px 10px;border-radius:12px;background:#fff;color:#0b2c54;cursor:pointer";
+    });
+  }
+
+  /* ===== render fixed fallback toggle (top-right), so it's ALWAYS visible ===== */
+  function ensureFabToggle(){
+    let fab = qs("[data-edn-fab]");
+    if(!fab){
+      fab = document.createElement("div");
+      fab.setAttribute("data-edn-fab","lang");
+      fab.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
+      document.body.appendChild(fab);
+    }
+    const css = `
+      [data-edn-fab]{position:fixed;top:10px;right:10px;z-index:2147483647;display:flex;gap:.5rem}
+      [data-edn-fab] button{font-size:14px!important;font-weight:700!important;padding:.38rem .6rem;border-radius:.6rem;
+        border:1px solid rgba(0,0,0,.25);background:#fff;color:#0b2239!important;cursor:pointer}
+      [data-edn-fab] button.active{background:#0b2239;color:#fff!important;border-color:#0b2239}
+      @media (prefers-color-scheme:dark){
+        [data-edn-fab] button{border-color:rgba(255,255,255,.35);background:#0b2239;color:#fff!important}
+        [data-edn-fab] button.active{background:#fff;color:#0b2239!important;border-color:#fff}
+      }
+    `;
+    const s=document.createElement("style"); s.textContent=css; document.head.appendChild(s);
+  }
+
+  /* ===== event binding in CAPTURE phase so others can’t block it ===== */
+  function bindEvents(){
+    const onPress=(e)=>{
+      const btn = e.target.closest("button[data-lang]");
+      if(!btn) return;
+      // only handle from our toggles
+      if(!btn.closest("#edn-lang") && !btn.closest("[data-edn-fab]")) return;
+      e.preventDefault();
+      setLang(btn.dataset.lang);
+      applyI18n();
+    };
+    document.addEventListener("click", onPress, {capture:true});
+    document.addEventListener("touchstart", onPress, {capture:true, passive:false});
+  }
+
+  /* ===== MutationObserver: re-apply when DOM changes ===== */
   function observe(){
-    const mo = new MutationObserver(muts=>{
-      let needs=false;
-      for (const m of muts){ if (m.addedNodes && m.addedNodes.length){ needs=true; break; } }
-      if (needs){ applyI18n(); }
+    const mo=new MutationObserver(muts=>{
+      let needs=false; for(const m of muts){ if(m.addedNodes && m.addedNodes.length){ needs=true; break; } }
+      if(needs) applyI18n();
     });
     mo.observe(document.body,{childList:true,subtree:true});
   }
 
-  /* ========= boot ========= */
+  /* ===== boot ===== */
   function ready(){
-    // Make sure language is set
+    // initial language
     setLang(getLang());
-    ensureToggle();     // restore toggle (non-destructive)
-    ensureStory();      // add Story only if it's missing
-    applyI18n();        // translate keys
-    observe();          // keep new nodes translated
+    // toggles
+    ensureNavToggle();     // in-nav
+    ensureFabToggle();     // always-visible backup
+    // wire
+    bindEvents();
+    // translate opt-in nodes
+    applyI18n();
+    // keep translated if content updates
+    observe();
   }
 
   (document.readyState==="loading") ? document.addEventListener("DOMContentLoaded", ready) : ready();
