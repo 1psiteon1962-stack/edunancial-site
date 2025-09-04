@@ -1,12 +1,20 @@
 /*!
- * Edunancial — EN/ES toggle + "Our Story" anchor & smooth scroll (single-file)  v5
- * Drop-in only. No HTML edits required.
+ * Edunancial — Hardened EN/ES Toggle (always-visible, self-healing)  v6
+ * Single drop-in. No HTML changes required.
+ * - Renders a fixed top-right EN/ES toggle that cannot be hidden by site CSS.
+ * - Works even if other scripts stop propagation (capture listeners).
+ * - Persists choice via localStorage ("edn_lang").
+ * - Translates any elements that already use [data-i18n] keys.
+ * - Self-heals if removed/hidden by other scripts.
  */
 (function(){
   "use strict";
-  if (window.__EDN_READY__) return; window.__EDN_READY__ = true;
 
-  /* ----------------- Dictionary ----------------- */
+  // Prevent old copies from short-circuiting this version
+  if (window.__EDN_READY_V6__) return;
+  window.__EDN_READY_V6__ = true;
+
+  /* ================== i18n dictionary (keys must match your HTML data-i18n) ================== */
   const T = {
     en:{
       "nav.home":"Home","nav.books":"Books","nav.courses":"Mini-Courses","nav.contact":"Contact",
@@ -48,133 +56,80 @@
     }
   };
 
-  /* ----------------- Helpers ----------------- */
+  /* ================== helpers ================== */
   const qs=(s,r=document)=>r.querySelector(s);
   const qsa=(s,r=document)=>Array.from(r.querySelectorAll(s));
   const getLang=()=>{try{return localStorage.getItem("edn_lang")||"en";}catch{return"en";}};
   const setLang=l=>{try{localStorage.setItem("edn_lang",l);}catch{};document.documentElement.setAttribute("lang",l);};
   const dict=()=>T[getLang()]||T.en;
 
-  /* ----------------- Toggle rendering (nav + fixed backup) ----------------- */
-  function ensureNavToggle(){
-    const host = qs("nav.site .wrap")||qs("nav .wrap")||qs("nav");
-    if(!host) return;
-    let bar = qs("#edn-lang");
-    if(!bar){ bar=document.createElement("div"); bar.id="edn-lang"; host.appendChild(bar); }
-    bar.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
-    bar.style.display="flex"; bar.style.gap="8px"; bar.style.marginLeft="12px";
-    qsa("#edn-lang button").forEach(b=>{
-      b.style.cssText="font-weight:700;border:1px solid rgba(0,0,0,.25);padding:6px 10px;border-radius:12px;background:#fff;color:#0b2c54;cursor:pointer";
-    });
-  }
-  function ensureFabToggle(){
-    let fab = qs("[data-edn-fab='lang']");
-    if(!fab){
-      fab=document.createElement("div");
-      fab.setAttribute("data-edn-fab","lang");
+  /* ================== fixed toggle (cannot be hidden) ================== */
+  function mountFixedToggle(){
+    let fab = qs("#edn-toggle-fixed");
+    if (!fab){
+      fab = document.createElement("div");
+      fab.id = "edn-toggle-fixed";
       fab.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
       document.body.appendChild(fab);
     }
-    const css=`
-      [data-edn-fab='lang']{position:fixed;top:10px;right:10px;z-index:2147483647;display:flex;gap:.5rem}
-      [data-edn-fab='lang'] button{font-size:14px!important;font-weight:700!important;padding:.38rem .6rem;border-radius:.6rem;
-        border:1px solid rgba(0,0,0,.25);background:#fff;color:#0b2239!important;cursor:pointer}
-      [data-edn-fab='lang'] button.active{background:#0b2239;color:#fff!important;border-color:#0b2239}
-      @media (prefers-color-scheme:dark){
-        [data-edn-fab='lang'] button{border-color:rgba(255,255,255,.35);background:#0b2239;color:#fff!important}
-        [data-edn-fab='lang'] button.active{background:#fff;color:#0b2239!important;border-color:#fff}
-      }
-    `;
-    const s=document.createElement("style"); s.textContent=css; document.head.appendChild(s);
-  }
+    // Force strong, inline styles so theme CSS can’t hide it
+    fab.style.position = "fixed";
+    fab.style.top = "10px";
+    fab.style.right = "10px";
+    fab.style.zIndex = "2147483647";
+    fab.style.display = "flex";
+    fab.style.gap = ".5rem";
+    fab.style.pointerEvents = "auto";
 
-  /* ----------------- i18n apply ----------------- */
-  function applyI18n(){
-    const d=dict();
-    qsa("[data-i18n]").forEach(el=>{
-      const k=el.getAttribute("data-i18n"); const val=d[k];
-      if(!val) return;
-      if(el.childNodes.length>1){
-        for(const n of el.childNodes){ if(n.nodeType===3) n.nodeValue=val; }
-      } else {
-        el.textContent=val;
-      }
-    });
-    qsa("#edn-lang button,[data-edn-fab='lang'] button").forEach(b=>{
+    qsa("#edn-toggle-fixed button").forEach(b=>{
+      b.style.cssText = "font-size:14px;font-weight:700;padding:.38rem .6rem;border-radius:.6rem;border:1px solid rgba(0,0,0,.25);background:#fff;color:#0b2239;cursor:pointer;user-select:none";
       b.classList.toggle("active", b.dataset.lang===getLang());
     });
   }
 
-  /* ----------------- Story: ensure anchor + section near top ----------------- */
-  function ensureStoryBlock(){
-    const main = qs("main")||document.body;
-    // Try to find an existing story section (by key or by heading text)
-    let story = qs("#our-story") ||
-                qs("[data-i18n='story.title']")?.closest("section") ||
-                qsa("h1,h2,h3").find(h=>/Why Edunancial\?|¿Por qué Edunancial\?/i.test(h.textContent||""))?.closest("section");
-    if (!story){
-      // Create a new one right after the hero/first section
-      story = document.createElement("section");
-      story.className = "card";
-      story.setAttribute("data-edn-injected","story");
-      story.innerHTML = `
-        <span class="badge" data-i18n="story.badge">Our Story</span>
-        <h2 class="section-title" data-i18n="story.title">Why Edunancial?</h2>
-        <p data-i18n="story.p1">We started Edunancial to make financial education simple, practical, and respectful. No hype. No guilt.</p>
-        <p data-i18n="story.p2">Red, White and Blue is our framework: buy or control assets (Red), build liquid wealth (White), and run a profitable business (Blue).</p>
-        <p data-i18n="story.p3">You deserve tools that work in English or Spanish, affordable plans, and options to act today.</p>
-      `;
-      // minimal styling if CSS not present
-      story.style.cssText="background:#fff;border-radius:18px;box-shadow:0 6px 22px rgba(11,34,57,.12);padding:18px;margin:18px 0";
-      const hero = qs(".hero, header.hero, main section");
-      if (hero && hero.parentNode===main) main.insertBefore(story, hero.nextSibling); else main.prepend(story);
-    }
-    // Ensure it has the anchor id
-    if (!story.id) story.id = "our-story";
-
-    // Make sure sticky headers don’t cover it
-    const header = qs("nav.site") || qs("header");
-    const pad = header ? Math.max(56, Math.round(header.getBoundingClientRect().height)+8) : 64;
-    story.style.scrollMarginTop = pad + "px";
+  /* ================== optional nav toggle (if there’s a nav) ================== */
+  function mountNavToggle(){
+    const host = qs("nav.site .wrap")||qs("nav .wrap")||qs("nav");
+    if(!host) return;
+    let bar = qs("#edn-lang");
+    if(!bar){ bar = document.createElement("div"); bar.id="edn-lang"; host.appendChild(bar); }
+    bar.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
+    bar.style.display="flex"; bar.style.gap="8px"; bar.style.marginLeft="12px";
+    qsa("#edn-lang button").forEach(b=>{
+      b.style.cssText="font-weight:700;border:1px solid rgba(0,0,0,.25);padding:6px 10px;border-radius:12px;background:#fff;color:#0b2c54;cursor:pointer";
+      b.classList.toggle("active", b.dataset.lang===getLang());
+    });
   }
 
-  /* ----------------- Wire all "Our Story" buttons/links ----------------- */
-  function wireStoryButtons(){
-    const targetId = "our-story";
-    // Any element that looks like an Our Story action
-    const candidates = [
-      ...qsa("[href*='our-story']"),
-      ...qsa("[data-i18n='story.badge']"),
-      ...qsa("a,button").filter(el=>{
-        const t=(el.textContent||"").toLowerCase();
-        return /our story|nuestra historia/.test(t);
-      })
-    ];
-    candidates.forEach(el=>{
-      if (el.tagName.toLowerCase()==="a"){
-        el.setAttribute("href", "#"+targetId);
+  /* ================== translate data-i18n nodes (non-destructive) ================== */
+  function applyI18n(){
+    const d = dict();
+    qsa("[data-i18n]").forEach(el=>{
+      const k = el.getAttribute("data-i18n"); const val=d[k];
+      if(!val) return;
+      if(el.childNodes.length>1){
+        for(const n of el.childNodes){ if(n.nodeType===3) n.nodeValue=val; }
+      } else { el.textContent = val; }
+    });
+    // reflect active state on both toggles
+    qsa("#edn-toggle-fixed button, #edn-lang button").forEach(b=>{
+      b.classList.toggle("active", b.dataset.lang===getLang());
+      if (b.classList.contains("active")){
+        b.style.background = "#0b2239";
+        b.style.color = "#fff";
+        b.style.borderColor = "#0b2239";
       } else {
-        el.setAttribute("role","button");
-        el.setAttribute("data-story-link","true");
+        b.style.background = "#fff";
+        b.style.color = "#0b2239";
+        b.style.borderColor = "rgba(0,0,0,.25)";
       }
     });
-
-    const go=(e)=>{
-      const link = e.target.closest("a[href^='#our-story'],[data-story-link]");
-      if(!link) return;
-      e.preventDefault();
-      const sec = qs("#"+targetId);
-      if(!sec) return;
-      sec.scrollIntoView({behavior:"smooth", block:"start"});
-    };
-    document.addEventListener("click", go, {capture:true});
-    document.addEventListener("touchstart", go, {capture:true, passive:false});
   }
 
-  /* ----------------- Language toggle events (capture) ----------------- */
-  function bindLangEvents(){
+  /* ================== event binding (capture so others can’t block) ================== */
+  function bind(){
     const onPress=(e)=>{
-      const btn = e.target.closest("#edn-lang button,[data-edn-fab='lang'] button");
+      const btn = e.target.closest("#edn-toggle-fixed button, #edn-lang button");
       if(!btn) return;
       e.preventDefault();
       setLang(btn.dataset.lang);
@@ -184,31 +139,35 @@
     document.addEventListener("touchstart", onPress, {capture:true, passive:false});
   }
 
-  /* ----------------- Observe DOM changes ----------------- */
-  function observe(){
-    const mo=new MutationObserver(muts=>{
-      let changed=false;
-      for(const m of muts){ if(m.addedNodes && m.addedNodes.length){ changed=true; break; } }
-      if(changed){ applyI18n(); ensureStoryBlock(); }
-    });
-    mo.observe(document.body,{childList:true,subtree:true});
+  /* ================== self-heal if removed/hidden ================== */
+  function watchdog(){
+    // Re-mount every 1s if something removes or hides the widget
+    setInterval(()=>{
+      // Recreate fixed toggle if missing
+      if(!qs("#edn-toggle-fixed")) mountFixedToggle();
+      // If it exists but somehow hidden, re-assert style
+      const fab = qs("#edn-toggle-fixed");
+      if (fab){
+        const cs = getComputedStyle(fab);
+        if (cs.display==="none" || cs.visibility==="hidden" || cs.opacity==="0"){
+          mountFixedToggle();
+        }
+      }
+      // Keep nav toggle in sync if present
+      mountNavToggle();
+      applyI18n();
+    }, 1000);
   }
 
-  /* ----------------- Boot ----------------- */
+  /* ================== boot ================== */
   function ready(){
-    // language
-    setLang(getLang());
-    // toggles
-    ensureNavToggle();
-    ensureFabToggle();
-    bindLangEvents();
-    // story anchor + button wiring
-    ensureStoryBlock();
-    wireStoryButtons();
-    // translate data-i18n elements
-    applyI18n();
-    // keep in sync
-    observe();
+    setLang(getLang());        // set initial language from storage
+    mountFixedToggle();        // always-visible toggle
+    mountNavToggle();          // optional nav toggle
+    bind();                    // capture listeners
+    applyI18n();               // translate any keyed text
+    watchdog();                // keep it alive
   }
+
   (document.readyState==="loading") ? document.addEventListener("DOMContentLoaded", ready) : ready();
 })();
