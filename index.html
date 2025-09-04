@@ -1,122 +1,119 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Learn. Build. Grow.</title>
-<style>
-  :root{--bg:#0b0f1a;--card:#121726;--ink:#e9eefb;--muted:#9db2ff;--accent:#5aa6ff;--ok:#22c55e}
-  *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#0b0f1a,#0a1429);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
-  a{color:var(--ink);text-decoration:none}
-  header{position:sticky;top:0;backdrop-filter:saturate(140%) blur(6px);background:#0b0f1acc;border-bottom:1px solid #1f2a44}
-  .wrap{max-width:1100px;margin:auto;padding:16px}
-  .nav{display:flex;align-items:center;gap:16px;justify-content:space-between}
-  .brand{font-weight:700;letter-spacing:.3px}
-  .menu{display:flex;gap:14px;flex-wrap:wrap}
-  .menu a{padding:8px 10px;border-radius:10px}
-  .menu a:hover{background:#ffffff12}
-  .lang{display:flex;gap:8px}
-  .btn{display:inline-block;background:var(--accent);padding:12px 18px;border-radius:12px;color:#041028;font-weight:700}
-  .btn:hover{filter:brightness(1.08)}
-  .hero{padding:60px 16px}
-  .h1{font-size:40px;line-height:1.1;margin:0 0 12px}
-  .lead{color:var(--muted);max-width:700px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:28px}
-  .card{background:var(--card);border:1px solid #202a45;border-radius:18px;padding:18px}
-  .badge{display:inline-flex;align-items:center;gap:8px;background:#173055;border:1px solid #25406f;color:#cfe0ff;border-radius:999px;padding:6px 10px}
-  footer{border-top:1px solid #1f2a44;color:#b7c6ff66;margin-top:40px}
-  .tiny{font-size:13px}
-  [data-i18n]{transition:opacity .15s ease}
-  .ok{color:var(--ok);font-weight:700}
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Edunancial — Red • White • Blue</title>
+  <link rel="stylesheet" href="/edn.css">
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <div class="brand">Edunancial</div>
-    <nav class="menu">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="about.html" data-i18n="nav.about">About</a>
-      <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
-      <a href="checkout.html" class="btn" data-i18n="nav.pay">Pay</a>
-    </nav>
-    <div class="lang">
-      <button id="enBtn" class="badge">EN</button>
-      <button id="esBtn" class="badge">ES</button>
+  <nav class="site">
+    <div class="wrap container">
+      <div class="brand">Edunancial</div>
+      <div class="links">
+        <a href="/index.html" data-i18n="nav.home">Home</a>
+        <a href="/books.html" data-i18n="nav.books">Books</a>
+        <a href="/courses.html" data-i18n="nav.courses">Mini-Courses</a>
+        <a href="/contact.html" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div id="edn-lang"></div>
     </div>
-  </div>
-</header>
+  </nav>
 
-<main class="wrap hero">
-  <p class="badge" data-i18n="site.tag">Bilingual Financial Education</p>
-  <h1 class="h1" data-i18n="hero.title">Where Education and Financial Literacy Meet</h1>
-  <p class="lead" data-i18n="hero.lead">
-    Courses, books, and tools that help teens and young adults build real wealth—with clear examples, simple language, and Spanish support.
-  </p>
-  <p style="margin-top:18px">
-    <a class="btn" href="pricing.html" data-i18n="cta.getStarted">See Plans</a>
-    &nbsp;&nbsp;<a href="about.html" data-i18n="cta.learnMore">Learn more</a>
-  </p>
-
-  <section class="grid">
-    <div class="card">
-      <h3 data-i18n="sec1.t">Simple, Visual Learning</h3>
-      <p data-i18n="sec1.d">We teach with analogies, diagrams, and real-world examples so concepts stick.</p>
+  <header class="hero">
+    <div class="container">
+      <span class="badge" data-i18n="story.badge">Our Story</span>
+      <h1 data-i18n="hero.title">Learn money the practical way — red, white & blue.</h1>
+      <p class="subtle" data-i18n="hero.sub">Bilingual financial education focused on Real Estate, Paper Assets, and Business. Simple steps, real results.</p>
+      <div class="cta">
+        <a class="btn btn-red" href="/books.html#red" data-i18n="hero.cta.red">Start with Real Estate (Red)</a>
+        <a class="btn btn-white" href="/books.html#white" data-i18n="hero.cta.white">Try Paper Assets (White)</a>
+        <a class="btn btn-blue" href="/books.html#blue" data-i18n="hero.cta.blue">Grow a Business (Blue)</a>
+      </div>
     </div>
-    <div class="card">
-      <h3 data-i18n="sec2.t">Bilingual by Default</h3>
-      <p data-i18n="sec2.d">Switch English/Español anytime. Your choice is remembered across pages.</p>
-    </div>
-    <div class="card">
-      <h3 data-i18n="sec3.t">Ready for Payments</h3>
-      <p data-i18n="sec3.d">Square checkout links plug in instantly once activated. Optional Bitcoin link.</p>
-      <p class="tiny"><span class="ok">•</span> <span data-i18n="sec3.n">Processing verification may still be in progress.</span></p>
-    </div>
-  </section>
-</main>
+  </header>
 
-<footer>
-  <div class="wrap tiny">
-    <p>© <span id="y"></span> Edunancial, Inc. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
-  </div>
-</footer>
+  <main class="container">
+    <section class="card">
+      <h2 class="section-title" data-i18n="story.title">Why Edunancial?</h2>
+      <p data-i18n="story.p1">We started Edunancial to make financial education simple, practical, and respectful. No hype. No guilt.</p>
+      <p data-i18n="story.p2">Red, White and Blue is our framework: buy or control assets (Red), build liquid wealth (White), and run a profitable business (Blue).</p>
+      <p data-i18n="story.p3">You deserve tools that work in English or Spanish, affordable plans, and options to act today.</p>
+    </section>
 
-<script>
-  const dict = {
-    en:{
-      "nav.home":"Home","nav.about":"About","nav.pricing":"Pricing","nav.pay":"Pay",
-      "site.tag":"Bilingual Financial Education",
-      "hero.title":"Where Education and Financial Literacy Meet",
-      "hero.lead":"Courses, books, and tools that help teens and young adults build real wealth—with clear examples, simple language, and Spanish support.",
-      "cta.getStarted":"See Plans","cta.learnMore":"Learn more",
-      "sec1.t":"Simple, Visual Learning","sec1.d":"We teach with analogies, diagrams, and real-world examples so concepts stick.",
-      "sec2.t":"Bilingual by Default","sec2.d":"Switch English/Español anytime. Your choice is remembered across pages.",
-      "sec3.t":"Ready for Payments","sec3.d":"Square checkout links plug in instantly once activated. Optional Bitcoin link.",
-      "sec3.n":"Processing verification may still be in progress."
-    },
-    es:{
-      "nav.home":"Inicio","nav.about":"Nosotros","nav.pricing":"Precios","nav.pay":"Pagar",
-      "site.tag":"Educación financiera bilingüe",
-      "hero.title":"Donde la educación y la alfabetización financiera se unen",
-      "hero.lead":"Cursos, libros y herramientas para que jóvenes construyan riqueza real—con ejemplos claros, lenguaje sencillo y apoyo en español.",
-      "cta.getStarted":"Ver planes","cta.learnMore":"Más información",
-      "sec1.t":"Aprendizaje simple y visual","sec1.d":"Usamos analogías, diagramas y ejemplos reales para que las ideas se graben.",
-      "sec2.t":"Bilingüe por defecto","sec2.d":"Cambia Inglés/Español en cualquier momento. Tu elección se recuerda entre páginas.",
-      "sec3.t":"Listo para pagos","sec3.d":"Los enlaces de pago de Square se conectan en cuanto estén activos. Bitcoin opcional.",
-      "sec3.n":"La verificación del procesamiento puede estar en curso."
-    }
-  };
-  function setLang(lang){
-    localStorage.setItem('lang',lang);
-    document.querySelectorAll('[data-i18n]').forEach(el=>{
-      const key=el.getAttribute('data-i18n');
-      if(dict[lang] && dict[lang][key]) el.textContent = dict[lang][key];
-    });
-    document.documentElement.lang = lang;
-  }
-  setLang(localStorage.getItem('lang')||'en');
-  document.getElementById('enBtn').onclick=()=>setLang('en');
-  document.getElementById('esBtn').onclick=()=>setLang('es');
-  document.getElementById('y').textContent=new Date().getFullYear();
-</script>
+    <section class="card">
+      <h2 class="section-title" data-i18n="books.title">Books (English & Español)</h2>
+      <p class="subtle" data-i18n="books.sub">Full-color covers by track: Red = Real Estate, White = Paper Assets, Blue = Business.</p>
+
+      <div class="grid grid-3">
+        <article id="red" class="book">
+          <div class="cover red">REAL<br>ESTATE</div>
+          <div>
+            <h4 data-i18n="book.red.t">Real Estate Fundamentals</h4>
+            <p class="subtle" data-i18n="book.red.d">Step-by-step entry into property deals and financing.</p>
+            <div class="audio-row">
+              <audio controls preload="none" src="/audio/red-en-es.mp3"></audio>
+              <a class="btn btn-red" href="https://square.link/u/YOUR_RED_BOOK_LINK" target="_blank" data-i18n="btn.buy">Buy</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="white" class="book">
+          <div class="cover white">PAPER<br>ASSETS</div>
+          <div>
+            <h4 data-i18n="book.white.t">Build Wealth with Paper Assets</h4>
+            <p class="subtle" data-i18n="book.white.d">Cashflow from stocks, ETFs, and notes — rules you can use.</p>
+            <div class="audio-row">
+              <audio controls preload="none" src="/audio/white-en-es.mp3"></audio>
+              <a class="btn btn-blue" href="https://square.link/u/YOUR_WHITE_BOOK_LINK" target="_blank" data-i18n="btn.buy">Buy</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="blue" class="book">
+          <div class="cover blue">BUSI-<br>NESS</div>
+          <div>
+            <h4 data-i18n="book.blue.t">Profit-First Business</h4>
+            <p class="subtle" data-i18n="book.blue.d">Simple profit systems for small business owners.</p>
+            <div class="audio-row">
+              <audio controls preload="none" src="/audio/blue-en-es.mp3"></audio>
+              <a class="btn btn-white" href="https://square.link/u/YOUR_BLUE_BOOK_LINK" target="_blank" data-i18n="btn.buy">Buy</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="subtle" style="margin-top:14px" data-i18n="pay.note">
+        Ready for Square. Replace the payment links below once your account is verified.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title" data-i18n="audio.title">Listen: Red, White & Blue messages</h2>
+      <div class="grid grid-3">
+        <div>
+          <strong>Red</strong>
+          <p class="subtle" data-i18n="audio.red">There are many ways…</p>
+          <audio controls preload="none" src="/audio/red-en-es.mp3"></audio>
+        </div>
+        <div>
+          <strong>White</strong>
+          <p class="subtle" data-i18n="audio.white">Pay yourself first…</p>
+          <audio controls preload="none" src="/audio/white-en-es.mp3"></audio>
+        </div>
+        <div>
+          <strong>Blue</strong>
+          <p class="subtle" data-i18n="audio.blue">…in business you can…</p>
+          <audio controls preload="none" src="/audio/blue-en-es.mp3"></audio>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container subtle">
+    <p data-i18n="disclaimer">Edunancial does not provide legal or investment advice. Education only.</p>
+  </footer>
+
+  <script src="/shared-edn.js?v=1"></script>
 </body>
 </html>
