@@ -1,12 +1,12 @@
 /*!
- * Edunancial — EN/ES Toggle + Story Auto-Restore (hardened)  v4
- * Single file. Non-destructive. Works on every page.
+ * Edunancial — EN/ES toggle + "Our Story" anchor & smooth scroll (single-file)  v5
+ * Drop-in only. No HTML edits required.
  */
 (function(){
   "use strict";
   if (window.__EDN_READY__) return; window.__EDN_READY__ = true;
 
-  /* ----------------- Dictionary (EN/ES) ----------------- */
+  /* ----------------- Dictionary ----------------- */
   const T = {
     en:{
       "nav.home":"Home","nav.books":"Books","nav.courses":"Mini-Courses","nav.contact":"Contact",
@@ -54,21 +54,14 @@
   const getLang=()=>{try{return localStorage.getItem("edn_lang")||"en";}catch{return"en";}};
   const setLang=l=>{try{localStorage.setItem("edn_lang",l);}catch{};document.documentElement.setAttribute("lang",l);};
   const dict=()=>T[getLang()]||T.en;
-  const norm=s=>(s||"").replace(/\s+/g," ").trim();
 
-  // Build text→key indices so we can auto-label even if site text is EN or ES
-  const EN_INDEX=new Map(Object.entries(T.en).map(([k,v])=>[norm(v),k]));
-  const ES_INDEX=new Map(Object.entries(T.es).map(([k,v])=>[norm(v),k]));
-  const guessKey=txt=>EN_INDEX.get(norm(txt))||ES_INDEX.get(norm(txt))||null;
-
-  /* ----------------- Ensure toggles (nav + fixed) ----------------- */
+  /* ----------------- Toggle rendering (nav + fixed backup) ----------------- */
   function ensureNavToggle(){
     const host = qs("nav.site .wrap")||qs("nav .wrap")||qs("nav");
     if(!host) return;
     let bar = qs("#edn-lang");
-    if(!bar){ bar = document.createElement("div"); bar.id="edn-lang"; host.appendChild(bar); }
+    if(!bar){ bar=document.createElement("div"); bar.id="edn-lang"; host.appendChild(bar); }
     bar.innerHTML = `<button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button>`;
-    // Robust inline styles
     bar.style.display="flex"; bar.style.gap="8px"; bar.style.marginLeft="12px";
     qsa("#edn-lang button").forEach(b=>{
       b.style.cssText="font-weight:700;border:1px solid rgba(0,0,0,.25);padding:6px 10px;border-radius:12px;background:#fff;color:#0b2c54;cursor:pointer";
@@ -95,42 +88,7 @@
     const s=document.createElement("style"); s.textContent=css; document.head.appendChild(s);
   }
 
-  /* ----------------- Auto-label current content ----------------- */
-  function autolabel(root=document){
-    // Add data-i18n to leaf nodes we recognize (EN or ES)
-    const tags="h1,h2,h3,h4,p,li,button,a,span,small,strong,em,label,th,td";
-    qsa(tags,root).forEach(el=>{
-      if(el.hasAttribute("data-i18n")) return;
-      if(el.children.length && el.querySelector("*")) return; // skip non-leaf containers
-      const k=guessKey(el.textContent||"");
-      if(k) el.setAttribute("data-i18n",k);
-    });
-  }
-
-  /* ----------------- Add/restore Our Story (only if missing) ----------------- */
-  function ensureStory(){
-    // If a Story already exists (EN or ES), do nothing
-    const hasStory = qsa("[data-i18n='story.title'], [data-i18n='story.badge']").length>0
-                  || !!qsa("h2,h1").find(h=>/Why Edunancial\?|¿Por qué Edunancial\?/i.test(h.textContent||""));
-    if(hasStory) return;
-
-    const main = qs("main")||document.body;
-    const sec=document.createElement("section");
-    sec.className="card"; sec.setAttribute("data-edn-injected","story");
-    sec.innerHTML = `
-      <span class="badge" data-i18n="story.badge">Our Story</span>
-      <h2 class="section-title" data-i18n="story.title">Why Edunancial?</h2>
-      <p data-i18n="story.p1">We started Edunancial to make financial education simple, practical, and respectful. No hype. No guilt.</p>
-      <p data-i18n="story.p2">Red, White and Blue is our framework: buy or control assets (Red), build liquid wealth (White), and run a profitable business (Blue).</p>
-      <p data-i18n="story.p3">You deserve tools that work in English or Spanish, affordable plans, and options to act today.</p>
-    `;
-    // Minimal styling so it matches card vibe even if CSS missing
-    sec.style.cssText="background:#fff;border-radius:18px;box-shadow:0 6px 22px rgba(11,34,57,.12);padding:18px;margin:18px 0";
-    const hero=qs(".hero, header.hero, main section"); 
-    if(hero && hero.parentNode===main) main.insertBefore(sec, hero.nextSibling); else main.prepend(sec);
-  }
-
-  /* ----------------- Apply translations ----------------- */
+  /* ----------------- i18n apply ----------------- */
   function applyI18n(){
     const d=dict();
     qsa("[data-i18n]").forEach(el=>{
@@ -142,18 +100,82 @@
         el.textContent=val;
       }
     });
-    // reflect active buttons
-    qsa("#edn-lang button, [data-edn-fab='lang'] button").forEach(b=>{
+    qsa("#edn-lang button,[data-edn-fab='lang'] button").forEach(b=>{
       b.classList.toggle("active", b.dataset.lang===getLang());
     });
   }
 
-  /* ----------------- Bind events (capture phase) ----------------- */
-  function bind(){
+  /* ----------------- Story: ensure anchor + section near top ----------------- */
+  function ensureStoryBlock(){
+    const main = qs("main")||document.body;
+    // Try to find an existing story section (by key or by heading text)
+    let story = qs("#our-story") ||
+                qs("[data-i18n='story.title']")?.closest("section") ||
+                qsa("h1,h2,h3").find(h=>/Why Edunancial\?|¿Por qué Edunancial\?/i.test(h.textContent||""))?.closest("section");
+    if (!story){
+      // Create a new one right after the hero/first section
+      story = document.createElement("section");
+      story.className = "card";
+      story.setAttribute("data-edn-injected","story");
+      story.innerHTML = `
+        <span class="badge" data-i18n="story.badge">Our Story</span>
+        <h2 class="section-title" data-i18n="story.title">Why Edunancial?</h2>
+        <p data-i18n="story.p1">We started Edunancial to make financial education simple, practical, and respectful. No hype. No guilt.</p>
+        <p data-i18n="story.p2">Red, White and Blue is our framework: buy or control assets (Red), build liquid wealth (White), and run a profitable business (Blue).</p>
+        <p data-i18n="story.p3">You deserve tools that work in English or Spanish, affordable plans, and options to act today.</p>
+      `;
+      // minimal styling if CSS not present
+      story.style.cssText="background:#fff;border-radius:18px;box-shadow:0 6px 22px rgba(11,34,57,.12);padding:18px;margin:18px 0";
+      const hero = qs(".hero, header.hero, main section");
+      if (hero && hero.parentNode===main) main.insertBefore(story, hero.nextSibling); else main.prepend(story);
+    }
+    // Ensure it has the anchor id
+    if (!story.id) story.id = "our-story";
+
+    // Make sure sticky headers don’t cover it
+    const header = qs("nav.site") || qs("header");
+    const pad = header ? Math.max(56, Math.round(header.getBoundingClientRect().height)+8) : 64;
+    story.style.scrollMarginTop = pad + "px";
+  }
+
+  /* ----------------- Wire all "Our Story" buttons/links ----------------- */
+  function wireStoryButtons(){
+    const targetId = "our-story";
+    // Any element that looks like an Our Story action
+    const candidates = [
+      ...qsa("[href*='our-story']"),
+      ...qsa("[data-i18n='story.badge']"),
+      ...qsa("a,button").filter(el=>{
+        const t=(el.textContent||"").toLowerCase();
+        return /our story|nuestra historia/.test(t);
+      })
+    ];
+    candidates.forEach(el=>{
+      if (el.tagName.toLowerCase()==="a"){
+        el.setAttribute("href", "#"+targetId);
+      } else {
+        el.setAttribute("role","button");
+        el.setAttribute("data-story-link","true");
+      }
+    });
+
+    const go=(e)=>{
+      const link = e.target.closest("a[href^='#our-story'],[data-story-link]");
+      if(!link) return;
+      e.preventDefault();
+      const sec = qs("#"+targetId);
+      if(!sec) return;
+      sec.scrollIntoView({behavior:"smooth", block:"start"});
+    };
+    document.addEventListener("click", go, {capture:true});
+    document.addEventListener("touchstart", go, {capture:true, passive:false});
+  }
+
+  /* ----------------- Language toggle events (capture) ----------------- */
+  function bindLangEvents(){
     const onPress=(e)=>{
-      const btn=e.target.closest("button[data-lang]");
+      const btn = e.target.closest("#edn-lang button,[data-edn-fab='lang'] button");
       if(!btn) return;
-      if(!btn.closest("#edn-lang") && !btn.closest("[data-edn-fab='lang']")) return;
       e.preventDefault();
       setLang(btn.dataset.lang);
       applyI18n();
@@ -162,29 +184,31 @@
     document.addEventListener("touchstart", onPress, {capture:true, passive:false});
   }
 
-  /* ----------------- Keep things translated if DOM changes ----------------- */
+  /* ----------------- Observe DOM changes ----------------- */
   function observe(){
     const mo=new MutationObserver(muts=>{
       let changed=false;
       for(const m of muts){ if(m.addedNodes && m.addedNodes.length){ changed=true; break; } }
-      if(changed){ autolabel(document); applyI18n(); }
+      if(changed){ applyI18n(); ensureStoryBlock(); }
     });
     mo.observe(document.body,{childList:true,subtree:true});
   }
 
   /* ----------------- Boot ----------------- */
   function ready(){
-    // Language defaults & UI
+    // language
     setLang(getLang());
+    // toggles
     ensureNavToggle();
     ensureFabToggle();
-    // Content
-    ensureStory();      // only adds if missing
-    autolabel(document); // label existing EN/ES text so it can be switched later
+    bindLangEvents();
+    // story anchor + button wiring
+    ensureStoryBlock();
+    wireStoryButtons();
+    // translate data-i18n elements
     applyI18n();
-    // Wiring
-    bind();
+    // keep in sync
     observe();
   }
-  (document.readyState==="loading")?document.addEventListener("DOMContentLoaded",ready):ready();
+  (document.readyState==="loading") ? document.addEventListener("DOMContentLoaded", ready) : ready();
 })();
