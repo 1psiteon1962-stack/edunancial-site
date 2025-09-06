@@ -1,5 +1,5 @@
 /* Edunancial — language toggle + audio source swap */
-(function () {
+(function () { 
   const KEY = "edn_lang";
   const pick = (l)=> (l||"en").toLowerCase().startsWith("es") ? "es" : "en";
 
