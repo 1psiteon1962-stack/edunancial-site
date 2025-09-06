@@ -7,70 +7,69 @@
   <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <nav class="edn">
-      <a class="edn-brand" href="/index.html">Edunancial</a>
-      <div class="edn-links">
-        <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
-        <a href="/books.html"  data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
-        <a href="/courses.html" data-lang="en">Intro Courses</a><a href="/courses.html" data-lang="es">Cursos Introductorios</a>
-        <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
-      </div>
-      <div class="lang-switch">
-        <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
-        <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
-      </div>
-    </nav>
-  </div>
-</header>
+  <!-- Header (embedded) -->
+  <header>
+    <div class="wrap">
+      <nav class="edn">
+        <a class="edn-brand" href="/index.html">Edunancial</a>
+        <div class="edn-links">
+          <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
+          <a href="/books.html" data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
+          <a href="/courses.html" data-lang="en">Intro Courses</a><a href="/courses.html" data-lang="es">Cursos Introductorios</a>
+          <a href="/our-story.html" data-lang="en">Our Story</a><a href="/our-story.html" data-lang="es">Nuestra Historia</a>
+          <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
+        </div>
+        <div class="lang-switch">
+          <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
+          <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<main class="wrap" style="padding:20px 0">
-  <h1 data-lang="en">Introductory Courses</h1>
-  <h1 data-lang="es">Cursos Introductorios</h1>
-  <p data-lang="en">Live sessions — one theme each week. Join from your phone.</p>
-  <p data-lang="es">Sesiones en vivo — un tema cada semana. Únete desde tu teléfono.</p>
+  <main class="wrap" style="padding:20px 0">
+    <h1 data-lang="en">Introductory Courses</h1>
+    <h1 data-lang="es">Cursos Introductorios</h1>
+    <p data-lang="en">Live sessions — one theme each week. Join from your phone.</p>
+    <p data-lang="es">Sesiones en vivo — un tema cada semana. Únete desde tu teléfono.</p>
 
-  <div class="grid">
-    <!-- RED -->
-    <article class="card" id="red">
-      <div class="badge red">RED</div>
-      <h2 data-lang="en">Intro to Real Estate (Red)</h2>
-      <h2 data-lang="es">Introducción a Bienes Raíces (Rojo)</h2>
-      <p data-lang="en">Evaluate neighborhoods, deals, and financing — simple steps, real results.</p>
-      <p data-lang="es">Evalúa vecindarios, ofertas y financiamiento — pasos sencillos, resultados reales.</p>
-      <a class="btn btn-red" href="/checkout.html?course=red" data-lang="en">Reserve seat</a>
-      <a class="btn btn-red" href="/checkout.html?course=red" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/red-en.mp3" data-audio-es="/audio/red-es.mp3"></audio>
-    </article>
+    <div class="grid">
+      <article class="card" id="red">
+        <div class="badge red">RED</div>
+        <h2 data-lang="en">Intro to Real Estate (Red)</h2>
+        <h2 data-lang="es">Introducción a Bienes Raíces (Rojo)</h2>
+        <p data-lang="en">Evaluate neighborhoods, deals, and financing — simple steps, real results.</p>
+        <p data-lang="es">Evalúa vecindarios, ofertas y financiamiento — pasos sencillos, resultados reales.</p>
+        <a class="btn btn-red" href="/checkout.html?course=red" data-lang="en">Reserve seat</a>
+        <a class="btn btn-red" href="/checkout.html?course=red" data-lang="es">Reservar cupo</a>
+        <audio controls data-audio-en="/audio/red-en.mp3" data-audio-es="/audio/red-es.mp3"></audio>
+      </article>
 
-    <!-- WHITE -->
-    <article class="card" id="white">
-      <div class="badge white">WHITE</div>
-      <h2 data-lang="en">Intro to Paper Assets (White)</h2>
-      <h2 data-lang="es">Introducción a Activos en Papel (Blanco)</h2>
-      <p data-lang="en">Stocks, ETFs, and simple strategies to start investing.</p>
-      <p data-lang="es">Acciones, ETFs y estrategias simples para comenzar a invertir.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="en">Reserve seat</a>
-      <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/white-en.mp3" data-audio-es="/audio/white-es.mp3"></audio>
-    </article>
+      <article class="card" id="white">
+        <div class="badge white">WHITE</div>
+        <h2 data-lang="en">Intro to Paper Assets (White)</h2>
+        <h2 data-lang="es">Introducción a Activos en Papel (Blanco)</h2>
+        <p data-lang="en">Stocks, ETFs, and simple strategies to start investing.</p>
+        <p data-lang="es">Acciones, ETFs y estrategias simples para comenzar a invertir.</p>
+        <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="en">Reserve seat</a>
+        <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="es">Reservar cupo</a>
+        <audio controls data-audio-en="/audio/white-en.mp3" data-audio-es="/audio/white-es.mp3"></audio>
+      </article>
 
-    <!-- BLUE -->
-    <article class="card" id="blue">
-      <div class="badge blue">BLUE</div>
-      <h2 data-lang="en">Intro to Small Business (Blue)</h2>
-      <h2 data-lang="es">Introducción a Negocios (Azul)</h2>
-      <p data-lang="en">Turn skills into a side business: pricing, customers, and basics.</p>
-      <p data-lang="es">Convierte habilidades en un negocio: precios, clientes y lo esencial.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="en">Reserve seat</a>
-      <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/blue-en.mp3" data-audio-es="/audio/blue-es.mp3"></audio>
-    </article>
-  </div>
+      <article class="card" id="blue">
+        <div class="badge blue">BLUE</div>
+        <h2 data-lang="en">Intro to Small Business (Blue)</h2>
+        <h2 data-lang="es">Introducción a Negocios (Azul)</h2>
+        <p data-lang="en">Turn skills into a side business: pricing, customers, and basics.</p>
+        <p data-lang="es">Convierte habilidades en un negocio: precios, clientes y lo esencial.</p>
+        <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="en">Reserve seat</a>
+        <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="es">Reservar cupo</a>
+        <audio controls data-audio-en="/audio/blue-en.mp3" data-audio-es="/audio/blue-es.mp3"></audio>
+      </article>
+    </div>
 
-  <p style="margin-top:18px" data-lang="en"><em>Zoom link provided after payment.</em></p>
-  <p style="margin-top:18px" data-lang="es"><em>Enlace de Zoom provisto después del pago.</em></p>
-</main>
+    <p style="margin-top:18px" data-lang="en"><em>Zoom link provided after payment.</em></p>
+    <p style="margin-top:18px" data-lang="es"><em>Enlace de Zoom provisto después del pago.</em></p>
+  </main>
 </body>
 </html>
