@@ -1,86 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Books — Edunancial</title>
-  <link rel="stylesheet" href="/edn.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Edunancial — Books</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-  <nav class="site">
-    <div class="wrap container">
-      <div class="brand">Edunancial</div>
-      <div class="links">
-        <a href="/index.html" data-i18n="nav.home">Home</a>
-        <a href="/books.html" data-i18n="nav.books">Books</a>
-        <a href="/courses.html" data-i18n="nav.courses">Mini-Courses</a>
-        <a href="/contact.html" data-i18n="nav.contact">Contact</a>
+<header>
+  <div class="wrap">
+    <nav class="edn">
+      <a class="edn-brand" href="/index.html">Edunancial</a>
+      <div class="edn-links">
+        <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
+        <a href="/books.html"  data-lang="en">Books</a><a href="/books.html"  data-lang="es">Libros</a>
+        <a href="/courses.html" data-lang="en">Intro Courses</a><a href="/courses.html" data-lang="es">Cursos Introductorios</a>
+        <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
       </div>
-      <div id="edn-lang"></div>
-    </div>
-  </nav>
-
-  <main class="container">
-    <section class="card">
-      <h2 class="section-title" data-i18n="books.title">Books (English & Español)</h2>
-      <p class="subtle" data-i18n="books.sub">Full-color covers by track: Red = Real Estate, White = Paper Assets, Blue = Business.</p>
-
-      <div class="grid grid-3">
-        <!-- RED BOOK -->
-        <article id="red" class="book">
-          <div class="cover red">REAL<br>ESTATE</div>
-          <div>
-            <h4 data-i18n="book.red.t">Real Estate Fundamentals</h4>
-            <p class="subtle" data-i18n="book.red.d">Step-by-step entry into property deals and financing.</p>
-            <a class="btn btn-red" href="https://square.link/u/YOUR_RED_BOOK_LINK" target="_blank" rel="noopener" data-i18n="btn.buy">Buy</a>
-          </div>
-        </article>
-
-        <!-- WHITE BOOK -->
-        <article id="white" class="book">
-          <div class="cover white">PAPER<br>ASSETS</div>
-          <div>
-            <h4 data-i18n="book.white.t">Build Wealth with Paper Assets</h4>
-            <p class="subtle" data-i18n="book.white.d">Cashflow from stocks, ETFs, and notes — rules you can use.</p>
-            <a class="btn btn-blue" href="https://square.link/u/YOUR_WHITE_BOOK_LINK" target="_blank" rel="noopener" data-i18n="btn.buy">Buy</a>
-          </div>
-        </article>
-
-        <!-- BLUE BOOK -->
-        <article id="blue" class="book">
-          <div class="cover blue">BUSI-<br>NESS</div>
-          <div>
-            <h4 data-i18n="book.blue.t">Profit-First Business</h4>
-            <p class="subtle" data-i18n="book.blue.d">Simple profit systems for small business owners.</p>
-            <a class="btn btn-white" href="https://square.link/u/YOUR_BLUE_BOOK_LINK" target="_blank" rel="noopener" data-i18n="btn.buy">Buy</a>
-          </div>
-        </article>
+      <div class="lang-switch">
+        <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
+        <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
       </div>
-    </section>
+    </nav>
+  </div>
+</header>
 
-    <!-- OPTIONAL: include audio again on this page -->
-    <section class="card">
-      <h2 class="section-title" data-i18n="audio.title">Listen: Red, White & Blue messages</h2>
-      <div class="grid grid-3">
-        <div>
-          <strong>Red</strong>
-          <p class="subtle" data-i18n="audio.red">There are many ways to buy real estate…</p>
-          <audio controls preload="none" src="/audio/red-en-es.mp3"></audio>
-        </div>
-        <div>
-          <strong>White</strong>
-          <p class="subtle" data-i18n="audio.white">Pay yourself first…</p>
-          <audio controls preload="none" src="/audio/white-en-es.mp3"></audio>
-        </div>
-        <div>
-          <strong>Blue</strong>
-          <p class="subtle" data-i18n="audio.blue">…in business you can…</p>
-          <audio controls preload="none" src="/audio/blue-en-es.mp3"></audio>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script src="/shared-edn.js?v=1"></script>
+<main class="wrap" style="padding:20px 0">
+  <h1 data-lang="en">Books</h1>
+  <h1 data-lang="es">Libros</h1>
+  <p data-lang="en">Curated titles to reinforce the Red, White, and Blue paths.</p>
+  <p data-lang="es">Títulos seleccionados para reforzar las rutas Rojo, Blanco y Azul.</p>
+</main>
 </body>
 </html>
