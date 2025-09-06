@@ -4,73 +4,49 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Edunancial — Mini-Courses</title>
   <link rel="stylesheet" href="/style.css">
-  <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-<header class="site-header">
-  <div class="container">
-    <nav class="navbar">
-      <a class="brand" href="/index.html">Edunancial</a>
-      <div class="menu">
-        <div class="menu-scroller">
-          <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
-          <a href="/books.html" data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
-          <a href="/courses.html" data-lang="en">Mini-Courses</a><a href="/courses.html" data-lang="es">Mini-Cursos</a>
-          <a href="/our-story.html" data-lang="en">Our Story</a><a href="/our-story.html" data-lang="es">Nuestra Historia</a>
-          <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
-        </div>
-        <div class="lang">
-          <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
-          <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
-        </div>
-      </div>
-    </nav>
-  </div>
-</header>
+<header class="site-header"><div class="container">
+  <nav class="navbar">
+    <a class="brand" href="/index.html">Edunancial</a>
+    <div class="menu"><div class="menu-scroller">
+      <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Mini-Courses</a>
+      <a href="/about.html">About Us</a><a href="/our-story.html">Our Story</a><a href="/contact.html">Contact</a>
+    </div><div class="lang"><a href="/es/courses.html">ES</a></div></div>
+  </nav>
+</div></header>
 
 <main class="container">
-  <h2 data-lang="en">Mini-Courses</h2>
-  <h2 data-lang="es">Mini-Cursos</h2>
-  <p class="lead" data-lang="en">Live sessions — one theme each week. Join from your phone.</p>
-  <p class="lead" data-lang="es">Sesiones en vivo — un tema cada semana. Únete desde tu teléfono.</p>
+  <h2>Mini-Courses</h2>
+  <p class="lead">Live sessions — one theme each week. Join from your phone.</p>
 
   <div class="grid">
     <article class="card" id="red">
       <div class="badge red">RED</div>
-      <h3 data-lang="en">Real Estate (Red)</h3>
-      <h3 data-lang="es">Bienes Raíces (Rojo)</h3>
-      <p data-lang="en">Evaluate neighborhoods, deals, and financing—simple steps, real results.</p>
-      <p data-lang="es">Evalúa vecindarios, ofertas y financiamiento—pasos sencillos, resultados reales.</p>
-      <a class="btn btn-red" href="/checkout.html?course=red" data-lang="en">Reserve seat</a>
-      <a class="btn btn-red" href="/checkout.html?course=red" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/red-en.mp3" data-audio-es="/audio/red-es.mp3"></audio>
+      <h3>Real Estate (Red)</h3>
+      <p>Evaluate neighborhoods, deals, and financing—simple steps, real results.</p>
+      <a class="btn btn-red" href="/checkout.html?course=red">Reserve seat</a>
+      <audio controls src="/audio/red-en.mp3"></audio>
     </article>
 
     <article class="card" id="white">
       <div class="badge white">WHITE</div>
-      <h3 data-lang="en">Paper Assets (White)</h3>
-      <h3 data-lang="es">Activos en Papel (Blanco)</h3>
-      <p data-lang="en">Stocks, ETFs, and simple strategies to start investing.</p>
-      <p data-lang="es">Acciones, ETFs y estrategias simples para comenzar a invertir.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="en">Reserve seat</a>
-      <a class="btn btn-blue" href="/checkout.html?course=white" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/white-en.mp3" data-audio-es="/audio/white-es.mp3"></audio>
+      <h3>Paper Assets (White)</h3>
+      <p>Stocks, ETFs, and simple strategies to start investing.</p>
+      <a class="btn btn-blue" href="/checkout.html?course=white">Reserve seat</a>
+      <audio controls src="/audio/white-en.mp3"></audio>
     </article>
 
     <article class="card" id="blue">
       <div class="badge blue">BLUE</div>
-      <h3 data-lang="en">Small Business (Blue)</h3>
-      <h3 data-lang="es">Negocios (Azul)</h3>
-      <p data-lang="en">Turn skills into a side business: pricing, customers, and basics.</p>
-      <p data-lang="es">Convierte habilidades en un negocio: precios, clientes y lo esencial.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="en">Reserve seat</a>
-      <a class="btn btn-blue" href="/checkout.html?course=blue" data-lang="es">Reservar cupo</a>
-      <audio controls data-audio-en="/audio/blue-en.mp3" data-audio-es="/audio/blue-es.mp3"></audio>
+      <h3>Small Business (Blue)</h3>
+      <p>Turn your skills into a side business: pricing, customers, and basics.</p>
+      <a class="btn btn-blue" href="/checkout.html?course=blue">Reserve seat</a>
+      <audio controls src="/audio/blue-en.mp3"></audio>
     </article>
   </div>
 
-  <p style="margin-top:10px" data-lang="en"><em>Zoom link provided after payment.</em></p>
-  <p style="margin-top:10px" data-lang="es"><em>Enlace de Zoom provisto después del pago.</em></p>
+  <p style="margin-top:10px"><em>Zoom link provided after payment.</em></p>
 </main>
 </body>
 </html>
