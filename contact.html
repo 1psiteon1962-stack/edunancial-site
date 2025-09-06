@@ -1,47 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact — Edunancial</title>
-<meta name="description" content="Contact Edunancial for support, partnerships, and media.">
-<style>
-body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#f7f8fb;color:#111}
-header,footer{background:#0b2a4a;color:#fff}
-.wrap{max-width:900px;margin:0 auto;padding:16px}
-input,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px;margin-bottom:10px}
-button{padding:.8rem 1rem;border-radius:12px;border:0;background:#e01e24;color:#fff;font-weight:800;cursor:pointer}
-</style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Edunancial — Contact</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-<header><div class="wrap"><h1 data-i18n="contact_title">Contact Us</h1></div></header>
-<main><div class="wrap">
-<form name="edn-contact" method="POST" data-netlify="true">
-  <input type="hidden" name="form-name" value="edn-contact">
-  <label>Name / <span lang="es">Nombre</span>
-    <input type="text" name="name" required>
-  </label>
-  <label>Email / <span lang="es">Correo</span>
-    <input type="email" name="email" required>
-  </label>
-  <label>Message / <span lang="es">Mensaje</span>
-    <textarea name="message" rows="5" required></textarea>
-  </label>
-  <button type="submit">Send / <span lang="es">Enviar</span></button>
-</form>
-</div></main>
-<footer>
+<header>
   <div class="wrap">
-    <small>© 2025 Edunancial • 
-      <a href="privacy.html">Privacy</a> • 
-      <a href="terms.html">Terms</a> • 
-      <a href="refunds.html">Refunds</a> • 
-      <a href="cookie-policy.html">Cookies</a> • 
-      <a href="data-requests.html#dns">Do-Not-Sell/Share</a> • 
-      <a href="accessibility.html">Accessibility</a> • 
-      <a href="security.html">Security</a>
-    </small>
+    <nav class="edn">
+      <a class="edn-brand" href="/index.html">Edunancial</a>
+      <div class="edn-links">
+        <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
+        <a href="/books.html"  data-lang="en">Books</a><a href="/books.html"  data-lang="es">Libros</a>
+        <a href="/courses.html" data-lang="en">Intro Courses</a><a href="/courses.html" data-lang="es">Cursos Introductorios</a>
+        <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
+      </div>
+      <div class="lang-switch">
+        <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
+        <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
+      </div>
+    </nav>
   </div>
-</footer>
-<script src="shared.js"></script>
+</header>
+
+<main class="wrap" style="padding:20px 0">
+  <h1 data-lang="en">Contact</h1><h1 data-lang="es">Contacto</h1>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+    <label data-lang="en">Name</label><label data-lang="es">Nombre</label><input name="name" required>
+    <label data-lang="en">Email</label><label data-lang="es">Correo</label><input type="email" name="email" required>
+    <label data-lang="en">Message</label><label data-lang="es">Mensaje</label><textarea name="message" rows="6" required></textarea>
+    <button class="btn btn-blue" type="submit" data-lang="en">Send</button>
+    <button class="btn btn-blue" type="submit" data-lang="es">Enviar</button>
+  </form>
+</main>
 </body>
 </html>
