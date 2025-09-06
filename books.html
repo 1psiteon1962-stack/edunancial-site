@@ -7,28 +7,30 @@
   <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <nav class="edn">
-      <a class="edn-brand" href="/index.html">Edunancial</a>
-      <div class="edn-links">
-        <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
-        <a href="/books.html" data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
-        <a href="/courses.html" data-lang="en">Intro Courses</a><a href="/courses.html" data-lang="es">Cursos Introductorios</a>
-        <a href="/our-story.html" data-lang="en">Our Story</a><a href="/our-story.html" data-lang="es">Nuestra Historia</a>
-        <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
-      </div>
-      <div class="lang-switch">
-        <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
-        <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
+<header class="site-header">
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand" href="/index.html">Edunancial</a>
+      <div class="menu">
+        <div class="menu-scroller">
+          <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
+          <a href="/books.html" data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
+          <a href="/courses.html" data-lang="en">Mini-Courses</a><a href="/courses.html" data-lang="es">Mini-Cursos</a>
+          <a href="/our-story.html" data-lang="en">Our Story</a><a href="/our-story.html" data-lang="es">Nuestra Historia</a>
+          <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
+        </div>
+        <div class="lang">
+          <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
+          <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
+        </div>
       </div>
     </nav>
   </div>
 </header>
 
-<main class="wrap" style="padding:20px 0">
-  <h1 data-lang="en">Books</h1>
-  <h1 data-lang="es">Libros</h1>
+<main class="container" style="padding:20px 0">
+  <h2 data-lang="en">Books</h2>
+  <h2 data-lang="es">Libros</h2>
   <p data-lang="en">Curated titles to reinforce the Red, White, and Blue paths.</p>
   <p data-lang="es">Títulos seleccionados para reforzar las rutas Rojo, Blanco y Azul.</p>
 </main>
