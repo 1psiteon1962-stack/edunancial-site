@@ -1,4 +1,4 @@
-/* Reset some default margins */
+/* Reset default margins/paddings */
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -19,24 +19,25 @@ nav {
   text-align: center;
 }
 
-/* Nav links */
+/* Nav links for both EN & ES */
 nav a {
-  color: #000;               /* force black text */
+  color: #000;               /* force black text so it’s always readable */
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
 }
 
-/* Remove purple/blue visited link effect */
+/* Prevent purple visited links */
 nav a:visited {
-  color: #000;               /* stay black even after click */
+  color: #000;
 }
 
+/* Hover effect */
 nav a:hover {
-  color: #ffcc00;            /* highlight yellow on hover (optional) */
+  color: #ffcc00;            /* yellow on hover for visibility */
 }
 
-/* Header section */
+/* Header */
 header {
   text-align: center;
   padding: 20px;
@@ -61,7 +62,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Content area */
+/* Content container */
 .container {
   max-width: 900px;
   margin: auto;
