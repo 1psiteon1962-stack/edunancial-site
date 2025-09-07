@@ -1,30 +1,31 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contacto — Edunancial</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="topbar">
-  <div class="wrap">
-    <div class="brand">Edunancial</div>
-    <nav class="nav">
-      <a href="es-index.html">Inicio</a><a href="es-books.html">Libros</a><a href="es-courses.html">Cursos</a>
-      <a href="es-about.html">Nosotros</a><a href="es-our-story.html">Nuestra Historia</a><a href="es-contact.html">Contacto</a>
-      <div class="lang"><a href="contact.html">EN</a><a class="active">ES</a></div>
-    </nav>
-  </div>
-</header>
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto — Edunancial</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header class="topbar"><div class="wrap">
+  <div class="brand">Edunancial</div>
+  <nav class="nav">
+    <a href="es-index.html">Inicio</a><a href="es-books.html">Libros</a><a href="es-courses.html">Mini-Cursos</a>
+    <a href="es-about.html">Nosotros</a><a href="es-our-story.html">Nuestra Historia</a><a href="es-contact.html">Contacto</a>
+    <a href="es-pamphlet.html">Folleto</a>
+    <div class="lang"><a href="contact.html">EN</a><a class="active">ES</a></div>
+  </nav>
+</div></header>
 
 <main class="wrap">
   <h1>Contacto</h1>
   <div class="card">
     <p>Correo: <a href="mailto:hello@edunancial.com">hello@edunancial.com</a></p>
+    <form name="contacto" method="POST" data-netlify="true" action="/es-thank-you.html">
+      <input type="hidden" name="form-name" value="contacto">
+      <p><label>Nombre<br><input name="nombre" required></label></p>
+      <p><label>Correo<br><input type="email" name="correo" required></label></p>
+      <p><label>Mensaje<br><textarea name="mensaje" rows="6" required></textarea></label></p>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
   </div>
 </main>
 
-<footer class="footer wrap"><span>© Edunancial</span></footer>
-</body>
-</html>
+<footer class="footer wrap">© Edunancial</footer>
+</body></html>
