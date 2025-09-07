@@ -1,30 +1,30 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Edunancial — Contacto</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto — Edunancial</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header"><div class="container">
-  <nav class="navbar">
-    <a class="brand" href="/es/index.html">Edunancial</a>
-    <div class="menu"><div class="menu-scroller">
-      <a href="/es/index.html">Inicio</a><a href="/es/books.html">Libros</a><a href="/es/courses.html">Mini-Cursos</a>
-      <a href="/es/about.html">Sobre Nosotros</a><a href="/es/our-story.html">Nuestra Historia</a><a href="/es/contact.html">Contacto</a>
-    </div><div class="lang"><a href="/contact.html">EN</a></div></div>
-  </nav>
-</div></header>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">Edunancial</div>
+    <nav class="nav">
+      <a href="es-index.html">Inicio</a><a href="es-books.html">Libros</a><a href="es-courses.html">Cursos</a>
+      <a href="es-about.html">Nosotros</a><a href="es-our-story.html">Nuestra Historia</a><a href="es-contact.html">Contacto</a>
+      <div class="lang"><a href="contact.html">EN</a><a class="active">ES</a></div>
+    </nav>
+  </div>
+</header>
 
-<main class="container" style="padding:20px 0">
-  <h2>Contacto</h2>
-  <form name="contacto" method="POST" data-netlify="true" class="card" style="max-width:640px">
-    <input type="hidden" name="form-name" value="contacto">
-    <label>Nombre</label><input name="nombre" required>
-    <label>Correo</label><input type="email" name="correo" required>
-    <label>Mensaje</label><textarea name="mensaje" rows="6" required></textarea>
-    <button class="btn btn-blue" type="submit">Enviar</button>
-  </form>
+<main class="wrap">
+  <h1>Contacto</h1>
+  <div class="card">
+    <p>Correo: <a href="mailto:hello@edunancial.com">hello@edunancial.com</a></p>
+  </div>
 </main>
+
+<footer class="footer wrap"><span>© Edunancial</span></footer>
 </body>
 </html>
