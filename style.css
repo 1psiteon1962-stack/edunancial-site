@@ -1,60 +1,69 @@
-/* ===============================
-   Edunancial — Red • White • Blue
-   =============================== */
-:root{
-  --red:#c4002f;
-  --blue:#082b47;
-  --white:#ffffff;
-  --ink:#111827;
-  --muted:#6b7280;
-  --radius:16px;
-  --shadow:0 10px 24px rgba(0,0,0,.06);
+/* Reset some default margins */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%}
-body{
-  font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  color:var(--ink); background:#fff; -webkit-font-smoothing:antialiased;
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #000;
 }
 
-/* ===== Header & Nav ===== */
-.topbar{background:var(--blue);color:#fff;border-bottom:4px solid var(--red)}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-.brand{font-weight:800;font-size:28px;letter-spacing:.2px;padding:16px 0}
-.nav{display:flex;flex-wrap:wrap;gap:18px;align-items:center;padding:0 0 12px}
-.nav a,.nav a:visited{color:#f8fbff;text-decoration:none;font-weight:600}
-.nav a:hover{color:#fff;text-decoration:underline}
-.lang{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.lang a{display:inline-block;border:1px solid #fff;color:#fff;padding:6px 10px;border-radius:999px;font-weight:800}
-.lang a.active{background:#fff;color:var(--blue)}
+/* Navigation bar */
+nav {
+  background-color: #003366; /* dark blue */
+  padding: 10px;
+  text-align: center;
+}
 
-/* ===== Layout ===== */
-main.wrap{padding:24px 20px}
-.hero{padding:28px 0 10px}
-.hero h1{font-size:38px;line-height:1.15;margin-bottom:8px}
-.sub{color:#334155;max-width:760px;margin-bottom:16px}
-.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
-.cta-row a{color:var(--blue);font-weight:700}
+/* Nav links */
+nav a {
+  color: #000;               /* force black text */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
 
-/* Cards & Sections */
-h1,h2,h3{color:var(--blue)}
-h2{font-size:30px;margin:22px 0 10px}
-.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;margin:14px 0}
-.card h3{margin:0 0 6px;font-size:22px;color:var(--red)}
-.card p{margin:8px 0 12px;color:#374151}
-.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;padding:10px 16px;border-radius:999px;font-weight:800}
-.btn.outline{background:#fff;border:2px solid var(--blue);color:var(--blue)}
+/* Remove purple/blue visited link effect */
+nav a:visited {
+  color: #000;               /* stay black even after click */
+}
 
-.grid{display:grid;gap:16px}
-@media(min-width:720px){.grid.cols-2{grid-template-columns:1fr 1fr}}
-@media(min-width:960px){.grid.cols-3{grid-template-columns:1fr 1fr 1fr}}
+nav a:hover {
+  color: #ffcc00;            /* highlight yellow on hover (optional) */
+}
 
-/* PDF embed & utility */
-.pdf-frame{width:100%;height:80vh;border:1px solid #e5e7eb;border-radius:14px;background:#fff}
-.download{margin:1rem 0 2rem;display:inline-block;padding:.75rem 1rem;border-radius:9999px;border:2px solid var(--red);font-weight:800;color:var(--red);text-decoration:none}
-.download:hover{background:var(--red);color:#fff}
+/* Header section */
+header {
+  text-align: center;
+  padding: 20px;
+}
 
-.audio{margin-top:10px}
-.footer{margin:40px 0 0;padding:18px 0;color:var(--muted);font-size:14px;border-top:1px solid #eee}
-.footer a{color:var(--muted)}
+/* Footer */
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Content area */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
