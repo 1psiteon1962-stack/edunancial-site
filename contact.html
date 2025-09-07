@@ -4,42 +4,26 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Edunancial — Contact</title>
   <link rel="stylesheet" href="/style.css">
-  <script src="/shared-edn.js" defer></script>
 </head>
 <body>
-<header class="site-header">
-  <div class="container">
-    <nav class="navbar">
-      <a class="brand" href="/index.html">Edunancial</a>
-      <div class="menu">
-        <div class="menu-scroller">
-          <a href="/index.html" data-lang="en">Home</a><a href="/index.html" data-lang="es">Inicio</a>
-          <a href="/books.html" data-lang="en">Books</a><a href="/books.html" data-lang="es">Libros</a>
-          <a href="/courses.html" data-lang="en">Mini-Courses</a><a href="/courses.html" data-lang="es">Mini-Cursos</a>
-          <a href="/our-story.html" data-lang="en">Our Story</a><a href="/our-story.html" data-lang="es">Nuestra Historia</a>
-          <a href="/contact.html" data-lang="en">Contact</a><a href="/contact.html" data-lang="es">Contacto</a>
-        </div>
-        <div class="lang">
-          <button type="button" data-setlang="en" onclick="setLang('en')">EN</button>
-          <button type="button" data-setlang="es" onclick="setLang('es')">ES</button>
-        </div>
-      </div>
-    </nav>
-  </div>
-</header>
+<header class="site-header"><div class="container">
+  <nav class="navbar">
+    <a class="brand" href="/index.html">Edunancial</a>
+    <div class="menu"><div class="menu-scroller">
+      <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Mini-Courses</a>
+      <a href="/about.html">About Us</a><a href="/our-story.html">Our Story</a><a href="/contact.html">Contact</a>
+    </div><div class="lang"><a href="/es/contact.html">ES</a></div></div>
+  </nav>
+</div></header>
 
 <main class="container" style="padding:20px 0">
-  <h2 data-lang="en">Contact</h2><h2 data-lang="es">Contacto</h2>
+  <h2>Contact</h2>
   <form name="contact" method="POST" data-netlify="true" class="card" style="max-width:640px">
     <input type="hidden" name="form-name" value="contact">
-    <label data-lang="en">Name</label><label data-lang="es">Nombre</label>
-    <input name="name" required>
-    <label data-lang="en">Email</label><label data-lang="es">Correo</label>
-    <input type="email" name="email" required>
-    <label data-lang="en">Message</label><label data-lang="es">Mensaje</label>
-    <textarea name="message" rows="6" required></textarea>
-    <button class="btn btn-blue" type="submit" data-lang="en">Send</button>
-    <button class="btn btn-blue" type="submit" data-lang="es">Enviar</button>
+    <label>Name</label><input name="name" required>
+    <label>Email</label><input type="email" name="email" required>
+    <label>Message</label><textarea name="message" rows="6" required></textarea>
+    <button class="btn btn-blue" type="submit">Send</button>
   </form>
 </main>
 </body>
