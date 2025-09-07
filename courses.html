@@ -1,52 +1,69 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Edunancial — Mini-Courses</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header"><div class="container">
-  <nav class="navbar">
-    <a class="brand" href="/index.html">Edunancial</a>
-    <div class="menu"><div class="menu-scroller">
-      <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Mini-Courses</a>
-      <a href="/about.html">About Us</a><a href="/our-story.html">Our Story</a><a href="/contact.html">Contact</a>
-    </div><div class="lang"><a href="/es/courses.html">ES</a></div></div>
-  </nav>
-</div></header>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">Edunancial</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="courses.html">Mini-Courses</a>
+      <a href="about.html">About Us</a>
+      <a href="our-story.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+      <div class="lang"><a class="active">EN</a><a href="es-courses.html">ES</a></div>
+    </nav>
+  </div>
+</header>
 
-<main class="container">
-  <h2>Mini-Courses</h2>
-  <p class="lead">Live sessions — one theme each week. Join from your phone.</p>
+<main class="wrap">
+  <section class="hero">
+    <h1>Mini-Courses</h1>
+    <p class="sub">Live sessions — one theme each week. Join from your phone.</p>
+  </section>
 
-  <div class="grid">
-    <article class="card" id="red">
-      <div class="badge red">RED</div>
-      <h3>Real Estate (Red)</h3>
-      <p>Evaluate neighborhoods, deals, and financing—simple steps, real results.</p>
-      <a class="btn btn-red" href="/checkout.html?course=red">Reserve seat</a>
-      <audio controls src="/audio/red-en.mp3"></audio>
-    </article>
-
-    <article class="card" id="white">
-      <div class="badge white">WHITE</div>
-      <h3>Paper Assets (White)</h3>
-      <p>Stocks, ETFs, and simple strategies to start investing.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=white">Reserve seat</a>
-      <audio controls src="/audio/white-en.mp3"></audio>
-    </article>
-
-    <article class="card" id="blue">
-      <div class="badge blue">BLUE</div>
-      <h3>Small Business (Blue)</h3>
-      <p>Turn your skills into a side business: pricing, customers, and basics.</p>
-      <a class="btn btn-blue" href="/checkout.html?course=blue">Reserve seat</a>
-      <audio controls src="/audio/blue-en.mp3"></audio>
-    </article>
+  <div id="red" class="card">
+    <h3>Real Estate (Red)</h3>
+    <p>Evaluate neighborhoods, deals, and financing — simple steps, real results.</p>
+    <a class="btn" href="checkout.html">Reserve seat</a>
+    <div class="audio">
+      <audio controls preload="none">
+        <source src="audio/red-en.mp3" type="audio/mpeg">
+      </audio>
+    </div>
   </div>
 
-  <p style="margin-top:10px"><em>Zoom link provided after payment.</em></p>
+  <div id="white" class="card">
+    <h3>Paper Assets (White)</h3>
+    <p>Stocks, ETFs, and beginner strategies to start investing.</p>
+    <a class="btn" href="checkout.html">Reserve seat</a>
+    <div class="audio">
+      <audio controls preload="none">
+        <source src="audio/white-en.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <div id="blue" class="card">
+    <h3>Business (Blue)</h3>
+    <p>From idea to income — learn simple ways to start and grow.</p>
+    <a class="btn" href="checkout.html">Reserve seat</a>
+    <div class="audio">
+      <audio controls preload="none">
+        <source src="audio/blue-en.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
 </main>
+
+<footer class="footer wrap">
+  <span>© Edunancial</span> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+</footer>
 </body>
 </html>
