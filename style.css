@@ -1,10 +1,9 @@
-/* Reset default margins/paddings */
+/* Reset defaults */
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* General body styling */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -14,27 +13,27 @@ body {
 
 /* Navigation bar */
 nav {
-  background-color: #003366; /* dark blue */
-  padding: 10px;
+  background-color: #003366; /* dark blue banner */
+  padding: 12px;
   text-align: center;
 }
 
-/* Nav links for both EN & ES */
+/* Nav links */
 nav a {
-  color: #000;               /* force black text so it’s always readable */
+  color: #000;               /* force black so it’s readable */
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;            /* spacing between links */
   font-weight: bold;
+  font-size: 16px;
 }
 
-/* Prevent purple visited links */
 nav a:visited {
-  color: #000;
+  color: #000;               /* keep black, no purple */
 }
 
-/* Hover effect */
 nav a:hover {
-  color: #ffcc00;            /* yellow on hover for visibility */
+  color: #ffcc00;            /* yellow on hover */
+  text-decoration: underline;
 }
 
 /* Header */
@@ -62,7 +61,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Content container */
+/* Page container */
 .container {
   max-width: 900px;
   margin: auto;
