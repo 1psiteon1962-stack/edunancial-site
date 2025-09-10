@@ -163,14 +163,14 @@
     const paymentRequest = payments.paymentRequest({
       countryCode: "US",
       currencyCode: "USD",
-      total: { amount: "1.00", label: "Edunancial" } // will be updated on click with real amount
+      total: { amount: "1.00", label: "Edunancial" } // updated on click
     });
 
-    // Try Apple Pay
+    // Apple Pay
     try {
       const applePay = await payments.applePay(paymentRequest);
-      const appleAvailable = await applePay.canMakePayment();
-      if (appleAvailable) {
+      const available = await applePay.canMakePayment();
+      if (available) {
         const btn = document.createElement("div");
         btn.id = "apple-pay-button";
         $("#wallets").appendChild(btn);
@@ -179,7 +179,7 @@
       }
     } catch(_) {}
 
-    // Try Google Pay
+    // Google Pay
     try {
       const gpay = await payments.googlePay(paymentRequest);
       const gAvailable = await gpay.canMakePayment();
@@ -192,7 +192,7 @@
       }
     } catch(_) {}
 
-    // Try Cash App Pay (web)
+    // Cash App Pay
     try {
       const cashApp = await payments.cashAppPay(paymentRequest, { redirectURL: window.location.href });
       const caAvailable = await cashApp.canMakePayment();
