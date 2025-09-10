@@ -1,112 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Secure Payment - Edunancial</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pay Edunancial</title>
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .pay-box {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 400px;
-      width: 100%;
-      text-align: center;
-    }
-    h1 {
-      margin-bottom: 1rem;
-      color: #0d6efd;
-    }
-    label {
-      display: block;
-      margin: 0.5rem 0 0.25rem;
-      font-weight: bold;
-    }
-    input {
-      width: 100%;
-      padding: 0.6rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    button {
-      background: #0d6efd;
-      color: white;
-      border: none;
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #0b5ed7;
-    }
-    #status {
-      margin-top: 1rem;
-      font-weight: bold;
-    }
-    .lang {
-      display:block;
-      margin-top:.75rem;
-      font-size:.95rem;
-      text-decoration:none;
-      color:#0d6efd;
-    }
+    body { font-family: Arial, sans-serif; background:#f9fafb; }
+    .pay-wrap { max-width: 520px; margin: 2rem auto; padding: 1.5rem; border-radius: 12px; border: 1px solid #e5e7eb; background:#fff; }
+    h1 { margin-bottom: 1rem; }
+    .row { margin: 0.75rem 0; }
+    .muted { color:#6b7280; font-size:.9rem }
+    button { width: 100%; padding: 0.9rem 1rem; font-weight: 700; border-radius: 10px; border: 0; background: #0f172a; color: #fff; cursor:pointer }
+    label { display:block; font-weight:600; margin-bottom:0.25rem; }
+    input[type="number"]{ width:100%; padding:0.6rem; border:1px solid #d1d5db; border-radius:8px; }
+    #card-container { margin: 0.5rem 0 1rem; }
+    #message { margin-top: 1rem; font-weight: 600; }
   </style>
+  <!-- Square Web Payments SDK (PRODUCTION) -->
+  <script src="https://web.squarecdn.com/v1/square.js"></script>
 </head>
 <body>
-  <div class="pay-box">
-    <h1>Edunancial Payment</h1>
-    <p>Enter the amount and complete your payment securely.</p>
+  <main class="pay-wrap">
+    <h1>Secure Payment</h1>
+    <p class="muted">Amounts are in cents (e.g., 2500 = $25.00). Or use preset buttons elsewhere on the site.</p>
 
-    <label for="amount">Amount (USD)</label>
-    <input id="amount" type="number" min="1" step="0.01" value="10.00" />
+    <div class="row">
+      <label for="amount">Amount (USD cents)</label>
+      <input id="amount" type="number" min="50" step="1" placeholder="e.g. 2500 for $25.00" />
+    </div>
 
-    <label for="item">Item Description</label>
-    <input id="item" type="text" value="Edunancial Membership" />
-
-    <button onclick="payNow()">Pay Now</button>
-    <div id="status"></div>
-
-    <a class="lang" href="/es-payments.html">Español</a>
-  </div>
+    <div id="card-container"></div>
+    <button id="pay-btn">Pay Now</button>
+    <div id="message"></div>
+  </main>
 
   <script>
-    async function payNow() {
-      const amountInput = document.getElementById("amount").value;
-      const itemName = document.getElementById("item").value;
-      const amountCents = Math.round(parseFloat(amountInput) * 100);
+    // 🔴 EDIT THIS ONE LINE ONLY (public value):
+    const SQUARE_APP_ID = "REPLACE_WITH_YOUR_PRODUCTION_APPLICATION_ID";
 
-      document.getElementById("status").innerText = "Processing…";
+    // Toggle sandbox vs production environment
+    const USE_SANDBOX = false;
 
-      try {
-        const response = await fetch("/api/square-checkout", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ itemName, amount: amountCents }),
-        });
-
-        const data = await response.json();
-        if (data.url) {
-          window.location.href = data.url; // redirect to Square hosted checkout
-        } else {
-          document.getElementById("status").innerText = "❌ " + (data.error || "Payment failed");
-        }
-      } catch (err) {
-        document.getElementById("status").innerText = "❌ " + err.message;
-      }
+    function getQueryParam(name){
+      const url = new URL(window.location.href);
+      const val = url.searchParams.get(name);
+      return val ? val.trim() : "";
     }
+
+    // Pre-fill amount from ?amount=
+    (function presetAmount(){
+      const q = getQueryParam("amount");
+      if(!q) return;
+      const raw = Number(q);
+      if(!Number.isFinite(raw)) return;
+      const cents = raw >= 100 ? raw : Math.round(raw * 100);
+      document.getElementById("amount").value = String(cents);
+    })();
+
+    async function init() {
+      const msg = document.getElementById("message");
+      if (!window.Square) {
+        msg.textContent = "Square.js failed to load. Check network/ad blockers.";
+        return;
+      }
+
+      const payments = window.Square.payments(SQUARE_APP_ID, USE_SANDBOX ? "SANDBOX" : "PRODUCTION");
+      const card = await payments.card();
+      await card.attach("#card-container");
+
+      document.getElementById("pay-btn").addEventListener("click", async () => {
+        const amount = Number(document.getElementById("amount").value);
+        msg.textContent = "";
+
+        if (!Number.isFinite(amount) || amount < 50) {
+          msg.textContent = "Enter a valid amount in cents (minimum 50).";
+          return;
+        }
+
+        try {
+          const result = await card.tokenize();
+          if (result.status !== "OK") {
+            msg.textContent = "Card error: " + (result.errors?.[0]?.message || result.status);
+            return;
+          }
+
+          const res = await fetch("/api/square-checkout", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              amount,
+              currency: "USD",
+              sourceId: result.token,
+              note: "Edunancial website"
+            })
+          });
+
+          const data = await res.json();
+          if (!res.ok || !data.ok) {
+            msg.textContent = "Payment failed: " + (data.error || "Unknown error");
+            console.error("Square error:", data.details || data);
+            return;
+          }
+
+          // Redirect to thank-you page
+          const pid = encodeURIComponent(data.payment.id);
+          const amt = encodeURIComponent(amount);
+          window.location.href = `/thank-you.html?pid=${pid}&amount=${amt}`;
+        } catch (e) {
+          msg.textContent = "Payment error: " + e.message;
+          console.error(e);
+        }
+      });
+    }
+    init();
   </script>
 </body>
 </html>
