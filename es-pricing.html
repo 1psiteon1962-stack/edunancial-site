@@ -3,55 +3,117 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Precios — Edunancial</title>
-  <link rel="stylesheet" href="/style.css" />
+  <title>Edunancial — Precios</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Banner: red background with black letters */
+    header.header { background:#cc0000; color:#000; }
+    header.header a { color:#000; font-weight:600; }
+
+    /* Layout */
+    .container { max-width: 980px; margin: 0 auto; padding: 1.25rem; }
+    .center { text-align: center; }
+    .grid { display: grid; gap: 1rem; }
+    @media (min-width: 800px){ .grid-3 { grid-template-columns: repeat(3,1fr); } }
+
+    /* Cards */
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; background:#fff; }
+    .card h3 { margin-top: .25rem; margin-bottom: .5rem; }
+    .muted { color:#6b7280; }
+
+    /* Payment buttons */
+    .btn, .pay-btn { display:inline-block; padding:.8rem 1.2rem; border-radius:10px; font-weight:700; text-decoration:none; }
+    .pay-btn { background:#111827; color:#fff; border:0; }
+    .btn--light { background:#fff; color:#111; border:1px solid #d1d5db; }
+    .btn + .btn, .pay-btn + .pay-btn { margin-left:.5rem; }
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/es-index.html">Inicio</a>
-    <a href="/es-books.html">Libros</a>
-    <a href="/es-mini-courses.html">Mini-Cursos</a>
-    <a href="/es-about.html">Quiénes somos</a>
-    <a href="/es-story.html">Nuestra historia</a>
-    <a href="/es-contact.html">Contacto</a>
-    <a href="/pricing.html" class="lang">EN</a>
-  </nav>
+
+<header class="header">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap">
+    <a class="brand" href="es-index.html" style="font-weight:800;text-decoration:none;color:#000">Edunancial</a>
+    <nav class="header-nav" style="display:flex;gap:.9rem;flex-wrap:wrap">
+      <a href="es-books.html">Libros</a>
+      <a href="es-courses.html">Mini-Cursos</a>
+      <a href="es-about.html">Acerca de</a>
+      <a href="es-our-story.html">Nuestra Historia</a>
+      <a href="es-contact.html">Contacto</a>
+      <a href="es-pamphlet.html">Folleto</a>
+      <a href="pricing.html">EN</a>
+    </nav>
+  </div>
 </header>
 
 <main class="container">
-  <h1>Precios Simples</h1>
-  <p>Lecciones cortas. Pasos claros. Resultados reales.</p>
+  <h1 class="center">Precios</h1>
+  <p class="center muted">Clases prácticas, pasos claros. Reserve su lugar o adquiera materiales al instante.</p>
 
-  <section class="cards">
-    <article class="card">
-      <h2>Bienes Raíces (Rojo)</h2>
-      <p>Evalúa vecindarios, ofertas y financiamiento.</p>
-      <a class="btn" href="https://square.link/YOUR_REAL_ESTATE_LINK">Comprar</a>
-    </article>
+  <!-- Mini-Cursos -->
+  <section style="margin-top:1.5rem">
+    <h2 class="center">Mini-Cursos (en vivo)</h2>
+    <div class="grid grid-3" style="margin-top:1rem">
+      <article class="card center">
+        <h3>Bienes Raíces (Rojo)</h3>
+        <p class="muted">Vecindarios, ofertas y financiamiento. Resultados reales.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_RED" target="_blank" rel="noopener">Reservar cupo</a>
+      </article>
 
-    <article class="card">
-      <h2>Activos en Papel (Blanco)</h2>
-      <p>Acciones, ETFs y estrategias simples para empezar.</p>
-      <a class="btn" href="https://square.link/YOUR_PAPER_ASSETS_LINK">Comprar</a>
-    </article>
+      <article class="card center">
+        <h3>Activos en Papel (Blanco)</h3>
+        <p class="muted">Acciones, ETFs y rutinas sencillas para empezar a invertir.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_WHITE" target="_blank" rel="noopener">Reservar cupo</a>
+      </article>
 
-    <article class="card">
-      <h2>Negocios (Azul)</h2>
-      <p>Inicia o crece un pequeño negocio con pasos claros.</p>
-      <a class="btn" href="https://square.link/YOUR_BUSINESS_LINK">Comprar</a>
-    </article>
+      <article class="card center">
+        <h3>Negocios (Azul)</h3>
+        <p class="muted">Ideas, validación y números básicos para crecer.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_BLUE" target="_blank" rel="noopener">Reservar cupo</a>
+      </article>
+    </div>
+  </section>
 
-    <article class="card highlight">
-      <h2>Paquete Completo</h2>
-      <p>Los tres caminos. Mejor valor.</p>
-      <a class="btn btn-primary" href="https://square.link/YOUR_BUNDLE_LINK">Comprar paquete</a>
-    </article>
+  <!-- Libros / Materiales -->
+  <section style="margin-top:2rem">
+    <h2 class="center">Libros y Materiales</h2>
+    <div class="grid grid-3" style="margin-top:1rem">
+      <article class="card center">
+        <h3>Guía Rápida — Rojo</h3>
+        <p class="muted">Bienes raíces en una página.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_RED" target="_blank" rel="noopener">Comprar</a>
+      </article>
+
+      <article class="card center">
+        <h3>Guía Rápida — Blanco</h3>
+        <p class="muted">ETF básico y plan inicial.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_WHITE" target="_blank" rel="noopener">Comprar</a>
+      </article>
+
+      <article class="card center">
+        <h3>Guía Rápida — Azul</h3>
+        <p class="muted">Pasos esenciales para un negocio simple.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_BLUE" target="_blank" rel="noopener">Comprar</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Apoyo / Pago libre -->
+  <section class="card center" style="margin-top:2rem">
+    <h2>Apoye Edunancial</h2>
+    <p class="muted">Si desea contribuir con cualquier monto para becas o materiales, gracias.</p>
+    <a class="btn btn--light" href="https://square.link/u/URL_ANY" target="_blank" rel="noopener">Pagar cualquier monto</a>
   </section>
 </main>
 
-<footer class="site-footer">
-  <p>© Edunancial · <a href="/privacy_es.html">Privacidad</a> · <a href="/terms_es.html">Términos</a> · <a href="/cookie-policy_es.html">Cookies</a></p>
+<footer class="container center" style="margin-top:2rem">
+  <p>&copy; 2025 Edunancial. Todos los derechos reservados.</p>
 </footer>
+
 </body>
 </html>
