@@ -1,48 +1,119 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pricing – Edunancial</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial — Pricing</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Banner: red background with black letters */
+    header.header { background:#cc0000; color:#000; }
+    header.header a { color:#000; font-weight:600; }
+
+    /* Layout helpers */
+    .container { max-width: 980px; margin: 0 auto; padding: 1.25rem; }
+    .center { text-align: center; }
+    .grid { display: grid; gap: 1rem; }
+    @media (min-width: 800px){ .grid-3 { grid-template-columns: repeat(3,1fr); } }
+
+    /* Cards */
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; background:#fff; }
+    .card h3 { margin-top: .25rem; margin-bottom: .5rem; }
+    .muted { color:#6b7280; }
+
+    /* Buttons (also used sitewide) */
+    .btn, .pay-btn { display:inline-block; padding:.8rem 1.2rem; border-radius:10px; font-weight:700; text-decoration:none; }
+    .pay-btn { background:#111827; color:#fff; border:0; }
+    .btn--light { background:#fff; color:#111; border:1px solid #d1d5db; }
+    .btn + .btn, .pay-btn + .pay-btn { margin-left:.5rem; }
+  </style>
 </head>
 <body>
+
 <header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="brand">Edunancial</a>
-    <nav class="header-nav">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap">
+    <a class="brand" href="index.html" style="font-weight:800;text-decoration:none;color:#000">Edunancial</a>
+    <nav class="header-nav" style="display:flex;gap:.9rem;flex-wrap:wrap">
       <a href="books.html">Books</a>
-      <a href="mini-courses.html">Mini-Courses</a>
+      <a href="courses.html">Mini-Courses</a>
       <a href="about.html">About</a>
       <a href="our-story.html">Our Story</a>
       <a href="contact.html">Contact</a>
       <a href="pamphlet.html">Pamphlet</a>
-      <a href="es-index.html">ES</a>
+      <a href="es-pricing.html">ES</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <h1>Pricing</h1>
-  <p>Select your preferred plan or reserve your seat in a course:</p>
+  <h1 class="center">Pricing</h1>
+  <p class="center muted">Practical sessions, clear steps. Reserve your seat or grab materials instantly.</p>
 
-  <section class="section card center">
-    <h2>Mini-Course Seat</h2>
-    <p>Join any weekly session</p>
-    <a class="pay-btn" href="https://square.link/u/URL_RED" target="_blank">Reserve Seat – Real Estate</a>
-    <a class="pay-btn" href="https://square.link/u/URL_WHITE" target="_blank">Reserve Seat – Paper Assets</a>
-    <a class="pay-btn" href="https://square.link/u/URL_BLUE" target="_blank">Reserve Seat – Business</a>
+  <!-- Mini-Courses -->
+  <section style="margin-top:1.5rem">
+    <h2 class="center">Mini-Courses (Live)</h2>
+    <div class="grid grid-3" style="margin-top:1rem">
+      <article class="card center">
+        <h3>Real Estate (Red)</h3>
+        <p class="muted">Neighborhoods, deals, and financing—simple steps, real results.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_RED" target="_blank" rel="noopener">Reserve Seat</a>
+      </article>
+
+      <article class="card center">
+        <h3>Paper Assets (White)</h3>
+        <p class="muted">Stocks, ETFs, and easy routines to start investing.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_WHITE" target="_blank" rel="noopener">Reserve Seat</a>
+      </article>
+
+      <article class="card center">
+        <h3>Business (Blue)</h3>
+        <p class="muted">Ideas, validation, and basic numbers you can use.</p>
+        <p style="font-size:1.35rem;font-weight:800;margin:.5rem 0">$49 USD</p>
+        <a class="pay-btn" href="https://square.link/u/URL_BLUE" target="_blank" rel="noopener">Reserve Seat</a>
+      </article>
+    </div>
   </section>
 
-  <section class="section card center">
+  <!-- Books / Materials -->
+  <section style="margin-top:2rem">
+    <h2 class="center">Books & Materials</h2>
+    <div class="grid grid-3" style="margin-top:1rem">
+      <article class="card center">
+        <h3>Quick Guide — Red</h3>
+        <p class="muted">Real estate on one page.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_RED" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+
+      <article class="card center">
+        <h3>Quick Guide — White</h3>
+        <p class="muted">ETF basics & a starter plan.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_WHITE" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+
+      <article class="card center">
+        <h3>Quick Guide — Blue</h3>
+        <p class="muted">Essential steps for a simple business.</p>
+        <p style="font-size:1.2rem;font-weight:800;margin:.5rem 0">$12 USD</p>
+        <a class="btn btn--light" href="https://square.link/u/URL_BOOK_BLUE" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Support / Pay any amount -->
+  <section class="card center" style="margin-top:2rem">
     <h2>Support Edunancial</h2>
-    <p>Pay any amount</p>
-    <a class="btn btn--light" href="https://square.link/u/URL_ANY" target="_blank">Pay Any Amount</a>
+    <p class="muted">Contribute any amount toward scholarships or materials—thank you.</p>
+    <a class="btn btn--light" href="https://square.link/u/URL_ANY" target="_blank" rel="noopener">Pay Any Amount</a>
   </section>
 </main>
 
-<footer class="container center">
+<footer class="container center" style="margin-top:2rem">
   <p>&copy; 2025 Edunancial. All rights reserved.</p>
 </footer>
+
 </body>
 </html>
