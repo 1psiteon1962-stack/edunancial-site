@@ -1,261 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pay • Edunancial</title>
-  <link rel="preconnect" href="https://web.squarecdn.com" crossorigin>
-  <script src="https://web.squarecdn.com/v1/square.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Payment - Edunancial</title>
   <style>
-    :root { --blue:#0c3c78; --accent:#c62828; --bg:#fafafa; --ok:#2e7d32; --err:#d32f2f; }
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);margin:0;color:#111;}
-    header{background:#0b274d;color:#fff;padding:18px}
-    header .brand{font-weight:700;font-size:20px}
-    main{max-width:900px;margin:24px auto;padding:16px}
-    .card{background:#fff;border-radius:14px;box-shadow:0 3px 18px rgba(0,0,0,.07);padding:20px}
-    h1{margin:.2rem 0 1rem;font-size:26px}
-    .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-    label{display:block;font-weight:600;margin:.6rem 0 .35rem}
-    input,select,button{width:100%;padding:12px;border:1px solid #cfd8dc;border-radius:10px;font-size:16px}
-    button{background:var(--blue);color:#fff;border:none;cursor:pointer;font-weight:700}
-    button:disabled{opacity:.5;cursor:not-allowed}
-    .note{font-size:14px;color:#555}
-    .status{margin-top:14px;font-size:14px}
-    .ok{color:var(--ok)} .err{color:var(--err)}
-    .lang-toggle{display:flex;gap:8px;margin-bottom:12px}
-    .lang-toggle button{background:#eceff1;color:#111}
-    .lang-toggle .active{background:#111;color:#fff}
-    .amounts{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 12px}
-    .chip{padding:10px 14px;border-radius:999px;border:1px solid #cfd8dc;background:#fff;cursor:pointer}
-    .chip.active{background:#0b274d;color:#fff;border-color:#0b274d}
-    .wallets{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
-    .divider{margin:12px 0;text-align:center;color:#777;font-size:14px}
-    @media (max-width:680px){ .row{grid-template-columns:1fr} }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .pay-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 1rem;
+      color: #0d6efd;
+    }
+    label {
+      display: block;
+      margin: 0.5rem 0 0.25rem;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #0d6efd;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0b5ed7;
+    }
+    #status {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .lang {
+      display:block;
+      margin-top:.75rem;
+      font-size:.95rem;
+      text-decoration:none;
+      color:#0d6efd;
+    }
   </style>
 </head>
 <body>
-<header><div class="brand">Edunancial</div></header>
-<main>
-  <div class="card">
-    <div class="lang-toggle">
-      <button id="btn-en" class="active" type="button">English</button>
-      <button id="btn-es" type="button">Español</button>
-    </div>
+  <div class="pay-box">
+    <h1>Edunancial Payment</h1>
+    <p>Enter the amount and complete your payment securely.</p>
 
-    <h1 data-i18n="title">Secure Payment</h1>
-    <p class="note" data-i18n="subtitle">
-      Pay securely with your credit/debit card or digital wallet. You’ll receive an email receipt.
-    </p>
+    <label for="amount">Amount (USD)</label>
+    <input id="amount" type="number" min="1" step="0.01" value="10.00" />
 
-    <form id="pay-form">
-      <div class="row">
-        <div>
-          <label for="firstName" data-i18n="firstName">First name</label>
-          <input id="firstName" name="firstName" autocomplete="given-name" required />
-        </div>
-        <div>
-          <label for="lastName" data-i18n="lastName">Last name</label>
-          <input id="lastName" name="lastName" autocomplete="family-name" required />
-        </div>
-      </div>
+    <label for="item">Item Description</label>
+    <input id="item" type="text" value="Edunancial Membership" />
 
-      <label for="email" data-i18n="email">Email</label>
-      <input id="email" name="email" type="email" autocomplete="email" required />
+    <button onclick="payNow()">Pay Now</button>
+    <div id="status"></div>
 
-      <div class="row">
-        <div>
-          <label data-i18n="amount">Amount (USD)</label>
-          <div class="amounts">
-            <button class="chip" type="button" data-amt="2500">$25</button>
-            <button class="chip" type="button" data-amt="5000">$50</button>
-            <button class="chip" type="button" data-amt="10000">$100</button>
-            <button class="chip" type="button" data-amt="0" id="chip-custom" data-i18n="chipCustom">Custom</button>
-          </div>
-          <input id="amount" name="amount" type="number" step="0.01" min="1" placeholder="25.00" required />
-        </div>
-        <div>
-          <label for="purpose" data-i18n="purpose">Purpose</label>
-          <select id="purpose" name="purpose">
-            <option value="course" data-i18n="optCourse">Course / Class</option>
-            <option value="book" data-i18n="optBook">Book</option>
-            <option value="consult" data-i18n="optConsult">Consultation</option>
-            <option value="donation" data-i18n="optDonation">Donation / Support</option>
-            <option value="other" data-i18n="optOther">Other</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="wallets" id="wallets"></div>
-      <div class="divider" data-i18n="orPayCard">— or pay with card —</div>
-
-      <label data-i18n="cardLabel">Card details</label>
-      <div id="card-container" style="margin:8px 0 14px;"></div>
-
-      <button id="card-button" type="submit">
-        <span data-i18n="payNow">Pay now</span>
-      </button>
-      <div id="status" class="status"></div>
-    </form>
+    <a class="lang" href="/es-payments.html">Español</a>
   </div>
-</main>
 
-<script>
-  // ---------- i18n ----------
-  const STR = {
-    en: {
-      title:"Secure Payment",
-      subtitle:"Pay securely with your credit/debit card or digital wallet. You’ll receive an email receipt.",
-      firstName:"First name", lastName:"Last name", email:"Email",
-      amount:"Amount (USD)", chipCustom:"Custom",
-      purpose:"Purpose", cardLabel:"Card details",
-      optCourse:"Course / Class", optBook:"Book", optConsult:"Consultation", optDonation:"Donation / Support", optOther:"Other",
-      orPayCard:"— or pay with card —",
-      payNow:"Pay now", processing:"Processing…", success:"Payment received. Redirecting…", failed:"Payment failed: "
-    },
-    es: {
-      title:"Pago seguro",
-      subtitle:"Paga de forma segura con tu tarjeta o billetera digital. Recibirás un recibo por correo.",
-      firstName:"Nombre", lastName:"Apellido", email:"Correo electrónico",
-      amount:"Monto (USD)", chipCustom:"Personalizado",
-      purpose:"Concepto", cardLabel:"Datos de tarjeta",
-      optCourse:"Curso / Clase", optBook:"Libro", optConsult:"Consulta", optDonation:"Donación / Apoyo", optOther:"Otro",
-      orPayCard:"— o pagar con tarjeta —",
-      payNow:"Pagar ahora", processing:"Procesando…", success:"Pago recibido. Redirigiendo…", failed:"Fallo de pago: "
+  <script>
+    async function payNow() {
+      const amountInput = document.getElementById("amount").value;
+      const itemName = document.getElementById("item").value;
+      const amountCents = Math.round(parseFloat(amountInput) * 100);
+
+      document.getElementById("status").innerText = "Processing…";
+
+      try {
+        const response = await fetch("/api/square-checkout", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ itemName, amount: amountCents }),
+        });
+
+        const data = await response.json();
+        if (data.url) {
+          window.location.href = data.url; // redirect to Square hosted checkout
+        } else {
+          document.getElementById("status").innerText = "❌ " + (data.error || "Payment failed");
+        }
+      } catch (err) {
+        document.getElementById("status").innerText = "❌ " + err.message;
+      }
     }
-  };
-  let lang = 'en';
-  const $ = s => document.querySelector(s);
-  function setLang(l){
-    lang = l;
-    document.querySelectorAll("[data-i18n]").forEach(el=>{
-      el.textContent = STR[l][el.getAttribute("data-i18n")];
-    });
-    $("#btn-en").classList.toggle("active", l==='en');
-    $("#btn-es").classList.toggle("active", l==='es');
-  }
-  $("#btn-en").onclick = ()=>setLang('en');
-  $("#btn-es").onclick = ()=>setLang('es');
-  setLang('en');
-
-  // Amount chips
-  const chips = document.querySelectorAll(".chip");
-  chips.forEach(ch => ch.addEventListener("click", () =>{
-    chips.forEach(c=>c.classList.remove("active"));
-    ch.classList.add("active");
-    const cents = Number(ch.dataset.amt);
-    if (cents>0) $("#amount").value = (cents/100).toFixed(2);
-    $("#amount").focus();
-  }));
-
-  // ---------- Square SDK ----------
-  const APP_ID = "YOUR_SQUARE_APP_ID";          // << replace
-  const LOCATION_ID = "YOUR_SQUARE_LOCATION_ID"; // << replace
-  let card, payments;
-
-  document.addEventListener('DOMContentLoaded', init);
-
-  async function init(){
-    if (!window.Square) { $("#status").textContent = "Square SDK failed to load."; return; }
-    payments = window.Square.payments(APP_ID, LOCATION_ID);
-
-    // Wallets: Payment Request config
-    const paymentRequest = payments.paymentRequest({
-      countryCode: "US",
-      currencyCode: "USD",
-      total: { amount: "1.00", label: "Edunancial" } // updated on click
-    });
-
-    // Apple Pay
-    try {
-      const applePay = await payments.applePay(paymentRequest);
-      const available = await applePay.canMakePayment();
-      if (available) {
-        const btn = document.createElement("div");
-        btn.id = "apple-pay-button";
-        $("#wallets").appendChild(btn);
-        await applePay.attach("#apple-pay-button");
-        btn.addEventListener("click", ()=>updateTotal(paymentRequest));
-      }
-    } catch(_) {}
-
-    // Google Pay
-    try {
-      const gpay = await payments.googlePay(paymentRequest);
-      const gAvailable = await gpay.canMakePayment();
-      if (gAvailable) {
-        const btn = document.createElement("div");
-        btn.id = "google-pay-button";
-        $("#wallets").appendChild(btn);
-        await gpay.attach("#google-pay-button");
-        btn.addEventListener("click", ()=>updateTotal(paymentRequest));
-      }
-    } catch(_) {}
-
-    // Cash App Pay
-    try {
-      const cashApp = await payments.cashAppPay(paymentRequest, { redirectURL: window.location.href });
-      const caAvailable = await cashApp.canMakePayment();
-      if (caAvailable) {
-        const btn = document.createElement("div");
-        btn.id = "cash-app-pay-button";
-        $("#wallets").appendChild(btn);
-        await cashApp.attach("#cash-app-pay-button");
-        btn.addEventListener("click", ()=>updateTotal(paymentRequest));
-      }
-    } catch(_) {}
-
-    // Card element
-    card = await payments.card();
-    await card.attach("#card-container");
-  }
-
-  function updateTotal(paymentRequest){
-    const amt = Number($("#amount").value || "0");
-    if (amt>0) paymentRequest.update({ total:{ amount: amt.toFixed(2), label:"Edunancial" } });
-  }
-
-  // Card submit
-  $("#pay-form").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const status = $("#status");
-    status.className = "status";
-    $("#card-button").disabled = true;
-    $("#card-button").textContent = STR[lang].processing;
-
-    try {
-      const result = await card.tokenize();
-      if (result.status !== "OK") throw new Error(result.errors?.[0]?.message || "Card could not be tokenized.");
-      const payload = {
-        sourceId: result.token,
-        amount: Math.round(parseFloat($("#amount").value) * 100), // cents
-        givenName: $("#firstName").value,
-        familyName: $("#lastName").value,
-        email: $("#email").value,
-        purpose: $("#purpose").value,
-        locationId: LOCATION_ID,
-        lang
-      };
-      const res = await fetch("/.netlify/functions/square-pay", {
-        method: "POST",
-        headers: {"Content-Type":"application/json"},
-        body: JSON.stringify(payload)
-      });
-      const json = await res.json();
-      if (!res.ok) throw new Error(json.error || "Server error");
-
-      status.textContent = STR[lang].success;
-      status.classList.add("ok");
-      setTimeout(()=>{
-        window.location.href = lang === 'es' ? "/es-thank-you.html" : "/thank-you.html";
-      }, 800);
-    } catch (err) {
-      status.textContent = STR[lang].failed + err.message;
-      status.classList.add("err");
-      $("#card-button").disabled = false;
-      $("#card-button").textContent = STR[lang].payNow;
-    }
-  });
-</script>
+  </script>
 </body>
 </html>
