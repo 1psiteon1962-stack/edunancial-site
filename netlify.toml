@@ -1,10 +1,11 @@
+# netlify.toml — static deploy, no build step
 [build]
-  command = ""          # no build step
-  publish = "."         # or "public" if your files are in /public
+  publish = "/"
+  command = ""
 
-[build.environment]
-  NODE_VERSION = "18"   # harmless; prevents odd defaults
-
-[[plugins]]             # ensure no plugins run
-  package = "@netlify/plugin-lighthouse"
-  inputs = { enabled = false }
+# Ensure Apple Pay domain association file is served correctly
+[[headers]]
+  for = "/.well-known/*"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
