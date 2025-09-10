@@ -1,6 +1,0 @@
-<div class="donar-botones" style="display:flex;gap:10px;flex-wrap:wrap">
-  <a class="btn" href="/payments.html?amount=2500" style="padding:.6rem 1rem;border:1px solid #111827;border-radius:10px;text-decoration:none">Donar $25</a>
-  <a class="btn" href="/payments.html?amount=5000" style="padding:.6rem 1rem;border:1px solid #111827;border-radius:10px;text-decoration:none">Donar $50</a>
-  <a class="btn" href="/payments.html?amount=10000" style="padding:.6rem 1rem;border:1px solid #111827;border-radius:10px;text-decoration:none">Donar $100</a>
-  <a class="btn" href="/payments.html" style="padding:.6rem 1rem;border:1px solid #111827;border-radius:10px;text-decoration:none">Monto personalizado</a>
-</div>
