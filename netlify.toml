@@ -1,5 +1,17 @@
 [functions]
   node_bundler = "esbuild"
-
 [build]
   functions = "netlify/functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = """
+      default-src 'self';
+      script-src 'self' https://web.squarecdn.com https://www.googletagmanager.com 'unsafe-inline';
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data: https:;
+      font-src 'self' data:;
+      connect-src 'self' https://connect.squareup.com https://apple-pay-gateway.apple.com https://www.google-analytics.com;
+      frame-ancestors 'none';
+      base
