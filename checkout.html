@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Checkout — Edunancial</title>
+<link rel="stylesheet" href="/style.css" />
+<!-- Square Web Payments SDK -->
+<script src="https://web.squarecdn.com/v1/square.js"></script>
+<style>
+  .checkout-wrap { max-width: 680px; margin: 24px auto; padding: 16px; }
+  .summary { background:#f7f7f7; border-radius:10px; padding:12px 16px; margin-bottom:16px; }
+  .row { display:flex; gap:12px; flex-wrap:wrap; }
+  .row > div { flex:1 1 260px; }
+  #card-container { margin: 12px 0 16px; }
+  .btn { display:inline-block; background:#003366; color:#fff; padding:12px 18px; border-radius:6px; text-decoration:none; font-weight:700; }
+  .btn:disabled { opacity:.6; cursor:not-allowed; }
+  .note { color:#555; font-size:14px; }
+  .error { color:#b00020; margin-top:10px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/books.html">Books</a>
+    <a href="/mini-courses.html">Mini-Courses</a>
+    <a href="/about.html">About Us</a>
+    <a href="/story.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+    <a class="lang" href="/es-checkout.html" hreflang="es">ES</a>
+  </nav>
+</header>
+
+<main class="checkout-wrap">
+  <h1>Checkout</h1>
+  <div class="summary" id="order-summary">
+    <strong id="item-name">Item</strong>
+    <div class="row">
+      <div>Price: <strong id="item-price">$0.00</strong></div>
+      <div>Currency: <strong id="item-currency">USD</strong></div>
+    </div>
+    <div class="note">Secure payment on edunancial.com via Square. We never store your card.</div>
+  </div>
+
+  <form id="payment-form">
+    <div id="card-container"></div>
+
+    <!-- Optional email capture -->
+    <div class="row">
+      <div>
+        <label>Email<br>
+          <input id="buyer-email" type="email" placeholder="you@example.com" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;">
+        </label>
+      </div>
+      <div>
+        <label>Name<br>
+          <input id="buyer-name" type="text" placeholder="Your name" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;">
+        </label>
+      </div>
+    </div>
+
+    <button id="card-button" class="btn" type="submit">Pay</button>
+    <div id="payment-status" class="error" role="alert" aria-live="polite"></div>
+  </form>
+
+  <p class="note">Having trouble? <a href="/payment-error.html">Try again</a> or contact <a href="mailto:hello@edunancial.com">hello@edunancial.com</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <p>© Edunancial · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="/cookie-policy.html">Cookies</a></p>
+</footer>
+
+<script>
+(async function () {
+  // —— Configuration from Netlify env (injected by our function prefetch) or URL params fallback ——
+  // Expect URL like: /checkout.html?item=red-course&name=Real%20Estate%20Mini-Course&amount=4900&currency=USD&lang=en
+  const params = new URLSearchParams(window.location.search);
+  const item = params.get('item') || 'order';
+  const name = decodeURIComponent(params.get('name') || 'Edunancial Item');
+  const amount = parseInt(params.get('amount') || '4900', 10); // cents
+  const currency = (params.get('currency') || 'USD').toUpperCase();
+  const lang = (params.get('lang') || 'en').toLowerCase();
+
+  // Update summary
+  document.getElementById('item-name').textContent = name;
+  document.getElementById('item-currency').textContent = currency;
+  document.getElementById('item-price').textContent = `$${(amount/100).toFixed(2)}`;
+
+  // Pull public app & location IDs from a lightweight config endpoint
+  const cfgRes = await fetch('/.netlify/functions/create-payment?cfg=1');
+  const cfg = await cfgRes.json();
+  const applicationId = cfg.applicationId;
+  const locationId = cfg.locationId;
+
+  if (!window.Square) {
+    document.getElementById('payment-status').textContent = 'Payments SDK failed to load.';
+    return;
+  }
+
+  let payments;
+  try {
+    payments = window.Square.payments(applicationId, locationId);
+  } catch (e) {
+    document.getElementById('payment-status').textContent = 'Payments unavailable. Please refresh.';
+    return;
+  }
+
+  const card = await payments.card();
+  await card.attach('#card-container');
+
+  const form = document.getElementById('payment-form');
+  const button = document.getElementById('card-button');
+  const status = document.getElementById('payment-status');
+
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    status.textContent = '';
+    button.disabled = true;
+
+    try {
+      const result = await card.tokenize();
+      if (result.status !== 'OK') {
+        throw new Error(result.errors?.[0]?.message || 'Card tokenization failed.');
+      }
+
+      const idempotencyKey = crypto.randomUUID();
+      const body = {
+        sourceId: result.token,
+        idempotencyKey,
+        amount,          // integer in cents
+        currency,        // "USD"
+        item,
+        name,
+        buyerEmail: document.getElementById('buyer-email').value || '',
+        buyerName: document.getElementById('buyer-name').value || '',
+        lang
+      };
+
+      const resp = await fetch('/.netlify/functions/create-payment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+
+      const data = await resp.json();
+      if (!resp.ok) {
+        throw new Error(data.message || 'Payment failed.');
+      }
+
+      // Success → send to localized thank-you
+      const successUrl = lang === 'es' ? '/thankyou_es.html' : '/thankyou.html';
+      const url = new URL(successUrl, window.location.origin);
+      url.searchParams.set('item', item);
+      window.location.href = url.toString();
+
+    } catch (err) {
+      status.textContent = err.message || 'Something went wrong.';
+      button.disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>
