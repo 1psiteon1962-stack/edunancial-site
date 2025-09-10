@@ -1,54 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thank You — Edunancial</title>
+  <title>Thank you — Edunancial</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex" />
 </head>
 <body>
 <header class="site-header">
-  <div class="container">
-    <h1 class="brand"><a href="index.html">Edunancial</a></h1>
-    <nav class="nav">
+  <div class="container nav">
+    <a class="brand" href="index.html">Edunancial</a>
+    <nav aria-label="Main">
       <a href="index.html">Home</a>
       <a href="books.html">Books</a>
-      <a href="courses.html">Mini-Courses</a>
-      <a href="about.html">About Us</a>
-      <a href="our-story.html">Our Story</a>
-      <a href="contact.html">Contact</a>
-      <a class="lang" href="es-index.html">ES</a>
+      <a href="mini-courses.html">Mini-Courses</a>
+      <a class="lang" href="thankyou_es.html" hreflang="es">ES</a>
     </nav>
   </div>
 </header>
 
-<main class="container">
-  <section class="card">
-    <h2>Thank you for your purchase!</h2>
-    <p>Your payment was processed securely by Square. A receipt has been emailed to you.</p>
-
-    <h3>If you bought an ebook</h3>
-    <p>Download your file here:</p>
-    <ul>
-      <!-- Replace with your real file URLs or Netlify asset paths -->
-      <li><a href="/downloads/red-starter.pdf">Red: Real Estate Starter (PDF)</a></li>
-      <li><a href="/downloads/white-starter.pdf">White: Paper Assets Starter (PDF)</a></li>
-      <li><a href="/downloads/blue-starter.pdf">Blue: Business Starter (PDF)</a></li>
-    </ul>
-
-    <h3>If you reserved a mini-course seat</h3>
-    <p>We’ll email your Zoom link and session time within 24 hours.</p>
-
-    <p><a class="pay-button" href="index.html">Back to Home</a></p>
-  </section>
+<main class="container narrow">
+  <h1>Thanks for your purchase!</h1>
+  <p>Check your email for a receipt from Square.</p>
+  <ul class="bullets">
+    <li><strong>Mini-Course:</strong> we just sent your live session link and calendar invite.</li>
+    <li><strong>Ebooks:</strong> your download link is in the email (available immediately).</li>
+  </ul>
+  <p>If you don’t see the email within 10 minutes, check spam or contact <a href="mailto:hello@edunancial.com">hello@edunancial.com</a>.</p>
+  <p><a class="btn" href="index.html">Back to Home</a></p>
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <p>© Edunancial · <a href="privacy.html">Privacy</a> ·
-      <a href="terms.html">Terms</a> · <a href="cookie-policy.html">Cookies</a> ·
-      <a href="refunds.html">Refunds</a></p>
+  <div class="container foot">
+    <span>© Edunancial</span>
+    <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
   </div>
 </footer>
 </body>
