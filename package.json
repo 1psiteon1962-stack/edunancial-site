@@ -1,0 +1,6 @@
+{
+  "name": "edunancial-site",
+  "private": true,
+  "type": "module",
+  "dependencies": { "@square/square": "^35.0.0" }
+}
