@@ -1,25 +1,5 @@
-# Register country-block Edge Function if you already added it:
-[[edge_functions]]
-  path = "/*"
-  function = "block-countries"
+[functions]
+  node_bundler = "esbuild"
 
-# Security headers with Square + GA allowed
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = """
-      default-src 'self';
-      script-src 'self' https://web.squarecdn.com https://www.googletagmanager.com 'unsafe-inline';
-      style-src 'self' 'unsafe-inline';
-      img-src 'self' data: https:;
-      font-src 'self' data:;
-      connect-src 'self' https://connect.squareup.com https://www.google-analytics.com;
-      frame-ancestors 'none';
-      base-uri 'self';
-      form-action 'self';
-    """
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "geolocation=(), microphone=(), camera=(), payment=()"
+[build]
+  functions = "netlify/functions"
