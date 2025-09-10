@@ -1,153 +1,61 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Pagar — Edunancial</title>
-<link rel="stylesheet" href="/style.css" />
+<section class="pay-section">
+  <h2>Secure Payment</h2>
+
+  <div id="wallet-button" style="margin:16px 0;"></div>
+  <div id="card-container" style="margin:16px 0;"></div>
+
+  <label>Amount (USD)
+    <input id="amount" type="number" min="1" step="1" value="49">
+  </label>
+  <button id="pay-btn">Pay Now</button>
+  <pre id="pay-result" style="white-space:pre-wrap"></pre>
+</section>
+
 <script src="https://web.squarecdn.com/v1/square.js"></script>
-<style>
-  .checkout-wrap { max-width: 680px; margin: 24px auto; padding: 16px; }
-  .summary { background:#f7f7f7; border-radius:10px; padding:12px 16px; margin-bottom:16px; }
-  .row { display:flex; gap:12px; flex-wrap:wrap; }
-  .row > div { flex:1 1 260px; }
-  #card-container { margin: 12px 0 16px; }
-  .btn { display:inline-block; background:#003366; color:#fff; padding:12px 18px; border-radius:6px; text-decoration:none; font-weight:700; }
-  .btn:disabled { opacity:.6; cursor:not-allowed; }
-  .note { color:#555; font-size:14px; }
-  .error { color:#b00020; margin-top:10px; }
-</style>
-</head>
-<body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/es-index.html">Inicio</a>
-    <a href="/es-books.html">Libros</a>
-    <a href="/es-mini-courses.html">Mini-Cursos</a>
-    <a href="/es-about.html">Quiénes Somos</a>
-    <a href="/es-story.html">Nuestra Historia</a>
-    <a href="/es-contact.html">Contacto</a>
-    <a class="lang" href="/checkout.html" hreflang="en">EN</a>
-  </nav>
-</header>
-
-<main class="checkout-wrap">
-  <h1>Pagar</h1>
-  <div class="summary" id="order-summary">
-    <strong id="item-name">Artículo</strong>
-    <div class="row">
-      <div>Precio: <strong id="item-price">$0.00</strong></div>
-      <div>Moneda: <strong id="item-currency">USD</strong></div>
-    </div>
-    <div class="note">Pago seguro en edunancial.com con Square. Nunca almacenamos tu tarjeta.</div>
-  </div>
-
-  <form id="payment-form">
-    <div id="card-container"></div>
-
-    <div class="row">
-      <div>
-        <label>Correo<br>
-          <input id="buyer-email" type="email" placeholder="tucorreo@ejemplo.com" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;">
-        </label>
-      </div>
-      <div>
-        <label>Nombre<br>
-          <input id="buyer-name" type="text" placeholder="Tu nombre" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;">
-        </label>
-      </div>
-    </div>
-
-    <button id="card-button" class="btn" type="submit">Pagar</button>
-    <div id="payment-status" class="error" role="alert" aria-live="polite"></div>
-  </form>
-
-  <p class="note">¿Problemas? <a href="/payment-error.html">Intenta de nuevo</a> o escribe a <a href="mailto:hello@edunancial.com">hello@edunancial.com</a>.</p>
-</main>
-
-<footer class="site-footer">
-  <p>© Edunancial · <a href="/privacy_es.html">Privacidad</a> · <a href="/terms_es.html">Términos</a> · <a href="/cookie-policy_es.html">Cookies</a></p>
-</footer>
-
 <script>
 (async function () {
-  const params = new URLSearchParams(window.location.search);
-  const item = params.get('item') || 'order';
-  const name = decodeURIComponent(params.get('name') || 'Producto Edunancial');
-  const amount = parseInt(params.get('amount') || '4900', 10);
-  const currency = (params.get('currency') || 'USD').toUpperCase();
-  const lang = 'es';
+  const cfg = await (await fetch('/api/square-config')).json();
+  const payments = window.Square.payments(cfg.appId, cfg.locationId);
 
-  document.getElementById('item-name').textContent = name;
-  document.getElementById('item-currency').textContent = currency;
-  document.getElementById('item-price').textContent = `$${(amount/100).toFixed(2)}`;
-
-  const cfgRes = await fetch('/.netlify/functions/create-payment?cfg=1');
-  const cfg = await cfgRes.json();
-  const applicationId = cfg.applicationId;
-  const locationId = cfg.locationId;
-
-  if (!window.Square) {
-    document.getElementById('payment-status').textContent = 'No se pudo cargar el SDK de pagos.';
-    return;
-  }
-
-  let payments;
+  // Apple Pay
   try {
-    payments = window.Square.payments(applicationId, locationId);
-  } catch (e) {
-    document.getElementById('payment-status').textContent = 'Pagos no disponibles. Actualiza la página.';
-    return;
-  }
+    const ap = await payments.applePay({ countryCode: 'US', currencyCode: 'USD' });
+    const apBtn = await ap.attach('#wallet-button');
+    apBtn.addEventListener('click', async () => {
+      const amount = Number(document.getElementById('amount').value)||0;
+      const tok = await ap.tokenize({ total:{ label:'Edunancial', amount: amount.toFixed(2) }});
+      await charge(tok.token, amount*100, tok);
+    });
+  } catch (e) {}
 
+  // Google Pay
+  try {
+    const gp = await payments.googlePay({ countryCode: 'US', currencyCode: 'USD' });
+    const gpBtn = await gp.attach('#wallet-button');
+    gpBtn.addEventListener('click', async () => {
+      const amount = Number(document.getElementById('amount').value)||0;
+      const tok = await gp.tokenize({ total:{ label:'Edunancial', amount: amount.toFixed(2) }});
+      await charge(tok.token, amount*100, tok);
+    });
+  } catch (e) {}
+
+  // Card
   const card = await payments.card();
   await card.attach('#card-container');
-
-  const form = document.getElementById('payment-form');
-  const button = document.getElementById('card-button');
-  const status = document.getElementById('payment-status');
-
-  form.addEventListener('submit', async (ev) => {
-    ev.preventDefault();
-    status.textContent = '';
-    button.disabled = true;
-
-    try {
-      const result = await card.tokenize();
-      if (result.status !== 'OK') throw new Error(result.errors?.[0]?.message || 'No se pudo tokenizar la tarjeta.');
-
-      const idempotencyKey = crypto.randomUUID();
-      const body = {
-        sourceId: result.token,
-        idempotencyKey,
-        amount,
-        currency,
-        item,
-        name,
-        buyerEmail: document.getElementById('buyer-email').value || '',
-        buyerName: document.getElementById('buyer-name').value || '',
-        lang
-      };
-
-      const resp = await fetch('/.netlify/functions/create-payment', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body)
-      });
-
-      const data = await resp.json();
-      if (!resp.ok) throw new Error(data.message || 'Pago fallido.');
-
-      const url = new URL('/thankyou_es.html', window.location.origin);
-      url.searchParams.set('item', item);
-      window.location.href = url.toString();
-
-    } catch (err) {
-      status.textContent = err.message || 'Ocurrió un error.';
-      button.disabled = false;
-    }
+  document.getElementById('pay-btn').addEventListener('click', async () => {
+    const amount = Number(document.getElementById('amount').value)||0;
+    const res = await card.tokenize();
+    if (res.status !== 'OK') return document.getElementById('pay-result').textContent = 'Card tokenize failed.';
+    await charge(res.token, amount*100);
   });
+
+  async function charge(sourceId, amount, verificationToken){
+    const r = await fetch('/api/square-pay', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ sourceId, amount, currency:'USD', note:'Website payment', verificationToken })
+    });
+    const data = await r.json();
+    document.getElementById('pay-result').textContent = r.ok ? ('✅ Paid: '+data.payment?.id) : ('❌ '+JSON.stringify(data));
+  }
 })();
 </script>
-</body>
-</html>
