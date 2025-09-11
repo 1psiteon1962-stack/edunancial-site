@@ -1,9 +1,15 @@
-[functions]
-directory = "netlify/functions"
-node_bundler = "esbuild"
+[build]
+  publish = "."
+  functions = "netlify/functions"
 
 [[redirects]]
-from = "/.netlify/functions/*"
-to = "/.netlify/functions/:splat"
-status = 200
-force = true
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
