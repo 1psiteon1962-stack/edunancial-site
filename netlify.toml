@@ -12,13 +12,7 @@
   status = 200
   force = true
 
-# Single-page-app style fallback (keeps deep links working)
-[[redirects]]
-  from = "/*"
-  to   = "/index.html"
-  status = 200
-
-# Basic security headers
+# Basic security headers (safe defaults)
 [[headers]]
   for = "/*"
   [headers.values]
