@@ -1,85 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mini-Courses – Edunancial</title>
   <link rel="stylesheet" href="style.css">
+  <script src="/config-loader.js"></script>
 </head>
 <body>
-<header class="header">
-  <div class="header-inner">
+  <header>
     <a href="index.html" class="brand">Edunancial</a>
     <nav class="header-nav">
-      <!-- White -->
-<a href="" target="_blank">Reserve Seat – Paper Assets (White)</a>
-
-<!-- Blue -->
-<a href="" target="_blank">Reserve Seat – Business (Blue)</a>
-
-<!-- Any Amount -->
-<a href="" target="_blank">Pay Any Amount</a>
+      <a href="books.html">Books</a>
+      <a href="mini-courses.html">Mini-Courses</a>
+      <a href="about.html">About</a>
+      <a href="our-story.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+      <a href="pamphlet.html">Pamphlet</a>
+      <a href="es-index.html">ES</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<main class="container">
-  <h1>Mini-Courses</h1>
-  <p>Live sessions — one theme each week. Join from your phone.</p>
+  <main>
+    <h1>Mini-Courses</h1>
+    <div id="courses"></div>
+  </main>
 
-  <section class="section card">
-    <h2>Real Estate (Red)</h2>
-    <ul>
-      <li>Finding & scoring neighborhoods</li>
-      <li>Deal math that fits on one page</li>
-      <li>Financing options you can actually use</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_RED" target="_blank" rel="noopener">
-        Reserve Seat – Real Estate (Red)
-      </a>
-    </p>
-  </section>
+  <footer>
+    <p>&copy; <span data-site-name></span> – All rights reserved.</p>
+  </footer>
 
-  <section class="section card">
-    <h2>Paper Assets (White)</h2>
-    <ul>
-      <li>Broker setup in 15 minutes</li>
-      <li>Core ETF plan to begin</li>
-      <li>Simple strategies anyone can use</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_WHITE" target="_blank" rel="noopener">
-        Reserve Seat – Paper Assets (White)
-      </a>
-    </p>
-  </section>
+  <script>
+    initEdunancial(function(cfg) {
+      const container = document.getElementById("courses");
+      container.innerHTML = "";
 
-  <section class="section card">
-    <h2>Business (Blue)</h2>
-    <ul>
-      <li>Choosing your business entity</li>
-      <li>Startup funding basics</li>
-      <li>Scaling step by step</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_BLUE" target="_blank" rel="noopener">
-        Reserve Seat – Business (Blue)
-      </a>
-    </p>
-  </section>
+      if (!cfg.courses || cfg.courses.length === 0) {
+        container.innerHTML = "<p>No courses available right now.</p>";
+        return;
+      }
 
-  <section class="section card center">
-    <h2>Custom Support</h2>
-    <p>If you’d like to contribute or pay another amount:</p>
-    <a class="btn btn--light" href="https://square.link/u/URL_ANY" target="_blank" rel="noopener">
-      Pay Any Amount
-    </a>
-  </section>
-</main>
+      cfg.courses.forEach(course => {
+        const card = document.createElement("div");
+        card.className = "course-card";
 
-<footer class="container center">
-  <p>&copy; 2025 Edunancial. All rights reserved.</p>
-</footer>
+        card.innerHTML = `
+          <h2>${course.title}</h2>
+          <ul>
+            ${course.bullets.map(b => `<li>${b}</li>`).join("")}
+          </ul>
+          <a href="${course.link}" target="_blank">Reserve Seat – ${course.title}</a>
+        `;
+
+        container.appendChild(card);
+      });
+    });
+  </script>
 </body>
 </html>
