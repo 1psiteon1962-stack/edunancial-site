@@ -1,10 +1,14 @@
 {
   "siteName": "Edunancial",
+  "env": "production",
   "languageToggle": true,
+
   "payments": {
     "provider": "square",
-    "enabled": true
+    "enabled": true,
+    "currency": "USD"
   },
+
   "ui": {
     "theme": "default",
     "showProducts": true
