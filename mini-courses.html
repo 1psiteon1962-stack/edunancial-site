@@ -6,6 +6,26 @@
   <title>Mini-Courses – Edunancial</title>
   <link rel="stylesheet" href="style.css">
   <script src="/config-loader.js"></script>
+  <style>
+    .course-card {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 16px 0;
+      background: #fff;
+    }
+    .course-card h2 { margin-top: 0; }
+    .course-card ul { margin: 8px 0 16px; }
+    .course-card a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #0056b3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .course-card a:hover { background: #003f80; }
+  </style>
 </head>
 <body>
   <header>
@@ -22,7 +42,7 @@
   </header>
 
   <main>
-    <h1>Mini-Courses</h1>
+    <h1>Mini-Courses & Books</h1>
     <div id="courses"></div>
   </main>
 
@@ -49,7 +69,7 @@
           <ul>
             ${course.bullets.map(b => `<li>${b}</li>`).join("")}
           </ul>
-          <a href="${course.link}" target="_blank">Reserve Seat – ${course.title}</a>
+          <a href="${course.link}" target="_blank">Reserve / Buy – ${course.title}</a>
         `;
 
         container.appendChild(card);
