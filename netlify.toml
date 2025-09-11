@@ -5,18 +5,25 @@
 [build]
   publish = "."
 
-# Redirect /api/config to the static config.json
+# Redirect /api/config on root domain
 [[redirects]]
   from = "/api/config"
   to   = "/config.json"
   status = 200
   force = true
 
-# Handle the www subdomain explicitly (in case Netlify doesn’t normalize)
+# Redirect /api/config on www subdomain
 [[redirects]]
   from = "https://www.edunancial.com/api/config"
   to   = "/config.json"
   status = 200
+  force = true
+
+# Optional: redirect all www traffic to root domain (cleaner URLs)
+[[redirects]]
+  from = "https://www.edunancial.com/*"
+  to   = "https://edunancial.com/:splat"
+  status = 301
   force = true
 
 # Basic security headers
