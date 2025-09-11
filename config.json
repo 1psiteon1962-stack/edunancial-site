@@ -1,0 +1,12 @@
+{
+  "siteName": "Edunancial",
+  "languageToggle": true,
+  "payments": {
+    "provider": "square",
+    "enabled": true
+  },
+  "ui": {
+    "theme": "default",
+    "showProducts": true
+  }
+}
