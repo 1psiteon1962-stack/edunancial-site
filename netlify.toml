@@ -1,15 +1,28 @@
+# ==============================
+# Netlify configuration (Edunancial.com)
+# ==============================
+
 [build]
   publish = "."
-  functions = "netlify/functions"
 
+# Serve /api/config from the static config.json we added at the site root
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/api/config"
+  to   = "/config.json"
+  status = 200
+  force = true
+
+# Single-page-app style fallback (keeps deep links working)
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
   status = 200
 
+# Basic security headers
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+    X-Frame-Options        = "SAMEORIGIN"
+    Referrer-Policy        = "no-referrer-when-downgrade"
+    Permissions-Policy     = "geolocation=(), microphone=(), camera=()"
