@@ -2,15 +2,76 @@
   "siteName": "Edunancial",
   "env": "production",
   "languageToggle": true,
-
   "payments": {
     "provider": "square",
     "enabled": true,
     "currency": "USD"
   },
-
   "ui": {
     "theme": "default",
     "showProducts": true
-  }
+  },
+  "courses": [
+    {
+      "title": "Options Trading (White)",
+      "bullets": [
+        "Broker setup in 15 minutes",
+        "Using Calls, Puts, and Straddles",
+        "Strategies for profit and protection"
+      ],
+      "link": "https://square.link/u/OPTIONS_LINK"
+    },
+    {
+      "title": "Building Wealth with Tax Liens & Tax Deeds (Red)",
+      "bullets": [
+        "How to identify tax liens & deeds",
+        "Buying process & profit models",
+        "Property strategies after purchase"
+      ],
+      "link": "https://square.link/u/TAX_LIEN_LINK"
+    },
+    {
+      "title": "Business is About Making Profit (Blue)",
+      "bullets": [
+        "Choosing your business entity",
+        "Startup funding basics",
+        "Scaling step by step"
+      ],
+      "link": "https://square.link/u/PROFIT_LINK"
+    },
+    {
+      "title": "Creative Real Estate Financing (Blue)",
+      "bullets": [
+        "No-money-down strategies",
+        "Seller financing & wrap-arounds",
+        "Modern Carlton Sheets-style methods"
+      ],
+      "link": "https://square.link/u/CREATIVE_FINANCE_LINK"
+    },
+    {
+      "title": "Mini-Course: Paper Assets (White)",
+      "bullets": [
+        "Core ETF plan to begin",
+        "Simple, low-risk strategies"
+      ],
+      "link": "https://square.link/u/PAPER_ASSETS_LINK"
+    },
+    {
+      "title": "Mini-Course: Business Basics (Blue)",
+      "bullets": [
+        "Entity formation explained",
+        "Raising startup capital",
+        "Scaling operations"
+      ],
+      "link": "https://square.link/u/BUSINESS_BASICS_LINK"
+    },
+    {
+      "title": "Custom Support / Pay Any Amount",
+      "bullets": [
+        "Contribute to Edunancial",
+        "Flexible supporter option"
+      ],
+      "link": "https://square.link/u/CUSTOM_SUPPORT_LINK"
+    }
+  ]
 }
