@@ -1,98 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mini-Cursos — Edunancial</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini-Cursos – Edunancial</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Mini-cursos en vivo: Bienes Raíces, Activos de Papel y Negocios." />
+  <script src="/config-loader.js"></script>
+  <style>
+    .course-card{border:1px solid #ccc;border-radius:12px;padding:16px;margin:16px 0;background:#fff}
+    .course-card h2{margin-top:0}
+    .course-card ul{margin:8px 0 16px}
+    .course-card a{display:inline-block;padding:8px 16px;background:#b30000;color:#fff;text-decoration:none;border-radius:6px}
+    .course-card a:hover{background:#7f0000}
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index_es.html">Edunancial</a>
-    <nav aria-label="Principal">
-      <a href="index_es.html">Inicio</a>
-      <a href="books_es.html">Libros</a>
-      <a class="active" href="mini-courses_es.html">Mini-Cursos</a>
-      <a href="about_es.html">Sobre Nosotros</a>
-      <a href="story_es.html">Nuestra Historia</a>
-      <a href="contact_es.html">Contacto</a>
-      <a class="lang" href="mini-courses.html" hreflang="en">EN</a>
+  <header>
+    <a href="es-index.html" class="brand">Edunancial</a>
+    <nav class="header-nav">
+      <a href="es-books.html">Libros</a>
+      <a href="mini-courses-es.html">Mini-Cursos</a>
+      <a href="es-about.html">Acerca de</a>
+      <a href="es-our-story.html">Nuestra Historia</a>
+      <a href="es-contact.html">Contacto</a>
+      <a href="es-pamphlet.html">Folleto</a>
+      <a href="index.html">EN</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<main class="container">
-  <h1>Mini-Cursos</h1>
-  <p class="lead">Sesiones en vivo — un tema por semana. Únete desde tu teléfono.</p>
+  <main>
+    <h1>Mini-Cursos y Libros</h1>
+    <div id="courses"></div>
+  </main>
 
-  <section class="card">
-    <h2>Bienes Raíces (Rojo)</h2>
-    <p>Evalúa vecindarios, ofertas y financiamiento — pasos simples, resultados reales.</p>
-    <ul class="bullets">
-      <li>4 sesiones en vivo (45–60 min)</li>
-      <li>Hojas de trabajo y listas</li>
-      <li>Preguntas y respuestas en cada sesión</li>
-    </ul>
-    <p class="price">$49</p>
-    <a class="btn pay"
-       href="https://square.link/u/REEMPLAZA_INMUEBLES"
-       target="_blank" rel="noopener nofollow"
-       data-item="MiniCurso-BienesRaices" data-price="49">
-      Reservar cupo
-    </a>
-    <p class="note">Después del pago recibirás el enlace de acceso por correo.</p>
-  </section>
+  <footer>
+    <p>&copy; <span data-site-name></span> – Todos los derechos reservados.</p>
+  </footer>
 
-  <section class="card">
-    <h2>Activos de Papel (Blanco)</h2>
-    <p>Acciones, ETFs y estrategias simples para comenzar a invertir.</p>
-    <ul class="bullets">
-      <li>4 sesiones en vivo (45–60 min)</li>
-      <li>Plantillas de portafolio</li>
-      <li>Práctica con operaciones simuladas</li>
-    </ul>
-    <p class="price">$49</p>
-    <a class="btn pay"
-       href="https://square.link/u/REEMPLAZA_PAPEL"
-       target="_blank" rel="noopener nofollow"
-       data-item="MiniCurso-ActivosPapel" data-price="49">
-      Reservar cupo
-    </a>
-    <p class="note">Revisa tu correo para el recibo de Square.</p>
-  </section>
-
-  <section class="card">
-    <h2>Negocios (Azul)</h2>
-    <p>Inicia o haz crecer un negocio con sistemas simples y repetibles.</p>
-    <ul class="bullets">
-      <li>4 sesiones en vivo (45–60 min)</li>
-      <li>Hoja de modelo de negocio</li>
-      <li>Plan de marketing rápido</li>
-    </ul>
-    <p class="price">$49</p>
-    <a class="btn pay"
-       href="https://square.link/u/REEMPLAZA_NEGOCIOS"
-       target="_blank" rel="noopener nofollow"
-       data-item="MiniCurso-Negocios" data-price="49">
-      Reservar cupo
-    </a>
-    <p class="note">Verás una página de “Gracias” y recibirás el acceso por correo.</p>
-  </section>
-
-  <p class="secure">Pagos procesados de forma segura por Square. No almacenamos tu tarjeta.</p>
-</main>
-
-<footer class="site-footer">
-  <div class="container foot">
-    <span>© Edunancial</span>
-    <nav aria-label="Legal">
-      <a href="privacy_es.html">Privacidad</a>
-      <a href="terms_es.html">Términos</a>
-      <a href="cookies_es.html">Cookies</a>
-    </nav>
-  </div>
-</footer>
+  <script>
+    // Renderiza en español si existe, si no usa el texto en inglés.
+    initEdunancial(function(cfg){
+      const lista = cfg.courses || [];
+      const el = document.getElementById("courses");
+      if(!lista.length){
+        el.innerHTML = "<p>No hay cursos disponibles por ahora.</p>";
+        return;
+      }
+      el.innerHTML = "";
+      lista.forEach(item=>{
+        const titulo  = item.title_es || item.title || "Curso";
+        const bullets = (item.bullets_es && item.bullets_es.length ? item.bullets_es : item.bullets || []);
+        const link    = item.link || "#";
+        const card = document.createElement("div");
+        card.className = "course-card";
+        card.innerHTML = `
+          <h2>${titulo}</h2>
+          <ul>${bullets.map(b=>`<li>${b}</li>`).join("")}</ul>
+          <a href="${link}" target="_blank" rel="noopener">Reservar / Comprar – ${titulo}</a>
+        `;
+        el.appendChild(card);
+      });
+    });
+  </script>
 </body>
 </html>
