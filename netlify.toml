@@ -1,36 +1,11 @@
-# ==============================
-# Netlify configuration (Edunancial.com)
-# ==============================
+# Netlify config — minimal + safe
 
 [build]
   publish = "."
 
-# Redirect /api/config on root domain
+# Map /api/config -> /config.json (works for both www and root)
 [[redirects]]
   from = "/api/config"
   to   = "/config.json"
   status = 200
   force = true
-
-# Redirect /api/config on www subdomain
-[[redirects]]
-  from = "https://www.edunancial.com/api/config"
-  to   = "/config.json"
-  status = 200
-  force = true
-
-# Optional: redirect all www traffic to root domain (cleaner URLs)
-[[redirects]]
-  from = "https://www.edunancial.com/*"
-  to   = "https://edunancial.com/:splat"
-  status = 301
-  force = true
-
-# Basic security headers
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options        = "SAMEORIGIN"
-    Referrer-Policy        = "no-referrer-when-downgrade"
-    Permissions-Policy     = "geolocation=(), microphone=(), camera=()"
