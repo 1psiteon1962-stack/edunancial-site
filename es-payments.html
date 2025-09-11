@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Pagar | Edunancial</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <style>
+    .wrap{max-width:560px;margin:2rem auto;padding:1.25rem;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
+    h1{font-size:1.5rem;margin:0 0 .5rem}
+    .muted{color:#6b7280;margin:0 0 1rem}
+    label{font-weight:600;margin:.5rem 0 .25rem;display:block}
+    input[type="number"],input[type="text"]{width:100%;padding:.65rem;border:1px solid #d1d5db;border-radius:8px}
+    #card-container{margin:.75rem 0}
+    .btn{display:inline-block;width:100%;padding:.85rem;border:0;border-radius:10px;font-weight:700;background:#111827;color:#fff}
+    .btn-light{background:#fff;color:#111;border:1px solid #d1d5db}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.75rem}
+    .ok{color:#059669;font-weight:600;margin-top:.75rem}
+    .err{color:#b91c1c;font-weight:600;margin-top:.75rem;white-space:pre-wrap}
+    .badge{display:inline-block;background:#111827;color:#fff;border-radius:999px;padding:.25rem .6rem;font-size:.8rem;margin-left:.5rem}
+  </style>
+  <script src="https://web.squarecdn.com/v1/square.js"></script>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Pagar<span id="prodBadge" class="badge" style="display:none"></span></h1>
+    <p class="muted">Paga con tarjeta, Apple Pay o Google Pay.</p>
+
+    <label>Monto (USD)</label>
+    <input id="amount" type="number" min="1" step="1" value="7500"/>
+
+    <label style="margin-top:.75rem;">Descripción (en el recibo)</label>
+    <input id="desc" type="text" placeholder="Mini-curso de Bienes Raíces"/>
+
+    <div id="wallet-container" style="margin-top:1rem;"></div>
+    <div id="card-container"></div>
+    <button id="pay" class="btn">Pagar ahora</button>
+
+    <div id="msg"></div>
+  </main>
+
+  <script>
+  (async function () {
+    const params = new URLSearchParams(location.search);
+    const qAmount = params.get("amount");
+    const qName   = params.get("name");
+    if (qAmount) document.getElementById("amount").value = Number(qAmount);
+    if (qName)   document.getElementById("desc").value   = decodeURIComponent(qName);
+    if (qName) {
+      const b = document.getElementById("prodBadge");
+      b.textContent = decodeURIComponent(qName);
+      b.style.display = "inline-block";
+    }
+
+    const cfg = await fetch("/api/config").then(r => r.json());
+    if (!cfg.appId) {
+      document.getElementById("msg").innerHTML =
+        '<p class="err">Falta el App ID de Square en el servidor.</p>';
+      return;
+    }
+    const payments = window.Square.payments(cfg.appId, cfg.locationId);
+    const msg = document.getElementById("msg");
+
+    const card = await payments.card();
+    await card.attach("#card-container");
+
+    document.getElementById("pay").addEventListener("click", async () => {
+      const amount = Number(document.getElementById("amount").value);
+      const note   = document.getElementById("desc").value || "Pago";
+      try {
+        const r = await card.tokenize();
+        if (r.status !== "OK") throw new Error(r.status);
+        const res = await fetch("/api/create-payment", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sourceId: r.token, amount, currency: "USD", note })
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          msg.innerHTML = `<p class="err">${(data.errors||[]).map(x=>x.detail).join("\n")||JSON.stringify(data)}</p>`;
+          return;
+        }
+        msg.innerHTML = `<p class="ok">¡Pagado!</p>`;
+        setTimeout(()=>{ location.href="/es-thank-you.html"; }, 800);
+      } catch(e) {
+        msg.innerHTML = `<p class="err">Error: ${e.message||e}</p>`;
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
