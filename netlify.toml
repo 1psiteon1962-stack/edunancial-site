@@ -1,11 +1,8 @@
-# netlify.toml — static deploy, no build step
 [build]
-  publish = "/"
-  command = ""
+  publish = "."
+  functions = "netlify/functions"
 
-# Ensure Apple Pay domain association file is served correctly
-[[headers]]
-  for = "/.well-known/*"
-  [headers.values]
-    Content-Type = "text/plain; charset=utf-8"
-    Cache-Control = "public, max-age=3600"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
