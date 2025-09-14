@@ -1,29 +1,68 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Nuestra Historia — Edunancial</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<header class="topbar"><div class="wrap">
-  <div class="brand">Edunancial</div>
-  <nav class="nav">
-    <a href="es-index.html">Inicio</a><a href="es-books.html">Libros</a><a href="es-courses.html">Mini-Cursos</a>
-    <a href="es-about.html">Nosotros</a><a href="es-our-story.html">Nuestra Historia</a><a href="es-contact.html">Contacto</a>
-    <a href="es-pamphlet.html">Folleto</a>
-    <div class="lang"><a href="our-story.html">EN</a><a class="active">ES</a></div>
-  </nav>
-</div></header>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Edunancial, Inc. – Nuestra Historia</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    :root { --red:#c1121f; --blue:#0a3d62; --dk:#111; }
+    body { font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; line-height:1.55; color:#222; }
+    .banner { background:var(--red); color:#000; padding:.75rem 1rem; text-align:center; font-weight:800; letter-spacing:.5px; }
+    header { border-bottom:1px solid #eee; } nav{display:flex;gap:1rem;align-items:center;justify-content:center;flex-wrap:wrap;padding:.8rem 1rem}
+    nav a{color:var(--blue);text-decoration:none;font-weight:600}.lang{margin-left:.5rem;font-weight:700}
+    .wrap{max-width:980px;margin:auto;padding:1.25rem} h1{color:var(--blue);margin:.5rem 0 1rem}
+    .cta{display:inline-block;background:var(--blue);color:#fff;padding:.75rem 1rem;border-radius:10px;text-decoration:none;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+    .card{border:1px solid #e6e6e6;border-radius:14px;padding:1rem;background:#fff}
+    footer{border-top:1px solid #eee;margin-top:2rem;padding:1rem;font-size:.95rem;color:#444}
+    .disclaimer{background:#f9f9fb;border-left:4px solid var(--red);padding:1rem;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="banner">EDUNANCIAL • EDUCACIÓN PRÁCTICA EN BIENES RAÍCES Y FINANZAS PERSONALES</div>
+  <header>
+    <nav class="wrap">
+      <a href="/es-our-story.html">Nuestra Historia</a>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-pricing.html">Precios</a>
+      <a href="/es-payments.html">Pagos</a>
+      <a href="/es-contact.html">Contacto</a>
+      <a class="lang" href="/our-story.html">EN</a>
+    </nav>
+  </header>
 
-<main class="wrap">
-  <h1>Nuestra Historia</h1>
-  <div class="card">
-    <h3>Cómo nació Edunancial</h3>
-    <p><strong>Mi hijo tenía once años.</strong> Acababa de colgar una llamada cuando mi teléfono se iluminó: un depósito en línea. “¿Cómo ganaste dinero así?”, preguntó. “Usé mi cabeza”, respondí. “¿Te gustaría hacer lo mismo?” “Sí”, dijo, “pero no sé cómo”.</p>
-    <p>En ese momento nació <strong>Edunancial</strong>: enseñar con colores fáciles de recordar: <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel), <strong>Azul</strong> (Negocios).</p>
-    <h3>De los 11 a los 15 — resultados</h3>
-    <p>A los quince compraba plata y oro físicos, analizaba acciones y buscaba un <strong>8–12% de retorno</strong>. No suerte—educación. No teoría—práctica.</p>
-    <a class="btn" href="es-courses.html">Empezar</a>
-  </div>
-</main>
+  <main class="wrap">
+    <h1>Nuestra Historia</h1>
+    <p>Edunancial, Inc. existe para ayudar a familias e inversionistas a tomar decisiones seguras y basadas en números. Enseñamos el análisis de vecindarios, el “deal math” y opciones reales de financiamiento.</p>
 
-<footer class="footer wrap">© Edunancial</footer>
-</body></html>
+    <div class="grid" style="margin:1.25rem 0;">
+      <div class="card">
+        <h2>Mini Curso: Bienes Raíces (Rojo)</h2>
+        <p>Sesión de 1 hora sobre análisis de vecindarios, matemáticas del trato y financiamiento.</p>
+        <p><a class="cta" href="/es-payments.html#mini-course-red">Reservar Asiento</a></p>
+      </div>
+      <div class="card">
+        <h2>Libros y Guías</h2>
+        <p>Guías paso a paso en lenguaje claro. Mira la lista completa.</p>
+        <p><a class="cta" href="/es-books.html">Ver Títulos</a></p>
+      </div>
+      <div class="card">
+        <h2>Talleres por Zoom</h2>
+        <p>Entrenamientos en vivo con preguntas y respuestas. Recibirás el enlace de Zoom después del pago.</p>
+        <p><a class="cta" href="/es-courses.html#live">Próximas Fechas</a></p>
+      </div>
+    </div>
+
+    <section class="disclaimer">
+      <strong>Aviso educativo:</strong> Edunancial, Inc. ofrece contenido educativo. No proveemos asesoría legal, fiscal, contable ni de inversiones. Las decisiones son tuyas. Resultados pasados no garantizan resultados futuros.
+    </section>
+  </main>
+
+  <footer class="wrap">
+    © <span id="y"></span> Edunancial, Inc. · <a href="/privacy.html">Privacidad</a> · <a href="/terms.html">Términos</a> · <a href="/refunds.html">Reembolsos</a>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
