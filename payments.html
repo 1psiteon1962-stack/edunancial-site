@@ -1,160 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pay Edunancial</title>
-
-  <!-- Square Web Payments SDK (works for Sandbox & Production) -->
-  <script src="https://web.squarecdn.com/v1/square.js"></script>
-
-  <!-- Basic styles (keeps your site look/feel and makes buttons obvious) -->
-  <link rel="stylesheet" href="/style.css" />
+  <meta charset="utf-8">
+  <title>Edunancial – Payments</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
   <style>
-    /* Top banner: red with black letters, as requested */
-    .site-banner {
-      background:#c1121f; color:#111; padding:0.75rem 1rem; text-align:center;
-      font-weight:800; letter-spacing:.3px;
-    }
-    .pay-wrap {
-      max-width: 520px; margin: 2rem auto; padding: 1.25rem;
-      border: 1px solid #e5e7eb; border-radius: 12px; background: #fff;
-    }
-    .row { margin: 0.75rem 0; }
-    label { display:block; font-weight:600; margin-bottom:.25rem; }
-    input[type="number"], input[type="text"] {
-      width:100%; padding:.65rem .75rem; border:1px solid #d1d5db; border-radius:8px;
-    }
-    #card-container { margin:.5rem 0 1rem; }
-    .btn, .button, a.pay-btn {
-      display:inline-block; padding:.8rem 1rem; border-radius:10px;
-      font-weight:700; text-decoration:none; text-align:center;
-      background:#111827; color:#fff; border:0; width:100%;
-      cursor:pointer;
-    }
-    .btn:disabled { opacity:.65; cursor:not-allowed; }
-    .btn--light { background:#fff; color:#111; border:1px solid #d1d5db; }
-    .help { color:#6b7280; font-size:.9rem; }
-    .alert { padding:.75rem; border-radius:10px; margin-top:.75rem; display:none; }
-    .alert--ok { background:#ecfdf5; color:#065f46; border:1px solid #a7f3d0; }
-    .alert--err { background:#fef2f2; color:#991b1b; border:1px solid #fecaca; }
-    .note { font-size:.9rem; color:#374151; margin-top:.5rem; }
-    .small { font-size:.85rem; color:#6b7280; }
+    :root{--red:#c1121f;--blue:#0a3d62}
+    .banner{background:var(--red);color:#000;padding:.75rem 1rem;text-align:center;font-weight:800}
+    nav{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;padding:1rem}
+    nav a{color:var(--blue);text-decoration:none;font-weight:700}
+    .wrap{max-width:980px;margin:auto;padding:1.25rem}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:1rem;background:#fff}
+    h2{color:var(--blue)}
   </style>
 </head>
 <body>
-  <div class="site-banner">Edunancial — Secure Checkout</div>
+  <div class="banner">EDUNANCIAL • PAYMENTS</div>
+  <nav>
+    <a href="/our-story.html">Our Story</a>
+    <a href="/books.html">Books</a>
+    <a href="/courses.html">Courses</a>
+    <a href="/pricing.html">Pricing</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/es-payments.html">ES</a>
+  </nav>
 
-  <main class="pay-wrap">
-    <h1 style="margin:0 0 .25rem 0;">Pay with Card</h1>
-    <p class="help">Enter an amount in US dollars and pay securely. You can also open this page with
-      <code>?amount=7500</code> (cents) or <code>?amount=75</code> (dollars) in the URL to prefill.
-    </p>
+  <main class="wrap">
+    <section id="mini-course-red" class="card">
+      <h2>Mini-Course: Real Estate (Red) — $75</h2>
+      <p>1-hour training on neighborhood evaluation, deal math, and finance options.</p>
+      <!-- === PAYPAL BUTTON SNIPPET GOES RIGHT BELOW ===
+           In your PayPal dashboard: No-Code Checkout → create “Buy Now” button for $75,
+           copy the <script> + <div> snippet PayPal gives you and paste it here. -->
+      <div><!-- PASTE PAYPAL $75 BUTTON HERE --></div>
+    </section>
 
-    <!-- Amount -->
-    <div class="row">
-      <label for="amount">Amount (USD)</label>
-      <input id="amount" type="number" min="1" step="0.01" placeholder="75.00" inputmode="decimal" />
-      <div class="small">Example: enter <strong>75</strong> for $75.00</div>
-    </div>
+    <section class="card">
+      <h2>Books & Guides</h2>
+      <p>Choose your book in PayPal and include the title in the order notes.</p>
+      <!-- Optional: create a generic $25/$35 button or itemized buttons for each book -->
+      <div><!-- PASTE PAYPAL BOOK BUTTON(S) HERE --></div>
+    </section>
 
-    <!-- Square card element mounts here -->
-    <div class="row">
-      <label>Card</label>
-      <div id="card-container"></div>
-    </div>
-
-    <div class="row">
-      <button id="pay-btn" class="btn">Pay Now</button>
-    </div>
-
-    <div id="ok" class="alert alert--ok"></div>
-    <div id="err" class="alert alert--err"></div>
-
-    <p class="note">
-      Questions? <a href="/contact.html">Contact us</a>.
-      After a successful payment you’ll be redirected to <em>thank-you.html</em>.
-    </p>
+    <section class="card">
+      <h2>After Payment</h2>
+      <ul>
+        <li>You’ll receive a confirmation email and (for live classes) a Zoom join link.</li>
+        <li>Questions? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</li>
+      </ul>
+    </section>
   </main>
-
-  <script>
-    // ----- Helpers -----
-    function qs(name) {
-      const u = new URL(window.location.href);
-      return u.searchParams.get(name);
-    }
-    function dollarsToCents(val) {
-      // Robust conversion: accepts "75", "75.00", 75, or "7500" (if clearly cents).
-      if (val == null || val === "") return null;
-      let s = String(val).trim();
-      if (/^\d+$/.test(s) && s.length > 0 && Number(s) >= 1000) {
-        // Heuristic: if >= 1000 and integer, likely already cents
-        return Number(s);
-      }
-      // Otherwise treat as dollars
-      const n = Number(s);
-      if (Number.isFinite(n)) return Math.round(n * 100);
-      return null;
-    }
-    function show(el, msg) { const box = document.getElementById(el); box.textContent = msg; box.style.display = 'block'; }
-    function hide(el) { const box = document.getElementById(el); box.style.display = 'none'; }
-
-    // Prefill amount from URL if provided (?amount=75 or 7500)
-    (function prefillAmount(){
-      const fromQs = qs('amount');
-      if (!fromQs) return;
-      const cents = dollarsToCents(fromQs);
-      if (cents != null) {
-        document.getElementById('amount').value = (cents / 100).toFixed(2);
-      }
-    })();
-
-    // ----- Main flow -----
-    const CONFIG_ENDPOINT = "/.netlify/functions/config";
-    const CREATE_ENDPOINT = "/.netlify/functions/create-payment";
-
-    let payments, card;
-
-    async function initSquare() {
-      // 1) Get app/location IDs from Netlify function
-      const res = await fetch(CONFIG_ENDPOINT);
-      if (!res.ok) throw new Error("Config fetch failed");
-      const { applicationId, locationId } = await res.json();
-
-      // 2) Initialize the Square Payments SDK
-      if (!window.Square) {
-        throw new Error("Square.js failed to load.");
-      }
-      payments = window.Square.payments(applicationId, locationId);
-
-      // 3) Create & mount the Card element
-      card = await payments.card();
-      await card.attach("#card-container");
-    }
-
-    async function tokenizeAndPay() {
-      hide('ok'); hide('err');
-
-      // Validate amount
-      const dollarInput = document.getElementById('amount').value;
-      const amountCents = dollarsToCents(dollarInput);
-      if (!amountCents || amountCents < 50) {
-        show('err', "Enter a valid amount (minimum $0.50).");
-        return;
-      }
-
-      // 1) Tokenize card data in browser
-      const result = await card.tokenize();
-      if (result.status !== "OK") {
-        const msg = (result && result.errors && result.errors[0] && result.errors[0].message) || "Card tokenization failed.";
-        show('err', msg);
-        return;
-      }
-
-      // 2) Send token + amount to your Netlify function to create the payment
-      const payBtn = document.getElementById('pay-btn');
-      payBtn.disabled = true; payBtn.textContent = "Processing…";
-
-      try {
-        const resp = await fetch(CREATE_ENDPOINT, {
-          method:
+</body>
+</html>
