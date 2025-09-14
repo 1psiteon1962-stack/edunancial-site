@@ -1,89 +1,40 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Libros — Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Libros prácticos para aprender dinero — rojo, blanco y azul." />
+  <meta charset="utf-8">
+  <title>Edunancial – Libros y Guías</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    :root{--red:#c1121f;--blue:#0a3d62}
+    .banner{background:var(--red);color:#000;padding:.75rem 1rem;text-align:center;font-weight:800}
+    nav{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;padding:1rem}
+    nav a{color:var(--blue);text-decoration:none;font-weight:700}
+    .wrap{max-width:980px;margin:auto;padding:1.25rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:1rem;background:#fff}
+    h1{color:var(--blue)}
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index_es.html">Edunancial</a>
-    <nav aria-label="Principal">
-      <a href="index_es.html">Inicio</a>
-      <a class="active" href="books_es.html">Libros</a>
-      <a href="mini-courses_es.html">Mini-Cursos</a>
-      <a href="about_es.html">Sobre Nosotros</a>
-      <a href="story_es.html">Nuestra Historia</a>
-      <a href="contact_es.html">Contacto</a>
-      <a class="lang" href="books.html" hreflang="en">EN</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <h1>Libros</h1>
-  <p class="lead">Cortos, claros y prácticos — para usar esta semana.</p>
-
-  <section class="card media">
-    <img src="css/book-red.jpg" alt="Libro rojo: Bienes Raíces" loading="lazy" />
-    <div>
-      <h2>Bienes Raíces (Rojo)</h2>
-      <p>Cómo analizar, financiar y evitar errores comunes.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REEMPLAZA_LIBRO_ROJO"
-         target="_blank" rel="noopener nofollow"
-         data-item="Libro-BienesRaices" data-price="12">
-        Comprar ebook (PDF)
-      </a>
+  <div class="banner">EDUNANCIAL • LIBROS Y GUÍAS</div>
+  <nav>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+    <a href="/es-books.html">Libros</a>
+    <a href="/es-courses.html">Cursos</a>
+    <a href="/es-payments.html">Pagos</a>
+    <a href="/es-contact.html">Contacto</a>
+    <a href="/books.html">EN</a>
+  </nav>
+  <main class="wrap">
+    <h1>Títulos</h1>
+    <div class="grid">
+      <div class="card"><strong>Matemáticas del Vecindario</strong><br><small>Guía para evaluar cuadras y comparables.</small></div>
+      <div class="card"><strong>Matemáticas del Trato para Principiantes</strong><br><small>Rent math, cap/COC y punto de equilibrio.</small></div>
+      <div class="card"><strong>Opciones de Financiamiento 101</strong><br><small>Convencional, DSCR, HELOC y creativos.</small></div>
+      <div class="card"><strong>Manual del Primer Dúplex</strong><br><small>Búsqueda, underwriting y rehab habitado.</small></div>
+      <div class="card"><strong>Reparación de Crédito para Dueños</strong><br><small>Pasos simples y legales para mejorar crédito.</small></div>
     </div>
-  </section>
-
-  <section class="card media">
-    <img src="css/book-white.jpg" alt="Libro blanco: Activos de Papel" loading="lazy" />
-    <div>
-      <h2>Activos de Papel (Blanco)</h2>
-      <p>Acciones y ETFs sin ruido — arma un portafolio simple.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REEMPLAZA_LIBRO_BLANCO"
-         target="_blank" rel="noopener nofollow"
-         data-item="Libro-ActivosPapel" data-price="12">
-        Comprar ebook (PDF)
-      </a>
-    </div>
-  </section>
-
-  <section class="card media">
-    <img src="css/book-blue.jpg" alt="Libro azul: Negocios" loading="lazy" />
-    <div>
-      <h2>Negocios (Azul)</h2>
-      <p>De la idea a los clientes — sistemas repetibles.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REEMPLAZA_LIBRO_AZUL"
-         target="_blank" rel="noopener nofollow"
-         data-item="Libro-Negocios" data-price="12">
-        Comprar ebook (PDF)
-      </a>
-    </div>
-  </section>
-
-  <p class="secure">Pagos con Square. Los enlaces de descarga llegan por correo tras el pago.</p>
-</main>
-
-<footer class="site-footer">
-  <div class="container foot">
-    <span>© Edunancial</span>
-    <nav aria-label="Legal">
-      <a href="privacy_es.html">Privacidad</a>
-      <a href="terms_es.html">Términos</a>
-      <a href="cookies_es.html">Cookies</a>
-    </nav>
-  </div>
-</footer>
+  </main>
 </body>
 </html>
