@@ -1,41 +1,21 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thank you — Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="robots" content="noindex" />
-</head>
-<body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">Edunancial</a>
-    <nav aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="books.html">Books</a>
-      <a href="mini-courses.html">Mini-Courses</a>
-      <a class="lang" href="thankyou_es.html" hreflang="es">ES</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container narrow">
-  <h1>Thanks for your purchase!</h1>
-  <p>Check your email for a receipt from Square.</p>
-  <ul class="bullets">
-    <li><strong>Mini-Course:</strong> we just sent your live session link and calendar invite.</li>
-    <li><strong>Ebooks:</strong> your download link is in the email (available immediately).</li>
-  </ul>
-  <p>If you don’t see the email within 10 minutes, check spam or contact <a href="mailto:hello@edunancial.com">hello@edunancial.com</a>.</p>
-  <p><a class="btn" href="index.html">Back to Home</a></p>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thank you — Edunancial</title>
+<link rel="stylesheet" href="style.css">
+<style>.banner{background:#c00;color:#000;padding:.75rem 1rem;text-align:center;font-weight:700}.wrap{max-width:800px;margin:0 auto;padding:1rem}</style>
+</head><body>
+<div class="banner">THANK YOU</div>
+<main class="wrap">
+  <h1>Payment received 🎉</h1>
+  <p id="msg"></p>
+  <p>Check your email for a receipt from PayPal. If this was a live session, we’ll send a Zoom link shortly.</p>
+  <p><a href="our-story.html">Back to home</a></p>
 </main>
-
-<footer class="site-footer">
-  <div class="container foot">
-    <span>© Edunancial</span>
-    <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
-  </div>
-</footer>
-</body>
-</html>
+<script>
+  const p=new URLSearchParams(location.search);
+  const item=p.get('item')||'your purchase';
+  const amount=p.get('amount')||'';
+  document.getElementById('msg').textContent=`Thanks for purchasing ${item}${amount?` ($${amount})`:''}.`;
+</script>
+</body></html>
