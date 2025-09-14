@@ -1,40 +1,26 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Edunancial Books & Guides</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
-  <style>
-    :root{--red:#c1121f;--blue:#0a3d62}
-    .banner{background:var(--red);color:#000;padding:.75rem 1rem;text-align:center;font-weight:800}
-    nav{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;padding:1rem}
-    nav a{color:var(--blue);text-decoration:none;font-weight:700}
-    .wrap{max-width:980px;margin:auto;padding:1.25rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
-    .card{border:1px solid #e6e6e6;border-radius:12px;padding:1rem;background:#fff}
-    h1{color:var(--blue)}
-  </style>
-</head>
-<body>
-  <div class="banner">EDUNANCIAL • BOOKS & GUIDES</div>
-  <nav>
-    <a href="/our-story.html">Our Story</a>
-    <a href="/books.html">Books</a>
-    <a href="/courses.html">Courses</a>
-    <a href="/payments.html">Payments</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/es-books.html">ES</a>
-  </nav>
-  <main class="wrap">
-    <h1>Titles</h1>
-    <div class="grid">
-      <div class="card"><strong>Neighborhood Math: Reading the Street</strong><br><small>Field guide to quickly score blocks & comps.</small></div>
-      <div class="card"><strong>Deal Math for Starters</strong><br><small>Buy box, rent math, cap/COC, breakeven.</small></div>
-      <div class="card"><strong>Financing Options 101</strong><br><small>Conventional, DSCR, HELOC, and creative basics.</small></div>
-      <div class="card"><strong>First Duplex Playbook</strong><br><small>Finding, underwriting, and living through rehab.</small></div>
-      <div class="card"><strong>Credit Repair for Owners</strong><br><small>Simple, legal steps to clean up & build credit.</small></div>
-    </div>
-  </main>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Books — Edunancial</title><link rel="stylesheet" href="style.css">
+<style>.banner{background:#c00;color:#000;padding:.75rem 1rem;text-align:center;font-weight:700}.grid{max-width:900px;margin:0 auto;padding:1rem}.book{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:.75rem 0}.buy{background:#002b5c;color:#fff;padding:.45rem .8rem;border-radius:8px;text-decoration:none}</style>
+</head><body>
+<div class="banner">EDUNANCIAL BOOKS</div>
+<nav class="nav" style="text-align:center;margin:12px 0">
+  <a href="our-story.html">Our Story</a> • <a href="courses.html">Courses</a> • <a href="mini-courses.html">Mini-Courses</a> • <a href="pricing.html">Pricing</a> • <a href="es-books.html">ES</a>
+</nav>
+<main class="grid">
+  <h1>Books</h1>
+  <!-- Add/duplicate blocks as you publish new titles -->
+  <article class="book">
+    <h3>Deal Math: Quick Guide</h3>
+    <p>Crunch numbers fast with simple rules of thumb and checklists.</p>
+    <a class="buy" href="payments.html?item=Deal%20Math%20Quick%20Guide&price=19">Buy $19</a>
+  </article>
+
+  <article class="book">
+    <h3>Neighborhood Revaluation Playbook</h3>
+    <p>How to read trends and spot value shifts before everyone else.</p>
+    <a class="buy" href="payments.html?item=Neighborhood%20Revaluation%20Playbook&price=24">Buy $24</a>
+  </article>
+</main>
+</body></html>
