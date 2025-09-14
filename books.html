@@ -1,89 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Books — Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Books that teach money skills the practical way — red, white & blue." />
+  <meta charset="utf-8">
+  <title>Edunancial Books & Guides</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    :root{--red:#c1121f;--blue:#0a3d62}
+    .banner{background:var(--red);color:#000;padding:.75rem 1rem;text-align:center;font-weight:800}
+    nav{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;padding:1rem}
+    nav a{color:var(--blue);text-decoration:none;font-weight:700}
+    .wrap{max-width:980px;margin:auto;padding:1.25rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:1rem;background:#fff}
+    h1{color:var(--blue)}
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">Edunancial</a>
-    <nav aria-label="Main">
-      <a href="index.html">Home</a>
-      <a class="active" href="books.html">Books</a>
-      <a href="mini-courses.html">Mini-Courses</a>
-      <a href="about.html">About Us</a>
-      <a href="story.html">Our Story</a>
-      <a href="contact.html">Contact</a>
-      <a class="lang" href="books_es.html" hreflang="es">ES</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <h1>Books</h1>
-  <p class="lead">Short, clear, and practical — use them in real life this week.</p>
-
-  <section class="card media">
-    <img src="css/book-red.jpg" alt="Red book: Real Estate" loading="lazy" />
-    <div>
-      <h2>Real Estate (Red)</h2>
-      <p>How to analyze a property, finance it, and avoid common mistakes.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REPLACE_BOOK_RED"
-         target="_blank" rel="noopener nofollow"
-         data-item="Book-RealEstate" data-price="12">
-        Buy ebook (PDF)
-      </a>
+  <div class="banner">EDUNANCIAL • BOOKS & GUIDES</div>
+  <nav>
+    <a href="/our-story.html">Our Story</a>
+    <a href="/books.html">Books</a>
+    <a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/es-books.html">ES</a>
+  </nav>
+  <main class="wrap">
+    <h1>Titles</h1>
+    <div class="grid">
+      <div class="card"><strong>Neighborhood Math: Reading the Street</strong><br><small>Field guide to quickly score blocks & comps.</small></div>
+      <div class="card"><strong>Deal Math for Starters</strong><br><small>Buy box, rent math, cap/COC, breakeven.</small></div>
+      <div class="card"><strong>Financing Options 101</strong><br><small>Conventional, DSCR, HELOC, and creative basics.</small></div>
+      <div class="card"><strong>First Duplex Playbook</strong><br><small>Finding, underwriting, and living through rehab.</small></div>
+      <div class="card"><strong>Credit Repair for Owners</strong><br><small>Simple, legal steps to clean up & build credit.</small></div>
     </div>
-  </section>
-
-  <section class="card media">
-    <img src="css/book-white.jpg" alt="White book: Paper Assets" loading="lazy" />
-    <div>
-      <h2>Paper Assets (White)</h2>
-      <p>Stocks &amp; ETFs without the noise — build a simple portfolio.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REPLACE_BOOK_WHITE"
-         target="_blank" rel="noopener nofollow"
-         data-item="Book-PaperAssets" data-price="12">
-        Buy ebook (PDF)
-      </a>
-    </div>
-  </section>
-
-  <section class="card media">
-    <img src="css/book-blue.jpg" alt="Blue book: Business" loading="lazy" />
-    <div>
-      <h2>Business (Blue)</h2>
-      <p>From idea to customers — systems you can repeat.</p>
-      <p class="price">$12</p>
-      <a class="btn pay"
-         href="https://square.link/u/REPLACE_BOOK_BLUE"
-         target="_blank" rel="noopener nofollow"
-         data-item="Book-Business" data-price="12">
-        Buy ebook (PDF)
-      </a>
-    </div>
-  </section>
-
-  <p class="secure">Payments by Square. Download links are delivered by email after purchase.</p>
-</main>
-
-<footer class="site-footer">
-  <div class="container foot">
-    <span>© Edunancial</span>
-    <nav aria-label="Legal">
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="cookies.html">Cookies</a>
-    </nav>
-  </div>
-</footer>
+  </main>
 </body>
 </html>
