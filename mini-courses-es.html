@@ -1,66 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mini-Cursos – Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="/config-loader.js"></script>
-  <style>
-    .course-card{border:1px solid #ccc;border-radius:12px;padding:16px;margin:16px 0;background:#fff}
-    .course-card h2{margin-top:0}
-    .course-card ul{margin:8px 0 16px}
-    .course-card a{display:inline-block;padding:8px 16px;background:#b30000;color:#fff;text-decoration:none;border-radius:6px}
-    .course-card a:hover{background:#7f0000}
-  </style>
-</head>
-<body>
-  <header>
-    <a href="es-index.html" class="brand">Edunancial</a>
-    <nav class="header-nav">
-      <a href="es-books.html">Libros</a>
-      <a href="mini-courses-es.html">Mini-Cursos</a>
-      <a href="es-about.html">Acerca de</a>
-      <a href="es-our-story.html">Nuestra Historia</a>
-      <a href="es-contact.html">Contacto</a>
-      <a href="es-pamphlet.html">Folleto</a>
-      <a href="index.html">EN</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Mini-Cursos y Libros</h1>
-    <div id="courses"></div>
-  </main>
-
-  <footer>
-    <p>&copy; <span data-site-name></span> – Todos los derechos reservados.</p>
-  </footer>
-
-  <script>
-    // Renderiza en español si existe, si no usa el texto en inglés.
-    initEdunancial(function(cfg){
-      const lista = cfg.courses || [];
-      const el = document.getElementById("courses");
-      if(!lista.length){
-        el.innerHTML = "<p>No hay cursos disponibles por ahora.</p>";
-        return;
-      }
-      el.innerHTML = "";
-      lista.forEach(item=>{
-        const titulo  = item.title_es || item.title || "Curso";
-        const bullets = (item.bullets_es && item.bullets_es.length ? item.bullets_es : item.bullets || []);
-        const link    = item.link || "#";
-        const card = document.createElement("div");
-        card.className = "course-card";
-        card.innerHTML = `
-          <h2>${titulo}</h2>
-          <ul>${bullets.map(b=>`<li>${b}</li>`).join("")}</ul>
-          <a href="${link}" target="_blank" rel="noopener">Reservar / Comprar – ${titulo}</a>
-        `;
-        el.appendChild(card);
-      });
-    });
-  </script>
-</body>
-</html>
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mini-Cursos — Edunancial</title><link rel="stylesheet" href="style.css">
+<style>.banner{background:#c00;color:#000;padding:.75rem 1rem;text-align:center;font-weight:700}.grid{max-width:900px;margin:0 auto;padding:1rem}.card{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:.75rem 0}.buy{background:#002b5c;color:#fff;padding:.45rem .8rem;border-radius:8px;text-decoration:none}</style>
+</head><body>
+<div class="banner">EDUNANCIAL MINI-CURSOS</div>
+<nav class="nav" style="text-align:center;margin:12px 0">
+  <a href="es-our-story.html">Nuestra Historia</a> • <a href="es-books.html">Libros</a> • <a href="es-courses.html">Cursos</a> • <a href="es-pricing.html">Precios</a> • <a href="mini-courses.html">EN</a>
+</nav>
+<main class="grid">
+  <h1>Mini-Cursos</h1>
+  <div class="card">
+    <h3>Ofertas — Inicio Rápido</h3>
+    <p>Estructura, contingencias y cronogramas. 45 minutos.</p>
+    <a class="buy" href="es-payments.html?item=Ofertas%20Inicio%20Rapido&price=39">Comprar $39</a>
+  </div>
+  <div class="card">
+    <h3>Opciones de Financiamiento 101</h3>
+    <p>Convencional vs. portafolio vs. creativo. 45 minutos.</p>
+    <a class="buy" href="es-payments.html?item=Opciones%20de%20Financiamiento%20101&price=39">Comprar $39</a>
+  </div>
+</main>
+</body></html>
