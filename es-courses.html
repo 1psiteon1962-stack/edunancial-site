@@ -2,83 +2,35 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mini-Cursos – Edunancial</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Edunancial – Cursos</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    :root{--red:#c1121f;--blue:#0a3d62}
+    .banner{background:var(--red);color:#000;padding:.75rem 1rem;text-align:center;font-weight:800}
+    nav{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;padding:1rem}
+    nav a{color:var(--blue);text-decoration:none;font-weight:700}
+    .wrap{max-width:980px;margin:auto;padding:1.25rem}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:1rem;background:#fff}
+    .cta{display:inline-block;background:var(--blue);color:#fff;padding:.7rem 1rem;border-radius:10px;text-decoration:none;font-weight:700}
+  </style>
 </head>
 <body>
-<header class="header">
-  <div class="header-inner">
-    <a href="es-index.html" class="brand">Edunancial</a>
-    <nav class="header-nav">
-      <a href="es-books.html">Libros</a>
-      <a href="es-courses.html">Mini-Cursos</a>
-      <a href="es-about.html">Acerca de</a>
-      <a href="es-our-story.html">Nuestra Historia</a>
-      <a href="es-contact.html">Contacto</a>
-      <a href="es-pamphlet.html">Folleto</a>
-      <a href="index.html">EN</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <h1>Mini-Cursos</h1>
-  <p>Sesiones en vivo — un tema cada semana. Conéctese desde su teléfono.</p>
-
-  <section class="section card">
-    <h2>Bienes Raíces (Rojo)</h2>
-    <ul>
-      <li>Encontrar y evaluar vecindarios</li>
-      <li>Matemáticas de tratos en una sola página</li>
-      <li>Opciones de financiamiento que realmente puede usar</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_RED" target="_blank" rel="noopener">
-        Reservar cupo – Bienes Raíces (Rojo)
-      </a>
-    </p>
-  </section>
-
-  <section class="section card">
-    <h2>Activos en Papel (Blanco)</h2>
-    <ul>
-      <li>Apertura de broker en 15 minutos</li>
-      <li>Plan básico de ETFs</li>
-      <li>Estrategias simples para cualquiera</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_WHITE" target="_blank" rel="noopener">
-        Reservar cupo – Activos en Papel (Blanco)
-      </a>
-    </p>
-  </section>
-
-  <section class="section card">
-    <h2>Negocios (Azul)</h2>
-    <ul>
-      <li>Elegir su entidad empresarial</li>
-      <li>Conceptos básicos de financiamiento inicial</li>
-      <li>Escalar paso a paso</li>
-    </ul>
-    <p>
-      <a class="pay-btn" href="https://square.link/u/URL_BLUE" target="_blank" rel="noopener">
-        Reservar cupo – Negocios (Azul)
-      </a>
-    </p>
-  </section>
-
-  <section class="section card center">
-    <h2>Apoyo Personalizado</h2>
-    <p>Si desea contribuir o pagar otro monto:</p>
-    <a class="btn btn--light" href="https://square.link/u/URL_ANY" target="_blank" rel="noopener">
-      Pagar cualquier monto
-    </a>
-  </section>
-</main>
-
-<footer class="container center">
-  <p>&copy; 2025 Edunancial. Todos los derechos reservados.</p>
-</footer>
+  <div class="banner">EDUNANCIAL • CURSOS</div>
+  <nav>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+    <a href="/es-books.html">Libros</a>
+    <a href="/es-courses.html">Cursos</a>
+    <a href="/es-payments.html">Pagos</a>
+    <a href="/es-contact.html">Contacto</a>
+    <a href="/courses.html">EN</a>
+  </nav>
+  <main class="wrap">
+    <h1 id="live">Talleres por Zoom</h1>
+    <div class="card">
+      <p>Después del pago, recibirás por email el enlace de Zoom y la invitación de calendario. Si prefieres usar tu Zoom, envía tu enlace de anfitrión a <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</p>
+      <p><a class="cta" href="/es-payments.html#mini-course-red">Reservar Mini Curso</a></p>
+    </div>
+  </main>
 </body>
 </html>
