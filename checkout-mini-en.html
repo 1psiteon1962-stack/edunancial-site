@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout — Mini Course (English) | Edunancial</title>
+  <meta name="description" content="Secure checkout for the Edunancial Method Mini Course." />
+
+  <!-- THE ONLY THING YOU MUST EDIT: insert your LIVE PayPal Client ID -->
+  <script>
+    window.PAYPAL_CLIENT_ID = "PASTE_YOUR_LIVE_CLIENT_ID_HERE"; // ← replace this string only
+  </script>
+
+  <!-- PayPal Smart Buttons (LIVE) -->
+  <script id="paypal-sdk-loader">
+    (function loadPayPalSDK() {
+      // builds https://www.paypal.com/sdk/js?client-id=...&currency=USD
+      var s = document.createElement("script");
+      s.src = "https://www.paypal.com/sdk/js?client-id=" +
+              encodeURIComponent(window.PAYPAL_CLIENT_ID) +
+              "&currency=USD";
+      s.async = true;
+      s.onload = function(){ document.dispatchEvent(new Event("paypal:ready")); };
+      document.head.appendChild(s);
+    })();
+  </script>
+
+  <style>
+    :root {
+      --edn-red: #c8102e;
+      --edn-blue: #0a2540;
+      --edn-black: #111;
+      --edn-gray: #f6f6f8;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color: #1a1a1a; background: #fff;
+      line-height: 1.5;
+    }
+    header {
+      background: var(--edn-red);
+      color: #000;
+      text-align: center;
+      padding: 18px 10px;
+      font-weight: 800;
+      letter-spacing: .4px;
+      font-size: clamp(18px, 2.5vw, 26px);
+    }
+    main {
+      max-width: 960px;
+      margin: 22px auto 64px;
+      padding: 0 14px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e6e6ea;
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.04);
+    }
+    .title {
+      font-size: clamp(24px, 4.5vw, 44px);
+      font-weight: 800;
+      margin: 0 0 8px;
+      line-height: 1.2;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+    .sku { color: #666; font-size: 14px; margin-bottom: 10px; }
+    .grid { display: grid; gap: 16px; }
+    @media (min-width: 800px) {
+      .grid-2 { grid-template-columns: 1.1fr .9fr; align-items: start; }
+    }
+    label { font-weight: 700; display: block; margin: 10px 0 6px; }
+    select, input[type="text"]{
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 12px;
+      border-radius: 10px;
+      border: 1px solid #d8d8de;
+      outline: none;
+    }
+    .checkbox-row{
+      display:flex; align-items:center; gap:10px; margin-top:8px;
+    }
+    .muted { color:#666; font-size:14px; }
+    .totals {
+      background: var(--edn-gray);
+      border-radius: 12px;
+      padding: 14px;
+      border: 1px solid #ececf1;
+    }
+    .totals .row { display:flex; justify-content:space-between; margin: 6px 0; }
+    .totals .row.total { font-weight: 900; font-size: 20px; }
+    .legal { font-size: 13px; color:#555; margin-top:14px; }
+    .badge {
+      display:inline-block; padding: 4px 10px; border-radius: 20px;
+      font-size: 12px; font-weight: 800; color:#fff; background: var(--edn-blue);
+    }
+    .blue { background: var(--edn-blue); color:#fff; }
+    .red { background: var(--edn-red); color:#fff; }
+    .note { font-size:13px; color:#333; }
+    .hidden { display:none !important; }
+    .hr { height:1px; background:#eee; margin:14px 0; }
+  </style>
+</head>
+
+<body>
+  <header>EDUNANCIAL CHECKOUT</header>
+
+  <main class="grid grid-2">
+    <!-- Left: Product -->
+    <section class="card">
+      <h1 class="title">Mini Course: <span class="red" style="padding:0 8px;border-radius:8px">Edunancial Method</span></h1>
+      <div class="sku">SKU: <strong id="sku">EDN-MINI-EM-001</strong></div>
+      <div class="subtitle">Learn the Edunancial Method foundations. English session.</div>
+
+      <div class="hr"></div>
+
+      <div class="grid">
+        <div>
+          <label for="membership">Membership</label>
+          <select id="membership">
+            <option value="none" selected>None (0%)</option>
+            <option value="red">Red Member (5% off)</option>
+            <option value="white">White Member (10% off)</option>
+            <option value="blue">Blue Member (15% off)</option>
+          </select>
+
+          <div class="checkbox-row">
+            <input type="checkbox" id="under18" />
+            <label for="under18" style="margin:0;font-weight:700">I am under 18</label>
+          </div>
+
+          <label for="code">Discount / Under-18 Code</label>
+          <input id="code" type="text" placeholder="Enter code (if any)" inputmode="text" autocomplete="off" />
+
+          <div class="muted" id="earlyBirdMsg"></div>
+        </div>
+
+        <div>
+          <div class="totals" id="totals">
+            <div class="row"><span>Subtotal:</span><span id="subtotal">$0.00</span></div>
+            <div class="row"><span>Membership discount:</span><span id="memb">$0.00</span></div>
+            <div class="row"><span>Early-bird:</span><span id="early">$0.00</span></div>
+            <div class="row"><span>Under-18 code:</span><span id="kid">$0.00</span></div>
+            <div class="row total"><span>Total:</span><span id="total">$0.00</span></div>
+          </div>
+
+          <div class="legal">
+            By paying you agree to our
+            <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+          </div>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="note">
+        <span class="badge">When</span> Upcoming English sessions: Oct 5 (Mini), Oct 12/19/26 (Full). All start 2:00 PM.
+      </div>
+    </section>
+
+    <!-- Right: PayPal Button -->
+    <aside class="card">
+      <div style="font-weight:800;margin-bottom:6px;">Pay securely with</div>
+      <div id="paypal-button-container"></div>
+      <div id="button-note" class="muted" style="margin-top:10px;">
+        The button appears once totals are ready.
+      </div>
+    </aside>
+  </main>
+
+  <script>
+    /***********************
+     * Product & Discounts *
+     ***********************/
+    const PRODUCT = {
+      id: "EDN-MINI-EM-001",
+      title: "Mini Course — Edunancial Method (EN)",
+      base: 75.00, // base price
+      language: "EN",
+      kind: "MINI"
+    };
+
+    // Membership rates
+    const MEMB_RATES = {
+      none: 0,
+      red: 0.05,
+      white: 0.10,
+      blue: 0.15
+    };
+
+    // Early-bird: 15% until 2025-09-26 inclusive
+    const EARLY_RATE = 0.15;
+    const EARLY_DEADLINE = new Date("2025-09-26T23:59:59-04:00"); // adjust TZ if needed
+
+    // Special under-18 test code -> force total to $1 (only for this page)
+    const SPECIAL_TEST_CODE = "PR12345$$";
+
+    // Elements
+    const $ = sel => document.querySelector(sel);
+    const els = {
+      membership: $("#membership"),
+      under18:   $("#under18"),
+      code:      $("#code"),
+      subtotal:  $("#subtotal"),
+      memb:      $("#memb"),
+      early:     $("#early"),
+      kid:       $("#kid"),
+      total:     $("#total"),
+      earlyMsg:  $("#earlyBirdMsg"),
+      btnNote:   $("#button-note")
+    };
+
+    // Init messages
+    const today = new Date();
+    const earlyActive = today <= EARLY_DEADLINE;
+    els.earlyMsg.textContent = earlyActive
+      ? `Early-bird: 15% off through ${EARLY_DEADLINE.toLocaleDateString()} applies automatically.`
+      : `Early-bird window has ended.`;
+
+    // Pricing calc
+    function calc() {
+      const sub = PRODUCT.base;
+      const membRate = MEMB_RATES[els.membership.value] || 0;
+      const memb = round(sub * membRate);
+
+      const early = earlyActive ? round((sub - memb) * EARLY_RATE) : 0;
+
+      let kid = 0;
+      const code = (els.code.value || "").trim();
+      const isUnder18 = els.under18.checked;
+
+      if (isUnder18 && code === SPECIAL_TEST_CODE) {
+        // Force $1 TOTAL for this Mini EN product
+        const current = round(sub - memb - early);
+        kid = round(current - 1.00);
+      }
+
+      const total = Math.max(1 * 0 + round(sub - memb - early - kid), 0.01); // floor at 0.01
+      // update UI
+      els.subtotal.textContent = toUSD(sub);
+      els.memb.textContent     = "-" + toUSD(memb);
+      els.early.textContent    = "-" + toUSD(early);
+      els.kid.textContent      = kid > 0 ? ("-" + toUSD(kid)) : "$0.00";
+      els.total.textContent    = toUSD(total);
+
+      return total;
+    }
+
+    function round(n){ return Math.round(n * 100) / 100; }
+    function toUSD(n){ return n.toLocaleString(undefined,{style:"currency",currency:"USD"}); }
+
+    ["change","keyup"].forEach(ev=>{
+      els.membership.addEventListener(ev, calc);
+      els.under18.addEventListener(ev, calc);
+      els.code.addEventListener(ev, calc);
+    });
+
+    // First render
+    let currentTotal = calc();
+
+    /****************
+     * PayPal setup *
+     ****************/
+    function renderButtons() {
+      if (!window.paypal || !paypal.Buttons) return;
+
+      $("#paypal-button-container").innerHTML = ""; // clear & rerender
+
+      paypal.Buttons({
+        style: { layout: "vertical", color: "gold", shape: "pill", label: "paypal" },
+
+        onInit: (data, actions) => {
+          currentTotal = calc();
+          // Enable right away; we always have a valid total (>= $0.01)
+          actions.enable();
+          els.btnNote.classList.add("hidden");
+        },
+
+        createOrder: (data, actions) => {
+          currentTotal = calc();
+          return actions.order.create({
+            purchase_units: [{
+              reference_id: PRODUCT.id,
+              description: PRODUCT.title,
+              amount: {
+                currency_code: "USD",
+                value: currentTotal.toFixed(2)
+              }
+            }],
+            application_context: {
+              brand_name: "Edunancial",
+              user_action: "PAY_NOW",
+              return_url: window.location.origin + "/thank-you.html"
+            }
+          });
+        },
+
+        onApprove: async (data, actions) => {
+          try {
+            const details = await actions.order.capture();
+            // Redirect with lightweight receipt info
+            const params = new URLSearchParams({
+              orderId: details.id || "",
+              sku: PRODUCT.id,
+              amount: currentTotal.toFixed(2),
+              email: (details.payer && details.payer.email_address) || ""
+            });
+            window.location.href = "/thank-you.html?" + params.toString();
+          } catch (e) {
+            alert("Payment was not completed. Please try again.");
+            console.error(e);
+          }
+        },
+
+        onError: (err) => {
+          console.error("PayPal error:", err);
+          alert("There was a PayPal error. Please try again or use a different browser.");
+        }
+      }).render("#paypal-button-container");
+    }
+
+    // Render once SDK is ready
+    document.addEventListener("paypal:ready", renderButtons);
+  </script>
+</body>
+</html>
