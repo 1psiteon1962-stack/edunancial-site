@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mini Course Checkout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — Edunancial</title>
+  <link rel="stylesheet" href="css/styles.css">
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .checkout-box { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
-    .total { font-weight: bold; margin-top: 10px; }
-    #paypal-button-container { margin-top: 20px; display: none; }
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .checkout-box { max-width: 480px; margin: auto; border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+    h1 { font-size: 22px; text-align: center; margin-bottom: 20px; }
+    label { display: block; margin-top: 10px; }
+    input[type="text"] { width: 100%; padding: 8px; margin-top: 5px; }
+    .total-box { margin-top: 20px; padding: 15px; background: #f7f7f7; border-radius: 6px; }
+    .total-box strong { font-size: 20px; }
+    #paypal-button-container { margin-top: 20px; }
   </style>
 </head>
 <body>
   <div class="checkout-box">
-    <h2>Mini Course: Edunancial Method</h2>
-    <p>SKU: EDN-MINI-EM-001 • Total (before discounts): $75.00</p>
+    <h1>Mini Course: Edunancial Method</h1>
+    <p>SKU: EDN-MINI-EN-001</p>
+    <p>Base Price: $75.00</p>
 
-    <label><input type="checkbox" id="under18"> I am under 18</label><br>
-    <label>Discount / Under-18 Code:</label><br>
-    <input type="text" id="discountCode" placeholder="Enter code" />
+    <form id="discount-form">
+      <label>
+        <input type="checkbox" id="under18"> I am under 18
+      </label>
+      <label for="discount">Discount / Under-18 Code</label>
+      <input type="text" id="discount" placeholder="Enter code">
+    </form>
 
-    <div class="total" id="totalDisplay">Total: $75.00</div>
+    <div class="total-box">
+      <p>Subtotal: $75.00</p>
+      <p>Early-bird: -$11.25</p>
+      <p id="under18-discount">Under-18 code: -$0.00</p>
+      <p><strong>Total: $<span id="final-total">63.75</span></strong></p>
+    </div>
 
-    <!-- PayPal button -->
+    <!-- PayPal button container -->
     <div id="paypal-button-container"></div>
   </div>
 
-  <!-- Replace YOUR_PAYPAL_CLIENT_ID with your real live client ID -->
-  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
-  <script>
-    const discountBox = document.getElementById("discountCode");
-    const under18 = document.getElementById("under18");
-    const totalDisplay = document.getElementById("totalDisplay");
-    const paypalContainer = document.getElementById("paypal-button-container");
+  <!-- PayPal SDK -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD"></script>
 
-    let total = 75.00;
+  <script>
+    const discountInput = document.getElementById("discount");
+    const under18Box = document.getElementById("under18");
+    const under18Line = document.getElementById("under18-discount");
+    const totalSpan = document.getElementById("final-total");
+
+    let subtotal = 75.00;
+    let earlyBird = 11.25;
+    let under18Discount = 0.00;
 
     function updateTotal() {
-      if (discountBox.value === "PR12345$$" && under18.checked) {
-        total = 1.00;
-        totalDisplay.textContent = "Total: $1.00 (Discount Applied)";
-        paypalContainer.style.display = "block"; // show PayPal button only if valid
-      } else {
-        total = 75.00;
-        totalDisplay.textContent = "Total: $75.00";
-        paypalContainer.style.display = "none"; // hide until discount valid
+      let code = discountInput.value.trim();
+      under18Discount = 0.00;
+      if (under18Box.checked && code === "PR12345$$") {
+        under18Discount = 62.75;
       }
+      let total = subtotal - earlyBird - under18Discount;
+      under18Line.textContent = "Under-18 code: -$" + under18Discount.toFixed(2);
+      totalSpan.textContent = total.toFixed(2);
+      return total.toFixed(2);
     }
 
-    discountBox.addEventListener("input", updateTotal);
-    under18.addEventListener("change", updateTotal);
+    discountInput.addEventListener("input", updateTotal);
+    under18Box.addEventListener("change", updateTotal);
 
+    // PayPal button
     paypal.Buttons({
       createOrder: function(data, actions) {
         return actions.order.create({
           purchase_units: [{
-            amount: { value: total.toFixed(2) }
+            description: "Edunancial Mini Course",
+            amount: {
+              value: updateTotal()
+            }
           }]
         });
       },
       onApprove: function(data, actions) {
         return actions.order.capture().then(function(details) {
           alert("Payment completed by " + details.payer.name.given_name);
+          window.location.href = "/thank-you.html";
         });
       }
     }).render('#paypal-button-container');
