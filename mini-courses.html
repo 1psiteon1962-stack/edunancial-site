@@ -1,56 +1,53 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Edunancial — Mini-Courses</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" />
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif}
-header{background:#c00;color:#000;padding:1rem;text-align:center} header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-main{max-width:900px;margin:2rem auto;padding:0 1rem}
-.card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-.badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
-.badge.rwb{background:linear-gradient(90deg,#c00 0 33%,#fff 33% 66%,#0d47a1 66%);color:#000}
-.btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-.notice{background:#f9f9f9;border:1px solid #c00;padding:1rem;border-radius:10px;margin-top:.75rem}
-</style></head>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:1rem;text-align:center}
+  header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
+  main{max-width:900px;margin:2rem auto;padding:0 1rem}
+  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
+  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
+  .badge.rwb{background:linear-gradient(90deg,#c00 0 33%,#fff 33% 66%,#0d47a1 66%);color:#000}
+  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
+  p small{opacity:.8}
+</style>
+</head>
 <body>
 <header>
   <div>EDUNANCIAL • Practical financial literacy</div>
   <nav>
-    <a href="our-story.html">Our Story</a><a href="books.html">Books</a><a href="courses.html">Courses</a><a href="mini-courses.html">Mini-Courses</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a><a href="es-mini-courses.html">ES</a>
+    <a href="our-story.html">Our Story</a>
+    <a href="books.html">Books</a>
+    <a href="courses.html">Courses</a>
+    <a href="mini-courses.html">Mini-Courses</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <a href="es-mini-courses.html">ES</a>
   </nav>
 </header>
+
 <main>
   <h2>Mini-Courses</h2>
+
   <article class="card">
-    <h3>The Edunancial Method: Help Your Children / Help Yourself <span class="badge rwb">Red · White · Blue</span></h3>
+    <h3>The Edunancial Method: Help Your Children / Help Yourself
+      <span class="badge rwb">Red · White · Blue</span>
+    </h3>
     <p><strong>Date:</strong> October 5, 2025 · <strong>Start:</strong> 2:00 PM</p>
-    <div class="notice">
-      <p><strong>Base price:</strong> $75.00 (max $199)</p>
-      <label for="mcMember">Membership</label>
-      <select id="mcMember">
-        <option value="none" selected>None</option><option value="basic">Basic (10% off)</option><option value="plus">Plus (20% off)</option><option value="pro">Premium (30% off)</option>
-      </select>
-      <p><em>Early-bird:</em> extra 10% off if purchased by <strong>Sep 26, 2025</strong>.</p>
-      <p>
-        <label for="mcCode">Non-profit code (under 18)</label>
-        <input id="mcCode" placeholder="Enter code (optional)" />
-        <label style="display:inline-flex;align-items:center;gap:.4rem"><input id="mcU18" type="checkbox"> Under 18</label>
-      </p>
-      <p><strong>Your price:</strong> $<span id="mcOut">75.00</span></p>
-      <p><a id="mcBuy" class="btn" href="payments.html?item=Mini-Course%3A%20Edunancial%20Method&sku=EDN-MINI-EM-001&price=75.00">Buy now</a></p>
-    </div>
+    <p><strong>Base price:</strong> $75.00</p>
+    <p>
+      <a class="btn"
+         href="payments.html?item=Mini%20Course%3A%20Edunancial%20Method&sku=EDN-MINI-EM-001&price=75.00">
+        Buy Now
+      </a>
+    </p>
+    <p><small>Membership & early-bird discounts apply on the checkout page.</small></p>
   </article>
 </main>
-<script>
-const MAX_PRICE=199.00, EARLY_BIRD_DEADLINE=new Date('2025-09-26T23:59:59');
-const NONPROFIT_CODE='NPO-UNDER18', NONPROFIT_PCT=0.00;
-(function(){
-  const base=75, sel=mcMember, code=mcCode, u18=mcU18, out=mcOut, buy=mcBuy;
-  const md=v=>v==='basic'?0.10:v==='plus'?0.20:v==='pro'?0.30:0, eb=()=>new Date()<=EARLY_BIRD_DEADLINE?0.10:0;
-  const npo=()=>NONPROFIT_PCT>0&&u18.checked&&code.value.trim().toUpperCase()===NONPROFIT_CODE;
-  function up(){let p=base; p*=1-md(sel.value); p*=1-eb(); if(npo()) p*=1-NONPROFIT_PCT; if(p>MAX_PRICE)p=MAX_PRICE; p=Math.round(p*100)/100; out.textContent=p.toFixed(2); buy.href=`payments.html?item=${encodeURIComponent('Mini-Course: Edunancial Method')}&sku=EDN-MINI-EM-001&price=${p.toFixed(2)}`;}
-  [sel,code,u18].forEach(e=>e.addEventListener('input',up)); up();
-})();
-</script>
-</body></html>
+</body>
+</html>
