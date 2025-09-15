@@ -5,50 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Thank You — Edunancial</title>
 <style>
-  :root { --bg:#0b0f13; --fg:#e6e8eb; --muted:#9aa4ad; --card:#141a20; --brand:#1e90ff; }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
-  main{max-width:720px;margin:0 auto;padding:28px}
-  h1{margin:0 0 10px}
-  .card{background:var(--card);border:1px solid #23303d;border-radius:14px;padding:16px}
-  .sku{color:var(--muted);font-size:12px}
-  a{color:#7bb6ff}
+  :root{--card:#ffffff;--line:#e5e7eb}
+  body{margin:0;background:#f5f7fb;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;color:#0b0f13}
+  main{max-width:720px;margin:28px auto;padding:0 14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  a{color:#0070ba}
 </style>
 </head>
 <body>
 <main>
   <h1>Thank you for your purchase!</h1>
-  <p>Your payment was processed by PayPal and is now complete.</p>
-
   <div class="card">
-    <p class="sku" id="sku"></p>
-    <p>If you purchased a <strong>membership</strong>, your access will be activated shortly.</p>
-    <p>If you purchased a <strong>download</strong> (eBook, template, etc.), your link is below. Save it for your records.</p>
-    <div id="download"></div>
+    <p>Your payment was processed by PayPal and is complete.</p>
+    <p>If this was a <strong>membership</strong>, your access will be activated shortly.</p>
+    <p>If this was a <strong>course</strong>, you’ll receive the live link or replay by email.</p>
+    <p><a href="/checkout.html">← Back to checkout</a></p>
   </div>
-
-  <p><a href="/pricing.html">← Back to Pricing</a></p>
 </main>
-
-<script>
-  // Map SKUs to download links (add more as needed)
-  const DOWNLOADS = {
-    "BOOK-FOUND-1999": "/downloads/FOUNDATIONS-EN.pdf",
-    "COURSE-MINI-075": "/downloads/mini-course-replay.mp4",
-    "COURSE-REG-299": "/downloads/full-course-starter-pack.zip"
-  };
-
-  const params = new URLSearchParams(location.search);
-  const sku = params.get('sku') || 'N/A';
-  document.getElementById('sku').textContent = "SKU: " + sku;
-
-  if (DOWNLOADS[sku]) {
-    document.getElementById('download').innerHTML =
-      `<p><a href="${DOWNLOADS[sku]}" download>Download your file</a></p>`;
-  } else {
-    document.getElementById('download').innerHTML =
-      `<p>No direct download for this SKU. If this was a membership, you’re all set — check your member email.</p>`;
-  }
-</script>
 </body>
 </html>
