@@ -1,27 +1,199 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Precios</title>
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Edunancial — Precios y Pago</title>
+<meta name="description" content="Únase a Edunancial y compre cursos y libros con pago seguro por PayPal." />
 <style>
-header{background:#c00;color:#000;padding:1rem;text-align:center} header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-main{max-width:900px;margin:2rem auto;padding:0 1rem}
-.card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-.btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-</style></head>
+  :root { --bg:#0b0f13; --fg:#e6e8eb; --muted:#9aa4ad; --card:#141a20; --brand:#1e90ff; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  header,footer{padding:16px 18px;background:#0f141a;border-bottom:1px solid #23303d}
+  footer{border-top:1px solid #23303d;border-bottom:none}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  h1{margin:0 0 6px;font-size:24px}
+  .muted{color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:16px}
+  .card{background:var(--card);border:1px solid #23303d;border-radius:14px;padding:16px}
+  .price{font-weight:800;margin:10px 0}
+  .btn{background:var(--brand);color:#fff;border:0;border-radius:10px;padding:10px 14px;cursor:pointer}
+  .sku{color:var(--muted);font-size:12px}
+  .hr{height:1px;background:#23303d;margin:16px 0}
+  a{color:#7bb6ff}
+  .note{font-size:13px;color:var(--muted)}
+</style>
+</head>
 <body>
 <header>
-  <div>EDUNANCIAL • Educación financiera práctica</div>
-  <nav><a href="es-our-story.html">Nuestra historia</a><a href="es-books.html">Libros</a><a href="es-courses.html">Cursos</a><a href="es-mini-courses.html">Mini-cursos</a><a href="es-pricing.html">Precios</a><a href="es-contact.html">Contacto</a><a href="pricing.html">EN</a></nav>
+  <h1>Edunancial — Precios y Pago</h1>
+  <div class="muted">Pago seguro con PayPal — funciona con o sin scripts</div>
 </header>
+
 <main>
-  <h2>Membresía</h2>
-  <div class="card">
-    <ul>
-      <li>Entrada: $9.99/mes — Folleto de regalo + cupón</li>
-      <li>Estándar: $29/mes</li>
-      <li>Premium: $59/mes — mayores descuentos + llamadas en vivo</li>
-    </ul>
-    <p><a class="btn" href="es-contact.html">Unirse / Consultas</a></p>
-  </div>
+
+  <!-- MEMBRESÍAS -->
+  <section>
+    <h2>Membresías</h2>
+    <div class="grid">
+
+      <!-- Entrada -->
+      <article class="card">
+        <h3>Entrada — $9.99 / mes</h3>
+        <p>Folleto descargable + cupón de 15% en un mini curso (una sola vez).</p>
+        <div class="price">$9.99 / mes</div>
+        <div class="sku">SKU: MEM-ENTRY-999</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Membresía Edunancial — Entrada">
+          <input type="hidden" name="custom" value="MEM-ENTRY-999">
+          <input type="hidden" name="a3" value="9.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=MEM-ENTRY-999">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=MEM-ENTRY-999">
+          <button class="btn" type="submit">Unirme — Entrada</button>
+        </form>
+      </article>
+
+      <!-- Estándar -->
+      <article class="card">
+        <h3>Estándar — $29 / mes</h3>
+        <p>Biblioteca completa, herramientas y coaching. <strong>10% de descuento en todos los cursos</strong> y <strong>5% en libros y mercancía</strong>.</p>
+        <div class="price">$29 / mes</div>
+        <div class="sku">SKU: MEM-STANDARD-29</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Membresía Edunancial — Estándar">
+          <input type="hidden" name="custom" value="MEM-STANDARD-29">
+          <input type="hidden" name="a3" value="29.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=MEM-STANDARD-29">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=MEM-STANDARD-29">
+          <button class="btn" type="submit">Unirme — Estándar</button>
+        </form>
+      </article>
+
+      <!-- Premium -->
+      <article class="card">
+        <h3>Premium — $59 / mes</h3>
+        <p>Todo lo de Estándar. <strong>30% de descuento en todos los cursos</strong> y <strong>20% en libros y mercancía</strong>.</p>
+        <div class="price">$59 / mes</div>
+        <div class="sku">SKU: MEM-PREMIUM-59</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Membresía Edunancial — Premium">
+          <input type="hidden" name="custom" value="MEM-PREMIUM-59">
+          <input type="hidden" name="a3" value="59.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=MEM-PREMIUM-59">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=MEM-PREMIUM-59">
+          <button class="btn" type="submit">Unirme — Premium</button>
+        </form>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="hr"></div>
+
+  <!-- COMPRAS ÚNICAS -->
+  <section>
+    <h2>Cursos y Productos</h2>
+    <div class="grid">
+
+      <!-- Mini curso -->
+      <article class="card">
+        <h3>Mini Curso — En vivo + Repetición</h3>
+        <p>Capacitación rápida (~1–2 horas).<br><span class="note">Estándar ahorra 10% • Premium ahorra 30%</span></p>
+        <div class="price">$75 único</div>
+        <div class="sku">SKU: COURSE-MINI-075</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Edunancial Mini Curso">
+          <input type="hidden" name="custom" value="COURSE-MINI-075">
+          <input type="hidden" name="amount" value="75.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=COURSE-MINI-075">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=COURSE-MINI-075">
+          <button class="btn" type="submit">Comprar Mini Curso</button>
+        </form>
+      </article>
+
+      <!-- Curso completo -->
+      <article class="card">
+        <h3>Curso Completo</h3>
+        <p>Formación de varias sesiones con materiales.<br><span class="note">Estándar ahorra 10% • Premium ahorra 30%</span></p>
+        <div class="price">$299 único</div>
+        <div class="sku">SKU: COURSE-REG-299</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Edunancial Curso Completo">
+          <input type="hidden" name="custom" value="COURSE-REG-299">
+          <input type="hidden" name="amount" value="299.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=COURSE-REG-299">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=COURSE-REG-299">
+          <button class="btn" type="submit">Comprar Curso Completo</button>
+        </form>
+      </article>
+
+      <!-- eBook -->
+      <article class="card">
+        <h3>eBook Fundamentos (EN)</h3>
+        <p>PDF descargable.<br><span class="note">Estándar ahorra 5% • Premium ahorra 20%</span></p>
+        <div class="price">$19.99 único</div>
+        <div class="sku">SKU: BOOK-FOUND-1999</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Edunancial eBook — Fundamentos (EN)">
+          <input type="hidden" name="custom" value="BOOK-FOUND-1999">
+          <input type="hidden" name="amount" value="19.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=BOOK-FOUND-1999">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=BOOK-FOUND-1999">
+          <button class="btn" type="submit">Comprar eBook</button>
+        </form>
+      </article>
+
+      <!-- Merch -->
+      <article class="card">
+        <h3>Camiseta Edunancial</h3>
+        <p>Algodón premium.<br><span class="note">Estándar ahorra 5% • Premium ahorra 20%</span></p>
+        <div class="price">$25 único</div>
+        <div class="sku">SKU: MERCH-TEE-25</div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="payments@edunancial.com">
+          <input type="hidden" name="item_name" value="Camiseta Edunancial">
+          <input type="hidden" name="custom" value="MERCH-TEE-25">
+          <input type="hidden" name="amount" value="25.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="/thank-you-es.html?sku=MERCH-TEE-25">
+          <input type="hidden" name="cancel_return" value="/pricing-es.html?canceled=1&sku=MERCH-TEE-25">
+          <button class="btn" type="submit">Comprar Camiseta</button>
+        </form>
+      </article>
+
+    </div>
+  </section>
+
 </main>
-</body></html>
+
+<footer>
+  © <span id="yr"></span> Edunancial, Inc. Todos los derechos reservados.
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
