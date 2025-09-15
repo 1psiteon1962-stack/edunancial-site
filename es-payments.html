@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Checkout — Edunancial</title>
+<title>Pago — Edunancial</title>
 <link rel="stylesheet" href="style.css" />
 <style>
   :root{--red:#c00;--blue:#002b5c}
@@ -18,52 +18,39 @@
   .total{font-size:1.25rem;font-weight:800}
   .muted{opacity:.8}
   .note{font-size:.9rem}
-  .btn{display:inline-block;background:var(--blue);color:#fff;padding:.6rem 1rem;border-radius:8px;text-decoration:none}
-  .stack > *{margin:.35rem 0}
 </style>
 </head>
 <body>
-<header>EDUNANCIAL CHECKOUT</header>
+<header>PAGO DE EDUNANCIAL</header>
 
 <main>
   <div id="summary" class="card">
-    <h1 id="title">Checkout</h1>
+    <h1 id="title">Pago</h1>
     <p id="skuLine" class="muted"></p>
     <div class="row">
       <div class="col">
         <div class="card">
-          <div class="stack">
-            <label for="membership">Membership</label>
-            <select id="membership">
-              <option value="0">None (0%)</option>
-              <option value="10">Standard (10% off)</option>
-              <option value="20">Pro (20% off)</option>
-            </select>
-
-            <label><input type="checkbox" id="under18" /> I am under 18</label>
-            <label for="code">Discount / Under-18 Code</label>
-            <input type="text" id="code" placeholder="Enter code (optional)" />
-
-            <p class="note muted">
-              Early-bird: 15% off through <strong>09/26/2025</strong> applies automatically.
-            </p>
-          </div>
+          <label for="membership">Membresía</label>
+          <select id="membership">
+            <option value="0">Ninguna (0%)</option>
+            <option value="10">Estándar (10% dto.)</option>
+            <option value="20">Pro (20% dto.)</option>
+          </select>
+          <p class="note muted">
+            Early-bird: 15% de descuento hasta <strong>26/09/2025</strong>. Se aplica automáticamente.
+          </p>
         </div>
       </div>
-
       <div class="col">
         <div class="card">
-          <div class="stack">
-            <div class="muted">Subtotal: <span id="subtotal">$0.00</span></div>
-            <div class="muted">Membership discount: <span id="membdisc">-$0.00</span></div>
-            <div class="muted">Early-bird: <span id="ebdisc">-$0.00</span></div>
-            <div class="muted">Under-18 code: <span id="u18disc">-$0.00</span></div>
-            <div class="total">Total: <span id="total">$0.00</span></div>
-          </div>
+          <div class="muted">Subtotal: <span id="subtotal">$0.00</span></div>
+          <div class="muted">Descuento membresía: <span id="membdisc">-$0.00</span></div>
+          <div class="muted">Early-bird: <span id="ebdisc">-$0.00</span></div>
+          <div class="total">Total: <span id="total">$0.00</span></div>
         </div>
         <div class="card">
           <div id="paypal-button-container"></div>
-          <p class="note muted">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
+          <p class="note muted">Al pagar aceptas nuestros <a href="es-terms.html">Términos</a> y <a href="es-refunds.html">Reembolsos</a>.</p>
         </div>
       </div>
     </div>
@@ -71,9 +58,8 @@
 </main>
 
 <script>
-  // ----- Read item details from URL -----
   const params = new URLSearchParams(location.search);
-  const item = decodeURIComponent(params.get('item') || 'Edunancial Item');
+  const item = decodeURIComponent(params.get('item') || 'Producto Edunancial');
   const sku  = params.get('sku')  || 'EDN-ITEM';
   const base = parseFloat(params.get('price') || '0');
 
@@ -84,95 +70,51 @@
     subtotal: document.getElementById('subtotal'),
     membdisc: document.getElementById('membdisc'),
     ebdisc:   document.getElementById('ebdisc'),
-    u18disc:  document.getElementById('u18disc'),
     total:    document.getElementById('total'),
-    membership: document.getElementById('membership'),
-    under18: document.getElementById('under18'),
-    code: document.getElementById('code')
+    membership: document.getElementById('membership')
   };
 
-  // Early-bird deadline (inclusive)
-  const earlyBirdDeadline = new Date('2025-09-26T23:59:59-05:00'); // adjust TZ if needed
+  const earlyBirdDeadline = new Date('2025-09-26T23:59:59-05:00');
 
   function calc() {
     const subtotal = base;
     const membPct = parseFloat(els.membership.value || '0');
-
     let membDisc = subtotal * (membPct/100);
-
     let ebDisc = 0;
-    if (new Date() <= earlyBirdDeadline) {
-      ebDisc = subtotal * 0.15; // 15% early-bird through 9/26/2025
-    }
+    if (new Date() <= earlyBirdDeadline) ebDisc = subtotal * 0.15;
 
-    // Under-18 code: ONLY this exact code yields $1 total (English page only)
-    let u18Disc = 0;
-    const code = (els.code.value || '').trim();
-    const wantsU18 = els.under18.checked;
-
-    let total = subtotal - membDisc - ebDisc;
-
-    if (wantsU18 && code === 'PR12345$$') {
-      u18Disc = Math.max(0, total - 1.00); // drive net to $1.00
-      total = 1.00;
-    } else {
-      total = Math.max(0, total); // floor at 0
-    }
+    let total = Math.max(0, subtotal - membDisc - ebDisc);
 
     els.subtotal.textContent = `$${subtotal.toFixed(2)}`;
     els.membdisc.textContent = `-$${membDisc.toFixed(2)}`;
     els.ebdisc.textContent   = `-$${ebDisc.toFixed(2)}`;
-    els.u18disc.textContent  = `-$${u18Disc.toFixed(2)}`;
     els.total.textContent    = `$${total.toFixed(2)}`;
 
-    return { subtotal, membDisc, ebDisc, u18Disc, total };
+    return { total };
   }
 
-  ['change','keyup'].forEach(ev=>{
-    els.membership.addEventListener(ev, calc);
-    els.under18.addEventListener(ev, calc);
-    els.code.addEventListener(ev, calc);
-  });
-
-  // initial calc before PayPal loads
+  ['change','keyup'].forEach(ev => els.membership.addEventListener(ev, calc));
   let currentTotals = calc();
 </script>
 
-<!-- LIVE PayPal SDK (replace client-id!) -->
 <script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_PAYPAL_CLIENT_ID_HERE&currency=USD&intent=capture"></script>
 <script>
-  function amount() {
-    // recalc right before createOrder
-    currentTotals = (typeof calc === 'function') ? calc() : currentTotals;
-    return currentTotals.total.toFixed(2);
-  }
+  function amount(){ currentTotals = (typeof calc==='function')?calc():currentTotals; return currentTotals.total.toFixed(2); }
 
   paypal.Buttons({
-    style: { layout: 'vertical', color: 'gold', shape: 'rect', label: 'paypal' },
-
+    style:{layout:'vertical',color:'gold',shape:'rect',label:'paypal'},
     createOrder: function(data, actions) {
-      const value = amount();
       return actions.order.create({
-        purchase_units: [{
-          description: `${item} (SKU: ${sku})`,
-          amount: { currency_code: 'USD', value }
-        }]
+        purchase_units: [{ description: `${item} (SKU: ${sku})`, amount:{currency_code:'USD', value: amount()} }]
       });
     },
-
     onApprove: function(data, actions) {
-      return actions.order.capture().then(function(details) {
-        // Redirect to thank-you with receipt info
-        const q = new URLSearchParams({
-          item, sku, paid: amount(), orderId: data.orderID, payer: details.payer?.name?.given_name || 'Customer'
-        }).toString();
-        location.href = `thank-you.html?${q}`;
+      return actions.order.capture().then(function(details){
+        const q = new URLSearchParams({ item, sku, paid: amount(), orderId: data.orderID, payer: details.payer?.name?.given_name || 'Cliente' }).toString();
+        location.href = `es-thank-you.html?${q}`;
       });
     },
-
-    onError: function(err) {
-      alert('Payment error: ' + (err && err.message ? err.message : err));
-    }
+    onError: err => alert('Error en el pago: ' + (err && err.message ? err.message : err))
   }).render('#paypal-button-container');
 </script>
 </body>
