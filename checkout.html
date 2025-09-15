@@ -1,171 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Checkout — Edunancial</title>
-<meta name="description" content="Secure checkout for Edunancial mini courses." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial • $1 Live Test Checkout</title>
 <style>
-  :root{--bg:#0b0f13;--fg:#111;--ink:#0b0f13;--muted:#6b7280;--card:#ffffff;--line:#e5e7eb;--accent:#e11d48;--btn:#0070ba;--btn-ink:#fff;}
-  *{box-sizing:border-box}
-  body{margin:0;background:#f5f7fb;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
-  header{background:#b91c1c;color:#fff;padding:14px 18px;font-weight:800;letter-spacing:.5px}
-  main{max-width:780px;margin:18px auto;padding:0 12px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
-  h1{margin:0 0 6px;font-size:26px}
-  .sku{color:var(--muted);margin-top:6px}
-  label{font-weight:600;display:block;margin:.25rem 0 .35rem}
-  select,input[type="text"]{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:16px;background:#fff}
-  .row{display:grid;grid-template-columns:1fr;gap:12px}
-  @media (min-width:640px){.row{grid-template-columns:1fr 1fr}}
-  .inline{display:flex;align-items:center;gap:10px}
-  .muted{color:var(--muted)}
-  .summary{font-size:16px}
-  .summary div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #e8e8ee}
-  .summary div:last-child{border-bottom:0}
-  .total{font-weight:800;font-size:20px}
-  .btn{background:var(--btn);color:var(--btn-ink);border:0;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer}
-  .btn:active{transform:translateY(1px)}
-  .footnote{font-size:12px;color:var(--muted);margin-top:8px}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fff;color:#111}
+  header{background:#c50000;color:#000;font-weight:800;text-align:center;padding:14px 10px;letter-spacing:.5px}
+  main{max-width:520px;margin:28px auto 56px;padding:0 16px}
+  .card{border:1px solid #e6e6ea;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+  h1{margin:0 0 8px;font-size:22px}
+  .row{display:flex;justify-content:space-between;margin:6px 0}
+  .total{font-weight:900;font-size:22px;margin-top:10px}
+  #paypal-button-container{margin-top:16px;min-height:45px}
+  .help{display:none;margin-top:12px;padding:12px;border:1px solid #e53935;background:#ffebee;color:#b71c1c;border-radius:6px;font-size:.95rem}
+  .muted{color:#666;font-size:14px}
 </style>
 </head>
 <body>
 <header>EDUNANCIAL CHECKOUT</header>
 <main>
+  <div class="card">
+    <h1>$1 Live Test Payment</h1>
+    <div class="row"><span>Item</span><span>Mini Course (test)</span></div>
+    <div class="row"><span>Amount</span><span>$1.00</span></div>
+    <div class="row total"><span>Total</span><span id="total">$1.00</span></div>
 
-  <!-- PRODUCT CARD -->
-  <section class="card">
-    <h1>Mini Course: Edunancial Method</h1>
-    <div class="sku">SKU: <span id="sku">EDN-MINI-EM-001</span> • Total (before discounts): $<span id="base">75.00</span></div>
-  </section>
+    <!-- PayPal button mounts here -->
+    <div id="paypal-button-container"></div>
 
-  <!-- CONTROLS -->
-  <section class="card">
-    <div class="row">
-      <div>
-        <label for="membership">Membership</label>
-        <select id="membership" aria-label="Membership">
-          <option value="none">None (0%)</option>
-          <option value="standard">Standard (10% off courses)</option>
-          <option value="premium">Premium (30% off courses)</option>
-        </select>
-      </div>
-      <div>
-        <label>&nbsp;</label>
-        <div class="inline">
-          <input id="under18" type="checkbox" />
-          <label for="under18" class="muted" style="font-weight:600">I am under 18</label>
-        </div>
-      </div>
+    <!-- Fallback if PayPal is blocked -->
+    <div id="paypal-help" class="help">
+      ⚠️ The PayPal checkout button didn’t load.<br><br>
+      Please disable <strong>ad-blockers</strong> or <strong>Private DNS</strong> on your phone/browser,
+      or try switching between Wi-Fi and mobile data. Then refresh this page.
+      (Allow scripts from <em>paypal.com</em>.)
     </div>
 
-    <div style="margin-top:10px">
-      <label for="code">Discount / Under-18 Code</label>
-      <input id="code" type="text" placeholder="Enter code (if any)" />
-      <div class="footnote muted">Early-bird: <strong>15% off</strong> through <span id="eb-date">09/26/2025</span> applies automatically.</div>
-    </div>
-  </section>
-
-  <!-- SUMMARY -->
-  <section class="card summary" id="summary">
-    <div><span>Subtotal:</span><span id="s_sub">$75.00</span></div>
-    <div><span>Membership discount:</span><span id="s_mem">-$0.00</span></div>
-    <div><span>Early-bird:</span><span id="s_eb">-$0.00</span></div>
-    <div><span>Under-18 code:</span><span id="s_u18">-$0.00</span></div>
-    <div class="total"><span>Total:</span><span id="s_total">$75.00</span></div>
-  </section>
-
-  <!-- PAYPAL -->
-  <section class="card">
-    <button class="btn" id="pay">Pay with PayPal</button>
-    <div class="footnote">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</div>
-
-    <!-- Hidden PayPal Standard form -->
-    <form id="ppForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="payments@edunancial.com">
-      <input type="hidden" name="item_name" id="pp_item_name" value="Mini Course: Edunancial Method">
-      <input type="hidden" name="custom" id="pp_custom" value="EDN-MINI-EM-001">
-      <input type="hidden" name="amount" id="pp_amount" value="75.00">
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="/thank-you.html">
-      <input type="hidden" name="cancel_return" value="/checkout.html?canceled=1">
-    </form>
-  </section>
-
+    <p class="muted" style="margin-top:12px">
+      By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+    </p>
+  </div>
 </main>
 
+<!-- LIVE PayPal SDK (your real client ID embedded) -->
+<script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"></script>
+
 <script>
-(function(){
-  // ---------- CONFIG ----------
-  const BASE_PRICE = 75.00;            // base for this mini course
-  const EARLY_BIRD_PCT = 15;           // 15% off if before EB_END
-  const EB_END = new Date('2025-09-26T23:59:59'); // shown above
-  const MEMBERSHIP_PCT = { none: 0, standard: 10, premium: 30 }; // courses
-  // Optional: allowed under-18 codes and discount % (per policy)
-  const U18_CODES = { "PR271534$$": 0 }; // set value (e.g., 100 for free). 0 means no extra discount.
-  // ---------- /CONFIG ----------
+  (function(){
+    const $help = document.getElementById('paypal-help');
 
-  // Elements
-  const $ = (s,d=document)=>d.querySelector(s);
-  const fmt = n => '$' + n.toFixed(2);
-
-  $('#eb-date').textContent = EB_END.toLocaleDateString('en-US');
-
-  function calc(){
-    const membership = $('#membership').value;
-    const under18 = $('#under18').checked;
-    const code = $('#code').value.trim();
-
-    let subtotal = BASE_PRICE;
-    let memDisc = +(subtotal * (MEMBERSHIP_PCT[membership]||0)/100);
-    let ebDisc = (new Date() <= EB_END) ? +(subtotal * (EARLY_BIRD_PCT/100)) : 0;
-
-    // Under-18 discount via code (optional)
-    let u18Disc = 0;
-    if (under18 && code && (code in U18_CODES) && U18_CODES[code] > 0){
-      u18Disc = +(subtotal * (U18_CODES[code]/100));
+    function renderButtons(){
+      if(!window.paypal || !paypal.Buttons){
+        $help.style.display = 'block';
+        return;
+      }
+      paypal.Buttons({
+        style:{ layout:'vertical', color:'gold', shape:'rect', label:'paypal' },
+        createOrder: (data, actions) => actions.order.create({
+          purchase_units: [{
+            description: 'Edunancial Mini Course — $1 Live Test',
+            custom_id: 'EDN-MINI-TEST-001',
+            amount: { currency_code:'USD', value: '1.00' }
+          }]
+        }),
+        onApprove: (data, actions) =>
+          actions.order.capture().then(details => {
+            const q = new URLSearchParams({
+              orderId: details.id || '',
+              paid: '1.00',
+              payer: (details.payer && details.payer.name && details.payer.name.given_name) || 'Customer'
+            });
+            location.href = '/thank-you.html?' + q.toString();
+          }),
+        onError: err => {
+          console.error(err);
+          $help.style.display = 'block';
+        }
+      }).render('#paypal-button-container').catch(() => {
+        $help.style.display = 'block';
+      });
     }
 
-    // Cap discounts at subtotal
-    let totalDisc = memDisc + ebDisc + u18Disc;
-    if (totalDisc > subtotal) totalDisc = subtotal;
-
-    let total = +(subtotal - totalDisc);
-    // Update UI
-    $('#s_sub').textContent = fmt(subtotal);
-    $('#s_mem').textContent = '-' + fmt(memDisc).slice(1);
-    $('#s_eb').textContent  = '-' + fmt(ebDisc).slice(1);
-    $('#s_u18').textContent = '-' + fmt(u18Disc).slice(1);
-    $('#s_total').textContent = fmt(total);
-
-    return { total, membership, under18, code };
-  }
-
-  // Bind events
-  ['change','keyup'].forEach(evt=>{
-    document.addEventListener(evt, e=>{
-      if (['membership','under18','code'].includes(e.target.id)) calc();
+    // Try now and again shortly (covers slow mobile SDK loads)
+    document.addEventListener('DOMContentLoaded', function(){
+      renderButtons();
+      setTimeout(function(){
+        if(!document.querySelector('#paypal-button-container iframe')){
+          $help.style.display = 'block';
+        }
+      }, 5000);
     });
-  });
-
-  // Initial
-  calc();
-
-  // PayPal submit
-  $('#pay').addEventListener('click', function(e){
-    e.preventDefault();
-    const out = calc();
-
-    // Fill PayPal form
-    $('#pp_item_name').value = 'Mini Course: Edunancial Method';
-    $('#pp_custom').value = $('#sku').textContent.trim();
-    $('#pp_amount').value = out.total.toFixed(2);
-
-    // Submit
-    $('#ppForm').submit();
-  });
-})();
+  })();
 </script>
 </body>
 </html>
