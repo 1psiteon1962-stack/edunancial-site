@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thank You — Edunancial</title>
-  <style>
-    body { margin:0; font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#111; background:#fff; }
-    header { background:#c50000; color:#000; font-weight:800; text-align:center; padding:14px 10px; }
-    main { max-width:720px; margin:28px auto; padding:0 16px; }
-    .card { border:1px solid #e6e6ea; border-radius:12px; padding:18px; }
-    h1 { margin:0 0 12px; }
-    .muted { color:#555 }
-    .row { display:flex; gap:10px; margin:8px 0; }
-    .row b { width:120px }
-    a.btn { display:inline-block; margin-top:14px; padding:10px 14px; border-radius:8px; background:#0b2e4f; color:#fff; text-decoration:none; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Thank You — Edunancial</title>
+<style>
+  :root { --bg:#0b0f13; --fg:#e6e8eb; --muted:#9aa4ad; --card:#141a20; --brand:#1e90ff; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  main{max-width:720px;margin:0 auto;padding:28px}
+  h1{margin:0 0 10px}
+  .card{background:var(--card);border:1px solid #23303d;border-radius:14px;padding:16px}
+  .sku{color:var(--muted);font-size:12px}
+  a{color:#7bb6ff}
+</style>
 </head>
 <body>
-  <header>EDUNANCIAL</header>
-  <main>
-    <div class="card">
-      <h1>Thank you for your purchase!</h1>
-      <p class="muted">Your payment was processed successfully.</p>
-      <div class="row"><b>Order ID:</b> <span id="orderId">—</span></div>
-      <div class="row"><b>Amount Paid:</b> <span id="paid">—</span></div>
-      <div class="row"><b>Payer:</b> <span id="payer">—</span></div>
-      <a class="btn" href="/index.html">Back to Home</a>
-    </div>
-  </main>
+<main>
+  <h1>Thank you for your purchase!</h1>
+  <p>Your payment was processed by PayPal and is now complete.</p>
 
-  <script>
-    const q = new URLSearchParams(location.search);
-    document.getElementById('orderId').textContent = q.get('orderId') || 'N/A';
-    document.getElementById('paid').textContent    = q.get('paid')    ? ('$' + q.get('paid')) : 'N/A';
-    document.getElementById('payer').textContent   = q.get('payer')   || 'Customer';
-  </script>
+  <div class="card">
+    <p class="sku" id="sku"></p>
+    <p>If you purchased a <strong>membership</strong>, your access will be activated shortly.</p>
+    <p>If you purchased a <strong>download</strong> (eBook, template, etc.), your link is below. Save it for your records.</p>
+    <div id="download"></div>
+  </div>
+
+  <p><a href="/pricing.html">← Back to Pricing</a></p>
+</main>
+
+<script>
+  // Map SKUs to download links (add more as needed)
+  const DOWNLOADS = {
+    "BOOK-FOUND-1999": "/downloads/FOUNDATIONS-EN.pdf",
+    "COURSE-MINI-075": "/downloads/mini-course-replay.mp4",
+    "COURSE-REG-299": "/downloads/full-course-starter-pack.zip"
+  };
+
+  const params = new URLSearchParams(location.search);
+  const sku = params.get('sku') || 'N/A';
+  document.getElementById('sku').textContent = "SKU: " + sku;
+
+  if (DOWNLOADS[sku]) {
+    document.getElementById('download').innerHTML =
+      `<p><a href="${DOWNLOADS[sku]}" download>Download your file</a></p>`;
+  } else {
+    document.getElementById('download').innerHTML =
+      `<p>No direct download for this SKU. If this was a membership, you’re all set — check your member email.</p>`;
+  }
+</script>
 </body>
 </html>
