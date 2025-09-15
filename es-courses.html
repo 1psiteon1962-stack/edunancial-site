@@ -1,82 +1,64 @@
 <!doctype html>
-<html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Edunancial — Cursos</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" />
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif}
-header{background:#c00;color:#000;padding:1rem;text-align:center} header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-main{max-width:1000px;margin:2rem auto;padding:0 1rem}
-.card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-.badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
-.badge.blue{background:#0d47a1;color:#fff;border-color:#0d47a1}.badge.red{background:#c00;color:#000;border-color:#000}.badge.white{background:#fff;color:#000;border-color:#000}
-.btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-.notice{background:#f9f9f9;border:1px solid #c00;padding:1rem;border-radius:10px;margin-top:.75rem}
-label{display:block;margin:.4rem 0 .2rem} select,input{width:100%;max-width:420px;padding:.55rem;border:1px solid #999;border-radius:8px}
-</style></head>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:1rem;text-align:center}
+  header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
+  main{max-width:1000px;margin:2rem auto;padding:0 1rem}
+  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
+  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
+  .badge.blue{background:#0d47a1;color:#fff;border-color:#0d47a1}
+  .badge.red{background:#c00;color:#000;border-color:#000}
+  .badge.white{background:#fff;color:#000;border-color:#000}
+  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
+  p small{opacity:.8}
+</style>
+</head>
 <body>
 <header>
   <div>EDUNANCIAL • Educación financiera práctica</div>
   <nav>
-    <a href="es-our-story.html">Nuestra historia</a><a href="es-books.html">Libros</a><a href="es-courses.html">Cursos</a><a href="es-mini-courses.html">Mini-cursos</a><a href="es-pricing.html">Precios</a><a href="es-contact.html">Contacto</a><a href="courses.html">EN</a>
+    <a href="es-our-story.html">Nuestra historia</a>
+    <a href="es-books.html">Libros</a>
+    <a href="es-courses.html">Cursos</a>
+    <a href="es-mini-courses.html">Mini-cursos</a>
+    <a href="es-pricing.html">Precios</a>
+    <a href="es-contact.html">Contacto</a>
+    <a href="courses.html">EN</a>
   </nav>
 </header>
+
 <main>
   <h2>Cursos</h2>
 
   <article class="card">
     <h3>Formación Empresarial en Profundidad <span class="badge blue">Azul</span></h3>
     <p><strong>Fecha:</strong> 12 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <div class="notice">
-      <p><strong>Precio base:</strong> $199.00 (máx. $199)</p>
-      <label for="bfMemberES">Membresía</label>
-      <select id="bfMemberES"><option value="none" selected>Ninguna</option><option value="basic">Básica (10%)</option><option value="plus">Plus (20%)</option><option value="pro">Premium (30%)</option></select>
-      <p><em>Early-bird:</em> 10% adicional hasta <strong>26-Sep-2025</strong>.</p>
-      <p><label for="bfCodeES">Código ONG (menor de 18)</label><input id="bfCodeES" placeholder="Código (opcional)"> <label style="display:inline-flex;gap:.4rem;align-items:center"><input id="bfU18ES" type="checkbox"> Menor de 18</label></p>
-      <p><strong>Tu precio:</strong> $<span id="bfOutES">199.00</span></p>
-      <p><a id="bfBuyES" class="btn" href="es-payments.html?item=Curso%3A%20Formaci%C3%B3n%20Empresarial&sku=EDN-CRS-BF-001&price=199.00">Inscribirse</a></p>
-    </div>
+    <p><strong>Precio base:</strong> $199.00</p>
+    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Formaci%C3%B3n%20Empresarial&sku=EDN-CRS-BF-001&price=199.00">Inscribirse</a></p>
+    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
   </article>
 
   <article class="card">
     <h3>Tax Liens y Tax Deeds <span class="badge red">Rojo</span></h3>
     <p><strong>Fecha:</strong> 19 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <div class="notice">
-      <p><strong>Precio base:</strong> $179.00 (máx. $199)</p>
-      <label for="tdMemberES">Membresía</label>
-      <select id="tdMemberES"><option value="none" selected>Ninguna</option><option value="basic">Básica (10%)</option><option value="plus">Plus (20%)</option><option value="pro">Premium (30%)</option></select>
-      <p><em>Early-bird:</em> 10% adicional hasta <strong>26-Sep-2025</strong>.</p>
-      <p><label for="tdCodeES">Código ONG (menor de 18)</label><input id="tdCodeES" placeholder="Código (opcional)"> <label style="display:inline-flex;gap:.4rem;align-items:center"><input id="tdU18ES" type="checkbox"> Menor de 18</label></p>
-      <p><strong>Tu precio:</strong> $<span id="tdOutES">179.00</span></p>
-      <p><a id="tdBuyES" class="btn" href="es-payments.html?item=Curso%3A%20Tax%20Liens%20y%20Tax%20Deeds&sku=EDN-CRS-TAX-001&price=179.00">Inscribirse</a></p>
-    </div>
+    <p><strong>Precio base:</strong> $179.00</p>
+    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Tax%20Liens%20y%20Tax%20Deeds&sku=EDN-CRS-TAX-001&price=179.00">Inscribirse</a></p>
+    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
   </article>
 
   <article class="card">
     <h3>Invertir para niños: elegir, comprar y vender acciones <span class="badge white">Blanco</span></h3>
     <p><strong>Fecha:</strong> 26 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <div class="notice">
-      <p><strong>Precio base:</strong> $149.00 (máx. $199)</p>
-      <label for="ikMemberES">Membresía</label>
-      <select id="ikMemberES"><option value="none" selected>Ninguna</option><option value="basic">Básica (10%)</option><option value="plus">Plus (20%)</option><option value="pro">Premium (30%)</option></select>
-      <p><em>Early-bird:</em> 10% adicional hasta <strong>26-Sep-2025</strong>.</p>
-      <p><label for="ikCodeES">Código ONG (menor de 18)</label><input id="ikCodeES" placeholder="Código (opcional)"> <label style="display:inline-flex;gap:.4rem;align-items:center"><input id="ikU18ES" type="checkbox"> Menor de 18</label></p>
-      <p><strong>Tu precio:</strong> $<span id="ikOutES">149.00</span></p>
-      <p><a id="ikBuyES" class="btn" href="es-payments.html?item=Curso%3A%20Invertir%20para%20ni%C3%B1os&sku=EDN-CRS-INV-001&price=149.00">Inscribirse</a></p>
-    </div>
+    <p><strong>Precio base:</strong> $149.00</p>
+    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Invertir%20para%20ni%C3%B1os&sku=EDN-CRS-INV-001&price=149.00">Inscribirse</a></p>
+    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
   </article>
 </main>
-<script>
-const MAX_PRICE=199.00, EARLY_BIRD_DEADLINE=new Date('2025-09-26T23:59:59');
-const NONPROFIT_CODE='NPO-UNDER18', NONPROFIT_PCT=0.00;
-(function(){
-  function md(v){return v==='basic'?0.10:v==='plus'?0.20:v==='pro'?0.30:0}
-  function eb(){return new Date()<=EARLY_BIRD_DEADLINE?0.10:0}
-  function npo(c,k){return NONPROFIT_PCT>0&&k.checked&&c.value.trim().toUpperCase()===NONPROFIT_CODE}
-  function wire(sel,out,btn,base,label,sku,code,chk){function up(){let p=base;p*=1-md(sel.value);p*=1-eb();if(npo(code,chk))p*=1-NONPROFIT_PCT; if(p>MAX_PRICE)p=MAX_PRICE; p=Math.round(p*100)/100; out.textContent=p.toFixed(2); btn.href=`es-payments.html?item=${encodeURIComponent(label)}&sku=${sku}&price=${p.toFixed(2)}`;}[sel,code,chk].forEach(e=>e.addEventListener('input',up));up();}
-  wire(bfMemberES,bfOutES,bfBuyES,199.00,'Curso: Formación Empresarial','EDN-CRS-BF-001',bfCodeES,bfU18ES);
-  wire(tdMemberES,tdOutES,tdBuyES,179.00,'Curso: Tax Liens y Tax Deeds','EDN-CRS-TAX-001',tdCodeES,tdU18ES);
-  wire(ikMemberES,ikOutES,ikBuyES,149.00,'Curso: Invertir para niños','EDN-CRS-INV-001',ikCodeES,ikU18ES);
-})();
-</script>
-</body></html>
+</body>
+</html>
