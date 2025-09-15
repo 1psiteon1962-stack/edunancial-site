@@ -17,7 +17,6 @@
   .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
   .badge.rwb{background:linear-gradient(90deg,#c00 0 33%,#fff 33% 66%,#0d47a1 66%);color:#000}
   .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-  .grid{display:grid;gap:1rem}
   label{display:block;margin:.4rem 0 .2rem}
   input,select{width:100%;max-width:420px;padding:.55rem;border:1px solid #999;border-radius:8px}
   .row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
@@ -65,8 +64,8 @@
         </div>
 
         <div class="row" style="margin-top:.4rem">
-          <label for="mcNpoCodeES" style="margin:0">Código para ONG (menores de 18)</label>
-          <input id="mcNpoCodeES" type="text" placeholder="Ingresa código (opcional)">
+          <label for="mcNpoCodeES" style="margin:0">Código ONG (menores de 18)</label>
+          <input id="mcNpoCodeES" type="text" placeholder="Código (opcional)">
           <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0">
             <input id="mcUnder18ES" type="checkbox"> Confirmo que es para un menor de 18
           </label>
@@ -79,12 +78,12 @@
   </main>
 
 <script>
-/* ====== Constantes de precio (edita aquí) ====== */
+/* ===== Configuración de descuentos ===== */
 const MAX_PRICE = 199.00;
-const EARLY_BIRD_DEADLINE = new Date('2025-09-26T23:59:59');
+const EARLY_BIRD_DEADLINE = new Date('2025-09-26T23:59:59'); // límite early-bird
 const NONPROFIT_CODE = 'NPO-UNDER18'; // <-- coloca tu código real
-const NONPROFIT_PCT  = 0.00;          // <-- descuento ONG (0.40 = 40%); 0.00 = desactivado
-/* =============================================== */
+const NONPROFIT_PCT  = 0.00;          // <-- porcentaje ONG (0.40 = 40%); 0.00 = desactivado
+/* ====================================== */
 
 (function(){
   const base = 75.00;
