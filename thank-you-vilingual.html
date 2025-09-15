@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank You — Edunancial</title>
+<style>
+  :root{--card:#ffffff;--line:#e5e7eb;--bg:#f5f7fb;--ink:#0b0f13}
+  body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--ink)}
+  header{display:flex;align-items:center;justify-content:space-between;background:#b91c1c;color:#fff;padding:14px 18px;font-weight:800;letter-spacing:.5px}
+  main{max-width:720px;margin:28px auto;padding:0 14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  a{color:#0070ba}
+  .lang{display:flex;gap:8px}
+  .lang a{color:#fff;opacity:.8;text-decoration:none;padding:6px 10px;border:1px solid rgba(255,255,255,.25);border-radius:8px}
+  .lang a.active{opacity:1;background:rgba(255,255,255,.15)}
+</style>
+</head>
+<body>
+<header>
+  <div id="hdr">THANK YOU</div>
+  <nav class="lang">
+    <a href="#" data-lang="en" id="lnk-en" class="active">EN</a>
+    <a href="#" data-lang="es" id="lnk-es">ES</a>
+  </nav>
+</header>
+
+<main>
+  <h1 id="h1">Thank you for your purchase!</h1>
+  <div class="card" id="body">
+    <p id="p1">Your payment was processed by PayPal and is complete.</p>
+    <p id="p2">If this was a <strong>membership</strong>, your access will be activated shortly.</p>
+    <p id="p3">If this was a <strong>course</strong>, you’ll receive the live link or replay by email.</p>
+    <p><a id="back" href="/checkout-bilingual.html">← Back to checkout</a></p>
+  </div>
+</main>
+
+<script>
+(function(){
+  let lang='en';
+  const T = {
+    en: {
+      hdr:"THANK YOU",
+      h1:"Thank you for your purchase!",
+      p1:"Your payment was processed by PayPal and is complete.",
+      p2:'If this was a <strong>membership</strong>, your access will be activated shortly.',
+      p3:'If this was a <strong>course</strong>, you’ll receive the live link or replay by email.',
+      back:"← Back to checkout"
+    },
+    es: {
+      hdr:"¡GRACIAS!",
+      h1:"¡Gracias por tu compra!",
+      p1:"Tu pago fue procesado por PayPal y está completo.",
+      p2:'Si adquiriste una <strong>membresía</strong>, tu acceso será activado en breve.',
+      p3:'Si adquiriste un <strong>curso</strong>, recibirás el enlace en vivo o la repetición por correo electrónico.',
+      back:"← Volver a la caja"
+    }
+  };
+  const $=(s,d=document)=>d.querySelector(s);
+
+  function setLang(l){
+    lang=l;
+    $('#hdr').textContent=T[l].hdr;
+    $('#h1').textContent=T[l].h1;
+    $('#p1').textContent = '';
+    $('#p1').insertAdjacentHTML('afterbegin', T[l].p1);
+    $('#p2').innerHTML=T[l].p2;
+    $('#p3').innerHTML=T[l].p3;
+    $('#back').textContent=T[l].back;
+    $('#lnk-en').classList.toggle('active', l==='en');
+    $('#lnk-es').classList.toggle('active', l==='es');
+  }
+
+  document.getElementById('lnk-en').addEventListener('click', e=>{e.preventDefault(); setLang('en');});
+  document.getElementById('lnk-es').addEventListener('click', e=>{e.preventDefault(); setLang('es');});
+
+  setLang('en');
+})();
+</script>
+</body>
+</html>
