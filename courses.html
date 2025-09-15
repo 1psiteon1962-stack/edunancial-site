@@ -1,26 +1,182 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Courses — Edunancial</title><link rel="stylesheet" href="style.css">
-<style>.banner{background:#c00;color:#000;padding:.75rem 1rem;text-align:center;font-weight:700}.grid{max-width:900px;margin:0 auto;padding:1rem}.card{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:.75rem 0}.buy{background:#002b5c;color:#fff;padding:.45rem .8rem;border-radius:8px;text-decoration:none}</style>
-</head><body>
-<div class="banner">EDUNANCIAL COURSES</div>
-<nav class="nav" style="text-align:center;margin:12px 0">
-  <a href="our-story.html">Our Story</a> • <a href="books.html">Books</a> • <a href="mini-courses.html">Mini-Courses</a> • <a href="pricing.html">Pricing</a> • <a href="es-courses.html">ES</a>
-</nav>
-<main class="grid">
-  <h1>Courses & Workshops</h1>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Edunancial — Courses</title>
+<link rel="stylesheet" href="style.css" />
+<style>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+  header{background:#c00;color:#000;padding:1rem;text-align:center}
+  header h1{margin:0;font-size:1.2rem}
+  nav{margin-top:.5rem}
+  nav a{color:#000;margin:0 .5rem;text-decoration:none;font-weight:bold}
+  nav a:hover{text-decoration:underline}
+  main{max-width:1000px;margin:2rem auto;padding:0 1rem}
+  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
+  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
+  .badge.blue{background:#0d47a1;color:#fff;border-color:#0d47a1}
+  .badge.red{background:#c00;color:#000;border-color:#000}
+  .badge.white{background:#fff;color:#000;border-color:#000}
+  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
+  label{display:block;margin:.4rem 0 .2rem}
+  input,select{width:100%;max-width:420px;padding:.55rem;border:1px solid #999;border-radius:8px}
+  .row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+  .notice{background:#f9f9f9;border:1px solid #c00;padding:1rem;border-radius:10px;margin-top:.75rem}
+</style>
+</head>
+<body>
+  <header>
+    <h1>EDUNANCIAL · Practical money & real-estate training</h1>
+    <nav>
+      <a href="our-story.html">Our Story</a>
+      <a href="books.html">Books</a>
+      <a href="courses.html">Courses</a>
+      <a href="mini-courses.html">Mini-Courses</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a href="es-courses.html">ES</a>
+    </nav>
+  </header>
 
-  <div class="card">
-    <h3>Real Estate Mini-Course (Red)</h3>
-    <p>1 hr training on neighborhood revaluation, deal math, and financing options.</p>
-    <a class="buy" href="payments.html?item=Real%20Estate%20Mini-Course%20(Red)&price=75">Buy $75</a>
-  </div>
+  <main>
+    <h2>Courses</h2>
 
-  <div class="card">
-    <h3>Deal Math Deep Dive</h3>
-    <p>2.5 hr workshop with live case studies and calculators.</p>
-    <a class="buy" href="payments.html?item=Deal%20Math%20Deep%20Dive&price=149">Buy $149</a>
-  </div>
-</main>
-</body></html>
+    <!-- BLUE: In-Depth Business Formation (Oct 12) -->
+    <article class="card">
+      <h3>In-Depth Business Formation <span class="badge blue">Blue</span></h3>
+      <p><strong>Date:</strong> October 12, 2025 · <strong>Start:</strong> 2:00 PM</p>
+      <div class="notice">
+        <div><strong>Base price:</strong> $<span>199.00</span> (max price policy: $199)</div>
+
+        <label for="bfMember">Membership</label>
+        <select id="bfMember">
+          <option value="none" selected>None</option>
+          <option value="basic">Member – Basic (10% off)</option>
+          <option value="plus">Member – Plus (20% off)</option>
+          <option value="pro">Member – Pro (30% off)</option>
+        </select>
+
+        <div class="row" style="margin-top:.4rem">
+          <div><em>Early-bird:</em> extra 10% off if purchased by <strong>Sep 26, 2025</strong>.</div>
+        </div>
+
+        <div class="row" style="margin-top:.4rem">
+          <label for="bfNpoCode" style="margin:0">Non-profit code (under 18)</label>
+          <input id="bfNpoCode" type="text" placeholder="Enter code (optional)">
+          <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0">
+            <input id="bfUnder18" type="checkbox"> I confirm this is for a student under 18
+          </label>
+        </div>
+
+        <p style="margin:.6rem 0 0"><strong>Your price:</strong> $<span id="bfPrice">199.00</span></p>
+        <p><a id="bfBuy" class="btn" href="payments.html?item=Course%3A%20Business%20Formation&sku=EDN-CRS-BF-001&price=199.00">Enroll now</a></p>
+      </div>
+    </article>
+
+    <!-- RED: Tax Liens & Tax Deeds (Oct 19) -->
+    <article class="card">
+      <h3>Tax Liens &amp; Tax Deeds <span class="badge red">Red</span></h3>
+      <p><strong>Date:</strong> October 19, 2025 · <strong>Start:</strong> 2:00 PM</p>
+      <div class="notice">
+        <div><strong>Base price:</strong> $<span>179.00</span> (max price policy: $199)</div>
+
+        <label for="tdMember">Membership</label>
+        <select id="tdMember">
+          <option value="none" selected>None</option>
+          <option value="basic">Member – Basic (10% off)</option>
+          <option value="plus">Member – Plus (20% off)</option>
+          <option value="pro">Member – Pro (30% off)</option>
+        </select>
+
+        <div class="row" style="margin-top:.4rem">
+          <div><em>Early-bird:</em> extra 10% off if purchased by <strong>Sep 26, 2025</strong>.</div>
+        </div>
+
+        <div class="row" style="margin-top:.4rem">
+          <label for="tdNpoCode" style="margin:0">Non-profit code (under 18)</label>
+          <input id="tdNpoCode" type="text" placeholder="Enter code (optional)">
+          <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0">
+            <input id="tdUnder18" type="checkbox"> Under 18
+          </label>
+        </div>
+
+        <p style="margin:.6rem 0 0"><strong>Your price:</strong> $<span id="tdPrice">179.00</span></p>
+        <p><a id="tdBuy" class="btn" href="payments.html?item=Course%3A%20Tax%20Liens%20%26%20Deeds&sku=EDN-CRS-TAX-001&price=179.00">Enroll now</a></p>
+      </div>
+    </article>
+
+    <!-- WHITE: Investing for Kids (Oct 26) -->
+    <article class="card">
+      <h3>Investing for Kids: Select, Buy &amp; Sell Stocks <span class="badge white">White</span></h3>
+      <p><strong>Date:</strong> October 26, 2025 · <strong>Start:</strong> 2:00 PM</p>
+      <div class="notice">
+        <div><strong>Base price:</strong> $<span>149.00</span> (max price policy: $199)</div>
+
+        <label for="ikMember">Membership</label>
+        <select id="ikMember">
+          <option value="none" selected>None</option>
+          <option value="basic">Member – Basic (10% off)</option>
+          <option value="plus">Member – Plus (20% off)</option>
+          <option value="pro">Member – Pro (30% off)</option>
+        </select>
+
+        <div class="row" style="margin-top:.4rem">
+          <div><em>Early-bird:</em> extra 10% off if purchased by <strong>Sep 26, 2025</strong>.</div>
+        </div>
+
+        <div class="row" style="margin-top:.4rem">
+          <label for="ikNpoCode" style="margin:0">Non-profit code (under 18)</label>
+          <input id="ikNpoCode" type="text" placeholder="Enter code (optional)">
+          <label style="display:inline-flex;align-items:center;gap:.4rem;margin:0">
+            <input id="ikUnder18" type="checkbox"> Under 18
+          </label>
+        </div>
+
+        <p style="margin:.6rem 0 0"><strong>Your price:</strong> $<span id="ikPrice">149.00</span></p>
+        <p><a id="ikBuy" class="btn" href="payments.html?item=Course%3A%20Investing%20for%20Kids&sku=EDN-CRS-INV-001&price=149.00">Enroll now</a></p>
+      </div>
+    </article>
+  </main>
+
+<script>
+/* ===== Pricing constants (edit) ===== */
+const MAX_PRICE = 199.00;
+const EARLY_BIRD_DEADLINE = new Date('2025-09-26T23:59:59');
+const NONPROFIT_CODE = 'NPO-UNDER18'; // <-- set your code
+const NONPROFIT_PCT  = 0.00;          // <-- set your nonprofit discount (e.g., 0.40 for 40%)
+/* =================================== */
+
+(function(){
+  function memberDisc(v){ return v==='basic'?0.10 : v==='plus'?0.20 : v==='pro'?0.30 : 0; }
+  function earlyBird(){ return (new Date() <= EARLY_BIRD_DEADLINE) ? 0.10 : 0; }
+  function npoOK(codeField, chk){ return NONPROFIT_PCT>0 && chk.checked && codeField.value.trim().toUpperCase()===NONPROFIT_CODE; }
+
+  function wire(selId, priceOutId, btnId, basePrice, label, sku, codeId, u18Id){
+    const sel = document.getElementById(selId);
+    const out = document.getElementById(priceOutId);
+    const btn = document.getElementById(btnId);
+    const code = document.getElementById(codeId);
+    const u18  = document.getElementById(u18Id);
+
+    function update(){
+      let p = basePrice;
+      p = p * (1 - memberDisc(sel.value));
+      p = p * (1 - earlyBird());
+      if (npoOK(code, u18)) p = p * (1 - NONPROFIT_PCT);
+      if (p > MAX_PRICE) p = MAX_PRICE;
+      p = Math.round(p*100)/100;
+      out.textContent = p.toFixed(2);
+      btn.href = `payments.html?item=${encodeURIComponent(label)}&sku=${sku}&price=${p.toFixed(2)}`;
+    }
+    [sel, code, u18].forEach(el => el.addEventListener('input', update));
+    update();
+  }
+
+  wire('bfMember', 'bfPrice', 'bfBuy', 199.00, 'Course: Business Formation', 'EDN-CRS-BF-001', 'bfNpoCode', 'bfUnder18');
+  wire('tdMember', 'tdPrice', 'tdBuy', 179.00, 'Course: Tax Liens & Deeds', 'EDN-CRS-TAX-001', 'tdNpoCode', 'tdUnder18');
+  wire('ikMember', 'ikPrice', 'ikBuy', 149.00, 'Course: Investing for Kids', 'EDN-CRS-INV-001', 'ikNpoCode', 'ikUnder18');
+})();
+</script>
+</body>
+</html>
