@@ -1,61 +1,154 @@
-<section class="pay-section">
-  <h2>Secure Payment</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pagar — Edunancial</title>
+<meta name="description" content="Pago seguro para cursos de Edunancial." />
+<style>
+  :root{--bg:#0b0f13;--fg:#111;--ink:#0b0f13;--muted:#6b7280;--card:#ffffff;--line:#e5e7eb;--accent:#e11d48;--btn:#0070ba;--btn-ink:#fff;}
+  *{box-sizing:border-box}
+  body{margin:0;background:#f5f7fb;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  header{background:#b91c1c;color:#fff;padding:14px 18px;font-weight:800;letter-spacing:.5px}
+  main{max-width:780px;margin:18px auto;padding:0 12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+  h1{margin:0 0 6px;font-size:26px}
+  .sku{color:var(--muted);margin-top:6px}
+  label{font-weight:600;display:block;margin:.25rem 0 .35rem}
+  select,input[type="text"]{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:16px;background:#fff}
+  .row{display:grid;grid-template-columns:1fr;gap:12px}
+  @media (min-width:640px){.row{grid-template-columns:1fr 1fr}}
+  .inline{display:flex;align-items:center;gap:10px}
+  .muted{color:var(--muted)}
+  .summary{font-size:16px}
+  .summary div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #e8e8ee}
+  .summary div:last-child{border-bottom:0}
+  .total{font-weight:800;font-size:20px}
+  .btn{background:var(--btn);color:var(--btn-ink);border:0;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer}
+  .btn:active{transform:translateY(1px)}
+  .footnote{font-size:12px;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+<header>CAJA EDUNANCIAL</header>
+<main>
 
-  <div id="wallet-button" style="margin:16px 0;"></div>
-  <div id="card-container" style="margin:16px 0;"></div>
+  <!-- PRODUCTO -->
+  <section class="card">
+    <h1>Mini Curso: Método Edunancial</h1>
+    <div class="sku">SKU: <span id="sku">EDN-MINI-EM-001</span> • Total (antes de descuentos): $<span id="base">75.00</span></div>
+  </section>
 
-  <label>Amount (USD)
-    <input id="amount" type="number" min="1" step="1" value="49">
-  </label>
-  <button id="pay-btn">Pay Now</button>
-  <pre id="pay-result" style="white-space:pre-wrap"></pre>
-</section>
+  <!-- CONTROLES -->
+  <section class="card">
+    <div class="row">
+      <div>
+        <label for="membership">Membresía</label>
+        <select id="membership" aria-label="Membresía">
+          <option value="none">Ninguna (0%)</option>
+          <option value="standard">Estándar (10% de descuento en cursos)</option>
+          <option value="premium">Premium (30% de descuento en cursos)</option>
+        </select>
+      </div>
+      <div>
+        <label>&nbsp;</label>
+        <div class="inline">
+          <input id="under18" type="checkbox" />
+          <label for="under18" class="muted" style="font-weight:600">Soy menor de 18 años</label>
+        </div>
+      </div>
+    </div>
 
-<script src="https://web.squarecdn.com/v1/square.js"></script>
+    <div style="margin-top:10px">
+      <label for="code">Código de Descuento / Menor de 18</label>
+      <input id="code" type="text" placeholder="Ingrese el código (si aplica)" />
+      <div class="footnote muted">Oferta de lanzamiento: <strong>15% de descuento</strong> hasta <span id="eb-date">26/09/2025</span>, se aplica automáticamente.</div>
+    </div>
+  </section>
+
+  <!-- RESUMEN -->
+  <section class="card summary" id="summary">
+    <div><span>Subtotal:</span><span id="s_sub">$75.00</span></div>
+    <div><span>Descuento de membresía:</span><span id="s_mem">-$0.00</span></div>
+    <div><span>Oferta lanzamiento:</span><span id="s_eb">-$0.00</span></div>
+    <div><span>Código menor de 18:</span><span id="s_u18">-$0.00</span></div>
+    <div class="total"><span>Total:</span><span id="s_total">$75.00</span></div>
+  </section>
+
+  <!-- PAYPAL -->
+  <section class="card">
+    <button class="btn" id="pay">Pagar con PayPal</button>
+    <div class="footnote">Al pagar aceptas nuestros <a href="/terms.html">Términos</a> y <a href="/refunds.html">Política de reembolsos</a>.</div>
+
+    <!-- Formulario PayPal oculto -->
+    <form id="ppForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="payments@edunancial.com">
+      <input type="hidden" name="item_name" id="pp_item_name" value="Mini Curso: Método Edunancial">
+      <input type="hidden" name="custom" id="pp_custom" value="EDN-MINI-EM-001">
+      <input type="hidden" name="amount" id="pp_amount" value="75.00">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="return" value="/gracias.html">
+      <input type="hidden" name="cancel_return" value="/checkout-es.html?cancelado=1">
+    </form>
+  </section>
+
+</main>
+
 <script>
-(async function () {
-  const cfg = await (await fetch('/api/square-config')).json();
-  const payments = window.Square.payments(cfg.appId, cfg.locationId);
+(function(){
+  const BASE_PRICE = 75.00;
+  const EARLY_BIRD_PCT = 15;
+  const EB_END = new Date('2025-09-26T23:59:59');
+  const MEMBERSHIP_PCT = { none: 0, standard: 10, premium: 30 };
+  const U18_CODES = { "PR271534$$": 0 };
 
-  // Apple Pay
-  try {
-    const ap = await payments.applePay({ countryCode: 'US', currencyCode: 'USD' });
-    const apBtn = await ap.attach('#wallet-button');
-    apBtn.addEventListener('click', async () => {
-      const amount = Number(document.getElementById('amount').value)||0;
-      const tok = await ap.tokenize({ total:{ label:'Edunancial', amount: amount.toFixed(2) }});
-      await charge(tok.token, amount*100, tok);
-    });
-  } catch (e) {}
+  const $ = (s,d=document)=>d.querySelector(s);
+  const fmt = n => '$' + n.toFixed(2);
 
-  // Google Pay
-  try {
-    const gp = await payments.googlePay({ countryCode: 'US', currencyCode: 'USD' });
-    const gpBtn = await gp.attach('#wallet-button');
-    gpBtn.addEventListener('click', async () => {
-      const amount = Number(document.getElementById('amount').value)||0;
-      const tok = await gp.tokenize({ total:{ label:'Edunancial', amount: amount.toFixed(2) }});
-      await charge(tok.token, amount*100, tok);
-    });
-  } catch (e) {}
+  $('#eb-date').textContent = EB_END.toLocaleDateString('es-ES');
 
-  // Card
-  const card = await payments.card();
-  await card.attach('#card-container');
-  document.getElementById('pay-btn').addEventListener('click', async () => {
-    const amount = Number(document.getElementById('amount').value)||0;
-    const res = await card.tokenize();
-    if (res.status !== 'OK') return document.getElementById('pay-result').textContent = 'Card tokenize failed.';
-    await charge(res.token, amount*100);
-  });
+  function calc(){
+    const membership = $('#membership').value;
+    const under18 = $('#under18').checked;
+    const code = $('#code').value.trim();
 
-  async function charge(sourceId, amount, verificationToken){
-    const r = await fetch('/api/square-pay', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ sourceId, amount, currency:'USD', note:'Website payment', verificationToken })
-    });
-    const data = await r.json();
-    document.getElementById('pay-result').textContent = r.ok ? ('✅ Paid: '+data.payment?.id) : ('❌ '+JSON.stringify(data));
+    let subtotal = BASE_PRICE;
+    let memDisc = +(subtotal * (MEMBERSHIP_PCT[membership]||0)/100);
+    let ebDisc = (new Date() <= EB_END) ? +(subtotal * (EARLY_BIRD_PCT/100)) : 0;
+
+    let u18Disc = 0;
+    if (under18 && code && (code in U18_CODES) && U18_CODES[code] > 0){
+      u18Disc = +(subtotal * (U18_CODES[code]/100));
+    }
+
+    let totalDisc = memDisc + ebDisc + u18Disc;
+    if (totalDisc > subtotal) totalDisc = subtotal;
+    let total = +(subtotal - totalDisc);
+
+    $('#s_sub').textContent = fmt(subtotal);
+    $('#s_mem').textContent = '-' + fmt(memDisc).slice(1);
+    $('#s_eb').textContent  = '-' + fmt(ebDisc).slice(1);
+    $('#s_u18').textContent = '-' + fmt(u18Disc).slice(1);
+    $('#s_total').textContent = fmt(total);
+
+    return { total };
   }
+
+  ['change','keyup'].forEach(evt=>{
+    document.addEventListener(evt, e=>{
+      if (['membership','under18','code'].includes(e.target.id)) calc();
+    });
+  });
+  calc();
+
+  $('#pay').addEventListener('click', function(e){
+    e.preventDefault();
+    const out = calc();
+    $('#pp_amount').value = out.total.toFixed(2);
+    $('#ppForm').submit();
+  });
 })();
 </script>
+</body>
+</html>
