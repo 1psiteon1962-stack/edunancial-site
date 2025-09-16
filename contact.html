@@ -1,91 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Edunancial — Contact</title>
-<link rel="stylesheet" href="style.css" />
-<style>
-  body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
-  header{background:#c00;color:#000;padding:1rem;text-align:center}
-  header a{color:#000;text-decoration:none;font-weight:700;margin:0 .5rem}
-  main{max-width:900px;margin:2rem auto;padding:0 1rem}
-  .card{background:#fff;border:1px solid #ddd;border-radius:12px;padding:1rem}
-  label{display:block;margin:.5rem 0 .25rem}
-  input,textarea,select{width:100%;padding:.6rem;border:1px solid #999;border-radius:8px}
-  .row{display:flex;gap:1rem;flex-wrap:wrap}
-  .row > div{flex:1 1 260px}
-  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;
-       padding:.7rem 1rem;border-radius:8px;margin-top:.75rem}
-  .note{font-size:.9rem;opacity:.85}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — Edunancial</title>
+  <style>
+    :root { --red:#c50000; --ink:#111 }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
+    header{background:var(--red);color:#000;font-weight:800;text-align:center;padding:14px 10px;letter-spacing:.5px}
+    main{max-width:760px;margin:28px auto;padding:0 16px}
+    .card{border:1px solid #e6e6ea;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+    h1{margin:0 0 12px}
+    p{margin:.5rem 0}
+    .grid{display:grid;gap:16px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+    label{display:block;margin:.5rem 0 .25rem;font-weight:700}
+    input,textarea{width:100%;padding:10px 12px;border:1px solid #cfcfd6;border-radius:8px;font-size:16px}
+    textarea{min-height:120px;resize:vertical}
+    .btn{display:inline-block;margin-top:12px;background:#0b2e4f;color:#fff;border:none;padding:10px 14px;border-radius:8px;font-weight:700;text-decoration:none;text-align:center}
+    .muted{color:#555;font-size:.95rem}
+    .block{margin-top:12px}
+  </style>
 </head>
 <body>
-<header>
-  <div>EDUNANCIAL • Practical financial literacy</div>
-  <nav>
-    <a href="our-story.html">Our Story</a>
-    <a href="books.html">Books</a>
-    <a href="courses.html">Courses</a>
-    <a href="mini-courses.html">Mini-Courses</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-    <a href="es-contact.html">ES</a>
-  </nav>
-</header>
+  <header>EDUNANCIAL • CONTACT</header>
+  <main class="grid">
+    <section class="card">
+      <h1>Get in touch</h1>
+      <p class="muted">We’ll reply within 1–2 business days.</p>
 
-<main>
-  <h2>Contact</h2>
+      <!-- Mailto form (opens the user’s email app prefilled) -->
+      <form action="mailto:edunancial@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your name</label>
+        <input id="name" name="Name" required>
 
-  <div class="card">
-    <p>Questions about courses, books, or memberships? Send us a message and we’ll reply promptly.</p>
+        <label for="email">Your email</label>
+        <input id="email" name="Email" type="email" required>
 
-    <!-- Mailto form (static hosting friendly) -->
-    <form action="mailto:support@edunancial.com" method="post" enctype="text/plain">
-      <div class="row">
-        <div>
-          <label for="name">Full name</label>
-          <input id="name" name="Name" required />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input id="email" type="email" name="Email" required />
-        </div>
+        <label for="msg">Message</label>
+        <textarea id="msg" name="Message" required></textarea>
+
+        <button class="btn" type="submit">Email Us</button>
+      </form>
+
+      <div class="block">
+        <a class="btn" href="mailto:edunancial@gmail.com?subject=Edunancial%20Support">Or open your mail app</a>
       </div>
+    </section>
 
-      <div class="row">
-        <div>
-          <label for="topic">Topic</label>
-          <select id="topic" name="Topic">
-            <option>Membership</option>
-            <option>Mini-Course</option>
-            <option>Business Formation (Blue)</option>
-            <option>Tax Liens & Deeds (Red)</option>
-            <option>Investing for Kids (White)</option>
-            <option>Books / Pamphlet</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div>
-          <label for="lang">Preferred language</label>
-          <select id="lang" name="Language">
-            <option>English</option>
-            <option>Spanish</option>
-          </select>
-        </div>
-      </div>
-
-      <label for="msg">Message</label>
-      <textarea id="msg" name="Message" rows="6" required></textarea>
-
-      <button class="btn" type="submit">Send</button>
-    </form>
-
-    <p class="note" style="margin-top:1rem">
-      Prefer email? Write us at <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
-      After purchase, Zoom links (if applicable) are emailed automatically.
-    </p>
-  </div>
-</main>
+    <aside class="card">
+      <h2>Support</h2>
+      <p><strong>Email:</strong> <a href="mailto:edunancial@gmail.com">edunancial@gmail.com</a></p>
+      <p><strong>Hours:</strong> Mon–Fri 9a–5p PT</p>
+      <p class="muted">Include your order ID (if any) for faster help.</p>
+    </aside>
+  </main>
 </body>
 </html>
