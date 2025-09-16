@@ -1,201 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Checkout — Edunancial</title>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://www.paypal.com" crossorigin>
+  <title>Checkout — Edunancial</title>
+  <meta name="robots" content="noindex" />
   <style>
-    :root { --red:#c1121f; --blue:#0b3d91; --black:#111; --bg:#f7f7f7; }
-    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:#fff; color:#111; }
-    .banner{background:var(--red);color:#000;text-align:center;font-weight:800;letter-spacing:.5px;padding:.9rem 1rem;}
-    .wrap{max-width:820px;margin:24px auto;padding:0 16px;}
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.04);padding:18px 20px;}
-    h1{margin:.2rem 0 1rem 0;font-size:1.6rem}
-    .row{display:flex;gap:18px;flex-wrap:wrap}
-    .col{flex:1 1 320px}
-    .sum{font-size:.95rem;line-height:1.55}
-    .sum table{width:100%}
-    .sum td{padding:.35rem 0;}
-    .sum td:last-child{text-align:right}
-    .muted{color:#666}
-    .input, select{width:100%;padding:.7rem .8rem;border:1px solid #cfcfcf;border-radius:8px;font-size:1rem}
-    .check{display:flex;align-items:center;gap:.6rem;margin:.5rem 0}
-    .btn{display:inline-block;padding:.75rem 1.1rem;border-radius:8px;border:0;cursor:pointer;font-weight:700}
-    .btn-primary{background:var(--blue);color:#fff}
-    .note{margin-top:14px;border-left:4px solid #f0b429;background:#fff7ea;padding:.75rem .9rem;border-radius:6px}
-    .err{border-left-color:#d33;background:#ffecec}
-    #paypal-fail {display:none}
-    /* PayPal Standard fallback button */
-    .btn-paypal{background:#ffc439;color:#111;width:100%;font-size:1.05rem}
-    #pp-standard {display:none;margin-top:10px}
-    .tiny{font-size:.85rem}
-    .tos{margin-top:10px;color:#666}
+    :root { --red:#c50000; --ink:#111; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fff;color:var(--ink)}
+    header{background:var(--red);color:#000;font-weight:800;text-align:center;padding:14px 10px;letter-spacing:.4px}
+    main{max-width:720px;margin:24px auto 56px;padding:0 16px}
+    .card{border:1px solid #e6e6ea;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+    h1{font-size:22px;margin:0 0 10px}
+    .sku{color:#555;margin:0 0 16px}
+    label{display:block;margin:12px 0 6px;font-weight:700}
+    input[type="text"]{width:100%;padding:10px 12px;border:1px solid #cfcfd6;border-radius:8px;font-size:16px}
+    .inline{display:flex;align-items:center;gap:10px}
+    .inline input[type="checkbox"]{width:20px;height:20px}
+    .rows{margin-top:10px}
+    .row{display:flex;justify-content:space-between;margin:6px 0}
+    .total{font-weight:900;font-size:22px;margin-top:10px}
+    .muted{color:#666;font-size:14px}
+    #paypal-button-container{margin-top:18px;min-height:45px}
+    .error{display:none;margin-top:14px;padding:12px;border-left:4px solid #c50000;background:#fff4f4;color:#6b1111;border-radius:6px}
+    .help{display:none;margin-top:12px;padding:12px;border:1px solid #e53935;background:#ffebee;color:#b71c1c;border-radius:6px;font-size:.95rem}
+    .agree{margin-top:14px;font-size:13px;color:#444}
+    .agree a{color:#0b2e4f;text-decoration:underline}
   </style>
 
-  <!-- PayPal JS SDK (may be blocked on some networks). Safe to keep. -->
-  <script
-    src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"
-    data-sdk-integration-source="button-fallback"
-    defer></script>
+  <!-- PayPal JS SDK — LIVE (your real client ID) -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"></script>
 </head>
 <body>
-  <div class="banner">EDUNANCIAL CHECKOUT</div>
+  <header>EDUNANCIAL CHECKOUT</header>
 
-  <div class="wrap">
+  <main>
     <div class="card">
       <h1>Mini Course: Edunancial Method</h1>
-      <p class="muted tiny">SKU: <strong>EDN-MINI-EM-001</strong></p>
+      <p class="sku">SKU: <strong>EDN-MINI-EM-001</strong></p>
 
-      <div class="row">
-        <!-- LEFT: options -->
-        <div class="col">
-          <label class="check">
-            <input type="checkbox" id="under18"> I am under 18
-          </label>
-          <label class="tiny" for="code">Discount / Under-18 Code</label>
-          <input id="code" class="input" placeholder="Enter code (use PR12345$$ for $1 test)">
-        </div>
-
-        <!-- RIGHT: totals -->
-        <div class="col sum">
-          <table>
-            <tbody>
-              <tr><td>Subtotal</td><td id="s-sub">$75.00</td></tr>
-              <tr class="muted"><td>Early-bird</td><td id="s-eb">-11.25</td></tr>
-              <tr class="muted"><td>Under-18 code</td><td id="s-u18">-0.00</td></tr>
-              <tr><td><strong>Total</strong></td><td><strong id="s-total">$63.75</strong></td></tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="inline">
+        <input type="checkbox" id="under18">
+        <label for="under18" style="margin:0">I am under 18</label>
       </div>
 
-      <!-- PayPal smart buttons mount here if SDK loads -->
-      <div id="paypal-container" style="margin-top:16px"></div>
+      <label for="code">Discount / Under-18 Code</label>
+      <input id="code" type="text" placeholder="Enter code (use PR12345$$ for your $1 test)" inputmode="text" autocomplete="off" />
 
-      <!-- If SDK fails to load, we show this box AND a PayPal Standard fallback button -->
-      <div id="paypal-fail" class="note err">
-        <strong>PayPal checkout didn’t load.</strong><br>
-        Please disable ad-blockers or Private DNS, or switch Wi-Fi/mobile data, then refresh.
+      <div class="rows">
+        <div class="row"><span>Subtotal</span>     <span id="subtotal">$75.00</span></div>
+        <div class="row"><span>Early-bird</span>    <span id="earlybird">-$11.25</span></div>
+        <div class="row"><span>Under-18 code</span> <span id="u18line">-$0.00</span></div>
+        <div class="row total"><span>Total</span>   <span id="total">$63.75</span></div>
       </div>
 
-      <!-- PayPal Payments Standard (no SDK) fallback -->
-      <div id="pp-standard">
-        <form id="pp-standard-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="PAYPAL_BUSINESS_EMAIL_HERE"><!-- 🔁 replace once -->
-          <input type="hidden" name="item_name" value="Mini Course: Edunancial Method (SKU EDN-MINI-EM-001)">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="amount" id="pp-amount" value="">
-          <input type="hidden" name="custom" id="pp-custom" value="">
-          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
-          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/payments.html">
-          <button type="submit" class="btn btn-paypal">Pay with PayPal</button>
-        </form>
-        <div class="tiny muted" style="margin-top:6px">
-          This backup button uses PayPal’s hosted checkout and works even if scripts are blocked.
-        </div>
+      <!-- PayPal UI -->
+      <div id="paypal-button-container"></div>
+      <div id="pp-error" class="error"></div>
+
+      <!-- Fallback guidance (shown if PayPal fails/blocked) -->
+      <div id="paypal-help" class="help">
+        ⚠️ The PayPal checkout button didn’t load.<br><br>
+        Please disable <strong>ad-blockers</strong> or <strong>Private DNS</strong> on your phone/browser, or try switching between Wi-Fi and mobile data.  
+        Then refresh this page. (Allow scripts from <em>paypal.com</em>.)
       </div>
 
-      <p class="tos tiny">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
+      <p class="agree">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
     </div>
-  </div>
+  </main>
 
-<script>
-(function () {
-  // ---------- Pricing rules ----------
-  const BASE = 75.00;                 // starter price you set
-  const EARLY_BIRD_PCT = 0.15;        // through 09/26/2025
-  const EB_DEADLINE = new Date('2025-09-26T23:59:59-05:00'); // adjust tz if needed
-  const TEST_CODE = 'PR12345$$';      // $1 test (under-18 must be checked)
+  <script>
+    // ------- Pricing / Discount logic -------
+    const SUBTOTAL  = 75.00;
+    const EARLYBIRD = 11.25;        // early-bird reduction you set
+    const TEST_CODE = "PR12345$$";  // under-18 + this code → total becomes $1.00
 
-  const el = (id)=>document.getElementById(id);
-  const under18 = el('under18');
-  const code = el('code');
-  const sSub = el('s-sub'), sEb = el('s-eb'), sU18 = el('s-u18'), sTotal = el('s-total');
+    const $u18   = document.getElementById('under18');
+    const $code  = document.getElementById('code');
+    const $uLine = document.getElementById('u18line');
+    const $tot   = document.getElementById('total');
 
-  const fmt = (n)=>'$'+n.toFixed(2);
+    function fmt(n){ return '$' + Number(n).toFixed(2); }
 
-  function compute() {
-    let subtotal = BASE;
-    let eb = 0;
-    if (new Date() <= EB_DEADLINE) eb = +(BASE * EARLY_BIRD_PCT).toFixed(2);
-
-    let u18 = 0;
-    const codeVal = code.value.trim();
-    if (under18.checked && codeVal === TEST_CODE) {
-      // force total $1 regardless of early-bird
-      const target = 1.00;
-      u18 = +(subtotal - eb - target).toFixed(2);
-    }
-
-    const total = +(subtotal - eb - u18).toFixed(2);
-
-    sSub.textContent = fmt(subtotal);
-    sEb.textContent  = eb ? '-'+fmt(eb).slice(1) : '-0.00';
-    sU18.textContent = u18 ? '-'+fmt(u18).slice(1) : '-0.00';
-    sTotal.textContent = fmt(total);
-
-    // keep fallback form in sync
-    const sku = 'EDN-MINI-EM-001';
-    el('pp-amount').value = total.toFixed(2);
-    el('pp-custom').value = JSON.stringify({sku, under18:under18.checked, code:codeVal});
-    return { total, sku, code: codeVal };
-  }
-
-  under18.addEventListener('change', compute);
-  code.addEventListener('input', compute);
-  compute();
-
-  // ---------- Try to render PayPal Buttons (SDK path) ----------
-  function renderButtons() {
-    if (!window.paypal || !paypal.Buttons) {
-      // SDK missing or blocked: show fail note + standard fallback
-      el('paypal-fail').style.display = 'block';
-      el('pp-standard').style.display = 'block';
-      return;
-    }
-
-    paypal.Buttons({
-      style: { layout: 'vertical', shape: 'rect' },
-      createOrder: function(data, actions) {
-        const state = compute();
-        return actions.order.create({
-          purchase_units: [{
-            amount: { value: state.total.toFixed(2), currency_code: 'USD' },
-            custom_id: state.sku,
-            description: 'Mini Course: Edunancial Method'
-          }],
-          application_context: {
-            brand_name: 'Edunancial',
-            shipping_preference: 'NO_SHIPPING',
-            user_action: 'PAY_NOW',
-            return_url: 'https://www.edunancial.com/thank-you.html',
-            cancel_url: 'https://www.edunancial.com/payments.html'
-          }
-        });
-      },
-      onApprove: function(data, actions) {
-        return actions.order.capture().then(function() {
-          window.location.href = '/thank-you.html?status=success&orderID=' + encodeURIComponent(data.orderID);
-        });
-      },
-      onError: function() {
-        // If something goes wrong mid-flow, reveal the backup button
-        el('paypal-fail').style.display = 'block';
-        el('pp-standard').style.display = 'block';
+    function calcTotal(){
+      let u18Disc = 0;
+      if ($u18.checked && $code.value.trim() === TEST_CODE) {
+        const current = SUBTOTAL - EARLYBIRD;
+        u18Disc = Math.max(0, current - 1.00); // force $1.00 total
       }
-    }).render('#paypal-container');
-  }
+      $uLine.textContent = '-' + (u18Disc ? fmt(u18Disc).slice(1) : '0.00');
+      const total = Math.max(0.01, (SUBTOTAL - EARLYBIRD - u18Disc));
+      $tot.textContent = fmt(total);
+      return Number(total.toFixed(2));
+    }
 
-  // Delay until SDK tag has a chance to execute
-  if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    setTimeout(renderButtons, 50);
-  } else {
-    window.addEventListener('DOMContentLoaded', () => setTimeout(renderButtons, 50));
-  }
-})();
-</script>
+    document.getElementById('subtotal').textContent  = fmt(SUBTOTAL);
+    document.getElementById('earlybird').textContent = '-' + fmt(EARLYBIRD).slice(1);
+    ['change','keyup'].forEach(ev => {
+      $u18.addEventListener(ev, calcTotal);
+      $code.addEventListener(ev, calcTotal);
+    });
+    calcTotal();
 
+    // ------- PayPal Buttons with robust handling -------
+    const $help = document.getElementById('paypal-help');
+    const $err  = document.getElementById('pp-error');
+
+    function renderPayPal(){
+      if (!window.paypal || !paypal.Buttons) {
+        $help.style.display = 'block';
+        return;
+      }
+      $help.style.display = 'none';
+      $err.style.display = 'none';
+
+      paypal.Buttons({
+        style: { layout:'vertical', color:'gold', shape:'rect', label:'paypal' },
+
+        createOrder: function(data, actions){
+          const amount = calcTotal();
+          if (amount < 1) {
+            $err.textContent = 'Total must be at least $1.00.';
+            $err.style.display = 'block';
+            throw new Error('Total below 1.00');
+          }
+          return actions.order.create({
+            purchase_units: [{
+              description: 'Edunancial Mini Course (EN)',
+              custom_id: 'EDN-MINI-EM-001',
+              amount: { currency_code:'USD', value: amount.toFixed(2) }
+            }]
+          });
+        },
+
+        onApprove: function(data, actions){
+          return actions.order.capture().then(function(details){
+            const params = new URLSearchParams({
+              orderId: details.id || '',
+              paid:    calcTotal().toFixed(2),
+              payer:   (details.payer && details.payer.name && details.payer.name.given_name) || 'Customer'
+            }).toString();
+            window.location.href = '/thank-you.html?' + params;
+          });
+        },
+
+        onError: function(err){
+          $err.textContent = 'PayPal error: ' + (err && err.message ? err.message : 'Unknown error.');
+          $err.style.display = 'block';
+          $help.style.display = 'block';
+        }
+      }).render('#paypal-button-container').catch(function(){
+        $help.style.display = 'block';
+      });
+    }
+
+    // Render now; if SDK is slow/blocked, show fallback in 5s
+    document.addEventListener('DOMContentLoaded', function(){
+      renderPayPal();
+      setTimeout(function(){
+        const iframePresent = document.querySelector('#paypal-button-container iframe');
+        if (!iframePresent) $help.style.display = 'block';
+      }, 5000);
+    });
+  </script>
 </body>
 </html>
