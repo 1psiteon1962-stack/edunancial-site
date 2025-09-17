@@ -1,64 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Edunancial — Courses</title>
+<title>Courses — Edunancial</title>
 <link rel="stylesheet" href="style.css" />
-<style>
-  body{margin:0;font-family:Arial,Helvetica,sans-serif}
-  header{background:#c00;color:#000;padding:1rem;text-align:center}
-  header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-  main{max-width:1000px;margin:2rem auto;padding:0 1rem}
-  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
-  .badge.blue{background:#0d47a1;color:#fff;border-color:#0d47a1}
-  .badge.red{background:#c00;color:#000;border-color:#000}
-  .badge.white{background:#fff;color:#000;border-color:#000}
-  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-  p small{opacity:.8}
-</style>
 </head>
 <body>
-<header>
-  <div>EDUNANCIAL • Practical money & real-estate training</div>
-  <nav>
-    <a href="our-story.html">Our Story</a>
-    <a href="books.html">Books</a>
-    <a href="courses.html">Courses</a>
-    <a href="mini-courses.html">Mini-Courses</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-    <a href="es-courses.html">ES</a>
-  </nav>
-</header>
+<header>EDUNANCIAL</header>
+<nav>
+  <a href="index.html">Our Story</a>
+  <a href="courses.html">Courses</a>
+  <a href="books.html">Books</a>
+  <a href="checkout.html">Checkout</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-<main>
-  <h2>Courses</h2>
-
-  <article class="card">
-    <h3>In-Depth Business Formation <span class="badge blue">Blue</span></h3>
-    <p><strong>Date:</strong> October 12, 2025 · <strong>Start:</strong> 2:00 PM</p>
-    <p><strong>Base price:</strong> $199.00</p>
-    <p><a class="btn" href="payments.html?item=Course%3A%20Business%20Formation&sku=EDN-CRS-BF-001&price=199.00">Enroll now</a></p>
-    <p><small>Membership & early-bird discounts apply on checkout.</small></p>
-  </article>
-
-  <article class="card">
-    <h3>Tax Liens &amp; Tax Deeds <span class="badge red">Red</span></h3>
-    <p><strong>Date:</strong> October 19, 2025 · <strong>Start:</strong> 2:00 PM</p>
-    <p><strong>Base price:</strong> $179.00</p>
-    <p><a class="btn" href="payments.html?item=Course%3A%20Tax%20Liens%20%26%20Deeds&sku=EDN-CRS-TAX-001&price=179.00">Enroll now</a></p>
-    <p><small>Membership & early-bird discounts apply on checkout.</small></p>
-  </article>
-
-  <article class="card">
-    <h3>Investing for Kids: Select, Buy &amp; Sell Stocks <span class="badge white">White</span></h3>
-    <p><strong>Date:</strong> October 26, 2025 · <strong>Start:</strong> 2:00 PM</p>
-    <p><strong>Base price:</strong> $149.00</p>
-    <p><a class="btn" href="payments.html?item=Course%3A%20Investing%20for%20Kids&sku=EDN-CRS-INV-001&price=149.00">Enroll now</a></p>
-    <p><small>Membership & early-bird discounts apply on checkout.</small></p>
-  </article>
+<main class="grid">
+  <section class="card">
+    <h1 class="h1">Introductory Courses (Red / White / Blue)</h1>
+    <ul class="list">
+      <li><strong class="h2">Mini Course — The Edunancial Method</strong> (Red • White • Blue) — help your children, help yourself. <a class="btn" href="checkout.html">Enroll</a></li>
+      <li><strong class="h2">Business Formation (In-Depth)</strong> (Blue) — structure, setup, and systems. <span class="muted">Dates: Oct 12, 19, 26 — 2:00 PM</span></li>
+      <li><strong class="h2">Tax Liens & Tax Deeds</strong> (Red) — frameworks and risks. <span class="muted">Schedule announced</span></li>
+      <li><strong class="h2">Kids & Stocks</strong> (White) — teach your child to select, buy, and sell stocks. <span class="muted">Schedule announced</span></li>
+    </ul>
+    <p class="muted">Member discounts apply. Early-bird discounts may apply when announced. Non-profits can request a youth code for under-18 pricing.</p>
+  </section>
 </main>
+
+<footer>© <span id="y"></span> Edunancial, Inc.</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
