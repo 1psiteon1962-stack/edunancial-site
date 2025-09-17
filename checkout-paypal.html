@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout — Edunancial</title>
+  <style>
+    :root { --red:#c41212; --blue:#0f2942; --black:#111; --white:#fff; }
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; margin:0; background:#f7f7f7; color:#111; }
+    .banner { background:var(--red); color:var(--black); text-align:center; padding:16px 12px; font-weight:800; letter-spacing:.4px; }
+    .wrap { max-width:860px; margin:24px auto; padding:0 16px; }
+    .card { background:var(--white); border:1px solid #e5e5e5; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,.05); }
+    h1 { margin:0 0 12px; font-size:28px; }
+    .sku { color:#555; margin:8px 0 18px; }
+    .total { font-size:22px; font-weight:700; margin:14px 0 2px; }
+    .btnrow { margin-top:22px; display:flex; gap:12px; align-items:center; }
+    .note { margin-top:18px; font-size:13px; color:#555; }
+  </style>
+</head>
+<body>
+  <div class="banner">EDUNANCIAL · CHECKOUT</div>
+
+  <div class="wrap">
+    <div class="card">
+      <h1>Mini Course: Edunancial Method (EN) — Live Test</h1>
+      <div class="sku">SKU: EDN-MINI-EM-001</div>
+      <div class="total">Total: $1.00</div>
+
+      <!-- Classic PayPal Buy Now button -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick" />
+        <!-- Business PayPal email -->
+        <input type="hidden" name="business" value="payments@edunancial.com" />
+
+        <input type="hidden" name="item_name" value="Mini Course: Edunancial Method (EN) — Test" />
+        <input type="hidden" name="amount" value="1.00" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="hidden" name="no_shipping" value="1" />
+        <input type="hidden" name="custom" value="EDN-MINI-EM-001" />
+
+        <!-- Success + cancel redirects -->
+        <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html?sku=EDN-MINI-EM-001" />
+        <input type="hidden" name="cancel_return" value="https://www.edunancial.com/checkout-paypal.html?canceled=1" />
+
+        <div class="btnrow">
+          <input type="image"
+                 src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                 border="0" name="submit"
+                 alt="PayPal - The safer, easier way to pay online!" />
+          <img alt="" border="0" width="1" height="1"
+               src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" />
+        </div>
+
+        <div class="note">Click “Buy Now” to test the $1 payment. You will return to our Thank You page.</div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
