@@ -27,11 +27,9 @@
     .help { display:none; margin-top:12px; padding:12px; border:1px solid #e53935; background:#ffebee; color:#b71c1c; border-radius:6px; font-size:.95rem; }
     .agree { margin-top:14px; font-size:13px; color:#444; }
     .agree a { color:#0b2e4f; text-decoration:underline; }
-    footer { max-width:720px; margin:0 auto 40px; padding:0 16px; font-size:13px; color:#555 }
-    footer a { color:#0b2e4f; text-decoration:underline; }
   </style>
 
-  <!-- PayPal JS SDK — LIVE (embedded client ID) -->
+  <!-- PayPal JS SDK — LIVE Client ID embedded -->
   <script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"></script>
 </head>
 <body>
@@ -68,20 +66,14 @@
         Then refresh this page. (Allow scripts from <em>paypal.com</em>.)
       </div>
 
-      <p class="agree">
-        By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
-      </p>
+      <p class="agree">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
     </div>
   </main>
-
-  <footer>
-    Need help? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>
-  </footer>
 
   <script>
     // ------- Pricing / Discount logic -------
     const SUBTOTAL  = 75.00;
-    const EARLYBIRD = 11.25;        // your early-bird reduction
+    const EARLYBIRD = 11.25;        // current early-bird discount
     const TEST_CODE = "PR12345$$";  // only with "under 18" → total becomes $1.00
 
     const $u18   = document.getElementById('under18');
@@ -94,7 +86,7 @@
     function calcTotal(){
       let u18Disc = 0;
       if ($u18.checked && $code.value.trim() === TEST_CODE) {
-        // Make total exactly $1.00 when under-18 + correct code
+        // Force total to exactly $1.00 when under-18 + correct code
         const current = SUBTOTAL - EARLYBIRD;
         u18Disc = Math.max(0, current - 1.00);
       }
@@ -129,7 +121,7 @@
 
         createOrder: function(data, actions){
           const amount = calcTotal();               // always use current total
-          if (amount < 1) {                         // guard: many live flows expect >= $1.00
+          if (amount < 1) {                         // live guard (most processors expect >= $1.00)
             $err.textContent = 'Total must be at least $1.00.';
             $err.style.display = 'block';
             throw new Error('Total below 1.00');
