@@ -12,191 +12,44 @@
   .card{background:#fff;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.08);padding:22px}
   h1{margin:0 0 8px;font-size:28px}
   .sku{color:var(--muted);font-size:14px;margin-bottom:14px}
-  .row{display:flex;gap:12px;flex-wrap:wrap}
-  label{display:block;margin:8px 0 6px;font-weight:600}
-  select,input[type="text"],input[type="checkbox"] + span,input[type="number"]{font-size:15px;padding:10px;border-radius:8px;border:1px solid #ddd;width:100%;box-sizing:border-box}
+  label{display:block;margin:10px 0 6px;font-weight:600}
+  select,input[type="text"],input[type="checkbox"]{font-size:15px;padding:10px;border-radius:8px;border:1px solid #ddd;width:100%;box-sizing:border-box}
   .inline{display:flex;gap:8px;align-items:center}
-  .price-break{margin-top:14px;background:#fbfbfb;padding:12px;border-radius:8px;border:1px solid #eee}
-  .price-break div{margin:6px 0;color:var(--muted)}
-  .total{font-weight:800;font-size:20px;margin-top:10px}
-  .paybtn{display:block;margin-top:18px;background:#ffc439;color:#111;padding:12px 14px;border-radius:10px;border:0;font-weight:700;font-size:16px;cursor:pointer}
-  .alt{display:inline-block;margin-top:10px;background:#0b3b66;color:#fff;padding:10px 12px;border-radius:8px;text-decoration:none}
-  .notice{margin-top:12px;padding:12px;border-radius:8px;background:#fff3f3;border:1px solid #f0caca;color:#8a1c1c}
-  .small{font-size:13px;color:var(--muted);margin-top:8px}
+  .small{font-size:13px;color:var(--muted);margin-top:12px}
+  .btn{display:inline-block;margin-top:16px;background:#0b3b66;color:#fff;padding:12px 16px;border-radius:10px;border:0;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none}
   .muted{color:var(--muted)}
-  @media(min-width:680px){.col2{flex:1}}
 </style>
 </head>
 <body>
   <div class="banner">EDUNANCIAL CHECKOUT</div>
   <div class="wrap">
-    <div class="card" id="checkout-card">
+    <form class="card" method="post" action="/.netlify/functions/paypal-redirect">
       <h1>Mini Course: Edunancial Method</h1>
       <div class="sku">SKU: EDN-MINI-EM-001</div>
 
-      <!-- Options -->
-      <div>
-        <label for="membership">Membership</label>
-        <select id="membership">
-          <option value="0" data-pct="0">None (0%)</option>
-          <option value="member-basic" data-pct="10">Member — Basic (10% off)</option>
-          <option value="member-pro" data-pct="20">Member — Pro (20% off)</option>
-        </select>
+      <input type="hidden" name="item_name" value="Mini Course: Edunancial Method">
+      <input type="hidden" name="item_number" value="EDN-MINI-EM-001">
+      <input type="hidden" name="course_kind" value="mini-en">
 
-        <div style="margin-top:10px">
-          <label class="inline"><input id="under18" type="checkbox" style="width:auto" /> <span style="margin-left:8px">I am under 18</span></label>
-        </div>
+      <label for="membership">Membership</label>
+      <select id="membership" name="membership">
+        <option value="none">None (0%)</option>
+        <option value="basic">Member — Basic (10% off)</option>
+        <option value="pro">Member — Pro (20% off)</option>
+      </select>
 
-        <div style="margin-top:10px">
-          <label for="promo">Discount / Under-18 Code</label>
-          <input id="promo" type="text" placeholder="Enter code (use PR12345$$ for your $1 test)" />
-        </div>
-      </div>
+      <label class="inline" style="margin-top:10px">
+        <input type="checkbox" name="under18" value="yes" style="width:auto" />
+        <span>I am under 18</span>
+      </label>
 
-      <!-- Pricing breakdown -->
-      <div class="price-break" id="breakdown">
-        <div>Subtotal: <span id="subtotalText">$75.00</span></div>
-        <div>Membership discount: <span id="membershipDisc">-$0.00</span></div>
-        <div>Early-bird (15% off through 09/26/2025): <span id="earlyDisc">-$11.25</span></div>
-        <div>Under-18 code: <span id="under18Disc">-$0.00</span></div>
-        <div class="total">Total: <span id="totalText">$63.75</span></div>
-      </div>
+      <label for="code" style="margin-top:10px">Discount / Under-18 Code</label>
+      <input id="code" name="code" type="text" placeholder="Enter discount code (optional)" autocomplete="off" />
 
-      <p class="small">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
+      <p class="small">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>. You’ll be redirected to PayPal to complete payment.</p>
 
-      <!-- PAYPAL CLASSIC FORM (POST) -->
-      <!-- Replace BUSINESS_EMAIL_HERE with your PayPal business email -->
-      <form id="paypalForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick" />
-        <input type="hidden" name="business" id="paypalBusiness" value="BUSINESS_EMAIL_HERE" />
-        <input type="hidden" name="item_name" value="Mini Course: Edunancial Method" />
-        <input type="hidden" name="item_number" value="EDN-MINI-EM-001" />
-        <input type="hidden" name="amount" id="paypalAmount" value="63.75" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html" />
-        <input type="hidden" name="cancel_return" value="https://www.edunancial.com/checkout-mini-en.html" />
-        <input type="hidden" name="no_shipping" value="1" />
-        <input type="hidden" name="no_note" value="1" />
-
-        <button id="payNow" type="submit" class="paybtn">Pay with PayPal</button>
-      </form>
-
-      <div class="notice" id="notice" style="display:none"></div>
-
-      <a class="alt" href="/checkout-paypal.html" style="display:inline-block">Alternate Checkout (No-JS PayPal)</a>
-    </div>
+      <button type="submit" class="btn">Continue to PayPal</button>
+    </form>
   </div>
-
-<script>
-/*
-  Full page checkout logic (client-side):
-  - Base price $75
-  - Early-bird: 15% off through 2025-09-26 inclusive
-  - Membership discount from select (value is % in data attribute)
-  - Promo code "PR12345$$" forces total to $1.00 (special test code for English mini-course)
-  - If under-18 checked + promo code present => special behavior
-  - Final amount written to hidden paypal form field "amount"
-*/
-
-(function(){
-  const BASE = 75.00;
-  const EARLY_PCT = 0.15;
-  const EARLY_LAST = new Date('2025-09-26T23:59:59Z'); // inclusive end (UTC)
-  const PROMO_TEST = 'PR12345$$';
-
-  // elements
-  const membership = document.getElementById('membership');
-  const under18 = document.getElementById('under18');
-  const promo = document.getElementById('promo');
-  const subtotalText = document.getElementById('subtotalText');
-  const membershipDisc = document.getElementById('membershipDisc');
-  const earlyDisc = document.getElementById('earlyDisc');
-  const under18Disc = document.getElementById('under18Disc');
-  const totalText = document.getElementById('totalText');
-  const paypalAmount = document.getElementById('paypalAmount');
-  const notice = document.getElementById('notice');
-  const payNow = document.getElementById('payNow');
-
-  function currency(v){ return '$' + v.toFixed(2); }
-
-  function isEarly(){
-    const now = new Date();
-    return now <= EARLY_LAST;
-  }
-
-  function membershipPercent(){
-    const opt = membership.options[membership.selectedIndex];
-    const pct = parseFloat(opt.getAttribute('data-pct') || '0');
-    return pct/100;
-  }
-
-  function updateAmounts(){
-    notice.style.display = 'none';
-    let subtotal = BASE;
-    subtotalText.textContent = currency(subtotal);
-
-    // membership discount (percentage off)
-    const memPct = membershipPercent();
-    const memDiscAmt = subtotal * memPct;
-    membershipDisc.textContent = '-' + currency(memDiscAmt);
-
-    // early-bird
-    let earlyDiscAmt = 0;
-    if (isEarly()) earlyDiscAmt = (subtotal - memDiscAmt) * EARLY_PCT;
-    earlyDisc.textContent = '-' + currency(earlyDiscAmt);
-
-    // Under-18 promo code
-    let underDiscAmt = 0;
-    const code = (promo.value || '').trim();
-    // If test code exactly matches, make final total 1.00
-    if (code === PROMO_TEST){
-      // compute everything, but final override to $1.00
-      const afterMem = subtotal - memDiscAmt;
-      const afterEarly = afterMem - earlyDiscAmt;
-      // under-disc shows what got subtracted to reach 1.00
-      underDiscAmt = (afterEarly - 1.00);
-      under18Disc.textContent = '-' + currency(Math.max(0, underDiscAmt));
-      totalText.textContent = currency(1.00);
-      paypalAmount.value = '1.00';
-      return;
-    }
-
-    // Otherwise: if under-18 checkbox is checked but no promo, no special reduction here by default
-    under18Disc.textContent = '-$0.00';
-
-    // normal final
-    const total = subtotal - memDiscAmt - earlyDiscAmt - underDiscAmt;
-    totalText.textContent = currency(total);
-    paypalAmount.value = total.toFixed(2);
-  }
-
-  // show a clear warning if PayPal may be blocked (we can't detect all blockers, show a generic note)
-  function detectPossibleBlock(){
-    // If the page is embedded or connection blocked, user will see PayPal redirect fail.
-    // We'll just provide guidance in the notice box when the page loads.
-    notice.style.display = 'block';
-    notice.innerHTML = 'If PayPal does not load after pressing the PayPal button, disable any content/ad blockers or Private DNS and refresh. If you get an error, use the <strong>Alternate Checkout (No-JS PayPal)</strong> link.';
-    // hide it after a short time so it doesn't overload screen
-    setTimeout(()=> notice.style.display = 'none', 9000);
-  }
-
-  // events
-  membership.addEventListener('change', updateAmounts);
-  under18.addEventListener('change', updateAmounts);
-  promo.addEventListener('input', updateAmounts);
-
-  // initial calc
-  updateAmounts();
-  detectPossibleBlock();
-
-  // Prevent accidental multi-submit while testing; PayPal will redirect
-  document.getElementById('paypalForm').addEventListener('submit', function(e){
-    payNow.disabled = true;
-    payNow.textContent = 'Opening PayPal…';
-    // allow form to submit normally
-    setTimeout(()=>{ payNow.disabled=false; payNow.textContent='Pay with PayPal'; }, 15000);
-  });
-})();
-</script>
 </body>
 </html>
