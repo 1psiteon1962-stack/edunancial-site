@@ -1,154 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Pagar — Edunancial</title>
-<meta name="description" content="Pago seguro para cursos de Edunancial." />
-<style>
-  :root{--bg:#0b0f13;--fg:#111;--ink:#0b0f13;--muted:#6b7280;--card:#ffffff;--line:#e5e7eb;--accent:#e11d48;--btn:#0070ba;--btn-ink:#fff;}
-  *{box-sizing:border-box}
-  body{margin:0;background:#f5f7fb;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
-  header{background:#b91c1c;color:#fff;padding:14px 18px;font-weight:800;letter-spacing:.5px}
-  main{max-width:780px;margin:18px auto;padding:0 12px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
-  h1{margin:0 0 6px;font-size:26px}
-  .sku{color:var(--muted);margin-top:6px}
-  label{font-weight:600;display:block;margin:.25rem 0 .35rem}
-  select,input[type="text"]{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:16px;background:#fff}
-  .row{display:grid;grid-template-columns:1fr;gap:12px}
-  @media (min-width:640px){.row{grid-template-columns:1fr 1fr}}
-  .inline{display:flex;align-items:center;gap:10px}
-  .muted{color:var(--muted)}
-  .summary{font-size:16px}
-  .summary div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #e8e8ee}
-  .summary div:last-child{border-bottom:0}
-  .total{font-weight:800;font-size:20px}
-  .btn{background:var(--btn);color:var(--btn-ink);border:0;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer}
-  .btn:active{transform:translateY(1px)}
-  .footnote{font-size:12px;color:var(--muted);margin-top:8px}
-</style>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Pago — Edunancial</title>
+
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;background:#fff}
+    main{max-width:720px;margin:24px auto 56px;padding:0 16px}
+    .card{border:1px solid #e6e6ea;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.04);background:#fff}
+    h1{margin:0 0 10px;font-size:22px}
+    .sku{color:#555;margin:0 0 16px}
+    label{display:block;margin:12px 0 6px;font-weight:700}
+    input[type="text"]{width:100%;padding:10px 12px;border:1px solid #cfcfd6;border-radius:8px;font-size:16px}
+    .inline{display:flex;align-items:center;gap:10px}
+    .inline input[type="checkbox"]{width:20px;height:20px}
+    .rows{margin-top:10px}
+    .row{display:flex;justify-content:space-between;margin:6px 0}
+    .total{font-weight:900;font-size:22px;margin-top:10px}
+    #paypal-button-container{margin-top:18px;min-height:45px}
+    .error{display:none;margin-top:14px;padding:12px;border-left:4px solid #c50000;background:#fff4f4;color:#6b1111;border-radius:6px}
+    .help{display:none;margin-top:12px;padding:12px;border:1px solid #e53935;background:#ffebee;color:#b71c1c;border-radius:6px;font-size:.95rem}
+    .agree{margin-top:14px;font-size:13px;color:#444}
+    .agree a{color:#0b2e4f;text-decoration:underline}
+  </style>
+
+  <!-- PayPal JS SDK — LIVE -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"></script>
 </head>
 <body>
-<header>CAJA EDUNANCIAL</header>
-<main>
+  <header class="site-banner"></header>
 
-  <!-- PRODUCTO -->
-  <section class="card">
-    <h1>Mini Curso: Método Edunancial</h1>
-    <div class="sku">SKU: <span id="sku">EDN-MINI-EM-001</span> • Total (antes de descuentos): $<span id="base">75.00</span></div>
-  </section>
+  <main>
+    <div class="card">
+      <h1>Mini Curso: Método Edunancial</h1>
+      <p class="sku">SKU: <strong>EDN-MINI-EM-001</strong></p>
 
-  <!-- CONTROLES -->
-  <section class="card">
-    <div class="row">
-      <div>
-        <label for="membership">Membresía</label>
-        <select id="membership" aria-label="Membresía">
-          <option value="none">Ninguna (0%)</option>
-          <option value="standard">Estándar (10% de descuento en cursos)</option>
-          <option value="premium">Premium (30% de descuento en cursos)</option>
-        </select>
+      <div class="inline">
+        <input type="checkbox" id="under18">
+        <label for="under18" style="margin:0">Tengo menos de 18 años</label>
       </div>
-      <div>
-        <label>&nbsp;</label>
-        <div class="inline">
-          <input id="under18" type="checkbox" />
-          <label for="under18" class="muted" style="font-weight:600">Soy menor de 18 años</label>
-        </div>
+
+      <label for="code">Código de Descuento / Menores de 18</label>
+      <input id="code" type="text" placeholder="Ingrese el código (PR12345$$ para prueba de $1)" inputmode="text" autocomplete="off"/>
+
+      <div class="rows">
+        <div class="row"><span>Subtotal</span>     <span id="subtotal">$75.00</span></div>
+        <div class="row"><span>Descuento early-bird</span> <span id="earlybird">-$11.25</span></div>
+        <div class="row"><span>Código menor de 18</span>  <span id="u18line">-$0.00</span></div>
+        <div class="row total"><span>Total</span>   <span id="total">$63.75</span></div>
       </div>
+
+      <div id="paypal-button-container"></div>
+      <div id="pp-error" class="error"></div>
+      <div id="paypal-help" class="help">
+        ⚠️ El botón de PayPal no se cargó.<br><br>
+        Desactiva <strong>bloqueadores de anuncios</strong> o <strong>DNS privado</strong> en tu dispositivo/navegador,
+        o prueba cambiar entre Wi-Fi y datos móviles y vuelve a cargar la página.
+        (Permite scripts de <em>paypal.com</em>.)
+      </div>
+
+      <p class="agree">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
     </div>
+  </main>
 
-    <div style="margin-top:10px">
-      <label for="code">Código de Descuento / Menor de 18</label>
-      <input id="code" type="text" placeholder="Ingrese el código (si aplica)" />
-      <div class="footnote muted">Oferta de lanzamiento: <strong>15% de descuento</strong> hasta <span id="eb-date">26/09/2025</span>, se aplica automáticamente.</div>
-    </div>
-  </section>
+  <script>
+    const SUBTOTAL  = 75.00;
+    const EARLYBIRD = 11.25;
+    const TEST_CODE = "PR12345$$"; // para prueba de $1 con “menor de 18”
 
-  <!-- RESUMEN -->
-  <section class="card summary" id="summary">
-    <div><span>Subtotal:</span><span id="s_sub">$75.00</span></div>
-    <div><span>Descuento de membresía:</span><span id="s_mem">-$0.00</span></div>
-    <div><span>Oferta lanzamiento:</span><span id="s_eb">-$0.00</span></div>
-    <div><span>Código menor de 18:</span><span id="s_u18">-$0.00</span></div>
-    <div class="total"><span>Total:</span><span id="s_total">$75.00</span></div>
-  </section>
+    const $u18   = document.getElementById('under18');
+    const $code  = document.getElementById('code');
+    const $uLine = document.getElementById('u18line');
+    const $tot   = document.getElementById('total');
 
-  <!-- PAYPAL -->
-  <section class="card">
-    <button class="btn" id="pay">Pagar con PayPal</button>
-    <div class="footnote">Al pagar aceptas nuestros <a href="/terms.html">Términos</a> y <a href="/refunds.html">Política de reembolsos</a>.</div>
+    function fmt(n){ return '$' + Number(n).toFixed(2); }
 
-    <!-- Formulario PayPal oculto -->
-    <form id="ppForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="payments@edunancial.com">
-      <input type="hidden" name="item_name" id="pp_item_name" value="Mini Curso: Método Edunancial">
-      <input type="hidden" name="custom" id="pp_custom" value="EDN-MINI-EM-001">
-      <input type="hidden" name="amount" id="pp_amount" value="75.00">
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="/gracias.html">
-      <input type="hidden" name="cancel_return" value="/checkout-es.html?cancelado=1">
-    </form>
-  </section>
-
-</main>
-
-<script>
-(function(){
-  const BASE_PRICE = 75.00;
-  const EARLY_BIRD_PCT = 15;
-  const EB_END = new Date('2025-09-26T23:59:59');
-  const MEMBERSHIP_PCT = { none: 0, standard: 10, premium: 30 };
-  const U18_CODES = { "PR271534$$": 0 };
-
-  const $ = (s,d=document)=>d.querySelector(s);
-  const fmt = n => '$' + n.toFixed(2);
-
-  $('#eb-date').textContent = EB_END.toLocaleDateString('es-ES');
-
-  function calc(){
-    const membership = $('#membership').value;
-    const under18 = $('#under18').checked;
-    const code = $('#code').value.trim();
-
-    let subtotal = BASE_PRICE;
-    let memDisc = +(subtotal * (MEMBERSHIP_PCT[membership]||0)/100);
-    let ebDisc = (new Date() <= EB_END) ? +(subtotal * (EARLY_BIRD_PCT/100)) : 0;
-
-    let u18Disc = 0;
-    if (under18 && code && (code in U18_CODES) && U18_CODES[code] > 0){
-      u18Disc = +(subtotal * (U18_CODES[code]/100));
+    function calcTotal(){
+      let u18Disc = 0;
+      if ($u18.checked && $code.value.trim() === TEST_CODE) {
+        const current = SUBTOTAL - EARLYBIRD;
+        u18Disc = Math.max(0, current - 1.00);
+      }
+      $uLine.textContent = '-' + (u18Disc ? fmt(u18Disc).slice(1) : '0.00');
+      const total = Math.max(0.01, (SUBTOTAL - EARLYBIRD - u18Disc));
+      $tot.textContent = fmt(total);
+      return Number(total.toFixed(2));
     }
 
-    let totalDisc = memDisc + ebDisc + u18Disc;
-    if (totalDisc > subtotal) totalDisc = subtotal;
-    let total = +(subtotal - totalDisc);
+    document.getElementById('subtotal').textContent  = fmt(SUBTOTAL);
+    document.getElementById('earlybird').textContent = '-' + fmt(EARLYBIRD).slice(1);
+    ['change','keyup'].forEach(ev => {$u18.addEventListener(ev, calcTotal); $code.addEventListener(ev, calcTotal);});
+    calcTotal();
 
-    $('#s_sub').textContent = fmt(subtotal);
-    $('#s_mem').textContent = '-' + fmt(memDisc).slice(1);
-    $('#s_eb').textContent  = '-' + fmt(ebDisc).slice(1);
-    $('#s_u18').textContent = '-' + fmt(u18Disc).slice(1);
-    $('#s_total').textContent = fmt(total);
+    const $help = document.getElementById('paypal-help');
+    const $err  = document.getElementById('pp-error');
 
-    return { total };
-  }
+    function renderPayPal(){
+      if (!window.paypal || !paypal.Buttons) { $help.style.display = 'block'; return; }
+      $help.style.display = 'none'; $err.style.display = 'none';
 
-  ['change','keyup'].forEach(evt=>{
-    document.addEventListener(evt, e=>{
-      if (['membership','under18','code'].includes(e.target.id)) calc();
+      paypal.Buttons({
+        style:{ layout:'vertical', color:'gold', shape:'rect', label:'paypal' },
+        createOrder: (data, actions) => {
+          const amount = calcTotal();
+          return actions.order.create({
+            purchase_units: [{
+              description: 'Mini Curso Edunancial (ES)',
+              custom_id: 'EDN-MINI-EM-001',
+              amount: { currency_code:'USD', value: amount.toFixed(2) }
+            }]
+          });
+        },
+        onApprove: (data, actions) => actions.order.capture().then(details => {
+          const params = new URLSearchParams({
+            orderId: details.id || '',
+            paid:    calcTotal().toFixed(2),
+            payer:   (details.payer && details.payer.name && details.payer.name.given_name) || 'Cliente'
+          }).toString();
+          window.location.href = '/es-thank-you.html?' + params;
+        }),
+        onError: (err) => {
+          $err.textContent = 'Error de PayPal: ' + (err && err.message ? err.message : 'Error desconocido.');
+          $err.style.display = 'block';
+          $help.style.display = 'block';
+        }
+      }).render('#paypal-button-container').catch(()=>{$help.style.display='block';});
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      renderPayPal();
+      setTimeout(function(){
+        const iframePresent = document.querySelector('#paypal-button-container iframe');
+        if (!iframePresent) $help.style.display = 'block';
+      }, 5000);
     });
-  });
-  calc();
-
-  $('#pay').addEventListener('click', function(e){
-    e.preventDefault();
-    const out = calc();
-    $('#pp_amount').value = out.total.toFixed(2);
-    $('#ppForm').submit();
-  });
-})();
-</script>
+  </script>
 </body>
 </html>
