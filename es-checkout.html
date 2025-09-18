@@ -1,70 +1,119 @@
-<!DOCTYPE html><html lang="es"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Pago — Edunancial</title>
-<link rel="stylesheet" href="/style.css"/>
-<style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:860px;margin:2rem auto;padding:1rem}
-.card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 16px rgba(0,0,0,.06)}
-.h1{font-size:1.6rem;font-weight:800;margin:0 0 6px}.sub{color:#555;margin:0 0 18px}
-label{display:block;font-weight:700;margin:.75rem 0 .25rem}
-input[type=text]{width:100%;padding:.7rem .9rem;border-radius:10px;border:1px solid #cfd4d9}
-.row{display:grid;grid-template-columns:1fr;gap:1rem}
-.btn{display:inline-block;background:#0b3d91;color:#fff;font-weight:800;padding:.9rem 1.1rem;border-radius:12px;border:none;cursor:pointer}
-.muted{font-size:.9rem;color:#666;margin-top:.6rem}.bar{background:#b40000;color:#fff;padding:.6rem 1rem;text-align:center;font-weight:800;letter-spacing:.04em}
-@media(min-width:680px){.row{grid-template-columns:1fr 1fr}}
-</style></head><body>
-<div class="bar">EDUNANCIAL • PAGO</div>
-<div class="wrap"><div class="card">
-  <div class="h1">Mini Curso: Método Edunancial</div>
-  <p class="sub">SKU: EDN-MINI-EM-001</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pagar — Edunancial</title>
+  <style>
+    :root { --brand:#b10606; --ink:#0b1320; --muted:#637287; --card:#ffffff; --bg:#f6f7fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+    .bar { background:var(--brand); color:#fff; font-weight:700; letter-spacing:.08em; text-align:center; padding:.8rem 1rem; }
+    .wrap { max-width:960px; margin:1.25rem auto; padding:0 1rem; }
+    .card { background:var(--card); border-radius:14px; box-shadow:0 4px 16px rgba(10,20,40,.06); padding:1.25rem; }
+    h1 { margin:.25rem 0 1rem; font-size:1.35rem; }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    label { display:block; font-size:.9rem; color:var(--muted); margin-bottom:.35rem; }
+    input[type="text"], select { width:100%; height:42px; border:1px solid #cfd6e4; border-radius:10px; padding:0 .8rem; font-size:1rem; }
+    .check { display:flex; align-items:center; gap:.5rem; margin:.35rem 0 1rem; }
+    .muted { color:var(--muted); font-size:.9rem; }
+    .btn { display:inline-block; border:0; border-radius:12px; background:#0a2d57; color:#fff; padding:.85rem 1rem; font-weight:700; cursor:pointer; }
+    .right { text-align:right; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0 .75rem; }
+    td { padding:.35rem 0; }
+    td:last-child { text-align:right; }
+    .total { font-weight:800; font-size:1.1rem; }
+  </style>
+</head>
+<body>
+  <div class="bar">EDUNANCIAL • PAGO</div>
+  <div class="wrap">
+    <div class="card">
+      <h1>Mini Curso: Método Edunancial</h1>
+      <div class="muted" style="margin-bottom:.75rem">SKU: EDN-MINI-EM-001</div>
 
-  <form id="payForm" method="GET" action="/.netlify/functions/es-paypal-redirect">
-    <input type="hidden" name="item_name" value="Mini Curso: Método Edunancial"/>
-    <input type="hidden" name="amount" id="amount" value="63.75"/>
-    <input type="hidden" name="currency_code" id="currency_code" value="USD"/>
+      <form id="payForm" autocomplete="off">
+        <div class="row">
+          <div>
+            <label for="membership">Membresía</label>
+            <select id="membership" name="membership">
+              <option value="none" selected>Ninguna (0%)</option>
+            </select>
+          </div>
+          <div class="check">
+            <input id="under18" type="checkbox" />
+            <label for="under18" style="margin:0">Soy menor de 18</label>
+          </div>
+        </div>
 
-    <div class="row">
-      <div>
-        <label for="under18">Soy menor de 18 años</label>
-        <input type="checkbox" id="under18"/>
-      </div>
-      <div>
         <label for="code">Código de descuento / menor de 18</label>
-        <input id="code" type="text" autocomplete="off" placeholder="Introduce tu código (opcional)"/>
-      </div>
+        <input id="code" name="code" type="text" placeholder="Ingresa el código (opcional)" />
+
+        <table>
+          <tbody>
+            <tr><td>Subtotal</td><td id="subtotal">$75.00</td></tr>
+            <tr><td>Descuento anticipado</td><td id="earlyBird">- $11.25</td></tr>
+            <tr><td>Membresía</td><td id="membershipAmt">- $0.00</td></tr>
+            <tr><td>Código</td><td id="codeAmt">- $0.00</td></tr>
+            <tr class="total"><td>Total</td><td id="total">$63.75</td></tr>
+          </tbody>
+        </table>
+
+        <div class="muted">Al pagar aceptas nuestros
+          <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.
+          Serás redirigido a PayPal para completar el pago.
+        </div>
+
+        <div class="right" style="margin-top:.75rem">
+          <button class="btn" type="submit">Continuar a PayPal</button>
+        </div>
+      </form>
     </div>
+  </div>
 
-    <p class="muted">
-      Al pagar aceptas nuestras <a href="/es-terms.html">Condiciones</a> y <a href="/es-refunds.html">Devoluciones</a>.
-      Serás redirigido a PayPal para completar el pago.
-    </p>
+  <script>
+    const BASE = 75.00;
+    const EARLY = 11.25;
+    function fmt(n){ return "$" + n.toFixed(2); }
 
-    <button class="btn" type="submit">Continuar a PayPal</button>
-  </form>
-</div></div>
+    const els = {
+      membership: document.getElementById("membership"),
+      under18: document.getElementById("under18"),
+      code: document.getElementById("code"),
+      subtotal: document.getElementById("subtotal"),
+      earlyBird: document.getElementById("earlyBird"),
+      membershipAmt: document.getElementById("membershipAmt"),
+      codeAmt: document.getElementById("codeAmt"),
+      total: document.getElementById("total"),
+      form: document.getElementById("payForm")
+    };
 
-<script>
-(function(){
-  const form = document.getElementById('payForm');
-  const codeEl = document.getElementById('code');
-  const u18El = document.getElementById('under18');
-  const amountEl = document.getElementById('amount');
+    function recalc() {
+      const membershipOff = 0;
+      const codeOff = 0; // la lógica real del $1 vive en el servidor (Netlify), no aquí
+      const total = Math.max(0.5, BASE - EARLY - membershipOff - codeOff);
+      els.subtotal.textContent = fmt(BASE);
+      els.earlyBird.textContent = "- " + fmt(EARLY);
+      els.membershipAmt.textContent = "- " + fmt(membershipOff);
+      els.codeAmt.textContent = "- " + fmt(codeOff);
+      els.total.textContent = fmt(total);
+      return total;
+    }
+    recalc();
 
-  function computePrice(){
-    let price = 75.00;
-    const earlyBird = true;
-    if (earlyBird) price -= 11.25;
-    const code = (codeEl.value||"").trim();
-    if (code === "PR12345$$") price = 1.00;
-    if (price < 1) price = 1.00;
-    amountEl.value = price.toFixed(2);
-  }
-
-  u18El.addEventListener('change', computePrice);
-  codeEl.addEventListener('input', computePrice);
-  form.addEventListener('submit', computePrice);
-  computePrice();
-})();
-</script>
-</body></html>
+    els.form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const amount = recalc();
+      const params = new URLSearchParams({
+        item_name: "Mini Curso: Método Edunancial",
+        amount: amount.toFixed(2),
+        currency_code: "USD",
+        code: (els.code.value || "").trim(),
+        u18: els.under18.checked ? "1" : "0",
+        sku: "EDN-MINI-EM-001"
+      });
+      window.location.href = "/.netlify/functions/es-paypal-redirect?" + params.toString();
+    });
+  </script>
+</body>
+</html>
