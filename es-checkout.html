@@ -1,110 +1,70 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pago — Edunancial</title>
-  <link rel="stylesheet" href="/style.css" />
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-    .wrap { max-width: 860px; margin: 2rem auto; padding: 1rem; }
-    .card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
-    .h1 { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; }
-    .sub { color: #555; margin: 0 0 18px; }
-    label { display:block; font-weight:700; margin:.75rem 0 .25rem }
-    input[type="text"] { width:100%; padding:.7rem .9rem; border-radius:10px; border:1px solid #cfd4d9; }
-    .row { display:grid; grid-template-columns: 1fr; gap: 1rem; }
-    .btn { display:inline-block; background:#0b3d91; color:#fff; font-weight:800; padding:.9rem 1.1rem; border-radius:12px; border:none; cursor:pointer; }
-    .muted { font-size:.9rem; color:#666; margin-top:.6rem }
-    .bar { background:#b40000; color:#fff; padding:.6rem 1rem; text-align:center; font-weight:800; letter-spacing:.04em }
-    @media (min-width: 680px) { .row { grid-template-columns: 1fr 1fr; } }
-  </style>
-</head>
-<body>
-  <div class="bar">EDUNANCIAL • PAGO</div>
-  <div class="wrap">
-    <div class="card">
-      <div class="h1">Mini Curso: Método Edunancial</div>
-      <p class="sub">SKU: EDN-MINI-EM-001</p>
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Pago — Edunancial</title>
+<link rel="stylesheet" href="/style.css"/>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:860px;margin:2rem auto;padding:1rem}
+.card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.h1{font-size:1.6rem;font-weight:800;margin:0 0 6px}.sub{color:#555;margin:0 0 18px}
+label{display:block;font-weight:700;margin:.75rem 0 .25rem}
+input[type=text]{width:100%;padding:.7rem .9rem;border-radius:10px;border:1px solid #cfd4d9}
+.row{display:grid;grid-template-columns:1fr;gap:1rem}
+.btn{display:inline-block;background:#0b3d91;color:#fff;font-weight:800;padding:.9rem 1.1rem;border-radius:12px;border:none;cursor:pointer}
+.muted{font-size:.9rem;color:#666;margin-top:.6rem}.bar{background:#b40000;color:#fff;padding:.6rem 1rem;text-align:center;font-weight:800;letter-spacing:.04em}
+@media(min-width:680px){.row{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<div class="bar">EDUNANCIAL • PAGO</div>
+<div class="wrap"><div class="card">
+  <div class="h1">Mini Curso: Método Edunancial</div>
+  <p class="sub">SKU: EDN-MINI-EM-001</p>
 
-      <!--
-        ⚠️ Importante:
-        Este formulario NO usa el SDK de PayPal (evita bloqueadores).
-        Enviaremos directamente a la función Netlify: /.netlify/functions/es-paypal-redirect
-      -->
-      <form method="GET" action="/.netlify/functions/es-paypal-redirect" id="payForm">
-        <!-- Nombre del artículo que verá el comprador en PayPal -->
-        <input type="hidden" name="item_name" value="Mini Curso: Método Edunancial" />
-        <!-- Importe final en USD (puedes cambiarlo por JS si aplicas códigos de descuento) -->
-        <input type="hidden" name="amount" id="amount" value="63.75" />
-        <input type="hidden" name="currency" value="USD" />
+  <form id="payForm" method="GET" action="/.netlify/functions/es-paypal-redirect">
+    <input type="hidden" name="item_name" value="Mini Curso: Método Edunancial"/>
+    <input type="hidden" name="amount" id="amount" value="63.75"/>
+    <input type="hidden" name="currency_code" id="currency_code" value="USD"/>
 
-        <div class="row">
-          <div>
-            <label for="under18">Soy menor de 18 años</label>
-            <input type="checkbox" id="under18" />
-          </div>
-          <div>
-            <label for="code">Código de descuento / menor de 18</label>
-            <input id="code" type="text" autocomplete="off" placeholder="Introduce tu código (opcional)" />
-          </div>
-        </div>
-
-        <p class="muted">
-          Al pagar aceptas nuestras <a href="/es-terms.html">Condiciones</a> y <a href="/es-refunds.html">Devoluciones</a>.
-          Serás redirigido a PayPal para completar el pago.
-        </p>
-
-        <button class="btn" type="submit">Continuar a PayPal</button>
-      </form>
+    <div class="row">
+      <div>
+        <label for="under18">Soy menor de 18 años</label>
+        <input type="checkbox" id="under18"/>
+      </div>
+      <div>
+        <label for="code">Código de descuento / menor de 18</label>
+        <input id="code" type="text" autocomplete="off" placeholder="Introduce tu código (opcional)"/>
+      </div>
     </div>
-  </div>
 
-  <script>
-    // 👇 Lógica mínima de descuento en el cliente (no muestra códigos en la UI).
-    // Ajusta amount antes de enviar a la función.
-    (function () {
-      const form   = document.getElementById('payForm');
-      const codeEl = document.getElementById('code');
-      const u18El  = document.getElementById('under18');
-      const amount = document.getElementById('amount');
+    <p class="muted">
+      Al pagar aceptas nuestras <a href="/es-terms.html">Condiciones</a> y <a href="/es-refunds.html">Devoluciones</a>.
+      Serás redirigido a PayPal para completar el pago.
+    </p>
 
-      function computePrice() {
-        // Precio base del curso
-        let price = 75.00;
+    <button class="btn" type="submit">Continuar a PayPal</button>
+  </form>
+</div></div>
 
-        // Early-bird (si aplica)
-        const earlyBird = true; // cambia según campaña
-        if (earlyBird) price -= 11.25;
+<script>
+(function(){
+  const form = document.getElementById('payForm');
+  const codeEl = document.getElementById('code');
+  const u18El = document.getElementById('under18');
+  const amountEl = document.getElementById('amount');
 
-        // Menor de 18 (marcado)
-        if (u18El.checked) {
-          // tu descuento U18 (ejemplo: 0.00 aquí)
-          price -= 0.00;
-        }
+  function computePrice(){
+    let price = 75.00;
+    const earlyBird = true;
+    if (earlyBird) price -= 11.25;
+    const code = (codeEl.value||"").trim();
+    if (code === "PR12345$$") price = 1.00;
+    if (price < 1) price = 1.00;
+    amountEl.value = price.toFixed(2);
+  }
 
-        // Código de prueba (no se muestra en la página)
-        const code = (codeEl.value || '').trim();
-        if (code === 'PR12345$$') {
-          price = 1.00; // precio de prueba
-        }
-
-        // Nunca menos de 1.00
-        if (price < 1) price = 1.00;
-
-        amount.value = price.toFixed(2);
-      }
-
-      u18El.addEventListener('change', computePrice);
-      codeEl.addEventListener('input', computePrice);
-      form.addEventListener('submit', function(e){
-        computePrice();
-        // el formulario continúa a /.netlify/functions/es-paypal-redirect
-      });
-
-      // inicial
-      computePrice();
-    })();
-  </script>
-</body>
-</html>
+  u18El.addEventListener('change', computePrice);
+  codeEl.addEventListener('input', computePrice);
+  form.addEventListener('submit', computePrice);
+  computePrice();
+})();
+</script>
+</body></html>
