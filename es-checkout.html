@@ -1,140 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pago — Edunancial</title>
-
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;background:#fff}
-    main{max-width:720px;margin:24px auto 56px;padding:0 16px}
-    .card{border:1px solid #e6e6ea;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.04);background:#fff}
-    h1{margin:0 0 10px;font-size:22px}
-    .sku{color:#555;margin:0 0 16px}
-    label{display:block;margin:12px 0 6px;font-weight:700}
-    input[type="text"]{width:100%;padding:10px 12px;border:1px solid #cfcfd6;border-radius:8px;font-size:16px}
-    .inline{display:flex;align-items:center;gap:10px}
-    .inline input[type="checkbox"]{width:20px;height:20px}
-    .rows{margin-top:10px}
-    .row{display:flex;justify-content:space-between;margin:6px 0}
-    .total{font-weight:900;font-size:22px;margin-top:10px}
-    #paypal-button-container{margin-top:18px;min-height:45px}
-    .error{display:none;margin-top:14px;padding:12px;border-left:4px solid #c50000;background:#fff4f4;color:#6b1111;border-radius:6px}
-    .help{display:none;margin-top:12px;padding:12px;border:1px solid #e53935;background:#ffebee;color:#b71c1c;border-radius:6px;font-size:.95rem}
-    .agree{margin-top:14px;font-size:13px;color:#444}
-    .agree a{color:#0b2e4f;text-decoration:underline}
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .wrap { max-width: 860px; margin: 2rem auto; padding: 1rem; }
+    .card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+    .h1 { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; }
+    .sub { color: #555; margin: 0 0 18px; }
+    label { display:block; font-weight:700; margin:.75rem 0 .25rem }
+    input[type="text"] { width:100%; padding:.7rem .9rem; border-radius:10px; border:1px solid #cfd4d9; }
+    .row { display:grid; grid-template-columns: 1fr; gap: 1rem; }
+    .btn { display:inline-block; background:#0b3d91; color:#fff; font-weight:800; padding:.9rem 1.1rem; border-radius:12px; border:none; cursor:pointer; }
+    .muted { font-size:.9rem; color:#666; margin-top:.6rem }
+    .bar { background:#b40000; color:#fff; padding:.6rem 1rem; text-align:center; font-weight:800; letter-spacing:.04em }
+    @media (min-width: 680px) { .row { grid-template-columns: 1fr 1fr; } }
   </style>
-
-  <!-- PayPal JS SDK — LIVE -->
-  <script src="https://www.paypal.com/sdk/js?client-id=AX2d6TWWguiffoGPIhKQg5D4avOwsBajcdl-S2tJ7mAHckP_sxucKRXdCgYyyQRQYqKGvWlE2wx4GAxw&currency=USD&components=buttons"></script>
 </head>
 <body>
-  <header class="site-banner"></header>
-
-  <main>
+  <div class="bar">EDUNANCIAL • PAGO</div>
+  <div class="wrap">
     <div class="card">
-      <h1>Mini Curso: Método Edunancial</h1>
-      <p class="sku">SKU: <strong>EDN-MINI-EM-001</strong></p>
+      <div class="h1">Mini Curso: Método Edunancial</div>
+      <p class="sub">SKU: EDN-MINI-EM-001</p>
 
-      <div class="inline">
-        <input type="checkbox" id="under18">
-        <label for="under18" style="margin:0">Tengo menos de 18 años</label>
-      </div>
+      <!--
+        ⚠️ Importante:
+        Este formulario NO usa el SDK de PayPal (evita bloqueadores).
+        Enviaremos directamente a la función Netlify: /.netlify/functions/es-paypal-redirect
+      -->
+      <form method="GET" action="/.netlify/functions/es-paypal-redirect" id="payForm">
+        <!-- Nombre del artículo que verá el comprador en PayPal -->
+        <input type="hidden" name="item_name" value="Mini Curso: Método Edunancial" />
+        <!-- Importe final en USD (puedes cambiarlo por JS si aplicas códigos de descuento) -->
+        <input type="hidden" name="amount" id="amount" value="63.75" />
+        <input type="hidden" name="currency" value="USD" />
 
-      <label for="code">Código de Descuento / Menores de 18</label>
-      <input id="code" type="text" placeholder="Ingrese el código (PR12345$$ para prueba de $1)" inputmode="text" autocomplete="off"/>
+        <div class="row">
+          <div>
+            <label for="under18">Soy menor de 18 años</label>
+            <input type="checkbox" id="under18" />
+          </div>
+          <div>
+            <label for="code">Código de descuento / menor de 18</label>
+            <input id="code" type="text" autocomplete="off" placeholder="Introduce tu código (opcional)" />
+          </div>
+        </div>
 
-      <div class="rows">
-        <div class="row"><span>Subtotal</span>     <span id="subtotal">$75.00</span></div>
-        <div class="row"><span>Descuento early-bird</span> <span id="earlybird">-$11.25</span></div>
-        <div class="row"><span>Código menor de 18</span>  <span id="u18line">-$0.00</span></div>
-        <div class="row total"><span>Total</span>   <span id="total">$63.75</span></div>
-      </div>
+        <p class="muted">
+          Al pagar aceptas nuestras <a href="/es-terms.html">Condiciones</a> y <a href="/es-refunds.html">Devoluciones</a>.
+          Serás redirigido a PayPal para completar el pago.
+        </p>
 
-      <div id="paypal-button-container"></div>
-      <div id="pp-error" class="error"></div>
-      <div id="paypal-help" class="help">
-        ⚠️ El botón de PayPal no se cargó.<br><br>
-        Desactiva <strong>bloqueadores de anuncios</strong> o <strong>DNS privado</strong> en tu dispositivo/navegador,
-        o prueba cambiar entre Wi-Fi y datos móviles y vuelve a cargar la página.
-        (Permite scripts de <em>paypal.com</em>.)
-      </div>
-
-      <p class="agree">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
+        <button class="btn" type="submit">Continuar a PayPal</button>
+      </form>
     </div>
-  </main>
+  </div>
 
   <script>
-    const SUBTOTAL  = 75.00;
-    const EARLYBIRD = 11.25;
-    const TEST_CODE = "PR12345$$"; // para prueba de $1 con “menor de 18”
+    // 👇 Lógica mínima de descuento en el cliente (no muestra códigos en la UI).
+    // Ajusta amount antes de enviar a la función.
+    (function () {
+      const form   = document.getElementById('payForm');
+      const codeEl = document.getElementById('code');
+      const u18El  = document.getElementById('under18');
+      const amount = document.getElementById('amount');
 
-    const $u18   = document.getElementById('under18');
-    const $code  = document.getElementById('code');
-    const $uLine = document.getElementById('u18line');
-    const $tot   = document.getElementById('total');
+      function computePrice() {
+        // Precio base del curso
+        let price = 75.00;
 
-    function fmt(n){ return '$' + Number(n).toFixed(2); }
+        // Early-bird (si aplica)
+        const earlyBird = true; // cambia según campaña
+        if (earlyBird) price -= 11.25;
 
-    function calcTotal(){
-      let u18Disc = 0;
-      if ($u18.checked && $code.value.trim() === TEST_CODE) {
-        const current = SUBTOTAL - EARLYBIRD;
-        u18Disc = Math.max(0, current - 1.00);
-      }
-      $uLine.textContent = '-' + (u18Disc ? fmt(u18Disc).slice(1) : '0.00');
-      const total = Math.max(0.01, (SUBTOTAL - EARLYBIRD - u18Disc));
-      $tot.textContent = fmt(total);
-      return Number(total.toFixed(2));
-    }
-
-    document.getElementById('subtotal').textContent  = fmt(SUBTOTAL);
-    document.getElementById('earlybird').textContent = '-' + fmt(EARLYBIRD).slice(1);
-    ['change','keyup'].forEach(ev => {$u18.addEventListener(ev, calcTotal); $code.addEventListener(ev, calcTotal);});
-    calcTotal();
-
-    const $help = document.getElementById('paypal-help');
-    const $err  = document.getElementById('pp-error');
-
-    function renderPayPal(){
-      if (!window.paypal || !paypal.Buttons) { $help.style.display = 'block'; return; }
-      $help.style.display = 'none'; $err.style.display = 'none';
-
-      paypal.Buttons({
-        style:{ layout:'vertical', color:'gold', shape:'rect', label:'paypal' },
-        createOrder: (data, actions) => {
-          const amount = calcTotal();
-          return actions.order.create({
-            purchase_units: [{
-              description: 'Mini Curso Edunancial (ES)',
-              custom_id: 'EDN-MINI-EM-001',
-              amount: { currency_code:'USD', value: amount.toFixed(2) }
-            }]
-          });
-        },
-        onApprove: (data, actions) => actions.order.capture().then(details => {
-          const params = new URLSearchParams({
-            orderId: details.id || '',
-            paid:    calcTotal().toFixed(2),
-            payer:   (details.payer && details.payer.name && details.payer.name.given_name) || 'Cliente'
-          }).toString();
-          window.location.href = '/es-thank-you.html?' + params;
-        }),
-        onError: (err) => {
-          $err.textContent = 'Error de PayPal: ' + (err && err.message ? err.message : 'Error desconocido.');
-          $err.style.display = 'block';
-          $help.style.display = 'block';
+        // Menor de 18 (marcado)
+        if (u18El.checked) {
+          // tu descuento U18 (ejemplo: 0.00 aquí)
+          price -= 0.00;
         }
-      }).render('#paypal-button-container').catch(()=>{$help.style.display='block';});
-    }
 
-    document.addEventListener('DOMContentLoaded', function(){
-      renderPayPal();
-      setTimeout(function(){
-        const iframePresent = document.querySelector('#paypal-button-container iframe');
-        if (!iframePresent) $help.style.display = 'block';
-      }, 5000);
-    });
+        // Código de prueba (no se muestra en la página)
+        const code = (codeEl.value || '').trim();
+        if (code === 'PR12345$$') {
+          price = 1.00; // precio de prueba
+        }
+
+        // Nunca menos de 1.00
+        if (price < 1) price = 1.00;
+
+        amount.value = price.toFixed(2);
+      }
+
+      u18El.addEventListener('change', computePrice);
+      codeEl.addEventListener('input', computePrice);
+      form.addEventListener('submit', function(e){
+        computePrice();
+        // el formulario continúa a /.netlify/functions/es-paypal-redirect
+      });
+
+      // inicial
+      computePrice();
+    })();
   </script>
 </body>
 </html>
