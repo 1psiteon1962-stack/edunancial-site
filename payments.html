@@ -1,148 +1,29 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Checkout — Edunancial</title>
-<link rel="stylesheet" href="style.css" />
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Payments — Edunancial</title>
 <style>
-  :root{--red:#c00;--blue:#002b5c}
-  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f7f9}
-  header{background:var(--red);color:#000;text-align:center;padding:12px 16px;font-weight:800}
-  main{max-width:900px;margin:24px auto;padding:0 16px}
-  .card{background:#fff;border:1px solid #e3e3e3;border-radius:14px;padding:18px 20px;margin-bottom:16px}
-  .muted{opacity:.8}
-  .row{display:flex;gap:14px;flex-wrap:wrap}
-  .col{flex:1 1 260px}
-  label{display:block;font-weight:700;margin:.35rem 0}
-  select,input{width:100%;padding:.55rem .7rem;border:1px solid #ccc;border-radius:8px}
-  .total{font-size:1.25rem;font-weight:800}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#f6f7f9;color:#111}
+  .banner{background:#c11111;color:#000;padding:14px;text-align:center;font-weight:800}
+  .wrap{max-width:820px;margin:28px auto;padding:0 16px}
+  .card{background:#fff;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.08);padding:22px}
+  .err{background:#ffecec;border:1px solid #ffb5b5;padding:12px;border-radius:8px}
 </style>
-</head>
-<body>
-<header>EDUNANCIAL CHECKOUT</header>
-
-<main>
-  <div class="card">
-    <h1 id="title">Checkout</h1>
-    <p id="skuLine" class="muted"></p>
-  </div>
-
-  <div class="row">
-    <div class="col">
-      <div class="card">
-        <label for="membership">Membership</label>
-        <select id="membership">
-          <option value="0">None (0%)</option>
-          <option value="10">Standard (10% off)</option>
-          <option value="20">Pro (20% off)</option>
-        </select>
-
-        <label style="margin-top:.6rem"><input type="checkbox" id="under18" /> I am under 18</label>
-        <label for="code">Discount / Under-18 Code</label>
-        <input id="code" placeholder="Enter code (optional)" />
-
-        <p class="muted" style="margin-top:.5rem">Early-bird: 15% off through <b>09/26/2025</b> applies automatically.</p>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <div class="muted">Subtotal: <span id="subtotal">$0.00</span></div>
-        <div class="muted">Membership discount: <span id="membdisc">-$0.00</span></div>
-        <div class="muted">Early-bird: <span id="ebdisc">-$0.00</span></div>
-        <div class="muted">Under-18 code: <span id="u18disc">-$0.00</span></div>
-        <div class="total">Total: <span id="total">$0.00</span></div>
-      </div>
-
-      <div class="card">
-        <!-- THIS is where the PayPal button will render -->
-        <div id="paypal-button-container"></div>
-        <p class="muted" style="margin-top:.6rem">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
-      </div>
+</head><body>
+  <div class="banner">EDUNANCIAL • Payments</div>
+  <div class="wrap">
+    <div class="card">
+      <h1>Payments</h1>
+      <p>Use our checkout to complete your purchase.</p>
+      <p><a href="/checkout.html">Go to Checkout</a></p>
+      <div id="m"></div>
     </div>
   </div>
-</main>
-
 <script>
-  // Read URL params
-  const p = new URLSearchParams(location.search);
-  const item = decodeURIComponent(p.get('item') || 'Edunancial Item');
-  const sku  = p.get('sku') || 'EDN-ITEM';
-  const base = parseFloat(p.get('price') || '0');
-
-  document.getElementById('title').textContent = item;
-  document.getElementById('skuLine').textContent = `SKU: ${sku} • Total (before discounts): $${base.toFixed(2)}`;
-
-  const els = {
-    membership: document.getElementById('membership'),
-    under18: document.getElementById('under18'),
-    code: document.getElementById('code'),
-    subtotal: document.getElementById('subtotal'),
-    membdisc: document.getElementById('membdisc'),
-    ebdisc: document.getElementById('ebdisc'),
-    u18disc: document.getElementById('u18disc'),
-    total: document.getElementById('total')
-  };
-
-  const earlyBirdDeadline = new Date('2025-09-26T23:59:59-05:00');
-
-  function calc() {
-    const subtotal = base;
-    const membPct = parseFloat(els.membership.value || '0');
-    let membDisc = subtotal * (membPct/100);
-    let ebDisc = (new Date() <= earlyBirdDeadline) ? subtotal * 0.15 : 0;
-
-    let total = subtotal - membDisc - ebDisc;
-    let u18Disc = 0;
-    const code = (els.code.value || '').trim();
-
-    if (els.under18.checked && code === 'PR12345$$') {
-      u18Disc = Math.max(0, total - 1.00); // force total to $1.00
-      total = 1.00;
-    } else {
-      total = Math.max(0, total);
-    }
-
-    els.subtotal.textContent = `$${subtotal.toFixed(2)}`;
-    els.membdisc.textContent = `-$${membDisc.toFixed(2)}`;
-    els.ebdisc.textContent   = `-$${ebDisc.toFixed(2)}`;
-    els.u18disc.textContent  = `-$${u18Disc.toFixed(2)}`;
-    els.total.textContent    = `$${total.toFixed(2)}`;
-
-    return { total };
+  const p=new URLSearchParams(location.search); 
+  if(p.get('err')==='missing_business_email'){
+    document.getElementById('m').innerHTML=
+      '<p class="err"><strong>Setup needed:</strong> add <code>PAYPAL_BUSINESS_EMAIL</code> in Netlify → Site settings → Environment variables. Then redeploy.</p>';
   }
-
-  ['change','keyup'].forEach(ev=>{
-    els.membership.addEventListener(ev, calc);
-    els.under18.addEventListener(ev, calc);
-    els.code.addEventListener(ev, calc);
-  });
-  let totals = calc();
 </script>
-
-<!-- *** LIVE PayPal SDK (replace client-id!) *** -->
-<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_PAYPAL_CLIENT_ID_HERE&currency=USD&intent=capture"></script>
-<script>
-  function currentAmount(){ totals = calc(); return totals.total.toFixed(2); }
-
-  paypal.Buttons({
-    style:{layout:'vertical',color:'gold',shape:'rect',label:'paypal'},
-    createOrder: (data, actions) => actions.order.create({
-      purchase_units: [{
-        description: `${item} (SKU: ${sku})`,
-        amount: { currency_code: 'USD', value: currentAmount() }
-      }]
-    }),
-    onApprove: (data, actions) => actions.order.capture().then(details => {
-      const q = new URLSearchParams({
-        item, sku, paid: currentAmount(), orderId: data.orderID,
-        payer: details?.payer?.name?.given_name || 'Customer'
-      }).toString();
-      location.href = `thank-you.html?${q}`;
-    }),
-    onError: err => alert('Payment error: ' + (err?.message || err))
-  }).render('#paypal-button-container');
-</script>
-</body>
-</html>
+</body></html>
