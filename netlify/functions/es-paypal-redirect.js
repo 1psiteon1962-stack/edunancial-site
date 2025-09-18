@@ -1,6 +1,8 @@
 exports.handler = async (event) => {
   try {
-    const businessEmail = "YOUR_PAYPAL_BUSINESS_EMAIL@EXAMPLE.COM"; // mismo email
+    // Usa SOLO una línea:
+    const BUSINESS = "ZNHWXB2MVVFX8";                  // ✅ ID de comerciante (recomendado)
+    // const BUSINESS = "1psiteon1962@gmail.com";       // o tu correo de PayPal
 
     const qs = new URLSearchParams(event.queryStringParameters || {});
     const item_name = (qs.get("item_name") || "Curso de Edunancial").slice(0, 127);
@@ -9,7 +11,7 @@ exports.handler = async (event) => {
 
     const params = new URLSearchParams({
       cmd: "_xclick",
-      business: businessEmail,
+      business: BUSINESS,
       item_name,
       amount,
       currency_code,
@@ -22,7 +24,7 @@ exports.handler = async (event) => {
     });
 
     return { statusCode: 302, headers: { Location: `https://www.paypal.com/cgi-bin/webscr?${params}` }, body: "" };
-  } catch {
+  } catch (e) {
     return { statusCode: 500, body: "Server error." };
   }
 };
