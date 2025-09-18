@@ -1,52 +1,43 @@
-// /netlify/functions/es-paypal-redirect.js
-// Same as English, but returns to Spanish thank-you page.
+const BUSINESS_EMAIL = "edunancialinc@gmail.com";
+const RETURN_URL = "https://www.edunancial.com/es-thank-you.html";
+const CANCEL_URL = "https://www.edunancial.com/es-payments.html";
+
+function buildPayPalUrl(fields) {
+  const base = "https://www.paypal.com/cgi-bin/webscr";
+  const params = new URLSearchParams({
+    cmd: "_xclick",
+    business: BUSINESS_EMAIL,
+    item_name: fields.item_name || "Curso de Edunancial",
+    item_number: fields.sku || "SKU-N/A",
+    amount: fields.amount || "1.00",
+    currency_code: "USD",
+    no_note: "1",
+    no_shipping: "1",
+    return: RETURN_URL,
+    cancel_return: CANCEL_URL,
+    custom: fields.custom || ""
+  });
+  return `${base}?${params.toString()}`;
+}
+
+function parseBody(body) {
+  const p = new URLSearchParams(body || "");
+  return {
+    item_name: p.get("item_name"),
+    sku: p.get("sku"),
+    amount: p.get("amount"),
+    custom: p.get("custom")
+  };
+}
 
 exports.handler = async (event) => {
-  try {
-    const BUSINESS_EMAIL = "edunancialinc@gmail.com"; // your PayPal BUSINESS email
-    const RETURN_URL = "https://www.edunancial.com/es-thank-you.html";
-    const CANCEL_URL = "https://www.edunancial.com/es-checkout.html";
-    const CURRENCY = "USD";
-
-    const p = new URLSearchParams(event.queryStringParameters || {});
-
-    const item_name = p.get("item_name") || "Mini Curso: Método Edunancial";
-    const sku = p.get("sku") || "EDN-MINI-EM-001";
-
-    const BASE_PRICE = {
-      "EDN-MINI-EM-001": 75.0,
-    };
-    let amount = BASE_PRICE[sku] ?? 75.0;
-
-    const code = (p.get("code") || "").trim();
-    if (code === "PR12345$$") {
-      amount = 1.0;
-    }
-
-    const under18 = p.get("under18") === "true" ? "Sí" : "No";
-    const custom = JSON.stringify({ sku, code: code ? "applied" : "", under18 });
-
-    const paypalURL = new URL("https://www.paypal.com/cgi-bin/webscr");
-    paypalURL.search = new URLSearchParams({
-      cmd: "_xclick",
-      business: BUSINESS_EMAIL,
-      item_name,
-      item_number: sku,
-      amount: amount.toFixed(2),
-      currency_code: CURRENCY,
-      no_shipping: "1",
-      no_note: "1",
-      return: RETURN_URL,
-      cancel_return: CANCEL_URL,
-      custom,
-    }).toString();
-
-    return {
-      statusCode: 302,
-      headers: { Location: paypalURL.toString() },
-      body: "",
-    };
-  } catch (err) {
-    return { statusCode: 500, body: "Error del servidor." };
+  if (event.httpMethod === "GET") {
+    return { statusCode: 200, headers: { "content-type": "text/plain" }, body: "es-paypal-redirect: ok" };
   }
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, headers: { Allow: "GET, POST" }, body: "Method Not Allowed" };
+  }
+  const fields = parseBody(event.body);
+  const url = buildPayPalUrl(fields);
+  return { statusCode: 302, headers: { Location: url }, body: "" };
 };
