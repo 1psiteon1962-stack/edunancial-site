@@ -1,11 +1,7 @@
-# Netlify config — minimal + safe
-
 [build]
-  publish = "."
+publish = "."
+# no build command needed for a static HTML/JS site
 
-# Map /api/config -> /config.json (works for both www and root)
-[[redirects]]
-  from = "/api/config"
-  to   = "/config.json"
-  status = 200
-  force = true
+[functions]
+directory = "netlify/functions"
+node_bundler = "esbuild"
