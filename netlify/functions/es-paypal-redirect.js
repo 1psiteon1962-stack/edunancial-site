@@ -1,6 +1,6 @@
 exports.handler = async (event) => {
   const params = event.queryStringParameters || {};
-  const BUSINESS_EMAIL = "1psiteon1962@gmail.com";
+  const MERCHANT_ID = "ZNHWXB2MVVFX8";
 
   const BASE_PRICE = parseFloat(process.env.BASE_PRICE || "75.00");
   const CHILD_PRICE = parseFloat(process.env.CHILD_PRICE || "1.00");
@@ -19,7 +19,7 @@ exports.handler = async (event) => {
   const url =
     "https://www.paypal.com/cgi-bin/webscr" +
     `?cmd=_xclick` +
-    `&business=${encodeURIComponent(BUSINESS_EMAIL)}` +
+    `&business=${encodeURIComponent(MERCHANT_ID)}` +
     `&item_name=${encodeURIComponent(itemName)}` +
     `&amount=${encodeURIComponent(amount.toFixed(2))}` +
     `&currency_code=${encodeURIComponent(currency)}` +
