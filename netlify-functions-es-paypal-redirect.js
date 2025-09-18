@@ -1,119 +1,52 @@
-// File: netlify/functions/es-paypal-redirect.js
-// Purpose: Redirección a PayPal Standard (_xclick) con cálculos en el servidor (versión ES)
+// /netlify/functions/es-paypal-redirect.js
+// Same as English, but returns to Spanish thank-you page.
 
 exports.handler = async (event) => {
-  // ★ Usa tu Merchant ID de PayPal (más seguro que exponer el email)
-  const BUSINESS = "YOUR_PAYPAL_MERCHANT_ID"; // <-- pon aquí tu Merchant ID
+  try {
+    const BUSINESS_EMAIL = "edunancialinc@gmail.com"; // your PayPal BUSINESS email
+    const RETURN_URL = "https://www.edunancial.com/es-thank-you.html";
+    const CANCEL_URL = "https://www.edunancial.com/es-checkout.html";
+    const CURRENCY = "USD";
 
-  // URLs del sitio (ES)
-  const SITE = "https://www.edunancial.com";
-  const RETURN_URL = `${SITE}/es-thank-you.html`;   // página de gracias (ES)
-  const CANCEL_URL = `${SITE}/es-payments.html`;    // página de pagos/cancelación (ES)
+    const p = new URLSearchParams(event.queryStringParameters || {});
 
-  // Early-bird
-  const EARLY_BIRD_DEADLINE = new Date("2025-09-26T23:59:59-05:00");
-  const EARLY_BIRD_PCT = 0.15;
+    const item_name = p.get("item_name") || "Mini Curso: Método Edunancial";
+    const sku = p.get("sku") || "EDN-MINI-EM-001";
 
-  // Descuentos por membresía (acepta alias en ES)
-  const MEMBERSHIP_DISCOUNTS = {
-    none: 0,        // ninguna
-    basic: 0.05,    // básica
-    plus: 0.10,     // plus
-    pro: 0.20,      // pro
-  };
+    const BASE_PRICE = {
+      "EDN-MINI-EM-001": 75.0,
+    };
+    let amount = BASE_PRICE[sku] ?? 75.0;
 
-  // Catálogo (ES). Los SKU se mantienen iguales.
-  const CATALOG = {
-    "EDN-MINI-EM-001": { name: "Mini Curso: Método Edunancial", price: 75.0 },
-    // agrega más SKUs aquí si los necesitas
-  };
-
-  // Lee parámetros
-  const q = event.queryStringParameters || {};
-  const sku = (q.sku || "EDN-MINI-EM-001").trim();
-
-  // Normaliza membresía (acepta términos en ES)
-  const rawMembership = (q.membership || "none").toLowerCase();
-  const membership = normalizeMembership(rawMembership);
-
-  const isMinor = q.minor === "1" || q.minor === "true"; // “Soy menor de 18”
-  const code = (q.code || "").trim();                    // código de descuento
-
-  // Verifica SKU
-  const item = CATALOG[sku];
-  if (!item) {
-    return { statusCode: 400, body: `SKU desconocido: ${sku}` };
+    const code = (p.get("code") || "").trim();
+    if (code === "PR12345$$") {
+      amount = 1.0;
     }
 
-  // Precio base
-  let total = item.price;
+    const under18 = p.get("under18") === "true" ? "Sí" : "No";
+    const custom = JSON.stringify({ sku, code: code ? "applied" : "", under18 });
 
-  // Descuento por membresía
-  const memPct = MEMBERSHIP_DISCOUNTS[membership] || 0;
-  total = round2(total * (1 - memPct));
+    const paypalURL = new URL("https://www.paypal.com/cgi-bin/webscr");
+    paypalURL.search = new URLSearchParams({
+      cmd: "_xclick",
+      business: BUSINESS_EMAIL,
+      item_name,
+      item_number: sku,
+      amount: amount.toFixed(2),
+      currency_code: CURRENCY,
+      no_shipping: "1",
+      no_note: "1",
+      return: RETURN_URL,
+      cancel_return: CANCEL_URL,
+      custom,
+    }).toString();
 
-  // Early-bird
-  if (new Date() <= EARLY_BIRD_DEADLINE) {
-    total = round2(total * (1 - EARLY_BIRD_PCT));
+    return {
+      statusCode: 302,
+      headers: { Location: paypalURL.toString() },
+      body: "",
+    };
+  } catch (err) {
+    return { statusCode: 500, body: "Error del servidor." };
   }
-
-  // Código de prueba oculto (no aparece en el HTML de la página)
-  if (code === "PR12345$$") {
-    total = 1.0;
-  }
-
-  // Seguridad: mínimo
-  if (total < 0.5) total = 0.5;
-
-  // Construye URL de PayPal
-  const params = new URLSearchParams({
-    cmd: "_xclick",
-    business: BUSINESS,
-    item_name: item.name,
-    item_number: sku,
-    amount: total.toFixed(2),
-    currency_code: "USD",
-    return: RETURN_URL,
-    cancel_return: CANCEL_URL,
-    // Guarda metadatos útiles (no sensibles)
-    custom: JSON.stringify({
-      sku,
-      membership,
-      isMinor,
-      hadCode: Boolean(code),
-      ts: Date.now(),
-      lang: "es",
-    }),
-    no_shipping: "1",
-  });
-
-  const paypalURL = `https://www.paypal.com/cgi-bin/webscr?${params.toString()}`;
-
-  return {
-    statusCode: 302,
-    headers: { Location: paypalURL },
-    body: "",
-  };
 };
-
-// Helpers
-function round2(n) {
-  return Math.round((n + Number.EPSILON) * 100) / 100;
-}
-
-function normalizeMembership(val) {
-  // Admite valores en ES e inglés
-  const map = {
-    "ninguna": "none",
-    "none": "none",
-
-    "basica": "basic",
-    "básica": "basic",
-    "basic": "basic",
-
-    "plus": "plus",
-
-    "pro": "pro",
-  };
-  return map[val] || "none";
-}
