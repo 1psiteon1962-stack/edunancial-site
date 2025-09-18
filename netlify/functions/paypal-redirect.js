@@ -1,37 +1,22 @@
-export default async (req, context) => {
-  // Only allow GET
-  if (req.method !== "GET") {
-    return new Response("Method Not Allowed", { status: 405 });
-  }
+// netlify/functions/paypal-redirect.js
 
-  // Required params we expect from /checkout.html links
-  const url = new URL(req.url);
-  const item_name = url.searchParams.get("item_name");
-  const amount    = url.searchParams.get("amount");   // e.g. "63.75"
-  const currency  = url.searchParams.get("currency") || "USD";
+exports.handler = async (event) => {
+  const params = event.queryStringParameters;
 
-  if (!item_name || !amount) {
-    return new Response("Bad Request", { status: 400 });
-  }
+  const businessEmail = "YOUR_PAYPAL_BUSINESS_EMAIL"; // 👈 replace with your real PayPal email
+  const itemName = encodeURIComponent(params.item_name || "Edunancial Course");
+  const amount = encodeURIComponent(params.amount || "1.00");
+  const currency = encodeURIComponent(params.currency || "USD");
 
-  // Your PayPal BUSINESS email (receiver)
-  const business = "YOUR_PAYPAL_BUSINESS_EMAIL@EXAMPLE.COM";
+  const returnUrl = "https://www.edunancial.com/thank-you.html";
+  const cancelUrl = "https://www.edunancial.com/payments.html";
 
-  // Where PayPal returns/cancels after payment
-  const returnUrl       = "https://www.edunancial.com/thank-you.html";
-  const cancelReturnUrl = "https://www.edunancial.com/checkout.html";
+  const paypalUrl = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${businessEmail}&item_name=${itemName}&amount=${amount}&currency_code=${currency}&return=${encodeURIComponent(returnUrl)}&cancel_return=${encodeURIComponent(cancelUrl)}`;
 
-  // Classic form-based checkout endpoint
-  const paypal = new URL("https://www.paypal.com/cgi-bin/webscr");
-  paypal.searchParams.set("cmd", "_xclick");
-  paypal.searchParams.set("business", business);
-  paypal.searchParams.set("item_name", item_name);
-  paypal.searchParams.set("amount", amount);
-  paypal.searchParams.set("currency_code", currency);
-  paypal.searchParams.set("no_shipping", "1");
-  paypal.searchParams.set("no_note", "1");
-  paypal.searchParams.set("return", returnUrl);
-  paypal.searchParams.set("cancel_return", cancelReturnUrl);
-
-  return Response.redirect(paypal.toString(), 302);
+  return {
+    statusCode: 302,
+    headers: {
+      Location: paypalUrl,
+    },
+  };
 };
