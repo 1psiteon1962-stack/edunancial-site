@@ -1,22 +1,29 @@
-// netlify/functions/paypal-redirect.js
-
 exports.handler = async (event) => {
-  const params = event.queryStringParameters;
+  try {
+    // >>> REPLACE THIS with your PayPal BUSINESS email (receiver of funds)
+    const businessEmail = "YOUR_PAYPAL_BUSINESS_EMAIL@EXAMPLE.COM";
 
-  const businessEmail = "YOUR_PAYPAL_BUSINESS_EMAIL"; // 👈 replace with your real PayPal email
-  const itemName = encodeURIComponent(params.item_name || "Edunancial Course");
-  const amount = encodeURIComponent(params.amount || "1.00");
-  const currency = encodeURIComponent(params.currency || "USD");
+    const qs = new URLSearchParams(event.queryStringParameters || {});
+    const item_name = (qs.get("item_name") || "Edunancial Course").slice(0, 127);
+    const amount = Number(qs.get("amount") || "1.00").toFixed(2);
+    const currency_code = (qs.get("currency_code") || "USD").toUpperCase();
 
-  const returnUrl = "https://www.edunancial.com/thank-you.html";
-  const cancelUrl = "https://www.edunancial.com/payments.html";
+    const params = new URLSearchParams({
+      cmd: "_xclick",
+      business: businessEmail,
+      item_name,
+      amount,
+      currency_code,
+      no_shipping: "1",
+      no_note: "1",
+      bn: "Edunancial_BuyNow_NonHosted",
+      return: "https://www.edunancial.com/thank-you.html",
+      cancel_return: "https://www.edunancial.com/checkout.html",
+      notify_url: "https://www.edunancial.com/ipn"
+    });
 
-  const paypalUrl = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${businessEmail}&item_name=${itemName}&amount=${amount}&currency_code=${currency}&return=${encodeURIComponent(returnUrl)}&cancel_return=${encodeURIComponent(cancelUrl)}`;
-
-  return {
-    statusCode: 302,
-    headers: {
-      Location: paypalUrl,
-    },
-  };
+    return { statusCode: 302, headers: { Location: `https://www.paypal.com/cgi-bin/webscr?${params}` }, body: "" };
+  } catch {
+    return { statusCode: 500, body: "Server error." };
+  }
 };
