@@ -1,122 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Checkout — Edunancial</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/style.css"/>
   <style>
-    :root { --brand:#b10606; --ink:#0b1320; --muted:#637287; --card:#ffffff; --bg:#f6f7fb; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--ink); background:var(--bg); }
-    .bar { background:var(--brand); color:#fff; font-weight:700; letter-spacing:.08em; text-align:center; padding:.8rem 1rem; }
-    .wrap { max-width:960px; margin:1.25rem auto; padding:0 1rem; }
-    .card { background:var(--card); border-radius:14px; box-shadow:0 4px 16px rgba(10,20,40,.06); padding:1.25rem; }
-    h1 { margin:.25rem 0 1rem; font-size:1.35rem; }
-    .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
-    label { display:block; font-size:.9rem; color:var(--muted); margin-bottom:.35rem; }
-    input[type="text"], select { width:100%; height:42px; border:1px solid #cfd6e4; border-radius:10px; padding:0 .8rem; font-size:1rem; }
-    .check { display:flex; align-items:center; gap:.5rem; margin:.35rem 0 1rem; }
-    .muted { color:var(--muted); font-size:.9rem; }
-    .btn { display:inline-block; border:0; border-radius:12px; background:#0a2d57; color:#fff; padding:.85rem 1rem; font-weight:700; cursor:pointer; }
-    .right { text-align:right; }
-    table { width:100%; border-collapse:collapse; margin:1rem 0 .75rem; }
-    td { padding:.35rem 0; }
-    td:last-child { text-align:right; }
-    .total { font-weight:800; font-size:1.1rem; }
+    .card{max-width:760px;margin:2rem auto;background:#fff;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.07);padding:1.25rem}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row > *{flex:1}
+    label{display:block;font-weight:600;margin:.5rem 0 .25rem}
+    input[type="text"]{width:100%;padding:.7rem;border:1px solid #cfd6df;border-radius:10px}
+    .btn{display:inline-block;padding:.8rem 1rem;border-radius:12px;border:0;background:#0b3472;color:#fff;font-weight:700;cursor:pointer}
+    .hdr{background:#b30b0b;color:#fff;text-align:center;font-weight:800;padding:.6rem 0;letter-spacing:.05em}
+    .muted{color:#5d6876;font-size:.9rem}
   </style>
 </head>
 <body>
-  <div class="bar">EDUNANCIAL • CHECKOUT</div>
-  <div class="wrap">
-    <div class="card">
-      <h1>Mini Course: Edunancial Method</h1>
-      <div class="muted" style="margin-bottom:.75rem">SKU: EDN-MINI-EM-001</div>
+  <div class="hdr">EDUNANCIAL • CHECKOUT</div>
 
-      <form id="payForm" autocomplete="off">
-        <div class="row">
-          <div>
-            <label for="membership">Membership</label>
-            <select id="membership" name="membership">
-              <option value="none" selected>None (0%)</option>
-            </select>
-          </div>
-          <div class="check">
-            <input id="under18" type="checkbox" />
-            <label for="under18" style="margin:0">I am under 18</label>
-          </div>
+  <main class="card">
+    <h2>Mini Course: Edunancial Method</h2>
+    <p class="muted">SKU: EDN-MINI-EM-001</p>
+
+    <form method="GET" action="/.netlify/functions/paypal-redirect-email">
+      <input type="hidden" name="item_name" value="Mini Course: Edunancial Method"/>
+      <input type="hidden" name="currency_code" value="USD"/>
+
+      <div class="row">
+        <div>
+          <label for="under18">I am under 18</label>
+          <input id="under18" type="checkbox" aria-label="Under 18 (optional)"/>
         </div>
-
-        <label for="code">Discount / Under-18 Code</label>
-        <input id="code" name="code" type="text" inputmode="text" placeholder="Enter discount code (optional)" />
-
-        <table>
-          <tbody>
-            <tr><td>Subtotal</td><td id="subtotal">$75.00</td></tr>
-            <tr><td>Early-bird</td><td id="earlyBird">- $11.25</td></tr>
-            <tr><td>Membership</td><td id="membershipAmt">- $0.00</td></tr>
-            <tr><td>Under-18 code</td><td id="codeAmt">- $0.00</td></tr>
-            <tr class="total"><td>Total</td><td id="total">$63.75</td></tr>
-          </tbody>
-        </table>
-
-        <div class="muted">By paying you agree to our
-          <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
-          You’ll be redirected to PayPal to complete payment.
+        <div>
+          <label for="code">Discount / Under-18 Code</label>
+          <input id="code" name="code" type="text" autocomplete="off" placeholder="Enter discount code (optional)"/>
         </div>
+      </div>
 
-        <div class="right" style="margin-top:.75rem">
-          <button class="btn" type="submit">Continue to PayPal</button>
-        </div>
-      </form>
-    </div>
-  </div>
+      <p class="muted">
+        By paying you agree to our
+        <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+        You’ll be redirected to PayPal to complete payment.
+      </p>
 
-  <script>
-    // pricing model (no external JS)
-    const BASE = 75.00;
-    const EARLY = 11.25; // early-bird dollars off
-    function fmt(n){ return "$" + n.toFixed(2); }
-
-    const els = {
-      membership: document.getElementById("membership"),
-      under18: document.getElementById("under18"),
-      code: document.getElementById("code"),
-      subtotal: document.getElementById("subtotal"),
-      earlyBird: document.getElementById("earlyBird"),
-      membershipAmt: document.getElementById("membershipAmt"),
-      codeAmt: document.getElementById("codeAmt"),
-      total: document.getElementById("total"),
-      form: document.getElementById("payForm")
-    };
-
-    function recalc() {
-      const membershipOff = 0; // currently no membership options
-      const codeOff = 0; // visual only; the real $1 logic happens server-side to keep the code secret
-      const total = Math.max(0.5, BASE - EARLY - membershipOff - codeOff);
-      els.subtotal.textContent = fmt(BASE);
-      els.earlyBird.textContent = "- " + fmt(EARLY);
-      els.membershipAmt.textContent = "- " + fmt(membershipOff);
-      els.codeAmt.textContent = "- " + fmt(codeOff);
-      els.total.textContent = fmt(total);
-      return total;
-    }
-    recalc();
-
-    els.form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const amount = recalc(); // regular amount (server may override to $1 if code is valid)
-      const params = new URLSearchParams({
-        item_name: "Mini Course: Edunancial Method",
-        amount: amount.toFixed(2),
-        currency_code: "USD",
-        code: (els.code.value || "").trim(),
-        u18: els.under18.checked ? "1" : "0",
-        sku: "EDN-MINI-EM-001"
-      });
-      // Redirect to Netlify function (server will validate the secret code)
-      window.location.href = "/.netlify/functions/paypal-redirect?" + params.toString();
-    });
-  </script>
+      <button class="btn" type="submit">Continue to PayPal</button>
+    </form>
+  </main>
 </body>
 </html>
