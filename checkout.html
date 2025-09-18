@@ -1,155 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Checkout — Edunancial</title>
-  <style>
-    :root { --c-dark:#0b2239; --c-red:#c01717; --c-bg:#f6f7f9; --c-card:#ffffff; }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color: var(--c-dark); background: var(--c-bg);
-    }
-    .bar { background: var(--c-red); color:#fff; padding: 10px 16px; text-align:center; font-weight: 700; }
-    .wrap { max-width: 880px; margin: 26px auto; padding: 0 14px; }
-    .card {
-      background: var(--c-card); border-radius: 14px; padding: 18px;
-      box-shadow: 0 8px 30px rgba(0,0,0,.06);
-    }
-    h1 { margin: 0 0 6px; font-size: 26px; line-height: 1.2; }
-    .sku { color:#6b7280; font-size: 14px; margin-bottom: 12px; }
-    label, .label { font-weight: 600; margin: 12px 0 6px; display:block; }
-    input[type="text"], select {
-      width: 100%; border: 1px solid #d1d5db; border-radius: 10px; padding: 12px 14px; font-size: 16px;
-      background:#fff; outline: none;
-    }
-    input[type="checkbox"] { width: 18px; height: 18px; vertical-align: middle; }
-    .row { display: grid; grid-template-columns: 1fr; gap: 14px; }
-    .summary {
-      margin-top: 18px; background:#fbfcfe; border:1px solid #e5e7eb; border-radius: 12px; padding: 14px;
-    }
-    .sum-line { display:flex; justify-content: space-between; margin: 6px 0; }
-    .total { font-size: 22px; font-weight: 800; }
-    .muted { color:#6b7280; font-size: 14px; }
-    .btn {
-      display:inline-block; border:0; border-radius:12px; padding:14px 18px; font-weight:800; font-size:16px;
-      background:#0b5cab; color:#fff; text-decoration:none; cursor:pointer;
-    }
-    .btn:disabled { opacity:.6; cursor:not-allowed; }
-    .actions { margin-top:18px; display:flex; justify-content:flex-start; gap:12px; }
-  </style>
-</head>
-<body>
-  <div class="bar">EDUNANCIAL CHECKOUT</div>
-  <div class="wrap">
-    <form id="checkoutForm" class="card" method="GET" action="/.netlify/functions/paypal-redirect">
-      <h1>Mini Course: Edunancial Method</h1>
-      <div class="sku">SKU: EDN-MINI-EM-001</div>
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Checkout — Edunancial</title>
+<link rel="stylesheet" href="/style.css"/>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:860px;margin:2rem auto;padding:1rem}
+.card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.h1{font-size:1.6rem;font-weight:800;margin:0 0 6px}.sub{color:#555;margin:0 0 18px}
+label{display:block;font-weight:700;margin:.75rem 0 .25rem}
+input[type=text]{width:100%;padding:.7rem .9rem;border-radius:10px;border:1px solid #cfd4d9}
+.row{display:grid;grid-template-columns:1fr;gap:1rem}
+.btn{display:inline-block;background:#0b3d91;color:#fff;font-weight:800;padding:.9rem 1.1rem;border-radius:12px;border:none;cursor:pointer}
+.muted{font-size:.9rem;color:#666;margin-top:.6rem}.bar{background:#b40000;color:#fff;padding:.6rem 1rem;text-align:center;font-weight:800;letter-spacing:.04em}
+@media(min-width:680px){.row{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<div class="bar">EDUNANCIAL • CHECKOUT</div>
+<div class="wrap"><div class="card">
+  <div class="h1">Mini Course: Edunancial Method</div>
+  <p class="sub">SKU: EDN-MINI-EM-001</p>
 
-      <!-- Hidden fields PayPal redirect needs -->
-      <input type="hidden" name="item_name" value="Mini Course: Edunancial Method" />
-      <input type="hidden" name="currency" value="USD" />
-      <input type="hidden" id="amountField" name="amount" value="63.75" />
+  <form id="payForm" method="GET" action="/.netlify/functions/paypal-redirect">
+    <input type="hidden" name="item_name" value="Mini Course: Edunancial Method"/>
+    <input type="hidden" name="amount" id="amount" value="63.75"/>
+    <input type="hidden" name="currency_code" id="currency_code" value="USD"/>
 
-      <!-- (Optional) membership – defaults to None -->
-      <label for="membership">Membership</label>
-      <select id="membership">
-        <option value="none" selected>None (0%)</option>
-        <!-- If you later have real members, add: <option value="member">Member (10%)</option> -->
-      </select>
-
-      <label class="label"><input type="checkbox" id="u18" />&nbsp; I am under 18</label>
-
-      <label for="code">Discount / Under-18 Code</label>
-      <input id="code" type="text" inputmode="text" autocomplete="off" spellcheck="false"
-             placeholder="Enter discount code (optional)" />
-
-      <div class="summary" aria-live="polite">
-        <div class="sum-line"><span>Subtotal</span><span id="s-subtotal">$75.00</span></div>
-        <div class="sum-line"><span>Early-bird</span><span id="s-early">-$11.25</span></div>
-        <div class="sum-line"><span>Membership</span><span id="s-member">-$0.00</span></div>
-        <div class="sum-line"><span>Under-18 code</span><span id="s-u18">-$0.00</span></div>
-        <div class="sum-line total"><span>Total</span><span id="s-total">$63.75</span></div>
-        <div class="muted">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>. You’ll be redirected to PayPal to complete payment.</div>
+    <div class="row">
+      <div>
+        <label for="under18">I am under 18</label>
+        <input type="checkbox" id="under18"/>
       </div>
-
-      <div class="actions">
-        <button id="payBtn" class="btn" type="submit">Continue to PayPal</button>
+      <div>
+        <label for="code">Discount / Under-18 Code</label>
+        <input id="code" type="text" autocomplete="off" placeholder="Enter discount code (optional)"/>
       </div>
-    </form>
-  </div>
+    </div>
 
-  <script>
-    // ---- Pricing & code rules (edit here if your prices change) ----
-    const BASE_PRICE = 75.00;
-    const EARLY_BIRD = 11.25; // fixed discount shown earlier
-    const MEMBER_PCT = 0.10;  // if you ever enable "member" option
-    // Secret test/under-18 code logic:
-    // - we do NOT display the code anywhere; when entered, we collapse to $1.00 total.
-    // - change the string below to your real code; case-sensitive.
-    const UNDER18_CODE = "PR12345$$$";
+    <p class="muted">
+      By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+      You’ll be redirected to PayPal to complete payment.
+    </p>
 
-    const $ = (sel) => document.querySelector(sel);
-    const fmt = (n) => `$${n.toFixed(2)}`;
+    <button class="btn" type="submit">Continue to PayPal</button>
+  </form>
+</div></div>
 
-    const els = {
-      membership: $("#membership"),
-      u18: $("#u18"),
-      code: $("#code"),
-      subtotal: $("#s-subtotal"),
-      early: $("#s-early"),
-      member: $("#s-member"),
-      u18line: $("#s-u18"),
-      total: $("#s-total"),
-      amountField: $("#amountField"),
-      form: $("#checkoutForm"),
-      payBtn: $("#payBtn"),
-    };
+<script>
+(function(){
+  const form = document.getElementById('payForm');
+  const codeEl = document.getElementById('code');
+  const u18El = document.getElementById('under18');
+  const amountEl = document.getElementById('amount');
 
-    function recalc() {
-      let subtotal = BASE_PRICE;
-      let early = EARLY_BIRD;
-      let memberDisc = 0;
+  function computePrice(){
+    let price = 75.00;
+    const earlyBird = true;
+    if (earlyBird) price -= 11.25;
+    if (u18El.checked) { /* optionally apply U18 discount */ }
+    const code = (codeEl.value||"").trim();
+    if (code === "PR12345$$") price = 1.00;
+    if (price < 1) price = 1.00;
+    amountEl.value = price.toFixed(2);
+  }
 
-      // membership (currently none; add <option value="member"> to enable)
-      if (els.membership.value === "member") {
-        memberDisc = (subtotal - early) * MEMBER_PCT;
-      }
-
-      // preliminary total before under-18 code
-      let total = subtotal - early - memberDisc;
-
-      // under-18 test code collapses to $1.00 (doesn't display the code anywhere)
-      let u18Disc = 0;
-      if (els.u18.checked && els.code.value === UNDER18_CODE) {
-        u18Disc = total - 1.00;
-        total = 1.00;
-      }
-
-      // update UI
-      els.subtotal.textContent = fmt(subtotal);
-      els.early.textContent    = `-${fmt(early).slice(1)}`;
-      els.member.textContent   = `-${fmt(memberDisc).slice(1)}`;
-      els.u18line.textContent  = `-${fmt(u18Disc).slice(1)}`;
-      els.total.textContent    = fmt(total);
-
-      // set amount that goes to the serverless redirect
-      els.amountField.value = total.toFixed(2);
-      els.payBtn.disabled = total <= 0;
-    }
-
-    ["change","input"].forEach(evt => {
-      els.membership.addEventListener(evt, recalc);
-      els.u18.addEventListener(evt, recalc);
-      els.code.addEventListener(evt, recalc);
-    });
-    recalc();
-
-    // Extra safety: prevent blank/whitespace code from being auto-treated as valid
-    els.form.addEventListener("submit", (e) => {
-      // Nothing special—amount is already set. Keep submit GET → function.
-    });
-  </script>
-</body>
-</html>
+  u18El.addEventListener('change', computePrice);
+  codeEl.addEventListener('input', computePrice);
+  form.addEventListener('submit', computePrice);
+  computePrice();
+})();
+</script>
+</body></html>
