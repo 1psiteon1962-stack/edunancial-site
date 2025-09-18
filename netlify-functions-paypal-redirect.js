@@ -1,96 +1,65 @@
-// File: netlify/functions/paypal-redirect.js
-// Purpose: Server-side price calc + redirect to PayPal Standard (_xclick)
+// /netlify/functions/paypal-redirect.js
+// Minimal server redirect to classic PayPal "Buy Now".
+// Enforces the $1 test code PR12345$$ on the server so the code never has to be shown on the page.
 
 exports.handler = async (event) => {
-  // ★ Using your PayPal Merchant ID for security (no email exposure)
-  const BUSINESS = "YOUR_PAYPAL_MERCHANT_ID";  // already on file
+  try {
+    // --- CONFIG (edit the email only if needed) ---
+    const BUSINESS_EMAIL = "edunancialinc@gmail.com"; // your PayPal BUSINESS email
+    const RETURN_URL = "https://www.edunancial.com/thank-you.html";
+    const CANCEL_URL = "https://www.edunancial.com/checkout-mini-en.html";
+    const CURRENCY = "USD";
 
-  // Site URLs
-  const SITE = "https://www.edunancial.com";
-  const RETURN_URL = `${SITE}/thank-you.html`;
-  const CANCEL_URL = `${SITE}/payments.html`;
+    // --- read incoming params from the checkout form ---
+    const p = new URLSearchParams(event.queryStringParameters || {});
 
-  // Early-bird deadline
-  const EARLY_BIRD_DEADLINE = new Date("2025-09-26T23:59:59-05:00");
-  const EARLY_BIRD_PCT = 0.15;
+    // product metadata (optional display for PayPal screen)
+    const item_name = p.get("item_name") || "Mini Course: Edunancial Method";
+    const sku = p.get("sku") || "EDN-MINI-EM-001";
 
-  // Membership discounts
-  const MEMBERSHIP_DISCOUNTS = {
-    none: 0,
-    basic: 0.05,
-    plus: 0.10,
-    pro: 0.20,
-  };
+    // base price (server truth, don’t trust client)
+    // If you add more SKUs, extend this map.
+    const BASE_PRICE = {
+      "EDN-MINI-EM-001": 75.0,
+    };
+    let amount = BASE_PRICE[sku] ?? 75.0;
 
-  // Catalog
-  const CATALOG = {
-    "EDN-MINI-EM-001": { name: "Mini Course: Edunancial Method", price: 75.0 },
-    // You can add more SKUs here later
-  };
+    // discounts coming from the form (early-bird, membership, etc.) are *not* trusted here.
+    // Only enforce the private $1 test code server-side:
+    const code = (p.get("code") || "").trim();
+    if (code === "PR12345$$") {
+      amount = 1.0; // force $1 total for this hidden test code
+    }
 
-  // Read query params
-  const q = event.queryStringParameters || {};
-  const sku = (q.sku || "EDN-MINI-EM-001").trim();
-  const membership = (q.membership || "none").toLowerCase();
-  const isMinor = q.minor === "1" || q.minor === "true";
-  const code = (q.code || "").trim();
+    // under-18 flag (purely informational for your records, not changing price here)
+    const under18 = p.get("under18") === "true" ? "Yes" : "No";
+    const custom = JSON.stringify({ sku, code: code ? "applied" : "", under18 });
 
-  // Item lookup
-  const item = CATALOG[sku];
-  if (!item) {
-    return { statusCode: 400, body: `Unknown SKU: ${sku}` };
+    // Build classic PayPal GET (no external JS required)
+    const paypalURL = new URL("https://www.paypal.com/cgi-bin/webscr");
+    paypalURL.search = new URLSearchParams({
+      cmd: "_xclick",
+      business: BUSINESS_EMAIL,
+      item_name,
+      item_number: sku,   // shows as SKU
+      amount: amount.toFixed(2),
+      currency_code: CURRENCY,
+      no_shipping: "1",
+      no_note: "1",
+      return: RETURN_URL,
+      cancel_return: CANCEL_URL,
+      custom,             // travels back in IPN/receipt detail
+    }).toString();
+
+    return {
+      statusCode: 302,
+      headers: { Location: paypalURL.toString() },
+      body: "",
+    };
+  } catch (err) {
+    return {
+      statusCode: 500,
+      body: "Server error.",
+    };
   }
-
-  // Start with base price
-  let total = item.price;
-
-  // Membership discount
-  const memPct = MEMBERSHIP_DISCOUNTS[membership] || 0;
-  total = round2(total * (1 - memPct));
-
-  // Early-bird
-  if (new Date() <= EARLY_BIRD_DEADLINE) {
-    total = round2(total * (1 - EARLY_BIRD_PCT));
-  }
-
-  // Special test code (not visible in page HTML)
-  if (code === "PR12345$$") {
-    total = 1.0;
-  }
-
-  // Safety: minimum charge
-  if (total < 0.5) total = 0.5;
-
-  // Build PayPal redirect URL
-  const params = new URLSearchParams({
-    cmd: "_xclick",
-    business: BUSINESS,
-    item_name: item.name,
-    item_number: sku,
-    amount: total.toFixed(2),
-    currency_code: "USD",
-    return: RETURN_URL,
-    cancel_return: CANCEL_URL,
-    custom: JSON.stringify({
-      sku,
-      membership,
-      isMinor,
-      hadCode: Boolean(code),
-      ts: Date.now(),
-    }),
-    no_shipping: "1",
-  });
-
-  const paypalURL = `https://www.paypal.com/cgi-bin/webscr?${params.toString()}`;
-
-  return {
-    statusCode: 302,
-    headers: { Location: paypalURL },
-    body: "",
-  };
 };
-
-// Round helper
-function round2(n) {
-  return Math.round((n + Number.EPSILON) * 100) / 100;
-}
