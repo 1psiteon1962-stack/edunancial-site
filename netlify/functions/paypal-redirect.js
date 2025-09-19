@@ -1,31 +1,53 @@
+// /.netlify/functions/paypal-redirect.js
+// Node 18+ Netlify function
 exports.handler = async (event) => {
-  const params = event.queryStringParameters || {};
-  const MERCHANT_ID = "ZNHWXB2MVVFX8"; // your PayPal Merchant ID
+  try {
+    const params = new URLSearchParams(event.rawQuery || "");
+    const sku = (params.get("sku") || "").toUpperCase();
 
-  const BASE_PRICE = parseFloat(process.env.BASE_PRICE || "75.00");
-  const CHILD_PRICE = parseFloat(process.env.CHILD_PRICE || "1.00");
-  const PROMO_CODE = (process.env.PROMO_CODE || "").trim();
+    // --- SET THIS ONCE (stays server-side) ---
+    // Your PayPal merchant email (or Merchant ID) used for Standard Checkout
+    const BUSINESS = "1psiteon1962@gmail.com"; // safe to keep here; never appears in your HTML
 
-  const itemName = params.item_name || "Mini Course: Edunancial Method";
-  const currency = params.currency_code || "USD";
-  const code = (params.code || "").trim();
+    // --- Product catalog (extend anytime) ---
+    const items = {
+      // Membership
+      "EDN-MEM-001": { name: "Edunancial Membership (Monthly)", amount: "5.00" },
 
-  let amount = BASE_PRICE;
-  if (PROMO_CODE && code && code === PROMO_CODE) amount = CHILD_PRICE;
+      // Courses
+      "EDN-CRS-MIX-001": { name: "The Edunancial Method — Mini Course", amount: "75.00" },
+      "EDN-CRS-BO-001":  { name: "In-Depth Business Formation", amount: "199.00" },
 
-  const returnUrl = "https://www.edunancial.com/thank-you";
-  const cancelUrl = "https://www.edunancial.com/cancelled";
+      // Books
+      "EDN-BK-RE-001": { name: "Buying and Flipping Houses for Profit (Print)", amount: "18.99" },
+      "EDN-BK-PA-001": { name: "Options Trading — Puts, Calls & Strategy (Print)", amount: "18.99" },
+      "EDN-BK-BO-001": { name: "Business is About Making Profit (Print)", amount: "18.99" },
+    };
 
-  const url =
-    "https://www.paypal.com/cgi-bin/webscr" +
-    `?cmd=_xclick` +
-    `&business=${encodeURIComponent(MERCHANT_ID)}` +
-    `&item_name=${encodeURIComponent(itemName)}` +
-    `&amount=${encodeURIComponent(amount.toFixed(2))}` +
-    `&currency_code=${encodeURIComponent(currency)}` +
-    `&no_shipping=1` +
-    `&return=${encodeURIComponent(returnUrl)}` +
-    `&cancel_return=${encodeURIComponent(cancelUrl)}`;
+    const item = items[sku];
+    if (!item) {
+      return { statusCode: 302, headers: { Location: "/checkout.html?error=invalid_sku" } };
+    }
 
-  return { statusCode: 302, headers: { Location: url } };
+    // Classic, reliable PayPal Standard “Buy Now” link (server builds it; page never shows secrets)
+    const p = new URLSearchParams({
+      cmd: "_xclick",
+      business: BUSINESS,
+      item_name: item.name,
+      amount: item.amount,
+      currency_code: "USD",
+      // Optional: send the SKU back to your Thank You page
+      custom: sku,
+      // Where PayPal returns after payment / cancel (these are your existing pages)
+      return: "https://www.edunancial.com/thank-you.html",
+      cancel_return: "https://www.edunancial.com/checkout.html?status=cancel",
+      // BN code helps PayPal analytics; harmless to keep
+      bn: "PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest"
+    });
+
+    const url = `https://www.paypal.com/cgi-bin/webscr?${p.toString()}`;
+    return { statusCode: 302, headers: { Location: url } };
+  } catch (e) {
+    return { statusCode: 302, headers: { Location: "/checkout.html?error=server" } };
+  }
 };
