@@ -1,46 +1,60 @@
-<!doctype html><html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Books — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-<div id="sitebar"></div><script src="/header.js"></script>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="sitebar"></div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const s=document.getElementById("sitebar");
+  s.innerHTML=`
+    <header>EDUNANCIAL</header>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/payments.html">Payments</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/refunds.html">Refunds</a>
+    </nav>
+    <div class="toggle" onclick="location.href='/es-books.html'">ES</div>
+  `;
+});
+</script>
 
-<div class="container">
+<main style="padding:1rem;">
   <h1>Books</h1>
 
-  <div class="grid cols-3">
-    <div class="card">
-      <div class="tag">Red • Real Estate</div>
-      <h3>Buying and Flipping Houses for Profit</h3>
-      <p>Author: <strong>Waldemar M. Caban</strong></p>
-      <p>SKU: <strong>EDN-BK-RE-001</strong></p>
-      <p>Print: <strong>$18.99</strong></p>
-      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Buy with PayPal</a>
-    </div>
+  <section class="card">
+    <h3>Red • Real Estate</h3>
+    <h2>Buying and Flipping Houses for Profit</h2>
+    <p>Author: <b>Waldemar M. Caban</b></p>
+    <p>SKU: <code>EDN-BK-RE-001</code></p>
+    <p>Print: <b>$18.99</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Buy with PayPal</a></p>
+  </section>
 
-    <div class="card">
-      <div class="tag">White • Paper Assets</div>
-      <h3>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h3>
-      <p>Author: <strong>Waldemar M. Caban</strong></p>
-      <p>SKU: <strong>EDN-BK-PA-001</strong></p>
-      <p>Print: <strong>$18.99</strong></p>
-      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Buy with PayPal</a>
-    </div>
+  <section class="card">
+    <h3>White • Paper Assets</h3>
+    <h2>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h2>
+    <p>Author: <b>Waldemar M. Caban</b></p>
+    <p>SKU: <code>EDN-BK-PA-001</code></p>
+    <p>Print: <b>$18.99</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Buy with PayPal</a></p>
+  </section>
 
-    <div class="card">
-      <div class="tag">Blue • Business</div>
-      <h3>Business is About Making Profit</h3>
-      <p>Author: <strong>Waldemar M. Caban</strong></p>
-      <p>SKU: <strong>EDN-BK-BO-001</strong></p>
-      <p>Print: <strong>$18.99</strong></p>
-      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Buy with PayPal</a>
-    </div>
-  </div>
+  <section class="card">
+    <h3>Blue • Business</h3>
+    <h2>Business is About Making Profit</h2>
+    <p>Author: <b>Waldemar M. Caban</b></p>
+    <p>SKU: <code>EDN-BK-BO-001</code></p>
+    <p>Print: <b>$18.99</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Buy with PayPal</a></p>
+  </section>
 
-  <p style="margin-top:10px;color:var(--muted)">eBook & audio to follow.</p>
-</div>
-
-<footer><div class="wrap">© Edunancial</div></footer>
+  <p><i>eBook & audio to follow.</i></p>
+</main>
 </body></html>
