@@ -1,86 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Books — Edunancial</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Books by Waldemar M. Caban, JD MA — Learn, invest, profit one page at a time.">
+  <link rel="preconnect" href="https://www.paypal.com">
+  <style>
+    :root{--brand:#c81414;--ink:#111;--card:#fff;--muted:#666;--radius:14px}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#f7f7f7}
+    header{background:var(--brand);color:#000;padding:16px 20px;text-align:center;font-weight:800;letter-spacing:.5px}
+    .wrap{max-width:1100px;margin:28px auto;padding:0 16px}
+    .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .toggle a{display:inline-block;margin-left:8px;padding:8px 12px;border:2px solid #000;border-radius:10px;text-decoration:none;color:#000;background:#fff}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 6px 18px rgba(0,0,0,.08);padding:18px}
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;border:1px solid #000;background:#fff}
+    .cover{height:190px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;border:2px solid #000;margin:10px 0}
+    .cover.red{background:#ffefef} .cover.white{background:#fff} .cover.blue{background:#eef4ff}
+    .title{font-size:20px;font-weight:800;margin:6px 0 2px}
+    .by{color:var(--muted);font-size:14px;margin:0 0 6px}
+    .sku{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:#333;margin-bottom:8px}
+    .prices{font-size:14px;margin:8px 0 12px}
+    .btn{display:inline-block;background:#0a3d91;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}
+    .bundle{background:#e9ffe9;border:2px dashed #0b6b0b;padding:14px;border-radius:var(--radius);text-align:center}
+    footer{margin:30px 0 40px;text-align:center;color:#666;font-size:14px}
+    /* small */
+    @media (max-width:420px){.cover{height:160px;font-size:24px}}
+  </style>
 </head>
 <body>
+  <header>EDUNANCIAL • BOOKS</header>
 
-  <!-- Site-wide header with toggle -->
-  <header class="site-header">
-    <div class="site-header__bar">
-      <div class="site-header__brand">EDUNANCIAL</div>
-      <nav class="lang-switch" aria-label="Language">
-        <span class="current" lang="en" aria-current="page">English</span>
-        <span class="sep" aria-hidden="true">|</span>
-        <a href="/es-books.html" hreflang="es" lang="es">Español</a>
+  <div class="wrap">
+    <div class="topbar">
+      <div><span class="pill">Learn. Invest. Profit — One Page at a Time.</span></div>
+      <nav class="toggle" aria-label="Language toggle">
+        <span>Language:</span>
+        <a href="/books.html" aria-current="page">EN</a>
+        <a href="/es-books.html">ES</a>
       </nav>
     </div>
-    <nav class="main-nav" aria-label="Primary">
-      <a href="/index.html">Home</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/books.html">Books</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main class="container">
-    <h1>Paperbacks</h1>
-    <p>Order our paperback titles directly. You’ll complete payment on PayPal.</p>
-
-    <div class="grid cols-3">
-      <!-- Book 1 -->
-      <article class="card">
-        <div class="book-title">Mini Course: Edunancial Method (Paperback)</div>
-        <div class="sku">SKU: EDN-BK-EM-001</div>
-        <div class="price">$19.00</div>
-        <div class="payline">
-          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
-            <input type="hidden" name="amount" value="19.00" />
-            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
-          </form>
-          <button class="btn btn-ghost" onclick="copySku('EDN-BK-EM-001')">Copy SKU</button>
+    <h2>Real Estate</h2>
+    <div class="grid">
+      <!-- Buying & Flipping Houses (RED) -->
+      <section class="card">
+        <div class="pill">Print • eBook • Audio</div>
+        <div class="cover red" aria-label="Red book cover">REAL ESTATE</div>
+        <div class="title">Buying and Flipping Houses for Profit</div>
+        <p class="by">by Waldemar M. Caban, JD MA</p>
+        <div class="sku">SKU: EDN-BK-RE-001</div>
+        <div class="prices">
+          <div>Print: <strong>$18.99</strong></div>
+          <div>eBook: $3.99 • Audio: $14.99</div>
         </div>
-      </article>
+        <!-- PayPal Buy (Print) -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8"><!-- Merchant ID -->
+          <input type="hidden" name="item_name" value="Buying and Flipping Houses for Profit (Print)">
+          <input type="hidden" name="item_number" value="EDN-BK-RE-001">
+          <input type="hidden" name="amount" value="18.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="shipping" value="0">
+          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+          <button class="btn" type="submit">Buy Print on PayPal</button>
+        </form>
+      </section>
 
-      <!-- Book 2 -->
-      <article class="card">
-        <div class="book-title">Tax Liens & Deeds (Intro) — Paperback</div>
-        <div class="sku">SKU: EDN-BK-TL-001</div>
-        <div class="price">$29.00</div>
-        <div class="payline">
-          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
-            <input type="hidden" name="amount" value="29.00" />
-            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
-          </form>
-          <button class="btn btn-ghost" onclick="copySku('EDN-BK-TL-001')">Copy SKU</button>
+      <!-- Tax Liens & Deeds (RED) -->
+      <section class="card">
+        <div class="pill">Print • eBook • Audio</div>
+        <div class="cover red" aria-label="Red book cover">REAL ESTATE</div>
+        <div class="title">Building Wealth with Tax Liens &amp; Tax Deeds</div>
+        <p class="by">by Waldemar M. Caban, JD MA</p>
+        <div class="sku">SKU: EDN-BK-RE-002</div>
+        <div class="prices">
+          <div>Print: <strong>$18.99</strong></div>
+          <div>eBook: $3.99 • Audio: $14.99</div>
         </div>
-      </article>
-
-      <!-- Book 3 -->
-      <article class="card">
-        <div class="book-title">Stocks for Teens & Parents (Intro) — Paperback</div>
-        <div class="sku">SKU: EDN-BK-ST-001</div>
-        <div class="price">$29.00</div>
-        <div class="payline">
-          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
-            <input type="hidden" name="amount" value="29.00" />
-            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
-          </form>
-          <button class="btn btn-ghost" onclick="copySku('EDN-BK-ST-001')">Copy SKU</button>
-        </div>
-      </article>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Building Wealth with Tax Liens &amp; Tax Deeds (Print)">
+          <input type="hidden" name="item_number" value="EDN-BK-RE-002">
+          <input type="hidden" name="amount" value="18.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="shipping" value="0">
+          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+          <button class="btn" type="submit">Buy Print on PayPal</button>
+        </form>
+      </section>
     </div>
-  </main>
 
-  <script>
-    function copySku(sku) {
-      navigator.clipboard.writeText(sku).then(() => {
-        alert('SKU copied: ' + sku);
-      });
-    }
-  </script>
+    <h2 style="margin-top:28px">Paper Assets</h2>
+    <div class="grid">
+      <!-- Options Trading (WHITE) -->
+      <section class="card">
+        <div class="pill">Print • eBook • Audio</div>
+        <div class="cover white" aria-label="White book cover">PAPER ASSETS</div>
+        <div class="title">Options Trading: Your Guide to Puts, Calls, and Smart Strategy</div>
+        <p class="by">by Waldemar M. Caban, JD MA</p>
+        <div class="sku">SKU: EDN-BK-PA-001</div>
+        <div class="prices">
+          <div>Print: <strong>$18.99</strong></div>
+          <div>eBook: $3.99 • Audio: $14.99</div>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Options Trading (Print)">
+          <input type="hidden" name="item_number" value="EDN-BK-PA-001">
+          <input type="hidden" name="amount" value="18.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="shipping" value="0">
+          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+          <button class="btn" type="submit">Buy Print on PayPal</button>
+        </form>
+      </section>
+    </div>
+
+    <h2 style="margin-top:28px">Business Ownership</h2>
+    <div class="grid">
+      <!-- Business is About Making Profit (BLUE) -->
+      <section class="card">
+        <div class="pill">Print • eBook • Audio</div>
+        <div class="cover blue" aria-label="Blue book cover">BUSINESS</div>
+        <div class="title">Business is About Making Profit</div>
+        <p class="by">by Waldemar M. Caban, JD MA</p>
+        <div class="sku">SKU: EDN-BK-BO-001</div>
+        <div class="prices">
+          <div>Print: <strong>$18.99</strong></div>
+          <div>eBook: $3.99 • Audio: $14.99</div>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Business is About Making Profit (Print)">
+          <input type="hidden" name="item_number" value="EDN-BK-BO-001">
+          <input type="hidden" name="amount" value="18.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="shipping" value="0">
+          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+          <button class="btn" type="submit">Buy Print on PayPal</button>
+        </form>
+      </section>
+
+      <!-- Creative RE Financing (BLUE) -->
+      <section class="card">
+        <div class="pill">Print • eBook • Audio</div>
+        <div class="cover blue" aria-label="Blue book cover">BUSINESS</div>
+        <div class="title">Creative Real Estate Financing</div>
+        <p class="by">by Waldemar M. Caban, JD MA</p>
+        <div class="sku">SKU: EDN-BK-BO-002</div>
+        <div class="prices">
+          <div>Print: <strong>$9.99</strong></div>
+          <div>eBook: $2.99 • Audio: $6.99</div>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Creative Real Estate Financing (Print)">
+          <input type="hidden" name="item_number" value="EDN-BK-BO-002">
+          <input type="hidden" name="amount" value="9.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="shipping" value="0">
+          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+          <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+          <button class="btn" type="submit">Buy Print on PayPal</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Bundle -->
+    <div class="bundle" style="margin-top:26px">
+      <strong>Get All 3 Core Titles and Save 20%</strong> + Pamphlet
+      <div style="margin:10px 0">Bundle SKU: <code>EDN-BK-BUNDLE-001</code> • <strong>$45.57</strong> (was $56.97)</div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:inline-block">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="item_name" value="Edunancial Core Books Bundle (Print)">
+        <input type="hidden" name="item_number" value="EDN-BK-BUNDLE-001">
+        <input type="hidden" name="amount" value="45.57">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="shipping" value="0">
+        <input type="hidden" name="tax" value="0">
+        <input type="hidden" name="return" value="https://www.edunancial.com/thank-you.html">
+        <input type="hidden" name="cancel_return" value="https://www.edunancial.com/books.html">
+        <button class="btn" type="submit">Buy Bundle on PayPal</button>
+      </form>
+    </div>
+
+    <footer>
+      Want Spanish? Use the language toggle above. By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+    </footer>
+  </div>
 </body>
 </html>
