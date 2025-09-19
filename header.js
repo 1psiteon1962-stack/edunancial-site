@@ -1,52 +1,71 @@
 <script>
-/* Global red header + EN/ES toggle (works on every page that includes this file) */
-(function () {
-  const pairs = [
-    ["index.html","es-index.html"],
-    ["books.html","es-books.html"],
-    ["courses.html","es-courses.html"],
-    ["pricing.html","es-pricing.html"],
-    ["checkout.html","es-checkout.html"],
-    ["thank-you.html","gracias.html"],
-    ["terms.html","es-terms.html"],
-    ["refunds.html","es-refunds.html"],
-    ["privacy.html","es-privacy.html"]
-  ];
+// EDUNANCIAL site header with EN/ES toggle (red bar, black letters)
+(() => {
+  const CONTAINER_ID = "sitebar";
 
-  const path = location.pathname.replace(/\/+$/,'');
-  const file = path.split('/').pop() || "index.html";
-  const find = pairs.find(([en,es]) => en===file || es===file);
-  const isES = file.startsWith("es-");
-  const enPath = "/" + (find ? find[0] : "index.html");
-  const esPath = "/" + (find ? find[1] : "es-index.html");
+  function ensureContainer() {
+    let el = document.getElementById(CONTAINER_ID);
+    if (!el) {
+      el = document.createElement("div");
+      el.id = CONTAINER_ID;
+      document.body.prepend(el);
+    }
+    return el;
+  }
 
-  const wrap = document.createElement("div");
-  wrap.id = "edn-sitebar";
+  function fileFromPath(p) {
+    const last = p.split("/").pop();
+    if (!last || last === "") return "index.html";
+    return last;
+  }
+
+  function buildTargetPath(toEs) {
+    const p = window.location.pathname;
+    const dir = p.substring(0, p.lastIndexOf("/") + 1);
+    const file = fileFromPath(p);
+    const isEs = file.startsWith("es-");
+    if (toEs) {
+      return isEs ? p : dir + "es-" + file;
+    } else {
+      return isEs ? dir + file.replace(/^es-/, "") : p;
+    }
+  }
+
+  const wrap = ensureContainer();
+  const isSpanish = fileFromPath(location.pathname).startsWith("es-");
+  const brandHref = isSpanish ? "/es-index.html" : "/index.html";
+
   wrap.innerHTML = `
-    <style>
-      #edn-sitebar{background:#c30000;color:#000;position:sticky;top:0;z-index:9999;border-bottom:3px solid #000}
-      #edn-sitebar .row{max-width:1100px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px}
-      #edn-sitebar .brand{font-weight:900;letter-spacing:.5px;text-decoration:none;color:#000;background:#ffdfdf;padding:6px 10px;border-radius:6px}
-      #edn-sitebar nav{margin-left:auto;display:flex;gap:12px}
-      #edn-sitebar nav a{color:#000;text-decoration:none;font-weight:800}
-      #edn-sitebar .lang a{display:inline-block;border:2px solid #000;border-radius:10px;padding:5px 10px;text-decoration:none;color:#000;background:#fff;font-weight:800}
-      #edn-sitebar .lang .active{background:#000;color:#fff}
-      @media (max-width:640px){#edn-sitebar nav{display:none}}
-    </style>
-    <div class="row">
-      <a class="brand" href="/index.html">EDUNANCIAL</a>
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="/books.html">Books</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/pricing.html">Pricing</a>
-      </nav>
+    <div id="edn-sitebar">
+      <div class="brand"><a href="${brandHref}">EDUNANCIAL</a></div>
       <div class="lang">
-        <a href="${enPath}" class="${!isES?'active':''}">EN</a>
-        <a href="${esPath}" class="${isES?'active':''}">ES</a>
+        <a href="#" data-go="en" class="${!isSpanish ? "active" : ""}">EN</a>
+        <a href="#" data-go="es" class="${isSpanish ? "active" : ""}">ES</a>
       </div>
     </div>
   `;
-  document.body.insertBefore(wrap, document.body.firstChild);
+
+  wrap.querySelector('[data-go="es"]').addEventListener("click", (e) => {
+    e.preventDefault();
+    location.href = buildTargetPath(true);
+  });
+  wrap.querySelector('[data-go="en"]').addEventListener("click", (e) => {
+    e.preventDefault();
+    location.href = buildTargetPath(false);
+  });
+
+  const css = document.createElement("style");
+  css.textContent = `
+    #edn-sitebar{position:sticky;top:0;z-index:9999;background:#c00000;color:#000;
+      display:flex;justify-content:space-between;align-items:center;
+      padding:8px 12px;border-bottom:3px solid #000}
+    #edn-sitebar a{color:#000;text-decoration:none}
+    #edn-sitebar .brand{font-weight:800;letter-spacing:1px}
+    #edn-sitebar .lang a{font-weight:700;border:1px solid #000;
+      padding:4px 8px;border-radius:6px;margin-left:6px}
+    #edn-sitebar .lang a.active{background:#000;color:#fff}
+    @media (max-width:480px){#edn-sitebar .brand{font-size:14px}}
+  `;
+  document.head.appendChild(css);
 })();
 </script>
