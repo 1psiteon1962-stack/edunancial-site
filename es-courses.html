@@ -1,64 +1,70 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<!doctype html><html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Edunancial — Cursos</title>
-<link rel="stylesheet" href="style.css" />
-<style>
-  body{margin:0;font-family:Arial,Helvetica,sans-serif}
-  header{background:#c00;color:#000;padding:1rem;text-align:center}
-  header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-  main{max-width:1000px;margin:2rem auto;padding:0 1rem}
-  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
-  .badge.blue{background:#0d47a1;color:#fff;border-color:#0d47a1}
-  .badge.red{background:#c00;color:#000;border-color:#000}
-  .badge.white{background:#fff;color:#000;border-color:#000}
-  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-  p small{opacity:.8}
-</style>
-</head>
+<link rel="preconnect" href="https://www.paypal.com"><link rel="stylesheet" href="/style.css"></head>
 <body>
-<header>
-  <div>EDUNANCIAL • Educación financiera práctica</div>
-  <nav>
-    <a href="es-our-story.html">Nuestra historia</a>
-    <a href="es-books.html">Libros</a>
-    <a href="es-courses.html">Cursos</a>
-    <a href="es-mini-courses.html">Mini-cursos</a>
-    <a href="es-pricing.html">Precios</a>
-    <a href="es-contact.html">Contacto</a>
-    <a href="courses.html">EN</a>
-  </nav>
-</header>
+<div id="sitebar"></div><script src="/header.js"></script>
 
+<header class="banner"><h1>Cursos</h1></header>
 <main>
-  <h2>Cursos</h2>
+  <div class="notice small">Plan de ingresos: 4 cursos a $199 (3K inscripciones ≈ $597k), mini-curso a $75 (3K ≈ $225k), libros y membresías cubren el resto para superar $1M.</div>
 
-  <article class="card">
-    <h3>Formación Empresarial en Profundidad <span class="badge blue">Azul</span></h3>
-    <p><strong>Fecha:</strong> 12 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <p><strong>Precio base:</strong> $199.00</p>
-    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Formaci%C3%B3n%20Empresarial&sku=EDN-CRS-BF-001&price=199.00">Inscribirse</a></p>
-    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
-  </article>
+  <div class="grid">
+    <section class="card">
+      <div class="pill">Azul</div>
+      <div class="title">Formación Empresarial en Profundidad</div>
+      <div class="sku">SKU: EDN-CRS-BO-001-ES</div>
+      <div class="prices"><strong>$199.00</strong> • Fechas: 12, 19, 26 de oct (2 PM)</div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Formación Empresarial en Profundidad (Curso)">
+        <input type="hidden" name="item_number" value="EDN-CRS-BO-001-ES">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Inscribirse con PayPal</button>
+      </form>
+    </section>
 
-  <article class="card">
-    <h3>Tax Liens y Tax Deeds <span class="badge red">Rojo</span></h3>
-    <p><strong>Fecha:</strong> 19 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <p><strong>Precio base:</strong> $179.00</p>
-    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Tax%20Liens%20y%20Tax%20Deeds&sku=EDN-CRS-TAX-001&price=179.00">Inscribirse</a></p>
-    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
-  </article>
+    <section class="card">
+      <div class="pill">Rojo • Blanco • Azul</div>
+      <div class="title">El Método Edunancial — Mini Curso</div>
+      <div class="sku">SKU: EDN-CRS-MIX-001-ES</div>
+      <div class="prices"><strong>$75.00</strong> • Fecha: 5 de oct (2 PM)</div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Método Edunancial — Mini Curso">
+        <input type="hidden" name="item_number" value="EDN-CRS-MIX-001-ES">
+        <input type="hidden" name="amount" value="75.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Inscribirse con PayPal</button>
+      </form>
+    </section>
 
-  <article class="card">
-    <h3>Invertir para niños: elegir, comprar y vender acciones <span class="badge white">Blanco</span></h3>
-    <p><strong>Fecha:</strong> 26 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <p><strong>Precio base:</strong> $149.00</p>
-    <p><a class="btn" href="es-payments.html?item=Curso%3A%20Invertir%20para%20ni%C3%B1os&sku=EDN-CRS-INV-001&price=149.00">Inscribirse</a></p>
-    <p><small>Los descuentos de membresía y early-bird se aplican en el pago.</small></p>
-  </article>
+    <section class="card">
+      <div class="pill">Rojo</div>
+      <div class="title">Gravámenes y Escrituras de Impuestos</div>
+      <div class="sku">SKU: EDN-CRS-RE-001-ES</div>
+      <div class="prices"><strong>$199.00</strong></div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Gravámenes y Escrituras (Curso)">
+        <input type="hidden" name="item_number" value="EDN-CRS-RE-001-ES">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Inscribirse con PayPal</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="pill">Blanco</div>
+      <div class="title">Enseñando Acciones a los Niños</div>
+      <div class="sku">SKU: EDN-CRS-PA-001-ES</div>
+      <div class="prices"><strong>$199.00</strong></div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Enseñando Acciones a los Niños (Curso)">
+        <input type="hidden" name="item_number" value="EDN-CRS-PA-001-ES">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Inscribirse con PayPal</button>
+      </form>
+    </section>
+  </div>
 </main>
-</body>
-</html>
+</body></html>
