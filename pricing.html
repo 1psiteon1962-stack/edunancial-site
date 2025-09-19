@@ -1,25 +1,72 @@
-<!doctype html><html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pricing — Edunancial</title><link rel="stylesheet" href="/style.css"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing — Edunancial</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
-<div id="sitebar"></div><script src="/header.js"></script>
+  <div id="sitebar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const bar = document.getElementById("sitebar");
+      const target = location.pathname.endsWith("pricing.html") ? "es-pricing.html" : "es-index.html";
+      bar.innerHTML = `
+        <header>EDUNANCIAL</header>
+        <nav>
+          <a href="/index.html">Home</a>
+          <a href="/books.html">Books</a>
+          <a href="/courses.html">Courses</a>
+          <a href="/pricing.html">Pricing</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/refunds.html">Refunds</a>
+        </nav>
+        <div class="toggle" onclick="location.href='/${target}'">ES</div>
+      `;
+    });
+  </script>
+  <main style="padding:1rem;">
+    <h2>Pricing</h2>
 
-<div class="container">
-  <h1>Pricing</h1>
-  <div class="card">
-    <table class="table">
-      <thead><tr><th>Item</th><th>SKU</th><th>Price</th></tr></thead>
-      <tbody>
-        <tr><td>Mini Course — The Edunancial Method</td><td>EDN-CRS-MIX-001</td><td>$75.00</td></tr>
-        <tr><td>In-Depth Business Formation (Blue)</td><td>EDN-CRS-BO-001</td><td>$199.00</td></tr>
-        <tr><td>Book: Buying & Flipping Houses (Red)</td><td>EDN-BK-RE-001</td><td>$18.99</td></tr>
-        <tr><td>Book: Options Trading (White)</td><td>EDN-BK-PA-001</td><td>$18.99</td></tr>
-        <tr><td>Book: Business is About Making Profit (Blue)</td><td>EDN-BK-BO-001</td><td>$18.99</td></tr>
-      </tbody>
-    </table>
-    <p style="color:var(--muted)">Prices may change; checkout always shows the current total.</p>
-  </div>
-</div>
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>Membership</h3>
+      <p><b>Everyone</b> — one low price.</p>
+      <p><b>$5.00 / month</b> • SKU: <code>EDN-MEM-001</code></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Subscribe with PayPal</a></p>
+      <small>Price may increase in the future; active members keep current pricing until they cancel.</small>
+    </section>
 
-<footer><div class="wrap">© Edunancial</div></footer>
-</body></html>
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>Mini Course</h3>
+      <p>SKU: <code>EDN-CRS-MIX-001</code></p>
+      <p><b>$75.00</b></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Enroll with PayPal</a></p>
+    </section>
+
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>In-Depth Business Formation</h3>
+      <p>SKU: <code>EDN-CRS-BO-001</code></p>
+      <p><b>$199.00</b></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-BO-001">Enroll with PayPal</a></p>
+    </section>
+
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px">
+      <h3>Books (Print)</h3>
+      <ul>
+        <li>Buying &amp; Flipping Houses for Profit — $18.99 • SKU: <code>EDN-BK-RE-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Buy with PayPal</a>
+        </li>
+        <li>Options Trading — Puts, Calls &amp; Strategy — $18.99 • SKU: <code>EDN-BK-PA-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Buy with PayPal</a>
+        </li>
+        <li>Business is About Making Profit — $18.99 • SKU: <code>EDN-BK-BO-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Buy with PayPal</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
