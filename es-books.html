@@ -1,59 +1,68 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Libros — Edunancial</title>
-  <meta name="description" content="Libros de Waldemar M. Caban, JD MA — Aprende, invierte y gana, una página a la vez.">
-  <link rel="preconnect" href="https://www.paypal.com">
-  <style>
-    :root{--brand:#c81414;--ink:#111;--card:#fff;--muted:#666;--radius:14px}
-    *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#f7f7f7}
-    header{background:var(--brand);color:#000;padding:16px 20px;text-align:center;font-weight:800;letter-spacing:.5px}
-    .wrap{max-width:1100px;margin:28px auto;padding:0 16px}
-    .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
-    .toggle a{display:inline-block;margin-left:8px;padding:8px 12px;border:2px solid #000;border-radius:10px;text-decoration:none;color:#000;background:#fff}
-    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 6px 18px rgba(0,0,0,.08);padding:18px}
-    .pill{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;border:1px solid #000;background:#fff}
-    .cover{height:190px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;border:2px solid #000;margin:10px 0}
-    .cover.red{background:#ffefef} .cover.white{background:#fff} .cover.blue{background:#eef4ff}
-    .title{font-size:20px;font-weight:800;margin:6px 0 2px}
-    .by{color:var(--muted);font-size:14px;margin:0 0 6px}
-    .sku{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:#333;margin-bottom:8px}
-    .prices{font-size:14px;margin:8px 0 12px}
-    .btn{display:inline-block;background:#0a3d91;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}
-    .bundle{background:#e9ffe9;border:2px dashed #0b6b0b;padding:14px;border-radius:var(--radius);text-align:center}
-    footer{margin:30px 0 40px;text-align:center;color:#666;font-size:14px}
-    @media (max-width:420px){.cover{height:160px;font-size:24px}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Libros — Edunancial</title>
+<meta name="description" content="Libros de Waldemar M. Caban, JD MA — Aprende, invierte y gana, una página a la vez.">
+<link rel="preconnect" href="https://www.paypal.com">
+<style>
+  :root{--brand:#c81414;--ink:#000;--card:#fff;--muted:#444;--radius:14px}
+  *{box-sizing:border-box}
+  body{margin:0;background:#f7f7f7;color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif}
+  .sitebar{background:var(--brand);color:#000}
+  .sitebar .row{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:12px 16px}
+  .brand{font-weight:900;letter-spacing:.5px}
+  .spacer{flex:1}
+  .nav a{color:#000;text-decoration:none;margin:0 8px;font-weight:700}
+  .lang a{display:inline-block;border:2px solid #000;border-radius:10px;padding:6px 10px;margin-left:8px;text-decoration:none;color:#000;background:#fff}
+  .wrap{max-width:1100px;margin:26px auto;padding:0 16px}
+  h1{margin:0 0 8px}
+  .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .card{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 22px rgba(0,0,0,.08);padding:18px}
+  .pill{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;border:1px solid #000;background:#fff}
+  .cover{height:190px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;border:2px solid #000;margin:10px 0}
+  .red{background:#ffefef} .white{background:#fff} .blue{background:#eef4ff}
+  .title{font-size:20px;font-weight:900;margin:6px 0 2px}
+  .by{color:var(--muted);font-size:14px;margin:0 0 6px}
+  .sku{font:12px ui-monospace,Menlo,Consolas,monospace;color:#333;margin-bottom:8px}
+  .prices{font-size:14px;margin:8px 0 12px}
+  .btn{display:inline-block;background:#0a3d91;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}
+  .bundle{background:#e9ffe9;border:2px dashed #0b6b0b;padding:14px;border-radius:var(--radius);text-align:center;margin-top:26px}
+  footer{margin:28px 0 40px;text-align:center;color:#555}
+</style>
 </head>
 <body>
-  <header>EDUNANCIAL • LIBROS</header>
-
-  <div class="wrap">
-    <div class="topbar">
-      <div><span class="pill">Aprende. Invierte. Gana — Una página a la vez.</span></div>
-      <nav class="toggle" aria-label="Cambiar idioma">
-        <span>Idioma:</span>
+  <div class="sitebar">
+    <div class="row">
+      <div class="brand">EDUNANCIAL</div>
+      <div class="spacer"></div>
+      <nav class="nav">
+        <a href="/es-index.html">Inicio</a>
+        <a href="/es-courses.html">Cursos</a>
+        <a href="/es-books.html"><u>Libros</u></a>
+        <a href="/es-pricing.html">Precios</a>
+      </nav>
+      <div class="lang" aria-label="Idioma">
         <a href="/books.html">EN</a>
         <a href="/es-books.html" aria-current="page">ES</a>
-      </nav>
+      </div>
     </div>
+  </div>
+
+  <div class="wrap">
+    <h1>Libros</h1>
+    <p><strong>Waldemar M. Caban, JD MA</strong> — Aprende. Invierte. Gana — Una página a la vez.</p>
 
     <h2>Bienes Raíces</h2>
     <div class="grid">
-      <!-- Comprar y Revender Casas (ROJO) -->
       <section class="card">
         <div class="pill">Impreso • eBook • Audio</div>
-        <div class="cover red" aria-label="Portada roja">BIENES RAÍCES</div>
+        <div class="cover red">BIENES RAÍCES</div>
         <div class="title">Comprar y Revender Casas para Obtener Ganancias</div>
         <p class="by">por Waldemar M. Caban, JD MA</p>
         <div class="sku">SKU: EDN-BK-RE-001-ES</div>
-        <div class="prices">
-          <div>Impreso: <strong>$18.99</strong></div>
-          <div>eBook: $3.99 • Audio: $14.99</div>
-        </div>
+        <div class="prices">Impreso: <strong>$18.99</strong> &nbsp; • &nbsp; eBook: $3.99 • Audio: $14.99</div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
@@ -61,26 +70,20 @@
           <input type="hidden" name="item_number" value="EDN-BK-RE-001-ES">
           <input type="hidden" name="amount" value="18.99">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="0">
-          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
           <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
           <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
           <button class="btn" type="submit">Comprar en PayPal</button>
         </form>
       </section>
 
-      <!-- Gravámenes y Escrituras Fiscales (ROJO) -->
       <section class="card">
         <div class="pill">Impreso • eBook • Audio</div>
-        <div class="cover red" aria-label="Portada roja">BIENES RAÍCES</div>
+        <div class="cover red">BIENES RAÍCES</div>
         <div class="title">Construyendo Riqueza con Gravámenes y Escrituras Fiscales</div>
         <p class="by">por Waldemar M. Caban, JD MA</p>
         <div class="sku">SKU: EDN-BK-RE-002-ES</div>
-        <div class="prices">
-          <div>Impreso: <strong>$18.99</strong></div>
-          <div>eBook: $3.99 • Audio: $14.99</div>
-        </div>
+        <div class="prices">Impreso: <strong>$18.99</strong> &nbsp; • &nbsp; eBook: $3.99 • Audio: $14.99</div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
@@ -88,9 +91,7 @@
           <input type="hidden" name="item_number" value="EDN-BK-RE-002-ES">
           <input type="hidden" name="amount" value="18.99">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="0">
-          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
           <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
           <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
           <button class="btn" type="submit">Comprar en PayPal</button>
@@ -98,19 +99,15 @@
       </section>
     </div>
 
-    <h2 style="margin-top:28px">Activos en Papel</h2>
+    <h2 style="margin-top:26px">Activos en Papel</h2>
     <div class="grid">
-      <!-- Opciones de Trading (BLANCO) -->
       <section class="card">
         <div class="pill">Impreso • eBook • Audio</div>
-        <div class="cover white" aria-label="Portada blanca">ACTIVOS EN PAPEL</div>
+        <div class="cover white">ACTIVOS EN PAPEL</div>
         <div class="title">Opciones de Trading: Guía de Puts, Calls y Estrategia Inteligente</div>
         <p class="by">por Waldemar M. Caban, JD MA</p>
         <div class="sku">SKU: EDN-BK-PA-001-ES</div>
-        <div class="prices">
-          <div>Impreso: <strong>$18.99</strong></div>
-          <div>eBook: $3.99 • Audio: $14.99</div>
-        </div>
+        <div class="prices">Impreso: <strong>$18.99</strong> &nbsp; • &nbsp; eBook: $3.99 • Audio: $14.99</div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
@@ -118,9 +115,7 @@
           <input type="hidden" name="item_number" value="EDN-BK-PA-001-ES">
           <input type="hidden" name="amount" value="18.99">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="0">
-          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
           <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
           <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
           <button class="btn" type="submit">Comprar en PayPal</button>
@@ -128,19 +123,15 @@
       </section>
     </div>
 
-    <h2 style="margin-top:28px">Emprendimiento</h2>
+    <h2 style="margin-top:26px">Emprendimiento</h2>
     <div class="grid">
-      <!-- El Negocio es Ganar (AZUL) -->
       <section class="card">
         <div class="pill">Impreso • eBook • Audio</div>
-        <div class="cover blue" aria-label="Portada azul">NEGOCIOS</div>
+        <div class="cover blue">NEGOCIOS</div>
         <div class="title">El Negocio se Trata de Ganar Utilidades</div>
         <p class="by">por Waldemar M. Caban, JD MA</p>
         <div class="sku">SKU: EDN-BK-BO-001-ES</div>
-        <div class="prices">
-          <div>Impreso: <strong>$18.99</strong></div>
-          <div>eBook: $3.99 • Audio: $14.99</div>
-        </div>
+        <div class="prices">Impreso: <strong>$18.99</strong> &nbsp; • &nbsp; eBook: $3.99 • Audio: $14.99</div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
@@ -148,26 +139,20 @@
           <input type="hidden" name="item_number" value="EDN-BK-BO-001-ES">
           <input type="hidden" name="amount" value="18.99">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="0">
-          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
           <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
           <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
           <button class="btn" type="submit">Comprar en PayPal</button>
         </form>
       </section>
 
-      <!-- Financiamiento Creativo (AZUL) -->
       <section class="card">
         <div class="pill">Impreso • eBook • Audio</div>
-        <div class="cover blue" aria-label="Portada azul">NEGOCIOS</div>
+        <div class="cover blue">NEGOCIOS</div>
         <div class="title">Financiamiento Creativo de Bienes Raíces</div>
         <p class="by">por Waldemar M. Caban, JD MA</p>
         <div class="sku">SKU: EDN-BK-BO-002-ES</div>
-        <div class="prices">
-          <div>Impreso: <strong>$9.99</strong></div>
-          <div>eBook: $2.99 • Audio: $6.99</div>
-        </div>
+        <div class="prices">Impreso: <strong>$9.99</strong> &nbsp; • &nbsp; eBook: $2.99 • Audio: $6.99</div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
@@ -175,9 +160,7 @@
           <input type="hidden" name="item_number" value="EDN-BK-BO-002-ES">
           <input type="hidden" name="amount" value="9.99">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="shipping" value="0">
-          <input type="hidden" name="tax" value="0">
+          <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
           <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
           <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
           <button class="btn" type="submit">Comprar en PayPal</button>
@@ -185,8 +168,7 @@
       </section>
     </div>
 
-    <!-- Bundle -->
-    <div class="bundle" style="margin-top:26px">
+    <div class="bundle">
       <strong>Llévate los 3 Títulos Principales y Ahorra 20%</strong> + Folleto
       <div style="margin:10px 0">SKU del Paquete: <code>EDN-BK-BUNDLE-001-ES</code> • <strong>$45.57</strong> (antes $56.97)</div>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:inline-block">
@@ -196,9 +178,7 @@
         <input type="hidden" name="item_number" value="EDN-BK-BUNDLE-001-ES">
         <input type="hidden" name="amount" value="45.57">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_note" value="1">
-        <input type="hidden" name="shipping" value="0">
-        <input type="hidden" name="tax" value="0">
+        <input type="hidden" name="no_note" value="1"><input type="hidden" name="shipping" value="0"><input type="hidden" name="tax" value="0">
         <input type="hidden" name="return" value="https://www.edunancial.com/gracias.html">
         <input type="hidden" name="cancel_return" value="https://www.edunancial.com/es-books.html">
         <button class="btn" type="submit">Comprar Paquete en PayPal</button>
@@ -206,7 +186,7 @@
     </div>
 
     <footer>
-      ¿Prefieres inglés? Usa el cambio de idioma arriba. Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.
+      Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>. Cambia a inglés con el conmutador en la barra roja.
     </footer>
   </div>
 </body>
