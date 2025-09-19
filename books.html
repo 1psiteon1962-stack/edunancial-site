@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Books — Edunancial</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Books — Edunancial</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>EDUNANCIAL</header>
-<nav>
-  <a href="index.html">Our Story</a>
-  <a href="courses.html">Courses</a>
-  <a href="books.html">Books</a>
-  <a href="checkout.html">Checkout</a>
-  <a href="contact.html">Contact</a>
-</nav>
 
-<main class="grid">
-  <section class="card">
-    <h1 class="h1">Books</h1>
-    <ul class="list">
-      <li><strong>Getting Started with the Edunancial Method</strong> — SKU: EDN-BK-START</li>
-      <li><strong>Foundations of Youth Investing</strong> — SKU: EDN-BK-YTHINV</li>
-      <li><strong>Practical Financial Literacy</strong> — SKU: EDN-BK-PFL</li>
-    </ul>
-    <p class="muted">New members receive our “Getting Started” pamphlet as a gift.</p>
-  </section>
-</main>
+  <!-- Site-wide header with toggle -->
+  <header class="site-header">
+    <div class="site-header__bar">
+      <div class="site-header__brand">EDUNANCIAL</div>
+      <nav class="lang-switch" aria-label="Language">
+        <span class="current" lang="en" aria-current="page">English</span>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="/es-books.html" hreflang="es" lang="es">Español</a>
+      </nav>
+    </div>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="/index.html">Home</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/books.html">Books</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
 
-<footer>© <span id="y"></span> Edunancial, Inc.</footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <main class="container">
+    <h1>Paperbacks</h1>
+    <p>Order our paperback titles directly. You’ll complete payment on PayPal.</p>
+
+    <div class="grid cols-3">
+      <!-- Book 1 -->
+      <article class="card">
+        <div class="book-title">Mini Course: Edunancial Method (Paperback)</div>
+        <div class="sku">SKU: EDN-BK-EM-001</div>
+        <div class="price">$19.00</div>
+        <div class="payline">
+          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
+            <input type="hidden" name="amount" value="19.00" />
+            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
+          </form>
+          <button class="btn btn-ghost" onclick="copySku('EDN-BK-EM-001')">Copy SKU</button>
+        </div>
+      </article>
+
+      <!-- Book 2 -->
+      <article class="card">
+        <div class="book-title">Tax Liens & Deeds (Intro) — Paperback</div>
+        <div class="sku">SKU: EDN-BK-TL-001</div>
+        <div class="price">$29.00</div>
+        <div class="payline">
+          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
+            <input type="hidden" name="amount" value="29.00" />
+            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
+          </form>
+          <button class="btn btn-ghost" onclick="copySku('EDN-BK-TL-001')">Copy SKU</button>
+        </div>
+      </article>
+
+      <!-- Book 3 -->
+      <article class="card">
+        <div class="book-title">Stocks for Teens & Parents (Intro) — Paperback</div>
+        <div class="sku">SKU: EDN-BK-ST-001</div>
+        <div class="price">$29.00</div>
+        <div class="payline">
+          <form action="https://www.paypal.com/ncp/payment/ZNHWXB2MVVFX8" method="post" target="_top">
+            <input type="hidden" name="amount" value="29.00" />
+            <button class="btn btn-primary" type="submit">Buy with PayPal</button>
+          </form>
+          <button class="btn btn-ghost" onclick="copySku('EDN-BK-ST-001')">Copy SKU</button>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    function copySku(sku) {
+      navigator.clipboard.writeText(sku).then(() => {
+        alert('SKU copied: ' + sku);
+      });
+    }
+  </script>
 </body>
 </html>
