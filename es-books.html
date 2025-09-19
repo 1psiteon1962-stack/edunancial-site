@@ -1,42 +1,46 @@
-<!doctype html><html lang="es"><head>
+<!doctype html><html lang="es">
+<head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Libros — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
 <div id="sitebar"></div><script src="/header.js"></script>
 
 <div class="container">
   <h1>Libros</h1>
 
-  <div class="card item">
-    <h2>Comprar y Remodelar Casas para Ganar</h2>
-    <div class="pills"><span class="pill red">Bienes Raíces</span></div>
-    <div class="sku">SKU: EDN-BK-RE-001 • Autor: Waldemar M. Caban</div>
-    <div>Impreso: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-RE-001&price=18.99&name=Comprar%20y%20Remodelar%20Casas">Comprar con PayPal</a>
+  <div class="grid cols-3">
+    <div class="card">
+      <div class="tag">Rojo • Bienes Raíces</div>
+      <h3>Comprar y Revender Casas con Ganancia</h3>
+      <p>Autor: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-RE-001</strong></p>
+      <p>Impreso: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/es-paypal-redirect?sku=EDN-BK-RE-001">Comprar con PayPal</a>
+    </div>
+
+    <div class="card">
+      <div class="tag">Blanco • Activos de Papel</div>
+      <h3>Opciones: Guía de Puts, Calls y Estrategia</h3>
+      <p>Autor: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-PA-001</strong></p>
+      <p>Impreso: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/es-paypal-redirect?sku=EDN-BK-PA-001">Comprar con PayPal</a>
+    </div>
+
+    <div class="card">
+      <div class="tag">Azul • Negocios</div>
+      <h3>El Negocio es Ganar Utilidad</h3>
+      <p>Autor: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-BO-001</strong></p>
+      <p>Impreso: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/es-paypal-redirect?sku=EDN-BK-BO-001">Comprar con PayPal</a>
     </div>
   </div>
 
-  <div class="card item">
-    <h2>Trading de Opciones: Guía de Puts, Calls y Estrategia</h2>
-    <div class="pills"><span class="pill white">Activos de Papel</span></div>
-    <div class="sku">SKU: EDN-BK-PA-001 • Autor: Waldemar M. Caban</div>
-    <div>Impreso: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-PA-001&price=18.99&name=Trading%20de%20Opciones">Comprar con PayPal</a>
-    </div>
-  </div>
-
-  <div class="card item">
-    <h2>El Negocio se Trata de Ganar</h2>
-    <div class="pills"><span class="pill blue">Propiedad de Negocios</span></div>
-    <div class="sku">SKU: EDN-BK-BO-001 • Autor: Waldemar M. Caban</div>
-    <div>Impreso: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-BO-001&price=18.99&name=El%20Negocio%20se%20Trata%20de%20Ganar">Comprar con PayPal</a>
-    </div>
-  </div>
-
-  <div class="footer">© Edunancial</div>
+  <p style="margin-top:10px;color:var(--muted)">eBook y audio pronto.</p>
 </div>
+
+<footer><div class="wrap">© Edunancial</div></footer>
 </body></html>
