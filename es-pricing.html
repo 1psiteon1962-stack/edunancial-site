@@ -1,54 +1,37 @@
-<!doctype html><html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Membresías</title>
-<link rel="preconnect" href="https://www.paypal.com"><link rel="stylesheet" href="/style.css"></head>
-<body>
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Precios — Edunancial</title>
+<link rel="stylesheet" href="/style.css"></head><body>
 <div id="sitebar"></div><script src="/header.js"></script>
 
-<header class="banner"><h1>Membresías</h1></header>
-<main>
-  <p>Todas las membresías incluyen un <strong>folleto descargable GRATIS</strong>.</p>
-  <p class="small"><em>Descuentos por inscripción anticipada hasta el 26 de septiembre de 2025.</em></p>
+<div class="container">
+  <h1>Precios</h1>
 
-  <div class="grid">
-    <section class="card center">
-      <h2>Básica — $9.99/mes</h2>
-      <p class="small">Folleto + 15% de descuento en un curso Intro</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick-subscriptions">
-        <input type="hidden" name="business" value="1psiteon1962@gmail.com">
-        <input type="hidden" name="item_name" value="Membresía Básica">
-        <input type="hidden" name="a3" value="9.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
-        <input type="hidden" name="currency_code" value="USD">
-        <button class="btn" type="submit">Suscribirse</button>
-      </form>
-    </section>
-
-    <section class="card center">
-      <h2>Estándar — $29/mes</h2>
-      <p class="small">Biblioteca • descuentos en libros y cursos</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick-subscriptions">
-        <input type="hidden" name="business" value="1psiteon1962@gmail.com">
-        <input type="hidden" name="item_name" value="Membresía Estándar">
-        <input type="hidden" name="a3" value="29.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
-        <input type="hidden" name="currency_code" value="USD">
-        <button class="btn" type="submit">Suscribirse</button>
-      </form>
-    </section>
-
-    <section class="card center">
-      <h2>Premium — $59/mes</h2>
-      <p class="small">Todo Estándar + mayores descuentos + exclusivos</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick-subscriptions">
-        <input type="hidden" name="business" value="1psiteon1962@gmail.com">
-        <input type="hidden" name="item_name" value="Membresía Premium">
-        <input type="hidden" name="a3" value="59.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
-        <input type="hidden" name="currency_code" value="USD">
-        <button class="btn" type="submit">Suscribirse</button>
-      </form>
-    </section>
+  <div class="card">
+    <h2>Membresía</h2>
+    <div class="sku">SKU: EDN-MEM-001</div>
+    <p>$4.99 / mes — descuentos y sesiones de preguntas.</p>
+    <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-MEM-001&price=4.99&name=Membresia">Unirme con PayPal</a>
   </div>
-</main>
+
+  <div class="card">
+    <h2>Mini Curso</h2>
+    <div class="sku">SKU: EDN-CRS-MIX-001</div>
+    <p>Sesión en vivo de un día.</p>
+    <div class="price">$75.00</div>
+    <a class="btn" href="/es-checkout.html">Inscribirse con PayPal</a>
+  </div>
+
+  <div class="card">
+    <h2>Libros (Impreso)</h2>
+    <ul>
+      <li>Comprar y Remodelar Casas — $18.99 (SKU: EDN-BK-RE-001)</li>
+      <li>Trading de Opciones — $18.99 (SKU: EDN-BK-PA-001)</li>
+      <li>El Negocio se Trata de Ganar — $18.99 (SKU: EDN-BK-BO-001)</li>
+    </ul>
+    <a class="btn outline" href="/es-books.html">Comprar Libros</a>
+  </div>
+
+  <div class="footer">© Edunancial</div>
+</div>
 </body></html>
