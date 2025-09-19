@@ -1,35 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Courses — Edunancial</title>
-<link rel="stylesheet" href="style.css" />
-</head>
+<!doctype html><html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Courses</title>
+<link rel="preconnect" href="https://www.paypal.com"><link rel="stylesheet" href="/style.css"></head>
 <body>
-<header>EDUNANCIAL</header>
-<nav>
-  <a href="index.html">Our Story</a>
-  <a href="courses.html">Courses</a>
-  <a href="books.html">Books</a>
-  <a href="checkout.html">Checkout</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<div id="sitebar"></div><script src="/header.js"></script>
 
-<main class="grid">
-  <section class="card">
-    <h1 class="h1">Introductory Courses (Red / White / Blue)</h1>
-    <ul class="list">
-      <li><strong class="h2">Mini Course — The Edunancial Method</strong> (Red • White • Blue) — help your children, help yourself. <a class="btn" href="checkout.html">Enroll</a></li>
-      <li><strong class="h2">Business Formation (In-Depth)</strong> (Blue) — structure, setup, and systems. <span class="muted">Dates: Oct 12, 19, 26 — 2:00 PM</span></li>
-      <li><strong class="h2">Tax Liens & Tax Deeds</strong> (Red) — frameworks and risks. <span class="muted">Schedule announced</span></li>
-      <li><strong class="h2">Kids & Stocks</strong> (White) — teach your child to select, buy, and sell stocks. <span class="muted">Schedule announced</span></li>
-    </ul>
-    <p class="muted">Member discounts apply. Early-bird discounts may apply when announced. Non-profits can request a youth code for under-18 pricing.</p>
-  </section>
+<header class="banner"><h1>Courses</h1></header>
+<main>
+  <div class="notice small">Revenue mix plan: 4 courses @ $199 (3K enrollments = ~$597k), mini-course @ $75 (3K = ~$225k), books & memberships cover remainder to exceed $1M.</div>
+
+  <div class="grid">
+    <section class="card">
+      <div class="pill">Blue</div>
+      <div class="title">In-Depth Business Formation</div>
+      <div class="sku">SKU: EDN-CRS-BO-001</div>
+      <div class="prices"><strong>$199.00</strong> • Dates: Oct 12, 19, 26 (2 PM)</div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="In-Depth Business Formation (Course)">
+        <input type="hidden" name="item_number" value="EDN-CRS-BO-001">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Enroll with PayPal</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="pill">Red • White • Blue</div>
+      <div class="title">The Edunancial Method — Mini Course</div>
+      <div class="sku">SKU: EDN-CRS-MIX-001</div>
+      <div class="prices"><strong>$75.00</strong> • Date: Oct 5 (2 PM)</div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="The Edunancial Method — Mini Course">
+        <input type="hidden" name="item_number" value="EDN-CRS-MIX-001">
+        <input type="hidden" name="amount" value="75.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Enroll with PayPal</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="pill">Red</div>
+      <div class="title">Tax Liens & Tax Deeds</div>
+      <div class="sku">SKU: EDN-CRS-RE-001</div>
+      <div class="prices"><strong>$199.00</strong></div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Tax Liens & Tax Deeds (Course)">
+        <input type="hidden" name="item_number" value="EDN-CRS-RE-001">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Enroll with PayPal</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="pill">White</div>
+      <div class="title">Teaching Kids Stocks</div>
+      <div class="sku">SKU: EDN-CRS-PA-001</div>
+      <div class="prices"><strong>$199.00</strong></div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="1psiteon1962@gmail.com">
+        <input type="hidden" name="item_name" value="Teaching Kids Stocks (Course)">
+        <input type="hidden" name="item_number" value="EDN-CRS-PA-001">
+        <input type="hidden" name="amount" value="199.00"><input type="hidden" name="currency_code" value="USD">
+        <button class="btn" type="submit">Enroll with PayPal</button>
+      </form>
+    </section>
+  </div>
 </main>
-
-<footer>© <span id="y"></span> Edunancial, Inc.</footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-</body>
-</html>
+</body></html>
