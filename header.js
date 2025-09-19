@@ -1,98 +1,78 @@
-// header.js — shared red header with EN/ES toggle and simple nav
-(function () {
-  const P = window.location.pathname.replace(/^\//, "");          // e.g. "books.html"
-  const isES = P.startsWith("es-");                                // Spanish page?
-  const base = P.replace(/^es-/, "");                               // counterpart name without "es-"
-  const current = base || "index.html";
+<script>
+/* ==== Edunancial global header with EN/ES toggle (v2) ==== */
 
-  // Map each English page to its Spanish counterpart (and vice versa)
-  const pairs = {
-    "index.html": "es-index.html",
-    "about.html": "es-about.html",
-    "contact.html": "es-contact.html",
-    "courses.html": "es-courses.html",
-    "mini-courses.html": "es-mini-courses.html",
-    "our-story.html": "es-our-story.html",
-    "pamphlet.html": "es-pamphlet.html",
-    "payments.html": "es-payments.html",
-    "pricing.html": "es-pricing.html",
-    "refunds.html": "es-refunds.html",
-    "terms.html": "es-terms.html",
-    "thank-you.html": "gracias.html",
-    "books.html": "es-books.html",
-    "checkout.html": "es-checkout.html",
-    "videos.html": "es-videos.html"
-  };
+/* Map each English path to its Spanish twin (and back). */
+const PAIRS = {
+  "/": "/es-index.html",
+  "/index.html": "/es-index.html",
 
-  // Build nav (same order on both languages; paths switch automatically)
-  const navEN = [
-    ["Home", "index.html"],
-    ["Courses", "courses.html"],
-    ["Books", "books.html"],
-    ["Pricing", "pricing.html"],
-  ];
-  const navES = [
-    ["Inicio", "es-index.html"],
-    ["Cursos", "es-courses.html"],
-    ["Libros", "es-books.html"],
-    ["Precios", "es-pricing.html"],
-  ];
+  "/about.html": "/es-about.html",
+  "/our-story.html": "/es-our-story.html",
+  "/contact.html": "/es-contact.html",
+  "/courses.html": "/es-courses.html",
+  "/mini-courses.html": "/es-mini-courses.html",
+  "/pricing.html": "/es-pricing.html",
+  "/payments.html": "/es-payments.html",
+  "/refunds.html": "/es-refunds.html",
+  "/terms.html": "/es-terms.html",
+  "/privacy.html": "/es-privacy.html",
+  "/security.html": "/es-security.html",
+  "/cookie-policy.html": "/es-cookie-policy.html",
+  "/videos.html": "/es-videos.html",
+  "/faq.html": "/es-faq.html",
+  "/thank-you.html": "/es-thank-you.html",
 
-  // Resolve link relative to current language
-  function resolve(href) {
-    if (isES) {
-      // ensure Spanish version
-      if (!href.startsWith("es-")) href = "es-" + href;
-    } else {
-      // ensure English version
-      href = href.replace(/^es-/, "");
-    }
-    return "/" + href;
-  }
+  "/books.html": "/es-books.html",
+  "/checkout.html": "/es-checkout.html",
+  "/cart.html": "/es-cart.html",          /* optional: only if you add a cart page */
 
-  // Active page underlines
-  function navHTML(items) {
-    return items.map(([label, href]) => {
-      const resolved = resolve(href);
-      const isActive =
-        ("/" + (isES ? ("es-" + current) : current)) === resolved;
-      return `<a href="${resolved}"${isActive ? ' class="active"' : ""}>${label}</a>`;
-    }).join("");
-  }
+  // Spanish -> English
+  "/es-index.html": "/index.html",
+  "/es-about.html": "/about.html",
+  "/es-our-story.html": "/our-story.html",
+  "/es-contact.html": "/contact.html",
+  "/es-courses.html": "/courses.html",
+  "/es-mini-courses.html": "/mini-courses.html",
+  "/es-pricing.html": "/pricing.html",
+  "/es-payments.html": "/payments.html",
+  "/es-refunds.html": "/refunds.html",
+  "/es-terms.html": "/terms.html",
+  "/es-privacy.html": "/privacy.html",
+  "/es-security.html": "/security.html",
+  "/es-cookie-policy.html": "/cookie-policy.html",
+  "/es-videos.html": "/videos.html",
+  "/es-faq.html": "/faq.html",
+  "/es-thank-you.html": "/thank-you.html",
 
-  // Language counterparts for toggle
-  const enHref = "/" + current;
-  const esHref = "/" + (pairs[current] || ("es-" + current));
+  "/es-books.html": "/books.html",
+  "/es-checkout.html": "/checkout.html",
+  "/es-cart.html": "/cart.html"
+};
 
-  // Inject styles + header
-  const css = `
-  <style>
-    :root{--brand:#c81414;--ink:#000}
-    .sitebar{background:var(--brand);color:var(--ink)}
-    .sitebar .row{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:12px 16px}
-    .brand{font-weight:900;letter-spacing:.5px}
-    .spacer{flex:1}
-    .nav a{color:#000;text-decoration:none;margin:0 10px;font-weight:800}
-    .nav a.active{text-decoration:underline}
-    .lang a{display:inline-block;border:2px solid #000;border-radius:10px;padding:5px 10px;margin-left:8px;text-decoration:none;color:#000;background:#fff;font-weight:800}
-    @media (max-width:640px){.nav{display:none}}
-  </style>`;
+const isSpanish = location.pathname.startsWith("/es-");
+const counterpart = PAIRS[location.pathname] || (isSpanish ? "/index.html" : "/es-index.html");
 
-  const html = `
-  <div class="sitebar">
-    <div class="row">
-      <div class="brand">EDUNANCIAL</div>
-      <div class="spacer"></div>
-      <nav class="nav">${isES ? navHTML(navES) : navHTML(navEN)}</nav>
-      <div class="lang" aria-label="${isES ? "Idioma" : "Language"}">
-        <a href="${enHref}"${!isES ? ' aria-current="page"' : ""}>EN</a>
-        <a href="${esHref}"${isES ? ' aria-current="page"' : ""}>ES</a>
-      </div>
-    </div>
-  </div>`;
+const bar = document.createElement("div");
+bar.id = "edn-sitebar";
+bar.innerHTML = `
+  <div class="wrap">
+    <a href="/" class="brand">EDUNANCIAL</a>
+    <div class="spacer"></div>
+    <a class="lang ${!isSpanish ? 'active' : ''}" href="${!isSpanish ? location.pathname : counterpart.replace('/index.html','/')}">EN</a>
+    <a class="lang ${isSpanish ? 'active' : ''}" href="${isSpanish ? location.pathname : counterpart}">ES</a>
+  </div>
+`;
+document.body.prepend(bar);
 
-  // Place header at top of body
-  const mount = document.getElementById("sitebar");
-  if (mount) mount.innerHTML = css + html;
-  else document.body.insertAdjacentHTML("afterbegin", css + html);
-})();
+const css = document.createElement("style");
+css.textContent = `
+  #edn-sitebar{position:sticky;top:0;z-index:9999;background:#c10d0d;border-bottom:3px solid #000;}
+  #edn-sitebar .wrap{max-width:1100px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px}
+  #edn-sitebar .brand{font-weight:800;letter-spacing:.6px;color:#000;text-decoration:none;background:#ffdfdf;padding:6px 10px;border-radius:4px}
+  #edn-sitebar .spacer{flex:1}
+  #edn-sitebar .lang{font:600 12px/1.1 system-ui, -apple-system, Segoe UI, Roboto, Arial;color:#000;background:#fff;border:1px solid #000;padding:6px 9px;border-radius:4px;text-decoration:none;margin-left:8px}
+  #edn-sitebar .lang.active{background:#000;color:#fff}
+  @media (max-width:480px){#edn-sitebar .brand{font-size:12px}}
+`;
+document.head.appendChild(css);
+</script>
