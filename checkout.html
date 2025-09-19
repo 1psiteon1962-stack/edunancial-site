@@ -1,51 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Checkout — Edunancial</title>
-  <link rel="stylesheet" href="/style.css"/>
-  <style>
-    .card{max-width:760px;margin:2rem auto;background:#fff;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.07);padding:1.25rem}
-    .row{display:flex;gap:1rem;flex-wrap:wrap}
-    .row > *{flex:1}
-    label{display:block;font-weight:600;margin:.5rem 0 .25rem}
-    input[type="text"]{width:100%;padding:.7rem;border:1px solid #cfd6df;border-radius:10px}
-    .btn{display:inline-block;padding:.8rem 1rem;border-radius:12px;border:0;background:#0b3472;color:#fff;font-weight:700;cursor:pointer}
-    .hdr{background:#b30b0b;color:#fff;text-align:center;font-weight:800;padding:.6rem 0;letter-spacing:.05em}
-    .muted{color:#5d6876;font-size:.9rem}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout — Edunancial</title>
+<style>
+  :root{--brand:#c81414;--ink:#000;--card:#fff;--radius:14px}
+  body{margin:0;background:#f5f5f5;color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif}
+  .sitebar{background:var(--brand);color:#000}
+  .sitebar .row{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:12px 16px}
+  .brand{font-weight:900;letter-spacing:.5px}
+  .spacer{flex:1}
+  .lang a{display:inline-block;border:2px solid #000;border-radius:10px;padding:6px 10px;margin-left:8px;text-decoration:none;color:#000;background:#fff}
+  .wrap{max-width:1100px;margin:26px auto;padding:0 16px}
+  .box{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 22px rgba(0,0,0,.08);padding:18px}
+  label{font-weight:700}
+  input[type="checkbox"]{transform:scale(1.2);margin-right:8px}
+  input[type="text"]{width:100%;padding:10px;border-radius:10px;border:1px solid #bbb}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .btn{display:inline-block;background:#0a3d91;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}
+  @media (max-width:640px){.grid{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-  <div class="hdr">EDUNANCIAL • CHECKOUT</div>
+  <div class="sitebar">
+    <div class="row">
+      <div class="brand">EDUNANCIAL • CHECKOUT</div>
+      <div class="spacer"></div>
+      <div class="lang">
+        <a href="/checkout.html" aria-current="page">EN</a>
+        <a href="/es-checkout.html">ES</a>
+      </div>
+    </div>
+  </div>
 
-  <main class="card">
-    <h2>Mini Course: Edunancial Method</h2>
-    <p class="muted">SKU: EDN-MINI-EM-001</p>
-
-    <form method="GET" action="/.netlify/functions/paypal-redirect-email">
-      <input type="hidden" name="item_name" value="Mini Course: Edunancial Method"/>
-      <input type="hidden" name="currency_code" value="USD"/>
-
-      <div class="row">
+  <div class="wrap">
+    <div class="box">
+      <h2>Mini Course: Edunancial Method</h2>
+      <div class="grid">
         <div>
-          <label for="under18">I am under 18</label>
-          <input id="under18" type="checkbox" aria-label="Under 18 (optional)"/>
+          <label><input type="checkbox" checked disabled> I am under 18</label>
         </div>
         <div>
-          <label for="code">Discount / Under-18 Code</label>
-          <input id="code" name="code" type="text" autocomplete="off" placeholder="Enter discount code (optional)"/>
+          <label>Discount / Under-18 Code</label>
+          <input type="text" placeholder="Enter discount code (optional)" disabled>
         </div>
       </div>
+      <p style="margin-top:12px">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>. You’ll be redirected to PayPal to complete payment.</p>
 
-      <p class="muted">
-        By paying you agree to our
-        <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
-        You’ll be redirected to PayPal to complete payment.
-      </p>
-
-      <button class="btn" type="submit">Continue to PayPal</button>
-    </form>
-  </main>
+      <!-- Button: goes to your serverless PayPal redirection (already working) -->
+      <form action="/.netlify/functions/paypal-redirect" method="post">
+        <button class="btn" type="submit">Continue to PayPal</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
