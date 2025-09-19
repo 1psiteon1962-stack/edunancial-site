@@ -1,78 +1,52 @@
 <script>
-/* ==== Edunancial global header with EN/ES toggle (v2) ==== */
+/* Global red header + EN/ES toggle (works on every page that includes this file) */
+(function () {
+  const pairs = [
+    ["index.html","es-index.html"],
+    ["books.html","es-books.html"],
+    ["courses.html","es-courses.html"],
+    ["pricing.html","es-pricing.html"],
+    ["checkout.html","es-checkout.html"],
+    ["thank-you.html","gracias.html"],
+    ["terms.html","es-terms.html"],
+    ["refunds.html","es-refunds.html"],
+    ["privacy.html","es-privacy.html"]
+  ];
 
-/* Map each English path to its Spanish twin (and back). */
-const PAIRS = {
-  "/": "/es-index.html",
-  "/index.html": "/es-index.html",
+  const path = location.pathname.replace(/\/+$/,'');
+  const file = path.split('/').pop() || "index.html";
+  const find = pairs.find(([en,es]) => en===file || es===file);
+  const isES = file.startsWith("es-");
+  const enPath = "/" + (find ? find[0] : "index.html");
+  const esPath = "/" + (find ? find[1] : "es-index.html");
 
-  "/about.html": "/es-about.html",
-  "/our-story.html": "/es-our-story.html",
-  "/contact.html": "/es-contact.html",
-  "/courses.html": "/es-courses.html",
-  "/mini-courses.html": "/es-mini-courses.html",
-  "/pricing.html": "/es-pricing.html",
-  "/payments.html": "/es-payments.html",
-  "/refunds.html": "/es-refunds.html",
-  "/terms.html": "/es-terms.html",
-  "/privacy.html": "/es-privacy.html",
-  "/security.html": "/es-security.html",
-  "/cookie-policy.html": "/es-cookie-policy.html",
-  "/videos.html": "/es-videos.html",
-  "/faq.html": "/es-faq.html",
-  "/thank-you.html": "/es-thank-you.html",
-
-  "/books.html": "/es-books.html",
-  "/checkout.html": "/es-checkout.html",
-  "/cart.html": "/es-cart.html",          /* optional: only if you add a cart page */
-
-  // Spanish -> English
-  "/es-index.html": "/index.html",
-  "/es-about.html": "/about.html",
-  "/es-our-story.html": "/our-story.html",
-  "/es-contact.html": "/contact.html",
-  "/es-courses.html": "/courses.html",
-  "/es-mini-courses.html": "/mini-courses.html",
-  "/es-pricing.html": "/pricing.html",
-  "/es-payments.html": "/payments.html",
-  "/es-refunds.html": "/refunds.html",
-  "/es-terms.html": "/terms.html",
-  "/es-privacy.html": "/privacy.html",
-  "/es-security.html": "/security.html",
-  "/es-cookie-policy.html": "/cookie-policy.html",
-  "/es-videos.html": "/videos.html",
-  "/es-faq.html": "/faq.html",
-  "/es-thank-you.html": "/thank-you.html",
-
-  "/es-books.html": "/books.html",
-  "/es-checkout.html": "/checkout.html",
-  "/es-cart.html": "/cart.html"
-};
-
-const isSpanish = location.pathname.startsWith("/es-");
-const counterpart = PAIRS[location.pathname] || (isSpanish ? "/index.html" : "/es-index.html");
-
-const bar = document.createElement("div");
-bar.id = "edn-sitebar";
-bar.innerHTML = `
-  <div class="wrap">
-    <a href="/" class="brand">EDUNANCIAL</a>
-    <div class="spacer"></div>
-    <a class="lang ${!isSpanish ? 'active' : ''}" href="${!isSpanish ? location.pathname : counterpart.replace('/index.html','/')}">EN</a>
-    <a class="lang ${isSpanish ? 'active' : ''}" href="${isSpanish ? location.pathname : counterpart}">ES</a>
-  </div>
-`;
-document.body.prepend(bar);
-
-const css = document.createElement("style");
-css.textContent = `
-  #edn-sitebar{position:sticky;top:0;z-index:9999;background:#c10d0d;border-bottom:3px solid #000;}
-  #edn-sitebar .wrap{max-width:1100px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px}
-  #edn-sitebar .brand{font-weight:800;letter-spacing:.6px;color:#000;text-decoration:none;background:#ffdfdf;padding:6px 10px;border-radius:4px}
-  #edn-sitebar .spacer{flex:1}
-  #edn-sitebar .lang{font:600 12px/1.1 system-ui, -apple-system, Segoe UI, Roboto, Arial;color:#000;background:#fff;border:1px solid #000;padding:6px 9px;border-radius:4px;text-decoration:none;margin-left:8px}
-  #edn-sitebar .lang.active{background:#000;color:#fff}
-  @media (max-width:480px){#edn-sitebar .brand{font-size:12px}}
-`;
-document.head.appendChild(css);
+  const wrap = document.createElement("div");
+  wrap.id = "edn-sitebar";
+  wrap.innerHTML = `
+    <style>
+      #edn-sitebar{background:#c30000;color:#000;position:sticky;top:0;z-index:9999;border-bottom:3px solid #000}
+      #edn-sitebar .row{max-width:1100px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px}
+      #edn-sitebar .brand{font-weight:900;letter-spacing:.5px;text-decoration:none;color:#000;background:#ffdfdf;padding:6px 10px;border-radius:6px}
+      #edn-sitebar nav{margin-left:auto;display:flex;gap:12px}
+      #edn-sitebar nav a{color:#000;text-decoration:none;font-weight:800}
+      #edn-sitebar .lang a{display:inline-block;border:2px solid #000;border-radius:10px;padding:5px 10px;text-decoration:none;color:#000;background:#fff;font-weight:800}
+      #edn-sitebar .lang .active{background:#000;color:#fff}
+      @media (max-width:640px){#edn-sitebar nav{display:none}}
+    </style>
+    <div class="row">
+      <a class="brand" href="/index.html">EDUNANCIAL</a>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/books.html">Books</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/pricing.html">Pricing</a>
+      </nav>
+      <div class="lang">
+        <a href="${enPath}" class="${!isES?'active':''}">EN</a>
+        <a href="${esPath}" class="${isES?'active':''}">ES</a>
+      </div>
+    </div>
+  `;
+  document.body.insertBefore(wrap, document.body.firstChild);
+})();
 </script>
