@@ -1,32 +1,45 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Courses — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
-<div id="sitebar"></div><script src="/header.js"></script>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="sitebar"></div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const s=document.getElementById("sitebar");
+  s.innerHTML=`
+    <header>EDUNANCIAL</header>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/payments.html">Payments</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/refunds.html">Refunds</a>
+    </nav>
+    <div class="toggle" onclick="location.href='/es-courses.html'">ES</div>
+  `;
+});
+</script>
 
-<div class="container">
+<main style="padding:1rem;">
   <h1>Courses</h1>
 
-  <div class="card item">
+  <section class="card">
     <h2>The Edunancial Method — Mini Course</h2>
-    <div class="pills"><span class="pill red">Red</span><span class="pill white">White</span><span class="pill blue">Blue</span></div>
-    <div class="sku">SKU: EDN-CRS-MIX-001</div>
-    <div>Price: <span class="price">$75.00</span></div>
-    <div class="actions">
-      <a class="btn" href="/checkout.html">Enroll with PayPal</a>
-    </div>
-  </div>
+    <p>Red • White • Blue</p>
+    <p>SKU: <code>EDN-CRS-MIX-001</code> • <b>$75.00</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Enroll with PayPal</a></p>
+  </section>
 
-  <div class="card item">
+  <section class="card">
     <h2>In-Depth Business Formation</h2>
-    <div class="pills"><span class="pill blue">Blue</span></div>
-    <div class="sku">SKU: EDN-CRS-BO-001</div>
-    <div>Price: <span class="price">$199.00</span></div>
-    <div class="actions">
-      <a class="btn outline" href="/contact.html">Request Dates</a>
-    </div>
-  </div>
-
-  <div class="footer">© Edunancial</div>
-</div>
+    <p>Blue</p>
+    <p>SKU: <code>EDN-CRS-BO-001</code> • <b>$199.00</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-BO-001">Enroll with PayPal</a></p>
+  </section>
+</main>
 </body></html>
