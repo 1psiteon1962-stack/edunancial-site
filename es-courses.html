@@ -1,32 +1,45 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cursos — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
-<div id="sitebar"></div><script src="/header.js"></script>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="sitebar"></div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const s=document.getElementById("sitebar");
+  s.innerHTML=`
+    <header>EDUNANCIAL</header>
+    <nav>
+      <a href="/es-index.html">Inicio</a>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-pricing.html">Precios</a>
+      <a href="/es-payments.html">Pagos</a>
+      <a href="/es-contact.html">Contacto</a>
+      <a href="/es-privacy.html">Privacidad</a>
+      <a href="/es-terms.html">Términos</a>
+      <a href="/es-refunds.html">Reembolsos</a>
+    </nav>
+    <div class="toggle" onclick="location.href='/courses.html'">EN</div>
+  `;
+});
+</script>
 
-<div class="container">
+<main style="padding:1rem;">
   <h1>Cursos</h1>
 
-  <div class="card item">
+  <section class="card">
     <h2>Método Edunancial — Mini Curso</h2>
-    <div class="pills"><span class="pill red">Rojo</span><span class="pill white">Blanco</span><span class="pill blue">Azul</span></div>
-    <div class="sku">SKU: EDN-CRS-MIX-001</div>
-    <div>Precio: <span class="price">$75.00</span></div>
-    <div class="actions">
-      <a class="btn" href="/es-checkout.html">Inscribirse con PayPal</a>
-    </div>
-  </div>
+    <p>Rojo • Blanco • Azul</p>
+    <p>SKU: <code>EDN-CRS-MIX-001</code> • <b>$75.00</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Inscribirse con PayPal</a></p>
+  </section>
 
-  <div class="card item">
-    <h2>Formación Empresarial Avanzada</h2>
-    <div class="pills"><span class="pill blue">Azul</span></div>
-    <div class="sku">SKU: EDN-CRS-BO-001</div>
-    <div>Precio: <span class="price">$199.00</span></div>
-    <div class="actions">
-      <a class="btn outline" href="/es-contact.html">Solicitar Fechas</a>
-    </div>
-  </div>
-
-  <div class="footer">© Edunancial</div>
-</div>
+  <section class="card">
+    <h2>Formación Empresarial en Profundidad</h2>
+    <p>Azul</p>
+    <p>SKU: <code>EDN-CRS-BO-001</code> • <b>$199.00</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-BO-001">Inscribirse con PayPal</a></p>
+  </section>
+</main>
 </body></html>
