@@ -1,55 +1,79 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Edunancial — Learn One Page at a Time</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<div id="sitebar"></div>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
-  const s=document.getElementById("sitebar");
-  s.innerHTML=`
-    <header>EDUNANCIAL</header>
-    <nav>
-      <a href="/index.html">Home</a>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/pricing.html">Pricing</a>
-      <a href="/payments.html">Payments</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/refunds.html">Refunds</a>
-    </nav>
-    <div class="toggle" onclick="location.href='/es-index.html'">ES</div>
-  `;
-});
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edunancial — Learn One Page at a Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Red banner + nav + EN/ES toggle (auto-inserted below) -->
+  <div id="sitebar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const s = document.getElementById("sitebar");
+      s.innerHTML = `
+        <header>EDUNANCIAL</header>
+        <nav>
+          <a href="/index.html">Home</a>
+          <a href="/books.html">Books</a>
+          <a href="/courses.html">Courses</a>
+          <a href="/pricing.html">Pricing</a>
+          <a href="/payments.html">Payments</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/refunds.html">Refunds</a>
+        </nav>
+        <div class="toggle" onclick="location.href='/es-index.html'">ES</div>
+      `;
+    });
+  </script>
 
-<main style="padding:1rem;">
-  <h1>Our Story</h1>
-  <section class="card">
-    <p>One afternoon when my son was <b>11</b>, he walked in just as an online deposit arrived. His eyes got wide: “How did you make money like that?” I said, “By using my head.” He wanted to learn—that’s when <b>Edunancial</b> was born.</p>
-    <p>By <b>15</b> he was buying physical silver and gold, analyzing companies, and practicing how to select and sell stocks aiming for a steady <b>8–12% ROI</b>. Our mission is simple: help families build practical financial literacy—one page at a time.</p>
-    <p><a href="/books.html">See Books</a> • <a href="/courses.html">See Courses</a></p>
-  </section>
+  <main style="padding:1rem;">
+    <h1>Our Story</h1>
+    <section class="card">
+      <p class="lead">
+        One afternoon when my son was <strong>11</strong>, he walked in just as an online deposit arrived.
+        His eyes got wide: “How did you make money like that?” I said, “By using my head.”
+        He wanted to learn — and that’s when <strong>Edunancial</strong> was born.
+      </p>
+      <p>
+        By <strong>15</strong> he was buying physical silver and gold, analyzing companies, and practicing how to
+        select and sell stocks with a steady, realistic goal of <strong>8–12% ROI</strong>. We learned together:
+        simple frameworks, practical skills, and disciplined habits. Our mission is simple:
+        help families build <em>practical</em> financial literacy — one page at a time.
+      </p>
+      <p><a href="/books.html">See Books</a> • <a href="/courses.html">See Courses</a></p>
+    </section>
 
-  <h2>Start with the Mini Course</h2>
-  <section class="card">
-    <h3>Red • White • Blue</h3>
-    <h3>The Edunancial Method — Mini Course</h3>
-    <p>SKU: <code>EDN-CRS-MIX-001</code> • <b>$75.00</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Continue to Checkout</a></p>
-    <ul>
-      <li>Basics of tax liens & deeds (Red)</li>
-      <li>Stock selection for teens & parents (White)</li>
-      <li>Business formation fundamentals (Blue)</li>
-    </ul>
-  </section>
+    <h2 style="margin-top:18px;">Start with the Mini Course</h2>
+    <section class="card">
+      <h3>Red • White • Blue</h3>
+      <h3>The Edunancial Method — Mini Course</h3>
+      <p>SKU: <code>EDN-CRS-MIX-001</code> • <strong>$75.00</strong></p>
+      <p>
+        <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Continue to Checkout</a>
+      </p>
+      <ul>
+        <li>Basics of tax liens &amp; deeds (Red)</li>
+        <li>Stock selection for teens &amp; parents (White)</li>
+        <li>Business formation fundamentals (Blue)</li>
+      </ul>
+    </section>
 
-  <section class="card">
-    <h3>Membership</h3>
-    <p>Join for <b>$5.00/month</b> • SKU: <code>EDN-MEM-001</code></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Subscribe with PayPal</a></p>
-  </section>
-</main>
-</body></html>
+    <section class="card">
+      <h3>Membership</h3>
+      <p>Join for <strong>$5.00/month</strong> — cancel anytime.</p>
+      <p>SKU: <code>EDN-MEM-001</code></p>
+      <p>
+        <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Subscribe with PayPal</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Edunancial</div>
+  </footer>
+</body>
+</html>
