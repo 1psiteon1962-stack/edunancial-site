@@ -1,42 +1,46 @@
-<!doctype html><html lang="en"><head>
+<!doctype html><html lang="en">
+<head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Books — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
 <div id="sitebar"></div><script src="/header.js"></script>
 
 <div class="container">
   <h1>Books</h1>
 
-  <div class="card item">
-    <h2>Buying &amp; Flipping Houses for Profit</h2>
-    <div class="pills"><span class="pill red">Real Estate</span></div>
-    <div class="sku">SKU: EDN-BK-RE-001 • Author: Waldemar M. Caban</div>
-    <div>Print: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-RE-001&price=18.99&name=Buying%20and%20Flipping%20Houses%20for%20Profit">Buy with PayPal</a>
+  <div class="grid cols-3">
+    <div class="card">
+      <div class="tag">Red • Real Estate</div>
+      <h3>Buying and Flipping Houses for Profit</h3>
+      <p>Author: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-RE-001</strong></p>
+      <p>Print: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Buy with PayPal</a>
+    </div>
+
+    <div class="card">
+      <div class="tag">White • Paper Assets</div>
+      <h3>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h3>
+      <p>Author: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-PA-001</strong></p>
+      <p>Print: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Buy with PayPal</a>
+    </div>
+
+    <div class="card">
+      <div class="tag">Blue • Business</div>
+      <h3>Business is About Making Profit</h3>
+      <p>Author: <strong>Waldemar M. Caban</strong></p>
+      <p>SKU: <strong>EDN-BK-BO-001</strong></p>
+      <p>Print: <strong>$18.99</strong></p>
+      <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Buy with PayPal</a>
     </div>
   </div>
 
-  <div class="card item">
-    <h2>Options Trading: Your Guide to Puts, Calls &amp; Strategy</h2>
-    <div class="pills"><span class="pill white">Paper Assets</span></div>
-    <div class="sku">SKU: EDN-BK-PA-001 • Author: Waldemar M. Caban</div>
-    <div>Print: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-PA-001&price=18.99&name=Options%20Trading">Buy with PayPal</a>
-    </div>
-  </div>
-
-  <div class="card item">
-    <h2>Business is About Making Profit</h2>
-    <div class="pills"><span class="pill blue">Business Ownership</span></div>
-    <div class="sku">SKU: EDN-BK-BO-001 • Author: Waldemar M. Caban</div>
-    <div>Print: <span class="price">$18.99</span></div>
-    <div class="actions">
-      <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-BK-BO-001&price=18.99&name=Business%20is%20About%20Making%20Profit">Buy with PayPal</a>
-    </div>
-  </div>
-
-  <div class="footer">© Edunancial</div>
+  <p style="margin-top:10px;color:var(--muted)">eBook & audio to follow.</p>
 </div>
+
+<footer><div class="wrap">© Edunancial</div></footer>
 </body></html>
