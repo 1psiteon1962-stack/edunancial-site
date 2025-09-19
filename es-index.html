@@ -1,48 +1,55 @@
-<!doctype html><html lang="es">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Aprende, Invierte, Gana</title>
-<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-<div id="sitebar"></div><script src="/header.js"></script>
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edunancial — Aprende Página por Página</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="sitebar"></div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const s=document.getElementById("sitebar");
+  s.innerHTML=`
+    <header>EDUNANCIAL</header>
+    <nav>
+      <a href="/es-index.html">Inicio</a>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-pricing.html">Precios</a>
+      <a href="/es-payments.html">Pagos</a>
+      <a href="/es-contact.html">Contacto</a>
+      <a href="/es-privacy.html">Privacidad</a>
+      <a href="/es-terms.html">Términos</a>
+      <a href="/es-refunds.html">Reembolsos</a>
+    </nav>
+    <div class="toggle" onclick="location.href='/index.html'">EN</div>
+  `;
+});
+</script>
 
-<div class="container">
+<main style="padding:1rem;">
   <h1>Nuestra Historia</h1>
-  <div class="card">
-    <p class="lead">
-      Cuando mi hijo tenía 11 años entró justo cuando llegó un depósito en línea.
-      “¿Cómo ganaste dinero así?”, preguntó. “Usando mi cabeza”, respondí.
-      Quiso aprender; así nació <strong>Edunancial</strong>.
-    </p>
-    <p>
-      A los 15 compraba plata y oro físicos, analizaba empresas y practicaba
-      cómo seleccionar y vender acciones buscando un 8–12% de ROI.
-      Nuestra misión: alfabetización financiera práctica para las familias.
-    </p>
-    <p>
-      <a href="es-books.html">Ver Libros</a> • <a href="es-courses.html">Ver Cursos</a>
-    </p>
-  </div>
+  <section class="card">
+    <p>Una tarde, cuando mi hijo tenía <b>11</b> años, llegó justo cuando entró un depósito en línea. Me preguntó: “¿Cómo ganaste dinero así?” Le dije: “Usando mi cabeza”. Quiso aprender—ahí nació <b>Edunancial</b>.</p>
+    <p>A los <b>15</b> compraba plata y oro físicos, analizaba empresas y practicaba cómo seleccionar y vender acciones con una meta de <b>8–12% de ROI</b>. Nuestra misión: ayudar a las familias a construir educación financiera práctica—una página a la vez.</p>
+    <p><a href="/es-books.html">Ver Libros</a> • <a href="/es-courses.html">Ver Cursos</a></p>
+  </section>
 
-  <h2 style="margin-top:24px">Empieza con el Mini Curso</h2>
-  <div class="card grid cols-2">
-    <div>
-      <div class="tag">Rojo • Blanco • Azul</div>
-      <h3>El Método Edunancial — Mini Curso</h3>
-      <p>SKU: EDN-CRS-MIX-001</p>
-      <p><strong>$75.00</strong></p>
-      <a class="btn" href="es-checkout.html">Ir a Pagar</a>
-    </div>
-    <div>
-      <ul>
-        <li>Conceptos de tax liens y deeds (Rojo)</li>
-        <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Formación de negocios (Azul)</li>
-      </ul>
-    </div>
-  </div>
-</div>
+  <h2>Comienza con el Mini Curso</h2>
+  <section class="card">
+    <h3>Rojo • Blanco • Azul</h3>
+    <h3>Método Edunancial — Mini Curso</h3>
+    <p>SKU: <code>EDN-CRS-MIX-001</code> • <b>$75.00</b></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Ir al Pago</a></p>
+    <ul>
+      <li>Conceptos de tax liens & deeds (Rojo)</li>
+      <li>Selección de acciones para jóvenes y padres (Blanco)</li>
+      <li>Formación de negocios (Azul)</li>
+    </ul>
+  </section>
 
-<footer><div class="wrap">© Edunancial</div></footer>
+  <section class="card">
+    <h3>Membresía</h3>
+    <p>Únete por <b>$5.00/mes</b> • SKU: <code>EDN-MEM-001</code></p>
+    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Suscribirse con PayPal</a></p>
+  </section>
+</main>
 </body></html>
