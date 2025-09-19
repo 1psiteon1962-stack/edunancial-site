@@ -1,32 +1,24 @@
-<!doctype html><html lang="es"><head>
+<!doctype html><html lang="es">
+<head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pago — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
+<title>Pagar — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
 <div id="sitebar"></div><script src="/header.js"></script>
 
 <div class="container">
-  <h1>EDUNANCIAL • PAGO</h1>
+  <h1>Mini Curso: Método Edunancial</h1>
   <div class="card">
-    <h2>Mini Curso: Método Edunancial</h2>
-    <div class="sku">SKU: EDN-CRS-MIX-001</div>
-
-    <form method="GET" action="/.netlify/functions/paypal-redirect">
-      <input type="hidden" name="item" value="EDN-CRS-MIX-001">
-      <input type="hidden" name="name" value="Mini Curso: Método Edunancial">
-      <input type="hidden" name="price" value="75.00">
-
-      <label style="display:flex;gap:10px;align-items:center;margin:12px 0;">
-        <input type="checkbox" name="u18" value="yes">
-        <span>Soy menor de 18</span>
-      </label>
-
-      <label>Código de descuento / menor de edad
-        <input style="width:100%;padding:10px;border:1px solid #ccc;border-radius:8px" name="code" placeholder="Opcional">
-      </label>
-
-      <p style="margin-top:10px;font-size:14px">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
-      <button class="btn" type="submit">Continuar a PayPal</button>
-    </form>
+    <p class="tag">SKU: EDN-MINI-EM-001</p>
+    <p><label><input type="checkbox" checked> Soy menor de 18</label></p>
+    <p><label>Código de descuento / menor de 18
+      <input style="display:block;width:100%;max-width:420px;margin-top:6px" placeholder="Opcional"></label>
+    </p>
+    <p>Al pagar aceptas nuestros <a href="es-terms.html">Términos</a> y <a href="es-refunds.html">Reembolsos</a>.</p>
+    <a class="btn" href="/.netlify/functions/es-paypal-redirect">Continuar con PayPal</a>
   </div>
 </div>
+
+<footer><div class="wrap">© Edunancial</div></footer>
 </body></html>
