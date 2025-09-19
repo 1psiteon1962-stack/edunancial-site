@@ -1,37 +1,25 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pricing — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
+<!doctype html><html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pricing — Edunancial</title><link rel="stylesheet" href="/style.css"></head>
+<body>
 <div id="sitebar"></div><script src="/header.js"></script>
 
 <div class="container">
   <h1>Pricing</h1>
-
   <div class="card">
-    <h2>Membership</h2>
-    <div class="sku">SKU: EDN-MEM-001</div>
-    <p>$4.99 / month — member-only discounts and Q&A sessions.</p>
-    <a class="btn" href="/.netlify/functions/paypal-redirect?item=EDN-MEM-001&price=4.99&name=Membership">Join with PayPal</a>
+    <table class="table">
+      <thead><tr><th>Item</th><th>SKU</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td>Mini Course — The Edunancial Method</td><td>EDN-CRS-MIX-001</td><td>$75.00</td></tr>
+        <tr><td>In-Depth Business Formation (Blue)</td><td>EDN-CRS-BO-001</td><td>$199.00</td></tr>
+        <tr><td>Book: Buying & Flipping Houses (Red)</td><td>EDN-BK-RE-001</td><td>$18.99</td></tr>
+        <tr><td>Book: Options Trading (White)</td><td>EDN-BK-PA-001</td><td>$18.99</td></tr>
+        <tr><td>Book: Business is About Making Profit (Blue)</td><td>EDN-BK-BO-001</td><td>$18.99</td></tr>
+      </tbody>
+    </table>
+    <p style="color:var(--muted)">Prices may change; checkout always shows the current total.</p>
   </div>
-
-  <div class="card">
-    <h2>Mini Course</h2>
-    <div class="sku">SKU: EDN-CRS-MIX-001</div>
-    <p>One-day live session.</p>
-    <div class="price">$75.00</div>
-    <a class="btn" href="/checkout.html">Enroll with PayPal</a>
-  </div>
-
-  <div class="card">
-    <h2>Books (Print)</h2>
-    <ul>
-      <li>Buying &amp; Flipping Houses — $18.99 (SKU: EDN-BK-RE-001)</li>
-      <li>Options Trading — $18.99 (SKU: EDN-BK-PA-001)</li>
-      <li>Business is About Making Profit — $18.99 (SKU: EDN-BK-BO-001)</li>
-    </ul>
-    <a class="btn outline" href="/books.html">Buy Books</a>
-  </div>
-
-  <div class="footer">© Edunancial</div>
 </div>
+
+<footer><div class="wrap">© Edunancial</div></footer>
 </body></html>
