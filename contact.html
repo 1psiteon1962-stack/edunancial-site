@@ -1,9 +1,32 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact — Edunancial</title>
-<link rel="stylesheet" href="/style.css"></head><body>
-<div id="sitebar"></div><script src="/header.js"></script>
-<div class="container"><h1>Contact</h1><div class="card">
-<p>Email: <a href="mailto:info@edunancial.com">info@edunancial.com</a></p>
-</div></div>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="sitebar"></div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const s=document.getElementById("sitebar");
+  s.innerHTML=`
+    <header>EDUNANCIAL</header>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/payments.html">Payments</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/refunds.html">Refunds</a>
+    </nav>
+    <div class="toggle" onclick="location.href='/es-contact.html'">ES</div>
+  `;
+});
+</script>
+
+<main style="padding:1rem;">
+  <h1>Contact</h1>
+  <p>Email: <a href="mailto:info@edunancial.com">info@edunancial.com</a></p>
+</main>
 </body></html>
