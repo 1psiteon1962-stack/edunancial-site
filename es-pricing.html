@@ -1,25 +1,72 @@
-<!doctype html><html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Precios — Edunancial</title><link rel="stylesheet" href="/style.css"></head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Precios — Edunancial</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
-<div id="sitebar"></div><script src="/header.js"></script>
+  <div id="sitebar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const bar = document.getElementById("sitebar");
+      bar.innerHTML = `
+        <header>EDUNANCIAL</header>
+        <nav>
+          <a href="/es-index.html">Inicio</a>
+          <a href="/es-books.html">Libros</a>
+          <a href="/es-courses.html">Cursos</a>
+          <a href="/es-pricing.html">Precios</a>
+          <a href="/es-contact.html">Contacto</a>
+          <a href="/es-privacy.html">Privacidad</a>
+          <a href="/es-terms.html">Términos</a>
+          <a href="/es-refunds.html">Reembolsos</a>
+        </nav>
+        <div class="toggle" onclick="location.href='/pricing.html'">EN</div>
+      `;
+    });
+  </script>
 
-<div class="container">
-  <h1>Precios</h1>
-  <div class="card">
-    <table class="table">
-      <thead><tr><th>Producto</th><th>SKU</th><th>Precio</th></tr></thead>
-      <tbody>
-        <tr><td>Mini Curso — Método Edunancial</td><td>EDN-CRS-MIX-001</td><td>$75.00</td></tr>
-        <tr><td>Curso: Formación de Negocios (Azul)</td><td>EDN-CRS-BO-001</td><td>$199.00</td></tr>
-        <tr><td>Libro: Comprar y Revender Casas (Rojo)</td><td>EDN-BK-RE-001</td><td>$18.99</td></tr>
-        <tr><td>Libro: Opciones (Blanco)</td><td>EDN-BK-PA-001</td><td>$18.99</td></tr>
-        <tr><td>Libro: El Negocio es Ganar Utilidad (Azul)</td><td>EDN-BK-BO-001</td><td>$18.99</td></tr>
-      </tbody>
-    </table>
-    <p style="color:var(--muted)">Los precios pueden cambiar; el pago muestra el total vigente.</p>
-  </div>
-</div>
+  <main style="padding:1rem;">
+    <h2>Precios</h2>
 
-<footer><div class="wrap">© Edunancial</div></footer>
-</body></html>
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>Membresía</h3>
+      <p><b>Todos</b> — un precio bajo.</p>
+      <p><b>$5.00 / mes</b> • SKU: <code>EDN-MEM-001</code></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Suscribirse con PayPal</a></p>
+      <small>El precio puede aumentar en el futuro; los miembros activos mantienen el precio actual hasta cancelar.</small>
+    </section>
+
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>Mini Curso</h3>
+      <p>SKU: <code>EDN-CRS-MIX-001</code></p>
+      <p><b>$75.00</b></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Inscribirse con PayPal</a></p>
+    </section>
+
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px;margin-bottom:16px">
+      <h3>Formación Empresarial en Profundidad</h3>
+      <p>SKU: <code>EDN-CRS-BO-001</code></p>
+      <p><b>$199.00</b></p>
+      <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-BO-001">Inscribirse con PayPal</a></p>
+    </section>
+
+    <section style="border:1px solid #ccc;padding:12px;border-radius:8px">
+      <h3>Libros (Impreso)</h3>
+      <ul>
+        <li>Comprar y Revender Casas con Ganancia — $18.99 • SKU: <code>EDN-BK-RE-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Comprar con PayPal</a>
+        </li>
+        <li>Opciones — Puts, Calls y Estrategia — $18.99 • SKU: <code>EDN-BK-PA-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Comprar con PayPal</a>
+        </li>
+        <li>El Negocio se Trata de Ganar — $18.99 • SKU: <code>EDN-BK-BO-001</code>
+          — <a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Comprar con PayPal</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
