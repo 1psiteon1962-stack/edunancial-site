@@ -1,118 +1,38 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Checkout — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root{--red:#c40000;--ink:#000;--bg:#fff;--card:#fafafa}
-    *{box-sizing:border-box} html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
-    /* Header */
-    header{background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
-    .nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 0}
-    .brand{font-weight:900;letter-spacing:.5px}
-    .nav a{color:#000;text-decoration:none;font-weight:800}
-    .nav a:hover{opacity:.85}
-    .spacer{flex:1}
-    .lang-toggle{padding:8px 14px;background:#000;color:#fff;border-radius:999px;font-weight:900;border:2px solid #111;text-decoration:none}
-    .lang-toggle:hover{background:#1a1a1a}
-    /* Page */
-    main{padding:22px 0}
-    .card{background:#fff;border:1px solid #eee;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.05);padding:18px;margin:14px 0}
-    .row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-    label{font-weight:600}
-    input[type="text"]{padding:8px 10px;border:1px solid #ccc;border-radius:8px}
-    .price{font-weight:900;font-size:22px}
-    .btn{display:inline-block;background:#003087;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
-    .btn:hover{opacity:.95}
-    .muted{color:#666}
-  </style>
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <div class="wrap">
-      <nav class="nav">
-        <div class="brand">EDUNANCIAL</div>
-        <a href="/index.html">Home</a>
-        <a href="/books.html">Books</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/payments.html">Payments</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/refunds.html">Refunds</a>
-        <div class="spacer"></div>
-        <a id="toggleLang" class="lang-toggle" href="/es-checkout.html">Español</a>
-      </nav>
-    </div>
-  </header>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Courses — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+</head><body>
+<header class="topbar"><div class="topbar-inner">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a><a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
+    <a href="/our-story.html">Our Story</a>
+  </nav>
+  <div class="lang-toggle"><a id="to-en" class="secondary">EN</a><a id="to-es">ES</a></div>
+</div></header>
+<script>(function(){var p=location.pathname.split('/').pop()||'courses.html',isES=p.startsWith('es-'),base=isES?p.replace(/^es-/,''):p,es='es-'+base;toEn.href='/'+base;toEs.href='/'+es;if(isES){toEs.classList.remove('secondary');toEn.classList.add('secondary')}else{toEn.classList.remove('secondary');toEs.classList.add('secondary')}})();</script>
 
-  <main class="wrap">
-    <section class="card">
-      <h1>Checkout</h1>
-      <p id="skuLine" class="muted">SKU: (loading…)</p>
+<main class="wrap">
+  <section class="card"><h1>Courses</h1></section>
 
-      <div class="row">
-        <label><input id="u18" type="checkbox"> I am under 18</label>
-        <label> Discount Code:
-          <input id="code" type="text" placeholder="optional (PR12345$$)">
-        </label>
-      </div>
+  <section class="card">
+    <h2>The Edunancial Method — Mini Course</h2>
+    <p><strong>Red • White • Blue</strong></p>
+    <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
+    <a class="btn" href="/checkout.html?sku=EDN-CRS-MIX-001&price=75.00">Enroll with PayPal</a>
+  </section>
 
-      <p>Total: <span id="total" class="price">$0.00</span> <span id="badge" style="font-weight:800;color:#0a0"></span></p>
+  <section class="card">
+    <h2>In-Depth Business Formation</h2>
+    <p><strong>Blue</strong></p>
+    <p><strong>SKU:</strong> EDN-CRS-BO-001 • <strong>$199.00</strong></p>
+    <a class="btn" href="/checkout.html?sku=EDN-CRS-BO-001&price=199.00">Enroll with PayPal</a>
+  </section>
+</main>
 
-      <a id="payBtn" class="btn" href="#">Continue to PayPal</a>
-      <p class="muted" style="margin-top:8px">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
-    </section>
-  </main>
-
-  <script>
-    // Read URL params
-    const qp = new URLSearchParams(location.search);
-    const basePrice = parseFloat(qp.get('price') || '75'); // default course price if missing
-    const sku = (qp.get('sku') || 'EDN-CRS-MIX-001').trim();
-
-    // Elements
-    const skuLine = document.getElementById('skuLine');
-    const u18 = document.getElementById('u18');
-    const code = document.getElementById('code');
-    const totalEl = document.getElementById('total');
-    const badge = document.getElementById('badge');
-    const payBtn = document.getElementById('payBtn');
-    const toggleLang = document.getElementById('toggleLang');
-
-    // Keep params when toggling language
-    toggleLang.href = '/es-checkout.html?' + qp.toString();
-
-    // Visible SKU
-    skuLine.textContent = 'SKU: ' + sku;
-
-    // Your PayPal merchant email (works today)
-    const BUSINESS = '1psiteon1962@gmail.com';
-
-    function computeTotal(){
-      const applyTest = u18.checked || (code.value || '').trim() === 'PR12345$$';
-      const total = applyTest ? 3.00 : basePrice;
-      totalEl.textContent = '$' + total.toFixed(2);
-      badge.textContent = applyTest ? 'testing rate applied' : '';
-
-      // Build PayPal link (classic Buy Now)
-      const itemName = encodeURIComponent(sku);
-      const amount = total.toFixed(2);
-      const returnUrl = encodeURIComponent(location.origin + '/thank-you.html');
-      const cancelUrl = encodeURIComponent(location.origin + '/payments.html');
-
-      const pp = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${encodeURIComponent(BUSINESS)}&item_name=${itemName}&amount=${amount}&currency_code=USD&return=${returnUrl}&cancel_return=${cancelUrl}`;
-
-      payBtn.href = pp;
-    }
-
-    u18.addEventListener('change', computeTotal);
-    code.addEventListener('input', computeTotal);
-
-    computeTotal(); // initial render
-  </script>
-</body>
-</html>
+<footer class="site-footer wrap">© 2025 Edunancial, Inc. • All rights reserved.</footer>
+<script>const toEn=document.getElementById('to-en'),toEs=document.getElementById('to-es');</script>
+</body></html>
