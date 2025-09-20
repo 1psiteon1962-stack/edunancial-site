@@ -1,60 +1,60 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Books — Edunancial</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<div id="sitebar"></div>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
-  const s=document.getElementById("sitebar");
-  s.innerHTML=`
-    <header>EDUNANCIAL</header>
-    <nav>
-      <a href="/index.html">Home</a>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/pricing.html">Pricing</a>
-      <a href="/payments.html">Payments</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/refunds.html">Refunds</a>
-    </nav>
-    <div class="toggle" onclick="location.href='/es-books.html'">ES</div>
-  `;
-});
-</script>
+<style>
+  body,h1,h2,h3,p,a{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:14px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:900}
+  nav{display:flex;gap:14px;flex-wrap:wrap} nav a{color:#000;text-decoration:none;font-weight:700}
+  nav a:hover{text-decoration:underline} .lang{margin-left:auto}
+  .lang a{background:#fff;border:2px solid #000;border-radius:8px;padding:6px 10px;font-weight:800;color:#000;text-decoration:none}
+  main{padding:18px}
+  .card{border:1px solid #eee;border-radius:10px;padding:16px;margin:12px 0}
+  .btn{display:inline-block;background:#0070ba;color:#fff !important;padding:10px 16px;border-radius:8px;font-weight:800;text-decoration:none}
+  .meta{color:#c00;font-weight:800;margin:2px 0 8px}
+</style></head><body>
+<header>
+  <div class="brand">EDUNANCIAL</div>
+  <nav>
+    <a href="index.html">Home</a><a href="books.html">Books</a><a href="courses.html">Courses</a>
+    <a href="checkout.html">Payments</a><a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="refunds.html">Refunds</a>
+    <a href="our-story.html">Our Story</a>
+  </nav>
+  <div class="lang"><a href="es-books.html">🌐 Español</a></div>
+</header>
 
-<main style="padding:1rem;">
+<main>
   <h1>Books</h1>
 
-  <section class="card">
-    <h3>Red • Real Estate</h3>
+  <div class="card">
+    <div class="meta">Red • Real Estate</div>
     <h2>Buying and Flipping Houses for Profit</h2>
-    <p>Author: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-RE-001</code></p>
-    <p>Print: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Buy with PayPal</a></p>
-  </section>
+    <p>Author: <strong>Waldemar M. Caban, JD, MA</strong><br>SKU: <strong>EDN-BK-RE-001</strong><br>Print: <strong>$18.99</strong></p>
+    <p style="margin-top:10px"><a class="btn"
+      href="checkout.html?sku=EDN-BK-RE-001&name=Buying%20and%20Flipping%20Houses%20for%20Profit&price=18.99&paypal=YOUR_PAYPAL_LINK_RE">
+      Buy with PayPal</a></p>
+  </div>
 
-  <section class="card">
-    <h3>White • Paper Assets</h3>
+  <div class="card">
+    <div class="meta">White • Paper Assets</div>
     <h2>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h2>
-    <p>Author: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-PA-001</code></p>
-    <p>Print: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Buy with PayPal</a></p>
-  </section>
+    <p>Author: <strong>Waldemar M. Caban, JD, MA</strong><br>SKU: <strong>EDN-BK-PA-001</strong><br>Print: <strong>$18.99</strong></p>
+    <p style="margin-top:10px"><a class="btn"
+      href="checkout.html?sku=EDN-BK-PA-001&name=Options%20Trading&price=18.99&paypal=YOUR_PAYPAL_LINK_PA">
+      Buy with PayPal</a></p>
+  </div>
 
-  <section class="card">
-    <h3>Blue • Business</h3>
+  <div class="card">
+    <div class="meta">Blue • Business</div>
     <h2>Business is About Making Profit</h2>
-    <p>Author: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-BO-001</code></p>
-    <p>Print: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Buy with PayPal</a></p>
-  </section>
+    <p>Author: <strong>Waldemar M. Caban, JD, MA</strong><br>SKU: <strong>EDN-BK-BO-001</strong><br>Print: <strong>$18.99</strong></p>
+    <p style="margin-top:10px"><a class="btn"
+      href="checkout.html?sku=EDN-BK-BO-001&name=Business%20is%20About%20Making%20Profit&price=18.99&paypal=YOUR_PAYPAL_LINK_BO">
+      Buy with PayPal</a></p>
+  </div>
 
-  <p><i>eBook & audio to follow.</i></p>
+  <p style="margin-top:10px;color:#444"><em>eBook & audio to follow.</em></p>
 </main>
+
+<footer>© 2025 Edunancial, Inc.</footer>
 </body></html>
