@@ -1,104 +1,35 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
   <title>Edunancial — Aprende. Invierte. Gana.</title>
-  <meta name="description" content="Alfabetización financiera práctica para las familias — una página a la vez." />
-  <link rel="icon" href="/favicon.ico" />
-  <style>
-    :root{
-      --red:#c40000; --ink:#111; --paper:#ffffff; --ink-soft:#333; --card:#fafafa; --accent:#000;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
-    a{color:#9b0000;text-decoration:underline}
-    a.btn{display:inline-block;text-decoration:none}
-    .topbar{background:var(--red);color:var(--ink);position:sticky;top:0;z-index:50;box-shadow:0 2px 0 rgba(0,0,0,.15)}
-    .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
-    .nav{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:12px 0}
-    .brand{font-weight:900;letter-spacing:.5px}
-    .nav a{color:var(--ink);font-weight:800;text-decoration:none}
-    .nav a:hover{opacity:.85}
-    .spacer{flex:1}
-    .lang-toggle{padding:8px 14px;background:#000;color:#fff;border-radius:999px;font-weight:900;border:2px solid #111;display:inline-block;box-shadow:0 2px 0 rgba(0,0,0,.25)}
-    .lang-toggle:hover{background:#1a1a1a;text-decoration:none}
-    main{padding:24px 0}
-    .card{background:var(--paper);border-radius:14px;border:1px solid #eee;box-shadow:0 4px 20px rgba(0,0,0,.05);padding:18px;margin:14px 0}
-    h1,h2,h3{line-height:1.2;margin:.2em 0 .4em}
-    h1{font-size:28px} h2{font-size:22px}
-    .lead{font-size:18px;color:var(--ink-soft)}
-    .cta{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:12px;background:#0a58ca;color:#fff;border:0;cursor:pointer}
-    .cta:hover{filter:brightness(.95)}
-    .muted-links a{color:var(--ink-soft);text-decoration:none}
-    .muted-links a:hover{text-decoration:underline}
-    footer{padding:28px 0 36px;color:#666;font-size:14px}
-    @media (max-width:600px){.nav{gap:12px}.nav a{font-size:15px}.brand{width:100%;margin-bottom:2px}}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap">
-      <nav class="nav">
-        <div class="brand">EDUNANCIAL</div>
-        <a href="/es-books.html">Libros</a>
-        <a href="/es-courses.html">Cursos</a>
-        <a href="/es-payments.html">Pagos</a>
-        <a href="/es-contact.html">Contacto</a>
-        <a href="/es-privacy.html">Privacidad</a>
-        <a href="/es-terms.html">Términos</a>
-        <a href="/es-refunds.html">Reembolsos</a>
-        <a href="/es-our-story.html">Nuestra Historia</a>
-        <div class="spacer"></div>
-        <a class="lang-toggle" href="/index.html" rel="nofollow">English</a>
-      </nav>
-    </div>
-  </header>
+  <div id="sitebar"></div><script src="/header.js"></script>
 
-  <main class="wrap">
+  <main class="container">
     <section class="card">
       <h1>Nuestra Historia</h1>
-      <p class="lead">
-        Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos muy abiertos preguntó: “¿Cómo ganaste dinero así?” Le dije: “Usando mi cabeza”.
-        Luego le pregunté: “¿Quieres trabajar con tu cabeza?” “Sí”, respondió, “pero no sé cómo”. Así nació <strong>Edunancial</strong>.
-      </p>
-      <p class="lead">
-        A los 15 compraba plata y oro físicos, analizaba empresas y practicaba cómo seleccionar y vender acciones —con una meta realista y constante de <strong>8–12% ROI</strong>.
-        Aprendimos juntos: marcos sencillos, habilidades prácticas y hábitos disciplinados. Nuestra misión es simple: ayudar a las familias a construir
-        alfabetización financiera <em>práctica</em>—una página a la vez.
-      </p>
-      <p><a href="/es-books.html">Ver Libros</a> · <a href="/es-courses.html">Ver Cursos</a></p>
+      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo hiciste dinero así?” Le dije: “Usando mi cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” “Sí,” respondió, “pero no sé cómo.” Ahí nació <strong>Edunancial</strong>.</p>
+      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces para escoger y está armando un negocio.</p>
+      <p>Lecciones sencillas en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos de Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>Fundaciones de crecimiento de por vida.</strong></p>
+      <p><a class="btn btn-outline" href="/es-books.html">Ver Libros</a> <a class="btn btn-dark" href="/es-courses.html" style="margin-left:10px">Ver Cursos</a></p>
     </section>
 
     <section class="card">
-      <h2>Empieza con el Mini Curso</h2>
-      <p class="lead"><strong>Rojo • Blanco • Azul</strong></p>
-      <h3 class="lead" style="font-size:20px;margin-top:6px">
-        El Método Edunancial — Mini Curso
-      </h3>
-      <p style="margin:.3em 0 1em">
-        <strong>SKU:</strong> EDN-CRS-MIX-001 · <strong>$75.00</strong>
-      </p>
-      <a class="btn cta" href="/es-checkout.html?sku=EDN-CRS-MIX-001">Continuar al pago</a>
-      <ul>
-        <li>Fundamentos de gravámenes e instrumentos tributarios (Rojo)</li>
+      <h2>Comienza con el Mini Curso</h2>
+      <p><strong>Rojo • Blanco • Azul</strong></p>
+      <h3>El Método Edunancial — Mini Curso</h3>
+      <p class="sku">SKU: EDN-CRS-MIX-001 • <span class="price">$75.00</span></p>
+      <a class="btn btn-primary" href="/es-checkout.html?sku=EDN-CRS-MIX-001&price=75">Ir al Pago</a>
+      <ul class="clean">
+        <li>Básicos de tax liens & deeds (Rojo)</li>
         <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Fundamentos de formación de empresas (Azul)</li>
+        <li>Fundamentos de formación de negocios (Azul)</li>
       </ul>
     </section>
   </main>
-
-  <footer class="wrap muted-links">
-    <div>
-      <a href="/es-privacy.html">Privacidad</a> ·
-      <a href="/es-terms.html">Términos</a> ·
-      <a href="/es-refunds.html">Reembolsos</a> ·
-      <a href="/es-security.html">Seguridad</a> ·
-      <a href="/es-cookie-policy.html">Cookies</a>
-    </div>
-    <div style="margin-top:8px">© <span id="yr"></span> Edunancial</div>
-  </footer>
-
-  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
