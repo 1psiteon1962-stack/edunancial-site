@@ -7,31 +7,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Barra roja + nav + alternador EN/ES -->
-  <div id="sitebar"></div>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const s = document.getElementById("sitebar");
-      s.innerHTML = `
-        <header>EDUNANCIAL</header>
-        <nav>
-          <a href="/es-index.html">Inicio</a>
-          <a href="/es-our-story.html"><b>Nuestra Historia</b></a>
-          <a href="/es-books.html">Libros</a>
-          <a href="/es-courses.html">Cursos</a>
-          <a href="/es-pricing.html">Precios</a>
-          <a href="/es-payments.html">Pagos</a>
-          <a href="/es-contact.html">Contacto</a>
-          <a href="/es-privacy.html">Privacidad</a>
-          <a href="/es-terms.html">Términos</a>
-          <a href="/es-refunds.html">Reembolsos</a>
-        </nav>
-        <div class="toggle" onclick="location.href='/our-story.html'">EN</div>
-      `;
-    });
-  </script>
 
-  <main style="padding:1rem;">
+  <!-- BARRA ROJA con letras negras + botón de idioma claro -->
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">EDUNANCIAL</div>
+      <nav class="nav">
+        <a href="/es-index.html">Inicio</a>
+        <a href="/es-our-story.html"><strong>Nuestra Historia</strong></a>
+        <a href="/es-books.html">Libros</a>
+        <a href="/es-courses.html">Cursos</a>
+        <a href="/es-pricing.html">Precios</a>
+        <a href="/es-payments.html">Pagos</a>
+        <a href="/es-contact.html">Contacto</a>
+        <a href="/es-privacy.html">Privacidad</a>
+        <a href="/es-terms.html">Términos</a>
+        <a href="/es-refunds.html">Reembolsos</a>
+      </nav>
+      <a class="lang-btn" href="/our-story.html">EN <small>English</small></a>
+    </div>
+  </header>
+
+  <main class="container">
     <h1>Nuestra Historia</h1>
 
     <section class="card">
@@ -46,17 +43,17 @@
       </p>
       <p>
         Esa frase lo cambió todo. Allí mismo, en la mesa de la cocina, nació <strong>Edunancial</strong>.
-        Decidimos que aprendería cómo funciona el dinero—con claridad, paso a paso y de forma práctica—para
-        que pudiera usar su cabeza con confianza.
+        Hicimos un plan sencillo: aprender cómo funciona el dinero—con claridad, paso a paso y de forma práctica—
+        para que pudiera usar su cabeza con confianza.
       </p>
     </section>
 
     <section class="card">
       <h2>Aprender a Usar la Cabeza</h2>
       <ul>
-        <li><strong>Fundamentos:</strong> presupuesto con propósito, pagarse primero y crear un fondo de emergencia.</li>
+        <li><strong>Fundamentos:</strong> presupuestar con propósito, pagarse primero y crear un fondo de emergencia.</li>
         <li><strong>Práctica real:</strong> acciones pequeñas y constantes—comparar precios, revisar recibos, fijar metas de ahorro.</li>
-        <li><strong>Tiempo para pensar:</strong> mejores preguntas: <em>¿Cuál es el plan? ¿Cuáles son los riesgos? ¿Cuál es el Plan B?</em></li>
+        <li><strong>Tiempo para pensar:</strong> mejores preguntas—<em>¿Cuál es el plan? ¿Cuáles son los riesgos? ¿Cuál es el Plan B?</em></li>
       </ul>
       <p>Mantuvimos todo simple y práctico. Sin jerga. Una página a la vez.</p>
     </section>
@@ -64,31 +61,33 @@
     <section class="card">
       <h2>De los 11 a los 15</h2>
       <p>
-        A los <strong>15</strong> ya tenía hábitos sólidos y curiosidad genuina. Empezó comprando pequeñas cantidades
-        de <strong>plata y oro físicos</strong>, aprendió a leer la historia de una empresa más allá del “ticker”
-        y practicó cómo <strong>seleccionar, comprar y vender acciones</strong> con paciencia—buscando de forma realista
-        un <strong>8–12% de ROI</strong> a lo largo del tiempo.
+        A los <strong>15</strong> ya tenía hábitos sólidos y verdadera curiosidad. Empezó comprando pequeñas cantidades
+        de <strong>plata y oro físicos</strong>, aprendió a leer la historia de una empresa más allá del “ticker” y
+        practicó cómo <strong>seleccionar, comprar y vender acciones</strong> con paciencia—buscando de forma realista
+        un <strong>8–12% de ROI</strong> con el tiempo.
       </p>
-      <p>No fue suerte. Fue usar la cabeza: pensar con claridad, manejar el riesgo y respetar el largo plazo.</p>
+      <p>No fue suerte. Fue usar la cabeza: pensar con claridad, gestionar el riesgo y respetar el largo plazo.</p>
     </section>
 
     <section class="card">
-      <h2>Por Qué Edunancial</h2>
-      <p>
-        Las familias no necesitan más ruido; necesitan una guía simple y práctica que realmente las haga avanzar.
-        Por eso Edunancial se enfoca en pasos utilizables: un concepto, una página y una acción a la vez.
-      </p>
-      <p>Para empezar, visita nuestros <a href="/es-books.html">Libros</a> y <a href="/es-courses.html">Cursos</a>—y si quieres apoyo continuo, únete a la <a href="/es-pricing.html">Membresía</a>.</p>
-    </section>
-
-    <section class="card">
-      <h2>Nuestra Promesa</h2>
+      <h2>Empieza Aquí</h2>
+      <p class="tag">Rojo • Blanco • Azul</p>
+      <p><strong>Método Edunancial — Mini Curso</strong> • SKU: <code>EDN-CRS-MIX-001</code> — <strong>$75.00</strong></p>
+      <p><a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Inscribirse con PayPal</a></p>
       <ul>
-        <li>Lenguaje claro. Sin exageraciones.</li>
-        <li>Metas realistas y conciencia de riesgo.</li>
-        <li>Habilidades que construyen confianza—para jóvenes, padres y cualquiera con ganas de aprender.</li>
+        <li>Conceptos de tax liens &amp; deeds (Rojo)</li>
+        <li>Selección de acciones para jóvenes y padres (Blanco)</li>
+        <li>Formación de negocios (Azul)</li>
       </ul>
-      <p><strong>Usa tu cabeza. Empieza donde estás. Crece con constancia.</strong></p>
+    </section>
+
+    <section class="card">
+      <h2>También Popular</h2>
+      <ul>
+        <li><a href="/es-courses.html">Formación Empresarial en Profundidad — <strong>$199</strong> • SKU: <code>EDN-CRS-BO-001</code></a></li>
+        <li><a href="/es-books.html">Libros (Impreso) — <strong>$18.99</strong> c/u • SKUs: <code>EDN-BK-RE-001</code>, <code>EDN-BK-PA-001</code>, <code>EDN-BK-BO-001</code></a></li>
+        <li><a href="/es-pricing.html">Membresía <strong>$5/mes</strong> • SKU: <code>EDN-MEM-001</code></a></li>
+      </ul>
     </section>
   </main>
 
