@@ -1,60 +1,168 @@
-<!DOCTYPE html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Libros — Edunancial</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<div id="sitebar"></div>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
-  const s=document.getElementById("sitebar");
-  s.innerHTML=`
-    <header>EDUNANCIAL</header>
+<!-- es-books.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Libros – Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: red; color: black; padding: 1rem; text-align: center; }
+    nav { text-align: right; padding: 0.5rem; }
+    nav a { margin-left: 10px; padding: 6px 12px; background: black; color: white; text-decoration: none; border-radius: 5px; }
+    nav a:hover { background: gray; }
+    .legend { background: #f4f4f4; padding: 10px; text-align: center; font-size: 14px; }
+    .legend span { display: inline-block; margin: 0 15px; padding: 5px 10px; border-radius: 5px; color: white; }
+    .legend .red { background: darkred; }
+    .legend .white { background: #f8f8f8; color: black; }
+    .legend .blue { background: navy; }
+    .book-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+    .book { border: 1px solid #ccc; border-radius: 8px; padding: 10px; text-align: center; }
+    .cover { width: 100%; height: 280px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px; border-radius: 6px; }
+    .cover.red { background: darkred; }
+    .cover.white { background: #f8f8f8; color: black; }
+    .cover.blue { background: navy; }
+    .details { margin-top: 10px; }
+    .details p { margin: 5px 0; }
+    .paypal-button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Libros de Edunancial</h1>
     <nav>
-      <a href="/es-index.html">Inicio</a>
-      <a href="/es-books.html">Libros</a>
-      <a href="/es-courses.html">Cursos</a>
-      <a href="/es-pricing.html">Precios</a>
-      <a href="/es-payments.html">Pagos</a>
-      <a href="/es-contact.html">Contacto</a>
-      <a href="/es-privacy.html">Privacidad</a>
-      <a href="/es-terms.html">Términos</a>
-      <a href="/es-refunds.html">Reembolsos</a>
+      <a href="index.html">Inicio</a>
+      <a href="books.html">English</a>
     </nav>
-    <div class="toggle" onclick="location.href='/books.html'">EN</div>
-  `;
-});
-</script>
+  </header>
 
-<main style="padding:1rem;">
-  <h1>Libros</h1>
-
-  <section class="card">
-    <h3>Rojo • Bienes Raíces</h3>
-    <h2>Comprar y Revender Casas con Ganancia</h2>
-    <p>Autor: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-RE-001</code></p>
-    <p>Impreso: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-RE-001">Comprar con PayPal</a></p>
+  <section class="legend">
+    <span class="red">Rojo = Bienes Raíces</span>
+    <span class="white">Blanco = Activos Financieros</span>
+    <span class="blue">Azul = Negocios</span>
   </section>
 
-  <section class="card">
-    <h3>Blanco • Activos en Papel</h3>
-    <h2>Opciones: Guía de Puts, Calls y Estrategia</h2>
-    <p>Autor: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-PA-001</code></p>
-    <p>Impreso: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-PA-001">Comprar con PayPal</a></p>
-  </section>
+  <section class="book-grid">
+    <!-- Libros Blancos -->
+    <div class="book">
+      <div class="cover white">Opciones de Inversión</div>
+      <div class="details">
+        <p>SKU: WHT-001-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $19.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Opciones de Inversión">
+            <input type="hidden" name="amount" value="19.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <section class="card">
-    <h3>Azul • Negocios</h3>
-    <h2>El Negocio se Trata de Ganar</h2>
-    <p>Autor: <b>Waldemar M. Caban</b></p>
-    <p>SKU: <code>EDN-BK-BO-001</code></p>
-    <p>Impreso: <b>$18.99</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-BK-BO-001">Comprar con PayPal</a></p>
-  </section>
+    <div class="book">
+      <div class="cover white">Acciones y Opciones</div>
+      <div class="details">
+        <p>SKU: WHT-002-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $19.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Acciones y Opciones">
+            <input type="hidden" name="amount" value="19.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <p><i>eBook y audio próximamente.</i></p>
-</main>
-</body></html>
+    <!-- Libros Rojos -->
+    <div class="book">
+      <div class="cover red">Construyendo Riqueza con<br>Gravámenes e Impuestos</div>
+      <div class="details">
+        <p>SKU: RED-001-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $24.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Construyendo Riqueza con Gravámenes e Impuestos">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="book">
+      <div class="cover red">Compra y Venta de Casas</div>
+      <div class="details">
+        <p>SKU: RED-002-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $24.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Compra y Venta de Casas">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="book">
+      <div class="cover red">Financiamiento Creativo<br>de Bienes Raíces</div>
+      <div class="details">
+        <p>SKU: RED-003-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $24.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Financiamiento Creativo de Bienes Raíces">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Libros Azules -->
+    <div class="book">
+      <div class="cover blue">El Negocio es<br>Obtener Ganancia</div>
+      <div class="details">
+        <p>SKU: BLU-001-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $24.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="El Negocio es Obtener Ganancia">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="book">
+      <div class="cover blue">Cómo Iniciar un Negocio</div>
+      <div class="details">
+        <p>SKU: BLU-002-ES</p>
+        <p>Autor: Waldemar M. Caban, JD MA</p>
+        <p>Precio: $24.99</p>
+        <div class="paypal-button">
+          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
+            <input type="hidden" name="item_name" value="Cómo Iniciar un Negocio">
+            <input type="hidden" name="amount" value="24.99">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Comprar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
