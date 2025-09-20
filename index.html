@@ -2,34 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Edunancial — Learn. Invest. Profit.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edunancial — Learn. Build. Profit.</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div id="sitebar"></div><script src="/header.js"></script>
 
-  <main class="container">
+  <!-- HEADER (same on all pages) -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">EDUNANCIAL</div>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/books.html">Books</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/payments.html">Payments</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/refunds.html">Refunds</a>
+        <a href="/our-story.html">Our Story</a>
+      </nav>
+      <div class="lang-toggle">
+        <a id="to-en" class="secondary">EN</a>
+        <a id="to-es">ES</a>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function(){
+      var p = location.pathname.split('/').pop() || 'index.html';
+      var isES = p.startsWith('es-');
+      var base = isES ? p.replace(/^es-/, '') : p;
+      var es = 'es-' + base;
+      document.getElementById('to-en').href = '/' + base;
+      document.getElementById('to-es').href = '/' + es;
+      if(isES){ document.getElementById('to-es').classList.remove('secondary'); document.getElementById('to-en').classList.add('secondary'); }
+      else     { document.getElementById('to-en').classList.remove('secondary'); document.getElementById('to-es').classList.add('secondary'); }
+    })();
+  </script>
+
+  <main class="wrap">
     <section class="card">
       <h1>Our Story</h1>
       <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes got wide: “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?” “Yes,” he answered, “but I don’t know how.” That’s when <strong>Edunancial</strong> was born.</p>
-      <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands that there are many areas in real estate to pick from, and is putting a business together.</p>
-      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>Foundations of lifetime growth.</strong></p>
-      <p><a class="btn btn-outline" href="/books.html">See Books</a> <a class="btn btn-dark" href="/courses.html" style="margin-left:10px">See Courses</a></p>
+      <p>At 15, he analyzes, buys, and sells stock with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from, and is putting a business together.</p>
+      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>Foundations of lifetime growth</strong>.</p>
+      <div class="cta-links">
+        <a href="/books.html">See Books</a>
+        <a href="/courses.html">See Courses</a>
+      </div>
     </section>
 
     <section class="card">
       <h2>Start with the Mini Course</h2>
       <p><strong>Red • White • Blue</strong></p>
       <h3>The Edunancial Method — Mini Course</h3>
-      <p class="sku">SKU: EDN-CRS-MIX-001 • <span class="price">$75.00</span></p>
-      <a class="btn btn-primary" href="/checkout.html?sku=EDN-CRS-MIX-001&price=75">Continue to Checkout</a>
-      <ul class="clean">
+      <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
+      <a class="btn" href="/checkout.html?sku=EDN-CRS-MIX-001">Continue to Checkout</a>
+      <ul>
         <li>Basics of tax liens & deeds (Red)</li>
         <li>Stock selection for teens & parents (White)</li>
         <li>Business formation fundamentals (Blue)</li>
       </ul>
     </section>
   </main>
+
+  <footer class="site-footer wrap">
+    © 2025 Edunancial, Inc. • All rights reserved.
+  </footer>
 </body>
 </html>
