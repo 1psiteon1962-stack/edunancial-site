@@ -1,79 +1,57 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Edunancial — Aprende Página por Página</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Barra roja + nav + alternador EN/ES (auto-insertado abajo) -->
-  <div id="sitebar"></div>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const s = document.getElementById("sitebar");
-      s.innerHTML = `
-        <header>EDUNANCIAL</header>
-        <nav>
-          <a href="/es-index.html">Inicio</a>
-          <a href="/es-books.html">Libros</a>
-          <a href="/es-courses.html">Cursos</a>
-          <a href="/es-pricing.html">Precios</a>
-          <a href="/es-payments.html">Pagos</a>
-          <a href="/es-contact.html">Contacto</a>
-          <a href="/es-privacy.html">Privacidad</a>
-          <a href="/es-terms.html">Términos</a>
-          <a href="/es-refunds.html">Reembolsos</a>
-        </nav>
-        <div class="toggle" onclick="location.href='/index.html'">EN</div>
-      `;
-    });
-  </script>
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Aprende. Invierte. Gana.</title>
+<style>
+  body,h1,h2,h3,p,a,ul{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:14px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:900;letter-spacing:.5px}
+  nav{display:flex;gap:14px;flex-wrap:wrap}
+  nav a{color:#000;text-decoration:none;font-weight:700}
+  nav a:hover{text-decoration:underline}
+  .lang{margin-left:auto}
+  .lang a{background:#fff;border:2px solid #000;border-radius:8px;padding:6px 10px;font-weight:800;color:#000;text-decoration:none}
+  main{padding:18px}.section{background:#fff;border:1px solid #eee;border-radius:10px;padding:18px;margin:12px 0}
+  .btn{display:inline-block;background:#0070ba;color:#fff !important;padding:12px 18px;border-radius:8px;font-weight:800;text-decoration:none}
+  footer{margin-top:28px;border-top:1px solid #eee;padding:16px;text-align:center;color:#444}
+</style>
+</head><body>
+<header>
+  <div class="brand">EDUNANCIAL</div>
+  <nav>
+    <a href="es-index.html">Inicio</a><a href="es-books.html">Libros</a><a href="es-courses.html">Cursos</a>
+    <a href="es-checkout.html">Pagos</a><a href="es-contact.html">Contacto</a>
+    <a href="es-privacy.html">Privacidad</a><a href="es-terms.html">Términos</a><a href="es-refunds.html">Reembolsos</a>
+    <a href="es-our-story.html">Nuestra Historia</a>
+  </nav>
+  <div class="lang"><a href="index.html">🌐 English</a></div>
+</header>
 
-  <main style="padding:1rem;">
-    <h1>Nuestra Historia</h1>
-    <section class="card">
-      <p class="lead">
-        Una tarde, cuando mi hijo tenía <strong>11</strong> años, entró justo cuando llegó un depósito en línea.
-        Me preguntó: “¿Cómo ganaste dinero así?” Le respondí: “Usando mi cabeza”.
-        Quiso aprender — y así nació <strong>Edunancial</strong>.
-      </p>
-      <p>
-        A los <strong>15</strong> compraba plata y oro físicos, analizaba empresas y practicaba cómo seleccionar
-        y vender acciones con una meta realista de <strong>8–12% de ROI</strong>. Aprendimos juntos:
-        marcos simples, habilidades prácticas y disciplina. Nuestra misión:
-        ayudar a las familias a construir alfabetización financiera <em>práctica</em> — una página a la vez.
-      </p>
-      <p><a href="/es-books.html">Ver Libros</a> • <a href="/es-courses.html">Ver Cursos</a></p>
-    </section>
+<main>
+  <section class="section">
+    <h2>Nuestra Historia</h2>
+    <p style="font-size:18px;line-height:1.6;margin-top:8px">
+      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Preguntó:
+      “¿Cómo ganaste dinero así?” “Usando la cabeza”, le dije. Quería aprender. Le pregunté:
+      “¿Quieres trabajar con tu cabeza?” “Sí”, respondió, “pero no sé cómo”.
+      Así nació <strong>Edunancial</strong>.
+      <br><br>
+      A los 15 compraba plata y oro físicos, analizaba empresas y practicaba cómo seleccionar y vender acciones,
+      con una meta realista de <strong>8–12% ROI</strong>. Aprendimos juntos: marcos simples, habilidades prácticas
+      y hábitos disciplinados. Nuestra misión es sencilla: ayudar a las familias a construir educación financiera
+      práctica, una página a la vez.
+    </p>
+    <p style="margin-top:14px"><a href="es-books.html">Ver Libros</a> • <a href="es-courses.html">Ver Cursos</a></p>
+  </section>
 
-    <h2 style="margin-top:18px;">Empieza con el Mini Curso</h2>
-    <section class="card">
-      <h3>Rojo • Blanco • Azul</h3>
-      <h3>Método Edunancial — Mini Curso</h3>
-      <p>SKU: <code>EDN-CRS-MIX-001</code> • <strong>$75.00</strong></p>
-      <p>
-        <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Ir al Pago</a>
-      </p>
-      <ul>
-        <li>Conceptos de tax liens &amp; deeds (Rojo)</li>
-        <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Formación de negocios (Azul)</li>
-      </ul>
-    </section>
+  <section class="section">
+    <h3 style="color:#c00;margin-bottom:6px">Comienza con el Mini Curso</h3>
+    <h2>El Método Edunancial — Mini Curso</h2>
+    <p>SKU: <strong>EDN-CRS-MIX-001</strong> • <strong>$75.00</strong></p>
+    <p style="margin-top:10px"><a class="btn"
+      href="es-checkout.html?sku=EDN-CRS-MIX-001&name=El%20M%C3%A9todo%20Edunancial%20—%20Mini%20Curso&price=75.00&paypal=YOUR_PAYPAL_LINK_MINICOURSE">
+      Ir a Pagar</a></p>
+  </section>
+</main>
 
-    <section class="card">
-      <h3>Membresía</h3>
-      <p>Únete por <strong>$5.00/mes</strong> — cancela cuando quieras.</p>
-      <p>SKU: <code>EDN-MEM-001</code></p>
-      <p>
-        <a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-MEM-001">Suscribirse con PayPal</a>
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">© Edunancial</div>
-  </footer>
-</body>
-</html>
+<footer>© 2025 Edunancial, Inc. • West Palm Beach, Florida</footer>
+</body></html>
