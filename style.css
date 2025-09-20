@@ -5,8 +5,8 @@
   --paper:#ffffff;
   --edge:#e6e6e6;
   --link:#0a4fb0;
-  --radius:12px;
-  --shadow:0 2px 10px rgba(0,0,0,.06);
+  --radius:14px;
+  --shadow:0 4px 14px rgba(0,0,0,.08);
   --max:1100px;
 }
 
@@ -38,31 +38,50 @@ h1,h2,h3{margin:0 0 .6rem 0}
   display:flex; gap:14px; flex:1; flex-wrap:wrap; align-items:center;
 }
 .nav a{
-  color:#000; font-weight:800; padding:6px 8px; border-radius:8px;
+  color:#000; font-weight:800; padding:8px 10px; border-radius:8px;
 }
 .nav a:hover{background:#ffffff66; text-decoration:none}
 
-/* ===== Language toggle button (clear & obvious) ===== */
+/* ===== Language toggle — unmistakable button ===== */
 .lang-btn{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 12px; border:2px solid #000; background:#fff; color:#000;
-  font-weight:900; border-radius:999px; text-transform:uppercase; letter-spacing:.3px;
+  gap:.45rem;
+  padding:10px 16px;
+  border:3px solid #000;
+  background:#fff;
+  color:#000;
+  font-weight:900;
+  border-radius:999px;
+  text-transform:uppercase;
+  letter-spacing:.3px;
   box-shadow:var(--shadow);
+  cursor:pointer;
+  user-select:none;
 }
-.lang-btn small{font-weight:700; opacity:.8; margin-left:.35rem; text-transform:none}
-.lang-btn:hover{filter:brightness(.95); text-decoration:none}
+.lang-btn .icon{font-size:1rem; line-height:1}
+.lang-btn .label{font-size:.9rem}
+.lang-btn small{font-weight:700; opacity:.85; text-transform:none}
+.lang-btn:focus-visible{outline:3px solid #000; outline-offset:2px}
+.lang-btn:hover{filter:brightness(.97); text-decoration:none}
 
 /* ===== Layout / cards ===== */
 .container{max-width:var(--max); margin:0 auto; padding:16px}
 .card{background:#fff; border:1px solid var(--edge); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:16px}
-.lead{font-size:1.125rem}
+.lead{font-size:1.15rem}
 .btn{
   display:inline-block; background:#0a4fb0; color:#fff; font-weight:900;
-  padding:10px 16px; border-radius:10px; border:0;
+  padding:10px 16px; border-radius:12px; border:0;
 }
 .btn:hover{filter:brightness(.95); text-decoration:none}
-.tag{display:inline-block; border:1px solid var(--edge); padding:3px 8px; border-radius:999px; font-size:.8rem; font-weight:800; color:#333}
+.tag{display:inline-block; border:1px solid var(--edge); padding:4px 10px; border-radius:999px; font-size:.85rem; font-weight:800; color:#333}
 ul {padding-left:1.2rem}
 
 footer{border-top:1px solid var(--edge); margin-top:24px}
 footer .wrap{max-width:var(--max); margin:0 auto; padding:22px 14px; color:#444}
+
+/* ===== Mobile: keep toggle visible ===== */
+@media (max-width:640px){
+  .topbar .wrap{gap:8px}
+  .nav{gap:10px}
+  .lang-btn{padding:9px 14px}
+}
