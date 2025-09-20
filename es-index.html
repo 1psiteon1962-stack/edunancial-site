@@ -2,34 +2,75 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Edunancial — Aprende. Invierte. Gana.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edunancial — Aprende. Construye. Gana.</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div id="sitebar"></div><script src="/header.js"></script>
 
-  <main class="container">
+  <!-- CABECERA (igual en todas las páginas) -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">EDUNANCIAL</div>
+      <nav class="nav">
+        <a href="/es-index.html">Inicio</a>
+        <a href="/es-books.html">Libros</a>
+        <a href="/es-courses.html">Cursos</a>
+        <a href="/es-payments.html">Pagos</a>
+        <a href="/es-contact.html">Contacto</a>
+        <a href="/es-privacy.html">Privacidad</a>
+        <a href="/es-terms.html">Términos</a>
+        <a href="/es-refunds.html">Reembolsos</a>
+        <a href="/es-our-story.html">Nuestra Historia</a>
+      </nav>
+      <div class="lang-toggle">
+        <a id="to-en" class="secondary">EN</a>
+        <a id="to-es">ES</a>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function(){
+      var p = location.pathname.split('/').pop() || 'es-index.html';
+      var isES = p.startsWith('es-');
+      var base = isES ? p.replace(/^es-/, '') : p;
+      var es = 'es-' + base;
+      document.getElementById('to-en').href = '/' + base;
+      document.getElementById('to-es').href = '/' + es;
+      if(isES){ document.getElementById('to-es').classList.remove('secondary'); document.getElementById('to-en').classList.add('secondary'); }
+      else     { document.getElementById('to-en').classList.remove('secondary'); document.getElementById('to-es').classList.add('secondary'); }
+    })();
+  </script>
+
+  <main class="wrap">
     <section class="card">
       <h1>Nuestra Historia</h1>
-      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo hiciste dinero así?” Le dije: “Usando mi cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” “Sí,” respondió, “pero no sé cómo.” Ahí nació <strong>Edunancial</strong>.</p>
-      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces para escoger y está armando un negocio.</p>
-      <p>Lecciones sencillas en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos de Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>Fundaciones de crecimiento de por vida.</strong></p>
-      <p><a class="btn btn-outline" href="/es-books.html">Ver Libros</a> <a class="btn btn-dark" href="/es-courses.html" style="margin-left:10px">Ver Cursos</a></p>
+      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo ganaste dinero así?”. Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”. “Sí”, respondió, “pero no sé cómo”. Ahí nació <strong>Edunancial</strong>.</p>
+      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>; entiende que hay muchas áreas dentro de bienes raíces para elegir y está armando un negocio.</p>
+      <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>Fundaciones del crecimiento de por vida</strong>.</p>
+      <div class="cta-links">
+        <a href="/es-books.html">Ver Libros</a>
+        <a href="/es-courses.html">Ver Cursos</a>
+      </div>
     </section>
 
     <section class="card">
-      <h2>Comienza con el Mini Curso</h2>
+      <h2>Empieza con el Mini Curso</h2>
       <p><strong>Rojo • Blanco • Azul</strong></p>
       <h3>El Método Edunancial — Mini Curso</h3>
-      <p class="sku">SKU: EDN-CRS-MIX-001 • <span class="price">$75.00</span></p>
-      <a class="btn btn-primary" href="/es-checkout.html?sku=EDN-CRS-MIX-001&price=75">Ir al Pago</a>
-      <ul class="clean">
-        <li>Básicos de tax liens & deeds (Rojo)</li>
+      <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
+      <a class="btn" href="/es-checkout.html?sku=EDN-CRS-MIX-001">Continuar al Pago</a>
+      <ul>
+        <li>Conceptos básicos de embargos y escrituras (Rojo)</li>
         <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Fundamentos de formación de negocios (Azul)</li>
+        <li>Fundamentos de formación de empresas (Azul)</li>
       </ul>
     </section>
   </main>
+
+  <footer class="site-footer wrap">
+    © 2025 Edunancial, Inc. • Todos los derechos reservados.
+  </footer>
 </body>
 </html>
