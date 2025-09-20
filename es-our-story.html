@@ -1,93 +1,46 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nuestra Historia — Edunancial</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nuestra Historia — Edunancial</title>
+<style>
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.bar{max-width:1100px;margin:0 auto;padding:22px 16px;display:flex;align-items:center;gap:18px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:30px;color:#000}
+.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
+.lang{display:flex;gap:10px}.lang a{display:inline-block;padding:10px 18px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+.wrap{max-width:1100px;margin:22px auto;padding:0 16px}.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+h1{margin:4px 0 12px;font-size:36px}h2{margin:0 0 10px}p{margin:8px 0}
+.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+.pillset{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.pill{display:inline-block;padding:6px 12px;border-radius:999px;border:1px solid #000;font-weight:800}
+.pill.red{background:#b30000;color:#fff;border-color:#7a0000}.pill.white{background:#fff;color:#000;border-color:#bbb}.pill.blue{background:#0b4ea2;color:#fff;border-color:#083572}
+footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
+</style>
+</head><body>
+<header><div class="bar">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/es-index.html">Inicio</a><a href="/es-books.html">Libros</a><a href="/es-courses.html">Cursos</a>
+    <a href="/es-payments.html">Pagos</a><a href="/es-contact.html">Contacto</a>
+    <a href="/es-privacy.html">Privacidad</a><a href="/es-terms.html">Términos</a><a href="/es-refunds.html">Reembolsos</a>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+  </nav>
+  <div class="lang"><a id="to-en">EN</a><a id="to-es" class="active">ES</a></div>
+</div></header>
+<script>to-en.href='/our-story.html';to-es.href='/es-our-story.html';</script>
 
-  <!-- BARRA ROJA con letras negras + botón de idioma claro -->
-  <header class="topbar" role="banner">
-    <div class="wrap">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="nav" aria-label="Principal">
-        <a href="/es-index.html">Inicio</a>
-        <a href="/es-our-story.html"><strong>Nuestra Historia</strong></a>
-        <a href="/es-books.html">Libros</a>
-        <a href="/es-courses.html">Cursos</a>
-        <a href="/es-pricing.html">Precios</a>
-        <a href="/es-payments.html">Pagos</a>
-        <a href="/es-contact.html">Contacto</a>
-        <a href="/es-privacy.html">Privacidad</a>
-        <a href="/es-terms.html">Términos</a>
-        <a href="/es-refunds.html">Reembolsos</a>
-      </nav>
-      <a class="lang-btn" href="/our-story.html" aria-label="Cambiar a inglés">
-        <span class="icon">🌐</span><span class="label">EN</span> <small>English</small>
-      </a>
-    </div>
-  </header>
-
-  <main class="container">
+<main class="wrap">
+  <section class="card">
     <h1>Nuestra Historia</h1>
+    <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo ganaste dinero así?”. Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”. Él respondió: “Sí… pero no sé cómo.” <strong>Ahí nació Edunancial.</strong></p>
+    <p>A los 15 años, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>. Entiende que hay muchos caminos dentro de bienes raíces y está armando un negocio.</p>
+    <h2>Simple. Por colores. Potente.</h2>
+    <p class="pillset"><span class="pill red">Rojo = Bienes Raíces</span><span class="pill white">Blanco = Activos en Papel</span><span class="pill blue">Azul = Negocios</span></p>
+    <p>Son las <strong>Fundaciones del crecimiento de por vida</strong>: pasos claros que cualquiera puede aprender, practicar y usar.</p>
+    <a class="btn" href="/es-books.html">Ver Libros</a> <a class="btn" href="/es-courses.html">Ver Cursos</a>
+  </section>
+</main>
 
-    <section class="card">
-      <p class="lead">
-        Una tarde, cuando mi hijo tenía <strong>11</strong> años, acababa de colgar con un cliente cuando
-        mi teléfono mostró un depósito en línea. Con los ojos muy abiertos me preguntó:
-        “¿Cómo ganaste dinero así?”
-      </p>
-      <p>
-        “Usando mi cabeza”, le respondí. Le pregunté si él también quería trabajar con su cabeza.
-        Dijo <strong>“Sí”</strong>, pero añadió: <em>“No sé cómo.”</em>
-        <br>Ahí fue cuando nació <strong>Edunancial</strong>.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>Aprender a Usar la Cabeza</h2>
-      <ul>
-        <li><strong>Fundamentos:</strong> presupuestar con propósito, pagarse primero, crear un fondo de emergencia.</li>
-        <li><strong>Práctica real:</strong> acciones pequeñas y constantes—comparar precios, revisar recibos, fijar metas de ahorro.</li>
-        <li><strong>Tiempo para pensar:</strong> mejores preguntas—<em>¿Cuál es el plan? ¿Riesgos? ¿Plan B?</em></li>
-      </ul>
-      <p>Mantuvimos todo simple y práctico. Sin jerga. Una página a la vez.</p>
-    </section>
-
-    <section class="card">
-      <h2>De los 11 a los 15</h2>
-      <p>
-        A los <strong>15</strong> ya compraba pequeñas cantidades de <strong>plata y oro físicos</strong>, estudiaba
-        empresas y practicaba cómo <strong>seleccionar, comprar y vender acciones</strong> con paciencia—buscando de
-        forma realista un <strong>8–12% de ROI</strong> con el tiempo.
-      </p>
-      <p>No fue suerte. Fue usar la cabeza: pensar con claridad, gestionar el riesgo y respetar el largo plazo.</p>
-    </section>
-
-    <section class="card">
-      <h2>Empieza Aquí</h2>
-      <p class="tag">Rojo • Blanco • Azul</p>
-      <p><strong>Método Edunancial — Mini Curso</strong> • SKU: <code>EDN-CRS-MIX-001</code> — <strong>$75.00</strong></p>
-      <p><a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Inscribirse con PayPal</a></p>
-      <ul>
-        <li>Conceptos de tax liens &amp; deeds (Rojo)</li>
-        <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Formación de negocios (Azul)</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>También Popular</h2>
-      <ul>
-        <li><a href="/es-courses.html">Formación Empresarial en Profundidad — <strong>$199</strong> • SKU: <code>EDN-CRS-BO-001</code></a></li>
-        <li><a href="/es-books.html">Libros (Impreso) — <strong>$18.99</strong> c/u • SKUs: <code>EDN-BK-RE-001</code>, <code>EDN-BK-PA-001</code>, <code>EDN-BK-BO-001</code></a></li>
-        <li><a href="/es-pricing.html">Membresía <strong>$5/mes</strong> • SKU: <code>EDN-MEM-001</code></a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer><div class="wrap">© Edunancial</div></footer>
-</body>
-</html>
+<footer>© 2025 Edunancial, Inc. • Todos los derechos reservados.</footer>
+</body></html>
