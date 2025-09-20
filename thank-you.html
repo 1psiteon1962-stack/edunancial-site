@@ -6,34 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root{--red:#c40000;--ink:#000}
-    *{box-sizing:border-box} html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
-    /* Header */
-    header{background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
-    .nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 0}
-    .brand{font-weight:900;letter-spacing:.5px}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    /* BIG RED BANNER */
+    header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+    .bar{max-width:1100px;margin:0 auto;padding:22px 16px;display:flex;align-items:center;gap:18px}
+    .brand{font-weight:900;letter-spacing:.5px;font-size:30px;color:#000}
+    .nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
     .nav a{color:#000;text-decoration:none;font-weight:800}
-    .nav a:hover{opacity:.85}
-    .spacer{flex:1}
-    .lang-toggle{padding:8px 14px;background:#000;color:#fff;border-radius:999px;font-weight:900;border:2px solid #111;text-decoration:none}
-    .lang-toggle:hover{background:#1a1a1a}
-    /* Page */
-    main{padding:22px 0}
-    .card{background:#fff;border:1px solid #eee;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.05);padding:20px;margin:14px 0}
-    .lead{font-size:18px}
-    .row{display:grid;grid-template-columns:160px 1fr;gap:8px;margin:8px 0}
-    .btn{display:inline-block;background:#003087;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
-    .btn:hover{opacity:.95}
-    .btn-outline{display:inline-block;border:2px solid #000;color:#000;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;background:#fff}
-    .muted{color:#666}
+    .nav a:hover{opacity:.85;text-decoration:underline}
+    .lang{display:flex;gap:10px}
+    .lang a{display:inline-block;padding:10px 18px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+    .lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+    /* PAGE */
+    .wrap{max-width:1100px;margin:22px auto;padding:0 16px}
+    .card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+    h1{margin:4px 0 12px;font-size:36px}
+    p{margin:8px 0}
+    .muted{opacity:.85}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
+    .btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;text-align:center}
+    .btn:hover{filter:brightness(.95)}
+    footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
+    @media (max-width:520px){.brand{font-size:24px}.nav{gap:12px}.lang a{padding:9px 14px} h1{font-size:30px}}
   </style>
 </head>
 <body>
-  <!-- Header -->
+  <!-- HEADER -->
   <header>
-    <div class="wrap">
+    <div class="bar">
+      <div class="brand">EDUNANCIAL</div>
       <nav class="nav">
-        <div class="brand">EDUNANCIAL</div>
         <a href="/index.html">Home</a>
         <a href="/books.html">Books</a>
         <a href="/courses.html">Courses</a>
@@ -42,62 +45,43 @@
         <a href="/privacy.html">Privacy</a>
         <a href="/terms.html">Terms</a>
         <a href="/refunds.html">Refunds</a>
-        <div class="spacer"></div>
-        <a id="toggleLang" class="lang-toggle" href="/es-thank-you.html">Español</a>
+        <a href="/our-story.html">Our Story</a>
       </nav>
+      <div class="lang">
+        <a id="to-en" class="active">EN</a>
+        <a id="to-es">ES</a>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
     <section class="card">
       <h1>Thank You!</h1>
-      <p class="lead">Your payment was received. A confirmation has been sent by PayPal.</p>
+      <p>Your payment was received. A receipt has been sent by PayPal to your email.</p>
+      <p class="muted">If you don’t see it, please check your spam folder.</p>
 
-      <div class="row"><strong>Item (SKU)</strong><div id="sku">(loading…)</div></div>
-      <div class="row"><strong>Amount</strong><div id="amt">$0.00</div></div>
-      <div class="row"><strong>Receipt / Txn ID</strong><div id="tx">(pending)</div></div>
-      <div class="row"><strong>Date</strong><div id="dt"></div></div>
-
-      <p class="muted" style="margin:10px 0 16px">
-        If you have any questions, email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
-      </p>
-
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="/books.html">Explore Books</a>
-        <a class="btn" href="/courses.html">View Courses</a>
-        <a class="btn-outline" href="/index.html">Return Home</a>
+      <div class="grid">
+        <a class="btn" href="/courses.html">Go to Courses</a>
+        <a class="btn" href="/books.html">Browse Books</a>
+        <a class="btn" href="/contact.html">Need Help? Contact Us</a>
+        <a class="btn" href="/index.html">Back to Home</a>
       </div>
+
+      <p style="margin-top:14px" class="muted">
+        Questions about your order? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
+      </p>
     </section>
   </main>
 
+  <footer>© 2025 Edunancial, Inc. • All rights reserved.</footer>
+
   <script>
-    // Read params from PayPal return or our checkout redirect
-    const p = new URLSearchParams(location.search);
-
-    // Keep params when switching language
-    const toggle = document.getElementById('toggleLang');
-    toggle.href = '/es-thank-you.html?' + p.toString();
-
-    // Preferred params we pass around
-    const sku = (p.get('sku') || '').trim();
-    const amount = parseFloat(p.get('amount') || p.get('amt') || '0');
-    // PayPal may return one of these identifiers:
-    const tx = p.get('tx') || p.get('paymentId') || p.get('token') || p.get('PayerID') || '';
-
-    // Fill UI
-    document.getElementById('sku').textContent = sku || '(not provided)';
-    document.getElementById('amt').textContent = amount ? ('$' + amount.toFixed(2)) : '(n/a)';
-    document.getElementById('tx').textContent = tx || '(pending from PayPal)';
-    document.getElementById('dt').textContent = new Date().toLocaleString();
-
-    // If no amount came through, but we have a price in hash (edge cases), try to parse it:
-    if (!amount && location.hash.includes('amount=')) {
-      try {
-        const h = new URLSearchParams(location.hash.replace(/^#/, ''));
-        const altAmount = parseFloat(h.get('amount') || '0');
-        if (altAmount) document.getElementById('amt').textContent = '$' + altAmount.toFixed(2);
-      } catch(e){}
-    }
+    // Language toggle to Spanish counterpart
+    (function(){
+      var en = document.getElementById('to-en');
+      var es = document.getElementById('to-es');
+      if(en && es){ en.href='/thank-you.html'; es.href='/es-thank-you.html'; }
+    })();
   </script>
 </body>
 </html>
