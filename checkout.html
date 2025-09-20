@@ -21,7 +21,7 @@
         </label>
       </div>
 
-      <p>Total: <span class="price" id="total">$0.00</span></p>
+      <p>Total: <span class="price" id="total">$0.00</span> <span id="badge" style="font-weight:800;color:#0a0"></span></p>
 
       <a id="go" class="btn btn-primary" href="#">Continue to PayPal</a>
       <p style="margin-top:8px; color:#666">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
@@ -29,32 +29,32 @@
   </main>
 
   <script>
-    // Get price/sku from query
+    // Read incoming SKU/price
     const q = new URLSearchParams(location.search);
-    const price = parseFloat(q.get('price') || '0');
+    const basePrice = parseFloat(q.get('price') || '0');   // original price
     const sku = q.get('sku') || 'EDN-ITEM';
     document.getElementById('sku').textContent = 'SKU: ' + sku;
 
-    // Pricing: $3 off if under-18 OR code PR12345$$ (never free here)
+    // Elements
     const codeEl = document.getElementById('code');
     const u18El = document.getElementById('u18');
     const totalEl = document.getElementById('total');
+    const badgeEl = document.getElementById('badge');
     const go = document.getElementById('go');
 
+    // Pricing rule: if under-18 OR code PR12345$$, final total is exactly $3.00 (never $0.00)
     function calc(){
-      let discount = 0;
-      const code = (codeEl.value || '').trim();
-      if (u18El.checked) discount += 3;
-      if (code === 'PR12345$$') discount += 3; // stackable if you want
-      if (discount > price - 0.01) discount = Math.max(0, price - 0.01); // never zero total
-      const total = (price - discount);
-      totalEl.textContent = '$' + total.toFixed(2);
+      const hasTestDiscount = u18El.checked || (codeEl.value || '').trim() === 'PR12345$$';
+      const total = hasTestDiscount ? 3.00 : basePrice;
 
-      // Keep your existing PayPal flow: pass amount + sku in the return URL.
-      // Replace the placeholder 'YOUR_PAYPAL_LINK_HERE' with your hosted button or order link if needed.
+      totalEl.textContent = '$' + total.toFixed(2);
+      badgeEl.textContent = hasTestDiscount ? 'testing rate applied' : '';
+
+      // Pass amount & sku to payments page
       const paypalLink = '/payments.html?sku=' + encodeURIComponent(sku) + '&amount=' + total.toFixed(2);
       go.href = paypalLink;
     }
+
     u18El.addEventListener('change', calc);
     codeEl.addEventListener('input', calc);
     calc();
