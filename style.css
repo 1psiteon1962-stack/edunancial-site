@@ -1,91 +1,58 @@
-/* ===== Base ===== */
+/* === Global Reset / Base === */
+*{box-sizing:border-box} html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; line-height:1.5; color:#111; background:#fafafa}
+
+/* === Brand Colors === */
 :root{
-  --brand-red:#C51111;
-  --ink:#000;
-  --paper:#fff;
-  --muted:#666;
-  --radius:12px;
+  --brand-red:#c40000;   /* banner */
+  --brand-dark:#000000;  /* nav text */
+  --accent:#b30000;      /* hover underline */
+  --card:#ffffff;
+  --link:#b30000;
+  --link-hover:#7a0000;
 }
 
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color:var(--ink);
-  background:#f6f6f6;
-}
+/* === Top Banner / Nav === */
+.topbar{position:sticky;top:0;z-index:1000;background:var(--brand-red);box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.topbar-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:14px 16px}
+.brand{font-weight:900;letter-spacing:.5px;color:#000;font-size:28px}
+.nav{display:flex;gap:18px;flex-wrap:wrap}
+.nav a{color:#000;text-decoration:none;font-weight:800}
+.nav a:hover{border-bottom:3px solid var(--brand-dark)}
 
-/* ===== Header / Banner ===== */
-#edn-header{
-  position:sticky; top:0; z-index:1000;
-  background:var(--brand-red);
-  border-bottom:4px solid #9c0d0d;
-}
-#edn-header .bar{
-  max-width:1100px; margin:0 auto; padding:10px 14px;
-  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
-}
-#edn-header .brand{
-  font-weight:900; letter-spacing:.5px; color:#000; font-size:28px;
-}
-#edn-nav{display:flex; gap:18px; flex:1 1 auto; align-items:center; flex-wrap:wrap}
-#edn-nav a{
-  color:#000; text-decoration:none; font-weight:700;
-}
-#edn-nav a:hover{text-decoration:underline}
-
-/* Language toggle */
-.lang-toggle{
-  margin-left:auto;
-  display:inline-flex; align-items:center; gap:10px;
-  background:#000; color:#fff; border-radius:999px;
-  padding:6px 10px; font-weight:800; border:2px solid #fff1;
-}
+.lang-toggle{margin-left:auto;display:flex;gap:10px}
 .lang-toggle a{
-  color:#fff; text-decoration:none; padding:4px 10px; border-radius:999px; display:inline-block;
-  border:1px solid transparent;
+  display:inline-block;padding:8px 14px;border-radius:999px;
+  background:#000;color:#fff;text-decoration:none;
+  font-weight:800;border:2px solid #000; box-shadow:0 1px 2px rgba(0,0,0,.25)
 }
-.lang-toggle a.active{background:#fff; color:#000; border-color:#000}
+.lang-toggle a.secondary{background:#fff;color:#000}
+.lang-toggle a:hover{filter:brightness(.92)}
 
-/* ===== Page shells ===== */
-.container{max-width:1100px; margin:18px auto; padding:0 14px}
-.card{
-  background:var(--paper); border-radius:var(--radius);
-  box-shadow:0 3px 10px rgba(0,0,0,.08);
-  padding:18px; margin:14px 0;
-}
+/* === Page Layout === */
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px}
+.card{background:var(--card);border-radius:14px;padding:18px 16px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin-bottom:18px}
+
+/* Headings & links */
+h1,h2,h3{margin:0 0 12px}
+h1{font-size:34px}
+.cta-links{display:flex;gap:22px;margin-top:10px}
+.cta-links a{font-weight:900;text-decoration:none;color:var(--link);font-size:20px}
+.cta-links a:hover{color:var(--link-hover);text-decoration:underline}
 
 /* Buttons */
-.btn{display:inline-block; padding:12px 18px; border-radius:10px; font-weight:800; text-decoration:none}
-.btn-primary{background:#0b5ed7; color:#fff}
-.btn-dark{background:#000; color:#fff}
-.btn-outline{border:2px solid #000; color:#000; background:#fff}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:#0a5bd8;color:#fff;font-weight:800;text-decoration:none}
+.btn:hover{filter:brightness(.92)}
 
-/* Lists */
-ul.clean{margin:8px 0 0 22px}
+/* Footer */
+.site-footer{padding:28px 16px;color:#333;font-size:14px}
+.site-footer a{color:#333}
 
-/* Price + SKU styling */
-.price{font-weight:900; font-size:22px}
-.sku{color:#900; font-weight:800}
-
-/* ===== “Book cover” blocks (drawn with CSS so you don’t need image files) ===== */
-.book{
-  display:grid; grid-template-columns:120px 1fr; gap:16px; align-items:start;
-  padding:18px; border:1px solid #e6e6e6; border-radius:var(--radius); background:#fff;
-}
-.cover{
-  width:120px; height:170px; border-radius:8px; display:flex; align-items:center; justify-content:center;
-  color:#fff; font-weight:900; text-align:center; padding:10px; line-height:1.1;
-  box-shadow:0 4px 10px rgba(0,0,0,.15);
-}
-.cover.red{background:#d01b1b}
-.cover.white{background:#f0f0f0; color:#111; border:2px solid #ccc}
-.cover.blue{background:#0b4ea3}
-
-/* Small screens */
-@media (max-width:640px){
-  #edn-header .brand{font-size:22px}
-  #edn-nav{gap:12px}
-  .book{grid-template-columns:90px 1fr}
-  .cover{width:90px; height:130px; font-size:12px}
+/* Mobile tweaks */
+@media (max-width:520px){
+  .brand{font-size:22px}
+  .nav{gap:12px}
+  .nav a{font-weight:800}
+  .lang-toggle a{padding:7px 12px}
+  h1{font-size:28px}
 }
