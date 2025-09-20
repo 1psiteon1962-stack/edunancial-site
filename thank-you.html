@@ -1,18 +1,103 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thank You — Edunancial</title>
-<link rel="stylesheet" href="style.css"></head><body>
-<div id="sitebar"></div>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{document.getElementById("sitebar").innerHTML=`
-<header>EDUNANCIAL</header><nav>
-<a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
-<a href="/pricing.html">Pricing</a><a href="/payments.html">Payments</a><a href="/contact.html">Contact</a>
-<a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
-</nav><div class='toggle' onclick="location.href='/gracias.html'">ES</div>`;});
-</script>
-<main style="padding:1rem;">
-<h1>Thank you!</h1>
-<p>Your payment was processed by PayPal. A receipt has been emailed to you.</p>
-<p>Need help? <a href="mailto:info@edunancial.com">info@edunancial.com</a></p>
-</main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Thank You — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{--red:#c40000;--ink:#000}
+    *{box-sizing:border-box} html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+    /* Header */
+    header{background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+    .nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 0}
+    .brand{font-weight:900;letter-spacing:.5px}
+    .nav a{color:#000;text-decoration:none;font-weight:800}
+    .nav a:hover{opacity:.85}
+    .spacer{flex:1}
+    .lang-toggle{padding:8px 14px;background:#000;color:#fff;border-radius:999px;font-weight:900;border:2px solid #111;text-decoration:none}
+    .lang-toggle:hover{background:#1a1a1a}
+    /* Page */
+    main{padding:22px 0}
+    .card{background:#fff;border:1px solid #eee;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.05);padding:20px;margin:14px 0}
+    .lead{font-size:18px}
+    .row{display:grid;grid-template-columns:160px 1fr;gap:8px;margin:8px 0}
+    .btn{display:inline-block;background:#003087;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+    .btn:hover{opacity:.95}
+    .btn-outline{display:inline-block;border:2px solid #000;color:#000;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;background:#fff}
+    .muted{color:#666}
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="wrap">
+      <nav class="nav">
+        <div class="brand">EDUNANCIAL</div>
+        <a href="/index.html">Home</a>
+        <a href="/books.html">Books</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/payments.html">Payments</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/refunds.html">Refunds</a>
+        <div class="spacer"></div>
+        <a id="toggleLang" class="lang-toggle" href="/es-thank-you.html">Español</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h1>Thank You!</h1>
+      <p class="lead">Your payment was received. A confirmation has been sent by PayPal.</p>
+
+      <div class="row"><strong>Item (SKU)</strong><div id="sku">(loading…)</div></div>
+      <div class="row"><strong>Amount</strong><div id="amt">$0.00</div></div>
+      <div class="row"><strong>Receipt / Txn ID</strong><div id="tx">(pending)</div></div>
+      <div class="row"><strong>Date</strong><div id="dt"></div></div>
+
+      <p class="muted" style="margin:10px 0 16px">
+        If you have any questions, email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
+      </p>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="/books.html">Explore Books</a>
+        <a class="btn" href="/courses.html">View Courses</a>
+        <a class="btn-outline" href="/index.html">Return Home</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Read params from PayPal return or our checkout redirect
+    const p = new URLSearchParams(location.search);
+
+    // Keep params when switching language
+    const toggle = document.getElementById('toggleLang');
+    toggle.href = '/es-thank-you.html?' + p.toString();
+
+    // Preferred params we pass around
+    const sku = (p.get('sku') || '').trim();
+    const amount = parseFloat(p.get('amount') || p.get('amt') || '0');
+    // PayPal may return one of these identifiers:
+    const tx = p.get('tx') || p.get('paymentId') || p.get('token') || p.get('PayerID') || '';
+
+    // Fill UI
+    document.getElementById('sku').textContent = sku || '(not provided)';
+    document.getElementById('amt').textContent = amount ? ('$' + amount.toFixed(2)) : '(n/a)';
+    document.getElementById('tx').textContent = tx || '(pending from PayPal)';
+    document.getElementById('dt').textContent = new Date().toLocaleString();
+
+    // If no amount came through, but we have a price in hash (edge cases), try to parse it:
+    if (!amount && location.hash.includes('amount=')) {
+      try {
+        const h = new URLSearchParams(location.hash.replace(/^#/, ''));
+        const altAmount = parseFloat(h.get('amount') || '0');
+        if (altAmount) document.getElementById('amt').textContent = '$' + altAmount.toFixed(2);
+      } catch(e){}
+    }
+  </script>
+</body>
+</html>
