@@ -1,58 +1,110 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Pagar — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8" />
+  <title>Pago — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{--red:#c40000;--ink:#000;--bg:#fff;--card:#fafafa}
+    *{box-sizing:border-box} html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+    header{background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+    .nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 0}
+    .brand{font-weight:900;letter-spacing:.5px}
+    .nav a{color:#000;text-decoration:none;font-weight:800}
+    .nav a:hover{opacity:.85}
+    .spacer{flex:1}
+    .lang-toggle{padding:8px 14px;background:#000;color:#fff;border-radius:999px;font-weight:900;border:2px solid #111;text-decoration:none}
+    .lang-toggle:hover{background:#1a1a1a}
+    main{padding:22px 0}
+    .card{background:#fff;border:1px solid #eee;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.05);padding:18px;margin:14px 0}
+    .row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+    label{font-weight:600}
+    input[type="text"]{padding:8px 10px;border:1px solid #ccc;border-radius:8px}
+    .price{font-weight:900;font-size:22px}
+    .btn{display:inline-block;background:#003087;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+    .btn:hover{opacity:.95}
+    .muted{color:#666}
+  </style>
 </head>
 <body>
-  <div id="sitebar"></div><script src="/header.js"></script>
+  <header>
+    <div class="wrap">
+      <nav class="nav">
+        <div class="brand">EDUNANCIAL</div>
+        <a href="/es-index.html">Inicio</a>
+        <a href="/es-books.html">Libros</a>
+        <a href="/es-courses.html">Cursos</a>
+        <a href="/es-payments.html">Pagos</a>
+        <a href="/es-contact.html">Contacto</a>
+        <a href="/es-privacy.html">Privacidad</a>
+        <a href="/es-terms.html">Términos</a>
+        <a href="/es-refunds.html">Reembolsos</a>
+        <div class="spacer"></div>
+        <a id="toggleLang" class="lang-toggle" href="/checkout.html">English</a>
+      </nav>
+    </div>
+  </header>
 
-  <main class="container">
+  <main class="wrap">
     <section class="card">
       <h1>Pago</h1>
-      <p class="sku" id="sku">SKU: (cargando…)</p>
+      <p id="skuLine" class="muted">SKU: (cargando…)</p>
 
-      <div style="display:flex; gap:18px; align-items:center; flex-wrap:wrap">
-        <label><input type="checkbox" id="u18"> Soy menor de 18</label>
-        <label> Código de Descuento / Menor de 18:
-          <input id="code" type="text" placeholder="opcional" style="padding:8px;border-radius:8px;border:1px solid #ccc">
+      <div class="row">
+        <label><input id="u18" type="checkbox"> Soy menor de 18</label>
+        <label> Código de descuento:
+          <input id="code" type="text" placeholder="opcional (PR12345$$)">
         </label>
       </div>
 
-      <p>Total: <span class="price" id="total">$0.00</span> <span id="badge" style="font-weight:800;color:#0a0"></span></p>
+      <p>Total: <span id="total" class="price">$0.00</span> <span id="badge" style="font-weight:800;color:#0a0"></span></p>
 
-      <a id="go" class="btn btn-primary" href="#">Continuar a PayPal</a>
-      <p style="margin-top:8px; color:#666">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
+      <a id="payBtn" class="btn" href="#">Continuar a PayPal</a>
+      <p class="muted" style="margin-top:8px">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
     </section>
   </main>
 
   <script>
-    const q = new URLSearchParams(location.search);
-    const basePrice = parseFloat(q.get('price') || '0');
-    const sku = q.get('sku') || 'EDN-ITEM';
-    document.getElementById('sku').textContent = 'SKU: ' + sku;
+    const qp = new URLSearchParams(location.search);
+    const basePrice = parseFloat(qp.get('price') || '75');
+    const sku = (qp.get('sku') || 'EDN-CRS-MIX-001').trim();
 
-    const codeEl = document.getElementById('code');
-    const u18El = document.getElementById('u18');
+    const skuLine = document.getElementById('skuLine');
+    const u18 = document.getElementById('u18');
+    const code = document.getElementById('code');
     const totalEl = document.getElementById('total');
-    const badgeEl = document.getElementById('badge');
-    const go = document.getElementById('go');
+    const badge = document.getElementById('badge');
+    const payBtn = document.getElementById('payBtn');
+    const toggleLang = document.getElementById('toggleLang');
 
-    function calc(){
-      const tieneDescuento = u18El.checked || (codeEl.value || '').trim() === 'PR12345$$';
-      const total = tieneDescuento ? 3.00 : basePrice;
+    // Preserve params switching languages
+    toggleLang.href = '/checkout.html?' + qp.toString();
 
+    skuLine.textContent = 'SKU: ' + sku;
+
+    const BUSINESS = '1psiteon1962@gmail.com'; // tu cuenta PayPal comerciante
+
+    function calcular(){
+      const aplicaPrueba = u18.checked || (code.value || '').trim() === 'PR12345$$';
+      const total = aplicaPrueba ? 3.00 : basePrice;
       totalEl.textContent = '$' + total.toFixed(2);
-      badgeEl.textContent = tieneDescuento ? 'tarifa de prueba aplicada' : '';
+      badge.textContent = aplicaPrueba ? 'tarifa de prueba aplicada' : '';
 
-      const paypalLink = '/es-payments.html?sku=' + encodeURIComponent(sku) + '&amount=' + total.toFixed(2);
-      go.href = paypalLink;
+      const itemName = encodeURIComponent(sku);
+      const amount = total.toFixed(2);
+      const returnUrl = encodeURIComponent(location.origin + '/es-thank-you.html');
+      const cancelUrl = encodeURIComponent(location.origin + '/es-payments.html');
+
+      const pp = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${encodeURIComponent(BUSINESS)}&item_name=${itemName}&amount=${amount}&currency_code=USD&return=${returnUrl}&cancel_return=${cancelUrl}`;
+
+      payBtn.href = pp;
     }
-    u18El.addEventListener('change', calc);
-    codeEl.addEventListener('input', calc);
-    calc();
+
+    u18.addEventListener('change', calcular);
+    code.addEventListener('input', calcular);
+
+    calcular();
   </script>
 </body>
 </html>
