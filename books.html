@@ -1,134 +1,95 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Books — Edunancial</title>
-  <link rel="stylesheet" href="/style.css" />
-  <style>
-    /* Fallback in case style.css misses anything */
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#fafafa;color:#111;margin:0}
-    .container{max-width:980px;margin:0 auto;padding:16px}
-    .color-key{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px}
-    .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid #000;font-weight:600}
-    .pill.red{background:#b30000;color:#fff;border-color:#7a0000}
-    .pill.white{background:#ffffff;color:#000;border-color:#bbb}
-    .pill.blue{background:#0b4ea2;color:#fff;border-color:#083572}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-    .card{background:#fff;border:1px solid #ddd;border-radius:12px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
-    .cover{height:180px;border-radius:10px;display:flex;align-items:center;justify-content:center;
-           text-align:center;padding:12px;font-weight:800;line-height:1.1}
-    .cover.red{background:#d71920;color:#fff}
-    .cover.white{background:#f1f1f1;color:#111;border:1px solid #ddd}
-    .cover.blue{background:#0b4ea2;color:#fff}
-    .title{font-size:18px;margin:12px 0 6px}
-    .meta{font-size:14px;margin:2px 0}
-    .sku{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
-    .price{font-weight:800;margin:6px 0 10px}
-    .btn{display:inline-block;background:#003087;color:#fff;padding:10px 14px;border-radius:8px;
-         text-decoration:none;font-weight:700}
-    h1{margin:12px 0 10px}
-    /* top red bar (in case header.js hasn’t loaded yet) */
-    #edn-sitebar{background:#c40000}
-    #edn-sitebar a{color:#000}
-    #edn-lang .btn-toggle{background:#000;color:#fff}
-  </style>
-</head>
-<body>
-  <!-- Global header + toggle -->
-  <div id="sitebar"></div>
-  <script src="/header.js"></script>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Books — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+</head><body>
 
-  <main class="container">
+<header class="topbar"><div class="topbar-inner">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a><a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
+    <a href="/our-story.html">Our Story</a>
+  </nav>
+  <div class="lang-toggle"><a id="to-en" class="secondary">EN</a><a id="to-es">ES</a></div>
+</div></header>
+<script>(function(){var p=location.pathname.split('/').pop()||'books.html',isES=p.startsWith('es-'),base=isES?p.replace(/^es-/,''):p,es='es-'+base;toEn.href='/'+base;toEs.href='/'+es;if(isES){toEs.classList.remove('secondary');toEn.classList.add('secondary')}else{toEn.classList.remove('secondary');toEs.classList.add('secondary')}})();</script>
+
+<main class="wrap">
+  <section class="card">
     <h1>Books</h1>
+    <p><strong>Color key:</strong> <span style="color:#b30000;font-weight:900">Red</span> = Real Estate • <span style="font-weight:900">White</span> = Paper Assets • <span style="color:#0a0a9c;font-weight:900">Blue</span> = Business</p>
+  </section>
 
-    <div class="color-key">
-      <span class="pill red">Red · Real Estate</span>
-      <span class="pill white">White · Paper Assets</span>
-      <span class="pill blue">Blue · Business</span>
-    </div>
+  <!-- Book list (8 titles) -->
+  <section class="card">
+    <p style="font-weight:900;color:#b30000">Red • Real Estate</p>
+    <h2>Buying and Flipping Houses for Profit</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-RE-001 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-RE-001&price=18.99">Buy with PayPal</a>
+  </section>
 
-    <section class="grid">
+  <section class="card">
+    <p style="font-weight:900;color:#b30000">Red • Real Estate</p>
+    <h2>Tax Liens & Deeds — A Practical Start</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-RE-002 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-RE-002&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <!-- RED / REAL ESTATE -->
-      <article class="card">
-        <div class="cover red">Building Wealth with<br/>Tax Liens & Deeds</div>
-        <div class="title">Building Wealth with Tax Liens & Tax Deeds</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-RED-001</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-RED-001&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900">White • Paper Assets</p>
+    <h2>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-PA-001 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-PA-001&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <article class="card">
-        <div class="cover red">House Flipping<br/>for Beginners</div>
-        <div class="title">House Flipping for Beginners</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-RED-002</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-RED-002&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900">White • Paper Assets</p>
+    <h2>Teen & Parent Stock Selection Playbook</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-PA-002 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-PA-002&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <!-- WHITE / PAPER ASSETS -->
-      <article class="card">
-        <div class="cover white">Options Trading<br/>Made Simple</div>
-        <div class="title">Options Trading Made Simple</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-WHT-001</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-WHT-001&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900">White • Paper Assets</p>
+    <h2>Silver & Gold: Buying Physical Metals the Smart Way</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-PA-003 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-PA-003&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <article class="card">
-        <div class="cover white">Investing in<br/>Stocks & Bonds</div>
-        <div class="title">Investing in Stocks & Bonds</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-WHT-002</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-WHT-002&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900;color:#0a0a9c">Blue • Business</p>
+    <h2>Business is About Making Profit</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-BO-001 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-BO-001&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <!-- BLUE / BUSINESS -->
-      <article class="card">
-        <div class="cover blue">Business is About<br/>Making Profit</div>
-        <div class="title">Business is About Making Profit</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-BLU-001</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-BLU-001&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900;color:#0a0a9c">Blue • Business</p>
+    <h2>Start Your LLC Right — Formation to First Dollar</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-BO-002 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-BO-002&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <article class="card">
-        <div class="cover blue">Starting Your Own<br/>Business Step-by-Step</div>
-        <div class="title">Starting Your Own Business Step-by-Step</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-BLU-002</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-BLU-002&price=18.99">Buy with PayPal</a>
-      </article>
+  <section class="card">
+    <p style="font-weight:900;color:#0a0a9c">Blue • Business</p>
+    <h2>From Side Hustle to Real Business</h2>
+    <p><strong>Author:</strong> Waldemar M. Caban, JD MA</p>
+    <p><strong>SKU:</strong> EDN-BK-BO-003 • <strong>Print:</strong> $18.99</p>
+    <a class="btn" href="/checkout.html?sku=EDN-BK-BO-003&price=18.99">Buy with PayPal</a>
+  </section>
 
-      <!-- SPECIALS -->
-      <article class="card">
-        <div class="cover blue">Creative Real Estate<br/>Financing</div>
-        <div class="title">Creative Real Estate Financing</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-SPC-001</div>
-        <div class="price">$18.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-SPC-001&price=18.99">Buy with PayPal</a>
-      </article>
+  <p class="wrap" style="opacity:.8">eBook & audio to follow.</p>
+</main>
 
-      <article class="card">
-        <div class="cover red">The Edunancial<br/>Method</div>
-        <div class="title">The Edunancial Method (Mini Book)</div>
-        <div class="meta">Author: Waldemar M. Caban, JD MA</div>
-        <div class="meta sku">SKU: EDN-BK-MIX-001</div>
-        <div class="price">$9.99</div>
-        <a class="btn" href="/checkout.html?sku=EDN-BK-MIX-001&price=9.99">Buy with PayPal</a>
-      </article>
-
-    </section>
-
-    <p style="margin-top:18px;color:#444"><em>Note:</em> eBook & audio to follow.</p>
-  </main>
-</body>
-</html>
+<footer class="site-footer wrap">© 2025 Edunancial, Inc. • All rights reserved.</footer>
+<script>const toEn=document.getElementById('to-en'),toEs=document.getElementById('to-es');</script>
+</body></html>
