@@ -1,37 +1,101 @@
-<header>
-  <div style="background: red; padding: 20px; text-align: center;">
-    <h1 style="margin: 0; font-size: 28px; color: black;">EDUNANCIAL</h1>
-    <nav style="margin-top: 10px;">
-      <a href="index.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Home</a>
-      <a href="books.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Books</a>
-      <a href="courses.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Courses</a>
-      <a href="payments.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Payments</a>
-      <a href="contact.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Contact</a>
-      <a href="privacy.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Privacy</a>
-      <a href="terms.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Terms</a>
-      <a href="refunds.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Refunds</a>
-      <a href="ourstory.html" style="margin: 0 10px; color: black; text-decoration: none; font-weight: bold;">Our Story</a>
-      <a href="es-index.html" style="margin-left: 20px; padding: 6px 12px; background: black; color: white; border-radius: 5px; text-decoration: none;">Español</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Edunancial — Home</title>
+<meta name="description" content="Practical financial literacy for families — one page at a time."/>
+<style>
+:root{--brand-red:#cc0000;--ink:#000;--bg:#fff;--muted:#666;--card:#fafafa;--shadow:0 8px 16px rgba(0,0,0,.08)}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:#0b57d0;text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.banner{background:var(--brand-red);color:var(--ink);box-shadow:var(--shadow)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 16px}
+.brand{margin:0;font-weight:800;letter-spacing:.5px}
+.brand a{color:var(--ink);text-decoration:none}
+.nav{display:flex;flex-wrap:wrap;gap:14px}
+.nav a{color:var(--ink);font-weight:700}
+.lang-toggle{padding:8px 14px;background:var(--ink);color:#fff;border-radius:8px;font-weight:800;box-shadow:var(--shadow)}
+.lang-toggle:hover{text-decoration:none;opacity:.92}
+h2{font-size:28px;margin:0 0 12px}
+.lede{font-size:18px}.card{background:var(--card);border:1px solid #eee;border-radius:12px;padding:18px;box-shadow:var(--shadow)}
+.stack{display:grid;gap:22px}.pill{display:inline-block;background:#fee;color:#900;border:1px solid #f5c2c2;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700}
+.sku{color:var(--muted);font-family:ui-monospace,Menlo,Consolas,monospace}.price{font-size:22px;font-weight:800}
+.btn{display:inline-block;background:#0b57d0;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;box-shadow:var(--shadow)}
+.btn:hover{opacity:.93;text-decoration:none}
+.legal{display:flex;flex-wrap:wrap;gap:14px;font-size:14px}footer{border-top:1px solid #eee;margin-top:36px;background:#fff}
+@media(max-width:720px){.topbar{flex-direction:column;align-items:flex-start;gap:10px}.brand{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="banner">
+  <div class="container topbar">
+    <h1 class="brand"><a href="index.html">EDUNANCIAL</a></h1>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="courses.html">Courses</a>
+      <a href="payments.html">Payments</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="refunds.html">Refunds</a>
+      <a href="our-story.html">Our Story</a>
+      <a class="lang-toggle" href="es-index.html" aria-label="Switch to Spanish">Español</a>
     </nav>
   </div>
 </header>
 
-<section style="padding: 20px;">
-  <h2>Our Story</h2>
-  <p>
-    One afternoon when my son was 11, he walked in just as an online deposit arrived.
-    His eyes got wide: “How did you make money like that?” I said, “By using my head.”
-    Then I asked him, “Do you want to work with your head?”  
-    “Yes,” he answered, “but I don’t know how.” That’s when <strong>Edunancial</strong> was born.
-  </p>
-  <p>
-    By 15 he was buying physical silver and gold, analyzing companies, and practicing
-    how to select and sell stocks—aiming for a steady, realistic goal of
-    <strong>8–12% ROI</strong>. We learned together: simple frameworks, practical skills,
-    and disciplined habits. Our mission is simple: help families build
-    <em>practical</em> financial literacy — one page at a time.
-  </p>
-  <p>
-    <a href="books.html">See Books</a> • <a href="courses.html">See Courses</a>
-  </p>
-</section>
+<main class="container">
+  <section class="stack">
+    <div class="card">
+      <h2>Our Story</h2>
+      <p class="lede">
+        One afternoon when my son was 11, he walked in just as an online deposit arrived.
+        His eyes got wide: “How did you make money like that?” I said, “By using my head.”
+        <strong>Then I asked him</strong>, “Do you want to work with your head?”
+        “Yes,” he answered, “but I don’t know how.” <strong>That’s when Edunancial was born.</strong>
+      </p>
+      <p>
+        By 15 he was buying physical silver and gold, analyzing companies, and practicing how to
+        select and sell stocks—aiming for a steady, realistic <strong>8–12% ROI</strong>. We learned
+        together: simple frameworks, practical skills, and disciplined habits. Our mission is simple:
+        help families build <em>practical</em> financial literacy—one page at a time.
+      </p>
+      <p><a href="books.html">See Books</a> • <a href="courses.html">See Courses</a></p>
+    </div>
+
+    <div class="card">
+      <span class="pill">Red • White • Blue</span>
+      <h2 style="margin-top:10px">The Edunancial Method — Mini Course</h2>
+      <p class="sku">SKU: EDN-CRS-MIX-001</p>
+      <p class="price">$75.00</p>
+      <p>
+        • Tax liens & deeds basics (Red)<br/>
+        • Stock selection for teens & parents (White)<br/>
+        • Business formation fundamentals (Blue)
+      </p>
+      <a class="btn" href="checkout.html?sku=EDN-CRS-MIX-001&amount=75">Continue to Checkout</a>
+    </div>
+
+    <div class="card" style="display:grid;gap:10px">
+      <strong>Start here</strong>
+      <div>
+        <a class="btn" href="books.html">Explore Books</a>
+        <a class="btn" href="courses.html" style="margin-left:10px">View Courses</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="container">
+  <div class="legal" style="margin:14px 0 8px">
+    <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+    <a href="refunds.html">Refunds</a><a href="security.html">Security</a><a href="contact.html">Contact</a>
+  </div>
+  <div style="font-size:14px;color:#777;margin-bottom:24px">© <span id="yr"></span> Edunancial. All rights reserved.</div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
