@@ -1,157 +1,86 @@
-<!-- books.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Books – Edunancial</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: red; color: black; padding: 1rem; text-align: center; }
-    nav { text-align: right; padding: 0.5rem; }
-    nav a { margin-left: 10px; padding: 6px 12px; background: black; color: white; text-decoration: none; border-radius: 5px; }
-    nav a:hover { background: gray; }
-    .book-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
-    .book { border: 1px solid #ccc; border-radius: 8px; padding: 10px; text-align: center; }
-    .cover { width: 100%; height: 280px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px; border-radius: 6px; }
-    .cover.red { background: darkred; }
-    .cover.white { background: #f8f8f8; color: black; }
-    .cover.blue { background: navy; }
-    .details { margin-top: 10px; }
-    .details p { margin: 5px 0; }
-    .paypal-button { margin-top: 10px; }
-  </style>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Edunancial — Books</title>
+<style>
+:root{--brand-red:#cc0000;--ink:#000;--card:#fafafa;--shadow:0 8px 16px rgba(0,0,0,.08)}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif;color:#111}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.banner{background:var(--brand-red);color:var(--ink);box-shadow:var(--shadow)}.topbar{display:flex;justify-content:space-between;gap:16px;padding:18px 16px}
+.brand{margin:0;font-weight:800}.brand a{color:var(--ink);text-decoration:none}
+.nav{display:flex;flex-wrap:wrap;gap:14px}.nav a{color:var(--ink);font-weight:700}
+.lang-toggle{padding:8px 14px;background:var(--ink);color:#fff;border-radius:8px;font-weight:800}
+h1{margin:16px 0 8px}.card{background:var(--card);border:1px solid #eee;border-radius:12px;padding:18px;box-shadow:var(--shadow);margin-bottom:18px}
+.title{font-size:22px;font-weight:900;margin:6px 0 4px;color:#b10000}.sku{color:#666;font-family:ui-monospace,Menlo,Consolas,monospace}
+.price{font-weight:900}.btn{display:inline-block;background:#0b57d0;color:#fff;padding:10px 14px;border-radius:10px;font-weight:800;text-decoration:none}
+.figure{display:flex;gap:14px;align-items:flex-start}
+.cover{width:96px;height:140px;object-fit:cover;border:1px solid #ddd;border-radius:6px;background:#fff}
+.badge{display:inline-block;background:#fee;color:#900;border:1px solid #f5c2c2;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Edunancial Books</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="es-books.html">Español</a>
+<header class="banner">
+  <div class="container topbar">
+    <h1 class="brand"><a href="index.html">EDUNANCIAL</a></h1>
+    <nav class="nav">
+      <a href="index.html">Home</a><a href="books.html">Books</a><a href="courses.html">Courses</a>
+      <a href="payments.html">Payments</a><a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="refunds.html">Refunds</a>
+      <a class="lang-toggle" href="es-books.html">Español</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <section class="book-grid">
-    <!-- White Books -->
-    <div class="book">
-      <div class="cover white">Options Trading</div>
-      <div class="details">
-        <p>SKU: WHT-001</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $19.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Options Trading">
-            <input type="hidden" name="amount" value="19.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
+<main class="container">
+  <h1>Books</h1>
+
+  <!-- Red • Real Estate -->
+  <article class="card">
+    <span class="badge">Red • Real Estate</span>
+    <div class="figure">
+      <img class="cover" src="/assets/books/en-buying-flipping.jpg" alt="Buying and Flipping Houses for Profit cover"/>
+      <div>
+        <div class="title">Buying and Flipping Houses for Profit</div>
+        <div>Author: <strong>Waldemar M. Caban, JD, MA</strong></div>
+        <div class="sku">SKU: EDN-BK-RE-001</div>
+        <p>Print: <span class="price">$18.99</span></p>
+        <a class="btn" href="checkout.html?sku=EDN-BK-RE-001&amount=18.99">Buy with PayPal</a>
       </div>
     </div>
+  </article>
 
-    <div class="book">
-      <div class="cover white">Stocks & Options</div>
-      <div class="details">
-        <p>SKU: WHT-002</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $19.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Stocks & Options">
-            <input type="hidden" name="amount" value="19.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
+  <!-- White • Paper Assets -->
+  <article class="card">
+    <span class="badge">White • Paper Assets</span>
+    <div class="figure">
+      <img class="cover" src="/assets/books/en-options-trading.jpg" alt="Options Trading cover"/>
+      <div>
+        <div class="title">Options Trading: Your Guide to Puts, Calls & Smart Strategy</div>
+        <div>Author: <strong>Waldemar M. Caban, JD, MA</strong></div>
+        <div class="sku">SKU: EDN-BK-PA-001</div>
+        <p>Print: <span class="price">$18.99</span></p>
+        <a class="btn" href="checkout.html?sku=EDN-BK-PA-001&amount=18.99">Buy with PayPal</a>
       </div>
     </div>
+  </article>
 
-    <!-- Red Books -->
-    <div class="book">
-      <div class="cover red">Building Wealth with<br>Tax Liens & Deeds</div>
-      <div class="details">
-        <p>SKU: RED-001</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $24.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Building Wealth with Tax Liens & Deeds">
-            <input type="hidden" name="amount" value="24.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
+  <!-- Blue • Business -->
+  <article class="card">
+    <span class="badge">Blue • Business</span>
+    <div class="figure">
+      <img class="cover" src="/assets/books/en-business-profit.jpg" alt="Business is About Making Profit cover"/>
+      <div>
+        <div class="title">Business is About Making Profit</div>
+        <div>Author: <strong>Waldemar M. Caban, JD, MA</strong></div>
+        <div class="sku">SKU: EDN-BK-BO-001</div>
+        <p>Print: <span class="price">$18.99</span></p>
+        <a class="btn" href="checkout.html?sku=EDN-BK-BO-001&amount=18.99">Buy with PayPal</a>
       </div>
     </div>
+  </article>
 
-    <div class="book">
-      <div class="cover red">House Flipping</div>
-      <div class="details">
-        <p>SKU: RED-002</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $24.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="House Flipping">
-            <input type="hidden" name="amount" value="24.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <div class="book">
-      <div class="cover red">Creative Real Estate Financing</div>
-      <div class="details">
-        <p>SKU: RED-003</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $24.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Creative Real Estate Financing">
-            <input type="hidden" name="amount" value="24.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- Blue Books -->
-    <div class="book">
-      <div class="cover blue">Business is About<br>Making Profit</div>
-      <div class="details">
-        <p>SKU: BLU-001</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $24.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Business is About Making Profit">
-            <input type="hidden" name="amount" value="24.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <div class="book">
-      <div class="cover blue">Business Startup</div>
-      <div class="details">
-        <p>SKU: BLU-002</p>
-        <p>Author: Waldemar M. Caban, JD MA</p>
-        <p>Price: $24.99</p>
-        <div class="paypal-button">
-          <form action="https://www.paypal.com/bizcheckout" method="post" target="_blank">
-            <input type="hidden" name="item_name" value="Business Startup">
-            <input type="hidden" name="amount" value="24.99">
-            <input type="hidden" name="currency_code" value="USD">
-            <button type="submit">Buy Now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+  <p style="color:#555">eBook & audio to follow.</p>
+</main>
 </body>
 </html>
