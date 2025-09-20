@@ -1,87 +1,91 @@
-/* ===== Brand ===== */
+/* ===== Base ===== */
 :root{
-  --red:#b30000;        /* banner red */
-  --ink:#000000;        /* black text */
-  --paper:#ffffff;
-  --edge:#e6e6e6;
-  --link:#0a4fb0;
-  --radius:14px;
-  --shadow:0 4px 14px rgba(0,0,0,.08);
-  --max:1100px;
+  --brand-red:#C51111;
+  --ink:#000;
+  --paper:#fff;
+  --muted:#666;
+  --radius:12px;
 }
 
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline}
-h1,h2,h3{margin:0 0 .6rem 0}
-
-/* ===== Top red banner with black letters ===== */
-.topbar{
-  background:var(--red);
+html,body{margin:0;padding:0}
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--ink);
-  border-bottom:3px solid #7e0000;
-  position:sticky; top:0; z-index:50;
+  background:#f6f6f6;
 }
-.topbar .wrap{
-  max-width:var(--max);
-  margin:0 auto;
-  padding:10px 14px;
-  display:flex; align-items:center; gap:12px;
-}
-.brand{
-  font-weight:900; letter-spacing:.6px;
-  background:#fff; color:#000; padding:6px 10px; border-radius:999px;
-  box-shadow:var(--shadow);
-}
-.nav{
-  display:flex; gap:14px; flex:1; flex-wrap:wrap; align-items:center;
-}
-.nav a{
-  color:#000; font-weight:800; padding:8px 10px; border-radius:8px;
-}
-.nav a:hover{background:#ffffff66; text-decoration:none}
 
-/* ===== Language toggle — unmistakable button ===== */
-.lang-btn{
-  display:inline-flex; align-items:center; justify-content:center;
-  gap:.45rem;
-  padding:10px 16px;
-  border:3px solid #000;
-  background:#fff;
-  color:#000;
-  font-weight:900;
-  border-radius:999px;
-  text-transform:uppercase;
-  letter-spacing:.3px;
-  box-shadow:var(--shadow);
-  cursor:pointer;
-  user-select:none;
+/* ===== Header / Banner ===== */
+#edn-header{
+  position:sticky; top:0; z-index:1000;
+  background:var(--brand-red);
+  border-bottom:4px solid #9c0d0d;
 }
-.lang-btn .icon{font-size:1rem; line-height:1}
-.lang-btn .label{font-size:.9rem}
-.lang-btn small{font-weight:700; opacity:.85; text-transform:none}
-.lang-btn:focus-visible{outline:3px solid #000; outline-offset:2px}
-.lang-btn:hover{filter:brightness(.97); text-decoration:none}
-
-/* ===== Layout / cards ===== */
-.container{max-width:var(--max); margin:0 auto; padding:16px}
-.card{background:#fff; border:1px solid var(--edge); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin-bottom:16px}
-.lead{font-size:1.15rem}
-.btn{
-  display:inline-block; background:#0a4fb0; color:#fff; font-weight:900;
-  padding:10px 16px; border-radius:12px; border:0;
+#edn-header .bar{
+  max-width:1100px; margin:0 auto; padding:10px 14px;
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
 }
-.btn:hover{filter:brightness(.95); text-decoration:none}
-.tag{display:inline-block; border:1px solid var(--edge); padding:4px 10px; border-radius:999px; font-size:.85rem; font-weight:800; color:#333}
-ul {padding-left:1.2rem}
+#edn-header .brand{
+  font-weight:900; letter-spacing:.5px; color:#000; font-size:28px;
+}
+#edn-nav{display:flex; gap:18px; flex:1 1 auto; align-items:center; flex-wrap:wrap}
+#edn-nav a{
+  color:#000; text-decoration:none; font-weight:700;
+}
+#edn-nav a:hover{text-decoration:underline}
 
-footer{border-top:1px solid var(--edge); margin-top:24px}
-footer .wrap{max-width:var(--max); margin:0 auto; padding:22px 14px; color:#444}
+/* Language toggle */
+.lang-toggle{
+  margin-left:auto;
+  display:inline-flex; align-items:center; gap:10px;
+  background:#000; color:#fff; border-radius:999px;
+  padding:6px 10px; font-weight:800; border:2px solid #fff1;
+}
+.lang-toggle a{
+  color:#fff; text-decoration:none; padding:4px 10px; border-radius:999px; display:inline-block;
+  border:1px solid transparent;
+}
+.lang-toggle a.active{background:#fff; color:#000; border-color:#000}
 
-/* ===== Mobile: keep toggle visible ===== */
+/* ===== Page shells ===== */
+.container{max-width:1100px; margin:18px auto; padding:0 14px}
+.card{
+  background:var(--paper); border-radius:var(--radius);
+  box-shadow:0 3px 10px rgba(0,0,0,.08);
+  padding:18px; margin:14px 0;
+}
+
+/* Buttons */
+.btn{display:inline-block; padding:12px 18px; border-radius:10px; font-weight:800; text-decoration:none}
+.btn-primary{background:#0b5ed7; color:#fff}
+.btn-dark{background:#000; color:#fff}
+.btn-outline{border:2px solid #000; color:#000; background:#fff}
+
+/* Lists */
+ul.clean{margin:8px 0 0 22px}
+
+/* Price + SKU styling */
+.price{font-weight:900; font-size:22px}
+.sku{color:#900; font-weight:800}
+
+/* ===== “Book cover” blocks (drawn with CSS so you don’t need image files) ===== */
+.book{
+  display:grid; grid-template-columns:120px 1fr; gap:16px; align-items:start;
+  padding:18px; border:1px solid #e6e6e6; border-radius:var(--radius); background:#fff;
+}
+.cover{
+  width:120px; height:170px; border-radius:8px; display:flex; align-items:center; justify-content:center;
+  color:#fff; font-weight:900; text-align:center; padding:10px; line-height:1.1;
+  box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+.cover.red{background:#d01b1b}
+.cover.white{background:#f0f0f0; color:#111; border:2px solid #ccc}
+.cover.blue{background:#0b4ea3}
+
+/* Small screens */
 @media (max-width:640px){
-  .topbar .wrap{gap:8px}
-  .nav{gap:10px}
-  .lang-btn{padding:9px 14px}
+  #edn-header .brand{font-size:22px}
+  #edn-nav{gap:12px}
+  .book{grid-template-columns:90px 1fr}
+  .cover{width:90px; height:130px; font-size:12px}
 }
