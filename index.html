@@ -38,7 +38,6 @@ footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
   </nav>
   <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
 </div></header>
-<script>to-en.href='/index.html';to-es.href='/es-index.html';</script>
 
 <main class="wrap">
   <section class="card">
@@ -58,4 +57,18 @@ footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
 </main>
 
 <footer>© 2025 Edunancial, Inc. • All rights reserved.</footer>
+
+<script>
+/* UNIVERSAL LANGUAGE TOGGLE — works on every page */
+(function(){
+  var en=document.getElementById('to-en'), es=document.getElementById('to-es');
+  if(!en||!es) return;
+  var p=(location.pathname.split('/').pop()||'index.html');
+  var base=p.startsWith('es-')?p.slice(3):p;
+  en.href='/'+base;
+  es.href='/es-'+base;
+  if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
+  else { en.classList.add('active'); es.classList.remove('active'); }
+})();
+</script>
 </body></html>
