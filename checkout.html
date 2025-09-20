@@ -1,24 +1,74 @@
-<!doctype html><html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Checkout — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-<div id="sitebar"></div><script src="/header.js"></script>
+<style>
+  body,h1,h2,h3,p,a,label,input{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:14px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:900}
+  nav{display:flex;gap:14px;flex-wrap:wrap} nav a{color:#000;text-decoration:none;font-weight:700}
+  nav a:hover{text-decoration:underline} .lang{margin-left:auto}
+  .lang a{background:#fff;border:2px solid #000;border-radius:8px;padding:6px 10px;font-weight:800;color:#000;text-decoration:none}
+  main{padding:18px}.panel{border:1px solid #eee;border-radius:10px;padding:16px;margin:12px 0}
+  .row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  input[type=text]{padding:10px;border:1px solid #bbb;border-radius:8px;min-width:220px}
+  .btn{display:inline-block;background:#0070ba;color:#fff !important;padding:12px 18px;border-radius:8px;font-weight:800;text-decoration:none}
+</style>
+</head><body>
+<header>
+  <div class="brand">EDUNANCIAL</div>
+  <nav>
+    <a href="index.html">Home</a><a href="books.html">Books</a><a href="courses.html">Courses</a>
+    <a href="checkout.html">Payments</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="lang"><a href="es-checkout.html">🌐 Español</a></div>
+</header>
 
-<div class="container">
-  <h1>Mini Course: Edunancial Method</h1>
-  <div class="card">
-    <p class="tag">SKU: EDN-MINI-EM-001</p>
-    <p><label><input type="checkbox" checked> I am under 18</label></p>
-    <p><label>Discount / Under-18 Code
-      <input style="display:block;width:100%;max-width:420px;margin-top:6px" placeholder="Enter discount code (optional)"></label>
+<main>
+  <div class="panel">
+    <h2 id="itemName">Checkout</h2>
+    <p id="itemSku" style="color:#c00;font-weight:800"></p>
+    <p class="row">
+      <label><input type="checkbox" id="under18"> I am under 18</label>
+      <span>Discount / Under-18 Code:</span>
+      <input type="text" id="discount" placeholder="Enter code (optional)">
     </p>
-    <p>By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
-    <a class="btn" href="/.netlify/functions/paypal-redirect">Continue to PayPal</a>
+    <p style="margin-top:10px">Total: <strong>$<span id="price">0.00</span></strong></p>
+    <p style="margin-top:12px"><a id="payBtn" class="btn" href="#">Continue to PayPal</a></p>
+    <p style="margin-top:8px;font-size:12px">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
   </div>
-</div>
+</main>
 
-<footer><div class="wrap">© Edunancial</div></footer>
+<footer>© 2025 Edunancial, Inc.</footer>
+
+<script>
+  function qs(n){return new URLSearchParams(location.search).get(n)||''}
+  const name = qs('name'); const sku=qs('sku'); const base=Number(qs('price')||0).toFixed(2);
+  const link=decodeURIComponent(qs('paypal')||'#');
+  document.getElementById('itemName').textContent = name || 'Checkout';
+  document.getElementById('itemSku').textContent = 'SKU: ' + (sku||'');
+  document.getElementById('price').textContent = base;
+
+  const pay = document.getElementById('payBtn');
+  function computePrice(){
+    let p = Number(base);
+    const code = (document.getElementById('discount').value||'').trim();
+    const u18  = document.getElementById('under18').checked;
+    // sample codes — change as you wish
+    if (code === 'U18' || u18) p = Math.max(0, p - 10); // $10 off for under-18
+    if (code === 'PR12345$$') p = 0;                     // full promo (for testing)
+    document.getElementById('price').textContent = p.toFixed(2);
+    return p.toFixed(2);
+  }
+  document.getElementById('discount').addEventListener('input', computePrice);
+  document.getElementById('under18').addEventListener('change', computePrice);
+
+  pay.addEventListener('click', function(e){
+    e.preventDefault();
+    if(!link || link === '#'){ alert('PayPal link not set for this item.'); return; }
+    // Append amount hint for your hosted PayPal link if it supports query param
+    const amt = computePrice();
+    const url = link.includes('?') ? link + '&amount=' + amt : link + '?amount=' + amt;
+    location.href = url; // redirect to PayPal (works like your earlier setup)
+  });
+</script>
 </body></html>
