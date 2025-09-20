@@ -7,46 +7,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Red banner + nav + EN/ES toggle -->
-  <div id="sitebar"></div>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const s = document.getElementById("sitebar");
-      s.innerHTML = `
-        <header>EDUNANCIAL</header>
-        <nav>
-          <a href="/index.html">Home</a>
-          <a href="/our-story.html"><b>Our Story</b></a>
-          <a href="/books.html">Books</a>
-          <a href="/courses.html">Courses</a>
-          <a href="/pricing.html">Pricing</a>
-          <a href="/payments.html">Payments</a>
-          <a href="/contact.html">Contact</a>
-          <a href="/privacy.html">Privacy</a>
-          <a href="/terms.html">Terms</a>
-          <a href="/refunds.html">Refunds</a>
-        </nav>
-        <div class="toggle" onclick="location.href='/es-our-story.html'">ES</div>
-      `;
-    });
-  </script>
 
-  <main style="padding:1rem;">
+  <!-- RED BANNER with black letters + clear toggle button -->
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">EDUNANCIAL</div>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/our-story.html"><strong>Our Story</strong></a>
+        <a href="/books.html">Books</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/payments.html">Payments</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/refunds.html">Refunds</a>
+      </nav>
+      <a class="lang-btn" href="/es-our-story.html">ES <small>Español</small></a>
+    </div>
+  </header>
+
+  <main class="container">
     <h1>Our Story</h1>
 
     <section class="card">
       <p class="lead">
-        One afternoon when my son was <strong>11</strong>, I had just ended a call with a business client
-        when my phone lit up with an online deposit. He looked at me with wide eyes and asked,
+        One afternoon when my son was <strong>11</strong>, I had just ended a call with a business client when my
+        phone lit up with an online deposit. His eyes got wide and he asked,
         “How did you make money like that?”
       </p>
       <p>
-        “By using my head,” I told him. He paused, thought about it, and said,
-        <em>“I want to use my head too—but I don’t know how.”</em>
+        “By using my head,” I told him. He took a breath and said,
+        <em>“I want to use my head too— but I don’t know how.”</em>
       </p>
       <p>
-        That sentence changed everything. Right there, at our kitchen table, <strong>Edunancial</strong> began.
-        We made a decision: he would learn how money works—clearly, slowly, and practically—so he could
+        That sentence changed everything. Right there at our kitchen table, <strong>Edunancial</strong> began.
+        We made a simple plan: learn how money works—clearly, slowly, and practically—so he could
         use his head with confidence.
       </p>
     </section>
@@ -54,49 +51,42 @@
     <section class="card">
       <h2>Learning to Use His Head</h2>
       <ul>
-        <li><strong>Foundations:</strong> budgeting with purpose, paying himself first, and building an emergency cushion.</li>
-        <li><strong>Real-world practice:</strong> small, consistent actions—comparing prices, reading receipts, setting savings targets.</li>
-        <li><strong>Thinking time:</strong> asking better questions: <em>What’s the plan? What are the risks? What’s Plan B?</em></li>
+        <li><strong>Foundations:</strong> budgeting with purpose, paying himself first, building an emergency cushion.</li>
+        <li><strong>Real-world practice:</strong> small, steady actions—comparing prices, reading receipts, setting savings targets.</li>
+        <li><strong>Thinking time:</strong> better questions—<em>What’s the plan? What are the risks? What’s Plan B?</em></li>
       </ul>
-      <p>
-        We kept it simple and hands-on. No jargon. One page at a time.
-      </p>
+      <p>We kept it simple and hands-on. No jargon. One page at a time.</p>
     </section>
 
     <section class="card">
       <h2>From 11 to 15</h2>
       <p>
-        By <strong>15</strong>, he had developed steady habits and a curious mind. He started buying small amounts of
+        By <strong>15</strong>, he had solid habits and real curiosity. He started buying small amounts of
         <strong>physical silver and gold</strong>, learned to read a company’s story beyond the ticker, and practiced how to
-        <strong>select, buy, and sell stocks</strong> with patience—aiming for a consistent, realistic
-        <strong>8–12% ROI</strong> over time.
+        <strong>select, buy, and sell stocks</strong> with patience—aiming for a realistic <strong>8–12% ROI</strong> over time.
       </p>
-      <p>
-        It wasn’t about luck. It was about using his head: thinking clearly, managing risk, and respecting the long game.
-      </p>
+      <p>It wasn’t luck. It was using his head: clear thinking, risk management, respect for the long game.</p>
     </section>
 
     <section class="card">
-      <h2>Why Edunancial</h2>
-      <p>
-        Families don’t need more noise—they need simple, practical guidance that actually helps them move forward.
-        That’s why Edunancial focuses on direct, usable steps: one concept, one page, one action at a time.
-      </p>
-      <p>
-        If you’re ready to start, begin with our <a href="/books.html">Books</a> and
-        <a href="/courses.html">Courses</a>—and if you want steady support, join our
-        <a href="/pricing.html">Membership</a>.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>Our Promise</h2>
+      <h2>Start Here</h2>
+      <p class="tag">Red • White • Blue</p>
+      <p><strong>The Edunancial Method — Mini Course</strong> • SKU: <code>EDN-CRS-MIX-001</code> — <strong>$75.00</strong></p>
+      <p><a class="btn" href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Enroll with PayPal</a></p>
       <ul>
-        <li>Clear language. No hype.</li>
-        <li>Realistic goals and risk awareness.</li>
-        <li>Skills that build confidence—for teens, parents, and anyone willing to learn.</li>
+        <li>Tax liens &amp; deeds basics (Red)</li>
+        <li>Stock selection for teens &amp; parents (White)</li>
+        <li>Business formation fundamentals (Blue)</li>
       </ul>
-      <p><strong>Use your head. Start where you are. Grow steady.</strong></p>
+    </section>
+
+    <section class="card">
+      <h2>Also Popular</h2>
+      <ul>
+        <li><a href="/courses.html">In-Depth Business Formation — <strong>$199</strong> • SKU: <code>EDN-CRS-BO-001</code></a></li>
+        <li><a href="/books.html">Books (Print) — <strong>$18.99</strong> each • SKUs: <code>EDN-BK-RE-001</code>, <code>EDN-BK-PA-001</code>, <code>EDN-BK-BO-001</code></a></li>
+        <li><a href="/pricing.html">Membership <strong>$5/mo</strong> • SKU: <code>EDN-MEM-001</code></a></li>
+      </ul>
     </section>
   </main>
 
