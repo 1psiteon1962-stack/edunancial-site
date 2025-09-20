@@ -1,15 +1,46 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Our Story — Edunancial</title>
-<style>body,h1,p,a{font-family:Arial,Helvetica,sans-serif} header{background:#c00;color:#000;padding:14px 16px;display:flex;gap:16px} nav a{color:#000;font-weight:700;text-decoration:none;margin-right:12px} nav a:hover{text-decoration:underline} .lang{margin-left:auto}.lang a{background:#fff;border:2px solid #000;border-radius:8px;padding:6px 10px;font-weight:800;color:#000;text-decoration:none} main{padding:18px;max-width:900px;margin:auto;line-height:1.7}</style>
+<style>
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.bar{max-width:1100px;margin:0 auto;padding:22px 16px;display:flex;align-items:center;gap:18px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:30px;color:#000}
+.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
+.lang{display:flex;gap:10px}.lang a{display:inline-block;padding:10px 18px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+.wrap{max-width:1100px;margin:22px auto;padding:0 16px}.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+h1{margin:4px 0 12px;font-size:36px}h2{margin:0 0 10px}p{margin:8px 0}
+.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+.pillset{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.pill{display:inline-block;padding:6px 12px;border-radius:999px;border:1px solid #000;font-weight:800}
+.pill.red{background:#b30000;color:#fff;border-color:#7a0000}.pill.white{background:#fff;color:#000;border-color:#bbb}.pill.blue{background:#0b4ea2;color:#fff;border-color:#083572}
+footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
+</style>
 </head><body>
-<header><div class="brand" style="font-weight:900">EDUNANCIAL</div>
-<nav><a href="index.html">Home</a><a href="books.html">Books</a><a href="courses.html">Courses</a></nav>
-<div class="lang"><a href="es-our-story.html">🌐 Español</a></div></header>
-<main>
-<h1>Our Story</h1>
-<p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes got wide:
-“How did you make money like that?” “By using my head,” I said. He wanted to learn.
-I asked, “Do you want to work with your head?” “Yes,” he answered, “but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
-<p>By 15 he was buying physical silver and gold, analyzing companies, and practicing how to select and sell stocks—aiming for a steady, realistic goal of <strong>8–12% ROI</strong>. We learned together: simple frameworks, practical skills, and disciplined habits. Our mission is simple: help families build practical financial literacy—one page at a time.</p>
-<p style="margin-top:10px"><a href="books.html">See Books</a> • <a href="courses.html">See Courses</a></p>
-</main><footer style="text-align:center;padding:16px;border-top:1px solid #eee">© 2025 Edunancial, Inc.</footer></body></html>
+<header><div class="bar">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a><a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
+    <a href="/our-story.html">Our Story</a>
+  </nav>
+  <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
+</div></header>
+<script>to-en.href='/our-story.html';to-es.href='/es-our-story.html';</script>
+
+<main class="wrap">
+  <section class="card">
+    <h1>Our Story</h1>
+    <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
+    <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>. He understands there are many paths within real estate and he’s building a business.</p>
+    <h2>Simple. Color-coded. Powerful.</h2>
+    <p class="pillset"><span class="pill red">Red = Real Estate</span><span class="pill white">White = Paper Assets</span><span class="pill blue">Blue = Business</span></p>
+    <p>These are the <strong>Foundations of lifetime growth</strong>—clear steps any family can learn, practice, and use.</p>
+    <a class="btn" href="/books.html">See Books</a> <a class="btn" href="/courses.html">See Courses</a>
+  </section>
+</main>
+
+<footer>© 2025 Edunancial, Inc. • All rights reserved.</footer>
+</body></html>
