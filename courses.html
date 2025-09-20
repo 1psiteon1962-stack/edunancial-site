@@ -1,45 +1,48 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Courses — Edunancial</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<div id="sitebar"></div>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
-  const s=document.getElementById("sitebar");
-  s.innerHTML=`
-    <header>EDUNANCIAL</header>
-    <nav>
-      <a href="/index.html">Home</a>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/pricing.html">Pricing</a>
-      <a href="/payments.html">Payments</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/refunds.html">Refunds</a>
-    </nav>
-    <div class="toggle" onclick="location.href='/es-courses.html'">ES</div>
-  `;
-});
-</script>
+<style>
+  body,h1,h2,h3,p,a{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+  header{background:#c00;color:#000;padding:14px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:900}
+  nav{display:flex;gap:14px;flex-wrap:wrap} nav a{color:#000;text-decoration:none;font-weight:700}
+  nav a:hover{text-decoration:underline} .lang{margin-left:auto}
+  .lang a{background:#fff;border:2px solid #000;border-radius:8px;padding:6px 10px;font-weight:800;color:#000;text-decoration:none}
+  main{padding:18px}.card{border:1px solid #eee;border-radius:10px;padding:16px;margin:12px 0}
+  .btn{display:inline-block;background:#0070ba;color:#fff !important;padding:10px 16px;border-radius:8px;font-weight:800;text-decoration:none}
+  .meta{color:#c00;font-weight:800;margin:2px 0 8px}
+</style></head><body>
+<header>
+  <div class="brand">EDUNANCIAL</div>
+  <nav>
+    <a href="index.html">Home</a><a href="books.html">Books</a><a href="courses.html">Courses</a>
+    <a href="checkout.html">Payments</a><a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="refunds.html">Refunds</a>
+    <a href="our-story.html">Our Story</a>
+  </nav>
+  <div class="lang"><a href="es-courses.html">🌐 Español</a></div>
+</header>
 
-<main style="padding:1rem;">
+<main>
   <h1>Courses</h1>
 
-  <section class="card">
+  <div class="card">
+    <div class="meta">Red • White • Blue</div>
     <h2>The Edunancial Method — Mini Course</h2>
-    <p>Red • White • Blue</p>
-    <p>SKU: <code>EDN-CRS-MIX-001</code> • <b>$75.00</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-MIX-001">Enroll with PayPal</a></p>
-  </section>
+    <p>SKU: <strong>EDN-CRS-MIX-001</strong> • <strong>$75.00</strong></p>
+    <p><a class="btn"
+      href="checkout.html?sku=EDN-CRS-MIX-001&name=The%20Edunancial%20Method%20—%20Mini%20Course&price=75.00&paypal=YOUR_PAYPAL_LINK_MINICOURSE">
+      Enroll with PayPal</a></p>
+  </div>
 
-  <section class="card">
+  <div class="card">
+    <div class="meta">Blue</div>
     <h2>In-Depth Business Formation</h2>
-    <p>Blue</p>
-    <p>SKU: <code>EDN-CRS-BO-001</code> • <b>$199.00</b></p>
-    <p><a href="/.netlify/functions/paypal-redirect?sku=EDN-CRS-BO-001">Enroll with PayPal</a></p>
-  </section>
+    <p>SKU: <strong>EDN-CRS-BO-001</strong> • <strong>$199.00</strong></p>
+    <p><a class="btn"
+      href="checkout.html?sku=EDN-CRS-BO-001&name=In-Depth%20Business%20Formation&price=199.00&paypal=YOUR_PAYPAL_LINK_BIZCOURSE">
+      Enroll with PayPal</a></p>
+  </div>
 </main>
+
+<footer>© 2025 Edunancial, Inc.</footer>
 </body></html>
