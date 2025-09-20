@@ -1,76 +1,55 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Edunancial — Aprende. Construye. Gana.</title>
-  <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Aprende. Construye. Gana.</title>
+<style>
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.bar{max-width:1100px;margin:0 auto;padding:22px 16px;display:flex;align-items:center;gap:18px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:30px;color:#000}
+.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
+.nav a{color:#000;text-decoration:none;font-weight:800}
+.nav a:hover{opacity:.85;text-decoration:underline}
+.lang{display:flex;gap:10px}
+.lang a{display:inline-block;padding:10px 18px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+.wrap{max-width:1100px;margin:22px auto;padding:0 16px}
+.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+h1{margin:4px 0 12px;font-size:36px}h2{margin:0 0 10px}p{margin:8px 0}
+.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+.btn:hover{filter:brightness(.95)}
+footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
+@media (max-width:520px){.brand{font-size:24px}.nav{gap:12px}.lang a{padding:9px 14px}h1{font-size:30px}}
+</style>
+</head><body>
+<header><div class="bar">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/es-index.html">Inicio</a><a href="/es-books.html">Libros</a><a href="/es-courses.html">Cursos</a>
+    <a href="/es-payments.html">Pagos</a><a href="/es-contact.html">Contacto</a>
+    <a href="/es-privacy.html">Privacidad</a><a href="/es-terms.html">Términos</a><a href="/es-refunds.html">Reembolsos</a>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+  </nav>
+  <div class="lang"><a id="to-en">EN</a><a id="to-es" class="active">ES</a></div>
+</div></header>
+<script>to-en.href='/index.html';to-es.href='/es-index.html';</script>
 
-  <!-- CABECERA (igual en todas las páginas) -->
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="nav">
-        <a href="/es-index.html">Inicio</a>
-        <a href="/es-books.html">Libros</a>
-        <a href="/es-courses.html">Cursos</a>
-        <a href="/es-payments.html">Pagos</a>
-        <a href="/es-contact.html">Contacto</a>
-        <a href="/es-privacy.html">Privacidad</a>
-        <a href="/es-terms.html">Términos</a>
-        <a href="/es-refunds.html">Reembolsos</a>
-        <a href="/es-our-story.html">Nuestra Historia</a>
-      </nav>
-      <div class="lang-toggle">
-        <a id="to-en" class="secondary">EN</a>
-        <a id="to-es">ES</a>
-      </div>
-    </div>
-  </header>
+<main class="wrap">
+  <section class="card">
+    <h1>Nuestra Historia</h1>
+    <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo ganaste dinero así?”. Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”. Él respondió: “Sí… pero no sé cómo.” <strong>Ahí nació Edunancial.</strong></p>
+    <p>A los 15 años, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>; entiende que hay muchas áreas en bienes raíces para elegir y está armando un negocio.</p>
+    <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios). Son las <strong>Fundaciones del crecimiento de por vida</strong>.</p>
+    <div class="cta"><a class="btn" href="/es-books.html">Ver Libros</a> <a class="btn" href="/es-courses.html">Ver Cursos</a></div>
+  </section>
 
-  <script>
-    (function(){
-      var p = location.pathname.split('/').pop() || 'es-index.html';
-      var isES = p.startsWith('es-');
-      var base = isES ? p.replace(/^es-/, '') : p;
-      var es = 'es-' + base;
-      document.getElementById('to-en').href = '/' + base;
-      document.getElementById('to-es').href = '/' + es;
-      if(isES){ document.getElementById('to-es').classList.remove('secondary'); document.getElementById('to-en').classList.add('secondary'); }
-      else     { document.getElementById('to-en').classList.remove('secondary'); document.getElementById('to-es').classList.add('secondary'); }
-    })();
-  </script>
+  <section class="card">
+    <h2>Empieza con el Mini Curso</h2>
+    <p><strong>Rojo • Blanco • Azul</strong></p>
+    <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
+    <a class="btn" href="/es-checkout.html?sku=EDN-CRS-MIX-001&price=75.00">Continuar al Pago</a>
+  </section>
+</main>
 
-  <main class="wrap">
-    <section class="card">
-      <h1>Nuestra Historia</h1>
-      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo ganaste dinero así?”. Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”. “Sí”, respondió, “pero no sé cómo”. Ahí nació <strong>Edunancial</strong>.</p>
-      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>; entiende que hay muchas áreas dentro de bienes raíces para elegir y está armando un negocio.</p>
-      <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>Fundaciones del crecimiento de por vida</strong>.</p>
-      <div class="cta-links">
-        <a href="/es-books.html">Ver Libros</a>
-        <a href="/es-courses.html">Ver Cursos</a>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Empieza con el Mini Curso</h2>
-      <p><strong>Rojo • Blanco • Azul</strong></p>
-      <h3>El Método Edunancial — Mini Curso</h3>
-      <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
-      <a class="btn" href="/es-checkout.html?sku=EDN-CRS-MIX-001">Continuar al Pago</a>
-      <ul>
-        <li>Conceptos básicos de embargos y escrituras (Rojo)</li>
-        <li>Selección de acciones para jóvenes y padres (Blanco)</li>
-        <li>Fundamentos de formación de empresas (Azul)</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="site-footer wrap">
-    © 2025 Edunancial, Inc. • Todos los derechos reservados.
-  </footer>
-</body>
-</html>
+<footer>© 2025 Edunancial, Inc. • Todos los derechos reservados.</footer>
+</body></html>
