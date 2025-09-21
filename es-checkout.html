@@ -1,31 +1,39 @@
 <!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>Pagar — Edunancial</title>
 <style>
-:root{--red:#c40000;--ink:#000}*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 header{position:sticky;top:0;z-index:9999;background:var(--red);color:#000;box-shadow:0 2px 0 rgba(0,0,0,.15)}
-.bar{max-width:1100px;margin:0 auto;padding:26px 16px;display:flex;align-items:center;gap:18px}
-.brand{font-weight:900;letter-spacing:.5px;font-size:32px;color:#000}
-.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
-.lang{display:flex;gap:10px}.lang a{display:inline-block;padding:12px 20px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.bar{max-width:1100px;margin:0 auto;padding:18px 14px;display:flex;align-items:center;gap:14px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:28px;color:#000}
+.nav{display:flex;gap:14px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
+.lang{display:flex;gap:10px}
+.lang a{display:inline-block;padding:10px 16px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
 .lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
-.wrap{max-width:1100px;margin:22px auto;padding:0 16px}.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+.wrap{max-width:900px;margin:18px auto;padding:0 14px}
+.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:18px;margin:12px 0}
+label{font-weight:700;display:block;margin:8px 0 6px}
+input,select{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
 .btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+button.btn{border:0;cursor:pointer}
+.note{font-size:14px;opacity:.85}
+.total{font-size:20px;font-weight:900}
+@media (max-width:420px){
+  .bar{padding:12px 10px}.brand{font-size:22px}
+  .lang a{padding:8px 12px}
+}
 </style>
 </head><body>
 <header><div class="bar">
   <div class="brand">EDUNANCIAL</div>
   <nav class="nav">
-    <a href="/es-index.html">Inicio</a>
-    <a href="/es-books.html">Libros</a>
-    <a href="/es-courses.html">Cursos</a>
-    <a href="/es-payments.html">Pagos</a>
-    <a href="/es-call-center.html">Centro de Llamadas</a>
-    <a href="/es-vendor-program.html">Proveedores</a>
-    <a href="/es-contact.html">Contacto</a>
-    <a href="/es-privacy.html">Privacidad</a>
-    <a href="/es-terms.html">Términos</a>
-    <a href="/es-refunds.html">Reembolsos</a>
+    <a href="/es-index.html">Inicio</a><a href="/es-books.html">Libros</a><a href="/es-courses.html">Cursos</a>
+    <a href="/es-payments.html">Pagos</a><a href="/es-call-center.html">Centro de Llamadas</a><a href="/es-vendor-program.html">Proveedores</a>
+    <a href="/es-contact.html">Contacto</a><a href="/es-privacy.html">Privacidad</a><a href="/es-terms.html">Términos</a><a href="/es-refunds.html">Reembolsos</a>
     <a href="/es-our-story.html">Nuestra Historia</a>
   </nav>
   <div class="lang"><a id="to-en">EN</a><a id="to-es" class="active">ES</a></div>
@@ -33,45 +41,99 @@ header{position:sticky;top:0;z-index:9999;background:var(--red);color:#000;box-s
 
 <main class="wrap">
   <section class="card">
-    <h1>Pago</h1>
+    <h1>Pagar</h1>
     <p id="skuLine"></p>
-    <label style="display:flex;align-items:center;gap:10px;margin:10px 0;">
-      <input id="u18" type="checkbox"> Soy menor de 18
-    </label>
-    <p><strong>Total:</strong> $<span id="total">0.00</span></p>
-    <a id="pay" class="btn" href="#">Continuar a PayPal</a>
-    <p style="margin-top:8px">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
+
+    <div class="grid">
+      <div>
+        <label for="age">Grupo de edad</label>
+        <select id="age">
+          <option value="">Seleccione…</option>
+          <option value="u18">Menor de 18</option>
+          <option value="adult">18 o más</option>
+        </select>
+      </div>
+      <div>
+        <label for="code">Código promocional / verificación</label>
+        <input id="code" placeholder="Ingrese código (opcional)">
+      </div>
+      <div class="row" style="margin-top:6px">
+        <button id="apply" class="btn" type="button">Aplicar</button>
+        <span id="msg" class="note"></span>
+      </div>
+    </div>
+
+    <p class="total">Total: $<span id="total">0.00</span></p>
+    <a id="pay" class="btn" href="#" aria-disabled="true">Continuar a PayPal</a>
+    <p class="note" style="margin-top:8px">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
   </section>
 </main>
 
-<footer>© 2025 Edunancial, Inc.</footer>
+<footer class="wrap note">© 2025 Edunancial, Inc.</footer>
 
 <script>
+/* EN↔ES toggle */
 (function(){
-  var en=document.getElementById('to-en'), es=document.getElementById('to-es');
+  const en=document.getElementById('to-en'), es=document.getElementById('to-es');
   if(!en||!es) return;
-  var p=(location.pathname.split('/').pop()||'es-checkout.html'), base=p.startsWith('es-')?p.slice(3):p;
+  const p=(location.pathname.split('/').pop()||'es-checkout.html'), base=p.startsWith('es-')?p.slice(3):p;
   en.href='/'+base; es.href='/es-'+base;
   if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
   else{ en.classList.add('active'); es.classList.remove('active'); }
 })();
+
+/* Precio con código + edad (sin descuento automático) */
 (function(){
   const qs = new URLSearchParams(location.search);
   const sku = qs.get('sku') || 'EDN-CRS-MIX-001';
   const basePrice = parseFloat(qs.get('price') || '75.00');
   const skuLine = document.getElementById('skuLine');
   const totalEl = document.getElementById('total');
+  const ageEl = document.getElementById('age');
+  const codeEl = document.getElementById('code');
+  const applyBtn = document.getElementById('apply');
+  const msg = document.getElementById('msg');
   const payBtn = document.getElementById('pay');
-  const under18 = document.getElementById('u18');
-  skuLine.innerHTML = '<strong>SKU:</strong> '+sku;
-  function compute(){
-    let price = basePrice;
-    if(under18.checked) price = 3.00;
-    totalEl.textContent = price.toFixed(2);
-    const paypalEndpoint='/.netlify/functions/pay';
-    payBtn.href = `${paypalEndpoint}?sku=${encodeURIComponent(sku)}&amount=${price.toFixed(2)}`;
+
+  skuLine.innerHTML = '<strong>SKU:</strong> '+sku+' &nbsp; • &nbsp; <strong>Base:</strong> $'+basePrice.toFixed(2);
+  let appliedAmount = basePrice;
+
+  function intentarAplicar(){
+    msg.textContent='';
+    const age = ageEl.value;
+    const code = (codeEl.value||'').trim();
+
+    appliedAmount = basePrice;
+
+    if(!age){
+      msg.textContent='Primero seleccione un grupo de edad.';
+      render();
+      return;
+    }
+    if(code){
+      if(code === 'PR12345$$' && age === 'u18'){
+        appliedAmount = 3.00;
+        msg.textContent='Código de verificación para menores aplicado.';
+      } else {
+        msg.textContent='Código no válido para el grupo de edad seleccionado.';
+      }
+    } else {
+      msg.textContent='Sin código — se aplica el precio base.';
+    }
+    render();
   }
-  under18.onchange = compute; compute();
+
+  function render(){
+    totalEl.textContent = appliedAmount.toFixed(2);
+    const age = ageEl.value;
+    if(!age){ payBtn.setAttribute('aria-disabled','true'); payBtn.href='#'; return; }
+    const paypalEndpoint='/.netlify/functions/pay';
+    payBtn.href = `${paypalEndpoint}?sku=${encodeURIComponent(sku)}&amount=${appliedAmount.toFixed(2)}`;
+    payBtn.removeAttribute('aria-disabled');
+  }
+
+  applyBtn.addEventListener('click', intentarAplicar);
+  render();
 })();
 </script>
 </body></html>
