@@ -1,13 +1,36 @@
+# Netlify config for Edunancial — clean & simple
+
 [build]
+  publish = "/"
   command = ""
-  publish = "."
 
-[functions]
-  node_bundler = "esbuild"
+# Redirect common extensionless URLs to their .html pages
+# (Prevents iOS Safari/old bookmarks from hitting 404)
 
-# Make sure functions resolve under /.netlify/functions/*
-[[redirects]]
-  from = "/.netlify/functions/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-  force = true
+[[redirects]]; from="/";              to="/index.html";         status=301; force=true
+[[redirects]]; from="/courses";       to="/courses.html";       status=301; force=true
+[[redirects]]; from="/books";         to="/books.html";         status=301; force=true
+[[redirects]]; from="/payments";      to="/payments.html";      status=301; force=true
+[[redirects]]; from="/call-center";   to="/call-center.html";   status=301; force=true
+[[redirects]]; from="/vendor";        to="/vendor.html";        status=301; force=true
+[[redirects]]; from="/contact";       to="/contact.html";       status=301; force=true
+[[redirects]]; from="/privacy";       to="/privacy.html";       status=301; force=true
+[[redirects]]; from="/terms";         to="/terms.html";         status=301; force=true
+[[redirects]]; from="/refunds";       to="/refunds.html";       status=301; force=true
+[[redirects]]; from="/our-story";     to="/our-story.html";     status=301; force=true
+[[redirects]]; from="/checkout";      to="/checkout.html";      status=301; force=true
+[[redirects]]; from="/thank-you";     to="/thank-you.html";     status=301; force=true
+
+# Spanish
+[[redirects]]; from="/es";                to="/es-index.html";       status=301; force=true
+[[redirects]]; from="/es-courses";        to="/es-courses.html";     status=301; force=true
+[[redirects]]; from="/es-books";          to="/es-books.html";       status=301; force=true
+[[redirects]]; from="/es-payments";       to="/es-payments.html";    status=301; force=true
+[[redirects]]; from="/es-call-center";    to="/es-call-center.html"; status=301; force=true
+[[redirects]]; from="/es-contact";        to="/es-contact.html";     status=301; force=true
+[[redirects]]; from="/es-privacy";        to="/es-privacy.html";     status=301; force=true
+[[redirects]]; from="/es-terms";          to="/es-terms.html";       status=301; force=true
+[[redirects]]; from="/es-refunds";        to="/es-refunds.html";     status=301; force=true
+[[redirects]]; from="/es-our-story";      to="/es-our-story.html";   status=301; force=true
+[[redirects]]; from="/es-checkout";       to="/es-checkout.html";    status=301; force=true
+[[redirects]]; from="/es-thank-you";      to="/es-thank-you.html";   status=301; force=true
