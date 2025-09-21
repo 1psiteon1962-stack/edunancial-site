@@ -1,144 +1,76 @@
 <!doctype html><html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Checkout — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
 <style>
-:root{--red:#c40000;--ink:#000}
-*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-header{position:sticky;top:0;z-index:9999;background:var(--red);color:#000;box-shadow:0 2px 0 rgba(0,0,0,.15)}
-.bar{max-width:1100px;margin:0 auto;padding:18px 14px;display:flex;align-items:center;gap:14px}
-.brand{font-weight:900;letter-spacing:.5px;font-size:28px;color:#000}
-.nav{display:flex;gap:14px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
-.lang{display:flex;gap:10px}
-.lang a{display:inline-block;padding:10px 16px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
-.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
-.wrap{max-width:900px;margin:18px auto;padding:0 14px}
-.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:18px;margin:12px 0}
-label{font-weight:700;display:block;margin:8px 0 6px}
-input,select{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px;font-size:16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.row{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
-.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
-button.btn{border:0;cursor:pointer}
-.note{font-size:14px;opacity:.85}
-.total{font-size:20px;font-weight:900}
-@media (max-width:420px){
-  .bar{padding:12px 10px}.brand{font-size:22px}
-  .lang a{padding:8px 12px}
-}
+  .form-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .codebox{display:inline-flex;gap:8px}
+  .total{font-size:22px;font-weight:800;margin:12px 0}
 </style>
 </head><body>
-<header><div class="bar">
-  <div class="brand">EDUNANCIAL</div>
-  <nav class="nav">
-    <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
-    <a href="/payments.html">Payments</a><a href="/call-center.html">Call Center</a><a href="/vendor-program.html">Vendor Program</a>
-    <a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
-    <a href="/our-story.html">Our Story</a>
-  </nav>
-  <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
-</div></header>
+<div id="sitebar"></div>
 
-<main class="wrap">
-  <section class="card">
-    <h1>Checkout</h1>
-    <p id="skuLine"></p>
+<main class="container">
+  <h1>Checkout</h1>
+  <p id="skuLine"></p>
 
-    <div class="grid">
-      <div>
-        <label for="age">Age Group</label>
-        <select id="age">
-          <option value="">Select…</option>
-          <option value="u18">Under 18</option>
-          <option value="adult">18 and over</option>
-        </select>
-      </div>
-      <div>
-        <label for="code">Promo / Verification Code</label>
-        <input id="code" placeholder="Enter code (optional)">
-      </div>
-      <div class="row" style="margin-top:6px">
-        <button id="apply" class="btn" type="button">Apply</button>
-        <span id="msg" class="note"></span>
-      </div>
+  <div class="form-row">
+    <label><input type="checkbox" id="ageChk"> I am under 18</label>
+    <span>|</span>
+    <div class="codebox">
+      <label for="code">Discount / Under-18 Code:</label>
+      <input id="code" type="text" inputmode="text" placeholder="Enter code">
+      <button id="apply" class="btn">Apply</button>
     </div>
+  </div>
 
-    <p class="total">Total: $<span id="total">0.00</span></p>
-    <a id="pay" class="btn" href="#" aria-disabled="true">Continue to PayPal</a>
-    <p class="note" style="margin-top:8px">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
-  </section>
+  <div class="total">Total: <span id="total">$0.00</span></div>
+
+  <a id="payLink" class="btn btn-primary" href="#">Continue to PayPal</a>
+  <p class="muted">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
 </main>
 
-<footer class="wrap note">© 2025 Edunancial, Inc.</footer>
-
+<script src="/header.js"></script>
 <script>
-/* EN↔ES toggle */
 (function(){
-  const en=document.getElementById('to-en'), es=document.getElementById('to-es');
-  if(!en||!es) return;
-  const p=(location.pathname.split('/').pop()||'checkout.html'), base=p.startsWith('es-')?p.slice(3):p;
-  en.href='/'+base; es.href='/es-'+base;
-  if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
-  else{ en.classList.add('active'); es.classList.remove('active'); }
-})();
-
-/* Pricing with code + age (no auto-discount) */
-(function(){
-  const qs = new URLSearchParams(location.search);
-  const sku = qs.get('sku') || 'EDN-CRS-MIX-001';
-  const basePrice = parseFloat(qs.get('price') || '75.00');
+  const params = new URLSearchParams(location.search);
+  const sku = params.get('sku') || 'UNKNOWN';
+  const base = Number(params.get('price') || 0);
   const skuLine = document.getElementById('skuLine');
   const totalEl = document.getElementById('total');
-  const ageEl = document.getElementById('age');
+  const ageChk = document.getElementById('ageChk');
   const codeEl = document.getElementById('code');
   const applyBtn = document.getElementById('apply');
-  const msg = document.getElementById('msg');
-  const payBtn = document.getElementById('pay');
+  const payLink = document.getElementById('payLink');
 
-  // Show product
-  skuLine.innerHTML = '<strong>SKU:</strong> '+sku+' &nbsp; • &nbsp; <strong>Base:</strong> $'+basePrice.toFixed(2);
-  let appliedAmount = basePrice;
+  skuLine.textContent = 'SKU: ' + sku;
+  let total = base;
+  render();
 
-  // Example promo rules (client-side for now):
-  // PR12345$$ → $3.00 only if Under 18 is selected
-  function tryApply(){
-    msg.textContent='';
-    const age = ageEl.value;
-    const code = (codeEl.value||'').trim();
+  // Do NOT change price until a valid code is applied
+  applyBtn.onclick = (e)=>{
+    e.preventDefault();
+    const code = (codeEl.value||'').trim().toUpperCase();
 
-    // Reset to base
-    appliedAmount = basePrice;
-
-    if(!age){
-      msg.textContent='Select an age group first.';
+    // Valid test codes => force total to $3.00
+    const validCodes = ['PR18','TEST3','EDN3']; // keep/add as needed
+    if (ageChk.checked && validCodes.includes(code)) {
+      total = 3.00;
       render();
-      return;
-    }
-    if(code){
-      if(code === 'PR12345$$' && age === 'u18'){
-        appliedAmount = 3.00;
-        msg.textContent='Under-18 verification code applied.';
-      } else {
-        msg.textContent='Code not valid for the selected age group.';
-      }
     } else {
-      msg.textContent='No code entered — base price applies.';
+      alert('Invalid or missing code. Total unchanged.');
     }
-    render();
-  }
+  };
 
   function render(){
-    totalEl.textContent = appliedAmount.toFixed(2);
-    // Build PayPal link only after Apply, and only if age selected
-    const age = ageEl.value;
-    if(!age){ payBtn.setAttribute('aria-disabled','true'); payBtn.href='#'; return; }
-    const paypalEndpoint='/.netlify/functions/pay';
-    payBtn.href = `${paypalEndpoint}?sku=${encodeURIComponent(sku)}&amount=${appliedAmount.toFixed(2)}`;
-    payBtn.removeAttribute('aria-disabled');
-  }
+    totalEl.textContent = `$${total.toFixed(2)}`;
+    // Build PayPal route you already use (preserve your backend)
+    const query = new URLSearchParams({ sku, amount: total.toFixed(2) }).toString();
 
-  applyBtn.addEventListener('click', tryApply);
-  render(); // initial
+    // If your site defines PAYPAL_URL_BASE (via config-loader.js), use it
+    const baseUrl = window.PAYPAL_URL_BASE || "/.netlify/functions/paypal-checkout";
+    payLink.href = `${baseUrl}?${query}`;
+  }
 })();
 </script>
 </body></html>
