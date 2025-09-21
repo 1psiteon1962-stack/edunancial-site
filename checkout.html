@@ -1,76 +1,95 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Checkout — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-<style>
-  .form-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-  .codebox{display:inline-flex;gap:8px}
-  .total{font-size:22px;font-weight:800;margin:12px 0}
-</style>
-</head><body>
-<div id="sitebar"></div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout — Edunancial</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <!-- Global header (red banner, nav, EN/ES toggle) -->
+  <div id="sitebar"></div>
+  <script src="/header.js"></script>
 
-<main class="container">
-  <h1>Checkout</h1>
-  <p id="skuLine"></p>
+  <main class="container">
+    <section class="card">
+      <h1>Checkout</h1>
+      <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
 
-  <div class="form-row">
-    <label><input type="checkbox" id="ageChk"> I am under 18</label>
-    <span>|</span>
-    <div class="codebox">
-      <label for="code">Discount / Under-18 Code:</label>
-      <input id="code" type="text" inputmode="text" placeholder="Enter code">
-      <button id="apply" class="btn">Apply</button>
-    </div>
-  </div>
+      <form id="payForm" class="stack" novalidate>
+        <div class="row">
+          <label for="agecode" class="label">Discount / Under-18 Code</label>
+          <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Enter code" class="input" />
+        </div>
 
-  <div class="total">Total: <span id="total">$0.00</span></div>
+        <p class="muted">Price:</p>
+        <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
 
-  <a id="payLink" class="btn btn-primary" href="#">Continue to PayPal</a>
-  <p class="muted">By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.</p>
-</main>
+        <a id="toPayPal" class="btn btn-primary" href="#">
+          Continue to PayPal
+        </a>
 
-<script src="/header.js"></script>
-<script>
-(function(){
-  const params = new URLSearchParams(location.search);
-  const sku = params.get('sku') || 'UNKNOWN';
-  const base = Number(params.get('price') || 0);
-  const skuLine = document.getElementById('skuLine');
-  const totalEl = document.getElementById('total');
-  const ageChk = document.getElementById('ageChk');
-  const codeEl = document.getElementById('code');
-  const applyBtn = document.getElementById('apply');
-  const payLink = document.getElementById('payLink');
+        <p class="tiny muted">
+          By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+        </p>
+      </form>
+    </section>
+  </main>
 
-  skuLine.textContent = 'SKU: ' + sku;
-  let total = base;
-  render();
+  <footer class="container tiny muted">© 2025 Edunancial, Inc.</footer>
 
-  // Do NOT change price until a valid code is applied
-  applyBtn.onclick = (e)=>{
-    e.preventDefault();
-    const code = (codeEl.value||'').trim().toUpperCase();
+  <script>
+  (function () {
+    // ---- Pricing rules for TEST ONLY (reduce to $3.00 when a non-empty code is applied) ----
+    // Nothing changes automatically. User must type a code (any non-empty string) to trigger $3.00 for testing.
+    var amountEl = document.getElementById('amount');
+    var agecode  = document.getElementById('agecode');
+    var btn      = document.getElementById('toPayPal');
 
-    // Valid test codes => force total to $3.00
-    const validCodes = ['PR18','TEST3','EDN3']; // keep/add as needed
-    if (ageChk.checked && validCodes.includes(code)) {
-      total = 3.00;
-      render();
-    } else {
-      alert('Invalid or missing code. Total unchanged.');
+    function getBase() {
+      var b = parseFloat(amountEl.getAttribute('data-base') || '0');
+      return isFinite(b) ? b : 0;
     }
-  };
+    function setAmount(v) {
+      amountEl.textContent = Number(v).toFixed(2);
+    }
+    function computeAmount() {
+      var code = (agecode.value || '').trim();
+      if (code.length > 0) return 3.00;            // test: any non-empty code → $3.00
+      return getBase();                             // no code → base price
+    }
 
-  function render(){
-    totalEl.textContent = `$${total.toFixed(2)}`;
-    // Build PayPal route you already use (preserve your backend)
-    const query = new URLSearchParams({ sku, amount: total.toFixed(2) }).toString();
+    function refreshAmount() {
+      setAmount(computeAmount());
+    }
+    agecode.addEventListener('input', refreshAmount);
 
-    // If your site defines PAYPAL_URL_BASE (via config-loader.js), use it
-    const baseUrl = window.PAYPAL_URL_BASE || "/.netlify/functions/paypal-checkout";
-    payLink.href = `${baseUrl}?${query}`;
-  }
-})();
-</script>
-</body></html>
+    // ---- PayPal link hardening (absolute return/cancel with .html; preserve your existing link) ----
+    var isES = false; // this is EN page
+    var returnUrl = location.origin + '/thank-you.html';
+    var cancelUrl = location.origin + '/checkout.html';
+
+    // If the anchor already has your working PayPal URL, we won't replace it—only patch params.
+    // If it's empty, we leave it as # (so you can still navigate back) but it will not break layout.
+    btn.addEventListener('click', function (e) {
+      // ensure current amount is pushed into URL & return targets are set
+      var href = btn.getAttribute('href') || '';
+      if (!href || href === '#') {
+        // leave as-is (no public secrets exposed here)
+        return;
+      }
+      try {
+        var u = new URL(href);
+        u.searchParams.set('return', returnUrl);
+        u.searchParams.set('cancel_return', cancelUrl);
+        u.searchParams.set('amount', Number(computeAmount()).toFixed(2));
+        btn.setAttribute('href', u.toString());
+      } catch (_) {}
+    });
+
+    // Initial display
+    refreshAmount();
+  })();
+  </script>
+</body>
+</html>
