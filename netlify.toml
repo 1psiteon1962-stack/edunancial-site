@@ -1,35 +1,42 @@
-# Edunancial — production Netlify config
-
+# ─────────────────────────────────────────────────────────────────────────────
+# Netlify config for edunancial.com – prevents PayPal 404s & normalizes routes
+# ─────────────────────────────────────────────────────────────────────────────
 [build]
-  publish = "/"
+  publish = "./"
   command = ""
 
-# Redirect extensionless paths to real .html files (fixes iOS 404/bookmarks)
-[[redirects]]; from="/";              to="/index.html";         status=301; force=true
-[[redirects]]; from="/courses";       to="/courses.html";       status=301; force=true
-[[redirects]]; from="/books";         to="/books.html";         status=301; force=true
-[[redirects]]; from="/payments";      to="/payments.html";      status=301; force=true
-[[redirects]]; from="/call-center";   to="/call-center.html";   status=301; force=true
-[[redirects]]; from="/vendor";        to="/vendor.html";        status=301; force=true
-[[redirects]]; from="/contact";       to="/contact.html";       status=301; force=true
-[[redirects]]; from="/privacy";       to="/privacy.html";       status=301; force=true
-[[redirects]]; from="/terms";         to="/terms.html";         status=301; force=true
-[[redirects]]; from="/refunds";       to="/refunds.html";       status=301; force=true
-[[redirects]]; from="/our-story";     to="/our-story.html";     status=301; force=true
-[[redirects]]; from="/checkout";      to="/checkout.html";      status=301; force=true
-[[redirects]]; from="/thank-you";     to="/thank-you.html";     status=301; force=true
+# Allow direct access to Netlify functions
+[[redirects]]
+  from = "/.netlify/functions/*"
+  to   = "/.netlify/functions/:splat"
+  status = 200
 
-# Spanish mirrors
-[[redirects]]; from="/es";                to="/es-index.html";       status=301; force=true
-[[redirects]]; from="/es-courses";        to="/es-courses.html";     status=301; force=true
-[[redirects]]; from="/es-books";          to="/es-books.html";       status=301; force=true
-[[redirects]]; from="/es-payments";       to="/es-payments.html";    status=301; force=true
-[[redirects]]; from="/es-call-center";    to="/es-call-center.html"; status=301; force=true
-[[redirects]]; from="/es-vendor";         to="/es-vendor.html";      status=301; force=true
-[[redirects]]; from="/es-contact";        to="/es-contact.html";     status=301; force=true
-[[redirects]]; from="/es-privacy";        to="/es-privacy.html";     status=301; force=true
-[[redirects]]; from="/es-terms";          to="/es-terms.html";       status=301; force=true
-[[redirects]]; from="/es-refunds";        to="/es-refunds.html";     status=301; force=true
-[[redirects]]; from="/es-our-story";      to="/es-our-story.html";   status=301; force=true
-[[redirects]]; from="/es-checkout";       to="/es-checkout.html";    status=301; force=true
-[[redirects]]; from="/es-thank-you";      to="/es-thank-you.html";   status=301; force=true
+# Thank-you / cancel routes (pretty → file)
+[[redirects]]
+  from = "/thank-you"
+  to   = "/thank-you.html"
+  status = 200
+[[redirects]]
+  from = "/thank-you/"
+  to   = "/thank-you.html"
+  status = 200
+[[redirects]]
+  from = "/es-gracias"
+  to   = "/es-thank-you.html"
+  status = 200
+[[redirects]]
+  from = "/es-gracias/"
+  to   = "/es-thank-you.html"
+  status = 200
+
+# If PayPal ever sends to a generic cancel path, route back to checkout
+[[redirects]]
+  from = "/cancel"
+  to   = "/checkout.html"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/es-cancelar"
+  to   = "/es-checkout.html"
+  status = 302
+  force = true
