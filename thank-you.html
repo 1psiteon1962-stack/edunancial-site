@@ -1,87 +1,62 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Thank You — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root{--red:#c40000;--ink:#000}
-    *{box-sizing:border-box}
-    html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    /* BIG RED BANNER */
-    header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
-    .bar{max-width:1100px;margin:0 auto;padding:22px 16px;display:flex;align-items:center;gap:18px}
-    .brand{font-weight:900;letter-spacing:.5px;font-size:30px;color:#000}
-    .nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
-    .nav a{color:#000;text-decoration:none;font-weight:800}
-    .nav a:hover{opacity:.85;text-decoration:underline}
-    .lang{display:flex;gap:10px}
-    .lang a{display:inline-block;padding:10px 18px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
-    .lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
-    /* PAGE */
-    .wrap{max-width:1100px;margin:22px auto;padding:0 16px}
-    .card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
-    h1{margin:4px 0 12px;font-size:36px}
-    p{margin:8px 0}
-    .muted{opacity:.85}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
-    .btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;text-align:center}
-    .btn:hover{filter:brightness(.95)}
-    footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
-    @media (max-width:520px){.brand{font-size:24px}.nav{gap:12px}.lang a{padding:9px 14px} h1{font-size:30px}}
-  </style>
-</head>
-<body>
-  <!-- HEADER -->
-  <header>
-    <div class="bar">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="nav">
-        <a href="/index.html">Home</a>
-        <a href="/books.html">Books</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/payments.html">Payments</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/refunds.html">Refunds</a>
-        <a href="/our-story.html">Our Story</a>
-      </nav>
-      <div class="lang">
-        <a id="to-en" class="active">EN</a>
-        <a id="to-es">ES</a>
-      </div>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thank You — Edunancial</title>
+<style>
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:9999;background:var(--red);color:#000;box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.bar{max-width:1100px;margin:0 auto;padding:26px 16px;display:flex;align-items:center;gap:18px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:32px;color:#000}
+.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
+.lang{display:flex;gap:10px}.lang a{display:inline-block;padding:12px 20px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+.wrap{max-width:1100px;margin:22px auto;padding:0 16px}
+.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
+.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;text-align:center}
+</style>
+</head><body>
+<header><div class="bar">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/books.html">Books</a>
+    <a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a>
+    <a href="/call-center.html">Call Center</a>
+    <a href="/vendor-program.html">Vendor Program</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="/refunds.html">Refunds</a>
+    <a href="/our-story.html">Our Story</a>
+  </nav>
+  <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
+</div></header>
+
+<main class="wrap">
+  <section class="card">
+    <h1>Thank You!</h1>
+    <p>Your payment was received. A PayPal receipt has been sent to your email.</p>
+    <div class="grid">
+      <a class="btn" href="/courses.html">Go to Courses</a>
+      <a class="btn" href="/books.html">Browse Books</a>
+      <a class="btn" href="/contact.html">Need Help? Contact Us</a>
+      <a class="btn" href="/index.html">Back to Home</a>
     </div>
-  </header>
+  </section>
+</main>
 
-  <main class="wrap">
-    <section class="card">
-      <h1>Thank You!</h1>
-      <p>Your payment was received. A receipt has been sent by PayPal to your email.</p>
-      <p class="muted">If you don’t see it, please check your spam folder.</p>
+<footer>© 2025 Edunancial, Inc.</footer>
 
-      <div class="grid">
-        <a class="btn" href="/courses.html">Go to Courses</a>
-        <a class="btn" href="/books.html">Browse Books</a>
-        <a class="btn" href="/contact.html">Need Help? Contact Us</a>
-        <a class="btn" href="/index.html">Back to Home</a>
-      </div>
-
-      <p style="margin-top:14px" class="muted">
-        Questions about your order? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
-      </p>
-    </section>
-  </main>
-
-  <footer>© 2025 Edunancial, Inc. • All rights reserved.</footer>
-
-  <script>
-    // Language toggle to Spanish counterpart
-    (function(){
-      var en = document.getElementById('to-en');
-      var es = document.getElementById('to-es');
-      if(en && es){ en.href='/thank-you.html'; es.href='/es-thank-you.html'; }
-    })();
-  </script>
-</body>
-</html>
+<script>
+(function(){
+  var en=document.getElementById('to-en'), es=document.getElementById('to-es');
+  if(!en||!es) return;
+  var p=(location.pathname.split('/').pop()||'thank-you.html'), base=p.startsWith('es-')?p.slice(3):p;
+  en.href='/'+base; es.href='/es-'+base;
+  if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
+  else{ en.classList.add('active'); es.classList.remove('active'); }
+})();
+</script>
+</body></html>
