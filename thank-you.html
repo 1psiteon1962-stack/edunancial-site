@@ -1,62 +1,12 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Thank You — Edunancial</title>
-<style>
-:root{--red:#c40000;--ink:#000}
-*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-header{position:sticky;top:0;z-index:9999;background:var(--red);color:#000;box-shadow:0 2px 0 rgba(0,0,0,.15)}
-.bar{max-width:1100px;margin:0 auto;padding:26px 16px;display:flex;align-items:center;gap:18px}
-.brand{font-weight:900;letter-spacing:.5px;font-size:32px;color:#000}
-.nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
-.lang{display:flex;gap:10px}.lang a{display:inline-block;padding:12px 20px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
-.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
-.wrap{max-width:1100px;margin:22px auto;padding:0 16px}
-.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
-.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none;text-align:center}
-</style>
-</head><body>
-<header><div class="bar">
-  <div class="brand">EDUNANCIAL</div>
-  <nav class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/books.html">Books</a>
-    <a href="/courses.html">Courses</a>
-    <a href="/payments.html">Payments</a>
-    <a href="/call-center.html">Call Center</a>
-    <a href="/vendor-program.html">Vendor Program</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/terms.html">Terms</a>
-    <a href="/refunds.html">Refunds</a>
-    <a href="/our-story.html">Our Story</a>
-  </nav>
-  <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
-</div></header>
-
-<main class="wrap">
-  <section class="card">
-    <h1>Thank You!</h1>
-    <p>Your payment was received. A PayPal receipt has been sent to your email.</p>
-    <div class="grid">
-      <a class="btn" href="/courses.html">Go to Courses</a>
-      <a class="btn" href="/books.html">Browse Books</a>
-      <a class="btn" href="/contact.html">Need Help? Contact Us</a>
-      <a class="btn" href="/index.html">Back to Home</a>
-    </div>
-  </section>
+<link rel="stylesheet" href="/style.css"></head><body>
+<div id="sitebar"></div>
+<main class="container">
+  <h1>Thank you!</h1>
+  <p>Your order was received. A receipt will be sent by PayPal.</p>
+  <p><a class="btn" href="/courses.html">Back to Courses</a></p>
 </main>
-
-<footer>© 2025 Edunancial, Inc.</footer>
-
-<script>
-(function(){
-  var en=document.getElementById('to-en'), es=document.getElementById('to-es');
-  if(!en||!es) return;
-  var p=(location.pathname.split('/').pop()||'thank-you.html'), base=p.startsWith('es-')?p.slice(3):p;
-  en.href='/'+base; es.href='/es-'+base;
-  if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
-  else{ en.classList.add('active'); es.classList.remove('active'); }
-})();
-</script>
+<script src="/header.js"></script>
 </body></html>
