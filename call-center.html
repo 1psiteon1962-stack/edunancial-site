@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Call Center — Edunancial</title>
+<style>
+:root{--red:#c40000;--ink:#000}
+*{box-sizing:border-box}html,body{margin:0;background:#f6f6f6;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:9999;background:var(--red);color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.bar{max-width:1100px;margin:0 auto;padding:26px 16px;display:flex;align-items:center;gap:18px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:32px;color:#000}
+.nav{display:flex;gap:20px;flex:1;flex-wrap:wrap}.nav a{color:#000;text-decoration:none;font-weight:800}.nav a:hover{text-decoration:underline}
+.lang{display:flex;gap:10px}
+.lang a{display:inline-block;padding:12px 20px;border-radius:999px;background:#000;color:#fff;text-decoration:none;font-weight:900;border:2px solid #000}
+.lang a.active{background:#fff;color:var(--red);border-color:var(--red)}
+.wrap{max-width:1100px;margin:22px auto;padding:0 16px}
+.card{background:#fff;border:1px solid #eee;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06);padding:22px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.btn{display:inline-block;background:#0a5bd8;color:#fff;padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}
+small.muted{opacity:.85}
+label{font-weight:700}
+input,select,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px}
+hr{border:none;border-top:1px solid #eee;margin:16px 0}
+footer{font-size:14px;color:#333;opacity:.85;margin:24px 0;padding:0 16px}
+</style>
+</head><body>
+<header><div class="bar">
+  <div class="brand">EDUNANCIAL</div>
+  <nav class="nav">
+    <a href="/index.html">Home</a><a href="/books.html">Books</a><a href="/courses.html">Courses</a>
+    <a href="/payments.html">Payments</a><a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/refunds.html">Refunds</a>
+    <a href="/our-story.html">Our Story</a>
+  </nav>
+  <div class="lang"><a id="to-en" class="active">EN</a><a id="to-es">ES</a></div>
+</div></header>
+
+<main class="wrap">
+  <section class="card">
+    <h1>Call Center</h1>
+    <p>Need help with an order, book, or course? We’re here.</p>
+    <div class="grid">
+      <div class="card">
+        <h2>Call Now</h2>
+        <p><a class="btn" href="tel:+1-800-000-0000">📞 +1 (800) 000-0000</a></p>
+        <p><small class="muted">Hours: Mon–Fri 9:00a–6:00p ET</small></p>
+      </div>
+      <div class="card">
+        <h2>Request a Callback</h2>
+        <!-- Netlify Form: creates an inbox automatically -->
+        <form name="call-back" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="call-back">
+          <div><label for="cb_name">Full Name</label><input id="cb_name" name="name" required></div>
+          <div><label for="cb_phone">Phone</label><input id="cb_phone" name="phone" required></div>
+          <div><label for="cb_email">Email</label><input id="cb_email" type="email" name="email" required></div>
+          <div><label for="cb_reason">Reason</label>
+            <select id="cb_reason" name="reason">
+              <option>Book Purchase</option><option>Course Enrollment</option><option>Payment/PayPal</option>
+              <option>Refund/Cancellation</option><option>General Question</option>
+            </select>
+          </div>
+          <div><label for="cb_notes">Notes (optional)</label><textarea id="cb_notes" name="notes" rows="3"></textarea></div>
+          <button class="btn" type="submit">Submit</button>
+          <p><small class="muted">By submitting you agree to our <a href="/terms.html">Terms</a> and <a href="/privacy.html">Privacy</a>. Disputes: Florida law; exclusive venue in Palm Beach County.</small></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2025 Edunancial, Inc.</footer>
+
+<script>
+/* Language toggle — auto maps EN <-> ES counterpart */
+(function(){
+  var en=document.getElementById('to-en'), es=document.getElementById('to-es');
+  if(!en||!es) return;
+  var p=(location.pathname.split('/').pop()||'call-center.html');
+  var base=p.startsWith('es-')?p.slice(3):p;
+  en.href='/'+base; es.href='/es-'+base;
+  if(p.startsWith('es-')){ es.classList.add('active'); en.classList.remove('active'); }
+  else{ en.classList.add('active'); es.classList.remove('active'); }
+})();
+</script>
+</body></html>
