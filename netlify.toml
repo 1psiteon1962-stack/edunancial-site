@@ -1,12 +1,10 @@
-# Netlify config for Edunancial — clean & simple
+# Edunancial — production Netlify config
 
 [build]
   publish = "/"
   command = ""
 
-# Redirect common extensionless URLs to their .html pages
-# (Prevents iOS Safari/old bookmarks from hitting 404)
-
+# Redirect extensionless paths to real .html files (fixes iOS 404/bookmarks)
 [[redirects]]; from="/";              to="/index.html";         status=301; force=true
 [[redirects]]; from="/courses";       to="/courses.html";       status=301; force=true
 [[redirects]]; from="/books";         to="/books.html";         status=301; force=true
@@ -21,12 +19,13 @@
 [[redirects]]; from="/checkout";      to="/checkout.html";      status=301; force=true
 [[redirects]]; from="/thank-you";     to="/thank-you.html";     status=301; force=true
 
-# Spanish
+# Spanish mirrors
 [[redirects]]; from="/es";                to="/es-index.html";       status=301; force=true
 [[redirects]]; from="/es-courses";        to="/es-courses.html";     status=301; force=true
 [[redirects]]; from="/es-books";          to="/es-books.html";       status=301; force=true
 [[redirects]]; from="/es-payments";       to="/es-payments.html";    status=301; force=true
 [[redirects]]; from="/es-call-center";    to="/es-call-center.html"; status=301; force=true
+[[redirects]]; from="/es-vendor";         to="/es-vendor.html";      status=301; force=true
 [[redirects]]; from="/es-contact";        to="/es-contact.html";     status=301; force=true
 [[redirects]]; from="/es-privacy";        to="/es-privacy.html";     status=301; force=true
 [[redirects]]; from="/es-terms";          to="/es-terms.html";       status=301; force=true
