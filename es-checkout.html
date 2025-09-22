@@ -15,7 +15,7 @@
       <h1>Pago</h1>
       <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
 
-      <form id="payForm" class="stack" novalidate>
+      <form id="payForm" class="stack" method="GET" action="#">
         <fieldset class="row">
           <legend class="label">Grupo de edad</legend>
           <label class="radio"><input type="radio" name="age" value="adult"> 18 o más</label>
@@ -30,10 +30,7 @@
         <p class="muted">Precio:</p>
         <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
 
-        <a id="toPayPal" class="btn btn-primary" href="#">
-          Continuar a PayPal
-        </a>
-
+        <button type="submit" class="btn btn-primary">Continuar a PayPal</button>
         <p id="msg" class="tiny muted"></p>
 
         <p class="tiny muted">
@@ -47,47 +44,43 @@
 
   <script>
   (function () {
-    var amountEl = document.getElementById('amount');
-    var codeEl   = document.getElementById('agecode');
-    var form     = document.getElementById('payForm');
-    var btn      = document.getElementById('toPayPal');
-    var msgEl    = document.getElementById('msg');
+    // ====== PEGAR AQUÍ SU ENLACE DE PAYPAL (formato “Pay Now”) ======
+    var PAYPAL_BASE = ""; // ej.: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=su%40correo.com&item_name=EDN-CRS-MIX-001&currency_code=USD&no_shipping=1
 
-    function base(){ var b=parseFloat(amountEl.getAttribute('data-base')||'0'); return isFinite(b)?b:0; }
+    var form=document.getElementById('payForm');
+    var amountEl=document.getElementById('amount');
+    var codeEl=document.getElementById('agecode');
+    var msgEl=document.getElementById('msg');
+
+    function base(){ var b=parseFloat(amountEl.dataset.base||'0'); return isFinite(b)?b:0; }
     function setAmount(v){ amountEl.textContent = Number(v).toFixed(2); }
-    function selectedAge(){ var s=form.querySelector('input[name="age"]:checked'); return s?s.value:''; }
-    function elegible(){ return selectedAge()==='under' && (codeEl.value||'').trim().length>0; }
+    function age(){ var r=form.querySelector('input[name="age"]:checked'); return r?r.value:''; }
+    function elegible(){ return age()==='under' && (codeEl.value||'').trim().length>0; }
     function compute(){ return elegible()?3.00:base(); }
 
-    function validate(){
+    function validar(){
       var ok=true; msgEl.textContent='';
-      var age=selectedAge(), code=(codeEl.value||'').trim();
-      if(!age){ ok=false; msgEl.textContent='Seleccione un grupo de edad.'; }
-      else if(age==='under' && code.length===0){ ok=false; msgEl.textContent='Ingrese el código de menor de 18.'; }
+      if(!age()){ ok=false; msgEl.textContent='Seleccione un grupo de edad.'; }
+      else if(age()==='under' && (codeEl.value||'').trim().length===0){ ok=false; msgEl.textContent='Ingrese el código de menor de 18.'; }
       setAmount(compute());
       return ok;
     }
-    form.addEventListener('input', validate);
-    form.addEventListener('change', validate);
-    validate();
 
-    btn.addEventListener('click', function(e){
-      e.preventDefault();
-      if(!validate()) return;
+    form.addEventListener('input', validar);
+    form.addEventListener('change', validar);
+    validar();
 
-      var href = btn.getAttribute('href') || '';
-      if(!href || href==='#'){ alert('Agregue su enlace de PayPal al href del botón. El monto se adjuntará automáticamente.'); return; }
-
-      var returnUrl = location.origin + '/es-thank-you.html';
-      var cancelUrl = location.origin + '/es-checkout.html';
+    form.addEventListener('submit', function(e){
+      if(!validar()){ e.preventDefault(); return; }
+      if(!PAYPAL_BASE){ e.preventDefault(); alert('Agregue su enlace de PayPal en PAYPAL_BASE en es-checkout.html'); return; }
       try{
-        var u = new URL(href);
+        var u=new URL(PAYPAL_BASE);
         u.searchParams.set('amount', Number(compute()).toFixed(2));
-        u.searchParams.set('return', returnUrl);
-        u.searchParams.set('cancel_return', cancelUrl);
-        window.location.assign(u.toString());
+        u.searchParams.set('return', location.origin + '/es-thank-you.html');
+        u.searchParams.set('cancel_return', location.origin + '/es-checkout.html');
+        form.action=u.toString();
       }catch(err){
-        window.location.assign(href);
+        form.action=PAYPAL_BASE;
       }
     });
   })();
