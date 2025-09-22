@@ -2,60 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial — Learn. Build. Grow.</title>
-  <meta name="description" content="Edunancial helps families learn real estate, paper assets, and business formation with simple, practical lessons." />
-  <link rel="preload" href="/header.js?v=4" as="script">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial — Learn, Build, and Grow</title>
+  <meta name="description" content="Simple lessons in Real Estate, Paper Assets, and Business formation. Memberships start at $5." />
+  <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=5" as="script">
 </head>
 <body>
-  <!-- Site Header (nav + EN/ES toggle). Ensure header.js?v=4 is uploaded. -->
-  <header class="site-header" id="site-header"></header>
+  <!-- Site Header with EN/ES toggle gets rendered here -->
+  <header id="site-header" class="site-header"></header>
 
-  <main class="container" style="max-width:980px;margin:24px auto;padding:0 16px">
-    <!-- Our Story (public) -->
-    <section class="card" aria-labelledby="our-story-title">
-      <h1 id="our-story-title">Our Story</h1>
+  <main class="container">
+    <!-- OUR STORY -->
+    <section class="card" id="our-story">
+      <h1>Our Story</h1>
       <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
       <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from, and is putting a business together.</p>
-      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>foundations of lifetime growth.</strong></p>
-
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>foundations of lifetime growth</strong>.</p>
+      <p>
         <a class="btn" href="/books.html">See Books</a>
-        <a class="btn" href="/courses.html">See Courses</a>
-      </div>
+        <a class="btn" href="/courses.html" style="margin-left:8px">See Courses</a>
+      </p>
     </section>
 
-    <!-- Membership teaser lives directly under Our Story -->
-    <section class="card" aria-labelledby="membership-title" style="margin-top:16px">
-      <h2 id="membership-title">Membership — Start for $5</h2>
-      <p>Become a member to access lessons, courses, discounts, and members-only materials. Upgrade anytime.</p>
+    <!-- MEMBERSHIP -->
+    <section class="card" id="membership">
+      <h2>Membership — Start for $5</h2>
+      <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
 
-      <div class="card" style="background:#fafafa">
-        <h3 style="margin-top:0">Tiers</h3>
+      <div class="card" style="margin-top:12px">
+        <h3>Starter — <strong>$5/mo</strong></h3>
         <ul>
-          <li><strong>Starter — $5/mo</strong> • Member pricing on courses &amp; books, monthly digest, members-only downloads.</li>
-          <li><strong>Standard — $15/mo</strong> • Everything in Starter, plus workbook downloads, templates, and community Q&amp;A access when available.</li>
-          <li><strong>Premium — $49/mo</strong> • Everything in Standard, business-formation webinar access, and priority email/chat support.</li>
+          <li>Member pricing on courses and paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences &amp; compliance (you choose what we send)</li>
         </ul>
-        <p class="small">You can upgrade or downgrade anytime from your account.</p>
+        <a class="btn" href="/membership.html#starter">Join Starter</a>
       </div>
 
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
-        <a class="btn" href="/membership.html">Join Now</a>
-        <a class="link" href="/membership-upgrade.html">Upgrade / Manage</a>
+      <div class="card" style="margin-top:12px">
+        <h3>Growth — <strong>$15/mo</strong></h3>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Priority email/chat support for account &amp; course access</li>
+          <li>Access to live <em>Business Formation</em> webinar sessions</li>
+        </ul>
+        <a class="btn" href="/membership.html#growth">Join Growth</a>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>Pro — <strong>$25/mo</strong></h3>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+          <li>Early access to new courses and tools</li>
+        </ul>
+        <a class="btn" href="/membership.html#pro">Join Pro</a>
       </div>
 
       <p class="small" style="margin-top:10px">
-        Already a member? Your cart and checkout will automatically use your member pricing and any valid discount codes.
+        Already a member? <a class="link" href="/membership-upgrade.html">Upgrade your membership</a> •
+        <a class="link" href="/cart.html">View Cart</a>
       </p>
     </section>
   </main>
 
-  <footer class="container" style="max-width:980px;margin:24px auto;padding:0 16px">
-    <p class="small">© 2025 Edunancial, Inc. • <a href="/privacy.html">Privacy</a> • <a href="/terms.html">Terms</a> • <a href="/refunds.html">Refunds</a></p>
+  <footer class="container small" style="margin-bottom:40px">
+    © 2025 Edunancial, Inc. • All rights reserved.
   </footer>
 
-  <script src="/header.js?v=4" defer></script>
+  <script src="/header.js?v=5" defer></script>
 </body>
 </html>
