@@ -1,79 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkout — Edunancial</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .section { margin-bottom: 20px; }
-    label { margin-right: 10px; }
-    input[type="text"] { width: 250px; padding: 5px; }
-    #price { font-weight: bold; margin-top: 10px; }
-    button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Checkout — Edunancial</title>
+<style>
+  :root{--brand:#c40000;--ink:#111;--muted:#666;--card:#fff;--accent:#0a58ca;--radius:14px}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fafafa}
+  .banner{position:sticky;top:0;z-index:50;background:var(--brand);color:#fff;padding:14px 16px;box-shadow:0 2px 0 rgba(0,0,0,.1)}
+  .nav{max-width:900px;margin:0 auto;display:flex;gap:16px;align-items:center}
+  .logo{font-weight:800;letter-spacing:.5px}
+  .spacer{flex:1}
+  .toggle{display:flex;gap:10px}
+  .pill{background:#000;color:#fff;border:2px solid #000;border-radius:999px;padding:6px 12px;font-weight:800;text-decoration:none}
+  .pill.outline{background:transparent;color:#000}
+  .wrap{max-width:900px;margin:28px auto;padding:0 16px}
+  .card{background:var(--card);border-radius:var(--radius);box-shadow:0 2px 8px rgba(0,0,0,.08);padding:20px}
+  h1{margin:0 0 14px}
+  fieldset{border:2px solid #eee;border-radius:12px;padding:12px;margin:0 0 14px}
+  legend{padding:0 6px}
+  label{display:inline-flex;align-items:center;gap:8px;margin-right:16px}
+  input[type="text"]{width:100%;padding:10px 12px;border:2px solid #ddd;border-radius:10px;font-size:16px}
+  .row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+  .price{font-weight:800}
+  .muted{color:var(--muted)}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:0}
+  .btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
+  .note{background:#fff4f4;border-left:6px solid var(--brand);padding:10px;border-radius:8px;margin:12px 0}
+</style>
 </head>
 <body>
-  <h2>Checkout</h2>
-  <form id="checkout-form">
-    <div class="section">
-      <p>Select your age group:</p>
-      <label><input type="radio" id="age18" name="age" value="18+"> 18 or older</label>
-      <label><input type="radio" id="ageU18" name="age" value="u18"> Under 18</label>
+<header class="banner">
+  <nav class="nav">
+    <div class="logo">EDUNANCIAL</div>
+    <div class="spacer"></div>
+    <div class="toggle">
+      <a class="pill outline" href="checkout.html">EN</a>
+      <a class="pill" href="es-checkout.html">ES</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <h1>Checkout</h1>
+    <div class="muted" style="margin-bottom:8px">SKU: <strong>EDN-CRS-MIX-001</strong></div>
+
+    <fieldset>
+      <legend>Select your age group:</legend>
+      <label><input type="radio" name="age" value="ADULT"> 18 or older</label>
+      <label><input type="radio" name="age" value="UNDER18"> Under 18</label>
+    </fieldset>
+
+    <div class="note">Enter your code exactly. We ignore spaces and case. Example: <b>PR12345$$$</b></div>
+
+    <label for="code">Discount / Under-18 Code:</label>
+    <input id="code" type="text" inputmode="latin" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Enter code" />
+
+    <div class="row" style="margin-top:14px">
+      <div>
+        <div class="muted">Price:</div>
+        <div id="price" class="price">$75.00</div>
+      </div>
+      <a id="pay" class="btn" href="#" aria-disabled="true">Continue to PayPal</a>
     </div>
 
-    <div class="section">
-      <p>Discount / Under-18 Code:</p>
-      <input id="code" type="text" placeholder="Enter your code">
-    </div>
+    <p class="muted" style="margin-top:16px">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
+  </div>
 
-    <div id="price" class="section">$75.00</div>
+  <p class="muted" style="text-align:center;margin-top:18px">© 2025 Edunancial, Inc.</p>
+</main>
 
-    <button id="payBtn" type="button">Continue to PayPal</button>
-  </form>
+<script>
+(() => {
+  // 1) Your live PayPal payment link (no amount here; we append it)
+  const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
 
-  <script>
-  (() => {
-    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
-    const BASE_PRICE = 75.00;
-    const DISCOUNT_PRICE = 3.00;
-    const ACCEPTED_CODES = new Set(["PR12345$$$", "PR2345$$$"]);
+  // 2) Product base price
+  const BASE_PRICE = 75.00;
 
-    const priceEl = document.getElementById("price");
-    const codeEl = document.getElementById("code");
-    const age18El = document.getElementById("age18");
-    const ageU18El = document.getElementById("ageU18");
-    const payBtn = document.getElementById("payBtn");
+  // 3) Allowed codes by age group (edit here when you add/remove codes)
+  //    Codes are validated case-insensitively and with spaces removed.
+  const VALID_CODES = {
+    ADULT:   new Set(["PR12345$$$"]),    // <- example adult code; replace or add as needed
+    UNDER18: new Set(["PR12345$$$"])     // <- your under-18 code
+  };
 
-    const format = (n) => n.toLocaleString("en-US",{style:"currency",currency:"USD"});
-    const amountParam = (n) => `amount=${encodeURIComponent(n.toFixed(2))}`;
+  const priceEl = document.getElementById("price");
+  const codeInput = document.getElementById("code");
+  const payBtn = document.getElementById("pay");
 
-    function currentAmount() {
-      const pickedAge = age18El.checked || ageU18El.checked;
-      const code = (codeEl.value || "").trim();
-      if (!pickedAge || !code) return BASE_PRICE;
-      if (ACCEPTED_CODES.has(code)) return DISCOUNT_PRICE;
-      return BASE_PRICE;
+  function normalized(val){
+    return (val || "").toString().toUpperCase().replace(/\s+/g,"");
+  }
+
+  function currentAge() {
+    const picked = document.querySelector('input[name="age"]:checked');
+    return picked ? picked.value : null;
+  }
+
+  function computePrice() {
+    // Default is full price
+    let amount = BASE_PRICE;
+
+    const age = currentAge();
+    const code = normalized(codeInput.value);
+
+    if (!age || !code) return {ok:false, amount};
+
+    // Accept only if code is in the set for the selected age
+    if (VALID_CODES[age] && VALID_CODES[age].has(code)) {
+      amount = 3.00; // discount lands at $3.00
+      return {ok:true, amount};
+    } else {
+      return {ok:false, amount};
     }
+  }
 
-    function renderPrice() { priceEl.textContent = format(currentAmount()); }
-    [age18El, ageU18El, codeEl].forEach(el => {
-      el && el.addEventListener("change", renderPrice);
-      el && el.addEventListener("input", renderPrice);
-    });
-    renderPrice();
+  function render() {
+    const res = computePrice();
+    priceEl.textContent = `$${res.amount.toFixed(2)}`;
 
-    payBtn.addEventListener("click", (e) => {
+    if (res.ok) {
+      payBtn.setAttribute("aria-disabled","false");
+      // append amount safely
+      const url = new URL(PAYPAL_BASE);
+      url.searchParams.set("amount", res.amount.toFixed(2));
+      url.searchParams.set("item", "EDN-CRS-MIX-001");
+      payBtn.href = url.toString();
+    } else {
+      payBtn.setAttribute("aria-disabled","true");
+      payBtn.href = "#";
+    }
+  }
+
+  // Validate on interactions
+  document.addEventListener("change", render);
+  document.addEventListener("keyup", render);
+  payBtn.addEventListener("click", (e) => {
+    const res = computePrice();
+    if (!res.ok) {
       e.preventDefault();
-      const pickedAge = age18El.checked || ageU18El.checked;
-      const code = (codeEl.value || "").trim();
-      if (!pickedAge) { alert("Please select an age group."); return; }
-      if (!code) { alert("Please enter your code."); return; }
-      if (!ACCEPTED_CODES.has(code)) { alert("Code not recognized."); return; }
-      const amt = currentAmount();
-      window.location.href = `${PAYPAL_BASE}?${amountParam(amt)}`;
-    });
-  })();
-  </script>
+      alert("Code not recognized. Make sure you selected your age group and typed the correct code (no spaces).");
+    }
+  });
+
+  render();
+})();
+</script>
 </body>
 </html>
