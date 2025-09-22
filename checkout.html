@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <!-- Global header (red banner, nav, EN/ES toggle) -->
   <div id="sitebar"></div>
   <script src="/header.js"></script>
 
@@ -17,6 +16,14 @@
       <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
 
       <form id="payForm" class="stack" novalidate>
+        <!-- Age group selection -->
+        <fieldset class="row">
+          <legend class="label">Age group</legend>
+          <label class="radio"><input type="radio" name="age" value="adult"> 18 or older</label>
+          <label class="radio"><input type="radio" name="age" value="under"> Under 18</label>
+        </fieldset>
+
+        <!-- Code required only for under-18 discount -->
         <div class="row">
           <label for="agecode" class="label">Discount / Under-18 Code</label>
           <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Enter code" class="input" />
@@ -25,9 +32,12 @@
         <p class="muted">Price:</p>
         <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
 
+        <!-- Put your real PayPal link in href. We’ll patch amount/return/cancel and then navigate. -->
         <a id="toPayPal" class="btn btn-primary" href="#">
           Continue to PayPal
         </a>
+
+        <p id="msg" class="tiny muted"></p>
 
         <p class="tiny muted">
           By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
@@ -40,55 +50,74 @@
 
   <script>
   (function () {
-    // ---- Pricing rules for TEST ONLY (reduce to $3.00 when a non-empty code is applied) ----
-    // Nothing changes automatically. User must type a code (any non-empty string) to trigger $3.00 for testing.
     var amountEl = document.getElementById('amount');
-    var agecode  = document.getElementById('agecode');
+    var codeEl   = document.getElementById('agecode');
+    var form     = document.getElementById('payForm');
     var btn      = document.getElementById('toPayPal');
+    var msgEl    = document.getElementById('msg');
 
-    function getBase() {
+    function base() {
       var b = parseFloat(amountEl.getAttribute('data-base') || '0');
       return isFinite(b) ? b : 0;
     }
-    function setAmount(v) {
-      amountEl.textContent = Number(v).toFixed(2);
+    function setAmount(v) { amountEl.textContent = Number(v).toFixed(2); }
+
+    function selectedAge() {
+      var s = form.querySelector('input[name="age"]:checked');
+      return s ? s.value : '';
     }
+
+    function isDiscountEligible() {
+      return selectedAge() === 'under' && (codeEl.value || '').trim().length > 0;
+    }
+
     function computeAmount() {
-      var code = (agecode.value || '').trim();
-      if (code.length > 0) return 3.00;            // test: any non-empty code → $3.00
-      return getBase();                             // no code → base price
+      return isDiscountEligible() ? 3.00 : base();
     }
 
-    function refreshAmount() {
+    function validate() {
+      var age = selectedAge();
+      var code = (codeEl.value || '').trim();
+      var ok = true;
+      msgEl.textContent = '';
+
+      if (!age) {
+        ok = false;
+        msgEl.textContent = 'Select an age group.';
+      } else if (age === 'under' && code.length === 0) {
+        ok = false;
+        msgEl.textContent = 'Enter the under-18 discount code.';
+      }
       setAmount(computeAmount());
+      return ok;
     }
-    agecode.addEventListener('input', refreshAmount);
 
-    // ---- PayPal link hardening (absolute return/cancel with .html; preserve your existing link) ----
-    var isES = false; // this is EN page
-    var returnUrl = location.origin + '/thank-you.html';
-    var cancelUrl = location.origin + '/checkout.html';
+    form.addEventListener('input', validate);
+    form.addEventListener('change', validate);
+    validate();
 
-    // If the anchor already has your working PayPal URL, we won't replace it—only patch params.
-    // If it's empty, we leave it as # (so you can still navigate back) but it will not break layout.
     btn.addEventListener('click', function (e) {
-      // ensure current amount is pushed into URL & return targets are set
+      e.preventDefault();
+      if (!validate()) return;
+
       var href = btn.getAttribute('href') || '';
       if (!href || href === '#') {
-        // leave as-is (no public secrets exposed here)
+        alert('Add your PayPal link to the Checkout button href. Amount will be appended automatically.');
         return;
       }
+      var returnUrl = location.origin + '/thank-you.html';
+      var cancelUrl = location.origin + '/checkout.html';
+
       try {
         var u = new URL(href);
+        u.searchParams.set('amount', Number(computeAmount()).toFixed(2));
         u.searchParams.set('return', returnUrl);
         u.searchParams.set('cancel_return', cancelUrl);
-        u.searchParams.set('amount', Number(computeAmount()).toFixed(2));
-        btn.setAttribute('href', u.toString());
-      } catch (_) {}
+        window.location.assign(u.toString());
+      } catch (err) {
+        window.location.assign(href);
+      }
     });
-
-    // Initial display
-    refreshAmount();
   })();
   </script>
 </body>
