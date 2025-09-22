@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Cursos — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preload" href="/header.js?v=3" as="script">
   <style>
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px 0}
-    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
-    .link{color:#c00;text-decoration:none;font-weight:600}
-    .row{display:flex;gap:12px;flex-wrap:wrap}
-    .price{font-weight:700;margin:.25rem 0 1rem}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:980px}
+    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
     .muted{color:#666}
-    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
+    input[type="text"]{width:260px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
+    .price b{font-size:1.05rem}
+    .strike{ text-decoration:line-through; color:#888; margin-right:8px; }
   </style>
 </head>
 <body>
@@ -23,44 +24,97 @@
   <main class="container">
     <h1>Cursos</h1>
 
-    <div class="top-actions">
-      <a class="link" href="/es-cart.html">Ir al Carrito</a>
-    </div>
-
-    <article class="card">
-      <h2 class="h3">El Método Edunancial — Mini Curso</h2>
-      <p class="muted">SKU: <b>EDN-CRS-MIX-001</b></p>
-      <p class="price">$75.00</p>
+    <section class="card">
       <div class="row">
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-MIX-001',name:'Mini Curso',price:75,qty:1,locale:'es'})">Agregar al carrito</button>
-        <a class="btn" style="text-decoration:none" href="/es-checkout.html?sku=EDN-CRS-MIX-001">Comprar ahora</a>
+        <div>
+          <label for="code"><b>Código de descuento / socio</b></label><br/>
+          <input id="code" type="text" placeholder="Ingresa el código">
+          <button id="apply" class="btn" type="button">Aplicar</button>
+          <button id="clear" class="btn-link" type="button">Quitar código</button>
+        </div>
+        <div id="codeMsg" class="muted"></div>
       </div>
-      <p class="muted small" style="margin-top:8px">Los códigos de descuento se aplican en el pago o en el carrito.</p>
-    </article>
+    </section>
 
-    <article class="card">
-      <h2 class="h3">Formación Empresarial en Profundidad</h2>
-      <p class="muted">SKU: <b>EDN-CRS-BO-001</b></p>
-      <p class="price">$199.00</p>
-      <div class="row">
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-BO-001',name:'Formación Empresarial',price:199,qty:1,locale:'es'})">Agregar al carrito</button>
-        <a class="btn" style="text-decoration:none" href="/es-checkout.html?sku=EDN-CRS-BO-001">Comprar ahora</a>
-      </div>
-      <p class="muted small" style="margin-top:8px">Se admiten códigos de descuento.</p>
-    </article>
+    <section class="card" id="list"></section>
+
+    <p><a class="btn" style="text-decoration:none" href="/es-cart.html">Ir al carrito</a></p>
   </main>
 
   <script>
-    function addToCartSafe(item){
-      if (window.addToCart) { window.addToCart(item); return; }
-      const key='edn_cart';
-      const cart=JSON.parse(localStorage.getItem(key)||'[]');
-      const idx=cart.findIndex(i=>i.sku===item.sku);
-      if(idx>-1){ cart[idx].qty += (item.qty||1); }
-      else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
-      localStorage.setItem(key,JSON.stringify(cart));
-      window.location.href=item.locale==='es'?'/es-cart.html':'/cart.html';
+    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
+    const DISCOUNT_CODES = {
+      'PR12345$$$': { type:'perItemFlat', price:1.00, note:'Tarifa de socio aplicada' },
+      'UNDER18':   { type:'perItemFlat', price:1.00, note:'Tarifa para menores aplicada' },
+    };
+    const norm = s => (s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+
+    const COURSES = [
+      { sku:'EDN-CRS-MIX-001', name:'El Método Edunancial — Mini Curso', price:75.00 },
+      { sku:'EDN-CRS-BO-001',  name:'Formación Empresarial en Profundidad', price:199.00 },
+    ];
+
+    function effectivePrice(unitPrice, code){
+      const rule=DISCOUNT_CODES[norm(code)];
+      if(!rule) return unitPrice;
+      if (rule.type==='perItemFlat') return rule.price;
+      return unitPrice;
     }
+
+    function loadCart(){ try{ return JSON.parse(localStorage.getItem(CART_KEY)||'[]'); }catch(e){ return []; } }
+    function saveCart(c){ localStorage.setItem(CART_KEY, JSON.stringify(c)); }
+    function addToCart(item){
+      const cart=loadCart();
+      const idx=cart.findIndex(x=>x.sku===item.sku);
+      if(idx>-1) cart[idx].qty += (item.qty||1);
+      else cart.push({ sku:item.sku, name:item.name, price:item.price, qty:item.qty||1 });
+      saveCart(cart);
+      alert('Añadido al carrito');
+      if (window.updateCartCount) window.updateCartCount();
+    }
+
+    function renderList(){
+      const codeRaw=localStorage.getItem(DISC_KEY)||'';
+      const rule=DISCOUNT_CODES[norm(codeRaw)];
+      document.getElementById('code').value=codeRaw;
+      document.getElementById('codeMsg').textContent = rule ? (rule.note||'Código aplicado') : (codeRaw ? 'Código no reconocido' : '');
+
+      const wrap=document.getElementById('list'); wrap.innerHTML='';
+      COURSES.forEach(c=>{
+        const pEff=effectivePrice(c.price, codeRaw);
+        const priceHtml = (pEff < c.price)
+          ? `<span class="strike">$${c.price.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`
+          : `<b>$${c.price.toFixed(2)}</b>`;
+        const card=document.createElement('div');
+        card.style.marginBottom='12px';
+        card.innerHTML=`
+          <h2 style="margin:8px 0">${c.name}</h2>
+          <div class="muted">SKU: ${c.sku}</div>
+          <p class="price" style="margin:8px 0">Precio: ${priceHtml}</p>
+          <button class="btn" data-sku="${c.sku}">Añadir al carrito</button>
+        `;
+        wrap.appendChild(card);
+      });
+
+      wrap.querySelectorAll('button[data-sku]').forEach(btn=>{
+        btn.addEventListener('click', e=>{
+          const sku=e.target.dataset.sku;
+          const c=COURSES.find(x=>x.sku===sku);
+          const codeRaw=localStorage.getItem(DISC_KEY)||'';
+          const pEff=effectivePrice(c.price, codeRaw);
+          addToCart({ sku:c.sku, name:c.name, price:pEff, qty:1 });
+        });
+      });
+    }
+
+    document.getElementById('apply').addEventListener('click', ()=>{
+      localStorage.setItem(DISC_KEY, document.getElementById('code').value||''); renderList();
+    });
+    document.getElementById('clear').addEventListener('click', ()=>{
+      localStorage.removeItem(DISC_KEY); document.getElementById('code').value=''; renderList();
+    });
+
+    renderList();
   </script>
 </body>
 </html>
