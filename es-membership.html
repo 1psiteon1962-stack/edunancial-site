@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Membresía — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .wrap{max-width:980px;margin:0 auto}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:18px;margin:14px 0}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    label b{display:block;margin-bottom:6px}
+    input,select,textarea{width:100%;padding:10px;border:1px solid #e1e1e1;border-radius:10px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .btn{border:0;background:#1565d8;color:#fff;padding:12px 16px;border-radius:10px;font-weight:700;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;font-weight:700;cursor:pointer}
+    .muted{color:#666}
+    .price{font-size:1.1rem}
+    .strike{text-decoration:line-through;color:#888;margin-right:8px}
+    .notice{background:#fff7e6;border:1px solid #ffd59e;padding:10px;border-radius:10px}
+    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px}
+    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px}
+    .tiers{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .tier{border:1px solid #e6e6e6;border-radius:12px;padding:14px}
+    .tier h3{margin:6px 0}
+  </style>
+</head>
+<body>
+  <header class="site-header" data-nav="es"></header>
+  <script defer src="/header.js?v=3"></script>
+
+  <main class="wrap">
+    <h1>Únete a Edunancial</h1>
+    <p class="muted">La membresía desbloquea libros, cursos y precios para miembros. Soporte bilingüe (ES/EN).</p>
+
+    <div id="paidBox" class="success" style="display:none">¡Gracias! Tu membresía está activa. Ahora tienes acceso a Libros y Cursos.</div>
+    <div id="bypassBox" class="notice" style="display:none">Bypass habilitado en este navegador (admin/pruebas).</div>
+
+    <section class="tiers card">
+      <div class="tier">
+        <h3>Entry — $5/mes</h3>
+        <ul>
+          <li>Folleto mensual (ES/EN)</li>
+          <li>1 mini curso en repetición / mes</li>
+          <li>15% de descuento en un libro o curso en vivo</li>
+          <li>Códigos para miembros (ONG / menores de 18)</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <h3>Standard — $29/mes</h3>
+        <ul>
+          <li>Todo lo de Entry</li>
+          <li>Precios de miembro en biblioteca de tapa blanda</li>
+          <li>2 mini cursos / mes (en vivo o repetición)</li>
+          <li>25% de descuento en cursos y eventos</li>
+          <li>Acceso anticipado a códigos especiales</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <h3>Premium — $59/mes</h3>
+        <ul>
+          <li>Todo lo de Standard</li>
+          <li>Repeticiones ilimitadas</li>
+          <li>50% de descuento en cursos en vivo</li>
+          <li>Acceso al seminario de formación empresarial</li>
+          <li>Soporte prioritario por email/chat</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <div>
+          <label for="tier"><b>Selecciona membresía</b></label>
+          <select id="tier">
+            <option value="ENTRY|5">Entry — $5/mes</option>
+            <option value="STANDARD|29">Standard — $29/mes</option>
+            <option value="PREMIUM|59">Premium — $59/mes</option>
+          </select>
+        </div>
+        <div>
+          <label for="code"><b>Código de descuento / socio</b></label>
+          <input id="code" type="text" placeholder="EARLYBIRD, NP25, STUDENT50, ANNUAL50">
+        </div>
+        <div class="price"><span id="priceView"></span></div>
+      </div>
+      <div class="muted" id="codeMsg"></div>
+    </section>
+
+    <section class="card">
+      <h2>Crea tu cuenta</h2>
+      <div class="grid">
+        <div>
+          <label><b>Nombre completo</b></label>
+          <input id="name" type="text" placeholder="Tu nombre">
+        </div>
+        <div>
+          <label><b>Email</b></label>
+          <input id="email" type="email" placeholder="tu@correo.com" autocomplete="email">
+        </div>
+        <div>
+          <label><b>Contraseña</b></label>
+          <input id="password" type="password" placeholder="Elige una contraseña">
+        </div>
+      </div>
+
+      <h3 style="margin-top:14px">Perfil opcional</h3>
+      <div class="grid">
+        <div>
+          <label><b>Rango de edad</b></label>
+          <select id="age">
+            <option value="">Prefiero no decir</option>
+            <option>Menor de 18</option><option>18–24</option><option>25–34</option>
+            <option>35–44</option><option>45–54</option><option>55+</option>
+          </select>
+        </div>
+        <div>
+          <label><b>Nivel educativo</b></label>
+          <select id="edu">
+            <option value="">Prefiero no decir</option>
+            <option>Secundaria</option><option>Algo de universidad</option>
+            <option>Licenciatura</option><option>Posgrado</option>
+          </select>
+        </div>
+        <div>
+          <label><b>Estatus emprendedor</b></label>
+          <select id="entre">
+            <option value="">Prefiero no decir</option>
+            <option>Estoy pensando</option>
+            <option>Emprendimiento parcial</option>
+            <option>Emprendedor de tiempo completo</option>
+          </select>
+        </div>
+      </div>
+
+      <h3 style="margin-top:14px">Consentimientos</h3>
+      <label><input id="agreeTerms" type="checkbox"> Acepto los <a href="/terms.html" target="_blank">Términos</a> y la <a href="/privacy.html" target="_blank">Privacidad</a>.</label><br>
+      <label><input id="agreeEmail" type="checkbox"> Acepto recibir emails de Edunancial.</label><br>
+      <label><input id="age18" type="checkbox"> Soy mayor de 18 o tengo consentimiento paterno.</label>
+
+      <div class="row" style="margin-top:14px">
+        <button class="btn" id="joinBtn" type="button">Unirme con PayPal</button>
+        <span id="joinMsg" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>¿Ya eres miembro?</h2>
+      <div class="row">
+        <a class="btn" style="text-decoration:none" href="/es-books.html">Ir a Libros</a>
+        <a class="btn" style="text-decoration:none" href="/es-courses.html">Ir a Cursos</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const DISC={
+      'EARLYBIRD':{type:'flat',entry:3,standard:25,premium:49,note:'Precio de lanzamiento'},
+      'NP25':{type:'percent',pct:50,note:'ONG / Estudiante 50%'},
+      'STUDENT50':{type:'percent',pct:50,note:'Estudiante 50%'},
+      'ANNUAL50':{type:'annual',entryYear:50,standardYear:300,premiumYear:600,note:'Pago anual'},
+    };
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+
+    function calcPrice(tierVal, codeRaw){
+      const [tier, baseStr]=tierVal.split('|'); const base=+baseStr; const code=norm(codeRaw); const rule=DISC[code];
+      let price=base, cadence='monthly';
+      if(rule){
+        if(rule.type==='flat'){
+          price=(tier==='ENTRY'?rule.entry: tier==='STANDARD'?rule.standard: rule.premium);
+        }else if(rule.type==='percent'){
+          const pct=Math.max(0,Math.min(100,+rule.pct||0)); price=+(base*(1-pct/100)).toFixed(2);
+        }else if(rule.type==='annual'){
+          cadence='annual';
+          price=(tier==='ENTRY'?rule.entryYear: tier==='STANDARD'?rule.standardYear: rule.premiumYear);
+        }
+      }
+      return {price,cadence,note:rule?rule.note:''};
+    }
+
+    function refreshPrice(){
+      const tierVal=document.getElementById('tier').value;
+      const codeRaw=document.getElementById('code').value||'';
+      const {price,cadence,note}=calcPrice(tierVal,codeRaw);
+      const [tier, baseStr]=tierVal.split('|'); const base=+baseStr;
+      const strike=(cadence==='monthly'&&price<base)?`<span class="strike">$${base.toFixed(2)}/mes</span>`:'';
+      document.getElementById('priceView').innerHTML=`${strike} <b>$${price.toFixed(2)}</b> ${cadence==='monthly'?'/mes':'/año'}`;
+      document.getElementById('codeMsg').textContent=note || (codeRaw?'Código no reconocido':'');
+      localStorage.setItem('edn_discount_membership', codeRaw);
+    }
+
+    async function joinNow(){
+      const name=(document.getElementById('name').value||'').trim();
+      const email=(document.getElementById('email').value||'').trim();
+      const pass=(document.getElementById('password').value||'').trim();
+      const tierVal=document.getElementById('tier').value;
+      const codeRaw=document.getElementById('code').value||'';
+      const {price,cadence}=calcPrice(tierVal,codeRaw);
+      const [tier]=tierVal.split('|');
+
+      if(!name||!email||!pass){ return msg('Completa nombre, email y contraseña.'); }
+      if(!document.getElementById('agreeTerms').checked ||
+         !document.getElementById('agreeEmail').checked ||
+         !document.getElementById('age18').checked){
+        return msg('Acepta todos los consentimientos para continuar.');
+      }
+
+      const payload={
+        name,email,tier,cadence,price,code:codeRaw,
+        profile:{ age:document.getElementById('age').value, education:document.getElementById('edu').value, entrepreneur:document.getElementById('entre').value },
+        returnUrl: window.location.origin + '/es-membership.html?paid=1'
+      };
+
+      try{
+        msg('Creando tu membresía…');
+        const res=await fetch('/.netlify/functions/create-membership',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+        if(!res.ok) throw new Error('Fallo al crear membresía');
+        const data=await res.json();
+        if(data && data.redirectUrl){
+          localStorage.setItem('edn_member_pending', JSON.stringify({email,tier,cadence}));
+          window.location.href=data.redirectUrl;
+        }else throw new Error('Sin URL de redirección');
+      }catch(e){ console.error(e); msg('Error iniciando el pago. Intenta de nuevo.',true); }
+    }
+    function msg(t,isErr=false){ const el=document.getElementById('joinMsg'); el.textContent=t; el.className=isErr?'danger':'muted'; }
+    function setMemberActive(){ localStorage.setItem('edn_member','true'); const p=localStorage.getItem('edn_member_pending'); if(p){localStorage.removeItem('edn_member_pending');} document.getElementById('paidBox').style.display='block'; }
+
+    const q=new URLSearchParams(location.search);
+    if(q.get('paid')==='1'){ setMemberActive(); history.replaceState(null,'',location.pathname); }
+    if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); document.getElementById('bypassBox').style.display='block'; }
+
+    document.getElementById('tier').addEventListener('change',refreshPrice);
+    document.getElementById('code').addEventListener('input',refreshPrice);
+    document.getElementById('joinBtn').addEventListener('click',joinNow);
+
+    (function init(){ const saved=localStorage.getItem('edn_discount_membership')||''; if(saved) document.getElementById('code').value=saved; refreshPrice(); })();
+  </script>
+</body>
+</html>
