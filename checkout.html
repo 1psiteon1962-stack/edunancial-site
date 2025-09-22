@@ -1,154 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Checkout — Edunancial</title>
-<style>
-  :root{--brand:#c40000;--ink:#111;--muted:#666;--card:#fff;--accent:#0a58ca;--radius:14px}
-  *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fafafa}
-  .banner{position:sticky;top:0;z-index:50;background:var(--brand);color:#fff;padding:14px 16px;box-shadow:0 2px 0 rgba(0,0,0,.1)}
-  .nav{max-width:900px;margin:0 auto;display:flex;gap:16px;align-items:center}
-  .logo{font-weight:800;letter-spacing:.5px}
-  .spacer{flex:1}
-  .toggle{display:flex;gap:10px}
-  .pill{background:#000;color:#fff;border:2px solid #000;border-radius:999px;padding:6px 12px;font-weight:800;text-decoration:none}
-  .pill.outline{background:transparent;color:#000}
-  .wrap{max-width:900px;margin:28px auto;padding:0 16px}
-  .card{background:var(--card);border-radius:var(--radius);box-shadow:0 2px 8px rgba(0,0,0,.08);padding:20px}
-  h1{margin:0 0 14px}
-  fieldset{border:2px solid #eee;border-radius:12px;padding:12px;margin:0 0 14px}
-  legend{padding:0 6px}
-  label{display:inline-flex;align-items:center;gap:8px;margin-right:16px}
-  input[type="text"]{width:100%;padding:10px 12px;border:2px solid #ddd;border-radius:10px;font-size:16px}
-  .row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
-  .price{font-weight:800}
-  .muted{color:var(--muted)}
-  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:0}
-  .btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
-  .note{background:#fff4f4;border-left:6px solid var(--brand);padding:10px;border-radius:8px;margin:12px 0}
-  .status{margin-top:8px;font-weight:700}
-  .bad{color:#b00020}
-  .good{color:#1a7f37}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout — Edunancial</title>
+  <link rel="preconnect" href="https://www.paypal.com">
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    :root { --brand:#c8102e; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .banner { background:var(--brand); color:#fff; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+    .nav { display:flex; align-items:center; gap:20px; padding:12px 0; }
+    .brand { font-weight:800; letter-spacing:.5px; }
+    .pill { display:inline-flex; align-items:center; gap:6px; border-radius:999px; padding:6px 12px; background:#000; color:#fff; font-weight:700; }
+    .pill.alt { background:#fff; color:#000; }
+    main { padding: 18px 0 40px; }
+    .card { background:#fff; border-radius:16px; box-shadow:0 2px 10px rgba(0,0,0,.08); padding:18px; }
+    .row { margin: 14px 0; }
+    .row label { display:block; font-weight:600; margin-bottom:6px; }
+    .radio { display:flex; gap:18px; align-items:center; }
+    .radio label { font-weight:400; }
+    input[type="text"] { width:100%; padding:10px 12px; font-size:16px; border:1px solid #ccc; border-radius:10px; }
+    .price { font-weight:800; margin-top:4px; }
+    .btn { appearance:none; border:0; border-radius:12px; background:#0070e0; color:#fff; padding:12px 18px; font-weight:800; cursor:pointer; }
+    .btn[disabled] { opacity:.45; cursor:not-allowed; }
+    .note { color:#b00020; display:none; } /* no helper visible */
+    .foot { margin-top:8px; font-size:14px; color:#444; }
+  </style>
 </head>
 <body>
-<header class="banner">
-  <nav class="nav">
-    <div class="logo">EDUNANCIAL</div>
-    <div class="spacer"></div>
-    <div class="toggle">
-      <a class="pill outline" href="checkout.html">EN</a>
-      <a class="pill" href="es-checkout.html">ES</a>
-    </div>
-  </nav>
-</header>
-
-<main class="wrap">
-  <div class="card">
-    <h1>Checkout</h1>
-    <div class="muted" style="margin-bottom:8px">SKU: <strong>EDN-CRS-MIX-001</strong></div>
-
-    <fieldset>
-      <legend>Select your age group:</legend>
-      <label><input type="radio" name="age" value="ADULT"> 18 or older</label>
-      <label><input type="radio" name="age" value="UNDER18"> Under 18</label>
-    </fieldset>
-
-    <div class="note">Enter your code exactly. We ignore spaces, case, and invisible characters. Example: <b>PR12345$$$</b></div>
-
-    <label for="code">Discount / Under-18 Code:</label>
-    <input id="code" type="text" inputmode="latin" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Enter code" />
-    <div id="status" class="status bad">Waiting for age + code…</div>
-
-    <div class="row" style="margin-top:14px">
-      <div>
-        <div class="muted">Price:</div>
-        <div id="price" class="price">$75.00</div>
+  <header class="banner">
+    <div class="wrap nav">
+      <div class="brand">EDUNANCIAL</div>
+      <div style="margin-left:auto; display:flex; gap:8px;">
+        <a class="pill alt" href="/checkout.html" aria-current="page">EN</a>
+        <a class="pill" href="/es-checkout.html">ES</a>
       </div>
-      <a id="pay" class="btn" href="#" aria-disabled="true">Continue to PayPal</a>
     </div>
+  </header>
 
-    <p class="muted" style="margin-top:16px">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</p>
-  </div>
+  <main class="wrap">
+    <section class="card">
+      <h1 style="margin:0 0 6px;">Checkout</h1>
+      <div style="opacity:.8; font-weight:700; letter-spacing:.3px; margin-bottom:10px;">
+        SKU: <span id="sku">EDN-CRS-MIX-001</span>
+      </div>
 
-  <p class="muted" style="text-align:center;margin-top:18px">© 2025 Edunancial, Inc.</p>
-</main>
+      <div class="row">
+        <label>Select your age group:</label>
+        <div class="radio" role="radiogroup" aria-label="Age group">
+          <label><input type="radio" name="age" value="adult"> 18 or older</label>
+          <label><input type="radio" name="age" value="under"> Under 18</label>
+        </div>
+      </div>
 
-<script>
-(() => {
-  // Your live PayPal link (no amount added here)
-  const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
-  const BASE_PRICE = 75.00;
+      <div class="row">
+        <label for="code">Discount / Under-18 Code:</label>
+        <input id="code" type="text" placeholder="Enter code" autocomplete="one-time-code" inputmode="latin" />
+        <div id="msg" class="note"></div>
+      </div>
 
-  // Accept either of these spellings, case-insensitive, with any stray/invisible chars removed:
-  const VALID_CODES = {
-    ADULT:   new Set(["PR12345$$$","PR12345$$"]),
-    UNDER18: new Set(["PR12345$$$","PR12345$$"])
-  };
+      <div class="row">
+        <div>Price:</div>
+        <div class="price" id="price">$75.00</div>
+      </div>
 
-  const $ = (s)=>document.querySelector(s);
-  const priceEl = $("#price");
-  const codeInput = $("#code");
-  const payBtn = $("#pay");
-  const statusEl = $("#status");
+      <div class="row">
+        <button id="payBtn" class="btn" disabled>Continue to PayPal</button>
+      </div>
 
-  // Remove ALL whitespace (incl. zero-width), punctuation except $, and force uppercase.
-  function normalize(val){
-    return (val||"")
-      .toUpperCase()
-      .replace(/[\s\u200B-\u200D\uFEFF]/g,"")   // strip visible & zero-width spaces
-      .replace(/[^A-Z0-9$]/g,"");              // keep only A-Z, 0-9, and $
-  }
-  function currentAge(){
-    const picked = document.querySelector('input[name="age"]:checked');
-    return picked ? picked.value : null;
-  }
+      <div class="foot">
+        By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
+      </div>
+    </section>
 
-  function compute(){
-    let amount = BASE_PRICE;
-    const age = currentAge();
-    const code = normalize(codeInput.value);
+    <p style="text-align:center; opacity:.7; margin-top:16px;">© 2025 Edunancial, Inc.</p>
+  </main>
 
-    if(!age || !code){
-      return {ok:false, reason:!age ? "Select your age group." : "Enter your code.", amount};
+  <script>
+    // ---- CONFIG ----
+    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8"; // your live payment link
+    const FULL_PRICE = 75.00;
+    const DISCOUNT_PRICE = 3.00;
+    const SKU = "EDN-CRS-MIX-001";
+
+    // Accept both of your pilot codes:
+    const VALID_CODES = new Set(["PR12345$$", "PR12345$$$"]);
+
+    // ---- Helpers ----
+    const priceEl = document.getElementById('price');
+    const btn = document.getElementById('payBtn');
+    const codeEl = document.getElementById('code');
+    const msgEl  = document.getElementById('msg');
+
+    function cleanCode(raw) {
+      // Remove spaces, zero-width characters, and everything except A–Z 0–9 $
+      return (raw || "")
+        .normalize("NFKC")
+        .replace(/[\u200B-\u200D\uFEFF]/g, '')
+        .replace(/[^A-Za-z0-9$]/g, '')
+        .toUpperCase();
     }
-    if(VALID_CODES[age] && VALID_CODES[age].has(code)){
-      amount = 3.00;
-      return {ok:true, amount};
-    }
-    return {ok:false, reason:"Code not recognized.", amount};
-  }
 
-  function render(){
-    const r = compute();
-    priceEl.textContent = `$${r.amount.toFixed(2)}`;
-    if(r.ok){
-      statusEl.textContent = "Code accepted.";
-      statusEl.className = "status good";
-      payBtn.setAttribute("aria-disabled","false");
+    function selectedAge() {
+      const r = document.querySelector('input[name="age"]:checked');
+      return r ? r.value : null;
+    }
+
+    function isValid() {
+      const age = selectedAge();
+      const code = cleanCode(codeEl.value);
+      const ok = !!age && VALID_CODES.has(code);
+      priceEl.textContent = ok ? `$${DISCOUNT_PRICE.toFixed(2)}` : `$${FULL_PRICE.toFixed(2)}`;
+      btn.disabled = !ok;
+      return ok;
+    }
+
+    codeEl.addEventListener('input', isValid);
+    document.querySelectorAll('input[name="age"]').forEach(r => r.addEventListener('change', isValid));
+
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!isValid()) return;
+      // Build PayPal URL with amount + optional metadata
       const url = new URL(PAYPAL_BASE);
-      url.searchParams.set("amount", r.amount.toFixed(2));
-      url.searchParams.set("item","EDN-CRS-MIX-001");
-      payBtn.href = url.toString();
-    }else{
-      statusEl.textContent = r.reason ? r.reason : "Waiting for age + code…";
-      statusEl.className = "status bad";
-      payBtn.setAttribute("aria-disabled","true");
-      payBtn.href = "#";
-    }
-  }
-
-  document.addEventListener("change", render);
-  document.addEventListener("keyup", render);
-  payBtn.addEventListener("click", (e)=>{
-    const r = compute();
-    if(!r.ok){ e.preventDefault(); alert(r.reason || "Enter age + code."); }
-  });
-
-  render();
-})();
-</script>
+      url.searchParams.set('amount', DISCOUNT_PRICE.toFixed(2));
+      url.searchParams.set('custom_id', SKU);
+      // (Optional) show the item name on PayPal checkout page
+      url.searchParams.set('item_name', 'Edunancial Mini Course ' + SKU);
+      window.location.href = url.toString();
+    });
+  </script>
 </body>
 </html>
