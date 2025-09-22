@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Upgrade Membership — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .wrap{max-width:980px;margin:0 auto}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:18px;margin:14px 0}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    label b{display:block;margin-bottom:6px}
+    input,select{width:100%;padding:10px;border:1px solid #e1e1e1;border-radius:10px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .btn{border:0;background:#1565d8;color:#fff;padding:12px 16px;border-radius:10px;font-weight:700;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;font-weight:700;cursor:pointer}
+    .muted{color:#666}
+    .price{font-size:1.1rem}
+    .strike{text-decoration:line-through;color:#888;margin-right:8px}
+    .notice{background:#fff7e6;border:1px solid #ffd59e;padding:10px;border-radius:10px}
+    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px}
+    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px}
+  </style>
+</head>
+<body>
+  <header class="site-header" data-nav="en"></header>
+  <script defer src="/header.js?v=3"></script>
+
+  <main class="wrap">
+    <h1>Upgrade Your Membership</h1>
+    <p class="muted">Move to a higher tier for more benefits. Your current plan will be replaced by the new one.</p>
+
+    <div id="bypassBox" class="notice" style="display:none">Bypass enabled for this browser (admin/testing).</div>
+
+    <section class="card">
+      <div class="grid">
+        <div>
+          <label><b>Email on your account</b></label>
+          <input id="email" type="email" placeholder="you@example.com" autocomplete="email">
+        </div>
+        <div>
+          <label><b>Current tier</b></label>
+          <select id="currentTier">
+            <option value="ENTRY">Entry ($5/mo)</option>
+            <option value="STANDARD">Standard ($29/mo)</option>
+          </select>
+        </div>
+        <div>
+          <label><b>Upgrade to</b></label>
+          <select id="targetTier">
+            <option value="STANDARD|29">Standard — $29/month</option>
+            <option value="PREMIUM|59">Premium — $59/month</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:10px">
+        <div>
+          <label for="code"><b>Discount / Partner Code</b></label><br/>
+          <input id="code" type="text" placeholder="EARLYBIRD, NP25, STUDENT50, ANNUAL50">
+        </div>
+        <div class="price"><span id="priceView"></span></div>
+      </div>
+      <div class="muted" id="codeMsg"></div>
+
+      <div class="notice" style="margin-top:12px">
+        <b>How upgrades work:</b> your old membership will be canceled and replaced with the new tier. If you used a discount code, it will be applied to the new plan. Any pro-rating is handled by PayPal according to their rules.
+      </div>
+
+      <div class="row" style="margin-top:14px">
+        <button class="btn" id="upgradeBtn" type="button">Upgrade with PayPal</button>
+        <span id="msg" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Need access?</h2>
+      <div class="row">
+        <a class="btn" style="text-decoration:none" href="/books.html">Go to Books</a>
+        <a class="btn" style="text-decoration:none" href="/courses.html">Go to Courses</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // ----- discount rules (same as membership page) -----
+    const DISC={
+      'EARLYBIRD':{type:'flat',entry:3,standard:25,premium:49,note:'Early adopter pricing'},
+      'NP25':{type:'percent',pct:50,note:'Nonprofit / Student 50% off'},
+      'STUDENT50':{type:'percent',pct:50,note:'Student 50% off'},
+      'ANNUAL50':{type:'annual',entryYear:50,standardYear:300,premiumYear:600,note:'Annual prepay'},
+    };
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+
+    function calcPrice(targetVal, codeRaw){
+      const [tier, baseStr]=targetVal.split('|');
+      const base=+baseStr; const code=norm(codeRaw); const rule=DISC[code];
+      let price=base, cadence='monthly';
+      if(rule){
+        if(rule.type==='flat'){
+          price = (tier==='STANDARD'?rule.standard: rule.premium??59);
+        }else if(rule.type==='percent'){
+          const pct=Math.max(0,Math.min(100,+rule.pct||0));
+          price=+(base*(1-pct/100)).toFixed(2);
+        }else if(rule.type==='annual'){
+          cadence='annual';
+          price = (tier==='STANDARD'?rule.standardYear: rule.premiumYear);
+        }
+      }
+      return {price,cadence,note:rule?rule.note:''};
+    }
+
+    function refreshPrice(){
+      const targetVal=document.getElementById('targetTier').value;
+      const codeRaw=document.getElementById('code').value||'';
+      const {price,cadence,note}=calcPrice(targetVal,codeRaw);
+      const base=+targetVal.split('|')[1];
+      const strike=(cadence==='monthly' && price<base)?`<span class="strike">$${base.toFixed(2)}/mo</span>`:'';
+      document.getElementById('priceView').innerHTML=`${strike} <b>$${price.toFixed(2)}</b> ${cadence==='monthly'?'/mo':'/year'}`;
+      document.getElementById('codeMsg').textContent = note || (codeRaw ? 'Code not recognized' : '');
+    }
+
+    async function doUpgrade(){
+      const email=(document.getElementById('email').value||'').trim();
+      if(!email) return setMsg('Please enter your account email.');
+      const current=document.getElementById('currentTier').value; // ENTRY or STANDARD
+      const targetVal=document.getElementById('targetTier').value; // TIER|price
+      const codeRaw=document.getElementById('code').value||'';
+      const {price,cadence}=calcPrice(targetVal,codeRaw);
+      const targetTier=targetVal.split('|')[0];
+
+      try{
+        setMsg('Starting your upgrade…');
+        const res=await fetch('/.netlify/functions/upgrade-membership',{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({
+            email,
+            currentTier: current,
+            targetTier,
+            cadence,
+            price,
+            code: codeRaw,
+            returnUrl: window.location.origin + '/membership-upgrade.html?paid=1'
+          })
+        });
+        if(!res.ok) throw new Error('Upgrade failed');
+        const data=await res.json();
+        if(data && data.redirectUrl){ window.location.href = data.redirectUrl; }
+        else throw new Error('Missing redirect URL');
+      }catch(e){
+        console.error(e);
+        setMsg('Something went wrong. Please try again.', true);
+      }
+    }
+    function setMsg(t,err=false){ const el=document.getElementById('msg'); el.textContent=t; el.className=err?'danger':'muted'; }
+
+    // bypass for you
+    const q=new URLSearchParams(location.search);
+    if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); document.getElementById('bypassBox').style.display='block'; }
+
+    document.getElementById('targetTier').addEventListener('change',refreshPrice);
+    document.getElementById('code').addEventListener('input',refreshPrice);
+    document.getElementById('upgradeBtn').addEventListener('click',doUpgrade);
+    refreshPrice();
+  </script>
+</body>
+</html>
