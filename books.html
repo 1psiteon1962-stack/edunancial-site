@@ -2,134 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Books — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/css-cart.css" />
-  <script src="/header.js" defer></script>
+  <title>Books — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px}
+    .price{font-weight:700;margin:.25rem 0 1rem}
+    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .muted{color:#666;font-size:.9rem}
+    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
+    .link{color:#c00;text-decoration:none;font-weight:600}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="/index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/cart.html">Cart (<span id="cart-badge">0</span>)</a>
-      <a href="/es-books.html" style="margin-left:18px">ES</a>
-    </nav>
-  </header>
+  <header class="site-header" data-nav="en"></header>
+  <script defer src="/header.js?v=3"></script>
 
   <main class="container">
     <h1>Books</h1>
-    <p class="small"><strong>Red</strong> = Real Estate • <strong>White</strong> = Paper Assets • <strong>Blue</strong> = Business</p>
+    <p><b>Red</b> = Real Estate • <b>White</b> = Paper Assets • <b>Blue</b> = Business</p>
 
-    <!-- Book 1 -->
-    <section class="card">
-      <h2>Buying and Flipping Houses for Profit</h2>
-      <p class="small">Author: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-001</p>
-      <div>
-        <p><strong>Print:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Buying and Flipping Houses — Print"
-          data-variant="print"
-          data-price="18.99"
-          data-label="Add to Cart"
-          data-added="Added ✓">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Buying and Flipping Houses — eBook"
-          data-variant="ebook"
-          data-price="3.99"
-          data-label="Add to Cart"
-          data-added="Added ✓">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Buying and Flipping Houses — Audio"
-          data-variant="audio"
-          data-price="14.99"
-          data-label="Add to Cart"
-          data-added="Added ✓">Add to Cart</button>
-      </div>
-    </section>
-
-    <!-- Book 2 -->
-    <section class="card">
-      <h2>Tax Liens &amp; Deeds: From Basics to First Purchase</h2>
-      <p class="small">Author: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-002</p>
-      <div>
-        <p><strong>Print:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Tax Liens & Deeds — Print"
-          data-variant="print"
-          data-price="18.99">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Tax Liens & Deeds — eBook"
-          data-variant="ebook"
-          data-price="3.99">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Tax Liens & Deeds — Audio"
-          data-variant="audio"
-          data-price="14.99">Add to Cart</button>
-      </div>
-    </section>
-
-    <!-- Book 3 -->
-    <section class="card">
-      <h2>Options Trading: Your Guide to Puts, Calls &amp; Smart Strategy</h2>
-      <p class="small">Author: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-PA-001</p>
-      <div>
-        <p><strong>Print:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Options Trading — Print"
-          data-variant="print"
-          data-price="18.99">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Options Trading — eBook"
-          data-variant="ebook"
-          data-price="3.99">Add to Cart</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Options Trading — Audio"
-          data-variant="audio"
-          data-price="14.99">Add to Cart</button>
-      </div>
-    </section>
-
-    <div class="card">
-      <a class="btn" href="/cart.html">Go to Cart</a>
+    <div class="top-actions">
+      <a class="link" href="/cart.html">Go to Cart</a>
     </div>
+
+    <section class="grid" id="book-grid">
+      <!-- Book 1 -->
+      <article class="card">
+        <h2 class="h3">Buying and Flipping Houses</h2>
+        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-RE-001</b></p>
+        <p class="price">Print: $18.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-001',name:'Buying and Flipping Houses — Print',price:18.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-001-E',name:'Buying and Flipping Houses — eBook',price:3.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-001-A',name:'Buying and Flipping Houses — Audio',price:14.99,qty:1})">
+          Add to Cart
+        </button>
+      </article>
+
+      <!-- Book 2 -->
+      <article class="card">
+        <h2 class="h3">Tax Liens &amp; Deeds: From Basics to First Purchase</h2>
+        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-RE-002</b></p>
+        <p class="price">Print: $18.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-002',name:'Tax Liens & Deeds — Print',price:18.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-002-E',name:'Tax Liens & Deeds — eBook',price:3.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-RE-002-A',name:'Tax Liens & Deeds — Audio',price:14.99,qty:1})">
+          Add to Cart
+        </button>
+      </article>
+
+      <!-- Book 3 -->
+      <article class="card">
+        <h2 class="h3">Options Trading: Puts, Calls &amp; Smart Strategy</h2>
+        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-PA-001</b></p>
+        <p class="price">Print: $18.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-PA-001',name:'Options Trading — Print',price:18.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-PA-001-E',name:'Options Trading — eBook',price:3.99,qty:1})">
+          Add to Cart
+        </button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn"
+          onclick="addToCartSafe({sku:'EDN-BK-PA-001-A',name:'Options Trading — Audio',price:14.99,qty:1})">
+          Add to Cart
+        </button>
+      </article>
+
+      <!-- Add more books here using the same pattern -->
+    </section>
   </main>
+
+  <script>
+    // Fallback so buttons work even if header.js hasn't loaded yet.
+    function addToCartSafe(item){
+      if (window.addToCart) { window.addToCart(item); return; }
+      try {
+        const key='edn_cart';
+        const cart=JSON.parse(localStorage.getItem(key)||'[]');
+        const idx=cart.findIndex(i=>i.sku===item.sku);
+        if(idx>-1){ cart[idx].qty += (item.qty||1); }
+        else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
+        localStorage.setItem(key,JSON.stringify(cart));
+        // Optional toast; then go to cart
+        window.location.href='/cart.html';
+      } catch(e){
+        alert('Added. Go to cart to review.');
+        window.location.href='/cart.html';
+      }
+    }
+  </script>
 </body>
 </html>
