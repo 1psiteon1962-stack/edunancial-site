@@ -2,130 +2,82 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Libros — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/css-cart.css" />
-  <script src="/header.js" defer></script>
+  <title>Libros — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px}
+    .price{font-weight:700;margin:.25rem 0 1rem}
+    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .muted{color:#666;font-size:.9rem}
+    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
+    .link{color:#c00;text-decoration:none;font-weight:600}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="/es-index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/es-books.html">Libros</a>
-      <a href="/es-courses.html">Cursos</a>
-      <a href="/es-cart.html">Carrito (<span id="cart-badge">0</span>)</a>
-      <a href="/books.html" style="margin-left:18px">EN</a>
-    </nav>
-  </header>
+  <header class="site-header" data-nav="es"></header>
+  <script defer src="/header.js?v=3"></script>
 
   <main class="container">
     <h1>Libros</h1>
-    <p class="small"><strong>Rojo</strong> = Bienes Raíces • <strong>Blanco</strong> = Activos de Papel • <strong>Azul</strong> = Negocios</p>
+    <p><b>Rojo</b> = Bienes Raíces • <b>Blanco</b> = Activos de Papel • <b>Azul</b> = Negocios</p>
 
-    <!-- Libro 1 -->
-    <section class="card">
-      <h2>Compra y Reventa de Casas para Ganar</h2>
-      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-001</p>
-      <div>
-        <p><strong>Impreso:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Compra y Reventa — Impreso"
-          data-variant="impreso"
-          data-price="18.99"
-          data-label="Agregar al carrito"
-          data-added="Agregado ✓">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Compra y Reventa — eBook"
-          data-variant="ebook"
-          data-price="3.99">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-001"
-          data-name="Compra y Reventa — Audio"
-          data-variant="audio"
-          data-price="14.99">Agregar al carrito</button>
-      </div>
-    </section>
-
-    <!-- Libro 2 -->
-    <section class="card">
-      <h2>Gravámenes e Impuestos: De lo Básico a tu Primera Compra</h2>
-      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-002</p>
-      <div>
-        <p><strong>Impreso:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Gravámenes e Impuestos — Impreso"
-          data-variant="impreso"
-          data-price="18.99">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Gravámenes e Impuestos — eBook"
-          data-variant="ebook"
-          data-price="3.99">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-RE-002"
-          data-name="Gravámenes e Impuestos — Audio"
-          data-variant="audio"
-          data-price="14.99">Agregar al carrito</button>
-      </div>
-    </section>
-
-    <!-- Libro 3 -->
-    <section class="card">
-      <h2>Opciones: Guía de Puts, Calls y Estrategia Inteligente</h2>
-      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-PA-001</p>
-      <div>
-        <p><strong>Impreso:</strong> $18.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Opciones — Impreso"
-          data-variant="impreso"
-          data-price="18.99">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>eBook:</strong> $3.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Opciones — eBook"
-          data-variant="ebook"
-          data-price="3.99">Agregar al carrito</button>
-      </div>
-      <div style="margin-top:8px">
-        <p><strong>Audio:</strong> $14.99</p>
-        <button class="btn"
-          data-add-to-cart
-          data-id="EDN-BK-PA-001"
-          data-name="Opciones — Audio"
-          data-variant="audio"
-          data-price="14.99">Agregar al carrito</button>
-      </div>
-    </section>
-
-    <div class="card">
-      <a class="btn" href="/es-cart.html">Ir al carrito</a>
+    <div class="top-actions">
+      <a class="link" href="/es-cart.html">Ir al Carrito</a>
     </div>
+
+    <section class="grid">
+      <article class="card">
+        <h2 class="h3">Compra y Reventa de Casas</h2>
+        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-RE-001</b></p>
+        <p class="price">Impreso: $18.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001',name:'Compra y Reventa — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001-E',name:'Compra y Reventa — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001-A',name:'Compra y Reventa — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
+      </article>
+
+      <article class="card">
+        <h2 class="h3">Gravámenes e Impuestos: De Básicos a la Primera Compra</h2>
+        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-RE-002</b></p>
+        <p class="price">Impreso: $18.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002',name:'Gravámenes e Impuestos — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002-E',name:'Gravámenes e Impuestos — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002-A',name:'Gravámenes e Impuestos — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
+      </article>
+
+      <article class="card">
+        <h2 class="h3">Opciones: Puts, Calls y Estrategia Inteligente</h2>
+        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
+        <p class="muted">SKU: <b>EDN-BK-PA-001</b></p>
+        <p class="price">Impreso: $18.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001',name:'Opciones — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">eBook: $3.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001-E',name:'Opciones — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
+        <p class="price" style="margin-top:16px">Audio: $14.99</p>
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001-A',name:'Opciones — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
+      </article>
+    </section>
   </main>
+
+  <script>
+    function addToCartSafe(item){
+      if (window.addToCart) { window.addToCart(item); return; }
+      const key='edn_cart';
+      const cart=JSON.parse(localStorage.getItem(key)||'[]');
+      const idx=cart.findIndex(i=>i.sku===item.sku);
+      if(idx>-1){ cart[idx].qty += (item.qty||1); }
+      else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
+      localStorage.setItem(key,JSON.stringify(cart));
+      window.location.href=item.locale==='es'?'/es-cart.html':'/cart.html';
+    }
+  </script>
 </body>
 </html>
