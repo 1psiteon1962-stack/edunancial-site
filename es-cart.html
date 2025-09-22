@@ -1,159 +1,138 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Carrito — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
-  <link rel="preload" href="/header.js?v=3" as="script">
-
-  <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
-  <!-- Clarity -->
-  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY-XXXX");</script>
-
-  <style>
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1000px}
-    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}
-    table{width:100%;border-collapse:collapse}
-    th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
-    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
-    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
-    input.qty{width:60px;text-align:center}
-    .right{text-align:right}
-    .muted{color:#666}
-    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px;margin:10px 0}
-    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px;margin:10px 0}
-  </style>
 </head>
 <body>
-  <script>
-    (function(){
-      const q=new URLSearchParams(location.search);
-      if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); history.replaceState(null,'',location.pathname); }
-      if(localStorage.getItem('edn_member')!=='true'){ location.href='/es-membership.html'; }
-      if(q.get('paid')==='1'){ localStorage.removeItem('edn_cart'); history.replaceState(null,'',location.pathname); }
-    })();
-  </script>
-
-  <header class="site-header" data-nav="es"></header>
-  <script defer src="/header.js?v=3"></script>
+  <header id="site-header" class="site-header"></header>
 
   <main class="container">
-    <h1>Tu Carrito</h1>
-    <div id="paidMsg" class="success" style="display:none">Pago recibido. ¡Gracias!</div>
+    <h1>Carrito</h1>
 
-    <section class="card">
-      <div class="row" style="justify-content:flex-start">
-        <div>
-          <label for="code"><b>Código de descuento / socio</b></label><br/>
-          <input id="code" type="text" placeholder="Ingresa el código">
-          <button id="apply" class="btn" type="button">Aplicar</button>
-          <button id="clear" class="btn-link" type="button">Quitar</button>
+    <div class="card" id="cartCard" style="overflow:auto">
+      <div id="emptyState" class="small" style="display:none">
+        Tu carrito está vacío.
+        <div style="margin-top:10px">
+          <a class="btn" href="/es-books.html">Ver Libros</a>
+          <a class="btn" href="/es-courses.html" style="margin-left:8px">Ver Cursos</a>
         </div>
-        <div id="codeMsg" class="muted"></div>
       </div>
-    </section>
 
-    <section class="card">
-      <table id="tbl">
-        <thead><tr><th>Artículo</th><th>SKU</th><th>Precio</th><th>Cant.</th><th class="right">Línea</th><th></th></tr></thead>
-        <tbody></tbody>
-        <tfoot>
-          <tr><td colspan="4" class="right"><b>Subtotal</b></td><td class="right" id="subtotal">$0.00</td><td></td></tr>
-          <tr><td colspan="4" class="right"><b>Total</b></td><td class="right" id="total">$0.00</td><td></td></tr>
-        </tfoot>
-      </table>
-      <div class="row" style="margin-top:12px">
-        <button class="btn" id="checkoutBtn" type="button">Pagar con PayPal</button>
-        <span id="msg" class="muted"></span>
+      <div id="cartTableWrap" style="display:none">
+        <table id="cartTable">
+          <thead>
+            <tr>
+              <th style="text-align:left">Artículo</th>
+              <th>Cant.</th>
+              <th>Precio</th>
+              <th>Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="cartBody"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2"></td>
+              <td style="text-align:right;font-weight:600">Subtotal:</td>
+              <td id="subCell" style="text-align:right">$0.00</td>
+              <td></td>
+            </tr>
+            <tr id="codeRow">
+              <td colspan="5">
+                <label for="code" class="small">Código de descuento / menor de 18:</label><br/>
+                <input id="code" type="text" placeholder="Ingresa el código" />
+                <button class="btn" id="applyBtn" style="margin-left:8px">Aplicar</button>
+                <span id="codeMsg" class="small"></span>
+              </td>
+            </tr>
+            <tr id="discRow" style="display:none">
+              <td colspan="2"></td>
+              <td style="text-align:right;font-weight:600">Descuento:</td>
+              <td id="discCell" style="text-align:right">-$0.00</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+              <td style="text-align:right;font-weight:800">Total:</td>
+              <td id="totCell" style="text-align:right;font-weight:800">$0.00</td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div style="margin-top:12px">
+          <label for="email" class="small">Correo para recibos / acceso a Zoom:</label><br/>
+          <input id="email" type="email" placeholder="tu@email.com" autocomplete="email" />
+        </div>
+
+        <div style="margin-top:14px">
+          <button class="btn" id="checkoutBtn">Pagar con PayPal</button>
+        </div>
       </div>
-    </section>
+    </div>
   </main>
 
+  <script src="/header.js?v=6" defer></script>
   <script>
-    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
-    const DISCOUNT_CODES={'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Tarifa de socio'},'UNDER18':{type:'perItemFlat',price:1.00,note:'Menores de 18'}};
-    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
-    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)];return r&&r.type==='perItemFlat'?r.price:p;};
-    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
-    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
-    const fmt=v=>'$'+(v||0).toFixed(2);
-
+  // Same logic as EN page; just keep text localized.
+  (function(){
+    const $ = sel => document.querySelector(sel);
+    const cartKey = 'edn_cart'; const codeKey = 'edn_code';
+    const priceMap = {
+      'EDN-CRS-MIX-001': 75.00,'EDN-CRS-BO-001':199.00,
+      'EDN-BK-RE-001':18.99,'EDN-BK-RE-002':18.99,
+      'EDN-BK-PA-001':18.99,'EDN-BK-PA-002':18.99,
+      'EDN-BK-BU-001':18.99,'EDN-BK-BU-002':18.99,
+      'MEM-STARTER':5.00,'MEM-GROWTH':15.00,'MEM-PRO':25.00,
+    };
+    const flatPerItemCodes = { 'PR12345$$': 1.00 };
+    function fmt(n){ return '$' + (Math.round(n*100)/100).toFixed(2); }
+    function load(){ try {return JSON.parse(localStorage.getItem(cartKey)||'[]')} catch{ return [] } }
+    function save(c){ localStorage.setItem(cartKey, JSON.stringify(c)); }
     function render(){
-      const paid = new URLSearchParams(location.search).get('paid')==='1';
-      if(paid) document.getElementById('paidMsg').style.display='block';
-
-      const code=localStorage.getItem(DISC_KEY)||'';
-      document.getElementById('code').value=code;
-      const tbody=document.querySelector('#tbl tbody');
-      tbody.innerHTML='';
-      const cart=loadCart();
-
-      let subtotal=0;
-      cart.forEach((it,idx)=>{
-        const pEff=eff(+it.price,code);
-        const line=pEff*(it.qty||1);
-        subtotal+=line;
-
+      const cart = load();
+      if(!cart.length){ $('#emptyState').style.display=''; $('#cartTableWrap').style.display='none'; return; }
+      $('#emptyState').style.display='none'; $('#cartTableWrap').style.display='';
+      const code=(localStorage.getItem(codeKey)||'').replace(/\s+/g,'');
+      const perItemTarget = flatPerItemCodes[code];
+      const tbody=$('#cartBody'); tbody.innerHTML='';
+      let sub=0;
+      cart.forEach((l,i)=>{
+        const sku=l.sku, qty=Math.max(1,l.qty||1);
+        const unit = perItemTarget ? perItemTarget : (priceMap[sku]||0);
+        const row = unit*qty; sub+=row;
         const tr=document.createElement('tr');
-        tr.innerHTML=`
-          <td>${it.name}</td>
-          <td>${it.sku}</td>
-          <td>${fmt(pEff)}</td>
-          <td><input class="qty" type="number" min="1" value="${it.qty||1}" data-i="${idx}"></td>
-          <td class="right">${fmt(line)}</td>
-          <td><button class="btn-link" data-r="${idx}">Quitar</button></td>`;
+        tr.innerHTML = `
+         <td style="text-align:left">${l.name||sku} <div class="small">SKU: ${sku}</div></td>
+         <td style="text-align:center">${qty}</td>
+         <td style="text-align:center">${fmt(unit)}</td>
+         <td style="text-align:right">${fmt(row)}</td>
+         <td style="text-align:center"><button class="link" data-rm="${i}">Quitar</button></td>`;
         tbody.appendChild(tr);
       });
-
-      document.getElementById('subtotal').textContent=fmt(subtotal);
-      document.getElementById('total').textContent=fmt(subtotal);
-
-      tbody.querySelectorAll('input.qty').forEach(inp=>{
-        inp.addEventListener('input',e=>{
-          const i=+e.target.getAttribute('data-i'); const c=loadCart();
-          c[i].qty=Math.max(1,parseInt(e.target.value||'1',10)); saveCart(c); render();
-        });
-      });
-      tbody.querySelectorAll('button[data-r]').forEach(btn=>{
-        btn.addEventListener('click',e=>{
-          const i=+e.target.getAttribute('data-r'); const c=loadCart();
-          c.splice(i,1); saveCart(c); render();
-        });
-      });
-
-      if(window.updateCartCount) window.updateCartCount();
+      $('#subCell').textContent=fmt(sub);
+      $('#discRow').style.display='none';
+      $('#totCell').textContent=fmt(sub);
     }
-
-    async function checkout(){
-      const cart=loadCart();
-      if(!cart.length) return setMsg('Tu carrito está vacío.');
-      try{
-        setMsg('Creando orden…');
-        const code=localStorage.getItem(DISC_KEY)||'';
-        const res=await fetch('/.netlify/functions/create-order',{
-          method:'POST',
-          headers:{'Content-Type':'application/json'},
-          body: JSON.stringify({
-            items: cart.map(x=>({sku:x.sku,name:x.name,qty:x.qty,price:x.price})),
-            discountCode: code,
-            returnUrl: window.location.origin + '/es-cart.html?paid=1'
-          })
-        });
-        if(!res.ok) throw new Error('fallo en la orden');
-        const data=await res.json();
-        if(data && data.redirectUrl){ window.location.href=data.redirectUrl; }
-        else throw new Error('sin enlace de aprobación');
-      }catch(e){ console.error(e); setMsg('Ocurrió un error. Intenta de nuevo.', true); }
-    }
-    function setMsg(t,err=false){ const el=document.getElementById('msg'); el.textContent=t; el.className=err?'danger':'muted'; }
-
-    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
-    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
-    document.getElementById('checkoutBtn').addEventListener('click',checkout);
+    document.addEventListener('click',e=>{
+      const i=e.target && e.target.getAttribute('data-rm');
+      if(i!=null){ const c=load(); c.splice(parseInt(i,10),1); save(c); render(); }
+    });
+    $('#applyBtn').addEventListener('click', ()=>{ localStorage.setItem(codeKey, ($('#code').value||'').trim()); $('#codeMsg').textContent=' Código aplicado.'; render(); });
+    $('#code').value = localStorage.getItem(codeKey)||'';
+    $('#checkoutBtn').addEventListener('click', async ()=>{
+      const cart=load(); if(!cart.length){ alert('Carrito vacío'); return; }
+      const payload={ cart: cart.map(l=>({sku:l.sku,name:l.name,qty:l.qty,type:l.type||'item'})), code:(localStorage.getItem(codeKey)||'').trim(), email: $('#email').value.trim()||undefined };
+      const res=await fetch('/.netlify/functions/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      const data=await res.json();
+      if(!res.ok||data.error){ alert('Error de pago: '+(data.error||'Desconocido')); return; }
+      if(data.approveUrl){ location.href=data.approveUrl; } else { alert('No se encontró el enlace de aprobación.'); }
+    });
     render();
+  })();
   </script>
 </body>
 </html>
