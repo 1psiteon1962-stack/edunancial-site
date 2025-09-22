@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carrito — Edunancial</title>
+  <link rel="stylesheet" href="/css/cart.css">
+  <!-- PEGA TU CLIENT ID LIVE AQUÍ -->
+  <script src="https://www.paypal.com/sdk/js?client-id=REPLACE_WITH_YOUR_LIVE_CLIENT_ID&currency=USD" data-sdk-integration-source="edunancial-cart"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">EDUNANCIAL</div>
+    <nav class="navlinks">
+      <a href="/es-index.html">Inicio</a>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-payments.html">Pagos</a>
+      <a href="/es-call-center.html">Call Center</a>
+      <a href="/es-vendor-program.html">Programa de Proveedores</a>
+      <a href="/es-contact.html">Contacto</a>
+      <a href="/es-privacy.html">Privacidad</a>
+      <a href="/es-terms.html">Términos</a>
+      <a href="/es-refunds.html">Reembolsos</a>
+      <a href="/es-our-story.html">Nuestra Historia</a>
+    </nav>
+    <div class="lang">
+      <a class="pill" href="/cart.html">EN</a>
+      <a class="pill on">ES</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Pago</h1>
+
+    <section class="panel">
+      <h2>Tu carrito</h2>
+      <div id="cartTable"></div>
+      <div class="cart-actions">
+        <a class="btn-outline" href="/es-books.html">Agregar libros</a>
+        <a class="btn-outline" href="/es-courses.html">Agregar cursos</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Descuentos y elegibilidad</h2>
+      <div class="grid">
+        <div>
+          <label class="lbl">Selecciona tu grupo de edad:</label>
+          <div class="radios">
+            <label><input type="radio" name="age" value="adult"> 18 o más</label>
+            <label><input type="radio" name="age" value="under18"> Menor de 18</label>
+          </div>
+        </div>
+        <div>
+          <label for="promo" class="lbl">Código de descuento / menor de 18</label>
+          <input id="promo" type="text" placeholder="Escribe el código" autocomplete="off" />
+          <small class="muted">Ignoramos espacios y mayúsculas.</small>
+        </div>
+        <div>
+          <label for="buyerEmail" class="lbl">Correo para recibo e invitación de Zoom</label>
+          <input id="buyerEmail" type="email" placeholder="nombre@ejemplo.com" autocomplete="email" />
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Resumen</h2>
+      <div id="summary"></div>
+      <div id="paypal-button-container"></div>
+      <p class="tos">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
+    </section>
+  </main>
+
+  <footer class="foot">© 2025 Edunancial, Inc. • Todos los derechos reservados.</footer>
+
+  <!-- Igual que en /cart.html, pero dejamos los textos tal cual -->
+  <script>
+  /* (idéntico JS que en /cart.html)  */
+  </script>
+  <script src="/cart.js"></script>
+</body>
+</html>
