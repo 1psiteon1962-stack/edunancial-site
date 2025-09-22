@@ -1,275 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Checkout — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- SIMPLE, PAGE-LOCAL STYLES (doesn't depend on sitewide CSS) -->
   <style>
-    :root{
-      --brand-red:#cc0000;
-      --text:#111;
-      --muted:#666;
-      --radius:14px;
-      --gap:16px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color:var(--text);
-      background:#f7f7f8;
-    }
-
-    /* BIG RED BANNER */
-    .topbar{
-      position:sticky; top:0; z-index:1000;
-      background:var(--brand-red);
-      color:#000;
-      border-bottom:3px solid #990000;
-    }
-    .nav{
-      max-width:980px; margin:0 auto;
-      display:flex; align-items:center; justify-content:space-between;
-      padding:14px 16px;
-    }
-    .brand{font-weight:900; letter-spacing:.5px; font-size:22px}
-    .navlinks{display:flex; gap:18px; flex-wrap:wrap}
-    .navlinks a{
-      color:#000; text-decoration:none; font-weight:700;
-    }
-
-    /* LANGUAGE TOGGLE (black pill with white text) */
-    .lang{
-      display:flex; gap:8px; align-items:center;
-    }
-    .pill{
-      background:#000; color:#fff; border-radius:999px;
-      padding:8px 12px; font-weight:800; text-decoration:none;
-      display:inline-flex; align-items:center; justify-content:center;
-      min-width:44px;
-    }
-    .pill.secondary{opacity:.4}
-    .wrap{
-      max-width:980px; margin:22px auto; padding:0 16px;
-    }
-
-    .card{
-      background:#fff; border-radius:var(--radius);
-      box-shadow:0 6px 18px rgba(0,0,0,.06);
-      padding:22px;
-    }
-
-    h1{margin:0 0 10px 0; font-size:34px; line-height:1.1}
-    .sku{color:var(--muted); font-weight:700; margin-bottom:14px}
-
-    fieldset{
-      border:1px solid #e6e6ea; border-radius:12px; padding:12px 14px; margin:0 0 var(--gap) 0;
-    }
-    legend{color:var(--muted); padding:0 6px; font-size:14px}
-
-    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
-    .row input[type="radio"]{transform:scale(1.2)}
-
-    label{font-weight:600}
-    input[type="text"]{
-      width:100%; padding:12px 14px; border-radius:10px;
-      border:1px solid #d8d8de; font-size:16px;
-    }
-
-    .price{
-      font-size:22px; font-weight:800; margin:8px 0 14px 0;
-    }
-
-    .btn{
-      appearance:none; border:0; border-radius:12px; cursor:pointer;
-      padding:14px 18px; font-weight:800; font-size:18px;
-      color:#fff; background:#0070e0; width:100%;
-      display:inline-flex; align-items:center; justify-content:center;
-    }
-    .btn:disabled{opacity:.5; cursor:not-allowed}
-
-    .hint{color:#888; font-size:13px; margin-top:10px}
-    .error{background:#fff3f3; color:#a40000; border:1px solid #f3caca; padding:10px 12px; border-radius:10px; margin:0 0 12px 0; display:none}
-    .ok{background:#eefbf0; color:#116b2d; border:1px solid #c9efd5; padding:10px 12px; border-radius:10px; margin:0 0 12px 0; display:none}
-
-    footer{color:#666; font-size:13px; padding:30px 16px; text-align:center}
-    footer a{color:#0070e0}
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .section { margin-bottom: 20px; }
+    label { margin-right: 10px; }
+    input[type="text"] { width: 250px; padding: 5px; }
+    #price { font-weight: bold; margin-top: 10px; }
+    button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
   </style>
 </head>
-
 <body>
-  <!-- RED BANNER + TOGGLES -->
-  <header class="topbar">
-    <div class="nav">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="navlinks" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="books.html">Books</a>
-        <a href="courses.html">Courses</a>
-        <a href="payments.html">Payments</a>
-        <a href="call-center.html">Call Center</a>
-        <a href="vendor-program.html">Vendor Program</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="refunds.html">Refunds</a>
-        <a href="our-story.html">Our Story</a>
-      </nav>
-      <div class="lang">
-        <span class="pill">EN</span>
-        <a class="pill secondary" href="es-checkout.html" aria-label="Ver en Español">ES</a>
-      </div>
+  <h2>Checkout</h2>
+  <form id="checkout-form">
+    <div class="section">
+      <p>Select your age group:</p>
+      <label><input type="radio" id="age18" name="age" value="18+"> 18 or older</label>
+      <label><input type="radio" id="ageU18" name="age" value="u18"> Under 18</label>
     </div>
-  </header>
 
-  <main class="wrap">
-    <div class="card" role="region" aria-labelledby="co-title">
-      <h1 id="co-title">Checkout</h1>
-      <div class="sku">SKU: <span id="sku">EDN-CRS-MIX-001</span></div>
-
-      <div id="msgError" class="error"></div>
-      <div id="msgOk" class="ok"></div>
-
-      <!-- AGE GROUP -->
-      <fieldset>
-        <legend>Age group</legend>
-        <div class="row">
-          <label><input type="radio" name="age" value="adult"> 18 or older</label>
-          <label><input type="radio" name="age" value="u18"> Under 18</label>
-        </div>
-      </fieldset>
-
-      <!-- DISCOUNT / UNDER-18 CODE -->
-      <fieldset>
-        <legend>Discount / Under-18 Code</legend>
-        <input id="code" type="text" inputmode="latin" autocomplete="off" placeholder="Enter code" aria-describedby="codeHelp" />
-        <div id="codeHelp" class="hint">Price only changes with a valid code for the selected age group.</div>
-      </fieldset>
-
-      <!-- PRICE -->
-      <div class="price">Price: <span id="priceText">$75.00</span></div>
-
-      <!-- CTA -->
-      <button id="payBtn" class="btn" type="button">Continue to PayPal</button>
-      <div class="hint">By paying you agree to our <a href="terms.html">Terms</a> and <a href="refunds.html">Refunds</a>.</div>
+    <div class="section">
+      <p>Discount / Under-18 Code:</p>
+      <input id="code" type="text" placeholder="Enter your code">
     </div>
-  </main>
 
-  <footer>© 2025 Edunancial, Inc.</footer>
+    <div id="price" class="section">$75.00</div>
 
-  <!-- CONFIG & LOGIC (self-contained, no external files) -->
+    <button id="payBtn" type="button">Continue to PayPal</button>
+  </form>
+
   <script>
-    /*** 🔧 REQUIRED: paste your PayPal Payment Link base here. ***/
-    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/PASTE_YOUR_LINK_ID"; // <— REPLACE THIS
-
-    /*** Product base price (USD) ***/
+  (() => {
+    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
     const BASE_PRICE = 75.00;
+    const DISCOUNT_PRICE = 3.00;
+    const ACCEPTED_CODES = new Set(["PR12345$$$", "PR2345$$$"]);
 
-    /**
-     * TEST CODES — For launch, move these validations server-side
-     * using a Netlify Function so codes are not visible in source.
-     */
-    const CODE_RULES = {
-      // Final should be $3.00 if Under-18 code matches one of these.
-      u18_to_3: new Set([
-        "PR12345$$$",
-        "PR23455$$$",
-        "PR34556$$$",
-        "PR2345$$$",
-        "PR12345$$"   // include the code you used in testing
-      ]),
-      // (Optional) adult codes that also reduce to $3.00:
-      adult_to_3: new Set([
-        "ADL3$$$",
-        "ADU123$$"
-      ])
-    };
+    const priceEl = document.getElementById("price");
+    const codeEl = document.getElementById("code");
+    const age18El = document.getElementById("age18");
+    const ageU18El = document.getElementById("ageU18");
+    const payBtn = document.getElementById("payBtn");
 
-    /* ---------- DOM refs ---------- */
-    const priceText = document.getElementById('priceText');
-    const payBtn    = document.getElementById('payBtn');
-    const msgErr    = document.getElementById('msgError');
-    const msgOk     = document.getElementById('msgOk');
-    const codeInp   = document.getElementById('code');
+    const format = (n) => n.toLocaleString("en-US",{style:"currency",currency:"USD"});
+    const amountParam = (n) => `amount=${encodeURIComponent(n.toFixed(2))}`;
 
-    /* ---------- Helpers ---------- */
-    const fmt = n => `$${n.toFixed(2)}`;
-
-    function getAgeSelection() {
-      const el = document.querySelector('input[name="age"]:checked');
-      return el ? el.value : null; // 'adult' | 'u18' | null
-    }
-
-    function computePrice(age, code) {
-      // Default is full price unless a valid rule is met
-      if (age === 'u18' && CODE_RULES.u18_to_3.has(code)) return 3.00;
-      if (age === 'adult' && CODE_RULES.adult_to_3.has(code)) return 3.00;
+    function currentAmount() {
+      const pickedAge = age18El.checked || ageU18El.checked;
+      const code = (codeEl.value || "").trim();
+      if (!pickedAge || !code) return BASE_PRICE;
+      if (ACCEPTED_CODES.has(code)) return DISCOUNT_PRICE;
       return BASE_PRICE;
     }
 
-    function validateBeforePay() {
-      msgErr.style.display = 'none';
-      msgOk.style.display  = 'none';
-
-      const age  = getAgeSelection();
-      const code = (codeInp.value || '').trim();
-
-      if (!age) {
-        msgErr.textContent = 'Please select an age group.';
-        msgErr.style.display = 'block';
-        return { ok:false };
-      }
-      if (!code) {
-        msgErr.textContent = 'Please enter your discount/under-18 code.';
-        msgErr.style.display = 'block';
-        return { ok:false };
-      }
-
-      const price = computePrice(age, code);
-      if (price === BASE_PRICE) {
-        msgErr.textContent = 'That code is not valid for the selected age group.';
-        msgErr.style.display = 'block';
-        return { ok:false };
-      }
-
-      return { ok:true, price };
-    }
-
-    /* Live update the visible price only when both inputs are present & valid */
-    function maybePreviewPrice() {
-      const age  = getAgeSelection();
-      const code = (codeInp.value || '').trim();
-      const price = (age && code) ? computePrice(age, code) : BASE_PRICE;
-      priceText.textContent = fmt(price);
-    }
-
-    document.addEventListener('change', maybePreviewPrice);
-    document.addEventListener('keyup',  maybePreviewPrice);
-
-    /* Pay click -> validate -> build PayPal URL -> go */
-    payBtn.addEventListener('click', () => {
-      const res = validateBeforePay();
-      if (!res.ok) return;
-
-      if (!PAYPAL_BASE || PAYPAL_BASE.includes('PASTE_YOUR_LINK_ID')) {
-        alert('Add your PayPal Payment Link base URL to PAYPAL_BASE at the top of this page.');
-        return;
-      }
-      const amountParam = `amount=${encodeURIComponent(res.price.toFixed(2))}`;
-      const sep = PAYPAL_BASE.includes('?') ? '&' : '?';
-      const url = `${PAYPAL_BASE}${sep}${amountParam}`;
-
-      // Small confirmation message (optional)
-      msgOk.textContent = `Redirecting to PayPal — ${fmt(res.price)}…`;
-      msgOk.style.display = 'block';
-
-      window.location.href = url;
+    function renderPrice() { priceEl.textContent = format(currentAmount()); }
+    [age18El, ageU18El, codeEl].forEach(el => {
+      el && el.addEventListener("change", renderPrice);
+      el && el.addEventListener("input", renderPrice);
     });
+    renderPrice();
 
-    // Initialize price label
-    priceText.textContent = fmt(BASE_PRICE);
+    payBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const pickedAge = age18El.checked || ageU18El.checked;
+      const code = (codeEl.value || "").trim();
+      if (!pickedAge) { alert("Please select an age group."); return; }
+      if (!code) { alert("Please enter your code."); return; }
+      if (!ACCEPTED_CODES.has(code)) { alert("Code not recognized."); return; }
+      const amt = currentAmount();
+      window.location.href = `${PAYPAL_BASE}?${amountParam(amt)}`;
+    });
+  })();
   </script>
 </body>
 </html>
