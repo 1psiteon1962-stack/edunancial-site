@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Books — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preload" href="/header.js?v=3" as="script">
   <style>
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px}
-    .price{font-weight:700;margin:.25rem 0 1rem}
-    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
-    .muted{color:#666;font-size:.9rem}
-    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
-    .link{color:#c00;text-decoration:none;font-weight:600}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1100px}
+    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
+    .muted{color:#666}
+    input[type="text"]{width:280px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
+    .strike{ text-decoration:line-through; color:#888; margin-right:8px; }
+    .pill{display:inline-block;background:#f7f7f7;border:1px solid #e6e6e6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:.9rem}
   </style>
 </head>
 <body>
@@ -22,101 +24,89 @@
 
   <main class="container">
     <h1>Books</h1>
-    <p><b>Red</b> = Real Estate • <b>White</b> = Paper Assets • <b>Blue</b> = Business</p>
+    <p><span class="pill">Red = Real Estate</span><span class="pill">White = Paper Assets</span><span class="pill">Blue = Business</span></p>
 
-    <div class="top-actions">
-      <a class="link" href="/cart.html">Go to Cart</a>
-    </div>
-
-    <section class="grid" id="book-grid">
-      <!-- Book 1 -->
-      <article class="card">
-        <h2 class="h3">Buying and Flipping Houses</h2>
-        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-RE-001</b></p>
-        <p class="price">Print: $18.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-001',name:'Buying and Flipping Houses — Print',price:18.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-001-E',name:'Buying and Flipping Houses — eBook',price:3.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-001-A',name:'Buying and Flipping Houses — Audio',price:14.99,qty:1})">
-          Add to Cart
-        </button>
-      </article>
-
-      <!-- Book 2 -->
-      <article class="card">
-        <h2 class="h3">Tax Liens &amp; Deeds: From Basics to First Purchase</h2>
-        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-RE-002</b></p>
-        <p class="price">Print: $18.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-002',name:'Tax Liens & Deeds — Print',price:18.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-002-E',name:'Tax Liens & Deeds — eBook',price:3.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-RE-002-A',name:'Tax Liens & Deeds — Audio',price:14.99,qty:1})">
-          Add to Cart
-        </button>
-      </article>
-
-      <!-- Book 3 -->
-      <article class="card">
-        <h2 class="h3">Options Trading: Puts, Calls &amp; Smart Strategy</h2>
-        <p class="muted">Author: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-PA-001</b></p>
-        <p class="price">Print: $18.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-PA-001',name:'Options Trading — Print',price:18.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-PA-001-E',name:'Options Trading — eBook',price:3.99,qty:1})">
-          Add to Cart
-        </button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn"
-          onclick="addToCartSafe({sku:'EDN-BK-PA-001-A',name:'Options Trading — Audio',price:14.99,qty:1})">
-          Add to Cart
-        </button>
-      </article>
-
-      <!-- Add more books here using the same pattern -->
+    <!-- Discount bar -->
+    <section class="card">
+      <div class="row" style="justify-content:flex-start">
+        <div>
+          <label for="code"><b>Discount / Partner Code</b></label><br/>
+          <input id="code" type="text" placeholder="Enter code">
+          <button id="apply" class="btn" type="button">Apply</button>
+          <button id="clear" class="btn-link" type="button">Remove code</button>
+        </div>
+        <div id="codeMsg" class="muted" style="margin-left:12px"></div>
+      </div>
     </section>
+
+    <section class="grid" id="grid"></section>
+
+    <p><a class="btn" style="text-decoration:none" href="/cart.html">Go to Cart</a></p>
   </main>
 
   <script>
-    // Fallback so buttons work even if header.js hasn't loaded yet.
-    function addToCartSafe(item){
-      if (window.addToCart) { window.addToCart(item); return; }
-      try {
-        const key='edn_cart';
-        const cart=JSON.parse(localStorage.getItem(key)||'[]');
-        const idx=cart.findIndex(i=>i.sku===item.sku);
-        if(idx>-1){ cart[idx].qty += (item.qty||1); }
-        else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
-        localStorage.setItem(key,JSON.stringify(cart));
-        // Optional toast; then go to cart
-        window.location.href='/cart.html';
-      } catch(e){
-        alert('Added. Go to cart to review.');
-        window.location.href='/cart.html';
-      }
+    // ---- shared keys / codes ----
+    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
+    const DISCOUNT_CODES={
+      'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Partner rate applied'},
+      'UNDER18':{type:'perItemFlat',price:1.00,note:'Under-18 rate applied'},
+    };
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+    const eff=(price,code)=>{const r=DISCOUNT_CODES[norm(code)]; if(!r) return price; if(r.type==='perItemFlat') return r.price; return price;};
+
+    // ---- paperback catalog only ----
+    const BOOKS=[
+      { color:'red',   sku:'EDN-BK-RE-001-PR', title:'Buying and Flipping Houses for Profit',        author:'Waldemar M. Caban, JD MA', price:18.99 },
+      { color:'red',   sku:'EDN-BK-RE-002-PR', title:'Tax Liens & Deeds: From Basics to First Purchase', author:'Waldemar M. Caban, JD MA', price:18.99 },
+      { color:'white', sku:'EDN-BK-PA-001-PR', title:'Options Trading: Your Guide to Puts, Calls & Smart Strategy', author:'Waldemar M. Caban, JD MA', price:18.99 },
+      { color:'white', sku:'EDN-BK-PA-002-PR', title:'Smart Stock Selection for Teens & Parents', author:'Waldemar M. Caban, JD MA', price:18.99 },
+      { color:'blue',  sku:'EDN-BK-BO-001-PR', title:'Business is About Making Profit',            author:'Waldemar M. Caban, JD MA', price:18.99 },
+      { color:'blue',  sku:'EDN-BK-BO-002-PR', title:'Forming Your First LLC the Right Way',       author:'Waldemar M. Caban, JD MA', price:18.99 },
+    ];
+
+    // ---- cart helpers ----
+    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
+    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
+    function addToCart({sku,name,price,qty=1}) {
+      const cart=loadCart();
+      const i=cart.findIndex(x=>x.sku===sku);
+      if(i>-1) cart[i].qty+=qty; else cart.push({sku,name,price,qty});
+      saveCart(cart);
+      if(window.updateCartCount) window.updateCartCount();
+      alert('Added to cart');
     }
+
+    // ---- render ----
+    function render(){
+      const code=localStorage.getItem(DISC_KEY)||'';
+      const rule=DISCOUNT_CODES[norm(code)];
+      document.getElementById('code').value=code;
+      document.getElementById('codeMsg').textContent = rule ? (rule.note||'Code applied') : (code ? 'Code not recognized' : '');
+
+      const grid=document.getElementById('grid'); grid.innerHTML='';
+      BOOKS.forEach(b=>{
+        const pEff=eff(b.price,code);
+        const prices = pEff<b.price
+          ? `<span class="strike">$${b.price.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`
+          : `<b>$${b.price.toFixed(2)}</b>`;
+        const el=document.createElement('div');
+        el.className='card';
+        el.innerHTML=`
+          <h2 style="margin:6px 0">${b.title}</h2>
+          <div class="muted">Author: ${b.author}</div>
+          <div class="muted" style="margin:6px 0">SKU: ${b.sku}</div>
+          <div class="row">
+            <div>Paperback • ${prices}</div>
+            <button class="btn">Add to Cart</button>
+          </div>`;
+        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:b.sku,name:`${b.title} — Paperback`,price:pEff}));
+        grid.appendChild(el);
+      });
+    }
+
+    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
+    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
+    render();
   </script>
 </body>
 </html>
