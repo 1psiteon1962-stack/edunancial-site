@@ -28,6 +28,9 @@
   .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:0}
   .btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
   .note{background:#fff4f4;border-left:6px solid var(--brand);padding:10px;border-radius:8px;margin:12px 0}
+  .status{margin-top:8px;font-weight:700}
+  .bad{color:#b00020}
+  .good{color:#1a7f37}
 </style>
 </head>
 <body>
@@ -53,10 +56,11 @@
       <label><input type="radio" name="age" value="UNDER18"> Under 18</label>
     </fieldset>
 
-    <div class="note">Enter your code exactly. We ignore spaces and case. Example: <b>PR12345$$$</b></div>
+    <div class="note">Enter your code exactly. We ignore spaces, case, and invisible characters. Example: <b>PR12345$$$</b></div>
 
     <label for="code">Discount / Under-18 Code:</label>
     <input id="code" type="text" inputmode="latin" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Enter code" />
+    <div id="status" class="status bad">Waiting for age + code…</div>
 
     <div class="row" style="margin-top:14px">
       <div>
@@ -74,76 +78,73 @@
 
 <script>
 (() => {
-  // 1) Your live PayPal payment link (no amount here; we append it)
+  // Your live PayPal link (no amount added here)
   const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
-
-  // 2) Product base price
   const BASE_PRICE = 75.00;
 
-  // 3) Allowed codes by age group (edit here when you add/remove codes)
-  //    Codes are validated case-insensitively and with spaces removed.
+  // Accept either of these spellings, case-insensitive, with any stray/invisible chars removed:
   const VALID_CODES = {
-    ADULT:   new Set(["PR12345$$$"]),    // <- example adult code; replace or add as needed
-    UNDER18: new Set(["PR12345$$$"])     // <- your under-18 code
+    ADULT:   new Set(["PR12345$$$","PR12345$$"]),
+    UNDER18: new Set(["PR12345$$$","PR12345$$"])
   };
 
-  const priceEl = document.getElementById("price");
-  const codeInput = document.getElementById("code");
-  const payBtn = document.getElementById("pay");
+  const $ = (s)=>document.querySelector(s);
+  const priceEl = $("#price");
+  const codeInput = $("#code");
+  const payBtn = $("#pay");
+  const statusEl = $("#status");
 
-  function normalized(val){
-    return (val || "").toString().toUpperCase().replace(/\s+/g,"");
+  // Remove ALL whitespace (incl. zero-width), punctuation except $, and force uppercase.
+  function normalize(val){
+    return (val||"")
+      .toUpperCase()
+      .replace(/[\s\u200B-\u200D\uFEFF]/g,"")   // strip visible & zero-width spaces
+      .replace(/[^A-Z0-9$]/g,"");              // keep only A-Z, 0-9, and $
   }
-
-  function currentAge() {
+  function currentAge(){
     const picked = document.querySelector('input[name="age"]:checked');
     return picked ? picked.value : null;
   }
 
-  function computePrice() {
-    // Default is full price
+  function compute(){
     let amount = BASE_PRICE;
-
     const age = currentAge();
-    const code = normalized(codeInput.value);
+    const code = normalize(codeInput.value);
 
-    if (!age || !code) return {ok:false, amount};
-
-    // Accept only if code is in the set for the selected age
-    if (VALID_CODES[age] && VALID_CODES[age].has(code)) {
-      amount = 3.00; // discount lands at $3.00
-      return {ok:true, amount};
-    } else {
-      return {ok:false, amount};
+    if(!age || !code){
+      return {ok:false, reason:!age ? "Select your age group." : "Enter your code.", amount};
     }
+    if(VALID_CODES[age] && VALID_CODES[age].has(code)){
+      amount = 3.00;
+      return {ok:true, amount};
+    }
+    return {ok:false, reason:"Code not recognized.", amount};
   }
 
-  function render() {
-    const res = computePrice();
-    priceEl.textContent = `$${res.amount.toFixed(2)}`;
-
-    if (res.ok) {
+  function render(){
+    const r = compute();
+    priceEl.textContent = `$${r.amount.toFixed(2)}`;
+    if(r.ok){
+      statusEl.textContent = "Code accepted.";
+      statusEl.className = "status good";
       payBtn.setAttribute("aria-disabled","false");
-      // append amount safely
       const url = new URL(PAYPAL_BASE);
-      url.searchParams.set("amount", res.amount.toFixed(2));
-      url.searchParams.set("item", "EDN-CRS-MIX-001");
+      url.searchParams.set("amount", r.amount.toFixed(2));
+      url.searchParams.set("item","EDN-CRS-MIX-001");
       payBtn.href = url.toString();
-    } else {
+    }else{
+      statusEl.textContent = r.reason ? r.reason : "Waiting for age + code…";
+      statusEl.className = "status bad";
       payBtn.setAttribute("aria-disabled","true");
       payBtn.href = "#";
     }
   }
 
-  // Validate on interactions
   document.addEventListener("change", render);
   document.addEventListener("keyup", render);
-  payBtn.addEventListener("click", (e) => {
-    const res = computePrice();
-    if (!res.ok) {
-      e.preventDefault();
-      alert("Code not recognized. Make sure you selected your age group and typed the correct code (no spaces).");
-    }
+  payBtn.addEventListener("click", (e)=>{
+    const r = compute();
+    if(!r.ok){ e.preventDefault(); alert(r.reason || "Enter age + code."); }
   });
 
   render();
