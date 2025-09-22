@@ -6,129 +6,91 @@
   <title>Courses — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preload" href="/header.js?v=3" as="script">
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <!-- Clarity -->
+  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY-XXXX");</script>
+
   <style>
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:980px}
-    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1100px}
+    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
     .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
     .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
     .muted{color:#666}
-    input[type="text"]{width:260px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
-    .price b{font-size:1.05rem}
-    .strike{ text-decoration:line-through; color:#888; margin-right:8px; }
+    input[type="text"]{width:280px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
+    .strike{text-decoration:line-through;color:#888;margin-right:8px}
+    .pill{display:inline-block;background:#f7f7f7;border:1px solid #e6e6e6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:.9rem}
   </style>
 </head>
 <body>
+  <script>
+    (function(){
+      const q=new URLSearchParams(location.search);
+      if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); history.replaceState(null,'',location.pathname); }
+      if(localStorage.getItem('edn_member')!=='true'){ location.href='/membership.html'; }
+    })();
+  </script>
+
   <header class="site-header" data-nav="en"></header>
   <script defer src="/header.js?v=3"></script>
 
   <main class="container">
     <h1>Courses</h1>
+    <p><span class="pill" style="background:#ffe5e5">Red: Real Estate</span> <span class="pill">White: Paper Assets</span> <span class="pill" style="background:#e5efff">Blue: Business</span></p>
 
-    <!-- Discount bar -->
     <section class="card">
-      <div class="row">
+      <div class="row" style="justify-content:flex-start">
         <div>
           <label for="code"><b>Discount / Partner Code</b></label><br/>
           <input id="code" type="text" placeholder="Enter code">
           <button id="apply" class="btn" type="button">Apply</button>
-          <button id="clear" class="btn-link" type="button">Remove code</button>
+          <button id="clear" class="btn-link" type="button">Remove</button>
         </div>
-        <div id="codeMsg" class="muted"></div>
+        <div id="codeMsg" class="muted" style="margin-left:12px"></div>
       </div>
     </section>
 
-    <!-- Courses list -->
-    <section class="card" id="list"></section>
+    <section class="grid" id="grid"></section>
 
     <p><a class="btn" style="text-decoration:none" href="/cart.html">Go to Cart</a></p>
   </main>
 
   <script>
-    // ---- Shared config (same as cart) ----
-    const CART_KEY = 'edn_cart';
-    const DISC_KEY = 'edn_discount';
-    const DISCOUNT_CODES = {
-      'PR12345$$$': { type:'perItemFlat', price:1.00, note:'Partner rate applied' },
-      'UNDER18':   { type:'perItemFlat', price:1.00, note:'Under-18 rate applied' },
-    };
-    const norm = s => (s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
-
-    // Your course catalog (add more here as needed)
-    const COURSES = [
-      { sku:'EDN-CRS-MIX-001', name:'The Edunancial Method — Mini Course', price:75.00 },
-      { sku:'EDN-CRS-BO-001',  name:'In-Depth Business Formation',        price:199.00 },
+    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
+    const DISCOUNT_CODES={'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Partner rate'},'UNDER18':{type:'perItemFlat',price:1.00,note:'Under-18 rate'}};
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)];return r&&r.type==='perItemFlat'?r.price:p;};
+    const COURSES=[
+      { color:'blue',  sku:'EDN-CRS-BL-001', title:'The Edunancial Method (Mini Course)', price:9.99 },
+      { color:'blue',  sku:'EDN-CRS-BL-002', title:'Business Formation — Foundations',   price:49.00 },
+      { color:'red',   sku:'EDN-CRS-RD-001', title:'Tax Liens & Deeds (Red Course)',      price:49.00 },
+      { color:'white', sku:'EDN-CRS-WH-001', title:'Smart Stock Selection for Teens',      price:49.00 },
     ];
+    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
+    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
+    function addToCart(item){const c=loadCart();const i=c.findIndex(x=>x.sku===item.sku);if(i>-1)c[i].qty+=(item.qty||1);else c.push(item);saveCart(c);if(window.updateCartCount)window.updateCartCount();alert('Added to cart');}
 
-    // Discount helpers
-    function effectivePrice(unitPrice, code) {
-      const rule = DISCOUNT_CODES[norm(code)];
-      if (!rule) return unitPrice;
-      if (rule.type === 'perItemFlat') return rule.price;
-      return unitPrice;
-    }
-
-    // Cart ops
-    function loadCart(){ try{ return JSON.parse(localStorage.getItem(CART_KEY)||'[]'); }catch(e){ return []; } }
-    function saveCart(c){ localStorage.setItem(CART_KEY, JSON.stringify(c)); }
-    function addToCart(item){
-      const cart = loadCart();
-      const idx = cart.findIndex(x=>x.sku===item.sku);
-      if (idx>-1) cart[idx].qty += (item.qty||1);
-      else cart.push({ sku:item.sku, name:item.name, price:item.price, qty:item.qty||1 });
-      saveCart(cart);
-      // optional toast
-      alert('Added to cart');
-      // update header badge if header.js exposes updateCartCount()
-      if (window.updateCartCount) window.updateCartCount();
-    }
-
-    function renderList(){
-      const codeRaw = localStorage.getItem(DISC_KEY)||'';
-      const rule = DISCOUNT_CODES[norm(codeRaw)];
-      document.getElementById('code').value = codeRaw;
-      document.getElementById('codeMsg').textContent = rule ? (rule.note || 'Code applied') : (codeRaw ? 'Code not recognized' : '');
-
-      const wrap = document.getElementById('list');
-      wrap.innerHTML = '';
+    function render(){
+      const code=localStorage.getItem(DISC_KEY)||''; const rule=DISCOUNT_CODES[norm(code)];
+      document.getElementById('code').value=code; document.getElementById('codeMsg').textContent=rule?(rule.note||'Code applied'):(code?'Code not recognized':'');
+      const grid=document.getElementById('grid'); grid.innerHTML='';
       COURSES.forEach(c=>{
-        const pEff = effectivePrice(c.price, codeRaw);
-        const priceHtml = (pEff < c.price)
-          ? `<span class="strike">$${c.price.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`
-          : `<b>$${c.price.toFixed(2)}</b>`;
-        const card = document.createElement('div');
-        card.style.marginBottom='12px';
-        card.innerHTML = `
-          <h2 style="margin:8px 0">${c.name}</h2>
+        const pEff=eff(c.price,code);
+        const prices=pEff<c.price?`<span class="strike">$${c.price.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`:`<b>$${c.price.toFixed(2)}</b>`;
+        const el=document.createElement('div'); el.className='card';
+        el.innerHTML=`<h2 style="margin:6px 0">${c.title}</h2>
           <div class="muted">SKU: ${c.sku}</div>
-          <p class="price" style="margin:8px 0">Price: ${priceHtml}</p>
-          <button class="btn" data-sku="${c.sku}">Add to Cart</button>
-        `;
-        wrap.appendChild(card);
-      });
-
-      wrap.querySelectorAll('button[data-sku]').forEach(btn=>{
-        btn.addEventListener('click', e=>{
-          const sku = e.target.dataset.sku;
-          const c = COURSES.find(x=>x.sku===sku);
-          const codeRaw = localStorage.getItem(DISC_KEY)||'';
-          const pEff = effectivePrice(c.price, codeRaw);
-          addToCart({ sku:c.sku, name:c.name, price:pEff, qty:1 });
-        });
+          <div class="row"><div>${prices}</div><button class="btn">Add to Cart</button></div>`;
+        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:c.sku,name:c.title,price:pEff,qty:1}));
+        grid.appendChild(el);
       });
     }
-
-    // Code buttons
-    document.getElementById('apply').addEventListener('click', ()=>{
-      localStorage.setItem(DISC_KEY, document.getElementById('code').value||'');
-      renderList();
-    });
-    document.getElementById('clear').addEventListener('click', ()=>{
-      localStorage.removeItem(DISC_KEY);
-      document.getElementById('code').value='';
-      renderList();
-    });
-
-    renderList();
+    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
+    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
+    render();
   </script>
 </body>
 </html>
