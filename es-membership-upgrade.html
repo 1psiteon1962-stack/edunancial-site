@@ -1,164 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Mejorar Membresía — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preload" href="/header.js?v=3" as="script">
-  <style>
-    .wrap{max-width:980px;margin:0 auto}
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:18px;margin:14px 0}
-    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    label b{display:block;margin-bottom:6px}
-    input,select{width:100%;padding:10px;border:1px solid #e1e1e1;border-radius:10px}
-    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-    .btn{border:0;background:#1565d8;color:#fff;padding:12px 16px;border-radius:10px;font-weight:700;cursor:pointer}
-    .btn-link{background:none;border:none;color:#1565d8;font-weight:700;cursor:pointer}
-    .muted{color:#666}
-    .price{font-size:1.1rem}
-    .strike{text-decoration:line-through;color:#888;margin-right:8px}
-    .notice{background:#fff7e6;border:1px solid #ffd59e;padding:10px;border-radius:10px}
-    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px}
-    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px}
-  </style>
+  <meta charset="UTF-8">
+  <title>Mejorar Membresía – Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <header class="site-header" data-nav="es"></header>
-  <script defer src="/header.js?v=3"></script>
+  <header class="banner">
+    <h1>Mejorar Membresía</h1>
+    <nav>
+      <a href="/es-index.html">Inicio</a>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-membership.html">Membresía</a>
+    </nav>
+  </header>
 
-  <main class="wrap">
-    <h1>Mejora tu Membresía</h1>
-    <p class="muted">Pásate a un nivel superior. Tu plan actual será reemplazado por el nuevo.</p>
+  <main class="container">
+    <section>
+      <h2>Actualiza tu Membresía</h2>
+      <p>Usa este formulario para actualizar tu nivel de membresía. Ingresa tu correo y selecciona el nivel deseado.</p>
+      
+      <form id="upgradeForm" onsubmit="return false;">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
 
-    <div id="bypassBox" class="notice" style="display:none">Bypass habilitado en este navegador (admin/pruebas).</div>
+        <label for="currentTier">Tu nivel actual:</label>
+        <select id="currentTier">
+          <option value="ENTRY">Básico – $5/mes</option>
+          <option value="STANDARD">Estándar – $29/mes</option>
+        </select>
 
-    <section class="card">
-      <div class="grid">
-        <div>
-          <label><b>Email de tu cuenta</b></label>
-          <input id="email" type="email" placeholder="tu@correo.com" autocomplete="email">
-        </div>
-        <div>
-          <label><b>Plan actual</b></label>
-          <select id="currentTier">
-            <option value="ENTRY">Entry ($5/mes)</option>
-            <option value="STANDARD">Standard ($29/mes)</option>
-          </select>
-        </div>
-        <div>
-          <label><b>Mejorar a</b></label>
-          <select id="targetTier">
-            <option value="STANDARD|29">Standard — $29/mes</option>
-            <option value="PREMIUM|59">Premium — $59/mes</option>
-          </select>
-        </div>
-      </div>
+        <label for="targetTier">Mejorar a:</label>
+        <select id="targetTier">
+          <option value="STANDARD|29">Estándar – $29/mes</option>
+          <option value="PREMIUM|59">Premium – $59/mes</option>
+        </select>
 
-      <div class="row" style="margin-top:10px">
-        <div>
-          <label for="code"><b>Código de descuento / socio</b></label><br/>
-          <input id="code" type="text" placeholder="EARLYBIRD, NP25, STUDENT50, ANNUAL50">
-        </div>
-        <div class="price"><span id="priceView"></span></div>
-      </div>
-      <div class="muted" id="codeMsg"></div>
+        <label for="code">Código de descuento (opcional):</label>
+        <input type="text" id="code" placeholder="Ingresa el código">
 
-      <div class="notice" style="margin-top:12px">
-        <b>Cómo funciona:</b> tu membresía anterior se cancelará y se reemplazará por el nuevo nivel. Si usas un código, se aplicará al nuevo plan. Cualquier prorrateo lo gestiona PayPal según sus reglas.
-      </div>
+        <div id="priceView" class="price">Precio: $0.00</div>
+        <div id="codeMsg" class="muted"></div>
 
-      <div class="row" style="margin-top:14px">
-        <button class="btn" id="upgradeBtn" type="button">Mejorar con PayPal</button>
-        <span id="msg" class="muted"></span>
-      </div>
-    </section>
+        <button type="button" id="upgradeBtn" class="btn">Mejorar Ahora</button>
+      </form>
 
-    <section class="card">
-      <h2>¿Necesitas acceso?</h2>
-      <div class="row">
-        <a class="btn" style="text-decoration:none" href="/es-books.html">Ir a Libros</a>
-        <a class="btn" style="text-decoration:none" href="/es-courses.html">Ir a Cursos</a>
-      </div>
+      <div id="msg" class="muted"></div>
     </section>
   </main>
 
-  <script>
-    const DISC={
-      'EARLYBIRD':{type:'flat',entry:3,standard:25,premium:49,note:'Precio de lanzamiento'},
-      'NP25':{type:'percent',pct:50,note:'ONG / Estudiante 50%'},
-      'STUDENT50':{type:'percent',pct:50,note:'Estudiante 50%'},
-      'ANNUAL50':{type:'annual',entryYear:50,standardYear:300,premiumYear:600,note:'Pago anual'},
-    };
-    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+  <footer>
+    <p>&copy; 2025 Edunancial, Inc. Todos los derechos reservados.</p>
+  </footer>
 
-    function calcPrice(targetVal, codeRaw){
-      const [tier, baseStr]=targetVal.split('|'); const base=+baseStr; const code=norm(codeRaw); const rule=DISC[code];
-      let price=base, cadence='monthly';
-      if(rule){
-        if(rule.type==='flat'){
-          price=(tier==='STANDARD'?rule.standard: rule.premium??59);
-        }else if(rule.type==='percent'){
-          const pct=Math.max(0,Math.min(100,+rule.pct||0)); price=+(base*(1-pct/100)).toFixed(2);
-        }else if(rule.type==='annual'){
-          cadence='annual';
-          price=(tier==='STANDARD'?rule.standardYear: rule.premiumYear);
-        }
-      }
-      return {price,cadence,note:rule?rule.note:''};
-    }
-
-    function refreshPrice(){
-      const targetVal=document.getElementById('targetTier').value;
-      const codeRaw=document.getElementById('code').value||'';
-      const {price,cadence,note}=calcPrice(targetVal,codeRaw);
-      const base=+targetVal.split('|')[1];
-      const strike=(cadence==='monthly'&&price<base)?`<span class="strike">$${base.toFixed(2)}/mes</span>`:'';
-      document.getElementById('priceView').innerHTML=`${strike} <b>$${price.toFixed(2)}</b> ${cadence==='monthly'?'/mes':'/año'}`;
-      document.getElementById('codeMsg').textContent=note || (codeRaw?'Código no reconocido':'');
-    }
-
-    async function doUpgrade(){
-      const email=(document.getElementById('email').value||'').trim();
-      if(!email) return setMsg('Ingresa el email de tu cuenta.');
-      const current=document.getElementById('currentTier').value; // ENTRY o STANDARD
-      const targetVal=document.getElementById('targetTier').value; // TIER|precio
-      const codeRaw=document.getElementById('code').value||'';
-      const {price,cadence}=calcPrice(targetVal,codeRaw);
-      const targetTier=targetVal.split('|')[0];
-
-      try{
-        setMsg('Iniciando mejora…');
-        const res=await fetch('/.netlify/functions/upgrade-membership',{
-          method:'POST',
-          headers:{'Content-Type':'application/json'},
-          body: JSON.stringify({
-            email,
-            currentTier: current,
-            targetTier,
-            cadence,
-            price,
-            code: codeRaw,
-            returnUrl: window.location.origin + '/es-membership-upgrade.html?paid=1'
-          })
-        });
-        if(!res.ok) throw new Error('Fallo en la mejora');
-        const data=await res.json();
-        if(data && data.redirectUrl){ window.location.href=data.redirectUrl; }
-        else throw new Error('Sin URL de redirección');
-      }catch(e){
-        console.error(e); setMsg('Ocurrió un error. Intenta de nuevo.',true);
-      }
-    }
-    function setMsg(t,err=false){ const el=document.getElementById('msg'); el.textContent=t; el.className=err?'danger':'muted'; }
-
-    const q=new URLSearchParams(location.search);
-    if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); document.getElementById('bypassBox').style.display='block'; }
-
-    document.getElementById('targetTier').addEventListener('change',refreshPrice);
-    document.getElementById('code').addEventListener('input',refreshPrice);
-    document.getElementById('upgradeBtn').addEventListener('click',doUpgrade);
-    refreshPrice();
-  </script>
+  <!-- Script completo en español -->
+  <script defer src="/scripts/es-upgrade-membership.js"></script>
 </body>
 </html>
