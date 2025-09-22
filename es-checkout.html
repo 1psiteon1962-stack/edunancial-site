@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <!-- Encabezado global (banner rojo, navegación, EN/ES) -->
   <div id="sitebar"></div>
   <script src="/header.js"></script>
 
@@ -17,6 +16,12 @@
       <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
 
       <form id="payForm" class="stack" novalidate>
+        <fieldset class="row">
+          <legend class="label">Grupo de edad</legend>
+          <label class="radio"><input type="radio" name="age" value="adult"> 18 o más</label>
+          <label class="radio"><input type="radio" name="age" value="under"> Menor de 18</label>
+        </fieldset>
+
         <div class="row">
           <label for="agecode" class="label">Código de descuento / menor de 18</label>
           <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Escriba el código" class="input" />
@@ -29,6 +34,8 @@
           Continuar a PayPal
         </a>
 
+        <p id="msg" class="tiny muted"></p>
+
         <p class="tiny muted">
           Al pagar acepta nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.
         </p>
@@ -40,43 +47,49 @@
 
   <script>
   (function () {
-    // ---- Reglas de precio SOLO PARA PRUEBA (bajar a $3.00 cuando hay un código no vacío) ----
     var amountEl = document.getElementById('amount');
-    var agecode  = document.getElementById('agecode');
+    var codeEl   = document.getElementById('agecode');
+    var form     = document.getElementById('payForm');
     var btn      = document.getElementById('toPayPal');
+    var msgEl    = document.getElementById('msg');
 
-    function getBase() {
-      var b = parseFloat(amountEl.getAttribute('data-base') || '0');
-      return isFinite(b) ? b : 0;
-    }
-    function setAmount(v) {
-      amountEl.textContent = Number(v).toFixed(2);
-    }
-    function computeAmount() {
-      var code = (agecode.value || '').trim();
-      if (code.length > 0) return 3.00;       // prueba: cualquier código → $3.00
-      return getBase();
-    }
-    function refreshAmount() { setAmount(computeAmount()); }
-    agecode.addEventListener('input', refreshAmount);
+    function base(){ var b=parseFloat(amountEl.getAttribute('data-base')||'0'); return isFinite(b)?b:0; }
+    function setAmount(v){ amountEl.textContent = Number(v).toFixed(2); }
+    function selectedAge(){ var s=form.querySelector('input[name="age"]:checked'); return s?s.value:''; }
+    function elegible(){ return selectedAge()==='under' && (codeEl.value||'').trim().length>0; }
+    function compute(){ return elegible()?3.00:base(); }
 
-    // ---- Forzar URLs absolutas de retorno/cancelación con .html ----
-    var returnUrl = location.origin + '/es-thank-you.html';
-    var cancelUrl = location.origin + '/es-checkout.html';
+    function validate(){
+      var ok=true; msgEl.textContent='';
+      var age=selectedAge(), code=(codeEl.value||'').trim();
+      if(!age){ ok=false; msgEl.textContent='Seleccione un grupo de edad.'; }
+      else if(age==='under' && code.length===0){ ok=false; msgEl.textContent='Ingrese el código de menor de 18.'; }
+      setAmount(compute());
+      return ok;
+    }
+    form.addEventListener('input', validate);
+    form.addEventListener('change', validate);
+    validate();
 
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      if(!validate()) return;
+
       var href = btn.getAttribute('href') || '';
-      if (!href || href === '#') return;
-      try {
+      if(!href || href==='#'){ alert('Agregue su enlace de PayPal al href del botón. El monto se adjuntará automáticamente.'); return; }
+
+      var returnUrl = location.origin + '/es-thank-you.html';
+      var cancelUrl = location.origin + '/es-checkout.html';
+      try{
         var u = new URL(href);
+        u.searchParams.set('amount', Number(compute()).toFixed(2));
         u.searchParams.set('return', returnUrl);
         u.searchParams.set('cancel_return', cancelUrl);
-        u.searchParams.set('amount', Number(computeAmount()).toFixed(2));
-        btn.setAttribute('href', u.toString());
-      } catch (_) {}
+        window.location.assign(u.toString());
+      }catch(err){
+        window.location.assign(href);
+      }
     });
-
-    refreshAmount();
   })();
   </script>
 </body>
