@@ -2,48 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Courses — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/css-cart.css" />
-  <script src="/header.js" defer></script>
+  <title>Courses — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px 0}
+    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .link{color:#c00;text-decoration:none;font-weight:600}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .price{font-weight:700;margin:.25rem 0 1rem}
+    .muted{color:#666}
+    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="/index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/cart.html">Cart (<span id="cart-badge">0</span>)</a>
-      <a href="/es-courses.html" style="margin-left:18px">ES</a>
-    </nav>
-  </header>
+  <header class="site-header" data-nav="en"></header>
+  <script defer src="/header.js?v=3"></script>
 
   <main class="container">
     <h1>Courses</h1>
 
-    <section class="card">
-      <h2>The Edunancial Method — Mini Course</h2>
-      <p class="small"><strong>SKU:</strong> EDN-CRS-MIX-001 • $75.00</p>
-      <button class="btn"
-        data-add-to-cart
-        data-id="EDN-CRS-MIX-001"
-        data-name="The Edunancial Method — Mini Course"
-        data-price="75.00">Add to Cart</button>
-    </section>
-
-    <section class="card">
-      <h2>In-Depth Business Formation</h2>
-      <p class="small"><strong>SKU:</strong> EDN-CRS-BO-001 • $199.00</p>
-      <button class="btn"
-        data-add-to-cart
-        data-id="EDN-CRS-BO-001"
-        data-name="In-Depth Business Formation"
-        data-price="199.00">Add to Cart</button>
-    </section>
-
-    <div class="card">
-      <a class="btn" href="/cart.html">Go to Cart</a>
+    <div class="top-actions">
+      <a class="link" href="/cart.html">Go to Cart</a>
     </div>
+
+    <!-- Mini Course -->
+    <article class="card">
+      <h2 class="h3">The Edunancial Method — Mini Course</h2>
+      <p class="muted">SKU: <b>EDN-CRS-MIX-001</b></p>
+      <p class="price">$75.00</p>
+      <div class="row">
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-MIX-001',name:'Mini Course',price:75,qty:1})">Add to Cart</button>
+        <a class="btn" style="text-decoration:none" href="/checkout.html?sku=EDN-CRS-MIX-001">Buy Now</a>
+      </div>
+      <p class="muted small" style="margin-top:8px">Have a discount code? You can apply it at checkout or from the cart.</p>
+    </article>
+
+    <!-- In-Depth Course -->
+    <article class="card">
+      <h2 class="h3">In-Depth Business Formation</h2>
+      <p class="muted">SKU: <b>EDN-CRS-BO-001</b></p>
+      <p class="price">$199.00</p>
+      <div class="row">
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-BO-001',name:'In-Depth Business Formation',price:199,qty:1})">Add to Cart</button>
+        <a class="btn" style="text-decoration:none" href="/checkout.html?sku=EDN-CRS-BO-001">Buy Now</a>
+      </div>
+      <p class="muted small" style="margin-top:8px">Discount codes supported at checkout and in the cart.</p>
+    </article>
   </main>
+
+  <script>
+    function addToCartSafe(item){
+      if (window.addToCart) { window.addToCart(item); return; }
+      const key='edn_cart';
+      const cart=JSON.parse(localStorage.getItem(key)||'[]');
+      const idx=cart.findIndex(i=>i.sku===item.sku);
+      if(idx>-1){ cart[idx].qty += (item.qty||1); }
+      else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
+      localStorage.setItem(key,JSON.stringify(cart));
+      window.location.href='/cart.html';
+    }
+  </script>
 </body>
 </html>
