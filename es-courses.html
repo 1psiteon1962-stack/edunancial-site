@@ -1,25 +1,49 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cursos — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-</head><body>
-<div id="sitebar"></div>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Cursos — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css-cart.css" />
+  <script src="/header.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/es-index.html">EDUNANCIAL</a>
+    <nav>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-cart.html">Carrito (<span id="cart-badge">0</span>)</a>
+      <a href="/courses.html" style="margin-left:18px">EN</a>
+    </nav>
+  </header>
 
-<main class="container">
-  <h1>Cursos</h1>
+  <main class="container">
+    <h1>Cursos</h1>
 
-  <section class="card">
-    <h2>El Método Edunancial — Mini Curso</h2>
-    <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
-    <a class="btn" href="/es-checkout.html?sku=EDN-CRS-MIX-001&price=75.00">Continuar al pago</a>
-  </section>
+    <section class="card">
+      <h2>El Método Edunancial — Mini Curso</h2>
+      <p class="small"><strong>SKU:</strong> EDN-CRS-MIX-001 • $75.00</p>
+      <button class="btn"
+        data-add-to-cart
+        data-id="EDN-CRS-MIX-001"
+        data-name="El Método Edunancial — Mini Curso"
+        data-price="75.00">Agregar al carrito</button>
+    </section>
 
-  <section class="card">
-    <h2>Formación Empresarial en Profundidad</h2>
-    <p><strong>SKU:</strong> EDN-CRS-BO-001 • <strong>$199.00</strong></p>
-    <a class="btn" href="/es-checkout.html?sku=EDN-CRS-BO-001&price=199.00">Continuar al pago</a>
-  </section>
-</main>
+    <section class="card">
+      <h2>Formación Empresarial a Fondo</h2>
+      <p class="small"><strong>SKU:</strong> EDN-CRS-BO-001 • $199.00</p>
+      <button class="btn"
+        data-add-to-cart
+        data-id="EDN-CRS-BO-001"
+        data-name="Formación Empresarial a Fondo"
+        data-price="199.00">Agregar al carrito</button>
+    </section>
 
-<script src="/header.js"></script>
-</body></html>
+    <div class="card">
+      <a class="btn" href="/es-cart.html">Ir al carrito</a>
+    </div>
+  </main>
+</body>
+</html>
