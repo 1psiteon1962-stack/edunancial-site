@@ -1,73 +1,69 @@
-// Captures a PayPal order and emails the buyer a Zoom invite (SendGrid)
-const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
+// /netlify/functions/capture-order.js
+// Captures a PayPal order and returns payer details (email, name)
 
-exports.handler = async (event) => {
+import fetch from "node-fetch";
+
+export const handler = async (event) => {
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, body: "Method Not Allowed" };
+  }
+
+  let body;
+  try { body = JSON.parse(event.body || "{}"); } catch {
+    return { statusCode: 400, body: "Invalid JSON" };
+  }
+
+  const { orderID } = body;
+  if (!orderID) return { statusCode: 400, body: "Missing orderID" };
+
+  const clientId = process.env.PAYPAL_CLIENT_ID;
+  const secret   = process.env.PAYPAL_SECRET;
+  if (!clientId || !secret) {
+    return { statusCode: 500, body: "Missing PayPal credentials" };
+  }
+
   try {
-    if(event.httpMethod!=="POST") return { statusCode:405, body:"Method Not Allowed" };
-    const { orderID } = JSON.parse(event.body || "{}");
-    if(!orderID) return { statusCode:400, body:"Missing orderID" };
-
-    const token = await getAccessToken();
+    // Get token
+    const tokenRes = await fetch("https://api-m.paypal.com/v1/oauth2/token", {
+      method: "POST",
+      headers: {
+        "Authorization": "Basic " + Buffer.from(clientId + ":" + secret).toString("base64"),
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: "grant_type=client_credentials"
+    });
+    const tokenData = await tokenRes.json();
+    if (!tokenRes.ok) return { statusCode: 500, body: JSON.stringify(tokenData) };
 
     // Capture
-    const capRes = await fetch(`https://api-m.paypal.com/v2/checkout/orders/${orderID}/capture`, {
-      method:"POST",
-      headers:{ "Content-Type":"application/json","Authorization":`Bearer ${token}` }
+    const captureRes = await fetch(`https://api-m.paypal.com/v2/checkout/orders/${orderID}/capture`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${tokenData.access_token}`
+      }
     });
-    const cap = await capRes.json();
-    if(!capRes.ok) return { statusCode: capRes.status, body: JSON.stringify(cap) };
+    const captureData = await captureRes.json();
+    if (!captureRes.ok) return { statusCode: 500, body: JSON.stringify(captureData) };
 
-    // Pull email from custom_id metadata
-    let email = null;
-    try{
-      const custom = cap?.purchase_units?.[0]?.payments?.captures?.[0]?.custom_id
-                  || cap?.purchase_units?.[0]?.custom_id;
-      if(custom) email = JSON.parse(Buffer.from(custom, "base64url").toString("utf8")).email;
-    }catch{}
+    // Pull useful bits for tracking/Zoom later
+    const payer = captureData?.payer || {};
+    const email = payer.email_address || null;
+    const name  = [payer.name?.given_name, payer.name?.surname].filter(Boolean).join(" ");
 
-    if(email){
-      await sendEmail(email, orderID);
-      const bcc = process.env.EDUNANCIAL_ADMIN_EMAIL;
-      if(bcc) await sendEmail(bcc, orderID, true);
-    }
+    // TODO (optional): write to Netlify Forms / Blobs, or email via SMTP here.
 
-    return { statusCode:200, body: JSON.stringify({ ok:true }) };
-  } catch(err){
-    return { statusCode:500, body: err.message || "Server error" };
+    return {
+      statusCode: 200,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        status: "COMPLETED",
+        orderID,
+        payerEmail: email,
+        payerName: name
+      })
+    };
+  } catch (err) {
+    return { statusCode: 500, body: JSON.stringify({ error: err.message }) };
   }
 };
-
-async function getAccessToken(){
-  const id = process.env.PAYPAL_CLIENT_ID;
-  const sec = process.env.PAYPAL_CLIENT_SECRET;
-  const res = await fetch("https://api-m.paypal.com/v1/oauth2/token", {
-    method:"POST",
-    headers:{ "Content-Type":"application/x-www-form-urlencoded",
-              "Authorization":"Basic " + Buffer.from(id + ":" + sec).toString("base64") },
-    body:"grant_type=client_credentials"
-  });
-  const j = await res.json();
-  if(!res.ok) throw new Error(j.error_description || "token failure");
-  return j.access_token;
-}
-
-async function sendEmail(to, orderID, isBcc=false){
-  const key = process.env.SENDGRID_API_KEY;
-  const from = process.env.EDUNANCIAL_FROM_EMAIL || "no-reply@edunancial.com";
-  if(!key) return;
-
-  const subject = isBcc ? `New Edunancial order ${orderID}` : "Your Edunancial Zoom invite";
-  const text = isBcc
-    ? `Order ${orderID} captured successfully.`
-    : `Thank you for your purchase!\n\nZoom access (sample):\nJoin: https://zoom.us/j/123456789\nPasscode: 2468\n\nOrder: ${orderID}\n\n— Edunancial`;
-
-  await fetch("https://api.sendgrid.com/v3/mail/send", {
-    method:"POST",
-    headers:{ "Authorization":`Bearer ${key}`, "Content-Type":"application/json" },
-    body: JSON.stringify({
-      personalizations:[{ to:[{ email: to }] }],
-      from:{ email: from, name:"Edunancial" },
-      subject, content:[{ type:"text/plain", value:text }]
-    })
-  });
-}
