@@ -28,6 +28,9 @@
   .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:0}
   .btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
   .note{background:#fff4f4;border-left:6px solid var(--brand);padding:10px;border-radius:8px;margin:12px 0}
+  .status{margin-top:8px;font-weight:700}
+  .bad{color:#b00020}
+  .good{color:#1a7f37}
 </style>
 </head>
 <body>
@@ -53,10 +56,11 @@
       <label><input type="radio" name="age" value="UNDER18"> Menor de 18</label>
     </fieldset>
 
-    <div class="note">Escribe tu código exactamente. Ignoramos mayúsculas y espacios. Ejemplo: <b>PR12345$$$</b></div>
+    <div class="note">Escribe tu código exactamente. Ignoramos mayúsculas, espacios y caracteres invisibles. Ejemplo: <b>PR12345$$$</b></div>
 
     <label for="code">Código de Descuento / Menor de 18:</label>
     <input id="code" type="text" inputmode="latin" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Ingresa el código" />
+    <div id="status" class="status bad">Esperando edad + código…</div>
 
     <div class="row" style="margin-top:14px">
       <div>
@@ -77,36 +81,47 @@
   const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
   const BASE_PRICE = 75.00;
   const VALID_CODES = {
-    ADULT:   new Set(["PR12345$$$"]),
-    UNDER18: new Set(["PR12345$$$"])
+    ADULT:   new Set(["PR12345$$$","PR12345$$"]),
+    UNDER18: new Set(["PR12345$$$","PR12345$$"])
   };
 
-  const priceEl = document.getElementById("price");
-  const codeInput = document.getElementById("code");
-  const payBtn = document.getElementById("pay");
+  const $ = (s)=>document.querySelector(s);
+  const priceEl = $("#price");
+  const codeInput = $("#code");
+  const payBtn = $("#pay");
+  const statusEl = $("#status");
 
-  function normalized(v){return (v||"").toString().toUpperCase().replace(/\s+/g,"");}
+  function normalize(v){
+    return (v||"")
+      .toUpperCase()
+      .replace(/[\s\u200B-\u200D\uFEFF]/g,"")
+      .replace(/[^A-Z0-9$]/g,"");
+  }
   function currentAge(){const p=document.querySelector('input[name="age"]:checked');return p?p.value:null;}
 
   function compute(){
     let amount = BASE_PRICE;
     const age = currentAge();
-    const code = normalized(codeInput.value);
-    if(!age || !code) return {ok:false,amount};
-    if(VALID_CODES[age] && VALID_CODES[age].has(code)){ amount = 3.00; return {ok:true,amount}; }
-    return {ok:false,amount};
+    const code = normalize(codeInput.value);
+    if(!age || !code) return {ok:false, reason:!age ? "Selecciona tu grupo de edad." : "Ingresa tu código.", amount};
+    if(VALID_CODES[age] && VALID_CODES[age].has(code)){ amount = 3.00; return {ok:true, amount}; }
+    return {ok:false, reason:"Código no reconocido.", amount};
   }
 
   function render(){
     const r = compute();
     priceEl.textContent = `$${r.amount.toFixed(2)}`;
     if(r.ok){
+      statusEl.textContent = "Código aceptado.";
+      statusEl.className = "status good";
       payBtn.setAttribute("aria-disabled","false");
       const url = new URL(PAYPAL_BASE);
       url.searchParams.set("amount", r.amount.toFixed(2));
       url.searchParams.set("item","EDN-CRS-MIX-001");
       payBtn.href = url.toString();
     }else{
+      statusEl.textContent = r.reason || "Esperando edad + código…";
+      statusEl.className = "status bad";
       payBtn.setAttribute("aria-disabled","true");
       payBtn.href = "#";
     }
@@ -114,11 +129,7 @@
 
   document.addEventListener("change", render);
   document.addEventListener("keyup", render);
-  payBtn.addEventListener("click", (e)=>{
-    const r = compute();
-    if(!r.ok){ e.preventDefault(); alert("Código no reconocido. Selecciona tu grupo de edad y escribe el código correcto (sin espacios)."); }
-  });
-
+  payBtn.addEventListener("click",(e)=>{const r=compute();if(!r.ok){e.preventDefault();alert(r.reason||"Ingresa edad + código.");}});
   render();
 })();
 </script>
