@@ -2,48 +2,65 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Cursos — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/css-cart.css" />
-  <script src="/header.js" defer></script>
+  <title>Cursos — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+  <style>
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px 0}
+    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .link{color:#c00;text-decoration:none;font-weight:600}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .price{font-weight:700;margin:.25rem 0 1rem}
+    .muted{color:#666}
+    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="/es-index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/es-books.html">Libros</a>
-      <a href="/es-courses.html">Cursos</a>
-      <a href="/es-cart.html">Carrito (<span id="cart-badge">0</span>)</a>
-      <a href="/courses.html" style="margin-left:18px">EN</a>
-    </nav>
-  </header>
+  <header class="site-header" data-nav="es"></header>
+  <script defer src="/header.js?v=3"></script>
 
   <main class="container">
     <h1>Cursos</h1>
 
-    <section class="card">
-      <h2>El Método Edunancial — Mini Curso</h2>
-      <p class="small"><strong>SKU:</strong> EDN-CRS-MIX-001 • $75.00</p>
-      <button class="btn"
-        data-add-to-cart
-        data-id="EDN-CRS-MIX-001"
-        data-name="El Método Edunancial — Mini Curso"
-        data-price="75.00">Agregar al carrito</button>
-    </section>
-
-    <section class="card">
-      <h2>Formación Empresarial a Fondo</h2>
-      <p class="small"><strong>SKU:</strong> EDN-CRS-BO-001 • $199.00</p>
-      <button class="btn"
-        data-add-to-cart
-        data-id="EDN-CRS-BO-001"
-        data-name="Formación Empresarial a Fondo"
-        data-price="199.00">Agregar al carrito</button>
-    </section>
-
-    <div class="card">
-      <a class="btn" href="/es-cart.html">Ir al carrito</a>
+    <div class="top-actions">
+      <a class="link" href="/es-cart.html">Ir al Carrito</a>
     </div>
+
+    <article class="card">
+      <h2 class="h3">El Método Edunancial — Mini Curso</h2>
+      <p class="muted">SKU: <b>EDN-CRS-MIX-001</b></p>
+      <p class="price">$75.00</p>
+      <div class="row">
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-MIX-001',name:'Mini Curso',price:75,qty:1,locale:'es'})">Agregar al carrito</button>
+        <a class="btn" style="text-decoration:none" href="/es-checkout.html?sku=EDN-CRS-MIX-001">Comprar ahora</a>
+      </div>
+      <p class="muted small" style="margin-top:8px">Los códigos de descuento se aplican en el pago o en el carrito.</p>
+    </article>
+
+    <article class="card">
+      <h2 class="h3">Formación Empresarial en Profundidad</h2>
+      <p class="muted">SKU: <b>EDN-CRS-BO-001</b></p>
+      <p class="price">$199.00</p>
+      <div class="row">
+        <button class="btn" onclick="addToCartSafe({sku:'EDN-CRS-BO-001',name:'Formación Empresarial',price:199,qty:1,locale:'es'})">Agregar al carrito</button>
+        <a class="btn" style="text-decoration:none" href="/es-checkout.html?sku=EDN-CRS-BO-001">Comprar ahora</a>
+      </div>
+      <p class="muted small" style="margin-top:8px">Se admiten códigos de descuento.</p>
+    </article>
   </main>
+
+  <script>
+    function addToCartSafe(item){
+      if (window.addToCart) { window.addToCart(item); return; }
+      const key='edn_cart';
+      const cart=JSON.parse(localStorage.getItem(key)||'[]');
+      const idx=cart.findIndex(i=>i.sku===item.sku);
+      if(idx>-1){ cart[idx].qty += (item.qty||1); }
+      else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
+      localStorage.setItem(key,JSON.stringify(cart));
+      window.location.href=item.locale==='es'?'/es-cart.html':'/cart.html';
+    }
+  </script>
 </body>
 </html>
