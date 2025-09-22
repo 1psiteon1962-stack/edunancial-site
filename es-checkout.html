@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pago — Edunancial</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
@@ -13,9 +13,19 @@
   <main class="container">
     <section class="card">
       <h1>Pago</h1>
-      <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
+      <p><strong>SKU:</strong> EDN-CRS-MIX-001</p>
 
-      <form id="payForm" class="stack" method="GET" action="#">
+      <!-- ⚠️ PEGUE AQUÍ SU hosted_button_id de PayPal -->
+      <form id="paypalForm" class="stack" method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="PEGAR_HOSTED_BUTTON_ID_AQUÍ">
+        <input type="hidden" name="item_name" value="El Método Edunancial — Mini Curso (EDN-CRS-MIX-001)">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/es-thank-you.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-checkout.html">
+        <input type="hidden" name="amount" id="ppAmount" value="75.00">
+
         <fieldset class="row">
           <legend class="label">Grupo de edad</legend>
           <label class="radio"><input type="radio" name="age" value="adult"> 18 o más</label>
@@ -23,15 +33,15 @@
         </fieldset>
 
         <div class="row">
-          <label for="agecode" class="label">Código de descuento / menor de 18</label>
-          <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Escriba el código" class="input" />
+          <label for="code" class="label">Código de descuento / menor de 18</label>
+          <input id="code" name="code" type="text" class="input" placeholder="Escriba el código" autocomplete="off" />
         </div>
 
         <p class="muted">Precio:</p>
-        <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
+        <p class="price">$<span id="shownAmount">75.00</span></p>
 
         <button type="submit" class="btn btn-primary">Continuar a PayPal</button>
-        <p id="msg" class="tiny muted"></p>
+        <p id="formMsg" class="tiny muted"></p>
 
         <p class="tiny muted">
           Al pagar acepta nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.
@@ -43,45 +53,29 @@
   <footer class="container tiny muted">© 2025 Edunancial, Inc.</footer>
 
   <script>
-  (function () {
-    // ====== PEGAR AQUÍ SU ENLACE DE PAYPAL (formato “Pay Now”) ======
-    var PAYPAL_BASE = ""; // ej.: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=su%40correo.com&item_name=EDN-CRS-MIX-001&currency_code=USD&no_shipping=1
+  (function(){
+    var form = document.getElementById('paypalForm');
+    var shown = document.getElementById('shownAmount');
+    var ppAmount = document.getElementById('ppAmount');
+    var msg = document.getElementById('formMsg');
+    var code = document.getElementById('code');
 
-    var form=document.getElementById('payForm');
-    var amountEl=document.getElementById('amount');
-    var codeEl=document.getElementById('agecode');
-    var msgEl=document.getElementById('msg');
-
-    function base(){ var b=parseFloat(amountEl.dataset.base||'0'); return isFinite(b)?b:0; }
-    function setAmount(v){ amountEl.textContent = Number(v).toFixed(2); }
+    var BASE = 75.00;
     function age(){ var r=form.querySelector('input[name="age"]:checked'); return r?r.value:''; }
-    function elegible(){ return age()==='under' && (codeEl.value||'').trim().length>0; }
-    function compute(){ return elegible()?3.00:base(); }
+    function hasCode(){ return (code.value||'').trim().length>0; }
+    function eligible(){ return age()==='under' && hasCode(); }
+    function compute(){ return eligible()?3.00:BASE; }
+    function render(){ var a=compute(); shown.textContent=a.toFixed(2); }
 
-    function validar(){
-      var ok=true; msgEl.textContent='';
-      if(!age()){ ok=false; msgEl.textContent='Seleccione un grupo de edad.'; }
-      else if(age()==='under' && (codeEl.value||'').trim().length===0){ ok=false; msgEl.textContent='Ingrese el código de menor de 18.'; }
-      setAmount(compute());
-      return ok;
-    }
-
-    form.addEventListener('input', validar);
-    form.addEventListener('change', validar);
-    validar();
+    form.addEventListener('input', render);
+    form.addEventListener('change', render);
+    render();
 
     form.addEventListener('submit', function(e){
-      if(!validar()){ e.preventDefault(); return; }
-      if(!PAYPAL_BASE){ e.preventDefault(); alert('Agregue su enlace de PayPal en PAYPAL_BASE en es-checkout.html'); return; }
-      try{
-        var u=new URL(PAYPAL_BASE);
-        u.searchParams.set('amount', Number(compute()).toFixed(2));
-        u.searchParams.set('return', location.origin + '/es-thank-you.html');
-        u.searchParams.set('cancel_return', location.origin + '/es-checkout.html');
-        form.action=u.toString();
-      }catch(err){
-        form.action=PAYPAL_BASE;
-      }
+      msg.textContent='';
+      if(!age()){ e.preventDefault(); msg.textContent='Seleccione un grupo de edad.'; return; }
+      if(age()==='under' && !hasCode()){ e.preventDefault(); msg.textContent='Ingrese el código.'; return; }
+      ppAmount.value = compute().toFixed(2);
     });
   })();
   </script>
