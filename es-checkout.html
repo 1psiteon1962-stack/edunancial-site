@@ -2,82 +2,265 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pago — Edunancial</title>
-  <link rel="stylesheet" href="/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Estilos locales (independientes del CSS global) -->
+  <style>
+    :root{
+      --brand-red:#cc0000;
+      --text:#111;
+      --muted:#666;
+      --radius:14px;
+      --gap:16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color:var(--text);
+      background:#f7f7f8;
+    }
+
+    /* BARRA ROJA SUPERIOR */
+    .topbar{
+      position:sticky; top:0; z-index:1000;
+      background:var(--brand-red);
+      color:#000;
+      border-bottom:3px solid #990000;
+    }
+    .nav{
+      max-width:980px; margin:0 auto;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 16px;
+    }
+    .brand{font-weight:900; letter-spacing:.5px; font-size:22px}
+    .navlinks{display:flex; gap:18px; flex-wrap:wrap}
+    .navlinks a{
+      color:#000; text-decoration:none; font-weight:700;
+    }
+
+    /* CONMUTADOR DE IDIOMA (pastilla negra con texto blanco) */
+    .lang{display:flex; gap:8px; align-items:center}
+    .pill{
+      background:#000; color:#fff; border-radius:999px;
+      padding:8px 12px; font-weight:800; text-decoration:none;
+      display:inline-flex; align-items:center; justify-content:center;
+      min-width:44px;
+    }
+    .pill.secondary{opacity:.4}
+
+    .wrap{max-width:980px; margin:22px auto; padding:0 16px}
+    .card{
+      background:#fff; border-radius:var(--radius);
+      box-shadow:0 6px 18px rgba(0,0,0,.06);
+      padding:22px;
+    }
+
+    h1{margin:0 0 10px 0; font-size:34px; line-height:1.1}
+    .sku{color:var(--muted); font-weight:700; margin-bottom:14px}
+
+    fieldset{
+      border:1px solid #e6e6ea; border-radius:12px; padding:12px 14px; margin:0 0 var(--gap) 0;
+    }
+    legend{color:var(--muted); padding:0 6px; font-size:14px}
+
+    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+    .row input[type="radio"]{transform:scale(1.2)}
+
+    label{font-weight:600}
+    input[type="text"]{
+      width:100%; padding:12px 14px; border-radius:10px;
+      border:1px solid #d8d8de; font-size:16px;
+    }
+
+    .price{font-size:22px; font-weight:800; margin:8px 0 14px 0}
+    .btn{
+      appearance:none; border:0; border-radius:12px; cursor:pointer;
+      padding:14px 18px; font-weight:800; font-size:18px;
+      color:#fff; background:#0070e0; width:100%;
+      display:inline-flex; align-items:center; justify-content:center;
+    }
+    .btn:disabled{opacity:.5; cursor:not-allowed}
+
+    .hint{color:#888; font-size:13px; margin-top:10px}
+    .error{background:#fff3f3; color:#a40000; border:1px solid #f3caca; padding:10px 12px; border-radius:10px; margin:0 0 12px 0; display:none}
+    .ok{background:#eefbf0; color:#116b2d; border:1px solid #c9efd5; padding:10px 12px; border-radius:10px; margin:0 0 12px 0; display:none}
+
+    footer{color:#666; font-size:13px; padding:30px 16px; text-align:center}
+    footer a{color:#0070e0}
+  </style>
 </head>
+
 <body>
-  <div id="sitebar"></div>
-  <script src="/header.js"></script>
+  <!-- BARRA ROJA + CONMUTADOR EN/ES -->
+  <header class="topbar">
+    <div class="nav">
+      <div class="brand">EDUNANCIAL</div>
 
-  <main class="container">
-    <section class="card">
-      <h1>Pago</h1>
-      <p><strong>SKU:</strong> EDN-CRS-MIX-001</p>
+      <!-- Enlaces en español -->
+      <nav class="navlinks" aria-label="Principal">
+        <a href="es-index.html">Inicio</a>
+        <a href="es-books.html">Libros</a>
+        <a href="es-courses.html">Cursos</a>
+        <a href="es-payments.html">Pagos</a>
+        <a href="es-call-center.html">Centro de Llamadas</a>
+        <a href="es-vendor.html">Programa de Vendedores</a>
+        <a href="es-contact.html">Contacto</a>
+        <a href="es-privacy.html">Privacidad</a>
+        <a href="es-terms.html">Términos</a>
+        <a href="es-refunds.html">Reembolsos</a>
+        <a href="es-our-story.html">Nuestra Historia</a>
+      </nav>
 
-      <!-- ⚠️ PEGUE AQUÍ SU hosted_button_id de PayPal -->
-      <form id="paypalForm" class="stack" method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="PEGAR_HOSTED_BUTTON_ID_AQUÍ">
-        <input type="hidden" name="item_name" value="El Método Edunancial — Mini Curso (EDN-CRS-MIX-001)">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="return" value="https://edunancial.com/es-thank-you.html">
-        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-checkout.html">
-        <input type="hidden" name="amount" id="ppAmount" value="75.00">
+      <div class="lang">
+        <a class="pill secondary" href="checkout.html" aria-label="View in English">EN</a>
+        <span class="pill">ES</span>
+      </div>
+    </div>
+  </header>
 
-        <fieldset class="row">
-          <legend class="label">Grupo de edad</legend>
-          <label class="radio"><input type="radio" name="age" value="adult"> 18 o más</label>
-          <label class="radio"><input type="radio" name="age" value="under"> Menor de 18</label>
-        </fieldset>
+  <main class="wrap">
+    <div class="card" role="region" aria-labelledby="co-title">
+      <h1 id="co-title">Pago</h1>
+      <div class="sku">SKU: <span id="sku">EDN-CRS-MIX-001</span></div>
 
+      <div id="msgError" class="error"></div>
+      <div id="msgOk" class="ok"></div>
+
+      <!-- GRUPO DE EDAD -->
+      <fieldset>
+        <legend>Grupo de edad</legend>
         <div class="row">
-          <label for="code" class="label">Código de descuento / menor de 18</label>
-          <input id="code" name="code" type="text" class="input" placeholder="Escriba el código" autocomplete="off" />
+          <label><input type="radio" name="age" value="adult"> 18 o más</label>
+          <label><input type="radio" name="age" value="u18"> Menor de 18</label>
         </div>
+      </fieldset>
 
-        <p class="muted">Precio:</p>
-        <p class="price">$<span id="shownAmount">75.00</span></p>
+      <!-- CÓDIGO DE DESCUENTO / MENOR DE 18 -->
+      <fieldset>
+        <legend>Código de descuento / menor de 18</legend>
+        <input id="code" type="text" inputmode="latin" autocomplete="off" placeholder="Escriba el código" aria-describedby="codeHelp" />
+        <div id="codeHelp" class="hint">El precio solo cambia con un código válido para el grupo de edad seleccionado.</div>
+      </fieldset>
 
-        <button type="submit" class="btn btn-primary">Continuar a PayPal</button>
-        <p id="formMsg" class="tiny muted"></p>
+      <!-- PRECIO -->
+      <div class="price">Precio: <span id="priceText">$75.00</span></div>
 
-        <p class="tiny muted">
-          Al pagar acepta nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.
-        </p>
-      </form>
-    </section>
+      <!-- CTA -->
+      <button id="payBtn" class="btn" type="button">Continuar a PayPal</button>
+      <div class="hint">Al pagar acepta nuestros <a href="es-terms.html">Términos</a> y <a href="es-refunds.html">Reembolsos</a>.</div>
+    </div>
   </main>
 
-  <footer class="container tiny muted">© 2025 Edunancial, Inc.</footer>
+  <footer>© 2025 Edunancial, Inc.</footer>
 
+  <!-- Lógica: mismo comportamiento que en inglés -->
   <script>
-  (function(){
-    var form = document.getElementById('paypalForm');
-    var shown = document.getElementById('shownAmount');
-    var ppAmount = document.getElementById('ppAmount');
-    var msg = document.getElementById('formMsg');
-    var code = document.getElementById('code');
+    /*** 🔧 OBLIGATORIO: pegue aquí su enlace base de Pago de PayPal (Payment Link). ***/
+    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/PEGAR_AQUI_SU_LINK_ID"; // ← REEMPLACE ESTO
 
-    var BASE = 75.00;
-    function age(){ var r=form.querySelector('input[name="age"]:checked'); return r?r.value:''; }
-    function hasCode(){ return (code.value||'').trim().length>0; }
-    function eligible(){ return age()==='under' && hasCode(); }
-    function compute(){ return eligible()?3.00:BASE; }
-    function render(){ var a=compute(); shown.textContent=a.toFixed(2); }
+    /*** Precio base del producto (USD) ***/
+    const BASE_PRICE = 75.00;
 
-    form.addEventListener('input', render);
-    form.addEventListener('change', render);
-    render();
+    /**
+     * CÓDIGOS DE PRUEBA — Para producción, mueva estas validaciones al servidor
+     * (por ejemplo, una Netlify Function) para que no aparezcan en el código fuente.
+     */
+    const CODE_RULES = {
+      // Si es menor de 18 y el código coincide, precio final = $3.00
+      u18_to_3: new Set([
+        "PR12345$$$",
+        "PR23455$$$",
+        "PR34556$$$",
+        "PR2345$$$",
+        "PR12345$$"
+      ]),
+      // (Opcional) códigos para adultos que también bajan a $3.00:
+      adult_to_3: new Set([
+        "ADL3$$$",
+        "ADU123$$"
+      ])
+    };
 
-    form.addEventListener('submit', function(e){
-      msg.textContent='';
-      if(!age()){ e.preventDefault(); msg.textContent='Seleccione un grupo de edad.'; return; }
-      if(age()==='under' && !hasCode()){ e.preventDefault(); msg.textContent='Ingrese el código.'; return; }
-      ppAmount.value = compute().toFixed(2);
+    /* Referencias DOM */
+    const priceText = document.getElementById('priceText');
+    const payBtn    = document.getElementById('payBtn');
+    const msgErr    = document.getElementById('msgError');
+    const msgOk     = document.getElementById('msgOk');
+    const codeInp   = document.getElementById('code');
+
+    const fmt = n => `$${n.toFixed(2)}`;
+
+    function getAgeSelection() {
+      const el = document.querySelector('input[name="age"]:checked');
+      return el ? el.value : null; // 'adult' | 'u18' | null
+    }
+
+    function computePrice(age, code) {
+      if (age === 'u18' && CODE_RULES.u18_to_3.has(code)) return 3.00;
+      if (age === 'adult' && CODE_RULES.adult_to_3.has(code)) return 3.00;
+      return BASE_PRICE;
+    }
+
+    function validateBeforePay() {
+      msgErr.style.display = 'none';
+      msgOk.style.display  = 'none';
+
+      const age  = getAgeSelection();
+      const code = (codeInp.value || '').trim();
+
+      if (!age) {
+        msgErr.textContent = 'Seleccione un grupo de edad.';
+        msgErr.style.display = 'block';
+        return { ok:false };
+      }
+      if (!code) {
+        msgErr.textContent = 'Ingrese su código de descuento/menor de 18.';
+        msgErr.style.display = 'block';
+        return { ok:false };
+      }
+
+      const price = computePrice(age, code);
+      if (price === BASE_PRICE) {
+        msgErr.textContent = 'Ese código no es válido para el grupo de edad seleccionado.';
+        msgErr.style.display = 'block';
+        return { ok:false };
+      }
+
+      return { ok:true, price };
+    }
+
+    function maybePreviewPrice() {
+      const age  = getAgeSelection();
+      const code = (codeInp.value || '').trim();
+      const price = (age && code) ? computePrice(age, code) : BASE_PRICE;
+      priceText.textContent = fmt(price);
+    }
+
+    document.addEventListener('change', maybePreviewPrice);
+    document.addEventListener('keyup',  maybePreviewPrice);
+
+    payBtn.addEventListener('click', () => {
+      const res = validateBeforePay();
+      if (!res.ok) return;
+
+      if (!PAYPAL_BASE || PAYPAL_BASE.includes('PEGAR_AQUI_SU_LINK_ID')) {
+        alert('Agregue su enlace de Pago de PayPal (Payment Link) en la constante PAYPAL_BASE.');
+        return;
+      }
+      const amountParam = `amount=${encodeURIComponent(res.price.toFixed(2))}`;
+      const sep = PAYPAL_BASE.includes('?') ? '&' : '?';
+      const url = `${PAYPAL_BASE}${sep}${amountParam}`;
+
+      msgOk.textContent = `Redirigiendo a PayPal — ${fmt(res.price)}…`;
+      msgOk.style.display = 'block';
+
+      window.location.href = url;
     });
-  })();
+
+    // Inicio
+    priceText.textContent = fmt(BASE_PRICE);
   </script>
 </body>
 </html>
