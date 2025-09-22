@@ -1,71 +1,159 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Carrito — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/style.css?v=3" />
-  <link rel="stylesheet" href="/css-cart.css?v=3" />
-  <script defer src="/header.js?v=3"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=3" as="script">
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <!-- Clarity -->
+  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY-XXXX");</script>
+
+  <style>
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1000px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
+    input.qty{width:60px;text-align:center}
+    .right{text-align:right}
+    .muted{color:#666}
+    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px;margin:10px 0}
+    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px;margin:10px 0}
+  </style>
 </head>
 <body>
-<header class="site-header" data-nav="es"></header>
+  <script>
+    (function(){
+      const q=new URLSearchParams(location.search);
+      if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); history.replaceState(null,'',location.pathname); }
+      if(localStorage.getItem('edn_member')!=='true'){ location.href='/es-membership.html'; }
+      if(q.get('paid')==='1'){ localStorage.removeItem('edn_cart'); history.replaceState(null,'',location.pathname); }
+    })();
+  </script>
 
-<main class="container">
-  <h1>Carrito</h1>
+  <header class="site-header" data-nav="es"></header>
+  <script defer src="/header.js?v=3"></script>
 
-  <!-- We reuse the same JS logic; texts are localized here -->
-  <div id="cartCard" class="card">
-    <div id="cartEmpty" class="empty" hidden>
-      Tu carrito está vacío.
-      <div style="margin-top:10px">
-        <a class="btn secondary" href="/es-books.html">Ver libros</a>
-        <a class="btn secondary" href="/es-courses.html" style="margin-left:8px">Ver cursos</a>
-      </div>
-    </div>
+  <main class="container">
+    <h1>Tu Carrito</h1>
+    <div id="paidMsg" class="success" style="display:none">Pago recibido. ¡Gracias!</div>
 
-    <div id="cartWrap" hidden>
-      <table id="cartTable" aria-label="Carrito de compras">
-        <thead>
-          <tr><th>Artículo</th><th class="right">Precio</th><th class="right">Cant.</th><th class="right">Subtotal</th></tr>
-        </thead>
-        <tbody id="cartBody"></tbody>
-      </table>
-
-      <div class="row" style="margin-top:16px">
-        <div class="card" style="border:1px dashed #ddd">
-          <h3 style="margin-top:0">Código de Descuento / Menor de 18</h3>
-          <p class="muted">Ingresa el código exactamente (ignoramos espacios y mayúsculas).</p>
-          <div class="row">
-            <input id="discountCode" placeholder="PR12345$$$"/>
-            <button id="applyCodeBtn" type="button">Aplicar código</button>
-          </div>
-          <div id="codeState" class="muted" style="margin-top:8px"></div>
-        </div>
-
-        <div class="card">
-          <h3 style="margin-top:0">Correo del comprador</h3>
-          <p class="muted">Te enviaremos los accesos de Zoom y el recibo.</p>
-          <input id="buyerEmail" type="email" placeholder="tucorreo@ejemplo.com"/>
-        </div>
-      </div>
-
-      <div class="totals">
+    <section class="card">
+      <div class="row" style="justify-content:flex-start">
         <div>
-          <div class="right muted">Subtotal: <span id="itemTotal">$0.00</span></div>
-          <div class="right muted">Descuento: <span id="discountTotal">$0.00</span></div>
-          <div class="right" style="font-size:1.25rem;font-weight:700">Total: <span id="grandTotal">$0.00</span></div>
-          <div class="right" style="margin-top:10px">
-            <button id="clearBtn" class="secondary" type="button">Vaciar carrito</button>
-            <button id="checkoutBtn" type="button" style="margin-left:8px">Pagar con PayPal</button>
-          </div>
-          <div id="errorBox" class="err right" style="margin-top:8px"></div>
+          <label for="code"><b>Código de descuento / socio</b></label><br/>
+          <input id="code" type="text" placeholder="Ingresa el código">
+          <button id="apply" class="btn" type="button">Aplicar</button>
+          <button id="clear" class="btn-link" type="button">Quitar</button>
         </div>
+        <div id="codeMsg" class="muted"></div>
       </div>
-    </div>
-  </div>
-</main>
+    </section>
 
-<script src="/cart.html?v=3" defer></script>
+    <section class="card">
+      <table id="tbl">
+        <thead><tr><th>Artículo</th><th>SKU</th><th>Precio</th><th>Cant.</th><th class="right">Línea</th><th></th></tr></thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr><td colspan="4" class="right"><b>Subtotal</b></td><td class="right" id="subtotal">$0.00</td><td></td></tr>
+          <tr><td colspan="4" class="right"><b>Total</b></td><td class="right" id="total">$0.00</td><td></td></tr>
+        </tfoot>
+      </table>
+      <div class="row" style="margin-top:12px">
+        <button class="btn" id="checkoutBtn" type="button">Pagar con PayPal</button>
+        <span id="msg" class="muted"></span>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
+    const DISCOUNT_CODES={'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Tarifa de socio'},'UNDER18':{type:'perItemFlat',price:1.00,note:'Menores de 18'}};
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)];return r&&r.type==='perItemFlat'?r.price:p;};
+    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
+    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
+    const fmt=v=>'$'+(v||0).toFixed(2);
+
+    function render(){
+      const paid = new URLSearchParams(location.search).get('paid')==='1';
+      if(paid) document.getElementById('paidMsg').style.display='block';
+
+      const code=localStorage.getItem(DISC_KEY)||'';
+      document.getElementById('code').value=code;
+      const tbody=document.querySelector('#tbl tbody');
+      tbody.innerHTML='';
+      const cart=loadCart();
+
+      let subtotal=0;
+      cart.forEach((it,idx)=>{
+        const pEff=eff(+it.price,code);
+        const line=pEff*(it.qty||1);
+        subtotal+=line;
+
+        const tr=document.createElement('tr');
+        tr.innerHTML=`
+          <td>${it.name}</td>
+          <td>${it.sku}</td>
+          <td>${fmt(pEff)}</td>
+          <td><input class="qty" type="number" min="1" value="${it.qty||1}" data-i="${idx}"></td>
+          <td class="right">${fmt(line)}</td>
+          <td><button class="btn-link" data-r="${idx}">Quitar</button></td>`;
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('subtotal').textContent=fmt(subtotal);
+      document.getElementById('total').textContent=fmt(subtotal);
+
+      tbody.querySelectorAll('input.qty').forEach(inp=>{
+        inp.addEventListener('input',e=>{
+          const i=+e.target.getAttribute('data-i'); const c=loadCart();
+          c[i].qty=Math.max(1,parseInt(e.target.value||'1',10)); saveCart(c); render();
+        });
+      });
+      tbody.querySelectorAll('button[data-r]').forEach(btn=>{
+        btn.addEventListener('click',e=>{
+          const i=+e.target.getAttribute('data-r'); const c=loadCart();
+          c.splice(i,1); saveCart(c); render();
+        });
+      });
+
+      if(window.updateCartCount) window.updateCartCount();
+    }
+
+    async function checkout(){
+      const cart=loadCart();
+      if(!cart.length) return setMsg('Tu carrito está vacío.');
+      try{
+        setMsg('Creando orden…');
+        const code=localStorage.getItem(DISC_KEY)||'';
+        const res=await fetch('/.netlify/functions/create-order',{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({
+            items: cart.map(x=>({sku:x.sku,name:x.name,qty:x.qty,price:x.price})),
+            discountCode: code,
+            returnUrl: window.location.origin + '/es-cart.html?paid=1'
+          })
+        });
+        if(!res.ok) throw new Error('fallo en la orden');
+        const data=await res.json();
+        if(data && data.redirectUrl){ window.location.href=data.redirectUrl; }
+        else throw new Error('sin enlace de aprobación');
+      }catch(e){ console.error(e); setMsg('Ocurrió un error. Intenta de nuevo.', true); }
+    }
+    function setMsg(t,err=false){ const el=document.getElementById('msg'); el.textContent=t; el.className=err?'danger':'muted'; }
+
+    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
+    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
+    document.getElementById('checkoutBtn').addEventListener('click',checkout);
+    render();
+  </script>
 </body>
 </html>
