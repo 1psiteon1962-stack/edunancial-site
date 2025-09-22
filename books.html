@@ -1,278 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Books — Edunancial</title>
-<style>
-  :root{
-    --brand:#c40000; /* banner red */
-    --ink:#111;
-    --ink-soft:#444;
-    --card:#ffffff;
-    --muted:#f6f6f6;
-    --accent:#0a58ca;
-    --radius:14px;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fafafa}
-  /* Banner */
-  .banner{position:sticky;top:0;z-index:50;background:var(--brand);color:#fff;padding:14px 16px;box-shadow:0 2px 0 rgba(0,0,0,.1)}
-  .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-  .logo{font-weight:800;letter-spacing:.5px}
-  .links{display:flex;gap:14px;flex-wrap:wrap}
-  .links a{color:#fff;text-decoration:none;font-weight:700}
-  .spacer{flex:1}
-  .toggle{display:flex;gap:10px}
-  .pill{background:#000;color:#fff;border-radius:999px;padding:6px 12px;font-weight:800;border:2px solid #000}
-  .pill.outline{background:transparent;color:#000}
-  .pill:hover{opacity:.9}
-  /* Page */
-  .wrap{max-width:1100px;margin:28px auto;padding:0 16px}
-  h1{font-size:32px;margin:6px 0 18px}
-  .key{background:#ffe9e9;border-left:6px solid var(--brand);padding:10px 12px;border-radius:10px;margin-bottom:18px;color:#5a0000}
-  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
-  .col{grid-column:span 12;background:var(--card);border-radius:var(--radius);box-shadow:0 2px 6px rgba(0,0,0,.06);padding:14px}
-  @media(min-width:680px){ .col{grid-column:span 6} }
-  @media(min-width:980px){ .col{grid-column:span 4} }
-  .row{display:grid;grid-template-columns:auto 1fr;gap:14px}
-  .cover{width:120px;height:170px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.15);overflow:hidden;background:#eee}
-  h3{margin:2px 0 6px;font-size:20px}
-  .meta{color:var(--ink-soft);font-weight:600;margin:4px 0}
-  .price{font-weight:800;margin:6px 0 10px}
-  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:10px 14px;border-radius:10px;font-weight:800}
-  .tag{font-weight:800}
-  .muted{color:#666}
-  /* Inline SVG covers scale full */
-  .cover svg{width:100%;height:100%;display:block}
-  footer{opacity:.8;margin:28px 0;text-align:center;font-size:14px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Books — Edunancial</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    /* Page-local helpers (safe with your existing CSS) */
+    .container{max-width:980px;margin:1rem auto;padding:0 1rem}
+    .banner{background:#d40a0a;color:#111;padding:10px 0;position:sticky;top:0;z-index:1000}
+    .nav{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:.5px;margin-right:auto;padding-left:10px}
+    .nav a{color:#111;text-decoration:none;font-weight:700;font-size:.95rem}
+    .toggle{display:flex;gap:8px;margin-right:10px}
+    .chip{border-radius:999px;padding:6px 10px;font-weight:800;border:2px solid #111}
+    .chip.dark{background:#111;color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:16px 0}
+    .card{background:#fff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.07);padding:16px}
+    .cover{height:220px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;font-weight:800;padding:10px;line-height:1.1}
+    .cover.red{background:#cb2b2b}
+    .cover.white{background:#e9ecef;color:#111;border:2px solid #cbd5e1}
+    .cover.blue{background:#194b8f}
+    .meta{margin:10px 0 8px 0;font-size:.95rem}
+    .sku{font-family:monospace;font-size:.85rem;color:#444}
+    .price{font-weight:900}
+    .btn{display:inline-block;background:#0d6efd;color:#fff;border-radius:8px;padding:10px 12px;text-decoration:none;font-weight:800;margin-right:8px;margin-top:8px}
+    .legend{font-size:.92rem;opacity:.9;margin:4px 0 14px}
+    .tag{font-weight:800}
+    .foot{font-size:.9rem;opacity:.8;margin-top:24px}
+    .formats{margin-top:6px}
+    .formats .btn{background:#2563eb}
+    .formats .btn:focus,.btn:hover{filter:brightness(.96)}
+  </style>
 </head>
 <body>
-  <!-- RED BANNER -->
+  <!-- RED BANNER WITH NAV + LANGUAGE TOGGLE -->
   <header class="banner">
-    <nav class="nav">
-      <div class="logo">EDUNANCIAL</div>
-      <div class="links">
-        <a href="index.html">Home</a>
-        <a href="books.html">Books</a>
-        <a href="courses.html">Courses</a>
-        <a href="payments.html">Payments</a>
-        <a href="call-center.html">Call Center</a>
-        <a href="vendor.html">Vendor Program</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="refunds.html">Refunds</a>
-        <a href="our-story.html">Our Story</a>
+    <div class="container nav">
+      <div class="brand">EDUNANCIAL</div>
+      <nav class="nav" aria-label="Primary">
+        <a href="/index.html">Home</a>
+        <a href="/books.html" aria-current="page">Books</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/payments.html">Payments</a>
+        <a href="/call-center.html">Call Center</a>
+        <a href="/vendor-program.html">Vendor Program</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/refunds.html">Refunds</a>
+        <a href="/our-story.html">Our Story</a>
+      </nav>
+      <div class="toggle" role="group" aria-label="Language toggle">
+        <span class="chip dark">EN</span>
+        <a class="chip" href="/es-books.html" lang="es" aria-label="Ver en Español">ES</a>
       </div>
-      <div class="spacer"></div>
-      <div class="toggle">
-        <a class="pill outline" href="books.html">EN</a>
-        <a class="pill" href="es-books.html">ES</a>
-      </div>
-    </nav>
+    </div>
   </header>
 
-  <main class="wrap">
+  <main class="container">
     <h1>Books</h1>
-    <div class="key"><strong>Color code:</strong> <span class="tag" style="color:#c40000">Red</span> = Real Estate • <span class="tag" style="color:#111">White</span> = Paper Assets • <span class="tag" style="color:#0046b8">Blue</span> = Business</div>
+    <p class="legend">
+      <span class="tag">Red</span> = Real Estate &nbsp;•&nbsp;
+      <span class="tag">White</span> = Paper Assets &nbsp;•&nbsp;
+      <span class="tag">Blue</span> = Business
+    </p>
 
-    <section class="grid">
+    <section class="grid" aria-label="Book list">
 
-      <!-- 1 RED -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <!-- Red cover -->
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#c40000"/>
-              <text x="150" y="80" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">REAL ESTATE</text>
-              <text x="150" y="160" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">BUYING &</text>
-              <text x="150" y="195" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">FLIPPING</text>
-              <text x="150" y="230" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">HOUSES</text>
-              <text x="150" y="320" text-anchor="middle" font-size="18" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag" style="color:#c40000">Red • Real Estate</span></div>
-            <h3>Buying and Flipping Houses for Profit</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-RE-001</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-RE-001">Buy with PayPal</a>
-          </div>
+      <!-- 1 -->
+      <article class="card">
+        <div class="cover red">Buying and Flipping Houses<br/>for Profit</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-RE-001</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE001_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE001_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE001_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 2 WHITE -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <!-- White cover -->
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#ffffff"/>
-              <rect y="360" width="300" height="60" fill="#111"/>
-              <text x="150" y="80" text-anchor="middle" font-size="24" font-weight="800" fill="#111">PAPER ASSETS</text>
-              <text x="150" y="150" text-anchor="middle" font-size="22" font-weight="800" fill="#111">OPTIONS</text>
-              <text x="150" y="180" text-anchor="middle" font-size="22" font-weight="800" fill="#111">TRADING</text>
-              <text x="150" y="395" text-anchor="middle" font-size="16" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag">White • Paper Assets</span></div>
-            <h3>Options Trading: Your Guide to Puts, Calls & Smart Strategy</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-PA-001</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-PA-001">Buy with PayPal</a>
-          </div>
+      <!-- 2 -->
+      <article class="card">
+        <div class="cover red">Tax Liens &amp; Deeds:<br/>From Basics to First Purchase</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-RE-002</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE002_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE002_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_RE002_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 3 BLUE -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <!-- Blue cover -->
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#0046b8"/>
-              <text x="150" y="160" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">BUSINESS IS</text>
-              <text x="150" y="195" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">ABOUT MAKING</text>
-              <text x="150" y="230" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">PROFIT</text>
-              <text x="150" y="320" text-anchor="middle" font-size="18" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag" style="color:#0046b8">Blue • Business</span></div>
-            <h3>Business is About Making Profit</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-BO-001</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-BO-001">Buy with PayPal</a>
-          </div>
+      <!-- 3 -->
+      <article class="card">
+        <div class="cover white" style="color:#111">Options Trading:<br/>Your Guide to Puts, Calls &amp; Smart Strategy</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-PA-001</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA001_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA001_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA001_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 4 RED -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#c40000"/>
-              <text x="150" y="90" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">TAX LIENS</text>
-              <text x="150" y="125" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">& DEEDS</text>
-              <text x="150" y="320" text-anchor="middle" font-size="18" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag" style="color:#c40000">Red • Real Estate</span></div>
-            <h3>Tax Liens & Deeds — A Practical Start</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-RE-002</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-RE-002">Buy with PayPal</a>
-          </div>
+      <!-- 4 -->
+      <article class="card">
+        <div class="cover white" style="color:#111">Smart Stock Selection<br/>for Teens &amp; Parents</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-PA-002</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA002_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA002_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_PA002_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 5 WHITE -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#ffffff"/>
-              <rect y="360" width="300" height="60" fill="#111"/>
-              <text x="150" y="90" text-anchor="middle" font-size="22" font-weight="800" fill="#111">STOCK SELECTION</text>
-              <text x="150" y="120" text-anchor="middle" font-size="20" font-weight="800" fill="#111">FOR TEENS</text>
-              <text x="150" y="150" text-anchor="middle" font-size="20" font-weight="800" fill="#111">& PARENTS</text>
-              <text x="150" y="395" text-anchor="middle" font-size="16" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag">White • Paper Assets</span></div>
-            <h3>Stock Selection for Teens & Parents</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-PA-002</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-PA-002">Buy with PayPal</a>
-          </div>
+      <!-- 5 -->
+      <article class="card">
+        <div class="cover blue">Business is About<br/>Making Profit</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-BO-001</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO001_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO001_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO001_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 6 BLUE -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#0046b8"/>
-              <text x="150" y="120" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">START YOUR</text>
-              <text x="150" y="155" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">LLC IN A</text>
-              <text x="150" y="190" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">WEEKEND</text>
-              <text x="150" y="320" text-anchor="middle" font-size="18" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag" style="color:#0046b8">Blue • Business</span></div>
-            <h3>Start Your LLC in a Weekend</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-BO-002</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-BO-002">Buy with PayPal</a>
-          </div>
+      <!-- 6 -->
+      <article class="card">
+        <div class="cover blue">Forming Your First LLC<br/>the Right Way</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-BO-002</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO002_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO002_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_BO002_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 7 RED -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#c40000"/>
-              <text x="150" y="110" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">WHOLESALING</text>
-              <text x="150" y="145" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">STARTER</text>
-              <text x="150" y="320" text-anchor="middle" font-size="18" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag" style="color:#c40000">Red • Real Estate</span></div>
-            <h3>Wholesaling Starter — From Lead to Assignment</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-RE-003</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-RE-003">Buy with PayPal</a>
-          </div>
+      <!-- 7 -->
+      <article class="card">
+        <div class="cover white" style="color:#111">The Edunancial Method — Handbook</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-GN-001</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN001_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN001_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN001_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
-      <!-- 8 WHITE -->
-      <article class="col">
-        <div class="row">
-          <div class="cover">
-            <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="420" fill="#ffffff"/>
-              <rect y="360" width="300" height="60" fill="#111"/>
-              <text x="150" y="100" text-anchor="middle" font-size="22" font-weight="800" fill="#111">BONDS & T-BILLS</text>
-              <text x="150" y="130" text-anchor="middle" font-size="20" font-weight="800" fill="#111">FOR BUSY</text>
-              <text x="150" y="160" text-anchor="middle" font-size="20" font-weight="800" fill="#111">PARENTS</text>
-              <text x="150" y="395" text-anchor="middle" font-size="16" fill="#fff">Waldemar M. Caban, JD MA</text>
-            </svg>
-          </div>
-          <div>
-            <div class="meta"><span class="tag">White • Paper Assets</span></div>
-            <h3>Bonds & T-Bills for Busy Parents</h3>
-            <div class="muted">Author: Waldemar M. Caban, JD MA</div>
-            <div class="muted">SKU: EDN-BK-PA-003</div>
-            <div class="price">Print: $18.99</div>
-            <a class="btn" href="https://www.paypal.com/ncp/payment/8RU4TQHFW88S8?amount=18.99&item=EDN-BK-PA-003">Buy with PayPal</a>
-          </div>
+      <!-- 8 -->
+      <article class="card">
+        <div class="cover red">Family Finance:<br/>Habits, ROI &amp; Growth</div>
+        <div class="meta"><strong>Author:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
+        <div class="sku"><strong>SKU:</strong> EDN-BK-GN-002</div>
+        <div class="formats">
+          <div><strong>Print:</strong> <span class="price">$18.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN002_PRINT">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN002_EBOOK">Buy with PayPal</a>
+        </div>
+        <div class="formats">
+          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
+          <a class="btn" href="PAYPAL_LINK_GN002_AUDIO">Buy with PayPal</a>
         </div>
       </article>
 
     </section>
 
-    <p class="muted" style="margin-top:18px">eBook & audio to follow.</p>
-    <footer>© 2025 Edunancial, Inc.</footer>
+    <p class="foot">eBook & audio may release after print.</p>
   </main>
 </body>
 </html>
