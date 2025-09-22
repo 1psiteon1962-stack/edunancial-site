@@ -1,25 +1,49 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Courses — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-</head><body>
-<div id="sitebar"></div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Courses — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css-cart.css" />
+  <script src="/header.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/index.html">EDUNANCIAL</a>
+    <nav>
+      <a href="/books.html">Books</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/cart.html">Cart (<span id="cart-badge">0</span>)</a>
+      <a href="/es-courses.html" style="margin-left:18px">ES</a>
+    </nav>
+  </header>
 
-<main class="container">
-  <h1>Courses</h1>
+  <main class="container">
+    <h1>Courses</h1>
 
-  <section class="card">
-    <h2>The Edunancial Method — Mini Course</h2>
-    <p><strong>SKU:</strong> EDN-CRS-MIX-001 • <strong>$75.00</strong></p>
-    <a class="btn" href="/checkout.html?sku=EDN-CRS-MIX-001&price=75.00">Continue to Checkout</a>
-  </section>
+    <section class="card">
+      <h2>The Edunancial Method — Mini Course</h2>
+      <p class="small"><strong>SKU:</strong> EDN-CRS-MIX-001 • $75.00</p>
+      <button class="btn"
+        data-add-to-cart
+        data-id="EDN-CRS-MIX-001"
+        data-name="The Edunancial Method — Mini Course"
+        data-price="75.00">Add to Cart</button>
+    </section>
 
-  <section class="card">
-    <h2>In-Depth Business Formation</h2>
-    <p><strong>SKU:</strong> EDN-CRS-BO-001 • <strong>$199.00</strong></p>
-    <a class="btn" href="/checkout.html?sku=EDN-CRS-BO-001&price=199.00">Continue to Checkout</a>
-  </section>
-</main>
+    <section class="card">
+      <h2>In-Depth Business Formation</h2>
+      <p class="small"><strong>SKU:</strong> EDN-CRS-BO-001 • $199.00</p>
+      <button class="btn"
+        data-add-to-cart
+        data-id="EDN-CRS-BO-001"
+        data-name="In-Depth Business Formation"
+        data-price="199.00">Add to Cart</button>
+    </section>
 
-<script src="/header.js"></script>
-</body></html>
+    <div class="card">
+      <a class="btn" href="/cart.html">Go to Cart</a>
+    </div>
+  </main>
+</body>
+</html>
