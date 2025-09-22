@@ -1,79 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pago — Edunancial</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .section { margin-bottom: 20px; }
-    label { margin-right: 10px; }
-    input[type="text"] { width: 250px; padding: 5px; }
-    #price { font-weight: bold; margin-top: 10px; }
-    button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pago — Edunancial</title>
+<style>
+  :root{--brand:#c40000;--ink:#111;--muted:#666;--card:#fff;--accent:#0a58ca;--radius:14px}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:#fafafa}
+  .banner{position:sticky;top:0;z-index:50;background:var(--brand);color:#fff;padding:14px 16px;box-shadow:0 2px 0 rgba(0,0,0,.1)}
+  .nav{max-width:900px;margin:0 auto;display:flex;gap:16px;align-items:center}
+  .logo{font-weight:800;letter-spacing:.5px}
+  .spacer{flex:1}
+  .toggle{display:flex;gap:10px}
+  .pill{background:#000;color:#fff;border:2px solid #000;border-radius:999px;padding:6px 12px;font-weight:800;text-decoration:none}
+  .pill.outline{background:transparent;color:#000}
+  .wrap{max-width:900px;margin:28px auto;padding:0 16px}
+  .card{background:var(--card);border-radius:var(--radius);box-shadow:0 2px 8px rgba(0,0,0,.08);padding:20px}
+  h1{margin:0 0 14px}
+  fieldset{border:2px solid #eee;border-radius:12px;padding:12px;margin:0 0 14px}
+  legend{padding:0 6px}
+  label{display:inline-flex;align-items:center;gap:8px;margin-right:16px}
+  input[type="text"]{width:100%;padding:10px 12px;border:2px solid #ddd;border-radius:10px;font-size:16px}
+  .row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+  .price{font-weight:800}
+  .muted{color:var(--muted)}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800;border:0}
+  .btn[aria-disabled="true"]{opacity:.6;pointer-events:none}
+  .note{background:#fff4f4;border-left:6px solid var(--brand);padding:10px;border-radius:8px;margin:12px 0}
+</style>
 </head>
 <body>
-  <h2>Pago</h2>
-  <form id="checkout-form">
-    <div class="section">
-      <p>Seleccione su grupo de edad:</p>
-      <label><input type="radio" id="age18" name="age" value="18+"> 18 años o más</label>
-      <label><input type="radio" id="ageU18" name="age" value="u18"> Menor de 18</label>
+<header class="banner">
+  <nav class="nav">
+    <div class="logo">EDUNANCIAL</div>
+    <div class="spacer"></div>
+    <div class="toggle">
+      <a class="pill" href="checkout.html">EN</a>
+      <a class="pill outline" href="es-checkout.html">ES</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <h1>Pago</h1>
+    <div class="muted" style="margin-bottom:8px">SKU: <strong>EDN-CRS-MIX-001</strong></div>
+
+    <fieldset>
+      <legend>Selecciona tu grupo de edad:</legend>
+      <label><input type="radio" name="age" value="ADULT"> 18 años o más</label>
+      <label><input type="radio" name="age" value="UNDER18"> Menor de 18</label>
+    </fieldset>
+
+    <div class="note">Escribe tu código exactamente. Ignoramos mayúsculas y espacios. Ejemplo: <b>PR12345$$$</b></div>
+
+    <label for="code">Código de Descuento / Menor de 18:</label>
+    <input id="code" type="text" inputmode="latin" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Ingresa el código" />
+
+    <div class="row" style="margin-top:14px">
+      <div>
+        <div class="muted">Precio:</div>
+        <div id="price" class="price">$75.00</div>
+      </div>
+      <a id="pay" class="btn" href="#" aria-disabled="true">Continuar con PayPal</a>
     </div>
 
-    <div class="section">
-      <p>Código de Descuento / Menor de 18:</p>
-      <input id="code" type="text" placeholder="Ingrese su código">
-    </div>
+    <p class="muted" style="margin-top:16px">Al pagar aceptas nuestros <a href="es-terms.html">Términos</a> y <a href="es-refunds.html">Reembolsos</a>.</p>
+  </div>
 
-    <div id="price" class="section">$75.00</div>
+  <p class="muted" style="text-align:center;margin-top:18px">© 2025 Edunancial, Inc.</p>
+</main>
 
-    <button id="payBtn" type="button">Continuar a PayPal</button>
-  </form>
+<script>
+(() => {
+  const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
+  const BASE_PRICE = 75.00;
+  const VALID_CODES = {
+    ADULT:   new Set(["PR12345$$$"]),
+    UNDER18: new Set(["PR12345$$$"])
+  };
 
-  <script>
-  (() => {
-    const PAYPAL_BASE = "https://www.paypal.com/ncp/payment/8RU4TQHFW88S8";
-    const BASE_PRICE = 75.00;
-    const DISCOUNT_PRICE = 3.00;
-    const ACCEPTED_CODES = new Set(["PR12345$$$", "PR2345$$$"]);
+  const priceEl = document.getElementById("price");
+  const codeInput = document.getElementById("code");
+  const payBtn = document.getElementById("pay");
 
-    const priceEl = document.getElementById("price");
-    const codeEl = document.getElementById("code");
-    const age18El = document.getElementById("age18");
-    const ageU18El = document.getElementById("ageU18");
-    const payBtn = document.getElementById("payBtn");
+  function normalized(v){return (v||"").toString().toUpperCase().replace(/\s+/g,"");}
+  function currentAge(){const p=document.querySelector('input[name="age"]:checked');return p?p.value:null;}
 
-    const format = (n) => n.toLocaleString("es-ES",{style:"currency",currency:"USD"});
-    const amountParam = (n) => `amount=${encodeURIComponent(n.toFixed(2))}`;
+  function compute(){
+    let amount = BASE_PRICE;
+    const age = currentAge();
+    const code = normalized(codeInput.value);
+    if(!age || !code) return {ok:false,amount};
+    if(VALID_CODES[age] && VALID_CODES[age].has(code)){ amount = 3.00; return {ok:true,amount}; }
+    return {ok:false,amount};
+  }
 
-    function currentAmount() {
-      const pickedAge = age18El.checked || ageU18El.checked;
-      const code = (codeEl.value || "").trim();
-      if (!pickedAge || !code) return BASE_PRICE;
-      if (ACCEPTED_CODES.has(code)) return DISCOUNT_PRICE;
-      return BASE_PRICE;
+  function render(){
+    const r = compute();
+    priceEl.textContent = `$${r.amount.toFixed(2)}`;
+    if(r.ok){
+      payBtn.setAttribute("aria-disabled","false");
+      const url = new URL(PAYPAL_BASE);
+      url.searchParams.set("amount", r.amount.toFixed(2));
+      url.searchParams.set("item","EDN-CRS-MIX-001");
+      payBtn.href = url.toString();
+    }else{
+      payBtn.setAttribute("aria-disabled","true");
+      payBtn.href = "#";
     }
+  }
 
-    function renderPrice() { priceEl.textContent = format(currentAmount()); }
-    [age18El, ageU18El, codeEl].forEach(el => {
-      el && el.addEventListener("change", renderPrice);
-      el && el.addEventListener("input", renderPrice);
-    });
-    renderPrice();
+  document.addEventListener("change", render);
+  document.addEventListener("keyup", render);
+  payBtn.addEventListener("click", (e)=>{
+    const r = compute();
+    if(!r.ok){ e.preventDefault(); alert("Código no reconocido. Selecciona tu grupo de edad y escribe el código correcto (sin espacios)."); }
+  });
 
-    payBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      const pickedAge = age18El.checked || ageU18El.checked;
-      const code = (codeEl.value || "").trim();
-      if (!pickedAge) { alert("Por favor seleccione un grupo de edad."); return; }
-      if (!code) { alert("Por favor ingrese su código."); return; }
-      if (!ACCEPTED_CODES.has(code)) { alert("Código no reconocido."); return; }
-      const amt = currentAmount();
-      window.location.href = `${PAYPAL_BASE}?${amountParam(amt)}`;
-    });
-  })();
-  </script>
+  render();
+})();
+</script>
 </body>
 </html>
