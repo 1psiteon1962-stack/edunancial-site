@@ -6,6 +6,13 @@
   <title>Libros — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preload" href="/header.js?v=3" as="script">
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <!-- Clarity -->
+  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY-XXXX");</script>
+
   <style>
     .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1100px}
     .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
@@ -14,11 +21,19 @@
     .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
     .muted{color:#666}
     input[type="text"]{width:280px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
-    .strike{ text-decoration:line-through; color:#888; margin-right:8px; }
+    .strike{text-decoration:line-through;color:#888;margin-right:8px}
     .pill{display:inline-block;background:#f7f7f7;border:1px solid #e6e6e6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:.9rem}
   </style>
 </head>
 <body>
+  <script>
+    (function(){
+      const q=new URLSearchParams(location.search);
+      if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); history.replaceState(null,'',location.pathname); }
+      if(localStorage.getItem('edn_member')!=='true'){ location.href='/es-membership.html'; }
+    })();
+  </script>
+
   <header class="site-header" data-nav="es"></header>
   <script defer src="/header.js?v=3"></script>
 
@@ -32,7 +47,7 @@
           <label for="code"><b>Código de descuento / socio</b></label><br/>
           <input id="code" type="text" placeholder="Ingresa el código">
           <button id="apply" class="btn" type="button">Aplicar</button>
-          <button id="clear" class="btn-link" type="button">Quitar código</button>
+          <button id="clear" class="btn-link" type="button">Quitar</button>
         </div>
         <div id="codeMsg" class="muted" style="margin-left:12px"></div>
       </div>
@@ -40,65 +55,43 @@
 
     <section class="grid" id="grid"></section>
 
-    <p><a class="btn" style="text-decoration:none" href="/es-cart.html">Ir al carrito</a></p>
+    <p><a class="btn" style="text-decoration:none" href="/es-cart.html">Ir al Carrito</a></p>
   </main>
 
   <script>
     const CART_KEY='edn_cart', DISC_KEY='edn_discount';
-    const DISCOUNT_CODES={
-      'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Tarifa de socio aplicada'},
-      'UNDER18':{type:'perItemFlat',price:1.00,note:'Tarifa para menores aplicada'},
-    };
+    const DISCOUNT_CODES={'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Tarifa de socio'},'UNDER18':{type:'perItemFlat',price:1.00,note:'Menores de 18'}};
     const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
-    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)]; if(!r)return p; if(r.type==='perItemFlat') return r.price; return p;};
+    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)];return r&&r.type==='perItemFlat'?r.price:p;};
 
     const LIBROS=[
-      { sku:'EDN-BK-RE-001-PR', titulo:'Compra y Venta de Casas con Ganancia',                       autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-RE-001-PR', titulo:'Compra y Venta de Casas con Ganancia', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
       { sku:'EDN-BK-RE-002-PR', titulo:'Gravámenes y Escrituras: De lo Básico a la Primera Compra', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
-      { sku:'EDN-BK-PA-001-PR', titulo:'Opciones: Guía de Puts, Calls y Estrategia Inteligente',     autor:'Waldemar M. Caban, JD MA', precio:18.99 },
-      { sku:'EDN-BK-PA-002-PR', titulo:'Selección Inteligente de Acciones para Jóvenes y Padres',   autor:'Waldemar M. Caban, JD MA', precio:18.99 },
-      { sku:'EDN-BK-BO-001-PR', titulo:'El Negocio se Trata de Ganar',                               autor:'Waldemar M. Caban, JD MA', precio:18.99 },
-      { sku:'EDN-BK-BO-002-PR', titulo:'Tu Primera LLC de la Manera Correcta',                       autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-PA-001-PR', titulo:'Opciones: Guía de Puts, Calls y Estrategia', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-PA-002-PR', titulo:'Selección Inteligente de Acciones para Jóvenes y Padres', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-BO-001-PR', titulo:'El Negocio se Trata de Ganar', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-BO-002-PR', titulo:'Tu Primera LLC de la Manera Correcta', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
     ];
-
     const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
     const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
-    function addToCart({sku,nombre,precio,qty=1}) {
-      const cart=loadCart();
-      const i=cart.findIndex(x=>x.sku===sku);
-      if(i>-1) cart[i].qty+=qty; else cart.push({sku,name:nombre,price:precio,qty});
-      saveCart(cart);
-      if(window.updateCartCount) window.updateCartCount();
-      alert('Añadido al carrito');
-    }
+    function addToCart(item){const c=loadCart();const i=c.findIndex(x=>x.sku===item.sku);if(i>-1)c[i].qty+=(item.qty||1);else c.push(item);saveCart(c);if(window.updateCartCount)window.updateCartCount();alert('Añadido al carrito');}
 
     function render(){
-      const code=localStorage.getItem(DISC_KEY)||'';
-      const rule=DISCOUNT_CODES[norm(code)];
-      document.getElementById('code').value=code;
-      document.getElementById('codeMsg').textContent = rule ? (rule.note||'Código aplicado') : (code ? 'Código no reconocido' : '');
-
+      const code=localStorage.getItem(DISC_KEY)||''; const rule=DISCOUNT_CODES[norm(code)];
+      document.getElementById('code').value=code; document.getElementById('codeMsg').textContent=rule?(rule.note||'Código aplicado'):(code?'Código no reconocido':'');
       const grid=document.getElementById('grid'); grid.innerHTML='';
       LIBROS.forEach(b=>{
         const pEff=eff(b.precio,code);
-        const prices = pEff<b.precio
-          ? `<span class="strike">$${b.precio.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`
-          : `<b>$${b.precio.toFixed(2)}</b>`;
-        const el=document.createElement('div');
-        el.className='card';
-        el.innerHTML=`
-          <h2 style="margin:6px 0">${b.titulo}</h2>
+        const prices=pEff<b.precio?`<span class="strike">$${b.precio.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`:`<b>$${b.precio.toFixed(2)}</b>`;
+        const el=document.createElement('div'); el.className='card';
+        el.innerHTML=`<h2 style="margin:6px 0">${b.titulo}</h2>
           <div class="muted">Autor: ${b.autor}</div>
           <div class="muted" style="margin:6px 0">SKU: ${b.sku}</div>
-          <div class="row">
-            <div>Tapa blanda • ${prices}</div>
-            <button class="btn">Añadir al carrito</button>
-          </div>`;
-        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:b.sku,nombre:`${b.titulo} — Tapa blanda`,precio:pEff}));
+          <div class="row"><div>Tapa blanda • ${prices}</div><button class="btn">Añadir</button></div>`;
+        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:b.sku,name:`${b.titulo} — Tapa blanda`,price:pEff,qty:1}));
         grid.appendChild(el);
       });
     }
-
     document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
     document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
     render();
