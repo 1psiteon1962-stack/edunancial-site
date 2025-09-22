@@ -1,105 +1,71 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Carrito — Edunancial</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/css-cart.css">
-  <script src="/header.js" defer></script>
-  <script src="https://www.paypal.com/sdk/js?components=buttons&currency=USD"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css?v=3" />
+  <link rel="stylesheet" href="/css-cart.css?v=3" />
+  <script defer src="/header.js?v=3"></script>
 </head>
 <body>
-<header class="site-header">
-  <a class="logo" href="/es-index.html">EDUNANCIAL</a>
-  <nav>
-    <a href="/es-books.html">Libros</a>
-    <a href="/es-courses.html">Cursos</a>
-    <a href="/es-cart.html">Carrito (<span id="cart-badge">0</span>)</a>
-  </nav>
-</header>
+<header class="site-header" data-nav="es"></header>
 
 <main class="container">
-  <h1>Carrito de compras</h1>
+  <h1>Carrito</h1>
 
-  <div id="cart-empty" class="card" style="display:none">
-    Tu carrito está vacío. <a href="/es-books.html">Ver libros</a> o <a href="/es-courses.html">cursos</a>.
-  </div>
+  <!-- We reuse the same JS logic; texts are localized here -->
+  <div id="cartCard" class="card">
+    <div id="cartEmpty" class="empty" hidden>
+      Tu carrito está vacío.
+      <div style="margin-top:10px">
+        <a class="btn secondary" href="/es-books.html">Ver libros</a>
+        <a class="btn secondary" href="/es-courses.html" style="margin-left:8px">Ver cursos</a>
+      </div>
+    </div>
 
-  <div id="cart-table" class="card" style="display:none">
-    <table>
-      <thead><tr><th>Artículo</th><th>Precio</th><th>Cant.</th><th>Subtotal</th><th></th></tr></thead>
-      <tbody id="cart-rows"></tbody>
-    </table>
-    <div class="totals"><div><strong>Total:</strong> $<span id="cart-total">0.00</span> USD</div></div>
-  </div>
+    <div id="cartWrap" hidden>
+      <table id="cartTable" aria-label="Carrito de compras">
+        <thead>
+          <tr><th>Artículo</th><th class="right">Precio</th><th class="right">Cant.</th><th class="right">Subtotal</th></tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+      </table>
 
-  <form id="buyer-form" class="card" style="display:none">
-    <h3>Datos del comprador</h3>
-    <label>Correo electrónico (recibo/Zoom):<br>
-      <input type="email" id="buyer-email" required placeholder="tú@ejemplo.com"></label><br><br>
-    <label>Código de descuento / Menor de 18 (opcional):<br>
-      <input type="text" id="discount" placeholder="PR12345$$$"></label>
-    <p class="small">Los códigos se validan en el servidor; el total final aparece en PayPal.</p>
-  </form>
+      <div class="row" style="margin-top:16px">
+        <div class="card" style="border:1px dashed #ddd">
+          <h3 style="margin-top:0">Código de Descuento / Menor de 18</h3>
+          <p class="muted">Ingresa el código exactamente (ignoramos espacios y mayúsculas).</p>
+          <div class="row">
+            <input id="discountCode" placeholder="PR12345$$$"/>
+            <button id="applyCodeBtn" type="button">Aplicar código</button>
+          </div>
+          <div id="codeState" class="muted" style="margin-top:8px"></div>
+        </div>
 
-  <div id="pay-card" class="card" style="display:none">
-    <div id="paypal-button-container"></div>
-    <p class="small">Al pagar aceptas nuestros <a href="/es-terms.html">Términos</a> y <a href="/es-refunds.html">Reembolsos</a>.</p>
+        <div class="card">
+          <h3 style="margin-top:0">Correo del comprador</h3>
+          <p class="muted">Te enviaremos los accesos de Zoom y el recibo.</p>
+          <input id="buyerEmail" type="email" placeholder="tucorreo@ejemplo.com"/>
+        </div>
+      </div>
+
+      <div class="totals">
+        <div>
+          <div class="right muted">Subtotal: <span id="itemTotal">$0.00</span></div>
+          <div class="right muted">Descuento: <span id="discountTotal">$0.00</span></div>
+          <div class="right" style="font-size:1.25rem;font-weight:700">Total: <span id="grandTotal">$0.00</span></div>
+          <div class="right" style="margin-top:10px">
+            <button id="clearBtn" class="secondary" type="button">Vaciar carrito</button>
+            <button id="checkoutBtn" type="button" style="margin-left:8px">Pagar con PayPal</button>
+          </div>
+          <div id="errorBox" class="err right" style="margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 
-<script>
-/* minimal helpers from header.js reused inline for ES render */
-function setQty(id,v,q){ const c=JSON.parse(localStorage.getItem("edn_cart_v1")||'{"items":[]}'); const i=c.items.findIndex(x=>x.id===id&&(x.variant||"default")===(v||"default")); if(i>-1){ c.items[i].quantity=Math.max(1,q|0); localStorage.setItem("edn_cart_v1",JSON.stringify(c)); } }
-function removeItem(id,v){ const c=JSON.parse(localStorage.getItem("edn_cart_v1")||'{"items":[]}'); c.items=c.items.filter(x=>!(x.id===id&&(x.variant||"default")===(v||"default"))); localStorage.setItem("edn_cart_v1",JSON.stringify(c)); }
-function clearCart(){ localStorage.setItem("edn_cart_v1",'{"items":[]}'); }
-function readCart(){ try{return JSON.parse(localStorage.getItem("edn_cart_v1"))||{items:[]};}catch{return{items:[]};} }
-function updateCartBadge(){ const el=document.getElementById("cart-badge"); if(!el)return; const n=readCart().items.reduce((a,i)=>a+i.quantity,0); el.textContent=n; } document.addEventListener("DOMContentLoaded",updateCartBadge);
-
-const tbody=document.getElementById('cart-rows'), totalEl=document.getElementById('cart-total');
-const emptyEl=document.getElementById('cart-empty'), tableEl=document.getElementById('cart-table');
-const buyerEl=document.getElementById('buyer-form'), payEl=document.getElementById('pay-card');
-function fmt(n){return (Math.round(n*100)/100).toFixed(2)}
-function renderCart(){
-  const c=readCart(); tbody.innerHTML="";
-  if(!c.items.length){ emptyEl.style.display=""; tableEl.style.display="none"; buyerEl.style.display="none"; payEl.style.display="none"; updateCartBadge(); return; }
-  emptyEl.style.display="none"; tableEl.style.display=""; buyerEl.style.display=""; payEl.style.display="";
-  let total=0;
-  c.items.forEach(it=>{
-    const sub=it.price*it.quantity; total+=sub;
-    const tr=document.createElement('tr');
-    tr.innerHTML=`<td><strong>${it.name}</strong><br><small>${it.id}${it.variant&&it.variant!=='default'?' • '+it.variant:''}</small></td>
-    <td>$${fmt(it.price)}</td>
-    <td><input type="number" min="1" value="${it.quantity}" style="width:72px"></td>
-    <td>$${fmt(sub)}</td>
-    <td><button type="button" class="link">Quitar</button></td>`;
-    tr.querySelector('input').addEventListener('change',e=>{ setQty(it.id,it.variant,parseInt(e.target.value,10)); renderCart(); });
-    tr.querySelector('button').addEventListener('click',()=>{ removeItem(it.id,it.variant); renderCart(); });
-    tbody.appendChild(tr);
-  });
-  totalEl.textContent=fmt(total); updateCartBadge();
-}
-renderCart();
-
-function payload(){
-  const c=readCart();
-  return {
-    items:c.items.map(i=>({id:i.id,name:i.name,variant:i.variant||"default",unitPrice:fmt(i.price),quantity:i.quantity})),
-    discountCode:(document.getElementById('discount').value||"").trim(),
-    buyerEmail:(document.getElementById('buyer-email').value||"").trim()
-  };
-}
-
-paypal.Buttons({
-  createOrder: ()=> {
-    const p=payload(); if(!p.buyerEmail){ alert("Ingresa tu correo electrónico."); return; }
-    return fetch('/.netlify/functions/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)})
-      .then(r=>r.json()).then(d=>d.id);
-  },
-  onApprove: d=> fetch('/.netlify/functions/capture-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({orderID:d.orderID})})
-      .then(r=>r.json()).then(()=>{ clearCart(); location.href='/es-thank-you.html'; }),
-  onError: e=>{ console.error(e); alert('Error de pago. Intenta de nuevo.'); }
-}).render('#paypal-button-container');
-</script>
+<script src="/cart.html?v=3" defer></script>
 </body>
 </html>
