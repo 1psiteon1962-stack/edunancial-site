@@ -1,105 +1,130 @@
-// /.netlify/functions/create-order.js
-const fetch = global.fetch || require('node-fetch');
+// netlify/functions/create-order.js
+// Creates a PayPal order from cart items with per-item flat discounts.
+// Returns { redirectUrl } for approval.
 
-// --- PayPal credentials (already configured in your existing config.js) ---
-const { PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET, PAYPAL_BASE } = require('./config');
+import fetch from "node-fetch";
 
-// helper to get OAuth token
-async function getToken() {
-  const res = await fetch(`${PAYPAL_BASE}/v1/oauth2/token`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: 'grant_type=client_credentials',
-    // node-fetch: put auth in header
-    auth: `${PAYPAL_CLIENT_ID}:${PAYPAL_CLIENT_SECRET}`,
-  });
-  if (!res.ok) {
-    const t = await res.text();
-    throw new Error(`PayPal auth failed: ${t}`);
-  }
-  return (await res.json()).access_token;
-}
-
-function money(n){ return { currency_code:'USD', value: (Math.round(n*100)/100).toFixed(2) }; }
-
-exports.handler = async (event) => {
+export const handler = async (event) => {
   try {
-    if (event.httpMethod !== 'POST') {
-      return { statusCode: 405, body: JSON.stringify({ error:'Method not allowed' }) };
-    }
+    if (event.httpMethod !== 'POST') return json(405, { error: 'Method not allowed' });
+    const body = JSON.parse(event.body || '{}');
+    const { items = [], discountCode = '', returnUrl } = body;
 
-    const { email, items, discount, meta } = JSON.parse(event.body || '{}');
+    if (!Array.isArray(items) || items.length === 0) return json(400, { error: 'Cart is empty' });
+    if (!returnUrl) return json(400, { error: 'Missing returnUrl' });
 
-    if (!Array.isArray(items) || !items.length) {
-      return { statusCode: 400, body: JSON.stringify({ error:'Cart is empty' }) };
-    }
+    // ---- Discount rules (per-item flat -> $1.00) ----
+    const DISCOUNT_CODES = {
+      'PR12345$$$': { type: 'perItemFlat', price: 1.00, note: 'Partner rate' },
+      'UNDER18'   : { type: 'perItemFlat', price: 1.00, note: 'Under-18 rate' },
+    };
+    const norm = s => (s || '').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+    const rule = DISCOUNT_CODES[norm(discountCode)];
 
-    // Build PayPal line items
-    let item_total = 0;
-    const ppItems = items.map(it => {
-      const unit = Number(it.unit_amount);
-      const qty  = Number(it.quantity||1);
-      item_total += unit * qty;
+    // Compute final line items
+    const lines = items.map(it => {
+      const base = Number(it.price) || 0;
+      const qty  = Math.max(1, parseInt(it.qty, 10) || 1);
+      const unit = (rule && rule.type === 'perItemFlat') ? Number(rule.price) : base;
+      const value = (unit * qty);
       return {
-        name: it.name.slice(0,120),
-        sku: it.sku,
+        name: String(it.name || it.sku || 'Item').slice(0,127),
+        sku: String(it.sku || '').slice(0,127),
+        unit_amount: { currency_code: 'USD', value: unit.toFixed(2) },
         quantity: String(qty),
-        unit_amount: money(unit),
-        category: 'DIGITAL_GOODS'
+        __lineTotal: value
       };
     });
 
-    let discountAmount = 0;
-    if (discount && Number(discount.amount) > 0) {
-      discountAmount = Math.min(item_total, Number(discount.amount));
-    }
+    const total = lines.reduce((s, l) => s + l.__lineTotal, 0);
 
+    // 1) Token
     const token = await getToken();
 
-    const orderPayload = {
-      intent: 'CAPTURE',
-      purchase_units: [{
-        custom_id: meta && meta.code ? `CODE:${meta.code}` : undefined,
-        description: 'Edunancial Order',
-        items: ppItems,
-        amount: {
-          currency_code: 'USD',
-          value: (item_total - discountAmount).toFixed(2),
-          breakdown: {
-            item_total: money(item_total),
-            discount: money(discountAmount)
-          }
-        }
-      }],
-      application_context: {
-        brand_name: 'Edunancial, Inc.',
-        user_action: 'PAY_NOW',
-        return_url: `${process.env.URL || ''}/thank-you.html`,
-        cancel_url: `${process.env.URL || ''}/cart.html`
-      },
-      payer: email ? { email_address: email } : undefined
-    };
+    // 2) Create order w/ line items so PayPal shows the exact cart
+    const order = await createOrder({ lines, total, returnUrl, token });
 
-    const res = await fetch(`${PAYPAL_BASE}/v2/checkout/orders`, {
-      method: 'POST',
-      headers: {
-        'Content-Type':'application/json',
-        'Authorization':`Bearer ${token}`
-      },
-      body: JSON.stringify(orderPayload)
-    });
+    const approve = (order.links || []).find(l => l.rel === 'approve');
+    if (!approve) return json(500, { error: 'No approval link from PayPal' });
 
-    const data = await res.json();
-    if (!res.ok) {
-      return { statusCode: 400, body: JSON.stringify({ error: data && data.message || 'PayPal order error', details:data })};
-    }
+    // (Optional) CRM webhook for analytics
+    // if (process.env.CRM_WEBHOOK_URL) {
+    //   await fetch(process.env.CRM_WEBHOOK_URL, {
+    //     method:'POST', headers:{'Content-Type':'application/json'},
+    //     body: JSON.stringify({ ts: Date.now(), type:'order-create', items, discountCode, total })
+    //   });
+    // }
 
-    const approval = (data.links||[]).find(l => l.rel === 'approve');
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ id: data.id, approvalUrl: approval && approval.href })
-    };
+    return json(200, { redirectUrl: approve.href });
+
   } catch (e) {
-    return { statusCode: 500, body: JSON.stringify({ error: e.message }) };
+    console.error(e);
+    return json(500, { error: 'Server error' });
   }
 };
+
+// ---- helpers ----
+function json(status, obj){ return { statusCode: status, headers: { 'Content-Type':'application/json' }, body: JSON.stringify(obj) }; }
+
+function apiBase(){
+  return process.env.PAYPAL_ENV === 'live'
+    ? 'https://api-m.paypal.com'
+    : 'https://api-m.sandbox.paypal.com';
+}
+
+async function getToken(){
+  const creds = `${process.env.PAYPAL_CLIENT_ID}:${process.env.PAYPAL_SECRET}`;
+  const auth = Buffer.from(creds).toString('base64');
+  const r = await fetch(`${apiBase()}/v1/oauth2/token`, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Basic ${auth}`,
+      'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: 'grant_type=client_credentials'
+  });
+  if (!r.ok) throw new Error('PayPal token failed');
+  const j = await r.json();
+  return j.access_token;
+}
+
+async function createOrder({ lines, total, returnUrl, token }){
+  const r = await fetch(`${apiBase()}/v2/checkout/orders`, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      intent: 'CAPTURE',
+      purchase_units: [{
+        amount: {
+          currency_code: 'USD',
+          value: total.toFixed(2),
+          breakdown: {
+            item_total: { currency_code: 'USD', value: total.toFixed(2) }
+          }
+        },
+        items: lines.map(l => ({
+          name: l.name,
+          sku: l.sku,
+          unit_amount: l.unit_amount,
+          quantity: l.quantity,
+          category: 'DIGITAL_GOODS' // change to PHYSICAL_GOODS if you ship paperbacks
+        }))
+      }],
+      application_context: {
+        brand_name: 'Edunancial',
+        user_action: 'PAY_NOW',
+        return_url: returnUrl,
+        cancel_url: returnUrl.replace(/\?paid=1$/, '') // fallback if user cancels
+      }
+    })
+  });
+  if (!r.ok) {
+    const t = await r.text().catch(()=> '');
+    console.error('PayPal order create failed:', t);
+    throw new Error('PayPal order create failed');
+  }
+  return r.json();
+}
