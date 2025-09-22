@@ -1,15 +1,302 @@
-:root { --bg:#fff; --card:#fff; --text:#111; --muted:#666; --border:#e6e6e6; --brand:#d11; }
-*{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg)}
-.site-header{display:flex;gap:20px;align-items:center;justify-content:space-between;padding:12px 16px;background:#f7f7f7;border-bottom:1px solid var(--border)}
-.site-header .logo{font-weight:800;letter-spacing:.5px;text-decoration:none;color:#111}
-.site-header nav a{margin-left:14px;text-decoration:none;color:#111}
-.container{max-width:900px;margin:24px auto;padding:0 16px}
-h1,h2,h3{margin:0 0 12px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
-table{width:100%;border-collapse:collapse}
-th,td{padding:10px;border-bottom:1px solid var(--border);vertical-align:middle}
-td .link{background:none;border:none;color:#c00;cursor:pointer}
-.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:none;cursor:pointer;background:#1565d8;color:#fff;font-weight:600}
-.totals{display:flex;justify-content:flex-end;margin-top:10px}
-input[type="email"],input[type="text"],input[type="number"]{width:100%;max-width:420px;padding:10px;border:1px solid var(--border);border-radius:10px}
-.small{color:var(--muted);font-size:.9rem}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cart — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css?v=3" />
+  <link rel="stylesheet" href="/css-cart.css?v=3" />
+  <script defer src="/header.js?v=3"></script>
+  <style>
+    .container{max-width:980px;margin:24px auto;padding:0 16px}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:12px;border-bottom:1px solid #eee;vertical-align:middle}
+    .right{text-align:right}
+    .muted{color:#666}
+    .row{display:flex;gap:14px;flex-wrap:wrap}
+    .row > *{flex:1 1 280px}
+    input,button{padding:10px;border:1px solid #ddd;border-radius:10px}
+    button{background:#1565d8;color:#fff;font-weight:600;cursor:pointer;border:none}
+    button.secondary{background:#f7f7f7;color:#111;border:1px solid #ddd}
+    .totals{display:flex;justify-content:flex-end;margin-top:14px}
+    .pill{font-size:12px;background:#eee;border-radius:999px;padding:4px 10px;margin-left:8px}
+    .empty{text-align:center;padding:40px 10px}
+    .ok{color:#0a7c2f}
+    .err{color:#b00020}
+  </style>
+</head>
+<body>
+<header class="site-header" data-nav="en"></header>
+
+<main class="container">
+  <h1>Cart</h1>
+
+  <div id="cartCard" class="card">
+    <div id="cartEmpty" class="empty" hidden>
+      Your cart is empty.
+      <div style="margin-top:10px">
+        <a class="btn secondary" href="/books.html">Browse Books</a>
+        <a class="btn secondary" href="/courses.html" style="margin-left:8px">Browse Courses</a>
+      </div>
+    </div>
+
+    <div id="cartWrap" hidden>
+      <table id="cartTable" aria-label="Shopping cart">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th class="right">Price</th>
+            <th class="right">Qty</th>
+            <th class="right">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+      </table>
+
+      <div class="row" style="margin-top:16px">
+        <div class="card" style="border:1px dashed #ddd">
+          <h3 style="margin-top:0">Discount / Under-18 Code</h3>
+          <p class="muted" id="discNote">
+            Enter your code exactly. We ignore spaces and case.
+          </p>
+          <div class="row">
+            <input id="discountCode" placeholder="PR12345$$$" inputmode="text" autocomplete="off"/>
+            <button id="applyCodeBtn" type="button">Apply Code</button>
+          </div>
+          <div id="codeState" class="muted" style="margin-top:8px"></div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Buyer Email</h3>
+          <p class="muted">We’ll send your course Zoom details and book receipts here.</p>
+          <input id="buyerEmail" type="email" placeholder="you@example.com" autocomplete="email"/>
+        </div>
+      </div>
+
+      <div class="totals">
+        <div>
+          <div class="right muted">Items total: <span id="itemTotal">$0.00</span></div>
+          <div class="right muted">Discount: <span id="discountTotal">$0.00</span></div>
+          <div class="right" style="font-size:1.25rem;font-weight:700">Total: <span id="grandTotal">$0.00</span></div>
+          <div class="right" style="margin-top:10px">
+            <button id="clearBtn" class="secondary" type="button">Clear Cart</button>
+            <button id="checkoutBtn" type="button" style="margin-left:8px">Checkout with PayPal</button>
+          </div>
+          <div id="errorBox" class="err right" style="margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+/* ---------- tiny cart util (shared with header.js) ---------- */
+const CART_KEY = 'edn_cart_v2';
+const DISC_KEY = 'edn_disc_v2';
+
+const PRODUCTS = {
+  // COURSES
+  'EDN-CRS-MIX-001': { sku:'EDN-CRS-MIX-001', name:'The Edunancial Method — Mini Course', price:75, type:'course', discountEligible:true },
+  'EDN-CRS-BO-001' : { sku:'EDN-CRS-BO-001',  name:'In-Depth Business Formation',        price:199, type:'course', discountEligible:true },
+  // BOOKS (examples—add all your SKUs here)
+  'EDN-BK-RE-001'  : { sku:'EDN-BK-RE-001',   name:'Buying and Flipping Houses for Profit (Print)', price:18.99, type:'book', discountEligible:false },
+  'EDN-BK-RE-002'  : { sku:'EDN-BK-RE-002',   name:'Tax Liens & Deeds (Print)',                     price:18.99, type:'book', discountEligible:false },
+};
+
+function loadCart(){ try{ return JSON.parse(localStorage.getItem(CART_KEY))||[] }catch{ return [] } }
+function saveCart(cart){ localStorage.setItem(CART_KEY, JSON.stringify(cart)) }
+function loadDisc(){ try{ return JSON.parse(localStorage.getItem(DISC_KEY))||null }catch{ return null } }
+function saveDisc(d){ localStorage.setItem(DISC_KEY, JSON.stringify(d)) }
+function fmt(n){ return '$' + (Math.round(n*100)/100).toFixed(2) }
+function normCode(c){ return (c||'').toString().replace(/\s+/g,'').toUpperCase() }
+
+/* ---- your live codes & behavior (edit here only) ----
+   - add codes in the array; each code can either:
+     a) force a per-item price (unitOverride) for eligible items, OR
+     b) apply a fixed percent off (percent), OR
+     c) apply a fixed dollars off per eligible item (offEach)
+   - scope: 'all' or 'course' or 'book'
+*/
+const DISCOUNT_LIBRARY = [
+  { code:'PR12345$$$', scope:'course', unitOverride:3.00, label:'Under-18 Course Price' },
+  // examples you can add in the future:
+  // { code:'NONPROFIT1', scope:'all', percent:50, label:'50% Nonprofit' },
+  // { code:'DOLLAR1', scope:'book', offEach:1.00, label:'$1 off each book' },
+];
+
+/* ---------- render ---------- */
+const bodyEl = document.getElementById('cartBody');
+const emptyEl= document.getElementById('cartEmpty');
+const wrapEl = document.getElementById('cartWrap');
+const itemTotalEl = document.getElementById('itemTotal');
+const discTotalEl = document.getElementById('discountTotal');
+const grandTotalEl= document.getElementById('grandTotal');
+const codeInput = document.getElementById('discountCode');
+const codeState = document.getElementById('codeState');
+const buyerEmail= document.getElementById('buyerEmail');
+
+let cart = loadCart();
+let disc = loadDisc();
+
+function findCodeInfo(raw){
+  const c = normCode(raw);
+  return DISCOUNT_LIBRARY.find(x => x.code === c) || null;
+}
+
+function calcTotals(){
+  let items = [];
+  let itemTotal = 0;
+  let discount = 0;
+
+  for(const row of cart){
+    const p = PRODUCTS[row.sku]; if(!p) continue;
+    let unit = p.price;
+
+    // apply discount only if eligible and code present
+    if(disc && p.discountEligible){
+      if(disc.unitOverride!=null){
+        // scope check
+        if(disc.scope==='all' || disc.scope===p.type) unit = disc.unitOverride;
+      }else if(disc.percent!=null){
+        if(disc.scope==='all' || disc.scope===p.type){
+          const cut = unit * (disc.percent/100);
+          discount += cut * row.qty;
+          // keep unit for PayPal item_total integrity
+        }
+      }else if(disc.offEach!=null){
+        if(disc.scope==='all' || disc.scope===p.type){
+          discount += disc.offEach * row.qty;
+        }
+      }
+    }
+
+    const sub = unit * row.qty;
+    itemTotal += sub;
+
+    items.push({ name:p.name, sku:p.sku, qty:row.qty, unit });
+  }
+
+  // If using percent/offEach, discount already accumulated.
+  // If using unitOverride we don’t need a separate discount line (price already lowered).
+  if(disc && disc.unitOverride==null){
+    // clamp
+    if(discount > itemTotal) discount = itemTotal;
+  }
+
+  const grand = Math.max(0, itemTotal - discount);
+  return { items, itemTotal, discount, grand };
+}
+
+function render(){
+  // preload code/email if previously saved
+  if(disc && !codeInput.value) codeInput.value = disc.code;
+  if(localStorage.getItem('edn_email')){
+    buyerEmail.value = localStorage.getItem('edn_email');
+  }
+
+  if(!cart.length){
+    emptyEl.hidden = false;
+    wrapEl.hidden = true;
+    return;
+  }
+  emptyEl.hidden = true;
+  wrapEl.hidden = false;
+
+  const {items,itemTotal,discount,grand} = calcTotals();
+
+  bodyEl.innerHTML = items.map(it => `
+    <tr>
+      <td>
+        <div style="font-weight:600">${it.name}</div>
+        <div class="muted">${it.sku}</div>
+        <button class="secondary" style="margin-top:6px" onclick="removeItem('${it.sku}')">Remove</button>
+      </td>
+      <td class="right">${fmt(it.unit)}</td>
+      <td class="right">
+        <input type="number" min="1" value="${findQty(it.sku)}"
+               style="width:80px;text-align:right"
+               onchange="setQty('${it.sku}', this.value)">
+      </td>
+      <td class="right">${fmt(it.unit * findQty(it.sku))}</td>
+    </tr>
+  `).join('');
+
+  itemTotalEl.textContent = fmt(itemTotal);
+  discTotalEl.textContent  = fmt(discount);
+  grandTotalEl.textContent = fmt(grand);
+
+  codeState.innerHTML = disc
+    ? `<span class="ok">Code “${disc.code}” applied</span> <span class="pill">${disc.label||'Discount'}</span>`
+    : `<span class="muted">No code.</span>`;
+}
+
+function findQty(sku){ const r = cart.find(x=>x.sku===sku); return r?r.qty:0 }
+function setQty(sku,val){
+  const n = Math.max(1, parseInt(val||'1',10));
+  const i = cart.findIndex(x=>x.sku===sku);
+  if(i>-1){ cart[i].qty = n; saveCart(cart); render(); }
+}
+function removeItem(sku){
+  cart = cart.filter(x=>x.sku!==sku); saveCart(cart); render();
+}
+
+/* ----- events ----- */
+document.getElementById('applyCodeBtn').onclick = () => {
+  const info = findCodeInfo(codeInput.value);
+  if(!info){
+    disc = null; saveDisc(null);
+    codeState.innerHTML = `<span class="err">Code not recognized.</span>`;
+  }else{
+    disc = { ...info, code:normCode(info.code) };
+    saveDisc(disc);
+    codeState.innerHTML = `<span class="ok">Code “${disc.code}” applied.</span>`;
+  }
+  render();
+};
+
+document.getElementById('clearBtn').onclick = () => {
+  localStorage.removeItem(CART_KEY);
+  localStorage.removeItem(DISC_KEY);
+  cart = []; disc = null; render();
+};
+
+document.getElementById('checkoutBtn').onclick = async () => {
+  document.getElementById('errorBox').textContent = '';
+  const email = (buyerEmail.value||'').trim();
+  if(!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    document.getElementById('errorBox').textContent = 'Please enter a valid email.';
+    return;
+  }
+  localStorage.setItem('edn_email', email);
+
+  const payload = {
+    email,
+    items: calcTotals().items.map(i => ({
+      name:i.name, sku:i.sku, quantity:i.qty, unit_amount: i.unit
+    })),
+    discount: (disc && disc.unitOverride==null) ? {
+      code: disc.code, amount: calcTotals().discount
+    } : null,
+    meta: { code: disc?disc.code:null }
+  };
+
+  try{
+    const res = await fetch('/.netlify/functions/create-order', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.error||'Order creation failed');
+
+    // redirect to PayPal approval
+    window.location.href = data.approvalUrl;
+  }catch(e){
+    document.getElementById('errorBox').textContent = e.message;
+  }
+};
+
+render();
+</script>
+</body>
+</html>
