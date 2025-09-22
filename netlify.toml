@@ -1,42 +1,31 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# Netlify config for edunancial.com – prevents PayPal 404s & normalizes routes
-# ─────────────────────────────────────────────────────────────────────────────
+# netlify.toml
 [build]
-  publish = "./"
-  command = ""
+  publish = "."
+  functions = "netlify/functions"
 
-# Allow direct access to Netlify functions
+# Ensure JSON posts to functions work from any path
 [[redirects]]
   from = "/.netlify/functions/*"
-  to   = "/.netlify/functions/:splat"
+  to = "/.netlify/functions/:splat"
   status = 200
-
-# Thank-you / cancel routes (pretty → file)
-[[redirects]]
-  from = "/thank-you"
-  to   = "/thank-you.html"
-  status = 200
-[[redirects]]
-  from = "/thank-you/"
-  to   = "/thank-you.html"
-  status = 200
-[[redirects]]
-  from = "/es-gracias"
-  to   = "/es-thank-you.html"
-  status = 200
-[[redirects]]
-  from = "/es-gracias/"
-  to   = "/es-thank-you.html"
-  status = 200
-
-# If PayPal ever sends to a generic cancel path, route back to checkout
-[[redirects]]
-  from = "/cancel"
-  to   = "/checkout.html"
-  status = 302
   force = true
+
+# Force html extension-less paths to their files
 [[redirects]]
-  from = "/es-cancelar"
-  to   = "/es-checkout.html"
-  status = 302
+  from = "/"
+  to = "/index.html"
+  status = 200
   force = true
+
+# Spanish home (optional: if you ever want /es to land on ES index)
+[[redirects]]
+  from = "/es"
+  to = "/es-index.html"
+  status = 200
+  force = true
+
+# Keep 404 handling on static 404.html if you have one
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
