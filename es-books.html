@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Libros — Edunancial</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preload" href="/header.js?v=3" as="script">
   <style>
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px}
-    .price{font-weight:700;margin:.25rem 0 1rem}
-    .btn{display:inline-block;border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
-    .muted{color:#666;font-size:.9rem}
-    .top-actions{display:flex;justify-content:flex-end;margin:8px 0 16px}
-    .link{color:#c00;text-decoration:none;font-weight:600}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1100px}
+    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
+    .muted{color:#666}
+    input[type="text"]{width:280px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
+    .strike{ text-decoration:line-through; color:#888; margin-right:8px; }
+    .pill{display:inline-block;background:#f7f7f7;border:1px solid #e6e6e6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:.9rem}
   </style>
 </head>
 <body>
@@ -22,62 +24,84 @@
 
   <main class="container">
     <h1>Libros</h1>
-    <p><b>Rojo</b> = Bienes Raíces • <b>Blanco</b> = Activos de Papel • <b>Azul</b> = Negocios</p>
+    <p><span class="pill">Rojo = Bienes Raíces</span><span class="pill">Blanco = Activos de Papel</span><span class="pill">Azul = Negocios</span></p>
 
-    <div class="top-actions">
-      <a class="link" href="/es-cart.html">Ir al Carrito</a>
-    </div>
-
-    <section class="grid">
-      <article class="card">
-        <h2 class="h3">Compra y Reventa de Casas</h2>
-        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-RE-001</b></p>
-        <p class="price">Impreso: $18.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001',name:'Compra y Reventa — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001-E',name:'Compra y Reventa — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-001-A',name:'Compra y Reventa — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
-      </article>
-
-      <article class="card">
-        <h2 class="h3">Gravámenes e Impuestos: De Básicos a la Primera Compra</h2>
-        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-RE-002</b></p>
-        <p class="price">Impreso: $18.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002',name:'Gravámenes e Impuestos — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002-E',name:'Gravámenes e Impuestos — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-RE-002-A',name:'Gravámenes e Impuestos — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
-      </article>
-
-      <article class="card">
-        <h2 class="h3">Opciones: Puts, Calls y Estrategia Inteligente</h2>
-        <p class="muted">Autor: Waldemar M. Caban, JD MA</p>
-        <p class="muted">SKU: <b>EDN-BK-PA-001</b></p>
-        <p class="price">Impreso: $18.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001',name:'Opciones — Impreso',price:18.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">eBook: $3.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001-E',name:'Opciones — eBook',price:3.99,qty:1, locale:'es'})">Agregar al carrito</button>
-        <p class="price" style="margin-top:16px">Audio: $14.99</p>
-        <button class="btn" onclick="addToCartSafe({sku:'EDN-BK-PA-001-A',name:'Opciones — Audio',price:14.99,qty:1, locale:'es'})">Agregar al carrito</button>
-      </article>
+    <section class="card">
+      <div class="row" style="justify-content:flex-start">
+        <div>
+          <label for="code"><b>Código de descuento / socio</b></label><br/>
+          <input id="code" type="text" placeholder="Ingresa el código">
+          <button id="apply" class="btn" type="button">Aplicar</button>
+          <button id="clear" class="btn-link" type="button">Quitar código</button>
+        </div>
+        <div id="codeMsg" class="muted" style="margin-left:12px"></div>
+      </div>
     </section>
+
+    <section class="grid" id="grid"></section>
+
+    <p><a class="btn" style="text-decoration:none" href="/es-cart.html">Ir al carrito</a></p>
   </main>
 
   <script>
-    function addToCartSafe(item){
-      if (window.addToCart) { window.addToCart(item); return; }
-      const key='edn_cart';
-      const cart=JSON.parse(localStorage.getItem(key)||'[]');
-      const idx=cart.findIndex(i=>i.sku===item.sku);
-      if(idx>-1){ cart[idx].qty += (item.qty||1); }
-      else { cart.push({sku:item.sku,name:item.name,price:item.price,qty:item.qty||1}); }
-      localStorage.setItem(key,JSON.stringify(cart));
-      window.location.href=item.locale==='es'?'/es-cart.html':'/cart.html';
+    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
+    const DISCOUNT_CODES={
+      'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Tarifa de socio aplicada'},
+      'UNDER18':{type:'perItemFlat',price:1.00,note:'Tarifa para menores aplicada'},
+    };
+    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)]; if(!r)return p; if(r.type==='perItemFlat') return r.price; return p;};
+
+    const LIBROS=[
+      { sku:'EDN-BK-RE-001-PR', titulo:'Compra y Venta de Casas con Ganancia',                       autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-RE-002-PR', titulo:'Gravámenes y Escrituras: De lo Básico a la Primera Compra', autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-PA-001-PR', titulo:'Opciones: Guía de Puts, Calls y Estrategia Inteligente',     autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-PA-002-PR', titulo:'Selección Inteligente de Acciones para Jóvenes y Padres',   autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-BO-001-PR', titulo:'El Negocio se Trata de Ganar',                               autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+      { sku:'EDN-BK-BO-002-PR', titulo:'Tu Primera LLC de la Manera Correcta',                       autor:'Waldemar M. Caban, JD MA', precio:18.99 },
+    ];
+
+    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
+    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
+    function addToCart({sku,nombre,precio,qty=1}) {
+      const cart=loadCart();
+      const i=cart.findIndex(x=>x.sku===sku);
+      if(i>-1) cart[i].qty+=qty; else cart.push({sku,name:nombre,price:precio,qty});
+      saveCart(cart);
+      if(window.updateCartCount) window.updateCartCount();
+      alert('Añadido al carrito');
     }
+
+    function render(){
+      const code=localStorage.getItem(DISC_KEY)||'';
+      const rule=DISCOUNT_CODES[norm(code)];
+      document.getElementById('code').value=code;
+      document.getElementById('codeMsg').textContent = rule ? (rule.note||'Código aplicado') : (code ? 'Código no reconocido' : '');
+
+      const grid=document.getElementById('grid'); grid.innerHTML='';
+      LIBROS.forEach(b=>{
+        const pEff=eff(b.precio,code);
+        const prices = pEff<b.precio
+          ? `<span class="strike">$${b.precio.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`
+          : `<b>$${b.precio.toFixed(2)}</b>`;
+        const el=document.createElement('div');
+        el.className='card';
+        el.innerHTML=`
+          <h2 style="margin:6px 0">${b.titulo}</h2>
+          <div class="muted">Autor: ${b.autor}</div>
+          <div class="muted" style="margin:6px 0">SKU: ${b.sku}</div>
+          <div class="row">
+            <div>Tapa blanda • ${prices}</div>
+            <button class="btn">Añadir al carrito</button>
+          </div>`;
+        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:b.sku,nombre:`${b.titulo} — Tapa blanda`,precio:pEff}));
+        grid.appendChild(el);
+      });
+    }
+
+    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
+    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
+    render();
   </script>
 </body>
 </html>
