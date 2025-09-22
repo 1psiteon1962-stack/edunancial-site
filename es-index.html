@@ -2,59 +2,76 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial — Aprende. Emprende. Crece.</title>
-  <meta name="description" content="Edunancial ayuda a las familias a aprender bienes raíces, activos financieros y formación de negocios con lecciones simples y prácticas." />
-  <link rel="preload" href="/header.js?v=4" as="script">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial — Aprende, Emprende y Crece</title>
+  <meta name="description" content="Lecciones simples en Bienes Raíces, Activos en Papel y Negocios. Membresías desde $5." />
+  <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/header.js?v=5" as="script">
 </head>
 <body>
-  <header class="site-header" id="site-header"></header>
+  <!-- Encabezado con alternancia EN/ES -->
+  <header id="site-header" class="site-header"></header>
 
-  <main class="container" style="max-width:980px;margin:24px auto;padding:0 16px">
-    <!-- Nuestra Historia (pública) -->
-    <section class="card" aria-labelledby="historia-title">
-      <h1 id="historia-title">Nuestra Historia</h1>
-      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con ojos muy abiertos preguntó: “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
-      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>; entiende que hay muchas áreas en bienes raíces y está armando un negocio.</p>
-      <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>bases del crecimiento de por vida.</strong></p>
-
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+  <main class="container">
+    <!-- NUESTRA HISTORIA -->
+    <section class="card" id="nuestra-historia">
+      <h1>Nuestra Historia</h1>
+      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Con los ojos bien abiertos preguntó: “¿Cómo ganaste ese dinero?” Yo le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
+      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% de ROI</strong>; entiende que hay muchas áreas en bienes raíces para elegir y está formando un negocio.</p>
+      <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios). Estas son las <strong>bases del crecimiento de por vida</strong>.</p>
+      <p>
         <a class="btn" href="/es-books.html">Ver Libros</a>
-        <a class="btn" href="/es-courses.html">Ver Cursos</a>
-      </div>
+        <a class="btn" href="/es-courses.html" style="margin-left:8px">Ver Cursos</a>
+      </p>
     </section>
 
-    <!-- Membresía debajo de la historia -->
-    <section class="card" aria-labelledby="membresia-title" style="margin-top:16px">
-      <h2 id="membresia-title">Membresía — Desde $5</h2>
-      <p>Hazte miembro para acceder a lecciones, cursos, descuentos y material exclusivo. Puedes mejorar el plan cuando quieras.</p>
+    <!-- MEMBRESÍA -->
+    <section class="card" id="membresia">
+      <h2>Membresía — Empieza por $5</h2>
+      <p>Hazte miembro para acceder a lecciones, precios de miembro, descuentos y materiales exclusivos. Puedes mejorar tu plan en cualquier momento.</p>
 
-      <div class="card" style="background:#fafafa">
-        <h3 style="margin-top:0">Niveles</h3>
+      <div class="card" style="margin-top:12px">
+        <h3>Starter — <strong>$5/mes</strong></h3>
         <ul>
-          <li><strong>Básico — $5/mes</strong> • Precios de miembro en cursos y libros, resumen mensual, descargas exclusivas.</li>
-          <li><strong>Estándar — $15/mes</strong> • Todo en Básico, más cuadernos de trabajo, plantillas y acceso a la comunidad cuando esté disponible.</li>
-          <li><strong>Premium — $49/mes</strong> • Todo en Estándar, acceso a webinar de formación de negocios y soporte prioritario por email/chat.</li>
+          <li>Precios de miembro en cursos y libros de tapa blanda</li>
+          <li>Descargas exclusivas (listas de verificación, plantillas)</li>
+          <li>Preferencias de email y cumplimiento (tú eliges qué recibes)</li>
         </ul>
-        <p class="small">Puedes mejorar o cambiar de plan en cualquier momento desde tu cuenta.</p>
+        <a class="btn" href="/es-membership.html#starter">Unirme a Starter</a>
       </div>
 
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
-        <a class="btn" href="/es-membership.html">Unirme</a>
-        <a class="link" href="/es-membership-upgrade.html">Mejorar / Gestionar</a>
+      <div class="card" style="margin-top:12px">
+        <h3>Growth — <strong>$15/mes</strong></h3>
+        <ul>
+          <li>Todo lo de Starter</li>
+          <li>Soporte prioritario por email/chat para cuenta y acceso</li>
+          <li>Acceso a sesiones en vivo del seminario de <em>Formación de Negocios</em></li>
+        </ul>
+        <a class="btn" href="/es-membership.html#growth">Unirme a Growth</a>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>Pro — <strong>$25/mes</strong></h3>
+        <ul>
+          <li>Todo lo de Growth</li>
+          <li>Descuentos más profundos en programas seleccionados</li>
+          <li>Acceso anticipado a cursos y herramientas nuevas</li>
+        </ul>
+        <a class="btn" href="/es-membership.html#pro">Unirme a Pro</a>
       </div>
 
       <p class="small" style="margin-top:10px">
-        ¿Ya eres miembro? Tu carrito y pago aplicarán automáticamente precios de miembro y códigos válidos.
+        ¿Ya eres miembro? <a class="link" href="/es-membership-upgrade.html">Mejorar membresía</a> •
+        <a class="link" href="/es-cart.html">Ver Carrito</a>
       </p>
     </section>
   </main>
 
-  <footer class="container" style="max-width:980px;margin:24px auto;padding:0 16px">
-    <p class="small">© 2025 Edunancial, Inc. • <a href="/es-privacy.html">Privacidad</a> • <a href="/es-terms.html">Términos</a> • <a href="/es-refunds.html">Reembolsos</a></p>
+  <footer class="container small" style="margin-bottom:40px">
+    © 2025 Edunancial, Inc. • Todos los derechos reservados.
   </footer>
 
-  <script src="/header.js?v=4" defer></script>
+  <script src="/header.js?v=5" defer></script>
 </body>
 </html>
