@@ -1,97 +1,128 @@
-// Creates a PayPal order for the exact discounted cart total
-const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
+// /netlify/functions/create-order.js
+// Creates a PayPal order for a whole cart and applies your discount codes.
 
-exports.handler = async (event) => {
+import fetch from "node-fetch";
+
+export const handler = async (event) => {
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, body: "Method Not Allowed" };
+  }
+
+  // ---- 1) Parse request ----
+  let body;
   try {
-    if(event.httpMethod !== "POST") return resp(405, "Method Not Allowed");
-    const { cart, age, promo, email } = JSON.parse(event.body || "{}");
-    if(!Array.isArray(cart) || cart.length===0) return resp(400, "Empty cart");
-    if(!email) return resp(400, "Email required");
+    body = JSON.parse(event.body || "{}");
+  } catch (e) {
+    return { statusCode: 400, body: "Invalid JSON" };
+  }
 
-    // SAME catalog as in client (keep in sync)
-    const PRODUCTS = {
-      "EDN-CRS-MIX-001": { price:75, name:"Edunancial Mini Course" },
-      "B-RED-1": { price:19, name:"Real Estate Basics (Red 1)" },
-      "B-RED-2": { price:29, name:"Tax Liens & Deeds (Red 2)" },
-      "B-WHT-1": { price:17, name:"Paper Assets 101 (White 1)" },
-      "B-WHT-2": { price:21, name:"Investing Frameworks (White 2)" },
-      "B-BLU-1": { price:18, name:"Start a Simple Business (Blue 1)" },
-      "B-BLU-2": { price:24, name:"Business Systems (Blue 2)" },
-      "B-BLU-3": { price:16, name:"Sales & Habits (Blue 3)" },
-      "B-MIX-1": { price:15, name:"Foundations Workbook" }
+  const { items = [], discountCode = "", buyerEmail = "" } = body;
+
+  // Each item should be: { id, name, unitPrice, quantity }
+  // unitPrice is a number/string like "75.00"
+  if (!Array.isArray(items) || items.length === 0) {
+    return { statusCode: 400, body: "Cart is empty" };
+  }
+
+  // ---- 2) Discount rules (TODAY: valid code => every item $1.00) ----
+  // Add/adjust codes here (exact match, spaces ignored, case-insensitive)
+  const VALID_CODES = new Set([
+    "PR12345$$$",
+    "PR2345$$$",
+    "PR345$$$",
+    "PR12345S$$$",
+    "PR2345S$$$",
+  ].map(c => c.replace(/\s+/g, "").toUpperCase()));
+
+  const normalized = (discountCode || "").replace(/\s+/g, "").toUpperCase();
+  const discountIsValid = VALID_CODES.has(normalized);
+
+  // Build PayPal items
+  const ppItems = items.map(it => {
+    const qty = Math.max(1, parseInt(it.quantity, 10) || 1);
+    const price = discountIsValid ? 1.00 : parseFloat(it.unitPrice);
+    return {
+      name: it.name?.toString().slice(0,127) || "Item",
+      quantity: String(qty),
+      unit_amount: {
+        currency_code: "USD",
+        value: price.toFixed(2)
+      }
     };
-    const DISCOUNT_PRICE_PER_ITEM = 1;
+  });
 
-    const normalizeCode = s => (s||"").toUpperCase().replace(/\s+/g,"");
-    const code = normalizeCode(promo);
-    const validCode = /^PR[0-9]+(\${2,3})$/.test(code);
-    const under18Only = validCode && code.endsWith("$$$");
-    const discountAllowed = validCode && (!under18Only || age === "under18");
+  // Compute total
+  const total = ppItems.reduce((sum, it) => {
+    return sum + parseFloat(it.unit_amount.value) * parseInt(it.quantity, 10);
+  }, 0);
 
-    // compute total and line items
-    let total = 0;
-    let items = [];
-    for(const row of cart){
-      const p = PRODUCTS[row.id]; if(!p) continue;
-      const qty = Math.max(1, Number(row.qty||1));
-      const unit = discountAllowed ? DISCOUNT_PRICE_PER_ITEM : p.price;
-      total += unit * qty;
-      items.push({ name:p.name, sku: row.id, unit_amount:{ currency_code:"USD", value: unit.toFixed(2) }, quantity: String(qty) });
+  // ---- 3) Get OAuth token ----
+  const clientId = process.env.PAYPAL_CLIENT_ID;
+  const secret    = process.env.PAYPAL_SECRET;
+
+  if (!clientId || !secret) {
+    return { statusCode: 500, body: "Missing PayPal credentials" };
+  }
+
+  try {
+    const tokenRes = await fetch("https://api-m.paypal.com/v1/oauth2/token", {
+      method: "POST",
+      headers: {
+        "Authorization": "Basic " + Buffer.from(clientId + ":" + secret).toString("base64"),
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: "grant_type=client_credentials"
+    });
+    const tokenData = await tokenRes.json();
+    if (!tokenRes.ok) {
+      return { statusCode: 500, body: JSON.stringify(tokenData) };
     }
-    if(total <= 0) return resp(400, "Invalid total");
 
-    // Store buyer email for capture step
-    const meta = Buffer.from(JSON.stringify({ email })).toString("base64url");
-
-    // PayPal access token
-    const token = await getAccessToken();
-
-    // Create order
-    const createRes = await fetch("https://api-m.paypal.com/v2/checkout/orders", {
-      method:"POST",
-      headers:{
-        "Content-Type":"application/json",
-        "Authorization":`Bearer ${token}`
+    // ---- 4) Create order ----
+    const orderRes = await fetch("https://api-m.paypal.com/v2/checkout/orders", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${tokenData.access_token}`
       },
       body: JSON.stringify({
-        intent:"CAPTURE",
-        purchase_units:[{
-          custom_id: meta,
-          amount:{
-            currency_code:"USD",
+        intent: "CAPTURE",
+        purchase_units: [{
+          amount: {
+            currency_code: "USD",
             value: total.toFixed(2),
-            breakdown:{
-              item_total:{ currency_code:"USD", value: total.toFixed(2) }
+            breakdown: {
+              item_total: {
+                currency_code: "USD",
+                value: total.toFixed(2)
+              }
             }
           },
-          items
-        }]
+          items: ppItems,
+          custom_id: normalized || undefined
+        }],
+        payer: buyerEmail ? { email_address: buyerEmail } : undefined,
+        application_context: {
+          brand_name: "Edunancial, Inc.",
+          landing_page: "LOGIN",
+          user_action: "PAY_NOW",
+          return_url: `${process.env.URL || "https://edunancial.com"}/thank-you.html`,
+          cancel_url: `${process.env.URL || "https://edunancial.com"}/checkout.html`
+        }
       })
     });
 
-    if(!createRes.ok){
-      const t = await createRes.text();
-      return resp(createRes.status, t);
+    const orderData = await orderRes.json();
+    if (!orderRes.ok) {
+      return { statusCode: 500, body: JSON.stringify(orderData) };
     }
-    const json = await createRes.json();
-    return resp(200, JSON.stringify({ id: json.id }));
-  } catch(err){
-    return resp(500, err.message || "Server error");
+
+    return {
+      statusCode: 200,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id: orderData.id, total: total.toFixed(2) })
+    };
+  } catch (err) {
+    return { statusCode: 500, body: JSON.stringify({ error: err.message }) };
   }
 };
-
-function resp(status, body){ return { statusCode: status, body }; }
-
-async function getAccessToken(){
-  const id = process.env.PAYPAL_CLIENT_ID;
-  const sec = process.env.PAYPAL_CLIENT_SECRET;
-  const res = await fetch("https://api-m.paypal.com/v1/oauth2/token", {
-    method:"POST",
-    headers:{ "Content-Type":"application/x-www-form-urlencoded",
-              "Authorization":"Basic " + Buffer.from(id + ":" + sec).toString("base64") },
-    body:"grant_type=client_credentials"
-  });
-  const j = await res.json();
-  if(!res.ok) throw new Error(j.error_description || "token failure");
-  return j.access_token;
-}
