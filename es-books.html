@@ -2,225 +2,130 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Libros — Edunancial</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <style>
-    .container{max-width:980px;margin:1rem auto;padding:0 1rem}
-    .banner{background:#d40a0a;color:#111;padding:10px 0;position:sticky;top:0;z-index:1000}
-    .nav{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-    .brand{font-weight:800;letter-spacing:.5px;margin-right:auto;padding-left:10px}
-    .nav a{color:#111;text-decoration:none;font-weight:700;font-size:.95rem}
-    .toggle{display:flex;gap:8px;margin-right:10px}
-    .chip{border-radius:999px;padding:6px 10px;font-weight:800;border:2px solid #111}
-    .chip.dark{background:#111;color:#fff}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:16px 0}
-    .card{background:#fff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.07);padding:16px}
-    .cover{height:220px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;font-weight:800;padding:10px;line-height:1.1}
-    .cover.red{background:#cb2b2b}
-    .cover.white{background:#e9ecef;color:#111;border:2px solid #cbd5e1}
-    .cover.blue{background:#194b8f}
-    .meta{margin:10px 0 8px 0;font-size:.95rem}
-    .sku{font-family:monospace;font-size:.85rem;color:#444}
-    .price{font-weight:900}
-    .btn{display:inline-block;background:#0d6efd;color:#fff;border-radius:8px;padding:10px 12px;text-decoration:none;font-weight:800;margin-right:8px;margin-top:8px}
-    .legend{font-size:.92rem;opacity:.9;margin:4px 0 14px}
-    .tag{font-weight:800}
-    .foot{font-size:.9rem;opacity:.8;margin-top:24px}
-    .formats{margin-top:6px}
-    .formats .btn{background:#2563eb}
-    .formats .btn:focus,.btn:hover{filter:brightness(.96)}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css-cart.css" />
+  <script src="/header.js" defer></script>
 </head>
 <body>
-  <header class="banner">
-    <div class="container nav">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="nav" aria-label="Principal">
-        <a href="/es-index.html">Inicio</a>
-        <a href="/es-books.html" aria-current="page">Libros</a>
-        <a href="/es-courses.html">Cursos</a>
-        <a href="/es-payments.html">Pagos</a>
-        <a href="/es-call-center.html">Centro de Llamadas</a>
-        <a href="/es-vendor-program.html">Programa de Proveedores</a>
-        <a href="/es-contact.html">Contacto</a>
-        <a href="/es-privacy.html">Privacidad</a>
-        <a href="/es-terms.html">Términos</a>
-        <a href="/es-refunds.html">Reembolsos</a>
-        <a href="/es-our-story.html">Nuestra Historia</a>
-      </nav>
-      <div class="toggle" role="group" aria-label="Idioma">
-        <a class="chip" href="/books.html" lang="en" aria-label="View in English">EN</a>
-        <span class="chip dark">ES</span>
-      </div>
-    </div>
+  <header class="site-header">
+    <a class="logo" href="/es-index.html">EDUNANCIAL</a>
+    <nav>
+      <a href="/es-books.html">Libros</a>
+      <a href="/es-courses.html">Cursos</a>
+      <a href="/es-cart.html">Carrito (<span id="cart-badge">0</span>)</a>
+      <a href="/books.html" style="margin-left:18px">EN</a>
+    </nav>
   </header>
 
   <main class="container">
     <h1>Libros</h1>
-    <p class="legend">
-      <span class="tag">Rojo</span> = Bienes Raíces &nbsp;•&nbsp;
-      <span class="tag">Blanco</span> = Activos en Papel &nbsp;•&nbsp;
-      <span class="tag">Azul</span> = Negocios
-    </p>
+    <p class="small"><strong>Rojo</strong> = Bienes Raíces • <strong>Blanco</strong> = Activos de Papel • <strong>Azul</strong> = Negocios</p>
 
-    <section class="grid" aria-label="Lista de libros">
-
-      <!-- 1 -->
-      <article class="card">
-        <div class="cover red">Comprar y Revender Casas<br/>con Ganancia</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-RE-001</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE001_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE001_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE001_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 2 -->
-      <article class="card">
-        <div class="cover red">Gravámenes y Escrituras:<br/>De lo Básico a tu Primera Compra</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-RE-002</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE002_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE002_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_RE002_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 3 -->
-      <article class="card">
-        <div class="cover white" style="color:#111">Opciones Bursátiles:<br/>Guía de Puts, Calls y Estrategia</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-PA-001</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA001_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA001_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA001_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 4 -->
-      <article class="card">
-        <div class="cover white" style="color:#111">Selección Inteligente de Acciones<br/>para Jóvenes y Padres</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-PA-002</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA002_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA002_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_PA002_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 5 -->
-      <article class="card">
-        <div class="cover blue">El Negocio se Trata<br/>de Ganar Utilidad</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-BO-001</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO001_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO001_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO001_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 6 -->
-      <article class="card">
-        <div class="cover blue">Tu Primera LLC<br/>Paso a Paso Correcto</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-BO-002</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO002_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO002_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_BO002_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 7 -->
-      <article class="card">
-        <div class="cover white" style="color:#111">El Método Edunancial — Manual</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-GN-001</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN001_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN001_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN001_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
-      <!-- 8 -->
-      <article class="card">
-        <div class="cover red">Finanzas Familiares:<br/>Hábitos, ROI y Crecimiento</div>
-        <div class="meta"><strong>Autor:</strong> Waldemar M. Caban, JD&nbsp;MA</div>
-        <div class="sku"><strong>SKU:</strong> EDN-BK-GN-002</div>
-        <div class="formats">
-          <div><strong>Impreso:</strong> <span class="price">$18.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN002_PRINT">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>eBook:</strong> <span class="price">$3.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN002_EBOOK">Comprar con PayPal</a>
-        </div>
-        <div class="formats">
-          <div><strong>Audio:</strong> <span class="price">$14.99</span></div>
-          <a class="btn" href="PAYPAL_LINK_GN002_AUDIO">Comprar con PayPal</a>
-        </div>
-      </article>
-
+    <!-- Libro 1 -->
+    <section class="card">
+      <h2>Compra y Reventa de Casas para Ganar</h2>
+      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-001</p>
+      <div>
+        <p><strong>Impreso:</strong> $18.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-001"
+          data-name="Compra y Reventa — Impreso"
+          data-variant="impreso"
+          data-price="18.99"
+          data-label="Agregar al carrito"
+          data-added="Agregado ✓">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>eBook:</strong> $3.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-001"
+          data-name="Compra y Reventa — eBook"
+          data-variant="ebook"
+          data-price="3.99">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>Audio:</strong> $14.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-001"
+          data-name="Compra y Reventa — Audio"
+          data-variant="audio"
+          data-price="14.99">Agregar al carrito</button>
+      </div>
     </section>
 
-    <p class="foot">El eBook y el audio pueden publicarse después del impreso.</p>
+    <!-- Libro 2 -->
+    <section class="card">
+      <h2>Gravámenes e Impuestos: De lo Básico a tu Primera Compra</h2>
+      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-RE-002</p>
+      <div>
+        <p><strong>Impreso:</strong> $18.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-002"
+          data-name="Gravámenes e Impuestos — Impreso"
+          data-variant="impreso"
+          data-price="18.99">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>eBook:</strong> $3.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-002"
+          data-name="Gravámenes e Impuestos — eBook"
+          data-variant="ebook"
+          data-price="3.99">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>Audio:</strong> $14.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-RE-002"
+          data-name="Gravámenes e Impuestos — Audio"
+          data-variant="audio"
+          data-price="14.99">Agregar al carrito</button>
+      </div>
+    </section>
+
+    <!-- Libro 3 -->
+    <section class="card">
+      <h2>Opciones: Guía de Puts, Calls y Estrategia Inteligente</h2>
+      <p class="small">Autor: Waldemar M. Caban, JD MA • <strong>SKU:</strong> EDN-BK-PA-001</p>
+      <div>
+        <p><strong>Impreso:</strong> $18.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-PA-001"
+          data-name="Opciones — Impreso"
+          data-variant="impreso"
+          data-price="18.99">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>eBook:</strong> $3.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-PA-001"
+          data-name="Opciones — eBook"
+          data-variant="ebook"
+          data-price="3.99">Agregar al carrito</button>
+      </div>
+      <div style="margin-top:8px">
+        <p><strong>Audio:</strong> $14.99</p>
+        <button class="btn"
+          data-add-to-cart
+          data-id="EDN-BK-PA-001"
+          data-name="Opciones — Audio"
+          data-variant="audio"
+          data-price="14.99">Agregar al carrito</button>
+      </div>
+    </section>
+
+    <div class="card">
+      <a class="btn" href="/es-cart.html">Ir al carrito</a>
+    </div>
   </main>
 </body>
 </html>
