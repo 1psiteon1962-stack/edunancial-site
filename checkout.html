@@ -2,21 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Checkout — Edunancial</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
+  <!-- Global header / language toggle -->
   <div id="sitebar"></div>
   <script src="/header.js"></script>
 
   <main class="container">
     <section class="card">
       <h1>Checkout</h1>
-      <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
+      <p><strong>SKU:</strong> EDN-CRS-MIX-001</p>
 
-      <!-- IMPORTANT: this form submits directly to PayPal -->
-      <form id="payForm" class="stack" method="GET" action="#">
+      <!-- ⚠️ PASTE YOUR PAYPAL hosted_button_id BELOW (only this value) -->
+      <!-- Create/locate it in PayPal > Buttons > "Buy Now" (hosted). -->
+      <form id="paypalForm" class="stack" method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="PASTE_YOUR_HOSTED_BUTTON_ID_HERE">
+        <input type="hidden" name="item_name" value="The Edunancial Method — Mini Course (EDN-CRS-MIX-001)">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/checkout.html">
+
+        <!-- Amount PayPal will charge (we set this before submit) -->
+        <input type="hidden" name="amount" id="ppAmount" value="75.00">
+
         <fieldset class="row">
           <legend class="label">Age group</legend>
           <label class="radio"><input type="radio" name="age" value="adult"> 18 or older</label>
@@ -24,15 +37,15 @@
         </fieldset>
 
         <div class="row">
-          <label for="agecode" class="label">Discount / Under-18 Code</label>
-          <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Enter code" class="input" />
+          <label for="code" class="label">Discount / Under-18 Code</label>
+          <input id="code" name="code" type="text" class="input" placeholder="Enter code" autocomplete="off" />
         </div>
 
         <p class="muted">Price:</p>
-        <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
+        <p class="price">$<span id="shownAmount">75.00</span></p>
 
         <button type="submit" class="btn btn-primary">Continue to PayPal</button>
-        <p id="msg" class="tiny muted"></p>
+        <p id="formMsg" class="tiny muted"></p>
 
         <p class="tiny muted">
           By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
@@ -44,51 +57,30 @@
   <footer class="container tiny muted">© 2025 Edunancial, Inc.</footer>
 
   <script>
-  (function () {
-    // ====== EDIT THIS ONE LINE ONLY (paste your existing PayPal *Pay Now* link) ======
-    // Example format:
-    // "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=you%40email.com&item_name=EDN-CRS-MIX-001&currency_code=USD&no_shipping=1"
-    var PAYPAL_BASE = ""; // <— PASTE YOUR PAYPAL LINK BETWEEN THE QUOTES
+  (function(){
+    var form = document.getElementById('paypalForm');
+    var shown = document.getElementById('shownAmount');
+    var ppAmount = document.getElementById('ppAmount');
+    var msg = document.getElementById('formMsg');
+    var code = document.getElementById('code');
 
-    var form   = document.getElementById('payForm');
-    var amountEl = document.getElementById('amount');
-    var codeEl   = document.getElementById('agecode');
-    var msgEl    = document.getElementById('msg');
-
-    function base() { var b = parseFloat(amountEl.dataset.base || '0'); return isFinite(b)?b:0; }
-    function setAmount(v){ amountEl.textContent = Number(v).toFixed(2); }
+    var BASE = 75.00;
     function age(){ var r=form.querySelector('input[name="age"]:checked'); return r?r.value:''; }
-    function eligible(){ return age()==='under' && (codeEl.value||'').trim().length>0; }
-    function compute(){ return eligible()?3.00:base(); }
+    function hasCode(){ return (code.value||'').trim().length>0; }
+    function eligible(){ return age()==='under' && hasCode(); }
+    function compute(){ return eligible()?3.00:BASE; }
+    function render(){ var a=compute(); shown.textContent=a.toFixed(2); }
 
-    function validate(){
-      var ok = true; msgEl.textContent = '';
-      if(!age()){ ok=false; msgEl.textContent='Select an age group.'; }
-      else if(age()==='under' && (codeEl.value||'').trim().length===0){ ok=false; msgEl.textContent='Enter the under-18 discount code.'; }
-      setAmount(compute());
-      return ok;
-    }
-
-    form.addEventListener('input', validate);
-    form.addEventListener('change', validate);
-    validate();
+    form.addEventListener('input', render);
+    form.addEventListener('change', render);
+    render();
 
     form.addEventListener('submit', function(e){
-      if(!validate()){ e.preventDefault(); return; }
-      if(!PAYPAL_BASE){
-        e.preventDefault();
-        alert('Add your PayPal link inside PAYPAL_BASE in checkout.html');
-        return;
-      }
-      try{
-        var u = new URL(PAYPAL_BASE);
-        u.searchParams.set('amount', Number(compute()).toFixed(2));
-        u.searchParams.set('return', location.origin + '/thank-you.html');
-        u.searchParams.set('cancel_return', location.origin + '/checkout.html');
-        form.action = u.toString(); // submit directly to PayPal
-      }catch(err){
-        form.action = PAYPAL_BASE;
-      }
+      msg.textContent='';
+      if(!age()){ e.preventDefault(); msg.textContent='Select an age group.'; return; }
+      if(age()==='under' && !hasCode()){ e.preventDefault(); msg.textContent='Enter the under-18 code.'; return; }
+      // Set PayPal amount just before submit (classic GoDaddy flow)
+      ppAmount.value = compute().toFixed(2);
     });
   })();
   </script>
