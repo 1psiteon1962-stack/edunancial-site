@@ -15,15 +15,14 @@
       <h1>Checkout</h1>
       <p><strong>SKU:</strong> <span id="sku">EDN-CRS-MIX-001</span></p>
 
-      <form id="payForm" class="stack" novalidate>
-        <!-- Age group selection -->
+      <!-- IMPORTANT: this form submits directly to PayPal -->
+      <form id="payForm" class="stack" method="GET" action="#">
         <fieldset class="row">
           <legend class="label">Age group</legend>
           <label class="radio"><input type="radio" name="age" value="adult"> 18 or older</label>
           <label class="radio"><input type="radio" name="age" value="under"> Under 18</label>
         </fieldset>
 
-        <!-- Code required only for under-18 discount -->
         <div class="row">
           <label for="agecode" class="label">Discount / Under-18 Code</label>
           <input id="agecode" name="agecode" type="text" inputmode="text" autocomplete="off" placeholder="Enter code" class="input" />
@@ -32,11 +31,7 @@
         <p class="muted">Price:</p>
         <p class="price"><span id="currency">$</span><span id="amount" data-base="75.00">75.00</span></p>
 
-        <!-- Put your real PayPal link in href. We’ll patch amount/return/cancel and then navigate. -->
-        <a id="toPayPal" class="btn btn-primary" href="#">
-          Continue to PayPal
-        </a>
-
+        <button type="submit" class="btn btn-primary">Continue to PayPal</button>
         <p id="msg" class="tiny muted"></p>
 
         <p class="tiny muted">
@@ -50,45 +45,27 @@
 
   <script>
   (function () {
+    // ====== EDIT THIS ONE LINE ONLY (paste your existing PayPal *Pay Now* link) ======
+    // Example format:
+    // "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=you%40email.com&item_name=EDN-CRS-MIX-001&currency_code=USD&no_shipping=1"
+    var PAYPAL_BASE = ""; // <— PASTE YOUR PAYPAL LINK BETWEEN THE QUOTES
+
+    var form   = document.getElementById('payForm');
     var amountEl = document.getElementById('amount');
     var codeEl   = document.getElementById('agecode');
-    var form     = document.getElementById('payForm');
-    var btn      = document.getElementById('toPayPal');
     var msgEl    = document.getElementById('msg');
 
-    function base() {
-      var b = parseFloat(amountEl.getAttribute('data-base') || '0');
-      return isFinite(b) ? b : 0;
-    }
-    function setAmount(v) { amountEl.textContent = Number(v).toFixed(2); }
+    function base() { var b = parseFloat(amountEl.dataset.base || '0'); return isFinite(b)?b:0; }
+    function setAmount(v){ amountEl.textContent = Number(v).toFixed(2); }
+    function age(){ var r=form.querySelector('input[name="age"]:checked'); return r?r.value:''; }
+    function eligible(){ return age()==='under' && (codeEl.value||'').trim().length>0; }
+    function compute(){ return eligible()?3.00:base(); }
 
-    function selectedAge() {
-      var s = form.querySelector('input[name="age"]:checked');
-      return s ? s.value : '';
-    }
-
-    function isDiscountEligible() {
-      return selectedAge() === 'under' && (codeEl.value || '').trim().length > 0;
-    }
-
-    function computeAmount() {
-      return isDiscountEligible() ? 3.00 : base();
-    }
-
-    function validate() {
-      var age = selectedAge();
-      var code = (codeEl.value || '').trim();
-      var ok = true;
-      msgEl.textContent = '';
-
-      if (!age) {
-        ok = false;
-        msgEl.textContent = 'Select an age group.';
-      } else if (age === 'under' && code.length === 0) {
-        ok = false;
-        msgEl.textContent = 'Enter the under-18 discount code.';
-      }
-      setAmount(computeAmount());
+    function validate(){
+      var ok = true; msgEl.textContent = '';
+      if(!age()){ ok=false; msgEl.textContent='Select an age group.'; }
+      else if(age()==='under' && (codeEl.value||'').trim().length===0){ ok=false; msgEl.textContent='Enter the under-18 discount code.'; }
+      setAmount(compute());
       return ok;
     }
 
@@ -96,26 +73,21 @@
     form.addEventListener('change', validate);
     validate();
 
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      if (!validate()) return;
-
-      var href = btn.getAttribute('href') || '';
-      if (!href || href === '#') {
-        alert('Add your PayPal link to the Checkout button href. Amount will be appended automatically.');
+    form.addEventListener('submit', function(e){
+      if(!validate()){ e.preventDefault(); return; }
+      if(!PAYPAL_BASE){
+        e.preventDefault();
+        alert('Add your PayPal link inside PAYPAL_BASE in checkout.html');
         return;
       }
-      var returnUrl = location.origin + '/thank-you.html';
-      var cancelUrl = location.origin + '/checkout.html';
-
-      try {
-        var u = new URL(href);
-        u.searchParams.set('amount', Number(computeAmount()).toFixed(2));
-        u.searchParams.set('return', returnUrl);
-        u.searchParams.set('cancel_return', cancelUrl);
-        window.location.assign(u.toString());
-      } catch (err) {
-        window.location.assign(href);
+      try{
+        var u = new URL(PAYPAL_BASE);
+        u.searchParams.set('amount', Number(compute()).toFixed(2));
+        u.searchParams.set('return', location.origin + '/thank-you.html');
+        u.searchParams.set('cancel_return', location.origin + '/checkout.html');
+        form.action = u.toString(); // submit directly to PayPal
+      }catch(err){
+        form.action = PAYPAL_BASE;
       }
     });
   })();
