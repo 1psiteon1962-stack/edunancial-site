@@ -1,7 +1,57 @@
 {
-  "EDN-MINI-EM-001": {"title":"Mini Course: Edunancial Method","amount":"75.00","currency":"USD"},
-  "EDN-CRS-MIX-001": {"title":"Mini Course: Edunancial Method","amount":"75.00","currency":"USD"},
-  "EDN-BK-RE-001":   {"title":"Book: Buying & Flipping Houses for Profit","amount":"18.99","currency":"USD"},
-  "EDN-BK-PA-001":   {"title":"Book: Options Trading","amount":"18.99","currency":"USD"},
-  "EDN-BK-BO-001":   {"title":"Book: Business is About Making Profit","amount":"18.99","currency":"USD"}
+  "siteName": "Edunancial",
+  "currency": "USD",
+
+  "paypal": {
+    "clientId": "YOUR_PAYPAL_LIVE_CLIENT_ID",
+    "currency": "USD",
+    "intent": "CAPTURE"
+  },
+
+  "memberships": {
+    "starter": {
+      "name": "Starter",
+      "price": 5,
+      "interval": "month",
+      "benefits": [
+        "Member pricing on courses and paperback books",
+        "Members-only downloads (worksheets, checklists)",
+        "Email preferences & compliance (you choose what we send)"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price": 15,
+      "interval": "month",
+      "benefits": [
+        "Everything in Starter",
+        "Priority email/chat support for account & course access",
+        "Access to live Business Formation webinar sessions"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": 25,
+      "interval": "month",
+      "benefits": [
+        "Everything in Growth",
+        "Deeper member discounts on select programs",
+        "Early access to new courses and tools"
+      ]
+    }
+  },
+
+  "discounts": {
+    "edunancial2025": {
+      "percentOff": 25,
+      "appliesTo": ["books", "courses", "memberships"]
+    },
+    "student": {
+      "percentOff": 50,
+      "appliesTo": ["books", "courses"],
+      "conditions": ["under18", "nonprofit"]
+    }
+  },
+
+  "adminHash": "REPLACE_WITH_SHA256_HASH_OF_YOUR_ADMIN_CODE"
 }
