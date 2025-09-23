@@ -1,299 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Membership — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preload" href="/header.js?v=3" as="script">
-  <style>
-    .wrap{max-width:980px;margin:0 auto}
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:18px;margin:14px 0}
-    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    label b{display:block;margin-bottom:6px}
-    input,select,textarea{width:100%;padding:10px;border:1px solid #e1e1e1;border-radius:10px}
-    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-    .btn{border:0;background:#1565d8;color:#fff;padding:12px 16px;border-radius:10px;font-weight:700;cursor:pointer}
-    .btn-link{background:none;border:none;color:#1565d8;font-weight:700;cursor:pointer}
-    .muted{color:#666}
-    .price{font-size:1.1rem}
-    .strike{text-decoration:line-through;color:#888;margin-right:8px}
-    .notice{background:#fff7e6;border:1px solid #ffd59e;padding:10px;border-radius:10px}
-    .success{background:#e8fff1;border:1px solid #a6e7c7;padding:10px;border-radius:10px}
-    .danger{background:#ffecec;border:1px solid #ffb3b3;padding:10px;border-radius:10px}
-    .tiers{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .tier{border:1px solid #e6e6e6;border-radius:12px;padding:14px}
-    .tier h3{margin:6px 0}
-  </style>
+  <link rel="stylesheet" href="/style.css?v=4">
+  <link rel="stylesheet" href="/css-cart.css?v=4">
+  <script src="/header.js?v=3" defer></script>
 </head>
 <body>
-  <header class="site-header" data-nav="en"></header>
-  <script defer src="/header.js?v=3"></script>
+  <header class="site-header">
+    <a class="site-header_logo" href="/index.html">EDUNANCIAL</a>
+    <nav>
+      <a href="/books.html">Books</a>
+      <a href="/courses.html">Courses</a>
+      <a href="/payments.html">Payments</a>
+      <a href="/call-center.html">Call Center</a>
+      <a href="/vendor-program.html">Vendor Program</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/refunds.html">Refunds</a>
+    </nav>
+    <div class="lang">
+      <a class="pill pill--on">EN</a>
+      <a class="pill" href="/es-membership.html">ES</a>
+    </div>
+  </header>
 
-  <main class="wrap">
-    <h1>Join Edunancial</h1>
-    <p class="muted">Membership unlocks books, courses, member pricing, and future benefits. Bilingual support (EN/ES).</p>
-
-    <!-- Success on return from PayPal -->
-    <div id="paidBox" class="success" style="display:none">Thank you! Your membership is active. You now have access to Books and Courses.</div>
-
-    <!-- Admin bypass hint (hidden) -->
-    <div id="bypassBox" class="notice" style="display:none">Bypass enabled for this browser session (admin/testing).</div>
+  <main class="container">
+    <!-- Hero -->
+    <section class="card">
+      <h1>Membership — Start for $5</h1>
+      <p>Become a member to access lessons, member pricing on courses & paperback books, and members-only downloads. Upgrade anytime.</p>
+    </section>
 
     <!-- Tiers -->
-    <section class="tiers card">
-      <div class="tier">
-        <h3>Entry — $5/mo</h3>
+    <section class="grid-1-1-1">
+      <div class="card">
+        <h2>Starter — $5/mo</h2>
         <ul>
-          <li>Monthly pamphlet (EN/ES)</li>
-          <li>1 mini course replay / month</li>
-          <li>15% off one book or live course</li>
-          <li>Member codes (nonprofit / under-18)</li>
+          <li>Member pricing on courses & paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences & compliance (you choose what we send)</li>
         </ul>
+        <button class="btn" data-join data-level="starter" data-price="5.00">Join Starter</button>
       </div>
-      <div class="tier">
-        <h3>Standard — $29/mo</h3>
+
+      <div class="card">
+        <h2>Growth — $15/mo</h2>
         <ul>
-          <li>Everything in Entry</li>
-          <li>Member pricing on paperback library</li>
-          <li>2 mini courses / month (live or replay)</li>
-          <li>25% off all courses and events</li>
-          <li>Early access to special codes</li>
+          <li>Everything in Starter</li>
+          <li>Priority email/chat support for account & course access</li>
+          <li>Access to live <em>Business Formation</em> webinar sessions</li>
         </ul>
+        <button class="btn" data-join data-level="growth" data-price="15.00">Join Growth</button>
       </div>
-      <div class="tier">
-        <h3>Premium — $59/mo</h3>
+
+      <div class="card">
+        <h2>Pro — $25/mo</h2>
         <ul>
-          <li>Everything in Standard</li>
-          <li>Unlimited replays</li>
-          <li>50% off live courses</li>
-          <li>Business formation webinar access</li>
-          <li>Priority email/chat support</li>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+          <li>Early access to new courses and tools</li>
         </ul>
+        <button class="btn" data-join data-level="pro" data-price="25.00">Join Pro</button>
       </div>
     </section>
 
-    <!-- Discount bar -->
+    <!-- Discount + Profile + Consents -->
     <section class="card">
-      <div class="row">
+      <h2>Apply a code & create your account</h2>
+
+      <div class="grid-1-1">
         <div>
-          <label for="tier"><b>Select membership</b></label>
-          <select id="tier">
-            <option value="ENTRY|5">Entry — $5/month</option>
-            <option value="STANDARD|29">Standard — $29/month</option>
-            <option value="PREMIUM|59">Premium — $59/month</option>
+          <label for="tierSelect">Select membership</label>
+          <select id="tierSelect">
+            <option value="starter" selected>Starter — $5/month</option>
+            <option value="growth">Growth — $15/month</option>
+            <option value="pro">Pro — $25/month</option>
           </select>
         </div>
+
         <div>
-          <label for="code"><b>Discount / Partner Code</b></label>
-          <input id="code" type="text" placeholder="EARLYBIRD, NP25, STUDENT50, ANNUAL50">
+          <label for="discountInput">Discount / Partner Code</label>
+          <input id="discountInput" type="text" placeholder="Enter code (optional)" autocomplete="off">
+          <div id="discountMsg" class="small muted" aria-live="polite"></div>
         </div>
-        <div class="price"><span id="priceView"></span></div>
       </div>
-      <div class="muted" id="codeMsg"></div>
+
+      <div class="price-line">
+        <strong>Total today:</strong> <span id="priceToday">$5.00 /mo</span>
+      </div>
+
+      <hr>
+
+      <div class="grid-1-1-1">
+        <div>
+          <label>Full name</label>
+          <input id="nameInput" type="text" placeholder="Your name">
+        </div>
+        <div>
+          <label>Email</label>
+          <input id="emailInput" type="email" placeholder="you@example.com">
+        </div>
+        <div>
+          <label>Password</label>
+          <input id="passInput" type="password" placeholder="Choose a password">
+        </div>
+      </div>
+
+      <details class="small">
+        <summary>Optional profile</summary>
+        <div class="grid-1-1-1">
+          <div>
+            <label>Age range</label>
+            <select id="ageRange">
+              <option>Prefer not to say</option>
+              <option>Under 18</option>
+              <option>18–24</option>
+              <option>25–34</option>
+              <option>35–44</option>
+              <option>45–54</option>
+              <option>55–64</option>
+              <option>65+</option>
+            </select>
+          </div>
+          <div>
+            <label>Education level</label>
+            <select id="eduLevel">
+              <option>Prefer not to say</option>
+              <option>High school</option>
+              <option>Some college</option>
+              <option>Bachelor’s</option>
+              <option>Graduate</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div>
+            <label>Entrepreneur status</label>
+            <select id="entreStatus">
+              <option>Prefer not to say</option>
+              <option>Considering it</option>
+              <option>Side-hustle</option>
+              <option>Full-time entrepreneur</option>
+            </select>
+          </div>
+        </div>
+      </details>
+
+      <div class="consents">
+        <label><input id="agreeTerms" type="checkbox"> I agree to the <a href="/terms.html" target="_blank">Terms</a> and <a href="/privacy.html" target="_blank">Privacy</a>.</label>
+        <label><input id="agreeEmail" type="checkbox"> I consent to receive emails from Edunancial.</label>
+        <label><input id="agreeAge" type="checkbox"> I am 18+ or have parental consent.</label>
+      </div>
+
+      <div class="actions">
+        <button class="btn" id="joinWithPayPal">Join with PayPal</button>
+        <span id="joinMsg" class="small muted" aria-live="polite"></span>
+      </div>
+
+      <div class="small muted">Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> · <a href="/cart.html">View Cart</a></div>
     </section>
 
-    <!-- Signup form -->
-    <section class="card">
-      <h2>Create your account</h2>
-      <div class="grid">
-        <div>
-          <label><b>Full name</b></label>
-          <input id="name" type="text" placeholder="Your name">
+    <!-- Admin entry (for you) -->
+    <section class="card small">
+      <details>
+        <summary>Admin access</summary>
+        <div class="grid-1-1">
+          <input id="adminCode" type="password" placeholder="Enter admin code">
+          <button class="btn" id="adminUnlock">Unlock</button>
         </div>
-        <div>
-          <label><b>Email</b></label>
-          <input id="email" type="email" placeholder="you@example.com" autocomplete="email">
-        </div>
-        <div>
-          <label><b>Password</b></label>
-          <input id="password" type="password" placeholder="Choose a password">
-        </div>
-      </div>
-      <h3 style="margin-top:14px">Optional profile</h3>
-      <div class="grid">
-        <div>
-          <label><b>Age range</b></label>
-          <select id="age">
-            <option value="">Prefer not to say</option>
-            <option>Under 18</option>
-            <option>18–24</option>
-            <option>25–34</option>
-            <option>35–44</option>
-            <option>45–54</option>
-            <option>55+</option>
-          </select>
-        </div>
-        <div>
-          <label><b>Education level</b></label>
-          <select id="edu">
-            <option value="">Prefer not to say</option>
-            <option>High school</option>
-            <option>Some college</option>
-            <option>Associate/Bachelor’s</option>
-            <option>Graduate</option>
-          </select>
-        </div>
-        <div>
-          <label><b>Entrepreneur status</b></label>
-          <select id="entre">
-            <option value="">Prefer not to say</option>
-            <option>Thinking about it</option>
-            <option>Side hustle</option>
-            <option>Full-time entrepreneur</option>
-          </select>
-        </div>
-      </div>
-
-      <h3 style="margin-top:14px">Consents</h3>
-      <label><input id="agreeTerms" type="checkbox"> I agree to the <a href="/terms.html" target="_blank">Terms</a> and <a href="/privacy.html" target="_blank">Privacy</a>.</label><br>
-      <label><input id="agreeEmail" type="checkbox"> I consent to receive emails from Edunancial.</label><br>
-      <label><input id="age18" type="checkbox"> I am 18+ or have parental consent.</label>
-
-      <div class="row" style="margin-top:14px">
-        <button class="btn" id="joinBtn" type="button">Join with PayPal</button>
-        <span id="joinMsg" class="muted"></span>
-      </div>
+        <div class="small muted">This is a temporary, client-side bypass for site testing. Replace the hash in <code>membership.js</code> to change the code.</div>
+      </details>
     </section>
 
-    <section class="card">
-      <h2>Already a member?</h2>
-      <div class="row">
-        <a class="btn" style="text-decoration:none" href="/books.html">Go to Books</a>
-        <a class="btn" style="text-decoration:none" href="/courses.html">Go to Courses</a>
-      </div>
-    </section>
   </main>
 
-  <script>
-    // ---------- pricing & codes ----------
-    const DISC = {
-      // examples: adjust or add as needed
-      'EARLYBIRD':   {type:'flat', entry:3, standard:25, premium:49, note:'Early adopter pricing'},
-      'NP25':        {type:'percent', pct:50, note:'Nonprofit / Student 50% off (verify as needed)'},
-      'STUDENT50':   {type:'percent', pct:50, note:'Student 50% off'},
-      'ANNUAL50':    {type:'annual', entryYear:50, standardYear:300, premiumYear:600, note:'Annual prepay offer'},
-    };
-    const norm = s => (s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
+  <footer class="container small muted" style="margin-bottom:64px">
+    © 2025 Edunancial, Inc. • All rights reserved.
+  </footer>
 
-    function calcPrice(tierVal, codeRaw){
-      const [tier, baseStr] = tierVal.split('|');
-      const base = +baseStr;
-      const code = norm(codeRaw);
-      const rule = DISC[code];
-      let price = base, cadence='monthly';
-
-      if (rule){
-        if (rule.type==='flat'){
-          price = (tier==='ENTRY'?rule.entry: tier==='STANDARD'?rule.standard: rule.premium);
-        } else if (rule.type==='percent'){
-          const pct = Math.max(0, Math.min(100, +rule.pct||0));
-          price = +(base * (1 - pct/100)).toFixed(2);
-        } else if (rule.type==='annual'){
-          cadence='annual';
-          price = (tier==='ENTRY'?rule.entryYear: tier==='STANDARD'?rule.standardYear: rule.premiumYear);
-        }
-      }
-      return { price, cadence, note: rule?rule.note:'' };
-    }
-
-    function refreshPrice(){
-      const tierVal = document.getElementById('tier').value;
-      const codeRaw = document.getElementById('code').value || '';
-      const {price, cadence, note} = calcPrice(tierVal, codeRaw);
-      const [tier, baseStr] = tierVal.split('|');
-      const base = +baseStr;
-      const strike = (cadence==='monthly' && price<base) ? `<span class="strike">$${base.toFixed(2)}/mo</span>` : '';
-      document.getElementById('priceView').innerHTML = `${strike} <b>$${price.toFixed(2)}</b> ${cadence==='monthly' ? '/mo' : '/year'}`;
-      document.getElementById('codeMsg').textContent = note || (codeRaw? 'Code not recognized' : '');
-      localStorage.setItem('edn_discount_membership', codeRaw);
-    }
-
-    // ---------- join flow ----------
-    async function joinNow(){
-      const name = (document.getElementById('name').value||'').trim();
-      const email= (document.getElementById('email').value||'').trim();
-      const pass = (document.getElementById('password').value||'').trim();
-      const tierVal = document.getElementById('tier').value;
-      const codeRaw = document.getElementById('code').value||'';
-      const {price, cadence} = calcPrice(tierVal, codeRaw);
-      const [tier] = tierVal.split('|');
-
-      if(!name || !email || !pass){
-        return msg('Please complete name, email, and password.');
-      }
-      if(!document.getElementById('agreeTerms').checked ||
-         !document.getElementById('agreeEmail').checked ||
-         !document.getElementById('age18').checked){
-        return msg('Please accept all consents to continue.');
-      }
-
-      // payload for your Netlify function → creates PayPal subscription/order
-      const payload = {
-        name, email,
-        tier, cadence,
-        price,
-        code: codeRaw,
-        profile: {
-          age: document.getElementById('age').value,
-          education: document.getElementById('edu').value,
-          entrepreneur: document.getElementById('entre').value
-        },
-        returnUrl: window.location.origin + '/membership.html?paid=1'
-      };
-
-      try{
-        msg('Creating your membership…');
-        const res = await fetch('/.netlify/functions/create-membership',{
-          method:'POST',
-          headers:{'Content-Type':'application/json'},
-          body: JSON.stringify(payload)
-        });
-        if(!res.ok) throw new Error('Create membership failed');
-        const data = await res.json();
-        if(data && data.redirectUrl){
-          // store a hint locally so we can unlock on return
-          localStorage.setItem('edn_member_pending', JSON.stringify({email,tier,cadence}));
-          window.location.href = data.redirectUrl;
-        }else{
-          throw new Error('Missing redirect URL');
-        }
-      }catch(e){
-        console.error(e);
-        msg('Something went wrong starting the payment. Please try again.', true);
-      }
-    }
-
-    function msg(text, isErr=false){
-      const el = document.getElementById('joinMsg');
-      el.textContent = text;
-      el.className = isErr? 'danger' : 'muted';
-    }
-
-    // ---------- unlock logic ----------
-    function setMemberActive(){
-      localStorage.setItem('edn_member','true');
-      const pend = localStorage.getItem('edn_member_pending');
-      if(pend){ localStorage.removeItem('edn_member_pending'); }
-      document.getElementById('paidBox').style.display='block';
-    }
-
-    // query helpers
-    const q = new URLSearchParams(location.search);
-    if(q.get('paid')==='1'){ setMemberActive(); history.replaceState(null,'',location.pathname); }
-    if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); document.getElementById('bypassBox').style.display='block'; }
-
-    // events
-    document.getElementById('tier').addEventListener('change', refreshPrice);
-    document.getElementById('code').addEventListener('input', refreshPrice);
-    document.getElementById('joinBtn').addEventListener('click', joinNow);
-
-    // init
-    (function init(){
-      const saved = localStorage.getItem('edn_discount_membership')||'';
-      if(saved) document.getElementById('code').value = saved;
-      refreshPrice();
-    })();
-  </script>
+  <!-- Frontend logic for codes, totals, PayPal handoff, admin bypass -->
+  <script src="/membership.js?v=1"></script>
 </body>
 </html>
