@@ -1,133 +1,98 @@
+<!-- /header.js -->
 <script>
-// ===== EDUNANCIAL SHARED HEADER / ADMIN BOX =====
-// v4 - renders nav, language toggle, and an unlabeled admin input next to "View Cart".
-// Admin code is hashed and compared to /config.json.adminHash. On success, Admin Mode is set.
+(async function(){
+  // Fallback styles so the red header never disappears
+  const css = `
+  :root{--brand:#d11;--bg:#fff;--text:#111;--border:#e6e6e6}
+  body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg)}
+  .site-header{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 16px;background:#d11;color:#fff}
+  .site-header a{color:#fff;text-decoration:none;font-weight:600}
+  .site-header .nav{display:flex;flex-wrap:wrap;gap:14px}
+  .pill{background:#fff;color:#d11;border-radius:999px;padding:4px 10px;font-weight:700}
+  .container{max-width:980px;margin:0 auto;padding:0 16px}
+  .btn{display:inline-block;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:#1565d8;color:#fff;text-decoration:none;font-weight:600}
+  .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .admin-input{width:110px;height:36px;border-radius:8px;border:1px solid var(--border);padding:0 10px}
+  `;
+  const s = document.createElement("style"); s.textContent = css; document.head.appendChild(s);
 
-(function(){
-  const STATE = {
-    cfg: null,
-    adminOn: false
-  };
+  window.EDN = window.EDN || {};
 
-  // ---------- utils ----------
-  function $(sel, root=document){ return root.querySelector(sel); }
-  function $all(sel, root=document){ return Array.from(root.querySelectorAll(sel)); }
-  function toHex(buf){
-    const arr = new Uint8Array(buf);
-    return Array.from(arr).map(b=>b.toString(16).padStart(2,'0')).join('');
+  // Load config.json for site values (cart currency etc.)
+  let CONFIG = {};
+  try{
+    const res = await fetch("/config.json", { cache: "no-store" });
+    if(res.ok) CONFIG = await res.json();
+  }catch(_){}
+
+  function cartCount(){
+    try{ const c = JSON.parse(localStorage.getItem("edn_cart")||"[]"); return c.reduce((n,i)=>n+Number(i.qty||1),0); }
+    catch(_){ return 0; }
   }
-  async function sha256Hex(str){
-    const enc = new TextEncoder().encode(str);
-    const digest = await crypto.subtle.digest('SHA-256', enc);
-    return toHex(digest);
-  }
-  function loadConfig(){
-    return fetch('/config.json', {cache:'no-store'})
-      .then(r=>r.ok ? r.json() : {})
-      .catch(()=>({}));
-  }
-  function setAdmin(on){
-    STATE.adminOn = !!on;
-    try { localStorage.setItem('edn_admin', on ? '1' : '0'); } catch(e){}
-    // badge
-    let badge = $('#edn-admin-badge');
-    if(!badge){
-      badge = document.createElement('span');
-      badge.id = 'edn-admin-badge';
-      badge.textContent = 'Admin';
-      badge.style.cssText = 'position:fixed;right:8px;bottom:8px;background:#1565d8;color:#fff;padding:6px 10px;border-radius:8px;font:600 12px system-ui;z-index:9999;opacity:.9;display:none';
-      document.body.appendChild(badge);
+
+  function setLang(to){
+    if(to==='es'){
+      const p = location.pathname.replace(/^\/es-?/,'');
+      location.href = "/es-" + (p || "index.html");
+    } else {
+      location.href = location.pathname.replace(/^\/es-?/, '/');
     }
-    badge.style.display = on ? 'inline-block' : 'none';
   }
-  function restoreAdmin(){
+
+  EDN.adminLogin = async function(raw){
+    const code = (raw || "").trim();
+    if(!code) return;
+
     try{
-      const v = localStorage.getItem('edn_admin');
-      if(v === '1') setAdmin(true);
-    }catch(e){}
-  }
-
-  // ---------- nav/header renderer (minimal, uses existing site CSS) ----------
-  function ensureHeaderLoaded(){
-    // If your pages already include a static header, skip. Otherwise this can inject one.
-    // (We keep this light; your site already has header HTML.)
-  }
-
-  // ---------- admin input next to "View Cart" ----------
-  function injectAdminBox(){
-    // Find "View Cart" link or any anchor to cart.html
-    const anchors = $all('a');
-    const cartLink = anchors.find(a =>
-      /cart\.html/i.test(a.getAttribute('href') || '') ||
-      a.textContent.trim().toLowerCase() === 'view cart'
-    );
-    if(!cartLink) return;
-
-    // Wrap the link and add a tiny input box after it (no label, per request)
-    const wrap = document.createElement('span');
-    wrap.style.cssText = 'display:inline-flex;gap:8px;align-items:center;margin-left:8px';
-    cartLink.after(wrap);
-    wrap.appendChild(cartLink);
-
-    const input = document.createElement('input');
-    input.type = 'password';
-    input.autocomplete = 'off';
-    input.placeholder = ''; // unlabeled, no placeholder
-    input.id = 'edn-admin-input';
-    input.style.cssText = 'width:120px;height:28px;border:1px solid #e0e0e0;border-radius:8px;padding:0 8px;font:400 14px system-ui';
-    wrap.appendChild(input);
-
-    // Hide input if already admin
-    if(STATE.adminOn) input.style.display = 'none';
-
-    input.addEventListener('keydown', async (e)=>{
-      if(e.key !== 'Enter') return;
-      const code = input.value.trim();
-      if(!code) return;
-      const enteredHash = await sha256Hex(code);
-      // compare against config
-      const expected = (STATE.cfg && STATE.cfg.adminHash || '').toLowerCase();
-      if(expected && enteredHash === expected){
-        setAdmin(true);
-        // tiny success blink
-        input.value = '';
-        input.style.display = 'none';
-        toast('Admin mode enabled');
-        // optional: jump to Books so you can start testing
-        // location.href = '/books.html';
-      }else{
-        shake(input);
+      const res = await fetch("/.netlify/functions/admin-login", {
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({ code })
+      });
+      if(!res.ok){
+        alert("Invalid admin code");
+        return;
       }
-    });
-  }
-
-  // ---------- small helpers ----------
-  function toast(msg){
-    let t = $('#edn-toast');
-    if(!t){
-      t = document.createElement('div');
-      t.id = 'edn-toast';
-      t.style.cssText = 'position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#111;color:#fff;padding:10px 14px;border-radius:10px;font:500 13px system-ui;opacity:0;transition:opacity .2s;z-index:9999';
-      document.body.appendChild(t);
+      const { token } = await res.json();
+      localStorage.setItem("edn_admin_token", token);
+      // Visual confirmation (optional)
+      const box = document.getElementById("edn-admin-box");
+      if (box){ box.value = "✓"; setTimeout(()=>{ box.value=""; }, 900); }
+      // Stay put; your gate script will already let you navigate everywhere
+    }catch(e){
+      alert("Admin login failed");
     }
-    t.textContent = msg;
-    t.style.opacity = '0.9';
-    setTimeout(()=> t.style.opacity = '0', 1500);
-  }
-  function shake(el){
-    el.style.transition = 'transform .08s';
-    let n=0, id=setInterval(()=>{
-      el.style.transform = `translateX(${(n%2? -1:1)*6}px)`;
-      if(++n>6){ clearInterval(id); el.style.transform=''; }
-    },80);
   }
 
-  // ---------- init ----------
-  document.addEventListener('DOMContentLoaded', async ()=>{
-    ensureHeaderLoaded();
-    restoreAdmin();
-    STATE.cfg = await loadConfig();
-    injectAdminBox();
-  });
+  // Render header if not present (keeps your existing header if you already insert one)
+  if(!document.querySelector(".site-header")){
+    const wrap = document.createElement("header");
+    wrap.className = "site-header";
+    wrap.innerHTML = `
+      <div class="container row" style="justify-content:space-between;width:100%">
+        <div class="row">
+          <a href="/index.html" style="font-size:20px;font-weight:800;letter-spacing:.4px">EDUNANCIAL</a>
+          <nav class="nav">
+            <a href="/books.html">Books</a>
+            <a href="/courses.html">Courses</a>
+            <a href="/payments.html">Payments</a>
+            <a href="/call-center.html">Call Center</a>
+            <a href="/vendor-program.html">Vendor</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/refunds.html">Refunds</a>
+            <a href="/our-story.html">Our Story</a>
+            <a href="/cart.html">Cart (${cartCount()})</a>
+          </nav>
+        </div>
+        <div class="row">
+          <a class="pill" href="javascript:void 0" onclick="(${setLang}).call(null,'en')">EN</a>
+          <a class="pill" href="javascript:void 0" onclick="(${setLang}).call(null,'es')">ES</a>
+        </div>
+      </div>
+    `;
+    document.body.prepend(wrap);
+  }
 })();
 </script>
