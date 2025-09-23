@@ -1,187 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
   <title>Membership — Edunancial</title>
-  <link rel="stylesheet" href="/style.css?v=4">
-  <link rel="stylesheet" href="/css-cart.css?v=4">
-  <script src="/header.js?v=3" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="site-header_logo" href="/index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/books.html">Books</a>
-      <a href="/courses.html">Courses</a>
-      <a href="/payments.html">Payments</a>
-      <a href="/call-center.html">Call Center</a>
-      <a href="/vendor-program.html">Vendor Program</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/refunds.html">Refunds</a>
-    </nav>
-    <div class="lang">
-      <a class="pill pill--on">EN</a>
-      <a class="pill" href="/es-membership.html">ES</a>
-    </div>
-  </header>
+  <script src="/header.js"></script>
 
-  <main class="container">
-    <!-- Hero -->
-    <section class="card">
-      <h1>Membership — Start for $5</h1>
-      <p>Become a member to access lessons, member pricing on courses & paperback books, and members-only downloads. Upgrade anytime.</p>
-    </section>
+  <main class="container" style="padding:18px 0">
+    <h1>Membership — Start for $5</h1>
+    <p>Membership unlocks books, courses, member pricing, and members-only materials. Upgrade anytime.</p>
 
-    <!-- Tiers -->
-    <section class="grid-1-1-1">
-      <div class="card">
-        <h2>Starter — $5/mo</h2>
+    <div style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <div id="join-starter" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Starter — $5/mo</h3>
         <ul>
-          <li>Member pricing on courses & paperback books</li>
+          <li>Member pricing on courses and paperback books</li>
           <li>Members-only downloads (worksheets, checklists)</li>
           <li>Email preferences & compliance (you choose what we send)</li>
         </ul>
-        <button class="btn" data-join data-level="starter" data-price="5.00">Join Starter</button>
+        <a class="btn" href="/checkout.html?type=membership&tier=starter&price=5">Join Starter</a>
       </div>
 
-      <div class="card">
-        <h2>Growth — $15/mo</h2>
+      <div id="join-growth" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Growth — $15/mo</h3>
         <ul>
           <li>Everything in Starter</li>
           <li>Priority email/chat support for account & course access</li>
           <li>Access to live <em>Business Formation</em> webinar sessions</li>
         </ul>
-        <button class="btn" data-join data-level="growth" data-price="15.00">Join Growth</button>
+        <a class="btn" href="/checkout.html?type=membership&tier=growth&price=15">Join Growth</a>
       </div>
 
-      <div class="card">
-        <h2>Pro — $25/mo</h2>
+      <div id="join-pro" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Pro — $25/mo</h3>
         <ul>
           <li>Everything in Growth</li>
           <li>Deeper member discounts on select programs</li>
           <li>Early access to new courses and tools</li>
         </ul>
-        <button class="btn" data-join data-level="pro" data-price="25.00">Join Pro</button>
+        <a class="btn" href="/checkout.html?type=membership&tier=pro&price=25">Join Pro</a>
       </div>
-    </section>
+    </div>
 
-    <!-- Discount + Profile + Consents -->
-    <section class="card">
-      <h2>Apply a code & create your account</h2>
-
-      <div class="grid-1-1">
-        <div>
-          <label for="tierSelect">Select membership</label>
-          <select id="tierSelect">
-            <option value="starter" selected>Starter — $5/month</option>
-            <option value="growth">Growth — $15/month</option>
-            <option value="pro">Pro — $25/month</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="discountInput">Discount / Partner Code</label>
-          <input id="discountInput" type="text" placeholder="Enter code (optional)" autocomplete="off">
-          <div id="discountMsg" class="small muted" aria-live="polite"></div>
-        </div>
-      </div>
-
-      <div class="price-line">
-        <strong>Total today:</strong> <span id="priceToday">$5.00 /mo</span>
-      </div>
-
-      <hr>
-
-      <div class="grid-1-1-1">
-        <div>
-          <label>Full name</label>
-          <input id="nameInput" type="text" placeholder="Your name">
-        </div>
-        <div>
-          <label>Email</label>
-          <input id="emailInput" type="email" placeholder="you@example.com">
-        </div>
-        <div>
-          <label>Password</label>
-          <input id="passInput" type="password" placeholder="Choose a password">
-        </div>
-      </div>
-
-      <details class="small">
-        <summary>Optional profile</summary>
-        <div class="grid-1-1-1">
-          <div>
-            <label>Age range</label>
-            <select id="ageRange">
-              <option>Prefer not to say</option>
-              <option>Under 18</option>
-              <option>18–24</option>
-              <option>25–34</option>
-              <option>35–44</option>
-              <option>45–54</option>
-              <option>55–64</option>
-              <option>65+</option>
-            </select>
-          </div>
-          <div>
-            <label>Education level</label>
-            <select id="eduLevel">
-              <option>Prefer not to say</option>
-              <option>High school</option>
-              <option>Some college</option>
-              <option>Bachelor’s</option>
-              <option>Graduate</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div>
-            <label>Entrepreneur status</label>
-            <select id="entreStatus">
-              <option>Prefer not to say</option>
-              <option>Considering it</option>
-              <option>Side-hustle</option>
-              <option>Full-time entrepreneur</option>
-            </select>
-          </div>
-        </div>
-      </details>
-
-      <div class="consents">
-        <label><input id="agreeTerms" type="checkbox"> I agree to the <a href="/terms.html" target="_blank">Terms</a> and <a href="/privacy.html" target="_blank">Privacy</a>.</label>
-        <label><input id="agreeEmail" type="checkbox"> I consent to receive emails from Edunancial.</label>
-        <label><input id="agreeAge" type="checkbox"> I am 18+ or have parental consent.</label>
-      </div>
-
-      <div class="actions">
-        <button class="btn" id="joinWithPayPal">Join with PayPal</button>
-        <span id="joinMsg" class="small muted" aria-live="polite"></span>
-      </div>
-
-      <div class="small muted">Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> · <a href="/cart.html">View Cart</a></div>
-    </section>
-
-    <!-- Admin entry (for you) -->
-    <section class="card small">
-      <details>
-        <summary>Admin access</summary>
-        <div class="grid-1-1">
-          <input id="adminCode" type="password" placeholder="Enter admin code">
-          <button class="btn" id="adminUnlock">Unlock</button>
-        </div>
-        <div class="small muted">This is a temporary, client-side bypass for site testing. Replace the hash in <code>membership.js</code> to change the code.</div>
-      </details>
-    </section>
-
+    <p style="margin-top:16px">
+      Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> &nbsp;•&nbsp;
+      <a href="/cart.html">View Cart</a>
+      <input id="edn-admin-box" class="admin-input" type="password" placeholder=""
+             onkeydown="if(event.key==='Enter'){EDN.adminLogin(this.value)}">
+    </p>
   </main>
-
-  <footer class="container small muted" style="margin-bottom:64px">
-    © 2025 Edunancial, Inc. • All rights reserved.
-  </footer>
-
-  <!-- Frontend logic for codes, totals, PayPal handoff, admin bypass -->
-  <script src="/membership.js?v=1"></script>
 </body>
 </html>
