@@ -1,126 +1,82 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
   <title>Checkout — Edunancial</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <style>
-    :root { --brand:#c8102e; }
-    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:#fafafa; }
-    .banner{background:var(--brand);color:#fff}
-    .wrap{max-width:960px;margin:0 auto;padding:0 16px}
-    .nav{display:flex;align-items:center;gap:20px;padding:12px 0}
-    .brand{font-weight:800;letter-spacing:.5px}
-    .pill{display:inline-flex;align-items:center;border-radius:999px;padding:6px 12px;background:#000;color:#fff;font-weight:700}
-    .pill.alt{background:#fff;color:#000}
-    main{padding:18px 0 40px}
-    .card{background:#fff;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.08);padding:18px}
-    .row{margin:14px 0}
-    .row label{display:block;font-weight:600;margin-bottom:6px}
-    .radio{display:flex;gap:18px;align-items:center}
-    .radio label{font-weight:400}
-    input[type="text"]{width:100%;padding:10px 12px;font-size:16px;border:1px solid #ccc;border-radius:10px}
-    .price{font-weight:800;margin-top:4px}
-    .btn{appearance:none;border:0;border-radius:12px;background:#0070e0;color:#fff;padding:12px 18px;font-weight:800;cursor:pointer}
-    .btn[disabled]{opacity:.45;cursor:not-allowed}
-    .foot{margin-top:8px;font-size:14px;color:#444}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <header class="banner">
-    <div class="wrap nav">
-      <div class="brand">EDUNANCIAL</div>
-      <div style="margin-left:auto;display:flex;gap:8px">
-        <a class="pill alt" href="/checkout.html" aria-current="page">EN</a>
-        <a class="pill" href="/es-checkout.html">ES</a>
+  <script src="/header.js"></script>
+  <script src="/js/membership-gate.js"></script>
+
+  <main class="container" style="padding:18px 0">
+    <h1>Checkout</h1>
+    <div id="sum" class="card" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin-bottom:14px"></div>
+
+    <div class="card" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+      <h3>Contact</h3>
+      <div class="row" style="gap:10px;margin:8px 0">
+        <input id="email" type="email" placeholder="Email" style="height:38px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px;width:280px">
+        <input id="name" type="text" placeholder="Full name (optional)" style="height:38px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px;width:280px">
       </div>
+      <button class="btn" id="ppBtn">Continue to PayPal</button>
     </div>
-  </header>
-
-  <main class="wrap">
-    <section class="card">
-      <h1 style="margin:0 0 6px;">Checkout</h1>
-      <div style="opacity:.8;font-weight:700;letter-spacing:.3px;margin-bottom:10px">
-        SKU: <span id="sku">EDN-CRS-MIX-001</span>
-      </div>
-
-      <div class="row">
-        <label>Select your age group:</label>
-        <div class="radio" role="radiogroup" aria-label="Age group">
-          <label><input type="radio" name="age" value="adult"> 18 or older</label>
-          <label><input type="radio" name="age" value="under"> Under 18</label>
-        </div>
-      </div>
-
-      <div class="row">
-        <label for="code">Discount / Under-18 Code:</label>
-        <input id="code" type="text" placeholder="Enter code" autocomplete="one-time-code" inputmode="latin" />
-      </div>
-
-      <div class="row">
-        <div>Price:</div>
-        <div class="price" id="price">$75.00</div>
-      </div>
-
-      <div class="row">
-        <button id="payBtn" class="btn" disabled>Continue to PayPal</button>
-      </div>
-
-      <div class="foot">
-        By paying you agree to our <a href="/terms.html">Terms</a> and <a href="/refunds.html">Refunds</a>.
-      </div>
-    </section>
-
-    <p style="text-align:center;opacity:.7;margin-top:16px;">© 2025 Edunancial, Inc.</p>
   </main>
 
-  <script>
-    // ---- PASTE YOUR TWO LIVE PAYPAL LINKS HERE ----
-    // Create them in PayPal: one fixed for $75, one fixed for $3.
-    const PAYPAL_LINK_FULL     = "https://www.paypal.com/ncp/payment/YOUR_FULL_PRICE_LINK"; // $75.00
-    const PAYPAL_LINK_DISCOUNT = "https://www.paypal.com/ncp/payment/YOUR_THREE_DOLLAR_LINK"; // $3.00
+<script>
+let CONFIG={DISCOUNT_CODES:{}};
+(async()=>{ try{ const r=await fetch("/config.json",{cache:"no-store"}); if(r.ok) CONFIG=await r.json(); }catch(_){} render(); })();
 
-    // Prices shown on page (cosmetic)
-    const FULL_PRICE = 75.00;
-    const DISCOUNT_PRICE = 3.00;
+function priceAfter(item){
+  const base = Number(item.price||0);
+  const qty  = Number(item.qty||1);
+  const code = (item.code||"").trim();
+  let off = 0;
+  if (code && CONFIG.DISCOUNT_CODES && (code in CONFIG.DISCOUNT_CODES)) {
+    off = Number(CONFIG.DISCOUNT_CODES[code]||0);
+  }
+  const p = Math.max(0, base - off);
+  return { unit: p, line: p * qty, off };
+}
 
-    // Valid codes (expand as you onboard nonprofits)
-    const VALID_CODES = new Set(["PR12345$$","PR12345$$$"]);
+function render(){
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  if(!cart.length){ document.getElementById("sum").innerHTML = "Your cart is empty."; return; }
+  let rows = ""; let total=0;
+  cart.forEach(it=>{
+    const c=priceAfter(it); total+=c.line;
+    rows += `<tr><td>${it.name}<div class="small">SKU: ${it.sku} ${(it.code?`· Code: ${it.code}`:"")}</div></td>
+    <td>${it.qty}</td><td>$${c.unit.toFixed(2)}</td><td>$${c.line.toFixed(2)}</td></tr>`;
+  });
+  document.getElementById("sum").innerHTML = `
+    <div style="overflow:auto">
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr style="text-align:left;border-bottom:1px solid #e6e6e6">
+          <th>Item</th><th>Qty</th><th>Unit</th><th>Total</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div class="row" style="justify-content:flex-end;margin-top:10px">
+      <div style="min-width:220px"><strong>Amount due: $${total.toFixed(2)}</strong></div>
+    </div>`;
 
-    // Elements
-    const priceEl = document.getElementById('price');
-    const btn = document.getElementById('payBtn');
-    const codeEl = document.getElementById('code');
-
-    function cleanCode(raw){
-      return (raw||"").normalize("NFKC")
-        .replace(/[\u200B-\u200D\uFEFF]/g,'')
-        .replace(/[^A-Za-z0-9$]/g,'')
-        .toUpperCase();
-    }
-    function selectedAge(){
-      const r=document.querySelector('input[name="age"]:checked');
-      return r ? r.value : null;
-    }
-    function isValid(){
-      const age=selectedAge();
-      const code=cleanCode(codeEl.value);
-      const ok=!!age && VALID_CODES.has(code);
-      priceEl.textContent = ok ? `$${DISCOUNT_PRICE.toFixed(2)}` : `$${FULL_PRICE.toFixed(2)}`;
-      btn.disabled=!ok;
-      return ok;
-    }
-
-    codeEl.addEventListener('input', isValid);
-    document.querySelectorAll('input[name="age"]').forEach(r=>r.addEventListener('change', isValid));
-
-    btn.addEventListener('click', (e)=>{
-      e.preventDefault();
-      if(!isValid()) return;
-      // Route to the correct fixed-price PayPal link.
-      window.location.href = PAYPAL_LINK_DISCOUNT;
-    });
-  </script>
+  document.getElementById("ppBtn").onclick = async function(){
+    const email = (document.getElementById("email").value||"").trim();
+    if(!email){ alert("Enter email"); return; }
+    const payload = { email, name:(document.getElementById("name").value||"").trim(), items:cart };
+    try{
+      const r = await fetch("/.netlify/functions/create-order", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify(payload) });
+      if(r.ok){
+        const data = await r.json();
+        if (data && data.approval_url) { location.href = data.approval_url; return; }
+      }
+      // fallback
+      const f = await fetch("/.netlify/functions/paypal-redirect", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify(payload) });
+      const d = await f.json(); if(d && d.url){ location.href = d.url; return; }
+      alert("Unable to initiate PayPal.");
+    }catch(e){ alert("Checkout error"); }
+  };
+}
+</script>
 </body>
 </html>
