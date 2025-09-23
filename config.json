@@ -1,13 +1,33 @@
 {
-  "SITE_NAME": "Edunancial",
-  "CURRENCY": "USD",
-  "PAYPAL_CLIENT_ID": "YOUR-LIVE-CLIENT-ID",
-  "RETURN_URL": "https://edunancial.com/thank-you.html",
-  "CANCEL_URL": "https://edunancial.com/cart.html",
-  "DISCOUNT_CODES": {
-    "PR12345$$": 3,
-    "edunancial2025": 5,
-    "UNDER18": 1
+  // === Admin gate for the landing-page box ===
+  "adminCode": "CHANGE-THIS-ADMIN-CODE",
+
+  // === Payments (used by create-order / paypal redirects) ===
+  "paypalClientId": "LIVE_OR_SANDBOX_CLIENT_ID",
+  "paypalEnvironment": "live",       // "live" or "sandbox"
+  "currency": "USD",
+
+  // === Cart & discounts ===
+  "discounts": [
+    { "code": "EDN2025", "type": "percent", "value": 15 },
+    { "code": "UNDER18", "type": "percent", "value": 60 },
+    { "code": "NONPROFIT", "type": "percent", "value": 50 }
+  ],
+
+  // === Product map (used by cart summaries & PayPal line items) ===
+  "products": {
+    "EDN-CRS-MIX-001": { "name": "The Edunancial Method — Mini Course", "price": 75.00, "kind": "course" },
+    "EDN-CRS-BO-001":  { "name": "In-Depth Business Formation", "price": 199.00, "kind": "course" },
+
+    "EDN-BK-RE-001": { "name": "Buying & Flipping Houses (Paperback)", "price": 18.99, "kind": "book" },
+    "EDN-BK-RE-002": { "name": "Tax Liens & Deeds (Paperback)", "price": 18.99, "kind": "book" },
+    "EDN-BK-PA-001": { "name": "Options Trading (Paperback)", "price": 18.99, "kind": "book" }
   },
-  "ADMIN_CODE": "CHANGE-ME"
+
+  // === Membership pricing (read by membership & upgrade pages) ===
+  "memberships": {
+    "starter": { "price": 5.00,  "name": "Starter" },
+    "growth":  { "price": 15.00, "name": "Growth" },
+    "pro":     { "price": 25.00, "name": "Pro" }
+  }
 }
