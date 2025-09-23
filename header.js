@@ -1,108 +1,152 @@
-<script>
-// header.js v6 — compact red banner with mobile menu + always-visible EN/ES + Cart badge
+/* Edunancial global header + admin unlock
+   Replace your existing /header.js with this file.
+   ------------------------------------------------
+   CONFIG: paste SHA-256 (hex) of your admin code below.
+*/
+const ADMIN_HASH_HEX = "PUT_SHA256_OF_YOUR_ADMIN_CODE_HERE"; // 64 hex chars
+const LS_ADMIN = "edn_admin";
+const LS_MEMBER_TIER = "edn_member_tier";
 
-(function () {
-  const PAGES = [
-    { href: "/books.html", label: "Books", es: "/es-books.html" },
-    { href: "/courses.html", label: "Courses", es: "/es-courses.html" },
-    { href: "/payments.html", label: "Payments", es: "/es-payments.html" },
-    { href: "/call-center.html", label: "Call Center", es: "/es-call-center.html" },
-    { href: "/vendor-program.html", label: "Vendor Program", es: "/es-vendor-program.html" },
-    { href: "/contact.html", label: "Contact", es: "/es-contact.html" },
-    { href: "/privacy.html", label: "Privacy", es: "/es-privacy.html" },
-    { href: "/terms.html", label: "Terms", es: "/es-terms.html" },
-    { href: "/refunds.html", label: "Refunds", es: "/es-refunds.html" },
-    { href: "/our-story.html", label: "Our Story", es: "/es-our-story.html" },
-  ];
+/* ---------- tiny utils ---------- */
+const $ = sel => document.querySelector(sel);
+const $$ = sel => Array.from(document.querySelectorAll(sel));
 
-  const isES = location.pathname.startsWith("/es-");
-  const t = (en, es) => (isES ? es : en);
+async function sha256Hex(s){
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+function navLink(href, text){ return `<a href="${href}">${text}</a>`; }
+function isES(){ return location.pathname.startsWith("/es-"); }
+function swapLangPath(path){
+  if (path.startsWith("/es-")) return path.replace("/es-","/");
+  const file = path.split("/").pop() || "index.html";
+  return "/es-" + file;
+}
 
-  // Map nav links to current language
-  const navLinks = PAGES.map(p => {
-    const href = isES && p.es ? p.es : p.href;
-    const label = t(p.label, ({
-      "Books":"Libros","Courses":"Cursos","Payments":"Pagos","Call Center":"Call Center",
-      "Vendor Program":"Programa de Vendedores","Contact":"Contacto","Privacy":"Privacidad",
-      "Terms":"Términos","Refunds":"Reembolsos","Our Story":"Nuestra Historia"
-    })[p.label] || p.label);
-    return { href, label };
-  });
+/* ---------- header HTML ---------- */
+function headerHTML(){
+  const es = isES();
+  const t = (en,es) => (isES()? es : en);
+  // links used sitewide
+  const L = {
+    home: t("/index.html","/es-index.html"),
+    books: t("/books.html","/es-books.html"),
+    courses: t("/courses.html","/es-courses.html"),
+    payments: t("/payments.html","/es-payments.html"),
+    call: t("/call-center.html","/es-call-center.html"),
+    vendor: t("/vendor-program.html","/es-vendor-program.html"),
+    contact: t("/contact.html","/es-contact.html"),
+    privacy: t("/privacy.html","/es-privacy.html"),
+    terms: t("/terms.html","/es-terms.html"),
+    refunds: t("/refunds.html","/es-refunds.html"),
+    ourstory: t("/our-story.html","/es-our-story.html"),
+    cart: t("/cart.html","/es-cart.html")
+  };
 
-  // Language URLs
-  function swapLangUrl(toES) {
-    const path = location.pathname.replace(/^\/+/, "");
-    if (toES) {
-      if (path.startsWith("es-")) return "/" + path;
-      const esPath = "/es-" + path;
-      return esPath;
-    } else {
-      if (path.startsWith("es-")) return "/" + path.replace(/^es-/, "");
-      return "/" + path;
-    }
-  }
+  return `
+  <style>
+    :root{--bg:#fff;--text:#111;--brand:#d11;--muted:#666;--border:#e6e6e6;}
+    .site-header{display:flex;gap:20px;align-items:center;justify-content:space-between;
+                 padding:12px 16px;background:#f7f7f7;border-bottom:1px solid var(--border);}
+    .site-header .logo{font-weight:800;letter-spacing:.5px;text-transform:none;color:#111}
+    .site-header nav a{margin-left:14px;text-decoration:none;color:#111}
+    .site-header .lang{display:flex;gap:8px;align-items:center}
+    .pill{border:none;cursor:pointer;background:#d11;color:#fff;font-weight:600;
+          padding:6px 12px;border-radius:999px}
+    .pill.muted{background:#eee;color:#111}
+    /* admin box next to View Cart */
+    .admin-box{margin-left:10px;padding:6px 10px;border:1px solid var(--border);
+               border-radius:10px;width:150px}
+    @media (max-width:768px){ .site-header nav{display:flex;flex-wrap:wrap;gap:10px} }
+  </style>
 
-  // Cart count from localStorage
-  function getCartCount() {
-    try {
-      const cart = JSON.parse(localStorage.getItem("edn_cart") || "[]");
-      return Array.isArray(cart) ? cart.reduce((n, item)=> n + (item.qty || 1), 0) : 0;
-    } catch { return 0; }
-  }
-
-  const header = document.getElementById("site-header");
-  if (!header) return;
-
-  header.innerHTML = `
-    <div class="site-header__bar">
-      <a class="site-header__logo" href="${t('/index.html','/es-index.html')}">EDUNANCIAL</a>
-
-      <button class="site-header__menuBtn" aria-label="${t('Open menu','Abrir menú')}" aria-expanded="false">☰</button>
-
-      <nav class="site-header__nav" aria-label="Primary">
-        ${navLinks.map(l => `<a href="${l.href}">${l.label}</a>`).join("")}
-        <a href="${t('/cart.html','/es-cart.html')}" class="site-header__cart">
-          ${t('Cart','Carrito')} <span class="site-header__badge" id="cartBadge">${getCartCount()}</span>
-        </a>
+  <header class="site-header">
+    <div class="left">
+      <a class="logo" href="${L.home}">EDUNANCIAL</a>
+      <nav>
+        ${navLink(L.books, t("Books","Libros"))}
+        ${navLink(L.courses, t("Courses","Cursos"))}
+        ${navLink(L.payments, t("Payments","Pagos"))}
+        ${navLink(L.call, t("Call Center","Call Center"))}
+        ${navLink(L.vendor, t("Vendor Program","Programa de Vendedores"))}
+        ${navLink(L.contact, t("Contact","Contacto"))}
+        ${navLink(L.privacy, t("Privacy","Privacidad"))}
+        ${navLink(L.terms, t("Terms","Términos"))}
+        ${navLink(L.refunds, t("Refunds","Reembolsos"))}
+        ${navLink(L.ourstory, t("Our Story","Nuestra Historia"))}
+        ${navLink(L.cart, t("View Cart","Ver Carrito"))}
       </nav>
-
-      <div class="site-header__lang">
-        <a class="pill ${!isES ? 'active' : ''}" href="${swapLangUrl(false)}">EN</a>
-        <a class="pill ${isES ? 'active' : ''}" href="${swapLangUrl(true)}">ES</a>
-      </div>
     </div>
-
-    <div class="site-header__drawer" hidden>
-      ${navLinks.map(l => `<a href="${l.href}">${l.label}</a>`).join("")}
-      <a href="${t('/cart.html','/es-cart.html')}" class="site-header__drawerCart">
-        ${t('Cart','Carrito')} <span class="site-header__badge" id="cartBadge2">${getCartCount()}</span>
-      </a>
+    <div class="lang">
+      <button class="pill ${!isES()? "" : "muted"}" id="btnEN">EN</button>
+      <button class="pill ${ isES()? "" : "muted"}" id="btnES">ES</button>
     </div>
+  </header>
   `;
+}
 
-  // Menu toggle (mobile)
-  const btn = header.querySelector(".site-header__menuBtn");
-  const drawer = header.querySelector(".site-header__drawer");
-  btn.addEventListener("click", () => {
-    const open = drawer.hasAttribute("hidden") ? false : true;
-    if (open) {
-      drawer.setAttribute("hidden", "");
-      btn.setAttribute("aria-expanded", "false");
-    } else {
-      drawer.removeAttribute("hidden");
-      btn.setAttribute("aria-expanded", "true");
-    }
+/* ---------- inject header once DOM ready ---------- */
+function mountHeader(){
+  if ($("#_edn_hdr")) return;
+  const wrap = document.createElement("div");
+  wrap.id = "_edn_hdr";
+  wrap.innerHTML = headerHTML();
+  document.body.prepend(wrap);
+
+  // lang toggle
+  $("#btnEN")?.addEventListener("click", () => {
+    if (!isES()) return;
+    location.href = swapLangPath(location.pathname);
+  });
+  $("#btnES")?.addEventListener("click", () => {
+    if (isES()) return;
+    location.href = swapLangPath(location.pathname);
   });
 
-  // Keep cart badge fresh
-  window.addEventListener("storage", (e) => {
-    if (e.key === "edn_cart") {
-      const n = getCartCount();
-      const b1 = header.querySelector("#cartBadge");
-      const b2 = header.querySelector("#cartBadge2");
-      if (b1) b1.textContent = n;
-      if (b2) b2.textContent = n;
-    }
+  injectAdminBox();
+}
+
+/* ---------- admin unlock next to "View Cart" ---------- */
+function injectAdminBox(){
+  const cartLink = $$(".site-header nav a").find(a=>{
+    const t = (a.textContent||"").trim().toLowerCase();
+    return t==="view cart" || t==="ver carrito";
   });
-})();
-</script>
+  if (!cartLink) return;
+
+  const box = document.createElement("input");
+  box.type = "password";
+  box.className = "admin-box";
+  box.placeholder = "";       // no description, per request
+  box.autocomplete = "off";
+
+  box.addEventListener("keydown", async (e)=>{
+    if (e.key !== "Enter") return;
+    const val = box.value.trim();
+    if (!val) return;
+    try{
+      const hex = await sha256Hex(val);
+      if (hex.toLowerCase() === ADMIN_HASH_HEX.toLowerCase()){
+        localStorage.setItem(LS_ADMIN, "1");
+        if (!localStorage.getItem(LS_MEMBER_TIER)) {
+          localStorage.setItem(LS_MEMBER_TIER, "starter");
+        }
+        box.style.borderColor = "#0a7e07"; // silent success
+        box.value = "";
+        // unlocked; you can navigate & test discounts/payments
+      }else{
+        box.style.borderColor = "#c00";
+        box.select();
+      }
+    }catch(_){}
+  });
+
+  cartLink.insertAdjacentElement("afterend", box);
+}
+
+/* ---------- boot ---------- */
+if (document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", mountHeader);
+}else{
+  mountHeader();
+}
