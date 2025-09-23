@@ -2,200 +2,179 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Admin • Edunancial Test Console</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Admin Access • Edunancial</title>
 <style>
-:root{--bg:#fff;--text:#111;--muted:#666;--brand:#d11;--border:#e6e6e6}
-*{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg)}
-.wrap{max-width:960px;margin:24px auto;padding:0 16px}
-.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+:root{--bg:#fff;--text:#111;--muted:#666;--border:#e6e6e6;--brand:#d11}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,Segoe UI,Roboto,Arial}
+.wrap{max-width:760px;margin:32px auto;padding:0 16px}
+.banner{background:var(--brand);color:#fff;padding:14px 16px;border-bottom:1px solid #b50;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.6px}
+.lang a{display:inline-block;margin-left:8px;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.6);color:#fff;text-decoration:none}
+.lang a.active{background:#fff;color:#c00;border-color:#fff}
+.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
 h1,h2{margin:.2rem 0 1rem}
-input,select,button,textarea{font:inherit}
-input,select{width:100%;padding:10px;border:1px solid var(--border);border-radius:10px}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:none;background:#1565d8;color:#fff;font-weight:600;cursor:pointer}
-.btn.secondary{background:#eee;color:#111}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#ffe9e9;color:#b30000;font-weight:600}
-.small{color:var(--muted);font-size:.9rem}
-table{width:100%;border-collapse:collapse;margin-top:8px}
-th,td{padding:10px;border-bottom:1px solid var(--border);text-align:left}
-.right{text-align:right}
-.hidden{display:none}
+label{font-weight:600}
+input{width:100%;padding:12px;border:1px solid var(--border);border-radius:10px}
+.btn{display:inline-block;padding:12px 16px;border-radius:10px;border:none;background:#1565d8;color:#fff;font-weight:700;cursor:pointer}
+.small{color:var(--muted);font-size:.92rem}
+.row{display:grid;grid-template-columns:1fr auto;gap:12px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eee;color:#333;font-weight:600}
+.note{background:#fff8e1;border:1px solid #ffe08a;padding:10px;border-radius:10px}
+.ok{color:#0a7e07;font-weight:700}
+.err{color:#c00;font-weight:700}
 hr{border:none;border-top:1px dashed var(--border);margin:16px 0}
+ul{margin:8px 0 0 18px}
 </style>
 </head>
 <body>
+
+<div class="banner">
+  <div class="logo">EDUNANCIAL</div>
+  <div class="lang">
+    <a href="#" id="btnEN" class="active">EN</a>
+    <a href="#" id="btnES">ES</a>
+  </div>
+</div>
+
 <div class="wrap">
-  <h1>Admin Test Console <span class="badge">private</span></h1>
-  <div id="gate" class="card">
-    <p>Enter admin passcode to continue.</p>
-    <div class="row">
-      <input id="pass" type="password" placeholder="passcode (default: edunancial2025)" />
-      <button class="btn" id="enter">Unlock</button>
+  <div class="card" id="panelEN">
+    <h1>Admin Access</h1>
+    <p class="small">Enter your admin code to unlock QA mode on this browser. Once unlocked, you can navigate the site and test discounts, cart, and PayPal without member gating.</p>
+
+    <label for="codeEN">Admin code</label>
+    <div class="row" style="margin-top:6px">
+      <input id="codeEN" type="password" placeholder="Type your admin code" autocomplete="off">
+      <button id="unlockEN" class="btn">Unlock</button>
     </div>
-    <p class="small">Change the passcode in this file: <code>PASSPHRASE</code>.</p>
+    <p id="msgEN" class="small" style="margin-top:8px"></p>
+
+    <hr>
+    <div class="note small">
+      <strong>How it works:</strong>
+      <ul>
+        <li>We hash your code in the browser and compare it to a stored hash.</li>
+        <li>If it matches, we set a flag (<span class="badge">localStorage.edn_admin = "1"</span>) and mark a member tier so pages load.</li>
+        <li>You can clear it anytime by using the button below.</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:12px">
+      <button id="clearEN" class="btn" style="background:#555">Clear admin flag on this browser</button>
+      <span id="clearMsgEN" class="small" style="margin-left:8px"></span>
+    </div>
+
+    <hr>
+    <p class="small">Go back to the site: <a href="/index.html">Home</a> · <a href="/membership.html">Membership</a> · <a href="/cart.html">Cart</a></p>
   </div>
 
-  <div id="app" class="hidden">
-    <div class="card">
-      <h2>Cart snapshot</h2>
-      <div class="small">This shows what <code>localStorage.ednCart</code> contains (the same cart the site uses).</div>
-      <table id="cartTable">
-        <thead><tr><th>SKU</th><th>Name</th><th class="right">Qty</th><th class="right">Price</th><th class="right">Subtotal</th><th></th></tr></thead>
-        <tbody></tbody>
-        <tfoot><tr><td colspan="4" class="right"><strong>Total</strong></td><td class="right" id="totalCell">$0.00</td><td></td></tr></tfoot>
-      </table>
-      <button class="btn secondary" id="clearCart">Empty Cart</button>
+  <div class="card" id="panelES" style="display:none">
+    <h1>Acceso de Administrador</h1>
+    <p class="small">Ingresa tu código de administrador para habilitar el modo QA en este navegador. Una vez habilitado, podrás navegar el sitio y probar descuentos, carrito y PayPal sin restricción de membresía.</p>
+
+    <label for="codeES">Código de administrador</label>
+    <div class="row" style="margin-top:6px">
+      <input id="codeES" type="password" placeholder="Escribe tu código" autocomplete="off">
+      <button id="unlockES" class="btn">Desbloquear</button>
+    </div>
+    <p id="msgES" class="small" style="margin-top:8px"></p>
+
+    <hr>
+    <div class="note small">
+      <strong>Cómo funciona:</strong>
+      <ul>
+        <li>Ciframos (hash) tu código en el navegador y lo comparamos con un hash guardado.</li>
+        <li>Si coincide, establecemos un indicador (<span class="badge">localStorage.edn_admin = "1"</span>) y marcamos un nivel de miembro para que las páginas carguen.</li>
+        <li>Puedes borrarlo en cualquier momento con el botón de abajo.</li>
+      </ul>
     </div>
 
-    <div class="card">
-      <h2>Add item</h2>
-      <div class="row">
-        <input id="sku" placeholder="SKU (e.g., EDN-CRS-MIX-001)" />
-        <input id="name" placeholder="Name (e.g., Mini Course)" />
-      </div>
-      <div class="row" style="margin-top:8px">
-        <input id="price" type="number" step="0.01" placeholder="Price (e.g., 75)" />
-        <input id="qty" type="number" step="1" min="1" value="1" placeholder="Qty" />
-      </div>
-      <div style="margin-top:10px">
-        <button class="btn" id="addItem">Add to Cart</button>
-        <button class="btn secondary" id="loadDefaults" title="Loads common items">Load common items</button>
-      </div>
-      <p class="small">Common items include courses and paperback books. You can still edit price/qty.</p>
+    <div style="margin-top:12px">
+      <button id="clearES" class="btn" style="background:#555">Borrar indicador en este navegador</button>
+      <span id="clearMsgES" class="small" style="margin-left:8px"></span>
     </div>
 
-    <div class="card">
-      <h2>Discount & Checkout</h2>
-      <div class="row">
-        <input id="email" type="email" placeholder="Customer email for receipt / Zoom" />
-        <input id="code" placeholder="Discount code (e.g., PR12345$$$)" />
-      </div>
-      <div class="row" style="margin-top:8px">
-        <input id="notes" placeholder="Internal note (optional)" />
-        <select id="language">
-          <option value="en" selected>English</option>
-          <option value="es">Español</option>
-        </select>
-      </div>
-      <hr/>
-      <div class="row">
-        <button class="btn" id="toPaypal">Create PayPal order ➜</button>
-        <button class="btn secondary" id="recalc">Recalculate total (client)</button>
-      </div>
-      <p class="small">On click, this calls your Netlify functions (<code>create-order</code>/<code>create-payment</code>) so PayPal receives the server-side discounted total. If the PayPal amount doesn’t match, the server isn’t honoring the code.</p>
-      <pre id="log" class="small" style="white-space:pre-wrap;background:#fafafa;border:1px solid var(--border);border-radius:8px;padding:10px;margin-top:10px;max-height:240px;overflow:auto"></pre>
-    </div>
+    <hr>
+    <p class="small">Volver al sitio: <a href="/es-index.html">Inicio</a> · <a href="/es-membership.html">Membresía</a> · <a href="/es-cart.html">Carrito</a></p>
   </div>
 </div>
 
 <script>
-const PASSPHRASE = "edunancial2025"; // <-- change if you want
+// ====== CONFIG: put the SHA-256 hash of YOUR admin code here ======
+// (This keeps your raw code out of the repo.)
+const ADMIN_HASH = "PUT_SHA256_OF_YOUR_ADMIN_CODE_HERE"; // 64-char hex
 
-// ---- gate
-const gate = document.getElementById('gate');
-const app = document.getElementById('app');
-document.getElementById('enter').onclick = () => {
-  const ok = document.getElementById('pass').value === PASSPHRASE;
-  if (!ok) { alert('Wrong passcode'); return; }
-  gate.classList.add('hidden'); app.classList.remove('hidden'); render();
-};
+// Also ensure your header/membership gating looks for this flag:
+const LS_ADMIN = "edn_admin";
+const LS_MEMBER_TIER = "edn_member_tier";
 
-// ---- cart helpers (same storage key used by site)
-const CART_KEY = 'ednCart';
-const readCart = () => JSON.parse(localStorage.getItem(CART_KEY) || '[]');
-const writeCart = (items) => localStorage.setItem(CART_KEY, JSON.stringify(items));
-
-function money(n){ return '$' + (Math.round(Number(n)*100)/100).toFixed(2); }
-
-function render(){
-  const items = readCart();
-  const tbody = document.querySelector('#cartTable tbody');
-  tbody.innerHTML = '';
-  let total = 0;
-  items.forEach((it, idx) => {
-    const sub = Number(it.price)*Number(it.qty||1);
-    total += sub;
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td>${it.sku||''}</td>
-      <td>${it.name||''}</td>
-      <td class="right">${it.qty||1}</td>
-      <td class="right">${money(it.price||0)}</td>
-      <td class="right">${money(sub)}</td>
-      <td><button data-i="${idx}" class="rm btn secondary">Remove</button></td>`;
-    tbody.appendChild(tr);
-  });
-  document.getElementById('totalCell').textContent = money(total);
-  [...document.querySelectorAll('.rm')].forEach(b=>{
-    b.onclick = () => { const items=readCart(); items.splice(Number(b.dataset.i),1); writeCart(items); render(); };
-  });
+// ---------- helpers ----------
+async function sha256Hex(s){
+  const data = new TextEncoder().encode(s);
+  const buf = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+function setAdmin(){
+  localStorage.setItem(LS_ADMIN, "1");
+  if (!localStorage.getItem(LS_MEMBER_TIER)) localStorage.setItem(LS_MEMBER_TIER, "starter");
+}
+function clearAdmin(){
+  localStorage.removeItem(LS_ADMIN);
+  // (optionally) leave member tier alone, or clear it:
+  // localStorage.removeItem(LS_MEMBER_TIER);
 }
 
-document.getElementById('clearCart').onclick = ()=>{ writeCart([]); render(); };
-
-document.getElementById('addItem').onclick = ()=>{
-  const sku = document.getElementById('sku').value.trim();
-  const name = document.getElementById('name').value.trim();
-  const price = Number(document.getElementById('price').value||0);
-  const qty = Number(document.getElementById('qty').value||1);
-  if(!sku||!name||!price){ alert('SKU, Name, Price required'); return; }
-  const items = readCart(); items.push({sku,name,price,qty}); writeCart(items); render();
-};
-
-document.getElementById('loadDefaults').onclick = ()=>{
-  const defaults = [
-    {sku:'EDN-CRS-MIX-001', name:'Mini Course', price:75, qty:1},
-    {sku:'EDN-CRS-BO-001',  name:'Business Formation Course', price:199, qty:1},
-    // sample paperback books (edit prices if yours differ)
-    {sku:'EDN-BK-RE-001', name:'Buying & Flipping Houses (PB)', price:18.99, qty:1},
-    {sku:'EDN-BK-RE-002', name:'Tax Liens & Deeds (PB)', price:18.99, qty:1},
-    {sku:'EDN-BK-PA-001', name:'Options Trading (PB)', price:18.99, qty:1},
-  ];
-  writeCart(defaults); render();
-};
-
-document.getElementById('recalc').onclick = render;
-
-// ---- server checkout (same endpoints your site uses)
-async function createOrder(payload){
-  const res = await fetch('/.netlify/functions/create-order', {
-    method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
-  });
-  if(!res.ok){ throw new Error('create-order: ' + res.status + ' ' + (await res.text())); }
-  return res.json();
-}
-function log(msg){ const el=document.getElementById('log'); el.textContent += (typeof msg==='string'?msg:JSON.stringify(msg,null,2)) + '\n'; el.scrollTop = el.scrollHeight; }
-
-document.getElementById('toPaypal').onclick = async ()=>{
-  try{
-    const email = document.getElementById('email').value.trim();
-    const code  = document.getElementById('code').value.trim();
-    const lang  = document.getElementById('language').value;
-    const items = readCart();
-    if(!items.length){ alert('Cart is empty'); return; }
-    const payload = { items, email, code, lang };
-    log('→ create-order payload'); log(payload);
-    const j = await createOrder(payload);
-    log('← create-order response'); log(j);
-
-    if(j && j.links){
-      // PayPal REST response: find approve link
-      const approve = (j.links.find(l=>l.rel==='approve')||{}).href;
-      if(approve){ window.location.href = approve; return; }
-    }
-    // Fallback: backend returned a redirect
-    if(j && j.approve_url){ window.location.href = j.approve_url; return; }
-
-    alert('No PayPal approval link returned. See log.');
-  }catch(err){
-    log('ERROR: ' + err.message);
-    alert('Something went wrong creating the order. See log.');
+// ---------- EN panel ----------
+document.getElementById('unlockEN').addEventListener('click', async ()=>{
+  const msg = document.getElementById('msgEN');
+  const val = document.getElementById('codeEN').value.trim();
+  if(!val){ msg.textContent = "Please enter a code."; msg.className="small err"; return; }
+  const h = await sha256Hex(val);
+  if(h.toLowerCase() === ADMIN_HASH.toLowerCase()){
+    setAdmin();
+    msg.textContent = "QA unlocked on this browser. You can now navigate and test.";
+    msg.className = "small ok";
+  }else{
+    msg.textContent = "Code not recognized.";
+    msg.className = "small err";
   }
-};
+});
+document.getElementById('clearEN').addEventListener('click', ()=>{
+  clearAdmin();
+  const el = document.getElementById('clearMsgEN');
+  el.textContent = "Cleared. This browser is no longer unlocked.";
+});
 
-// auto-unlock for local testing if hash matches (optional)
-if(location.hash === '#letmein'){ gate.classList.add('hidden'); app.classList.remove('hidden'); render(); }
+// ---------- ES panel ----------
+document.getElementById('unlockES').addEventListener('click', async ()=>{
+  const msg = document.getElementById('msgES');
+  const val = document.getElementById('codeES').value.trim();
+  if(!val){ msg.textContent = "Ingresa un código."; msg.className="small err"; return; }
+  const h = await sha256Hex(val);
+  if(h.toLowerCase() === ADMIN_HASH.toLowerCase()){
+    setAdmin();
+    msg.textContent = "QA habilitado en este navegador. Ya puedes probar.";
+    msg.className = "small ok";
+  }else{
+    msg.textContent = "Código no reconocido.";
+    msg.className = "small err";
+  }
+});
+document.getElementById('clearES').addEventListener('click', ()=>{
+  clearAdmin();
+  const el = document.getElementById('clearMsgES');
+  el.textContent = "Listo. Este navegador ya no está desbloqueado.";
+});
+
+// ---------- language toggle ----------
+const panelEN = document.getElementById('panelEN');
+const panelES = document.getElementById('panelES');
+document.getElementById('btnEN').addEventListener('click', (e)=>{ e.preventDefault(); panelEN.style.display='block'; panelES.style.display='none'; document.getElementById('btnEN').classList.add('active'); document.getElementById('btnES').classList.remove('active'); });
+document.getElementById('btnES').addEventListener('click', (e)=>{ e.preventDefault(); panelEN.style.display='none'; panelES.style.display='block'; document.getElementById('btnES').classList.add('active'); document.getElementById('btnEN').classList.remove('active'); });
+
+// If you want the page to open in ES when path is /es-*, uncomment:
+// if (location.pathname.startsWith('/es-')) { document.getElementById('btnES').click(); }
 </script>
+
 </body>
 </html>
