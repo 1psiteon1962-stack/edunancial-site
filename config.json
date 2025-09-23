@@ -1,57 +1,131 @@
 {
   "siteName": "Edunancial",
+  "brandColor": "#d11",
   "currency": "USD",
 
-  "paypal": {
-    "clientId": "YOUR_PAYPAL_LIVE_CLIENT_ID",
-    "currency": "USD",
-    "intent": "CAPTURE"
+  "paypalClientId": "<REPLACE_WITH_YOUR_LIVE_PAYPAL_CLIENT_ID>",
+
+  "security": {
+    "adminLocalStorageKey": "EDN_ADMIN",
+    "adminHash": "0b01e02c9eb966ed29813506682d5c512be8095c1f85f381854a78aa83c89567",
+    "adminBypassMembership": true
   },
+
+  "cart": {
+    "taxRate": 0.00,
+    "shippingFlat": 0.00,
+    "allowMultipleItems": true,
+    "allowDiscountCodes": true,
+    "allowPerItemOverrides": true
+  },
+
+  "discounts": [
+    {
+      "code": "PR12345$$$",
+      "label": "Under-18 Mini Course",
+      "kind": "price-override",
+      "appliesToSkus": ["EDN-CRS-MIX-001"],
+      "price": 3.00
+    },
+    {
+      "code": "BOOK1",
+      "label": "Paperbacks $1 each",
+      "kind": "price-override",
+      "appliesToSkus": ["EDN-BK-RE-001", "EDN-BK-RE-002", "EDN-BK-PA-001", "EDN-BK-PA-002", "EDN-BK-BU-001", "EDN-BK-BU-002", "EDN-BK-BU-003"],
+      "price": 1.00
+    },
+    {
+      "code": "EDN2025",
+      "label": "Partner/Nonprofit cart discount",
+      "kind": "cart-percent",
+      "percent": 25
+    }
+  ],
 
   "memberships": {
-    "starter": {
-      "name": "Starter",
-      "price": 5,
-      "interval": "month",
-      "benefits": [
-        "Member pricing on courses and paperback books",
-        "Members-only downloads (worksheets, checklists)",
-        "Email preferences & compliance (you choose what we send)"
-      ]
-    },
-    "growth": {
-      "name": "Growth",
-      "price": 15,
-      "interval": "month",
-      "benefits": [
-        "Everything in Starter",
-        "Priority email/chat support for account & course access",
-        "Access to live Business Formation webinar sessions"
-      ]
-    },
-    "pro": {
-      "name": "Pro",
-      "price": 25,
-      "interval": "month",
-      "benefits": [
-        "Everything in Growth",
-        "Deeper member discounts on select programs",
-        "Early access to new courses and tools"
-      ]
-    }
+    "plans": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "priceMonthly": 5.00,
+        "features": [
+          "Member pricing on courses and paperback books",
+          "Members-only downloads (worksheets, checklists)",
+          "Email preferences & compliance (you choose what we send)"
+        ]
+      },
+      {
+        "id": "growth",
+        "name": "Growth",
+        "priceMonthly": 15.00,
+        "features": [
+          "Everything in Starter",
+          "Priority email/chat support for account & course access",
+          "Access to live Business Formation webinar sessions"
+        ]
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 25.00,
+        "features": [
+          "Everything in Growth",
+          "Deeper member discounts on select programs",
+          "Early access to new courses and tools"
+        ]
+      }
+    ]
   },
 
-  "discounts": {
-    "edunancial2025": {
-      "percentOff": 25,
-      "appliesTo": ["books", "courses", "memberships"]
-    },
-    "student": {
-      "percentOff": 50,
-      "appliesTo": ["books", "courses"],
-      "conditions": ["under18", "nonprofit"]
-    }
-  },
-
-  "adminHash": "REPLACE_WITH_SHA256_HASH_OF_YOUR_ADMIN_CODE"
+  "catalog": {
+    "courses": [
+      {
+        "sku": "EDN-CRS-MIX-001",
+        "name": "The Edunancial Method — Mini Course",
+        "price": 75.00
+      },
+      {
+        "sku": "EDN-CRS-BO-001",
+        "name": "In-Depth Business Formation",
+        "price": 199.00
+      }
+    ],
+    "books": [
+      {
+        "sku": "EDN-BK-RE-001",
+        "name": "Buying and Flipping Houses for Profit (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-RE-002",
+        "name": "Tax Liens & Deeds: From Basics to First Purchase (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-PA-001",
+        "name": "Options Trading: Your Guide to Puts, Calls & Smart Strategy (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-PA-002",
+        "name": "Smart Stock Selection for Teens & Parents (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-BU-001",
+        "name": "Business is About Making Profit (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-BU-002",
+        "name": "Forming Your First LLC the Right Way (Paperback)",
+        "price": 18.99
+      },
+      {
+        "sku": "EDN-BK-BU-003",
+        "name": "Small Business Finance Quick-Start (Paperback)",
+        "price": 18.99
+      }
+    ]
+  }
 }
