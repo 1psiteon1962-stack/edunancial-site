@@ -1,100 +1,181 @@
-<!-- Include this once on membership.html (and es-membership.html uses same file).
-     Make sure the Join buttons have data-tier="STARTER|GROWTH|PRO".
-     Requires no other libraries. -->
-<script>
-(() => {
-  const FN_URL = "/.netlify/functions/create-order"; // backend
-  const RETURN_URL = `${location.origin}/thank-you.html`;
-  const CANCEL_URL  = `${location.origin}/membership.html`;
+/* ============================================================
+   Edunancial — Membership Frontend Logic
+   File: /membership.js
+   Purpose:
+     - Handle tier selection & live price display
+     - Accept/annotate discount codes (authoritative pricing on server)
+     - Collect account/profile/consents
+     - Create PayPal order via /.netlify/functions/create-order
+     - Temporary admin bypass for QA (hash-protected)
+   ============================================================ */
 
-  // Helper: qs
-  const $ = sel => document.querySelector(sel);
+(function () {
+  "use strict";
 
-  // Elements
-  const codeInput      = $('#discount-code');           // <input id="discount-code">
-  const emailInput     = $('#mem-email');               // <input id="mem-email">
-  const nameInput      = $('#mem-name');                // <input id="mem-name">
-  const passInput      = $('#mem-pass');                // optional
-  const agreeTos       = $('#agree-tos');               // checkbox (required)
-  const agreeEmail     = $('#agree-email');             // optional
-  const agreeAge       = $('#agree-age');               // checkbox (required, 18+ or parental)
+  /* ---------- CONFIG ---------- */
 
-  // Optional demographics
-  const selAgeRange    = $('#dem-age');                 // <select id="dem-age">
-  const selEdu         = $('#dem-edu');                 // <select id="dem-edu">
-  const selEntre       = $('#dem-entre');               // <select id="dem-entre">
+  // Public display prices (final price is always enforced on the server)
+  const TIER_PRICES = {
+    starter: 5.00,
+    growth: 15.00,
+    pro: 25.00,
+  };
 
-  // Attach click handlers to join buttons
-  document.querySelectorAll('[data-tier]').forEach(btn => {
-    btn.addEventListener('click', () => startJoin(btn.getAttribute('data-tier')));
-  });
+  // Put the SHA-256 of YOUR admin code here (hex string).
+  // To generate in any browser console:
+  //   async function hash(s){const d=new TextEncoder().encode(s);
+  //     const b=await crypto.subtle.digest('SHA-256',d);
+  //     return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('')}
+  //   hash('YOUR-SECRET-CODE')
+  const ADMIN_HASH = "PUT_SHA256_OF_YOUR_ADMIN_CODE_HERE";
 
-  async function startJoin(tierKey) {
+  // Netlify function endpoint that creates the PayPal order
+  const CREATE_ORDER_ENDPOINT = "/.netlify/functions/create-order";
+
+  /* ---------- HELPERS ---------- */
+
+  function $(sel) { return document.querySelector(sel); }
+  function val(id) { return (document.getElementById(id)?.value || "").trim(); }
+
+  async function sha256(s) {
+    const data = new TextEncoder().encode(s);
+    const buf = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(buf))
+      .map((x) => x.toString(16).padStart(2, "0"))
+      .join("");
+  }
+
+  function setText(el, text) {
+    if (el) el.textContent = text;
+  }
+
+  function setBtnBusy(btn, busy, labelWhileBusy) {
+    if (!btn) return;
+    btn.disabled = !!busy;
+    if (busy && labelWhileBusy) btn.dataset._label = btn.textContent, btn.textContent = labelWhileBusy;
+    if (!busy && btn.dataset._label) btn.textContent = btn.dataset._label, delete btn.dataset._label;
+  }
+
+  function updatePriceDisplay(tier, spanEl) {
+    const base = TIER_PRICES[tier] ?? TIER_PRICES.starter;
+    if (spanEl) spanEl.textContent = `$${base.toFixed(2)} /mo`;
+  }
+
+  /* ---------- ADMIN BYPASS (for QA only) ---------- */
+
+  async function onAdminUnlock() {
+    const code = val("adminCode");
+    if (!code) return alert("Enter admin code.");
+
     try {
-      // Minimal validation
-      const email = (emailInput?.value || "").trim();
-      const fullName = (nameInput?.value || "").trim();
-      const code = (codeInput?.value || "").trim();
-
-      if (!email) { alert("Please enter your email."); return; }
-      if (!agreeTos?.checked) { alert("You must agree to Terms & Privacy."); return; }
-      if (!agreeAge?.checked) { alert("Please confirm you are 18+ or have consent."); return; }
-
-      // Optional profile payload – nice to store with your CRM later
-      const profile = {
-        ageRange: selAgeRange?.value || "",
-        education: selEdu?.value || "",
-        entrepreneurStatus: selEntre?.value || "",
-        emailConsent: !!(agreeEmail?.checked),
-      };
-
-      const payload = {
-        type: "membership",
-        membership: tierKey.toUpperCase(), // STARTER | GROWTH | PRO
-        code,
-        customer: {
-          email,
-          name: fullName,
-          profile
-        },
-        returnUrl: RETURN_URL,
-        cancelUrl: CANCEL_URL,
-        currency: "USD"
-      };
-
-      // Create order via serverless function
-      const r = await fetch(FN_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      const data = await r.json();
-
-      if (!r.ok || !data?.approveUrl) {
-        console.error("Create order failed:", data);
-        alert(data?.body || data?.message || "Could not start PayPal checkout.");
-        return;
+      const h = await sha256(code);
+      if (h === ADMIN_HASH) {
+        localStorage.setItem("edunancial_admin", "1");
+        alert("Admin unlocked for this browser session.");
+      } else {
+        alert("Incorrect admin code.");
       }
-
-      // (Optional) show final total/discount before redirect
-      // alert(`Total: $${data.total}${Number(data.discount) > 0 ? ` (saved $${data.discount})` : ""}`);
-
-      // Send to PayPal approval
-      window.location.href = data.approveUrl;
-
-    } catch (err) {
-      console.error(err);
-      alert("Error starting checkout.");
+    } catch (e) {
+      console.error(e);
+      alert("Could not verify admin code.");
     }
   }
 
-  // OPTIONAL: immediate code feedback label
-  const codeMsg = $('#code-msg'); // <div id="code-msg"></div>
-  codeInput?.addEventListener('input', () => {
-    const v = (codeInput.value || '').trim();
-    if (!v) { codeMsg && (codeMsg.textContent = ""); return; }
-    // Only UI hint – actual validation happens server-side
-    codeMsg && (codeMsg.textContent = "Code will be applied at checkout.");
-  });
+  /* ---------- MAIN JOIN FLOW ---------- */
+
+  async function onJoinClick() {
+    const joinBtn = $("#joinWithPayPal");
+    const joinMsg = $("#joinMsg");
+    setBtnBusy(joinBtn, true, "Creating order…");
+    setText(joinMsg, "Creating PayPal order…");
+
+    try {
+      const payload = {
+        type: "membership",
+        level: $("#tierSelect")?.value || "starter",
+        discountCode: val("discountInput"),
+        customer: {
+          name:  val("nameInput"),
+          email: val("emailInput"),
+          ageRange: $("#ageRange")?.value || "",
+          eduLevel: $("#eduLevel")?.value || "",
+          entrepreneur: $("#entreStatus")?.value || "",
+        },
+        consents: {
+          terms: !!$("#agreeTerms")?.checked,
+          email: !!$("#agreeEmail")?.checked,
+          age:   !!$("#agreeAge")?.checked,
+        },
+      };
+
+      // Minimal client validations (server still re-validates)
+      if (!payload.customer.name || !payload.customer.email) {
+        setText(joinMsg, "Name and email are required.");
+        setBtnBusy(joinBtn, false);
+        return;
+      }
+      if (!payload.consents.terms || !payload.consents.age) {
+        setText(joinMsg, "Please agree to Terms and the age statement.");
+        setBtnBusy(joinBtn, false);
+        return;
+      }
+
+      const res = await fetch(CREATE_ORDER_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const txt = await res.text();
+        throw new Error(`Server responded ${res.status}: ${txt}`);
+      }
+
+      const data = await res.json();
+      // Expected: { approveUrl, orderId, displayAmount }
+      if (data?.displayAmount) {
+        updatePriceDisplay(payload.level, $("#priceToday")); // keep UI sane
+        setText($("#priceToday"), `$${Number(data.displayAmount).toFixed(2)} /mo`);
+      }
+
+      if (data?.approveUrl) {
+        window.location.href = data.approveUrl; // redirect to PayPal
+        return;
+      }
+
+      throw new Error("No approval URL returned by server.");
+    } catch (err) {
+      console.error(err);
+      setText(joinMsg, "Could not start PayPal checkout. Please try again.");
+    } finally {
+      setBtnBusy($("#joinWithPayPal"), false);
+    }
+  }
+
+  /* ---------- INIT / EVENT WIRING ---------- */
+
+  function init() {
+    // Price display wiring
+    const tierSel = $("#tierSelect");
+    const priceSpan = $("#priceToday");
+    updatePriceDisplay(tierSel?.value || "starter", priceSpan);
+    tierSel?.addEventListener("change", () => updatePriceDisplay(tierSel.value, priceSpan));
+
+    // Discount field hint (visual only; server applies real discount)
+    $("#discountInput")?.addEventListener("input", () => {
+      const msg = $("#discountMsg");
+      const code = val("discountInput");
+      setText(msg, code ? "Code entered — will be applied at checkout." : "");
+    });
+
+    // Action buttons
+    $("#joinWithPayPal")?.addEventListener("click", onJoinClick);
+    $("#adminUnlock")?.addEventListener("click", onAdminUnlock);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();
-</script>
