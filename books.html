@@ -1,103 +1,61 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8">
   <title>Books — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preload" href="/header.js?v=3" as="script">
-
-  <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
-  <!-- Clarity -->
-  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY-XXXX");</script>
-
-  <style>
-    .card{background:#fff;border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px auto;max-width:1100px}
-    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
-    .btn{border:0;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
-    .btn-link{background:none;border:none;color:#1565d8;cursor:pointer;font-weight:600}
-    .muted{color:#666}
-    input[type="text"]{width:280px;max-width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:10px}
-    .strike{text-decoration:line-through;color:#888;margin-right:8px}
-    .pill{display:inline-block;background:#f7f7f7;border:1px solid #e6e6e6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:.9rem}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <!-- Gate member-only pages (Our Story stays public) -->
-  <script>
-    (function(){
-      const q=new URLSearchParams(location.search);
-      if(q.get('bypass')==='1'){ localStorage.setItem('edn_member','true'); history.replaceState(null,'',location.pathname); }
-      if(localStorage.getItem('edn_member')!=='true'){
-        location.href='/membership.html';
-      }
-    })();
-  </script>
-
-  <header class="site-header" data-nav="en"></header>
-  <script defer src="/header.js?v=3"></script>
-
-  <main class="container">
+  <script src="/header.js"></script>
+  <script src="/js/membership-gate.js"></script>
+  <main class="container" style="padding:18px 0">
     <h1>Books</h1>
-    <p><span class="pill">Red = Real Estate</span><span class="pill">White = Paper Assets</span><span class="pill">Blue = Business</span></p>
+    <p><strong>Red</strong> = Real Estate · <strong>White</strong> = Paper Assets · <strong>Blue</strong> = Business</p>
 
-    <section class="card">
-      <div class="row" style="justify-content:flex-start">
-        <div>
-          <label for="code"><b>Discount / Partner Code</b></label><br/>
-          <input id="code" type="text" placeholder="Enter code">
-          <button id="apply" class="btn" type="button">Apply</button>
-          <button id="clear" class="btn-link" type="button">Remove code</button>
-        </div>
-        <div id="codeMsg" class="muted" style="margin-left:12px"></div>
-      </div>
-    </section>
-
-    <section class="grid" id="grid"></section>
-
-    <p><a class="btn" style="text-decoration:none" href="/cart.html">Go to Cart</a></p>
+    <div id="list" style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))"></div>
+    <p style="margin-top:16px"><a class="btn" href="/cart.html">Go to Cart</a></p>
   </main>
 
-  <script>
-    const CART_KEY='edn_cart', DISC_KEY='edn_discount';
-    const DISCOUNT_CODES={'PR12345$$$':{type:'perItemFlat',price:1.00,note:'Partner rate'},'UNDER18':{type:'perItemFlat',price:1.00,note:'Under-18 rate'}};
-    const norm=s=>(s||'').toString().normalize('NFKC').replace(/\s+/g,'').replace(/[\u200B-\u200D\uFEFF]/g,'').toUpperCase();
-    const eff=(p,c)=>{const r=DISCOUNT_CODES[norm(c)];return r&&r.type==='perItemFlat'?r.price:p;};
+<script>
+const BOOKS = [
+  { id:"EDN-BK-RE-001", name:"Buying and Flipping Houses for Profit", price:18.99 },
+  { id:"EDN-BK-RE-002", name:"Tax Liens & Deeds: From Basics to First Purchase", price:18.99 },
+  { id:"EDN-BK-PA-001", name:"Options Trading: Your Guide to Puts, Calls & Smart Strategy", price:18.99 },
+  { id:"EDN-BK-PA-002", name:"Smart Stock Selection for Teens & Parents", price:18.99 },
+  { id:"EDN-BK-BU-001", name:"Business is About Making Profit", price:18.99 },
+  { id:"EDN-BK-BU-002", name:"Forming Your First LLC the Right Way", price:18.99 }
+];
 
-    const BOOKS=[
-      { color:'red',   sku:'EDN-BK-RE-001-PR', title:'Buying and Flipping Houses for Profit', author:'Waldemar M. Caban, JD MA', price:18.99 },
-      { color:'red',   sku:'EDN-BK-RE-002-PR', title:'Tax Liens & Deeds: From Basics to First Purchase', author:'Waldemar M. Caban, JD MA', price:18.99 },
-      { color:'white', sku:'EDN-BK-PA-001-PR', title:'Options Trading: Your Guide to Puts, Calls & Smart Strategy', author:'Waldemar M. Caban, JD MA', price:18.99 },
-      { color:'white', sku:'EDN-BK-PA-002-PR', title:'Smart Stock Selection for Teens & Parents', author:'Waldemar M. Caban, JD MA', price:18.99 },
-      { color:'blue',  sku:'EDN-BK-BO-001-PR', title:'Business is About Making Profit', author:'Waldemar M. Caban, JD MA', price:18.99 },
-      { color:'blue',  sku:'EDN-BK-BO-002-PR', title:'Forming Your First LLC the Right Way', author:'Waldemar M. Caban, JD MA', price:18.99 },
-    ];
-    const loadCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch(e){return[]}};
-    const saveCart=c=>localStorage.setItem(CART_KEY,JSON.stringify(c));
-    function addToCart(item){const c=loadCart();const i=c.findIndex(x=>x.sku===item.sku);if(i>-1)c[i].qty+=(item.qty||1);else c.push(item);saveCart(c);if(window.updateCartCount)window.updateCartCount();alert('Added to cart');}
+let CONFIG = {};
+(async()=>{ try{ const r=await fetch("/config.json",{cache:"no-store"}); if(r.ok) CONFIG=await r.json(); }catch(_){} render(); })();
 
-    function render(){
-      const code=localStorage.getItem(DISC_KEY)||''; const rule=DISCOUNT_CODES[norm(code)];
-      document.getElementById('code').value=code; document.getElementById('codeMsg').textContent=rule?(rule.note||'Code applied'):(code?'Code not recognized':'');
-      const grid=document.getElementById('grid'); grid.innerHTML='';
-      BOOKS.forEach(b=>{
-        const pEff=eff(b.price,code);
-        const prices=pEff<b.price?`<span class="strike">$${b.price.toFixed(2)}</span><b>$${pEff.toFixed(2)}</b>`:`<b>$${b.price.toFixed(2)}</b>`;
-        const el=document.createElement('div'); el.className='card';
-        el.innerHTML=`<h2 style="margin:6px 0">${b.title}</h2>
-          <div class="muted">Author: ${b.author}</div>
-          <div class="muted" style="margin:6px 0">SKU: ${b.sku}</div>
-          <div class="row"><div>Paperback • ${prices}</div><button class="btn">Add to Cart</button></div>`;
-        el.querySelector('.btn').addEventListener('click',()=>addToCart({sku:b.sku,name:`${b.title} — Paperback`,price:pEff,qty:1}));
-        grid.appendChild(el);
-      });
-    }
-    document.getElementById('apply').addEventListener('click',()=>{localStorage.setItem(DISC_KEY,document.getElementById('code').value||'');render();});
-    document.getElementById('clear').addEventListener('click',()=>{localStorage.removeItem(DISC_KEY);document.getElementById('code').value='';render();});
-    render();
-  </script>
+function addToCart(itemId){
+  const qty = Number(document.getElementById("qty-"+itemId).value||1);
+  const code = (document.getElementById("code-"+itemId).value||"").trim();
+  const item = BOOKS.find(b=>b.id===itemId);
+  if(!item) return;
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  cart.push({ type:"book", sku:item.id, name:item.name, price:item.price, qty, code });
+  localStorage.setItem("edn_cart", JSON.stringify(cart));
+  alert("Added to cart");
+}
+
+function card(b){
+  return `
+  <div style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+    <h3 style="margin:0 0 4px">${b.name}</h3>
+    <div><strong>SKU:</strong> ${b.id} · <strong>$${b.price.toFixed(2)}</strong></div>
+    <div class="row" style="margin-top:10px">
+      <input id="code-${b.id}" placeholder="Discount code" style="height:36px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px;width:52%">
+      <input id="qty-${b.id}" type="number" min="1" value="1" style="height:36px;width:68px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px">
+      <button class="btn" onclick="addToCart('${b.id}')">Add to Cart</button>
+    </div>
+  </div>`;
+}
+
+function render(){
+  document.getElementById("list").innerHTML = BOOKS.map(card).join("");
+}
+</script>
 </body>
 </html>
