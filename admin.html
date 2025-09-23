@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin • Edunancial Test Console</title>
+<style>
+:root{--bg:#fff;--text:#111;--muted:#666;--brand:#d11;--border:#e6e6e6}
+*{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg)}
+.wrap{max-width:960px;margin:24px auto;padding:0 16px}
+.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+h1,h2{margin:.2rem 0 1rem}
+input,select,button,textarea{font:inherit}
+input,select{width:100%;padding:10px;border:1px solid var(--border);border-radius:10px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:none;background:#1565d8;color:#fff;font-weight:600;cursor:pointer}
+.btn.secondary{background:#eee;color:#111}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#ffe9e9;color:#b30000;font-weight:600}
+.small{color:var(--muted);font-size:.9rem}
+table{width:100%;border-collapse:collapse;margin-top:8px}
+th,td{padding:10px;border-bottom:1px solid var(--border);text-align:left}
+.right{text-align:right}
+.hidden{display:none}
+hr{border:none;border-top:1px dashed var(--border);margin:16px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Admin Test Console <span class="badge">private</span></h1>
+  <div id="gate" class="card">
+    <p>Enter admin passcode to continue.</p>
+    <div class="row">
+      <input id="pass" type="password" placeholder="passcode (default: edunancial2025)" />
+      <button class="btn" id="enter">Unlock</button>
+    </div>
+    <p class="small">Change the passcode in this file: <code>PASSPHRASE</code>.</p>
+  </div>
+
+  <div id="app" class="hidden">
+    <div class="card">
+      <h2>Cart snapshot</h2>
+      <div class="small">This shows what <code>localStorage.ednCart</code> contains (the same cart the site uses).</div>
+      <table id="cartTable">
+        <thead><tr><th>SKU</th><th>Name</th><th class="right">Qty</th><th class="right">Price</th><th class="right">Subtotal</th><th></th></tr></thead>
+        <tbody></tbody>
+        <tfoot><tr><td colspan="4" class="right"><strong>Total</strong></td><td class="right" id="totalCell">$0.00</td><td></td></tr></tfoot>
+      </table>
+      <button class="btn secondary" id="clearCart">Empty Cart</button>
+    </div>
+
+    <div class="card">
+      <h2>Add item</h2>
+      <div class="row">
+        <input id="sku" placeholder="SKU (e.g., EDN-CRS-MIX-001)" />
+        <input id="name" placeholder="Name (e.g., Mini Course)" />
+      </div>
+      <div class="row" style="margin-top:8px">
+        <input id="price" type="number" step="0.01" placeholder="Price (e.g., 75)" />
+        <input id="qty" type="number" step="1" min="1" value="1" placeholder="Qty" />
+      </div>
+      <div style="margin-top:10px">
+        <button class="btn" id="addItem">Add to Cart</button>
+        <button class="btn secondary" id="loadDefaults" title="Loads common items">Load common items</button>
+      </div>
+      <p class="small">Common items include courses and paperback books. You can still edit price/qty.</p>
+    </div>
+
+    <div class="card">
+      <h2>Discount & Checkout</h2>
+      <div class="row">
+        <input id="email" type="email" placeholder="Customer email for receipt / Zoom" />
+        <input id="code" placeholder="Discount code (e.g., PR12345$$$)" />
+      </div>
+      <div class="row" style="margin-top:8px">
+        <input id="notes" placeholder="Internal note (optional)" />
+        <select id="language">
+          <option value="en" selected>English</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+      <hr/>
+      <div class="row">
+        <button class="btn" id="toPaypal">Create PayPal order ➜</button>
+        <button class="btn secondary" id="recalc">Recalculate total (client)</button>
+      </div>
+      <p class="small">On click, this calls your Netlify functions (<code>create-order</code>/<code>create-payment</code>) so PayPal receives the server-side discounted total. If the PayPal amount doesn’t match, the server isn’t honoring the code.</p>
+      <pre id="log" class="small" style="white-space:pre-wrap;background:#fafafa;border:1px solid var(--border);border-radius:8px;padding:10px;margin-top:10px;max-height:240px;overflow:auto"></pre>
+    </div>
+  </div>
+</div>
+
+<script>
+const PASSPHRASE = "edunancial2025"; // <-- change if you want
+
+// ---- gate
+const gate = document.getElementById('gate');
+const app = document.getElementById('app');
+document.getElementById('enter').onclick = () => {
+  const ok = document.getElementById('pass').value === PASSPHRASE;
+  if (!ok) { alert('Wrong passcode'); return; }
+  gate.classList.add('hidden'); app.classList.remove('hidden'); render();
+};
+
+// ---- cart helpers (same storage key used by site)
+const CART_KEY = 'ednCart';
+const readCart = () => JSON.parse(localStorage.getItem(CART_KEY) || '[]');
+const writeCart = (items) => localStorage.setItem(CART_KEY, JSON.stringify(items));
+
+function money(n){ return '$' + (Math.round(Number(n)*100)/100).toFixed(2); }
+
+function render(){
+  const items = readCart();
+  const tbody = document.querySelector('#cartTable tbody');
+  tbody.innerHTML = '';
+  let total = 0;
+  items.forEach((it, idx) => {
+    const sub = Number(it.price)*Number(it.qty||1);
+    total += sub;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${it.sku||''}</td>
+      <td>${it.name||''}</td>
+      <td class="right">${it.qty||1}</td>
+      <td class="right">${money(it.price||0)}</td>
+      <td class="right">${money(sub)}</td>
+      <td><button data-i="${idx}" class="rm btn secondary">Remove</button></td>`;
+    tbody.appendChild(tr);
+  });
+  document.getElementById('totalCell').textContent = money(total);
+  [...document.querySelectorAll('.rm')].forEach(b=>{
+    b.onclick = () => { const items=readCart(); items.splice(Number(b.dataset.i),1); writeCart(items); render(); };
+  });
+}
+
+document.getElementById('clearCart').onclick = ()=>{ writeCart([]); render(); };
+
+document.getElementById('addItem').onclick = ()=>{
+  const sku = document.getElementById('sku').value.trim();
+  const name = document.getElementById('name').value.trim();
+  const price = Number(document.getElementById('price').value||0);
+  const qty = Number(document.getElementById('qty').value||1);
+  if(!sku||!name||!price){ alert('SKU, Name, Price required'); return; }
+  const items = readCart(); items.push({sku,name,price,qty}); writeCart(items); render();
+};
+
+document.getElementById('loadDefaults').onclick = ()=>{
+  const defaults = [
+    {sku:'EDN-CRS-MIX-001', name:'Mini Course', price:75, qty:1},
+    {sku:'EDN-CRS-BO-001',  name:'Business Formation Course', price:199, qty:1},
+    // sample paperback books (edit prices if yours differ)
+    {sku:'EDN-BK-RE-001', name:'Buying & Flipping Houses (PB)', price:18.99, qty:1},
+    {sku:'EDN-BK-RE-002', name:'Tax Liens & Deeds (PB)', price:18.99, qty:1},
+    {sku:'EDN-BK-PA-001', name:'Options Trading (PB)', price:18.99, qty:1},
+  ];
+  writeCart(defaults); render();
+};
+
+document.getElementById('recalc').onclick = render;
+
+// ---- server checkout (same endpoints your site uses)
+async function createOrder(payload){
+  const res = await fetch('/.netlify/functions/create-order', {
+    method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
+  });
+  if(!res.ok){ throw new Error('create-order: ' + res.status + ' ' + (await res.text())); }
+  return res.json();
+}
+function log(msg){ const el=document.getElementById('log'); el.textContent += (typeof msg==='string'?msg:JSON.stringify(msg,null,2)) + '\n'; el.scrollTop = el.scrollHeight; }
+
+document.getElementById('toPaypal').onclick = async ()=>{
+  try{
+    const email = document.getElementById('email').value.trim();
+    const code  = document.getElementById('code').value.trim();
+    const lang  = document.getElementById('language').value;
+    const items = readCart();
+    if(!items.length){ alert('Cart is empty'); return; }
+    const payload = { items, email, code, lang };
+    log('→ create-order payload'); log(payload);
+    const j = await createOrder(payload);
+    log('← create-order response'); log(j);
+
+    if(j && j.links){
+      // PayPal REST response: find approve link
+      const approve = (j.links.find(l=>l.rel==='approve')||{}).href;
+      if(approve){ window.location.href = approve; return; }
+    }
+    // Fallback: backend returned a redirect
+    if(j && j.approve_url){ window.location.href = j.approve_url; return; }
+
+    alert('No PayPal approval link returned. See log.');
+  }catch(err){
+    log('ERROR: ' + err.message);
+    alert('Something went wrong creating the order. See log.');
+  }
+};
+
+// auto-unlock for local testing if hash matches (optional)
+if(location.hash === '#letmein'){ gate.classList.add('hidden'); app.classList.remove('hidden'); render(); }
+</script>
+</body>
+</html>
