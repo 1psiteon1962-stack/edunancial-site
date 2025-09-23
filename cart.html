@@ -1,201 +1,100 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
   <title>Cart — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <header id="site-header" class="site-header"></header>
+  <script src="/header.js"></script>
+  <script src="/js/membership-gate.js"></script>
 
-  <main class="container">
+  <main class="container" style="padding:18px 0">
     <h1>Cart</h1>
-
-    <div class="card" id="cartCard" style="overflow:auto">
-      <div id="emptyState" class="small" style="display:none">
-        Your cart is empty.
-        <div style="margin-top:10px">
-          <a class="btn" href="/books.html">Browse Books</a>
-          <a class="btn" href="/courses.html" style="margin-left:8px">Browse Courses</a>
-        </div>
-      </div>
-
-      <div id="cartTableWrap" style="display:none">
-        <table id="cartTable">
-          <thead>
-            <tr>
-              <th style="text-align:left">Item</th>
-              <th>Qty</th>
-              <th>Price</th>
-              <th>Total</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody id="cartBody"></tbody>
-          <tfoot>
-            <tr>
-              <td colspan="2"></td>
-              <td style="text-align:right;font-weight:600">Items Subtotal:</td>
-              <td id="subCell" style="text-align:right">$0.00</td>
-              <td></td>
-            </tr>
-            <tr id="codeRow">
-              <td colspan="5">
-                <label for="code" class="small">Discount / Under-18 Code:</label><br/>
-                <input id="code" type="text" placeholder="Enter code" />
-                <button class="btn" id="applyBtn" style="margin-left:8px">Apply</button>
-                <span id="codeMsg" class="small"></span>
-              </td>
-            </tr>
-            <tr id="discRow" style="display:none">
-              <td colspan="2"></td>
-              <td style="text-align:right;font-weight:600">Discount:</td>
-              <td id="discCell" style="text-align:right">-$0.00</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td colspan="2"></td>
-              <td style="text-align:right;font-weight:800">Total:</td>
-              <td id="totCell" style="text-align:right;font-weight:800">$0.00</td>
-              <td></td>
-            </tr>
-          </tfoot>
-        </table>
-
-        <div style="margin-top:12px">
-          <label for="email" class="small">Email for receipts / Zoom access:</label><br/>
-          <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
-        </div>
-
-        <div style="margin-top:14px">
-          <button class="btn" id="checkoutBtn">Checkout with PayPal</button>
-        </div>
-      </div>
-    </div>
+    <div id="cartBox" class="card" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px"></div>
+    <p class="row" style="margin-top:14px">
+      <a class="btn" href="/books.html">Browse Books</a>
+      <a class="btn" href="/courses.html">Browse Courses</a>
+      <a id="toCheckout" class="btn" href="/checkout.html">Proceed to Checkout</a>
+    </p>
   </main>
 
-  <script src="/header.js?v=6" defer></script>
-  <script>
-  (function(){
-    const $ = sel => document.querySelector(sel);
-    const cartKey = 'edn_cart';
-    const codeKey = 'edn_code';
+<script>
+let CONFIG={DISCOUNT_CODES:{}};
+(async()=>{ try{ const r=await fetch("/config.json",{cache:"no-store"}); if(r.ok) CONFIG=await r.json(); }catch(_){} render(); })();
 
-    const priceMap = {
-      // Mirror server PRICE for live preview (server is source of truth).
-      'EDN-CRS-MIX-001': 75.00,
-      'EDN-CRS-BO-001' : 199.00,
-      'EDN-BK-RE-001'  : 18.99,
-      'EDN-BK-RE-002'  : 18.99,
-      'EDN-BK-PA-001'  : 18.99,
-      'EDN-BK-PA-002'  : 18.99,
-      'EDN-BK-BU-001'  : 18.99,
-      'EDN-BK-BU-002'  : 18.99,
-      'MEM-STARTER'    : 5.00,
-      'MEM-GROWTH'     : 15.00,
-      'MEM-PRO'        : 25.00,
-    };
+function priceAfter(item){
+  const base = Number(item.price||0);
+  const qty  = Number(item.qty||1);
+  const code = (item.code||"").trim();
+  let off = 0;
+  if (code && CONFIG.DISCOUNT_CODES && (code in CONFIG.DISCOUNT_CODES)) {
+    off = Number(CONFIG.DISCOUNT_CODES[code]||0);
+  }
+  const p = Math.max(0, base - off);
+  return { unit: p, line: p * qty, off };
+}
+function removeItem(i){
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  cart.splice(i,1);
+  localStorage.setItem("edn_cart", JSON.stringify(cart));
+  render();
+}
+function updateQty(i, val){
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  cart[i].qty = Math.max(1, Number(val||1));
+  localStorage.setItem("edn_cart", JSON.stringify(cart));
+  render();
+}
+function updateCode(i, val){
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  cart[i].code = (val||"").trim();
+  localStorage.setItem("edn_cart", JSON.stringify(cart));
+  render();
+}
 
-    const flatPerItemCodes = { 'PR12345$$': 1.00 }; // preview only
-
-    function fmt(n){ return '$' + (Math.round(n*100)/100).toFixed(2); }
-
-    function loadCart(){
-      try { return JSON.parse(localStorage.getItem(cartKey) || '[]'); }
-      catch { return []; }
-    }
-    function saveCart(c){ localStorage.setItem(cartKey, JSON.stringify(c)); }
-
-    function render(){
-      const cart = loadCart();
-      if (!cart.length){
-        $('#emptyState').style.display = '';
-        $('#cartTableWrap').style.display = 'none';
-        return;
-      }
-      $('#emptyState').style.display = 'none';
-      $('#cartTableWrap').style.display = '';
-
-      const code = (localStorage.getItem(codeKey)||'').replace(/\s+/g,'');
-      const tbody = $('#cartBody');
-      tbody.innerHTML = '';
-
-      // compute
-      let itemSub = 0;
-      let cartLevelDiscount = 0;
-      const perItemTarget = flatPerItemCodes[code];
-
-      cart.forEach((line, idx) => {
-        const sku = line.sku;
-        const qty = Math.max(1, line.qty || 1);
-        const base = priceMap[sku] || 0;
-        const unit = (perItemTarget ? perItemTarget : base);
-        const rowTotal = unit * qty;
-        itemSub += rowTotal;
-
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td style="text-align:left">${line.name || sku} <div class="small">SKU: ${sku}</div></td>
-          <td style="text-align:center">${qty}</td>
-          <td style="text-align:center">${fmt(unit)}</td>
-          <td style="text-align:right">${fmt(rowTotal)}</td>
-          <td style="text-align:center"><button class="link" data-rm="${idx}">Remove</button></td>
-        `;
-        tbody.appendChild(tr);
-      });
-
-      // (no separate cart-level discount preview unless you add such codes later)
-      $('#subCell').textContent = fmt(itemSub);
-      const grand = itemSub - cartLevelDiscount;
-      $('#discRow').style.display = cartLevelDiscount > 0 ? '' : 'none';
-      $('#discCell').textContent = '-' + fmt(cartLevelDiscount).replace('$','');
-      $('#totCell').textContent = fmt(grand);
-    }
-
-    document.addEventListener('click', (e)=>{
-      const rm = e.target && e.target.getAttribute('data-rm');
-      if (rm != null){
-        const cart = loadCart();
-        cart.splice(parseInt(rm,10),1);
-        saveCart(cart);
-        render();
-      }
-    });
-
-    $('#applyBtn').addEventListener('click', ()=>{
-      const val = $('#code').value || '';
-      localStorage.setItem(codeKey, val.trim());
-      $('#codeMsg').textContent = ' Code applied.';
-      render();
-    });
-
-    // Pre-fill code from storage
-    $('#code').value = localStorage.getItem(codeKey) || '';
-
-    // Checkout
-    $('#checkoutBtn').addEventListener('click', async ()=>{
-      const cart = loadCart();
-      if (!cart.length){ alert('Cart is empty'); return; }
-      const payload = {
-        cart: cart.map(l => ({
-          sku: l.sku, name: l.name, qty: l.qty, type: l.type || 'item'
-        })),
-        code: (localStorage.getItem(codeKey)||'').trim(),
-        email: $('#email').value.trim() || undefined
-      };
-      const res = await fetch('/.netlify/functions/create-order', {
-        method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (!res.ok || data.error){ alert('Checkout error: ' + (data.error || 'Unknown')); return; }
-      if (data.approveUrl){ location.href = data.approveUrl; }
-      else { alert('Could not get PayPal approval link.'); }
-    });
-
-    render();
-  })();
-  </script>
+function render(){
+  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
+  if(!cart.length){
+    document.getElementById("cartBox").innerHTML = `
+      <div style="padding:24px;text-align:center;color:#555">Your cart is empty.</div>`;
+    return;
+  }
+  let rows = "";
+  let subtotal=0, discounts=0;
+  cart.forEach((it,idx)=>{
+    const calc = priceAfter(it);
+    subtotal += calc.line;
+    discounts += Math.max(0, (Number(it.price)-calc.unit)) * Number(it.qty);
+    rows += `
+      <tr>
+        <td>${it.name}<div class="small">SKU: ${it.sku}</div></td>
+        <td>$${Number(it.price).toFixed(2)}</td>
+        <td><input type="number" min="1" value="${it.qty}" style="width:72px" onchange="updateQty(${idx},this.value)"></td>
+        <td><input value="${(it.code||"")}" placeholder="code" style="width:120px" onchange="updateCode(${idx},this.value)"></td>
+        <td>$${calc.unit.toFixed(2)}</td>
+        <td>$${calc.line.toFixed(2)}</td>
+        <td><button class="btn" onclick="removeItem(${idx})">Remove</button></td>
+      </tr>`;
+  });
+  document.getElementById("cartBox").innerHTML = `
+    <div style="overflow:auto">
+      <table style="width:100%;border-collapse:collapse">
+        <thead>
+          <tr style="text-align:left;border-bottom:1px solid #e6e6e6">
+            <th>Item</th><th>Base</th><th>Qty</th><th>Code</th><th>Unit</th><th>Total</th><th></th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div class="row" style="justify-content:flex-end;margin-top:12px">
+      <div style="min-width:240px;border:1px solid #e6e6e6;border-radius:10px;padding:12px">
+        <div>Subtotal: <strong>$${subtotal.toFixed(2)}</strong></div>
+        <div class="small" style="color:#666">Discounts applied: $${discounts.toFixed(2)}</div>
+      </div>
+    </div>`;
+}
+</script>
 </body>
 </html>
