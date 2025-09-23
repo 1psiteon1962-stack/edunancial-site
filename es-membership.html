@@ -1,166 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
   <title>Membresía — Edunancial</title>
-  <link rel="stylesheet" href="/style.css?v=4">
-  <link rel="stylesheet" href="/css-cart.css?v=4">
-  <script src="/header.js?v=3" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="site-header_logo" href="/es-index.html">EDUNANCIAL</a>
-    <nav>
-      <a href="/es-books.html">Libros</a>
-      <a href="/es-courses.html">Cursos</a>
-      <a href="/es-payments.html">Pagos</a>
-      <a href="/es-call-center.html">Centro de llamadas</a>
-      <a href="/es-vendor-program.html">Programa de vendedores</a>
-      <a href="/es-contact.html">Contacto</a>
-      <a href="/es-privacy.html">Privacidad</a>
-      <a href="/es-terms.html">Términos</a>
-      <a href="/es-refunds.html">Reembolsos</a>
-    </nav>
-    <div class="lang">
-      <a class="pill" href="/membership.html">EN</a>
-      <a class="pill pill--on">ES</a>
+  <script src="/header.js"></script>
+
+  <main class="container" style="padding:18px 0">
+    <h1>Membresía — Desde $5</h1>
+    <p>La membresía desbloquea libros, cursos, precios de miembro y materiales solo para miembros. Mejora cuando quieras.</p>
+
+    <div style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <div id="join-starter" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Inicio — $5/mes</h3>
+        <ul>
+          <li>Precios de miembro en cursos y libros de tapa blanda</li>
+          <li>Descargas solo para miembros (hojas de trabajo, listas)</li>
+          <li>Preferencias de email & cumplimiento</li>
+        </ul>
+        <a class="btn" href="/es-checkout.html?type=membership&tier=starter&price=5">Unirme a Inicio</a>
+      </div>
+
+      <div id="join-growth" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Crecimiento — $15/mes</h3>
+        <ul>
+          <li>Todo lo de Inicio</li>
+          <li>Soporte prioritario por email/chat</li>
+          <li>Acceso a sesiones en vivo del seminario de <em>Formación de Negocios</em></li>
+        </ul>
+        <a class="btn" href="/es-checkout.html?type=membership&tier=growth&price=15">Unirme a Crecimiento</a>
+      </div>
+
+      <div id="join-pro" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
+        <h3>Pro — $25/mes</h3>
+        <ul>
+          <li>Todo lo de Crecimiento</li>
+          <li>Descuentos más profundos en programas selectos</li>
+          <li>Acceso anticipado a nuevos cursos y herramientas</li>
+        </ul>
+        <a class="btn" href="/es-checkout.html?type=membership&tier=pro&price=25">Unirme a Pro</a>
+      </div>
     </div>
-  </header>
 
-  <main class="container">
-    <section class="card">
-      <h1>Membresía — Desde $5</h1>
-      <p>Hazte miembro para acceder a lecciones, precios de miembro en cursos y libros impresos, y descargas exclusivas. Puedes mejorar tu plan en cualquier momento.</p>
-    </section>
-
-    <section class="grid-1-1-1">
-      <div class="card">
-        <h2>Starter — $5/mes</h2>
-        <ul>
-          <li>Precios de miembro en cursos y libros impresos</li>
-          <li>Descargas solo para miembros (guías, listas)</li>
-          <li>Preferencias de correo y cumplimiento</li>
-        </ul>
-        <button class="btn" data-join data-level="starter" data-price="5.00">Unirme a Starter</button>
-      </div>
-
-      <div class="card">
-        <h2>Growth — $15/mes</h2>
-        <ul>
-          <li>Todo lo de Starter</li>
-          <li>Soporte prioritario por email/chat para cuenta y cursos</li>
-          <li>Acceso a sesiones en vivo del seminario de <em>Formación de Empresas</em></li>
-        </ul>
-        <button class="btn" data-join data-level="growth" data-price="15.00">Unirme a Growth</button>
-      </div>
-
-      <div class="card">
-        <h2>Pro — $25/mes</h2>
-        <ul>
-          <li>Todo lo de Growth</li>
-          <li>Descuentos mayores en programas selectos</li>
-          <li>Acceso anticipado a cursos y herramientas nuevas</li>
-        </ul>
-        <button class="btn" data-join data-level="pro" data-price="25.00">Unirme a Pro</button>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Aplicar un código y crear tu cuenta</h2>
-
-      <div class="grid-1-1">
-        <div>
-          <label for="tierSelect">Selecciona membresía</label>
-          <select id="tierSelect">
-            <option value="starter" selected>Starter — $5/mes</option>
-            <option value="growth">Growth — $15/mes</option>
-            <option value="pro">Pro — $25/mes</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="discountInput">Código de descuento / socio</label>
-          <input id="discountInput" type="text" placeholder="Ingresa código (opcional)" autocomplete="off">
-          <div id="discountMsg" class="small muted" aria-live="polite"></div>
-        </div>
-      </div>
-
-      <div class="price-line">
-        <strong>Total hoy:</strong> <span id="priceToday">$5.00 /mes</span>
-      </div>
-
-      <hr>
-
-      <div class="grid-1-1-1">
-        <div>
-          <label>Nombre completo</label>
-          <input id="nameInput" type="text" placeholder="Tu nombre">
-        </div>
-        <div>
-          <label>Correo</label>
-          <input id="emailInput" type="email" placeholder="tu@ejemplo.com">
-        </div>
-        <div>
-          <label>Contraseña</label>
-          <input id="passInput" type="password" placeholder="Elige una contraseña">
-        </div>
-      </div>
-
-      <details class="small">
-        <summary>Perfil opcional</summary>
-        <div class="grid-1-1-1">
-          <div>
-            <label>Rango de edad</label>
-            <select id="ageRange">
-              <option>Prefiero no decir</option><option>Menor de 18</option><option>18–24</option><option>25–34</option><option>35–44</option><option>45–54</option><option>55–64</option><option>65+</option>
-            </select>
-          </div>
-          <div>
-            <label>Nivel educativo</label>
-            <select id="eduLevel">
-              <option>Prefiero no decir</option><option>Secundaria</option><option>Algo de universidad</option><option>Licenciatura</option><option>Posgrado</option><option>Otro</option>
-            </select>
-          </div>
-          <div>
-            <label>Situación emprendedora</label>
-            <select id="entreStatus">
-              <option>Prefiero no decir</option><option>Considerándolo</option><option>Emprendimiento parcial</option><option>Emprendedor de tiempo completo</option>
-            </select>
-          </div>
-        </div>
-      </details>
-
-      <div class="consents">
-        <label><input id="agreeTerms" type="checkbox"> Acepto los <a href="/es-terms.html" target="_blank">Términos</a> y la <a href="/es-privacy.html" target="_blank">Privacidad</a>.</label>
-        <label><input id="agreeEmail" type="checkbox"> Consiento recibir correos de Edunancial.</label>
-        <label><input id="agreeAge" type="checkbox"> Tengo 18+ o cuento con consentimiento parental.</label>
-      </div>
-
-      <div class="actions">
-        <button class="btn" id="joinWithPayPal">Unirme con PayPal</button>
-        <span id="joinMsg" class="small muted" aria-live="polite"></span>
-      </div>
-
-      <div class="small muted">¿Ya eres miembro? <a href="/es-membership-upgrade.html">Mejorar membresía</a> · <a href="/es-cart.html">Ver carrito</a></div>
-    </section>
-
-    <section class="card small">
-      <details>
-        <summary>Acceso de administrador</summary>
-        <div class="grid-1-1">
-          <input id="adminCode" type="password" placeholder="Código de administrador">
-          <button class="btn" id="adminUnlock">Desbloquear</button>
-        </div>
-        <div class="small muted">Bypass temporal del lado del cliente. Cambia el hash en <code>membership.js</code>.</div>
-      </details>
-    </section>
+    <p style="margin-top:16px">
+      ¿Ya eres miembro? <a href="/es-membership-upgrade.html">Mejorar membresía</a> &nbsp;•&nbsp;
+      <a href="/es-cart.html">Ver Carrito</a>
+      <input id="edn-admin-box" class="admin-input" type="password" placeholder=""
+             onkeydown="if(event.key==='Enter'){EDN.adminLogin(this.value)}">
+    </p>
   </main>
-
-  <footer class="container small muted" style="margin-bottom:64px">
-    © 2025 Edunancial, Inc. • Todos los derechos reservados.
-  </footer>
-
-  <script src="/membership.js?v=1"></script>
 </body>
 </html>
