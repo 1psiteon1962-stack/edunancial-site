@@ -1,180 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Admin Access • Edunancial</title>
-<style>
-:root{--bg:#fff;--text:#111;--muted:#666;--border:#e6e6e6;--brand:#d11}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,Segoe UI,Roboto,Arial}
-.wrap{max-width:760px;margin:32px auto;padding:0 16px}
-.banner{background:var(--brand);color:#fff;padding:14px 16px;border-bottom:1px solid #b50;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:800;letter-spacing:.6px}
-.lang a{display:inline-block;margin-left:8px;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.6);color:#fff;text-decoration:none}
-.lang a.active{background:#fff;color:#c00;border-color:#fff}
-.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
-h1,h2{margin:.2rem 0 1rem}
-label{font-weight:600}
-input{width:100%;padding:12px;border:1px solid var(--border);border-radius:10px}
-.btn{display:inline-block;padding:12px 16px;border-radius:10px;border:none;background:#1565d8;color:#fff;font-weight:700;cursor:pointer}
-.small{color:var(--muted);font-size:.92rem}
-.row{display:grid;grid-template-columns:1fr auto;gap:12px}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eee;color:#333;font-weight:600}
-.note{background:#fff8e1;border:1px solid #ffe08a;padding:10px;border-radius:10px}
-.ok{color:#0a7e07;font-weight:700}
-.err{color:#c00;font-weight:700}
-hr{border:none;border-top:1px dashed var(--border);margin:16px 0}
-ul{margin:8px 0 0 18px}
-</style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
-<div class="banner">
-  <div class="logo">EDUNANCIAL</div>
-  <div class="lang">
-    <a href="#" id="btnEN" class="active">EN</a>
-    <a href="#" id="btnES">ES</a>
-  </div>
+<div class="container">
+  <h1>Admin</h1>
+  <section class="card" id="gate">
+    <p>Enter admin code in the header. This page requires admin mode.</p>
+    <p class="small">Status: <span id="st">checking…</span></p>
+  </section>
+  <section class="card" id="panel" style="display:none">
+    <p>Admin mode ON. You can access testing tools and preview flows.</p>
+    <a class="btn" href="/cart.html">Open Cart</a>
+  </section>
 </div>
-
-<div class="wrap">
-  <div class="card" id="panelEN">
-    <h1>Admin Access</h1>
-    <p class="small">Enter your admin code to unlock QA mode on this browser. Once unlocked, you can navigate the site and test discounts, cart, and PayPal without member gating.</p>
-
-    <label for="codeEN">Admin code</label>
-    <div class="row" style="margin-top:6px">
-      <input id="codeEN" type="password" placeholder="Type your admin code" autocomplete="off">
-      <button id="unlockEN" class="btn">Unlock</button>
-    </div>
-    <p id="msgEN" class="small" style="margin-top:8px"></p>
-
-    <hr>
-    <div class="note small">
-      <strong>How it works:</strong>
-      <ul>
-        <li>We hash your code in the browser and compare it to a stored hash.</li>
-        <li>If it matches, we set a flag (<span class="badge">localStorage.edn_admin = "1"</span>) and mark a member tier so pages load.</li>
-        <li>You can clear it anytime by using the button below.</li>
-      </ul>
-    </div>
-
-    <div style="margin-top:12px">
-      <button id="clearEN" class="btn" style="background:#555">Clear admin flag on this browser</button>
-      <span id="clearMsgEN" class="small" style="margin-left:8px"></span>
-    </div>
-
-    <hr>
-    <p class="small">Go back to the site: <a href="/index.html">Home</a> · <a href="/membership.html">Membership</a> · <a href="/cart.html">Cart</a></p>
-  </div>
-
-  <div class="card" id="panelES" style="display:none">
-    <h1>Acceso de Administrador</h1>
-    <p class="small">Ingresa tu código de administrador para habilitar el modo QA en este navegador. Una vez habilitado, podrás navegar el sitio y probar descuentos, carrito y PayPal sin restricción de membresía.</p>
-
-    <label for="codeES">Código de administrador</label>
-    <div class="row" style="margin-top:6px">
-      <input id="codeES" type="password" placeholder="Escribe tu código" autocomplete="off">
-      <button id="unlockES" class="btn">Desbloquear</button>
-    </div>
-    <p id="msgES" class="small" style="margin-top:8px"></p>
-
-    <hr>
-    <div class="note small">
-      <strong>Cómo funciona:</strong>
-      <ul>
-        <li>Ciframos (hash) tu código en el navegador y lo comparamos con un hash guardado.</li>
-        <li>Si coincide, establecemos un indicador (<span class="badge">localStorage.edn_admin = "1"</span>) y marcamos un nivel de miembro para que las páginas carguen.</li>
-        <li>Puedes borrarlo en cualquier momento con el botón de abajo.</li>
-      </ul>
-    </div>
-
-    <div style="margin-top:12px">
-      <button id="clearES" class="btn" style="background:#555">Borrar indicador en este navegador</button>
-      <span id="clearMsgES" class="small" style="margin-left:8px"></span>
-    </div>
-
-    <hr>
-    <p class="small">Volver al sitio: <a href="/es-index.html">Inicio</a> · <a href="/es-membership.html">Membresía</a> · <a href="/es-cart.html">Carrito</a></p>
-  </div>
-</div>
-
+<script src="/header.js?v=7" defer></script>
 <script>
-// ====== CONFIG: put the SHA-256 hash of YOUR admin code here ======
-// (This keeps your raw code out of the repo.)
-const ADMIN_HASH = "PUT_SHA256_OF_YOUR_ADMIN_CODE_HERE"; // 64-char hex
-
-// Also ensure your header/membership gating looks for this flag:
-const LS_ADMIN = "edn_admin";
-const LS_MEMBER_TIER = "edn_member_tier";
-
-// ---------- helpers ----------
-async function sha256Hex(s){
-  const data = new TextEncoder().encode(s);
-  const buf = await crypto.subtle.digest('SHA-256', data);
-  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
-}
-function setAdmin(){
-  localStorage.setItem(LS_ADMIN, "1");
-  if (!localStorage.getItem(LS_MEMBER_TIER)) localStorage.setItem(LS_MEMBER_TIER, "starter");
-}
-function clearAdmin(){
-  localStorage.removeItem(LS_ADMIN);
-  // (optionally) leave member tier alone, or clear it:
-  // localStorage.removeItem(LS_MEMBER_TIER);
-}
-
-// ---------- EN panel ----------
-document.getElementById('unlockEN').addEventListener('click', async ()=>{
-  const msg = document.getElementById('msgEN');
-  const val = document.getElementById('codeEN').value.trim();
-  if(!val){ msg.textContent = "Please enter a code."; msg.className="small err"; return; }
-  const h = await sha256Hex(val);
-  if(h.toLowerCase() === ADMIN_HASH.toLowerCase()){
-    setAdmin();
-    msg.textContent = "QA unlocked on this browser. You can now navigate and test.";
-    msg.className = "small ok";
-  }else{
-    msg.textContent = "Code not recognized.";
-    msg.className = "small err";
-  }
+document.addEventListener('DOMContentLoaded', ()=>{
+  const on=window.EDN?.isAdmin?.() || localStorage.getItem('EDN_ADMIN')==='1';
+  document.getElementById('st').textContent=on?'ON':'OFF';
+  document.getElementById('panel').style.display=on?'block':'none';
 });
-document.getElementById('clearEN').addEventListener('click', ()=>{
-  clearAdmin();
-  const el = document.getElementById('clearMsgEN');
-  el.textContent = "Cleared. This browser is no longer unlocked.";
-});
-
-// ---------- ES panel ----------
-document.getElementById('unlockES').addEventListener('click', async ()=>{
-  const msg = document.getElementById('msgES');
-  const val = document.getElementById('codeES').value.trim();
-  if(!val){ msg.textContent = "Ingresa un código."; msg.className="small err"; return; }
-  const h = await sha256Hex(val);
-  if(h.toLowerCase() === ADMIN_HASH.toLowerCase()){
-    setAdmin();
-    msg.textContent = "QA habilitado en este navegador. Ya puedes probar.";
-    msg.className = "small ok";
-  }else{
-    msg.textContent = "Código no reconocido.";
-    msg.className = "small err";
-  }
-});
-document.getElementById('clearES').addEventListener('click', ()=>{
-  clearAdmin();
-  const el = document.getElementById('clearMsgES');
-  el.textContent = "Listo. Este navegador ya no está desbloqueado.";
-});
-
-// ---------- language toggle ----------
-const panelEN = document.getElementById('panelEN');
-const panelES = document.getElementById('panelES');
-document.getElementById('btnEN').addEventListener('click', (e)=>{ e.preventDefault(); panelEN.style.display='block'; panelES.style.display='none'; document.getElementById('btnEN').classList.add('active'); document.getElementById('btnES').classList.remove('active'); });
-document.getElementById('btnES').addEventListener('click', (e)=>{ e.preventDefault(); panelEN.style.display='none'; panelES.style.display='block'; document.getElementById('btnES').classList.add('active'); document.getElementById('btnEN').classList.remove('active'); });
-
-// If you want the page to open in ES when path is /es-*, uncomment:
-// if (location.pathname.startsWith('/es-')) { document.getElementById('btnES').click(); }
 </script>
-
 </body>
 </html>
