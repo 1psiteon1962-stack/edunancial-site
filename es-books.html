@@ -1,62 +1,41 @@
+
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Libros — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Libros — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <script src="/header.js"></script>
-  <script src="/js/membership-gate.js"></script>
+<div class="container">
+  <h1>Libros (Tapa blanda)</h1>
+  <section class="card" id="list"></section>
+</div>
 
-  <main class="container" style="padding:18px 0">
-    <h1>Libros</h1>
-    <p><strong>Rojo</strong> = Bienes Raíces · <strong>Blanco</strong> = Activos de Papel · <strong>Azul</strong> = Negocios</p>
-
-    <div id="list" style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))"></div>
-    <p style="margin-top:16px"><a class="btn" href="/es-cart.html">Ir al Carrito</a></p>
-  </main>
-
+<script src="/header.js?v=7" defer></script>
 <script>
-const BOOKS = [
-  { id:"EDN-BK-RE-001", name:"Comprar y Revender Casas con Ganancia", price:18.99 },
-  { id:"EDN-BK-RE-002", name:"Derechos y Gravámenes: De lo Básico a tu Primera Compra", price:18.99 },
-  { id:"EDN-BK-PA-001", name:"Trading de Opciones: Guía para Puts, Calls y Estrategia", price:18.99 },
-  { id:"EDN-BK-PA-002", name:"Selección Inteligente de Acciones para Jóvenes y Padres", price:18.99 },
-  { id:"EDN-BK-BU-001", name:"El Negocio se Trata de Ganar", price:18.99 },
-  { id:"EDN-BK-BU-002", name:"Tu Primera LLC de la Manera Correcta", price:18.99 }
-];
-
-let CONFIG = {};
-(async()=>{ try{ const r=await fetch("/config.json",{cache:"no-store"}); if(r.ok) CONFIG=await r.json(); }catch(_){} render(); })();
-
-function addToCart(itemId){
-  const qty = Number(document.getElementById("qty-"+itemId).value||1);
-  const code = (document.getElementById("code-"+itemId).value||"").trim();
-  const item = BOOKS.find(b=>b.id===itemId);
-  if(!item) return;
-  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
-  cart.push({ type:"book", sku:item.id, name:item.name, price:item.price, qty, code });
-  localStorage.setItem("edn_cart", JSON.stringify(cart));
-  alert("Agregado al carrito");
-}
-
-function card(b){
-  return `
-  <div style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
-    <h3 style="margin:0 0 4px">${b.name}</h3>
-    <div><strong>SKU:</strong> ${b.id} · <strong>$${b.price.toFixed(2)}</strong></div>
-    <div class="row" style="margin-top:10px">
-      <input id="code-${b.id}" placeholder="Código de descuento" style="height:36px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px;width:52%">
-      <input id="qty-${b.id}" type="number" min="1" value="1" style="height:36px;width:68px;border:1px solid #e6e6e6;border-radius:8px;padding:0 10px">
-      <button class="btn" onclick="addToCart('${b.id}')">Agregar</button>
-    </div>
-  </div>`;
-}
-
-function render(){
-  document.getElementById("list").innerHTML = BOOKS.map(card).join("");
-}
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const res=await fetch('/config.json?ts='+Date.now()); const cfg=await res.json();
+  const SKUS=['EDN-BK-RE-001','EDN-BK-RE-002','EDN-BK-PA-001','EDN-BK-PA-002','EDN-BK-BU-001','EDN-BK-BU-002','EDN-BK-RE-003','EDN-BK-PA-003'];
+  const el=document.getElementById('list'); el.innerHTML='';
+  SKUS.forEach(sku=>{
+    const p=cfg.products[sku];
+    const div=document.createElement('div'); div.className='product';
+    div.innerHTML=`<div>
+        <h3>${p.name}</h3>
+        <div class="small">Autor: Waldemar M. Caban, JD MA &nbsp;|&nbsp; SKU: ${sku}</div>
+      </div>
+      <div>
+        <div class="small">$${(+p.price).toFixed(2)}</div>
+        <button class="btn" data-sku="${sku}">Agregar al Carrito</button>
+      </div>`;
+    el.appendChild(div);
+  });
+  el.addEventListener('click',e=>{
+    const btn=e.target.closest('button[data-sku]'); if(!btn) return;
+    window.EDN.addToCart(btn.dataset.sku);
+  });
+});
 </script>
 </body>
 </html>
