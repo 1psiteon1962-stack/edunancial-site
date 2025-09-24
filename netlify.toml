@@ -1,29 +1,65 @@
+# netlify.toml — Edunancial + Ultima Defensa Legal
+
 [build]
-  publish = "."
-  command = "npm run build || echo 'no build'"
+  publish = "public"
+  command = "npm run build"
 
-[build.environment]
-  NODE_VERSION = "20"
+# =======================================
+#  Redirects
+# =======================================
 
-# Context: Production (main)
-[context.production.environment]
-  NODE_ENV = "production"
-  PAYPAL_MODE = "live"
-
-# Context: Staging (staging branch)
-[context.staging]
-  command = "npm run build:staging || npm run build || echo 'no build'"
-[context.staging.environment]
-  NODE_ENV = "staging"
-  PAYPAL_MODE = "sandbox"
-
-# Context: Deploy Previews (PRs)
-[context.deploy-preview.environment]
-  NODE_ENV = "preview"
-  PAYPAL_MODE = "sandbox"
-
-# Optional: route /api/* to functions
+# Root goes to English index
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/"
+  to = "/index.html"
   status = 200
+  force = true
+
+# Spanish root
+[[redirects]]
+  from = "/es"
+  to = "/es-index.html"
+  status = 200
+  force = true
+
+# Clean URLs (strip .html)
+[[redirects]]
+  from = "/:page"
+  to = "/:page.html"
+  status = 200
+  force = true
+
+# =======================================
+#  Security Headers
+# =======================================
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self' https://www.paypal.com; script-src 'self' https://www.paypal.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.paypal.com; frame-src 'self' https://www.paypal.com"
+
+# =======================================
+#  Caching Rules
+# =======================================
+
+# Static assets (cache 1 year)
+[[headers]]
+  for = "/*.(js|css|svg|ico|jpg|jpeg|png|gif|webp|woff|woff2)"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML files (short cache, always revalidated)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=60, must-revalidate"
+
+# Config file (admin codes) – must never be cached
+[[headers]]
+  for = "/config.json"
+  [headers.values]
+    Cache-Control = "no-store"
