@@ -1,100 +1,164 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Cart — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cart — Edunancial</title>
+<style>
+  :root{--border:#e6e6e6}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;background:#fafafa}
+  .container{max-width:980px;margin:0 auto;padding:16px}
+  .card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+  table{width:100%;border-collapse:collapse} th,td{padding:10px;border-bottom:1px solid var(--border);text-align:left}
+  .totals{display:flex;justify-content:flex-end;gap:20px;margin-top:10px}
+  input,button{padding:8px 10px;border:1px solid var(--border);border-radius:8px}
+  button{cursor:pointer}
+  .right{float:right}
+  .muted{color:#666}
+</style>
 </head>
 <body>
-  <script src="/header.js"></script>
-  <script src="/js/membership-gate.js"></script>
-
-  <main class="container" style="padding:18px 0">
-    <h1>Cart</h1>
-    <div id="cartBox" class="card" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px"></div>
-    <p class="row" style="margin-top:14px">
-      <a class="btn" href="/books.html">Browse Books</a>
-      <a class="btn" href="/courses.html">Browse Courses</a>
-      <a id="toCheckout" class="btn" href="/checkout.html">Proceed to Checkout</a>
-    </p>
-  </main>
-
-<script>
-let CONFIG={DISCOUNT_CODES:{}};
-(async()=>{ try{ const r=await fetch("/config.json",{cache:"no-store"}); if(r.ok) CONFIG=await r.json(); }catch(_){} render(); })();
-
-function priceAfter(item){
-  const base = Number(item.price||0);
-  const qty  = Number(item.qty||1);
-  const code = (item.code||"").trim();
-  let off = 0;
-  if (code && CONFIG.DISCOUNT_CODES && (code in CONFIG.DISCOUNT_CODES)) {
-    off = Number(CONFIG.DISCOUNT_CODES[code]||0);
-  }
-  const p = Math.max(0, base - off);
-  return { unit: p, line: p * qty, off };
-}
-function removeItem(i){
-  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
-  cart.splice(i,1);
-  localStorage.setItem("edn_cart", JSON.stringify(cart));
-  render();
-}
-function updateQty(i, val){
-  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
-  cart[i].qty = Math.max(1, Number(val||1));
-  localStorage.setItem("edn_cart", JSON.stringify(cart));
-  render();
-}
-function updateCode(i, val){
-  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
-  cart[i].code = (val||"").trim();
-  localStorage.setItem("edn_cart", JSON.stringify(cart));
-  render();
-}
-
-function render(){
-  const cart = JSON.parse(localStorage.getItem("edn_cart")||"[]");
-  if(!cart.length){
-    document.getElementById("cartBox").innerHTML = `
-      <div style="padding:24px;text-align:center;color:#555">Your cart is empty.</div>`;
-    return;
-  }
-  let rows = "";
-  let subtotal=0, discounts=0;
-  cart.forEach((it,idx)=>{
-    const calc = priceAfter(it);
-    subtotal += calc.line;
-    discounts += Math.max(0, (Number(it.price)-calc.unit)) * Number(it.qty);
-    rows += `
-      <tr>
-        <td>${it.name}<div class="small">SKU: ${it.sku}</div></td>
-        <td>$${Number(it.price).toFixed(2)}</td>
-        <td><input type="number" min="1" value="${it.qty}" style="width:72px" onchange="updateQty(${idx},this.value)"></td>
-        <td><input value="${(it.code||"")}" placeholder="code" style="width:120px" onchange="updateCode(${idx},this.value)"></td>
-        <td>$${calc.unit.toFixed(2)}</td>
-        <td>$${calc.line.toFixed(2)}</td>
-        <td><button class="btn" onclick="removeItem(${idx})">Remove</button></td>
-      </tr>`;
-  });
-  document.getElementById("cartBox").innerHTML = `
-    <div style="overflow:auto">
-      <table style="width:100%;border-collapse:collapse">
-        <thead>
-          <tr style="text-align:left;border-bottom:1px solid #e6e6e6">
-            <th>Item</th><th>Base</th><th>Qty</th><th>Code</th><th>Unit</th><th>Total</th><th></th>
-          </tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
+<div class="container">
+  <h1>Cart</h1>
+  <div class="card">
+    <div id="empty" style="display:none;text-align:center;padding:20px">
+      Your cart is empty. &nbsp; <a href="/books.html">Browse Books</a> &nbsp; <a href="/courses.html">Browse Courses</a>
     </div>
-    <div class="row" style="justify-content:flex-end;margin-top:12px">
-      <div style="min-width:240px;border:1px solid #e6e6e6;border-radius:10px;padding:12px">
-        <div>Subtotal: <strong>$${subtotal.toFixed(2)}</strong></div>
-        <div class="small" style="color:#666">Discounts applied: $${discounts.toFixed(2)}</div>
+    <div id="cart-wrap" style="display:none">
+      <table id="cart-table">
+        <thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Total</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <label class="muted">Discount / Partner Code:</label>
+        <input id="discount" placeholder="" />
+        <button id="apply">Apply</button>
+        <span id="disc-msg" class="muted"></span>
+        <span style="margin-left:auto"></span>
+        <label class="muted">Email for receipts / Zoom:</label>
+        <input id="buyer-email" type="email" placeholder="you@example.com"/>
       </div>
-    </div>`;
-}
+
+      <div class="totals">
+        <div><div class="muted">Subtotal</div><div id="sub">$0.00</div></div>
+        <div><div class="muted">Discount</div><div id="disc">-$0.00</div></div>
+        <div><div class="muted"><strong>Grand Total</strong></div><div id="grand"><strong>$0.00</strong></div></div>
+      </div>
+
+      <div id="paypal-buttons" style="margin-top:16px"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/header.js?v=6" defer></script>
+<script>
+(function(){
+  let cfg, cart=[], discountCode="", totals={sub:0,disc:0,grand:0};
+
+  const money=n=>'$'+(Number(n||0).toFixed(2));
+  const loadCfg=()=>window.EDN?.cfg ? Promise.resolve(window.EDN.cfg) : fetch('/config.json').then(r=>r.json());
+  const $=s=>document.querySelector(s);
+
+  function readCart(){
+    cart=JSON.parse(localStorage.getItem('ednCart')||'[]');
+  }
+
+  function saveCart(){
+    localStorage.setItem('ednCart',JSON.stringify(cart));
+    if(window.EDN) EDN.updateCartCount();
+  }
+
+  function removeAt(i){ cart.splice(i,1); saveCart(); render(); }
+
+  function priceFor(item){
+    // base price from config catalog if available
+    let p=item.price;
+    // $1 rule: any code ending with "$$" forces $1 each
+    if(discountCode && /\$\$$/.test(discountCode)) return 1;
+    // under-18 rule: 100% off if code equals the configured one
+    if(discountCode && cfg?.discounts?.under18 && discountCode.toUpperCase()===cfg.discounts.under18.toUpperCase()){
+      return 0;
+    }
+    // nonprofit flat price if code matches
+    if(discountCode && cfg?.discounts?.nonprofit && discountCode.toUpperCase()===cfg.discounts.nonprofit.toUpperCase()){
+      return Math.min(p, cfg.discounts.nonprofitPrice||5);
+    }
+    return p;
+  }
+
+  function computeTotals(){
+    const sub=cart.reduce((s,i)=>s+i.price*(i.qty||1),0);
+    const grand=cart.reduce((s,i)=>s+priceFor(i)*(i.qty||1),0);
+    const disc=sub-grand;
+    totals={sub,disc,grand};
+  }
+
+  function render(){
+    readCart();
+    const empty=cart.length===0;
+    $('#empty').style.display=empty?'block':'none';
+    $('#cart-wrap').style.display=empty?'none':'block';
+    if(empty) return;
+
+    const tb=$('#cart-table tbody'); tb.innerHTML='';
+    cart.forEach((it,idx)=>{
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td>${it.name||it.sku}</td>
+        <td><input type="number" min="1" value="${it.qty||1}" style="width:70px"/></td>
+        <td>${money(it.price)}</td>
+        <td>${money(priceFor(it)*(it.qty||1))}</td>
+        <td><button data-i="${idx}">Remove</button></td>`;
+      tr.querySelector('input').addEventListener('input',e=>{
+        cart[idx].qty=Math.max(1,parseInt(e.target.value||'1',10));
+        saveCart(); render();
+      });
+      tr.querySelector('button').addEventListener('click',()=>removeAt(idx));
+      tb.appendChild(tr);
+    });
+
+    computeTotals();
+    $('#sub').textContent=money(totals.sub);
+    $('#disc').textContent='-'+money(totals.disc);
+    $('#grand').textContent=money(totals.grand);
+  }
+
+  function loadPayPalAndRenderButtons(){
+    // load SDK dynamically with client-id from config
+    return new Promise(resolve=>{
+      const s=document.createElement('script');
+      s.src=`https://www.paypal.com/sdk/js?client-id=${cfg.paypal.clientId}&currency=USD`;
+      s.onload=resolve; document.head.appendChild(s);
+    }).then(()=>{
+      paypal.Buttons({
+        createOrder: async (data, actions)=>{
+          // Create order on our function (so discounts & items are recorded)
+          const payload={ items:cart, discountCode, email:$('#buyer-email').value, total:totals.grand };
+          const res=await fetch('/.netlify/functions/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+          const out=await res.json(); return out.id;
+        },
+        onApprove: async (data, actions)=>{
+          try{
+            await fetch('/.netlify/functions/capture-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({orderId:data.orderID})});
+          }catch(e){}
+          localStorage.removeItem('ednCart');
+          if(window.EDN) EDN.updateCartCount();
+          location.href='/thank-you.html';
+        }
+      }).render('#paypal-buttons');
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', async ()=>{
+    cfg=await loadCfg();
+    render();
+    $('#apply').addEventListener('click',()=>{
+      discountCode=$('#discount').value.trim();
+      $('#disc-msg').textContent=discountCode?('Code: '+discountCode):'';
+      render();
+    });
+    await loadPayPalAndRenderButtons();
+  });
+})();
 </script>
 </body>
 </html>
