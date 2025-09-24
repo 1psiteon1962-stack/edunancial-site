@@ -1,61 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mejorar Membresía – Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mejorar Membresía — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header class="banner">
-    <h1>Mejorar Membresía</h1>
-    <nav>
-      <a href="/es-index.html">Inicio</a>
-      <a href="/es-books.html">Libros</a>
-      <a href="/es-courses.html">Cursos</a>
-      <a href="/es-membership.html">Membresía</a>
-    </nav>
-  </header>
+<div class="container">
+  <h1>Mejorar Membresía</h1>
+  <section class="card">
+    <label>Elige el nuevo nivel:</label>
+    <select id="tier">
+      <option value="starter">Starter ($5/mes)</option>
+      <option value="growth">Growth ($15/mes)</option>
+      <option value="pro">Pro ($25/mes)</option>
+    </select>
+    <button class="btn" id="add">Agregar al Carrito</button>
+  </section>
+</div>
 
-  <main class="container">
-    <section>
-      <h2>Actualiza tu Membresía</h2>
-      <p>Usa este formulario para actualizar tu nivel de membresía. Ingresa tu correo y selecciona el nivel deseado.</p>
-      
-      <form id="upgradeForm" onsubmit="return false;">
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" required>
-
-        <label for="currentTier">Tu nivel actual:</label>
-        <select id="currentTier">
-          <option value="ENTRY">Básico – $5/mes</option>
-          <option value="STANDARD">Estándar – $29/mes</option>
-        </select>
-
-        <label for="targetTier">Mejorar a:</label>
-        <select id="targetTier">
-          <option value="STANDARD|29">Estándar – $29/mes</option>
-          <option value="PREMIUM|59">Premium – $59/mes</option>
-        </select>
-
-        <label for="code">Código de descuento (opcional):</label>
-        <input type="text" id="code" placeholder="Ingresa el código">
-
-        <div id="priceView" class="price">Precio: $0.00</div>
-        <div id="codeMsg" class="muted"></div>
-
-        <button type="button" id="upgradeBtn" class="btn">Mejorar Ahora</button>
-      </form>
-
-      <div id="msg" class="muted"></div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Edunancial, Inc. Todos los derechos reservados.</p>
-  </footer>
-
-  <!-- Script completo en español -->
-  <script defer src="/scripts/es-upgrade-membership.js"></script>
+<script src="/header.js?v=7" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',async()=>{
+  const cfg=await (await fetch('/config.json?ts='+Date.now())).json();
+  document.getElementById('add').addEventListener('click',()=>{
+    const k=document.getElementById('tier').value; const t=cfg.memberships[k];
+    const item={sku:`UPG-${k.toUpperCase()}`, title:`Mejora de Membresía — ${t.name}`, price:+t.price, qty:1};
+    const cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]'); cart.push(item);
+    localStorage.setItem('EDN_CART', JSON.stringify(cart)); window.EDN.updateCartCount(); alert('Agregado '+item.title);
+  });
+});
+</script>
 </body>
 </html>
