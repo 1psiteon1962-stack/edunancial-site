@@ -2,55 +2,32 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Aprende y Crece</title>
+<title>Edunancial — Aprende. Emprende. Crece.</title>
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <div class="container">
-  <main>
-    <section class="card">
-      <h1>Nuestra Historia</h1>
-      <p>Un día ... <strong>Ahí nació Edunancial.</strong></p>
-      <p><a href="/es-books.html" class="btn">Ver Libros</a> <a href="/es-courses.html" class="btn">Ver Cursos</a></p>
-    </section>
+  <section class="card">
+    <h1>Nuestra Historia</h1>
+    <p>Una tarde cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
+    <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces y está armando un negocio.</p>
+    <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos de Papel) y <strong>Azul</strong> (Negocios). Son las <strong>bases del crecimiento de por vida.</strong></p>
+    <div class="grid grid-2">
+      <a class="btn" href="/es-books.html">Ver Libros</a>
+      <a class="btn" href="/es-courses.html">Ver Cursos</a>
+    </div>
+  </section>
 
-    <section class="card" id="membership">
-      <h2>Membresía — Desde $5</h2>
-      <p>Conviértete en miembro para acceder a lecciones, descuentos y materiales exclusivos. Actualiza en cualquier momento.</p>
-      <div class="tiers">
-        <article class="tier card"><h3>Entrada — $5/mes</h3><ul><li>Precios para miembros</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
-        <article class="tier card"><h3>Crecimiento — $15/mes</h3><ul><li>Prioridad email</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
-        <article class="tier card"><h3>Pro — $25/mes</h3><ul><li>Descuentos más profundos</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
-      </div>
-
-      <div class="admin-inline">
-        <label>Código admin:</label>
-        <input id="landing-admin" placeholder="código admin" />
-        <button id="landing-admin-go">OK</button>
-      </div>
-    </section>
-  </main>
+  <section class="card">
+    <h2>Membresía — Desde $5</h2>
+    <div class="grid grid-2">
+      <div class="card"><h3>Starter — $5/mes</h3><ul><li>Precios de miembro en cursos y libros</li><li>Descargas solo para miembros</li></ul><a class="link" href="/es-membership.html#starter">Unirme a Starter</a></div>
+      <div class="card"><h3>Growth — $15/mes</h3><ul><li>Todo lo de Starter</li><li>Soporte prioritario por email/chat</li><li>Acceso al seminario de Formación de Empresas</li></ul><a class="link" href="/es-membership.html#growth">Unirme a Growth</a></div>
+    </div>
+    <div class="card"><h3>Pro — $25/mes</h3><ul><li>Todo lo de Growth</li><li>Descuentos más profundos</li><li>Acceso anticipado a herramientas</li></ul><a class="link" href="/es-membership.html#pro">Unirme a Pro</a></div>
+    <p class="small">¿Admin? Ingresa el código en el encabezado para activar modo admin.</p>
+  </section>
 </div>
-
-<script src="/header.js?v=1" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded',()=>{
-  const go = document.getElementById('landing-admin-go');
-  if(!go) return;
-  go.addEventListener('click', async ()=>{
-    const code = document.getElementById('landing-admin').value.trim();
-    if(!code) return alert('Ingrese código');
-    try{
-      const r = await fetch('/config.json?ts='+Date.now());
-      const cfg = await r.json();
-      if(cfg.admin && code === cfg.admin.code){
-        localStorage.setItem('EDN_ADMIN', code);
-        alert('Código aceptado');
-        location.reload();
-      } else alert('Código no reconocido');
-    }catch(e){ alert('Error validando'); }
-  });
-});
-</script>
+<script src="/header.js?v=7" defer></script>
 </body>
 </html>
