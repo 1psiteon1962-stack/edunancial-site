@@ -1,92 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Edunancial — Learn & Grow</title>
-  <link rel="preconnect" href="https://www.paypal.com"/>
-  <style>
-    :root{--brand:#d11;--text:#111;--muted:#666;--card:#fff;--border:#e6e6e6}
-    *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:#fafafa}
-    .container{max-width:980px;margin:0 auto;padding:16px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
-    h1,h2{margin:0 0 12px}
-    .btn{background:#1565d8;color:#fff;border:0;border-radius:10px;padding:10px 14px;cursor:pointer}
-    .link{color:#c00;text-decoration:none;font-weight:600}
-    .tiers{display:grid;gap:14px}
-    .tier{border:1px solid var(--border);border-radius:12px;padding:14px}
-    .admin-inline{display:inline-flex;gap:6px;align-items:center;margin-left:10px}
-    .admin-inline input{width:120px;padding:6px 8px;border:1px solid var(--border);border-radius:8px}
-    .admin-inline button{padding:6px 10px;border:0;border-radius:8px;background:#1565d8;color:#fff;cursor:pointer}
-    .small{font-size:.9rem;color:var(--muted)}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Learn & Grow</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <!-- header injected by header.js -->
-  <div class="container">
+<!-- content -->
+<div class="container">
+  <main>
     <section class="card">
       <h1>Our Story</h1>
-      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:
-      “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?”
-      He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
-      <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from,
-      and is putting a business together. Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business).
-      These are the <strong>foundations of lifetime growth</strong>.</p>
-      <p><a class="btn" href="/books.html">See Books</a> &nbsp; <a class="btn" href="/courses.html">See Courses</a></p>
+      <p>One afternoon when my son was 11, ... <strong>That’s when Edunancial was born.</strong></p>
+      <p><a href="/books.html" class="btn">See Books</a> <a href="/courses.html" class="btn">See Courses</a></p>
     </section>
 
-    <section class="card">
+    <section class="card" id="membership">
       <h2>Membership — Start for $5</h2>
       <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
-
       <div class="tiers">
-        <div class="tier">
-          <h3>Starter — $5/mo</h3>
-          <ul>
-            <li>Member pricing on courses and paperback books</li>
-            <li>Members-only downloads (worksheets, checklists)</li>
-            <li>Email preferences & compliance (you choose what we send)</li>
-          </ul>
-          <p><a class="link" href="/membership.html">Join Starter</a></p>
-        </div>
-
-        <div class="tier">
-          <h3>Growth — $15/mo</h3>
-          <ul>
-            <li>Everything in Starter</li>
-            <li>Priority email/chat support for account & course access</li>
-            <li>Access to live <em>Business Formation</em> webinar sessions</li>
-          </ul>
-          <p><a class="link" href="/membership.html#growth">Join Growth</a></p>
-        </div>
-
-        <div class="tier">
-          <h3>Pro — $25/mo</h3>
-          <ul>
-            <li>Everything in Growth</li>
-            <li>Deeper member discounts on select programs</li>
-            <li>Early access to new courses and tools</li>
-          </ul>
-          <p><a class="link" href="/membership.html#pro">Join Pro</a></p>
-        </div>
+        <article class="tier card"><h3>Starter — $5/mo</h3>
+          <ul><li>Member pricing on courses and paperback books</li><li>Members-only downloads</li></ul>
+          <a class="link" href="/membership.html">Join Starter</a>
+        </article>
+        <article class="tier card"><h3>Growth — $15/mo</h3>
+          <ul><li>Everything in Starter</li><li>Priority email support</li></ul>
+          <a class="link" href="/membership.html">Join Growth</a>
+        </article>
+        <article class="tier card"><h3>Pro — $25/mo</h3>
+          <ul><li>Everything in Growth</li><li>Deeper discounts</li></ul>
+          <a class="link" href="/membership.html">Join Pro</a>
+        </article>
       </div>
 
-      <p class="small">
-        Already a member?
-        <a class="link" href="/membership-upgrade.html">Upgrade your membership</a> •
-        <a class="link" href="/cart.html">View Cart</a>
-
-        <!-- Admin box (blank). Enter exact code from config.json -->
-        <form id="admin-form" class="admin-inline">
-          <input id="admin-code" type="password" placeholder="" autocomplete="off" aria-label=" "/>
-          <button type="submit">→</button>
-          <span id="admin-msg" class="small"></span>
-        </form>
-      </p>
+      <!-- admin box displayed in header; we add a redundant admin entry point here -->
+      <div class="admin-inline">
+        <label>Admin code:</label>
+        <input id="landing-admin" placeholder="admin code" />
+        <button id="landing-admin-go">OK</button>
+      </div>
     </section>
-  </div>
+  </main>
+</div>
 
-  <!-- must be last so it can prepend header -->
-  <script src="/header.js?v=6" defer></script>
+<script src="/header.js?v=1" defer></script>
+<script>
+/* landing admin inline action (keeps behavior same as header) */
+document.addEventListener('DOMContentLoaded',()=>{
+  const go = document.getElementById('landing-admin-go');
+  if(!go) return;
+  go.addEventListener('click', async ()=>{
+    const code = document.getElementById('landing-admin').value.trim();
+    if(!code) return alert('Enter admin code');
+    // get config to validate
+    try{
+      const r = await fetch('/config.json?ts='+Date.now());
+      const cfg = await r.json();
+      if(cfg.admin && code === cfg.admin.code){
+        localStorage.setItem('EDN_ADMIN', code);
+        alert('Admin code accepted');
+        location.reload();
+      } else alert('Code not recognized');
+    }catch(e){ alert('Cannot validate admin code'); }
+  });
+});
+</script>
 </body>
 </html>
