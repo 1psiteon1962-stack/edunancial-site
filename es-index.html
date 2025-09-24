@@ -1,139 +1,89 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <title>Edunancial — Aprende. Emprende. Crece.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preload" href="/style.css" as="style">
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Edunancial — Aprende y Crece</title>
   <style>
     :root{--brand:#d11;--text:#111;--muted:#666;--card:#fff;--border:#e6e6e6}
-    body{margin:0;font:16px/1.55 system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff}
-    .site-header{position:sticky;top:0;background:#f7f7f7;border-bottom:1px solid var(--border);z-index:10}
-    .container{max-width:980px;margin:0 auto;padding:14px 16px}
-    .nav{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-    .brand{font-weight:800;letter-spacing:.4px;color:#111}
-    .spacer{flex:1}
-    .lang a{display:inline-block;border-radius:999px;padding:6px 10px;font-weight:700;text-decoration:none;border:1px solid var(--border);color:#111}
-    .lang a.active{background:var(--brand);color:#fff;border-color:var(--brand)}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin:14px 0;box-shadow:0 1px 6px rgba(0,0,0,.04)}
-    h1,h2{margin:10px 0 8px}
-    .btn{display:inline-block;background:#1565d8;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
-    .muted{color:var(--muted)}
-    .grid{display:grid;gap:12px}
-    .grid-2{grid-template-columns:1fr}
-    @media (min-width:760px){ .grid-2{grid-template-columns:1fr 1fr} }
-    .admin-form{display:inline-flex;gap:8px;align-items:stretch;margin-left:10px;vertical-align:middle}
-    .admin-input{width:160px;padding:8px 10px;border:1px solid var(--border);border-radius:8px}
-    .shake{animation:shake .28s linear 1}
-    @keyframes shake {25%{transform:translateX(-3px)}50%{transform:translateX(3px)}75%{transform:translateX(-2px)}100%{transform:translateX(0)}}
-    footer{padding:30px 0;border-top:1px solid var(--border);margin-top:20px}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:#fafafa}
+    .container{max-width:980px;margin:0 auto;padding:16px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+    h1,h2{margin:0 0 12px}
+    .btn{background:#1565d8;color:#fff;border:0;border-radius:10px;padding:10px 14px;cursor:pointer}
+    .link{color:#c00;text-decoration:none;font-weight:600}
+    .tiers{display:grid;gap:14px}
+    .tier{border:1px solid var(--border);border-radius:12px;padding:14px}
+    .admin-inline{display:inline-flex;gap:6px;align-items:center;margin-left:10px}
+    .admin-inline input{width:120px;padding:6px 8px;border:1px solid var(--border);border-radius:8px}
+    .admin-inline button{padding:6px 10px;border:0;border-radius:8px;background:#1565d8;color:#fff;cursor:pointer}
+    .small{font-size:.9rem;color:var(--muted)}
   </style>
-  <script>
-    window.EDN = { cfg:null };
-    async function loadConfig(){
-      try{
-        const r = await fetch('/config.json', {cache:'no-store'});
-        if(r.ok){ EDN.cfg = await r.json(); }
-      }catch(_){}
-    }
-    loadConfig();
-    async function handleAdminLogin(e){
-      e && e.preventDefault();
-      const inp = document.getElementById('admin-code');
-      const code = (inp.value || '').trim();
-      let expected = (EDN && EDN.cfg && EDN.cfg.adminCode) ? String(EDN.cfg.adminCode) : 'ADMIN-2025';
-      if(code && code === expected){
-        try{ localStorage.setItem('edn_admin','1'); }catch(_){}
-        location.href = '/admin.html';
-      }else{
-        inp.classList.remove('shake'); void inp.offsetWidth; inp.classList.add('shake');
-        inp.style.borderColor = '#d11';
-      }
-    }
-  </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <div class="brand">EDUNANCIAL</div>
-      <nav class="links" aria-label="Principal">
-        <a href="/es-books.html">Libros</a>
-        <a href="/es-courses.html">Cursos</a>
-        <a href="/es-payments.html">Pagos</a>
-        <a href="/es-contact.html">Contacto</a>
-      </nav>
-      <div class="spacer"></div>
-      <div class="lang" aria-label="Idioma">
-        <a href="/index.html" lang="en">EN</a>
-        <a href="/es-index.html" class="active" lang="es">ES</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <!-- Nuestra Historia -->
+  <div class="container">
     <section class="card">
       <h1>Nuestra Historia</h1>
-      <p>Una tarde cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
-      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces para elegir y está armando un negocio.</p>
-      <p>Lecciones simples en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos de Papel) y <strong>Azul</strong> (Negocios). Son las <strong>bases del crecimiento de por vida.</strong></p>
-      <div class="grid grid-2" style="margin-top:10px">
-        <a class="btn" href="/es-books.html">Ver Libros</a>
-        <a class="btn" href="/es-courses.html">Ver Cursos</a>
-      </div>
+      <p>Un día, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron:
+      “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”
+      Dijo: “Sí… pero no sé cómo”. <strong>Ahí nació Edunancial.</strong></p>
+      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces,
+      y está armando un negocio. Lecciones sencillas en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios).
+      Estas son las <strong>bases del crecimiento de por vida</strong>.</p>
+      <p><a class="btn" href="/es-books.html">Ver Libros</a> &nbsp; <a class="btn" href="/es-courses.html">Ver Cursos</a></p>
     </section>
 
-    <!-- Membresías -->
     <section class="card">
       <h2>Membresía — Desde $5</h2>
-      <p>Hazte miembro para acceder a lecciones, precios de miembro, descuentos y material exclusivo. Sube de nivel cuando quieras.</p>
+      <p>Hazte miembro para acceder a lecciones, precios de miembro, descuentos y material exclusivo. Puedes mejorar tu plan cuando quieras.</p>
 
-      <div class="card">
-        <h3>Starter — $5/mes</h3>
-        <ul>
-          <li>Precios de miembro en cursos y libros de bolsillo</li>
-          <li>Descargas solo para miembros (guías, listas)</li>
-          <li>Preferencias y cumplimiento de correo (tú eliges qué enviamos)</li>
-        </ul>
-        <a class="btn" href="/es-membership.html#starter">Unirme a Starter</a>
+      <div class="tiers">
+        <div class="tier">
+          <h3>Starter — $5/mes</h3>
+          <ul>
+            <li>Precios de miembro en cursos y libros de tapa blanda</li>
+            <li>Descargas solo para miembros (hojas de trabajo, listas)</li>
+            <li>Preferencias de email & cumplimiento</li>
+          </ul>
+          <p><a class="link" href="/es-membership.html">Unirme a Starter</a></p>
+        </div>
+
+        <div class="tier">
+          <h3>Growth — $15/mes</h3>
+          <ul>
+            <li>Todo en Starter</li>
+            <li>Soporte prioritario por email/chat para cuenta & acceso</li>
+            <li>Acceso a sesiones en vivo de <em>Formación de Empresas</em></li>
+          </ul>
+          <p><a class="link" href="/es-membership.html#growth">Unirme a Growth</a></p>
+        </div>
+
+        <div class="tier">
+          <h3>Pro — $25/mes</h3>
+          <ul>
+            <li>Todo en Growth</li>
+            <li>Descuentos más profundos en programas selectos</li>
+            <li>Acceso anticipado a cursos y herramientas</li>
+          </ul>
+          <p><a class="link" href="/es-membership.html#pro">Unirme a Pro</a></p>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>Growth — $15/mes</h3>
-        <ul>
-          <li>Todo lo de Starter</li>
-          <li>Soporte prioritario por email/chat para cuenta y acceso a cursos</li>
-          <li>Acceso a sesiones en vivo del seminario de <em>Formación de Empresas</em></li>
-        </ul>
-        <a class="btn" href="/es-membership.html#growth">Unirme a Growth</a>
-      </div>
-
-      <div class="card">
-        <h3>Pro — $25/mes</h3>
-        <ul>
-          <li>Todo lo de Growth</li>
-          <li>Descuentos más profundos en programas selectos</li>
-          <li>Acceso anticipado a nuevos cursos y herramientas</li>
-        </ul>
-        <a class="btn" href="/es-membership.html#pro">Unirme a Pro</a>
-      </div>
-
-      <p class="muted">¿Ya eres miembro?
-        <a href="/es-membership-upgrade.html">Mejorar tu membresía</a> &middot;
-        <a href="/es-cart.html">Ver Carrito</a>
+      <p class="small">
+        ¿Ya eres miembro?
+        <a class="link" href="/es-membership-upgrade.html">Mejorar membresía</a> •
+        <a class="link" href="/es-cart.html">Ver Carrito</a>
 
         <!-- Caja de administrador (sin etiqueta) -->
-        <form class="admin-form" onsubmit="handleAdminLogin(event)">
-          <input id="admin-code" class="admin-input" type="password" inputmode="text" autocomplete="off" aria-label="admin" />
-          <button class="btn" type="submit" title="Ir">Ir</button>
+        <form id="admin-form" class="admin-inline">
+          <input id="admin-code" type="password" placeholder="" autocomplete="off" aria-label=" "/>
+          <button type="submit">→</button>
+          <span id="admin-msg" class="small"></span>
         </form>
       </p>
     </section>
-  </main>
+  </div>
 
-  <footer class="container">
-    <small class="muted">© 2025 Edunancial, Inc. • Todos los derechos reservados.</small>
-  </footer>
+  <script src="/header.js?v=6" defer></script>
 </body>
 </html>
