@@ -1,33 +1,126 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Learn. Build. Grow.</title>
-<link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Edunancial — Learn & Grow</title>
+  <link rel="preconnect" href="https://www.paypal.com"/>
+  <style>
+    :root{--brand:#d11;--text:#111;--muted:#666;--card:#fff;--bg:#fafafa;--border:#e6e6e6}
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.55 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg)}
+    .container{max-width:980px;margin:0 auto;padding:16px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+    h1{margin:0 0 12px}
+    .btn{display:inline-block;background:#1565d8;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:700;text-decoration:none;cursor:pointer}
+    .inline{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .admin-inline{display:inline-flex;gap:6px;align-items:center;margin-left:10px}
+    .admin-inline input{width:120px;padding:6px 8px;border:1px solid var(--border);border-radius:8px}
+    .admin-inline button{padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:#fff;cursor:pointer}
+    .small{color:var(--muted);font-size:.92rem}
+    ul{margin:.25rem 0 .5rem 1.25rem}
+  </style>
 </head>
 <body>
-<div class="container">
-  <section class="card">
-    <h1>Our Story</h1>
-    <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
-    <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from, and is putting a business together.</p>
-    <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>foundations of lifetime growth.</strong></p>
-    <div class="grid grid-2">
-      <a class="btn" href="/books.html">See Books</a>
-      <a class="btn" href="/courses.html">See Courses</a>
-    </div>
-  </section>
+  <div class="container">
+    <section class="card">
+      <h1>Our Story</h1>
+      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived… <strong>That’s when Edunancial was born.</strong></p>
+      <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from, and is putting a business together.</p>
+      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>foundations of lifetime growth</strong>.</p>
+      <p class="inline">
+        <a class="btn" href="/books.html">See Books</a>
+        <a class="btn" href="/courses.html">See Courses</a>
+      </p>
+    </section>
 
-  <section class="card">
-    <h2>Membership — Start for $5</h2>
-    <div class="grid grid-2">
-      <div class="card"><h3>Starter — $5/mo</h3><ul><li>Member pricing on courses & paperbacks</li><li>Members-only downloads</li></ul><a class="link" href="/membership.html#starter">Join Starter</a></div>
-      <div class="card"><h3>Growth — $15/mo</h3><ul><li>Everything in Starter</li><li>Priority email/chat support</li><li>Business Formation webinar access</li></ul><a class="link" href="/membership.html#growth">Join Growth</a></div>
-    </div>
-    <div class="card"><h3>Pro — $25/mo</h3><ul><li>Everything in Growth</li><li>Deeper member discounts</li><li>Early access to new tools</li></ul><a class="link" href="/membership.html#pro">Join Pro</a></div>
-    <p class="small">Admin? Enter code in header to unlock admin mode.</p>
-  </section>
-</div>
-<script src="/header.js?v=7" defer></script>
+    <section class="card">
+      <h2 style="margin-top:0;color:var(--brand)">Membership — Start for $5</h2>
+      <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
+
+      <div class="card">
+        <h3>Starter — $5/mo</h3>
+        <ul>
+          <li>Member pricing on courses and paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences & compliance (you choose what we send)</li>
+        </ul>
+        <a class="btn" href="/membership.html">Join Starter</a>
+      </div>
+
+      <div class="card">
+        <h3>Growth — $15/mo</h3>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Priority email/chat support for account & course access</li>
+          <li>Access to live <em>Business Formation</em> webinar sessions</li>
+        </ul>
+        <a class="btn" href="/membership.html#growth">Join Growth</a>
+      </div>
+
+      <div class="card">
+        <h3>Pro — $25/mo</h3>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+          <li>Early access to new courses and tools</li>
+        </ul>
+        <a class="btn" href="/membership.html#pro">Join Pro</a>
+      </div>
+
+      <p class="inline">
+        <span>Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> · <a href="/cart.html">View Cart</a></span>
+
+        <!-- THIS is the small admin code box RIGHT NEXT TO View Cart -->
+        <form id="admin-inline" class="admin-inline" autocomplete="off">
+          <input id="adminCodeInline" type="password" placeholder="admin" />
+          <button type="submit">→</button>
+          <span id="adminMsg" class="small"></span>
+        </form>
+      </p>
+    </section>
+
+    <p class="small">© 2025 Edunancial, Inc. • All rights reserved.</p>
+  </div>
+
+  <!-- Header (red banner + EN/ES toggles) -->
+  <script src="/header.js?v=7" defer></script>
+
+  <!-- Admin inline logic -->
+  <script>
+    async function fetchCfg(){
+      const res = await fetch('/config.json?ts='+Date.now(), {cache:'no-store'});
+      if(!res.ok) throw new Error('config.json not found');
+      return res.json();
+    }
+    function saveAdmin(code){ try{ localStorage.setItem('edn_admin', code); }catch(e){} }
+    function clearAdmin(){ try{ localStorage.removeItem('edn_admin'); }catch(e){} }
+
+    (async () => {
+      const form = document.getElementById('admin-inline');
+      const input = document.getElementById('adminCodeInline');
+      const msg = document.getElementById('adminMsg');
+
+      form.addEventListener('submit', async (e)=>{
+        e.preventDefault();
+        msg.textContent = '';
+        const code = (input.value||'').trim();
+        if(!code){ msg.textContent = 'Required'; return; }
+        try{
+          const cfg = await fetchCfg();
+          if(code === (cfg.admin && cfg.admin.code)){
+            saveAdmin(code);
+            msg.textContent = 'OK';
+            location.href = '/admin.html';
+          }else{
+            clearAdmin();
+            msg.textContent = 'Invalid';
+          }
+        }catch(err){
+          msg.textContent = 'Config error';
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
