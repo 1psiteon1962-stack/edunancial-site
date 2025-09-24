@@ -1,89 +1,56 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Edunancial — Aprende y Crece</title>
-  <style>
-    :root{--brand:#d11;--text:#111;--muted:#666;--card:#fff;--border:#e6e6e6}
-    *{box-sizing:border-box} body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:#fafafa}
-    .container{max-width:980px;margin:0 auto;padding:16px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
-    h1,h2{margin:0 0 12px}
-    .btn{background:#1565d8;color:#fff;border:0;border-radius:10px;padding:10px 14px;cursor:pointer}
-    .link{color:#c00;text-decoration:none;font-weight:600}
-    .tiers{display:grid;gap:14px}
-    .tier{border:1px solid var(--border);border-radius:12px;padding:14px}
-    .admin-inline{display:inline-flex;gap:6px;align-items:center;margin-left:10px}
-    .admin-inline input{width:120px;padding:6px 8px;border:1px solid var(--border);border-radius:8px}
-    .admin-inline button{padding:6px 10px;border:0;border-radius:8px;background:#1565d8;color:#fff;cursor:pointer}
-    .small{font-size:.9rem;color:var(--muted)}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Aprende y Crece</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="container">
+<div class="container">
+  <main>
     <section class="card">
       <h1>Nuestra Historia</h1>
-      <p>Un día, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron:
-      “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?”
-      Dijo: “Sí… pero no sé cómo”. <strong>Ahí nació Edunancial.</strong></p>
-      <p>A los 15, analiza, compra y vende acciones con rangos de <strong>8–12% ROI</strong>; entiende que hay muchas áreas en bienes raíces,
-      y está armando un negocio. Lecciones sencillas en <strong>Rojo</strong> (Bienes Raíces), <strong>Blanco</strong> (Activos en Papel) y <strong>Azul</strong> (Negocios).
-      Estas son las <strong>bases del crecimiento de por vida</strong>.</p>
-      <p><a class="btn" href="/es-books.html">Ver Libros</a> &nbsp; <a class="btn" href="/es-courses.html">Ver Cursos</a></p>
+      <p>Un día ... <strong>Ahí nació Edunancial.</strong></p>
+      <p><a href="/es-books.html" class="btn">Ver Libros</a> <a href="/es-courses.html" class="btn">Ver Cursos</a></p>
     </section>
 
-    <section class="card">
+    <section class="card" id="membership">
       <h2>Membresía — Desde $5</h2>
-      <p>Hazte miembro para acceder a lecciones, precios de miembro, descuentos y material exclusivo. Puedes mejorar tu plan cuando quieras.</p>
-
+      <p>Conviértete en miembro para acceder a lecciones, descuentos y materiales exclusivos. Actualiza en cualquier momento.</p>
       <div class="tiers">
-        <div class="tier">
-          <h3>Starter — $5/mes</h3>
-          <ul>
-            <li>Precios de miembro en cursos y libros de tapa blanda</li>
-            <li>Descargas solo para miembros (hojas de trabajo, listas)</li>
-            <li>Preferencias de email & cumplimiento</li>
-          </ul>
-          <p><a class="link" href="/es-membership.html">Unirme a Starter</a></p>
-        </div>
-
-        <div class="tier">
-          <h3>Growth — $15/mes</h3>
-          <ul>
-            <li>Todo en Starter</li>
-            <li>Soporte prioritario por email/chat para cuenta & acceso</li>
-            <li>Acceso a sesiones en vivo de <em>Formación de Empresas</em></li>
-          </ul>
-          <p><a class="link" href="/es-membership.html#growth">Unirme a Growth</a></p>
-        </div>
-
-        <div class="tier">
-          <h3>Pro — $25/mes</h3>
-          <ul>
-            <li>Todo en Growth</li>
-            <li>Descuentos más profundos en programas selectos</li>
-            <li>Acceso anticipado a cursos y herramientas</li>
-          </ul>
-          <p><a class="link" href="/es-membership.html#pro">Unirme a Pro</a></p>
-        </div>
+        <article class="tier card"><h3>Entrada — $5/mes</h3><ul><li>Precios para miembros</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
+        <article class="tier card"><h3>Crecimiento — $15/mes</h3><ul><li>Prioridad email</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
+        <article class="tier card"><h3>Pro — $25/mes</h3><ul><li>Descuentos más profundos</li></ul><a class="link" href="/es-membership.html">Unirse</a></article>
       </div>
 
-      <p class="small">
-        ¿Ya eres miembro?
-        <a class="link" href="/es-membership-upgrade.html">Mejorar membresía</a> •
-        <a class="link" href="/es-cart.html">Ver Carrito</a>
-
-        <!-- Caja de administrador (sin etiqueta) -->
-        <form id="admin-form" class="admin-inline">
-          <input id="admin-code" type="password" placeholder="" autocomplete="off" aria-label=" "/>
-          <button type="submit">→</button>
-          <span id="admin-msg" class="small"></span>
-        </form>
-      </p>
+      <div class="admin-inline">
+        <label>Código admin:</label>
+        <input id="landing-admin" placeholder="código admin" />
+        <button id="landing-admin-go">OK</button>
+      </div>
     </section>
-  </div>
+  </main>
+</div>
 
-  <script src="/header.js?v=6" defer></script>
+<script src="/header.js?v=1" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const go = document.getElementById('landing-admin-go');
+  if(!go) return;
+  go.addEventListener('click', async ()=>{
+    const code = document.getElementById('landing-admin').value.trim();
+    if(!code) return alert('Ingrese código');
+    try{
+      const r = await fetch('/config.json?ts='+Date.now());
+      const cfg = await r.json();
+      if(cfg.admin && code === cfg.admin.code){
+        localStorage.setItem('EDN_ADMIN', code);
+        alert('Código aceptado');
+        location.reload();
+      } else alert('Código no reconocido');
+    }catch(e){ alert('Error validando'); }
+  });
+});
+</script>
 </body>
 </html>
