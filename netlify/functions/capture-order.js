@@ -1,36 +1,31 @@
-import fetch from "node-fetch";
-const PP_BASE = "https://api-m.paypal.com"; // LIVE
-const CLIENT = process.env.PAYPAL_CLIENT_ID;
-const SECRET = process.env.PAYPAL_SECRET;
+// capture-order.js (Netlify function)
+const fetch = require('node-fetch');
 
-async function token(){
-  const res = await fetch(`${PP_BASE}/v1/oauth2/token`, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded", "Authorization": "Basic " + Buffer.from(`${CLIENT}:${SECRET}`).toString("base64") },
-    body: "grant_type=client_credentials"
-  });
-  const j = await res.json();
-  if (!res.ok) throw new Error("Auth fail");
-  return j.access_token;
-}
+exports.handler = async (event) => {
+  const token = (event.queryStringParameters||{}).token;
+  if(!token) return { statusCode: 400, body: 'Missing order token' };
 
-export async function handler(event){
-  try{
-    const { orderID } = JSON.parse(event.body||"{}");
-    if (!orderID) return { statusCode: 400, body: JSON.stringify({ error:"Missing orderID" }) };
-
-    const access = await token();
-    const res = await fetch(`${PP_BASE}/v2/checkout/orders/${orderID}/capture`, {
-      method: "POST",
-      headers: { "Content-Type":"application/json", "Authorization":"Bearer "+access }
+  try {
+    const clientId = process.env.PAYPAL_CLIENT_ID;
+    const secret = process.env.PAYPAL_SECRET;
+    const tokenRes = await fetch('https://api-m.paypal.com/v1/oauth2/token', {
+      method: 'POST',
+      headers: { 'Authorization': 'Basic ' + Buffer.from(clientId+':'+secret).toString('base64'), 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: 'grant_type=client_credentials'
     });
-    const data = await res.json();
-    if (!res.ok) return { statusCode: res.status, body: JSON.stringify(data) };
-
-    // TODO: send confirmation email / Zoom invite via your provider here
-
-    return { statusCode: 200, body: JSON.stringify({ ok:true, data }) };
-  } catch (e){
-    return { statusCode: 500, body: JSON.stringify({ error: e.message }) };
+    const tok = await tokenRes.json();
+    const captureRes = await fetch(`https://api-m.paypal.com/v2/checkout/orders/${token}/capture`, {
+      method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + tok.access_token, 'Content-Type': 'application/json' }
+    });
+    const data = await captureRes.json();
+    // TODO: persist order in DB / send email / update membership etc.
+    return {
+      statusCode: 200,
+      headers: { 'Content-Type': 'text/html' },
+      body: `<html><body><h1>Payment received</h1><p>Thank you — order captured.</p><p><a href="/thank-you.html">Continue</a></p></body></html>`
+    };
+  } catch (err) {
+    return { statusCode: 500, body: 'Capture failed: '+err.message };
   }
-}
+};
