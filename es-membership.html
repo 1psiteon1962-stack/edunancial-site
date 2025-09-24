@@ -1,55 +1,37 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Membresía — Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Membresía — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <script src="/header.js"></script>
+<div class="container">
+  <h1>Membresía</h1>
+  <section class="card" id="tiers"></section>
+</div>
 
-  <main class="container" style="padding:18px 0">
-    <h1>Membresía — Desde $5</h1>
-    <p>La membresía desbloquea libros, cursos, precios de miembro y materiales solo para miembros. Mejora cuando quieras.</p>
-
-    <div style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
-      <div id="join-starter" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
-        <h3>Inicio — $5/mes</h3>
-        <ul>
-          <li>Precios de miembro en cursos y libros de tapa blanda</li>
-          <li>Descargas solo para miembros (hojas de trabajo, listas)</li>
-          <li>Preferencias de email & cumplimiento</li>
-        </ul>
-        <a class="btn" href="/es-checkout.html?type=membership&tier=starter&price=5">Unirme a Inicio</a>
-      </div>
-
-      <div id="join-growth" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
-        <h3>Crecimiento — $15/mes</h3>
-        <ul>
-          <li>Todo lo de Inicio</li>
-          <li>Soporte prioritario por email/chat</li>
-          <li>Acceso a sesiones en vivo del seminario de <em>Formación de Negocios</em></li>
-        </ul>
-        <a class="btn" href="/es-checkout.html?type=membership&tier=growth&price=15">Unirme a Crecimiento</a>
-      </div>
-
-      <div id="join-pro" style="border:1px solid #e6e6e6;border-radius:12px;padding:16px">
-        <h3>Pro — $25/mes</h3>
-        <ul>
-          <li>Todo lo de Crecimiento</li>
-          <li>Descuentos más profundos en programas selectos</li>
-          <li>Acceso anticipado a nuevos cursos y herramientas</li>
-        </ul>
-        <a class="btn" href="/es-checkout.html?type=membership&tier=pro&price=25">Unirme a Pro</a>
-      </div>
-    </div>
-
-    <p style="margin-top:16px">
-      ¿Ya eres miembro? <a href="/es-membership-upgrade.html">Mejorar membresía</a> &nbsp;•&nbsp;
-      <a href="/es-cart.html">Ver Carrito</a>
-      <input id="edn-admin-box" class="admin-input" type="password" placeholder=""
-             onkeydown="if(event.key==='Enter'){EDN.adminLogin(this.value)}">
-    </p>
-  </main>
+<script src="/header.js?v=7" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const cfg=await (await fetch('/config.json?ts='+Date.now())).json();
+  const el=document.getElementById('tiers');
+  const tiers=[['starter','Starter'],['growth','Growth'],['pro','Pro']];
+  el.innerHTML=tiers.map(([k,label])=>{
+    const t=cfg.memberships[k];
+    return `<div class="product">
+      <div><h3>${label}</h3><div class="small">$${(+t.price).toFixed(2)}/mes</div></div>
+      <div><button class="btn" data-sku="MEM-${k.toUpperCase()}">Agregar</button></div>
+    </div>`;
+  }).join('');
+  el.addEventListener('click',e=>{
+    const b=e.target.closest('button[data-sku]'); if(!b) return;
+    const sku=b.dataset.sku; const k=sku.replace('MEM-','').toLowerCase(); const t=cfg.memberships[k];
+    const item={sku, title:`Membresía — ${t.name}`, price:+t.price, qty:1};
+    const cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]'); cart.push(item);
+    localStorage.setItem('EDN_CART', JSON.stringify(cart)); window.EDN.updateCartCount(); alert('Agregado '+item.title);
+  });
+});
+</script>
 </body>
 </html>
