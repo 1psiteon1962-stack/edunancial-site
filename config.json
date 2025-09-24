@@ -1,36 +1,5 @@
 {
-  "site": {
-    "brandColor": "#d11",
-    "accentColor": "#1565d8",
-    "langToggle": true
-  },
   "admin": {
-    "code": "EDNADMIN2025"
-  },
-  "discounts": {
-    "edunancial2025": { "type": "percent", "value": 15, "appliesTo": "all" },
-    "under18":       { "type": "percent", "value": 100, "appliesTo": "all" },
-    "nonprofit":     { "type": "flat",    "value": 0,   "appliesTo": "all" },
-    "pr12345$$":     { "type": "flat",    "value": "force-1", "appliesTo": "all" }
-  },
-  "products": {
-    "EDN-BK-RE-001": { "name": "Buying & Flipping Houses (Paperback)", "price": 18.99 },
-    "EDN-BK-RE-002": { "name": "Tax Liens & Deeds (Paperback)",        "price": 18.99 },
-    "EDN-BK-PA-001": { "name": "Options Trading (Paperback)",          "price": 18.99 },
-    "EDN-BK-PA-002": { "name": "Value Investing (Paperback)",          "price": 18.99 },
-    "EDN-BK-BU-001": { "name": "Start & Scale Your Business (Paperback)", "price": 18.99 },
-    "EDN-BK-BU-002": { "name": "Small Business Taxes (Paperback)",     "price": 18.99 },
-    "EDN-BK-RE-003": { "name": "Rental Properties (Paperback)",        "price": 18.99 },
-    "EDN-BK-PA-003": { "name": "Index Funds for Families (Paperback)", "price": 18.99 },
-
-    "EDN-CRS-MIX-001": { "name": "The Edunancial Method — Mini Course",    "price": 75.00 },
-    "EDN-CRS-BUS-001": { "name": "In-Depth Business Formation (Course)",   "price": 199.00 },
-    "EDN-CRS-RE-001":  { "name": "Tax Liens & Deeds (Course)",            "price": 149.00 },
-    "EDN-CRS-STK-001": { "name": "Teach Your Child Stocks (Course)",      "price": 129.00 }
-  },
-  "memberships": {
-    "starter": { "price": 5.00,  "name": "Starter" },
-    "growth":  { "price": 15.00, "name": "Growth"  },
-    "pro":     { "price": 25.00, "name": "Pro"     }
+    "code": "edunancial2025"
   }
 }
