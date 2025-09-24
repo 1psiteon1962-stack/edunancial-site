@@ -6,144 +6,87 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<!-- header.js will be prepended -->
 <div class="container">
-  <main>
-    <h1>Cart</h1>
-    <section class="card" id="items-area">
-      <!-- items will be listed here -->
-    </section>
+  <h1>Cart</h1>
+  <section class="card" id="items"></section>
 
-    <section class="card">
-      <h3>Discount / promo</h3>
-      <input id="discount-code" placeholder="Enter discount code" />
-      <button id="apply-discount">Apply</button>
-      <p id="discount-feedback" style="color:#a00"></p>
-    </section>
+  <section class="card">
+    <label>Discount code:</label>
+    <input id="code" placeholder="">
+    <button class="btn" id="apply">Apply</button>
+    <div id="msg" class="small"></div>
+  </section>
 
-    <section class="card">
-      <h3>Totals</h3>
-      <div>Subtotal: <span id="subtotal">$0.00</span></div>
-      <div>Discount: <span id="discount">$0.00</span></div>
-      <div><strong>Total: <span id="total">$0.00</span></strong></div>
-      <div style="margin-top:12px;">
-        <button id="checkout-paypal" class="btn">Continue to PayPal</button>
-      </div>
-    </section>
-  </main>
+  <section class="card">
+    <div>Subtotal: <strong id="sub">$0.00</strong></div>
+    <div>Discount: <strong id="disc">-$0.00</strong></div>
+    <div>Total:    <strong id="tot">$0.00</strong></div>
+    <button class="btn" id="checkout" style="margin-top:10px">Continue to PayPal</button>
+  </section>
 </div>
 
-<script src="/header.js?v=1" defer></script>
+<script src="/header.js?v=7" defer></script>
 <script>
-/* Basic cart logic: stores cart in localStorage as EDN_CART = [{sku, title, price, qty}] */
-const ITEMS = [
-  { sku:'EDN-CRS-MIX-001', title:'Mini Course', price:75.00, type:'course' },
-  { sku:'EDN-CRS-BO-001', title:'Business Formation', price:199.00, type:'course' },
-  { sku:'EDN-BK-RE-001', title:'Buying & Flipping', price:18.99, type:'book' }
-];
+let cart=[], cfg, applied=null;
 
-function saveCart(cart){ localStorage.setItem('EDN_CART', JSON.stringify(cart)); window.EDN.updateCartCount(); }
-function loadCart(){ return JSON.parse(localStorage.getItem('EDN_CART')||'[]'); }
-function addItem(item){ const cart = loadCart(); cart.push({...item, qty:1}); saveCart(cart); renderCart(); }
+const $=s=>document.querySelector(s);
+const fmt=n=>'$'+Number(n||0).toFixed(2);
 
-function renderCart(){
-  const area = document.getElementById('items-area');
-  const cart = loadCart();
-  if(cart.length===0){ area.innerHTML = '<p>Your cart is empty. Browse books or courses.</p>'; updateTotals(); return;}
-  area.innerHTML = '';
-  cart.forEach((it, idx)=>{
-    const row = document.createElement('div');
-    row.className = 'cart-row';
-    row.innerHTML = `<div><strong>${it.title}</strong> <small>${it.sku}</small></div>
-      <div>$${it.price.toFixed(2)} x <input type="number" class="qty" data-idx="${idx}" value="${it.qty}" min="1" style="width:60px"/></div>
-      <div><button class="remove" data-idx="${idx}">Remove</button></div>`;
-    area.appendChild(row);
+function load(){ cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]'); }
+function save(){ localStorage.setItem('EDN_CART', JSON.stringify(cart)); window.EDN.updateCartCount(); }
+function render(){
+  const el=$('#items'); el.innerHTML='';
+  if(cart.length===0){ el.innerHTML='<p>Your cart is empty.</p>'; tot(); return; }
+  cart.forEach((it,i)=>{
+    const row=document.createElement('div'); row.className='product';
+    row.innerHTML=`<div><strong>${it.title}</strong> <span class="small">${it.sku}</span></div>
+      <div>
+        $${(+it.price).toFixed(2)} x <input type="number" min="1" value="${it.qty||1}" data-i="${i}" style="width:60px">
+        <button data-rm="${i}">Remove</button>
+      </div>`;
+    el.appendChild(row);
   });
-  // bind qty and remove
-  document.querySelectorAll('.qty').forEach(el=>{
-    el.addEventListener('change', e=>{
-      const i = +e.target.dataset.idx; const v = Math.max(1, +e.target.value||1);
-      const cart = loadCart(); cart[i].qty = v; saveCart(cart); updateTotals();
-    });
-  });
-  document.querySelectorAll('.remove').forEach(el=>{
-    el.addEventListener('click', e=>{
-      const i = +e.target.dataset.idx; const cart = loadCart(); cart.splice(i,1); saveCart(cart); renderCart();
-    });
-  });
-  updateTotals();
+  el.addEventListener('input',e=>{
+    if(e.target.matches('input[type="number"]')){
+      const i=+e.target.dataset.i; cart[i].qty=Math.max(1, parseInt(e.target.value||'1',10)); save(); tot();
+    }
+  }, {once:true});
+  el.addEventListener('click',e=>{
+    const b=e.target.closest('button[data-rm]'); if(!b) return;
+    const i=+b.dataset.rm; cart.splice(i,1); save(); render();
+  }, {once:true});
+  tot();
 }
 
-function updateTotals(discountObj){
-  const cart = loadCart();
-  const subtotal = cart.reduce((s,it)=> s + (it.price * (it.qty||1)), 0);
-  let discountAmt = 0;
-  if(discountObj){
-    if(discountObj.type === 'percent') discountAmt = subtotal * (discountObj.value/100);
-    else discountAmt = discountObj.value || 0;
+function tot(){
+  const sub=cart.reduce((s,it)=>s+(+it.price)*(it.qty||1),0);
+  let discount=0, total=sub;
+  if(applied){
+    if(applied.type==='percent') discount=sub*(applied.value/100);
+    if(applied.type==='flat' && applied.value==='force-1') total=cart.reduce((s,it)=>s+1*(it.qty||1),0);
+    else if(applied.type==='flat' && typeof applied.value==='number') discount=applied.value;
   }
-  const total = Math.max(0, subtotal - discountAmt);
-  document.getElementById('subtotal').textContent = `$${subtotal.toFixed(2)}`;
-  document.getElementById('discount').textContent = `-$${discountAmt.toFixed(2)}`;
-  document.getElementById('total').textContent = `$${total.toFixed(2)}`;
-  // store current
-  localStorage.setItem('EDN_CART_TOTALS', JSON.stringify({subtotal, discountAmt, total}));
-}
-
-async function getConfig(){
-  try{ return await (await fetch('/config.json?ts='+Date.now())).json(); }catch(e){return {};}
+  if(applied && applied.type!=='flat') total=sub-discount;
+  $('#sub').textContent=fmt(sub); $('#disc').textContent='-'+fmt(discount); $('#tot').textContent=fmt(total);
+  localStorage.setItem('EDN_CART_TOTALS', JSON.stringify({sub,discount,total}));
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{
-  // show a product list quick-add (for testing)
-  const demo = document.createElement('section');
-  demo.className='card';
-  demo.innerHTML = '<h3>Add Items</h3>';
-  ITEMS.forEach(it=>{
-    const btn = `<button class="add" data-sku="${it.sku}">Add ${it.title}</button>`;
-    demo.innerHTML += `<div style="margin-bottom:6px">${it.title} — $${it.price.toFixed(2)} ${btn}</div>`;
+  cfg=await (await fetch('/config.json?ts='+Date.now())).json();
+  load(); render();
+  $('#apply').addEventListener('click',()=>{
+    const code=($('#code').value||'').trim().toLowerCase();
+    const d=cfg.discounts?.[code];
+    if(!d){ $('#msg').textContent='Code not recognized'; applied=null; tot(); return; }
+    applied={...d};
+    $('#msg').textContent=`Applied ${code}`;
+    tot();
   });
-  document.querySelector('main').insertBefore(demo, document.getElementById('items-area'));
-  document.querySelectorAll('.add').forEach(b=>{
-    b.addEventListener('click', ()=>{
-      const sku=b.dataset.sku; addItem(ITEMS.find(x=>x.sku===sku));
-    });
-  });
-
-  renderCart();
-  // discount apply
-  document.getElementById('apply-discount').addEventListener('click', async ()=>{
-    const code = document.getElementById('discount-code').value.trim().toLowerCase();
-    const cfg = await getConfig();
-    if(!code || !cfg.discounts || !cfg.discounts[code]){ document.getElementById('discount-feedback').textContent='Code not recognized'; updateTotals(); return; }
-    const disc = cfg.discounts[code];
-    document.getElementById('discount-feedback').textContent = `Applied ${code} — ${disc.type==='percent'?disc.value+'%':'$'+disc.value}`;
-    updateTotals(disc);
-    localStorage.setItem('EDN_APPLIED_DISCOUNT', JSON.stringify({code,disc}));
-  });
-
-  // checkout to PayPal
-  document.getElementById('checkout-paypal').addEventListener('click', async ()=>{
-    const cart = loadCart();
-    if(cart.length===0){ alert('Cart empty'); return;}
-    // build items for server
-    const totals = JSON.parse(localStorage.getItem('EDN_CART_TOTALS')||'{}');
-    const applied = JSON.parse(localStorage.getItem('EDN_APPLIED_DISCOUNT')||'null');
-    // call serverless create-order
-    try{
-      const res = await fetch('/.netlify/functions/create-order', {
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({cart, applied})
-      });
-      const json = await res.json();
-      if(json && json.approvalUrl){
-        // redirect to PayPal approval
-        window.location.href = json.approvalUrl;
-      } else {
-        alert('Failed to create order: '+(json && json.error || 'unknown'));
-      }
-    }catch(e){ alert('Checkout failed'); console.error(e); }
+  $('#checkout').addEventListener('click', async ()=>{
+    if(cart.length===0) return alert('Cart empty');
+    const res=await fetch('/.netlify/functions/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cart,applied})});
+    const out=await res.json();
+    if(out && out.approvalUrl) location.href=out.approvalUrl; else alert('Create order failed');
   });
 });
 </script>
