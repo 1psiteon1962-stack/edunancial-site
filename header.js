@@ -1,78 +1,89 @@
 <script>
-(()=>{ // EDUNANCIAL header + admin + cart
-  const state={cfg:null};
-  const isES=()=>/\/es-/.test(location.pathname);
-  const file=()=>location.pathname.split('/').pop()||'index.html';
-  const counterpart=()=>isES()?('/'+file().replace(/^es-/,'')):'/es-'+(file()||'index.html');
-
+// header.js - include with <script src="/header.js?v=1" defer></script>
+(() => {
+  const state = { cfg: null };
+  const isES = () => /\/es-/.test(location.pathname) || location.pathname.endsWith("/es-index.html");
   async function loadCfg(){
-    if(state.cfg) return state.cfg;
-    const res=await fetch('/config.json?ts='+Date.now());
-    state.cfg=await res.json();
+    try{
+      const r = await fetch('/config.json?ts='+Date.now());
+      state.cfg = await r.json();
+    }catch(e){
+      console.error('Failed to load config.json', e);
+      state.cfg = { site:{brandColor:'#d11'} , admin:{code:''}, discounts:{} };
+    }
     return state.cfg;
   }
 
-  function injectHeader(){
-    const css=`
-      .site-header{position:sticky;top:0;z-index:9999;background:#d11;color:#fff;box-shadow:0 1px 0 rgba(0,0,0,.08)}
-      .site-head-inner{max-width:980px;margin:0 auto;padding:10px 16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-      .site-head-inner a{color:#fff;text-decoration:none;font-weight:600}
-      .site-nav{display:flex;gap:14px;flex:1 1 auto}
-      .pill{margin-left:auto;background:rgba(255,255,255,.18);padding:6px 10px;border-radius:999px}
-      .pill:hover{background:rgba(255,255,255,.28)}
-      .cart-pill{font-variant-numeric:tabular-nums}
+  function createHeader(cfg){
+    const brand = document.createElement('header');
+    brand.className = 'site-header';
+    brand.innerHTML = `
+      <div class="container">
+        <a class="logo" href="${isES()?'/es-index.html':'/index.html'}">EDUNANCIAL</a>
+        <nav class="topnav">
+          <a href="/books.html">Books</a>
+          <a href="/courses.html">Courses</a>
+          <a href="/cart.html">Cart <span id="cart-count">(0)</span></a>
+          <a href="/membership.html">Membership</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+        <div class="tools">
+          <button id="lang-toggle">${isES()?'EN':'ES'}</button>
+          <input id="admin-input" placeholder="admin code" style="display:none;width:120px;margin-left:12px" />
+          <button id="admin-go" style="display:none;padding:6px 8px;margin-left:6px">Go</button>
+        </div>
+      </div>
     `;
-    const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
-    const h=document.createElement('header');h.className='site-header';
-    h.innerHTML=`<div class="site-head-inner">
-      <nav class="site-nav">
-        <a href="/index.html">Edunancial</a>
-        <a href="/books.html">Books</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/payments.html">Payments</a>
-        <a href="/call-center.html">Call Center</a>
-        <a href="/vendor-program.html">Vendor</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/refunds.html">Refunds</a>
-      </nav>
-      <a id="cart-link" class="pill cart-pill" href="/cart.html">Cart (<span id="cart-count">0</span>)</a>
-      <a id="lang-toggle" class="pill" href="${counterpart()}">${isES()?'EN':'ES'}</a>
-    </div>`;
-    document.body.prepend(h);
-  }
-
-  function updateCartCount(){
-    const cart=JSON.parse(localStorage.getItem('ednCart')||'[]');
-    const count=cart.reduce((n,i)=>n+(i.qty||1),0);
-    const cc=document.getElementById('cart-count');
-    if(cc) cc.textContent=count;
-  }
-
-  function bindAdminForm(cfg){
-    const form=document.getElementById('admin-form');
-    if(!form) return;
-    form.addEventListener('submit',e=>{
-      e.preventDefault();
-      const code=(document.getElementById('admin-code').value||'').trim();
-      const ok=code && code===cfg.admin.code;
-      const msg=document.getElementById('admin-msg');
-      if(ok){
-        localStorage.setItem('ednAdmin','1');
-        if(msg){msg.textContent=isES()?'Modo administrador activo':'Admin mode on';msg.style.color='#1565d8';}
-      }else{
-        if(msg){msg.textContent=isES()?'Código inválido':'Invalid code';msg.style.color='#c00';}
-      }
+    // basic colors via inline style
+    const style = document.createElement('style');
+    style.innerText = `
+      :root{--brand:${cfg.site.brandColor||'#d11'};--accent:${cfg.site.accentColor||'#1565d8'};--text:#111;--muted:#666;--card:#fff;--border:#e6e6e6}
+      .site-header{background:var(--brand);color:#fff;padding:10px 0}
+      .site-header a.logo{font-weight:800;color:#fff;text-decoration:none;margin-left:14px}
+      .site-header .container{display:flex;align-items:center;justify-content:space-between;max-width:980px;margin:0 auto;padding:4px}
+      .topnav a{margin-right:12px;color:#fff;text-decoration:none}
+      .tools{display:flex;align-items:center}
+      @media (max-width:720px){ .topnav{display:none} }
+    `;
+    document.head.appendChild(style);
+    document.body.prepend(brand);
+    // toggle behavior
+    document.getElementById('lang-toggle').addEventListener('click',()=>{
+      if(isES()) location.href = location.pathname.replace('/es-','/').replace('es-','');
+      else location.href = '/es-'+(location.pathname.split('/').pop() || 'index.html');
     });
+    // admin input show if admin code present in config
+    if(cfg.admin && cfg.admin.code){
+      document.getElementById('admin-input').style.display = 'inline-block';
+      document.getElementById('admin-go').style.display = 'inline-block';
+      const adminInput = document.getElementById('admin-input');
+      document.getElementById('admin-go').addEventListener('click',()=>{
+        const v = adminInput.value.trim();
+        if(!v){ alert('Enter code'); return; }
+        if(v === cfg.admin.code){
+          localStorage.setItem('EDN_ADMIN', v);
+          alert('Admin code accepted');
+          // show admin-only links by adding class or navigate to admin page
+          location.reload();
+        } else {
+          alert('Code not recognized');
+        }
+      });
+    }
+    // update cart count helper exposed
   }
 
-  document.addEventListener('DOMContentLoaded',async ()=>{
-    injectHeader();
-    updateCartCount();
-    const cfg=await loadCfg();
-    bindAdminForm(cfg);
-    window.EDN={cfg,updateCartCount,isES};
-  });
+  // init
+  (async ()=>{
+    const cfg = await loadCfg();
+    createHeader(cfg);
+    // expose a simple helper for cart count
+    window.EDN = { cfg, updateCartCount: ()=> {
+      const c = JSON.parse(localStorage.getItem('EDN_CART')||'[]').length;
+      const el = document.getElementById('cart-count');
+      if(el) el.textContent = `(${c})`;
+    }, isAdmin: ()=> localStorage.getItem('EDN_ADMIN') === cfg.admin.code };
+    window.EDN.updateCartCount();
+  })();
 })();
 </script>
