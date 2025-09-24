@@ -1,89 +1,82 @@
 <script>
-// header.js - include with <script src="/header.js?v=1" defer></script>
-(() => {
-  const state = { cfg: null };
-  const isES = () => /\/es-/.test(location.pathname) || location.pathname.endsWith("/es-index.html");
+(()=>{ // EDN global header + cart + admin + toggle
+  const state={cfg:null};
+  const isES=()=>/\/es-/.test(location.pathname) || location.pathname.endsWith('/es-index.html');
+
   async function loadCfg(){
+    if(state.cfg) return state.cfg;
     try{
-      const r = await fetch('/config.json?ts='+Date.now());
-      state.cfg = await r.json();
+      const r=await fetch('/config.json?ts='+Date.now());
+      state.cfg=await r.json();
     }catch(e){
-      console.error('Failed to load config.json', e);
-      state.cfg = { site:{brandColor:'#d11'} , admin:{code:''}, discounts:{} };
+      state.cfg={site:{brandColor:'#d11',accentColor:'#1565d8'},admin:{code:''},discounts:{},products:{},memberships:{}};
     }
     return state.cfg;
   }
 
-  function createHeader(cfg){
-    const brand = document.createElement('header');
-    brand.className = 'site-header';
-    brand.innerHTML = `
-      <div class="container">
-        <a class="logo" href="${isES()?'/es-index.html':'/index.html'}">EDUNANCIAL</a>
-        <nav class="topnav">
-          <a href="/books.html">Books</a>
-          <a href="/courses.html">Courses</a>
-          <a href="/cart.html">Cart <span id="cart-count">(0)</span></a>
-          <a href="/membership.html">Membership</a>
-          <a href="/contact.html">Contact</a>
-        </nav>
-        <div class="tools">
-          <button id="lang-toggle">${isES()?'EN':'ES'}</button>
-          <input id="admin-input" placeholder="admin code" style="display:none;width:120px;margin-left:12px" />
-          <button id="admin-go" style="display:none;padding:6px 8px;margin-left:6px">Go</button>
-        </div>
-      </div>
-    `;
-    // basic colors via inline style
-    const style = document.createElement('style');
-    style.innerText = `
-      :root{--brand:${cfg.site.brandColor||'#d11'};--accent:${cfg.site.accentColor||'#1565d8'};--text:#111;--muted:#666;--card:#fff;--border:#e6e6e6}
-      .site-header{background:var(--brand);color:#fff;padding:10px 0}
-      .site-header a.logo{font-weight:800;color:#fff;text-decoration:none;margin-left:14px}
-      .site-header .container{display:flex;align-items:center;justify-content:space-between;max-width:980px;margin:0 auto;padding:4px}
-      .topnav a{margin-right:12px;color:#fff;text-decoration:none}
-      .tools{display:flex;align-items:center}
-      @media (max-width:720px){ .topnav{display:none} }
-    `;
-    document.head.appendChild(style);
-    document.body.prepend(brand);
-    // toggle behavior
-    document.getElementById('lang-toggle').addEventListener('click',()=>{
-      if(isES()) location.href = location.pathname.replace('/es-','/').replace('es-','');
-      else location.href = '/es-'+(location.pathname.split('/').pop() || 'index.html');
-    });
-    // admin input show if admin code present in config
-    if(cfg.admin && cfg.admin.code){
-      document.getElementById('admin-input').style.display = 'inline-block';
-      document.getElementById('admin-go').style.display = 'inline-block';
-      const adminInput = document.getElementById('admin-input');
-      document.getElementById('admin-go').addEventListener('click',()=>{
-        const v = adminInput.value.trim();
-        if(!v){ alert('Enter code'); return; }
-        if(v === cfg.admin.code){
-          localStorage.setItem('EDN_ADMIN', v);
-          alert('Admin code accepted');
-          // show admin-only links by adding class or navigate to admin page
-          location.reload();
-        } else {
-          alert('Code not recognized');
-        }
-      });
-    }
-    // update cart count helper exposed
+  function setStyles(cfg){
+    const st=document.createElement('style');
+    st.textContent=`:root{--brand:${cfg.site?.brandColor||'#d11'};--accent:${cfg.site?.accentColor||'#1565d8'}}`;
+    document.head.appendChild(st);
   }
 
-  // init
-  (async ()=>{
-    const cfg = await loadCfg();
-    createHeader(cfg);
-    // expose a simple helper for cart count
-    window.EDN = { cfg, updateCartCount: ()=> {
-      const c = JSON.parse(localStorage.getItem('EDN_CART')||'[]').length;
-      const el = document.getElementById('cart-count');
-      if(el) el.textContent = `(${c})`;
-    }, isAdmin: ()=> localStorage.getItem('EDN_ADMIN') === cfg.admin.code };
-    window.EDN.updateCartCount();
-  })();
+  function injectHeader(cfg){
+    const h=document.createElement('header'); h.className='site-header';
+    h.innerHTML=`<div class="wrap">
+      <a class="site-logo" href="${isES()?'/es-index.html':'/index.html'}">EDUNANCIAL</a>
+      <nav class="site-nav">
+        <a href="${isES()?'/es-books.html':'/books.html'}">${isES()?'Libros':'Books'}</a>
+        <a href="${isES()?'/es-courses.html':'/courses.html'}">${isES()?'Cursos':'Courses'}</a>
+        <a href="${isES()?'/es-membership.html':'/membership.html'}">${isES()?'Membresía':'Membership'}</a>
+        <a href="${isES()?'/es-cart.html':'/cart.html'}">${isES()?'Carrito':'Cart'} <span id="cart-count" class="cart-pill">(0)</span></a>
+      </nav>
+      <div class="tools">
+        <a class="pill" id="lang">${isES()?'EN':'ES'}</a>
+        <input id="admin-code" type="password" placeholder="" ${cfg.admin?.code?'':'style="display:none"'} />
+        <button id="admin-go" ${cfg.admin?.code?'':'style="display:none"'}>Go</button>
+      </div>
+    </div>`;
+    document.body.prepend(h);
+
+    document.getElementById('lang').addEventListener('click',()=>{
+      const file=(location.pathname.split('/').pop()||'index.html');
+      if(isES()){ location.href='/'+file.replace(/^es-/,''); }
+      else { location.href='/es-'+file; }
+    });
+
+    const btn=document.getElementById('admin-go');
+    if(btn){
+      btn.addEventListener('click',()=>{
+        const v=(document.getElementById('admin-code').value||'').trim();
+        if(v && v===cfg.admin.code){ localStorage.setItem('EDN_ADMIN','1'); alert(isES()?'Modo admin activo':'Admin mode on'); }
+        else { alert(isES()?'Código inválido':'Invalid code'); }
+      });
+    }
+  }
+
+  function updateCartCount(){
+    const cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]');
+    const n=cart.reduce((s,i)=>s+(i.qty||1),0);
+    const el=document.getElementById('cart-count'); if(el) el.textContent='('+n+')';
+  }
+
+  // global addToCart
+  function attachAPI(){
+    window.EDN=window.EDN||{};
+    window.EDN.addToCart=(sku)=>{
+      const cfg=state.cfg||{};
+      const p=cfg.products?.[sku];
+      if(!p){ alert('Unknown SKU '+sku); return; }
+      const item={sku, title:p.name, price: +p.price, qty:1};
+      const cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]'); cart.push(item);
+      localStorage.setItem('EDN_CART', JSON.stringify(cart)); updateCartCount();
+      alert((isES()?'Añadido: ':'Added: ')+p.name);
+    };
+    window.EDN.updateCartCount=updateCartCount;
+  }
+
+  document.addEventListener('DOMContentLoaded', async ()=>{
+    const cfg=await loadCfg(); setStyles(cfg); injectHeader(cfg); attachAPI(); updateCartCount();
+  });
 })();
 </script>
