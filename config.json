@@ -1,5 +1,5 @@
 {
-  "admin": {
-    "code": "edunancial2025"
-  }
+  "admin": { "code": "edunancial2025" },
+  "discount": { "code": "PR12345$$", "testTotal": 3.00 },
+  "paypal": { "clientId": "YOUR_LIVE_PAYPAL_CLIENT_ID" }
 }
