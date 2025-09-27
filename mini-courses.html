@@ -1,50 +1,126 @@
+<!-- File: mini-courses.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Introductory Courses</title>
-<style>
-  :root{--red:#c50000}
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-  header{background:var(--red);color:#000;font-weight:800;text-align:center;padding:16px}
-  main{max-width:1000px;margin:24px auto;padding:0 16px}
-  .grid{display:grid;gap:16px}
-  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
-  .card{border:1px solid #e6e6ea;border-radius:14px;padding:18px;box-shadow:0 4px 16px rgba(0,0,0,.05)}
-  h2{margin:.2rem 0}
-  .sku{color:#666;font-size:.9rem}
-  .price{font-weight:900;margin:.3rem 0 1rem}
-  .btn{display:inline-block;background:#0b2e4f;color:#fff;text-decoration:none;padding:.6rem .9rem;border-radius:10px;font-weight:700}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Courses | Edjunanchal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&currency=USD"></script>
+  <script src="header.js"></script>
 </head>
 <body>
-<header>INTRODUCTORY COURSES</header>
-<main>
-  <div class="grid">
+  <!-- Banner -->
+  <header style="background-color:#cc0000; padding:20px; text-align:center;">
+    <h1 style="color:black; margin:0;">Edjunanchal Mini-Courses</h1>
+    <div class="lang-toggle">
+      <button onclick="window.location.href='mini-courses.html'" style="background:black; color:white; padding:5px 15px; border:none; margin-right:5px;">EN</button>
+      <button onclick="window.location.href='mini-courses-es.html'" style="background:black; color:white; padding:5px 15px; border:none;">ES</button>
+    </div>
+  </header>
 
-    <article class="card">
-      <h2>Mini Course: Edunancial Method</h2>
-      <div class="sku">SKU: EDN-MINI-EM-001</div>
-      <div class="price">$75.00</div>
-      <a class="btn" href="/checkout.html">Enroll</a>
-    </article>
+  <!-- Our Story Link -->
+  <nav style="text-align:center; margin:15px;">
+    <a href="index.html">Home</a> | 
+    <a href="books.html">Books</a> | 
+    <a href="courses.html">Courses</a> | 
+    <a href="checkout.html">Checkout</a>
+  </nav>
 
-    <article class="card">
-      <h2>Tax Liens & Deeds (Intro)</h2>
-      <div class="sku">SKU: EDN-RED-TL-001</div>
-      <div class="price">$149.00</div>
-      <a class="btn" href="/checkout.html">Enroll</a>
-    </article>
+  <!-- Course Listings -->
+  <main style="padding:20px;">
+    <h2>Available Mini-Courses</h2>
+    <p>Each course is designed to give you clear, actionable financial literacy tools.</p>
 
-    <article class="card">
-      <h2>Stocks for Teens & Parents (Intro)</h2>
-      <div class="sku">SKU: EDN-WHT-ST-001</div>
-      <div class="price">$149.00</div>
-      <a class="btn" href="/checkout.html">Enroll</a>
-    </article>
+    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
+      <h3>📘 Starting a Business Entity</h3>
+      <p>Learn how to choose between an LLC, corporation, or other structures. Beginner-friendly.</p>
+      <p><strong>Price:</strong> $9.99</p>
+      <button onclick="addToCart('Starting a Business Entity', 9.99)">Add to Cart</button>
+    </div>
 
-  </div>
-</main>
+    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
+      <h3>📗 Real Estate Basics</h3>
+      <p>Understanding tax liens, deeds, and first steps in property investment.</p>
+      <p><strong>Price:</strong> $14.99</p>
+      <button onclick="addToCart('Real Estate Basics', 14.99)">Add to Cart</button>
+    </div>
+
+    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
+      <h3>📕 Stock & Options Trading</h3>
+      <p>Learn calls, puts, and strategies to trade with confidence.</p>
+      <p><strong>Price:</strong> $19.99</p>
+      <button onclick="addToCart('Stock & Options Trading', 19.99)">Add to Cart</button>
+    </div>
+
+    <!-- Discount Box -->
+    <section style="margin-top:25px; padding:15px; border:2px dashed #999;">
+      <h3>Have a Discount Code?</h3>
+      <input type="text" id="discountCode" placeholder="Enter Code" style="padding:8px;">
+      <button onclick="applyDiscount()" style="padding:8px;">Apply</button>
+      <p id="discountMessage" style="color:green;"></p>
+    </section>
+
+    <!-- Cart -->
+    <section style="margin-top:25px;">
+      <h3>Your Cart</h3>
+      <ul id="cartItems"></ul>
+      <p><strong>Total:</strong> $<span id="cartTotal">0.00</span></p>
+      <div id="paypal-button-container"></div>
+    </section>
+  </main>
+
+  <script>
+    let cart = [];
+    let discountApplied = false;
+
+    function addToCart(name, price) {
+      cart.push({name, price});
+      renderCart();
+    }
+
+    function renderCart() {
+      const cartItems = document.getElementById('cartItems');
+      cartItems.innerHTML = '';
+      let total = 0;
+      cart.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item.name + ' - $' + item.price.toFixed(2);
+        cartItems.appendChild(li);
+        total += item.price;
+      });
+      if (discountApplied) {
+        total = 3.00; // 👈 discounted test value
+      }
+      document.getElementById('cartTotal').textContent = total.toFixed(2);
+    }
+
+    function applyDiscount() {
+      const code = document.getElementById('discountCode').value.trim();
+      if (code === "PR12345$$") {
+        discountApplied = true;
+        document.getElementById('discountMessage').textContent = "Discount Applied! Total is now $3.00";
+        renderCart();
+      } else {
+        document.getElementById('discountMessage').textContent = "Invalid code.";
+      }
+    }
+
+    paypal.Buttons({
+      createOrder: function(data, actions) {
+        let total = discountApplied ? 3.00 : cart.reduce((sum, item) => sum + item.price, 0);
+        return actions.order.create({
+          purchase_units: [{
+            amount: { value: total.toFixed(2) }
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Transaction completed by ' + details.payer.name.given_name);
+        });
+      }
+    }).render('#paypal-button-container');
+  </script>
 </body>
 </html>
