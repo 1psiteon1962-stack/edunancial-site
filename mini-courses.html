@@ -1,126 +1,70 @@
-<!-- File: mini-courses.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Courses | Edjunanchal</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&currency=USD"></script>
-  <script src="header.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edunancial – Mini Courses</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="header.js?v=3" defer></script>
 </head>
 <body>
-  <!-- Banner -->
-  <header style="background-color:#cc0000; padding:20px; text-align:center;">
-    <h1 style="color:black; margin:0;">Edjunanchal Mini-Courses</h1>
-    <div class="lang-toggle">
-      <button onclick="window.location.href='mini-courses.html'" style="background:black; color:white; padding:5px 15px; border:none; margin-right:5px;">EN</button>
-      <button onclick="window.location.href='mini-courses-es.html'" style="background:black; color:white; padding:5px 15px; border:none;">ES</button>
+  <!-- Red banner -->
+  <header style="background-color: red; color: black; padding: 20px; text-align: center;">
+    <h1>Edunancial – Mini Courses</h1>
+    <!-- Toggle -->
+    <div style="position: absolute; top: 20px; right: 20px;">
+      <a href="mini-courses.html" style="background:black; color:white; padding:5px 10px; text-decoration:none; border-radius:4px;">EN</a>
+      <a href="es-minicourses.html" style="background:black; color:white; padding:5px 10px; text-decoration:none; border-radius:4px;">ES</a>
     </div>
   </header>
 
-  <!-- Our Story Link -->
-  <nav style="text-align:center; margin:15px;">
-    <a href="index.html">Home</a> | 
-    <a href="books.html">Books</a> | 
-    <a href="courses.html">Courses</a> | 
-    <a href="checkout.html">Checkout</a>
+  <!-- Navigation -->
+  <nav style="text-align:center; margin:20px 0;">
+    <a href="index.html">Home</a> |
+    <a href="our-story.html">Our Story</a> |
+    <a href="books.html">Books</a> |
+    <a href="mini-courses.html">Mini Courses</a> |
+    <a href="membership.html">Membership</a> |
+    <a href="cart.html">Cart</a>
   </nav>
 
-  <!-- Course Listings -->
-  <main style="padding:20px;">
-    <h2>Available Mini-Courses</h2>
-    <p>Each course is designed to give you clear, actionable financial literacy tools.</p>
+  <!-- Course list -->
+  <main style="max-width: 900px; margin: auto; padding: 20px;">
+    <h2>Mini Courses</h2>
+    <p>Learn key financial and business concepts in focused, affordable sessions.</p>
 
-    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
-      <h3>📘 Starting a Business Entity</h3>
-      <p>Learn how to choose between an LLC, corporation, or other structures. Beginner-friendly.</p>
-      <p><strong>Price:</strong> $9.99</p>
-      <button onclick="addToCart('Starting a Business Entity', 9.99)">Add to Cart</button>
+    <div class="course-list">
+      <!-- Example course 1 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Options Trading Basics</h3>
+        <p>Understand puts, calls, and straddles in simple terms.</p>
+        <p>Price: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Enter discount code" />
+        <button onclick="addToCart('Options Trading Basics', 75)">Add to Cart</button>
+      </div>
+
+      <!-- Example course 2 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Flipping Houses 101</h3>
+        <p>Learn the step-by-step process of buying, renovating, and selling.</p>
+        <p>Price: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Enter discount code" />
+        <button onclick="addToCart('Flipping Houses 101', 75)">Add to Cart</button>
+      </div>
+
+      <!-- Example course 3 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Building Wealth with Tax Liens</h3>
+        <p>Learn how to invest in tax liens and deeds for profit.</p>
+        <p>Price: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Enter discount code" />
+        <button onclick="addToCart('Building Wealth with Tax Liens', 75)">Add to Cart</button>
+      </div>
     </div>
-
-    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
-      <h3>📗 Real Estate Basics</h3>
-      <p>Understanding tax liens, deeds, and first steps in property investment.</p>
-      <p><strong>Price:</strong> $14.99</p>
-      <button onclick="addToCart('Real Estate Basics', 14.99)">Add to Cart</button>
-    </div>
-
-    <div class="course" style="border:1px solid #ccc; padding:15px; margin-bottom:15px;">
-      <h3>📕 Stock & Options Trading</h3>
-      <p>Learn calls, puts, and strategies to trade with confidence.</p>
-      <p><strong>Price:</strong> $19.99</p>
-      <button onclick="addToCart('Stock & Options Trading', 19.99)">Add to Cart</button>
-    </div>
-
-    <!-- Discount Box -->
-    <section style="margin-top:25px; padding:15px; border:2px dashed #999;">
-      <h3>Have a Discount Code?</h3>
-      <input type="text" id="discountCode" placeholder="Enter Code" style="padding:8px;">
-      <button onclick="applyDiscount()" style="padding:8px;">Apply</button>
-      <p id="discountMessage" style="color:green;"></p>
-    </section>
-
-    <!-- Cart -->
-    <section style="margin-top:25px;">
-      <h3>Your Cart</h3>
-      <ul id="cartItems"></ul>
-      <p><strong>Total:</strong> $<span id="cartTotal">0.00</span></p>
-      <div id="paypal-button-container"></div>
-    </section>
   </main>
 
-  <script>
-    let cart = [];
-    let discountApplied = false;
-
-    function addToCart(name, price) {
-      cart.push({name, price});
-      renderCart();
-    }
-
-    function renderCart() {
-      const cartItems = document.getElementById('cartItems');
-      cartItems.innerHTML = '';
-      let total = 0;
-      cart.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item.name + ' - $' + item.price.toFixed(2);
-        cartItems.appendChild(li);
-        total += item.price;
-      });
-      if (discountApplied) {
-        total = 3.00; // 👈 discounted test value
-      }
-      document.getElementById('cartTotal').textContent = total.toFixed(2);
-    }
-
-    function applyDiscount() {
-      const code = document.getElementById('discountCode').value.trim();
-      if (code === "PR12345$$") {
-        discountApplied = true;
-        document.getElementById('discountMessage').textContent = "Discount Applied! Total is now $3.00";
-        renderCart();
-      } else {
-        document.getElementById('discountMessage').textContent = "Invalid code.";
-      }
-    }
-
-    paypal.Buttons({
-      createOrder: function(data, actions) {
-        let total = discountApplied ? 3.00 : cart.reduce((sum, item) => sum + item.price, 0);
-        return actions.order.create({
-          purchase_units: [{
-            amount: { value: total.toFixed(2) }
-          }]
-        });
-      },
-      onApprove: function(data, actions) {
-        return actions.order.capture().then(function(details) {
-          alert('Transaction completed by ' + details.payer.name.given_name);
-        });
-      }
-    }).render('#paypal-button-container');
-  </script>
+  <footer style="text-align:center; padding:20px; background:#f1f1f1; margin-top:30px;">
+    <p>&copy; 2025 Edunancial, Inc. – All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
