@@ -1,53 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Edunancial — Mini-cursos</title>
-<link rel="stylesheet" href="style.css" />
-<style>
-  body{margin:0;font-family:Arial,Helvetica,sans-serif}
-  header{background:#c00;color:#000;padding:1rem;text-align:center}
-  header a{color:#000;font-weight:700;margin:0 .5rem;text-decoration:none}
-  main{max-width:900px;margin:2rem auto;padding:0 1rem}
-  .card{border:1px solid #d9d9d9;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
-  .badge{display:inline-block;padding:.2rem .5rem;border-radius:9999px;font-size:.75rem;font-weight:700;margin-left:.5rem;border:2px solid #000}
-  .badge.rwb{background:linear-gradient(90deg,#c00 0 33%,#fff 33% 66%,#0d47a1 66%);color:#000}
-  .btn{display:inline-block;background:#002b5c;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px}
-  p small{opacity:.8}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>es-mini-courses.html – Edunancial</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="header.js?v=3" defer></script>
 </head>
 <body>
-<header>
-  <div>EDUNANCIAL • Educación financiera práctica</div>
-  <nav>
-    <a href="es-our-story.html">Nuestra historia</a>
-    <a href="es-books.html">Libros</a>
-    <a href="es-courses.html">Cursos</a>
-    <a href="es-mini-courses.html">Mini-cursos</a>
-    <a href="es-pricing.html">Precios</a>
-    <a href="es-contact.html">Contacto</a>
-    <a href="mini-courses.html">EN</a>
+  <!-- Banner rojo -->
+  <header style="background-color: red; color: black; padding: 20px; text-align: center; position: relative;">
+    <h1>Edunancial – Mini Cursos</h1>
+    <!-- Alternador EN/ES -->
+    <div style="position: absolute; top: 20px; right: 20px;">
+      <a href="mini-courses.html" style="background:black; color:white; padding:5px 10px; text-decoration:none; border-radius:4px;">EN</a>
+      <a href="es-mini-courses.html" style="background:black; color:white; padding:5px 10px; text-decoration:none; border-radius:4px;">ES</a>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav style="text-align:center; margin:20px 0;">
+    <a href="es-index.html">Inicio</a> |
+    <a href="es-our-story.html">Nuestra Historia</a> |
+    <a href="es-books.html">Libros</a> |
+    <a href="es-mini-courses.html">Mini Cursos</a> |
+    <a href="es-membership.html">Membresía</a> |
+    <a href="es-cart.html">Carrito</a>
   </nav>
-</header>
 
-<main>
-  <h2>Mini-cursos</h2>
+  <!-- Lista de cursos -->
+  <main style="max-width: 900px; margin: auto; padding: 20px;">
+    <h2>Mini Cursos</h2>
+    <p>Aprende conceptos clave de finanzas y negocios en sesiones enfocadas y accesibles.</p>
 
-  <article class="card">
-    <h3>Método Edunancial: Ayuda a tus hijos / ayúdate tú
-      <span class="badge rwb">Rojo · Blanco · Azul</span>
-    </h3>
-    <p><strong>Fecha:</strong> 5 de octubre de 2025 · <strong>Inicio:</strong> 2:00 PM</p>
-    <p><strong>Precio base:</strong> $75.00</p>
-    <p>
-      <a class="btn"
-         href="es-payments.html?item=Mini-curso%3A%20M%C3%A9todo%20Edunancial&sku=EDN-MINI-EM-001&price=75.00">
-        Comprar
-      </a>
-    </p>
-    <p><small>Los descuentos de membresía y early-bird se aplican en la página de pago.</small></p>
-  </article>
-</main>
+    <div class="course-list">
+      <!-- Curso 1 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Conceptos Básicos de Opciones</h3>
+        <p>Entiende puts, calls y straddles con explicaciones sencillas.</p>
+        <p>Precio: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Ingresa código de descuento" />
+        <button onclick="addToCart('Conceptos Básicos de Opciones', 75)">Agregar al Carrito</button>
+      </div>
+
+      <!-- Curso 2 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Volteo de Casas 101</h3>
+        <p>Aprende paso a paso cómo comprar, renovar y vender.</p>
+        <p>Precio: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Ingresa código de descuento" />
+        <button onclick="addToCart('Volteo de Casas 101', 75)">Agregar al Carrito</button>
+      </div>
+
+      <!-- Curso 3 -->
+      <div class="course" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+        <h3>Construyendo Patrimonio con Tax Liens</h3>
+        <p>Cómo invertir en gravámenes y escrituras fiscales para obtener ganancias.</p>
+        <p>Precio: <span class="price">$75.00</span></p>
+        <input type="text" class="discount-code" placeholder="Ingresa código de descuento" />
+        <button onclick="addToCart('Construyendo Patrimonio con Tax Liens', 75)">Agregar al Carrito</button>
+      </div>
+    </div>
+  </main>
+
+  <footer style="text-align:center; padding:20px; background:#f1f1f1; margin-top:30px;">
+    <p>&copy; 2025 Edunancial — Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
