@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms of Use - Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    .lang-toggle { margin-bottom: 20px; }
+    .lang-toggle button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+  </style>
+  <script>
+    function toggleLang(lang) {
+      document.getElementById('en').classList.remove('active');
+      document.getElementById('es').classList.remove('active');
+      document.getElementById(lang).classList.add('active');
+    }
+    window.onload = () => toggleLang('en');
+  </script>
+</head>
+<body>
+  <div class="lang-toggle">
+    <button onclick="toggleLang('en')">English</button>
+    <button onclick="toggleLang('es')">Español</button>
+  </div>
+
+  <div id="en" class="lang-section">
+    <h1>Terms of Use</h1>
+    <p>Welcome to Edunancial.com, operated by Edunancial, Inc., a Florida company based in West Palm Beach. By accessing or using this site, you agree to be bound by these Terms of Use.</p>
+    
+    <h2>1. Educational Purpose</h2>
+    <p>All content is provided for informational and educational purposes only. Nothing on this site should be considered legal, financial, or professional advice.</p>
+    
+    <h2>2. User Responsibilities</h2>
+    <ul>
+      <li>You agree not to misuse the site or attempt unauthorized access.</li>
+      <li>You may not copy, distribute, or republish our content without permission.</li>
+      <li>You agree to keep your account credentials secure and notify us of any breach.</li>
+    </ul>
+
+    <h2>3. Membership Plans and Billing</h2>
+    <p>By subscribing to a plan, you authorize recurring charges until canceled. You may cancel at any time via your account dashboard. All sales are final unless otherwise stated.</p>
+
+    <h2>4. Limitation of Liability</h2>
+    <p>Edunancial, Inc. is not liable for any damages resulting from the use or inability to use this website. Use is at your own risk.</p>
+
+    <h2>5. Jurisdiction</h2>
+    <p>All legal claims or disputes must be resolved exclusively in the Superior Court of Palm Beach County, Florida. By using this site, you waive any objections to jurisdiction or venue.</p>
+
+    <p>Questions? Contact us at <strong>support@edunancial.com</strong>.</p>
+  </div>
+
+  <div id="es" class="lang-section">
+    <h1>Términos de Uso</h1>
+    <p>Bienvenido a Edunancial.com, operado por Edunancial, Inc., una empresa de Florida con sede en West Palm Beach. Al acceder o usar este sitio, usted acepta estar sujeto a estos Términos de Uso.</p>
+
+    <h2>1. Propósito Educativo</h2>
+    <p>Todo el contenido se proporciona con fines informativos y educativos. Nada en este sitio debe considerarse asesoramiento legal, financiero o profesional.</p>
+
+    <h2>2. Responsabilidades del Usuario</h2>
+    <ul>
+      <li>Usted acepta no hacer mal uso del sitio ni intentar acceder sin autorización.</li>
+      <li>No puede copiar, distribuir ni volver a publicar nuestro contenido sin permiso.</li>
+      <li>Acepta mantener seguras sus credenciales y notificarnos cualquier violación.</li>
+    </ul>
+
+    <h2>3. Planes de Membresía y Pagos</h2>
+    <p>Al suscribirse a un plan, autoriza cargos recurrentes hasta que lo cancele. Puede cancelar en cualquier momento desde su cuenta. Todas las ventas son finales, salvo indicación contraria.</p>
+
+    <h2>4. Limitación de Responsabilidad</h2>
+    <p>Edunancial, Inc. no se hace responsable por daños derivados del uso o la imposibilidad de usar este sitio. El uso del sitio es bajo su propio riesgo.</p>
+
+    <h2>5. Jurisdicción</h2>
+    <p>Todos los reclamos legales deben resolverse exclusivamente en la Corte Superior del Condado de Palm Beach, Florida. Al usar este sitio, usted renuncia a cualquier objeción sobre jurisdicción o lugar.</p>
+
+    <p>¿Preguntas? Escríbanos a <strong>support@edunancial.com</strong>.</p>
+  </div>
+</body>
+</html>
