@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy - Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    .lang-toggle { margin-bottom: 20px; }
+    .lang-toggle button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+  </style>
+  <script>
+    function toggleLang(lang) {
+      document.getElementById('en').classList.remove('active');
+      document.getElementById('es').classList.remove('active');
+      document.getElementById(lang).classList.add('active');
+    }
+    window.onload = () => toggleLang('en');
+  </script>
+</head>
+<body>
+  <div class="lang-toggle">
+    <button onclick="toggleLang('en')">English</button>
+    <button onclick="toggleLang('es')">Español</button>
+  </div>
+
+  <div id="en" class="lang-section">
+    <h1>Privacy Policy</h1>
+    <p>Edunancial, Inc., located in West Palm Beach, Florida, respects your privacy. This policy explains how we collect, use, and protect your personal information when you visit edunancial.com.</p>
+    <p>We comply with privacy laws including the California Consumer Privacy Act (CCPA/CPRA), the New York Privacy Act, and global regulations such as the GDPR.</p>
+    <h2>Data We Collect</h2>
+    <ul>
+      <li>Information you provide (email, name, billing details)</li>
+      <li>Cookies and usage data</li>
+      <li>Analytics and device data</li>
+    </ul>
+    <h2>Use of Data</h2>
+    <p>Your data helps us deliver services, improve the site, and send updates or offers. You may opt out at any time.</p>
+    <h2>Your Rights</h2>
+    <p>You may request access, correction, or deletion of your data by contacting us at <strong>support@edunancial.com</strong>.</p>
+    <p>All disputes must be resolved exclusively in the Superior Court of Palm Beach County, Florida.</p>
+  </div>
+
+  <div id="es" class="lang-section">
+    <h1>Política de Privacidad</h1>
+    <p>Edunancial, Inc., ubicada en West Palm Beach, Florida, respeta su privacidad. Esta política explica cómo recopilamos, usamos y protegemos su información personal cuando visita edunancial.com.</p>
+    <p>Cumplimos con leyes de privacidad como la Ley de Privacidad del Consumidor de California (CCPA/CPRA), la Ley de Privacidad de Nueva York y el Reglamento General de Protección de Datos (GDPR).</p>
+    <h2>Datos que Recopilamos</h2>
+    <ul>
+      <li>Información que usted proporciona (correo electrónico, nombre, detalles de facturación)</li>
+      <li>Cookies y datos de uso</li>
+      <li>Datos analíticos y del dispositivo</li>
+    </ul>
+    <h2>Uso de los Datos</h2>
+    <p>Usamos su información para ofrecer servicios, mejorar el sitio y enviar actualizaciones o promociones. Puede optar por no participar en cualquier momento.</p>
+    <h2>Sus Derechos</h2>
+    <p>Puede solicitar acceso, corrección o eliminación de sus datos escribiéndonos a <strong>support@edunancial.com</strong>.</p>
+    <p>Todos los conflictos legales deben resolverse exclusivamente en la Corte Superior del Condado de Palm Beach, Florida.</p>
+  </div>
+</body>
+</html>
