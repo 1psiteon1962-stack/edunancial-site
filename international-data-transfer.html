@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>International Data Transfers | Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #fff; line-height: 1.6; }
+    .toggle-buttons button { margin-right: 1rem; padding: 0.5rem 1rem; font-weight: bold; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+  </style>
+</head>
+<body>
+
+  <div class="toggle-buttons">
+    <button onclick="showLang('en')">English</button>
+    <button onclick="showLang('es')">Español</button>
+  </div>
+
+  <!-- English Version -->
+  <div id="en" class="lang-section active">
+    <h1>International Data Transfer Notice</h1>
+    <p>Edunancial, Inc. is located in the United States. If you are accessing our website or services from outside the U.S., including the European Union or Latin America, please be aware that your personal data may be transferred to and processed in the United States.</p>
+
+    <p>We take all reasonable steps to protect your data in accordance with international standards, including but not limited to:</p>
+    <ul>
+      <li>Standard Contractual Clauses (SCCs)</li>
+      <li>Data Protection Addendums (DPAs) where required</li>
+      <li>Strict access and encryption protocols</li>
+    </ul>
+
+    <p>By using our services or submitting your information, you explicitly consent to the transfer, processing, and storage of your data in the United States under U.S. jurisdiction.</p>
+
+    <p><strong>Jurisdiction:</strong> All legal matters arising from such data transfers will be resolved in the Superior Court of Palm Beach County, Florida, USA.</p>
+  </div>
+
+  <!-- Spanish Version -->
+  <div id="es" class="lang-section">
+    <h1>Aviso de Transferencia Internacional de Datos</h1>
+    <p>Edunancial, Inc. está ubicada en los Estados Unidos. Si accede a nuestro sitio web o servicios desde fuera de los EE. UU., incluyendo la Unión Europea o América Latina, tenga en cuenta que sus datos personales pueden ser transferidos y procesados en los Estados Unidos.</p>
+
+    <p>Tomamos todas las medidas razonables para proteger sus datos de acuerdo con las normas internacionales, incluyendo:</p>
+    <ul>
+      <li>Cláusulas Contractuales Estándar (SCC)</li>
+      <li>Acuerdos de Protección de Datos (DPA) donde sea requerido</li>
+      <li>Protocolos estrictos de acceso y cifrado</li>
+    </ul>
+
+    <p>Al utilizar nuestros servicios o enviar su información, usted otorga su consentimiento explícito para la transferencia, procesamiento y almacenamiento de sus datos en los Estados Unidos bajo jurisdicción estadounidense.</p>
+
+    <p><strong>Jurisdicción:</strong> Todos los asuntos legales derivados de dichas transferencias de datos se resolverán en el Tribunal Superior del Condado de Palm Beach, Florida, EE. UU.</p>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.lang-section').forEach(section => section.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
