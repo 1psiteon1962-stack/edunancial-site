@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; line-height: 1.6; background: #fff; }
+    .toggle-buttons { margin-bottom: 1.5rem; }
+    .toggle-buttons button { margin-right: 1rem; padding: 0.5rem 1rem; font-weight: bold; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    h1, h2 { color: #0A2472; }
+  </style>
+</head>
+<body>
+  <div class="toggle-buttons">
+    <button onclick="showLang('en')">English</button>
+    <button onclick="showLang('es')">Español</button>
+  </div>
+
+  <!-- English Section -->
+  <div id="en" class="lang-section active">
+    <h1>Global Privacy Policy</h1>
+    <p>Edunancial, Inc. is committed to protecting your privacy. This Global Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, Edunancial.com.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We may collect personal information such as your name, email address, payment details, and any other data you provide when registering, subscribing, or making a purchase.</p>
+
+    <h2>2. Use of Information</h2>
+    <p>Your data is used to provide services, process transactions, send newsletters, improve our platform, and comply with legal obligations.</p>
+
+    <h2>3. Sharing of Information</h2>
+    <p>We do not sell your personal information. We may share it with trusted service providers (e.g., payment processors), only as needed to deliver services.</p>
+
+    <h2>4. International Transfers</h2>
+    <p>Your data may be processed or stored outside your home country, including in the United States. We implement safeguards in compliance with GDPR and other laws.</p>
+
+    <h2>5. Your Rights</h2>
+    <p>Depending on your location, you may have the right to access, update, delete, or restrict the use of your data. Requests can be made through our Data Rights page.</p>
+
+    <h2>6. Cookies</h2>
+    <p>We use cookies to enhance user experience. You can manage cookies via your browser or on our <a href="/cookie-policy.html">Cookie Settings</a> page.</p>
+
+    <h2>7. Legal Jurisdiction</h2>
+    <p>All disputes shall be resolved exclusively in the Superior Court of Palm Beach County, Florida, USA.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions about this policy, email us at privacy@edunancial.com.</p>
+  </div>
+
+  <!-- Spanish Section -->
+  <div id="es" class="lang-section">
+    <h1>Política de Privacidad Global</h1>
+    <p>Edunancial, Inc. se compromete a proteger su privacidad. Esta Política de Privacidad Global explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestro sitio web, Edunancial.com.</p>
+
+    <h2>1. Información que Recopilamos</h2>
+    <p>Podemos recopilar información personal como su nombre, correo electrónico, datos de pago y cualquier otro dato que proporcione al registrarse, suscribirse o realizar una compra.</p>
+
+    <h2>2. Uso de la Información</h2>
+    <p>Utilizamos sus datos para brindar servicios, procesar transacciones, enviar boletines, mejorar nuestra plataforma y cumplir con obligaciones legales.</p>
+
+    <h2>3. Divulgación de la Información</h2>
+    <p>No vendemos su información personal. Podemos compartirla con proveedores de servicios confiables (como procesadores de pagos), solo cuando sea necesario para prestar servicios.</p>
+
+    <h2>4. Transferencias Internacionales</h2>
+    <p>Sus datos pueden ser procesados o almacenados fuera de su país, incluso en Estados Unidos. Implementamos protecciones conforme al GDPR y otras leyes.</p>
+
+    <h2>5. Sus Derechos</h2>
+    <p>Dependiendo de su ubicación, puede tener derecho a acceder, actualizar, eliminar o restringir el uso de sus datos. Puede hacer solicitudes a través de nuestra página de Derechos de Datos.</p>
+
+    <h2>6. Cookies</h2>
+    <p>Usamos cookies para mejorar la experiencia del usuario. Puede gestionarlas en su navegador o en nuestra <a href="/cookie-policy.html">Configuración de Cookies</a>.</p>
+
+    <h2>7. Jurisdicción Legal</h2>
+    <p>Todos los conflictos se resolverán exclusivamente en el Tribunal Superior del Condado de Palm Beach, Florida, EE.UU.</p>
+
+    <h2>8. Contacto</h2>
+    <p>Si tiene preguntas sobre esta política, escríbanos a privacy@edunancial.com.</p>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.lang-section').forEach(section => section.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
+</body>
+</html>
