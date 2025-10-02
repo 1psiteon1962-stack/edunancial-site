@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cookie Consent Settings | Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #333; }
+    .toggle-btn { margin: 10px 0; }
+    .lang-toggle { float: right; cursor: pointer; font-weight: bold; }
+    .consent-section { margin: 20px 0; padding: 15px; background: #fff; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+  </style>
+</head>
+<body>
+  <div class="lang-toggle" onclick="toggleLanguage()">Español / English</div>
+
+  <h1 id="title">Cookie Settings</h1>
+  <p id="intro">Manage your cookie preferences for Edunancial.com. You can adjust or revoke consent anytime.</p>
+
+  <div class="consent-section">
+    <h2 id="functional-title">Functional Cookies</h2>
+    <label class="toggle-btn">
+      <input type="checkbox" id="functional" checked> <span id="functional-text">Always Active – Required for site functionality.</span>
+    </label>
+  </div>
+
+  <div class="consent-section">
+    <h2 id="analytics-title">Analytics Cookies</h2>
+    <label class="toggle-btn">
+      <input type="checkbox" id="analytics"> <span id="analytics-text">Allow collection of anonymous usage data.</span>
+    </label>
+  </div>
+
+  <div class="consent-section">
+    <h2 id="marketing-title">Marketing Cookies</h2>
+    <label class="toggle-btn">
+      <input type="checkbox" id="marketing"> <span id="marketing-text">Enable personalized ads and remarketing.</span>
+    </label>
+  </div>
+
+  <p id="save-text"><button onclick="savePreferences()">Save Preferences</button></p>
+
+  <script>
+    function toggleLanguage() {
+      const lang = document.getElementById("title").innerText === "Cookie Settings" ? "es" : "en";
+      if (lang === "es") {
+        document.getElementById("title").innerText = "Configuración de Cookies";
+        document.getElementById("intro").innerText = "Administre sus preferencias de cookies para Edunancial.com. Puede ajustar o revocar el consentimiento en cualquier momento.";
+        document.getElementById("functional-title").innerText = "Cookies Funcionales";
+        document.getElementById("functional-text").innerText = "Siempre Activas – Requeridas para el funcionamiento del sitio.";
+        document.getElementById("analytics-title").innerText = "Cookies de Análisis";
+        document.getElementById("analytics-text").innerText = "Permitir la recopilación de datos de uso anónimos.";
+        document.getElementById("marketing-title").innerText = "Cookies de Marketing";
+        document.getElementById("marketing-text").innerText = "Habilitar anuncios personalizados y remarketing.";
+        document.getElementById("save-text").innerHTML = '<button onclick="savePreferences()">Guardar Preferencias</button>';
+      } else {
+        location.reload(); // Refresh to return to English
+      }
+    }
+
+    function savePreferences() {
+      const preferences = {
+        functional: document.getElementById("functional").checked,
+        analytics: document.getElementById("analytics").checked,
+        marketing: document.getElementById("marketing").checked
+      };
+      localStorage.setItem("edunancial_cookie_prefs", JSON.stringify(preferences));
+      alert("Your preferences have been saved.");
+    }
+  </script>
+</body>
+</html>
