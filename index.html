@@ -7,25 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Language Toggle (bigger, moved left) -->
+  <!-- Language Toggle -->
   <div class="lang-toggle">
     <button id="langBtn" onclick="toggleLanguage()">ES</button>
   </div>
 
-  <!-- ENGLISH -->
+  <!-- ENGLISH SECTION -->
   <main id="english">
     <h1>Our Story</h1>
     <p>
       One afternoon when my son was 11, he walked in just as an online deposit arrived.
-      His eyes went wide: “How did you make money like that?” I said, “By using my head.”
-      Then I asked, “Do you want to work with your head?” He said, “Yes, but I don’t know how.”
+      His eyes went wide: “How did you make money like that?”  
+      I said, “By using my head.”  
+      Then I asked, “Do you want to work with your head?”  
+      He said, “Yes, but I don’t know how.”  
       That’s when <strong>Edunancial</strong> was born.
     </p>
     <p>
-      Today he analyzes, buys, and sells stocks; understands the foundations of real estate;
+      Today he analyzes, buys, and sells stocks, understands the foundations of real estate,
       and is building a small business. Our lessons cover
       <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and
-      <strong>Business</strong> (Blue)—the foundations of lifetime growth.
+      <strong>Business</strong> (Blue) — the foundations of lifetime growth.
     </p>
 
     <h2>Membership — Start at $9.99/mo</h2>
@@ -38,7 +40,7 @@
         <ul>
           <li>Member pricing on courses and paperback books</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=basic">Choose Basic</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_BASIC_PLAN">Choose Basic</a>
       </article>
 
       <article class="plan">
@@ -48,7 +50,7 @@
           <li>Everything in Basic</li>
           <li>Priority email/chat support for members</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=growth">Choose Growth</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_GROWTH_PLAN">Choose Growth</a>
       </article>
 
       <article class="plan">
@@ -58,24 +60,26 @@
           <li>Everything in Growth</li>
           <li>Deeper member discounts</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=pro">Choose Pro</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_PRO_PLAN">Choose Pro</a>
       </article>
     </section>
   </main>
 
-  <!-- SPANISH -->
+  <!-- SPANISH SECTION -->
   <main id="spanish" style="display:none;">
     <h1>Nuestra Historia</h1>
     <p>
-      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.
-      Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le dije: “Usando mi cabeza.”
-      Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él respondió: “Sí, pero no sé cómo.”
+      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.  
+      Sus ojos se abrieron: “¿Cómo ganaste dinero así?”  
+      Le dije: “Usando mi cabeza.”  
+      Luego le pregunté: “¿Quieres trabajar con tu cabeza?”  
+      Él respondió: “Sí, pero no sé cómo.”  
       Fue entonces cuando nació <strong>Edunancial</strong>.
     </p>
     <p>
-      Hoy analiza, compra y vende acciones; entiende las bases de los bienes raíces;
+      Hoy analiza, compra y vende acciones, entiende las bases de los bienes raíces,
       y está construyendo un pequeño negocio. Nuestras lecciones cubren
-      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y
+      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco), y
       <strong>Negocios</strong> (Azul), los fundamentos del crecimiento de por vida.
     </p>
 
@@ -89,7 +93,7 @@
         <ul>
           <li>Precios especiales en cursos y libros impresos</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=basic">Elegir Básico</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_BASIC_PLAN">Elegir Básico</a>
       </article>
 
       <article class="plan">
@@ -99,7 +103,7 @@
           <li>Todo en Básico</li>
           <li>Soporte prioritario por correo/chat</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=growth">Elegir Crecimiento</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_GROWTH_PLAN">Elegir Crecimiento</a>
       </article>
 
       <article class="plan">
@@ -109,7 +113,7 @@
           <li>Todo en Crecimiento</li>
           <li>Descuentos más profundos</li>
         </ul>
-        <a class="pay-btn" href="/payments.html?plan=pro">Elegir Pro</a>
+        <a class="pay-btn" href="https://www.paypal.com/ncp/payment/YOUR_PRO_PLAN">Elegir Pro</a>
       </article>
     </section>
   </main>
@@ -119,10 +123,15 @@
       const en = document.getElementById('english');
       const es = document.getElementById('spanish');
       const btn = document.getElementById('langBtn');
-      const showingEN = es.style.display === 'none';
-      en.style.display = showingEN ? 'none' : 'block';
-      es.style.display = showingEN ? 'block' : 'none';
-      btn.textContent = showingEN ? 'EN' : 'ES';
+      if (en.style.display === "none") {
+        en.style.display = "block";
+        es.style.display = "none";
+        btn.textContent = "ES";
+      } else {
+        en.style.display = "none";
+        es.style.display = "block";
+        btn.textContent = "EN";
+      }
     }
   </script>
 </body>
