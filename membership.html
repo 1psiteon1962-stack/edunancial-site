@@ -3,32 +3,47 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Membership Checkout</title>
-  <!-- PayPal SDK: use LIVE client id when ready -->
+  <title>Edunancial — Membership</title>
+  <meta name="color-scheme" content="light dark">
+  <!-- PayPal SDK: insert your real client id when ready -->
   <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
   <style>
-    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#0f172a;color:#e5e7eb}
-    .wrap{max-width:960px;margin:0 auto;padding:24px 16px}
-    h1{margin:0 0 8px}
-    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px}
-    @media(min-width:800px){.grid{grid-template-columns:1.4fr .6fr}}
-    .card{background:#111827;border:1px solid rgba(148,163,184,.25);border-radius:14px;padding:16px}
-    .row{display:flex;align-items:center;justify-content:space-between;margin:8px 0}
-    .qty{display:flex;gap:6px;align-items:center}
-    .qty input{width:64px;padding:6px;border-radius:8px;border:1px solid rgba(148,163,184,.35);background:#0b1020;color:#e5e7eb}
-    .muted{color:#cbd5e1}
-    .total{font-size:20px;font-weight:800}
-    .ok{color:#22c55e}.warn{color:#f59e0b}.err{color:#ef4444}
-    .note{font-size:13px;color:#cbd5e1;margin-top:8px}
+    :root{
+      --bg:#0b1220; --panel:#0f172a; --ink:#f1f5f9; --muted:#cbd5e1; --line:#1f2a44;
+      --red:#dc2626; --white:#ffffff; --blue:#1e40af; --radius:18px; --maxw:1100px;
+    }
+    html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .wrap{max-width:var(--maxw);margin:auto;padding:clamp(20px,3vw,44px)}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    header a{color:var(--muted);text-decoration:none}
+    header a:hover{color:var(--ink)}
+    h1{margin:0 0 6px;font-size:clamp(26px,3vw,34px)}
+    .grid{display:grid;gap:18px;margin-top:10px}
+    @media(min-width:900px){.grid{grid-template-columns:1.2fr .8fr}}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(18px,2.5vw,28px)}
+    .muted{color:var(--muted)}
+    .row{display:flex;justify-content:space-between;align-items:center;margin:14px 0}
+    .qty{display:flex;gap:8px;align-items:center}
+    .qty input{width:80px;padding:10px;border-radius:12px;border:1px solid var(--line);background:#0b1426;color:var(--ink)}
+    .total{display:flex;justify-content:space-between;font-weight:800;font-size:clamp(18px,1.6vw,22px);margin-top:8px}
+    .cta-btn{display:inline-block;padding:14px 18px;border-radius:14px;font-weight:800;text-decoration:none;
+             color:#0a0f1a;border:1px solid rgba(0,0,0,.25);
+             background:linear-gradient(90deg,var(--red),var(--white),var(--blue));box-shadow:0 8px 24px rgba(0,0,0,.25)}
+    .note{font-size:14px;color:var(--muted);margin-top:8px}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Checkout</h1>
+    <header>
+      <a href="/index.html">← Our Story</a>
+      <nav><a href="/index.html">Home</a></nav>
+    </header>
+
+    <h1>Membership</h1>
     <p class="muted">Choose the membership plan that works best for your situation. You can upgrade at any time.</p>
 
     <div class="grid">
-      <!-- Products / Memberships -->
+      <!-- Left: Products -->
       <div class="card">
         <h2>Plans & Add-ons</h2>
 
@@ -76,117 +91,76 @@
           </div>
         </div>
 
-        <p class="note">Note: Memberships are shown here as one-time demo items to verify checkout flow. For **true monthly billing**, switch to <em>PayPal Subscriptions</em> after we confirm publish + capture + webhook.</p>
+        <p class="note">Note: For demo checkout we treat memberships as one-time items here. When you’re ready for real monthly billing, switch to PayPal Subscriptions.</p>
       </div>
 
-      <!-- Summary + PayPal -->
+      <!-- Right: Summary + PayPal -->
       <div class="card">
         <h2>Order Summary</h2>
         <div id="summary" class="muted">No items selected.</div>
-        <div class="row total"><span>Total</span><span id="total">$0.00</span></div>
-        <div id="paypal-button-container" style="margin-top:12px;"></div>
+        <div class="total"><span>Total</span><span id="total">$0.00</span></div>
+
+        <div style="margin-top:14px" id="paypal-button-container"></div>
         <div id="status" class="note"></div>
       </div>
+    </div>
+
+    <div style="text-align:center;margin-top:24px">
+      <a class="cta-btn" href="/index.html">Back to Our Story</a>
     </div>
   </div>
 
   <script>
-    // ---- Cart logic (client-side) ----
+    // Simple cart → PayPal order (client-side demo)
     const items = [
-      { id: 'entry',    name: 'Entry Membership',    price: 9.99,  type: 'onetime' },
-      { id: 'standard', name: 'Standard Membership', price: 29.00, type: 'onetime' },
-      { id: 'premium',  name: 'Premium Membership',  price: 59.00, type: 'onetime' },
-      { id: 'course',   name: 'Mini-Course Add-On',  price: 75.00, type: 'onetime' }
+      { id:'entry',    name:'Entry Membership',    price:9.99 },
+      { id:'standard', name:'Standard Membership', price:29.00 },
+      { id:'premium',  name:'Premium Membership',  price:59.00 },
+      { id:'course',   name:'Mini-Course Add-On',  price:75.00 }
     ];
-    const inputs = {
-      entry:    document.getElementById('qty-entry'),
-      standard: document.getElementById('qty-standard'),
-      premium:  document.getElementById('qty-premium'),
-      course:   document.getElementById('qty-course')
-    };
-    const $summary = document.getElementById('summary');
-    const $total   = document.getElementById('total');
-    const $status  = document.getElementById('status');
+    const $ = id => document.getElementById(id);
+    const inputs = { entry:$('qty-entry'), standard:$('qty-standard'), premium:$('qty-premium'), course:$('qty-course') };
+    const $summary = $('summary'), $total = $('total'), $status = $('status');
 
     function format(n){ return '$' + n.toFixed(2); }
-
-    function getCart(){
-      const cart = [];
-      let total = 0;
-      items.forEach(it=>{
-        const qty = Math.max(0, parseInt(inputs[it.id].value||0,10));
-        if(qty>0){
-          cart.push({
-            name: it.name,
-            unit_amount: it.price,
-            quantity: qty
-          });
-          total += it.price * qty;
-        }
-      });
-      return {cart, total};
-    }
-
-    function renderSummary(){
-      const {cart, total} = getCart();
-      if(cart.length===0){
-        $summary.textContent = 'No items selected.';
-      }else{
-        $summary.innerHTML = cart.map(i=>`${i.quantity} × ${i.name} — ${format(i.unit_amount*i.quantity)}`).join('<br>');
+    function cart(){
+      const list=[]; let total=0;
+      for(const it of items){
+        const q = Math.max(0, parseInt(inputs[it.id].value||0,10));
+        if(q>0){ list.push({name:it.name, quantity:q, unit_amount:it.price}); total += q*it.price; }
       }
+      return {list,total};
+    }
+    function render(){
+      const {list,total} = cart();
+      $summary.innerHTML = list.length
+        ? list.map(i=>`${i.quantity} × ${i.name} — ${format(i.quantity*i.unit_amount)}`).join('<br>')
+        : 'No items selected.';
       $total.textContent = format(total);
     }
+    Object.values(inputs).forEach(i=>i.addEventListener('input',render)); render();
 
-    Object.values(inputs).forEach(inp=> inp.addEventListener('input', renderSummary));
-    renderSummary();
-
-    // ---- PayPal Buttons ----
     paypal.Buttons({
-      style: { layout: 'vertical', shape: 'rect', label: 'paypal' },
-
-      // Create an order with multiple line items
-      createOrder: function(data, actions) {
-        const {cart, total} = getCart();
-        if(cart.length===0){
-          $status.innerHTML = '<span class="warn">Please add at least one item.</span>';
-          return;
-        }
-        const purchaseItems = cart.map(i=>({
-          name: i.name,
-          quantity: String(i.quantity),
-          unit_amount: { currency_code: 'USD', value: i.unit_amount.toFixed(2) }
-        }));
-
+      style:{ layout:'vertical', shape:'rect', label:'paypal' },
+      createOrder: (data, actions)=>{
+        const {list,total} = cart();
+        if(!list.length){ $status.textContent='Please select at least one item.'; return; }
         return actions.order.create({
-          intent: 'CAPTURE',
-          purchase_units: [{
-            amount: {
-              currency_code: 'USD',
-              value: total.toFixed(2),
-              breakdown: {
-                item_total: { currency_code: 'USD', value: total.toFixed(2) }
-              }
-            },
-            items: purchaseItems
+          intent:'CAPTURE',
+          purchase_units:[{
+            amount:{ currency_code:'USD', value: total.toFixed(2),
+              breakdown:{ item_total:{ currency_code:'USD', value: total.toFixed(2) } } },
+            items: list.map(i=>({ name:i.name, quantity:String(i.quantity),
+              unit_amount:{ currency_code:'USD', value:i.unit_amount.toFixed(2) } }))
           }]
         });
       },
-
-      // Capture on client (instant UX), webhook will verify server-side
-      onApprove: async function(data, actions) {
+      onApprove: async (data, actions)=>{
         const details = await actions.order.capture();
-        $status.innerHTML = '<span class="ok">Payment captured. Thank you!</span>';
-
-        // OPTIONAL: ping your backend for post-processing (don’t block UX if it fails)
-        try{
-          await fetch('/api/health');
-        }catch(e){}
+        $status.textContent = 'Payment captured. Thank you!';
+        console.log('Capture result', details);
       },
-
-      onError: function(err){
-        console.error(err);
-        $status.innerHTML = '<span class="err">There was a problem processing your payment.</span>';
-      }
+      onError: (err)=>{ console.error(err); $status.textContent='There was a problem processing your payment.'; }
     }).render('#paypal-button-container');
   </script>
 </body>
