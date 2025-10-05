@@ -1,25 +1,27 @@
-##############################################
-# Netlify config — Static site, no build step
-# Copy this file to the repo root as: netlify.toml
-##############################################
+# netlify.toml — FINAL for a static HTML/CSS/JS site (no build)
 
 [build]
-  # No frameworks. No npm/yarn. Just serve the files you committed.
-  command = "echo 'No build step – serving static files from repo root.'"
+  # Serve the files that are already in the repo (index.html, plans.html, etc.)
   publish = "."
+  # No build step at all
+  command = ""
 
-# Optional: where Netlify would look for serverless functions (unused here)
-[functions]
-  directory = "netlify/functions"
+[dev]
+  # No local build either; just serve the files
+  command = ""
+  publish = "."
+  port = 8888
 
-############
-# Redirects
-############
-
-# Consolidate any old terms URLs to the current one
+# --- Redirects you asked for ---
 [[redirects]]
   from = "/terms-international.html"
   to = "/terms-of-use.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy"
+  to = "/global-privacy-policy.html"
   status = 301
   force = true
 
@@ -29,16 +31,7 @@
   status = 301
   force = true
 
-# Point generic privacy path to your actual policy page
-[[redirects]]
-  from = "/privacy"
-  to = "/global-privacy-policy.html"
-  status = 301
-  force = true
-
-##################
-# Security Headers
-##################
+# --- Security headers ---
 [[headers]]
   for = "/*"
   [headers.values]
@@ -46,4 +39,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'"
+    # Keep CSP permissive enough for your current inline CSS/JS and images
+    Content-Security-Policy = "default-src 'self'; img-src * data:; media-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
