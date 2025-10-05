@@ -1,97 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial — Learn. Build. Grow.</title>
-  <meta name="description" content="Simple lessons in Real Estate, Paper Assets, and Business.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edunancial — Where Education and Financial Literacy Meet</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <a href="/" class="logo">Edunancial</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/our-story.html">Our Story</a>
-        <a href="/membership.html">Membership</a>
-        <a href="/mini-courses.html">Courses</a>
-        <a href="/pamphlet.html">Books</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <h1>Edunancial, Inc.</h1>
+    <p>West Palm Beach, Florida</p>
   </header>
 
-  <main class="wrap">
-    <section aria-labelledby="story-title" class="card">
-      <h1 id="story-title">Our Story</h1>
-      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
-      <p>At 15, he analyzes, buys, and sells stocks with ranges of <strong>8–12% ROI</strong>; understands there are many areas in real estate to pick from, and is putting a business together.</p>
-      <p>Simple lessons in <strong>Red</strong> (Real Estate), <strong>White</strong> (Paper Assets), and <strong>Blue</strong> (Business). These are the <strong>foundations of lifetime growth</strong>.</p>
-      <p>
-        <a class="btn" href="/pamphlet.html">See Books</a>
-        <a class="btn btn-outline" href="/mini-courses.html">See Courses</a>
-      </p>
+  <main>
+    <section id="story">
+      <h2>Our Story</h2>
+      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived.
+      His eyes went wide: “How did you make money like that?” I said, “By using my head.” 
+      Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.”
+      <strong>That’s when Edunancial was born.</strong></p>
     </section>
 
-    <section aria-labelledby="membership-title" class="card">
-      <h2 id="membership-title">Membership — Start for $5</h2>
-      <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
-      <div class="grid-3">
-        <article class="tier">
-          <h3>Starter — $5/mo</h3>
-          <ul>
-            <li>Member pricing on courses and paperback books</li>
-            <li>Members-only downloads (worksheets, checklists)</li>
-            <li>Email preferences &amp; compliance (you choose what we send)</li>
-          </ul>
-          <p><a class="btn" href="/payments.html?plan=starter">Join Starter</a></p>
-        </article>
-
-        <article class="tier">
-          <h3>Growth — $15/mo</h3>
-          <ul>
-            <li>Everything in Starter</li>
-            <li>Priority email/chat support for account &amp; course access</li>
-            <li>Access to live <em>Business Formation</em> webinar sessions</li>
-          </ul>
-          <p><a class="btn" href="/payments.html?plan=growth">Join Growth</a></p>
-        </article>
-
-        <article class="tier">
-          <h3>Pro — $25/mo</h3>
-          <ul>
-            <li>Everything in Growth</li>
-            <li>Deeper member discounts on select programs</li>
-            <li>Early access to new courses and tools</li>
-          </ul>
-          <p><a class="btn" href="/payments.html?plan=pro">Join Pro</a></p>
-        </article>
+    <section id="plans">
+      <h2>Membership — Start for $5</h2>
+      <div>
+        <h3>Starter — $5/mo</h3>
+        <ul>
+          <li>Member pricing on courses and paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences & compliance</li>
+        </ul>
       </div>
-      <p class="small">Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> • <a href="/cart.html">View Cart</a></p>
+
+      <div>
+        <h3>Growth — $15/mo</h3>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Priority email/chat support</li>
+          <li>Access to live <em>Business Formation</em> webinar sessions</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Pro — $25/mo</h3>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© 2025 Edunancial, Inc. • <a href="/terms-of-use.html">Terms of Use</a> • <a href="/global-privacy-policy.html">Privacy</a></p>
-    </div>
+  <footer>
+    <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
   </footer>
-
-  <style>
-    /* minimal layout helpers; your /style.css will still apply */
-    .wrap{max-width:1100px;margin:0 auto;padding:1rem;}
-    .site-header,.site-footer{background:#f7f7f7}
-    .nav a{margin-right:.75rem}
-    .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:1.25rem;margin:1rem 0}
-    .grid-3{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .tier{border:1px solid #eee;border-radius:10px;padding:1rem}
-    .btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;border:1px solid #c00;background:#c00;color:#fff;text-decoration:none}
-    .btn:hover{opacity:.9}
-    .btn-outline{background:#fff;color:#c00}
-    .small{font-size:.9rem;color:#555}
-    .logo{font-weight:700}
-  </style>
 </body>
 </html>
