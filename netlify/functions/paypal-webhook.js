@@ -1,7 +1,9 @@
 // Netlify Function: PayPal Webhook verifier (CommonJS)
-// Required Netlify environment variables (Site settings → Environment):
+// REQUIRED Netlify Environment Variables (Site settings → Environment):
 //   - PAYPAL_ENV: "sandbox" or "live"
 //   - PAYPAL_WEBHOOK_ID: your webhook ID from the PayPal Developer Dashboard
+
+const fetch = require('node-fetch');
 
 exports.handler = async (event) => {
   try {
@@ -9,7 +11,7 @@ exports.handler = async (event) => {
       return { statusCode: 405, body: 'Method Not Allowed' };
     }
 
-    // Headers sent by PayPal for verification
+    // Headers PayPal sends for verification
     const transmissionId   = event.headers['paypal-transmission-id'];
     const transmissionSig  = event.headers['paypal-transmission-sig'];
     const transmissionTime = event.headers['paypal-transmission-time'];
@@ -18,7 +20,15 @@ exports.handler = async (event) => {
     const webhookEvent     = JSON.parse(event.body || '{}');
     const webhookId        = process.env.PAYPAL_WEBHOOK_ID;
 
-    if (!webhookId || !transmissionId || !transmissionSig || !transmissionTime || !certUrl || !authAlgo) {
+    // Basic safety check
+    if (
+      !webhookId ||
+      !transmissionId ||
+      !transmissionSig ||
+      !transmissionTime ||
+      !certUrl ||
+      !authAlgo
+    ) {
       return { statusCode: 400, body: 'Bad Request' };
     }
 
@@ -50,11 +60,9 @@ exports.handler = async (event) => {
       return { statusCode: 400, body: 'Verification failed' };
     }
 
-    // ---- Handle verified events here ----
-    // Examples:
+    // ---- Handle verified events here (grant access, email, etc.) ----
+    // Example:
     // if (webhookEvent.event_type === 'PAYMENT.CAPTURE.COMPLETED') { ... }
-    // if (webhookEvent.event_type === 'CHECKOUT.ORDER.APPROVED') { ... }
-    // webhookEvent.resource contains payer/order/capture details.
 
     return { statusCode: 200, body: 'OK' };
   } catch (err) {
