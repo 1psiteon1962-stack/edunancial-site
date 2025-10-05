@@ -1,133 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edunancial — Our Story</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Language Toggle -->
+  <!-- Language Toggle (bigger, moved left) -->
   <div class="lang-toggle">
-    <button onclick="toggleLanguage()" id="langBtn">ES</button>
+    <button id="langBtn" onclick="toggleLanguage()">ES</button>
   </div>
 
-  <!-- English Content -->
-  <div id="english">
+  <!-- ENGLISH -->
+  <main id="english">
     <h1>Our Story</h1>
     <p>
       One afternoon when my son was 11, he walked in just as an online deposit arrived.
-      His eyes went wide: “How did you make money like that?”  
-      I said, “By using my head.”  
-      Then I asked, “Do you want to work with your head?”  
-      He said, “Yes, but I don’t know how.”  
+      His eyes went wide: “How did you make money like that?” I said, “By using my head.”
+      Then I asked, “Do you want to work with your head?” He said, “Yes, but I don’t know how.”
       That’s when <strong>Edunancial</strong> was born.
     </p>
     <p>
-      Today he analyzes, buys, and sells stocks, understands the foundations of real estate,
+      Today he analyzes, buys, and sells stocks; understands the foundations of real estate;
       and is building a small business. Our lessons cover
       <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and
-      <strong>Business</strong> (Blue) — the foundations of lifetime growth.
+      <strong>Business</strong> (Blue)—the foundations of lifetime growth.
     </p>
 
     <h2>Membership — Start at $9.99/mo</h2>
     <p>Upgrade anytime. Cancel anytime.</p>
 
-    <div class="plans">
-      <div class="plan">
+    <section class="plans">
+      <article class="plan">
         <h3>Basic</h3>
-        <p>$9.99/mo</p>
+        <p class="price">$9.99<span>/mo</span></p>
         <ul>
           <li>Member pricing on courses and paperback books</li>
         </ul>
-        <button class="pay-btn">Pay</button>
-      </div>
-      <div class="plan">
+        <a class="pay-btn" href="/payments.html?plan=basic">Choose Basic</a>
+      </article>
+
+      <article class="plan">
         <h3>Growth</h3>
-        <p>$19.99/mo</p>
+        <p class="price">$19.99<span>/mo</span></p>
         <ul>
           <li>Everything in Basic</li>
           <li>Priority email/chat support for members</li>
         </ul>
-        <button class="pay-btn">Pay</button>
-      </div>
-      <div class="plan">
+        <a class="pay-btn" href="/payments.html?plan=growth">Choose Growth</a>
+      </article>
+
+      <article class="plan">
         <h3>Pro</h3>
-        <p>$29.99/mo</p>
+        <p class="price">$29.99<span>/mo</span></p>
         <ul>
           <li>Everything in Growth</li>
           <li>Deeper member discounts</li>
         </ul>
-        <button class="pay-btn">Pay</button>
-      </div>
-    </div>
-  </div>
+        <a class="pay-btn" href="/payments.html?plan=pro">Choose Pro</a>
+      </article>
+    </section>
+  </main>
 
-  <!-- Spanish Content -->
-  <div id="spanish" style="display:none;">
+  <!-- SPANISH -->
+  <main id="spanish" style="display:none;">
     <h1>Nuestra Historia</h1>
     <p>
-      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.  
-      Sus ojos se abrieron: “¿Cómo ganaste dinero así?”  
-      Le dije: “Usando mi cabeza.”  
-      Luego le pregunté: “¿Quieres trabajar con tu cabeza?”  
-      Él respondió: “Sí, pero no sé cómo.”  
+      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.
+      Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le dije: “Usando mi cabeza.”
+      Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él respondió: “Sí, pero no sé cómo.”
       Fue entonces cuando nació <strong>Edunancial</strong>.
     </p>
     <p>
-      Hoy analiza, compra y vende acciones, entiende las bases de los bienes raíces,
+      Hoy analiza, compra y vende acciones; entiende las bases de los bienes raíces;
       y está construyendo un pequeño negocio. Nuestras lecciones cubren
-      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco), y
+      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y
       <strong>Negocios</strong> (Azul), los fundamentos del crecimiento de por vida.
     </p>
 
     <h2>Membresía — Desde $9.99/mes</h2>
     <p>Actualiza en cualquier momento. Cancela en cualquier momento.</p>
 
-    <div class="plans">
-      <div class="plan">
+    <section class="plans">
+      <article class="plan">
         <h3>Básico</h3>
-        <p>$9.99/mes</p>
+        <p class="price">$9.99<span>/mes</span></p>
         <ul>
           <li>Precios especiales en cursos y libros impresos</li>
         </ul>
-        <button class="pay-btn">Pagar</button>
-      </div>
-      <div class="plan">
+        <a class="pay-btn" href="/payments.html?plan=basic">Elegir Básico</a>
+      </article>
+
+      <article class="plan">
         <h3>Crecimiento</h3>
-        <p>$19.99/mes</p>
+        <p class="price">$19.99<span>/mes</span></p>
         <ul>
           <li>Todo en Básico</li>
           <li>Soporte prioritario por correo/chat</li>
         </ul>
-        <button class="pay-btn">Pagar</button>
-      </div>
-      <div class="plan">
+        <a class="pay-btn" href="/payments.html?plan=growth">Elegir Crecimiento</a>
+      </article>
+
+      <article class="plan">
         <h3>Pro</h3>
-        <p>$29.99/mes</p>
+        <p class="price">$29.99<span>/mes</span></p>
         <ul>
           <li>Todo en Crecimiento</li>
           <li>Descuentos más profundos</li>
         </ul>
-        <button class="pay-btn">Pagar</button>
-      </div>
-    </div>
-  </div>
+        <a class="pay-btn" href="/payments.html?plan=pro">Elegir Pro</a>
+      </article>
+    </section>
+  </main>
 
   <script>
     function toggleLanguage() {
       const en = document.getElementById('english');
       const es = document.getElementById('spanish');
       const btn = document.getElementById('langBtn');
-      if (en.style.display === "none") {
-        en.style.display = "block";
-        es.style.display = "none";
-        btn.textContent = "ES";
-      } else {
-        en.style.display = "none";
-        es.style.display = "block";
-        btn.textContent = "EN";
-      }
+      const showingEN = es.style.display === 'none';
+      en.style.display = showingEN ? 'none' : 'block';
+      es.style.display = showingEN ? 'block' : 'none';
+      btn.textContent = showingEN ? 'EN' : 'ES';
     }
   </script>
 </body>
