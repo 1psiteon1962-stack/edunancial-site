@@ -158,7 +158,7 @@
 
   // ——— PayPal Buttons ———
   paypal.Buttons({
-    style:{ layout:'vertical', shape:'rect', label:'paypal', tagline:false, height:45 },
+    style:{ layout:'vertical', shape:'rect', label:'paypal', tagline:false, height:48 },
 
     createOrder: (data, actions)=>{
       const plan = PLANS[selected];
@@ -172,22 +172,16 @@
           amount:{
             currency_code:'USD',
             value: t.total.toFixed(2),
-            breakdown:{
-              item_total:{ currency_code:'USD', value: t.total.toFixed(2) }
-            }
+            breakdown:{ item_total:{ currency_code:'USD', value: t.total.toFixed(2) } }
           },
-          items:[{
-            name: `${plan.name} — First Month`,
-            quantity: '1',
-            unit_amount:{ currency_code:'USD', value: t.total.toFixed(2) }
-          }]
+          items:[{ name:`${plan.name} — First Month`, quantity:'1',
+                   unit_amount:{ currency_code:'USD', value:t.total.toFixed(2) } }]
         }]
       });
     },
 
     onApprove: async (data, actions)=>{
       const details = await actions.order.capture();
-      // Redirect back to site with order id (no rebuild needed)
       const params = new URLSearchParams({ orderID: details.id || '', from: 'membership' });
       window.location.href = `/thank-you.html?${params.toString()}`;
     },
