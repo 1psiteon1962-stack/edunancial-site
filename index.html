@@ -1,58 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edunancial — Where Education and Financial Literacy Meet</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <header>
-    <h1>Edunancial, Inc.</h1>
-    <p>West Palm Beach, Florida</p>
-  </header>
+<section id="our-story" style="padding: 2rem; font-family: Arial, sans-serif; max-width: 900px; margin: auto;">
+  <!-- Language Toggle -->
+  <div style="text-align: right; margin-bottom: 1rem;">
+    <button onclick="toggleLanguage()" 
+      style="font-size: 1rem; padding: 0.5rem 1rem; cursor: pointer; border-radius: 6px; background: #f44336; color: white; border: none; margin-right: 0.5rem;">
+      EN
+    </button>
+    <button onclick="toggleLanguage()" 
+      style="font-size: 1rem; padding: 0.5rem 1rem; cursor: pointer; border-radius: 6px; background: #2196f3; color: white; border: none;">
+      ES
+    </button>
+  </div>
 
-  <main>
-    <section id="story">
-      <h2>Our Story</h2>
-      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived.
-      His eyes went wide: “How did you make money like that?” I said, “By using my head.” 
-      Then I asked him, “Do you want to work with your head?” He said, “Yes… but I don’t know how.”
-      <strong>That’s when Edunancial was born.</strong></p>
-    </section>
+  <!-- English Story -->
+  <div id="story-en">
+    <h2>Our Story</h2>
+    <p>
+      One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: 
+      “How did you make money like that?” I said, “By using my head.” Then I asked, “Do you want to work with your head?” 
+      He said, “Yes, but I don’t know how.” That’s when <strong>Edunancial</strong> was born.
+    </p>
+    <p>
+      Today he analyzes, buys, and sells stocks, understands the foundations of real estate, and is building a small business. 
+      Our lessons cover <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and <strong>Business</strong> (Blue)—the foundations of lifetime growth.
+    </p>
+  </div>
 
-    <section id="plans">
-      <h2>Membership — Start for $5</h2>
-      <div>
-        <h3>Starter — $5/mo</h3>
-        <ul>
-          <li>Member pricing on courses and paperback books</li>
-          <li>Members-only downloads (worksheets, checklists)</li>
-          <li>Email preferences & compliance</li>
-        </ul>
-      </div>
+  <!-- Spanish Story -->
+  <div id="story-es" style="display: none;">
+    <h2>Nuestra Historia</h2>
+    <p>
+      Una tarde, cuando mi hijo tenía 11 años, entró justo en el momento en que llegó un depósito en línea. Sus ojos se abrieron de par en par: 
+      “¿Cómo ganaste dinero así?” Le respondí: “Usando mi cabeza.” Luego le pregunté: “¿Quieres trabajar con tu cabeza?” 
+      Él dijo: “Sí, pero no sé cómo.” Fue entonces cuando nació <strong>Edunancial</strong>.
+    </p>
+    <p>
+      Hoy analiza, compra y vende acciones, entiende los fundamentos de los bienes raíces y está construyendo un pequeño negocio. 
+      Nuestras lecciones cubren <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y <strong>Negocios</strong> (Azul): las bases del crecimiento de por vida.
+    </p>
+  </div>
 
-      <div>
-        <h3>Growth — $15/mo</h3>
-        <ul>
-          <li>Everything in Starter</li>
-          <li>Priority email/chat support</li>
-          <li>Access to live <em>Business Formation</em> webinar sessions</li>
-        </ul>
-      </div>
+  <!-- Membership Plans -->
+  <h3 style="margin-top: 2rem; color: #c62828;">Membership — Start at $9.99/mo</h3>
+  <p>Upgrade anytime. Cancel anytime.</p>
 
-      <div>
-        <h3>Pro — $25/mo</h3>
-        <ul>
-          <li>Everything in Growth</li>
-          <li>Deeper member discounts on select programs</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+    <div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 10px; padding: 1rem; text-align: center;">
+      <h4>Basic</h4>
+      <p><strong>$9.99/mo</strong></p>
+      <p>Member pricing on courses and paperback books</p>
+      <button style="font-size: 1.2rem; padding: 0.75rem 1.5rem; background: #4CAF50; color: white; border: none; border-radius: 6px; cursor: pointer;">Join</button>
+    </div>
+    <div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 10px; padding: 1rem; text-align: center;">
+      <h4>Growth</h4>
+      <p><strong>$19.99/mo</strong></p>
+      <p>Everything in Basic + priority support</p>
+      <button style="font-size: 1.2rem; padding: 0.75rem 1.5rem; background: #ff9800; color: white; border: none; border-radius: 6px; cursor: pointer;">Join</button>
+    </div>
+    <div style="flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 10px; padding: 1rem; text-align: center;">
+      <h4>Pro</h4>
+      <p><strong>$29.99/mo</strong></p>
+      <p>Everything in Growth + deeper member discounts</p>
+      <button style="font-size: 1.2rem; padding: 0.75rem 1.5rem; background: #e91e63; color: white; border: none; border-radius: 6px; cursor: pointer;">Join</button>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Edunancial, Inc. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<script>
+  function toggleLanguage() {
+    const en = document.getElementById("story-en");
+    const es = document.getElementById("story-es");
+    if (en.style.display === "none") {
+      en.style.display = "block";
+      es.style.display = "none";
+    } else {
+      en.style.display = "none";
+      es.style.display = "block";
+    }
+  }
+</script>
