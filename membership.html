@@ -1,112 +1,91 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial — Checkout</title>
-  <link rel="stylesheet" href="/style.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Membership Checkout</title>
+  <!-- PayPal SDK: use LIVE client id when ready -->
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
   <style>
-    .wrap{max-width:720px;margin:0 auto;padding:1.25rem}
-    .summary{border:1px solid #e5e5e5;border-radius:12px;padding:1rem;margin:1rem 0}
-    .row{display:flex;justify-content:space-between;gap:12px;margin:.35rem 0}
-    .total{font-size:1.35rem;font-weight:700}
-    .muted{color:#666}
-    .notice{background:#fff3cd;border:1px solid #ffeeba;border-radius:8px;padding:.6rem .8rem;margin:.75rem 0}
+    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#0f172a;color:#e5e7eb}
+    .wrap{max-width:960px;margin:0 auto;padding:24px 16px}
+    h1{margin:0 0 8px}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px}
+    @media(min-width:800px){.grid{grid-template-columns:1.4fr .6fr}}
+    .card{background:#111827;border:1px solid rgba(148,163,184,.25);border-radius:14px;padding:16px}
+    .row{display:flex;align-items:center;justify-content:space-between;margin:8px 0}
+    .qty{display:flex;gap:6px;align-items:center}
+    .qty input{width:64px;padding:6px;border-radius:8px;border:1px solid rgba(148,163,184,.35);background:#0b1020;color:#e5e7eb}
+    .muted{color:#cbd5e1}
+    .total{font-size:20px;font-weight:800}
+    .ok{color:#22c55e}.warn{color:#f59e0b}.err{color:#ef4444}
+    .note{font-size:13px;color:#cbd5e1;margin-top:8px}
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <a href="/our-story.html" class="muted">← Back</a>
+  <div class="wrap">
     <h1>Checkout</h1>
+    <p class="muted">Choose the membership plan that works best for your situation. You can upgrade at any time.</p>
 
-    <div id="paywall" class="notice" style="display:none">
-      <strong>Action needed:</strong> Add your PayPal <em>Live</em> Client ID into the script URL in this file
-      (look for <code>client-id=YOUR_PAYPAL_CLIENT_ID</code>). Then redeploy.
+    <div class="grid">
+      <!-- Products / Memberships -->
+      <div class="card">
+        <h2>Plans & Add-ons</h2>
+
+        <div class="row">
+          <div>
+            <strong>Entry Membership</strong> <span class="muted">($9.99 / month)</span><br>
+            <span class="muted">Library access + pamphlet + 15% coupon</span>
+          </div>
+          <div class="qty">
+            <label for="qty-entry" class="muted">Qty</label>
+            <input id="qty-entry" type="number" min="0" max="10" value="1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <strong>Standard Membership</strong> <span class="muted">($29.00 / month)</span><br>
+            <span class="muted">Full library, tools, coaching</span>
+          </div>
+          <div class="qty">
+            <label for="qty-standard" class="muted">Qty</label>
+            <input id="qty-standard" type="number" min="0" max="10" value="0">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <strong>Premium Membership</strong> <span class="muted">($59.00 / month)</span><br>
+            <span class="muted">Everything + monthly live calls + bigger discounts</span>
+          </div>
+          <div class="qty">
+            <label for="qty-premium" class="muted">Qty</label>
+            <input id="qty-premium" type="number" min="0" max="10" value="0">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <strong>Mini-Course Add-On</strong> <span class="muted">($75.00 one-time)</span><br>
+            <span class="muted">Livestream + replay access</span>
+          </div>
+          <div class="qty">
+            <label for="qty-course" class="muted">Qty</label>
+            <input id="qty-course" type="number" min="0" max="10" value="0">
+          </div>
+        </div>
+
+        <p class="note">Note: Memberships are shown here as one-time demo items to verify checkout flow. For **true monthly billing**, switch to <em>PayPal Subscriptions</em> after we confirm publish + capture + webhook.</p>
+      </div>
+
+      <!-- Summary + PayPal -->
+      <div class="card">
+        <h2>Order Summary</h2>
+        <div id="summary" class="muted">No items selected.</div>
+        <div class="row total"><span>Total</span><span id="total">$0.00</span></div>
+        <div id="paypal-button-container" style="margin-top:12px;"></div>
+        <div id="status" class="note"></div>
+      </div>
     </div>
-
-    <div class="summary">
-      <div class="row"><div>Plan</div><div id="planName">Basic</div></div>
-      <div class="row"><div>Billing</div><div>Monthly</div></div>
-      <div class="row total"><div>Total due today</div><div id="total">$9.99</div></div>
-      <div class="muted">You can cancel anytime in your account. No shipping or taxes.</div>
-    </div>
-
-    <!-- Where PayPal smart buttons render -->
-    <div id="paypal-buttons"></div>
-
-    <div id="result" class="notice" style="display:none"></div>
-  </main>
-
-  <!-- Replace YOUR_PAYPAL_CLIENT_ID with your LIVE client ID (not sandbox) -->
-  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD&intent=capture"></script>
-
-  <script>
-    // --- Read price/plan from URL (our links already include these) ---
-    const params = new URLSearchParams(location.search);
-    const plan  = (params.get('plan') || 'basic').toLowerCase();
-    // price from URL, else fallback to 9.99
-    const price = Number(params.get('price')) > 0 ? Number(params.get('price')) : 9.99;
-
-    document.getElementById('planName').textContent =
-      plan === 'growth' ? 'Growth' : plan === 'pro' ? 'Pro' : 'Basic';
-    document.getElementById('total').textContent = `$${price.toFixed(2)}`;
-
-    // Quick check so we don't confuse you if the client-id wasn't set
-    (function ensureClientId() {
-      const src = document.currentScript?.previousElementSibling?.src || '';
-      if (src.includes('YOUR_PAYPAL_CLIENT_ID')) {
-        document.getElementById('paywall').style.display = 'block';
-      }
-    })();
-
-    // --- PayPal Smart Buttons ---
-    if (window.paypal) {
-      paypal.Buttons({
-        style: { layout: 'vertical', shape: 'rect', label: 'paypal' },
-
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            intent: 'CAPTURE',
-            purchase_units: [{
-              description: `Edunancial ${plan.charAt(0).toUpperCase() + plan.slice(1)} (Monthly)`,
-              amount: { currency_code: 'USD', value: price.toFixed(2) }
-            }],
-            application_context: {
-              brand_name: "Edunancial",
-              shipping_preference: "NO_SHIPPING",
-              user_action: "PAY_NOW",
-              return_url: location.origin + "/thank-you.html",
-              cancel_url: location.href
-            }
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-            const name = details.payer?.name?.given_name || 'Member';
-            const id   = details.id;
-            const el   = document.getElementById('result');
-            el.innerHTML = `<strong>Thank you, ${name}!</strong> Your payment (Order <code>${id}</code>) was captured successfully.`;
-            el.style.display = 'block';
-            // Optionally redirect to your thank-you page:
-            setTimeout(() => location.href = "/thank-you.html?plan=" + plan + "&price=" + price.toFixed(2), 1000);
-          });
-        },
-
-        onCancel: function () {
-          const el = document.getElementById('result');
-          el.innerHTML = "Checkout was canceled. You can try again.";
-          el.style.display = 'block';
-        },
-
-        onError: function (err) {
-          const el = document.getElementById('result');
-          el.innerHTML = "We couldn't complete the payment. Please try again or use a different method.";
-          el.style.display = 'block';
-          console.error(err);
-        }
-      }).render('#paypal-buttons');
-    }
-  </script>
-</body>
-</html>
+  </div>
