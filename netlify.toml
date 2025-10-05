@@ -1,18 +1,15 @@
-# netlify.toml — FINAL for a static HTML/CSS/JS site (no build)
+# netlify.toml — FINAL for a static HTML/CSS/JS site (no build step)
 
 [build]
-  # Serve the files that are already in the repo (index.html, plans.html, etc.)
   publish = "."
-  # No build step at all
   command = ""
 
 [dev]
-  # No local build either; just serve the files
   command = ""
   publish = "."
   port = 8888
 
-# --- Redirects you asked for ---
+# Redirects
 [[redirects]]
   from = "/terms-international.html"
   to = "/terms-of-use.html"
@@ -31,7 +28,7 @@
   status = 301
   force = true
 
-# --- Security headers ---
+# Security headers
 [[headers]]
   for = "/*"
   [headers.values]
@@ -39,5 +36,4 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    # Keep CSP permissive enough for your current inline CSS/JS and images
     Content-Security-Policy = "default-src 'self'; img-src * data:; media-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
