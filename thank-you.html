@@ -1,18 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thank You — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thank you — Edunancial</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>.wrap{max-width:720px;margin:0 auto;padding:1.25rem}.muted{color:#666}</style>
 </head>
 <body>
-<div class="container">
-  <section class="card">
-    <h1>Thank You!</h1>
-    <p>Your payment was received. A receipt will be sent by PayPal. If you purchased a course, we’ll email your Zoom details soon.</p>
-    <a class="btn" href="/index.html">Back to Home</a>
-  </section>
-</div>
-<script src="/header.js?v=7" defer></script>
+  <main class="wrap">
+    <h1>Thank you!</h1>
+    <p>Your membership is confirmed.</p>
+    <p class="muted" id="summary"></p>
+    <p><a href="/our-story.html">Back to site</a></p>
+  </main>
+  <script>
+    const p = new URLSearchParams(location.search);
+    const plan = (p.get('plan') || 'basic').toUpperCase();
+    const price = p.get('price') ? `$${Number(p.get('price')).toFixed(2)}` : '';
+    document.getElementById('summary').textContent =
+      `Plan: ${plan}${price ? ` — First charge: ${price}` : ''}.`;
+  </script>
 </body>
 </html>
