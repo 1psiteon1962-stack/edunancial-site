@@ -1,39 +1,4 @@
-# netlify.toml — FINAL for a static HTML/CSS/JS site (no build step)
-
+# Serve a static site. No build. Publish from repo root (change to "site" if your files are in /site)
 [build]
   publish = "."
   command = ""
-
-[dev]
-  command = ""
-  publish = "."
-  port = 8888
-
-# Redirects
-[[redirects]]
-  from = "/terms-international.html"
-  to = "/terms-of-use.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/privacy"
-  to = "/global-privacy-policy.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/terms"
-  to = "/terms-of-use.html"
-  status = 301
-  force = true
-
-# Security headers
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; img-src * data:; media-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
