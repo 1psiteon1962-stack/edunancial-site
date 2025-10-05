@@ -1,10 +1,49 @@
-# netlify.toml
-[build]
-  # No build command – prevents Hugo/Node/etc.
-  command = ""
-  # Root folder where your site’s static files live
-  publish = "public"
+##############################################
+# Netlify config — Static site, no build step
+# Copy this file to the repo root as: netlify.toml
+##############################################
 
-# Optional: disable functions since you don’t use them
+[build]
+  # No frameworks. No npm/yarn. Just serve the files you committed.
+  command = "echo 'No build step – serving static files from repo root.'"
+  publish = "."
+
+# Optional: where Netlify would look for serverless functions (unused here)
 [functions]
-  directory = "disabled"
+  directory = "netlify/functions"
+
+############
+# Redirects
+############
+
+# Consolidate any old terms URLs to the current one
+[[redirects]]
+  from = "/terms-international.html"
+  to = "/terms-of-use.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms-of-use.html"
+  status = 301
+  force = true
+
+# Point generic privacy path to your actual policy page
+[[redirects]]
+  from = "/privacy"
+  to = "/global-privacy-policy.html"
+  status = 301
+  force = true
+
+##################
+# Security Headers
+##################
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'"
