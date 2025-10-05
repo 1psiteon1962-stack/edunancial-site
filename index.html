@@ -3,21 +3,184 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Edunancial</title>
-  <link rel="preconnect" href="https://www.paypal.com">
+  <title>Edunancial — Our Story</title>
+  <meta name="color-scheme" content="light dark">
   <style>
-    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0}
-    header{padding:24px 16px;background:#0f172a;color:#fff}
-    main{padding:24px 16px}
-    a.btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;
-      font-weight:700;color:#0a0f1a;background:linear-gradient(90deg,#dc2626,#f8fafc,#2563eb);border:1px solid rgba(0,0,0,.15)}
+    :root{
+      /* Red / White / Blue palette — no purple */
+      --bg:#0b1220; --panel:#0f172a; --ink:#f1f5f9; --muted:#cbd5e1; --line:#1f2a44;
+      --red:#dc2626; --white:#ffffff; --blue:#1e40af;
+      --radius:18px; --maxw:1100px;
+    }
+    /* Layout */
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .wrap{max-width:var(--maxw);margin:auto;padding:clamp(20px,3vw,44px)}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+    header h1{margin:0;font-size:clamp(26px,3.2vw,36px);letter-spacing:.2px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+    nav a:hover{color:var(--ink)}
+    /* Controls */
+    .bar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:12px 0 6px}
+    .btn{appearance:none;border:1px solid var(--line);background:#0b1426;color:var(--ink);padding:10px 14px;border-radius:12px;font-weight:700;cursor:pointer}
+    .btn.active{outline:3px solid rgba(30,64,175,.35)}
+    .toggle{display:flex;align-items:center;gap:10px}
+    .chev{width:18px;height:18px;transition:transform .2s}
+    [aria-expanded="true"] .chev{transform:rotate(180deg)}
+    /* Cards */
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(18px,2.5vw,28px)}
+    .grid{display:grid;gap:16px}
+    @media(min-width:880px){.grid{grid-template-columns:1.1fr .9fr;align-items:start}}
+    .copy p{line-height:1.75;margin:.7rem 0;color:var(--muted);font-size:clamp(16px,1.25vw,18px)}
+    .copy strong{color:var(--ink)}
+    .quote{font-style:italic}
+    .copy[hidden]{display:none}
+    /* CTA */
+    .cta{display:flex;justify-content:center;margin-top:18px}
+    .cta-btn{display:inline-block;padding:14px 18px;border-radius:14px;font-weight:800;text-decoration:none;
+             color:#0a0f1a;border:1px solid rgba(0,0,0,.25);
+             background:linear-gradient(90deg,var(--red),var(--white),var(--blue));box-shadow:0 8px 24px rgba(0,0,0,.25)}
+    .cta-btn:hover{filter:brightness(1.05)}
   </style>
 </head>
 <body>
-  <header><h1>Edunancial</h1><p>Bilingual financial literacy for families.</p></header>
-  <main>
-    <p>Site is live. Ready to accept payments.</p>
-    <p><a class="btn" href="/membership.html">Go to Membership Checkout</a></p>
-  </main>
+  <div class="wrap">
+    <header>
+      <h1>Edunancial</h1>
+      <nav>
+        <a href="/membership.html">Membership</a>
+      </nav>
+    </header>
+
+    <div class="bar">
+      <h2 style="margin:0;font-size:clamp(24px,2.6vw,32px)" data-i18n="title">Our Story</h2>
+      <div class="toggle">
+        <button id="storyToggle" class="btn" aria-expanded="false" aria-controls="story-long">
+          <span class="when-closed" data-i18n="readFull">Read the full story</span>
+          <span class="when-open" style="display:none" data-i18n="hideFull">Hide the full story</span>
+          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+      <div style="flex:1"></div>
+      <div role="group" aria-label="Language">
+        <button class="btn lang active" data-lang="en" aria-pressed="true">EN</button>
+        <button class="btn lang" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </div>
+
+    <section class="grid">
+      <!-- SHORT CARD -->
+      <article class="card" id="story-short">
+        <div class="copy en" lang="en">
+          <p>Edunancial began with a question from my son when he was just <strong>11 years old</strong>. He saw a deposit notification on my phone and asked:</p>
+          <p class="quote">“How did you make money like that?”</p>
+          <p>I told him, “I worked with my head.” He looked back at me and said: <span class="quote">“Yes, but I don’t know how.”</span></p>
+          <p>That moment changed everything. With the right guidance, anyone can start learning and growing right away.</p>
+          <p>We built a path to wealth through <strong>Red, White, and Blue</strong>—real estate, paper assets, and business. Choose a starting point and begin to build.</p>
+          <p><strong>If an 11-year-old could begin the journey, so can you.</strong></p>
+        </div>
+
+        <div class="copy es" lang="es" hidden>
+          <p>Edunancial comenzó con una pregunta de mi hijo cuando tenía apenas <strong>11 años</strong>. Vio una notificación de depósito en mi teléfono y preguntó:</p>
+          <p class="quote">«¿Cómo hiciste dinero así?»</p>
+          <p>Le respondí: «Trabajé con la cabeza». Él me miró y dijo: <span class="quote">«Sí, pero no sé cómo».</span></p>
+          <p>Ese momento lo cambió todo. Con la guía correcta, cualquiera puede comenzar a aprender y crecer de inmediato.</p>
+          <p>Construimos un camino con <strong>Rojo, Blanco y Azul</strong>: bienes raíces, activos en papel y negocios. Elige un punto de partida y comienza a construir.</p>
+          <p><strong>Si un niño de 11 años pudo comenzar el camino, tú también puedes.</strong></p>
+        </div>
+
+        <div class="cta">
+          <a class="cta-btn" href="/membership.html" data-i18n="cta">Choose the membership plan that works best for your situation. You can upgrade at any time.</a>
+        </div>
+      </article>
+
+      <!-- FULL CARD -->
+      <article class="card" id="story-long" hidden>
+        <!-- EN -->
+        <div class="copy en" lang="en">
+          <p>Edunancial was born out of a moment between a father and son. One day, as I checked my phone, a deposit notification came in from consulting work I had just completed for a client. My son noticed it and asked:</p>
+          <p class="quote">“How did you make money like that?”</p>
+          <p>I told him, “I worked with my head.” Then I asked, “Do you want to work with your head?” He replied: <span class="quote">“Yes, but I don’t know how.”</span></p>
+          <p>He was only <strong>11 years old</strong>. I didn’t know it at that moment, but that short exchange became the spark for everything that followed.</p>
+          <p>From that day on, we began a journey together where my challenge was making everything easy enough for an 11-year-old to understand and to learn step by step while building confidence.</p>
+          <p>He began immediately. With his allowance, he started buying <strong>silver</strong>; later, he moved into <strong>gold</strong>. Holding assets instead of spending on games or candy taught discipline, patience, and the value of building. When his budget allowed, we added <strong>stocks</strong>—a way to participate in ownership through <em>patience and research</em>. Alongside that, he started shaping the idea for a <strong>dog food company</strong>. And while he hasn’t purchased property yet, he continues to study <strong>real estate</strong> to be ready when the time is right.</p>
+          <p>At Edunancial, our foundation is <strong>Red, White, and Blue</strong>—not rigid rules, but vehicles that can each lead to wealth:</p>
+          <ul>
+            <li><strong>Red — Real Estate:</strong> equity and ownership of tangible property.</li>
+            <li><strong>White — Paper Assets:</strong> stocks, options, and funds explained in plain terms.</li>
+            <li><strong>Blue — Business:</strong> ownership, systems, and scaling to create freedom.</li>
+          </ul>
+          <p>People naturally gravitate to one or two areas; that’s part of the journey. What matters is choosing a starting point and beginning to build.</p>
+          <p><strong>If an 11-year-old could begin the journey, so can you.</strong></p>
+          <div class="cta">
+            <a class="cta-btn" href="/membership.html" data-i18n="cta">Choose the membership plan that works best for your situation. You can upgrade at any time.</a>
+          </div>
+        </div>
+
+        <!-- ES -->
+        <div class="copy es" lang="es" hidden>
+          <p>Edunancial nació de un momento entre padre e hijo. Un día, mientras revisaba mi teléfono, llegó una notificación de depósito por un trabajo de consultoría que acababa de terminar. Mi hijo la vio y preguntó:</p>
+          <p class="quote">«¿Cómo hiciste dinero así?»</p>
+          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: «¿Quieres trabajar con tu cabeza?» y respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
+          <p>Tenía apenas <strong>11 años</strong>. Ese breve intercambio encendió la chispa de todo lo que vino después.</p>
+          <p>Desde ese día empezamos un camino juntos, haciendo todo lo suficientemente sencillo para que un niño de 11 años lo entendiera y aprendiera paso a paso, ganando confianza.</p>
+          <p>Comenzó de inmediato. Con su mesada empezó comprando <strong>plata</strong>; luego pasó al <strong>oro</strong>. Conservar activos en lugar de gastarlos en juegos o dulces le enseñó disciplina, paciencia y el valor de construir. Cuando su presupuesto lo permitió, agregamos <strong>acciones</strong>—participación en la propiedad con <em>paciencia e investigación</em>. A la par, fue dando forma a una <strong>empresa de comida para perros</strong>. Y aunque todavía no ha comprado propiedades, sigue estudiando <strong>bienes raíces</strong> para estar listo cuando llegue el momento.</p>
+          <p>En Edunancial, nuestra base es <strong>Rojo, Blanco y Azul</strong>—no reglas rígidas, sino vehículos que pueden llevar a la riqueza:</p>
+          <ul>
+            <li><strong>Rojo — Bienes Raíces:</strong> capital y propiedad de activos tangibles.</li>
+            <li><strong>Blanco — Activos en Papel:</strong> acciones, opciones y fondos explicados en términos sencillos.</li>
+            <li><strong>Azul — Negocios:</strong> propiedad, sistemas y escala para crear libertad.</li>
+          </ul>
+          <p>Algunas personas se inclinan por uno o dos; eso también es parte del proceso. Lo importante es escoger un punto de partida y comenzar a construir.</p>
+          <p><strong>Si un niño de 11 años pudo comenzar el camino, tú también puedes.</strong></p>
+          <div class="cta">
+            <a class="cta-btn" href="/membership.html">Elige el plan de membresía que mejor se ajuste a tu situación. Puedes mejorar de nivel en cualquier momento.</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <script>
+    (function(){
+      const langBtns=[...document.querySelectorAll('.lang')];
+      const storyToggle=document.getElementById('storyToggle');
+      const longCard=document.getElementById('story-long');
+      const shortEN=document.querySelector('#story-short .en');
+      const shortES=document.querySelector('#story-short .es');
+      const longEN=document.querySelector('#story-long .en');
+      const longES=document.querySelector('#story-long .es');
+      const whenOpen=document.querySelector('.when-open');
+      const whenClosed=document.querySelector('.when-closed');
+
+      function setLang(lang){
+        langBtns.forEach(b=>{
+          const on=b.dataset.lang===lang;
+          b.classList.toggle('active',on);
+          b.setAttribute('aria-pressed',on?'true':'false');
+        });
+        shortEN.hidden=lang!=='en'; shortES.hidden=lang!=='es';
+        longEN.hidden=lang!=='en';  longES.hidden=lang!=='es';
+        document.querySelector('[data-i18n="title"]').textContent=(lang==='en')?'Our Story':'Nuestra Historia';
+        document.querySelectorAll('[data-i18n="cta"]').forEach(a=>{
+          a.textContent=(lang==='en')
+            ? 'Choose the membership plan that works best for your situation. You can upgrade at any time.'
+            : 'Elige el plan de membresía que mejor se ajuste a tu situación. Puedes mejorar de nivel en cualquier momento.';
+        });
+        whenClosed.textContent=(lang==='en')?'Read the full story':'Leer la historia completa';
+        whenOpen.textContent=(lang==='en')?'Hide the full story':'Ocultar la historia';
+      }
+
+      storyToggle.addEventListener('click', ()=>{
+        const open=storyToggle.getAttribute('aria-expanded')==='true';
+        storyToggle.setAttribute('aria-expanded', String(!open));
+        longCard.hidden=open;
+        whenOpen.style.display = !open ? 'inline' : 'none';
+        whenClosed.style.display = open ? 'inline' : 'none';
+      });
+      langBtns.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
+      setLang('en'); // default language
+    })();
+  </script>
 </body>
 </html>
