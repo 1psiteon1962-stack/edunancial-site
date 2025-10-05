@@ -1,139 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Join Edunancial</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial — Our Story</title>
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    header {
-      background: #004080;
-      color: #fff;
-      padding: 1em;
-      text-align: center;
-    }
-
-    .plans-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 2em;
-      gap: 2em;
-    }
-
-    .plan-box {
-      background: #fff;
-      border-radius: 10px;
-      padding: 2em;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
-      max-width: 300px;
-      flex: 1;
-    }
-
-    .plan-box h2 {
-      font-size: 1.5em;
-      margin-top: 0;
-      color: #004080;
-    }
-
-    .price {
-      font-size: 1.2em;
-      font-weight: bold;
-      margin: 1em 0;
-      color: #009900;
-    }
-
-    .features {
-      margin-bottom: 1.5em;
-    }
-
-    .features li {
-      margin: 0.5em 0;
-    }
-
-    .join-btn {
-      background: #007BFF;
-      color: white;
-      padding: 0.75em 1.5em;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1em;
-    }
-
-    .join-btn:hover {
-      background: #0056b3;
-    }
-
-    .note {
-      font-size: 0.9em;
-      margin-top: 2em;
-      color: #666;
-      text-align: center;
-      padding: 0 2em;
-    }
-
-    @media (max-width: 768px) {
-      .plans-container {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
+    .wrap{max-width:960px;margin:0 auto;padding:1.25rem}
+    .lang-toggle{float:right;margin-top:.75rem}
+    .btn{display:inline-block;padding:.6rem .9rem;border:1px solid #ccc;border-radius:8px;text-decoration:none}
+    .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:1.25rem}
+    .card{border:1px solid #e5e5e5;border-radius:12px;padding:1rem}
+    .price{font-size:1.75rem;font-weight:700}
+    .badge{font-size:.8rem;background:#ffe9a8;padding:.15rem .4rem;border-radius:6px;margin-left:.35rem}
+    .muted{color:#666;font-size:.9rem}
+    .admin{position:fixed;right:12px;bottom:12px;display:none;gap:8px}
+    .admin button{padding:.45rem .6rem;border-radius:8px;border:1px solid #bbb;background:#fafafa}
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>Choose Your Edunancial Membership</h1>
-    <p>Build your financial future today.</p>
+  <header class="wrap">
+    <a class="btn lang-toggle" href="/es-our-story.html" aria-label="Cambiar a Español">ES</a>
+    <h1>Our Story</h1>
+    <p>
+      One afternoon when my son was 11, he walked in just as an online deposit arrived.
+      His eyes went wide: “How did you make money like that?” I said, “By using my head.”
+      Then I asked, “Do you want to work with your head?” He said yes—so we began.
+      That’s when <strong>Edunancial</strong> was born.
+    </p>
+    <p>
+      Today he analyzes, buys, and sells stocks, understands the foundations of real estate,
+      and is building a small business. Our lessons cover <strong>Real Estate</strong> (Red),
+      <strong>Paper Assets</strong> (White), and <strong>Business</strong> (Blue)—the
+      foundations of lifetime growth.
+    </p>
   </header>
 
-  <main class="plans-container">
-    <div class="plan-box">
-      <h2>Starter</h2>
-      <p class="price">$5 First Month<br>Then $9.99/month</p>
-      <ul class="features">
-        <li>Pamphlet + 15% mini-course coupon</li>
-        <li>Access to core financial lessons</li>
-        <li>Cancel anytime</li>
-      </ul>
-      <a href="#" class="join-btn">Join Starter</a>
-    </div>
+  <main class="wrap">
+    <h2>Membership — Start at <span class="price price-basic" data-price-default="9.99">$9.99</span><span class="muted">/mo</span></h2>
+    <p class="muted">Upgrade anytime. Cancel anytime.</p>
 
-    <div class="plan-box">
-      <h2>Standard</h2>
-      <p class="price">$29/month</p>
-      <ul class="features">
-        <li>Full library access</li>
-        <li>Financial tools & printable content</li>
-        <li>Group coaching access</li>
-      </ul>
-      <a href="#" class="join-btn">Join Standard</a>
-    </div>
+    <section class="plans">
+      <article class="card" data-plan="basic">
+        <h3>Basic</h3>
+        <div class="price"><span class="price-basic" data-price-default="9.99">$9.99</span><span class="muted">/mo</span></div>
+        <ul>
+          <li>Member pricing on courses and paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences &amp; compliance</li>
+        </ul>
+        <a class="btn" id="join-basic" href="/membership.html?plan=basic&price=9.99">Join Basic</a>
+      </article>
 
-    <div class="plan-box">
-      <h2>Premium</h2>
-      <p class="price">$59/month</p>
-      <ul class="features">
-        <li>All Standard benefits</li>
-        <li>Live monthly Q&A sessions</li>
-        <li>Deep discounts on advanced courses</li>
-      </ul>
-      <a href="#" class="join-btn">Join Premium</a>
-    </div>
+      <article class="card" data-plan="growth">
+        <h3>Growth</h3>
+        <div class="price">$19.99<span class="muted">/mo</span></div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority email/chat support for account &amp; course access</li>
+          <li>Access to live <em>Business Formation</em> sessions</li>
+        </ul>
+        <a class="btn" href="/membership.html?plan=growth&price=19.99">Join Growth</a>
+      </article>
+
+      <article class="card" data-plan="pro">
+        <h3>Pro</h3>
+        <div class="price">$29.99<span class="muted">/mo</span></div>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+          <li>Early access to new lessons &amp; tools</li>
+        </ul>
+        <a class="btn" href="/membership.html?plan=pro&price=29.99">Join Pro</a>
+      </article>
+    </section>
   </main>
 
-  <div class="note">
-    By joining, you agree to automatic monthly billing. You can cancel anytime via your member dashboard. Prices shown are in USD. All sales are final after the trial period.
+  <!-- Admin-only discount controls (appear when URL contains ?admin=1) -->
+  <div class="admin" id="admin-controls" aria-hidden="true">
+    <button type="button" id="set-5">Set Basic $5</button>
+    <button type="button" id="clear-discount">Clear</button>
   </div>
+
+  <script src="/membership-pricing.js"></script>
 </body>
 </html>
