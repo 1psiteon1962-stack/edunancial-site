@@ -89,3 +89,105 @@
       </div>
     </div>
   </div>
+
+  <script>
+    // ---- Cart logic (client-side) ----
+    const items = [
+      { id: 'entry',    name: 'Entry Membership',    price: 9.99,  type: 'onetime' },
+      { id: 'standard', name: 'Standard Membership', price: 29.00, type: 'onetime' },
+      { id: 'premium',  name: 'Premium Membership',  price: 59.00, type: 'onetime' },
+      { id: 'course',   name: 'Mini-Course Add-On',  price: 75.00, type: 'onetime' }
+    ];
+    const inputs = {
+      entry:    document.getElementById('qty-entry'),
+      standard: document.getElementById('qty-standard'),
+      premium:  document.getElementById('qty-premium'),
+      course:   document.getElementById('qty-course')
+    };
+    const $summary = document.getElementById('summary');
+    const $total   = document.getElementById('total');
+    const $status  = document.getElementById('status');
+
+    function format(n){ return '$' + n.toFixed(2); }
+
+    function getCart(){
+      const cart = [];
+      let total = 0;
+      items.forEach(it=>{
+        const qty = Math.max(0, parseInt(inputs[it.id].value||0,10));
+        if(qty>0){
+          cart.push({
+            name: it.name,
+            unit_amount: it.price,
+            quantity: qty
+          });
+          total += it.price * qty;
+        }
+      });
+      return {cart, total};
+    }
+
+    function renderSummary(){
+      const {cart, total} = getCart();
+      if(cart.length===0){
+        $summary.textContent = 'No items selected.';
+      }else{
+        $summary.innerHTML = cart.map(i=>`${i.quantity} × ${i.name} — ${format(i.unit_amount*i.quantity)}`).join('<br>');
+      }
+      $total.textContent = format(total);
+    }
+
+    Object.values(inputs).forEach(inp=> inp.addEventListener('input', renderSummary));
+    renderSummary();
+
+    // ---- PayPal Buttons ----
+    paypal.Buttons({
+      style: { layout: 'vertical', shape: 'rect', label: 'paypal' },
+
+      // Create an order with multiple line items
+      createOrder: function(data, actions) {
+        const {cart, total} = getCart();
+        if(cart.length===0){
+          $status.innerHTML = '<span class="warn">Please add at least one item.</span>';
+          return;
+        }
+        const purchaseItems = cart.map(i=>({
+          name: i.name,
+          quantity: String(i.quantity),
+          unit_amount: { currency_code: 'USD', value: i.unit_amount.toFixed(2) }
+        }));
+
+        return actions.order.create({
+          intent: 'CAPTURE',
+          purchase_units: [{
+            amount: {
+              currency_code: 'USD',
+              value: total.toFixed(2),
+              breakdown: {
+                item_total: { currency_code: 'USD', value: total.toFixed(2) }
+              }
+            },
+            items: purchaseItems
+          }]
+        });
+      },
+
+      // Capture on client (instant UX), webhook will verify server-side
+      onApprove: async function(data, actions) {
+        const details = await actions.order.capture();
+        $status.innerHTML = '<span class="ok">Payment captured. Thank you!</span>';
+
+        // OPTIONAL: ping your backend for post-processing (don’t block UX if it fails)
+        try{
+          await fetch('/api/health');
+        }catch(e){}
+      },
+
+      onError: function(err){
+        console.error(err);
+        $status.innerHTML = '<span class="err">There was a problem processing your payment.</span>';
+      }
+    }).render('#paypal-button-container');
+  </script>
+</body>
+</html>
