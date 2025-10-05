@@ -1,37 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Membership — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Membership — Edunancial</title>
+  <meta name="description" content="Join Edunancial: Starter $5/mo, Growth $15/mo, Pro $25/mo." />
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="container">
-  <h1>Membership</h1>
-  <section class="card" id="tiers"></section>
-</div>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/" class="logo">Edunancial</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/our-story.html">Our Story</a>
+        <a href="/membership.html" aria-current="page">Membership</a>
+        <a href="/mini-courses.html">Courses</a>
+        <a href="/pamphlet.html">Books</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<script src="/header.js?v=7" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded', async ()=>{
-  const cfg=await (await fetch('/config.json?ts='+Date.now())).json();
-  const el=document.getElementById('tiers');
-  const tiers=[['starter','Starter'],['growth','Growth'],['pro','Pro']];
-  el.innerHTML=tiers.map(([k,label])=>{
-    const t=cfg.memberships[k];
-    return `<div class="product">
-      <div><h3>${label}</h3><div class="small">$${(+t.price).toFixed(2)}/mo</div></div>
-      <div><button class="btn" data-sku="MEM-${k.toUpperCase()}">Add to Cart</button></div>
-    </div>`;
-  }).join('');
-  el.addEventListener('click',e=>{
-    const b=e.target.closest('button[data-sku]'); if(!b) return;
-    const sku=b.dataset.sku; const k=sku.replace('MEM-','').toLowerCase(); const t=cfg.memberships[k];
-    const item={sku, title:`Membership — ${t.name}`, price:+t.price, qty:1};
-    const cart=JSON.parse(localStorage.getItem('EDN_CART')||'[]'); cart.push(item);
-    localStorage.setItem('EDN_CART', JSON.stringify(cart)); window.EDN.updateCartCount(); alert('Added '+item.title);
-  });
-});
-</script>
+  <main class="wrap">
+    <h1>Membership — Start for $5</h1>
+    <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
+
+    <div class="grid-3">
+      <article class="tier">
+        <h2>Starter — $5/mo</h2>
+        <ul>
+          <li>Member pricing on courses and paperback books</li>
+          <li>Members-only downloads (worksheets, checklists)</li>
+          <li>Email preferences &amp; compliance (you choose what we send)</li>
+        </ul>
+        <p><a class="btn" href="/payments.html?plan=starter">Join Starter</a></p>
+      </article>
+
+      <article class="tier">
+        <h2>Growth — $15/mo</h2>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Priority email/chat support for account &amp; course access</li>
+          <li>Access to live <em>Business Formation</em> webinar sessions</li>
+        </ul>
+        <p><a class="btn" href="/payments.html?plan=growth">Join Growth</a></p>
+      </article>
+
+      <article class="tier">
+        <h2>Pro — $25/mo</h2>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts on select programs</li>
+          <li>Early access to new courses and tools</li>
+        </ul>
+        <p><a class="btn" href="/payments.html?plan=pro">Join Pro</a></p>
+      </article>
+    </div>
+
+    <p class="small">Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> • <a href="/cart.html">View Cart</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 Edunancial, Inc. • <a href="/terms-of-use.html">Terms of Use</a> • <a href="/global-privacy-policy.html">Privacy</a></p>
+    </div>
+  </footer>
+
+  <style>
+    .wrap{max-width:1100px;margin:0 auto;padding:1rem}
+    .grid-3{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .tier{border:1px solid #eee;border-radius:10px;padding:1rem}
+    .btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;border:1px solid #c00;background:#c00;color:#fff;text-decoration:none}
+    .small{font-size:.9rem;color:#555}
+  </style>
 </body>
 </html>
