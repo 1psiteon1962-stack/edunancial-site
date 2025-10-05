@@ -21,22 +21,20 @@
   .wrap{max-width:var(--maxw);margin:auto;padding:clamp(24px,3.2vw,48px)}
   header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
   header h1{margin:0;font-size:var(--fs-h1)}
-  header a{color:var(--ink);text-decoration:none;font-weight:700;padding:.6rem 1rem;border-radius:999px;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));color:#0a0f1a;border:0;box-shadow:0 10px 28px rgba(0,0,0,.28)}
+  header a{color:#0a0f1a;text-decoration:none;font-weight:700;padding:.7rem 1.1rem;border-radius:999px;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));border:0;box-shadow:0 10px 28px rgba(0,0,0,.28)}
   /* control bar */
   .bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:18px 0 8px}
   .title{font-size:var(--fs-h2);margin:0}
   .btn{appearance:none;border:2px solid var(--line);background:var(--pill);color:var(--ink);
-       padding:.9rem 1.1rem;border-radius:16px;font-weight:800;cursor:pointer}
-  .btn.big{padding:1rem 1.25rem;border-radius:18px}
+       padding:1rem 1.25rem;border-radius:18px;font-weight:800;cursor:pointer}
   .btn.active{outline:4px solid rgba(37,99,235,.45)}
-  .toggle{display:flex;align-items:center;gap:12px}
-  .chev{width:22px;height:22px;transition:transform .2s}
+  .chev{width:22px;height:22px;vertical-align:-4px;transition:transform .2s;margin-left:8px}
   [aria-expanded="true"] .chev{transform:rotate(180deg)}
   /* cards */
   .card{background:var(--panel);border:2px solid var(--line);border-radius:var(--radius);padding:clamp(22px,2.8vw,32px)}
   .grid{display:grid;gap:18px}
   @media(min-width:900px){.grid{grid-template-columns:1.15fr .85fr}}
-  .copy p{line-height:1.8;margin:.85rem 0;color:var(--muted)}
+  .copy p{line-height:1.85;margin:.9rem 0;color:var(--muted)}
   .copy strong{color:var(--ink)}
   .quote{font-style:italic}
   .copy[hidden]{display:none}
@@ -57,17 +55,15 @@
 
     <div class="bar">
       <h2 class="title" data-i18n="title">Our Story</h2>
-      <div class="toggle">
-        <button id="storyToggle" class="btn big" aria-expanded="false" aria-controls="story-long">
-          <span class="when-closed" data-i18n="readFull">Read the full story</span>
-          <span class="when-open" style="display:none" data-i18n="hideFull">Hide the full story</span>
-          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-        </button>
-      </div>
+      <button id="storyToggle" class="btn" aria-expanded="false" aria-controls="story-long">
+        <span class="when-closed" data-i18n="readFull">Read the full story</span>
+        <span class="when-open" style="display:none" data-i18n="hideFull">Hide the full story</span>
+        <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
       <div style="flex:1"></div>
       <div role="group" aria-label="Language">
-        <button class="btn big lang active" data-lang="en" aria-pressed="true">EN</button>
-        <button class="btn big lang" data-lang="es" aria-pressed="false">ES</button>
+        <button class="btn lang active" data-lang="en" aria-pressed="true">EN</button>
+        <button class="btn lang" data-lang="es" aria-pressed="false">ES</button>
       </div>
     </div>
 
@@ -77,7 +73,7 @@
         <div class="copy en" lang="en">
           <p>Edunancial began with a question from my son when he was just <strong>11 years old</strong>. He saw a deposit notification on my phone and asked:</p>
           <p class="quote">“How did you make money like that?”</p>
-          <p>I told him, “I worked with my head.” He looked back at me and said: <span class="quote">“Yes, but I don’t know how.”</span></p>
+          <p>I told him, “I worked with my head.” Then I asked, <span class="quote">“Do you want to work with your head?”</span> He looked back at me and said: <span class="quote">“Yes, but I don’t know how.”</span></p>
           <p>That moment changed everything. With the right guidance, anyone can start learning and growing right away.</p>
           <p>We built a path to wealth through <strong>Red, White, and Blue</strong>—real estate, paper assets, and business. Choose a starting point and begin to build.</p>
           <p><strong>If an 11-year-old could begin the journey, so can you.</strong></p>
@@ -85,7 +81,7 @@
         <div class="copy es" lang="es" hidden>
           <p>Edunancial comenzó con una pregunta de mi hijo cuando tenía apenas <strong>11 años</strong>. Vio una notificación de depósito en mi teléfono y preguntó:</p>
           <p class="quote">«¿Cómo hiciste dinero así?»</p>
-          <p>Le respondí: «Trabajé con la cabeza». Él me miró y dijo: <span class="quote">«Sí, pero no sé cómo».</span></p>
+          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: <span class="quote">«¿Quieres trabajar con tu cabeza?»</span> y él respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
           <p>Ese momento lo cambió todo. Con la guía correcta, cualquiera puede comenzar a aprender y crecer de inmediato.</p>
           <p>Construimos un camino con <strong>Rojo, Blanco y Azul</strong>: bienes raíces, activos en papel y negocios. Elige un punto de partida y comienza a construir.</p>
           <p><strong>Si un niño de 11 años pudo comenzar el camino, tú también puedes.</strong></p>
@@ -102,7 +98,7 @@
         <div class="copy en" lang="en">
           <p>Edunancial was born out of a moment between a father and son. One day, as I checked my phone, a deposit notification came in from consulting work I had just completed for a client. My son noticed it and asked:</p>
           <p class="quote">“How did you make money like that?”</p>
-          <p>I told him, “I worked with my head.” Then I asked, “Do you want to work with your head?” He replied: <span class="quote">“Yes, but I don’t know how.”</span></p>
+          <p>I told him, “I worked with my head.” Then I asked, <span class="quote">“Do you want to work with your head?”</span> He replied: <span class="quote">“Yes, but I don’t know how.”</span></p>
           <p>He was only <strong>11 years old</strong>. I didn’t know it at that moment, but that short exchange became the spark for everything that followed.</p>
           <p>From that day on, we began a journey together where my challenge was making everything easy enough for an 11-year-old to understand and to learn step by step while building confidence.</p>
           <p>He began immediately. With his allowance, he started buying <strong>silver</strong>; later, he moved into <strong>gold</strong>. Holding assets instead of spending on games or candy taught discipline, patience, and the value of building. When his budget allowed, we added <strong>stocks</strong>—a way to participate in ownership through <em>patience and research</em>. Alongside that, he started shaping the idea for a <strong>dog food company</strong>. And while he hasn’t purchased property yet, he continues to study <strong>real estate</strong> to be ready when the time is right.</p>
@@ -122,7 +118,7 @@
         <div class="copy es" lang="es" hidden>
           <p>Edunancial nació de un momento entre padre e hijo. Un día, mientras revisaba mi teléfono, llegó una notificación de depósito por un trabajo de consultoría que acababa de terminar. Mi hijo la vio y preguntó:</p>
           <p class="quote">«¿Cómo hiciste dinero así?»</p>
-          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: «¿Quieres trabajar con tu cabeza?» y respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
+          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: <span class="quote">«¿Quieres trabajar con tu cabeza?»</span> y respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
           <p>Tenía apenas <strong>11 años</strong>. Ese breve intercambio encendió la chispa de todo lo que vino después.</p>
           <p>Desde ese día empezamos un camino juntos, haciendo todo lo suficientemente sencillo para que un niño de 11 años lo entendiera y aprendiera paso a paso, ganando confianza.</p>
           <p>Comenzó de inmediato. Con su mesada empezó comprando <strong>plata</strong>; luego pasó al <strong>oro</strong>. Conservar activos en lugar de gastarlos en juegos o dulces le enseñó disciplina, paciencia y el valor de construir. Cuando su presupuesto lo permitió, agregamos <strong>acciones</strong>—participación en la propiedad con <em>paciencia e investigación</em>. A la par, fue dando forma a una <strong>empresa de comida para perros</strong>. Y aunque todavía no ha comprado propiedades, sigue estudiando <strong>bienes raíces</strong> para estar listo cuando llegue el momento.</p>
