@@ -1,0 +1,12 @@
+[build]
+  command = ""            # static site (no build). If using a build tool, set it here.
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = []
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
