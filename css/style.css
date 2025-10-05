@@ -1,28 +1,45 @@
-/* Make language toggle larger */
-.toggle-button, .language-toggle {
-  font-size: 1.2rem;   /* bigger text */
-  padding: 10px 20px;  /* more clickable area */
-  border-radius: 6px;
+/* Make language toggle larger and move left */
+.language-toggle {
+  position: fixed;       /* keeps it visible */
+  top: 10px;
+  left: 10px;            /* move away from the edge */
+  z-index: 1000;
+  font-size: 1.4rem;     /* bigger text */
+  padding: 12px 20px;    /* larger clickable area */
+  border-radius: 8px;
   background-color: #f5f5f5;
   border: 2px solid #ccc;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Make membership buttons larger and more visible */
+/* Make membership buttons much larger */
 .membership-button, .pay-button {
   display: inline-block;
-  font-size: 1.2rem;
-  padding: 12px 24px;
-  margin: 8px;
-  border-radius: 8px;
+  font-size: 1.4rem;     /* bigger font */
+  padding: 16px 32px;    /* larger click area */
+  margin: 10px;
+  border-radius: 10px;
   text-align: center;
-  background-color: #e63946;  /* bright red */
+  background-color: #e63946;  /* bold red */
   color: #fff;
+  font-weight: bold;
   border: none;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
+/* Hover effect */
 .membership-button:hover, .pay-button:hover {
-  background-color: #c72c37; /* darker red on hover */
+  background-color: #c72c37; 
+  transform: scale(1.05); /* slight zoom */
+}
+
+/* Responsive: make sure buttons fill width on small screens */
+@media (max-width: 600px) {
+  .membership-button, .pay-button {
+    display: block;
+    width: 90%;        /* nearly full width */
+    margin: 12px auto;
+  }
 }
