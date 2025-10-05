@@ -5,8 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Edunancial — Membership</title>
 <meta name="color-scheme" content="light dark">
-<!-- PayPal SDK (replace client-id when ready) -->
-<script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
+<link rel="preconnect" href="https://www.paypal.com">
+<link rel="preconnect" href="https://www.paypalobjects.com">
+
+<!-- ✅ PUT YOUR REAL PAYPAL CLIENT ID BELOW -->
+<script id="paypal-sdk"
+  src="https://www.paypal.com/sdk/js?client-id=REPLACE_WITH_YOUR_CLIENT_ID&components=buttons&currency=USD&intent=capture"
+  data-sdk-integration-source="edunancial-membership">
+</script>
+
 <style>
   :root{
     --bg:#0b1220; --panel:#0f172a; --ink:#f8fbff; --muted:#d6e0ee; --line:#283a64;
@@ -30,12 +37,13 @@
   .badge{display:inline-block;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));color:#0a0f1a;border-radius:999px;padding:.35rem .7rem;font-size:.9em;margin-left:.5rem;font-weight:900}
   .price{font-weight:900}
   .best{border-color:var(--accent);box-shadow:0 0 0 3px rgba(34,197,94,.25)}
-  .pp-slot{min-width:210px}
+  .pp-slot{min-width:220px}
   .hint{font-size:.95em;color:var(--muted);margin-top:8px}
   .coupon{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
   .coupon input{padding:1rem 1.1rem;border-radius:14px;border:2px solid var(--line);background:#0b1426;color:var(--ink);min-width:260px}
   .cta{display:inline-block;padding:1rem 1.25rem;border-radius:18px;font-weight:900;text-decoration:none;color:#0a0f1a;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));box-shadow:0 12px 32px rgba(0,0,0,.34)}
   .total{display:flex;justify-content:space-between;font-weight:900;font-size:clamp(20px,1.8vw,24px);margin-top:8px}
+  #sdk-error{background:#7f1d1d;border:2px solid #ef4444;color:#fff;padding:12px;border-radius:14px;margin:.75rem 0}
 </style>
 </head>
 <body>
@@ -47,6 +55,8 @@
 
   <h1>Membership</h1>
   <p class="muted">Choose the membership plan that works best for your situation. You can upgrade at any time.</p>
+
+  <div id="sdk-error" hidden></div>
 
   <div class="grid">
     <!-- LEFT: plans with price & PayPal button right there -->
@@ -94,7 +104,7 @@
       <p class="hint"><strong>Coupons:</strong> use <code>SAVE15</code> for 15% off your first month.</p>
     </div>
 
-    <!-- RIGHT: small order summary + coupon -->
+    <!-- RIGHT: summary + coupon -->
     <div class="card">
       <h2 style="margin-top:0">Checkout</h2>
       <div id="summary" class="muted"></div>
@@ -115,7 +125,7 @@
 </div>
 
 <script>
-  // ----- Pricing & coupon -----
+  // ---- Pricing & coupon ----
   const PLANS = {
     entry:   { name:'Entry Membership',    price: 9.99 },
     standard:{ name:'Standard Membership', price:29.99 },
@@ -125,12 +135,12 @@
   let coupon=null;
 
   const $ = id => document.getElementById(id);
-  const $summary=$('summary'), $total=$('total'), $status=$('status');
+  const $summary=$('summary'), $total=$('total'), $status=$('status'), $sdkErr=$('sdk-error');
 
   function format(n){ return '$' + n.toFixed(2); }
   function computeTotal(){
-    let price = PLANS[selected].price;
-    let discount = (coupon==='SAVE15') ? price * 0.15 : 0;
+    const price = PLANS[selected].price;
+    const discount = (coupon==='SAVE15') ? (price*0.15) : 0;
     return { price, discount, total: Math.max(0, price - discount) };
   }
   function renderSummary(){
@@ -141,21 +151,16 @@
     $total.textContent = format(t.total);
   }
   document.querySelectorAll('input[name="plan"]').forEach(r=>{
-    r.addEventListener('change',()=>{ selected=r.value; renderSummary(); showButtonsFor(selected); });
+    r.addEventListener('change',()=>{ selected=r.value; renderSummary(); showButtonsFor(selected,true); });
   });
   $('apply').addEventListener('click', ()=>{ coupon=($('coupon').value||'').trim().toUpperCase()||null; renderSummary(); showButtonsFor(selected,true); });
   renderSummary();
 
-  // ----- PayPal per-plan buttons (render where the price is) -----
-  const ppSlots = {
-    entry:   'pp-entry',
-    standard:'pp-standard',
-    premium: 'pp-premium'
-  };
-  const rendered = { entry:false, standard:false, premium:false };
+  // ---- PayPal: render into the selected plan slot ----
+  const ppSlots = { entry:'pp-entry', standard:'pp-standard', premium:'pp-premium' };
 
   function createButtons(targetId){
-    return paypal.Buttons({
+    return window.paypal.Buttons({
       style:{ layout:'horizontal', height:48, label:'paypal', tagline:false, shape:'rect' },
       createOrder: (data, actions)=>{
         const t = computeTotal();
@@ -189,18 +194,29 @@
       const node = document.getElementById(id);
       if (node){ node.innerHTML=''; }
     });
-    rendered.entry=rendered.standard=rendered.premium=false;
   }
 
-  function showButtonsFor(plan, forceRecreate=false){
-    // Render only on the selected plan slot
+  function showButtonsFor(plan, force=false){
+    if (!window.paypal) return; // SDK not loaded yet
     clearButtons();
-    if (!rendered[plan] || forceRecreate){
-      createButtons(ppSlots[plan]);
-      rendered[plan]=true;
+    createButtons(ppSlots[plan]);
+  }
+
+  // ---- SDK readiness / error reporting ----
+  function sdkReady(){
+    if (!window.paypal){
+      $sdkErr.hidden=false;
+      $sdkErr.innerHTML = 'PayPal SDK did not load. Make sure you replaced <strong>REPLACE_WITH_YOUR_CLIENT_ID</strong> with a valid Client ID (Sandbox or Live) in the script tag.';
+    }else{
+      showButtonsFor('entry');
     }
   }
-  showButtonsFor('entry');
+
+  if (document.readyState === 'complete'){
+    sdkReady();
+  } else {
+    window.addEventListener('load', sdkReady);
+  }
 </script>
 </body>
 </html>
