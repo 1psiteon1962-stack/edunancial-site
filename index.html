@@ -1,90 +1,134 @@
-<section id="our-story" style="padding: 2rem; font-family: Arial, sans-serif; max-width: 1000px; margin: auto;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edunancial — Our Story</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
   <!-- Language Toggle -->
-  <div style="text-align: left; margin-bottom: 2rem;">
-    <button onclick="toggleLanguage()" 
-      style="font-size: 1.5rem; padding: 1rem 2rem; cursor: pointer; border-radius: 8px; background: #4caf50; color: white; border: none; box-shadow: 0 3px 6px rgba(0,0,0,0.2);">
-      English / Español
-    </button>
+  <div class="lang-toggle">
+    <button onclick="toggleLanguage()" id="langBtn">ES</button>
   </div>
 
-  <!-- English Story -->
-  <div id="story-en">
-    <h2 style="font-size: 2rem;">Our Story</h2>
-    <p style="font-size: 1.2rem; line-height: 1.6;">
-      One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: 
-      “How did you make money like that?” I said, “By using my head.” Then I asked, 
-      “Do you want to work with your head?” He said, “Yes, but I don’t know how.” 
+  <!-- English Content -->
+  <div id="english">
+    <h1>Our Story</h1>
+    <p>
+      One afternoon when my son was 11, he walked in just as an online deposit arrived.
+      His eyes went wide: “How did you make money like that?”  
+      I said, “By using my head.”  
+      Then I asked, “Do you want to work with your head?”  
+      He said, “Yes, but I don’t know how.”  
       That’s when <strong>Edunancial</strong> was born.
     </p>
-    <p style="font-size: 1.2rem; line-height: 1.6;">
-      Today he analyzes, buys, and sells stocks, understands the foundations of real estate, 
-      and is building a small business. Our lessons cover 
-      <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and 
+    <p>
+      Today he analyzes, buys, and sells stocks, understands the foundations of real estate,
+      and is building a small business. Our lessons cover
+      <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and
       <strong>Business</strong> (Blue) — the foundations of lifetime growth.
     </p>
+
+    <h2>Membership — Start at $9.99/mo</h2>
+    <p>Upgrade anytime. Cancel anytime.</p>
+
+    <div class="plans">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>$9.99/mo</p>
+        <ul>
+          <li>Member pricing on courses and paperback books</li>
+        </ul>
+        <button class="pay-btn">Pay</button>
+      </div>
+      <div class="plan">
+        <h3>Growth</h3>
+        <p>$19.99/mo</p>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority email/chat support for members</li>
+        </ul>
+        <button class="pay-btn">Pay</button>
+      </div>
+      <div class="plan">
+        <h3>Pro</h3>
+        <p>$29.99/mo</p>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts</li>
+        </ul>
+        <button class="pay-btn">Pay</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Spanish Story -->
-  <div id="story-es" style="display: none;">
-    <h2 style="font-size: 2rem;">Nuestra Historia</h2>
-    <p style="font-size: 1.2rem; line-height: 1.6;">
-      Una tarde, cuando mi hijo tenía 11 años, entró justo en el momento en que llegó un depósito en línea. 
-      Sus ojos se abrieron de par en par: “¿Cómo ganaste dinero así?” Le respondí: “Usando mi cabeza.” 
-      Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: 
-      “Sí, pero no sé cómo.” Fue entonces cuando nació <strong>Edunancial</strong>.
+  <!-- Spanish Content -->
+  <div id="spanish" style="display:none;">
+    <h1>Nuestra Historia</h1>
+    <p>
+      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.  
+      Sus ojos se abrieron: “¿Cómo ganaste dinero así?”  
+      Le dije: “Usando mi cabeza.”  
+      Luego le pregunté: “¿Quieres trabajar con tu cabeza?”  
+      Él respondió: “Sí, pero no sé cómo.”  
+      Fue entonces cuando nació <strong>Edunancial</strong>.
     </p>
-    <p style="font-size: 1.2rem; line-height: 1.6;">
-      Hoy analiza, compra y vende acciones, entiende los fundamentos de los bienes raíces 
-      y está construyendo un pequeño negocio. Nuestras lecciones cubren 
-      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y 
-      <strong>Negocios</strong> (Azul): las bases del crecimiento de por vida.
+    <p>
+      Hoy analiza, compra y vende acciones, entiende las bases de los bienes raíces,
+      y está construyendo un pequeño negocio. Nuestras lecciones cubren
+      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco), y
+      <strong>Negocios</strong> (Azul), los fundamentos del crecimiento de por vida.
     </p>
+
+    <h2>Membresía — Desde $9.99/mes</h2>
+    <p>Actualiza en cualquier momento. Cancela en cualquier momento.</p>
+
+    <div class="plans">
+      <div class="plan">
+        <h3>Básico</h3>
+        <p>$9.99/mes</p>
+        <ul>
+          <li>Precios especiales en cursos y libros impresos</li>
+        </ul>
+        <button class="pay-btn">Pagar</button>
+      </div>
+      <div class="plan">
+        <h3>Crecimiento</h3>
+        <p>$19.99/mes</p>
+        <ul>
+          <li>Todo en Básico</li>
+          <li>Soporte prioritario por correo/chat</li>
+        </ul>
+        <button class="pay-btn">Pagar</button>
+      </div>
+      <div class="plan">
+        <h3>Pro</h3>
+        <p>$29.99/mes</p>
+        <ul>
+          <li>Todo en Crecimiento</li>
+          <li>Descuentos más profundos</li>
+        </ul>
+        <button class="pay-btn">Pagar</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Membership Plans -->
-  <h3 style="margin-top: 2.5rem; font-size: 1.8rem; color: #c62828; text-align: center;">Membership — Start at $9.99/mo</h3>
-  <p style="text-align: center; font-size: 1.1rem;">Upgrade anytime. Cancel anytime.</p>
-
-  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 1.5rem;">
-    <div style="flex: 1; min-width: 280px; border: 2px solid #ddd; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-      <h4 style="font-size: 1.5rem;">Basic</h4>
-      <p style="font-size: 1.3rem;"><strong>$9.99/mo</strong></p>
-      <p>Member pricing on courses and books</p>
-      <button style="font-size: 1.4rem; padding: 1rem 2rem; background: #4CAF50; color: white; border: none; border-radius: 10px; cursor: pointer; width: 100%;">
-        Join
-      </button>
-    </div>
-
-    <div style="flex: 1; min-width: 280px; border: 2px solid #ddd; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-      <h4 style="font-size: 1.5rem;">Growth</h4>
-      <p style="font-size: 1.3rem;"><strong>$19.99/mo</strong></p>
-      <p>Everything in Basic + priority support</p>
-      <button style="font-size: 1.4rem; padding: 1rem 2rem; background: #ff9800; color: white; border: none; border-radius: 10px; cursor: pointer; width: 100%;">
-        Join
-      </button>
-    </div>
-
-    <div style="flex: 1; min-width: 280px; border: 2px solid #ddd; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-      <h4 style="font-size: 1.5rem;">Pro</h4>
-      <p style="font-size: 1.3rem;"><strong>$29.99/mo</strong></p>
-      <p>Everything in Growth + deeper discounts</p>
-      <button style="font-size: 1.4rem; padding: 1rem 2rem; background: #e91e63; color: white; border: none; border-radius: 10px; cursor: pointer; width: 100%;">
-        Join
-      </button>
-    </div>
-  </div>
-</section>
-
-<script>
-  function toggleLanguage() {
-    const en = document.getElementById("story-en");
-    const es = document.getElementById("story-es");
-    if (en.style.display === "none") {
-      en.style.display = "block";
-      es.style.display = "none";
-    } else {
-      en.style.display = "none";
-      es.style.display = "block";
+  <script>
+    function toggleLanguage() {
+      const en = document.getElementById('english');
+      const es = document.getElementById('spanish');
+      const btn = document.getElementById('langBtn');
+      if (en.style.display === "none") {
+        en.style.display = "block";
+        es.style.display = "none";
+        btn.textContent = "ES";
+      } else {
+        en.style.display = "none";
+        es.style.display = "block";
+        btn.textContent = "EN";
+      }
     }
-  }
-</script>
+  </script>
+</body>
+</html>
