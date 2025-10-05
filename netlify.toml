@@ -1,32 +1,18 @@
-# --- No build. Just publish static files from repo root ---
+# netlify.toml – static site, no build step
 [build]
-command = ""
-publish = "."
+  publish = "."
 
-# Force a static deploy (no serverless functions bundled)
-[functions]
-directory = "no_functions"   # points to a folder that does NOT exist
-
-# Redirect root to Our Story (EN) as the landing page
+# Optional redirects (example: /terms -> /terms-of-use.html)
 [[redirects]]
-from = "/"
-to = "/our-story.html"
-status = 200
-force = true
+  from = "/terms"
+  to = "/terms-of-use.html"
+  status = 301
+  force = true
 
-# Spanish toggle (keep your existing ES file names)
-[[redirects]]
-from = "/es"
-to = "/es-our-story.html"
-status = 200
-force = true
-
-# Security headers (optional but good)
+# Optional security headers
 [[headers]]
-for = "/*"
+  for = "/*"
   [headers.values]
-  X-Frame-Options = "DENY"
-  X-XSS-Protection = "1; mode=block"
-  X-Content-Type-Options = "nosniff"
-  Referrer-Policy = "strict-origin-when-cross-origin"
-  Content-Security-Policy = "default-src 'self' https: 'unsafe-inline' 'unsafe-eval' data:;"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
