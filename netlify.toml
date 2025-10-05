@@ -1,9 +1,9 @@
-# Netlify configuration for static HTML site
+# Serve a static site from the repo root. No build step.
 [build]
   publish = "."
   command = ""
 
-# Redirects for renamed pages
+# Redirects you wanted
 [[redirects]]
   from = "/privacy"
   to = "/global-privacy-policy.html"
@@ -12,13 +12,13 @@
 
 [[redirects]]
   from = "/terms"
-  to = "/terms-of-service.html"
+  to = "/terms-of-use.html"
   status = 301
   force = true
 
 [[redirects]]
   from = "/terms-international.html"
-  to = "/terms-of-service.html"
+  to = "/terms-of-use.html"
   status = 301
   force = true
 
