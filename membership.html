@@ -3,76 +3,110 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Membership — Edunancial</title>
-  <meta name="description" content="Join Edunancial: Starter $5/mo, Growth $15/mo, Pro $25/mo." />
-  <link rel="stylesheet" href="/style.css">
+  <title>Edunancial — Checkout</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .wrap{max-width:720px;margin:0 auto;padding:1.25rem}
+    .summary{border:1px solid #e5e5e5;border-radius:12px;padding:1rem;margin:1rem 0}
+    .row{display:flex;justify-content:space-between;gap:12px;margin:.35rem 0}
+    .total{font-size:1.35rem;font-weight:700}
+    .muted{color:#666}
+    .notice{background:#fff3cd;border:1px solid #ffeeba;border-radius:8px;padding:.6rem .8rem;margin:.75rem 0}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <a href="/" class="logo">Edunancial</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/our-story.html">Our Story</a>
-        <a href="/membership.html" aria-current="page">Membership</a>
-        <a href="/mini-courses.html">Courses</a>
-        <a href="/pamphlet.html">Books</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
   <main class="wrap">
-    <h1>Membership — Start for $5</h1>
-    <p>Become a member to access lessons, member pricing, discounts, and members-only materials. Upgrade anytime.</p>
+    <a href="/our-story.html" class="muted">← Back</a>
+    <h1>Checkout</h1>
 
-    <div class="grid-3">
-      <article class="tier">
-        <h2>Starter — $5/mo</h2>
-        <ul>
-          <li>Member pricing on courses and paperback books</li>
-          <li>Members-only downloads (worksheets, checklists)</li>
-          <li>Email preferences &amp; compliance (you choose what we send)</li>
-        </ul>
-        <p><a class="btn" href="/payments.html?plan=starter">Join Starter</a></p>
-      </article>
-
-      <article class="tier">
-        <h2>Growth — $15/mo</h2>
-        <ul>
-          <li>Everything in Starter</li>
-          <li>Priority email/chat support for account &amp; course access</li>
-          <li>Access to live <em>Business Formation</em> webinar sessions</li>
-        </ul>
-        <p><a class="btn" href="/payments.html?plan=growth">Join Growth</a></p>
-      </article>
-
-      <article class="tier">
-        <h2>Pro — $25/mo</h2>
-        <ul>
-          <li>Everything in Growth</li>
-          <li>Deeper member discounts on select programs</li>
-          <li>Early access to new courses and tools</li>
-        </ul>
-        <p><a class="btn" href="/payments.html?plan=pro">Join Pro</a></p>
-      </article>
+    <div id="paywall" class="notice" style="display:none">
+      <strong>Action needed:</strong> Add your PayPal <em>Live</em> Client ID into the script URL in this file
+      (look for <code>client-id=YOUR_PAYPAL_CLIENT_ID</code>). Then redeploy.
     </div>
 
-    <p class="small">Already a member? <a href="/membership-upgrade.html">Upgrade your membership</a> • <a href="/cart.html">View Cart</a></p>
+    <div class="summary">
+      <div class="row"><div>Plan</div><div id="planName">Basic</div></div>
+      <div class="row"><div>Billing</div><div>Monthly</div></div>
+      <div class="row total"><div>Total due today</div><div id="total">$9.99</div></div>
+      <div class="muted">You can cancel anytime in your account. No shipping or taxes.</div>
+    </div>
+
+    <!-- Where PayPal smart buttons render -->
+    <div id="paypal-buttons"></div>
+
+    <div id="result" class="notice" style="display:none"></div>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© 2025 Edunancial, Inc. • <a href="/terms-of-use.html">Terms of Use</a> • <a href="/global-privacy-policy.html">Privacy</a></p>
-    </div>
-  </footer>
+  <!-- Replace YOUR_PAYPAL_CLIENT_ID with your LIVE client ID (not sandbox) -->
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD&intent=capture"></script>
 
-  <style>
-    .wrap{max-width:1100px;margin:0 auto;padding:1rem}
-    .grid-3{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .tier{border:1px solid #eee;border-radius:10px;padding:1rem}
-    .btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;border:1px solid #c00;background:#c00;color:#fff;text-decoration:none}
-    .small{font-size:.9rem;color:#555}
-  </style>
+  <script>
+    // --- Read price/plan from URL (our links already include these) ---
+    const params = new URLSearchParams(location.search);
+    const plan  = (params.get('plan') || 'basic').toLowerCase();
+    // price from URL, else fallback to 9.99
+    const price = Number(params.get('price')) > 0 ? Number(params.get('price')) : 9.99;
+
+    document.getElementById('planName').textContent =
+      plan === 'growth' ? 'Growth' : plan === 'pro' ? 'Pro' : 'Basic';
+    document.getElementById('total').textContent = `$${price.toFixed(2)}`;
+
+    // Quick check so we don't confuse you if the client-id wasn't set
+    (function ensureClientId() {
+      const src = document.currentScript?.previousElementSibling?.src || '';
+      if (src.includes('YOUR_PAYPAL_CLIENT_ID')) {
+        document.getElementById('paywall').style.display = 'block';
+      }
+    })();
+
+    // --- PayPal Smart Buttons ---
+    if (window.paypal) {
+      paypal.Buttons({
+        style: { layout: 'vertical', shape: 'rect', label: 'paypal' },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            intent: 'CAPTURE',
+            purchase_units: [{
+              description: `Edunancial ${plan.charAt(0).toUpperCase() + plan.slice(1)} (Monthly)`,
+              amount: { currency_code: 'USD', value: price.toFixed(2) }
+            }],
+            application_context: {
+              brand_name: "Edunancial",
+              shipping_preference: "NO_SHIPPING",
+              user_action: "PAY_NOW",
+              return_url: location.origin + "/thank-you.html",
+              cancel_url: location.href
+            }
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            const name = details.payer?.name?.given_name || 'Member';
+            const id   = details.id;
+            const el   = document.getElementById('result');
+            el.innerHTML = `<strong>Thank you, ${name}!</strong> Your payment (Order <code>${id}</code>) was captured successfully.`;
+            el.style.display = 'block';
+            // Optionally redirect to your thank-you page:
+            setTimeout(() => location.href = "/thank-you.html?plan=" + plan + "&price=" + price.toFixed(2), 1000);
+          });
+        },
+
+        onCancel: function () {
+          const el = document.getElementById('result');
+          el.innerHTML = "Checkout was canceled. You can try again.";
+          el.style.display = 'block';
+        },
+
+        onError: function (err) {
+          const el = document.getElementById('result');
+          el.innerHTML = "We couldn't complete the payment. Please try again or use a different method.";
+          el.style.display = 'block';
+          console.error(err);
+        }
+      }).render('#paypal-buttons');
+    }
+  </script>
 </body>
 </html>
