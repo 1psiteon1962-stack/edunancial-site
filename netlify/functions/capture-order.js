@@ -1,33 +1,56 @@
-const fetch = require('node-fetch');
-
-const API = 'https://api-m.paypal.com'; // use 'https://api-m.sandbox.paypal.com' for sandbox
-
+// Capture a PayPal Order (CommonJS, native fetch)
 exports.handler = async (event) => {
-  const token = (event.queryStringParameters||{}).token;
-  if(!token) return { statusCode:400, body:'Missing order token' };
+  try {
+    if (event.httpMethod !== 'POST') {
+      return { statusCode: 405, body: 'Method Not Allowed' };
+    }
 
-  try{
-    const id = process.env.PAYPAL_CLIENT_ID;
-    const sec = process.env.PAYPAL_SECRET;
-    const tokRes = await fetch(`${API}/v1/oauth2/token`, {
-      method:'POST',
-      headers:{ 'Authorization':'Basic '+Buffer.from(id+':'+sec).toString('base64'), 'Content-Type':'application/x-www-form-urlencoded' },
-      body:'grant_type=client_credentials'
+    const { orderID } = JSON.parse(event.body || '{}');
+    if (!orderID) return { statusCode: 400, body: 'Missing orderID' };
+
+    const base = process.env.PAYPAL_ENV === 'live'
+      ? 'https://api-m.paypal.com'
+      : 'https://api-m.sandbox.paypal.com';
+
+    const token = await getAccessToken(base);
+
+    const capRes = await fetch(`${base}/v2/checkout/orders/${orderID}/capture`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      }
     });
-    const tok=await tokRes.json();
 
-    const capRes = await fetch(`${API}/v2/checkout/orders/${token}/capture`, {
-      method:'POST',
-      headers:{ 'Authorization':'Bearer '+tok.access_token, 'Content-Type':'application/json' }
-    });
-    const data=await capRes.json();
+    const json = await capRes.json().catch(() => ({}));
+    if (!capRes.ok) {
+      console.error('capture-order failed:', json);
+      return { statusCode: 502, body: JSON.stringify(json) };
+    }
 
-    return {
-      statusCode: 302,
-      headers: { Location: '/thank-you.html' },
-      body: ''
-    };
-  }catch(e){
-    return { statusCode:500, body:'Capture failed: '+e.message };
+    return { statusCode: 200, body: JSON.stringify(json) };
+  } catch (err) {
+    console.error('capture-order error:', err);
+    return { statusCode: 500, body: 'Server Error' };
   }
 };
+
+// Helper
+async function getAccessToken(base) {
+  const id = process.env.PAYPAL_CLIENT_ID;
+  const secret = process.env.PAYPAL_CLIENT_SECRET;
+  const auth = Buffer.from(`${id}:${secret}`).toString('base64');
+
+  const res = await fetch(`${base}/v1/oauth2/token`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Authorization': `Basic ${auth}`
+    },
+    body: 'grant_type=client_credentials'
+  });
+
+  const json = await res.json();
+  if (!res.ok) throw new Error(`OAuth failed: ${JSON.stringify(json)}`);
+  return json.access_token;
+}
