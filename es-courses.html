@@ -1,34 +1,15 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cursos — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-<div class="container">
-  <h1>Cursos</h1>
-  <section class="card" id="list"></section>
-</div>
-
-<script src="/header.js?v=7" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded', async ()=>{
-  const cfg=await (await fetch('/config.json?ts='+Date.now())).json();
-  const SKUS=['EDN-CRS-MIX-001','EDN-CRS-BUS-001','EDN-CRS-RE-001','EDN-CRS-STK-001'];
-  const el=document.getElementById('list'); el.innerHTML='';
-  SKUS.forEach(sku=>{
-    const p=cfg.products[sku];
-    const badge=(sku.includes('-RE-')?'<span class="badge">Rojo</span>': sku.includes('-PA-')?'<span class="badge">Blanco</span>':'<span class="badge">Azul</span>');
-    const div=document.createElement('div'); div.className='product';
-    div.innerHTML=`<div><h3>${p.name} ${badge}</h3><div class="small">SKU: ${sku}</div></div>
-      <div><div class="small">$${(+p.price).toFixed(2)}</div><button class="btn" data-sku="${sku}">Agregar</button></div>`;
-    el.appendChild(div);
-  });
-  el.addEventListener('click',e=>{
-    const b=e.target.closest('button[data-sku]'); if(!b) return; window.EDN.addToCart(b.dataset.sku);
-  });
-});
-</script>
-</body>
-</html>
+<section id="our-story-es" style="padding: 2rem; font-family: Arial, sans-serif; max-width: 900px; margin: auto;">
+  <h2>Nuestra Historia</h2>
+  <p>
+    Una tarde, cuando mi hijo tenía 11 años, entró justo en el momento en que llegó un depósito en línea. 
+    Sus ojos se abrieron de par en par: “¿Cómo ganaste dinero así?” Le respondí: “Usando mi cabeza.” 
+    Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: 
+    “Sí, pero no sé cómo.” Fue entonces cuando nació <strong>Edunancial</strong>.
+  </p>
+  <p>
+    Hoy analiza, compra y vende acciones, entiende los fundamentos de los bienes raíces 
+    y está construyendo un pequeño negocio. Nuestras lecciones cubren 
+    <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y 
+    <strong>Negocios</strong> (Azul): las bases del crecimiento de por vida.
+  </p>
+</section>
