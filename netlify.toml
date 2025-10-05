@@ -1,29 +1,32 @@
-# --- Netlify config (static site, no build) ---
+# --- No build. Just publish static files from repo root ---
 [build]
-  publish = "."
-  command = ""
+command = ""
+publish = "."
 
-# Land on Our Story
-[[redirects]]
-  from = "/"
-  to = "/our-story.html"
-  status = 200
+# Force a static deploy (no serverless functions bundled)
+[functions]
+directory = "no_functions"   # points to a folder that does NOT exist
 
-# Short path for Spanish landing
+# Redirect root to Our Story (EN) as the landing page
 [[redirects]]
-  from = "/es"
-  to = "/es-our-story.html"
-  status = 200
+from = "/"
+to = "/our-story.html"
+status = 200
+force = true
 
-# Keep your legal redirects
+# Spanish toggle (keep your existing ES file names)
 [[redirects]]
-  from = "/privacy"
-  to = "/global-privacy-policy.html"
-  status = 301
-  force = true
+from = "/es"
+to = "/es-our-story.html"
+status = 200
+force = true
 
-[[redirects]]
-  from = "/terms"
-  to = "/terms-of-use.html"
-  status = 301
-  force = true
+# Security headers (optional but good)
+[[headers]]
+for = "/*"
+  [headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  Content-Security-Policy = "default-src 'self' https: 'unsafe-inline' 'unsafe-eval' data:;"
