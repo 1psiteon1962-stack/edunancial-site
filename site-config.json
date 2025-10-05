@@ -1,5 +1,12 @@
-{
-  "admin": { "code": "edunancial2025" },
-  "discount": { "code": "PR12345$$", "testTotal": 3.00 },
-  "paypal": { "clientId": "YOUR_LIVE_PAYPAL_CLIENT_ID" }
-}
+// config-loader.js
+(async () => {
+  try {
+    const res = await fetch('/site-config.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('Failed to load site-config.json');
+    const cfg = await res.json();
+    window.EDUNANCIAL_CONFIG = cfg;
+    document.dispatchEvent(new CustomEvent('edunancial:config', { detail: cfg }));
+  } catch (e) {
+    console.error('Config load error:', e);
+  }
+})();
