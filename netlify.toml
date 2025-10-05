@@ -1,9 +1,10 @@
-# Serve a static site from the repo root. No build step.
+# Netlify config for Edunancial — static HTML site, no build
+
 [build]
   publish = "."
   command = ""
 
-# Redirects you wanted
+# Redirects to keep page URLs consistent
 [[redirects]]
   from = "/privacy"
   to = "/global-privacy-policy.html"
@@ -12,15 +13,21 @@
 
 [[redirects]]
   from = "/terms"
-  to = "/terms-of-use.html"
+  to = "/terms-of-service.html"
   status = 301
   force = true
 
 [[redirects]]
   from = "/terms-international.html"
-  to = "/terms-of-use.html"
+  to = "/terms-of-service.html"
   status = 301
   force = true
+
+# Fallback to index.html for routing (avoids 404)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 # Security headers
 [[headers]]
@@ -30,4 +37,4 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin"
-    Content-Security-Policy = "default-src 'self'"
+    Content-Security-Policy = "default-src 'self'; img-src * data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
