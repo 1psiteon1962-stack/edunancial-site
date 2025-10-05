@@ -1,34 +1,10 @@
+# netlify.toml
 [build]
-  publish = "dist"
-  command = "npm run build"
+  # No build command – prevents Hugo/Node/etc.
+  command = ""
+  # Root folder where your site’s static files live
+  publish = "public"
 
-[dev]
-  command = "npm run dev"
-  port = 8888
-
-[[redirects]]
-  from = "/terms-international.html"
-  to = "/terms-of-use.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/privacy"
-  to = "/global-privacy-policy.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/terms"
-  to = "/terms-of-use.html"
-  status = 301
-  force = true
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'"
+# Optional: disable functions since you don’t use them
+[functions]
+  directory = "disabled"
