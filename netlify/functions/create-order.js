@@ -1,67 +1,81 @@
-const fetch = require('node-fetch');
-
-const API = 'https://api-m.paypal.com'; // use 'https://api-m.sandbox.paypal.com' for sandbox
-
+// Create a PayPal Order with multiple line items (CommonJS, native fetch)
 exports.handler = async (event) => {
   try {
-    const { cart = [], applied = null } = JSON.parse(event.body || '{}');
-
-    // compute totals
-    const items = cart.map(it => ({
-      name: it.title,
-      unit_amount: { currency_code: 'USD', value: (+it.price).toFixed(2) },
-      quantity: String(it.qty || 1),
-      sku: it.sku
-    }));
-    let subtotal = items.reduce((s,i)=> s + (parseFloat(i.unit_amount.value) * parseInt(i.quantity)), 0);
-    let discount = 0;
-    let force1   = false;
-    if (applied) {
-      if (applied.type === 'percent') discount = subtotal * (applied.value/100);
-      if (applied.type === 'flat' && applied.value === 'force-1') force1 = true;
-      if (applied.type === 'flat' && typeof applied.value === 'number') discount = applied.value;
+    if (event.httpMethod !== 'POST') {
+      return { statusCode: 405, body: 'Method Not Allowed' };
     }
-    const total = force1 ? items.reduce((s,i)=> s + (1 * parseInt(i.quantity)), 0) : (subtotal - discount);
 
-    // auth
-    const id = process.env.PAYPAL_CLIENT_ID;
-    const sec = process.env.PAYPAL_SECRET;
-    if(!id || !sec) return { statusCode: 500, body: JSON.stringify({ error: 'Missing PayPal env vars' })};
+    const body = JSON.parse(event.body || '{}');
+    const items = Array.isArray(body.items) ? body.items : [];
 
-    const tokRes = await fetch(`${API}/v1/oauth2/token`, {
-      method:'POST',
-      headers:{ 'Authorization':'Basic '+Buffer.from(id+':'+sec).toString('base64'), 'Content-Type':'application/x-www-form-urlencoded' },
-      body:'grant_type=client_credentials'
+    const base = process.env.PAYPAL_ENV === 'live'
+      ? 'https://api-m.paypal.com'
+      : 'https://api-m.sandbox.paypal.com';
+
+    const token = await getAccessToken(base);
+
+    // Build purchase unit
+    let total = 0;
+    const paypalItems = items.map(i => {
+      const qty = Number(i.quantity || 1);
+      const price = Number(i.unit_amount || 0);
+      total += qty * price;
+      return {
+        name: String(i.name || 'Item'),
+        quantity: String(qty),
+        unit_amount: { currency_code: 'USD', value: price.toFixed(2) }
+      };
     });
-    const tok = await tokRes.json(); if(!tok.access_token) return { statusCode: 500, body: JSON.stringify({ error:'token failed', raw: tok })};
 
-    const orderRes = await fetch(`${API}/v2/checkout/orders`, {
-      method:'POST',
-      headers:{ 'Authorization':'Bearer '+tok.access_token, 'Content-Type':'application/json' },
+    const orderRes = await fetch(`${base}/v2/checkout/orders`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
       body: JSON.stringify({
-        intent:'CAPTURE',
-        purchase_units:[{
-          amount:{
-            currency_code:'USD',
+        intent: 'CAPTURE',
+        purchase_units: [{
+          amount: {
+            currency_code: 'USD',
             value: total.toFixed(2),
-            breakdown: {
-              item_total: { currency_code:'USD', value: subtotal.toFixed(2) },
-              discount:   { currency_code:'USD', value: (force1 ? (subtotal - total).toFixed(2) : discount.toFixed(2)) }
-            }
+            breakdown: { item_total: { currency_code: 'USD', value: total.toFixed(2) } }
           },
-          items
-        }],
-        application_context:{
-          brand_name:'Edunancial',
-          return_url: `${process.env.URL || 'https://edunancial.com'}/.netlify/functions/capture-order`,
-          cancel_url: `${process.env.URL || 'https://edunancial.com'}/cart.html`
-        }
+          items: paypalItems
+        }]
       })
     });
-    const orderJson = await orderRes.json();
-    const approve = (orderJson.links||[]).find(l=>l.rel==='approve');
-    return { statusCode: 200, body: JSON.stringify({ approvalUrl: approve?.href || null, orderId: orderJson.id }) };
-  } catch (e) {
-    return { statusCode: 500, body: JSON.stringify({ error: e.message })};
+
+    if (!orderRes.ok) {
+      const text = await orderRes.text();
+      console.error('create-order failed:', text);
+      return { statusCode: 502, body: text };
+    }
+
+    const json = await orderRes.json();
+    return { statusCode: 200, body: JSON.stringify(json) };
+  } catch (err) {
+    console.error('create-order error:', err);
+    return { statusCode: 500, body: 'Server Error' };
   }
 };
+
+// Helpers
+async function getAccessToken(base) {
+  const id = process.env.PAYPAL_CLIENT_ID;
+  const secret = process.env.PAYPAL_CLIENT_SECRET;
+  const auth = Buffer.from(`${id}:${secret}`).toString('base64');
+
+  const res = await fetch(`${base}/v1/oauth2/token`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Authorization': `Basic ${auth}`
+    },
+    body: 'grant_type=client_credentials'
+  });
+
+  const json = await res.json();
+  if (!res.ok) throw new Error(`OAuth failed: ${JSON.stringify(json)}`);
+  return json.access_token;
+}
