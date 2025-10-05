@@ -1,17 +1,10 @@
-// Netlify Function: PayPal Webhook verifier (CommonJS)
-// REQUIRED Netlify Environment Variables (Site settings → Environment):
-//   - PAYPAL_ENV: "sandbox" or "live"
-//   - PAYPAL_WEBHOOK_ID: your webhook ID from the PayPal Developer Dashboard
-
-const fetch = require('node-fetch');
-
+// PayPal Webhook verifier (CommonJS, Node 18+ built-in fetch)
 exports.handler = async (event) => {
   try {
     if (event.httpMethod !== 'POST') {
       return { statusCode: 405, body: 'Method Not Allowed' };
     }
 
-    // Headers PayPal sends for verification
     const transmissionId   = event.headers['paypal-transmission-id'];
     const transmissionSig  = event.headers['paypal-transmission-sig'];
     const transmissionTime = event.headers['paypal-transmission-time'];
@@ -20,24 +13,14 @@ exports.handler = async (event) => {
     const webhookEvent     = JSON.parse(event.body || '{}');
     const webhookId        = process.env.PAYPAL_WEBHOOK_ID;
 
-    // Basic safety check
-    if (
-      !webhookId ||
-      !transmissionId ||
-      !transmissionSig ||
-      !transmissionTime ||
-      !certUrl ||
-      !authAlgo
-    ) {
+    if (!webhookId || !transmissionId || !transmissionSig || !transmissionTime || !certUrl || !authAlgo) {
       return { statusCode: 400, body: 'Bad Request' };
     }
 
-    const base =
-      process.env.PAYPAL_ENV === 'live'
-        ? 'https://api-m.paypal.com'
-        : 'https://api-m.sandbox.paypal.com';
+    const base = process.env.PAYPAL_ENV === 'live'
+      ? 'https://api-m.paypal.com'
+      : 'https://api-m.sandbox.paypal.com';
 
-    // Verify signature with PayPal
     const verifyRes = await fetch(`${base}/v1/notifications/verify-webhook-signature`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -53,17 +36,12 @@ exports.handler = async (event) => {
     });
 
     const verifyJson = await verifyRes.json().catch(() => ({}));
-    const verified = verifyJson && verifyJson.verification_status === 'SUCCESS';
-
-    if (!verified) {
+    if (!verifyJson || verifyJson.verification_status !== 'SUCCESS') {
       console.log('Verification failed:', verifyJson);
       return { statusCode: 400, body: 'Verification failed' };
     }
 
-    // ---- Handle verified events here (grant access, email, etc.) ----
-    // Example:
-    // if (webhookEvent.event_type === 'PAYMENT.CAPTURE.COMPLETED') { ... }
-
+    // TODO: handle webhookEvent.event_type and webhookEvent.resource if needed
     return { statusCode: 200, body: 'OK' };
   } catch (err) {
     console.error('Webhook error:', err);
