@@ -1,3 +1,3 @@
-export async function handler() {
+exports.handler = async () => {
   return { statusCode: 200, body: 'ok' };
-}
+};
