@@ -1,423 +1,316 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Our Story & Memberships</title>
-  <meta name="description" content="Edunancial teaches simple lessons in Real Estate, Paper Assets, and Business with affordable memberships." />
-  <style>
-    :root{
-      --brand:#d32f2f;
-      --ink:#111;
-      --ink-2:#444;
-      --bg:#fff;
-      --card:#fafafa;
-      --accent:#0d6efd;
-      --ok:#16a34a;
-      --muted:#777;
-      --radius:16px;
-    }
-    html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;line-height:1.5}
-    .wrap{max-width:1100px;margin:0 auto;padding:20px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0}
-    .brand{font-weight:800;font-size:24px;letter-spacing:.2px}
-    .lang-toggle{
-      display:inline-flex;align-items:center;gap:10px;
-      border:2px solid var(--ink);border-radius:999px;padding:10px 16px;
-      font-weight:700;cursor:pointer;background:#fff;user-select:none
-    }
-    .lang-toggle button{
-      appearance:none;border:0;background:transparent;font:inherit;cursor:pointer;font-weight:800
-    }
-    .pill{display:inline-block;background:var(--brand);color:#fff;font-weight:800;border-radius:999px;padding:4px 10px;font-size:12px;margin-left:8px}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Edunancial — Our Story & Memberships</title>
+<meta name="description" content="Edunancial teaches simple lessons in Real Estate, Paper Assets, and Business with affordable memberships." />
+<link rel="preconnect" href="https://www.paypal.com" />
+<style>
+  :root{--brand:#c62828;--ink:#121212;--muted:#6b7280;--card:#fff;--bg:#fafafa;--radius:18px}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:1060px;margin:0 auto;padding:22px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:4px 0 18px}
+  .brand{font-weight:900;font-size:24px;letter-spacing:.2px}
+  .lang-toggle{display:flex;gap:8px;align-items:center}
+  .pill{display:inline-flex;align-items:center;justify-content:center;min-width:48px;height:48px;padding:0 14px;
+    border-radius:999px;background:#fff;border:2px solid #ddd;font-weight:800;font-size:16px;cursor:pointer;
+    box-shadow:0 1px 2px rgba(0,0,0,.06);user-select:none}
+  .pill.active{border-color:var(--brand);color:var(--brand)}
+  h1{font-size:38px;margin:10px 0 8px}
+  h2{font-size:26px;margin:20px 0 8px}
+  p{margin:10px 0;font-size:18px}
+  .muted{color:var(--muted)}
+  .lead{font-size:20px}
+  .plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:14px}
+  @media (max-width:900px){.plans{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid #ececec;border-radius:var(--radius);padding:18px;box-shadow:0 8px 18px rgba(0,0,0,.05)}
+  .card h3{margin:2px 0 6px;font-size:22px}
+  .price{font-size:32px;font-weight:900;margin:4px 0}
+  .per{font-size:15px;color:var(--muted);font-weight:600}
+  ul{padding-left:22px;margin:10px 0}
+  li{margin:7px 0}
+  .paypal-box{border-radius:14px;background:#f6f7f9;padding:12px;border:1px dashed #d1d5db}
+  .promo{margin:14px 0 0;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .promo input{flex:1 1 220px;height:48px;border-radius:12px;border:2px solid #ddd;padding:0 12px;font-size:16px}
+  .promo button{height:48px;border-radius:12px;background:var(--brand);color:#fff;font-weight:900;padding:0 18px;border:0;cursor:pointer;font-size:16px}
+  .note{font-size:13px;color:var(--muted);margin-top:8px}
+  .badge{display:inline-block;background:#fdecec;color:#9b1c1c;border:1px solid #f6caca;border-radius:999px;padding:6px 10px;font-weight:800;font-size:12px;margin-left:8px}
 
-    h1{font-size:40px;margin:10px 0 8px}
-    p{margin:10px 0;color:var(--ink-2);font-size:18px}
-    .lead{font-size:20px;color:var(--ink)}
-    .muted{color:var(--muted)}
+  .shop{margin-top:34px}
+  .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  @media (max-width:900px){.grid2{grid-template-columns:1fr}}
+  .item{border:1px solid #ececec;border-radius:16px;background:#fff;padding:16px}
+  .item h4{margin:0 0 6px}
+  footer{margin:44px 0 18px;text-align:center;color:var(--muted);font-size:14px}
+  .lang{display:none}
+  .lang.active{display:block}
+</style>
 
-    /* Membership grid */
-    .pricing{margin-top:28px}
-    .pricing h2{font-size:26px}
-    .cards{display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:14px}
-    .card{
-      background:var(--card);border:1px solid #e8e8e8;border-radius:var(--radius);
-      padding:18px 18px 22px;display:flex;flex-direction:column;min-height:100%
-    }
-    .card h3{font-size:24px;margin:4px 0 6px}
-    .price{font-size:34px;font-weight:900;margin:4px 0}
-    .per{font-size:16px;color:var(--muted);font-weight:600}
-    ul{padding-left:22px;margin:10px 0}
-    li{margin:8px 0}
-    .big-btn{
-      margin-top:auto;display:block;width:100%;
-      font-size:20px;font-weight:900;letter-spacing:.2px;
-      padding:14px 16px;border-radius:12px;border:0;cursor:pointer;color:#fff;background:var(--accent)
-    }
-    .big-btn.secondary{background:var(--ok)}
-    .coupon{
-      display:flex;gap:8px;margin-top:10px
-    }
-    .coupon input{
-      flex:1;padding:12px 14px;border-radius:10px;border:1px solid #ccc;font-size:16px
-    }
-    .coupon button{padding:12px 14px;border-radius:10px;border:0;background:#222;color:#fff;font-weight:800;cursor:pointer}
-
-    /* One-time items block (books/courses/products) */
-    .shop{margin-top:40px}
-    .grid-2{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
-    .item{border:1px solid #eee;border-radius:14px;padding:16px}
-    .item h4{margin:0 0 6px}
-    .item .buy{margin-top:10px}
-
-    footer{margin:50px 0 20px;color:var(--muted);font-size:14px;text-align:center}
-
-    /* Mobile */
-    @media (max-width:900px){
-      h1{font-size:32px}
-      .cards{grid-template-columns:1fr}
-      .grid-2{grid-template-columns:1fr}
-      .lang-toggle{padding:12px 16px}
-    }
-
-    /* show/hide languages */
-    .lang{display:none}
-    .lang.active{display:block}
-  </style>
-
-  <!-- PayPal SDK: subscriptions + one-time buttons -->
-  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&vault=true&intent=subscription&currency=USD"></script>
+<!-- PayPal SDK (LIVE) -->
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&vault=true&intent=subscription&currency=USD"></script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="brand">Edunancial <span class="pill">Learn & Build</span></div>
-      <div class="lang-toggle" id="langToggle" aria-label="Language Toggle">
-        <span id="langLabel">English</span>
-        <button type="button" id="btnEN" aria-pressed="true">EN</button>
-        <span>•</span>
-        <button type="button" id="btnES" aria-pressed="false">ES</button>
+<div class="wrap">
+  <header>
+    <div class="brand">Edunancial</div>
+    <div class="lang-toggle" aria-label="Language toggle">
+      <button class="pill active" id="btn-en" title="English">EN</button>
+      <button class="pill" id="btn-es" title="Español">ES</button>
+    </div>
+  </header>
+
+  <!-- ENGLISH (FULL VERSION ONLY) -->
+  <main class="lang active" id="lang-en">
+    <h1>Our Story</h1>
+    <p class="lead">One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.”</p>
+    <p>Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
+    <p>Today he analyzes, buys, and sells stocks; understands the foundations of real estate; and is building a small business. Our lessons cover <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and <strong>Business</strong> (Blue)—the foundations of lifetime growth.</p>
+
+    <h2>Membership — Start at <span style="color:var(--brand)">$9.99</span><span class="per">/mo</span></h2>
+    <p class="muted">Upgrade anytime. Cancel anytime.</p>
+
+    <div class="promo">
+      <input id="coupon-en" placeholder="Have a coupon? Try EDU5 for $5 Basic" />
+      <button id="apply-en">Apply</button>
+      <span id="coupon-status-en" class="note"></span>
+    </div>
+
+    <section class="plans">
+      <article class="card">
+        <h3>Basic</h3>
+        <div class="price">$9.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Member pricing on courses & paperback books</li>
+          <li>Members-only downloads</li>
+          <li>Email preferences & compliance</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-basic-en"></div></div>
+        <div class="note">PayPal subscription.</div>
+      </article>
+
+      <article class="card">
+        <h3>Growth <span class="badge">Popular</span></h3>
+        <div class="price">$19.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority email/chat support</li>
+          <li>Access to live sessions</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-growth-en"></div></div>
+        <div class="note">PayPal subscription.</div>
+      </article>
+
+      <article class="card">
+        <h3>Pro</h3>
+        <div class="price">$29.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts</li>
+          <li>Early access to new material</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-pro-en"></div></div>
+        <div class="note">PayPal subscription.</div>
+      </article>
+    </section>
+
+    <section class="shop">
+      <h2>Books & Courses (One-time)</h2>
+      <p class="muted">Processed by PayPal as single purchases (not subscriptions).</p>
+      <div class="grid2">
+        <div class="item">
+          <h4>Workbook: Foundations</h4>
+          <p class="muted">$19.00 • PDF download</p>
+          <div id="btn-onetime-1-en"></div>
+        </div>
+        <div class="item">
+          <h4>Mini-Course: Getting Started</h4>
+          <p class="muted">$39.00 • Self-paced video</p>
+          <div id="btn-onetime-2-en"></div>
+        </div>
       </div>
-    </header>
+    </section>
+  </main>
 
-    <!-- ENGLISH -->
-    <main class="lang active" id="langEN">
-      <h1>Our Story</h1>
-      <p class="lead">
-        One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:
-        “How did you make money like that?” I said, “By using my head.”
-      </p>
-      <p>
-        Then I asked, “Do you want to work with your head?” He said,
-        “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong>
-      </p>
-      <p>
-        Today he analyzes, buys, and sells stocks; understands the foundations of real estate; and is building a small
-        business. Our lessons cover <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and
-        <strong>Business</strong> (Blue)—the foundations of lifetime growth.
-      </p>
+  <!-- SPANISH (FULL VERSION ONLY) -->
+  <main class="lang" id="lang-es">
+    <h1>Nuestra Historia</h1>
+    <p class="lead">Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le respondí: “Usando la cabeza”.</p>
+    <p>Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
+    <p>Hoy él analiza, compra y vende acciones; comprende las bases de los bienes raíces; y está construyendo un pequeño negocio. Nuestras lecciones cubren <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y <strong>Negocios</strong> (Azul): los fundamentos del crecimiento de por vida.</p>
 
-      <section class="pricing">
-        <h2><strong>Membership — Start at $9.99</strong><span class="per">/mo</span></h2>
-        <p class="muted">Upgrade anytime. Cancel anytime.</p>
+    <h2>Membresía — Desde <span style="color:var(--brand)">$9.99</span><span class="per">/mes</span></h2>
+    <p class="muted">Mejora cuando quieras. Cancela cuando quieras.</p>
 
-        <div class="cards">
-          <!-- BASIC -->
-          <article class="card" id="card-basic">
-            <h3>Basic</h3>
-            <div class="price">$9.99<span class="per">/mo</span></div>
-            <ul>
-              <li>Member pricing on courses & paperback books</li>
-              <li>Members-only downloads (worksheets & checklists)</li>
-              <li>Email preferences & compliance (you choose what we send)</li>
-            </ul>
+    <div class="promo">
+      <input id="coupon-es" placeholder="¿Cupón? Prueba EDU5 para Básica a $5" />
+      <button id="apply-es">Aplicar</button>
+      <span id="coupon-status-es" class="note"></span>
+    </div>
 
-            <!-- Coupon input for $5 discounted plan -->
-            <div class="coupon">
-              <input id="couponBasic" placeholder="Have a coupon? e.g. EDU5" inputmode="text" />
-              <button type="button" onclick="applyBasicCoupon()">Apply</button>
-            </div>
+    <section class="plans">
+      <article class="card">
+        <h3>Básica</h3>
+        <div class="price">$9.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Precios de miembro en cursos y libros</li>
+          <li>Descargas solo para miembros</li>
+          <li>Preferencias de correo y cumplimiento</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-basic-es"></div></div>
+        <div class="note">Suscripción de PayPal.</div>
+      </article>
 
-            <div id="paypal-basic" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-basic-fallback" style="display:none">Subscribe</button>
-          </article>
+      <article class="card">
+        <h3>Crecimiento <span class="badge">Popular</span></h3>
+        <div class="price">$19.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Todo en Básica</li>
+          <li>Soporte prioritario por email/chat</li>
+          <li>Acceso a sesiones en vivo</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-growth-es"></div></div>
+        <div class="note">Suscripción de PayPal.</div>
+      </article>
 
-          <!-- GROWTH -->
-          <article class="card">
-            <h3>Growth</h3>
-            <div class="price">$19.99<span class="per">/mo</span></div>
-            <ul>
-              <li>Everything in Basic</li>
-              <li>Priority email/chat support for account & course access</li>
-              <li>Access to live <em>Business Formation</em> webinar sessions</li>
-            </ul>
-            <div id="paypal-growth" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-growth-fallback" style="display:none">Subscribe</button>
-          </article>
+      <article class="card">
+        <h3>Pro</h3>
+        <div class="price">$29.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Todo en Crecimiento</li>
+          <li>Descuentos más profundos</li>
+          <li>Acceso anticipado a nuevo material</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-pro-es"></div></div>
+        <div class="note">Suscripción de PayPal.</div>
+      </article>
+    </section>
 
-          <!-- PRO -->
-          <article class="card">
-            <h3>Pro</h3>
-            <div class="price">$29.99<span class="per">/mo</span></div>
-            <ul>
-              <li>Everything in Growth</li>
-              <li>Deeper member discounts on select programs</li>
-              <li>Occasional 1:1 office hours (limited slots)</li>
-            </ul>
-            <div id="paypal-pro" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-pro-fallback" style="display:none">Subscribe</button>
-          </article>
+    <section class="shop">
+      <h2>Libros y Cursos (Pago único)</h2>
+      <p class="muted">Procesados por PayPal como compras únicas (no suscripciones).</p>
+      <div class="grid2">
+        <div class="item">
+          <h4>Cuaderno: Fundamentos</h4>
+          <p class="muted">$19.00 • PDF</p>
+          <div id="btn-onetime-1-es"></div>
         </div>
-      </section>
-
-      <!-- ONE-TIME ITEMS (Example: Books / Courses / Products) -->
-      <section class="shop">
-        <h2>Books & Courses (One-time)</h2>
-        <p class="muted">These are single purchases processed by PayPal (not subscriptions).</p>
-
-        <div class="grid-2">
-          <div class="item">
-            <h4>Workbook: Foundations</h4>
-            <p class="muted">$19.00 • PDF download</p>
-            <div id="btn-onetime-1" class="buy"></div>
-          </div>
-          <div class="item">
-            <h4>Mini-Course: Getting Started</h4>
-            <p class="muted">$39.00 • Self-paced video</p>
-            <div id="btn-onetime-2" class="buy"></div>
-          </div>
+        <div class="item">
+          <h4>Mini-curso: Comenzando</h4>
+          <p class="muted">$39.00 • Video</p>
+          <div id="btn-onetime-2-es"></div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <!-- ESPAÑOL -->
-    <main class="lang" id="langES">
-      <h1>Nuestra Historia</h1>
-      <p class="lead">
-        Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Sus ojos se abrieron:
-        “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”.
-      </p>
-      <p>
-        Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él respondió:
-        “Sí… pero no sé cómo.” <strong>Ahí nació Edunancial.</strong>
-      </p>
-      <p>
-        Hoy él analiza, compra y vende acciones; comprende las bases de los bienes raíces; y está construyendo un
-        pequeño negocio. Nuestras lecciones cubren <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y
-        <strong>Negocios</strong> (Azul): los fundamentos del crecimiento de por vida.
-      </p>
-
-      <section class="pricing">
-        <h2><strong>Membresía — Desde $9.99</strong><span class="per">/mes</span></h2>
-        <p class="muted">Mejora cuando quieras. Cancela cuando quieras.</p>
-
-        <div class="cards">
-          <!-- BASIC ES -->
-          <article class="card">
-            <h3>Básica</h3>
-            <div class="price">$9.99<span class="per">/mes</span></div>
-            <ul>
-              <li>Precios de miembro en cursos y libros</li>
-              <li>Descargas solo para miembros (hojas de trabajo y listas)</li>
-              <li>Preferencias de correo y cumplimiento</li>
-            </ul>
-            <div class="coupon">
-              <input placeholder="¿Cupón? p. ej., EDU5" id="couponBasicES" />
-              <button type="button" onclick="applyBasicCoupon(true)">Aplicar</button>
-            </div>
-
-            <div id="paypal-basic-es" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-basic-es-fallback" style="display:none">Suscribirse</button>
-          </article>
-
-          <!-- GROWTH ES -->
-          <article class="card">
-            <h3>Crecimiento</h3>
-            <div class="price">$19.99<span class="per">/mes</span></div>
-            <ul>
-              <li>Todo en Básica</li>
-              <li>Soporte prioritario por email/chat</li>
-              <li>Acceso a sesiones en vivo de <em>Formación de Negocios</em></li>
-            </ul>
-            <div id="paypal-growth-es" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-growth-es-fallback" style="display:none">Suscribirse</button>
-          </article>
-
-          <!-- PRO ES -->
-          <article class="card">
-            <h3>Pro</h3>
-            <div class="price">$29.99<span class="per">/mes</span></div>
-            <ul>
-              <li>Todo en Crecimiento</li>
-              <li>Descuentos mayores en programas selectos</li>
-              <li>Horas de oficina 1:1 ocasionales (cupos limitados)</li>
-            </ul>
-            <div id="paypal-pro-es" style="margin-top:14px"></div>
-            <button class="big-btn" id="btn-pro-es-fallback" style="display:none">Suscribirse</button>
-          </article>
-        </div>
-      </section>
-
-      <section class="shop">
-        <h2>Libros y Cursos (Pago único)</h2>
-        <p class="muted">Compras únicas procesadas por PayPal (no suscripción).</p>
-
-        <div class="grid-2">
-          <div class="item">
-            <h4>Cuaderno: Fundamentos</h4>
-            <p class="muted">$19.00 • PDF</p>
-            <div id="btn-onetime-1-es" class="buy"></div>
-          </div>
-          <div class="item">
-            <h4>Mini-curso: Comenzando</h4>
-            <p class="muted">$39.00 • Video</p>
-            <div id="btn-onetime-2-es" class="buy"></div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>© <span id="yr"></span> Edunancial</footer>
-  </div>
+  <footer>© <span id="yr"></span> Edunancial</footer>
+</div>
 
 <script>
   // ===== Language Toggle =====
-  const en = document.getElementById('langEN');
-  const es = document.getElementById('langES');
-  const btnEN = document.getElementById('btnEN');
-  const btnES = document.getElementById('btnES');
-  const langLabel = document.getElementById('langLabel');
-
-  function setLang(code){
-    if(code==='en'){ en.classList.add('active'); es.classList.remove('active'); btnEN.setAttribute('aria-pressed','true'); btnES.setAttribute('aria-pressed','false'); langLabel.textContent='English'; }
-    else { es.classList.add('active'); en.classList.remove('active'); btnES.setAttribute('aria-pressed','true'); btnEN.setAttribute('aria-pressed','false'); langLabel.textContent='Español'; }
-    localStorage.setItem('edunancialLang', code);
+  const en = document.getElementById('lang-en');
+  const es = document.getElementById('lang-es');
+  const btnEN = document.getElementById('btn-en');
+  const btnES = document.getElementById('btn-es');
+  function setLang(which){
+    const showEN = which === 'en';
+    en.classList.toggle('active', showEN);
+    es.classList.toggle('active', !showEN);
+    btnEN.classList.toggle('active', showEN);
+    btnES.classList.toggle('active', !showEN);
+    localStorage.setItem('edunancial-lang', showEN ? 'en' : 'es');
   }
   btnEN.addEventListener('click',()=>setLang('en'));
   btnES.addEventListener('click',()=>setLang('es'));
-  setLang(localStorage.getItem('edunancialLang') || 'en');
+  setLang(localStorage.getItem('edunancial-lang') || 'en');
   document.getElementById('yr').textContent = new Date().getFullYear();
 
-  // ===== PayPal Subscriptions =====
+  // ===== PayPal Plans (replace placeholders) =====
   const PLAN = {
     BASIC: "BASIC_PLAN_ID",
-    BASIC_DISCOUNT: "BASIC_PLAN_ID_DISCOUNT", // $5 plan
+    BASIC_DISCOUNT: "BASIC_PLAN_ID_DISCOUNT", // $5 promo plan
     GROWTH: "GROWTH_PLAN_ID",
     PRO: "PRO_PLAN_ID"
   };
-
-  // Basic coupon apply
   let useDiscountBasic = false;
-  window.applyBasicCoupon = function(isES=false){
-    const field = document.getElementById(isES ? 'couponBasicES':'couponBasic');
-    useDiscountBasic = (field.value || '').trim().toUpperCase() === 'EDU5';
-    alert(useDiscountBasic ? 'Coupon applied: Basic $5 plan will be used.' : 'Invalid coupon. Using regular plan.');
-    // Re-render the Basic button with proper plan
+
+  // Coupon handling (Basic only, EDU5)
+  function applyCoupon(lang){
+    const input = document.getElementById(lang === 'es' ? 'coupon-es' : 'coupon-en');
+    const status = document.getElementById(lang === 'es' ? 'coupon-status-es' : 'coupon-status-en');
+    const code = (input.value || '').trim().toUpperCase();
+    if(code === 'EDU5'){ useDiscountBasic = true; status.textContent = 'Promo applied. Basic will use the $5 plan at PayPal.'; }
+    else if(code){ useDiscountBasic = false; status.textContent = 'Invalid code.'; }
     renderSubscriptions();
-  };
+  }
+  document.getElementById('apply-en').addEventListener('click',()=>applyCoupon('en'));
+  document.getElementById('apply-es').addEventListener('click',()=>applyCoupon('es'));
 
+  // Render PayPal Subscriptions
+  function renderSub(containerId, planId){
+    const el = document.getElementById(containerId);
+    if(!el || !window.paypal) return;
+    el.innerHTML = '';
+    paypal.Buttons({
+      style:{ layout:'vertical', color:'gold', shape:'pill', label:'subscribe', tagline:false, height:48 },
+      createSubscription:(data, actions)=>actions.subscription.create({ plan_id: planId }),
+      onApprove:(data)=>{ window.location.href = (containerId.endsWith('-es') ? '/es-thank-you.html' : '/thank-you.html'); }
+    }).render('#'+containerId);
+  }
   function renderSubscriptions(){
-    // Clear any existing buttons before re-rendering
-    ['paypal-basic','paypal-growth','paypal-pro','paypal-basic-es','paypal-growth-es','paypal-pro-es']
-      .forEach(id => { const el = document.getElementById(id); if(el){ el.innerHTML=''; }});
-
-    // EN buttons
-    if (window.paypal) {
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: function(data, actions){
-          return actions.subscription.create({
-            plan_id: useDiscountBasic ? PLAN.BASIC_DISCOUNT : PLAN.BASIC
-          });
-        },
-        onApprove: function(data){ window.location.href = '/thank-you.html'; }
-      }).render('#paypal-basic');
-
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN.GROWTH }),
-        onApprove: ()=> window.location.href='/thank-you.html'
-      }).render('#paypal-growth');
-
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN.PRO }),
-        onApprove: ()=> window.location.href='/thank-you.html'
-      }).render('#paypal-pro');
-
-      // ES buttons (same plans)
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: (data, actions)=> actions.subscription.create({
-          plan_id: useDiscountBasic ? PLAN.BASIC_DISCOUNT : PLAN.BASIC
-        }),
-        onApprove: ()=> window.location.href='/es-thank-you.html'
-      }).render('#paypal-basic-es');
-
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN.GROWTH }),
-        onApprove: ()=> window.location.href='/es-thank-you.html'
-      }).render('#paypal-growth-es');
-
-      paypal.Buttons({
-        style:{ layout:'vertical', shape:'rect', label:'subscribe' },
-        createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN.PRO }),
-        onApprove: ()=> window.location.href='/es-thank-you.html'
-      }).render('#paypal-pro-es');
-    }
+    const basicPlan = useDiscountBasic ? PLAN.BASIC_DISCOUNT : PLAN.BASIC;
+    renderSub('pp-basic-en', basicPlan);
+    renderSub('pp-growth-en', PLAN.GROWTH);
+    renderSub('pp-pro-en', PLAN.PRO);
+    renderSub('pp-basic-es', basicPlan);
+    renderSub('pp-growth-es', PLAN.GROWTH);
+    renderSub('pp-pro-es', PLAN.PRO);
   }
 
-  // ===== One-time Payments (Books/Courses/Products) =====
-  // Example items; you can change the values or duplicate for more items
-  const oneTimeItems = {
+  // One-time PayPal buttons (books/courses)
+  const items = {
     en1: { name:'Workbook: Foundations', value:'19.00' },
     en2: { name:'Mini-Course: Getting Started', value:'39.00' },
     es1: { name:'Cuaderno: Fundamentos', value:'19.00' },
     es2: { name:'Mini-curso: Comenzando', value:'39.00' }
   };
-
   function renderOneTime(){
-    if (!window.paypal) return;
-
-    // EN items
+    if(!window.paypal) return;
     paypal.Buttons({
       style:{ layout:'horizontal', label:'paypal' },
-      createOrder: (data, actions)=> actions.order.create({
-        purchase_units:[{ amount:{ value: oneTimeItems.en1.value }, description: oneTimeItems.en1.name }]
-      }),
-      onApprove: (data, actions)=> actions.order.capture().then(()=> window.location.href='/thank-you.html')
-    }).render('#btn-onetime-1');
-
+      createOrder:(d,a)=>a.order.create({ purchase_units:[{ amount:{ value: items.en1.value }, description: items.en1.name }] }),
+      onApprove:(d,a)=>a.order.capture().then(()=>location.href='/thank-you.html')
+    }).render('#btn-onetime-1-en');
     paypal.Buttons({
       style:{ layout:'horizontal', label:'paypal' },
-      createOrder: (data, actions)=> actions.order.create({
-        purchase_units:[{ amount:{ value: oneTimeItems.en2.value }, description: oneTimeItems.en2.name }]
-      }),
-      onApprove: (data, actions)=> actions.order.capture().then(()=> window.location.href='/thank-you.html')
-    }).render('#btn-onetime-2');
-
-    // ES items
+      createOrder:(d,a)=>a.order.create({ purchase_units:[{ amount:{ value: items.en2.value }, description: items.en2.name }] }),
+      onApprove:(d,a)=>a.order.capture().then(()=>location.href='/thank-you.html')
+    }).render('#btn-onetime-2-en');
     paypal.Buttons({
       style:{ layout:'horizontal', label:'paypal' },
-      createOrder: (data, actions)=> actions.order.create({
-        purchase_units:[{ amount:{ value: oneTimeItems.es1.value }, description: oneTimeItems.es1.name }]
-      }),
-      onApprove: (data, actions)=> actions.order.capture().then(()=> window.location.href='/es-thank-you.html')
+      createOrder:(d,a)=>a.order.create({ purchase_units:[{ amount:{ value: items.es1.value }, description: items.es1.name }] }),
+      onApprove:(d,a)=>a.order.capture().then(()=>location.href='/es-thank-you.html')
     }).render('#btn-onetime-1-es');
-
     paypal.Buttons({
       style:{ layout:'horizontal', label:'paypal' },
-      createOrder: (data, actions)=> actions.order.create({
-        purchase_units:[{ amount:{ value: oneTimeItems.es2.value }, description: oneTimeItems.es2.name }]
-      }),
-      onApprove: (data, actions)=> actions.order.capture().then(()=> window.location.href='/es-thank-you.html')
+      createOrder:(d,a)=>a.order.create({ purchase_units:[{ amount:{ value: items.es2.value }, description: items.es2.name }] }),
+      onApprove:(d,a)=>a.order.capture().then(()=>location.href='/es-thank-you.html')
     }).render('#btn-onetime-2-es');
   }
 
-  // Render PayPal once SDK is ready
-  function ready(fn){ (document.readyState!=='loading') ? fn() : document.addEventListener('DOMContentLoaded', fn); }
-  ready(()=> { renderSubscriptions(); renderOneTime(); });
+  // Start
+  function ready(fn){document.readyState!=='loading'?fn():document.addEventListener('DOMContentLoaded',fn)}
+  ready(()=>{ renderSubscriptions(); renderOneTime(); });
+</script>
+
+<!-- PayPal SDK must be LIVE client ID -->
+<script>
+  if (document.currentScript && document.currentScript.src.includes('YOUR_LIVE_CLIENT_ID')) {
+    console.warn('Replace YOUR_LIVE_CLIENT_ID with your real LIVE Client ID from PayPal.');
+  }
 </script>
 </body>
 </html>
