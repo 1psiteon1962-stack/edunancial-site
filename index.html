@@ -1,93 +1,121 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Edunancial — Our Story</title>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial — Nuestra Historia</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#222; }
+    header { background:#b30000; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5rem; }
+    nav { margin-top:10px; }
+    nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bold; }
+    .toggle { margin-left:20px; padding:6px 10px; background:white; color:#b30000; border-radius:4px; cursor:pointer; font-weight:bold; }
+    main { max-width:900px; margin:40px auto; padding:0 20px; }
+    h2 { font-size:2rem; margin-bottom:20px; }
+    p { font-size:1.1rem; margin-bottom:16px; }
+    ul { margin-bottom:20px; }
+    .cta { text-align:center; margin-top:30px; }
+    .btn { background:#e52727; color:white; padding:14px 24px; border-radius:8px; text-decoration:none; font-size:1.2rem; font-weight:bold; }
+    .btn:hover { background:#b30000; }
+    .lang { display:none; }
+    .lang.active { display:block; }
+  </style>
+  <script>
+    function toggleLanguage(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
 </head>
 <body>
-<header class="site-header">
-  <div class="brand">Edunancial</div>
-  <nav class="nav">
-    <a href="index.html" class="active">Our Story</a>
-    <a href="memberships.html">Memberships</a>
-    <a href="catalog.html">Catalog</a>
-  </nav>
-  <div class="lang-toggle">
-    <button id="btn-en" class="pill active">EN</button>
-    <button id="btn-es" class="pill">ES</button>
-  </div>
-</header>
+  <header>
+    <h1>Edunancial</h1>
+    <nav>
+      <a href="/index.html">Our Story</a>
+      <a href="/memberships.html">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+      <span class="toggle" onclick="toggleLanguage('en')">EN</span>
+      <span class="toggle" onclick="toggleLanguage('es')">ES</span>
+    </nav>
+  </header>
 
-<main class="wrap">
-  <!-- ENGLISH (FULL) -->
-  <section id="story-en" class="lang active">
-    <h1>Our Story</h1>
-    <p class="lead">
-      One afternoon when my son was 11, he walked in just as an online deposit arrived.
-      His eyes went wide: “How did you make money like that?” I said, “By using my head.”
-    </p>
-    <p>
-      Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.”
-      <strong>That’s when Edunancial was born.</strong>
-    </p>
-    <p>
-      Today he analyzes, buys, and sells stocks; understands the foundations of real estate; and is building a small
-      business. Our lessons cover <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and
-      <strong>Business</strong> (Blue)—the foundations of lifetime growth.
-    </p>
+  <main>
+    <!-- English Version -->
+    <div id="en" class="lang active">
+      <h2>Our Story</h2>
+      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:  
+      “How did you make money like that?”  
+      I said, “By using my head.”</p>
 
-    <div class="cta-row">
-      <a class="big-btn primary" href="memberships.html">View Memberships</a>
-      <a class="big-btn" href="catalog.html">Browse Catalog</a>
+      <p>Then I asked, “Do you want to work with your head?”  
+      He said, “Yes… but I don’t know how.”</p>
+
+      <p>That was the moment Edunancial was born.</p>
+
+      <p>At 11, he started buying <strong>silver coins</strong>. This taught him discipline. It ensured that he was putting his money into an asset, rather than spending it like many other kids on games or candy — things that would never put money back in his pocket. That single decision became the foundation of everything else.</p>
+
+      <p>Around 12 years old, he began making <strong>lists of stocks</strong> that interested him. I asked him to analyze each stock: Was it overvalued or undervalued? Why did he think it was a good purchase? After he explained his reasoning, we went ahead and bought the stock for him. His results were impressive — he earned an average ROI of <strong>7–12%</strong>.</p>
+
+      <p>By 15, he decided to expand his approach. He continued purchasing silver, but also moved into buying <strong>gold</strong>. Now, we are exploring even broader possibilities, including <strong>precious gems</strong> such as diamonds, rubies, and emeralds.</p>
+
+      <p>If an 11-year-old can take these steps — buying silver coins, analyzing and picking stocks, purchasing gold, and now even considering gems — then there’s no reason <em>you</em> can’t take the steps that fit your life too.</p>
+
+      <p>That’s the heart of Edunancial: making wealth-building real, simple, and practical. Not theories. Not lectures. But lessons that are easy to grasp, inspiring to follow, and designed so you can start taking action almost immediately.</p>
+
+      <p>To keep it simple, we’ve color-coded the lessons into the three pillars of financial literacy:</p>
+      <ul>
+        <li><strong>Red</strong> for <strong>Real Estate</strong></li>
+        <li><strong>White</strong> for <strong>Paper Assets</strong> like stocks and options</li>
+        <li><strong>Blue</strong> for <strong>Business Ownership</strong></li>
+      </ul>
+
+      <p>The Red, White, and Blue methodology isn’t about telling you <em>what</em> to buy. It’s about helping you ask the right question first: <em>Why am I buying this? What is it going to do for me?</em> It puts you in control of your own financial future.</p>
+
+      <p>After today, my son is still using these methods to build his financial future. As a father, I feel good because I know these are lifelong lessons that will only get better over time.</p>
+
+      <div class="cta">
+        <a class="btn" href="/memberships.html">Make it, and let's get started together</a>
+      </div>
     </div>
-  </section>
 
-  <!-- ESPAÑOL (COMPLETO) -->
-  <section id="story-es" class="lang">
-    <h1>Nuestra Historia</h1>
-    <p class="lead">
-      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.
-      Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le respondí: “Usando la cabeza”.
-    </p>
-    <p>
-      Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo”.
-      <strong>Ahí nació Edunancial.</strong>
-    </p>
-    <p>
-      Hoy él analiza, compra y vende acciones; comprende las bases de los bienes raíces; y está construyendo un pequeño
-      negocio. Nuestras lecciones cubren <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco)
-      y <strong>Negocios</strong> (Azul): los fundamentos del crecimiento de por vida.
-    </p>
+    <!-- Spanish Version -->
+    <div id="es" class="lang">
+      <h2>Nuestra Historia</h2>
+      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando se había hecho un depósito en línea. Sus ojos se abrieron de par en par:  
+      “¿Cómo ganaste dinero así?”  
+      Yo le respondí: “Usando mi cabeza.”</p>
 
-    <div class="cta-row">
-      <a class="big-btn primary" href="memberships.html">Membresías</a>
-      <a class="big-btn" href="catalog.html">Catálogo</a>
+      <p>Luego le pregunté: “¿Quieres trabajar con tu cabeza?”  
+      Él dijo: “Sí… pero no sé cómo.”</p>
+
+      <p>Ese fue el momento en que nació Edunancial.</p>
+
+      <p>A los 11 años, comenzó a comprar <strong>monedas de plata</strong>. Esto le enseñó disciplina. Le aseguró que estaba poniendo su dinero en un activo, en lugar de gastarlo como muchos otros niños en juegos o dulces — cosas que nunca le pondrían dinero en el bolsillo. Esa decisión se convirtió en la base de todo lo demás.</p>
+
+      <p>Alrededor de los 12 años, empezó a hacer <strong>listas de acciones</strong> que le interesaban. Yo le pedía que analizara cada acción: ¿Estaba sobrevalorada o subvalorada? ¿Por qué pensaba que era una buena compra? Después de que explicaba su razonamiento, íbamos adelante y comprábamos la acción. Sus resultados fueron impresionantes: obtuvo un rendimiento promedio de <strong>7–12%</strong>.</p>
+
+      <p>A los 15, decidió ampliar su enfoque. Continuó comprando plata, pero también empezó a comprar <strong>oro</strong>. Ahora, estamos explorando posibilidades aún más amplias, incluyendo <strong>piedras preciosas</strong> como diamantes, rubíes y esmeraldas.</p>
+
+      <p>Si un niño de 11 años puede dar estos pasos — comprar monedas de plata, analizar y elegir acciones, comprar oro y ahora incluso considerar gemas — entonces no hay razón por la cual <em>tú</em> no puedas dar los pasos que se ajusten a tu vida también.</p>
+
+      <p>Esa es la esencia de Edunancial: hacer que la creación de riqueza sea real, simple y práctica. No teorías. No conferencias. Sino lecciones fáciles de comprender, inspiradoras de seguir y diseñadas para que empieces a tomar acción casi de inmediato.</p>
+
+      <p>Para mantenerlo simple, hemos codificado por colores las lecciones en los tres pilares de la educación financiera:</p>
+      <ul>
+        <li><strong>Rojo</strong> para <strong>Bienes Raíces</strong></li>
+        <li><strong>Blanco</strong> para <strong>Activos en Papel</strong> como acciones y opciones</li>
+        <li><strong>Azul</strong> para <strong>Propiedad de Negocios</strong></li>
+      </ul>
+
+      <p>Lo importante es que el método Rojo, Blanco y Azul no se trata de decirte <em>qué</em> comprar. Se trata de ayudarte a hacer la pregunta correcta primero: <em>¿Por qué estoy comprando esto? ¿Qué va a hacer por mí?</em> Esto te pone a ti en control de tu propio futuro financiero.</p>
+
+      <p>Después de hoy, mi hijo todavía está usando estos métodos para construir su futuro financiero. Como padre, me siento bien porque sé que son lecciones de por vida que solo mejorarán con el tiempo.</p>
+
+      <div class="cta">
+        <a class="btn" href="/memberships.html">Hazlo, y empecemos juntos</a>
+      </div>
     </div>
-  </section>
-</main>
-
-<footer class="footer">© <span id="yr"></span> Edunancial</footer>
-
-<script>
-  // language toggle (persists)
-  const en = document.getElementById('story-en');
-  const es = document.getElementById('story-es');
-  const btnEN = document.getElementById('btn-en');
-  const btnES = document.getElementById('btn-es');
-  function setLang(code){
-    const isEN = code === 'en';
-    en.classList.toggle('active', isEN);
-    es.classList.toggle('active', !isEN);
-    btnEN.classList.toggle('active', isEN);
-    btnES.classList.toggle('active', !isEN);
-    localStorage.setItem('ed_lang', code);
-  }
-  btnEN.addEventListener('click', ()=>setLang('en'));
-  btnES.addEventListener('click', ()=>setLang('es'));
-  setLang(localStorage.getItem('ed_lang') || 'en');
-  document.getElementById('yr').textContent = new Date().getFullYear();
-</script>
+  </main>
 </body>
 </html>
