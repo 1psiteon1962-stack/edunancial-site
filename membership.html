@@ -1,154 +1,112 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Edunancial — Memberships</title>
-<link rel="stylesheet" href="style.css"/>
-<!-- PayPal SDK (LIVE) -->
-<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&vault=true&intent=subscription&currency=USD"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial — Memberships</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .nav { border-bottom: 1px solid #eee; background:#fff; position:sticky; top:0; z-index:10; }
+    .nav-inner { max-width:1100px; margin:0 auto; padding:10px 16px; display:flex; align-items:center; gap:18px; }
+    .brand { font-weight:800; font-size:22px; letter-spacing:.2px; }
+    .nav a { text-decoration:none; font-weight:600; padding:8px 12px; border-radius:12px; }
+    .nav a:hover { background:#f5f5f5; }
+    .spacer { flex:1; }
+    .lang-toggle button{ font-size:16px; padding:8px 14px; border-radius:9999px; border:2px solid #d33; background:#fff; margin-left:8px; }
+    .lang-toggle button[aria-pressed="true"]{ background:#fff0f0; }
+    .wrap { max-width:1100px; margin:24px auto; padding:0 16px 56px; }
+    h1{ font-size:36px; margin:10px 0 6px; }
+    .grid{ display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin-top:18px; }
+    .card{ border:1px solid #eee; border-radius:16px; padding:18px; box-shadow:0 2px 8px rgba(0,0,0,.04); }
+    .price{ font-size:32px; font-weight:800; }
+    .btn-area{ margin-top:14px; min-height:48px; display:flex; align-items:center; justify-content:center; }
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="brand">Edunancial</div>
-  <nav class="nav">
-    <a href="index.html">Our Story</a>
-    <a href="memberships.html" class="active">Memberships</a>
-    <a href="catalog.html">Catalog</a>
-  </nav>
-  <div class="lang-toggle">
-    <button id="btn-en" class="pill active">EN</button>
-    <button id="btn-es" class="pill">ES</button>
-  </div>
-</header>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/index.html">Edunancial</a>
+      <a href="/memberships.html">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+      <div class="spacer"></div>
+      <div class="lang-toggle">
+        <button id="btn-en" aria-pressed="true">EN</button>
+        <button id="btn-es" aria-pressed="false" style="border-color:#888;">ES</button>
+      </div>
+    </div>
+  </header>
 
-<main class="wrap">
-  <!-- EN -->
-  <section id="mship-en" class="lang active">
-    <h1>Choose Your Membership</h1>
-    <p class="muted">Upgrade anytime. Cancel anytime from your PayPal account.</p>
+  <main class="wrap">
+    <h1 class="lang-en">Choose Your Membership</h1>
+    <p class="lang-en">Upgrade anytime. Cancel anytime from your PayPal account.</p>
 
-    <div class="cards">
-      <article class="card">
+    <h1 class="lang-es">Elige tu Membresía</h1>
+    <p class="lang-es">Mejora cuando quieras. Cancela cuando quieras desde tu cuenta de PayPal.</p>
+
+    <section class="grid">
+      <div class="card">
         <h3>Basic</h3>
-        <div class="price">$9.99<span class="per">/mo</span></div>
+        <div class="price">$9.99<span style="font-weight:600">/mo</span></div>
         <ul>
           <li>Member pricing on courses & paperback books</li>
           <li>Members-only downloads</li>
         </ul>
-        <div class="paypal-box"><div id="pp-basic-en"></div></div>
-      </article>
+        <div class="btn-area" id="btn-basic"></div>
+      </div>
 
-      <article class="card">
-        <h3>Growth <span class="badge">Popular</span></h3>
-        <div class="price">$19.99<span class="per">/mo</span></div>
+      <div class="card">
+        <h3>Growth</h3>
+        <div class="price">$19.99<span style="font-weight:600">/mo</span></div>
         <ul>
           <li>Everything in Basic</li>
-          <li>Priority email/chat support</li>
+          <li>Priority support + live sessions</li>
         </ul>
-        <div class="paypal-box"><div id="pp-growth-en"></div></div>
-      </article>
+        <div class="btn-area" id="btn-growth"></div>
+      </div>
 
-      <article class="card">
+      <div class="card">
         <h3>Pro</h3>
-        <div class="price">$29.99<span class="per">/mo</span></div>
+        <div class="price">$29.99<span style="font-weight:600">/mo</span></div>
         <ul>
           <li>Everything in Growth</li>
-          <li>Deeper member discounts</li>
+          <li>Deeper member discounts on select programs</li>
         </ul>
-        <div class="paypal-box"><div id="pp-pro-en"></div></div>
-      </article>
-    </div>
-  </section>
+        <div class="btn-area" id="btn-pro"></div>
+      </div>
+    </section>
+  </main>
 
-  <!-- ES -->
-  <section id="mship-es" class="lang">
-    <h1>Elige tu Membresía</h1>
-    <p class="muted">Mejora cuando quieras. Cancela desde tu cuenta de PayPal.</p>
+  <!-- PayPal SDK: put your LIVE client-id below -->
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&components=buttons&vault=true&intent=subscription"></script>
+  <script>
+    // Persist language toggle
+    (function(){
+      const saved = localStorage.getItem('lang') || 'en';
+      setLang(saved);
+      document.getElementById('btn-en').addEventListener('click', ()=>setLang('en'));
+      document.getElementById('btn-es').addEventListener('click', ()=>setLang('es'));
+      function setLang(l){ localStorage.setItem('lang', l); document.documentElement.lang=l;
+        document.getElementById('btn-en').setAttribute('aria-pressed', (l==='en'));
+        document.getElementById('btn-es').setAttribute('aria-pressed', (l==='es'));
+      }
+    })();
 
-    <div class="cards">
-      <article class="card">
-        <h3>Básica</h3>
-        <div class="price">$9.99<span class="per">/mes</span></div>
-        <ul>
-          <li>Precios de miembro en cursos y libros</li>
-          <li>Descargas solo para miembros</li>
-        </ul>
-        <div class="paypal-box"><div id="pp-basic-es"></div></div>
-      </article>
+    // Replace these with your real LIVE PayPal subscription plan IDs
+    const PLANS = {
+      basic:  'BASIC_PLAN_ID',
+      growth: 'GROWTH_PLAN_ID',
+      pro:    'PRO_PLAN_ID'
+    };
 
-      <article class="card">
-        <h3>Crecimiento <span class="badge">Popular</span></h3>
-        <div class="price">$19.99<span class="per">/mes</span></div>
-        <ul>
-          <li>Todo en Básica</li>
-          <li>Soporte prioritario</li>
-        </ul>
-        <div class="paypal-box"><div id="pp-growth-es"></div></div>
-      </article>
-
-      <article class="card">
-        <h3>Pro</h3>
-        <div class="price">$29.99<span class="per">/mes</span></div>
-        <ul>
-          <li>Todo en Crecimiento</li>
-          <li>Descuentos más profundos</li>
-        </ul>
-        <div class="paypal-box"><div id="pp-pro-es"></div></div>
-      </article>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">© <span id="yr"></span> Edunancial</footer>
-
-<script>
-  // Language toggle (persist)
-  const en = document.getElementById('mship-en');
-  const es = document.getElementById('mship-es');
-  const btnEN = document.getElementById('btn-en');
-  const btnES = document.getElementById('btn-es');
-  function setLang(code){
-    const isEN = code === 'en';
-    en.classList.toggle('active', isEN);
-    es.classList.toggle('active', !isEN);
-    btnEN.classList.toggle('active', isEN);
-    btnES.classList.toggle('active', !isEN);
-    localStorage.setItem('ed_lang', code);
-  }
-  btnEN.addEventListener('click', ()=>setLang('en'));
-  btnES.addEventListener('click', ()=>setLang('es'));
-  setLang(localStorage.getItem('ed_lang') || 'en');
-  document.getElementById('yr').textContent = new Date().getFullYear();
-
-  // PayPal Plan IDs (REPLACE with your LIVE plan IDs)
-  const PLAN = {
-    BASIC:  "BASIC_PLAN_ID",
-    GROWTH: "GROWTH_PLAN_ID",
-    PRO:    "PRO_PLAN_ID"
-  };
-
-  // Render helper
-  function renderSub(containerId, planId){
-    const el = document.getElementById(containerId);
-    if(!el || !window.paypal) return;
-    el.innerHTML = '';
-    paypal.Buttons({
-      style:{ layout:'vertical', color:'gold', shape:'pill', label:'subscribe', tagline:false, height:48 },
-      createSubscription: (data, actions)=>actions.subscription.create({ plan_id: planId }),
-      onApprove: ()=>{ window.location.href = 'catalog.html'; } // return to catalog after payment
-    }).render('#'+containerId);
-  }
-
-  function renderAll(){
-    renderSub('pp-basic-en',  PLAN.BASIC);
-    renderSub('pp-growth-en', PLAN.GROWTH);
-    renderSub('pp-pro-en',    PLAN.PRO);
-    renderSub('pp-basic-es',  PLAN.BASIC);
-    renderSub('pp-growth-es', PLAN.GROWTH);
-    renderSub('pp-pro-es',    PLAN.PRO);
-  }
-  renderAll();
-</script>
+    ['basic','growth','pro'].forEach(level=>{
+      try{
+        paypal.Buttons({
+          style:{ layout:'vertical', shape:'rect', height:48, label:'subscribe' },
+          createSubscription: (_, actions) => actions.subscription.create({ plan_id: PLANS[level] }),
+          onApprove: () => window.location.href = '/catalog.html'
+        }).render('#btn-'+level);
+      }catch(e){}
+    });
+  </script>
 </body>
 </html>
