@@ -2,221 +2,153 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Edunancial — Membership</title>
-<meta name="color-scheme" content="light dark">
-<link rel="preconnect" href="https://www.paypal.com">
-<link rel="preconnect" href="https://www.paypalobjects.com">
-
-<!-- ✅ PUT YOUR REAL PAYPAL CLIENT ID BELOW -->
-<script id="paypal-sdk"
-  src="https://www.paypal.com/sdk/js?client-id=REPLACE_WITH_YOUR_CLIENT_ID&components=buttons&currency=USD&intent=capture"
-  data-sdk-integration-source="edunancial-membership">
-</script>
-
-<style>
-  :root{
-    --bg:#0b1220; --panel:#0f172a; --ink:#f8fbff; --muted:#d6e0ee; --line:#283a64;
-    --red:#ef4444; --white:#ffffff; --blue:#2563eb; --accent:#22c55e;
-    --radius:22px; --maxw:1200px;
-    --fs-body:clamp(19px,1.9vw,21px); --fs-h1:clamp(34px,3.6vw,46px);
-  }
-  *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:var(--fs-body)}
-  .wrap{max-width:var(--maxw);margin:auto;padding:clamp(20px,2.4vw,32px)}
-  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
-  header a{color:var(--ink);text-decoration:none;font-weight:900}
-  h1{margin:.2rem 0;font-size:var(--fs-h1)}
-  .muted{color:var(--muted)}
-  .grid{display:grid;gap:22px;margin-top:8px}
-  @media(min-width:980px){.grid{grid-template-columns:1.15fr .85fr}}
-  .card{background:var(--panel);border:2px solid var(--line);border-radius:var(--radius);padding:clamp(22px,3vw,34px)}
-  .plans{display:grid;gap:16px}
-  .plan{background:#0d203f;border:2px solid var(--line);border-radius:18px;padding:18px;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center}
-  .plan input{width:30px;height:30px;accent-color:var(--blue);cursor:pointer}
-  .title{font-weight:900}
-  .badge{display:inline-block;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));color:#0a0f1a;border-radius:999px;padding:.35rem .7rem;font-size:.9em;margin-left:.5rem;font-weight:900}
-  .price{font-weight:900}
-  .best{border-color:var(--accent);box-shadow:0 0 0 3px rgba(34,197,94,.25)}
-  .pp-slot{min-width:220px}
-  .hint{font-size:.95em;color:var(--muted);margin-top:8px}
-  .coupon{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
-  .coupon input{padding:1rem 1.1rem;border-radius:14px;border:2px solid var(--line);background:#0b1426;color:var(--ink);min-width:260px}
-  .cta{display:inline-block;padding:1rem 1.25rem;border-radius:18px;font-weight:900;text-decoration:none;color:#0a0f1a;background:linear-gradient(90deg,var(--red),var(--white),var(--blue));box-shadow:0 12px 32px rgba(0,0,0,.34)}
-  .total{display:flex;justify-content:space-between;font-weight:900;font-size:clamp(20px,1.8vw,24px);margin-top:8px}
-  #sdk-error{background:#7f1d1d;border:2px solid #ef4444;color:#fff;padding:12px;border-radius:14px;margin:.75rem 0}
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Edunancial — Memberships</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- PayPal SDK (LIVE) -->
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&vault=true&intent=subscription&currency=USD"></script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <a href="/index.html">← Our Story</a>
-    <nav><a href="/index.html">Home</a></nav>
-  </header>
-
-  <h1>Membership</h1>
-  <p class="muted">Choose the membership plan that works best for your situation. You can upgrade at any time.</p>
-
-  <div id="sdk-error" hidden></div>
-
-  <div class="grid">
-    <!-- LEFT: plans with price & PayPal button right there -->
-    <div class="card">
-      <h2 style="margin-top:0">Plans</h2>
-      <div class="plans" id="plans">
-        <label class="plan best">
-          <input type="radio" name="plan" value="entry" checked>
-          <div>
-            <div class="title">Entry Membership <span class="badge">Popular</span></div>
-            <div class="muted">Library access + pamphlet + 15% coupon</div>
-          </div>
-          <div class="pp-slot">
-            <div class="price" id="price-entry">$9.99 / mo</div>
-            <div id="pp-entry" style="margin-top:8px"></div>
-          </div>
-        </label>
-
-        <label class="plan">
-          <input type="radio" name="plan" value="standard">
-          <div>
-            <div class="title">Standard Membership <span class="badge">Best Value</span></div>
-            <div class="muted">Full library, tools, coaching (no live calls)</div>
-          </div>
-          <div class="pp-slot">
-            <div class="price" id="price-standard">$29.99 / mo</div>
-            <div id="pp-standard" style="margin-top:8px"></div>
-          </div>
-        </label>
-
-        <label class="plan">
-          <input type="radio" name="plan" value="premium">
-          <div>
-            <div class="title">Premium Membership</div>
-            <div class="muted">Everything in Standard + bigger discounts (no live calls)</div>
-          </div>
-          <div class="pp-slot">
-            <div class="price" id="price-premium">$59.99 / mo</div>
-            <div id="pp-premium" style="margin-top:8px"></div>
-          </div>
-        </label>
-      </div>
-
-      <p class="hint">Demo mode: we process the first month as a one-time payment. When you’re ready, switch to PayPal Subscriptions for automatic monthly billing.</p>
-      <p class="hint"><strong>Coupons:</strong> use <code>SAVE15</code> for 15% off your first month.</p>
-    </div>
-
-    <!-- RIGHT: summary + coupon -->
-    <div class="card">
-      <h2 style="margin-top:0">Checkout</h2>
-      <div id="summary" class="muted"></div>
-      <div class="total"><span>Total</span><span id="total">$0.00</span></div>
-
-      <div class="coupon">
-        <input id="coupon" placeholder="Coupon code (optional)" />
-        <button class="cta" id="apply">Apply</button>
-      </div>
-
-      <p id="status" class="hint"></p>
-
-      <div style="text-align:center;margin-top:16px">
-        <a class="cta" href="/index.html">Back to Our Story</a>
-      </div>
-    </div>
+<header class="site-header">
+  <div class="brand">Edunancial</div>
+  <nav class="nav">
+    <a href="index.html">Our Story</a>
+    <a href="memberships.html" class="active">Memberships</a>
+    <a href="catalog.html">Catalog</a>
+  </nav>
+  <div class="lang-toggle">
+    <button id="btn-en" class="pill active">EN</button>
+    <button id="btn-es" class="pill">ES</button>
   </div>
-</div>
+</header>
+
+<main class="wrap">
+  <!-- EN -->
+  <section id="mship-en" class="lang active">
+    <h1>Choose Your Membership</h1>
+    <p class="muted">Upgrade anytime. Cancel anytime from your PayPal account.</p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Basic</h3>
+        <div class="price">$9.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Member pricing on courses & paperback books</li>
+          <li>Members-only downloads</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-basic-en"></div></div>
+      </article>
+
+      <article class="card">
+        <h3>Growth <span class="badge">Popular</span></h3>
+        <div class="price">$19.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority email/chat support</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-growth-en"></div></div>
+      </article>
+
+      <article class="card">
+        <h3>Pro</h3>
+        <div class="price">$29.99<span class="per">/mo</span></div>
+        <ul>
+          <li>Everything in Growth</li>
+          <li>Deeper member discounts</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-pro-en"></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ES -->
+  <section id="mship-es" class="lang">
+    <h1>Elige tu Membresía</h1>
+    <p class="muted">Mejora cuando quieras. Cancela desde tu cuenta de PayPal.</p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Básica</h3>
+        <div class="price">$9.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Precios de miembro en cursos y libros</li>
+          <li>Descargas solo para miembros</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-basic-es"></div></div>
+      </article>
+
+      <article class="card">
+        <h3>Crecimiento <span class="badge">Popular</span></h3>
+        <div class="price">$19.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Todo en Básica</li>
+          <li>Soporte prioritario</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-growth-es"></div></div>
+      </article>
+
+      <article class="card">
+        <h3>Pro</h3>
+        <div class="price">$29.99<span class="per">/mes</span></div>
+        <ul>
+          <li>Todo en Crecimiento</li>
+          <li>Descuentos más profundos</li>
+        </ul>
+        <div class="paypal-box"><div id="pp-pro-es"></div></div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© <span id="yr"></span> Edunancial</footer>
 
 <script>
-  // ---- Pricing & coupon ----
-  const PLANS = {
-    entry:   { name:'Entry Membership',    price: 9.99 },
-    standard:{ name:'Standard Membership', price:29.99 },
-    premium: { name:'Premium Membership',  price:59.99 }
+  // Language toggle (persist)
+  const en = document.getElementById('mship-en');
+  const es = document.getElementById('mship-es');
+  const btnEN = document.getElementById('btn-en');
+  const btnES = document.getElementById('btn-es');
+  function setLang(code){
+    const isEN = code === 'en';
+    en.classList.toggle('active', isEN);
+    es.classList.toggle('active', !isEN);
+    btnEN.classList.toggle('active', isEN);
+    btnES.classList.toggle('active', !isEN);
+    localStorage.setItem('ed_lang', code);
+  }
+  btnEN.addEventListener('click', ()=>setLang('en'));
+  btnES.addEventListener('click', ()=>setLang('es'));
+  setLang(localStorage.getItem('ed_lang') || 'en');
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // PayPal Plan IDs (REPLACE with your LIVE plan IDs)
+  const PLAN = {
+    BASIC:  "BASIC_PLAN_ID",
+    GROWTH: "GROWTH_PLAN_ID",
+    PRO:    "PRO_PLAN_ID"
   };
-  let selected='entry';
-  let coupon=null;
 
-  const $ = id => document.getElementById(id);
-  const $summary=$('summary'), $total=$('total'), $status=$('status'), $sdkErr=$('sdk-error');
-
-  function format(n){ return '$' + n.toFixed(2); }
-  function computeTotal(){
-    const price = PLANS[selected].price;
-    const discount = (coupon==='SAVE15') ? (price*0.15) : 0;
-    return { price, discount, total: Math.max(0, price - discount) };
-  }
-  function renderSummary(){
-    const t = computeTotal();
-    const lines = [`<strong>Plan:</strong> ${PLANS[selected].name}`];
-    if (coupon==='SAVE15') lines.push(`<strong>Coupon:</strong> SAVE15 (-${format(t.discount)})`);
-    $summary.innerHTML = lines.join('<br>');
-    $total.textContent = format(t.total);
-  }
-  document.querySelectorAll('input[name="plan"]').forEach(r=>{
-    r.addEventListener('change',()=>{ selected=r.value; renderSummary(); showButtonsFor(selected,true); });
-  });
-  $('apply').addEventListener('click', ()=>{ coupon=($('coupon').value||'').trim().toUpperCase()||null; renderSummary(); showButtonsFor(selected,true); });
-  renderSummary();
-
-  // ---- PayPal: render into the selected plan slot ----
-  const ppSlots = { entry:'pp-entry', standard:'pp-standard', premium:'pp-premium' };
-
-  function createButtons(targetId){
-    return window.paypal.Buttons({
-      style:{ layout:'horizontal', height:48, label:'paypal', tagline:false, shape:'rect' },
-      createOrder: (data, actions)=>{
-        const t = computeTotal();
-        const plan = PLANS[selected];
-        sessionStorage.setItem('lastPurchase', JSON.stringify({ plan:selected, name:plan.name, total:t.total, coupon }));
-        return actions.order.create({
-          intent:'CAPTURE',
-          purchase_units:[{
-            description: `${plan.name} (first month)`,
-            amount:{
-              currency_code:'USD',
-              value: t.total.toFixed(2),
-              breakdown:{ item_total:{ currency_code:'USD', value: t.total.toFixed(2) } }
-            },
-            items:[{ name:`${plan.name} — First Month`, quantity:'1',
-                     unit_amount:{ currency_code:'USD', value:t.total.toFixed(2) } }]
-          }]
-        });
-      },
-      onApprove: async (data, actions)=>{
-        const details = await actions.order.capture();
-        const params = new URLSearchParams({ orderID: details.id || '', from:'membership' });
-        window.location.href = `/thank-you.html?${params.toString()}`;
-      },
-      onError: (err)=>{ console.error(err); $status.textContent='There was a problem processing your payment.'; }
-    }).render('#'+targetId);
+  // Render helper
+  function renderSub(containerId, planId){
+    const el = document.getElementById(containerId);
+    if(!el || !window.paypal) return;
+    el.innerHTML = '';
+    paypal.Buttons({
+      style:{ layout:'vertical', color:'gold', shape:'pill', label:'subscribe', tagline:false, height:48 },
+      createSubscription: (data, actions)=>actions.subscription.create({ plan_id: planId }),
+      onApprove: ()=>{ window.location.href = 'catalog.html'; } // return to catalog after payment
+    }).render('#'+containerId);
   }
 
-  function clearButtons(){
-    Object.values(ppSlots).forEach(id=>{
-      const node = document.getElementById(id);
-      if (node){ node.innerHTML=''; }
-    });
+  function renderAll(){
+    renderSub('pp-basic-en',  PLAN.BASIC);
+    renderSub('pp-growth-en', PLAN.GROWTH);
+    renderSub('pp-pro-en',    PLAN.PRO);
+    renderSub('pp-basic-es',  PLAN.BASIC);
+    renderSub('pp-growth-es', PLAN.GROWTH);
+    renderSub('pp-pro-es',    PLAN.PRO);
   }
-
-  function showButtonsFor(plan, force=false){
-    if (!window.paypal) return; // SDK not loaded yet
-    clearButtons();
-    createButtons(ppSlots[plan]);
-  }
-
-  // ---- SDK readiness / error reporting ----
-  function sdkReady(){
-    if (!window.paypal){
-      $sdkErr.hidden=false;
-      $sdkErr.innerHTML = 'PayPal SDK did not load. Make sure you replaced <strong>REPLACE_WITH_YOUR_CLIENT_ID</strong> with a valid Client ID (Sandbox or Live) in the script tag.';
-    }else{
-      showButtonsFor('entry');
-    }
-  }
-
-  if (document.readyState === 'complete'){
-    sdkReady();
-  } else {
-    window.addEventListener('load', sdkReady);
-  }
+  renderAll();
 </script>
 </body>
 </html>
