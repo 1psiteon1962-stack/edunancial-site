@@ -1,172 +1,272 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Edunancial — Our Story</title>
-<meta name="color-scheme" content="light dark">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Edunancial — Our Story & Membership</title>
+<link rel="preconnect" href="https://www.paypal.com" />
 <style>
   :root{
-    --bg:#0b1220; --panel:#0f172a; --ink:#f8fbff; --muted:#d6e0ee; --line:#283a64;
-    --red:#dc2626; --redD:#b91c1c; --white:#ffffff; --blue:#2563eb;
-    --pill:#0c1a34;
-    --radius:22px; --maxw:1200px;
-    --fs-body:clamp(19px,1.9vw,21px);  /* bigger */
-    --fs-h1:clamp(34px,3.6vw,46px);
-    --fs-h2:clamp(26px,2.8vw,36px);
+    --brand:#c62828; /* red accent */
+    --ink:#111;
+    --muted:#6b7280;
+    --card:#ffffff;
+    --bg:#fafafa;
   }
-  *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:var(--fs-body)}
-  .wrap{max-width:var(--maxw);margin:auto;padding:clamp(18px,2.2vw,28px)}
-  header{display:flex;align-items:center;justify-content:space-between;margin:6px 0 0}
-  header h1{margin:0;font-size:var(--fs-h1)}
-  header a{color:#0a0f1a;text-decoration:none;font-weight:800;padding:.9rem 1.25rem;border-radius:999px;background:linear-gradient(90deg,#ef4444,#ffffff,#2563eb);border:0;box-shadow:0 10px 28px rgba(0,0,0,.28)}
-  /* RED TOP BAR */
-  .topbar{margin-top:14px;background:linear-gradient(180deg,var(--red),var(--redD));border-radius:20px;padding:12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between}
-  .topbar .left{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-  .title{font-size:var(--fs-h2);margin:0;color:#000}
-  .btn{appearance:none;border:2px solid rgba(0,0,0,.25);background:#fff;color:#000;padding:1rem 1.25rem;border-radius:18px;font-weight:900;cursor:pointer}
-  .btn.big{font-size:1.0em}
-  .btn.active{outline:4px solid rgba(0,0,0,.2)}
-  .chev{width:24px;height:24px;vertical-align:-5px;transition:transform .2s;margin-left:8px}
-  [aria-expanded="true"] .chev{transform:rotate(180deg)}
-  .lang{padding:.9rem 1.1rem}
-  .lang.active{background:#fef08a;border-color:#111}
-  /* Story */
-  .card{background:var(--panel);border:2px solid var(--line);border-radius:var(--radius);padding:clamp(24px,3vw,34px);margin-top:16px}
-  .grid{display:grid;gap:18px}
-  @media(min-width:900px){.grid{grid-template-columns:1.15fr .85fr}}
-  .copy p{line-height:1.95;margin:1rem 0;color:var(--muted)}
-  .copy strong{color:var(--ink)}
-  .quote{font-style:italic}
-  .copy[hidden]{display:none}
-  /* CTA */
-  .cta{display:flex;justify-content:center;margin-top:20px}
-  .cta-btn{display:inline-block;padding:1.1rem 1.35rem;border-radius:18px;font-weight:900;text-decoration:none;color:#0a0f1a;background:linear-gradient(90deg,#ef4444,#ffffff,#2563eb);box-shadow:0 12px 32px rgba(0,0,0,.34)}
-  .cta-btn:hover{filter:brightness(1.06)}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:960px;margin:0 auto;padding:20px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0 16px}
+  .brand{font-weight:800;font-size:22px;letter-spacing:0.2px}
+  .lang-toggle{display:flex;gap:8px;align-items:center}
+  .pill{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:46px;height:46px;padding:0 14px;border-radius:999px;
+    background:#fff;border:2px solid #ddd;font-weight:700;
+    font-size:16px;cursor:pointer;user-select:none;box-shadow:0 1px 2px rgba(0,0,0,.06)
+  }
+  .pill.active{border-color:var(--brand);color:var(--brand)}
+  h1{font-size:34px;margin:0 0 10px}
+  p{margin:0 0 12px}
+  .muted{color:var(--muted)}
+  .plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:14px}
+  @media (max-width:900px){.plans{grid-template-columns:1fr}}
+  .card{
+    background:var(--card);border-radius:20px;padding:18px;border:1px solid #eee;
+    box-shadow:0 6px 18px rgba(0,0,0,.05)
+  }
+  .card h3{margin:0 0 4px;font-size:22px}
+  .price{font-size:30px;font-weight:900;margin:4px 0 10px}
+  ul{padding-left:22px;margin:8px 0 16px}
+  .paypal-box{
+    border-radius:16px;background:#f6f7f9;padding:12px;border:1px dashed #d1d5db
+  }
+  /* Promo box */
+  .promo{
+    margin:18px 0 4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center
+  }
+  .promo input{
+    flex:1 1 220px;height:48px;border-radius:12px;border:2px solid #ddd;
+    padding:0 12px;font-size:16px
+  }
+  .promo button{
+    height:48px;border-radius:12px;background:var(--brand);color:#fff;font-weight:800;
+    padding:0 18px;border:0;cursor:pointer;font-size:16px
+  }
+  .note{font-size:13px;color:var(--muted);margin-top:8px}
+  .badge{display:inline-block;background:#fdecec;color:#9b1c1c;border:1px solid #f6caca;border-radius:999px;padding:6px 10px;font-weight:700;font-size:12px;margin-left:8px}
 </style>
+<!-- PayPal SDK (LIVE) -->
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&vault=true&intent=subscription"></script>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>Edunancial</h1>
-      <a href="/membership.html">Membership</a>
+      <div class="brand">Edunancial</div>
+      <div class="lang-toggle" aria-label="Language toggle">
+        <button class="pill active" id="btn-en" title="English">EN</button>
+        <button class="pill" id="btn-es" title="Español">ES</button>
+      </div>
     </header>
 
-    <!-- RED, HIGH-CONTRAST CONTROL BAR -->
-    <div class="topbar">
-      <div class="left">
-        <h2 class="title" data-i18n="title">Our Story</h2>
-        <button id="storyToggle" class="btn big" aria-expanded="false" aria-controls="story-long">
-          <span class="when-closed" data-i18n="readFull">Read the full story</span>
-          <span class="when-open" style="display:none" data-i18n="hideFull">Hide the full story</span>
-          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="3"/></svg>
-        </button>
+    <!-- EN CONTENT -->
+    <section id="content-en">
+      <h1>Our Story</h1>
+      <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
+      <p>Today he analyzes, buys, and sells stocks, understands the foundations of real estate, and is building a small business. Our lessons cover <strong>Real Estate</strong> (Red), <strong>Paper Assets</strong> (White), and <strong>Business</strong> (Blue)—the foundations of lifetime growth.</p>
+
+      <h2 style="margin-top:22px">Membership — Start at <span style="color:var(--brand)">$9.99</span><span class="muted">/mo</span></h2>
+      <p class="muted">Upgrade anytime. Cancel anytime.</p>
+
+      <div class="promo">
+        <input id="promo-code" placeholder="Have a promo code? Try EDU5 for $5 special" />
+        <button id="apply-promo">Apply</button>
+        <span id="promo-status" class="note"></span>
       </div>
-      <div role="group" aria-label="Language">
-        <button class="btn lang active big" data-lang="en" aria-pressed="true">EN</button>
-        <button class="btn lang big" data-lang="es" aria-pressed="false">ES</button>
+
+      <div class="plans">
+        <div class="card" id="card-basic">
+          <h3>Basic</h3>
+          <div class="price">$9.99<span class="muted">/mo</span></div>
+          <ul>
+            <li>Member pricing on courses and books</li>
+            <li>Members-only downloads</li>
+            <li>Email preferences & compliance</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-basic"></div></div>
+          <div class="note">Uses PayPal Subscriptions.</div>
+        </div>
+
+        <div class="card" id="card-growth">
+          <h3>Growth <span class="badge">Popular</span></h3>
+          <div class="price">$19.99<span class="muted">/mo</span></div>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>Priority email/chat support</li>
+            <li>Access to live sessions</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-growth"></div></div>
+          <div class="note">Uses PayPal Subscriptions.</div>
+        </div>
+
+        <div class="card" id="card-pro">
+          <h3>Pro</h3>
+          <div class="price">$29.99<span class="muted">/mo</span></div>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>Deeper member discounts</li>
+            <li>Early access to new material</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-pro"></div></div>
+          <div class="note">Uses PayPal Subscriptions.</div>
+        </div>
       </div>
-    </div>
-
-    <section class="grid">
-      <!-- SHORT -->
-      <article class="card" id="story-short">
-        <div class="copy en" lang="en">
-          <p>Edunancial began with a question from my son when he was just <strong>11 years old</strong>. He saw a deposit notification on my phone and asked:</p>
-          <p class="quote">“How did you make money like that?”</p>
-          <p>I told him, “I worked with my head.” Then I asked, <span class="quote">“Do you want to work with your head?”</span> He looked back at me and said: <span class="quote">“Yes, but I don’t know how.”</span></p>
-          <p>That moment changed everything. With the right guidance, anyone can start learning and growing right away.</p>
-          <p>We built a path to wealth through <strong>Red, White, and Blue</strong>—real estate, paper assets, and business. Choose a starting point and begin to build.</p>
-          <p><strong>If an 11-year-old could begin the journey, so can you.</strong></p>
-        </div>
-        <div class="copy es" lang="es" hidden>
-          <p>Edunancial comenzó con una pregunta de mi hijo cuando tenía apenas <strong>11 años</strong>. Vio una notificación de depósito en mi teléfono y preguntó:</p>
-          <p class="quote">«¿Cómo hiciste dinero así?»</p>
-          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: <span class="quote">«¿Quieres trabajar con tu cabeza?»</span> y él respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
-          <p>Ese momento lo cambió todo. Con la guía correcta, cualquiera puede comenzar a aprender y crecer de inmediato.</p>
-          <p>Construimos un camino con <strong>Rojo, Blanco y Azul</strong>: bienes raíces, activos en papel y negocios. Elige un punto de partida y comienza a construir.</p>
-          <p><strong>Si un niño de 11 años pudo comenzar el camino, tú también puedes.</strong></p>
-        </div>
-        <div class="cta">
-          <a class="cta-btn" href="/membership.html" data-i18n="cta">
-            Choose the membership plan that works best for your situation. You can upgrade at any time.
-          </a>
-        </div>
-      </article>
-
-      <!-- FULL -->
-      <article class="card" id="story-long" hidden>
-        <div class="copy en" lang="en">
-          <p>Edunancial was born out of a moment between a father and son. A deposit notification came in from consulting work I’d just completed. My son saw it and asked:</p>
-          <p class="quote">“How did you make money like that?”</p>
-          <p>I told him, “I worked with my head.” Then I asked, <span class="quote">“Do you want to work with your head?”</span> He replied: <span class="quote">“Yes, but I don’t know how.”</span></p>
-          <p>He was only <strong>11 years old</strong>. I didn’t know it then, but that short exchange sparked everything that followed.</p>
-          <p>From that day on, we began a journey together where my challenge was making everything easy enough for an 11-year-old to understand and to learn step by step while building confidence.</p>
-          <p>He began immediately. With his allowance, he started buying <strong>silver</strong>; later <strong>gold</strong>. Holding assets—not spending on games or candy—taught discipline and the value of building. When his budget allowed, we added <strong>stocks</strong>, learning ownership through <em>patience and research</em>. He shaped the idea for a <strong>dog food company</strong>. And while he hasn’t purchased property yet, he studies <strong>real estate</strong> to be ready.</p>
-          <p>Our foundation is <strong>Red, White, and Blue</strong>—real estate, paper assets, and business. People naturally gravitate to one or two; the key is to choose a starting point and begin.</p>
-          <p><strong>If an 11-year-old could begin the journey, so can you.</strong></p>
-          <div class="cta">
-            <a class="cta-btn" href="/membership.html" data-i18n="cta">Choose the membership plan that works best for your situation. You can upgrade at any time.</a>
-          </div>
-        </div>
-
-        <div class="copy es" lang="es" hidden>
-          <p>Edunancial nació de un momento entre padre e hijo. Llegó una notificación de depósito por un trabajo de consultoría. Mi hijo la vio y preguntó:</p>
-          <p class="quote">«¿Cómo hiciste dinero así?»</p>
-          <p>Le dije: «Trabajé con la cabeza». Luego le pregunté: <span class="quote">«¿Quieres trabajar con tu cabeza?»</span> y respondió: <span class="quote">«Sí, pero no sé cómo».</span></p>
-          <p>Tenía apenas <strong>11 años</strong>. Ese breve intercambio encendió la chispa de todo lo que vino después.</p>
-          <p>Desde ese día empezamos un camino juntos, haciéndolo lo suficientemente sencillo para que un niño de 11 años aprendiera paso a paso, ganando confianza.</p>
-          <p>Comenzó de inmediato. Con su mesada compró <strong>plata</strong>; después <strong>oro</strong>. Conservar activos—en lugar de gastarlos en juegos o dulces—le enseñó disciplina. Luego sumamos <strong>acciones</strong> para aprender propiedad con <em>paciencia e investigación</em>. También formó la idea de una <strong>empresa de comida para perros</strong>. Y aunque aún no ha comprado propiedades, estudia <strong>bienes raíces</strong> para estar listo.</p>
-          <p>Nuestra base es <strong>Rojo, Blanco y Azul</strong>: bienes raíces, activos en papel y negocios. Muchos se inclinan por uno o dos; lo importante es elegir un punto de partida y comenzar.</p>
-          <p><strong>Si un niño de 11 años pudo comenzar el camino, tú también puedes.</strong></p>
-          <div class="cta">
-            <a class="cta-btn" href="/membership.html">Elige el plan de membresía que mejor se ajuste a tu situación. Puedes mejorar de nivel en cualquier momento.</a>
-          </div>
-        </div>
-      </article>
     </section>
+
+    <!-- ES CONTENT -->
+    <section id="content-es" style="display:none">
+      <h1>Nuestra Historia</h1>
+      <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Abrió los ojos y preguntó: “¿Cómo ganaste dinero así?” Le respondí: “Usando mi cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo”. <strong>Así nació Edunancial.</strong></p>
+      <p>Hoy analiza, compra y vende acciones, entiende las bases de los bienes raíces y está armando un pequeño negocio. Nuestras lecciones cubren <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y <strong>Negocios</strong> (Azul): las bases del crecimiento de por vida.</p>
+
+      <h2 style="margin-top:22px">Membresía — Desde <span style="color:var(--brand)">$9.99</span><span class="muted">/mes</span></h2>
+      <p class="muted">Mejora cuando quieras. Cancela cuando quieras.</p>
+
+      <div class="promo">
+        <input id="promo-code-es" placeholder="¿Tienes código? Prueba EDU5 para oferta de $5" />
+        <button id="apply-promo-es">Aplicar</button>
+        <span id="promo-status-es" class="note"></span>
+      </div>
+
+      <div class="plans">
+        <div class="card">
+          <h3>Básica</h3>
+          <div class="price">$9.99<span class="muted">/mes</span></div>
+          <ul>
+            <li>Precios de miembro en cursos y libros</li>
+            <li>Descargas solo para miembros</li>
+            <li>Preferencias de correo y cumplimiento</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-basic-es"></div></div>
+          <div class="note">Usa Suscripciones de PayPal.</div>
+        </div>
+
+        <div class="card">
+          <h3>Crecimiento <span class="badge">Popular</span></h3>
+          <div class="price">$19.99<span class="muted">/mes</span></div>
+          <ul>
+            <li>Todo en Básica</li>
+            <li>Soporte prioritario por email/chat</li>
+            <li>Acceso a sesiones en vivo</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-growth-es"></div></div>
+          <div class="note">Usa Suscripciones de PayPal.</div>
+        </div>
+
+        <div class="card">
+          <h3>Pro</h3>
+          <div class="price">$29.99<span class="muted">/mes</span></div>
+          <ul>
+            <li>Todo en Crecimiento</li>
+            <li>Descuentos más profundos</li>
+            <li>Acceso anticipado a nuevo material</li>
+          </ul>
+          <div class="paypal-box"><div id="pp-pro-es"></div></div>
+          <div class="note">Usa Suscripciones de PayPal.</div>
+        </div>
+      </div>
+    </section>
+
+    <p class="note" style="margin-top:24px">By subscribing you agree to our terms. You can cancel from your PayPal account at any time.</p>
   </div>
 
 <script>
-  (function(){
-    const langBtns=[...document.querySelectorAll('.lang')];
-    const storyToggle=document.getElementById('storyToggle');
-    const longCard=document.getElementById('story-long');
-    const shortEN=document.querySelector('#story-short .en');
-    const shortES=document.querySelector('#story-short .es');
-    const longEN=document.querySelector('#story-long .en');
-    const longES=document.querySelector('#story-long .es');
-    const whenOpen=document.querySelector('.when-open');
-    const whenClosed=document.querySelector('.when-closed');
+  // --- Language toggle ---
+  const en = document.getElementById('content-en');
+  const es = document.getElementById('content-es');
+  const btnEn = document.getElementById('btn-en');
+  const btnEs = document.getElementById('btn-es');
+  function setLang(lang){
+    const isEn = lang === 'en';
+    en.style.display = isEn ? 'block' : 'none';
+    es.style.display = isEn ? 'none' : 'block';
+    btnEn.classList.toggle('active', isEn);
+    btnEs.classList.toggle('active', !isEn);
+  }
+  btnEn.addEventListener('click', ()=>setLang('en'));
+  btnEs.addEventListener('click', ()=>setLang('es'));
 
-    function setLang(lang){
-      langBtns.forEach(b=>{
-        const on=b.dataset.lang===lang;
-        b.classList.toggle('active',on);
-        b.setAttribute('aria-pressed',on?'true':'false');
-      });
-      shortEN.hidden=lang!=='en'; shortES.hidden=lang!=='es';
-      longEN.hidden=lang!=='en';  longES.hidden=lang!=='es';
-      document.querySelector('[data-i18n="title"]').textContent=(lang==='en')?'Our Story':'Nuestra Historia';
-      document.querySelectorAll('[data-i18n="cta"]').forEach(a=>{
-        a.textContent=(lang==='en')
-          ? 'Choose the membership plan that works best for your situation. You can upgrade at any time.'
-          : 'Elige el plan de membresía que mejor se ajuste a tu situación. Puedes mejorar de nivel en cualquier momento.';
-      });
-      whenClosed.textContent=(lang==='en')?'Read the full story':'Leer la historia completa';
-      whenOpen.textContent=(lang==='en')?'Hide the full story':'Ocultar la historia';
+  // --- PayPal Plan IDs (replace these) ---
+  const PLANS = {
+    normal: {
+      basic:   'BASIC_PLAN_ID',
+      growth:  'GROWTH_PLAN_ID',
+      pro:     'PRO_PLAN_ID',
+    },
+    discount: {
+      basic:   'BASIC_PLAN_ID_DISCOUNT',   // e.g., $5 promo plan you create
+      growth:  'GROWTH_PLAN_ID_DISCOUNT',
+      pro:     'PRO_PLAN_ID_DISCOUNT',
     }
+  };
 
-    storyToggle.addEventListener('click', ()=>{
-      const open=storyToggle.getAttribute('aria-expanded')==='true';
-      storyToggle.setAttribute('aria-expanded', String(!open));
-      longCard.hidden=open;
-      whenOpen.style.display=!open?'inline':'none';
-      whenClosed.style.display=open?'inline':'none';
-    });
-    langBtns.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
-    setLang('en');
-  })();
+  // Which set of plan IDs to use
+  let useDiscount = false;
+
+  // --- Render PayPal buttons for a given container and plan ---
+  function renderSubButton(containerId, planId){
+    if(!window.paypal){ console.warn('PayPal SDK not loaded'); return; }
+    const container = document.getElementById(containerId);
+    container.innerHTML = ''; // clear any previous render
+    paypal.Buttons({
+      style: {
+        layout:  'vertical',
+        color:   'gold',
+        shape:   'pill',
+        label:   'subscribe',
+        tagline: false,
+        height:  48   // Large button height
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({ plan_id: planId });
+      },
+      onApprove: function(data, actions) {
+        // You could show a thank-you or redirect
+        alert('Thanks! Your subscription ID is: ' + data.subscriptionID);
+      }
+    }).render('#' + containerId);
+  }
+
+  // Initial render (normal plans)
+  function renderAll(){
+    const kind = useDiscount ? 'discount' : 'normal';
+    renderSubButton('pp-basic',  PLANS[kind].basic);
+    renderSubButton('pp-growth', PLANS[kind].growth);
+    renderSubButton('pp-pro',    PLANS[kind].pro);
+    // ES mirrors EN
+    renderSubButton('pp-basic-es',  PLANS[kind].basic);
+    renderSubButton('pp-growth-es', PLANS[kind].growth);
+    renderSubButton('pp-pro-es',    PLANS[kind].pro);
+  }
+
+  // --- Promo handling (maps a code to your discount plan IDs) ---
+  function applyPromo(inputId, statusId){
+    const code = (document.getElementById(inputId).value || '').trim().toUpperCase();
+    const status = document.getElementById(statusId);
+    if(code === 'EDU5'){
+      useDiscount = true;
+      status.textContent = 'Promo applied. Prices will reflect at PayPal checkout.';
+      renderAll();
+    }else if(code){
+      useDiscount = false;
+      status.textContent = 'Invalid code.';
+      renderAll();
+    }
+  }
+  document.getElementById('apply-promo').addEventListener('click', ()=>applyPromo('promo-code','promo-status'));
+  document.getElementById('apply-promo-es').addEventListener('click', ()=>applyPromo('promo-code-es','promo-status-es'));
+
+  // Kick off
+  renderAll();
 </script>
 </body>
 </html>
