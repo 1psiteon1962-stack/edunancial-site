@@ -1,16 +1,17 @@
-/membership             /memberships.html   301
-/memberships            /memberships.html   200
-/memberships/           /memberships.html   200
-/membresia              /memberships.html   301
-/membresias             /memberships.html   200
-/membresias/            /memberships.html   200
+/membership      /memberships.html   301
+/memberships     /memberships.html   200
+/memberships/    /memberships.html   200
 
-/plans                  /memberships.html   301
-/pricing                /memberships.html   301
+/membresia       /memberships.html   301
+/membresias      /memberships.html   200
+/membresias/     /memberships.html   200
 
-/catalog                /catalog.html       200
-/catalog/               /catalog.html       200
-/catalogo               /catalog.html       200
-/catalogo/              /catalog.html       200
+/plans           /memberships.html   301
+/pricing         /memberships.html   301
 
-/*                      /index.html         200
+/catalog         /catalog.html       200
+/catalog/        /catalog.html       200
+/catalogo        /catalog.html       200
+/catalogo/       /catalog.html       200
+
+/*               /index.html         200
