@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memberships - Edunancial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height:1.6; text-align:center; }
+    h1 { color:#e02424; }
+    .plan {
+      border: 2px solid #ddd; border-radius:12px;
+      padding:20px; margin:20px auto; max-width:400px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+    .price { font-size:24px; font-weight:700; margin:10px 0; }
+    button {
+      background:#e02424; color:white; padding:14px 20px;
+      border:none; border-radius:8px; font-size:18px;
+      cursor:pointer; width:100%;
+    }
+    button:hover { background:#c81e1e; }
+  </style>
+</head>
+<body>
+
+<h1>Choose Your Membership</h1>
+
+<div class="plan">
+  <h2>Basic Plan</h2>
+  <p class="price">$9.99/month<br><small>First month only $5</small></p>
+  <!-- Replace with actual PayPal subscription button -->
+  <button onclick="alert('Connect to PayPal Basic Plan')">Subscribe</button>
+</div>
+
+<div class="plan">
+  <h2>Standard Plan</h2>
+  <p class="price">$29.99/month</p>
+  <button onclick="alert('Connect to PayPal Standard Plan')">Subscribe</button>
+</div>
+
+<div class="plan">
+  <h2>Premium Plan</h2>
+  <p class="price">$59.99/month</p>
+  <button onclick="alert('Connect to PayPal Premium Plan')">Subscribe</button>
+</div>
+
+</body>
+</html>
