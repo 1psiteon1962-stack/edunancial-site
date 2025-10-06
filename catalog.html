@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Edunancial — Catalog</title>
+<link rel="stylesheet" href="style.css"/>
+<!-- PayPal SDK (LIVE) for one-time purchases -->
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&currency=USD"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">Edunancial</div>
+  <nav class="nav">
+    <a href="index.html">Our Story</a>
+    <a href="memberships.html">Memberships</a>
+    <a href="catalog.html" class="active">Catalog</a>
+  </nav>
+  <div class="lang-toggle">
+    <button id="btn-en" class="pill active">EN</button>
+    <button id="btn-es" class="pill">ES</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- EN -->
+  <section id="cat-en" class="lang active">
+    <h1>Catalog</h1>
+    <p class="muted">One-time purchases are processed by PayPal.</p>
+
+    <div class="grid2">
+      <article class="item">
+        <h4>Workbook: Foundations</h4>
+        <p class="muted">$19.00 • PDF download</p>
+        <div id="btn-onetime-1-en"></div>
+      </article>
+
+      <article class="item">
+        <h4>Mini-Course: Getting Started</h4>
+        <p class="muted">$39.00 • Self-paced video</p>
+        <div id="btn-onetime-2-en"></div>
+      </article>
+
+      <!-- Add more items by duplicating the blocks above -->
+    </div>
+  </section>
+
+  <!-- ES -->
+  <section id="cat-es" class="lang">
+    <h1>Catálogo</h1>
+    <p class="muted">Pagos únicos procesados por PayPal.</p>
+
+    <div class="grid2">
+      <article class="item">
+        <h4>Cuaderno: Fundamentos</h4>
+        <p class="muted">$19.00 • PDF</p>
+        <div id="btn-onetime-1-es"></div>
+      </article>
+
+      <article class="item">
+        <h4>Mini-curso: Comenzando</h4>
+        <p class="muted">$39.00 • Video</p>
+        <div id="btn-onetime-2-es"></div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© <span id="yr"></span> Edunancial</footer>
+
+<script>
+  // Language toggle (persist)
+  const en = document.getElementById('cat-en');
+  const es = document.getElementById('cat-es');
+  const btnEN = document.getElementById('btn-en');
+  const btnES = document.getElementById('btn-es');
+  function setLang(code){
+    const isEN = code === 'en';
+    en.classList.toggle('active', isEN);
+    es.classList.toggle('active', !isEN);
+    btnEN.classList.toggle('active', isEN);
+    btnES.classList.toggle('active', !isEN);
+    localStorage.setItem('ed_lang', code);
+  }
+  btnEN.addEventListener('click', ()=>setLang('en'));
+  btnES.addEventListener('click', ()=>setLang('es'));
+  setLang(localStorage.getItem('ed_lang') || 'en');
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // One-time PayPal buttons
+  const items = {
+    en1: { name:'Workbook: Foundations', value:'19.00' },
+    en2: { name:'Mini-Course: Getting Started', value:'39.00' },
+    es1: { name:'Cuaderno: Fundamentos', value:'19.00' },
+    es2: { name:'Mini-curso: Comenzando', value:'39.00' }
+  };
+
+  function renderOneTime(){
+    if(!window.paypal) return;
+
+    paypal.Buttons({
+      style:{ layout:'horizontal', label:'paypal' },
+      createOrder:(data,actions)=>actions.order.create({
+        purchase_units:[{ amount:{ value: items.en1.value }, description: items.en1.name }]
+      }),
+      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('Thank you for your purchase!'))
+    }).render('#btn-onetime-1-en');
+
+    paypal.Buttons({
+      style:{ layout:'horizontal', label:'paypal' },
+      createOrder:(data,actions)=>actions.order.create({
+        purchase_units:[{ amount:{ value: items.en2.value }, description: items.en2.name }]
+      }),
+      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('Thank you for your purchase!'))
+    }).render('#btn-onetime-2-en');
+
+    // ES mirrors EN
+    paypal.Buttons({
+      style:{ layout:'horizontal', label:'paypal' },
+      createOrder:(data,actions)=>actions.order.create({
+        purchase_units:[{ amount:{ value: items.es1.value }, description: items.es1.name }]
+      }),
+      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('¡Gracias por tu compra!'))
+    }).render('#btn-onetime-1-es');
+
+    paypal.Buttons({
+      style:{ layout:'horizontal', label:'paypal' },
+      createOrder:(data,actions)=>actions.order.create({
+        purchase_units:[{ amount:{ value: items.es2.value }, description: items.es2.name }]
+      }),
+      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('¡Gracias por tu compra!'))
+    }).render('#btn-onetime-2-es');
+  }
+  renderOneTime();
+</script>
+</body>
+</html>
