@@ -32,10 +32,9 @@
       document.getElementById(lang).classList.add('active');
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
       document.getElementById(lang + '-btn').classList.add('active');
-      // Keep html lang in sync for accessibility/SEO
       document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'es');
     }
-    window.onload = () => switchLang('en'); // default to English
+    window.onload = () => switchLang('en');
   </script>
 </head>
 <body>
@@ -48,7 +47,6 @@
   <!-- English Story -->
   <div id="en" class="story-section">
     <h1>Our Story</h1>
-
     <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:
     “How did you make money like that?” I said, “By using my head.”</p>
 
@@ -73,15 +71,12 @@
     dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will
     only improve over time.</p>
 
-    <a class="cta" href="/memberships" aria-label="Go to memberships">
-      I invite you to join the Edunancial family—choose a membership to start. You can upgrade at any time.
-    </a>
+    <a class="cta" href="/memberships.html">Join the Edunancial Family</a>
   </div>
 
   <!-- Spanish Story -->
   <div id="es" class="story-section">
     <h1>Nuestra Historia</h1>
-
     <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando se reflejó un depósito en línea. Sus ojos se abrieron:
     “¿Cómo hiciste dinero así?” Le respondí: “Usando mi cabeza.”</p>
 
@@ -106,9 +101,7 @@
     de comida para perros. Como padre, me siento bien al saber que tiene una base sólida para un aprendizaje de por vida
     que solo mejorará con el tiempo.</p>
 
-    <a class="cta" href="/memberships" aria-label="Ir a membresías">
-      Te invito a unirte a la familia de Edunancial—elige la membresía para comenzar. Puedes mejorar tu plan en cualquier momento.
-    </a>
+    <a class="cta" href="/memberships.html">Únete a la Familia Edunancial</a>
   </div>
 
 </body>
