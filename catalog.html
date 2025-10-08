@@ -1,137 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Edunancial — Catalog</title>
-<link rel="stylesheet" href="style.css"/>
-<!-- PayPal SDK (LIVE) for one-time purchases -->
-<script src="https://www.paypal.com/sdk/js?client-id=YOUR_LIVE_CLIENT_ID&currency=USD"></script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Catalog — Edunancial</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    :root{--brand:#e02424}
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;line-height:1.65;color:#111}
+    header{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff}
+    .brand{font-weight:800;letter-spacing:.2px}
+    nav a{margin-right:14px;text-decoration:none;color:#333}
+    .wrap{max-width:960px;margin:24px auto;padding:0 16px}
+    h1{margin:8px 0 16px;font-size:1.8rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .card{border:1px solid #eee;border-radius:16px;padding:16px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+    .price{font-size:1.4rem;margin:6px 0 12px}
+    .btn{display:inline-block;background:var(--brand);color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:700}
+    .btn.outline{background:#fff;color:var(--brand);border:2px solid var(--brand)}
+    .muted{color:#666;font-size:.95rem}
+    footer{padding:36px 0;color:#666;text-align:center}
+  </style>
+
+  <!-- Member/Non-member toggle script -->
+  <script>
+  function isMember(){
+    return document.cookie.split('; ').some(c => c.startsWith('ed_member='));
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const member = isMember();
+    // Show/hide buttons
+    document.querySelectorAll('[data-nonmember]').forEach(el => el.style.display = member ? 'none':'inline-block');
+    document.querySelectorAll('[data-member]').forEach(el => el.style.display = member ? 'inline-block':'none');
+    // Optional badge on header
+    const badge = document.getElementById('memberBadge');
+    if (badge) badge.textContent = member ? 'Member pricing active' : '';
+  });
+  </script>
 </head>
 <body>
-<header class="site-header">
-  <div class="brand">Edunancial</div>
-  <nav class="nav">
-    <a href="index.html">Our Story</a>
-    <a href="memberships.html">Memberships</a>
-    <a href="catalog.html" class="active">Catalog</a>
-  </nav>
-  <div class="lang-toggle">
-    <button id="btn-en" class="pill active">EN</button>
-    <button id="btn-es" class="pill">ES</button>
-  </div>
-</header>
+  <header>
+    <div class="brand">Edunancial</div>
+    <nav>
+      <a href="/index.html">Our Story</a>
+      <a href="/memberships.html">Memberships</a>
+      <a href="/catalog.html"><strong>Catalog</strong></a>
+    </nav>
+  </header>
 
-<main class="wrap">
-  <!-- EN -->
-  <section id="cat-en" class="lang active">
+  <div class="wrap">
     <h1>Catalog</h1>
-    <p class="muted">One-time purchases are processed by PayPal.</p>
+    <p class="muted" id="memberBadge"></p>
 
-    <div class="grid2">
-      <article class="item">
-        <h4>Workbook: Foundations</h4>
-        <p class="muted">$19.00 • PDF download</p>
-        <div id="btn-onetime-1-en"></div>
-      </article>
+    <!-- Example products/courses -->
+    <div class="grid">
 
-      <article class="item">
-        <h4>Mini-Course: Getting Started</h4>
-        <p class="muted">$39.00 • Self-paced video</p>
-        <div id="btn-onetime-2-en"></div>
-      </article>
+      <!-- COURSE EXAMPLE 1 -->
+      <div class="card">
+        <h3>Intro to Paper Assets</h3>
+        <div class="price">Public: $39 &nbsp; • &nbsp; Member: $29</div>
+        <p class="muted">Self-paced video + live Q&amp;A. Includes worksheets and examples.</p>
 
-      <!-- Add more items by duplicating the blocks above -->
+        <!-- Non-member price button (public PayPal link) -->
+        <a class="btn" data-nonmember
+           href="PAYPAL_LINK_PUBLIC_COURSE_1">Buy with PayPal ($39)</a>
+
+        <!-- Member price button (members-only PayPal link) -->
+        <a class="btn" data-member style="display:none"
+           href="PAYPAL_LINK_MEMBER_COURSE_1">Member Price ($29)</a>
+      </div>
+
+      <!-- COURSE EXAMPLE 2 -->
+      <div class="card">
+        <h3>Real Estate Fundamentals</h3>
+        <div class="price">Public: $59 &nbsp; • &nbsp; Member: $45</div>
+        <p class="muted">Analyze deals using the Red/White/Blue framework. Live Zoom session.</p>
+
+        <a class="btn" data-nonmember
+           href="PAYPAL_LINK_PUBLIC_COURSE_2">Buy with PayPal ($59)</a>
+
+        <a class="btn" data-member style="display:none"
+           href="PAYPAL_LINK_MEMBER_COURSE_2">Member Price ($45)</a>
+      </div>
+
+      <!-- BOOK / PRODUCT EXAMPLE -->
+      <div class="card">
+        <h3>Edunancial Pamphlet (PDF)</h3>
+        <div class="price">Public: $9.99 &nbsp; • &nbsp; Member: $5.00</div>
+        <p class="muted">Quick-start reference to the Red, White &amp; Blue method.</p>
+
+        <a class="btn outline" data-nonmember
+           href="PAYPAL_LINK_PUBLIC_BOOK_1">Buy with PayPal ($9.99)</a>
+
+        <a class="btn outline" data-member style="display:none"
+           href="PAYPAL_LINK_MEMBER_BOOK_1">Member Price ($5.00)</a>
+      </div>
+
     </div>
-  </section>
+  </div>
 
-  <!-- ES -->
-  <section id="cat-es" class="lang">
-    <h1>Catálogo</h1>
-    <p class="muted">Pagos únicos procesados por PayPal.</p>
-
-    <div class="grid2">
-      <article class="item">
-        <h4>Cuaderno: Fundamentos</h4>
-        <p class="muted">$19.00 • PDF</p>
-        <div id="btn-onetime-1-es"></div>
-      </article>
-
-      <article class="item">
-        <h4>Mini-curso: Comenzando</h4>
-        <p class="muted">$39.00 • Video</p>
-        <div id="btn-onetime-2-es"></div>
-      </article>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">© <span id="yr"></span> Edunancial</footer>
-
-<script>
-  // Language toggle (persist)
-  const en = document.getElementById('cat-en');
-  const es = document.getElementById('cat-es');
-  const btnEN = document.getElementById('btn-en');
-  const btnES = document.getElementById('btn-es');
-  function setLang(code){
-    const isEN = code === 'en';
-    en.classList.toggle('active', isEN);
-    es.classList.toggle('active', !isEN);
-    btnEN.classList.toggle('active', isEN);
-    btnES.classList.toggle('active', !isEN);
-    localStorage.setItem('ed_lang', code);
-  }
-  btnEN.addEventListener('click', ()=>setLang('en'));
-  btnES.addEventListener('click', ()=>setLang('es'));
-  setLang(localStorage.getItem('ed_lang') || 'en');
-  document.getElementById('yr').textContent = new Date().getFullYear();
-
-  // One-time PayPal buttons
-  const items = {
-    en1: { name:'Workbook: Foundations', value:'19.00' },
-    en2: { name:'Mini-Course: Getting Started', value:'39.00' },
-    es1: { name:'Cuaderno: Fundamentos', value:'19.00' },
-    es2: { name:'Mini-curso: Comenzando', value:'39.00' }
-  };
-
-  function renderOneTime(){
-    if(!window.paypal) return;
-
-    paypal.Buttons({
-      style:{ layout:'horizontal', label:'paypal' },
-      createOrder:(data,actions)=>actions.order.create({
-        purchase_units:[{ amount:{ value: items.en1.value }, description: items.en1.name }]
-      }),
-      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('Thank you for your purchase!'))
-    }).render('#btn-onetime-1-en');
-
-    paypal.Buttons({
-      style:{ layout:'horizontal', label:'paypal' },
-      createOrder:(data,actions)=>actions.order.create({
-        purchase_units:[{ amount:{ value: items.en2.value }, description: items.en2.name }]
-      }),
-      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('Thank you for your purchase!'))
-    }).render('#btn-onetime-2-en');
-
-    // ES mirrors EN
-    paypal.Buttons({
-      style:{ layout:'horizontal', label:'paypal' },
-      createOrder:(data,actions)=>actions.order.create({
-        purchase_units:[{ amount:{ value: items.es1.value }, description: items.es1.name }]
-      }),
-      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('¡Gracias por tu compra!'))
-    }).render('#btn-onetime-1-es');
-
-    paypal.Buttons({
-      style:{ layout:'horizontal', label:'paypal' },
-      createOrder:(data,actions)=>actions.order.create({
-        purchase_units:[{ amount:{ value: items.es2.value }, description: items.es2.name }]
-      }),
-      onApprove:(data,actions)=>actions.order.capture().then(()=>alert('¡Gracias por tu compra!'))
-    }).render('#btn-onetime-2-es');
-  }
-  renderOneTime();
-</script>
+  <footer>
+    © <script>document.write(new Date().getFullYear())</script> Edunancial
+  </footer>
 </body>
 </html>
