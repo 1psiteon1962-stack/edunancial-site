@@ -1,53 +1,69 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edunancial — Our Story</title>
-  <link rel="stylesheet" href="/style.css"/>
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    /* lightweight nav (safe to keep if your CSS lacks it) */
+    .site-nav{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:100}
+    .site-nav .nav-wrap{max-width:1100px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+    .site-nav .brand{font-weight:800;text-decoration:none;color:#c00;font-size:18px;white-space:nowrap}
+    .site-nav .links{display:flex;gap:14px;flex-wrap:wrap}
+    .site-nav .links a{text-decoration:none;color:#333;font-weight:600}
+    .site-nav .lang{margin-left:auto;display:flex;gap:8px}
+    .site-nav .lang a{border:1px solid #c00;color:#c00;padding:6px 10px;border-radius:18px;text-decoration:none;font-weight:700}
+    .site-nav .lang a:hover{background:#c00;color:#fff}
+    .cta-banner{max-width:1100px;margin:24px auto;padding:16px;border-radius:8px;background:#c00;color:#fff}
+    .cta-banner a{color:#fff;text-decoration:underline}
+    main{max-width:1100px;margin:18px auto;padding:0 16px;line-height:1.65}
+    h1{margin-top:8px}
+    .btn-primary{display:inline-block;background:#c00;color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+  </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="brand"><a href="/index.html">Edunancial</a></div>
-    <nav class="nav-links">
-      <a href="/our-story.html">Our Story</a>
+
+<!-- NAV (English) -->
+<header class="site-nav">
+  <div class="nav-wrap">
+    <a class="brand" href="/index.html">Edunancial</a>
+    <nav class="links">
+      <a href="/index.html">Our Story</a>
       <a href="/memberships-en.html">Memberships</a>
       <a href="/catalog.html">Catalog</a>
+      <a href="/videos.html">Videos</a>
+      <a href="/contact.html">Contact</a>
     </nav>
-    <div class="lang-toggle">
-      <a id="btn-en" class="pill">EN</a>
-      <a id="btn-es" class="pill">ES</a>
+    <div class="lang">
+      <a id="langEN" href="/index.html" aria-label="View English">EN</a>
+      <a id="langES" href="/index-es.html" aria-label="Ver en español">ES</a>
     </div>
-  </header>
-
-  <main class="container" style="max-width:860px;margin:1.2rem auto;padding:0 1rem;">
-    <h1>Our Story</h1>
-
-    <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide: “How did you make money like that?” I said, “By using my head.” Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
-
-    <p>At 11, he started buying silver coins. This taught him discipline and ensured he was putting his money into an asset instead of spending it like many kids do—on games and candy—things that don’t put money back in your pocket.</p>
-
-    <p>Around 12 years old, he started making lists of stocks he wanted to purchase. I had him analyze those stocks to see whether they were overvalued or undervalued. After he came back with his answers and reasons, we bought the stocks. His results produced an average ROI of 7–12%.</p>
-
-    <p>At 15, he decided to not only purchase silver, but also gold. Today we are exploring other possibilities, including precious gems such as diamonds, rubies, or emeralds.</p>
-
-    <p>The Red, White, and Blue methodology isn’t about telling you <em>what</em> to buy. It helps you ask the right question first: <em>Why am I buying this? What is it going to do for me?</em> It puts you in control of your own financial future.</p>
-
-    <p>Today, my son continues to use the Red, White, and Blue to build his financial future—he is now planning a dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will only improve over time.</p>
-  </main>
-
-  <!-- Sticky CTA Banner (EN) -->
-  <div id="cta-banner" class="cta">
-    <p>I invite you to join the Edunancial family—choose a membership to start. You can upgrade at any time.</p>
-    <a href="/memberships-en.html" class="cta-btn">Select a Membership that works for you</a>
   </div>
+</header>
 
-  <style>
-  #cta-banner.cta{position:sticky;bottom:0;left:0;right:0;background:#d33;color:#fff;padding:1rem;display:flex;flex-direction:column;gap:.6rem;z-index:999}
-  #cta-banner .cta-btn{display:inline-block;background:#fff;color:#d33;font-weight:700;padding:.75rem 1rem;border-radius:.75rem;text-align:center}
-  @media(min-width:640px){#cta-banner.cta{flex-direction:row;justify-content:space-between;align-items:center}}
-  </style>
+<main>
+  <h1>Our Story</h1>
 
-  <script src="/js/header.js"></script>
+  <p>One afternoon when my son was 11, the mail arrived with a deposit notification. His eyes went wide. “How did you make money like that?” I said, “By using my head.” Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” That’s when <strong>Edunancial</strong> was born.</p>
+
+  <p>At 11, he started buying silver coins. This taught him discipline. It ensured he was putting money into an <em>asset</em>—not spending it, like many kids, on candy or games that wouldn’t put money in his pocket.</p>
+
+  <p>Around 12, he began making lists of stocks he wanted to purchase. I had him analyze each one: Was it overvalued or undervalued? Why? After he returned with his answers and reasons, we bought the stocks. His results produced an average ROI of <strong>7–12%</strong>.</p>
+
+  <p>At 15, he decided to purchase not only silver, but also gold. Today we are exploring other possibilities, including precious gems such as diamonds, rubies, or emeralds.</p>
+
+  <p>The <strong>Red, White, and Blue</strong> methodology isn’t about telling you <em>what</em> to buy. It helps you ask the right question first: <em>Why am I buying this? What is it going to do for me?</em> It puts you in control of your own financial future.</p>
+
+  <p>Today, my son continues to use the Red, White, and Blue to build his financial future—he is now planning a dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will only improve over time.</p>
+
+  <div class="cta-banner">
+    <strong>I invite you to join the Edunancial family—select a membership that works for you.</strong>
+    You can upgrade at any time. <br><br>
+    <a class="btn-primary" href="/memberships-en.html">Select a Membership</a>
+  </div>
+</main>
+
+<script src="/js/header.js?v=4"></script>
 </body>
 </html>
