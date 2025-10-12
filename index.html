@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Edunancial – Where Education and Financial Literacy Meet</title>
 <meta name="description" content="Edunancial – Bilingual financial education and membership plans empowering new generations to build wealth." />
+<!-- PayPal Client ID: leave 'sb' for sandbox; replace with LIVE ID to charge real money -->
 <meta name="paypal-client-id" content="sb">
 
 <style>
@@ -16,32 +17,33 @@
   --muted:#6b7280;
   --white:#fff;
 }
-* {box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);}
 header{background:var(--brand);color:#fff;padding:16px;text-align:center;}
-header h1{margin-bottom:4px;}
-nav button{margin:0 4px;padding:8px 12px;border:2px solid #fff;background:transparent;color:#fff;border-radius:8px;cursor:pointer;font-weight:700;}
-nav button.active{background:#fff;color:var(--brand);}
-main{max-width:1100px;margin:0 auto;padding:20px;}
-.section{display:none;}
-.section.active{display:block;}
-.grid{display:grid;gap:16px;}
-@media(min-width:850px){.grid{grid-template-columns:repeat(3,1fr);}}
-.card{background:#fff;border-radius:14px;box-shadow:0 4px 12px rgba(0,0,0,.08);padding:20px;}
-.card h3{color:var(--brand);}
-.price{font-size:28px;font-weight:900;margin:8px 0;}
-.muted{color:var(--muted);}
-ul{margin-left:20px;line-height:1.6;}
-.coupon{display:flex;gap:8px;margin:10px 0;}
-.coupon input{flex:1;padding:8px;border:1px solid #ccc;border-radius:8px;}
-.coupon button{background:var(--brand);color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer;}
-.paypal-zone{min-height:48px;margin-top:10px;}
-.cta{display:inline-block;margin-top:16px;background:var(--brand);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;}
-footer{text-align:center;color:#666;margin-top:40px;padding:20px;}
-footer nav a{margin:0 8px;color:var(--brand);text-decoration:none;font-weight:600;}
-footer nav a:hover{text-decoration:underline;}
-h2{margin-top:20px;}
-p{margin-bottom:10px;line-height:1.5;}
+header h1{margin-bottom:4px;letter-spacing:.5px}
+nav button{margin:0 4px;padding:8px 12px;border:2px solid #fff;background:transparent;color:#fff;border-radius:8px;cursor:pointer;font-weight:700}
+nav button.active{background:#fff;color:var(--brand)}
+main{max-width:1100px;margin:0 auto;padding:20px}
+.section{display:none}
+.section.active{display:block}
+h2{margin:18px 0 8px}
+p{line-height:1.6;margin:8px 0}
+.grid{display:grid;gap:16px}
+@media(min-width:850px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border-radius:14px;box-shadow:0 4px 12px rgba(0,0,0,.08);padding:20px}
+.card h3{color:var(--brand)}
+.price{font-size:28px;font-weight:900;margin:8px 0}
+.muted{color:var(--muted)}
+ul{margin-left:20px;line-height:1.6}
+.coupon{display:flex;gap:8px;margin:10px 0}
+.coupon input{flex:1;padding:8px;border:1px solid #ccc;border-radius:8px}
+.coupon button{background:var(--brand);color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer}
+.paypal-zone{min-height:48px;margin-top:10px}
+footer{text-align:center;color:#666;margin:32px 0 20px;padding:0 16px}
+footer nav a{margin:0 8px;color:var(--brand);text-decoration:none;font-weight:600}
+footer nav a:hover{text-decoration:underline}
+hr{border:0;border-top:1px solid #e5e7eb;margin:18px 0}
+.em{font-style:italic}
 </style>
 </head>
 
@@ -59,117 +61,175 @@ p{margin-bottom:10px;line-height:1.5;}
   <!-- ENGLISH -->
   <section id="en" class="section">
     <h2>Our Story</h2>
-    <p>One afternoon when my son was 11, he asked: “How did you make money like that?” I replied, “With my head.” Then I asked, “Do you want to learn to make money with your head too?” That’s how <b>Edunancial</b> began.</p>
-    <p>At 11 he started buying silver, learning assets vs liabilities. At 12 he valued companies before buying stocks. At 15 he began acquiring real assets—gems, gold, and now his own dog food brand.</p>
-    <p>The Red, White, and Blue paths teach wealth: Real Estate, Paper Assets, and Business Ownership.</p>
 
-    <h3>Memberships</h3>
+    <p>When my son was 11, he walked into my room just as an online deposit hit my account on my phone.<br>
+    He looked at it and said, “Dad, how did you make money like that?”</p>
+
+    <p>I looked at him and said, “With my head.”</p>
+
+    <p>He thought for a moment — and I asked, “Would you like to learn how to make money with your head too?”</p>
+
+    <p>He replied, “Yes, but I don’t know how.”<br>
+    I didn’t know it at the time, but that was when <b>Edunancial</b> was born.</p>
+
+    <p>From that day forward, we began to learn together.<br>
+    He started using his allowance to buy silver bars or coins.<br>
+    It taught him discipline as he bought assets instead of liabilities.<br>
+    I had the challenge of explaining complex items in a clear, understandable way.<br>
+    I explained that there were three ways to build, keep, and pass on wealth:
+    <b>Red</b> (Real Estate), <b>White</b> (Paper Assets), and <b>Blue</b> (Business).</p>
+
+    <p>At twelve, he created a list of stocks that he wanted to buy.<br>
+    I had him research the stocks to see if they were overvalued or undervalued and explain to me why he wanted to buy the stock based on his research — because if he did not know why he should or should not make the purchase, then the correct answer was <span class="em">don’t make the purchase.</span><br>
+    Today, at fifteen, he buys physical gold and is planning a dog food company.</p>
+
+    <p>My eleven-year-old started his financial literacy journey using Red, White, and Blue.<br>
+    I know he has a foundation that will only get better over the years and last a lifetime.</p>
+
+    <p><b>I invite you to begin or enhance your own financial literacy knowledge.</b><br>
+    <b>Red, White, and Blue is designed to help you think, act, and grow like an investor or business owner.</b></p>
+
+    <hr>
+
+    <h2>Memberships</h2>
+    <p>Choose your plan to start building the mindset and tools that create lasting independence.</p>
+
     <div class="grid">
+      <!-- Entry -->
       <div class="card" data-base="9.99">
         <h3>Entry Plan</h3>
-        <p class="price">$<span class="amount">9.99</span><span class="muted">/month</span></p>
+        <p class="price">$<span class="amount">9.99</span> <span class="muted">/month</span></p>
         <ul>
           <li>Digital pamphlet + starter lessons</li>
           <li>15% coupon for one mini-course</li>
           <li>Exclusive financial literacy tools</li>
         </ul>
-        <div class="coupon"><input placeholder="Coupon code"><button class="apply">Apply</button></div>
+        <div class="coupon">
+          <input placeholder="Coupon code" aria-label="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
         <div id="pp-entry-en" class="paypal-zone"></div>
       </div>
+
+      <!-- Standard -->
       <div class="card" data-base="29.00">
         <h3>Standard Plan</h3>
-        <p class="price">$<span class="amount">29.00</span><span class="muted">/month</span></p>
+        <p class="price">$<span class="amount">29.00</span> <span class="muted">/month</span></p>
         <ul>
           <li>All Entry benefits</li>
           <li>Full library of books & courses</li>
           <li>Monthly progress tracker</li>
         </ul>
-        <div class="coupon"><input placeholder="Coupon code"><button class="apply">Apply</button></div>
+        <div class="coupon">
+          <input placeholder="Coupon code" aria-label="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
         <div id="pp-standard-en" class="paypal-zone"></div>
       </div>
+
+      <!-- Premium -->
       <div class="card" data-base="59.00">
         <h3>Premium Plan</h3>
-        <p class="price">$<span class="amount">59.00</span><span class="muted">/month</span></p>
+        <p class="price">$<span class="amount">59.00</span> <span class="muted">/month</span></p>
         <ul>
           <li>All Standard benefits</li>
           <li>Live monthly coaching call</li>
           <li>Exclusive Edunancial Club access</li>
         </ul>
-        <div class="coupon"><input placeholder="Coupon code"><button class="apply">Apply</button></div>
+        <div class="coupon">
+          <input placeholder="Coupon code" aria-label="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
         <div id="pp-premium-en" class="paypal-zone"></div>
       </div>
     </div>
-
-    <h3>Books & Courses</h3>
-    <div class="grid">
-      <div class="card"><h3>Options Trading (White)</h3><p>Learn calls, puts, and strategies for paper assets.</p></div>
-      <div class="card"><h3>Tax Liens & Tax Deeds (Red)</h3><p>Build real wealth through government sales and property rights.</p></div>
-      <div class="card"><h3>Business is About Making Profit (Blue)</h3><p>Turn vision into execution and long-term ownership.</p></div>
-    </div>
-
-    <h3>Privacy Policy</h3>
-    <p>We collect basic personal data (email, name) only for membership purposes. Payments are handled securely through PayPal; Edunancial never stores your card details. Live chat is powered by Tidio, which maintains its own privacy policy.</p>
-
-    <h3>Terms of Use</h3>
-    <p>All educational content is for learning purposes only and does not constitute financial, legal, or tax advice. By using this site you agree to our terms and jurisdiction under Florida law.</p>
   </section>
 
   <!-- SPANISH -->
   <section id="es" class="section">
     <h2>Nuestra Historia</h2>
-    <p>Una tarde, cuando mi hijo tenía 11 años, me preguntó: “¿Cómo hiciste dinero así?” Le respondí: “Con mi cabeza.” Luego le pregunté: “¿Quieres aprender a ganar dinero con tu cabeza también?” Así nació <b>Edunancial</b>.</p>
-    <p>A los 11 comenzó a comprar plata, aprendiendo la diferencia entre activos y pasivos. A los 12 evaluaba empresas antes de invertir. A los 15 comenzó a adquirir activos reales: gemas, oro y ahora su propia marca de comida para perros.</p>
-    <p>El método Rojo, Blanco y Azul enseña tres caminos hacia la riqueza: Bienes Raíces, Activos Financieros y Propiedad de Negocios.</p>
 
-    <h3>Membresías</h3>
+    <p>Cuando mi hijo tenía 11 años, entró en mi habitación justo cuando un depósito en línea llegó a mi cuenta en el teléfono.<br>
+    Lo miró y dijo: “Papá, ¿cómo hiciste dinero así?”</p>
+
+    <p>Le respondí: “Con mi cabeza.”</p>
+
+    <p>Luego le pregunté: “¿Quieres aprender a hacer dinero con tu cabeza también?”</p>
+
+    <p>Él respondió: “Sí, pero no sé cómo.”<br>
+    En ese momento no lo sabía, pero ahí fue cuando nació <b>Edunancial</b>.</p>
+
+    <p>Desde ese día empezamos a aprender juntos.<br>
+    Comenzó usando su mesada para comprar barras o monedas de plata.<br>
+    Eso le enseñó disciplina al comprar activos en lugar de pasivos.<br>
+    Yo tuve el reto de explicarle temas complejos de forma clara y comprensible.<br>
+    Le expliqué que había tres formas de construir, mantener y heredar riqueza:
+    <b>Rojo</b> (Bienes Raíces), <b>Blanco</b> (Activos Financieros) y <b>Azul</b> (Negocios).</p>
+
+    <p>A los doce años, creó una lista de acciones que quería comprar.<br>
+    Le pedí que investigara si estaban sobrevaloradas o subvaloradas y que me explicara por qué quería comprar la acción según su investigación — porque si no sabía por qué debía o no hacer la compra, la respuesta correcta era <span class="em">no hacer la compra.</span><br>
+    Hoy, a los quince años, compra oro físico y está planeando una empresa de comida para perros.</p>
+
+    <p>Mi hijo, a los once años, comenzó su camino hacia la educación financiera usando Rojo, Blanco y Azul.<br>
+    Sé que tiene una base que solo mejorará con los años y durará toda la vida.</p>
+
+    <p><b>Te invito a comenzar o mejorar tu propio conocimiento en educación financiera.</b><br>
+    <b>Rojo, Blanco y Azul está diseñado para ayudarte a pensar, actuar y crecer como inversionista o dueño de negocio.</b></p>
+
+    <hr>
+
+    <h2>Membresías</h2>
+    <p>Elige tu plan para comenzar a construir la mentalidad y las herramientas que crean independencia duradera.</p>
+
     <div class="grid">
+      <!-- Inicial -->
       <div class="card" data-base="9.99">
         <h3>Plan Inicial</h3>
-        <p class="price">$<span class="amount">9.99</span><span class="muted">/mes</span></p>
+        <p class="price">$<span class="amount">9.99</span> <span class="muted">/mes</span></p>
         <ul>
           <li>Folleto digital + lecciones iniciales</li>
           <li>15% de descuento en un mini curso</li>
           <li>Herramientas exclusivas de educación financiera</li>
         </ul>
-        <div class="coupon"><input placeholder="Código de cupón"><button class="apply">Aplicar</button></div>
+        <div class="coupon">
+          <input placeholder="Código de cupón" aria-label="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
         <div id="pp-entry-es" class="paypal-zone"></div>
       </div>
+
+      <!-- Estándar -->
       <div class="card" data-base="29.00">
         <h3>Plan Estándar</h3>
-        <p class="price">$<span class="amount">29.00</span><span class="muted">/mes</span></p>
+        <p class="price">$<span class="amount">29.00</span> <span class="muted">/mes</span></p>
         <ul>
           <li>Todos los beneficios del plan Inicial</li>
           <li>Biblioteca completa de libros y cursos</li>
           <li>Seguimiento mensual de progreso</li>
         </ul>
-        <div class="coupon"><input placeholder="Código de cupón"><button class="apply">Aplicar</button></div>
+        <div class="coupon">
+          <input placeholder="Código de cupón" aria-label="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
         <div id="pp-standard-es" class="paypal-zone"></div>
       </div>
+
+      <!-- Premium -->
       <div class="card" data-base="59.00">
         <h3>Plan Premium</h3>
-        <p class="price">$<span class="amount">59.00</span><span class="muted">/mes</span></p>
+        <p class="price">$<span class="amount">59.00</span> <span class="muted">/mes</span></p>
         <ul>
           <li>Todos los beneficios del plan Estándar</li>
           <li>Llamada mensual de asesoría en vivo</li>
           <li>Acceso exclusivo al Club Edunancial</li>
         </ul>
-        <div class="coupon"><input placeholder="Código de cupón"><button class="apply">Aplicar</button></div>
+        <div class="coupon">
+          <input placeholder="Código de cupón" aria-label="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
         <div id="pp-premium-es" class="paypal-zone"></div>
       </div>
     </div>
-
-    <h3>Libros y Cursos</h3>
-    <div class="grid">
-      <div class="card"><h3>Opciones (Blanco)</h3><p>Aprende a usar calls, puts y estrategias financieras.</p></div>
-      <div class="card"><h3>Gravámenes e Impuestos (Rojo)</h3><p>Construye riqueza mediante ventas gubernamentales y propiedades.</p></div>
-      <div class="card"><h3>Los Negocios se Tratan de Ganancias (Azul)</h3><p>Convierte la visión en resultados y propiedad duradera.</p></div>
-    </div>
-
-    <h3>Política de Privacidad</h3>
-    <p>Recopilamos datos básicos (correo, nombre) solo para la membresía. Los pagos se manejan de forma segura mediante PayPal. Edunancial no guarda los datos de tu tarjeta. El chat en vivo es operado por Tidio, con su propia política de privacidad.</p>
-
-    <h3>Términos de Uso</h3>
-    <p>Todo el contenido educativo es solo para aprendizaje. No constituye asesoría financiera, legal o fiscal. Al usar este sitio aceptas nuestros términos y jurisdicción bajo las leyes de Florida.</p>
   </section>
 </main>
 
@@ -179,59 +239,75 @@ p{margin-bottom:10px;line-height:1.5;}
 </footer>
 
 <script>
+/* Language toggle */
 document.getElementById('year').textContent = new Date().getFullYear();
 function switchLang(lang){
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.getElementById(lang).classList.add('active');
-  document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('header nav button').forEach(b=>b.classList.remove('active'));
   document.getElementById(lang+'-btn').classList.add('active');
-  localStorage.setItem('lang',lang);
+  localStorage.setItem('edu_lang',lang);
 }
-switchLang(localStorage.getItem('lang')||'en');
+switchLang(localStorage.getItem('edu_lang')||'en');
 
+/* Coupons */
 const COUPONS={'SAVE10':0.10,'BIENVENIDO15':0.15};
-document.querySelectorAll('.card').forEach(c=>{
-  const base=parseFloat(c.dataset.base);
-  const amt=c.querySelector('.amount');
-  c.querySelector('.apply').onclick=()=>{
-    const code=c.querySelector('input').value.trim().toUpperCase();
+document.querySelectorAll('.card').forEach(card=>{
+  const base=parseFloat(card.dataset.base);
+  const amountEl=card.querySelector('.amount');
+  const input=card.querySelector('.coupon input');
+  const btn=card.querySelector('.coupon .apply');
+  btn.addEventListener('click',()=>{
+    const code=(input.value||'').trim().toUpperCase();
     const pct=COUPONS[code]||0;
-    amt.textContent=(base*(1-pct)).toFixed(2);
-  };
+    const newPrice=(Math.round(base*(1-pct)*100)/100).toFixed(2);
+    amountEl.textContent=newPrice;
+    if(code) input.value = code+' ✓';
+  });
 });
 
-function paypalId(){return document.querySelector('meta[name=paypal-client-id]').content||'sb';}
-function renderBtn(id,desc){
-  const el=document.getElementById(id);
-  if(!el)return;
-  const card=el.closest('.card');
+/* PayPal Buttons */
+function paypalId(){return document.querySelector('meta[name="paypal-client-id"]').content||'sb';}
+function renderBtn(containerId, desc){
+  const zone=document.getElementById(containerId);
+  if(!zone) return;
+  const card=zone.closest('.card');
+  const getPrice=()=>card.querySelector('.amount').textContent;
   paypal.Buttons({
-    style:{layout:'horizontal',height:45},
-    createOrder:(d,a)=>a.order.create({purchase_units:[{description:desc,amount:{currency_code:'USD',value:card.querySelector('.amount').textContent}}]}),
-    onApprove:(d,a)=>a.order.capture().then(()=>alert('Payment successful! Welcome to Edunancial.'))
-  }).render('#'+id);
+    style:{layout:'horizontal',height:45,shape:'rect',label:'paypal'},
+    createOrder:(data,actions)=>actions.order.create({
+      purchase_units:[{description:desc,amount:{currency_code:'USD',value:getPrice()}}]
+    }),
+    onApprove:(data,actions)=>actions.order.capture().then(()=>alert('Thank you for joining Edunancial!')),
+    onCancel:()=>alert('Payment cancelled.'),
+    onError:(e)=>{console.error(e);alert('There was a problem with PayPal.');}
+  }).render('#'+containerId);
 }
 function initPayPal(){
   ['pp-entry-en','pp-standard-en','pp-premium-en','pp-entry-es','pp-standard-es','pp-premium-es']
-  .forEach((id,i)=>renderBtn(id,['Entry','Standard','Premium','Inicial','Estándar','Premium'][i]));
+    .forEach((id,i)=>renderBtn(id,['Entry Membership','Standard Membership','Premium Membership','Plan Inicial','Plan Estándar','Plan Premium'][i]));
 }
 (function(){
   const s=document.createElement('script');
-  s.src='https://www.paypal.com/sdk/js?client-id='+encodeURIComponent(paypalId())+'&currency=USD';
-  s.onload=initPayPal;document.head.appendChild(s);
+  s.src='https://www.paypal.com/sdk/js?client-id='+encodeURIComponent(paypalId())+'&currency=USD&intent=capture';
+  s.async=true; s.onload=initPayPal; document.head.appendChild(s);
 })();
 </script>
 
+<!-- Tidio Live Chat (guarded loader; safe to place anywhere before </body>) -->
 <script>
 (function(){
-  if(window.tidioChatApi||window.__TIDIO_LOADING__)return;
+  if(window.tidioChatApi||window.__TIDIO_LOADING__) return;
   window.__TIDIO_LOADING__=true;
   function load(){
     var s=document.createElement('script');
     s.src='//code.tidio.co/jubiikixsqdleazhqz38eynzqvrfhtoi.js';
-    s.async=true;document.body.appendChild(s);
+    s.async=true; s.referrerPolicy='no-referrer-when-downgrade';
+    document.body.appendChild(s);
   }
-  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',load,{once:true}):load();
+  document.readyState==='loading'
+    ? document.addEventListener('DOMContentLoaded',load,{once:true})
+    : load();
 })();
 </script>
 </body>
