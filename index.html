@@ -2,107 +2,258 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial – Where Education and Financial Literacy Meet</title>
+
+  <meta name="description" content="Edunancial – Bilingual financial education and membership plans empowering new generations to build wealth." />
+
+  <!-- PayPal Client ID (sandbox for testing; replace 'sb' with your live ID) -->
+  <meta name="paypal-client-id" content="sb">
+
   <style>
-    :root { --brand:#e02424; }
-    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.65; }
-    nav { margin-bottom: 20px; display:flex; gap:10px; align-items:center; }
-    .lang-btn {
-      padding: 10px 16px; border: 2px solid #111; border-radius: 999px;
-      font-weight: 700; background:#fff; cursor:pointer; font-size:16px;
+    :root {
+      --brand:#004aad;
+      --red:#e02424;
+      --white:#fff;
+      --bg:#fafafa;
     }
-    .lang-btn.active { background: var(--brand); color:#fff; border-color:var(--brand); }
-    .story-section { display:none; }
-    .story-section.active { display:block; }
-    .cta {
-      display:inline-block; width:100%; text-align:center;
-      margin-top: 24px; padding:16px 18px; background: var(--brand);
-      color:#fff; font-size:18px; font-weight:800; border-radius:10px;
-      text-decoration:none;
-    }
-    @media (min-width:768px){
-      .lang-btn{font-size:18px; padding:12px 18px;}
-      .cta{font-size:20px; padding:18px 22px; width:auto; min-width:340px;}
-    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111;}
+    header{background:var(--brand);color:var(--white);padding:16px;text-align:center;}
+    header h1{font-size:24px;margin-bottom:8px;}
+    nav button{margin:0 5px;padding:10px 14px;border:none;border-radius:6px;background:#fff;color:var(--brand);font-weight:700;cursor:pointer;}
+    nav button.active{background:var(--red);color:#fff;}
+    main{max-width:1100px;margin:0 auto;padding:20px;}
+    .story-section{display:none;}
+    .story-section.active{display:block;}
+    .cta{display:inline-block;margin-top:20px;background:var(--brand);color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:700;}
+    .plans{display:grid;gap:16px;margin-top:40px;}
+    @media(min-width:800px){.plans{grid-template-columns:repeat(3,1fr);}}
+    .card{background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.1);padding:20px;}
+    .card h3{color:var(--brand);}
+    .price{font-size:28px;font-weight:900;margin:10px 0;}
+    .coupon{margin:10px 0;display:flex;gap:6px;}
+    .coupon input{flex:1;padding:8px;border:1px solid #ccc;border-radius:6px;}
+    .coupon button{padding:8px 10px;border:none;background:var(--brand);color:#fff;border-radius:6px;cursor:pointer;}
+    ul{margin-left:18px;line-height:1.5;}
+    footer{text-align:center;color:#555;margin-top:40px;padding:16px;}
   </style>
+
   <script>
-    function switchLang(lang) {
-      document.querySelectorAll('.story-section').forEach(s => s.classList.remove('active'));
+    // Language toggle
+    function switchLang(lang){
+      document.querySelectorAll('.story-section').forEach(s=>s.classList.remove('active'));
       document.getElementById(lang).classList.add('active');
-      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-      document.getElementById(lang + '-btn').classList.add('active');
-      document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'es');
+      document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));
+      document.getElementById(lang+'-btn').classList.add('active');
+      document.documentElement.lang=lang;
+      localStorage.setItem('edu_lang', lang);
     }
-    window.onload = () => switchLang('en');
+    window.addEventListener('DOMContentLoaded',()=>{
+      switchLang(localStorage.getItem('edu_lang')||'en');
+    });
   </script>
 </head>
-<body>
 
+<body>
+<header>
+  <h1>Edunancial</h1>
+  <p>Where Education and Financial Literacy Meet</p>
   <nav>
     <button id="en-btn" class="lang-btn" onclick="switchLang('en')">EN</button>
     <button id="es-btn" class="lang-btn" onclick="switchLang('es')">ES</button>
   </nav>
+</header>
 
-  <!-- English Story -->
+<main>
+  <!-- English Section -->
   <div id="en" class="story-section">
-    <h1>Our Story</h1>
-    <p>One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:
-    “How did you make money like that?” I said, “By using my head.”</p>
+    <h2>Our Story</h2>
+    <p>One afternoon when my son was 11, he asked: “How did you make money like that?”</p>
+    <p>I replied, “With my head.” Then I asked, “Do you want to learn to make money with your head too?” That’s how <strong>Edunancial</strong> began.</p>
+    <p>At 11 he started buying silver, learning the difference between assets and liabilities. At 12 he valued companies before buying stocks. At 15 he began acquiring real assets — gems, gold, and now, his own dog food brand.</p>
+    <p>The Red, White, and Blue method teaches that each color represents a path to wealth: Real Estate, Paper Assets, and Business Ownership.</p>
 
-    <p>Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” That’s when
-    <strong>Edunancial</strong> was born.</p>
+    <h3>Memberships</h3>
+    <p>Choose your plan to gain access to lessons, tools, and coaching designed to build wealth and discipline.</p>
 
-    <p>At 11, he started buying silver coins. This taught him discipline. It ensured he was spending his money
-    on an asset rather than on games and candy—things that would not put money in his pocket.</p>
+    <div class="plans">
+      <div class="card" data-base="9.99">
+        <h3>Entry Plan</h3>
+        <p class="price">$<span class="amount">9.99</span>/month</p>
+        <ul>
+          <li>Digital pamphlet + starter lessons</li>
+          <li>15% coupon for one mini-course</li>
+          <li>Exclusive financial literacy tools</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
+        <div id="paypal-entry"></div>
+      </div>
 
-    <p>Around 12 years old, he began making lists of stocks he wanted to purchase. I had him analyze the stocks
-    to see whether they were overvalued or undervalued. After he came back with his answers and reasons, we bought the
-    stocks. His results produced an average ROI of 7–12%.</p>
+      <div class="card" data-base="29.00">
+        <h3>Standard Plan</h3>
+        <p class="price">$<span class="amount">29.00</span>/month</p>
+        <ul>
+          <li>All Entry benefits</li>
+          <li>Full library of books & courses</li>
+          <li>Monthly progress tracker</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
+        <div id="paypal-standard"></div>
+      </div>
 
-    <p>At 15, he decided to not only purchase silver, but also gold. Today we are exploring other possibilities,
-    including precious gems such as diamonds, rubies, or emeralds.</p>
-
-    <p>The Red, White, and Blue methodology isn’t about telling you <em>what</em> to buy. It’s about helping you ask
-    the right question first: <em>Why am I buying this? What is it going to do for me?</em> It puts you in control of
-    your own financial future.</p>
-
-    <p>Today, my son continues to use the Red, White, and Blue to build his financial future—he is now planning a
-    dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will
-    only improve over time.</p>
-
-    <a class="cta" href="/memberships.html">Join the Edunancial Family</a>
+      <div class="card" data-base="59.00">
+        <h3>Premium Plan</h3>
+        <p class="price">$<span class="amount">59.00</span>/month</p>
+        <ul>
+          <li>All Standard benefits</li>
+          <li>Live monthly coaching call</li>
+          <li>Exclusive Edunancial Club access</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Coupon code">
+          <button class="apply">Apply</button>
+        </div>
+        <div id="paypal-premium"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- Spanish Story -->
+  <!-- Spanish Section -->
   <div id="es" class="story-section">
-    <h1>Nuestra Historia</h1>
-    <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando se reflejó un depósito en línea. Sus ojos se abrieron:
-    “¿Cómo hiciste dinero así?” Le respondí: “Usando mi cabeza.”</p>
+    <h2>Nuestra Historia</h2>
+    <p>Una tarde, cuando mi hijo tenía 11 años, me preguntó: “¿Cómo hiciste dinero así?”</p>
+    <p>Le respondí: “Con mi cabeza.” Luego le pregunté: “¿Quieres aprender a ganar dinero con tu cabeza también?” Así nació <strong>Edunancial</strong>.</p>
+    <p>A los 11, comenzó a comprar plata, aprendiendo la diferencia entre activos y pasivos. A los 12, evaluaba empresas antes de invertir. A los 15, comenzó a adquirir activos reales: gemas, oro y ahora su propia marca de comida para perros.</p>
+    <p>El método Rojo, Blanco y Azul enseña que cada color representa un camino hacia la riqueza: Bienes Raíces, Activos Financieros y Propiedad de Negocios.</p>
 
-    <p>Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Él dijo: “Sí… pero no sé cómo.” Ahí fue cuando nació
-    <strong>Edunancial</strong>.</p>
+    <h3>Membresías</h3>
+    <p>Elige tu plan para acceder a lecciones, herramientas y asesoría diseñadas para construir riqueza y disciplina.</p>
 
-    <p>A los 11 años, comenzó a comprar monedas de plata. Esto le enseñó disciplina. Le aseguró que gastara su dinero
-    en un activo, en lugar de juegos y dulces—cosas que no pondrían dinero en su bolsillo.</p>
+    <div class="plans">
+      <div class="card" data-base="9.99">
+        <h3>Plan Inicial</h3>
+        <p class="price">$<span class="amount">9.99</span>/mes</p>
+        <ul>
+          <li>Folleto digital + lecciones iniciales</li>
+          <li>15% de descuento en un mini curso</li>
+          <li>Herramientas exclusivas de educación financiera</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
+        <div id="paypal-entry-es"></div>
+      </div>
 
-    <p>Alrededor de los 12 años, empezó a hacer listas de acciones que quería comprar. Le pedí que analizara esas acciones
-    para ver si estaban sobrevaloradas o subvaloradas. Después de que presentaba sus respuestas y razones, comprábamos las
-    acciones. Sus resultados produjeron un rendimiento promedio (ROI) del 7–12%.</p>
+      <div class="card" data-base="29.00">
+        <h3>Plan Estándar</h3>
+        <p class="price">$<span class="amount">29.00</span>/mes</p>
+        <ul>
+          <li>Todos los beneficios del plan Inicial</li>
+          <li>Biblioteca completa de libros y cursos</li>
+          <li>Seguimiento mensual de progreso</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
+        <div id="paypal-standard-es"></div>
+      </div>
 
-    <p>A los 15 años, decidió comprar no solo plata, sino también oro. Hoy estamos explorando otras posibilidades, incluidas
-    piedras preciosas como diamantes, rubíes o esmeraldas.</p>
-
-    <p>La metodología Rojo, Blanco y Azul no se trata de decirte <em>qué</em> comprar. Se trata de ayudarte a hacer la
-    pregunta correcta primero: <em>¿Por qué estoy comprando esto? ¿Qué va a hacer por mí?</em> Te pone al mando de tu
-    propio futuro financiero.</p>
-
-    <p>Hoy, mi hijo sigue usando el Rojo, Blanco y Azul para construir su futuro financiero: ahora está planeando un negocio
-    de comida para perros. Como padre, me siento bien al saber que tiene una base sólida para un aprendizaje de por vida
-    que solo mejorará con el tiempo.</p>
-
-    <a class="cta" href="/memberships.html">Únete a la Familia Edunancial</a>
+      <div class="card" data-base="59.00">
+        <h3>Plan Premium</h3>
+        <p class="price">$<span class="amount">59.00</span>/mes</p>
+        <ul>
+          <li>Todos los beneficios del plan Estándar</li>
+          <li>Llamada mensual de asesoría en vivo</li>
+          <li>Acceso exclusivo al Club Edunancial</li>
+        </ul>
+        <div class="coupon">
+          <input placeholder="Código de cupón">
+          <button class="apply">Aplicar</button>
+        </div>
+        <div id="paypal-premium-es"></div>
+      </div>
+    </div>
   </div>
+</main>
+
+<footer>
+  &copy; <span id="y"></span> Edunancial, Inc. | West Palm Beach, Florida
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Coupon system
+  const COUPONS = {'SAVE10':0.10,'BIENVENIDO15':0.15};
+  document.querySelectorAll('.card').forEach(card=>{
+    const base = parseFloat(card.dataset.base);
+    const amount = card.querySelector('.amount');
+    const btn = card.querySelector('.apply');
+    const input = card.querySelector('input');
+    btn.onclick = ()=>{
+      const code = input.value.trim().toUpperCase();
+      const pct = COUPONS[code]||0;
+      amount.textContent = (base*(1-pct)).toFixed(2);
+      input.value = code?`${code} ✔`:'';
+    };
+  });
+
+  // PayPal load
+  function paypalId(){return document.querySelector('meta[name="paypal-client-id"]').content||'sb';}
+  function renderPayPal(id,desc,price){
+    paypal.Buttons({
+      style:{layout:'horizontal',height:45,shape:'rect',label:'paypal'},
+      createOrder:(d,a)=>a.order.create({purchase_units:[{description:desc,amount:{currency_code:'USD',value:price()}}]}),
+      onApprove:(d,a)=>a.order.capture().then(()=>alert('Thank you for joining Edunancial!'))
+    }).render('#'+id);
+  }
+
+  function initPayPal(){
+    const sections = ['entry','standard','premium'];
+    sections.forEach(sec=>{
+      const card=document.querySelector(`[data-base][data-base]:has(#paypal-${sec})`)||document.querySelector(`[data-base]`);
+    });
+    renderPayPal('paypal-entry','Entry Membership',()=>document.querySelector('#paypal-entry').closest('.card').querySelector('.amount').textContent);
+    renderPayPal('paypal-standard','Standard Membership',()=>document.querySelector('#paypal-standard').closest('.card').querySelector('.amount').textContent);
+    renderPayPal('paypal-premium','Premium Membership',()=>document.querySelector('#paypal-premium').closest('.card').querySelector('.amount').textContent);
+    renderPayPal('paypal-entry-es','Plan Inicial',()=>document.querySelector('#paypal-entry-es').closest('.card').querySelector('.amount').textContent);
+    renderPayPal('paypal-standard-es','Plan Estándar',()=>document.querySelector('#paypal-standard-es').closest('.card').querySelector('.amount').textContent);
+    renderPayPal('paypal-premium-es','Plan Premium',()=>document.querySelector('#paypal-premium-es').closest('.card').querySelector('.amount').textContent);
+  }
+
+  (function loadPayPal(){
+    const s=document.createElement('script');
+    s.src='https://www.paypal.com/sdk/js?client-id='+encodeURIComponent(paypalId())+'&currency=USD';
+    s.async=true;s.onload=initPayPal;document.head.appendChild(s);
+  })();
+</script>
+
+<!-- TIDIO Live Chat -->
+<script>
+(function(){
+  if(window.tidioChatApi||window.__TIDIO_LOADING__)return;
+  window.__TIDIO_LOADING__=true;
+  function loadTidio(){
+    var s=document.createElement('script');
+    s.src='//code.tidio.co/jubiikixsqdleazhqz38eynzqvrfhtoi.js';
+    s.async=true;
+    s.referrerPolicy='no-referrer-when-downgrade';
+    document.body.appendChild(s);
+  }
+  document.readyState==='loading'
+    ? document.addEventListener('DOMContentLoaded',loadTidio,{once:true})
+    : loadTidio();
+})();
+</script>
 
 </body>
 </html>
