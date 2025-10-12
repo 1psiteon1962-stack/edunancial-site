@@ -2,69 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial — Memberships</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <style>
-    .plan-grid{max-width:1100px;margin:18px auto;padding:0 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-    .plan{border:1px solid #eee;border-radius:10px;padding:16px}
-    .price{font-size:28px;font-weight:800;margin:8px 0}
-    .btn{display:inline-block;background:#c00;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
-    header.site-nav, .site-nav .nav-wrap, .site-nav .brand, .site-nav .links, .site-nav .lang{all:unset}
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial – Memberships</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/header.js"></script>
 </head>
 <body>
-
-<!-- NAV (English) -->
-<header class="site-nav">
-  <div class="nav-wrap">
-    <a class="brand" href="/index.html">Edunancial</a>
-    <nav class="links">
-      <a href="/index.html">Our Story</a>
-      <a href="/memberships-en.html">Memberships</a>
-      <a href="/catalog.html">Catalog</a>
-      <a href="/videos.html">Videos</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-    <div class="lang">
-      <a id="langEN" href="/index.html">EN</a>
-      <a id="langES" href="/index-es.html">ES</a>
-    </div>
-  </div>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index.html">Edunancial</a>
+    <a href="/index.html">Our Story</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/contact.html">Contact</a>
+    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
+  </nav>
 </header>
 
-<main class="plan-grid">
-  <section class="plan">
-    <h2>Basic</h2>
-    <div class="price">$9.99<span style="font-size:14px">/mo</span></div>
-    <ul>
-      <li>Member discounts on courses & paperback books</li>
-      <li>Members-only downloads</li>
-    </ul>
-    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_BASIC">Select Basic</a>
-  </section>
+<main class="container">
+  <h1>Choose Your Membership</h1>
+  <p>Upgrade anytime. Cancel anytime from your PayPal account.</p>
 
-  <section class="plan">
-    <h2>Growth</h2>
-    <div class="price">$19.99<span style="font-size:14px">/mo</span></div>
-    <ul>
-      <li>Everything in Basic</li>
-      <li>Priority Q&A and community access</li>
-    </ul>
-    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Select Growth</a>
-  </section>
+  <section class="plans">
+    <article class="plan">
+      <h2>Basic</h2>
+      <p><strong>$9.99</strong>/mo</p>
+      <ul>
+        <li>Member discounts on courses & paperback books</li>
+        <li>Members-only downloads</li>
+      </ul>
+      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_BASIC">Select Basic</a></p>
+    </article>
 
-  <section class="plan">
-    <h2>Pro</h2>
-    <div class="price">$39.99<span style="font-size:14px">/mo</span></div>
-    <ul>
-      <li>Everything in Growth</li>
-      <li>Office hours & special workshops</li>
-    </ul>
-    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_PRO">Select Pro</a>
+    <article class="plan">
+      <h2>Growth</h2>
+      <p><strong>$19.99</strong>/mo</p>
+      <ul>
+        <li>Everything in Basic</li>
+        <li>Priority Q&A and community access</li>
+      </ul>
+      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Select Growth</a></p>
+    </article>
+
+    <article class="plan">
+      <h2>Pro</h2>
+      <p><strong>$39.99</strong>/mo</p>
+      <ul>
+        <li>Everything in Growth</li>
+        <li>Office hours & special workshops</li>
+      </ul>
+      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_PRO">Select Pro</a></p>
+    </article>
   </section>
 </main>
-
-<script src="/js/header.js?v=4"></script>
 </body>
 </html>
