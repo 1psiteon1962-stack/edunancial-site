@@ -1,6 +1,6 @@
-/memberships   /memberships.html  200
-/membership    /memberships.html  301
-/plans         /memberships.html  301
-/pricing       /memberships.html  301
-/catalog       /catalog.html      200
-/              /index.html        200
+/memberships    /memberships.html   200
+/membership     /memberships.html   301
+/plans          /memberships.html   301
+/pricing        /memberships.html   301
+/catalog        /catalog.html       200
+/               /index.html         200
