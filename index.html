@@ -4,10 +4,10 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Edunancial — Our Story</title>
-<meta name="description" content="Edunancial helps families build financial foundations through Red, White, and Blue—our simple, practical approach to money, assets, and business." />
+<meta name="description" content="Edunancial helps families build financial foundations through the Red, White, and Blue method." />
 <link rel="icon" href="/favicon.ico" />
 <style>
-  :root{--ed-red:#e53935;--ed-dark:#222;--ed-gray:#666;--ed-bg:#fff7f7}
+  :root{--ed-red:#e53935;--ed-dark:#222;--ed-gray:#666}
   *{box-sizing:border-box}
   body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial;color:var(--ed-dark)}
   header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
@@ -15,7 +15,7 @@
   nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
   a.nav{text-decoration:none;color:#222;font-weight:700}
   .spacer{flex:1}
-  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;cursor:pointer;background:#fff}
+  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;background:#fff;text-decoration:none}
   .pill.active{background:var(--ed-red);color:#fff}
   h1{font-size:40px;line-height:1.2;margin:24px 0}
   .lead{font-size:18px;color:#222}
@@ -23,9 +23,6 @@
   .btn{display:inline-block;background:var(--ed-red);color:#fff;text-decoration:none;
     padding:14px 20px;border-radius:12px;font-weight:800}
   .tap{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center}
-  /* language blocks */
-  [data-lang]{display:none}
-  [data-lang].on{display:block}
   @media (min-width:980px){ .wrap{padding:24px} }
 </style>
 </head>
@@ -33,22 +30,20 @@
 <header>
   <div class="wrap">
     <nav>
-      <a class="nav tap" href="/index.html">Edunancial</a>
-      <a class="nav tap" href="/memberships.html">Memberships</a>
-      <a class="nav tap" href="/catalog.html">Catalog</a>
+      <a class="nav tap" href="/index-en.html">Edunancial</a>
+      <a class="nav tap" href="/memberships-en.html">Memberships</a>
       <span class="spacer"></span>
-      <!-- Language toggle -->
-      <button id="btnEN" class="pill tap active" aria-label="English">EN</button>
-      <button id="btnES" class="pill tap" aria-label="Español">ES</button>
+      <!-- Hard-link language toggle (no JS) -->
+      <a class="pill tap active" href="/index-en.html" aria-label="English">EN</a>
+      <a class="pill tap" href="/index-es.html" aria-label="Español">ES</a>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <h1 id="titleH1">Our Story</h1>
+  <h1>Our Story</h1>
 
-  <!-- EN -->
-  <article id="storyEN" data-lang class="on">
+  <article>
     <p class="lead">
       One afternoon when my son was 11, he walked in just as an online deposit arrived. His eyes went wide:
       “How did you make money like that?” I said, “By using my head.”
@@ -66,63 +61,11 @@
     <p>Today, my son continues to use Red, White, and Blue to build his financial future—he is now planning a dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will only improve over time.</p>
 
     <p class="muted">Make it, and let’s get started together.</p>
-    <p><a class="btn tap" href="/memberships.html">See Memberships</a></p>
-  </article>
-
-  <!-- ES -->
-  <article id="storyES" data-lang>
-    <p class="lead">
-      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Abrió los ojos:
-      «¿Cómo ganaste dinero así?» Yo le respondí: «Usando la cabeza».
-    </p>
-    <p>Luego le pregunté: «¿Quieres trabajar con tu cabeza?» Él dijo: «Sí… pero no sé cómo». <strong>Ahí fue cuando nació Edunancial.</strong></p>
-
-    <p>A los 11 años, comenzó a comprar <strong>monedas de plata</strong>. Esto le enseñó disciplina. Le aseguró que estaba poniendo su dinero en un activo, en lugar de gastarlo—como muchos niños—en juegos y dulces que no le pondrían dinero en el bolsillo.</p>
-
-    <p>Alrededor de los 12 años, empezó a hacer listas de acciones que quería comprar. Le pedí que las analizara—¿estaban sobrevaloradas o infravaloradas? Cuando volvió con sus respuestas y razones, compramos las acciones. Sus resultados lograron un rendimiento promedio de <strong>7–12 %</strong>.</p>
-
-    <p>A los 15, decidió comprar no solo plata, sino también <strong>oro</strong>. Hoy estamos explorando otras posibilidades, incluidas <strong>piedras preciosas</strong> como diamantes, rubíes o esmeraldas.</p>
-
-    <p>La metodología <strong>Rojo, Blanco y Azul</strong> no se trata de decirte <em>qué</em> comprar, sino de ayudarte a hacer primero la pregunta correcta: <em>¿Por qué estoy comprando esto? ¿Qué va a hacer por mí?</em> Te pone a ti en control de tu futuro financiero.</p>
-
-    <p>Hoy, mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero: ahora está planeando un negocio de comida para perros. Como padre, me siento bien sabiendo que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
-
-    <p class="muted">Hagámoslo y comencemos juntos.</p>
-    <p><a class="btn tap" href="/memberships.html">Ver Membresías</a></p>
+    <p><a class="btn tap" href="/memberships-en.html">Select a Membership that works for you</a></p>
   </article>
 </main>
 
-<!-- Robust language toggle: works even if ES block is missing -->
-<script>
-  (function(){
-    const $ = s => document.querySelector(s);
-    const enBtn = $('#btnEN'), esBtn = $('#btnES');
-    const enBlk = $('#storyEN'), esBlk = $('#storyES');
-    const title = $('#titleH1');
-
-    function setLang(lang){
-      const wantES = (lang === 'es');
-      const hasES = !!esBlk;
-      const showEN = !wantES || !hasES;
-
-      if (enBlk) enBlk.classList.toggle('on', showEN);
-      if (esBlk) esBlk.classList.toggle('on', !showEN);
-
-      enBtn?.classList.toggle('active', showEN);
-      esBtn?.classList.toggle('active', !showEN && hasES);
-
-      if (title) title.textContent = showEN ? 'Our Story' : 'Nuestra Historia';
-      document.documentElement.lang = showEN ? 'en' : 'es';
-      localStorage.setItem('ed_lang', showEN ? 'en' : 'es');
-    }
-
-    enBtn?.addEventListener('click', ()=>setLang('en'));
-    esBtn?.addEventListener('click', ()=>setLang('es'));
-    setLang(localStorage.getItem('ed_lang') || 'en');
-  })();
-</script>
-
-<!-- Tidio chat (replace YOUR_TIDIO_PUBLIC_KEY if you use Tidio) -->
+<!-- (Optional) Tidio chat -->
 <script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
 <script>
   document.addEventListener('tidioChat-ready', function(){
