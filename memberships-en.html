@@ -1,63 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edunancial — Memberships</title>
-  <link rel="stylesheet" href="/style.css"/>
+  <link rel="stylesheet" href="/css/style.css" />
   <style>
-    .plan{border:1px solid #eee;border-radius:16px;padding:1rem;margin:.8rem 0}
-    .plan h2{margin:.2rem 0}
-    .btn{display:inline-block;padding:.7rem 1rem;border-radius:.7rem;background:#d33;color:#fff;font-weight:700;text-decoration:none}
+    .plan-grid{max-width:1100px;margin:18px auto;padding:0 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .plan{border:1px solid #eee;border-radius:10px;padding:16px}
+    .price{font-size:28px;font-weight:800;margin:8px 0}
+    .btn{display:inline-block;background:#c00;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    header.site-nav, .site-nav .nav-wrap, .site-nav .brand, .site-nav .links, .site-nav .lang{all:unset}
   </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="brand"><a href="/index.html">Edunancial</a></div>
-    <nav class="nav-links">
-      <a href="/our-story.html">Our Story</a>
+
+<!-- NAV (English) -->
+<header class="site-nav">
+  <div class="nav-wrap">
+    <a class="brand" href="/index.html">Edunancial</a>
+    <nav class="links">
+      <a href="/index.html">Our Story</a>
       <a href="/memberships-en.html">Memberships</a>
       <a href="/catalog.html">Catalog</a>
+      <a href="/videos.html">Videos</a>
+      <a href="/contact.html">Contact</a>
     </nav>
-    <div class="lang-toggle">
-      <a id="btn-en" class="pill">EN</a>
-      <a id="btn-es" class="pill">ES</a>
+    <div class="lang">
+      <a id="langEN" href="/index.html">EN</a>
+      <a id="langES" href="/index-es.html">ES</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="container" style="max-width:960px;margin:1.2rem auto;padding:0 1rem;">
-    <h1>Choose Your Membership</h1>
-    <p>Upgrade anytime. Cancel anytime from your PayPal account.</p>
+<main class="plan-grid">
+  <section class="plan">
+    <h2>Basic</h2>
+    <div class="price">$9.99<span style="font-size:14px">/mo</span></div>
+    <ul>
+      <li>Member discounts on courses & paperback books</li>
+      <li>Members-only downloads</li>
+    </ul>
+    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_BASIC">Select Basic</a>
+  </section>
 
-    <section class="plan">
-      <h2>Basic — $9.99/mo</h2>
-      <ul>
-        <li>Member pricing on courses & books</li>
-        <li>Members-only downloads</li>
-      </ul>
-      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_BASIC">Subscribe with PayPal</a>
-    </section>
+  <section class="plan">
+    <h2>Growth</h2>
+    <div class="price">$19.99<span style="font-size:14px">/mo</span></div>
+    <ul>
+      <li>Everything in Basic</li>
+      <li>Priority Q&A and community access</li>
+    </ul>
+    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Select Growth</a>
+  </section>
 
-    <section class="plan">
-      <h2>Growth — $19.99/mo</h2>
-      <ul>
-        <li>Everything in Basic</li>
-        <li>Priority email/chat support</li>
-      </ul>
-      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Subscribe with PayPal</a>
-    </section>
+  <section class="plan">
+    <h2>Pro</h2>
+    <div class="price">$39.99<span style="font-size:14px">/mo</span></div>
+    <ul>
+      <li>Everything in Growth</li>
+      <li>Office hours & special workshops</li>
+    </ul>
+    <a class="btn" href="REPLACE_WITH_PAYPAL_SUBSCRIPTION_LINK_PRO">Select Pro</a>
+  </section>
+</main>
 
-    <section class="plan">
-      <h2>Pro — $29.99/mo</h2>
-      <ul>
-        <li>Everything in Growth</li>
-        <li>Deeper member discounts</li>
-      </ul>
-      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_PRO">Subscribe with PayPal</a>
-    </section>
-  </main>
-
-  <script src="/js/header.js"></script>
-  <script src="/js/membership-gate.js"></script>
+<script src="/js/header.js?v=4"></script>
 </body>
 </html>
