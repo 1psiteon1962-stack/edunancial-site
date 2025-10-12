@@ -8,24 +8,20 @@
 <link rel="icon" href="/favicon.ico" />
 <style>
   :root{--ed-red:#e53935;--ed-dark:#222;--ed-gray:#666;--ed-bg:#fff7f7}
-  *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial;color:var(--ed-dark)}
   header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
   .wrap{max-width:960px;margin:auto;padding:16px}
   nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
   a.nav{text-decoration:none;color:#222;font-weight:700}
   .spacer{flex:1}
-  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700}
+  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;cursor:pointer;background:#fff}
   .pill.active{background:var(--ed-red);color:#fff}
   h1{font-size:40px;line-height:1.2;margin:24px 0}
   .lead{font-size:18px;color:#222}
   .muted{color:var(--ed-gray)}
-  .cta-bar{position:sticky;bottom:0;background:var(--ed-red);color:#fff;padding:18px;display:flex;justify-content:center}
-  .cta-btn{background:#fff;color:var(--ed-red);border:none;border-radius:12px;
-    padding:16px 22px;font-weight:800;font-size:18px}
-  .cta-btn:active{transform:scale(.98)}
   .btn{display:inline-block;background:var(--ed-red);color:#fff;text-decoration:none;
-    padding:12px 18px;border-radius:12px;font-weight:700}
-  /* mobile tap targets */
+    padding:14px 20px;border-radius:12px;font-weight:800}
   .tap{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center}
   /* language blocks */
   [data-lang]{display:none}
@@ -49,7 +45,7 @@
 </header>
 
 <main class="wrap">
-  <h1 data-i18n="title">Our Story</h1>
+  <h1 id="titleH1">Our Story</h1>
 
   <!-- EN -->
   <article id="storyEN" data-lang class="on">
@@ -59,7 +55,7 @@
     </p>
     <p>Then I asked, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” <strong>That’s when Edunancial was born.</strong></p>
 
-    <p>At 11, he started buying <strong>silver coins</strong>. This taught him discipline. It ensured he was putting his money into an asset—rather than spending it, like many kids, on games and candy that wouldn’t put money back in his pocket.</p>
+    <p>At 11, he started buying <strong>silver coins</strong>. This taught him discipline. It ensured he was spending his money on an asset—rather than spending it, like many kids, on games and candy that wouldn’t put money back in his pocket.</p>
 
     <p>Around 12 years old, he began making lists of stocks he wanted to purchase. I had him analyze them—were they overvalued or undervalued? After he came back with his answers and reasons, we bought the stocks. His results produced an average ROI of <strong>7–12%</strong>.</p>
 
@@ -68,6 +64,9 @@
     <p>The <strong>Red, White, and Blue</strong> methodology isn’t about telling you <em>what</em> to buy. It’s about helping you ask the right question first: <em>Why am I buying this? What is it going to do for me?</em> It puts you in control of your own financial future.</p>
 
     <p>Today, my son continues to use Red, White, and Blue to build his financial future—he is now planning a dog food business. As a father, I feel good knowing that he has a strong foundation for lifelong learning that will only improve over time.</p>
+
+    <p class="muted">Make it, and let’s get started together.</p>
+    <p><a class="btn tap" href="/memberships.html">See Memberships</a></p>
   </article>
 
   <!-- ES -->
@@ -76,54 +75,62 @@
       Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Abrió los ojos:
       «¿Cómo ganaste dinero así?» Yo le respondí: «Usando la cabeza».
     </p>
-    <p>Luego le pregunté: «¿Quieres trabajar con tu cabeza?» Él dijo: «Sí… pero no sé cómo». <strong>Ahí nació Edunancial.</strong></p>
+    <p>Luego le pregunté: «¿Quieres trabajar con tu cabeza?» Él dijo: «Sí… pero no sé cómo». <strong>Ahí fue cuando nació Edunancial.</strong></p>
 
-    <p>A los 11, empezó a comprar <strong>monedas de plata</strong>. Esto le enseñó disciplina. Aseguró que estaba poniendo su dinero en un activo—y no gastándolo, como muchos niños, en juegos y dulces que no le pondrían dinero en el bolsillo.</p>
+    <p>A los 11 años, comenzó a comprar <strong>monedas de plata</strong>. Esto le enseñó disciplina. Le aseguró que estaba poniendo su dinero en un activo, en lugar de gastarlo—como muchos niños—en juegos y dulces que no le pondrían dinero en el bolsillo.</p>
 
-    <p>Alrededor de los 12 años, comenzó a hacer listas de acciones que quería comprar. Le pedí que las analizara—¿estaban sobrevaloradas o infravaloradas? Cuando volvió con sus respuestas y razones, compramos las acciones. Sus resultados lograron un rendimiento promedio de <strong>7–12 %</strong>.</p>
+    <p>Alrededor de los 12 años, empezó a hacer listas de acciones que quería comprar. Le pedí que las analizara—¿estaban sobrevaloradas o infravaloradas? Cuando volvió con sus respuestas y razones, compramos las acciones. Sus resultados lograron un rendimiento promedio de <strong>7–12 %</strong>.</p>
 
-    <p>A los 15, decidió comprar no solo plata, sino también <strong>oro</strong>. Hoy exploramos otras posibilidades, incluidas gemas preciosas como diamantes, rubíes o esmeraldas.</p>
+    <p>A los 15, decidió comprar no solo plata, sino también <strong>oro</strong>. Hoy estamos explorando otras posibilidades, incluidas <strong>piedras preciosas</strong> como diamantes, rubíes o esmeraldas.</p>
 
-    <p>La metodología <strong>Rojo, Blanco y Azul</strong> no se trata de decirte <em>qué</em> comprar, sino de ayudarte a hacer primero la pregunta correcta: <em>¿Por qué compro esto? ¿Qué va a hacer por mí?</em> Te pone a ti en control de tu futuro financiero.</p>
+    <p>La metodología <strong>Rojo, Blanco y Azul</strong> no se trata de decirte <em>qué</em> comprar, sino de ayudarte a hacer primero la pregunta correcta: <em>¿Por qué estoy comprando esto? ¿Qué va a hacer por mí?</em> Te pone a ti en control de tu futuro financiero.</p>
 
-    <p>Hoy, mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero—ahora planea un negocio de comida para perros. Como padre, me siento bien sabiendo que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
+    <p>Hoy, mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero: ahora está planeando un negocio de comida para perros. Como padre, me siento bien sabiendo que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
+
+    <p class="muted">Hagámoslo y comencemos juntos.</p>
+    <p><a class="btn tap" href="/memberships.html">Ver Membresías</a></p>
   </article>
-
-  <p class="muted">Make it, and let’s get started together.</p>
-  <p><a class="btn tap" href="/memberships.html">See Memberships</a></p>
 </main>
 
-<!-- Sticky CTA -->
-<div class="cta-bar">
-  <a class="cta-btn tap" href="/memberships.html">
-    I invite you to join the Edunancial family—choose a membership to start. You can upgrade at any time.
-  </a>
-</div>
-
-<!-- Language toggle logic -->
+<!-- Robust language toggle: works even if ES block is missing -->
 <script>
-  const en = document.getElementById('btnEN'), es = document.getElementById('btnES');
-  const bEN = document.getElementById('storyEN'), bES = document.getElementById('storyES');
-  function setLang(lang){
-    const isEN = lang!=='es';
-    bEN.classList.toggle('on', isEN); bES.classList.toggle('on', !isEN);
-    en.classList.toggle('active', isEN); es.classList.toggle('active', !isEN);
-    localStorage.setItem('ed_lang', isEN?'en':'es');
-    document.querySelector('h1').textContent = isEN ? 'Our Story' : 'Nuestra Historia';
-    document.documentElement.lang = isEN ? 'en' : 'es';
-  }
-  en.addEventListener('click',()=>setLang('en'));
-  es.addEventListener('click',()=>setLang('es'));
-  setLang(localStorage.getItem('ed_lang')||'en');
+  (function(){
+    const $ = s => document.querySelector(s);
+    const enBtn = $('#btnEN'), esBtn = $('#btnES');
+    const enBlk = $('#storyEN'), esBlk = $('#storyES');
+    const title = $('#titleH1');
+
+    function setLang(lang){
+      const wantES = (lang === 'es');
+      const hasES = !!esBlk;
+      const showEN = !wantES || !hasES;
+
+      if (enBlk) enBlk.classList.toggle('on', showEN);
+      if (esBlk) esBlk.classList.toggle('on', !showEN);
+
+      enBtn?.classList.toggle('active', showEN);
+      esBtn?.classList.toggle('active', !showEN && hasES);
+
+      if (title) title.textContent = showEN ? 'Our Story' : 'Nuestra Historia';
+      document.documentElement.lang = showEN ? 'en' : 'es';
+      localStorage.setItem('ed_lang', showEN ? 'en' : 'es');
+    }
+
+    enBtn?.addEventListener('click', ()=>setLang('en'));
+    esBtn?.addEventListener('click', ()=>setLang('es'));
+    setLang(localStorage.getItem('ed_lang') || 'en');
+  })();
 </script>
 
-<!-- Tidio (replace YOUR_TIDIO_PUBLIC_KEY) -->
+<!-- Tidio chat (replace YOUR_TIDIO_PUBLIC_KEY if you use Tidio) -->
 <script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
 <script>
   document.addEventListener('tidioChat-ready', function(){
-    const email = localStorage.getItem('ed_email')||'';
-    const isMember = document.cookie.split('; ').some(c=>c.startsWith('ed_member='));
-    if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email, tags:[isMember?'member':'visitor'] });
+    try{
+      const email = localStorage.getItem('ed_email')||'';
+      const isMember = document.cookie.split('; ').some(c=>c.startsWith('ed_member='));
+      if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email, tags:[isMember?'member':'visitor'] });
+    }catch(e){}
   });
 </script>
 </body>
