@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-XSS-Protection: 1; mode=block
+  Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+  Content-Security-Policy: default-src 'self' https: data:; img-src 'self' data: https:; frame-src https://www.youtube.com https://player.vimeo.com https://www.paypal.com; script-src 'self' https://www.paypal.com https://cdn.jsdelivr.net https://code.jquery.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https:;
