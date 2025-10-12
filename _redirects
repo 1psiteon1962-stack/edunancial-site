@@ -8,5 +8,5 @@
 
 /catalog          /catalog.html                 200
 /en/catalog       /catalog.html                 200
-# If/when you add a Spanish catalog page, add the next line and create the file:
+# Add a Spanish catalog later if you want:
 #/es/catalog      /es-catalog.html              200
