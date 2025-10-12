@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial – Catálogo</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/header.js"></script>
+  <script>
+    function esMiembro(){ return document.cookie.split('; ').some(c=>c.startsWith('ed_member=')); }
+    document.addEventListener('DOMContentLoaded', () => {
+      const m = esMiembro();
+      document.querySelectorAll('[data-nm]').forEach(el => el.style.display = m ? 'none':'inline');
+      document.querySelectorAll('[data-mem]').forEach(el => el.style.display = m ? 'inline':'none');
+    });
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/es-our-story.html">Edunancial</a>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+    <a href="/memberships-es.html">Membresías</a>
+    <a href="/es-catalog.html">Catálogo</a>
+    <a href="/es-videos.html">Videos</a>
+    <a href="/es-contact.html">Contacto</a>
+    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Catálogo</h1>
+  <p>Los miembros ven automáticamente los botones con descuento.</p>
+
+  <h2>Curso: Fundamentos Rojo, Blanco y Azul</h2>
+  <p>Público: $39 · Miembro: $29</p>
+  <p>
+    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_COURSE_ES">Comprar con PayPal ($39)</a>
+    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_COURSE_ES">Precio para miembros con PayPal ($29)</a>
+  </p>
+
+  <h2>Cuaderno de trabajo: Activos de Papel</h2>
+  <p>Público: $19 · Miembro: $14</p>
+  <p>
+    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_BOOK_ES">Comprar con PayPal ($19)</a>
+    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_BOOK_ES">Precio para miembros con PayPal ($14)</a>
+  </p>
+
+  <p>¿Aún no eres miembro? <a href="/memberships-es.html">Únete aquí →</a></p>
+</main>
+</body>
+</html>
