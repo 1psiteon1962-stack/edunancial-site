@@ -1,132 +1,63 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Edunancial — Memberships</title>
-<meta name="description" content="Choose your Edunancial membership. Upgrade or cancel anytime via PayPal." />
-<style>
-  :root{--ed-red:#e53935}
-  body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial}
-  .wrap{max-width:960px;margin:auto;padding:16px}
-  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
-  nav{display:flex;gap:16px;align-items:center}
-  a{color:#222;text-decoration:none;font-weight:700}
-  .spacer{flex:1}
-  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;background:#fff;text-decoration:none}
-  .pill.active{background:var(--ed-red);color:#fff}
-  .grid{display:grid;gap:16px}
-  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
-  .card{border:1px solid #eee;border-radius:16px;padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
-  .price{font-size:40px;font-weight:800;margin:0 0 8px}
-  .btn{display:inline-block;background:var(--ed-red);color:#fff;padding:12px 18px;border-radius:12px;font-weight:800}
-  .tap{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
-  .note{color:#666}
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Edunancial — Memberships</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <style>
+    .plan{border:1px solid #eee;border-radius:16px;padding:1rem;margin:.8rem 0}
+    .plan h2{margin:.2rem 0}
+    .btn{display:inline-block;padding:.7rem 1rem;border-radius:.7rem;background:#d33;color:#fff;font-weight:700;text-decoration:none}
+  </style>
 </head>
 <body>
-<header><div class="wrap"><nav>
-  <a href="/index-en.html" class="tap">Edunancial</a>
-  <a href="/memberships-en.html" class="tap">Memberships</a>
-  <span class="spacer"></span>
-  <a class="pill tap active" href="/memberships-en.html">EN</a>
-  <a class="pill tap" href="/memberships-es.html">ES</a>
-</nav></div></header>
+  <header class="navbar">
+    <div class="brand"><a href="/index.html">Edunancial</a></div>
+    <nav class="nav-links">
+      <a href="/our-story.html">Our Story</a>
+      <a href="/memberships-en.html">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+    </nav>
+    <div class="lang-toggle">
+      <a id="btn-en" class="pill">EN</a>
+      <a id="btn-es" class="pill">ES</a>
+    </div>
+  </header>
 
-<main class="wrap">
-  <h1>Select a Membership that works for you</h1>
-  <p class="note">Upgrade anytime. Cancel anytime from your PayPal account.</p>
+  <main class="container" style="max-width:960px;margin:1.2rem auto;padding:0 1rem;">
+    <h1>Choose Your Membership</h1>
+    <p>Upgrade anytime. Cancel anytime from your PayPal account.</p>
 
-  <div class="grid">
-    <section class="card">
-      <h2>Basic</h2>
-      <p class="price">$9.99<span class="note">/mo</span></p>
+    <section class="plan">
+      <h2>Basic — $9.99/mo</h2>
       <ul>
         <li>Member pricing on courses & books</li>
         <li>Members-only downloads</li>
       </ul>
-      <div id="pp-basic"></div>
+      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_BASIC">Subscribe with PayPal</a>
     </section>
 
-    <section class="card">
-      <h2>Growth</h2>
-      <p class="price">$19.99<span class="note">/mo</span></p>
+    <section class="plan">
+      <h2>Growth — $19.99/mo</h2>
       <ul>
         <li>Everything in Basic</li>
         <li>Priority email/chat support</li>
       </ul>
-      <div id="pp-growth"></div>
+      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Subscribe with PayPal</a>
     </section>
 
-    <section class="card">
-      <h2>Pro</h2>
-      <p class="price">$29.99<span class="note">/mo</span></p>
+    <section class="plan">
+      <h2>Pro — $29.99/mo</h2>
       <ul>
         <li>Everything in Growth</li>
         <li>Deeper member discounts</li>
       </ul>
-      <div id="pp-pro"></div>
+      <a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_PRO">Subscribe with PayPal</a>
     </section>
-  </div>
+  </main>
 
-  <p style="margin-top:24px"><a class="btn tap" href="/index-en.html">Back to Our Story</a></p>
-</main>
-
-<!-- PayPal JS (LIVE client ID) -->
-<script src="https://www.paypal.com/sdk/js?client-id=PAYPAL_CLIENT_ID_LIVE&vault=true&intent=subscription"></script>
-<script>
-  const PLAN = {
-    basic:  'PLAN_ID_BASIC',
-    growth: 'PLAN_ID_GROWTH',
-    pro:    'PLAN_ID_PRO'
-  };
-
-  function onApproveCommon(data, actions, planName){
-    return actions.subscription.get().then(async (details)=>{
-      try{
-        const payer = details?.subscriber?.email_address ? {
-          email: details.subscriber.email_address,
-          name:  (details.subscriber.name?.given_name||'') + ' ' + (details.subscriber.name?.surname||'')
-        } : {};
-        if (payer.email) localStorage.setItem('ed_email', payer.email);
-        document.cookie = "ed_member=1; path=/; max-age=" + (60*60*24*180);
-        await fetch("/.netlify/functions/new-member", {
-          method:"POST",
-          headers:{ "Content-Type":"application/json" },
-          body: JSON.stringify({
-            lang:'en',
-            plan: planName,
-            subscriptionId: data.subscriptionID,
-            payer
-          })
-        });
-      }catch(e){}
-      window.location.href = "/index-en.html";
-    });
-  }
-
-  function renderButton(el, planName){
-    paypal.Buttons({
-      style:{ shape:'pill', color:'gold', layout:'vertical', label:'subscribe' },
-      createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN[planName] }),
-      onApprove: (data, actions)=> onApproveCommon(data, actions, planName)
-    }).render(el);
-  }
-
-  renderButton('#pp-basic','basic');
-  renderButton('#pp-growth','growth');
-  renderButton('#pp-pro','pro');
-</script>
-
-<!-- Tidio -->
-<script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
-<script>
-  document.addEventListener('tidioChat-ready', function(){
-    try{
-      const email = localStorage.getItem('ed_email')||'';
-      if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email, tags:['member'] });
-    }catch(e){}
-  });
-</script>
+  <script src="/js/header.js"></script>
+  <script src="/js/membership-gate.js"></script>
 </body>
 </html>
