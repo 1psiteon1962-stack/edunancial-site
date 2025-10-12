@@ -1,9 +1,13 @@
 /*
-  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co;
+    connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co;
+    img-src 'self' data: https://*.paypal.com https://www.paypalobjects.com https://*.tidio.co;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    frame-src https://www.paypal.com;
+  Referrer-Policy: no-referrer-when-downgrade
   X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  X-Frame-Options: SAMEORIGIN
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  X-XSS-Protection: 1; mode=block
-  Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
-  Content-Security-Policy: default-src 'self' https: data:; img-src 'self' data: https:; frame-src https://www.youtube.com https://player.vimeo.com https://www.paypal.com; script-src 'self' https://www.paypal.com https://cdn.jsdelivr.net https://code.jquery.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https:;
+  Cache-Control: public, max-age=600
