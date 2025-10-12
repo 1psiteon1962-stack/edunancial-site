@@ -1,12 +1,4 @@
-/                 /index.html                   200
-/en               /index.html                   200
-/es               /index-es.html                200
-
-/memberships      /memberships-en.html          200
-/en/memberships   /memberships-en.html          200
-/es/memberships   /memberships-es.html          200
-
-/catalog          /catalog.html                 200
-/en/catalog       /catalog.html                 200
-# Add a Spanish catalog later if you want:
-#/es/catalog      /es-catalog.html              200
+/membresias        /memberships-es.html   200
+/memberships       /memberships-en.html   200
+/membership        /memberships-en.html   301
+/planes            /memberships-es.html   301
