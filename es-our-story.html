@@ -3,82 +3,34 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial — Nuestra Historia</title>
-  <link rel="stylesheet" href="/style.css" />
-  <style>
-    .wrap{max-width:960px;margin:0 auto;padding:1.25rem}
-    .lang-toggle{float:right;margin-top:.75rem}
-    .btn{display:inline-block;padding:.6rem .9rem;border:1px solid #ccc;border-radius:8px;text-decoration:none}
-    .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:1.25rem}
-    .card{border:1px solid #e5e5e5;border-radius:12px;padding:1rem}
-    .price{font-size:1.75rem;font-weight:700}
-    .muted{color:#666;font-size:.9rem}
-    .admin{position:fixed;right:12px;bottom:12px;display:none;gap:8px}
-    .admin button{padding:.45rem .6rem;border-radius:8px;border:1px solid #bbb;background:#fafafa}
-  </style>
+  <title>Edunancial – Nuestra Historia</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/header.js"></script>
 </head>
 <body>
-  <header class="wrap">
-    <a class="btn lang-toggle" href="/our-story.html" aria-label="Switch to English">EN</a>
-    <h1>Nuestra Historia</h1>
-    <p>
-      Cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea.
-      Me preguntó cómo lo hice. Le dije: “Usando la cabeza”. Le pregunté si quería
-      trabajar con su cabeza. Dijo que sí. Así nació <strong>Edunancial</strong>.
-    </p>
-    <p>
-      Hoy analiza acciones, entiende los fundamentos de bienes raíces y
-      está armando un pequeño negocio. Nuestras lecciones cubren
-      <strong>Bienes Raíces</strong> (Rojo), <strong>Activos en Papel</strong> (Blanco) y
-      <strong>Negocios</strong> (Azul): las bases para crecer toda la vida.
-    </p>
-  </header>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/es-our-story.html">Edunancial</a>
+    <a href="/es-our-story.html">Nuestra Historia</a>
+    <a href="/memberships-es.html">Membresías</a>
+    <a href="/es-catalog.html">Catálogo</a>
+    <a href="/es-videos.html">Videos</a>
+    <a href="/es-contact.html">Contacto</a>
+    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
+  </nav>
+</header>
 
-  <main class="wrap">
-    <h2>Membresía — Desde <span class="price price-basic" data-price-default="9.99">$9.99</span><span class="muted">/mes</span></h2>
-    <p class="muted">Puedes mejorar o cancelar cuando quieras.</p>
+<main class="container">
+  <h1>Nuestra Historia</h1>
+  <p>Una tarde, cuando mi hijo tenía 11 años, llegó un aviso de depósito. Sus ojos se abrieron: “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego pregunté: “¿Quieres trabajar con tu cabeza?” Respondió: “Sí… pero no sé cómo”. Ahí nació <strong>Edunancial</strong>.</p>
+  <p>A los 11, empezó a comprar <em>monedas de plata</em>. Esto le enseñó disciplina y a invertir su dinero en un <em>activo</em>, en lugar de gastarlo en dulces o juegos que no ponen dinero en el bolsillo.</p>
+  <p>Alrededor de los 12, comenzó a hacer listas de acciones que quería comprar. Le pedí analizarlas: ¿estaban sobrevaloradas o infravaloradas? ¿Por qué? Cuando regresaba con sus razones, comprábamos. Sus resultados obtuvieron un rendimiento promedio de <strong>7–12%</strong>.</p>
+  <p>A los 15, decidió comprar no solo plata, sino también oro. Hoy exploramos otras posibilidades, como gemas preciosas: diamantes, rubíes o esmeraldas.</p>
+  <p>La metodología <strong>Rojo, Blanco y Azul</strong> no te dice qué comprar; te ayuda a hacer primero la pregunta correcta: <em>¿Por qué compro esto? ¿Qué va a hacer por mí?</em> Te pone al mando de tu futuro financiero.</p>
+  <p>Hoy mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero—ahora está planeando un negocio de comida para perros. Como padre, me siento tranquilo sabiendo que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
+  <p><strong>Te invito a unirte a la familia Edunancial—elige la membresía que mejor funcione para ti. Puedes actualizar en cualquier momento.</strong></p>
 
-    <section class="plans">
-      <article class="card" data-plan="basic">
-        <h3>Básica</h3>
-        <div class="price"><span class="price-basic" data-price-default="9.99">$9.99</span><span class="muted">/mes</span></div>
-        <ul>
-          <li>Precios de miembro en cursos y libros</li>
-          <li>Descargas solo para miembros</li>
-          <li>Preferencias de correo y cumplimiento</li>
-        </ul>
-        <a class="btn" id="join-basic" href="/membership.html?plan=basic&price=9.99">Unirme (Básica)</a>
-      </article>
-
-      <article class="card" data-plan="growth">
-        <h3>Crecimiento</h3>
-        <div class="price">$19.99<span class="muted">/mes</span></div>
-        <ul>
-          <li>Todo lo de Básica</li>
-          <li>Soporte prioritario por correo/chat</li>
-          <li>Acceso a sesiones en vivo</li>
-        </ul>
-        <a class="btn" href="/membership.html?plan=growth&price=19.99">Unirme (Crecimiento)</a>
-      </article>
-
-      <article class="card" data-plan="pro">
-        <h3>Pro</h3>
-        <div class="price">$29.99<span class="muted">/mes</span></div>
-        <ul>
-          <li>Todo lo de Crecimiento</li>
-          <li>Descuentos más profundos en programas selectos</li>
-          <li>Acceso anticipado a nuevas lecciones</li>
-        </ul>
-        <a class="btn" href="/membership.html?plan=pro&price=29.99">Unirme (Pro)</a>
-      </article>
-    </section>
-  </main>
-
-  <div class="admin" id="admin-controls" aria-hidden="true">
-    <button type="button" id="set-5">Fijar Básica a $5</button>
-    <button type="button" id="clear-discount">Quitar</button>
-  </div>
-
-  <script src="/membership-pricing.js"></script>
+  <p><a class="btn" href="/memberships-es.html">Elige la membresía que funcione para ti</a></p>
+</main>
 </body>
 </html>
