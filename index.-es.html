@@ -1,80 +1,53 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Edunancial — Nuestra Historia</title>
-<meta name="description" content="Edunancial ayuda a las familias a crear bases financieras con el método Rojo, Blanco y Azul." />
-<link rel="icon" href="/favicon.ico" />
-<style>
-  :root{--ed-red:#e53935;--ed-dark:#222;--ed-gray:#666}
-  *{box-sizing:border-box}
-  body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial;color:var(--ed-dark)}
-  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
-  .wrap{max-width:960px;margin:auto;padding:16px}
-  nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  a.nav{text-decoration:none;color:#222;font-weight:700}
-  .spacer{flex:1}
-  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;background:#fff;text-decoration:none}
-  .pill.active{background:var(--ed-red);color:#fff}
-  h1{font-size:40px;line-height:1.2;margin:24px 0}
-  .lead{font-size:18px;color:#222}
-  .muted{color:var(--ed-gray)}
-  .btn{display:inline-block;background:var(--ed-red);color:#fff;text-decoration:none;
-    padding:14px 20px;border-radius:12px;font-weight:800}
-  .tap{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center}
-  @media (min-width:980px){ .wrap{padding:24px} }
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Edunancial — Nuestra Historia</title>
+  <link rel="stylesheet" href="/style.css"/>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <nav>
-      <a class="nav tap" href="/index-es.html">Edunancial</a>
-      <a class="nav tap" href="/memberships-es.html">Membresías</a>
-      <span class="spacer"></span>
-      <!-- Conmutador de idioma por enlace directo -->
-      <a class="pill tap" href="/index-en.html" aria-label="English">EN</a>
-      <a class="pill tap active" href="/index-es.html" aria-label="Español">ES</a>
+  <header class="navbar">
+    <div class="brand"><a href="/index-es.html">Edunancial</a></div>
+    <nav class="nav-links">
+      <a href="/es-our-story.html">Nuestra historia</a>
+      <a href="/memberships-es.html">Membresías</a>
+      <a href="/catalog.html">Catálogo</a>
     </nav>
+    <div class="lang-toggle">
+      <a id="btn-en" class="pill">EN</a>
+      <a id="btn-es" class="pill">ES</a>
+    </div>
+  </header>
+
+  <main class="container" style="max-width:860px;margin:1.2rem auto;padding:0 1rem;">
+    <h1>Nuestra Historia</h1>
+
+    <p>Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Abrió los ojos: “¿Cómo ganaste dinero así?” Le dije: “Usando la cabeza”. Luego le pregunté: “¿Quieres trabajar con tu cabeza?” Respondió: “Sí… pero no sé cómo”. <strong>Ahí nació Edunancial.</strong></p>
+
+    <p>A los 11, comenzó a comprar monedas de plata. Esto le enseñó disciplina y aseguró que pusiera su dinero en un activo en lugar de gastarlo, como hacen muchos niños, en juegos y dulces—cosas que no te devuelven dinero al bolsillo.</p>
+
+    <p>Alrededor de los 12 años, empezó a hacer listas de acciones que quería comprar. Le pedí que analizara esas empresas para ver si estaban sobrevaloradas o infravaloradas. Cuando volvió con sus respuestas y razones, compramos las acciones. Sus resultados produjeron un rendimiento promedio del 7–12%.</p>
+
+    <p>A los 15, decidió no solo comprar plata, sino también oro. Hoy estamos explorando otras posibilidades, incluidos gemas preciosas como diamantes, rubíes o esmeraldas.</p>
+
+    <p>La metodología Rojo, Blanco y Azul no te dice <em>qué</em> comprar. Te ayuda a hacer primero la pregunta correcta: <em>¿Por qué compro esto? ¿Qué va a hacer por mí?</em> Te pone a ti en control de tu futuro financiero.</p>
+
+    <p>Hoy, mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero—ahora planea un negocio de comida para perros. Como padre, me siento bien al saber que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
+  </main>
+
+  <!-- Banner adhesivo (ES) -->
+  <div id="cta-banner" class="cta">
+    <p>Te invito a unirte a la familia Edunancial: elige la membresía que mejor te funcione. Puedes mejorar tu plan en cualquier momento.</p>
+    <a href="/memberships-es.html" class="cta-btn">Elige la membresía que funciona para ti</a>
   </div>
-</header>
 
-<main class="wrap">
-  <h1>Nuestra Historia</h1>
+  <style>
+  #cta-banner.cta{position:sticky;bottom:0;left:0;right:0;background:#d33;color:#fff;padding:1rem;display:flex;flex-direction:column;gap:.6rem;z-index:999}
+  #cta-banner .cta-btn{display:inline-block;background:#fff;color:#d33;font-weight:700;padding:.75rem 1rem;border-radius:.75rem;text-align:center}
+  @media(min-width:640px){#cta-banner.cta{flex-direction:row;justify-content:space-between;align-items:center}}
+  </style>
 
-  <article>
-    <p class="lead">
-      Una tarde, cuando mi hijo tenía 11 años, entró justo cuando llegó un depósito en línea. Abrió los ojos:
-      «¿Cómo ganaste dinero así?» Yo le respondí: «Usando la cabeza».
-    </p>
-    <p>Luego le pregunté: «¿Quieres trabajar con tu cabeza?» Él dijo: «Sí… pero no sé cómo». <strong>Ahí nació Edunancial.</strong></p>
-
-    <p>A los 11 años, comenzó a comprar <strong>monedas de plata</strong>. Esto le enseñó disciplina. Le aseguró que estaba poniendo su dinero en un activo, en lugar de gastarlo—como muchos niños—en juegos y dulces que no le pondrían dinero en el bolsillo.</p>
-
-    <p>Alrededor de los 12 años, empezó a hacer listas de acciones que quería comprar. Le pedí que las analizara—¿estaban sobrevaloradas o infravaloradas? Cuando volvió con sus respuestas y razones, compramos las acciones. Sus resultados lograron un rendimiento promedio de <strong>7–12 %</strong>.</p>
-
-    <p>A los 15, decidió comprar no solo plata, sino también <strong>oro</strong>. Hoy estamos explorando otras posibilidades, incluidas gemas preciosas como diamantes, rubíes o esmeraldas.</p>
-
-    <p>La metodología <strong>Rojo, Blanco y Azul</strong> no se trata de decirte <em>qué</em> comprar, sino de ayudarte a hacer primero la pregunta correcta: <em>¿Por qué compro esto? ¿Qué va a hacer por mí?</em> Te pone a ti en control de tu futuro financiero.</p>
-
-    <p>Hoy, mi hijo sigue usando Rojo, Blanco y Azul para construir su futuro financiero—ahora planea un negocio de comida para perros. Como padre, me siento bien sabiendo que tiene una base sólida para un aprendizaje de por vida que solo mejorará con el tiempo.</p>
-
-    <p class="muted">Hagámoslo y comencemos juntos.</p>
-    <p><a class="btn tap" href="/memberships-es.html">Selecciona la membresía que funcione para ti</a></p>
-  </article>
-</main>
-
-<!-- (Opcional) Tidio chat -->
-<script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
-<script>
-  document.addEventListener('tidioChat-ready', function(){
-    try{
-      const email = localStorage.getItem('ed_email')||'';
-      const isMember = document.cookie.split('; ').some(c=>c.startsWith('ed_member='));
-      if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email, tags:[isMember?'member':'visitor'] });
-    }catch(e){}
-  });
-</script>
+  <script src="/js/header.js"></script>
 </body>
 </html>
