@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Edunancial — Membresías</title>
+<meta name="description" content="Elige tu membresía de Edunancial. Mejora o cancela en cualquier momento desde PayPal." />
+<style>
+  :root{--ed-red:#e53935}
+  body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+  .wrap{max-width:960px;margin:auto;padding:16px}
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
+  nav{display:flex;gap:16px;align-items:center}
+  a{color:#222;text-decoration:none;font-weight:700}
+  .spacer{flex:1}
+  .pill{border:2px solid var(--ed-red);color:var(--ed-red);border-radius:999px;padding:8px 14px;font-weight:700;background:#fff;text-decoration:none}
+  .pill.active{background:var(--ed-red);color:#fff}
+  .grid{display:grid;gap:16px}
+  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
+  .card{border:1px solid #eee;border-radius:16px;padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+  .price{font-size:40px;font-weight:800;margin:0 0 8px}
+  .btn{display:inline-block;background:var(--ed-red);color:#fff;padding:12px 18px;border-radius:12px;font-weight:800}
+  .tap{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+  .note{color:#666}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a href="/index-es.html" class="tap">Edunancial</a>
+  <a href="/memberships-es.html" class="tap">Membresías</a>
+  <span class="spacer"></span>
+  <a class="pill tap" href="/memberships-en.html">EN</a>
+  <a class="pill tap active" href="/memberships-es.html">ES</a>
+</nav></div></header>
+
+<main class="wrap">
+  <h1>Selecciona la membresía que funcione para ti</h1>
+  <p class="note">Mejora cuando quieras. Cancela en cualquier momento desde tu cuenta de PayPal.</p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Básica</h2>
+      <p class="price">$9.99<span class="note">/mes</span></p>
+      <ul>
+        <li>Precios de miembro en cursos y libros</li>
+        <li>Descargas exclusivas para miembros</li>
+      </ul>
+      <div id="pp-basic"></div>
+    </section>
+
+    <section class="card">
+      <h2>Crecimiento</h2>
+      <p class="price">$19.99<span class="note">/mes</span></p>
+      <ul>
+        <li>Todo lo de Básica</li>
+        <li>Soporte prioritario por email/chat</li>
+      </ul>
+      <div id="pp-growth"></div>
+    </section>
+
+    <section class="card">
+      <h2>Pro</h2>
+      <p class="price">$29.99<span class="note">/mes</span></p>
+      <ul>
+        <li>Todo lo de Crecimiento</li>
+        <li>Descuentos más profundos para miembros</li>
+      </ul>
+      <div id="pp-pro"></div>
+    </section>
+  </div>
+
+  <p style="margin-top:24px"><a class="btn tap" href="/index-es.html">Volver a Nuestra Historia</a></p>
+</main>
+
+<!-- PayPal JS (LIVE client ID) -->
+<script src="https://www.paypal.com/sdk/js?client-id=PAYPAL_CLIENT_ID_LIVE&vault=true&intent=subscription"></script>
+<script>
+  const PLAN = {
+    basic:  'PLAN_ID_BASIC',
+    growth: 'PLAN_ID_GROWTH',
+    pro:    'PLAN_ID_PRO'
+  };
+
+  function onApproveCommon(data, actions, planName){
+    return actions.subscription.get().then(async (details)=>{
+      try{
+        const payer = details?.subscriber?.email_address ? {
+          email: details.subscriber.email_address,
+          name:  (details.subscriber.name?.given_name||'') + ' ' + (details.subscriber.name?.surname||'')
+        } : {};
+        if (payer.email) localStorage.setItem('ed_email', payer.email);
+        document.cookie = "ed_member=1; path=/; max-age=" + (60*60*24*180);
+        await fetch("/.netlify/functions/new-member", {
+          method:"POST",
+          headers:{ "Content-Type":"application/json" },
+          body: JSON.stringify({
+            lang:'es',
+            plan: planName,
+            subscriptionId: data.subscriptionID,
+            payer
+          })
+        });
+      }catch(e){}
+      window.location.href = "/index-es.html";
+    });
+  }
+
+  function renderButton(el, planName){
+    paypal.Buttons({
+      style:{ shape:'pill', color:'gold', layout:'vertical', label:'subscribe' },
+      createSubscription: (data, actions)=> actions.subscription.create({ plan_id: PLAN[planName] }),
+      onApprove: (data, actions)=> onApproveCommon(data, actions, planName)
+    }).render(el);
+  }
+
+  renderButton('#pp-basic','basic');
+  renderButton('#pp-growth','growth');
+  renderButton('#pp-pro','pro');
+</script>
+
+<!-- Tidio -->
+<script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
+<script>
+  document.addEventListener('tidioChat-ready', function(){
+    try{
+      const email = localStorage.getItem('ed_email')||'';
+      if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email, tags:['member'] });
+    }catch(e){}
+  });
+</script>
+</body>
+</html>
