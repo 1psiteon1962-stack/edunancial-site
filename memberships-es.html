@@ -1,63 +1,70 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edunancial — Membresías</title>
-  <link rel="stylesheet" href="/style.css"/>
+  <link rel="stylesheet" href="/css/style.css" />
   <style>
-    .plan{border:1px solid #eee;border-radius:16px;padding:1rem;margin:.8rem 0}
-    .plan h2{margin:.2rem 0}
-    .btn{display:inline-block;padding:.7rem 1rem;border-radius:.7rem;background:#d33;color:#fff;font-weight:700;text-decoration:none}
+    .plan-grid{max-width:1100px;margin:18px auto;padding:0 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .plan{border:1px solid #eee;border-radius:10px;padding:16px}
+    .price{font-size:28px;font-weight:800;margin:8px 0}
+    .btn{display:inline-block;background:#c00;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    header.site-nav, .site-nav .nav-wrap, .site-nav .brand, .site-nav .links, .site-nav .lang{all:unset}
   </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="brand"><a href="/index-es.html">Edunancial</a></div>
-    <nav class="nav-links">
-      <a href="/es-our-story.html">Nuestra historia</a>
+
+<!-- NAV (Español) -->
+<header class="site-nav">
+  <div class="nav-wrap">
+    <a class="brand" href="/index-es.html">Edunancial</a>
+    <nav class="links">
+      <a href="/index-es.html">Nuestra Historia</a>
       <a href="/memberships-es.html">Membresías</a>
-      <a href="/catalog.html">Catálogo</a>
+      <a href="/es-catalog.html">Catálogo</a>
+      <a href="/es-videos.html">Videos</a>
+      <a href="/es-contact.html">Contacto</a>
     </nav>
-    <div class="lang-toggle">
-      <a id="btn-en" class="pill">EN</a>
-      <a id="btn-es" class="pill">ES</a>
+    <div class="lang">
+      <a id="langEN" href="/index.html">EN</a>
+      <a id="langES" href="/index-es.html">ES</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="container" style="max-width:960px;margin:1.2rem auto;padding:0 1rem;">
-    <h1>Elige tu membresía</h1>
-    <p>Mejora tu plan en cualquier momento. Cancela cuando quieras desde tu cuenta de PayPal.</p>
+<main class="plan-grid">
+  <section class="plan">
+    <h2>Básica</h2>
+    <div class="price">$9.99<span style="font-size:14px">/mes</span></div>
+    <ul>
+      <li>Descuentos en cursos y libros</li>
+      <li>Descargas exclusivas para miembros</li>
+    </ul>
+    <a class="btn" href="REEMPLAZAR_CON_ENLACE_PAYPAL_BASICA">Elegir Básica</a>
+  </section>
 
-    <section class="plan">
-      <h2>Básica — $9.99/mes</h2>
-      <ul>
-        <li>Precios de miembro en cursos y libros</li>
-        <li>Descargas solo para miembros</li>
-      </ul>
-      <a class="btn" href="TU_ENLACE_PAYPAL_SUSCRIPCION_BASIC">Suscribirse con PayPal</a>
-    </section>
+  <section class="plan">
+    <h2>Crecimiento</h2>
+    <div class="price">$19.99<span style="font-size:14px">/mes</span></div>
+    <ul>
+      <li>Todo lo de Básica</li>
+      <li>Prioridad en preguntas y comunidad</li>
+    </ul>
+    <a class="btn" href="REEMPLAZAR_CON_ENLACE_PAYPAL_CRECIMIENTO">Elegir Crecimiento</a>
+  </section>
 
-    <section class="plan">
-      <h2>Crecimiento — $19.99/mes</h2>
-      <ul>
-        <li>Todo en Básica</li>
-        <li>Soporte prioritario por email/chat</li>
-      </ul>
-      <a class="btn" href="TU_ENLACE_PAYPAL_SUSCRIPCION_GROWTH">Suscribirse con PayPal</a>
-    </section>
+  <section class="plan">
+    <h2>Pro</h2>
+    <div class="price">$39.99<span style="font-size:14px">/mes</span></div>
+    <ul>
+      <li>Todo lo de Crecimiento</li>
+      <li>Office hours y talleres especiales</li>
+    </ul>
+    <a class="btn" href="REEMPLAZAR_CON_ENLACE_PAYPAL_PRO">Elegir Pro</a>
+  </section>
+</main>
 
-    <section class="plan">
-      <h2>Pro — $29.99/mes</h2>
-      <ul>
-        <li>Todo en Crecimiento</li>
-        <li>Descuentos más profundos</li>
-      </ul>
-      <a class="btn" href="TU_ENLACE_PAYPAL_SUSCRIPCION_PRO">Suscribirse con PayPal</a>
-    </section>
-  </main>
-
-  <script src="/js/header.js"></script>
-  <script src="/js/membership-gate.js"></script>
+<script src="/js/header.js?v=4"></script>
 </body>
 </html>
