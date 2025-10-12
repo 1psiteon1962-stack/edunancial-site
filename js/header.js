@@ -1,42 +1,47 @@
-<script>
-// Unified language toggle for single-language pages.
-// Page pairs:
-//   Home:          /index.html           <-> /index-es.html
-//   Memberships:   /memberships-en.html  <-> /memberships-es.html
-//   Our Story:     /our-story.html       <-> /es-our-story.html  (optional)
-//   Catalog:       /catalog.html         <-> /es-catalog.html    (when added)
-
-(function(){
-  const mapSwap = (to) => {
-    const p = location.pathname.replace(/\/+$/,'') || '/';
-
-    // Home
-    if (p === '/' || p.endsWith('/index.html')) return (to==='es')? '/index-es.html' : '/index.html';
-    if (p.endsWith('/index-es.html'))            return (to==='es')? '/index-es.html' : '/index.html';
-
-    // Memberships
-    if (p.endsWith('/memberships-en.html'))      return (to==='es')? '/memberships-es.html' : '/memberships-en.html';
-    if (p.endsWith('/memberships-es.html'))      return (to==='es')? '/memberships-es.html' : '/memberships-en.html';
-
-    // Our Story (optional pair)
-    if (p.endsWith('/our-story.html'))           return (to==='es')? '/es-our-story.html' : '/our-story.html';
-    if (p.endsWith('/es-our-story.html'))        return (to==='es')? '/es-our-story.html' : '/our-story.html';
-
-    // Catalog (optional ES)
-    if (p.endsWith('/catalog.html'))             return (to==='es')? '/catalog.html' : '/catalog.html';
-    if (p.endsWith('/es-catalog.html'))          return (to==='es')? '/es-catalog.html' : '/catalog.html';
-
-    // Fallback to home
-    return (to==='es')? '/index-es.html' : '/index.html';
-  };
-
-  function bind(){
-    const en = document.querySelector('#btn-en');
-    const es = document.querySelector('#btn-es');
-    if (en) en.addEventListener('click', e => { e.preventDefault(); location.href = mapSwap('en'); });
-    if (es) es.addEventListener('click', e => { e.preventDefault(); location.href = mapSwap('es'); });
+// /js/header.js  — Language toggle that never 404s
+(function () {
+  function fileOnly() {
+    // current filename (default index.html)
+    const f = location.pathname.split('/').pop();
+    return f && f.length ? f : 'index.html';
   }
 
-  document.addEventListener('DOMContentLoaded', bind);
+  // Map EN <-> ES filenames (handles special cases first)
+  function toES(file) {
+    if (file === 'index.html') return 'index-es.html';
+    if (file === 'memberships-en.html') return 'memberships-es.html';
+    if (/^es-/.test(file) || /-es\.html$/.test(file)) return file; // already ES
+    return 'es-' + file;
+  }
+  function toEN(file) {
+    if (file === 'index-es.html') return 'index.html';
+    if (file === 'memberships-es.html') return 'memberships-en.html';
+    return file.replace(/^es-/, '');
+  }
+
+  // Enhance any toggle buttons/links
+  function wire() {
+    const file = fileOnly();
+
+    // Fallback hrefs so even if JS fails you never hit 404
+    const enBtn = document.getElementById('langEN');
+    const esBtn = document.getElementById('langES');
+
+    if (enBtn) {
+      enBtn.setAttribute('href', '/index.html');              // safe fallback
+      enBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        location.href = '/' + toEN(file);
+      });
+    }
+    if (esBtn) {
+      esBtn.setAttribute('href', '/index-es.html');           // safe fallback
+      esBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        location.href = '/' + toES(file);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', wire);
 })();
-</script>
