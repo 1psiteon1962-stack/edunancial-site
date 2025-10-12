@@ -1,96 +1,53 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Edunancial — Catalog</title>
-<style>
-  :root{--ed-red:#e53935}
-  body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial}
-  .wrap{max-width:1100px;margin:auto;padding:16px}
-  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
-  nav{display:flex;gap:16px;align-items:center}
-  a{color:#222;text-decoration:none;font-weight:700}
-  .grid{display:grid;gap:16px}
-  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
-  .card{border:1px solid #eee;border-radius:16px;padding:18px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
-  h3{margin:6px 0}
-  .price{font-weight:800}
-  .btn{display:inline-block;border-radius:12px;padding:12px 16px;font-weight:800;text-decoration:none}
-  .btn.pub{background:#222;color:#fff}
-  .btn.mem{background:var(--ed-red);color:#fff}
-  .tap{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
-  .note{color:#666}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edunancial – Catalog</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/header.js"></script>
+  <script>
+    // minimal member button toggle (cookie set by membership-thank-you path if desired)
+    function isMember(){ return document.cookie.split('; ').some(c=>c.startsWith('ed_member=')); }
+    document.addEventListener('DOMContentLoaded', () => {
+      const m = isMember();
+      document.querySelectorAll('[data-nm]').forEach(el => el.style.display = m ? 'none':'inline');
+      document.querySelectorAll('[data-mem]').forEach(el => el.style.display = m ? 'inline':'none');
+    });
+  </script>
 </head>
 <body>
-<header><div class="wrap"><nav>
-  <a href="/index.html" class="tap">Edunancial</a>
-  <a href="/memberships.html" class="tap">Memberships</a>
-  <a href="/catalog.html" class="tap">Catalog</a>
-</nav></div></header>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index.html">Edunancial</a>
+    <a href="/index.html">Our Story</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/contact.html">Contact</a>
+    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
+  </nav>
+</header>
 
-<main class="wrap">
+<main class="container">
   <h1>Catalog</h1>
-  <p class="note">Members see discounted buttons automatically.</p>
+  <p>Members see discounted buttons automatically.</p>
 
-  <section class="grid">
-
-    <!-- Example item A -->
-    <article class="card">
-      <h3>Course: Red, White & Blue Foundations</h3>
-      <p class="price">Public: $39 · Member: $29</p>
-      <div class="actions">
-        <!-- Non-member price -->
-        <a class="btn pub tap" data-nonmember
-           href="PAYPAL_LINK_PUBLIC_FOUNDATIONS">Buy with PayPal ($39)</a>
-        <!-- Member price (hidden unless cookie present) -->
-        <a class="btn mem tap" data-member style="display:none"
-           href="PAYPAL_LINK_MEMBER_FOUNDATIONS">Member price with PayPal ($29)</a>
-      </div>
-    </article>
-
-    <!-- Example item B -->
-    <article class="card">
-      <h3>Workbook: Paper Assets</h3>
-      <p class="price">Public: $19 · Member: $14</p>
-      <div class="actions">
-        <a class="btn pub tap" data-nonmember
-           href="PAYPAL_LINK_PUBLIC_WORKBOOK">Buy with PayPal ($19)</a>
-        <a class="btn mem tap" data-member style="display:none"
-           href="PAYPAL_LINK_MEMBER_WORKBOOK">Member price with PayPal ($14)</a>
-      </div>
-    </article>
-
-    <!-- Add more items the same way -->
-  </section>
-
-  <p style="margin-top:24px">
-    <a class="tap" href="/memberships.html">Not a member yet? Join here →</a>
+  <h2>Course: Red, White &amp; Blue Foundations</h2>
+  <p>Public: $39 · Member: $29</p>
+  <p>
+    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_COURSE">Buy with PayPal ($39)</a>
+    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_COURSE">Member price with PayPal ($29)</a>
   </p>
+
+  <h2>Workbook: Paper Assets</h2>
+  <p>Public: $19 · Member: $14</p>
+  <p>
+    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_BOOK">Buy with PayPal ($19)</a>
+    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_BOOK">Member price with PayPal ($14)</a>
+  </p>
+
+  <p>Not a member yet? <a href="/memberships-en.html">Join here →</a></p>
 </main>
-
-<!-- Member toggle script -->
-<script>
-  function isMember(){
-    return document.cookie.split('; ').some(c => c.startsWith('ed_member='));
-  }
-  document.addEventListener('DOMContentLoaded', () => {
-    const member = isMember();
-    document.querySelectorAll('[data-nonmember]')
-      .forEach(el => el.style.display = member ? 'none':'inline-block');
-    document.querySelectorAll('[data-member]')
-      .forEach(el => el.style.display = member ? 'inline-block':'none');
-  });
-</script>
-
-<!-- Tidio -->
-<script src="https://code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
-<script>
-  document.addEventListener('tidioChat-ready', function(){
-    const email = localStorage.getItem('ed_email')||'';
-    if (window.tidioChatApi) window.tidioChatApi.setVisitorData({ email });
-  });
-</script>
 </body>
 </html>
