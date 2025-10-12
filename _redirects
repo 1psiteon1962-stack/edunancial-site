@@ -1,8 +1,12 @@
-/                 /index-en.html       200
-/index.html       /index-en.html       301
+/                 /index.html                   200
+/en               /index.html                   200
+/es               /index-es.html                200
 
-/en               /index-en.html       200
-/es               /index-es.html       200
+/memberships      /memberships-en.html          200
+/en/memberships   /memberships-en.html          200
+/es/memberships   /memberships-es.html          200
 
-/memberships      /memberships-en.html 200
-/membresias       /memberships-es.html 200
+/catalog          /catalog.html                 200
+/en/catalog       /catalog.html                 200
+# If/when you add a Spanish catalog page, add the next line and create the file:
+#/es/catalog      /es-catalog.html              200
