@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PayPal LIVE Test — One-time & Cart</title>
 <link rel="stylesheet" href="/css/style.css">
 <style>
@@ -18,119 +17,86 @@
   <h1>PayPal LIVE Test — One-time $1 & Cart</h1>
   <p class="muted">Replace <strong>BUSINESS_EMAIL</strong> with your live PayPal merchant email.</p>
 
-  <!-- ---------- One-click Buy Now ($1 each) ---------- -->
+  <!-- Single $1 items -->
   <div class="card">
-    <h2>Single Item — Buy Now ($1 each)</h2>
-    <p class="muted">Each button is a separate $1 purchase.</p>
-
-    <!-- 1) Red Course -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="item_name" value="Red Course Live Test">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=RedOneTime">
-      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
-      <button class="btn" type="submit">Buy Red — $1</button>
+    <h2>Single Item — Buy Now ($1)</h2>
+    <!-- Red -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="BUSINESS_EMAIL">
+      <input type="hidden" name="item_name" value="Red Course Live Test"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=RedOneTime">
+      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1"><button class="btn" type="submit">Buy Red — $1</button>
     </form>
-
-    <!-- 2) White Course -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="item_name" value="White Course Live Test">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=WhiteOneTime">
-      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
-      <button class="btn" type="submit">Buy White — $1</button>
+    <!-- White -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="BUSINESS_EMAIL">
+      <input type="hidden" name="item_name" value="White Course Live Test"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=WhiteOneTime">
+      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1"><button class="btn" type="submit">Buy White — $1</button>
     </form>
-
-    <!-- 3) Blue Course -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="item_name" value="Blue Course Live Test">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=BlueOneTime">
-      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
-      <button class="btn" type="submit">Buy Blue — $1</button>
+    <!-- Blue -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="BUSINESS_EMAIL">
+      <input type="hidden" name="item_name" value="Blue Course Live Test"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=BlueOneTime">
+      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1"><button class="btn" type="submit">Buy Blue — $1</button>
     </form>
-
-    <!-- 4) eBook Test -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="item_name" value="eBook Download Live Test">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=eBookOneTime">
-      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
-      <button class="btn" type="submit">Buy eBook — $1</button>
+    <!-- eBook -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="BUSINESS_EMAIL">
+      <input type="hidden" name="item_name" value="eBook Download Live Test"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=eBookOneTime">
+      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1"><button class="btn" type="submit">Buy eBook — $1</button>
     </form>
-
-    <!-- 5) Mini-Course Test -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="item_name" value="Mini-Course Live Test">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=MiniCourseOneTime">
-      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
-      <button class="btn" type="submit">Buy Mini-Course — $1</button>
+    <!-- Mini-course -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="BUSINESS_EMAIL">
+      <input type="hidden" name="item_name" value="Mini-Course Live Test"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=MiniCourseOneTime">
+      <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1"><button class="btn" type="submit">Buy Mini-Course — $1</button>
     </form>
   </div>
 
-  <!-- ---------- Add-to-Cart (combine multiple $1 items) ---------- -->
+  <!-- Add-to-Cart ($1 each) -->
   <div class="card">
-    <h2>Add to Cart — Multiple Items ($1 each)</h2>
-    <p class="muted">Add several items, then click “View Cart / Checkout.”</p>
-
+    <h2>Add to Cart — Multiple Items</h2>
     <!-- Red -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Red Test (Cart)">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=RedCart">
+      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Red Test (Cart)"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=RedCart">
       <button class="btn" type="submit">Add Red — $1</button>
     </form>
-
     <!-- White -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="White Test (Cart)">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=WhiteCart">
+      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="White Test (Cart)"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=WhiteCart">
       <button class="btn" type="submit">Add White — $1</button>
     </form>
-
     <!-- Blue -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Blue Test (Cart)">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=BlueCart">
+      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Blue Test (Cart)"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=BlueCart">
       <button class="btn" type="submit">Add Blue — $1</button>
     </form>
-
     <!-- eBook -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="eBook Test (Cart)">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=eBookCart">
+      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="eBook Test (Cart)"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=eBookCart">
       <button class="btn" type="submit">Add eBook — $1</button>
     </form>
-
-    <!-- Mini-Course -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px 6px 0;">
+    <!-- Mini-course -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
-      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Mini-Course Test (Cart)">
-      <input type="hidden" name="amount" value="1.00"><input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=MiniCourseCart">
+      <input type="hidden" name="add" value="1"><input type="hidden" name="item_name" value="Mini-Course Test (Cart)"><input type="hidden" name="amount" value="1.00">
+      <input type="hidden" name="currency_code" value="USD"><input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?item=MiniCourseCart">
       <button class="btn" type="submit">Add Mini-Course — $1</button>
     </form>
-
     <!-- View Cart -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank" style="display:inline-block;margin:6px 0 6px 12px;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank" style="display:inline-block;margin:6px 8px;">
       <input type="hidden" name="cmd" value="_cart"><input type="hidden" name="business" value="BUSINESS_EMAIL">
       <input type="hidden" name="display" value="1">
       <button class="btn" type="submit">View Cart / Checkout</button>
