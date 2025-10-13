@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PayPal Return — Edunancial</title>
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:20px}
+  .wrap{max-width:980px;margin:0 auto}
+  .card{border:1px solid #eee;padding:18px;border-radius:12px;margin:12px 0}
+  pre{background:#f8f8f8;padding:12px;border-radius:8px;overflow:auto}
+  .btn{display:inline-block;background:#0070ba;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .btn.secondary{background:#444}
+  .muted{color:#666;font-size:13px}
+  .ok{color:#0a7a0a;font-weight:700}
+  .warn{color:#a60;font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>PayPal Return / Test Receiver</h1>
+
+  <div class="card" id="statusCard">
+    <h2>Status</h2>
+    <p id="statusMsg" class="muted">Analyzing return parameters…</p>
+    <p><a class="btn" href="/catalog.html">Go to Catalog</a> <a class="btn secondary" href="/memberships-en.html">Memberships</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Returned Query String</h2>
+    <pre id="qs">Loading…</pre>
+    <h2>Full URL</h2>
+    <pre id="url">Loading…</pre>
+    <p class="muted">Note: For production, validate payments via IPN/PDT/Webhooks. This page is for **testing redirect & cookie** only.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  function setCookie(name,value,days){
+    const d=new Date(); d.setTime(d.getTime()+ (days*24*60*60*1000));
+    document.cookie = name+"="+encodeURIComponent(value)+"; expires="+d.toUTCString()+"; path=/; SameSite=Lax";
+  }
+  function getParam(key){
+    const p=new URLSearchParams(location.search);
+    return p.get(key)||"";
+  }
+  function text(id,msg,cls){
+    const el=document.getElementById(id); if(!el) return;
+    el.textContent=msg;
+    if(cls){ el.className=cls; }
+  }
+
+  document.addEventListener('DOMContentLoaded',()=>{
+    const qs = location.search || '';
+    document.getElementById('qs').textContent = qs || '(no query string)';
+    document.getElementById('url').textContent = location.href;
+
+    const canceled = getParam('cancel');
+    const sub = getParam('sub');     // Basic, Growth, Pro, Platinum, Elite
+    const item = getParam('item');   // RedOneTime, WhiteCart, etc.
+
+    if(canceled){
+      text('statusMsg','Payment canceled by user.', 'warn');
+      return;
+    }
+
+    // Handle subscriptions: set membership cookie for 30 days
+    if(sub){
+      const valid = ['Basic','Growth','Pro','Platinum','Elite'];
+      const upper = sub.toUpperCase();
+      if(valid.map(v=>v.toUpperCase()).includes(upper)){
+        // Normalize to our site tiers: BASIC/GROWTH/PRO/PLATINUM/ELITE
+        setCookie('ed_member', upper, 30);
+        text('statusMsg', 'Subscription detected: '+sub+' — membership cookie set (ed_member='+upper+') for 30 days. You can now see member pricing on Catalog.', 'ok');
+        return;
+      }
+    }
+
+    // Handle one-time items: set a short course access cookie (1 day) for quick UI tests
+    if(item){
+      setCookie('ed_access_'+item, '1', 1);
+      text('statusMsg', 'One-time purchase detected: '+item+' — temporary access cookie set for 1 day.', 'ok');
+      return;
+    }
+
+    text('statusMsg','No recognizable parameters found. If this was a real payment, configure Auto Return or PDT/IPN.', 'warn');
+  });
+})();
+</script>
+</body>
+</html>
