@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PayPal Return — Edunancial</title>
 <link rel="stylesheet" href="/css/style.css">
 <style>
@@ -32,7 +31,7 @@
     <pre id="qs">Loading…</pre>
     <h2>Full URL</h2>
     <pre id="url">Loading…</pre>
-    <p class="muted">Note: For production, validate payments via IPN/PDT/Webhooks. This page is for **testing redirect & cookie** only.</p>
+    <p class="muted">For production, validate via IPN/PDT/Webhooks. This page is for redirect + cookie testing only.</p>
   </div>
 </div>
 
@@ -42,50 +41,34 @@
     const d=new Date(); d.setTime(d.getTime()+ (days*24*60*60*1000));
     document.cookie = name+"="+encodeURIComponent(value)+"; expires="+d.toUTCString()+"; path=/; SameSite=Lax";
   }
-  function getParam(key){
-    const p=new URLSearchParams(location.search);
-    return p.get(key)||"";
-  }
-  function text(id,msg,cls){
-    const el=document.getElementById(id); if(!el) return;
-    el.textContent=msg;
-    if(cls){ el.className=cls; }
-  }
+  function getParam(k){ return new URLSearchParams(location.search).get(k)||""; }
+  function show(id,msg,cls){ const el=document.getElementById(id); if(el){ el.textContent=msg; if(cls) el.className=cls; } }
 
   document.addEventListener('DOMContentLoaded',()=>{
     const qs = location.search || '';
     document.getElementById('qs').textContent = qs || '(no query string)';
     document.getElementById('url').textContent = location.href;
 
-    const canceled = getParam('cancel');
-    const sub = getParam('sub');     // Basic, Growth, Pro, Platinum, Elite
-    const item = getParam('item');   // RedOneTime, WhiteCart, etc.
+    if(getParam('cancel')){ show('statusMsg','Payment canceled by user.','warn'); return; }
 
-    if(canceled){
-      text('statusMsg','Payment canceled by user.', 'warn');
-      return;
-    }
+    const sub = getParam('sub');                 // Basic/Growth/Pro/Platinum/Elite
+    const item = getParam('item');               // RedCart, BlueOneTime, etc.
 
-    // Handle subscriptions: set membership cookie for 30 days
     if(sub){
-      const valid = ['Basic','Growth','Pro','Platinum','Elite'];
+      const valid = ['BASIC','GROWTH','PRO','PLATINUM','ELITE'];
       const upper = sub.toUpperCase();
-      if(valid.map(v=>v.toUpperCase()).includes(upper)){
-        // Normalize to our site tiers: BASIC/GROWTH/PRO/PLATINUM/ELITE
+      if(valid.includes(upper)){
         setCookie('ed_member', upper, 30);
-        text('statusMsg', 'Subscription detected: '+sub+' — membership cookie set (ed_member='+upper+') for 30 days. You can now see member pricing on Catalog.', 'ok');
+        show('statusMsg','Subscription detected: '+sub+' — cookie set (ed_member='+upper+') for 30 days. Member pricing unlocked on Catalog.','ok');
         return;
       }
     }
-
-    // Handle one-time items: set a short course access cookie (1 day) for quick UI tests
     if(item){
       setCookie('ed_access_'+item, '1', 1);
-      text('statusMsg', 'One-time purchase detected: '+item+' — temporary access cookie set for 1 day.', 'ok');
+      show('statusMsg','One-time purchase detected: '+item+' — temporary access cookie set for 1 day.','ok');
       return;
     }
-
-    text('statusMsg','No recognizable parameters found. If this was a real payment, configure Auto Return or PDT/IPN.', 'warn');
+    show('statusMsg','No recognizable parameters found. Enable Auto Return or PDT/IPN to pass data.','warn');
   });
 })();
 </script>
