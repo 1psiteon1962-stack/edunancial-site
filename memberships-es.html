@@ -8,14 +8,17 @@
 <style>
   .btn{font-size:18px;padding:14px 18px;border-radius:14px}
   .price{font-size:32px}
+  .badge{display:inline-block;background:#eef;border:1px solid #99c;padding:4px 8px;border-radius:8px}
   .testnote{background:#fff9e6;border:1px solid #f4e0a6;padding:10px 12px;border-radius:10px;margin-bottom:16px}
+  .checkbox{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+  .checkbox input{margin-top:4px}
 </style>
 </head>
 <body>
 <header class="site-nav"><div class="nav-wrap">
   <a class="brand" href="/es-our-story.html">Edunancial</a>
   <nav class="links"><a href="/es-our-story.html">Nuestra Historia</a><a href="/memberships-es.html">Membresías</a><a href="/es-catalog.html">Catálogo</a><a href="/es-videos.html">Videos</a><a href="/es-contact.html">Contacto</a></nav>
-  <div class="lang"><a id="langEN" href="/memberships-en.html">EN</a><a id="langES" href="/memberships-es.html">ES</a></div>
+  <div class="lang"><a id="langEN" href="#">EN</a><a id="langES" href="#">ES</a></div>
 </div></header>
 
 <main class="container">
@@ -25,37 +28,24 @@
     <a class="btn outline" href="/paypal-live-test.html">Compras únicas & Carrito ($1)</a>
     <a class="btn outline" href="/paypal-live-subscriptions-test.html">Suscripciones ($1/mes)</a>
   </div>
-  <p class="small">Todos los planes son bilingües (inglés y español) y se pueden mejorar en cualquier momento.</p>
+  <p class="small">Todos los planes son bilingües y se pueden mejorar en cualquier momento.</p>
 
   <div class="grid auto">
     <!-- BASICA -->
     <div class="card">
       <h2>Básica</h2>
       <div class="price">$9.99<span class="small">/mes</span></div>
-      <p><span class="badge">Intro: $5 el primer mes</span></p>
-      <ul>
-        <li>Recursos iniciales y descargas para miembros</li>
-        <li>15% de descuento en 1 mini-curso al mes</li>
-        <li>Soporte por correo (2–3 días hábiles)</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados. (Cancelar en cualquier momento.)</span></label>
-
-      <!-- SUSCRIPCIÓN PAYPAL: $5 primer mes, luego $9.99/mes -->
+      <p><span class="badge">$5 el primer mes</span></p>
+      <ul><li>Descargas iniciales y precios de miembro</li><li>15% de descuento en 1 mini-curso/mes</li><li>Soporte por correo (2–3 días hábiles)</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>Acepto recibir correos educativos y/o mensajes automatizados. (Cancelar en cualquier momento.)</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Membresía Básica">
         <input type="hidden" name="currency_code" value="USD">
-        <!-- Mes 1: $5 -->
-        <input type="hidden" name="a1" value="5.00">
-        <input type="hidden" name="p1" value="1">
-        <input type="hidden" name="t1" value="M">
-        <!-- Recurrente -->
-        <input type="hidden" name="a3" value="9.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a1" value="5.00"><input type="hidden" name="p1" value="1"><input type="hidden" name="t1" value="M">
+        <input type="hidden" name="a3" value="9.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Basic">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Unirme a Básica</button>
@@ -66,25 +56,15 @@
     <div class="card">
       <h2>Crecimiento</h2>
       <div class="price">$19.99<span class="small">/mes</span></div>
-      <ul>
-        <li>Todo lo de Básica</li>
-        <li>Soporte prioritario (1–2 días hábiles)</li>
-        <li>Acceso anticipado + hilo mensual de preguntas</li>
-        <li>Hoja de trabajo o e-book mensual</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-
-      <!-- $19.99/mes -->
+      <ul><li>Todo lo de Básica</li><li>Soporte prioritario (1–2 días)</li><li>Acceso anticipado + Q&A mensual</li><li>Hoja de trabajo o e-book mensual</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Membresía Crecimiento">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="19.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="19.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Growth">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Unirme a Crecimiento</button>
@@ -95,25 +75,15 @@
     <div class="card">
       <h2>Pro</h2>
       <div class="price">$39.99<span class="small">/mes</span></div>
-      <ul>
-        <li>Todo lo de Crecimiento</li>
-        <li><strong>Taller Trimestral</strong> (en vivo o repetición)</li>
-        <li>Paquete de Acción Trimestral + Paquete de Herramientas de Negocio</li>
-        <li>50% de descuento en mini-cursos, certificados, grupo de Q&A Pro</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-
-      <!-- $39.99/mes -->
+      <ul><li>Todo lo de Crecimiento</li><li><strong>Taller Trimestral</strong> (en vivo o repetición)</li><li>Paquete de Acción + Herramientas de Negocio</li><li>50% en mini-cursos; grupo Pro</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Membresía Pro">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="39.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="39.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Pro">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Unirme a Pro</button>
@@ -124,15 +94,8 @@
     <div class="card">
       <h2>Platinum (2 Años)</h2>
       <div class="price">$1,667<span class="small">/2 años</span></div>
-      <ul>
-        <li>Todos los beneficios de Pro por 24 meses</li>
-        <li>Acceso a todos los eBooks, Cursos y Actualizaciones</li>
-        <li><strong>Cumbre Platinum</strong> (evento en vivo; viaje/hospedaje no incluidos)</li>
-        <li>Insignia/certificado Platinum</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-
-      <!-- Pago único $1,667 -->
+      <ul><li>Todos los beneficios de Pro por 24 meses</li><li>Acceso a eBooks, Cursos y Actualizaciones</li><li>Cumbre Platinum (evento en vivo)</li><li>Insignia/certificado</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
@@ -149,25 +112,15 @@
     <div class="card">
       <h2>Elite</h2>
       <div class="price">$99<span class="small">/mes</span></div>
-      <ul>
-        <li>Todo lo de Pro</li>
-        <li>Mensaje trimestral de estrategia (página de reproducción)</li>
-        <li>Plan de crecimiento personalizado (asistido por IA)</li>
-        <li>Mini-cursos incluidos + mastermind + 10% de afiliado</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-
-      <!-- $99/mes -->
+      <ul><li>Todo lo de Pro</li><li>Mensaje trimestral de estrategia (reproducción)</li><li>Plan de crecimiento personalizado</li><li>Mini-cursos incluidos + mastermind</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Membresía Elite">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="99.00">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="99.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Elite">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Unirme a Elite</button>
@@ -178,14 +131,8 @@
     <div class="card">
       <h2>Licencia Institucional</h2>
       <div class="price">$250<span class="small">/año</span></div>
-      <ul>
-        <li>Hasta 25 usuarios (EN + ES)</li>
-        <li>eBooks, mini-cursos, hojas de trabajo y guías para docentes</li>
-        <li>Capacitación trimestral para facilitadores</li>
-        <li>Certificados de participación</li>
-      </ul>
-      <a class="btn block" href="mailto:institutions@edunancial.com">Solicitar por Correo</a>
-      <p class="small">Dedicado: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
+      <ul><li>Hasta 25 usuarios (EN+ES)</li><li>Guías para docentes y certificados</li><li>Capacitación trimestral</li></ul>
+      <a class="btn block" href="mailto:institutions@edunancial.com">Solicitar por correo</a>
     </div>
   </div>
 </main>
