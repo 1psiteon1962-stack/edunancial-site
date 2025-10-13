@@ -5,6 +5,11 @@
 <title>Edunancial — Membresías</title>
 <link rel="stylesheet" href="/css/style.css">
 <script defer src="/js/header.js"></script>
+<style>
+  .btn{font-size:18px;padding:14px 18px;border-radius:14px}
+  .price{font-size:32px}
+  .testnote{background:#fff9e6;border:1px solid #f4e0a6;padding:10px 12px;border-radius:10px;margin-bottom:16px}
+</style>
 </head>
 <body>
 <header class="site-nav"><div class="nav-wrap">
@@ -15,34 +20,78 @@
 
 <main class="container">
   <h1>Membresías</h1>
-  <p class="small">Puedes mejorar de plan en cualquier momento. Servicio bilingüe (inglés y español).</p>
+  <div class="testnote">
+    <strong>Pruebas en vivo de $1:</strong>
+    <a class="btn outline" href="/paypal-live-test.html">Compras únicas & Carrito ($1)</a>
+    <a class="btn outline" href="/paypal-live-subscriptions-test.html">Suscripciones ($1/mes)</a>
+  </div>
+  <p class="small">Todos los planes son bilingües (inglés y español) y se pueden mejorar en cualquier momento.</p>
 
   <div class="grid auto">
+    <!-- BASICA -->
     <div class="card">
       <h2>Básica</h2>
       <div class="price">$9.99<span class="small">/mes</span></div>
+      <p><span class="badge">Intro: $5 el primer mes</span></p>
       <ul>
         <li>Recursos iniciales y descargas para miembros</li>
-        <li>15% de descuento en 1 mini-curso por mes</li>
+        <li>15% de descuento en 1 mini-curso al mes</li>
         <li>Soporte por correo (2–3 días hábiles)</li>
       </ul>
       <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados. (Cancelar en cualquier momento.)</span></label>
-      <a class="btn block" href="PAYPAL_LINK_BASIC_ES">Unirme a Básica</a>
+
+      <!-- SUSCRIPCIÓN PAYPAL: $5 primer mes, luego $9.99/mes -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="BUSINESS_EMAIL">
+        <input type="hidden" name="item_name" value="Edunancial Membresía Básica">
+        <input type="hidden" name="currency_code" value="USD">
+        <!-- Mes 1: $5 -->
+        <input type="hidden" name="a1" value="5.00">
+        <input type="hidden" name="p1" value="1">
+        <input type="hidden" name="t1" value="M">
+        <!-- Recurrente -->
+        <input type="hidden" name="a3" value="9.99">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Basic">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
+        <button class="btn block" type="submit">Unirme a Básica</button>
+      </form>
     </div>
 
+    <!-- CRECIMIENTO -->
     <div class="card">
       <h2>Crecimiento</h2>
       <div class="price">$19.99<span class="small">/mes</span></div>
       <ul>
         <li>Todo lo de Básica</li>
         <li>Soporte prioritario (1–2 días hábiles)</li>
-        <li>Acceso anticipado + video/hilo mensual de preguntas</li>
+        <li>Acceso anticipado + hilo mensual de preguntas</li>
         <li>Hoja de trabajo o e-book mensual</li>
       </ul>
       <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-      <a class="btn block" href="PAYPAL_LINK_GROWTH_ES">Unirme a Crecimiento</a>
+
+      <!-- $19.99/mes -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="BUSINESS_EMAIL">
+        <input type="hidden" name="item_name" value="Edunancial Membresía Crecimiento">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="a3" value="19.99">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Growth">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
+        <button class="btn block" type="submit">Unirme a Crecimiento</button>
+      </form>
     </div>
 
+    <!-- PRO -->
     <div class="card">
       <h2>Pro</h2>
       <div class="price">$39.99<span class="small">/mes</span></div>
@@ -53,9 +102,25 @@
         <li>50% de descuento en mini-cursos, certificados, grupo de Q&A Pro</li>
       </ul>
       <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-      <a class="btn block" href="PAYPAL_LINK_PRO_ES">Unirme a Pro</a>
+
+      <!-- $39.99/mes -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="BUSINESS_EMAIL">
+        <input type="hidden" name="item_name" value="Edunancial Membresía Pro">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="a3" value="39.99">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Pro">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
+        <button class="btn block" type="submit">Unirme a Pro</button>
+      </form>
     </div>
 
+    <!-- PLATINUM -->
     <div class="card">
       <h2>Platinum (2 Años)</h2>
       <div class="price">$1,667<span class="small">/2 años</span></div>
@@ -66,9 +131,21 @@
         <li>Insignia/certificado Platinum</li>
       </ul>
       <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-      <a class="btn block" href="PAYPAL_LINK_PLATINUM_ONE_TIME_ES">Ser Platinum</a>
+
+      <!-- Pago único $1,667 -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="BUSINESS_EMAIL">
+        <input type="hidden" name="item_name" value="Edunancial Platinum (2 Años)">
+        <input type="hidden" name="amount" value="1667.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Platinum">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
+        <button class="btn block" type="submit">Ser Platinum</button>
+      </form>
     </div>
 
+    <!-- ELITE -->
     <div class="card">
       <h2>Elite</h2>
       <div class="price">$99<span class="small">/mes</span></div>
@@ -79,9 +156,25 @@
         <li>Mini-cursos incluidos + mastermind + 10% de afiliado</li>
       </ul>
       <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
-      <a class="btn block" href="PAYPAL_LINK_ELITE_ES">Unirme a Elite</a>
+
+      <!-- $99/mes -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="BUSINESS_EMAIL">
+        <input type="hidden" name="item_name" value="Edunancial Membresía Elite">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="a3" value="99.00">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Elite">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
+        <button class="btn block" type="submit">Unirme a Elite</button>
+      </form>
     </div>
 
+    <!-- INSTITUCIONAL -->
     <div class="card">
       <h2>Licencia Institucional</h2>
       <div class="price">$250<span class="small">/año</span></div>
@@ -91,8 +184,8 @@
         <li>Capacitación trimestral para facilitadores</li>
         <li>Certificados de participación</li>
       </ul>
-      <a class="btn block" href="mailto:institutions@edunancial.com">Solicitar Acceso Institucional</a>
-      <p class="small">Correo dedicado: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
+      <a class="btn block" href="mailto:institutions@edunancial.com">Solicitar por Correo</a>
+      <p class="small">Dedicado: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
     </div>
   </div>
 </main>
