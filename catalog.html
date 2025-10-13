@@ -1,53 +1,186 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial – Catalog</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script defer src="/js/header.js"></script>
-  <script>
-    // minimal member button toggle (cookie set by membership-thank-you path if desired)
-    function isMember(){ return document.cookie.split('; ').some(c=>c.startsWith('ed_member=')); }
-    document.addEventListener('DOMContentLoaded', () => {
-      const m = isMember();
-      document.querySelectorAll('[data-nm]').forEach(el => el.style.display = m ? 'none':'inline');
-      document.querySelectorAll('[data-mem]').forEach(el => el.style.display = m ? 'inline':'none');
-    });
-  </script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Catalog</title>
+<link rel="stylesheet" href="/css/style.css">
+<script defer src="/js/header.js"></script>
+<script defer src="/js/membership-gate.js"></script>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/index.html">Edunancial</a>
-    <a href="/index.html">Our Story</a>
-    <a href="/memberships-en.html">Memberships</a>
-    <a href="/catalog.html">Catalog</a>
-    <a href="/videos.html">Videos</a>
-    <a href="/contact.html">Contact</a>
-    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
-  </nav>
-</header>
+<header class="site-nav"><div class="nav-wrap">
+  <a class="brand" href="/index.html">Edunancial</a>
+  <nav class="links"><a href="/index.html">Our Story</a><a href="/memberships-en.html">Memberships</a><a href="/catalog.html">Catalog</a><a href="/videos.html">Videos</a><a href="/contact.html">Contact</a></nav>
+  <div class="lang"><a id="langEN" href="/catalog.html">EN</a><a id="langES" href="/es-catalog.html">ES</a></div>
+</div></header>
 
 <main class="container">
   <h1>Catalog</h1>
-  <p>Members see discounted buttons automatically.</p>
+  <p class="small">Member pricing appears automatically based on your plan.</p>
 
-  <h2>Course: Red, White &amp; Blue Foundations</h2>
-  <p>Public: $39 · Member: $29</p>
-  <p>
-    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_COURSE">Buy with PayPal ($39)</a>
-    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_COURSE">Member price with PayPal ($29)</a>
-  </p>
+  <!-- RED -->
+  <div class="section">
+    <h2>🔴 Red — Real Estate & Tangible Assets</h2>
 
-  <h2>Workbook: Paper Assets</h2>
-  <p>Public: $19 · Member: $14</p>
-  <p>
-    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_BOOK">Buy with PayPal ($19)</a>
-    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_BOOK">Member price with PayPal ($14)</a>
-  </p>
+    <div class="grid auto">
+      <div class="card">
+        <h3>Real Estate Investing Fundamentals</h3>
+        <div class="small">Course · $149 public</div>
+        <p>Analyze, finance, and manage property for cash flow and appreciation.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_RE_FUNDAMENTALS">$149 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_RE_FUNDAMENTALS">$119.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_RE_FUNDAMENTALS">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
 
-  <p>Not a member yet? <a href="/memberships-en.html">Join here →</a></p>
+      <div class="card">
+        <h3>Building Wealth with Tax Liens & Tax Deeds</h3>
+        <div class="small">Course · $199 public</div>
+        <p>Where, why, and how to buy tax liens/deeds safely for returns.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_TAX_LIENS">$199 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_TAX_LIENS">$159.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_TAX_LIENS">$99.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Flipping Houses for Profit</h3>
+        <div class="small">Mini-Course · $49 public</div>
+        <p>Quick-start guide with a rehab budget template.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_FLIP">$49 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_FLIP">$39.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_FLIP">$24.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Books — Red Series</h3>
+      <table class="table small">
+        <tr><th>Title</th><th>Format</th><th>Action</th></tr>
+        <tr><td>Building Wealth with Tax Liens & Tax Deeds</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_TAXLIENS">Read</a> <a class="btn outline" href="AUDIO_TAXLIENS_ZIP">Listen</a></td></tr>
+        <tr><td>Real Estate Investing Fundamentals</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_REI">Read</a> <a class="btn outline" href="AUDIO_REI_ZIP">Listen</a></td></tr>
+        <tr><td>Flipping Houses for Profit (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_FLIP">Read</a> <a class="btn outline" href="AUDIO_FLIP_ZIP">Listen</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- WHITE -->
+  <div class="section">
+    <h2>⚪ White — Paper Assets</h2>
+
+    <div class="grid auto">
+      <div class="card">
+        <h3>Options Trading Masterclass</h3>
+        <div class="small">Course · $149 public</div>
+        <p>Calls, puts, spreads, hedging—practical strategies with risk control.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_OPTIONS">$149 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_OPTIONS">$119.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_OPTIONS">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Understanding Paper Assets — Stocks, Bonds & Beyond</h3>
+        <div class="small">Course · $99 public</div>
+        <p>Compare stocks, bonds, ETFs, REITs, CDs, money markets, and more.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_PAPER_ASSETS">$99 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PAPER_ASSETS">$79.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PAPER_ASSETS">$49.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>ETF Investing Simplified</h3>
+        <div class="small">Mini-Course · $39 public</div>
+        <p>Index funds and compounding, made simple. Includes ETF comparison sheet.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_ETF">$39 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_ETF">$31.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_ETF">$19.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Books — White Series</h3>
+      <table class="table small">
+        <tr><th>Title</th><th>Format</th><th>Action</th></tr>
+        <tr><td>Options Trading</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_OPTIONS">Read</a> <a class="btn outline" href="AUDIO_OPTIONS_ZIP">Listen</a></td></tr>
+        <tr><td>Understanding Paper Assets</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_PAPER_ASSETS">Read</a> <a class="btn outline" href="AUDIO_PAPER_ASSETS_ZIP">Listen</a></td></tr>
+        <tr><td>ETF Investing Simplified (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_ETF">Read</a> <a class="btn outline" href="AUDIO_ETF_ZIP">Listen</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- BLUE -->
+  <div class="section">
+    <h2>🔵 Blue — Business Ownership</h2>
+
+    <div class="grid auto">
+      <div class="card">
+        <h3>Business Is About Making Profit</h3>
+        <div class="small">Course · $149 public</div>
+        <p>Mindset, systems, pricing, and metrics that drive true profitability.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_PROFIT">$149 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PROFIT">$119.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PROFIT">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>From Idea to Incorporation</h3>
+        <div class="small">Course · $199 public</div>
+        <p>Choose entity, file properly, set ownership, and build credit.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_INCORP">$199 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_INCORP">$159.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_INCORP">$99.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Branding for Beginners</h3>
+        <div class="small">Mini-Course · $39 public</div>
+        <p>Names, logos, and brand voice that communicate value.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_BRANDING">$39 Public</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_BRANDING">$31.20 Growth</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_BRANDING">$19.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Books — Blue Series</h3>
+      <table class="table small">
+        <tr><th>Title</th><th>Format</th><th>Action</th></tr>
+        <tr><td>Business Is About Making Profit</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_PROFIT">Read</a> <a class="btn outline" href="AUDIO_PROFIT_ZIP">Listen</a></td></tr>
+        <tr><td>From Idea to Incorporation</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_INCORP">Read</a> <a class="btn outline" href="AUDIO_INCORP_ZIP">Listen</a></td></tr>
+        <tr><td>Branding for Beginners (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_BRANDING">Read</a> <a class="btn outline" href="AUDIO_BRANDING_ZIP">Listen</a></td></tr>
+      </table>
+    </div>
+  </div>
 </main>
+
+<footer class="site-footer"><div class="footer-wrap">
+  <span>© Edunancial</span>
+  <span><a href="/privacy.html">Privacy</a> · <a href="/terms-of-service.html">Terms</a></span>
+</div></footer>
 </body>
 </html>
