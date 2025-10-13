@@ -1,186 +1,148 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Catálogo</title>
-<link rel="stylesheet" href="/css/style.css">
-<script defer src="/js/header.js"></script>
-<script defer src="/js/membership-gate.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo • Edunancial</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5;margin:20px;max-width:980px}
+  header{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+  .spacer{flex:1}
+  .cartbar{position:sticky;top:0;background:#fff;padding:8px 0;border-bottom:1px solid #eee;margin-bottom:10px}
+  h1{margin:.2rem 0 1rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{border:1px solid #ddd;border-radius:10px;padding:16px}
+  .price{margin:.25rem 0 .75rem;font-weight:600}
+  .btn{display:inline-block;background:#d11f1f;color:#fff;padding:10px 14px;border-radius:8px;border:none;text-decoration:none;font-weight:700;cursor:pointer}
+  .btn.secondary{background:#555}
+  .row{display:flex;gap:10px;flex-wrap:wrap}
+  nav a{margin-right:10px}
+  small.muted{color:#666}
+</style>
 </head>
 <body>
-<header class="site-nav"><div class="nav-wrap">
-  <a class="brand" href="/es-our-story.html">Edunancial</a>
-  <nav class="links"><a href="/es-our-story.html">Nuestra Historia</a><a href="/memberships-es.html">Membresías</a><a href="/es-catalog.html">Catálogo</a><a href="/es-videos.html">Videos</a><a href="/es-contact.html">Contacto</a></nav>
-  <div class="lang"><a id="langEN" href="/catalog.html">EN</a><a id="langES" href="/es-catalog.html">ES</a></div>
-</div></header>
 
-<main class="container">
-  <h1>Catálogo</h1>
-  <p class="small">Los precios para miembros aparecen automáticamente según tu plan.</p>
+<header>
+  <nav>
+    <a href="/index-es.html">Inicio</a>
+    <a href="/memberships-es.html">Membresías</a>
+    <a href="/es-videos.html">Videos</a>
+    <a href="/es-contact.html">Contacto</a>
+  </nav>
+  <div class="spacer"></div>
+  <!-- Conmutador de idioma -->
+  <nav><a href="/catalog.html" aria-label="English">EN</a></nav>
+</header>
 
-  <!-- ROJO -->
-  <div class="section">
-    <h2>🔴 Rojo — Bienes Raíces y Activos Tangibles</h2>
+<div class="cartbar">
+  <!-- Ver carrito -->
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:inline">
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+    <input type="hidden" name="display" value="1">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+    <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+    <button class="btn secondary" type="submit">Ver carrito</button>
+  </form>
+  <small class="muted">Usa “Agregar al carrito” en los productos y luego “Ver carrito”. “Comprar ahora” paga un solo artículo.</small>
+</div>
 
-    <div class="grid auto">
-      <div class="card">
-        <h3>Fundamentos de Inversión en Bienes Raíces</h3>
-        <div class="small">Curso · $149 público</div>
-        <p>Analiza, financia y gestiona propiedades para flujo de caja y plusvalía.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_RE_FUNDAMENTALS_ES">$149 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_RE_FUNDAMENTALS_ES">$119.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_RE_FUNDAMENTALS_ES">$74.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
+<h1>Catálogo</h1>
 
-      <div class="card">
-        <h3>Construyendo Riqueza con Gravámenes y Escrituras por Impuestos</h3>
-        <div class="small">Curso · $199 público</div>
-        <p>Dónde, por qué y cómo comprar gravámenes/escrituras de impuestos de forma segura.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_TAX_LIENS_ES">$199 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_TAX_LIENS_ES">$159.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_TAX_LIENS_ES">$99.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
+<div class="grid">
 
-      <div class="card">
-        <h3>Volteo de Casas con Ganancia</h3>
-        <div class="small">Mini-curso · $49 público</div>
-        <p>Guía de inicio rápido con plantilla de presupuesto de remodelación.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_FLIP_ES">$49 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_FLIP_ES">$39.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_FLIP_ES">$24.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>Libros — Serie Roja</h3>
-      <table class="table small">
-        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
-        <tr><td>Riqueza con Gravámenes y Escrituras de Impuestos</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_TAXLIENS_ES">Leer</a> <a class="btn outline" href="AUDIO_TAXLIENS_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>Fundamentos de Inversión Inmobiliaria</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_REI_ES">Leer</a> <a class="btn outline" href="AUDIO_REI_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>Volteo de Casas (Mini)</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_FLIP_ES">Leer</a> <a class="btn outline" href="AUDIO_FLIP_ZIP_ES">Escuchar</a></td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- BLANCO -->
-  <div class="section">
-    <h2>⚪ Blanco — Activos de Papel</h2>
-
-    <div class="grid auto">
-      <div class="card">
-        <h3>Masterclass de Opciones</h3>
-        <div class="small">Curso · $149 público</div>
-        <p>Calls, puts, spreads, coberturas—estrategias prácticas con control del riesgo.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_OPTIONS_ES">$149 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_OPTIONS_ES">$119.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_OPTIONS_ES">$74.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Entendiendo los Activos de Papel — Acciones, Bonos y Más</h3>
-        <div class="small">Curso · $99 público</div>
-        <p>Compara acciones, bonos, ETFs, REITs, CDs, cuentas de ahorro y más.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_PAPER_ASSETS_ES">$99 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PAPER_ASSETS_ES">$79.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PAPER_ASSETS_ES">$49.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Inversión en ETFs Simplificada</h3>
-        <div class="small">Mini-curso · $39 público</div>
-        <p>Fondos índice y capitalización compuesta con hoja comparativa de ETFs.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_ETF_ES">$39 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_ETF_ES">$31.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_ETF_ES">$19.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>Libros — Serie Blanca</h3>
-      <table class="table small">
-        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
-        <tr><td>Opciones</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_OPTIONS_ES">Leer</a> <a class="btn outline" href="AUDIO_OPTIONS_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>Activos de Papel</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_PAPER_ASSETS_ES">Leer</a> <a class="btn outline" href="AUDIO_PAPER_ASSETS_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>ETFs Simplificados (Mini)</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_ETF_ES">Leer</a> <a class="btn outline" href="AUDIO_ETF_ZIP_ES">Escuchar</a></td></tr>
-      </table>
+  <!-- Curso Fundamentos -->
+  <div class="card">
+    <h3>Curso: Fundamentos Rojo, Blanco y Azul</h3>
+    <div class="price">Público: $39 · Miembro: $29</div>
+    <div class="row">
+      <!-- Comprar ahora (uno) -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
+        <input type="hidden" name="amount" value="39.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+        <button class="btn" type="submit">Comprar ahora — $39</button>
+      </form>
+      <!-- Agregar al carrito (varios) -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
+        <input type="hidden" name="amount" value="39.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <button class="btn secondary" type="submit">Agregar al carrito — $39</button>
+      </form>
+      <!-- Precio miembro -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="item_name" value="Miembro: Curso Fundamentos">
+        <input type="hidden" name="amount" value="29.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+        <button class="btn" type="submit">Precio miembro — $29</button>
+      </form>
     </div>
   </div>
 
-  <!-- AZUL -->
-  <div class="section">
-    <h2>🔵 Azul — Propiedad de Negocio</h2>
-
-    <div class="grid auto">
-      <div class="card">
-        <h3>El Negocio se Trata de Ganar Utilidades</h3>
-        <div class="small">Curso · $149 público</div>
-        <p>Mentalidad, sistemas, precios y métricas que impulsan la rentabilidad real.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_PROFIT_ES">$149 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PROFIT_ES">$119.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PROFIT_ES">$74.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>De la Idea a la Incorporación</h3>
-        <div class="small">Curso · $199 público</div>
-        <p>Elige entidad, presenta correctamente, define propiedad y construye crédito.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_INCORP_ES">$199 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_INCORP_ES">$159.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_INCORP_ES">$99.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Branding para Principiantes</h3>
-        <div class="small">Mini-curso · $39 público</div>
-        <p>Nombres, logos y voz de marca que comunican valor.</p>
-        <p>
-          <a data-public class="btn" href="PAYPAL_PUBLIC_BRANDING_ES">$39 Público</a>
-          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_BRANDING_ES">$31.20 Crecimiento</a>
-          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_BRANDING_ES">$19.50 Pro/Platinum/Elite</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>Libros — Serie Azul</h3>
-      <table class="table small">
-        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
-        <tr><td>El Negocio se Trata de Ganar Utilidades</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_PROFIT_ES">Leer</a> <a class="btn outline" href="AUDIO_PROFIT_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>De la Idea a la Incorporación</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_INCORP_ES">Leer</a> <a class="btn outline" href="AUDIO_INCORP_ZIP_ES">Escuchar</a></td></tr>
-        <tr><td>Branding para Principiantes (Mini)</td><td>eBook + Audio</td>
-          <td><a class="btn outline" href="LINK_EBOOK_BRANDING_ES">Leer</a> <a class="btn outline" href="AUDIO_BRANDING_ZIP_ES">Escuchar</a></td></tr>
-      </table>
+  <!-- Cuaderno de trabajo -->
+  <div class="card">
+    <h3>Cuaderno: Activos en Papel</h3>
+    <div class="price">Público: $19 · Miembro: $14</div>
+    <div class="row">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
+        <input type="hidden" name="amount" value="19.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+        <button class="btn" type="submit">Comprar ahora — $19</button>
+      </form>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
+        <input type="hidden" name="amount" value="19.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <button class="btn secondary" type="submit">Agregar al carrito — $19</button>
+      </form>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <input type="hidden" name="item_name" value="Miembro: Cuaderno Activos en Papel">
+        <input type="hidden" name="amount" value="14.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+        <button class="btn" type="submit">Precio miembro — $14</button>
+      </form>
     </div>
   </div>
-</main>
 
-<footer class="site-footer"><div class="footer-wrap">
-  <span>© Edunancial</span>
-  <span><a href="/es-privacy.html">Privacidad</a> · <a href="/es-terms-of-service.html">Términos</a></span>
-</div></footer>
+</div>
+
+<script>
+(function(){
+  const hasMemberCookie = document.cookie.split('; ').some(c => /^ed_member=/.test(c));
+  document.querySelectorAll('[data-member-only]').forEach(f=>{
+    if(!hasMemberCookie) f.style.display='none';
+  });
+})();
+</script>
+
 </body>
 </html>
