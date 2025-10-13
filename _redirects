@@ -1,14 +1,18 @@
-/              /index.html                200
-/index         /index.html                301
-
-/memberships   /memberships-en.html       200
-/es            /es-our-story.html         200
-/es-membresias /memberships-es.html       200
-/catalogo      /es-catalog.html           200
-/videos        /videos.html               200
-/es-videos     /es-videos.html            200
-/contacto      /es-contact.html           200
-/refunds       /refunds.html              200
-/es-reembolsos /es-refunds.html           200
-
-/*             /404.html                  404
+/ /index.html 200
+/memberships /memberships-en.html 200
+/es-membresias /memberships-es.html 200
+/catalog /catalog.html 200
+/es-catalogo /es-catalog.html 200
+/videos /videos.html 200
+/es-videos /es-videos.html 200
+/contact /contact.html 200
+/es-contacto /es-contact.html 200
+/refunds /refunds.html 200
+/es-reembolsos /es-refunds.html 200
+/privacy /privacy.html 200
+/es-privacidad /es-privacy.html 200
+/terms /terms-of-service.html 200
+/es-terminos /es-terms-of-service.html 200
+/paypal-test /paypal-live-test.html 200
+/paypal-sub-test /paypal-live-subscriptions-test.html 200
+/* /404.html 404
