@@ -1,60 +1,105 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial – Memberships</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script defer src="/js/header.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Memberships</title>
+<link rel="stylesheet" href="/css/style.css">
+<script defer src="/js/header.js"></script>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/index.html">Edunancial</a>
-    <a href="/index.html">Our Story</a>
-    <a href="/memberships-en.html">Memberships</a>
-    <a href="/catalog.html">Catalog</a>
-    <a href="/videos.html">Videos</a>
-    <a href="/contact.html">Contact</a>
-    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
-  </nav>
-</header>
+<header class="site-nav"><div class="nav-wrap">
+  <a class="brand" href="/index.html">Edunancial</a>
+  <nav class="links"><a href="/index.html">Our Story</a><a href="/memberships-en.html">Memberships</a><a href="/catalog.html">Catalog</a><a href="/videos.html">Videos</a><a href="/contact.html">Contact</a></nav>
+  <div class="lang"><a id="langEN" href="/index.html">EN</a><a id="langES" href="/memberships-es.html">ES</a></div>
+</div></header>
 
 <main class="container">
-  <h1>Choose Your Membership</h1>
-  <p>Upgrade anytime. Cancel anytime from your PayPal account.</p>
+  <h1>Memberships</h1>
+  <p class="small">All plans can be upgraded anytime. Bilingual service (English & Spanish).</p>
 
-  <section class="plans">
-    <article class="plan">
+  <div class="grid auto">
+    <div class="card">
       <h2>Basic</h2>
-      <p><strong>$9.99</strong>/mo</p>
+      <div class="price">$9.99<span class="small">/mo</span></div>
       <ul>
-        <li>Member discounts on courses & paperback books</li>
-        <li>Members-only downloads</li>
+        <li>Starter resources & members-only downloads</li>
+        <li>15% off one mini-course/month</li>
+        <li>Email support (2–3 business days)</li>
       </ul>
-      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_BASIC">Select Basic</a></p>
-    </article>
+      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages. (Unsubscribe anytime.)</span></label>
+      <a class="btn block" href="PAYPAL_LINK_BASIC_EN">Join Basic</a>
+    </div>
 
-    <article class="plan">
+    <div class="card">
       <h2>Growth</h2>
-      <p><strong>$19.99</strong>/mo</p>
+      <div class="price">$19.99<span class="small">/mo</span></div>
       <ul>
         <li>Everything in Basic</li>
-        <li>Priority Q&A and community access</li>
+        <li>Priority support (1–2 business days)</li>
+        <li>Early access + monthly Q&A video/thread</li>
+        <li>Monthly bonus worksheet/e-book</li>
       </ul>
-      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_GROWTH">Select Growth</a></p>
-    </article>
+      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_GROWTH_EN">Join Growth</a>
+    </div>
 
-    <article class="plan">
+    <div class="card">
       <h2>Pro</h2>
-      <p><strong>$39.99</strong>/mo</p>
+      <div class="price">$39.99<span class="small">/mo</span></div>
       <ul>
         <li>Everything in Growth</li>
-        <li>Office hours & special workshops</li>
+        <li><strong>Quarterly Wealth-Building Workshop</strong> (live or replay)</li>
+        <li>Quarterly Action Pack + Business Startup Tools Pack</li>
+        <li>50% off mini-courses, certificates, Pro Q&A group</li>
       </ul>
-      <p><a class="btn" href="YOUR_PAYPAL_SUBSCRIPTION_LINK_PRO">Select Pro</a></p>
-    </article>
-  </section>
+      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_PRO_EN">Join Pro</a>
+    </div>
+
+    <div class="card">
+      <h2>Platinum (2 Years)</h2>
+      <div class="price">$1,667<span class="small">/2 yrs</span></div>
+      <ul>
+        <li>All Pro-level benefits for 24 months</li>
+        <li>Access to all eBooks, Courses, and Updates</li>
+        <li><strong>Platinum Summit</strong> (live event; travel/lodging not included)</li>
+        <li>Platinum badge/certificate</li>
+      </ul>
+      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_PLATINUM_ONE_TIME">Become Platinum</a>
+    </div>
+
+    <div class="card">
+      <h2>Elite</h2>
+      <div class="price">$99<span class="small">/mo</span></div>
+      <ul>
+        <li>Everything in Pro</li>
+        <li>Quarterly 30-minute strategy message (playback page)</li>
+        <li>Personalized growth plan PDF (AI-assisted)</li>
+        <li>All mini-courses free + mastermind replays + 10% affiliate bonus</li>
+      </ul>
+      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_ELITE_EN">Join Elite</a>
+    </div>
+
+    <div class="card">
+      <h2>Institutional License</h2>
+      <div class="price">$250<span class="small">/year</span></div>
+      <ul>
+        <li>Up to 25 users (EN + ES)</li>
+        <li>eBooks, mini-courses, worksheets, educator guides</li>
+        <li>Quarterly facilitator training (online or replay)</li>
+        <li>Certificates of participation</li>
+      </ul>
+      <a class="btn block" href="mailto:institutions@edunancial.com">Apply for Institutional Access</a>
+      <p class="small">Dedicated email: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
+    </div>
+  </div>
 </main>
+
+<footer class="site-footer"><div class="footer-wrap">
+  <span>© Edunancial</span>
+  <span><a href="/privacy.html">Privacy</a> · <a href="/terms-of-service.html">Terms</a></span>
+</div></footer>
 </body>
 </html>
