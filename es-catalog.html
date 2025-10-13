@@ -5,144 +5,161 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catálogo • Edunancial</title>
 <style>
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5;margin:20px;max-width:980px}
-  header{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+  :root{--brand:#d11f1f;--ink:#111;--muted:#666;--line:#e6e6e6}
+  *{box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.55;margin:0}
+  .wrap{max-width:1024px;margin:0 auto;padding:18px}
+  header{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+  header nav a{margin-right:12px;text-decoration:none;color:var(--ink)}
+  header nav a:hover{text-decoration:underline}
   .spacer{flex:1}
-  .cartbar{position:sticky;top:0;background:#fff;padding:8px 0;border-bottom:1px solid #eee;margin-bottom:10px}
-  h1{margin:.2rem 0 1rem}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-  .card{border:1px solid #ddd;border-radius:10px;padding:16px}
-  .price{margin:.25rem 0 .75rem;font-weight:600}
-  .btn{display:inline-block;background:#d11f1f;color:#fff;padding:10px 14px;border-radius:8px;border:none;text-decoration:none;font-weight:700;cursor:pointer}
-  .btn.secondary{background:#555}
+  .lang a{font-weight:600}
+  .howto{position:sticky;top:0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin:8px 0 18px;box-shadow:0 2px 8px rgba(0,0,0,.04);z-index:5}
+  .howto h2{font-size:16px;margin:0 0 8px}
+  .howto p{margin:4px 0;color:var(--muted)}
+  .howto .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;border:none;text-decoration:none;font-weight:700;cursor:pointer}
+  .btn.secondary{background:#444}
+  .btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+  h1{margin:8px 0 16px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:16px}
+  .card h3{margin:0 0 6px}
+  .price{margin:.25rem 0 .9rem;font-weight:600}
   .row{display:flex;gap:10px;flex-wrap:wrap}
-  nav a{margin-right:10px}
-  small.muted{color:#666}
+  footer{margin:36px 0 12px;color:var(--muted);font-size:14px}
+  small.m{color:var(--muted)}
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<header>
-  <nav>
-    <a href="/index-es.html">Inicio</a>
-    <a href="/memberships-es.html">Membresías</a>
-    <a href="/es-videos.html">Videos</a>
-    <a href="/es-contact.html">Contacto</a>
-  </nav>
-  <div class="spacer"></div>
-  <!-- Conmutador de idioma -->
-  <nav><a href="/catalog.html" aria-label="English">EN</a></nav>
-</header>
+  <header>
+    <nav>
+      <a href="/index-es.html">Inicio</a>
+      <a href="/memberships-es.html">Membresías</a>
+      <a href="/es-videos.html">Videos</a>
+      <a href="/es-contact.html">Contacto</a>
+    </nav>
+    <div class="spacer"></div>
+    <nav class="lang"><a href="/catalog.html" aria-label="English">EN</a></nav>
+  </header>
 
-<div class="cartbar">
-  <!-- Ver carrito -->
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:inline">
-    <input type="hidden" name="cmd" value="_cart">
-    <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-    <input type="hidden" name="display" value="1">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
-    <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
-    <button class="btn secondary" type="submit">Ver carrito</button>
-  </form>
-  <small class="muted">Usa “Agregar al carrito” en los productos y luego “Ver carrito”. “Comprar ahora” paga un solo artículo.</small>
-</div>
-
-<h1>Catálogo</h1>
-
-<div class="grid">
-
-  <!-- Curso Fundamentos -->
-  <div class="card">
-    <h3>Curso: Fundamentos Rojo, Blanco y Azul</h3>
-    <div class="price">Público: $39 · Miembro: $29</div>
+  <!-- CÓMO COMPRAR -->
+  <section class="howto" aria-label="Cómo comprar">
+    <h2>Cómo comprar</h2>
+    <p><strong>Comprar ahora</strong> = paga <em>un solo artículo</em> de inmediato.</p>
+    <p><strong>Agregar al carrito</strong> = añade varios artículos y luego pulsa <em>Ver carrito</em> para pagar una sola vez.</p>
     <div class="row">
-      <!-- Comprar ahora (uno) -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
-        <input type="hidden" name="amount" value="39.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
-        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
-        <button class="btn" type="submit">Comprar ahora — $39</button>
-      </form>
-      <!-- Agregar al carrito (varios) -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:inline">
         <input type="hidden" name="cmd" value="_cart">
         <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="add" value="1">
-        <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
-        <input type="hidden" name="amount" value="39.00">
+        <input type="hidden" name="display" value="1">
         <input type="hidden" name="currency_code" value="USD">
-        <button class="btn secondary" type="submit">Agregar al carrito — $39</button>
-      </form>
-      <!-- Precio miembro -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="item_name" value="Miembro: Curso Fundamentos">
-        <input type="hidden" name="amount" value="29.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
-        <button class="btn" type="submit">Precio miembro — $29</button>
+        <button class="btn secondary" type="submit">Ver carrito</button>
       </form>
+      <a class="btn ghost" href="/es-payments.html">Pagos y reembolsos</a>
     </div>
+  </section>
+
+  <h1>Catálogo</h1>
+
+  <div class="grid">
+
+    <!-- PRODUCTO 1 -->
+    <article class="card">
+      <h3>Curso: Fundamentos Rojo, Blanco y Azul</h3>
+      <div class="price">Público: $39 · Miembro: $29</div>
+      <div class="row">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
+          <input type="hidden" name="amount" value="39.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+          <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+          <button class="btn" type="submit">Comprar ahora (un artículo) — $39</button>
+        </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_cart">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="add" value="1">
+          <input type="hidden" name="item_name" value="Curso: Fundamentos RWB">
+          <input type="hidden" name="amount" value="39.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <button class="btn secondary" type="submit">Agregar al carrito — $39</button>
+        </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Miembro: Curso Fundamentos">
+          <input type="hidden" name="amount" value="29.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+          <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+          <button class="btn" type="submit">Precio miembro — $29</button>
+        </form>
+      </div>
+      <small class="m">Miembros: inicien sesión para ver el botón con precio de miembro.</small>
+    </article>
+
+    <!-- PRODUCTO 2 -->
+    <article class="card">
+      <h3>Cuaderno: Activos en Papel</h3>
+      <div class="price">Público: $19 · Miembro: $14</div>
+      <div class="row">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
+          <input type="hidden" name="amount" value="19.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+          <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+          <button class="btn" type="submit">Comprar ahora (un artículo) — $19</button>
+        </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_cart">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="add" value="1">
+          <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
+          <input type="hidden" name="amount" value="19.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <button class="btn secondary" type="submit">Agregar al carrito — $19</button>
+        </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+          <input type="hidden" name="item_name" value="Miembro: Cuaderno Activos en Papel">
+          <input type="hidden" name="amount" value="14.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
+          <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
+          <button class="btn" type="submit">Precio miembro — $14</button>
+        </form>
+      </div>
+    </article>
+
   </div>
 
-  <!-- Cuaderno de trabajo -->
-  <div class="card">
-    <h3>Cuaderno: Activos en Papel</h3>
-    <div class="price">Público: $19 · Miembro: $14</div>
-    <div class="row">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
-        <input type="hidden" name="amount" value="19.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
-        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
-        <button class="btn" type="submit">Comprar ahora — $19</button>
-      </form>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_cart">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="add" value="1">
-        <input type="hidden" name="item_name" value="Cuaderno: Activos en Papel">
-        <input type="hidden" name="amount" value="19.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <button class="btn secondary" type="submit">Agregar al carrito — $19</button>
-      </form>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-        <input type="hidden" name="item_name" value="Miembro: Cuaderno Activos en Papel">
-        <input type="hidden" name="amount" value="14.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="no_shipping" value="1">
-        <input type="hidden" name="return" value="https://edunancial.com/gracias.html">
-        <input type="hidden" name="cancel_return" value="https://edunancial.com/es-payments.html">
-        <button class="btn" type="submit">Precio miembro — $14</button>
-      </form>
-    </div>
-  </div>
+  <footer>
+    ¿Necesitas ayuda? Escríbenos a <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
+  </footer>
 
 </div>
 
 <script>
 (function(){
-  const hasMemberCookie = document.cookie.split('; ').some(c => /^ed_member=/.test(c));
-  document.querySelectorAll('[data-member-only]').forEach(f=>{
-    if(!hasMemberCookie) f.style.display='none';
-  });
+  const isMember = document.cookie.split('; ').some(c => c.startsWith('ed_member='));
+  document.querySelectorAll('[data-member-only]').forEach(f=>{ if(!isMember) f.style.display='none'; });
 })();
 </script>
-
 </body>
 </html>
