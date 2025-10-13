@@ -6,35 +6,23 @@
 <title>Catalog • Edunancial</title>
 <style>
   :root{--brand:#d11f1f;--ink:#111;--muted:#666;--line:#e6e6e6}
-  *{box-sizing:border-box}
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.55;margin:0}
+  *{box-sizing:border-box} body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.55;margin:0}
   .wrap{max-width:1024px;margin:0 auto;padding:18px}
   header{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
-  header nav a{margin-right:12px;text-decoration:none;color:var(--ink)}
-  header nav a:hover{text-decoration:underline}
-  .spacer{flex:1}
-  .lang a{font-weight:600}
-  /* How-to bar */
+  header nav a{margin-right:12px;text-decoration:none;color:var(--ink)} header nav a:hover{text-decoration:underline}
+  .spacer{flex:1} .lang a{font-weight:600}
   .howto{position:sticky;top:0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin:8px 0 18px;box-shadow:0 2px 8px rgba(0,0,0,.04);z-index:5}
-  .howto h2{font-size:16px;margin:0 0 8px}
-  .howto p{margin:4px 0;color:var(--muted)}
-  .howto .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .howto h2{font-size:16px;margin:0 0 8px} .howto p{margin:4px 0;color:var(--muted)} .howto .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
   .btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;border:none;text-decoration:none;font-weight:700;cursor:pointer}
-  .btn.secondary{background:#444}
-  .btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
-  h1{margin:8px 0 16px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
-  .card{border:1px solid var(--line);border-radius:12px;padding:16px}
-  .card h3{margin:0 0 6px}
-  .price{margin:.25rem 0 .9rem;font-weight:600}
-  .row{display:flex;gap:10px;flex-wrap:wrap}
-  footer{margin:36px 0 12px;color:var(--muted);font-size:14px}
-  small.m{color:var(--muted)}
+  .btn.secondary{background:#444} .btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+  h1{margin:8px 0 16px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:16px} .card h3{margin:0 0 6px}
+  .price{margin:.25rem 0 .9rem;font-weight:600} .row{display:flex;gap:10px;flex-wrap:wrap}
+  footer{margin:36px 0 12px;color:var(--muted);font-size:14px} small.m{color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
-
   <header>
     <nav>
       <a href="/index.html">Home</a>
@@ -46,16 +34,16 @@
     <nav class="lang"><a href="/es-catalog.html" aria-label="Español">ES</a></nav>
   </header>
 
-  <!-- HOW TO BUY (clear instructions) -->
+  <!-- HOW TO BUY -->
   <section class="howto" aria-label="How to buy">
     <h2>How to buy</h2>
     <p><strong>Buy Now</strong> = checks out <em>one item</em> immediately.</p>
     <p><strong>Add to Cart</strong> = add several items, then click <em>View Cart</em> to pay once.</p>
     <div class="row">
-      <!-- View Cart -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:inline">
+      <!-- View Cart (hosted cart viewer) -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_cart">
-        <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
+        <!-- With hosted buttons we omit the business field -->
         <input type="hidden" name="display" value="1">
         <input type="hidden" name="currency_code" value="USD">
         <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
@@ -75,42 +63,29 @@
       <h3>Course: Red, White &amp; Blue Foundations</h3>
       <div class="price">Public: $39 · Member: $29</div>
       <div class="row">
-        <!-- Buy Now (single item) -->
+        <!-- Buy Now (Hosted Button) -->
+        <!-- Replace HBTN_COURSE_BUYNOW with your PayPal hosted_button_id -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="item_name" value="Course: Red, White & Blue Foundations">
-          <input type="hidden" name="amount" value="39.00">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
-          <input type="hidden" name="cancel_return" value="https://edunancial.com/payments.html">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_COURSE_BUYNOW">
           <button class="btn" type="submit">Buy Now (single item) — $39</button>
         </form>
-        <!-- Add to Cart (multi) -->
+        <!-- Add to Cart (Hosted Button) -->
+        <!-- Replace HBTN_COURSE_CART with your PayPal hosted_button_id -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_cart">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="add" value="1">
-          <input type="hidden" name="item_name" value="Course: Red, White & Blue Foundations">
-          <input type="hidden" name="amount" value="39.00">
-          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_COURSE_CART">
           <button class="btn secondary" type="submit">Add to Cart — $39</button>
         </form>
-        <!-- Member price (shown only if cookie set) -->
+        <!-- Member price (Hosted Button shown only if cookie exists) -->
+        <!-- Replace HBTN_COURSE_MEMBER with your hosted_button_id for member pricing -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="item_name" value="Member: Course Foundations">
-          <input type="hidden" name="amount" value="29.00">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
-          <input type="hidden" name="cancel_return" value="https://edunancial.com/payments.html">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_COURSE_MEMBER">
           <button class="btn" type="submit">Member Price — $29</button>
         </form>
       </div>
-      <small class="m">Members: sign in first to see member price button.</small>
+      <small class="m">Members: sign in first to see the member price button.</small>
     </article>
 
     <!-- PRODUCT 2 -->
@@ -118,48 +93,31 @@
       <h3>Workbook: Paper Assets</h3>
       <div class="price">Public: $19 · Member: $14</div>
       <div class="row">
+        <!-- Replace IDs below -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="item_name" value="Workbook: Paper Assets">
-          <input type="hidden" name="amount" value="19.00">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
-          <input type="hidden" name="cancel_return" value="https://edunancial.com/payments.html">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_WORKBOOK_BUYNOW">
           <button class="btn" type="submit">Buy Now (single item) — $19</button>
         </form>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_cart">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="add" value="1">
-          <input type="hidden" name="item_name" value="Workbook: Paper Assets">
-          <input type="hidden" name="amount" value="19.00">
-          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_WORKBOOK_CART">
           <button class="btn secondary" type="submit">Add to Cart — $19</button>
         </form>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" data-member-only>
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="ZNHWXB2MVVFX8">
-          <input type="hidden" name="item_name" value="Member: Workbook Paper Assets">
-          <input type="hidden" name="amount" value="14.00">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="return" value="https://edunancial.com/thank-you.html">
-          <input type="hidden" name="cancel_return" value="https://edunancial.com/payments.html">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="HBTN_WORKBOOK_MEMBER">
           <button class="btn" type="submit">Member Price — $14</button>
         </form>
       </div>
     </article>
 
-    <!-- (Add more products in the same pattern as needed) -->
-
+    <!-- Add more products in the same pattern -->
   </div>
 
   <footer>
     Need help ordering? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.
   </footer>
-
 </div>
 
 <script>
