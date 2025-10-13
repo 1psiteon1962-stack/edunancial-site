@@ -1,44 +1,32 @@
-/* /js/header.js  — v8 (global bilingual toggle, no 404s) */
-(function () {
-  const pairs = [
-    ['/index.html',            '/es-our-story.html'],
-    ['/memberships-en.html',   '/memberships-es.html'],
-    ['/catalog.html',          '/es-catalog.html'],
-    ['/videos.html',           '/es-videos.html'],
-    ['/contact.html',          '/es-contact.html'],
-    ['/refunds.html',          '/es-refunds.html']
-  ];
-
-  function partnerPath(path) {
-    // normalize:
-    if (!path || path === '/' || path === '') path = '/index.html';
-    // make sure path has .html
-    if (!path.endsWith('.html') && path !== '/') path = '/' + path.replace(/^\//,'');
-    // find partner:
-    for (const [en, es] of pairs) {
-      if (path.endsWith(en)) return es;
-      if (path.endsWith(es)) return en;
-    }
-    // default to story pair
-    return path.includes('/es-') ? '/index.html' : '/es-our-story.html';
-  }
-
-  function go(to) {
-    const here = window.location.pathname.replace(/\/+$/,'') || '/index.html';
-    const partner = partnerPath(here);
-    if (to === 'es') {
-      // if already ES, stay. If EN, go partner (ES)
-      if (!here.includes('/es-')) window.location.href = partner;
-    } else {
-      // to EN
-      if (here.includes('/es-')) window.location.href = partner;
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const enBtn = document.getElementById('lang-en');
-    const esBtn = document.getElementById('lang-es');
-    if (enBtn) enBtn.addEventListener('click', (e) => { e.preventDefault(); go('en'); });
-    if (esBtn) esBtn.addEventListener('click', (e) => { e.preventDefault(); go('es'); });
+/* header.js v7 — bilingual toggle, maps EN<->ES counterparts and falls back safely */
+(function(){
+  const EN_TO_ES={
+    "index.html":"es-our-story.html",
+    "memberships-en.html":"memberships-es.html",
+    "catalog.html":"es-catalog.html",
+    "videos.html":"es-videos.html",
+    "contact.html":"es-contact.html",
+    "refunds.html":"es-refunds.html",
+    "privacy.html":"es-privacy.html",
+    "terms-of-service.html":"es-terms-of-service.html",
+    "strategy-call.html":"pro-sesion.html"
+  };
+  const ES_TO_EN={
+    "es-our-story.html":"index.html",
+    "memberships-es.html":"memberships-en.html",
+    "es-catalog.html":"catalog.html",
+    "es-videos.html":"videos.html",
+    "es-contact.html":"contact.html",
+    "es-refunds.html":"refunds.html",
+    "es-privacy.html":"privacy.html",
+    "es-terms-of-service.html":"terms-of-service.html",
+    "pro-sesion.html":"strategy-call.html"
+  };
+  function file(){const f=location.pathname.split('/').pop();return f||"index.html";}
+  function go(e,target){e.preventDefault();location.href="/"+target;}
+  document.addEventListener('DOMContentLoaded',()=>{
+    const f=file(), en=document.getElementById('langEN'), es=document.getElementById('langES');
+    if(en) en.addEventListener('click',e=>go(e,(ES_TO_EN[f]||"index.html")));
+    if(es) es.addEventListener('click',e=>go(e,(EN_TO_ES[f]||"es-our-story.html")));
   });
 })();
