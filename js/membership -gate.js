@@ -1,25 +1,14 @@
-<!-- /js/membership-gate.js -->
-<script>
+/* Simple gate: if cookie ed_member in {"GROWTH","PRO","PLATINUM","ELITE","INSTITUTIONAL"} show member buttons */
 (function(){
-  function isAdmin(){
-    try{
-      const t = localStorage.getItem("edn_admin_token");
-      if(!t) return false;
-      const [b64, sig] = t.split(".");
-      if(!b64 || !sig) return false;
-      const payload = JSON.parse(atob(b64));
-      return payload && payload.role === "admin" && payload.exp*1000 > Date.now();
-    }catch(_){ return false; }
+  function get(name){
+    const m=document.cookie.match(new RegExp('(?:^|; )'+name.replace(/([.$?*|{}()[\]\\/+^])/g,'\\$1')+'=([^;]*)'));
+    return m?decodeURIComponent(m[1]):"";
   }
-  // If not admin, this is where you’d normally check logged-in member status.
-  // For now, only admin bypass is required for your testing flow.
-  if(!isAdmin()){
-    // Allow Our Story & Membership pages public
-    const path = location.pathname.replace(/\/+$/, "");
-    const publicPaths = ["", "/", "/index.html", "/our-story.html", "/membership.html", "/es-index.html", "/es-our-story.html", "/es-membership.html"];
-    if (!publicPaths.includes(path)) {
-      location.href = (document.documentElement.lang === "es" ? "/es-membership.html" : "/membership.html");
-    }
-  }
+  const tier=get('ed_member'); // set after PayPal return or via email link
+  document.addEventListener('DOMContentLoaded',()=>{
+    const isGrowth=tier==="GROWTH", isPro=tier==="PRO"||tier==="PLATINUM"||tier==="ELITE"||tier==="INSTITUTIONAL";
+    document.querySelectorAll('[data-public]').forEach(x=>x.style.display=(isPro||isGrowth)?'none':'inline-block');
+    document.querySelectorAll('[data-growth]').forEach(x=>x.style.display=isGrowth?'inline-block':'none');
+    document.querySelectorAll('[data-member]').forEach(x=>x.style.display=isPro?'inline-block':'none');
+  });
 })();
-</script>
