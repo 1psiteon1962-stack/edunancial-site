@@ -1,52 +1,186 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial – Catálogo</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script defer src="/js/header.js"></script>
-  <script>
-    function esMiembro(){ return document.cookie.split('; ').some(c=>c.startsWith('ed_member=')); }
-    document.addEventListener('DOMContentLoaded', () => {
-      const m = esMiembro();
-      document.querySelectorAll('[data-nm]').forEach(el => el.style.display = m ? 'none':'inline');
-      document.querySelectorAll('[data-mem]').forEach(el => el.style.display = m ? 'inline':'none');
-    });
-  </script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Catálogo</title>
+<link rel="stylesheet" href="/css/style.css">
+<script defer src="/js/header.js"></script>
+<script defer src="/js/membership-gate.js"></script>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/es-our-story.html">Edunancial</a>
-    <a href="/es-our-story.html">Nuestra Historia</a>
-    <a href="/memberships-es.html">Membresías</a>
-    <a href="/es-catalog.html">Catálogo</a>
-    <a href="/es-videos.html">Videos</a>
-    <a href="/es-contact.html">Contacto</a>
-    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
-  </nav>
-</header>
+<header class="site-nav"><div class="nav-wrap">
+  <a class="brand" href="/es-our-story.html">Edunancial</a>
+  <nav class="links"><a href="/es-our-story.html">Nuestra Historia</a><a href="/memberships-es.html">Membresías</a><a href="/es-catalog.html">Catálogo</a><a href="/es-videos.html">Videos</a><a href="/es-contact.html">Contacto</a></nav>
+  <div class="lang"><a id="langEN" href="/catalog.html">EN</a><a id="langES" href="/es-catalog.html">ES</a></div>
+</div></header>
 
 <main class="container">
   <h1>Catálogo</h1>
-  <p>Los miembros ven automáticamente los botones con descuento.</p>
+  <p class="small">Los precios para miembros aparecen automáticamente según tu plan.</p>
 
-  <h2>Curso: Fundamentos Rojo, Blanco y Azul</h2>
-  <p>Público: $39 · Miembro: $29</p>
-  <p>
-    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_COURSE_ES">Comprar con PayPal ($39)</a>
-    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_COURSE_ES">Precio para miembros con PayPal ($29)</a>
-  </p>
+  <!-- ROJO -->
+  <div class="section">
+    <h2>🔴 Rojo — Bienes Raíces y Activos Tangibles</h2>
 
-  <h2>Cuaderno de trabajo: Activos de Papel</h2>
-  <p>Público: $19 · Miembro: $14</p>
-  <p>
-    <a data-nm class="btn" href="PAYPAL_PUBLIC_LINK_BOOK_ES">Comprar con PayPal ($19)</a>
-    <a data-mem class="btn" style="display:none" href="PAYPAL_MEMBER_LINK_BOOK_ES">Precio para miembros con PayPal ($14)</a>
-  </p>
+    <div class="grid auto">
+      <div class="card">
+        <h3>Fundamentos de Inversión en Bienes Raíces</h3>
+        <div class="small">Curso · $149 público</div>
+        <p>Analiza, financia y gestiona propiedades para flujo de caja y plusvalía.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_RE_FUNDAMENTALS_ES">$149 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_RE_FUNDAMENTALS_ES">$119.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_RE_FUNDAMENTALS_ES">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
 
-  <p>¿Aún no eres miembro? <a href="/memberships-es.html">Únete aquí →</a></p>
+      <div class="card">
+        <h3>Construyendo Riqueza con Gravámenes y Escrituras por Impuestos</h3>
+        <div class="small">Curso · $199 público</div>
+        <p>Dónde, por qué y cómo comprar gravámenes/escrituras de impuestos de forma segura.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_TAX_LIENS_ES">$199 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_TAX_LIENS_ES">$159.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_TAX_LIENS_ES">$99.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Volteo de Casas con Ganancia</h3>
+        <div class="small">Mini-curso · $49 público</div>
+        <p>Guía de inicio rápido con plantilla de presupuesto de remodelación.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_FLIP_ES">$49 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_FLIP_ES">$39.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_FLIP_ES">$24.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Libros — Serie Roja</h3>
+      <table class="table small">
+        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
+        <tr><td>Riqueza con Gravámenes y Escrituras de Impuestos</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_TAXLIENS_ES">Leer</a> <a class="btn outline" href="AUDIO_TAXLIENS_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>Fundamentos de Inversión Inmobiliaria</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_REI_ES">Leer</a> <a class="btn outline" href="AUDIO_REI_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>Volteo de Casas (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_FLIP_ES">Leer</a> <a class="btn outline" href="AUDIO_FLIP_ZIP_ES">Escuchar</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- BLANCO -->
+  <div class="section">
+    <h2>⚪ Blanco — Activos de Papel</h2>
+
+    <div class="grid auto">
+      <div class="card">
+        <h3>Masterclass de Opciones</h3>
+        <div class="small">Curso · $149 público</div>
+        <p>Calls, puts, spreads, coberturas—estrategias prácticas con control del riesgo.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_OPTIONS_ES">$149 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_OPTIONS_ES">$119.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_OPTIONS_ES">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Entendiendo los Activos de Papel — Acciones, Bonos y Más</h3>
+        <div class="small">Curso · $99 público</div>
+        <p>Compara acciones, bonos, ETFs, REITs, CDs, cuentas de ahorro y más.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_PAPER_ASSETS_ES">$99 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PAPER_ASSETS_ES">$79.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PAPER_ASSETS_ES">$49.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Inversión en ETFs Simplificada</h3>
+        <div class="small">Mini-curso · $39 público</div>
+        <p>Fondos índice y capitalización compuesta con hoja comparativa de ETFs.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_ETF_ES">$39 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_ETF_ES">$31.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_ETF_ES">$19.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Libros — Serie Blanca</h3>
+      <table class="table small">
+        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
+        <tr><td>Opciones</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_OPTIONS_ES">Leer</a> <a class="btn outline" href="AUDIO_OPTIONS_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>Activos de Papel</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_PAPER_ASSETS_ES">Leer</a> <a class="btn outline" href="AUDIO_PAPER_ASSETS_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>ETFs Simplificados (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_ETF_ES">Leer</a> <a class="btn outline" href="AUDIO_ETF_ZIP_ES">Escuchar</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- AZUL -->
+  <div class="section">
+    <h2>🔵 Azul — Propiedad de Negocio</h2>
+
+    <div class="grid auto">
+      <div class="card">
+        <h3>El Negocio se Trata de Ganar Utilidades</h3>
+        <div class="small">Curso · $149 público</div>
+        <p>Mentalidad, sistemas, precios y métricas que impulsan la rentabilidad real.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_PROFIT_ES">$149 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_PROFIT_ES">$119.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_PROFIT_ES">$74.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>De la Idea a la Incorporación</h3>
+        <div class="small">Curso · $199 público</div>
+        <p>Elige entidad, presenta correctamente, define propiedad y construye crédito.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_INCORP_ES">$199 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_INCORP_ES">$159.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_INCORP_ES">$99.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Branding para Principiantes</h3>
+        <div class="small">Mini-curso · $39 público</div>
+        <p>Nombres, logos y voz de marca que comunican valor.</p>
+        <p>
+          <a data-public class="btn" href="PAYPAL_PUBLIC_BRANDING_ES">$39 Público</a>
+          <a data-growth class="btn" style="display:none" href="PAYPAL_GROWTH_BRANDING_ES">$31.20 Crecimiento</a>
+          <a data-member class="btn" style="display:none" href="PAYPAL_MEMBER_BRANDING_ES">$19.50 Pro/Platinum/Elite</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Libros — Serie Azul</h3>
+      <table class="table small">
+        <tr><th>Título</th><th>Formato</th><th>Acción</th></tr>
+        <tr><td>El Negocio se Trata de Ganar Utilidades</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_PROFIT_ES">Leer</a> <a class="btn outline" href="AUDIO_PROFIT_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>De la Idea a la Incorporación</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_INCORP_ES">Leer</a> <a class="btn outline" href="AUDIO_INCORP_ZIP_ES">Escuchar</a></td></tr>
+        <tr><td>Branding para Principiantes (Mini)</td><td>eBook + Audio</td>
+          <td><a class="btn outline" href="LINK_EBOOK_BRANDING_ES">Leer</a> <a class="btn outline" href="AUDIO_BRANDING_ZIP_ES">Escuchar</a></td></tr>
+      </table>
+    </div>
+  </div>
 </main>
+
+<footer class="site-footer"><div class="footer-wrap">
+  <span>© Edunancial</span>
+  <span><a href="/es-privacy.html">Privacidad</a> · <a href="/es-terms-of-service.html">Términos</a></span>
+</div></footer>
 </body>
 </html>
