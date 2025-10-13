@@ -1,60 +1,105 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Edunancial – Membresías</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script defer src="/js/header.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edunancial — Membresías</title>
+<link rel="stylesheet" href="/css/style.css">
+<script defer src="/js/header.js"></script>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/es-our-story.html">Edunancial</a>
-    <a href="/es-our-story.html">Nuestra Historia</a>
-    <a href="/memberships-es.html">Membresías</a>
-    <a href="/es-catalog.html">Catálogo</a>
-    <a href="/es-videos.html">Videos</a>
-    <a href="/es-contact.html">Contacto</a>
-    <span class="lang"><a href="#" id="lang-en">EN</a><a href="#" id="lang-es">ES</a></span>
-  </nav>
-</header>
+<header class="site-nav"><div class="nav-wrap">
+  <a class="brand" href="/es-our-story.html">Edunancial</a>
+  <nav class="links"><a href="/es-our-story.html">Nuestra Historia</a><a href="/memberships-es.html">Membresías</a><a href="/es-catalog.html">Catálogo</a><a href="/es-videos.html">Videos</a><a href="/es-contact.html">Contacto</a></nav>
+  <div class="lang"><a id="langEN" href="/memberships-en.html">EN</a><a id="langES" href="/memberships-es.html">ES</a></div>
+</div></header>
 
 <main class="container">
-  <h1>Elige tu Membresía</h1>
-  <p>Actualiza cuando quieras. Cancela en cualquier momento desde tu cuenta de PayPal.</p>
+  <h1>Membresías</h1>
+  <p class="small">Puedes mejorar de plan en cualquier momento. Servicio bilingüe (inglés y español).</p>
 
-  <section class="plans">
-    <article class="plan">
+  <div class="grid auto">
+    <div class="card">
       <h2>Básica</h2>
-      <p><strong>$9.99</strong>/mes</p>
+      <div class="price">$9.99<span class="small">/mes</span></div>
       <ul>
-        <li>Descuentos en cursos y libros</li>
-        <li>Descargas exclusivas para miembros</li>
+        <li>Recursos iniciales y descargas para miembros</li>
+        <li>15% de descuento en 1 mini-curso por mes</li>
+        <li>Soporte por correo (2–3 días hábiles)</li>
       </ul>
-      <p><a class="btn" href="PAYPAL_SUBSCRIPTION_LINK_BASIC_ES">Elegir Básica</a></p>
-    </article>
+      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados. (Cancelar en cualquier momento.)</span></label>
+      <a class="btn block" href="PAYPAL_LINK_BASIC_ES">Unirme a Básica</a>
+    </div>
 
-    <article class="plan">
+    <div class="card">
       <h2>Crecimiento</h2>
-      <p><strong>$19.99</strong>/mes</p>
+      <div class="price">$19.99<span class="small">/mes</span></div>
       <ul>
         <li>Todo lo de Básica</li>
-        <li>Prioridad en preguntas y comunidad</li>
+        <li>Soporte prioritario (1–2 días hábiles)</li>
+        <li>Acceso anticipado + video/hilo mensual de preguntas</li>
+        <li>Hoja de trabajo o e-book mensual</li>
       </ul>
-      <p><a class="btn" href="PAYPAL_SUBSCRIPTION_LINK_GROWTH_ES">Elegir Crecimiento</a></p>
-    </article>
+      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_GROWTH_ES">Unirme a Crecimiento</a>
+    </div>
 
-    <article class="plan">
+    <div class="card">
       <h2>Pro</h2>
-      <p><strong>$39.99</strong>/mes</p>
+      <div class="price">$39.99<span class="small">/mes</span></div>
       <ul>
         <li>Todo lo de Crecimiento</li>
-        <li>Office hours y talleres especiales</li>
+        <li><strong>Taller Trimestral</strong> (en vivo o repetición)</li>
+        <li>Paquete de Acción Trimestral + Paquete de Herramientas de Negocio</li>
+        <li>50% de descuento en mini-cursos, certificados, grupo de Q&A Pro</li>
       </ul>
-      <p><a class="btn" href="PAYPAL_SUBSCRIPTION_LINK_PRO_ES">Elegir Pro</a></p>
-    </article>
-  </section>
+      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_PRO_ES">Unirme a Pro</a>
+    </div>
+
+    <div class="card">
+      <h2>Platinum (2 Años)</h2>
+      <div class="price">$1,667<span class="small">/2 años</span></div>
+      <ul>
+        <li>Todos los beneficios de Pro por 24 meses</li>
+        <li>Acceso a todos los eBooks, Cursos y Actualizaciones</li>
+        <li><strong>Cumbre Platinum</strong> (evento en vivo; viaje/hospedaje no incluidos)</li>
+        <li>Insignia/certificado Platinum</li>
+      </ul>
+      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_PLATINUM_ONE_TIME_ES">Ser Platinum</a>
+    </div>
+
+    <div class="card">
+      <h2>Elite</h2>
+      <div class="price">$99<span class="small">/mes</span></div>
+      <ul>
+        <li>Todo lo de Pro</li>
+        <li>Mensaje trimestral de estrategia (página de reproducción)</li>
+        <li>Plan de crecimiento personalizado (asistido por IA)</li>
+        <li>Mini-cursos incluidos + mastermind + 10% de afiliado</li>
+      </ul>
+      <label class="checkbox"><input type="checkbox" required> <span>Acepto recibir correos educativos y/o mensajes automatizados.</span></label>
+      <a class="btn block" href="PAYPAL_LINK_ELITE_ES">Unirme a Elite</a>
+    </div>
+
+    <div class="card">
+      <h2>Licencia Institucional</h2>
+      <div class="price">$250<span class="small">/año</span></div>
+      <ul>
+        <li>Hasta 25 usuarios (EN + ES)</li>
+        <li>eBooks, mini-cursos, hojas de trabajo y guías para docentes</li>
+        <li>Capacitación trimestral para facilitadores</li>
+        <li>Certificados de participación</li>
+      </ul>
+      <a class="btn block" href="mailto:institutions@edunancial.com">Solicitar Acceso Institucional</a>
+      <p class="small">Correo dedicado: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
+    </div>
+  </div>
 </main>
+
+<footer class="site-footer"><div class="footer-wrap">
+  <span>© Edunancial</span>
+  <span><a href="/es-privacy.html">Privacidad</a> · <a href="/es-terms-of-service.html">Términos</a></span>
+</div></footer>
 </body>
 </html>
