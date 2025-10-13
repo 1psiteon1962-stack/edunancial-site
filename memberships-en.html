@@ -8,14 +8,17 @@
 <style>
   .btn{font-size:18px;padding:14px 18px;border-radius:14px}
   .price{font-size:32px}
+  .badge{display:inline-block;background:#eef;border:1px solid #99c;padding:4px 8px;border-radius:8px}
   .testnote{background:#fff9e6;border:1px solid #f4e0a6;padding:10px 12px;border-radius:10px;margin-bottom:16px}
+  .checkbox{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+  .checkbox input{margin-top:4px}
 </style>
 </head>
 <body>
 <header class="site-nav"><div class="nav-wrap">
   <a class="brand" href="/index.html">Edunancial</a>
   <nav class="links"><a href="/index.html">Our Story</a><a href="/memberships-en.html">Memberships</a><a href="/catalog.html">Catalog</a><a href="/videos.html">Videos</a><a href="/contact.html">Contact</a></nav>
-  <div class="lang"><a id="langEN" href="/memberships-en.html">EN</a><a id="langES" href="/memberships-es.html">ES</a></div>
+  <div class="lang"><a id="langEN" href="#">EN</a><a id="langES" href="#">ES</a></div>
 </div></header>
 
 <main class="container">
@@ -25,37 +28,27 @@
     <a class="btn outline" href="/paypal-live-test.html">One-time & Cart ($1)</a>
     <a class="btn outline" href="/paypal-live-subscriptions-test.html">Subscriptions ($1/mo)</a>
   </div>
-  <p class="small">All plans are bilingual (English & Spanish) and can be upgraded anytime.</p>
+  <p class="small">All plans are bilingual and upgradable anytime.</p>
 
   <div class="grid auto">
     <!-- BASIC -->
     <div class="card">
       <h2>Basic</h2>
       <div class="price">$9.99<span class="small">/mo</span></div>
-      <p><span class="badge">Intro: $5 for the first month</span></p>
+      <p><span class="badge">$5 first month intro</span></p>
       <ul>
-        <li>Starter resources & members-only downloads</li>
-        <li>15% off one mini-course/month</li>
-        <li>Email support (2–3 business days)</li>
+        <li>Starter downloads & member pricing</li><li>15% off one mini-course/month</li><li>Email support (2–3 business days)</li>
       </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages. (Unsubscribe anytime.)</span></label>
-
-      <!-- PAYPAL SUBSCRIPTION: $5 first month, then $9.99/mo -->
+      <label class="checkbox"><input type="checkbox" required><span>I agree to receive educational emails and/or automated messages. (Unsubscribe anytime.)</span></label>
+      <!-- TRIAL + RECUR -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Basic Membership">
         <input type="hidden" name="currency_code" value="USD">
-        <!-- Trial (first month $5) -->
-        <input type="hidden" name="a1" value="5.00">
-        <input type="hidden" name="p1" value="1">
-        <input type="hidden" name="t1" value="M">
-        <!-- Recurring -->
-        <input type="hidden" name="a3" value="9.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a1" value="5.00"><input type="hidden" name="p1" value="1"><input type="hidden" name="t1" value="M">
+        <input type="hidden" name="a3" value="9.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Basic">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Join Basic</button>
@@ -66,25 +59,15 @@
     <div class="card">
       <h2>Growth</h2>
       <div class="price">$19.99<span class="small">/mo</span></div>
-      <ul>
-        <li>Everything in Basic</li>
-        <li>Priority support (1–2 business days)</li>
-        <li>Early access + monthly Q&A thread</li>
-        <li>Monthly worksheet or e-book bonus</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
-
-      <!-- PAYPAL SUBSCRIPTION: $19.99/mo -->
+      <ul><li>Everything in Basic</li><li>Priority support (1–2 days)</li><li>Early access + monthly Q&A thread</li><li>Monthly worksheet/e-book</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>I agree to receive educational emails and/or automated messages.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Growth Membership">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="19.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="19.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Growth">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Join Growth</button>
@@ -96,43 +79,29 @@
       <h2>Pro</h2>
       <div class="price">$39.99<span class="small">/mo</span></div>
       <ul>
-        <li>Everything in Growth</li>
-        <li><strong>Quarterly Wealth-Building Workshop</strong> (live or replay)</li>
-        <li>Quarterly Action Pack + Business Startup Tools Pack</li>
-        <li>50% off mini-courses, certificates, Pro Q&A group</li>
+        <li>Everything in Growth</li><li><strong>Quarterly Workshop</strong> (live or replay)</li>
+        <li>Quarterly Action Pack + Business Startup Tools Pack</li><li>50% off mini-courses, Pro Q&A group</li>
       </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
-
-      <!-- PAYPAL SUBSCRIPTION: $39.99/mo -->
+      <label class="checkbox"><input type="checkbox" required><span>I agree to receive educational emails and/or automated messages.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Pro Membership">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="39.99">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="39.99"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Pro">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Join Pro</button>
       </form>
     </div>
 
-    <!-- PLATINUM -->
+    <!-- PLATINUM (2 years, one-time) -->
     <div class="card">
       <h2>Platinum (2 Years)</h2>
       <div class="price">$1,667<span class="small">/2 yrs</span></div>
-      <ul>
-        <li>All Pro-level benefits for 24 months</li>
-        <li>Access to all eBooks, Courses, and Updates</li>
-        <li><strong>Platinum Summit</strong> (live event; travel/lodging not included)</li>
-        <li>Platinum badge/certificate</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
-
-      <!-- ONE-TIME PAYMENT: $1,667 -->
+      <ul><li>All Pro benefits for 24 months</li><li>Access to all eBooks, Courses, Updates</li><li>Platinum Summit (live event)</li><li>Badge/certificate</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>I agree to receive educational emails and/or automated messages.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
@@ -149,25 +118,15 @@
     <div class="card">
       <h2>Elite</h2>
       <div class="price">$99<span class="small">/mo</span></div>
-      <ul>
-        <li>Everything in Pro</li>
-        <li>Quarterly 30-minute strategy message (playback page)</li>
-        <li>Personalized growth plan PDF (AI-assisted)</li>
-        <li>All mini-courses included + mastermind replays + 10% affiliate bonus</li>
-      </ul>
-      <label class="checkbox"><input type="checkbox" required> <span>I agree to receive educational emails and/or automated messages.</span></label>
-
-      <!-- PAYPAL SUBSCRIPTION: $99/mo -->
+      <ul><li>Everything in Pro</li><li>Quarterly strategy message (playback)</li><li>Personalized growth plan</li><li>All mini-courses included + mastermind</li></ul>
+      <label class="checkbox"><input type="checkbox" required><span>I agree to receive educational emails and/or automated messages.</span></label>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_xclick-subscriptions">
         <input type="hidden" name="business" value="BUSINESS_EMAIL">
         <input type="hidden" name="item_name" value="Edunancial Elite Membership">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="a3" value="99.00">
-        <input type="hidden" name="p3" value="1">
-        <input type="hidden" name="t3" value="M">
-        <input type="hidden" name="src" value="1">
-        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="a3" value="99.00"><input type="hidden" name="p3" value="1"><input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://edunancial.com/paypal-return.html?sub=Elite">
         <input type="hidden" name="cancel_return" value="https://edunancial.com/paypal-return.html?cancel=1">
         <button class="btn block" type="submit">Join Elite</button>
@@ -178,14 +137,8 @@
     <div class="card">
       <h2>Institutional License</h2>
       <div class="price">$250<span class="small">/year</span></div>
-      <ul>
-        <li>Up to 25 users (EN + ES)</li>
-        <li>eBooks, mini-courses, worksheets, educator guides</li>
-        <li>Quarterly facilitator training (online or replay)</li>
-        <li>Certificates of participation</li>
-      </ul>
+      <ul><li>Up to 25 users (EN+ES)</li><li>Educator guides & certificates</li><li>Quarterly facilitator training</li></ul>
       <a class="btn block" href="mailto:institutions@edunancial.com">Apply via Email</a>
-      <p class="small">Dedicated: <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
     </div>
   </div>
 </main>
