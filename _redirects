@@ -1,23 +1,14 @@
-/            /index.html                200
-/index       /index.html                301
+/              /index.html                200
+/index         /index.html                301
 
-/memberships /memberships-en.html       200
-/membership  /memberships-en.html       301
+/memberships   /memberships-en.html       200
+/es            /es-our-story.html         200
+/es-membresias /memberships-es.html       200
+/catalogo      /es-catalog.html           200
+/videos        /videos.html               200
+/es-videos     /es-videos.html            200
+/contacto      /es-contact.html           200
+/refunds       /refunds.html              200
+/es-reembolsos /es-refunds.html           200
 
-/es          /es-our-story.html         200
-/es-index    /es-our-story.html         301
-/es-membresias /memberships-es.html     200
-
-/catalog     /catalog.html              200
-/es-catalogo /es-catalog.html           200
-
-/videos      /videos.html               200
-/es-videos   /es-videos.html            200
-
-/contact     /contact.html              200
-/es-contacto /es-contact.html           200
-
-/refunds     /refunds.html              200
-/es-reembolsos /es-refunds.html         200
-
-/*           /404.html                  404
+/*             /404.html                  404
