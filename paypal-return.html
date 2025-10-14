@@ -1,45 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Payment Successful | Edunancial</title>
-  <link rel="stylesheet" href="/style.css" />
-</head>
-<body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/our-story.html">Our Story</a>
-    <a href="/memberships-en.html">Memberships</a>
-    <a href="/catalog.html">Catalog</a>
-    <span class="lang">
-      <a href="/paypal-return.html">EN</a> |
-      <a href="/es-paypal-return.html">ES</a>
-    </span>
-  </nav>
-</header>
-
 <main class="container">
-  <h1>Thank You!</h1>
-  <p>Your payment was received successfully. Welcome to the Edunancial Family!</p>
-  <p>Please check your email for a receipt and membership confirmation.</p>
+  <h1>Thank you — your payment was successful.</h1>
+  <p>We’ve sent a confirmation email. If it’s your first time, check your inbox for a “Claim your account” sign-in link.</p>
 
-  <h2>Your Free Gift</h2>
-  <p>Download your bilingual Edunancial pamphlet below.</p>
-  <a href="/assets/pamphlet/Edunancial_Pamphlet_EN_ES.pdf" class="btn" download>Download Pamphlet</a>
+  <h2>Your Free Pamphlet</h2>
+  <p><a class="btn" href="/assets/pamphlet/Edunancial_Pamphlet_EN_ES.pdf" download>Download Pamphlet</a></p>
 
-  <hr>
-  <h2>Next Steps</h2>
+  <h2>Next steps</h2>
   <ul>
-    <li>Save our email <strong>support@edunancial.com</strong> to your contacts.</li>
-    <li>Log in or return to your <a href="/memberships-en.html">membership dashboard</a>.</li>
+    <li><a href="/account.html">Open your Account</a> to see your plan and members-only areas.</li>
+    <li>Questions? Email <a href="mailto:support@edunancial.com">support@edunancial.com</a>.</li>
   </ul>
 </main>
+<script>
+// front-end perk cookie
+document.cookie = "ed_member=1; path=/; max-age=" + (60*60*24*30);
 
-<footer class="site-footer">
-  <small>© <span id="yr"></span> Edunancial, Inc.</small>
-</footer>
-<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
-</body>
-</html>
+// send contact info captured on gate page to Make (best-effort)
+try {
+  const info = JSON.parse(localStorage.getItem('ed_contact')||"{}");
+  const url = (typeof MAKE_WEBHOOK_URL !== 'undefined') ? MAKE_WEBHOOK_URL : null;
+  if (info.email && url) fetch(url, { method:"POST", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({ event:"return_page", ...info }) });
+} catch(e){}
+</script>
