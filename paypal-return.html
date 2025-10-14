@@ -1,76 +1,45 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PayPal Return — Edunancial</title>
-<link rel="stylesheet" href="/css/style.css">
-<style>
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:20px}
-  .wrap{max-width:980px;margin:0 auto}
-  .card{border:1px solid #eee;padding:18px;border-radius:12px;margin:12px 0}
-  pre{background:#f8f8f8;padding:12px;border-radius:8px;overflow:auto}
-  .btn{display:inline-block;background:#0070ba;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
-  .btn.secondary{background:#444}
-  .muted{color:#666;font-size:13px}
-  .ok{color:#0a7a0a;font-weight:700}
-  .warn{color:#a60;font-weight:700}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Payment Successful | Edunancial</title>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-<div class="wrap">
-  <h1>PayPal Return / Test Receiver</h1>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/our-story.html">Our Story</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/catalog.html">Catalog</a>
+    <span class="lang">
+      <a href="/paypal-return.html">EN</a> |
+      <a href="/es-paypal-return.html">ES</a>
+    </span>
+  </nav>
+</header>
 
-  <div class="card" id="statusCard">
-    <h2>Status</h2>
-    <p id="statusMsg" class="muted">Analyzing return parameters…</p>
-    <p><a class="btn" href="/catalog.html">Go to Catalog</a> <a class="btn secondary" href="/memberships-en.html">Memberships</a></p>
-  </div>
+<main class="container">
+  <h1>Thank You!</h1>
+  <p>Your payment was received successfully. Welcome to the Edunancial Family!</p>
+  <p>Please check your email for a receipt and membership confirmation.</p>
 
-  <div class="card">
-    <h2>Returned Query String</h2>
-    <pre id="qs">Loading…</pre>
-    <h2>Full URL</h2>
-    <pre id="url">Loading…</pre>
-    <p class="muted">For production, validate via IPN/PDT/Webhooks. This page is for redirect + cookie testing only.</p>
-  </div>
-</div>
+  <h2>Your Free Gift</h2>
+  <p>Download your bilingual Edunancial pamphlet below.</p>
+  <a href="/assets/pamphlet/Edunancial_Pamphlet_EN_ES.pdf" class="btn" download>Download Pamphlet</a>
 
-<script>
-(function(){
-  function setCookie(name,value,days){
-    const d=new Date(); d.setTime(d.getTime()+ (days*24*60*60*1000));
-    document.cookie = name+"="+encodeURIComponent(value)+"; expires="+d.toUTCString()+"; path=/; SameSite=Lax";
-  }
-  function getParam(k){ return new URLSearchParams(location.search).get(k)||""; }
-  function show(id,msg,cls){ const el=document.getElementById(id); if(el){ el.textContent=msg; if(cls) el.className=cls; } }
+  <hr>
+  <h2>Next Steps</h2>
+  <ul>
+    <li>Save our email <strong>support@edunancial.com</strong> to your contacts.</li>
+    <li>Log in or return to your <a href="/memberships-en.html">membership dashboard</a>.</li>
+  </ul>
+</main>
 
-  document.addEventListener('DOMContentLoaded',()=>{
-    const qs = location.search || '';
-    document.getElementById('qs').textContent = qs || '(no query string)';
-    document.getElementById('url').textContent = location.href;
-
-    if(getParam('cancel')){ show('statusMsg','Payment canceled by user.','warn'); return; }
-
-    const sub = getParam('sub');                 // Basic/Growth/Pro/Platinum/Elite
-    const item = getParam('item');               // RedCart, BlueOneTime, etc.
-
-    if(sub){
-      const valid = ['BASIC','GROWTH','PRO','PLATINUM','ELITE'];
-      const upper = sub.toUpperCase();
-      if(valid.includes(upper)){
-        setCookie('ed_member', upper, 30);
-        show('statusMsg','Subscription detected: '+sub+' — cookie set (ed_member='+upper+') for 30 days. Member pricing unlocked on Catalog.','ok');
-        return;
-      }
-    }
-    if(item){
-      setCookie('ed_access_'+item, '1', 1);
-      show('statusMsg','One-time purchase detected: '+item+' — temporary access cookie set for 1 day.','ok');
-      return;
-    }
-    show('statusMsg','No recognizable parameters found. Enable Auto Return or PDT/IPN to pass data.','warn');
-  });
-})();
-</script>
+<footer class="site-footer">
+  <small>© <span id="yr"></span> Edunancial, Inc.</small>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
