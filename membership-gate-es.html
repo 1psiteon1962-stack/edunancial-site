@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Membresía requerida • Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+<style>
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{border:1px solid #ddd;border-radius:12px;padding:16px}
+  .hide{display:none}
+  .btn{display:inline-block;background:#d11f1f;color:#fff;border:none;border-radius:8px;padding:10px 14px;text-decoration:none;font-weight:700;cursor:pointer}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index-es.html">Inicio</a>
+    <a href="/es-catalog.html">Catálogo</a>
+    <span class="lang"><a href="/membership-gate.html">EN</a></span>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Se requiere una membresía para continuar</h1>
+  <p>Cuéntanos cómo contactarte y luego elige tu plan.</p>
+
+  <form id="infoForm" class="card">
+    <div class="grid">
+      <label>Nombre completo<br><input required name="name"></label>
+      <label>Correo electrónico<br><input required type="email" name="email"></label>
+      <label>Teléfono<br><input name="phone"></label>
+      <label>Dirección<br><input name="address"></label>
+      <label>Ciudad<br><input name="city"></label>
+      <label>Estado/Provincia<br><input name="state"></label>
+      <label>Código postal<br><input name="zip"></label>
+      <label>País<br><input name="country"></label>
+    </div>
+    <label style
