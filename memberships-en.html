@@ -1,47 +1,85 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Memberships · Edunancial</title>
-
-  <!-- PayPal Cart SDK (View Cart only; do NOT expose merchant id visibly) -->
-  <script src="https://www.paypalobjects.com/merchant.js" data-merchant-id="REPLACE_WITH_YOUR_MERCHANT_ID"></script>
-
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color:#111; }
-    header, nav, main, footer { max-width: 960px; margin: 0 auto; padding: 16px; }
-    a { color:#0b57d0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .topbar { display:flex; align-items:center; gap:12px; justify-content:space-between; }
-    .links { display:flex; gap:12px; flex-wrap: wrap; }
-    .lang { font-weight:600; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
-    .card { border:1px solid #ddd; border-radius:12px; padding:16px; background:#fff; }
-    .card h2 { margin:0 0 8px 0; }
-    .price { font-size: 18px; font-weight:600; margin: 8px 0 12px; }
-    ul { margin: 0 0 12px 20px; }
-    .btns { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
-    .muted { color:#555; font-size:14px; }
-    .stripe { padding:12px; background:#f7f7f7; border-radius:10px; margin:16px 0; }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Memberships • Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="links">
-      <a href="/index.html">Edunancial</a>
-      <a href="/our-story.html">Our Story</a>
-      <a href="/catalog.html">Catalog</a>
-      <a href="/videos.html">Videos</a>
-      <a href="/contact.html">Contact</a>
-    </div>
-    <div class="links">
-      <!-- Language toggle (one language per page) -->
-      <span class="lang"><a href="/memberships-es.html" rel="alternate" hreflang="es">ES</a> · EN</span>
-      <!-- Global “View Cart” button (PayPal hosted element) -->
-      <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
-      <script>cartPaypal.Cart({ id: "pp-view-cart" });</script>
-    </div>
-  </header>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/account.html">Account</a>
+    <span class="lang"><a href="/memberships-es.html">ES</a></span>
+  </nav>
+</header>
 
-  <main>
+<main class="container">
+  <h1>Select a Membership that works for you</h1>
+  <p>All plans include members-only downloads and updates. You can upgrade anytime.</p>
+
+  <section class="plans">
+    <article class="card">
+      <h2>Basic — $9.99/month</h2>
+      <p>Member discounts on courses & paperbacks. Members-only downloads.</p>
+      <!-- Hosted Button (SUBSCRIBE) -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HBTN_BASIC_SUB"><!-- replace -->
+        <button class="btn" type="submit">Join Basic — $9.99/mo</button>
+      </form>
+    </article>
+
+    <article class="card">
+      <h2>Growth — $19.99/month</h2>
+      <p>Everything in Basic + Priority Q&A and community access.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HBTN_GROWTH_SUB"><!-- replace -->
+        <button class="btn" type="submit">Join Growth — $19.99/mo</button>
+      </form>
+    </article>
+
+    <article class="card">
+      <h2>Pro — $39.99/month</h2>
+      <p>Everything in Growth + quarterly workshops & office hours.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HBTN_PRO_SUB"><!-- replace -->
+        <button class="btn" type="submit">Join Pro — $39.99/mo</button>
+      </form>
+    </article>
+
+    <article class="card">
+      <h2>Platinum — $299 one-time (2 years)</h2>
+      <p>2-year access. eBooks, courses & updates + all Pro-level benefits.</p>
+      <!-- Buy Now -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HBTN_PLATINUM_BUY"><!-- replace -->
+        <button class="btn" type="submit">Get Platinum — $299</button>
+      </form>
+    </article>
+
+    <article class="card">
+      <h2>Institutional — $250/year</h2>
+      <p>Up to 25 users. Schools: contact <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a>.</p>
+      <!-- Subscribe OR Buy Now -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HBTN_SCHOOL"><!-- replace -->
+        <button class="btn" type="submit">Institution — $250/yr</button>
+      </form>
+    </article>
+  </section>
+
+  <hr>
+  <p>Already a member? <a href="#" onclick="netlifyIdentity.open('login');return false;">Sign in</a></p>
+</main>
+
+<footer class="site-footer"><small>© <span id="yr"></span> Edunancial</small></footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
