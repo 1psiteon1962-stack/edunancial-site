@@ -12,74 +12,84 @@
     <a href="/index.html">Home</a>
     <a href="/catalog.html">Catalog</a>
     <a href="/account.html">Account</a>
-    <span class="lang"><a href="/memberships-es.html">ES</a></span>
+    <span class="spacer"></span>
+    <span class="lang"><a class="toggle-lang btn sm ghost" href="/memberships-es.html">ES</a></span>
   </nav>
 </header>
 
 <main class="container">
   <h1>Select a Membership that works for you</h1>
-  <p>All plans include members-only downloads and updates. You can upgrade anytime.</p>
+  <p class="muted">All plans include members-only downloads and updates. You can upgrade anytime.</p>
 
-  <section class="plans">
-    <article class="card">
+  <section class="plans grid autofit">
+    <article class="card plan">
       <h2>Basic — $9.99/month</h2>
-      <p>Member discounts on courses & paperbacks. Members-only downloads.</p>
-      <!-- Hosted Button (SUBSCRIBE) -->
+      <p>Member discounts on courses & paperback books. Members-only downloads.</p>
+      <!-- Subscribe -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_BASIC_SUB"><!-- replace -->
-        <button class="btn" type="submit">Join Basic — $9.99/mo</button>
+        <input type="hidden" name="hosted_button_id" value="HBTN_BASIC_SUB"><!-- REPLACE -->
+        <input type="hidden" name="custom" value="en">
+        <button class="btn lg" type="submit">Join Basic — $9.99/mo</button>
       </form>
     </article>
 
-    <article class="card">
+    <article class="card plan">
       <h2>Growth — $19.99/month</h2>
       <p>Everything in Basic + Priority Q&A and community access.</p>
+      <!-- Subscribe -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_GROWTH_SUB"><!-- replace -->
-        <button class="btn" type="submit">Join Growth — $19.99/mo</button>
+        <input type="hidden" name="hosted_button_id" value="HBTN_GROWTH_SUB"><!-- REPLACE -->
+        <input type="hidden" name="custom" value="en">
+        <button class="btn lg" type="submit">Join Growth — $19.99/mo</button>
       </form>
     </article>
 
-    <article class="card">
-      <h2>Pro — $39.99/month</h2>
+    <article class="card plan">
+      <h2>Pro — $59.99/month</h2>
       <p>Everything in Growth + quarterly workshops & office hours.</p>
+      <!-- Subscribe -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_PRO_SUB"><!-- replace -->
-        <button class="btn" type="submit">Join Pro — $39.99/mo</button>
+        <input type="hidden" name="hosted_button_id" value="HBTN_PRO_SUB"><!-- REPLACE -->
+        <input type="hidden" name="custom" value="en">
+        <button class="btn lg" type="submit">Join Pro — $59.99/mo</button>
       </form>
     </article>
 
-    <article class="card">
-      <h2>Platinum — $299 one-time (2 years)</h2>
-      <p>2-year access. eBooks, courses & updates + all Pro-level benefits.</p>
+    <article class="card plan emph">
+      <h2>Platinum — $1,699 one-time (2 years)</h2>
+      <p>2-year access. eBooks, courses & updates + all Pro-level benefits. Recognition badge/certificate.</p>
       <!-- Buy Now -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_PLATINUM_BUY"><!-- replace -->
-        <button class="btn" type="submit">Get Platinum — $299</button>
+        <input type="hidden" name="hosted_button_id" value="HBTN_PLATINUM_BUY"><!-- REPLACE -->
+        <input type="hidden" name="custom" value="en">
+        <button class="btn lg" type="submit">Get Platinum — $1,699</button>
       </form>
     </article>
 
-    <article class="card">
+    <article class="card plan">
       <h2>Institutional — $250/year</h2>
       <p>Up to 25 users. Schools: contact <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a>.</p>
       <!-- Subscribe OR Buy Now -->
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_SCHOOL"><!-- replace -->
-        <button class="btn" type="submit">Institution — $250/yr</button>
+        <input type="hidden" name="hosted_button_id" value="HBTN_SCHOOL"><!-- REPLACE -->
+        <input type="hidden" name="custom" value="en">
+        <button class="btn lg" type="submit">Institution — $250/yr</button>
       </form>
     </article>
   </section>
 
-  <hr>
+  <hr class="mt-16 mb-16">
   <p>Already a member? <a href="#" onclick="netlifyIdentity.open('login');return false;">Sign in</a></p>
 </main>
 
-<footer class="site-footer"><small>© <span id="yr"></span> Edunancial</small></footer>
+<footer class="site-footer">
+  <div class="container"><small>© <span id="yr"></span> Edunancial</small></div>
+</footer>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
