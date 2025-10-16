@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biblioteca de Miembros — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+<style>.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.tag{font-size:.8rem;padding:.2rem .5rem;border-radius:.5rem;background:#eef}</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/nuestra-historia.html">Edunancial</a>
+    <a href="/empezar.html">Empieza</a>
+    <a class="active" href="/biblioteca-miembros.html">Biblioteca</a>
+    <a class="pill" href="/members-library.html">EN</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Biblioteca de Miembros</h1>
+  <p class="muted">Guarda esta página. Agregamos contenido frecuentemente.</p>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Cursos <span class="tag">Pago</span></h2>
+      <ul>
+        <li><a href="/courses/red-basics.html">Básicos Rojos (Fundamentos)</a></li>
+        <li><a href="/courses/white-basics.html">Básicos Blancos (Crédito)</a></li>
+        <li><a href="/courses/blue-basics.html">Básicos Azules (Ahorro e Inversión)</a></li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <h2>Minicursos <span class="tag">Pago</span></h2>
+      <ul>
+        <li><a href="/mini-courses/red-mini.html">Mini Rojo</a></li>
+        <li><a href="/mini-courses/white-mini.html">Mini Blanco</a></li>
+        <li><a href="/mini-courses/blue-mini.html">Mini Azul</a></li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <h2>Descargas <span class="tag">Miembros</span></h2>
+      <ul>
+        <li><a href="/downloads/budget-template.xlsx">Plantilla de Presupuesto (XLSX)</a></li>
+        <li><a href="/downloads/checklist.pdf">Lista de Verificación (PDF)</a></li>
+      </ul>
+    </article>
+  </section>
+
+  <div class="card mt-16">
+    <h2>¿Aún no eres miembro?</h2>
+    <p><a class="btn" href="/empezar.html">Ver opciones de membresía</a></p>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="container"><small>© <span id="yr"></span> Edunancial</small></div></footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
