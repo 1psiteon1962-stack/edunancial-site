@@ -1,23 +1,11 @@
-# Allow Pro/Platinum to reach /pro/* ; others -> memberships
-/pro/*            /pro/:splat          200!  Role=pro,platinum
-/pro/*            /memberships-en.html 302
-
-# Any member (Basic+Growth+Pro+Platinum+Institution) can reach /members/*
-/members/*        /members/:splat      200!  Role=basic,growth,pro,platinum,institution
-/members/*        /memberships-en.html 302
-
-# Spanish gates
-/es-pro/*         /es-pro/:splat       200!  Role=pro,platinum
-/es-pro/*         /memberships-es.html 302
-
-/es-members/*     /es-members/:splat   200!  Role=basic,growth,pro,platinum,institution
-/es-members/*     /memberships-es.html 302
-
-# Clean URLs for returns (already created)
-/paypal-return    /paypal-return.html  200
-/es-paypal-return /es-paypal-return.html 200
-/paypal-cancel    /paypal-cancel.html  200
-/es-paypal-cancel /es-paypal-cancel.html 200
-
-# Fallback to index
-/*                /index.html          200
+/memberships        /memberships-level1.html   301!
+/memberships-en     /memberships-level1.html   301!
+/memberships-es     /membresias-nivel1.html    301!
+/pricing            /memberships-level1.html   301!
+/plans              /memberships-level1.html   301!
+/start-learning     /movement.html             301!
+/empezar            /movimiento.html           301!
+/catalog            /catalog.html              301!
+/catalogo           /catalogo.html             301!
+/videos-es          /videos-es.html            301!
+/gracias            /es-thank-you.html         301!
