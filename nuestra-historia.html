@@ -1,203 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Our Story • Edunancial</title>
-  <meta name="description" content="Edunancial is a movement where education meets financial freedom. Learn our origin story and start with free resources." />
-  <link rel="canonical" href="https://edunancial.com/our-story.html" />
-  <style>
-    :root{
-      --bg:#0f172a;          /* slate-900 */
-      --panel:#111827;       /* gray-900 */
-      --muted:#6b7280;       /* gray-500 */
-      --text:#e5e7eb;        /* gray-200 */
-      --brand:#f59e0b;       /* amber-500 */
-      --brand-2:#38bdf8;     /* sky-400 */
-      --ok:#10b981;          /* emerald-500 */
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;line-height:1.5}
-    a{color:var(--brand-2);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header,main,footer{max-width:1024px;margin:auto;padding:24px}
-    .nav{display:flex;gap:12px;align-items:center;justify-content:space-between}
-    .nav a.btn{padding:10px 14px;border-radius:10px;background:var(--brand);color:#1f2937;font-weight:700}
-    .card{background:var(--panel);border:1px solid #1f2937;border-radius:16px;padding:20px}
-    .grid{display:grid;gap:18px}
-    @media (min-width:900px){.grid-2{grid-template-columns:1fr 1fr}}
-    h1{font-size:clamp(28px,3vw,42px);margin:10px 0 6px}
-    h2{font-size:clamp(20px,2.2vw,28px);margin:6px 0 6px}
-    .muted{color:var(--muted)}
-    .kicker{letter-spacing:.08em;text-transform:uppercase;color:var(--brand);font-weight:700;font-size:.9rem}
-    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
-    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700}
-    .btn-primary{background:var(--brand);color:#1f2937}
-    .btn-ghost{border:1px solid #374151;color:var(--text)}
-    .badge{display:inline-block;background:#064e3b;color:#d1fae5;padding:4px 10px;border-radius:999px;font-size:.8rem}
-    form input, form select, form textarea{
-      width:100%;padding:12px;border-radius:10px;border:1px solid #374151;background:#0b1220;color:var(--text)
-    }
-    form label{font-size:.9rem;color:#cbd5e1}
-    .legal{font-size:.85rem;color:#94a3b8}
-    .video-shell{aspect-ratio:16/9;background:#0b1220;border:1px dashed #334155;border-radius:12px;display:grid;place-items:center;color:#94a3b8}
-    footer{opacity:.85;font-size:.9rem}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Nuestra Historia • Edunancial</title>
+<meta name="description" content="Edunancial: un movimiento donde la educación se encuentra con la libertad financiera. Nuestra historia y el camino a seguir." />
+<style>
+  :root{--c1:#d21e2b;--ink:#111;--ink2:#444;--bg:#fff;--muted:#f6f6f7}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;background:var(--bg);color:var(--ink)}
+  a{color:var(--c1);text-decoration-thickness:1.5px;text-underline-offset:3px}
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
+  .wrap{max-width:900px;margin:auto;padding:18px}
+  nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+  .brand{font-weight:800;letter-spacing:.2px}
+  .links{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .lang{display:flex;gap:6px}
+  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;color:#333;text-decoration:none}
+  .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:14px 0 8px}
+  .lead{font-size:1.1rem;color:var(--ink2)}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 6px}
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+  .btn-primary{background:var(--c1);color:#fff}
+  .btn-ghost{background:transparent;border:1px solid #ddd;color:#333}
+  section{padding:24px 0}
+  ul.check{list-style:none;padding:0;margin:0}
+  ul.check li{padding-left:28px;position:relative;margin:10px 0}
+  ul.check li::before{content:"✓";position:absolute;left:0;top:0;color:var(--c1);font-weight:800}
+  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
+</style>
 </head>
 <body>
-  <header class="nav">
-    <div>
-      <strong>Edunancial</strong>
-      <span class="badge" style="margin-left:8px">Movement</span>
-    </div>
-    <div style="display:flex;gap:10px;align-items:center">
-      <a href="nuestra-historia.html" class="btn btn-ghost" aria-label="Ver en Español">ES</a>
-      <a href="/start.html" class="btn btn-ghost">Start Learning</a>
-      <a href="/memberships-level1.html" class="btn btn-primary">Memberships</a>
-    </div>
-  </header>
-
-  <main class="grid grid-2">
-    <!-- Hero / Origin -->
-    <section class="card">
-      <div class="kicker">Our Story</div>
-      <h1>Financial Freedom Starts with Education — Not Guesswork.</h1>
-      <p>
-        <em>“When my son was 11, he asked me how he could make money with his head.”</em>
-        That question sparked <strong>Edunancial</strong> — a movement to teach people of all ages how to think,
-        act, and grow like investors. We build financial literacy that is practical, bilingual, and accessible.
-      </p>
-      <div class="cta">
-        <a class="btn btn-primary" href="#free">Get the Free Starter Kit</a>
-        <a class="btn btn-ghost" href="#watch">Watch a 1-minute intro</a>
-      </div>
-    </section>
-
-    <!-- Trust / Quick Wins -->
-    <section class="card">
-      <h2>What You’ll Find Here</h2>
-      <ul>
-        <li>Simple, step-by-step lessons in English and Spanish</li>
-        <li>Real-world examples (budgeting, credit, saving, business starts)</li>
-        <li>Community and accountability — not hype</li>
-      </ul>
-      <p class="muted">Visitors first, members later. Learn something useful today — then decide if joining is right for you.</p>
-    </section>
-
-    <!-- Free Value: guide + opt-in -->
-    <section id="free" class="card">
-      <div class="kicker">Free Resource</div>
-      <h2>Download: <em>10 Rules to Build Wealth</em></h2>
-      <p>Get the PDF and 30 days of bite-size tips. No spam — unsubscribe anytime.</p>
-
-      <!-- Replace action with your email tool endpoint (MailerLite, ConvertKit, etc.) -->
-      <form method="post" action="/subscribe" novalidate>
-        <div class="grid grid-2">
-          <div>
-            <label for="first">First name</label>
-            <input id="first" name="first_name" autocomplete="given-name" required />
-          </div>
-          <div>
-            <label for="last">Last name</label>
-            <input id="last" name="last_name" autocomplete="family-name" />
-          </div>
-        </div>
-        <div class="grid grid-2" style="margin-top:12px">
-          <div>
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required />
-          </div>
-          <div>
-            <label for="phone">Phone (optional)</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" />
-          </div>
-        </div>
-
-        <div style="margin:12px 0">
-          <label>
-            <input type="checkbox" name="consent_marketing" required />
-            I agree to receive emails and/or texts from Edunancial, and I can opt out anytime.
-          </label>
-        </div>
-
-        <div class="cta">
-          <button class="btn btn-primary" type="submit">Send me the guide</button>
-          <a class="btn btn-ghost" href="/privacy.html">Privacy Policy</a>
-        </div>
-        <input type="hidden" name="source" value="our-story" />
-      </form>
-    </section>
-
-    <!-- Video area -->
-    <section id="watch" class="card">
-      <div class="kicker">Intro Video</div>
-      <h2>Meet the Movement (1 minute)</h2>
-      <!-- Replace with your actual video embed or file -->
-      <div class="video-shell">Embed your intro video here (YouTube/Vimeo or MP4)</div>
-      <p class="muted" style="margin-top:10px">Add more free videos below anytime — this section is flexible for future uploads.</p>
-    </section>
-
-    <!-- Bridge: two-tier memberships -->
-    <section class="card">
-      <div class="kicker">The Bridge</div>
-      <h2>When you’re ready, pick the level that fits.</h2>
-
-      <div class="grid">
-        <div class="card" style="background:#0b1220">
-          <h3>Level 1 — Start Learning</h3>
-          <p>Perfect for individuals and schools getting started.</p>
-          <ul>
-            <li><strong>Basic</strong> — $9.99/mo, member discounts + downloads</li>
-            <li><strong>Institutional License</strong> — $250/yr, up to 25 users (separate onboarding)</li>
-          </ul>
-          <div class="cta">
-            <a class="btn btn-primary" href="/memberships-level1.html">See Level 1 Options</a>
-            <a class="btn btn-ghost" href="/contact.html">Institutional contact</a>
-          </div>
-        </div>
-
-        <div class="card" style="background:#0b1220">
-          <h3>Level 2 — Go All In</h3>
-          <p>For members who want deeper access and acceleration.</p>
-          <ul>
-            <li><strong>Pro</strong> — <s>$39.99</s> <strong>$59.99/mo</strong>, all Growth benefits + quarterly workshop + office hours</li>
-            <li><strong>Platinum</strong> — <strong>$1,699 (2-year)</strong>, Pro benefits + eBooks, courses & updates + certificate/badge</li>
-          </ul>
-          <div class="cta">
-            <a class="btn btn-primary" href="/memberships-level2.html">See Level 2 Options</a>
-            <a class="btn btn-ghost" href="/catalog.html">Catalog (courses & books)</a>
-          </div>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand">Edunancial <span style="font-weight:600;color:#777">Movimiento</span></div>
+      <div class="links">
+        <a href="/nuestra-historia.html">Nuestra Historia</a>
+        <a href="/membresias-nivel1.html">Membresías</a>
+        <a href="/catalogo.html">Catálogo</a>
+        <a href="/videos.html">Videos</a>
+        <a href="/contacto.html">Contacto</a>
+        <div class="lang">
+          <a class="chip" href="/nuestra-historia.html" aria-current="page">ES</a>
+          <a class="chip" href="/our-story.html" aria-label="View in English">EN</a>
         </div>
       </div>
-    </section>
+    </nav>
+  </div>
+</header>
 
-    <!-- Free videos gallery (public) -->
-    <section class="card">
-      <div class="kicker">Free Videos</div>
-      <h2>Start with these quick lessons</h2>
-      <div class="grid grid-2">
-        <div class="video-shell">Video: Budget Basics</div>
-        <div class="video-shell">Video: Credit 101</div>
-      </div>
-      <p class="muted" style="margin-top:8px">Swap these placeholders with your actual embeds whenever you’re ready.</p>
-    </section>
-
-    <!-- Members-only placeholder (you can later gate this) -->
-    <section class="card">
-      <div class="kicker">Members-Only</div>
-      <h2>Premium Workshops & Replays</h2>
-      <p class="muted">After checkout, members receive a private link by email (or a dashboard) to access this area.</p>
-      <div class="video-shell">Locked content placeholder</div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="grid grid-2">
-      <div>© <span id="year"></span> Edunancial · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></div>
-      <div class="muted">Questions? <a href="mailto:support@edunancial.com">support@edunancial.com</a></div>
-    </div>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</body>
-</html>
+<main class="wrap">
+  <section class="hero
