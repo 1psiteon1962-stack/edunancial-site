@@ -1,76 +1,45 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Membresías — Nivel 1 (Comienza) • Edunancial</title>
-<meta name="description" content="Membresías de Nivel 1: Básica y Licencia Institucional." />
-<style>
-  :root{--c1:#d21e2b;--ink:#111;--muted:#f6f6f7}
-  *{box-sizing:border-box} body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;color:var(--ink)}
-  a{color:var(--c1)} .wrap{max-width:900px;margin:auto;padding:18px}
-  header{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:5}
-  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
-  h1{font-size:clamp(26px,5vw,38px);margin:14px 0}
-  .grid{display:grid;gap:16px}
-  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
-  .card{border:1px solid #eee;border-radius:14px;padding:18px;background:#fff}
-  .price{font-weight:800;font-size:1.25rem}
-  .btn{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;background:var(--c1);color:#fff;text-decoration:none;font-weight:700}
-  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
-</style>
+  <meta charset="utf-8">
+  <title>Membresías — Nivel 1 | Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="alternate" hreflang="en" href="/memberships-level1.html">
+  <link rel="stylesheet" href="/style.css">
+  <meta name="description" content="Membresías de Nivel 1: Básica mensual y licencia institucional.">
 </head>
 <body>
-<header><div class="wrap">
-  <nav>
-    <strong>Edunancial</strong>
-    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+  <header class="site-nav">
+    <nav>
       <a href="/nuestra-historia.html">Nuestra Historia</a>
+      <a href="/movimiento.html">Empieza a Aprender</a>
       <a href="/membresias-nivel1.html" aria-current="page">Membresías</a>
+      <a href="/videos-es.html">Videos</a>
       <a href="/catalogo.html">Catálogo</a>
-      <a href="/videos.html">Videos</a>
-      <div>
-        <a class="chip" href="/membresias-nivel1.html">ES</a>
+      <a href="/es-contact.html">Contacto</a>
+      <span class="lang">
+        <a class="chip active" href="/membresias-nivel1.html" aria-current="page">ES</a>
         <a class="chip" href="/memberships-level1.html">EN</a>
-      </div>
-    </div>
-  </nav>
-</div></header>
+      </span>
+    </nav>
+  </header>
 
-<main class="wrap">
-  <h1>Nivel 1 — Comienza</h1>
-  <p>Elige una opción para empezar. Puedes mejorar de nivel cuando quieras.</p>
+  <main class="container prose">
+    <h1>Nivel 1 — Comienza</h1>
+    <p>Elige una opción para activar descargas y actualizaciones para miembros.</p>
 
-  <section class="grid">
-    <article class="card">
-      <h2>Básica</h2>
-      <p class="price">$9.99 / mes</p>
-      <ul>
-        <li>Descuentos para miembros en cursos y libros</li>
-        <li>Descargas exclusivas</li>
-        <li>Acceso en español e inglés</li>
-      </ul>
-      <a class="btn" href="/payments.html#basic">Unirme a Básica</a>
-    </article>
+    <ul>
+      <li><strong>Básica</strong> — <strong>$9.99/mes</strong>, descuentos y descargas para miembros<br>
+        <a class="btn" href="/es-payments.html#basic">Unirme a Básica</a>
+      </li>
+      <li><strong>Licencia Institucional</strong> — <strong>$250/año</strong>, hasta 25 usuarios (onboarding por separado)<br>
+        <a class="btn" href="/es-contact.html#institutional">Contacto Institucional</a>
+      </li>
+    </ul>
 
-    <article id="institucional" class="card">
-      <h2>Licencia Institucional</h2>
-      <p class="price">$250 / año (hasta 25 usuarios)</p>
-      <ul>
-        <li>Para escuelas, bibliotecas u organizaciones</li>
-        <li>Incluye kit administrativo + onboarding</li>
-        <li>Canal de comunicación separado</li>
-      </ul>
-      <a class="btn" href="/contacto.html#institucional">Solicitar Onboarding</a>
-    </article>
-  </section>
+    <p><a class="btn ghost" href="/membresias-nivel2.html">¿Listo para todo? Ver Nivel 2</a></p>
+  </main>
 
-  <section style="margin-top:22px">
-    <p>¿Listo para más? Visita <a href="/membresias-nivel2.html">Nivel 2 — Voy con todo</a>.</p>
-  </section>
-</main>
-
-<footer><div class="wrap"><small>© <span id="y"></span> Edunancial.</small></div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+  <footer class="site-footer"><small>© Edunancial</small></footer>
 </body>
 </html>
