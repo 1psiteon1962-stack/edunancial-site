@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Memberships — Level 1 (Start) • Edunancial</title>
+<meta name="description" content="Level 1 memberships: Basic and Institutional License." />
+<style>
+  :root{--c1:#d21e2b;--ink:#111;--muted:#f6f6f7}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;color:var(--ink)}
+  a{color:var(--c1)} .wrap{max-width:900px;margin:auto;padding:18px}
+  header{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:5}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
+  h1{font-size:clamp(26px,5vw,38px);margin:14px 0}
+  .grid{display:grid;gap:16px}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .card{border:1px solid #eee;border-radius:14px;padding:18px;background:#fff}
+  .price{font-weight:800;font-size:1.25rem}
+  .btn{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;background:var(--c1);color:#fff;text-decoration:none;font-weight:700}
+  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav>
+    <strong>Edunancial</strong>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <a href="/our-story.html">Our Story</a>
+      <a href="/memberships-level1.html" aria-current="page">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+      <a href="/videos.html">Videos</a>
+      <div>
+        <a class="chip" href="/membresias-nivel1.html">ES</a>
+        <a class="chip" href="/memberships-level1.html">EN</a>
+      </div>
+    </div>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <h1>Level 1 — Start</h1>
+  <p>Choose one of these to get started. You can upgrade anytime.</p>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Basic</h2>
+      <p class="price">$9.99 / month</p>
+      <ul>
+        <li>Member discounts on courses & paperback books</li>
+        <li>Members-only downloads</li>
+        <li>Access in English & Spanish</li>
+      </ul>
+      <!-- Replace with your real payment button -->
+      <a class="btn" href="/payments.html#basic">Join Basic</a>
+    </article>
+
+    <article id="institutional" class="card">
+      <h2>Institutional License</h2>
+      <p class="price">$250 / year (up to 25 users)</p>
+      <ul>
+        <li>School, library, or organization license</li>
+        <li>Includes admin toolkit + onboarding</li>
+        <li>Separate communication channel</li>
+      </ul>
+      <a class="btn" href="/contact.html#institutional">Request Institutional Onboarding</a>
+    </article>
+  </section>
+
+  <section style="margin-top:22px">
+    <p>Ready for advanced access? See <a href="/memberships-level2.html">Level 2 — Go All In</a>.</p>
+  </section>
+</main>
+
+<footer><div class="wrap"><small>© <span id="y"></span> Edunancial.</small></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
