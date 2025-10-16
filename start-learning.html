@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start Learning — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+<style>.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.price{font-size:1.8rem;font-weight:800}.note{color:#666;font-size:.92rem}</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/our-story.html">Edunancial</a>
+    <a href="/free-resources.html">Free</a>
+    <a href="/videos.html">Videos</a>
+    <a class="active" href="/start-learning.html">Start Learning</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a class="pill" href="/empezar.html">ES</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Start Learning</h1>
+  <p class="lead">Choose the best entry point. You can always upgrade later.</p>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Intro (Basic)</h2>
+      <p class="price">$9.99<span class="muted">/mo</span></p>
+      <ul>
+        <li>Member discounts on courses & books</li>
+        <li>Members-only downloads</li>
+      </ul>
+      <p class="note">Purchase handled by PayPal. One membership per checkout.</p>
+      <p><a class="btn" href="/memberships-en.html#paypal-basic">Select Intro</a></p>
+    </article>
+
+    <article class="card">
+      <h2>Institutional License</h2>
+      <p class="price">$250<span class="muted">/yr</span></p>
+      <ul>
+        <li>Up to 25 users (students or staff)</li>
+        <li>Bilingual content & updates</li>
+      </ul>
+      <p class="note">We’ll coordinate onboarding by email.</p>
+      <!-- Link this to your real PayPal hosted button page/section or a dedicated info page -->
+      <p><a class="btn" href="/catalog.html#institutional">Purchase / Contact</a></p>
+    </article>
+
+    <article class="card">
+      <h2>Go Further (Pro & Platinum)</h2>
+      <p>Quarterly workshops, business tools, full library access, certificates and more.</p>
+      <p><a class="btn btn-outline" href="/memberships-en.html">See all memberships</a></p>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container"><small>© <span id="yr"></span> Edunancial</small></div></footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
