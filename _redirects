@@ -1,13 +1,30 @@
-/memberships              /memberships-level1.html     301!
-/memberships-en           /memberships-level1.html     301!
-/memberships-es           /membresias-nivel1.html      301!
-/pricing                  /memberships-level1.html     301!
-/plans                    /memberships-level1.html     301!
-/start-learning           /movement.html               301!
-/empezar                  /movimiento.html             301!
-/catalog                  /catalog.html                301!
-/catalogo                 /catalogo.html               301!
-/videos-es                /videos-es.html              301!
-/gracias                  /es-thank-you.html           301!
-/our-story-es             /nuestra-historia.html       301!
-/about                    /our-story.html              301!
+# Our Story / Historia
+/our-story-es            /nuestra-historia.html   301!
+/ourstory-es             /nuestra-historia.html   301!
+/nuestra-historia        /nuestra-historia.html   301!
+/our-story               /our-story.html          301!
+
+# Movement / Movimiento
+/start-learning          /movement.html           301!
+/empezar                 /movimiento.html         301!
+
+# Memberships (Level pages)
+/memberships             /memberships-level1.html 301!
+/membresias              /membresias-nivel1.html  301!
+/pro-sesion              /pro-sesion.html         301!
+
+# Videos
+/videos-es               /videos-es.html          301!
+/videos                  /videos.html             301!
+
+# Catalog
+/catalogo                /catalogo.html           301!
+/catalog                 /catalog.html            301!
+
+# Contact
+/contacto                /es-contact.html         301!
+/es-contacto             /es-contact.html         301!
+
+# Free resources
+/free                    /free-resources.html     301!
+/recursos                /recursos-gratis.html    301!
