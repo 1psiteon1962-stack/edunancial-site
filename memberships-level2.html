@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Memberships — Level 2 (Go All In) • Edunancial</title>
+<meta name="description" content="Level 2 memberships: Pro and Platinum." />
+<style>
+  :root{--c1:#d21e2b;--ink:#111;--muted:#f6f6f7}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;color:var(--ink)}
+  a{color:var(--c1)} .wrap{max-width:900px;margin:auto;padding:18px}
+  header{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:5}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
+  h1{font-size:clamp(26px,5vw,38px);margin:14px 0}
+  .grid{display:grid;gap:16px}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .card{border:1px solid #eee;border-radius:14px;padding:18px;background:#fff}
+  .price{font-weight:800;font-size:1.25rem}
+  .btn{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;background:var(--c1);color:#fff;text-decoration:none;font-weight:700}
+  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
+  .meta{color:#555;font-size:.95rem}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav>
+    <strong>Edunancial</strong>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <a href="/our-story.html">Our Story</a>
+      <a href="/memberships-level2.html" aria-current="page">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+      <a href="/videos.html">Videos</a>
+      <div>
+        <a class="chip" href="/membresias-nivel2.html">ES</a>
+        <a class="chip" href="/memberships-level2.html">EN</a>
+      </div>
+    </div>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <h1>Level 2 — Go All In</h1>
+  <p>Deep access for members who want acceleration and accountability.</p>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Pro</h2>
+      <p class="price">$59.99 / month</p>
+      <ul>
+        <li>Everything in Level 1 (discounts, downloads)</li>
+        <li>Priority Q&amp;A + community access</li>
+        <li><strong>Quarterly themed workshop</strong> (live or replay)</li>
+        <li>Founder office hours</li>
+      </ul>
+      <a class="btn" href="/payments.html#pro">Join Pro</a>
+    </article>
+
+    <article id="platinum" class="card">
+      <h2>Platinum</h2>
+      <p class="price">$1,699 / 2 years</p>
+      <ul>
+        <li>All Pro benefits</li>
+        <li>Access to eBooks, courses &amp; updates</li>
+        <li>Certificate / digital badge</li>
+      </ul>
+      <p class="meta">One flat fee covers 24 months. Ideal for members who want stability and long-term access.</p>
+      <a class="btn" href="/payments.html#platinum">Get Platinum</a>
+    </article>
+  </section>
+
+  <section style="margin-top:22px">
+    <p>Just starting out? Return to <a href="/memberships-level1.html">Level 1 — Start</a>.</p>
+  </section>
+</main>
+
+<footer><div class="wrap"><small>© <span id="y"></span> Edunancial.</small></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
