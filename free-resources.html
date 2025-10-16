@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Resources — Edunancial</title>
+<link rel="stylesheet" href="/style.css">
+<style>
+  form .row{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+  input,select,textarea{width:100%}
+  .legal{font-size:.9rem;color:#666}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/our-story.html">Edunancial</a>
+    <a class="active" href="/free-resources.html">Free</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/start-learning.html">Start Learning</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a class="pill" href="/recursos-gratis.html">ES</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Free resources</h1>
+  <p>Get the PDF: <strong>“10 Rules to Build Wealth”</strong> and occasional tips (bilingual). Unsubscribe anytime.</p>
+
+  <form class="card" method="post" action="ACTION_URL_FROM_EMAIL_SERVICE">
+    <div class="row">
+      <div><label>First name<input required name="first_name" type="text"></label></div>
+      <div><label>Last name<input required name="last_name" type="text"></label></div>
+    </div>
+    <div class="row">
+      <div><label>Email<input required name="email" type="email"></label></div>
+      <div><label>Phone (optional)<input name="phone" type="tel" inputmode="tel"></label></div>
+    </div>
+    <label>Language
+      <select name="lang">
+        <option value="EN" selected>English</option>
+        <option value="ES">Español</option>
+      </select>
+    </label>
+    <label class="mt-8"><input required type="checkbox" name="consent" value="yes">
+      I agree to receive emails and/or texts from Edunancial and understand I can opt out anytime.</label>
+    <button class="btn mt-8" type="submit">Send me the guide</button>
+    <p class="legal">We never sell data. See our <a href="/privacy.html">Privacy Policy</a>.</p>
+  </form>
+
+  <section class="card mt-16">
+    <h2>What you’ll get next</h2>
+    <ol>
+      <li>An email with the PDF download link (and optional SMS if you opted in).</li>
+      <li>A short series of tips (2–3 emails) to help you get quick wins.</li>
+      <li>When you’re ready, see <a href="/start-learning.html">Start Learning</a> for membership options.</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container"><small>© <span id="yr"></span> Edunancial</small></div></footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
