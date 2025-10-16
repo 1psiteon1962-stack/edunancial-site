@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>The Edunancial Movement</title>
+<meta name="description" content="Why Edunancial is a movement: free value, simple steps, bilingual lessons, and how to start learning today." />
+<style>
+  :root{--c1:#d21e2b;--ink:#111;--ink2:#444;--muted:#f6f6f7}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;color:var(--ink)}
+  a{color:var(--c1)} .wrap{max-width:900px;margin:auto;padding:18px}
+  header{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:5}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:12px 0}
+  .grid{display:grid;gap:16px;grid-template-columns:1fr; }
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .card{border:1px solid #eee;border-radius:14px;padding:16px;background:#fff}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+  .btn-primary{background:var(--c1);color:#fff}
+  .btn-ghost{border:1px solid #ddd;color:#333}
+  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav>
+    <strong>Edunancial</strong>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <a href="/our-story.html">Our Story</a>
+      <a href="/memberships-level1.html">Memberships</a>
+      <a href="/catalog.html">Catalog</a>
+      <a href="/videos.html">Videos</a>
+      <div>
+        <a class="chip" href="/movimiento.html">ES</a>
+        <a class="chip" href="/movement.html" aria-current="page">EN</a>
+      </div>
+    </div>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <h1>It’s More Than a Membership — It’s a Movement.</h1>
+  <p>
+    People don’t need more hype. They need clear steps, real examples, and a community that helps them
+    turn knowledge into action. That’s Edunancial.
+  </p>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Free Starter Kit</h3>
+      <p>Get a short PDF + quick video: <em>“10 Rules to Build Wealth.”</em></p>
+      <!-- Replace action with your email platform endpoint -->
+      <form action="/subscribe" method="post">
+        <label>Name<br><input name="name" required></label><br>
+        <label>Email<br><input name="email" type="email" required></label><br>
+        <label><input type="checkbox" name="optin" required> I agree to receive emails from Edunancial.</label><br>
+        <button class="btn btn-primary" type="submit">Send Me the Starter Kit</button>
+      </form>
+      <p style="font-size:.9rem;color:#666">We’ll email your downloads and updates in English or Spanish (your choice).</p>
+    </div>
+
+    <div class="card">
+      <h3>Watch Free Videos</h3>
+      <p>Begin with two quick lessons:</p>
+      <ul>
+        <li><a href="/videos.html#budget-basics">Budget Basics</a></li>
+        <li><a href="/videos.html#credit-101">Credit 101</a></li>
+      </ul>
+      <p>More free snippets are added regularly.</p>
+    </div>
+
+    <div class="card">
+      <h3>Level 1 — Start</h3>
+      <p>Join at the entry level or as a school/organization.</p>
+      <ul>
+        <li><strong>Basic</strong> — $9.99/month, member discounts + downloads</li>
+        <li id="institutional"><strong>Institutional License</strong> — $250/year, up to 25 users (separate onboarding)</li>
+      </ul>
+      <div class="cta">
+        <a class="btn btn-ghost" href="/memberships-level1.html">See Level 1 Options</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Level 2 — Go All In</h3>
+      <p>For members who want deeper access and acceleration.</p>
+      <ul>
+        <li><strong>Pro</strong> — <strong>$59.99/month</strong>, all Growth-equivalent benefits + quarterly workshop + office hours</li>
+        <li id="platinum"><strong>Platinum</strong> — <strong>$1,699 (2-year)</strong>, Pro benefits + eBooks, courses & updates + certificate/badge</li>
+      </ul>
+      <div class="cta">
+        <a class="btn btn-ghost" href="/memberships-level2.html">See Level 2 Options</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta" style="margin-top:22px">
+    <a class="btn btn-primary" href="/memberships-level1.html">Start Learning Today</a>
+    <a class="btn btn-ghost" href="/our-story.html">Back to Our Story</a>
+  </div>
+</main>
+
+<footer><div class="wrap"><small>© <span id="y"></span> Edunancial.</small></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
