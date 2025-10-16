@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>El Movimiento Edunancial</title>
+<meta name="description" content="Por qué Edunancial es un movimiento: valor gratuito, pasos simples, lecciones bilingües y cómo empezar hoy." />
+<style>
+  :root{--c1:#d21e2b;--ink:#111;--ink2:#444;--muted:#f6f6f7}
+  *{box-sizing:border-box} body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;color:var(--ink)}
+  a{color:var(--c1)} .wrap{max-width:900px;margin:auto;padding:18px}
+  header{border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:5}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .chip{border:1px solid #ddd;border-radius:999px;padding:6px 10px;text-decoration:none;color:#333}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:12px 0}
+  .grid{display:grid;gap:16px;grid-template-columns:1fr}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .card{border:1px solid #eee;border-radius:14px;padding:16px;background:#fff}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+  .btn-primary{background:var(--c1);color:#fff}
+  .btn-ghost{border:1px solid #ddd;color:#333}
+  footer{border-top:1px solid #eee;background:var(--muted);color:#666}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav>
+    <strong>Edunancial</strong>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <a href="/nuestra-historia.html">Nuestra Historia</a>
+      <a href="/membresias-nivel1.html">Membresías</a>
+      <a href="/catalogo.html">Catálogo</a>
+      <a href="/videos.html">Videos</a>
+      <div>
+        <a class="chip" href="/movimiento.html" aria-current="page">ES</a>
+        <a class="chip" href="/movement.html">EN</a>
+      </div>
+    </div>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <h1>Más que una membresía — es un movimiento.</h1>
+  <p>
+    La gente no necesita más promesas vacías. Necesita pasos claros, ejemplos reales y una comunidad
+    que convierta el conocimiento en acción. Eso es Edunancial.
+  </p>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Kit de Inicio Gratis</h3>
+      <p>Recibe un PDF + video corto: <em>“10 reglas para construir riqueza”.</em></p>
+      <form action="/suscribir" method="post">
+        <label>Nombre<br><input name="name" required></label><br>
+        <label>Correo<br><input name="email" type="email" required></label><br>
+        <label><input type="checkbox" name="optin" required> Acepto recibir correos de Edunancial.</label><br>
+        <button class="btn btn-primary" type="submit">Envíenme el Kit</button>
+      </form>
+      <p style="font-size:.9rem;color:#666">Te enviaremos los materiales y novedades en español o inglés.</p>
+    </div>
+
+    <div class="card">
+      <h3>Videos Gratis</h3>
+      <ul>
+        <li><a href="/videos.html#budget-basics">Fundamentos de presupuesto</a></li>
+        <li><a href="/videos.html#credit-101">Crédito 101</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Nivel 1 — Comienza</h3>
+      <ul>
+        <li><strong>Básica</strong> — $9.99/mes, descuentos + descargas</li>
+        <li id="institucional"><strong>Licencia Institucional</strong> — $250/año, hasta 25 usuarios (onboarding aparte)</li>
+      </ul>
+      <div class="cta"><a class="btn btn-ghost" href="/membresias-nivel1.html">Ver Nivel 1</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Nivel 2 — Voy con todo</h3>
+      <ul>
+        <li><strong>Pro</strong> — <strong>$59.99/mes</strong>, beneficios avanzados + taller trimestral + office hours</li>
+        <li id="platino"><strong>Platino</strong> — <strong>$1,699 (2 años)</strong>, beneficios Pro + eBooks, cursos y actualizaciones + certificado/insignia</li>
+      </ul>
+      <div class="cta"><a class="btn btn-ghost" href="/membresias-nivel2.html">Ver Nivel 2</a></div>
+    </div>
+  </section>
+
+  <div class="cta" style="margin-top:22px">
+    <a class="btn btn-primary" href="/membresias-nivel1.html">Empezar hoy</a>
+    <a class="btn btn-ghost" href="/nuestra-historia.html">Volver a la historia</a>
+  </div>
+</main>
+
+<footer><div class="wrap"><small>© <span id="y"></span> Edunancial.</small></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
