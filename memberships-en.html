@@ -2,94 +2,105 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Memberships • Edunancial</title>
+<title>Memberships — Edunancial</title>
 <link rel="stylesheet" href="/style.css">
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<style>
+  .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .price{font-size:1.9rem;font-weight:800}
+  .note{font-size:.92rem;color:#666}
+  .checklist li{margin:.25rem 0}
+  .pill{display:inline-block;background:#eef;border-radius:999px;padding:.2rem .55rem;font-size:.85rem}
+  .muted{color:#666}
+</style>
 </head>
 <body>
 <header class="site-header">
   <nav class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/catalog.html">Catalog</a>
-    <a href="/account.html">Account</a>
-    <span class="spacer"></span>
-    <span class="lang"><a class="toggle-lang btn sm ghost" href="/memberships-es.html">ES</a></span>
+    <a href="/our-story.html">Edunancial</a>
+    <a href="/free-resources.html">Free</a>
+    <a href="/start-learning.html">Start Learning</a>
+    <a class="pill" href="/memberships-es.html">ES</a>
   </nav>
 </header>
 
 <main class="container">
-  <h1>Select a Membership that works for you</h1>
-  <p class="muted">All plans include members-only downloads and updates. You can upgrade anytime.</p>
+  <h1>Memberships</h1>
+  <p class="muted">All plans are bilingual (EN/ES) and include email consent opt-in at checkout.</p>
 
-  <section class="plans grid autofit">
-    <article class="card plan">
-      <h2>Basic — $9.99/month</h2>
-      <p>Member discounts on courses & paperback books. Members-only downloads.</p>
-      <!-- Subscribe -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_BASIC_SUB"><!-- REPLACE -->
-        <input type="hidden" name="custom" value="en">
-        <button class="btn lg" type="submit">Join Basic — $9.99/mo</button>
-      </form>
+  <section class="tiers">
+    <!-- BASIC -->
+    <article class="card">
+      <h2>Basic</h2>
+      <p class="price">$9.99<span class="muted">/mo</span></p>
+      <ul class="checklist">
+        <li>Member discounts on courses & paperback books</li>
+        <li>Members-only downloads</li>
+      </ul>
+      <div class="note">One membership per checkout is typical with PayPal. If you need multiple items, buy membership first, then add courses from Catalog.</div>
+      <hr>
+      <!-- ===== PAYPAL BUTTON: BASIC (hosted) =====
+           Create a PayPal “Buy Now / Subscription” button in PayPal.
+           Paste the hosted-button code snippet below this comment.
+      -->
+      <div id="paypal-basic"></div>
     </article>
 
-    <article class="card plan">
-      <h2>Growth — $19.99/month</h2>
-      <p>Everything in Basic + Priority Q&A and community access.</p>
-      <!-- Subscribe -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_GROWTH_SUB"><!-- REPLACE -->
-        <input type="hidden" name="custom" value="en">
-        <button class="btn lg" type="submit">Join Growth — $19.99/mo</button>
-      </form>
+    <!-- GROWTH -->
+    <article class="card">
+      <h2>Growth</h2>
+      <p class="price">$19.99<span class="muted">/mo</span></p>
+      <ul class="checklist">
+        <li>Everything in Basic</li>
+        <li>Priority Q&A and community access</li>
+      </ul>
+      <hr>
+      <!-- ===== PAYPAL BUTTON: GROWTH (hosted) ===== -->
+      <div id="paypal-growth"></div>
     </article>
 
-    <article class="card plan">
-      <h2>Pro — $59.99/month</h2>
-      <p>Everything in Growth + quarterly workshops & office hours.</p>
-      <!-- Subscribe -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_PRO_SUB"><!-- REPLACE -->
-        <input type="hidden" name="custom" value="en">
-        <button class="btn lg" type="submit">Join Pro — $59.99/mo</button>
-      </form>
+    <!-- PRO -->
+    <article class="card">
+      <h2>Pro</h2>
+      <p class="price">$59.99<span class="muted">/mo</span></p>
+      <ul class="checklist">
+        <li>Everything in Growth</li>
+        <li>Quarterly themed workshop (live or replay)</li>
+        <li>Business Startup Tools Pack (templates, checklists)</li>
+      </ul>
+      <hr>
+      <!-- ===== PAYPAL BUTTON: PRO (hosted) ===== -->
+      <div id="paypal-pro"></div>
     </article>
 
-    <article class="card plan emph">
-      <h2>Platinum — $1,699 one-time (2 years)</h2>
-      <p>2-year access. eBooks, courses & updates + all Pro-level benefits. Recognition badge/certificate.</p>
-      <!-- Buy Now -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_PLATINUM_BUY"><!-- REPLACE -->
-        <input type="hidden" name="custom" value="en">
-        <button class="btn lg" type="submit">Get Platinum — $1,699</button>
-      </form>
-    </article>
-
-    <article class="card plan">
-      <h2>Institutional — $250/year</h2>
-      <p>Up to 25 users. Schools: contact <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a>.</p>
-      <!-- Subscribe OR Buy Now -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="HBTN_SCHOOL"><!-- REPLACE -->
-        <input type="hidden" name="custom" value="en">
-        <button class="btn lg" type="submit">Institution — $250/yr</button>
-      </form>
+    <!-- PLATINUM -->
+    <article class="card">
+      <h2>Platinum <span class="pill">2-Year</span></h2>
+      <p class="price">$1,699<span class="muted"> / 2 years</span></p>
+      <ul class="checklist">
+        <li>All Pro-level benefits</li>
+        <li>Access to eBooks, Courses & Updates</li>
+        <li>Badges / certificate on completion</li>
+      </ul>
+      <hr>
+      <!-- ===== PAYPAL BUTTON: PLATINUM (hosted “Buy Now”) ===== -->
+      <div id="paypal-platinum"></div>
     </article>
   </section>
 
-  <hr class="mt-16 mb-16">
-  <p>Already a member? <a href="#" onclick="netlifyIdentity.open('login');return false;">Sign in</a></p>
+  <section class="card mt-16">
+    <h2>How checkout works</h2>
+    <ol>
+      <li>Choose a membership and complete PayPal checkout.</li>
+      <li>On success you’ll be sent back to our site and receive a welcome email.</li>
+      <li>Need courses or a mini-course too? Visit the <a href="/catalog.html">Catalog</a> after you’ve joined.</li>
+    </ol>
+    <p class="note">For security, we verify your PayPal email and issue site access under that address. Returning later? Use the same email at sign-in or when requesting materials.</p>
+  </section>
+
+  <p class="muted">Prefer Spanish? <a href="/memberships-es.html">Ver Membresías en Español</a>.</p>
 </main>
 
-<footer class="site-footer">
-  <div class="container"><small>© <span id="yr"></span> Edunancial</small></div>
-</footer>
+<footer class="site-footer"><div class="container"><small>© <span id="yr"></span> Edunancial</small></div></footer>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
