@@ -1,59 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Videos — Edunancial</title>
-<link rel="stylesheet" href="/style.css">
-<style>.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.thumb{aspect-ratio:16/9;background:#eee;border-radius:12px;display:flex;align-items:center;justify-content:center}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Videos — Edunancial</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a href="/our-story.html">Edunancial</a>
-    <a href="/free-resources.html">Free</a>
-    <a class="active" href="/videos.html">Videos</a>
-    <a href="/start-learning.html">Start Learning</a>
-    <a href="/memberships-en.html">Memberships</a>
-    <a class="pill" href="/videos-es.html">ES</a>
-  </nav>
-</header>
+  <header id="site-header"></header>
+  <main class="container prose">
+    <h1>Quick Videos</h1>
+    <div class="cards">
+      <article class="card">
+        <h2>Budget Basics</h2>
+        <p>2-minute intro to the envelope method.</p>
+        <!-- replace with your embed -->
+        <div class="video-embed"><iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Budget Basics" frameborder="0" allowfullscreen></iframe></div>
+      </article>
+      <article class="card">
+        <h2>Credit 101</h2>
+        <p>How scores work and how to build safely.</p>
+        <div class="video-embed"><iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID_2" title="Credit 101" frameborder="0" allowfullscreen></iframe></div>
+      </article>
+    </div>
 
-<main class="container">
-  <h1>Free Videos</h1>
-  <p>Short, practical lessons. More in the members’ library.</p>
-
-  <section class="grid">
-    <article class="card">
-      <h2>Budget Basics</h2>
-      <!-- Replace src with your YouTube/Vimeo embed -->
-      <div class="thumb">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Budget Basics" allowfullscreen></iframe>
-      </div>
-    </article>
-
-    <article class="card">
-      <h2>Credit 101</h2>
-      <div class="thumb">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_2" title="Credit 101" allowfullscreen></iframe>
-      </div>
-    </article>
-
-    <article class="card">
-      <h2>Saving Starter</h2>
-      <div class="thumb">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_3" title="Saving Starter" allowfullscreen></iframe>
-      </div>
-    </article>
-  </section>
-
-  <div class="card mt-16">
-    <h2>Like what you see?</h2>
-    <p>Grab the free PDF and tips, then see where to start.</p>
-    <p><a class="btn" href="/free-resources.html">Get the Free Guide</a> <a class="btn btn-outline" href="/start-learning.html">Start Learning</a></p>
-  </div>
-</main>
-
-<footer class="site-footer"><div class="container"><small>© <span id="yr"></span> Edunancial</small></div></footer>
-<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+    <div class="cta-row">
+      <a class="btn" href="/memberships-level1.html">Ready? Level 1 Memberships</a>
+      <a class="btn ghost" href="/memberships-level2.html">Go All In — Level 2</a>
+    </div>
+  </main>
+  <script src="/js/nav.js"></script>
 </body>
 </html>
