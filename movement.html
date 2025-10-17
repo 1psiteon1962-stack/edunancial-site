@@ -3,38 +3,51 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Edunancial Movement — Start Learning</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>The Edunancial Movement</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .wrap{max-width:980px;margin:0 auto;padding:18px}
+    .pill{display:inline-block;background:#f5f5f5;border-radius:999px;padding:.35rem .8rem;margin:.25rem .35rem .25rem 0}
+    .grid{display:grid;gap:16px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+    .card{border:1px solid #eee;border-radius:12px;padding:18px}
+    .btn{display:inline-block;padding:.75rem 1.1rem;border-radius:.5rem;font-weight:700;text-decoration:none}
+    .btn-primary{background:#c01616;color:#fff}
+    .btn-outline{border:2px solid #c01616;color:#c01616}
+  </style>
 </head>
 <body>
-  <header id="site-header"></header>
-  <main class="container prose">
+  <main class="wrap">
+    <a href="/our-story.html">&larr; Back to Our Story</a>
     <h1>The Edunancial Movement</h1>
-    <p>Financial freedom starts with education—not guesswork. Begin here with free value. When you’re ready, choose a membership.</p>
+    <p>A learning community where education meets financial freedom.</p>
+    <div>
+      <span class="pill">Bilingual lessons</span>
+      <span class="pill">Budgeting &amp; credit</span>
+      <span class="pill">Investing mindset</span>
+      <span class="pill">Business starts</span>
+    </div>
 
-    <section class="cards">
-      <article class="card">
-        <h2>Free Resources</h2>
-        <p>Download quick guides and worksheets. Opt-in so we can send updates in compliance with email laws.</p>
-        <a class="btn" href="/free-resources.html">Get Free Materials</a>
-      </article>
-
-      <article class="card">
-        <h2>Quick Videos</h2>
-        <p>Short, practical lessons (English &amp; Spanish) to move from “I don’t know how” to “I’ve got this.”</p>
-        <a class="btn" href="/videos.html">Watch Videos</a>
-      </article>
+    <section class="grid" style="margin-top:14px">
+      <div class="card">
+        <h2>Start with Free Value</h2>
+        <p>Download quick guides and worksheets (email opt-in required).</p>
+        <a class="btn btn-primary" href="/start-learning.html">Get Free Materials</a>
+      </div>
+      <div class="card">
+        <h2>Watch Quick Videos</h2>
+        <p>Short, practical lessons (English &amp; Spanish).</p>
+        <a class="btn btn-outline" href="/videos.html">Watch Videos</a>
+      </div>
     </section>
 
-    <h2>When you’re ready</h2>
-    <p>Pick the path that fits your stage.</p>
-
-    <div class="cta-stack">
-      <a class="btn" href="/memberships-level1.html">Level 1 — Basic &amp; Institutional</a>
-      <a class="btn ghost" href="/memberships-level2.html">Level 2 — Go All In (Pro &amp; Platinum)</a>
-    </div>
+    <section class="card" style="margin-top:16px">
+      <h2>When you’re ready</h2>
+      <p>
+        <a class="btn btn-primary" href="/memberships-level1.html">Level 1: Basic + Institutional</a>
+        <a class="btn btn-outline" style="margin-left:.5rem" href="/memberships-level2.html">Level 2: Go All In</a>
+      </p>
+    </section>
   </main>
-
-  <script src="/js/nav.js"></script>
 </body>
 </html>
