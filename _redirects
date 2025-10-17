@@ -13,5 +13,5 @@
 /start-learning /start-learning.html 200
 /empezar /empezar.html 200
 
-# Make sure Spanish 404 link goes to ES home
+# Ensure Spanish 404 has its own route (optional display only)
 /404-es /404-es.html 404
