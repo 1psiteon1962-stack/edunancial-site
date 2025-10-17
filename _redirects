@@ -1,30 +1,17 @@
-# Our Story / Historia
-/our-story-es            /nuestra-historia.html   301!
-/ourstory-es             /nuestra-historia.html   301!
-/nuestra-historia        /nuestra-historia.html   301!
-/our-story               /our-story.html          301!
+# Home lands on Our Story
+/ /our-story.html 200!
 
-# Movement / Movimiento
-/start-learning          /movement.html           301!
-/empezar                 /movimiento.html         301!
+# Language shortcuts
+/en /our-story.html 200
+/es /nuestra-historia.html 200
 
-# Memberships (Level pages)
-/memberships             /memberships-level1.html 301!
-/membresias              /membresias-nivel1.html  301!
-/pro-sesion              /pro-sesion.html         301!
+# Canonical pages
+/our-story /our-story.html 200
+/nuestra-historia /nuestra-historia.html 200
+/movement /movement.html 200
+/movimiento /movimiento.html 200
+/start-learning /start-learning.html 200
+/empezar /empezar.html 200
 
-# Videos
-/videos-es               /videos-es.html          301!
-/videos                  /videos.html             301!
-
-# Catalog
-/catalogo                /catalogo.html           301!
-/catalog                 /catalog.html            301!
-
-# Contact
-/contacto                /es-contact.html         301!
-/es-contacto             /es-contact.html         301!
-
-# Free resources
-/free                    /free-resources.html     301!
-/recursos                /recursos-gratis.html    301!
+# Make sure Spanish 404 link goes to ES home
+/404-es /404-es.html 404
