@@ -4,25 +4,62 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Our Story — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .wrap{max-width:980px;margin:0 auto;padding:18px}
+    .top{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+    .brand{font-weight:800;color:#c01616;font-size:1.25rem}
+    nav a{font-weight:600}
+    .lang{margin-left:auto;display:flex;gap:.5rem}
+    .btn{display:inline-block;padding:.75rem 1.1rem;border-radius:.5rem;font-weight:700;text-decoration:none}
+    .btn-primary{background:#c01616;color:#fff}
+    .btn-outline{border:2px solid #c01616;color:#c01616}
+    .hero{margin:10px 0 18px}
+    .lead{font-size:1.8rem;line-height:1.25}
+    .card{border:1px solid #eee;border-radius:12px;padding:18px;margin:18px 0}
+    .muted{color:#555}
+  </style>
 </head>
 <body>
-  <header id="site-header"></header>
-  <main class="container prose">
+  <header class="wrap top">
+    <div class="brand">Edunancial</div>
+    <nav>
+      <a href="/our-story.html">Our Story</a>
+      <a href="/start-learning.html">Start Learning</a>
+      <a href="/videos.html">Videos</a>
+      <a href="/catalog.html">Catalog</a>
+      <a href="/memberships-level1.html">Memberships</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="lang">
+      <a class="btn btn-outline" href="/our-story.html">EN</a>
+      <a class="btn btn-primary" href="/nuestra-historia.html">ES</a>
+    </div>
+  </header>
+
+  <main class="wrap">
     <h1>Our Story</h1>
 
-    <p>One afternoon when my son was 11, he came into my room just as an electronic deposit notification arrived. His eyes went wide. “How did you make money like that?” I said, “By using my head.” Then <strong>I asked</strong>, “Do you want to work with your head?” He said, “Yes… but I don’t know how.” That’s when <strong>Edunancial</strong> was born.</p>
+    <section class="hero">
+      <p class="lead">Financial Freedom Starts with Education — Not Guesswork.</p>
+      <p>One afternoon when my son was 11, he came in my room just as an electronic deposit notification arrived. His eyes went wide. “How did you make money like that?” I said, “By using my head.” Then I asked, <em>“Do you want to work with your head?”</em> He said, <em>“Yes… but I don’t know how.”</em> That’s when <strong>Edunancial</strong> was born.</p>
+      <p>At 11, he started buying silver coins—discipline and assets instead of candy and games. Around 12, he began analyzing stocks: overvalued or undervalued, and why. After he presented his reasons, we bought. His results averaged <strong>7–12%</strong>. At 15, he added gold—and today we consider gems like diamonds, rubies, or emeralds.</p>
+      <p>The <strong>Red, White, and Blue</strong> method doesn’t tell you what to buy—it teaches you to ask <em>why</em> you’re buying and what it will do for you, putting you in control.</p>
+      <p>
+        <a class="btn btn-primary" href="/movement.html">Learn More</a>
+        <a class="btn" style="margin-left:.5rem;border:2px solid #333;color:#333" href="/start-learning.html">Get Free Materials</a>
+      </p>
+    </section>
 
-    <p>At 11, he started buying silver coins—discipline and assets instead of candy and games. Around 12, he began analyzing stocks: overvalued or undervalued, and why. After he presented his reasons, we bought. His results averaged <strong>7–12%</strong>. At 15, he added gold—and today we also consider gems like diamonds, rubies, or emeralds.</p>
-
-    <p>The <strong>Red, White, and Blue</strong> method doesn’t tell you what to buy—it teaches you to ask <em>why</em> you’re buying and what it will do for you, putting you in control.</p>
-
-    <div class="cta-row">
-      <a class="btn" href="/movement.html">Learn More &rarr; Start Learning</a>
-      <a class="btn ghost" href="/catalog.html">Browse the Catalog</a>
-    </div>
+    <section class="card">
+      <h2>What You’ll Find Here</h2>
+      <ul>
+        <li>Bilingual, step-by-step lessons</li>
+        <li>Real-world examples (budgeting, credit, saving, business starts)</li>
+        <li>Community, accountability, and practical tools</li>
+      </ul>
+      <p class="muted">Ready to join later? You can choose a membership when you’re comfortable.</p>
+    </section>
   </main>
-
-  <script src="/js/nav.js"></script>
 </body>
 </html>
