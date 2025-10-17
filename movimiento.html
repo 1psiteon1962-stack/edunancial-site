@@ -3,38 +3,51 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>El Movimiento Edunancial — Empezar</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>El Movimiento Edunancial</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .wrap{max-width:980px;margin:0 auto;padding:18px}
+    .pill{display:inline-block;background:#f5f5f5;border-radius:999px;padding:.35rem .8rem;margin:.25rem .35rem .25rem 0}
+    .grid{display:grid;gap:16px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+    .card{border:1px solid #eee;border-radius:12px;padding:18px}
+    .btn{display:inline-block;padding:.75rem 1.1rem;border-radius:.5rem;font-weight:700;text-decoration:none}
+    .btn-primary{background:#c01616;color:#fff}
+    .btn-outline{border:2px solid #c01616;color:#c01616}
+  </style>
 </head>
 <body>
-  <header id="site-header"></header>
-  <main class="container prose">
+  <main class="wrap">
+    <a href="/nuestra-historia.html">&larr; Volver a Nuestra Historia</a>
     <h1>El Movimiento Edunancial</h1>
-    <p>La libertad financiera comienza con educación—no con adivinanzas. Empieza aquí con valor gratuito. Cuando estés listo, elige una membresía.</p>
+    <p>Una comunidad de aprendizaje donde la educación se une con la libertad financiera.</p>
+    <div>
+      <span class="pill">Lecciones bilingües</span>
+      <span class="pill">Presupuesto y crédito</span>
+      <span class="pill">Mentalidad de inversión</span>
+      <span class="pill">Inicios de negocios</span>
+    </div>
 
-    <section class="cards">
-      <article class="card">
-        <h2>Recursos Gratis</h2>
-        <p>Descarga guías y hojas de trabajo. Da tu consentimiento para recibir actualizaciones (cumpliendo con las leyes de correo).</p>
-        <a class="btn" href="/recursos-gratis.html">Obtener Materiales Gratis</a>
-      </article>
-
-      <article class="card">
-        <h2>Videos Rápidos</h2>
-        <p>Lecciones cortas y prácticas (inglés y español) para pasar de “no sé cómo” a “yo puedo”.</p>
-        <a class="btn" href="/videos-es.html">Ver Videos</a>
-      </article>
+    <section class="grid" style="margin-top:14px">
+      <div class="card">
+        <h2>Empieza con valor gratis</h2>
+        <p>Descarga guías y hojas de trabajo (se requiere consentimiento de correo).</p>
+        <a class="btn btn-primary" href="/empezar.html">Obtener Materiales Gratis</a>
+      </div>
+      <div class="card">
+        <h2>Mira videos rápidos</h2>
+        <p>Lecciones cortas y prácticas (inglés y español).</p>
+        <a class="btn btn-outline" href="/videos-es.html">Ver Videos</a>
+      </div>
     </section>
 
-    <h2>Cuando estés listo</h2>
-    <p>Elige el camino que se ajuste a tu etapa.</p>
-
-    <div class="cta-stack">
-      <a class="btn" href="/membresias-nivel1.html">Nivel 1 — Básica e Institucional</a>
-      <a class="btn ghost" href="/membresias-nivel2.html">Nivel 2 — Ir con Todo (Pro &amp; Platinum)</a>
-    </div>
+    <section class="card" style="margin-top:16px">
+      <h2>Cuando estés listo</h2>
+      <p>
+        <a class="btn btn-primary" href="/membresias-nivel1.html">Nivel 1: Básica + Institucional</a>
+        <a class="btn btn-outline" style="margin-left:.5rem" href="/membresias-nivel2.html">Nivel 2: Ir con Todo</a>
+      </p>
+    </section>
   </main>
-
-  <script src="/js/nav.js"></script>
 </body>
 </html>
