@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Thank You — Edunancial</title>
-  <style>
-    body{font-family:Arial, sans-serif; margin:24px; line-height:1.65}
-    .ok{background:#e02424;color:#fff;padding:12px 16px;border-radius:10px;display:inline-block}
-  </style>
-  <script src="/member.js" defer></script>
-</head>
-<body>
-  <h1>Thank you!</h1>
-  <p>Your membership purchase completed successfully.</p>
-  <p>We’re setting your member access now…</p>
-  <p><a class="ok" href="/catalog.html">Continue to Catalog</a></p>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Welcome – Edunancial</title>
+<link rel="stylesheet" href="/assets/css/styles.css"/></head>
+<body class="center">
+<h1>✅ Membership Activated</h1>
+<p>Redirecting you to your videos…</p>
+<script>
+  const p = new URLSearchParams(location.search);
+  const plan = (p.get('plan')||'').toLowerCase();
+  const lang = (p.get('lang')||'en').toLowerCase();
+  if(['basic','pro','executive'].includes(plan)){
+    document.cookie = `ed_plan=${plan}; Max-Age=${60*60*24*30}; Path=/; SameSite=Lax`;
+  }
+  setTimeout(()=>location.href='/videos.html',1500);
+</script>
+</body></html>
