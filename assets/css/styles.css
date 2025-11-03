@@ -1,0 +1,29 @@
+:root{--red:#c1121f;--white:#ffffff;--blue:#003049;--ink:#0f172a;--bg:#f8fafc}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{font:16px/1.6 system-ui,Segoe UI,Roboto,Arial;color:var(--ink);background:var(--bg)}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;background:linear-gradient(90deg,var(--blue),#0b2a4a);color:#fff}
+.site-header.slim{padding:10px 16px}
+.site-header .logo{color:#fff;text-decoration:none;font-weight:700}
+.nav a{color:#fff;margin:0 8px;text-decoration:none}
+.lang-switch button{margin-left:6px;border:0;border-radius:8px;padding:6px 10px}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+.hero .banner{display:inline-block;background:var(--red);color:#fff;padding:4px 10px;border-radius:8px;margin-bottom:8px}
+.grid.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:#fff;border-radius:14px;padding:16px;box-shadow:0 6px 20px rgba(0,0,0,.06)}
+.card h2{margin:0 0 8px}
+ul.clean{padding-left:18px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--blue);color:#fff;text-decoration:none}
+.btn.outline{background:#fff;border:2px solid var(--blue);color:var(--blue)}
+.small{font-size:.9rem;color:#475569}
+.notice{background:#eef6ff;border-left:4px solid var(--blue);padding:12px;border-radius:8px;margin:16px 0}
+.site-footer{padding:20px 18px;text-align:center;color:#334155}
+.center{display:grid;place-items:center;height:100vh;text-align:center}
+.page{max-width:900px;margin:24px auto;padding:0 16px}
+.flag{filter:drop-shadow(0 1px 2px rgba(0,0,0,.2))}
+.preview-card .preview{height:90px;display:flex;gap:8px;align-items:flex-end}
+.preview .pill{background:#fff;border:1px solid #e5e7eb;border-radius:999px;padding:6px 10px;animation:float 4s infinite ease-in-out}
+.preview .bar{width:18px;height:20px;background:#cfe2ff;animation:grow 3s infinite}
+.preview .node{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:6px 8px;animation:float 5s infinite}
+@keyframes grow{0%{height:10px}50%{height:60px}100%{height:10px}}
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+.placeholder-square{height:120px;display:grid;place-items:center;color:#64748b;background:#fff;border:2px dashed #cbd5e1;border-radius:12px}
