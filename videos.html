@@ -1,34 +1,71 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Videos — Edunancial</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Videos – Edunancial</title>
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
+  <script defer src="/assets/js/i18n.js"></script>
+  <script defer src="/assets/js/lang.js"></script>
+  <script defer src="/assets/js/membership.js"></script>
+  <script defer src="/assets/js/app.js"></script>
 </head>
-<body>
-  <header id="site-header"></header>
-  <main class="container prose">
-    <h1>Quick Videos</h1>
-    <div class="cards">
-      <article class="card">
-        <h2>Budget Basics</h2>
-        <p>2-minute intro to the envelope method.</p>
-        <!-- replace with your embed -->
-        <div class="video-embed"><iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Budget Basics" frameborder="0" allowfullscreen></iframe></div>
-      </article>
-      <article class="card">
-        <h2>Credit 101</h2>
-        <p>How scores work and how to build safely.</p>
-        <div class="video-embed"><iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID_2" title="Credit 101" frameborder="0" allowfullscreen></iframe></div>
-      </article>
-    </div>
+<body data-theme="rwb">
+<header class="site-header slim">
+  <a class="logo" href="/">🛡️ Edunancial</a>
+  <nav class="nav">
+    <a href="/pricing.html">Pricing</a>
+    <a href="/tools.html">Tools</a>
+    <a href="/apply.html">Apply</a>
+  </nav>
+  <div class="lang-switch"><button data-lang="en">EN</button><button data-lang="es">ES</button></div>
+</header>
 
-    <div class="cta-row">
-      <a class="btn" href="/memberships-level1.html">Ready? Level 1 Memberships</a>
-      <a class="btn ghost" href="/memberships-level2.html">Go All In — Level 2</a>
-    </div>
-  </main>
-  <script src="/js/nav.js"></script>
+<main class="container">
+  <h1 data-lang-show="en">Video Library</h1>
+  <h1 data-lang-show="es">Videoteca</h1>
+
+  <!-- Public previews (guest & up) -->
+  <section class="grid cards" data-roles="public">
+    <article class="card">
+      <h2>Valuation Preview</h2>
+      <video controls width="100%" poster="" src="https://cdn.example.com/previews/valuation.mp4"></video>
+    </article>
+    <article class="card">
+      <h2>Credit Builder Preview</h2>
+      <video controls width="100%" src="https://cdn.example.com/previews/credit.mp4"></video>
+    </article>
+  </section>
+
+  <!-- Pro + Executive -->
+  <section class="grid cards" data-roles="pro,executive">
+    <article class="card">
+      <h2>Full: Company Valuation</h2>
+      <video controls width="100%" src="https://cdn.example.com/members/valuation-full.mp4"></video>
+    </article>
+    <article class="card">
+      <h2>Full: Tax Strategy Map</h2>
+      <video controls width="100%" src="https://cdn.example.com/members/tax-map.mp4"></video>
+    </article>
+  </section>
+
+  <!-- Executive-only -->
+  <section class="grid cards" data-roles="executive">
+    <article class="card">
+      <h2>Executive Briefing: Capital Stack</h2>
+      <video controls width="100%" src="https://cdn.example.com/exec/capital-stack.mp4"></video>
+    </article>
+  </section>
+
+  <!-- Upsell for guests -->
+  <div class="notice" data-roles="guest">
+    <p data-lang-show="en">Unlock all videos with Pro.</p>
+    <p data-lang-show="es">Desbloquea todos los videos con Pro.</p>
+    <p><a class="btn" href="/pricing.html">Upgrade</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Edunancial, Inc.</p>
+</footer>
 </body>
 </html>
