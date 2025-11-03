@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Apply – Edunancial</title>
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<header class="site-header slim">
+  <a class="logo" href="/">🛡️ Edunancial</a>
+  <nav class="nav"><a href="/pricing.html">Pricing</a><a href="/tools.html">Tools</a><a href="/videos.html">Videos</a></nav>
+</header>
+
+<main class="container">
+  <h1 data-lang-show="en">Apply for Partner Services</h1>
+  <h1 data-lang-show="es">Solicita Servicios de Socios</h1>
+  <p data-lang-show="en">Basic members can submit applications for credit cards, loans, real estate, attorneys (UDL), and insurance.</p>
+  <p data-lang-show="es">Los miembros Basic pueden solicitar tarjetas de crédito, préstamos, bienes raíces, abogados (UDL) y seguros.</p>
+
+  <div class="grid cards">
+    <form class="card" netlify>
+      <h2>Credit / Loans</h2>
+      <input name="name" placeholder="Name" required/>
+      <input name="email" type="email" placeholder="Email" required/>
+      <textarea name="notes" placeholder="Brief goal (limit 300)"></textarea>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+    <form class="card" netlify>
+      <h2>Real Estate</h2>
+      <input name="name" placeholder="Name" required/>
+      <input name="email" type="email" placeholder="Email" required/>
+      <textarea name="notes" placeholder="Buy/Sell/Invest? Market?"></textarea>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+    <form class="card" netlify>
+      <h2>Attorney / Insurance</h2>
+      <input name="name" placeholder="Name" required/>
+      <input name="email" type="email" placeholder="Email" required/>
+      <textarea name="notes" placeholder="Topic (trusts, wills, entity, coverage)"></textarea>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer"><p>© <span id="year"></span> Edunancial, Inc.</p></footer>
+</body>
+</html>
