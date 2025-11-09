@@ -1,89 +1,153 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Edunancial – Financial Literacy, Tools & Community</title>
-  <link rel="stylesheet" href="/assets/css/styles.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edunancial Inc. – Financial Literacy, Tools & Membership</title>
+  <meta name="description" content="Edunancial Inc. provides U.S.-focused financial literacy, real estate, paper assets, and business tools, in English and Spanish, for entrepreneurs and growing companies." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
   <script defer src="/assets/js/i18n.js"></script>
-  <script defer src="/assets/js/lang.js"></script>
   <script defer src="/assets/js/app.js"></script>
-  <script defer src="/assets/js/ads.js"></script>
 </head>
-<body data-theme="rwb">
-<header class="site-header">
-  <a class="logo" href="/"><span class="flag">🛡️</span> Edunancial</a>
-  <nav class="nav">
-    <a href="/pricing.html" data-i18n="nav.pricing">Pricing</a>
-    <a href="/tools.html" data-i18n="nav.tools">Tools</a>
-    <a href="/apply.html" data-i18n="nav.apply">Apply</a>
-    <a href="/videos.html" data-i18n="nav.videos">Videos</a>
-    <a href="/legal.html" data-i18n="nav.legal">Legal</a>
-  </nav>
-  <div class="lang-switch">
-    <button data-lang="en">EN</button>
-    <button data-lang="es">ES</button>
-  </div>
-</header>
+<body class="rwb">
+  <!-- site header -->
+  <header class="site-header">
+    <a class="logo" href="/">
+      <img src="/assets/images/edunancial-logo.png" alt="Edunancial Inc. logo" />
+      <span class="brand" data-i18n="site.name">Edunancial Inc.</span>
+    </a>
+    <nav class="nav">
+      <a href="/index.html" data-i18n="nav.home" class="active">Home</a>
+      <a href="/pricing.html" data-i18n="nav.pricing">Memberships</a>
+      <a href="/tools.html" data-i18n="nav.tools">Tools</a>
+      <a href="/videos.html" data-i18n="nav.videos">Videos</a>
+      <a href="/apply.html" data-i18n="nav.apply" class="btn-small">Apply</a>
+    </nav>
+    <div class="lang-switch">
+      <button data-lang="en" class="lang-btn active">EN</button>
+      <button data-lang="es" class="lang-btn">ES</button>
+    </div>
+  </header>
 
-<main class="container">
-  <section class="hero">
-    <span class="banner" data-lang-show="en">Bilingual financial education + real tools</span>
-    <span class="banner" data-lang-show="es">Educación financiera bilingüe + herramientas reales</span>
-    <h1 data-lang-show="en">Learn it. Try it. Do it — with Edunancial.</h1>
-    <h1 data-lang-show="es">Aprende, practica y actúa — con Edunancial.</h1>
-    <p data-lang-show="en">
-      We help beginners and advanced operators build wealth with clear lessons, simulators,
-      and working tools that connect to the real world.
-    </p>
-    <p data-lang-show="es">
-      Ayudamos a principiantes y profesionales a crear riqueza con lecciones claras, simuladores
-      y herramientas reales conectadas al mundo financiero.
-    </p>
-    <p>
-      <a class="btn" href="/pricing.html" data-lang-show="en">See memberships</a>
-      <a class="btn" href="/pricing.html" data-lang-show="es">Ver membresías</a>
-      <a class="btn outline" href="/videos.html" data-lang-show="en">Watch previews</a>
-      <a class="btn outline" href="/videos.html" data-lang-show="es">Ver demos</a>
-    </p>
-  </section>
-
-  <section class="grid cards">
-    <!-- Animated preview cards: fake data animates in via CSS keyframes -->
-    <article class="card preview-card">
-      <h2 data-lang-show="en">Company Valuation (Preview)</h2>
-      <h2 data-lang-show="es">Valoración de Empresas (Demo)</h2>
-      <div class="preview viz">
-        <div class="pill">Revenue ↑</div><div class="pill">EBITDA</div><div class="pill">Market comps</div>
+  <main>
+    <!-- hero / our story -->
+    <section class="hero">
+      <div>
+        <h1 data-i18n="hero.title">Financial literacy, U.S. style — in English and Spanish.</h1>
+        <p data-i18n="hero.subtitle">
+          Real estate, paper assets, and business growth for entrepreneurs, startups, and professionals.
+        </p>
+        <div class="hero-actions">
+          <a href="/pricing.html" class="btn" data-i18n="hero.cta1">View memberships</a>
+          <a href="/our-story.html" class="btn ghost" data-i18n="hero.cta2">Our story</a>
+        </div>
+        <p class="hero-note" data-i18n="hero.note">
+          U.S. legal focus. Payments via Square/Block (placeholder). Membership-gated tools.
+        </p>
       </div>
-      <p data-lang-show="en">See how inputs change value. Members get the full tool.</p>
-      <p data-lang-show="es">Mira cómo cambian los valores. Miembros acceden a la versión completa.</p>
-    </article>
+      <div class="hero-preview">
+        <div class="preview-card" data-i18n="hero.tool1">📈 Business Valuation (sample)</div>
+        <div class="preview-card" data-i18n="hero.tool2">💳 Credit Pathway (sample)</div>
+        <div class="preview-card" data-i18n="hero.tool3">🏠 Real Estate Analyzer (sample)</div>
+        <p class="preview-note" data-i18n="hero.previewNote">
+          Full versions unlock after membership.
+        </p>
+      </div>
+    </section>
 
-    <article class="card preview-card">
-      <h2 data-lang-show="en">Credit Builder (Preview)</h2>
-      <h2 data-lang-show="es">Constructor de Crédito (Demo)</h2>
-      <div class="preview viz"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
-      <p data-lang-show="en">Action plan to obtain and improve credit.</p>
-      <p data-lang-show="es">Plan de acción para obtener y mejorar crédito.</p>
-    </article>
+    <!-- newsletter / SEO service -->
+    <section class="panel">
+      <h2 data-i18n="newsletter.title">Edunancial Growth Newsletter</h2>
+      <p data-i18n="newsletter.desc">
+        Monthly U.S. business credit, tax, entity, and fintech partner insights. Add-on: automated SEO campaign.
+      </p>
+      <form class="newsletter-form" action="https://example.com/newsletter" method="post">
+        <input type="email" name="email" required placeholder="you@example.com" />
+        <select name="plan">
+          <option value="starter" data-i18n="newsletter.starter">Starter – $19/mo</option>
+          <option value="pro" data-i18n="newsletter.pro">Pro (with SEO tips) – $39/mo</option>
+          <option value="executive" data-i18n="newsletter.exec">Executive (with checklists) – $79/mo</option>
+        </select>
+        <button type="submit" class="btn" data-i18n="newsletter.btn">Join newsletter</button>
+      </form>
+    </section>
 
-    <article class="card preview-card">
-      <h2 data-lang-show="en">Tax Strategy Map (Preview)</h2>
-      <h2 data-lang-show="es">Mapa de Estrategias Fiscales (Demo)</h2>
-      <div class="preview viz"><div class="node">LLC</div><div class="node">S-Corp</div><div class="node">Trust</div></div>
-      <p data-lang-show="en">Visualize entity choices. Full details inside.</p>
-      <p data-lang-show="es">Visualiza entidades y rutas. Detalles completos adentro.</p>
-    </article>
-  </section>
+    <!-- SEO automation pitch -->
+    <section class="panel tri">
+      <article>
+        <h3 data-i18n="seo.auto">Automated SEO intake</h3>
+        <p data-i18n="seo.autoDesc">
+          Members submit their business, site URL, keywords, and location. The system builds a monthly task list.
+        </p>
+      </article>
+      <article>
+        <h3 data-i18n="seo.report">Monthly reporting</h3>
+        <p data-i18n="seo.reportDesc">
+          Rankings, backlinks, and tasks logged per client to prevent fraud or double-billing.
+        </p>
+      </article>
+      <article>
+        <h3 data-i18n="seo.audit">Human-level audit, later</h3>
+        <p data-i18n="seo.auditDesc">
+          Once 30+ clients are enrolled you can add a part-time reviewer without changing the flow.
+        </p>
+      </article>
+    </section>
 
-  <section class="notice">
-    <div class="ad-slot" data-ad="house"></div>
-  </section>
-</main>
+    <!-- membership highlight -->
+    <section class="panel">
+      <h2 data-i18n="memberships.title">3 Memberships</h2>
+      <p data-i18n="memberships.desc">
+        Priced for young entrepreneurs but expandable for advanced LinkedIn professionals.
+      </p>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3 data-i18n="plan.basic">Basic</h3>
+          <p class="price">$19.99 <span>/mo</span></p>
+          <ul>
+            <li data-i18n="plan.basic.1">Tool demos (non-working)</li>
+            <li data-i18n="plan.basic.2">Newsletter starter</li>
+            <li data-i18n="plan.basic.3">U.S. credit/vendor list (view)</li>
+          </ul>
+          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
+          <p class="small" data-i18n="plan.basic.note">Nonprofits: $9.99 with code.</p>
+        </div>
+        <div class="price-card featured">
+          <h3 data-i18n="plan.pro">Professional</h3>
+          <p class="price">$149.99 <span>/mo</span></p>
+          <ul>
+            <li data-i18n="plan.pro.1">Full tool access</li>
+            <li data-i18n="plan.pro.2">SEO monthly tasks</li>
+            <li data-i18n="plan.pro.3">Apply for cards/loans/real estate</li>
+          </ul>
+          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
+        </div>
+        <div class="price-card">
+          <h3 data-i18n="plan.exec">Executive (Option)</h3>
+          <p class="price">$249.99 <span>/mo</span></p>
+          <ul>
+            <li data-i18n="plan.exec.1">Everything in Pro</li>
+            <li data-i18n="plan.exec.2">Advanced tax / entity briefings</li>
+            <li data-i18n="plan.exec.3">Attorney/insurance referral gate</li>
+          </ul>
+          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
+        </div>
+      </div>
+    </section>
 
-<footer class="site-footer">
-  <p>© <span id="year"></span> Edunancial, Inc. · West Palm Beach, FL · <a href="/privacy.html">Privacy</a> · <a href="/refund.html">Refunds</a></p>
-</footer>
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="footer-left">
+        <img src="/assets/images/edunancial-logo.png" alt="Edunancial Inc. logo" class="footer-logo" />
+        <p data-i18n="footer.copy">© <span id="year"></span> Edunancial Inc. U.S. focus. All rights reserved.</p>
+        <p data-i18n="footer.juris">Jurisdiction: State of Wyoming, U.S.A. — venue limited to the courts of the capital city.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+        <a href="/terms-of-use.html" data-i18n="footer.terms">Terms</a>
+        <a href="/legal.html" data-i18n="footer.legal">Legal</a>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
