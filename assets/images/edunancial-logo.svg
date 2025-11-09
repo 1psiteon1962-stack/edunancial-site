@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="90" viewBox="0 0 420 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- circular emblem -->
+  <circle cx="45" cy="45" r="38" fill="#0B3558"/>
+  <circle cx="45" cy="45" r="31" fill="#FFFFFF"/>
+  <!-- red bar inside circle -->
+  <rect x="25" y="38" width="40" height="14" rx="3" fill="#C01625"/>
+  <!-- E inside circle -->
+  <text x="45" y="33" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#0B3558" font-weight="700">
+    EDU
+  </text>
+  <text x="45" y="56" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FFFFFF" font-weight="600">
+    FINANCE
+  </text>
+
+  <!-- brand text -->
+  <text x="95" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#0B3558">
+    Edunancial
+  </text>
+  <text x="250" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#C01625">
+    Inc.
+  </text>
+
+  <!-- tagline -->
+  <text x="95" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#333">
+    Real Estate · Paper Assets · Business (Red · White · Blue)
+  </text>
+</svg>
