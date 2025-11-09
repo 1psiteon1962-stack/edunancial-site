@@ -2,152 +2,450 @@
 <html lang="en" data-lang="en">
 <head>
   <meta charset="utf-8" />
+  <title>Edunancial Inc. – Bilingual Financial Literacy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edunancial Inc. – Financial Literacy, Tools & Membership</title>
-  <meta name="description" content="Edunancial Inc. provides U.S.-focused financial literacy, real estate, paper assets, and business tools, in English and Spanish, for entrepreneurs and growing companies." />
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <script defer src="/assets/js/i18n.js"></script>
-  <script defer src="/assets/js/app.js"></script>
+  <meta name="description" content="Edunancial Inc. provides bilingual (English/Spanish) financial literacy for real estate, paper assets, and business, based in West Palm Beach, FL." />
+  <style>
+    :root {
+      --red: #c01625;
+      --blue: #0b3558;
+      --white: #ffffff;
+      --gray: #f5f5f7;
+      --dark: #1d1d1f;
+      --radius: .6rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fff;
+      color: var(--dark);
+    }
+    .site-header {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      padding: .75rem 1.4rem;
+      border-bottom: 3px solid var(--red);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .logo-block {
+      display: flex;
+      gap: .6rem;
+      align-items: center;
+      text-decoration: none;
+      color: var(--dark);
+    }
+    .logo-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      line-height: 1.1;
+    }
+    .logo-title span {
+      color: var(--red);
+    }
+    nav.nav {
+      display: flex;
+      gap: 1rem;
+    }
+    nav.nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 500;
+    }
+    nav.nav a.active {
+      color: var(--blue);
+      border-bottom: 2px solid var(--blue);
+    }
+    .lang-switch {
+      display: flex;
+      gap: .35rem;
+    }
+    .lang-btn {
+      border: 1px solid var(--blue);
+      background: #fff;
+      color: var(--blue);
+      padding: .3rem .6rem;
+      border-radius: .35rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .lang-btn.active {
+      background: var(--blue);
+      color: #fff;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+      gap: 2rem;
+      padding: 2.4rem 1.4rem 2.2rem;
+      background: linear-gradient(135deg, rgba(192,22,37,.03), rgba(11,53,88,.1));
+    }
+    .hero h1 {
+      font-size: clamp(2.1rem, 3vw, 2.75rem);
+      margin-bottom: .6rem;
+      color: var(--blue);
+    }
+    .hero p {
+      max-width: 42rem;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      background: var(--red);
+      color: #fff;
+      padding: .6rem 1.1rem;
+      border-radius: .5rem;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 600;
+    }
+    .btn.ghost {
+      background: #fff;
+      color: var(--blue);
+      border: 1px solid var(--blue);
+    }
+    .hero-preview {
+      background: #fff;
+      border: 1px solid #e2e5ea;
+      border-radius: .6rem;
+      padding: 1rem;
+    }
+    .preview-card {
+      background: var(--blue);
+      color: #fff;
+      padding: .55rem .75rem;
+      border-radius: .4rem;
+      margin-bottom: .5rem;
+      font-size: .9rem;
+    }
+    .preview-card:nth-child(2) { background: var(--red); }
+    .preview-note {
+      font-size: .7rem;
+      color: #555;
+    }
+    .panel {
+      padding: 2.2rem 1.4rem;
+    }
+    .newsletter-form {
+      display: flex;
+      gap: .7rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .newsletter-form input,
+    .newsletter-form select {
+      padding: .5rem .7rem;
+      border: 1px solid #d6d9df;
+      border-radius: .35rem;
+      min-width: 220px;
+    }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+      gap: 1.3rem;
+      margin-top: 1.1rem;
+    }
+    .price-card {
+      background: #fff;
+      border: 1px solid #d8dce2;
+      border-radius: .6rem;
+      padding: 1rem 1.05rem 1.1rem;
+    }
+    .price-card.featured {
+      border: 2px solid var(--blue);
+      box-shadow: 0 10px 25px rgba(11,53,88,.13);
+    }
+    .price-card h3 { margin-top: 0; }
+    .price {
+      font-size: 1.6rem;
+      color: var(--blue);
+      font-weight: 700;
+    }
+    .site-footer {
+      background: var(--blue);
+      color: #fff;
+      display: flex;
+      gap: 1.5rem;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 1.6rem 1.4rem 2rem;
+    }
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: .82rem;
+    }
+    @media (max-width: 768px) {
+      nav.nav { display: none; }
+      .hero { padding-top: 1.4rem; }
+      .newsletter-form { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
 </head>
-<body class="rwb">
-  <!-- site header -->
+<body>
+  <!-- HEADER -->
   <header class="site-header">
-    <a class="logo" href="/">
-      <img src="/assets/images/edunancial-logo.png" alt="Edunancial Inc. logo" />
-      <span class="brand" data-i18n="site.name">Edunancial Inc.</span>
+    <a href="/index.html" class="logo-block" aria-label="Edunancial Inc. home">
+      <!-- embedded logo -->
+      <svg width="138" height="54" viewBox="0 0 420 90" xmlns="http://www.w3.org/2000/svg" style="max-height:54px;">
+        <circle cx="45" cy="45" r="38" fill="#0B3558"></circle>
+        <circle cx="45" cy="45" r="31" fill="#FFFFFF"></circle>
+        <rect x="25" y="38" width="40" height="14" rx="3" fill="#C01625"></rect>
+        <text x="45" y="33" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#0B3558" font-weight="700">EDU</text>
+        <text x="45" y="56" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FFFFFF" font-weight="600">FINANCE</text>
+      </svg>
+      <div class="logo-title">
+        Edunancial <span>Inc.</span>
+      </div>
     </a>
     <nav class="nav">
       <a href="/index.html" data-i18n="nav.home" class="active">Home</a>
       <a href="/pricing.html" data-i18n="nav.pricing">Memberships</a>
       <a href="/tools.html" data-i18n="nav.tools">Tools</a>
       <a href="/videos.html" data-i18n="nav.videos">Videos</a>
-      <a href="/apply.html" data-i18n="nav.apply" class="btn-small">Apply</a>
     </nav>
     <div class="lang-switch">
-      <button data-lang="en" class="lang-btn active">EN</button>
-      <button data-lang="es" class="lang-btn">ES</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="es">ES</button>
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
-    <!-- hero / our story -->
+    <!-- HERO / OUR STORY ENTRY -->
     <section class="hero">
       <div>
         <h1 data-i18n="hero.title">Financial literacy, U.S. style — in English and Spanish.</h1>
         <p data-i18n="hero.subtitle">
-          Real estate, paper assets, and business growth for entrepreneurs, startups, and professionals.
+          We started when a father asked his 11-year-old if he wanted to work with his head. He said, “Yes, but I don’t know how.” That’s when Edunancial was born.
         </p>
         <div class="hero-actions">
           <a href="/pricing.html" class="btn" data-i18n="hero.cta1">View memberships</a>
           <a href="/our-story.html" class="btn ghost" data-i18n="hero.cta2">Our story</a>
         </div>
-        <p class="hero-note" data-i18n="hero.note">
-          U.S. legal focus. Payments via Square/Block (placeholder). Membership-gated tools.
+        <p data-i18n="hero.note" style="margin-top:.55rem;font-size:.8rem;">
+          Red = Real Estate · White = Paper Assets · Blue = Business
         </p>
       </div>
       <div class="hero-preview">
         <div class="preview-card" data-i18n="hero.tool1">📈 Business Valuation (sample)</div>
         <div class="preview-card" data-i18n="hero.tool2">💳 Credit Pathway (sample)</div>
         <div class="preview-card" data-i18n="hero.tool3">🏠 Real Estate Analyzer (sample)</div>
-        <p class="preview-note" data-i18n="hero.previewNote">
-          Full versions unlock after membership.
-        </p>
+        <p class="preview-note" data-i18n="hero.previewNote">Full working tools unlock after membership and Square activation.</p>
       </div>
     </section>
 
-    <!-- newsletter / SEO service -->
+    <!-- NEWSLETTER / SEO -->
     <section class="panel">
       <h2 data-i18n="newsletter.title">Edunancial Growth Newsletter</h2>
-      <p data-i18n="newsletter.desc">
-        Monthly U.S. business credit, tax, entity, and fintech partner insights. Add-on: automated SEO campaign.
-      </p>
-      <form class="newsletter-form" action="https://example.com/newsletter" method="post">
-        <input type="email" name="email" required placeholder="you@example.com" />
+      <p data-i18n="newsletter.desc">Get financial strategies, business credit vendors, and app updates in your inbox.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" name="email" placeholder="you@example.com" required />
         <select name="plan">
-          <option value="starter" data-i18n="newsletter.starter">Starter – $19/mo</option>
-          <option value="pro" data-i18n="newsletter.pro">Pro (with SEO tips) – $39/mo</option>
-          <option value="executive" data-i18n="newsletter.exec">Executive (with checklists) – $79/mo</option>
+          <option data-i18n="newsletter.starter">Starter – $9.99/mo</option>
+          <option data-i18n="newsletter.pro">Premium – $29.99/mo</option>
+          <option data-i18n="newsletter.exec">Insider – $49.99/mo</option>
         </select>
         <button type="submit" class="btn" data-i18n="newsletter.btn">Join newsletter</button>
       </form>
     </section>
 
-    <!-- SEO automation pitch -->
-    <section class="panel tri">
-      <article>
-        <h3 data-i18n="seo.auto">Automated SEO intake</h3>
-        <p data-i18n="seo.autoDesc">
-          Members submit their business, site URL, keywords, and location. The system builds a monthly task list.
-        </p>
-      </article>
-      <article>
-        <h3 data-i18n="seo.report">Monthly reporting</h3>
-        <p data-i18n="seo.reportDesc">
-          Rankings, backlinks, and tasks logged per client to prevent fraud or double-billing.
-        </p>
-      </article>
-      <article>
-        <h3 data-i18n="seo.audit">Human-level audit, later</h3>
-        <p data-i18n="seo.auditDesc">
-          Once 30+ clients are enrolled you can add a part-time reviewer without changing the flow.
-        </p>
-      </article>
-    </section>
-
-    <!-- membership highlight -->
+    <!-- MEMBERSHIPS -->
     <section class="panel">
-      <h2 data-i18n="memberships.title">3 Memberships</h2>
-      <p data-i18n="memberships.desc">
-        Priced for young entrepreneurs but expandable for advanced LinkedIn professionals.
-      </p>
+      <h2 data-i18n="memberships.title">Membership Levels</h2>
+      <p data-i18n="memberships.desc">Choose the level that matches your goals. You can upgrade at any time.</p>
       <div class="pricing-grid">
         <div class="price-card">
           <h3 data-i18n="plan.basic">Basic</h3>
-          <p class="price">$19.99 <span>/mo</span></p>
+          <p class="price">$19.99/mo</p>
           <ul>
-            <li data-i18n="plan.basic.1">Tool demos (non-working)</li>
-            <li data-i18n="plan.basic.2">Newsletter starter</li>
-            <li data-i18n="plan.basic.3">U.S. credit/vendor list (view)</li>
+            <li data-i18n="plan.basic.1">Newsletter + selected videos</li>
+            <li data-i18n="plan.basic.2">Intro to red/white/blue method</li>
+            <li data-i18n="plan.basic.3">Eligible for member emails</li>
           </ul>
-          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
-          <p class="small" data-i18n="plan.basic.note">Nonprofits: $9.99 with code.</p>
+          <button class="btn" data-pay="square" data-i18n="plan.btn">Join</button>
         </div>
         <div class="price-card featured">
-          <h3 data-i18n="plan.pro">Professional</h3>
-          <p class="price">$149.99 <span>/mo</span></p>
+          <h3 data-i18n="plan.pro">Pro</h3>
+          <p class="price">$149.99/mo</p>
           <ul>
-            <li data-i18n="plan.pro.1">Full tool access</li>
-            <li data-i18n="plan.pro.2">SEO monthly tasks</li>
-            <li data-i18n="plan.pro.3">Apply for cards/loans/real estate</li>
+            <li data-i18n="plan.pro.1">All Basic content + tools</li>
+            <li data-i18n="plan.pro.2">SEO/marketing automation intake</li>
+            <li data-i18n="plan.pro.3">Credit, banking & partner offers</li>
           </ul>
-          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
+          <button class="btn" data-pay="square" data-i18n="plan.btn">Join</button>
         </div>
         <div class="price-card">
-          <h3 data-i18n="plan.exec">Executive (Option)</h3>
-          <p class="price">$249.99 <span>/mo</span></p>
+          <h3 data-i18n="plan.exec">Executive (option)</h3>
+          <p class="price">$249.99/mo</p>
           <ul>
             <li data-i18n="plan.exec.1">Everything in Pro</li>
-            <li data-i18n="plan.exec.2">Advanced tax / entity briefings</li>
-            <li data-i18n="plan.exec.3">Attorney/insurance referral gate</li>
+            <li data-i18n="plan.exec.2">Advanced business/entity guidance</li>
+            <li data-i18n="plan.exec.3">Institutional access channel</li>
           </ul>
-          <a href="/apply.html" class="btn" data-i18n="plan.btn">Join</a>
+          <button class="btn" data-pay="square" data-i18n="plan.btn">Join</button>
         </div>
       </div>
     </section>
-
-    <!-- footer -->
-    <footer class="site-footer">
-      <div class="footer-left">
-        <img src="/assets/images/edunancial-logo.png" alt="Edunancial Inc. logo" class="footer-logo" />
-        <p data-i18n="footer.copy">© <span id="year"></span> Edunancial Inc. U.S. focus. All rights reserved.</p>
-        <p data-i18n="footer.juris">Jurisdiction: State of Wyoming, U.S.A. — venue limited to the courts of the capital city.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
-        <a href="/terms-of-use.html" data-i18n="footer.terms">Terms</a>
-        <a href="/legal.html" data-i18n="footer.legal">Legal</a>
-      </div>
-    </footer>
   </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div>
+      <p data-i18n="footer.copy">© <span id="year"></span> Edunancial Inc. – West Palm Beach, FL</p>
+      <p data-i18n="footer.juris">Jurisdiction: State of Wyoming – venue limited to the courts of the capital city.</p>
+    </div>
+    <div class="footer-links">
+      <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+      <a href="/terms-of-use.html" data-i18n="footer.terms">Terms</a>
+      <a href="/legal.html" data-i18n="footer.legal">Legal</a>
+    </div>
+  </footer>
+
+  <script>
+    // bilingual dictionary
+    const DICT = {
+      en: {
+        "nav.home": "Home",
+        "nav.pricing": "Memberships",
+        "nav.tools": "Tools",
+        "nav.videos": "Videos",
+        "hero.title": "Financial literacy, U.S. style — in English and Spanish.",
+        "hero.subtitle": "We started when a father asked his 11-year-old if he wanted to work with his head. He said, “Yes, but I don’t know how.” That’s when Edunancial was born.",
+        "hero.cta1": "View memberships",
+        "hero.cta2": "Our story",
+        "hero.note": "Red = Real Estate · White = Paper Assets · Blue = Business",
+        "hero.tool1": "📈 Business Valuation (sample)",
+        "hero.tool2": "💳 Credit Pathway (sample)",
+        "hero.tool3": "🏠 Real Estate Analyzer (sample)",
+        "hero.previewNote": "Full working tools unlock after membership and Square activation.",
+        "newsletter.title": "Edunancial Growth Newsletter",
+        "newsletter.desc": "Get financial strategies, business credit vendors, and app updates in your inbox.",
+        "newsletter.starter": "Starter – $9.99/mo",
+        "newsletter.pro": "Premium – $29.99/mo",
+        "newsletter.exec": "Insider – $49.99/mo",
+        "newsletter.btn": "Join newsletter",
+        "memberships.title": "Membership Levels",
+        "memberships.desc": "Choose the level that matches your goals. You can upgrade at any time.",
+        "plan.basic": "Basic",
+        "plan.pro": "Pro",
+        "plan.exec": "Executive (option)",
+        "plan.basic.1": "Newsletter + selected videos",
+        "plan.basic.2": "Intro to red/white/blue method",
+        "plan.basic.3": "Eligible for member emails",
+        "plan.pro.1": "All Basic content + tools",
+        "plan.pro.2": "SEO/marketing automation intake",
+        "plan.pro.3": "Credit, banking & partner offers",
+        "plan.exec.1": "Everything in Pro",
+        "plan.exec.2": "Advanced business/entity guidance",
+        "plan.exec.3": "Institutional access channel",
+        "plan.btn": "Join",
+        "footer.copy": "© " + new Date().getFullYear() + " Edunancial Inc. – West Palm Beach, FL",
+        "footer.juris": "Jurisdiction: State of Wyoming – venue limited to the courts of the capital city.",
+        "footer.privacy": "Privacy",
+        "footer.terms": "Terms",
+        "footer.legal": "Legal"
+      },
+      es: {
+        "nav.home": "Inicio",
+        "nav.pricing": "Membresías",
+        "nav.tools": "Herramientas",
+        "nav.videos": "Videos",
+        "hero.title": "Educación financiera al estilo de EE. UU. — en inglés y español.",
+        "hero.subtitle": "Comenzó cuando un padre le preguntó a su hijo de 11 años si quería trabajar con la cabeza. Él dijo: “Sí, pero no sé cómo.” Así nació Edunancial.",
+        "hero.cta1": "Ver membresías",
+        "hero.cta2": "Nuestra historia",
+        "hero.note": "Rojo = Bienes raíces · Blanco = Activos en papel · Azul = Negocios",
+        "hero.tool1": "📈 Valuación de negocio (muestra)",
+        "hero.tool2": "💳 Ruta de crédito (muestra)",
+        "hero.tool3": "🏠 Analizador de bienes raíces (muestra)",
+        "hero.previewNote": "Las herramientas completas se activan después de la membresía y Square.",
+        "newsletter.title": "Boletín de Crecimiento Edunancial",
+        "newsletter.desc": "Reciba estrategias financieras, proveedores de crédito comercial y actualizaciones de apps.",
+        "newsletter.starter": "Inicial – $9.99/mes",
+        "newsletter.pro": "Premium – $29.99/mes",
+        "newsletter.exec": "Insider – $49.99/mes",
+        "newsletter.btn": "Suscribirse",
+        "memberships.title": "Niveles de membresía",
+        "memberships.desc": "Elija el nivel que se ajusta a sus metas. Puede mejorar cuando quiera.",
+        "plan.basic": "Básica",
+        "plan.pro": "Pro",
+        "plan.exec": "Ejecutiva (opción)",
+        "plan.basic.1": "Boletín + videos seleccionados",
+        "plan.basic.2": "Introducción al método rojo/blanco/azul",
+        "plan.basic.3": "Elegible para correos de miembros",
+        "plan.pro.1": "Todo lo de Básica + herramientas",
+        "plan.pro.2": "Entrada a automatización SEO/marketing",
+        "plan.pro.3": "Crédito, banca y ofertas aliadas",
+        "plan.exec.1": "Todo lo de Pro",
+        "plan.exec.2": "Guía avanzada de negocios/entidades",
+        "plan.exec.3": "Canal para instituciones",
+        "plan.btn": "Unirse",
+        "footer.copy": "© " + new Date().getFullYear() + " Edunancial Inc. – West Palm Beach, FL",
+        "footer.juris": "Jurisdicción: Estado de Wyoming – sede limitada a los tribunales de la capital.",
+        "footer.privacy": "Privacidad",
+        "footer.terms": "Términos",
+        "footer.legal": "Aviso legal"
+      }
+    };
+
+    function setLang(lang) {
+      const parts = document.querySelectorAll("[data-i18n]");
+      parts.forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        const text = DICT[lang][key];
+        if (text) el.textContent = text;
+      });
+      document.documentElement.setAttribute("lang", lang);
+      localStorage.setItem("edunancial_lang", lang);
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // set year
+      const ys = document.getElementById("year");
+      if (ys) ys.textContent = new Date().getFullYear();
+
+      // load saved language
+      const saved = localStorage.getItem("edunancial_lang") || "en";
+      setLang(saved);
+
+      // bind lang buttons
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          setLang(btn.dataset.lang);
+        });
+      });
+
+      // Square placeholder
+      document.querySelectorAll("[data-pay='square']").forEach(btn => {
+        btn.addEventListener("click", () => {
+          alert("Square/Block payment will be connected here.");
+        });
+      });
+
+      // newsletter placeholder
+      const form = document.querySelector(".newsletter-form");
+      if (form) {
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+          alert("Your email has been captured. Edunancial will follow up.");
+        });
+      }
+    });
+  </script>
 </body>
 </html>
