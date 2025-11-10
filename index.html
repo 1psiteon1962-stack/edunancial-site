@@ -1,282 +1,51 @@
 <!doctype html>
-<html lang="en" data-theme="rwb">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1"
+      content="width=device-width, initial-scale=1"
     />
-    <title>Edunancial Inc. – Financial Literacy, Tools & Memberships</title>
-    <meta
-      name="description"
-      content="Edunancial Inc. helps entrepreneurs, executives, and growing businesses with financial literacy, credit, tax strategy, and access to tools."
-    />
-    <!-- your real CSS file -->
+    <title>Edunancial Inc. — Financial education, tools, memberships</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
 
-    <!-- basic safe inline styles so it still looks okay if the css doesn’t load -->
-    <style>
-      :root {
-        --rwb-red: #c62828;
-        --rwb-blue: #0a3c6e;
-        --rwb-white: #ffffff;
-        --bg-soft: #f6f7fb;
-      }
-      body {
-        margin: 0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        background: #fff;
-        color: #0b1620;
-      }
-      header.site-header {
-        position: sticky;
-        top: 0;
-        z-index: 50;
-        background: #fff;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-      }
-      .topbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 1rem;
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 0.75rem 1rem;
-      }
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 0.55rem;
-        text-decoration: none;
-      }
-      .brand img {
-        height: 40px;
-        width: auto;
-        display: block;
-      }
-      .brand-title {
-        font-weight: 700;
-        font-size: 1.05rem;
-        line-height: 1.1;
-        color: #0a2846;
-      }
-      .brand-sub {
-        font-size: 0.65rem;
-        color: #c62828;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-      }
-      nav.main-nav {
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-      }
-      nav.main-nav a {
-        text-decoration: none;
-        color: #0d2942;
-        font-weight: 500;
-        font-size: 0.88rem;
-      }
-      .lang-switch button {
-        border: 0;
-        background: #f0f1f5;
-        padding: 0.35rem 0.6rem;
-        border-radius: 999px;
-        font-size: 0.7rem;
-        font-weight: 600;
-        cursor: pointer;
-      }
-      .hero {
-        max-width: 1180px;
-        margin: 2.5rem auto 2rem;
-        padding: 0 1rem;
-        display: grid;
-        grid-template-columns: 1.1fr 0.9fr;
-        gap: 2rem;
-      }
-      .hero h1 {
-        font-size: clamp(2rem, 4vw, 2.7rem);
-        margin-bottom: 1rem;
-        color: #08263e;
-      }
-      .hero p {
-        max-width: 34rem;
-        line-height: 1.5;
-      }
-      .btn-row {
-        margin-top: 1.4rem;
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-primary {
-        background: #c62828;
-        color: #fff;
-        border: none;
-        padding: 0.6rem 1.4rem;
-        border-radius: 999px;
-        font-weight: 600;
-        text-decoration: none;
-      }
-      .btn-secondary {
-        background: #fff;
-        color: #0a3c6e;
-        border: 1px solid rgba(10, 60, 110, 0.15);
-        padding: 0.6rem 1.4rem;
-        border-radius: 999px;
-        font-weight: 600;
-        text-decoration: none;
-      }
-      .tool-preview {
-        background: #fff;
-        border: 1px solid rgba(10, 60, 110, 0.05);
-        border-radius: 1.1rem;
-        padding: 1.1rem 1rem;
-        display: grid;
-        gap: 0.6rem;
-        box-shadow: 0 12px 26px rgba(0, 0, 0, 0.04);
-      }
-      .tool-preview h2 {
-        font-size: 1rem;
-        margin: 0;
-      }
-      .tool-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 0.75rem;
-      }
-      .tool-card {
-        background: #f6f7fb;
-        border-radius: 1rem;
-        padding: 0.7rem 0.6rem 0.8rem;
-        min-height: 90px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .tool-card small {
-        font-size: 0.62rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        color: #5a6a80;
-      }
-      .square-placeholder {
-        width: 54px;
-        height: 54px;
-        border-radius: 1rem;
-        background: repeating-linear-gradient(
-            -45deg,
-            rgba(198, 40, 40, 0.12) 0 10px,
-            rgba(10, 60, 110, 0.08) 10px 20px
-          ),
-          #fff;
-        border: 1px solid rgba(0, 0, 0, 0.04);
-      }
-      .section {
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 0 1rem 2.7rem;
-      }
-      .section-title {
-        font-size: 1.35rem;
-        margin-bottom: 1rem;
-        color: #0d2942;
-      }
-      .pricing-row {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-        gap: 1rem;
-      }
-      .price-card {
-        border: 1px solid rgba(0, 0, 0, 0.05);
-        border-radius: 1.2rem;
-        padding: 1rem;
-        background: #fff;
-      }
-      .price-card h3 {
-        margin: 0 0 0.5rem;
-      }
-      .price {
-        font-size: 1.45rem;
-        font-weight: 700;
-        color: #c62828;
-      }
-      footer.site-footer {
-        background: #0a3c6e;
-        color: #fff;
-        padding: 1.5rem 1rem 1.8rem;
-        margin-top: 2rem;
-      }
-      footer .footer-inner {
-        max-width: 1180px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      footer a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: 500;
-      }
-      @media (max-width: 880px) {
-        .hero {
-          grid-template-columns: 1fr;
-        }
-        nav.main-nav {
-          flex-wrap: wrap;
-          justify-content: flex-end;
-        }
-        .tool-grid {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-      @media (max-width: 520px) {
-        .tool-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
-
-    <!-- JS files that you actually have in /assets/js -->
+    <!-- language + app logic -->
     <script defer src="/assets/js/i18n.js"></script>
-    <script defer src="/assets/js/lang.js"></script>
-    <script defer src="/assets/js/membership.js"></script>
-    <script defer src="/assets/js/ads.js"></script>
     <script defer src="/assets/js/app.js"></script>
+    <!-- shim so old pages that called lang.js don’t break -->
+    <script defer src="/assets/js/lang.js"></script>
+
+    <!-- optional: ads / membership if you want them on home -->
+    <script defer src="/assets/js/ads.js"></script>
+    <script defer src="/assets/js/membership.js"></script>
   </head>
-  <body>
+  <body data-theme="rwb">
+    <!-- HEADER -->
     <header class="site-header">
       <div class="topbar">
         <a class="brand" href="/">
-          <!-- use the real file you uploaded -->
           <img
             src="/assets/images/edunancial-logo.svg"
-            alt="Edunancial Inc. logo"
+            alt="Edunancial Inc."
+            class="brand-mark"
           />
-          <span>
-            <span class="brand-title" data-i18n="brand.name"
-              >Edunancial Inc.</span
-            ><br />
-            <span class="brand-sub" data-i18n="brand.tagline"
-              >Real Estate • Paper Assets • Businesses</span
-            >
+          <span class="brand-text">
+            <span class="brand-title" data-i18n="brand.name">Edunancial Inc.</span>
+            <span class="brand-sub" data-i18n="brand.tagline">
+              Real Estate • Paper Assets • Businesses
+            </span>
           </span>
         </a>
-        <nav class="main-nav">
+        <nav class="navbar">
+          <a href="/" data-i18n="nav.home">Home</a>
           <a href="/our-story.html" data-i18n="nav.story">Our Story</a>
-          <a href="/tools.html" data-i18n="nav.tools">Tools</a>
+          <a href="/movement.html" data-i18n="nav.movement">Movement</a>
           <a href="/videos.html" data-i18n="nav.videos">Videos</a>
-          <a href="/pricing.html" data-i18n="nav.pricing">Memberships</a>
-          <a href="/apply.html" data-i18n="nav.apply" class="btn-secondary"
-            >Apply</a
-          >
+          <a href="/pricing.html" data-i18n="nav.pricing">Pricing</a>
+          <a href="/apply.html" class="btn-secondary" data-i18n="nav.apply">Apply</a>
           <div class="lang-switch">
-            <button type="button" data-lang="en">EN</button>
-            <button type="button" data-lang="es">ES</button>
+            <button data-lang="en">EN</button>
+            <button data-lang="es">ES</button>
           </div>
         </nav>
       </div>
@@ -285,137 +54,187 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div>
+        <div class="hero-inner">
           <h1 data-i18n="hero.title">
             Financial literacy and tools you can actually use.
           </h1>
-          <p data-i18n="hero.lead">
-            Designed for U.S.-based entrepreneurs, executives, and first-time
-            business owners — bilingual, red-white-blue, and ready to plug into
-            credit, tax, and growth strategies.
+          <p class="lead" data-i18n="hero.lead">
+            Bilingual, U.S.-focused education for entrepreneurs, executives, and first-time business owners.
           </p>
-          <div class="btn-row">
-            <a href="/pricing.html" class="btn-primary" data-i18n="hero.cta1"
-              >View memberships</a
-            >
-            <a href="/videos.html" class="btn-secondary" data-i18n="hero.cta2"
-              >See how tools work</a
-            >
+          <div class="actions">
+            <a href="/pricing.html" class="btn-primary" data-i18n="hero.cta1">
+              View memberships
+            </a>
+            <a href="/videos.html" class="btn-ghost" data-i18n="hero.cta2">
+              See how tools work
+            </a>
           </div>
         </div>
-        <div class="tool-preview" aria-label="Preview of member tools">
+      </section>
+
+      <!-- PREVIEW TOOLS / PLACEHOLDERS -->
+      <section class="section">
+        <header class="section-head">
           <h2 data-i18n="preview.title">Sample tools (preview only)</h2>
           <p data-i18n="preview.body">
             Full, working calculators unlock after payment.
           </p>
-          <div class="tool-grid">
-            <article class="tool-card">
-              <small data-i18n="preview.tools.val">Business valuation</small>
-              <div class="square-placeholder" aria-hidden="true"></div>
-            </article>
-            <article class="tool-card">
-              <small data-i18n="preview.tools.credit"
-                >Credit strategy & tiers</small
-              >
-              <div class="square-placeholder" aria-hidden="true"></div>
-            </article>
-            <article class="tool-card">
-              <small data-i18n="preview.tools.tax">Tax reduction paths</small>
-              <div class="square-placeholder" aria-hidden="true"></div>
-            </article>
-            <article class="tool-card">
-              <small data-i18n="preview.tools.realestate"
-                >Real-estate worksheets</small
-              >
-              <div class="square-placeholder" aria-hidden="true"></div>
-            </article>
+        </header>
+        <div class="grid-4">
+          <div class="card tool-card">
+            <div class="square-placeholder"></div>
+            <h3 data-i18n="preview.tools.val">Business valuation</h3>
+            <p>Walkthrough of basic methods. Full app coming.</p>
           </div>
-          <p style="font-size: 0.65rem; margin: 0.4rem 0 0;">
-            <strong data-i18n="preview.note">Note:</strong>
-            <span data-i18n="preview.noteText"
-              >placeholders will turn into live buttons once materials are
-              loaded.</span
-            >
+          <div class="card tool-card">
+            <div class="square-placeholder"></div>
+            <h3 data-i18n="preview.tools.credit">Credit strategy &amp; tiers</h3>
+            <p>Chart for credit-builder steps. Full version is gated.</p>
+          </div>
+          <div class="card tool-card">
+            <div class="square-placeholder"></div>
+            <h3 data-i18n="preview.tools.tax">Tax reduction paths</h3>
+            <p>Entity + expense flow. Full playbooks in Pro / Executive.</p>
+          </div>
+          <div class="card tool-card">
+            <div class="square-placeholder"></div>
+            <h3 data-i18n="preview.tools.realestate">Real-estate worksheets</h3>
+            <p>Cap rate, NOI, rent-to-price — U.S. focused.</p>
+          </div>
+        </div>
+        <p class="small note">
+          <strong data-i18n="preview.note">Note:</strong>
+          <span data-i18n="preview.noteText">
+            placeholders will turn into live buttons once materials are loaded.
+          </span>
+        </p>
+      </section>
+
+      <!-- MEMBERSHIPS SUMMARY -->
+      <section class="section alt">
+        <header class="section-head">
+          <h2 data-i18n="members.title">Membership levels</h2>
+          <p data-i18n="members.desc">
+            Three tiers: Basic, Pro, and Executive. Nonprofits can use a discount code.
           </p>
-        </div>
-      </section>
-
-      <!-- MEMBERSHIP SUMMARY -->
-      <section class="section" aria-labelledby="memberships">
-        <h2 class="section-title" id="memberships" data-i18n="members.title">
-          Membership levels
-        </h2>
-        <p data-i18n="members.desc">
-          Three tiers: Basic ($19.99), Pro ($149.99), and Executive (custom),
-          with nonprofit codes at $9.99.
-        </p>
+        </header>
         <div class="pricing-row">
-          <article class="price-card">
+          <article class="pricing-card">
             <h3 data-i18n="members.basic">Basic</h3>
-            <p class="price">$19.99</p>
-            <p data-i18n="members.basic.desc">
-              Core literacy content, newsletters, and basic tool previews.
-            </p>
-            <a href="/pricing.html" class="btn-secondary" data-i18n="members.btn"
-              >See details</a
-            >
+            <p class="price">$19.99 / mo</p>
+            <ul>
+              <li>Bilingual lessons</li>
+              <li>Newsletter (starter)</li>
+              <li>Preview of tools</li>
+              <li>Apply to partner services</li>
+            </ul>
+            <a href="/pricing.html" class="btn-primary" data-i18n="members.btn">
+              See details
+            </a>
+            <p class="small">Nonprofit code available: $9.99</p>
           </article>
-          <article class="price-card">
+
+          <article class="pricing-card popular">
             <h3 data-i18n="members.pro">Pro</h3>
-            <p class="price">$149.99</p>
-            <p data-i18n="members.pro.desc">
-              Credit strategies, tax education, and applications for services.
-            </p>
-            <a href="/pricing.html" class="btn-secondary" data-i18n="members.btn"
-              >See details</a
-            >
+            <p class="price">$149.99 / mo</p>
+            <ul>
+              <li data-i18n="preview.tools.tax">Tax reduction paths</li>
+              <li>Legal/business structures education</li>
+              <li>Loan / credit / real-estate application gating</li>
+              <li>Video vault (Pro)</li>
+            </ul>
+            <a href="/pricing.html" class="btn-primary" data-i18n="members.btn">
+              See details
+            </a>
           </article>
-          <article class="price-card">
+
+          <article class="pricing-card">
             <h3 data-i18n="members.exec">Executive</h3>
-            <p class="price" data-i18n="members.exec.price">Call for pricing</p>
-            <p data-i18n="members.exec.desc">
-              For senior/enterprise LinkedIn audience; custom legal/insurance
-              resources.
-            </p>
-            <a href="/pricing.html" class="btn-secondary" data-i18n="members.btn"
-              >See details</a
-            >
+            <p class="price">$399.99 / mo</p>
+            <ul>
+              <li>Everything in Pro</li>
+              <li>Advanced strategy playbooks</li>
+              <li>Attorney / insurance access options</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="/pricing.html" class="btn-primary" data-i18n="members.btn">
+              See details
+            </a>
           </article>
         </div>
       </section>
 
-      <!-- ADS SLOT (placeholder for paid ads) -->
-      <section class="section" aria-label="Sponsored partners">
-        <h2 class="section-title" data-i18n="ads.title">Sponsored access</h2>
-        <p data-i18n="ads.desc">
-          This area will show rotating ads for credit cards, banking, real
-          estate, and fintech partners. You already have /assets/js/ads.js —
-          that file can populate this block.
-        </p>
-        <div id="ad-slot" style="min-height: 80px; background:#f6f7fb; border:1px dashed rgba(0,0,0,.05); border-radius:.75rem; padding:.75rem;">
-          <!-- ads.js will inject here -->
+      <!-- VIDEO / LEARNING TEASER -->
+      <section class="section">
+        <header class="section-head">
+          <h2>Watch before you buy</h2>
+          <p>
+            Every level can see previews. Pro / Executive unlock the full video library.
+          </p>
+        </header>
+        <div class="card">
+          <div class="video-placeholder">
+            <!-- real <video> src goes here later -->
+            <span>Video preview placeholder</span>
+          </div>
+          <div class="card-body">
+            <p>
+              These videos match the tools — real estate, paper assets, business starts — in English
+              and Spanish.
+            </p>
+            <a href="/videos.html" class="btn-secondary">Go to video library</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADS / PARTNER OFFERS PLACEHOLDER -->
+      <section class="section alt">
+        <header class="section-head">
+          <h2 data-i18n="ads.title">Sponsored access</h2>
+          <p data-i18n="ads.desc">
+            This area will show rotating ads for partner offers.
+          </p>
+        </header>
+        <div id="ad-slot" class="ad-slot">
+          <!-- ads.js will drop ad boxes in here -->
+          <div class="ad-placeholder">
+            <strong>Partner slot</strong>
+            <p>Credit cards, business banking, fintech, insurance.</p>
+            <p class="small">(loaded from /assets/js/ads.js)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAYMENT PLACEHOLDER -->
+      <section class="section">
+        <header class="section-head">
+          <h2>Payment (placeholder)</h2>
+          <p>
+            Square/Block secure link goes here. Right now it’s just a box so the page layout
+            doesn’t break.
+          </p>
+        </header>
+        <div class="card pay-card">
+          <div class="square-placeholder tall"></div>
+          <p class="small">
+            When you have the real Square link (for example, something like
+            <code>https://square.link/your-real-link</code>) put the button here.
+          </p>
+          <a href="https://square.link/your-real-link" class="btn-primary">
+            Pay with Square (placeholder)
+          </a>
         </div>
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="site-footer">
-      <div class="footer-inner">
-        <p>
-          © <span id="year"></span> Edunancial Inc. · Wyoming entity · All
-          rights reserved.
-        </p>
-        <p>
-          <a href="/legal.html">Legal</a> ·
-          <a href="/privacy.html">Privacy</a> ·
-          <a href="/terms-of-use.html">Terms</a>
-        </p>
-      </div>
+      <p>
+        &copy; <span id="year"></span> Edunancial, Inc. ·
+        <a href="/legal.html">Legal</a> ·
+        <a href="/privacy.html">Privacy</a> ·
+        <a href="/terms-of-service.html">Terms</a>
+      </p>
     </footer>
-
-    <script>
-      // set year
-      document.getElementById("year").textContent =
-        new Date().getFullYear();
-    </script>
   </body>
 </html>
