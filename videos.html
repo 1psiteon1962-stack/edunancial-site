@@ -1,71 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Videos – Edunancial</title>
-  <link rel="stylesheet" href="/assets/css/styles.css"/>
-  <script defer src="/assets/js/i18n.js"></script>
-  <script defer src="/assets/js/lang.js"></script>
-  <script defer src="/assets/js/membership.js"></script>
-  <script defer src="/assets/js/app.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="videos.title">Videos — Edunancial</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body data-theme="rwb">
-<header class="site-header slim">
-  <a class="logo" href="/">🛡️ Edunancial</a>
-  <nav class="nav">
-    <a href="/pricing.html">Pricing</a>
-    <a href="/tools.html">Tools</a>
-    <a href="/apply.html">Apply</a>
-  </nav>
-  <div class="lang-switch"><button data-lang="en">EN</button><button data-lang="es">ES</button></div>
-</header>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a href="/index.html" class="logo-link">
+        <img src="/assets/images/edunancial-logo.svg" alt="Edunancial" class="logo">
+      </a>
+      <span class="site-name" data-i18n="site.name">Edunancial</span>
+    </div>
+    <nav class="main-nav">
+      <a href="/index.html" data-i18n="nav.home">Home</a>
+      <a href="/memberships.html" data-i18n="nav.memberships">Memberships</a>
+      <a href="/catalog.html" data-i18n="nav.catalog">Catalog</a>
+      <a href="/videos.html" class="active" data-i18n="nav.videos">Videos</a>
+      <a href="/contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </header>
 
-<main class="container">
-  <h1 data-lang-show="en">Video Library</h1>
-  <h1 data-lang-show="es">Videoteca</h1>
+  <main class="page">
+    <h1 data-i18n="videos.heading">Video Library / Videoteca</h1>
+    <p data-i18n="videos.subheading">Unlock all videos with Pro.</p>
 
-  <!-- Public previews (guest & up) -->
-  <section class="grid cards" data-roles="public">
-    <article class="card">
-      <h2>Valuation Preview</h2>
-      <video controls width="100%" poster="" src="https://cdn.example.com/previews/valuation.mp4"></video>
-    </article>
-    <article class="card">
-      <h2>Credit Builder Preview</h2>
-      <video controls width="100%" src="https://cdn.example.com/previews/credit.mp4"></video>
-    </article>
-  </section>
+    <div class="video-box">
+      <h2 data-i18n="videos.sample1">Valuation Preview</h2>
+      <div class="video-placeholder" data-i18n="videos.placeholder">Video placeholder</div>
+    </div>
 
-  <!-- Pro + Executive -->
-  <section class="grid cards" data-roles="pro,executive">
-    <article class="card">
-      <h2>Full: Company Valuation</h2>
-      <video controls width="100%" src="https://cdn.example.com/members/valuation-full.mp4"></video>
-    </article>
-    <article class="card">
-      <h2>Full: Tax Strategy Map</h2>
-      <video controls width="100%" src="https://cdn.example.com/members/tax-map.mp4"></video>
-    </article>
-  </section>
+    <div class="video-box">
+      <h2 data-i18n="videos.sample2">Credit Builder Preview</h2>
+      <div class="video-placeholder" data-i18n="videos.placeholder">Video placeholder</div>
+    </div>
 
-  <!-- Executive-only -->
-  <section class="grid cards" data-roles="executive">
-    <article class="card">
-      <h2>Executive Briefing: Capital Stack</h2>
-      <video controls width="100%" src="https://cdn.example.com/exec/capital-stack.mp4"></video>
-    </article>
-  </section>
+    <a href="/memberships.html" class="btn primary" data-i18n="videos.upgrade">Upgrade</a>
+  </main>
 
-  <!-- Upsell for guests -->
-  <div class="notice" data-roles="guest">
-    <p data-lang-show="en">Unlock all videos with Pro.</p>
-    <p data-lang-show="es">Desbloquea todos los videos con Pro.</p>
-    <p><a class="btn" href="/pricing.html">Upgrade</a></p>
-  </div>
-</main>
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/legal.html" data-i18n="footer.legal">Legal</a>
+      <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+      <a href="/refund.html" data-i18n="footer.refund">Payment & Refund</a>
+      <a href="/terms-of-use.html" data-i18n="footer.terms">Terms of Use</a>
+    </div>
+    <p class="copyright">© 2025 Edunancial, Inc.</p>
+  </footer>
 
-<footer class="site-footer">
-  <p>© <span id="year"></span> Edunancial, Inc.</p>
-</footer>
+  <script src="/assets/js/lang.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
