@@ -1,31 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edunancial — Contact</title>
-<link rel="stylesheet" href="/css/style.css">
-<script defer src="/js/header.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="contact.title">Contact — Edunancial</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-<header class="site-nav"><div class="nav-wrap">
-  <a class="brand" href="/index.html">Edunancial</a>
-  <nav class="links"><a href="/index.html">Our Story</a><a href="/memberships-en.html">Memberships</a><a href="/catalog.html">Catalog</a><a href="/videos.html">Videos</a><a href="/contact.html">Contact</a></nav>
-  <div class="lang"><a id="langEN" href="/contact.html">EN</a><a id="langES" href="/es-contact.html">ES</a></div>
-</div></header>
+  <header class="topbar">
+    <div class="brand">
+      <a href="/index.html" class="logo-link">
+        <img src="/assets/images/edunancial-logo.svg" alt="Edunancial" class="logo">
+      </a>
+      <span class="site-name" data-i18n="site.name">Edunancial</span>
+    </div>
+    <nav class="main-nav">
+      <a href="/index.html" data-i18n="nav.home">Home</a>
+      <a href="/memberships.html" data-i18n="nav.memberships">Memberships</a>
+      <a href="/catalog.html" data-i18n="nav.catalog">Catalog</a>
+      <a href="/videos.html" data-i18n="nav.videos">Videos</a>
+      <a href="/contact.html" class="active" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </header>
 
-<main class="container">
-  <h1>Contact</h1>
+  <main class="page">
+    <h1 data-i18n="contact.heading">Contact Edunancial</h1>
+    <p data-i18n="contact.text">Questions about memberships, tools, or partner services? Email us.</p>
+    <p><a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
+  </main>
 
-  <div class="card">
-    <p><strong>Member Support:</strong> <a href="mailto:support@edunancial.com">support@edunancial.com</a></p>
-    <p><strong>Institutional Inquiries (schools & nonprofits):</strong> <a href="mailto:institutions@edunancial.com">institutions@edunancial.com</a></p>
-    <p class="small">Response time: 1–2 business days.</p>
-  </div>
-</main>
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/legal.html" data-i18n="footer.legal">Legal</a>
+      <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+      <a href="/refund.html" data-i18n="footer.refund">Payment & Refund</a>
+      <a href="/terms-of-use.html" data-i18n="footer.terms">Terms of Use</a>
+    </div>
+    <p class="copyright">© 2025 Edunancial, Inc.</p>
+  </footer>
 
-<footer class="site-footer"><div class="footer-wrap">
-  <span>© Edunancial</span>
-  <span><a href="/privacy.html">Privacy</a> · <a href="/terms-of-service.html">Terms</a></span>
-</div></footer>
+  <script src="/assets/js/lang.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
