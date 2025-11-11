@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Lopez Business Law",
+    "type": "legal",
+    "category": "Legal / Abogados",
+    "email": "info@lopezlaw.com",
+    "description": "Business formation, contracts, bilingual."
+  },
+  {
+    "name": "Garcia & CPA Associates",
+    "type": "cpa",
+    "category": "Accounting / CPA",
+    "email": "contact@garciacpa.com",
+    "description": "Small business tax, bilingual reporting."
+  },
+  {
+    "name": "Secure Shield Insurance",
+    "type": "insurance",
+    "category": "Insurance / Seguros",
+    "email": "hello@secureshield.com",
+    "description": "Business liability, workers comp, bilingual help."
+  },
+  {
+    "name": "CapitalPath Credit",
+    "type": "credit",
+    "category": "Credit / Financiación",
+    "email": "apply@capitalpath.com",
+    "description": "Vendor credit, business credit builder, net-30 programs."
+  }
+]
