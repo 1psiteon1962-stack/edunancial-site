@@ -1,17 +1,192 @@
-// Show/hide nodes with data-lang-show="en|es"
-(function(){
-  const apply = () => {
-    const lang = i18n.get();
-    document.querySelectorAll('[data-lang-show]').forEach(el=>{
-      el.style.display = (el.getAttribute('data-lang-show') === lang) ? '' : 'none';
-    });
-  };
-  document.addEventListener('lang:change', apply);
-  document.addEventListener('DOMContentLoaded', ()=>{
-    // Wire buttons
-    document.querySelectorAll('.lang-switch [data-lang]').forEach(b=>{
-      b.addEventListener('click', ()=> i18n.set(b.dataset.lang));
-    });
-    apply();
-  });
-})();
+// /assets/js/lang.js
+window.EDU_LANG = {
+  en: {
+    "site.title": "Edunancial — Bilingual Financial Learning",
+    "site.name": "Edunancial",
+    "nav.home": "Home",
+    "nav.memberships": "Memberships",
+    "nav.catalog": "Catalog",
+    "nav.videos": "Videos",
+    "nav.contact": "Contact",
+
+    "hero.title": "Financial freedom starts with education — not guesswork.",
+    "hero.subtitle": "Bilingual lessons, real examples, and a community for young entrepreneurs and families.",
+    "hero.cta.primary": "Join a Membership",
+    "hero.cta.secondary": "Get Free Materials",
+
+    "home.learn.title": "Learn in English & Spanish",
+    "home.learn.text": "Every key lesson is written to reach bilingual homes — explain it once to everyone.",
+    "home.learn.link": "Watch video previews →",
+    "home.build.title": "Build assets, not debt",
+    "home.build.text": "Real estate, paper assets, and business — the red, white & blue method keeps you in control.",
+    "home.build.link": "See the catalog →",
+    "home.community.title": "Join the movement",
+    "home.community.text": "A safe place for first-time founders, students, vets, and bilingual families.",
+    "home.community.link": "What is Edunancial? →",
+    "home.cta.title": "Ready when you are.",
+    "home.cta.text": "Start with free tools now, upgrade later. Payment placeholders are active while we finish Square.",
+    "home.cta.button": "View Memberships",
+
+    "catalog.title": "Catalog — Edunancial",
+    "catalog.heading": "How to buy",
+    "catalog.instructions": "Buy Now = checks out one item immediately. Add to Cart = add several items, then pay once.",
+    "catalog.viewcart": "View Cart",
+    "catalog.refundlink": "Payment & refund info",
+    "catalog.rwb.title": "Course: Red, White & Blue Foundations",
+    "catalog.rwb.price": "Public: $39 · Member: $29",
+    "catalog.rwb.note": "Members: sign in first to see the member price button.",
+    "catalog.buy": "Buy Now (single item) — $39",
+    "catalog.addcart": "Add to Cart — $39",
+    "catalog.memberprice": "Member Price — $29",
+    "catalog.paper.title": "Workbook: Paper Assets",
+    "catalog.paper.price": "Public: $19 · Member: $14",
+    "catalog.buy19": "Buy Now — $19",
+    "catalog.addcart19": "Add to Cart — $19",
+    "catalog.memberprice14": "Member Price — $14",
+    "catalog.support": "Need help ordering? Email support@edunancial.com.",
+
+    "memberships.title": "Memberships — Edunancial",
+    "memberships.heading": "Memberships / Membresías",
+    "memberships.subheading": "Choose the level that matches where you are right now.",
+    "plan.basic.title": "Basic — $19.99/mo",
+    "plan.basic.item1": "Courses, bilingual articles, community",
+    "plan.basic.item2": "Video previews of all tools",
+    "plan.basic.item3": "Apply to partner services",
+    "plan.basic.button": "Join",
+    "plan.pro.title": "Pro — $149.99/mo",
+    "plan.pro.item1": "Everything in Basic",
+    "plan.pro.item2": "Full access to working tools",
+    "plan.pro.item3": "Tax & entity strategy library",
+    "plan.pro.item4": "Pro video vault",
+    "plan.pro.button": "Upgrade",
+    "plan.exec.title": "Executive — $399.99/mo",
+    "plan.exec.item1": "Everything in Pro",
+    "plan.exec.item2": "Advanced playbooks (capital, M&A, credits)",
+    "plan.exec.item3": "Quarterly expert session",
+    "plan.exec.item4": "Priority support",
+    "plan.exec.button": "Apply",
+    "memberships.note": "Prices exclude ad products; advertising is billed separately.",
+
+    "videos.title": "Videos — Edunancial",
+    "videos.heading": "Video Library / Videoteca",
+    "videos.subheading": "Unlock all videos with Pro.",
+    "videos.sample1": "Valuation Preview",
+    "videos.sample2": "Credit Builder Preview",
+    "videos.placeholder": "Video placeholder",
+    "videos.upgrade": "Upgrade",
+
+    "contact.title": "Contact — Edunancial",
+    "contact.heading": "Contact Edunancial",
+    "contact.text": "Questions about memberships, tools, or partner services? Email us.",
+
+    "refund.title": "Payment & Refund — Edunancial",
+    "refund.heading": "Payment & Refund Policy",
+    "refund.intro": "Payment processing is being completed. Square/Block links are placeholders until final approval.",
+    "refund.section1": "Digital products",
+    "refund.digital": "Digital courses, downloads, and videos are non-refundable once delivered.",
+    "refund.section2": "Memberships",
+    "refund.memberships": "Memberships are billed monthly. Cancel before the next billing date to avoid extra charges.",
+    "refund.section3": "Need help?",
+    "refund.contact": "Email support@edunancial.com with “Refund” in the subject.",
+
+    "footer.legal": "Legal",
+    "footer.privacy": "Privacy",
+    "footer.refund": "Payment & Refund",
+    "footer.terms": "Terms of Use"
+  },
+
+  es: {
+    "site.title": "Edunancial — Educación financiera bilingüe",
+    "site.name": "Edunancial",
+    "nav.home": "Inicio",
+    "nav.memberships": "Membresías",
+    "nav.catalog": "Catálogo",
+    "nav.videos": "Videos",
+    "nav.contact": "Contacto",
+
+    "hero.title": "La libertad financiera empieza con educación — no con adivinanzas.",
+    "hero.subtitle": "Lecciones bilingües, ejemplos reales y una comunidad para emprendedores jóvenes y familias.",
+    "hero.cta.primary": "Unirme a una membresía",
+    "hero.cta.secondary": "Obtener materiales gratis",
+
+    "home.learn.title": "Aprende en inglés y español",
+    "home.learn.text": "Cada lección está escrita para llegar a hogares bilingües — lo explicas una sola vez.",
+    "home.learn.link": "Ver videos de muestra →",
+    "home.build.title": "Construye activos, no deudas",
+    "home.build.text": "Bienes raíces, activos en papel y negocios — el método rojo, blanco y azul te mantiene en control.",
+    "home.build.link": "Ver el catálogo →",
+    "home.community.title": "Únete al movimiento",
+    "home.community.text": "Un lugar seguro para fundadores por primera vez, estudiantes, veteranos y familias bilingües.",
+    "home.community.link": "¿Qué es Edunancial? →",
+    "home.cta.title": "Listo cuando tú estés.",
+    "home.cta.text": "Empieza ahora con herramientas gratis y mejora después. Los pagos son temporales mientras terminamos Square.",
+    "home.cta.button": "Ver membresías",
+
+    "catalog.title": "Catálogo — Edunancial",
+    "catalog.heading": "Cómo comprar",
+    "catalog.instructions": "Comprar ahora = pagar un solo artículo. Agregar al carrito = juntar varios y pagar una sola vez.",
+    "catalog.viewcart": "Ver carrito",
+    "catalog.refundlink": "Información de pago y reembolsos",
+    "catalog.rwb.title": "Curso: Fundamentos Rojo, Blanco y Azul",
+    "catalog.rwb.price": "Público: $39 · Miembro: $29",
+    "catalog.rwb.note": "Miembros: inicien sesión para ver el botón de precio de miembro.",
+    "catalog.buy": "Comprar ahora — $39",
+    "catalog.addcart": "Agregar al carrito — $39",
+    "catalog.memberprice": "Precio miembro — $29",
+    "catalog.paper.title": "Cuaderno de trabajo: Activos en papel",
+    "catalog.paper.price": "Público: $19 · Miembro: $14",
+    "catalog.buy19": "Comprar ahora — $19",
+    "catalog.addcart19": "Agregar al carrito — $19",
+    "catalog.memberprice14": "Precio miembro — $14",
+    "catalog.support": "¿Necesitas ayuda para ordenar? Escribe a support@edunancial.com.",
+
+    "memberships.title": "Membresías — Edunancial",
+    "memberships.heading": "Membresías / Memberships",
+    "memberships.subheading": "Elige el nivel que te queda mejor ahora.",
+    "plan.basic.title": "Básica — $19.99/mes",
+    "plan.basic.item1": "Cursos, artículos bilingües, comunidad",
+    "plan.basic.item2": "Videos de muestra de todas las herramientas",
+    "plan.basic.item3": "Aplicar a servicios aliados",
+    "plan.basic.button": "Unirme",
+    "plan.pro.title": "Pro — $149.99/mes",
+    "plan.pro.item1": "Todo lo de Básica",
+    "plan.pro.item2": "Acceso completo a las herramientas",
+    "plan.pro.item3": "Biblioteca de estrategias fiscales y entidades",
+    "plan.pro.item4": "Videoteca Pro",
+    "plan.pro.button": "Mejorar",
+    "plan.exec.title": "Ejecutiva — $399.99/mes",
+    "plan.exec.item1": "Todo lo de Pro",
+    "plan.exec.item2": "Playbooks avanzados (capital, M&A, créditos)",
+    "plan.exec.item3": "Sesión experta trimestral",
+    "plan.exec.item4": "Soporte prioritario",
+    "plan.exec.button": "Aplicar",
+    "memberships.note": "Los anuncios se facturan por separado.",
+
+    "videos.title": "Videos — Edunancial",
+    "videos.heading": "Videoteca",
+    "videos.subheading": "Desbloquea todos los videos con Pro.",
+    "videos.sample1": "Vista previa: Valuación",
+    "videos.sample2": "Vista previa: Constructor de crédito",
+    "videos.placeholder": "Espacio de video",
+    "videos.upgrade": "Mejorar",
+
+    "contact.title": "Contacto — Edunancial",
+    "contact.heading": "Contacto Edunancial",
+    "contact.text": "¿Preguntas sobre membresías, herramientas o servicios aliados? Escríbenos.",
+
+    "refund.title": "Pago y reembolsos — Edunancial",
+    "refund.heading": "Política de pago y reembolso",
+    "refund.intro": "El procesamiento de pagos está en curso. Los enlaces de Square/Block son temporales.",
+    "refund.section1": "Productos digitales",
+    "refund.digital": "Cursos, descargas y videos no tienen reembolso una vez entregados.",
+    "refund.section2": "Membresías",
+    "refund.memberships": "Las membresías se cobran mensual. Cancela antes de la próxima fecha de cobro.",
+    "refund.section3": "¿Necesitas ayuda?",
+    "refund.contact": "Escribe a support@edunancial.com con “Refund” en el asunto.",
+
+    "footer.legal": "Aviso legal",
+    "footer.privacy": "Privacidad",
+    "footer.refund": "Pago y reembolsos",
+    "footer.terms": "Términos de uso"
+  }
+};
