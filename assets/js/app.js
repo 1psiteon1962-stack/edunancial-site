@@ -1,33 +1,48 @@
-// /assets/js/app.js
-(function () {
-  const DEFAULT_LANG = 'en';
-  const saved = localStorage.getItem('edu_lang');
-  const currentLang = saved || DEFAULT_LANG;
+// assets/js/app.js
 
-  function applyLang(lang) {
-    const dict = window.EDU_LANG && window.EDU_LANG[lang];
-    if (!dict) return;
-    document.documentElement.setAttribute('lang', lang);
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.getAttribute('data-i18n');
+// 1. language toggle
+(function () {
+  const enBtn = document.getElementById("btn-en");
+  const esBtn = document.getElementById("btn-es");
+
+  function setLang(lang) {
+    const dict = I18N[lang] || I18N.en;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
       if (dict[key]) el.textContent = dict[key];
     });
-    // placeholders
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-      const key = el.getAttribute('data-i18n-placeholder');
-      if (dict[key]) el.setAttribute('placeholder', dict[key]);
-    });
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-    localStorage.setItem('edu_lang', lang);
+    // button states
+    if (lang === "en") {
+      enBtn?.classList.add("active");
+      esBtn?.classList.remove("active");
+    } else {
+      esBtn?.classList.add("active");
+      enBtn?.classList.remove("active");
+    }
+    // remember choice
+    try {
+      localStorage.setItem("edunancial-lang", lang);
+    } catch {}
   }
 
-  document.addEventListener('click', function (e) {
-    const btn = e.target.closest('.lang-btn');
-    if (!btn) return;
-    applyLang(btn.dataset.lang);
-  });
+  if (enBtn && esBtn) {
+    enBtn.addEventListener("click", () => setLang("en"));
+    esBtn.addEventListener("click", () => setLang("es"));
+  }
 
-  applyLang(currentLang);
+  // load saved lang
+  let saved = "en";
+  try {
+    saved = localStorage.getItem("edunancial-lang") || "en";
+  } catch {}
+  setLang(saved);
+})();
+
+// 2. fix links like href="/our-story.html" -> "our-story.html"
+(function () {
+  const links = document.querySelectorAll("a[href^='/']");
+  links.forEach((a) => {
+    const clean = a.getAttribute("href").replace(/^\//, "");
+    a.setAttribute("href", clean);
+  });
 })();
