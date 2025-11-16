@@ -3,93 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="site.title">Edunancial — Bilingual Financial Learning</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>Edunancial — Red, White & Blue • Real Estate • Paper Assets • Business</title>
+  <meta name="description" content="Edunancial helps bilingual founders, young entrepreneurs, and small businesses learn to build and protect wealth through real estate, paper assets, and business systems." />
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <!-- TOP BAR / HEADER -->
+  <!-- Top bar -->
   <header class="topbar">
     <div class="brand">
-      <a href="/index.html" class="logo-link">
-        <img src="/assets/images/edunancial-logo.svg" alt="Edunancial" class="logo">
-      </a>
-      <span class="site-name" data-i18n="site.name">Edunancial</span>
+      <img src="assets/images/edunancial-logo.svg" alt="Edunancial Inc. logo" class="logo">
+      <span class="site-title" data-i18n="siteTitle">Edunancial</span>
     </div>
     <nav class="main-nav">
-      <a href="/index.html" data-i18n="nav.home">Home</a>
-      <a href="/memberships.html" data-i18n="nav.memberships">Memberships</a>
-      <a href="/catalog.html" data-i18n="nav.catalog">Catalog</a>
-      <a href="/videos.html" data-i18n="nav.videos">Videos</a>
-      <a href="/contact.html" data-i18n="nav.contact">Contact</a>
+      <!-- THESE NAMES MATCH YOUR FILES -->
+      <a href="index.html" data-i18n="navHome" class="active">Home</a>
+      <a href="our-story.html" data-i18n="navOurStory">Our Story</a>
+      <a href="movement.html" data-i18n="navStartLearning">Start Learning</a>
+      <a href="videos.html" data-i18n="navVideos">Videos</a>
+      <a href="catalog.html" data-i18n="navCatalog">Catalog</a>
+      <a href="memberships-en.html" data-i18n="navMemberships">Memberships</a>
+      <a href="contact.html" data-i18n="navContact">Contact</a>
     </nav>
     <div class="lang-switch">
-      <button type="button" class="lang-btn" data-lang="en">EN</button>
-      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button id="btn-en" class="lang-btn active" data-lang="en">EN</button>
+      <button id="btn-es" class="lang-btn" data-lang="es">ES</button>
     </div>
   </header>
 
-  <!-- HERO -->
-  <main class="page">
-    <section class="hero">
-      <h1 data-i18n="hero.title">Financial freedom starts with education — not guesswork.</h1>
-      <p data-i18n="hero.subtitle">
-        Bilingual lessons, real examples, and a community for young entrepreneurs and families.
-      </p>
-      <div class="hero-actions">
-        <a href="/memberships.html" class="btn primary" data-i18n="hero.cta.primary">Join a Membership</a>
-        <a href="/free-resources.html" class="btn secondary" data-i18n="hero.cta.secondary">Get Free Materials</a>
-      </div>
-    </section>
-
-    <!-- 3 COLUMNS -->
-    <section class="cards">
-      <article class="card">
-        <h2 data-i18n="home.learn.title">Learn in English & Spanish</h2>
-        <p data-i18n="home.learn.text">
-          Every key lesson is written to reach bilingual homes — explain it once to everyone.
-        </p>
-        <a href="/videos.html" class="text-link" data-i18n="home.learn.link">Watch video previews →</a>
-      </article>
-
-      <article class="card">
-        <h2 data-i18n="home.build.title">Build assets, not debt</h2>
-        <p data-i18n="home.build.text">
-          Real estate, paper assets, and business — the red, white & blue method keeps you in control.
-        </p>
-        <a href="/catalog.html" class="text-link" data-i18n="home.build.link">See the catalog →</a>
-      </article>
-
-      <article class="card">
-        <h2 data-i18n="home.community.title">Join the movement</h2>
-        <p data-i18n="home.community.text">
-          A safe place for first-time founders, students, vets, and bilingual families.
-        </p>
-        <a href="/movement.html" class="text-link" data-i18n="home.community.link">What is Edunancial? →</a>
-      </article>
-    </section>
-
-    <!-- CTA SECTION -->
-    <section class="cta-box">
-      <h2 data-i18n="home.cta.title">Ready when you are.</h2>
-      <p data-i18n="home.cta.text">
-        Start with free tools now, upgrade later. Payment placeholders are active while we finish Square.
-      </p>
-      <a href="/memberships.html" class="btn primary" data-i18n="home.cta.button">View Memberships</a>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="footer-links">
-      <a href="/legal.html" data-i18n="footer.legal">Legal</a>
-      <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
-      <a href="/refund.html" data-i18n="footer.refund">Payment & Refund</a>
-      <a href="/terms-of-use.html" data-i18n="footer.terms">Terms of Use</a>
+  <!-- Hero -->
+  <section class="hero">
+    <h1 data-i18n="heroTitle">Financial Freedom Starts with Education — Not Guesswork.</h1>
+    <p data-i18n="heroSubtitle">
+      Red, White & Blue Method: Real Estate • Paper Assets • Businesses — in English and Spanish.
+    </p>
+    <div class="hero-actions">
+      <a href="memberships-en.html" class="btn primary" data-i18n="btnGetMembership">Get Membership</a>
+      <a href="catalog.html" class="btn secondary" data-i18n="btnViewCatalog">View Catalog</a>
     </div>
-    <p class="copyright">© 2025 Edunancial, Inc.</p>
+  </section>
+
+  <!-- 3 Pillars -->
+  <section class="pillars">
+    <h2 data-i18n="pillarsHeading">What We Teach</h2>
+    <div class="pillar-grid">
+      <article class="pillar-card">
+        <h3 data-i18n="pillar1Title">Red, White & Blue</h3>
+        <p data-i18n="pillar1Text">
+          A simple framework to decide what to buy, when, and why — without hype.
+        </p>
+      </article>
+      <article class="pillar-card">
+        <h3 data-i18n="pillar2Title">Paper Assets</h3>
+        <p data-i18n="pillar2Text">
+          Build long-term positions in stocks, funds, and alternatives the disciplined way.
+        </p>
+      </article>
+      <article class="pillar-card">
+        <h3 data-i18n="pillar3Title">Business Building</h3>
+        <p data-i18n="pillar3Text">
+          Form the right entity, protect IP, and use bilingual tools to grow.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Vendors / “Team” Hub preview -->
+  <section class="vendors-preview">
+    <h2 data-i18n="vendorsHeading">Business Services Hub</h2>
+    <p data-i18n="vendorsText">
+      Need legal, accounting, insurance, or credit-building partners? Members can request introductions.
+    </p>
+    <a href="tools.html" class="btn tertiary" data-i18n="btnExploreTools">Explore Tools & Vendors</a>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section class="newsletter">
+    <h2 data-i18n="newsletterHeading">Weekly Bilingual Business Briefing</h2>
+    <p data-i18n="newsletterText">
+      Built for LinkedIn founders, operators, and side-hustle entrepreneurs who want U.S.-ready structures.
+    </p>
+    <!-- Square placeholder -->
+    <a href="https://square.link/your-newsletter-link" class="btn primary" data-i18n="btnSubscribeNewsletter">
+      Subscribe (Square placeholder)
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Edunancial, Inc.</p>
+    <div class="footer-links">
+      <a href="refund.html" data-i18n="footerRefund">Refund</a>
+      <a href="privacy.html" data-i18n="footerPrivacy">Privacy</a>
+      <a href="legal.html" data-i18n="footerLegal">Legal</a>
+      <a href="user-data-rights.html" data-i18n="footerUserData">User Data Rights</a>
+    </div>
   </footer>
 
-  <script src="/assets/js/lang.js"></script>
-  <script src="/assets/js/app.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
