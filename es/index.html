@@ -5,42 +5,63 @@
   <title>Nuestra Historia — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="/style.css" />
+
   <style>
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
-    .ed-header { border-bottom: 1px solid #ddd; padding: 8px 16px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
-    .ed-brand { font-weight: 700; margin-right: 16px; }
-    .ed-nav a { margin-right: 10px; font-size: 14px; text-decoration: none; }
-    .ed-nav a:hover { text-decoration: underline; }
-    .ed-lang-toggle a { margin-left: 4px; padding: 3px 8px; border-radius: 4px; border: 1px solid #b91c1c; font-size: 12px; text-decoration: none; }
-    .ed-lang-toggle a.ed-active { background: #b91c1c; color: #fff; }
-    .ed-lang-toggle a:not(.ed-active) { background: #fff; color: #b91c1c; }
+    header { padding: 8px 16px; border-bottom: 1px solid #ddd; }
+    .top-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+    .brand { font-weight: 700; margin-right: 12px; }
+    nav a { margin-right: 10px; font-size: 14px; text-decoration: none; color: #000; }
+    nav a:hover { text-decoration: underline; }
+    .lang { margin-top: 6px; }
+    .lang a { text-decoration: none; }
+    .lang button {
+      padding: 3px 8px;
+      margin-right: 4px;
+      border-radius: 4px;
+      border: 1px solid #b91c1c;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .lang .active { background: #b91c1c; color: #fff; }
+    .lang .inactive { background: #fff; color: #b91c1c; }
     main { max-width: 800px; margin: 16px auto 40px; padding: 0 12px; }
     h1 { margin-top: 0; font-size: 26px; }
     h2 { margin-top: 24px; font-size: 18px; }
-    .ed-btn-row { margin-top: 16px; }
-    .ed-btn { display: inline-block; padding: 8px 16px; border-radius: 4px; border: none; text-decoration: none; font-size: 14px; margin-right: 8px; }
-    .ed-btn-primary { background: #b91c1c; color: #fff; }
-    .ed-btn-secondary { background: #eee; color: #111; }
+    .btn-row { margin-top: 16px; }
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      margin-right: 8px;
+    }
+    .btn-primary { background: #b91c1c; color: #fff; }
+    .btn-secondary { background: #b91c1c; color: #fff; }
     footer { border-top: 1px solid #ddd; padding: 8px 16px; font-size: 12px; text-align: center; color: #555; }
   </style>
 </head>
 <body>
 
-<header class="ed-header">
-  <div class="ed-left">
-    <span class="ed-brand">Edunancial</span>
-    <nav class="ed-nav">
-      <a href="/es/index.html">Nuestra Historia</a>
-      <a href="/es/movimiento.html">Aprender</a>
-      <a href="/es/video.html">Videos</a>
-      <a href="/es/catalogo.html">Catálogo</a>
-      <a href="/es/membresias.html">Membresías</a>
-      <a href="/es/contacto.html">Contacto</a>
-    </nav>
-  </div>
-  <div class="ed-lang-toggle">
-    <a href="/index.html">EN</a>
-    <a href="/es/index.html" class="ed-active">ES</a>
+<header>
+  <div class="top-row">
+    <div>
+      <span class="brand">Edunancial</span>
+      <nav>
+        <a href="/es/index.html">Nuestra Historia</a>
+        <a href="/es/movimiento.html">Aprender</a>
+        <a href="/es/video.html">Videos</a>
+        <a href="/es/catalogo.html">Catálogo</a>
+        <a href="/es/membresias.html">Membresías</a>
+        <a href="/es/contacto.html">Contacto</a>
+      </nav>
+      <div class="lang">
+        <a href="/index.html"><button class="inactive">EN</button></a>
+        <a href="/es/index.html"><button class="active">ES</button></a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -70,9 +91,11 @@
     preguntar por qué compras y qué hará eso por ti, poniéndote a ti en control.
   </p>
 
-  <div class="ed-btn-row">
-    <a class="ed-btn ed-btn-primary" href="/es/movimiento.html">Saber más</a>
-    <a class="ed-btn ed-btn-secondary" href="/es/catalogo.html">Obtener materiales gratis</a>
+  <div class="btn-row">
+    <!-- ✅ existing Spanish page -->
+    <a class="btn btn-primary" href="/es/movimiento.html">Saber más</a>
+    <!-- ✅ existing Spanish catalog page -->
+    <a class="btn btn-secondary" href="/es/catalogo.html">Obtener materiales gratis</a>
   </div>
 
   <h2>Lo que encontrarás aquí</h2>
