@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Newsletter — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Newsletter sign-up for Edunancial: bilingual tips, strategies, and updates." />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f3f4f6;
+      color: #111827;
+    }
+    header, footer {
+      background: #0f172a;
+      color: #f9fafb;
+      padding: 1rem 1.5rem;
+    }
+    header nav a, footer a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: 0.95rem;
+    }
+    header nav a.active {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .lang-toggle {
+      float: right;
+      font-size: 0.85rem;
+    }
+    .lang-toggle a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-left: 0.5rem;
+    }
+    main {
+      max-width: 780px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem 2rem;
+      background: #ffffff;
+      border-radius: 0.75rem;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 1.5rem;
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 1.5rem;
+      margin-top: 1.25rem;
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .pill {
+      display: inline-block;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+    .form-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem 1.25rem;
+      background: #f9fafb;
+    }
+    label {
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem 0.6rem;
+      border-radius: 0.5rem;
+      border: 1px solid #d1d5db;
+      font-size: 0.9rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.8rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      background: #1d4ed8;
+      color: #f9fafb;
+      text-decoration: none;
+    }
+    .note {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    footer {
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="lang-toggle">
+    EN · <a href="/es/">ES</a>
+  </div>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/movement">The Movement</a>
+    <a href="/memberships-en">Memberships</a>
+    <a href="/tools">Tools</a>
+    <a href="/vendors.html">Business Services</a>
+    <a href="/newsletter.html" class="active">Newsletter</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <span class="pill">Bilingual · EN / ES</span>
+  <h1>Edunancial Newsletter</h1>
+  <p>
+    Short, practical messages to help you, your family, or your business build
+    and protect wealth — in English and Spanish.
+  </p>
+
+  <div class="grid">
+    <section>
+      <h2>What you’ll receive</h2>
+      <ul>
+        <li><strong>Financial basics</strong> explained in plain language.</li>
+        <li><strong>Business playbook snippets</strong> from our Red, White &amp; Blue method.</li>
+        <li><strong>Checklists &amp; templates</strong> you can actually use.</li>
+        <li>Updates on new <strong>courses, tools, and events</strong>.</li>
+        <li>Occasional opportunities for early-access or discounts.</li>
+      </ul>
+
+      <h2>How often</h2>
+      <p>
+        We respect your time. Expect <strong>1–4 emails per month</strong>, not every day.
+      </p>
+
+      <h2>Who it’s for</h2>
+      <ul>
+        <li>Teens and young adults learning how money really works.</li>
+        <li>Parents teaching financial literacy at home.</li>
+        <li>Founders and small business owners who want structure.</li>
+        <li>Spanish-speaking families who want clear, practical guidance.</li>
+      </ul>
+    </section>
+
+    <aside class="form-card">
+      <h2>Sign up</h2>
+      <!-- Replace this simple form with MailerLite / other provider embed when ready -->
+      <form>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+        <
