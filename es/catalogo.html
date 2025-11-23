@@ -14,4 +14,83 @@
     .brand a { color: #f9fafb; text-decoration: none; }
     nav a { margin: 0 0.5rem; font-size: 0.95rem; color: #e5e7eb; }
     nav a.active { font-weight: 600; text-decoration: underline; }
-    .lang-toggle { display: flex; align-items: center;
+    .lang-toggle { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; }
+    .lang-toggle a { padding: 0.2rem 0.5rem; border-radius: 999px; border: 1px solid transparent; color: #f9fafb; }
+    .lang-toggle a.active { border-color: #f97316; background: #f97316; }
+    main { max-width: 900px; margin: 1.75rem auto 3rem; padding: 0 1.5rem; }
+    h1 { font-size: 1.9rem; margin-bottom: 0.75rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+    .card { background: #ffffff; border-radius: 0.75rem; padding: 1.1rem 1.2rem; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); }
+    .card h2 { font-size: 1.1rem; margin-top: 0.25rem; margin-bottom: 0.25rem; }
+    .badge { display: inline-block; font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 999px; background: #d1fae5; color: #065f46; margin-bottom: 0.3rem; }
+    .badge-paid { background: #fee2e2; color: #b91c1c; }
+    .btn { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1.1rem; border-radius: 999px; border: none; background: #b91c1c; color: #f9fafb; text-decoration: none; font-size: 0.9rem; }
+    .note { font-size: 0.85rem; color: #6b7280; margin-top: 1rem; }
+    footer { background: #111827; color: #9ca3af; text-align: center; padding: 1rem 1.5rem; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <a href="/es/index.html">Edunancial</a>
+  </div>
+  <nav>
+    <a href="/es/index.html">Nuestra Historia</a>
+    <a href="/es/movimiento.html">El Movimiento</a>
+    <a href="/es/videos.html">Videos</a>
+    <a href="/es/catalogo.html" class="active">Catálogo</a>
+    <a href="/es/membresias.html">Membresías</a>
+    <a href="/es/contacto.html">Contacto</a>
+  </nav>
+  <div class="lang-toggle">
+    <a href="/catalog.html">EN</a>
+    <span>·</span>
+    <a href="/es/catalogo.html" class="active">ES</a>
+  </div>
+</header>
+
+<main>
+  <h1>Catálogo Edunancial</h1>
+  <p>Empieza con recursos gratis y luego añade libros, herramientas y la app de KPIs mientras creces.</p>
+
+  <div class="grid">
+    <div class="card">
+      <span class="badge">Gratis</span>
+      <h2>Hoja Rápida de Presupuesto</h2>
+      <p>Una página para ver a dónde se va tu dinero cada mes.</p>
+      <a class="btn" href="#">Descargar (Próximamente)</a>
+    </div>
+
+    <div class="card">
+      <span class="badge">Gratis</span>
+      <h2>Conversaciones de Dinero con Jóvenes</h2>
+      <p>Preguntas y temas para hablar de dinero con hijos o estudiantes.</p>
+      <a class="btn" href="#">Descargar (Próximamente)</a>
+    </div>
+
+    <div class="card">
+      <span class="badge badge-paid">De Pago</span>
+      <h2>Libro de Opciones (Serie Roja)</h2>
+      <p>Explicado paso a paso, a nivel escolar, para nuevos inversionistas en opciones.</p>
+      <a class="btn" href="#">Comprar Libro (Marcador)</a>
+    </div>
+
+    <div class="card">
+      <span class="badge badge-paid">De Pago</span>
+      <h2>App de KPIs para Negocios</h2>
+      <p>Ve los números clave en un panel sencillo.</p>
+      <a class="btn" href="/es/app-kpi.html">Ver App de KPIs</a>
+    </div>
+  </div>
+
+  <p class="note">
+    Los botones de pago de Square se activarán cuando fijes los precios finales.
+    Por ahora son marcadores para que la estructura del sitio esté completa y sin 404.
+  </p>
+</main>
+
+<footer>
+  © 2025 Edunancial, Inc. Todos los derechos reservados.
+</footer>
+</body>
+</html>
