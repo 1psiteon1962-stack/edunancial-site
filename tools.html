@@ -1,70 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="tools.title">Tools — Edunancial</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta charset="UTF-8" />
+  <title>KPI App — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Edunancial KPI App helps founders and small-business owners track the numbers that matter: revenue, margins, and growth." />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f7f7fb;
+      color: #111827;
+    }
+    a { color: #b91c1c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .brand { font-weight: 700; letter-spacing: 0.03em; }
+    .brand a { color: #f9fafb; text-decoration: none; }
+    nav a {
+      margin: 0 0.5rem;
+      font-size: 0.95rem;
+      color: #e5e7eb;
+    }
+    nav a.active { font-weight: 600; text-decoration: underline; }
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+    }
+    .lang-toggle a {
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      color: #f9fafb;
+    }
+    .lang-toggle a.active {
+      border-color: #f97316;
+      background: #f97316;
+    }
+    main {
+      max-width: 900px;
+      margin: 1.75rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 0.75rem; }
+    .card {
+      background: #ffffff;
+      border-radius: 0.75rem;
+      padding: 1.4rem 1.6rem;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+      margin-bottom: 1.25rem;
+    }
+    ul { padding-left: 1.25rem; }
+    .btn {
+      display: inline-block;
+      margin-top: 0.6rem;
+      padding: 0.6rem 1.3rem;
+      border-radius: 999px;
+      border: none;
+      background: #b91c1c;
+      color: #f9fafb;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .note { font-size: 0.85rem; color: #6b7280; margin-top: 0.75rem; }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 1rem 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <a href="/index.html" class="logo-link">
-        <img src="/assets/images/edunancial-logo.svg" alt="Edunancial" class="logo">
-      </a>
-      <span class="site-name" data-i18n="site.name">Edunancial</span>
-    </div>
-    <nav class="main-nav">
-      <a href="/index.html" data-i18n="nav.home">Home</a>
-      <a href="/movement.html" data-i18n="nav.movement">The Movement</a>
-      <a href="/memberships.html" data-i18n="nav.memberships">Memberships</a>
-      <a href="/tools.html" class="active" data-i18n="nav.tools">Tools</a>
-      <a href="/vendors.html" data-i18n="nav.vendors">Business Services</a>
-      <a href="/newsletter.html" data-i18n="nav.newsletter">Newsletter</a>
-      <a href="/contact.html" data-i18n="nav.contact">Contact</a>
-    </nav>
-    <div class="lang-switch">
-      <button type="button" class="lang-btn" data-lang="en">EN</button>
-      <button type="button" class="lang-btn" data-lang="es">ES</button>
-    </div>
-  </header>
+<header>
+  <div class="brand">
+    <a href="/index.html">Edunancial</a>
+  </div>
+  <nav>
+    <a href="/index.html">Our Story</a>
+    <a href="/movement.html">Start Learning</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+  <div class="lang-toggle">
+    <a href="/kpi-app.html" class="active">EN</a>
+    <span>·</span>
+    <a href="/es/app-kpi.html">ES</a>
+  </div>
+</header>
 
-  <main class="page">
-    <h1 data-i18n="tools.heading">Business & Financial Tools</h1>
-    <p data-i18n="tools.subheading">Use these to price your offers, plan your content, and get credit-ready.</p>
+<main>
+  <div class="card">
+    <h1>Edunancial KPI App</h1>
+    <p>
+      Most founders guess. This app gives you a simple dashboard so you always know where you stand:
+      revenue, profit, margins, subscriptions, and more.
+    </p>
 
-    <section class="cards">
-      <article class="card">
-        <h2 data-i18n="tools.profit.title">Service / Product Profit Calculator</h2>
-        <p data-i18n="tools.profit.text">Find break-even and suggested price.</p>
-        <a href="/app-profit-calculator.html" class="btn primary" data-i18n="tools.openapp">Open</a>
-      </article>
+    <h2>What You Can Track</h2>
+    <ul>
+      <li>Monthly and weekly revenue targets.</li>
+      <li>Net profit and profit margin.</li>
+      <li>Active members / clients and churn.</li>
+      <li>Marketing metrics you choose (leads, calls booked, etc.).</li>
+    </ul>
 
-      <article class="card">
-        <h2 data-i18n="tools.seo.title">SEO & Content Planner</h2>
-        <p data-i18n="tools.seo.text">Turn 1 topic into a post and web page.</p>
-        <a href="/app-seo-planner.html" class="btn primary" data-i18n="tools.openapp">Open</a>
-      </article>
+    <h2>Built for Real-World Use</h2>
+    <ul>
+      <li>Simple color-coded red / yellow / green status.</li>
+      <li>Bilingual labels (English / Spanish).</li>
+      <li>Exportable summaries for lenders or investors.</li>
+    </ul>
 
-      <article class="card">
-        <h2 data-i18n="tools.credit.title">Business Credit Readiness</h2>
-        <p data-i18n="tools.credit.text">See what lenders will look for.</p>
-        <a href="/app-credit-readiness.html" class="btn primary" data-i18n="tools.openapp">Open</a>
-      </article>
-    </section>
-  </main>
+    <!-- Square placeholder link -->
+    <a class="btn" href="https://squareup.com/placeholder-kpi-app-link">
+      Buy the KPI App (Square Placeholder)
+    </a>
 
-  <footer class="site-footer">
-    <div class="footer-links">
-      <a href="/legal.html" data-i18n="footer.legal">Legal</a>
-      <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
-      <a href="/refund.html" data-i18n="footer.refund">Payment & Refund</a>
-      <a href="/terms-of-use.html" data-i18n="footer.terms">Terms of Use</a>
-    </div>
-    <p class="copyright">© 2025 Edunancial, Inc.</p>
-  </footer>
+    <p class="note">
+      This button will be updated with your live Square checkout link. The page is
+      fully wired so you can go live as soon as payments are ready.
+    </p>
+  </div>
+</main>
 
-  <script src="/assets/js/lang.js"></script>
-  <script src="/assets/js/app.js"></script>
+<footer>
+  © 2025 Edunancial, Inc. All rights reserved.
+</footer>
 </body>
 </html>
