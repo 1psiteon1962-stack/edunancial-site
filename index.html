@@ -4,168 +4,92 @@
   <meta charset="UTF-8" />
   <title>Our Story — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Edunancial helps families, teens, and business owners learn how money really works through bilingual, practical financial education." />
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      background: #f7f7fb;
-      color: #111827;
-    }
-    a { color: #b91c1c; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header {
-      background: #111827;
-      color: #f9fafb;
-      padding: 0.75rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    .brand { font-weight: 700; letter-spacing: 0.03em; }
-    .brand a { color: #f9fafb; text-decoration: none; }
-    nav a {
-      margin: 0 0.5rem;
-      font-size: 0.95rem;
-      color: #e5e7eb;
-    }
-    nav a.active { font-weight: 600; text-decoration: underline; }
-    .lang-toggle {
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
-      font-size: 0.85rem;
-    }
-    .lang-toggle a {
-      padding: 0.2rem 0.5rem;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      color: #f9fafb;
-    }
-    .lang-toggle a.active {
-      border-color: #f97316;
-      background: #f97316;
-    }
-    main {
-      max-width: 900px;
-      margin: 1.75rem auto 3rem;
-      padding: 0 1.5rem;
-    }
-    h1 { font-size: 1.9rem; margin-bottom: 0.75rem; }
-    h2 { font-size: 1.35rem; margin-top: 1.75rem; }
-    .intro-card {
-      background: #ffffff;
-      padding: 1.5rem;
-      border-radius: 0.75rem;
-      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
-      margin-bottom: 1.5rem;
-    }
-    .btn-row { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
-    .btn {
-      display: inline-block;
-      padding: 0.6rem 1.3rem;
-      border-radius: 999px;
-      border: none;
-      font-size: 0.95rem;
-      cursor: pointer;
-      text-decoration: none;
-      background: #b91c1c;
-      color: #f9fafb;
-    }
-    .btn-secondary {
-      background: #f3f4f6;
-      color: #111827;
-      border: 1px solid #d1d5db;
-    }
-    .list-card {
-      background: #ffffff;
-      border-radius: 0.75rem;
-      padding: 1.25rem 1.5rem;
-      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
-      margin-top: 1rem;
-    }
-    ul { padding-left: 1.25rem; }
-    footer {
-      background: #111827;
-      color: #9ca3af;
-      text-align: center;
-      padding: 1rem 1.5rem;
-      font-size: 0.85rem;
-    }
-    @media (max-width: 768px) {
-      header { flex-wrap: wrap; gap: 0.5rem; }
-      nav { width: 100%; text-align: center; margin-top: 0.35rem; }
-      .btn-row { flex-direction: column; align-items: flex-start; }
-    }
+    /* Minimal, unique classes so we don't fight existing CSS */
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
+    .ed-header { border-bottom: 1px solid #ddd; padding: 8px 16px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+    .ed-brand { font-weight: 700; margin-right: 16px; }
+    .ed-nav a { margin-right: 10px; font-size: 14px; text-decoration: none; }
+    .ed-nav a:hover { text-decoration: underline; }
+    .ed-lang-toggle a { margin-left: 4px; padding: 3px 8px; border-radius: 4px; border: 1px solid #b91c1c; font-size: 12px; text-decoration: none; }
+    .ed-lang-toggle a.ed-active { background: #b91c1c; color: #fff; }
+    .ed-lang-toggle a:not(.ed-active) { background: #fff; color: #b91c1c; }
+    main { max-width: 800px; margin: 16px auto 40px; padding: 0 12px; }
+    h1 { margin-top: 0; font-size: 26px; }
+    h2 { margin-top: 24px; font-size: 18px; }
+    .ed-btn-row { margin-top: 16px; }
+    .ed-btn { display: inline-block; padding: 8px 16px; border-radius: 4px; border: none; text-decoration: none; font-size: 14px; margin-right: 8px; }
+    .ed-btn-primary { background: #b91c1c; color: #fff; }
+    .ed-btn-secondary { background: #eee; color: #111; }
+    footer { border-top: 1px solid #ddd; padding: 8px 16px; font-size: 12px; text-align: center; color: #555; }
   </style>
 </head>
 <body>
-<header>
-  <div class="brand">
-    <a href="/index.html">Edunancial</a>
+
+<header class="ed-header">
+  <div class="ed-left">
+    <span class="ed-brand">Edunancial</span>
+    <nav class="ed-nav">
+      <a href="/index.html">Our Story</a>
+      <a href="/movement.html">Start Learning</a>
+      <a href="/videos.html">Videos</a>
+      <a href="/catalog.html">Catalog</a>
+      <a href="/memberships-en.html">Memberships</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
   </div>
-  <nav>
-    <a href="/index.html" class="active">Our Story</a>
-    <a href="/movement.html">Start Learning</a>
-    <a href="/videos.html">Videos</a>
-    <a href="/catalog.html">Catalog</a>
-    <a href="/memberships-en.html">Memberships</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-  <div class="lang-toggle">
-    <a href="/index.html" class="active">EN</a>
-    <span>·</span>
+  <div class="ed-lang-toggle">
+    <a href="/index.html" class="ed-active">EN</a>
     <a href="/es/index.html">ES</a>
   </div>
 </header>
 
 <main>
-  <div class="intro-card">
-    <h1>Our Story</h1>
-    <p><strong>Financial Freedom Starts with Education — Not Guesswork.</strong></p>
+  <h1>Our Story</h1>
 
-    <p>
-      One afternoon when my son was 11, he came into my room just as an electronic deposit
-      notification arrived. His eyes went wide. “How did you make money like that?” he asked.
-      I said, “By using my head.” Then I asked, “Do you want to work with your head?”
-      He said, “Yes… but I don’t know how.” That’s when <strong>Edunancial</strong> was born.
-    </p>
+  <p><strong>Financial Freedom Starts with Education — Not Guesswork.</strong></p>
 
-    <p>
-      At 11, he started buying silver coins—discipline and assets instead of candy and games.
-      Around 12, he began analyzing stocks: overvalued or undervalued, and why. After he
-      presented his reasons, we bought. His results averaged 7–12%. At 15, he added gold—
-      and today we consider gems like diamonds, rubies, or emeralds.
-    </p>
+  <p>
+    One afternoon when my son was 11, he came into my room just as an electronic deposit
+    notification arrived. His eyes went wide. “How did you make money like that?” he asked.
+    I said, “By using my head.” Then I asked, “Do you want to work with your head?”
+    He said, “Yes… but I don’t know how.” That’s when <strong>Edunancial</strong> was born.
+  </p>
 
-    <p>
-      The <strong>Red, White, and Blue method</strong> doesn’t tell you what to buy—it teaches you to
-      ask why you’re buying and what it will do for you, putting you in control.
-    </p>
+  <p>
+    At 11, he started buying silver coins—discipline and assets instead of candy and games.
+    Around 12, he began analyzing stocks: overvalued or undervalued, and why. After he
+    presented his reasons, we bought. His results averaged 7–12%. At 15, he added gold—and
+    today we consider gems like diamonds, rubies, or emeralds.
+  </p>
 
-    <div class="btn-row">
-      <a class="btn" href="/movement.html">Learn More</a>
-      <a class="btn btn-secondary" href="/catalog.html">Get Free Materials</a>
-    </div>
+  <p>
+    The <strong>Red, White, and Blue</strong> method doesn’t tell you what to buy—it teaches
+    you to ask why you’re buying and what it will do for you, putting you in control.
+  </p>
+
+  <div class="ed-btn-row">
+    <a class="ed-btn ed-btn-primary" href="/movement.html">Learn More</a>
+    <a class="ed-btn ed-btn-secondary" href="/free-resources.html">Get Free Materials</a>
   </div>
 
-  <div class="list-card">
-    <h2>What You’ll Find Here</h2>
-    <ul>
-      <li>Bilingual, step-by-step lessons (English &amp; Spanish).</li>
-      <li>Real-world examples: budgeting, credit, saving, business starts, and investing.</li>
-      <li>Community, accountability, and practical tools—so you’re not guessing.</li>
-    </ul>
-    <p>Ready to join later? Choose a membership when you’re comfortable.</p>
-  </div>
+  <h2>What You’ll Find Here</h2>
+  <ul>
+    <li>Bilingual, step-by-step lessons.</li>
+    <li>Real-world examples (budgeting, credit, saving, business starts).</li>
+    <li>Community, accountability, and practical tools.</li>
+  </ul>
+
+  <p>
+    Ready to join later? Choose a membership when you’re comfortable, and upgrade when you’re
+    ready to track your own KPIs with our app.
+  </p>
 </main>
 
 <footer>
   © 2025 Edunancial, Inc. All rights reserved.
 </footer>
+
 </body>
 </html>
