@@ -62,3 +62,102 @@
       border-radius: 0.75rem;
       padding: 1.25rem 1.5rem;
       box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+      margin-bottom: 1rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid #d1d5db;
+      margin-right: 0.35rem;
+      margin-top: 0.25rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1.1rem;
+      border-radius: 999px;
+      border: none;
+      background: #b91c1c;
+      color: #f9fafb;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 1rem 1.5rem;
+      font-size: 0.85rem;
+    }
+    @media (max-width: 768px) {
+      header { flex-wrap: wrap; gap: 0.5rem; }
+      nav { width: 100%; text-align: center; margin-top: 0.35rem; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <a href="/index.html">Edunancial</a>
+  </div>
+  <nav>
+    <a href="/index.html">Our Story</a>
+    <a href="/movement.html">Start Learning</a>
+    <a href="/videos.html" class="active">Videos</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+  <div class="lang-toggle">
+    <a href="/videos.html" class="active">EN</a>
+    <span>·</span>
+    <a href="/es/videos.html">ES</a>
+  </div>
+</header>
+
+<main>
+  <h1>Edunancial Videos</h1>
+  <p>
+    Short, practical lessons. Watch in English or Spanish, save what you need, and rewatch
+    when you’re ready to take the next step.
+  </p>
+
+  <div class="card">
+    <h2>Discipline Before Dollars</h2>
+    <p>How we started with one ounce of silver at a time and built an investor mindset.</p>
+    <div>
+      <span class="tag">Mindset</span>
+      <span class="tag">Teens</span>
+      <span class="tag">Savings</span>
+    </div>
+    <a class="btn" href="#">Watch (Coming Soon)</a>
+  </div>
+
+  <div class="card">
+    <h2>Red, White &amp; Blue Method</h2>
+    <p>A simple way to think about protection, cash flow, and growth.</p>
+    <div>
+      <span class="tag">Strategy</span>
+      <span class="tag">Business</span>
+    </div>
+    <a class="btn" href="#">Watch (Coming Soon)</a>
+  </div>
+
+  <div class="card">
+    <h2>From Employee to Owner</h2>
+    <p>Understanding the path from paycheck thinking to ownership and equity.</p>
+    <div>
+      <span class="tag">Entrepreneurship</span>
+      <span class="tag">Ownership</span>
+    </div>
+    <a class="btn" href="#">Watch (Coming Soon)</a>
+  </div>
+</main>
+
+<footer>
+  © 2025 Edunancial, Inc. All rights reserved.
+</footer>
+</body>
+</html>
