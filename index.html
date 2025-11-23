@@ -2,104 +2,170 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edunancial — Red, White & Blue • Real Estate • Paper Assets • Business</title>
-  <meta name="description" content="Edunancial helps bilingual founders, young entrepreneurs, and small businesses learn to build and protect wealth through real estate, paper assets, and business systems." />
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Our Story — Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Edunancial helps families, teens, and business owners learn how money really works through bilingual, practical financial education." />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f7f7fb;
+      color: #111827;
+    }
+    a { color: #b91c1c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .brand { font-weight: 700; letter-spacing: 0.03em; }
+    .brand a { color: #f9fafb; text-decoration: none; }
+    nav a {
+      margin: 0 0.5rem;
+      font-size: 0.95rem;
+      color: #e5e7eb;
+    }
+    nav a.active { font-weight: 600; text-decoration: underline; }
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+    }
+    .lang-toggle a {
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      color: #f9fafb;
+    }
+    .lang-toggle a.active {
+      border-color: #f97316;
+      background: #f97316;
+    }
+    main {
+      max-width: 900px;
+      margin: 1.75rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 0.75rem; }
+    h2 { font-size: 1.35rem; margin-top: 1.75rem; }
+    .intro-card {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+      margin-bottom: 1.5rem;
+    }
+    .btn-row { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.3rem;
+      border-radius: 999px;
+      border: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      text-decoration: none;
+      background: #b91c1c;
+      color: #f9fafb;
+    }
+    .btn-secondary {
+      background: #f3f4f6;
+      color: #111827;
+      border: 1px solid #d1d5db;
+    }
+    .list-card {
+      background: #ffffff;
+      border-radius: 0.75rem;
+      padding: 1.25rem 1.5rem;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+      margin-top: 1rem;
+    }
+    ul { padding-left: 1.25rem; }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 1rem 1.5rem;
+      font-size: 0.85rem;
+    }
+    @media (max-width: 768px) {
+      header { flex-wrap: wrap; gap: 0.5rem; }
+      nav { width: 100%; text-align: center; margin-top: 0.35rem; }
+      .btn-row { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
 </head>
 <body>
-  <!-- Top bar -->
-  <header class="topbar">
-    <div class="brand">
-      <img src="assets/images/edunancial-logo.svg" alt="Edunancial Inc. logo" class="logo">
-      <span class="site-title" data-i18n="siteTitle">Edunancial</span>
-    </div>
-    <nav class="main-nav">
-      <!-- THESE NAMES MATCH YOUR FILES -->
-      <a href="index.html" data-i18n="navHome" class="active">Home</a>
-      <a href="our-story.html" data-i18n="navOurStory">Our Story</a>
-      <a href="movement.html" data-i18n="navStartLearning">Start Learning</a>
-      <a href="videos.html" data-i18n="navVideos">Videos</a>
-      <a href="catalog.html" data-i18n="navCatalog">Catalog</a>
-      <a href="memberships-en.html" data-i18n="navMemberships">Memberships</a>
-      <a href="contact.html" data-i18n="navContact">Contact</a>
-    </nav>
-    <div class="lang-switch">
-      <button id="btn-en" class="lang-btn active" data-lang="en">EN</button>
-      <button id="btn-es" class="lang-btn" data-lang="es">ES</button>
-    </div>
-  </header>
+<header>
+  <div class="brand">
+    <a href="/index.html">Edunancial</a>
+  </div>
+  <nav>
+    <a href="/index.html" class="active">Our Story</a>
+    <a href="/movement.html">Start Learning</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/catalog.html">Catalog</a>
+    <a href="/memberships-en.html">Memberships</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+  <div class="lang-toggle">
+    <a href="/index.html" class="active">EN</a>
+    <span>·</span>
+    <a href="/es/index.html">ES</a>
+  </div>
+</header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1 data-i18n="heroTitle">Financial Freedom Starts with Education — Not Guesswork.</h1>
-    <p data-i18n="heroSubtitle">
-      Red, White & Blue Method: Real Estate • Paper Assets • Businesses — in English and Spanish.
+<main>
+  <div class="intro-card">
+    <h1>Our Story</h1>
+    <p><strong>Financial Freedom Starts with Education — Not Guesswork.</strong></p>
+
+    <p>
+      One afternoon when my son was 11, he came into my room just as an electronic deposit
+      notification arrived. His eyes went wide. “How did you make money like that?” he asked.
+      I said, “By using my head.” Then I asked, “Do you want to work with your head?”
+      He said, “Yes… but I don’t know how.” That’s when <strong>Edunancial</strong> was born.
     </p>
-    <div class="hero-actions">
-      <a href="memberships-en.html" class="btn primary" data-i18n="btnGetMembership">Get Membership</a>
-      <a href="catalog.html" class="btn secondary" data-i18n="btnViewCatalog">View Catalog</a>
-    </div>
-  </section>
 
-  <!-- 3 Pillars -->
-  <section class="pillars">
-    <h2 data-i18n="pillarsHeading">What We Teach</h2>
-    <div class="pillar-grid">
-      <article class="pillar-card">
-        <h3 data-i18n="pillar1Title">Red, White & Blue</h3>
-        <p data-i18n="pillar1Text">
-          A simple framework to decide what to buy, when, and why — without hype.
-        </p>
-      </article>
-      <article class="pillar-card">
-        <h3 data-i18n="pillar2Title">Paper Assets</h3>
-        <p data-i18n="pillar2Text">
-          Build long-term positions in stocks, funds, and alternatives the disciplined way.
-        </p>
-      </article>
-      <article class="pillar-card">
-        <h3 data-i18n="pillar3Title">Business Building</h3>
-        <p data-i18n="pillar3Text">
-          Form the right entity, protect IP, and use bilingual tools to grow.
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <!-- Vendors / “Team” Hub preview -->
-  <section class="vendors-preview">
-    <h2 data-i18n="vendorsHeading">Business Services Hub</h2>
-    <p data-i18n="vendorsText">
-      Need legal, accounting, insurance, or credit-building partners? Members can request introductions.
+    <p>
+      At 11, he started buying silver coins—discipline and assets instead of candy and games.
+      Around 12, he began analyzing stocks: overvalued or undervalued, and why. After he
+      presented his reasons, we bought. His results averaged 7–12%. At 15, he added gold—
+      and today we consider gems like diamonds, rubies, or emeralds.
     </p>
-    <a href="tools.html" class="btn tertiary" data-i18n="btnExploreTools">Explore Tools & Vendors</a>
-  </section>
 
-  <!-- Newsletter CTA -->
-  <section class="newsletter">
-    <h2 data-i18n="newsletterHeading">Weekly Bilingual Business Briefing</h2>
-    <p data-i18n="newsletterText">
-      Built for LinkedIn founders, operators, and side-hustle entrepreneurs who want U.S.-ready structures.
+    <p>
+      The <strong>Red, White, and Blue method</strong> doesn’t tell you what to buy—it teaches you to
+      ask why you’re buying and what it will do for you, putting you in control.
     </p>
-    <!-- Square placeholder -->
-    <a href="https://square.link/your-newsletter-link" class="btn primary" data-i18n="btnSubscribeNewsletter">
-      Subscribe (Square placeholder)
-    </a>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Edunancial, Inc.</p>
-    <div class="footer-links">
-      <a href="refund.html" data-i18n="footerRefund">Refund</a>
-      <a href="privacy.html" data-i18n="footerPrivacy">Privacy</a>
-      <a href="legal.html" data-i18n="footerLegal">Legal</a>
-      <a href="user-data-rights.html" data-i18n="footerUserData">User Data Rights</a>
+    <div class="btn-row">
+      <a class="btn" href="/movement.html">Learn More</a>
+      <a class="btn btn-secondary" href="/catalog.html">Get Free Materials</a>
     </div>
-  </footer>
+  </div>
 
-  <script src="assets/js/i18n.js"></script>
-  <script src="assets/js/app.js"></script>
+  <div class="list-card">
+    <h2>What You’ll Find Here</h2>
+    <ul>
+      <li>Bilingual, step-by-step lessons (English &amp; Spanish).</li>
+      <li>Real-world examples: budgeting, credit, saving, business starts, and investing.</li>
+      <li>Community, accountability, and practical tools—so you’re not guessing.</li>
+    </ul>
+    <p>Ready to join later? Choose a membership when you’re comfortable.</p>
+  </div>
+</main>
+
+<footer>
+  © 2025 Edunancial, Inc. All rights reserved.
+</footer>
 </body>
 </html>
