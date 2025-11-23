@@ -4,4 +4,84 @@
   <meta charset="UTF-8" />
   <title>Memberships — Edunancial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Edunancial memberships: simple levels that grow with 
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.6; }
+    header { padding:8px 16px; border-bottom:1px solid #ddd; }
+    .top-row { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; }
+    .brand { font-weight:700; margin-right:12px; }
+    nav a { margin-right:10px; font-size:14px; text-decoration:none; color:#000; }
+    nav a:hover { text-decoration:underline; }
+    .lang { margin-top:6px; }
+    .lang a { text-decoration:none; }
+    .lang button {
+      padding:3px 8px; margin-right:4px;
+      border-radius:4px; border:1px solid #b91c1c;
+      font-size:12px; cursor:pointer;
+    }
+    .lang .active { background:#b91c1c; color:#fff; }
+    .lang .inactive { background:#fff; color:#b91c1c; }
+    main { max-width:900px; margin:16px auto 40px; padding:0 12px; }
+    h1 { margin-top:0; font-size:26px; }
+    h2 { margin-top:24px; font-size:18px; }
+    .plan-grid { display:flex; flex-wrap:wrap; gap:16px; margin-top:16px; }
+    .plan { flex:1 1 260px; border:1px solid #ddd; border-radius:6px; padding:12px; }
+    .plan h3 { margin-top:0; }
+    .btn {
+      display:inline-block; padding:8px 16px;
+      border-radius:4px; border:none;
+      text-decoration:none; font-size:14px;
+      background:#b91c1c; color:#fff;
+    }
+    footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-row">
+    <div>
+      <span class="brand">Edunancial</span>
+      <nav>
+        <a href="/index.html">Our Story</a>
+        <a href="/movement.html">Start Learning</a>
+        <a href="/videos.html">Videos</a>
+        <a href="/catalog.html">Catalog</a>
+        <a href="/memberships-en.html">Memberships</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <div class="lang">
+        <a href="/index.html"><button class="inactive">EN</button></a>
+        <a href="/es/index.html"><button class="inactive">ES</button></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <h1>Memberships</h1>
+  <p>Choose the level that fits where you are today. Upgrade when you’re ready.</p>
+
+  <div class="plan-grid">
+    <div class="plan">
+      <h3>Level 1: Basic + Institutional</h3>
+      <p>Foundations in budgeting, credit, saving, and basic investing. Ideal for teens, young adults, and institutions introducing financial literacy.</p>
+      <!-- Replace with real Square/checkout button later -->
+      <a class="btn" href="/apply.html">Start Level 1</a>
+    </div>
+
+    <div class="plan">
+      <h3>Level 2: Go All In</h3>
+      <p>Everything in Level 1 plus deeper strategy, business starts, and KPI tracking with our app.</p>
+      <!-- Replace with real Square/checkout button later -->
+      <a class="btn" href="/apply.html">Start Level 2</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2025 Edunancial, Inc. All rights reserved.
+</footer>
+
+</body>
+</html>
