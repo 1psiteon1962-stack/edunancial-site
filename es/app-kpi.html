@@ -2,87 +2,285 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>App de KPIs — Edunancial</title>
+  <title>Edunancial — Seguimiento de KPIs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="La App de KPIs de Edunancial ayuda a dueños de negocio a seguir los números que importan: ingresos, márgenes y crecimiento." />
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; background: #f7f7fb; color: #111827; }
-    a { color: #b91c1c; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header { background: #111827; color: #f9fafb; padding: 0.75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 10; }
-    .brand { font-weight: 700; letter-spacing: 0.03em; }
-    .brand a { color: #f9fafb; text-decoration: none; }
-    nav a { margin: 0 0.5rem; font-size: 0.95rem; color: #e5e7eb; }
-    nav a.active { font-weight: 600; text-decoration: underline; }
-    .lang-toggle { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; }
-    .lang-toggle a { padding: 0.2rem 0.5rem; border-radius: 999px; border: 1px solid transparent; color: #f9fafb; }
-    .lang-toggle a.active { border-color: #f97316; background: #f97316; }
-    main { max-width: 900px; margin: 1.75rem auto 3rem; padding: 0 1.5rem; }
-    h1 { font-size: 1.9rem; margin-bottom: 0.75rem; }
-    .card { background: #ffffff; border-radius: 0.75rem; padding: 1.4rem 1.6rem; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08); margin-bottom: 1.25rem; }
-    ul { padding-left: 1.25rem; }
-    .btn { display: inline-block; margin-top: 0.6rem; padding: 0.6rem 1.3rem; border-radius: 999px; border: none; background: #b91c1c; color: #f9fafb; text-decoration: none; font-size: 0.95rem; }
-    .note { font-size: 0.85rem; color: #6b7280; margin-top: 0.75rem; }
-    footer { background: #111827; color: #9ca3af; text-align: center; padding: 1rem 1.5rem; font-size: 0.85rem; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.6; }
+    header { padding:8px 16px; border-bottom:1px solid #ddd; }
+    .top-row { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; }
+    .brand { font-weight:700; margin-right:12px; }
+    nav a { margin-right:10px; font-size:14px; text-decoration:none; color:#000; }
+    nav a:hover { text-decoration:underline; }
+    .lang { margin-top:6px; }
+    .lang a { text-decoration:none; }
+    .lang button {
+      padding:3px 8px; margin-right:4px;
+      border-radius:4px; border:1px solid #b91c1c;
+      font-size:12px; cursor:pointer;
+    }
+    .lang .active { background:#b91c1c; color:#fff; }
+    .lang .inactive { background:#fff; color:#b91c1c; }
+
+    main { max-width:960px; margin:16px auto 40px; padding:0 12px; }
+    h1 { margin-top:0; font-size:26px; }
+    h2 { margin-top:24px; font-size:18px; }
+
+    .kpi-grid { display:flex; flex-wrap:wrap; gap:16px; }
+    .kpi-card {
+      flex:1 1 260px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      padding:12px;
+      background:#fafafa;
+    }
+    .kpi-card label { display:block; font-size:13px; margin-bottom:4px; }
+    .kpi-card input {
+      width:100%;
+      padding:6px 8px;
+      font-size:14px;
+      box-sizing:border-box;
+      margin-bottom:6px;
+    }
+
+    .btn-row { margin-top:16px; }
+    .btn {
+      display:inline-block;
+      padding:8px 16px;
+      border-radius:4px;
+      border:none;
+      text-decoration:none;
+      font-size:14px;
+      margin-right:8px;
+      cursor:pointer;
+      background:#b91c1c;
+      color:#fff;
+    }
+
+    .score-box {
+      margin-top:24px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      padding:12px;
+    }
+    .score-bar-wrap {
+      background:#eee;
+      border-radius:999px;
+      overflow:hidden;
+      height:16px;
+      margin-top:8px;
+    }
+    .score-bar {
+      height:100%;
+      width:0%;
+      background:#b91c1c;
+      transition:width 0.3s ease;
+    }
+    .score-text { font-size:14px; margin-top:6px; }
+
+    footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
   </style>
 </head>
 <body>
+
 <header>
-  <div class="brand">
-    <a href="/es/index.html">Edunancial</a>
-  </div>
-  <nav>
-    <a href="/es/index.html">Nuestra Historia</a>
-    <a href="/es/movimiento.html">El Movimiento</a>
-    <a href="/es/videos.html">Videos</a>
-    <a href="/es/catalogo.html">Catálogo</a>
-    <a href="/es/membresias.html">Membresías</a>
-    <a href="/es/contacto.html">Contacto</a>
-  </nav>
-  <div class="lang-toggle">
-    <a href="/kpi-app.html">EN</a>
-    <span>·</span>
-    <a href="/es/app-kpi.html" class="active">ES</a>
+  <div class="top-row">
+    <div>
+      <span class="brand">Edunancial</span>
+      <nav>
+        <a href="/es/index.html">Nuestra Historia</a>
+        <a href="/es/movimiento.html">Aprender</a>
+        <a href="/es/video.html">Videos</a>
+        <a href="/es/catalogo.html">Catálogo</a>
+        <a href="/es/membresias.html">Membresías</a>
+        <a href="/es/contacto.html">Contacto</a>
+      </nav>
+      <div class="lang">
+        <a href="/kpi.app.html"><button class="inactive">EN</button></a>
+        <a href="/es/app-kpi.html"><button class="active">ES</button></a>
+      </div>
+    </div>
   </div>
 </header>
 
 <main>
-  <div class="card">
-    <h1>App de KPIs Edunancial</h1>
-    <p>
-      La mayoría de los dueños de negocio adivinan. Esta app te da un panel sencillo para que siempre sepas
-      dónde estás: ingresos, ganancias, márgenes, suscripciones y más.
-    </p>
+  <h1>Aplicación de KPIs de Edunancial</h1>
+  <p>
+    Esta herramienta es para que estudiantes y miembros conviertan disciplina en números.
+    Registra tus KPIs mensuales y observa tu progreso con calma, disciplina y un plan.
+  </p>
 
-    <h2>Qué Puedes Medir</h2>
-    <ul>
-      <li>Metas de ingresos mensuales y semanales.</li>
-      <li>Ganancia neta y margen de ganancia.</li>
-      <li>Clientes o miembros activos y cancelaciones.</li>
-      <li>Métricas de mercadeo que tú elijas (prospectos, citas, etc.).</li>
-    </ul>
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <h2>Ingresos y Ahorro</h2>
+      <label for="income">Ingreso mensual (después de impuestos)</label>
+      <input type="number" id="income" min="0" step="0.01" />
+      <label for="savings">Cantidad ahorrada este mes</label>
+      <input type="number" id="savings" min="0" step="0.01" />
+      <label for="savings-rate">Meta de tasa de ahorro (%)</label>
+      <input type="number" id="savings-rate" min="0" max="100" step="1" />
+    </div>
 
-    <h2>Hecha para la Vida Real</h2>
-    <ul>
-      <li>Estado rojo / amarillo / verde fácil de entender.</li>
-      <li>Etiquetas bilingües (inglés / español).</li>
-      <li>Resúmenes exportables para bancos o inversionistas.</li>
-    </ul>
+    <div class="kpi-card">
+      <h2>Deuda e Inversión</h2>
+      <label for="debt-paid">Capital de deuda pagado este mes</label>
+      <input type="number" id="debt-paid" min="0" step="0.01" />
+      <label for="invested">Invertido este mes (plata, oro, acciones, fondos)</label>
+      <input type="number" id="invested" min="0" step="0.01" />
+      <label for="stack-ounces">Onzas/gramos nuevos añadidos (metales)</label>
+      <input type="number" id="stack-ounces" min="0" step="0.01" />
+    </div>
 
-    <!-- Marcador de checkout Square -->
-    <a class="btn" href="https://squareup.com/placeholder-kpi-app-link">
-      Comprar App de KPIs (Marcador Square)
-    </a>
+    <div class="kpi-card">
+      <h2>Negocio y Habilidades</h2>
+      <label for="biz-revenue">Ingresos de negocio o “side-income” este mes</label>
+      <input type="number" id="biz-revenue" min="0" step="0.01" />
+      <label for="hours-learning">Horas de estudio (cursos, libros, Edunancial)</label>
+      <input type="number" id="hours-learning" min="0" step="0.1" />
+      <label for="hours-building">Horas construyendo (negocio, sistemas, contactos)</label>
+      <input type="number" id="hours-building" min="0" step="0.1" />
+    </div>
+  </section>
 
-    <p class="note">
-      Este botón se reemplazará con tu URL real de checkout de Square.
-      La página queda lista para producción tan pronto conectes ese enlace.
-    </p>
+  <div class="btn-row">
+    <button class="btn" type="button" onclick="saveKpis()">Guardar KPIs</button>
+    <button class="btn" type="button" onclick="resetKpis()">Borrar</button>
   </div>
+
+  <section class="score-box">
+    <h2>Tu puntaje este mes</h2>
+    <p>
+      Este es un “puntaje de disciplina” aproximado. La meta no es ser perfecto; es ver la
+      tendencia: con el tiempo, quieres que esta barra suba y se mantenga estable.
+    </p>
+    <div class="score-bar-wrap">
+      <div id="score-bar" class="score-bar"></div>
+    </div>
+    <div id="score-text" class="score-text">Sin datos todavía.</div>
+  </section>
 </main>
 
 <footer>
   © 2025 Edunancial, Inc. Todos los derechos reservados.
 </footer>
+
+<script>
+  const STORAGE_KEY = "edunancial-kpis-v1-es";
+
+  function loadKpis() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const data = JSON.parse(raw);
+      const ids = [
+        "income","savings","savings-rate",
+        "debt-paid","invested","stack-ounces",
+        "biz-revenue","hours-learning","hours-building"
+      ];
+      ids.forEach(id => {
+        if (data[id] !== undefined && data[id] !== null) {
+          document.getElementById(id).value = data[id];
+        }
+      });
+      updateScore();
+    } catch (e) {
+      console.error("Error loading KPIs:", e);
+    }
+  }
+
+  function saveKpis() {
+    const ids = [
+      "income","savings","savings-rate",
+      "debt-paid","invested","stack-ounces",
+      "biz-revenue","hours-learning","hours-building"
+    ];
+    const data = {};
+    ids.forEach(id => {
+      const el = document.getElementById(id);
+      data[id] = el.value ? parseFloat(el.value) : 0;
+    });
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      updateScore();
+      alert("KPIs guardados en este dispositivo.");
+    } catch (e) {
+      console.error("Error saving KPIs:", e);
+      alert("No se pudieron guardar los KPIs. Revisa la configuración del navegador.");
+    }
+  }
+
+  function resetKpis() {
+    if (!confirm("¿Borrar todos los valores de KPIs en este dispositivo?")) return;
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (e) {
+      console.error(e);
+    }
+    const ids = [
+      "income","savings","savings-rate",
+      "debt-paid","invested","stack-ounces",
+      "biz-revenue","hours-learning","hours-building"
+    ];
+    ids.forEach(id => document.getElementById(id).value = "");
+    updateScore();
+  }
+
+  function updateScore() {
+    const income = parseFloat(document.getElementById("income").value) || 0;
+    const savings = parseFloat(document.getElementById("savings").value) || 0;
+    const savingsRateTarget = parseFloat(document.getElementById("savings-rate").value) || 0;
+    const debtPaid = parseFloat(document.getElementById("debt-paid").value) || 0;
+    const invested = parseFloat(document.getElementById("invested").value) || 0;
+    const stack = parseFloat(document.getElementById("stack-ounces").value) || 0;
+    const bizRev = parseFloat(document.getElementById("biz-revenue").value) || 0;
+    const hLearn = parseFloat(document.getElementById("hours-learning").value) || 0;
+    const hBuild = parseFloat(document.getElementById("hours-building").value) || 0;
+
+    let score = 0;
+    let maxScore = 0;
+
+    if (income > 0 && savingsRateTarget > 0) {
+      const actualRate = (savings / income) * 100;
+      const ratio = Math.min(actualRate / savingsRateTarget, 1);
+      score += ratio * 30;
+    }
+    maxScore += 30;
+
+    if (debtPaid > 0 || invested > 0) {
+      const total = debtPaid + invested;
+      const investRatio = total > 0 ? invested / total : 0;
+      score += Math.min(investRatio, 1) * 20;
+    }
+    maxScore += 20;
+
+    if (stack > 0) {
+      score += 10;
+    }
+    maxScore += 10;
+
+    const hoursTotal = hLearn + hBuild;
+    if (hoursTotal > 0) {
+      const learnScore = Math.min(hLearn / 10, 1) * 10;
+      const buildScore = Math.min(hBuild / 20, 1) * 30;
+      score += learnScore + buildScore;
+    }
+    maxScore += 40;
+
+    const percentage = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
+
+    document.getElementById("score-bar").style.width = percentage + "%";
+    document.getElementById("score-text").textContent =
+      maxScore === 0
+        ? "Sin datos todavía."
+        : "Puntaje estimado de disciplina: " + percentage + " / 100";
+  }
+
+  document.querySelectorAll("input").forEach(input => {
+    input.addEventListener("input", updateScore);
+  });
+
+  loadKpis();
+</script>
+
 </body>
 </html>
