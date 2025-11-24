@@ -13,7 +13,6 @@
     nav a { margin-right:10px; font-size:14px; text-decoration:none; color:#000; }
     nav a:hover { text-decoration:underline; }
     .lang { margin-top:6px; }
-    .lang a { text-decoration:none; }
     .lang button {
       padding:3px 8px; margin-right:4px;
       border-radius:4px; border:1px solid #b91c1c;
@@ -21,7 +20,7 @@
     }
     .lang .active { background:#b91c1c; color:#fff; }
     .lang .inactive { background:#fff; color:#b91c1c; }
-    main { max-width:900px; margin:16px auto 40px; padding:0 12px; }
+    main { max-width:960px; margin:16px auto 40px; padding:0 12px; }
     h1 { margin-top:0; font-size:26px; }
     .plan-grid { display:flex; flex-wrap:wrap; gap:16px; margin-top:16px; }
     .plan { flex:1 1 260px; border:1px solid #ddd; border-radius:6px; padding:12px; }
@@ -33,6 +32,7 @@
       margin-right:8px; cursor:pointer;
       background:#b91c1c; color:#fff;
     }
+    .currency-select { margin-top:8px; font-size:14px; }
     footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
   </style>
 </head>
@@ -47,12 +47,15 @@
         <a href="/movement.html">Start Learning</a>
         <a href="/videos.html">Videos</a>
         <a href="/catalog.html">Catalog</a>
+        <a href="/tools.html">Tools</a>
+        <a href="/kpi.app.html">KPI App</a>
+        <a href="/workshops.html">Workshops</a>
         <a href="/memberships-en.html">Memberships</a>
         <a href="/contact.html">Contact</a>
       </nav>
       <div class="lang">
-        <a href="/index.html"><button class="active">EN</button></a>
-        <a href="/es/index.html"><button class="inactive">ES</button></a>
+        <a href="/memberships-en.html"><button class="active">EN</button></a>
+        <a href="/es/membresias.html"><button class="inactive">ES</button></a>
       </div>
     </div>
   </div>
@@ -60,34 +63,82 @@
 
 <main>
   <h1>Memberships</h1>
-  <p>Every level combines teaching with tracking. The KPI app is included so students and members can see their progress the same way they would track a trade.</p>
+  <p>Every level combines bilingual lessons, structure, and the Edunancial KPI App so you can measure real progress, not just consume content.</p>
+
+  <div class="currency-select">
+    Billing currency:
+    <select id="currency" onchange="updatePrices()">
+      <option value="USD" selected>USD $</option>
+      <option value="DOP">DOP RD$</option>
+      <option value="NGN">NGN ₦</option>
+      <option value="EUR">EUR €</option>
+      <option value="INR">INR ₹</option>
+    </select>
+  </div>
 
   <div class="plan-grid">
     <div class="plan">
       <h3>Level 1: Basic + Institutional</h3>
       <p>
         Foundations in budgeting, credit, saving, and basic investing.  
-        Ideal for teens, young adults, and institutional programs that want structured financial literacy.
+        Designed for teens, young adults, and institutions that want structured financial literacy without overwhelm.
       </p>
+      <p><strong id="price-basic" data-price-usd="19">$19 / month</strong></p>
       <a class="btn" href="/apply.html">Start Level 1</a>
-      <a class="btn" href="/kpi.app.html">Open KPI App</a>
+      <a class="btn" href="/kpi.app.html">Open KPI App</a><br /><br />
+      <a href="/start-here.html">Take the “Start Here” Quiz →</a>
     </div>
 
     <div class="plan">
       <h3>Level 2: Go All In</h3>
       <p>
-        Everything in Level 1 plus deeper strategy, business starts, and KPI tracking with the Edunancial app.
-        Perfect for students ready to move from “learning” to “measurable performance.”
+        Everything in Level 1 plus deeper strategy, business starts, investor mindset, and full KPI tracking with the Edunancial App.
+        Built for serious students, business owners, and young professionals.
       </p>
+      <p><strong id="price-pro" data-price-usd="47">$47 / month</strong></p>
       <a class="btn" href="/apply.html">Start Level 2</a>
-      <a class="btn" href="/kpi.app.html">Open KPI App</a>
+      <a class="btn" href="/kpi.app.html">Open KPI App</a><br /><br />
+      <a href="/tools.html">See all tools and templates →</a>
     </div>
   </div>
+
+  <h2>What’s included in every membership</h2>
+  <ul>
+    <li>Access to core bilingual lessons (English + Spanish).</li>
+    <li>Use of the Edunancial KPI App to track savings, debt payoff, investing, and business KPIs.</li>
+    <li>Downloadable worksheets, checklists, and templates.</li>
+    <li>Priority access to live workshops and future courses.</li>
+  </ul>
 </main>
 
 <footer>
   © 2025 Edunancial, Inc. All rights reserved.
 </footer>
+
+<script>
+  const rates = {
+    USD: 1,
+    DOP: 58,   // approx
+    NGN: 1500, // approx
+    EUR: 0.9,  // approx
+    INR: 83    // approx
+  };
+
+  function updatePrices() {
+    const currency = document.getElementById("currency").value;
+    const symbols = { USD: "$", DOP: "RD$", NGN: "₦", EUR: "€", INR: "₹" };
+    const basicEl = document.getElementById("price-basic");
+    const proEl = document.getElementById("price-pro");
+
+    [basicEl, proEl].forEach(el => {
+      const usd = parseFloat(el.getAttribute("data-price-usd"));
+      const converted = Math.round(usd * rates[currency]);
+      el.textContent = symbols[currency] + converted + " / month";
+    });
+  }
+
+  updatePrices();
+</script>
 
 </body>
 </html>
