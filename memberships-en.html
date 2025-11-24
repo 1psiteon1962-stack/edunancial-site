@@ -23,7 +23,6 @@
     .lang .inactive { background:#fff; color:#b91c1c; }
     main { max-width:900px; margin:16px auto 40px; padding:0 12px; }
     h1 { margin-top:0; font-size:26px; }
-    h2 { margin-top:24px; font-size:18px; }
     .plan-grid { display:flex; flex-wrap:wrap; gap:16px; margin-top:16px; }
     .plan { flex:1 1 260px; border:1px solid #ddd; border-radius:6px; padding:12px; }
     .plan h3 { margin-top:0; }
@@ -31,6 +30,7 @@
       display:inline-block; padding:8px 16px;
       border-radius:4px; border:none;
       text-decoration:none; font-size:14px;
+      margin-right:8px; cursor:pointer;
       background:#b91c1c; color:#fff;
     }
     footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
@@ -43,16 +43,15 @@
     <div>
       <span class="brand">Edunancial</span>
       <nav>
-        <a href="/">Our Story</a>
+        <a href="/index.html">Our Story</a>
         <a href="/movement.html">Start Learning</a>
         <a href="/videos.html">Videos</a>
         <a href="/catalog.html">Catalog</a>
-        <!-- ✅ FIX: point to THIS FILE -->
         <a href="/memberships-en.html">Memberships</a>
         <a href="/contact.html">Contact</a>
       </nav>
       <div class="lang">
-        <a href="/"><button class="active">EN</button></a>
+        <a href="/index.html"><button class="active">EN</button></a>
         <a href="/es/index.html"><button class="inactive">ES</button></a>
       </div>
     </div>
@@ -61,28 +60,27 @@
 
 <main>
   <h1>Memberships</h1>
-  <p>Start where you are. Upgrade when you’re ready. Every level is built to move you from information to disciplined action and measurable KPIs.</p>
+  <p>Every level combines teaching with tracking. The KPI app is included so students and members can see their progress the same way they would track a trade.</p>
 
   <div class="plan-grid">
     <div class="plan">
       <h3>Level 1: Basic + Institutional</h3>
       <p>
         Foundations in budgeting, credit, saving, and basic investing.  
-        Designed for teens, young adults, and institutions that want
-        structured financial literacy without overwhelm.
+        Ideal for teens, young adults, and institutional programs that want structured financial literacy.
       </p>
-      <!-- Replace this href with your real checkout later -->
       <a class="btn" href="/apply.html">Start Level 1</a>
+      <a class="btn" href="/kpi.app.html">Open KPI App</a>
     </div>
 
     <div class="plan">
       <h3>Level 2: Go All In</h3>
       <p>
-        Everything in Level 1 plus deeper strategy, business starts, and KPI tracking
-        with the Edunancial app — so students and members see their own progress in real time.
+        Everything in Level 1 plus deeper strategy, business starts, and KPI tracking with the Edunancial app.
+        Perfect for students ready to move from “learning” to “measurable performance.”
       </p>
-      <!-- Replace this href with your real checkout later -->
       <a class="btn" href="/apply.html">Start Level 2</a>
+      <a class="btn" href="/kpi.app.html">Open KPI App</a>
     </div>
   </div>
 </main>
