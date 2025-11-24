@@ -13,7 +13,6 @@
     nav a { margin-right:10px; font-size:14px; text-decoration:none; color:#000; }
     nav a:hover { text-decoration:underline; }
     .lang { margin-top:6px; }
-    .lang a { text-decoration:none; }
     .lang button {
       padding:3px 8px; margin-right:4px;
       border-radius:4px; border:1px solid #b91c1c;
@@ -21,7 +20,7 @@
     }
     .lang .active { background:#b91c1c; color:#fff; }
     .lang .inactive { background:#fff; color:#b91c1c; }
-    main { max-width:900px; margin:16px auto 40px; padding:0 12px; }
+    main { max-width:960px; margin:16px auto 40px; padding:0 12px; }
     h1 { margin-top:0; font-size:26px; }
     .plan-grid { display:flex; flex-wrap:wrap; gap:16px; margin-top:16px; }
     .plan { flex:1 1 260px; border:1px solid #ddd; border-radius:6px; padding:12px; }
@@ -33,6 +32,7 @@
       margin-right:8px; cursor:pointer;
       background:#b91c1c; color:#fff;
     }
+    .currency-select { margin-top:8px; font-size:14px; }
     footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
   </style>
 </head>
@@ -47,12 +47,15 @@
         <a href="/es/movimiento.html">Aprender</a>
         <a href="/es/video.html">Videos</a>
         <a href="/es/catalogo.html">Catálogo</a>
+        <a href="/es/herramientas.html">Herramientas</a>
+        <a href="/es/app-kpi.html">App de KPIs</a>
+        <a href="/es/talleres.html">Talleres</a>
         <a href="/es/membresias.html">Membresías</a>
         <a href="/es/contacto.html">Contacto</a>
       </nav>
       <div class="lang">
-        <a href="/index.html"><button class="inactive">EN</button></a>
-        <a href="/es/index.html"><button class="active">ES</button></a>
+        <a href="/memberships-en.html"><button class="inactive">EN</button></a>
+        <a href="/es/membresias.html"><button class="active">ES</button></a>
       </div>
     </div>
   </div>
@@ -60,35 +63,82 @@
 
 <main>
   <h1>Membresías</h1>
-  <p>Cada nivel combina enseñanza con seguimiento. La app de KPIs está incluida para que los miembros vean su progreso igual que monitorean una inversión.</p>
+  <p>Cada nivel combina lecciones bilingües, estructura y la App de KPIs de Edunancial para medir progreso real, no solo información.</p>
+
+  <div class="currency-select">
+    Moneda:
+    <select id="currency" onchange="updatePrices()">
+      <option value="USD">USD $</option>
+      <option value="DOP" selected>DOP RD$</option>
+      <option value="NGN">NGN ₦</option>
+      <option value="EUR">EUR €</option>
+      <option value="INR">INR ₹</option>
+    </select>
+  </div>
 
   <div class="plan-grid">
     <div class="plan">
       <h3>Nivel 1: Básico + Institucional</h3>
       <p>
         Fundamentos de presupuesto, crédito, ahorro e inversión básica.  
-        Ideal para jóvenes y para programas institucionales de educación financiera.
+        Ideal para jóvenes, familias y programas institucionales de educación financiera.
       </p>
+      <p><strong id="price-basic" data-price-usd="19">RD$ 1102 / mes</strong></p>
       <a class="btn" href="/apply.html">Empezar Nivel 1</a>
-      <a class="btn" href="/es/app-kpi.html">Abrir app de KPIs</a>
+      <a class="btn" href="/es/app-kpi.html">Abrir App de KPIs</a><br /><br />
+      <a href="/es/empezar.html">Haz el test “Empieza Aquí” →</a>
     </div>
 
     <div class="plan">
       <h3>Nivel 2: Ir con Todo</h3>
       <p>
-        Todo lo del Nivel 1 más estrategia avanzada, inicios de negocio y seguimiento de KPIs
-        con la app de Edunancial. Perfecto para quienes quieren pasar de “aprender” a
-        “resultados medibles”.
+        Todo lo del Nivel 1 más estrategia avanzada, inicios de negocio y seguimiento completo de KPIs con la App de Edunancial.
+        Pensado para emprendedores, profesionales y estudiantes serios.
       </p>
+      <p><strong id="price-pro" data-price-usd="47">RD$ 2726 / mes</strong></p>
       <a class="btn" href="/apply.html">Empezar Nivel 2</a>
-      <a class="btn" href="/es/app-kpi.html">Abrir app de KPIs</a>
+      <a class="btn" href="/es/app-kpi.html">Abrir App de KPIs</a><br /><br />
+      <a href="/es/herramientas.html">Ver todas las herramientas →</a>
     </div>
   </div>
+
+  <h2>Incluye en todos los niveles</h2>
+  <ul>
+    <li>Lecciones bilingües (inglés y español).</li>
+    <li>Uso de la App de KPIs para ahorro, deuda, inversión y negocio.</li>
+    <li>Plantillas descargables y hojas de trabajo.</li>
+    <li>Acceso prioritario a talleres y cursos futuros.</li>
+  </ul>
 </main>
 
 <footer>
   © 2025 Edunancial, Inc. Todos los derechos reservados.
 </footer>
+
+<script>
+  const rates = {
+    USD: 1,
+    DOP: 58,
+    NGN: 1500,
+    EUR: 0.9,
+    INR: 83
+  };
+
+  function updatePrices() {
+    const currency = document.getElementById("currency").value;
+    const symbols = { USD: "$", DOP: "RD$", NGN: "₦", EUR: "€", INR: "₹" };
+    const basicEl = document.getElementById("price-basic");
+    const proEl = document.getElementById("price-pro");
+
+    [basicEl, proEl].forEach(el => {
+      const usd = parseFloat(el.getAttribute("data-price-usd"));
+      const converted = Math.round(usd * rates[currency]);
+      el.textContent = symbols[currency] + " " + converted + " / mes";
+    });
+  }
+
+  updatePrices();
+</script>
 
 </body>
 </html>
