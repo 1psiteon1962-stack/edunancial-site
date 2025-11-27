@@ -1,12 +1,37 @@
-// config-loader.js
-(async () => {
-  try {
-    const res = await fetch('/site-config.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error('Failed to load site-config.json');
-    const cfg = await res.json();
-    window.EDUNANCIAL_CONFIG = cfg;
-    document.dispatchEvent(new CustomEvent('edunancial:config', { detail: cfg }));
-  } catch (e) {
-    console.error('Config load error:', e);
+{
+  "global": {
+    "id": "global",
+    "label": "Global",
+    "currency": "USD",
+    "symbol": "$",
+    "defaultDomain": "edunancial.com"
+  },
+  "us": {
+    "id": "us",
+    "label": "United States & Canada",
+    "currency": "USD",
+    "symbol": "$",
+    "domains": ["edunancial.us", "www.edunancial.us"]
+  },
+  "latam": {
+    "id": "latam",
+    "label": "Latin America",
+    "currency": "MXN",
+    "symbol": "$",
+    "domains": ["edunancial.lat", "www.edunancial.lat"]
+  },
+  "africa": {
+    "id": "africa",
+    "label": "Africa",
+    "currency": "USD",
+    "symbol": "$",
+    "domains": ["edunancial.africa", "www.edunancial.africa"]
+  },
+  "eu": {
+    "id": "eu",
+    "label": "Europe",
+    "currency": "EUR",
+    "symbol": "€",
+    "domains": ["edunancial.eu", "www.edunancial.eu"]
   }
-})();
+}
