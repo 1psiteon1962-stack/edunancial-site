@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Academia Edunancial — Certificaciones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      padding: 8px 16px;
+      border-bottom: 1px solid #ddd;
+      background: #ffffff;
+    }
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .brand {
+      font-weight: 700;
+      margin-right: 12px;
+      font-size: 18px;
+    }
+    nav a {
+      margin-right: 10px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #000;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lang {
+      margin-top: 6px;
+    }
+    .lang a {
+      text-decoration: none;
+    }
+    .lang button {
+      padding: 3px 8px;
+      margin-right: 4px;
+      border-radius: 4px;
+      border: 1px solid #b91c1c;
+      font-size: 12px;
+      cursor: pointer;
+      background: #ffffff;
+    }
+    .lang .active {
+      background: #b91c1c;
+      color: #fff;
+    }
+    .lang .inactive {
+      background: #fff;
+      color: #b91c1c;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 24px auto 40px;
+      padding: 0 12px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    .subtitle {
+      max-width: 650px;
+      font-size: 15px;
+      color: #4b5563;
+    }
+
+    .badge-row {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+    }
+    .badge {
+      border-radius: 999px;
+      padding: 4px 10px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .badge-red { background: #b91c1c; }
+    .badge-white { background: #6b7280; }
+    .badge-blue { background: #1d4ed8; }
+
+    .level-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .level-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .level-label {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .level-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .level-tagline {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 8px;
+    }
+    .level-list {
+      font-size: 13px;
+      padding-left: 18px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+    .price-row {
+      margin-top: 8px;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .price-main {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .price-note {
+      font-size: 11px;
+      color: #4b5563;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .btn-red {
+      background: #b91c1c;
+      color: #ffffff;
+    }
+    .btn-white {
+      background: #ffffff;
+      color: #111827;
+      border: 1px solid #d1d5db;
+    }
+    .btn-blue {
+      background: #1d4ed8;
+      color: #ffffff;
+    }
+    .btn-gold {
+      background: #d97706;
+      color: #ffffff;
+    }
+
+    .level-footer {
+      margin-top: 10px;
+      font-size: 11px;
+      color: #6b7280;
+    }
+
+    .note-box {
+      margin-top: 24px;
+      padding: 12px 14px;
+      border-radius: 6px;
+      border-left: 4px solid #1d4ed8;
+      background: #e5f2ff;
+      font-size: 13px;
+      color: #1f2937;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      padding: 8px 16px;
+      font-size: 12px;
+      text-align: center;
+      color: #555;
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-row">
+      <div>
+        <span class="brand">Edunancial</span>
+        <nav>
+          <a href="/es/index.html">Nuestra Historia</a>
+          <a href="/movement.html">Start Learning</a>
+          <a href="/videos.html">Videos</a>
+          <a href="/catalog.html">Catalog</a>
+          <a href="/memberships-en.html">Memberships</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="lang">
+        <a href="/academy.html"><button class="inactive">EN</button></a>
+        <a href="/es/academy.html"><button class="active">ES</button></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Academia Edunancial</h1>
+    <p class="subtitle">
+      Una ruta de certificación por niveles basada en nuestro marco Rojo
+      (Bienes Raíces), Blanco (Activos en Papel) y Azul (Dueño de Negocio).
+      Empieza gratis en el Nivel 1 y sube tan lejos como estés listo.
+    </p>
+
+    <div class="badge-row">
+      <span class="badge badge-red">Rojo — Bienes Raíces</span>
+      <span class="badge badge-white">Blanco — Activos en Papel</span>
+      <span class="badge badge-blue">Azul — Negocio</span>
+    </div>
+
+    <div class="level-grid">
+      <!-- Nivel 1 -->
+      <section class="level-card" id="level1">
+        <div>
+          <div class="level-label" style="color:#b91c1c;">Nivel 1 • Rojo</div>
+          <div class="level-name">Fundamentos de Disciplina Financiera</div>
+          <div class="level-tagline">Hábitos, mentalidad y sistemas simples para dejar de perder dinero.</div>
+          <ul class="level-list">
+            <li>Cómo realmente se mueve el dinero en tu vida.</li>
+            <li>Herramientas sencillas para ver a dónde se va el efectivo.</li>
+            <li>Primeros objetivos de ahorro y fondo de emergencia.</li>
+            <li>Introducción al método Rojo / Blanco / Azul.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$0</span>
+            <span class="price-note">Certificación de entrada • Apto para jóvenes y adultos.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-red" href="/payment.html#level1">Comenzar Nivel 1 — GRATIS</a>
+          </div>
+          <div class="level-footer">
+            No requiere tarjeta. Completar el Nivel 1 abre el acceso a los niveles pagados.
+          </div>
+        </div>
+      </section>
+
+      <!-- Nivel 2 -->
+      <section class="level-card" id="level2">
+        <div>
+          <div class="level-label" style="color:#374151;">Nivel 2 • Blanco</div>
+          <div class="level-name">Activos en Papel y Bases del Mercado</div>
+          <div class="level-tagline">De “la bolsa da miedo” a “entiendo cómo evaluar el riesgo”.</div>
+          <ul class="level-list">
+            <li>Cuentas: corretaje, retiro e implicaciones de impuestos.</li>
+            <li>Acciones, ETFs y opciones con explicaciones visuales simples.</li>
+            <li>Riesgo vs. rendimiento; cómo evitar decisiones emocionales.</li>
+            <li>Introducción a usar KPIs para medir tus inversiones.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$97</span>
+            <span class="price-note">Pago único • Incluye actualizaciones de este nivel.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-white" href="/payment.html#level2">Inscribirme al Nivel 2</a>
+          </div>
+          <div class="level-footer">
+            Recomendado para quienes completaron el Nivel 1 o ya tienen hábitos básicos de disciplina.
+          </div>
+        </div>
+      </section>
+
+      <!-- Nivel 3 -->
+      <section class="level-card" id="level3">
+        <div>
+          <div class="level-label" style="color:#1d4ed8;">Nivel 3 • Azul</div>
+          <div class="level-name">Dueño de Negocio y Estructura</div>
+          <div class="level-tagline">Convierte lo que sabes en un negocio real con estructura.</div>
+          <ul class="level-list">
+            <li>Opciones de entidad: solo como educación (no es asesoría legal).</li>
+            <li>Conceptos básicos de contratos, escudos de riesgo y documentos.</li>
+            <li>Modelos de ingresos, precios y KPIs sencillos.</li>
+            <li>Cómo el Rojo y el Blanco apoyan tu negocio.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$197</span>
+            <span class="price-note">Pago único • Incluye futuras mejoras de este nivel.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-blue" href="/payment.html#level3">Inscribirme al Nivel 3</a>
+          </div>
+          <div class="level-footer">
+            Para constructores serios listos para pasar de “idea” a “negocio estructurado”.
+          </div>
+        </div>
+      </section>
+
+      <!-- Nivel 4 -->
+      <section class="level-card" id="level4">
+        <div>
+          <div class="level-label" style="color:#b91c1c;">Nivel 4 • Rojo • Blanco • Azul</div>
+          <div class="level-name">Sistema de Riqueza Integrado</div>
+          <div class="level-tagline">Diseña un “family office” educativo usando los tres colores.</div>
+          <ul class="level-list">
+            <li>Combinando bienes raíces, activos en papel e ingreso de negocio.</li>
+            <li>Mapeo de flujo de efectivo y colchones para la incertidumbre.</li>
+            <li>Marcos básicos para trabajar con profesionales (CPA, abogado, asesor).</li>
+            <li>Planeación a largo plazo y salidas (visión educativa).</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$297</span>
+            <span class="price-note">Currículo avanzado • Incluye futuras revisiones.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-blue" href="/payment.html#level4">Aplicar al Nivel 4</a>
+          </div>
+          <div class="level-footer">
+            Ideal para quienes ya están aplicando los Niveles 1–3 y quieren coordinar los tres.
+          </div>
+        </div>
+      </section>
+
+      <!-- Nivel 5 -->
+      <section class="level-card" id="level5">
+        <div>
+          <div class="level-label" style="color:#d97706;">Nivel 5 • Máster</div>
+          <div class="level-name">Certificación Arquitecto Maestro</div>
+          <div class="level-tagline">Estrategia, liderazgo y pensamiento multi-país.</div>
+          <ul class="level-list">
+            <li>Diseñar sistemas que puedan vivir más allá de ti (visión educativa).</li>
+            <li>Pensar en distintas monedas, países y clases de activos.</li>
+            <li>Enseñar a otros: jóvenes, familia o grupos comunitarios.</li>
+            <li>Proyecto final: tu propio plano Rojo/Blanco/Azul.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$497</span>
+            <span class="price-note">Incluye revisión de tu proyecto final (comentarios educativos, no asesoría).</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-gold" href="/payment.html#level5">Solicitar Nivel Máster</a>
+          </div>
+          <div class="level-footer">
+            Entrada por cohortes limitadas. No todos los solicitantes serán aceptados.
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="note-box">
+      <strong>Importante:</strong> Edunancial ofrece educación, no asesoría legal, fiscal ni de inversión.
+      Siempre debes consultar con un profesional calificado antes de tomar decisiones legales,
+      de impuestos o de inversión.
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Edunancial, Inc. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
