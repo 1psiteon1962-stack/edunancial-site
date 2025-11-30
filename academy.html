@@ -2,620 +2,394 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Edunancial Academy – Certification Levels</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edunancial Academy — Certifications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
   <style>
-    * {
-      box-sizing: border-box;
-    }
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #050816;
-      color: #f9fafb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111827;
     }
-    a {
-      color: inherit;
-      text-decoration: none;
+    header {
+      padding: 8px 16px;
+      border-bottom: 1px solid #ddd;
+      background: #ffffff;
     }
-    .app-shell {
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 260px;
-      background: radial-gradient(circle at top, #111827, #020617);
-      border-right: 1px solid #1f2937;
-      padding: 1.5rem 1rem;
-    }
-    .logo {
-      font-size: 1.1rem;
-      font-weight: 700;
-      margin-bottom: 1.2rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-    .logo span {
-      color: #22c55e;
-    }
-    .back-link {
-      font-size: 0.8rem;
-      color: #9ca3af;
-      margin-bottom: 1rem;
-      display: inline-block;
-      border-radius: 999px;
-      border: 1px solid #1f2937;
-      padding: 0.25rem 0.6rem;
-    }
-    .sidebar p {
-      font-size: 0.85rem;
-      color: #9ca3af;
-      margin-bottom: 1.25rem;
-    }
-    .level-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .level-btn {
-      border: 1px solid #1f2937;
-      background: #020617;
-      padding: 0.6rem 0.75rem;
-      border-radius: 0.5rem;
-      font-size: 0.9rem;
-      color: #e5e7eb;
-      cursor: pointer;
-      text-align: left;
-      transition: all 0.15s ease;
-    }
-    .level-btn span.badge {
-      display: inline-block;
-      font-size: 0.7rem;
-      padding: 0.1rem 0.4rem;
-      margin-left: 0.4rem;
-      border-radius: 999px;
-      border: 1px solid #374151;
-      color: #9ca3af;
-    }
-    .level-btn:hover {
-      border-color: #22c55e;
-      transform: translateX(2px);
-    }
-    .level-btn.active {
-      background: linear-gradient(135deg, #16a34a, #22c55e);
-      border-color: transparent;
-      color: #022c22;
-    }
-    .level-btn.active span.badge {
-      border-color: rgba(0,0,0,0.25);
-      color: #022c22;
-    }
-
-    .main {
-      flex: 1;
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    .header {
+    .top-row {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: center;
-      gap: 0.5rem;
+      align-items: flex-start;
+      gap: 8px;
     }
-    .header-title {
-      font-size: 1.4rem;
-      font-weight: 600;
+    .brand {
+      font-weight: 700;
+      margin-right: 12px;
+      font-size: 18px;
     }
-    .header-sub {
-      font-size: 0.9rem;
-      color: #9ca3af;
+    nav a {
+      margin-right: 10px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #000;
     }
-    .pill {
-      font-size: 0.75rem;
-      border-radius: 999px;
-      padding: 0.25rem 0.75rem;
-      border: 1px solid #1f2937;
-      color: #9ca3af;
+    nav a:hover {
+      text-decoration: underline;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr);
-      gap: 1rem;
+    .lang {
+      margin-top: 6px;
     }
-    .card {
-      background: radial-gradient(circle at top left, #111827, #020617);
-      border-radius: 0.9rem;
-      padding: 1rem 1.1rem;
-      border: 1px solid #1f2937;
+    .lang a {
+      text-decoration: none;
     }
-    .card h2 {
-      margin: 0 0 0.5rem 0;
-      font-size: 1.1rem;
-    }
-    .card h3 {
-      margin: 0.4rem 0;
-      font-size: 0.95rem;
-    }
-    .card p {
-      margin: 0.2rem 0 0.4rem 0;
-      font-size: 0.9rem;
-      color: #d1d5db;
-    }
-    ul {
-      padding-left: 1.1rem;
-      margin: 0.4rem 0 0.6rem 0;
-    }
-    li {
-      font-size: 0.88rem;
-      color: #e5e7eb;
-      margin-bottom: 0.2rem;
-    }
-    .label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #9ca3af;
-      margin-bottom: 0.5rem;
-    }
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-top: 0.2rem;
-    }
-    .tag {
-      font-size: 0.75rem;
-      border-radius: 999px;
-      padding: 0.15rem 0.5rem;
-      border: 1px solid #374151;
-      color: #9ca3af;
-    }
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-    }
-    .btn-primary {
-      background: linear-gradient(135deg, #16a34a, #22c55e);
-      color: #022c22;
-      border-radius: 999px;
-      padding: 0.4rem 0.9rem;
-      border: none;
-      font-size: 0.88rem;
-      font-weight: 600;
+    .lang button {
+      padding: 3px 8px;
+      margin-right: 4px;
+      border-radius: 4px;
+      border: 1px solid #b91c1c;
+      font-size: 12px;
       cursor: pointer;
+      background: #ffffff;
     }
-    .btn-secondary {
-      background: transparent;
-      color: #e5e7eb;
-      border-radius: 999px;
-      padding: 0.4rem 0.9rem;
-      border: 1px solid #374151;
-      font-size: 0.85rem;
-      cursor: pointer;
+    .lang .active {
+      background: #b91c1c;
+      color: #fff;
     }
-    .progress {
-      font-size: 0.8rem;
-      color: #9ca3af;
-      margin-top: 0.5rem;
-    }
-    .progress-bar {
-      position: relative;
-      height: 6px;
-      border-radius: 999px;
-      background: #111827;
-      overflow: hidden;
-      margin-top: 0.25rem;
-    }
-    .progress-bar-inner {
-      height: 100%;
-      background: linear-gradient(90deg, #22c55e, #4ade80);
-      width: 0%;
-      transition: width 0.2s ease;
-    }
-    .legal {
-      font-size: 0.7rem;
-      color: #6b7280;
-      margin-top: 0.6rem;
+    .lang .inactive {
+      background: #fff;
+      color: #b91c1c;
     }
 
-    @media (max-width: 900px) {
-      .app-shell {
-        flex-direction: column;
-      }
-      .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #1f2937;
-      }
-      .grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
+    main {
+      max-width: 1000px;
+      margin: 24px auto 40px;
+      padding: 0 12px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    .subtitle {
+      max-width: 650px;
+      font-size: 15px;
+      color: #4b5563;
+    }
+
+    .badge-row {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+    }
+    .badge {
+      border-radius: 999px;
+      padding: 4px 10px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .badge-red { background: #b91c1c; }
+    .badge-white { background: #6b7280; }
+    .badge-blue { background: #1d4ed8; }
+
+    .level-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .level-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .level-label {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .level-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .level-tagline {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 8px;
+    }
+    .level-list {
+      font-size: 13px;
+      padding-left: 18px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+    .price-row {
+      margin-top: 8px;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .price-main {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .price-note {
+      font-size: 11px;
+      color: #4b5563;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .btn-red {
+      background: #b91c1c;
+      color: #ffffff;
+    }
+    .btn-white {
+      background: #ffffff;
+      color: #111827;
+      border: 1px solid #d1d5db;
+    }
+    .btn-blue {
+      background: #1d4ed8;
+      color: #ffffff;
+    }
+    .btn-gold {
+      background: #d97706;
+      color: #ffffff;
+    }
+
+    .level-footer {
+      margin-top: 10px;
+      font-size: 11px;
+      color: #6b7280;
+    }
+
+    .note-box {
+      margin-top: 24px;
+      padding: 12px 14px;
+      border-radius: 6px;
+      border-left: 4px solid #1d4ed8;
+      background: #e5f2ff;
+      font-size: 13px;
+      color: #1f2937;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      padding: 8px 16px;
+      font-size: 12px;
+      text-align: center;
+      color: #555;
+      background: #ffffff;
     }
   </style>
 </head>
 <body>
-
-<div class="app-shell">
-  <aside class="sidebar">
-    <a href="index.html" class="back-link">← Back to main site</a>
-    <div class="logo">
-      EDUNANCIAL <span>ACADEMY</span>
-    </div>
-    <p>
-      Certification ladder for wealth, investing, entrepreneurship, and global expansion.
-      Select a level to see modules, requirements, and outcomes.
-    </p>
-    <div class="level-list" id="levelList"></div>
-  </aside>
-
-  <main class="main">
-    <div class="header">
+  <header>
+    <div class="top-row">
       <div>
-        <div class="header-title" id="headerTitle">Select a certification level</div>
-        <div class="header-sub" id="headerSub">
-          Start with Foundations, then climb all the way to Master Architect.
-        </div>
+        <span class="brand">Edunancial</span>
+        <nav>
+          <a href="/index.html">Our Story</a>
+          <a href="/movement.html">Start Learning</a>
+          <a href="/videos.html">Videos</a>
+          <a href="/catalog.html">Catalog</a>
+          <a href="/memberships-en.html">Memberships</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
       </div>
-      <div class="pill" id="pillInfo">
-        5-Level Certification System • Private Training, Non-Accredited
+      <div class="lang">
+        <a href="/academy.html"><button class="active">EN</button></a>
+        <a href="/es/academy.html"><button class="inactive">ES</button></a>
       </div>
     </div>
+  </header>
 
-    <div class="grid">
-      <section class="card" id="detailsCard">
-        <div class="label">Overview</div>
-        <h2 id="levelName">No level selected</h2>
-        <p id="levelPurpose">
-          Choose a level from the left to see syllabus, requirements, and outcomes.
-        </p>
+  <main>
+    <h1>Edunancial Academy</h1>
+    <p class="subtitle">
+      A structured, level-based certification path built on our Red (Real Estate),
+      White (Paper Assets), and Blue (Business Ownership) framework. Start free at
+      Level 1 and climb as far as you’re ready to go.
+    </p>
 
-        <h3>Modules in This Level</h3>
-        <ul id="moduleList">
-          <li>—</li>
-        </ul>
+    <div class="badge-row">
+      <span class="badge badge-red">Red — Real Estate</span>
+      <span class="badge badge-white">White — Paper Assets</span>
+      <span class="badge badge-blue">Blue — Business</span>
+    </div>
 
-        <h3>Requirements</h3>
-        <ul id="reqList">
-          <li>—</li>
-        </ul>
-
-        <h3>Outcome</h3>
-        <p id="outcomeText">—</p>
-      </section>
-
-      <section class="card">
-        <div class="label">Track & Badge</div>
-        <h3 id="badgeName">Certification Badge</h3>
-        <p id="badgeDesc">
-          Earn this badge by completing all modules, meeting exam requirements, and demonstrating applied mastery at this level.
-        </p>
-
-        <div class="label">Tracks Covered</div>
-        <div class="tags" id="trackTags"></div>
-
-        <div class="cta-row">
-          <button class="btn-primary" id="btnStart">Start this level</button>
-          <button class="btn-secondary" id="btnPreview">View sample exam items</button>
+    <div class="level-grid">
+      <!-- Level 1 -->
+      <section class="level-card" id="level1">
+        <div>
+          <div class="level-label" style="color:#b91c1c;">Level 1 • Red</div>
+          <div class="level-name">Foundations of Financial Discipline</div>
+          <div class="level-tagline">Habits, mindset, and simple systems to stop bleeding money.</div>
+          <ul class="level-list">
+            <li>How money really flows through your life.</li>
+            <li>Simple tracking tools to see where cash goes.</li>
+            <li>First savings targets and emergency buffer.</li>
+            <li>Intro to the Red / White / Blue method.</li>
+          </ul>
         </div>
-
-        <div class="progress">
-          Your estimated completion progress:
-          <div class="progress-bar">
-            <div class="progress-bar-inner" id="progressInner"></div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$0</span>
+            <span class="price-note">Entry-level certification • Teen & adult friendly.</span>
           </div>
-          <span id="progressLabel">0% complete</span>
-        </div>
-
-        <div class="legal">
-          Edunancial Academy™ provides private training and certification.
-          Programs are educational in nature, not state-accredited, and do not confer degrees.
+          <div style="margin-top:10px;">
+            <a class="btn btn-red" href="/payment.html#level1">Start Level 1 — FREE</a>
+          </div>
+          <div class="level-footer">
+            No credit card required. Completing Level 1 unlocks access to paid levels.
+          </div>
         </div>
       </section>
+
+      <!-- Level 2 -->
+      <section class="level-card" id="level2">
+        <div>
+          <div class="level-label" style="color:#374151;">Level 2 • White</div>
+          <div class="level-name">Paper Assets & Market Basics</div>
+          <div class="level-tagline">From “stocks are scary” to “I know how to evaluate risk.”</div>
+          <ul class="level-list">
+            <li>Accounts: brokerage, retirement, and tax implications.</li>
+            <li>Stocks, ETFs, options: simple, visual explanations.</li>
+            <li>Risk vs. reward; how to avoid emotional trades.</li>
+            <li>Intro to using KPIs to measure your investments.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$97</span>
+            <span class="price-note">One-time access • Updates included.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-white" href="/payment.html#level2">Enroll in Level 2</a>
+          </div>
+          <div class="level-footer">
+            Recommended for learners who completed Level 1 or can show basic discipline habits.
+          </div>
+        </div>
+      </section>
+
+      <!-- Level 3 -->
+      <section class="level-card" id="level3">
+        <div>
+          <div class="level-label" style="color:#1d4ed8;">Level 3 • Blue</div>
+          <div class="level-name">Business Ownership & Structure</div>
+          <div class="level-tagline">Turn what you know into a real, legally-structured business.</div>
+          <ul class="level-list">
+            <li>Choosing an entity: sole prop vs LLC vs corporation (education only).</li>
+            <li>Basic contracts, risk shields, and documentation.</li>
+            <li>Revenue models, pricing, and simple KPIs.</li>
+            <li>How Red (real estate) and White (paper assets) support your business.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$197</span>
+            <span class="price-note">One-time access • Includes future updates to this level.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-blue" href="/payment.html#level3">Enroll in Level 3</a>
+          </div>
+          <div class="level-footer">
+            For serious builders ready to move from “idea” to “structured business.”
+          </div>
+        </div>
+      </section>
+
+      <!-- Level 4 -->
+      <section class="level-card" id="level4">
+        <div>
+          <div class="level-label" style="color:#b91c1c;">Level 4 • Red • White • Blue</div>
+          <div class="level-name">Integrated Wealth Systems</div>
+          <div class="level-tagline">Design a personal “family office” using all three colors.</div>
+          <ul class="level-list">
+            <li>Combining real estate, paper assets, and business income streams.</li>
+            <li>Cashflow mapping and buffers for uncertainty.</li>
+            <li>Basic frameworks for working with pros (CPA, attorney, advisor).</li>
+            <li>Long-term planning and exit options (educational overview).</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$297</span>
+            <span class="price-note">Advanced curriculum • Includes future revisions.</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-blue" href="/payment.html#level4">Apply for Level 4</a>
+          </div>
+          <div class="level-footer">
+            Best for learners already applying Levels 1–3 and ready to coordinate all three.
+          </div>
+        </div>
+      </section>
+
+      <!-- Level 5 -->
+      <section class="level-card" id="level5">
+        <div>
+          <div class="level-label" style="color:#d97706;">Level 5 • Master</div>
+          <div class="level-name">Master Architect Certification</div>
+          <div class="level-tagline">Strategy, leadership, and multi-country thinking.</div>
+          <ul class="level-list">
+            <li>Building systems that can outlive you (educational frameworks).</li>
+            <li>Thinking across currencies, countries, and asset classes.</li>
+            <li>Teaching others: mentoring teens, family, or community groups.</li>
+            <li>Capstone project: design your own Red/White/Blue blueprint.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-row">
+            <span class="price-main">$497</span>
+            <span class="price-note">Includes review of your capstone submission (non-legal, educational feedback only).</span>
+          </div>
+          <div style="margin-top:10px;">
+            <a class="btn btn-gold" href="/payment.html#level5">Request Master Enrollment</a>
+          </div>
+          <div class="level-footer">
+            Limited cohort-based entry. Not every applicant will be accepted for Level 5.
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="note-box">
+      <strong>Important:</strong> Edunancial provides education, not legal, tax, or investment advice. 
+      All examples are for training purposes only. You should always consult a qualified professional
+      before making legal, tax, or investment decisions.
     </div>
   </main>
-</div>
 
-<script>
-  const levels = [
-    {
-      id: "L1",
-      name: "Level 1 – Edunancial Certified Foundations™",
-      shortName: "Foundations",
-      badge: "Foundations Badge",
-      purpose: "Establish core financial literacy and personal wealth awareness skills.",
-      modules: [
-        "Money Mindset & Personal Discipline",
-        "Budget Construction & Cashflow Tracking",
-        "Assets vs Liabilities and Net Worth",
-        "Emergency Funds & Risk Management",
-        "Inflation, Interest, and Time Value of Money"
-      ],
-      requirements: [
-        "Complete all modules",
-        "Pass final exam with a 70% minimum score"
-      ],
-      outcome:
-        "Students demonstrate the ability to manage personal finances confidently, understand core concepts, and build a stable foundation for future wealth.",
-      tracks: [
-        "Financial Literacy & Wealth Development"
-      ],
-      estimatedProgress: 0,
-      examPreview: [
-        {
-          q: "What is the primary purpose of an emergency fund?",
-          a: "To cover unexpected expenses without using debt."
-        },
-        {
-          q: "Which of the following is an asset?",
-          a: "Cash in a savings account."
-        }
-      ]
-    },
-    {
-      id: "L2",
-      name: "Level 2 – Edunancial Certified Investor™",
-      shortName: "Investor",
-      badge: "Certified Investor Badge",
-      purpose: "Teach beginner investment principles and basic brokerage operation.",
-      modules: [
-        "Market Fundamentals: Stocks, ETFs, and Bonds",
-        "Compound Growth & Dividends",
-        "Risk Management & Diversification",
-        "Opening and Funding a Brokerage Account",
-        "Long-Term Investing vs Short-Term Speculation"
-      ],
-      requirements: [
-        "Complete all Level 2 modules",
-        "Pass final exam with a 70% minimum score"
-      ],
-      outcome:
-        "Students can open, manage, and evaluate basic investment portfolios responsibly, with a long-term mindset and risk awareness.",
-      tracks: [
-        "Financial Literacy & Wealth Development",
-        "Entrepreneurship & Business Infrastructure"
-      ],
-      estimatedProgress: 0,
-      examPreview: [
-        {
-          q: "What is diversification?",
-          a: "Spreading investments across different assets to reduce risk."
-        },
-        {
-          q: "What does ‘compound growth’ describe?",
-          a: "Earnings generating additional earnings over time."
-        }
-      ]
-    },
-    {
-      id: "L3",
-      name: "Level 3 – Edunancial Certified Entrepreneur™",
-      shortName: "Entrepreneur",
-      badge: "Entrepreneur Builder Badge",
-      purpose:
-        "Provide a framework for business formation and early-stage growth.",
-      modules: [
-        "Choosing Between LLC and Corporation",
-        "Name Registration, EIN, and Business Banking",
-        "Brand Positioning & Story",
-        "Sales, Marketing Funnels & Revenue Systems",
-        "Basic Hiring, Contracts, and Compliance"
-      ],
-      requirements: [
-        "Complete all Level 3 modules",
-        "Submit a basic business launch or relaunch plan",
-        "Pass final exam with a 75% minimum score"
-      ],
-      outcome:
-        "Students form a legal business, establish early revenue systems, and understand how to move from idea into structured execution.",
-      tracks: [
-        "Entrepreneurship & Business Infrastructure"
-      ],
-      estimatedProgress: 0,
-      examPreview: [
-        {
-          q: "Why is separating business and personal banking important?",
-          a: "To keep records clean and protect personal liability."
-        },
-        {
-          q: "Which factor matters most in choosing an entity type?",
-          a: "Liability, tax treatment, and growth plans."
-        }
-      ]
-    },
-    {
-      id: "L4",
-      name: "Level 4 – Edunancial Global Builder™",
-      shortName: "Global Builder",
-      badge: "Global Expansion Badge",
-      purpose:
-        "Equip entrepreneurs to expand beyond one country and operate globally.",
-      modules: [
-        "International Incorporation Models",
-        "Cross-Border Tax Awareness & Risk",
-        "Multi-Region Payment & Banking Infrastructure",
-        "Building Remote & Distributed Teams",
-        "International Compliance and Basic Legal Awareness"
-      ],
-      requirements: [
-        "Complete all Level 4 modules",
-        "Submit a global expansion or cross-border entry plan",
-        "Pass final exam with an 80% minimum score"
-      ],
-      outcome:
-        "Students can design and implement structures that enable multi-region operations, cross-border revenue, and international teams.",
-      tracks: [
-        "Cross-Border Scaling & International Expansion",
-        "Entrepreneurship & Business Infrastructure"
-      ],
-      estimatedProgress: 0,
-      examPreview: [
-        {
-          q: "Why is cross-border tax awareness important?",
-          a: "To avoid double taxation and unexpected legal exposure."
-        },
-        {
-          q: "What is one benefit of a distributed team?",
-          a: "Ability to operate across time zones and markets."
-        }
-      ]
-    },
-    {
-      id: "L5",
-      name: "Level 5 – Edunancial Master Architect™",
-      shortName: "Master Architect",
-      badge: "Master Architect Elite Badge",
-      purpose:
-        "Train top-tier strategic wealth architects for high-level decision making.",
-      modules: [
-        "Capital Stacks and Funding Rounds",
-        "Mergers, Acquisitions & Deal Structures",
-        "Large-Scale Wealth Systems & Family Holdings",
-        "Global Market Domination Strategies",
-        "Final Capstone: Multi-Entity, Multi-Region Execution Plan"
-      ],
-      requirements: [
-        "Complete all Level 5 modules",
-        "Pass final exam with an 85% minimum score",
-        "Complete oral evaluation / strategy defense",
-        "Submit a comprehensive expansion capstone"
-      ],
-      outcome:
-        "Graduates operate as executive-level architects, capable of structuring capital, entities, and expansion plans at scale.",
-      tracks: [
-        "Master Strategy & Executive Operations",
-        "Cross-Border Scaling & International Expansion"
-      ],
-      estimatedProgress: 0,
-      examPreview: [
-        {
-          q: "What is a capital stack?",
-          a: "The layered structure of debt and equity used to finance a project."
-        },
-        {
-          q: "Why might a company pursue an acquisition?",
-          a: "To gain market share, capabilities, or strategic assets rapidly."
-        }
-      ]
-    }
-  ];
-
-  let currentLevelId = null;
-
-  function $(id) {
-    return document.getElementById(id);
-  }
-
-  function renderLevelList() {
-    const container = $("levelList");
-    container.innerHTML = "";
-    levels.forEach((lvl) => {
-      const btn = document.createElement("button");
-      btn.className = "level-btn";
-      btn.textContent = lvl.name;
-      const badgeSpan = document.createElement("span");
-      badgeSpan.className = "badge";
-      badgeSpan.textContent = lvl.shortName;
-      btn.appendChild(badgeSpan);
-      btn.onclick = () => selectLevel(lvl.id);
-      btn.dataset.levelId = lvl.id;
-      container.appendChild(btn);
-    });
-  }
-
-  function selectLevel(id) {
-    currentLevelId = id;
-    const lvl = levels.find((l) => l.id === id);
-    if (!lvl) return;
-
-    document.querySelectorAll(".level-btn").forEach((btn) => {
-      btn.classList.toggle("active", btn.dataset.levelId === id);
-    });
-
-    $("headerTitle").textContent = lvl.name;
-    $("headerSub").textContent = lvl.purpose;
-    $("pillInfo").textContent = `Tracks: ${lvl.tracks.join(" • ")}`;
-
-    $("levelName").textContent = lvl.name;
-    $("levelPurpose").textContent = lvl.purpose;
-
-    const moduleList = $("moduleList");
-    moduleList.innerHTML = "";
-    lvl.modules.forEach((m) => {
-      const li = document.createElement("li");
-      li.textContent = m;
-      moduleList.appendChild(li);
-    });
-
-    const reqList = $("reqList");
-    reqList.innerHTML = "";
-    lvl.requirements.forEach((r) => {
-      const li = document.createElement("li");
-      li.textContent = r;
-      reqList.appendChild(li);
-    });
-
-    $("outcomeText").textContent = lvl.outcome;
-
-    $("badgeName").textContent = lvl.badge;
-    $("badgeDesc").textContent =
-      "Earn this badge by completing all modules, meeting exam requirements, and demonstrating applied mastery at this level.";
-
-    const trackTags = $("trackTags");
-    trackTags.innerHTML = "";
-    lvl.tracks.forEach((t) => {
-      const span = document.createElement("span");
-      span.className = "tag";
-      span.textContent = t;
-      trackTags.appendChild(span);
-    });
-
-    const progress = lvl.estimatedProgress || 0;
-    $("progressInner").style.width = progress + "%";
-    $("progressLabel").textContent = progress + "% complete";
-  }
-
-  function attachButtons() {
-    $("btnStart").onclick = () => {
-      if (!currentLevelId) {
-        alert("Select a level first.");
-        return;
-      }
-      alert(
-        "In the full production app, this would open the lesson player for " +
-          currentLevelId +
-          ". For now, this is a placeholder action."
-      );
-    };
-
-    $("btnPreview").onclick = () => {
-      if (!currentLevelId) {
-        alert("Select a level first.");
-        return;
-      }
-      const lvl = levels.find((l) => l.id === currentLevelId);
-      if (!lvl || !lvl.examPreview || lvl.examPreview.length === 0) {
-        alert("No preview questions defined for this level yet.");
-        return;
-      }
-      const text = lvl.examPreview
-        .map(
-          (item, idx) =>
-            `Q${idx + 1}: ${item.q}\nAnswer: ${item.a}`
-        )
-        .join("\n\n");
-      alert("Sample exam items for " + lvl.shortName + ":\n\n" + text);
-    };
-  }
-
-  renderLevelList();
-  attachButtons();
-  selectLevel("L1");
-</script>
-
+  <footer>
+    © 2025 Edunancial, Inc. All rights reserved.
+  </footer>
 </body>
 </html>
