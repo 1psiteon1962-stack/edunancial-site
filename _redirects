@@ -1,17 +1,10 @@
-# Home lands on Our Story
-/ /our-story.html 200!
+# --- LATIN AMERICA + CARIBBEAN + SPAIN → SPANISH MIRROR (ACADEMY FLOW) ---
 
-# Language shortcuts
-/en /our-story.html 200
-/es /nuestra-historia.html 200
+/index.html    /es/index.html     302!  Country=AR,BO,BR,CL,CO,CR,CU,DO,EC,SV,GT,HN,MX,NI,PA,PY,PE,PR,UY,VE,ES
+/academy.html  /es/academy.html   302!  Country=AR,BO,BR,CL,CO,CR,CU,DO,EC,SV,GT,HN,MX,NI,PA,PY,PE,PR,UY,VE,ES
+/payment.html  /es/payment.html   302!  Country=AR,BO,BR,CL,CO,CR,CU,DO,EC,SV,GT,HN,MX,NI,PA,PY,PE,PR,UY,VE,ES
 
-# Canonical pages
-/our-story /our-story.html 200
-/nuestra-historia /nuestra-historia.html 200
-/movement /movement.html 200
-/movimiento /movimiento.html 200
-/start-learning /start-learning.html 200
-/empezar /empezar.html 200
+# (You can add more lines as you create additional Spanish mirror pages.)
 
-# Ensure Spanish 404 has its own route (optional display only)
-/404-es /404-es.html 404
+# --- FALLBACK: SERVE FILES NORMALLY ---
+# Netlify will serve all other paths (/books.html, /legal.html, etc.) as usual.
