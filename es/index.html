@@ -6,105 +6,202 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="/style.css" />
   <style>
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.6; }
-    header { padding:8px 16px; border-bottom:1px solid #ddd; }
-    .top-row { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; }
-    .brand { font-weight:700; margin-right:12px; }
-    nav a { margin-right:10px; font-size:14px; text-decoration:none; color:#000; }
-    nav a:hover { text-decoration:underline; }
-    .lang { margin-top:6px; }
-    .lang a { text-decoration:none; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #111827;
+    }
+    header {
+      padding: 8px 16px;
+      border-bottom: 1px solid #ddd;
+      background: #ffffff;
+    }
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .brand {
+      font-weight: 700;
+      margin-right: 12px;
+      font-size: 18px;
+    }
+    nav a {
+      margin-right: 10px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #000;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lang {
+      margin-top: 6px;
+    }
+    .lang a {
+      text-decoration: none;
+    }
     .lang button {
-      padding:3px 8px; margin-right:4px;
-      border-radius:4px; border:1px solid #b91c1c;
-      font-size:12px; cursor:pointer;
+      padding: 3px 8px;
+      margin-right: 4px;
+      border-radius: 4px;
+      border: 1px solid #b91c1c;
+      font-size: 12px;
+      cursor: pointer;
+      background: #ffffff;
     }
-    .lang .active { background:#b91c1c; color:#fff; }
-    .lang .inactive { background:#fff; color:#b91c1c; }
-    main { max-width:800px; margin:16px auto 40px; padding:0 12px; }
-    h1 { margin-top:0; font-size:26px; }
-    h2 { margin-top:24px; font-size:18px; }
-    .btn-row { margin-top:16px; }
+    .lang .active {
+      background: #b91c1c;
+      color: #fff;
+    }
+    .lang .inactive {
+      background: #fff;
+      color: #b91c1c;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 16px auto 40px;
+      padding: 0 12px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+    h2 {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+    .btn-row {
+      margin-top: 16px;
+    }
     .btn {
-      display:inline-block; padding:8px 16px;
-      border-radius:4px; border:none;
-      text-decoration:none; font-size:14px;
-      margin-right:8px;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      margin-right: 8px;
+      cursor: pointer;
+      white-space: nowrap;
     }
-    .btn-primary { background:#b91c1c; color:#fff; }
-    .btn-secondary { background:#b91c1c; color:#fff; }
-    footer { border-top:1px solid #ddd; padding:8px 16px; font-size:12px; text-align:center; color:#555; }
+    .btn-primary {
+      background: #b91c1c;
+      color: #fff;
+    }
+    .btn-secondary {
+      background: #ffffff;
+      color: #b91c1c;
+      border: 1px solid #b91c1c;
+    }
+    .btn-academy {
+      background: #1d4ed8;
+      color: #ffffff;
+    }
+
+    .academy-cta-note {
+      margin-top: 24px;
+      padding: 12px 14px;
+      border-left: 4px solid #1d4ed8;
+      background: #f3f4ff;
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      padding: 8px 16px;
+      font-size: 12px;
+      text-align: center;
+      color: #555;
+      background: #ffffff;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
-
-<header>
-  <div class="top-row">
-    <div>
-      <span class="brand">Edunancial</span>
-      <nav>
-        <a href="/es/index.html">Nuestra Historia</a>
-        <a href="/es/movimiento.html">Aprender</a>
-        <a href="/es/video.html">Videos</a>
-        <a href="/es/catalogo.html">Catálogo</a>
-        <a href="/es/membresias.html">Membresías</a>
-        <a href="/es/contacto.html">Contacto</a>
-      </nav>
+  <header>
+    <div class="top-row">
+      <div>
+        <span class="brand">Edunancial</span>
+        <nav>
+          <a href="/es/index.html">Nuestra Historia</a>
+          <a href="/movement.html">Start Learning</a>
+          <a href="/videos.html">Videos</a>
+          <a href="/catalog.html">Catalog</a>
+          <a href="/memberships-en.html">Memberships</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
       <div class="lang">
         <a href="/index.html"><button class="inactive">EN</button></a>
         <a href="/es/index.html"><button class="active">ES</button></a>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<main>
-  <h1>Nuestra Historia</h1>
+  <main>
+    <h1>Nuestra Historia</h1>
 
-  <p><strong>La libertad financiera empieza con educación, no con adivinanzas.</strong></p>
+    <p><strong>La libertad financiera empieza con educación, no con adivinanzas.</strong></p>
 
-  <p>
-    Un día, cuando mi hijo tenía 11 años, entró a mi cuarto justo cuando llegó una
-    notificación de depósito electrónico. Sus ojos se abrieron grandes. “¿Cómo hiciste
-    dinero así?”, preguntó. Yo le contesté: “Usando la cabeza”. Luego le pregunté:
-    “¿Quieres trabajar con tu cabeza?”. Él dijo: “Sí… pero no sé cómo”.
-    Ahí nació <strong>Edunancial</strong>.
-  </p>
+    <p>
+      Un día, cuando mi hijo tenía 11 años, entró a mi cuarto justo cuando llegó
+      una notificación de depósito electrónico. Se le abrieron los ojos:
+      “¿Cómo hiciste dinero así?”. Le dije: “Usando la cabeza”. Luego le pregunté:
+      “¿Quieres trabajar con tu cabeza?”. Él dijo: “Sí… pero no sé cómo”.
+      Ahí nació <strong>Edunancial</strong>.
+    </p>
 
-  <p>
-    A los 11 años empezó a comprar monedas de plata: disciplina y activos en vez de dulces
-    y juegos. Alrededor de los 12 comenzó a analizar acciones: ¿sobrevaloradas o
-    subvaloradas? ¿Por qué? Después de presentar sus razones, comprábamos. Sus resultados
-    promediaban entre 7–12%. A los 15 añadió oro, y hoy también consideramos gemas como
-    diamantes, rubíes o esmeraldas.
-  </p>
+    <p>
+      A los 11 empezó a comprar monedas de plata: disciplina y activos en vez de dulces
+      y juegos. Alrededor de los 12, comenzó a analizar acciones: sobrevaluadas,
+      subvaluadas y por qué. Después de presentar sus razones, comprábamos.
+      Sus resultados promediaban entre 7–12%. A los 15 añadió el oro, y hoy
+      pensamos en activos en vez de solo gastar.
+    </p>
 
-  <p>
-    El método <strong>Rojo, Blanco y Azul</strong> no te dice qué comprar; te enseña a
-    preguntar por qué compras y qué hará eso por ti, poniéndote a ti en control.
-  </p>
+    <p>
+      El método de <strong>Rojo, Blanco y Azul</strong> no te dice qué comprar;
+      te enseña a preguntar por qué estás comprando y qué hará eso por ti,
+      poniéndote en control.
+    </p>
 
-  <div class="btn-row">
-    <a class="btn btn-primary" href="/es/movimiento.html">Saber más</a>
-    <a class="btn btn-secondary" href="/es/catalogo.html">Obtener materiales gratis</a>
-  </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="/movement.html">Ver cómo funciona</a>
+      <a class="btn btn-secondary" href="/free-resources.html">Recursos gratis</a>
+      <a class="btn btn-academy" href="/academy.html#level1">Comenzar Nivel 1 — GRATIS</a>
+    </div>
 
-  <h2>Lo que encontrarás aquí</h2>
-  <ul>
-    <li>Lecciones bilingües, paso a paso.</li>
-    <li>Ejemplos reales (presupuesto, crédito, ahorro, inicios de negocio).</li>
-    <li>Comunidad, acompañamiento y herramientas prácticas.</li>
-  </ul>
+    <div class="academy-cta-note">
+      La Academia Edunancial está construida con la misma estructura Rojo
+      (Bienes Raíces), Blanco (Activos en Papel) y Azul (Dueño de Negocio).
+      El Nivel 1 es gratis para que empieces a construir disciplina financiera
+      hoy y luego decidas hasta dónde quieres llegar.
+    </div>
 
-  <p>
-    Si todavía no quieres unirte, no pasa nada. Puedes elegir una membresía cuando te
-    sientas cómodo y, más adelante, usar nuestra app para seguir tus propios KPIs.
-  </p>
-</main>
+    <h2>Qué encontrarás aquí</h2>
+    <ul>
+      <li>Lecciones paso a paso, bilingües.</li>
+      <li>Ejemplos reales (presupuesto, crédito, ahorro, primeros negocios).</li>
+      <li>Comunidad, responsabilidad y herramientas prácticas.</li>
+    </ul>
 
-<footer>
-  © 2025 Edunancial, Inc. Todos los derechos reservados.
-</footer>
+    <p>
+      ¿Listo para unirte después? Elige una membresía cuando te sientas cómodo
+      y sube de nivel cuando estés listo para medir tus propios KPIs con nuestra app.
+    </p>
+  </main>
 
+  <footer>
+    © 2025 Edunancial, Inc. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
