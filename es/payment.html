@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edunancial — Pago Seguro (Vista previa)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    header {
+      padding: 8px 16px;
+      border-bottom: 1px solid #111827;
+      background: #020617;
+    }
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .brand {
+      font-weight: 700;
+      margin-right: 12px;
+      font-size: 18px;
+      color: #e5e7eb;
+    }
+    nav a {
+      margin-right: 10px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #e5e7eb;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lang {
+      margin-top: 6px;
+    }
+    .lang a {
+      text-decoration: none;
+    }
+    .lang button {
+      padding: 3px 8px;
+      margin-right: 4px;
+      border-radius: 4px;
+      border: 1px solid #e5e7eb;
+      font-size: 12px;
+      cursor: pointer;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    .lang .active {
+      background: #e5e7eb;
+      color: #020617;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 24px auto 40px;
+      padding: 0 12px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+      color: #f9fafb;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #9ca3af;
+      max-width: 640px;
+    }
+
+    .layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
+      gap: 20px;
+    }
+    @media (max-width: 800px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: #020617;
+      border-radius: 10px;
+      border: 1px solid #111827;
+      padding: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+    .panel h2 {
+      margin-top: 0;
+      font-size: 16px;
+      color: #e5e7eb;
+    }
+    .panel small {
+      color: #9ca3af;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #1f2937;
+      background: #020617;
+      color: #e5e7eb;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    textarea {
+      min-height: 60px;
+      resize: vertical;
+    }
+
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    @media (max-width: 600px) {
+      .row-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .pill-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .pill {
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      border: 1px solid #1f2937;
+      cursor: pointer;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    .pill-red { border-color:#b91c1c; }
+    .pill-white { border-color:#9ca3af; }
+    .pill-blue { border-color:#1d4ed8; }
+    .pill-gold { border-color:#d97706; }
+
+    .gateway-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 8px 0 0;
+      font-size: 13px;
+    }
+    .gateway-list li {
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .gateway-tag {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: #111827;
+      color: #e5e7eb;
+      white-space: nowrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: not-allowed; /* deshabilitado en vista previa */
+      text-align: center;
+      white-space: nowrap;
+      margin-top: 14px;
+    }
+    .btn-main {
+      background: #22c55e;
+      color: #020617;
+      font-weight: 600;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: #e5e7eb;
+      border: 1px solid #4b5563;
+      margin-left: 8px;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-top: 8px;
+    }
+
+    .level-anchor {
+      font-size: 13px;
+      color: #cbd5f5;
+      margin-top: 10px;
+    }
+    .level-anchor span {
+      font-weight: 600;
+    }
+
+    footer {
+      border-top: 1px solid #111827;
+      padding: 8px 16px;
+      font-size: 12px;
+      text-align: center;
+      color: #6b7280;
+      background: #020617;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-row">
+      <div>
+        <span class="brand">Edunancial</span>
+        <nav>
+          <a href="/es/index.html">Nuestra Historia</a>
+          <a href="/es/academy.html">Academia</a>
+          <a href="/catalog.html">Catalog</a>
+          <a href="/memberships-en.html">Memberships</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="lang">
+        <a href="/payment.html"><button>EN</button></a>
+        <a href="/es/payment.html"><button class="active">ES</button></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Pago Seguro (Vista previa)</h1>
+    <p class="subtitle">
+      Esta página es una <strong>vista previa no funcional</strong> de la experiencia de pago.
+      Aquí no se procesa ningún cargo. Cuando se conecten los procesadores de pago,
+      solo será necesario actualizar este archivo.
+    </p>
+
+    <div class="layout">
+      <!-- Izquierda: pedido + detalles -->
+      <section class="panel">
+        <h2>Detalles del pedido</h2>
+        <small>
+          Si llegaste desde un nivel específico, abajo verás un resumen rápido
+          de los Niveles 1–5.
+        </small>
+
+        <label for="level">Nivel de certificación</label>
+        <select id="level" name="level">
+          <option value="">Selecciona un nivel…</option>
+          <option value="L1">Nivel 1 — Fundamentos (GRATIS)</option>
+          <option value="L2">Nivel 2 — Activos en Papel</option>
+          <option value="L3">Nivel 3 — Dueño de Negocio</option>
+          <option value="L4">Nivel 4 — Sistema Integrado</option>
+          <option value="L5">Nivel 5 — Arquitecto Maestro</option>
+        </select>
+
+        <div class="row-2">
+          <div>
+            <label for="currency">Moneda</label>
+            <select id="currency" name="currency">
+              <option value="USD">USD — Dólar estadounidense</option>
+              <option value="DOP">DOP — Peso dominicano</option>
+              <option value="EUR">EUR — Euro</option>
+              <option value="MXN">MXN — Peso mexicano</option>
+              <option value="NGN">NGN — Naira nigeriana</option>
+              <option value="ZAR">ZAR — Rand sudafricano</option>
+              <option value="GBP">GBP — Libra esterlina</option>
+            </select>
+          </div>
+          <div>
+            <label for="location">Tu área (para precios más adelante)</label>
+            <select id="location" name="location">
+              <option value="">Selecciona…</option>
+              <option value="NA">Norteamérica</option>
+              <option value="LATAM">Latinoamérica y Caribe</option>
+              <option value="AFRICA">África</option>
+              <option value="EU">Unión Europea / Reino Unido</option>
+              <option value="ASIA">Asia</option>
+            </select>
+          </div>
+        </div>
+
+        <label for="notes">Notas (opcional)</label>
+        <textarea id="notes" name="notes" placeholder="Ejemplo: pagando por mi hijo, pago con tarjeta de negocio, etc."></textarea>
+
+        <button class="btn btn-main" disabled>
+          Pay / Pagar ahora (Próximamente)
+        </button>
+        <button class="btn btn-ghost" disabled>
+          Guardar mi lugar (Sin cargo aún)
+        </button>
+
+        <p class="note">
+          En la versión activa, estos botones se conectarán con pagos seguros
+          con tarjeta, billetera digital y cripto. Por ahora permanecen
+          deshabilitados para evitar confusión.
+        </p>
+      </section>
+
+      <!-- Derecha: formas de pago -->
+      <aside class="panel">
+        <h2>Formas de pago previstas</h2>
+        <ul class="gateway-list">
+          <li>
+            <span>Tarjetas de crédito y débito</span>
+            <span class="gateway-tag">Tarjetas</span>
+          </li>
+          <li>
+            <span>Billeteras digitales</span>
+            <span class="gateway-tag">Billetera</span>
+          </li>
+          <li>
+            <span>Tarjetas bancarias locales en tu moneda</span>
+            <span class="gateway-tag">Tarjeta local</span>
+          </li>
+          <li>
+            <span>Cripto (monedas y stablecoins principales)</span>
+            <span class="gateway-tag">Cripto</span>
+          </li>
+        </ul>
+
+        <label style="margin-top:16px;">¿Qué prefieres? (solo para planificación)</label>
+        <div class="pill-options">
+          <button class="pill pill-red" type="button">Tarjeta</button>
+          <button class="pill pill-white" type="button">Billetera</button>
+          <button class="pill pill-blue" type="button">Tarjeta local</button>
+          <button class="pill pill-gold" type="button">Cripto</button>
+        </div>
+
+        <p class="note">
+          Estos botones no envían nada. Solo muestran las opciones que se
+          habilitarán cuando el pago esté activo.
+        </p>
+
+        <h2 style="margin-top:18px;">Seguridad y privacidad</h2>
+        <small>
+          Todos los pagos se procesarán mediante proveedores externos
+          compatibles con PCI. Edunancial no almacenará números completos
+          de tarjeta.
+        </small>
+      </aside>
+    </div>
+
+    <!-- Anclas por nivel -->
+    <div style="margin-top:24px; border-top:1px solid #111827; padding-top:16px; font-size:13px;">
+      <div class="level-anchor" id="level1">
+        <span>Nivel 1 — Fundamentos (Rojo):</span> entrada gratuita, hábitos y disciplina.
+      </div>
+      <div class="level-anchor" id="level2">
+        <span>Nivel 2 — Activos en Papel (Blanco):</span> acciones, ETFs y opciones básicas.
+      </div>
+      <div class="level-anchor" id="level3">
+        <span>Nivel 3 — Negocio (Azul):</span> nociones de entidad, precios y KPIs simples.
+      </div>
+      <div class="level-anchor" id="level4">
+        <span>Nivel 4 — Sistema Integrado:</span> coordinar bienes raíces, papel y negocio.
+      </div>
+      <div class="level-anchor" id="level5">
+        <span>Nivel 5 — Arquitecto Maestro:</span> avanzado, por cohorte y mediante solicitud.
+      </div>
+
+      <p class="note" style="margin-top:10px;">
+        Esta sección asegura que enlaces como <code>/es/payment.html#level3</code> desde la página
+        de la Academia lleguen a algo útil incluso antes de que los pagos estén activos.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Edunancial, Inc. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
