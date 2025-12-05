@@ -1,12 +1,12 @@
 // app/layout.tsx
+
 import "./globals.css";
-import type { Metadata } from "next";
 import { ReactNode } from "react";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Edunancial – Financial Education for the Next Generation",
   description:
-    "Edunancial is a global financial education platform for youth, young adults, and entrepreneurs.",
+    "Bilingual financial education for youth, young adults, and entrepreneurs.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
