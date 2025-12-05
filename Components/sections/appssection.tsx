@@ -1,78 +1,63 @@
-// components/sections/AppsSection.tsx
-import Link from "next/link";
+"use client";
 
-const apps = [
-  {
-    id: "edumath",
-    name: "EduMath",
-    badge: "Math for Money",
-    description:
-      "Learn the math behind money, business, and investing — percentages, compounding, margins, and KPIs explained clearly.",
-    highlight: "Perfect for teens, students, and new investors.",
-    href: "/edumath",
-  },
-  {
-    id: "edunancial-edge",
-    name: "Edunancial Edge",
-    badge: "Business KPIs & Diagnostics",
-    description:
-      "See how your business really performs. Track KPIs, margins, drivers, and growth in a way that beginners can understand.",
-    highlight: "Built for entrepreneurs and small business owners.",
-    href: "/edge",
-  },
-];
+import { useState } from "react";
 
 export default function AppsSection() {
+  const [lang, setLang] = useState<"en" | "es">("en");
+
   return (
-    <section className="bg-slate-50 py-16" id="apps">
+    <section id="apps" className="bg-slate-100 py-16">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <h2 className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">
-              Edunancial Apps
-            </h2>
-            <h3 className="mt-2 text-3xl font-bold text-slate-900">
-              Two engines to help you see clearly.
-            </h3>
-          </div>
-          <p className="max-w-md text-sm text-slate-600">
-            Start with the math, then move into business diagnostics. Each tool
-            is designed to be simple enough for beginners, and strong enough to
-            grow with you.
-          </p>
+        {/* Language Toggle */}
+        <div className="flex justify-end mb-2">
+          <button
+            onClick={() => setLang(lang === "en" ? "es" : "en")}
+            className="text-xs underline text-blue-700"
+          >
+            {lang === "en" ? "Ver en Español" : "See in English"}
+          </button>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          {apps.map((app) => (
-            <div
-              key={app.id}
-              className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-md ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-xl hover:ring-blue-500/40"
-            >
-              <div className="mb-3 flex items-center justify-between">
-                <h4 className="text-xl font-bold text-slate-900">
-                  {app.name}
-                </h4>
-                <span className="rounded-full bg-blue-600/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-blue-700">
-                  {app.badge}
-                </span>
-              </div>
-              <p className="mb-2 text-sm text-slate-700">
-                {app.description}
-              </p>
-              <p className="mb-4 text-xs font-semibold text-slate-500">
-                {app.highlight}
-              </p>
-              <Link
-                href={app.href}
-                className="inline-flex items-center text-sm font-semibold text-blue-700 hover:text-blue-500"
-              >
-                Learn more
-                <span className="ml-1 inline-block transition group-hover:translate-x-0.5">
-                  →
-                </span>
-              </Link>
-            </div>
-          ))}
+        <h2 className="text-center text-3xl font-bold text-slate-900">
+          {lang === "en"
+            ? "Tools to Improve Your Financial Skills"
+            : "Herramientas para Mejorar tus Habilidades Financieras"}
+        </h2>
+
+        <p className="mt-2 text-center text-slate-600">
+          {lang === "en"
+            ? "Interactive apps that teach math, business, and financial decision-making."
+            : "Aplicaciones interactivas que enseñan matemáticas, negocios y toma de decisiones financieras."}
+        </p>
+
+        <div className="mt-12 grid gap-10 md:grid-cols-2">
+          {/* EduMath */}
+          <div className="rounded-xl bg-white p-6 shadow hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold text-blue-700">EduMath</h3>
+            <p className="mt-2 text-slate-700">
+              {lang === "en"
+                ? "A practical math trainer designed to help students and entrepreneurs improve their financial calculation skills."
+                : "Un entrenador de matemáticas práctico diseñado para ayudar a estudiantes y emprendedores a mejorar sus habilidades de cálculo financiero."}
+            </p>
+            <button className="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-500">
+              {lang === "en" ? "Learn More" : "Aprender Más"}
+            </button>
+          </div>
+
+          {/* Edunancial Edge */}
+          <div className="rounded-xl bg-white p-6 shadow hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold text-blue-700">
+              Edunancial Edge
+            </h3>
+            <p className="mt-2 text-slate-700">
+              {lang === "en"
+                ? "A business intelligence tool that helps entrepreneurs track KPIs, structure their growth, and operate like a scalable company."
+                : "Una herramienta de inteligencia empresarial que ayuda a los emprendedores a rastrear KPIs, estructurar su crecimiento y operar como una empresa escalable."}
+            </p>
+            <button className="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-500">
+              {lang === "en" ? "Learn More" : "Aprender Más"}
+            </button>
+          </div>
         </div>
       </div>
     </section>
