@@ -1,87 +1,84 @@
-// components/sections/HeroSection.tsx
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 
 export default function HeroSection() {
+  const [lang, setLang] = useState<"en" | "es">("en");
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white">
-      {/* Abstract shapes */}
-      <div className="pointer-events-none absolute -right-40 -top-40 h-96 w-96 rounded-full bg-blue-700/40 blur-3xl" />
-      <div className="pointer-events-none absolute -left-32 top-40 h-80 w-80 rounded-full bg-yellow-400/30 blur-3xl" />
+      {/* Background shapes */}
+      <div className="absolute -right-40 -top-40 h-96 w-96 rounded-full bg-blue-700/40 blur-3xl" />
+      <div className="absolute -left-32 top-40 h-80 w-80 rounded-full bg-yellow-400/30 blur-3xl" />
 
-      <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-6 py-20 lg:flex-row lg:items-center lg:py-24">
-        {/* Left content */}
+      {/* Language selector */}
+      <div className="absolute right-6 top-6 z-20 flex gap-2">
+        <button
+          onClick={() => setLang("en")}
+          className={`px-3 py-1 rounded-full text-sm font-semibold ${
+            lang === "en"
+              ? "bg-yellow-300 text-slate-900"
+              : "bg-slate-800/60 text-slate-200"
+          }`}
+        >
+          EN
+        </button>
+
+        <button
+          onClick={() => setLang("es")}
+          className={`px-3 py-1 rounded-full text-sm font-semibold ${
+            lang === "es"
+              ? "bg-yellow-300 text-slate-900"
+              : "bg-slate-800/60 text-slate-200"
+          }`}
+        >
+          ES
+        </button>
+      </div>
+
+      <div className="relative mx-auto max-w-6xl px-6 py-24 lg:flex lg:items-center lg:py-32">
         <div className="max-w-xl space-y-6">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-yellow-400">
             Edunancial
           </p>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Financial Education
-            <span className="block text-yellow-300">
-              for the Next Generation
-            </span>
+
+          <h1 className="text-5xl font-bold leading-tight">
+            {lang === "en" ? (
+              <>
+                Financial Education{" "}
+                <span className="block text-yellow-300">
+                  for the Next Generation
+                </span>
+              </>
+            ) : (
+              <>
+                Educación Financiera{" "}
+                <span className="block text-yellow-300">
+                  para la Próxima Generación
+                </span>
+              </>
+            )}
           </h1>
-          <p className="max-w-lg text-base text-slate-200 sm:text-lg">
-            Simple, bilingual, and actionable training for teens, young adults,
-            and entrepreneurs. Learn the math, systems, and business skills that
-            build real wealth.
+
+          <p className="text-lg text-slate-200">
+            {lang === "en"
+              ? "Simple, bilingual, real-world training for youth, young adults, and entrepreneurs."
+              : "Capacitación bilingüe, clara y práctica para jóvenes, adultos y emprendedores."}
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-2">
-            <Link
+          <div className="flex gap-4 pt-4">
+            <a
               href="#courses"
-              className="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-600/40 transition hover:-translate-y-0.5 hover:bg-blue-500 hover:shadow-blue-500/50"
+              className="rounded-full bg-blue-600 px-8 py-3 text-sm font-semibold text-white shadow-lg hover:bg-blue-500"
             >
-              Start Learning
-            </Link>
-            <Link
+              {lang === "en" ? "Start Learning" : "Comenzar"}
+            </a>
+            <a
               href="#apps"
-              className="inline-flex items-center justify-center rounded-full border border-slate-500/60 bg-slate-900/40 px-6 py-3 text-sm font-semibold text-slate-100 backdrop-blur transition hover:-translate-y-0.5 hover:border-yellow-300 hover:bg-slate-900/70"
+              className="rounded-full border border-slate-400 px-8 py-3 text-sm font-semibold hover:bg-white hover:text-slate-900"
             >
-              Explore Edunancial Apps
-            </Link>
-          </div>
-
-          <p className="text-xs text-slate-300/80">
-            Disponible en inglés y español. | Available in English and Spanish.
-          </p>
-        </div>
-
-        {/* Right abstract visual / placeholder */}
-        <div className="relative hidden flex-1 items-center justify-center lg:flex">
-          <div className="relative h-80 w-full max-w-md rounded-3xl bg-slate-900/60 p-6 shadow-2xl ring-1 ring-slate-700/80 backdrop-blur">
-            <div className="mb-4 text-xs font-semibold uppercase tracking-[0.25em] text-slate-300">
-              Preview
-            </div>
-            <div className="space-y-3 text-xs text-slate-200">
-              <div className="flex items-center justify-between rounded-xl bg-slate-800/80 px-4 py-3">
-                <div>
-                  <p className="text-[11px] uppercase tracking-wide text-slate-400">
-                    App
-                  </p>
-                  <p className="text-sm font-semibold text-white">EduMath</p>
-                </div>
-                <span className="rounded-full bg-blue-600/80 px-3 py-1 text-[11px] font-semibold">
-                  Math for Money
-                </span>
-              </div>
-              <div className="flex items-center justify-between rounded-xl bg-slate-800/80 px-4 py-3">
-                <div>
-                  <p className="text-[11px] uppercase tracking-wide text-slate-400">
-                    App
-                  </p>
-                  <p className="text-sm font-semibold text-white">
-                    Edunancial Edge
-                  </p>
-                </div>
-                <span className="rounded-full bg-yellow-400/80 px-3 py-1 text-[11px] font-semibold text-slate-900">
-                  Business KPIs
-                </span>
-              </div>
-              <p className="text-[11px] text-slate-300/90">
-                See your money, business, and decisions clearly — then scale
-                with discipline.
-              </p>
-            </div>
+              {lang === "en" ? "Explore Tools" : "Explorar Herramientas"}
+            </a>
           </div>
         </div>
       </div>
