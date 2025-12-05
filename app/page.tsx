@@ -1,9 +1,10 @@
 // app/page.tsx
+
 import HeroSection from "../components/sections/HeroSection";
 import StorySection from "../components/sections/StorySection";
 import AppsSection from "../components/sections/AppsSection";
 import CoursesSection from "../components/sections/CoursesSection";
-import RotatingVideosSection from "../components/sections/RotatingVideosSection";
+import RotatingVideoSection from "../components/sections/RotatingVideoSection";
 import BooksSection from "../components/sections/BooksSection";
 import FooterSection from "../components/sections/FooterSection";
 
@@ -14,7 +15,7 @@ export default function HomePage() {
       <StorySection />
       <AppsSection />
       <CoursesSection />
-      <RotatingVideosSection />
+      <RotatingVideoSection />
       <BooksSection />
       <FooterSection />
     </main>
