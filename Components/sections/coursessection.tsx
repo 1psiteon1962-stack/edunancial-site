@@ -1,91 +1,82 @@
-// components/sections/CoursesSection.tsx
-const courseCategories = [
-  {
-    id: "real-estate",
-    title: "Real Estate Foundations",
-    colorClass: "border-red-500/60 bg-red-50",
-    tag: "Red Track",
-    description:
-      "Tax liens, tax deeds, flips, and creative strategies explained in clear steps.",
-    image: "/img/courses/real-estate-diverse.jpg", // replace with real image later
-  },
-  {
-    id: "paper-assets",
-    title: "Paper Assets & Options",
-    colorClass: "border-slate-300 bg-slate-50",
-    tag: "White Track",
-    description:
-      "Stocks, options, and compounding for new investors who want rules, not hype.",
-    image: "/img/courses/paper-assets-diverse.jpg",
-  },
-  {
-    id: "business-growth",
-    title: "Business Is About Making Profit",
-    colorClass: "border-blue-500/60 bg-blue-50",
-    tag: "Blue Track",
-    description:
-      "From structure and pricing to KPIs and scaling, learn how real businesses grow.",
-    image: "/img/courses/business-diverse.jpg",
-  },
-];
+"use client";
+
+import { useState } from "react";
 
 export default function CoursesSection() {
+  const [lang, setLang] = useState<"en" | "es">("en");
+
   return (
-    <section className="bg-white py-16" id="courses">
+    <section id="courses" className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-6">
-        {/* Top banner with diverse imagery placeholder */}
-        <div className="mb-10 grid gap-6 md:grid-cols-3 md:items-center">
-          <div className="md:col-span-2 space-y-3">
-            <h2 className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">
-              Courses
-            </h2>
-            <h3 className="text-3xl font-bold text-slate-900">
-              Learn in tracks that match your path.
-            </h3>
-            <p className="text-sm text-slate-700">
-              Edunancial organizes learning in three tracks — Real Estate
-              (Red), Paper Assets (White), and Business (Blue). Every course is
-              designed to be clear enough for beginners and strong enough to
-              grow with you.
-            </p>
-          </div>
-          <div className="h-40 overflow-hidden rounded-2xl bg-slate-200 shadow-md md:h-44">
-            {/* This should be replaced with a real diverse group photo */}
-            <div className="flex h-full items-center justify-center text-xs font-semibold text-slate-600">
-              Diverse learners preview image
-            </div>
-          </div>
+        <div className="flex justify-end mb-2">
+          <button
+            onClick={() => setLang(lang === "en" ? "es" : "en")}
+            className="text-xs underline text-blue-700"
+          >
+            {lang === "en" ? "Ver en Español" : "See in English"}
+          </button>
         </div>
 
-        {/* Category cards */}
-        <div className="grid gap-6 md:grid-cols-3">
-          {courseCategories.map((cat) => (
-            <div
-              key={cat.id}
-              className={`flex flex-col overflow-hidden rounded-2xl border ${cat.colorClass} shadow-sm transition hover:-translate-y-1 hover:shadow-lg`}
-            >
-              <div className="h-32 bg-slate-200">
-                {/* Replace with real <Image /> later */}
-                <div className="flex h-full items-center justify-center text-[11px] font-semibold text-slate-600">
-                  Image: {cat.title}
-                </div>
-              </div>
-              <div className="flex flex-1 flex-col p-4">
-                <span className="mb-1 inline-flex w-fit rounded-full bg-slate-900/5 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-slate-700">
-                  {cat.tag}
-                </span>
-                <h4 className="mb-1 text-lg font-bold text-slate-900">
-                  {cat.title}
-                </h4>
-                <p className="mb-3 text-sm text-slate-700">
-                  {cat.description}
-                </p>
-                <p className="mt-auto text-xs font-semibold text-blue-700">
-                  Full course details available inside the portal.
-                </p>
-              </div>
-            </div>
-          ))}
+        <h2 className="text-center text-3xl font-bold text-slate-900">
+          {lang === "en" ? "Courses" : "Cursos"}
+        </h2>
+        <p className="mt-2 text-center text-slate-600">
+          {lang === "en"
+            ? "Learn money, business, and investing the simple way."
+            : "Aprende dinero, negocios e inversión de forma sencilla."}
+        </p>
+
+        <div className="mt-12 grid gap-10 md:grid-cols-3">
+          {/* Red Track - Real Estate */}
+          <div className="rounded-xl bg-slate-100 p-6 shadow transition hover:shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=60"
+              className="h-40 w-full rounded-lg object-cover"
+              alt="Real Estate"
+            />
+            <h3 className="mt-4 text-xl font-semibold text-red-600">
+              {lang === "en" ? "Real Estate" : "Bienes Raíces"}
+            </h3>
+            <p className="mt-2 text-slate-700">
+              {lang === "en"
+                ? "Learn tax liens, tax deeds, flipping, rentals, and wealth through property."
+                : "Aprende tax liens, tax deeds, flipping, alquileres y riqueza a través de bienes raíces."}
+            </p>
+          </div>
+
+          {/* White Track - Paper Assets */}
+          <div className="rounded-xl bg-slate-100 p-6 shadow transition hover:shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60"
+              className="h-40 w-full rounded-lg object-cover"
+              alt="Investing"
+            />
+            <h3 className="mt-4 text-xl font-semibold text-slate-600">
+              {lang === "en" ? "Paper Assets" : "Activos en Papel"}
+            </h3>
+            <p className="mt-2 text-slate-700">
+              {lang === "en"
+                ? "Stocks, options, bonds, and mastering financial markets at a beginner-friendly level."
+                : "Acciones, opciones, bonos y dominar los mercados financieros a nivel principiante."}
+            </p>
+          </div>
+
+          {/* Blue Track - Business */}
+          <div className="rounded-xl bg-slate-100 p-6 shadow transition hover:shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=60"
+              className="h-40 w-full rounded-lg object-cover"
+              alt="Business"
+            />
+            <h3 className="mt-4 text-xl font-semibold text-blue-700">
+              {lang === "en" ? "Business" : "Negocios"}
+            </h3>
+            <p className="mt-2 text-slate-700">
+              {lang === "en"
+                ? "Learn entities, taxes, scaling, KPIs, sales, marketing, and how to build a company."
+                : "Aprende entidades, impuestos, escalamiento, KPIs, ventas, marketing y cómo construir una empresa."}
+            </p>
+          </div>
         </div>
       </div>
     </section>
