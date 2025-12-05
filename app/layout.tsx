@@ -1,19 +1,21 @@
-// app/layout.tsx
-
 import "./globals.css";
-import { ReactNode } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Edunancial – Financial Education for the Next Generation",
-  description:
-    "Bilingual financial education for youth, young adults, and entrepreneurs.",
+  title: "Edunancial",
+  description: "Bilingual financial education for new generations."
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
-        {children}
+      <body className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
