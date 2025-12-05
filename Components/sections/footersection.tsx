@@ -1,63 +1,36 @@
-// components/sections/FooterSection.tsx
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 
 export default function FooterSection() {
+  const [lang, setLang] = useState<"en" | "es">("en");
+
   return (
-    <footer className="bg-slate-950 text-slate-200">
-      <div className="mx-auto max-w-6xl px-6 py-10">
-        <div className="grid gap-8 md:grid-cols-4">
-          <div className="md:col-span-2 space-y-2">
-            <h4 className="text-lg font-bold text-white">Edunancial</h4>
-            <p className="text-sm text-slate-300">
-              A financial education company empowering new generations through
-              accessible, bilingual wealth-building resources.
-            </p>
-            <p className="text-[11px] text-slate-400">
-              Based in West Palm Beach, Florida. | West Palm Beach, Florida.
-            </p>
-          </div>
-
-          <div>
-            <h5 className="text-sm font-semibold text-white">Learn</h5>
-            <ul className="mt-2 space-y-1 text-sm">
-              <li>
-                <Link href="#courses" className="hover:text-yellow-300">
-                  Courses
-                </Link>
-              </li>
-              <li>
-                <Link href="#apps" className="hover:text-yellow-300">
-                  EduMath &amp; Edunancial Edge
-                </Link>
-              </li>
-              <li>
-                <Link href="#books" className="hover:text-yellow-300">
-                  Books
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h5 className="text-sm font-semibold text-white">Legal</h5>
-            <ul className="mt-2 space-y-1 text-sm">
-              <li>
-                <span className="cursor-default text-slate-400">
-                  Privacy Notice (coming soon)
-                </span>
-              </li>
-              <li>
-                <span className="cursor-default text-slate-400">
-                  Terms of Use (coming soon)
-                </span>
-              </li>
-            </ul>
-            <div className="mt-4 text-[11px] text-slate-500">
-              © {new Date().getFullYear()} Edunancial, Inc. All rights
-              reserved.
-            </div>
-          </div>
+    <footer className="bg-slate-900 text-slate-300 py-10 mt-12">
+      <div className="mx-auto max-w-6xl px-6">
+        
+        <div className="flex justify-end mb-4">
+          <button
+            onClick={() => setLang(lang === "en" ? "es" : "en")}
+            className="text-xs underline text-yellow-400"
+          >
+            {lang === "en" ? "Ver en Español" : "See in English"}
+          </button>
         </div>
+
+        <h3 className="text-lg font-semibold text-white">
+          {lang === "en" ? "Edunancial, Inc." : "Edunancial, Inc."}
+        </h3>
+
+        <p className="mt-2 text-sm">
+          {lang === "en"
+            ? "Financial education empowering new generations through bilingual learning."
+            : "Educación financiera que empodera a nuevas generaciones a través del aprendizaje bilingüe."}
+        </p>
+
+        <p className="mt-4 text-xs text-slate-400">
+          © {new Date().getFullYear()} Edunancial, Inc. All rights reserved.
+        </p>
       </div>
     </footer>
   );
