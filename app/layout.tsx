@@ -1,47 +1,65 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import FooterSection from "@/components/sections/footersection";
 
 export const metadata: Metadata = {
-  title: "Edunancial | Financial Literacy & Education",
+  title: {
+    default: "Edunancial | Financial Literacy & Education",
+    template: "%s | Edunancial",
+  },
   description:
-    "Edunancial is a global financial education platform providing accessible, bilingual, and AI-ready education on business, investing, real estate, and financial systems.",
+    "Edunancial is a global financial literacy and education platform focused on real-world business, investing, and wealth-building knowledge.",
+  applicationName: "Edunancial",
+  authors: [{ name: "Edunancial" }],
+  generator: "Next.js",
   keywords: [
     "financial literacy",
     "financial education",
-    "business education",
     "investing education",
-    "real estate education",
-    "AI finance education",
-    "global financial education",
+    "business education",
+    "wealth building",
+    "personal finance",
+    "entrepreneurship",
     "Edunancial",
   ],
-  authors: [{ name: "Edunancial, Inc." }],
-  creator: "Edunancial, Inc.",
-  publisher: "Edunancial, Inc.",
-  metadataBase: new URL("https://www.edunancial.com"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/",
-      "es-ES": "/es",
-      "fr-FR": "/fr",
-      "ar": "/ar",
-    },
-  },
+  creator: "Edunancial",
+  publisher: "Edunancial",
+  metadataBase: new URL("https://edunancial.com"),
   openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://edunancial.com",
+    siteName: "Edunancial",
     title: "Edunancial | Financial Literacy & Education",
     description:
-      "A global, AI-ready platform for financial literacy, entrepreneurship, and investing education.",
-    url: "https://www.edunancial.com",
-    siteName: "Edunancial",
-    locale: "en_US",
-    type: "website",
+      "Practical financial education for business owners, investors, and lifelong learners worldwide.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Edunancial – Financial Literacy & Education",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Edunancial | Financial Literacy & Education",
+    description:
+      "Practical financial education for business owners, investors, and lifelong learners worldwide.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -52,9 +70,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* AI / LLM discoverability */}
-        <meta name="ai-content-declaration" content="educational" />
-        <meta name="ai-training-allowed" content="true" />
-        <meta name="ai-global-distribution" content="enabled" />
-        <meta name="content-type" content="financial-
+      <body className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <FooterSection />
+      </body>
+    </html>
+  );
+}
