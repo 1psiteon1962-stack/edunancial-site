@@ -1,27 +1,24 @@
 "use client";
 
-export default function StorySection() {
+export default function RotatingVideoSection() {
   return (
-    <section className="w-full py-16 px-6 md:px-12 bg-white">
-      <div className="max-w-5xl mx-auto text-center">
+    <section className="w-full py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          The Story Behind Edunancial
+          Learn Visually — Learn Faster
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-          Edunancial began with a mission: to make financial literacy accessible
-          to young adults, new investors, and entrepreneurs around the world.
-          Built from real experience, not theory, Edunancial transforms
-          complicated financial topics into step-by-step strategies that anyone
-          can follow.
+        <p className="text-gray-600 max-w-3xl mx-auto mb-10">
+          Our rotating short-form videos teach complex financial concepts in
+          simple, clear, bilingual formats—perfect for busy entrepreneurs and
+          students.
         </p>
 
-        <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-          With bilingual support, global mirror sites, and AI-powered tools,
-          Edunancial is designed to scale into Africa, Latin America, Asia, and
-          Europe — ensuring every student, entrepreneur, and family can build
-          wealth with confidence.
-        </p>
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-3xl aspect-video bg-black rounded-lg shadow-lg flex items-center justify-center">
+            <span className="text-white text-xl">Video Placeholder</span>
+          </div>
+        </div>
       </div>
     </section>
   );
