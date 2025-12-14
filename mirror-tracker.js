@@ -1,24 +1,33 @@
-/* =========================================================
-   INTERNAL TRACKING — NO UI / NO COOKIES
-   ========================================================= */
+/**
+ * mirror-tracker.js
+ * Passive detection only (NO redirects yet)
+ * Logs visitor context for future routing & analytics
+ */
 
 (function () {
-  if (!window.EDUNANCIAL_SITE) return;
+  try {
+    const config = window.EDU_SITE_CONFIG || {};
 
-  const payload = {
-    site_id: window.EDUNANCIAL_SITE.site_id,
-    region: window.EDUNANCIAL_SITE.region,
-    language: window.EDUNANCIAL_SITE.language,
-    role: window.EDUNANCIAL_SITE.role,
-    path: window.location.pathname,
-    referrer: document.referrer || "direct",
-    timestamp: new Date().toISOString(),
-    user_agent: navigator.userAgent
-  };
+    const context = {
+      site: config.site || "unknown",
+      region: config.region || "unknown",
+      language: config.language || navigator.language || "unknown",
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      userAgent: navigator.userAgent,
+      timestamp: new Date().toISOString()
+    };
 
-  fetch("/.netlify/functions/track", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload)
-  }).catch(() => {});
+    console.log("[Edunancial Mirror Context]", context);
+
+    // Future use:
+    // - analytics hook
+    // - edge routing
+    // - consent-aware logging
+    // - A/B mirror testing
+
+    window.EDU_MIRROR_CONTEXT = context;
+
+  } catch (err) {
+    console.warn("Mirror tracker error:", err);
+  }
 })();
