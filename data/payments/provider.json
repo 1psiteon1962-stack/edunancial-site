@@ -1,0 +1,26 @@
+{
+  "square": {
+    "label": "Square",
+    "type": "card_bank",
+    "status": "placeholder",
+    "notes": "Cards, ACH, bank-linked payments"
+  },
+  "paypal": {
+    "label": "PayPal",
+    "type": "wallet",
+    "status": "placeholder",
+    "notes": "Global fallback wallet"
+  },
+  "bank": {
+    "label": "Direct Bank Transfer",
+    "type": "bank",
+    "status": "placeholder",
+    "notes": "Manual or API-based bank rails"
+  },
+  "crypto": {
+    "label": "Cryptocurrency",
+    "type": "crypto",
+    "status": "placeholder",
+    "notes": "Wallet-based crypto payments"
+  }
+}
