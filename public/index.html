@@ -1,109 +1,32 @@
-<!-- ✅ REPLACE YOUR ENTIRE /public/index.html WITH THIS FILE (FULL FILE — NOT PIECEMEAL) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Edunancial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- =========================================================
-       EDUNANCIAL MIRROR CONFIG (NO FUTURE EDITS REQUIRED)
-       - Set once per site by passing ?site=pr-mirror&region=PR&lang=es&role=mirror
-       - OR by setting the Netlify env var EDUNANCIAL_SITE_ID and EDUNANCIAL_REGION (optional)
-       - If nothing set, defaults to US main.
-       ========================================================= -->
-  <script>
-    (function () {
-      function q(name) {
-        try { return new URLSearchParams(window.location.search).get(name); } catch (e) { return null; }
-      }
-
-      // Hard defaults (US main)
-      const defaults = {
-        site_id: "us-main",
-        region: "US",
-        language: (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en",
-        role: "primary",
-        canonical: "https://edunancial.com"
-      };
-
-      // Querystring overrides for mirrors (no code edits per mirror)
-      const qs = {
-        site_id: q("site"),
-        region: q("region"),
-        language: q("lang"),
-        role: q("role"),
-        canonical: q("canonical")
-      };
-
-      // Final config
-      window.EDUNANCIAL_SITE = {
-        site_id: (qs.site_id || defaults.site_id).trim(),
-        region: (qs.region || defaults.region).trim(),
-        language: (qs.language || defaults.language).trim(),
-        role: (qs.role || defaults.role).trim(),
-        canonical: (qs.canonical || defaults.canonical).trim()
-      };
-    })();
-  </script>
-
-  <!-- =========================
-       SILENT TRAFFIC TRACKING
-       ========================= -->
-  <script>
-    (function () {
-      try {
-        const payload = {
-          site: window.EDUNANCIAL_SITE.site_id,
-          region: window.EDUNANCIAL_SITE.region,
-          role: window.EDUNANCIAL_SITE.role,
-          language: window.EDUNANCIAL_SITE.language,
-          path: window.location.pathname,
-          referrer: document.referrer || "",
-          userAgent: navigator.userAgent,
-          timestamp: new Date().toISOString()
-        };
-
-        // Send silently (no UI impact). Falls back to fetch if beacon fails.
-        const ok = navigator.sendBeacon(
-          "/.netlify/functions/collect",
-          JSON.stringify(payload)
-        );
-
-        if (!ok) {
-          fetch("/.netlify/functions/collect", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(payload),
-            keepalive: true
-          }).catch(function(){});
-        }
-      } catch (e) {}
-    })();
-  </script>
 
   <style>
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background: #ffffff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      margin: 2rem;
       color: #111;
     }
+
     h1 {
-      font-size: 2rem;
       margin-bottom: 0.5rem;
     }
+
     p {
-      max-width: 720px;
-      line-height: 1.6;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+      max-width: 700px;
     }
+
     .meta {
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: #666;
+      margin-top: 1rem;
     }
+
     .pill {
       display: inline-block;
       padding: 0.2rem 0.6rem;
@@ -135,10 +58,15 @@
   </div>
 
   <script>
-    document.getElementById("site").textContent = window.EDUNANCIAL_SITE.site_id;
-    document.getElementById("region").textContent = window.EDUNANCIAL_SITE.region;
-    document.getElementById("lang").textContent = window.EDUNANCIAL_SITE.language;
-    document.getElementById("role").textContent = window.EDUNANCIAL_SITE.role;
+    document.getElementById("site").textContent = "us-main";
+    document.getElementById("region").textContent = "US";
+    document.getElementById("lang").textContent = "en";
+    document.getElementById("role").textContent = "primary";
   </script>
+
+  <!-- INTERNAL CONFIG + MIRROR INSTRUMENTATION -->
+  <script src="/site-config.js"></script>
+  <script src="/mirror-tracker.js"></script>
+
 </body>
 </html>
