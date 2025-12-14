@@ -1,8 +1,9 @@
 {
-  "status": "ok",
   "platform": "edunancial",
-  "deployment": "active",
-  "mirrors": "enabled",
-  "tracking": "active",
-  "timestamp": ""
+  "status": "operational",
+  "environment": "production",
+  "mirrors_enabled": true,
+  "edge_functions": "active",
+  "canonical": "https://edunancial.com",
+  "last_verified": "2025-01-01T00:00:00Z"
 }
