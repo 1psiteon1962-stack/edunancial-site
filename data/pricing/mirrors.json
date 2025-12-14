@@ -1,0 +1,32 @@
+{
+  "us": {
+    "currency": "USD",
+    "tiers": ["free", "starter", "pro", "enterprise"],
+    "notes": "Primary pricing model"
+  },
+  "latam": {
+    "currency": "USD",
+    "tiers": ["free", "starter", "pro"],
+    "notes": "Price-sensitive market"
+  },
+  "caribbean": {
+    "currency": "USD",
+    "tiers": ["free", "starter", "pro"],
+    "notes": "Cross-border friendly pricing"
+  },
+  "europe": {
+    "currency": "EUR",
+    "tiers": ["free", "starter", "pro"],
+    "notes": "VAT-aware pricing"
+  },
+  "africa": {
+    "currency": "USD",
+    "tiers": ["free"],
+    "notes": "Education-first rollout"
+  },
+  "asia": {
+    "currency": "USD",
+    "tiers": ["free", "starter"],
+    "notes": "Staged monetization"
+  }
+}
