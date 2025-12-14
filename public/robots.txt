@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-# Canonical site
+# Canonical host
 Host: edunancial.com
 
-# Sitemap
+# Sitemap (single authority)
 Sitemap: https://edunancial.com/sitemap.xml
