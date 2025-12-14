@@ -1,0 +1,10 @@
+{
+  "name": "Edunancial",
+  "short_name": "Edunancial",
+  "description": "Education focused on readiness, structure, and long-term business durability.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": []
+}
