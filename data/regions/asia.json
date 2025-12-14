@@ -1,0 +1,36 @@
+{
+  "region": "Asia",
+  "slug": "asia",
+  "language": "en",
+  "role": "primary",
+  "headline": "Strategic Business Education for High-Growth Markets",
+  "subheadline": "Education focused on precision, structure, and scalable execution across Asian markets.",
+  "positioning": [
+    "Asian markets reward preparation and execution.",
+    "Edunancial focuses on disciplined growth models.",
+    "Structure enables speed without collapse."
+  ],
+  "coreThemes": [
+    "Operational discipline",
+    "Financial systems and planning",
+    "Technology-enabled scaling",
+    "Cross-border readiness",
+    "Risk and compliance awareness"
+  ],
+  "audience": [
+    "Startup founders",
+    "Technology entrepreneurs",
+    "Family-owned enterprises",
+    "Export-oriented businesses"
+  ],
+  "outcomes": [
+    "Clear strategic direction",
+    "Stronger financial systems",
+    "Controlled growth",
+    "Preparedness for regional and global expansion"
+  ],
+  "cta": {
+    "primary": "Build With Precision",
+    "secondary": "Learn How to Scale Strategically"
+  }
+}
