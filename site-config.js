@@ -1,11 +1,20 @@
-/* =========================================================
-   SITE CONFIG — DO NOT DISPLAY
-   Controls site identity for analytics & mirrors
-   ========================================================= */
+/**
+ * site-config.js
+ * Central configuration for site identity & mirror behavior
+ * This file is intentionally simple and global
+ */
 
-window.EDUNANCIAL_SITE = {
-  site_id: "us-main",        // change per mirror
-  region: "US",              // US, LATAM, EU, AFRICA, ASIA
-  language: "en",            // en, es, fr, pt, ar
-  role: "primary"            // primary | mirror
+window.EDU_SITE_CONFIG = {
+  site: "us-main",
+  region: "US",
+  language: "en",
+  role: "primary",
+  version: "1.0.0",
+
+  mirrors: {
+    us: "https://edunancial.com",
+    latam: "https://latam.edunancial.com",
+    eu: "https://eu.edunancial.com",
+    africa: "https://africa.edunancial.com"
+  }
 };
