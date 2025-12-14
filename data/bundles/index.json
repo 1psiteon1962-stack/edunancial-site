@@ -1,0 +1,26 @@
+{
+  "bundles": {
+    "founder-pack": {
+      "label": "Founder Starter Pack",
+      "includes": [
+        "foundations_course",
+        "finance_course",
+        "edumath_app"
+      ],
+      "eligibleTiers": ["starter", "pro"],
+      "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+      "status": "active"
+    },
+    "scaling-pack": {
+      "label": "Scaling Readiness Pack",
+      "includes": [
+        "business_structure_course",
+        "scaling_course",
+        "edunancial_edge_app"
+      ],
+      "eligibleTiers": ["pro", "enterprise"],
+      "regions": ["us", "europe", "asia"],
+      "status": "coming_soon"
+    }
+  }
+}
