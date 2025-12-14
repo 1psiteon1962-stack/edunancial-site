@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "edumath": {
+      "name": "EduMath",
+      "description": "Practical math and financial reasoning for entrepreneurs.",
+      "regions": ["us", "latam", "europe", "africa"],
+      "status": "active"
+    },
+    "edunancial-edge": {
+      "name": "Edunancial Edge",
+      "description": "Business metrics, readiness tracking, and strategic insight.",
+      "regions": ["us", "latam", "caribbean", "europe", "asia"],
+      "status": "active"
+    }
+  }
+}
