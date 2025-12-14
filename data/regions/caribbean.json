@@ -1,0 +1,36 @@
+{
+  "region": "Caribbean",
+  "slug": "caribbean",
+  "language": "en",
+  "role": "primary",
+  "headline": "Building Durable Businesses Across the Caribbean",
+  "subheadline": "Education focused on structure, resilience, and cross-border business readiness in the Caribbean.",
+  "positioning": [
+    "Caribbean businesses often operate across borders and currencies.",
+    "Edunancial focuses on structure that survives economic shifts.",
+    "We emphasize resilience, compliance, and smart scaling."
+  ],
+  "coreThemes": [
+    "Cross-border business structure",
+    "Financial literacy for small economies",
+    "Risk management and durability",
+    "Tourism, services, and remote business readiness",
+    "Family-owned and legacy businesses"
+  ],
+  "audience": [
+    "Entrepreneurs in island economies",
+    "Diaspora founders",
+    "Service-based business owners",
+    "Real estate and hospitality operators"
+  ],
+  "outcomes": [
+    "Improved financial resilience",
+    "Better business structuring",
+    "Reduced exposure to risk",
+    "Preparedness for regional and international growth"
+  ],
+  "cta": {
+    "primary": "Build a Business That Lasts",
+    "secondary": "Learn How to Structure for Stability"
+  }
+}
