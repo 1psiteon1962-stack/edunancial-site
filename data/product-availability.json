@@ -1,0 +1,32 @@
+{
+  "us": {
+    "courses": true,
+    "apps": true,
+    "books": true
+  },
+  "latam": {
+    "courses": true,
+    "apps": true,
+    "books": true
+  },
+  "caribbean": {
+    "courses": true,
+    "apps": false,
+    "books": true
+  },
+  "europe": {
+    "courses": true,
+    "apps": true,
+    "books": true
+  },
+  "africa": {
+    "courses": true,
+    "apps": false,
+    "books": false
+  },
+  "asia": {
+    "courses": true,
+    "apps": true,
+    "books": false
+  }
+}
