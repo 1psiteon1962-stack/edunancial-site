@@ -1,0 +1,43 @@
+{
+  "defaultRegion": "us",
+  "rolloutOrder": [
+    "us",
+    "latam",
+    "caribbean",
+    "europe",
+    "africa",
+    "asia"
+  ],
+  "regions": {
+    "us": {
+      "label": "United States",
+      "language": "en",
+      "active": true
+    },
+    "latam": {
+      "label": "Latin America",
+      "language": "es",
+      "active": true
+    },
+    "caribbean": {
+      "label": "Caribbean",
+      "language": "en",
+      "active": true
+    },
+    "europe": {
+      "label": "Europe",
+      "language": "en",
+      "active": true
+    },
+    "africa": {
+      "label": "Africa",
+      "language": "en",
+      "active": true
+    },
+    "asia": {
+      "label": "Asia",
+      "language": "en",
+      "active": true
+    }
+  }
+}
