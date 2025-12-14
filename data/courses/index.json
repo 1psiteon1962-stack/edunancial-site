@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "categories": [
+    "foundations",
+    "finance",
+    "business-structure",
+    "scaling",
+    "global-expansion"
+  ],
+  "regions": {
+    "us": true,
+    "latam": true,
+    "caribbean": true,
+    "europe": true,
+    "africa": true,
+    "asia": true
+  }
+}
