@@ -1,29 +1,26 @@
 (function () {
   try {
+    if (!window.EDUNANCIAL_SITE) {
+      console.warn("EDUNANCIAL_SITE not defined");
+      return;
+    }
+
     const payload = {
-      timestamp: new Date().toISOString(),
-      hostname: window.location.hostname,
+      site: window.EDUNANCIAL_SITE.site_id,
+      region: window.EDUNANCIAL_SITE.region,
+      role: window.EDUNANCIAL_SITE.role,
+      language: window.EDUNANCIAL_SITE.language,
       path: window.location.pathname,
-      referrer: document.referrer || "direct",
+      referrer: document.referrer || "",
       userAgent: navigator.userAgent,
-      language: navigator.language,
-      screen: `${window.screen.width}x${window.screen.height}`,
-      siteOrigin: document
-        .querySelector('meta[name="site-origin"]')
-        ?.getAttribute("content") || "unknown",
-      edunancialDomain: document
-        .querySelector('meta[name="edunancial-domain"]')
-        ?.getAttribute("content") || "undefined",
-      edunancialIntent: document
-        .querySelector('meta[name="edunancial-intent"]')
-        ?.getAttribute("content") || "undefined"
+      timestamp: new Date().toISOString()
     };
 
     navigator.sendBeacon(
-      "/edunancial/collect",
+      "/.netlify/functions/collect",
       JSON.stringify(payload)
     );
   } catch (e) {
-    // silent by design
+    console.error("EDUNANCIAL TRACK ERROR", e);
   }
 })();
