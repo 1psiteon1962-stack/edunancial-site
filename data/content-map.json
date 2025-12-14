@@ -1,0 +1,18 @@
+{
+  "courses": {
+    "enabled": true,
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"]
+  },
+  "books": {
+    "enabled": true,
+    "regions": ["us", "latam", "caribbean", "europe"]
+  },
+  "apps": {
+    "enabled": true,
+    "regions": ["us", "latam", "europe", "asia"]
+  },
+  "tools": {
+    "enabled": true,
+    "regions": ["us", "latam", "caribbean", "africa"]
+  }
+}
