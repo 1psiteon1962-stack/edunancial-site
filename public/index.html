@@ -2,34 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Edunancial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CANONICAL -->
+  <link rel="canonical" href="https://edunancial.com/" />
+
+  <!-- GEO / LANGUAGE -->
+  <meta http-equiv="content-language" content="en-US" />
+
+  <!-- INTERNAL META (NOT VISIBLE TO USERS) -->
+  <meta name="edunancial:site-id" content="us-main" />
+  <meta name="edunancial:region" content="US" />
+  <meta name="edunancial:lang" content="en" />
+  <meta name="edunancial:role" content="primary" />
 
   <style>
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       margin: 2rem;
       color: #111;
     }
-
-    h1 {
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      margin-top: 0.25rem;
-      margin-bottom: 0.75rem;
-      max-width: 700px;
-    }
-
     .meta {
       margin-top: 1rem;
     }
-
     .pill {
       display: inline-block;
-      padding: 0.2rem 0.6rem;
+      padding: 0.25rem 0.6rem;
       border: 1px solid #ddd;
       border-radius: 999px;
       margin-right: 0.5rem;
@@ -42,13 +41,8 @@
 <body>
   <h1>Edunancial</h1>
 
-  <p>
-    Education focused on readiness, structure, and long-term business durability.
-  </p>
-
-  <p>
-    The platform is live. Global rollout is in progress.
-  </p>
+  <p>Education focused on readiness, structure, and long-term business durability.</p>
+  <p>The platform is live. Global rollout is in progress.</p>
 
   <div class="meta">
     <span class="pill">Site: <strong id="site"></strong></span>
@@ -58,15 +52,18 @@
   </div>
 
   <script>
-    document.getElementById("site").textContent = "us-main";
-    document.getElementById("region").textContent = "US";
-    document.getElementById("lang").textContent = "en";
-    document.getElementById("role").textContent = "primary";
+    window.EDUNANCIAL_SITE = {
+      site_id: "us-main",
+      region: "US",
+      language: "en",
+      role: "primary",
+      canonical: "https://edunancial.com"
+    };
+
+    document.getElementById("site").textContent = window.EDUNANCIAL_SITE.site_id;
+    document.getElementById("region").textContent = window.EDUNANCIAL_SITE.region;
+    document.getElementById("lang").textContent = window.EDUNANCIAL_SITE.language;
+    document.getElementById("role").textContent = window.EDUNANCIAL_SITE.role;
   </script>
-
-  <!-- INTERNAL CONFIG + MIRROR INSTRUMENTATION -->
-  <script src="/site-config.js"></script>
-  <script src="/mirror-tracker.js"></script>
-
 </body>
 </html>
