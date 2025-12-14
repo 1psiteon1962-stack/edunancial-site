@@ -1,0 +1,22 @@
+{
+  "en": {
+    "label": "English",
+    "rtl": false,
+    "regions": ["us", "caribbean", "europe", "africa", "asia"]
+  },
+  "es": {
+    "label": "Spanish",
+    "rtl": false,
+    "regions": ["latam", "caribbean"]
+  },
+  "fr": {
+    "label": "French",
+    "rtl": false,
+    "regions": ["africa", "europe"]
+  },
+  "ar": {
+    "label": "Arabic",
+    "rtl": true,
+    "regions": ["africa"]
+  }
+}
