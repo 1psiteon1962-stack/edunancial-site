@@ -1,0 +1,26 @@
+{
+  "welcome-video": {
+    "title": "Welcome to Edunancial",
+    "type": "video",
+    "length": "02:00",
+    "access": "public",
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "status": "live"
+  },
+  "foundations-intro": {
+    "title": "Foundations of Business Readiness",
+    "type": "video",
+    "length": "10:00",
+    "access": "members",
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "status": "live"
+  },
+  "short-structure-tip": {
+    "title": "One Rule of Business Structure",
+    "type": "shorts",
+    "length": "00:30",
+    "access": "public",
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "status": "live"
+  }
+}
