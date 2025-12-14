@@ -1,0 +1,36 @@
+{
+  "region": "Europe",
+  "slug": "europe",
+  "language": "en",
+  "role": "primary",
+  "headline": "Structured Businesses for a Regulated World",
+  "subheadline": "Education focused on compliance-aware growth and long-term durability across Europe.",
+  "positioning": [
+    "European markets reward structure, compliance, and discipline.",
+    "Edunancial teaches how to grow within regulatory frameworks.",
+    "Preparation is the foundation of sustainable expansion."
+  ],
+  "coreThemes": [
+    "Regulatory-aware business structure",
+    "Financial discipline and reporting",
+    "Cross-border EU operations",
+    "Risk reduction and governance",
+    "Long-term planning over short-term gains"
+  ],
+  "audience": [
+    "Entrepreneurs in EU markets",
+    "Professionals starting companies",
+    "Founders planning cross-border growth",
+    "Family enterprises"
+  ],
+  "outcomes": [
+    "Improved regulatory readiness",
+    "Stronger financial systems",
+    "Lower compliance risk",
+    "Confidence in scaling responsibly"
+  ],
+  "cta": {
+    "primary": "Build With Structure",
+    "secondary": "Learn How to Scale Responsibly"
+  }
+}
