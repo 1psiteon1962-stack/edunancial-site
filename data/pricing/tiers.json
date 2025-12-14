@@ -1,0 +1,40 @@
+{
+  "free": {
+    "label": "Free",
+    "price": 0,
+    "features": [
+      "intro_content",
+      "public_articles",
+      "limited_tools"
+    ]
+  },
+  "starter": {
+    "label": "Starter",
+    "price": 29,
+    "features": [
+      "all_free_features",
+      "foundations_course",
+      "financial_literacy_course"
+    ]
+  },
+  "pro": {
+    "label": "Pro",
+    "price": 79,
+    "features": [
+      "all_starter_features",
+      "business_structure_course",
+      "scaling_course",
+      "edunancial_edge_app"
+    ]
+  },
+  "enterprise": {
+    "label": "Enterprise",
+    "price": null,
+    "features": [
+      "all_pro_features",
+      "custom_training",
+      "private_sessions",
+      "priority_support"
+    ]
+  }
+}
