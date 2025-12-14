@@ -1,0 +1,17 @@
+{
+  "courses": {
+    "foundations": ["free", "starter", "pro", "enterprise"],
+    "finance": ["starter", "pro", "enterprise"],
+    "business-structure": ["pro", "enterprise"],
+    "scaling": ["pro", "enterprise"],
+    "global-expansion": ["enterprise"]
+  },
+  "apps": {
+    "edumath": ["starter", "pro", "enterprise"],
+    "edunancial-edge": ["pro", "enterprise"]
+  },
+  "books": {
+    "digital": ["starter", "pro", "enterprise"],
+    "bundles": ["pro", "enterprise"]
+  }
+}
