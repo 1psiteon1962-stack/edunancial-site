@@ -1,3 +1,4 @@
+# ✅ REPLACE YOUR ENTIRE /netlify.toml WITH THIS FILE (FULL FILE — NOT PIECEMEAL)
 [build]
   publish = "public"
   functions = "netlify/functions"
