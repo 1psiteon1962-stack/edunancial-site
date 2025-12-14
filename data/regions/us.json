@@ -1,0 +1,36 @@
+{
+  "region": "United States",
+  "slug": "us",
+  "language": "en",
+  "role": "primary",
+  "headline": "Building Businesses That Are Ready to Scale",
+  "subheadline": "Education focused on readiness, structure, and long-term business durability in the United States.",
+  "positioning": [
+    "Entrepreneurship in the United States rewards preparation, structure, and execution.",
+    "Edunancial focuses on helping founders move from ideas to durable, scalable businesses.",
+    "We emphasize legal readiness, financial literacy, and systems thinking from day one."
+  ],
+  "coreThemes": [
+    "Business structure and entity formation",
+    "Financial literacy and capital readiness",
+    "Operational discipline",
+    "Risk management and compliance awareness",
+    "Scaling with control, not chaos"
+  ],
+  "audience": [
+    "New entrepreneurs",
+    "Small business owners",
+    "Professionals transitioning into business ownership",
+    "Founders preparing for growth or investment"
+  ],
+  "outcomes": [
+    "Clear understanding of business structure",
+    "Improved financial decision-making",
+    "Reduced legal and operational risk",
+    "Readiness for growth, funding, or expansion"
+  ],
+  "cta": {
+    "primary": "Start Building a Real Business",
+    "secondary": "Learn the Foundations of Business Readiness"
+  }
+}
