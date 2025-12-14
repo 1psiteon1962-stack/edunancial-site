@@ -1,0 +1,44 @@
+{
+  "us": {
+    "enabled": true,
+    "currency": "USD",
+    "providers": ["square", "paypal", "bank"],
+    "cryptoAllowed": true,
+    "notes": "Primary commercial mirror"
+  },
+  "latam": {
+    "enabled": true,
+    "currency": "USD",
+    "providers": ["paypal", "bank"],
+    "cryptoAllowed": true,
+    "notes": "Regional optimization, mixed rails"
+  },
+  "caribbean": {
+    "enabled": true,
+    "currency": "USD",
+    "providers": ["paypal", "bank"],
+    "cryptoAllowed": true,
+    "notes": "Cross-border friendly payments"
+  },
+  "europe": {
+    "enabled": true,
+    "currency": "EUR",
+    "providers": ["paypal", "bank"],
+    "cryptoAllowed": false,
+    "notes": "Compliance-first payments"
+  },
+  "africa": {
+    "enabled": false,
+    "currency": "USD",
+    "providers": [],
+    "cryptoAllowed": true,
+    "notes": "Payments staged; crypto-first possible"
+  },
+  "asia": {
+    "enabled": false,
+    "currency": "USD",
+    "providers": [],
+    "cryptoAllowed": true,
+    "notes": "Payments staged pending regional decisions"
+  }
+}
