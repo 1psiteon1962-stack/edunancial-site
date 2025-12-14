@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "promotions": {
+    "launch-2025": {
+      "label": "Global Launch Offer",
+      "type": "percentage",
+      "value": 20,
+      "appliesTo": ["starter", "pro"],
+      "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+      "status": "inactive",
+      "notes": "Enable at official launch"
+    },
+    "latam-education": {
+      "label": "LATAM Education Access",
+      "type": "fixed",
+      "value": 10,
+      "appliesTo": ["starter"],
+      "regions": ["latam"],
+      "status": "inactive",
+      "notes": "Price-sensitive regional promo"
+    }
+  }
+}
