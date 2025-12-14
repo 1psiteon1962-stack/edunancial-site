@@ -1,0 +1,37 @@
+{
+  "foundations": {
+    "title": "Foundations of Business Readiness",
+    "description": "Core principles every entrepreneur must understand before scaling.",
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "format": ["video", "reading"],
+    "level": "beginner"
+  },
+  "finance": {
+    "title": "Financial Literacy for Entrepreneurs",
+    "description": "Understanding money, cash flow, risk, and capital.",
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "format": ["video", "reading", "tools"],
+    "level": "beginner-intermediate"
+  },
+  "business-structure": {
+    "title": "Structuring a Real Business",
+    "description": "Legal, operational, and financial separation that protects growth.",
+    "regions": ["us", "latam", "caribbean", "europe"],
+    "format": ["video", "reading"],
+    "level": "intermediate"
+  },
+  "scaling": {
+    "title": "Scaling Without Collapse",
+    "description": "Systems, controls, and leadership for growth.",
+    "regions": ["us", "europe", "asia"],
+    "format": ["video"],
+    "level": "advanced"
+  },
+  "global-expansion": {
+    "title": "Cross-Border Expansion",
+    "description": "Preparing businesses to operate across regions.",
+    "regions": ["us", "caribbean", "europe", "africa", "asia"],
+    "format": ["video", "reading"],
+    "level": "advanced"
+  }
+}
