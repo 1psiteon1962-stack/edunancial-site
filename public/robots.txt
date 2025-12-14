@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Canonical site
+Host: edunancial.com
+
+# Sitemap
+Sitemap: https://edunancial.com/sitemap.xml
