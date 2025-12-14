@@ -1,0 +1,26 @@
+{
+  "apps": {
+    "edumath": {
+      "enabled": true,
+      "beta": false,
+      "regions": ["us", "latam", "europe", "africa"]
+    },
+    "edunancial-edge": {
+      "enabled": true,
+      "beta": true,
+      "regions": ["us", "latam", "caribbean", "europe", "asia"]
+    }
+  },
+  "payments": {
+    "crypto": {
+      "enabled": true,
+      "regions": ["us", "latam", "caribbean", "africa", "asia"]
+    }
+  },
+  "media": {
+    "shorts": {
+      "enabled": true,
+      "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"]
+    }
+  }
+}
