@@ -1,0 +1,34 @@
+{
+  "business-foundations": {
+    "title": "Business Foundations",
+    "description": "A practical introduction to building a real, durable business.",
+    "category": "foundations",
+    "formats": ["digital", "audio"],
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "status": "live"
+  },
+  "financial-literacy": {
+    "title": "Financial Literacy for Entrepreneurs",
+    "description": "Understanding money, risk, cash flow, and capital.",
+    "category": "finance",
+    "formats": ["digital", "audio"],
+    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+    "status": "live"
+  },
+  "structuring-business": {
+    "title": "Structuring a Real Business",
+    "description": "Legal and operational separation that protects growth.",
+    "category": "business-structure",
+    "formats": ["digital"],
+    "regions": ["us", "latam", "caribbean", "europe"],
+    "status": "coming_soon"
+  },
+  "scaling-safely": {
+    "title": "Scaling Without Collapse",
+    "description": "Systems and leadership for sustainable growth.",
+    "category": "scaling",
+    "formats": ["digital", "audio"],
+    "regions": ["us", "europe", "asia"],
+    "status": "coming_soon"
+  }
+}
