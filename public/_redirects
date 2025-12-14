@@ -1,3 +1,8 @@
-# ✅ REPLACE YOUR ENTIRE /public/_redirects WITH THIS FILE (FULL FILE — NOT PIECEMEAL)
-# Keep your site SPA-safe if you later add routes
-/*    /index.html   200
+# --- FORCE CANONICAL WITHOUT HARD REDIRECTS ---
+/*  /index.html  200
+
+# --- SOFT MIRROR HANDLING ---
+/pr/*  /index.html  200
+/es/*  /index.html  200
+/latam/*  /index.html  200
+/eu/*  /index.html  200
