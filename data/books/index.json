@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "formats": ["digital", "audio", "print"],
+  "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"],
+  "categories": [
+    "foundations",
+    "finance",
+    "business-structure",
+    "scaling",
+    "global-expansion"
+  ]
+}
