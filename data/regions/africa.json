@@ -1,0 +1,36 @@
+{
+  "region": "Africa",
+  "slug": "africa",
+  "language": "en",
+  "role": "primary",
+  "headline": "Building Businesses for Long-Term Growth in Africa",
+  "subheadline": "Education focused on structure, adaptability, and opportunity-driven growth across African markets.",
+  "positioning": [
+    "Africa presents massive opportunity when paired with structure.",
+    "Edunancial focuses on sustainable business foundations.",
+    "Education enables entrepreneurs to convert opportunity into durability."
+  ],
+  "coreThemes": [
+    "Business formalization",
+    "Financial literacy and access to capital",
+    "Scalable business models",
+    "Infrastructure-aware planning",
+    "Regional and global expansion readiness"
+  ],
+  "audience": [
+    "Emerging entrepreneurs",
+    "Youth-led businesses",
+    "Family enterprises",
+    "Startups preparing for investment"
+  ],
+  "outcomes": [
+    "Improved business clarity",
+    "Stronger financial foundations",
+    "Reduced operational risk",
+    "Greater readiness for scale"
+  ],
+  "cta": {
+    "primary": "Build for the Future",
+    "secondary": "Learn How to Structure for Growth"
+  }
+}
