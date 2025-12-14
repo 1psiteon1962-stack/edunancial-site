@@ -1,0 +1,12 @@
+{
+  "platform": "edunancial",
+  "canonical": "https://edunancial.com",
+  "mirrors_enabled": true,
+  "default_region": "US",
+  "default_language": "en",
+  "tracking": {
+    "enabled": true,
+    "mode": "silent",
+    "endpoint": "/.netlify/functions/collect"
+  }
+}
