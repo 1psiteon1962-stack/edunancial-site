@@ -1,0 +1,36 @@
+{
+  "region": "Latin America",
+  "slug": "latam",
+  "language": "es",
+  "role": "primary",
+  "headline": "Construyendo Negocios Preparados para Crecer",
+  "subheadline": "Educación enfocada en estructura, preparación y durabilidad empresarial a largo plazo en América Latina.",
+  "positioning": [
+    "En América Latina, muchos negocios fracasan por falta de estructura, no por falta de esfuerzo.",
+    "Edunancial enseña cómo construir negocios sólidos desde el inicio.",
+    "El enfoque está en educación financiera, protección legal y pensamiento estratégico."
+  ],
+  "coreThemes": [
+    "Estructura legal y formalización empresarial",
+    "Educación financiera práctica",
+    "Separación entre negocio y persona",
+    "Preparación para capital e inversión",
+    "Crecimiento sostenible y controlado"
+  ],
+  "audience": [
+    "Emprendedores nuevos",
+    "Pequeños empresarios",
+    "Profesionales independientes",
+    "Familias construyendo negocios generacionales"
+  ],
+  "outcomes": [
+    "Mayor claridad financiera",
+    "Negocios más formales y protegidos",
+    "Mejor toma de decisiones",
+    "Preparación para expansión regional o internacional"
+  ],
+  "cta": {
+    "primary": "Comienza a Construir un Negocio Real",
+    "secondary": "Aprende las Bases del Crecimiento Empresarial"
+  }
+}
