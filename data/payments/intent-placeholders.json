@@ -1,0 +1,17 @@
+{
+  "paypal": {
+    "clientId": "REPLACE_LATER",
+    "environment": "sandbox"
+  },
+  "square": {
+    "applicationId": "REPLACE_LATER",
+    "locationId": "REPLACE_LATER"
+  },
+  "bank": {
+    "instructions": "Bank transfer instructions will be shown at checkout."
+  },
+  "crypto": {
+    "wallet": "REPLACE_LATER",
+    "network": "USDT-ERC20"
+  }
+}
