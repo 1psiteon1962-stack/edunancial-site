@@ -1,6 +1,5 @@
 [build]
   command = "npm run build"
 
-# ✅ REQUIRED for Next.js on Netlify
 [[plugins]]
   package = "@netlify/plugin-nextjs"
