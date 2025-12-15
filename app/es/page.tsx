@@ -3,8 +3,8 @@ import {
   AppsSection,
   BooksSection,
   CoursesSection,
-  FooterSection,
-} from "@/components/sections";
+  FooterSection
+} from "../../components/sections";
 
 export default function Page() {
   return (
