@@ -1,19 +1,19 @@
-import HeroSection from "@/components/sections/herosection";
-import BooksSection from "@/components/sections/bookssection";
-import CoursesSection from "@/components/sections/coursessection";
-import AppsSection from "@/components/sections/appssection";
-import RotatingVideoSection from "@/components/sections/rotatingvideosection";
-import StorySection from "@/components/sections/storysection";
+// FILE: app/en/page.tsx
 
-export default function EnglishHomePage() {
+import HeroSection from "@/components/sections/herosection";
+import AppsSection from "@/components/sections/appssection";
+import BooksSection from "@/components/sections/bookssection";
+import CoursesSection from "@/components/sections/coursessecti on";
+import FooterSection from "@/components/sections/footersection";
+
+export default function Page() {
   return (
-    <main className="w-full">
+    <>
       <HeroSection />
+      <AppsSection />
       <BooksSection />
       <CoursesSection />
-      <AppsSection />
-      <RotatingVideoSection />
-      <StorySection />
-    </main>
+      <FooterSection />
+    </>
   );
 }
