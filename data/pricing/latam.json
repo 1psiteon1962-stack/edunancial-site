@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "pricingStrategy": "regional-adjusted",
+  "discounts": {
+    "enabled": true,
+    "defaultPercent": 20,
+    "notes": "LATAM pricing adjusted for regional purchasing power."
+  },
+  "taxes": {
+    "handledExternally": true,
+    "notes": "Taxes and VAT handled by payment provider where applicable."
+  }
+}
