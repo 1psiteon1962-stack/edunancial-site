@@ -1,11 +1,13 @@
+# FILENAME: netlify.toml
+# LOCATION: repository root (same level as package.json)
+
 [build]
-  command = "npm run build"
-  publish = "out"
+command = "npm run build"
+publish = "out"
 
-[context.production.environment]
-  NODE_VERSION = "18"
+[build.environment]
+NODE_VERSION = "18"
 
-# DISABLE Netlify Next.js plugin entirely
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-  enabled = false
+# DO NOT ADD ANY OTHER CHARACTERS
+# DO NOT ADD COLORS, EMOJIS, COMMENTS FROM TERMINAL OUTPUT
+# THIS FILE MUST BE PLAIN ASCII TEXT
