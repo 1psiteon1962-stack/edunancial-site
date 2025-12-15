@@ -1,0 +1,5 @@
+{
+  "default": "es",
+  "supported": ["es", "en", "pt"],
+  "notes": "Spanish default; Portuguese supported for Brazil; English fallback."
+}
