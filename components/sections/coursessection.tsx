@@ -2,7 +2,7 @@ export default function CoursesSection() {
   return (
     <section id="courses">
       <h2>Courses</h2>
-      <p>Learn investing, business, and financial discipline.</p>
+      <p>Structured financial education courses.</p>
     </section>
   );
 }
