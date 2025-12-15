@@ -1,10 +1,7 @@
-import { CoursesSection, FooterSection } from "@/components/sections";
-
-export default function Page() {
+export default function CoursesPage() {
   return (
-    <>
-      <CoursesSection />
-      <FooterSection />
-    </>
+    <main>
+      <h1>Courses</h1>
+    </main>
   );
 }
