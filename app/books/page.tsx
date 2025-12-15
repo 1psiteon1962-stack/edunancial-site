@@ -1,5 +1,4 @@
-import BooksSection from "@/components/sections/bookssection";
-import FooterSection from "@/components/sections/footersection";
+import { BooksSection, FooterSection } from "@/components/sections";
 
 export default function Page() {
   return (
