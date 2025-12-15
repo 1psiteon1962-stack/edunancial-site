@@ -1,19 +1,19 @@
-import HeroSection from "@/components/sections/herosection";
-import BooksSection from "@/components/sections/bookssection";
-import CoursesSection from "@/components/sections/coursessection";
-import AppsSection from "@/components/sections/appssection";
-import RotatingVideoSection from "@/components/sections/rotatingvideosection";
-import StorySection from "@/components/sections/storysection";
+import {
+  HeroSection,
+  AppsSection,
+  BooksSection,
+  CoursesSection,
+  FooterSection,
+} from "@/components/sections";
 
-export default function SpanishHomePage() {
+export default function Page() {
   return (
-    <main className="w-full">
+    <>
       <HeroSection />
+      <AppsSection />
       <BooksSection />
       <CoursesSection />
-      <AppsSection />
-      <RotatingVideoSection />
-      <StorySection />
-    </main>
+      <FooterSection />
+    </>
   );
 }
