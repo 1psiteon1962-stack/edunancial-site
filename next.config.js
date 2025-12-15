@@ -2,13 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // REQUIRED for Netlify
-  experimental: {
-    appDir: true,
-  },
+  // REQUIRED for Netlify + Next 14
+  output: "standalone",
 
-  // DO NOT set output: "standalone"
-  // DO NOT use custom server configs
+  // Disable image optimization for Netlify edge
+  images: {
+    unoptimized: true
+  }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
