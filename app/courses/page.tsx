@@ -1,7 +1,5 @@
-export default function CoursesPage() {
-  return (
-    <main>
-      <h1>Courses</h1>
-    </main>
-  );
+import { CoursesSection } from "../../components/sections";
+
+export default function Page() {
+  return <CoursesSection />;
 }
