@@ -1,0 +1,5 @@
+{
+  "default": "en",
+  "supported": ["en", "es", "fr"],
+  "notes": "English default; Spanish and French supported depending on island."
+}
