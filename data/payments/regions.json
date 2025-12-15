@@ -1,0 +1,32 @@
+{
+  "us": {
+    "currency": "USD",
+    "providers": ["paypal", "square", "bank", "crypto"],
+    "default": "paypal"
+  },
+  "latam": {
+    "currency": "USD",
+    "providers": ["paypal", "bank", "crypto"],
+    "default": "paypal"
+  },
+  "caribbean": {
+    "currency": "USD",
+    "providers": ["paypal", "bank", "crypto"],
+    "default": "paypal"
+  },
+  "europe": {
+    "currency": "EUR",
+    "providers": ["paypal", "bank", "crypto"],
+    "default": "paypal"
+  },
+  "africa": {
+    "currency": "USD",
+    "providers": ["paypal", "bank", "crypto"],
+    "default": "paypal"
+  },
+  "asia": {
+    "currency": "USD",
+    "providers": ["paypal", "crypto"],
+    "default": "paypal"
+  }
+}
