@@ -1,7 +1,5 @@
-export default function BooksPage() {
-  return (
-    <main>
-      <h1>Books</h1>
-    </main>
-  );
+import { BooksSection } from "../../components/sections";
+
+export default function Page() {
+  return <BooksSection />;
 }
