@@ -1,0 +1,15 @@
+{
+  "region": "latam",
+  "headline": "Educación Financiera para Crecer con Estructura y Protección",
+  "subheadline": "Negocios reales requieren planificación, disciplina y visión a largo plazo.",
+  "ctaPrimary": "Ver Programas",
+  "ctaSecondary": "Cómo Funciona",
+  "featuredProducts": ["courses", "books"],
+  "audience": [
+    "Emprendedores",
+    "Dueños de negocios familiares",
+    "Fundadores en crecimiento"
+  ],
+  "tone": "educational",
+  "languageHint": "es"
+}
