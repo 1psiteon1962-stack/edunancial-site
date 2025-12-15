@@ -1,0 +1,16 @@
+{
+  "region": "us",
+  "headline": "Education Focused on Readiness, Structure, and Long-Term Business Durability",
+  "subheadline": "Build real businesses, protect assets, and scale with discipline.",
+  "ctaPrimary": "Explore Programs",
+  "ctaSecondary": "Learn How It Works",
+  "featuredProducts": ["courses", "books", "apps"],
+  "audience": [
+    "Founders",
+    "Small business owners",
+    "Investors",
+    "Professionals planning to scale"
+  ],
+  "tone": "direct",
+  "complianceNote": "Educational content only. No financial or legal advice."
+}
