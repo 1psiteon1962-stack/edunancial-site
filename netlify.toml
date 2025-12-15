@@ -1,13 +1,3 @@
-# FILENAME: netlify.toml
-# LOCATION: repository root (same level as package.json)
-
 [build]
-command = "npm run build"
-publish = "out"
-
-[build.environment]
-NODE_VERSION = "18"
-
-# DO NOT ADD ANY OTHER CHARACTERS
-# DO NOT ADD COLORS, EMOJIS, COMMENTS FROM TERMINAL OUTPUT
-# THIS FILE MUST BE PLAIN ASCII TEXT
+  command = "npm run build"
+  publish = "out"
