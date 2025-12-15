@@ -1,7 +1,19 @@
-export default function EnglishPage() {
+import {
+  HeroSection,
+  AppsSection,
+  BooksSection,
+  CoursesSection,
+  FooterSection
+} from "../../components/sections";
+
+export default function Page() {
   return (
-    <main>
-      <h1>English</h1>
-    </main>
+    <>
+      <HeroSection />
+      <AppsSection />
+      <BooksSection />
+      <CoursesSection />
+      <FooterSection />
+    </>
   );
 }
