@@ -1,0 +1,17 @@
+{
+  "books": {
+    "default": 19.99,
+    "bundle": 49.99
+  },
+  "courses": {
+    "starter": 99.00,
+    "advanced": 249.00
+  },
+  "apps": {
+    "monthly": 9.99,
+    "annual": 99.00
+  },
+  "bundles": {
+    "education_pack": 199.00
+  }
+}
