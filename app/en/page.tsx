@@ -1,19 +1,21 @@
 import {
-  HeroSection,
-  AppsSection,
-  BooksSection,
-  CoursesSection,
-  FooterSection
-} from "../../components/sections";
+  herosection,
+  appssection,
+  coursessection,
+  footersection,
+  rotatingvideosection,
+  storysection,
+} from "@/components/sections";
 
 export default function Page() {
   return (
     <>
-      <HeroSection />
-      <AppsSection />
-      <BooksSection />
-      <CoursesSection />
-      <FooterSection />
+      {herosection()}
+      {appssection()}
+      {rotatingvideosection()}
+      {coursessection()}
+      {storysection()}
+      {footersection()}
     </>
   );
 }
