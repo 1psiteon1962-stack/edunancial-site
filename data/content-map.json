@@ -1,18 +1,55 @@
 {
-  "courses": {
-    "enabled": true,
-    "regions": ["us", "latam", "caribbean", "europe", "africa", "asia"]
+  "us": {
+    "regionFile": "data/regions/us.json",
+    "contentOverlay": "data/content/us.json",
+    "defaultLanguage": "en",
+    "allowedProducts": ["courses", "books", "apps", "bundles"],
+    "pricingRegion": "us",
+    "paymentRegion": "us"
   },
-  "books": {
-    "enabled": true,
-    "regions": ["us", "latam", "caribbean", "europe"]
+
+  "latam": {
+    "regionFile": "data/regions/latam.json",
+    "contentOverlay": "data/content/latam.json",
+    "defaultLanguage": "es",
+    "allowedProducts": ["courses", "books", "bundles"],
+    "pricingRegion": "latam",
+    "paymentRegion": "latam"
   },
-  "apps": {
-    "enabled": true,
-    "regions": ["us", "latam", "europe", "asia"]
+
+  "caribbean": {
+    "regionFile": "data/regions/caribbean.json",
+    "contentOverlay": "data/content/caribbean.json",
+    "defaultLanguage": "en",
+    "allowedProducts": ["courses", "books", "bundles"],
+    "pricingRegion": "caribbean",
+    "paymentRegion": "caribbean"
   },
-  "tools": {
-    "enabled": true,
-    "regions": ["us", "latam", "caribbean", "africa"]
+
+  "europe": {
+    "regionFile": "data/regions/europe.json",
+    "contentOverlay": "data/content/europe.json",
+    "defaultLanguage": "en",
+    "allowedProducts": ["courses", "apps"],
+    "pricingRegion": "europe",
+    "paymentRegion": "europe"
+  },
+
+  "africa": {
+    "regionFile": "data/regions/africa.json",
+    "contentOverlay": "data/content/africa.json",
+    "defaultLanguage": "en",
+    "allowedProducts": ["courses", "apps"],
+    "pricingRegion": "africa",
+    "paymentRegion": "africa"
+  },
+
+  "asia": {
+    "regionFile": "data/regions/asia.json",
+    "contentOverlay": "data/content/asia.json",
+    "defaultLanguage": "en",
+    "allowedProducts": ["apps", "courses"],
+    "pricingRegion": "asia",
+    "paymentRegion": "asia"
   }
 }
