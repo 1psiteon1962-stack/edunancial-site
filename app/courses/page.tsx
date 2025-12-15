@@ -1,6 +1,4 @@
-// FILE: app/courses/page.tsx
-
-import CoursesSection from "@/components/sections/coursessecti on";
+import CoursesSection from "@/components/sections/coursessection";
 import FooterSection from "@/components/sections/footersection";
 
 export default function Page() {
