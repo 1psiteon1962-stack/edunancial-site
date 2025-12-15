@@ -1,7 +1,5 @@
-export default function AppsPage() {
-  return (
-    <main>
-      <h1>Apps</h1>
-    </main>
-  );
+import { AppsSection } from "../../components/sections";
+
+export default function Page() {
+  return <AppsSection />;
 }
