@@ -1,6 +1,16 @@
 [build]
-  publish = "public"
+  command = "npm run build"
+  publish = ".next"
 
-[[edge_functions]]
-  function = "site-context"
-  path = "/*"
+# ✅ Make sure Next routes resolve correctly on Netlify
+[[redirects]]
+  from = "/_next/*"
+  to = "/_next/:splat"
+  status = 200
+
+# ✅ IMPORTANT: All non-file routes fall through to Next
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
