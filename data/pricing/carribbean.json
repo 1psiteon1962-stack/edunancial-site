@@ -1,0 +1,20 @@
+{
+  "courses": {
+    "enabled": true,
+    "currency": "USD",
+    "notes": "Digital courses available throughout the Caribbean."
+  },
+  "books": {
+    "enabled": true,
+    "formats": ["digital", "print"],
+    "notes": "Digital prioritized; print depends on island logistics."
+  },
+  "apps": {
+    "enabled": true,
+    "notes": "Web-based apps supported; mobile rollout staged."
+  },
+  "bundles": {
+    "enabled": true,
+    "notes": "Bundles combine courses, books, and app access."
+  }
+}
