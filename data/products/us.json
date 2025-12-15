@@ -1,0 +1,24 @@
+{
+  "foundations-course": {
+    "type": "courses",
+    "tier": "starter"
+  },
+  "advanced-finance-course": {
+    "type": "courses",
+    "tier": "advanced"
+  },
+  "edumath": {
+    "type": "apps",
+    "billing": "monthly"
+  },
+  "edunancial-edge": {
+    "type": "apps",
+    "billing": "annual"
+  },
+  "wealth-book": {
+    "type": "books"
+  },
+  "education-pack": {
+    "type": "bundles"
+  }
+}
