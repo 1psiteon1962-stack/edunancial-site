@@ -1,5 +1,3 @@
-// FILE: app/books/page.tsx
-
 import BooksSection from "@/components/sections/bookssection";
 import FooterSection from "@/components/sections/footersection";
 
