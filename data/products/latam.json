@@ -1,0 +1,20 @@
+{
+  "courses": {
+    "enabled": true,
+    "currency": "USD",
+    "notes": "Digital education products available across LATAM."
+  },
+  "books": {
+    "enabled": true,
+    "formats": ["digital", "print"],
+    "notes": "Digital delivery prioritized; print availability may vary by country."
+  },
+  "apps": {
+    "enabled": true,
+    "notes": "Web-based apps available; mobile rollout staged."
+  },
+  "bundles": {
+    "enabled": true,
+    "notes": "Bundles may include courses, books, and app access."
+  }
+}
