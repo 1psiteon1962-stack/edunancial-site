@@ -1,5 +1,4 @@
-import CoursesSection from "@/components/sections/coursessection";
-import FooterSection from "@/components/sections/footersection";
+import { CoursesSection, FooterSection } from "@/components/sections";
 
 export default function Page() {
   return (
