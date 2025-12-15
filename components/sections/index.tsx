@@ -1,7 +1,6 @@
-export { default as HeroSection } from "./herosection";
-export { default as AppsSection } from "./appssection";
-export { default as CoursesSection } from "./coursessections";
-export { default as FooterSection } from "./footersection";
-
-export { default as RotatingVideoSection } from "./rotatingvideosection";
-export { default as StorySection } from "./storysection";
+export { default as herosection } from "./herosection";
+export { default as appssection } from "./appssection";
+export { default as coursessection } from "./coursessection";
+export { default as footersection } from "./footersection";
+export { default as rotatingvideosection } from "./rotatingvideosection";
+export { default as storysection } from "./storysection";
