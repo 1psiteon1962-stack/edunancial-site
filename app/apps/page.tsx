@@ -1,11 +1,7 @@
-import AppsSection from "@/components/sections/appssection";
-import FooterSection from "@/components/sections/footersection";
-
-export default function Page() {
+export default function AppsPage() {
   return (
-    <>
-      <AppsSection />
-      <FooterSection />
-    </>
+    <main>
+      <h1>Apps</h1>
+    </main>
   );
 }
