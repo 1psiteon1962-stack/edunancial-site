@@ -1,23 +1,25 @@
+// app/page.tsx
+
 import {
-  herosection,
-  storysection,
-  coursesselection,
-  appssection,
-  rotatingvideosection,
-  booksection,
-  footersection
+  HeroSection,
+  StorySection,
+  CoursesSelection,
+  AppsSection,
+  RotatingVideoSection,
+  BookSection,
+  FooterSection,
 } from '@/components/sections';
 
-export default function page() {
+export default function Page() {
   return (
     <>
-      {herosection()}
-      {storysection()}
-      {coursesselection()}
-      {appssection()}
-      {rotatingvideosection()}
-      {booksection()}
-      {footersection()}
+      <HeroSection />
+      <StorySection />
+      <CoursesSelection />
+      <AppsSection />
+      <RotatingVideoSection />
+      <BookSection />
+      <FooterSection />
     </>
   );
 }
