@@ -1,23 +1,5 @@
-import {
-  HeroSection,
-  StorySection,
-  CoursesSection,
-  AppsSection,
-  RotatingVideoSection,
-  BookSection,
-  FooterSection,
-} from "../components/sections";
+import SiteHome from "@/components/SiteHome";
 
 export default function Page() {
-  return (
-    <main>
-      <HeroSection />
-      <StorySection />
-      <CoursesSection />
-      <AppsSection />
-      <RotatingVideoSection />
-      <BookSection />
-      <FooterSection />
-    </main>
-  );
+  return <SiteHome />;
 }
