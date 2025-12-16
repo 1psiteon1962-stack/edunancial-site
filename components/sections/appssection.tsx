@@ -1,8 +1,8 @@
-export default function AppsSection() {
+export function AppsSection() {
   return (
     <section id="apps">
       <h2>Apps</h2>
-      <p>Educational tools and learning apps.</p>
+      <p>Tools designed to build financial intelligence.</p>
     </section>
   );
 }
