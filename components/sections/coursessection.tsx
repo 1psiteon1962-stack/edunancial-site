@@ -1,8 +1,8 @@
-export default function CoursesSection() {
+export default function coursesselection() {
   return (
     <section id="courses">
       <h2>courses</h2>
-      <p>step-by-step education from level one upward</p>
+      <p>foundational financial education</p>
     </section>
   );
 }
