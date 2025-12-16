@@ -1,5 +1,5 @@
-import { bookssection } from '../../components/sections';
+import { BookSection } from "@/components/sections";
 
 export default function Page() {
-  return <bookssection />;
+  return <BookSection />;
 }
