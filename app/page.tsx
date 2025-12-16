@@ -1,4 +1,4 @@
-import SiteHome from "@/components/SiteHome";
+import SiteHome from "../components/sitehome";
 
 export default function Page() {
   return <SiteHome />;
