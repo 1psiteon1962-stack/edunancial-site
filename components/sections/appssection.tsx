@@ -1,8 +1,8 @@
-export default function appssection() {
+export default function AppsSection() {
   return (
-    <section id="apps">
-      <h2>apps</h2>
-      <p>tools that guide decision-making</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h2>Apps</h2>
+      <p>Decision tools designed for real entrepreneurs.</p>
     </section>
   );
 }
