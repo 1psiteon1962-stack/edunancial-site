@@ -1,31 +1,7 @@
-import herosection from './herosection';
-import appssection from './appssection';
-import bookssection from './bookssection';
-import coursessection from './coursessection';
-import rotatingvideosection from './rotatingvideosection';
-import storysection from './storysection';
-import footersection from './footersection';
-
-export {
-  herosection,
-  appssection,
-  bookssection,
-  coursessection,
-  rotatingvideosection,
-  storysection,
-  footersection,
-};
-
-export default function sections() {
-  return (
-    <>
-      <herosection />
-      <appssection />
-      <bookssection />
-      <coursessection />
-      <rotatingvideosection />
-      <storysection />
-      <footersection />
-    </>
-  );
-}
+export { default as AppSection } from './appsection';
+export { default as BookSection } from './booksection';
+export { default as CoursesSection } from './coursessecction';
+export { default as HeroSection } from './herosection';
+export { default as RotatingVideoSection } from './rotatingvideosection';
+export { default as StorySection } from './storysection';
+export { default as FooterSection } from './footersection';
