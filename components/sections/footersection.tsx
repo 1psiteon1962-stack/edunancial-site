@@ -1,6 +1,6 @@
-export default function footersection() {
+export default function FooterSection() {
   return (
-    <footer id="footer">
+    <footer>
       <p>© edunancial</p>
     </footer>
   );
