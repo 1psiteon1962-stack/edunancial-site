@@ -1,5 +1,5 @@
-import { AppsSection } from "@/components/sections";
+import { BookSection } from "../../components/sections";
 
 export default function Page() {
-  return <AppsSection />;
+  return <BookSection />;
 }
