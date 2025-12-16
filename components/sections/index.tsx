@@ -1,28 +1,33 @@
-// hero
-export { default as HeroSection } from './herosection';
-export { default as herosection } from './herosection';
+import HeroSection from './herosection';
+import AppsSection from './appssection';
+import BookSection from './booksection';
+import CoursesSection from './coursessection';
+import RotatingVideoSection from './rotatingvideosection';
+import StorySection from './storysection';
+import FooterSection from './footersection';
 
-// apps
-export { default as AppsSection } from './appssection';
-export { default as appssection } from './appssection';
+/* named exports (already used elsewhere) */
+export {
+  HeroSection,
+  AppsSection,
+  BookSection,
+  CoursesSection,
+  RotatingVideoSection,
+  StorySection,
+  FooterSection,
+};
 
-// books (support BOTH BookSection and BooksSection)
-export { default as BookSection } from './booksection';
-export { default as BooksSection } from './booksection';
-export { default as booksection } from './booksection';
-
-// courses
-export { default as CoursesSection } from './coursessection';
-export { default as coursessection } from './coursessection';
-
-// rotating video
-export { default as RotatingVideoSection } from './rotatingvideosection';
-export { default as rotatingvideosection } from './rotatingvideosection';
-
-// story
-export { default as StorySection } from './storysection';
-export { default as storysection } from './storysection';
-
-// footer
-export { default as FooterSection } from './footersection';
-export { default as footersection } from './footersection';
+/* DEFAULT EXPORT — THIS IS WHAT WAS MISSING */
+export default function Sections() {
+  return (
+    <>
+      <HeroSection />
+      <AppsSection />
+      <BookSection />
+      <CoursesSection />
+      <RotatingVideoSection />
+      <StorySection />
+      <FooterSection />
+    </>
+  );
+}
