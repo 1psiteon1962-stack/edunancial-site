@@ -1,8 +1,11 @@
-export default function storysection() {
+export default function StorySection() {
   return (
-    <section id="story">
-      <h2>our story</h2>
-      <p>education before capital. structure before scale.</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h2>Our Story</h2>
+      <p>
+        Edunancial exists to guide entrepreneurs from survival thinking into
+        structured, scalable businesses.
+      </p>
     </section>
   );
 }
