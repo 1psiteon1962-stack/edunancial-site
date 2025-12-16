@@ -6,7 +6,7 @@ import RotatingVideoSection from './rotatingvideosection';
 import StorySection from './storysection';
 import FooterSection from './footersection';
 
-/* named exports (already used elsewhere) */
+/* named exports */
 export {
   HeroSection,
   AppsSection,
@@ -17,7 +17,7 @@ export {
   FooterSection,
 };
 
-/* DEFAULT EXPORT — THIS IS WHAT WAS MISSING */
+/* default export */
 export default function Sections() {
   return (
     <>
