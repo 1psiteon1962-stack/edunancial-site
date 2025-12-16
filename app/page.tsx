@@ -1,7 +1,23 @@
-export default function HomePage() {
+import {
+  herosection,
+  storysection,
+  coursesselection,
+  appssection,
+  rotatingvideosection,
+  booksection,
+  footersection
+} from '@/components/sections';
+
+export default function page() {
   return (
-    <main>
-      <h1>Edunancial is live</h1>
-    </main>
+    <>
+      {herosection()}
+      {storysection()}
+      {coursesselection()}
+      {appssection()}
+      {rotatingvideosection()}
+      {booksection()}
+      {footersection()}
+    </>
   );
 }
