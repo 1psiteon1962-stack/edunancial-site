@@ -7,19 +7,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[[redirects]]
-  from = "/"
-  to = "/en"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/es"
-  to = "/es"
-  status = 200
-
-[[redirects]]
-  from = "/en"
-  to = "/en"
-  status = 200
