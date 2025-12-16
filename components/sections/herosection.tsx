@@ -1,4 +1,4 @@
-export default function herosection() {
+export default function HeroSection() {
   return (
     <section id="hero">
       <h1>edunancial</h1>
