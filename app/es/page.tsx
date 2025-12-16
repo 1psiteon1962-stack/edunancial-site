@@ -1,5 +1,5 @@
-import Sections from "@/components/sections";
+import sections from '../../components/sections';
 
 export default function Page() {
-  return <Sections />;
+  return <sections />;
 }
