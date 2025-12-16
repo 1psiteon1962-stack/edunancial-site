@@ -1,8 +1,8 @@
-export default function herosection() {
+export default function HeroSection() {
   return (
-    <section id="hero">
-      <h1>edunancial</h1>
-      <p>financial literacy for the next generation</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h1>Edunancial</h1>
+      <p>Education focused on readiness, structure, and durability.</p>
     </section>
   );
 }
