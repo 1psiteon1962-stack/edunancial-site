@@ -1,58 +1,25 @@
-export const siteconfigs: Record<
-  string,
-  { region: string; role: "primary" | "mirror"; sections: string[] }
-> = {
-  "us-main": {
-    region: "us",
-    role: "primary",
-    sections: [
-      "herosection",
-      "rotatingvideosection",
-      "storysection",
-      "bookssection",
-      "coursessection",
-      "appssection",
-      "footersection"
-    ]
-  },
-  latam: {
-    region: "latam",
-    role: "mirror",
-    sections: [
-      "herosection",
-      "storysection",
-      "bookssection",
-      "coursessection",
-      "appssection",
-      "footersection"
-    ]
-  },
-  africa: {
-    region: "africa",
-    role: "mirror",
-    sections: ["herosection", "storysection", "coursessection", "appssection", "footersection"]
-  },
-  europe: {
-    region: "europe",
-    role: "mirror",
-    sections: ["herosection", "storysection", "bookssection", "coursessection", "footersection"]
-  },
-  asia: {
-    region: "asia",
-    role: "mirror",
-    sections: ["herosection", "storysection", "coursessection", "appssection", "footersection"]
-  },
-  caribbean: {
-    region: "caribbean",
-    role: "mirror",
-    sections: [
-      "herosection",
-      "rotatingvideosection",
-      "storysection",
-      "bookssection",
-      "coursessection",
-      "appssection",
-      "footersection"
-    ]
-  }
-};
+"use client";
+
+import siteconfig from "../data/site-config";
+import { copydata } from "../data/copy";
+import { sections } from "./sections";
+import { getruntimesitekey, getruntimelang } from "../lib/runtime";
+
+export default function SiteHome() {
+  const sitekey = getruntimesitekey();
+  const lang = getruntimelang();
+
+  const cfg = siteconfig[sitekey] ?? siteconfig["us-main"];
+  const copy =
+    copydata[lang]?.[sitekey] ??
+    copydata["en"]["us-main"];
+
+  return (
+    <main>
+      {cfg.sections.map((key: string) => {
+        const Section = sections[key];
+        return Section ? <Section key={key} copy={copy} /> : null;
+      })}
+    </main>
+  );
+}
