@@ -1,10 +1,8 @@
-"use client";
-
-export default function BookSection() {
+export default function bookssection({ copy }: any) {
   return (
-    <section>
-      <h2>Books</h2>
-      <p>Books section content.</p>
+    <section style={{ padding: "2rem 1.5rem", maxWidth: 960, margin: "0 auto" }}>
+      <h3 style={{ fontSize: "1.5rem", margin: 0 }}>{copy.booksTitle}</h3>
+      <p style={{ marginTop: "0.75rem" }}>{copy.booksBody}</p>
     </section>
   );
 }
