@@ -1,8 +1,12 @@
-export default function coursesselection() {
+export default function CoursesSection() {
   return (
-    <section id="courses">
-      <h2>courses</h2>
-      <p>foundational financial education</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h2>Courses</h2>
+      <ul>
+        <li>Business Foundations</li>
+        <li>Legal Structure</li>
+        <li>Capital & Scaling</li>
+      </ul>
     </section>
   );
 }
