@@ -1,7 +1,7 @@
-export default function footersection() {
+export default function FooterSection() {
   return (
-    <footer>
-      <p>© edunancial</p>
+    <footer style={{ padding: '60px', background: '#f5f5f5' }}>
+      <p>© Edunancial</p>
     </footer>
   );
 }
