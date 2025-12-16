@@ -1,31 +1,31 @@
-import HeroSection from './herosection';
-import AppsSection from './appssection';
-import BookSection from './booksection';
-import CoursesSection from './coursessection';
-import RotatingVideoSection from './rotatingvideosection';
-import StorySection from './storysection';
-import FooterSection from './footersection';
+import herosection from './herosection';
+import appssection from './appssection';
+import bookssection from './bookssection';
+import coursessection from './coursessection';
+import rotatingvideosection from './rotatingvideosection';
+import storysection from './storysection';
+import footersection from './footersection';
 
 export {
-  HeroSection,
-  AppsSection,
-  BookSection,
-  CoursesSection,
-  RotatingVideoSection,
-  StorySection,
-  FooterSection,
+  herosection,
+  appssection,
+  bookssection,
+  coursessection,
+  rotatingvideosection,
+  storysection,
+  footersection,
 };
 
-export default function Sections() {
+export default function sections() {
   return (
     <>
-      <HeroSection />
-      <AppsSection />
-      <BookSection />
-      <CoursesSection />
-      <RotatingVideoSection />
-      <StorySection />
-      <FooterSection />
+      <herosection />
+      <appssection />
+      <bookssection />
+      <coursessection />
+      <rotatingvideosection />
+      <storysection />
+      <footersection />
     </>
   );
 }
