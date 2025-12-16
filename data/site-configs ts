@@ -1,0 +1,58 @@
+export const siteconfigs: Record<
+  string,
+  { region: string; role: "primary" | "mirror"; sections: string[] }
+> = {
+  "us-main": {
+    region: "us",
+    role: "primary",
+    sections: [
+      "herosection",
+      "rotatingvideosection",
+      "storysection",
+      "bookssection",
+      "coursessection",
+      "appssection",
+      "footersection"
+    ]
+  },
+  latam: {
+    region: "latam",
+    role: "mirror",
+    sections: [
+      "herosection",
+      "storysection",
+      "bookssection",
+      "coursessection",
+      "appssection",
+      "footersection"
+    ]
+  },
+  africa: {
+    region: "africa",
+    role: "mirror",
+    sections: ["herosection", "storysection", "coursessection", "appssection", "footersection"]
+  },
+  europe: {
+    region: "europe",
+    role: "mirror",
+    sections: ["herosection", "storysection", "bookssection", "coursessection", "footersection"]
+  },
+  asia: {
+    region: "asia",
+    role: "mirror",
+    sections: ["herosection", "storysection", "coursessection", "appssection", "footersection"]
+  },
+  caribbean: {
+    region: "caribbean",
+    role: "mirror",
+    sections: [
+      "herosection",
+      "rotatingvideosection",
+      "storysection",
+      "bookssection",
+      "coursessection",
+      "appssection",
+      "footersection"
+    ]
+  }
+};
