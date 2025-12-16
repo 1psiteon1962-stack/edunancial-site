@@ -2,8 +2,28 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-[build.environment]
-  NODE_VERSION = "20"
+# ----------------------------
+# Language-based mirror routing
+# ----------------------------
+
+# If browser language is Spanish, route to /es
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 302
+  force = true
+  conditions = { Language = ["es"] }
+
+# Default fallback to English
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
