@@ -1,8 +1,8 @@
-export default function booksection() {
+export default function BookSection() {
   return (
-    <section id="books">
-      <h2>books</h2>
-      <p>learn by category. red. white. blue.</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h2>Books</h2>
+      <p>Written guides for long-term business survival.</p>
     </section>
   );
 }
