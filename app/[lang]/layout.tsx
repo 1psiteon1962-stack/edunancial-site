@@ -1,9 +1,5 @@
-import {
-  HeroSection,
-  AppsSection,
-  BookSection,
-  CoursesSection,
-  RotatingVideoSection,
-  StorySection,
-  FooterSection,
-} from '@/components/sections';
+import type { ReactNode } from "react";
+
+export default function LangLayout({ children }: { children: ReactNode }) {
+  return <>{children}</>;
+}
