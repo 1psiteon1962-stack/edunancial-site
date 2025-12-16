@@ -1,10 +1,9 @@
-"use client";
-
-export default function RotatingVideoSection() {
+export default function rotatingvideosection() {
   return (
-    <section>
-      <h2>Videos</h2>
-      <p>Rotating videos go here.</p>
+    <section style={{ padding: "2rem 1.5rem", maxWidth: 960, margin: "0 auto" }}>
+      <div style={{ border: "1px solid #ddd", borderRadius: 16, padding: "1rem" }}>
+        rotating video section
+      </div>
     </section>
   );
 }
