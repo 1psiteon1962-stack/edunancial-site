@@ -8,7 +8,7 @@ import {
   RotatingVideoSection,
   BookSection,
   FooterSection,
-} from "@/components/sections";
+} from '@/components/sections';
 
 export default function Page() {
   return (
