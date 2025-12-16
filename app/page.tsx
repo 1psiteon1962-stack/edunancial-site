@@ -5,7 +5,7 @@ import {
   AppsSection,
   RotatingVideoSection,
   BookSection,
-  FooterSection
+  FooterSection,
 } from "../components/sections";
 
 export default function Page() {
