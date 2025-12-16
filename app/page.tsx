@@ -1,5 +1,3 @@
-// app/page.tsx
-
 import {
   HeroSection,
   StorySection,
