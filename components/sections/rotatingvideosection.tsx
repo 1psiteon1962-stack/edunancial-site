@@ -1,8 +1,8 @@
-export default function rotatingvideosection() {
+export default function RotatingVideoSection() {
   return (
-    <section id="videos">
-      <h2>insights</h2>
-      <p>short-form education and strategy</p>
+    <section style={{ padding: '80px', borderBottom: '1px solid #ddd' }}>
+      <h2>Video Insights</h2>
+      <p>Short, direct explanations of business structure and risk.</p>
     </section>
   );
 }
