@@ -1,27 +1,7 @@
-import herosection from './herosection';
-import appssection from './appssection';
-import booksection from './booksection';
-import coursessection from './coursessection';
-import rotatingvideosection from './rotatingvideosection';
-import storysection from './storysection';
-import footersection from './footersection';
-
-export {
-  herosection,
-  appssection,
-  booksection,
-  coursessection,
-  rotatingvideosection,
-  storysection,
-  footersection,
-};
-
-export default {
-  herosection,
-  appssection,
-  booksection,
-  coursessection,
-  rotatingvideosection,
-  storysection,
-  footersection,
-};
+export { default as herosection } from './herosection';
+export { default as appssection } from './appssection';
+export { default as booksection } from './booksection';
+export { default as coursessection } from './coursessection';
+export { default as rotatingvideosection } from './rotatingvideosection';
+export { default as storysection } from './storysection';
+export { default as footersection } from './footersection';
