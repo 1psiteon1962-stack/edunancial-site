@@ -1,7 +1,7 @@
-export default function FooterSection() {
+export function FooterSection() {
   return (
     <footer>
-      <p>© {new Date().getFullYear()} Edunancial. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Edunancial</p>
     </footer>
   );
 }
