@@ -1,8 +1,8 @@
-export default function RotatingVideoSection() {
+export function RotatingVideoSection() {
   return (
     <section id="videos">
-      <h2>Featured Videos</h2>
-      <p>Rotating educational video content.</p>
+      <h2>Video Insights</h2>
+      <p>Short-form insights that compound over time.</p>
     </section>
   );
 }
