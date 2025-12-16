@@ -1,4 +1,4 @@
-import { AppsSection } from "../../components/sections";
+import { AppsSection } from "@/components/sections";
 
 export default function Page() {
   return <AppsSection />;
