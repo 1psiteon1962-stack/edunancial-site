@@ -10,7 +10,7 @@ import {
 
 export default function Page() {
   return (
-    <>
+    <main>
       <HeroSection />
       <StorySection />
       <CoursesSection />
@@ -18,6 +18,6 @@ export default function Page() {
       <RotatingVideoSection />
       <BookSection />
       <FooterSection />
-    </>
+    </main>
   );
 }
