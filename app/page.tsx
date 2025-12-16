@@ -3,7 +3,7 @@
 import {
   HeroSection,
   StorySection,
-  CoursesSelection,
+  CoursesSection,
   AppsSection,
   RotatingVideoSection,
   BookSection,
@@ -15,7 +15,7 @@ export default function Page() {
     <>
       <HeroSection />
       <StorySection />
-      <CoursesSelection />
+      <CoursesSection />
       <AppsSection />
       <RotatingVideoSection />
       <BookSection />
