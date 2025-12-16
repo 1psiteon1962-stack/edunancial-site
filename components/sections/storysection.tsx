@@ -1,4 +1,4 @@
-export default function StorySection() {
+export function StorySection() {
   return (
     <section id="story">
       <h2>Our Story</h2>
