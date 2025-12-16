@@ -1,7 +1,17 @@
-export { default as HeroSection } from "./herosection";
-export { default as StorySection } from "./storysection";
-export { default as CoursesSection } from "./coursessection";
-export { default as AppsSection } from "./appssection";
-export { default as RotatingVideoSection } from "./rotatingvideosection";
-export { default as BookSection } from "./booksection";
-export { default as FooterSection } from "./footersection";
+import herosection from "./herosection";
+import rotatingvideosection from "./rotatingvideosection";
+import storysection from "./storysection";
+import bookssection from "./bookssection";
+import coursessection from "./coursessection";
+import appssection from "./appssection";
+import footersection from "./footersection";
+
+export const sections: Record<string, any> = {
+  herosection,
+  rotatingvideosection,
+  storysection,
+  bookssection,
+  coursessection,
+  appssection,
+  footersection
+};
