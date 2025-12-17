@@ -1,5 +1,5 @@
 import AppsSection from './appssection';
-import BooksSection from './bookssection';
+import BooksSection from './BooksSection';
 import CoursesSection from './coursessection';
 import HeroSection from './herosection';
 import RotatingVideoSection from './rotatingvideosection';
