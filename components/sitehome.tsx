@@ -1,26 +1,25 @@
-"use client";
+import {
+  herosection,
+  storysection,
+  appssection,
+  bookssection,
+  coursessection,
+  rotatingvideosection,
+  footersection,
+} from './sections';
 
-import { getruntimesitekey, getruntimelang } from "../lib/runtime";
-import { siteconfigs } from "../data/site-configs";
-import { copydata } from "../data/copy";
-import { sections } from "./sections";
+import siteConfig from '../data/site-config';
 
-export default function SiteHome() {
-  const sitekey = getruntimesitekey();
-  const lang = getruntimelang();
-
-  const cfg = siteconfigs[sitekey] ?? siteconfigs["us-main"];
-  const copy =
-    copydata[lang]?.[sitekey] ??
-    copydata["en"]["us-main"];
-
+export default function sitehome() {
   return (
     <main>
-      {cfg.sections.map((key: string) => {
-        const Section = sections[key];
-        if (!Section) return null;
-        return <Section key={key} copy={copy} />;
-      })}
+      <herosection />
+      <storysection />
+      <appssection />
+      <bookssection />
+      <coursessection />
+      <rotatingvideosection />
+      <footersection />
     </main>
   );
 }
