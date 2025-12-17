@@ -1,17 +1,17 @@
-import herosection from "./herosection";
-import rotatingvideosection from "./rotatingvideosection";
-import storysection from "./storysection";
-import bookssection from "./bookssection";
-import coursessection from "./coursessection";
-import appssection from "./appssection";
-import footersection from "./footersection";
+import AppsSection from './appssection';
+import BooksSection from './bookssection';
+import CoursesSection from './coursessections';
+import HeroSection from './herosection';
+import RotatingVideoSection from './rotatingvideosection';
+import StorySection from './storysection';
+import FooterSection from './footersection';
 
-export const sections: Record<string, any> = {
-  herosection,
-  rotatingvideosection,
-  storysection,
-  bookssection,
-  coursessection,
-  appssection,
-  footersection
+export {
+  HeroSection,
+  StorySection,
+  AppsSection,
+  BooksSection,
+  CoursesSection,
+  RotatingVideoSection,
+  FooterSection,
 };
