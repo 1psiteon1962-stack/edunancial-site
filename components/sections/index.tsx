@@ -1,10 +1,10 @@
-import AppsSection from './appssection';
-import BooksSection from './bookssection';
-import CoursesSection from './coursessection';
-import HeroSection from './herosection';
-import RotatingVideoSection from './rotatingvideosection';
-import StorySection from './storysection';
-import FooterSection from './footersection';
+import AppsSection from './appssection.tsx';
+import BooksSection from './bookssection.tsx';
+import CoursesSection from './coursessection.tsx';
+import HeroSection from './herosection.tsx';
+import RotatingVideoSection from './rotatingvideosection.tsx';
+import StorySection from './storysection.tsx';
+import FooterSection from './footersection.tsx';
 
 export {
   HeroSection,
