@@ -1,6 +1,6 @@
 import AppsSection from './appssection';
 import BooksSection from './bookssection';
-import CoursesSection from './coursessections';
+import CoursesSection from './coursessection';
 import HeroSection from './herosection';
 import RotatingVideoSection from './rotatingvideosection';
 import StorySection from './storysection';
