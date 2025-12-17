@@ -1,25 +1,25 @@
 import {
-  herosection,
-  storysection,
-  appssection,
-  bookssection,
-  coursessection,
-  rotatingvideosection,
-  footersection,
+  HeroSection,
+  StorySection,
+  AppsSection,
+  BooksSection,
+  CoursesSection,
+  RotatingVideoSection,
+  FooterSection,
 } from './sections';
 
 import siteConfig from '../data/site-config';
 
-export default function sitehome() {
+export default function SiteHome() {
   return (
     <main>
-      <herosection />
-      <storysection />
-      <appssection />
-      <bookssection />
-      <coursessection />
-      <rotatingvideosection />
-      <footersection />
+      <HeroSection />
+      <StorySection />
+      <AppsSection />
+      <BooksSection />
+      <CoursesSection />
+      <RotatingVideoSection />
+      <FooterSection />
     </main>
   );
 }
