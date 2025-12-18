@@ -6,12 +6,11 @@ export { default as RotatingVideoSection } from './RotatingVideoSection';
 export { default as FooterSection } from './FooterSection';
 
 /**
- * Canonical component
+ * Canonical export
  */
 export { default as BooksSection } from './BooksSection';
 
 /**
- * BACKWARD-COMPAT ALIAS
- * Required because pages import { BookSection }
+ * REQUIRED alias — pages import { BookSection }
  */
 export { default as BookSection } from './BooksSection';
