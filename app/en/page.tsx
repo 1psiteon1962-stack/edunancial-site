@@ -1,23 +1,5 @@
-import {
-  HeroSection,
-  StorySection,
-  CoursesSection,
-  AppsSection,
-  RotatingVideoSection,
-  BookSection,
-  FooterSection
-} from "../../components/sections";
+import HomePage from '../page';
 
-export default function Page() {
-  return (
-    <>
-      <HeroSection />
-      <StorySection />
-      <CoursesSection />
-      <AppsSection />
-      <RotatingVideoSection />
-      <BookSection />
-      <FooterSection />
-    </>
-  );
+export default function EnglishHome() {
+  return <HomePage />;
 }
