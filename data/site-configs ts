@@ -1,35 +1,15 @@
-const siteConfig = {
-  siteName: 'Edunancial',
-  defaultLanguage: 'en',
+export type Locale = "en" | "es";
 
-  hero: {
-    title: 'Financial Literacy for the Real World',
-    subtitle: 'Education, structure, and strategy for building wealth across borders.'
-  },
+export type SiteConfig = {
+  siteName: string;
+  defaultLocale: Locale;
+  locales: Locale[];
+};
 
-  story: {
-    heading: 'Our Story',
-    body: 'Edunancial was built to close the gap between education and real financial opportunity.'
-  },
-
-  books: {
-    heading: 'Books',
-    body: 'Practical guides and frameworks designed for real-world wealth building.'
-  },
-
-  courses: {
-    heading: 'Courses',
-    body: 'Structured learning paths for business, investing, and global finance.'
-  },
-
-  apps: {
-    heading: 'Apps',
-    body: 'Interactive tools to assess, plan, and grow your financial literacy.'
-  },
-
-  footer: {
-    copyright: `© ${new Date().getFullYear()} Edunancial. All rights reserved.`
-  }
+const siteConfig: SiteConfig = {
+  siteName: "Edunancial",
+  defaultLocale: "en",
+  locales: ["en", "es"],
 };
 
 export default siteConfig;
