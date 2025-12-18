@@ -1,7 +1,10 @@
-import "./globals.css";
+export const metadata = {
+  title: "Edunancial",
+  description: "Financial education platform",
+};
 
 export default function RootLayout({
-  children
+  children,
 }: {
   children: React.ReactNode;
 }) {
