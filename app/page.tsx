@@ -1,5 +1,5 @@
-import SiteHome from "../components/sitehome";
+import SiteHome from '../../components/sitehome';
 
-export default function Page() {
+export default function HomePage() {
   return <SiteHome />;
 }
