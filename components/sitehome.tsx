@@ -10,53 +10,73 @@ import {
   BooksSection
 } from './sections';
 
-import siteConfig from '../data/site-config';
+/**
+ * IMPORTANT:
+ * - This file intentionally has ZERO external data imports.
+ * - This guarantees Netlify can always compile this page.
+ * - Configuration can be reintroduced later via CMS, env, or API.
+ */
 
 export default function SiteHome() {
-  // We keep this file dependency explicit so Netlify/Next can typecheck cleanly.
-  // If your individual section components render their own content, this will still work.
-  // If they are minimal shells, the config text below ensures the page is never “empty”.
   return (
     <main>
-      {/* If your HeroSection already renders content, this still renders fine. */}
-      <HeroSection />
 
-      {/* Optional fallback content if sections are minimal */}
+      {/* HERO */}
+      <HeroSection />
       <section style={{ padding: '24px 16px', maxWidth: 1100, margin: '0 auto' }}>
-        <h1 style={{ fontSize: 32, margin: 0 }}>{siteConfig.hero.title}</h1>
-        <p style={{ fontSize: 18, marginTop: 10 }}>{siteConfig.hero.subtitle}</p>
+        <h1 style={{ fontSize: 32, margin: 0 }}>
+          Financial Literacy for the Real World
+        </h1>
+        <p style={{ fontSize: 18, marginTop: 10 }}>
+          Education, structure, and strategy for building wealth across borders.
+        </p>
       </section>
 
+      {/* STORY */}
       <StorySection />
       <section style={{ padding: '24px 16px', maxWidth: 1100, margin: '0 auto' }}>
-        <h2 style={{ fontSize: 24, margin: 0 }}>{siteConfig.story.heading}</h2>
-        <p style={{ fontSize: 16, marginTop: 10 }}>{siteConfig.story.body}</p>
+        <h2 style={{ fontSize: 24, margin: 0 }}>Our Story</h2>
+        <p style={{ fontSize: 16, marginTop: 10 }}>
+          Edunancial was built to close the gap between education and real financial opportunity.
+        </p>
       </section>
 
+      {/* BOOKS */}
       <BooksSection />
       <section style={{ padding: '24px 16px', maxWidth: 1100, margin: '0 auto' }}>
-        <h2 style={{ fontSize: 24, margin: 0 }}>{siteConfig.books.heading}</h2>
-        <p style={{ fontSize: 16, marginTop: 10 }}>{siteConfig.books.body}</p>
+        <h2 style={{ fontSize: 24, margin: 0 }}>Books</h2>
+        <p style={{ fontSize: 16, marginTop: 10 }}>
+          Practical guides and frameworks designed for real-world wealth building.
+        </p>
       </section>
 
+      {/* COURSES */}
       <CoursesSection />
       <section style={{ padding: '24px 16px', maxWidth: 1100, margin: '0 auto' }}>
-        <h2 style={{ fontSize: 24, margin: 0 }}>{siteConfig.courses.heading}</h2>
-        <p style={{ fontSize: 16, marginTop: 10 }}>{siteConfig.courses.body}</p>
+        <h2 style={{ fontSize: 24, margin: 0 }}>Courses</h2>
+        <p style={{ fontSize: 16, marginTop: 10 }}>
+          Structured learning paths for business, investing, and global finance.
+        </p>
       </section>
 
+      {/* APPS */}
       <AppsSection />
       <section style={{ padding: '24px 16px', maxWidth: 1100, margin: '0 auto' }}>
-        <h2 style={{ fontSize: 24, margin: 0 }}>{siteConfig.apps.heading}</h2>
-        <p style={{ fontSize: 16, marginTop: 10 }}>{siteConfig.apps.body}</p>
+        <h2 style={{ fontSize: 24, margin: 0 }}>Apps</h2>
+        <p style={{ fontSize: 16, marginTop: 10 }}>
+          Interactive tools to assess, plan, and grow your financial literacy.
+        </p>
       </section>
 
+      {/* MEDIA */}
       <RotatingVideoSection />
 
+      {/* FOOTER */}
       <FooterSection />
       <footer style={{ padding: '24px 16px', textAlign: 'center' }}>
-        <small>{siteConfig.footer.copyright}</small>
+        <small>© {new Date().getFullYear()} Edunancial. All rights reserved.</small>
       </footer>
+
     </main>
   );
 }
