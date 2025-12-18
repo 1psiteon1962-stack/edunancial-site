@@ -1,5 +1,5 @@
-import SiteHome from "../../components/sitehome";
+import SiteHome from "../components/sitehome";
 
 export default function Page() {
-  return <SiteHome />;
+  return <SiteHome locale="en" />;
 }
