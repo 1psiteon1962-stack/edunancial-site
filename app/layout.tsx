@@ -1,16 +1,14 @@
 export const metadata = {
   title: "Edunancial",
-  description: "Financial education platform",
+  description: "Financial literacy and education",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" }}>
+        {children}
+      </body>
     </html>
   );
 }
