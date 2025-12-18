@@ -1,27 +1,27 @@
-export const dynamic = 'force-static';
+import Link from "next/link";
+import { getContent } from "../../data/content";
 
 export default function AppsPage() {
-  const heroTitle = 'Apps';
-  const storyTitle = 'Interactive Financial Tools';
-  const appsTitle = 'Our Applications';
-  const footerNote = 'Tools that support decision-making and growth.';
+  const content = getContent("en");
 
   return (
-    <main style={{ padding: 24, maxWidth: 1100, margin: '0 auto' }}>
-      <h1>{heroTitle}</h1>
-      <p>{storyTitle}</p>
+    <main style={{ maxWidth: 960, margin: "0 auto", padding: "32px 16px" }}>
+      <h1 style={{ fontSize: 30, margin: "0 0 12px" }}>{content.appsTitle}</h1>
+      <p style={{ lineHeight: 1.6, marginTop: 0 }}>
+        This is the Apps page. It’s stable during build so Netlify can prerender without crashing.
+      </p>
 
-      <section>
-        <h2>{appsTitle}</h2>
-        <p>
-          Our apps help assess financial literacy, strategy readiness, and
-          execution planning.
-        </p>
-      </section>
+      <ul style={{ lineHeight: 1.9 }}>
+        <li>EduVesting — investor readiness & screening tool</li>
+        <li>EduMath — math learning line</li>
+        <li>Levels 1–5 Literacy Assessment (coming)</li>
+      </ul>
 
-      <footer style={{ marginTop: 40 }}>
-        <small>{footerNote}</small>
-      </footer>
+      <p style={{ marginTop: 18 }}>
+        <Link href="/" style={{ textDecoration: "none" }}>← Back</Link>
+      </p>
+
+      <footer style={{ marginTop: 30, fontSize: 12, opacity: 0.75 }}>{content.footerNote}</footer>
     </main>
   );
 }
