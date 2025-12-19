@@ -1,8 +1,8 @@
-// data/content.ts
-// Canonical localized homepage content map
+// data/content/content.ts
+// Canonical content map for homepage
 // Safe for Next.js + Netlify (case-sensitive, TS-strict)
 
-import type { Locale } from "./site-config";
+import type { Locale } from "../site-config";
 
 export type PageContent = {
   heroTitle: string;
@@ -12,17 +12,14 @@ export type PageContent = {
 export const contentByLocale: Record<Locale, PageContent> = {
   en: {
     heroTitle: "Build Financial Intelligence",
-    heroBody:
-      "Education-first tools for wealth creation, business ownership, and global opportunity."
+    heroBody: "Education-first tools to help you think, plan, and grow."
   },
   es: {
     heroTitle: "Construye Inteligencia Financiera",
-    heroBody:
-      "Herramientas educativas para crear riqueza, negocios y oportunidades globales."
+    heroBody: "Educación práctica para pensar, planificar y crecer."
   },
   fr: {
     heroTitle: "Construire l’intelligence financière",
-    heroBody:
-      "Des outils éducatifs pour la création de richesse et les opportunités mondiales."
+    heroBody: "Des outils éducatifs pour réfléchir, planifier et évoluer."
   }
 };
