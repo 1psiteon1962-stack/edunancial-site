@@ -1,10 +1,6 @@
-[[headers]]
-for = "/*"
-  [headers.values]
-  Content-Security-Policy = "default-src 'self'"
-  Referrer-Policy = "strict-origin"
+[build]
+  command = "npm run build"
+  publish = ".next"
 
-[[headers]]
-for = "/"
-  [headers.values]
-  Link = "<https://edunancial.com/>; rel=\"canonical\""
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
