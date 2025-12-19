@@ -1,15 +1,17 @@
-export type Locale = "en" | "es";
-
-export type SiteConfig = {
-  siteName: string;
-  defaultLocale: Locale;
-  locales: Locale[];
-};
-
-const siteConfig: SiteConfig = {
+const siteConfigs = {
   siteName: "Edunancial",
-  defaultLocale: "en",
-  locales: ["en", "es"],
+  defaultLanguage: "en",
+  supportedLanguages: ["en", "es"],
+  regions: ["US", "AFRICA", "LATAM", "EU"],
+  currency: {
+    US: "USD",
+    AFRICA: "USD",
+    LATAM: "USD",
+    EU: "EUR"
+  },
+  contact: {
+    email: "support@edunancial.com"
+  }
 };
 
-export default siteConfig;
+export default siteConfigs;
