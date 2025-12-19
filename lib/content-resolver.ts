@@ -1,18 +1,19 @@
-import { resolveRegion, Region } from "./regions";
+// lib/content-resolver.ts
 
 import usContent from "@/data/content/us";
 import africaContent from "@/data/content/africa";
 import globalContent from "@/data/content/global";
 
-export function getRegionalContent(hostname: string) {
-  const region = resolveRegion(hostname);
+export type Region = "us" | "africa" | "global";
 
+export function resolveContent(region: Region) {
   switch (region) {
-    case "AFRICA":
+    case "africa":
       return africaContent;
-    case "US":
-      return usContent;
-    default:
+    case "global":
       return globalContent;
+    case "us":
+    default:
+      return usContent;
   }
 }
