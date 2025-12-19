@@ -1,25 +1,17 @@
-// data/content/content.ts
-// Canonical content map for homepage
-// Safe for Next.js + Netlify (case-sensitive, TS-strict)
+// data/content/global.ts
 
-import type { Locale } from "../site-config";
-
-export type PageContent = {
-  heroTitle: string;
-  heroBody: string;
+const globalContent = {
+  region: "global",
+  siteName: "Edunancial Global",
+  tagline: "Education. Capital. Opportunity.",
+  description:
+    "Edunancial Global connects regions through standardized financial education and scalable tools.",
+  features: [
+    "Cross-border finance education",
+    "Global entrepreneurship",
+    "Capital readiness",
+    "Digital-first platforms",
+  ],
 };
 
-export const contentByLocale: Record<Locale, PageContent> = {
-  en: {
-    heroTitle: "Build Financial Intelligence",
-    heroBody: "Education-first tools to help you think, plan, and grow."
-  },
-  es: {
-    heroTitle: "Construye Inteligencia Financiera",
-    heroBody: "Educación práctica para pensar, planificar y crecer."
-  },
-  fr: {
-    heroTitle: "Construire l’intelligence financière",
-    heroBody: "Des outils éducatifs pour réfléchir, planifier et évoluer."
-  }
-};
+export default globalContent;
