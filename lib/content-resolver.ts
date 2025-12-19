@@ -1,19 +1,16 @@
-// lib/content-resolver.ts
-
 import usContent from "@/data/content/us";
 import africaContent from "@/data/content/africa";
 import globalContent from "@/data/content/global";
 
-export type Region = "us" | "africa" | "global";
+export type Region = "US" | "AFRICA" | "GLOBAL";
 
-export function resolveContent(region: Region) {
-  switch (region) {
-    case "africa":
-      return africaContent;
-    case "global":
-      return globalContent;
-    case "us":
-    default:
+export function resolveRegion(region?: string) {
+  switch (region?.toUpperCase()) {
+    case "US":
       return usContent;
+    case "AFRICA":
+      return africaContent;
+    default:
+      return globalContent;
   }
 }
