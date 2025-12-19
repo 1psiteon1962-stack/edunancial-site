@@ -1,17 +1,17 @@
 // data/site-config.ts
 
-export type SiteConfig = {
+export interface SiteConfig {
   siteName: string;
   tagline: string;
-  defaultLocale: string;
-  supportedLocales: string[];
-};
+  defaultLang: string;
+  supportedLangs: string[];
+}
 
 const siteConfig: SiteConfig = {
   siteName: "Edunancial",
   tagline: "Where Education and Financial Literacy Meet",
-  defaultLocale: "en",
-  supportedLocales: ["en", "es"]
+  defaultLang: "en",
+  supportedLangs: ["en", "es", "fr"]
 };
 
 export default siteConfig;
