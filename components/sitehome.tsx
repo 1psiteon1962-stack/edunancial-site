@@ -1,24 +1,41 @@
-// components/sitehome.tsx
-'use client';
-
+import React from 'react';
 import siteConfig from '../data/site-config';
-import { getContent } from '../data/content';
+
+type PageContent = {
+  heroTitle: string;
+  heroBody: string;
+};
 
 type Props = {
   locale?: string;
 };
 
+function getContent(locale?: string): PageContent {
+  const lang = locale ?? siteConfig.defaultLang;
+
+  const contentMap: Record<string, PageContent> = {
+    en: {
+      heroTitle: 'Financial Literacy for a Global Future',
+      heroBody:
+        'Edunancial empowers individuals, families, and entrepreneurs with practical financial education designed to scale across borders.'
+    },
+    es: {
+      heroTitle: 'Educación financiera para un futuro global',
+      heroBody:
+        'Edunancial capacita a personas, familias y emprendedores con educación financiera práctica diseñada para escalar internacionalmente.'
+    }
+  };
+
+  return contentMap[lang] ?? contentMap.en;
+}
+
 export default function SiteHome({ locale }: Props) {
-  const activeLocale = locale ?? siteConfig.defaultLocale;
-  const content = getContent(activeLocale);
+  const content = getContent(locale);
 
   return (
     <main style={{ maxWidth: 960, margin: '0 auto', padding: '2rem' }}>
-      <h1>{siteConfig.siteName}</h1>
-      <p>{siteConfig.tagline}</p>
-
-      <section style={{ marginTop: '2rem' }}>
-        <h2>{content.heroTitle}</h2>
+      <section>
+        <h1>{content.heroTitle}</h1>
         <p>{content.heroBody}</p>
       </section>
     </main>
