@@ -1,6 +1,10 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
+[[headers]]
+for = "/*"
+  [headers.values]
+  Content-Security-Policy = "default-src 'self'"
+  Referrer-Policy = "strict-origin"
 
-[build.environment]
-  NODE_VERSION = "18"
+[[headers]]
+for = "/"
+  [headers.values]
+  Link = "<https://edunancial.com/>; rel=\"canonical\""
