@@ -1,10 +1,12 @@
 // data/site-config.ts
 
+export type Locale = "en" | "es" | "fr";
+
 export interface SiteConfig {
   siteName: string;
   tagline: string;
-  defaultLang: string;
-  supportedLangs: string[];
+  defaultLang: Locale;
+  supportedLangs: Locale[];
 }
 
 const siteConfig: SiteConfig = {
