@@ -1,18 +1,14 @@
 const globalContent = {
   region: "GLOBAL",
   currency: "MULTI",
-  language: "multi",
-  hero: {
-    title: "Global Financial Literacy",
-    subtitle:
-      "One platform. Multiple regions. Education without borders.",
-  },
-  availability: {
-    courses: true,
-    books: true,
-    apps: true,
-    payments: false,
-  },
+  language: "en",
+  heroTitle: "Global Financial Education",
+  heroBody:
+    "A unified financial literacy platform serving entrepreneurs and investors worldwide.",
+  products: {
+    eduvesting: true,
+    edumath: true
+  }
 };
 
 export default globalContent;
