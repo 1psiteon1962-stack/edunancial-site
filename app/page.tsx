@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Edunancial | Financial Literacy Without Borders",
   description:
-    "Edunancial is a global financial education platform serving the U.S., Africa, Latin America, and emerging markets.",
+    "Edunancial is a global financial education platform built for the U.S., Africa, Latin America, and the next generation of entrepreneurs.",
 };
 
 export default function HomePage() {
@@ -17,89 +16,91 @@ export default function HomePage() {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
-          Financial literacy without borders. Built for the United States,
-          Africa, Latin America, and the next generation of global entrepreneurs.
+          Financial literacy without borders.
+          <br />
+          Built for the U.S., Africa, Latin America, and the global economy.
         </p>
 
+        {/* PRIMARY ENTRY BUTTONS */}
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
             href="/en"
-            className="px-6 py-3 rounded-lg bg-black text-white hover:bg-gray-800 transition"
+            className="px-6 py-3 rounded-md bg-black text-white hover:bg-gray-800 transition"
           >
             Enter (English)
           </Link>
 
           <Link
             href="/es"
-            className="px-6 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition"
+            className="px-6 py-3 rounded-md border border-black hover:bg-gray-100 transition"
           >
             Entrar (Español)
           </Link>
         </div>
       </section>
 
-      {/* REGIONAL ACCESS */}
+      {/* PLATFORM OVERVIEW */}
       <section className="px-6 py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+        <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-3 text-center">
           <div>
-            <h3 className="text-xl font-semibold">🇺🇸 United States</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Core education, investing fundamentals, business structure,
-              compliance, and advanced tools.
+            <h3 className="text-xl font-semibold">Learn</h3>
+            <p className="mt-2 text-gray-700">
+              Courses, books, and structured education across business,
+              investing, and entrepreneurship.
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold">🌍 Africa</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Mobile-first education, entrepreneurship, local payments, and
-              cross-border opportunity access.
+            <h3 className="text-xl font-semibold">Build</h3>
+            <p className="mt-2 text-gray-700">
+              Tools and frameworks designed for real-world financial decision
+              making.
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold">🌎 Latin America</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Business ownership, financial independence, and global expansion
-              pathways.
+            <h3 className="text-xl font-semibold">Scale</h3>
+            <p className="mt-2 text-gray-700">
+              Global-first architecture supporting regional access and local
+              markets.
             </p>
           </div>
         </div>
       </section>
 
-      {/* PLATFORM */}
+      {/* APPS (SAFE PLACEHOLDERS — NO BROKEN ROUTES) */}
       <section className="px-6 py-20 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold">
-          One Platform. Multiple Futures.
-        </h2>
+        <h2 className="text-3xl font-bold">Edunancial Apps</h2>
 
-        <p className="mt-6 max-w-3xl mx-auto text-gray-700">
-          Edunancial unifies education, decision tools, and capital awareness
-          through structured learning paths, regional adaptation, and scalable
-          technology.
+        <p className="mt-4 text-gray-700 max-w-2xl mx-auto">
+          Our interactive applications are coming online in phases. Access will
+          expand region by region.
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="/apps/edumath"
-            className="px-6 py-3 rounded-lg bg-black text-white hover:bg-gray-800 transition"
+            href="/apps"
+            className="px-6 py-3 rounded-md bg-gray-900 text-white hover:bg-gray-800 transition"
           >
-            EduMath (Live)
+            EduMath (Coming Online)
           </Link>
 
           <Link
-            href="/apps/edinvesting"
-            className="px-6 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition"
+            href="/apps"
+            className="px-6 py-3 rounded-md bg-gray-900 text-white hover:bg-gray-800 transition"
           >
-            EduVesting (Live)
+            EduVesting (Coming Online)
           </Link>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="px-6 py-10 border-t text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Edunancial. Education before capital.
-      </footer>
+      {/* FOOTER CTA */}
+      <section className="px-6 py-12 bg-black text-white text-center">
+        <p className="text-sm">
+          © {new Date().getFullYear()} Edunancial. Financial literacy without
+          borders.
+        </p>
+      </section>
     </main>
   );
 }
