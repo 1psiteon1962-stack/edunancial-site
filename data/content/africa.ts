@@ -1,18 +1,17 @@
+// data/content/africa.ts
+
 const africaContent = {
-  region: "AFRICA",
-  currency: "LOCAL",
-  language: "en",
-  hero: {
-    title: "Financial Education for Africa",
-    subtitle:
-      "Local access. Global knowledge. Built to scale across African markets.",
-  },
-  availability: {
-    courses: true,
-    books: true,
-    apps: true,
-    payments: false, // local gateways wired later
-  },
+  region: "africa",
+  siteName: "Edunancial Africa",
+  tagline: "Financial Literacy for Africa",
+  description:
+    "Edunancial Africa provides localized financial education and entrepreneurship tools across African markets.",
+  features: [
+    "Mobile-first education",
+    "Local currency literacy",
+    "Entrepreneurship programs",
+    "Investment foundations",
+  ],
 };
 
 export default africaContent;
