@@ -1,20 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
-
   reactStrictMode: true,
-
-  experimental: {
-    appDir: true,
-  },
-
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true
   },
+  eslint: {
+    ignoreDuringBuilds: true
+  }
 };
 
 module.exports = nextConfig;
