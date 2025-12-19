@@ -1,9 +1,17 @@
 // data/site-config.ts
 
-// Canonical re-export layer for site configuration.
-// This file exists ONLY to provide a stable import path
-// for Next.js + Netlify (case-sensitive, TS-aware).
+export type SiteConfig = {
+  siteName: string;
+  tagline: string;
+  defaultLocale: string;
+  supportedLocales: string[];
+};
 
-import siteConfigs from './site-configs';
+const siteConfig: SiteConfig = {
+  siteName: "Edunancial",
+  tagline: "Where Education and Financial Literacy Meet",
+  defaultLocale: "en",
+  supportedLocales: ["en", "es"]
+};
 
-export default siteConfigs;
+export default siteConfig;
