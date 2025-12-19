@@ -1,25 +1,18 @@
 const usContent = {
+  region: "US",
+  currency: "USD",
+  language: "en",
   hero: {
-    title: "Build Financial Intelligence",
-    body: "Education-first tools for wealth, ownership, and capital strategy."
+    title: "Financial Literacy Without Borders",
+    subtitle:
+      "Built in the United States. Designed for global entrepreneurs and investors.",
   },
-
-  brands: {
-    eduvesting: {
-      name: "EduVesting",
-      description: "Investor-grade thinking without selling investments."
-    },
-    edumath: {
-      name: "EduMath",
-      description: "Mathematics for real-world financial decision making."
-    }
+  availability: {
+    courses: true,
+    books: true,
+    apps: true,
+    payments: false, // placeholder until merchant live
   },
-
-  pillars: {
-    red: "Real Assets & Real Estate",
-    white: "Paper Assets & Markets",
-    blue: "Business Ownership & Systems"
-  }
 };
 
 export default usContent;
