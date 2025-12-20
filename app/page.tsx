@@ -1,106 +1,102 @@
+import { resolveContent } from "@/lib/content-resolver";
 import Link from "next/link";
 
 export const metadata = {
   title: "Edunancial | Financial Literacy Without Borders",
   description:
-    "Edunancial is a global financial education platform built for the U.S., Africa, Latin America, and the next generation of entrepreneurs.",
+    "Edunancial is a global financial education platform serving the U.S., Africa, and emerging markets.",
 };
 
 export default function HomePage() {
+  // Primary site defaults
+  const region = "us";
+  const lang = "en";
+
+  const content = resolveContent(region, lang);
+
   return (
-    <main className="min-h-screen bg-white text-gray-900">
+    <main className="min-h-screen bg-white text-gray-900 px-6 py-12 max-w-6xl mx-auto">
       {/* HERO */}
-      <section className="px-6 py-20 max-w-7xl mx-auto text-center">
+      <section className="mb-16">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          Edunancial
+          {content.hero.title}
         </h1>
-
-        <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
-          Financial literacy without borders.
-          <br />
-          Built for the U.S., Africa, Latin America, and the global economy.
+        <p className="mt-6 text-lg md:text-xl max-w-3xl">
+          {content.hero.subtitle}
         </p>
+      </section>
 
-        {/* PRIMARY ENTRY BUTTONS */}
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <Link
-            href="/en"
-            className="px-6 py-3 rounded-md bg-black text-white hover:bg-gray-800 transition"
-          >
-            Enter (English)
-          </Link>
+      {/* OUR STORY */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
+        <p className="max-w-3xl text-lg leading-relaxed">
+          {content.story}
+        </p>
+      </section>
 
-          <Link
-            href="/es"
-            className="px-6 py-3 rounded-md border border-black hover:bg-gray-100 transition"
-          >
-            Entrar (Español)
-          </Link>
+      {/* RED / WHITE / BLUE */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-semibold mb-6">
+          The Edunancial Framework
+        </h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {content.framework.map((pillar: any) => (
+            <div
+              key={pillar.color}
+              className="border rounded-xl p-6 shadow-sm"
+            >
+              <h3 className="text-xl font-bold mb-2">
+                {pillar.title}
+              </h3>
+              <p className="text-gray-700">{pillar.description}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* PLATFORM OVERVIEW */}
-      <section className="px-6 py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-3 text-center">
-          <div>
-            <h3 className="text-xl font-semibold">Learn</h3>
-            <p className="mt-2 text-gray-700">
-              Courses, books, and structured education across business,
-              investing, and entrepreneurship.
-            </p>
-          </div>
+      {/* APPS */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-semibold mb-6">Apps</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {content.apps.map((app: any) => (
+            <div key={app.slug} className="border rounded-xl p-6">
+              <h3 className="text-xl font-bold">{app.name}</h3>
+              <p className="mt-2 text-gray-700">{app.description}</p>
 
-          <div>
-            <h3 className="text-xl font-semibold">Build</h3>
-            <p className="mt-2 text-gray-700">
-              Tools and frameworks designed for real-world financial decision
-              making.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold">Scale</h3>
-            <p className="mt-2 text-gray-700">
-              Global-first architecture supporting regional access and local
-              markets.
-            </p>
-          </div>
+              {/* PAYMENT PLACEHOLDER */}
+              <button
+                disabled
+                className="mt-4 px-4 py-2 rounded bg-gray-300 text-gray-600 cursor-not-allowed"
+              >
+                Coming Soon
+              </button>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* APPS (SAFE PLACEHOLDERS — NO BROKEN ROUTES) */}
-      <section className="px-6 py-20 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold">Edunancial Apps</h2>
-
-        <p className="mt-4 text-gray-700 max-w-2xl mx-auto">
-          Our interactive applications are coming online in phases. Access will
-          expand region by region.
-        </p>
-
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <Link
-            href="/apps"
-            className="px-6 py-3 rounded-md bg-gray-900 text-white hover:bg-gray-800 transition"
-          >
-            EduMath (Coming Online)
-          </Link>
-
-          <Link
-            href="/apps"
-            className="px-6 py-3 rounded-md bg-gray-900 text-white hover:bg-gray-800 transition"
-          >
-            EduVesting (Coming Online)
-          </Link>
+      {/* BOOKS */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-semibold mb-6">Books</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {content.books.map((book: any) => (
+            <div key={book.slug} className="border rounded-xl p-6">
+              <h3 className="font-bold">{book.title}</h3>
+              <p className="mt-2 text-gray-700">{book.summary}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* FOOTER CTA */}
-      <section className="px-6 py-12 bg-black text-white text-center">
-        <p className="text-sm">
-          © {new Date().getFullYear()} Edunancial. Financial literacy without
-          borders.
-        </p>
-      </section>
+      {/* FOOTER STATUS */}
+      <footer className="text-sm text-gray-500 mt-24">
+        <div className="flex flex-wrap gap-3">
+          <span>Site: us-main</span>
+          <span>Region: US</span>
+          <span>Lang: en</span>
+          <span>Role: primary</span>
+        </div>
+      </footer>
     </main>
   );
 }
