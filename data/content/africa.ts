@@ -1,13 +1,14 @@
-import { PageContent } from "./types";
-
-const africaContent: PageContent = {
-  heroTitle: "Financial Literacy for Growth Economies",
-  heroBody:
-    "Africa’s future belongs to founders, families, and youth who understand capital, systems, and ownership.",
-  ctaPrimary: "Begin Your Literacy Journey",
-  ctaSecondary: "See How the Levels Work",
-  literacyFocus:
-    "Entrepreneurship, family stability, and youth financial capability across Africa.",
+const africaContent = {
+  region: "africa",
+  heroTitle: "Build Capital. Build Structure. Build Legacy.",
+  heroSubtitle:
+    "Financial literacy designed for African founders, families, and growth markets.",
+  focus: [
+    "Entrepreneurship",
+    "SME Capital Readiness",
+    "Youth Literacy",
+    "Cross-Border Opportunity",
+  ],
 };
 
 export default africaContent;
