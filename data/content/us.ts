@@ -1,13 +1,14 @@
-import { PageContent } from "./types";
-
-const usContent: PageContent = {
+const usContent = {
+  region: "us",
   heroTitle: "Financial Literacy Is the New Infrastructure",
-  heroBody:
-    "Edunancial builds financial literacy systems for founders, families, and the next generation — not courses, not hype.",
-  ctaPrimary: "Start Your Literacy Path",
-  ctaSecondary: "Explore the Levels",
-  literacyFocus:
-    "Founders, entrepreneurs, families, and youth building real-world financial capability.",
+  heroSubtitle:
+    "Edunancial empowers founders, families, and future builders with real financial literacy — not theory.",
+  focus: [
+    "Entrepreneurship",
+    "Founder Capital Strategy",
+    "Family Wealth Systems",
+    "Youth Financial Literacy",
+  ],
 };
 
 export default usContent;
