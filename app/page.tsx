@@ -1,27 +1,28 @@
-import PaymentButton from "@/components/payments/PaymentButton";
-import { resolveRegion } from "@/lib/regions/resolve-region";
-import { headers } from "next/headers";
+import LevelsOverview from "@/components/LevelsOverview";
 
 export default function HomePage() {
-  const headersList = headers();
-  const host = headersList.get("host") || undefined;
-  const region = resolveRegion(host);
-
   return (
-    <main style={{ padding: "2rem", maxWidth: 900, margin: "0 auto" }}>
-      <h1>Financial Literacy for Builders, Families, and Founders</h1>
+    <main style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
+      <h1>Edunancial</h1>
 
       <p>
-        Edunancial is a financial literacy platform — not a school, not a
-        broker, not a bank.
+        Financial literacy focused on readiness, structure, discipline,
+        and long-term capital durability.
       </p>
 
       <p>
-        We help people understand money, systems, risk, and opportunity —
-        globally.
+        The platform is live. Global rollout is in progress.
       </p>
 
-      <PaymentButton region={region} />
+      <div style={{ marginTop: "1.5rem", opacity: 0.8 }}>
+        <span style={{ marginRight: "1rem" }}>Site: <strong>us-main</strong></span>
+        <span style={{ marginRight: "1rem" }}>Region: <strong>US</strong></span>
+        <span style={{ marginRight: "1rem" }}>Language: <strong>EN</strong></span>
+        <span>Role: <strong>Primary</strong></span>
+      </div>
+
+      {/* BLOCK 9 — LEVEL GOVERNANCE */}
+      <LevelsOverview />
     </main>
   );
 }
