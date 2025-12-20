@@ -1,16 +1,13 @@
-const usContent = {
-  region: "US",
-  headline: "Financial Literacy for Founders, Families, and the Next Generation",
-  subheadline:
-    "Build wealth through discipline, structure, and long-term decision-making—not hype.",
-  pillars: [
-    "Founder Financial Discipline",
-    "Family & Youth Literacy",
-    "Business Ownership",
-    "Capital Structure Awareness",
-  ],
-  ctaPrimary: "Start Your Financial Literacy Path",
-  ctaSecondary: "Explore Our Tools",
+import { PageContent } from "./types";
+
+const usContent: PageContent = {
+  heroTitle: "Financial Literacy Is the New Infrastructure",
+  heroBody:
+    "Edunancial builds financial literacy systems for founders, families, and the next generation — not courses, not hype.",
+  ctaPrimary: "Start Your Literacy Path",
+  ctaSecondary: "Explore the Levels",
+  literacyFocus:
+    "Founders, entrepreneurs, families, and youth building real-world financial capability.",
 };
 
 export default usContent;
