@@ -11,3 +11,19 @@ export default function LevelsOverview() {
 
       <ul style={{ marginTop: "1.5rem" }}>
         {EDUNANCIAL_LEVELS.map((lvl) => (
+          <li key={lvl.level} style={{ marginBottom: "1rem" }}>
+            <strong>
+              Level {lvl.level}: {lvl.title}
+            </strong>
+            <br />
+            Audience: {lvl.audience}
+            <br />
+            Access: {lvl.access}
+            <br />
+            Monetization: {lvl.monetization}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
