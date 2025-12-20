@@ -2,7 +2,7 @@
 import { headers } from "next/headers";
 import { CONTENT_REGISTRY } from "@/lib/content-registry";
 import { resolveRegion } from "@/lib/region-resolver";
-import PaymentSection from "@/components/PaymentSection";
+import LevelGate from "@/components/LevelGate";
 
 export default function HomePage() {
   const headersList = headers();
@@ -13,37 +13,61 @@ export default function HomePage() {
 
   return (
     <main style={{ padding: "3rem", fontFamily: "system-ui, sans-serif" }}>
+      {/* HERO — LEVEL 1 */}
       <section>
         <h1>{content.hero.title}</h1>
         <p>{content.hero.body}</p>
       </section>
 
-      <hr style={{ margin: "2rem 0" }} />
-
-      <section>
+      {/* MISSION — LEVEL 1 */}
+      <section style={{ marginTop: "2rem" }}>
         <h2>{content.mission.title}</h2>
         <p>{content.mission.body}</p>
       </section>
 
-      <hr style={{ margin: "2rem 0" }} />
+      {/* INTERMEDIATE — LEVEL 2 */}
+      <LevelGate requiredLevel={2} region={region}>
+        <section style={{ marginTop: "3rem" }}>
+          <h2>Building Financial Structure</h2>
+          <p>
+            Credit, cashflow discipline, early investing logic,
+            and risk awareness.
+          </p>
+        </section>
+      </LevelGate>
 
-      <section>
-        <h2>{content.focus.title}</h2>
-        <p>{content.focus.body}</p>
-      </section>
+      {/* ADVANCED — LEVEL 3 */}
+      <LevelGate requiredLevel={3} region={region}>
+        <section style={{ marginTop: "3rem" }}>
+          <h2>Operating Capital</h2>
+          <p>
+            Business entities, leverage, scaling systems,
+            and operational risk.
+          </p>
+        </section>
+      </LevelGate>
 
-      <PaymentSection region={region} />
+      {/* STRATEGIC — LEVEL 4 */}
+      <LevelGate requiredLevel={4} region={region}>
+        <section style={{ marginTop: "3rem" }}>
+          <h2>Wealth Strategy</h2>
+          <p>
+            Tax efficiency, cross-border thinking,
+            asset protection, governance.
+          </p>
+        </section>
+      </LevelGate>
 
-      <hr style={{ margin: "3rem 0" }} />
-
-      <section>
-        <h3>Platforms</h3>
-        <ul>
-          <li>EduVesting™ (Investment Literacy)</li>
-          <li>EduMath™ (Financial Math)</li>
-          <li>Level-Based Literacy Tracks</li>
-        </ul>
-      </section>
+      {/* ELITE — LEVEL 5 */}
+      <LevelGate requiredLevel={5} region={region}>
+        <section style={{ marginTop: "3rem" }}>
+          <h2>Capital Architecture</h2>
+          <p>
+            Investor structures, private equity logic,
+            institutional frameworks, legacy planning.
+          </p>
+        </section>
+      </LevelGate>
     </main>
   );
 }
