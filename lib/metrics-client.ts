@@ -1,20 +1,23 @@
 // lib/metrics-client.ts
-// Safe client-side metric helpers (no secrets)
+import { MetricEvent } from "./metrics-types";
 
-import {
-  KPIEvent,
-  TrafficMetric,
-  AppUsageMetric,
-} from "./metrics-types";
-
-export function logKPI(event: KPIEvent) {
-  console.info("[KPI EVENT]", event);
-}
-
-export function logTraffic(metric: TrafficMetric) {
-  console.info("[TRAFFIC]", metric);
-}
-
-export function logAppUsage(metric: AppUsageMetric) {
-  console.info("[APP USAGE]", metric);
+export function trackEvent(
+  event: MetricEvent,
+  region: string,
+  level?: number,
+  amount?: number
+) {
+  fetch("/.netlify/functions/metrics-write", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-admin-token": "INTERNAL_ONLY"
+    },
+    body: JSON.stringify({
+      event,
+      region,
+      level,
+      amount
+    })
+  }).catch(() => {});
 }
