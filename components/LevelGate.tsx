@@ -1,31 +1,44 @@
-import { Level, LEVEL_ACCESS, isLevelAccessible } from "@/lib/level-access";
+// components/LevelGate.tsx
+import { Level, LEVEL_LABELS } from "@/lib/levels";
+import { hasAccess } from "@/lib/access-control";
+import { getUserLevel } from "@/lib/user-session";
+import PaymentSection from "./PaymentSection";
 
 type Props = {
-  level: Level;
+  requiredLevel: Level;
   children: React.ReactNode;
+  region: string;
 };
 
-export default function LevelGate({ level, children }: Props) {
-  // Placeholder until auth is wired
-  const hasAccess = false;
+export default function LevelGate({
+  requiredLevel,
+  children,
+  region
+}: Props) {
+  const userLevel = getUserLevel();
 
-  const rule = LEVEL_ACCESS.find(r => r.level === level);
-
-  if (!rule) {
-    return <p>Invalid level.</p>;
+  if (hasAccess(userLevel, { requiredLevel })) {
+    return <>{children}</>;
   }
 
-  if (!isLevelAccessible(level, hasAccess)) {
-    return (
-      <div style={{ border: "1px solid #ccc", padding: "1rem", marginTop: "1rem" }}>
-        <h3>{rule.label} — Locked</h3>
-        <p>{rule.description}</p>
-        <p>
-          This level requires readiness, structure, and access.
-        </p>
-      </div>
-    );
-  }
+  return (
+    <section
+      style={{
+        border: "2px dashed #999",
+        padding: "2rem",
+        marginTop: "2rem",
+        background: "#fafafa"
+      }}
+    >
+      <h3>Locked Content</h3>
+      <p>
+        This section requires <strong>Level {requiredLevel}</strong> —{" "}
+        {LEVEL_LABELS[requiredLevel]}.
+      </p>
 
-  return <>{children}</>;
+      <p>Your current level: Level {userLevel}</p>
+
+      <PaymentSection region={region} />
+    </section>
+  );
 }
