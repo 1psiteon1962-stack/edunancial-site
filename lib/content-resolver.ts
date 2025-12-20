@@ -1,15 +1,18 @@
 import usContent from "@/data/content/us";
 import africaContent from "@/data/content/africa";
+import indiaContent from "@/data/content/india";
 import globalContent from "@/data/content/global";
 
-export type Region = "US" | "AFRICA" | "GLOBAL";
+export type Region = "us" | "africa" | "india" | "global";
 
-export function resolveRegion(region?: string) {
-  switch (region?.toUpperCase()) {
-    case "US":
+export function resolveContent(region?: string) {
+  switch (region) {
+    case "us":
       return usContent;
-    case "AFRICA":
+    case "africa":
       return africaContent;
+    case "india":
+      return indiaContent;
     default:
       return globalContent;
   }
