@@ -1,37 +1,35 @@
 // lib/metrics-store.ts
-// In-memory metrics buffer (safe placeholder)
+import { MetricRecord } from "./metrics-types";
 
-import {
-  KPIEvent,
-  TrafficMetric,
-  AppUsageMetric,
-} from "./metrics-types";
+const metrics: MetricRecord[] = [];
 
-// TEMP storage (replaced later by DB, Sheets, or Data Warehouse)
-const kpiEvents: KPIEvent[] = [];
-const trafficMetrics: TrafficMetric[] = [];
-const appUsageMetrics: AppUsageMetric[] = [];
-
-// KPI EVENTS
-export function recordKPI(event: KPIEvent) {
-  kpiEvents.push(event);
+export function recordMetric(entry: MetricRecord) {
+  metrics.push(entry);
 }
 
-// TRAFFIC
-export function recordTraffic(metric: TrafficMetric) {
-  trafficMetrics.push(metric);
+export function getAllMetrics(): MetricRecord[] {
+  return metrics;
 }
 
-// APP USAGE
-export function recordAppUsage(metric: AppUsageMetric) {
-  appUsageMetrics.push(metric);
-}
-
-// INTERNAL READ (ADMIN ONLY)
-export function readMetrics() {
-  return {
-    kpiEvents,
-    trafficMetrics,
-    appUsageMetrics,
+export function summarizeMetrics() {
+  const summary = {
+    totalEvents: metrics.length,
+    revenue: 0,
+    byRegion: {} as Record<string, number>,
+    byEvent: {} as Record<string, number>
   };
+
+  for (const m of metrics) {
+    summary.byRegion[m.region] =
+      (summary.byRegion[m.region] || 0) + 1;
+
+    summary.byEvent[m.event] =
+      (summary.byEvent[m.event] || 0) + 1;
+
+    if (m.amount) {
+      summary.revenue += m.amount;
+    }
+  }
+
+  return summary;
 }
