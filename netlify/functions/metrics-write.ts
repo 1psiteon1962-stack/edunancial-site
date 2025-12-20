@@ -1,22 +1,27 @@
-import type { Handler } from "@netlify/functions";
+// netlify/functions/metrics-write.ts
+import { Handler } from "@netlify/functions";
+import { recordMetric } from "../../lib/metrics-store";
+import { MetricRecord } from "../../lib/metrics-types";
 
 export const handler: Handler = async (event) => {
-  if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Method Not Allowed" };
+  try {
+    const token = event.headers["x-admin-token"];
+    if (token !== "INTERNAL_ONLY") {
+      return { statusCode: 403, body: "Forbidden" };
+    }
+
+    const data = JSON.parse(event.body || "{}") as MetricRecord;
+
+    recordMetric({
+      ...data,
+      timestamp: Date.now()
+    });
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ success: true })
+    };
+  } catch {
+    return { statusCode: 400, body: "Invalid payload" };
   }
-
-  const adminToken = event.headers["x-admin-token"];
-  if (adminToken !== process.env.ADMIN_METRICS_TOKEN) {
-    return { statusCode: 401, body: "Unauthorized" };
-  }
-
-  const payload = JSON.parse(event.body || "{}");
-
-  // Placeholder persistence
-  console.log("METRICS RECEIVED:", payload);
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ status: "recorded" }),
-  };
 };
