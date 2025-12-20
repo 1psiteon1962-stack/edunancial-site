@@ -1,65 +1,36 @@
 // lib/payments-config.ts
-// Payment architecture (NO live processing)
-
-export type Region =
-  | "US"
-  | "AFRICA"
-  | "LATAM"
-  | "INDIA"
-  | "SINGAPORE"
-  | "AUSTRALIA"
-  | "HONG_KONG"
-  | "GLOBAL";
+// Placeholder-only payment configuration
+// NO live keys, NO real processing
 
 export type PaymentProvider =
-  | "STRIPE"
-  | "SQUARE"
-  | "CRYPTO"
-  | "OFFLINE";
+  | "stripe"
+  | "square"
+  | "crypto"
+  | "disabled";
 
-export interface PaymentRoute {
-  region: Region;
-  providers: PaymentProvider[];
+export type RegionPayments = {
   currency: string;
-  status: "PLACEHOLDER" | "LIVE";
-}
+  providers: PaymentProvider[];
+};
 
-export const PAYMENT_MATRIX: PaymentRoute[] = [
-  {
-    region: "US",
-    providers: ["STRIPE", "SQUARE", "CRYPTO"],
+export const PAYMENT_CONFIG: Record<string, RegionPayments> = {
+  us: {
     currency: "USD",
-    status: "PLACEHOLDER",
+    providers: ["stripe", "square"]
   },
-  {
-    region: "AFRICA",
-    providers: ["CRYPTO"],
+
+  africa: {
     currency: "USD",
-    status: "PLACEHOLDER",
+    providers: ["stripe", "crypto"]
   },
-  {
-    region: "LATAM",
-    providers: ["CRYPTO"],
-    currency: "USD",
-    status: "PLACEHOLDER",
-  },
-  {
-    region: "INDIA",
-    providers: ["CRYPTO"],
+
+  india: {
     currency: "INR",
-    status: "PLACEHOLDER",
+    providers: ["stripe"]
   },
-  {
-    region: "GLOBAL",
-    providers: ["CRYPTO"],
-    currency: "USD",
-    status: "PLACEHOLDER",
-  },
-];
 
-export function getPaymentConfig(region: Region) {
-  return (
-    PAYMENT_MATRIX.find((r) => r.region === region) ||
-    PAYMENT_MATRIX.find((r) => r.region === "GLOBAL")!
-  );
-}
+  global: {
+    currency: "USD",
+    providers: ["stripe", "crypto"]
+  }
+};
