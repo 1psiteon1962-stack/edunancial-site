@@ -1,79 +1,34 @@
-import PaymentButtons from "@/components/PaymentButtons";
-import OurStory from "@/components/OurStory";
-
-export const metadata = {
-  title: "Edunancial | Financial Literacy Without Borders",
-  description:
-    "Edunancial is a global financial literacy platform focused on structure, readiness, and long-term wealth durability for founders, families, and future generations."
-};
+import { headers } from "next/headers";
+import { resolveRegion, REGION_META } from "@/lib/regions";
+import { resolveContent } from "@/lib/content-resolver";
 
 export default function HomePage() {
+  const headerList = headers();
+  const pathname = headerList.get("x-pathname") || "/";
+  const region = resolveRegion(pathname);
+
+  const meta = REGION_META[region];
+  const content = resolveContent(region);
+
   return (
-    <main className="min-h-screen bg-white text-gray-900">
-      {/* HERO */}
-      <section className="px-6 py-20 max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          Financial Literacy Without Borders
-        </h1>
+    <main style={{ padding: "2rem", maxWidth: "960px", margin: "0 auto" }}>
+      <small>{meta.label}</small>
 
-        <p className="mt-6 text-lg md:text-xl max-w-3xl">
-          Edunancial exists to build financial clarity, discipline, and long-term
-          economic durability — not hype, not speculation, and not shortcuts.
-        </p>
+      <h1>{content.heroTitle}</h1>
+      <p>{content.heroBody}</p>
 
-        <p className="mt-4 text-lg max-w-3xl">
-          Built for founders, entrepreneurs, families, and youth preparing for
-          real-world financial responsibility across the U.S., Africa, Latin
-          America, and emerging global markets.
-        </p>
+      <p>
+        <strong>Focus:</strong> {content.literacyFocus}
+      </p>
 
-        <div className="mt-10">
-          <PaymentButtons />
-        </div>
+      <div style={{ display: "flex", gap: "1rem", marginTop: "2rem" }}>
+        <button disabled>{content.ctaPrimary}</button>
+        <button disabled>{content.ctaSecondary}</button>
+      </div>
 
-        <div className="mt-8 flex flex-wrap gap-3 text-sm">
-          <span className="px-3 py-1 border rounded">Site: us-main</span>
-          <span className="px-3 py-1 border rounded">Region: US</span>
-          <span className="px-3 py-1 border rounded">Language: en</span>
-          <span className="px-3 py-1 border rounded">Role: primary</span>
-        </div>
-      </section>
-
-      {/* RED / WHITE / BLUE */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-7xl mx-auto px-6 grid gap-10 md:grid-cols-3">
-          
-          {/* RED */}
-          <div>
-            <h2 className="text-xl font-semibold text-red-700">RED — Real Assets</h2>
-            <p className="mt-4">
-              Understanding property, cash-flowing assets, and durability.
-              Focused on ownership, leverage discipline, and downside protection.
-            </p>
-          </div>
-
-          {/* WHITE */}
-          <div>
-            <h2 className="text-xl font-semibold text-gray-800">WHITE — Paper Assets</h2>
-            <p className="mt-4">
-              Markets, options, valuation logic, and risk literacy — taught as
-              systems, not speculation or advice.
-            </p>
-          </div>
-
-          {/* BLUE */}
-          <div>
-            <h2 className="text-xl font-semibold text-blue-700">BLUE — Business Ownership</h2>
-            <p className="mt-4">
-              Entity structure, governance, operational discipline, and building
-              companies that survive cycles and scale responsibly.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* OUR STORY */}
-      <OurStory />
+      <p style={{ marginTop: "3rem", fontSize: "0.85rem" }}>
+        Payments disabled — financial literacy access only.
+      </p>
     </main>
   );
 }
