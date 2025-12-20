@@ -2,6 +2,7 @@
 import { headers } from "next/headers";
 import { CONTENT_REGISTRY } from "@/lib/content-registry";
 import { resolveRegion } from "@/lib/region-resolver";
+import PaymentSection from "@/components/PaymentSection";
 
 export default function HomePage() {
   const headersList = headers();
@@ -31,14 +32,16 @@ export default function HomePage() {
         <p>{content.focus.body}</p>
       </section>
 
+      <PaymentSection region={region} />
+
       <hr style={{ margin: "3rem 0" }} />
 
       <section>
-        <h3>Coming Soon</h3>
+        <h3>Platforms</h3>
         <ul>
-          <li>EduVesting™</li>
-          <li>EduMath™</li>
-          <li>Level-Based Financial Literacy Tracks</li>
+          <li>EduVesting™ (Investment Literacy)</li>
+          <li>EduMath™ (Financial Math)</li>
+          <li>Level-Based Literacy Tracks</li>
         </ul>
       </section>
     </main>
