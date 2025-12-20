@@ -1,19 +1,32 @@
+// lib/regions.ts
+// Central region resolution for Edunancial
+// Netlify + Next.js safe
+
 export type Region =
-  | "US"
-  | "IN"
-  | "SG"
-  | "AU"
-  | "HK"
-  | "GLOBAL";
+  | "us"
+  | "africa"
+  | "asia"
+  | "global";
 
-export function resolveRegion(input?: string | null): Region {
-  if (!input) return "US";
+export function resolveRegion(hostname?: string): Region {
+  if (!hostname) return "us";
 
-  const region = input.toUpperCase();
+  const host = hostname.toLowerCase();
 
-  if (["US", "IN", "SG", "AU", "HK"].includes(region)) {
-    return region as Region;
+  // Africa mirror
+  if (host.includes("africa")) return "africa";
+
+  // Asia mirror (India, Singapore, Australia, Hong Kong)
+  if (
+    host.includes("asia") ||
+    host.includes("india") ||
+    host.includes("singapore") ||
+    host.includes("australia") ||
+    host.includes("hongkong")
+  ) {
+    return "asia";
   }
 
-  return "GLOBAL";
+  // Default primary site
+  return "us";
 }
