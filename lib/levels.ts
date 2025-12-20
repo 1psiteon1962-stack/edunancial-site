@@ -1,33 +1,45 @@
-export type LiteracyLevel = 1 | 2 | 3 | 4 | 5;
-
-export const LEVEL_META: Record<LiteracyLevel, {
-  label: string;
-  description: string;
-  monetizable: boolean;
-}> = {
-  1: {
-    label: "Awareness",
-    description: "Basic understanding of money and financial terms.",
-    monetizable: false,
-  },
-  2: {
-    label: "Stability",
-    description: "Income control, budgeting, and financial discipline.",
-    monetizable: false,
-  },
-  3: {
-    label: "Builder",
-    description: "Entrepreneurship, ownership, and capital formation.",
-    monetizable: true,
-  },
-  4: {
-    label: "Scaler",
-    description: "Systems, leverage, and multi-entity strategy.",
-    monetizable: true,
-  },
-  5: {
-    label: "Capital Architect",
-    description: "Capital allocation, governance, and legacy structures.",
-    monetizable: true,
-  },
+export type EdunancialLevel = {
+  level: number;
+  title: string;
+  audience: string;
+  access: "public" | "member" | "invite";
+  monetization: "free" | "subscription" | "premium";
 };
+
+export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
+  {
+    level: 1,
+    title: "Foundations",
+    audience: "Youth, Families, First-Time Learners",
+    access: "public",
+    monetization: "free",
+  },
+  {
+    level: 2,
+    title: "Operator",
+    audience: "Entrepreneurs, Side Hustlers",
+    access: "member",
+    monetization: "subscription",
+  },
+  {
+    level: 3,
+    title: "Builder",
+    audience: "Business Owners, Investors",
+    access: "member",
+    monetization: "subscription",
+  },
+  {
+    level: 4,
+    title: "Scaler",
+    audience: "Advanced Entrepreneurs",
+    access: "invite",
+    monetization: "premium",
+  },
+  {
+    level: 5,
+    title: "Capital Architect",
+    audience: "Partners, PE, Strategic Capital",
+    access: "invite",
+    monetization: "premium",
+  },
+];
