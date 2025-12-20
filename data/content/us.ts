@@ -1,14 +1,16 @@
 const usContent = {
   region: "US",
-  currency: "USD",
-  language: "en",
-  heroTitle: "Financial Literacy Without Borders",
-  heroBody:
-    "Education-first financial tools built for the United States. Learn investing, business, and wealth strategy with clarity and structure.",
-  products: {
-    eduvesting: true,
-    edumath: true
-  }
+  headline: "Financial Literacy for Founders, Families, and the Next Generation",
+  subheadline:
+    "Build wealth through discipline, structure, and long-term decision-making—not hype.",
+  pillars: [
+    "Founder Financial Discipline",
+    "Family & Youth Literacy",
+    "Business Ownership",
+    "Capital Structure Awareness",
+  ],
+  ctaPrimary: "Start Your Financial Literacy Path",
+  ctaSecondary: "Explore Our Tools",
 };
 
 export default usContent;
