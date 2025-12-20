@@ -1,8 +1,7 @@
 User-agent: *
 Allow: /
 
-# Canonical host
-Host: edunancial.com
-
-# Sitemap (single authority)
-Sitemap: https://edunancial.com/sitemap.xml
+Disallow: /api/
+Disallow: /netlify/
+Disallow: /metrics
+Disallow: /internal
