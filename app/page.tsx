@@ -1,139 +1,116 @@
 // app/page.tsx
-// Edunancial Primary Entry Page
-// Netlify + Next.js safe
-// Financial literacy focused (not formal education)
+// Edunancial – Primary Global Entry Point
+// Financial Literacy (NOT education)
+// Netlify + Next.js App Router safe
+
+import { headers } from "next/headers";
+import { getPageContent } from "@/lib/content-resolver";
 
 export default function HomePage() {
+  const hdrs = headers();
+  const host =
+    hdrs.get("x-forwarded-host") ||
+    hdrs.get("host") ||
+    undefined;
+
+  const content = getPageContent(host);
+
   return (
     <main
       style={{
         maxWidth: "1100px",
         margin: "0 auto",
-        padding: "2rem 1.5rem",
+        padding: "3rem 1.5rem",
         fontFamily: "system-ui, -apple-system, BlinkMacSystemFont",
       }}
     >
       {/* HERO */}
       <section style={{ marginBottom: "3rem" }}>
-        <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
-          Edunancial
+        <h1 style={{ fontSize: "2.4rem", marginBottom: "1rem" }}>
+          {content.heroTitle}
         </h1>
 
-        <p style={{ fontSize: "1.25rem", lineHeight: "1.6" }}>
-          A financial literacy platform designed to help individuals,
-          families, founders, and future entrepreneurs understand money,
-          capital, risk, and opportunity — across every stage of life.
-        </p>
-
-        <p style={{ marginTop: "1rem", color: "#555" }}>
-          This is not formal education. This is practical financial
-          literacy for the real world.
+        <p style={{ fontSize: "1.15rem", lineHeight: "1.6" }}>
+          {content.heroBody}
         </p>
       </section>
 
-      {/* CORE PILLARS */}
+      {/* CORE POSITIONING */}
       <section style={{ marginBottom: "3rem" }}>
-        <h2>Our Focus</h2>
-        <ul style={{ lineHeight: "1.8" }}>
-          <li>Founders & Entrepreneurs</li>
-          <li>Families & Intergenerational Wealth</li>
-          <li>Youth & Early Financial Literacy</li>
-          <li>Global Capital Awareness (U.S. & International)</li>
-        </ul>
-      </section>
-
-      {/* PLATFORM TOOLS */}
-      <section style={{ marginBottom: "3rem" }}>
-        <h2>Platform Tools</h2>
+        <h2>What Edunancial Actually Does</h2>
 
         <p>
-          Edunancial is building proprietary tools to help users evaluate
-          opportunities, understand risk, and make informed decisions.
+          Edunancial is a <strong>financial literacy platform</strong>.
+          We do not sell motivation. We do not sell hype.
+          We provide structured understanding of money, capital,
+          risk, ownership, and opportunity — globally.
         </p>
+      </section>
 
-        <ul style={{ lineHeight: "1.8", marginTop: "1rem" }}>
+      {/* RED / WHITE / BLUE */}
+      <section style={{ marginBottom: "3rem" }}>
+        <h2>The Red • White • Blue Framework</h2>
+
+        <ul>
           <li>
-            <strong>EduVesting™</strong> — investment thinking frameworks
-            and decision support tools
+            <strong>Red:</strong> Foundation — income, expenses,
+            cash flow, survival discipline.
           </li>
           <li>
-            <strong>EduMath™</strong> — applied math for money, pricing,
-            growth, and risk
+            <strong>White:</strong> Growth — investing, assets,
+            valuation, opportunity analysis.
           </li>
           <li>
-            <strong>Levels Framework™</strong> — understand where you are
-            and how to progress
+            <strong>Blue:</strong> Scale — ownership, systems,
+            capital access, global positioning.
           </li>
         </ul>
       </section>
 
-      {/* GLOBAL STRUCTURE */}
+      {/* APPS (PLACE-CARDED) */}
       <section style={{ marginBottom: "3rem" }}>
-        <h2>Global by Design</h2>
+        <h2>Edunancial Tools</h2>
 
-        <p>
-          The U.S. site serves as the primary platform. Regional mirror
-          sites provide localized access, language, and payment options
-          while reporting into a unified system.
-        </p>
+        <div style={{ display: "grid", gap: "1rem" }}>
+          <div>
+            <h3>EduVesting</h3>
+            <p>
+              Analyze potential investments before risking capital.
+              Structured thinking, not financial advice.
+            </p>
+            <button disabled>Coming Online</button>
+          </div>
 
-        <p style={{ marginTop: "0.75rem", color: "#555" }}>
-          Initial regions include the United States, Africa, and
-          English-speaking Asia, with expansion continuing in phases.
-        </p>
-      </section>
-
-      {/* CTA PLACEHOLDERS */}
-      <section style={{ marginBottom: "3rem" }}>
-        <h2>Get Started</h2>
-
-        <p>
-          Access to tools and content will vary based on engagement level.
-          Some features are free, others require registration or paid
-          access.
-        </p>
-
-        <div style={{ marginTop: "1.5rem" }}>
-          <button
-            style={{
-              padding: "0.75rem 1.5rem",
-              marginRight: "1rem",
-              cursor: "pointer",
-            }}
-          >
-            Explore Platform
-          </button>
-
-          <button
-            style={{
-              padding: "0.75rem 1.5rem",
-              cursor: "pointer",
-            }}
-          >
-            Create Account
-          </button>
+          <div>
+            <h3>EduMath</h3>
+            <p>
+              Understand the math behind money — interest, leverage,
+              compounding, dilution.
+            </p>
+            <button disabled>Coming Online</button>
+          </div>
         </div>
       </section>
 
-      {/* LEGAL / POSITIONING */}
-      <section
-        style={{
-          borderTop: "1px solid #ddd",
-          paddingTop: "1.5rem",
-          fontSize: "0.85rem",
-          color: "#555",
-        }}
-      >
-        <p>
-          © {new Date().getFullYear()} Edunancial, Inc. All rights reserved.
-        </p>
+      {/* MEMBERSHIP PLACEHOLDERS */}
+      <section style={{ marginBottom: "3rem" }}>
+        <h2>Membership Access</h2>
 
         <p>
-          Edunancial is not a licensed investment advisor, broker-dealer,
-          or financial institution. Tools and content are provided for
-          informational and analytical purposes only.
+          Memberships are structured by literacy level and use case
+          (individual, family, entrepreneur, founder).
         </p>
+
+        <button disabled>Join (Payments Activating)</button>
       </section>
+
+      {/* FOOTER */}
+      <footer style={{ marginTop: "4rem", opacity: 0.7 }}>
+        <p>
+          © {new Date().getFullYear()} Edunancial.
+          Financial literacy — globally structured.
+        </p>
+      </footer>
     </main>
   );
 }
