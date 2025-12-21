@@ -1,39 +1,48 @@
-// app/page.tsx
+/* app/page.tsx */
 "use client";
 
 import { useEffect } from "react";
-import { trackEvent } from "@/lib/metrics-client";
-import { resolveRegion } from "@/lib/region-resolver";
-import LevelGate from "@/components/LevelGate";
-import { CONTENT_REGISTRY } from "@/lib/content-registry";
+
+// RELATIVE IMPORTS — NO ALIASES
+import LevelGate from "../components/LevelGate";
+import { trackMetric } from "../lib/metrics-client";
+import { resolveRegion } from "../lib/region-resolver";
+import { getContent } from "../lib/content-registry";
 
 export default function HomePage() {
-  const region = resolveRegion(undefined);
-  const content = CONTENT_REGISTRY[region];
+  const region = resolveRegion();
+  const content = getContent(region);
 
   useEffect(() => {
-    trackEvent("visit", region);
+    trackMetric("page_view", { page: "home", region });
   }, [region]);
 
   return (
-    <main style={{ padding: "3rem" }}>
-      <h1>{content.hero.title}</h1>
-      <p>{content.hero.body}</p>
+    <main className="min-h-screen bg-white text-black">
+      <LevelGate requiredLevel={1}>
+        <section className="max-w-6xl mx-auto px-6 py-12">
+          <h1 className="text-3xl font-bold mb-4">
+            {content.title}
+          </h1>
 
-      <LevelGate requiredLevel={2} region={region}>
-        <h2>Level 2 Content</h2>
-      </LevelGate>
+          <p className="text-lg mb-6">
+            {content.description}
+          </p>
 
-      <LevelGate requiredLevel={3} region={region}>
-        <h2>Level 3 Content</h2>
-      </LevelGate>
-
-      <LevelGate requiredLevel={4} region={region}>
-        <h2>Level 4 Content</h2>
-      </LevelGate>
-
-      <LevelGate requiredLevel={5} region={region}>
-        <h2>Level 5 Content</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {content.sections.map((section) => (
+              <div
+                key={section.id}
+                className="border rounded-lg p-4 shadow-sm"
+              >
+                <h2 className="text-xl font-semibold mb-2">
+                  {section.title}
+                </h2>
+                <p>{section.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </LevelGate>
     </main>
   );
