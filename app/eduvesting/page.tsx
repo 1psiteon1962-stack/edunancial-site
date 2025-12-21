@@ -1,39 +1,28 @@
-import { LEVEL_META, LiteracyLevel } from "@/lib/levels";
+/* app/eduvesting/page.tsx */
 
 export default function EduVestingPage() {
-  const simulatedLevel: LiteracyLevel = 3;
-
-  const level = LEVEL_META[simulatedLevel];
-
   return (
-    <main style={{ padding: "2rem", maxWidth: "960px", margin: "0 auto" }}>
-      <h1>EduVesting™</h1>
+    <main className="max-w-4xl mx-auto px-6 py-12">
+      <h1 className="text-3xl font-bold mb-6">
+        EduVesting™ – Learning How Capital Actually Works
+      </h1>
 
-      <p>
-        EduVesting helps you evaluate how you think about investments —
-        before you risk capital.
+      <p className="mb-4">
+        EduVesting explains investing from first principles —
+        ownership, risk, time, and discipline.
       </p>
 
-      <h2>Your Current Level</h2>
-      <p>
-        <strong>Level {simulatedLevel}: {level.label}</strong>
-      </p>
-      <p>{level.description}</p>
+      <ul className="list-disc pl-6 space-y-2">
+        <li>What investing really means (and what it doesn’t)</li>
+        <li>Stocks, businesses, and ownership logic</li>
+        <li>Why most people lose money</li>
+        <li>Long-term thinking vs speculation</li>
+      </ul>
 
-      {level.monetizable ? (
-        <button disabled>
-          Unlock Advanced Capital Scenarios (Payment Disabled)
-        </button>
-      ) : (
-        <p>
-          Advance your literacy level to unlock deeper analysis tools.
-        </p>
-      )}
-
-      <p style={{ marginTop: "2rem", fontSize: "0.85rem" }}>
-        EduVesting is not an investment platform and does not provide
-        financial advice.
-      </p>
+      <div className="mt-8 p-4 border rounded bg-gray-50">
+        <strong>Status:</strong> Educational overview live.
+        Strategy tools added in later phases.
+      </div>
     </main>
   );
 }
