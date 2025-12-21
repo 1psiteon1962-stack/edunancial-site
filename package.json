@@ -2,7 +2,10 @@
   "name": "edunancial-site",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+
+  "engines": {
+    "node": ">=18.17.0"
+  },
 
   "scripts": {
     "dev": "next dev",
@@ -14,16 +17,5 @@
     "next": "14.2.35",
     "react": "18.3.1",
     "react-dom": "18.3.1"
-  },
-
-  "devDependencies": {
-    "typescript": "^5.4.5",
-    "@types/node": "^20.19.0",
-    "@types/react": "^18.3.27",
-    "@types/react-dom": "^18.3.5"
-  },
-
-  "engines": {
-    "node": "20.x"
   }
 }
