@@ -11,8 +11,19 @@ export interface LevelMeta {
 }
 
 /**
+ * Short labels used by LevelGate and UI elements
+ */
+export const LEVEL_LABELS: Record<LevelKey, string> = {
+  L1: 'Foundational Awareness',
+  L2: 'Structured Control',
+  L3: 'Asset Orientation',
+  L4: 'Strategic Capital Use',
+  L5: 'Capital Architecture'
+};
+
+/**
  * Canonical level definitions used across:
- * - Edunancial core
+ * - Edunancial Core
  * - EduMath
  * - EduVesting
  * - LevelGate
@@ -20,7 +31,7 @@ export interface LevelMeta {
 export const LEVEL_META: Record<LevelKey, LevelMeta> = {
   L1: {
     key: 'L1',
-    title: 'Foundational Awareness',
+    title: LEVEL_LABELS.L1,
     summary: 'Understanding money, income, and basic financial behavior.',
     focus: [
       'Income vs expenses',
@@ -33,7 +44,7 @@ export const LEVEL_META: Record<LevelKey, LevelMeta> = {
 
   L2: {
     key: 'L2',
-    title: 'Structured Control',
+    title: LEVEL_LABELS.L2,
     summary: 'Applying structure to cash flow and financial decisions.',
     focus: [
       'Budget systems',
@@ -46,7 +57,7 @@ export const LEVEL_META: Record<LevelKey, LevelMeta> = {
 
   L3: {
     key: 'L3',
-    title: 'Asset Orientation',
+    title: LEVEL_LABELS.L3,
     summary: 'Transitioning from earning income to acquiring assets.',
     focus: [
       'Stocks and ETFs',
@@ -59,7 +70,7 @@ export const LEVEL_META: Record<LevelKey, LevelMeta> = {
 
   L4: {
     key: 'L4',
-    title: 'Strategic Capital Use',
+    title: LEVEL_LABELS.L4,
     summary: 'Using capital intentionally to scale wealth.',
     focus: [
       'Advanced investing',
@@ -72,7 +83,7 @@ export const LEVEL_META: Record<LevelKey, LevelMeta> = {
 
   L5: {
     key: 'L5',
-    title: 'Capital Architecture',
+    title: LEVEL_LABELS.L5,
     summary: 'Designing systems that deploy capital at scale.',
     focus: [
       'Private equity logic',
@@ -85,6 +96,6 @@ export const LEVEL_META: Record<LevelKey, LevelMeta> = {
 };
 
 /**
- * Convenience export if needed elsewhere
+ * Safe ordered keys for iteration
  */
 export const LEVEL_KEYS = Object.keys(LEVEL_META) as LevelKey[];
