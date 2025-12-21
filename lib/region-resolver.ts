@@ -1,13 +1,9 @@
-export type Region =
-  | "US"
-  | "LATAM"
-  | "AFRICA"
-  | "EU"
-  | "MENA"
-  | "ASIA"
-  | "GLOBAL";
+// lib/region-resolver.ts
+
+import type { Region } from "./regions";
 
 export function resolveRegion(): Region {
-  // Server-safe default. Later you can enhance using headers, geo, query params, etc.
-  return "GLOBAL";
+  // You can improve this later (geo IP, headers, etc.)
+  // For now this is deterministic and type-safe
+  return "NA";
 }
