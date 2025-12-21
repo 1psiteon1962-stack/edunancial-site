@@ -1,30 +1,20 @@
-// components/PaymentSection.tsx
-import PaymentButton from "./PaymentButton";
-import { PAYMENT_CONFIG } from "@/lib/payments-config";
+'use client';
 
-type Props = {
-  region: string;
-};
+import React from 'react';
+import PaymentButton from './payments/PaymentButton';
 
-export default function PaymentSection({ region }: Props) {
-  const config = PAYMENT_CONFIG[region] || PAYMENT_CONFIG["global"];
-
+export default function PaymentSection() {
   return (
-    <section style={{ marginTop: "3rem" }}>
-      <h3>Access & Pricing</h3>
-      <p>Currency: {config.currency}</p>
+    <section className="w-full max-w-xl mx-auto p-6 border rounded-lg bg-white shadow">
+      <h2 className="text-2xl font-semibold mb-4">
+        Access Premium Content
+      </h2>
 
-      {config.providers.includes("stripe") && (
-        <PaymentButton label="Pay with Stripe" provider="stripe" />
-      )}
+      <p className="text-gray-600 mb-6">
+        Unlock advanced tools, guides, and educational resources.
+      </p>
 
-      {config.providers.includes("square") && (
-        <PaymentButton label="Pay with Square" provider="square" />
-      )}
-
-      {config.providers.includes("crypto") && (
-        <PaymentButton label="Pay with Crypto" provider="crypto" />
-      )}
+      <PaymentButton />
     </section>
   );
 }
