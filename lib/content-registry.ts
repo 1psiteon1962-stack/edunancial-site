@@ -13,7 +13,7 @@ export type ContentRegistry = {
   sections: ContentSection[];
 };
 
-export const contentRegistry: ContentRegistry = {
+const registry: ContentRegistry = {
   title: "Financial Literacy, Structured for Real Life",
   subtitle:
     "Understand where you are, what comes next, and how to move forward with confidence.",
@@ -38,3 +38,10 @@ export const contentRegistry: ContentRegistry = {
     }
   ]
 };
+
+/**
+ * Public API used by app/page.tsx and other routes
+ */
+export function getContent(): ContentRegistry {
+  return registry;
+}
