@@ -1,37 +1,55 @@
-"use client";
+'use client';
 
-import { PaymentRoute } from "@/lib/payments/types";
+import React from 'react';
 
-interface Props {
-  options: PaymentRoute[];
-}
+type PaymentButtonProps = {
+  label?: string;                 // defaults to "Pay"
+  href?: string;                  // if provided, navigates to a link
+  onClick?: () => void;           // optional callback
+  disabled?: boolean;
+  className?: string;
+};
 
-export default function PaymentButtons({ options }: Props) {
+export default function PaymentButton({
+  label = 'Pay',
+  href,
+  onClick,
+  disabled = false,
+  className = '',
+}: PaymentButtonProps) {
+  const base =
+    'inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold ' +
+    'transition focus:outline-none focus:ring-2 focus:ring-offset-2 ' +
+    (disabled
+      ? 'opacity-60 cursor-not-allowed bg-neutral-300 text-neutral-700'
+      : 'bg-black text-white hover:opacity-90 focus:ring-neutral-400');
+
+  // If you want it to go to a checkout URL, pass href.
+  if (href) {
+    return (
+      <a
+        href={disabled ? undefined : href}
+        aria-disabled={disabled}
+        onClick={(e) => {
+          if (disabled) e.preventDefault();
+        }}
+        className={`${base} ${className}`}
+      >
+        {label}
+      </a>
+    );
+  }
+
   return (
-    <div style={{ marginTop: "2rem" }}>
-      {options.map((opt) => (
-        <button
-          key={opt.provider}
-          disabled={!opt.enabled}
-          onClick={() => {
-            alert(
-              opt.enabled
-                ? `Payment flow ready for ${opt.provider.toUpperCase()}`
-                : "Payment option coming soon"
-            );
-          }}
-          style={{
-            display: "block",
-            marginBottom: "1rem",
-            padding: "0.75rem 1.25rem",
-            fontSize: "1rem",
-            cursor: opt.enabled ? "pointer" : "not-allowed",
-            opacity: opt.enabled ? 1 : 0.5,
-          }}
-        >
-          {opt.label}
-        </button>
-      ))}
-    </div>
+    <button
+      type="button"
+      disabled={disabled}
+      onClick={() => {
+        if (!disabled) onClick?.();
+      }}
+      className={`${base} ${className}`}
+    >
+      {label}
+    </button>
   );
 }
