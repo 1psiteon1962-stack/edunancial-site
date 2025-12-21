@@ -1,17 +1,15 @@
 /** @type {import('next').NextConfig} */
+const path = require("path");
+
 const nextConfig = {
-  output: "export",
   reactStrictMode: true,
-  trailingSlash: true,
-  images: {
-    unoptimized: true
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      "@": path.resolve(__dirname),
+    };
+    return config;
   },
-  eslint: {
-    ignoreDuringBuilds: true
-  },
-  typescript: {
-    ignoreBuildErrors: true
-  }
 };
 
 module.exports = nextConfig;
