@@ -1,49 +1,40 @@
-export type ContentRegionKey =
-  | "US"
-  | "LATAM"
-  | "AFRICA"
-  | "EU"
-  | "MENA"
-  | "ASIA"
-  | "GLOBAL";
+// lib/content-registry.ts
+
+export type ContentSection = {
+  id: string;
+  title: string;
+  description: string;
+  body?: string;
+};
 
 export type ContentRegistry = {
-  heroHeadline: string;
-  heroSubheadline: string;
+  title: string;
+  subtitle?: string;
+  sections: ContentSection[];
 };
 
-const registry: Record<ContentRegionKey, ContentRegistry> = {
-  US: {
-    heroHeadline: "Financial Literacy, Built for Real Life.",
-    heroSubheadline: "Learn levels 1–5, then apply it with tools, videos, and discipline."
-  },
-  LATAM: {
-    heroHeadline: "Educación financiera práctica, paso a paso.",
-    heroSubheadline: "Aprende niveles 1–5 y úsalo en tu vida real."
-  },
-  AFRICA: {
-    heroHeadline: "Practical financial learning that scales.",
-    heroSubheadline: "Mobile-first learning built for consistency and long-term growth."
-  },
-  EU: {
-    heroHeadline: "Structured financial education, globally accessible.",
-    heroSubheadline: "Clear frameworks, tools, and execution."
-  },
-  MENA: {
-    heroHeadline: "Financial literacy with structure and discipline.",
-    heroSubheadline: "Learn the framework, then build your plan."
-  },
-  ASIA: {
-    heroHeadline: "Financial education for builders and operators.",
-    heroSubheadline: "Frameworks, tools, and consistent progress."
-  },
-  GLOBAL: {
-    heroHeadline: "Financial Literacy and Education.",
-    heroSubheadline: "A global framework for building wealth with clarity."
-  }
+export const contentRegistry: ContentRegistry = {
+  title: "Financial Literacy, Structured for Real Life",
+  subtitle:
+    "Understand where you are, what comes next, and how to move forward with confidence.",
+  sections: [
+    {
+      id: "foundation",
+      title: "Foundation",
+      description:
+        "Learn the fundamentals of money, business structures, and personal financial control."
+    },
+    {
+      id: "growth",
+      title: "Growth",
+      description:
+        "Apply practical tools to grow income, protect assets, and make informed decisions."
+    },
+    {
+      id: "advancement",
+      title: "Advancement",
+      description:
+        "Access advanced models, analytics, and strategies used by experienced operators."
+    }
+  ]
 };
-
-export function getContent(region: string): ContentRegistry {
-  const key = (region?.toUpperCase?.() ?? "GLOBAL") as ContentRegionKey;
-  return registry[key] ?? registry.GLOBAL;
-}
