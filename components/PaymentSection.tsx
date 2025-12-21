@@ -3,18 +3,43 @@
 import React from 'react';
 import PaymentButton from './payments/PaymentButton';
 
-export default function PaymentSection() {
+type PaymentSectionProps = {
+  title?: string;
+  subtitle?: string;
+  payHref?: string;     // optional checkout URL (leave blank if not using)
+};
+
+export default function PaymentSection({
+  title = 'Ready to get started?',
+  subtitle = 'Secure checkout is available when you’re ready.',
+  payHref,
+}: PaymentSectionProps) {
   return (
-    <section className="w-full max-w-xl mx-auto p-6 border rounded-lg bg-white shadow">
-      <h2 className="text-2xl font-semibold mb-4">
-        Access Premium Content
-      </h2>
+    <section className="w-full">
+      <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+        <div className="flex flex-col gap-2">
+          <h2 className="text-xl font-semibold text-neutral-900">{title}</h2>
+          <p className="text-sm text-neutral-700">{subtitle}</p>
+        </div>
 
-      <p className="text-gray-600 mb-6">
-        Unlock advanced tools, guides, and educational resources.
-      </p>
+        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <PaymentButton
+            label="Pay"
+            href={payHref}
+            onClick={() => {
+              // If you don't have a checkout URL yet, this prevents a broken click.
+              // Replace this later when you wire up payment.
+              if (!payHref) {
+                alert('Checkout is not enabled yet.');
+              }
+            }}
+          />
 
-      <PaymentButton />
+          <p className="text-xs text-neutral-600">
+            (Payment providers are not shown here by design.)
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
