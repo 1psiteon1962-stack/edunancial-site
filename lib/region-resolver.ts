@@ -1,15 +1,13 @@
-// lib/region-resolver.ts
-// Determines region safely without breaking Netlify
+export type Region =
+  | "US"
+  | "LATAM"
+  | "AFRICA"
+  | "EU"
+  | "MENA"
+  | "ASIA"
+  | "GLOBAL";
 
-import { Region } from "./content-registry";
-
-export function resolveRegion(hostname?: string): Region {
-  if (!hostname) return "us";
-
-  const host = hostname.toLowerCase();
-
-  if (host.includes("africa")) return "africa";
-  if (host.includes("india")) return "india";
-
-  return "us";
+export function resolveRegion(): Region {
+  // Server-safe default. Later you can enhance using headers, geo, query params, etc.
+  return "GLOBAL";
 }
