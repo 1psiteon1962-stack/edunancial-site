@@ -1,42 +1,65 @@
 // lib/content-resolver.ts
-// Resolves content source based on region
-// U.S. is always authoritative
 
-import { resolveRegion, Region } from "./regions";
+import { resolveRegion, Region } from "./regions"
 
 export type PageContent = {
-  heroTitle: string;
-  heroBody: string;
-};
-
-const usContent: PageContent = {
-  heroTitle: "Financial Literacy for the Real World",
-  heroBody:
-    "Understand money, capital, risk, and opportunity — not theory, but practical financial literacy.",
-};
+  heroTitle: string
+  heroSubtitle: string
+}
 
 const africaContent: PageContent = {
-  heroTitle: "Building Financial Strength Across Africa",
-  heroBody:
-    "Access financial literacy tools designed for growth, entrepreneurship, and cross-border opportunity.",
-};
+  heroTitle: "Africa",
+  heroSubtitle: "Entrepreneurship and opportunity across Africa",
+}
 
 const asiaContent: PageContent = {
-  heroTitle: "Financial Literacy for a Global Economy",
-  heroBody:
-    "From India to Singapore to Australia — understand capital, growth, and global opportunity.",
-};
+  heroTitle: "Asia",
+  heroSubtitle: "Growth, technology, and markets in Asia",
+}
 
-export function getPageContent(hostname?: string): PageContent {
-  const region: Region = resolveRegion(hostname);
+const europeContent: PageContent = {
+  heroTitle: "Europe",
+  heroSubtitle: "Innovation and regulation-aware growth in Europe",
+}
 
-  switch (region) {
-    case "africa":
-      return africaContent;
-    case "asia":
-      return asiaContent;
-    case "us":
+const northAmericaContent: PageContent = {
+  heroTitle: "North America",
+  heroSubtitle: "Capital, scale, and systems in North America",
+}
+
+const southAmericaContent: PageContent = {
+  heroTitle: "South America",
+  heroSubtitle: "Emerging markets and cross-border growth in South America",
+}
+
+const oceaniaContent: PageContent = {
+  heroTitle: "Oceania",
+  heroSubtitle: "Island economies and modern infrastructure",
+}
+
+const defaultContent: PageContent = {
+  heroTitle: "Global",
+  heroSubtitle: "Building systems that scale worldwide",
+}
+
+export function resolvePageContent(regionInput?: string): PageContent {
+  const region: Region = resolveRegion(regionInput)
+
+  switch (region.code) {
+    case "AF":
+      return africaContent
+    case "AS":
+      return asiaContent
+    case "EU":
+      return europeContent
+    case "US":
+    case "NA":
+      return northAmericaContent
+    case "SA":
+      return southAmericaContent
+    case "OC":
+      return oceaniaContent
     default:
-      return usContent;
+      return defaultContent
   }
 }
