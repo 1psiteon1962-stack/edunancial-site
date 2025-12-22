@@ -1,18 +1,22 @@
-import { Level } from "./levels"
+// lib/pricing.ts
+
+import type { Level } from "./levels";
 
 export function getPricingForLevel(level: Level): number {
   switch (level) {
-    case Level.Foundation:
-      return 0
-    case Level.Builder:
-      return 9
-    case Level.Operator:
-      return 19
-    case Level.Owner:
-      return 49
-    case Level.Architect:
-      return 99
+    case "free":
+      return 0;
+    case 1:
+      return 0;
+    case 2:
+      return 9;
+    case 3:
+      return 19;
+    case 4:
+      return 39;
+    case 5:
+      return 79;
     default:
-      return 0
+      return 0;
   }
 }
