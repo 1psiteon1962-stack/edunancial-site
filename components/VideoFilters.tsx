@@ -1,88 +1,59 @@
 // components/VideoFilters.tsx
-"use client";
 
-import React from "react";
-import type { Level, Region } from "@/data/videos";
-import { allRegions, levelLabels } from "@/data/videos";
+import React from "react"
+import { allRegions, levelLabels } from "@/data/videos"
 
-type Props = {
-  region: Region;
-  setRegion: (r: Region) => void;
-  level: Level | "all";
-  setLevel: (l: Level | "all") => void;
-  query: string;
-  setQuery: (q: string) => void;
-};
-
-export default function VideoFilters({ region, setRegion, level, setLevel, query, setQuery }: Props) {
+export default function VideoFilters({
+  level,
+  region,
+  onLevelChange,
+  onRegionChange,
+}: {
+  level: any
+  region: any
+  onLevelChange: (value: any) => void
+  onRegionChange: (value: any) => void
+}) {
   return (
     <div
       style={{
-        border: "1px solid rgba(0,0,0,0.12)",
-        borderRadius: 14,
-        padding: 14,
-        background: "#fff",
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr 2fr",
-        gap: 10,
+        display: "flex",
+        gap: "1rem",
+        flexWrap: "wrap",
+        marginBottom: "1.5rem",
       }}
     >
-      <label style={{ display: "grid", gap: 6 }}>
-        <span style={{ fontSize: 12, color: "rgba(0,0,0,0.7)", fontWeight: 700 }}>Region</span>
+      {/* Level Filter */}
+      <label>
+        Level:&nbsp;
         <select
-          value={region}
-          onChange={(e) => setRegion(e.target.value as Region)}
-          style={{
-            borderRadius: 12,
-            padding: "10px 12px",
-            border: "1px solid rgba(0,0,0,0.15)",
-            background: "#fff",
-          }}
+          value={level ?? ""}
+          onChange={(e) => onLevelChange(e.target.value)}
         >
-          {allRegions.map((r) => (
-            <option key={r} value={r}>
-              {r.toUpperCase()}
+          <option value="">All</option>
+          {Object.entries(levelLabels).map(([key, label]) => (
+            <option key={key} value={key}>
+              {label}
             </option>
           ))}
         </select>
       </label>
 
-      <label style={{ display: "grid", gap: 6 }}>
-        <span style={{ fontSize: 12, color: "rgba(0,0,0,0.7)", fontWeight: 700 }}>Level</span>
+      {/* Region Filter */}
+      <label>
+        Region:&nbsp;
         <select
-          value={level}
-          onChange={(e) => setLevel(e.target.value === "all" ? "all" : (Number(e.target.value) as Level))}
-          style={{
-            borderRadius: 12,
-            padding: "10px 12px",
-            border: "1px solid rgba(0,0,0,0.15)",
-            background: "#fff",
-          }}
+          value={region ?? ""}
+          onChange={(e) => onRegionChange(e.target.value)}
         >
-          <option value="all">All Levels</option>
-          <option value="1">{levelLabels[1]}</option>
-          <option value="2">{levelLabels[2]}</option>
-          <option value="3">{levelLabels[3]}</option>
-          <option value="4">{levelLabels[4]}</option>
-          <option value="5">{levelLabels[5]}</option>
+          <option value="">All</option>
+          {allRegions.map((r: any) => (
+            <option key={r} value={r}>
+              {r}
+            </option>
+          ))}
         </select>
       </label>
-
-      <label style={{ display: "grid", gap: 6 }}>
-        <span style={{ fontSize: 12, color: "rgba(0,0,0,0.7)", fontWeight: 700 }}>
-          Search (title / tags)
-        </span>
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search: cashflow, ownership, KPI..."
-          style={{
-            borderRadius: 12,
-            padding: "10px 12px",
-            border: "1px solid rgba(0,0,0,0.15)",
-          }}
-        />
-      </label>
     </div>
-  );
+  )
 }
