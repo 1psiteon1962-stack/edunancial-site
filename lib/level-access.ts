@@ -14,27 +14,17 @@ export const LEVEL_ACCESS: Record<Level, LevelAccess> = {
     canAccessTools: false,
     canJoinLiveSessions: false,
   },
-  1: {
+  Foundation: {
     canViewContent: true,
     canAccessTools: false,
     canJoinLiveSessions: false,
   },
-  2: {
+  Builder: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: false,
   },
-  3: {
-    canViewContent: true,
-    canAccessTools: true,
-    canJoinLiveSessions: true,
-  },
-  4: {
-    canViewContent: true,
-    canAccessTools: true,
-    canJoinLiveSessions: true,
-  },
-  5: {
+  Visionary: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: true,
