@@ -6,16 +6,16 @@ export function getPricingForLevel(level: Level): number {
   switch (level) {
     case "free":
       return 0;
-    case 1:
+
+    case "Foundation":
       return 0;
-    case 2:
+
+    case "Builder":
       return 9;
-    case 3:
+
+    case "Visionary":
       return 19;
-    case 4:
-      return 39;
-    case 5:
-      return 79;
+
     default:
       return 0;
   }
