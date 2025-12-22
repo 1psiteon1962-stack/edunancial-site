@@ -1,6 +1,6 @@
 // lib/levels.ts
 
-export type Level = 1 | 2 | 3 | 4 | 5;
+export type Level = "free" | 1 | 2 | 3 | 4 | 5;
 
 export type LevelMeta = {
   id: Level;
@@ -9,6 +9,11 @@ export type LevelMeta = {
 };
 
 export const EDUNANCIAL_LEVELS: LevelMeta[] = [
+  {
+    id: "free",
+    title: "Free — Visitor",
+    description: "Public access to introductory educational content only.",
+  },
   {
     id: 1,
     title: "Level 1 — Foundation",
@@ -27,15 +32,17 @@ export const EDUNANCIAL_LEVELS: LevelMeta[] = [
   {
     id: 4,
     title: "Level 4 — Operator",
-    description: "Business + assets: systems, leverage, scaling mindset.",
+    description: "Business systems, leverage, and scalable operations.",
   },
   {
     id: 5,
     title: "Level 5 — Architect",
-    description: "Advanced strategy: allocation, governance, global thinking.",
+    description: "Advanced allocation, governance, and global strategy.",
   },
 ];
 
 export function hasSufficientLevel(required: Level, current: Level): boolean {
+  if (current === "free") return required === "free";
+  if (required === "free") return true;
   return current >= required;
 }
