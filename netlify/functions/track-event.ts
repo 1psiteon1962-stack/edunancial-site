@@ -1,24 +1,46 @@
-import { Handler } from "@netlify/functions";
+// netlify/functions/track-event.ts
+
+type Handler = (event: any, context: any) => Promise<{
+  statusCode: number;
+  headers?: Record<string, string>;
+  body: string;
+}>;
 
 export const handler: Handler = async (event) => {
   if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Method Not Allowed" };
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: "Method Not Allowed" }),
+    };
   }
 
-  const data = JSON.parse(event.body || "{}");
+  if (!event.body) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: "Missing body" }),
+    };
+  }
 
-  const record = {
-    event: data.event,
-    region: data.region,
-    value: data.value ?? null,
-    timestamp: new Date().toISOString(),
-  };
+  let payload: unknown;
 
-  // For now: log-based persistence (Netlify-safe)
-  console.log("KPI_EVENT", JSON.stringify(record));
+  try {
+    payload = JSON.parse(event.body);
+  } catch {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: "Invalid JSON" }),
+    };
+  }
+
+  // Event tracking placeholder
+  // Safe for build, safe for runtime
+  console.log("Tracked event:", payload);
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ success: true }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ status: "ok" }),
   };
 };
