@@ -1,20 +1,28 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export function middleware(req: NextRequest) {
-  const res = NextResponse.next();
+  const { pathname } = req.nextUrl;
+  const host = req.headers.get("host") || "";
 
-  // Identify region early (future use)
-  const country =
-    req.headers.get("x-nf-country") ||
-    req.headers.get("cf-ipcountry") ||
-    "UNKNOWN";
+  // Only act on root path
+  if (pathname !== "/") {
+    return NextResponse.next();
+  }
 
-  // Attach for future analytics / routing
-  res.headers.set("x-edunancial-region", country);
+  // LATAM mirror → Spanish
+  if (
+    host.includes("latam") ||
+    host.includes("mx") ||
+    host.includes("ar") ||
+    host.includes("co")
+  ) {
+    return NextResponse.redirect(new URL("/es", req.url));
+  }
 
-  return res;
+  // Default (US / global) → English
+  return NextResponse.redirect(new URL("/en", req.url));
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/"],
 };
