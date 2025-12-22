@@ -5,6 +5,12 @@ import { LevelAccess, getLevelAccess } from "./level-access"
 import { getRegionConfig } from "./regions"
 import { getPricingForLevel } from "./pricing"
 
+export type Persona = {
+  level: Level
+  region: string
+  access: LevelAccess
+}
+
 export type ActivationResult = {
   level: Level
   region: string
