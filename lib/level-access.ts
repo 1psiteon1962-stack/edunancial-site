@@ -1,48 +1,47 @@
-export type Level = 1 | 2 | 3 | 4 | 5;
+// lib/level-access.ts
 
-export type AccessRule = {
-  level: Level;
-  label: string;
-  description: string;
-  isPublic: boolean;
-};
+import { Level } from "./levels"
 
-export const LEVEL_ACCESS: AccessRule[] = [
-  {
-    level: 1,
-    label: "Foundation",
-    description: "Financial awareness and discipline",
-    isPublic: true,
-  },
-  {
-    level: 2,
-    label: "Structure",
-    description: "Business and income structure",
-    isPublic: true,
-  },
-  {
-    level: 3,
-    label: "Ownership",
-    description: "Assets, entities, protection",
-    isPublic: false,
-  },
-  {
-    level: 4,
-    label: "Scale",
-    description: "Capital leverage and expansion",
-    isPublic: false,
-  },
-  {
-    level: 5,
-    label: "Capital Architect",
-    description: "Governance, systems, legacy",
-    isPublic: false,
-  },
-];
+export type LevelAccess = {
+  canViewContent: boolean
+  canAccessTools: boolean
+  canJoinLiveSessions: boolean
+  canRequestAdvisory: boolean
+}
 
-export function isLevelAccessible(level: Level, hasAccess: boolean) {
-  const rule = LEVEL_ACCESS.find(r => r.level === level);
-  if (!rule) return false;
-  if (rule.isPublic) return true;
-  return hasAccess;
+export const LEVEL_ACCESS: Record<Level, LevelAccess> = {
+  free: {
+    canViewContent: true,
+    canAccessTools: false,
+    canJoinLiveSessions: false,
+    canRequestAdvisory: false,
+  },
+  basic: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: false,
+    canRequestAdvisory: false,
+  },
+  premium: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+    canRequestAdvisory: false,
+  },
+  pro: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+    canRequestAdvisory: true,
+  },
+  enterprise: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+    canRequestAdvisory: true,
+  },
+}
+
+export function getLevelAccess(level: Level): LevelAccess {
+  return LEVEL_ACCESS[level]
 }
