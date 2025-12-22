@@ -1,20 +1,25 @@
 // lib/regions.ts
 
-export type RegionConfig = {
+export type Region = {
   code: string
   currency: string
   locale: string
-  taxRate: number
 }
 
-export const REGION_CONFIG: Record<string, RegionConfig> = {
-  US: { code: "US", currency: "USD", locale: "en-US", taxRate: 0 },
-  PR: { code: "PR", currency: "USD", locale: "es-PR", taxRate: 0 },
-  DR: { code: "DR", currency: "DOP", locale: "es-DO", taxRate: 0.18 },
-  LATAM: { code: "LATAM", currency: "USD", locale: "es-419", taxRate: 0.15 },
-  EU: { code: "EU", currency: "EUR", locale: "en-GB", taxRate: 0.2 },
+const REGIONS: Record<string, Region> = {
+  US: { code: "US", currency: "USD", locale: "en-US" },
+  PR: { code: "PR", currency: "USD", locale: "es-PR" },
+  DR: { code: "DR", currency: "DOP", locale: "es-DO" },
+  MX: { code: "MX", currency: "MXN", locale: "es-MX" },
+  ES: { code: "ES", currency: "EUR", locale: "es-ES" },
 }
 
-export function getRegionConfig(region: string): RegionConfig {
-  return REGION_CONFIG[region] ?? REGION_CONFIG.US
+export function resolveRegion(input?: string): Region {
+  if (!input) return REGIONS.US
+  const key = input.toUpperCase()
+  return REGIONS[key] ?? REGIONS.US
+}
+
+export function getRegionConfig(regionCode?: string): Region {
+  return resolveRegion(regionCode)
 }
