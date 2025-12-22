@@ -1,13 +1,25 @@
-import { Region } from "./region";
+import type { Region } from "./region-resolver";
 
-export type ContentRegistry = {
+export type Content = {
   title: string;
   description: string;
 };
 
-export function getContent(region: Region): ContentRegistry {
-  return {
-    title: "Edunancial",
-    description: `Financial literacy platform – Region: ${region}`
-  };
+const CONTENT: Record<Region, Content> = {
+  NA: {
+    title: "Welcome to Edunancial",
+    description: "Financial education built for real-world outcomes."
+  },
+  EU: {
+    title: "Welcome to Edunancial (EU)",
+    description: "Practical financial literacy for European markets."
+  },
+  ASIA: {
+    title: "Welcome to Edunancial (Asia)",
+    description: "Education-first finance for Asia-Pacific regions."
+  }
+};
+
+export function getContent(region: Region): Content {
+  return CONTENT[region];
 }
