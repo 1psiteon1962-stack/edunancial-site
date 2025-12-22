@@ -7,19 +7,25 @@ import { getPricingForLevel } from "./pricing"
 
 export type ActivationResult = {
   level: Level
-  access: ReturnType<typeof getLevelAccess>
-  pricing: ReturnType<typeof getPricingForLevel>
-  region: ReturnType<typeof getRegionConfig>
+  region: string
+  access: string
+  price: number
+  currency: string
 }
 
-export function activateUser(
+export function activateLevel(
   level: Level,
-  regionCode: string
+  region: string
 ): ActivationResult {
+  const access = getLevelAccess(level)
+  const regionConfig = getRegionConfig(region)
+  const price = getPricingForLevel(level, regionConfig.code)
+
   return {
     level,
-    access: getLevelAccess(level),
-    pricing: getPricingForLevel(level),
-    region: getRegionConfig(regionCode),
+    region: regionConfig.code,
+    access,
+    price,
+    currency: regionConfig.currency,
   }
 }
