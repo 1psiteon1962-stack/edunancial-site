@@ -1,48 +1,43 @@
 // lib/levels.ts
 
-export type Level = "free" | 1 | 2 | 3 | 4 | 5;
-
 export type LevelMeta = {
-  id: Level;
+  id: string;
   title: string;
   description: string;
 };
 
-export const EDUNANCIAL_LEVELS: LevelMeta[] = [
+export const EDUNANCIAL_LEVELS = [
   {
     id: "free",
-    title: "Free — Visitor",
-    description: "Public access to introductory educational content only.",
+    title: "Free",
+    description: "Explore public content and learn the basics before upgrading.",
   },
   {
-    id: 1,
-    title: "Level 1 — Foundation",
-    description: "Basics: budgeting, saving, avoiding common money traps.",
+    id: "Foundation",
+    title: "Foundation",
+    description: "Start here: core concepts, habits, and a clear path forward.",
   },
   {
-    id: 2,
-    title: "Level 2 — Builder",
-    description: "Build credit, stabilize income, start investing fundamentals.",
+    id: "Builder",
+    title: "Builder",
+    description: "Build skill and consistency with structured learning and tools.",
   },
   {
-    id: 3,
-    title: "Level 3 — Investor",
-    description: "Portfolio building, risk control, long-term strategy.",
+    id: "Visionary",
+    title: "Visionary",
+    description: "Advanced strategy, systems, and scaling thinking.",
   },
-  {
-    id: 4,
-    title: "Level 4 — Operator",
-    description: "Business systems, leverage, and scalable operations.",
-  },
-  {
-    id: 5,
-    title: "Level 5 — Architect",
-    description: "Advanced allocation, governance, and global strategy.",
-  },
-];
+] as const satisfies readonly LevelMeta[];
+
+export type Level = (typeof EDUNANCIAL_LEVELS)[number]["id"];
+
+const LEVEL_ORDER: Record<Level, number> = {
+  free: 0,
+  Foundation: 1,
+  Builder: 2,
+  Visionary: 3,
+};
 
 export function hasSufficientLevel(required: Level, current: Level): boolean {
-  if (current === "free") return required === "free";
-  if (required === "free") return true;
-  return current >= required;
+  return LEVEL_ORDER[current] >= LEVEL_ORDER[required];
 }
