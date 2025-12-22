@@ -1,7 +1,21 @@
 // components/VideoFilters.tsx
 
 import React from "react"
-import { allRegions, levelLabels } from "@/data/videos"
+
+const DEFAULT_LEVELS = [
+  { value: "beginner", label: "Beginner" },
+  { value: "intermediate", label: "Intermediate" },
+  { value: "advanced", label: "Advanced" },
+]
+
+const DEFAULT_REGIONS = [
+  "Global",
+  "USA",
+  "Latin America",
+  "Caribbean",
+  "Africa",
+  "Europe",
+]
 
 export default function VideoFilters({
   level,
@@ -9,21 +23,21 @@ export default function VideoFilters({
   onLevelChange,
   onRegionChange,
 }: {
-  level: any
-  region: any
-  onLevelChange: (value: any) => void
-  onRegionChange: (value: any) => void
+  level: string | null
+  region: string | null
+  onLevelChange: (value: string) => void
+  onRegionChange: (value: string) => void
 }) {
   return (
     <div
       style={{
         display: "flex",
-        gap: "1rem",
+        gap: "1.25rem",
         flexWrap: "wrap",
-        marginBottom: "1.5rem",
+        marginBottom: "1.75rem",
       }}
     >
-      {/* Level Filter */}
+      {/* LEVEL FILTER */}
       <label>
         Level:&nbsp;
         <select
@@ -31,15 +45,15 @@ export default function VideoFilters({
           onChange={(e) => onLevelChange(e.target.value)}
         >
           <option value="">All</option>
-          {Object.entries(levelLabels).map(([key, label]) => (
-            <option key={key} value={key}>
-              {label}
+          {DEFAULT_LEVELS.map((lvl) => (
+            <option key={lvl.value} value={lvl.value}>
+              {lvl.label}
             </option>
           ))}
         </select>
       </label>
 
-      {/* Region Filter */}
+      {/* REGION FILTER */}
       <label>
         Region:&nbsp;
         <select
@@ -47,7 +61,7 @@ export default function VideoFilters({
           onChange={(e) => onRegionChange(e.target.value)}
         >
           <option value="">All</option>
-          {allRegions.map((r: any) => (
+          {DEFAULT_REGIONS.map((r) => (
             <option key={r} value={r}>
               {r}
             </option>
