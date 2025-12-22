@@ -3,6 +3,8 @@
 export type EdunancialLevel = {
   level: 1 | 2 | 3 | 4 | 5
   title: string
+  audience: string
+  access: string
   headline: string
   summary: string
   focus: string[]
@@ -14,131 +16,141 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
   {
     level: 1,
     title: "Survival",
-    headline: "Stability first. Cash control before growth.",
+    audience: "Individuals stabilizing income and expenses",
+    access: "Free",
+    headline: "Stability before growth.",
     summary:
-      "This stage is about protecting the basics: predictable income, fewer emergencies, and a simple system that stops financial bleeding.",
+      "This stage focuses on stopping financial bleeding and creating basic predictability. The priority is control, not expansion.",
     focus: [
-      "Stop surprise expenses from wrecking the month",
-      "Create a basic budget that you actually follow",
-      "Build a starter emergency buffer",
-      "Eliminate high-interest traps"
+      "Cash flow awareness",
+      "Emergency buffering",
+      "Debt containment",
+      "Expense discipline"
     ],
     signals: [
-      "Bills feel reactive or stressful",
-      "Debt payments consume decision-making",
-      "No consistent savings habit yet",
-      "Income feels fragile"
+      "Bills feel reactive",
+      "Little to no savings",
+      "High-interest debt pressure",
+      "Income fragility"
     ],
     nextMoves: [
-      "Track spending weekly (not monthly)",
-      "Build a $500–$1,000 emergency buffer",
-      "Pay down highest-interest debt first",
-      "Automate one small savings transfer"
+      "Track spending weekly",
+      "Build a starter emergency fund",
+      "Reduce high-interest liabilities",
+      "Create one automated savings habit"
     ]
   },
   {
     level: 2,
     title: "Lifestyle",
-    headline: "You can breathe. Now build consistency.",
+    audience: "Individuals with stable income seeking consistency",
+    access: "Free / Entry",
+    headline: "Consistency replaces chaos.",
     summary:
-      "You can cover your needs and some wants. The goal now is repeatability: consistent saving, stable routines, and fewer financial shocks.",
+      "Expenses are covered and habits are forming. This level is about repeatability, reliability, and reducing volatility.",
     focus: [
-      "Consistent saving and spending rules",
-      "Increase income or reduce fixed costs",
-      "Improve credit and financial reliability",
-      "Start learning basic investing"
+      "Savings automation",
+      "Credit strengthening",
+      "Basic investing literacy",
+      "Lifestyle cost control"
     ],
     signals: [
-      "You can handle normal expenses",
-      "You still get hit by occasional surprise costs",
-      "Saving happens, but not automatically",
-      "You want to invest but don’t feel confident"
+      "Monthly bills are manageable",
+      "Savings exists but isn’t systematized",
+      "Occasional financial surprises",
+      "Interest in investing"
     ],
     nextMoves: [
       "Automate savings and bills",
-      "Start a simple index-fund habit (small is fine)",
-      "Set a credit improvement plan",
-      "Create rules for big purchases"
+      "Establish credit improvement targets",
+      "Begin low-risk investing",
+      "Create spending rules"
     ]
   },
   {
     level: 3,
     title: "Wealth-Building",
-    headline: "Systems + assets. Money starts working.",
+    audience: "Investors and professionals building assets",
+    access: "Paid",
+    headline: "Money starts working.",
     summary:
-      "You’re building assets consistently. This stage is about disciplined investing, protecting capital, and expanding income streams.",
+      "Assets are accumulated with intent. The focus is disciplined investing, income expansion, and downside protection.",
     focus: [
-      "Asset allocation and risk management",
-      "Consistent investing contributions",
-      "Side income or scalable skills",
-      "Basic tax awareness"
+      "Asset allocation",
+      "Risk management",
+      "Multiple income streams",
+      "Tax awareness"
     ],
     signals: [
-      "You invest regularly",
-      "You think in timelines (1–5 years)",
-      "You track net worth",
-      "You avoid emotional money decisions"
+      "Regular investing behavior",
+      "Net worth tracking",
+      "Long-term thinking",
+      "Rules-based decisions"
     ],
     nextMoves: [
-      "Increase contributions with each income bump",
-      "Formalize your investing plan (rules-based)",
-      "Add an income stream tied to skills or distribution",
-      "Start tracking taxes and deductions"
+      "Increase contribution rates",
+      "Formalize an investment thesis",
+      "Add scalable income streams",
+      "Optimize tax positioning"
     ]
   },
   {
     level: 4,
     title: "Empire Builder",
-    headline: "Structure wins. Teams, leverage, and scale.",
+    audience: "Founders and operators scaling organizations",
+    access: "Premium",
+    headline: "Structure replaces hustle.",
     summary:
-      "This stage is about business systems, legal structure, and scaling with discipline. You build organizations, not just income.",
+      "Growth comes from systems, teams, and leverage. Risk management and governance become essential.",
     focus: [
-      "Business systems and SOPs",
-      "Delegation and team building",
-      "Legal structure and compliance mindset",
-      "Scaling distribution and partnerships"
+      "Operational systems",
+      "Delegation",
+      "Legal structure",
+      "KPI discipline"
     ],
     signals: [
-      "You think in processes, not hustle",
-      "You document and delegate",
-      "You track KPIs",
-      "You protect downside risk"
+      "Process-driven execution",
+      "Team reliance",
+      "Documented operations",
+      "Risk-aware scaling"
     ],
     nextMoves: [
-      "Build repeatable acquisition + delivery systems",
-      "Create a KPI dashboard",
-      "Strengthen contracts and structure",
-      "Recruit for key operational roles"
+      "Build SOPs",
+      "Install KPI dashboards",
+      "Strengthen contracts and compliance",
+      "Recruit operational leadership"
     ]
   },
   {
     level: 5,
     title: "Capital Architect",
-    headline: "You design capital. You own the game.",
+    audience: "Investors, fund builders, capital allocators",
+    access: "Invite / Institutional",
+    headline: "You design capital itself.",
     summary:
-      "You structure deals, raise capital, and control assets through governance, ownership, and long-horizon strategy.",
+      "At this level, capital structures, governance, and long-horizon strategy define success.",
     focus: [
       "Capital stack design",
-      "Fundraising and investor alignment",
+      "Investor alignment",
       "Portfolio construction",
-      "Institutional risk management"
+      "Governance architecture"
     ],
     signals: [
-      "You evaluate structure before opportunity",
-      "You understand equity and control",
-      "You design governance intentionally",
-      "You optimize for decades, not months"
+      "Structure-first thinking",
+      "Equity control awareness",
+      "Institutional mindset",
+      "Decade-long planning"
     ],
     nextMoves: [
-      "Build investor-ready documentation",
-      "Design repeatable diligence frameworks",
-      "Develop capital partnerships",
-      "Create governance that survives scale"
+      "Design capital vehicles",
+      "Prepare investor-grade documentation",
+      "Build governance frameworks",
+      "Expand strategic partnerships"
     ]
   }
 ]
 
-// Convenience helpers
+// Lookup helpers
 export const EDUNANCIAL_LEVELS_BY_LEVEL = Object.fromEntries(
   EDUNANCIAL_LEVELS.map((l) => [l.level, l])
 ) as Record<EdunancialLevel["level"], EdunancialLevel>
