@@ -1,27 +1,58 @@
 // netlify/functions/metrics-write.ts
-import { Handler } from "@netlify/functions";
+
+type Handler = (event: any, context: any) => Promise<{
+  statusCode: number;
+  headers?: Record<string, string>;
+  body: string;
+}>;
+
 import { recordMetric } from "../../lib/metrics-store";
-import { MetricRecord } from "../../lib/metrics-types";
+import type { MetricRecord } from "../../lib/metrics-types";
+
+const ADMIN_TOKEN = process.env.ADMIN_METRICS_TOKEN;
 
 export const handler: Handler = async (event) => {
-  try {
-    const token = event.headers["x-admin-token"];
-    if (token !== "INTERNAL_ONLY") {
-      return { statusCode: 403, body: "Forbidden" };
-    }
+  const auth = event.headers?.authorization || event.headers?.Authorization;
 
-    const data = JSON.parse(event.body || "{}") as MetricRecord;
-
-    recordMetric({
-      ...data,
-      timestamp: Date.now()
-    });
-
+  if (!ADMIN_TOKEN || auth !== `Bearer ${ADMIN_TOKEN}`) {
     return {
-      statusCode: 200,
-      body: JSON.stringify({ success: true })
+      statusCode: 401,
+      body: JSON.stringify({ error: "Unauthorized" }),
     };
-  } catch {
-    return { statusCode: 400, body: "Invalid payload" };
   }
+
+  if (!event.body) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: "Missing body" }),
+    };
+  }
+
+  let payload: MetricRecord;
+
+  try {
+    payload = JSON.parse(event.body);
+  } catch {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: "Invalid JSON" }),
+    };
+  }
+
+  try {
+    recordMetric(payload);
+  } catch (err) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "Failed to record metric" }),
+    };
+  }
+
+  return {
+    statusCode: 200,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ status: "ok" }),
+  };
 };
