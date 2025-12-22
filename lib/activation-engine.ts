@@ -1,24 +1,24 @@
 // lib/activation-engine.ts
 
 import { Level } from "./levels"
-import { getLevelAccess } from "./level-access"
+import { LevelAccess, getLevelAccess } from "./level-access"
 import { getRegionConfig } from "./regions"
 import { getPricingForLevel } from "./pricing"
 
 export type ActivationResult = {
   level: Level
   region: string
-  access: string
+  access: LevelAccess
   price: number
   currency: string
 }
 
 export function activateLevel(
   level: Level,
-  region: string
+  regionCode: string
 ): ActivationResult {
   const access = getLevelAccess(level)
-  const regionConfig = getRegionConfig(region)
+  const regionConfig = getRegionConfig(regionCode)
   const price = getPricingForLevel(level, regionConfig.code)
 
   return {
