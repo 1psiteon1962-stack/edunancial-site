@@ -1,8 +1,8 @@
 // lib/levels.ts
 
 export type EdunancialLevel = {
-  id: 1 | 2 | 3 | 4 | 5
-  name: string
+  level: 1 | 2 | 3 | 4 | 5
+  title: string
   headline: string
   summary: string
   focus: string[]
@@ -12,8 +12,8 @@ export type EdunancialLevel = {
 
 export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
   {
-    id: 1,
-    name: "Level 1 — Survival",
+    level: 1,
+    title: "Survival",
     headline: "Stability first. Cash control before growth.",
     summary:
       "This stage is about protecting the basics: predictable income, fewer emergencies, and a simple system that stops financial bleeding.",
@@ -37,8 +37,8 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
     ]
   },
   {
-    id: 2,
-    name: "Level 2 — Lifestyle",
+    level: 2,
+    title: "Lifestyle",
     headline: "You can breathe. Now build consistency.",
     summary:
       "You can cover your needs and some wants. The goal now is repeatability: consistent saving, stable routines, and fewer financial shocks.",
@@ -62,8 +62,8 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
     ]
   },
   {
-    id: 3,
-    name: "Level 3 — Wealth-Building",
+    level: 3,
+    title: "Wealth-Building",
     headline: "Systems + assets. Money starts working.",
     summary:
       "You’re building assets consistently. This stage is about disciplined investing, protecting capital, and expanding income streams.",
@@ -74,7 +74,7 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
       "Basic tax awareness"
     ],
     signals: [
-      "You invest regularly (even modestly)",
+      "You invest regularly",
       "You think in timelines (1–5 years)",
       "You track net worth",
       "You avoid emotional money decisions"
@@ -87,11 +87,11 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
     ]
   },
   {
-    id: 4,
-    name: "Level 4 — Empire Builder",
+    level: 4,
+    title: "Empire Builder",
     headline: "Structure wins. Teams, leverage, and scale.",
     summary:
-      "This stage is about business systems, legal/operational structure, and scaling with discipline. You build organizations, not just income.",
+      "This stage is about business systems, legal structure, and scaling with discipline. You build organizations, not just income.",
     focus: [
       "Business systems and SOPs",
       "Delegation and team building",
@@ -105,44 +105,44 @@ export const EDUNANCIAL_LEVELS: EdunancialLevel[] = [
       "You protect downside risk"
     ],
     nextMoves: [
-      "Build repeatable acquisition + delivery processes",
+      "Build repeatable acquisition + delivery systems",
       "Create a KPI dashboard",
-      "Strengthen contracts and operating structure",
-      "Recruit for key roles (ops, sales, finance)"
+      "Strengthen contracts and structure",
+      "Recruit for key operational roles"
     ]
   },
   {
-    id: 5,
-    name: "Level 5 — Capital Architect",
+    level: 5,
+    title: "Capital Architect",
     headline: "You design capital. You own the game.",
     summary:
-      "You structure deals, raise capital, and control assets through smart ownership, governance, and long-horizon strategy.",
+      "You structure deals, raise capital, and control assets through governance, ownership, and long-horizon strategy.",
     focus: [
-      "Capital stack and fundraising strategy",
-      "Governance, ownership, and control",
-      "Portfolio design across markets",
-      "Institutional-level risk controls"
+      "Capital stack design",
+      "Fundraising and investor alignment",
+      "Portfolio construction",
+      "Institutional risk management"
     ],
     signals: [
-      "You evaluate opportunities by structure, not hype",
-      "You understand equity, debt, and investor expectations",
-      "You build durable organizations and assets",
+      "You evaluate structure before opportunity",
+      "You understand equity and control",
+      "You design governance intentionally",
       "You optimize for decades, not months"
     ],
     nextMoves: [
-      "Design an investor-ready narrative and documentation",
-      "Develop repeatable due diligence checklists",
-      "Build partnerships with capital sources",
-      "Create governance that survives growth"
+      "Build investor-ready documentation",
+      "Design repeatable diligence frameworks",
+      "Develop capital partnerships",
+      "Create governance that survives scale"
     ]
   }
 ]
 
-// Optional convenience exports if other files expect them
-export const EDUNANCIAL_LEVELS_BY_ID = Object.fromEntries(
-  EDUNANCIAL_LEVELS.map((l) => [l.id, l])
-) as Record<EdunancialLevel["id"], EdunancialLevel>
+// Convenience helpers
+export const EDUNANCIAL_LEVELS_BY_LEVEL = Object.fromEntries(
+  EDUNANCIAL_LEVELS.map((l) => [l.level, l])
+) as Record<EdunancialLevel["level"], EdunancialLevel>
 
-export function getEdunancialLevel(id: EdunancialLevel["id"]) {
-  return EDUNANCIAL_LEVELS_BY_ID[id]
+export function getEdunancialLevel(level: EdunancialLevel["level"]) {
+  return EDUNANCIAL_LEVELS_BY_LEVEL[level]
 }
