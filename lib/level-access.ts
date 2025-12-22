@@ -1,47 +1,46 @@
 // lib/level-access.ts
 
-import { Level } from "./levels"
+import type { Level } from "./levels";
 
 export type LevelAccess = {
-  canViewContent: boolean
-  canAccessTools: boolean
-  canJoinLiveSessions: boolean
-  canRequestAdvisory: boolean
-}
+  canViewContent: boolean;
+  canAccessTools: boolean;
+  canJoinLiveSessions: boolean;
+};
 
 export const LEVEL_ACCESS: Record<Level, LevelAccess> = {
   free: {
     canViewContent: true,
     canAccessTools: false,
     canJoinLiveSessions: false,
-    canRequestAdvisory: false,
   },
-  basic: {
+  1: {
+    canViewContent: true,
+    canAccessTools: false,
+    canJoinLiveSessions: false,
+  },
+  2: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: false,
-    canRequestAdvisory: false,
   },
-  premium: {
+  3: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: true,
-    canRequestAdvisory: false,
   },
-  pro: {
+  4: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: true,
-    canRequestAdvisory: true,
   },
-  enterprise: {
+  5: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: true,
-    canRequestAdvisory: true,
   },
-}
+};
 
 export function getLevelAccess(level: Level): LevelAccess {
-  return LEVEL_ACCESS[level]
+  return LEVEL_ACCESS[level];
 }
