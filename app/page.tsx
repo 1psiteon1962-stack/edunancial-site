@@ -1,5 +1,8 @@
-import { redirect } from "next/navigation";
-
 export default function Home() {
-  redirect("/en");
+  return (
+    <main style={{ padding: "40px", fontFamily: "system-ui" }}>
+      <h1>EduNational</h1>
+      <p>Global education infrastructure in development.</p>
+    </main>
+  );
 }
