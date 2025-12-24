@@ -1,35 +1,30 @@
-import { AFRICA_DISCLAIMER } from "@/lib/disclaimers";
-
 export default function AfricaHome() {
   return (
-    <main style={{ padding: "2rem", maxWidth: "900px" }}>
-      <h1>Edunancial Africa</h1>
+    <section style={{ maxWidth: "900px" }}>
+      <h1>Market Frameworks for African Economies</h1>
 
       <p>
-        Edunancial Africa exists to help entrepreneurs, builders, and operators
-        understand business systems, capital structures, and economic realities
-        across rapidly growing African markets.
+        African markets operate under different capital structures, risk
+        environments, and infrastructure realities than Western economies.
       </p>
 
       <p>
-        We focus on clarity, structure, and long-term thinking — not speculation,
-        hype, or political narratives.
+        Edunancial Africa focuses on practical financial awareness, capital
+        discipline, and structured decision-making designed for regional
+        conditions across the continent.
       </p>
 
-      <section style={{ marginTop: "2rem" }}>
-        <h2>What We Focus On</h2>
-        <ul>
-          <li>Business formation & operational thinking</li>
-          <li>Capital awareness (not capital solicitation)</li>
-          <li>Risk, structure, and scalability</li>
-          <li>Cross-border business understanding</li>
-        </ul>
-      </section>
+      <ul>
+        <li>Capital flow and allocation awareness</li>
+        <li>Business structure and operational risk</li>
+        <li>Market-specific strategy models</li>
+        <li>Scalable frameworks adaptable by region</li>
+      </ul>
 
-      <section style={{ marginTop: "2rem", fontSize: "0.85rem" }}>
-        <strong>Important Notice</strong>
-        <p>{AFRICA_DISCLAIMER}</p>
-      </section>
-    </main>
+      <p>
+        Additional language support, including French and Arabic, will be
+        introduced in later phases.
+      </p>
+    </section>
   );
 }
