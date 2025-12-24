@@ -1,28 +1,17 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-export function middleware(req: NextRequest) {
-  const { pathname } = req.nextUrl;
-  const host = req.headers.get("host") || "";
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
 
-  // Only act on root path
-  if (pathname !== "/") {
+  // Africa mirror hard guard
+  if (pathname === "/africa") {
     return NextResponse.next();
   }
 
-  // LATAM mirror → Spanish
-  if (
-    host.includes("latam") ||
-    host.includes("mx") ||
-    host.includes("ar") ||
-    host.includes("co")
-  ) {
-    return NextResponse.redirect(new URL("/es", req.url));
-  }
-
-  // Default (US / global) → English
-  return NextResponse.redirect(new URL("/en", req.url));
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/"],
+  matcher: ["/africa/:path*"],
 };
