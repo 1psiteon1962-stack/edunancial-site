@@ -2,18 +2,16 @@
 
 /**
  * Supported platform languages.
- * This is intentionally explicit to enforce correctness
- * across regions, mirrors, and content resolution.
+ * Explicit union to prevent silent TypeScript drift.
  */
 export type Language =
   | "en" // English
-  | "es" // Spanish (LATAM, Caribbean)
+  | "es" // Spanish (LATAM / Caribbean)
   | "fr" // French (Africa)
-  | "ar"; // Arabic (Africa, MENA)
+  | "ar"; // Arabic (Africa / MENA)
 
 /**
  * Default language per regional mirror.
- * Used for initial routing, SEO defaults, and content resolution.
  */
 export const DEFAULT_LANGUAGE_BY_REGION: Record<
   "US" | "LATAM" | "AFRICA",
@@ -25,7 +23,7 @@ export const DEFAULT_LANGUAGE_BY_REGION: Record<
 };
 
 /**
- * Optional helper for validation or future expansion
+ * Canonical list for validation, routing, and SEO control.
  */
 export const SUPPORTED_LANGUAGES: readonly Language[] = [
   "en",
