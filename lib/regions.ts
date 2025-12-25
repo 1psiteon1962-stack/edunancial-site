@@ -1,40 +1,35 @@
 // lib/regions.ts
 
+import { Language } from "./language";
+
 export type Region = {
-  id: string;
+  id: "US" | "LATAM" | "AFRICA";
   name: string;
-  description: string;
-  languages: string[];
-  isActive: boolean;
+  defaultLanguage: Language;
 };
 
 export const regions: Region[] = [
   {
-    id: "us",
+    id: "US",
     name: "United States",
-    description:
-      "Primary reference market for legal, financial, and operational frameworks.",
-    languages: ["en", "es"],
-    isActive: true,
+    defaultLanguage: "en",
   },
   {
-    id: "africa",
-    name: "Africa",
-    description:
-      "Multi-market region emphasizing infrastructure formation, demographic growth, and capital absorption models.",
-    languages: ["en", "fr", "ar"],
-    isActive: true,
-  },
-  {
-    id: "latam",
+    id: "LATAM",
     name: "Latin America",
-    description:
-      "Regional markets with hybrid legal systems, currency exposure, and export-driven growth patterns.",
-    languages: ["es", "en", "pt"],
-    isActive: true,
+    defaultLanguage: "es",
+  },
+  {
+    id: "AFRICA",
+    name: "Africa",
+    defaultLanguage: "en",
   },
 ];
 
+/**
+ * Named export required by content-resolver.
+ * No defaults. No ambiguity.
+ */
 export function resolveRegion(id: string): Region | undefined {
   return regions.find((region) => region.id === id);
 }
