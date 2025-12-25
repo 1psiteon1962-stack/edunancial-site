@@ -6,6 +6,12 @@ import {
   Language,
 } from "@/lib/i18n";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return REGION_LANGUAGES.AFRICA.map((lang) => ({ lang }));
+}
+
 type Props = {
   params: { lang: Language };
 };
