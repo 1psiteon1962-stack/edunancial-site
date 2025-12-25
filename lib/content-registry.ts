@@ -1,25 +1,36 @@
-import type { Region } from "./region-resolver";
+// lib/content-resolver.ts
 
-export type Content = {
-  title: string;
-  description: string;
+import { resolveRegion, Region } from "./regions";
+import { Language, DEFAULT_LANGUAGE_BY_REGION } from "./language";
+
+export type PageContent = {
+  heroTitle: string;
+  heroSubtitle: string;
+  region: Region;
+  language: Language;
 };
 
-const CONTENT: Record<Region, Content> = {
-  NA: {
-    title: "Welcome to Edunancial",
-    description: "Financial education built for real-world outcomes."
-  },
-  EU: {
-    title: "Welcome to Edunancial (EU)",
-    description: "Practical financial literacy for European markets."
-  },
-  ASIA: {
-    title: "Welcome to Edunancial (Asia)",
-    description: "Education-first finance for Asia-Pacific regions."
-  }
-};
+/**
+ * Single authoritative content resolver.
+ * No education claims. No advice language.
+ */
+export function resolvePageContent(
+  regionId: string,
+  languageOverride?: Language
+): PageContent {
+  const region =
+    resolveRegion(regionId) ??
+    resolveRegion("US")!;
 
-export function getContent(region: Region): Content {
-  return CONTENT[region];
+  const language =
+    languageOverride ??
+    DEFAULT_LANGUAGE_BY_REGION[region.id];
+
+  return {
+    heroTitle: "Edunancial",
+    heroSubtitle:
+      "Global knowledge and infrastructure systems for real-world economic environments.",
+    region,
+    language,
+  };
 }
