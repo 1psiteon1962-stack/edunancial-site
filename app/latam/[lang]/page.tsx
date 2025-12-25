@@ -6,6 +6,12 @@ import {
   Language,
 } from "@/lib/i18n";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return REGION_LANGUAGES.LATAM.map((lang) => ({ lang }));
+}
+
 type Props = {
   params: { lang: Language };
 };
@@ -39,7 +45,7 @@ export default function LatamPage({ params }: Props) {
       <hr style={{ margin: "2rem 0" }} />
 
       <nav>
-        <strong>Language:</strong>{" "}
+        <strong>Idioma / Language:</strong>{" "}
         {REGION_LANGUAGES.LATAM.map((l) => (
           <a
             key={l}
