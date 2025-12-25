@@ -2,22 +2,14 @@
 
 import { notFound } from "next/navigation";
 
-/**
- * Supported languages for EU mirror
- * Fully enumerated for static export
- */
-const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es"] as const;
-
+const SUPPORTED_LANGUAGES = ["en", "fr", "de"] as const;
 type Lang = (typeof SUPPORTED_LANGUAGES)[number];
 
-/**
- * REQUIRED for Next.js static export
- */
 export function generateStaticParams() {
   return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
 }
 
-export default function EuPage({
+export default function EuropePage({
   params,
 }: {
   params: { lang: string };
@@ -33,25 +25,31 @@ export default function EuPage({
       <h1>Edunancial — Europe</h1>
 
       <p>
-        Edunancial operates a global knowledge and infrastructure platform
-        designed to help individuals, entrepreneurs, and organizations better
-        understand how modern economic systems function in real-world
-        environments.
+        This regional mirror focuses on operating within highly regulated,
+        multi-jurisdictional markets where compliance, durability, and capital
+        efficiency determine long-term success.
       </p>
 
       <p>
-        The Europe mirror focuses on regulatory alignment, cross-border
-        operations, capital mobility, compliance-aware growth, and the practical
-        realities of operating across multiple sovereign and supranational
-        systems.
+        Content addresses enterprise structure, cross-border operations,
+        taxation friction, labor constraints, and scale under legal symmetry.
       </p>
 
       <p>
-        Rather than generalized instruction or advice, Edunancial deploys
-        modular frameworks and reference models that can be adapted, localized,
-        and scaled to reflect European market conditions while maintaining a
-        consistent strategic core.
+        Edunancial provides analytical frameworks only — not advice — enabling
+        users to understand trade-offs inherent to European business systems.
       </p>
 
       <p>
-        Language selected
+        Language selected: <strong>{lang.toUpperCase()}</strong>
+      </p>
+
+      <footer style={{ marginTop: "4rem", fontSize: "0.85rem", opacity: 0.7 }}>
+        <p>
+          Intellectual property owned by Caban International Holdings, Inc. and
+          licensed for regional presentation.
+        </p>
+      </footer>
+    </main>
+  );
+}
