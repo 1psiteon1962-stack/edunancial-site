@@ -1,70 +1,69 @@
-// app/africa/[lang]/page.tsx
-
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 /**
- * Supported languages for Africa mirror
- * IMPORTANT:
- * - Must enumerate ALL languages at build time
- * - Required for `output: 'export'`
- */
-const SUPPORTED_LANGUAGES = ["en", "fr", "pt"] as const;
-
-type Lang = (typeof SUPPORTED_LANGUAGES)[number];
-
-/**
  * REQUIRED for Next.js static export
- * This is what fixed your Netlify failure.
+ * Enumerate every language that may exist at build time
  */
 export function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
+  return [
+    { lang: "en" },
+    { lang: "fr" },
+    { lang: "ar" },
+  ];
 }
 
-export default function AfricaPage({
-  params,
-}: {
-  params: { lang: string };
-}) {
-  const lang = params.lang as Lang;
+export default function Page({ params }: { params: { lang: string } }) {
+  const { lang } = params;
 
-  if (!SUPPORTED_LANGUAGES.includes(lang)) {
+  if (!["en", "fr", "ar"].includes(lang)) {
     notFound();
   }
 
+  const content =
+    lang === "fr"
+      ? {
+          title: "Edunancial — Afrique",
+          subtitle:
+            "Structure, stabilité et systèmes pratiques pour des économies en croissance.",
+          body:
+            "Nous nous concentrons sur la clarté financière, la réduction des risques et la construction de systèmes reproductibles dans des environnements en évolution.",
+        }
+      : lang === "ar"
+      ? {
+          title: "Edunancial — أفريقيا",
+          subtitle:
+            "الهياكل والانضباط والأنظمة العملية للنمو في الأسواق المتغيرة.",
+          body:
+            "نركز على وضوح رأس المال وتقليل المخاطر وبناء أنظمة قابلة للتوسع.",
+        }
+      : {
+          title: "Edunancial — Africa",
+          subtitle:
+            "Structure, stability, and practical systems for emerging markets.",
+          body:
+            "We focus on capital clarity, risk reduction, and repeatable systems that scale across changing economic environments.",
+        };
+
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "2rem" }}>
-      <h1>Edunancial — Africa</h1>
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "2rem",
+      }}
+    >
+      {/* Language Switch */}
+      <div style={{ marginBottom: "1rem" }}>
+        <Link href="/africa/en">EN</Link>{" | "}
+        <Link href="/africa/fr">FR</Link>{" | "}
+        <Link href="/africa/ar">AR</Link>
+      </div>
 
-      <p>
-        Edunancial operates a global knowledge and infrastructure platform
-        designed to help individuals, entrepreneurs, and organizations better
-        understand how modern economic systems function in real-world
-        environments.
-      </p>
+      <h1>{content.title}</h1>
+      <h3>{content.subtitle}</h3>
 
-      <p>
-        The Africa mirror focuses on market structure, capital formation,
-        institutional readiness, and growth pathways specific to emerging and
-        frontier economies across the continent.
-      </p>
-
-      <p>
-        Rather than generalized instruction or advice, Edunancial deploys
-        modular frameworks and reference models that can be localized and scaled
-        to reflect regional realities while maintaining a consistent strategic
-        core.
-      </p>
-
-      <p>
-        Language selected: <strong>{lang.toUpperCase()}</strong>
-      </p>
-
-      <footer style={{ marginTop: "4rem", fontSize: "0.85rem", opacity: 0.7 }}>
-        <p>
-          Edunancial is a platform operated under license from Caban
-          International Holdings, Inc.
-        </p>
-      </footer>
+      <p>{content.body}</p>
     </main>
   );
 }
