@@ -2,8 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 /**
- * REQUIRED for Next.js static export
- * Enumerate all languages at build time
+ * REQUIRED for output: 'export'
  */
 export function generateStaticParams() {
   return [
@@ -20,20 +19,20 @@ export default function Page({ params }: { params: { lang: string } }) {
   }
 
   const content =
-    lang === "en"
+    lang === "es"
       ? {
-          title: "Edunancial — Latin America",
-          subtitle:
-            "Capital structure, stability, and practical systems in evolving economies.",
-          body:
-            "We focus on disciplined capital management, system design, and long-term resilience in dynamic regional markets.",
-        }
-      : {
           title: "Edunancial — América Latina",
           subtitle:
-            "Estructura de capital, estabilidad y sistemas prácticos para economías en evolución.",
+            "Estructura financiera, disciplina y crecimiento sostenible.",
           body:
-            "Nos enfocamos en disciplina financiera, diseño de sistemas y resiliencia a largo plazo en mercados regionales dinámicos.",
+            "Apoyamos a emprendedores y empresas en América Latina con modelos financieros claros, gobernanza sólida y expansión responsable.",
+        }
+      : {
+          title: "Edunancial — Latin America",
+          subtitle:
+            "Financial structure, discipline, and sustainable growth.",
+          body:
+            "We support entrepreneurs and businesses across Latin America with clear financial models, governance, and responsible expansion.",
         };
 
   return (
@@ -44,7 +43,7 @@ export default function Page({ params }: { params: { lang: string } }) {
         padding: "2rem",
       }}
     >
-      {/* Language Switch */}
+      {/* Language Toggle */}
       <div style={{ marginBottom: "1rem" }}>
         <Link href="/latam/es">ES</Link>{" | "}
         <Link href="/latam/en">EN</Link>
