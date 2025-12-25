@@ -3,15 +3,13 @@
 import { notFound } from "next/navigation";
 
 /**
- * Supported languages for Latin America mirror
- * MUST be fully enumerated for static export
+ * Supported languages for LATAM mirror
  */
-const SUPPORTED_LANGUAGES = ["es", "pt", "en"] as const;
-
+const SUPPORTED_LANGUAGES = ["es", "en"] as const;
 type Lang = (typeof SUPPORTED_LANGUAGES)[number];
 
 /**
- * REQUIRED for Next.js static export (`output: 'export'`)
+ * Required for static export
  */
 export function generateStaticParams() {
   return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
@@ -33,23 +31,19 @@ export default function LatamPage({
       <h1>Edunancial — Latin America</h1>
 
       <p>
-        Edunancial operates a global knowledge and infrastructure platform
-        designed to help individuals, entrepreneurs, and organizations better
-        understand how modern economic systems function in real-world
-        environments.
-      </p>
-
-      <p>
         The Latin America mirror focuses on capital access, informal-to-formal
-        transition, cross-border commerce, currency dynamics, and scalable
-        business structures across emerging and middle-income economies.
+        transition, currency risk, entrepreneurship under constraint, and
+        regional scaling realities.
       </p>
 
       <p>
-        Rather than generalized instruction or advice, Edunancial deploys
-        modular frameworks and reference models that can be adapted, localized,
-        and scaled to reflect regional market conditions while maintaining a
-        consistent strategic core.
+        Content is designed for founders and operators navigating volatility,
+        limited institutional support, and fragmented financial systems.
+      </p>
+
+      <p>
+        Edunancial provides structural clarity — helping users evaluate paths to
+        stability, growth, and cross-border opportunity.
       </p>
 
       <p>
@@ -58,8 +52,8 @@ export default function LatamPage({
 
       <footer style={{ marginTop: "4rem", fontSize: "0.85rem", opacity: 0.7 }}>
         <p>
-          Edunancial is a platform operated under license from Caban
-          International Holdings, Inc.
+          All intellectual property is owned by Caban International Holdings,
+          Inc. and licensed regionally.
         </p>
       </footer>
     </main>
