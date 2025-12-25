@@ -1,55 +1,59 @@
-// app/eu/[lang]/page.tsx
-
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
-const SUPPORTED_LANGUAGES = ["en", "fr", "de"] as const;
-type Lang = (typeof SUPPORTED_LANGUAGES)[number];
-
+/**
+ * Required for static export
+ */
 export function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
+  return [{ lang: "en" }, { lang: "fr" }];
 }
 
-export default function EuropePage({
+export default function Page({
   params,
 }: {
   params: { lang: string };
 }) {
-  const lang = params.lang as Lang;
+  const { lang } = params;
 
-  if (!SUPPORTED_LANGUAGES.includes(lang)) {
+  if (!["en", "fr"].includes(lang)) {
     notFound();
   }
 
+  const content = {
+    en: {
+      title: "Edunancial — Europe",
+      subtitle:
+        "Capital structure, governance, and scalable systems.",
+      body:
+        "Edunancial focuses on durability, compliance awareness, and cross-border capital logic.",
+    },
+    fr: {
+      title: "Edunancial — Europe",
+      subtitle:
+        "Structure du capital, gouvernance et systèmes évolutifs.",
+      body:
+        "Edunancial se concentre sur la durabilité, la conformité et la logique du capital transfrontalier.",
+    },
+  }[lang];
+
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "2rem" }}>
-      <h1>Edunancial — Europe</h1>
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "2rem",
+      }}
+    >
+      {/* Language Switch */}
+      <div style={{ textAlign: "right", marginBottom: "1rem" }}>
+        <Link href="/eu/en">EN</Link> |{" "}
+        <Link href="/eu/fr">FR</Link>
+      </div>
 
-      <p>
-        This regional mirror focuses on operating within highly regulated,
-        multi-jurisdictional markets where compliance, durability, and capital
-        efficiency determine long-term success.
-      </p>
+      <h1>{content.title}</h1>
+      <h3>{content.subtitle}</h3>
 
-      <p>
-        Content addresses enterprise structure, cross-border operations,
-        taxation friction, labor constraints, and scale under legal symmetry.
-      </p>
-
-      <p>
-        Edunancial provides analytical frameworks only — not advice — enabling
-        users to understand trade-offs inherent to European business systems.
-      </p>
-
-      <p>
-        Language selected: <strong>{lang.toUpperCase()}</strong>
-      </p>
-
-      <footer style={{ marginTop: "4rem", fontSize: "0.85rem", opacity: 0.7 }}>
-        <p>
-          Intellectual property owned by Caban International Holdings, Inc. and
-          licensed for regional presentation.
-        </p>
-      </footer>
+      <p>{content.body}</p>
     </main>
   );
 }
