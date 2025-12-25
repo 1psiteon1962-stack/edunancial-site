@@ -1,8 +1,1 @@
-# --- FORCE CANONICAL WITHOUT HARD REDIRECTS ---
-/*  /index.html  200
-
-# --- SOFT MIRROR HANDLING ---
-/pr/*  /index.html  200
-/es/*  /index.html  200
-/latam/*  /index.html  200
-/eu/*  /index.html  200
+/*    /index.html   200
