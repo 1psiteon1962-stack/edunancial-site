@@ -2,39 +2,39 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 /**
- * REQUIRED for Netlify static export
+ * REQUIRED for Next.js static export
+ * Enumerate all languages at build time
  */
 export function generateStaticParams() {
-  return [{ lang: "es" }, { lang: "en" }];
+  return [
+    { lang: "es" },
+    { lang: "en" },
+  ];
 }
 
-export default function Page({
-  params,
-}: {
-  params: { lang: string };
-}) {
+export default function Page({ params }: { params: { lang: string } }) {
   const { lang } = params;
 
   if (!["es", "en"].includes(lang)) {
     notFound();
   }
 
-  const content = {
-    es: {
-      title: "Edunancial — América Latina",
-      subtitle:
-        "Estructura financiera, sistemas prácticos y disciplina de capital.",
-      body:
-        "Edunancial no es teoría. Es un marco operativo diseñado para realidades económicas variables.",
-    },
-    en: {
-      title: "Edunancial — Latin America",
-      subtitle:
-        "Financial structure, practical systems, and capital discipline.",
-      body:
-        "Edunancial is not theory. It is an operating framework designed for uneven economic conditions.",
-    },
-  }[lang];
+  const content =
+    lang === "en"
+      ? {
+          title: "Edunancial — Latin America",
+          subtitle:
+            "Capital structure, stability, and practical systems in evolving economies.",
+          body:
+            "We focus on disciplined capital management, system design, and long-term resilience in dynamic regional markets.",
+        }
+      : {
+          title: "Edunancial — América Latina",
+          subtitle:
+            "Estructura de capital, estabilidad y sistemas prácticos para economías en evolución.",
+          body:
+            "Nos enfocamos en disciplina financiera, diseño de sistemas y resiliencia a largo plazo en mercados regionales dinámicos.",
+        };
 
   return (
     <main
@@ -45,8 +45,8 @@ export default function Page({
       }}
     >
       {/* Language Switch */}
-      <div style={{ textAlign: "right", marginBottom: "1rem" }}>
-        <Link href="/latam/es">ES</Link> |{" "}
+      <div style={{ marginBottom: "1rem" }}>
+        <Link href="/latam/es">ES</Link>{" | "}
         <Link href="/latam/en">EN</Link>
       </div>
 
