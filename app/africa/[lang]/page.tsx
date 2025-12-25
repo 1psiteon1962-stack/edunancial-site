@@ -2,8 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 /**
- * REQUIRED for Next.js static export
- * Enumerate every language that may exist at build time
+ * REQUIRED for output: 'export'
+ * Do NOT remove
  */
 export function generateStaticParams() {
   return [
@@ -23,34 +23,39 @@ export default function Page({ params }: { params: { lang: string } }) {
   const content =
     lang === "fr"
       ? {
+          dir: "ltr",
           title: "Edunancial — Afrique",
           subtitle:
-            "Structure, stabilité et systèmes pratiques pour des économies en croissance.",
+            "Structure financière, discipline et croissance durable.",
           body:
-            "Nous nous concentrons sur la clarté financière, la réduction des risques et la construction de systèmes reproductibles dans des environnements en évolution.",
+            "Nous accompagnons les entrepreneurs et les entreprises africaines avec des cadres financiers solides, une gouvernance claire et des stratégies d’expansion responsables.",
         }
       : lang === "ar"
       ? {
-          title: "Edunancial — أفريقيا",
+          dir: "rtl",
+          title: "إدونانشال — أفريقيا",
           subtitle:
-            "الهياكل والانضباط والأنظمة العملية للنمو في الأسواق المتغيرة.",
+            "الهيكلة المالية والانضباط والنمو المستدام.",
           body:
-            "نركز على وضوح رأس المال وتقليل المخاطر وبناء أنظمة قابلة للتوسع.",
+            "ندعم رواد الأعمال والشركات في أفريقيا من خلال نماذج مالية واضحة وحوكمة قوية وتوسع مسؤول.",
         }
       : {
+          dir: "ltr",
           title: "Edunancial — Africa",
           subtitle:
-            "Structure, stability, and practical systems for emerging markets.",
+            "Financial structure, discipline, and sustainable growth.",
           body:
-            "We focus on capital clarity, risk reduction, and repeatable systems that scale across changing economic environments.",
+            "We support entrepreneurs and businesses across Africa with clear financial models, strong governance, and responsible expansion strategies.",
         };
 
   return (
     <main
+      dir={content.dir}
       style={{
         maxWidth: "900px",
         margin: "0 auto",
         padding: "2rem",
+        textAlign: content.dir === "rtl" ? "right" : "left",
       }}
     >
       {/* Language Switch */}
