@@ -1,36 +1,47 @@
-type Props = {
-  params: {
-    lang: string;
-  };
-};
+import { notFound } from "next/navigation";
 
-export default function AfricaLanguageHome({ params }: Props) {
+type Lang = "en" | "fr" | "pt";
+
+/**
+ * REQUIRED for `output: 'export'`
+ * Netlify / Next must know ALL dynamic routes at build time.
+ */
+export async function generateStaticParams(): Promise<{ lang: Lang }[]> {
+  return [
+    { lang: "en" },
+    { lang: "fr" },
+    { lang: "pt" },
+  ];
+}
+
+export default function AfricaLangPage({
+  params,
+}: {
+  params: { lang: Lang };
+}) {
   const { lang } = params;
 
+  if (!["en", "fr", "pt"].includes(lang)) {
+    notFound();
+  }
+
   return (
-    <section style={{ maxWidth: "900px" }}>
-      <h1>Market Frameworks for African Economies</h1>
+    <main style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
+      <h1>Africa Platform</h1>
 
       <p>
-        This Africa mirror adapts Edunancial’s capital awareness and decision
-        frameworks for regional economic conditions across the continent.
+        This regional platform focuses on infrastructure literacy, capital
+        readiness, and operational systems relevant to African markets.
       </p>
 
       <p>
-        Current language: <strong>{lang.toUpperCase()}</strong>
+        Content is localized by language while maintaining a consistent global
+        strategic framework.
       </p>
-
-      <ul>
-        <li>Capital flow awareness</li>
-        <li>Risk-adjusted business structuring</li>
-        <li>Market-specific operational models</li>
-        <li>Scalable frameworks for emerging economies</li>
-      </ul>
 
       <p>
-        Additional localized language versions will be introduced as regional
-        deployments expand.
+        <strong>Language:</strong> {lang.toUpperCase()}
       </p>
-    </section>
+    </main>
   );
 }
