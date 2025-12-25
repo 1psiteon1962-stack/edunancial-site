@@ -1,58 +1,55 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import {
+  resolveCopy,
+  REGION_LANGUAGES,
+  DEFAULT_LANGUAGE,
+  Language,
+} from "@/lib/i18n";
 
-/**
- * REQUIRED for output: 'export'
- */
-export function generateStaticParams() {
-  return [
-    { lang: "es" },
-    { lang: "en" },
-  ];
-}
+type Props = {
+  params: { lang: Language };
+};
 
-export default function Page({ params }: { params: { lang: string } }) {
+export default function LatamPage({ params }: Props) {
   const { lang } = params;
 
-  if (!["es", "en"].includes(lang)) {
+  if (!REGION_LANGUAGES.LATAM.includes(lang)) {
     notFound();
   }
 
-  const content =
-    lang === "es"
-      ? {
-          title: "Edunancial — América Latina",
-          subtitle:
-            "Estructura financiera, disciplina y crecimiento sostenible.",
-          body:
-            "Apoyamos a emprendedores y empresas en América Latina con modelos financieros claros, gobernanza sólida y expansión responsable.",
-        }
-      : {
-          title: "Edunancial — Latin America",
-          subtitle:
-            "Financial structure, discipline, and sustainable growth.",
-          body:
-            "We support entrepreneurs and businesses across Latin America with clear financial models, governance, and responsible expansion.",
-        };
+  const copy =
+    resolveCopy("LATAM", lang) ??
+    resolveCopy("LATAM", DEFAULT_LANGUAGE.LATAM);
+
+  if (!copy) notFound();
 
   return (
     <main
+      dir={copy.dir}
       style={{
         maxWidth: "900px",
         margin: "0 auto",
         padding: "2rem",
       }}
     >
-      {/* Language Toggle */}
-      <div style={{ marginBottom: "1rem" }}>
-        <Link href="/latam/es">ES</Link>{" | "}
-        <Link href="/latam/en">EN</Link>
-      </div>
+      <h1>{copy.title}</h1>
+      <h3>{copy.subtitle}</h3>
+      <p>{copy.body}</p>
 
-      <h1>{content.title}</h1>
-      <h3>{content.subtitle}</h3>
+      <hr style={{ margin: "2rem 0" }} />
 
-      <p>{content.body}</p>
+      <nav>
+        <strong>Language:</strong>{" "}
+        {REGION_LANGUAGES.LATAM.map((l) => (
+          <a
+            key={l}
+            href={`/latam/${l}`}
+            style={{ marginRight: "1rem" }}
+          >
+            {l.toUpperCase()}
+          </a>
+        ))}
+      </nav>
     </main>
   );
 }
