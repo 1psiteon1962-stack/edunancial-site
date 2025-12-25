@@ -1,54 +1,61 @@
-// app/mena/[lang]/page.tsx
-
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
-const SUPPORTED_LANGUAGES = ["en", "ar"] as const;
-type Lang = (typeof SUPPORTED_LANGUAGES)[number];
-
+/**
+ * Required for Next.js static export
+ */
 export function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
+  return [{ lang: "ar" }, { lang: "en" }];
 }
 
-export default function MenaPage({
+export default function Page({
   params,
 }: {
   params: { lang: string };
 }) {
-  const lang = params.lang as Lang;
+  const { lang } = params;
 
-  if (!SUPPORTED_LANGUAGES.includes(lang)) {
+  if (!["ar", "en"].includes(lang)) {
     notFound();
   }
 
+  const content = {
+    ar: {
+      title: "إيدونانشال — الشرق الأوسط وشمال أفريقيا",
+      subtitle:
+        "هيكلة مالية، أنظمة عملية، وانضباط في رأس المال.",
+      body:
+        "إيدونانشال ليس نظريًا. إنه إطار تشغيلي مصمم لبيئات اقتصادية غير مستقرة.",
+    },
+    en: {
+      title: "Edunancial — MENA",
+      subtitle:
+        "Financial structure, practical systems, and capital discipline.",
+      body:
+        "Edunancial is not theory. It is an operating framework designed for volatile economic regions.",
+    },
+  }[lang];
+
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "2rem" }}>
-      <h1>Edunancial — Middle East & North Africa</h1>
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "2rem",
+        direction: lang === "ar" ? "rtl" : "ltr",
+        textAlign: lang === "ar" ? "right" : "left",
+      }}
+    >
+      {/* Language Switch */}
+      <div style={{ marginBottom: "1rem" }}>
+        <Link href="/mena/ar">AR</Link> |{" "}
+        <Link href="/mena/en">EN</Link>
+      </div>
 
-      <p>
-        This mirror focuses on capital concentration, family-office structures,
-        sovereign influence, energy economics, and cross-border investment
-        realities.
-      </p>
+      <h1>{content.title}</h1>
+      <h3>{content.subtitle}</h3>
 
-      <p>
-        Content emphasizes operating where regulatory discretion, political
-        exposure, and capital velocity shape enterprise outcomes.
-      </p>
-
-      <p>
-        Edunancial provides strategic literacy frameworks — not financial,
-        legal, or investment advice.
-      </p>
-
-      <p>
-        Language selected: <strong>{lang.toUpperCase()}</strong>
-      </p>
-
-      <footer style={{ marginTop: "4rem", fontSize: "0.85rem", opacity: 0.7 }}>
-        <p>
-          All content licensed from Caban International Holdings, Inc.
-        </p>
-      </footer>
+      <p>{content.body}</p>
     </main>
   );
 }
