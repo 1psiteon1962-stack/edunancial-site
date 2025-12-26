@@ -1,64 +1,49 @@
 // lib/i18n.ts
 
-/* =======================
-   TYPES
-======================= */
-
 export type Language = "en" | "es" | "fr" | "ar";
+export type Region = "US" | "LATAM" | "EU" | "AFRICA" | "MENA";
 
-export type Region =
-  | "US"
-  | "LATAM"
-  | "AFRICA"
-  | "EU"
-  | "MENA";
-
-/* =======================
-   DEFAULTS
-======================= */
-
-// Global fallback (used only if region-specific logic fails)
-export const DEFAULT_LANGUAGE: Language = "en";
-
-// Per-region canonical defaults
-export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
-  US: "en",
-  LATAM: "es",
-  AFRICA: "en",
-  EU: "en",
-  MENA: "ar",
-};
-
-/* =======================
-   REGION → LANGUAGES
-======================= */
-
-export const REGION_LANGUAGES: Record<Region, Language[]> = {
-  US: ["en"],
-  LATAM: ["es", "en"],
-  AFRICA: ["en", "fr"],
-  EU: ["en", "fr"],
-  MENA: ["ar", "en"],
-};
-
-/* =======================
-   COPY STRUCTURE
-======================= */
-
-type Copy = {
+export type CopyContent = {
   title: string;
   subtitle: string;
   body: string;
   dir: "ltr" | "rtl";
 };
 
-const COPY: Record<Region, Record<Language, Copy>> = {
+/**
+ * Languages allowed per region
+ */
+export const REGION_LANGUAGES: Record<Region, Language[]> = {
+  US: ["en"],
+  LATAM: ["es", "en"],
+  EU: ["en", "fr"],
+  AFRICA: ["en", "fr"],
+  MENA: ["ar", "en"],
+};
+
+/**
+ * Default language per region
+ */
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  US: "en",
+  LATAM: "es",
+  EU: "en",
+  AFRICA: "en",
+  MENA: "ar",
+};
+
+/**
+ * Copy dictionary
+ * NOTE: Partial is intentional — not all regions must be populated yet
+ */
+const COPY: Partial<
+  Record<Region, Partial<Record<Language, CopyContent>>>
+> = {
   US: {
     en: {
       title: "Edunancial",
       subtitle: "Capital literacy for real-world economies",
-      body:
-        "We focus on structure, capital access, and execution — not theory.",
+      body: "Building financial intelligence for a global generation.",
       dir: "ltr",
     },
   },
@@ -66,83 +51,67 @@ const COPY: Record<Region, Record<Language, Copy>> = {
   LATAM: {
     es: {
       title: "Edunancial",
-      subtitle: "Estructura, capital y ejecución",
-      body:
-        "Acceso al capital, sistemas reales y pensamiento estratégico.",
+      subtitle: "Educación financiera para economías reales",
+      body: "Construyendo inteligencia financiera para una generación global.",
       dir: "ltr",
     },
     en: {
       title: "Edunancial",
-      subtitle: "Capital literacy for emerging markets",
-      body:
-        "Cross-border structure and disciplined execution.",
-      dir: "ltr",
-    },
-  },
-
-  AFRICA: {
-    en: {
-      title: "Edunancial",
-      subtitle: "Structure before scale",
-      body:
-        "Capital follows structure. We focus on durability, not hype.",
-      dir: "ltr",
-    },
-    fr: {
-      title: "Edunancial",
-      subtitle: "Structure avant l’expansion",
-      body:
-        "Le capital suit la structure, pas l’inverse.",
+      subtitle: "Capital literacy for Latin America",
+      body: "Financial education adapted to regional realities.",
       dir: "ltr",
     },
   },
 
   EU: {
     en: {
-      title: "Edunancial",
-      subtitle: "Cross-border capital intelligence",
-      body:
-        "Understanding capital flows across regulatory environments.",
+      title: "Edunancial Europe",
+      subtitle: "Capital literacy for European markets",
+      body: "Financial education aligned with EU regulatory and economic systems.",
       dir: "ltr",
     },
     fr: {
-      title: "Edunancial",
-      subtitle: "Intelligence du capital transfrontalier",
-      body:
-        "Navigation entre juridictions et structures financières.",
+      title: "Edunancial Europe",
+      subtitle: "Éducation financière pour les marchés européens",
+      body: "Une approche structurée de la littératie financière en Europe.",
+      dir: "ltr",
+    },
+  },
+
+  AFRICA: {
+    en: {
+      title: "Edunancial Africa",
+      subtitle: "Capital literacy for emerging markets",
+      body: "Financial education designed for growth economies.",
+      dir: "ltr",
+    },
+    fr: {
+      title: "Edunancial Afrique",
+      subtitle: "Éducation financière pour les marchés émergents",
+      body: "Formation financière adaptée aux économies en croissance.",
       dir: "ltr",
     },
   },
 
   MENA: {
     ar: {
-      title: "Edunancial",
-      subtitle: "الهيكلة قبل التوسع",
-      body:
-        "رأس المال يتبع الهيكل، وليس العكس.",
+      title: "إيدونانشال",
+      subtitle: "الثقافة المالية للأسواق الإقليمية",
+      body: "التعليم المالي المصمم للاقتصادات الواقعية.",
       dir: "rtl",
     },
     en: {
-      title: "Edunancial",
-      subtitle: "Structure-first capital thinking",
-      body:
-        "Durable systems across regions.",
+      title: "Edunancial MENA",
+      subtitle: "Capital literacy for the Middle East & North Africa",
+      body: "Financial education aligned with regional systems.",
       dir: "ltr",
     },
   },
 };
 
-/* =======================
-   RESOLVER
-======================= */
-
-export function resolveCopy(
-  region: Region,
-  language: Language
-): Copy {
-  return (
-    COPY[region][language] ??
-    COPY[region][DEFAULT_LANGUAGE_BY_REGION[region]] ??
-    COPY[region][DEFAULT_LANGUAGE]
-  );
+/**
+ * Resolve copy safely
+ */
+export function resolveCopy(region: Region, lang: Language) {
+  return COPY[region]?.[lang];
 }
