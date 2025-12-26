@@ -1,140 +1,95 @@
-/**
- * Centralized language + content registry
- * Static-export safe
- * Netlify safe
- */
+// lib/i18n.ts
 
+export type Region = "US" | "LATAM" | "AFRICA";
 export type Language = "en" | "es" | "fr" | "ar";
 
-export type Region =
-  | "US"
-  | "LATAM"
-  | "AFRICA"
-  | "EU"
-  | "MENA";
-
-export const REGION_LANGUAGES: Record<Region, Language[]> = {
-  US: ["en"],
-  LATAM: ["es", "en"],
-  AFRICA: ["en", "fr", "ar"],
-  EU: ["en"],
-  MENA: ["ar", "en"],
-};
-
-export const DEFAULT_LANGUAGE: Record<Region, Language> = {
-  US: "en",
-  LATAM: "es",
-  AFRICA: "en",
-  EU: "en",
-  MENA: "ar",
-};
-
-export type PageCopy = {
+export type CopyBlock = {
   title: string;
   subtitle: string;
   body: string;
   dir: "ltr" | "rtl";
 };
 
-export const COPY: Record<
-  Region,
-  Partial<Record<Language, PageCopy>>
-> = {
-  AFRICA: {
+/* --------------------------------------------------
+   LANGUAGE SUPPORT BY REGION
+-------------------------------------------------- */
+
+export const REGION_LANGUAGES: Record<Region, Language[]> = {
+  US: ["en"],
+  LATAM: ["es", "en"],
+  AFRICA: ["en", "fr", "ar"],
+};
+
+export const DEFAULT_LANGUAGE: Record<Region, Language> = {
+  US: "en",
+  LATAM: "es",
+  AFRICA: "en",
+};
+
+/* --------------------------------------------------
+   COPY DATABASE
+-------------------------------------------------- */
+
+const COPY: Record<Region, Partial<Record<Language, CopyBlock>>> = {
+  US: {
     en: {
+      title: "Edunancial — United States",
+      subtitle: "Capital literacy for a complex economy",
+      body:
+        "We help individuals understand systems of capital, ownership, and risk so they can operate effectively in modern markets.",
       dir: "ltr",
-      title: "Edunancial — Africa",
-      subtitle:
-        "Financial structure, discipline, and sustainable growth.",
-      body:
-        "We support entrepreneurs and businesses across Africa with clear financial models, strong governance, and responsible expansion strategies.",
-    },
-    fr: {
-      dir: "ltr",
-      title: "Edunancial — Afrique",
-      subtitle:
-        "Structure financière, discipline et croissance durable.",
-      body:
-        "Nous accompagnons les entrepreneurs africains avec des cadres financiers solides et des stratégies de croissance responsables.",
-    },
-    ar: {
-      dir: "rtl",
-      title: "إدونانشال — أفريقيا",
-      subtitle:
-        "الهيكلة المالية والانضباط والنمو المستدام.",
-      body:
-        "ندعم رواد الأعمال والشركات في أفريقيا من خلال نماذج مالية واضحة وحوكمة قوية.",
     },
   },
 
   LATAM: {
     es: {
-      dir: "ltr",
       title: "Edunancial — América Latina",
-      subtitle:
-        "Estructura financiera y crecimiento estratégico.",
+      subtitle: "Capital, estructura y oportunidades reales",
       body:
-        "Apoyamos a emprendedores latinoamericanos con modelos financieros claros y expansión responsable.",
+        "Apoyamos a emprendedores y operadores en mercados emergentes con claridad estructural, no promesas vacías.",
+      dir: "ltr",
     },
     en: {
-      dir: "ltr",
       title: "Edunancial — Latin America",
-      subtitle:
-        "Financial structure and strategic growth.",
+      subtitle: "Capital access without distortion",
       body:
-        "We support Latin American entrepreneurs with disciplined financial frameworks and scalable strategies.",
-    },
-  },
-
-  US: {
-    en: {
+        "We focus on clarity, structure, and long-term capital thinking in rapidly evolving economies.",
       dir: "ltr",
-      title: "Edunancial — United States",
-      subtitle:
-        "Structure before scale. Discipline before growth.",
-      body:
-        "We provide financial frameworks designed for long-term durability and compliant expansion.",
     },
   },
 
-  EU: {
+  AFRICA: {
     en: {
-      dir: "ltr",
-      title: "Edunancial — Europe",
-      subtitle:
-        "Governance-driven financial architecture.",
+      title: "Edunancial — Africa",
+      subtitle: "Capital clarity across diverse markets",
       body:
-        "We focus on structure, transparency, and scalable financial systems aligned with European markets.",
+        "Africa is not one economy. We address regional realities with disciplined capital frameworks and practical execution.",
+      dir: "ltr",
     },
-  },
-
-  MENA: {
+    fr: {
+      title: "Edunancial — Afrique",
+      subtitle: "Clarté du capital dans des marchés divers",
+      body:
+        "L’Afrique n’est pas une seule économie. Nous abordons les réalités régionales avec discipline et structure.",
+      dir: "ltr",
+    },
     ar: {
+      title: "Edunancial — أفريقيا",
+      subtitle: "وضوح رأس المال في أسواق متعددة",
+      body:
+        "أفريقيا ليست اقتصادًا واحدًا. نحن نقدم أطرًا واضحة لرأس المال مع احترام الواقع المحلي.",
       dir: "rtl",
-      title: "إدونانشال — الشرق الأوسط وشمال أفريقيا",
-      subtitle:
-        "حوكمة مالية ونمو منضبط.",
-      body:
-        "نقدم نماذج مالية واضحة تدعم النمو المستدام في المنطقة.",
-    },
-    en: {
-      dir: "ltr",
-      title: "Edunancial — MENA",
-      subtitle:
-        "Financial governance and disciplined growth.",
-      body:
-        "We support structured expansion across Middle East and North Africa markets.",
     },
   },
 };
 
-/**
- * Safe resolver
- * Never throws during build
- */
+/* --------------------------------------------------
+   RESOLVER (STATIC SAFE)
+-------------------------------------------------- */
+
 export function resolveCopy(
   region: Region,
-  lang: Language
-): PageCopy | null {
-  return COPY[region]?.[lang] || null;
+  language: Language
+): CopyBlock | null {
+  return COPY[region]?.[language] ?? null;
 }
