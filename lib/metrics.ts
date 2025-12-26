@@ -1,33 +1,36 @@
 // lib/metrics.ts
-export type TimeBucket =
-  | "DAILY"
-  | "WEEKLY"
-  | "MONTHLY"
-  | "QUARTERLY"
-  | "SEMI_ANNUAL"
-  | "ANNUAL";
+import { Region } from "./core";
 
-export type Region = "US" | "AFRICA" | "ASIA" | "GLOBAL";
-
-export interface MetricEvent {
-  event: string;
+export type MetricEvent = {
+  ts: string; // ISO timestamp
   region: Region;
-  amount?: number;
-  level?: number;
-  timestamp: number;
+  name:
+    | "page_view"
+    | "cta_click"
+    | "lead_submit"
+    | "membership_set"
+    | "module_open"
+    | "cashflow_submit";
+  value?: number;
+  meta?: Record<string, string>;
+};
+
+const KEY = "edunancial_metrics_events";
+
+export function recordEvent(ev: Omit<MetricEvent, "ts">) {
+  if (typeof window === "undefined") return;
+  const existing = getEvents();
+  existing.push({ ...ev, ts: new Date().toISOString() });
+  localStorage.setItem(KEY, JSON.stringify(existing));
 }
 
-const memoryStore: MetricEvent[] = [];
-
-export function recordMetric(event: MetricEvent) {
-  memoryStore.push(event);
+export function getEvents(): MetricEvent[] {
+  if (typeof window === "undefined") return [];
+  const raw = localStorage.getItem(KEY);
+  return raw ? JSON.parse(raw) : [];
 }
 
-export function aggregateMetrics(bucket: TimeBucket) {
-  // Placeholder logic — storage backend can change later
-  return {
-    bucket,
-    count: memoryStore.length,
-    revenue: memoryStore.reduce((sum, e) => sum + (e.amount ?? 0), 0),
-  };
+export function clearEvents() {
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(KEY);
 }
