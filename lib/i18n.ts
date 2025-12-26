@@ -1,5 +1,9 @@
 // lib/i18n.ts
 
+/* =======================
+   TYPES
+======================= */
+
 export type Language = "en" | "es" | "fr" | "ar";
 
 export type Region =
@@ -9,6 +13,26 @@ export type Region =
   | "EU"
   | "MENA";
 
+/* =======================
+   DEFAULTS
+======================= */
+
+// Global fallback (used only if region-specific logic fails)
+export const DEFAULT_LANGUAGE: Language = "en";
+
+// Per-region canonical defaults
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  US: "en",
+  LATAM: "es",
+  AFRICA: "en",
+  EU: "en",
+  MENA: "ar",
+};
+
+/* =======================
+   REGION → LANGUAGES
+======================= */
+
 export const REGION_LANGUAGES: Record<Region, Language[]> = {
   US: ["en"],
   LATAM: ["es", "en"],
@@ -16,6 +40,10 @@ export const REGION_LANGUAGES: Record<Region, Language[]> = {
   EU: ["en", "fr"],
   MENA: ["ar", "en"],
 };
+
+/* =======================
+   COPY STRUCTURE
+======================= */
 
 type Copy = {
   title: string;
@@ -104,12 +132,17 @@ const COPY: Record<Region, Record<Language, Copy>> = {
   },
 };
 
+/* =======================
+   RESOLVER
+======================= */
+
 export function resolveCopy(
   region: Region,
   language: Language
 ): Copy {
   return (
     COPY[region][language] ??
-    COPY[region][REGION_LANGUAGES[region][0]]
+    COPY[region][DEFAULT_LANGUAGE_BY_REGION[region]] ??
+    COPY[region][DEFAULT_LANGUAGE]
   );
 }
