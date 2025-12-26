@@ -1,4 +1,5 @@
 import { CartProvider } from './providers/CartProvider';
+import { AuthProvider } from './providers/AuthProvider';
 
 export default function RootLayout({
   children,
@@ -8,9 +9,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <CartProvider>
-          {children}
-        </CartProvider>
+        <AuthProvider>
+          <CartProvider>
+            {children}
+          </CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );
