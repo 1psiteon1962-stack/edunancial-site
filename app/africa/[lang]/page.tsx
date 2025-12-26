@@ -1,46 +1,25 @@
-// app/africa/[lang]/page.tsx
-
 import { notFound } from "next/navigation";
-import {
-  resolveCopy,
-  REGION_LANGUAGES,
-  DEFAULT_LANGUAGE_BY_REGION,
-  Language,
-} from "@/lib/i18n";
-
-type Props = {
-  params: {
-    lang: Language;
-  };
-};
+import { resolveCopy } from "@/lib/content";
+import { Language } from "@/lib/core";
+import DisciplineTracker from "@/app/components/DisciplineTracker";
 
 export async function generateStaticParams() {
-  return REGION_LANGUAGES.AFRICA.map((lang) => ({
-    lang,
-  }));
+  return [{ lang: "en" }];
 }
 
-export default function AfricaPage({ params }: Props) {
-  const { lang } = params;
-
+export default function Page({ params }: { params: { lang: Language } }) {
   const copy =
-    resolveCopy("AFRICA", lang) ??
-    resolveCopy("AFRICA", DEFAULT_LANGUAGE_BY_REGION.AFRICA);
+    resolveCopy("AFRICA", params.lang) ??
+    resolveCopy("AFRICA", "en");
 
   if (!copy) notFound();
 
   return (
-    <main
-      dir={copy.dir}
-      style={{
-        maxWidth: "900px",
-        margin: "0 auto",
-        padding: "2rem",
-      }}
-    >
+    <main style={{ padding: "2rem", maxWidth: "900px", margin: "auto" }}>
       <h1>{copy.title}</h1>
-      <h2>{copy.subtitle}</h2>
       <p>{copy.body}</p>
+
+      <DisciplineTracker />
     </main>
   );
 }
