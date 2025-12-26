@@ -1,63 +1,30 @@
-// app/latam/[lang]/page.tsx
-
 import { notFound } from "next/navigation";
-import {
-  resolveCopy,
-  REGION_LANGUAGES,
-  DEFAULT_LANGUAGE_BY_REGION,
-  Language,
-} from "@/lib/i18n";
-
-type Props = {
-  params: {
-    lang: Language;
-  };
-};
+import { resolveCopy } from "@/lib/content";
+import { Language } from "@/lib/core";
+import DisciplineTracker from "@/app/components/DisciplineTracker";
 
 export async function generateStaticParams() {
-  return REGION_LANGUAGES.LATAM.map((lang) => ({
-    lang,
-  }));
+  return [{ lang: "es" }, { lang: "en" }];
 }
 
-export default function LatAmPage({ params }: Props) {
-  const { lang } = params;
-
-  // Spanish is default for LATAM, English allowed
+export default function Page({ params }: { params: { lang: Language } }) {
   const copy =
-    resolveCopy("LATAM", lang) ??
-    resolveCopy("LATAM", DEFAULT_LANGUAGE_BY_REGION.LATAM);
+    resolveCopy("LATAM", params.lang) ??
+    resolveCopy("LATAM", "es");
 
   if (!copy) notFound();
 
   return (
-    <main
-      dir={copy.dir}
-      style={{
-        maxWidth: "900px",
-        margin: "0 auto",
-        padding: "2rem",
-      }}
-    >
+    <main style={{ padding: "2rem", maxWidth: "900px", margin: "auto" }}>
       <h1>{copy.title}</h1>
-      <h2>{copy.subtitle}</h2>
       <p>{copy.body}</p>
 
-      {/* Language switcher */}
-      <nav style={{ marginTop: "2rem" }}>
-        {REGION_LANGUAGES.LATAM.map((l) => (
-          <a
-            key={l}
-            href={`/latam/${l}`}
-            style={{
-              marginRight: "1rem",
-              fontWeight: l === lang ? "bold" : "normal",
-            }}
-          >
-            {l.toUpperCase()}
-          </a>
-        ))}
+      <nav>
+        <a href="/latam/es">Español</a> |{" "}
+        <a href="/latam/en">English</a>
       </nav>
+
+      <DisciplineTracker />
     </main>
   );
 }
