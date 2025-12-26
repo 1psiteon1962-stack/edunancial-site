@@ -1,95 +1,115 @@
 // lib/i18n.ts
 
-export type Region = "US" | "LATAM" | "AFRICA";
 export type Language = "en" | "es" | "fr" | "ar";
 
-export type CopyBlock = {
+export type Region =
+  | "US"
+  | "LATAM"
+  | "AFRICA"
+  | "EU"
+  | "MENA";
+
+export const REGION_LANGUAGES: Record<Region, Language[]> = {
+  US: ["en"],
+  LATAM: ["es", "en"],
+  AFRICA: ["en", "fr"],
+  EU: ["en", "fr"],
+  MENA: ["ar", "en"],
+};
+
+type Copy = {
   title: string;
   subtitle: string;
   body: string;
   dir: "ltr" | "rtl";
 };
 
-/* --------------------------------------------------
-   LANGUAGE SUPPORT BY REGION
--------------------------------------------------- */
-
-export const REGION_LANGUAGES: Record<Region, Language[]> = {
-  US: ["en"],
-  LATAM: ["es", "en"],
-  AFRICA: ["en", "fr", "ar"],
-};
-
-export const DEFAULT_LANGUAGE: Record<Region, Language> = {
-  US: "en",
-  LATAM: "es",
-  AFRICA: "en",
-};
-
-/* --------------------------------------------------
-   COPY DATABASE
--------------------------------------------------- */
-
-const COPY: Record<Region, Partial<Record<Language, CopyBlock>>> = {
+const COPY: Record<Region, Record<Language, Copy>> = {
   US: {
     en: {
-      title: "Edunancial — United States",
-      subtitle: "Capital literacy for a complex economy",
+      title: "Edunancial",
+      subtitle: "Capital literacy for real-world economies",
       body:
-        "We help individuals understand systems of capital, ownership, and risk so they can operate effectively in modern markets.",
+        "We focus on structure, capital access, and execution — not theory.",
       dir: "ltr",
     },
   },
 
   LATAM: {
     es: {
-      title: "Edunancial — América Latina",
-      subtitle: "Capital, estructura y oportunidades reales",
+      title: "Edunancial",
+      subtitle: "Estructura, capital y ejecución",
       body:
-        "Apoyamos a emprendedores y operadores en mercados emergentes con claridad estructural, no promesas vacías.",
+        "Acceso al capital, sistemas reales y pensamiento estratégico.",
       dir: "ltr",
     },
     en: {
-      title: "Edunancial — Latin America",
-      subtitle: "Capital access without distortion",
+      title: "Edunancial",
+      subtitle: "Capital literacy for emerging markets",
       body:
-        "We focus on clarity, structure, and long-term capital thinking in rapidly evolving economies.",
+        "Cross-border structure and disciplined execution.",
       dir: "ltr",
     },
   },
 
   AFRICA: {
     en: {
-      title: "Edunancial — Africa",
-      subtitle: "Capital clarity across diverse markets",
+      title: "Edunancial",
+      subtitle: "Structure before scale",
       body:
-        "Africa is not one economy. We address regional realities with disciplined capital frameworks and practical execution.",
+        "Capital follows structure. We focus on durability, not hype.",
       dir: "ltr",
     },
     fr: {
-      title: "Edunancial — Afrique",
-      subtitle: "Clarté du capital dans des marchés divers",
+      title: "Edunancial",
+      subtitle: "Structure avant l’expansion",
       body:
-        "L’Afrique n’est pas une seule économie. Nous abordons les réalités régionales avec discipline et structure.",
+        "Le capital suit la structure, pas l’inverse.",
       dir: "ltr",
     },
-    ar: {
-      title: "Edunancial — أفريقيا",
-      subtitle: "وضوح رأس المال في أسواق متعددة",
+  },
+
+  EU: {
+    en: {
+      title: "Edunancial",
+      subtitle: "Cross-border capital intelligence",
       body:
-        "أفريقيا ليست اقتصادًا واحدًا. نحن نقدم أطرًا واضحة لرأس المال مع احترام الواقع المحلي.",
+        "Understanding capital flows across regulatory environments.",
+      dir: "ltr",
+    },
+    fr: {
+      title: "Edunancial",
+      subtitle: "Intelligence du capital transfrontalier",
+      body:
+        "Navigation entre juridictions et structures financières.",
+      dir: "ltr",
+    },
+  },
+
+  MENA: {
+    ar: {
+      title: "Edunancial",
+      subtitle: "الهيكلة قبل التوسع",
+      body:
+        "رأس المال يتبع الهيكل، وليس العكس.",
       dir: "rtl",
+    },
+    en: {
+      title: "Edunancial",
+      subtitle: "Structure-first capital thinking",
+      body:
+        "Durable systems across regions.",
+      dir: "ltr",
     },
   },
 };
 
-/* --------------------------------------------------
-   RESOLVER (STATIC SAFE)
--------------------------------------------------- */
-
 export function resolveCopy(
   region: Region,
   language: Language
-): CopyBlock | null {
-  return COPY[region]?.[language] ?? null;
+): Copy {
+  return (
+    COPY[region][language] ??
+    COPY[region][REGION_LANGUAGES[region][0]]
+  );
 }
