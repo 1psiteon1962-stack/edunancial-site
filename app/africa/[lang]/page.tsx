@@ -1,31 +1,31 @@
+// app/africa/[lang]/page.tsx
+
 import { notFound } from "next/navigation";
 import {
   resolveCopy,
   REGION_LANGUAGES,
-  DEFAULT_LANGUAGE,
+  DEFAULT_LANGUAGE_BY_REGION,
   Language,
 } from "@/lib/i18n";
 
-export const dynamicParams = false;
+type Props = {
+  params: {
+    lang: Language;
+  };
+};
 
 export async function generateStaticParams() {
-  return REGION_LANGUAGES.AFRICA.map((lang) => ({ lang }));
+  return REGION_LANGUAGES.AFRICA.map((lang) => ({
+    lang,
+  }));
 }
-
-type Props = {
-  params: { lang: Language };
-};
 
 export default function AfricaPage({ params }: Props) {
   const { lang } = params;
 
-  if (!REGION_LANGUAGES.AFRICA.includes(lang)) {
-    notFound();
-  }
-
   const copy =
     resolveCopy("AFRICA", lang) ??
-    resolveCopy("AFRICA", DEFAULT_LANGUAGE.AFRICA);
+    resolveCopy("AFRICA", DEFAULT_LANGUAGE_BY_REGION.AFRICA);
 
   if (!copy) notFound();
 
@@ -39,7 +39,7 @@ export default function AfricaPage({ params }: Props) {
       }}
     >
       <h1>{copy.title}</h1>
-      <h3>{copy.subtitle}</h3>
+      <h2>{copy.subtitle}</h2>
       <p>{copy.body}</p>
     </main>
   );
