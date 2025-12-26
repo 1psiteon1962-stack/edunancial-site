@@ -1,5 +1,5 @@
 import "./globals.css";
-import RegionLanguageSwitcher from "@/components/RegionLanguageSwitcher";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function RootLayout({
   children,
@@ -8,12 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont",
-        }}
-      >
-        <RegionLanguageSwitcher />
+      <body>
+        <LanguageSwitcher />
         {children}
       </body>
     </html>
