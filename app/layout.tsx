@@ -1,5 +1,6 @@
 import "./globals.css";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import LegalFooter from "@/components/LegalFooter";
 
 export default function RootLayout({
   children,
@@ -11,6 +12,7 @@ export default function RootLayout({
       <body>
         <LanguageSwitcher />
         {children}
+        <LegalFooter />
       </body>
     </html>
   );
