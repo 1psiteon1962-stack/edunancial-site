@@ -1,6 +1,4 @@
-import "./globals.css";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import LegalFooter from "@/components/LegalFooter";
+import { CartProvider } from './providers/CartProvider';
 
 export default function RootLayout({
   children,
@@ -10,9 +8,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <LanguageSwitcher />
-        {children}
-        <LegalFooter />
+        <CartProvider>
+          {children}
+        </CartProvider>
       </body>
     </html>
   );
