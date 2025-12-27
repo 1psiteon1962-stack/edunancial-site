@@ -1,8 +1,8 @@
 export type Affiliate = {
   id: string;
-  name: string;
+  code: string;
 };
 
-export function getAffiliateById(id: string): Affiliate | null {
+export function getAffiliate(id: string): Affiliate | null {
   return null;
 }
