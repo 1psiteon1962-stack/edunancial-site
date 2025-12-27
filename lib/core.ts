@@ -1,25 +1,42 @@
 // lib/core.ts
 
-export type Region = "US" | "LATAM" | "AFRICA" | "EU" | "MENA";
+export type Region = "US" | "EU" | "AFRICA" | "LATAM";
 
-export type Language = "en" | "es" | "fr" | "ar";
+export type Language =
+  | "en"
+  | "es"
+  | "pt"
+  | "ar"; // ← REQUIRED (this fixes the build)
 
-export type Module = {
-  id: number;
+export type CopyBlock = {
   title: string;
-  description: string;
+  body: string;
 };
 
-export type DisciplineEntry = {
-  date: string; // ISO
-  unit: string; // "silver-g", "gold-g", "cash"
-  amount: number;
+type CopyMap = Record<Region, Partial<Record<Language, CopyBlock>>>;
+
+export const COPY: CopyMap = {
+  US: {
+    en: { title: "Welcome", body: "US English copy" },
+    es: { title: "Bienvenido", body: "US Spanish copy" },
+  },
+  EU: {
+    en: { title: "Welcome", body: "EU English copy" },
+  },
+  AFRICA: {
+    en: { title: "Welcome", body: "Africa English copy" },
+    ar: { title: "مرحبا", body: "نسخة عربية" },
+  },
+  LATAM: {
+    es: { title: "Bienvenido", body: "LATAM Spanish copy" },
+    pt: { title: "Bem-vindo", body: "LATAM Portuguese copy" },
+    ar: { title: "مرحبا", body: "نسخة عربية" },
+  },
 };
 
-export const REGION_DEFAULT_LANGUAGE: Record<Region, Language> = {
-  US: "en",
-  LATAM: "es",
-  AFRICA: "en",
-  EU: "en",
-  MENA: "ar",
-};
+export function resolveCopy(
+  region: Region,
+  lang: Language
+): CopyBlock | null {
+  return COPY[region]?.[lang] ?? null;
+}
