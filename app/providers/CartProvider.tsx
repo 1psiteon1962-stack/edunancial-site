@@ -2,12 +2,12 @@
 
 import React, { createContext, useContext, useState } from "react";
 
-type CartContextValue = {
+type CartContextType = {
   items: unknown[];
   addItem: (item: unknown) => void;
 };
 
-const CartContext = createContext<CartContextValue | undefined>(undefined);
+const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<unknown[]>([]);
