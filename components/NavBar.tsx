@@ -22,9 +22,7 @@ export function NavBar() {
           )}
         </>
       ) : (
-        <>
-          | <Link href="/login">Login</Link>
-        </>
+        <> | <Link href="/login">Login</Link></>
       )}
     </nav>
   );
