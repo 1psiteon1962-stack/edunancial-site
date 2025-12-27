@@ -1,9 +1,9 @@
-export type MembershipPlan = {
+export type Membership = {
   id: string;
   name: string;
   price: number;
 };
 
-export function getMembershipPlans(): MembershipPlan[] {
+export function getMembership(): Membership[] {
   return [];
 }
