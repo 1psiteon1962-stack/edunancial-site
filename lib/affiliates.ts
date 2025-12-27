@@ -3,7 +3,6 @@ export type Affiliate = {
   name: string;
 };
 
-export const AFFILIATES: Affiliate[] = [
-  { id: "default", name: "Default Partner" },
-  { id: "founder", name: "Founder Channel" },
-];
+export function getAffiliateById(id: string): Affiliate | null {
+  return null;
+}
