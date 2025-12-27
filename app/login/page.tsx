@@ -1,36 +1,12 @@
-'use client';
-
-import { useAuth } from '@/app/providers/AuthProvider';
-import { useRouter } from 'next/navigation';
+import { AuthProvider } from '../providers/AuthProvider';
 
 export default function LoginPage() {
-  const { loginAsStudent, loginAsAdmin } = useAuth();
-  const router = useRouter();
-
   return (
-    <main>
-      <h1>Login</h1>
-
-      <button
-        onClick={() => {
-          loginAsStudent();
-          router.push('/dashboard');
-        }}
-      >
-        Login as Student
-      </button>
-
-      <br />
-      <br />
-
-      <button
-        onClick={() => {
-          loginAsAdmin();
-          router.push('/dashboard');
-        }}
-      >
-        Login as Admin
-      </button>
-    </main>
+    <AuthProvider>
+      <main style={{ padding: '2rem' }}>
+        <h1>Login</h1>
+        <p>Login form goes here.</p>
+      </main>
+    </AuthProvider>
   );
 }
