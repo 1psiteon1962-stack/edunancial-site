@@ -1,6 +1,7 @@
 import { CartProvider } from './providers/CartProvider';
 import { AuthProvider } from './providers/AuthProvider';
 import { EnrollmentProvider } from './providers/EnrollmentProvider';
+import { NavBar } from '@/components/NavBar';
 
 export default function RootLayout({
   children,
@@ -12,7 +13,10 @@ export default function RootLayout({
       <body>
         <AuthProvider>
           <EnrollmentProvider>
-            <CartProvider>{children}</CartProvider>
+            <CartProvider>
+              <NavBar />
+              {children}
+            </CartProvider>
           </EnrollmentProvider>
         </AuthProvider>
       </body>
