@@ -1,8 +1,22 @@
-export function trackMetric(
-  name: string,
-  payload?: Record<string, unknown>
-) {
-  if (process.env.NODE_ENV !== "production") {
-    console.log("[metric]", name, payload);
-  }
+// lib/metrics.ts
+
+export type MetricEvent = {
+  id: string;
+  type: string;
+  timestamp: number;
+  payload?: Record<string, any>;
+};
+
+let events: MetricEvent[] = [];
+
+export function getEvents(): MetricEvent[] {
+  return events;
+}
+
+export function clearEvents(): void {
+  events = [];
+}
+
+export function recordEvent(event: MetricEvent): void {
+  events.push(event);
 }
