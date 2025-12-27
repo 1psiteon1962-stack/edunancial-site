@@ -2,13 +2,12 @@
 
 import React, { createContext, useContext } from "react";
 
-type EnrollmentContextValue = {
+type EnrollmentContextType = {
   enrolled: boolean;
 };
 
-const EnrollmentContext = createContext<EnrollmentContextValue | undefined>(
-  undefined
-);
+const EnrollmentContext =
+  createContext<EnrollmentContextType | undefined>(undefined);
 
 export function EnrollmentProvider({
   children,
