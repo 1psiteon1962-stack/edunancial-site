@@ -1,13 +1,6 @@
 "use client";
 
-type Region = "US" | "EU" | "AFRICA" | "LATAM";
-
-type MetricEventName = "page_view" | "cta_click";
-
-type MetricEvent = {
-  region: Region;
-  name: MetricEventName;
-};
+import { getEvents, Region, MetricEvent } from "@/lib/metrics";
 
 type MetricRow = {
   pageViews: number;
@@ -22,14 +15,7 @@ export default function MetricsDashboard() {
     LATAM: { pageViews: 0, ctaClicks: 0 },
   };
 
-  // TEMPORARY PLACEHOLDER DATA
-  // Later this can come from cookies, localStorage, DB, etc.
-  const events: MetricEvent[] = [
-    { region: "AFRICA", name: "page_view" },
-    { region: "AFRICA", name: "cta_click" },
-    { region: "LATAM", name: "page_view" },
-    { region: "US", name: "page_view" },
-  ];
+  const events: MetricEvent[] = getEvents();
 
   for (const e of events) {
     const row = base[e.region];
@@ -41,13 +27,7 @@ export default function MetricsDashboard() {
     <section style={{ marginTop: "2rem" }}>
       <h2>Metrics Dashboard</h2>
 
-      <table
-        style={{
-          width: "100%",
-          borderCollapse: "collapse",
-          marginTop: "1rem",
-        }}
-      >
+      <table style={{ width: "100%", marginTop: "1rem" }}>
         <thead>
           <tr>
             <th align="left">Region</th>
