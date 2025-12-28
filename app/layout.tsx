@@ -1,13 +1,3 @@
-import './globals.css';
-import Link from 'next/link';
-import { AuthProvider } from './providers/AuthProvider';
-import { EnrollmentProvider } from './providers/EnrollmentProvider';
-
-export const metadata = {
-  title: 'Edunancial',
-  description: 'Global financial education platform',
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -16,29 +6,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AuthProvider>
-          <EnrollmentProvider>
+        <header
+          style={{
+            padding: "1rem",
+            borderBottom: "1px solid #ddd",
+            marginBottom: "2rem",
+          }}
+        >
+          <strong>Regions:</strong>{" "}
+          <a href="/us">US</a> |{" "}
+          <a href="/latam">LATAM</a> |{" "}
+          <a href="/africa">Africa</a> |{" "}
+          <a href="/mena">MENA</a> |{" "}
+          <a href="/europe">Europe</a>
+        </header>
 
-            {/* INLINE NAVBAR — NO IMPORTS, NO CASING ISSUES */}
-            <nav className="w-full border-b border-gray-200 bg-white">
-              <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-                <div className="text-xl font-semibold">
-                  <Link href="/">Edunancial</Link>
-                </div>
-
-                <div className="flex gap-6 text-sm font-medium">
-                  <Link href="/us">US</Link>
-                  <Link href="/latam">LATAM</Link>
-                  <Link href="/africa">Africa</Link>
-                  <Link href="/conclusions">Conclusions</Link>
-                </div>
-              </div>
-            </nav>
-
-            {children}
-
-          </EnrollmentProvider>
-        </AuthProvider>
+        {children}
       </body>
     </html>
   );
