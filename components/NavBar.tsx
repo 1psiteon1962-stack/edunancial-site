@@ -1,29 +1,22 @@
 'use client';
 
 import Link from 'next/link';
-import { useAuth } from '@/app/providers/AuthProvider';
 
 export function NavBar() {
-  const { user } = useAuth();
-
   return (
-    <nav>
-      <Link href="/">Edunancial</Link> |{' '}
-      <Link href="/courses">Courses</Link> |{' '}
-      <Link href="/checkout">Checkout</Link>{' '}
-      {user ? (
-        <>
-          | <Link href="/dashboard">Dashboard</Link>
-          {user.role === 'admin' && (
-            <>
-              {' '}
-              | <Link href="/admin/courses">Admin</Link>
-            </>
-          )}
-        </>
-      ) : (
-        <> | <Link href="/login">Login</Link></>
-      )}
+    <nav className="w-full border-b border-gray-200 bg-white">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="text-xl font-semibold">
+          <Link href="/">Edunancial</Link>
+        </div>
+
+        <div className="flex gap-6 text-sm font-medium">
+          <Link href="/us">US</Link>
+          <Link href="/latam">LATAM</Link>
+          <Link href="/africa">Africa</Link>
+          <Link href="/conclusions">Conclusions</Link>
+        </div>
+      </div>
     </nav>
   );
 }
