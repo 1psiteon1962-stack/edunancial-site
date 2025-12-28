@@ -1,38 +1,44 @@
 // lib/discipline-store.ts
 
-import { create } from "zustand";
-
 /**
- * Discipline metrics tracked per user session.
- * This store is intentionally simple and deterministic.
+ * Simple in-memory discipline store.
+ * No external dependencies.
+ * Safe for Next.js + Netlify builds.
+ *
+ * NOTE:
+ * This is intentionally stateless across server restarts.
+ * If persistence is required later, this can be swapped for
+ * localStorage or a backend store without changing the API.
  */
 
 export type DisciplineState = {
   streakDays: number;
   lastActionDate: string | null;
-  incrementStreak: () => void;
-  resetStreak: () => void;
 };
 
-export const useDisciplineStore = create<DisciplineState>((set, get) => ({
+let state: DisciplineState = {
   streakDays: 0,
   lastActionDate: null,
+};
 
-  incrementStreak: () => {
-    const today = new Date().toISOString().slice(0, 10);
-    const { lastActionDate, streakDays } = get();
+export function getDisciplineState(): DisciplineState {
+  return { ...state };
+}
 
-    if (lastActionDate === today) return;
+export function incrementStreak(): void {
+  const today = new Date().toISOString().slice(0, 10);
 
-    set({
-      streakDays: streakDays + 1,
-      lastActionDate: today,
-    });
-  },
+  if (state.lastActionDate === today) return;
 
-  resetStreak: () =>
-    set({
-      streakDays: 0,
-      lastActionDate: null,
-    }),
-}));
+  state = {
+    streakDays: state.streakDays + 1,
+    lastActionDate: today,
+  };
+}
+
+export function resetStreak(): void {
+  state = {
+    streakDays: 0,
+    lastActionDate: null,
+  };
+}
