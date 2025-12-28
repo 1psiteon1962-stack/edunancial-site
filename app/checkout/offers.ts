@@ -1,50 +1,40 @@
-// app/checkout/offers.ts
-
 export type Offer = {
   id: string;
   title: string;
   description: string;
-  priceCents: number;
+  price: number;
 };
 
 export const OFFERS: Record<string, Offer> = {
   default: {
     id: "default",
-    title: "Getting Started",
+    title: "Capital Discipline – Foundation",
     description:
-      "Begin your capital discipline journey with foundational access.",
-    priceCents: 0,
-  },
-
-  discipline: {
-    id: "discipline",
-    title: "Capital Discipline",
-    description:
-      "Structured training covering Red (Real Estate), White (Paper Assets), and Blue (Business).",
-    priceCents: 0,
+      "Introduction to capital discipline and the Red, White, and Blue framework.",
+    price: 0,
   },
 
   red: {
     id: "red",
-    title: "Red Path – Real Estate",
+    title: "Red Path – Real Assets",
     description:
-      "Property fundamentals, leverage mechanics, and capital preservation.",
-    priceCents: 0,
+      "Real estate, tangible assets, leverage, and durability principles.",
+    price: 0,
   },
 
   white: {
     id: "white",
     title: "White Path – Paper Assets",
     description:
-      "Markets, liquidity, risk, and asymmetric exposure.",
-    priceCents: 0,
+      "Markets, liquidity, volatility, and capital timing frameworks.",
+    price: 0,
   },
 
   blue: {
     id: "blue",
-    title: "Blue Path – Business",
+    title: "Blue Path – Business & Systems",
     description:
-      "Enterprise creation, cash flow control, and scalability logic.",
-    priceCents: 0,
+      "Operating businesses, cash flow systems, and scalable structures.",
+    price: 0,
   },
 };
