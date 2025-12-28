@@ -4,27 +4,24 @@ import { Membership } from "./membership";
 
 /**
  * Canonical membership objects
- * (inline to avoid missing data imports)
+ * Must strictly match the existing Membership type
  */
 const FREE_MEMBERSHIP: Membership = {
   id: "free",
   name: "Free",
   price: 0,
-  features: [],
 };
 
 const BASIC_MEMBERSHIP: Membership = {
   id: "basic",
   name: "Basic",
   price: 19,
-  features: [],
 };
 
 const PRO_MEMBERSHIP: Membership = {
   id: "pro",
   name: "Pro",
   price: 49,
-  features: [],
 };
 
 export type Conclusion = {
