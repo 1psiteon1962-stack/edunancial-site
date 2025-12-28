@@ -1,29 +1,41 @@
 // lib/core.ts
 
-export type Region =
-  | "US"
-  | "EU"
-  | "LATAM"
-  | "APAC"
-  | "MENA"
-  | "AFRICA";
+/**
+ * Canonical Regions
+ */
+export type Region = "US" | "LATAM" | "EU" | "AFRICA" | "ASIA";
 
-export type Language = "en" | "es" | "pt";
+/**
+ * Canonical Languages
+ */
+export type Language = "en" | "es" | "pt" | "fr";
 
-export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+/**
+ * Default language for all content resolution
+ * (Single source of truth)
+ */
+export const DEFAULT_LANGUAGE: Language = "en";
+
+/**
+ * Region → allowed languages
+ */
+export const regionLanguages: Record<Region, readonly Language[]> = {
   US: ["en", "es"],
-  EU: ["en"],
-  APAC: ["en"],
-  MENA: ["en"],
   LATAM: ["es", "pt"],
-  AFRICA: ["en", "pt"],
-} as const;
+  EU: ["en", "fr"],
+  AFRICA: ["en", "fr"],
+  ASIA: ["en"],
+};
 
+/**
+ * Content resolution helper
+ */
 export function resolveCopy(
   region: Region,
   language: Language
 ): string | null {
-  const allowed = REGION_LANGUAGES[region];
-  if (!allowed.includes(language)) return null;
-  return `${region} content (${language})`;
+  if (!regionLanguages[region].includes(language)) {
+    return null;
+  }
+  return `${region}-${language}`;
 }
