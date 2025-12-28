@@ -1,3 +1,5 @@
+// lib/core.ts
+
 export type Region =
   | "US"
   | "EU"
