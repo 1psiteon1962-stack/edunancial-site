@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useMemo } from "react";
-import { OFFERS } from "./offers"; // adjust path if needed
+import { OFFERS } from "./offers";
 
 export default function CheckoutClient() {
   const searchParams = useSearchParams();
@@ -13,20 +13,16 @@ export default function CheckoutClient() {
     return OFFERS[offerParam] ?? OFFERS.default;
   }, [offerParam]);
 
-  if (!offer) {
-    return (
-      <div>
-        <h2>Invalid offer</h2>
-        <p>Please check your link or contact support.</p>
-      </div>
-    );
-  }
-
   return (
-    <div>
+    <section style={{ maxWidth: "640px", margin: "0 auto" }}>
       <h1>{offer.title}</h1>
       <p>{offer.description}</p>
-      {/* rest of checkout UI */}
-    </div>
+
+      {offer.price === 0 ? (
+        <p><strong>Free access</strong></p>
+      ) : (
+        <p><strong>Price:</strong> ${offer.price}</p>
+      )}
+    </section>
   );
 }
