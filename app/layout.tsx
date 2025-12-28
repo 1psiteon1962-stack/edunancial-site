@@ -1,7 +1,12 @@
-import { CartProvider } from './providers/CartProvider';
+import './globals.css';
+import { NavBar } from '@/components/NavBar';
 import { AuthProvider } from './providers/AuthProvider';
 import { EnrollmentProvider } from './providers/EnrollmentProvider';
-import { NavBar } from '@/components/NavBar';
+
+export const metadata = {
+  title: 'Edunancial',
+  description: 'Global financial education platform',
+};
 
 export default function RootLayout({
   children,
@@ -13,10 +18,8 @@ export default function RootLayout({
       <body>
         <AuthProvider>
           <EnrollmentProvider>
-            <CartProvider>
-              <NavBar />
-              {children}
-            </CartProvider>
+            <NavBar />
+            {children}
           </EnrollmentProvider>
         </AuthProvider>
       </body>
