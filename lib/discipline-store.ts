@@ -1,17 +1,38 @@
 // lib/discipline-store.ts
 
-import { DisciplineEntry } from "./core";
+import { create } from "zustand";
 
-const KEY = "edunancial_discipline_log";
+/**
+ * Discipline metrics tracked per user session.
+ * This store is intentionally simple and deterministic.
+ */
 
-export function getDisciplineLog(): DisciplineEntry[] {
-  if (typeof window === "undefined") return [];
-  const raw = localStorage.getItem(KEY);
-  return raw ? JSON.parse(raw) : [];
-}
+export type DisciplineState = {
+  streakDays: number;
+  lastActionDate: string | null;
+  incrementStreak: () => void;
+  resetStreak: () => void;
+};
 
-export function addDisciplineEntry(entry: DisciplineEntry) {
-  const log = getDisciplineLog();
-  log.push(entry);
-  localStorage.setItem(KEY, JSON.stringify(log));
-}
+export const useDisciplineStore = create<DisciplineState>((set, get) => ({
+  streakDays: 0,
+  lastActionDate: null,
+
+  incrementStreak: () => {
+    const today = new Date().toISOString().slice(0, 10);
+    const { lastActionDate, streakDays } = get();
+
+    if (lastActionDate === today) return;
+
+    set({
+      streakDays: streakDays + 1,
+      lastActionDate: today,
+    });
+  },
+
+  resetStreak: () =>
+    set({
+      streakDays: 0,
+      lastActionDate: null,
+    }),
+}));
