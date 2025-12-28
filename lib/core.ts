@@ -1,35 +1,38 @@
 // lib/core.ts
 
-/**
- * Supported regions
- * This is the authoritative Region list
- */
-export type Region =
-  | "US"
-  | "EU"
-  | "AFRICA"
-  | "LATAM"
-  | "MENA";
+export type Region = "US" | "EU" | "LATAM" | "APAC" | "MENA";
 
 /**
- * Supported languages
- * THIS MUST INCLUDE *EVERY* [lang] ROUTE VALUE
+ * Global language union.
+ * MUST include every language that appears in routes or fallbacks.
  */
-export type Language =
-  | "en"
-  | "es"
-  | "pt"
-  | "fr"
-  | "ar";
+export type Language = "en" | "es" | "pt";
 
 /**
- * Default language fallback
+ * Region → allowed languages
  */
-export const DEFAULT_LANGUAGE: Language = "en";
+export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+  US: ["en", "es"],
+  EU: ["en"],
+  APAC: ["en"],
+  MENA: ["en"],
+  LATAM: ["es", "pt"],
+} as const;
 
 /**
- * Optional helper if needed elsewhere
+ * Content resolver
+ * (stub-safe – replace body later with real content logic)
  */
-export function isLanguage(value: string): value is Language {
-  return ["en", "es", "pt", "fr", "ar"].includes(value);
+export function resolveCopy(
+  region: Region,
+  language: Language
+): string | null {
+  const allowed = REGION_LANGUAGES[region];
+
+  if (!allowed.includes(language)) {
+    return null;
+  }
+
+  // TEMP SAFE RETURN (prevents build failure)
+  return `${region} content (${language})`;
 }
