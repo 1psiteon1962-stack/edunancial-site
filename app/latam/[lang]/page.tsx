@@ -3,30 +3,43 @@
 import { notFound } from "next/navigation";
 import {
   resolveCopy,
-  REGION_LANGUAGES,
+  regionLanguages,
   Language,
+  Region,
 } from "@/lib/core";
 
-type LatamLanguage = (typeof REGION_LANGUAGES)["LATAM"][number];
+type PageParams = {
+  params: {
+    lang: string;
+  };
+};
 
-export default function Page({
-  params,
-}: {
-  params: { lang: string };
-}) {
-  const lang = params.lang as Language;
+const REGION: Region = "LATAM";
 
-  if (!REGION_LANGUAGES.LATAM.includes(lang)) {
+export default function Page({ params }: PageParams) {
+  const allowedLanguages = regionLanguages[REGION];
+
+  // Runtime + type-safe guard
+  if (!allowedLanguages.includes(params.lang as Language)) {
     notFound();
   }
 
+  const language = params.lang as Language;
+
   const copy =
-    resolveCopy("LATAM", lang as LatamLanguage) ??
-    resolveCopy("LATAM", "es");
+    resolveCopy(REGION, language) ??
+    resolveCopy(REGION, "es");
 
   if (!copy) {
     notFound();
   }
 
-  return <main>{copy}</main>;
+  return (
+    <main className="mx-auto max-w-4xl p-6">
+      <h1 className="text-2xl font-bold">LATAM</h1>
+      <p className="mt-4 text-gray-700">
+        Resolved content key: <strong>{copy}</strong>
+      </p>
+    </main>
+  );
 }
