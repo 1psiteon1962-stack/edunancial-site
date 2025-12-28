@@ -1,23 +1,8 @@
 // lib/core.ts
 
 /**
- * Authoritative language list
- * MUST include every locale exposed by routes
- */
-export type Language =
-  | "en" // English
-  | "es" // Spanish
-  | "pt" // Portuguese
-  | "fr" // French
-  | "ar"; // Arabic
-
-/**
- * Default language fallback
- */
-export const DEFAULT_LANGUAGE: Language = "en";
-
-/**
  * Supported regions
+ * This is the authoritative Region list
  */
 export type Region =
   | "US"
@@ -27,17 +12,24 @@ export type Region =
   | "MENA";
 
 /**
- * Runtime region resolver
+ * Supported languages
+ * THIS MUST INCLUDE *EVERY* [lang] ROUTE VALUE
  */
-export function resolveRegion(input: string): Region {
-  switch (input.toUpperCase()) {
-    case "US":
-    case "EU":
-    case "AFRICA":
-    case "LATAM":
-    case "MENA":
-      return input.toUpperCase() as Region;
-    default:
-      throw new Error(`Unknown region: ${input}`);
-  }
+export type Language =
+  | "en"
+  | "es"
+  | "pt"
+  | "fr"
+  | "ar";
+
+/**
+ * Default language fallback
+ */
+export const DEFAULT_LANGUAGE: Language = "en";
+
+/**
+ * Optional helper if needed elsewhere
+ */
+export function isLanguage(value: string): value is Language {
+  return ["en", "es", "pt", "fr", "ar"].includes(value);
 }
