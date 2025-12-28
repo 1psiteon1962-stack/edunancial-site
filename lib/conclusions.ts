@@ -1,9 +1,10 @@
 import { MetricEvent } from "./metrics";
 import { Region } from "./core";
 import { Membership } from "./membership";
+import { memberships } from "@/data/memberships";
 
 /**
- * A single conclusion generated from metrics
+ * A conclusion derived from engagement metrics
  */
 export type Conclusion = {
   region: Region;
@@ -13,8 +14,22 @@ export type Conclusion = {
 };
 
 /**
- * Very simple scoring logic for now.
- * This can be expanded later without breaking types.
+ * Determine the appropriate membership based on score
+ */
+function resolveMembership(score: number): Membership {
+  if (score >= 20) {
+    return memberships.find(m => m.slug === "pro") ?? memberships[0];
+  }
+
+  if (score >= 10) {
+    return memberships.find(m => m.slug === "basic") ?? memberships[0];
+  }
+
+  return memberships.find(m => m.slug === "free") ?? memberships[0];
+}
+
+/**
+ * Generate a conclusion from metric events
  */
 export function deriveConclusion(
   region: Region,
@@ -22,21 +37,19 @@ export function deriveConclusion(
 ): Conclusion {
   let score = 0;
 
-  for (const e of events) {
-    if (e.name === "page_view") score += 1;
-    if (e.name === "cta_click") score += 5;
+  for (const event of events) {
+    if (event.name === "page_view") score += 1;
+    if (event.name === "cta_click") score += 5;
   }
 
-  let membership: Membership = "FREE";
-  let summary = "Getting started";
+  const membership = resolveMembership(score);
 
-  if (score >= 20) {
-    membership = "PRO";
-    summary = "High engagement detected";
-  } else if (score >= 10) {
-    membership = "BASIC";
-    summary = "Moderate engagement detected";
-  }
+  const summary =
+    score >= 20
+      ? "High engagement detected"
+      : score >= 10
+      ? "Moderate engagement detected"
+      : "Getting started";
 
   return {
     region,
