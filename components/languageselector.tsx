@@ -2,39 +2,61 @@
 
 import { usePathname, useRouter } from "next/navigation";
 
+type Lang = "en" | "es";
+
 export default function LanguageSelector() {
-  const pathname = usePathname();
   const router = useRouter();
+  const pathname = usePathname();
 
-  const currentLang = pathname.startsWith("/es") ? "es" : "en";
+  // Build-time and type safety: pathname CAN be null
+  const safePath = pathname ?? "/";
 
-  const switchLanguage = (lang: "en" | "es") => {
+  const currentLang: Lang = safePath.startsWith("/es") ? "es" : "en";
+
+  const switchLanguage = (lang: Lang) => {
+    // If pathname is null at runtime, do nothing safely
+    if (!pathname) return;
+
     const segments = pathname.split("/").filter(Boolean);
 
+    // Remove existing language prefix if present
     if (segments[0] === "en" || segments[0] === "es") {
-      segments[0] = lang;
-    } else {
-      segments.unshift(lang);
+      segments.shift();
     }
 
-    router.push("/" + segments.join("/"));
+    const newPath =
+      lang === "en"
+        ? `/${segments.join("/")}`
+        : `/es/${segments.join("/")}`;
+
+    router.push(newPath || "/");
   };
 
   return (
-    <div className="flex gap-2 text-sm">
+    <div style={{ display: "flex", gap: "0.75rem", fontSize: "0.9rem" }}>
       <button
         onClick={() => switchLanguage("en")}
-        className={`px-2 py-1 rounded ${
-          currentLang === "en" ? "font-bold underline" : ""
-        }`}
+        disabled={currentLang === "en"}
+        style={{
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          fontWeight: currentLang === "en" ? 600 : 400,
+          textDecoration: currentLang === "en" ? "underline" : "none",
+        }}
       >
         EN
       </button>
       <button
         onClick={() => switchLanguage("es")}
-        className={`px-2 py-1 rounded ${
-          currentLang === "es" ? "font-bold underline" : ""
-        }`}
+        disabled={currentLang === "es"}
+        style={{
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          fontWeight: currentLang === "es" ? 600 : 400,
+          textDecoration: currentLang === "es" ? "underline" : "none",
+        }}
       >
         ES
       </button>
