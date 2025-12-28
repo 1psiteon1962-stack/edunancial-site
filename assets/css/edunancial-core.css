@@ -1,0 +1,30 @@
+#edunancial-core-platform {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.platform-mission h2,
+.regional-focus h3,
+.course-access h3 {
+  margin-bottom: 10px;
+}
+
+.focus-list {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.course-grid a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #000;
+}
