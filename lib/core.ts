@@ -4,3 +4,9 @@ export type Region =
   | "AFRICA"
   | "LATAM"
   | "MENA";
+
+export type Language =
+  | "en"
+  | "es"
+  | "pt"
+  | "ar";
