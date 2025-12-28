@@ -3,28 +3,26 @@
 import { notFound } from "next/navigation";
 
 /**
- * REQUIRED for `output: 'export'`
- * This tells Next.js which affiliate pages exist at build time.
- *
- * Empty array = no affiliate pages are prebuilt.
- * The route will NOT error during export.
+ * HARD STATIC CONFIG
+ * Required for `output: 'export'`
  */
-export async function generateStaticParams() {
+export const dynamic = "error";
+export const dynamicParams = false;
+
+/**
+ * REQUIRED by Next.js static export
+ * Returning an empty array is VALID and supported.
+ */
+export function generateStaticParams() {
   return [];
 }
 
-/**
- * Prevent Next from trying to infer dynamic params
- */
-export const dynamicParams = false;
-
-type PageProps = {
+type Props = {
   params: {
     id: string;
   };
 };
 
-export default function AffiliatePage({ params }: PageProps) {
-  // Since no IDs are statically generated, this route should never render.
+export default function AffiliatePage(_: Props) {
   notFound();
 }
