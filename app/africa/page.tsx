@@ -1,31 +1,49 @@
+import LegalNotice from "@/components/LegalNotice";
+
 export default function AfricaPage() {
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "3rem 1rem" }}>
-      <h1>Edunancial — Africa</h1>
+    <main style={{ maxWidth: "1100px", margin: "0 auto", padding: "2rem" }}>
+      <h1>Africa</h1>
 
       <p>
-        Africa is not one economy. Capital discipline is essential across
-        diverse systems, currencies, and regulatory environments.
+        Africa is one of the fastest-evolving capital environments in the world,
+        combining traditional systems, emerging markets, and leapfrog technologies.
       </p>
 
-      <section style={{ marginTop: "3rem" }}>
-        <h2>Capital Discipline</h2>
+      <h2>Capital Discipline</h2>
+      <p>
+        Capital Discipline in Africa emphasizes adaptability, system awareness, and
+        long-term positioning across fragmented and rapidly changing markets.
+      </p>
 
-        <p>
-          Discipline protects capital in environments where volatility and
-          opportunity coexist.
-        </p>
-      </section>
+      <h2>Three Capital Paths</h2>
 
-      <section style={{ marginTop: "3rem" }}>
-        <h2>Red / White / Blue</h2>
+      <h3 style={{ color: "#b91c1c" }}>Red — Land & Physical Assets</h3>
+      <p>
+        Land and physical assets remain foundational across much of Africa,
+        influenced by local governance, title systems, and regional development.
+      </p>
 
-        <ul>
-          <li><strong>Red</strong> — Land, housing, infrastructure</li>
-          <li><strong>White</strong> — Emerging markets & capital flows</li>
-          <li><strong>Blue</strong> — Enterprise and services</li>
-        </ul>
-      </section>
+      <h3 style={{ color: "#1f2937" }}>White — Financial Access & Instruments</h3>
+      <p>
+        Financial systems vary widely across the continent, often combining
+        traditional banking with mobile-based and alternative financial structures.
+      </p>
+
+      <h3 style={{ color: "#1d4ed8" }}>Blue — Enterprise & Trade</h3>
+      <p>
+        Small and medium enterprises drive much of Africa’s economic activity,
+        often operating across borders, currencies, and informal structures.
+      </p>
+
+      <h2>Access & Progression</h2>
+      <p>
+        Edunancial provides free conceptual entry points focused on understanding
+        systems first, followed by structured frameworks for those seeking deeper
+        engagement.
+      </p>
+
+      <LegalNotice />
     </main>
   );
 }
