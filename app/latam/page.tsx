@@ -1,9 +1,17 @@
-// app/latam/page.tsx
+import CapitalDiscipline from "@/components/CapitalDiscipline";
 
-import { resolveCopy } from "@/lib/core";
+export default function LatinAmericaPage() {
+  return (
+    <main>
+      <h1>Latin America</h1>
 
-export default function LatamIndexPage() {
-  const copy = resolveCopy("LATAM", "es");
+      <p>
+        Latin America blends developing markets with established financial and
+        real asset systems. Capital Discipline helps navigate currency risk,
+        political shifts, and growth cycles.
+      </p>
 
-  return <main>{copy}</main>;
+      <CapitalDiscipline />
+    </main>
+  );
 }
