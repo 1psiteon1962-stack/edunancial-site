@@ -1,3 +1,6 @@
+import "./globals.css";
+import Link from "next/link";
+
 export default function RootLayout({
   children,
 }: {
@@ -6,22 +9,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-          style={{
-            padding: "1rem",
-            borderBottom: "1px solid #ddd",
-            marginBottom: "2rem",
-          }}
-        >
-          <strong>Regions:</strong>{" "}
-          <a href="/us">US</a> |{" "}
-          <a href="/latam">LATAM</a> |{" "}
-          <a href="/africa">Africa</a> |{" "}
-          <a href="/mena">MENA</a> |{" "}
-          <a href="/europe">Europe</a>
+        <header style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
+          <nav style={{ fontSize: "0.95rem" }}>
+            <strong>Regions:</strong>{" "}
+            <Link href="/us">US</Link> |{" "}
+            <Link href="/latam">LATAM</Link> |{" "}
+            <Link href="/africa">Africa</Link> |{" "}
+            <Link href="/mena">MENA</Link> |{" "}
+            <Link href="/asia">Asia</Link> |{" "}
+            <Link href="/europe">Europe</Link>
+          </nav>
         </header>
 
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
