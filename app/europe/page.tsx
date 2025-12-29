@@ -1,4 +1,6 @@
-import CapitalDiscipline from "@/components/CapitalDiscipline";
+import CapitalDisciplineSection from "../components/CapitalDisciplineSection";
+import FreeIntroSection from "../components/FreeIntroSection";
+import LegalNotice from "../components/LegalNotice";
 
 export default function EuropePage() {
   return (
@@ -6,12 +8,13 @@ export default function EuropePage() {
       <h1>Europe</h1>
 
       <p>
-        Europe combines mature markets, regulatory depth, and cross-border
-        capital flows. Discipline determines whether complexity becomes an
-        advantage or a liability.
+        Coverage includes regulated markets, business ownership, and
+        cross-border capital structures.
       </p>
 
-      <CapitalDiscipline />
+      <CapitalDisciplineSection />
+      <FreeIntroSection />
+      <LegalNotice />
     </main>
   );
 }
