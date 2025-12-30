@@ -2,24 +2,18 @@ import GlobalLayout from "@/components/GlobalLayout";
 
 export default function AfricaPage() {
   return (
-    <GlobalLayout title="Edunancial — Africa" region="Africa">
+    <GlobalLayout title="Africa">
       <p>
-        Africa’s platform emphasizes system visibility, capital flow literacy,
-        and infrastructure-driven opportunity recognition.
+        Africa focuses on foundational systems, infrastructure-first thinking,
+        and disciplined capital deployment in emerging environments.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Observation → pattern recognition</li>
-        <li>Bottleneck identification</li>
-        <li>Capital discipline under constraint</li>
+        <li>Sequential system development</li>
+        <li>Early-stage capital efficiency</li>
+        <li>Localized execution models</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Introductory system-awareness modules are open. Advanced operational
-        frameworks and capital paths are paid.
-      </p>
     </GlobalLayout>
   );
 }
