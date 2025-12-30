@@ -1,28 +1,19 @@
 import GlobalLayout from "@/components/GlobalLayout";
 
-export default function AsiaEmergingPage() {
+export default function EmergingAsiaPage() {
   return (
-    <GlobalLayout
-      title="Edunancial — Emerging Asia"
-      region="Emerging Asia"
-    >
+    <GlobalLayout title="Emerging Asia">
       <p>
-        Emerging Asia emphasizes system formation, informal-to-formal transition,
-        and early-stage structural advantage in fast-evolving economies.
+        Emerging Asia emphasizes early-stage system awareness,
+        disciplined sequencing, and capital-light experimentation.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Observation without jargon</li>
-        <li>Guided contrast between systems</li>
-        <li>Transferable system models</li>
+        <li>System literacy before scale</li>
+        <li>Transferable operating models</li>
+        <li>Capital discipline under uncertainty</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Early-stage system awareness is open. Capital discipline paths and applied
-        frameworks require paid access.
-      </p>
     </GlobalLayout>
   );
 }
