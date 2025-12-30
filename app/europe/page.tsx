@@ -2,21 +2,18 @@ import GlobalLayout from "@/components/GlobalLayout";
 
 export default function EuropePage() {
   return (
-    <GlobalLayout title="Edunancial — Europe" region="Europe">
+    <GlobalLayout title="Europe">
       <p>
-        Europe emphasizes regulatory structure, long-term capital stability, and
-        cross-national systems alignment.
+        Europe prioritizes compliance-aware execution, efficiency,
+        and structured operational scaling across regulated markets.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Framework comparison</li>
-        <li>Compliance-aware strategy</li>
-        <li>Scalable operational thinking</li>
+        <li>Process discipline</li>
+        <li>Regulatory alignment</li>
+        <li>Cross-border harmonization</li>
       </ul>
-
-      <h2>Languages Supported</h2>
-      <p>English, French, German, Spanish</p>
     </GlobalLayout>
   );
 }
