@@ -4,32 +4,37 @@ export default function AsiaPacificPage() {
   return (
     <GlobalLayout title="Edunancial — Asia-Pacific">
       <p>
-        The Asia-Pacific region emphasizes operational discipline, capital
-        efficiency, and scalable systems within advanced and semi-advanced
-        economies. Markets in this region tend to reward consistency,
-        long-term planning, and execution over speculation.
+        Edunancial’s Asia-Pacific focus centers on advanced, high-velocity
+        economies where capital efficiency, operational discipline, and
+        cross-border coordination determine long-term success.
       </p>
 
-      <h2>Regional Focus</h2>
+      <p>
+        This region includes mature and semi-mature markets where participants
+        often operate inside complex regulatory environments, global supply
+        chains, and technology-driven business ecosystems.
+      </p>
+
+      <h2>Primary Emphasis</h2>
       <ul>
-        <li>Business system discipline</li>
-        <li>Capital allocation and risk control</li>
-        <li>Operational scalability</li>
-        <li>Cross-border trade awareness</li>
+        <li>Capital allocation discipline in competitive markets</li>
+        <li>Operational scalability across jurisdictions</li>
+        <li>Risk containment in fast-moving commercial environments</li>
+        <li>Long-term continuity over short-term speculation</li>
       </ul>
 
-      <h2>Thinking Framework</h2>
+      <h2>System Orientation</h2>
       <p>
-        Content in this region is structured to support individuals and
-        organizations operating in stable regulatory environments while
-        navigating competitive global markets.
+        Rather than promotional content or prescriptive instruction, Edunancial
+        presents structured system models that illustrate how capital,
+        governance, and execution interact in real operating environments.
       </p>
 
       <h2>Access Model</h2>
       <p>
-        Foundational frameworks are available openly. Advanced system models,
-        capital discipline tools, and comparative analyses are offered through
-        structured access tiers.
+        Foundational frameworks are openly available. Advanced analytical
+        structures and applied system mappings are gated to members requiring
+        deeper operational insight.
       </p>
     </GlobalLayout>
   );
