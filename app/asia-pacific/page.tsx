@@ -1,20 +1,25 @@
-import CapitalDisciplineSection from "../components/CapitalDisciplineSection";
-import FreeIntroSection from "../components/FreeIntroSection";
-import LegalNotice from "../components/LegalNotice";
+import GlobalLayout from "@/components/GlobalLayout";
 
 export default function AsiaPacificPage() {
   return (
-    <main>
-      <h1>Asia-Pacific</h1>
-
+    <GlobalLayout title="Edunancial — Asia-Pacific" region="Asia-Pacific">
       <p>
-        Focus on developed markets, trade-driven economies, and capital
-        efficiency.
+        Asia-Pacific focuses on execution discipline, scale dynamics, and rapid
+        capital deployment environments.
       </p>
 
-      <CapitalDisciplineSection />
-      <FreeIntroSection />
-      <LegalNotice />
-    </main>
+      <h2>Thinking Progression</h2>
+      <ul>
+        <li>Pattern acceleration</li>
+        <li>Operational leverage</li>
+        <li>Capital velocity awareness</li>
+      </ul>
+
+      <h2>Access Model</h2>
+      <p>
+        Strategic primers are open. Advanced scale and execution frameworks are
+        paid.
+      </p>
+    </GlobalLayout>
   );
 }
