@@ -2,27 +2,18 @@ import GlobalLayout from "@/components/GlobalLayout";
 
 export default function AsiaPacificPage() {
   return (
-    <GlobalLayout
-      title="Edunancial — Asia-Pacific"
-      region="Asia-Pacific"
-    >
+    <GlobalLayout title="Asia-Pacific">
       <p>
-        Asia-Pacific focuses on execution discipline, scale dynamics,
-        and high-velocity capital environments.
+        Asia-Pacific emphasizes mature supply chains, execution speed,
+        and systems optimization across advanced markets.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Pattern acceleration</li>
-        <li>Operational leverage</li>
-        <li>Capital velocity awareness</li>
+        <li>Operational velocity</li>
+        <li>Supply-chain intelligence</li>
+        <li>Scalable execution systems</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Strategic primers are open. Advanced scale and execution frameworks
-        are paid.
-      </p>
     </GlobalLayout>
   );
 }
