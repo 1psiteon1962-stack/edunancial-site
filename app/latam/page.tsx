@@ -1,25 +1,19 @@
 import GlobalLayout from "@/components/GlobalLayout";
 
-export default function LATAMPage() {
+export default function LatamPage() {
   return (
-    <GlobalLayout title="Edunancial — Latin America" region="Latin America">
+    <GlobalLayout title="Latin America">
       <p>
-        Latin America focuses on volatility navigation, informal-to-formal
-        transitions, and cross-border capital awareness.
+        Latin America emphasizes adaptive systems, currency volatility awareness,
+        and practical execution in fragmented markets.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Comparative systems thinking</li>
-        <li>Risk vs structure evaluation</li>
-        <li>Portability of business models</li>
+        <li>Operational resilience</li>
+        <li>Cross-border thinking</li>
+        <li>Capital preservation strategies</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Foundational content is open. Advanced comparative and cross-border
-        frameworks require paid access.
-      </p>
     </GlobalLayout>
   );
 }
