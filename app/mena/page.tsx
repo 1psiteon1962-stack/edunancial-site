@@ -1,25 +1,19 @@
 import GlobalLayout from "@/components/GlobalLayout";
 
-export default function MENAPage() {
+export default function MenaPage() {
   return (
-    <GlobalLayout title="Edunancial — MENA" region="Middle East & North Africa">
+    <GlobalLayout title="Middle East & North Africa">
       <p>
-        MENA content prioritizes governance awareness, capital allocation,
-        institutional interfaces, and long-horizon strategy.
+        MENA emphasizes capital concentration, governance structure,
+        and jurisdictional awareness in capital-dense environments.
       </p>
 
-      <h2>Thinking Progression</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Structural literacy</li>
-        <li>Capital hierarchy awareness</li>
-        <li>System transferability</li>
+        <li>Capital structuring</li>
+        <li>Regulatory positioning</li>
+        <li>Long-cycle investment discipline</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Introductory system models are open. Institutional-grade frameworks and
-        simulations are paid.
-      </p>
     </GlobalLayout>
   );
 }
