@@ -2,24 +2,18 @@ import GlobalLayout from "@/components/GlobalLayout";
 
 export default function USPage() {
   return (
-    <GlobalLayout title="Edunancial — United States" region="United States">
+    <GlobalLayout title="United States">
       <p>
-        The U.S. platform focuses on capital structure, regulatory awareness,
-        market mechanics, and long-term enterprise durability.
+        The United States platform emphasizes advanced market structure,
+        regulatory awareness, capital efficiency, and systems-level execution.
       </p>
 
-      <h2>How Thinking Progresses Here</h2>
+      <h2>Primary Focus</h2>
       <ul>
-        <li>Pattern recognition in markets and policy</li>
-        <li>Structural comparison (corporate vs personal finance)</li>
-        <li>Transferable decision frameworks</li>
+        <li>Capital discipline and governance</li>
+        <li>Risk allocation and compliance awareness</li>
+        <li>Scalable operating systems</li>
       </ul>
-
-      <h2>Access Model</h2>
-      <p>
-        Entry materials are open. Advanced frameworks, simulations, and capital
-        modeling paths are paid.
-      </p>
     </GlobalLayout>
   );
 }
