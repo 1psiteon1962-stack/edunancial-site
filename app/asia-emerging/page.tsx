@@ -4,31 +4,37 @@ export default function EmergingAsiaPage() {
   return (
     <GlobalLayout title="Edunancial — Emerging Asia">
       <p>
-        Emerging Asia focuses on early-stage system formation, capital
-        awareness, and disciplined growth in transitioning economies.
-        Emphasis is placed on understanding how structured decision-making
-        supports durability as markets evolve.
+        Edunancial’s Emerging Asia focus addresses environments where economic
+        systems are still forming, capital access is uneven, and institutional
+        maturity varies significantly by location.
       </p>
 
-      <h2>Regional Focus</h2>
+      <p>
+        Participants in these markets often navigate rapid growth, informal
+        structures, evolving regulation, and early-stage capital deployment
+        without established reference models.
+      </p>
+
+      <h2>Primary Emphasis</h2>
       <ul>
-        <li>Foundational economic systems</li>
-        <li>Capital literacy and allocation awareness</li>
-        <li>Risk containment in early growth stages</li>
-        <li>Transferable business models</li>
+        <li>Foundational capital literacy without abstraction</li>
+        <li>System awareness before scale or expansion</li>
+        <li>Distinguishing opportunity from structural risk</li>
+        <li>Transferable frameworks adaptable to local realities</li>
       </ul>
 
       <h2>Thinking Progression</h2>
       <p>
-        Materials prioritize clarity over complexity, enabling individuals to
-        recognize patterns, constraints, and opportunities without reliance on
-        jargon or speculative assumptions.
+        The focus is not acceleration, speculation, or hype. The focus is
+        sequence — understanding systems first, then applying discipline,
+        before attempting growth.
       </p>
 
       <h2>Access Model</h2>
       <p>
-        System awareness content is openly available. Applied frameworks and
-        comparative models are accessible through structured participation.
+        Entry-level system understanding is open. Structured frameworks,
+        scenario mapping, and applied capital logic are available through
+        controlled access as users progress.
       </p>
     </GlobalLayout>
   );
