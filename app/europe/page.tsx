@@ -1,20 +1,22 @@
-import CapitalDisciplineSection from "../components/CapitalDisciplineSection";
-import FreeIntroSection from "../components/FreeIntroSection";
-import LegalNotice from "../components/LegalNotice";
+import GlobalLayout from "@/components/GlobalLayout";
 
 export default function EuropePage() {
   return (
-    <main>
-      <h1>Europe</h1>
-
+    <GlobalLayout title="Edunancial — Europe" region="Europe">
       <p>
-        Coverage includes regulated markets, business ownership, and
-        cross-border capital structures.
+        Europe emphasizes regulatory structure, long-term capital stability, and
+        cross-national systems alignment.
       </p>
 
-      <CapitalDisciplineSection />
-      <FreeIntroSection />
-      <LegalNotice />
-    </main>
+      <h2>Thinking Progression</h2>
+      <ul>
+        <li>Framework comparison</li>
+        <li>Compliance-aware strategy</li>
+        <li>Scalable operational thinking</li>
+      </ul>
+
+      <h2>Languages Supported</h2>
+      <p>English, French, German, Spanish</p>
+    </GlobalLayout>
   );
 }
