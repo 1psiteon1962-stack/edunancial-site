@@ -1,41 +1,24 @@
-import GlobalLayout from "@/components/GlobalLayout";
-
-export default function EmergingAsiaPage() {
+export default function AsiaEmergingPage() {
   return (
-    <GlobalLayout title="Edunancial — Emerging Asia">
+    <>
+      <h1>Asia Emerging Markets</h1>
+
       <p>
-        Edunancial’s Emerging Asia focus addresses environments where economic
-        systems are still forming, capital access is uneven, and institutional
-        maturity varies significantly by location.
+        Emerging Asian markets operate under different constraints than
+        developed economies — capital access, regulatory maturity, and
+        infrastructure vary widely.
       </p>
 
       <p>
-        Participants in these markets often navigate rapid growth, informal
-        structures, evolving regulation, and early-stage capital deployment
-        without established reference models.
+        The focus here is:
       </p>
 
-      <h2>Primary Emphasis</h2>
       <ul>
-        <li>Foundational capital literacy without abstraction</li>
-        <li>System awareness before scale or expansion</li>
-        <li>Distinguishing opportunity from structural risk</li>
-        <li>Transferable frameworks adaptable to local realities</li>
+        <li>Foundational financial systems</li>
+        <li>SME growth and informal-to-formal transitions</li>
+        <li>Cross-border trade readiness</li>
+        <li>Long-term institutional stability</li>
       </ul>
-
-      <h2>Thinking Progression</h2>
-      <p>
-        The focus is not acceleration, speculation, or hype. The focus is
-        sequence — understanding systems first, then applying discipline,
-        before attempting growth.
-      </p>
-
-      <h2>Access Model</h2>
-      <p>
-        Entry-level system understanding is open. Structured frameworks,
-        scenario mapping, and applied capital logic are available through
-        controlled access as users progress.
-      </p>
-    </GlobalLayout>
+    </>
   );
 }
