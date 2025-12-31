@@ -1,18 +1,17 @@
 'use client';
 
 import React from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
+import Header from './Header';
 
-type Props = {
-  title?: string;
+export default function GlobalLayout({
+  children,
+}: {
   children: React.ReactNode;
-};
-
-export default function GlobalLayout({ title, children }: Props) {
-  const router = useRouter();
+}) {
   const pathname = usePathname();
+  const router = useRouter();
 
-  // ✅ Null-safe language detection
   const isSpanish = pathname?.startsWith('/es') ?? false;
 
   const toggleLanguage = () => {
@@ -26,37 +25,14 @@ export default function GlobalLayout({ title, children }: Props) {
   };
 
   return (
-    <main style={{ maxWidth: '900px', margin: '0 auto', padding: '1.5rem' }}>
-      
-      {/* GLOBAL REGION NAV */}
-      <nav style={{ marginBottom: '1.5rem', fontSize: '0.95rem' }}>
-        Regions:&nbsp;
-        <a href="/us">US</a> |{' '}
-        <a href="/latam">LATAM</a> |{' '}
-        <a href="/africa">Africa</a> |{' '}
-        <a href="/mena">MENA</a> |{' '}
-        <a href="/europe">Europe</a> |{' '}
-        <a href="/asia-pacific">Asia-Pacific</a> |{' '}
-        <a href="/asia-emerging">Emerging Asia</a>
-      </nav>
-
-      {/* LANGUAGE TOGGLE */}
-      <div style={{ marginBottom: '1rem' }}>
-        <button
-          onClick={toggleLanguage}
-          style={{
-            fontSize: '0.85rem',
-            padding: '0.35rem 0.6rem',
-            cursor: 'pointer'
-          }}
-        >
-          {isSpanish ? 'View in English' : 'Ver en Español'}
-        </button>
-      </div>
-
-      {title && <h1>{title}</h1>}
-
-      {children}
-    </main>
+    <>
+      <Header
+        isSpanish={isSpanish}
+        onToggleLanguage={toggleLanguage}
+      />
+      <main style={{ padding: '2rem', maxWidth: '900px', margin: '0 auto' }}>
+        {children}
+      </main>
+    </>
   );
 }
