@@ -1,19 +1,26 @@
-import GlobalLayout from "@/components/GlobalLayout";
+import GlobalLayout from '@/components/GlobalLayout';
 
 export default function USPage() {
   return (
     <GlobalLayout title="United States">
       <p>
-        The United States platform emphasizes advanced market structure,
-        regulatory awareness, capital efficiency, and systems-level execution.
+        The United States market emphasizes system transparency, capital flow,
+        regulatory structure, and scale efficiency.
       </p>
 
-      <h2>Primary Focus</h2>
+      <h2>Thinking Progression</h2>
       <ul>
-        <li>Capital discipline and governance</li>
-        <li>Risk allocation and compliance awareness</li>
-        <li>Scalable operating systems</li>
+        <li>Pattern recognition in economic behavior</li>
+        <li>Cause vs structure analysis</li>
+        <li>Bottleneck identification</li>
+        <li>Transferable operating models</li>
       </ul>
+
+      <h2>Access Model</h2>
+      <p>
+        Introductory system awareness is public. Advanced analytical frameworks
+        and implementation models are gated.
+      </p>
     </GlobalLayout>
   );
 }
