@@ -1,25 +1,22 @@
-import GlobalLayout from '@/components/GlobalLayout';
+import GlobalLayout from "@/components/GlobalLayout";
 
 export default function AfricaPage() {
   return (
     <GlobalLayout title="Africa">
-      <p>
-        Africa represents one of the most structurally important growth regions
-        in the global economy. The continent combines demographic expansion,
-        resource depth, and accelerating digital adoption.
-      </p>
+      <section style={{ maxWidth: "720px", margin: "0 auto", padding: "3rem 1.5rem" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: 600, marginBottom: "1rem" }}>
+          Edunancial — Africa
+        </h1>
 
-      <p>
-        Edunancial’s Africa framework focuses on capital access, infrastructure
-        sequencing, regulatory maturity, and long-term system stability rather
-        than short-term speculation.
-      </p>
+        <h2 style={{ fontSize: "1.5rem", fontWeight: 500, marginBottom: "1.5rem" }}>
+          Capital clarity across diverse markets
+        </h2>
 
-      <p>
-        Priority themes include financial inclusion, energy reliability,
-        logistics infrastructure, mobile-first platforms, and education-driven
-        workforce development.
-      </p>
+        <p style={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
+          Africa is not one economy. We address regional realities with disciplined
+          capital frameworks and practical execution.
+        </p>
+      </section>
     </GlobalLayout>
   );
 }
