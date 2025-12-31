@@ -1,19 +1,34 @@
-import GlobalLayout from "@/components/GlobalLayout";
+import GlobalLayout from '@/components/GlobalLayout';
 
 export default function AfricaPage() {
   return (
     <GlobalLayout title="Africa">
       <p>
-        Africa focuses on foundational systems, infrastructure-first thinking,
-        and disciplined capital deployment in emerging environments.
+        African markets prioritize system access, infrastructure emergence, and
+        early-stage capital discipline under conditions of constraint.
       </p>
 
-      <h2>Primary Focus</h2>
+      <h2>Thinking Progression</h2>
       <ul>
-        <li>Sequential system development</li>
-        <li>Early-stage capital efficiency</li>
-        <li>Localized execution models</li>
+        <li>Observation without technical jargon</li>
+        <li>Guided contrast between informal and formal systems</li>
+        <li>Identification of structural bottlenecks</li>
+        <li>Adaptable operating frameworks</li>
       </ul>
+
+      <h2>Primary Focus Areas</h2>
+      <ul>
+        <li>Financial inclusion</li>
+        <li>Infrastructure literacy</li>
+        <li>Supply-chain resilience</li>
+        <li>Localized capital efficiency</li>
+      </ul>
+
+      <h2>Access Model</h2>
+      <p>
+        Foundational system literacy is open. Advanced execution models and
+        capital coordination tools are structured as paid access.
+      </p>
     </GlobalLayout>
   );
 }
