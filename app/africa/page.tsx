@@ -1,34 +1,29 @@
-import GlobalLayout from '@/components/GlobalLayout';
-
 export default function AfricaPage() {
   return (
-    <GlobalLayout title="Africa">
+    <>
+      <h1>Africa</h1>
+
       <p>
-        African markets prioritize system access, infrastructure emergence, and
-        early-stage capital discipline under conditions of constraint.
+        Africa represents one of the most structurally important growth regions
+        in the global economy — not because of hype, but because of fundamentals.
       </p>
 
-      <h2>Thinking Progression</h2>
-      <ul>
-        <li>Observation without technical jargon</li>
-        <li>Guided contrast between informal and formal systems</li>
-        <li>Identification of structural bottlenecks</li>
-        <li>Adaptable operating frameworks</li>
-      </ul>
-
-      <h2>Primary Focus Areas</h2>
-      <ul>
-        <li>Financial inclusion</li>
-        <li>Infrastructure literacy</li>
-        <li>Supply-chain resilience</li>
-        <li>Localized capital efficiency</li>
-      </ul>
-
-      <h2>Access Model</h2>
       <p>
-        Foundational system literacy is open. Advanced execution models and
-        capital coordination tools are structured as paid access.
+        Edunancial’s Africa framework focuses on:
       </p>
-    </GlobalLayout>
+
+      <ul>
+        <li>Entrepreneurial infrastructure over speculation</li>
+        <li>Financial literacy tied to real market constraints</li>
+        <li>Capital formation before capital markets</li>
+        <li>Regional trade, logistics, and energy realities</li>
+      </ul>
+
+      <p>
+        Rather than importing external economic models wholesale, the platform
+        emphasizes adaptation — combining global best practices with local
+        execution realities.
+      </p>
+    </>
   );
 }
