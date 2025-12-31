@@ -1,23 +1,18 @@
+import GlobalLayout from '@/components/GlobalLayout';
+
 export default function AsiaPacificPage() {
   return (
-    <>
-      <h1>Asia Pacific</h1>
-
+    <GlobalLayout title="Asia-Pacific">
       <p>
-        Asia Pacific economies are defined by scale, velocity, and integration
-        into global supply chains.
+        Asia-Pacific markets emphasize scale efficiency, export-driven growth,
+        manufacturing integration, and capital velocity.
       </p>
 
       <p>
-        Edunancial’s Asia Pacific framework prioritizes:
+        Edunancial analyzes Asia-Pacific through supply-chain resilience,
+        monetary coordination, technology transfer, and cross-border trade
+        systems.
       </p>
-
-      <ul>
-        <li>Manufacturing and logistics literacy</li>
-        <li>Capital efficiency over capital abundance</li>
-        <li>Regulatory navigation across jurisdictions</li>
-        <li>Technology-driven productivity</li>
-      </ul>
-    </>
+    </GlobalLayout>
   );
 }
