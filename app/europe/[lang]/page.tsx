@@ -1,17 +1,21 @@
-// app/europe/[lang]/page.tsx
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import { Language } from "@/lib/i18n";
+import GlobalLayout from '@/components/GlobalLayout';
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
 
-export default function EuropePage({
-  params,
-}: {
-  params: { lang: Language };
-}) {
+export function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'fr' }, { lang: 'de' }, { lang: 'es' }];
+}
+
+export default function EuropePage() {
   return (
-    <>
-      <LocalizedDoctrine lang={params.lang} />
-      <CurriculumPath />
-    </>
+    <GlobalLayout title="Europe">
+      <p>
+        European capital systems emphasize compliance, longevity, institutional
+        continuity, and structured risk allocation.
+      </p>
+
+      <CurriculumPath region="Europe" />
+      <CapitalismAssessment />
+    </GlobalLayout>
   );
 }
