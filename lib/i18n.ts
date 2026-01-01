@@ -1,31 +1,18 @@
-// lib/i18n.ts
-
-export type Language = 'en' | 'es' | 'fr' | 'de' | 'ar' | 'pt' | 'zh';
-
-export const supportedLanguages: Language[] = [
-  'en',
-  'es',
-  'fr',
-  'de',
-  'ar',
-  'pt',
-  'zh'
-];
+export type Language = 'en' | 'es' | 'pt';
 
 export const REGION_LANGUAGES: Record<string, Language[]> = {
   us: ['en', 'es'],
-  africa: ['en', 'fr'],
-  europe: ['en', 'fr', 'de'],
-  eu: ['en', 'fr', 'de'],
-  mena: ['en', 'ar'],
-  asia: ['en', 'zh'],
+  africa: ['en', 'pt'],
+  asia: ['en'],
+  'asia-pacific': ['en'],
   'asia-emerging': ['en'],
-  'asia-pacific': ['en']
+  europe: ['en', 'es', 'pt'],
+  mena: ['en']
 };
 
-export function resolveCopy(
+export function resolveCopy<T>(
   lang: Language,
-  copy: Record<Language, string>
-): string {
-  return copy[lang] ?? copy['en'];
+  map: Record<Language, T>
+): T {
+  return map[lang] ?? map.en;
 }
