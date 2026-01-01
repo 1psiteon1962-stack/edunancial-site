@@ -1,19 +1,30 @@
-export default function CurriculumPath({ region }: { region: string }) {
+'use client';
+
+type CurriculumStep = {
+  title: string;
+  description: string;
+};
+
+type Props = {
+  steps: CurriculumStep[];
+};
+
+export default function CurriculumPath({ steps }: Props) {
   return (
-    <section>
-      <h2>Capital Discipline Path – {region}</h2>
+    <section className="mt-12 space-y-6">
+      <h2 className="text-2xl font-semibold">Learning Path</h2>
 
-      <ol>
-        <li>Foundational Capital Awareness</li>
-        <li>Structure & Risk Containment</li>
-        <li>Capital Flow Literacy</li>
-        <li>Asset Strategy (Red / White / Blue)</li>
+      <ol className="space-y-4">
+        {steps.map((step, index) => (
+          <li
+            key={index}
+            className="border-l-4 border-gray-300 pl-4"
+          >
+            <h3 className="font-medium">{step.title}</h3>
+            <p className="text-sm text-gray-600">{step.description}</p>
+          </li>
+        ))}
       </ol>
-
-      <p>
-        This path begins free and advances toward structured participation,
-        membership, and applied capital strategy.
-      </p>
     </section>
   );
 }
