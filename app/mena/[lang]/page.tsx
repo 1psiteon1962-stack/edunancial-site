@@ -1,20 +1,21 @@
-// app/mena/[lang]/page.tsx
-
-import { REGION_LANGUAGES, Language } from "@/lib/i18n";
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import GlobalLayout from '@/components/GlobalLayout';
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
 
 export function generateStaticParams() {
-  return REGION_LANGUAGES.mena.map((lang) => ({ lang }));
+  return [{ lang: 'en' }, { lang: 'ar' }, { lang: 'fr' }];
 }
 
-export default function MenaPage({ params }: { params: { lang: Language } }) {
+export default function MENAPage() {
   return (
-    <>
-      <LocalizedDoctrine lang={params.lang} />
-      <CurriculumPath />
+    <GlobalLayout title="MENA">
+      <p>
+        MENA markets balance sovereign capital, infrastructure investment,
+        private equity, and family-office governance.
+      </p>
+
+      <CurriculumPath region="MENA" />
       <CapitalismAssessment />
-    </>
+    </GlobalLayout>
   );
 }
