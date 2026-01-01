@@ -1,21 +1,44 @@
-import GlobalLayout from '@/components/GlobalLayout';
 import CurriculumPath from '@/components/CurriculumPath';
 import CapitalismAssessment from '@/components/CapitalismAssessment';
+import { REGION_LANGUAGES, Language } from '@/lib/i18n';
 
 export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'fr' }];
+  return REGION_LANGUAGES.africa.map((lang) => ({ lang }));
 }
 
-export default function AfricaPage({ params }: { params: { lang: string } }) {
+export default function AfricaPage({
+  params,
+}: {
+  params: { lang: Language };
+}) {
+  const steps = [
+    {
+      title: 'Foundational Capital Literacy',
+      description:
+        'Understanding capital flows, trade, and financial systems across African markets.',
+    },
+    {
+      title: 'Regional Market Structures',
+      description:
+        'How informal and formal economies interact across borders.',
+    },
+    {
+      title: 'Execution & Scale',
+      description:
+        'Moving from subsistence activity to scalable enterprise.',
+    },
+  ];
+
   return (
-    <GlobalLayout title="Africa">
-      <p>
-        African markets prioritize resilience, infrastructure growth,
-        cross-border trade, and capital formation under constraint.
+    <main className="max-w-5xl mx-auto px-6 py-12">
+      <h1 className="text-4xl font-semibold">Edunancial — Africa</h1>
+
+      <p className="mt-4 text-gray-700">
+        Capital clarity across diverse markets. Africa is not one economy.
       </p>
 
-      <CurriculumPath region="Africa" />
+      <CurriculumPath steps={steps} />
       <CapitalismAssessment />
-    </GlobalLayout>
+    </main>
   );
 }
