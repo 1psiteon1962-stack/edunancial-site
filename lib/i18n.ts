@@ -4,25 +4,23 @@ export type Language = typeof supportedLanguages[number];
 export const defaultLanguage: Language = "en";
 
 /**
- * Region → allowed languages
- * Extend later without breaking routes
+ * REGION → SUPPORTED LANGUAGES
  */
 export const REGION_LANGUAGES: Record<string, Language[]> = {
   africa: ["en", "es"],
   europe: ["en", "es"],
+  eu: ["en", "es"],
   mena: ["en", "es"],
-  asia: ["en", "es"],
   "asia-pacific": ["en"],
   "asia-emerging": ["en"],
 };
 
 /**
- * Resolves copy safely by language
+ * Resolve localized copy safely
  */
 export function resolveCopy<T>(
-  contentMap: Record<Language, T>,
   lang: Language,
-  fallback: Language = defaultLanguage
+  contentMap: Record<Language, T>
 ): T {
-  return contentMap[lang] ?? contentMap[fallback];
+  return contentMap[lang] ?? contentMap[defaultLanguage];
 }
