@@ -1,40 +1,58 @@
-import CurriculumPath from '@/components/CurriculumPath';
-import CapitalismAssessment from '@/components/CapitalismAssessment';
-import LocalizedDoctrine from '@/components/LocalizedDoctrine';
-import { Language } from '@/lib/i18n';
+import GlobalLayout from "@/components/GlobalLayout";
+import LocalizedDoctrine from "@/components/LocalizedDoctrine";
+import CurriculumPath from "@/components/CurriculumPath";
+import CapitalismAssessment from "@/components/CapitalismAssessment";
+import { REGION_LANGUAGES, Language } from "@/lib/i18n";
+
+/**
+ * Required by Next.js for static generation of [lang]
+ */
+export function generateStaticParams() {
+  return REGION_LANGUAGES.mena.map((lang: Language) => ({
+    lang,
+  }));
+}
 
 export default function MENAPage({
-  params
+  params,
 }: {
   params: { lang: Language };
 }) {
-  const steps = [
-    {
-      title: 'Foundational Capital Literacy',
-      description: 'Understanding money, ownership, and enterprise.'
-    },
-    {
-      title: 'Legal & Cultural Constraints',
-      description: 'Operating within regional norms and regulations.'
-    },
-    {
-      title: 'Cross-Border Capital Strategy',
-      description: 'Positioning for international scalability.'
-    }
-  ];
+  const { lang } = params;
 
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>MENA Region</h1>
+    <GlobalLayout title="Middle East & North Africa">
+      <main className="max-w-6xl mx-auto px-6 py-12 space-y-16">
+        {/* HERO */}
+        <section className="space-y-4">
+          <h1 className="text-4xl font-bold">
+            Middle East & North Africa (MENA)
+          </h1>
+          <p className="text-lg text-gray-700">
+            The MENA region combines legacy trade networks, energy markets,
+            sovereign capital, and rapidly evolving digital economies. Education
+            here focuses on structured capital flows, regulatory awareness, and
+            long-term asset protection.
+          </p>
+        </section>
 
-      <LocalizedDoctrine lang={params.lang} />
+        {/* DOCTRINE */}
+        <LocalizedDoctrine lang={lang} />
 
-      <CurriculumPath
-        region="mena"
-        steps={steps}
-      />
+        {/* CURRICULUM */}
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Curriculum Path</h2>
+          <CurriculumPath />
+        </section>
 
-      <CapitalismAssessment />
-    </main>
+        {/* ASSESSMENT */}
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">
+            Capital Systems Assessment
+          </h2>
+          <CapitalismAssessment />
+        </section>
+      </main>
+    </GlobalLayout>
   );
 }
