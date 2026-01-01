@@ -15,16 +15,10 @@ export default function CapitalismAssessment() {
 
   return (
     <section className="py-16 px-6 max-w-4xl mx-auto bg-gray-50">
-      <h2 className="text-3xl font-bold mb-6">
-        Capitalism Position Assessment
-      </h2>
-
-      <p className="mb-6">
-        Select the statement that most accurately reflects your current position.
-      </p>
+      <h2 className="text-3xl font-bold mb-6">Capitalism Position Assessment</h2>
 
       <div className="space-y-4">
-        {questions.map((q) => (
+        {questions.map(q => (
           <button
             key={q.level}
             onClick={() => setSelectedLevel(q.level)}
@@ -41,8 +35,8 @@ export default function CapitalismAssessment() {
             You are currently at Level {selectedLevel}
           </h3>
           <p>
-            Edunancial is designed to help you progress structurally — not emotionally —
-            toward the next level of leverage and control.
+            Edunancial provides structural literacy to help you move to the
+            next level before consolidation occurs.
           </p>
         </div>
       )}
