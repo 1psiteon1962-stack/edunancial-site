@@ -1,24 +1,28 @@
 // components/LocalizedDoctrine.tsx
 
+import { Language } from "@/lib/i18n";
 import { content as en } from "@/data/content.en";
 import { content as es } from "@/data/content.es";
-import { Language } from "@/lib/i18n";
+import { regionContent } from "@/data/regionContent";
 
-const contentMap = { en, es };
+const languageMap = { en, es };
 
 export default function LocalizedDoctrine({
   lang,
+  region,
 }: {
   lang: Language;
+  region: "africa" | "asia" | "europe" | "mena";
 }) {
-  const c = contentMap[lang];
+  const base = languageMap[lang];
+  const regional = regionContent[region][lang];
 
   return (
     <section className="py-16 px-6 max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6">
-        {c.doctrineTitle}
+      <h2 className="text-3xl font-bold mb-4">
+        {regional.title || base.doctrineTitle}
       </h2>
-      <p>{c.doctrineBody}</p>
+      <p className="text-lg">{regional.body || base.doctrineBody}</p>
     </section>
   );
 }
