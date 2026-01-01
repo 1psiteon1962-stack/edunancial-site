@@ -1,28 +1,38 @@
 import CurriculumPath from '@/components/CurriculumPath';
 import CapitalismAssessment from '@/components/CapitalismAssessment';
-
-export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'es' }];
-}
+import LocalizedDoctrine from '@/components/LocalizedDoctrine';
+import { Language } from '@/lib/i18n';
 
 export default function MENAPage({
-  params,
+  params
 }: {
-  params: { lang: string };
+  params: { lang: Language };
 }) {
-  const isSpanish = params.lang === 'es';
+  const steps = [
+    {
+      title: 'Foundational Capital Literacy',
+      description: 'Understanding money, ownership, and enterprise.'
+    },
+    {
+      title: 'Legal & Cultural Constraints',
+      description: 'Operating within regional norms and regulations.'
+    },
+    {
+      title: 'Cross-Border Capital Strategy',
+      description: 'Positioning for international scalability.'
+    }
+  ];
 
   return (
-    <main style={{ padding: '2rem', maxWidth: '960px', margin: '0 auto' }}>
-      <h1>{isSpanish ? 'Región MENA' : 'MENA Region'}</h1>
+    <main style={{ padding: '2rem' }}>
+      <h1>MENA Region</h1>
 
-      <p style={{ marginTop: '1rem' }}>
-        {isSpanish
-          ? 'La región MENA requiere un enfoque estratégico en preservación de capital, estructura legal y crecimiento controlado.'
-          : 'The MENA region requires a strategic focus on capital preservation, legal structure, and controlled growth.'}
-      </p>
+      <LocalizedDoctrine lang={params.lang} />
 
-      <CurriculumPath region="mena" />
+      <CurriculumPath
+        region="mena"
+        steps={steps}
+      />
 
       <CapitalismAssessment />
     </main>
