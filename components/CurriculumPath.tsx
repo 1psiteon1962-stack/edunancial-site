@@ -2,49 +2,27 @@
 
 import React from 'react';
 
-type CurriculumStep = {
+export type CurriculumStep = {
   title: string;
   description: string;
 };
 
-type CurriculumPathProps = {
-  region: string;
-};
+export interface CurriculumPathProps {
+  steps: CurriculumStep[];
+}
 
-const PATHS: Record<string, CurriculumStep[]> = {
-  mena: [
-    {
-      title: 'Foundations of Capital & Trade',
-      description:
-        'Introduction to capital flow, regional trade dynamics, and economic structures specific to MENA markets.',
-    },
-    {
-      title: 'Regulation, Compliance, and Risk',
-      description:
-        'Understanding sovereign risk, Sharia-compliant finance considerations, and cross-border compliance.',
-    },
-    {
-      title: 'Scaling Across Borders',
-      description:
-        'Building entities and partnerships that operate across MENA, Europe, and Asia.',
-    },
-  ],
-};
-
-export default function CurriculumPath({ region }: CurriculumPathProps) {
-  const steps = PATHS[region] || [];
-
+export default function CurriculumPath({ steps }: CurriculumPathProps) {
   return (
-    <section style={{ marginTop: '2rem' }}>
+    <section className="curriculum-path">
       <h2>Curriculum Path</h2>
-      <ul>
+      <ol>
         {steps.map((step, index) => (
-          <li key={index} style={{ marginBottom: '1rem' }}>
-            <strong>{step.title}</strong>
+          <li key={index}>
+            <h3>{step.title}</h3>
             <p>{step.description}</p>
           </li>
         ))}
-      </ul>
+      </ol>
     </section>
   );
 }
