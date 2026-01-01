@@ -1,23 +1,15 @@
-// data/content.es.ts
 export const content = {
-  doctrineTitle: "Capitalismo — Resumen Estructural",
+  doctrineTitle: "La Doctrina Edunancial",
   doctrineBody: `
-El capitalismo tiene un estado final predecible: la consolidación.
+El capitalismo se consolida.
 
 Los mercados comienzan con muchos participantes.
-La innovación se propaga rápidamente.
-El capital busca eficiencia.
+La innovación se difunde.
 La eficiencia concentra el poder.
-La mayoría de los participantes son eliminados.
+La mayoría es eliminada.
 
-Esto no es un fallo del capitalismo.
-Es su resultado normal.
-
-Edunancial existe para brindar alfabetización estructural antes del riesgo,
-posicionamiento antes del financiamiento,
-y preparación antes de que ocurra la consolidación.
-
-Edunancial no promete éxito.
-Proporciona posición.
+Edunancial existe para enseñar estructura antes del riesgo,
+posición antes del ingreso,
+y preparación antes de la consolidación.
 `,
 };
