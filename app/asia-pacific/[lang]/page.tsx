@@ -1,7 +1,13 @@
 // app/asia-pacific/[lang]/page.tsx
+
+import { REGION_LANGUAGES, Language } from "@/lib/i18n";
 import LocalizedDoctrine from "@/components/LocalizedDoctrine";
 import CurriculumPath from "@/components/CurriculumPath";
-import { Language } from "@/lib/i18n";
+import CapitalismAssessment from "@/components/CapitalismAssessment";
+
+export function generateStaticParams() {
+  return REGION_LANGUAGES["asia-pacific"].map((lang) => ({ lang }));
+}
 
 export default function AsiaPacificPage({
   params,
@@ -12,6 +18,7 @@ export default function AsiaPacificPage({
     <>
       <LocalizedDoctrine lang={params.lang} />
       <CurriculumPath />
+      <CapitalismAssessment />
     </>
   );
 }
