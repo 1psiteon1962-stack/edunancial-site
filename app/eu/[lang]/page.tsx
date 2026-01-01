@@ -1,35 +1,20 @@
-import { notFound } from "next/navigation";
-import {
-  resolveCopy,
-  Language,
-  REGION_LANGUAGES,
-} from "@/lib/i18n";
+// app/eu/[lang]/page.tsx
 
-export async function generateStaticParams() {
-  return REGION_LANGUAGES.EU.map((lang) => ({ lang }));
+import { REGION_LANGUAGES, resolveCopy, Language } from "@/lib/i18n";
+import LocalizedDoctrine from "@/components/LocalizedDoctrine";
+import CurriculumPath from "@/components/CurriculumPath";
+import CapitalismAssessment from "@/components/CapitalismAssessment";
+
+export function generateStaticParams() {
+  return REGION_LANGUAGES.eu.map((lang) => ({ lang }));
 }
 
-export default function Page({
-  params,
-}: {
-  params: { lang: Language };
-}) {
-  const copy = resolveCopy("EU", params.lang);
-
-  if (!copy) notFound();
-
+export default function EuropePage({ params }: { params: { lang: Language } }) {
   return (
-    <main
-      dir={copy.dir}
-      style={{
-        maxWidth: 900,
-        margin: "0 auto",
-        padding: "2rem",
-      }}
-    >
-      <h1>{copy.title} — Europe</h1>
-      <h3>{copy.subtitle}</h3>
-      <p>{copy.body}</p>
-    </main>
+    <>
+      <LocalizedDoctrine lang={params.lang} />
+      <CurriculumPath />
+      <CapitalismAssessment />
+    </>
   );
 }
