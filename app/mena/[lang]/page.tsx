@@ -1,11 +1,8 @@
-import CurriculumPath, { CurriculumStep } from '@/components/CurriculumPath';
+import CurriculumPath from '@/components/CurriculumPath';
 import CapitalismAssessment from '@/components/CapitalismAssessment';
-import GlobalLayout from '@/components/GlobalLayout';
-
-export const dynamic = 'force-static';
 
 export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'ar' }, { lang: 'fr' }];
+  return [{ lang: 'en' }, { lang: 'es' }];
 }
 
 export default function MENAPage({
@@ -13,44 +10,21 @@ export default function MENAPage({
 }: {
   params: { lang: string };
 }) {
-  const steps: CurriculumStep[] = [
-    {
-      title: 'Foundational Economics',
-      description:
-        'Understand capitalism, state influence, and market controls specific to MENA economies.',
-    },
-    {
-      title: 'Legal & Regulatory Systems',
-      description:
-        'Study Sharia-compliant finance, hybrid legal systems, and cross-border compliance.',
-    },
-    {
-      title: 'Capital Formation',
-      description:
-        'Learn sovereign wealth funds, family offices, and public–private investment structures.',
-    },
-    {
-      title: 'Enterprise Scaling',
-      description:
-        'Explore regional expansion strategies across GCC, North Africa, and Levant markets.',
-    },
-  ];
+  const isSpanish = params.lang === 'es';
 
   return (
-    <GlobalLayout title="Middle East & North Africa">
-      <main>
-        <h1>MENA Economic & Business Framework</h1>
+    <main style={{ padding: '2rem', maxWidth: '960px', margin: '0 auto' }}>
+      <h1>{isSpanish ? 'Región MENA' : 'MENA Region'}</h1>
 
-        <p>
-          This curriculum is designed for entrepreneurs, investors, and operators
-          working within Middle Eastern and North African markets, balancing
-          innovation with regulatory, cultural, and financial realities.
-        </p>
+      <p style={{ marginTop: '1rem' }}>
+        {isSpanish
+          ? 'La región MENA requiere un enfoque estratégico en preservación de capital, estructura legal y crecimiento controlado.'
+          : 'The MENA region requires a strategic focus on capital preservation, legal structure, and controlled growth.'}
+      </p>
 
-        <CurriculumPath steps={steps} />
+      <CurriculumPath region="mena" />
 
-        <CapitalismAssessment />
-      </main>
-    </GlobalLayout>
+      <CapitalismAssessment />
+    </main>
   );
 }
