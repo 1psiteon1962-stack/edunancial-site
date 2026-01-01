@@ -1,21 +1,40 @@
-import { Language } from "@/lib/i18n";
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
+import { REGION_LANGUAGES, Language } from '@/lib/i18n';
 
-export default function AsiaPage({ params }: { params: { lang: Language } }) {
+export function generateStaticParams() {
+  return REGION_LANGUAGES.asia.map((lang) => ({ lang }));
+}
+
+export default function AsiaPage({
+  params,
+}: {
+  params: { lang: Language };
+}) {
+  const steps = [
+    {
+      title: 'Capital Efficiency',
+      description:
+        'High-growth systems, export-driven economies, and capital velocity.',
+    },
+    {
+      title: 'Industrial Strategy',
+      description:
+        'Government-backed growth and private sector alignment.',
+    },
+    {
+      title: 'Global Integration',
+      description:
+        'Participating in global capital markets.',
+    },
+  ];
+
   return (
-    <>
-      <header className="py-10 px-6 max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold">Asia</h1>
-        <p className="mt-2 text-gray-600">
-          Digital-first positioning in high-density, high-competition markets.
-        </p>
-      </header>
+    <main className="max-w-5xl mx-auto px-6 py-12">
+      <h1 className="text-4xl font-semibold">Edunancial — Asia</h1>
 
-      <LocalizedDoctrine lang={params.lang} />
-      <CurriculumPath />
+      <CurriculumPath steps={steps} />
       <CapitalismAssessment />
-    </>
+    </main>
   );
 }
