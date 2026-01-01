@@ -1,27 +1,22 @@
 'use client';
 
-import React, { useState } from 'react';
-
-const QUESTIONS = [
-  'Do you understand how capital moves across borders?',
-  'Can you identify regulatory risk before entering a market?',
-  'Do you structure businesses for long-term scalability?',
-];
+import { useState } from 'react';
 
 export default function CapitalismAssessment() {
-  const [index, setIndex] = useState(0);
+  const [score, setScore] = useState<number | null>(null);
 
   return (
     <section style={{ marginTop: '2rem' }}>
       <h2>Capital Readiness Assessment</h2>
-      <p>{QUESTIONS[index]}</p>
-
-      <button
-        onClick={() => setIndex((i) => (i + 1) % QUESTIONS.length)}
-        style={{ marginTop: '1rem' }}
-      >
-        Next
+      <button onClick={() => setScore(72)}>
+        Run Assessment
       </button>
+
+      {score !== null && (
+        <p style={{ marginTop: '1rem' }}>
+          Estimated readiness score: {score}
+        </p>
+      )}
     </section>
   );
 }
