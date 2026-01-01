@@ -1,22 +1,21 @@
-import { REGION_LANGUAGES, Language } from "@/lib/i18n";
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import GlobalLayout from '@/components/GlobalLayout';
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
 
 export function generateStaticParams() {
-  return REGION_LANGUAGES["asia-pacific"].map(lang => ({ lang }));
+  return [{ lang: 'en' }];
 }
 
-export default function AsiaPacificPage({
-  params,
-}: {
-  params: { lang: Language };
-}) {
+export default function AsiaPacificPage() {
   return (
-    <>
-      <LocalizedDoctrine lang={params.lang} />
-      <CurriculumPath />
+    <GlobalLayout title="Asia-Pacific">
+      <p>
+        Asia-Pacific focuses on export-driven capital, logistics efficiency,
+        manufacturing discipline, and financial technology.
+      </p>
+
+      <CurriculumPath region="Asia-Pacific" />
       <CapitalismAssessment />
-    </>
+    </GlobalLayout>
   );
 }
