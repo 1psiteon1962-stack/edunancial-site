@@ -1,28 +1,13 @@
-// components/CapitalismAssessment.tsx
+'use client';
 
 import { useState } from "react";
 
 const questions = [
-  {
-    text: "My income depends entirely on my time.",
-    level: 1,
-  },
-  {
-    text: "I generate income independently but must stay involved daily.",
-    level: 2,
-  },
-  {
-    text: "I have systems that operate without me present.",
-    level: 3,
-  },
-  {
-    text: "I control assets or IP others depend on.",
-    level: 4,
-  },
-  {
-    text: "I design structures that allocate capital or opportunity.",
-    level: 5,
-  },
+  { text: "My income depends entirely on my time.", level: 1 },
+  { text: "I generate income independently but must stay involved daily.", level: 2 },
+  { text: "I have systems that operate without me present.", level: 3 },
+  { text: "I control assets or IP others depend on.", level: 4 },
+  { text: "I design structures that allocate capital or opportunity.", level: 5 },
 ];
 
 export default function CapitalismAssessment() {
@@ -56,8 +41,8 @@ export default function CapitalismAssessment() {
             You are currently at Level {selectedLevel}
           </h3>
           <p>
-            Edunancial will guide you toward the next structural level with
-            focused, digital-first frameworks designed to protect leverage.
+            Edunancial is designed to help you progress structurally — not emotionally —
+            toward the next level of leverage and control.
           </p>
         </div>
       )}
