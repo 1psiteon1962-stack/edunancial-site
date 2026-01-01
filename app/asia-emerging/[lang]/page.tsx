@@ -1,19 +1,21 @@
-import { Language } from "@/lib/i18n";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import GlobalLayout from '@/components/GlobalLayout';
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
 
-export default function AsiaEmergingPage({ params }: { params: { lang: Language } }) {
+export function generateStaticParams() {
+  return [{ lang: 'en' }];
+}
+
+export default function AsiaEmergingPage() {
   return (
-    <>
-      <header className="py-10 px-6 max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold">Asia – Emerging Markets</h1>
-        <p className="mt-2 text-gray-600">
-          Early-stage capital literacy before consolidation accelerates.
-        </p>
-      </header>
+    <GlobalLayout title="Emerging Asia">
+      <p>
+        Emerging Asian markets emphasize mobility, entrepreneurship,
+        digital-first capital access, and regulatory navigation.
+      </p>
 
-      <CurriculumPath />
+      <CurriculumPath region="Emerging Asia" />
       <CapitalismAssessment />
-    </>
+    </GlobalLayout>
   );
 }
