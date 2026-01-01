@@ -1,110 +1,92 @@
+// app/mena/[lang]/page.tsx
+
 import GlobalLayout from "@/components/GlobalLayout";
-import CurriculumPath from "@/components/CurriculumPath";
 import CapitalismAssessment from "@/components/CapitalismAssessment";
 
 /**
- * MENA Region Page
- * Route examples:
- * /mena/en
- * /mena/es
+ * We intentionally do NOT import CurriculumPath here.
+ * That component has casing conflicts on Linux/Netlify.
+ * Curriculum content is rendered inline instead.
  */
+
+type Language = "en" | "es" | "fr" | "ar";
+
+const COPY: Record<Language, { title: string; intro: string }> = {
+  en: {
+    title: "Middle East & North Africa (MENA)",
+    intro:
+      "The MENA region combines sovereign capital, energy economics, family offices, and rapidly evolving regulatory environments. Edunancial’s curriculum here focuses on capital structure, compliance awareness, and cross-border strategy.",
+  },
+  es: {
+    title: "Medio Oriente y Norte de África (MENA)",
+    intro:
+      "La región MENA combina capital soberano, economía energética, oficinas familiares y marcos regulatorios en rápida evolución. El enfoque educativo aquí es estructura de capital, cumplimiento y estrategia transfronteriza.",
+  },
+  fr: {
+    title: "Moyen-Orient et Afrique du Nord (MENA)",
+    intro:
+      "La région MENA combine capitaux souverains, économie énergétique et structures réglementaires complexes. Le programme se concentre sur la structure du capital et la conformité.",
+  },
+  ar: {
+    title: "الشرق الأوسط وشمال أفريقيا",
+    intro:
+      "تجمع منطقة الشرق الأوسط وشمال أفريقيا بين رأس المال السيادي واقتصاد الطاقة والحوكمة التنظيمية. يركز المنهج على هيكلة رأس المال والامتثال.",
+  },
+};
+
+export function generateStaticParams() {
+  return [{ lang: "en" }, { lang: "es" }, { lang: "fr" }, { lang: "ar" }];
+}
 
 export default function MENAPage({
   params,
 }: {
-  params: { lang: string };
+  params: { lang: Language };
 }) {
-  const { lang } = params;
-
-  const isSpanish = lang === "es";
+  const lang: Language = COPY[params.lang] ? params.lang : "en";
+  const content = COPY[lang];
 
   return (
-    <GlobalLayout>
-      <section className="max-w-6xl mx-auto px-6 py-12 space-y-10">
-        {/* ===== HERO ===== */}
-        <header className="space-y-4">
-          <h1 className="text-3xl font-bold">
-            {isSpanish
-              ? "Medio Oriente y Norte de África (MENA)"
-              : "Middle East & North Africa (MENA)"}
-          </h1>
+    <GlobalLayout title={content.title}>
+      <section className="max-w-5xl mx-auto px-6 py-12">
+        <h1 className="text-3xl font-bold mb-4">{content.title}</h1>
 
-          <p className="text-lg text-gray-700">
-            {isSpanish
-              ? "La región MENA combina capital energético, comercio estratégico y sistemas financieros en rápida modernización. La educación empresarial aquí requiere claridad estructural, cumplimiento y control del riesgo."
-              : "The MENA region blends energy capital, strategic trade routes, and rapidly modernizing financial systems. Entrepreneurial education here demands structural clarity, compliance, and risk control."}
-          </p>
-        </header>
+        <p className="text-lg text-gray-700 mb-10">
+          {content.intro}
+        </p>
 
-        {/* ===== CONTEXT ===== */}
-        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            {isSpanish ? "Contexto Regional" : "Regional Context"}
-          </h2>
+        {/* ===== Curriculum Overview (INLINE – no shared component) ===== */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="border rounded-lg p-6">
+            <h3 className="font-semibold mb-2">Foundation</h3>
+            <ul className="text-sm text-gray-600 space-y-1">
+              <li>• Financial literacy</li>
+              <li>• Legal entities & ownership</li>
+              <li>• Risk and compliance basics</li>
+            </ul>
+          </div>
 
-          <ul className="list-disc list-inside space-y-2 text-gray-700">
-            <li>
-              {isSpanish
-                ? "Alta concentración de capital institucional y familiar"
-                : "High concentration of institutional and family capital"}
-            </li>
-            <li>
-              {isSpanish
-                ? "Énfasis en estructuras legales claras y gobernanza"
-                : "Strong emphasis on clear legal structures and governance"}
-            </li>
-            <li>
-              {isSpanish
-                ? "Creciente adopción de fintech y mercados digitales"
-                : "Growing adoption of fintech and digital markets"}
-            </li>
-            <li>
-              {isSpanish
-                ? "Importancia crítica del cumplimiento regulatorio"
-                : "Critical importance of regulatory compliance"}
-            </li>
-          </ul>
-        </section>
+          <div className="border rounded-lg p-6">
+            <h3 className="font-semibold mb-2">Growth</h3>
+            <ul className="text-sm text-gray-600 space-y-1">
+              <li>• Capital stacking</li>
+              <li>• Regional deal structures</li>
+              <li>• Partner and family-office alignment</li>
+            </ul>
+          </div>
 
-        {/* ===== CURRICULUM PATH ===== */}
-        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            {isSpanish
-              ? "Ruta Educativa Recomendada"
-              : "Recommended Learning Path"}
-          </h2>
+          <div className="border rounded-lg p-6">
+            <h3 className="font-semibold mb-2">Advanced</h3>
+            <ul className="text-sm text-gray-600 space-y-1">
+              <li>• Cross-border expansion</li>
+              <li>• Energy & infrastructure finance</li>
+              <li>• Governance and exit planning</li>
+            </ul>
+          </div>
+        </div>
 
-          <CurriculumPath
-            region="mena"
-            lang={lang}
-          />
-        </section>
-
-        {/* ===== ASSESSMENT ===== */}
-        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            {isSpanish
-              ? "Evaluación de Enfoque Económico"
-              : "Economic Mindset Assessment"}
-          </h2>
-
-          <p className="text-gray-700">
-            {isSpanish
-              ? "Esta evaluación ayuda a identificar tu posición actual dentro de sistemas de mercado estructurados y regulados."
-              : "This assessment helps identify your current position within structured and regulated market systems."}
-          </p>
-
-          <CapitalismAssessment />
-        </section>
-
-        {/* ===== CTA ===== */}
-        <section className="border-t pt-8">
-          <p className="text-sm text-gray-600">
-            {isSpanish
-              ? "Edunancial proporciona educación. No ofrece asesoría legal, financiera ni de inversión."
-              : "Edunancial provides education only. It does not offer legal, financial, or investment advice."}
-          </p>
-        </section>
+        {/* ===== Assessment (Client Component) ===== */}
+        <CapitalismAssessment />
       </section>
     </GlobalLayout>
   );
