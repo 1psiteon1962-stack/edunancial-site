@@ -1,30 +1,28 @@
-// lib/i18n.ts
-
 export const supportedLanguages = ["en", "es"] as const;
 export type Language = typeof supportedLanguages[number];
 
 export const defaultLanguage: Language = "en";
 
 /**
- * Defines which languages are valid per region.
- * This prevents invalid language routing at build time.
+ * Region → allowed languages
+ * Extend later without breaking routes
  */
-export const REGION_LANGUAGES: Record<string, readonly Language[]> = {
-  us: ["en", "es"],
-  africa: ["en"],
-  eu: ["en"],
-  mena: ["en"],
+export const REGION_LANGUAGES: Record<string, Language[]> = {
+  africa: ["en", "es"],
+  europe: ["en", "es"],
+  mena: ["en", "es"],
+  asia: ["en", "es"],
   "asia-pacific": ["en"],
   "asia-emerging": ["en"],
 };
 
 /**
- * Resolves copy safely for region + language.
- * Falls back to English if the requested language is unsupported.
+ * Resolves copy safely by language
  */
-export function resolveCopy<T extends Record<string, any>>(
-  copyMap: Record<Language, T>,
-  lang: Language
+export function resolveCopy<T>(
+  contentMap: Record<Language, T>,
+  lang: Language,
+  fallback: Language = defaultLanguage
 ): T {
-  return copyMap[lang] ?? copyMap.en;
+  return contentMap[lang] ?? contentMap[fallback];
 }
