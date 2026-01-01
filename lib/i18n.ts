@@ -1,26 +1,19 @@
-export const supportedLanguages = ["en", "es"] as const;
-export type Language = typeof supportedLanguages[number];
+export type Language = 'en' | 'es' | 'fr' | 'ar' | 'zh';
 
-export const defaultLanguage: Language = "en";
-
-/**
- * REGION → SUPPORTED LANGUAGES
- */
 export const REGION_LANGUAGES: Record<string, Language[]> = {
-  africa: ["en", "es"],
-  europe: ["en", "es"],
-  eu: ["en", "es"],
-  mena: ["en", "es"],
-  "asia-pacific": ["en"],
-  "asia-emerging": ["en"],
+  us: ['en', 'es'],
+  africa: ['en', 'fr'],
+  asia: ['en', 'zh'],
+  'asia-emerging': ['en'],
+  'asia-pacific': ['en'],
+  europe: ['en', 'fr'],
+  eu: ['en', 'fr'],
+  mena: ['en', 'ar'],
 };
 
-/**
- * Resolve localized copy safely
- */
-export function resolveCopy<T>(
-  lang: Language,
-  contentMap: Record<Language, T>
-): T {
-  return contentMap[lang] ?? contentMap[defaultLanguage];
+export function resolveCopy(
+  copy: Record<Language, string>,
+  lang: Language
+): string {
+  return copy[lang] ?? copy.en;
 }
