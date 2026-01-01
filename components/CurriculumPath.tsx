@@ -1,20 +1,50 @@
-# 1. Force Git to acknowledge casing (Linux-safe)
-git mv components/CurriculumPath.tsx components/__CURRICULUMPATH_TMP__.tsx
-git mv components/__CURRICULUMPATH_TMP__.tsx components/CurriculumPath.tsx
+'use client';
 
-# 2. Remove any lingering case variants (defensive sweep)
-find components -type f -iname "curriculumpath.tsx" ! -name "CurriculumPath.tsx" -delete
+import React from 'react';
 
-# 3. Validate filesystem state (must return exactly ONE result)
-ls components | grep -i curriculumpath
+type CurriculumStep = {
+  title: string;
+  description: string;
+};
 
-# 4. Enforce import correctness across entire codebase
-grep -R "components/curriculumpath" -n . && exit 1 || true
-grep -R "components/Curriculumpath" -n . && exit 1 || true
+type CurriculumPathProps = {
+  region: string;
+};
 
-# 5. Commit the normalized state
-git add components
-git commit -m "Normalize CurriculumPath casing for Linux/Netlify compatibility"
+const PATHS: Record<string, CurriculumStep[]> = {
+  mena: [
+    {
+      title: 'Foundations of Capital & Trade',
+      description:
+        'Introduction to capital flow, regional trade dynamics, and economic structures specific to MENA markets.',
+    },
+    {
+      title: 'Regulation, Compliance, and Risk',
+      description:
+        'Understanding sovereign risk, Sharia-compliant finance considerations, and cross-border compliance.',
+    },
+    {
+      title: 'Scaling Across Borders',
+      description:
+        'Building entities and partnerships that operate across MENA, Europe, and Asia.',
+    },
+  ],
+};
 
-# 6. Push canonical tree
-git push
+export default function CurriculumPath({ region }: CurriculumPathProps) {
+  const steps = PATHS[region] || [];
+
+  return (
+    <section style={{ marginTop: '2rem' }}>
+      <h2>Curriculum Path</h2>
+      <ul>
+        {steps.map((step, index) => (
+          <li key={index} style={{ marginBottom: '1rem' }}>
+            <strong>{step.title}</strong>
+            <p>{step.description}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
