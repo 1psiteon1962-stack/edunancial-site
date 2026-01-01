@@ -5,63 +5,53 @@ import CurriculumPath from "@/components/CurriculumPath";
 import CapitalismAssessment from "@/components/CapitalismAssessment";
 import { REGION_LANGUAGES, Language } from "@/lib/i18n";
 
-type PageProps = {
-  params: { lang: Language };
-};
-
 /**
- * Static generation for supported MENA languages
+ * Static params for all supported MENA languages
+ * This MUST exist for App Router + Netlify
  */
 export function generateStaticParams() {
   return REGION_LANGUAGES.mena.map((lang) => ({ lang }));
 }
 
-/**
- * MENA Region Page
- * Server Component (imports client components safely)
- */
+type PageProps = {
+  params: {
+    lang: Language;
+  };
+};
+
 export default function MENAPage({ params }: PageProps) {
   const { lang } = params;
 
   return (
     <GlobalLayout title="MENA">
-      <section className="space-y-6">
+      {/* Intro Section */}
+      <section className="space-y-4">
         <h1 className="text-3xl font-bold">
           Middle East & North Africa (MENA)
         </h1>
 
         <p className="text-lg">
-          The MENA region operates at the intersection of energy markets,
-          sovereign capital, logistics corridors, and regulatory modernization.
-          Education here must align with real capital flows, compliance systems,
-          and regional risk structures.
+          The MENA region presents unique opportunities shaped by energy markets,
+          sovereign capital, infrastructure expansion, fintech regulation,
+          and cross-border commerce. Education here must respect legal systems,
+          religious frameworks, and capital-control realities while still
+          enabling scalable entrepreneurship.
         </p>
+      </section>
 
+      {/* Curriculum Path (SHARED COMPONENT — DO NOT DUPLICATE) */}
+      <section className="mt-10">
         <CurriculumPath
           region="mena"
-          lang={lang}
-          stages={[
-            {
-              title: "Foundations",
-              description:
-                "Capital literacy, legal structure, and jurisdictional awareness",
-            },
-            {
-              title: "Systems",
-              description:
-                "Cross-border finance, compliance, and capital controls",
-            },
-            {
-              title: "Expansion",
-              description:
-                "Private equity, sovereign partnerships, and regional scaling",
-            },
-          ]}
+          language={lang}
         />
+      </section>
 
+      {/* Assessment (CLIENT COMPONENT — SAFE TO USE HERE) */}
+      <section className="mt-12">
         <CapitalismAssessment
           region="mena"
-          lang={lang}
+          language={lang}
         />
       </section>
     </GlobalLayout>
