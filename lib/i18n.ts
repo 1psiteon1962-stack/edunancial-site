@@ -1,18 +1,35 @@
-export type Language = 'en' | 'es' | 'pt';
+// lib/i18n.ts
 
-export const REGION_LANGUAGES: Record<string, Language[]> = {
-  us: ['en', 'es'],
-  africa: ['en', 'pt'],
-  asia: ['en'],
-  'asia-pacific': ['en'],
-  'asia-emerging': ['en'],
-  europe: ['en', 'es', 'pt'],
-  mena: ['en']
-};
+export type Language =
+  | "en"
+  | "es"
+  | "fr"
+  | "pt"
+  | "ar"
+  | "sw"
+  | "de"
+  | "zh"
+  | "hi"
+  | "ja"
+  | "ko";
 
-export function resolveCopy<T>(
-  lang: Language,
-  map: Record<Language, T>
-): T {
-  return map[lang] ?? map.en;
+export const supportedLanguages: Language[] = [
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ar",
+  "sw",
+  "de",
+  "zh",
+  "hi",
+  "ja",
+  "ko",
+];
+
+// Optional helpers (safe to keep or remove)
+export const DEFAULT_LANGUAGE: Language = "en";
+
+export function isSupportedLanguage(lang: string): lang is Language {
+  return supportedLanguages.includes(lang as Language);
 }
