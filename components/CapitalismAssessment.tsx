@@ -6,14 +6,28 @@ export default function CapitalismAssessment() {
   const [score, setScore] = useState<number | null>(null);
 
   return (
-    <section>
-      <h3>Capital Readiness Check</h3>
+    <section className="mt-12 space-y-4">
+      <h2 className="text-2xl font-semibold">
+        Economic Readiness Snapshot
+      </h2>
 
-      <button onClick={() => setScore(1)}>Beginner</button>
-      <button onClick={() => setScore(2)}>Intermediate</button>
-      <button onClick={() => setScore(3)}>Advanced</button>
+      <p className="text-sm text-gray-600">
+        This self-evaluation helps frame economic systems,
+        incentives, and market exposure.
+      </p>
 
-      {score && <p>Your current capital discipline level: {score}</p>}
+      <button
+        onClick={() => setScore(72)}
+        className="px-4 py-2 bg-black text-white rounded"
+      >
+        Run Assessment
+      </button>
+
+      {score !== null && (
+        <p className="text-sm text-gray-700">
+          Indicative Readiness Score: <strong>{score}%</strong>
+        </p>
+      )}
     </section>
   );
 }
