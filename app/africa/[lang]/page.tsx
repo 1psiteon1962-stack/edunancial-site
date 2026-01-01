@@ -1,20 +1,21 @@
-// app/africa/[lang]/page.tsx
-
-import { REGION_LANGUAGES, Language } from "@/lib/i18n";
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import GlobalLayout from '@/components/GlobalLayout';
+import CurriculumPath from '@/components/CurriculumPath';
+import CapitalismAssessment from '@/components/CapitalismAssessment';
 
 export function generateStaticParams() {
-  return REGION_LANGUAGES.africa.map((lang) => ({ lang }));
+  return [{ lang: 'en' }, { lang: 'fr' }];
 }
 
-export default function AfricaPage({ params }: { params: { lang: Language } }) {
+export default function AfricaPage({ params }: { params: { lang: string } }) {
   return (
-    <>
-      <LocalizedDoctrine lang={params.lang} />
-      <CurriculumPath />
+    <GlobalLayout title="Africa">
+      <p>
+        African markets prioritize resilience, infrastructure growth,
+        cross-border trade, and capital formation under constraint.
+      </p>
+
+      <CurriculumPath region="Africa" />
       <CapitalismAssessment />
-    </>
+    </GlobalLayout>
   );
 }
