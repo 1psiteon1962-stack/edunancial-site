@@ -1,27 +1,56 @@
-import GlobalLayout from '@/components/GlobalLayout';
-import CurriculumPath from '@/components/CurriculumPath';
+import CurriculumPath, { CurriculumStep } from '@/components/CurriculumPath';
 import CapitalismAssessment from '@/components/CapitalismAssessment';
+import GlobalLayout from '@/components/GlobalLayout';
 
-type PageProps = {
-  params: {
-    lang: string;
-  };
-};
+export const dynamic = 'force-static';
 
-export default function MENAPage({ params }: PageProps) {
-  const isSpanish = params.lang === 'es';
+export function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'ar' }, { lang: 'fr' }];
+}
+
+export default function MENAPage({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  const steps: CurriculumStep[] = [
+    {
+      title: 'Foundational Economics',
+      description:
+        'Understand capitalism, state influence, and market controls specific to MENA economies.',
+    },
+    {
+      title: 'Legal & Regulatory Systems',
+      description:
+        'Study Sharia-compliant finance, hybrid legal systems, and cross-border compliance.',
+    },
+    {
+      title: 'Capital Formation',
+      description:
+        'Learn sovereign wealth funds, family offices, and public–private investment structures.',
+    },
+    {
+      title: 'Enterprise Scaling',
+      description:
+        'Explore regional expansion strategies across GCC, North Africa, and Levant markets.',
+    },
+  ];
 
   return (
-    <GlobalLayout title={isSpanish ? 'Región MENA' : 'MENA Region'}>
-      <p>
-        {isSpanish
-          ? 'La región MENA requiere una comprensión profunda del capital, la regulación y la expansión transfronteriza.'
-          : 'The MENA region requires a deep understanding of capital, regulation, and cross-border expansion.'}
-      </p>
+    <GlobalLayout title="Middle East & North Africa">
+      <main>
+        <h1>MENA Economic & Business Framework</h1>
 
-      <CurriculumPath region="mena" />
+        <p>
+          This curriculum is designed for entrepreneurs, investors, and operators
+          working within Middle Eastern and North African markets, balancing
+          innovation with regulatory, cultural, and financial realities.
+        </p>
 
-      <CapitalismAssessment />
+        <CurriculumPath steps={steps} />
+
+        <CapitalismAssessment />
+      </main>
     </GlobalLayout>
   );
 }
