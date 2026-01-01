@@ -1,74 +1,68 @@
 // app/mena/[lang]/page.tsx
 
 import GlobalLayout from "@/components/GlobalLayout";
+import CurriculumPath from "@/components/CurriculumPath";
 import CapitalismAssessment from "@/components/CapitalismAssessment";
 import { REGION_LANGUAGES, Language } from "@/lib/i18n";
+
+type PageProps = {
+  params: { lang: Language };
+};
 
 /**
  * Static generation for supported MENA languages
  */
 export function generateStaticParams() {
-  return REGION_LANGUAGES.mena.map((lang) => ({
-    lang,
-  }));
+  return REGION_LANGUAGES.mena.map((lang) => ({ lang }));
 }
 
-type PageProps = {
-  params: {
-    lang: Language;
-  };
-};
-
+/**
+ * MENA Region Page
+ * Server Component (imports client components safely)
+ */
 export default function MENAPage({ params }: PageProps) {
   const { lang } = params;
 
-  const copy = {
-    en: {
-      title: "Middle East & North Africa (MENA)",
-      intro:
-        "The MENA region is defined by capital constraints, regulatory asymmetry, energy dominance, and rapid fintech adoption under state supervision.",
-      focus: [
-        "Energy finance and state-backed capital",
-        "Islamic finance and compliance structures",
-        "Sovereign wealth fund ecosystems",
-        "Cross-border trade and remittance flows",
-      ],
-      path:
-        "Edunancial’s MENA curriculum begins with capital literacy, governance awareness, and compliant business structuring.",
-    },
-    es: {
-      title: "Medio Oriente y Norte de África (MENA)",
-      intro:
-        "La región MENA se caracteriza por restricciones de capital, asimetría regulatoria, dominio energético y rápida adopción fintech bajo supervisión estatal.",
-      focus: [
-        "Finanzas energéticas y capital estatal",
-        "Finanzas islámicas y estructuras de cumplimiento",
-        "Ecosistemas de fondos soberanos",
-        "Comercio transfronterizo y remesas",
-      ],
-      path:
-        "El currículo de Edunancial para MENA comienza con alfabetización financiera, conciencia regulatoria y estructuras empresariales compatibles.",
-    },
-  };
-
-  const c = copy[lang] ?? copy.en;
-
   return (
-    <GlobalLayout title={c.title}>
+    <GlobalLayout title="MENA">
       <section className="space-y-6">
-        <p className="text-lg">{c.intro}</p>
+        <h1 className="text-3xl font-bold">
+          Middle East & North Africa (MENA)
+        </h1>
 
-        <ul className="list-disc pl-6 space-y-2">
-          {c.focus.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
+        <p className="text-lg">
+          The MENA region operates at the intersection of energy markets,
+          sovereign capital, logistics corridors, and regulatory modernization.
+          Education here must align with real capital flows, compliance systems,
+          and regional risk structures.
+        </p>
 
-        <p className="font-medium">{c.path}</p>
-      </section>
+        <CurriculumPath
+          region="mena"
+          lang={lang}
+          stages={[
+            {
+              title: "Foundations",
+              description:
+                "Capital literacy, legal structure, and jurisdictional awareness",
+            },
+            {
+              title: "Systems",
+              description:
+                "Cross-border finance, compliance, and capital controls",
+            },
+            {
+              title: "Expansion",
+              description:
+                "Private equity, sovereign partnerships, and regional scaling",
+            },
+          ]}
+        />
 
-      <section className="mt-10">
-        <CapitalismAssessment region="mena" />
+        <CapitalismAssessment
+          region="mena"
+          lang={lang}
+        />
       </section>
     </GlobalLayout>
   );
