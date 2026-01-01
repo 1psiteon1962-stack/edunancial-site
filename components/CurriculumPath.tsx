@@ -1,43 +1,20 @@
-'use client';
+# 1. Force Git to acknowledge casing (Linux-safe)
+git mv components/CurriculumPath.tsx components/__CURRICULUMPATH_TMP__.tsx
+git mv components/__CURRICULUMPATH_TMP__.tsx components/CurriculumPath.tsx
 
-import Link from 'next/link';
+# 2. Remove any lingering case variants (defensive sweep)
+find components -type f -iname "curriculumpath.tsx" ! -name "CurriculumPath.tsx" -delete
 
-type Props = {
-  region: string;
-};
+# 3. Validate filesystem state (must return exactly ONE result)
+ls components | grep -i curriculumpath
 
-export default function CurriculumPath({ region }: Props) {
-  return (
-    <section className="mt-10 space-y-6">
-      <h2 className="text-2xl font-semibold">
-        Start your learning path
-      </h2>
+# 4. Enforce import correctness across entire codebase
+grep -R "components/curriculumpath" -n . && exit 1 || true
+grep -R "components/Curriculumpath" -n . && exit 1 || true
 
-      <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <li>
-          <Link href={`/courses?region=${region}`}>
-            <div className="border p-4 rounded hover:bg-gray-50">
-              Foundations of Capital & Risk
-            </div>
-          </Link>
-        </li>
+# 5. Commit the normalized state
+git add components
+git commit -m "Normalize CurriculumPath casing for Linux/Netlify compatibility"
 
-        <li>
-          <Link href={`/readiness?region=${region}`}>
-            <div className="border p-4 rounded hover:bg-gray-50">
-              Readiness & Discipline Assessment
-            </div>
-          </Link>
-        </li>
-
-        <li>
-          <Link href={`/membership`}>
-            <div className="border p-4 rounded hover:bg-gray-50">
-              Membership Access
-            </div>
-          </Link>
-        </li>
-      </ul>
-    </section>
-  );
-}
+# 6. Push canonical tree
+git push
