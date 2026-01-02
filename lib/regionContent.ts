@@ -1,59 +1,66 @@
-// lib/regionContent.ts
+import { Language } from "./language";
 
-import { Language } from "@/lib/language";
-import { RegionCurriculumContent } from "@/components/RegionCurriculum";
+export type RegionCurriculumContent = {
+  heroTitle: string;
+  description: string;
+  curriculum: string[];
+  pricing: {
+    currency: string;
+    monthly: number;
+    annual: number;
+    enterprise?: number;
+  };
+};
 
-type RegionMap = Record<string, Record<Language, RegionCurriculumContent>>;
-
-export const regionContent: RegionMap = {
+export const regionContent: Record<
+  string,
+  Record<Language, RegionCurriculumContent>
+> = {
   us: {
     en: {
-      title: "US Financial Foundations",
-      description: "Core financial literacy for the United States market.",
+      heroTitle: "U.S. Financial Curriculum",
+      description: "Build wealth using U.S. financial systems.",
       curriculum: [
         "Banking & Credit",
-        "US Taxes",
         "Investing Basics",
+        "Real Estate",
         "Business Formation",
       ],
       pricing: { currency: "USD", monthly: 29, annual: 299 },
     },
     es: {
-      title: "Fundamentos Financieros de EE.UU.",
-      description: "Educación financiera esencial para EE.UU.",
+      heroTitle: "Educación Financiera – EE.UU.",
+      description: "Construye riqueza usando sistemas financieros de EE.UU.",
       curriculum: [
         "Banca y Crédito",
-        "Impuestos",
         "Inversiones",
-        "Negocios",
+        "Bienes Raíces",
+        "Creación de Empresas",
       ],
       pricing: { currency: "USD", monthly: 29, annual: 299 },
     },
-    fr: null as any,
-    de: null as any,
-    ar: null as any,
-    zh: null as any,
-    ja: null as any,
-    hi: null as any,
   },
 
   mena: {
+    ar: {
+      heroTitle: "المنهج المالي لمنطقة الشرق الأوسط",
+      description: "بناء الثروة في الأسواق الإقليمية والدولية.",
+      curriculum: [
+        "التمويل الإسلامي",
+        "الاستثمار",
+        "ريادة الأعمال",
+      ],
+      pricing: { currency: "USD", monthly: 19, annual: 199 },
+    },
     en: {
-      title: "MENA Market Curriculum",
-      description: "Finance, trade, and entrepreneurship in MENA.",
+      heroTitle: "MENA Financial Curriculum",
+      description: "Wealth-building across MENA markets.",
       curriculum: [
         "Islamic Finance",
-        "Cross-Border Trade",
-        "Regional Compliance",
+        "Investing",
+        "Entrepreneurship",
       ],
-      pricing: { currency: "USD", monthly: 25, annual: 249 },
+      pricing: { currency: "USD", monthly: 19, annual: 199 },
     },
-    es: null as any,
-    fr: null as any,
-    de: null as any,
-    ar: null as any,
-    zh: null as any,
-    ja: null as any,
-    hi: null as any,
   },
 };
