@@ -1,10 +1,17 @@
-export type Language =
-  | 'en'
-  | 'es'
-  | 'fr'
-  | 'de'
-  | 'pt'
-  | 'ar'
-  | 'zh'
-  | 'ja'
-  | 'ko';
+export const SUPPORTED_LANGUAGES = [
+  'en',
+  'es',
+  'fr',
+  'de',
+  'pt',
+  'ar',
+  'zh',
+  'hi',
+  'ja',
+] as const;
+
+export type Language = (typeof SUPPORTED_LANGUAGES)[number];
+
+export function isLanguage(value: string): value is Language {
+  return SUPPORTED_LANGUAGES.includes(value as Language);
+}
