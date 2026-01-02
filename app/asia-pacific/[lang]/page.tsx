@@ -1,12 +1,24 @@
-import { notFound } from "next/navigation";
-import RegionCurriculum from "@/components/RegionCurriculum";
-import { isLanguage, type Language } from "@/lib/languages";
+import { notFound } from 'next/navigation';
+import RegionCurriculum from '@/components/RegionCurriculum';
+import { Language, isLanguage } from '@/lib/language';
+import { regionContent } from '@/lib/regionContent';
 
-type PageProps = { params: { lang: string } };
+type PageProps = {
+  params: { lang: string };
+};
 
 export default function Page({ params }: PageProps) {
-  if (!isLanguage(params.lang)) return notFound();
-  const lang: Language = params.lang;
+  if (!isLanguage(params.lang)) {
+    notFound();
+  }
 
-  return <RegionCurriculum regionKey="asia-pacific" lang={lang} />;
+  const content = regionContent['asia-pacific'][params.lang];
+
+  return (
+    <RegionCurriculum
+      regionKey="asia-pacific"
+      lang={params.lang as Language}
+      content={content}
+    />
+  );
 }
