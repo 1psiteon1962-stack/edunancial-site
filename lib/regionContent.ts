@@ -1,4 +1,5 @@
-import { Language } from "./language";
+// lib/regionContent.ts
+import { Language, Region } from "./language";
 
 export type RegionCurriculumContent = {
   heroTitle: string;
@@ -6,61 +7,102 @@ export type RegionCurriculumContent = {
   curriculum: string[];
   pricing: {
     currency: string;
-    monthly: number;
-    annual: number;
-    enterprise?: number;
+    amount: number;
   };
 };
 
+const baseContent = (
+  title: string,
+  description: string,
+  currency: string
+): Record<Language, RegionCurriculumContent> => ({
+  en: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  es: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  fr: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  de: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  ar: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  zh: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  ja: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+  hi: {
+    heroTitle: title,
+    description,
+    curriculum: [],
+    pricing: { currency, amount: 0 },
+  },
+});
+
 export const regionContent: Record<
-  string,
+  Region,
   Record<Language, RegionCurriculumContent>
 > = {
-  us: {
-    en: {
-      heroTitle: "U.S. Financial Curriculum",
-      description: "Build wealth using U.S. financial systems.",
-      curriculum: [
-        "Banking & Credit",
-        "Investing Basics",
-        "Real Estate",
-        "Business Formation",
-      ],
-      pricing: { currency: "USD", monthly: 29, annual: 299 },
-    },
-    es: {
-      heroTitle: "Educación Financiera – EE.UU.",
-      description: "Construye riqueza usando sistemas financieros de EE.UU.",
-      curriculum: [
-        "Banca y Crédito",
-        "Inversiones",
-        "Bienes Raíces",
-        "Creación de Empresas",
-      ],
-      pricing: { currency: "USD", monthly: 29, annual: 299 },
-    },
-  },
-
-  mena: {
-    ar: {
-      heroTitle: "المنهج المالي لمنطقة الشرق الأوسط",
-      description: "بناء الثروة في الأسواق الإقليمية والدولية.",
-      curriculum: [
-        "التمويل الإسلامي",
-        "الاستثمار",
-        "ريادة الأعمال",
-      ],
-      pricing: { currency: "USD", monthly: 19, annual: 199 },
-    },
-    en: {
-      heroTitle: "MENA Financial Curriculum",
-      description: "Wealth-building across MENA markets.",
-      curriculum: [
-        "Islamic Finance",
-        "Investing",
-        "Entrepreneurship",
-      ],
-      pricing: { currency: "USD", monthly: 19, annual: 199 },
-    },
-  },
+  us: baseContent(
+    "U.S. Financial Curriculum",
+    "Build wealth using U.S. financial systems.",
+    "USD"
+  ),
+  europe: baseContent(
+    "European Financial Curriculum",
+    "Navigate European financial systems.",
+    "EUR"
+  ),
+  africa: baseContent(
+    "African Financial Curriculum",
+    "Build wealth across African markets.",
+    "USD"
+  ),
+  asia: baseContent(
+    "Asian Financial Curriculum",
+    "Understand Asian economic systems.",
+    "USD"
+  ),
+  "asia-pacific": baseContent(
+    "Asia-Pacific Financial Curriculum",
+    "Asia-Pacific regional strategy.",
+    "USD"
+  ),
+  "asia-emerging": baseContent(
+    "Emerging Asia Financial Curriculum",
+    "High-growth emerging markets.",
+    "USD"
+  ),
+  mena: baseContent(
+    "MENA Financial Curriculum",
+    "Middle East & North Africa systems.",
+    "USD"
+  ),
 };
