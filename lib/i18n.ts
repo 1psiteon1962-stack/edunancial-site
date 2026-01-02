@@ -1,24 +1,33 @@
 // lib/i18n.ts
 
-export const supportedLanguages = ['en', 'es', 'fr'] as const;
-export type Language = typeof supportedLanguages[number];
+/* =========================
+   LANGUAGES
+========================= */
 
-export const REGION_LANGUAGES: Record<
-  'us' | 'africa' | 'asia' | 'asia-emerging' | 'asia-pacific' | 'europe' | 'mena',
-  Language[]
-> = {
+export const supportedLanguages = ['en', 'es', 'fr'] as const;
+export type Language = (typeof supportedLanguages)[number];
+
+/* =========================
+   REGIONS → LANGUAGES
+========================= */
+
+export const REGION_LANGUAGES: Record<string, Language[]> = {
   us: ['en', 'es'],
   africa: ['en', 'fr'],
+  europe: ['en', 'fr', 'es'],
   asia: ['en'],
   'asia-emerging': ['en'],
   'asia-pacific': ['en'],
-  europe: ['en', 'fr'],
-  mena: ['en'],
+  mena: ['en', 'fr'],
 };
+
+/* =========================
+   LOCALIZED COPY RESOLVER
+========================= */
 
 export function resolveCopy<T>(
   lang: Language,
-  map: Record<Language, T>
+  contentMap: Record<Language, T>
 ): T {
-  return map[lang] ?? map.en;
+  return contentMap[lang] ?? contentMap.en;
 }
