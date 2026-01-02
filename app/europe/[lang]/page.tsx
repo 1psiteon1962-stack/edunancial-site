@@ -1,13 +1,21 @@
-import { notFound } from "next/navigation";
-import RegionCurriculum from "@/components/RegionCurriculum";
-import { isLanguage, type Language } from "@/lib/languages";
+import { notFound } from 'next/navigation';
+import RegionCurriculum from '@/components/RegionCurriculum';
+import { isLanguage, type Language } from '@/lib/language';
+import { regionContent } from '@/lib/regionContent';
 
-type PageProps = { params: { lang: string } };
-
-export default function Page({ params }: PageProps) {
+export default function Page({
+  params,
+}: {
+  params: { lang: string };
+}) {
   if (!isLanguage(params.lang)) return notFound();
-  const lang: Language = params.lang;
+  const lang = params.lang as Language;
 
-  return <RegionCurriculum regionKey="europe" lang={lang} />;
+  return (
+    <RegionCurriculum
+      regionKey="europe"
+      lang={lang}
+      content={regionContent.europe[lang]}
+    />
+  );
 }
-```0
