@@ -1,37 +1,75 @@
-import { RegionCurriculumContent } from "@/lib/regionContent";
-import { Language } from "@/lib/languages";
+import type { Language } from "@/lib/languages";
+import { regionContent, type RegionCurriculumContent, type RegionKey } from "@/lib/regionContent";
 
-interface RegionCurriculumProps {
-  regionKey: string;
+type Props = {
+  regionKey: RegionKey;
   lang: Language;
-  content: RegionCurriculumContent;
-}
+  content?: RegionCurriculumContent; // optional: auto-resolve if not provided
+};
 
-export default function RegionCurriculum({
-  regionKey,
-  lang,
-  content,
-}: RegionCurriculumProps) {
+export default function RegionCurriculum({ regionKey, lang, content }: Props) {
+  const resolved: RegionCurriculumContent = content ?? regionContent[regionKey][lang];
+
   return (
-    <section className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-2">{content.title}</h1>
-      <p className="mb-4">{content.description}</p>
+    <main className="mx-auto max-w-4xl px-4 py-10">
+      <header className="mb-8">
+        <h1 className="text-3xl font-bold leading-tight">{resolved.headline}</h1>
+        <p className="mt-3 text-lg opacity-90">{resolved.subheadline}</p>
+      </header>
 
-      <h2 className="text-xl font-semibold mb-2">Curriculum</h2>
-      <ul className="list-disc ml-6 mb-6">
-        {content.curriculum.map((item: string, i: number) => (
-          <li key={i}>{item}</li>
-        ))}
-      </ul>
+      <section className="mb-8 rounded-xl border p-5">
+        <h2 className="text-xl font-semibold mb-3">Highlights</h2>
+        <ul className="list-disc ml-6 space-y-1">
+          {resolved.highlights.map((item: string, i: number) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      </section>
 
-      <h2 className="text-xl font-semibold mb-2">Pricing</h2>
-      <ul className="list-disc ml-6">
-        <li>Monthly: {content.pricing.currency} {content.pricing.monthly}</li>
-        <li>Quarterly: {content.pricing.currency} {content.pricing.quarterly}</li>
-        <li>Annual: {content.pricing.currency} {content.pricing.annual}</li>
-        <li>Lifetime: {content.pricing.currency} {content.pricing.lifetime}</li>
-        <li>Enterprise: {content.pricing.currency} {content.pricing.enterprise}</li>
-      </ul>
-    </section>
+      <section className="mb-8 rounded-xl border p-5">
+        <h2 className="text-xl font-semibold mb-3">Curriculum</h2>
+        <ul className="list-disc ml-6 space-y-1">
+          {resolved.curriculum.map((item: string, i: number) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mb-8 rounded-xl border p-5">
+        <h2 className="text-xl font-semibold mb-2">Pricing</h2>
+        <div className="text-base leading-7">
+          <div>
+            <strong>{resolved.pricing.currency}</strong>
+          </div>
+          <div>Monthly: {resolved.pricing.monthly}</div>
+          <div>Annual: {resolved.pricing.annual}</div>
+          {typeof resolved.pricing.quarterly === "number" && (
+            <div>Quarterly: {resolved.pricing.quarterly}</div>
+          )}
+          {typeof resolved.pricing.lifetime === "number" && (
+            <div>Lifetime: {resolved.pricing.lifetime}</div>
+          )}
+        </div>
+
+        <div className="mt-5 flex flex-wrap gap-3">
+          <a
+            href={resolved.ctaPrimary.href}
+            className="inline-flex items-center justify-center rounded-lg border px-4 py-2 font-semibold"
+          >
+            {resolved.ctaPrimary.label}
+          </a>
+          {resolved.ctaSecondary && (
+            <a
+              href={resolved.ctaSecondary.href}
+              className="inline-flex items-center justify-center rounded-lg border px-4 py-2"
+            >
+              {resolved.ctaSecondary.label}
+            </a>
+          )}
+        </div>
+
+        <p className="mt-4 text-sm opacity-80">{resolved.legalNote}</p>
+      </section>
+    </main>
   );
 }
