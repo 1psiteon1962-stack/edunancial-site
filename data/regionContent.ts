@@ -1,55 +1,153 @@
 // data/regionContent.ts
 
-export const regionContent = {
-  africa: {
-    en: {
-      title: "Africa: Structural Acceleration",
-      body:
-        "Africa is leapfrogging legacy systems. Edunancial focuses on ownership, infrastructure literacy, and platform-based leverage.",
-    },
-    es: {
-      title: "África: Aceleración Estructural",
-      body:
-        "África está saltando sistemas heredados. Edunancial se enfoca en propiedad, infraestructura y apalancamiento digital.",
-    },
-  },
-
-  asia: {
-    en: {
-      title: "Asia: Scale, Discipline, and Capital Density",
-      body:
-        "Asia rewards execution, precision, and systems. Edunancial emphasizes capital efficiency and platform dominance.",
-    },
-    es: {
-      title: "Asia: Escala, Disciplina y Capital",
-      body:
-        "Asia recompensa la ejecución y los sistemas. Edunancial enfatiza eficiencia de capital y dominio estructural.",
+export const regionContent: Record<string, any> = {
+  us: {
+    languages: {
+      en: {
+        title: "United States Curriculum",
+        description: "Financial literacy aligned with U.S. systems.",
+        curriculum: [
+          "Banking & Credit",
+          "Taxes & IRS",
+          "Investing Basics",
+          "Business Formation",
+        ],
+        pricing: "$29/month",
+      },
+      es: {
+        title: "Currículo de Estados Unidos",
+        description: "Educación financiera adaptada a EE.UU.",
+        curriculum: [
+          "Banca y Crédito",
+          "Impuestos",
+          "Inversión Básica",
+          "Formación de Empresas",
+        ],
+        pricing: "$29/mes",
+      },
     },
   },
 
   europe: {
-    en: {
-      title: "Europe: Regulation-Aware Capital Strategy",
-      body:
-        "Europe demands compliance-first thinking. Edunancial teaches structured growth inside regulatory environments.",
+    languages: {
+      en: {
+        title: "Europe Curriculum",
+        description: "EU-focused financial education.",
+        curriculum: [
+          "EU Banking",
+          "VAT & Taxation",
+          "Cross-Border Investing",
+          "Entrepreneurship",
+        ],
+        pricing: "€24/month",
+      },
+      fr: {
+        title: "Programme Européen",
+        description: "Éducation financière pour l'Europe.",
+        curriculum: [
+          "Banques Européennes",
+          "TVA",
+          "Investissement",
+          "Entrepreneuriat",
+        ],
+        pricing: "€24/mois",
+      },
+      es: {
+        title: "Programa Europeo",
+        description: "Educación financiera europea.",
+        curriculum: [
+          "Banca Europea",
+          "IVA",
+          "Inversión",
+          "Emprendimiento",
+        ],
+        pricing: "€24/mes",
+      },
     },
-    es: {
-      title: "Europa: Estrategia de Capital con Cumplimiento",
-      body:
-        "Europa exige pensamiento estructurado. Edunancial enseña crecimiento dentro de marcos regulatorios.",
+  },
+
+  africa: {
+    languages: {
+      en: {
+        title: "Africa Curriculum",
+        description: "Mobile-first financial systems.",
+        curriculum: [
+          "Mobile Money",
+          "Microfinance",
+          "Entrepreneurship",
+        ],
+        pricing: "$10/month",
+      },
     },
   },
 
   mena: {
-    en: {
-      title: "MENA: Capital, Energy, and Sovereign Scale",
-      body:
-        "MENA concentrates capital and energy leverage. Edunancial focuses on asset control and sovereign-scale thinking.",
+    languages: {
+      en: {
+        title: "MENA Curriculum",
+        description: "Sharia-aware financial education.",
+        curriculum: [
+          "Islamic Finance",
+          "Business Ethics",
+          "Asset Protection",
+        ],
+        pricing: "$19/month",
+      },
+      ar: {
+        title: "المنهج المالي",
+        description: "التعليم المالي لمنطقة الشرق الأوسط",
+        curriculum: [
+          "التمويل الإسلامي",
+          "الأعمال",
+          "حماية الأصول",
+        ],
+        pricing: "19$ شهريًا",
+      },
     },
-    es: {
-      title: "MENA: Capital, Energía y Escala",
-      body:
-        "MENA concentra capital y energía. Edunancial se enfoca en control de activos y escala soberana.",
+  },
+
+  asia: {
+    languages: {
+      en: {
+        title: "Asia Curriculum",
+        description: "High-growth market education.",
+        curriculum: [
+          "Digital Payments",
+          "Equities",
+          "Startups",
+        ],
+        pricing: "$15/month",
+      },
+    },
+  },
+
+  "asia-emerging": {
+    languages: {
+      en: {
+        title: "Emerging Asia Curriculum",
+        description: "Foundational financial systems.",
+        curriculum: [
+          "Savings",
+          "Credit Basics",
+          "Small Business",
+        ],
+        pricing: "$7/month",
+      },
+    },
+  },
+
+  pacific: {
+    languages: {
+      en: {
+        title: "Pacific Curriculum",
+        description: "Island and remote economies.",
+        curriculum: [
+          "Tourism Finance",
+          "Local Enterprise",
+          "Sustainability",
+        ],
+        pricing: "$9/month",
+      },
     },
   },
 };
