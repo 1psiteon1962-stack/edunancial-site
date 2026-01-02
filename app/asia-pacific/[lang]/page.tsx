@@ -1,21 +1,16 @@
-import GlobalLayout from '@/components/GlobalLayout';
-import CurriculumPath from '@/components/CurriculumPath';
-import CapitalismAssessment from '@/components/CapitalismAssessment';
+// app/asia-pacific/[lang]/page.tsx
 
-export function generateStaticParams() {
-  return [{ lang: 'en' }];
-}
+import RegionCurriculum from "@/components/RegionCurriculum";
 
-export default function AsiaPacificPage() {
+export default function AsiaPacificPage({
+  params,
+}: {
+  params: { lang: string };
+}) {
   return (
-    <GlobalLayout title="Asia-Pacific">
-      <p>
-        Asia-Pacific focuses on export-driven capital, logistics efficiency,
-        manufacturing discipline, and financial technology.
-      </p>
-
-      <CurriculumPath region="Asia-Pacific" />
-      <CapitalismAssessment />
-    </GlobalLayout>
+    <RegionCurriculum
+      regionKey="asia-pacific"
+      lang={params.lang}
+    />
   );
 }
