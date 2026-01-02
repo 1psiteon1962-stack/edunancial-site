@@ -1,32 +1,20 @@
 // pages/[lang]/index.tsx
 
-import { useRouter } from "next/router";
-import { supportedLanguages } from "@/lib/i18n";
-import LocalizedDoctrine from "@/components/LocalizedDoctrine";
-import CurriculumPath from "@/components/CurriculumPath";
-import CapitalismAssessment from "@/components/CapitalismAssessment";
+import { useRouter } from 'next/router';
+import { supportedLanguages, Language } from '@/lib/i18n';
+import LocalizedDoctrine from '@/components/LocalizedDoctrine';
 
-export async function getStaticPaths() {
-  return {
-    paths: supportedLanguages.map((lang) => ({ params: { lang } })),
-    fallback: false,
-  };
-}
+export default function LanguageIndex() {
+  const router = useRouter();
+  const { lang } = router.query;
 
-export async function getStaticProps({ params }: any) {
-  return {
-    props: {
-      lang: params.lang,
-    },
-  };
-}
+  if (!lang || !supportedLanguages.includes(lang as Language)) {
+    return null;
+  }
 
-export default function LocalizedHome({ lang }: { lang: any }) {
   return (
-    <>
-      <LocalizedDoctrine lang={lang} />
-      <CurriculumPath />
-      <CapitalismAssessment />
-    </>
+    <main className="px-6 py-12 max-w-6xl mx-auto">
+      <LocalizedDoctrine lang={lang as Language} />
+    </main>
   );
 }
