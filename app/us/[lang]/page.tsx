@@ -1,21 +1,11 @@
-import GlobalLayout from '@/components/GlobalLayout';
-import CurriculumPath from '@/components/CurriculumPath';
-import CapitalismAssessment from '@/components/CapitalismAssessment';
+// app/us/[lang]/page.tsx
 
-export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'es' }];
-}
+import RegionCurriculum from "@/components/RegionCurriculum";
 
-export default function USPage({ params }: { params: { lang: string } }) {
-  return (
-    <GlobalLayout title="United States">
-      <p>
-        The U.S. market emphasizes transparency, regulation, scale efficiency,
-        and structured capital deployment.
-      </p>
-
-      <CurriculumPath region="United States" />
-      <CapitalismAssessment />
-    </GlobalLayout>
-  );
+export default function USPage({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  return <RegionCurriculum regionKey="us" lang={params.lang} />;
 }
