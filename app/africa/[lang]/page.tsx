@@ -1,16 +1,6 @@
-import RegionCurriculum from "@/components/RegionCurriculum";
-import { regionContent } from "@/lib/regionContent";
+import RegionCurriculum from '@/components/RegionCurriculum';
+import { Language } from '@/lib/regionContent';
 
-export default function AfricaPage({
-  params,
-}: {
-  params: { lang: string };
-}) {
-  return (
-    <RegionCurriculum
-      regionKey="africa"
-      lang={params.lang}
-      content={regionContent.africa[params.lang]}
-    />
-  );
+export default function Page({ params }: { params: { lang: Language } }) {
+  return <RegionCurriculum regionKey="africa" lang={params.lang} />;
 }
