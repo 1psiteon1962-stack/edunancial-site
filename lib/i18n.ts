@@ -1,41 +1,24 @@
 // lib/i18n.ts
 
-/* =========================
-   LANGUAGE TYPES
-========================= */
+export const supportedLanguages = ['en', 'es', 'fr'] as const;
+export type Language = typeof supportedLanguages[number];
 
-export type Language = 'en' | 'es' | 'fr' | 'pt';
-
-/* =========================
-   SUPPORTED LANGUAGES (GLOBAL)
-========================= */
-
-export const supportedLanguages: Language[] = ['en', 'es', 'fr', 'pt'];
-
-/* =========================
-   REGION → LANGUAGE MAP
-========================= */
-
-export const REGION_LANGUAGES: Record<string, Language[]> = {
+export const REGION_LANGUAGES: Record<
+  'us' | 'africa' | 'asia' | 'asia-emerging' | 'asia-pacific' | 'europe' | 'mena',
+  Language[]
+> = {
   us: ['en', 'es'],
-  africa: ['en', 'fr', 'pt'],
+  africa: ['en', 'fr'],
   asia: ['en'],
   'asia-emerging': ['en'],
   'asia-pacific': ['en'],
   europe: ['en', 'fr'],
-  eu: ['en', 'fr'],
-  mena: ['en', 'fr'],
-  latam: ['es', 'pt'],
+  mena: ['en'],
 };
-
-/* =========================
-   LOCALIZED COPY RESOLVER
-========================= */
 
 export function resolveCopy<T>(
   lang: Language,
-  contentMap: Record<Language, T>
+  map: Record<Language, T>
 ): T {
-  if (contentMap[lang]) return contentMap[lang];
-  return contentMap.en; // safe fallback
+  return map[lang] ?? map.en;
 }
