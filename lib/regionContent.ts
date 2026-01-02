@@ -5,7 +5,6 @@ export type Pricing = {
   currency: string;
   monthly: number;
   annual: number;
-  lifetime: number;
 };
 
 export type RegionCurriculumContent = {
@@ -15,74 +14,90 @@ export type RegionCurriculumContent = {
   pricing: Pricing;
 };
 
-export type RegionKey =
-  | 'us'
-  | 'africa'
-  | 'europe'
-  | 'mena'
-  | 'asia'
-  | 'asia-pacific'
-  | 'asia-emerging';
-
 export const regionContent: Record<
-  RegionKey,
+  string,
   Record<Language, RegionCurriculumContent>
 > = {
-  africa: {
+  mena: {
     en: {
-      title: 'Africa Business & Investment',
-      description: 'Entrepreneurship and capital literacy for Africa.',
-      curriculum: ['Business basics', 'Capital access', 'Local markets'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
-    },
-    es: {
-      title: 'Negocios e Inversión en África',
-      description: 'Educación financiera para África.',
-      curriculum: ['Negocios', 'Capital', 'Mercados locales'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
-    },
-    fr: {
-      title: 'Affaires en Afrique',
-      description: 'Formation entrepreneuriale.',
-      curriculum: ['Affaires', 'Capital', 'Marchés'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
-    },
-    de: {
-      title: 'Afrika Wirtschaft',
-      description: 'Unternehmerische Bildung.',
-      curriculum: ['Geschäft', 'Kapital', 'Märkte'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
+      title: 'MENA Market Foundations',
+      description: 'Business, finance, and compliance for MENA markets.',
+      curriculum: [
+        'Business formation fundamentals',
+        'Cross-border compliance',
+        'Capital access in emerging markets',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
     },
     ar: {
-      title: 'أعمال أفريقيا',
-      description: 'التعليم المالي لأفريقيا.',
-      curriculum: ['الأعمال', 'رأس المال', 'الأسواق'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
+      title: 'أساسيات أسواق الشرق الأوسط',
+      description: 'الأعمال والتمويل والامتثال للأسواق الإقليمية.',
+      curriculum: [
+        'تأسيس الأعمال',
+        'الامتثال العابر للحدود',
+        'الوصول إلى رأس المال',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
+    },
+    fr: {
+      title: 'Fondations Marché MENA',
+      description: 'Affaires et finance pour la région MENA.',
+      curriculum: [
+        'Création d’entreprise',
+        'Conformité transfrontalière',
+        'Accès au capital',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
+    },
+    de: {
+      title: 'MENA-Marktgrundlagen',
+      description: 'Geschäft und Finanzierung für die MENA-Region.',
+      curriculum: [
+        'Unternehmensgründung',
+        'Grenzüberschreitende Compliance',
+        'Kapitalzugang',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
     },
     zh: {
-      title: '非洲商业',
-      description: '商业与投资教育。',
-      curriculum: ['商业', '资本', '市场'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
+      title: '中东北非市场基础',
+      description: '中东北非地区的商业与金融。',
+      curriculum: [
+        '企业设立',
+        '跨境合规',
+        '资本获取',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
     },
     ja: {
-      title: 'アフリカビジネス',
-      description: '起業教育。',
-      curriculum: ['ビジネス', '資本', '市場'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
+      title: 'MENA市場基礎',
+      description: 'MENA地域のビジネスと金融。',
+      curriculum: [
+        '法人設立',
+        '国際コンプライアンス',
+        '資本調達',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
     },
     hi: {
-      title: 'अफ्रीका व्यापार',
-      description: 'वित्तीय शिक्षा।',
-      curriculum: ['व्यापार', 'पूंजी', 'बाजार'],
-      pricing: { currency: 'USD', monthly: 15, annual: 150, lifetime: 500 },
+      title: 'MENA बाजार की नींव',
+      description: 'MENA क्षेत्र के लिए व्यापार और वित्त।',
+      curriculum: [
+        'व्यवसाय निर्माण',
+        'सीमा-पार अनुपालन',
+        'पूंजी तक पहुँच',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
+    },
+    es: {
+      title: 'Fundamentos del Mercado MENA',
+      description: 'Negocios y finanzas para la región MENA.',
+      curriculum: [
+        'Creación de empresas',
+        'Cumplimiento transfronterizo',
+        'Acceso a capital',
+      ],
+      pricing: { currency: 'USD', monthly: 19, annual: 199 },
     },
   },
-
-  europe: {} as any,
-  mena: {} as any,
-  asia: {} as any,
-  'asia-pacific': {} as any,
-  'asia-emerging': {} as any,
-  us: {} as any,
 };
