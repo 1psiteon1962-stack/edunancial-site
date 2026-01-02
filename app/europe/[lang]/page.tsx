@@ -7,10 +7,5 @@ export default function EuropePage({
 }: {
   params: { lang: string };
 }) {
-  return (
-    <RegionCurriculum
-      regionKey="europe"
-      lang={params.lang}
-    />
-  );
+  return <RegionCurriculum regionKey="europe" lang={params.lang} />;
 }
