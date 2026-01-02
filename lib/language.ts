@@ -1,3 +1,5 @@
+// lib/language.ts
+
 export const SUPPORTED_LANGUAGES = [
   'en',
   'es',
@@ -5,12 +7,12 @@ export const SUPPORTED_LANGUAGES = [
   'de',
   'ar',
   'zh',
-  'hi',
   'ja',
-  'pt',
+  'hi',
 ] as const;
 
 export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
-export const isLanguage = (v: string): v is Language =>
-  (SUPPORTED_LANGUAGES as readonly string[]).includes(v);
+export function isLanguage(value: string): value is Language {
+  return SUPPORTED_LANGUAGES.includes(value as Language);
+}
