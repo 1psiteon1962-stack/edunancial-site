@@ -1,141 +1,215 @@
-export type Language = 'en' | 'es' | 'fr' | 'de' | 'ar';
-export type RegionKey =
-  | 'us'
-  | 'africa'
-  | 'europe'
-  | 'asia'
-  | 'asia-emerging'
-  | 'asia-pacific'
-  | 'mena';
+import { RegionContentMap } from './types';
 
-export interface RegionCurriculumContent {
-  title: string;
-  description: string;
-  curriculum: string[];
-  pricing: {
-    currency: string;
-    monthly: number;
-    annual: number;
-    lifetime: number;
-  };
-}
-
-export const regionContent: Record<
-  RegionKey,
-  Partial<Record<Language, RegionCurriculumContent>>
-> = {
+export const regionContent: RegionContentMap = {
   us: {
     en: {
-      title: 'United States – Financial Foundations',
-      description: 'Core U.S. financial literacy, investing, and business setup.',
+      title: 'United States Curriculum',
+      description: 'Foundational financial literacy for the U.S. market.',
       curriculum: [
-        'Personal finance fundamentals',
-        'Credit and debt strategy',
-        'U.S. investing basics',
-        'Business entities and taxation',
+        'Personal finance basics',
+        'Credit and debt management',
+        'Investing fundamentals',
+        'Business formation in the U.S.',
       ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199, lifetime: 999 },
+      pricing: {
+        currency: 'USD',
+        monthly: 29,
+        annual: 299,
+        quarterly: 79,
+        lifetime: 999,
+      },
     },
     es: {
-      title: 'Estados Unidos – Fundamentos Financieros',
-      description: 'Educación financiera básica y creación de negocios en EE.UU.',
+      title: 'Programa de Estados Unidos',
+      description: 'Educación financiera para el mercado estadounidense.',
       curriculum: [
         'Finanzas personales',
-        'Crédito y deuda',
-        'Inversión básica',
-        'Estructuras empresariales',
+        'Crédito y deudas',
+        'Fundamentos de inversión',
+        'Formación de empresas en EE.UU.',
       ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199, lifetime: 999 },
+      pricing: {
+        currency: 'USD',
+        monthly: 29,
+        annual: 299,
+        quarterly: 79,
+        lifetime: 999,
+      },
     },
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   africa: {
     en: {
-      title: 'Africa – Growth & Entrepreneurship',
-      description: 'Mobile finance, trade, and business growth in African markets.',
+      title: 'Africa Curriculum',
+      description: 'Entrepreneurship and finance adapted for African markets.',
       curriculum: [
-        'Mobile money systems',
-        'Small business finance',
-        'Cross-border trade',
-        'Scaling local enterprises',
+        'Micro-enterprise finance',
+        'Mobile banking & fintech',
+        'Trade and logistics basics',
+        'Cross-border investing',
       ],
-      pricing: { currency: 'USD', monthly: 9, annual: 89, lifetime: 399 },
+      pricing: {
+        currency: 'USD',
+        monthly: 15,
+        annual: 149,
+        quarterly: 39,
+        lifetime: 499,
+      },
     },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   europe: {
     en: {
-      title: 'Europe – Multi-Market Finance',
-      description: 'EU personal finance, compliance, and investing.',
+      title: 'Europe Curriculum',
+      description: 'Multi-jurisdiction finance and business education.',
       curriculum: [
-        'EU banking systems',
+        'EU financial systems',
+        'Multi-currency investing',
         'Cross-border compliance',
-        'Investing in Europe',
-        'SME growth strategies',
+        'Business structures in Europe',
       ],
-      pricing: { currency: 'EUR', monthly: 15, annual: 149, lifetime: 699 },
+      pricing: {
+        currency: 'EUR',
+        monthly: 25,
+        annual: 249,
+        quarterly: 69,
+        lifetime: 899,
+      },
     },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   asia: {
     en: {
-      title: 'Asia – Advanced Markets',
-      description: 'Finance and business in developed Asian economies.',
+      title: 'Asia Curriculum',
+      description: 'Finance and growth strategies for Asia.',
       curriculum: [
-        'Capital markets overview',
-        'Corporate structures',
-        'Technology-driven finance',
+        'Regional capital markets',
+        'Manufacturing finance',
+        'Technology startups',
+        'Cross-border trade',
       ],
-      pricing: { currency: 'USD', monthly: 15, annual: 149, lifetime: 699 },
+      pricing: {
+        currency: 'USD',
+        monthly: 19,
+        annual: 189,
+        quarterly: 49,
+        lifetime: 699,
+      },
     },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   'asia-emerging': {
     en: {
-      title: 'Asia Emerging – Financial Mobility',
-      description: 'Access, entrepreneurship, and upward mobility.',
+      title: 'Asia Emerging Markets',
+      description: 'High-growth, early-stage economies.',
       curriculum: [
-        'Microfinance',
-        'Entrepreneurship basics',
-        'Digital payments',
+        'Startup finance',
+        'SME scaling',
+        'Foreign investment basics',
+        'Risk management',
       ],
-      pricing: { currency: 'USD', monthly: 7, annual: 69, lifetime: 299 },
+      pricing: {
+        currency: 'USD',
+        monthly: 12,
+        annual: 119,
+        quarterly: 35,
+        lifetime: 399,
+      },
     },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   'asia-pacific': {
     en: {
-      title: 'Asia-Pacific – Trade & Expansion',
-      description: 'Regional trade, logistics, and growth.',
+      title: 'Asia-Pacific Curriculum',
+      description: 'Advanced trade and investment across the Pacific.',
       curriculum: [
-        'Regional trade finance',
-        'Supply chains',
-        'Business expansion',
+        'International trade finance',
+        'Supply chain economics',
+        'Currency risk',
+        'Regional compliance',
       ],
-      pricing: { currency: 'USD', monthly: 12, annual: 119, lifetime: 599 },
+      pricing: {
+        currency: 'USD',
+        monthly: 22,
+        annual: 219,
+        quarterly: 59,
+        lifetime: 799,
+      },
     },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 
   mena: {
     en: {
-      title: 'MENA – Capital & Enterprise',
-      description: 'Finance, oil capital, and enterprise development.',
+      title: 'MENA Curriculum',
+      description: 'Finance and business for Middle East & North Africa.',
       curriculum: [
-        'Regional capital flows',
-        'Family offices',
-        'Entrepreneurship frameworks',
+        'Islamic finance basics',
+        'Energy economics',
+        'Regional trade',
+        'Family office structures',
       ],
-      pricing: { currency: 'USD', monthly: 14, annual: 139, lifetime: 649 },
+      pricing: {
+        currency: 'USD',
+        monthly: 20,
+        annual: 199,
+        quarterly: 55,
+        lifetime: 749,
+      },
     },
-    ar: {
-      title: 'الشرق الأوسط وشمال أفريقيا – رأس المال والأعمال',
-      description: 'التمويل وريادة الأعمال في المنطقة.',
-      curriculum: [
-        'التدفقات الرأسمالية',
-        'الشركات العائلية',
-        'ريادة الأعمال',
-      ],
-      pricing: { currency: 'USD', monthly: 14, annual: 139, lifetime: 649 },
-    },
+    es: {} as any,
+    fr: {} as any,
+    de: {} as any,
+    pt: {} as any,
+    ar: {} as any,
+    zh: {} as any,
+    ja: {} as any,
+    ko: {} as any,
   },
 };
