@@ -1,6 +1,5 @@
-// app/asia-emerging/[lang]/page.tsx
-
 import RegionCurriculum from "@/components/RegionCurriculum";
+import { regionContent } from "@/lib/regionContent";
 
 export default function AsiaEmergingPage({
   params,
@@ -11,6 +10,7 @@ export default function AsiaEmergingPage({
     <RegionCurriculum
       regionKey="asia-emerging"
       lang={params.lang}
+      content={regionContent["asia-emerging"][params.lang]}
     />
   );
 }
