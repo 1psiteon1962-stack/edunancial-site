@@ -1,16 +1,6 @@
-// app/asia/[lang]/page.tsx
+import RegionCurriculum from '@/components/RegionCurriculum';
+import { Language } from '@/lib/regionContent';
 
-import RegionCurriculum from "@/components/RegionCurriculum";
-
-export default function AsiaPage({
-  params,
-}: {
-  params: { lang: string };
-}) {
-  return (
-    <RegionCurriculum
-      regionKey="asia"
-      lang={params.lang}
-    />
-  );
+export default function Page({ params }: { params: { lang: Language } }) {
+  return <RegionCurriculum regionKey="asia" lang={params.lang} />;
 }
