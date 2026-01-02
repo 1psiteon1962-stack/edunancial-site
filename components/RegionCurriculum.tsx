@@ -1,31 +1,39 @@
-import { Region, Language } from "@/lib/language";
-import { RegionCurriculumContent } from "@/lib/regionContent";
+// components/RegionCurriculum.tsx
+
+import { regionContent } from "@/lib/regionContent";
+import {
+  Language,
+  Region,
+  DEFAULT_LANGUAGE_BY_REGION,
+} from "@/lib/language";
 
 type Props = {
   regionKey: Region;
   lang: Language;
-  content: RegionCurriculumContent;
 };
 
-export default function RegionCurriculum({
-  regionKey,
-  lang,
-  content,
-}: Props) {
+export default function RegionCurriculum({ regionKey, lang }: Props) {
+  const region = regionContent[regionKey];
+  const fallbackLang = DEFAULT_LANGUAGE_BY_REGION[regionKey];
+
+  const content = region[lang] ?? region[fallbackLang];
+
+  if (!content) {
+    return <div>Content coming soon.</div>;
+  }
+
   return (
-    <main>
+    <section>
       <h1>{content.heroTitle}</h1>
       <p>{content.description}</p>
-
       <ul>
         {content.curriculum.map((item) => (
           <li key={item}>{item}</li>
         ))}
       </ul>
-
       <p>
-        Pricing: {content.pricing.currency} {content.pricing.amount}
+        Price: {content.pricing.amount} {content.pricing.currency}
       </p>
-    </main>
+    </section>
   );
 }
