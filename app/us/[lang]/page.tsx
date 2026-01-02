@@ -1,19 +1,25 @@
-// app/us/[lang]/page.tsx
-
+import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
+import { isLanguage, Language } from "@/lib/language";
 import { regionContent } from "@/lib/regionContent";
-import { Language } from "@/lib/language";
 
 export default function Page({
   params,
 }: {
-  params: { lang: Language };
+  params: { lang: string };
 }) {
+  if (!isLanguage(params.lang)) return notFound();
+
+  const lang: Language = params.lang;
+  const content = regionContent.us[lang];
+
+  if (!content) return notFound();
+
   return (
     <RegionCurriculum
       regionKey="us"
-      lang={params.lang}
-      content={regionContent.us[params.lang]}
+      lang={lang}
+      content={content}
     />
   );
 }
