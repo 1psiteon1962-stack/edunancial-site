@@ -1,16 +1,17 @@
-import RegionCurriculum from "@/components/RegionCurriculum";
-import { regionContent } from "@/lib/regionContent";
+import { Language } from '@/lib/language';
+import RegionCurriculum from '@/components/RegionCurriculum';
+import { regionContent } from '@/lib/regionContent';
 
-export default function AsiaEmergingPage({
-  params,
-}: {
-  params: { lang: string };
-}) {
+type PageProps = {
+  params: { lang: Language };
+};
+
+export default function Page({ params }: PageProps) {
   return (
     <RegionCurriculum
       regionKey="asia-emerging"
       lang={params.lang}
-      content={regionContent["asia-emerging"][params.lang]}
+      content={regionContent['asia-emerging'][params.lang]}
     />
   );
 }
