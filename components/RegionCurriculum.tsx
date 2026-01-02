@@ -1,34 +1,78 @@
-// components/RegionCurriculum.tsx
+import React from "react";
 
-import { regionContent } from "@/data/regionContent";
+export interface RegionCurriculumContent {
+  title: string;
+  description?: string;
+  curriculum: string[];
+  pricing?: {
+    label: string;
+    amount: string;
+    cadence?: string;
+  }[];
+}
 
-type Props = {
+interface RegionCurriculumProps {
   regionKey: string;
   lang: string;
-};
+  content: RegionCurriculumContent;
+}
 
-export default function RegionCurriculum({ regionKey, lang }: Props) {
-  const region = regionContent[regionKey];
-  const content = region.languages[lang] ?? region.languages["en"];
-
+export default function RegionCurriculum({
+  regionKey,
+  lang,
+  content,
+}: RegionCurriculumProps) {
   return (
-    <main className="max-w-5xl mx-auto px-6 py-12">
-      <h1 className="text-3xl font-bold mb-4">{content.title}</h1>
-      <p className="mb-6">{content.description}</p>
+    <section className="max-w-5xl mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mb-4">
+        {content.title}
+      </h1>
 
-      <section className="mb-10">
-        <h2 className="text-xl font-semibold mb-2">Curriculum</h2>
+      {content.description && (
+        <p className="text-gray-700 mb-6">
+          {content.description}
+        </p>
+      )}
+
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold mb-2">
+          Curriculum
+        </h2>
         <ul className="list-disc ml-6 space-y-1">
-          {content.curriculum.map((item, i) => (
+          {content.curriculum.map((item: string, i: number) => (
             <li key={i}>{item}</li>
           ))}
         </ul>
-      </section>
+      </div>
 
-      <section>
-        <h2 className="text-xl font-semibold mb-2">Pricing</h2>
-        <p className="text-lg font-bold">{content.pricing}</p>
-      </section>
-    </main>
+      {content.pricing && (
+        <div>
+          <h2 className="text-xl font-semibold mb-2">
+            Pricing
+          </h2>
+          <ul className="space-y-2">
+            {content.pricing.map(
+              (
+                tier: {
+                  label: string;
+                  amount: string;
+                  cadence?: string;
+                },
+                i: number
+              ) => (
+                <li
+                  key={i}
+                  className="border rounded p-3"
+                >
+                  <strong>{tier.label}</strong>:{" "}
+                  {tier.amount}
+                  {tier.cadence ? ` / ${tier.cadence}` : ""}
+                </li>
+              )
+            )}
+          </ul>
+        </div>
+      )}
+    </section>
   );
 }
