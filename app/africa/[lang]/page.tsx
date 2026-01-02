@@ -1,21 +1,17 @@
+// app/africa/[lang]/page.tsx
 import { notFound } from 'next/navigation';
 import RegionCurriculum from '@/components/RegionCurriculum';
-import { isLanguage, type Language } from '@/lib/language';
 import { regionContent } from '@/lib/regionContent';
+import { isLanguage } from '@/lib/language';
 
-export default function Page({
-  params,
-}: {
-  params: { lang: string };
-}) {
+export default function Page({ params }: { params: { lang: string } }) {
   if (!isLanguage(params.lang)) return notFound();
-  const lang = params.lang as Language;
 
   return (
     <RegionCurriculum
       regionKey="africa"
-      lang={lang}
-      content={regionContent.africa[lang]}
+      lang={params.lang}
+      content={regionContent.africa[params.lang]}
     />
   );
 }
