@@ -1,3 +1,5 @@
+// lib/language.ts
+
 export const LANGUAGES = [
   "en",
   "es",
@@ -9,7 +11,7 @@ export const LANGUAGES = [
   "hi",
 ] as const;
 
-export type Language = (typeof LANGUAGES)[number];
+export type Language = typeof LANGUAGES[number];
 
 export const isLanguage = (value: string): value is Language => {
   return LANGUAGES.includes(value as Language);
@@ -17,19 +19,19 @@ export const isLanguage = (value: string): value is Language => {
 
 export type Region =
   | "us"
-  | "africa"
   | "europe"
+  | "mena"
+  | "africa"
   | "asia"
-  | "asia-pacific"
   | "asia-emerging"
-  | "mena";
+  | "asia-pacific";
 
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
-  africa: "en",
   europe: "en",
-  asia: "en",
-  "asia-pacific": "en",
-  "asia-emerging": "en",
   mena: "ar",
+  africa: "en",
+  asia: "zh",
+  "asia-emerging": "hi",
+  "asia-pacific": "ja",
 };
