@@ -1,53 +1,60 @@
-import { Language } from './languages';
+import { Language } from "./languages";
+
+export interface RegionPricing {
+  currency: string;
+  monthly: number;
+  quarterly: number;
+  annual: number;
+  lifetime: number;
+  enterprise: number;
+}
 
 export interface RegionCurriculumContent {
   title: string;
   description: string;
   curriculum: string[];
-  pricing: {
-    currency: string;
-    monthly: number;
-    annual: number;
-    enterprise: string;
-  };
+  pricing: RegionPricing;
 }
 
 export const regionContent: Record<
   string,
   Record<Language, RegionCurriculumContent>
 > = {
-  'asia-pacific': {
+  "asia-pacific": {
     en: {
-      title: 'Asia-Pacific Curriculum',
-      description: 'Business, finance, and entrepreneurship for APAC markets.',
+      title: "Asia-Pacific Curriculum",
+      description: "Business, finance, and entrepreneurship for Asia-Pacific.",
       curriculum: [
-        'Foundations of Entrepreneurship',
-        'Regional Market Analysis',
-        'Digital Payments & Banking',
-        'Cross-Border Trade Basics',
+        "Foundations of Business",
+        "Regional Trade & Supply Chains",
+        "Digital Payments & Fintech",
+        "Scaling Across Borders",
       ],
       pricing: {
-        currency: 'USD',
-        monthly: 15,
-        annual: 150,
-        enterprise: 'Contact Sales',
+        currency: "USD",
+        monthly: 19,
+        quarterly: 49,
+        annual: 179,
+        lifetime: 499,
+        enterprise: 1999,
       },
     },
     es: {
-      title: 'Programa Asia-Pacífico',
-      description:
-        'Negocios, finanzas y emprendimiento para mercados APAC.',
+      title: "Plan de Asia-Pacífico",
+      description: "Negocios y finanzas para Asia-Pacífico.",
       curriculum: [
-        'Fundamentos del Emprendimiento',
-        'Análisis de Mercados Regionales',
-        'Pagos Digitales y Banca',
-        'Comercio Transfronterizo',
+        "Fundamentos Empresariales",
+        "Comercio Regional",
+        "Pagos Digitales",
+        "Escalamiento Internacional",
       ],
       pricing: {
-        currency: 'USD',
-        monthly: 15,
-        annual: 150,
-        enterprise: 'Contactar Ventas',
+        currency: "USD",
+        monthly: 19,
+        quarterly: 49,
+        annual: 179,
+        lifetime: 499,
+        enterprise: 1999,
       },
     },
   },
