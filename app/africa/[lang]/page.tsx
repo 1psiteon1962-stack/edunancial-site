@@ -1,6 +1,15 @@
+// app/africa/[lang]/page.tsx
 import RegionCurriculum from '@/components/RegionCurriculum';
-import { Language } from '@/lib/regionContent';
+import { regionContent, Language } from '@/lib/regionContent';
 
-export default function Page({ params }: { params: { lang: Language } }) {
-  return <RegionCurriculum regionKey="africa" lang={params.lang} />;
+type PageProps = { params: { lang: Language } };
+
+export default function Page({ params }: PageProps) {
+  return (
+    <RegionCurriculum
+      regionKey="africa"
+      lang={params.lang}
+      content={regionContent.africa[params.lang]}
+    />
+  );
 }
