@@ -1,16 +1,16 @@
-import { REGIONS } from "@/data/regions";
-import { EUROPE_CURRICULUM } from "@/data/curriculum/europe";
-import CurriculumPage from "@/components/CurriculumPage";
+// app/europe/[lang]/page.tsx
 
-export default function EuropePage({ params }: { params: { lang: string } }) {
-  const lang = params.lang;
-  const content = EUROPE_CURRICULUM[lang] ?? EUROPE_CURRICULUM.en;
+import RegionCurriculum from "@/components/RegionCurriculum";
 
+export default function EuropePage({
+  params,
+}: {
+  params: { lang: string };
+}) {
   return (
-    <CurriculumPage
-      headline={content.headline}
-      levels={content.levels}
-      currency={REGIONS.europe.currency}
+    <RegionCurriculum
+      regionKey="europe"
+      lang={params.lang}
     />
   );
 }
