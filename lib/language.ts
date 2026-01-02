@@ -1,24 +1,19 @@
-export type Language =
-  | "en"
-  | "es"
-  | "fr"
-  | "de"
-  | "pt"
-  | "ar"
-  | "zh"
-  | "hi"
-  | "ja"
-  | "ko";
+// lib/language.ts
 
-export const SUPPORTED_LANGUAGES: Language[] = [
-  "en",
-  "es",
-  "fr",
-  "de",
-  "pt",
-  "ar",
-  "zh",
-  "hi",
-  "ja",
-  "ko",
-];
+export const SUPPORTED_LANGUAGES = [
+  'en',
+  'es',
+  'fr',
+  'de',
+  'pt',
+  'ar',
+  'zh',
+  'hi',
+  'ja',
+] as const;
+
+export type Language = typeof SUPPORTED_LANGUAGES[number];
+
+export const isLanguage = (value: string): value is Language => {
+  return SUPPORTED_LANGUAGES.includes(value as Language);
+};
