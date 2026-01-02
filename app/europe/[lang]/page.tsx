@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
-import RegionCurriculum from '@/components/RegionCurriculum';
-import { isLanguage, type Language } from '@/lib/language';
-import { regionContent } from '@/lib/regionContent';
+import { notFound } from "next/navigation";
+import RegionCurriculum from "@/components/RegionCurriculum";
+import { isLanguage, Language } from "@/lib/language";
+import { regionContent } from "@/lib/regionContent";
 
 export default function Page({
   params,
@@ -9,13 +9,17 @@ export default function Page({
   params: { lang: string };
 }) {
   if (!isLanguage(params.lang)) return notFound();
-  const lang = params.lang as Language;
+
+  const lang: Language = params.lang;
+  const content = regionContent.europe?.[lang];
+
+  if (!content) return notFound();
 
   return (
     <RegionCurriculum
       regionKey="europe"
       lang={lang}
-      content={regionContent.europe[lang]}
+      content={content}
     />
   );
 }
