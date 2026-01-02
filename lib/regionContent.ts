@@ -1,103 +1,59 @@
 // lib/regionContent.ts
-import { Language } from './language';
 
-export type Pricing = {
-  currency: string;
-  monthly: number;
-  annual: number;
-};
+import { Language } from "@/lib/language";
+import { RegionCurriculumContent } from "@/components/RegionCurriculum";
 
-export type RegionCurriculumContent = {
-  title: string;
-  description: string;
-  curriculum: string[];
-  pricing: Pricing;
-};
+type RegionMap = Record<string, Record<Language, RegionCurriculumContent>>;
 
-export const regionContent: Record<
-  string,
-  Record<Language, RegionCurriculumContent>
-> = {
-  mena: {
+export const regionContent: RegionMap = {
+  us: {
     en: {
-      title: 'MENA Market Foundations',
-      description: 'Business, finance, and compliance for MENA markets.',
+      title: "US Financial Foundations",
+      description: "Core financial literacy for the United States market.",
       curriculum: [
-        'Business formation fundamentals',
-        'Cross-border compliance',
-        'Capital access in emerging markets',
+        "Banking & Credit",
+        "US Taxes",
+        "Investing Basics",
+        "Business Formation",
       ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    ar: {
-      title: 'أساسيات أسواق الشرق الأوسط',
-      description: 'الأعمال والتمويل والامتثال للأسواق الإقليمية.',
-      curriculum: [
-        'تأسيس الأعمال',
-        'الامتثال العابر للحدود',
-        'الوصول إلى رأس المال',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    fr: {
-      title: 'Fondations Marché MENA',
-      description: 'Affaires et finance pour la région MENA.',
-      curriculum: [
-        'Création d’entreprise',
-        'Conformité transfrontalière',
-        'Accès au capital',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    de: {
-      title: 'MENA-Marktgrundlagen',
-      description: 'Geschäft und Finanzierung für die MENA-Region.',
-      curriculum: [
-        'Unternehmensgründung',
-        'Grenzüberschreitende Compliance',
-        'Kapitalzugang',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    zh: {
-      title: '中东北非市场基础',
-      description: '中东北非地区的商业与金融。',
-      curriculum: [
-        '企业设立',
-        '跨境合规',
-        '资本获取',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    ja: {
-      title: 'MENA市場基礎',
-      description: 'MENA地域のビジネスと金融。',
-      curriculum: [
-        '法人設立',
-        '国際コンプライアンス',
-        '資本調達',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
-    },
-    hi: {
-      title: 'MENA बाजार की नींव',
-      description: 'MENA क्षेत्र के लिए व्यापार और वित्त।',
-      curriculum: [
-        'व्यवसाय निर्माण',
-        'सीमा-पार अनुपालन',
-        'पूंजी तक पहुँच',
-      ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
+      pricing: { currency: "USD", monthly: 29, annual: 299 },
     },
     es: {
-      title: 'Fundamentos del Mercado MENA',
-      description: 'Negocios y finanzas para la región MENA.',
+      title: "Fundamentos Financieros de EE.UU.",
+      description: "Educación financiera esencial para EE.UU.",
       curriculum: [
-        'Creación de empresas',
-        'Cumplimiento transfronterizo',
-        'Acceso a capital',
+        "Banca y Crédito",
+        "Impuestos",
+        "Inversiones",
+        "Negocios",
       ],
-      pricing: { currency: 'USD', monthly: 19, annual: 199 },
+      pricing: { currency: "USD", monthly: 29, annual: 299 },
     },
+    fr: null as any,
+    de: null as any,
+    ar: null as any,
+    zh: null as any,
+    ja: null as any,
+    hi: null as any,
+  },
+
+  mena: {
+    en: {
+      title: "MENA Market Curriculum",
+      description: "Finance, trade, and entrepreneurship in MENA.",
+      curriculum: [
+        "Islamic Finance",
+        "Cross-Border Trade",
+        "Regional Compliance",
+      ],
+      pricing: { currency: "USD", monthly: 25, annual: 249 },
+    },
+    es: null as any,
+    fr: null as any,
+    de: null as any,
+    ar: null as any,
+    zh: null as any,
+    ja: null as any,
+    hi: null as any,
   },
 };
