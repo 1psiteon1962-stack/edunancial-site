@@ -1,4 +1,5 @@
 // components/LocalizedDoctrine.tsx
+
 import { Language, resolveCopy } from '@/lib/i18n';
 
 type DoctrineContent = {
@@ -13,7 +14,7 @@ const contentMap: Record<Language, DoctrineContent> = {
       'Markets reward value creation, discipline, and long-term thinking.',
   },
   es: {
-    doctrineTitle: 'Doctrina de Mercado',
+    doctrineTitle: 'Doctrina del Mercado',
     doctrineBody:
       'Los mercados recompensan la creación de valor, la disciplina y la visión a largo plazo.',
   },
@@ -29,7 +30,7 @@ export default function LocalizedDoctrine({ lang }: { lang: Language }) {
 
   return (
     <section className="py-16 px-6 max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6">{c.doctrineTitle}</h2>
+      <h2 className="text-3xl font-bold mb-4">{c.doctrineTitle}</h2>
       <p className="text-lg text-gray-700">{c.doctrineBody}</p>
     </section>
   );
