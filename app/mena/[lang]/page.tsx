@@ -1,25 +1,8 @@
 import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
-import { isLanguage, Language } from "@/lib/language";
-import { regionContent } from "@/lib/regionContent";
+import { isLanguage } from "@/lib/language";
 
-export default function Page({
-  params,
-}: {
-  params: { lang: string };
-}) {
-  if (!isLanguage(params.lang)) return notFound();
-
-  const lang: Language = params.lang;
-  const content = regionContent.mena[lang];
-
-  if (!content) return notFound();
-
-  return (
-    <RegionCurriculum
-      regionKey="mena"
-      lang={lang}
-      content={content}
-    />
-  );
+export default function Page({ params }: { params: { lang: string } }) {
+  if (!isLanguage(params.lang)) notFound();
+  return <RegionCurriculum regionKey="mena" lang={params.lang} />;
 }
