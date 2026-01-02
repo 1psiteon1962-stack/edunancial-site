@@ -1,5 +1,5 @@
-import RegionCurriculum from '@/components/RegionCurriculum';
-import { europeCurriculumContent } from '@/lib/curriculumContent/europe';
+import RegionCurriculum from "@/components/RegionCurriculum";
+import { regionCurriculumContent } from "@/lib/regionCurriculumContent";
 
 export default function EuropePage({
   params,
@@ -7,8 +7,8 @@ export default function EuropePage({
   params: { lang: string };
 }) {
   const content =
-    europeCurriculumContent[params.lang] ??
-    europeCurriculumContent.en;
+    regionCurriculumContent.europe[params.lang] ??
+    regionCurriculumContent.europe.en;
 
   return (
     <RegionCurriculum
