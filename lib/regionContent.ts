@@ -1,4 +1,5 @@
 // lib/regionContent.ts
+
 import { Language, Region } from "./language";
 
 export type RegionCurriculumContent = {
@@ -11,98 +12,33 @@ export type RegionCurriculumContent = {
   };
 };
 
-const baseContent = (
-  title: string,
-  description: string,
-  currency: string
-): Record<Language, RegionCurriculumContent> => ({
-  en: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  es: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  fr: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  de: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  ar: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  zh: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  ja: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
-  hi: {
-    heroTitle: title,
-    description,
-    curriculum: [],
-    pricing: { currency, amount: 0 },
-  },
+const empty = (title: string): RegionCurriculumContent => ({
+  heroTitle: title,
+  description: "Localized content coming soon.",
+  curriculum: [],
+  pricing: { currency: "USD", amount: 0 },
+});
+
+const allLanguages = (title: string): Record<Language, RegionCurriculumContent> => ({
+  en: empty(title),
+  es: empty(title),
+  fr: empty(title),
+  de: empty(title),
+  ar: empty(title),
+  zh: empty(title),
+  ja: empty(title),
+  hi: empty(title),
 });
 
 export const regionContent: Record<
   Region,
   Record<Language, RegionCurriculumContent>
 > = {
-  us: baseContent(
-    "U.S. Financial Curriculum",
-    "Build wealth using U.S. financial systems.",
-    "USD"
-  ),
-  europe: baseContent(
-    "European Financial Curriculum",
-    "Navigate European financial systems.",
-    "EUR"
-  ),
-  africa: baseContent(
-    "African Financial Curriculum",
-    "Build wealth across African markets.",
-    "USD"
-  ),
-  asia: baseContent(
-    "Asian Financial Curriculum",
-    "Understand Asian economic systems.",
-    "USD"
-  ),
-  "asia-pacific": baseContent(
-    "Asia-Pacific Financial Curriculum",
-    "Asia-Pacific regional strategy.",
-    "USD"
-  ),
-  "asia-emerging": baseContent(
-    "Emerging Asia Financial Curriculum",
-    "High-growth emerging markets.",
-    "USD"
-  ),
-  mena: baseContent(
-    "MENA Financial Curriculum",
-    "Middle East & North Africa systems.",
-    "USD"
-  ),
+  us: allLanguages("U.S. Financial Curriculum"),
+  africa: allLanguages("Africa Financial Curriculum"),
+  asia: allLanguages("Asia Financial Curriculum"),
+  "asia-emerging": allLanguages("Asia Emerging Markets Curriculum"),
+  "asia-pacific": allLanguages("Asia Pacific Curriculum"),
+  europe: allLanguages("Europe Financial Curriculum"),
+  mena: allLanguages("MENA Financial Curriculum"),
 };
