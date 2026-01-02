@@ -1,5 +1,7 @@
 // components/CurriculumPath.tsx
 
+import React from 'react';
+
 export type CurriculumStep = {
   title: string;
   description: string;
@@ -15,16 +17,16 @@ export default function CurriculumPath({
   steps = [],
 }: CurriculumPathProps) {
   return (
-    <section className="mt-8">
-      <h2 className="text-xl font-semibold">
-        Curriculum Path {region ? `– ${region}` : ''}
+    <section className="mt-12">
+      <h2 className="text-2xl font-bold mb-4">
+        Curriculum Path {region ? `— ${region.toUpperCase()}` : ''}
       </h2>
 
-      <ul className="mt-4 space-y-4">
+      <ul className="pl-6 list-disc">
         {steps.map((step, index) => (
-          <li key={index}>
+          <li key={index} className="mb-4">
             <strong>{step.title}</strong>
-            <p>{step.description}</p>
+            <p className="text-sm mt-1">{step.description}</p>
           </li>
         ))}
       </ul>
