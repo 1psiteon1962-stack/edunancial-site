@@ -7,31 +7,32 @@ type DoctrineContent = {
   doctrineBody: string;
 };
 
-const contentMap: Record<Language, DoctrineContent> = {
-  en: {
-    doctrineTitle: 'Market Doctrine',
-    doctrineBody:
-      'Markets reward value creation, discipline, and long-term thinking.',
-  },
-  es: {
-    doctrineTitle: 'Doctrina del Mercado',
-    doctrineBody:
-      'Los mercados recompensan la creación de valor, la disciplina y la visión a largo plazo.',
-  },
-  fr: {
-    doctrineTitle: 'Doctrine du Marché',
-    doctrineBody:
-      'Les marchés récompensent la création de valeur, la discipline et la vision à long terme.',
-  },
-};
-
 export default function LocalizedDoctrine({ lang }: { lang: Language }) {
+  const contentMap: Record<Language, DoctrineContent> = {
+    en: {
+      doctrineTitle: 'Market Doctrine',
+      doctrineBody: 'Markets reward discipline, patience, and structure.',
+    },
+    es: {
+      doctrineTitle: 'Doctrina de Mercado',
+      doctrineBody: 'Los mercados recompensan la disciplina y la estructura.',
+    },
+    fr: {
+      doctrineTitle: 'Doctrine du Marché',
+      doctrineBody: 'Les marchés récompensent la discipline et la structure.',
+    },
+    ar: {
+      doctrineTitle: 'عقيدة السوق',
+      doctrineBody: 'تكافئ الأسواق الانضباط والصبر والبنية.',
+    },
+  };
+
   const c = resolveCopy(lang, contentMap);
 
   return (
-    <section className="py-16 px-6 max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">{c.doctrineTitle}</h2>
-      <p className="text-lg text-gray-700">{c.doctrineBody}</p>
+    <section className="py-12">
+      <h2 className="text-2xl font-bold mb-4">{c.doctrineTitle}</h2>
+      <p>{c.doctrineBody}</p>
     </section>
   );
 }
