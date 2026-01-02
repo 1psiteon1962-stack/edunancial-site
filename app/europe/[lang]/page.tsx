@@ -1,21 +1,16 @@
-import GlobalLayout from '@/components/GlobalLayout';
-import CurriculumPath from '@/components/CurriculumPath';
-import CapitalismAssessment from '@/components/CapitalismAssessment';
+import { REGIONS } from "@/data/regions";
+import { EUROPE_CURRICULUM } from "@/data/curriculum/europe";
+import CurriculumPage from "@/components/CurriculumPage";
 
-export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'fr' }, { lang: 'de' }, { lang: 'es' }];
-}
+export default function EuropePage({ params }: { params: { lang: string } }) {
+  const lang = params.lang;
+  const content = EUROPE_CURRICULUM[lang] ?? EUROPE_CURRICULUM.en;
 
-export default function EuropePage() {
   return (
-    <GlobalLayout title="Europe">
-      <p>
-        European capital systems emphasize compliance, longevity, institutional
-        continuity, and structured risk allocation.
-      </p>
-
-      <CurriculumPath region="Europe" />
-      <CapitalismAssessment />
-    </GlobalLayout>
+    <CurriculumPage
+      headline={content.headline}
+      levels={content.levels}
+      currency={REGIONS.europe.currency}
+    />
   );
 }
