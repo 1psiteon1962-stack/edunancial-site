@@ -1,30 +1,26 @@
-import { notFound } from 'next/navigation';
-import RegionCurriculum from '@/components/RegionCurriculum';
-import { isLanguage, Language } from '@/lib/languages';
-import { regionContent } from '@/lib/regionContent';
+import { notFound } from "next/navigation";
+import RegionCurriculum from "@/components/RegionCurriculum";
+import { regionContent } from "@/lib/regionContent";
+import { Language, SUPPORTED_LANGUAGES } from "@/lib/languages";
 
-type PageProps = {
-  params: {
-    lang: string;
-  };
-};
+const isLanguage = (value: string): value is Language =>
+  SUPPORTED_LANGUAGES.includes(value as Language);
 
-export default function Page({ params }: PageProps) {
+export default function Page({
+  params,
+}: {
+  params: { lang: string };
+}) {
   if (!isLanguage(params.lang)) {
-    return notFound();
+    notFound();
   }
 
-  const lang: Language = params.lang;
-  const content = regionContent['asia-pacific'][lang];
-
-  if (!content) {
-    return notFound();
-  }
+  const content = regionContent["asia-pacific"][params.lang];
 
   return (
     <RegionCurriculum
       regionKey="asia-pacific"
-      lang={lang}
+      lang={params.lang}
       content={content}
     />
   );
