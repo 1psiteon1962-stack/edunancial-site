@@ -12,7 +12,3 @@ export const SUPPORTED_LANGUAGES = [
 ] as const;
 
 export type Language = (typeof SUPPORTED_LANGUAGES)[number];
-
-export function isLanguage(value: string): value is Language {
-  return SUPPORTED_LANGUAGES.includes(value as Language);
-}
