@@ -1,15 +1,12 @@
-// app/asia-emerging/[lang]/page.tsx
-import RegionCurriculum from '@/components/RegionCurriculum';
-import { regionContent, Language } from '@/lib/regionContent';
+import { notFound } from "next/navigation";
+import RegionCurriculum from "@/components/RegionCurriculum";
+import { isLanguage, type Language } from "@/lib/languages";
 
-type PageProps = { params: { lang: Language } };
+type PageProps = { params: { lang: string } };
 
 export default function Page({ params }: PageProps) {
-  return (
-    <RegionCurriculum
-      regionKey="asia-emerging"
-      lang={params.lang}
-      content={regionContent['asia-emerging'][params.lang]}
-    />
-  );
+  if (!isLanguage(params.lang)) return notFound();
+  const lang: Language = params.lang;
+
+  return <RegionCurriculum regionKey="asia-emerging" lang={lang} />;
 }
