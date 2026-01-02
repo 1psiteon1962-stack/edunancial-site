@@ -1,6 +1,5 @@
+// components/CurriculumPath.tsx
 'use client';
-
-import React from 'react';
 
 export type CurriculumStep = {
   title: string;
@@ -8,29 +7,25 @@ export type CurriculumStep = {
 };
 
 interface CurriculumPathProps {
-  steps?: CurriculumStep[];
   region?: string;
+  steps?: CurriculumStep[];
 }
 
 export default function CurriculumPath({
+  region,
   steps = [],
-  region
 }: CurriculumPathProps) {
-  const resolvedSteps: CurriculumStep[] = Array.isArray(steps) ? steps : [];
-
   return (
-    <section style={{ marginTop: '2rem' }}>
-      <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-        Curriculum Path {region ? `— ${region.toUpperCase()}` : ''}
+    <section className="mt-12">
+      <h2 className="text-2xl font-semibold mb-6">
+        Curriculum Path {region ? `– ${region.toUpperCase()}` : ''}
       </h2>
 
-      <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-        {resolvedSteps.map((step, index) => (
-          <li key={index} style={{ marginBottom: '1rem' }}>
-            <strong>{step.title}</strong>
-            <p style={{ margin: '0.25rem 0 0 0' }}>
-              {step.description}
-            </p>
+      <ul className="space-y-6">
+        {steps.map((step, index) => (
+          <li key={index}>
+            <strong className="block text-lg">{step.title}</strong>
+            <p className="text-gray-700">{step.description}</p>
           </li>
         ))}
       </ul>
