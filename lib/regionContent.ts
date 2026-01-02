@@ -1,215 +1,186 @@
-import { RegionContentMap } from './types';
+// lib/regionContent.ts
+export type Language = 'en' | 'es' | 'fr' | 'de' | 'ar' | 'pt' | 'zh' | 'hi';
 
-export const regionContent: RegionContentMap = {
-  us: {
-    en: {
-      title: 'United States Curriculum',
-      description: 'Foundational financial literacy for the U.S. market.',
-      curriculum: [
-        'Personal finance basics',
-        'Credit and debt management',
-        'Investing fundamentals',
-        'Business formation in the U.S.',
-      ],
-      pricing: {
-        currency: 'USD',
-        monthly: 29,
-        annual: 299,
-        quarterly: 79,
-        lifetime: 999,
-      },
-    },
-    es: {
-      title: 'Programa de Estados Unidos',
-      description: 'Educación financiera para el mercado estadounidense.',
-      curriculum: [
-        'Finanzas personales',
-        'Crédito y deudas',
-        'Fundamentos de inversión',
-        'Formación de empresas en EE.UU.',
-      ],
-      pricing: {
-        currency: 'USD',
-        monthly: 29,
-        annual: 299,
-        quarterly: 79,
-        lifetime: 999,
-      },
-    },
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
-  },
+export interface RegionCurriculumContent {
+  title: string;
+  description: string;
+  curriculum: string[];
+  pricing: {
+    currency: string;
+    monthly: number;
+    annual: number;
+    quarterly: number;
+    lifetime: number;
+  };
+}
 
+export const regionContent: Record<
+  string,
+  Record<Language, RegionCurriculumContent>
+> = {
   africa: {
     en: {
-      title: 'Africa Curriculum',
-      description: 'Entrepreneurship and finance adapted for African markets.',
+      title: 'Africa – Financial Foundations',
+      description: 'Entrepreneurship and financial literacy adapted for Africa.',
       curriculum: [
-        'Micro-enterprise finance',
-        'Mobile banking & fintech',
-        'Trade and logistics basics',
-        'Cross-border investing',
-      ],
-      pricing: {
-        currency: 'USD',
-        monthly: 15,
-        annual: 149,
-        quarterly: 39,
-        lifetime: 499,
-      },
-    },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
-  },
-
-  europe: {
-    en: {
-      title: 'Europe Curriculum',
-      description: 'Multi-jurisdiction finance and business education.',
-      curriculum: [
-        'EU financial systems',
-        'Multi-currency investing',
-        'Cross-border compliance',
-        'Business structures in Europe',
-      ],
-      pricing: {
-        currency: 'EUR',
-        monthly: 25,
-        annual: 249,
-        quarterly: 69,
-        lifetime: 899,
-      },
-    },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
-  },
-
-  asia: {
-    en: {
-      title: 'Asia Curriculum',
-      description: 'Finance and growth strategies for Asia.',
-      curriculum: [
-        'Regional capital markets',
-        'Manufacturing finance',
-        'Technology startups',
+        'Money basics',
+        'Mobile banking',
+        'Small business foundations',
         'Cross-border trade',
       ],
       pricing: {
         currency: 'USD',
-        monthly: 19,
-        annual: 189,
-        quarterly: 49,
-        lifetime: 699,
+        monthly: 9,
+        annual: 90,
+        quarterly: 25,
+        lifetime: 299,
       },
     },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
+    fr: {
+      title: 'Afrique – Bases financières',
+      description:
+        'Entrepreneuriat et éducation financière pour l’Afrique.',
+      curriculum: [
+        'Bases de l’argent',
+        'Banque mobile',
+        'Fondations des PME',
+        'Commerce transfrontalier',
+      ],
+      pricing: {
+        currency: 'EUR',
+        monthly: 8,
+        annual: 80,
+        quarterly: 22,
+        lifetime: 249,
+      },
+    },
+    ar: {
+      title: 'أفريقيا – الأسس المالية',
+      description: 'التعليم المالي وريادة الأعمال لأفريقيا.',
+      curriculum: [
+        'أساسيات المال',
+        'الخدمات المصرفية عبر الهاتف',
+        'أساسيات الأعمال',
+        'التجارة الإقليمية',
+      ],
+      pricing: {
+        currency: 'USD',
+        monthly: 9,
+        annual: 90,
+        quarterly: 25,
+        lifetime: 299,
+      },
+    },
   },
 
-  'asia-emerging': {
+  asia: {
     en: {
-      title: 'Asia Emerging Markets',
-      description: 'High-growth, early-stage economies.',
+      title: 'Asia – Market Acceleration',
+      description: 'Capital markets and scalable business models for Asia.',
       curriculum: [
+        'Market analysis',
+        'Supply chains',
         'Startup finance',
-        'SME scaling',
-        'Foreign investment basics',
-        'Risk management',
+        'Regional expansion',
       ],
       pricing: {
         currency: 'USD',
         monthly: 12,
-        annual: 119,
+        annual: 120,
         quarterly: 35,
+        lifetime: 349,
+      },
+    },
+    zh: {
+      title: '亚洲 – 市场加速',
+      description: '面向亚洲的金融与创业课程。',
+      curriculum: [
+        '市场分析',
+        '供应链',
+        '创业金融',
+        '区域扩展',
+      ],
+      pricing: {
+        currency: 'USD',
+        monthly: 12,
+        annual: 120,
+        quarterly: 35,
+        lifetime: 349,
+      },
+    },
+    hi: {
+      title: 'एशिया – बाज़ार विस्तार',
+      description: 'एशिया के लिए वित्तीय शिक्षा।',
+      curriculum: [
+        'बाज़ार विश्लेषण',
+        'आपूर्ति श्रृंखला',
+        'स्टार्टअप वित्त',
+        'क्षेत्रीय विस्तार',
+      ],
+      pricing: {
+        currency: 'USD',
+        monthly: 12,
+        annual: 120,
+        quarterly: 35,
+        lifetime: 349,
+      },
+    },
+  },
+
+  'asia-emerging': {
+    en: {
+      title: 'Asia Emerging – Growth Track',
+      description: 'Early-stage capital and business systems.',
+      curriculum: [
+        'Micro-enterprise',
+        'Access to capital',
+        'Digital payments',
+        'Export readiness',
+      ],
+      pricing: {
+        currency: 'USD',
+        monthly: 7,
+        annual: 70,
+        quarterly: 20,
+        lifetime: 199,
+      },
+    },
+  },
+
+  europe: {
+    en: {
+      title: 'Europe – Regulatory & Markets',
+      description: 'EU-focused finance and compliance education.',
+      curriculum: [
+        'EU markets',
+        'Corporate structures',
+        'Tax systems',
+        'Cross-border investing',
+      ],
+      pricing: {
+        currency: 'EUR',
+        monthly: 15,
+        annual: 150,
+        quarterly: 40,
         lifetime: 399,
       },
     },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
-  },
-
-  'asia-pacific': {
-    en: {
-      title: 'Asia-Pacific Curriculum',
-      description: 'Advanced trade and investment across the Pacific.',
+    de: {
+      title: 'Europa – Regulierung & Märkte',
+      description: 'Finanzbildung für Europa.',
       curriculum: [
-        'International trade finance',
-        'Supply chain economics',
-        'Currency risk',
-        'Regional compliance',
+        'EU-Märkte',
+        'Unternehmensstrukturen',
+        'Steuersysteme',
+        'Grenzüberschreitende Investitionen',
       ],
       pricing: {
-        currency: 'USD',
-        monthly: 22,
-        annual: 219,
-        quarterly: 59,
-        lifetime: 799,
+        currency: 'EUR',
+        monthly: 15,
+        annual: 150,
+        quarterly: 40,
+        lifetime: 399,
       },
     },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
-  },
-
-  mena: {
-    en: {
-      title: 'MENA Curriculum',
-      description: 'Finance and business for Middle East & North Africa.',
-      curriculum: [
-        'Islamic finance basics',
-        'Energy economics',
-        'Regional trade',
-        'Family office structures',
-      ],
-      pricing: {
-        currency: 'USD',
-        monthly: 20,
-        annual: 199,
-        quarterly: 55,
-        lifetime: 749,
-      },
-    },
-    es: {} as any,
-    fr: {} as any,
-    de: {} as any,
-    pt: {} as any,
-    ar: {} as any,
-    zh: {} as any,
-    ja: {} as any,
-    ko: {} as any,
   },
 };
