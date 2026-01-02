@@ -1,4 +1,6 @@
-export const SUPPORTED_LANGUAGES = [
+// lib/language.ts
+
+export const LANGUAGES = [
   "en",
   "es",
   "fr",
@@ -9,18 +11,27 @@ export const SUPPORTED_LANGUAGES = [
   "hi",
 ] as const;
 
-export type Language = (typeof SUPPORTED_LANGUAGES)[number];
+export type Language = (typeof LANGUAGES)[number];
 
-export function isLanguage(value: string): value is Language {
-  return SUPPORTED_LANGUAGES.includes(value as Language);
-}
+export const isLanguage = (value: string): value is Language => {
+  return LANGUAGES.includes(value as Language);
+};
 
-export const DEFAULT_LANGUAGE_BY_REGION: Record<string, Language> = {
+export type Region =
+  | "us"
+  | "europe"
+  | "africa"
+  | "asia"
+  | "asia-pacific"
+  | "asia-emerging"
+  | "mena";
+
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
-  africa: "en",
   europe: "en",
-  mena: "ar",
+  africa: "en",
   asia: "en",
   "asia-pacific": "en",
   "asia-emerging": "en",
+  mena: "en",
 };
