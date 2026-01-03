@@ -14,7 +14,7 @@ export function isSupportedLang(value: string): value is Language {
 
 /**
  * Minimal translation helper
- * (placeholder until full i18n system is added)
+ * (placeholder for full i18n later)
  */
 export function t(text: string): string {
   return text;
@@ -28,4 +28,5 @@ export const REGION_LANGUAGES: Record<RegionKey, Language[]> = {
   asia: ["en"],
   "asia-emerging": ["en"],
   "asia-pacific": ["en"],
+  mena: ["en", "ar"],
 };
