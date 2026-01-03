@@ -7,7 +7,8 @@ export type RegionKey =
   | "africa"
   | "asia"
   | "asia-emerging"
-  | "asia-pacific";
+  | "asia-pacific"
+  | "mena";
 
 export const REGIONS: RegionKey[] = [
   "us",
@@ -17,4 +18,5 @@ export const REGIONS: RegionKey[] = [
   "asia",
   "asia-emerging",
   "asia-pacific",
+  "mena",
 ];
