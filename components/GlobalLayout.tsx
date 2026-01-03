@@ -1,17 +1,9 @@
 // components/GlobalLayout.tsx
-import { ReactNode } from "react";
 
 export default function GlobalLayout({
-  children,
+  children
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
-  return (
-    <div>
-      <header>
-        <strong>Edunancial</strong>
-      </header>
-      <main>{children}</main>
-    </div>
-  );
+  return <div style={{ minHeight: "100vh" }}>{children}</div>;
 }
