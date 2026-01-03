@@ -15,14 +15,14 @@ export const regionCurriculumContent: Record<
   us: {
     en: {
       heroTitle: "U.S. Financial Literacy",
-      description: "Understand money, credit, and systems in the U.S.",
+      description: "Understand money, credit, and financial systems in the U.S.",
     },
   },
 
   europe: {
     en: {
       heroTitle: "European Financial Literacy",
-      description: "Navigate finance across European systems.",
+      description: "Navigate financial systems across Europe.",
     },
   },
 
@@ -36,22 +36,28 @@ export const regionCurriculumContent: Record<
   africa: {
     en: {
       heroTitle: "African Financial Literacy",
-      description: "Build resilient financial foundations.",
+      description: "Build strong financial foundations across Africa.",
     },
   },
 
   asia: {
     en: {
       heroTitle: "Asian Financial Literacy",
-      description: "Learn financial systems across Asia.",
+      description: "Understand financial systems across Asia.",
     },
   },
 
   "asia-emerging": {
     en: {
       heroTitle: "Emerging Asia Financial Literacy",
-      description:
-        "Understand finance in fast-growing emerging Asian markets.",
+      description: "Financial literacy for fast-growing Asian markets.",
+    },
+  },
+
+  "asia-pacific": {
+    en: {
+      heroTitle: "Asia-Pacific Financial Literacy",
+      description: "Navigate finance across the Asia-Pacific region.",
     },
   },
 };
