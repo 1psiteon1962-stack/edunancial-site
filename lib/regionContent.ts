@@ -1,6 +1,5 @@
-// lib/regionContent.ts
-
-import { Language, Region } from "./language";
+import { Language } from "./language";
+import { Region } from "./regions";
 
 export type RegionCurriculumContent = {
   heroTitle: string;
@@ -20,116 +19,58 @@ export const regionContent: Record<
     en: {
       heroTitle: "U.S. Financial Curriculum",
       description: "Build wealth using U.S. financial systems.",
-      curriculum: ["Credit", "Investing", "Taxes", "Business"],
+      curriculum: ["Banking", "Credit", "Taxes", "Investing"],
       pricing: { currency: "USD", amount: 0 },
     },
     es: {
-      heroTitle: "Currículo Financiero de EE.UU.",
-      description: "Construye riqueza usando el sistema estadounidense.",
-      curriculum: ["Crédito", "Inversión", "Impuestos", "Negocios"],
+      heroTitle: "Currículo financiero de EE. UU.",
+      description: "Construye riqueza usando sistemas financieros de EE. UU.",
+      curriculum: ["Banca", "Crédito", "Impuestos", "Inversión"],
       pricing: { currency: "USD", amount: 0 },
     },
-    fr: null!,
-    de: null!,
-    ar: null!,
-    zh: null!,
-    ja: null!,
-    hi: null!,
-  },
-
-  europe: {
-    en: {
-      heroTitle: "European Financial Systems",
-      description: "Navigate EU finance and regulation.",
-      curriculum: ["Banking", "Compliance", "Investment"],
-      pricing: { currency: "EUR", amount: 0 },
+    fr: {
+      heroTitle: "Programme financier américain",
+      description: "Construisez votre richesse avec les systèmes américains.",
+      curriculum: ["Banque", "Crédit", "Impôts", "Investissement"],
+      pricing: { currency: "USD", amount: 0 },
     },
-    es: null!,
-    fr: null!,
-    de: null!,
-    ar: null!,
-    zh: null!,
-    ja: null!,
-    hi: null!,
-  },
-
-  mena: {
+    de: {
+      heroTitle: "US-Finanzlehrplan",
+      description: "Vermögensaufbau mit US-Finanzsystemen.",
+      curriculum: ["Banken", "Kredit", "Steuern", "Investieren"],
+      pricing: { currency: "USD", amount: 0 },
+    },
     ar: {
-      heroTitle: "المنهج المالي للشرق الأوسط",
-      description: "بناء الثروة في الأنظمة الإقليمية",
-      curriculum: ["الاستثمار", "الأعمال", "الشريعة"],
+      heroTitle: "المنهج المالي الأمريكي",
+      description: "بناء الثروة باستخدام الأنظمة المالية الأمريكية.",
+      curriculum: ["البنوك", "الائتمان", "الضرائب", "الاستثمار"],
       pricing: { currency: "USD", amount: 0 },
     },
-    en: null!,
-    es: null!,
-    fr: null!,
-    de: null!,
-    zh: null!,
-    ja: null!,
-    hi: null!,
-  },
-
-  africa: {
-    en: {
-      heroTitle: "African Financial Growth",
-      description: "Entrepreneurship and capital access.",
-      curriculum: ["Microfinance", "Trade", "Startups"],
-      pricing: { currency: "USD", amount: 0 },
-    },
-    es: null!,
-    fr: null!,
-    de: null!,
-    ar: null!,
-    zh: null!,
-    ja: null!,
-    hi: null!,
-  },
-
-  asia: {
     zh: {
-      heroTitle: "亚洲金融课程",
-      description: "区域资本与增长",
-      curriculum: ["市场", "技术", "投资"],
+      heroTitle: "美国金融课程",
+      description: "使用美国金融体系建立财富。",
+      curriculum: ["银行", "信贷", "税收", "投资"],
       pricing: { currency: "USD", amount: 0 },
     },
-    en: null!,
-    es: null!,
-    fr: null!,
-    de: null!,
-    ar: null!,
-    ja: null!,
-    hi: null!,
-  },
-
-  "asia-emerging": {
-    hi: {
-      heroTitle: "उभरते एशियाई बाजार",
-      description: "नए वित्तीय अवसर",
-      curriculum: ["व्यवसाय", "निवेश"],
-      pricing: { currency: "USD", amount: 0 },
-    },
-    en: null!,
-    es: null!,
-    fr: null!,
-    de: null!,
-    ar: null!,
-    zh: null!,
-    ja: null!,
-  },
-
-  "asia-pacific": {
     ja: {
-      heroTitle: "アジア太平洋金融",
-      description: "地域経済と投資",
-      curriculum: ["資本", "市場"],
+      heroTitle: "米国金融カリキュラム",
+      description: "米国の金融システムで資産形成。",
+      curriculum: ["銀行", "信用", "税金", "投資"],
       pricing: { currency: "USD", amount: 0 },
     },
-    en: null!,
-    es: null!,
-    fr: null!,
-    de: null!,
-    ar: null!,
-    zh: null!,
-    hi: null!,
+    hi: {
+      heroTitle: "अमेरिकी वित्त पाठ्यक्रम",
+      description: "अमेरिकी वित्तीय प्रणालियों से संपत्ति बनाएं।",
+      curriculum: ["बैंकिंग", "क्रेडिट", "कर", "निवेश"],
+      pricing: { currency: "USD", amount: 0 },
+    },
   },
+
+  // Placeholder regions — REQUIRED so TS compiles
+  africa: {} as any,
+  mena: {} as any,
+  asia: {} as any,
+  "asia-emerging": {} as any,
+  "asia-pacific": {} as any,
+  europe: {} as any,
 };
