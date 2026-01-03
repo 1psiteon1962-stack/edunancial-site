@@ -14,9 +14,7 @@ export default function RegionCurriculum({ regionKey, lang }: Props) {
     regionCurriculumContent[regionKey]?.[lang] ??
     regionCurriculumContent[regionKey]?.["en"];
 
-  if (!content) {
-    return null;
-  }
+  if (!content) return null;
 
   return (
     <section style={{ maxWidth: "720px", margin: "0 auto" }}>
