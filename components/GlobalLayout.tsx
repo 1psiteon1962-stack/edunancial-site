@@ -1,15 +1,17 @@
-import React from 'react';
+// components/GlobalLayout.tsx
+import { ReactNode } from "react";
 
-type GlobalLayoutProps = {
-  children: React.ReactNode;
-  title?: string;
-};
-
-export default function GlobalLayout({ children, title }: GlobalLayoutProps) {
+export default function GlobalLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
-    <main style={{ maxWidth: '900px', margin: '0 auto', padding: '2rem' }}>
-      {title && <h1>{title}</h1>}
-      {children}
-    </main>
+    <div>
+      <header>
+        <strong>Edunancial</strong>
+      </header>
+      <main>{children}</main>
+    </div>
   );
 }
