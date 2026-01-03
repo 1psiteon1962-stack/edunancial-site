@@ -1,26 +1,30 @@
+import Link from "next/link";
+
 export default function InvestingTrackPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-16">
       <h1 className="mb-6 text-4xl font-bold">
-        Investing Track — Decision Clarity Before Capital
+        Investing Track
       </h1>
 
       <p className="mb-8 text-lg text-gray-700">
-        Investing is not about picking winners.
-        It’s about understanding risk, structure, and time.
+        This track explains investing from a literacy perspective —
+        not speculation, not tips, not promises.
       </p>
 
       <ul className="mb-10 list-disc space-y-3 pl-6 text-gray-700">
-        <li>Why most people invest emotionally instead of structurally</li>
-        <li>How experienced investors evaluate downside first</li>
-        <li>The role of time, liquidity, and exit strategy</li>
-        <li>Why clarity matters more than confidence</li>
+        <li>What investing actually is</li>
+        <li>Risk vs uncertainty</li>
+        <li>Why timing is rarely the real issue</li>
+        <li>How structure determines outcomes</li>
       </ul>
 
-      <p className="text-gray-700">
-        This track helps you decide whether an opportunity is worth
-        consideration — before money ever leaves your control.
-      </p>
+      <Link
+        href="/tracks/advanced"
+        className="inline-block rounded bg-black px-8 py-4 text-white hover:bg-gray-800"
+      >
+        Continue to Advanced Track →
+      </Link>
     </main>
   );
 }
