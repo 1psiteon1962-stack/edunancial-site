@@ -12,7 +12,14 @@ export function isSupportedLang(value: string): value is Language {
   return (supportedLanguages as readonly string[]).includes(value);
 }
 
-// Region → supported languages
+/**
+ * Minimal translation helper
+ * (placeholder until full i18n system is added)
+ */
+export function t(text: string): string {
+  return text;
+}
+
 export const REGION_LANGUAGES: Record<RegionKey, Language[]> = {
   us: ["en", "es"],
   europe: ["en", "fr", "de"],
@@ -20,4 +27,5 @@ export const REGION_LANGUAGES: Record<RegionKey, Language[]> = {
   africa: ["en", "fr", "ar"],
   asia: ["en"],
   "asia-emerging": ["en"],
+  "asia-pacific": ["en"],
 };
