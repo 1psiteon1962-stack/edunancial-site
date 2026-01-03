@@ -1,13 +1,14 @@
 // components/LocalizedDoctrine.tsx
 
-export default function LocalizedDoctrine() {
+import { DEFAULT_LANG, isSupportedLang, t } from "@/lib/i18n";
+
+export default function LocalizedDoctrine({ lang }: { lang?: string }) {
+  const safeLang = lang && isSupportedLang(lang) ? lang : DEFAULT_LANG;
+
   return (
     <section>
-      <h1>Financial Literacy Framework</h1>
-      <p>
-        This platform provides structured financial literacy tracks designed
-        for real-world decision making.
-      </p>
+      <h2>{t("missionTitle", safeLang)}</h2>
+      <p>{t("missionBody", safeLang)}</p>
     </section>
   );
 }
