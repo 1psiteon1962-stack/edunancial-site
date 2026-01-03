@@ -17,10 +17,6 @@ export function isLanguage(value: string): value is Language {
   return LANGUAGES.includes(value as Language);
 }
 
-/**
- * DEFAULT language per region
- * REQUIRED by content-registry.ts
- */
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
   africa: "en",
