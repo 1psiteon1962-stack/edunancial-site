@@ -1,23 +1,20 @@
 // components/RegionCurriculum.tsx
-import { Region } from "@/lib/language";
 
-export type RegionCurriculumContent = {
-  heroTitle: string;
-  description: string;
-};
+import { Language, Region, DEFAULT_LANGUAGE_BY_REGION } from "@/lib/language";
 
 export default function RegionCurriculum({
-  region,
+  regionKey,
+  lang
 }: {
-  region: Region;
+  regionKey: Region;
+  lang: Language;
 }) {
+  const fallbackLang = DEFAULT_LANGUAGE_BY_REGION[regionKey];
+
   return (
-    <section>
-      <h2>{region.toUpperCase()} Curriculum</h2>
-      <p>
-        This curriculum adapts financial literacy principles to the realities
-        of the region.
-      </p>
-    </section>
+    <main>
+      <h1>{regionKey.toUpperCase()} Curriculum</h1>
+      <p>Language: {lang || fallbackLang}</p>
+    </main>
   );
 }
