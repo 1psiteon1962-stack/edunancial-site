@@ -1,20 +1,31 @@
 // components/RegionCurriculum.tsx
 
-import { Language, Region, DEFAULT_LANGUAGE_BY_REGION } from "@/lib/language";
+import { regionCurriculumContent } from "@/lib/regionCurriculumContent";
+import type { RegionKey } from "@/lib/regions";
+import type { Language } from "@/lib/i18n";
 
-export default function RegionCurriculum({
-  regionKey,
-  lang
-}: {
-  regionKey: Region;
+type Props = {
+  regionKey: RegionKey;
   lang: Language;
-}) {
-  const fallbackLang = DEFAULT_LANGUAGE_BY_REGION[regionKey];
+};
+
+export default function RegionCurriculum({ regionKey, lang }: Props) {
+  const content =
+    regionCurriculumContent[regionKey]?.[lang] ??
+    regionCurriculumContent[regionKey]?.["en"];
+
+  if (!content) {
+    return null;
+  }
 
   return (
-    <main>
-      <h1>{regionKey.toUpperCase()} Curriculum</h1>
-      <p>Language: {lang || fallbackLang}</p>
-    </main>
+    <section style={{ maxWidth: "720px", margin: "0 auto" }}>
+      <h1 style={{ fontSize: "2.25rem", fontWeight: 700 }}>
+        {content.heroTitle}
+      </h1>
+      <p style={{ marginTop: "1rem", fontSize: "1.1rem" }}>
+        {content.description}
+      </p>
+    </section>
   );
 }
