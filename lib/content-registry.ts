@@ -1,36 +1,24 @@
-// lib/content-resolver.ts
-
 import { resolveRegion, Region } from "./regions";
 import { Language, DEFAULT_LANGUAGE_BY_REGION } from "./language";
+import { regionCurriculumContent } from "./regionCurriculumContent";
 
 export type PageContent = {
   heroTitle: string;
-  heroSubtitle: string;
-  region: Region;
-  language: Language;
+  description: string;
 };
 
-/**
- * Single authoritative content resolver.
- * No education claims. No advice language.
- */
-export function resolvePageContent(
-  regionId: string,
-  languageOverride?: Language
-): PageContent {
-  const region =
-    resolveRegion(regionId) ??
-    resolveRegion("US")!;
+export function getPageContent(
+  regionSlug: string,
+  lang: Language
+): PageContent | null {
+  const region = resolveRegion(regionSlug);
+  if (!region) return null;
 
-  const language =
-    languageOverride ??
-    DEFAULT_LANGUAGE_BY_REGION[region.id];
+  const regionContent = regionCurriculumContent[region];
+  if (!regionContent) return null;
 
-  return {
-    heroTitle: "Edunancial",
-    heroSubtitle:
-      "Global knowledge and infrastructure systems for real-world economic environments.",
-    region,
-    language,
-  };
+  return (
+    regionContent[lang] ??
+    regionContent[DEFAULT_LANGUAGE_BY_REGION[region]]
+  );
 }
