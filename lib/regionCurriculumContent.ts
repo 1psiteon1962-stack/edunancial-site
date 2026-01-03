@@ -60,4 +60,17 @@ export const regionCurriculumContent: Record<
       description: "Navigate finance across the Asia-Pacific region.",
     },
   },
+
+  mena: {
+    en: {
+      heroTitle: "MENA Financial Literacy",
+      description:
+        "Understand finance, business, and economic systems across the Middle East and North Africa.",
+    },
+    ar: {
+      heroTitle: "الثقافة المالية في الشرق الأوسط وشمال أفريقيا",
+      description:
+        "فهم الأنظمة المالية والتجارية في منطقة الشرق الأوسط وشمال أفريقيا.",
+    },
+  },
 };
