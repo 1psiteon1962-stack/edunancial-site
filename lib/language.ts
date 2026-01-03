@@ -1,21 +1,19 @@
 // lib/language.ts
 
-export type Region =
-  | "us"
-  | "africa"
-  | "latam"
-  | "europe"
-  | "global";
+export const languages = ["en", "es", "fr", "de", "ar"] as const;
+export type Language = (typeof languages)[number];
 
-export type Language = {
-  code: string;
-  label: string;
-};
+export const regions = ["us", "africa", "asia", "europe", "latam"] as const;
+export type Region = (typeof regions)[number];
 
-export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, string> = {
+export function isLanguage(value: string): value is Language {
+  return (languages as readonly string[]).includes(value);
+}
+
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
   africa: "en",
-  latam: "es",
+  asia: "en",
   europe: "en",
-  global: "en",
+  latam: "es"
 };
