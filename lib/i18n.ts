@@ -26,6 +26,19 @@ export type Region =
   | "asia-emerging";
 
 /* ------------------ */
+/* Global Supported Languages */
+/* ------------------ */
+
+export const supportedLanguages: readonly Language[] = [
+  "en",
+  "es",
+  "fr",
+  "de",
+  "pt",
+  "ar",
+];
+
+/* ------------------ */
 /* Region → Language Map */
 /* ------------------ */
 
@@ -44,7 +57,7 @@ export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
 /* ------------------ */
 
 export function isLanguage(value: string): value is Language {
-  return ["en", "es", "fr", "de", "pt", "ar"].includes(value);
+  return supportedLanguages.includes(value as Language);
 }
 
 /* ------------------ */
