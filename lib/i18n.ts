@@ -1,98 +1,67 @@
 // lib/i18n.ts
 
-/* =========================
-   LANGUAGES
-========================= */
-
-export const supportedLanguages = [
-  "en",
-  "es",
-  "fr",
-  "de",
-  "pt",
-  "ar",
-] as const;
-
+export const supportedLanguages = ["en", "es", "fr", "de", "pt", "ar"] as const;
 export type Language = (typeof supportedLanguages)[number];
 
-/* =========================
-   REGIONS
-========================= */
-
-export type Region =
-  | "us"
-  | "eu"
-  | "latam"
-  | "africa"
-  | "mena"
-  | "asia"
-  | "asia-pacific"
-  | "global";
-
-/* =========================
-   REGION → LANGUAGES
-========================= */
-
-export const REGION_LANGUAGES: Record<Region, Language[]> = {
+export const REGION_LANGUAGES: Record<
+  "us" | "europe" | "africa" | "asia" | "latam" | "mena",
+  Language[]
+> = {
   us: ["en", "es"],
-  eu: ["en", "fr", "de"],
-  latam: ["es", "pt"],
+  europe: ["en", "es", "fr", "de", "pt"],
   africa: ["en", "fr", "ar"],
-  mena: ["ar", "en"],
   asia: ["en"],
-  "asia-pacific": ["en"],
-  global: ["en"],
+  latam: ["es", "en", "pt"],
+  mena: ["ar", "en", "fr"],
 };
 
-/* =========================
-   DEFAULT LANGUAGE BY REGION
-========================= */
-
-export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+export const DEFAULT_LANGUAGE_BY_REGION: Record<
+  keyof typeof REGION_LANGUAGES,
+  Language
+> = {
   us: "en",
-  eu: "en",
-  latam: "es",
+  europe: "en",
   africa: "en",
-  mena: "ar",
   asia: "en",
-  "asia-pacific": "en",
-  global: "en",
+  latam: "es",
+  mena: "ar",
 };
 
-/* =========================
-   TRANSLATION HELPER
-========================= */
-
-const DICTIONARY: Record<Language, Record<string, string>> = {
+// Tiny translation helper used by LocalizedDoctrine.
+// If you have richer translation logic elsewhere, keep this but adapt inside.
+const doctrine: Record<Language, Record<string, string>> = {
   en: {
     missionTitle: "Our Mission",
-    missionBody: "Building financial literacy worldwide.",
+    missionBody:
+      "We teach practical financial literacy with clear systems, real-world examples, and disciplined habits.",
   },
   es: {
-    missionTitle: "Nuestra misión",
-    missionBody: "Construyendo educación financiera global.",
+    missionTitle: "Nuestra Misión",
+    missionBody:
+      "Enseñamos educación financiera práctica con sistemas claros, ejemplos reales y hábitos disciplinados.",
   },
   fr: {
     missionTitle: "Notre mission",
-    missionBody: "Développer l’éducation financière mondiale.",
+    missionBody:
+      "Nous enseignons la littératie financière pratique avec des systèmes clairs, des exemples concrets et des habitudes disciplinées.",
   },
   de: {
     missionTitle: "Unsere Mission",
-    missionBody: "Globale Finanzbildung aufbauen.",
+    missionBody:
+      "Wir vermitteln praktische Finanzbildung mit klaren Systemen, Beispielen aus der Realität und disziplinierten Gewohnheiten.",
   },
   pt: {
-    missionTitle: "Nossa missão",
-    missionBody: "Construindo educação financeira global.",
+    missionTitle: "Nossa Missão",
+    missionBody:
+      "Ensinamos educação financeira prática com sistemas claros, exemplos do mundo real e hábitos disciplinados.",
   },
   ar: {
     missionTitle: "مهمتنا",
-    missionBody: "بناء الثقافة المالية عالميًا.",
+    missionBody:
+      "نُعلّم الثقافة المالية العملية عبر أنظمة واضحة وأمثلة واقعية وعادات منضبطة.",
   },
 };
 
-export function t(
-  key: string,
-  lang: Language = "en"
-): string {
-  return DICTIONARY[lang]?.[key] ?? key;
+export function t(key: string, lang: Language = "en") {
+  return doctrine[lang]?.[key] ?? doctrine.en[key] ?? key;
 }
