@@ -1,10 +1,8 @@
 // lib/i18n.ts
 
-import type { Region } from "./regions";
-
-/* -----------------------------
-   Languages
--------------------------------- */
+/* =========================
+   LANGUAGES
+========================= */
 
 export const supportedLanguages = [
   "en",
@@ -12,58 +10,89 @@ export const supportedLanguages = [
   "fr",
   "de",
   "pt",
+  "ar",
 ] as const;
 
 export type Language = (typeof supportedLanguages)[number];
 
-/* -----------------------------
-   Regions → Languages
--------------------------------- */
+/* =========================
+   REGIONS
+========================= */
+
+export type Region =
+  | "us"
+  | "eu"
+  | "latam"
+  | "africa"
+  | "mena"
+  | "asia"
+  | "asia-pacific"
+  | "global";
+
+/* =========================
+   REGION → LANGUAGES
+========================= */
 
 export const REGION_LANGUAGES: Record<Region, Language[]> = {
   us: ["en", "es"],
   eu: ["en", "fr", "de"],
   latam: ["es", "pt"],
-  africa: ["en", "fr"],
+  africa: ["en", "fr", "ar"],
+  mena: ["ar", "en"],
+  asia: ["en"],
+  "asia-pacific": ["en"],
   global: ["en"],
 };
+
+/* =========================
+   DEFAULT LANGUAGE BY REGION
+========================= */
 
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
   eu: "en",
   latam: "es",
   africa: "en",
+  mena: "ar",
+  asia: "en",
+  "asia-pacific": "en",
   global: "en",
 };
 
-/* -----------------------------
-   Minimal Translation Store
-   (safe for static builds)
--------------------------------- */
+/* =========================
+   TRANSLATION HELPER
+========================= */
 
-type TranslationDict = Record<string, string>;
-
-const TRANSLATIONS: Record<Language, TranslationDict> = {
-  en: {},
-  es: {},
-  fr: {},
-  de: {},
-  pt: {},
+const DICTIONARY: Record<Language, Record<string, string>> = {
+  en: {
+    missionTitle: "Our Mission",
+    missionBody: "Building financial literacy worldwide.",
+  },
+  es: {
+    missionTitle: "Nuestra misión",
+    missionBody: "Construyendo educación financiera global.",
+  },
+  fr: {
+    missionTitle: "Notre mission",
+    missionBody: "Développer l’éducation financière mondiale.",
+  },
+  de: {
+    missionTitle: "Unsere Mission",
+    missionBody: "Globale Finanzbildung aufbauen.",
+  },
+  pt: {
+    missionTitle: "Nossa missão",
+    missionBody: "Construindo educação financeira global.",
+  },
+  ar: {
+    missionTitle: "مهمتنا",
+    missionBody: "بناء الثقافة المالية عالميًا.",
+  },
 };
 
-/* -----------------------------
-   Translation Helper
--------------------------------- */
-
-/**
- * Safe translation helper.
- * - Never throws
- * - Never breaks static builds
- * - Falls back to key if missing
- */
 export function t(
   key: string,
   lang: Language = "en"
 ): string {
-  return TRANSLATIONS[lang]?.[key] ?? key;
+  return DICTIONARY[lang]?.[key] ?? key;
 }
