@@ -13,12 +13,13 @@ export type Language =
   | "ar";
 
 /* ------------------ */
-/* Regions (MUST match folder names) */
+/* Regions (MUST match folder names exactly) */
 /* ------------------ */
 
 export type Region =
   | "us"
   | "europe"
+  | "latam"
   | "mena"
   | "africa"
   | "asia"
@@ -45,6 +46,7 @@ export const supportedLanguages: readonly Language[] = [
 export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
   us: ["en", "es"],
   europe: ["en", "fr", "de", "es", "pt"],
+  latam: ["es", "pt", "en"],
   mena: ["ar", "en", "fr"],
   africa: ["en", "fr", "ar"],
   asia: ["en"],
