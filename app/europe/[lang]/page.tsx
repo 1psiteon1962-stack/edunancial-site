@@ -1,9 +1,15 @@
 import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
-import { isLanguage, Language } from "@/lib/language";
+import { Language, REGION_LANGUAGES } from "@/lib/i18n";
 
-export default function Page({ params }: { params: { lang: string } }) {
-  if (!isLanguage(params.lang)) notFound();
+type Props = {
+  params: { lang: string };
+};
+
+export default function EuropePage({ params }: Props) {
+  if (!REGION_LANGUAGES.europe.includes(params.lang as Language)) {
+    notFound();
+  }
 
   return (
     <RegionCurriculum
@@ -11,4 +17,8 @@ export default function Page({ params }: { params: { lang: string } }) {
       lang={params.lang as Language}
     />
   );
+}
+
+export function generateStaticParams() {
+  return REGION_LANGUAGES.europe.map((lang) => ({ lang }));
 }
