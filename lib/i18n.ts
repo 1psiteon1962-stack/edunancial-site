@@ -2,10 +2,10 @@
 
 import type { Region } from "./regions";
 
-/**
- * Supported language codes
- * These are used across pages/[lang] and app/[region]/[lang]
- */
+/* -----------------------------
+   Languages
+-------------------------------- */
+
 export const supportedLanguages = [
   "en",
   "es",
@@ -14,17 +14,12 @@ export const supportedLanguages = [
   "pt",
 ] as const;
 
-/**
- * Language type derived from supportedLanguages
- */
 export type Language = (typeof supportedLanguages)[number];
 
-/**
- * Languages supported per region
- * REQUIRED by:
- * - app/eu/[lang]/page.tsx
- * - pages/[lang]/index.tsx
- */
+/* -----------------------------
+   Regions → Languages
+-------------------------------- */
+
 export const REGION_LANGUAGES: Record<Region, Language[]> = {
   us: ["en", "es"],
   eu: ["en", "fr", "de"],
@@ -33,10 +28,6 @@ export const REGION_LANGUAGES: Record<Region, Language[]> = {
   global: ["en"],
 };
 
-/**
- * Default language per region
- * Used by content resolvers and curriculum logic
- */
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
   eu: "en",
@@ -44,3 +35,35 @@ export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   africa: "en",
   global: "en",
 };
+
+/* -----------------------------
+   Minimal Translation Store
+   (safe for static builds)
+-------------------------------- */
+
+type TranslationDict = Record<string, string>;
+
+const TRANSLATIONS: Record<Language, TranslationDict> = {
+  en: {},
+  es: {},
+  fr: {},
+  de: {},
+  pt: {},
+};
+
+/* -----------------------------
+   Translation Helper
+-------------------------------- */
+
+/**
+ * Safe translation helper.
+ * - Never throws
+ * - Never breaks static builds
+ * - Falls back to key if missing
+ */
+export function t(
+  key: string,
+  lang: Language = "en"
+): string {
+  return TRANSLATIONS[lang]?.[key] ?? key;
+}
