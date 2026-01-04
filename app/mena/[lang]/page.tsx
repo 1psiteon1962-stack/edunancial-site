@@ -1,14 +1,15 @@
-import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
-import { isLanguage, Language } from "@/lib/language";
+import { Language } from "@/lib/i18n";
 
-export default function Page({ params }: { params: { lang: string } }) {
-  if (!isLanguage(params.lang)) notFound();
-
+export default function MenaPage({
+  params,
+}: {
+  params: { lang: Language };
+}) {
   return (
     <RegionCurriculum
       regionKey="mena"
-      lang={params.lang as Language}
+      lang={params.lang}
     />
   );
 }
