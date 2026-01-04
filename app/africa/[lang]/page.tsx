@@ -1,5 +1,3 @@
-// app/africa/[lang]/page.tsx
-
 import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
 import { REGION_LANGUAGES, Language, isLanguage } from "@/lib/i18n";
