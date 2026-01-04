@@ -1,15 +1,15 @@
+import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
-import { Language } from "@/lib/i18n";
+import { Language, REGION_LANGUAGES } from "@/lib/i18n";
 
-export default function MenaPage({
-  params,
-}: {
-  params: { lang: Language };
-}) {
-  return (
-    <RegionCurriculum
-      regionKey="mena"
-      lang={params.lang}
-    />
-  );
+type Props = { params: { lang: string } };
+
+export default function MenaPage({ params }: Props) {
+  if (!REGION_LANGUAGES.mena.includes(params.lang as Language)) notFound();
+
+  return <RegionCurriculum regionKey="mena" lang={params.lang as Language} />;
+}
+
+export function generateStaticParams() {
+  return REGION_LANGUAGES.mena.map((lang) => ({ lang }));
 }
