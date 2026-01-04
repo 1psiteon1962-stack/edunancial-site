@@ -1,32 +1,59 @@
 // lib/i18n.ts
 
-import type { RegionKey } from "./regions";
+import type { Region } from "./regions";
 
-export const supportedLanguages = ["en", "es", "fr", "de", "ar"] as const;
-export type Language = (typeof supportedLanguages)[number];
+/* -----------------------------
+   Language Types
+-------------------------------- */
 
-export const DEFAULT_LANGUAGE: Language = "en";
-export const DEFAULT_LANG: Language = DEFAULT_LANGUAGE;
+export type Language =
+  | "en"
+  | "es"
+  | "fr"
+  | "de"
+  | "pt"
+  | "ar";
 
-export function isSupportedLang(value: string): value is Language {
-  return (supportedLanguages as readonly string[]).includes(value);
-}
+/* -----------------------------
+   Default Language by Region
+-------------------------------- */
 
-/**
- * Minimal translation helper
- * (placeholder for full i18n later)
- */
-export function t(text: string): string {
-  return text;
-}
-
-export const REGION_LANGUAGES: Record<RegionKey, Language[]> = {
-  us: ["en", "es"],
-  europe: ["en", "fr", "de"],
-  latam: ["es"],
-  africa: ["en", "fr", "ar"],
-  asia: ["en"],
-  "asia-emerging": ["en"],
-  "asia-pacific": ["en"],
-  mena: ["en", "ar"],
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  us: "en",
+  latam: "es",
+  europe: "en",
+  africa: "en",
+  asia: "en",
+  "asia-pacific": "en",
+  "asia-emerging": "en",
+  mena: "ar",
 };
+
+/* -----------------------------
+   Translation Dictionary
+-------------------------------- */
+
+const dictionary: Record<string, Partial<Record<Language, string>>> = {
+  missionTitle: {
+    en: "Financial Literacy for a Global Economy",
+    es: "Educación Financiera para una Economía Global",
+    fr: "Littératie financière pour une économie mondiale",
+  },
+  missionBody: {
+    en: "Build real-world financial capability through structured tracks.",
+    es: "Construya capacidad financiera real a través de rutas estructuradas.",
+    fr: "Développez des compétences financières concrètes grâce à des parcours structurés.",
+  },
+};
+
+/* -----------------------------
+   Translation Helpers
+-------------------------------- */
+
+export function t(key: string, lang: Language = "en"): string {
+  return dictionary[key]?.[lang] ?? dictionary[key]?.en ?? key;
+}
+
+export function isSupportedLang(lang: string): lang is Language {
+  return ["en", "es", "fr", "de", "pt", "ar"].includes(lang);
+}
