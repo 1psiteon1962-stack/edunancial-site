@@ -1,14 +1,19 @@
 // components/LocalizedDoctrine.tsx
 
-import { DEFAULT_LANG, isSupportedLang, t } from "@/lib/i18n";
+import { t } from "@/lib/i18n";
 
-export default function LocalizedDoctrine({ lang }: { lang?: string }) {
-  const safeLang = lang && isSupportedLang(lang) ? lang : DEFAULT_LANG;
-
+export default function LocalizedDoctrine() {
   return (
-    <section>
-      <h2>{t("missionTitle", safeLang)}</h2>
-      <p>{t("missionBody", safeLang)}</p>
+    <section style={{ maxWidth: "720px", margin: "3rem auto" }}>
+      <h2 style={{ fontSize: "1.75rem", fontWeight: 600 }}>
+        {t("Our Mission")}
+      </h2>
+
+      <p style={{ marginTop: "1rem", fontSize: "1.05rem", lineHeight: 1.6 }}>
+        {t(
+          "Edunancial exists to provide practical financial literacy across regions, cultures, and legal systems—without selling hype, speculation, or false promises."
+        )}
+      </p>
     </section>
   );
 }
