@@ -1,76 +1,122 @@
 // lib/regionCurriculumContent.ts
 
-import type { RegionKey } from "./regions";
-import type { Language } from "./i18n";
+import type { Language } from "@/lib/i18n";
+import type { Region } from "@/lib/regions";
 
-export type RegionCurriculumContent = {
-  heroTitle: string;
-  description: string;
+export type CurriculumTrack = {
+  id: string;
+  title: string;
+  summary: string;
 };
 
+export type LocalizedRegionCurriculum = {
+  title: string;
+  description: string;
+  tracks: CurriculumTrack[];
+};
+
+export type RegionCurriculumContent = Record<
+  Language,
+  LocalizedRegionCurriculum
+>;
+
 export const regionCurriculumContent: Record<
-  RegionKey,
-  Record<Language, RegionCurriculumContent>
+  Region,
+  RegionCurriculumContent
 > = {
   us: {
     en: {
-      heroTitle: "U.S. Financial Literacy",
-      description: "Understand money, credit, and financial systems in the U.S.",
+      title: "United States Curriculum",
+      description:
+        "Foundational financial literacy, entrepreneurship, and capital structure for the U.S. market.",
+      tracks: [
+        {
+          id: "us-foundations",
+          title: "Financial Foundations",
+          summary:
+            "Income, budgeting, credit, and cashflow fundamentals tailored to U.S. systems.",
+        },
+      ],
     },
   },
 
   europe: {
     en: {
-      heroTitle: "European Financial Literacy",
-      description: "Navigate financial systems across Europe.",
-    },
-  },
-
-  latam: {
-    es: {
-      heroTitle: "Educación Financiera LATAM",
-      description: "Construye estabilidad financiera en América Latina.",
+      title: "Europe Curriculum",
+      description:
+        "Cross-border compliance, capital movement, and business structuring in Europe.",
+      tracks: [
+        {
+          id: "eu-structure",
+          title: "European Business Structures",
+          summary:
+            "VAT, corporate entities, and regulatory realities across the EU.",
+        },
+      ],
     },
   },
 
   africa: {
     en: {
-      heroTitle: "African Financial Literacy",
-      description: "Build strong financial foundations across Africa.",
+      title: "Africa Curriculum",
+      description:
+        "Entrepreneurship, infrastructure, and capital deployment across African markets.",
+      tracks: [
+        {
+          id: "africa-growth",
+          title: "Growth & Infrastructure",
+          summary:
+            "Building scalable ventures in emerging and frontier African economies.",
+        },
+      ],
     },
   },
 
   asia: {
     en: {
-      heroTitle: "Asian Financial Literacy",
-      description: "Understand financial systems across Asia.",
-    },
-  },
-
-  "asia-emerging": {
-    en: {
-      heroTitle: "Emerging Asia Financial Literacy",
-      description: "Financial literacy for fast-growing Asian markets.",
+      title: "Asia Curriculum",
+      description:
+        "Manufacturing, supply chains, and regional market dynamics in Asia.",
+      tracks: [
+        {
+          id: "asia-trade",
+          title: "Trade & Manufacturing",
+          summary:
+            "Understanding production, logistics, and export-driven business models.",
+        },
+      ],
     },
   },
 
   "asia-pacific": {
     en: {
-      heroTitle: "Asia-Pacific Financial Literacy",
-      description: "Navigate finance across the Asia-Pacific region.",
+      title: "Asia-Pacific Curriculum",
+      description:
+        "Regional trade blocs, technology, and capital strategy in APAC.",
+      tracks: [
+        {
+          id: "apac-strategy",
+          title: "APAC Strategy",
+          summary:
+            "Scaling businesses across Asia-Pacific jurisdictions and cultures.",
+        },
+      ],
     },
   },
 
   mena: {
     en: {
-      heroTitle: "MENA Financial Literacy",
+      title: "MENA Curriculum",
       description:
-        "Understand finance, business, and economic systems across the Middle East and North Africa.",
-    },
-    ar: {
-      heroTitle: "الثقافة المالية في الشرق الأوسط وشمال أفريقيا",
-      description:
-        "فهم الأنظمة المالية والتجارية في منطقة الشرق الأوسط وشمال أفريقيا.",
+        "Capital, compliance, and opportunity across the Middle East and North Africa.",
+      tracks: [
+        {
+          id: "mena-capital",
+          title: "Capital & Structure",
+          summary:
+            "Navigating sovereign wealth, regulation, and private capital in MENA.",
+        },
+      ],
     },
   },
 };
