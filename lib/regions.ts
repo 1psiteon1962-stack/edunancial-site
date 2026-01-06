@@ -1,36 +1,39 @@
 // lib/regions.ts
 
-export type Region =
-  | "us"
-  | "latam"
-  | "europe"
-  | "africa"
-  | "asia"
-  | "asia-pacific"
-  | "asia-emerging"
-  | "mena";
+/* =========================
+   Languages
+========================= */
+
+export const LANGUAGES = [
+  "en",
+  "es",
+  "fr",
+  "de",
+  "pt",
+  "ar",
+  "zh",
+] as const;
+
+export type Language = typeof LANGUAGES[number];
+
+/* =========================
+   Region Content
+========================= */
+
+export type RegionContent = {
+  heroTitle: string;
+  description: string;
+  curriculum: string[];
+  pricing: {
+    currency: string;
+    amount: number;
+  };
+};
 
 /**
- * Resolves an arbitrary region string into a supported Region.
- * Falls back safely to "us" if the input is invalid.
+ * CRITICAL:
+ * RegionLocales is derived from Language.
+ * This makes it impossible for zh (or any future language)
+ * to ever break the build again.
  */
-export function resolveRegion(input: string): Region {
-  const normalized = input.toLowerCase();
-
-  const supported: Region[] = [
-    "us",
-    "latam",
-    "europe",
-    "africa",
-    "asia",
-    "asia-pacific",
-    "asia-emerging",
-    "mena",
-  ];
-
-  if (supported.includes(normalized as Region)) {
-    return normalized as Region;
-  }
-
-  return "us";
-}
+export type RegionLocales = Record<Language, RegionContent>;
