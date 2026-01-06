@@ -1,16 +1,21 @@
-import LocalizedDoctrine from "./LocalizedDoctrine";
-import { Language, Region } from "@/lib/i18n";
+import { Language } from "@/lib/i18n";
 
 type Props = {
-  region: Region;
+  region: string;
   lang: Language;
+  supportedLanguages: readonly Language[];
 };
 
-export default function RegionCurriculum({ region, lang }: Props) {
+export default function RegionCurriculum({
+  region,
+  lang,
+  supportedLanguages,
+}: Props) {
   return (
-    <main>
+    <section>
       <h1>{region.toUpperCase()}</h1>
-      <LocalizedDoctrine lang={lang} />
-    </main>
+      <p>Language: {lang}</p>
+      <p>Supported: {supportedLanguages.join(", ")}</p>
+    </section>
   );
 }
