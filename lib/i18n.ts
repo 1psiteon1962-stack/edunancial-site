@@ -1,36 +1,18 @@
 // lib/i18n.ts
 
-/* ------------------ */
-/* Languages */
-/* ------------------ */
-
-export type Language =
-  | "en"
-  | "es"
-  | "fr"
-  | "de"
-  | "pt"
-  | "ar";
-
-/* ------------------ */
-/* Regions (MUST match folder names exactly) */
-/* ------------------ */
+export type Language = "en" | "es" | "fr" | "de" | "pt" | "ar";
 
 export type Region =
   | "us"
   | "europe"
-  | "latam"
   | "mena"
-  | "africa"
   | "asia"
-  | "asia-pacific"
-  | "asia-emerging";
+  | "apac"
+  | "asia_emerging"
+  | "latam"
+  | "africa";
 
-/* ------------------ */
-/* Global Supported Languages */
-/* ------------------ */
-
-export const supportedLanguages: readonly Language[] = [
+export const supportedLanguages: Language[] = [
   "en",
   "es",
   "fr",
@@ -39,33 +21,21 @@ export const supportedLanguages: readonly Language[] = [
   "ar",
 ];
 
-/* ------------------ */
-/* Region → Language Map */
-/* ------------------ */
-
-export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
-  us: ["en", "es"],
-  europe: ["en", "fr", "de", "es", "pt"],
-  latam: ["es", "pt", "en"],
-  mena: ["ar", "en", "fr"],
-  africa: ["en", "fr", "ar"],
-  asia: ["en"],
-  "asia-pacific": ["en"],
-  "asia-emerging": ["en"],
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  us: "en",
+  europe: "en",
+  mena: "ar",
+  asia: "en",
+  apac: "en",
+  asia_emerging: "en",
+  latam: "es",
+  africa: "en",
 };
 
-/* ------------------ */
-/* Language Guard */
-/* ------------------ */
-
-export function isLanguage(value: string): value is Language {
-  return supportedLanguages.includes(value as Language);
-}
-
-/* ------------------ */
-/* Minimal translation helper */
-/* ------------------ */
-
+/**
+ * Simple translation helper.
+ * Language resolution happens upstream.
+ */
 export function t(key: string): string {
   return key;
 }
