@@ -10,11 +10,9 @@ import { regionCurriculumContent } from "./regionCurriculumContent";
 export type PageContent = {
   heroTitle: string;
   heroDescription: string;
-  title: string;
-  description: string;
 };
 
-export function resolveContent(
+export function getRegionContent(
   region: Region,
   lang: Language
 ): PageContent | null {
@@ -23,6 +21,7 @@ export function resolveContent(
 
   return (
     regionContent[lang] ??
-    regionContent[DEFAULT_LANGUAGE_BY_REGION[region]]
+    regionContent[DEFAULT_LANGUAGE_BY_REGION[region]] ??
+    null
   );
 }
