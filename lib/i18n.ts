@@ -1,56 +1,92 @@
 // lib/i18n.ts
-// Canonical i18n implementation for Edunancial
-// This file MUST be the single source of truth for language support
+// SINGLE SOURCE OF TRUTH for language + region validation
+// This file MUST satisfy ALL imports across the app
+
+/* ----------------------------------
+   GLOBAL LANGUAGE SUPPORT
+----------------------------------- */
 
 export const supportedLanguages = ["en", "es", "fr"] as const;
-
 export type Language = (typeof supportedLanguages)[number];
 
-// Simple translation table (extend later, but keep structure)
+/* ----------------------------------
+   REGION → LANGUAGE MAP
+----------------------------------- */
+
+export const REGION_LANGUAGES = {
+  us: ["en", "es"],
+  europe: ["en", "fr"],
+  africa: ["en", "fr"],
+  mena: ["en", "fr"],
+  latam: ["es"],
+  caribbean: ["en", "es", "fr"],
+  asia: ["en"],
+  "asia-pacific": ["en"],
+  "asia-emerging": ["en"]
+} as const;
+
+export type Region = keyof typeof REGION_LANGUAGES;
+
+/* ----------------------------------
+   TYPE GUARDS
+----------------------------------- */
+
+export function isLanguage(
+  lang: string,
+  region: Region
+): lang is Language {
+  return REGION_LANGUAGES[region].includes(lang as Language);
+}
+
+/* ----------------------------------
+   TRANSLATIONS
+----------------------------------- */
+
 const translations: Record<Language, Record<string, string>> = {
   en: {
     missionTitle: "Our Mission",
     missionBody:
-      "Edunancial exists to provide structured, practical financial education across borders.",
+      "Edunancial provides structured, practical financial education designed for global realities.",
     pillarAccess: "Access to financial systems",
     pillarStructure: "Business and legal structure",
     pillarProtection: "Risk, compliance, and protection",
     pillarScale: "Scalable global growth",
     missionFooter:
-      "Education is the first step. Structure is the second. Execution is the third."
+      "Education first. Structure second. Execution third."
   },
 
   es: {
     missionTitle: "Nuestra Misión",
     missionBody:
-      "Edunancial existe para proporcionar educación financiera estructurada y práctica a nivel global.",
+      "Edunancial ofrece educación financiera estructurada y práctica para realidades globales.",
     pillarAccess: "Acceso a sistemas financieros",
     pillarStructure: "Estructura empresarial y legal",
     pillarProtection: "Riesgo, cumplimiento y protección",
     pillarScale: "Crecimiento global escalable",
     missionFooter:
-      "La educación es el primer paso. La estructura es el segundo. La ejecución es el tercero."
+      "Educación primero. Estructura segundo. Ejecución tercero."
   },
 
   fr: {
     missionTitle: "Notre Mission",
     missionBody:
-      "Edunancial a pour mission de fournir une éducation financière structurée et pratique à l’échelle mondiale.",
+      "Edunancial fournit une éducation financière structurée et pratique adaptée aux réalités mondiales.",
     pillarAccess: "Accès aux systèmes financiers",
     pillarStructure: "Structure juridique et commerciale",
     pillarProtection: "Risque, conformité et protection",
     pillarScale: "Croissance mondiale évolutive",
     missionFooter:
-      "L’éducation est la première étape. La structure est la deuxième. L’exécution est la troisième."
+      "Éducation d’abord. Structure ensuite. Exécution enfin."
   }
 };
 
-/**
- * Translation helper
- * IMPORTANT:
- * - Accepts ONLY a key
- * - Language resolution is handled elsewhere (router-level)
- */
-export function t(key: string, lang: Language = "en"): string {
+/* ----------------------------------
+   TRANSLATION HELPER
+----------------------------------- */
+
+export function t(
+  key: string,
+  lang: Language = "en"
+): string {
   return translations[lang]?.[key] ?? translations.en[key] ?? key;
 }
