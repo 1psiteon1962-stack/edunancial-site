@@ -1,16 +1,12 @@
 // components/LocalizedDoctrine.tsx
 
-import { t } from "@/lib/i18n";
+import { t } from '@/lib/translator';
 
-type Props = {
-  lang: string;
-};
-
-export default function LocalizedDoctrine({ lang }: Props) {
+export default function LocalizedDoctrine() {
   return (
-    <section style={{ marginTop: "2rem" }}>
-      <h2>{t("missionTitle")}</h2>
-      <p>{t("missionBody")}</p>
+    <section style={{ marginTop: '2rem' }}>
+      <h2>{t('missionTitle')}</h2>
+      <p>{t('missionBody')}</p>
     </section>
   );
 }
