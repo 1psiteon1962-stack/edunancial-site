@@ -1,76 +1,64 @@
 // lib/i18n.ts
 
-/* =========================
-   Core Types
-========================= */
+// --------------------
+// Languages (FINAL)
+// --------------------
+export type Language =
+  | 'en'
+  | 'es'
+  | 'fr'
+  | 'pt'
+  | 'nl'
+  | 'ar';
 
-export type Language = "en" | "es" | "fr" | "de" | "pt" | "ar";
-
+// --------------------
+// Regions (FINAL)
+// --------------------
 export type Region =
-  | "us"
-  | "europe"
-  | "mena"
-  | "asia"
-  | "apac"
-  | "asia_emerging"
-  | "latam"
-  | "africa";
+  | 'us'
+  | 'latam'
+  | 'caribbean'
+  | 'europe'
+  | 'africa'
+  | 'mena'
+  | 'asia';
 
-/* =========================
-   Supported Languages
-========================= */
+// --------------------
+// Region → Languages
+// --------------------
+export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+  us: ['en', 'es'],
+  latam: ['es', 'pt'],
+  caribbean: ['en', 'es', 'fr', 'nl'],
+  europe: ['en', 'fr', 'es', 'pt'],
+  africa: ['en', 'fr', 'ar'],
+  mena: ['ar', 'en', 'fr'],
+  asia: ['en'],
+} as const;
 
-export const supportedLanguages: Language[] = [
-  "en",
-  "es",
-  "fr",
-  "de",
-  "pt",
-  "ar",
-];
-
-/* =========================
-   Region → Languages
-========================= */
-
-export const REGION_LANGUAGES: Record<Region, ReadonlyArray<Language>> = {
-  us: ["en", "es"],
-  europe: ["en", "fr", "de"],
-  mena: ["ar", "en"],
-  asia: ["en"],
-  apac: ["en"],
-  asia_emerging: ["en"],
-  latam: ["es", "pt"],
-  africa: ["en", "fr", "ar"],
-};
-
-/* =========================
-   Defaults
-========================= */
-
+// --------------------
+// Default language per region
+// --------------------
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
-  us: "en",
-  europe: "en",
-  mena: "ar",
-  asia: "en",
-  apac: "en",
-  asia_emerging: "en",
-  latam: "es",
-  africa: "en",
+  us: 'en',
+  latam: 'es',
+  caribbean: 'en',
+  europe: 'en',
+  africa: 'en',
+  mena: 'ar',
+  asia: 'en',
 };
 
-/* =========================
-   Guards & Helpers
-========================= */
-
+// --------------------
+// Language guard
+// --------------------
 export function isLanguage(value: string): value is Language {
-  return supportedLanguages.includes(value as Language);
-}
-
-/**
- * Translation helper
- * (language resolution happens upstream)
- */
-export function t(key: string): string {
-  return key;
+  return (
+    value === 'en' ||
+    value === 'es' ||
+    value === 'fr' ||
+    value === 'pt' ||
+    value === 'nl' ||
+    value === 'ar'
+  );
 }
