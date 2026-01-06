@@ -1,30 +1,27 @@
 import { notFound } from "next/navigation";
 import RegionCurriculum from "@/components/RegionCurriculum";
-import {
-  REGION_LANGUAGES,
-  isLanguage,
-  type Language,
-  type Region
-} from "@/lib/i18n";
+import { Language, isLanguage, REGION_LANGUAGES } from "@/lib/i18n";
 
 type Props = {
   params: { lang: string };
 };
 
-const REGION: Region = "africa";
+const REGION_KEY = "africa" as const;
 
 export default function AfricaPage({ params }: Props) {
   const raw = params.lang;
 
-  if (!isLanguage(raw, REGION)) {
+  if (!isLanguage(raw, REGION_KEY)) {
     return notFound();
   }
 
   const lang: Language = raw;
 
-  if (!REGION_LANGUAGES[REGION].includes(lang)) {
-    return notFound();
-  }
-
-  return <RegionCurriculum region={REGION} lang={lang} />;
+  return (
+    <RegionCurriculum
+      regionKey={REGION_KEY}
+      lang={lang}
+      supportedLanguages={REGION_LANGUAGES[REGION_KEY]}
+    />
+  );
 }
