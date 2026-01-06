@@ -1,92 +1,71 @@
 // lib/i18n.ts
-// SINGLE SOURCE OF TRUTH for language + region validation
-// This file MUST satisfy ALL imports across the app
 
-/* ----------------------------------
-   GLOBAL LANGUAGE SUPPORT
------------------------------------ */
+export const SUPPORTED_LANGUAGES = [
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ar"
+] as const;
 
-export const supportedLanguages = ["en", "es", "fr"] as const;
-export type Language = (typeof supportedLanguages)[number];
+export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
-/* ----------------------------------
-   REGION → LANGUAGE MAP
------------------------------------ */
+export const REGIONS = [
+  "us",
+  "latam",
+  "caribbean",
+  "europe",
+  "africa",
+  "mena",
+  "asia",
+  "asia-pacific",
+  "asia-emerging"
+] as const;
 
-export const REGION_LANGUAGES = {
+export type Region = (typeof REGIONS)[number];
+
+export const REGION_LANGUAGES: Record<Region, Language[]> = {
   us: ["en", "es"],
+  latam: ["es", "pt"],
+  caribbean: ["es", "fr", "en", "nl"],
   europe: ["en", "fr"],
   africa: ["en", "fr"],
-  mena: ["en", "fr"],
-  latam: ["es"],
-  caribbean: ["en", "es", "fr"],
+  mena: ["ar", "en", "fr"],
   asia: ["en"],
   "asia-pacific": ["en"],
   "asia-emerging": ["en"]
-} as const;
-
-export type Region = keyof typeof REGION_LANGUAGES;
-
-/* ----------------------------------
-   TYPE GUARDS
------------------------------------ */
+};
 
 export function isLanguage(
-  lang: string,
+  value: string,
   region: Region
-): lang is Language {
-  return REGION_LANGUAGES[region].includes(lang as Language);
+): value is Language {
+  return REGION_LANGUAGES[region].includes(value as Language);
 }
 
-/* ----------------------------------
-   TRANSLATIONS
------------------------------------ */
-
-const translations: Record<Language, Record<string, string>> = {
+const TRANSLATIONS: Record<Language, Record<string, string>> = {
   en: {
-    missionTitle: "Our Mission",
-    missionBody:
-      "Edunancial provides structured, practical financial education designed for global realities.",
-    pillarAccess: "Access to financial systems",
-    pillarStructure: "Business and legal structure",
-    pillarProtection: "Risk, compliance, and protection",
-    pillarScale: "Scalable global growth",
-    missionFooter:
-      "Education first. Structure second. Execution third."
+    missionTitle: "Financial Education for Global Entrepreneurs",
+    missionBody: "Build wealth using structured financial systems."
   },
-
   es: {
-    missionTitle: "Nuestra Misión",
-    missionBody:
-      "Edunancial ofrece educación financiera estructurada y práctica para realidades globales.",
-    pillarAccess: "Acceso a sistemas financieros",
-    pillarStructure: "Estructura empresarial y legal",
-    pillarProtection: "Riesgo, cumplimiento y protección",
-    pillarScale: "Crecimiento global escalable",
-    missionFooter:
-      "Educación primero. Estructura segundo. Ejecución tercero."
+    missionTitle: "Educación financiera para emprendedores globales",
+    missionBody: "Construye riqueza usando sistemas financieros estructurados."
   },
-
   fr: {
-    missionTitle: "Notre Mission",
-    missionBody:
-      "Edunancial fournit une éducation financière structurée et pratique adaptée aux réalités mondiales.",
-    pillarAccess: "Accès aux systèmes financiers",
-    pillarStructure: "Structure juridique et commerciale",
-    pillarProtection: "Risque, conformité et protection",
-    pillarScale: "Croissance mondiale évolutive",
-    missionFooter:
-      "Éducation d’abord. Structure ensuite. Exécution enfin."
+    missionTitle: "Éducation financière pour entrepreneurs mondiaux",
+    missionBody: "Construisez la richesse grâce à des systèmes financiers structurés."
+  },
+  pt: {
+    missionTitle: "Educação financeira para empreendedores globais",
+    missionBody: "Construa riqueza usando sistemas financeiros estruturados."
+  },
+  ar: {
+    missionTitle: "التعليم المالي لرواد الأعمال العالميين",
+    missionBody: "بناء الثروة باستخدام أنظمة مالية منظمة."
   }
 };
 
-/* ----------------------------------
-   TRANSLATION HELPER
------------------------------------ */
-
-export function t(
-  key: string,
-  lang: Language = "en"
-): string {
-  return translations[lang]?.[key] ?? translations.en[key] ?? key;
+export function t(lang: Language, key: string): string {
+  return TRANSLATIONS[lang]?.[key] ?? key;
 }
