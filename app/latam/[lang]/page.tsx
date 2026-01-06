@@ -1,32 +1,16 @@
-// app/latam/[lang]/page.tsx
-
 import { notFound } from "next/navigation";
-import { Language, REGION_LANGUAGES, isLanguage } from "@/lib/i18n";
 import RegionCurriculum from "@/components/RegionCurriculum";
+import { REGION_LANGUAGES, isLanguage, type Language } from "@/lib/i18n";
 
-type Props = {
-  params: {
-    lang: string;
-  };
-};
+type Props = { params: { lang: string } };
 
-export default function LatAmPage({ params }: Props) {
-  const { lang } = params;
+export default function LatamPage({ params }: Props) {
+  const raw = params.lang;
 
-  // Validate language shape
-  if (!isLanguage(lang)) {
-    notFound();
-  }
+  if (!isLanguage(raw)) return notFound();
 
-  // Validate language allowed for LATAM
-  if (!REGION_LANGUAGES.latam.includes(lang)) {
-    notFound();
-  }
+  const lang: Language = raw;
+  if (!REGION_LANGUAGES.latam.includes(lang)) return notFound();
 
-  return (
-    <RegionCurriculum
-      regionKey="latam"
-      lang={lang as Language}
-    />
-  );
+  return <RegionCurriculum regionKey="latam" lang={lang} />;
 }
