@@ -19,7 +19,7 @@ export default function AfricaPage({ params }: Props) {
 
   return (
     <RegionCurriculum
-      regionKey={REGION_KEY}
+      region={REGION_KEY}
       lang={lang}
       supportedLanguages={REGION_LANGUAGES[REGION_KEY]}
     />
