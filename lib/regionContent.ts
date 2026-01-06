@@ -1,12 +1,12 @@
 // lib/regionContent.ts
 
-import { Language, Region } from "@/lib/i18n";
+import { Language } from "./i18n";
 
 /* =========================
-   Types
+   Shared Types
 ========================= */
 
-export type RegionLocaleContent = {
+export type RegionContent = {
   heroTitle: string;
   description: string;
   curriculum: string[];
@@ -18,32 +18,39 @@ export type RegionLocaleContent = {
 
 /**
  * IMPORTANT:
- * This must match *all* languages actually used in content.
+ * RegionLocales MUST track Language exactly.
+ * No hard-coded locale keys.
  */
-export type RegionLocales = Record<Language, RegionLocaleContent>;
+export type RegionLocales = Record<Language, RegionContent>;
 
 /* =========================
    Region Content
 ========================= */
 
-export const regionContent: Record<Region, RegionLocales> = {
+export const regionContent: Record<string, RegionLocales> = {
   us: {
     en: {
-      heroTitle: "US Financial Curriculum",
+      heroTitle: "U.S. Financial Curriculum",
       description: "Build wealth using the U.S. financial system.",
       curriculum: ["Banking", "Credit", "Taxes", "Business"],
       pricing: { currency: "USD", amount: 0 },
     },
     es: {
-      heroTitle: "Currículo Financiero de EE.UU.",
-      description: "Construye riqueza usando el sistema financiero estadounidense.",
+      heroTitle: "Programa Financiero de EE.UU.",
+      description: "Construye riqueza usando el sistema financiero de EE.UU.",
       curriculum: ["Banca", "Crédito", "Impuestos", "Negocios"],
       pricing: { currency: "USD", amount: 0 },
     },
     fr: {
-      heroTitle: "Programme Financier Américain",
-      description: "Construisez votre richesse avec le système financier américain.",
+      heroTitle: "Programme Financier des États-Unis",
+      description: "Créer de la richesse via le système financier américain.",
       curriculum: ["Banque", "Crédit", "Impôts", "Entreprise"],
+      pricing: { currency: "USD", amount: 0 },
+    },
+    zh: {
+      heroTitle: "美国金融课程",
+      description: "使用美国金融体系建立财富。",
+      curriculum: ["银行", "信贷", "税收", "商业"],
       pricing: { currency: "USD", amount: 0 },
     },
     de: {
@@ -54,30 +61,15 @@ export const regionContent: Record<Region, RegionLocales> = {
     },
     pt: {
       heroTitle: "Currículo Financeiro dos EUA",
-      description: "Construa riqueza usando o sistema financeiro americano.",
+      description: "Construa riqueza usando o sistema financeiro dos EUA.",
       curriculum: ["Bancos", "Crédito", "Impostos", "Negócios"],
       pricing: { currency: "USD", amount: 0 },
     },
     ar: {
       heroTitle: "المنهج المالي الأمريكي",
-      description: "ابنِ ثروتك باستخدام النظام المالي الأمريكي.",
+      description: "بناء الثروة باستخدام النظام المالي الأمريكي.",
       curriculum: ["البنوك", "الائتمان", "الضرائب", "الأعمال"],
       pricing: { currency: "USD", amount: 0 },
     },
-    zh: {
-      heroTitle: "美国金融课程",
-      description: "使用美国金融体系建立财富。",
-      curriculum: ["银行", "信贷", "税收", "商业"],
-      pricing: { currency: "USD", amount: 0 },
-    },
   },
-
-  // Other regions can be filled incrementally
-  europe: {} as RegionLocales,
-  mena: {} as RegionLocales,
-  asia: {} as RegionLocales,
-  apac: {} as RegionLocales,
-  asia_emerging: {} as RegionLocales,
-  latam: {} as RegionLocales,
-  africa: {} as RegionLocales,
 };
