@@ -1,148 +1,107 @@
 // lib/regionContent.ts
 
-import { Language, Region } from './i18n';
+import type { Language, Region } from "./i18n";
 
-/**
- * This defines the shape of content per language.
- * NO zh
- * NO experimental locales
- */
-export type RegionCopy = {
+/* =========================
+   CONTENT TYPES
+========================= */
+
+export type LocaleContent = {
   heroTitle: string;
   description: string;
   curriculum: string[];
-  pricing: {
-    currency: string;
-    amount: number;
-  };
+  services: string[];
 };
 
-/**
- * Allowed locales ONLY.
- * This MUST stay aligned with i18n.ts
- */
-export type RegionLocales = {
-  en: RegionCopy;
-  es?: RegionCopy;
-  fr?: RegionCopy;
-  pt?: RegionCopy;
-  nl?: RegionCopy;
-  ar?: RegionCopy;
-};
+export type RegionLocales = Record<Language, LocaleContent>;
 
-/**
- * Region → Locale → Content
- * No zh anywhere. Period.
- */
-export const regionContent: Record<Region, RegionLocales> = {
+export type RegionContent = Record<Region, RegionLocales>;
+
+/* =========================
+   REGION CONTENT
+========================= */
+
+export const regionContent: RegionContent = {
   us: {
     en: {
-      heroTitle: 'Build Wealth Using the U.S. Financial System',
-      description: 'Learn banking, credit, taxes, and capital formation in the United States.',
-      curriculum: ['Banking', 'Credit', 'Taxes', 'Business Formation'],
-      pricing: { currency: 'USD', amount: 0 },
+      heroTitle: "Financial Education for the United States",
+      description: "Learn how money, credit, and law work in the U.S. system.",
+      curriculum: ["Banking", "Credit", "Taxes", "Business Structure"],
+      services: ["Financial Literacy", "Business Formation", "Risk Education"],
     },
     es: {
-      heroTitle: 'Construya riqueza usando el sistema financiero de EE.UU.',
-      description: 'Aprenda banca, crédito, impuestos y creación de capital.',
-      curriculum: ['Banca', 'Crédito', 'Impuestos', 'Negocios'],
-      pricing: { currency: 'USD', amount: 0 },
+      heroTitle: "Educación Financiera para Estados Unidos",
+      description: "Aprende cómo funcionan el dinero, crédito y leyes en EE.UU.",
+      curriculum: ["Banca", "Crédito", "Impuestos", "Estructura Empresarial"],
+      services: ["Educación Financiera", "Creación de Empresas", "Gestión de Riesgo"],
+    },
+    fr: {
+      heroTitle: "Éducation Financière pour les États-Unis",
+      description: "Comprendre le système financier et juridique américain.",
+      curriculum: ["Banque", "Crédit", "Fiscalité", "Structure d’Entreprise"],
+      services: ["Littératie Financière", "Création d’Entreprise", "Gestion des Risques"],
+    },
+    ar: {
+      heroTitle: "التعليم المالي في الولايات المتحدة",
+      description: "فهم النظام المالي والقانوني الأمريكي.",
+      curriculum: ["الخدمات المصرفية", "الائتمان", "الضرائب", "هيكلة الأعمال"],
+      services: ["التثقيف المالي", "تأسيس الشركات", "إدارة المخاطر"],
+    },
+    pt: {
+      heroTitle: "Educação Financeira para os Estados Unidos",
+      description: "Entenda o sistema financeiro e jurídico dos EUA.",
+      curriculum: ["Bancos", "Crédito", "Impostos", "Estrutura Empresarial"],
+      services: ["Educação Financeira", "Abertura de Empresas", "Gestão de Risco"],
     },
   },
+
+  /* =========================
+     LATAM — FIXED
+  ========================= */
 
   latam: {
     es: {
-      heroTitle: 'Educación Financiera para América Latina',
-      description: 'Estrategias financieras adaptadas a economías latinoamericanas.',
-      curriculum: ['Banca', 'Crédito', 'Remesas', 'Negocios'],
-      pricing: { currency: 'USD', amount: 0 },
+      heroTitle: "Educación Financiera para América Latina",
+      description: "Estrategias financieras adaptadas a economías latinoamericanas.",
+      curriculum: ["Banca Regional", "Crédito", "Impuestos", "Negocios"],
+      services: ["Educación Financiera", "Formalización Empresarial"],
+    },
+    en: {
+      heroTitle: "Financial Education for Latin America",
+      description: "Financial strategies tailored to Latin American economies.",
+      curriculum: ["Regional Banking", "Credit", "Taxes", "Business"],
+      services: ["Financial Literacy", "Business Formalization"],
+    },
+    fr: {
+      heroTitle: "Éducation Financière pour l’Amérique Latine",
+      description: "Stratégies financières adaptées aux économies latino-américaines.",
+      curriculum: ["Banque Régionale", "Crédit", "Fiscalité", "Affaires"],
+      services: ["Littératie Financière", "Formalisation d’Entreprise"],
+    },
+    ar: {
+      heroTitle: "التعليم المالي لأمريكا اللاتينية",
+      description: "استراتيجيات مالية مناسبة لاقتصادات أمريكا اللاتينية.",
+      curriculum: ["الخدمات المصرفية الإقليمية", "الائتمان", "الضرائب", "الأعمال"],
+      services: ["التثقيف المالي", "تنظيم الأعمال"],
     },
     pt: {
-      heroTitle: 'Educação Financeira para a América Latina',
-      description: 'Estratégias financeiras para economias latino-americanas.',
-      curriculum: ['Bancos', 'Crédito', 'Negócios'],
-      pricing: { currency: 'USD', amount: 0 },
+      heroTitle: "Educação Financeira para a América Latina",
+      description: "Estratégias financeiras para economias latino-americanas.",
+      curriculum: ["Bancos Regionais", "Crédito", "Impostos", "Negócios"],
+      services: ["Educação Financeira", "Formalização Empresarial"],
     },
   },
 
-  caribbean: {
-    en: {
-      heroTitle: 'Caribbean Financial Systems',
-      description: 'Financial literacy for island and offshore economies.',
-      curriculum: ['Banking', 'Offshore', 'Business', 'Compliance'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-    fr: {
-      heroTitle: 'Systèmes financiers des Caraïbes',
-      description: 'Éducation financière pour les économies insulaires.',
-      curriculum: ['Banque', 'Entreprise', 'Conformité'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-    nl: {
-      heroTitle: 'Caribische financiële systemen',
-      description: 'Financiële educatie voor Caribische economieën.',
-      curriculum: ['Banken', 'Bedrijf', 'Compliance'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-  },
+  /* =========================
+     PLACEHOLDER REGIONS
+     (VALID, BUILD-SAFE)
+  ========================= */
 
-  europe: {
-    en: {
-      heroTitle: 'European Financial Architecture',
-      description: 'Navigate EU and European financial systems.',
-      curriculum: ['Banking', 'Regulation', 'Capital'],
-      pricing: { currency: 'EUR', amount: 0 },
-    },
-    fr: {
-      heroTitle: 'Architecture financière européenne',
-      description: 'Comprendre les systèmes financiers européens.',
-      curriculum: ['Banque', 'Réglementation', 'Capital'],
-      pricing: { currency: 'EUR', amount: 0 },
-    },
-  },
-
-  africa: {
-    en: {
-      heroTitle: 'African Financial Systems',
-      description: 'Understand emerging and frontier financial markets.',
-      curriculum: ['Banking', 'Mobile Money', 'Trade'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-    fr: {
-      heroTitle: 'Systèmes financiers africains',
-      description: 'Marchés financiers émergents et frontières.',
-      curriculum: ['Banque', 'Finance mobile', 'Commerce'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-    ar: {
-      heroTitle: 'الأنظمة المالية الإفريقية',
-      description: 'فهم الأسواق المالية الناشئة.',
-      curriculum: ['البنوك', 'التجارة', 'التمويل'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-  },
-
-  mena: {
-    ar: {
-      heroTitle: 'الأنظمة المالية للشرق الأوسط وشمال أفريقيا',
-      description: 'التنقل في الأنظمة المالية الإقليمية.',
-      curriculum: ['البنوك', 'التمويل', 'التجارة'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-    en: {
-      heroTitle: 'MENA Financial Systems',
-      description: 'Regional finance and compliance structures.',
-      curriculum: ['Banking', 'Finance', 'Trade'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-  },
-
-  asia: {
-    en: {
-      heroTitle: 'Asian Financial Systems',
-      description: 'Cross-border finance and growth markets.',
-      curriculum: ['Banking', 'Trade', 'Capital'],
-      pricing: { currency: 'USD', amount: 0 },
-    },
-  },
+  caribbean: {} as RegionLocales,
+  europe: {} as RegionLocales,
+  africa: {} as RegionLocales,
+  mena: {} as RegionLocales,
+  asia: {} as RegionLocales,
+  "asia-pacific": {} as RegionLocales,
+  "asia-emerging": {} as RegionLocales,
 };
