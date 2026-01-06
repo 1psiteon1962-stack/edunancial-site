@@ -1,7 +1,18 @@
 import { Language } from "@/lib/i18n";
 
+export type Region =
+  | "us"
+  | "latam"
+  | "caribbean"
+  | "europe"
+  | "africa"
+  | "mena"
+  | "asia"
+  | "asia-pacific"
+  | "asia-emerging";
+
 type Props = {
-  region: string;
+  region: Region;
   lang: Language;
   supportedLanguages: readonly Language[];
 };
@@ -13,9 +24,9 @@ export default function RegionCurriculum({
 }: Props) {
   return (
     <section>
-      <h1>{region.toUpperCase()}</h1>
+      <h1>{region.toUpperCase()} Curriculum</h1>
       <p>Language: {lang}</p>
-      <p>Supported: {supportedLanguages.join(", ")}</p>
+      <p>Supported Languages: {supportedLanguages.join(", ")}</p>
     </section>
   );
 }
