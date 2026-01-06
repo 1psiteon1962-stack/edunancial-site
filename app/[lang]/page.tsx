@@ -9,10 +9,17 @@ type Props = {
   params: { lang: string };
 };
 
+/**
+ * Type guard to safely narrow string → Language
+ */
+function isLanguage(value: string): value is Language {
+  return SUPPORTED_LANGUAGES.includes(value as Language);
+}
+
 export default function RootLanguagePage({ params }: Props) {
   const raw = params.lang;
 
-  if (!SUPPORTED_LANGUAGES.includes(raw as Language)) {
+  if (!isLanguage(raw)) {
     return notFound();
   }
 
