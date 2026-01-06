@@ -67,3 +67,39 @@ export function isLanguage(
 ): value is Language {
   return REGION_LANGUAGES[region].includes(value as Language);
 }
+
+/* =========================
+   TRANSLATION HELPER
+   (SYNC, BUILD-SAFE)
+========================= */
+
+const COPY: Record<Language, Record<string, string>> = {
+  en: {
+    "doctrine.title": "The Edunancial Doctrine",
+    "doctrine.subtitle": "Structure before scale. Law before growth.",
+  },
+  es: {
+    "doctrine.title": "La Doctrina Edunancial",
+    "doctrine.subtitle": "Estructura antes de escalar. Derecho antes de crecer.",
+  },
+  fr: {
+    "doctrine.title": "La Doctrine Edunancial",
+    "doctrine.subtitle": "La structure avant l’expansion. Le droit avant la croissance.",
+  },
+  ar: {
+    "doctrine.title": "عقيدة إدونانشال",
+    "doctrine.subtitle": "البنية قبل التوسع. القانون قبل النمو.",
+  },
+  pt: {
+    "doctrine.title": "A Doutrina Edunancial",
+    "doctrine.subtitle": "Estrutura antes de escalar. Direito antes de crescer.",
+  },
+};
+
+/**
+ * Synchronous translation helper
+ * Netlify-safe, React-safe, build-safe
+ */
+export function t(lang: Language, key: string): string {
+  return COPY[lang]?.[key] ?? key;
+}
