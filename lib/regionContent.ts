@@ -1,31 +1,6 @@
 // lib/regionContent.ts
 
-import { Language } from "./i18n";
-
-/* =========================
-   Shared Types
-========================= */
-
-export type RegionContent = {
-  heroTitle: string;
-  description: string;
-  curriculum: string[];
-  pricing: {
-    currency: string;
-    amount: number;
-  };
-};
-
-/**
- * IMPORTANT:
- * RegionLocales MUST track Language exactly.
- * No hard-coded locale keys.
- */
-export type RegionLocales = Record<Language, RegionContent>;
-
-/* =========================
-   Region Content
-========================= */
+import { RegionLocales } from "./regions";
 
 export const regionContent: Record<string, RegionLocales> = {
   us: {
@@ -47,12 +22,6 @@ export const regionContent: Record<string, RegionLocales> = {
       curriculum: ["Banque", "Crédit", "Impôts", "Entreprise"],
       pricing: { currency: "USD", amount: 0 },
     },
-    zh: {
-      heroTitle: "美国金融课程",
-      description: "使用美国金融体系建立财富。",
-      curriculum: ["银行", "信贷", "税收", "商业"],
-      pricing: { currency: "USD", amount: 0 },
-    },
     de: {
       heroTitle: "US-Finanzlehrplan",
       description: "Vermögen mit dem US-Finanzsystem aufbauen.",
@@ -69,6 +38,12 @@ export const regionContent: Record<string, RegionLocales> = {
       heroTitle: "المنهج المالي الأمريكي",
       description: "بناء الثروة باستخدام النظام المالي الأمريكي.",
       curriculum: ["البنوك", "الائتمان", "الضرائب", "الأعمال"],
+      pricing: { currency: "USD", amount: 0 },
+    },
+    zh: {
+      heroTitle: "美国金融课程",
+      description: "使用美国金融体系建立财富。",
+      curriculum: ["银行", "信贷", "税收", "商业"],
       pricing: { currency: "USD", amount: 0 },
     },
   },
