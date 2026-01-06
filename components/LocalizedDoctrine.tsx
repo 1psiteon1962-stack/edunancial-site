@@ -6,9 +6,9 @@ type Props = {
 
 export default function LocalizedDoctrine({ lang }: Props) {
   return (
-    <section style={{ marginTop: "2rem" }}>
-      <h2>{t(lang, "missionTitle")}</h2>
-      <p>{t(lang, "missionBody")}</p>
-    </section>
+    <article>
+      <h2>{t("doctrine.title", lang)}</h2>
+      <p>{t("doctrine.body", lang)}</p>
+    </article>
   );
 }
