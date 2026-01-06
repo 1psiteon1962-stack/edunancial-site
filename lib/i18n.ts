@@ -1,5 +1,9 @@
 // lib/i18n.ts
 
+/* =========================
+   Core Types
+========================= */
+
 export type Language = "en" | "es" | "fr" | "de" | "pt" | "ar";
 
 export type Region =
@@ -12,6 +16,10 @@ export type Region =
   | "latam"
   | "africa";
 
+/* =========================
+   Supported Languages
+========================= */
+
 export const supportedLanguages: Language[] = [
   "en",
   "es",
@@ -20,6 +28,25 @@ export const supportedLanguages: Language[] = [
   "pt",
   "ar",
 ];
+
+/* =========================
+   Region → Languages
+========================= */
+
+export const REGION_LANGUAGES: Record<Region, ReadonlyArray<Language>> = {
+  us: ["en", "es"],
+  europe: ["en", "fr", "de"],
+  mena: ["ar", "en"],
+  asia: ["en"],
+  apac: ["en"],
+  asia_emerging: ["en"],
+  latam: ["es", "pt"],
+  africa: ["en", "fr", "ar"],
+};
+
+/* =========================
+   Defaults
+========================= */
 
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
@@ -32,9 +59,17 @@ export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   africa: "en",
 };
 
+/* =========================
+   Guards & Helpers
+========================= */
+
+export function isLanguage(value: string): value is Language {
+  return supportedLanguages.includes(value as Language);
+}
+
 /**
- * Simple translation helper.
- * Language resolution happens upstream.
+ * Translation helper
+ * (language resolution happens upstream)
  */
 export function t(key: string): string {
   return key;
