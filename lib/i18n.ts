@@ -1,32 +1,69 @@
-export const SUPPORTED_LANGUAGES = ["en", "es", "fr", "ar", "pt"] as const;
+// lib/i18n.ts
 
+/* =========================
+   LANGUAGES
+========================= */
+
+export const SUPPORTED_LANGUAGES = ["en", "es", "fr", "ar", "pt"] as const;
 export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
-export const REGION_LANGUAGES = {
-  us: ["en", "es"] as const,
-  europe: ["en", "fr"] as const,
-  latam: ["es"] as const,
-  caribbean: ["en", "es", "fr", "pt"] as const,
-  mena: ["ar", "fr", "en"] as const,
-  africa: ["en", "fr", "pt", "ar"] as const,
-  asia: ["en"] as const,
-  "asia-pacific": ["en"] as const,
-  "asia-emerging": ["en"] as const,
-} satisfies Record<string, readonly Language[]>;
+/* =========================
+   REGIONS
+========================= */
 
-/**
- * Type guard: validates language + region compatibility
- */
+export const REGIONS = [
+  "us",
+  "latam",
+  "caribbean",
+  "europe",
+  "africa",
+  "mena",
+  "asia",
+  "asia-pacific",
+  "asia-emerging",
+] as const;
+
+export type Region = (typeof REGIONS)[number];
+
+/* =========================
+   REGION → LANGUAGES
+========================= */
+
+export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+  us: ["en", "es"],
+  latam: ["es"],
+  caribbean: ["en", "es", "fr"],
+  europe: ["en", "fr"],
+  africa: ["en", "fr", "ar"],
+  mena: ["ar", "en", "fr"],
+  asia: ["en"],
+  "asia-pacific": ["en"],
+  "asia-emerging": ["en"],
+} as const;
+
+/* =========================
+   DEFAULT LANGUAGE
+========================= */
+
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  us: "en",
+  latam: "es",
+  caribbean: "en",
+  europe: "en",
+  africa: "en",
+  mena: "ar",
+  asia: "en",
+  "asia-pacific": "en",
+  "asia-emerging": "en",
+};
+
+/* =========================
+   TYPE GUARDS
+========================= */
+
 export function isLanguage(
   value: string,
-  region: keyof typeof REGION_LANGUAGES
+  region: Region
 ): value is Language {
   return REGION_LANGUAGES[region].includes(value as Language);
-}
-
-/**
- * Translation helper used by LocalizedDoctrine
- */
-export function t(key: string, lang: Language): string {
-  return `${key} [${lang}]`;
 }
