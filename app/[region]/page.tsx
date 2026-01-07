@@ -1,40 +1,50 @@
 import { notFound } from "next/navigation";
-import { regions } from "@/lib/regions";
-import { regionContent } from "@/lib/regionContent";
-import RegionSection from "@/components/RegionSection";
+import { regions } from "@/data/regions";
+import { regionContent } from "@/data/regionContent";
 
-type Props = {
+interface PageProps {
   params: {
     region: string;
   };
-};
+}
 
-export default function RegionPage({ params }: Props) {
-  const regionKey = params.region;
+export default function RegionPage({ params }: PageProps) {
+  const regionSlug = params.region;
 
-  const regionConfig = regions.find(r => r.key === regionKey);
-  if (!regionConfig) return notFound();
+  // Match using the EXISTING property on RegionMeta
+  const regionConfig = regions.find(
+    (r) => r.slug === regionSlug
+  );
 
-  const content = regionContent[regionKey];
-  if (!content) return notFound();
+  if (!regionConfig) {
+    return notFound();
+  }
+
+  const content = regionContent[regionSlug];
+
+  if (!content) {
+    return notFound();
+  }
 
   return (
-    <main className="max-w-5xl mx-auto px-6 py-12">
-      <header className="mb-12">
-        <h1 className="text-4xl font-bold mb-4">
-          {content.heroTitle}
-        </h1>
-        <p className="text-lg text-gray-700">
-          {content.description}
-        </p>
-      </header>
+    <main className="container mx-auto px-6 py-12">
+      <h1 className="text-3xl font-bold mb-6">
+        {regionConfig.name}
+      </h1>
 
-      {content.sections.map(section => (
-        <RegionSection
-          key={section.id}
-          title={section.title}
-          body={section.body}
-        />
+      <p className="text-lg mb-8">
+        {content.description}
+      </p>
+
+      {content.sections?.map((section, index) => (
+        <section key={index} className="mb-10">
+          <h2 className="text-2xl font-semibold mb-4">
+            {section.title}
+          </h2>
+          <p className="text-base leading-relaxed">
+            {section.body}
+          </p>
+        </section>
       ))}
     </main>
   );
