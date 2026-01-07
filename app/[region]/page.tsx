@@ -11,16 +11,19 @@ interface PageProps {
 export default function RegionPage({ params }: PageProps) {
   const regionSlug = params.region;
 
-  // REGIONS is an object map, not an array → convert safely
-  const regionConfig = Object.values(REGIONS).find(
-    (r) => r.slug === regionSlug
+  // REGIONS is an object map: { us: {...}, africa: {...} }
+  const regionEntry = Object.entries(REGIONS).find(
+    ([key]) => key === regionSlug
   );
 
-  if (!regionConfig) {
+  if (!regionEntry) {
     notFound();
   }
 
-  const content = regionContent[regionSlug as keyof typeof regionContent];
+  const [resolvedRegionKey, regionConfig] = regionEntry;
+
+  const content =
+    regionContent[resolvedRegionKey as keyof typeof regionContent];
 
   if (!content) {
     notFound();
