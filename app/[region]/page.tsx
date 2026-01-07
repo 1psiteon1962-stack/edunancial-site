@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { regions } from "@/data/regions";
+import { REGIONS } from "@/data/regions";
 import { regionContent } from "@/data/regionContent";
 
 interface PageProps {
@@ -11,8 +11,7 @@ interface PageProps {
 export default function RegionPage({ params }: PageProps) {
   const regionSlug = params.region;
 
-  // Match using the EXISTING property on RegionMeta
-  const regionConfig = regions.find(
+  const regionConfig = REGIONS.find(
     (r) => r.slug === regionSlug
   );
 
