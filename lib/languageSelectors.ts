@@ -1,16 +1,20 @@
 import { RegionConfig } from "./regions.config";
 
-export type Language = "en" | "es" | "fr";
+/**
+ * Supported language codes
+ */
+export type Language =
+  | "en"
+  | "es"
+  | "pt"
+  | "fr"
+  | "de"
+  | "nl"
+  | "ar";
 
 /**
- * Language resolution helpers.
- * Deterministic and safe.
+ * Returns true if a language is allowed in the region
  */
-
-export function getDefaultLanguage(region: RegionConfig): Language {
-  return region.defaultLanguage;
-}
-
 export function isLanguageAllowed(
   region: RegionConfig,
   lang: Language
@@ -18,11 +22,15 @@ export function isLanguageAllowed(
   return region.allowedLanguages.includes(lang);
 }
 
+/**
+ * Resolves the best language for a region
+ */
 export function resolveLanguage(
   region: RegionConfig,
-  requested: Language
+  requested: Language | undefined
 ): Language {
-  return isLanguageAllowed(region, requested)
-    ? requested
-    : region.defaultLanguage;
+  if (requested && region.allowedLanguages.includes(requested)) {
+    return requested;
+  }
+  return region.defaultLanguage;
 }
