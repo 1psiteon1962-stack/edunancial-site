@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { REGIONS } from "@/data/regions";
-import { regionContent } from "@/data/regionContent";
+import { REGION_CONTENT } from "@/data/regionContent";
 
 interface PageProps {
   params: {
@@ -11,47 +11,27 @@ interface PageProps {
 export default function RegionPage({ params }: PageProps) {
   const regionSlug = params.region;
 
-  // REGIONS is an object map: { us: {...}, africa: {...} }
+  // REGIONS is an object map → use entries to match slug
   const regionEntry = Object.entries(REGIONS).find(
-    ([key]) => key === regionSlug
+    ([slug]) => slug === regionSlug
   );
 
   if (!regionEntry) {
     notFound();
   }
 
-  const [resolvedRegionKey, regionConfig] = regionEntry;
+  const [, regionConfig] = regionEntry;
 
-  const content =
-    regionContent[resolvedRegionKey as keyof typeof regionContent];
+  const content = REGION_CONTENT[regionSlug];
 
   if (!content) {
     notFound();
   }
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
-      <header className="mb-10">
-        <h1 className="text-4xl font-bold tracking-tight">
-          {content.heroTitle}
-        </h1>
-        <p className="mt-4 text-lg text-gray-600">
-          {content.description}
-        </p>
-      </header>
-
-      <section className="grid gap-8">
-        {content.sections.map((section) => (
-          <div key={section.id} className="rounded-lg border p-6">
-            <h2 className="text-2xl font-semibold mb-2">
-              {section.title}
-            </h2>
-            <p className="text-gray-700">
-              {section.body}
-            </p>
-          </div>
-        ))}
-      </section>
+    <main>
+      <h1>{regionConfig.name}</h1>
+      <p>{content.description}</p>
     </main>
   );
 }
