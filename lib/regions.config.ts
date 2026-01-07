@@ -26,7 +26,7 @@ export interface RegionConfig {
 
   /** Language handling */
   defaultLanguage: Language;
-  supportedLanguages: readonly Language[];
+  allowedLanguages: readonly Language[];
 }
 
 /**
@@ -39,7 +39,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "us-live",
     defaultLanguage: "en",
-    supportedLanguages: ["en", "es"],
+    allowedLanguages: ["en", "es"],
   },
 
   latam: {
@@ -48,7 +48,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "latam-live",
     defaultLanguage: "es",
-    supportedLanguages: ["es", "pt", "en"],
+    allowedLanguages: ["es", "pt", "en"],
   },
 
   caribbean: {
@@ -57,7 +57,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "caribbean-live",
     defaultLanguage: "es",
-    supportedLanguages: ["es", "en", "fr", "nl"],
+    allowedLanguages: ["es", "en", "fr", "nl"],
   },
 
   africa: {
@@ -66,7 +66,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "africa-live",
     defaultLanguage: "en",
-    supportedLanguages: ["en", "fr", "ar"],
+    allowedLanguages: ["en", "fr", "ar"],
   },
 
   europe: {
@@ -75,7 +75,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "europe-live",
     defaultLanguage: "en",
-    supportedLanguages: ["en", "fr", "de", "es"],
+    allowedLanguages: ["en", "fr", "de", "es"],
   },
 
   asia: {
@@ -84,15 +84,15 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     enabled: true,
     readinessKey: "asia-live",
     defaultLanguage: "en",
-    supportedLanguages: ["en"],
+    allowedLanguages: ["en"],
   },
 
   cuba: {
     code: "cuba",
     name: "Cuba",
-    enabled: false, // intentionally dormant
+    enabled: false, // intentionally locked
     readinessKey: "cuba-locked",
     defaultLanguage: "es",
-    supportedLanguages: ["es"],
+    allowedLanguages: ["es"],
   },
 };
