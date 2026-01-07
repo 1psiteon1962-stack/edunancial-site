@@ -1,107 +1,73 @@
-// lib/regionContent.ts
-
-import type { Language, Region } from "./i18n";
-
-/* =========================
-   CONTENT TYPES
-========================= */
-
-export type LocaleContent = {
-  heroTitle: string;
-  description: string;
-  curriculum: string[];
-  services: string[];
+export type RegionSectionContent = {
+  id: string;
+  title: string;
+  body: string;
 };
 
-export type RegionLocales = Record<Language, LocaleContent>;
+export type RegionPageContent = {
+  heroTitle: string;
+  description: string;
+  sections: RegionSectionContent[];
+};
 
-export type RegionContent = Record<Region, RegionLocales>;
-
-/* =========================
-   REGION CONTENT
-========================= */
-
-export const regionContent: RegionContent = {
+export const regionContent: Record<string, RegionPageContent> = {
   us: {
-    en: {
-      heroTitle: "Financial Education for the United States",
-      description: "Learn how money, credit, and law work in the U.S. system.",
-      curriculum: ["Banking", "Credit", "Taxes", "Business Structure"],
-      services: ["Financial Literacy", "Business Formation", "Risk Education"],
-    },
-    es: {
-      heroTitle: "Educación Financiera para Estados Unidos",
-      description: "Aprende cómo funcionan el dinero, crédito y leyes en EE.UU.",
-      curriculum: ["Banca", "Crédito", "Impuestos", "Estructura Empresarial"],
-      services: ["Educación Financiera", "Creación de Empresas", "Gestión de Riesgo"],
-    },
-    fr: {
-      heroTitle: "Éducation Financière pour les États-Unis",
-      description: "Comprendre le système financier et juridique américain.",
-      curriculum: ["Banque", "Crédit", "Fiscalité", "Structure d’Entreprise"],
-      services: ["Littératie Financière", "Création d’Entreprise", "Gestion des Risques"],
-    },
-    ar: {
-      heroTitle: "التعليم المالي في الولايات المتحدة",
-      description: "فهم النظام المالي والقانوني الأمريكي.",
-      curriculum: ["الخدمات المصرفية", "الائتمان", "الضرائب", "هيكلة الأعمال"],
-      services: ["التثقيف المالي", "تأسيس الشركات", "إدارة المخاطر"],
-    },
-    pt: {
-      heroTitle: "Educação Financeira para os Estados Unidos",
-      description: "Entenda o sistema financeiro e jurídico dos EUA.",
-      curriculum: ["Bancos", "Crédito", "Impostos", "Estrutura Empresarial"],
-      services: ["Educação Financeira", "Abertura de Empresas", "Gestão de Risco"],
-    },
+    heroTitle: "Building Businesses in the United States",
+    description:
+      "Regulatory awareness, capital access, and operational discipline for founders operating in the U.S. market.",
+    sections: [
+      {
+        id: "us-1",
+        title: "Regulation as a Competitive Reality",
+        body:
+          "In the United States, compliance is not optional. Understanding it early reduces friction, cost, and future risk."
+      },
+      {
+        id: "us-2",
+        title: "Capital Formation",
+        body:
+          "U.S. founders face both opportunity and scrutiny. Structure determines who can fund you and how fast."
+      }
+    ]
   },
 
-  /* =========================
-     LATAM — FIXED
-  ========================= */
+  africa: {
+    heroTitle: "Entrepreneurship Across African Markets",
+    description:
+      "Operating in high-growth environments shaped by infrastructure gaps, currency dynamics, and regulatory diversity.",
+    sections: [
+      {
+        id: "africa-1",
+        title: "Infrastructure Bottlenecks",
+        body:
+          "African founders often scale despite infrastructure limitations. Strategy must account for power, logistics, and payments."
+      },
+      {
+        id: "africa-2",
+        title: "Cross-Border Expansion",
+        body:
+          "Many African businesses are regional by necessity. Planning early for cross-border compliance is critical."
+      }
+    ]
+  },
 
   latam: {
-    es: {
-      heroTitle: "Educación Financiera para América Latina",
-      description: "Estrategias financieras adaptadas a economías latinoamericanas.",
-      curriculum: ["Banca Regional", "Crédito", "Impuestos", "Negocios"],
-      services: ["Educación Financiera", "Formalización Empresarial"],
-    },
-    en: {
-      heroTitle: "Financial Education for Latin America",
-      description: "Financial strategies tailored to Latin American economies.",
-      curriculum: ["Regional Banking", "Credit", "Taxes", "Business"],
-      services: ["Financial Literacy", "Business Formalization"],
-    },
-    fr: {
-      heroTitle: "Éducation Financière pour l’Amérique Latine",
-      description: "Stratégies financières adaptées aux économies latino-américaines.",
-      curriculum: ["Banque Régionale", "Crédit", "Fiscalité", "Affaires"],
-      services: ["Littératie Financière", "Formalisation d’Entreprise"],
-    },
-    ar: {
-      heroTitle: "التعليم المالي لأمريكا اللاتينية",
-      description: "استراتيجيات مالية مناسبة لاقتصادات أمريكا اللاتينية.",
-      curriculum: ["الخدمات المصرفية الإقليمية", "الائتمان", "الضرائب", "الأعمال"],
-      services: ["التثقيف المالي", "تنظيم الأعمال"],
-    },
-    pt: {
-      heroTitle: "Educação Financeira para a América Latina",
-      description: "Estratégias financeiras para economias latino-americanas.",
-      curriculum: ["Bancos Regionais", "Crédito", "Impostos", "Negócios"],
-      services: ["Educação Financeira", "Formalização Empresarial"],
-    },
-  },
-
-  /* =========================
-     PLACEHOLDER REGIONS
-     (VALID, BUILD-SAFE)
-  ========================= */
-
-  caribbean: {} as RegionLocales,
-  europe: {} as RegionLocales,
-  africa: {} as RegionLocales,
-  mena: {} as RegionLocales,
-  asia: {} as RegionLocales,
-  "asia-pacific": {} as RegionLocales,
-  "asia-emerging": {} as RegionLocales,
+    heroTitle: "Latin America & the Caribbean",
+    description:
+      "Navigating informality, regulation, and growth opportunities across Latin American economies.",
+    sections: [
+      {
+        id: "latam-1",
+        title: "Informality vs Structure",
+        body:
+          "Many businesses begin informally. Transitioning to structure unlocks capital, partnerships, and protection."
+      },
+      {
+        id: "latam-2",
+        title: "Currency & Political Risk",
+        body:
+          "Financial planning must anticipate volatility, controls, and regulatory shifts."
+      }
+    ]
+  }
 };
