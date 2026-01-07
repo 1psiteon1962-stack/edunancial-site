@@ -1,43 +1,25 @@
 export const REGION_CONTENT: Record<
   string,
   {
-    headline: string;
-    summary: string;
+    description: string;
   }
 > = {
   us: {
-    headline: "Financial Education Built for Scale",
-    summary:
-      "Edunancial delivers structured financial literacy, tools, and systems designed for long-term wealth creation.",
+    description: "United States content goes here.",
   },
-
-  mena: {
-    headline: "Digital Education for a Rapidly Evolving Economy",
-    summary:
-      "Localized financial knowledge designed to align with cultural and regulatory realities.",
-  },
-
   europe: {
-    headline: "Education Designed for Regulated Markets",
-    summary:
-      "Advanced financial education aligned with compliance-first economies.",
+    description: "Europe content goes here.",
   },
-
-  "asia-pacific": {
-    headline: "Mobile-First Financial Intelligence",
-    summary:
-      "Scalable learning systems optimized for mobile adoption and cross-border growth.",
+  mena: {
+    description: "Middle East & North Africa content goes here.",
   },
-
-  "asia-emerging": {
-    headline: "Accessible Knowledge for High-Growth Economies",
-    summary:
-      "Affordable, modular financial education built for scale and resilience.",
+  asiaPacific: {
+    description: "Asia Pacific content goes here.",
   },
-
+  asiaEmerging: {
+    description: "Asia Emerging Markets content goes here.",
+  },
   caribbean: {
-    headline: "Bilingual Financial Education for Global Citizens",
-    summary:
-      "Cross-border financial literacy designed for diaspora and regional growth.",
+    description: "Caribbean content goes here.",
   },
 };
