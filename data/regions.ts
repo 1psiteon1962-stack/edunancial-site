@@ -1,32 +1,39 @@
 export const REGIONS = {
   us: {
     name: "United States",
-    languages: ["en", "es"],
-    currency: "USD",
+    description: "Primary launch market with full product access",
+    maturity: "developed",
   },
-  europe: {
-    name: "Europe",
-    languages: ["en", "fr", "de", "es", "it"],
-    currency: "EUR",
-  },
+
   mena: {
     name: "Middle East & North Africa",
-    languages: ["ar", "en", "fr"],
-    currency: "USD",
+    description: "Rapid digital adoption with regulatory sensitivity",
+    maturity: "emerging",
   },
-  asia: {
+
+  europe: {
+    name: "Europe",
+    description: "Highly regulated but high purchasing power markets",
+    maturity: "developed",
+  },
+
+  "asia-pacific": {
     name: "Asia Pacific",
-    languages: ["en", "zh", "ja", "ko"],
-    currency: "USD",
+    description: "Large population, strong mobile-first adoption",
+    maturity: "mixed",
   },
+
   "asia-emerging": {
     name: "Asia Emerging",
-    languages: ["en", "hi", "bn", "ur"],
-    currency: "USD",
+    description: "Fast-growing economies with price sensitivity",
+    maturity: "emerging",
   },
-  africa: {
-    name: "Africa",
-    languages: ["en", "fr", "sw", "ar"],
-    currency: "USD",
+
+  caribbean: {
+    name: "Caribbean",
+    description: "Cross-border, bilingual, and diaspora-driven markets",
+    maturity: "emerging",
   },
 } as const;
+
+export type RegionKey = keyof typeof REGIONS;
