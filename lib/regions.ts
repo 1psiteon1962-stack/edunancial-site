@@ -1,39 +1,44 @@
 // lib/regions.ts
 
 /* =========================
-   Languages
+   REGION IDENTIFIERS
 ========================= */
 
-export const LANGUAGES = [
-  "en",
-  "es",
-  "fr",
-  "de",
-  "pt",
-  "ar",
-  "zh",
+export const REGION_KEYS = [
+  "us",
+  "latam",
+  "caribbean",
+  "europe",
+  "africa",
+  "mena",
+  "asia",
+  "asia-pacific",
+  "asia-emerging",
 ] as const;
 
-export type Language = typeof LANGUAGES[number];
-
 /* =========================
-   Region Content
+   REGION TYPE
 ========================= */
 
-export type RegionContent = {
-  heroTitle: string;
-  description: string;
-  curriculum: string[];
-  pricing: {
-    currency: string;
-    amount: number;
-  };
+export type Region = (typeof REGION_KEYS)[number];
+
+/* =========================
+   REGION METADATA (OPTIONAL)
+========================= */
+
+export type RegionMeta = {
+  id: Region;
+  label: string;
 };
 
-/**
- * CRITICAL:
- * RegionLocales is derived from Language.
- * This makes it impossible for zh (or any future language)
- * to ever break the build again.
- */
-export type RegionLocales = Record<Language, RegionContent>;
+export const regions: RegionMeta[] = [
+  { id: "us", label: "United States" },
+  { id: "latam", label: "Latin America" },
+  { id: "caribbean", label: "Caribbean" },
+  { id: "europe", label: "Europe" },
+  { id: "africa", label: "Africa" },
+  { id: "mena", label: "Middle East & North Africa" },
+  { id: "asia", label: "Asia" },
+  { id: "asia-pacific", label: "Asia Pacific" },
+  { id: "asia-emerging", label: "Emerging Asia" },
+];
