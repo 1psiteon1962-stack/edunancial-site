@@ -1,98 +1,18 @@
-import { Language } from "./languageSelectors";
+// lib/regionConfig.ts
 
-/**
- * Canonical region codes
- */
-export type RegionCode =
-  | "us"
-  | "latam"
-  | "caribbean"
-  | "africa"
-  | "europe"
-  | "asia"
-  | "cuba";
+import type { Language } from "./languageSelectors";
 
-/**
- * Region configuration contract
- */
 export interface RegionConfig {
-  code: RegionCode;
+  /** Human-readable region name */
   name: string;
 
-  enabled: boolean;
+  /** Supported languages for this region */
+  languages: readonly Language[];
 
-  /** Feature gate / rollout switch */
-  readinessKey: string;
-
-  /** Language handling */
+  /** Default language when none is provided or invalid */
   defaultLanguage: Language;
-  allowedLanguages: readonly Language[];
+
+  /** Optional metadata */
+  currency?: string;
+  timezone?: string;
 }
-
-/**
- * Central region registry
- */
-export const REGIONS: Record<RegionCode, RegionConfig> = {
-  us: {
-    code: "us",
-    name: "United States",
-    enabled: true,
-    readinessKey: "us-live",
-    defaultLanguage: "en",
-    allowedLanguages: ["en", "es"],
-  },
-
-  latam: {
-    code: "latam",
-    name: "Latin America",
-    enabled: true,
-    readinessKey: "latam-live",
-    defaultLanguage: "es",
-    allowedLanguages: ["es", "pt", "en"],
-  },
-
-  caribbean: {
-    code: "caribbean",
-    name: "Caribbean",
-    enabled: true,
-    readinessKey: "caribbean-live",
-    defaultLanguage: "es",
-    allowedLanguages: ["es", "en", "fr", "nl"],
-  },
-
-  africa: {
-    code: "africa",
-    name: "Africa",
-    enabled: true,
-    readinessKey: "africa-live",
-    defaultLanguage: "en",
-    allowedLanguages: ["en", "fr", "ar"],
-  },
-
-  europe: {
-    code: "europe",
-    name: "Europe",
-    enabled: true,
-    readinessKey: "europe-live",
-    defaultLanguage: "en",
-    allowedLanguages: ["en", "fr", "de", "es"],
-  },
-
-  asia: {
-    code: "asia",
-    name: "Asia",
-    enabled: true,
-    readinessKey: "asia-live",
-    defaultLanguage: "en",
-    allowedLanguages: ["en"],
-  },
-
-  cuba: {
-    code: "cuba",
-    name: "Cuba",
-    enabled: false, // intentionally locked
-    readinessKey: "cuba-locked",
-    defaultLanguage: "es",
-    allowedLanguages: ["es"],
-  },
-};
