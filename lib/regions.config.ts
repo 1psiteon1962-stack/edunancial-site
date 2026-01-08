@@ -1,18 +1,48 @@
-// lib/regionConfig.ts
+// lib/regions.config.ts
 
-import type { Language } from "./languageSelectors";
+import type { RegionConfig } from "./regionConfig";
 
-export interface RegionConfig {
-  /** Human-readable region name */
-  name: string;
+export const REGIONS = {
+  us: {
+    name: "United States",
+    languages: ["en", "es"],
+    defaultLanguage: "en",
+    currency: "USD",
+    timezone: "America/New_York",
+  },
 
-  /** Supported languages for this region */
-  languages: readonly Language[];
+  africa: {
+    name: "Africa",
+    languages: ["en", "fr"],
+    defaultLanguage: "en",
+  },
 
-  /** Default language when none is provided or invalid */
-  defaultLanguage: Language;
+  "asia-pacific": {
+    name: "Asia Pacific",
+    languages: ["en"],
+    defaultLanguage: "en",
+  },
 
-  /** Optional metadata */
-  currency?: string;
-  timezone?: string;
-}
+  "asia-emerging": {
+    name: "Asia Emerging",
+    languages: ["en"],
+    defaultLanguage: "en",
+  },
+
+  mena: {
+    name: "Middle East & North Africa",
+    languages: ["en", "fr"],
+    defaultLanguage: "en",
+  },
+
+  caribbean: {
+    name: "Caribbean",
+    languages: ["en", "es", "fr"],
+    defaultLanguage: "en",
+  },
+} satisfies Record<string, RegionConfig>;
+
+/**
+ * Canonical region code type
+ */
+export type RegionCode = keyof typeof REGIONS;
