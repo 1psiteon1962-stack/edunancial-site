@@ -1,19 +1,19 @@
-import { Language, resolveLanguage } from "./languageSelectors";
-import { RegionConfig } from "./regions.config";
+// lib/langResolver.ts
+
+import { Language, resolveLanguage } from './languageSelectors';
+import { RegionConfig } from './regions.config';
 
 /**
- * Language resolver using region constraints.
+ * Resolves the effective language for a request
+ * based on region configuration and candidate input.
  */
-
-export function resolveLangParam(
+export function resolveRegionLanguage(
   region: RegionConfig,
-  input?: string
+  candidate: string | undefined
 ): Language {
-  const candidate = input as Language | undefined;
-
-  if (!candidate) {
-    return region.defaultLanguage;
-  }
-
-  return resolveLanguage(region, candidate);
+  return resolveLanguage(
+    candidate,
+    region.languages,
+    region.defaultLanguage
+  );
 }
