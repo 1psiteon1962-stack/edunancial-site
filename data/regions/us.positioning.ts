@@ -1,11 +1,11 @@
 export const US_POSITIONING = {
-  headline: "Infrastructure for Individuals Building Economic Leverage",
+  headline: "Infrastructure for Economic Participation",
   subheadline:
-    "Edunancial provides structured systems, tools, and frameworks designed for participation in modern financial and commercial environments.",
+    "Edunancial provides structured systems, tools, and frameworks designed for disciplined participation in modern economic environments.",
   emphasis: [
-    "Systems over speculation",
     "Structure before scale",
+    "Systems over speculation",
     "Risk-aware participation",
     "Jurisdiction-conscious design",
   ],
-};
+} as const;
