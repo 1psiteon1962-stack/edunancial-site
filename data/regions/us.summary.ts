@@ -1,6 +1,6 @@
 export const US_SUMMARY = {
   overview:
-    "The United States region serves as Edunancial’s primary operational and validation environment, reflecting a mature, highly regulated, and competitive economic system.",
+    "The United States serves as Edunancial’s primary operational and validation environment within a mature and highly regulated economic system.",
   intent:
-    "This region emphasizes structure, compliance awareness, and disciplined participation rather than speculative outcomes.",
-};
+    "This region emphasizes disciplined participation, structural clarity, and compliance awareness over speculative outcomes.",
+} as const;
