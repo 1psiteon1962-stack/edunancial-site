@@ -1,13 +1,22 @@
 // app/layout.tsx
 
-import type { ReactNode } from "react";
-import RegionNav from "@/components/RegionNav";
+import "./globals.css";
+import { ReactNode } from "react";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export const metadata = {
+  title: "Edunancial",
+  description:
+    "Education focused on readiness, structure, and long-term business durability.",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
-        <RegionNav />
         {children}
       </body>
     </html>
