@@ -27,5 +27,60 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     readinessKey: "us",
   },
 
-  // other regions remain unchanged
+  // Other regions intentionally disabled until activated
+  africa: {
+    name: "Africa",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "africa",
+  },
+
+  asia: {
+    name: "Asia",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en"],
+    readinessKey: "asia",
+  },
+
+  "asia-pacific": {
+    name: "Asia Pacific",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en"],
+    readinessKey: "asia-pacific",
+  },
+
+  "asia-emerging": {
+    name: "Asia Emerging",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en"],
+    readinessKey: "asia-emerging",
+  },
+
+  mena: {
+    name: "MENA",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "mena",
+  },
+
+  europe: {
+    name: "Europe",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "europe",
+  },
+
+  caribbean: {
+    name: "Caribbean",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "es", "fr"],
+    readinessKey: "caribbean",
+  },
 };
