@@ -1,48 +1,39 @@
+// app/[region]/page.tsx
+
 import { notFound } from "next/navigation";
-import { REGIONS } from "@/data/regions";
-import { REGION_CONTENT } from "@/data/regionContent";
+import { REGIONS, RegionCode } from "@/lib/regions.config";
 
 interface PageProps {
-  params: { region: string };
+  params: {
+    region: RegionCode;
+  };
 }
 
 export default function RegionPage({ params }: PageProps) {
-  const regionKey = params.region;
+  const region = REGIONS[params.region];
 
-  const regionMeta = REGIONS[regionKey];
-  if (!regionMeta || !regionMeta.enabled) {
-    notFound();
-  }
-
-  const content = REGION_CONTENT[regionKey as keyof typeof REGION_CONTENT];
-  if (!content) {
+  if (!region || !region.enabled) {
     notFound();
   }
 
   return (
-    <main className="max-w-5xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold mb-4">{content.heroTitle}</h1>
-      <p className="text-lg text-gray-600 mb-8">{content.heroSubtitle}</p>
+    <main style={{ padding: "3rem", maxWidth: "960px", margin: "0 auto" }}>
+      <h1>Edunancial</h1>
 
-      <section className="mb-10">
-        {content.overview.map((p, i) => (
-          <p key={i} className="mb-4 text-gray-800">
-            {p}
-          </p>
-        ))}
-      </section>
+      <p style={{ marginTop: "1rem", fontSize: "1.1rem" }}>
+        Education focused on readiness, structure, and long-term business durability.
+      </p>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Core Focus Areas</h2>
-        <ul className="list-disc pl-6 space-y-2">
-          {content.focusAreas.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
-      </section>
+      <p style={{ marginTop: "0.75rem", color: "#555" }}>
+        The platform is live. Global rollout is in progress.
+      </p>
 
-      <section className="text-sm text-gray-500 border-t pt-6">
-        {content.disclaimer}
+      <section style={{ marginTop: "3rem" }}>
+        <h2>{region.name}</h2>
+        <p style={{ marginTop: "0.5rem" }}>
+          This regional site reflects Edunancial’s deployment model, curriculum
+          structure, and market-specific readiness requirements.
+        </p>
       </section>
     </main>
   );
