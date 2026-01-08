@@ -6,8 +6,8 @@ export function getRegionAccess(regionCode: RegionCode) {
 
   return {
     region,
-    allowed: canAccessRegion(region),
-    enabled: region.enabled,
-    readinessKey: region.readinessKey,
+    allowed: canAccessRegion(regionCode, region),
+    enabled: region.enabled ?? true,
+    readinessKey: region.readinessKey ?? regionCode,
   };
 }
