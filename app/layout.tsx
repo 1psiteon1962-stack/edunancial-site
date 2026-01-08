@@ -1,7 +1,6 @@
 // app/layout.tsx
-
 import "./globals.css";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Edunancial",
@@ -16,9 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
