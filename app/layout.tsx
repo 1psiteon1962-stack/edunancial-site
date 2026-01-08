@@ -1,15 +1,14 @@
-import './globals.css';
-import GlobalLayout from '@/components/GlobalLayout';
+// app/layout.tsx
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import type { ReactNode } from "react";
+import RegionNav from "@/components/RegionNav";
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <GlobalLayout>{children}</GlobalLayout>
+        <RegionNav />
+        {children}
       </body>
     </html>
   );
