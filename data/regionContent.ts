@@ -1,44 +1,22 @@
-// data/regionContent.ts
-
-export interface RegionContent {
-  headline: string;
-  body: string;
-}
-
-export const REGION_CONTENT: Record<string, RegionContent> = {
+export const REGION_CONTENT = {
   us: {
-    headline: "Build, Scale, and Protect a Business in the United States",
-    body:
-      "This section focuses on U.S. entrepreneurship, capital formation, legal structure, and scalable systems.",
-  },
+    heroTitle: "Understand Systems. Navigate Reality.",
+    heroSubtitle:
+      "Structured financial and business information designed for real-world decision-making in the United States.",
 
-  mena: {
-    headline: "Entrepreneurship Across MENA Systems",
-    body:
-      "Content here will address regulatory constraints, fintech access, and regional business norms.",
-  },
+    overview: [
+      "Edunancial provides structured information that helps individuals understand how financial, business, and institutional systems operate.",
+      "Content is organized for clarity, comparison, and practical insight — not instruction, advice, or certification.",
+    ],
 
-  europe: {
-    headline: "Building Businesses Inside European Frameworks",
-    body:
-      "European markets reward precision, compliance, and long-term planning.",
-  },
+    focusAreas: [
+      "Business structure and ownership models",
+      "Personal and commercial financial systems",
+      "Risk identification and mitigation concepts",
+      "Regulatory awareness and structural planning",
+    ],
 
-  asia_pacific: {
-    headline: "Asia-Pacific Advanced Markets",
-    body:
-      "Japan, Korea, and Australia require disciplined execution and institutional awareness.",
-  },
-
-  asia_emerging: {
-    headline: "Emerging Asian Economies",
-    body:
-      "High-growth markets with unique payment, compliance, and infrastructure challenges.",
-  },
-
-  caribbean: {
-    headline: "Caribbean Entrepreneurship",
-    body:
-      "Cross-border finance, multilingual markets, and regional opportunity.",
+    disclaimer:
+      "Edunancial does not provide legal, financial, or investment advice. Information is presented for general understanding and independent analysis only.",
   },
 };
