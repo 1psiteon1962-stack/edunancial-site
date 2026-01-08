@@ -1,6 +1,4 @@
-import { RegionMeta } from "@/types/region";
-
-export const US_REGION_META: RegionMeta = {
+export const US_REGION_META = {
   code: "us",
   name: "United States",
   status: "active",
@@ -8,4 +6,4 @@ export const US_REGION_META: RegionMeta = {
   currency: "USD",
   regulatoryEnvironment: "complex",
   maturityLevel: "advanced",
-};
+} as const;
