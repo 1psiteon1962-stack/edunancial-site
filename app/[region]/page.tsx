@@ -1,3 +1,5 @@
+// app/[region]/page.tsx
+
 import { notFound } from "next/navigation";
 import { REGIONS } from "@/data/regions";
 import { REGION_CONTENT } from "@/data/regionContent";
@@ -9,29 +11,32 @@ interface PageProps {
 }
 
 export default function RegionPage({ params }: PageProps) {
-  const regionSlug = params.region;
+  const regionKey = params.region;
 
-  // REGIONS is an object map → use entries to match slug
-  const regionEntry = Object.entries(REGIONS).find(
-    ([slug]) => slug === regionSlug
-  );
+  // Direct object lookup (safe, typed, no array misuse)
+  const regionMeta = REGIONS[regionKey];
+  const content = REGION_CONTENT[regionKey];
 
-  if (!regionEntry) {
-    notFound();
-  }
-
-  const [, regionConfig] = regionEntry;
-
-  const content = REGION_CONTENT[regionSlug];
-
-  if (!content) {
+  if (!regionMeta || !content || !regionMeta.enabled) {
     notFound();
   }
 
   return (
-    <main>
-      <h1>{regionConfig.name}</h1>
-      <p>{content.description}</p>
+    <main style={{ padding: "2rem", maxWidth: "800px" }}>
+      <h1>{regionMeta.name}</h1>
+      <p style={{ opacity: 0.8 }}>{regionMeta.description}</p>
+
+      <hr style={{ margin: "2rem 0" }} />
+
+      <h2>{content.headline}</h2>
+      <p>{content.body}</p>
+
+      <hr style={{ margin: "2rem 0" }} />
+
+      <p>
+        <strong>Supported languages:</strong>{" "}
+        {regionMeta.languages.join(", ")}
+      </p>
     </main>
   );
 }
