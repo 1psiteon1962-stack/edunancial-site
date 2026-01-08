@@ -1,25 +1,44 @@
-export const REGION_CONTENT: Record<
-  string,
-  {
-    description: string;
-  }
-> = {
+// data/regionContent.ts
+
+export interface RegionContent {
+  headline: string;
+  body: string;
+}
+
+export const REGION_CONTENT: Record<string, RegionContent> = {
   us: {
-    description: "United States content goes here.",
+    headline: "Build, Scale, and Protect a Business in the United States",
+    body:
+      "This section focuses on U.S. entrepreneurship, capital formation, legal structure, and scalable systems.",
   },
-  europe: {
-    description: "Europe content goes here.",
-  },
+
   mena: {
-    description: "Middle East & North Africa content goes here.",
+    headline: "Entrepreneurship Across MENA Systems",
+    body:
+      "Content here will address regulatory constraints, fintech access, and regional business norms.",
   },
-  asiaPacific: {
-    description: "Asia Pacific content goes here.",
+
+  europe: {
+    headline: "Building Businesses Inside European Frameworks",
+    body:
+      "European markets reward precision, compliance, and long-term planning.",
   },
-  asiaEmerging: {
-    description: "Asia Emerging Markets content goes here.",
+
+  asia_pacific: {
+    headline: "Asia-Pacific Advanced Markets",
+    body:
+      "Japan, Korea, and Australia require disciplined execution and institutional awareness.",
   },
+
+  asia_emerging: {
+    headline: "Emerging Asian Economies",
+    body:
+      "High-growth markets with unique payment, compliance, and infrastructure challenges.",
+  },
+
   caribbean: {
-    description: "Caribbean content goes here.",
+    headline: "Caribbean Entrepreneurship",
+    body:
+      "Cross-border finance, multilingual markets, and regional opportunity.",
   },
 };
