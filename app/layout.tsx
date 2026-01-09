@@ -1,12 +1,6 @@
 // app/layout.tsx
-import "./globals.css";
-import type { ReactNode } from "react";
 
-export const metadata = {
-  title: "Edunancial",
-  description:
-    "Education focused on readiness, structure, and long-term business durability.",
-};
+import { ReactNode } from "react";
 
 export default function RootLayout({
   children,
@@ -15,7 +9,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        style={{
+          margin: 0,
+          fontFamily:
+            "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen",
+          background: "#ffffff",
+          color: "#111111",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
