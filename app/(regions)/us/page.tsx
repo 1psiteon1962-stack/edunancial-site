@@ -1,39 +1,30 @@
+import Link from "next/link";
+
 export default function USHome() {
   return (
-    <main className="min-h-screen p-10">
-      <h1 className="text-4xl font-bold mb-4">Edunancial — United States</h1>
-      <p className="mb-6 text-lg">
-        This platform adapts to where you are in your business journey — not the other way around.
+    <main style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
+      <h1>Edunancial — United States</h1>
+      <p>
+        A global financial readiness and business-building platform designed to
+        move founders from survival to scale.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <h2>Choose your track</h2>
 
-        <a href="/us/l1" className="border p-6 rounded-xl hover:bg-gray-100">
-          <h2 className="text-2xl font-bold">I am just starting</h2>
-          <p>I need clarity, income, and direction.</p>
-        </a>
+      <ul>
+        <li><Link href="/us/l1">Level 1 — Financial Survival</Link></li>
+        <li><Link href="/us/l2">Level 2 — Stability & Cashflow</Link></li>
+        <li><Link href="/us/l3">Level 3 — Business Ownership</Link></li>
+        <li><Link href="/us/l4">Level 4 — Scaling & Capital</Link></li>
+        <li><Link href="/us/l5">Level 5 — Investment & Governance</Link></li>
+      </ul>
 
-        <a href="/us/l2" className="border p-6 rounded-xl hover:bg-gray-100">
-          <h2 className="text-2xl font-bold">I am self-employed</h2>
-          <p>I need systems, tax strategy, and stability.</p>
-        </a>
-
-        <a href="/us/l3" className="border p-6 rounded-xl hover:bg-gray-100">
-          <h2 className="text-2xl font-bold">I own a business</h2>
-          <p>I need protection, growth, and financing.</p>
-        </a>
-
-        <a href="/us/l4" className="border p-6 rounded-xl hover:bg-gray-100">
-          <h2 className="text-2xl font-bold">I am scaling</h2>
-          <p>I need teams, automation, and capital.</p>
-        </a>
-
-        <a href="/us/l5" className="border p-6 rounded-xl hover:bg-gray-100 col-span-full">
-          <h2 className="text-2xl font-bold">I build wealth systems</h2>
-          <p>I operate holdings, capital stacks, and exits.</p>
-        </a>
-
-      </div>
+      <h2>Tools</h2>
+      <ul>
+        <li><Link href="/apps/edumath">EduMath</Link></li>
+        <li><Link href="/apps/edunancial-levels">Levels Engine</Link></li>
+        <li><Link href="/apps/eduvesting">EduVesting</Link></li>
+      </ul>
     </main>
-  )
+  );
 }
