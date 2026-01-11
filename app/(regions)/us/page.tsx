@@ -1,30 +1,38 @@
-import Link from "next/link";
+// app/(regions)/us/page.tsx
 
-export default function USHome() {
+export default function USPage() {
   return (
-    <main style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
-      <h1>Edunancial — United States</h1>
+    <div>
+      <h1>United States — Founder Routing Hub</h1>
+
       <p>
-        A global financial readiness and business-building platform designed to
-        move founders from survival to scale.
+        The United States is the core financial and legal backbone of global
+        entrepreneurship. Most serious capital, IP protection, and payment rails
+        terminate here.
       </p>
 
-      <h2>Choose your track</h2>
+      <h2>What Edunancial Does</h2>
+      <p>
+        We do not sell courses. We map founders into systems where they can survive,
+        scale, and attract capital.
+      </p>
 
       <ul>
-        <li><Link href="/us/l1">Level 1 — Financial Survival</Link></li>
-        <li><Link href="/us/l2">Level 2 — Stability & Cashflow</Link></li>
-        <li><Link href="/us/l3">Level 3 — Business Ownership</Link></li>
-        <li><Link href="/us/l4">Level 4 — Scaling & Capital</Link></li>
-        <li><Link href="/us/l5">Level 5 — Investment & Governance</Link></li>
+        <li>We detect regulatory and banking friction</li>
+        <li>We detect tax and IP traps</li>
+        <li>We detect court and enforcement risk</li>
+        <li>We route founders into jurisdictions that work</li>
       </ul>
 
-      <h2>Tools</h2>
-      <ul>
-        <li><Link href="/apps/edumath">EduMath</Link></li>
-        <li><Link href="/apps/edunancial-levels">Levels Engine</Link></li>
-        <li><Link href="/apps/eduvesting">EduVesting</Link></li>
-      </ul>
-    </main>
+      <h2>Why the US Matters</h2>
+      <p>
+        Delaware, Wyoming, and US banking rails allow founders from Africa, Europe,
+        Asia, and Latin America to plug into global capital markets.
+      </p>
+
+      <p>
+        Edunancial exists to make that navigation systematic instead of accidental.
+      </p>
+    </div>
   );
 }
