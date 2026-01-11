@@ -1,38 +1,29 @@
-// app/(regions)/us/page.tsx
+import Link from "next/link";
 
-export default function USPage() {
+export default function USRegion() {
   return (
-    <div>
-      <h1>United States — Founder Routing Hub</h1>
+    <main style={{ padding: "40px", fontFamily: "system-ui" }}>
+      <h1>Edunancial US Platform</h1>
 
       <p>
-        The United States is the core financial and legal backbone of global
-        entrepreneurship. Most serious capital, IP protection, and payment rails
-        terminate here.
+        This is the global routing engine for founders entering the US system.
       </p>
 
-      <h2>What Edunancial Does</h2>
-      <p>
-        We do not sell courses. We map founders into systems where they can survive,
-        scale, and attract capital.
-      </p>
-
+      <h2>What we do</h2>
       <ul>
-        <li>We detect regulatory and banking friction</li>
-        <li>We detect tax and IP traps</li>
-        <li>We detect court and enforcement risk</li>
-        <li>We route founders into jurisdictions that work</li>
+        <li>Business formation</li>
+        <li>Banking-ready structures</li>
+        <li>Investor-ready entities</li>
+        <li>Cross-border routing</li>
       </ul>
 
-      <h2>Why the US Matters</h2>
-      <p>
-        Delaware, Wyoming, and US banking rails allow founders from Africa, Europe,
-        Asia, and Latin America to plug into global capital markets.
-      </p>
-
-      <p>
-        Edunancial exists to make that navigation systematic instead of accidental.
-      </p>
-    </div>
+      <h2>Start</h2>
+      <ul>
+        <li><Link href="/us/start">Start your company</Link></li>
+        <li><Link href="/us/how-it-works">How it works</Link></li>
+        <li><Link href="/us/courses">Courses</Link></li>
+        <li><Link href="/us/regions">Global expansion</Link></li>
+      </ul>
+    </main>
   );
 }
