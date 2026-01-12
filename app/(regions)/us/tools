@@ -1,0 +1,18 @@
+export default function Tools() {
+  return (
+    <main style={{ padding: "40px" }}>
+      <h1>Edunancial US Tools</h1>
+
+      <ul>
+        <li>EduVesting — Investment Analysis Engine</li>
+        <li>EduMath — Financial Literacy Engine</li>
+        <li>Readiness Score — Investor grading</li>
+        <li>Global Expansion Router</li>
+      </ul>
+
+      <p>
+        These tools activate as you advance through founder levels.
+      </p>
+    </main>
+  );
+}
