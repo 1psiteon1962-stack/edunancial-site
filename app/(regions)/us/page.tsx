@@ -1,41 +1,27 @@
 export default function USHome() {
   return (
-    <main className="p-10 max-w-5xl mx-auto">
-      <h1 className="text-4xl font-bold">Edunancial United States</h1>
+    <main style={{ padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
+      <h1>Edunancial United States</h1>
+      <p>The U.S. Founder Platform for Education, Capital, and Global Expansion.</p>
 
-      <p className="mt-4 text-gray-600">
-        The U.S. Founder Platform for Education, Capital, and Global Expansion.
-      </p>
+      <h2>Founder Levels</h2>
+      <ul>
+        <li><a href="/us/l1">Level 1 — Survival Entrepreneur</a></li>
+        <li><a href="/us/l2">Level 2 — Stable Operator</a></li>
+        <li><a href="/us/l3">Level 3 — Growth Builder</a></li>
+        <li><a href="/us/l4">Level 4 — Scalable Enterprise</a></li>
+        <li><a href="/us/l5">Level 5 — Capital Architect</a></li>
+      </ul>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold">Founder Levels</h2>
-        <ul className="mt-4 space-y-2">
-          <li>Level 1 — Survival Entrepreneur</li>
-          <li>Level 2 — Stable Operator</li>
-          <li>Level 3 — Growth Builder</li>
-          <li>Level 4 — Scalable Enterprise</li>
-          <li>Level 5 — Capital Architect</li>
-        </ul>
-      </section>
+      <h2>Platform Tools</h2>
+      <ul>
+        <li>EduVesting — Investment analysis</li>
+        <li>EduMath — Financial literacy</li>
+        <li>Founder Readiness Score</li>
+        <li>Global Expansion Routing</li>
+      </ul>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold">Platform Tools</h2>
-        <ul className="mt-4 space-y-2">
-          <li>EduVesting — Investment analysis</li>
-          <li>EduMath — Financial literacy</li>
-          <li>Founder Readiness Score</li>
-          <li>Global Expansion Routing</li>
-        </ul>
-      </section>
-
-      <section className="mt-10">
-        <a
-          href="/start"
-          className="inline-block bg-black text-white px-6 py-3 rounded-lg"
-        >
-          Start Your Company
-        </a>
-      </section>
+      <p><a href="/start">Start Your Company</a></p>
     </main>
-  )
+  );
 }
