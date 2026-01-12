@@ -1,27 +1,26 @@
+import { US_CONTENT } from "@/data/regions/us.content";
+
 export default function USHome() {
   return (
-    <main style={{ padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
-      <h1>Edunancial United States</h1>
-      <p>The U.S. Founder Platform for Education, Capital, and Global Expansion.</p>
+    <div className="max-w-7xl mx-auto px-6 py-12">
+      <h1 className="text-4xl font-bold">Edunancial – United States</h1>
+      <p className="text-lg mt-4">
+        Built for the U.S. financial, legal, and business system.
+      </p>
 
-      <h2>Founder Levels</h2>
-      <ul>
-        <li><a href="/us/l1">Level 1 — Survival Entrepreneur</a></li>
-        <li><a href="/us/l2">Level 2 — Stable Operator</a></li>
-        <li><a href="/us/l3">Level 3 — Growth Builder</a></li>
-        <li><a href="/us/l4">Level 4 — Scalable Enterprise</a></li>
-        <li><a href="/us/l5">Level 5 — Capital Architect</a></li>
-      </ul>
-
-      <h2>Platform Tools</h2>
-      <ul>
-        <li>EduVesting — Investment analysis</li>
-        <li>EduMath — Financial literacy</li>
-        <li>Founder Readiness Score</li>
-        <li>Global Expansion Routing</li>
-      </ul>
-
-      <p><a href="/start">Start Your Company</a></p>
-    </main>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        {US_CONTENT.levels.map((level) => (
+          <div key={level.id} className="border rounded-xl p-6 shadow">
+            <h2 className="text-2xl font-semibold">{level.id} – {level.name}</h2>
+            <p className="mt-2">{level.description}</p>
+            <ul className="mt-4 list-disc pl-6">
+              {level.modules.map((m) => (
+                <li key={m}>{m}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
