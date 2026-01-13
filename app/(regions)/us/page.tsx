@@ -1,26 +1,67 @@
-import { US_CONTENT } from "@/data/regions/us.content";
+import Link from "next/link";
+import { US_LEVELS } from "../../../data/us/levels";
 
-export default function USHome() {
+export default function USHomePage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold">Edunancial – United States</h1>
-      <p className="text-lg mt-4">
-        Built for the U.S. financial, legal, and business system.
+    <main>
+      <h1 style={{ fontSize: 34, marginBottom: 6 }}>United States</h1>
+      <p style={{ marginTop: 0, opacity: 0.85 }}>
+        Structured founder development from Level 1 through Level 5 — built for brand-new founders and
+        scalable to capital-ready operators.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-        {US_CONTENT.levels.map((level) => (
-          <div key={level.id} className="border rounded-xl p-6 shadow">
-            <h2 className="text-2xl font-semibold">{level.id} – {level.name}</h2>
-            <p className="mt-2">{level.description}</p>
-            <ul className="mt-4 list-disc pl-6">
-              {level.modules.map((m) => (
-                <li key={m}>{m}</li>
-              ))}
-            </ul>
+      <div style={{ display: "grid", gap: 12, marginTop: 18 }}>
+        {US_LEVELS.map((lvl) => (
+          <div key={lvl.code} style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14 }}>
+            <div style={{ fontWeight: 800, fontSize: 18 }}>{lvl.title}</div>
+            <div style={{ opacity: 0.85, marginTop: 4 }}>{lvl.tagline}</div>
+            <div style={{ marginTop: 10 }}>
+              <Link
+                href={`/us/${lvl.code.toLowerCase().replace("l", "level-")}`}
+                style={{
+                  display: "inline-block",
+                  padding: "10px 14px",
+                  borderRadius: 10,
+                  border: "1px solid #111",
+                  textDecoration: "none",
+                  fontWeight: 800,
+                }}
+              >
+                Open {lvl.code}
+              </Link>
+            </div>
           </div>
         ))}
       </div>
-    </div>
+
+      <div style={{ marginTop: 18, display: "flex", gap: 10, flexWrap: "wrap" }}>
+        <a
+          href="/us/apps"
+          style={{
+            display: "inline-block",
+            padding: "10px 14px",
+            borderRadius: 10,
+            border: "1px solid #111",
+            textDecoration: "none",
+            fontWeight: 800,
+          }}
+        >
+          Go to Apps
+        </a>
+        <a
+          href="/us/pay"
+          style={{
+            display: "inline-block",
+            padding: "10px 14px",
+            borderRadius: 10,
+            border: "1px solid #111",
+            textDecoration: "none",
+            fontWeight: 800,
+          }}
+        >
+          Go to Pay
+        </a>
+      </div>
+    </main>
   );
 }
