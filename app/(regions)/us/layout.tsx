@@ -1,16 +1,11 @@
-export default function USLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <div>
-      <nav style={{ padding: "20px", borderBottom: "1px solid #ddd" }}>
-        <a href="/us">US Home</a> |{" "}
-        <a href="/us/l1">L1</a> |{" "}
-        <a href="/us/l2">L2</a> |{" "}
-        <a href="/us/l3">L3</a> |{" "}
-        <a href="/us/l4">L4</a> |{" "}
-        <a href="/us/l5">L5</a>
-      </nav>
+import type { ReactNode } from "react";
+import USNav from "./components/USNav";
 
-      <div>{children}</div>
-    </div>
+export default function USLayout({ children }: { children: ReactNode }) {
+  return (
+    <section style={{ maxWidth: 980, margin: "0 auto", padding: "18px 14px" }}>
+      <USNav />
+      {children}
+    </section>
   );
 }
