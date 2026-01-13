@@ -1,13 +1,13 @@
-import MetricsDashboard from "../components/MetricsDashboard";
-
 export default function MetricsPage() {
   return (
-    <main style={{ maxWidth: 980, margin: "0 auto", padding: "18px 14px" }}>
-      <h1 style={{ fontSize: 30, marginBottom: 6 }}>Metrics</h1>
-      <p style={{ marginTop: 0, opacity: 0.85 }}>
-        KPI proof layer: conversions, revenue modeling, churn tracking.
-      </p>
-      <MetricsDashboard />
+    <main className="p-8">
+      <h1 className="text-2xl font-bold">Platform Metrics</h1>
+      <ul className="mt-4 space-y-2">
+        <li>Active Users: 0</li>
+        <li>Monthly Revenue: $0</li>
+        <li>Churn: 0%</li>
+        <li>Paying Customers: 0</li>
+      </ul>
     </main>
   );
 }
