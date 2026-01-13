@@ -1,20 +1,14 @@
-import { US_KPI } from "@/data/kpi/us.kpi";
+import MetricsDashboard from "../components/MetricsDashboard";
 
 export default function MetricsPage() {
   return (
-    <main className="max-w-6xl mx-auto px-8 py-12">
-      <h1 className="text-4xl font-bold">Founder & Platform Metrics</h1>
-
-      <p className="mt-4 text-lg">
-        These KPIs are what investors and capital partners use to evaluate whether 
-        a business is real, scalable, and fundable.
+    <main style={{ maxWidth: 980, margin: "0 auto", padding: "18px 14px" }}>
+      <h1 style={{ fontSize: 30, marginBottom: 6 }}>Metrics</h1>
+      <p style={{ marginTop: 0, opacity: 0.85 }}>
+        KPI proof layer: conversions, revenue modeling, churn tracking. (Wiring to real analytics comes later.)
       </p>
-
-      <ul className="mt-8 list-disc pl-6 text-lg">
-        {US_KPI.track.map(metric => (
-          <li key={metric}>{metric}</li>
-        ))}
-      </ul>
+      <MetricsDashboard />
     </main>
   );
 }
+```0
