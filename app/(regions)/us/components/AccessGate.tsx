@@ -1,42 +1,19 @@
-"use client";
+import { PLAN_LABELS, getPlanByLevel } from "@/app/types/plan";
 
-import type { ReactNode } from "react";
-import { canAccess, getActivePlan } from "../../../../lib/access";
-import type { PlanTier } from "../../../../types/plan";
-import { PLAN_LABELS } from "../../../../types/plan";
+export default function AccessGate({ level }: { level: number }) {
+  const plan = getPlanByLevel(level);
 
-export default function AccessGate({
-  required,
-  children,
-}: {
-  required: PlanTier;
-  children: ReactNode;
-}) {
-  const active = getActivePlan();
-  const ok = canAccess(required, active);
-
-  if (ok) return <>{children}</>;
+  if (!plan) {
+    return <div>Invalid access level</div>;
+  }
 
   return (
-    <div style={{ border: "1px solid #ddd", borderRadius: 12, padding: 16 }}>
-      <div style={{ fontWeight: 700, marginBottom: 8 }}>Locked</div>
-      <div style={{ marginBottom: 12 }}>
-        This section requires <b>{PLAN_LABELS[required]}</b>. Your current access is{" "}
-        <b>{PLAN_LABELS[active]}</b>.
-      </div>
-      <a
-        href="/us/pay"
-        style={{
-          display: "inline-block",
-          padding: "10px 14px",
-          borderRadius: 10,
-          border: "1px solid #111",
-          textDecoration: "none",
-          fontWeight: 700,
-        }}
-      >
-        Upgrade Access
-      </a>
+    <div className="border p-4 rounded bg-gray-100">
+      <h2 className="font-bold">Locked Content</h2>
+      <p>
+        You are viewing content for <strong>{PLAN_LABELS[level]}</strong>.
+      </p>
+      <p>Upgrade to unlock: {plan.name}</p>
     </div>
   );
 }
