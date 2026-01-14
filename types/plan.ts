@@ -2,7 +2,7 @@ export const PLANS = {
   free: {
     label: "Free",
     price: 0,
-    description: "Public access and basic previews"
+    description: "Public access and previews"
   },
 
   starter: {
@@ -20,24 +20,29 @@ export const PLANS = {
   pro: {
     label: "Pro",
     price: 199,
-    description: "Advanced structuring, global scaling, and investor prep"
+    description: "Advanced structuring and scaling"
   },
 
   founder: {
     label: "Founder",
     price: 499,
-    description: "Private founder access, deal flow, and legal-grade readiness"
+    description: "Private founder systems and deal access"
+  },
+
+  elite: {
+    label: "Elite",
+    price: 1499,
+    description: "Investor-grade, incubator-connected, legal-ready founders"
   }
 } as const
 
-// THIS is what Netlify has been missing
 export type PlanCode = keyof typeof PLANS
 
-// Optional helpers (safe to keep)
 export const PLAN_LABELS: Record<PlanCode, string> = {
   free: "Free",
   starter: "Starter",
   builder: "Builder",
   pro: "Pro",
-  founder: "Founder"
+  founder: "Founder",
+  elite: "Elite"
 }
