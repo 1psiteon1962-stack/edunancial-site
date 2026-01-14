@@ -42,3 +42,25 @@ export const PLANS = {
     ]
   }
 } as const;
+
+/**
+ * Canonical plan code used everywhere
+ */
+export type PlanCode = keyof typeof PLANS;
+
+/**
+ * Full plan object type
+ */
+export type Plan = (typeof PLANS)[PlanCode];
+
+/**
+ * Human readable labels (used by UI)
+ */
+export const PLAN_LABELS: Record<PlanCode, string> = {
+  free: "Free",
+  starter: "Starter",
+  builder: "Builder",
+  pro: "Pro",
+  founder: "Founder",
+  elite: "Elite"
+};
