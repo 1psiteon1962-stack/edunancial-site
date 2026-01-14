@@ -1,5 +1,3 @@
-// types/plan.ts
-
 export const PLANS = {
   free: {
     label: "Free",
