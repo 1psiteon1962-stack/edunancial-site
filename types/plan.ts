@@ -1,48 +1,57 @@
+// types/plan.ts
+
 export const PLANS = {
   free: {
     label: "Free",
     price: 0,
-    description: "Public access and previews"
+    stripe: "",
+    paypal: "",
+    features: ["Browse public content"]
   },
 
   starter: {
     label: "Starter",
-    price: 29,
-    description: "Beginner entrepreneur curriculum"
+    price: 9,
+    stripe: "",
+    paypal: "",
+    features: ["Starter tools", "Community access"]
   },
 
   builder: {
     label: "Builder",
-    price: 79,
-    description: "Operating systems, compliance, and funding readiness"
+    price: 29,
+    stripe: "",
+    paypal: "",
+    features: ["All Starter", "Apps", "Training"]
   },
 
   pro: {
     label: "Pro",
-    price: 199,
-    description: "Advanced structuring and scaling"
+    price: 79,
+    stripe: "",
+    paypal: "",
+    features: ["All Builder", "Investor tools", "Advanced dashboards"]
   },
 
   founder: {
     label: "Founder",
-    price: 499,
-    description: "Private founder systems and deal access"
+    price: 199,
+    stripe: "",
+    paypal: "",
+    features: ["All Pro", "Private funding rooms", "Deal access"]
   },
 
   elite: {
     label: "Elite",
-    price: 1499,
-    description: "Investor-grade, incubator-connected, legal-ready founders"
+    price: 499,
+    stripe: "",
+    paypal: "",
+    features: ["All Founder", "Private syndicates", "Direct legal & capital"]
   }
-} as const
+} as const;
 
-export type PlanCode = keyof typeof PLANS
+export type PlanCode = keyof typeof PLANS;
 
-export const PLAN_LABELS: Record<PlanCode, string> = {
-  free: "Free",
-  starter: "Starter",
-  builder: "Builder",
-  pro: "Pro",
-  founder: "Founder",
-  elite: "Elite"
-}
+export const PLAN_LABELS: Record<PlanCode, string> = Object.fromEntries(
+  Object.entries(PLANS).map(([k, v]) => [k, v.label])
+) as Record<PlanCode, string>;
