@@ -49,7 +49,6 @@ export const PLANS = {
 } as const;
 
 export type PlanCode = keyof typeof PLANS;
-
 export type Plan = (typeof PLANS)[PlanCode];
 
 export const PLAN_LABELS: Record<PlanCode, string> = {
