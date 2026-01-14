@@ -2,65 +2,42 @@ export const PLANS = {
   free: {
     label: "Free",
     price: 0,
-    level: 1,
-    features: ["Public content", "Level 1 training"]
+    description: "Public access and basic previews"
   },
+
   starter: {
     label: "Starter",
-    price: 4.99,
-    level: 2,
-    features: ["Level 2 training", "Basic tools", "Community access"]
+    price: 29,
+    description: "Beginner entrepreneur curriculum"
   },
+
   builder: {
     label: "Builder",
-    price: 9.99,
-    level: 3,
-    features: ["Level 3 training", "Business tools", "KPI tracking"]
+    price: 79,
+    description: "Operating systems, compliance, and funding readiness"
   },
+
   pro: {
     label: "Pro",
-    price: 49,
-    level: 4,
-    features: ["Level 4 systems", "Entity planning", "Capital prep"]
+    price: 199,
+    description: "Advanced structuring, global scaling, and investor prep"
   },
+
   founder: {
     label: "Founder",
-    price: 199,
-    level: 5,
-    features: ["Level 5 strategy", "Global structuring", "Investor readiness"]
-  },
-  elite: {
-    label: "Elite",
-    price: 999,
-    level: 6,
-    features: [
-      "Institutional structuring",
-      "Cross-border entity design",
-      "Capital stack modeling",
-      "Private incubator access",
-      "UDL legal routing"
-    ]
+    price: 499,
+    description: "Private founder access, deal flow, and legal-grade readiness"
   }
-} as const;
+} as const
 
-/**
- * Canonical plan code used everywhere
- */
-export type PlanCode = keyof typeof PLANS;
+// THIS is what Netlify has been missing
+export type PlanCode = keyof typeof PLANS
 
-/**
- * Full plan object type
- */
-export type Plan = (typeof PLANS)[PlanCode];
-
-/**
- * Human readable labels (used by UI)
- */
+// Optional helpers (safe to keep)
 export const PLAN_LABELS: Record<PlanCode, string> = {
   free: "Free",
   starter: "Starter",
   builder: "Builder",
   pro: "Pro",
-  founder: "Founder",
-  elite: "Elite"
-};
+  founder: "Founder"
+}
