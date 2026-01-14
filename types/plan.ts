@@ -34,27 +34,31 @@ export const PLANS = {
     price: 199,
     level: 5,
     features: ["Level 5 strategy", "Global structuring", "Investor readiness"]
+  },
+
+  elite: {
+    label: "Elite",
+    price: 999,
+    level: 6,
+    features: [
+      "Institutional structuring",
+      "Cross-border entity design",
+      "Capital stack modeling",
+      "Private incubator access",
+      "Investor & UDL legal routing"
+    ]
   }
 } as const;
 
-/**
- * Valid plan codes derived directly from PLANS
- * Example: "free" | "starter" | "builder" | "pro" | "founder"
- */
 export type PlanCode = keyof typeof PLANS;
 
-/**
- * Plan shape
- */
 export type Plan = (typeof PLANS)[PlanCode];
 
-/**
- * Used by UI and AccessGate
- */
 export const PLAN_LABELS: Record<PlanCode, string> = {
   free: "Free",
   starter: "Starter",
   builder: "Builder",
   pro: "Pro",
-  founder: "Founder"
+  founder: "Founder",
+  elite: "Elite"
 };
