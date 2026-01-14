@@ -1,47 +1,27 @@
-import { ReactNode } from "react";
-import { PLANS, PlanCode } from "../../../../types/plan";
+import { ReactNode } from "react"
+import { PLANS, PlanCode } from "../../../../types/plan"
 
 type AccessGateProps = {
-  required: PlanCode;
-  children: ReactNode;
-  userPlan?: PlanCode;
-};
+  required: PlanCode
+  children: ReactNode
+}
 
-export default function AccessGate({ required, children, userPlan = "free" }: AccessGateProps) {
-  const order = Object.keys(PLANS) as PlanCode[];
-  const userLevel = order.indexOf(userPlan);
-  const requiredLevel = order.indexOf(required);
+export default function AccessGate({ required, children }: AccessGateProps) {
+  // TEMPORARY until auth is wired:
+  const userPlan: PlanCode = "elite"   // simulate a fully unlocked founder for now
 
-  if (userLevel >= requiredLevel) return <>{children}</>;
+  const allowed = Object.keys(PLANS).indexOf(userPlan) >= Object.keys(PLANS).indexOf(required)
 
-  return (
-    <div
-      style={{
-        border: "2px solid #111",
-        padding: 24,
-        borderRadius: 12,
-        background: "#fafafa",
-      }}
-    >
-      <h2 style={{ marginTop: 0 }}>Upgrade Required</h2>
-      <p style={{ marginBottom: 0 }}>
-        This section requires the <strong>{PLANS[required].label}</strong> plan.
-      </p>
+  if (!allowed) {
+    return (
+      <div style={{ padding: 24, border: "2px solid #cc0000", borderRadius: 12 }}>
+        <h3>Upgrade Required</h3>
+        <p>
+          This section requires the <b>{PLANS[required].label}</b> plan.
+        </p>
+      </div>
+    )
+  }
 
-      <a
-        href="/us/pay"
-        style={{
-          display: "inline-block",
-          marginTop: 16,
-          padding: "10px 18px",
-          background: "#111",
-          color: "white",
-          borderRadius: 8,
-          textDecoration: "none",
-        }}
-      >
-        Upgrade Now
-      </a>
-    </div>
-  );
+  return <>{children}</>
 }
