@@ -1,19 +1,47 @@
-import { PLAN_LABELS, getPlanByLevel } from "@/app/types/plan";
+import { ReactNode } from "react";
+import { PLANS, PlanCode } from "../../../../types/plan";
 
-export default function AccessGate({ level }: { level: number }) {
-  const plan = getPlanByLevel(level);
+type AccessGateProps = {
+  required: PlanCode;
+  children: ReactNode;
+  userPlan?: PlanCode;
+};
 
-  if (!plan) {
-    return <div>Invalid access level</div>;
-  }
+export default function AccessGate({ required, children, userPlan = "free" }: AccessGateProps) {
+  const order = Object.keys(PLANS) as PlanCode[];
+  const userLevel = order.indexOf(userPlan);
+  const requiredLevel = order.indexOf(required);
+
+  if (userLevel >= requiredLevel) return <>{children}</>;
 
   return (
-    <div className="border p-4 rounded bg-gray-100">
-      <h2 className="font-bold">Locked Content</h2>
-      <p>
-        You are viewing content for <strong>{PLAN_LABELS[level]}</strong>.
+    <div
+      style={{
+        border: "2px solid #111",
+        padding: 24,
+        borderRadius: 12,
+        background: "#fafafa",
+      }}
+    >
+      <h2 style={{ marginTop: 0 }}>Upgrade Required</h2>
+      <p style={{ marginBottom: 0 }}>
+        This section requires the <strong>{PLANS[required].label}</strong> plan.
       </p>
-      <p>Upgrade to unlock: {plan.name}</p>
+
+      <a
+        href="/us/pay"
+        style={{
+          display: "inline-block",
+          marginTop: 16,
+          padding: "10px 18px",
+          background: "#111",
+          color: "white",
+          borderRadius: 8,
+          textDecoration: "none",
+        }}
+      >
+        Upgrade Now
+      </a>
     </div>
   );
 }
