@@ -1,96 +1,47 @@
-export type BillingInterval = "month" | "year" | "one-time";
+export type PlanCode = "free" | "starter" | "pro" | "elite";
 
-export interface Plan {
-  id: string;
-  name: string;
+export type Plan = {
+  code: PlanCode;
+  label: string;
   price: number;
-  interval: BillingInterval;
   description: string;
-  stripePriceId?: string;
-  paypalPlanId?: string;
-  squarePlanId?: string;
   features: string[];
-  accessLevel: number;
-}
+};
 
-export const PLANS: Plan[] = [
-  {
-    id: "us-level-1",
-    name: "Level 1 – Survival Entrepreneur",
+export const PLANS: Record<PlanCode, Plan> = {
+  free: {
+    code: "free",
+    label: "Free",
     price: 0,
-    interval: "one-time",
-    description: "Free onboarding and survival-level founder tools.",
-    features: [
-      "Founder readiness baseline",
-      "EduMath core",
-      "US regulatory primer",
-      "Cybersecurity fundamentals",
-      "IP basics"
-    ],
-    accessLevel: 1
+    description: "Informal founder, learning mode",
+    features: ["Diagnosis tools", "Visibility framework", "Education access"],
   },
-  {
-    id: "us-level-2",
-    name: "Level 2 – Stable Operator",
-    price: 49,
-    interval: "month",
-    description: "Operator-level financial and legal systems.",
-    features: [
-      "Entity structuring",
-      "Bookkeeping systems",
-      "Payment processing",
-      "Tax compliance",
-      "Security stack"
-    ],
-    accessLevel: 2
+  starter: {
+    code: "starter",
+    label: "Starter",
+    price: 29,
+    description: "Formalizing founder",
+    features: ["Business structure tools", "Credit readiness", "Basic legal templates"],
   },
-  {
-    id: "us-level-3",
-    name: "Level 3 – Growth Builder",
-    price: 149,
-    interval: "month",
-    description: "Scaling, hiring, capital readiness.",
-    features: [
-      "Sales systems",
-      "Hiring frameworks",
-      "KPI dashboards",
-      "Banking & credit",
-      "Fundraising readiness"
-    ],
-    accessLevel: 3
+  pro: {
+    code: "pro",
+    label: "Pro",
+    price: 99,
+    description: "Capital-ready business",
+    features: ["Full compliance", "Investor readiness", "Contract systems"],
   },
-  {
-    id: "us-level-4",
-    name: "Level 4 – Scalable Enterprise",
-    price: 499,
-    interval: "month",
-    description: "Institutional-grade operations.",
-    features: [
-      "Governance",
-      "Audit readiness",
-      "Investor reporting",
-      "Cross-border structuring",
-      "Risk management"
-    ],
-    accessLevel: 4
+  elite: {
+    code: "elite",
+    label: "Elite",
+    price: 299,
+    description: "Protected enterprise",
+    features: ["Legal protection", "Funding access", "UDL integration"],
   },
-  {
-    id: "us-level-5",
-    name: "Level 5 – Capital Architect",
-    price: 2500,
-    interval: "month",
-    description: "Capital deployment and global expansion.",
-    features: [
-      "PE structures",
-      "Fund formation",
-      "Global routing",
-      "Deal flow",
-      "Strategic acquisitions"
-    ],
-    accessLevel: 5
-  }
-];
+};
 
-export function getPlanById(id: string): Plan | undefined {
-  return PLANS.find(p => p.id === id);
-}
+export const PLAN_LABELS: Record<PlanCode, string> = {
+  free: "Free",
+  starter: "Starter",
+  pro: "Pro",
+  elite: "Elite",
+};
