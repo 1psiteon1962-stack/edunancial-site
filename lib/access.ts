@@ -1,17 +1,14 @@
-import type { PlanTier, PlanCode } from "@/types/plan";
-import { PLANS } from "@/types/plan";
+import { DEFAULT_PLAN, hasAccess, isPlanCode, PLANS } from "@/types/plan";
+import type { PlanCode } from "@/types/plan";
 
-export const DEFAULT_PLAN: PlanTier = "free";
+export { DEFAULT_PLAN, hasAccess, isPlanCode };
 
-export function canAccess(
-  userPlan: PlanTier,
-  requiredPlan: PlanTier
-): boolean {
-  return PLANS[userPlan].rank >= PLANS[requiredPlan].rank;
+export function normalizePlan(value?: string | null): PlanCode {
+  if (!value) return DEFAULT_PLAN;
+  if (isPlanCode(value)) return value;
+  return DEFAULT_PLAN;
 }
 
-export function normalizePlan(plan?: string | null): PlanCode {
-  if (!plan) return "free";
-  if (plan in PLANS) return plan as PlanCode;
-  return "free";
+export function getPlanLabel(plan: PlanCode): string {
+  return PLANS[plan].label;
 }
