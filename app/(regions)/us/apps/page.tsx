@@ -1,66 +1,85 @@
 import AccessGate from "../components/AccessGate";
 
-const card: React.CSSProperties = {
-  border: "1px solid #e5e5e5",
-  borderRadius: 14,
-  padding: 14,
+const wrap: React.CSSProperties = {
+  maxWidth: 1100,
+  margin: "0 auto",
+  padding: "48px 24px",
 };
 
-export default function USAppsPage() {
+const grid: React.CSSProperties = {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+  gap: 24,
+};
+
+const card: React.CSSProperties = {
+  border: "1px solid rgba(255,255,255,0.12)",
+  borderRadius: 14,
+  padding: 22,
+  background: "rgba(255,255,255,0.03)",
+};
+
+export default function AppsPage() {
   return (
-    <main>
-      <h1 style={{ fontSize: 30, marginBottom: 6 }}>US Apps</h1>
-      <p style={{ marginTop: 0, opacity: 0.85 }}>
-        Founder tools. Some are free. Some are plan-gated. Real payments will be wired later.
+    <div style={wrap}>
+      <h1 style={{ fontSize: 36, fontWeight: 900, marginBottom: 10 }}>Apps & Tools</h1>
+      <p style={{ opacity: 0.85, marginBottom: 28 }}>
+        Tools get unlocked by tier. Upgrade when you’re ready to move faster.
       </p>
 
-      <div style={{ display: "grid", gap: 12, marginTop: 16 }}>
+      <div style={grid}>
         <div style={card}>
-          <div style={{ fontWeight: 800 }}>KPI Quick Tracker</div>
-          <div style={{ opacity: 0.85, marginTop: 6 }}>
-            Track leads → conversions → revenue (basic).
-          </div>
-          <div style={{ marginTop: 10 }}>
-            <a href="/metrics" style={{ fontWeight: 800, textDecoration: "none" }}>Open Metrics</a>
+          <div style={{ fontWeight: 900, fontSize: 18 }}>Free Tools</div>
+          <div style={{ opacity: 0.8, marginTop: 8 }}>
+            Basic calculators and starter materials.
           </div>
         </div>
 
         <AccessGate required="starter">
           <div style={card}>
-            <div style={{ fontWeight: 800 }}>Business Formation Planner (US)</div>
-            <div style={{ opacity: 0.85, marginTop: 6 }}>
-              Choose entity type, basic compliance checklist, next actions.
+            <div style={{ fontWeight: 900, fontSize: 18 }}>Starter Tools</div>
+            <div style={{ opacity: 0.8, marginTop: 8 }}>
+              Templates + guided steps for consistency.
             </div>
-            <div style={{ marginTop: 10, opacity: 0.9 }}>
-              (Tool UI placeholder — next build)
+          </div>
+        </AccessGate>
+
+        <AccessGate required="builder">
+          <div style={card}>
+            <div style={{ fontWeight: 900, fontSize: 18 }}>Builder Tools</div>
+            <div style={{ opacity: 0.8, marginTop: 8 }}>
+              Intermediate toolkits and structured systems.
             </div>
           </div>
         </AccessGate>
 
         <AccessGate required="pro">
           <div style={card}>
-            <div style={{ fontWeight: 800 }}>Cybersecurity Builder</div>
-            <div style={{ opacity: 0.85, marginTop: 6 }}>
-              MFA, backups, firewall posture checklist, vendor access control.
+            <div style={{ fontWeight: 900, fontSize: 18 }}>Pro Tools</div>
+            <div style={{ opacity: 0.8, marginTop: 8 }}>
+              Advanced playbooks for entrepreneurs.
             </div>
-            <div style={{ marginTop: 10, opacity: 0.9 }}>
-              (Tool UI placeholder — next build)
+          </div>
+        </AccessGate>
+
+        <AccessGate required="founder">
+          <div style={card}>
+            <div style={{ fontWeight: 900, fontSize: 18 }}>Founder Tools</div>
+            <div style={{ opacity: 0.8, marginTop: 8 }}>
+              Executive-level structure and scaling frameworks.
             </div>
           </div>
         </AccessGate>
 
         <AccessGate required="elite">
           <div style={card}>
-            <div style={{ fontWeight: 800 }}>Capital Readiness Score</div>
-            <div style={{ opacity: 0.85, marginTop: 6 }}>
-              Diligence readiness, governance, defensibility, metrics pack.
-            </div>
-            <div style={{ marginTop: 10, opacity: 0.9 }}>
-              (Tool UI placeholder — next build)
+            <div style={{ fontWeight: 900, fontSize: 18 }}>Elite Tools</div>
+            <div style={{ opacity: 0.8, marginTop: 8 }}>
+              Highest-tier resources + concierge structure (future-ready).
             </div>
           </div>
         </AccessGate>
       </div>
-    </main>
+    </div>
   );
 }
