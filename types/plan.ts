@@ -1,46 +1,62 @@
 // types/plan.ts
 
+export type Currency = "USD" | "EUR" | "GBP" | "DOP";
+
+export type Plan = {
+  code: string;
+  name: string;
+  price: number;
+  currency: Currency;
+  interval: "month" | "year";
+  description: string;
+  features: string[];
+  stripePriceId?: string;
+};
+
 export const PLANS = {
-  free: {
-    label: "Free",
-    price: 0,
-    features: ["Public access"]
-  },
-
   starter: {
-    label: "Starter",
-    price: 9,
-    features: ["Starter tools", "Community"]
+    code: "starter",
+    name: "Starter",
+    price: 9.99,
+    currency: "USD",
+    interval: "month",
+    description: "Access to basic financial education and tools",
+    features: [
+      "Core lessons",
+      "Community access",
+      "Basic calculators",
+    ],
   },
-
-  builder: {
-    label: "Builder",
-    price: 29,
-    features: ["Apps", "Training"]
-  },
-
   pro: {
-    label: "Pro",
-    price: 79,
-    features: ["Dashboards", "Investing"]
+    code: "pro",
+    name: "Pro",
+    price: 49.99,
+    currency: "USD",
+    interval: "month",
+    description: "Advanced tools for serious builders",
+    features: [
+      "All Starter features",
+      "Advanced analytics",
+      "Premium courses",
+      "Live support",
+    ],
   },
-
-  founder: {
-    label: "Founder",
-    price: 199,
-    features: ["Capital rooms", "Deal flow"]
+  enterprise: {
+    code: "enterprise",
+    name: "Enterprise",
+    price: 199.99,
+    currency: "USD",
+    interval: "month",
+    description: "For firms, advisors, and investor groups",
+    features: [
+      "All Pro features",
+      "Multi-user accounts",
+      "Dedicated support",
+      "Custom reporting",
+    ],
   },
-
-  elite: {
-    label: "Elite",
-    price: 499,
-    features: ["Syndicates", "Direct access"]
-  }
 } as const;
 
-/**
- * This is what your pages import
- */
 export type PlanCode = keyof typeof PLANS;
 
-export type Plan = (typeof PLANS)[PlanCode];
+export type PlanMap = Record<PlanCode, Plan>;
