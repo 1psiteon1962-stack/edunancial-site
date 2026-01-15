@@ -9,7 +9,7 @@
   CI = "true"
 
 [[plugins]]
-  package = "netlify-plugin-opennext"
+  package = "netlify-plugin-open-next"
 
 [[redirects]]
   from = "/_next/*"
