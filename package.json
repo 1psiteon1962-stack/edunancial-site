@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "netlify": "npx open-next build"
+  },
+  "devDependencies": {
+    "netlify-plugin-opennext": "^2.0.0",
+    "open-next": "^3.0.0"
   }
 }
