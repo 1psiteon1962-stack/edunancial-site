@@ -1,8 +1,0 @@
-{
-  "functions": [
-    {
-      "path": "/*",
-      "function": "mirror-router"
-    }
-  ]
-}
