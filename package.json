@@ -6,7 +6,6 @@
     "netlify": "npx open-next build"
   },
   "devDependencies": {
-    "open-next": "^3.0.0",
-    "netlify-plugin-open-next": "^2.0.0"
+    "open-next": "^3.0.0"
   }
 }
