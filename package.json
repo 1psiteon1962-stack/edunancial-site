@@ -1,7 +1,4 @@
 {
-  "name": "edunancial",
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +6,7 @@
     "netlify": "npx open-next build"
   },
   "devDependencies": {
-    "netlify-plugin-opennext": "^2.0.0",
-    "open-next": "^3.0.0"
+    "open-next": "^3.0.0",
+    "netlify-plugin-open-next": "^2.0.0"
   }
 }
