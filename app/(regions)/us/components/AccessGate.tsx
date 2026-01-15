@@ -1,73 +1,76 @@
 "use client";
 
-import React, { ReactNode, useMemo } from "react";
-import {
-  PlanCode,
-  DEFAULT_PLAN,
-  hasAccess,
-  isPlanCode,
-  PLANS,
-} from "../../../../types/plan";
+import { ReactNode, useEffect, useState } from "react";
+import { DEFAULT_PLAN, hasAccess, isPlanCode, PLANS } from "@/types/plan";
+import type { PlanCode } from "@/types/plan";
+import Link from "next/link";
 
-type AccessGateProps = {
+type Props = {
   required: PlanCode;
   children: ReactNode;
-  fallback?: ReactNode;
 };
 
-function getUserPlan(): PlanCode {
+function getStoredPlan(): PlanCode {
   if (typeof window === "undefined") return DEFAULT_PLAN;
+
   const raw = window.localStorage.getItem("edunancial_plan");
-  if (isPlanCode(raw)) return raw;
+
+  if (raw && isPlanCode(raw)) {
+    return raw;
+  }
+
   return DEFAULT_PLAN;
 }
 
-export default function AccessGate({
-  required,
-  children,
-  fallback,
-}: AccessGateProps) {
-  const allowed = useMemo(() => {
-    const userPlan = getUserPlan();
-    return hasAccess(userPlan, required);
-  }, [required]);
+export default function AccessGate({ required, children }: Props) {
+  const [plan, setPlan] = useState<PlanCode>(DEFAULT_PLAN);
 
-  if (allowed) return <>{children}</>;
+  useEffect(() => {
+    setPlan(getStoredPlan());
+  }, []);
 
-  const plan = PLANS[required];
+  if (hasAccess(plan, required)) {
+    return <>{children}</>;
+  }
+
+  const requiredPlan = PLANS[required];
 
   return (
-    <>
-      {fallback ?? (
-        <div
-          style={{
-            border: "1px solid rgba(255,255,255,0.12)",
-            borderRadius: 12,
-            padding: 18,
-            background: "rgba(255,255,255,0.03)",
-          }}
-        >
-          <h3 style={{ marginTop: 0 }}>Upgrade Required</h3>
-          <p>
-            This section requires the <b>{plan.label}</b> plan.
-          </p>
+    <div
+      style={{
+        maxWidth: 600,
+        margin: "80px auto",
+        padding: 40,
+        border: "1px solid #ddd",
+        borderRadius: 12,
+        textAlign: "center",
+        background: "#fafafa"
+      }}
+    >
+      <h2>Upgrade Required</h2>
+      <p style={{ fontSize: 18 }}>
+        This section requires the <b>{requiredPlan.label}</b> plan.
+      </p>
 
-          <a
-            href="/us/pay"
-            style={{
-              display: "inline-block",
-              padding: "10px 14px",
-              borderRadius: 8,
-              background: "#2563eb",
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 700,
-            }}
-          >
-            Upgrade Now
-          </a>
-        </div>
-      )}
-    </>
+      <p style={{ marginTop: 20 }}>
+        You are currently on <b>{PLANS[plan].label}</b>.
+      </p>
+
+      <Link
+        href="/us/pay"
+        style={{
+          display: "inline-block",
+          marginTop: 30,
+          padding: "14px 28px",
+          background: "#000",
+          color: "#fff",
+          borderRadius: 8,
+          textDecoration: "none",
+          fontWeight: 600
+        }}
+      >
+        Upgrade Now
+      </Link>
+    </div>
   );
 }
