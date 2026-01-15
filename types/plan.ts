@@ -1,32 +1,42 @@
 export type BillingInterval = "month" | "year";
 
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "builder"
+  | "pro"
+  | "founder"
+  | "elite";
+
 export type Plan = {
   code: PlanCode;
-  name: string;
-  price: number; // display price only for now
+  label: string;            // human-readable name
+  name: string;             // internal name (same for now)
+  price: number;
   interval: BillingInterval;
   description: string;
   features: string[];
-  rank: number; // higher = more access
+  rank: number;             // higher = more access
 };
 
-// ✅ IMPORTANT: include "elite" so your AccessGate can accept required="elite"
-export const PLANS = {
+export const PLANS: Record<PlanCode, Plan> = {
   free: {
     code: "free",
+    label: "Free",
     name: "Free",
     price: 0,
     interval: "month",
-    description: "Explore the basics and see how the system works.",
+    description: "Explore the platform and see how the system works.",
     features: [
-      "Free starter content",
-      "Limited tools access",
-      "Email updates (optional)",
+      "Intro content",
+      "Limited tools",
+      "Email updates",
     ],
     rank: 0,
   },
   starter: {
     code: "starter",
+    label: "Starter",
     name: "Starter",
     price: 9,
     interval: "month",
@@ -40,67 +50,67 @@ export const PLANS = {
   },
   builder: {
     code: "builder",
+    label: "Builder",
     name: "Builder",
     price: 29,
     interval: "month",
-    description: "For serious learners building real habits and systems.",
+    description: "For people building real systems.",
     features: [
       "Intermediate learning path",
-      "Downloadables + checklists",
-      "Toolkits and calculators",
+      "Downloadable tools",
+      "Business checklists",
     ],
     rank: 2,
   },
   pro: {
     code: "pro",
+    label: "Pro",
     name: "Pro",
     price: 79,
     interval: "month",
-    description: "For entrepreneurs scaling and tightening execution.",
+    description: "For entrepreneurs scaling execution.",
     features: [
-      "Advanced modules",
-      "Priority templates",
-      "Playbooks for execution",
+      "Advanced frameworks",
+      "Execution playbooks",
+      "Premium templates",
     ],
     rank: 3,
   },
   founder: {
     code: "founder",
+    label: "Founder",
     name: "Founder",
     price: 149,
     interval: "month",
-    description: "For leaders building the full machine and long-term assets.",
+    description: "For leaders building long-term machines.",
     features: [
       "Founder-level systems",
       "Strategy frameworks",
-      "Premium resources library",
+      "Capital and structure playbooks",
     ],
     rank: 4,
   },
   elite: {
     code: "elite",
+    label: "Elite",
     name: "Elite",
     price: 299,
     interval: "month",
-    description: "Highest tier. Full access + concierge-level structure.",
+    description: "Highest tier. Full access and priority systems.",
     features: [
       "Everything in Founder",
       "Elite-only resources",
-      "Priority support channel (future)",
+      "Priority support (future)",
     ],
     rank: 5,
   },
-} as const;
+};
 
-// ✅ This is what your build is complaining about being missing
-export type PlanCode = keyof typeof PLANS;
-
-// Helpful exports (optional, but nice)
 export const PLAN_CODES = Object.keys(PLANS) as PlanCode[];
 export const DEFAULT_PLAN: PlanCode = "free";
 
 export function isPlanCode(x: unknown): x is PlanCode {
-  return typeof x === "string" && (x as string) in PLANS;
+  return typeof x === "string" && x in PLANS;
 }
 
 export function planRank(code: PlanCode): number {
