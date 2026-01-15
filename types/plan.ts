@@ -1,122 +1,61 @@
-export type BillingInterval = "month" | "year";
-
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "builder"
-  | "pro"
-  | "founder"
-  | "elite";
-
-export type Plan = {
-  code: PlanCode;
-  label: string;            // human-readable name
-  name: string;             // internal name (same for now)
-  price: number;
-  interval: BillingInterval;
-  description: string;
-  features: string[];
-  rank: number;             // higher = more access
-};
-
-export const PLANS: Record<PlanCode, Plan> = {
+export const PLANS = {
   free: {
     code: "free",
     label: "Free",
     name: "Free",
+    description: "Basic access to public tools",
     price: 0,
     interval: "month",
-    description: "Explore the platform and see how the system works.",
-    features: [
-      "Intro content",
-      "Limited tools",
-      "Email updates",
-    ],
     rank: 0,
+    features: ["Public tools", "Community access"]
   },
   starter: {
     code: "starter",
     label: "Starter",
     name: "Starter",
-    price: 9,
+    description: "Entry level business tools",
+    price: 19,
     interval: "month",
-    description: "For beginners who want structure and momentum.",
-    features: [
-      "Beginner learning path",
-      "Core templates",
-      "Weekly action steps",
-    ],
     rank: 1,
+    features: ["Private tools", "Email support"]
   },
   builder: {
     code: "builder",
     label: "Builder",
     name: "Builder",
-    price: 29,
+    description: "Full business buildout",
+    price: 49,
     interval: "month",
-    description: "For people building real systems.",
-    features: [
-      "Intermediate learning path",
-      "Downloadable tools",
-      "Business checklists",
-    ],
     rank: 2,
+    features: ["AI tools", "Dashboards", "Priority support"]
   },
   pro: {
     code: "pro",
     label: "Pro",
     name: "Pro",
-    price: 79,
+    description: "Scaling systems unlocked",
+    price: 99,
     interval: "month",
-    description: "For entrepreneurs scaling execution.",
-    features: [
-      "Advanced frameworks",
-      "Execution playbooks",
-      "Premium templates",
-    ],
     rank: 3,
+    features: ["Automation", "APIs", "Advanced reporting"]
   },
   founder: {
     code: "founder",
     label: "Founder",
     name: "Founder",
-    price: 149,
-    interval: "month",
-    description: "For leaders building long-term machines.",
-    features: [
-      "Founder-level systems",
-      "Strategy frameworks",
-      "Capital and structure playbooks",
-    ],
-    rank: 4,
-  },
-  elite: {
-    code: "elite",
-    label: "Elite",
-    name: "Elite",
+    description: "Ownership-level access",
     price: 299,
     interval: "month",
-    description: "Highest tier. Full access and priority systems.",
-    features: [
-      "Everything in Founder",
-      "Elite-only resources",
-      "Priority support (future)",
-    ],
-    rank: 5,
-  },
-};
+    rank: 4,
+    features: ["Private groups", "Equity tools", "Founder calls"]
+  }
+} as const;
 
-export const PLAN_CODES = Object.keys(PLANS) as PlanCode[];
-export const DEFAULT_PLAN: PlanCode = "free";
+/* ===== TYPES ===== */
 
-export function isPlanCode(x: unknown): x is PlanCode {
-  return typeof x === "string" && x in PLANS;
-}
+export type PlanCode = keyof typeof PLANS;
 
-export function planRank(code: PlanCode): number {
-  return PLANS[code].rank;
-}
+/** Older code used PlanTier — it is now a strict alias */
+export type PlanTier = PlanCode;
 
-export function hasAccess(user: PlanCode, required: PlanCode): boolean {
-  return planRank(user) >= planRank(required);
-}
+export type Plan = (typeof PLANS)[PlanCode];
