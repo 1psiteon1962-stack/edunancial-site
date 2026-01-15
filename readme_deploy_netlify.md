@@ -1,15 +1,20 @@
 # Netlify Deployment (OpenNext)
 
-This repo deploys Next.js on Netlify using OpenNext to avoid Netlify Next plugin v5 Forms migration issues.
+This site deploys Next.js using OpenNext instead of the Netlify Next.js plugin.
 
-## Key Files
-- netlify.toml → uses `netlify-plugin-opennext`
-- package.json → script `npm run netlify` runs `npx open-next build`
-- Output folder: `.open-next`
+This avoids the Forms migration bug in @netlify/plugin-nextjs v5.
 
-## Deploy
-Netlify build command:
-- `npm run netlify`
+## How it works
+- Netlify runs: `npm run netlify`
+- That runs: `npx open-next build`
+- Output goes to: `.open-next`
+- Netlify serves that folder
 
-Publish directory:
-- `.open-next`
+## Files
+- netlify.toml → OpenNext config
+- package.json → netlify script + plugin
+- .open-next → build output
+
+## Why
+Netlify’s native Next.js plugin is currently broken for sites that don’t use their Forms system.
+OpenNext gives full Next.js support without Netlify’s plugin.
