@@ -1,19 +1,17 @@
-# Netlify deployment (OpenNext)
+# netlify deployment (open-next)
 
-This site uses OpenNext instead of Netlify’s broken Next.js plugin.
+this site is deployed using open-next.
 
-Why:
-@netlify/plugin-nextjs v5 is currently broken due to forced Forms migration.
-
-This repo uses:
-- open-next
-- netlify-plugin-open-next
-
-Netlify runs:
+netlify runs:
 npm run netlify
 
-Which executes:
+which executes:
 npx open-next build
 
-The output is published from:
+the output is written to:
 .open-next
+
+netlify then publishes that folder directly.
+
+no netlify next.js plugin is used.
+no netlify forms are used.
