@@ -1,34 +1,14 @@
-export type UserSession = {
-  userId: string;
-  email: string;
-  plan: "FREE" | "STARTER" | "FOUNDER" | "PRO" | "ELITE";
-};
+import { DEFAULT_PLAN, isPlanCode, type PlanCode } from "@/types/plan";
 
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "founder"
-  | "pro"
-  | "elite";
+export function normalizePlan(value: unknown): PlanCode {
+  if (isPlanCode(value)) return value;
 
-let session: UserSession | null = null;
+  if (typeof value === "string") {
+    const v = value.trim().toLowerCase();
+    if (isPlanCode(v)) return v;
+  }
 
-export function getSession(): UserSession | null {
-  return session;
+  return DEFAULT_PLAN;
 }
 
-export function setSession(next: UserSession): void {
-  session = next;
-}
-
-export function clearSession(): void {
-  session = null;
-}
-
-/**
- * Normalizes any session plan into a lowercase PlanCode
- * used by AccessGate / canAccess.
- */
-export function normalizePlan(plan: UserSession["plan"]): PlanCode {
-  return plan.toLowerCase() as PlanCode;
-}
+export const normalizePlanCode = normalizePlan;
