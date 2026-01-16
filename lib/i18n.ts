@@ -41,6 +41,21 @@ export const DEFAULT_LANGUAGE_BY_REGION = {
 export type Region = keyof typeof DEFAULT_LANGUAGE_BY_REGION;
 
 /**
+ * REGION → SUPPORTED LANGUAGES
+ * REQUIRED by lib/static-param.ts
+ */
+export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+  us: ["en", "es"],
+  pr: ["es", "en"],
+  latam: ["es"],
+  eu: ["en", "fr", "de", "it", "pt"],
+  africa: ["en", "fr"],
+  asia: ["en", "hi", "zh"],
+  middleeast: ["ar", "en"],
+  mena: ["ar", "en"],
+};
+
+/**
  * Normalize language safely
  */
 export function normalizeLanguage(
@@ -60,7 +75,6 @@ export function getDefaultLanguage(region: Region): Language {
 
 /**
  * Minimal translation dictionaries
- * (keys fall through safely)
  */
 const DICTIONARIES: Record<Language, Record<string, string>> = {
   en: {},
@@ -75,7 +89,7 @@ const DICTIONARIES: Record<Language, Record<string, string>> = {
 };
 
 /**
- * Translation helper — REQUIRED by LocalizedDoctrine.tsx
+ * Translation helper
  */
 export function t(key: string, lang?: string): string {
   const safeLang: Language = isLanguage(lang) ? lang : "en";
