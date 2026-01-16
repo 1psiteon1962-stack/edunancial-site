@@ -1,85 +1,61 @@
-import AccessGate from "../components/AccessGate";
+"use client";
 
-const wrap: React.CSSProperties = {
-  maxWidth: 1100,
-  margin: "0 auto",
-  padding: "48px 24px",
-};
-
-const grid: React.CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-  gap: 24,
-};
+import AccessGate from "@/app/(regions)/us/components/AccessGate";
 
 const card: React.CSSProperties = {
-  border: "1px solid rgba(255,255,255,0.12)",
-  borderRadius: 14,
-  padding: 22,
-  background: "rgba(255,255,255,0.03)",
+  border: "1px solid #e5e7eb",
+  borderRadius: 12,
+  padding: 24,
+  background: "#ffffff",
+  boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
 };
 
-export default function AppsPage() {
+export default function USAppsPage() {
   return (
-    <div style={wrap}>
-      <h1 style={{ fontSize: 36, fontWeight: 900, marginBottom: 10 }}>Apps & Tools</h1>
-      <p style={{ opacity: 0.85, marginBottom: 28 }}>
-        Tools get unlocked by tier. Upgrade when you’re ready to move faster.
-      </p>
+    <div style={{ padding: 40, maxWidth: 1200, margin: "0 auto" }}>
+      <h1 style={{ fontSize: 36, fontWeight: 900, marginBottom: 32 }}>
+        Edunancial Applications
+      </h1>
 
-      <div style={grid}>
+      {/* FREE TIER */}
+      <AccessGate required="free">
         <div style={card}>
-          <div style={{ fontWeight: 900, fontSize: 18 }}>Free Tools</div>
-          <div style={{ opacity: 0.8, marginTop: 8 }}>
-            Basic calculators and starter materials.
-          </div>
+          <h2>Free Tools</h2>
+          <p>Public tools available to all users.</p>
         </div>
+      </AccessGate>
 
-        <AccessGate required="starter">
-          <div style={card}>
-            <div style={{ fontWeight: 900, fontSize: 18 }}>Starter Tools</div>
-            <div style={{ opacity: 0.8, marginTop: 8 }}>
-              Templates + guided steps for consistency.
-            </div>
-          </div>
-        </AccessGate>
+      {/* STARTER TIER */}
+      <AccessGate required="starter">
+        <div style={card}>
+          <h2>Starter Tools</h2>
+          <p>Basic financial tools for early-stage builders.</p>
+        </div>
+      </AccessGate>
 
-        <AccessGate required="builder">
-          <div style={card}>
-            <div style={{ fontWeight: 900, fontSize: 18 }}>Builder Tools</div>
-            <div style={{ opacity: 0.8, marginTop: 8 }}>
-              Intermediate toolkits and structured systems.
-            </div>
-          </div>
-        </AccessGate>
+      {/* FOUNDER TIER — THIS IS THE FIX */}
+      <AccessGate required="founder">
+        <div style={card}>
+          <h2>Founder Tools</h2>
+          <p>Full business-grade applications for serious founders.</p>
+        </div>
+      </AccessGate>
 
-        <AccessGate required="pro">
-          <div style={card}>
-            <div style={{ fontWeight: 900, fontSize: 18 }}>Pro Tools</div>
-            <div style={{ opacity: 0.8, marginTop: 8 }}>
-              Advanced playbooks for entrepreneurs.
-            </div>
-          </div>
-        </AccessGate>
+      {/* PRO TIER */}
+      <AccessGate required="pro">
+        <div style={card}>
+          <h2>Professional Suite</h2>
+          <p>Advanced financial modeling and scaling systems.</p>
+        </div>
+      </AccessGate>
 
-        <AccessGate required="founder">
-          <div style={card}>
-            <div style={{ fontWeight: 900, fontSize: 18 }}>Founder Tools</div>
-            <div style={{ opacity: 0.8, marginTop: 8 }}>
-              Executive-level structure and scaling frameworks.
-            </div>
-          </div>
-        </AccessGate>
-
-        <AccessGate required="elite">
-          <div style={card}>
-            <div style={{ fontWeight: 900, fontSize: 18 }}>Elite Tools</div>
-            <div style={{ opacity: 0.8, marginTop: 8 }}>
-              Highest-tier resources + concierge structure (future-ready).
-            </div>
-          </div>
-        </AccessGate>
-      </div>
+      {/* ELITE TIER */}
+      <AccessGate required="elite">
+        <div style={card}>
+          <h2>Elite Platform</h2>
+          <p>Institutional-grade capital, legal, and investment tools.</p>
+        </div>
+      </AccessGate>
     </div>
   );
 }
