@@ -1,7 +1,6 @@
 export type PlanCode =
   | "free"
   | "starter"
-  | "builder"
   | "founder"
   | "pro"
   | "elite"
@@ -10,7 +9,8 @@ export type Plan = {
   code: PlanCode
   name: string
   label: string
-  price: number
+  description: string
+  rank: number
 }
 
 export const PLANS: Record<PlanCode, Plan> = {
@@ -18,54 +18,45 @@ export const PLANS: Record<PlanCode, Plan> = {
     code: "free",
     name: "Free",
     label: "Free",
-    price: 0
+    description: "Basic access",
+    rank: 0
   },
   starter: {
     code: "starter",
     name: "Starter",
     label: "Starter",
-    price: 29
-  },
-  builder: {
-    code: "builder",
-    name: "Builder",
-    label: "Builder",
-    price: 59
+    description: "Entry level business tools",
+    rank: 1
   },
   founder: {
     code: "founder",
     name: "Founder",
     label: "Founder",
-    price: 149
+    description: "Corporate & compliance systems",
+    rank: 2
   },
   pro: {
     code: "pro",
     name: "Pro",
-    label: "Pro",
-    price: 299
+    label: "Professional",
+    description: "Global expansion tools",
+    rank: 3
   },
   elite: {
     code: "elite",
     name: "Elite",
     label: "Elite",
-    price: 999
+    description: "Capital, deal flow, private intelligence",
+    rank: 4
   }
 }
 
 export const DEFAULT_PLAN: PlanCode = "free"
 
-export function isPlanCode(code: any): code is PlanCode {
-  return code in PLANS
+export function isPlanCode(value: any): value is PlanCode {
+  return value in PLANS
 }
 
-export function hasAccess(userPlan: PlanCode, requiredPlan: PlanCode): boolean {
-  const order: PlanCode[] = [
-    "free",
-    "starter",
-    "builder",
-    "founder",
-    "pro",
-    "elite"
-  ]
-  return order.indexOf(userPlan) >= order.indexOf(requiredPlan)
+export function hasAccess(userPlan: PlanCode, required: PlanCode): boolean {
+  return PLANS[userPlan].rank >= PLANS[required].rank
 }
