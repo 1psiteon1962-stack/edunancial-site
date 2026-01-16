@@ -1,29 +1,29 @@
-export const PLAN_CODES = [
-  "free",
-  "starter",
-  "founder",
-  "pro",
-  "elite",
-  "enterprise",
-] as const;
+// types/plan.ts
 
-export type PlanCode = (typeof PLAN_CODES)[number];
-export type PlanTier = PlanCode;
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "founder"
+  | "pro"
+  | "elite"
+  | "enterprise";
 
-export const DEFAULT_PLAN: PlanCode = "free";
-
-export function isPlanCode(value: unknown): value is PlanCode {
-  return typeof value === "string" && (PLAN_CODES as readonly string[]).includes(value);
-}
-
-export function hasAccess(userPlan: PlanCode, required: PlanCode): boolean {
-  const rank: Record<PlanCode, number> = {
-    free: 0,
-    starter: 1,
-    founder: 2,
-    pro: 3,
-    elite: 4,
-    enterprise: 5,
-  };
-  return rank[userPlan] >= rank[required];
+/**
+ * Normalize any incoming plan value to a valid PlanCode.
+ * Defaults to "free".
+ */
+export function normalizePlan(
+  plan: string | null | undefined
+): PlanCode {
+  switch (plan) {
+    case "starter":
+    case "founder":
+    case "pro":
+    case "elite":
+    case "enterprise":
+      return plan;
+    case "free":
+    default:
+      return "free";
+  }
 }
