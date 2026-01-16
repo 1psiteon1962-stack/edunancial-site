@@ -12,34 +12,24 @@ const card: React.CSSProperties = {
 export default function AppsPage() {
   return (
     <div>
-      {/* STARTER TIER */}
       <AccessGate required="starter">
         <div style={card}>
           <h2>Starter Tools</h2>
-          <p>
-            Basic financial tools designed for early-stage users and learners.
-          </p>
+          <p>Entry-level financial and planning tools.</p>
         </div>
       </AccessGate>
 
-      {/* PRO TIER */}
       <AccessGate required="pro">
         <div style={card}>
           <h2>Pro Tools</h2>
-          <p>
-            Advanced analytics, structured planning, and scaling-grade tools.
-          </p>
+          <p>Advanced analytics and scaling systems.</p>
         </div>
       </AccessGate>
 
-      {/* ENTERPRISE TIER */}
       <AccessGate required="enterprise">
         <div style={card}>
           <h2>Enterprise Suite</h2>
-          <p>
-            Institutional-level systems, governance tooling, and compliance
-            infrastructure.
-          </p>
+          <p>Institutional-grade governance and compliance tooling.</p>
         </div>
       </AccessGate>
     </div>
