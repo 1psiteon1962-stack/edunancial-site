@@ -1,60 +1,69 @@
 // types/plan.ts
 
 /**
- * Canonical plan codes used everywhere in the app.
- * DO NOT create competing lists elsewhere.
+ * PLAN CODES — used by AccessGate, access control, apps pages
  */
 export type PlanCode =
   | "free"
-  | "starter"
-  | "founder"
+  | "basic"
   | "pro"
-  | "elite"
-  | "enterprise";
+  | "premium"
+  | "enterprise"
+  | "founder"
+  | "elite";
 
 /**
- * Ordered from lowest → highest access
+ * PLAN TIERS — used by types/level.ts
+ * (tiers can map to multiple plan codes)
  */
-export const PLAN_CODES: readonly PlanCode[] = [
+export type PlanTier =
+  | "starter"
+  | "growth"
+  | "business"
+  | "institutional";
+
+/**
+ * Canonical list of plan codes
+ */
+export const PLANS: readonly PlanCode[] = [
   "free",
-  "starter",
-  "founder",
+  "basic",
   "pro",
-  "elite",
+  "premium",
   "enterprise",
+  "founder",
+  "elite",
 ] as const;
 
 /**
- * Legacy-compatible alias.
- * Some files still import `PLANS`.
- * Do NOT remove unless you refactor all imports.
- */
-export const PLANS = PLAN_CODES;
-
-/**
- * Default / fallback plan
+ * Default plan
  */
 export const DEFAULT_PLAN: PlanCode = "free";
 
 /**
- * Type guard
+ * Type guard for plan codes
  */
 export function isPlanCode(value: unknown): value is PlanCode {
-  return (
-    typeof value === "string" &&
-    (PLAN_CODES as readonly string[]).includes(value)
-  );
+  return typeof value === "string" && PLANS.includes(value as PlanCode);
 }
 
 /**
- * Core access comparison
+ * Plan → Tier mapping
  */
-export function hasAccess(
-  userPlan: PlanCode,
-  requiredPlan: PlanCode
-): boolean {
-  return (
-    PLAN_CODES.indexOf(userPlan) >=
-    PLAN_CODES.indexOf(requiredPlan)
-  );
+export const PLAN_TIER_MAP: Record<PlanCode, PlanTier> = {
+  free: "starter",
+  basic: "starter",
+  pro: "growth",
+  premium: "growth",
+  enterprise: "business",
+  founder: "institutional",
+  elite: "institutional",
+};
+
+/**
+ * Normalize arbitrary input to a valid plan
+ */
+export function normalizePlan(value: unknown): PlanCode {
+  if (isPlanCode(value)) return value;
+  return DEFAULT_PLAN;
 }
