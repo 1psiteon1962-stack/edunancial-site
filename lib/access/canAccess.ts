@@ -1,23 +1,25 @@
 import type { PlanCode } from "@/types/plan";
 
 /**
- * Central access-control rule.
- * Keep this SIMPLE and explicit.
+ * Access rules by area
  */
-export function canAccess(
-  userPlan: PlanCode,
-  area: string
-): boolean {
-  // Free users get only public areas
-  if (userPlan === "free") {
-    return area === "public";
+const accessMatrix: Record<string, PlanCode[]> = {
+  public: ["starter", "founder", "pro"],
+  starter: ["starter", "founder", "pro"],
+  founder: ["founder", "pro"],
+  pro: ["pro"],
+  admin: ["pro"],
+};
+
+/**
+ * Determine whether a user plan can access a given area
+ */
+export function canAccess(userPlan: PlanCode, area: string): boolean {
+  const allowedPlans = accessMatrix[area];
+
+  if (!allowedPlans) {
+    return false;
   }
 
-  // Builder gets everything except admin-only
-  if (userPlan === "builder") {
-    return area !== "admin";
-  }
-
-  // Founder / higher plans get full access
-  return true;
+  return allowedPlans.includes(userPlan);
 }
