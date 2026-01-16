@@ -1,78 +1,39 @@
-// types/plan.ts
+// ✅ REPLACE ENTIRE FILE: /types/plan.ts
 
-/**
- * Canonical plan definitions.
- * This file is the SINGLE source of truth for:
- * - PlanCode
- * - PlanTier
- * - PLANS
- * - DEFAULT_PLAN
- * - isPlanCode
- * - normalizePlan
- * - hasAccess
- */
-
-/* -----------------------------
-   PLAN CODES
------------------------------- */
-
-export const PLANS = [
+export const PLAN_CODES = [
   "free",
-  "pro",
-  "enterprise",
-  "elite",
+  "starter",
   "founder",
+  "pro",
+  "elite",
+  "enterprise",
 ] as const;
 
-export type PlanCode = typeof PLANS[number];
+export type PlanCode = (typeof PLAN_CODES)[number];
 
-/* -----------------------------
-   PLAN TIERS (OPTIONAL LAYER)
------------------------------- */
+// Some parts of your codebase refer to tiers (ex: types/level.ts importing PlanTier)
+export type PlanTier = PlanCode;
 
-export type PlanTier =
-  | "basic"
-  | "advanced"
-  | "institutional";
+// Canonical plans registry (some parts import PLANS)
+export const PLANS: ReadonlyArray<PlanCode> = [...PLAN_CODES];
 
-/* -----------------------------
-   DEFAULT
------------------------------- */
-
+// Default plan (some parts import DEFAULT_PLAN)
 export const DEFAULT_PLAN: PlanCode = "free";
 
-/* -----------------------------
-   TYPE GUARDS
------------------------------- */
-
+// Type guard (some parts import isPlanCode)
 export function isPlanCode(value: unknown): value is PlanCode {
-  return typeof value === "string" && PLANS.includes(value as PlanCode);
+  return typeof value === "string" && (PLAN_CODES as readonly string[]).includes(value);
 }
 
-/* -----------------------------
-   NORMALIZATION
------------------------------- */
-
-export function normalizePlan(value: unknown): PlanCode {
-  if (isPlanCode(value)) return value;
-  return DEFAULT_PLAN;
-}
-
-/* -----------------------------
-   ACCESS LOGIC (AUTHORITATIVE)
------------------------------- */
-
-const ACCESS_MATRIX: Record<PlanCode, PlanCode[]> = {
-  free: ["free"],
-  pro: ["free", "pro"],
-  enterprise: ["free", "pro", "enterprise"],
-  elite: ["free", "pro", "enterprise", "elite"],
-  founder: ["free", "pro", "enterprise", "elite", "founder"],
-};
-
-export function hasAccess(
-  userPlan: PlanCode,
-  requiredPlan: PlanCode
-): boolean {
-  return ACCESS_MATRIX[userPlan]?.includes(requiredPlan) ?? false;
+// Access check (some parts import hasAccess / lib/access/canAccess.ts imports hasAccess)
+export function hasAccess(userPlan: PlanCode, required: PlanCode): boolean {
+  const rank: Record<PlanCode, number> = {
+    free: 0,
+    starter: 1,
+    founder: 2,
+    pro: 3,
+    elite: 4,
+    enterprise: 5,
+  };
+  return rank[userPlan] >= rank[required];
 }
