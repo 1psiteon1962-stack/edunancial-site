@@ -1,21 +1,25 @@
-import { notFound } from "next/navigation";
-import RegionCurriculum from "@/components/RegionCurriculum";
-import { Language, isLanguage, REGION_LANGUAGES } from "@/lib/i18n";
+import { isLanguage, type Language } from "@/lib/i18n";
 
-type Props = { params: { lang: string } };
-const REGION = "mena" as const;
+type Props = {
+  params: {
+    lang: string;
+  };
+};
 
 export default function MENAPage({ params }: Props) {
   const raw = params.lang;
-  if (!isLanguage(raw, REGION)) return notFound();
+
+  // isLanguage only takes ONE argument
+  if (!isLanguage(raw)) {
+    return null;
+  }
 
   const lang: Language = raw;
 
   return (
-    <RegionCurriculum
-      region={REGION}
-      lang={lang}
-      supportedLanguages={REGION_LANGUAGES[REGION]}
-    />
+    <main style={{ padding: 40 }}>
+      <h1>MENA Region</h1>
+      <p>Language: {lang}</p>
+    </main>
   );
 }
