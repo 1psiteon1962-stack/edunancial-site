@@ -2,30 +2,31 @@
 
 import { ReactNode } from "react";
 import { useUser } from "@/lib/auth/useUser";
-import { canAccess } from "@/lib/accessControl";
-import { AccessArea } from "@/data/access/accessMatrix";
+import { canAccess } from "@/lib/access/canAccess";
 
-export default function AccessGate({
-  area,
-  children
-}: {
-  area: AccessArea;
+type Props = {
+  area: string;
   children: ReactNode;
-}) {
-  const user = useUser();
+};
 
-  if (!user) {
-    return <p className="text-center mt-12">Please log in</p>;
+export default function AccessGate({ area, children }: Props) {
+  const { user, loading } = useUser();
+
+  if (loading) {
+    return (
+      <div className="border p-8 mt-12 text-center">
+        <p className="opacity-70">Checking access…</p>
+      </div>
+    );
   }
 
-  if (!canAccess(user.plan, area)) {
+  if (!user || !canAccess(user.plan, area)) {
     return (
       <div className="border p-8 mt-12 text-center">
         <h2 className="text-2xl font-bold">Upgrade Required</h2>
-        <p className="mt-2">This feature requires a higher plan.</p>
-        <a href="/plans" className="inline-block mt-4 underline">
-          View Plans
-        </a>
+        <p className="mt-4 text-gray-600">
+          This section requires a higher plan.
+        </p>
       </div>
     );
   }
