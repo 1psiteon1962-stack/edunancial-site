@@ -10,9 +10,8 @@ type Props = {
   children: ReactNode;
 };
 
-export function AccessGate({ required, children }: Props) {
+function AccessGate({ required, children }: Props) {
   const { plan } = useUser();
-
   const userPlan = normalizePlan(plan);
 
   if (!canAccess(userPlan, required)) {
@@ -21,3 +20,6 @@ export function AccessGate({ required, children }: Props) {
 
   return <>{children}</>;
 }
+
+export default AccessGate;
+export { AccessGate };
