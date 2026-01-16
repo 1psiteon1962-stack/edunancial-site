@@ -1,21 +1,30 @@
-export type Plan = "FREE" | "FOUNDER" | "BUILDER";
-
-export type Session = {
+export type UserSession = {
   userId: string;
   email: string;
-  plan: Plan;
+  plan: "FREE" | "FOUNDER" | "BUILDER";
 };
 
-let currentSession: Session | null = null;
+const STORAGE_KEY = "edunancial_session";
 
-export function setSession(session: Session) {
-  currentSession = session;
+export function getSession(): UserSession | null {
+  if (typeof window === "undefined") return null;
+
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return null;
+
+  try {
+    return JSON.parse(raw) as UserSession;
+  } catch {
+    return null;
+  }
 }
 
-export function getSession(): Session | null {
-  return currentSession;
+export function setSession(session: UserSession) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
 }
 
 export function clearSession() {
-  currentSession = null;
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(STORAGE_KEY);
 }
