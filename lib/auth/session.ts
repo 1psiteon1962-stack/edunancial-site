@@ -1,30 +1,19 @@
+import type { PlanCode } from "@/types/plan";
+
 export type UserSession = {
-  userId: string;
+  id: string;
   email: string;
   plan: "FREE" | "FOUNDER" | "BUILDER";
 };
 
-const STORAGE_KEY = "edunancial_session";
-
-export function getSession(): UserSession | null {
-  if (typeof window === "undefined") return null;
-
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return null;
-
-  try {
-    return JSON.parse(raw) as UserSession;
-  } catch {
-    return null;
+export function normalizePlan(plan: UserSession["plan"]): PlanCode {
+  switch (plan) {
+    case "FOUNDER":
+      return "founder";
+    case "BUILDER":
+      return "pro";
+    case "FREE":
+    default:
+      return "starter";
   }
-}
-
-export function setSession(session: UserSession) {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
-}
-
-export function clearSession() {
-  if (typeof window === "undefined") return;
-  localStorage.removeItem(STORAGE_KEY);
 }
