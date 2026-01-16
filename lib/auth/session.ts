@@ -1,16 +1,21 @@
+export type Plan = "FREE" | "FOUNDER" | "BUILDER";
+
 export type Session = {
-  user?: {
-    id: string
-    plan: "free" | "starter" | "pro" | "elite"
-  }
+  userId: string;
+  email: string;
+  plan: Plan;
+};
+
+let currentSession: Session | null = null;
+
+export function setSession(session: Session) {
+  currentSession = session;
 }
 
-let session: Session | null = null
-
-export function getSession() {
-  return session
+export function getSession(): Session | null {
+  return currentSession;
 }
 
-export function setSession(s: Session) {
-  session = s
+export function clearSession() {
+  currentSession = null;
 }
