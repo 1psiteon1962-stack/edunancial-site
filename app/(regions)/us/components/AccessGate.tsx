@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { useUser } from "@/lib/auth/useUser";
 import { canAccess } from "@/lib/access/canAccess";
 import { normalizePlan } from "@/types/plan";
@@ -10,37 +11,45 @@ type Props = {
   children: React.ReactNode;
 };
 
-const SAFE_PLANS: PlanCode[] = [
+const SAFE_PLANS: readonly PlanCode[] = [
   "free",
-  "pro",
-  "enterprise",
-  "elite",
+  "starter",
   "founder",
-];
+  "pro",
+  "elite",
+  "enterprise",
+] as const;
 
+/**
+ * Coerce any unknown value into a safe PlanCode.
+ * This function is the ONLY place where unknown → PlanCode happens.
+ */
 function coercePlan(plan: unknown): PlanCode {
+  if (typeof plan !== "string") {
+    return "free";
+  }
+
   const normalized = normalizePlan(plan);
-  if (SAFE_PLANS.includes(normalized)) return normalized;
+
+  if (SAFE_PLANS.includes(normalized)) {
+    return normalized;
+  }
+
   return "free";
 }
 
-export default function AccessGate({ required, children }: Props) {
+export function AccessGate({ required, children }: Props) {
   const { user, loading } = useUser();
 
   if (loading) return null;
 
-  const plan: PlanCode = user ? coercePlan(user.plan) : "free";
+  const plan: PlanCode = coercePlan(user?.plan);
 
   if (!canAccess(plan, required)) {
-    return (
-      <div className="border p-8 mt-12 text-center">
-        <h2 className="text-2xl font-bold">Upgrade Required</h2>
-        <p className="mt-2">
-          This feature requires the <strong>{required}</strong> plan.
-        </p>
-      </div>
-    );
+    return null;
   }
 
   return <>{children}</>;
 }
+
+export default AccessGate;
