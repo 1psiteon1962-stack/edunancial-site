@@ -1,59 +1,45 @@
-"use client";
+// app/(regions)/us/apps/page.tsx
 
-import AccessGate from "@/app/(regions)/us/components/AccessGate";
+import AccessGate from "../../../../components/AccessGate";
 
 const card: React.CSSProperties = {
-  border: "1px solid #e5e7eb",
-  borderRadius: 12,
-  padding: 24,
-  background: "#ffffff",
-  boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
+  border: "1px solid #e0e0e0",
+  borderRadius: "8px",
+  padding: "1rem",
+  marginBottom: "1rem",
 };
 
-export default function USAppsPage() {
+export default function AppsPage() {
   return (
-    <div style={{ padding: 40, maxWidth: 1200, margin: "0 auto" }}>
-      <h1 style={{ fontSize: 36, fontWeight: 900, marginBottom: 32 }}>
-        Edunancial Applications
-      </h1>
-
-      {/* FREE TIER */}
-      <AccessGate required="free">
-        <div style={card}>
-          <h2>Free Tools</h2>
-          <p>Public tools available to all users.</p>
-        </div>
-      </AccessGate>
-
+    <div>
       {/* STARTER TIER */}
       <AccessGate required="starter">
         <div style={card}>
           <h2>Starter Tools</h2>
-          <p>Basic financial tools for early-stage builders.</p>
-        </div>
-      </AccessGate>
-
-      {/* FOUNDER TIER — THIS IS THE FIX */}
-      <AccessGate required="founder">
-        <div style={card}>
-          <h2>Founder Tools</h2>
-          <p>Full business-grade applications for serious founders.</p>
+          <p>
+            Basic financial tools designed for early-stage users and learners.
+          </p>
         </div>
       </AccessGate>
 
       {/* PRO TIER */}
       <AccessGate required="pro">
         <div style={card}>
-          <h2>Professional Suite</h2>
-          <p>Advanced financial modeling and scaling systems.</p>
+          <h2>Pro Tools</h2>
+          <p>
+            Advanced analytics, structured planning, and scaling-grade tools.
+          </p>
         </div>
       </AccessGate>
 
-      {/* ELITE TIER */}
-      <AccessGate required="elite">
+      {/* ENTERPRISE TIER */}
+      <AccessGate required="enterprise">
         <div style={card}>
-          <h2>Elite Platform</h2>
-          <p>Institutional-grade capital, legal, and investment tools.</p>
+          <h2>Enterprise Suite</h2>
+          <p>
+            Institutional-level systems, governance tooling, and compliance
+            infrastructure.
+          </p>
         </div>
       </AccessGate>
     </div>
