@@ -27,3 +27,26 @@ export function normalizePlan(
       return "free";
   }
 }
+
+/**
+ * Canonical access comparison.
+ * This exists because canAccess.ts EXPECTS it.
+ */
+const PLAN_ORDER: PlanCode[] = [
+  "free",
+  "starter",
+  "founder",
+  "pro",
+  "elite",
+  "enterprise",
+];
+
+export function hasAccess(
+  userPlan: PlanCode,
+  requiredPlan: PlanCode
+): boolean {
+  return (
+    PLAN_ORDER.indexOf(userPlan) >=
+    PLAN_ORDER.indexOf(requiredPlan)
+  );
+}
