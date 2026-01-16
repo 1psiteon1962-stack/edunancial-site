@@ -22,7 +22,6 @@ const SAFE_PLANS: readonly PlanCode[] = [
 
 /**
  * Coerce any unknown value into a safe PlanCode.
- * This function is the ONLY place where unknown → PlanCode happens.
  */
 function coercePlan(plan: unknown): PlanCode {
   if (typeof plan !== "string") {
@@ -39,11 +38,12 @@ function coercePlan(plan: unknown): PlanCode {
 }
 
 export function AccessGate({ required, children }: Props) {
-  const { user, loading } = useUser();
+  const { user } = useUser();
 
-  if (loading) return null;
+  // If no user yet, block render safely
+  if (!user) return null;
 
-  const plan: PlanCode = coercePlan(user?.plan);
+  const plan: PlanCode = coercePlan(user.plan);
 
   if (!canAccess(plan, required)) {
     return null;
