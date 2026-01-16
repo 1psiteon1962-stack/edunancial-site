@@ -1,17 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { getSession, type UserSession } from "./session";
+import { getSession } from "./session";
+import { normalizePlan, type PlanCode } from "@/types/plan";
 
 export function useUser() {
-  const [user, setUser] = useState<UserSession | null>(null);
-  const [loading, setLoading] = useState(true);
+  const session = getSession();
 
-  useEffect(() => {
-    const s = getSession();
-    setUser(s);
-    setLoading(false);
-  }, []);
+  if (!session) {
+    return {
+      user: null,
+      plan: "free" as PlanCode,
+    };
+  }
 
-  return { user, loading };
+  return {
+    user: session,
+    plan: normalizePlan(session.plan),
+  };
 }
