@@ -1,7 +1,7 @@
 // lib/i18n.ts
 
 /**
- * Supported languages (single source of truth)
+ * Supported languages
  */
 export const LANGUAGES = [
   "en",
@@ -25,8 +25,7 @@ export function isLanguage(value: unknown): value is Language {
 }
 
 /**
- * Default language per region
- * THIS defines valid regions
+ * Regions and default languages
  */
 export const DEFAULT_LANGUAGE_BY_REGION = {
   us: "en",
@@ -39,9 +38,6 @@ export const DEFAULT_LANGUAGE_BY_REGION = {
   mena: "ar",
 } as const;
 
-/**
- * Region type
- */
 export type Region = keyof typeof DEFAULT_LANGUAGE_BY_REGION;
 
 /**
@@ -60,4 +56,29 @@ export function normalizeLanguage(
  */
 export function getDefaultLanguage(region: Region): Language {
   return DEFAULT_LANGUAGE_BY_REGION[region];
+}
+
+/**
+ * Minimal translation dictionaries
+ * (keys fall through safely)
+ */
+const DICTIONARIES: Record<Language, Record<string, string>> = {
+  en: {},
+  es: {},
+  fr: {},
+  de: {},
+  pt: {},
+  it: {},
+  ar: {},
+  hi: {},
+  zh: {},
+};
+
+/**
+ * Translation helper — REQUIRED by LocalizedDoctrine.tsx
+ */
+export function t(key: string, lang?: string): string {
+  const safeLang: Language = isLanguage(lang) ? lang : "en";
+  const dict = DICTIONARIES[safeLang] ?? DICTIONARIES.en;
+  return dict[key] ?? key;
 }
