@@ -1,30 +1,36 @@
 // types/plan.ts
 
+/**
+ * Canonical plan codes used everywhere in the app.
+ * ALL UI + AccessGate literals must come from this list.
+ */
 export type PlanCode =
   | "free"
   | "starter"
+  | "founder"
   | "pro"
   | "elite"
   | "enterprise";
 
 /**
- * Ordered list of plan codes from lowest → highest
+ * Ordered from lowest → highest access
  */
 export const PLAN_CODES: readonly PlanCode[] = [
   "free",
   "starter",
+  "founder",
   "pro",
   "elite",
   "enterprise",
 ] as const;
 
 /**
- * Default plan for unauthenticated / fallback cases
+ * Default / fallback plan
  */
 export const DEFAULT_PLAN: PlanCode = "free";
 
 /**
- * Type guard — REQUIRED by lib/access.ts
+ * Type guard
  */
 export function isPlanCode(value: unknown): value is PlanCode {
   return (
@@ -34,7 +40,7 @@ export function isPlanCode(value: unknown): value is PlanCode {
 }
 
 /**
- * Core access logic
+ * Core access comparison
  */
 export function hasAccess(
   userPlan: PlanCode,
