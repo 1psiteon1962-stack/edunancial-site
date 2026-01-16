@@ -2,7 +2,7 @@
 
 /**
  * Canonical plan codes used everywhere in the app.
- * ALL UI + AccessGate literals must come from this list.
+ * DO NOT create competing lists elsewhere.
  */
 export type PlanCode =
   | "free"
@@ -23,6 +23,13 @@ export const PLAN_CODES: readonly PlanCode[] = [
   "elite",
   "enterprise",
 ] as const;
+
+/**
+ * Legacy-compatible alias.
+ * Some files still import `PLANS`.
+ * Do NOT remove unless you refactor all imports.
+ */
+export const PLANS = PLAN_CODES;
 
 /**
  * Default / fallback plan
