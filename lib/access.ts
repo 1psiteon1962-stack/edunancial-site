@@ -1,14 +1,10 @@
-import { DEFAULT_PLAN, hasAccess, isPlanCode, PLANS } from "@/types/plan";
-import type { PlanCode } from "@/types/plan";
+// lib/access.ts
 
-export { DEFAULT_PLAN, hasAccess, isPlanCode };
+import { PlanCode, PLAN_RANK } from "./plans";
 
-export function normalizePlan(value?: string | null): PlanCode {
-  if (!value) return DEFAULT_PLAN;
-  if (isPlanCode(value)) return value;
-  return DEFAULT_PLAN;
-}
-
-export function getPlanLabel(plan: PlanCode): string {
-  return PLANS[plan].label;
+export function canAccess(
+  userPlan: PlanCode,
+  requiredPlan: PlanCode
+): boolean {
+  return PLAN_RANK[userPlan] >= PLAN_RANK[requiredPlan];
 }
