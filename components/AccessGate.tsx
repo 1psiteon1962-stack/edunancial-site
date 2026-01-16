@@ -1,36 +1,29 @@
-// components/AccessGate.tsx
-
 "use client";
 
-import { ReactNode } from "react";
-import { PlanCode, PLAN_LABEL } from "../lib/plans";
-import { canAccess } from "../lib/access";
+import React from "react";
+import { useUser } from "@/lib/auth/useUser";
+import { canAccess } from "@/lib/access/canAccess";
+import { normalizePlan } from "@/lib/auth/session";
+import type { PlanCode } from "@/types/plan";
 
-interface AccessGateProps {
+type Props = {
   required: PlanCode;
-  userPlan?: PlanCode;
-  children: ReactNode;
-}
+  children: React.ReactNode;
+};
 
-export default function AccessGate({
-  required,
-  userPlan = "free",
-  children,
-}: AccessGateProps) {
-  if (!canAccess(userPlan, required)) {
+export default function AccessGate({ required, children }: Props) {
+  const { user, loading } = useUser();
+
+  if (loading) return null;
+
+  const plan: PlanCode = user ? normalizePlan(user.plan) : "free";
+
+  if (!canAccess(plan, required)) {
     return (
-      <div
-        style={{
-          padding: "1.5rem",
-          border: "1px solid #ddd",
-          borderRadius: "8px",
-          background: "#fafafa",
-        }}
-      >
-        <h3>Upgrade Required</h3>
-        <p>
-          This content requires the{" "}
-          <strong>{PLAN_LABEL[required]}</strong> plan or higher.
+      <div className="border p-8 mt-12 text-center">
+        <h2 className="text-2xl font-bold">Upgrade Required</h2>
+        <p className="mt-2 opacity-80">
+          This content requires <b>{required}</b>. Your plan is <b>{plan}</b>.
         </p>
       </div>
     );
