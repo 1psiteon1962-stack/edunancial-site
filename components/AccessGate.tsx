@@ -3,11 +3,12 @@
 "use client";
 
 import { ReactNode } from "react";
-import { PLANS, PlanTier } from "../lib/plans";
+import { PlanCode, PLAN_LABEL } from "../lib/plans";
+import { canAccess } from "../lib/access";
 
 interface AccessGateProps {
-  required: PlanTier;
-  userPlan?: PlanTier;
+  required: PlanCode;
+  userPlan?: PlanCode;
   children: ReactNode;
 }
 
@@ -16,10 +17,7 @@ export default function AccessGate({
   userPlan = "free",
   children,
 }: AccessGateProps) {
-  const requiredRank = PLANS[required].rank;
-  const userRank = PLANS[userPlan].rank;
-
-  if (userRank < requiredRank) {
+  if (!canAccess(userPlan, required)) {
     return (
       <div
         style={{
@@ -31,8 +29,8 @@ export default function AccessGate({
       >
         <h3>Upgrade Required</h3>
         <p>
-          This content requires the <strong>{PLANS[required].name}</strong> plan
-          or higher.
+          This content requires the{" "}
+          <strong>{PLAN_LABEL[required]}</strong> plan or higher.
         </p>
       </div>
     );
