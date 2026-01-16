@@ -1,6 +1,6 @@
 // lib/plans.ts
 
-export type PlanTier =
+export type PlanCode =
   | "free"
   | "starter"
   | "founder"
@@ -8,41 +8,20 @@ export type PlanTier =
   | "elite"
   | "enterprise";
 
-export interface Plan {
-  key: PlanTier;
-  name: string;
-  rank: number;
-}
+export const PLAN_RANK: Record<PlanCode, number> = {
+  free: 0,
+  starter: 1,
+  founder: 2,
+  pro: 3,
+  elite: 4,
+  enterprise: 5,
+};
 
-export const PLANS: Record<PlanTier, Plan> = {
-  free: {
-    key: "free",
-    name: "Free",
-    rank: 0,
-  },
-  starter: {
-    key: "starter",
-    name: "Starter",
-    rank: 1,
-  },
-  founder: {
-    key: "founder",
-    name: "Founder",
-    rank: 2,
-  },
-  pro: {
-    key: "pro",
-    name: "Pro",
-    rank: 3,
-  },
-  elite: {
-    key: "elite",
-    name: "Elite",
-    rank: 4,
-  },
-  enterprise: {
-    key: "enterprise",
-    name: "Enterprise",
-    rank: 5,
-  },
+export const PLAN_LABEL: Record<PlanCode, string> = {
+  free: "Free",
+  starter: "Starter",
+  founder: "Founder",
+  pro: "Pro",
+  elite: "Elite",
+  enterprise: "Enterprise",
 };
