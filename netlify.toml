@@ -1,22 +1,15 @@
 [build]
-command = "npm run build"
-publish = ".next"
+  command = "npm run build"
+  publish = ".next"
 
 [build.environment]
-NODE_VERSION = "20"
-NEXT_TELEMETRY_DISABLED = "1"
-NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
+  NODE_VERSION = "18"
+  NEXT_TELEMETRY_DISABLED = "1"
 
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-from = "/_next/*"
-to = "/_next/:splat"
-status = 200
-force = true
-
-[[redirects]]
-from = "/favicon.ico"
-to = "/favicon.ico"
-status = 200
+  from = "/*"
+  to = "/"
+  status = 200
