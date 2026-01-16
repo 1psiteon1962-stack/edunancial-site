@@ -4,6 +4,13 @@ export type UserSession = {
   plan: "FREE" | "STARTER" | "FOUNDER" | "PRO" | "ELITE";
 };
 
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "founder"
+  | "pro"
+  | "elite";
+
 let session: UserSession | null = null;
 
 export function getSession(): UserSession | null {
@@ -16,4 +23,12 @@ export function setSession(next: UserSession): void {
 
 export function clearSession(): void {
   session = null;
+}
+
+/**
+ * Normalizes any session plan into a lowercase PlanCode
+ * used by AccessGate / canAccess.
+ */
+export function normalizePlan(plan: UserSession["plan"]): PlanCode {
+  return plan.toLowerCase() as PlanCode;
 }
