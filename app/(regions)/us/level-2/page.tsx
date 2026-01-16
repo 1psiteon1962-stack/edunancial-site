@@ -1,55 +1,34 @@
-import { US_LEVELS } from "../../../../data/us/levels";
-import AccessGate from "../components/AccessGate";
+import AccessGate from "@/app/(regions)/us/components/AccessGate";
 
-export default function USLevel2Page() {
-  const lvl = US_LEVELS.find((x) => x.code === "L2");
-  if (!lvl) return null;
-
+export default function Level2Page() {
   return (
-    <main>
-      <h1 style={{ fontSize: 30, marginBottom: 6 }}>{lvl.title}</h1>
-      <p style={{ marginTop: 0, opacity: 0.85 }}>{lvl.tagline}</p>
+    <div style={{ padding: "2rem" }}>
+      <h1>Level 2</h1>
 
-      <AccessGate required="starter">
-        <div style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14, marginTop: 16 }}>
-          <div style={{ fontWeight: 800, marginBottom: 8 }}>Outcomes</div>
-          <ul style={{ margin: 0, paddingLeft: 18 }}>
-            {lvl.outcomes.map((o) => (
-              <li key={o} style={{ marginBottom: 6 }}>{o}</li>
-            ))}
-          </ul>
-        </div>
+      <p style={{ marginTop: 0, opacity: 0.7 }}>
+        Advanced tools and workflows
+      </p>
 
-        <div style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14, marginTop: 12 }}>
-          <div style={{ fontWeight: 800, marginBottom: 8 }}>Modules</div>
-          {lvl.modules.map((m) => (
-            <div key={m.title} style={{ marginBottom: 12 }}>
-              <div style={{ fontWeight: 800 }}>{m.title}</div>
-              <ul style={{ margin: "6px 0 0 0", paddingLeft: 18 }}>
-                {m.bullets.map((b) => (
-                  <li key={b} style={{ marginBottom: 6 }}>{b}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </AccessGate>
-
-      <div style={{ marginTop: 16 }}>
-        <a
-          href={lvl.nextPath.href}
+      {/* Level 2 requires PRO access — NOT starter */}
+      <AccessGate required="pro">
+        <div
           style={{
-            display: "inline-block",
-            padding: "10px 14px",
-            borderRadius: 10,
-            border: "1px solid #111",
-            textDecoration: "none",
-            fontWeight: 800,
+            border: "1px solid #e5e5e5",
+            padding: "1.5rem",
+            marginTop: "1.5rem",
           }}
         >
-          {lvl.nextPath.label}
-        </a>
-      </div>
-    </main>
+          <div style={{ fontWeight: 800, marginBottom: "0.5rem" }}>
+            Level 2 Features
+          </div>
+
+          <ul style={{ margin: 0, paddingLeft: "1.25rem" }}>
+            <li>Expanded analytics</li>
+            <li>Workflow automation</li>
+            <li>Advanced reporting</li>
+          </ul>
+        </div>
+      </AccessGate>
+    </div>
   );
 }
