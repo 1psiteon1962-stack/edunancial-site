@@ -1,22 +1,32 @@
 // lib/i18n.ts
 
 /**
- * Supported languages
+ * Supported languages (single source of truth)
  */
-export type Language =
-  | "en"
-  | "es"
-  | "fr"
-  | "de"
-  | "pt"
-  | "it"
-  | "ar"
-  | "hi"
-  | "zh";
+export const LANGUAGES = [
+  "en",
+  "es",
+  "fr",
+  "de",
+  "pt",
+  "it",
+  "ar",
+  "hi",
+  "zh",
+] as const;
+
+export type Language = (typeof LANGUAGES)[number];
 
 /**
- * Default language per region.
- * THIS is the single source of truth for regions.
+ * Language type guard
+ */
+export function isLanguage(value: unknown): value is Language {
+  return typeof value === "string" && LANGUAGES.includes(value as Language);
+}
+
+/**
+ * Default language per region
+ * THIS defines valid regions
  */
 export const DEFAULT_LANGUAGE_BY_REGION = {
   us: "en",
@@ -26,10 +36,11 @@ export const DEFAULT_LANGUAGE_BY_REGION = {
   africa: "en",
   asia: "en",
   middleeast: "ar",
+  mena: "ar",
 } as const;
 
 /**
- * Region type derived from defaults
+ * Region type
  */
 export type Region = keyof typeof DEFAULT_LANGUAGE_BY_REGION;
 
@@ -40,12 +51,8 @@ export function normalizeLanguage(
   lang: unknown,
   fallback: Language = "en"
 ): Language {
-  if (typeof lang !== "string") return fallback;
-  return (Object.values(DEFAULT_LANGUAGE_BY_REGION) as readonly string[]).includes(
-    lang
-  )
-    ? (lang as Language)
-    : fallback;
+  if (isLanguage(lang)) return lang;
+  return fallback;
 }
 
 /**
