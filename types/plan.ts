@@ -1,69 +1,78 @@
 // types/plan.ts
 
 /**
- * PLAN CODES — used by AccessGate, access control, apps pages
+ * Canonical plan definitions.
+ * This file is the SINGLE source of truth for:
+ * - PlanCode
+ * - PlanTier
+ * - PLANS
+ * - DEFAULT_PLAN
+ * - isPlanCode
+ * - normalizePlan
+ * - hasAccess
  */
-export type PlanCode =
-  | "free"
-  | "basic"
-  | "pro"
-  | "premium"
-  | "enterprise"
-  | "founder"
-  | "elite";
 
-/**
- * PLAN TIERS — used by types/level.ts
- * (tiers can map to multiple plan codes)
- */
-export type PlanTier =
-  | "starter"
-  | "growth"
-  | "business"
-  | "institutional";
+/* -----------------------------
+   PLAN CODES
+------------------------------ */
 
-/**
- * Canonical list of plan codes
- */
-export const PLANS: readonly PlanCode[] = [
+export const PLANS = [
   "free",
-  "basic",
   "pro",
-  "premium",
   "enterprise",
-  "founder",
   "elite",
+  "founder",
 ] as const;
 
-/**
- * Default plan
- */
+export type PlanCode = typeof PLANS[number];
+
+/* -----------------------------
+   PLAN TIERS (OPTIONAL LAYER)
+------------------------------ */
+
+export type PlanTier =
+  | "basic"
+  | "advanced"
+  | "institutional";
+
+/* -----------------------------
+   DEFAULT
+------------------------------ */
+
 export const DEFAULT_PLAN: PlanCode = "free";
 
-/**
- * Type guard for plan codes
- */
+/* -----------------------------
+   TYPE GUARDS
+------------------------------ */
+
 export function isPlanCode(value: unknown): value is PlanCode {
   return typeof value === "string" && PLANS.includes(value as PlanCode);
 }
 
-/**
- * Plan → Tier mapping
- */
-export const PLAN_TIER_MAP: Record<PlanCode, PlanTier> = {
-  free: "starter",
-  basic: "starter",
-  pro: "growth",
-  premium: "growth",
-  enterprise: "business",
-  founder: "institutional",
-  elite: "institutional",
-};
+/* -----------------------------
+   NORMALIZATION
+------------------------------ */
 
-/**
- * Normalize arbitrary input to a valid plan
- */
 export function normalizePlan(value: unknown): PlanCode {
   if (isPlanCode(value)) return value;
   return DEFAULT_PLAN;
+}
+
+/* -----------------------------
+   ACCESS LOGIC (AUTHORITATIVE)
+------------------------------ */
+
+const ACCESS_MATRIX: Record<PlanCode, PlanCode[]> = {
+  free: ["free"],
+  pro: ["free", "pro"],
+  enterprise: ["free", "pro", "enterprise"],
+  elite: ["free", "pro", "enterprise", "elite"],
+  founder: ["free", "pro", "enterprise", "elite", "founder"],
+};
+
+export function hasAccess(
+  userPlan: PlanCode,
+  requiredPlan: PlanCode
+): boolean {
+  return ACCESS_MATRIX[userPlan]?.includes(requiredPlan) ?? false;
 }
