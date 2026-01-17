@@ -10,24 +10,28 @@ export type RequiredPlan =
   | "enterprise";
 
 /**
- * Canonical level definition used across pages and data
+ * Canonical level definition used across pages and data.
+ * This matches ALL properties currently referenced by UI pages.
  */
 export interface LevelDefinition {
+  /** Short code used for lookup (e.g. L1, L2) */
   code: LevelCode;
 
-  /** Human-readable title shown on pages */
+  /** Human-readable title */
   title: string;
 
-  /** Optional short description shown under the title */
+  /** Short subtitle shown under the title */
   tagline?: string;
 
-  /** Minimum plan required to access this level */
+  /** Longer descriptive paragraph shown on level pages */
+  description?: string;
+
+  /** Minimum subscription plan required */
   requiredPlan: RequiredPlan;
 }
 
 /**
  * Backward-compatibility alias.
- * Some data files still import `LevelSpec`.
- * This keeps them working without touching the data layer.
+ * Existing data files still import LevelSpec.
  */
 export type LevelSpec = LevelDefinition;
