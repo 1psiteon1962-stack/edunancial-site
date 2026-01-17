@@ -1,51 +1,59 @@
 // components/AccessGate.tsx
 
-"use client";
+import { ReactNode } from "react";
+import type { RequiredPlan } from "@/types/level";
 
-import React from "react";
-import type { PlanCode } from "@/types/plan";
-import { canAccess } from "@/lib/access/canAccess";
-import { useUser } from "@/lib/auth/useUser";
+export type PlanCode = RequiredPlan;
 
-type Props = {
-  required: PlanCode;
-  children: React.ReactNode;
-};
+interface AccessGateProps {
+  /**
+   * Required plan(s) to access the wrapped content.
+   * Accepts a single plan or an array of plans.
+   */
+  required: PlanCode | PlanCode[];
+  children: ReactNode;
+}
 
-export function AccessGate({ required, children }: Props) {
-  const { user, plan, loading } = useUser();
+/**
+ * AccessGate
+ *
+ * Normalizes `required` to an array so callers may pass:
+ *  - "pro"
+ *  - ["pro", "elite"]
+ *
+ * This keeps page-level code simple and prevents type drift.
+ */
+export default function AccessGate({
+  required,
+  children,
+}: AccessGateProps) {
+  const requiredPlans: PlanCode[] = Array.isArray(required)
+    ? required
+    : [required];
 
-  if (loading) return null;
+  // TODO: Replace this with real auth / subscription lookup
+  const userPlan: PlanCode = "free";
 
-  // If not logged in, treat as free
-  const effectivePlan: PlanCode = (plan ?? "free") as PlanCode;
+  const hasAccess = requiredPlans.includes(userPlan);
 
-  if (!canAccess(effectivePlan, required)) {
+  if (!hasAccess) {
     return (
       <div
         style={{
-          border: "1px solid #e5e5e5",
-          borderRadius: 12,
           padding: 16,
-          background: "white",
+          border: "1px solid #e5e5e5",
+          borderRadius: 6,
+          background: "#fafafa",
         }}
       >
-        <div style={{ fontWeight: 800, fontSize: 18 }}>
-          Upgrade required
-        </div>
-        <p style={{ marginTop: 8, opacity: 0.85 }}>
-          This section requires <b>{required}</b> access.
+        <strong>Upgrade required</strong>
+        <p style={{ marginTop: 8 }}>
+          This content requires one of the following plans:{" "}
+          {requiredPlans.join(", ")}.
         </p>
-        {!user ? (
-          <p style={{ marginTop: 0, opacity: 0.85 }}>
-            Please log in to continue.
-          </p>
-        ) : null}
       </div>
     );
   }
 
   return <>{children}</>;
 }
-
-export default AccessGate;
