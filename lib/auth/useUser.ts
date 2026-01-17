@@ -1,25 +1,24 @@
-// lib/auth/useUser.ts
-
 "use client";
 
 import { useMemo } from "react";
-import type { PlanCode } from "@/types/plan";
-import { normalizePlan } from "@/types/plan";
 import { useSession } from "./useSession";
-import type { UserSession } from "./session";
+import { normalizePlan, type PlanCode } from "@/types/plan";
 
 export function useUser(): {
-  user: UserSession | null;
+  user: any;
   plan: PlanCode;
   loading: boolean;
 } {
   const { session, loading } = useSession();
 
   const plan = useMemo<PlanCode>(() => {
-    const raw = session?.plan;
-    if (typeof raw !== "string") return "free";
-    return normalizePlan(raw);
+    if (!session?.plan || typeof session.plan !== "string") return "free";
+    return normalizePlan(session.plan);
   }, [session?.plan]);
 
-  return { user: session, plan, loading };
+  return {
+    user: session,
+    plan,
+    loading,
+  };
 }
