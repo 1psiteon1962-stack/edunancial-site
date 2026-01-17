@@ -1,125 +1,124 @@
-// lib/i18n.ts
-// Canonical i18n + region contract for the entire Edunancial platform
-// Financial literacy platform (non-regulated, non-credentialed)
-
-/* ======================================================
-   REGIONS
-   ====================================================== */
-
-export const supportedRegions = [
-  "us",
-  "mena",
-  "latam",
-  "eu",
-] as const;
-
-export type Region = (typeof supportedRegions)[number];
-
-/* ======================================================
-   LANGUAGES
-   ====================================================== */
-
-export const supportedLanguages = [
-  "en", // English
-  "es", // Spanish
-  "ar", // Arabic
-] as const;
-
+export const supportedLanguages = ["en", "es"] as const;
 export type Language = (typeof supportedLanguages)[number];
-
-/* ======================================================
-   REGION → LANGUAGE MATRIX
-   (USED BY static params + routing)
-   ====================================================== */
-
-export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
-  us: ["en", "es"],
-  mena: ["ar", "en"],
-  latam: ["es", "en"],
-  eu: ["en"],
-};
-
-/* ======================================================
-   DEFAULTS
-   ====================================================== */
-
-export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
-  us: "en",
-  mena: "ar",
-  latam: "es",
-  eu: "en",
-};
 
 export const DEFAULT_LANGUAGE: Language = "en";
 
-/* ======================================================
-   TYPE GUARDS
-   ====================================================== */
+const dictionary = {
+  en: {
+    home: {
+      title: "Financial Literacy, Structured for Real Life",
+      subtitle:
+        "Edunancial helps you understand where you are, where you want to go, and which proven paths can get you there.",
+      levels: {
+        title: "The Five Levels of Financial Thinking",
+      },
+      tracks: {
+        title: "Three Proven Paths to Wealth",
+      },
+      cta: "Find Your Starting Level",
+    },
+    levels: {
+      1: {
+        title: "Level 1 — Survival & Stability",
+        summary:
+          "Focuses on income awareness, expenses, and financial survival.",
+      },
+      2: {
+        title: "Level 2 — Control & Planning",
+        summary:
+          "Introduces budgeting, saving, and intentional decision-making.",
+      },
+      3: {
+        title: "Level 3 — Growth & Leverage",
+        summary:
+          "Explores investing, compounding, and measured risk.",
+      },
+      4: {
+        title: "Level 4 — Optimization & Protection",
+        summary:
+          "Emphasizes tax efficiency, asset protection, and systems.",
+      },
+      5: {
+        title: "Level 5 — Ownership & Legacy",
+        summary:
+          "Centers on business ownership, scaling, and generational wealth.",
+      },
+    },
+    tracks: {
+      red: {
+        title: "Red Track — Real Estate",
+        desc: "Property, leverage, income, and long-term asset control.",
+      },
+      white: {
+        title: "White Track — Paper Assets",
+        desc: "Stocks, bonds, options, and financial instruments.",
+      },
+      blue: {
+        title: "Blue Track — Business Ownership",
+        desc: "Companies, cash flow, scaling, and enterprise value.",
+      },
+    },
+  },
 
-export const isLanguage = (value: string): value is Language => {
-  return supportedLanguages.includes(value as Language);
+  es: {
+    home: {
+      title: "Educación Financiera para la Vida Real",
+      subtitle:
+        "Edunancial te ayuda a entender dónde estás, hacia dónde vas y qué caminos probados pueden llevarte allí.",
+      levels: {
+        title: "Los Cinco Niveles de Pensamiento Financiero",
+      },
+      tracks: {
+        title: "Tres Caminos Probados hacia la Riqueza",
+      },
+      cta: "Descubre tu Nivel Inicial",
+    },
+    levels: {
+      1: {
+        title: "Nivel 1 — Supervivencia y Estabilidad",
+        summary:
+          "Enfoque en ingresos, gastos y estabilidad financiera.",
+      },
+      2: {
+        title: "Nivel 2 — Control y Planificación",
+        summary:
+          "Presupuesto, ahorro y decisiones financieras conscientes.",
+      },
+      3: {
+        title: "Nivel 3 — Crecimiento y Apalancamiento",
+        summary:
+          "Inversiones, interés compuesto y riesgo medido.",
+      },
+      4: {
+        title: "Nivel 4 — Optimización y Protección",
+        summary:
+          "Eficiencia fiscal, protección de activos y sistemas.",
+      },
+      5: {
+        title: "Nivel 5 — Propiedad y Legado",
+        summary:
+          "Empresas, expansión y riqueza generacional.",
+      },
+    },
+    tracks: {
+      red: {
+        title: "Ruta Roja — Bienes Raíces",
+        desc: "Propiedad, ingresos y control a largo plazo.",
+      },
+      white: {
+        title: "Ruta Blanca — Activos Financieros",
+        desc: "Acciones, bonos, opciones y mercados.",
+      },
+      blue: {
+        title: "Ruta Azul — Negocios",
+        desc: "Empresas, flujo de caja y crecimiento.",
+      },
+    },
+  },
 };
 
-export const isRegion = (value: string): value is Region => {
-  return supportedRegions.includes(value as Region);
-};
-
-/* ======================================================
-   TRANSLATION DICTIONARY
-   (simple, explicit, legally safe)
-   ====================================================== */
-
-type Dictionary = Record<string, Partial<Record<Language, string>>>;
-
-const DICTIONARY: Dictionary = {
-  "site.title": {
-    en: "Edunancial",
-    es: "Edunancial",
-    ar: "إيدونانشال",
-  },
-
-  "site.tagline": {
-    en: "Financial literacy for real-world wealth",
-    es: "Educación financiera para riqueza real",
-    ar: "محو الأمية المالية لبناء الثروة",
-  },
-
-  "nav.real_estate": {
-    en: "Real Estate",
-    es: "Bienes Raíces",
-    ar: "العقارات",
-  },
-
-  "nav.paper_assets": {
-    en: "Paper Assets",
-    es: "Activos Financieros",
-    ar: "الأصول الورقية",
-  },
-
-  "nav.business": {
-    en: "Business",
-    es: "Negocios",
-    ar: "الأعمال",
-  },
-
-  "cta.start": {
-    en: "Get Started",
-    es: "Comenzar",
-    ar: "ابدأ",
-  },
-};
-
-/* ======================================================
-   TRANSLATION HELPER
-   ====================================================== */
-
-export const t = (
-  key: keyof typeof DICTIONARY,
-  language: Language = DEFAULT_LANGUAGE
-): string => {
-  return (
-    DICTIONARY[key]?.[language] ??
-    DICTIONARY[key]?.[DEFAULT_LANGUAGE] ??
-    key
-  );
-};
+export function t(key: string, language: Language = DEFAULT_LANGUAGE): string {
+  return key
+    .split(".")
+    .reduce((obj: any, k) => obj?.[k], dictionary[language]) ?? key;
+}
