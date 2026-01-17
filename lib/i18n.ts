@@ -1,38 +1,62 @@
 // lib/i18n.ts
-// Central i18n + language contract for the entire app
+// Canonical i18n + region contract for the entire platform
 
-/* -------------------------
-   Supported Languages
--------------------------- */
+/* ======================================================
+   REGIONS
+   ====================================================== */
+
+export const supportedRegions = [
+  "us",
+  "mena",
+  "latam",
+  "eu",
+] as const;
+
+export type Region = (typeof supportedRegions)[number];
+
+/* ======================================================
+   LANGUAGES
+   ====================================================== */
 
 export const supportedLanguages = [
-  "en", // English (US default)
-  "es", // Spanish (US secondary)
-  "ar", // Arabic (MENA)
+  "en", // English
+  "es", // Spanish
+  "ar", // Arabic
 ] as const;
 
 export type Language = (typeof supportedLanguages)[number];
 
-/* -------------------------
-   Defaults
--------------------------- */
+/* ======================================================
+   DEFAULTS BY REGION
+   ====================================================== */
+
+export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
+  us: "en",
+  mena: "ar",
+  latam: "es",
+  eu: "en",
+};
 
 export const DEFAULT_LANGUAGE: Language = "en";
 
-/* -------------------------
-   Runtime Guards
--------------------------- */
+/* ======================================================
+   TYPE GUARDS
+   ====================================================== */
 
 export const isLanguage = (value: string): value is Language => {
   return supportedLanguages.includes(value as Language);
 };
 
-/* -------------------------
-   Translations
-   (simple + safe, no external deps)
--------------------------- */
+export const isRegion = (value: string): value is Region => {
+  return supportedRegions.includes(value as Region);
+};
 
-type Dictionary = Record<string, Record<Language, string>>;
+/* ======================================================
+   TRANSLATION DICTIONARY
+   (simple, explicit, legally safe)
+   ====================================================== */
+
+type Dictionary = Record<string, Partial<Record<Language, string>>>;
 
 const DICTIONARY: Dictionary = {
   "site.title": {
@@ -72,9 +96,9 @@ const DICTIONARY: Dictionary = {
   },
 };
 
-/* -------------------------
-   Translation Helper
--------------------------- */
+/* ======================================================
+   TRANSLATION HELPER
+   ====================================================== */
 
 export const t = (
   key: keyof typeof DICTIONARY,
