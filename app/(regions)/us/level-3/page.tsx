@@ -1,7 +1,7 @@
 // app/(regions)/us/level-3/page.tsx
 
 import { US_LEVELS } from "@/data/us/levels";
-import { AccessGate } from "@/components/AccessGate";
+import AccessGate from "@/components/AccessGate";
 
 export default function USLevel3Page() {
   const level = US_LEVELS.find((l) => l.code === "level-3");
