@@ -1,24 +1,17 @@
 // types/level.ts
 
-/**
- * Canonical subscription plans
- */
-export type RequiredPlan =
-  | "free"
-  | "starter"
-  | "basic"
-  | "pro"
-  | "elite"
-  | "enterprise";
+import type { RequiredPlan } from "@/components/AccessGate";
 
-/**
- * SINGLE source of truth for level data
- */
 export interface LevelDefinition {
-  id: string;
   code: string;
+
   title: string;
-  description?: string;
+
   tagline?: string;
+
+  description?: string;
+
+  outcomes?: string[];
+
   requires?: RequiredPlan | RequiredPlan[];
 }
