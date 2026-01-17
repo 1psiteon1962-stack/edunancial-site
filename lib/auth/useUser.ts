@@ -1,20 +1,28 @@
+// lib/auth/useSession.ts
+
 "use client";
 
-import { getSession } from "./session";
-import { normalizePlan, type PlanCode } from "@/types/plan";
+import { useEffect, useState } from "react";
+import { clearSession, getSession, setSession, type UserSession } from "./session";
 
-export function useUser() {
-  const session = getSession();
+export function useSession() {
+  const [session, setSessionState] = useState<UserSession | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  if (!session) {
-    return {
-      user: null,
-      plan: "free" as PlanCode,
-    };
+  useEffect(() => {
+    setSessionState(getSession());
+    setLoading(false);
+  }, []);
+
+  function update(next: UserSession | null) {
+    setSession(next);
+    setSessionState(next);
   }
 
-  return {
-    user: session,
-    plan: normalizePlan(session.plan),
-  };
+  function clear() {
+    clearSession();
+    setSessionState(null);
+  }
+
+  return { session, loading, setSession: update, clearSession: clear };
 }
