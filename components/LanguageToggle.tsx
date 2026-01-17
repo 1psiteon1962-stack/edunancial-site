@@ -1,19 +1,31 @@
 "use client";
 
 import { useState } from "react";
+import { Language, DEFAULT_LANGUAGE } from "@/lib/i18n";
 
-export default function LanguageToggle() {
-  const [lang, setLang] = useState<"en" | "es">("en");
+export default function LanguageToggle({
+  onChange,
+}: {
+  onChange: (lang: Language) => void;
+}) {
+  const [lang, setLang] = useState<Language>(DEFAULT_LANGUAGE);
+
+  function toggle() {
+    const next = lang === "en" ? "es" : "en";
+    setLang(next);
+    onChange(next);
+  }
 
   return (
     <button
-      onClick={() => setLang(lang === "en" ? "es" : "en")}
+      onClick={toggle}
       style={{
         border: "1px solid #ccc",
         padding: "6px 12px",
-        borderRadius: 4,
+        borderRadius: 6,
+        fontSize: 14,
         cursor: "pointer",
-        fontSize: 14
+        background: "white",
       }}
     >
       {lang === "en" ? "Español" : "English"}
