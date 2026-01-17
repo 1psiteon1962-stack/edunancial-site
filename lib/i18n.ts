@@ -1,5 +1,6 @@
 // lib/i18n.ts
-// Canonical i18n + region contract for the entire platform
+// Canonical i18n + region contract for the entire Edunancial platform
+// Financial literacy platform (non-regulated, non-credentialed)
 
 /* ======================================================
    REGIONS
@@ -27,7 +28,19 @@ export const supportedLanguages = [
 export type Language = (typeof supportedLanguages)[number];
 
 /* ======================================================
-   DEFAULTS BY REGION
+   REGION → LANGUAGE MATRIX
+   (USED BY static params + routing)
+   ====================================================== */
+
+export const REGION_LANGUAGES: Record<Region, readonly Language[]> = {
+  us: ["en", "es"],
+  mena: ["ar", "en"],
+  latam: ["es", "en"],
+  eu: ["en"],
+};
+
+/* ======================================================
+   DEFAULTS
    ====================================================== */
 
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
