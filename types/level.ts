@@ -6,3 +6,8 @@ export type LevelDefinition = {
   level: LevelCode;
   requiredPlan: PlanCode;
 };
+
+/**
+ * Backward-compatible alias used by data files
+ */
+export type LevelSpec = LevelDefinition;
