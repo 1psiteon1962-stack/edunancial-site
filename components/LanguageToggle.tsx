@@ -1,28 +1,25 @@
 "use client";
 
-import { Language } from "@/lib/i18n";
+import { usePathname, useRouter } from "next/navigation";
 
-const LABELS: Record<Language, string> = {
-  en: "English",
-  es: "Español",
-  ar: "العربية",
-};
+export default function LanguageToggle() {
+  const router = useRouter();
+  const pathname = usePathname();
 
-export default function LanguageToggle(props: {
-  language: Language;
-  onChange: (lang: Language) => void;
-}) {
+  function switchTo(lang: "en" | "es") {
+    const segments = pathname.split("/").filter(Boolean);
+    if (segments[0] === "en" || segments[0] === "es") {
+      segments[0] = lang;
+    } else {
+      segments.unshift(lang);
+    }
+    router.push("/" + segments.join("/"));
+  }
+
   return (
-    <select
-      value={props.language}
-      onChange={(e) => props.onChange(e.target.value as Language)}
-      style={{ padding: "6px 10px" }}
-    >
-      {Object.entries(LABELS).map(([code, label]) => (
-        <option key={code} value={code}>
-          {label}
-        </option>
-      ))}
-    </select>
+    <div style={{ display: "flex", gap: "0.5rem" }}>
+      <button onClick={() => switchTo("en")}>English</button>
+      <button onClick={() => switchTo("es")}>Español</button>
+    </div>
   );
 }
