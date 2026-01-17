@@ -1,42 +1,25 @@
 // types/level.ts
 
-export type LevelCode = "L1" | "L2" | "L3" | "L4";
-
+/**
+ * Canonical plan codes used across the platform.
+ * Keep this STRING-BASED to avoid page-level breakage.
+ */
 export type RequiredPlan =
   | "free"
-  | "founder"
+  | "starter"
+  | "basic"
   | "pro"
   | "elite"
   | "enterprise";
 
 /**
- * Canonical level definition used across pages and data.
- * Matches ALL properties referenced by UI components.
+ * Level definition used by region pages.
  */
 export interface LevelDefinition {
-  /** Short code used for lookup (e.g. L1, L2) */
-  code: LevelCode;
-
-  /** Human-readable title */
+  id: string;
+  code: string;
   title: string;
-
-  /** Short subtitle shown under the title */
-  tagline?: string;
-
-  /** Longer descriptive paragraph shown on level pages */
   description?: string;
-
-  /**
-   * AccessGate input.
-   * When present, determines required subscription or feature flags.
-   */
+  tagline?: string;
   requires?: RequiredPlan | RequiredPlan[];
-
-  /** Default required plan if requires is not used */
-  requiredPlan: RequiredPlan;
 }
-
-/**
- * Backward-compatibility alias for existing imports.
- */
-export type LevelSpec = LevelDefinition;
