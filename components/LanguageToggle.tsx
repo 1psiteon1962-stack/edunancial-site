@@ -1,34 +1,28 @@
 "use client";
 
-import { useState } from "react";
-import { Language, DEFAULT_LANGUAGE } from "@/lib/i18n";
+import { Language } from "@/lib/i18n";
 
-export default function LanguageToggle({
-  onChange,
-}: {
+const LABELS: Record<Language, string> = {
+  en: "English",
+  es: "Español",
+  ar: "العربية",
+};
+
+export default function LanguageToggle(props: {
+  language: Language;
   onChange: (lang: Language) => void;
 }) {
-  const [lang, setLang] = useState<Language>(DEFAULT_LANGUAGE);
-
-  function toggle() {
-    const next = lang === "en" ? "es" : "en";
-    setLang(next);
-    onChange(next);
-  }
-
   return (
-    <button
-      onClick={toggle}
-      style={{
-        border: "1px solid #ccc",
-        padding: "6px 12px",
-        borderRadius: 6,
-        fontSize: 14,
-        cursor: "pointer",
-        background: "white",
-      }}
+    <select
+      value={props.language}
+      onChange={(e) => props.onChange(e.target.value as Language)}
+      style={{ padding: "6px 10px" }}
     >
-      {lang === "en" ? "Español" : "English"}
-    </button>
+      {Object.entries(LABELS).map(([code, label]) => (
+        <option key={code} value={code}>
+          {label}
+        </option>
+      ))}
+    </select>
   );
 }
