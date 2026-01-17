@@ -1,55 +1,47 @@
-import { US_LEVELS } from "../../../../data/us/levels";
-import AccessGate from "../components/AccessGate";
+// app/(regions)/us/level-3/page.tsx
+
+import { US_LEVELS } from "@/data/us/levels";
+import { AccessGate } from "@/components/AccessGate";
 
 export default function USLevel3Page() {
-  const lvl = US_LEVELS.find((x) => x.code === "L3");
-  if (!lvl) return null;
+  const level = US_LEVELS.find((l) => l.code === "level-3");
+
+  if (!level) return null;
 
   return (
-    <main>
-      <h1 style={{ fontSize: 30, marginBottom: 6 }}>{lvl.title}</h1>
-      <p style={{ marginTop: 0, opacity: 0.85 }}>{lvl.tagline}</p>
+    <main style={{ padding: 24 }}>
+      <h1 style={{ fontSize: 30, marginBottom: 4 }}>
+        {level.title}
+      </h1>
 
-      <AccessGate required="pro">
-        <div style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14, marginTop: 16 }}>
-          <div style={{ fontWeight: 800, marginBottom: 8 }}>Outcomes</div>
-          <ul style={{ margin: 0, paddingLeft: 18 }}>
-            {lvl.outcomes.map((o) => (
-              <li key={o} style={{ marginBottom: 6 }}>{o}</li>
-            ))}
-          </ul>
-        </div>
+      {level.tagline && (
+        <p style={{ marginTop: 0, opacity: 0.7 }}>
+          {level.tagline}
+        </p>
+      )}
 
-        <div style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14, marginTop: 12 }}>
-          <div style={{ fontWeight: 800, marginBottom: 8 }}>Modules</div>
-          {lvl.modules.map((m) => (
-            <div key={m.title} style={{ marginBottom: 12 }}>
-              <div style={{ fontWeight: 800 }}>{m.title}</div>
-              <ul style={{ margin: "6px 0 0 0", paddingLeft: 18 }}>
-                {m.bullets.map((b) => (
-                  <li key={b} style={{ marginBottom: 6 }}>{b}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </AccessGate>
+      {level.description && (
+        <p style={{ marginTop: 12 }}>
+          {level.description}
+        </p>
+      )}
 
-      <div style={{ marginTop: 16 }}>
-        <a
-          href={lvl.nextPath.href}
+      <AccessGate required={level.requires}>
+        <div
           style={{
-            display: "inline-block",
-            padding: "10px 14px",
-            borderRadius: 10,
-            border: "1px solid #111",
-            textDecoration: "none",
-            fontWeight: 800,
+            border: "1px solid #e5e5e5",
+            borderRadius: 8,
+            padding: 16,
+            marginTop: 24,
           }}
         >
-          {lvl.nextPath.label}
-        </a>
-      </div>
+          <h2>Level 3 Content</h2>
+          <p>
+            Advanced execution tools, strategy layers, and optimization modules
+            live here.
+          </p>
+        </div>
+      </AccessGate>
     </main>
   );
 }
