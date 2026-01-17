@@ -3,38 +3,34 @@
 import { ReactNode } from "react";
 import type { RequiredPlan } from "@/types/level";
 
-export type PlanCode = RequiredPlan;
-
 interface AccessGateProps {
   /**
-   * Required plan(s) to access the wrapped content.
-   * Accepts a single plan or an array of plans.
+   * Required plan(s) to access content.
+   * Accepts a single plan string or an array.
    */
-  required: PlanCode | PlanCode[];
+  required: RequiredPlan | RequiredPlan[];
   children: ReactNode;
 }
 
 /**
  * AccessGate
  *
- * Normalizes `required` to an array so callers may pass:
- *  - "pro"
- *  - ["pro", "elite"]
- *
- * This keeps page-level code simple and prevents type drift.
+ * This component is intentionally STRING-TOLERANT.
+ * Pages may pass "starter", "pro", etc. directly.
  */
 export default function AccessGate({
   required,
   children,
 }: AccessGateProps) {
-  const requiredPlans: PlanCode[] = Array.isArray(required)
+  const requiredPlans: RequiredPlan[] = Array.isArray(required)
     ? required
     : [required];
 
-  // TODO: Replace this with real auth / subscription lookup
-  const userPlan: PlanCode = "free";
+  // TODO: Replace with real auth / subscription lookup
+  const userPlan: RequiredPlan = "free";
 
-  const hasAccess = requiredPlans.includes(userPlan);
+  const hasAccess =
+    requiredPlans.length === 0 || requiredPlans.includes(userPlan);
 
   if (!hasAccess) {
     return (
@@ -48,8 +44,7 @@ export default function AccessGate({
       >
         <strong>Upgrade required</strong>
         <p style={{ marginTop: 8 }}>
-          This content requires one of the following plans:{" "}
-          {requiredPlans.join(", ")}.
+          Required plan: {requiredPlans.join(", ")}
         </p>
       </div>
     );
