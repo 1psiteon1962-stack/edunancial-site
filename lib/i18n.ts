@@ -3,8 +3,8 @@
 export type Region = "us" | "mena";
 
 export const REGION_LANGUAGES = {
-  us: ["en", "es"] as const,
-  mena: ["en", "ar"] as const,
+  us: ["en", "es"],
+  mena: ["en", "ar"],
 } as const;
 
 export type Language =
@@ -53,7 +53,9 @@ export function isLanguage(value: string): value is Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
 }
 
-export function t(key: string, language: Language = DEFAULT_LANGUAGE): string {
-  return TRANSLATIONS[language]?.[key] ?? TRANSLATIONS.en?.[key] ?? key;
+export function t(
+  key: string,
+  language: Language = DEFAULT_LANGUAGE
+): string {
+  return TRANSLATIONS[language]?.[key] ?? TRANSLATIONS.en[key] ?? key;
 }
-```0
