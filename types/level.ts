@@ -1,8 +1,7 @@
 // types/level.ts
 
 /**
- * Canonical plan codes used across the platform.
- * Keep this STRING-BASED to avoid page-level breakage.
+ * Canonical subscription plans
  */
 export type RequiredPlan =
   | "free"
@@ -13,7 +12,7 @@ export type RequiredPlan =
   | "enterprise";
 
 /**
- * Level definition used by region pages.
+ * SINGLE source of truth for level data
  */
 export interface LevelDefinition {
   id: string;
