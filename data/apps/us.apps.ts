@@ -1,3 +1,5 @@
+// data/apps/us.apps.ts
+
 import type { PlanCode } from "@/types/plan";
 
 export type AppCard = {
