@@ -8,7 +8,7 @@ export const REGION_LANGUAGES = {
 } as const;
 
 export type Language =
-  | (typeof REGION_LANGUAGES)[keyof typeof REGION_LANGUAGES][number];
+  (typeof REGION_LANGUAGES)[keyof typeof REGION_LANGUAGES][number];
 
 export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
   us: "en",
@@ -28,7 +28,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     "toggle.ar": "العربية",
   },
   es: {
-    "us.title": "Edunancial — Educación Financiera",
+    "us.title": "Edunancial — Financial Literacy",
     "us.subtitle":
       "Construye riqueza a través de Bienes Raíces, Activos de Papel y Negocios.",
     "toggle.label": "Idioma",
@@ -37,7 +37,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     "toggle.ar": "العربية",
   },
   ar: {
-    "us.title": "إيدونانشال — الثقافة المالية",
+    "us.title": "Edunancial — Financial Literacy",
     "us.subtitle":
       "ابنِ الثروة عبر العقارات والأصول الورقية وملكية الأعمال.",
     "toggle.label": "اللغة",
@@ -47,29 +47,13 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
   },
 };
 
-export const SUPPORTED_LANGUAGES = [
-  "en",
-  "es",
-  "ar",
-] as const satisfies readonly Language[];
+export const SUPPORTED_LANGUAGES = ["en", "es", "ar"] as const;
 
-/**
- * Type guard used by app/mena/[lang]/page.tsx and any other route pages.
- */
 export function isLanguage(value: string): value is Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
 }
 
-/**
- * Simple translation helper.
- * If a key doesn't exist in the selected language, it falls back to English,
- * then falls back to the key itself.
- */
 export function t(key: string, language: Language = DEFAULT_LANGUAGE): string {
-  return (
-    TRANSLATIONS[language]?.[key] ??
-    TRANSLATIONS.en?.[key] ??
-    key
-  );
+  return TRANSLATIONS[language]?.[key] ?? TRANSLATIONS.en?.[key] ?? key;
 }
 ```0
