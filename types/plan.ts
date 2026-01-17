@@ -1,52 +1,48 @@
 // types/plan.ts
 
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "founder"
-  | "pro"
-  | "elite"
-  | "enterprise";
+export type PlanCode = "free" | "starter" | "founder" | "pro" | "elite" | "enterprise";
 
 /**
- * Normalize any incoming plan value to a valid PlanCode.
- * Defaults to "free".
+ * Plan tiers used by level gating and other entitlement checks.
+ * Kept identical to PlanCode for simplicity.
  */
-export function normalizePlan(
-  plan: string | null | undefined
-): PlanCode {
-  switch (plan) {
-    case "starter":
-    case "founder":
-    case "pro":
-    case "elite":
-    case "enterprise":
-      return plan;
-    case "free":
-    default:
-      return "free";
-  }
-}
+export type PlanTier = PlanCode;
 
-/**
- * Canonical access comparison.
- * This exists because canAccess.ts EXPECTS it.
- */
-const PLAN_ORDER: PlanCode[] = [
+const SAFE_PLANS: readonly PlanCode[] = [
   "free",
   "starter",
   "founder",
   "pro",
   "elite",
   "enterprise",
-];
+] as const;
 
-export function hasAccess(
-  userPlan: PlanCode,
-  requiredPlan: PlanCode
-): boolean {
-  return (
-    PLAN_ORDER.indexOf(userPlan) >=
-    PLAN_ORDER.indexOf(requiredPlan)
-  );
+export function normalizePlan(plan: string): PlanCode {
+  const p = String(plan || "")
+    .trim()
+    .toLowerCase();
+
+  // common aliases
+  if (p === "basic") return "starter";
+  if (p === "premium") return "pro";
+
+  if ((SAFE_PLANS as readonly string[]).includes(p)) return p as PlanCode;
+  return "free";
+}
+
+/**
+ * Backwards-compat helper that some files import as `hasAccess`.
+ * Compares a user's plan against a required plan.
+ */
+export function hasAccess(userPlan: PlanCode, required: PlanCode): boolean {
+  const order: Record<PlanCode, number> = {
+    free: 0,
+    starter: 1,
+    founder: 2,
+    pro: 3,
+    elite: 4,
+    enterprise: 5,
+  };
+
+  return order[userPlan] >= order[required];
 }
