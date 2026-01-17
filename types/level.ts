@@ -1,5 +1,8 @@
 // types/level.ts
 
+/**
+ * Plan levels required for gated access
+ */
 export type RequiredPlan =
   | "free"
   | "starter"
@@ -7,17 +10,40 @@ export type RequiredPlan =
   | "enterprise";
 
 /**
- * Canonical level definition used across all regions and pages
+ * Canonical level definition
+ * Used by:
+ * - data/us/levels.ts
+ * - app/(regions)/us/level-* pages
+ * - AccessGate
  */
 export interface LevelDefinition {
+  /**
+   * Stable unique identifier (used in data + routing)
+   */
+  id: string;
+
+  /**
+   * Public-facing level code (e.g. "level-1")
+   */
   code: string;
+
+  /**
+   * Display title
+   */
   title: string;
 
+  /**
+   * Short marketing line
+   */
   tagline?: string;
+
+  /**
+   * Main description paragraph
+   */
   description?: string;
 
   /**
-   * Which plan(s) are required to access this level
+   * Required plan(s) to access this level
    * - undefined or "free" = public
    */
   requires?: RequiredPlan | RequiredPlan[];
