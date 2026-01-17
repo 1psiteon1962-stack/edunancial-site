@@ -1,28 +1,25 @@
-// lib/auth/useSession.ts
+// lib/auth/useUser.ts
 
 "use client";
 
-import { useEffect, useState } from "react";
-import { clearSession, getSession, setSession, type UserSession } from "./session";
+import { useMemo } from "react";
+import type { PlanCode } from "@/types/plan";
+import { normalizePlan } from "@/types/plan";
+import { useSession } from "./useSession";
+import type { UserSession } from "./session";
 
-export function useSession() {
-  const [session, setSessionState] = useState<UserSession | null>(null);
-  const [loading, setLoading] = useState(true);
+export function useUser(): {
+  user: UserSession | null;
+  plan: PlanCode;
+  loading: boolean;
+} {
+  const { session, loading } = useSession();
 
-  useEffect(() => {
-    setSessionState(getSession());
-    setLoading(false);
-  }, []);
+  const plan = useMemo<PlanCode>(() => {
+    const raw = session?.plan;
+    if (typeof raw !== "string") return "free";
+    return normalizePlan(raw);
+  }, [session?.plan]);
 
-  function update(next: UserSession | null) {
-    setSession(next);
-    setSessionState(next);
-  }
-
-  function clear() {
-    clearSession();
-    setSessionState(null);
-  }
-
-  return { session, loading, setSession: update, clearSession: clear };
+  return { user: session, plan, loading };
 }
