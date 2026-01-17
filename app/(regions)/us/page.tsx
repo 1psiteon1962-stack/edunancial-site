@@ -1,67 +1,52 @@
-import Link from "next/link";
-import { US_LEVELS } from "../../../data/us/levels";
+"use client";
+
+import { useState } from "react";
+import { Language, DEFAULT_LANGUAGE, t } from "@/lib/i18n";
+import LanguageToggle from "@/components/LanguageToggle";
 
 export default function USHomePage() {
+  const [lang, setLang] = useState<Language>(DEFAULT_LANGUAGE);
+
   return (
-    <main>
-      <h1 style={{ fontSize: 34, marginBottom: 6 }}>United States</h1>
-      <p style={{ marginTop: 0, opacity: 0.85 }}>
-        Structured founder development from Level 1 through Level 5 — built for brand-new founders and
-        scalable to capital-ready operators.
+    <main style={{ maxWidth: 960, margin: "0 auto", padding: "40px 20px" }}>
+      <div style={{ display: "flex", justifyContent: "flex-end" }}>
+        <LanguageToggle onChange={setLang} />
+      </div>
+
+      <h1 style={{ fontSize: 36, fontWeight: 800, marginTop: 40 }}>
+        {t("heroTitle", lang)}
+      </h1>
+
+      <p style={{ fontSize: 18, maxWidth: 640 }}>
+        {t("heroSubtitle", lang)}
       </p>
 
-      <div style={{ display: "grid", gap: 12, marginTop: 18 }}>
-        {US_LEVELS.map((lvl) => (
-          <div key={lvl.code} style={{ border: "1px solid #e5e5e5", borderRadius: 14, padding: 14 }}>
-            <div style={{ fontWeight: 800, fontSize: 18 }}>{lvl.title}</div>
-            <div style={{ opacity: 0.85, marginTop: 4 }}>{lvl.tagline}</div>
-            <div style={{ marginTop: 10 }}>
-              <Link
-                href={`/us/${lvl.code.toLowerCase().replace("l", "level-")}`}
-                style={{
-                  display: "inline-block",
-                  padding: "10px 14px",
-                  borderRadius: 10,
-                  border: "1px solid #111",
-                  textDecoration: "none",
-                  fontWeight: 800,
-                }}
-              >
-                Open {lvl.code}
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
+      <section style={{ marginTop: 60 }}>
+        <h2 style={{ color: "#c0392b" }}>{t("redTitle", lang)}</h2>
+        <p>{t("redDesc", lang)}</p>
 
-      <div style={{ marginTop: 18, display: "flex", gap: 10, flexWrap: "wrap" }}>
-        <a
-          href="/us/apps"
-          style={{
-            display: "inline-block",
-            padding: "10px 14px",
-            borderRadius: 10,
-            border: "1px solid #111",
-            textDecoration: "none",
-            fontWeight: 800,
-          }}
-        >
-          Go to Apps
-        </a>
-        <a
-          href="/us/pay"
-          style={{
-            display: "inline-block",
-            padding: "10px 14px",
-            borderRadius: 10,
-            border: "1px solid #111",
-            textDecoration: "none",
-            fontWeight: 800,
-          }}
-        >
-          Go to Pay
-        </a>
-      </div>
+        <h2 style={{ color: "#7f8c8d", marginTop: 30 }}>
+          {t("whiteTitle", lang)}
+        </h2>
+        <p>{t("whiteDesc", lang)}</p>
+
+        <h2 style={{ color: "#2980b9", marginTop: 30 }}>
+          {t("blueTitle", lang)}
+        </h2>
+        <p>{t("blueDesc", lang)}</p>
+      </section>
+
+      <footer
+        style={{
+          marginTop: 80,
+          paddingTop: 20,
+          borderTop: "1px solid #ddd",
+          fontSize: 12,
+          color: "#555",
+        }}
+      >
+        {t("disclaimer", lang)}
+      </footer>
     </main>
   );
 }
