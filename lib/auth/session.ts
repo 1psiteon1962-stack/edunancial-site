@@ -1,63 +1,41 @@
-"use client";
-
-import { useCallback, useEffect, useState } from "react";
-import { normalizePlan, type PlanCode } from "@/types/plan";
+// lib/auth/session.ts
 
 export type UserSession = {
-  userId: string;
-  email: string;
-  plan: PlanCode;
+  id?: string;
+  email?: string;
+  name?: string;
+  plan?: string;
 };
 
-const STORAGE_KEY = "edunancial.session";
+type SessionState = {
+  session: UserSession | null;
+};
 
-/**
- * Read session once (non-hook use)
- */
-export function getSession(): UserSession | null {
-  if (typeof window === "undefined") return null;
-  const raw = window.localStorage.getItem(STORAGE_KEY);
-  if (!raw) return null;
+const STORAGE_KEY = "edunancial_session";
 
+function safeParse(raw: string | null): SessionState {
+  if (!raw) return { session: null };
   try {
-    const parsed = JSON.parse(raw);
-    return {
-      userId: parsed.userId,
-      email: parsed.email,
-      plan: normalizePlan(parsed.plan),
-    };
+    const parsed = JSON.parse(raw) as SessionState;
+    return parsed && typeof parsed === "object" ? parsed : { session: null };
   } catch {
-    return null;
+    return { session: null };
   }
 }
 
-/**
- * React hook session access
- */
-export function useSession() {
-  const [session, setSessionState] = useState<UserSession | null>(null);
-  const [loading, setLoading] = useState(true);
+export function getSession(): UserSession | null {
+  if (typeof window === "undefined") return null;
+  const raw = window.localStorage.getItem(STORAGE_KEY);
+  return safeParse(raw).session ?? null;
+}
 
-  useEffect(() => {
-    const s = getSession();
-    setSessionState(s);
-    setLoading(false);
-  }, []);
+export function setSession(session: UserSession | null) {
+  if (typeof window === "undefined") return;
+  const state: SessionState = { session };
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
 
-  const setSession = useCallback((next: UserSession | null) => {
-    setSessionState(next);
-    if (typeof window === "undefined") return;
-
-    if (next) {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } else {
-      window.localStorage.removeItem(STORAGE_KEY);
-    }
-  }, []);
-
-  const clearSession = useCallback(() => {
-    setSession(null);
-  }, [setSession]);
-
-  return { session, loading, setSession, clearSession };
+export function clearSession() {
+  if (typeof window === "undefined") return;
+  window.localStorage.removeItem(STORAGE_KEY);
 }
