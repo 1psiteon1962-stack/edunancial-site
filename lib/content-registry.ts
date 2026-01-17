@@ -1,46 +1,81 @@
-import { Region, Language } from "./i18n";
+// lib/content-registry.ts
+// Central registry for region-based curriculum and track content
+// Designed for scalability, KPIs, licensing, and PE/VC readiness
 
-export type WealthTrack = "real_estate" | "paper_assets" | "business";
+import type { Language } from "./i18n";
 
-export interface CurriculumItem {
+/**
+ * Supported regions (single source of truth)
+ * Add new regions ONLY here.
+ */
+export type RegionSlug = "us" | "mena" | "latam" | "eu";
+
+/**
+ * Core wealth tracks (Edunancial Red / White / Blue)
+ */
+export type TrackKey = "real_estate" | "paper_assets" | "business";
+
+/**
+ * Individual content item (expandable later)
+ */
+export interface ContentItem {
   id: string;
   title: string;
-  summary: string;
-  readingLevel: number; // U.S. grade equivalent
+  description?: string;
+  level?: number; // 1–5 thinking level
+  language?: Language;
 }
 
-export const regionCurriculumContent: Record<
-  Region,
-  Record<WealthTrack, CurriculumItem[]>
-> = {
+/**
+ * Track-level content container
+ */
+export type TrackContent = ContentItem[];
+
+/**
+ * Region-level content container
+ */
+export type RegionContent = Record<TrackKey, TrackContent>;
+
+/**
+ * MASTER CONTENT REGISTRY
+ * This structure is intentionally explicit:
+ * - Enables KPI extraction
+ * - Enables region licensing
+ * - Enables PE/VC diligence
+ * - Prevents silent schema drift
+ */
+export const regionContentRegistry: Record<RegionSlug, RegionContent> = {
   us: {
-    real_estate: [
-      {
-        id: "re-101",
-        title: "How Property Creates Wealth",
-        summary: "Cash flow, leverage, and appreciation explained simply.",
-        readingLevel: 8,
-      },
-    ],
-    paper_assets: [
-      {
-        id: "pa-101",
-        title: "What Stocks Actually Represent",
-        summary: "Ownership, not gambling.",
-        readingLevel: 8,
-      },
-    ],
-    business: [
-      {
-        id: "biz-101",
-        title: "Why Businesses Outperform Jobs",
-        summary: "Control, scalability, and income systems.",
-        readingLevel: 8,
-      },
-    ],
+    real_estate: [],
+    paper_assets: [],
+    business: [],
   },
 
-  mena: { real_estate: [], paper_assets: [], business: [] },
-  latam: { real_estate: [], paper_assets: [], business: [] },
-  eu: { real_estate: [], paper_assets: [], business: [] },
+  mena: {
+    real_estate: [],
+    paper_assets: [],
+    business: [],
+  },
+
+  latam: {
+    real_estate: [],
+    paper_assets: [],
+    business: [],
+  },
+
+  eu: {
+    real_estate: [],
+    paper_assets: [],
+    business: [],
+  },
 };
+
+/**
+ * Utility helpers (optional but safe)
+ */
+export const ALL_REGIONS: RegionSlug[] = ["us", "mena", "latam", "eu"];
+export const ALL_TRACKS: TrackKey[] = [
+  "real_estate",
+  "paper_assets",
+  "business",
+];
