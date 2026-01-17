@@ -11,7 +11,7 @@ export type RequiredPlan =
 
 /**
  * Canonical level definition used across pages and data.
- * This matches ALL properties currently referenced by UI pages.
+ * Matches ALL properties referenced by UI components.
  */
 export interface LevelDefinition {
   /** Short code used for lookup (e.g. L1, L2) */
@@ -26,12 +26,17 @@ export interface LevelDefinition {
   /** Longer descriptive paragraph shown on level pages */
   description?: string;
 
-  /** Minimum subscription plan required */
+  /**
+   * AccessGate input.
+   * When present, determines required subscription or feature flags.
+   */
+  requires?: RequiredPlan | RequiredPlan[];
+
+  /** Default required plan if requires is not used */
   requiredPlan: RequiredPlan;
 }
 
 /**
- * Backward-compatibility alias.
- * Existing data files still import LevelSpec.
+ * Backward-compatibility alias for existing imports.
  */
 export type LevelSpec = LevelDefinition;
