@@ -1,6 +1,7 @@
 /**
  * Canonical KPI type definition
- * Internal use only – feeds analytics, scoring, and capital-readiness metrics
+ * INTERNAL USE ONLY
+ * Supports analytics, diagnostics, and capital-readiness metrics
  */
 
 export type BusinessStage =
@@ -12,17 +13,21 @@ export type BusinessStage =
   | "unspecified";
 
 export interface UserProfileKPI {
+  /** Unique internal identifier (not public) */
+  userId?: string;
+
   /** System metadata */
   timestamp?: string;
   region?: string;
+  source?: string;
 
-  /** Diagnostic-derived level (1–5 or named level) */
+  /** Diagnostic-derived level (Level 1–5 or named track) */
   level?: string;
 
   /** Business maturity indicators */
   businessStage?: BusinessStage;
 
-  /** Identity & contact (internal only, never public) */
+  /** Identity & contact (internal analytics only) */
   name?: string;
   email?: string;
   phone?: string;
@@ -32,7 +37,4 @@ export interface UserProfileKPI {
   hasBusiness?: boolean;
   businessName?: string;
   formalBusiness?: boolean;
-
-  /** Tracking + analytics */
-  source?: string;
 }
