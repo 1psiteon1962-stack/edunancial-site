@@ -1,45 +1,38 @@
-// lib/kpi-types.ts
-// Internal-only KPI and user intelligence schema
+/**
+ * Canonical KPI type definition
+ * Internal use only – feeds analytics, scoring, and capital-readiness metrics
+ */
 
-import type { ThinkingLevel } from "./diagnostic";
-import type { RegionSlug, TrackKey } from "./content-registry";
+export type BusinessStage =
+  | "idea"
+  | "pre-revenue"
+  | "early-revenue"
+  | "scaling"
+  | "institutional"
+  | "unspecified";
 
 export interface UserProfileKPI {
-  userId: string;
-  createdAt: string;
+  /** System metadata */
+  timestamp?: string;
+  region?: string;
 
-  // Identity
-  firstName: string;
-  lastName: string;
-  email: string;
+  /** Diagnostic-derived level (1–5 or named level) */
+  level?: string;
+
+  /** Business maturity indicators */
+  businessStage?: BusinessStage;
+
+  /** Identity & contact (internal only, never public) */
+  name?: string;
+  email?: string;
   phone?: string;
+  country?: string;
 
-  // Geography
-  country: string;
-  region: RegionSlug;
-
-  // Age data (store AGE, not DOB)
-  ageRange:
-    | "under_18"
-    | "18_24"
-    | "25_34"
-    | "35_44"
-    | "45_54"
-    | "55_64"
-    | "65_plus";
-
-  // Business intelligence
-  hasBusiness: boolean;
+  /** Business details */
+  hasBusiness?: boolean;
   businessName?: string;
-  businessJurisdiction?: string;
-  businessFormalized?: boolean;
+  formalBusiness?: boolean;
 
-  // Economic behavior
-  startingLevel: ThinkingLevel;
-  currentLevel: ThinkingLevel;
-  primaryTrackInterest: TrackKey;
-
-  // Internal flags
-  qualifiedForAdvanced?: boolean;
-  investorCandidate?: boolean;
+  /** Tracking + analytics */
+  source?: string;
 }
