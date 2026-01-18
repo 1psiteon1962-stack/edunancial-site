@@ -1,6 +1,6 @@
 import { normalizeUserKPI } from "./kpi-ingest";
 import { writeKPIRecord } from "./kpi-ledger";
-import { CanonicalKPIRecord } from "./types/canonical-kpi-record";
+import type { CanonicalKPIRecord } from "./types/canonical-kpi-record";
 
 export function buildKPIRecord(
   input: any,
