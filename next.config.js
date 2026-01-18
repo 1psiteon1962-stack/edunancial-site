@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // IMPORTANT: do NOT export statically
-  // output: 'export'  ❌ MUST NOT EXIST
+
+  // IMPORTANT:
+  // DO NOT use `output: 'export'`
+  // App Router + Netlify requires server runtime
 };
 
 module.exports = nextConfig;
