@@ -1,5 +1,5 @@
 {
-  "name": "edunancial",
+  "name": "edunancial-site",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/next-runtime": "^5.0.0",
     "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "4.41.3",
-    "typescript": "^5.3.3",
-    "@types/react": "^18.2.45",
-    "@types/react-dom": "^18.2.18",
-    "@types/node": "^20.11.19"
   }
 }
