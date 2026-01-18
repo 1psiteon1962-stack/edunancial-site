@@ -2,7 +2,20 @@
   command = "npm run build"
   publish = ".next"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Force all routes to Next.js (prevents 404 caching)
 [[redirects]]
   from = "/*"
   to = "/"
   status = 200
+  force = true
+
+# Hard cache control to kill stale edge 404s
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    Pragma = "no-cache"
+    Expires = "0"
