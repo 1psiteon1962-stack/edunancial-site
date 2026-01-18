@@ -1,38 +1,27 @@
-import type { UserProfileKPI } from "@/lib/kpi-types";
+import { UserProfileKPI } from "@/lib/types/user-profile-kpi";
 
-export type KPIRecord = {
-  timestamp: string;
-  ip?: string;
-  userAgent?: string;
-  region?: string;
-  level?: string;
-  businessStage?: string;
-};
-
-/**
- * Normalizes raw KPI input from the client into a safe,
- * internally consistent structure.
- *
- * This function is intentionally deterministic and side-effect free.
- */
-export function normalizeUserKPI(input: UserProfileKPI): KPIRecord {
+export function ingestKPI(
+  input: Partial<UserProfileKPI>
+): UserProfileKPI {
   return {
-    timestamp: new Date().toISOString(),
+    userId: input.userId ?? "anonymous",
+    createdAt: input.createdAt ?? new Date().toISOString(),
+
+    firstName: input.firstName ?? "",
+    lastName: input.lastName ?? "",
+    email: input.email ?? "",
+
+    phone: input.phone,
+    address: input.address,
+
     region: input.region ?? "unknown",
     level: input.level ?? "unassigned",
-    businessStage: input.businessStage ?? "unspecified"
+
+    businessName: input.businessName,
+    businessJurisdiction: input.businessJurisdiction,
+    businessType: input.businessType,
+
+    businessStage: input.businessStage ?? "unspecified",
+    timestamp: new Date().toISOString(),
   };
-}
-
-/**
- * Ingests KPI data.
- * Currently a safe no-op placeholder.
- * Later: DB insert, queue publish, or analytics pipeline.
- */
-export async function ingestKPI(record: KPIRecord) {
-  if (process.env.NODE_ENV === "development") {
-    console.log("KPI INGEST:", record);
-  }
-
-  return { ok: true };
 }
