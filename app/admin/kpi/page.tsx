@@ -1,34 +1,27 @@
-import React from "react";
+import { requireAdmin } from "@/lib/auth/require-admin";
+import { UserProfileKPI } from "@/lib/types/user-profile-kpi";
 
-/**
- * ADMIN-ONLY USER PROFILE
- * This is intentionally defined locally to avoid type shadowing
- * across lib/domain layers during Netlify builds.
- */
-type UserProfile = {
-  userId: string;
-  createdAt: string;
-  firstName?: string;
-  lastName?: string;
-  email?: string;
-  level?: string;
-};
-
-const mockData: UserProfile[] = [
+const mockData: UserProfileKPI[] = [
   {
     userId: "sample",
     createdAt: new Date().toISOString(),
     firstName: "Sample",
     lastName: "User",
     email: "sample@example.com",
-    level: "Level 1",
+    region: "us",
+    level: "level-2",
+    businessStage: "early",
+    timestamp: new Date().toISOString(),
   },
 ];
 
-export default function AdminKPIPage() {
+export default function AdminKpiPage() {
+  const isAdmin = false; // replace later with real auth
+  requireAdmin(isAdmin);
+
   return (
     <div style={{ padding: 24 }}>
-      <h1>Admin KPI</h1>
+      <h1>Admin KPI View</h1>
       <pre>{JSON.stringify(mockData, null, 2)}</pre>
     </div>
   );
