@@ -1,6 +1,10 @@
-import { UserProfileKPI } from "@/lib/types/user-profile-kpi";
+import type { UserProfileKPI } from "./types/user-profile-kpi";
 
-export function ingestKPI(
+/**
+ * Canonical normalization layer.
+ * This is the ONLY place raw input becomes a valid KPI user object.
+ */
+export function normalizeUserKPI(
   input: Partial<UserProfileKPI>
 ): UserProfileKPI {
   return {
@@ -19,9 +23,9 @@ export function ingestKPI(
 
     businessName: input.businessName,
     businessJurisdiction: input.businessJurisdiction,
-    businessType: input.businessType,
-
+    businessType: input.businessType ?? "informal",
     businessStage: input.businessStage ?? "unspecified",
+
     timestamp: new Date().toISOString(),
   };
 }
