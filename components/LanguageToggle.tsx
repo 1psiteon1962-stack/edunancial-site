@@ -1,25 +1,43 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import React from "react";
 
-export default function LanguageToggle() {
-  const router = useRouter();
-  const pathname = usePathname();
+export type Language = "en" | "es" | "ar";
 
-  function switchTo(lang: "en" | "es") {
-    const segments = pathname.split("/").filter(Boolean);
-    if (segments[0] === "en" || segments[0] === "es") {
-      segments[0] = lang;
-    } else {
-      segments.unshift(lang);
-    }
-    router.push("/" + segments.join("/"));
-  }
+interface LanguageToggleProps {
+  language: Language;
+  onChange: React.Dispatch<React.SetStateAction<Language>>;
+}
 
+export default function LanguageToggle({
+  language,
+  onChange,
+}: LanguageToggleProps) {
   return (
-    <div style={{ display: "flex", gap: "0.5rem" }}>
-      <button onClick={() => switchTo("en")}>English</button>
-      <button onClick={() => switchTo("es")}>Español</button>
+    <div className="flex gap-2">
+      <button
+        type="button"
+        onClick={() => onChange("en")}
+        className={language === "en" ? "font-bold underline" : ""}
+      >
+        EN
+      </button>
+
+      <button
+        type="button"
+        onClick={() => onChange("es")}
+        className={language === "es" ? "font-bold underline" : ""}
+      >
+        ES
+      </button>
+
+      <button
+        type="button"
+        onClick={() => onChange("ar")}
+        className={language === "ar" ? "font-bold underline" : ""}
+      >
+        AR
+      </button>
     </div>
   );
 }
