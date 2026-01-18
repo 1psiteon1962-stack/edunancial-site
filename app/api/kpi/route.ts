@@ -1,14 +1,9 @@
 import { NextResponse } from "next/server";
-import type { UserProfileKPI } from "@/lib/kpi-types";
-import { normalizeUserKPI } from "@/lib/kpi-ingest";
+import { buildKPIRecord } from "@/lib/kpi-pipeline";
 
 export async function POST(req: Request) {
-  const body = (await req.json()) as UserProfileKPI;
+  const body = await req.json();
+  const record = buildKPIRecord(body, "web");
 
-  const normalized = normalizeUserKPI(body);
-
-  // Placeholder: future DB / warehouse
-  console.log("KPI_EVENT", normalized);
-
-  return NextResponse.json({ status: "ok" });
+  return NextResponse.json({ ok: true, recordId: record.recordId });
 }
