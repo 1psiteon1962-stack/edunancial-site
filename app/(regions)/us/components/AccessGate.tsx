@@ -1,7 +1,10 @@
+"use client";
+
 import { ReactNode } from "react";
-import type { PlanCode } from "@/types/plan";
-import { normalizePlan } from "@/types/plan";
 import { useSession } from "@/lib/auth/useSession";
+import { canAccess } from "@/lib/access/canAccess";
+import { normalizePlan } from "@/types/plan";
+import type { PlanCode } from "@/types/plan";
 
 interface AccessGateProps {
   required?: PlanCode | PlanCode[];
@@ -9,17 +12,20 @@ interface AccessGateProps {
 }
 
 export function AccessGate({ required, children }: AccessGateProps) {
-  const { user } = useSession();
+  const { session } = useSession();
 
-  const userPlan: PlanCode = normalizePlan(user?.plan);
+  // session may be null during load
+  const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
-  if (!required) return <>{children}</>;
+  if (!required) {
+    return <>{children}</>;
+  }
 
-  const allowed = Array.isArray(required)
+  const allowed: readonly PlanCode[] = Array.isArray(required)
     ? required
     : [required];
 
-  if (!allowed.includes(userPlan)) {
+  if (!canAccess(userPlan, allowed)) {
     return null;
   }
 
