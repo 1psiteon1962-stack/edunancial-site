@@ -1,6 +1,6 @@
 // data/us/levels.ts
 
-import type { LevelDefinition } from "@/types/level";
+import type { LevelDefinition } from "../../types/level";
 
 export const US_LEVELS: LevelDefinition[] = [
   {
