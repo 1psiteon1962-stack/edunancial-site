@@ -1,38 +1,18 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { getSession, setSession as persistSession, clearSession } from "./session";
+import { useState } from "react";
+import type { UserSession } from "./session";
 
-export type UserSession = {
-  id?: string;
-  email?: string;
-  plan?: string;
-};
-
-export function useSession() {
-  const [session, setSessionState] = useState<UserSession | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const existing = getSession();
-    setSessionState(existing);
-    setLoading(false);
-  }, []);
-
-  function setSession(next: UserSession | null) {
-    persistSession(next);
-    setSessionState(next);
-  }
-
-  function clear() {
-    clearSession();
-    setSessionState(null);
-  }
+export function useSession(): {
+  session: UserSession | null;
+  loading: boolean;
+  setSession: (s: UserSession | null) => void;
+} {
+  const [session, setSession] = useState<UserSession | null>(null);
 
   return {
     session,
-    loading,
+    loading: false,
     setSession,
-    clearSession: clear,
   };
 }
