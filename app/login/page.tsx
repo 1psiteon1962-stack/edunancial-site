@@ -8,7 +8,6 @@ import type { PlanCode } from "@/types/plan";
 export default function LoginPage() {
   const { session, loading, setSession } = useSession();
 
-  const [email, setEmail] = useState("");
   const [plan, setPlan] = useState<PlanCode>("free");
 
   if (loading) {
@@ -18,7 +17,6 @@ export default function LoginPage() {
   const handleLogin = () => {
     setSession({
       user: {
-        email,
         planCode: plan,
       },
     });
@@ -27,13 +25,6 @@ export default function LoginPage() {
   return (
     <div>
       <h1>Login</h1>
-
-      <input
-        type="email"
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
 
       <select
         value={plan}
