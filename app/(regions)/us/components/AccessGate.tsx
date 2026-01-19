@@ -1,55 +1,30 @@
 "use client";
 
-import React from "react";
+import { ReactNode } from "react";
 import { useUser } from "@/lib/auth/useUser";
 import { canAccess } from "@/lib/access/canAccess";
 import { normalizePlan } from "@/types/plan";
 import type { PlanCode } from "@/types/plan";
 
 type Props = {
-  required: PlanCode;
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 const SAFE_PLANS: readonly PlanCode[] = [
-  "free",
-  "starter",
-  "founder",
-  "pro",
-  "elite",
-  "enterprise",
-] as const;
+  "FREE",
+  "BASIC",
+  "PRO",
+  "ENTERPRISE",
+];
 
-/**
- * Coerce any unknown value into a safe PlanCode.
- */
-function coercePlan(plan: unknown): PlanCode {
-  if (typeof plan !== "string") {
-    return "free";
-  }
+export default function AccessGate({ children }: Props) {
+  const user = useUser();
 
-  const normalized = normalizePlan(plan);
+  const plan: PlanCode = normalizePlan(user?.plan);
 
-  if (SAFE_PLANS.includes(normalized)) {
-    return normalized;
-  }
-
-  return "free";
-}
-
-export function AccessGate({ required, children }: Props) {
-  const { user } = useUser();
-
-  // If no user yet, block render safely
-  if (!user) return null;
-
-  const plan: PlanCode = coercePlan(user.plan);
-
-  if (!canAccess(plan, required)) {
+  if (!canAccess(plan, SAFE_PLANS)) {
     return null;
   }
 
   return <>{children}</>;
 }
-
-export default AccessGate;
