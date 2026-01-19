@@ -1,49 +1,31 @@
 // data/us/levels.ts
 
-/**
- * IMPORTANT:
- * This file intentionally uses a LOCAL type definition
- * instead of "@/types/level" to avoid Netlify/Linux
- * path-alias resolution failures.
- */
-
-/** Local copy of LevelDefinition — DO NOT IMPORT */
-export interface LevelDefinition {
-  id: string;
-  name: string;
-  description: string;
-  requiredPlan?: string;
-}
+import type { LevelDefinition } from "@/types/level";
 
 export const US_LEVELS: LevelDefinition[] = [
   {
-    id: "level-1",
+    code: "level-1",
     name: "Level 1",
-    description: "Foundational access and introductory tools.",
-    requiredPlan: "free",
+    description: "Foundational access to core educational content.",
   },
   {
-    id: "level-2",
+    code: "level-2",
     name: "Level 2",
-    description: "Starter financial and planning tools.",
-    requiredPlan: "starter",
+    description: "Expanded tools and intermediate learning materials.",
   },
   {
-    id: "level-3",
+    code: "level-3",
     name: "Level 3",
-    description: "Intermediate analysis and reporting.",
-    requiredPlan: "basic",
+    description: "Advanced strategy, planning, and applied knowledge.",
   },
   {
-    id: "level-4",
+    code: "level-4",
     name: "Level 4",
-    description: "Advanced modeling and automation.",
-    requiredPlan: "pro",
+    description: "Professional-grade resources and advanced systems.",
   },
   {
-    id: "level-5",
+    code: "level-5",
     name: "Level 5",
-    description: "Enterprise-grade tools and intelligence.",
-    requiredPlan: "enterprise",
+    description: "Executive-level insights and full platform access.",
   },
 ];
