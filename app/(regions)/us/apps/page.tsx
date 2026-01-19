@@ -1,35 +1,22 @@
 import AccessGate from "@/components/AccessGate";
 
-export default function AppsPage() {
-  const card = {
-    padding: "1.25rem",
-    border: "1px solid #e5e7eb",
-    borderRadius: "8px",
-    marginBottom: "1rem",
-  };
+const card: React.CSSProperties = {
+  border: "1px solid #e5e7eb",
+  borderRadius: 8,
+  padding: 16,
+  marginBottom: 16,
+};
 
+export default function AppsPage() {
   return (
-    <div style={{ padding: "2rem" }}>
+    <div>
       <h1>Applications</h1>
 
-      <AccessGate required="STARTER">
+      {/* FIX: PlanCode values are LOWERCASE */}
+      <AccessGate required="starter">
         <div style={card}>
           <h2>Starter Tools</h2>
-          <p>Entry-level financial and planning tools.</p>
-        </div>
-      </AccessGate>
-
-      <AccessGate required="FOUNDER">
-        <div style={card}>
-          <h2>Founder Tools</h2>
-          <p>Advanced business and capital-readiness tools.</p>
-        </div>
-      </AccessGate>
-
-      <AccessGate required="PRO">
-        <div style={card}>
-          <h2>Pro Tools</h2>
-          <p>Institutional-grade analytics and KPI monitoring.</p>
+          <p>Entry-level financial and planning tools</p>
         </div>
       </AccessGate>
     </div>
