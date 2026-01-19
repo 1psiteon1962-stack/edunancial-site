@@ -2,9 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // IMPORTANT:
-  // DO NOT use `output: 'export'`
-  // App Router + Netlify requires server runtime
+  /**
+   * CRITICAL:
+   * This project uses the App Router and dynamic features.
+   * Static export MUST NOT be enabled.
+   *
+   * The following must NOT exist anywhere:
+   * - output: 'export'
+   * - experimental.outputStandalone
+   * - NEXT_PRIVATE_TARGET=export
+   */
 };
 
 module.exports = nextConfig;
