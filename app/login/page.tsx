@@ -1,55 +1,54 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { useSession } from "@/lib/auth/useSession";
+import { normalizePlan } from "@/types/plan";
+import type { PlanCode } from "@/types/plan";
 
 export default function LoginPage() {
-  const { session, loading, setSession, clearSession } = useSession();
-  const [email, setEmail] = useState("");
-  const [plan, setPlan] = useState("free");
+  const { session, loading, setSession } = useSession();
 
-  if (loading) return null;
+  const [email, setEmail] = useState("");
+  const [plan, setPlan] = useState<PlanCode>("free");
+
+  if (loading) {
+    return <div>Loading…</div>;
+  }
+
+  const handleLogin = () => {
+    setSession({
+      user: {
+        email,
+        planCode: plan,
+      },
+    });
+  };
 
   return (
-    <main style={{ padding: 24, maxWidth: 520, margin: "0 auto" }}>
-      <h1 style={{ fontSize: 30 }}>Login</h1>
+    <div>
+      <h1>Login</h1>
 
-      {session ? (
-        <>
-          <p>
-            Logged in as <b>{session.email}</b> ({session.plan})
-          </p>
-          <button onClick={clearSession}>Clear session</button>
-        </>
-      ) : (
-        <>
-          <input
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="email"
-          />
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
 
-          <select value={plan} onChange={(e) => setPlan(e.target.value)}>
-            <option value="free">free</option>
-            <option value="starter">starter</option>
-            <option value="founder">founder</option>
-            <option value="pro">pro</option>
-            <option value="elite">elite</option>
-            <option value="enterprise">enterprise</option>
-          </select>
+      <select
+        value={plan}
+        onChange={(e) => setPlan(normalizePlan(e.target.value))}
+      >
+        <option value="free">Free</option>
+        <option value="pro">Pro</option>
+        <option value="enterprise">Enterprise</option>
+      </select>
 
-          <button
-            onClick={() =>
-              setSession({
-                email,
-                plan,
-              })
-            }
-          >
-            Set session
-          </button>
-        </>
+      <button onClick={handleLogin}>Login</button>
+
+      {session && (
+        <pre>{JSON.stringify(session, null, 2)}</pre>
       )}
-    </main>
+    </div>
   );
 }
