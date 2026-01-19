@@ -1,28 +1,22 @@
-// types/plan.ts
+/**
+ * Canonical plan codes.
+ * ALL plan checks, access gates, and data MUST use these exact lowercase values.
+ */
 
 export type PlanCode =
   | "free"
   | "starter"
-  | "founder"
+  | "basic"
   | "pro"
   | "enterprise";
 
 /**
- * Normalizes any incoming plan value into a valid PlanCode.
- * Defaults to "free" if unknown or missing.
+ * Optional helper if needed elsewhere later.
  */
-export function normalizePlan(plan?: string | null): PlanCode {
-  switch (plan?.toLowerCase()) {
-    case "starter":
-      return "starter";
-    case "founder":
-      return "founder";
-    case "pro":
-      return "pro";
-    case "enterprise":
-      return "enterprise";
-    case "free":
-    default:
-      return "free";
-  }
-}
+export const ALL_PLANS: readonly PlanCode[] = [
+  "free",
+  "starter",
+  "basic",
+  "pro",
+  "enterprise",
+];
