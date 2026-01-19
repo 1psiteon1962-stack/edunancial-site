@@ -1,15 +1,11 @@
-// lib/access/canAccess.ts
-
 import type { PlanCode } from "@/types/plan";
-import { hasAccess, normalizePlan } from "@/types/plan";
 
 /**
- * Central access check used by AccessGate.
- * Accepts unknown-ish inputs safely and always returns boolean.
+ * Returns true if the user's plan is included in the allowed plans.
  */
-export function canAccess(plan: PlanCode | unknown, required: PlanCode): boolean {
-  const userPlan: PlanCode =
-    typeof plan === "string" ? normalizePlan(plan) : "free";
-
-  return hasAccess(userPlan, required);
+export function canAccess(
+  plan: PlanCode,
+  allowedPlans: readonly PlanCode[]
+): boolean {
+  return allowedPlans.includes(plan);
 }
