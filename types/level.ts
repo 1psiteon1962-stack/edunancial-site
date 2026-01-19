@@ -1,10 +1,5 @@
-/**
- * Required plan(s) for accessing a level or gated content.
- * Must align with PlanCode usage elsewhere.
- */
+// types/level.ts
 
-export type RequiredPlan =
-  | "FREE"
-  | "STARTER"
-  | "FOUNDER"
-  | "PRO";
+import type { PlanCode } from "./plan";
+
+export type RequiredPlan = PlanCode;
