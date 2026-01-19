@@ -11,7 +11,7 @@ interface AccessGateProps {
   children: ReactNode;
 }
 
-export function AccessGate({ required, children }: AccessGateProps) {
+function AccessGate({ required, children }: AccessGateProps) {
   const { user } = useUser();
 
   const userPlan: PlanCode = normalizePlan(user?.planCode);
@@ -30,3 +30,6 @@ export function AccessGate({ required, children }: AccessGateProps) {
 
   return <>{children}</>;
 }
+
+export default AccessGate;
+export { AccessGate };
