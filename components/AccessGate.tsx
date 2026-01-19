@@ -1,31 +1,30 @@
-// components/AccessGate.tsx
+"use client";
 
 import type { ReactNode } from "react";
 import { normalizePlan } from "@/types/plan";
-import type { RequiredPlan } from "@/types/level";
+import type { PlanCode } from "@/types/plan";
 import { canAccess } from "@/lib/access/canAccess";
 import { useUser } from "@/lib/auth/useUser";
 
 interface AccessGateProps {
-  required?: RequiredPlan | RequiredPlan[];
+  required?: PlanCode | PlanCode[];
   children: ReactNode;
 }
 
-export default function AccessGate({
-  required,
-  children,
-}: AccessGateProps) {
+export function AccessGate({ required, children }: AccessGateProps) {
   const { user } = useUser();
 
-  if (!required) return <>{children}</>;
+  const userPlan: PlanCode = normalizePlan(user?.planCode);
 
-  const requiredPlans = Array.isArray(required)
+  if (!required) {
+    return <>{children}</>;
+  }
+
+  const allowed: readonly PlanCode[] = Array.isArray(required)
     ? required
     : [required];
 
-  const userPlan = normalizePlan(user?.plan);
-
-  if (!canAccess(userPlan, requiredPlans)) {
+  if (!canAccess(userPlan, allowed)) {
     return null;
   }
 
