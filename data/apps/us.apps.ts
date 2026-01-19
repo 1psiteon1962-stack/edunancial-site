@@ -2,14 +2,14 @@
 
 import type { PlanCode } from "@/types/plan";
 
-export type AppCard = {
+export interface AppDefinition {
   name: string;
   description: string;
   accessLevel: PlanCode;
   lastUpdated: string;
-};
+}
 
-export const US_APPS: AppCard[] = [
+export const usApps: AppDefinition[] = [
   {
     name: "Capital Stack",
     description: "Deal modeling, funding structures, and investor analytics.",
