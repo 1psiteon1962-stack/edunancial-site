@@ -14,8 +14,9 @@ interface AccessGateProps {
 export function AccessGate({ required, children }: AccessGateProps) {
   const { session } = useSession();
 
-  // session may be null during load
-  const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
+  const userPlan: PlanCode = normalizePlan(
+    session?.user?.planCode
+  );
 
   if (!required) {
     return <>{children}</>;
