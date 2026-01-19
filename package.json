@@ -1,22 +1,15 @@
 {
   "name": "edunancial-site",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@netlify/next-runtime": "^4.3.2",
     "next": "14.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/react": "^18.2.45",
-    "@types/node": "^20.11.5"
+    "react-dom": "18.2.0",
+    "@netlify/next-runtime": "^4.3.2"
   }
 }
