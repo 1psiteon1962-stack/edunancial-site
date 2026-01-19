@@ -1,23 +1,28 @@
+// types/plan.ts
+
 export type PlanCode =
-  | "FREE"
-  | "BASIC"
-  | "PRO"
-  | "ENTERPRISE";
+  | "free"
+  | "starter"
+  | "founder"
+  | "pro"
+  | "enterprise";
 
-export function normalizePlan(input: string | null | undefined): PlanCode {
-  if (!input) return "FREE";
-
-  const value = input.toUpperCase();
-
-  switch (value) {
-    case "BASIC":
-      return "BASIC";
-    case "PRO":
-      return "PRO";
-    case "ENTERPRISE":
-      return "ENTERPRISE";
-    case "FREE":
+/**
+ * Normalizes any incoming plan value into a valid PlanCode.
+ * Defaults to "free" if unknown or missing.
+ */
+export function normalizePlan(plan?: string | null): PlanCode {
+  switch (plan?.toLowerCase()) {
+    case "starter":
+      return "starter";
+    case "founder":
+      return "founder";
+    case "pro":
+      return "pro";
+    case "enterprise":
+      return "enterprise";
+    case "free":
     default:
-      return "FREE";
+      return "free";
   }
 }
