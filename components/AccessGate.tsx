@@ -13,3 +13,4 @@ export function AccessGate({ required, children }: AccessGateProps) {
 }
 
 export default AccessGate;
+```0
