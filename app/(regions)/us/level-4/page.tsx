@@ -1,61 +1,17 @@
-// app/(regions)/us/level-4/page.tsx
+import { Levels } from "../../../../data/levels";
+import { AccessGate } from "@/components/AccessGate";
 
-import { US_LEVELS } from "@/data/us/levels";
-import AccessGate from "@/components/AccessGate";
-
-export default function USLevel4Page() {
-  const lvl = US_LEVELS.find((l) => l.code === "level-4");
-
-  if (!lvl) return null;
+export default function LevelFourPage() {
+  const lvl = Levels[4];
 
   return (
     <main style={{ padding: 24 }}>
-      <h1 style={{ fontSize: 30, marginBottom: 4 }}>
-        {lvl.title}
-      </h1>
+      <h1 style={{ fontSize: 30 }}>{lvl.name}</h1>
+      <p style={{ marginTop: 8, opacity: 0.8 }}>{lvl.description}</p>
 
-      {lvl.tagline && (
-        <p style={{ marginTop: 0, opacity: 0.7 }}>
-          {lvl.tagline}
-        </p>
-      )}
-
-      {lvl.description && (
-        <p style={{ marginTop: 12 }}>
-          {lvl.description}
-        </p>
-      )}
-
-      {lvl.outcomes && (
-        <>
-          <div style={{ fontWeight: 800, marginTop: 20 }}>
-            Outcomes
-          </div>
-
-          <ul style={{ margin: 0, paddingLeft: 18 }}>
-            {lvl.outcomes.map((o) => (
-              <li key={o} style={{ marginBottom: 6 }}>
-                {o}
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      <AccessGate required={lvl.requires}>
-        <div
-          style={{
-            border: "1px solid #e5e5e5",
-            borderRadius: 8,
-            padding: 16,
-            marginTop: 24,
-          }}
-        >
-          <h2>Level 4 Content</h2>
-          <p>
-            Capital architecture, governance systems, and advanced leverage
-            frameworks.
-          </p>
+      <AccessGate required="starter">
+        <div style={{ marginTop: 24 }}>
+          <p>Welcome to Level 4 tools.</p>
         </div>
       </AccessGate>
     </main>
