@@ -1,3 +1,3 @@
-export function requireAdmin() {
+export default function requireAdmin() {
   return true;
 }
