@@ -7,6 +7,7 @@ export type LiteracyLevel = 0 | 1 | 2 | 3 | 4 | 5;
 export interface LevelDefinition {
   level: LiteracyLevel;
   name: string;
+  title: string;
   description: string;
   allowedApps: string[];
   allowedPurchases: string[];
@@ -17,6 +18,7 @@ export const Levels: Record<LiteracyLevel, LevelDefinition> = {
   0: {
     level: 0,
     name: "Observer",
+    title: "Observer",
     description: "Browsing only. No transactions.",
     allowedApps: [],
     allowedPurchases: [],
@@ -25,6 +27,7 @@ export const Levels: Record<LiteracyLevel, LevelDefinition> = {
   1: {
     level: 1,
     name: "Foundational",
+    title: "Level 1",
     description: "Basic financial literacy.",
     allowedApps: ["EduReadiness"],
     allowedPurchases: ["starter-guides"],
@@ -33,6 +36,7 @@ export const Levels: Record<LiteracyLevel, LevelDefinition> = {
   2: {
     level: 2,
     name: "Participant",
+    title: "Level 2",
     description: "Understands money, risk, and structure.",
     allowedApps: ["EduReadiness", "EduMath"],
     allowedPurchases: ["courses", "workshops"],
@@ -41,23 +45,26 @@ export const Levels: Record<LiteracyLevel, LevelDefinition> = {
   3: {
     level: 3,
     name: "Builder",
+    title: "Level 3",
     description: "Can model outcomes and scenarios.",
-    allowedApps: ["EduReadiness", "EduMath", "EduVesting"],
+    allowedApps: ["EduReadiness", "EduMath"],
     allowedPurchases: ["advanced-tools", "memberships"],
     capitalAccess: false,
   },
   4: {
     level: 4,
     name: "Investor-Ready",
-    description: "Prepared for structured capital exposure.",
-    allowedApps: ["EduReadiness", "EduMath", "EduVesting"],
+    title: "Level 4",
+    description: "Prepared for structured capital.",
+    allowedApps: ["EduReadiness", "EduMath"],
     allowedPurchases: ["deal-access", "private-briefings"],
     capitalAccess: true,
   },
   5: {
     level: 5,
     name: "Operator",
-    description: "Advanced capital structuring and deployment.",
+    title: "Level 5",
+    description: "Advanced capital structuring and execution.",
     allowedApps: ["ALL"],
     allowedPurchases: ["everything"],
     capitalAccess: true,
