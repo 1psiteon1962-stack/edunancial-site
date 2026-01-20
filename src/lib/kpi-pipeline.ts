@@ -1,16 +1,11 @@
 export type KPIRecord = {
   key: string;
   value: number;
-  timestamp: number;
 };
 
-export function buildKPIRecord(
-  key: string,
-  value: number
-): KPIRecord {
+export function buildKPIRecord(input: unknown): KPIRecord {
   return {
-    key,
-    value,
-    timestamp: Date.now(),
+    key: "default",
+    value: 0,
   };
 }
