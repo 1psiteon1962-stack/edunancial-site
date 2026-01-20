@@ -1,4 +1,4 @@
-import { Levels } from "@/data/levels";
+import { Levels } from "../../../../data/levels";
 import { AccessGate } from "@/components/AccessGate";
 
 export default function LevelOnePage() {
