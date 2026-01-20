@@ -1,17 +1,9 @@
 export const DEFAULT_LANGUAGE = "en";
 
-export type Language = "en" | "es" | "fr" | "de" | "ar";
-
-export const SUPPORTED_LANGUAGES: Language[] = ["en", "es", "fr", "de", "ar"];
-
-export function isLanguage(value: string): value is Language {
-  return SUPPORTED_LANGUAGES.includes(value as Language);
+export function t(key: string, lang: string = DEFAULT_LANGUAGE): string {
+  return key;
 }
 
-/**
- * Minimal translation helper (placeholder).
- * Keeps build happy and lets pages import `t`.
- */
-export function t(key: string, _lang: Language = DEFAULT_LANGUAGE): string {
-  return key;
+export function isLanguage(lang: string): boolean {
+  return typeof lang === "string" && lang.length > 0;
 }
