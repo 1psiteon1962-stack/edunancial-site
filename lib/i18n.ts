@@ -1,61 +1,22 @@
-// lib/i18n.ts
+export const SUPPORTED_LANGUAGES = ["en", "es"] as const;
 
-export type Region = "us" | "mena";
-
-export const REGION_LANGUAGES = {
-  us: ["en", "es"],
-  mena: ["en", "ar"],
-} as const;
-
-export type Language =
-  (typeof REGION_LANGUAGES)[keyof typeof REGION_LANGUAGES][number];
-
-export const DEFAULT_LANGUAGE_BY_REGION: Record<Region, Language> = {
-  us: "en",
-  mena: "en",
-};
+export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
 export const DEFAULT_LANGUAGE: Language = "en";
 
-const TRANSLATIONS: Record<Language, Record<string, string>> = {
+export function isLanguage(value: string): value is Language {
+  return SUPPORTED_LANGUAGES.includes(value as Language);
+}
+
+const translations: Record<Language, Record<string, string>> = {
   en: {
-    "us.title": "Edunancial — Financial Literacy",
-    "us.subtitle":
-      "Build wealth through Real Estate, Paper Assets, and Business Ownership.",
-    "toggle.label": "Language",
-    "toggle.en": "English",
-    "toggle.es": "Español",
-    "toggle.ar": "العربية",
+    welcome: "Welcome",
   },
   es: {
-    "us.title": "Edunancial — Financial Literacy",
-    "us.subtitle":
-      "Construye riqueza a través de Bienes Raíces, Activos de Papel y Negocios.",
-    "toggle.label": "Idioma",
-    "toggle.en": "English",
-    "toggle.es": "Español",
-    "toggle.ar": "العربية",
-  },
-  ar: {
-    "us.title": "Edunancial — Financial Literacy",
-    "us.subtitle":
-      "ابنِ الثروة عبر العقارات والأصول الورقية وملكية الأعمال.",
-    "toggle.label": "اللغة",
-    "toggle.en": "English",
-    "toggle.es": "Español",
-    "toggle.ar": "العربية",
+    welcome: "Bienvenido",
   },
 };
 
-export const SUPPORTED_LANGUAGES = ["en", "es", "ar"] as const;
-
-export function isLanguage(value: string): value is Language {
-  return (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
-}
-
-export function t(
-  key: string,
-  language: Language = DEFAULT_LANGUAGE
-): string {
-  return TRANSLATIONS[language]?.[key] ?? TRANSLATIONS.en[key] ?? key;
+export function t(key: string, lang: Language = DEFAULT_LANGUAGE): string {
+  return translations[lang]?.[key] ?? key;
 }
