@@ -9,12 +9,9 @@ export default function USHomePage() {
 
   return (
     <main style={{ padding: 24 }}>
-      <LanguageToggle
-        value={language}
-        onChange={(lang) => setLanguage(lang as Language)}
-      />
+      <LanguageToggle value={language} onChange={setLanguage} />
 
-      <h1 style={{ marginTop: 24 }}>
+      <h1 style={{ fontSize: 32, marginTop: 24 }}>
         {t("welcome", language)}
       </h1>
     </main>
