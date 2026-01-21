@@ -4,19 +4,22 @@ export type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
 export const DEFAULT_LANGUAGE: Language = "en";
 
-export function isLanguage(value: string): value is Language {
-  return SUPPORTED_LANGUAGES.includes(value as Language);
-}
-
-const translations: Record<Language, Record<string, string>> = {
+const translations = {
   en: {
     welcome: "Welcome",
   },
   es: {
     welcome: "Bienvenido",
   },
-};
+} as const;
 
-export function t(key: string, lang: Language = DEFAULT_LANGUAGE): string {
-  return translations[lang]?.[key] ?? key;
+export function isLanguage(value: string): value is Language {
+  return (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
+}
+
+export function t(
+  key: keyof (typeof translations)["en"],
+  lang: Language = DEFAULT_LANGUAGE
+): string {
+  return translations[lang][key];
 }
