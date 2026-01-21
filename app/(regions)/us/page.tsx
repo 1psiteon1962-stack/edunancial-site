@@ -8,18 +8,15 @@ export default function USHomePage() {
   const [language, setLanguage] = useState<Language>(DEFAULT_LANGUAGE);
 
   return (
-    <main className="p-8">
-      <LanguageToggle
-        language={language}
-        onChange={(lang: Language) => setLanguage(lang)}
-      />
+    <main style={{ padding: 24 }}>
+      <LanguageToggle language={language} setLanguage={setLanguage} />
 
-      <h1 className="text-3xl font-bold mt-6">
-        {t("home_title", language)}
+      <h1 style={{ fontSize: 32, marginTop: 24 }}>
+        {t("homeTitle", language)}
       </h1>
 
-      <p className="mt-4 text-lg">
-        {t("home_subtitle", language)}
+      <p style={{ marginTop: 8, opacity: 0.8 }}>
+        {t("homeSubtitle", language)}
       </p>
     </main>
   );
