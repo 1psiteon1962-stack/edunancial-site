@@ -1,25 +1,30 @@
 "use client";
 
-import { Language } from "@/lib/i18n";
+type Language = "en" | "es";
 
-interface Props {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-}
+type LanguageToggleProps = {
+  value: Language;
+  onChange: (lang: Language) => void;
+};
 
-export default function LanguageToggle({ language, setLanguage }: Props) {
+export default function LanguageToggle({
+  value,
+  onChange,
+}: LanguageToggleProps) {
   return (
     <div style={{ display: "flex", gap: 12 }}>
       <button
-        onClick={() => setLanguage("en")}
-        disabled={language === "en"}
+        type="button"
+        onClick={() => onChange("en")}
+        disabled={value === "en"}
       >
         EN
       </button>
 
       <button
-        onClick={() => setLanguage("es")}
-        disabled={language === "es"}
+        type="button"
+        onClick={() => onChange("es")}
+        disabled={value === "es"}
       >
         ES
       </button>
