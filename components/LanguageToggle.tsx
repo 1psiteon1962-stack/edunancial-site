@@ -1,42 +1,27 @@
 "use client";
 
-import React from "react";
+import { Language } from "@/lib/i18n";
 
-export type Language = "en" | "es" | "ar";
-
-interface LanguageToggleProps {
+interface Props {
   language: Language;
-  onChange: React.Dispatch<React.SetStateAction<Language>>;
+  setLanguage: (lang: Language) => void;
 }
 
-export default function LanguageToggle({
-  language,
-  onChange,
-}: LanguageToggleProps) {
+export default function LanguageToggle({ language, setLanguage }: Props) {
   return (
-    <div className="flex gap-2">
+    <div style={{ display: "flex", gap: 12 }}>
       <button
-        type="button"
-        onClick={() => onChange("en")}
-        className={language === "en" ? "font-bold underline" : ""}
+        onClick={() => setLanguage("en")}
+        disabled={language === "en"}
       >
         EN
       </button>
 
       <button
-        type="button"
-        onClick={() => onChange("es")}
-        className={language === "es" ? "font-bold underline" : ""}
+        onClick={() => setLanguage("es")}
+        disabled={language === "es"}
       >
         ES
-      </button>
-
-      <button
-        type="button"
-        onClick={() => onChange("ar")}
-        className={language === "ar" ? "font-bold underline" : ""}
-      >
-        AR
       </button>
     </div>
   );
