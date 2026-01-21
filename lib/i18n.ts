@@ -1,37 +1,25 @@
-// lib/i18n.ts
-
-export const TRANSLATIONS = {
+export const translations = {
   en: {
-    home_title: "Welcome to Edunancial",
-    home_subtitle: "Financial education built for real people",
+    homeTitle: "Welcome to Edunancial",
+    homeSubtitle: "Financial literacy starts here",
   },
   es: {
-    home_title: "Bienvenido a Edunancial",
-    home_subtitle: "Educación financiera para personas reales",
+    homeTitle: "Bienvenido a Edunancial",
+    homeSubtitle: "La educación financiera comienza aquí",
   },
 } as const;
 
-/**
- * Language type
- * This is what WAS MISSING and caused 3 days of failure
- */
-export type Language = keyof typeof TRANSLATIONS;
+export type Language = keyof typeof translations;
 
-/**
- * Default language
- */
 export const DEFAULT_LANGUAGE: Language = "en";
 
-/**
- * Type guard
- */
 export function isLanguage(value: string): value is Language {
-  return value in TRANSLATIONS;
+  return value in translations;
 }
 
-/**
- * Translation helper
- */
-export function t(key: keyof (typeof TRANSLATIONS)[Language], lang: Language) {
-  return TRANSLATIONS[lang][key];
+export function t(
+  key: keyof (typeof translations)[Language],
+  lang: Language = DEFAULT_LANGUAGE
+): string {
+  return translations[lang][key];
 }
