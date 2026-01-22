@@ -1,18 +1,11 @@
-export interface UserProfileKPI {
-  id: string;
-
-  // user association
-  userId: string;
-
+export interface UserProfile {
   // identity
   firstName: string;
   lastName: string;
+  email: string;
 
-  // KPI metadata
-  title: string;
-  value: number;
-  description?: string;
-
-  // audit
-  createdAt: string;
+  // segmentation
+  region: string;
+  level: string;
+  businessStage: string;
 }
