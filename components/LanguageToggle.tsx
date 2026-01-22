@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-type Language = "en" | "es";
+export type Language = 'en' | 'es';
 
 type LanguageToggleProps = {
   value: Language;
@@ -12,21 +12,29 @@ export default function LanguageToggle({
   onChange,
 }: LanguageToggleProps) {
   return (
-    <div style={{ display: "flex", gap: 12 }}>
+    <div style={{ display: 'flex', gap: '12px', marginBottom: '24px' }}>
       <button
         type="button"
-        onClick={() => onChange("en")}
-        disabled={value === "en"}
+        onClick={() => onChange('en')}
+        style={{
+          padding: '8px 16px',
+          fontWeight: value === 'en' ? 'bold' : 'normal',
+          cursor: 'pointer',
+        }}
       >
-        EN
+        English
       </button>
 
       <button
         type="button"
-        onClick={() => onChange("es")}
-        disabled={value === "es"}
+        onClick={() => onChange('es')}
+        style={{
+          padding: '8px 16px',
+          fontWeight: value === 'es' ? 'bold' : 'normal',
+          cursor: 'pointer',
+        }}
       >
-        ES
+        Español
       </button>
     </div>
   );
