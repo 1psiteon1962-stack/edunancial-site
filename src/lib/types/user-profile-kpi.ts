@@ -1,7 +1,6 @@
-// Canonical KPI type (preferred internal name)
+// Canonical KPI type (internal)
 export interface UserProfileKpi {
   userId: string;
-  createdAt: string;
 
   firstName: string;
   lastName: string;
@@ -10,8 +9,12 @@ export interface UserProfileKpi {
   region: string;
   level: string;
   businessStage: string;
+
+  // Time metadata used by admin KPI UI
+  createdAt: string;
+  timestamp: string;
 }
 
-// Compatibility alias — DO NOT REMOVE
-// Required because app/admin/kpi/page.tsx imports `UserProfileKPI`
+// Compatibility alias — REQUIRED
+// app/admin/kpi/page.tsx imports UserProfileKPI
 export type UserProfileKPI = UserProfileKpi;
