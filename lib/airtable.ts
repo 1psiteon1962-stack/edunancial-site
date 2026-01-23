@@ -1,12 +1,23 @@
-// FILE: lib/airtable.ts
+// lib/airtable.ts
+
+import { UserProfileKPI, KPISource } from "@/lib/types/user-profile-kpi";
 
 export function buildKPIRecord(
-  data: KPIRequest,
-  source: string = "web"
+  data: UserProfileKPI,
+  source: KPISource = "web"
 ) {
   return {
     fields: {
-      ...data,
+      UserId: data.userId,
+      FirstName: data.firstName,
+      LastName: data.lastName,
+      Email: data.email,
+
+      Region: data.region,
+      Level: data.level,
+      BusinessStage: data.businessStage,
+
+      Timestamp: data.timestamp,
       Source: source,
     },
   };
