@@ -1,19 +1,12 @@
-import { Levels } from "../../../../data/levels";
-import { AccessGate } from "@/components/AccessGate";
+import AccessGate from "@/components/AccessGate";
 
-export default function LevelFourPage() {
-  const lvl = Levels[4];
-
+export default function Level4Page() {
   return (
-    <main style={{ padding: 24 }}>
-      <h1 style={{ fontSize: 30 }}>{lvl.name}</h1>
-      <p style={{ marginTop: 8, opacity: 0.8 }}>{lvl.description}</p>
-
-      <AccessGate required="starter">
-        <div style={{ marginTop: 24 }}>
-          <p>Welcome to Level 4 tools.</p>
-        </div>
-      </AccessGate>
-    </main>
+    <AccessGate requiredPlan="elite">
+      <div style={{ padding: 24 }}>
+        <h1>Level 4 — Elite</h1>
+        <p>Full founder-level systems and access.</p>
+      </div>
+    </AccessGate>
   );
 }
