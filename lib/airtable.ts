@@ -1,5 +1,3 @@
-// lib/airtable.ts
-
 import { UserProfileKPI, KPISource } from "@/lib/types/user-profile-kpi";
 
 export function buildKPIRecord(
@@ -18,7 +16,7 @@ export function buildKPIRecord(
       BusinessStage: data.businessStage,
 
       Timestamp: data.timestamp,
-      Source: source,
-    },
+      Source: source
+    }
   };
 }
