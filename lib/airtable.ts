@@ -1,9 +1,13 @@
+// FILE: lib/airtable.ts
+
 export function buildKPIRecord(
-  data: any,
+  data: KPIRequest,
   source: string = "web"
 ) {
   return {
-    ...data,
-    Source: source,
+    fields: {
+      ...data,
+      Source: source,
+    },
   };
 }
