@@ -1,35 +1,39 @@
-export type LevelDefinition = {
+// lib/level-definitions.ts
+
+export interface LevelDefinition {
   code: string;
-  title: string;
+  name: string;
   description: string;
-};
+}
 
 export const LEVEL_DEFINITIONS: Record<string, LevelDefinition> = {
-  "level-1": {
+  starter: {
     code: "starter",
-    title: "Level 1 — Starter",
-    description: "Entry-level tools and financial basics.",
+    name: "Starter Level",
+    description: "Entry-level tools for new entrepreneurs and investors.",
   },
-  "level-2": {
+
+  builder: {
     code: "builder",
-    title: "Level 2 — Builder",
-    description: "Business building and intermediate systems.",
+    name: "Builder Level",
+    description: "Intermediate systems for business growth and execution.",
   },
-  "level-3": {
+
+  pro: {
     code: "pro",
-    title: "Level 3 — Pro",
-    description: "Advanced entrepreneur and investor tools.",
+    name: "Pro Level",
+    description: "Advanced monetization, scaling, and operational strategy.",
   },
-  "level-4": {
+
+  elite: {
     code: "elite",
-    title: "Level 4 — Elite",
-    description: "High-level scaling and capital structuring.",
+    name: "Elite Level",
+    description: "High-level capital structuring and global expansion tools.",
   },
-  "level-5": {
-    code: "architect",
-    title: "Level 5 — Architect",
-    description: "Institutional-grade wealth and global strategy.",
+
+  founder: {
+    code: "founder",
+    name: "Founder Level",
+    description: "Top-tier access for serious founders building empires.",
   },
 };
-
-export default LEVEL_DEFINITIONS;
