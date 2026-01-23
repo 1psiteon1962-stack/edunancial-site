@@ -3,19 +3,31 @@
 import React from "react";
 import Link from "next/link";
 
-type AccessGateProps = {
-  levelRequired: string;
-  userLevel?: string;
+/**
+ * AccessGate
+ * Wraps protected content and blocks users who do not meet the required plan.
+ *
+ * Usage:
+ *   <AccessGate required="starter">
+ *     ...protected content...
+ *   </AccessGate>
+ */
+
+export type AccessGateProps = {
+  required: string;
+  userPlan?: string;
   children: React.ReactNode;
 };
 
-export default function AccessGate({
-  levelRequired,
-  userLevel,
+export function AccessGate({
+  required,
+  userPlan,
   children,
 }: AccessGateProps) {
-  // If user level is missing or too low, block access
-  if (!userLevel || userLevel !== levelRequired) {
+  // TEMP: Replace later with real auth/subscription logic
+  const effectivePlan = userPlan ?? "free";
+
+  if (effectivePlan !== required) {
     return (
       <div
         style={{
@@ -33,11 +45,11 @@ export default function AccessGate({
         </h2>
 
         <p style={{ marginBottom: 16 }}>
-          This page requires access to <strong>{levelRequired}</strong>.
+          This page requires the <strong>{required}</strong> plan.
         </p>
 
         <p style={{ marginBottom: 24 }}>
-          Upgrade your membership to unlock this level.
+          Please upgrade to unlock this content.
         </p>
 
         <Link
@@ -57,6 +69,7 @@ export default function AccessGate({
     );
   }
 
-  // Otherwise show protected content
   return <>{children}</>;
 }
+
+export default AccessGate;
