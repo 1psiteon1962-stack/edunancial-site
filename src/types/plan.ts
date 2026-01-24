@@ -13,15 +13,8 @@ export interface Plan {
   name: string;
   description: string;
 
-  /** Monthly subscription price in USD */
+  // REQUIRED FIX:
   priceMonthlyUsd: number;
 
-  /** Optional annual price */
-  priceYearlyUsd?: number;
-
-  /** Feature bullets */
   features: string[];
-
-  /** Whether purchasable */
-  active?: boolean;
 }
