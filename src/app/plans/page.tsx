@@ -1,18 +1,14 @@
 // src/app/plans/page.tsx
 
 import { PLANS } from "@/data/plans";
-import type { Plan } from "@/types/plan";
 
 export default function PlansPage() {
   return (
-    <div style={{ padding: 32, maxWidth: 900, margin: "0 auto" }}>
+    <div style={{ padding: 32 }}>
       <h1 style={{ fontSize: 36, fontWeight: 900 }}>Plans</h1>
-      <p style={{ marginTop: 8, opacity: 0.8 }}>
-        Choose the access level that fits your needs.
-      </p>
 
-      <div style={{ display: "grid", gap: 16, marginTop: 24 }}>
-        {PLANS.map((p: Plan) => (
+      <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
+        {PLANS.map((p) => (
           <div
             key={p.code}
             style={{
@@ -22,13 +18,13 @@ export default function PlansPage() {
             }}
           >
             <h2 style={{ fontSize: 22, fontWeight: 800 }}>{p.name}</h2>
-            <p style={{ marginTop: 6 }}>{p.description}</p>
+            <p>{p.description}</p>
 
-            <div style={{ marginTop: 12, fontWeight: 900, fontSize: 20 }}>
+            <div style={{ marginTop: 10, fontWeight: 900 }}>
               ${p.priceMonthlyUsd}/mo
             </div>
 
-            <ul style={{ marginTop: 12, paddingLeft: 18 }}>
+            <ul style={{ marginTop: 10 }}>
               {p.features.map((f) => (
                 <li key={f}>{f}</li>
               ))}
