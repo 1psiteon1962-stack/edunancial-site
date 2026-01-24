@@ -3,18 +3,28 @@
 export type PlanCode =
   | "free"
   | "starter"
-  | "growth"
+  | "builder"
   | "pro"
   | "enterprise";
 
-export interface Plan {
+export type Plan = {
   code: PlanCode;
-
-  name: string;
-  description: string;
-
-  // REQUIRED FIX:
+  label: string;
   priceMonthlyUsd: number;
+};
 
-  features: string[];
-}
+export const PLANS: Record<PlanCode, Plan> = {
+  free: {
+    code: "free",
+    label: "Free",
+    priceMonthlyUsd: 0,
+  },
+  starter: {
+    code: "starter",
+    label: "Starter",
+    priceMonthlyUsd: 9,
+  },
+  builder: {
+    code: "builder",
+    label: "Builder",
+    priceMonthly
