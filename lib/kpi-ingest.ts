@@ -1,31 +1,27 @@
-import type { UserProfileKPI } from "./types/user-profile-kpi";
+// lib/kpi-ingest.ts
+
+import { UserProfile } from "@/types/user";
 
 /**
- * Canonical normalization layer.
- * This is the ONLY place raw input becomes a valid KPI user object.
+ * Normalizes raw KPI/user intake into a clean UserProfile object.
+ * This prevents build-breaking shape mismatches.
  */
-export function normalizeUserKPI(
-  input: Partial<UserProfileKPI>
-): UserProfileKPI {
+export function ingestUserProfile(input: Partial<UserProfile>): UserProfile {
   return {
     userId: input.userId ?? "anonymous",
-    createdAt: input.createdAt ?? new Date().toISOString(),
+
+    createdAt: input.createdAt
+      ? new Date(input.createdAt)
+      : new Date(),
 
     firstName: input.firstName ?? "",
     lastName: input.lastName ?? "",
-    email: input.email ?? "",
 
-    phone: input.phone,
-    address: input.address,
+    email: input.email,
+    plan: input.plan ?? "free",
 
-    region: input.region ?? "unknown",
-    level: input.level ?? "unassigned",
-
-    businessName: input.businessName,
-    businessJurisdiction: input.businessJurisdiction,
-    businessType: input.businessType ?? "informal",
-    businessStage: input.businessStage ?? "unspecified",
-
-    timestamp: new Date().toISOString(),
+    lastActiveAt: input.lastActiveAt
+      ? new Date(input.lastActiveAt)
+      : new Date(),
   };
 }
