@@ -1,6 +1,6 @@
 // src/app/plans/page.tsx
 
-import { PLANS } from "@/data/plans";
+import { PLANS } from "../../data/plans";
 
 export default function PlansPage() {
   return (
