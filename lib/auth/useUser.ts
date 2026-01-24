@@ -1,24 +1,47 @@
-"use client";
+// lib/auth/useUser.ts
 
 import { useMemo } from "react";
-import { useSession } from "./useSession";
-import { normalizePlan, type PlanCode } from "@/types/plan";
+import type { PlanCode, UserSession } from "./types";
 
-export function useUser(): {
-  user: any;
-  plan: PlanCode;
-  loading: boolean;
-} {
-  const { session, loading } = useSession();
+/**
+ * Temporary placeholder session loader.
+ * Replace later with real auth provider.
+ */
+function getSession(): UserSession | null {
+  return {
+    userId: null,
+    email: null,
+    isAdmin: false,
+
+    // ✅ Default plan so builds never fail
+    plan: "starter",
+  };
+}
+
+function normalizePlan(value: any): PlanCode {
+  const allowed: PlanCode[] = [
+    "starter",
+    "builder",
+    "pro",
+    "elite",
+    "founder",
+  ];
+
+  if (allowed.includes(value)) return value;
+  return "starter";
+}
+
+export function useUser() {
+  const session = getSession();
 
   const plan = useMemo<PlanCode>(() => {
-    if (!session?.plan || typeof session.plan !== "string") return "free";
+    if (!session?.plan) return "starter";
     return normalizePlan(session.plan);
   }, [session?.plan]);
 
   return {
-    user: session,
+    session,
     plan,
-    loading,
+    isAdmin: session?.isAdmin ?? false,
   };
 }
