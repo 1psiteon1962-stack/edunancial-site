@@ -3,20 +3,34 @@
 export type CurriculumLanguage = "en" | "es";
 
 /**
- * One curriculum entry (one lesson/module)
+ * One curriculum lesson/module
  */
 export type CurriculumItem = {
   title: string;
   description: string;
-  href?: string; // optional link to the page/resource
+  href?: string;
 };
 
 /**
- * Region curriculum structure:
- * - Keys are level names or topic groups
- * - Values are lists of curriculum items
+ * Each region has a structured curriculum page:
+ * - title + description at the top
+ * - curriculum array of lessons/modules
+ */
+export type RegionCurriculumLocaleBlock = {
+  title: string;
+  description: string;
+  curriculum: CurriculumItem[];
+};
+
+/**
+ * Full region curriculum content:
+ * Example:
+ * {
+ *   en: { title, description, curriculum: [...] },
+ *   es: { title, description, curriculum: [...] }
+ * }
  */
 export type RegionCurriculumContent = Record<
   CurriculumLanguage,
-  Record<string, CurriculumItem[]>
+  RegionCurriculumLocaleBlock
 >;
