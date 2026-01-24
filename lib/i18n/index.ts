@@ -6,3 +6,5 @@ export {
   isLanguage,
   t,
 } from "./core";
+
+export type { Language } from "./core";
