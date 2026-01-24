@@ -1,3 +1,5 @@
+// src/types/plan.ts
+
 export type PlanCode =
   | "free"
   | "starter"
@@ -14,12 +16,12 @@ export interface Plan {
   /** Monthly subscription price in USD */
   priceMonthlyUsd: number;
 
-  /** Optional annual price in USD (if you offer yearly billing) */
+  /** Optional annual price */
   priceYearlyUsd?: number;
 
-  /** Feature bullets shown on the Plans page */
+  /** Feature bullets */
   features: string[];
 
-  /** Whether this plan is currently purchasable */
+  /** Whether purchasable */
   active?: boolean;
 }
