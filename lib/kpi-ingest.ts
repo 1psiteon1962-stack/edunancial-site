@@ -3,10 +3,12 @@
 import { UserProfile } from "@/types/user";
 
 /**
- * Normalizes raw KPI/user intake into a clean UserProfile object.
- * This prevents build-breaking shape mismatches.
+ * Canonical normalization step for KPI + user ingestion.
+ * This is the function expected by kpi-pipeline.ts.
  */
-export function ingestUserProfile(input: Partial<UserProfile>): UserProfile {
+export function normalizeUserKPI(
+  input: Partial<UserProfile>
+): UserProfile {
   return {
     userId: input.userId ?? "anonymous",
 
@@ -18,10 +20,20 @@ export function ingestUserProfile(input: Partial<UserProfile>): UserProfile {
     lastName: input.lastName ?? "",
 
     email: input.email,
+
     plan: input.plan ?? "free",
 
     lastActiveAt: input.lastActiveAt
       ? new Date(input.lastActiveAt)
       : new Date(),
   };
+}
+
+/**
+ * Backwards-compatible alias (if other files still call this).
+ */
+export function ingestUserProfile(
+  input: Partial<UserProfile>
+): UserProfile {
+  return normalizeUserKPI(input);
 }
