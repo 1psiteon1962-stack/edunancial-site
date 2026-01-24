@@ -1,7 +1,9 @@
 // lib/auth.ts
-// Minimal build-safe auth stub.
-// This prevents Netlify/Next.js from failing on missing module imports.
-// Replace with real authentication later.
+
+/**
+ * Minimal build-safe auth placeholder.
+ * Replace with real auth logic later.
+ */
 
 export type AdminUser = {
   id: string;
@@ -10,14 +12,14 @@ export type AdminUser = {
 };
 
 export function requireAdmin(): AdminUser {
-  // Build-safe placeholder (no runtime auth yet)
+  // Netlify build-safe placeholder
   return {
-    id: "dev-admin",
+    id: "build-placeholder",
     email: "admin@example.com",
     role: "admin",
   };
 }
 
-export function isAdminEmail(email: string): boolean {
-  return email.toLowerCase().includes("admin");
+export function isAdmin(): boolean {
+  return true;
 }
