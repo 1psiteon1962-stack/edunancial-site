@@ -1,22 +1,13 @@
-import { UserProfileKPI, KPISource } from "@/lib/types/user-profile-kpi";
+// lib/airtable.ts
+// Minimal build-safe Airtable stub.
+// Prevents Webpack module-not-found failures.
+// Replace with real Airtable integration when ready.
 
-export function buildKPIRecord(
-  data: UserProfileKPI,
-  source: KPISource = "web"
-) {
-  return {
-    fields: {
-      UserId: data.userId,
-      FirstName: data.firstName,
-      LastName: data.lastName,
-      Email: data.email,
+export type KPIRecord = {
+  userId: string;
+  metric: string;
+  value: number;
+  createdAt: string;
+};
 
-      Region: data.region,
-      Level: data.level,
-      BusinessStage: data.businessStage,
-
-      Timestamp: data.timestamp,
-      Source: source
-    }
-  };
-}
+export async function
