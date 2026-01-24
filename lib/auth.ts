@@ -1,15 +1,23 @@
 // lib/auth.ts
+// Minimal build-safe auth stub.
+// This prevents Netlify/Next.js from failing on missing module imports.
+// Replace with real authentication later.
 
-/**
- * Temporary admin gate for build stability.
- * Later you will replace this with real authentication logic.
- */
+export type AdminUser = {
+  id: string;
+  email: string;
+  role: "admin";
+};
 
-export function requireAdmin(_ctx?: unknown) {
-  // For now, do nothing (admin pages stay accessible during development).
-  // Later you can enforce:
-  // - session checks
-  // - redirects
-  // - role validation
-  return;
+export function requireAdmin(): AdminUser {
+  // Build-safe placeholder (no runtime auth yet)
+  return {
+    id: "dev-admin",
+    email: "admin@example.com",
+    role: "admin",
+  };
+}
+
+export function isAdminEmail(email: string): boolean {
+  return email.toLowerCase().includes("admin");
 }
