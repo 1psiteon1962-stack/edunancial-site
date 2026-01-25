@@ -1,35 +1,32 @@
 // lib/airtable.ts
 
-/**
- * Build-safe Airtable wrapper.
- * Uses environment variables when real keys exist.
- */
-
-export type KPIRecord = {
+export type KPIInput = {
   userId: string;
-  event: string;
+  plan: string;
   createdAt: string;
+  lastActiveAt: string;
 };
 
-const AIRTABLE_API_KEY = process.env.AIRTABLE_API_KEY || "";
-const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID || "";
-const AIRTABLE_TABLE = process.env.AIRTABLE_TABLE || "kpi";
+export type KPIRecord = {
+  fields: {
+    userId: string;
+    plan: string;
+    createdAt: string;
+    lastActiveAt: string;
+  };
+};
 
-export async function writeToAirtable(record: KPIRecord): Promise<void> {
-  // If Airtable is not configured, silently no-op so build never fails.
-  if (!AIRTABLE_API_KEY || !AIRTABLE_BASE_ID) {
-    console.warn("Airtable not configured — skipping write.");
-    return;
-  }
-
-  await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE}`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${AIRTABLE_API_KEY}`,
-      "Content-Type": "application/json",
+/**
+ * Build a clean Airtable-ready KPI record object.
+ * This is what the API route expects.
+ */
+export function buildKPIRecord(input: KPIInput): KPIRecord {
+  return {
+    fields: {
+      userId: input.userId,
+      plan: input.plan,
+      createdAt: input.createdAt,
+      lastActiveAt: input.lastActiveAt,
     },
-    body: JSON.stringify({
-      fields: record,
-    }),
-  });
+  };
 }
