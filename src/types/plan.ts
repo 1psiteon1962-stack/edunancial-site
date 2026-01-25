@@ -1,69 +1,78 @@
 // src/types/plan.ts
 
+/**
+ * Subscription Plans + Access Control
+ * Netlify build requires PlanCode to include every plan used in AccessGate.
+ */
+
 export type PlanCode =
   | "free"
   | "starter"
+  | "growth"
   | "builder"
   | "pro"
   | "enterprise";
 
-export interface Plan {
+export type Plan = {
   code: PlanCode;
   label: string;
+  priceMonthly: number;
   description: string;
-  priceMonthlyUsd: number;
-}
+};
 
 export const PLANS: Record<PlanCode, Plan> = {
   free: {
     code: "free",
     label: "Free",
-    description: "Basic access to public learning tools.",
-    priceMonthlyUsd: 0,
+    priceMonthly: 0,
+    description: "Basic public access"
   },
 
   starter: {
     code: "starter",
     label: "Starter",
-    description: "Entry-level tools for new entrepreneurs.",
-    priceMonthlyUsd: 9,
+    priceMonthly: 9,
+    description: "Entry-level tools and learning"
+  },
+
+  growth: {
+    code: "growth",
+    label: "Growth",
+    priceMonthly: 29,
+    description: "Intermediate scaling and expansion tools"
   },
 
   builder: {
     code: "builder",
     label: "Builder",
-    description: "Growth tools, templates, and structured programs.",
-    priceMonthlyUsd: 49,
+    priceMonthly: 49,
+    description: "Business building + KPI systems"
   },
 
   pro: {
     code: "pro",
     label: "Pro",
-    description: "Advanced systems, KPI dashboards, and scaling support.",
-    priceMonthlyUsd: 99,
+    priceMonthly: 99,
+    description: "Advanced investor-grade tools"
   },
 
   enterprise: {
     code: "enterprise",
     label: "Enterprise",
-    description: "Full access + custom consulting + institutional tools.",
-    priceMonthlyUsd: 199,
-  },
+    priceMonthly: 199,
+    description: "Full access + institutional features"
+  }
 };
 
 /**
- * Normalize a string into a valid plan code.
- * Defaults to "free".
+ * Normalize user-entered plan values safely.
  */
-export function normalizePlan(value: unknown): PlanCode {
-  if (typeof value !== "string") return "free";
+export function normalizePlan(input: string): PlanCode {
+  const cleaned = input.trim().toLowerCase();
 
-  const v = value.toLowerCase().trim();
-
-  if (v === "starter") return "starter";
-  if (v === "builder") return "builder";
-  if (v === "pro") return "pro";
-  if (v === "enterprise") return "enterprise";
+  if (cleaned in PLANS) {
+    return cleaned as PlanCode;
+  }
 
   return "free";
 }
