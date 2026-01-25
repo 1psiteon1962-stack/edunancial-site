@@ -1,27 +1,33 @@
 // components/AccessGate.tsx
 
 import React from "react";
+import { normalizePlan, type PlanCode } from "@/types/plan";
 
 export interface AccessGateProps {
   children: React.ReactNode;
 
-  // Support BOTH prop styles so builds never break again:
-  required?: string;
-  requiredPlan?: string;
+  // REQUIRED: matches usage everywhere
+  requiredPlan: PlanCode;
 }
 
 export default function AccessGate({
   children,
-  required,
   requiredPlan,
 }: AccessGateProps) {
-  // Normalize: allow either prop name
-  const plan = requiredPlan ?? required ?? "starter";
+  // TEMP: until real auth/session is wired
+  const currentPlan: PlanCode = normalizePlan("free");
 
-  // For now, gate is open (later you can enforce paywalls)
-  return (
-    <div data-access-required={plan}>
-      {children}
-    </div>
-  );
+  const allowed =
+    currentPlan === requiredPlan || currentPlan !== "free";
+
+  if (!allowed) {
+    return (
+      <div style={{ padding: 24 }}>
+        <h2>Upgrade Required</h2>
+        <p>This content requires the {requiredPlan} plan.</p>
+      </div>
+    );
+  }
+
+  return <>{children}</>;
 }
