@@ -6,10 +6,9 @@ import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 export type AccessGateProps = {
   children: React.ReactNode;
 
-  // FIX: required is passed from app/levels/[level]/page.tsx
+  // FIX: required prop MUST exist because page.tsx passes it
   required: string;
 
-  // Optional session (planCode can be null/undefined)
   session?: {
     user?: {
       planCode?: string | null;
@@ -17,19 +16,20 @@ export type AccessGateProps = {
   };
 };
 
-export default function AccessGate({ children, required, session }: AccessGateProps) {
-  // FIX: normalizePlan must accept string | null | undefined internally
+export default function AccessGate({
+  children,
+  required,
+  session,
+}: AccessGateProps) {
+  // normalizePlan now safely accepts null/undefined
   const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
-  // Required plan from prop
   const requiredPlan: PlanCode = normalizePlan(required);
 
-  // Allow access if user meets requirement
   if (userPlan === requiredPlan) {
     return <>{children}</>;
   }
 
-  // Block otherwise
   return (
     <div style={{ padding: 24 }}>
       <h2>Upgrade Required</h2>
