@@ -1,5 +1,5 @@
 import React from "react";
-import { normalizePlan, type PlanCode, DEFAULT_PLAN_CODE } from "@/types/plan";
+import { normalizePlan, type PlanCode } from "@/types/plan";
 
 export interface AccessGateProps {
   children: React.ReactNode;
@@ -11,18 +11,17 @@ export interface AccessGateProps {
   };
 }
 
+const FALLBACK_PLAN: PlanCode = "starter";
+
 export default function AccessGate({
   children,
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // ABSOLUTE FIX: do NOT pass nullable into normalizePlan
-  const planCode: string =
-    session?.user?.planCode == null
-      ? DEFAULT_PLAN_CODE
-      : session.user.planCode;
+  // FIX: force a real string BEFORE calling normalizePlan
+  const rawPlanCode: string = session?.user?.planCode ?? FALLBACK_PLAN;
 
-  const userPlan: PlanCode = normalizePlan(planCode);
+  const userPlan: PlanCode = normalizePlan(rawPlanCode);
 
   if (!requiredPlan) return <>{children}</>;
 
