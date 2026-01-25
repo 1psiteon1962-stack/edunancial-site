@@ -1,12 +1,12 @@
-export type PlanCode = "free" | "starter" | "growth" | "pro" | "enterprise";
-
 export interface Plan {
-  code: PlanCode;
+  code: string;
 
-  // FIX: page.tsx expects p.name
+  // FIX: plans.ts includes "name", so the type must allow it
   name: string;
 
   description: string;
+  priceMonthlyUsd: number;
+  features: string[];
 
-  price?: string;
+  // add any other existing fields below if you already had them
 }
