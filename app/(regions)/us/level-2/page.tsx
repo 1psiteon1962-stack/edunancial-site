@@ -1,3 +1,5 @@
+// app/(regions)/us/level-2/page.tsx
+
 import AccessGate from "@/components/AccessGate";
 
 export default function Level2Page() {
