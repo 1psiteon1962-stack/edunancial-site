@@ -4,16 +4,10 @@ import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 export interface AccessGateProps {
   children: React.ReactNode;
 
-  /**
-   * Pages like app/levels/[level]/page.tsx pass:
-   *   <AccessGate required={def.code}>
-   */
+  // REQUIRED FIX: allow <AccessGate required="..." />
   required?: string;
 
-  /**
-   * Other pages may pass:
-   *   <AccessGate requiredPlan="pro">
-   */
+  // Also allow the older typed form
   requiredPlan?: PlanCode;
 
   session?: {
@@ -29,20 +23,20 @@ export default function AccessGate({
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // User plan always normalized safely
+  // Always normalize safely (normalizePlan must accept undefined/null)
   const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
-  // Accept either required (string) or requiredPlan (typed)
+  // Accept either prop name
   const gatePlan: PlanCode | null = requiredPlan
     ? requiredPlan
     : required
     ? normalizePlan(required)
     : null;
 
-  // If no gate requirement, allow access
+  // No requirement = allow access
   if (!gatePlan) return <>{children}</>;
 
-  // Block if user plan does not match requirement
+  // Block if user plan does not meet requirement
   if (userPlan !== gatePlan) {
     return (
       <div style={{ padding: 24 }}>
