@@ -1,31 +1,12 @@
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "builder"
-  | "pro"
-  | "enterprise";
+export type PlanCode = "free" | "starter" | "growth" | "pro" | "enterprise";
 
-export const DEFAULT_PLAN_CODE: PlanCode = "starter";
+export interface Plan {
+  code: PlanCode;
 
-export function normalizePlan(
-  input?: string | null
-): PlanCode {
-  if (!input) return DEFAULT_PLAN_CODE;
+  // FIX: page.tsx expects p.name
+  name: string;
 
-  const code = input.toLowerCase().trim();
+  description: string;
 
-  switch (code) {
-    case "free":
-      return "free";
-    case "starter":
-      return "starter";
-    case "builder":
-      return "builder";
-    case "pro":
-      return "pro";
-    case "enterprise":
-      return "enterprise";
-    default:
-      return DEFAULT_PLAN_CODE;
-  }
+  price?: string;
 }
