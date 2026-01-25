@@ -16,8 +16,10 @@ export default function AccessGate({
   requiredPlan,
   session,
 }: AccessGateProps) {
-  const planCode = session?.user?.planCode ?? DEFAULT_PLAN_CODE;
-  const userPlan: PlanCode = normalizePlan(planCode);
+  // FIX: guarantee a real string before calling normalizePlan
+  const rawPlanCode: string = session?.user?.planCode ?? DEFAULT_PLAN_CODE;
+
+  const userPlan: PlanCode = normalizePlan(rawPlanCode);
 
   if (!requiredPlan) return <>{children}</>;
 
@@ -32,4 +34,3 @@ export default function AccessGate({
 
   return <>{children}</>;
 }
-```0
