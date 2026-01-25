@@ -1,15 +1,30 @@
-import type { ReactNode } from "react";
+// src/components/AccessGate.tsx
 
-export type PlanCode = "starter" | "pro" | "premium" | "enterprise";
+import React from "react";
 
-type AccessGateProps = {
-  required: PlanCode;
-  children: ReactNode;
+export type AccessGateProps = {
+  children: React.ReactNode;
+  requiredPlan: string;
 };
 
-export function AccessGate({ required, children }: AccessGateProps) {
-  void required;
+export default function AccessGate({
+  children,
+  requiredPlan,
+}: AccessGateProps) {
+  // TEMP DEFAULT UNTIL AUTH EXISTS
+  const currentPlan = "free";
+
+  const allowed =
+    currentPlan === requiredPlan || currentPlan !== "free";
+
+  if (!allowed) {
+    return (
+      <div style={{ padding: 24 }}>
+        <h2>Upgrade Required</h2>
+        <p>This page requires the {requiredPlan} plan.</p>
+      </div>
+    );
+  }
+
   return <>{children}</>;
 }
-
-export default AccessGate;
