@@ -18,10 +18,10 @@ export default function AccessGate({
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // FIX: force a real string BEFORE calling normalizePlan
-  const rawPlanCode: string = session?.user?.planCode ?? FALLBACK_PLAN;
+  // HARD FIX: do NOT pass session?.user?.planCode directly
+  const planCode: string = session?.user?.planCode ?? FALLBACK_PLAN;
 
-  const userPlan: PlanCode = normalizePlan(rawPlanCode);
+  const userPlan: PlanCode = normalizePlan(planCode);
 
   if (!requiredPlan) return <>{children}</>;
 
