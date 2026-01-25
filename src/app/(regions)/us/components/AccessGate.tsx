@@ -16,10 +16,10 @@ export default function AccessGate({
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // FIX: inline fallback so TS cannot complain
-  const userPlan: PlanCode = normalizePlan(
-    session?.user?.planCode ?? "starter"
-  );
+  // HARD FIX: assign to a guaranteed string first (TS cannot infer wrong)
+  const rawPlanCode: string = session?.user?.planCode ?? "starter";
+
+  const userPlan: PlanCode = normalizePlan(rawPlanCode);
 
   if (!requiredPlan) return <>{children}</>;
 
