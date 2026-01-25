@@ -6,8 +6,9 @@ import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 export type AccessGateProps = {
   children: React.ReactNode;
 
-  // REQUIRED PROP (this is what page.tsx is passing)
-  required: string;
+  // SUPPORT BOTH PROP NAMES USED ACROSS THE APP
+  required?: string;
+  requiredPlan?: string;
 
   session?: {
     user?: {
@@ -19,22 +20,25 @@ export type AccessGateProps = {
 export default function AccessGate({
   children,
   required,
+  requiredPlan,
   session,
 }: AccessGateProps) {
-  // Always safe: normalizePlan must accept null/undefined
+  // Accept either prop name
+  const needed = requiredPlan ?? required ?? "free";
+
+  // Always safe normalize
   const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
+  const gatePlan: PlanCode = normalizePlan(needed);
 
-  // Required plan from prop
-  const requiredPlan: PlanCode = normalizePlan(required);
-
-  if (userPlan === requiredPlan) {
+  // Allow access if user meets requirement
+  if (userPlan === gatePlan) {
     return <>{children}</>;
   }
 
   return (
     <div style={{ padding: 24 }}>
       <h2>Upgrade Required</h2>
-      <p>This content requires the {requiredPlan} plan.</p>
+      <p>This content requires the {gatePlan} plan.</p>
     </div>
   );
 }
