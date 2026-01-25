@@ -11,17 +11,15 @@ export interface AccessGateProps {
   };
 }
 
-const FALLBACK_PLAN_CODE: string = "starter";
-
 export default function AccessGate({
   children,
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // FIX: force a guaranteed string BEFORE calling normalizePlan
-  const planCode: string = session?.user?.planCode ?? FALLBACK_PLAN_CODE;
-
-  const userPlan: PlanCode = normalizePlan(planCode);
+  // FIX: inline fallback so TS cannot complain
+  const userPlan: PlanCode = normalizePlan(
+    session?.user?.planCode ?? "starter"
+  );
 
   if (!requiredPlan) return <>{children}</>;
 
