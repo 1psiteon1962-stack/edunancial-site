@@ -1,5 +1,5 @@
 import React from "react";
-import { normalizePlan, type PlanCode } from "@/types/plan";
+import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
 export interface AccessGateProps {
   children: React.ReactNode;
@@ -16,7 +16,7 @@ export default function AccessGate({
   requiredPlan,
   session,
 }: AccessGateProps) {
-  // FIXED: normalizePlan now safely accepts undefined/null
+  // FIXED: normalizePlan now accepts null/undefined safely
   const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
   if (!requiredPlan) return <>{children}</>;
