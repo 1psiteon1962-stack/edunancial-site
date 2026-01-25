@@ -1,12 +1,13 @@
+// src/types/plan.ts
+
 export interface Plan {
   code: string;
 
-  // FIX: plans.ts includes "name", so the type must allow it
+  // REQUIRED: used in src/data/plans.ts
   name: string;
 
   description: string;
   priceMonthlyUsd: number;
-  features: string[];
 
-  // add any other existing fields below if you already had them
+  features: string[];
 }
