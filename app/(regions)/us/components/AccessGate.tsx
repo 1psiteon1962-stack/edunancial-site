@@ -1,33 +1,33 @@
-"use client";
+import React from "react";
+import { normalizePlan, type PlanCode } from "@/types/plan";
 
-import { ReactNode } from "react";
-import { useSession } from "@/lib/auth/useSession";
-import { canAccess } from "@/lib/access/canAccess";
-import { normalizePlan } from "@/types/plan";
-import type { PlanCode } from "@/types/plan";
-
-interface AccessGateProps {
-  required?: PlanCode | PlanCode[];
-  children: ReactNode;
+export interface AccessGateProps {
+  children: React.ReactNode;
+  requiredPlan?: PlanCode;
+  session?: {
+    user?: {
+      planCode?: string | null;
+    };
+  };
 }
 
-export function AccessGate({ required, children }: AccessGateProps) {
-  const { session } = useSession();
+export default function AccessGate({
+  children,
+  requiredPlan,
+  session,
+}: AccessGateProps) {
+  // FIXED: normalizePlan now safely accepts undefined/null
+  const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
-  const userPlan: PlanCode = normalizePlan(
-    session?.user?.planCode
-  );
+  if (!requiredPlan) return <>{children}</>;
 
-  if (!required) {
-    return <>{children}</>;
-  }
-
-  const allowed: readonly PlanCode[] = Array.isArray(required)
-    ? required
-    : [required];
-
-  if (!canAccess(userPlan, allowed)) {
-    return null;
+  if (userPlan !== requiredPlan) {
+    return (
+      <div style={{ padding: 24 }}>
+        <h2>Upgrade Required</h2>
+        <p>This content requires the {requiredPlan} plan.</p>
+      </div>
+    );
   }
 
   return <>{children}</>;
