@@ -1,50 +1,39 @@
+"use client";
+
 import React from "react";
 import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
-export interface AccessGateProps {
+export type AccessGateProps = {
   children: React.ReactNode;
 
-  // REQUIRED FIX: allow <AccessGate required="..." />
-  required?: string;
+  // FIX: required is passed from app/levels/[level]/page.tsx
+  required: string;
 
-  // Also allow the older typed form
-  requiredPlan?: PlanCode;
-
+  // Optional session (planCode can be null/undefined)
   session?: {
     user?: {
       planCode?: string | null;
     };
   };
-}
+};
 
-export default function AccessGate({
-  children,
-  required,
-  requiredPlan,
-  session,
-}: AccessGateProps) {
-  // Always normalize safely (normalizePlan must accept undefined/null)
+export default function AccessGate({ children, required, session }: AccessGateProps) {
+  // FIX: normalizePlan must accept string | null | undefined internally
   const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
 
-  // Accept either prop name
-  const gatePlan: PlanCode | null = requiredPlan
-    ? requiredPlan
-    : required
-    ? normalizePlan(required)
-    : null;
+  // Required plan from prop
+  const requiredPlan: PlanCode = normalizePlan(required);
 
-  // No requirement = allow access
-  if (!gatePlan) return <>{children}</>;
-
-  // Block if user plan does not meet requirement
-  if (userPlan !== gatePlan) {
-    return (
-      <div style={{ padding: 24 }}>
-        <h2>Upgrade Required</h2>
-        <p>This content requires the {gatePlan} plan.</p>
-      </div>
-    );
+  // Allow access if user meets requirement
+  if (userPlan === requiredPlan) {
+    return <>{children}</>;
   }
 
-  return <>{children}</>;
+  // Block otherwise
+  return (
+    <div style={{ padding: 24 }}>
+      <h2>Upgrade Required</h2>
+      <p>This content requires the {requiredPlan} plan.</p>
+    </div>
+  );
 }
