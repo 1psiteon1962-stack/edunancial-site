@@ -1,8 +1,8 @@
 // lib/db/schema.ts
 
 /**
- * Minimal shared DB schema types.
- * This file MUST exist because API routes import from "@/lib/db/schema".
+ * Shared DB schema types.
+ * Required for API route imports: "@/lib/db/schema"
  */
 
 export type ParticipantProfile = {
@@ -16,5 +16,5 @@ export type ParticipantProfile = {
   region?: string;
   language?: string;
 
-  createdAt: string; // ISO string
+  createdAt: string;
 };
