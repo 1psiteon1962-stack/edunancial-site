@@ -1,4 +1,7 @@
-import { isLanguage, type Language } from "@/lib/i18n";
+// app/mena/[lang]/page.tsx
+
+import { isLanguage } from "@/lib/i18n";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: {
@@ -6,18 +9,15 @@ type Props = {
   };
 };
 
-export default function MENAPage({ params }: Props) {
-  const raw = params.lang;
-
-  // isLanguage only takes ONE argument
-  if (!isLanguage(raw)) {
-    return null;
+export default function MenaLangPage({ params }: Props) {
+  if (!isLanguage(params.lang)) {
+    return notFound();
   }
 
-  const lang: Language = raw;
+  const lang = params.lang;
 
   return (
-    <main style={{ padding: 40 }}>
+    <main style={{ padding: "2rem" }}>
       <h1>MENA Region</h1>
       <p>Language: {lang}</p>
     </main>
