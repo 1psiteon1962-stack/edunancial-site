@@ -2,28 +2,21 @@
 
 import React from "react";
 
-export type GlobalLayoutProps = {
-  children: React.ReactNode;
+type GlobalLayoutProps = {
   title?: string;
+  children: React.ReactNode;
 };
 
-export default function GlobalLayout({
-  children,
-  title,
-}: GlobalLayoutProps) {
+export default function GlobalLayout({ title, children }: GlobalLayoutProps) {
   return (
-    <div style={{ minHeight: "100vh", background: "#ffffff" }}>
+    <main style={{ padding: "2rem", maxWidth: "960px", margin: "0 auto" }}>
       {title && (
-        <header
-          style={{
-            padding: "1.5rem 1rem",
-            borderBottom: "1px solid #e5e7eb",
-          }}
-        >
-          <h1 style={{ fontSize: "1.75rem", fontWeight: 700 }}>{title}</h1>
+        <header style={{ marginBottom: "1.5rem" }}>
+          <h1 style={{ fontSize: "2rem", fontWeight: 700 }}>{title}</h1>
         </header>
       )}
-      <main style={{ padding: "2rem 1rem" }}>{children}</main>
-    </div>
+
+      <section>{children}</section>
+    </main>
   );
 }
