@@ -1,9 +1,8 @@
 // src/types/plan.ts
 
-export type Plan = {
-  code: string;
-  name: string;
-  description: string;
-  priceMonthlyUsd: number;
-  features: string[];
-};
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "builder"
+  | "pro"
+  | "enterprise";
