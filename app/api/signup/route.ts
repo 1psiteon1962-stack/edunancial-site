@@ -1,28 +1,35 @@
+// app/api/signup/route.ts
+
 import { NextRequest, NextResponse } from "next/server";
 import { UserProfile } from "@/lib/types/user-profile";
 
 export async function POST(req: NextRequest) {
-  const data = await req.formData();
+  try {
+    const data = await req.formData();
 
-  const profile: UserProfile = {
-    firstName: String(data.get("firstName")),
-    lastName: String(data.get("lastName")),
-    email: String(data.get("email")),
-    phone: data.get("phone")?.toString(),
+    const email = data.get("email")?.toString() || "";
 
-    country: String(data.get("country")),
-    ageRange: data.get("ageRange") as any,
+    if (!email) {
+      return NextResponse.json(
+        { error: "Email is required" },
+        { status: 400 }
+      );
+    }
 
-    hasBusiness: data.get("hasBusiness") === "on",
-    businessName: data.get("businessName")?.toString(),
-    businessJurisdiction: data.get("businessJurisdiction")?.toString(),
-    businessStatus: data.get("businessStatus") as any,
+    const profile: UserProfile = {
+      id: crypto.randomUUID(),
+      email,
+      createdAt: new Date().toISOString(),
+      plan: "free",
+      region: "us",
+      language: "en",
+    };
 
-    createdAt: new Date().toISOString(),
-  };
-
-  // Placeholder: store internally (DB, CRM, sheet, etc.)
-  console.log("NEW SIGNUP", profile);
-
-  return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true, profile });
+  } catch {
+    return NextResponse.json(
+      { error: "Signup failed" },
+      { status: 500 }
+    );
+  }
 }
