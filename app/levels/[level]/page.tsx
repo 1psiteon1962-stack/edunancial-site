@@ -1,7 +1,7 @@
 // app/levels/[level]/page.tsx
 
 import { notFound } from "next/navigation";
-import { LEVEL_DEFINITIONS } from "@/src/data/levels";
+import { LEVEL_DEFINITIONS } from "@/data/levels";
 
 export default function LevelPage({
   params,
