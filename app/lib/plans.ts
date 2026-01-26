@@ -1,9 +1,9 @@
 // app/lib/plans.ts
 
-// ✅ THIS MUST BE EXPORTED
+// ✅ EXPORT THE TYPE (this is what Netlify is demanding)
 export type PlanCode = "starter" | "growth" | "enterprise";
 
-// ✅ Normalizer used by AccessGate
+// ✅ Normalizer stays exported
 export function normalizePlan(plan: string): PlanCode {
   const p = plan.toLowerCase().trim();
 
@@ -14,7 +14,7 @@ export function normalizePlan(plan: string): PlanCode {
   return "starter";
 }
 
-// ✅ Optional: Plan metadata
+// ✅ Optional plan metadata
 export const PLANS: Record<
   PlanCode,
   {
@@ -33,7 +33,7 @@ export const PLANS: Record<
   growth: {
     name: "Growth",
     price: 9.99,
-    description: "Expanded access for serious builders.",
+    description: "Expanded access for builders.",
     features: ["Full library", "Premium tools", "Growth systems"],
   },
   enterprise: {
