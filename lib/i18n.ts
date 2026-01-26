@@ -1,49 +1,56 @@
-export const DEFAULT_LANGUAGE = "en" as const;
+// lib/i18n.ts
 
-export const REGION_LANGUAGES = {
-  us: ["en", "es"],
+export type Language =
+  // Global default
+  | "en"
 
-  europe: ["en", "fr", "es", "pt", "it", "nl", "de", "pl"],
+  // Europe
+  | "fr"
+  | "es"
+  | "pt"
+  | "it"
+  | "de"
+  | "pl"
+  | "nl"
 
-  latam: ["es", "en", "pt"],
+  // Asia
+  | "ja"
+  | "ko"
 
-  mena: ["en", "ar"],
+  // Caribbean extras
+  | "ht"
 
-  africa: ["en", "fr", "pt"],
+  // MENA
+  | "ar";
 
-  caribbean: ["en", "es", "fr", "nl"],
+export const LANGUAGES: Language[] = [
+  // Global
+  "en",
 
-  asia: ["en", "ja", "ko"],
-} as const;
+  // Europe
+  "fr",
+  "es",
+  "pt",
+  "it",
+  "de",
+  "pl",
+  "nl",
 
-export type RegionCode = keyof typeof REGION_LANGUAGES;
-export type Language = (typeof REGION_LANGUAGES)[RegionCode][number];
+  // Asia
+  "ja",
+  "ko",
 
-export const SUPPORTED_LANGUAGES = Array.from(
-  new Set(Object.values(REGION_LANGUAGES).flat())
-) as Language[];
+  // Caribbean
+  "ht",
 
-export function isLanguage(value: string): value is Language {
-  return (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
+  // MENA
+  "ar",
+];
+
+export function isLanguage(x: string): x is Language {
+  return LANGUAGES.includes(x as Language);
 }
 
-type Dictionary = Record<string, string>;
-
-const DICTS: Record<Language, Dictionary> = {
-  en: {},
-  es: {},
-  fr: {},
-  pt: {},
-  it: {},
-  nl: {},
-  de: {},
-  pl: {},
-  ar: {},
-  ja: {},
-  ko: {},
-};
-
-export function t(key: string, lang: Language = DEFAULT_LANGUAGE): string {
-  const dict = DICTS[lang] ?? DICTS[DEFAULT_LANGUAGE];
-  return dict?.[key] ?? key;
+export function normalizeLanguage(x: string): Language {
+  return isLanguage(x) ? (x as Language) : "en";
 }
