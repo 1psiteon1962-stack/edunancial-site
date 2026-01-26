@@ -1,6 +1,6 @@
 // app/regions/page.tsx
 
-export const REGIONS = {
+const REGIONS = {
   us: { code: "us", name: "United States", enabled: true },
   caribbean: { code: "caribbean", name: "Caribbean", enabled: true },
   europe: { code: "europe", name: "Europe", enabled: true },
