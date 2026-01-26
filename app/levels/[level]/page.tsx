@@ -1,26 +1,29 @@
 // app/levels/[level]/page.tsx
 
-import AccessGate from "@/components/AccessGate";
-import { LEVEL_DEFINITIONS } from "@/lib/level-definitions";
+import { notFound } from "next/navigation";
+import { LEVEL_DEFINITIONS } from "@/src/data/levels";
 
-export default function LevelPage({ params }: { params: { level: string } }) {
-  const def = LEVEL_DEFINITIONS[params.level];
+export default function LevelPage({
+  params,
+}: {
+  params: { level: string };
+}) {
+  const levelIndex = Number(params.level);
+
+  if (Number.isNaN(levelIndex)) {
+    return notFound();
+  }
+
+  const def = LEVEL_DEFINITIONS[levelIndex];
 
   if (!def) {
-    return (
-      <div style={{ padding: 24 }}>
-        <h1>Level Not Found</h1>
-        <p>The requested level does not exist.</p>
-      </div>
-    );
+    return notFound();
   }
 
   return (
-    <AccessGate required={def.code}>
-      <div style={{ padding: 24 }}>
-        <h1>{def.name}</h1>
-        <p>{def.description}</p>
-      </div>
-    </AccessGate>
+    <main style={{ padding: "2rem" }}>
+      <h1>{def.title}</h1>
+      <p>{def.description}</p>
+    </main>
   );
 }
