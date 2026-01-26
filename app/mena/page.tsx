@@ -2,7 +2,7 @@ import GlobalLayout from "@/components/GlobalLayout";
 
 export default function MenaPage() {
   return (
-    <GlobalLayout title="Middle East & North Africa">
+    <GlobalLayout>
       <p>
         MENA emphasizes capital concentration, governance structure,
         and jurisdictional awareness in capital-dense environments.
