@@ -1,39 +1,41 @@
+// app/(regions)/us/components/AccessGate.tsx
+
 "use client";
 
 import React from "react";
-import { normalizePlan, type PlanCode } from "@/app/lib/plans";
+import { normalizePlan } from "@/app/lib/plans";
+import type { PlanCode } from "@/types/plan";
 
 export type AccessGateProps = {
   children: React.ReactNode;
-
-  // FIX: required prop MUST exist because page.tsx passes it
-  required: string;
-
-  session?: {
-    user?: {
-      planCode?: string | null;
-    };
-  };
+  requiredPlan?: PlanCode;
+  userPlan?: string | null;
 };
 
 export default function AccessGate({
   children,
-  required,
-  session,
+  requiredPlan = "free",
+  userPlan,
 }: AccessGateProps) {
-  // normalizePlan now safely accepts null/undefined
-  const userPlan: PlanCode = normalizePlan(session?.user?.planCode);
+  const normalizedUserPlan = normalizePlan(userPlan);
 
-  const requiredPlan: PlanCode = normalizePlan(required);
+  const allowed =
+    normalizedUserPlan === requiredPlan ||
+    normalizedUserPlan === "enterprise";
 
-  if (userPlan === requiredPlan) {
-    return <>{children}</>;
+  if (!allowed) {
+    return (
+      <div className="p-6 border rounded bg-red-50 text-red-700">
+        <h2 className="text-xl font-bold mb-2">
+          Access Restricted
+        </h2>
+        <p>
+          Your current plan (<strong>{normalizedUserPlan}</strong>) does not
+          allow access to this content.
+        </p>
+      </div>
+    );
   }
 
-  return (
-    <div style={{ padding: 24 }}>
-      <h2>Upgrade Required</h2>
-      <p>This content requires the {requiredPlan} plan.</p>
-    </div>
-  );
+  return <>{children}</>;
 }
