@@ -1,7 +1,17 @@
 // app/regions/page.tsx
 
-import Link from "next/link";
-import { REGIONS } from "@/data/regions";
+export const REGIONS = {
+  us: { code: "us", name: "United States", enabled: true },
+  caribbean: { code: "caribbean", name: "Caribbean", enabled: true },
+  europe: { code: "europe", name: "Europe", enabled: true },
+  mena: { code: "mena", name: "Middle East & North Africa", enabled: true },
+  asia: { code: "asia", name: "Asia", enabled: true },
+  africa: { code: "africa", name: "Africa", enabled: true },
+  latin: { code: "latin", name: "Latin America", enabled: true },
+} satisfies Record<
+  string,
+  { code: string; name: string; enabled: boolean }
+>;
 
 export default function RegionsIndexPage() {
   const enabledRegions = Object.entries(REGIONS).filter(
@@ -9,22 +19,26 @@ export default function RegionsIndexPage() {
   );
 
   return (
-    <main style={{ padding: "2rem", maxWidth: "900px" }}>
-      <h1>Edunancial Global Regions</h1>
+    <main className="mx-auto max-w-4xl px-6 py-12">
+      <h1 className="text-4xl font-bold">Regions</h1>
 
-      <p style={{ opacity: 0.8 }}>
-        Edunancial delivers region-specific entrepreneurship education,
-        tailored to legal, financial, and cultural systems worldwide.
+      <p className="mt-4 text-gray-600">
+        Select a region to explore localized education, structure, and
+        jurisdictional strategy.
       </p>
 
-      <ul style={{ marginTop: "2rem" }}>
-        {enabledRegions.map(([key, region]) => (
-          <li key={key} style={{ marginBottom: "1.5rem" }}>
-            <h3>{region.name}</h3>
-            <p>{region.description}</p>
-            <Link href={`/${key}`}>
-              → Explore {region.name}
-            </Link>
+      <ul className="mt-8 space-y-3">
+        {enabledRegions.map(([_, region]) => (
+          <li
+            key={region.code}
+            className="rounded-lg border p-4 hover:shadow-sm"
+          >
+            <a
+              href={`/regions/${region.code}`}
+              className="text-lg font-semibold"
+            >
+              {region.name}
+            </a>
           </li>
         ))}
       </ul>
