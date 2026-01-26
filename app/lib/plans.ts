@@ -1,13 +1,29 @@
 // app/lib/plans.ts
 
-export type PlanCode = "starter" | "growth" | "enterprise";
+export const plans = {
+  free: {
+    code: "free",
+    name: "Free",
+  },
+  starter: {
+    code: "starter",
+    name: "Starter",
+  },
+  growth: {
+    code: "growth",
+    name: "Growth",
+  },
+  enterprise: {
+    code: "enterprise",
+    name: "Enterprise",
+  },
+} as const;
 
-export function normalizePlan(plan: string): PlanCode {
-  const p = plan.toLowerCase().trim();
+/** ✅ Export PlanCode so other modules can import it */
+export type PlanCode = keyof typeof plans;
 
-  if (p === "starter" || p === "basic") return "starter";
-  if (p === "growth" || p === "pro") return "growth";
-  if (p === "enterprise") return "enterprise";
-
-  return "starter";
+/** Normalize any input into a valid PlanCode */
+export function normalizePlan(value: string): PlanCode {
+  const key = value?.toLowerCase() as PlanCode;
+  return key in plans ? key : "free";
 }
