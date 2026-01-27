@@ -2,28 +2,32 @@
 
 export const plans = {
   free: {
-    code: "free",
     name: "Free",
+    price: 0,
   },
   starter: {
-    code: "starter",
     name: "Starter",
+    price: 4.99,
   },
   growth: {
-    code: "growth",
     name: "Growth",
-  },
-  enterprise: {
-    code: "enterprise",
-    name: "Enterprise",
+    price: 9.99,
   },
 } as const;
 
-/** ✅ Export PlanCode so other modules can import it */
+/**
+ * ✅ FIX: Export PlanCode so other modules (AccessGate) can import it.
+ */
 export type PlanCode = keyof typeof plans;
 
-/** Normalize any input into a valid PlanCode */
+/**
+ * Normalize any incoming string into a valid PlanCode.
+ */
 export function normalizePlan(value: string): PlanCode {
-  const key = value?.toLowerCase() as PlanCode;
-  return key in plans ? key : "free";
+  const v = value?.toLowerCase();
+
+  if (v === "starter") return "starter";
+  if (v === "growth") return "growth";
+
+  return "free";
 }
