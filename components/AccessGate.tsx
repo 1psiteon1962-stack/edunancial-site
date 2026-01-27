@@ -1,31 +1,44 @@
 // components/AccessGate.tsx
-"use client";
 
 import React from "react";
 import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
 type Props = {
-  plan?: string;
   children: React.ReactNode;
+
+  /**
+   * Minimum plan required to view this content.
+   * Example: "free", "starter", "pro", "enterprise"
+   */
+  requiredPlan: PlanCode;
 };
 
-/**
- * AccessGate (Default Export)
- * --------------------------------------------
- * Netlify Fix:
- * Pages import this as:
- *
- *   import AccessGate from "@/components/AccessGate"
- *
- * Therefore this component MUST have a default export.
- */
-const AccessGate = ({ plan, children }: Props) => {
-  // Normalize plan safely
-  const normalized: PlanCode = normalizePlan(plan || "free");
+export default function AccessGate({ children, requiredPlan }: Props) {
+  // Normalize the required plan
+  const planNeeded = normalizePlan(requiredPlan);
 
-  // TODO: Replace with real access logic later.
-  // For now, always allow access so builds succeed.
+  /**
+   * TEMP ACCESS LOGIC:
+   * Right now we allow everything.
+   * Later this will check login + subscription.
+   */
+  const userPlan: PlanCode = "free";
+
+  const allowed =
+    userPlan === planNeeded ||
+    userPlan === "enterprise" ||
+    userPlan === "pro";
+
+  if (!allowed) {
+    return (
+      <div style={{ padding: 24 }}>
+        <h2>Upgrade Required</h2>
+        <p>
+          This content requires the <b>{planNeeded}</b> plan.
+        </p>
+      </div>
+    );
+  }
+
   return <>{children}</>;
-};
-
-export default AccessGate;
+}
