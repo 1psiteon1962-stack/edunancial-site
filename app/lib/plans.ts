@@ -15,14 +15,9 @@ export const plans = {
   },
 } as const;
 
-/**
- * ✅ THIS EXPORT IS WHAT NETLIFY IS FAILING ON
- */
+/** ✅ EXPORT THIS */
 export type PlanCode = keyof typeof plans;
 
-/**
- * Normalize incoming values into a valid PlanCode.
- */
 export function normalizePlan(value: string): PlanCode {
   const v = value?.toLowerCase();
 
