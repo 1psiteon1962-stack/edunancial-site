@@ -1,72 +1,33 @@
 // data/levels.ts
-// This file defines literacy readiness levels.
-// Levels are enforced platform-wide.
 
-export type LiteracyLevel = 0 | 1 | 2 | 3 | 4 | 5;
+export const LEVEL_DEFINITIONS = {
+  "level-1": {
+    title: "Level 1 — Survival Entrepreneur",
+    description:
+      "Just starting out. Learning basics, building discipline, avoiding collapse.",
+  },
 
-export interface LevelDefinition {
-  level: LiteracyLevel;
-  name: string;
-  title: string;
-  description: string;
-  allowedApps: string[];
-  allowedPurchases: string[];
-  capitalAccess: boolean;
-}
+  "level-2": {
+    title: "Level 2 — Lifestyle Builder",
+    description:
+      "Building stable income. Business supports life, but not scalable yet.",
+  },
 
-export const Levels: Record<LiteracyLevel, LevelDefinition> = {
-  0: {
-    level: 0,
-    name: "Observer",
-    title: "Observer",
-    description: "Browsing only. No transactions.",
-    allowedApps: [],
-    allowedPurchases: [],
-    capitalAccess: false,
+  "level-3": {
+    title: "Level 3 — Wealth Builder",
+    description:
+      "Systems begin. Profit becomes predictable. Scaling becomes possible.",
   },
-  1: {
-    level: 1,
-    name: "Foundational",
-    title: "Level 1",
-    description: "Basic financial literacy.",
-    allowedApps: ["EduReadiness"],
-    allowedPurchases: ["starter-guides"],
-    capitalAccess: false,
+
+  "level-4": {
+    title: "Level 4 — Empire Builder",
+    description:
+      "Multiple teams, markets, legal structure, capital expansion.",
   },
-  2: {
-    level: 2,
-    name: "Participant",
-    title: "Level 2",
-    description: "Understands money, risk, and structure.",
-    allowedApps: ["EduReadiness", "EduMath"],
-    allowedPurchases: ["courses", "workshops"],
-    capitalAccess: false,
+
+  "level-5": {
+    title: "Level 5 — Capital Architect",
+    description:
+      "Institution-level ownership. Holdings, governance, private equity logic.",
   },
-  3: {
-    level: 3,
-    name: "Builder",
-    title: "Level 3",
-    description: "Can model outcomes and scenarios.",
-    allowedApps: ["EduReadiness", "EduMath"],
-    allowedPurchases: ["advanced-tools", "memberships"],
-    capitalAccess: false,
-  },
-  4: {
-    level: 4,
-    name: "Investor-Ready",
-    title: "Level 4",
-    description: "Prepared for structured capital.",
-    allowedApps: ["EduReadiness", "EduMath"],
-    allowedPurchases: ["deal-access", "private-briefings"],
-    capitalAccess: true,
-  },
-  5: {
-    level: 5,
-    name: "Operator",
-    title: "Level 5",
-    description: "Advanced capital structuring and execution.",
-    allowedApps: ["ALL"],
-    allowedPurchases: ["everything"],
-    capitalAccess: true,
-  },
-};
+} as const;
