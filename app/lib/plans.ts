@@ -15,10 +15,10 @@ export const plans = {
   },
 } as const;
 
-/** ✅ EXPORT THIS */
+/* ✅ THIS MUST BE EXPORTED */
 export type PlanCode = keyof typeof plans;
 
-/** ✅ EXPORT THIS */
+/* ✅ THIS MUST ALSO BE EXPORTED */
 export function normalizePlan(value: string): PlanCode {
   const v = value?.toLowerCase();
 
