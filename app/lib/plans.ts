@@ -16,12 +16,12 @@ export const plans = {
 } as const;
 
 /**
- * ✅ FIX: Export PlanCode so other modules (AccessGate) can import it.
+ * ✅ THIS EXPORT IS WHAT NETLIFY IS FAILING ON
  */
 export type PlanCode = keyof typeof plans;
 
 /**
- * Normalize any incoming string into a valid PlanCode.
+ * Normalize incoming values into a valid PlanCode.
  */
 export function normalizePlan(value: string): PlanCode {
   const v = value?.toLowerCase();
