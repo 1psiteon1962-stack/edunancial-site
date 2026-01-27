@@ -1,37 +1,50 @@
 // app/(regions)/us/components/AccessGate.tsx
 
-"use client";
-
 import React from "react";
-import { normalizePlan } from "@/app/lib/plans";
-import type { PlanCode } from "@/types/plan";
+import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
 export type AccessGateProps = {
   children: React.ReactNode;
-  requiredPlan?: PlanCode;
+
+  /**
+   * The minimum plan required to view the content.
+   */
+  requiredPlan: PlanCode;
+
+  /**
+   * The user’s current plan (may be missing/null during SSR or first load).
+   */
   userPlan?: string | null;
 };
 
 export default function AccessGate({
   children,
-  requiredPlan = "free",
+  requiredPlan,
   userPlan,
 }: AccessGateProps) {
-  const normalizedUserPlan = normalizePlan(userPlan);
+  /**
+   * Normalize safely:
+   * If userPlan is null/undefined, default to "free".
+   */
+  const normalizedUserPlan = normalizePlan(userPlan ?? "free");
 
+  /**
+   * Allow access if the user matches the required plan,
+   * or is on a higher tier.
+   */
   const allowed =
     normalizedUserPlan === requiredPlan ||
-    normalizedUserPlan === "enterprise";
+    normalizedUserPlan === "enterprise" ||
+    (normalizedUserPlan === "pro" &&
+      (requiredPlan === "free" || requiredPlan === "starter")) ||
+    (normalizedUserPlan === "starter" && requiredPlan === "free");
 
   if (!allowed) {
     return (
-      <div className="p-6 border rounded bg-red-50 text-red-700">
-        <h2 className="text-xl font-bold mb-2">
-          Access Restricted
-        </h2>
+      <div style={{ padding: 24 }}>
+        <h2>Upgrade Required</h2>
         <p>
-          Your current plan (<strong>{normalizedUserPlan}</strong>) does not
-          allow access to this content.
+          This content requires the <strong>{requiredPlan}</strong> plan.
         </p>
       </div>
     );
