@@ -1,6 +1,8 @@
 // app/lib/plans.ts
-// Full canonical plan definitions + exported PlanCode type
-// This fixes the Netlify build error where PlanCode was declared but not exported.
+// ============================================================
+// Canonical Plan Registry (Netlify-safe)
+// Fixes: "PlanCode declared locally but not exported"
+// ============================================================
 
 export const plans = {
   free: {
@@ -12,39 +14,38 @@ export const plans = {
   pro: {
     label: "Pro",
     price: 9.99,
-    description: "Full access to premium tools and content",
+    description: "Premium subscriber access",
   },
 
   enterprise: {
     label: "Enterprise",
     price: 49.99,
-    description: "Institutional and organizational access",
+    description: "Institutional and full organization access",
   },
 } as const;
 
 /**
- * ✅ Exported PlanCode type
- * Netlify was failing because this type existed but was not exported.
+ * ✅ THIS MUST BE EXPORTED OR NETLIFY WILL FAIL
  */
 export type PlanCode = keyof typeof plans;
 
 /**
- * Normalize any incoming string into a valid PlanCode.
+ * Normalize user input into a valid PlanCode.
  * Defaults safely to "free".
  */
-export function normalizePlan(value: string): PlanCode {
-  const cleaned = value?.toLowerCase()?.trim();
+export function normalizePlan(input: string): PlanCode {
+  const key = input?.toLowerCase()?.trim();
 
-  if (cleaned in plans) {
-    return cleaned as PlanCode;
+  if (key && key in plans) {
+    return key as PlanCode;
   }
 
   return "free";
 }
 
 /**
- * Optional helper: get a plan object safely.
+ * Convenience helper
  */
-export function getPlan(plan: PlanCode) {
-  return plans[plan];
+export function getPlan(code: PlanCode) {
+  return plans[code];
 }
