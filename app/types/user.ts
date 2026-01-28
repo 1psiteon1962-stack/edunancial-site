@@ -1,4 +1,10 @@
-export type PlanCode = "free" | "starter" | "pro" | "growth" | "elite" | "enterprise";
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "pro"
+  | "growth"
+  | "elite"
+  | "enterprise";
 
 export type UserProfile = {
   id: string;
