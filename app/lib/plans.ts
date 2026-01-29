@@ -1,54 +1,32 @@
-// app/lib/plans.ts
-
 /**
- * All valid subscription tiers in the platform.
- * This file is the SINGLE SOURCE OF TRUTH for plans.
+ * app/lib/plans.ts
+ *
+ * Single source of truth for all plan codes in the system.
+ * Every page, AccessGate, login, signup, etc. must rely on this.
  */
+
 export type PlanCode =
   | "free"
   | "starter"
-  | "growth"
   | "pro"
+  | "growth"
   | "elite"
   | "enterprise";
 
 /**
- * Canonical plan ordering (lowest → highest).
- * Access is granted if userPlan >= requiredPlan.
+ * Normalize any incoming string into a valid PlanCode.
+ * This guarantees TypeScript safety everywhere.
  */
-export const PLAN_ORDER: PlanCode[] = [
-  "free",
-  "starter",
-  "growth",
-  "pro",
-  "elite",
-  "enterprise",
-];
+export function normalizePlan(input: string): PlanCode {
+  const value = input.trim().toLowerCase();
 
-/**
- * Normalize any incoming plan string into a valid PlanCode.
- * Defaults to "free" if unknown.
- */
-export function normalizePlan(value: string): PlanCode {
-  const v = value.trim().toLowerCase();
+  if (value === "free") return "free";
+  if (value === "starter") return "starter";
+  if (value === "pro") return "pro";
+  if (value === "growth") return "growth";
+  if (value === "elite") return "elite";
+  if (value === "enterprise") return "enterprise";
 
-  if (v === "starter") return "starter";
-  if (v === "growth") return "growth";
-  if (v === "pro") return "pro";
-  if (v === "elite") return "elite";
-  if (v === "enterprise") return "enterprise";
-
+  // Default fallback
   return "free";
-}
-
-/**
- * Returns true if the userPlan meets or exceeds the requiredPlan.
- */
-export function planAllowsAccess(
-  userPlan: PlanCode,
-  requiredPlan: PlanCode
-): boolean {
-  return (
-    PLAN_ORDER.indexOf(userPlan) >= PLAN_ORDER.indexOf(requiredPlan)
-  );
 }
