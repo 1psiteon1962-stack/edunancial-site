@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import AccessGate from "@/components/AccessGate";
-import { LEVEL_DEFINITIONS } from "@/data/levels";
+import { LEVEL_DEFINITIONS } from "@/constants/levels";
 
 export default function LevelPage({
   params,
@@ -8,6 +8,7 @@ export default function LevelPage({
   params: { level: string };
 }) {
   const levelIndex = Number(params.level) - 1;
+
   const def = LEVEL_DEFINITIONS[levelIndex];
 
   if (!def) return notFound();
