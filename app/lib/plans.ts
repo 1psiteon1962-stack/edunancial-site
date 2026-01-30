@@ -1,20 +1,26 @@
-/**
- * app/lib/plans.ts
- *
- * Plan normalization utilities.
- */
+// app/lib/plans.ts
 
-import type { PlanCode } from "@/types/plans";
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "growth"
+  | "builder"
+  | "pro"
+  | "enterprise";
 
 export function normalizePlan(input: string): PlanCode {
-  const value = input.trim().toLowerCase();
+  const cleaned = input.trim().toLowerCase();
 
-  if (value === "free") return "free";
-  if (value === "starter") return "starter";
-  if (value === "pro") return "pro";
-  if (value === "growth") return "growth";
-  if (value === "elite") return "elite";
-  if (value === "enterprise") return "enterprise";
+  if (
+    cleaned === "free" ||
+    cleaned === "starter" ||
+    cleaned === "growth" ||
+    cleaned === "builder" ||
+    cleaned === "pro" ||
+    cleaned === "enterprise"
+  ) {
+    return cleaned as PlanCode;
+  }
 
   return "free";
 }
