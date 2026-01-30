@@ -1,58 +1,40 @@
-// app/lib/plans.ts
-// Single source of truth for plan codes + normalization
+"use client";
 
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "growth"
-  | "builder"
-  | "pro"
-  | "enterprise"
-  | "elite";
+import React, { useState } from "react";
+import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
-/**
- * Normalize any incoming string into a valid PlanCode.
- * Unknown values always fall back to "free".
- */
-export function normalizePlan(input: string): PlanCode {
-  const cleaned = input.trim().toLowerCase();
+export default function LoginPage() {
+  // PlanCode now comes ONLY from the shared source of truth
+  const [plan, setPlan] = useState<PlanCode>("free");
 
-  switch (cleaned) {
-    case "free":
-    case "starter":
-    case "growth":
-    case "builder":
-    case "pro":
-    case "enterprise":
-    case "elite":
-      return cleaned as PlanCode;
-
-    default:
-      return "free";
+  function handleSelect(value: string) {
+    // normalizePlan always returns a valid PlanCode
+    setPlan(normalizePlan(value));
   }
-}
-
-/**
- * Simple helper: compare plans by rank.
- * Higher index = higher access.
- */
-const PLAN_ORDER: PlanCode[] = [
-  "free",
-  "starter",
-  "growth",
-  "builder",
-  "pro",
-  "enterprise",
-  "elite",
-];
-
-export function hasPlanAccess(
-  userPlan: string | null | undefined,
-  requiredPlan: PlanCode
-): boolean {
-  const normalizedUser = userPlan ? normalizePlan(userPlan) : "free";
 
   return (
-    PLAN_ORDER.indexOf(normalizedUser) >= PLAN_ORDER.indexOf(requiredPlan)
+    <div style={{ padding: 32 }}>
+      <h1>Login</h1>
+
+      <p>Select your plan:</p>
+
+      <select
+        value={plan}
+        onChange={(e) => handleSelect(e.target.value)}
+        style={{ padding: 8, marginTop: 12 }}
+      >
+        <option value="free">Free</option>
+        <option value="starter">Starter</option>
+        <option value="growth">Growth</option>
+        <option value="builder">Builder</option>
+        <option value="pro">Pro</option>
+        <option value="enterprise">Enterprise</option>
+        <option value="elite">Elite</option>
+      </select>
+
+      <p style={{ marginTop: 20 }}>
+        Current plan: <strong>{plan}</strong>
+      </p>
+    </div>
   );
 }
