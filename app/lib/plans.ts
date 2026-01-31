@@ -1,6 +1,6 @@
 // app/lib/plans.ts
+// SINGLE SOURCE OF TRUTH for all plan codes in the entire project.
 
-// ✅ Single source of truth for all valid plan codes
 export type PlanCode =
   | "free"
   | "starter"
@@ -10,18 +10,25 @@ export type PlanCode =
   | "enterprise"
   | "elite";
 
-// Normalize any incoming string into a valid PlanCode
-export function normalizePlan(plan: string): PlanCode {
-  const p = (plan || "").toLowerCase().trim();
+/**
+ * normalizePlan()
+ * Converts any incoming string into a valid PlanCode.
+ * Anything unknown falls back to "free".
+ */
+export function normalizePlan(value: string): PlanCode {
+  const v = value.trim().toLowerCase();
 
-  if (p === "free") return "free";
-  if (p === "starter") return "starter";
-  if (p === "growth") return "growth";
-  if (p === "builder") return "builder";
-  if (p === "pro") return "pro";
-  if (p === "enterprise") return "enterprise";
-  if (p === "elite") return "elite";
+  if (
+    v === "free" ||
+    v === "starter" ||
+    v === "growth" ||
+    v === "builder" ||
+    v === "pro" ||
+    v === "enterprise" ||
+    v === "elite"
+  ) {
+    return v;
+  }
 
-  // Default fallback
   return "free";
 }
