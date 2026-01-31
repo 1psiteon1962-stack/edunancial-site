@@ -1,6 +1,6 @@
 // app/lib/plans.ts
+// Single source of truth for all plan codes used across the site.
 
-// ✅ Single source of truth for all plan codes used across the site
 export type PlanCode =
   | "free"
   | "starter"
@@ -10,17 +10,25 @@ export type PlanCode =
   | "enterprise"
   | "elite";
 
-// Normalize any incoming string into a valid PlanCode
 export function normalizePlan(input: string): PlanCode {
   const value = (input || "").toLowerCase().trim();
 
-  if (value === "free") return "free";
-  if (value === "starter") return "starter";
-  if (value === "growth") return "growth";
-  if (value === "builder") return "builder";
-  if (value === "pro") return "pro";
-  if (value === "enterprise") return "enterprise";
-  if (value === "elite") return "elite";
+  // Accept common aliases
+  if (value === "basic") return "free";
+  if (value === "premium") return "pro";
+
+  // Valid plans
+  if (
+    value === "free" ||
+    value === "starter" ||
+    value === "growth" ||
+    value === "builder" ||
+    value === "pro" ||
+    value === "enterprise" ||
+    value === "elite"
+  ) {
+    return value;
+  }
 
   // Default fallback
   return "free";
