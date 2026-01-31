@@ -1,40 +1,27 @@
-"use client";
+// app/lib/plans.ts
+// Single source of truth for plan codes + normalization.
+// NO JSX allowed in this file.
 
-import React, { useState } from "react";
-import { normalizePlan, type PlanCode } from "@/app/lib/plans";
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "growth"
+  | "builder"
+  | "pro"
+  | "enterprise"
+  | "elite";
 
-export default function LoginPage() {
-  // PlanCode now comes ONLY from the shared source of truth
-  const [plan, setPlan] = useState<PlanCode>("free");
+export function normalizePlan(input: string): PlanCode {
+  const v = String(input || "").toLowerCase().trim();
 
-  function handleSelect(value: string) {
-    // normalizePlan always returns a valid PlanCode
-    setPlan(normalizePlan(value));
-  }
+  if (v === "free") return "free";
+  if (v === "starter") return "starter";
+  if (v === "growth") return "growth";
+  if (v === "builder") return "builder";
+  if (v === "pro") return "pro";
+  if (v === "enterprise") return "enterprise";
+  if (v === "elite") return "elite";
 
-  return (
-    <div style={{ padding: 32 }}>
-      <h1>Login</h1>
-
-      <p>Select your plan:</p>
-
-      <select
-        value={plan}
-        onChange={(e) => handleSelect(e.target.value)}
-        style={{ padding: 8, marginTop: 12 }}
-      >
-        <option value="free">Free</option>
-        <option value="starter">Starter</option>
-        <option value="growth">Growth</option>
-        <option value="builder">Builder</option>
-        <option value="pro">Pro</option>
-        <option value="enterprise">Enterprise</option>
-        <option value="elite">Elite</option>
-      </select>
-
-      <p style={{ marginTop: 20 }}>
-        Current plan: <strong>{plan}</strong>
-      </p>
-    </div>
-  );
+  // Default fallback
+  return "free";
 }
