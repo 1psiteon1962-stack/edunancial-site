@@ -1,6 +1,5 @@
 // app/lib/plans.ts
-// Single source of truth for plan codes + normalization.
-// NO JSX allowed in this file.
+// Single source of truth for ALL plan codes used across the site.
 
 export type PlanCode =
   | "free"
@@ -11,8 +10,12 @@ export type PlanCode =
   | "enterprise"
   | "elite";
 
-export function normalizePlan(input: string): PlanCode {
-  const v = String(input || "").toLowerCase().trim();
+/**
+ * Normalize any incoming string into a valid PlanCode.
+ * Unknown values always fall back to "free".
+ */
+export function normalizePlan(value: string): PlanCode {
+  const v = value.trim().toLowerCase();
 
   if (v === "free") return "free";
   if (v === "starter") return "starter";
@@ -22,6 +25,25 @@ export function normalizePlan(input: string): PlanCode {
   if (v === "enterprise") return "enterprise";
   if (v === "elite") return "elite";
 
-  // Default fallback
   return "free";
+}
+
+/**
+ * Plan ranking for AccessGate comparisons.
+ */
+export const PLAN_ORDER: Record<PlanCode, number> = {
+  free: 0,
+  starter: 1,
+  growth: 2,
+  builder: 3,
+  pro: 4,
+  enterprise: 5,
+  elite: 6,
+};
+
+/**
+ * Returns true if the userPlan satisfies or exceeds the requiredPlan.
+ */
+export function hasAccess(userPlan: PlanCode, requiredPlan: PlanCode): boolean {
+  return PLAN_ORDER[userPlan] >= PLAN_ORDER[requiredPlan];
 }
