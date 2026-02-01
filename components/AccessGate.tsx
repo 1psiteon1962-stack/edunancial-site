@@ -1,40 +1,35 @@
-// components/AccessGate.tsx
+"use client";
 
 import React from "react";
 import { normalizePlan, type PlanCode } from "@/app/lib/plans";
 
-type Props = {
+export type AccessGateProps = {
   children: React.ReactNode;
-
-  /**
-   * Minimum plan required to view this content.
-   * Example: "free", "starter", "pro", "enterprise"
-   */
   requiredPlan: PlanCode;
+  userPlan?: string | null;
 };
 
-export default function AccessGate({ children, requiredPlan }: Props) {
-  // Normalize the required plan
-  const planNeeded = normalizePlan(requiredPlan);
+export default function AccessGate({
+  children,
+  requiredPlan,
+  userPlan,
+}: AccessGateProps) {
+  // Always normalize safely
+  const normalizedUserPlan: PlanCode = normalizePlan(userPlan ?? "free");
 
-  /**
-   * TEMP ACCESS LOGIC:
-   * Right now we allow everything.
-   * Later this will check login + subscription.
-   */
-  const userPlan: PlanCode = "free";
-
+  // Access rules: allow if user meets or exceeds requirement
   const allowed =
-    userPlan === planNeeded ||
-    userPlan === "enterprise" ||
-    userPlan === "pro";
+    normalizedUserPlan === requiredPlan ||
+    normalizedUserPlan === "enterprise" ||
+    normalizedUserPlan === "elite" ||
+    normalizedUserPlan === "pro";
 
   if (!allowed) {
     return (
       <div style={{ padding: 24 }}>
         <h2>Upgrade Required</h2>
         <p>
-          This content requires the <b>{planNeeded}</b> plan.
+          This content requires the <strong>{requiredPlan}</strong> plan.
         </p>
       </div>
     );
