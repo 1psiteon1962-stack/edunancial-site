@@ -1,24 +1,26 @@
 // lib/i18n.ts
 
-export type LanguageCode = "en" | "es";
+export const supportedLanguages = [
+  "en",
+  "es",
+  "fr",
+  "ar",
+  "pt",
+] as const;
 
-const DICTIONARY: Record<LanguageCode, Record<string, string>> = {
-  en: {
-    doctrine: "Doctrine and legal principles content goes here.",
-    welcome: "Welcome",
-  },
-  es: {
-    doctrine: "El contenido de doctrina y principios legales va aquí.",
-    welcome: "Bienvenido",
-  },
-};
+export type SupportedLanguage = (typeof supportedLanguages)[number];
 
 /**
- * Translation helper.
- * Usage:
- *   t("en", "doctrine")
+ * Type guard: confirms a string is a supported language code.
  */
-export function t(lang: LanguageCode, key: string): string {
-  const table = DICTIONARY[lang] ?? DICTIONARY.en;
-  return table[key] ?? key;
+export function isLanguage(value: string): value is SupportedLanguage {
+  return supportedLanguages.includes(value as SupportedLanguage);
+}
+
+/**
+ * Normalize unknown language input into a safe default.
+ */
+export function normalizeLanguage(value: string | undefined | null): SupportedLanguage {
+  if (!value) return "en";
+  return isLanguage(value) ? value : "en";
 }
