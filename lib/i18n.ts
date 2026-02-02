@@ -1,30 +1,24 @@
 // lib/i18n.ts
 
-export const LANGUAGES = [
-  "en",
-  "es",
-  "fr",
-  "de",
-  "ar",
-  "fa",
-  "hi",
-  "ru",
-  "zh",
-] as const;
+export type LanguageCode = "en" | "es";
 
-export type Language = (typeof LANGUAGES)[number];
-
-/**
- * Returns true if the string is a valid supported language code.
- */
-export function isLanguage(value: string): value is Language {
-  return (LANGUAGES as readonly string[]).includes(value);
-}
+const DICTIONARY: Record<LanguageCode, Record<string, string>> = {
+  en: {
+    doctrine: "Doctrine and legal principles content goes here.",
+    welcome: "Welcome",
+  },
+  es: {
+    doctrine: "El contenido de doctrina y principios legales va aquí.",
+    welcome: "Bienvenido",
+  },
+};
 
 /**
- * Normalize unknown input into a valid Language.
+ * Translation helper.
+ * Usage:
+ *   t("en", "doctrine")
  */
-export function normalizeLanguage(value: string | null | undefined): Language {
-  if (!value) return "en";
-  return isLanguage(value) ? value : "en";
+export function t(lang: LanguageCode, key: string): string {
+  const table = DICTIONARY[lang] ?? DICTIONARY.en;
+  return table[key] ?? key;
 }
