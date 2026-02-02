@@ -1,6 +1,6 @@
 // data/apps/us.apps.ts
 
-import type { PlanCode } from "../../types/plan";
+import type { PlanCode } from "./plan";
 
 export interface AppDefinition {
   name: string;
