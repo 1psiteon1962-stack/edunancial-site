@@ -1,12 +1,10 @@
 // types/plan.ts
 
 /**
- * Central plan code type used across Edunancial.
- * This file exists because multiple parts of the app import:
+ * PlanCode is used across Edunancial to identify subscription tiers.
+ * Netlify builds require this module to exist because it is imported as:
  *
  *   import type { PlanCode } from "@/types/plan";
- *
- * Netlify builds will fail unless this module exists.
  */
 
 export type PlanCode =
