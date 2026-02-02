@@ -1,26 +1,23 @@
 // lib/i18n.ts
 
-export const supportedLanguages = [
-  "en",
-  "es",
-  "fr",
-  "ar",
-  "pt",
-] as const;
+export type Locale = "en" | "es";
 
-export type SupportedLanguage = (typeof supportedLanguages)[number];
-
-/**
- * Type guard: confirms a string is a supported language code.
- */
-export function isLanguage(value: string): value is SupportedLanguage {
-  return supportedLanguages.includes(value as SupportedLanguage);
-}
+const DICTIONARY: Record<Locale, Record<string, string>> = {
+  en: {
+    doctrine_title: "Doctrine",
+    doctrine_body: "This is the English doctrine text.",
+  },
+  es: {
+    doctrine_title: "Doctrina",
+    doctrine_body: "Este es el texto doctrinal en español.",
+  },
+};
 
 /**
- * Normalize unknown language input into a safe default.
+ * Translation helper
+ * Usage: t("doctrine_title", "en")
  */
-export function normalizeLanguage(value: string | undefined | null): SupportedLanguage {
-  if (!value) return "en";
-  return isLanguage(value) ? value : "en";
+export function t(key: string, locale: string): string {
+  const lang = (locale as Locale) || "en";
+  return DICTIONARY[lang]?.[key] ?? key;
 }
