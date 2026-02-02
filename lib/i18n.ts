@@ -1,34 +1,30 @@
-export type Locale = "en" | "es";
+// lib/i18n.ts
 
-type Dictionary = Record<string, string>;
+export const LANGUAGES = [
+  "en",
+  "es",
+  "fr",
+  "de",
+  "ar",
+  "fa",
+  "hi",
+  "ru",
+  "zh",
+] as const;
 
-const DICTIONARIES: Record<Locale, Dictionary> = {
-  en: {
-    doctrine_title: "Doctrine",
-    doctrine_body:
-      "This is a placeholder doctrine text. Replace keys/values with your real content.",
-  },
-  es: {
-    doctrine_title: "Doctrina",
-    doctrine_body:
-      "Este es un texto de doctrina de ejemplo. Reemplace claves/valores con su contenido real.",
-  },
-};
+export type Language = (typeof LANGUAGES)[number];
 
 /**
- * Minimal translation helper used across components.
- * - Safe fallback: returns the key if not found.
- * - Normalizes unknown locale to 'en'.
+ * Returns true if the string is a valid supported language code.
  */
-export function t(locale: string, key: string): string {
-  const lang: Locale = locale === "es" ? "es" : "en";
-  return DICTIONARIES[lang]?.[key] ?? key;
+export function isLanguage(value: string): value is Language {
+  return (LANGUAGES as readonly string[]).includes(value);
 }
 
 /**
- * Optional: expose dictionaries if you need them elsewhere.
+ * Normalize unknown input into a valid Language.
  */
-export function getDictionary(locale: string): Dictionary {
-  const lang: Locale = locale === "es" ? "es" : "en";
-  return DICTIONARIES[lang];
+export function normalizeLanguage(value: string | null | undefined): Language {
+  if (!value) return "en";
+  return isLanguage(value) ? value : "en";
 }
