@@ -1,14 +1,17 @@
+// types/plan.ts
+
 /**
- * types/plans.ts
+ * Central plan code type used across Edunancial.
+ * This file exists because multiple parts of the app import:
  *
- * Canonical plan type definition for the entire site.
- * All components must import PlanCode ONLY from here.
+ *   import type { PlanCode } from "@/types/plan";
+ *
+ * Netlify builds will fail unless this module exists.
  */
 
 export type PlanCode =
   | "free"
   | "starter"
   | "pro"
-  | "growth"
-  | "elite"
+  | "builder"
   | "enterprise";
