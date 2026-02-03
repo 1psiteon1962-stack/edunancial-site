@@ -1,8 +1,12 @@
 // types/plan.ts
 
 /**
- * PlanCode is the central subscription tier type.
- * Netlify/Linux builds require this exact file/path to exist.
+ * Global PlanCode type.
+ * Required because multiple modules import:
+ *
+ *   import type { PlanCode } from "@/types/plan";
+ *
+ * This file MUST exist at /types/plan.ts (all lowercase).
  */
 
 export type PlanCode =
