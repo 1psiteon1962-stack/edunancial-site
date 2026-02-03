@@ -1,42 +1,38 @@
 // data/products.ts
 
-import { LiteracyLevel } from "./levels";
+import type { LiteracyLevel } from "./levels";
 
+/**
+ * Product represents a single Edunancial item.
+ */
 export interface Product {
   key: string;
-  name: string;
-  minimumLevel: LiteracyLevel;
+  title: string;
+  description: string;
+  level: LiteracyLevel;
   priceUSD: number;
-  placeholder: boolean;
 }
 
-export const Products: Product[] = [
+export const products: Product[] = [
   {
-    key: "starter-guides",
-    name: "Starter Literacy Guides",
-    minimumLevel: 1,
-    priceUSD: 29,
-    placeholder: true,
+    key: "wealth-foundations",
+    title: "Wealth Foundations",
+    description: "A beginner-friendly introduction to building wealth systems.",
+    level: "beginner",
+    priceUSD: 9.99,
   },
   {
-    key: "courses",
-    name: "Core Financial Courses",
-    minimumLevel: 2,
-    priceUSD: 99,
-    placeholder: true,
+    key: "tax-liens-deeds",
+    title: "Building Wealth with Tax Liens & Tax Deeds",
+    description: "A structured guide to real estate tax-sale investing.",
+    level: "intermediate",
+    priceUSD: 19.99,
   },
   {
-    key: "advanced-tools",
-    name: "Advanced Analysis Tools",
-    minimumLevel: 3,
-    priceUSD: 249,
-    placeholder: true,
-  },
-  {
-    key: "deal-access",
-    name: "Structured Deal Access",
-    minimumLevel: 4,
-    priceUSD: 0,
-    placeholder: true,
+    key: "governance-scaling",
+    title: "Governance & Scaling Systems",
+    description: "Advanced founder-grade frameworks for serious expansion.",
+    level: "advanced",
+    priceUSD: 29.99,
   },
 ];
