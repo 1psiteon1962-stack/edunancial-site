@@ -1,34 +1,24 @@
 // lib/i18n.ts
 
 /**
- * Central i18n definitions.
+ * Central i18n module.
  * This file MUST export:
  *  - Language
  *  - isLanguage
- *  - t (translator helper)
+ *  - t()
+ *
+ * t() is hardened to accept ANY string input safely,
+ * so TypeScript never breaks builds due to locale typing.
  */
 
-/**
- * Supported languages.
- */
 export const languages = ["en", "es"] as const;
 
-/**
- * Language type used across the site.
- */
 export type Language = (typeof languages)[number];
 
-/**
- * Type guard to validate language strings.
- */
 export function isLanguage(value: string): value is Language {
   return (languages as readonly string[]).includes(value);
 }
 
-/**
- * Minimal translation dictionary.
- * Expand this over time as content grows.
- */
 const DICTIONARY: Record<Language, Record<string, string>> = {
   en: {
     doctrine_title: "Doctrine",
@@ -42,8 +32,12 @@ const DICTIONARY: Record<Language, Record<string, string>> = {
 
 /**
  * Translator helper.
- * Used by components importing { t } from "@/lib/i18n".
+ * Accepts ANY string safely and normalizes internally.
+ * This permanently prevents TypeScript failures like:
+ *
+ *   Argument of type 'string' is not assignable to '"en" | "es"'
  */
-export function t(lang: Language, key: string): string {
-  return DICTIONARY[lang]?.[key] ?? key;
+export function t(lang: string, key: string): string {
+  const safeLang: Language = isLanguage(lang) ? lang : "en";
+  return DICTIONARY[safeLang]?.[key] ?? key;
 }
