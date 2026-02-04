@@ -1,14 +1,21 @@
 // lib/level-guard.ts
 
-import { Levels, type LiteracyLevel } from "@/data/levels";
+/**
+ * Level guard utilities.
+ * Fixes Netlify build error:
+ * Module '"./level-guard"' has no exported member 'hasCapitalAccess'.
+ */
 
 /**
- * Returns true if the user's literacy level meets or exceeds
- * the required level for an app/product.
+ * Capital access gate used by monetization rules.
+ * Assumes user levels are numeric (e.g., 1–5).
+ * Capital access typically starts at Level 4+.
  */
-export function canAccessApp(
-  userLevel: LiteracyLevel,
-  requiredLevel: LiteracyLevel
-): boolean {
-  return Levels.indexOf(userLevel) >= Levels.indexOf(requiredLevel);
+export function hasCapitalAccess(userLevel: number): boolean {
+  return Number.isFinite(userLevel) && userLevel >= 4;
 }
+
+/**
+ * Compatibility alias (prevents future naming mismatches).
+ */
+export const hasCapitalLevel = hasCapitalAccess;
