@@ -1,10 +1,10 @@
 // components/LocalizedDoctrine.tsx
 
 import React from "react";
-import { t } from "@/lib/i18n";
+import { t, type Language } from "@/lib/i18n";
 
 type Props = {
-  lang: string;
+  lang: Language;
 };
 
 export default function LocalizedDoctrine({ lang }: Props) {
