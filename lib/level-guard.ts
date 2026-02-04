@@ -1,28 +1,14 @@
 // lib/level-guard.ts
-import { Levels, LiteracyLevel } from "@/data/levels";
 
+import { Levels, type LiteracyLevel } from "@/data/levels";
+
+/**
+ * Returns true if the user's literacy level meets or exceeds
+ * the required level for an app/product.
+ */
 export function canAccessApp(
   userLevel: LiteracyLevel,
-  appName: string
+  requiredLevel: LiteracyLevel
 ): boolean {
-  const level = Levels[userLevel];
-  return (
-    level.allowedApps.includes("ALL") ||
-    level.allowedApps.includes(appName)
-  );
-}
-
-export function canPurchase(
-  userLevel: LiteracyLevel,
-  productKey: string
-): boolean {
-  const level = Levels[userLevel];
-  return (
-    level.allowedPurchases.includes("everything") ||
-    level.allowedPurchases.includes(productKey)
-  );
-}
-
-export function hasCapitalAccess(userLevel: LiteracyLevel): boolean {
-  return Levels[userLevel].capitalAccess;
+  return Levels.indexOf(userLevel) >= Levels.indexOf(requiredLevel);
 }
