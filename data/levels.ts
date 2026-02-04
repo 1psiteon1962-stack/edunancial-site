@@ -1,11 +1,10 @@
 // data/levels.ts
 
 /**
- * LiteracyLevel defines the education difficulty level
- * used across Edunancial product listings.
- *
- * This file MUST export LiteracyLevel because
- * data/products.ts imports it.
+ * Literacy levels used across products, apps, and guards.
+ * This module MUST export:
+ *  - LiteracyLevel (type)
+ *  - Levels (constant)
  */
 
 export type LiteracyLevel =
@@ -14,7 +13,16 @@ export type LiteracyLevel =
   | "advanced";
 
 /**
- * Optional display labels (safe helper).
+ * Levels constant required by lib/level-guard.ts
+ */
+export const Levels: LiteracyLevel[] = [
+  "beginner",
+  "intermediate",
+  "advanced",
+];
+
+/**
+ * Optional display labels.
  */
 export const literacyLevelLabels: Record<LiteracyLevel, string> = {
   beginner: "Beginner",
