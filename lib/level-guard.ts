@@ -12,3 +12,13 @@ export function canAccessApp(
 ): boolean {
   return Levels.indexOf(userLevel) >= Levels.indexOf(requiredLevel);
 }
+
+/**
+ * Returns true if the user has access to capital-level features
+ * (advanced monetization, investor tools, PE readiness).
+ *
+ * Capital access is granted at "advanced" level.
+ */
+export function hasCapitalAccess(userLevel: LiteracyLevel): boolean {
+  return userLevel === "advanced";
+}
