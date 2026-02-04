@@ -1,12 +1,12 @@
 // lib/monetization.ts
+
 import { hasCapitalAccess } from "./level-guard";
 
-export function canInitiatePayment(
-  userLevel: number,
-  region: string
-): boolean {
-  if (!hasCapitalAccess(userLevel as any)) return false;
-
-  // Region-specific logic can be expanded later
-  return ["US", "AFRICA", "ASIA"].includes(region);
+/**
+ * Determines whether the user can initiate payments or premium actions.
+ * For now, only capital-access users may proceed.
+ */
+export function canInitiatePayment(userLevel: string): boolean {
+  // Only advanced users can initiate monetized actions
+  return hasCapitalAccess(userLevel as any);
 }
