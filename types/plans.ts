@@ -1,17 +1,15 @@
 // types/plan.ts
 
 /**
- * Global PlanCode type.
- * Required because multiple modules import:
+ * Alias compatibility shim.
+ *
+ * Many parts of the codebase still import:
  *
  *   import type { PlanCode } from "@/types/plan";
  *
- * This file MUST exist at /types/plan.ts (all lowercase).
+ * Netlify/Linux builds require this exact module path to exist.
+ *
+ * This file re-exports the canonical PlanCode type from lib/types.
  */
 
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "pro"
-  | "builder"
-  | "enterprise";
+export type { PlanCode } from "../lib/types/plan";
