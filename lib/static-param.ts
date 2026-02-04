@@ -1,11 +1,14 @@
-import { REGION_LANGUAGES, Language } from "./i18n";
+// lib/static-param.ts
+
+import { REGION_LANGUAGES, type Language } from "./i18n";
 
 /**
  * Central static param generator
- * Use in every [lang] route
+ * Used by Next.js for locale + region routing.
  */
-export function generateLangParams(
-  region: keyof typeof REGION_LANGUAGES
-): { lang: Language }[] {
-  return REGION_LANGUAGES[region].map((lang) => ({ lang }));
+export function generateStaticParams() {
+  return Object.entries(REGION_LANGUAGES).map(([region, lang]) => ({
+    region,
+    lang: lang as Language,
+  }));
 }
