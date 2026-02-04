@@ -1,43 +1,39 @@
 // lib/i18n.ts
 
 /**
- * Central i18n module.
- * This file MUST export:
- *  - Language
- *  - isLanguage
- *  - t()
- *
- * t() is hardened to accept ANY string input safely,
- * so TypeScript never breaks builds due to locale typing.
+ * Supported languages (single source of truth)
  */
+export type Language = "en" | "es";
 
-export const languages = ["en", "es"] as const;
+/**
+ * Region → Supported language mapping
+ * Used by static param generation and localization routing.
+ */
+export const REGION_LANGUAGES: Record<string, Language> = {
+  us: "en",
+  pr: "es",
+  dr: "es",
+  latam: "es",
+  eu: "en",
+};
 
-export type Language = (typeof languages)[number];
-
-export function isLanguage(value: string): value is Language {
-  return (languages as readonly string[]).includes(value);
-}
-
+/**
+ * Translation dictionary (minimal starter)
+ */
 const DICTIONARY: Record<Language, Record<string, string>> = {
   en: {
     doctrine_title: "Doctrine",
-    doctrine_body: "This is the English doctrine text.",
+    doctrine_body: "Education is the foundation of wealth-building systems.",
   },
   es: {
     doctrine_title: "Doctrina",
-    doctrine_body: "Este es el texto doctrinal en español.",
+    doctrine_body: "La educación es la base de los sistemas de creación de riqueza.",
   },
 };
 
 /**
- * Translator helper.
- * Accepts ANY string safely and normalizes internally.
- * This permanently prevents TypeScript failures like:
- *
- *   Argument of type 'string' is not assignable to '"en" | "es"'
+ * Core translation helper
  */
-export function t(lang: string, key: string): string {
-  const safeLang: Language = isLanguage(lang) ? lang : "en";
-  return DICTIONARY[safeLang]?.[key] ?? key;
+export function t(lang: Language, key: string): string {
+  return DICTIONARY[lang]?.[key] ?? key;
 }
