@@ -1,33 +1,33 @@
-import React from "react";
-import { normalizePlan, type PlanCode } from "@/types/plan";
+// src/app/(regions)/us/components/AccessGate.tsx
 
-export interface AccessGateProps {
+import React from "react";
+import { normalizePlan, type PlanCode } from "@/app/lib/plans";
+
+export type AccessGateProps = {
   children: React.ReactNode;
-  requiredPlan?: PlanCode;
-  session?: {
-    user?: {
-      planCode?: string | null;
-    };
-  };
-}
+  userPlan?: string | null;
+  requiredPlan: PlanCode;
+};
 
 export default function AccessGate({
   children,
+  userPlan,
   requiredPlan,
-  session,
 }: AccessGateProps) {
-  // HARD FIX: assign to a guaranteed string first (TS cannot infer wrong)
-  const rawPlanCode: string = session?.user?.planCode ?? "starter";
+  const normalizedUserPlan = normalizePlan(userPlan);
 
-  const userPlan: PlanCode = normalizePlan(rawPlanCode);
+  const allowed =
+    normalizedUserPlan === requiredPlan ||
+    normalizedUserPlan === "elite" ||
+    normalizedUserPlan === "enterprise";
 
-  if (!requiredPlan) return <>{children}</>;
-
-  if (userPlan !== requiredPlan) {
+  if (!allowed) {
     return (
       <div style={{ padding: 24 }}>
-        <h2>Upgrade Required</h2>
-        <p>This content requires the {requiredPlan} plan.</p>
+        <h3>Upgrade Required</h3>
+        <p>
+          This content requires the <strong>{requiredPlan}</strong> plan.
+        </p>
       </div>
     );
   }
