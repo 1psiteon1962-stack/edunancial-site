@@ -1,77 +1,57 @@
 // src/constants/levels.ts
 
 /**
- * Literacy / education levels
+ * Canonical definition of an education / access level
  */
-export type LiteracyLevel =
-  | "beginner"
-  | "intermediate"
-  | "advanced"
-  | "expert";
+export interface LevelDefinition {
+  level: number;
+  slug: string;
+  title: string;
+  description: string;
+  minimumPlan?: "free" | "starter" | "pro" | "builder" | "elite" | "enterprise";
+}
 
 /**
- * Ordered level list
+ * Ordered list of level definitions.
+ * IMPORTANT:
+ * - This MUST be an array
+ * - Order matters
+ * - Indexed access is intentional
  */
-export const LEVELS: readonly LiteracyLevel[] = [
-  "beginner",
-  "intermediate",
-  "advanced",
-  "expert",
-] as const;
-
-/**
- * Level metadata used by pages (REQUIRED)
- */
-export const LEVEL_DEFINITIONS: Record<
-  LiteracyLevel,
+export const LEVEL_DEFINITIONS: LevelDefinition[] = [
   {
-    label: string;
-    description: string;
-    order: number;
-  }
-> = {
-  beginner: {
-    label: "Beginner",
-    description: "Foundational financial and economic concepts.",
-    order: 1,
+    level: 1,
+    slug: "foundations",
+    title: "Foundations",
+    description: "Core financial and business literacy fundamentals.",
+    minimumPlan: "free",
   },
-  intermediate: {
-    label: "Intermediate",
-    description: "Applied concepts, real-world use, and risk awareness.",
-    order: 2,
+  {
+    level: 2,
+    slug: "intermediate",
+    title: "Intermediate",
+    description: "Applied financial concepts and real-world use cases.",
+    minimumPlan: "starter",
   },
-  advanced: {
-    label: "Advanced",
-    description: "Strategic analysis, capital structure, and scaling.",
-    order: 3,
+  {
+    level: 3,
+    slug: "advanced",
+    title: "Advanced",
+    description: "Systems thinking, leverage, and capital efficiency.",
+    minimumPlan: "pro",
   },
-  expert: {
-    label: "Expert",
-    description: "Institutional-level thinking and capital architecture.",
-    order: 4,
+  {
+    level: 4,
+    slug: "builder",
+    title: "Builder",
+    description: "Business construction, scaling, and governance.",
+    minimumPlan: "builder",
   },
-};
-
-/**
- * Validate a level
- */
-export function isLiteracyLevel(value: string): value is LiteracyLevel {
-  return (LEVELS as readonly string[]).includes(value);
-}
-
-/**
- * Normalize unknown input into a safe level
- */
-export function normalizeLevel(
-  value: string | null | undefined
-): LiteracyLevel {
-  if (!value) return "beginner";
-
-  const v = value.toLowerCase();
-
-  if (v === "intermediate") return "intermediate";
-  if (v === "advanced") return "advanced";
-  if (v === "expert") return "expert";
-
-  return "beginner";
-}
+  {
+    level: 5,
+    slug: "elite",
+    title: "Elite",
+    description: "Institutional-level strategy and capital deployment.",
+    minimumPlan: "elite",
+  },
+];
