@@ -2,8 +2,7 @@ import HomePage from "@/views/home/HomePage";
 
 /**
  * Root landing page.
- * This wrapper is REQUIRED for Next.js App Router prerendering.
- * Do NOT replace this with a re-export.
+ * REQUIRED wrapper for Next.js App Router prerendering.
  */
 export default function Page() {
   return <HomePage />;
