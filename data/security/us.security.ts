@@ -1,39 +1,38 @@
-// src/data/security/us.security.ts
+// src/data/security/us-security.ts
 
-export type SecurityPolicyItem = {
+export interface SecurityItem {
+  id: string;
   title: string;
-  summary: string;
-};
+  description: string;
+}
 
-export type SecurityPolicy = {
-  region: "us";
-  lastUpdatedISO: string;
-  items: SecurityPolicyItem[];
-};
+export interface SecurityRegion {
+  region: string;
+  lastUpdated: string;
+  items: SecurityItem[];
+}
 
-export const US_SECURITY: SecurityPolicy = {
+export const US_SECURITY: SecurityRegion = {
   region: "us",
-  lastUpdatedISO: new Date().toISOString(),
+  lastUpdated: "2024-12-18T22:14:00Z",
   items: [
     {
-      title: "Data Minimization",
-      summary:
-        "We only collect what is necessary to provide the service and improve reliability.",
+      id: "data-protection",
+      title: "Data Protection",
+      description:
+        "All user data is encrypted at rest and in transit using industry-standard encryption protocols.",
     },
     {
+      id: "access-control",
       title: "Access Control",
-      summary:
-        "Restricted access to admin-only functions; role checks are enforced server-side where applicable.",
+      description:
+        "Strict role-based access controls are enforced across all internal systems.",
     },
     {
-      title: "Encryption",
-      summary:
-        "Transport security (HTTPS) is required; sensitive tokens should be stored securely.",
-    },
-    {
-      title: "Auditability",
-      summary:
-        "Key events can be logged for review; security-relevant actions should be traceable.",
+      id: "monitoring",
+      title: "Monitoring & Auditing",
+      description:
+        "Continuous monitoring and audit logging are enabled to detect and respond to security events.",
     },
   ],
 };
