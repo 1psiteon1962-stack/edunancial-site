@@ -1,5 +1,5 @@
 import React from "react";
-import { US_SECURITY } from "../../data/security/us-security";
+import { US_SECURITY } from "./us-security";
 
 export default function SecurityPage() {
   const lastUpdated = new Date(US_SECURITY.lastUpdated);
