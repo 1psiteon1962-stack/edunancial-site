@@ -1,22 +1,38 @@
 // src/constants/levels.ts
 
 /**
+ * Allowed subscription / access plans
+ * Centralized so ALL gating logic shares the same contract
+ */
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "pro"
+  | "builder"
+  | "elite"
+  | "enterprise";
+
+/**
  * Canonical definition of an education / access level
+ * This is the SINGLE SOURCE OF TRUTH
  */
 export interface LevelDefinition {
   level: number;
   slug: string;
   title: string;
   description: string;
-  minimumPlan?: "free" | "starter" | "pro" | "builder" | "elite" | "enterprise";
+
+  /**
+   * Plan required to access this level
+   * MUST exist because AccessGate requires it
+   */
+  requiredPlan: PlanCode;
 }
 
 /**
  * Ordered list of level definitions.
- * IMPORTANT:
- * - This MUST be an array
- * - Order matters
- * - Indexed access is intentional
+ * - MUST be an array
+ * - Index-based access is intentional
  */
 export const LEVEL_DEFINITIONS: LevelDefinition[] = [
   {
@@ -24,34 +40,34 @@ export const LEVEL_DEFINITIONS: LevelDefinition[] = [
     slug: "foundations",
     title: "Foundations",
     description: "Core financial and business literacy fundamentals.",
-    minimumPlan: "free",
+    requiredPlan: "free",
   },
   {
     level: 2,
     slug: "intermediate",
     title: "Intermediate",
     description: "Applied financial concepts and real-world use cases.",
-    minimumPlan: "starter",
+    requiredPlan: "starter",
   },
   {
     level: 3,
     slug: "advanced",
     title: "Advanced",
     description: "Systems thinking, leverage, and capital efficiency.",
-    minimumPlan: "pro",
+    requiredPlan: "pro",
   },
   {
     level: 4,
     slug: "builder",
     title: "Builder",
     description: "Business construction, scaling, and governance.",
-    minimumPlan: "builder",
+    requiredPlan: "builder",
   },
   {
     level: 5,
     slug: "elite",
     title: "Elite",
     description: "Institutional-level strategy and capital deployment.",
-    minimumPlan: "elite",
+    requiredPlan: "elite",
   },
 ];
