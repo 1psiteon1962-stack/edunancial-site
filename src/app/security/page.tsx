@@ -1,13 +1,11 @@
-// src/app/security/page.tsx
-
 import React from "react";
 import { US_SECURITY } from "@/data/security/us-security";
 
 export default function SecurityPage() {
   const lastUpdated = new Date(US_SECURITY.lastUpdated);
-  const formattedLastUpdated = lastUpdated.toLocaleString(undefined, {
+  const formatted = lastUpdated.toLocaleString(undefined, {
     dateStyle: "medium",
-    timeStyle: "short",
+    timeStyle: "short"
   });
 
   return (
@@ -15,7 +13,7 @@ export default function SecurityPage() {
       <h1>Security & Compliance</h1>
 
       <p style={{ marginTop: 8, opacity: 0.7 }}>
-        Region: {US_SECURITY.region.toUpperCase()} • {formattedLastUpdated}
+        Region: {US_SECURITY.region.toUpperCase()} • {formatted}
       </p>
 
       <div style={{ marginTop: 24 }}>
