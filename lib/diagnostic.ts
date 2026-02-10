@@ -1,65 +1,61 @@
-// lib/diagnostic.ts
-// Proprietary Edunancial Diagnostic Engine
-// Internal use only – NOT exposed publicly
+export type ThinkingLevel =
+  | "Survival"
+  | "Lifestyle"
+  | "Wealth-Building"
+  | "Empire Builder"
+  | "Capital Architect";
 
-export type ThinkingLevel = 1 | 2 | 3 | 4 | 5;
+export type DiagnosticOption = {
+  label: string;
+  value: string;
+  weight: number;
+};
 
-export interface DiagnosticQuestion {
+export type DiagnosticQuestion = {
   id: string;
   prompt: string;
-  options: {
-    label: string;
-    weight: number; // weighted scoring
-  }[];
-}
+  options: DiagnosticOption[];
+};
 
-export interface DiagnosticResult {
-  score: number;
-  level: ThinkingLevel;
-}
-
-/**
- * PROPRIETARY QUESTION SET
- * Do NOT expose raw questions or scoring publicly
- */
 export const diagnosticQuestions: DiagnosticQuestion[] = [
   {
-    id: "cash_flow_vs_income",
-    prompt: "Which statement best describes how you think about money?",
+    id: "systems",
+    prompt: "How do you run your work right now?",
     options: [
-      { label: "I focus on my paycheck and expenses", weight: 1 },
-      { label: "I try to save consistently", weight: 2 },
-      { label: "I invest for growth", weight: 3 },
-      { label: "I structure assets for cash flow", weight: 4 },
-      { label: "I design systems that generate capital", weight: 5 },
-    ],
+      { label: "Mostly reactive; I handle fires as they come", value: "reactive", weight: 0 },
+      { label: "Some structure; I track tasks but it's inconsistent", value: "some", weight: 1 },
+      { label: "Documented systems; repeatable operations", value: "systems", weight: 2 },
+      { label: "Teams + governance; KPIs and controls", value: "governance", weight: 3 }
+    ]
   },
   {
-    id: "risk_perception",
-    prompt: "How do you view financial risk?",
+    id: "risk",
+    prompt: "How do you treat risk and compliance?",
     options: [
-      { label: "Risk should be avoided", weight: 1 },
-      { label: "Some risk is unavoidable", weight: 2 },
-      { label: "Risk can be managed", weight: 3 },
-      { label: "Risk can be engineered", weight: 4 },
-      { label: "Risk is priced into strategy", weight: 5 },
-    ],
+      { label: "I deal with it when it becomes a problem", value: "late", weight: 0 },
+      { label: "I try to follow rules but I'm not fully organized", value: "partial", weight: 1 },
+      { label: "I plan risk early with contracts and checklists", value: "early", weight: 2 },
+      { label: "Risk is engineered into strategy and structure", value: "engineered", weight: 3 }
+    ]
   },
+  {
+    id: "scale",
+    prompt: "What best describes your scaling approach?",
+    options: [
+      { label: "I need income now; short-term focus", value: "now", weight: 0 },
+      { label: "I want stable income; limited scaling", value: "stable", weight: 1 },
+      { label: "I build assets and reinvest intentionally", value: "reinvest", weight: 2 },
+      { label: "I build platforms, capital stacks, and expansion lanes", value: "platform", weight: 3 }
+    ]
+  }
 ];
 
-/**
- * INTERNAL SCORING LOGIC
- */
-export function evaluateDiagnostic(
-  answers: Record<string, number>
-): DiagnosticResult {
-  const score = Object.values(answers).reduce((a, b) => a + b, 0);
+export function evaluateDiagnostic(answers: Record<string, number>): { level: ThinkingLevel } {
+  const total = Object.values(answers || {}).reduce((a, b) => a + b, 0);
 
-  let level: ThinkingLevel = 1;
-  if (score >= 8) level = 2;
-  if (score >= 12) level = 3;
-  if (score >= 16) level = 4;
-  if (score >= 20) level = 5;
-
-  return { score, level };
+  if (total <= 2) return { level: "Survival" };
+  if (total <= 4) return { level: "Lifestyle" };
+  if (total <= 6) return { level: "Wealth-Building" };
+  if (total <= 8) return { level: "Empire Builder" };
+  return { level: "Capital Architect" };
 }
