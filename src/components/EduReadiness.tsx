@@ -7,9 +7,9 @@ import { calculateReadinessScore } from "@/lib/readiness-scoring";
 export default function EduReadiness() {
   const [answers, setAnswers] = useState<number[]>([]);
 
-  function handleSelect(index: number, weight: number) {
+  function handleAnswer(index: number, score: number) {
     const next = [...answers];
-    next[index] = weight;
+    next[index] = score;
     setAnswers(next);
   }
 
@@ -33,7 +33,7 @@ export default function EduReadiness() {
                   <input
                     type="radio"
                     name={q.id}
-                    onChange={() => handleSelect(i, opt.weight)}
+                    onChange={() => handleAnswer(i, opt.score)}
                   />{" "}
                   {opt.label}
                 </label>
