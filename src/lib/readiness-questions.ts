@@ -1,37 +1,40 @@
 export type ReadinessOption = {
   label: string;
-  weight: number;
+  score: number;
 };
 
 export type ReadinessQuestion = {
   id: string;
-
-  // BOTH are supported to prevent build churn
-  prompt: string;
   question: string;
-
   options: ReadinessOption[];
 };
 
 export const readinessQuestions: ReadinessQuestion[] = [
   {
     id: "structure",
-    prompt: "Do you currently operate with formal business structure?",
     question: "Do you currently operate with formal business structure?",
     options: [
-      { label: "No structure", weight: 0 },
-      { label: "Some structure", weight: 1 },
-      { label: "Fully structured", weight: 2 }
+      { label: "No structure", score: 0 },
+      { label: "Some structure", score: 10 },
+      { label: "Fully structured", score: 20 }
     ]
   },
   {
     id: "systems",
-    prompt: "Do you have repeatable systems in place?",
     question: "Do you have repeatable systems in place?",
     options: [
-      { label: "None", weight: 0 },
-      { label: "Some", weight: 1 },
-      { label: "Documented & repeatable", weight: 2 }
+      { label: "None", score: 0 },
+      { label: "Some", score: 10 },
+      { label: "Documented & repeatable", score: 20 }
+    ]
+  },
+  {
+    id: "financials",
+    question: "Do you have clean, trackable financials?",
+    options: [
+      { label: "No", score: 0 },
+      { label: "Partial", score: 10 },
+      { label: "Auditable / clean", score: 20 }
     ]
   }
 ];
