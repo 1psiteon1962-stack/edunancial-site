@@ -3,37 +3,43 @@
 import { useState } from "react";
 import {
   readinessQuestions,
-  ReadinessQuestion
+  ReadinessQuestion,
+  ReadinessOption,
 } from "@/lib/readiness-questions";
-import {
-  calculateReadinessScore,
-  ReadinessResult
-} from "@/lib/readiness-scoring";
+import { calculateReadinessScore } from "@/lib/readiness-scoring";
 
 export default function EduReadiness() {
   const [answers, setAnswers] = useState<number[]>([]);
-  const [result, setResult] = useState<ReadinessResult | null>(null);
+  const [result, setResult] = useState<{
+    level: string;
+    total: number;
+    message: string;
+  } | null>(null);
 
-  function handleAnswer(score: number, index: number) {
-    const next = [...answers];
-    next[index] = score;
-    setAnswers(next);
-    setResult(calculateReadinessScore(next));
+  function handleAnswer(score: number) {
+    setAnswers((prev) => [...prev, score]);
+  }
+
+  function handleSubmit() {
+    const outcome = calculateReadinessScore(answers);
+    setResult(outcome);
   }
 
   return (
-    <div>
-      {readinessQuestions.map((q: ReadinessQuestion, i: number) => (
-        <div key={q.id} style={{ marginBottom: "1.25rem" }}>
+    <div style={{ maxWidth: 720, margin: "0 auto" }}>
+      <h2>Business Readiness Check</h2>
+
+      {readinessQuestions.map((q: ReadinessQuestion) => (
+        <div key={q.id} style={{ marginBottom: 24 }}>
           <strong>{q.question}</strong>
 
-          {q.options.map((opt) => (
+          {q.options.map((opt: ReadinessOption) => (
             <div key={opt.value}>
               <label>
                 <input
                   type="radio"
                   name={q.id}
-                  onChange={() => handleAnswer(opt.score, i)}
+                  onChange={() => handleAnswer(opt.score)}
                 />{" "}
                 {opt.label}
               </label>
@@ -42,10 +48,15 @@ export default function EduReadiness() {
         </div>
       ))}
 
+      <button onClick={handleSubmit}>Calculate Readiness</button>
+
       {result && (
-        <div style={{ marginTop: "2rem" }}>
+        <div style={{ marginTop: 24 }}>
           <h3>{result.level}</h3>
           <p>{result.message}</p>
+          <p>
+            <strong>Total Score:</strong> {result.total}
+          </p>
         </div>
       )}
     </div>
