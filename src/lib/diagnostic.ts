@@ -11,11 +11,6 @@ export interface DiagnosticQuestion {
   weight: number;
 }
 
-export interface DiagnosticAnswer {
-  questionId: string;
-  value: number;
-}
-
 export interface DiagnosticResult {
   level: ThinkingLevel;
   score: number;
@@ -66,12 +61,16 @@ const LEVEL_THRESHOLDS: { minScore: number; level: ThinkingLevel }[] = [
 ];
 
 /**
- * SCORING FUNCTION USED BY DiagnosticForm
+ * ACCEPTS Record<string, number>
+ * (matches DiagnosticForm.tsx exactly)
  */
 export function evaluateDiagnostic(
-  answers: DiagnosticAnswer[]
+  answers: Record<string, number>
 ): DiagnosticResult {
-  const score = answers.reduce((sum, a) => sum + a.value, 0);
+  const score = Object.values(answers).reduce(
+    (sum, value) => sum + value,
+    0
+  );
 
   const matched =
     [...LEVEL_THRESHOLDS]
