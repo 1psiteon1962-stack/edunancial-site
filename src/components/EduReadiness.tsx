@@ -24,8 +24,7 @@ export default function EduReadiness() {
 
       {readinessQuestions.map((q, i) => (
         <div key={q.id} style={{ marginBottom: "1.5rem" }}>
-          {/* FIX: the property is `prompt`, NOT `question` */}
-          <strong>{q.prompt}</strong>
+          <strong>{q.question}</strong>
 
           <div>
             {q.options.map((opt) => (
