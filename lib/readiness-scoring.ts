@@ -1,33 +1,38 @@
-export function calculateReadinessScore(scores: number[]) {
+export type ReadinessResult = {
+  level: string;
+  message: string;
+};
+
+export function calculateReadinessScore(scores: number[]): ReadinessResult {
   const total = scores.reduce((a, b) => a + b, 0);
 
-  if (total <= 4) {
+  if (total <= 2) {
     return {
       level: "Pause",
       message:
-        "Your foundation needs strengthening before advancing to financial tools or capital exposure."
+        "Your foundation needs significant strengthening before moving forward."
     };
   }
 
-  if (total <= 8) {
+  if (total <= 5) {
     return {
       level: "Prepare",
       message:
-        "You show potential, but further financial literacy and structure will improve outcomes."
+        "You show potential, but additional structure and discipline are required."
     };
   }
 
-  if (total <= 11) {
+  if (total <= 7) {
     return {
       level: "Proceed Carefully",
       message:
-        "You demonstrate readiness, with room to improve structure and risk awareness."
+        "You demonstrate readiness, but should address remaining gaps carefully."
     };
   }
 
   return {
     level: "Ready",
     message:
-      "You demonstrate strong financial readiness and discipline to advance responsibly."
+      "You demonstrate strong readiness and are positioned to proceed confidently."
   };
 }
