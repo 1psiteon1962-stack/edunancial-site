@@ -1,33 +1,27 @@
-// data/curriculumMap.ts
-export const curriculumMap = [
+export type CurriculumItem = {
+  level: number;
+  title: string;
+  objective: string;
+  competencies: string[];
+};
+
+export const curriculumMap: CurriculumItem[] = [
   {
     level: 1,
-    title: "Labor Participant",
-    objective: "Trade time for income. Limited leverage.",
-    competencies: ["Income vs wealth", "Time constraint"],
+    title: "Foundation",
+    objective: "Establish basic structure, records, and compliance habits.",
+    competencies: ["Entity basics", "Tracking income/expenses", "Routine compliance calendar"]
   },
   {
     level: 2,
-    title: "Operator",
-    objective: "Generate income with systems but remain involved.",
-    competencies: ["Cash flow", "Margins"],
+    title: "Operations",
+    objective: "Build repeatable systems and simple controls.",
+    competencies: ["Checklists", "Process documentation", "Basic KPI tracking"]
   },
   {
     level: 3,
-    title: "Founder",
-    objective: "Build systems that operate independently.",
-    competencies: ["Digital leverage", "Distribution"],
-  },
-  {
-    level: 4,
-    title: "Owner",
-    objective: "Control IP, platforms, and rules of participation.",
-    competencies: ["Governance", "Jurisdiction"],
-  },
-  {
-    level: 5,
-    title: "Capital Architect",
-    objective: "Allocate capital, risk, and opportunity for others.",
-    competencies: ["Capital allocation", "Consolidation cycles"],
-  },
+    title: "Scaling",
+    objective: "Improve governance, contracts, and risk posture for growth.",
+    competencies: ["Standard agreements", "Role clarity", "Risk mitigation systems"]
+  }
 ];
