@@ -1,37 +1,34 @@
 "use client";
 
 import { useState } from "react";
-import { readinessQuestions } from "@/lib/readiness-questions";
-import { calculateReadinessScore } from "@/lib/readiness-scoring";
+import {
+  readinessQuestions,
+  ReadinessQuestion
+} from "@/lib/readiness-questions";
+import {
+  calculateReadinessScore,
+  ReadinessResult
+} from "@/lib/readiness-scoring";
 
 export default function EduReadiness() {
   const [answers, setAnswers] = useState<number[]>([]);
-  const [result, setResult] = useState<any>(null);
+  const [result, setResult] = useState<ReadinessResult | null>(null);
 
   function handleAnswer(score: number, index: number) {
-    const updated = [...answers];
-    updated[index] = score;
-    setAnswers(updated);
-  }
-
-  function submit() {
-    if (answers.length !== readinessQuestions.length) return;
-    setResult(calculateReadinessScore(answers));
+    const next = [...answers];
+    next[index] = score;
+    setAnswers(next);
+    setResult(calculateReadinessScore(next));
   }
 
   return (
-    <div style={{ maxWidth: "720px", margin: "auto" }}>
-      <h1>EduReadiness™</h1>
-      <p>
-        A financial readiness self-assessment focused on discipline, structure,
-        and long-term durability.
-      </p>
-
-      {readinessQuestions.map((q, i) => (
-        <div key={q.id} style={{ marginBottom: "1.5rem" }}>
+    <div>
+      {readinessQuestions.map((q: ReadinessQuestion, i: number) => (
+        <div key={q.id} style={{ marginBottom: "1.25rem" }}>
           <strong>{q.question}</strong>
+
           {q.options.map((opt) => (
-            <div key={opt.label}>
+            <div key={opt.value}>
               <label>
                 <input
                   type="radio"
@@ -45,15 +42,9 @@ export default function EduReadiness() {
         </div>
       ))}
 
-      {!result && (
-        <button onClick={submit} disabled={answers.length !== readinessQuestions.length}>
-          View Readiness Result
-        </button>
-      )}
-
       {result && (
         <div style={{ marginTop: "2rem" }}>
-          <h2>Status: {result.level}</h2>
+          <h3>{result.level}</h3>
           <p>{result.message}</p>
         </div>
       )}
