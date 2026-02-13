@@ -1,47 +1,41 @@
-export type ReadinessLevel = "Pause" | "Prepare" | "Proceed Carefully" | "Ready";
+// lib/readiness-scoring.ts
 
 export type ReadinessResult = {
-  level: ReadinessLevel;
+  level: string;
   total: number;
   message: string;
 };
 
 export function calculateReadinessScore(scores: number[]): ReadinessResult {
-  const total = Array.isArray(scores) ? scores.reduce((a, b) => a + b, 0) : 0;
+  const total = scores.reduce((a, b) => a + b, 0);
 
-  // With 3 questions scored 0/1/3 each:
-  // min 0, max 9
-  if (total <= 2) {
+  if (total <= 4) {
     return {
       level: "Pause",
       total,
-      message:
-        "Your foundation needs strengthening first. Focus on structure, record-keeping, and basic compliance before taking on additional risk."
+      message: "Your foundation needs strengthening before proceeding further.",
     };
   }
 
-  if (total <= 5) {
+  if (total <= 8) {
     return {
       level: "Prepare",
       total,
-      message:
-        "You show potential, but there are gaps to close. Tighten operations, improve documentation, and clean up compliance before scaling."
+      message: "You show potential, but further preparation is recommended.",
     };
   }
 
-  if (total <= 7) {
+  if (total <= 11) {
     return {
       level: "Proceed Carefully",
       total,
-      message:
-        "You demonstrate readiness with a few remaining weak points. Move forward, but use safeguards: written processes, contracts, and tracking."
+      message: "You demonstrate readiness, with some remaining risk areas.",
     };
   }
 
   return {
     level: "Ready",
     total,
-    message:
-      "You demonstrate strong readiness. Your fundamentals are solid—continue to document systems and scale with discipline."
+    message: "You demonstrate strong financial and structural readiness.",
   };
 }
