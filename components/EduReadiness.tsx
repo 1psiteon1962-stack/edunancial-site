@@ -6,15 +6,14 @@ import {
   ReadinessQuestion,
   ReadinessOption,
 } from "@/lib/readiness-questions";
-import { calculateReadinessScore } from "@/lib/readiness-scoring";
+import {
+  calculateReadinessScore,
+  ReadinessResult,
+} from "@/lib/readiness-scoring";
 
 export default function EduReadiness() {
   const [answers, setAnswers] = useState<number[]>([]);
-  const [result, setResult] = useState<{
-    level: string;
-    total: number;
-    message: string;
-  } | null>(null);
+  const [result, setResult] = useState<ReadinessResult | null>(null);
 
   function handleAnswer(score: number) {
     setAnswers((prev) => [...prev, score]);
