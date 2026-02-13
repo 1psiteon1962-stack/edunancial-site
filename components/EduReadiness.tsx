@@ -24,12 +24,12 @@ export default function EduReadiness() {
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
       <h2>Business Readiness Check</h2>
 
-      {readinessQuestions.map((q) => (
+      {readinessQuestions.map((q, qIndex) => (
         <div key={q.id} style={{ marginBottom: 24 }}>
           <strong>{q.question}</strong>
 
-          {q.options.map((opt) => (
-            <div key={opt.value}>
+          {q.options.map((opt, optIndex) => (
+            <div key={optIndex}>
               <label>
                 <input
                   type="radio"
