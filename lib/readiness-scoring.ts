@@ -6,36 +6,42 @@ export type ReadinessResult = {
   message: string;
 };
 
-export function calculateReadinessScore(scores: number[]): ReadinessResult {
-  const total = scores.reduce((a, b) => a + b, 0);
+export function calculateReadinessScore(
+  answers: number[]
+): ReadinessResult {
+  const total = answers.reduce((sum, v) => sum + v, 0);
 
-  if (total <= 4) {
+  if (total <= 5) {
     return {
-      level: "Pause",
+      level: "Foundational Stage",
       total,
-      message: "Your foundation needs strengthening before proceeding further.",
+      message:
+        "You are at the beginning stage. Focus on structure, fundamentals, and consistency before scaling."
     };
   }
 
-  if (total <= 8) {
+  if (total <= 10) {
     return {
-      level: "Prepare",
+      level: "Development Stage",
       total,
-      message: "You show potential, but further preparation is recommended.",
+      message:
+        "You have some systems in place, but gaps remain. Strengthen operations and financial discipline."
     };
   }
 
-  if (total <= 11) {
+  if (total <= 15) {
     return {
-      level: "Proceed Carefully",
+      level: "Growth-Ready Stage",
       total,
-      message: "You demonstrate readiness, with some remaining risk areas.",
+      message:
+        "You are positioned for growth. Optimize systems, delegation, and risk controls."
     };
   }
 
   return {
-    level: "Ready",
+    level: "Scale & Expansion Stage",
     total,
-    message: "You demonstrate strong financial and structural readiness.",
+    message:
+      "You are structurally ready to scale. Focus on expansion, capital efficiency, and long-term resilience."
   };
 }
