@@ -1,11 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {
-  readinessQuestions,
-  ReadinessQuestion,
-  ReadinessOption,
-} from "@/lib/readiness-questions";
+import { readinessQuestions } from "@/lib/readiness-questions";
 import {
   calculateReadinessScore,
   ReadinessResult,
@@ -28,11 +24,11 @@ export default function EduReadiness() {
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
       <h2>Business Readiness Check</h2>
 
-      {readinessQuestions.map((q: ReadinessQuestion) => (
+      {readinessQuestions.map((q) => (
         <div key={q.id} style={{ marginBottom: 24 }}>
           <strong>{q.question}</strong>
 
-          {q.options.map((opt: ReadinessOption) => (
+          {q.options.map((opt) => (
             <div key={opt.value}>
               <label>
                 <input
