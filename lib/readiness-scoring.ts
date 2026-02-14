@@ -1,47 +1,34 @@
-// lib/readiness-scoring.ts
-
 export type ReadinessResult = {
   level: string;
-  total: number;
   message: string;
+  total: number;
 };
 
-export function calculateReadinessScore(
-  answers: number[]
-): ReadinessResult {
-  const total = answers.reduce((sum, v) => sum + v, 0);
+export function calculateReadinessScore(scores: number[]): ReadinessResult {
+  const total = scores.reduce((sum, n) => sum + n, 0);
 
-  if (total <= 5) {
+  if (total <= 2) {
     return {
-      level: "Foundational Stage",
-      total,
+      level: "Foundational",
       message:
-        "You are at the beginning stage. Focus on structure, fundamentals, and consistency before scaling."
+        "You are at the beginning stage. Focus on structure, discipline, and repeatable systems before scaling.",
+      total,
     };
   }
 
-  if (total <= 10) {
+  if (total <= 4) {
     return {
-      level: "Development Stage",
-      total,
+      level: "Developing",
       message:
-        "You have some systems in place, but gaps remain. Strengthen operations and financial discipline."
-    };
-  }
-
-  if (total <= 15) {
-    return {
-      level: "Growth-Ready Stage",
+        "You have some structure in place, but gaps remain. Strengthen financial controls and operational consistency.",
       total,
-      message:
-        "You are positioned for growth. Optimize systems, delegation, and risk controls."
     };
   }
 
   return {
-    level: "Scale & Expansion Stage",
-    total,
+    level: "Scale-Ready",
     message:
-      "You are structurally ready to scale. Focus on expansion, capital efficiency, and long-term resilience."
+      "You demonstrate strong structural readiness. Your next risks are execution and governance at scale.",
+    total,
   };
 }
