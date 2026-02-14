@@ -1,39 +1,30 @@
 // lib/i18n.ts
 
-/**
- * Supported languages (single source of truth)
- */
-export type Language = "en" | "es";
+export type Language = 'en' | 'es' | 'pt' | 'fr';
 
-/**
- * Region → Supported language mapping
- * Used by static param generation and localization routing.
- */
-export const REGION_LANGUAGES: Record<string, Language> = {
-  us: "en",
-  pr: "es",
-  dr: "es",
-  latam: "es",
-  eu: "en",
-};
-
-/**
- * Translation dictionary (minimal starter)
- */
-const DICTIONARY: Record<Language, Record<string, string>> = {
+const dictionaries: Record<Language, Record<string, string>> = {
   en: {
-    doctrine_title: "Doctrine",
-    doctrine_body: "Education is the foundation of wealth-building systems.",
+    doctrine_title: 'Doctrine',
+    doctrine_body: 'Principles, structure, and long-term governance matter more than hustle.'
   },
   es: {
-    doctrine_title: "Doctrina",
-    doctrine_body: "La educación es la base de los sistemas de creación de riqueza.",
+    doctrine_title: 'Doctrina',
+    doctrine_body: 'Los principios, la estructura y la gobernanza a largo plazo importan más que el esfuerzo.'
   },
+  pt: {
+    doctrine_title: 'Doutrina',
+    doctrine_body: 'Princípios, estrutura e governança de longo prazo importam mais do que esforço.'
+  },
+  fr: {
+    doctrine_title: 'Doctrine',
+    doctrine_body: 'Les principes, la structure et la gouvernance à long terme comptent plus que l’effort.'
+  }
 };
 
-/**
- * Core translation helper
- */
+export function isLanguage(value: string): value is Language {
+  return value === 'en' || value === 'es' || value === 'pt' || value === 'fr';
+}
+
 export function t(lang: Language, key: string): string {
-  return DICTIONARY[lang]?.[key] ?? key;
+  return dictionaries[lang]?.[key] ?? dictionaries.en[key] ?? key;
 }
