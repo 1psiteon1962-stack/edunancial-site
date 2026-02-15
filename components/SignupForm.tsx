@@ -1,7 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { AgeRange, BusinessStatus } from "@/lib/types/user-profile";
+import { BusinessStatus } from "@/lib/types/user-profile";
+
+type AgeRange =
+  | "under_18"
+  | "18_24"
+  | "25_34"
+  | "35_44"
+  | "45_54"
+  | "55_64"
+  | "65_plus";
 
 export default function SignupForm() {
   const [hasBusiness, setHasBusiness] = useState<boolean>(false);
