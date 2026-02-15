@@ -1,19 +1,17 @@
-export type AgeRange =
-  | "under_18"
-  | "18_24"
-  | "25_34"
-  | "35_44"
-  | "45_54"
-  | "55_64"
-  | "65_plus";
+// lib/types/user-profile.ts
 
 export type BusinessStatus =
-  | "none"
-  | "planning"
-  | "operating"
-  | "scaling";
+  | "registered"
+  | "unregistered"
+  | "in_progress";
 
 export type UserProfile = {
-  ageRange: AgeRange;
-  businessStatus: BusinessStatus;
+  id?: string;
+  email?: string;
+  firstName?: string;
+  lastName?: string;
+  ageRange?: "under_18" | "18_24" | "25_34" | "35_44" | "45_plus";
+  businessStatus?: BusinessStatus;
+  createdAt?: string;
+  updatedAt?: string;
 };
