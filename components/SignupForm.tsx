@@ -37,7 +37,7 @@ export default function SignupForm() {
           <label className="flex items-center gap-2">
             <input
               type="radio"
-              checked={hasBusiness === true}
+              checked={hasBusiness}
               onChange={() => setHasBusiness(true)}
             />
             Yes
@@ -46,7 +46,7 @@ export default function SignupForm() {
           <label className="flex items-center gap-2">
             <input
               type="radio"
-              checked={hasBusiness === false}
+              checked={!hasBusiness}
               onChange={() => {
                 setHasBusiness(false);
                 setBusinessStatus("none");
