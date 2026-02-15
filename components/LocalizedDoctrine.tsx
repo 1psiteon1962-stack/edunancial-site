@@ -1,5 +1,7 @@
 import React from "react";
-import { t, type Language } from "@/lib/i18n";
+import { t } from "@/lib/i18n";
+
+type Language = "en" | "es" | "fr" | "pt";
 
 type Props = {
   lang: Language;
