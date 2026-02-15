@@ -6,7 +6,8 @@ import { AgeRange, BusinessStatus } from "@/lib/types/user-profile";
 export default function SignupForm() {
   const [hasBusiness, setHasBusiness] = useState<boolean>(false);
   const [ageRange, setAgeRange] = useState<AgeRange | "">("");
-  const [businessStatus, setBusinessStatus] = useState<BusinessStatus>("none");
+  const [businessStatus, setBusinessStatus] =
+    useState<BusinessStatus>("none");
 
   return (
     <form className="max-w-xl space-y-6">
@@ -41,6 +42,7 @@ export default function SignupForm() {
             />
             Yes
           </label>
+
           <label className="flex items-center gap-2">
             <input
               type="radio"
