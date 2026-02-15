@@ -1,4 +1,4 @@
-// lib/i18n.ts
+// lib/i18n/index.ts
 
 export type Language = 'en' | 'es' | 'pt' | 'fr';
 
@@ -13,7 +13,7 @@ const dictionaries: Record<Language, Record<string, string>> = {
   },
   pt: {
     doctrine_title: 'Doutrina',
-    doctrine_body: 'Princípios, estrutura e governança de longo prazo importam mais do que esforço.'
+    doctrine_body: 'Princípios, estrutura e governança de longo prazo importam mais que esforço.'
   },
   fr: {
     doctrine_title: 'Doctrine',
