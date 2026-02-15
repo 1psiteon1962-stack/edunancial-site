@@ -12,3 +12,8 @@ export type BusinessStatus =
   | "planning"
   | "operating"
   | "scaling";
+
+export type UserProfile = {
+  ageRange: AgeRange;
+  businessStatus: BusinessStatus;
+};
