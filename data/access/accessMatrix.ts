@@ -1,20 +1,43 @@
-import { PlanCode } from "../plans/us.plans";
+// data/access/accessMatrix.ts
 
+import { PlanCode } from "@/data/plans/us.plans";
+
+/**
+ * Areas / features that can be gated by plan
+ */
 export type AccessArea =
   | "LEVEL1"
   | "LEVEL2"
   | "LEVEL3"
-  | "LEVEL4"
-  | "LEVEL5"
   | "APPS"
-  | "METRICS"
-  | "CAPITAL";
+  | "COURSES"
+  | "TOOLS";
 
+/**
+ * Centralized access control matrix.
+ * Keys MUST match PlanCode exactly.
+ */
 export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
-  FREE: ["LEVEL1"],
-  L1: ["LEVEL1", "APPS"],
-  L2: ["LEVEL1", "LEVEL2", "APPS"],
-  L3: ["LEVEL1", "LEVEL2", "LEVEL3", "APPS", "METRICS"],
-  L4: ["LEVEL1", "LEVEL2", "LEVEL3", "LEVEL4", "APPS", "METRICS"],
-  L5: ["LEVEL1", "LEVEL2", "LEVEL3", "LEVEL4", "LEVEL5", "APPS", "METRICS", "CAPITAL"]
+  free: ["LEVEL1"],
+
+  starter: [
+    "LEVEL1",
+    "APPS",
+  ],
+
+  pro: [
+    "LEVEL1",
+    "LEVEL2",
+    "APPS",
+    "COURSES",
+  ],
+
+  builder: [
+    "LEVEL1",
+    "LEVEL2",
+    "LEVEL3",
+    "APPS",
+    "COURSES",
+    "TOOLS",
+  ],
 };
