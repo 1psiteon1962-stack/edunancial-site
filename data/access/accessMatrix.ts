@@ -13,7 +13,6 @@ export type AccessArea =
 
 /**
  * Centralized access control matrix
- * Typed explicitly to prevent literal over-narrowing
  */
 export const ACCESS_MATRIX: Record<string, AccessArea[]> = {
   free: ["LEVEL1"],
