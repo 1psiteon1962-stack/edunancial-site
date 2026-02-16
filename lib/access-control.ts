@@ -1,21 +1,11 @@
-// lib/access-control.ts
+// lib/accessControl.ts
 
-import type { Level } from "./levels"
-import { hasSufficientLevel } from "./levels"
-
-/**
- * Access rule definition
- */
-export type AccessRule = {
-  requiredLevel: Level
-}
+import { ACCESS_MATRIX, AccessArea } from "@/data/access/accessMatrix";
+import { PlanCode } from "@/data/plans/us.plans";
 
 /**
- * Check if a user can access a resource
+ * Determines whether a given plan can access a given area
  */
-export function canAccess(
-  userLevel: Level,
-  rule: AccessRule
-): boolean {
-  return hasSufficientLevel(userLevel, rule.requiredLevel)
+export function canAccess(plan: PlanCode, area: AccessArea): boolean {
+  return ACCESS_MATRIX[plan]?.includes(area) ?? false;
 }
