@@ -1,6 +1,6 @@
-// lib/access-control.ts
+// lib/accessControl.ts
 
-import type { AccessArea, PlanCode } from "@/data/access/accessMatrix";
+import type { PlanCode, AccessArea } from "@/data/access/accessMatrix";
 import { ACCESS_MATRIX } from "@/data/access/accessMatrix";
 
 /**
