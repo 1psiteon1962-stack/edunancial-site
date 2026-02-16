@@ -43,6 +43,10 @@ export const regionCurriculumContent: RegionCurriculumContent = {
       title: "Curriculum globale",
       description: "Principi fondamentali applicabili a livello globale.",
     },
+    pt: {
+      title: "Currículo Global",
+      description: "Princípios fundamentais aplicáveis em todo o mundo.",
+    },
     ar: {
       title: "المنهج العالمي",
       description: "مبادئ أساسية قابلة للتطبيق عالميًا.",
@@ -60,15 +64,15 @@ export const regionCurriculumContent: RegionCurriculumContent = {
   us: {
     en: {
       title: "U.S. Curriculum",
-      description: "Market, tax, and regulatory structure of the U.S.",
+      description: "Market, tax, and regulatory structure of the United States.",
     },
     es: {
       title: "Currículo de EE. UU.",
-      description: "Estructura de mercado, impuestos y regulación en EE. UU.",
+      description: "Estructura del mercado, impuestos y regulación de EE. UU.",
     },
     fr: {
       title: "Programme américain",
-      description: "Structure du marché, fiscalité et réglementation aux États-Unis.",
+      description: "Structure du marché, fiscalité et réglementation des États-Unis.",
     },
     de: {
       title: "US-Lehrplan",
@@ -77,6 +81,10 @@ export const regionCurriculumContent: RegionCurriculumContent = {
     it: {
       title: "Curriculum USA",
       description: "Struttura di mercato, fiscale e normativa degli Stati Uniti.",
+    },
+    pt: {
+      title: "Currículo dos EUA",
+      description: "Estrutura de mercado, tributária e regulatória dos Estados Unidos.",
     },
     ar: {
       title: "المنهج الأمريكي",
@@ -95,35 +103,39 @@ export const regionCurriculumContent: RegionCurriculumContent = {
   latam: {
     en: {
       title: "Latin America Curriculum",
-      description: "Informal economies, currency, and regional systems.",
+      description: "Informal economies, currency systems, and regional structure.",
     },
     es: {
       title: "Currículo de América Latina",
-      description: "Economías informales, moneda y sistemas regionales.",
+      description: "Economías informales, sistemas monetarios y estructura regional.",
     },
     fr: {
       title: "Programme Amérique latine",
-      description: "Économies informelles, monnaie et systèmes régionaux.",
+      description: "Économies informelles, systèmes monétaires et structure régionale.",
     },
     de: {
       title: "Lateinamerika-Lehrplan",
-      description: "Informelle Volkswirtschaften, Währungen und regionale Systeme.",
+      description: "Informelle Volkswirtschaften, Währungen und regionale Struktur.",
     },
     it: {
       title: "Curriculum America Latina",
-      description: "Economie informali, valuta e sistemi regionali.",
+      description: "Economie informali, sistemi monetari e struttura regionale.",
+    },
+    pt: {
+      title: "Currículo da América Latina",
+      description: "Economias informais, sistemas monetários e estrutura regional.",
     },
     ar: {
       title: "منهج أمريكا اللاتينية",
-      description: "الاقتصادات غير الرسمية والعملات والأنظمة الإقليمية.",
+      description: "الاقتصادات غير الرسمية والأنظمة النقدية والبنية الإقليمية.",
     },
     ja: {
       title: "中南米カリキュラム",
-      description: "非公式経済、通貨、地域システム。",
+      description: "非公式経済、通貨システム、地域構造。",
     },
     ko: {
       title: "라틴 아메리카 커리큘럼",
-      description: "비공식 경제, 통화 및 지역 시스템.",
+      description: "비공식 경제, 통화 시스템 및 지역 구조.",
     },
   },
 };
