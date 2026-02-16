@@ -3,9 +3,16 @@
 /**
  * Canonical literacy levels used across the app.
  * SINGLE SOURCE OF TRUTH.
+ *
+ * Supports BOTH:
+ * - semantic product levels (beginner / intermediate / advanced)
+ * - system levels (LEVEL0–LEVEL4)
  */
 
 export type LiteracyLevel =
+  | "beginner"
+  | "intermediate"
+  | "advanced"
   | "LEVEL0"
   | "LEVEL1"
   | "LEVEL2"
@@ -17,6 +24,9 @@ export type LiteracyLevel =
  * Used for comparisons and gating.
  */
 export const levels: readonly LiteracyLevel[] = [
+  "beginner",
+  "intermediate",
+  "advanced",
   "LEVEL0",
   "LEVEL1",
   "LEVEL2",
