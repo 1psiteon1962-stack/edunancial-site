@@ -28,3 +28,11 @@ export function meetsLevel(
     ORDERED_LEVELS.indexOf(requiredLevel)
   );
 }
+
+/**
+ * Determines whether a user has capital access.
+ * Centralized here to avoid circular imports.
+ */
+export function hasCapitalAccess(userLevel: LiteracyLevel): boolean {
+  return meetsLevel(userLevel, "intermediate");
+}
