@@ -1,7 +1,5 @@
 // data/access/accessMatrix.ts
 
-import type { PlanCode } from "@/data/plans/us.plans";
-
 /**
  * Areas / features that can be gated by plan
  */
@@ -15,9 +13,9 @@ export type AccessArea =
 
 /**
  * Centralized access control matrix
- * Keys MUST match PlanCode exactly
+ * This file is now SELF-CONTAINED
  */
-export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
+export const ACCESS_MATRIX = {
   free: ["LEVEL1"],
 
   starter: [
@@ -40,4 +38,10 @@ export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
     "COURSES",
     "TOOLS",
   ],
-};
+} as const;
+
+/**
+ * PlanCode is derived directly from ACCESS_MATRIX
+ * No imports. No aliases. No drift.
+ */
+export type PlanCode = keyof typeof ACCESS_MATRIX;
