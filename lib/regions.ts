@@ -1,44 +1,50 @@
 // lib/regions.ts
 
-/* =========================
-   REGION IDENTIFIERS
-========================= */
+export interface RegionMeta {
+  /** URL-safe identifier used in routing */
+  slug: string;
 
-export const REGION_KEYS = [
-  "us",
-  "latam",
-  "caribbean",
-  "europe",
-  "africa",
-  "mena",
-  "asia",
-  "asia-pacific",
-  "asia-emerging",
-] as const;
+  /** Human-readable name */
+  name: string;
 
-/* =========================
-   REGION TYPE
-========================= */
+  /** Client-side curriculum modules */
+  clientModules: string[];
 
-export type Region = (typeof REGION_KEYS)[number];
+  /** Optional description */
+  description?: string;
+}
 
-/* =========================
-   REGION METADATA (OPTIONAL)
-========================= */
-
-export type RegionMeta = {
-  id: Region;
-  label: string;
-};
-
+/**
+ * Canonical list of supported regions.
+ * The `slug` value MUST match the route segment.
+ */
 export const regions: RegionMeta[] = [
-  { id: "us", label: "United States" },
-  { id: "latam", label: "Latin America" },
-  { id: "caribbean", label: "Caribbean" },
-  { id: "europe", label: "Europe" },
-  { id: "africa", label: "Africa" },
-  { id: "mena", label: "Middle East & North Africa" },
-  { id: "asia", label: "Asia" },
-  { id: "asia-pacific", label: "Asia Pacific" },
-  { id: "asia-emerging", label: "Emerging Asia" },
+  {
+    slug: "global",
+    name: "Global",
+    clientModules: [
+      "doctrine",
+      "curriculum",
+      "principles",
+    ],
+    description: "Default global curriculum",
+  },
+  {
+    slug: "us",
+    name: "United States",
+    clientModules: [
+      "doctrine",
+      "tax",
+      "markets",
+    ],
+  },
+  {
+    slug: "latam",
+    name: "Latin America",
+    clientModules: [
+      "doctrine",
+      "currency",
+      "informal-economy",
+    ],
+  },
 ];
