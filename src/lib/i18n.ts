@@ -1,9 +1,33 @@
-export const DEFAULT_LANGUAGE = "en";
+// src/lib/i18n.ts
 
-export function t(key: string, lang: string = DEFAULT_LANGUAGE): string {
-  return key;
+/**
+ * Canonical language type for the entire application.
+ * ALL language imports must come from this file.
+ */
+export type Language = "en" | "es";
+
+/**
+ * Runtime guard for validating language strings.
+ */
+export function isLanguage(value: string): value is Language {
+  return value === "en" || value === "es";
 }
 
-export function isLanguage(lang: unknown): lang is string {
-  return typeof lang === "string" && lang.length > 0;
+/**
+ * Translation dictionaries.
+ */
+const dictionaries: Record<Language, Record<string, string>> = {
+  en: {
+    welcome: "Welcome",
+  },
+  es: {
+    welcome: "Bienvenido",
+  },
+};
+
+/**
+ * Translation helper.
+ */
+export function t(lang: Language, key: string): string {
+  return dictionaries[lang]?.[key] ?? key;
 }
