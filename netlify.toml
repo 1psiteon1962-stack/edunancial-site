@@ -2,8 +2,10 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "@netlify/next-runtime"
-
 [build.environment]
+  NODE_VERSION = "18"
   NEXT_TELEMETRY_DISABLED = "1"
+
+# 🔴 Disable Netlify Next Runtime plugin (it is causing the failure)
+[[plugins]]
+  package = "netlify-plugin-noop"
