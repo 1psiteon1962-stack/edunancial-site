@@ -13,9 +13,9 @@ export type AccessArea =
 
 /**
  * Centralized access control matrix
- * This file is the SINGLE source of truth for plans
+ * Typed explicitly to prevent literal over-narrowing
  */
-export const ACCESS_MATRIX = {
+export const ACCESS_MATRIX: Record<string, AccessArea[]> = {
   free: ["LEVEL1"],
 
   starter: [
@@ -38,9 +38,9 @@ export const ACCESS_MATRIX = {
     "COURSES",
     "TOOLS",
   ],
-} as const;
+};
 
 /**
- * PlanCode is derived HERE and exported
+ * Canonical plan code type
  */
 export type PlanCode = keyof typeof ACCESS_MATRIX;
