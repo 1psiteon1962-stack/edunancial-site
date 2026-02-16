@@ -1,32 +1,32 @@
 // lib/i18n.ts
 
 /**
- * Supported languages
- * Keep this narrow and explicit so indexing is safe.
+ * Supported application languages.
+ * This is the canonical Language type used across the codebase.
  */
 export type Language = "en" | "es";
 
 /**
- * Dictionaries MUST be typed with a string index signature
- * to allow dictionaries[lang][key]
+ * Runtime language guard.
+ */
+export function isLanguage(value: string): value is Language {
+  return value === "en" || value === "es";
+}
+
+/**
+ * Translation dictionaries.
  */
 const dictionaries: Record<Language, Record<string, string>> = {
   en: {
     welcome: "Welcome",
-    signup: "Sign up",
-    login: "Log in",
   },
-
   es: {
     welcome: "Bienvenido",
-    signup: "Regístrate",
-    login: "Iniciar sesión",
   },
 };
 
 /**
- * Translation helper
- * Always returns a string (falls back to key)
+ * Translation helper.
  */
 export function t(lang: Language, key: string): string {
   return dictionaries[lang]?.[key] ?? key;
