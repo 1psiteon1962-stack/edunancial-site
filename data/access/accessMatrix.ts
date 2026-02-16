@@ -8,7 +8,17 @@ export type AccessArea =
   | "COURSES"
   | "TOOLS";
 
-export const ACCESS_MATRIX = {
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "pro"
+  | "builder";
+
+/**
+ * EXPLICITLY widen arrays to AccessArea[]
+ * Do NOT rely on inference or `satisfies`
+ */
+export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
   free: ["LEVEL1"],
 
   starter: ["LEVEL1", "APPS"],
@@ -23,6 +33,4 @@ export const ACCESS_MATRIX = {
     "COURSES",
     "TOOLS",
   ],
-} satisfies Record<string, AccessArea[]>;
-
-export type PlanCode = keyof typeof ACCESS_MATRIX;
+};
