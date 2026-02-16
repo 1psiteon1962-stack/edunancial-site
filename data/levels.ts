@@ -1,41 +1,19 @@
 // data/levels.ts
 
-/**
- * Canonical literacy levels used across the app.
- * SINGLE SOURCE OF TRUTH.
- *
- * Supports BOTH:
- * - semantic product levels (beginner / intermediate / advanced)
- * - system levels (LEVEL0–LEVEL4)
- */
-
-export type LiteracyLevel =
-  | "beginner"
-  | "intermediate"
-  | "advanced"
-  | "LEVEL0"
-  | "LEVEL1"
-  | "LEVEL2"
-  | "LEVEL3"
-  | "LEVEL4";
+export type LiteracyLevel = "beginner" | "intermediate" | "advanced";
 
 /**
- * Ordered list of levels from lowest to highest.
+ * Ordered literacy levels from lowest to highest.
  * Used for comparisons and gating.
  */
-export const levels: readonly LiteracyLevel[] = [
+export const literacyLevels: LiteracyLevel[] = [
   "beginner",
   "intermediate",
   "advanced",
-  "LEVEL0",
-  "LEVEL1",
-  "LEVEL2",
-  "LEVEL3",
-  "LEVEL4",
 ];
 
 /**
- * Backwards-compatible named export
- * REQUIRED by lib/level-guard.ts
+ * Alias for compatibility across the codebase.
+ * DO NOT REMOVE.
  */
-export const Levels = levels;
+export const levels = literacyLevels;
