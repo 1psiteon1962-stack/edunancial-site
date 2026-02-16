@@ -1,32 +1,33 @@
-export const dictionaries = {
+// lib/i18n.ts
+
+/**
+ * Supported languages
+ * Keep this narrow and explicit so indexing is safe.
+ */
+export type Language = "en" | "es";
+
+/**
+ * Dictionaries MUST be typed with a string index signature
+ * to allow dictionaries[lang][key]
+ */
+const dictionaries: Record<Language, Record<string, string>> = {
   en: {
-    doctrine_title: "Doctrine",
-    doctrine_body:
-      "Principles, structure, and long-term governance matter more than hustle."
+    welcome: "Welcome",
+    signup: "Sign up",
+    login: "Log in",
   },
+
   es: {
-    doctrine_title: "Doctrina",
-    doctrine_body:
-      "Los principios, la estructura y la gobernanza a largo plazo importan más que el esfuerzo."
+    welcome: "Bienvenido",
+    signup: "Regístrate",
+    login: "Iniciar sesión",
   },
-  fr: {
-    doctrine_title: "Doctrine",
-    doctrine_body:
-      "Les principes, la structure et la gouvernance à long terme comptent plus que l’effort."
-  },
-  pt: {
-    doctrine_title: "Doutrina",
-    doctrine_body:
-      "Princípios, estrutura e governança de longo prazo importam mais que esforço."
-  }
-} as const;
+};
 
-export type Language = keyof typeof dictionaries;
-
-export function isLanguage(value: string): value is Language {
-  return value in dictionaries;
-}
-
+/**
+ * Translation helper
+ * Always returns a string (falls back to key)
+ */
 export function t(lang: Language, key: string): string {
-  return dictionaries[lang]?.[key] ?? dictionaries.en[key] ?? key;
+  return dictionaries[lang]?.[key] ?? key;
 }
