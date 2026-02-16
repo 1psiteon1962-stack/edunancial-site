@@ -13,7 +13,7 @@ export type AccessArea =
 
 /**
  * Centralized access control matrix
- * This file is now SELF-CONTAINED
+ * This file is the SINGLE source of truth for plans
  */
 export const ACCESS_MATRIX = {
   free: ["LEVEL1"],
@@ -41,7 +41,6 @@ export const ACCESS_MATRIX = {
 } as const;
 
 /**
- * PlanCode is derived directly from ACCESS_MATRIX
- * No imports. No aliases. No drift.
+ * PlanCode is derived HERE and exported
  */
 export type PlanCode = keyof typeof ACCESS_MATRIX;
