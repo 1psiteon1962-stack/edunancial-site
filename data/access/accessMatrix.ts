@@ -1,6 +1,6 @@
 // data/access/accessMatrix.ts
 
-import { PlanCode } from "@/data/plans/us.plans";
+import type { PlanCode } from "@/data/plans/us.plans";
 
 /**
  * Areas / features that can be gated by plan
@@ -14,8 +14,8 @@ export type AccessArea =
   | "TOOLS";
 
 /**
- * Centralized access control matrix.
- * Keys MUST match PlanCode exactly.
+ * Centralized access control matrix
+ * Keys MUST match PlanCode exactly
  */
 export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
   free: ["LEVEL1"],
