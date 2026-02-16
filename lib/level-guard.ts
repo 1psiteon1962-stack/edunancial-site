@@ -1,12 +1,10 @@
 // lib/level-guard.ts
 
-import { levels, type LiteracyLevel } from "@/data/levels";
+import levels, { type LiteracyLevel } from "@/data/levels";
 
 /**
  * Returns true if the user's literacy level meets or exceeds
  * the required level.
- *
- * Order is defined centrally in data/levels.ts
  */
 export function meetsLevel(
   userLevel: LiteracyLevel,
