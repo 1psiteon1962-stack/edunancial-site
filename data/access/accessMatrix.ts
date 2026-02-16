@@ -1,8 +1,5 @@
 // data/access/accessMatrix.ts
 
-/**
- * Areas / features that can be gated by plan
- */
 export type AccessArea =
   | "LEVEL1"
   | "LEVEL2"
@@ -11,23 +8,12 @@ export type AccessArea =
   | "COURSES"
   | "TOOLS";
 
-/**
- * Centralized access control matrix
- */
-export const ACCESS_MATRIX: Record<string, AccessArea[]> = {
+export const ACCESS_MATRIX = {
   free: ["LEVEL1"],
 
-  starter: [
-    "LEVEL1",
-    "APPS",
-  ],
+  starter: ["LEVEL1", "APPS"],
 
-  pro: [
-    "LEVEL1",
-    "LEVEL2",
-    "APPS",
-    "COURSES",
-  ],
+  pro: ["LEVEL1", "LEVEL2", "APPS", "COURSES"],
 
   builder: [
     "LEVEL1",
@@ -37,9 +23,6 @@ export const ACCESS_MATRIX: Record<string, AccessArea[]> = {
     "COURSES",
     "TOOLS",
   ],
-};
+} satisfies Record<string, AccessArea[]>;
 
-/**
- * Canonical plan code type
- */
 export type PlanCode = keyof typeof ACCESS_MATRIX;
