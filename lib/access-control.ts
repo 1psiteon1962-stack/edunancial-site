@@ -1,6 +1,7 @@
 // lib/access-control.ts
 
-import { ACCESS_MATRIX, AccessArea, PlanCode } from "@/data/access/accessMatrix";
+import type { AccessArea, PlanCode } from "@/data/access/accessMatrix";
+import { ACCESS_MATRIX } from "@/data/access/accessMatrix";
 
 /**
  * Determines whether a given plan can access a given area
