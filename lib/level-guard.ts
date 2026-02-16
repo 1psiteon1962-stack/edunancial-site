@@ -1,21 +1,27 @@
 // lib/level-guard.ts
 
-import { levels, type LiteracyLevel } from "@/data/levels";
+import type { LiteracyLevel } from "@/data/levels";
 
 /**
- * Returns true if the user's literacy level meets or exceeds
- * the required level.
+ * Ordered literacy levels from lowest to highest.
+ * Kept local to avoid cross-file export mismatch issues.
+ */
+const ORDERED_LEVELS: LiteracyLevel[] = [
+  "beginner",
+  "intermediate",
+  "advanced",
+];
+
+/**
+ * Returns true if the user's literacy level
+ * meets or exceeds the required level.
  */
 export function meetsLevel(
   userLevel: LiteracyLevel,
   requiredLevel: LiteracyLevel
 ): boolean {
-  const userIndex = levels.indexOf(userLevel);
-  const requiredIndex = levels.indexOf(requiredLevel);
-
-  if (userIndex === -1 || requiredIndex === -1) {
-    return false;
-  }
-
-  return userIndex >= requiredIndex;
+  return (
+    ORDERED_LEVELS.indexOf(userLevel) >=
+    ORDERED_LEVELS.indexOf(requiredLevel)
+  );
 }
