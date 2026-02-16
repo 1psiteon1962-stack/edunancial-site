@@ -19,8 +19,15 @@ export const isLanguage = (value: string): value is Language => {
 };
 
 /**
+ * Region → allowed languages
+ * Used by static param generation
+ */
+export const REGION_LANGUAGES: Record<string, readonly Language[]> = {
+  global: supportedLanguages,
+};
+
+/**
  * Central translation table.
- * Every Language MUST be represented here.
  */
 const translations: Record<Language, Record<string, string>> = {
   en: {
