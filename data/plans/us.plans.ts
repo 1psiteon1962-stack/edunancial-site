@@ -1,26 +1,34 @@
 // data/plans/us.plans.ts
 
+/**
+ * Canonical list of plans for the US site
+ * This file is the single source of truth for plan identifiers
+ */
+
 export const PLANS = {
   free: {
-    name: "Free",
+    label: "Free",
     price: 0,
   },
+
   starter: {
-    name: "Starter",
-    price: 19,
+    label: "Starter",
+    price: 9,
   },
+
   pro: {
-    name: "Pro",
-    price: 49,
+    label: "Pro",
+    price: 29,
   },
+
   builder: {
-    name: "Builder",
-    price: 99,
+    label: "Builder",
+    price: 79,
   },
 } as const;
 
 /**
- * PlanCode is derived directly from PLANS keys.
- * This guarantees type safety across the app.
+ * PlanCode is derived from PLANS keys
+ * DO NOT hardcode elsewhere
  */
 export type PlanCode = keyof typeof PLANS;
