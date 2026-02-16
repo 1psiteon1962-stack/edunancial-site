@@ -1,31 +1,31 @@
 // data/levels.ts
 
 /**
- * Literacy levels used across products, apps, and guards.
- * This module MUST export:
- *  - LiteracyLevel (type)
- *  - Levels (constant)
+ * Canonical literacy levels used across the app.
+ * SINGLE SOURCE OF TRUTH.
  */
 
 export type LiteracyLevel =
-  | "beginner"
-  | "intermediate"
-  | "advanced";
+  | "LEVEL0"
+  | "LEVEL1"
+  | "LEVEL2"
+  | "LEVEL3"
+  | "LEVEL4";
 
 /**
- * Levels constant required by lib/level-guard.ts
+ * Ordered list of levels from lowest to highest.
+ * Used for comparisons and gating.
  */
-export const Levels: LiteracyLevel[] = [
-  "beginner",
-  "intermediate",
-  "advanced",
+export const levels: readonly LiteracyLevel[] = [
+  "LEVEL0",
+  "LEVEL1",
+  "LEVEL2",
+  "LEVEL3",
+  "LEVEL4",
 ];
 
 /**
- * Optional display labels.
+ * Backwards-compatible named export
+ * REQUIRED by lib/level-guard.ts
  */
-export const literacyLevelLabels: Record<LiteracyLevel, string> = {
-  beginner: "Beginner",
-  intermediate: "Intermediate",
-  advanced: "Advanced",
-};
+export const Levels = levels;
