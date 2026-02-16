@@ -1,10 +1,13 @@
 // lib/level-guard.ts
 
-import type { LiteracyLevel } from "@/data/levels";
+/**
+ * Canonical literacy levels used across the platform.
+ * Defined locally to avoid cross-file export drift.
+ */
+export type LiteracyLevel = "beginner" | "intermediate" | "advanced";
 
 /**
  * Ordered literacy levels from lowest to highest.
- * Kept local to avoid cross-file export mismatch issues.
  */
 const ORDERED_LEVELS: LiteracyLevel[] = [
   "beginner",
