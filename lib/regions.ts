@@ -5,6 +5,11 @@ export type RegionMeta = {
   clientModules: string[];
 };
 
+/**
+ * Canonical Region type used across the app
+ */
+export type Region = RegionMeta;
+
 export const regions: RegionMeta[] = [
   {
     slug: "us",
