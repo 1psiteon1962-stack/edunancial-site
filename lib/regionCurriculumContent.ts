@@ -10,12 +10,12 @@ export type CurriculumEntry = {
 };
 
 /**
- * Curriculum content keyed by REGION CODE STRING
- * (e.g. "us", "global")
+ * Curriculum content keyed by REGION CODE (string),
+ * with OPTIONAL language coverage per region.
  */
 export type RegionCurriculumContent = Record<
   string,
-  Record<Language, CurriculumEntry>
+  Partial<Record<Language, CurriculumEntry>>
 >;
 
 /* =========================
@@ -31,14 +31,6 @@ export const regionCurriculumContent: RegionCurriculumContent = {
     es: {
       title: "Currículo Global",
       description: "Principios fundamentales aplicables en todo el mundo."
-    },
-    fr: {
-      title: "Programme mondial",
-      description: "Principes fondamentaux applicables dans le monde entier."
-    },
-    pt: {
-      title: "Currículo Global",
-      description: "Princípios fundamentais aplicáveis em todo o mundo."
     }
   },
 
@@ -50,14 +42,6 @@ export const regionCurriculumContent: RegionCurriculumContent = {
     es: {
       title: "Currículo de EE. UU.",
       description: "Educación alineada con los sistemas de los Estados Unidos."
-    },
-    fr: {
-      title: "Programme américain",
-      description: "Éducation alignée sur les systèmes des États-Unis."
-    },
-    pt: {
-      title: "Currículo dos EUA",
-      description: "Educação alinhada aos sistemas dos Estados Unidos."
     }
   }
 };
