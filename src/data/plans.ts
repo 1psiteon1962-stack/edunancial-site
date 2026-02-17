@@ -1,20 +1,24 @@
 // src/data/plans.ts
 
-import { Plan } from "@/types/plans";
+import type { PricingPlan } from "@/types/plans";
 
-export const PLANS: Plan[] = [
+export const PLANS: PricingPlan[] = [
   {
-    code: "free",
-    name: "Free",
-    description: "Basic public access.",
-    priceMonthlyUsd: 0,
-    features: ["Browse free content", "View public curriculum"],
+    id: "starter",
+    name: "Starter",
+    price: 0,
+    features: ["Access to core content"],
   },
   {
-    code: "starter",
-    name: "Starter",
-    description: "Starter access for new investors.",
-    priceMonthlyUsd: 9,
-    features: ["Starter tools", "Beginner lessons", "Email support"],
+    id: "pro",
+    name: "Pro",
+    price: 29,
+    features: ["Everything in Starter", "Advanced tools"],
+  },
+  {
+    id: "builder",
+    name: "Builder",
+    price: 99,
+    features: ["Everything in Pro", "Custom builds"],
   },
 ];
