@@ -19,7 +19,8 @@ export default function RegionPage({ params }: PageProps) {
       <h1>{region.name}</h1>
       <p>Region code: {region.code}</p>
       <p>Default language: {region.defaultLanguage}</p>
-      <p>Available languages:</p>
+
+      <h3>Languages</h3>
       <ul>
         {region.languages.map((lang) => (
           <li key={lang}>{lang}</li>
