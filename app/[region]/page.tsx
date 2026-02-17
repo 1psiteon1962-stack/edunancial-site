@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getRegion } from "../lib/regions";
+import { regions } from "@/lib/regions";
 
 type PageProps = {
   params: {
@@ -8,7 +8,7 @@ type PageProps = {
 };
 
 export default function RegionPage({ params }: PageProps) {
-  const region = getRegion(params.region);
+  const region = regions.find(r => r.slug === params.region);
 
   if (!region) {
     notFound();
@@ -17,13 +17,12 @@ export default function RegionPage({ params }: PageProps) {
   return (
     <main style={{ padding: "2rem" }}>
       <h1>{region.name}</h1>
-      <p>Region code: {region.code}</p>
-      <p>Default language: {region.defaultLanguage}</p>
+      <p>Region slug: {region.slug}</p>
 
-      <h3>Languages</h3>
+      <h2>Modules</h2>
       <ul>
-        {region.languages.map((lang) => (
-          <li key={lang}>{lang}</li>
+        {region.clientModules.map(mod => (
+          <li key={mod}>{mod}</li>
         ))}
       </ul>
     </main>
