@@ -1,6 +1,6 @@
 // src/data/plans.ts
 
-import type { Plan } from "@/types/plans";
+import type { Plan } from "../types/plans";
 
 export const PLANS: Plan[] = [
   {
