@@ -1,29 +1,30 @@
-// app/[region]/page.tsx
-
 import { notFound } from "next/navigation";
-import { regions } from "@/lib/regions";
+import { getRegion } from "../lib/regions";
 
-export default function RegionPage({
-  params,
-}: {
-  params: { region: string };
-}) {
-  const region = regions.find((r) => r.slug === params.region);
+type PageProps = {
+  params: {
+    region: string;
+  };
+};
 
-  if (!region) notFound();
+export default function RegionPage({ params }: PageProps) {
+  const region = getRegion(params.region);
+
+  if (!region) {
+    notFound();
+  }
 
   return (
     <main style={{ padding: "2rem" }}>
       <h1>{region.name}</h1>
+      <p>Region code: {region.code}</p>
+      <p>Default language: {region.defaultLanguage}</p>
+      <p>Available languages:</p>
       <ul>
-        {(region.clientModules ?? []).map((m) => (
-          <li key={m}>{m}</li>
+        {region.languages.map((lang) => (
+          <li key={lang}>{lang}</li>
         ))}
       </ul>
     </main>
   );
-}
-
-export function generateStaticParams() {
-  return regions.map((r) => ({ region: r.slug }));
 }
