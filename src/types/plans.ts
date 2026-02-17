@@ -1,9 +1,10 @@
 // src/types/plans.ts
 
 export type Plan = {
-  code: string;
+  id: string;
   name: string;
-  description: string;
-  priceMonthlyUsd: number;
-  features: string[];
+  description?: string;
+  price?: number;
+  features?: string[];
+  [key: string]: any;
 };
