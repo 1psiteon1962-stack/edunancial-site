@@ -1,16 +1,34 @@
 "use client";
 
 import { useState } from "react";
-import { readinessQuestions } from "@/lib/readiness-questions";
-import { calculateReadinessScore } from "@/lib/readiness-scoring";
+
+type Answers = Record<string, number>;
+
+type ReadinessResult = {
+  level: string;
+  score: number;
+};
+
+function calculateReadinessScore(answers: Answers): ReadinessResult {
+  const values = Object.values(answers);
+  const score = values.reduce((sum, v) => sum + v, 0);
+
+  let level = "Beginner";
+  if (score >= 70) level = "Advanced";
+  else if (score >= 40) level = "Intermediate";
+
+  return { level, score };
+}
 
 export default function EduReadiness() {
-  const [answers, setAnswers] = useState<number[]>([]);
+  const [answers, setAnswers] = useState<Answers>({
+    discipline: 0,
+    systems: 0,
+    execution: 0,
+  });
 
-  function handleAnswer(index: number, score: number) {
-    const next = [...answers];
-    next[index] = score;
-    setAnswers(next);
+  function handleChange(key: string, value: number) {
+    setAnswers((prev) => ({ ...prev, [key]: value }));
   }
 
   function handleSubmit() {
@@ -19,36 +37,49 @@ export default function EduReadiness() {
   }
 
   return (
-    <div>
-      <h2>Education Readiness Diagnostic</h2>
+    <section style={{ padding: "2rem" }}>
+      <h2>Education Readiness</h2>
 
-      {readinessQuestions.map((q, i) => (
-        <div key={q.id} style={{ marginBottom: "1.5rem" }}>
-          <strong>{q.question}</strong>
+      <label>
+        Discipline:
+        <input
+          type="number"
+          min={0}
+          max={50}
+          value={answers.discipline}
+          onChange={(e) => handleChange("discipline", Number(e.target.value))}
+        />
+      </label>
 
-          <div>
-            {q.options.map((opt) => (
-              <div key={opt.label}>
-                <label>
-                  <input
-                    type="radio"
-                    name={q.id}
-                    onChange={() => handleAnswer(i, opt.score)}
-                  />{" "}
-                  {opt.label}
-                </label>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+      <br />
 
-      <button
-        onClick={handleSubmit}
-        disabled={answers.length !== readinessQuestions.length}
-      >
-        Calculate Readiness
-      </button>
-    </div>
+      <label>
+        Systems:
+        <input
+          type="number"
+          min={0}
+          max={50}
+          value={answers.systems}
+          onChange={(e) => handleChange("systems", Number(e.target.value))}
+        />
+      </label>
+
+      <br />
+
+      <label>
+        Execution:
+        <input
+          type="number"
+          min={0}
+          max={50}
+          value={answers.execution}
+          onChange={(e) => handleChange("execution", Number(e.target.value))}
+        />
+      </label>
+
+      <br /><br />
+
+      <button onClick={handleSubmit}>Check Readiness</button>
+    </section>
   );
 }
