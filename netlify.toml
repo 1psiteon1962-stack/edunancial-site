@@ -1,7 +1,28 @@
-# FILE: netlify.toml
 [build]
   command = "npm run build"
   publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
+
+# ✅ Production deploy ONLY from main branch
+[context.production]
+  command = "npm run build"
+  publish = ".next"
+  environment = { SITE_REGION = "us" }
+
+# ✅ Deploy previews for ALL non-main branches (mirrors in progress)
+[context.deploy-preview]
+  command = "npm run build"
+  publish = ".next"
+  environment = { SITE_REGION = "preview" }
+
+# ✅ Branch deploys (optional, if you use branch subdomains)
+[context.branch-deploy]
+  command = "npm run build"
+  publish = ".next"
+  environment = { SITE_REGION = "branch" }
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
