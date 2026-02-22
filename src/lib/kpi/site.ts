@@ -1,5 +1,14 @@
-export function getSiteContext() {
-  const site_region = process.env.SITE_REGION || "us";
-  const site_id = process.env.SITE_ID || "edunancial-us";
-  return { site_region, site_id };
+import type { SiteContext } from "./types";
+
+function requiredEnv(name: string): string {
+  const v = process.env[name];
+  if (!v) throw new Error(`Missing required env var: ${name}`);
+  return v;
+}
+
+export function getSiteContext(): SiteContext {
+  return {
+    site_id: requiredEnv("SITE_ID"),
+    site_region: requiredEnv("SITE_REGION"),
+  };
 }
