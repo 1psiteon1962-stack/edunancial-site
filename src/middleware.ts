@@ -1,29 +1,50 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { REGION_REGISTRY } from "@/lib/regions/regionRegistry";
+
+function detectRegionFromHeaders(req: NextRequest) {
+  const country = req.headers.get("x-vercel-ip-country")?.toLowerCase();
+
+  if (!country) return "us";
+
+  // Map countries to your region buckets
+  const latamCountries = ["mx", "co", "ar", "cl", "pe", "do", "pr"];
+  const euCountries = ["de", "fr", "es", "it", "nl"];
+  const africaCountries = ["gh", "ng", "ke", "za"];
+
+  if (latamCountries.includes(country)) return "latam";
+  if (euCountries.includes(country)) return "eu";
+  if (africaCountries.includes(country)) return "africa";
+
+  return "us";
+}
 
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  if (pathname.startsWith("/admin")) {
-    const user = process.env.ADMIN_DASH_USER || "";
-    const pass = process.env.ADMIN_DASH_PASS || "";
-
-    if (!user || !pass) return NextResponse.next();
-
-    const expected = "Basic " + Buffer.from(`${user}:${pass}`).toString("base64");
-    const auth = req.headers.get("authorization") || "";
-
-    if (auth !== expected) {
-      return new NextResponse("Unauthorized", {
-        status: 401,
-        headers: { "WWW-Authenticate": 'Basic realm="Edunancial Admin"' },
-      });
-    }
+  // Skip API + static
+  if (
+    pathname.startsWith("/api") ||
+    pathname.startsWith("/_next") ||
+    pathname.includes(".")
+  ) {
+    return NextResponse.next();
   }
 
-  return NextResponse.next();
+  const segments = pathname.split("/").filter(Boolean);
+
+  if (segments.length > 0 && REGION_REGISTRY[segments[0]]) {
+    return NextResponse.next();
+  }
+
+  const region = detectRegionFromHeaders(req);
+
+  const url = req.nextUrl.clone();
+  url.pathname = `/${region}${pathname}`;
+
+  return NextResponse.redirect(url);
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };
