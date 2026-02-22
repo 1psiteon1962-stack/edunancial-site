@@ -1,58 +1,70 @@
+/**
+ * MASTER REGION REGISTRY
+ *
+ * This file MUST:
+ * - Export a named `regions` array (because app/[region]/page.tsx expects it)
+ * - Export helpers for validation
+ * - Never throw
+ * - Never break US site if mirrors are incomplete
+ */
+
 export type RegionCode =
   | "us"
   | "latam"
-  | "eu"
   | "africa"
-  | "asia";
+  | "mena"
+  | "asia"
+  | "eu";
 
-export type RegionConfig = {
-  code: RegionCode;
-  displayName: string;
+/**
+ * Canonical region list
+ * This satisfies:
+ * import { regions } from "@/lib/regions"
+ */
+export const regions: RegionCode[] = [
+  "us",
+  "latam",
+  "africa",
+  "mena",
+  "asia",
+  "eu"
+];
+
+/**
+ * Region metadata map
+ */
+export const RegionMeta: Record<RegionCode, {
+  name: string;
   currency: string;
-  language: string;
+}> = {
+  us: { name: "United States", currency: "USD" },
+  latam: { name: "Latin America", currency: "USD" },
+  africa: { name: "Africa", currency: "USD" },
+  mena: { name: "Middle East & North Africa", currency: "USD" },
+  asia: { name: "Asia", currency: "USD" },
+  eu: { name: "Europe", currency: "USD" }
 };
 
-const REGION_MAP: Record<RegionCode, RegionConfig> = {
-  us: {
-    code: "us",
-    displayName: "United States",
-    currency: "USD",
-    language: "en"
-  },
-  latam: {
-    code: "latam",
-    displayName: "Latin America",
-    currency: "USD",
-    language: "es"
-  },
-  eu: {
-    code: "eu",
-    displayName: "European Union",
-    currency: "EUR",
-    language: "en"
-  },
-  africa: {
-    code: "africa",
-    displayName: "Africa",
-    currency: "USD",
-    language: "en"
-  },
-  asia: {
-    code: "asia",
-    displayName: "Asia",
-    currency: "USD",
-    language: "en"
-  }
-};
-
-export function getRegionConfig(region: string): RegionConfig {
-  if (region in REGION_MAP) {
-    return REGION_MAP[region as RegionCode];
-  }
-
-  return REGION_MAP.us;
+/**
+ * Type guard
+ */
+export function isRegion(value: unknown): value is RegionCode {
+  return typeof value === "string" && regions.includes(value as RegionCode);
 }
 
-export function getAllRegions(): RegionConfig[] {
-  return Object.values(REGION_MAP);
+/**
+ * Normalize incoming route param
+ */
+export function normalizeRegion(input: unknown): RegionCode {
+  if (typeof input !== "string") return "us";
+  const v = input.toLowerCase().trim();
+  return isRegion(v) ? v : "us";
+}
+
+/**
+ * Environment region fallback
+ */
+export function getRegionFromEnv(): RegionCode {
+  const raw = process.env.SITE_REGION?.toLowerCase();
+  return isRegion(raw) ? raw : "us";
 }
