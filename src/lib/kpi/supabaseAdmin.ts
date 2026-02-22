@@ -1,12 +1,16 @@
 import { createClient } from "@supabase/supabase-js";
 
-const url = process.env.SUPABASE_URL;
-const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-
-if (!url || !serviceKey) {
-  throw new Error("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY");
+function requiredEnv(name: string): string {
+  const v = process.env[name];
+  if (!v) throw new Error(`Missing required env var: ${name}`);
+  return v;
 }
 
-export const supabaseAdmin = createClient(url, serviceKey, {
-  auth: { persistSession: false },
-});
+// IMPORTANT: Service role key must only be used on the server.
+export const supabaseAdmin = createClient(
+  requiredEnv("SUPABASE_URL"),
+  requiredEnv("SUPABASE_SERVICE_ROLE_KEY"),
+  {
+    auth: { persistSession: false },
+  }
+);
