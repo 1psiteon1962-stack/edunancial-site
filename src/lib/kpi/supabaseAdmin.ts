@@ -1,16 +1,28 @@
 import { createClient } from "@supabase/supabase-js";
 
-function requiredEnv(name: string): string {
-  const v = process.env[name];
-  if (!v) throw new Error(`Missing required env var: ${name}`);
-  return v;
+/**
+ * Server-side Supabase Admin Client
+ * Uses service role key (never expose to client)
+ */
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+if (!supabaseUrl) {
+  throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL");
 }
 
-// IMPORTANT: Service role key must only be used on the server.
+if (!supabaseServiceKey) {
+  throw new Error("Missing SUPABASE_SERVICE_ROLE_KEY");
+}
+
 export const supabaseAdmin = createClient(
-  requiredEnv("SUPABASE_URL"),
-  requiredEnv("SUPABASE_SERVICE_ROLE_KEY"),
+  supabaseUrl,
+  supabaseServiceKey,
   {
-    auth: { persistSession: false },
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+    },
   }
 );
