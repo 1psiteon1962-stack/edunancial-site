@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import { trackKPI } from "../../lib/kpi/client";
+import { trackKPI } from "@/lib/kpi/track";
 
 export default function PageViewTracker() {
   useEffect(() => {
-    trackKPI({ eventName: "page_view" });
+    trackKPI("page_view");
   }, []);
 
   return null;
