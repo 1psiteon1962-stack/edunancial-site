@@ -1,50 +1,54 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { REGION_REGISTRY } from "@/lib/regions/regionRegistry";
 
-function detectRegionFromHeaders(req: NextRequest) {
-  const country = req.headers.get("x-vercel-ip-country")?.toLowerCase();
+const supportedLanguages = [
+  "en",
+  "es",
+  "ko",
+  "ja",
+  "tl",
+  "ar",
+  "pt",
+  "fr"
+];
 
-  if (!country) return "us";
+function detectLanguage(request: NextRequest): string {
+  const acceptLang = request.headers.get("accept-language");
 
-  // Map countries to your region buckets
-  const latamCountries = ["mx", "co", "ar", "cl", "pe", "do", "pr"];
-  const euCountries = ["de", "fr", "es", "it", "nl"];
-  const africaCountries = ["gh", "ng", "ke", "za"];
+  if (!acceptLang) return "en";
 
-  if (latamCountries.includes(country)) return "latam";
-  if (euCountries.includes(country)) return "eu";
-  if (africaCountries.includes(country)) return "africa";
+  const preferred = acceptLang
+    .split(",")
+    .map((lang) => lang.split(";")[0].trim().toLowerCase());
 
-  return "us";
+  for (const lang of preferred) {
+    const short = lang.split("-")[0];
+    if (supportedLanguages.includes(short)) {
+      return short;
+    }
+  }
+
+  return "en";
 }
 
-export function middleware(req: NextRequest) {
-  const { pathname } = req.nextUrl;
-
-  // Skip API + static
-  if (
-    pathname.startsWith("/api") ||
-    pathname.startsWith("/_next") ||
-    pathname.includes(".")
-  ) {
-    return NextResponse.next();
-  }
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
 
   const segments = pathname.split("/").filter(Boolean);
 
-  if (segments.length > 0 && REGION_REGISTRY[segments[0]]) {
-    return NextResponse.next();
+  // Only apply to /us (or region root without lang)
+  if (segments.length === 1 && segments[0] === "us") {
+    const detectedLang = detectLanguage(request);
+
+    const url = request.nextUrl.clone();
+    url.pathname = `/us/${detectedLang}`;
+
+    return NextResponse.redirect(url);
   }
 
-  const region = detectRegionFromHeaders(req);
-
-  const url = req.nextUrl.clone();
-  url.pathname = `/${region}${pathname}`;
-
-  return NextResponse.redirect(url);
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/us"]
 };
