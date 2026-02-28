@@ -1,29 +1,28 @@
 import { loadPricing } from "@/lib/pricing/loadPricing";
 
 export default async function HomePage() {
-  const pricing = await loadPricing();
+  const region =
+    process.env.SITE_REGION?.toLowerCase() || "us";
+
+  const pricing = await loadPricing(region);
 
   return (
     <main style={{ padding: 40 }}>
       <h1>Edunancial</h1>
 
-      <section>
-        <h2>Pricing</h2>
-        {pricing.map((plan) => (
-          <div key={plan.id} style={{ marginBottom: 24 }}>
-            <h3>{plan.name}</h3>
-            <p>
-              ${plan.price} {plan.currency}
-            </p>
-            <p>{plan.description}</p>
+      <h2>Pricing ({pricing.currency})</h2>
+      <ul>
+        {pricing.tiers.map((tier) => (
+          <li key={tier.name}>
+            <strong>{tier.name}</strong> – {tier.price} {pricing.currency}
             <ul>
-              {plan.features.map((f, i) => (
-                <li key={i}>{f}</li>
+              {tier.features.map((feature) => (
+                <li key={feature}>{feature}</li>
               ))}
             </ul>
-          </div>
+          </li>
         ))}
-      </section>
+      </ul>
     </main>
   );
 }
