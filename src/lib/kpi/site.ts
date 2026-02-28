@@ -1,21 +1,18 @@
 export interface SiteContext {
-  region: string;
-  host: string | null;
-  siteName: string;
+  site_id: string;
+  site_region: string;
+  region?: string;
+  slug?: string;
 }
 
 export function getSiteContext(): SiteContext {
-  const host =
-    process.env.NEXT_PUBLIC_SITE_HOST ||
-    null;
-
   const region =
-    process.env.SITE_REGION?.toLowerCase() ||
-    "us";
+    process.env.SITE_REGION?.toLowerCase() || "us";
 
   return {
+    site_id: "edunancial-us",
+    site_region: region,
     region,
-    host,
-    siteName: "Edunancial"
+    slug: region
   };
 }
