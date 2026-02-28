@@ -1,19 +1,8 @@
-export type LanguageCode =
-  | "en"
-  | "es"
-  | "ko"
-  | "ja"
-  | "tl"
-  | "ar"
-  | "pt"
-  | "fr";
-
 export type Region = {
   slug: string;
   name: string;
   currency: string;
-  supportedLanguages: LanguageCode[];
-  defaultLanguage: LanguageCode;
+  clientModules: string[];
 };
 
 export const regions: Region[] = [
@@ -21,25 +10,16 @@ export const regions: Region[] = [
     slug: "us",
     name: "United States",
     currency: "USD",
-    supportedLanguages: [
-      "en",
-      "es",
-      "ko",
-      "ja",
-      "tl",
-      "ar",
-      "pt",
-      "fr"
-    ],
-    defaultLanguage: "en"
+    clientModules: [
+      "Financial Literacy",
+      "Options Trading",
+      "Real Estate",
+      "Business Ownership",
+      "AI & Automation"
+    ]
   }
 ];
 
-export function isRegionSlug(value: unknown): value is string {
-  return typeof value === "string" &&
-    regions.some(r => r.slug === value);
-}
-
-export function getRegion(slug: string) {
-  return regions.find(r => r.slug === slug);
+export function getRegion(slug: string): Region | undefined {
+  return regions.find((r) => r.slug === slug);
 }
