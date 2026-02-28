@@ -1,6 +1,4 @@
-import { LanguageCode } from "../regions";
-
-export async function getDictionary(lang: LanguageCode) {
+export async function getDictionary(lang: string) {
   switch (lang) {
     case "es":
       return (await import("./translations/es")).default;
