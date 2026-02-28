@@ -1,4 +1,12 @@
-import { LanguageCode } from "../regions";
+export type LanguageCode =
+  | "en"
+  | "es"
+  | "ko"
+  | "ja"
+  | "tl"
+  | "ar"
+  | "pt"
+  | "fr";
 
 export const supportedLanguages: LanguageCode[] = [
   "en",
@@ -12,6 +20,8 @@ export const supportedLanguages: LanguageCode[] = [
 ];
 
 export function isLanguage(value: unknown): value is LanguageCode {
-  return typeof value === "string" &&
-    supportedLanguages.includes(value as LanguageCode);
+  return (
+    typeof value === "string" &&
+    supportedLanguages.includes(value as LanguageCode)
+  );
 }
