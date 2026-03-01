@@ -1,8 +1,7 @@
 import { loadPricing } from "@/lib/pricing/loadPricing";
 
 export default async function HomePage() {
-  const region = (process.env.SITE_REGION || "us").toLowerCase();
-  const pricing = loadPricing(region);
+  const pricing = await loadPricing("us"); // resolve the Promise here
 
   return (
     <main style={{ padding: "2rem" }}>
@@ -12,18 +11,16 @@ export default async function HomePage() {
 
       <ul>
         {pricing.products.map((p) => (
-          <li key={p.sku} style={{ marginBottom: "1rem" }}>
-            <div>
-              <strong>{p.label}</strong> — {p.price} {pricing.currency}
-            </div>
-            {p.description ? <div>{p.description}</div> : null}
-            {p.features?.length ? (
+          <li key={p.sku}>
+            <strong>{p.label}</strong> — {p.price} {pricing.currency}
+            {p.description && <p>{p.description}</p>}
+            {p.features && (
               <ul>
                 {p.features.map((f) => (
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-            ) : null}
+            )}
           </li>
         ))}
       </ul>
