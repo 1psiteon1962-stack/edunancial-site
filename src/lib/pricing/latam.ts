@@ -1,24 +1,28 @@
-import type { Pricing } from "@/lib/pricing/loadPricing";
+import type { Pricing } from "./types";
 
 export const LATAM_PRICING: Pricing = {
   currency: "USD",
-  tiers: [
+  products: [
     {
-      name: "Entry",
+      sku: "entry",
       price: 2.99,
-      features: [
-        "Access to basic financial literacy modules",
-        "Mobile-friendly access",
-      ],
+      label: "Entrada",
+      description: "Empieza con lo esencial.",
+      features: ["Lecciones básicas", "Herramientas", "Soporte por email"],
     },
     {
-      name: "Core",
+      sku: "core",
       price: 5.99,
-      features: [
-        "Full core curriculum",
-        "Downloadable resources",
-        "Priority email support",
-      ],
+      label: "Núcleo",
+      description: "Para avanzar con disciplina.",
+      features: ["Todo lo de Entrada", "Seguimiento KPI", "Comunidad"],
+    },
+    {
+      sku: "pro",
+      price: 11.99,
+      label: "Pro",
+      description: "Para construir y escalar con estructura.",
+      features: ["Todo lo de Núcleo", "Plantillas avanzadas", "Soporte prioritario"],
     },
   ],
 };
