@@ -1,32 +1,29 @@
-export type PricingTier = {
-  name: string;
-  price: number;
-  features: string[];
-};
+import type { Pricing } from "./types";
+import { US_PRICING } from "./us";
+import { LATAM_PRICING } from "./latam";
+import { AFRICA_PRICING } from "./africa";
+import { MENA_PRICING } from "./mena";
+import { ASIA_PRICING } from "./asia";
+import { EU_PRICING } from "./eu";
+import { GLOBAL_PRICING } from "./global";
 
-export type Pricing = {
-  currency: string;
-  tiers: PricingTier[];
-};
+export function loadPricing(region: string): Pricing {
+  const slug = (region || "us").toLowerCase().trim();
 
-export async function loadPricing(region: string): Promise<Pricing> {
-  switch (region) {
-    case "africa":
-      return (await import("./africa")).AFRICA_PRICING;
-    case "asia":
-      return (await import("./asia")).ASIA_PRICING;
-    case "latam":
-      return (await import("./latam")).LATAM_PRICING;
-    case "europe":
-      return (await import("./europe")).EUROPE_PRICING;
-    case "middleeast":
-      return (await import("./middleEast")).MIDDLE_EAST_PRICING;
-    case "caribbean":
-      return (await import("./caribbean")).CARIBBEAN_PRICING;
-    case "oceania":
-      return (await import("./oceania")).OCEANIA_PRICING;
+  switch (slug) {
     case "us":
+      return US_PRICING;
+    case "latam":
+      return LATAM_PRICING;
+    case "africa":
+      return AFRICA_PRICING;
+    case "mena":
+      return MENA_PRICING;
+    case "asia":
+      return ASIA_PRICING;
+    case "eu":
+      return EU_PRICING;
     default:
-      return (await import("./us")).US_PRICING;
+      return GLOBAL_PRICING;
   }
 }
