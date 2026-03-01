@@ -1,24 +1,28 @@
-import type { Pricing } from "@/lib/pricing/loadPricing";
+import type { Pricing } from "./types";
 
 export const AFRICA_PRICING: Pricing = {
   currency: "USD",
-  tiers: [
+  products: [
     {
-      name: "Entry",
+      sku: "entry",
       price: 1.99,
-      features: [
-        "Access to basic financial literacy modules",
-        "Mobile-friendly access",
-      ],
+      label: "Entry",
+      description: "Foundations for consistent progress.",
+      features: ["Core lessons", "Basic tools", "Email support"],
     },
     {
-      name: "Core",
+      sku: "core",
       price: 4.99,
-      features: [
-        "Full core curriculum",
-        "Downloadable resources",
-        "Priority email support",
-      ],
+      label: "Core",
+      description: "Structure + metrics for growth.",
+      features: ["Everything in Entry", "KPI tracking", "Community access"],
+    },
+    {
+      sku: "pro",
+      price: 8.99,
+      label: "Pro",
+      description: "Operator-grade tools for scaling.",
+      features: ["Everything in Core", "Advanced templates", "Priority support"],
     },
   ],
 };
