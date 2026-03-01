@@ -1,24 +1,28 @@
-import type { Pricing } from "@/lib/pricing/loadPricing";
+import type { Pricing } from "./types";
 
 export const ASIA_PRICING: Pricing = {
   currency: "USD",
-  tiers: [
+  products: [
     {
-      name: "Entry",
+      sku: "entry",
       price: 2.49,
-      features: [
-        "Access to basic financial literacy modules",
-        "Mobile-friendly access",
-      ],
+      label: "Entry",
+      description: "Foundational finance + discipline.",
+      features: ["Core lessons", "Basic tools", "Email support"],
     },
     {
-      name: "Core",
+      sku: "core",
       price: 6.99,
-      features: [
-        "Full core curriculum",
-        "Downloadable resources",
-        "Priority email support",
-      ],
+      label: "Core",
+      description: "Operations, KPIs, and consistency.",
+      features: ["Everything in Entry", "KPI tracking", "Community access"],
+    },
+    {
+      sku: "pro",
+      price: 13.99,
+      label: "Pro",
+      description: "Scaling frameworks and advanced tools.",
+      features: ["Everything in Core", "Advanced templates", "Priority support"],
     },
   ],
 };
