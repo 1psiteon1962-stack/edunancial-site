@@ -1,21 +1,24 @@
-// app/(regions)/(root)/page.tsx
+import { notFound } from "next/navigation";
+import { getActiveRegion } from "@/lib/regions/getActiveRegion";
 
-import { redirect } from "next/navigation";
-import { regions } from "@/lib/regions";
+export default function RootRegionPage() {
+  const regionKey =
+    process.env.NEXT_PUBLIC_REGION ||
+    process.env.SITE_REGION ||
+    "us"; // hard fallback
 
-/**
- * Root route (/)
- * Always redirects to a concrete region.
- */
-export default function RootPage() {
-  const DEFAULT_REGION = "global";
+  const region = getActiveRegion(regionKey);
 
-  const region = regions.find((r) => r.slug === DEFAULT_REGION);
-
-  // Hard guard — should never fail, but prevents build/runtime crashes
   if (!region) {
-    redirect("/global");
+    return notFound();
   }
 
-  redirect(`/${region.slug}`);
+  const { clientModules, ...rest } = region;
+
+  return (
+    <main style={{ padding: "2rem" }}>
+      <h1>{region.name}</h1>
+      <p>Active region: {regionKey}</p>
+    </main>
+  );
 }
