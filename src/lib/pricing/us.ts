@@ -1,25 +1,28 @@
-import type { Pricing } from "@/lib/pricing/loadPricing";
+import type { Pricing } from "./types";
 
 export const US_PRICING: Pricing = {
   currency: "USD",
-  tiers: [
+  products: [
     {
-      name: "Starter",
-      price: 9.99,
-      features: [
-        "Full core curriculum",
-        "Downloadable worksheets",
-        "Email support",
-      ],
+      sku: "entry",
+      price: 3.99,
+      label: "Entry",
+      description: "Get started with the essentials.",
+      features: ["Core lessons", "Basic tools", "Email support"],
     },
     {
-      name: "Pro",
+      sku: "core",
+      price: 9.99,
+      label: "Core",
+      description: "Best for building consistent progress.",
+      features: ["Everything in Entry", "KPI tracking", "Community access"],
+    },
+    {
+      sku: "pro",
       price: 19.99,
-      features: [
-        "All Starter features",
-        "Advanced investing modules",
-        "Priority support",
-      ],
+      label: "Pro",
+      description: "For serious builders and operators.",
+      features: ["Everything in Core", "Advanced templates", "Priority support"],
     },
   ],
 };
