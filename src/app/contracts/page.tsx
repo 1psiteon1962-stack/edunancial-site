@@ -1,4 +1,4 @@
-import { CONTRACT_TEMPLATES } from "@/lib/contracts/contractTypes";
+import { CONTRACT_TEMPLATES } from "../../lib/contracts/contractTypes";
 
 export default function ContractsPage() {
   return (
@@ -6,8 +6,8 @@ export default function ContractsPage() {
       <h1>Platform Agreements</h1>
 
       <p>
-        Access to Edunancial programs and services requires agreement to the
-        following contractual frameworks.
+        Access to Edunancial education systems requires agreement to the
+        following contractual protections and licensing rules.
       </p>
 
       {CONTRACT_TEMPLATES.map((contract) => (
