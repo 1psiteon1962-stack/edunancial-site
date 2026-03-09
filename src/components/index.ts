@@ -1,7 +1,6 @@
-'use client';
+// Intentionally empty
 
-export { default as Hero } from "./Hero";
-export { default as CTA } from "./CTA";
-export { default as FeatureGrid } from "./FeatureGrid";
-export { default as Footer } from "./Footer";
-export { default as Navbar } from "./Navbar";
+// Barrel exports removed because Netlify's Linux build environment
+// is case-sensitive and fails when any component path differs in case
+// or folder structure. Components should be imported directly from
+// their folders instead of re-exporting them here.
