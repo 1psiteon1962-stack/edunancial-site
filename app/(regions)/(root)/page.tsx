@@ -1,5 +1,5 @@
-import HomePage from "@/modules/home";
+import RootPage from '@/regions/root';
 
 export default function Page() {
-  return <HomePage />;
+  return <RootPage />;
 }
