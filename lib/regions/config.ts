@@ -1,14 +1,8 @@
-/*
-REGION CONFIGURATION
-This file guarantees that every region lookup returns a valid object.
-The root region MUST exist or Next.js prerender of "/" will crash.
-*/
-
 export type RegionConfig = {
-  slug: string;
-  name: string;
-  clientModules: any[];
-};
+  slug: string
+  name: string
+  clientModules: any[]
+}
 
 export const regions: RegionConfig[] = [
   {
@@ -46,15 +40,15 @@ export const regions: RegionConfig[] = [
     name: "Asia",
     clientModules: []
   }
-];
+]
 
 export const defaultRegion: RegionConfig = {
   slug: "root",
   name: "Global",
   clientModules: []
-};
+}
 
 export function getRegionContent(slug: string): RegionConfig {
-  const region = regions.find((r) => r.slug === slug);
-  return region ?? defaultRegion;
+  const region = regions.find((r) => r.slug === slug)
+  return region ?? defaultRegion
 }
