@@ -1,39 +1,39 @@
-// src/app/lib/plans.ts
+export type PlanLevel = "free" | "level-1" | "level-2" | "level-3";
 
-/**
- * Allowed subscription / access plans
- * (Must include every plan referenced anywhere in the app)
- */
-export type PlanCode =
-  | "free"
-  | "starter"
-  | "pro"
-  | "builder"
-  | "elite"
-  | "enterprise";
+export type Plan = {
+  id: PlanLevel;
+  name: string;
+  price: number;
+  description: string;
+};
 
-/**
- * Normalize any incoming plan string
- */
-export function normalizePlan(
-  plan?: string | null
-): PlanCode {
-  if (!plan) return "free";
+export const PLANS: Record<PlanLevel, Plan> = {
+  free: {
+    id: "free",
+    name: "Free",
+    price: 0,
+    description: "Basic access to introductory content and public resources."
+  },
+  "level-1": {
+    id: "level-1",
+    name: "Level 1",
+    price: 19,
+    description: "Entry-level educational tools, beginner financial literacy content, and starter analytics."
+  },
+  "level-2": {
+    id: "level-2",
+    name: "Level 2",
+    price: 49,
+    description: "Expanded training modules, deeper KPI tracking, and intermediate entrepreneurial tools."
+  },
+  "level-3": {
+    id: "level-3",
+    name: "Level 3",
+    price: 99,
+    description: "Full platform access including advanced analytics, global expansion tools, and premium resources."
+  }
+};
 
-  const p = plan.toLowerCase();
-
-  if (p === "starter") return "starter";
-  if (p === "pro") return "pro";
-  if (p === "builder") return "builder";
-  if (p === "elite") return "elite";
-  if (p === "enterprise") return "enterprise";
-
-  return "free";
-}
-
-/**
- * Capital-level access check
- */
-export function hasCapitalAccess(plan: PlanCode): boolean {
-  return plan === "pro" || plan === "builder" || plan === "elite" || plan === "enterprise";
+export function getPlan(plan: PlanLevel): Plan {
+  return PLANS[plan];
 }
