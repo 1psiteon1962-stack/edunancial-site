@@ -1,35 +1,32 @@
 "use client";
 
-import React from "react";
-import { normalizePlan, type PlanCode } from "@/app/lib/plans";
+import { ReactNode } from "react";
 
-export type AccessGateProps = {
-  children: React.ReactNode;
-  requiredPlan: PlanCode;
-  userPlan?: string | null;
+type AccessGateProps = {
+  levelRequired?: "free" | "level-1" | "level-2" | "level-3";
+  userLevel?: "free" | "level-1" | "level-2" | "level-3";
+  children: ReactNode;
+};
+
+const LEVEL_ORDER = {
+  free: 0,
+  "level-1": 1,
+  "level-2": 2,
+  "level-3": 3
 };
 
 export default function AccessGate({
-  children,
-  requiredPlan,
-  userPlan,
+  levelRequired = "free",
+  userLevel = "free",
+  children
 }: AccessGateProps) {
-  // Always normalize safely
-  const normalizedUserPlan: PlanCode = normalizePlan(userPlan ?? "free");
 
-  // Access rules: allow if user meets or exceeds requirement
-  const allowed =
-    normalizedUserPlan === requiredPlan ||
-    normalizedUserPlan === "enterprise" ||
-    normalizedUserPlan === "elite" ||
-    normalizedUserPlan === "pro";
-
-  if (!allowed) {
+  if (LEVEL_ORDER[userLevel] < LEVEL_ORDER[levelRequired]) {
     return (
-      <div style={{ padding: 24 }}>
+      <div style={{ padding: "2rem", textAlign: "center" }}>
         <h2>Upgrade Required</h2>
         <p>
-          This content requires the <strong>{requiredPlan}</strong> plan.
+          This section requires <strong>{levelRequired}</strong> access.
         </p>
       </div>
     );
