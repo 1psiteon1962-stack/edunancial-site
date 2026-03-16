@@ -1,7 +1,13 @@
 /* ADMIN KPI QUERY UTILITIES
-   This file exports the functions used by the admin KPI routes.
-   Added: fetchEventsCSV export so the admin export route can import it.
+   Updated to match the route handler which passes an options object
+   to fetchEventsCSV().
 */
+
+export type FetchEventsCsvOptions = {
+  days?: number;
+  site_region?: string | null;
+  site_id?: string | null;
+};
 
 type Row = Record<string, string | number | boolean | null>;
 
@@ -27,15 +33,25 @@ function rowsToCSV(rows: Row[]): string {
 }
 
 /*
-Fetch KPI events and return CSV
-Used by:
-src/app/admin/kpi/export/route.ts
+Fetch KPI events and return CSV.
+Accepts filtering options from the admin route.
 */
-export async function fetchEventsCSV(): Promise<string> {
+
+export async function fetchEventsCSV({
+  days = 30,
+  site_region = null,
+  site_id = null,
+}: FetchEventsCsvOptions = {}): Promise<string> {
+
   /*
-  In production this should query the KPI events table.
-  For now this reads from a generic source so the build succeeds
-  even if the database layer is not wired yet.
+  This placeholder implementation allows the build to succeed
+  until the KPI database layer is connected.
+
+  When the KPI DB is wired, replace this section with the
+  actual query filtering by:
+  - days
+  - site_region
+  - site_id
   */
 
   const rows: Row[] = [];
