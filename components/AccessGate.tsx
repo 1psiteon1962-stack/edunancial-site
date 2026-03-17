@@ -7,9 +7,11 @@ type Plan =
   | "starter"
   | "growth"
   | "pro"
+  | "elite"
   | "level-1"
   | "level-2"
-  | "level-3";
+  | "level-3"
+  | "level-4";
 
 type AccessGateProps = {
   requiredPlan?: Plan;
@@ -19,12 +21,18 @@ type AccessGateProps = {
 
 const PLAN_ORDER: Record<Plan, number> = {
   free: 0,
+
   starter: 1,
   "level-1": 1,
+
   growth: 2,
   "level-2": 2,
+
   pro: 3,
-  "level-3": 3
+  "level-3": 3,
+
+  elite: 4,
+  "level-4": 4
 };
 
 export default function AccessGate({
