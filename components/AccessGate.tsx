@@ -2,32 +2,38 @@
 
 import { ReactNode } from "react";
 
+type Plan =
+  | "free"
+  | "starter"
+  | "level-1"
+  | "level-2"
+  | "level-3";
+
 type AccessGateProps = {
-  levelRequired?: "free" | "level-1" | "level-2" | "level-3";
-  userLevel?: "free" | "level-1" | "level-2" | "level-3";
+  requiredPlan?: Plan;
+  currentPlan?: Plan;
   children: ReactNode;
 };
 
-const LEVEL_ORDER = {
+const PLAN_ORDER: Record<Plan, number> = {
   free: 0,
+  starter: 1,
   "level-1": 1,
   "level-2": 2,
   "level-3": 3
 };
 
 export default function AccessGate({
-  levelRequired = "free",
-  userLevel = "free",
+  requiredPlan = "free",
+  currentPlan = "free",
   children
 }: AccessGateProps) {
 
-  if (LEVEL_ORDER[userLevel] < LEVEL_ORDER[levelRequired]) {
+  if (PLAN_ORDER[currentPlan] < PLAN_ORDER[requiredPlan]) {
     return (
-      <div style={{ padding: "2rem", textAlign: "center" }}>
+      <div style={{ padding: 24, textAlign: "center" }}>
         <h2>Upgrade Required</h2>
-        <p>
-          This section requires <strong>{levelRequired}</strong> access.
-        </p>
+        <p>This content requires the <strong>{requiredPlan}</strong> plan.</p>
       </div>
     );
   }
