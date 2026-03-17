@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 type Plan =
   | "free"
   | "starter"
+  | "growth"
   | "level-1"
   | "level-2"
   | "level-3";
@@ -19,6 +20,7 @@ const PLAN_ORDER: Record<Plan, number> = {
   free: 0,
   starter: 1,
   "level-1": 1,
+  growth: 2,
   "level-2": 2,
   "level-3": 3
 };
