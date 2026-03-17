@@ -6,6 +6,7 @@ type Plan =
   | "free"
   | "starter"
   | "growth"
+  | "pro"
   | "level-1"
   | "level-2"
   | "level-3";
@@ -22,6 +23,7 @@ const PLAN_ORDER: Record<Plan, number> = {
   "level-1": 1,
   growth: 2,
   "level-2": 2,
+  pro: 3,
   "level-3": 3
 };
 
