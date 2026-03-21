@@ -1,18 +1,19 @@
 import { ReactNode } from 'react';
-import { Plan } from '@/types/plan';
+import { Plan } from '../types/plan';
 
 type AccessGateProps = {
   requiredPlan?: Plan;
   children: ReactNode;
 };
 
-export default function AccessGate({ requiredPlan, children }: AccessGateProps) {
-  // TEMP: replace with real auth logic later
+export default function AccessGate({
+  requiredPlan,
+  children,
+}: AccessGateProps) {
+  // Temporary placeholder until real auth/subscription logic is connected
   const userPlan: Plan = 'free';
 
-  const hasAccess =
-    !requiredPlan ||
-    userPlan === requiredPlan;
+  const hasAccess = !requiredPlan || userPlan === requiredPlan;
 
   if (!hasAccess) {
     return (
