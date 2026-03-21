@@ -1,5 +1,4 @@
-import AccessGate from '../../../components/AccessGate';
-import { Plan } from '../../../types/plan';
+import AccessGate, { Plan } from '../../../components/AccessGate';
 
 type LevelDef = {
   title: string;
