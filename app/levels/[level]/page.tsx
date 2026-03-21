@@ -1,5 +1,5 @@
-import AccessGate from '@/components/AccessGate';
-import { Plan } from '@/types/plan';
+import AccessGate from '../../../components/AccessGate';
+import { Plan } from '../../../types/plan';
 
 type LevelDef = {
   title: string;
@@ -40,7 +40,11 @@ const LEVELS: Record<string, LevelDef> = {
   },
 };
 
-export default function LevelPage({ params }: { params: { level: string } }) {
+export default function LevelPage({
+  params,
+}: {
+  params: { level: string };
+}) {
   const def = LEVELS[params.level];
 
   if (!def) {
