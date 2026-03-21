@@ -1,51 +1,24 @@
-"use client";
-
-import { ReactNode } from "react";
-
-type Plan =
-  | "free"
-  | "starter"
-  | "growth"
-  | "pro"
-  | "elite"
-  | "level-1"
-  | "level-2"
-  | "level-3"
-  | "level-4";
+import { ReactNode } from 'react';
+import { Plan } from '@/types/plan';
 
 type AccessGateProps = {
   requiredPlan?: Plan;
-  currentPlan?: Plan;
   children: ReactNode;
 };
 
-const PLAN_ORDER: Record<Plan, number> = {
-  free: 0,
+export default function AccessGate({ requiredPlan, children }: AccessGateProps) {
+  // TEMP: replace with real auth logic later
+  const userPlan: Plan = 'free';
 
-  starter: 1,
-  "level-1": 1,
+  const hasAccess =
+    !requiredPlan ||
+    userPlan === requiredPlan;
 
-  growth: 2,
-  "level-2": 2,
-
-  pro: 3,
-  "level-3": 3,
-
-  elite: 4,
-  "level-4": 4
-};
-
-export default function AccessGate({
-  requiredPlan = "free",
-  currentPlan = "free",
-  children
-}: AccessGateProps) {
-
-  if (PLAN_ORDER[currentPlan] < PLAN_ORDER[requiredPlan]) {
+  if (!hasAccess) {
     return (
-      <div style={{ padding: 24, textAlign: "center" }}>
+      <div style={{ padding: 24 }}>
         <h2>Upgrade Required</h2>
-        <p>This content requires the <strong>{requiredPlan}</strong> plan.</p>
+        <p>This content requires the {requiredPlan} plan.</p>
       </div>
     );
   }
