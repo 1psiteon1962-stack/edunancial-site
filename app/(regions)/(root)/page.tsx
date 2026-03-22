@@ -1,15 +1,28 @@
-import { getRegionContent } from "@/lib/regions/config";
+import SectionRenderer from '@/components/sections/SectionRenderer';
+import { getHomepage } from '@/lib/directus';
 
-export default function RootPage() {
-  const regionContent = getRegionContent("root");
+export default async function Page() {
+  let data = null;
 
-  const { clientModules } = regionContent;
+  try {
+    data = await getHomepage();
+  } catch (error) {
+    console.error('Directus fetch failed:', error);
+  }
+
+  // SAFE FALLBACK (this prevents build crash)
+  const modules = data?.clientModules ?? [];
 
   return (
     <main>
-      {clientModules.map((Module: any, index: number) => (
-        <Module key={index} />
-      ))}
+      {modules.length > 0 ? (
+        <SectionRenderer sections={modules} />
+      ) : (
+        <div style={{ padding: 40 }}>
+          <h1>Edunancial</h1>
+          <p>Platform loading…</p>
+        </div>
+      )}
     </main>
   );
 }
