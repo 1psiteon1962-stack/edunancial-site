@@ -1,15 +1,19 @@
 import SectionRenderer from '../../../components/sections/SectionRenderer';
-import { getHomepage } from '../../../lib/directus';
+import { getHomePageData } from '../../../lib/directus';
 
 export default async function Page() {
   let modules: any[] = [];
 
   try {
-    const data = await getHomepage();
+    const homePageData = await getHomePageData();
 
-    // SAFETY: never destructure directly
-    if (data && Array.isArray(data.clientModules)) {
-      modules = data.clientModules;
+    // CRITICAL FIX: never destructure directly
+    if (
+      homePageData &&
+      typeof homePageData === 'object' &&
+      Array.isArray(homePageData.clientModules)
+    ) {
+      modules = homePageData.clientModules;
     }
   } catch (error) {
     console.error('Homepage fetch failed:', error);
