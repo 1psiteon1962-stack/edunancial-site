@@ -3,7 +3,6 @@ export default function Hero() {
     <section style={{ padding: 40, textAlign: 'center' }}>
       <h1>Edunancial</h1>
       <p>Where Education and Financial Literacy Meet</p>
-      <p>Build knowledge. Build discipline. Build wealth.</p>
     </section>
   );
 }
