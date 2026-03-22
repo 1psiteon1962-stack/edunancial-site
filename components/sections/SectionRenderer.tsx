@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 
 const sectionComponents = {
-  hero: dynamic(() => import('./Hero')),
+  hero: dynamic(() => import('./hero')),
   testimonial: dynamic(() => import('./Testimonial')),
   features: dynamic(() => import('./Features')),
   pricing: dynamic(() => import('./Pricing')),
