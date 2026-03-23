@@ -1,47 +1,37 @@
 export const dynamic = 'force-dynamic';
 
-import SectionRenderer from '../../../components/sections/SectionRenderer';
-import { getHomePageData } from '../../../lib/directus';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import { getHomePage } from '../../../lib/directus';
 
 export default async function Page() {
-  let clientModules: any[] = [];
+  let mdxSource: any = null;
 
   try {
-    const data = await getHomePageData();
+    const homepage = await getHomePage();
 
-    const regions = Array.isArray(data?.regions) ? data.regions : [];
-
-    // ALWAYS RESOLVE A REGION SAFELY
-    const defaultRegion =
-      process.env.NEXT_PUBLIC_DEFAULT_REGION || '';
-
-    const homeRegion =
-      regions.find((r: any) => r?.slug === defaultRegion) ||
-      regions[0] ||
-      null;
-
-    // ONLY ACCESS IF SAFE
+    // HARD GUARD — prevents clientModules crash
     if (
-      homeRegion &&
-      typeof homeRegion === 'object' &&
-      Array.isArray(homeRegion.clientModules)
+      homepage &&
+      homepage.mdx &&
+      typeof homepage.mdx === 'object'
     ) {
-      clientModules = homeRegion.clientModules;
+      mdxSource = homepage.mdx;
+    } else {
+      console.warn('⚠️ Homepage MDX missing or invalid');
     }
   } catch (error) {
-    console.error('Homepage fetch failed:', error);
+    console.error('❌ Homepage fetch failed:', error);
   }
 
-  return (
-    <main>
-      {clientModules.length > 0 ? (
-        <SectionRenderer sections={clientModules} />
-      ) : (
-        <div style={{ padding: 40 }}>
-          <h1>Edunancial</h1>
-          <p>No region data available — fallback mode.</p>
-        </div>
-      )}
-    </main>
-  );
+  // SAFE FALLBACK — NEVER CRASH BUILD AGAIN
+  if (!mdxSource) {
+    return (
+      <main style={{ padding: 40 }}>
+        <h1>Edunancial</h1>
+        <p>Content unavailable (build-safe fallback).</p>
+      </main>
+    );
+  }
+
+  return <MDXRemote {...mdxSource} />;
 }
