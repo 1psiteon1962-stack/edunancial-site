@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import SectionRenderer from '../../../components/sections/SectionRenderer';
 import { getHomePageData } from '../../../lib/directus';
 import { subscribe } from '../../../app/actions/subscribe';
@@ -36,7 +38,6 @@ export default async function Page() {
         </div>
       )}
 
-      {/* Example form using server action */}
       <form action={subscribe} style={{ marginTop: 40 }}>
         <input
           type="email"
