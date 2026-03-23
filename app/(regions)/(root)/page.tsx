@@ -2,18 +2,27 @@ import SectionRenderer from '../../../components/sections/SectionRenderer';
 import { getHomePageData } from '../../../lib/directus';
 
 export default async function Page() {
-  let modules: any[] = [];
+  let clientModules: any[] = [];
 
   try {
-    const homePageData = await getHomePageData();
+    const data = await getHomePageData();
 
-    // CRITICAL FIX: never destructure directly
+    const regions = Array.isArray(data?.regions) ? data.regions : [];
+
+    const defaultRegion =
+      process.env.NEXT_PUBLIC_DEFAULT_REGION || '';
+
+    // SAFE REGION SELECTION
+    const homeRegion =
+      regions.find((r: any) => r?.slug === defaultRegion) ||
+      regions[0] ||
+      null;
+
     if (
-      homePageData &&
-      typeof homePageData === 'object' &&
-      Array.isArray(homePageData.clientModules)
+      homeRegion &&
+      Array.isArray(homeRegion.clientModules)
     ) {
-      modules = homePageData.clientModules;
+      clientModules = homeRegion.clientModules;
     }
   } catch (error) {
     console.error('Homepage fetch failed:', error);
@@ -21,12 +30,12 @@ export default async function Page() {
 
   return (
     <main>
-      {modules.length > 0 ? (
-        <SectionRenderer sections={modules} />
+      {clientModules.length > 0 ? (
+        <SectionRenderer sections={clientModules} />
       ) : (
         <div style={{ padding: 40 }}>
           <h1>Edunancial</h1>
-          <p>Content loading...</p>
+          <p>Fallback content — no region data available.</p>
         </div>
       )}
     </main>
