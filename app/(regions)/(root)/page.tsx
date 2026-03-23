@@ -1,5 +1,6 @@
 import SectionRenderer from '../../../components/sections/SectionRenderer';
 import { getHomePageData } from '../../../lib/directus';
+import { subscribe } from '../../../app/actions/subscribe';
 
 export default async function Page() {
   let clientModules: any[] = [];
@@ -12,16 +13,12 @@ export default async function Page() {
     const defaultRegion =
       process.env.NEXT_PUBLIC_DEFAULT_REGION || '';
 
-    // SAFE REGION SELECTION
     const homeRegion =
       regions.find((r: any) => r?.slug === defaultRegion) ||
       regions[0] ||
       null;
 
-    if (
-      homeRegion &&
-      Array.isArray(homeRegion.clientModules)
-    ) {
+    if (homeRegion && Array.isArray(homeRegion.clientModules)) {
       clientModules = homeRegion.clientModules;
     }
   } catch (error) {
@@ -38,6 +35,17 @@ export default async function Page() {
           <p>Fallback content — no region data available.</p>
         </div>
       )}
+
+      {/* Example form using server action */}
+      <form action={subscribe} style={{ marginTop: 40 }}>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
     </main>
   );
 }
