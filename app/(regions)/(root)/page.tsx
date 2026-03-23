@@ -2,7 +2,6 @@ export const dynamic = 'force-dynamic';
 
 import SectionRenderer from '../../../components/sections/SectionRenderer';
 import { getHomePageData } from '../../../lib/directus';
-import { subscribe } from '../../../app/actions/subscribe';
 
 export default async function Page() {
   let clientModules: any[] = [];
@@ -12,6 +11,7 @@ export default async function Page() {
 
     const regions = Array.isArray(data?.regions) ? data.regions : [];
 
+    // ALWAYS RESOLVE A REGION SAFELY
     const defaultRegion =
       process.env.NEXT_PUBLIC_DEFAULT_REGION || '';
 
@@ -20,7 +20,12 @@ export default async function Page() {
       regions[0] ||
       null;
 
-    if (homeRegion && Array.isArray(homeRegion.clientModules)) {
+    // ONLY ACCESS IF SAFE
+    if (
+      homeRegion &&
+      typeof homeRegion === 'object' &&
+      Array.isArray(homeRegion.clientModules)
+    ) {
       clientModules = homeRegion.clientModules;
     }
   } catch (error) {
@@ -34,19 +39,9 @@ export default async function Page() {
       ) : (
         <div style={{ padding: 40 }}>
           <h1>Edunancial</h1>
-          <p>Fallback content — no region data available.</p>
+          <p>No region data available — fallback mode.</p>
         </div>
       )}
-
-      <form action={subscribe} style={{ marginTop: 40 }}>
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        />
-        <button type="submit">Subscribe</button>
-      </form>
     </main>
   );
 }
