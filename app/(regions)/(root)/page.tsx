@@ -1,37 +1,27 @@
-export const dynamic = 'force-dynamic';
+'use client';
 
-import { getRootPage } from '../../../lib/directus';
+import dynamic from 'next/dynamic';
 
-export default async function Page() {
-  let pageData: any = null;
+// ✅ Force browser-only load for HeroSlider (fixes Swiper crash)
+const HeroSlider = dynamic(
+  () => import('@/components/home/HeroSlider'),
+  { ssr: false }
+);
 
-  try {
-    pageData = await getRootPage();
-  } catch (error) {
-    console.error('❌ getRootPage() failed:', error);
-  }
+// ✅ If you have other sections, import them normally
+// (add more as needed — safe to leave even if unused)
+import React from 'react';
 
-  // HARD GUARD — THIS IS THE FIX
-  if (!pageData) {
-    return (
-      <main style={{ padding: 40 }}>
-        <h1>Edunancial</h1>
-        <p>Homepage data not available (safe fallback).</p>
-      </main>
-    );
-  }
-
-  const clientModules = pageData?.clientModules ?? [];
-
+export default function HomePage() {
   return (
     <main>
-      {clientModules.length === 0 ? (
-        <p>No modules available.</p>
-      ) : (
-        clientModules.map((mod: any, i: number) => (
-          <div key={i}>{JSON.stringify(mod)}</div>
-        ))
-      )}
+      <HeroSlider />
+
+      {/* Safe fallback content to prevent empty render */}
+      <section style={{ padding: 40 }}>
+        <h1>Edunancial</h1>
+        <p>Building financial literacy globally.</p>
+      </section>
     </main>
   );
 }
