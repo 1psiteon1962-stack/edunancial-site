@@ -1,8 +1,7 @@
+'use client';
+
+import HomePageComponent from '@/components/home/HomePage';
+
 export default function HomePage() {
-  return (
-    <main style={{ padding: 24 }}>
-      <h1>Edunancial</h1>
-      <p>Where Education and Financial Literacy Meet</p>
-    </main>
-  );
+  return <HomePageComponent />;
 }
