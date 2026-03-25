@@ -1,27 +1,40 @@
-'use client';
+export const dynamic = 'force-dynamic';
 
-import dynamic from 'next/dynamic';
+import { getRootPage } from '../../../lib/hygraph';
 
-// ✅ Force browser-only load for HeroSlider (fixes Swiper crash)
-const HeroSlider = dynamic(
-  () => import('@/components/home/HeroSlider'),
-  { ssr: false }
-);
+export default async function Page() {
+  let pageData: any = null;
 
-// ✅ If you have other sections, import them normally
-// (add more as needed — safe to leave even if unused)
-import React from 'react';
+  try {
+    pageData = await getRootPage();
+  } catch (error) {
+    console.error('❌ Hygraph fetch failed:', error);
+  }
 
-export default function HomePage() {
+  // ✅ HARD FAIL WITH CLEAR MESSAGE (NO MORE clientModules CRASH)
+  if (!pageData) {
+    return (
+      <main style={{ padding: 40 }}>
+        <h1>Edunancial</h1>
+        <p>
+          ❌ Homepage data not loading.<br />
+          Check Netlify environment variables for Hygraph.
+        </p>
+      </main>
+    );
+  }
+
+  const clientModules = pageData?.clientModules ?? [];
+
   return (
     <main>
-      <HeroSlider />
-
-      {/* Safe fallback content to prevent empty render */}
-      <section style={{ padding: 40 }}>
-        <h1>Edunancial</h1>
-        <p>Building financial literacy globally.</p>
-      </section>
+      {clientModules.length === 0 ? (
+        <p>No modules returned from CMS.</p>
+      ) : (
+        clientModules.map((mod: any, i: number) => (
+          <div key={i}>{JSON.stringify(mod)}</div>
+        ))
+      )}
     </main>
   );
 }
