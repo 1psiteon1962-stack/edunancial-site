@@ -1,7 +1,7 @@
-import HomePage from '@/components/home/Landing'; // adjust path if needed
+import Landing from '@/components/home/Landing';
 
 export const dynamic = 'force-dynamic';
 
-export default function RootPage() {
-  return <HomePage />;
+export default function Page() {
+  return <Landing />;
 }
