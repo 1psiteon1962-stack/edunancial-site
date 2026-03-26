@@ -1,47 +1,48 @@
-export async function getRootPage() {
-  const endpoint = process.env.HYGRAPH_ENDPOINT;
-  const token = process.env.HYGRAPH_TOKEN;
-
-  // ✅ HARD GUARD — prevents silent failure
-  if (!endpoint) {
-    console.error('❌ HYGRAPH_ENDPOINT is missing');
-    return null;
-  }
-
+export async function getHomePageData() {
   try {
+    const endpoint = process.env.HYGRAPH_ENDPOINT;
+
+    if (!endpoint) {
+      console.warn('HYGRAPH_ENDPOINT missing — returning fallback data');
+      return {
+        clientModules: [],
+      };
+    }
+
     const res = await fetch(endpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        Authorization: `Bearer ${process.env.HYGRAPH_TOKEN || ''}`,
       },
       body: JSON.stringify({
         query: `
-          query GetHomePage {
+          query HomePage {
             page(where: { slug: "home" }) {
-              clientModules
+              id
             }
           }
         `,
       }),
-      cache: 'no-store',
     });
-
-    if (!res.ok) {
-      console.error('❌ Hygraph response not OK:', res.status);
-      return null;
-    }
 
     const json = await res.json();
 
-    if (!json?.data?.page) {
-      console.error('❌ No page data returned from Hygraph');
-      return null;
+    if (!json?.data) {
+      return {
+        clientModules: [],
+      };
     }
 
-    return json.data.page;
+    return {
+      clientModules: [],
+      ...json.data,
+    };
   } catch (error) {
-    console.error('❌ Hygraph fetch exception:', error);
-    return null;
+    console.error('Hygraph fetch failed:', error);
+
+    return {
+      clientModules: [],
+    };
   }
 }
