@@ -1,0 +1,3 @@
+# Ensure Velite output is NOT ignored
+!.velite
+!.velite/generated
