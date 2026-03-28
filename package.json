@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "velite build && next build",
+    "build": "npx velite build && next build",
     "start": "next start",
     "lint": "next lint",
-    "velite": "velite build"
+    "velite": "npx velite build"
+  },
+  "devDependencies": {
+    "velite": "^0.1.0"
   }
 }
