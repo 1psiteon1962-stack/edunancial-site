@@ -4,10 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx velite build && next build",
+    "build": "npx velite build && npx next build",
     "start": "next start",
     "lint": "next lint",
     "velite": "npx velite build"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "velite": "^0.1.0"
