@@ -1,12 +1,9 @@
-import AccessGate from "@/components/AccessGate";
+import { AccessGate } from '@/components'
 
-export default function AppsPage() {
+export default function Page() {
   return (
-    <AccessGate requiredPlan="starter">
-      <div style={{ padding: 24 }}>
-        <h1>Starter Tools</h1>
-        <p>Entry-level financial and planning tools.</p>
-      </div>
+    <AccessGate requiredLevel={1}>
+      <div>Apps Page</div>
     </AccessGate>
-  );
+  )
 }
