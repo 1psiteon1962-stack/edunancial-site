@@ -11,23 +11,19 @@ type Props = {
 export default function AccessGate({ requiredLevel, children }: Props) {
   const router = useRouter()
 
-  // TEMP mock user level
+  // TEMP USER LEVEL (replace later)
   const userLevel = 0
 
   if (userLevel < requiredLevel) {
     return (
       <div style={{ padding: '40px', textAlign: 'center' }}>
         <h2>Access Restricted</h2>
-        <p>You need a higher plan to view this page.</p>
+        <p>You need a higher plan to access this content.</p>
         <button
           onClick={() => router.push('/login')}
-          style={{
-            marginTop: '20px',
-            padding: '10px 20px',
-            cursor: 'pointer'
-          }}
+          style={{ marginTop: '20px', padding: '10px 20px' }}
         >
-          Login
+          Go to Login
         </button>
       </div>
     )
