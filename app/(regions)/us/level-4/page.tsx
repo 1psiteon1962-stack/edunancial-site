@@ -1,12 +1,9 @@
-import AccessGate from "@/components/AccessGate";
+import { AccessGate } from '@/components'
 
-export default function Level4Page() {
+export default function Page() {
   return (
-    <AccessGate requiredPlan="elite">
-      <div style={{ padding: 24 }}>
-        <h1>Level 4 — Elite</h1>
-        <p>Full founder-level systems and access.</p>
-      </div>
+    <AccessGate requiredLevel={4}>
+      <div>Level 4</div>
     </AccessGate>
-  );
+  )
 }
