@@ -1,4 +1,4 @@
-import { AccessGate } from '@/components'
+import { AccessGate } from '../../../components'
 
 export default function Page() {
   return (
