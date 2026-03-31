@@ -1,9 +1,9 @@
-import AccessGate from '@/components/AccessGate'
+import { AccessGate } from '@/components'
 
 export default function Page() {
   return (
     <AccessGate requiredLevel={3}>
-      <div>Level 3 Content</div>
+      <div>Level 3</div>
     </AccessGate>
   )
 }
