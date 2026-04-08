@@ -7,32 +7,31 @@ export type KPIEvent = {
 }
 
 /**
- * Fetch KPI events and return CSV string
- * Replace this later with Airtable / DB integration
+ * Returns CSV string of KPI events
+ * Replace with Airtable / DB later
  */
 export async function fetchEventsCSV(): Promise<string> {
-  // TEMP DATA — replace with real data source later
   const events: KPIEvent[] = [
     {
-      id: '1',
-      name: 'Test User',
-      email: 'test@example.com',
+      id: "1",
+      name: "Test User",
+      email: "test@example.com",
       createdAt: new Date().toISOString(),
-      event: 'signup',
-    },
+      event: "signup"
+    }
   ]
 
-  const headers = ['id', 'name', 'email', 'createdAt', 'event']
+  const headers = ["id", "name", "email", "createdAt", "event"]
 
-  const rows = events.map((e) =>
+  const rows = events.map(e =>
     [
       e.id,
       e.name,
-      e.email ?? '',
+      e.email ?? "",
       e.createdAt,
-      e.event ?? '',
-    ].join(',')
+      e.event ?? ""
+    ].join(",")
   )
 
-  return [headers.join(','), ...rows].join('\n')
+  return [headers.join(","), ...rows].join("\n")
 }
