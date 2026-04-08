@@ -1,34 +1,46 @@
-'use client';
+'use client'
 
-import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react'
 
-const SwiperComponent = dynamic(
-  async () => {
-    const mod = await import('swiper/react');
-    return mod.Swiper;
+type Slide = {
+  title: string
+  description: string
+}
+
+const slides: Slide[] = [
+  {
+    title: 'Build Wealth',
+    description: 'Learn how to build real wealth step by step.',
   },
-  { ssr: false }
-);
-
-const SwiperSlideComponent = dynamic(
-  async () => {
-    const mod = await import('swiper/react');
-    return mod.SwiperSlide;
+  {
+    title: 'Start a Business',
+    description: 'Create structured, scalable businesses.',
   },
-  { ssr: false }
-);
+  {
+    title: 'Think Global',
+    description: 'Expand beyond borders and scale internationally.',
+  },
+]
 
 export default function HeroSlider() {
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slides.length)
+    }, 4000)
+
+    return () => clearInterval(interval)
+  }, [])
+
+  const slide = slides[index]
+
   return (
-    <div>
-      <SwiperComponent>
-        <SwiperSlideComponent>
-          <div>Slide 1</div>
-        </SwiperSlideComponent>
-        <SwiperSlideComponent>
-          <div>Slide 2</div>
-        </SwiperSlideComponent>
-      </SwiperComponent>
+    <div className="w-full h-[300px] flex items-center justify-center bg-gray-100 text-center p-6">
+      <div>
+        <h2 className="text-2xl font-bold mb-2">{slide.title}</h2>
+        <p className="text-gray-600">{slide.description}</p>
+      </div>
     </div>
-  );
+  )
 }
