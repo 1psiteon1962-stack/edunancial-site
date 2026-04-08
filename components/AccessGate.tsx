@@ -3,26 +3,28 @@
 import React from 'react'
 
 /**
- * Plan hierarchy (UPDATED to include "starter")
+ * FULL PLAN LADDER (FINALIZED)
  */
 export type Plan =
   | 'free'
   | 'starter'
   | 'basic'
+  | 'growth'
   | 'pro'
   | 'enterprise'
   | 'elite'
 
 /**
- * Rank system (UPDATED)
+ * PLAN RANKING (ORDER MATTERS)
  */
 const PLAN_RANK: Record<Plan, number> = {
   free: 0,
   starter: 1,
   basic: 2,
-  pro: 3,
-  enterprise: 4,
-  elite: 5,
+  growth: 3,
+  pro: 4,
+  enterprise: 5,
+  elite: 6,
 }
 
 /**
@@ -45,6 +47,7 @@ function normalizePlan(plan?: string): Plan {
     normalized === 'free' ||
     normalized === 'starter' ||
     normalized === 'basic' ||
+    normalized === 'growth' ||
     normalized === 'pro' ||
     normalized === 'enterprise' ||
     normalized === 'elite'
