@@ -1,30 +1,60 @@
 'use client'
 
-import { ReactNode } from 'react'
-import { useRouter } from 'next/navigation'
+import React from 'react'
 
-type Props = {
-  requiredLevel: number
-  children: ReactNode
+/**
+ * Centralized plan definition
+ * This FIXES:
+ * - Missing export "Plan"
+ * - Type mismatch across the app
+ */
+export type Plan = 'free' | 'basic' | 'pro' | 'enterprise' | 'elite'
+
+export type AccessGateProps = {
+  children: React.ReactNode
+  requiredPlan: Plan
+  userPlan?: Plan
 }
 
-export default function AccessGate({ requiredLevel, children }: Props) {
-  const router = useRouter()
+/**
+ * Normalize plan safely
+ */
+function normalizePlan(plan?: string): Plan {
+  const normalized = (plan || 'free').toLowerCase()
 
-  // TEMP USER LEVEL (replace later)
-  const userLevel = 0
+  if (
+    normalized === 'free' ||
+    normalized === 'basic' ||
+    normalized === 'pro' ||
+    normalized === 'enterprise' ||
+    normalized === 'elite'
+  ) {
+    return normalized
+  }
 
-  if (userLevel < requiredLevel) {
+  return 'free'
+}
+
+/**
+ * Access control logic
+ */
+export default function AccessGate({
+  children,
+  requiredPlan,
+  userPlan,
+}: AccessGateProps) {
+  const normalizedUserPlan = normalizePlan(userPlan)
+
+  const allowed =
+    normalizedUserPlan === requiredPlan ||
+    normalizedUserPlan === 'elite' ||
+    normalizedUserPlan === 'enterprise'
+
+  if (!allowed) {
     return (
-      <div style={{ padding: '40px', textAlign: 'center' }}>
+      <div style={{ padding: '20px' }}>
         <h2>Access Restricted</h2>
         <p>You need a higher plan to access this content.</p>
-        <button
-          onClick={() => router.push('/login')}
-          style={{ marginTop: '20px', padding: '10px 20px' }}
-        >
-          Go to Login
-        </button>
       </div>
     )
   }
