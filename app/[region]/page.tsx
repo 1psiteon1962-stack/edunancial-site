@@ -1,30 +1,27 @@
-import { notFound } from "next/navigation";
-import { regions } from "@/lib/regions";
+import { notFound } from 'next/navigation'
 
 type PageProps = {
   params: {
-    region: string;
-  };
-};
+    region: string
+  }
+}
+
+/**
+ * Define regions as simple strings (matches your current data)
+ */
+const regions = ['us', 'eu', 'mena', 'apac']
 
 export default function RegionPage({ params }: PageProps) {
-  const region = regions.find(r => r.slug === params.region);
+  const region = regions.find((r) => r === params.region)
 
   if (!region) {
-    notFound();
+    notFound()
   }
 
   return (
-    <main style={{ padding: "2rem" }}>
-      <h1>{region.name}</h1>
-      <p>Region slug: {region.slug}</p>
-
-      <h2>Modules</h2>
-      <ul>
-        {region.clientModules.map(mod => (
-          <li key={mod}>{mod}</li>
-        ))}
-      </ul>
+    <main style={{ padding: '20px' }}>
+      <h1>Region: {region}</h1>
+      <p>Welcome to the {region.toUpperCase()} region.</p>
     </main>
-  );
+  )
 }
