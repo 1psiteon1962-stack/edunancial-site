@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "npx velite build && next build",
     "dev": "next dev",
-    "build": "npx velite build && npx next build",
-    "start": "next start",
-    "lint": "next lint",
-    "velite": "npx velite build"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.2.3",
@@ -15,6 +13,9 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
     "velite": "^0.1.0"
   }
 }
