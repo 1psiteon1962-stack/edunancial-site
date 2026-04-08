@@ -25,9 +25,13 @@ export default async function Page({ params }: PageProps) {
 
   return (
     <main style={{ padding: '40px' }}>
-      <h1>{dict?.title || 'Edunancial'}</h1>
-      <p>Region: {params.region}</p>
-      <p>Language: {params.lang}</p>
+      <h1>{dict?.hero_title ?? 'Edunancial'}</h1>
+      <p>{dict?.hero_subtitle ?? 'Build. Scale. Expand.'}</p>
+
+      <div style={{ marginTop: '20px' }}>
+        <p><strong>Region:</strong> {params.region}</p>
+        <p><strong>Language:</strong> {params.lang}</p>
+      </div>
     </main>
   )
 }
