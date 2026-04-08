@@ -3,22 +3,30 @@
 import React from 'react'
 
 /**
- * Plan hierarchy (order matters)
+ * Plan hierarchy (UPDATED to include "starter")
  */
-export type Plan = 'free' | 'basic' | 'pro' | 'enterprise' | 'elite'
+export type Plan =
+  | 'free'
+  | 'starter'
+  | 'basic'
+  | 'pro'
+  | 'enterprise'
+  | 'elite'
 
+/**
+ * Rank system (UPDATED)
+ */
 const PLAN_RANK: Record<Plan, number> = {
   free: 0,
-  basic: 1,
-  pro: 2,
-  enterprise: 3,
-  elite: 4,
+  starter: 1,
+  basic: 2,
+  pro: 3,
+  enterprise: 4,
+  elite: 5,
 }
 
 /**
- * Props now support BOTH:
- * - requiredPlan (string-based access)
- * - requiredLevel (number-based access)
+ * Props
  */
 export type AccessGateProps = {
   children: React.ReactNode
@@ -35,6 +43,7 @@ function normalizePlan(plan?: string): Plan {
 
   if (
     normalized === 'free' ||
+    normalized === 'starter' ||
     normalized === 'basic' ||
     normalized === 'pro' ||
     normalized === 'enterprise' ||
@@ -47,7 +56,7 @@ function normalizePlan(plan?: string): Plan {
 }
 
 /**
- * Access control logic
+ * Access logic
  */
 export default function AccessGate({
   children,
@@ -60,15 +69,13 @@ export default function AccessGate({
 
   let allowed = false
 
-  // 🔹 Plan-based access
+  // Plan-based logic
   if (requiredPlan) {
-    allowed =
-      normalizedUserPlan === requiredPlan ||
-      normalizedUserPlan === 'enterprise' ||
-      normalizedUserPlan === 'elite'
+    const requiredLevelFromPlan = PLAN_RANK[requiredPlan]
+    allowed = userLevel >= requiredLevelFromPlan
   }
 
-  // 🔹 Level-based access (overrides if provided)
+  // Level-based override
   if (typeof requiredLevel === 'number') {
     allowed = userLevel >= requiredLevel
   }
