@@ -3,16 +3,27 @@
 import React from 'react'
 
 /**
- * Centralized plan definition
- * This FIXES:
- * - Missing export "Plan"
- * - Type mismatch across the app
+ * Plan hierarchy (order matters)
  */
 export type Plan = 'free' | 'basic' | 'pro' | 'enterprise' | 'elite'
 
+const PLAN_RANK: Record<Plan, number> = {
+  free: 0,
+  basic: 1,
+  pro: 2,
+  enterprise: 3,
+  elite: 4,
+}
+
+/**
+ * Props now support BOTH:
+ * - requiredPlan (string-based access)
+ * - requiredLevel (number-based access)
+ */
 export type AccessGateProps = {
   children: React.ReactNode
-  requiredPlan: Plan
+  requiredPlan?: Plan
+  requiredLevel?: number
   userPlan?: Plan
 }
 
@@ -41,14 +52,26 @@ function normalizePlan(plan?: string): Plan {
 export default function AccessGate({
   children,
   requiredPlan,
+  requiredLevel,
   userPlan,
 }: AccessGateProps) {
   const normalizedUserPlan = normalizePlan(userPlan)
+  const userLevel = PLAN_RANK[normalizedUserPlan]
 
-  const allowed =
-    normalizedUserPlan === requiredPlan ||
-    normalizedUserPlan === 'elite' ||
-    normalizedUserPlan === 'enterprise'
+  let allowed = false
+
+  // 🔹 Plan-based access
+  if (requiredPlan) {
+    allowed =
+      normalizedUserPlan === requiredPlan ||
+      normalizedUserPlan === 'enterprise' ||
+      normalizedUserPlan === 'elite'
+  }
+
+  // 🔹 Level-based access (overrides if provided)
+  if (typeof requiredLevel === 'number') {
+    allowed = userLevel >= requiredLevel
+  }
 
   if (!allowed) {
     return (
