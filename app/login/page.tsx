@@ -1,15 +1,20 @@
 import { plans } from '@/app/lib/plans'
 
-export default function LoginPage() {
-  return (
-    <div style={{ padding: '40px' }}>
-      <h1>Login</h1>
+export default function Page() {
+  // Convert object → array safely
+  const planList = Object.entries(plans).map(([code, plan]) => ({
+    id: code,
+    ...plan,
+  }))
 
+  return (
+    <div style={{ padding: '20px' }}>
       <h2>Available Plans</h2>
+
       <ul>
-        {plans.map((plan) => (
+        {planList.map((plan) => (
           <li key={plan.id}>
-            {plan.name} - ${plan.price}
+            {plan.name} - ${plan.price ?? 0}
           </li>
         ))}
       </ul>
