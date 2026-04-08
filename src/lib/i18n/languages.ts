@@ -1,27 +1,21 @@
-export type LanguageCode =
-  | "en"
-  | "es"
-  | "ko"
-  | "ja"
-  | "tl"
-  | "ar"
-  | "pt"
-  | "fr";
+export type Language = 'en' | 'es'
 
-export const supportedLanguages: LanguageCode[] = [
-  "en",
-  "es",
-  "ko",
-  "ja",
-  "tl",
-  "ar",
-  "pt",
-  "fr"
-];
+/**
+ * Supported languages list
+ */
+export const languages: Language[] = ['en', 'es']
 
-export function isLanguage(value: unknown): value is LanguageCode {
-  return (
-    typeof value === "string" &&
-    supportedLanguages.includes(value as LanguageCode)
-  );
+/**
+ * Type guard to validate language param
+ */
+export function isLanguage(value: string): value is Language {
+  return languages.includes(value as Language)
+}
+
+/**
+ * Optional helper (safe default)
+ */
+export function normalizeLanguage(value: string | undefined): Language {
+  if (!value) return 'en'
+  return isLanguage(value) ? value : 'en'
 }
