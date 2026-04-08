@@ -1,27 +1,33 @@
-import { getRegion } from "@/lib/regions";
-import { isLanguage } from "@/lib/i18n/languages";
-import { getDictionary } from "@/lib/i18n/getDictionary";
+import { getRegion } from '../../../lib/regions'
+import { isLanguage } from '../../../lib/i18n/languages'
+import { getDictionary } from '../../../lib/i18n/getDictionary'
+import { notFound } from 'next/navigation'
 
-export default async function Page({
-  params
-}: {
-  params: { region: string; lang: string };
-}) {
-  const region = getRegion(params.region);
+type PageProps = {
+  params: {
+    region: string
+    lang: string
+  }
+}
 
-  if (!region) return <div>Invalid region</div>;
+export default async function Page({ params }: PageProps) {
+  const region = getRegion(params.region)
 
-  const lang = isLanguage(params.lang)
-    ? params.lang
-    : region.defaultLanguage;
+  if (!region) {
+    notFound()
+  }
 
-  const dict = await getDictionary(lang);
+  if (!isLanguage(params.lang)) {
+    notFound()
+  }
+
+  const dict = await getDictionary(params.lang)
 
   return (
-    <main>
-      <h1>{dict.hero_title}</h1>
-      <p>{dict.hero_subtitle}</p>
-      <button>{dict.cta_start}</button>
+    <main style={{ padding: '40px' }}>
+      <h1>{dict?.title || 'Edunancial'}</h1>
+      <p>Region: {params.region}</p>
+      <p>Language: {params.lang}</p>
     </main>
-  );
+  )
 }
