@@ -5,9 +5,25 @@ export type PlanCode =
   | 'level-3'
   | 'level-4'
   | 'level-5'
+  | 'enterprise'
+  | 'elite'
 
 /**
- * Normalizes any incoming plan string into a valid PlanCode
+ * Full plans definition used by login + gating
+ */
+export const plans: Record<PlanCode, { name: string }> = {
+  free: { name: 'Free' },
+  'level-1': { name: 'Level 1' },
+  'level-2': { name: 'Level 2' },
+  'level-3': { name: 'Level 3' },
+  'level-4': { name: 'Level 4' },
+  'level-5': { name: 'Level 5' },
+  enterprise: { name: 'Enterprise' },
+  elite: { name: 'Elite' }
+}
+
+/**
+ * Normalize incoming values into a valid PlanCode
  */
 export function normalizePlan(input?: string | null): PlanCode {
   if (!input) return 'free'
@@ -40,7 +56,12 @@ export function normalizePlan(input?: string | null): PlanCode {
     case '5':
       return 'level-5'
 
-    case 'free':
+    case 'enterprise':
+      return 'enterprise'
+
+    case 'elite':
+      return 'elite'
+
     default:
       return 'free'
   }
