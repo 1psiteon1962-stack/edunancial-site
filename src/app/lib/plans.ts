@@ -1,39 +1,67 @@
-export type PlanLevel = "free" | "level-1" | "level-2" | "level-3";
+export type PlanCode =
+  | 'free'
+  | 'starter'
+  | 'basic'
+  | 'growth'
+  | 'pro'
+  | 'enterprise'
+  | 'elite'
 
-export type Plan = {
-  id: PlanLevel;
-  name: string;
-  price: number;
-  description: string;
-};
-
-export const PLANS: Record<PlanLevel, Plan> = {
-  free: {
-    id: "free",
-    name: "Free",
-    price: 0,
-    description: "Basic access to introductory content and public resources."
-  },
-  "level-1": {
-    id: "level-1",
-    name: "Level 1",
-    price: 19,
-    description: "Entry-level educational tools, beginner financial literacy content, and starter analytics."
-  },
-  "level-2": {
-    id: "level-2",
-    name: "Level 2",
-    price: 49,
-    description: "Expanded training modules, deeper KPI tracking, and intermediate entrepreneurial tools."
-  },
-  "level-3": {
-    id: "level-3",
-    name: "Level 3",
-    price: 99,
-    description: "Full platform access including advanced analytics, global expansion tools, and premium resources."
+export const plans: Record<
+  PlanCode,
+  {
+    name: string
+    price: number
   }
-};
+> = {
+  free: {
+    name: 'Free',
+    price: 0,
+  },
+  starter: {
+    name: 'Starter',
+    price: 9,
+  },
+  basic: {
+    name: 'Basic',
+    price: 19,
+  },
+  growth: {
+    name: 'Growth',
+    price: 49,
+  },
+  pro: {
+    name: 'Pro',
+    price: 99,
+  },
+  enterprise: {
+    name: 'Enterprise',
+    price: 199,
+  },
+  elite: {
+    name: 'Elite',
+    price: 499,
+  },
+}
 
-export function getPlan(plan: PlanLevel): Plan {
-  return PLANS[plan];
+export function normalizePlan(input?: string | null): PlanCode {
+  const value = (input || 'free').toLowerCase().trim()
+
+  switch (value) {
+    case 'starter':
+      return 'starter'
+    case 'basic':
+      return 'basic'
+    case 'growth':
+      return 'growth'
+    case 'pro':
+      return 'pro'
+    case 'enterprise':
+      return 'enterprise'
+    case 'elite':
+      return 'elite'
+    case 'free':
+    default:
+      return 'free'
+  }
 }
