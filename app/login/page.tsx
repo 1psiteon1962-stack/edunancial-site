@@ -1,16 +1,25 @@
 import { plans } from '@/app/lib/plans'
 
+type PlanItem = {
+  id: string
+  name: string
+  price?: number
+}
+
 export default function Page() {
-  // Convert object → array safely
-  const planList = Object.entries(plans).map(([code, plan]) => ({
-    id: code,
-    ...plan,
-  }))
+  const planList: PlanItem[] = Object.entries(plans).map(
+    ([code, plan]: [string, any]) => ({
+      id: code,
+      name: plan.name,
+      price: plan.price,
+    })
+  )
 
   return (
     <div style={{ padding: '20px' }}>
-      <h2>Available Plans</h2>
+      <h1>Login</h1>
 
+      <h2>Available Plans</h2>
       <ul>
         {planList.map((plan) => (
           <li key={plan.id}>
