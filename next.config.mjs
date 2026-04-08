@@ -1,14 +1,11 @@
+import path from 'path'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 🔥 CRITICAL: DO NOT use static export
-  // output: 'export',  ❌ REMOVE THIS IF IT EXISTS
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(process.cwd())
+    return config
+  }
+}
 
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-};
-
-export default nextConfig;
+export default nextConfig
