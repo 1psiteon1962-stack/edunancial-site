@@ -1,14 +1,17 @@
 import { getRootPage } from '@/lib/velite'
-import { MDXRemote } from 'next-mdx-remote/rsc'
 
 export default async function Page() {
   const page = await getRootPage()
 
-  if (!page || !page.body || !page.body.code) {
-    throw new Error(
-      'Velite content missing. Ensure "velite build" runs before Next.js build.'
-    )
-  }
+  return (
+    <main style={{ padding: '20px' }}>
+      <h1>{page.title}</h1>
 
-  return <MDXRemote {...page.body} />
+      <div
+        dangerouslySetInnerHTML={{
+          __html: page.body?.code || '<p>No content available</p>',
+        }}
+      />
+    </main>
+  )
 }
