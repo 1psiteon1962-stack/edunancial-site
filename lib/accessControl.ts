@@ -1,15 +1,19 @@
-// lib/accessControl.ts
-
-import { ACCESS_MATRIX } from "@/data/access/accessMatrix";
-import type { PlanCode, AccessArea } from "@/data/access/accessMatrix";
+import { ACCESS_MATRIX, PlanCode, AccessArea } from "@/data/access/accessMatrix";
 
 /**
- * Determines whether a given plan can access a given area
+ * Check if a given plan has access to a specific area
  */
-export function canAccess(
+export function hasAccess(
   plan: PlanCode,
   area: AccessArea
 ): boolean {
-  const allowed: AccessArea[] = ACCESS_MATRIX[plan] ?? [];
-  return allowed.includes(area);
+  const allowedAreas = ACCESS_MATRIX[plan] || [];
+  return allowedAreas.includes(area);
+}
+
+/**
+ * Get all areas accessible for a given plan
+ */
+export function getAccessAreas(plan: PlanCode): AccessArea[] {
+  return ACCESS_MATRIX[plan] || [];
 }
