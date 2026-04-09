@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { DIAGNOSTIC_QUESTIONS } from "../../../diagnostic-questions";
-import { scoreDiagnostic } from "../../../diagnostic-engine";
+import { DIAGNOSTIC_QUESTIONS } from "../../diagnostic-questions";
+import { scoreDiagnostic } from "../../diagnostic-engine";
 import { useRouter } from "next/navigation";
 
 export default function DiagnosticPage() {
