@@ -1,40 +1,38 @@
-/**
- * Proprietary diagnostic questions
- * Internal use only – not public-facing IP
- */
-
-export type DiagnosticAnswer = 0 | 1 | 2 | 3 | 4;
-
-export interface DiagnosticQuestion {
+export type DiagnosticQuestion = {
   id: string;
-  prompt: string;
-  weight: number;
-}
+  question: string;
+  options: {
+    label: string;
+    value: number;
+  }[];
+};
 
 export const DIAGNOSTIC_QUESTIONS: DiagnosticQuestion[] = [
   {
-    id: "entity_structure",
-    prompt: "Do you have a formally registered business entity?",
-    weight: 1,
+    id: "q1",
+    question: "How familiar are you with financial concepts?",
+    options: [
+      { label: "Beginner", value: 1 },
+      { label: "Intermediate", value: 2 },
+      { label: "Advanced", value: 3 },
+    ],
   },
   {
-    id: "revenue_predictability",
-    prompt: "Is your revenue predictable month to month?",
-    weight: 2,
+    id: "q2",
+    question: "Do you currently invest or run a business?",
+    options: [
+      { label: "No", value: 1 },
+      { label: "Some experience", value: 2 },
+      { label: "Yes, actively", value: 3 },
+    ],
   },
   {
-    id: "delegation",
-    prompt: "Can your business operate without you for 30 days?",
-    weight: 3,
-  },
-  {
-    id: "kpi_tracking",
-    prompt: "Do you track KPIs beyond basic revenue?",
-    weight: 4,
-  },
-  {
-    id: "capital_readiness",
-    prompt: "Could your business pass investor due diligence today?",
-    weight: 5,
+    id: "q3",
+    question: "What is your primary goal?",
+    options: [
+      { label: "Learn basics", value: 1 },
+      { label: "Grow income", value: 2 },
+      { label: "Scale wealth", value: 3 },
+    ],
   },
 ];
