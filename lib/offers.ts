@@ -6,10 +6,39 @@ export interface Offer {
   comingSoon?: boolean;
 }
 
-export function optimizeOffer(offer: Offer): Offer {
+export interface OptimizeOfferOptions {
+  priceUSD: number;
+  region?: string;
+}
+
+export interface OptimizedOffer {
+  finalPriceUSD: number;
+  discountApplied: boolean;
+  notes?: string;
+}
+
+export function optimizeOffer(
+  options: OptimizeOfferOptions
+): OptimizedOffer {
+  const { priceUSD, region } = options;
+
+  let finalPriceUSD = priceUSD;
+  let discountApplied = false;
+  let notes = "";
+
+  if (region === "africa" || region === "latin-america" || region === "latam") {
+    finalPriceUSD = Math.round(priceUSD * 0.7);
+    discountApplied = true;
+    notes = "Regional pricing adjustment applied";
+  }
+
+  if (finalPriceUSD < 1) {
+    finalPriceUSD = 1;
+  }
+
   return {
-    ...offer,
-    priceUSD: offer.priceUSD ?? 0,
-    comingSoon: offer.comingSoon ?? false,
+    finalPriceUSD,
+    discountApplied,
+    notes,
   };
 }
