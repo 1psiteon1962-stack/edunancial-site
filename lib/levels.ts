@@ -1,4 +1,12 @@
-export const EDUNANCIAL_LEVELS = [
+export type Level = "starter" | "growth" | "enterprise";
+
+export interface LevelConfig {
+  id: Level;
+  title: string;
+  description: string;
+}
+
+export const EDUNANCIAL_LEVELS: LevelConfig[] = [
   {
     id: "starter",
     title: "Starter",
