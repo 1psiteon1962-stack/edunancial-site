@@ -1,4 +1,8 @@
-import { ACCESS_MATRIX, PlanCode, AccessArea } from "@/data/access/accessMatrix";
+import {
+  ACCESS_MATRIX,
+  PlanCode,
+  AccessArea,
+} from "@/data/access/accessMatrix";
 
 /**
  * Check if a given plan has access to a specific area
@@ -12,7 +16,7 @@ export function hasAccess(
 }
 
 /**
- * Get all areas accessible for a given plan
+ * Get all accessible areas for a plan
  */
 export function getAccessAreas(plan: PlanCode): AccessArea[] {
   return ACCESS_MATRIX[plan] || [];
