@@ -1,5 +1,3 @@
-import { DiagnosticQuestion } from "./diagnostic-questions";
-
 export function scoreDiagnostic(
   answers: Record<string, number>
 ): number {
