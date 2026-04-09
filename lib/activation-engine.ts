@@ -1,10 +1,13 @@
-import { Level } from "./levels"
-import { LevelAccess } from "./level-access"
+import { Level } from "./levels";
 
 export type ActivationResult = {
-  level: Level
-  access: LevelAccess
-  region: string
-  price: number
-  currency: string
+  success: boolean;
+  level: Level;
+};
+
+export function activateLevel(level: Level): ActivationResult {
+  return {
+    success: true,
+    level,
+  };
 }
