@@ -10,29 +10,29 @@ export type DiagnosticQuestion = {
 export const DIAGNOSTIC_QUESTIONS: DiagnosticQuestion[] = [
   {
     id: "q1",
-    question: "How familiar are you with financial concepts?",
+    question: "How familiar are you with financial systems?",
     options: [
       { label: "Beginner", value: 1 },
       { label: "Intermediate", value: 2 },
-      { label: "Advanced", value: 3 },
-    ],
+      { label: "Advanced", value: 3 }
+    ]
   },
   {
     id: "q2",
-    question: "Do you currently invest or run a business?",
+    question: "Do you currently generate income outside a job?",
     options: [
       { label: "No", value: 1 },
-      { label: "Some experience", value: 2 },
-      { label: "Yes, actively", value: 3 },
-    ],
+      { label: "Somewhat", value: 2 },
+      { label: "Yes", value: 3 }
+    ]
   },
   {
     id: "q3",
     question: "What is your primary goal?",
     options: [
-      { label: "Learn basics", value: 1 },
-      { label: "Grow income", value: 2 },
-      { label: "Scale wealth", value: 3 },
-    ],
-  },
+      { label: "Learn", value: 1 },
+      { label: "Earn", value: 2 },
+      { label: "Scale", value: 3 }
+    ]
+  }
 ];
