@@ -10,6 +10,7 @@ export type Offer = {
   title: string
   description: string
   priceUSD: number
+  comingSoon?: boolean
 }
 
 export const LevelOffers: Record<Level, Offer[]> = {
@@ -19,6 +20,7 @@ export const LevelOffers: Record<Level, Offer[]> = {
       title: "Starter Tools",
       description: "Basic financial education and entry-level tools",
       priceUSD: 9,
+      comingSoon: false,
     },
   ],
   growth: [
@@ -27,6 +29,7 @@ export const LevelOffers: Record<Level, Offer[]> = {
       title: "Growth Systems",
       description: "Scaling strategies and structured business systems",
       priceUSD: 49,
+      comingSoon: false,
     },
   ],
   pro: [
@@ -35,6 +38,7 @@ export const LevelOffers: Record<Level, Offer[]> = {
       title: "Professional Tools",
       description: "Advanced analytics and investment frameworks",
       priceUSD: 99,
+      comingSoon: false,
     },
   ],
   enterprise: [
@@ -43,6 +47,7 @@ export const LevelOffers: Record<Level, Offer[]> = {
       title: "Enterprise Access",
       description: "Full-scale systems, governance, and expansion tools",
       priceUSD: 199,
+      comingSoon: true,
     },
   ],
   elite: [
@@ -51,6 +56,7 @@ export const LevelOffers: Record<Level, Offer[]> = {
       title: "Elite Access",
       description: "Highest-level strategy, capital structuring, and scaling",
       priceUSD: 499,
+      comingSoon: true,
     },
   ],
 }
