@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
-import { optimizeOffer } from "@/lib/offers"
-import { LEVEL_OFFERS, Level } from "@/lib/level-offers"
+import { optimizeOffer } from "@/lib/offers";
+import { LEVEL_OFFERS, Level } from "@/lib/level-offers";
 
 type Props = {
-  level: Level
-  region?: string
-}
+  level: Level;
+  region?: string;
+};
 
 export default function OfferPanel({ level, region }: Props) {
-  const offers = LEVEL_OFFERS[level] || []
+  const offers = LEVEL_OFFERS[level] || [];
 
   return (
     <div style={{ padding: "2rem" }}>
@@ -24,9 +24,9 @@ export default function OfferPanel({ level, region }: Props) {
       >
         {offers.map((offer) => {
           const optimized = optimizeOffer({
-            basePriceUSD: offer.priceUSD,
+            priceUSD: offer.priceUSD,
             region,
-          })
+          });
 
           return (
             <div
@@ -61,9 +61,9 @@ export default function OfferPanel({ level, region }: Props) {
                 {offer.comingSoon ? "Coming Soon" : "Get Access"}
               </button>
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
+  );
 }
