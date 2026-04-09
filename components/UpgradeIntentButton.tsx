@@ -1,41 +1,39 @@
-"use client";
+"use client"
 
-import { recordUpgradeIntent } from "@/lib/upgrade-intent";
+import { recordUpgradeIntent } from "@/lib/upgrade-intent"
 
-interface Props {
-  region: string;
-  currentLevel: "level_1" | "level_2" | "level_3" | "level_4" | "level_5";
-  targetLevel: "level_2" | "level_3" | "level_4" | "level_5";
-  label?: string;
+type Props = {
+  region: string
+  level: string
 }
 
-export default function UpgradeIntentButton({
-  region,
-  currentLevel,
-  targetLevel,
-  label = "Upgrade Interest",
-}: Props) {
+export default function UpgradeIntentButton({ region, level }: Props) {
+  async function handleClick() {
+    const result = await recordUpgradeIntent({
+      region,
+      level,
+      source: "button",
+    })
+
+    if (result.success) {
+      alert("Upgrade request received")
+    } else {
+      alert("Something went wrong. Try again.")
+    }
+  }
+
   return (
     <button
-      onClick={() =>
-        recordUpgradeIntent({
-          region,
-          currentLevel,
-          targetLevel,
-          source: "button",
-          timestamp: Date.now(),
-        })
-      }
+      onClick={handleClick}
       style={{
-        marginTop: "1rem",
-        padding: "0.6rem 1rem",
+        padding: "0.75rem 1.25rem",
+        backgroundColor: "#000",
+        color: "#fff",
         borderRadius: "6px",
-        border: "1px solid #999",
-        background: "#f5f5f5",
         cursor: "pointer",
       }}
     >
-      {label}
+      Upgrade
     </button>
-  );
+  )
 }
