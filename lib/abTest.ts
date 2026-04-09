@@ -1,4 +1,4 @@
-import { Offer, OFFER_CATALOG } from "@/lib/offerCatalog";
+import { Offer, OFFER_CATALOG } from "../src/lib/offerCatalog";
 
 export type Variant = "A" | "B";
 
