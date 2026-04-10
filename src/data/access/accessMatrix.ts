@@ -1,15 +1,22 @@
-export type PlanCode = "free" | "starter" | "growth" | "enterprise";
+export type PlanCode =
+  | "free"
+  | "starter"
+  | "builder"
+  | "operator"
+  | "owner"
+  | "investor";
 
 export type AccessArea =
-  | "dashboard"
-  | "courses"
-  | "analytics"
-  | "admin"
-  | "kpi";
+  | "content"
+  | "tools"
+  | "live"
+  | "admin";
 
 export const ACCESS_MATRIX: Record<PlanCode, AccessArea[]> = {
-  free: ["dashboard"],
-  starter: ["dashboard", "courses"],
-  growth: ["dashboard", "courses", "analytics"],
-  enterprise: ["dashboard", "courses", "analytics", "admin", "kpi"],
+  free: ["content"],
+  starter: ["content", "tools"],
+  builder: ["content", "tools", "live"],
+  operator: ["content", "tools", "live"],
+  owner: ["content", "tools", "live"],
+  investor: ["content", "tools", "live", "admin"],
 };
