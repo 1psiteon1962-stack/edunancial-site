@@ -1,6 +1,4 @@
-// lib/level-access.ts
-
-import type { Level } from "./levels";
+import { Level } from "./levels";
 
 export type LevelAccess = {
   canViewContent: boolean;
@@ -14,23 +12,29 @@ export const LEVEL_ACCESS: Record<Level, LevelAccess> = {
     canAccessTools: false,
     canJoinLiveSessions: false,
   },
-  Foundation: {
-    canViewContent: true,
-    canAccessTools: false,
-    canJoinLiveSessions: false,
-  },
-  Builder: {
+  starter: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: false,
   },
-  Visionary: {
+  builder: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+  },
+  operator: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+  },
+  owner: {
+    canViewContent: true,
+    canAccessTools: true,
+    canJoinLiveSessions: true,
+  },
+  investor: {
     canViewContent: true,
     canAccessTools: true,
     canJoinLiveSessions: true,
   },
 };
-
-export function getLevelAccess(level: Level): LevelAccess {
-  return LEVEL_ACCESS[level];
-}
