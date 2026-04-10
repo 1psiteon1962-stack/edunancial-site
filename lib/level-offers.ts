@@ -1,9 +1,6 @@
-import { Level } from "./levels";
+import { LevelId } from "./levels";
 
-/**
- * 🔥 CRITICAL: Re-export Level so components can import from here
- */
-export type { Level };
+export type Level = LevelId;
 
 export interface Offer {
   id: string;
@@ -13,7 +10,7 @@ export interface Offer {
   comingSoon?: boolean;
 }
 
-export const LEVEL_OFFERS: Record<Level, Offer[]> = {
+export const LEVEL_OFFERS: Record<LevelId, Offer[]> = {
   free: [],
   starter: [
     {
