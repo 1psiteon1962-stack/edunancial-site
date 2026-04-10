@@ -1,50 +1,61 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 import { getSiteContext } from "@/lib/kpi/site";
-import { sha256 } from "@/lib/kpi/hash";
 
-export async function POST(req: Request) {
+type SiteContext = {
+  region?: string;
+  client_id?: string | null;
+};
+
+export async function POST(request: NextRequest) {
   try {
-    const body = await req.json();
-    const site = getSiteContext();
+    const body = await request.json();
 
-    const userAgent = req.headers.get("user-agent") || "";
-    const ip =
-      req.headers.get("x-forwarded-for") ||
-      req.headers.get("x-real-ip") ||
-      "unknown";
+    const {
+      event_type,
+      region,
+      fingerprint,
+      metadata,
+    } = body;
 
-    const fingerprint = await sha256(`${ip}-${userAgent}`);
+    // ✅ FORCE RESOLUTION — NO PROMISE LEAK
+    const site: SiteContext = await getSiteContext(request);
 
-    const { event_type, region, metadata } = body;
+    // ✅ SAFE FALLBACKS (NO TYPE ERRORS)
+    const resolvedRegion =
+      typeof region === "string" && region.length > 0
+        ? region
+        : site.region || "US";
 
-    if (!event_type) {
-      return NextResponse.json(
-        { error: "Missing event_type" },
-        { status: 400 }
-      );
-    }
+    const resolvedClientId =
+      site.client_id ?? null;
 
-    const { error } = await supabaseAdmin.from("kpi_events").insert([
-      {
-        event_type,
-        region: region || site.region || "us",
-        fingerprint,
-        metadata: metadata || {},
-      },
-    ]);
+    const { error } = await supabaseAdmin
+      .from("kpi_events")
+      .insert([
+        {
+          event_type,
+          region: resolvedRegion,
+          fingerprint: fingerprint ?? null,
+          metadata: metadata ?? {},
+          client_id: resolvedClientId,
+          created_at: new Date().toISOString(),
+        },
+      ]);
 
     if (error) {
+      console.error("KPI insert error:", error);
       return NextResponse.json(
-        { error: error.message },
+        { success: false, error: "Insert failed" },
         { status: 500 }
       );
     }
 
     return NextResponse.json({ success: true });
-  } catch (err: any) {
+  } catch (err) {
+    console.error("KPI route error:", err);
     return NextResponse.json(
-      { error: err.message || "Server error" },
+      { success: false, error: "Server error" },
       { status: 500 }
     );
   }
