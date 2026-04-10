@@ -1,5 +1,10 @@
 import { Level } from "./levels";
 
+/**
+ * 🔥 CRITICAL: Re-export Level so components can import from here
+ */
+export type { Level };
+
 export interface Offer {
   id: string;
   title: string;
