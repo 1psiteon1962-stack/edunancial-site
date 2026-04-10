@@ -6,19 +6,19 @@ import { redirect } from "next/navigation";
 export default async function AdminKpiPage() {
   const headersList = headers();
 
-  // Basic auth check (adjust later if needed)
+  // Basic auth check
   const authHeader = headersList.get("authorization");
   if (!authHeader) {
     redirect("/");
   }
 
-  // ✅ FIX: pass required argument to getSiteContext
+  // ✅ REQUIRED ARGUMENT PASSED (THIS IS THE FIX)
   const context = await getSiteContext({
     headers: headersList,
     supabase: supabaseAdmin,
   });
 
-  // Safe query fallback
+  // Query fallback
   const { data, error } = await supabaseAdmin
     .from("kpi_events")
     .select("*")
