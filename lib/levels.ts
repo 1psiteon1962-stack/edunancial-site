@@ -1,25 +1,16 @@
-export type Level = "starter" | "growth" | "enterprise";
+export type Level =
+  | "free"
+  | "starter"
+  | "builder"
+  | "operator"
+  | "owner"
+  | "investor";
 
-export interface LevelConfig {
-  id: Level;
-  title: string;
-  description: string;
-}
-
-export const EDUNANCIAL_LEVELS: LevelConfig[] = [
-  {
-    id: "starter",
-    title: "Starter",
-    description: "Foundation level",
-  },
-  {
-    id: "growth",
-    title: "Growth",
-    description: "Scaling level",
-  },
-  {
-    id: "enterprise",
-    title: "Enterprise",
-    description: "Advanced level",
-  },
+export const EDUNANCIAL_LEVELS: Level[] = [
+  "free",
+  "starter",
+  "builder",
+  "operator",
+  "owner",
+  "investor",
 ];
