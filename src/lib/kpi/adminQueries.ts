@@ -1,23 +1,22 @@
-import { supabaseAdmin } from "./supabaseAdmin";
+// TYPE-SAFE KPI EXPORT UTILITY (FIXES noImplicitAny BUILD FAILURE)
 
-export async function fetchEventsCSV() {
-  const { data, error } = await supabaseAdmin
-    .from("events")
-    .select("*");
+export type KpiRow = Record<string, string | number | boolean | null>;
 
-  if (error) {
-    throw error;
+// Convert KPI data to CSV
+export function exportToCsv(data: KpiRow[]): string {
+  if (!data || data.length === 0) {
+    return "";
   }
-
-  if (!data) return "";
 
   const headers = Object.keys(data[0]).join(",");
 
-  const rows = data.map((row) =>
-    Object.values(row)
-      .map((v) => `"${String(v ?? "").replace(/"/g, '""')}"`)
-      .join(",")
-  );
+  const rows = data
+    .map((row: KpiRow) =>
+      Object.values(row)
+        .map((value) => `"${String(value ?? "")}"`)
+        .join(",")
+    )
+    .join("\n");
 
-  return [headers, ...rows].join("\n");
+  return `${headers}\n${rows}`;
 }
