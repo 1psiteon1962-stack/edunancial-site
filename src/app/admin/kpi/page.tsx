@@ -6,19 +6,14 @@ import { redirect } from "next/navigation";
 export default async function AdminKpiPage() {
   const headersList = headers();
 
-  // Basic auth check
   const authHeader = headersList.get("authorization");
   if (!authHeader) {
     redirect("/");
   }
 
-  // ✅ REQUIRED ARGUMENT PASSED (THIS IS THE FIX)
-  const context = await getSiteContext({
-    headers: headersList,
-    supabase: supabaseAdmin,
-  });
+  // ✅ NOW SAFE — NO ARGUMENT REQUIRED
+  const context = await getSiteContext();
 
-  // Query fallback
   const { data, error } = await supabaseAdmin
     .from("kpi_events")
     .select("*")
@@ -33,7 +28,7 @@ export default async function AdminKpiPage() {
       <h1>Admin KPI Dashboard</h1>
 
       <p>
-        <strong>Region:</strong> {context?.region || "unknown"}
+        <strong>Region:</strong> {context.region}
       </p>
 
       <h2>Recent Events</h2>
