@@ -1,26 +1,18 @@
-type OptimizeOfferInput = {
+interface OptimizeOfferInput {
   priceUSD: number;
   region: string;
-};
+}
 
-export function optimizeOffer({ priceUSD, region }: OptimizeOfferInput) {
-  let multiplier = 1;
-
+export function optimizeOffer({ priceUSD, region }: OptimizeOfferInput): number {
   switch (region) {
-    case "AFRICA":
-      multiplier = 0.5;
-      break;
-    case "LATAM":
-      multiplier = 0.7;
-      break;
-    case "EU":
-      multiplier = 1.1;
-      break;
-    default:
-      multiplier = 1;
-  }
+    case "latam":
+      return Math.round(priceUSD * 0.7);
 
-  return {
-    finalPrice: Math.round(priceUSD * multiplier),
-  };
+    case "eu":
+      return Math.round(priceUSD * 0.9);
+
+    case "us":
+    default:
+      return priceUSD;
+  }
 }
