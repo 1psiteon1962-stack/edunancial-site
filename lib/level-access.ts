@@ -1,4 +1,4 @@
-import { Level } from "./levels";
+import { LevelId } from "./levels";
 
 export type LevelAccess = {
   canViewContent: boolean;
@@ -6,7 +6,7 @@ export type LevelAccess = {
   canJoinLiveSessions: boolean;
 };
 
-export const LEVEL_ACCESS: Record<Level, LevelAccess> = {
+export const LEVEL_ACCESS: Record<LevelId, LevelAccess> = {
   free: {
     canViewContent: true,
     canAccessTools: false,
