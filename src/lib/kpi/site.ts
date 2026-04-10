@@ -1,10 +1,27 @@
-export type SiteContext = {
+export interface SiteContext {
   region: string;
-};
+  client_id?: string;
+}
 
-// ✅ FIX: make parameter OPTIONAL so calls never fail
-export async function getSiteContext(_options?: any): Promise<SiteContext> {
-  return {
-    region: "US", // default fallback
-  };
+export async function getSiteContext(request?: Request): Promise<SiteContext> {
+  try {
+    let region = "us";
+
+    if (request) {
+      const headerRegion = request.headers.get("x-region");
+      if (headerRegion && headerRegion.trim() !== "") {
+        region = headerRegion.toLowerCase();
+      }
+    }
+
+    return {
+      region,
+      client_id: "default-client",
+    };
+  } catch {
+    return {
+      region: "us",
+      client_id: "default-client",
+    };
+  }
 }
