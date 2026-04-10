@@ -2,22 +2,37 @@
 
 import { useEffect, useState } from "react";
 
-// ✅ SIMPLE, SAFE REGION HOOK
+/**
+ * Returns a guaranteed region string for pricing + routing logic
+ * Never returns undefined (prevents TypeScript build failures)
+ */
 export function useRegion(): string {
-  const [region, setRegion] = useState<string>("US");
+  const [region, setRegion] = useState<string>("US"); // safe default
 
   useEffect(() => {
     try {
-      // Example: pull from browser or fallback
-      const locale = navigator.language || "en-US";
-
-      // Extract region (e.g., "en-US" → "US")
-      const parts = locale.split("-");
-      if (parts.length > 1) {
-        setRegion(parts[1].toUpperCase());
+      // Priority 1: environment override (for SSR / Netlify)
+      if (process.env.NEXT_PUBLIC_DEFAULT_REGION) {
+        setRegion(process.env.NEXT_PUBLIC_DEFAULT_REGION);
+        return;
       }
+
+      // Priority 2: browser locale
+      if (typeof navigator !== "undefined") {
+        const locale = navigator.language || "en-US";
+        const parts = locale.split("-");
+
+        if (parts.length > 1) {
+          setRegion(parts[1].toUpperCase());
+          return;
+        }
+      }
+
+      // Fallback
+      setRegion("US");
     } catch (err) {
-      console.error("Region detection failed:", err);
+      console.error("useRegion error:", err);
+      setRegion("US");
     }
   }, []);
 
