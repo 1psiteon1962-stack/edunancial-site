@@ -1,37 +1,23 @@
-export type KPIEvent = {
-  id: string
-  name: string
-  email?: string
-  createdAt: string
-  event?: string
-}
+import { supabaseAdmin } from "./supabaseAdmin";
 
-/**
- * Returns CSV string of KPI events
- * Replace with Airtable / DB later
- */
-export async function fetchEventsCSV(): Promise<string> {
-  const events: KPIEvent[] = [
-    {
-      id: "1",
-      name: "Test User",
-      email: "test@example.com",
-      createdAt: new Date().toISOString(),
-      event: "signup"
-    }
-  ]
+export async function fetchEventsCSV() {
+  const { data, error } = await supabaseAdmin
+    .from("events")
+    .select("*");
 
-  const headers = ["id", "name", "email", "createdAt", "event"]
+  if (error) {
+    throw error;
+  }
 
-  const rows = events.map(e =>
-    [
-      e.id,
-      e.name,
-      e.email ?? "",
-      e.createdAt,
-      e.event ?? ""
-    ].join(",")
-  )
+  if (!data) return "";
 
-  return [headers.join(","), ...rows].join("\n")
+  const headers = Object.keys(data[0]).join(",");
+
+  const rows = data.map((row) =>
+    Object.values(row)
+      .map((v) => `"${String(v ?? "").replace(/"/g, '""')}"`)
+      .join(",")
+  );
+
+  return [headers, ...rows].join("\n");
 }
