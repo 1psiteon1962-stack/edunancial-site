@@ -1,21 +1,11 @@
-export type Language = 'en' | 'es'
+export const languageLabels: Record<string, string> = {
+  en: "English",
+  es: "Español",
+  fr: "Français",
+};
 
-/**
- * Supported languages list
- */
-export const languages: Language[] = ['en', 'es']
+// ✅ REQUIRED EXPORT — fixes your Netlify error
+export const supportedLanguages: string[] = Object.keys(languageLabels);
 
-/**
- * Type guard to validate language param
- */
-export function isLanguage(value: string): value is Language {
-  return languages.includes(value as Language)
-}
-
-/**
- * Optional helper (safe default)
- */
-export function normalizeLanguage(value: string | undefined): Language {
-  if (!value) return 'en'
-  return isLanguage(value) ? value : 'en'
-}
+// Optional (safe typing if used elsewhere)
+export type Language = keyof typeof languageLabels;
