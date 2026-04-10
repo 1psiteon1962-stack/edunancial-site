@@ -1,10 +1,11 @@
-// lib/user-session.ts
+import { LevelId } from "./levels";
 
-import type { Level } from "./levels";
+/**
+ * Default level for unauthenticated users
+ * MUST match LevelId exactly (lowercase system)
+ */
+const DEFAULT_LEVEL: LevelId = "free";
 
-// TEMPORARY: default visitor level
-const DEFAULT_LEVEL: Level = "Foundation";
-
-export function getUserLevel(): Level {
+export function getUserLevel(): LevelId {
   return DEFAULT_LEVEL;
 }
