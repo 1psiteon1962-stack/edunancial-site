@@ -1,20 +1,27 @@
-// lib/pricing.ts
+import { LevelId } from "./levels";
 
-import type { Level } from "./levels";
-
-export function getPricingForLevel(level: Level): number {
+/**
+ * Centralized pricing logic aligned with LevelId
+ */
+export function getPricingForLevel(level: LevelId): number {
   switch (level) {
     case "free":
       return 0;
 
-    case "Foundation":
-      return 0;
-
-    case "Builder":
+    case "starter":
       return 9;
 
-    case "Visionary":
-      return 19;
+    case "builder":
+      return 29;
+
+    case "operator":
+      return 99;
+
+    case "owner":
+      return 299;
+
+    case "investor":
+      return 999;
 
     default:
       return 0;
