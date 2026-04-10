@@ -1,4 +1,4 @@
-export type Level = "starter" | "growth" | "enterprise";
+import { Level } from "./levels";
 
 export interface Offer {
   id: string;
@@ -9,28 +9,24 @@ export interface Offer {
 }
 
 export const LEVEL_OFFERS: Record<Level, Offer[]> = {
+  free: [],
   starter: [
     {
       id: "starter-1",
-      title: "Starter Pack",
-      description: "Basic tools to begin",
+      title: "Starter Access",
+      description: "Basic tools and education",
       priceUSD: 9,
     },
   ],
-  growth: [
+  builder: [
     {
-      id: "growth-1",
-      title: "Growth Pack",
-      description: "Scaling systems",
+      id: "builder-1",
+      title: "Builder Package",
+      description: "Advanced tools and systems",
       priceUSD: 29,
     },
   ],
-  enterprise: [
-    {
-      id: "enterprise-1",
-      title: "Enterprise Pack",
-      description: "Full access",
-      priceUSD: 99,
-    },
-  ],
+  operator: [],
+  owner: [],
+  investor: [],
 };
