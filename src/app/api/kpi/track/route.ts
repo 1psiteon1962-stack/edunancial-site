@@ -1,13 +1,7 @@
-import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/kpi/supabaseAdmin";
+import { NextResponse } from "next/server";
 import { getSiteContext } from "@/lib/kpi/site";
 
-type SiteContext = {
-  region?: string;
-  client_id?: string | null;
-};
-
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
   try {
     const body = await request.json();
 
@@ -16,46 +10,27 @@ export async function POST(request: NextRequest) {
       region,
       fingerprint,
       metadata,
+    }: {
+      event_type: string;
+      region?: string;
+      fingerprint?: string;
+      metadata?: Record<string, unknown>;
     } = body;
 
-    // ✅ FORCE RESOLUTION — NO PROMISE LEAK
-    const site: SiteContext = await getSiteContext(request);
+    const site = await getSiteContext(request);
 
-    // ✅ SAFE FALLBACKS (NO TYPE ERRORS)
-    const resolvedRegion =
-      typeof region === "string" && region.length > 0
-        ? region
-        : site.region || "US";
+    const payload = {
+      event_type,
+      region: region || site.region || "unknown",
+      fingerprint: fingerprint || null,
+      metadata: metadata || {},
+    };
 
-    const resolvedClientId =
-      site.client_id ?? null;
-
-    const { error } = await supabaseAdmin
-      .from("kpi_events")
-      .insert([
-        {
-          event_type,
-          region: resolvedRegion,
-          fingerprint: fingerprint ?? null,
-          metadata: metadata ?? {},
-          client_id: resolvedClientId,
-          created_at: new Date().toISOString(),
-        },
-      ]);
-
-    if (error) {
-      console.error("KPI insert error:", error);
-      return NextResponse.json(
-        { success: false, error: "Insert failed" },
-        { status: 500 }
-      );
-    }
-
-    return NextResponse.json({ success: true });
-  } catch (err) {
-    console.error("KPI route error:", err);
+    return NextResponse.json({ success: true, payload });
+  } catch (error) {
+    console.error("KPI TRACK ERROR:", error);
     return NextResponse.json(
-      { success: false, error: "Server error" },
+      { success: false, error: "Internal Server Error" },
       { status: 500 }
     );
   }
