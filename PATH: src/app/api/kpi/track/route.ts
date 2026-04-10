@@ -13,25 +13,36 @@ export async function POST(request: NextRequest) {
       metadata,
     } = body;
 
-    // ✅ FIX: Await the promise BEFORE using it
-    const site = await getSiteContext(request);
+    // ✅ STEP 1: resolve promise explicitly
+    const sitePromise = getSiteContext(request);
 
-    // ✅ Safe fallbacks
-    const resolvedRegion =
-      region || site?.region || "US";
+    // ✅ STEP 2: force await (no TS ambiguity)
+    const siteResolved = await sitePromise;
 
-    const resolvedClientId =
-      site?.client_id || null;
+    // ✅ STEP 3: extract values AFTER resolution
+    const siteRegion =
+      typeof siteResolved?.region === "string"
+        ? siteResolved.region
+        : "US";
+
+    const siteClientId =
+      siteResolved?.client_id ?? null;
+
+    // ✅ STEP 4: final safe values
+    const finalRegion =
+      typeof region === "string" && region.length > 0
+        ? region
+        : siteRegion;
 
     const { error } = await supabaseAdmin
       .from("kpi_events")
       .insert([
         {
           event_type,
-          region: resolvedRegion,
-          fingerprint: fingerprint || null,
-          metadata: metadata || {},
-          client_id: resolvedClientId,
+          region: finalRegion,
+          fingerprint: fingerprint ?? null,
+          metadata: metadata ?? {},
+          client_id: siteClientId,
           created_at: new Date().toISOString(),
         },
       ]);
