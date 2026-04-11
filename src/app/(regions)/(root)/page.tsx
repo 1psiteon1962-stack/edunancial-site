@@ -1,49 +1,50 @@
 import React from "react";
 
-type PageData = {
-  clientModules?: any[];
-};
+// 👉 adjust import if your path differs
+import { fetchHomepageData } from "@/lib/cms/fetchHomepageData";
 
-async function getRegionHome(): Promise<PageData | null> {
-  try {
-    const res = await fetch(process.env.CMS_HOME_ENDPOINT || "", {
-      cache: "no-store",
-    });
-
-    if (!res.ok) return null;
-
-    const data = await res.json();
-    return data;
-  } catch {
-    return null;
-  }
-}
-
-function PageBuilder({ modules }: { modules: any[] }) {
-  if (!modules.length) {
-    return (
-      <section style={{ padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
-        <h1>Edunancial</h1>
-        <p>Where Education and Financial Literacy Meet.</p>
-      </section>
-    );
-  }
-
+/**
+ * ✅ SAFE FALLBACK COMPONENT
+ */
+function FallbackHome() {
   return (
-    <main style={{ padding: "40px", maxWidth: "1000px", margin: "0 auto" }}>
-      {modules.map((module, i) => (
-        <section key={i}>
-          <pre>{JSON.stringify(module, null, 2)}</pre>
-        </section>
-      ))}
+    <main style={{ padding: "40px", textAlign: "center" }}>
+      <h1>Edunancial</h1>
+      <p>Content is loading. Please check back shortly.</p>
     </main>
   );
 }
 
-export default async function Page() {
-  const pageData = await getRegionHome();
+export default async function HomePage() {
+  let homepage: any = null;
 
-  const modules = pageData?.clientModules ?? [];
+  try {
+    homepage = await fetchHomepageData();
+  } catch (err) {
+    console.error("Homepage fetch failed:", err);
+  }
 
-  return <PageBuilder modules={modules} />;
+  /**
+   * ✅ CRITICAL FIX
+   * Prevents:
+   * Cannot read properties of undefined (reading 'clientModules')
+   */
+  if (!homepage || !homepage.clientModules) {
+    return <FallbackHome />;
+  }
+
+  const { clientModules } = homepage;
+
+  return (
+    <main>
+      {clientModules.map((mod: any, index: number) => {
+        // Basic safe rendering — adjust based on your module system
+        return (
+          <section key={index}>
+            <pre>{JSON.stringify(mod, null, 2)}</pre>
+          </section>
+        );
+      })}
+    </main>
+  );
 }
