@@ -1,11 +1,14 @@
-import path from 'path'
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config) => {
-    config.resolve.alias['@'] = path.resolve(process.cwd())
-    return config
-  }
-}
+  reactStrictMode: true,
 
-export default nextConfig
+  // ✅ IMPORTANT: REMOVE STATIC EXPORT MODE
+  // This allows Netlify to run SSR properly
+  output: "standalone",
+
+  experimental: {
+    appDir: true,
+  },
+};
+
+export default nextConfig;
