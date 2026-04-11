@@ -1,27 +1,15 @@
 import { supabaseAdmin } from "@/lib/kpi/supabaseAdmin";
-import { getSiteContext } from "@/lib/kpi/site";
-
-type SiteContext = {
-  site_id: string;
-  site_region: string;
-};
-
-type InsertableKPIEventRow = {
-  site_id: string;
-  site_region: string;
-  event_name: string;
-  event_type?: string; // ✅ aligned
-  metadata?: Record<string, unknown>;
-  created_at?: string;
-};
+import { getSiteContext, SiteContext } from "@/lib/site-context";
+import type { InsertableKPIEventRow } from "@/lib/kpi/types";
 
 type WriteEventInput = {
   event_name: string;
-  event_type?: string; // ✅ aligned
+  event_type?: string;
   metadata?: Record<string, unknown>;
 };
 
 export async function writeEvent(input: WriteEventInput) {
+  // ✅ FIX: unified SiteContext (no conflicting types anymore)
   const site: SiteContext = await getSiteContext();
 
   const row: InsertableKPIEventRow = {
@@ -29,8 +17,28 @@ export async function writeEvent(input: WriteEventInput) {
     site_region: site.site_region,
     event_name: input.event_name,
     event_type: input.event_type,
+
+    user_id: null,
+    session_id: null,
+
+    ip_hash: null,
+    user_agent: null,
+
+    path: null,
+    referrer: null,
+
+    utm_source: null,
+    utm_medium: null,
+    utm_campaign: null,
+    utm_term: null,
+    utm_content: null,
+
+    currency: null,
+    value: null,
+    sku: null,
+    order_id: null,
+
     metadata: input.metadata || {},
-    created_at: new Date().toISOString(),
   };
 
   const { error } = await supabaseAdmin
