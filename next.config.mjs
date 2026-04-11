@@ -2,12 +2,22 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // ✅ IMPORTANT: REMOVE STATIC EXPORT MODE
-  // This allows Netlify to run SSR properly
+  /**
+   * 🚨 CRITICAL: REMOVE STATIC EXPORT MODE
+   * This fixes the Netlify prerender crash
+   */
+  // output: 'export', ❌ DO NOT ADD THIS BACK
+
+  /**
+   * ✅ Ensure proper Next.js runtime on Netlify
+   */
   output: "standalone",
 
-  experimental: {
-    appDir: true,
+  /**
+   * ✅ Prevent image build issues
+   */
+  images: {
+    unoptimized: true,
   },
 };
 
