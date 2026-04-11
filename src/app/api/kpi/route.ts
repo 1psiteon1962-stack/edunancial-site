@@ -1,39 +1,35 @@
 import { NextResponse } from "next/server";
 import type { KPIEvent } from "@/lib/kpi/types";
-import { writeKPIEvent } from "@/lib/kpi/writeEvent";
+import { writeEvent as writeKPIEvent } from "@/lib/kpi/writeEvent"; // ✅ FIXED: alias to match existing export
 import { hashIP } from "@/lib/kpi/hash";
 
 export const runtime = "nodejs";
 
-function getClientIP(req: Request): string | null {
-  // Netlify / proxies typically set x-forwarded-for
-  const xff = req.headers.get("x-forwarded-for");
-  if (xff) return xff.split(",")[0]?.trim() || null;
-  return req.headers.get("x-real-ip");
-}
-
-export async function POST(req: Request) {
+export async function POST(request: Request) {
   try {
-    const body = (await req.json()) as KPIEvent;
+    const body = (await request.json()) as KPIEvent;
 
-    if (!body?.event_name) {
-      return NextResponse.json({ ok: false, error: "Missing event_name" }, { status: 400 });
-    }
+    const ip =
+      request.headers.get("x-forwarded-for") ||
+      request.headers.get("x-real-ip") ||
+      "";
 
-    const ip = getClientIP(req);
-    const ip_hash = hashIP(ip);
+    const fingerprint = hashIP(ip);
 
-    const user_agent = req.headers.get("user-agent");
-
-    await writeKPIEvent(body, {
-      ip_hash,
-      user_agent: user_agent || null,
+    await writeKPIEvent({
+      event_name: body.event_name,
+      event_type: body.event_type,
+      metadata: {
+        ...body.metadata,
+        fingerprint,
+      },
     });
 
-    return NextResponse.json({ ok: true });
-  } catch (err: any) {
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("KPI route error:", error);
     return NextResponse.json(
-      { ok: false, error: err?.message || "Unknown error" },
+      { success: false, error: "Failed to write KPI event" },
       { status: 500 }
     );
   }
