@@ -1,58 +1,53 @@
 import React from "react";
-import { getHomePage } from "@/lib/api/home";
+import { getRegion } from "@/lib/regions";
+import { defaultRegionSlug } from "@/lib/site-config";
 
-function FallbackHome() {
+function FallbackHome({
+  message = "Site is loading. Content will appear soon.",
+}: {
+  message?: string;
+}) {
   return (
     <main style={{ padding: "40px" }}>
       <h1>Edunancial</h1>
-      <p>Site is loading. Content not available yet.</p>
+      <p>{message}</p>
     </main>
   );
 }
 
 export default async function Page() {
   try {
-    const homePage = await getHomePage();
+    const region = getRegion(defaultRegionSlug);
 
-    /**
-     * 🚨 HARD STOP — NO DATA = NO CRASH
-     */
-    if (
-      !homePage ||
-      typeof homePage !== "object" ||
-      !homePage.data ||
-      !homePage.data.attributes
-    ) {
-      console.error("Homepage data missing or invalid:", homePage);
-      return <FallbackHome />;
+    if (!region) {
+      return (
+        <FallbackHome
+          message={`Default region "${defaultRegionSlug}" was not found.`}
+        />
+      );
     }
 
-    const attributes = homePage.data.attributes;
-
-    /**
-     * 🚨 SAFE ACCESS — NEVER DESTRUCTURE DIRECTLY
-     */
-    const clientModules = Array.isArray(attributes.clientModules)
-      ? attributes.clientModules
+    const clientModules = Array.isArray((region as any).clientModules)
+      ? (region as any).clientModules
       : [];
 
     return (
-      <main>
+      <main style={{ padding: "40px" }}>
         <h1>Edunancial</h1>
 
         {clientModules.length === 0 ? (
-          <p>No content modules yet.</p>
+          <p>No modules are configured for this region yet.</p>
         ) : (
-          clientModules.map((mod: any, idx: number) => (
-            <div key={idx}>
+          clientModules.map((mod: any, index: number) => (
+            <section key={index} style={{ marginBottom: "24px" }}>
               <pre>{JSON.stringify(mod, null, 2)}</pre>
-            </div>
+            </section>
           ))
         )}
       </main>
     );
   } catch (error) {
-    console.error("Homepage fatal error:", error);
-    return <FallbackHome />;
+    console.error("Home page render failed:", error);
+    return <FallbackHome message="Unexpected error loading home page." />;
   }
 }
