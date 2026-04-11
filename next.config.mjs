@@ -3,13 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 
   /**
-   * 🚨 FORCE NEXT.JS TO STOP STATIC EXPORT
+   * 🚨 CRITICAL: DO NOT USE STATIC EXPORT
    */
-  output: undefined,
+  // output: 'export',  ❌ REMOVE THIS IF IT EXISTS
 
-  /**
-   * ✅ Required for Netlify compatibility
-   */
   images: {
     unoptimized: true,
   },
