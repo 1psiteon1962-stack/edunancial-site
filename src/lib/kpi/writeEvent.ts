@@ -1,86 +1,47 @@
-import type { KPIEvent, InsertableKPIEventRow } from "./types";
-import { supabaseAdmin } from "./supabaseAdmin";
-import { getSiteContext } from "./site";
+import { supabaseAdmin } from "@/lib/kpi/supabaseAdmin";
+import { getSiteContext } from "@/lib/kpi/site";
 
-export type RequestContext = {
-  ip_hash: string | null;
-  user_agent: string | null;
+type SiteContext = {
+  site_id: string;
+  site_region: string;
 };
 
-function normalizeUtm(url: URL) {
-  const p = url.searchParams;
-  return {
-    utm_source: p.get("utm_source"),
-    utm_medium: p.get("utm_medium"),
-    utm_campaign: p.get("utm_campaign"),
-    utm_term: p.get("utm_term"),
-    utm_content: p.get("utm_content"),
-  };
-}
+type InsertableKPIEventRow = {
+  site_id: string;
+  site_region: string;
+  event_name: string;
+  event_type?: string;
+  metadata?: Record<string, unknown>;
+  created_at?: string;
+};
 
-export async function writeKPIEvent(input: KPIEvent, ctx: RequestContext) {
-  const site = getSiteContext();
+type WriteEventInput = {
+  event_name: string;
+  event_type?: string;
+  metadata?: Record<string, unknown>;
+};
 
-  const metadata = input.metadata ?? {};
-  const path = input.path ?? null;
-
-  // If path wasn’t supplied, attempt to infer from metadata.url if provided.
-  let inferredPath: string | null = path;
-  let utm = {
-    utm_source: input.utm_source ?? null,
-    utm_medium: input.utm_medium ?? null,
-    utm_campaign: input.utm_campaign ?? null,
-    utm_term: input.utm_term ?? null,
-    utm_content: input.utm_content ?? null,
-  };
-
-  if (!inferredPath && typeof metadata["url"] === "string") {
-    try {
-      const u = new URL(metadata["url"]);
-      inferredPath = u.pathname;
-      const fromUrl = normalizeUtm(u);
-      utm = {
-        utm_source: utm.utm_source ?? fromUrl.utm_source ?? null,
-        utm_medium: utm.utm_medium ?? fromUrl.utm_medium ?? null,
-        utm_campaign: utm.utm_campaign ?? fromUrl.utm_campaign ?? null,
-        utm_term: utm.utm_term ?? fromUrl.utm_term ?? null,
-        utm_content: utm.utm_content ?? fromUrl.utm_content ?? null,
-      };
-    } catch {
-      // ignore URL parse errors
-    }
-  }
+export async function writeEvent(input: WriteEventInput) {
+  // ✅ FIX: await the site context BEFORE accessing properties
+  const site: SiteContext = await getSiteContext();
 
   const row: InsertableKPIEventRow = {
     site_id: site.site_id,
     site_region: site.site_region,
     event_name: input.event_name,
-
-    user_id: input.user_id ?? null,
-    session_id: input.session_id ?? null,
-
-    ip_hash: ctx.ip_hash,
-    user_agent: ctx.user_agent,
-
-    path: inferredPath,
-    referrer: input.referrer ?? null,
-
-    utm_source: utm.utm_source,
-    utm_medium: utm.utm_medium,
-    utm_campaign: utm.utm_campaign,
-    utm_term: utm.utm_term,
-    utm_content: utm.utm_content,
-
-    currency: input.currency ?? null,
-    value: typeof input.value === "number" ? input.value : null,
-    sku: input.sku ?? null,
-    order_id: input.order_id ?? null,
-
-    metadata,
+    event_type: input.event_type,
+    metadata: input.metadata || {},
+    created_at: new Date().toISOString(),
   };
 
-  const { error } = await supabaseAdmin.from("kpi_events").insert(row);
+  const { error } = await supabaseAdmin
+    .from("kpi_events")
+    .insert([row]);
+
   if (error) {
-    throw new Error(`Failed to insert KPI event: ${error.message}`);
+    console.error("KPI write error:", error);
+    throw error;
   }
+
+  return { success: true };
 }
