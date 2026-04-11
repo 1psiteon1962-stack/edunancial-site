@@ -1,10 +1,12 @@
 import { supabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 
 export default async function AdminKpiPage() {
-  const { data, error } = await supabaseAdmin
+  // ✅ FIX: build query first, THEN await (no chaining after Promise)
+  const query = supabaseAdmin
     .from("kpi_events")
-    .select() // ✅ FIXED: removed "*"
-    .limit(50);
+    .select();
+
+  const { data, error } = await query;
 
   if (error) {
     return (
@@ -15,12 +17,15 @@ export default async function AdminKpiPage() {
     );
   }
 
+  // Optional: manually limit results (since mock client doesn't support .limit)
+  const limitedData = Array.isArray(data) ? data.slice(0, 50) : [];
+
   return (
     <div>
       <h1>KPI Dashboard</h1>
 
       <pre style={{ fontSize: "12px", overflow: "auto" }}>
-        {JSON.stringify(data, null, 2)}
+        {JSON.stringify(limitedData, null, 2)}
       </pre>
     </div>
   );
