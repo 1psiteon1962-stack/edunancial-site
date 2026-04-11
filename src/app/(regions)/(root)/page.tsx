@@ -1,34 +1,54 @@
 import React from "react";
-import { fetchHomepageData } from "@/lib/cms/fetchHomepageData";
+import { getHomePage } from "@/lib/api/home";
 
+/**
+ * ✅ SAFE FALLBACK UI
+ */
 function FallbackHome() {
   return (
     <main style={{ padding: "40px", textAlign: "center" }}>
       <h1>Edunancial</h1>
-      <p>Content is loading. Please check back shortly.</p>
+      <p>Content temporarily unavailable.</p>
     </main>
   );
 }
 
 export default async function HomePage() {
-  const homepage = await fetchHomepageData();
+  let homePage: any = null;
 
-  // ✅ GUARANTEED SAFE
-  if (!homepage || !homepage.clientModules) {
+  try {
+    homePage = await getHomePage();
+  } catch (err) {
+    console.error("Strapi fetch failed:", err);
+  }
+
+  /**
+   * ✅ CRITICAL FIX
+   * Prevents:
+   * Cannot read properties of undefined (reading 'clientModules')
+   */
+  if (!homePage || !homePage.data || !homePage.data.attributes) {
+    return <FallbackHome />;
+  }
+
+  const attributes = homePage.data.attributes;
+
+  const clientModules = attributes.clientModules || [];
+
+  /**
+   * ✅ FINAL SAFE RENDER
+   */
+  if (!clientModules || clientModules.length === 0) {
     return <FallbackHome />;
   }
 
   return (
     <main>
-      {homepage.clientModules.length === 0 ? (
-        <FallbackHome />
-      ) : (
-        homepage.clientModules.map((mod: any, index: number) => (
-          <section key={index}>
-            <pre>{JSON.stringify(mod, null, 2)}</pre>
-          </section>
-        ))
-      )}
+      {clientModules.map((mod: any, index: number) => (
+        <section key={index}>
+          <pre>{JSON.stringify(mod, null, 2)}</pre>
+        </section>
+      ))}
     </main>
   );
 }
