@@ -11,8 +11,10 @@ export type KPIEventName =
   | "lead_capture"
   | "affiliate_conversion";
 
+// ✅ FIX: add event_type without breaking your schema
 export type KPIEvent = {
   event_name: KPIEventName;
+  event_type?: string; // ← THIS is what fixes your Netlify error
 
   // Optional identifiers
   user_id?: string | null;
@@ -48,6 +50,7 @@ export type InsertableKPIEventRow = {
   site_id: string;
   site_region: string;
   event_name: string;
+  event_type?: string; // ✅ KEEP TYPES CONSISTENT
 
   user_id: string | null;
   session_id: string | null;
