@@ -1,87 +1,25 @@
-/**
- * ✅ SAFE CMS FETCH (STRAPI OR FUTURE CMS)
- * This file guarantees:
- * - No crashes during build
- * - Always returns a valid structure
- */
-
-type HomePageResponse = {
-  data?: {
-    attributes?: {
-      clientModules?: any[];
-      [key: string]: any;
-    };
-  };
-};
-
-export async function getHomePage(): Promise<HomePageResponse> {
+export async function getHomePage() {
   try {
-    const baseUrl = process.env.STRAPI_API_URL;
-    const token = process.env.STRAPI_API_TOKEN;
-
-    /**
-     * ✅ If env not set → return safe fallback
-     */
-    if (!baseUrl || !token) {
-      console.warn("Strapi env vars missing. Using fallback.");
-      return {
-        data: {
-          attributes: {
-            clientModules: [],
-          },
+    const res = await fetch(
+      process.env.STRAPI_API_URL + "/api/homepage?populate=*",
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`,
         },
-      };
-    }
+        cache: "no-store",
+      }
+    );
 
-    const res = await fetch(`${baseUrl}/api/homepage?populate=*`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      cache: "no-store",
-    });
-
-    /**
-     * ✅ If fetch fails → fallback
-     */
     if (!res.ok) {
       console.error("Strapi fetch failed:", res.status);
-      return {
-        data: {
-          attributes: {
-            clientModules: [],
-          },
-        },
-      };
+      return null;
     }
 
-    const json = await res.json();
+    const data = await res.json();
 
-    /**
-     * ✅ Final safety check
-     */
-    if (!json?.data?.attributes) {
-      return {
-        data: {
-          attributes: {
-            clientModules: [],
-          },
-        },
-      };
-    }
-
-    return json;
+    return data ?? null;
   } catch (err) {
-    console.error("Strapi error:", err);
-
-    /**
-     * ✅ HARD FAILSAFE
-     */
-    return {
-      data: {
-        attributes: {
-          clientModules: [],
-        },
-      },
-    };
+    console.error("CMS ERROR:", err);
+    return null;
   }
 }
