@@ -1,14 +1,11 @@
 import React from "react";
 import { getHomePage } from "@/lib/api/home";
 
-/**
- * 🚨 GUARANTEED SAFE FALLBACK
- */
 function FallbackHome() {
   return (
     <main style={{ padding: "40px" }}>
       <h1>Edunancial</h1>
-      <p>Site is loading. CMS data not available yet.</p>
+      <p>Site is loading. Content not available yet.</p>
     </main>
   );
 }
@@ -18,23 +15,22 @@ export default async function Page() {
     const homePage = await getHomePage();
 
     /**
-     * 🚨 HARD GUARD — NOTHING PASSES THIS WITHOUT VALID DATA
+     * 🚨 HARD STOP — NO DATA = NO CRASH
      */
     if (
       !homePage ||
       typeof homePage !== "object" ||
-      !("data" in homePage) ||
       !homePage.data ||
       !homePage.data.attributes
     ) {
-      console.error("Invalid homepage structure:", homePage);
+      console.error("Homepage data missing or invalid:", homePage);
       return <FallbackHome />;
     }
 
     const attributes = homePage.data.attributes;
 
     /**
-     * 🚨 SAFE ACCESS — NO DIRECT DESTRUCTURING
+     * 🚨 SAFE ACCESS — NEVER DESTRUCTURE DIRECTLY
      */
     const clientModules = Array.isArray(attributes.clientModules)
       ? attributes.clientModules
@@ -45,7 +41,7 @@ export default async function Page() {
         <h1>Edunancial</h1>
 
         {clientModules.length === 0 ? (
-          <p>No modules available.</p>
+          <p>No content modules yet.</p>
         ) : (
           clientModules.map((mod: any, idx: number) => (
             <div key={idx}>
@@ -56,9 +52,6 @@ export default async function Page() {
       </main>
     );
   } catch (error) {
-    /**
-     * 🚨 FINAL SAFETY NET — NOTHING CAN CRASH BUILD
-     */
     console.error("Homepage fatal error:", error);
     return <FallbackHome />;
   }
