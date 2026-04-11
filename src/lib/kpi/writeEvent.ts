@@ -10,19 +10,18 @@ type InsertableKPIEventRow = {
   site_id: string;
   site_region: string;
   event_name: string;
-  event_type?: string;
+  event_type?: string; // ✅ aligned
   metadata?: Record<string, unknown>;
   created_at?: string;
 };
 
 type WriteEventInput = {
   event_name: string;
-  event_type?: string;
+  event_type?: string; // ✅ aligned
   metadata?: Record<string, unknown>;
 };
 
 export async function writeEvent(input: WriteEventInput) {
-  // ✅ FIX: await the site context BEFORE accessing properties
   const site: SiteContext = await getSiteContext();
 
   const row: InsertableKPIEventRow = {
