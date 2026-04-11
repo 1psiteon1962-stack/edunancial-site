@@ -3,18 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
 
   /**
-   * 🚨 CRITICAL: REMOVE STATIC EXPORT MODE
-   * This fixes the Netlify prerender crash
+   * 🚨 FORCE NEXT.JS TO STOP STATIC EXPORT
    */
-  // output: 'export', ❌ DO NOT ADD THIS BACK
+  output: undefined,
 
   /**
-   * ✅ Ensure proper Next.js runtime on Netlify
-   */
-  output: "standalone",
-
-  /**
-   * ✅ Prevent image build issues
+   * ✅ Required for Netlify compatibility
    */
   images: {
     unoptimized: true,
