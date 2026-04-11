@@ -2,52 +2,51 @@ import React from "react";
 import { getHomePage } from "@/lib/api/home";
 
 /**
- * ✅ SAFE FALLBACK UI
+ * ✅ HARD FAILSAFE PAGE
+ * This guarantees:
+ * - Build NEVER crashes
+ * - Works with or without CMS
+ * - Works even if data = undefined
  */
-function FallbackHome() {
-  return (
-    <main style={{ padding: "40px", textAlign: "center" }}>
-      <h1>Edunancial</h1>
-      <p>Content temporarily unavailable.</p>
-    </main>
-  );
-}
 
 export default async function HomePage() {
-  let homePage: any = null;
+  let clientModules: any[] = [];
 
   try {
-    homePage = await getHomePage();
+    const homePage = await getHomePage();
+
+    /**
+     * ✅ SAFE EXTRACTION (NO CRASH POSSIBLE)
+     */
+    clientModules =
+      homePage?.data?.attributes?.clientModules ?? [];
+
   } catch (err) {
-    console.error("Strapi fetch failed:", err);
+    console.error("Homepage load error:", err);
   }
 
   /**
-   * ✅ CRITICAL FIX
-   * Prevents:
-   * Cannot read properties of undefined (reading 'clientModules')
+   * ✅ FALLBACK UI (ALWAYS RENDERS)
    */
-  if (!homePage || !homePage.data || !homePage.data.attributes) {
-    return <FallbackHome />;
+  if (!clientModules.length) {
+    return (
+      <main style={{ padding: "40px" }}>
+        <h1>Edunancial</h1>
+        <p>Platform is loading. Content will appear shortly.</p>
+      </main>
+    );
   }
-
-  const attributes = homePage.data.attributes;
-
-  const clientModules = attributes.clientModules || [];
 
   /**
-   * ✅ FINAL SAFE RENDER
+   * ✅ NORMAL RENDER (SAFE)
    */
-  if (!clientModules || clientModules.length === 0) {
-    return <FallbackHome />;
-  }
-
   return (
     <main>
-      {clientModules.map((mod: any, index: number) => (
-        <section key={index}>
+      {clientModules.map((mod, idx) => (
+        <div key={idx}>
+          {/* Replace with your real module renderer */}
           <pre>{JSON.stringify(mod, null, 2)}</pre>
-        </section>
+        </div>
       ))}
     </main>
   );
