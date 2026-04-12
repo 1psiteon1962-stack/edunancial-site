@@ -1,4 +1,3 @@
-export async function sendToAirtable(data: any) {
-  console.log("Airtable stub:", data);
+export function sendToAirtable(data: any) {
   return { success: true };
 }
