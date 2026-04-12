@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
-// ✅ FIX: use RELATIVE import to bypass alias resolution issues completely
-import { getSiteContext } from "../../../../../lib/kpi/site";
+// ✅ FINAL CORRECT PATH (4 levels up — EXACT)
+import { getSiteContext } from "../../../../lib/kpi/site";
 
 export const runtime = "nodejs";
 
