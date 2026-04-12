@@ -1,36 +1,23 @@
 import { NextResponse } from "next/server";
-import { getSiteContext } from "@/lib/kpi/site";
+
+// ✅ FIX: use RELATIVE import to bypass alias resolution issues completely
+import { getSiteContext } from "../../../../../lib/kpi/site";
+
+export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
+    const context = getSiteContext(request);
 
-    const {
-      event_type,
-      region,
-      fingerprint,
-      metadata,
-    }: {
-      event_type: string;
-      region?: string;
-      fingerprint?: string;
-      metadata?: Record<string, unknown>;
-    } = body;
-
-    const site = await getSiteContext(request);
-
-    const payload = {
-      event_type,
-      region: region || site.region || "unknown",
-      fingerprint: fingerprint || null,
-      metadata: metadata || {},
-    };
-
-    return NextResponse.json({ success: true, payload });
+    return NextResponse.json({
+      success: true,
+      context,
+    });
   } catch (error) {
     console.error("KPI TRACK ERROR:", error);
+
     return NextResponse.json(
-      { success: false, error: "Internal Server Error" },
+      { success: false },
       { status: 500 }
     );
   }
