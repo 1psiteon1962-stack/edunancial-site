@@ -1,44 +1,32 @@
 export interface Offer {
   id: string;
   title: string;
-  description: string;
-  priceUSD: number;
-  comingSoon?: boolean;
-}
-
-export interface OptimizeOfferOptions {
-  priceUSD: number;
-  region?: string;
+  price: number;
+  form?: string;
 }
 
 export interface OptimizedOffer {
-  finalPriceUSD: number;
-  discountApplied: boolean;
-  notes?: string;
+  id: string;
+  title: string;
+  price: number;
+  form: string;
+  formattedPrice: string;
 }
 
-export function optimizeOffer(
-  options: OptimizeOfferOptions
-): OptimizedOffer {
-  const { priceUSD, region } = options;
+export function optimizeOffer(offer: Offer, region?: string): OptimizedOffer {
+  const basePrice = offer.price ?? 0;
 
-  let finalPriceUSD = priceUSD;
-  let discountApplied = false;
-  let notes = "";
+  // simple regional adjustment (safe default)
+  let adjustedPrice = basePrice;
 
-  if (region === "africa" || region === "latin-america" || region === "latam") {
-    finalPriceUSD = Math.round(priceUSD * 0.7);
-    discountApplied = true;
-    notes = "Regional pricing adjustment applied";
-  }
-
-  if (finalPriceUSD < 1) {
-    finalPriceUSD = 1;
-  }
+  if (region === 'eu') adjustedPrice = basePrice * 1.1;
+  if (region === 'latam') adjustedPrice = basePrice * 0.9;
 
   return {
-    finalPriceUSD,
-    discountApplied,
-    notes,
+    id: offer.id,
+    title: offer.title,
+    price: adjustedPrice,
+    form: offer.form ?? 'standard',
+    formattedPrice: `$${adjustedPrice.toFixed(2)}`
   };
 }
