@@ -1,27 +1,34 @@
 export interface SiteContext {
-  region: string;
-  client_id?: string;
+  ip: string | null;
+  userAgent: string | null;
+  referer: string | null;
+  path: string | null;
 }
 
-export async function getSiteContext(request?: Request): Promise<SiteContext> {
+export function getSiteContext(request: Request): SiteContext {
+  const headers = request.headers;
+
+  const ip =
+    headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+    headers.get('x-real-ip') ||
+    null;
+
+  const userAgent = headers.get('user-agent');
+  const referer = headers.get('referer');
+
+  let path: string | null = null;
+
   try {
-    let region = "us";
-
-    if (request) {
-      const headerRegion = request.headers.get("x-region");
-      if (headerRegion && headerRegion.trim() !== "") {
-        region = headerRegion.toLowerCase();
-      }
-    }
-
-    return {
-      region,
-      client_id: "default-client",
-    };
+    const url = new URL(request.url);
+    path = url.pathname;
   } catch {
-    return {
-      region: "us",
-      client_id: "default-client",
-    };
+    path = null;
   }
+
+  return {
+    ip,
+    userAgent,
+    referer,
+    path,
+  };
 }
