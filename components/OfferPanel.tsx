@@ -1,43 +1,38 @@
-"use client";
+'use client';
 
-import { optimizeOffer } from "@/lib/offers";
-import { useRegion } from "@/lib/hooks/useRegion";
+import React from 'react';
+import { optimizeOffer } from '@/lib/offers';
+import { useRegion } from '@/lib/hooks/useRegion';
 
 interface Offer {
   id: string;
   title: string;
-  priceUSD: number;
+  price: number;
 }
 
-interface Props {
+interface OptimizedOffer {
+  price: number;
+  formattedPrice: string;
+}
+
+interface OfferPanelProps {
   offers: Offer[];
 }
 
-export default function OfferPanel({ offers }: Props) {
+export default function OfferPanel({ offers }: OfferPanelProps) {
   const region = useRegion();
-
-  // ✅ FORCE STRING — eliminates undefined
-  const safeRegion = region ?? "US";
 
   return (
     <div>
       {offers.map((offer) => {
-        const optimized = optimizeOffer({
-          priceUSD: offer.priceUSD,
-          region: safeRegion, // ✅ ALWAYS STRING
-        });
+        const optimized: OptimizedOffer = optimizeOffer(offer, region);
 
         return (
-          <div
-            key={offer.id}
-            style={{
-              border: "1px solid #ccc",
-              padding: "12px",
-              marginBottom: "10px",
-            }}
-          >
+          <div key={offer.id}>
             <h3>{offer.title}</h3>
-            <p>Price: ${optimized}</p>
+
+            {/* FIX: render a string/number, NOT the object */}
+            <p>Price: {optimized.formattedPrice ?? optimized.price}</p>
           </div>
         );
       })}
