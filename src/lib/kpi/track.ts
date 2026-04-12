@@ -1,23 +1,19 @@
-export type KPIEventName =
-  | "page_view"
-  | "signup_started"
-  | "signup_completed"
-  | "purchase_started"
-  | "purchase_completed";
+export interface KPITrackPayload {
+  event: string;
+  data?: Record<string, unknown>;
+}
 
-export async function trackKPI(eventName: KPIEventName) {
+export async function trackKPI(payload: KPITrackPayload): Promise<void> {
   try {
     await fetch("/api/kpi/track", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        event_type: eventName,
-      }),
+      body: JSON.stringify(payload),
     });
   } catch (error) {
-    // Silent fail for client tracking
-    console.error("KPI tracking error:", error);
+    // silent fail (do not break UI)
+    console.error("trackKPI error:", error);
   }
 }
