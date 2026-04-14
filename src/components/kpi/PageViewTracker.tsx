@@ -1,23 +1,18 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
-import { trackKPI } from "@/lib/kpi/client";
+import { trackKPI } from "@/lib/kpi/track";
 
 export default function PageViewTracker() {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
   useEffect(() => {
-    const qs = searchParams?.toString();
-    const url = qs ? `${pathname}?${qs}` : pathname;
-
-    trackKPI("page_view", {
-      path: pathname,
-      metadata: { url },
+    trackKPI({
+      event: "page_view",
+      data: {
+        timestamp: Date.now(),
+        path: window.location.pathname,
+      },
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname, searchParams]);
+  }, []);
 
   return null;
 }
