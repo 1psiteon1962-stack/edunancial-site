@@ -1,56 +1,60 @@
 // ===============================
-// SITE CONTEXT TYPES
+// SITE CONTEXT DETECTION
 // ===============================
+
 export type SiteContext = {
-  // ✅ REQUIRED FOR KPI SYSTEM / DATABASE
   site_id: string;
   site_region: string;
 
-  // ✅ REQUEST CONTEXT (YOUR ORIGINAL DATA)
   ip: string | null;
   userAgent: string | null;
-  referer: string | null;
+
   path: string | null;
+  referer: string | null;
 };
 
 // ===============================
-// GET SITE CONTEXT FROM REQUEST
+// MAIN FUNCTION (USED BY KPI ROUTES)
 // ===============================
 export function getSiteContext(request: Request): SiteContext {
   const headers = request.headers;
 
-  // ✅ IP RESOLUTION (NETLIFY / PROXY SAFE)
+  // 🌍 IP detection (Netlify / proxies)
   const ip =
     headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
     headers.get("x-real-ip") ||
     null;
 
-  // ✅ BASIC HEADERS
-  const userAgent = headers.get("user-agent") || null;
-  const referer = headers.get("referer") || null;
+  // 🧠 User agent
+  const userAgent = headers.get("user-agent");
 
-  // ✅ PATH EXTRACTION
-  let path: string | null = null;
+  // 🔗 URL parsing
+  const url = new URL(request.url);
 
-  try {
-    const url = new URL(request.url);
-    path = url.pathname;
-  } catch {
-    path = null;
-  }
+  const path = url.pathname;
+  const referer = headers.get("referer");
 
-  // ===============================
-  // RETURN FULL CONTEXT
-  // ===============================
+  // 🌎 REGION DETECTION (simple for now, scalable later)
+  const host = headers.get("host") || "";
+
+  let site_region = "US";
+
+  if (host.includes("africa")) site_region = "AFRICA";
+  else if (host.includes("latam")) site_region = "LATAM";
+  else if (host.includes("eu")) site_region = "EU";
+  else if (host.includes("asia")) site_region = "ASIA";
+
+  // 🧩 SITE ID (you can later map per domain)
+  const site_id = "edunancial-main";
+
   return {
-    // 🔒 REQUIRED (DO NOT REMOVE)
-    site_id: "edunancial",
-    site_region: "us",
+    site_id,
+    site_region,
 
-    // 🔒 TRACKING DATA
     ip,
     userAgent,
-    referer,
+
     path,
+    referer,
   };
 }
