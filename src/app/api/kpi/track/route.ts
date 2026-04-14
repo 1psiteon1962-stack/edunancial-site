@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import type { KPIEvent } from "@/lib/kpi/types";
-import { writeEvent } from "@/lib/kpi/writeEvent";
-import { hashIP } from "@/lib/kpi/hash";
-import { getSiteContext } from "@/lib/kpi/site";
+import type { KPIEvent } from "../../../../lib/kpi/types";
+import { writeEvent } from "../../../../lib/kpi/writeEvent";
+import { hashIP } from "../../../../lib/kpi/hash";
+import { getSiteContext } from "../../../../lib/kpi/site";
 
 export const runtime = "nodejs";
 
@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     const body: KPIEvent = await request.json();
     const context = getSiteContext(request);
 
-    const ipHash = context.ip ? await hashIP(context.ip) : null;
+    const ipHash = context.ip ? hashIP(context.ip) : null;
 
     const row = {
       site_id: context.site_id,
