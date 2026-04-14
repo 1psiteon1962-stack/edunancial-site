@@ -42,14 +42,6 @@ export type KPIEvent = {
 };
 
 // ===============================
-// SITE CONTEXT (USED IN INSERT)
-// ===============================
-export type SiteContext = {
-  site_id: string;
-  site_region: string;
-};
-
-// ===============================
 // DATABASE INSERT TYPE (CRITICAL)
 // ===============================
 export type InsertableKPIEventRow = {
