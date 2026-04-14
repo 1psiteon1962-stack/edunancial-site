@@ -1,19 +1,18 @@
-export interface KPITrackPayload {
-  event: string;
-  data?: Record<string, unknown>;
-}
+import type { KPIEvent } from "./types";
 
-export async function trackKPI(payload: KPITrackPayload): Promise<void> {
+export async function trackKPI(event: KPIEvent) {
   try {
     await fetch("/api/kpi/track", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(payload),
+      body: JSON.stringify({
+        ...event,
+        timestamp: Date.now(),
+      }),
     });
-  } catch (error) {
-    // silent fail (do not break UI)
-    console.error("trackKPI error:", error);
+  } catch (err) {
+    console.error("KPI tracking failed:", err);
   }
 }
