@@ -4,10 +4,14 @@ import PageViewTracker from "@/components/kpi/PageViewTracker";
 
 export const metadata: Metadata = {
   title: "Edunancial",
-  description: "Where Education and Financial Literacy Meet",
+  description: "Global financial literacy platform",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
