@@ -1,3 +1,6 @@
+// ===============================
+// KPI EVENT NAMES
+// ===============================
 export type KPIEventName =
   | "page_view"
   | "cta_click"
@@ -11,46 +14,50 @@ export type KPIEventName =
   | "lead_capture"
   | "affiliate_conversion";
 
-// ✅ FIX: add event_type without breaking your schema
+// ===============================
+// KPI EVENT (INPUT TYPE)
+// ===============================
 export type KPIEvent = {
   event_name: KPIEventName;
-  event_type?: string; // ← THIS is what fixes your Netlify error
+  event_type?: string;
 
-  // Optional identifiers
   user_id?: string | null;
   session_id?: string | null;
 
-  // URL context
   path?: string | null;
   referrer?: string | null;
 
-  // Attribution
   utm_source?: string | null;
   utm_medium?: string | null;
   utm_campaign?: string | null;
   utm_term?: string | null;
   utm_content?: string | null;
 
-  // Commerce
   currency?: string | null;
   value?: number | null;
   sku?: string | null;
   order_id?: string | null;
 
-  // Freeform
   metadata?: Record<string, unknown>;
 };
 
+// ===============================
+// SITE CONTEXT (USED IN INSERT)
+// ===============================
 export type SiteContext = {
   site_id: string;
   site_region: string;
 };
 
+// ===============================
+// DATABASE INSERT TYPE (CRITICAL)
+// ===============================
 export type InsertableKPIEventRow = {
   site_id: string;
   site_region: string;
+
   event_name: string;
-  event_type?: string; // ✅ KEEP TYPES CONSISTENT
+  event_type?: string;
 
   user_id: string | null;
   session_id: string | null;
