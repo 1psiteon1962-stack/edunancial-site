@@ -15,7 +15,7 @@ export type KPIEventName =
   | "affiliate_conversion";
 
 // ===============================
-// KPI EVENT (INPUT TYPE)
+// KPI EVENT (INPUT FROM CLIENT)
 // ===============================
 export type KPIEvent = {
   event_name: KPIEventName;
@@ -42,14 +42,14 @@ export type KPIEvent = {
 };
 
 // ===============================
-// DATABASE INSERT TYPE (CRITICAL)
+// DATABASE INSERT TYPE (THIS IS THE FIX)
 // ===============================
 export type InsertableKPIEventRow = {
   site_id: string;
   site_region: string;
 
   event_name: string;
-  event_type?: string;
+  event_type: string | null;
 
   user_id: string | null;
   session_id: string | null;
