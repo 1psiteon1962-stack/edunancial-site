@@ -6,17 +6,10 @@ import { getSiteContext } from "@/lib/kpi/site";
 
 export const runtime = "nodejs";
 
-export async function POST(req: Request) {
+export async function POST(request: Request) {
   try {
-    const body: KPIEvent = await req.json();
-    const context = getSiteContext(req);
-
-    const ip =
-      req.headers.get("x-forwarded-for") ||
-      req.headers.get("x-real-ip") ||
-      "0.0.0.0";
-
-    const ip_hash = await hashIP(ip);
+    const body: KPIEvent = await request.json();
+    const context = getSiteContext(request);
 
     const row: InsertableKPIEventRow = {
       site_id: context.site_id,
@@ -28,11 +21,11 @@ export async function POST(req: Request) {
       user_id: body.user_id ?? null,
       session_id: body.session_id ?? null,
 
-      ip_hash,
-      user_agent: context.userAgent ?? null,
+      ip_hash: context.ip ? hashIP(context.ip) : null,
+      user_agent: context.userAgent,
 
-      path: body.path ?? context.path ?? null,
-      referrer: body.referrer ?? null,
+      path: context.path,
+      referrer: context.referer,
 
       utm_source: body.utm_source ?? null,
       utm_medium: body.utm_medium ?? null,
@@ -52,7 +45,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("KPI ERROR:", error);
+    console.error("KPI TRACK ERROR:", error);
     return NextResponse.json({ success: false }, { status: 500 });
   }
 }
