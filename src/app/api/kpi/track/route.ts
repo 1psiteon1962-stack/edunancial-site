@@ -22,10 +22,10 @@ export async function POST(request: Request) {
       session_id: body.session_id ?? null,
 
       ip_hash: context.ip ? hashIP(context.ip) : null,
-      user_agent: context.userAgent,
+      user_agent: context.userAgent ?? null,
 
-      path: context.path,
-      referrer: context.referer,
+      path: context.path ?? null,
+      referrer: context.referer ?? null,
 
       utm_source: body.utm_source ?? null,
       utm_medium: body.utm_medium ?? null,
