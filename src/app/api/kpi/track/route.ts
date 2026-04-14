@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import type { KPIEvent, InsertableKPIEventRow } from "@/lib/kpi/types";
+import type { KPIEvent } from "@/lib/kpi/types";
 import { writeEvent } from "@/lib/kpi/writeEvent";
 import { hashIP } from "@/lib/kpi/hash";
 import { getSiteContext } from "@/lib/kpi/site";
@@ -11,7 +11,9 @@ export async function POST(request: Request) {
     const body: KPIEvent = await request.json();
     const context = getSiteContext(request);
 
-    const row: InsertableKPIEventRow = {
+    const ipHash = context.ip ? await hashIP(context.ip) : null;
+
+    const row = {
       site_id: context.site_id,
       site_region: context.site_region,
 
@@ -21,11 +23,11 @@ export async function POST(request: Request) {
       user_id: body.user_id ?? null,
       session_id: body.session_id ?? null,
 
-      ip_hash: context.ip ? hashIP(context.ip) : null,
+      ip_hash: ipHash,
       user_agent: context.userAgent ?? null,
 
-      path: context.path ?? null,
-      referrer: context.referer ?? null,
+      path: body.path ?? context.path ?? null,
+      referrer: body.referrer ?? context.referer ?? null,
 
       utm_source: body.utm_source ?? null,
       utm_medium: body.utm_medium ?? null,
@@ -46,6 +48,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("KPI TRACK ERROR:", error);
-    return NextResponse.json({ success: false }, { status: 500 });
+
+    return NextResponse.json(
+      { success: false },
+      { status: 500 }
+    );
   }
 }
