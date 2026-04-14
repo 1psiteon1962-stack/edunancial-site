@@ -6,11 +6,13 @@ import { trackKPI } from "@/lib/kpi/track";
 export default function PageViewTracker() {
   useEffect(() => {
     trackKPI({
-      event: "page_view",
-      data: {
-        timestamp: Date.now(),
-        path: window.location.pathname,
-      },
+      event_name: "page_view", // ✅ matches your union type
+      event_type: "auto",
+
+      path: window.location.pathname,
+      referrer: document.referrer || null,
+
+      metadata: {},
     });
   }, []);
 
