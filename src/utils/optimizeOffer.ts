@@ -1,8 +1,8 @@
 import { Offer, OptimizedOffer } from "@/types/offers";
 
 /**
- * ✅ MUST return OptimizedOffer
- * ❌ NEVER return number
+ * 🔒 HARD LOCK:
+ * This function MUST return OptimizedOffer
  */
 export function optimizeOffer(offer: Offer): OptimizedOffer {
   const discount = offer.discount ?? 0;
@@ -11,7 +11,11 @@ export function optimizeOffer(offer: Offer): OptimizedOffer {
   const finalPrice = offer.price - savings;
 
   return {
-    ...offer,
+    id: offer.id,
+    title: offer.title,
+    price: offer.price,
+    discount: offer.discount ?? null,
+
     savings,
     finalPrice,
   };
