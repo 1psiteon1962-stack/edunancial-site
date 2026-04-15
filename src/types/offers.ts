@@ -10,7 +10,6 @@ export interface OptimizedOffer {
   title: string;
   price: number;
   discount?: number | null;
-
   savings: number;
   finalPrice: number;
 }
