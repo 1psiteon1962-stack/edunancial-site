@@ -1,5 +1,9 @@
 import { Offer, OptimizedOffer } from "@/types/offers";
 
+/**
+ * ✅ MUST return OptimizedOffer
+ * ❌ NEVER return number
+ */
 export function optimizeOffer(offer: Offer): OptimizedOffer {
   const discount = offer.discount ?? 0;
 
