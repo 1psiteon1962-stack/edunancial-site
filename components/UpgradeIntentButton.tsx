@@ -1,32 +1,28 @@
 "use client";
 
-import { recordUpgradeIntent } from "@/lib/upgrade-intent";
+import { recordUpgradeIntent } from "@/lib/kpi/upgradeIntent";
 
-interface Props {
+interface UpgradeIntentButtonProps {
   region: string;
   level: string;
 }
 
-export default function UpgradeIntentButton({ region, level }: Props) {
+export default function UpgradeIntentButton({
+  region,
+  level,
+}: UpgradeIntentButtonProps) {
   async function handleClick() {
-    const result = await recordUpgradeIntent(region, {
+    const result = await recordUpgradeIntent({
+      region,
       level,
       source: "button",
     });
 
-    if (result.success) {
-      console.log("Upgrade intent recorded");
-    }
+    console.log("Upgrade intent recorded:", result);
   }
 
   return (
-    <button
-      onClick={handleClick}
-      style={{
-        padding: "0.75rem 1.25rem",
-        cursor: "pointer",
-      }}
-    >
+    <button type="button" onClick={handleClick}>
       Upgrade
     </button>
   );
