@@ -1,11 +1,7 @@
 "use client";
 
 import { Offer } from "@/types/offers";
-
-/**
- * 🚨 FORCE DIRECT FILE PATH (NO ALIAS CONFUSION)
- */
-import { optimizeOffer } from "../utils/optimizeOffer";
+import { optimizeOffer } from "@/utils/optimizeOffer";
 
 interface Props {
   offers: Offer[];
@@ -16,8 +12,8 @@ export default function OfferPanel({ offers }: Props) {
     <div>
       {offers.map((offer) => {
         /**
-         * 🚨 REMOVE EXPLICIT TYPE — LET TS INFER
-         * This eliminates ANY mismatch during build
+         * 🚨 CRITICAL FIX
+         * REMOVE the explicit type annotation that is causing the failure
          */
         const optimized = optimizeOffer(offer);
 
@@ -40,4 +36,4 @@ export default function OfferPanel({ offers }: Props) {
       })}
     </div>
   );
-}           
+}
