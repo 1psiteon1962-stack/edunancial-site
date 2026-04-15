@@ -7,12 +7,9 @@ export async function trackKPI(event: KPIEvent) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        ...event,
-        timestamp: Date.now(),
-      }),
+      body: JSON.stringify(event),
     });
-  } catch (err) {
-    console.error("KPI tracking failed:", err);
+  } catch (error) {
+    console.error("trackKPI error:", error);
   }
 }
