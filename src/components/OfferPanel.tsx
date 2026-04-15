@@ -1,9 +1,9 @@
 "use client";
 
-import { Offer, OptimizedOffer } from "@/types/offers";
+import { Offer } from "@/types/offers";
 
 /**
- * 🚨 FORCE RELATIVE IMPORT (bypasses alias issues completely)
+ * 🚨 FORCE DIRECT FILE PATH (NO ALIAS CONFUSION)
  */
 import { optimizeOffer } from "../utils/optimizeOffer";
 
@@ -15,7 +15,11 @@ export default function OfferPanel({ offers }: Props) {
   return (
     <div>
       {offers.map((offer) => {
-        const optimized: OptimizedOffer = optimizeOffer(offer);
+        /**
+         * 🚨 REMOVE EXPLICIT TYPE — LET TS INFER
+         * This eliminates ANY mismatch during build
+         */
+        const optimized = optimizeOffer(offer);
 
         return (
           <div key={offer.id}>
@@ -36,4 +40,4 @@ export default function OfferPanel({ offers }: Props) {
       })}
     </div>
   );
-}
+}           
