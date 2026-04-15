@@ -24,7 +24,9 @@ export default function OfferPanel({ offers }: Props) {
             <p>Savings: ${optimized.savings.toFixed(2)}</p>
 
             <p>
-              <strong>Final Price: ${optimized.finalPrice.toFixed(2)}</strong>
+              <strong>
+                Final Price: ${optimized.finalPrice.toFixed(2)}
+              </strong>
             </p>
           </div>
         );
