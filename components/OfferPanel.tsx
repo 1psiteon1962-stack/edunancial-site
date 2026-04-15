@@ -1,38 +1,35 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { optimizeOffer } from '@/lib/offers';
-import { useRegion } from '@/lib/hooks/useRegion';
+import { Offer, OptimizedOffer } from "@/types/offers";
+import { optimizeOffer } from "@/utils/optimizeOffer";
 
-interface Offer {
-  id: string;
-  title: string;
-  price: number;
-}
-
-interface OptimizedOffer {
-  price: number;
-  formattedPrice: string;
-}
-
-interface OfferPanelProps {
+interface Props {
   offers: Offer[];
 }
 
-export default function OfferPanel({ offers }: OfferPanelProps) {
-  const region = useRegion();
-
+export default function OfferPanel({ offers }: Props) {
   return (
     <div>
       {offers.map((offer) => {
-        const optimized: OptimizedOffer = optimizeOffer(offer, region);
+        /**
+         * ✅ NOW THIS IS VALID — NO TYPE ERROR
+         */
+        const optimized: OptimizedOffer = optimizeOffer(offer);
 
         return (
           <div key={offer.id}>
-            <h3>{offer.title}</h3>
+            <h3>{optimized.title}</h3>
 
-            {/* FIX: render a string/number, NOT the object */}
-            <p>Price: {optimized.formattedPrice ?? optimized.price}</p>
+            <p>Original: ${optimized.price}</p>
+            <p>Discount: {optimized.discount ?? 0}%</p>
+
+            <p>Savings: ${optimized.savings.toFixed(2)}</p>
+
+            <p>
+              <strong>
+                Final: ${optimized.finalPrice.toFixed(2)}
+              </strong>
+            </p>
           </div>
         );
       })}
