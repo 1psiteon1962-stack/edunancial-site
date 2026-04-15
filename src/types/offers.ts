@@ -5,7 +5,12 @@ export interface Offer {
   discount?: number | null;
 }
 
-export interface OptimizedOffer extends Offer {
+export interface OptimizedOffer {
+  id: string;
+  title: string;
+  price: number;
+  discount?: number | null;
+
   savings: number;
   finalPrice: number;
 }
