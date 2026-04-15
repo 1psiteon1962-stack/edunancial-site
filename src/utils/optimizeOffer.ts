@@ -1,8 +1,8 @@
 import { Offer, OptimizedOffer } from "@/types/offers";
 
 /**
- * 🚨 HARD OVERRIDE
- * This guarantees the return type is NEVER a number
+ * 🚨 HARD FIX
+ * This guarantees optimizeOffer NEVER returns a number
  */
 export function optimizeOffer(offer: Offer): OptimizedOffer {
   const discount = offer.discount ?? 0;
@@ -10,7 +10,7 @@ export function optimizeOffer(offer: Offer): OptimizedOffer {
   const savings = (offer.price * discount) / 100;
   const finalPrice = offer.price - savings;
 
-  const result: OptimizedOffer = {
+  return {
     id: offer.id,
     title: offer.title,
     price: offer.price,
@@ -18,6 +18,4 @@ export function optimizeOffer(offer: Offer): OptimizedOffer {
     savings,
     finalPrice,
   };
-
-  return result;
 }
