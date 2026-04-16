@@ -1,10 +1,5 @@
 "use client";
 
-/**
- * 🔥 CRITICAL FIX
- * REMOVE "@/..." COMPLETELY
- * USE RELATIVE PATH ONLY
- */
 import { recordUpgradeIntent } from "../lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
