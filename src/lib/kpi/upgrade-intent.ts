@@ -8,7 +8,7 @@ export async function recordUpgradeIntent(
   payload: UpgradeIntentPayload
 ): Promise<{ success: boolean }> {
   try {
-    const response = await fetch("/api/kpi/upgrade-intent", {
+    const res = await fetch("/api/kpi/upgrade-intent", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -16,13 +16,9 @@ export async function recordUpgradeIntent(
       body: JSON.stringify(payload),
     });
 
-    if (!response.ok) {
-      throw new Error("Failed request");
-    }
-
-    return { success: true };
-  } catch (err) {
-    console.error(err);
+    return { success: res.ok };
+  } catch (error) {
+    console.error(error);
     return { success: false };
   }
 }
