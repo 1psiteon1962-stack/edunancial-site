@@ -1,10 +1,6 @@
 "use client";
 
-/**
- * FINAL — CORRECT IMPORT
- * USE ROOT-RELATIVE PATH FROM PROJECT
- */
-import { recordUpgradeIntent } from "src/lib/kpi/upgradeIntent";
+import { recordUpgradeIntent } from "../src/lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
   region: string;
