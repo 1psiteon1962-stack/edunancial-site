@@ -18,7 +18,7 @@ export async function recordUpgradeIntent(
 
     return { success: res.ok };
   } catch (error) {
-    console.error(error);
+    console.error("Upgrade intent error:", error);
     return { success: false };
   }
 }
