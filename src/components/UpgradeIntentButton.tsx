@@ -1,6 +1,6 @@
 "use client";
 
-import { recordUpgradeIntent } from "../lib/kpi/upgradeIntent";
+import { recordUpgradeIntent } from "@/lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
   region: string;
@@ -18,7 +18,7 @@ export default function UpgradeIntentButton({
       source: "button",
     });
 
-    console.log(result);
+    console.log("Upgrade intent result:", result);
   }
 
   return (
