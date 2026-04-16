@@ -1,13 +1,20 @@
 "use client";
 
-import { recordUpgradeIntent } from "@/lib/kpi/upgradeIntent";
+/**
+ * 🚨 CRITICAL FIX
+ * RELATIVE IMPORT — removes ALL alias issues on Netlify
+ */
+import { recordUpgradeIntent } from "../../lib/kpi/upgradeIntent";
 
-interface Props {
+interface UpgradeIntentButtonProps {
   region: string;
   level: string;
 }
 
-export default function UpgradeIntentButton({ region, level }: Props) {
+export default function UpgradeIntentButton({
+  region,
+  level,
+}: UpgradeIntentButtonProps) {
   async function handleClick() {
     const result = await recordUpgradeIntent({
       region,
@@ -15,8 +22,12 @@ export default function UpgradeIntentButton({ region, level }: Props) {
       source: "button",
     });
 
-    console.log("Upgrade intent recorded:", result);
+    console.log(result);
   }
 
-  return <button onClick={handleClick}>Upgrade</button>;
+  return (
+    <button type="button" onClick={handleClick}>
+      Upgrade
+    </button>
+  );
 }
