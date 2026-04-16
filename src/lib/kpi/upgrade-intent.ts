@@ -1,23 +1,13 @@
-/**
- * Types for upgrade intent tracking
- */
 export interface UpgradeIntentPayload {
   region: string;
   level: string;
   source?: string;
 }
 
-/**
- * ✅ FINAL IMPLEMENTATION
- * Matches what your component expects
- */
 export async function recordUpgradeIntent(
   payload: UpgradeIntentPayload
 ): Promise<{ success: boolean }> {
   try {
-    /**
-     * You can replace this with your real API endpoint later
-     */
     const response = await fetch("/api/kpi/upgrade-intent", {
       method: "POST",
       headers: {
@@ -27,12 +17,12 @@ export async function recordUpgradeIntent(
     });
 
     if (!response.ok) {
-      throw new Error("Failed to record upgrade intent");
+      throw new Error("Failed request");
     }
 
     return { success: true };
-  } catch (error) {
-    console.error("Upgrade intent error:", error);
+  } catch (err) {
+    console.error(err);
     return { success: false };
   }
 }
