@@ -1,9 +1,9 @@
 "use client";
 
 /**
- * 🚨 FINAL FIX
- * DO NOT USE @/ alias — Netlify is failing to resolve it
- * Use RELATIVE PATH ONLY
+ * 🔥 CRITICAL FIX
+ * REMOVE "@/..." COMPLETELY
+ * USE RELATIVE PATH ONLY
  */
 import { recordUpgradeIntent } from "../lib/kpi/upgradeIntent";
 
