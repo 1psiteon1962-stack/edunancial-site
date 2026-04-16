@@ -1,10 +1,11 @@
 "use client";
 
 /**
- * 🚨 CRITICAL FIX
- * RELATIVE IMPORT — removes ALL alias issues on Netlify
+ * 🚨 FINAL FIX
+ * DO NOT USE @/ alias — Netlify is failing to resolve it
+ * Use RELATIVE PATH ONLY
  */
-import { recordUpgradeIntent } from "../../lib/kpi/upgradeIntent";
+import { recordUpgradeIntent } from "../lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
   region: string;
