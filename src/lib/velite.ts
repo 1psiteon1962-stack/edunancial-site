@@ -1,13 +1,14 @@
-export async function getRootPage() {
+export interface RootPageData {
+  title: string;
+  description: string;
+}
+
+export async function getRootPage(): Promise<RootPageData> {
+  // 🔒 HARD SAFE FALLBACK (NO CMS / NO GENERATOR REQUIRED)
+
   return {
-    title: 'Edunancial',
-    body: {
-      code: `
-        <section style="padding:40px;">
-          <h1>Edunancial</h1>
-          <p>Your site is live and rendering fallback content.</p>
-        </section>
-      `,
-    },
-  }
+    title: "Edunancial",
+    description:
+      "Where Education and Financial Literacy Meet. We Are America in Action.",
+  };
 }
