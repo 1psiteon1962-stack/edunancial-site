@@ -4,11 +4,15 @@ export interface UpgradeIntentPayload {
   source?: string;
 }
 
+export interface UpgradeIntentResponse {
+  success: boolean;
+}
+
 export async function recordUpgradeIntent(
   payload: UpgradeIntentPayload
-): Promise<{ success: boolean }> {
+): Promise<UpgradeIntentResponse> {
   try {
-    const res = await fetch("/api/kpi/upgrade-intent", {
+    const response = await fetch("/api/kpi/upgrade-intent", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -16,9 +20,13 @@ export async function recordUpgradeIntent(
       body: JSON.stringify(payload),
     });
 
-    return { success: res.ok };
+    return {
+      success: response.ok,
+    };
   } catch (error) {
-    console.error("Upgrade intent error:", error);
-    return { success: false };
+    console.error("recordUpgradeIntent error:", error);
+    return {
+      success: false,
+    };
   }
 }
