@@ -1,6 +1,6 @@
 "use client";
 
-import { recordUpgradeIntent } from "../src/lib/kpi/upgradeIntent";
+import { recordUpgradeIntent } from "@/lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
   region: string;
@@ -12,17 +12,19 @@ export default function UpgradeIntentButton({
   level,
 }: UpgradeIntentButtonProps) {
   async function handleClick() {
-    const result = await recordUpgradeIntent({
-      region,
-      level,
-      source: "button",
-    });
-
-    console.log("Upgrade intent result:", result);
+    try {
+      await recordUpgradeIntent({
+        region,
+        level,
+        source: "button",
+      });
+    } catch (err) {
+      console.error("Upgrade intent failed", err);
+    }
   }
 
   return (
-    <button type="button" onClick={handleClick}>
+    <button onClick={handleClick}>
       Upgrade
     </button>
   );
