@@ -1,6 +1,6 @@
 "use client";
 
-import { recordUpgradeIntent } from "@/lib/kpi/upgradeIntent";
+import { recordUpgradeIntent } from "../lib/kpi/upgradeIntent";
 
 interface UpgradeIntentButtonProps {
   region: string;
