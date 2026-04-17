@@ -9,7 +9,7 @@ export type Region =
   | "europe"
   | "asia";
 
-// 🌐 LANGUAGES (THIS WAS MISSING)
+// 🌐 LANGUAGES
 export type Language =
   | "en"
   | "es"
@@ -17,11 +17,14 @@ export type Language =
   | "pt"
   | "ar";
 
-// ✅ DEFAULTS (MATCH WHAT OTHER FILES EXPECT)
+// ✅ DEFAULTS (FULLY ALIGNED WITH ALL IMPORTS)
 export const DEFAULT = {
   region: "us" as Region,
   language: "en" as Language,
 };
 
-// (OPTIONAL BUT SAFE — keeps backward compatibility)
+// ✅ REQUIRED BY content-resolver.ts (THIS WAS MISSING)
+export const DEFAULT_LANGUAGE: Language = "en";
+
+// (KEEP FOR SAFETY — OTHER FILES MAY USE IT)
 export const DEFAULT_REGION: Region = "us";
