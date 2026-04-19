@@ -4,7 +4,7 @@ import PageViewTracker from "@/components/kpi/PageViewTracker";
 
 export const metadata: Metadata = {
   title: "Edunancial",
-  description: "Global financial literacy platform",
+  description: "Financial education platform",
 };
 
 export default function RootLayout({
