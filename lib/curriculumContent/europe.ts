@@ -2,56 +2,58 @@
 
 import { RegionCurriculumContent } from "@/lib/types/curriculum";
 
+/**
+ * Europe Curriculum Content
+ * Structured by language using RegionCurriculumContent type
+ */
 export const europeCurriculumContent: RegionCurriculumContent = {
   en: {
-    title: "European Business & Investment Curriculum",
-    description:
-      "A multi-jurisdiction curriculum designed for EU markets, cross-border trade, and regulatory awareness.",
-    curriculum: [
+    sections: [
       {
-        title: "Level Thinking in Europe",
+        title: "Financial Systems in Europe",
         description:
-          "Understand how business scaling works inside complex EU legal and tax structures.",
-        href: "/levels/level-1",
+          "Learn how European financial systems operate across different countries, including banking, taxation, and regulatory frameworks."
       },
       {
-        title: "Cross-Border Compliance",
+        title: "Business Formation and Compliance",
         description:
-          "Learn the basics of VAT, EU consumer law, and international digital commerce rules.",
-        href: "/levels/level-2",
+          "Understand how to start and maintain a business in Europe, including legal structures, compliance obligations, and reporting requirements."
       },
       {
-        title: "Capital & Banking Reality",
+        title: "Investment and Capital Markets",
         description:
-          "Why financing is harder in parts of Europe — and how founders structure around it.",
-        href: "/levels/level-3",
+          "Explore European stock markets, investment vehicles, and strategies used across the EU and neighboring economies."
       },
-    ],
+      {
+        title: "Cross-Border Trade",
+        description:
+          "Learn how goods and services move across European borders, including customs, VAT, and trade agreements."
+      }
+    ]
   },
 
   es: {
-    title: "Currículo Europeo de Negocios e Inversión",
-    description:
-      "Un currículo diseñado para mercados de la UE, comercio transfronterizo y conciencia regulatoria.",
-    curriculum: [
+    sections: [
       {
-        title: "Pensamiento por Niveles en Europa",
+        title: "Sistemas Financieros en Europa",
         description:
-          "Comprende cómo funciona el crecimiento empresarial dentro de estructuras legales y fiscales complejas.",
-        href: "/levels/level-1",
+          "Aprende cómo funcionan los sistemas financieros en Europa, incluyendo bancos, impuestos y regulaciones."
       },
       {
-        title: "Cumplimiento Transfronterizo",
+        title: "Formación de Empresas y Cumplimiento",
         description:
-          "Aprende lo básico sobre IVA, leyes de consumidores de la UE y comercio digital internacional.",
-        href: "/levels/level-2",
+          "Entiende cómo crear y mantener una empresa en Europa, incluyendo estructuras legales y requisitos regulatorios."
       },
       {
-        title: "Capital y Realidad Bancaria",
+        title: "Inversiones y Mercados de Capital",
         description:
-          "Por qué el financiamiento puede ser más difícil — y cómo estructuran los fundadores.",
-        href: "/levels/level-3",
+          "Explora los mercados bursátiles europeos, vehículos de inversión y estrategias utilizadas en la región."
       },
-    ],
-  },
+      {
+        title: "Comercio Transfronterizo",
+        description:
+          "Aprende cómo se mueven bienes y servicios entre países europeos, incluyendo aduanas e IVA."
+      }
+    ]
+  }
 };
