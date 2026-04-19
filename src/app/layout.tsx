@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-/**
- * FINAL FIX:
- * Use RELATIVE PATH based on YOUR actual structure
- */
 import PageViewTracker from "../components/kpi/PageViewTracker";
 
 export const metadata: Metadata = {
