@@ -11,24 +11,17 @@ export default function OfferPanel({ offers }: Props) {
   return (
     <div>
       {offers.map((offer) => {
-        /**
-         * ✅ NOW THIS IS VALID — NO TYPE ERROR
-         */
         const optimized: OptimizedOffer = optimizeOffer(offer);
 
         return (
           <div key={offer.id}>
-            <h3>{optimized.title}</h3>
+            <h2>{optimized.title}</h2>
 
-            <p>Original: ${optimized.price}</p>
-            <p>Discount: {optimized.discount ?? 0}%</p>
-
-            <p>Savings: ${optimized.savings.toFixed(2)}</p>
+            {optimized.description && <p>{optimized.description}</p>}
 
             <p>
-              <strong>
-                Final: ${optimized.finalPrice.toFixed(2)}
-              </strong>
+              Price: ${optimized.finalPrice.toFixed(2)}
+              {optimized.discountApplied && " (Discount Applied)"}
             </p>
           </div>
         );
