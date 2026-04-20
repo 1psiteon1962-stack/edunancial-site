@@ -1,6 +1,6 @@
 // app/(regions)/(root)/page.tsx
 
-import { getRootPageData } from "../../lib/content-resolver";
+import { getRootPageData } from "../../../src/lib/content-resolver";
 
 export default async function Page() {
   const page = await getRootPageData();
