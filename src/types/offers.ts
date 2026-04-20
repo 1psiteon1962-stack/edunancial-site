@@ -27,7 +27,13 @@ export interface OptimizedOffer {
   finalPrice: number;
 
   /**
-   * MUST exist here because OfferPanel uses it
+   * Optional description (used in UI)
    */
   description?: string;
+
+  /**
+   * Indicates whether a discount was applied
+   * REQUIRED by OfferPanel usage
+   */
+  discountApplied?: boolean;
 }
