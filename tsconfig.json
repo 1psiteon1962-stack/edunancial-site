@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -14,21 +14,16 @@
     "jsx": "preserve",
     "incremental": true,
 
-    // ✅ CRITICAL FIX
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
-    },
-
-    "plugins": [
-      { "name": "next" }
-    ]
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
-    ".next/types/**/*.ts",
+    "src/**/*",
     "**/*.ts",
     "**/*.tsx"
   ],
   "exclude": ["node_modules"]
-}
+} 
