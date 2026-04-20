@@ -1,30 +1,22 @@
 // app/(regions)/(root)/page.tsx
 
-import { getRootPage } from "@/lib/velite";
+import { getRootPageData } from "@/lib/content-resolver";
 
-interface PageData {
-  title: string;
-  description?: string; // ✅ make optional so build never breaks
-  body: {
-    code: string;
-  };
-}
+/**
+ * We REMOVE the incorrect PageData typing
+ * and let TypeScript infer the correct return type (RootPageData)
+ */
 
 export default async function Page() {
-  const page: PageData = await getRootPage();
+  const page = await getRootPageData();
 
   return (
     <main>
       <h1>{page.title}</h1>
 
-      {/* ✅ SAFE RENDER — no crash if missing */}
-      {page.description && <p>{page.description}</p>}
-
-      {/* Optional body rendering */}
-      {page.body?.code && (
-        <div
-          dangerouslySetInnerHTML={{ __html: page.body.code }}
-        />
+      {/* Safely render body ONLY if it exists */}
+      {"body" in page && page.body?.code && (
+        <div>{page.body.code}</div>
       )}
     </main>
   );
