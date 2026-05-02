@@ -1,17 +1,22 @@
-// CENTRAL LANGUAGE CONFIG — FULLY COMPATIBLE WITH ALL CURRENT IMPORTS
+// src/lib/i18n/languages.ts
 
-export const languageLabels: Record<string, string> = {
-  en: "English",
-  es: "Español",
-  fr: "Français",
+export type SupportedLanguage = "en" | "es";
+
+export type SupportedLanguageConfig = {
+  code: SupportedLanguage;
+  label: string;
+  nativeLabel: string;
 };
 
-// REQUIRED EXPORTS (fixes ALL current errors)
-export const supportedLanguages: string[] = Object.keys(languageLabels);
-
-export type Language = keyof typeof languageLabels;
-
-// ✅ THIS IS THE MISSING PIECE CAUSING YOUR CURRENT FAILURE
-export function isLanguage(value: string): value is Language {
-  return value in languageLabels;
-}
+export const supportedLanguages: SupportedLanguageConfig[] = [
+  {
+    code: "en",
+    label: "English",
+    nativeLabel: "English",
+  },
+  {
+    code: "es",
+    label: "Spanish",
+    nativeLabel: "Español",
+  },
+];
