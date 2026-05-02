@@ -4,7 +4,6 @@ import { RegionCurriculumContent } from "@/lib/types/curriculum";
 
 /**
  * Europe Curriculum Content
- * Structured by language using RegionCurriculumContent type
  */
 export const europeCurriculumContent: RegionCurriculumContent = {
   en: {
@@ -12,47 +11,46 @@ export const europeCurriculumContent: RegionCurriculumContent = {
       {
         title: "Financial Systems in Europe",
         description:
-          "Learn how European financial systems operate across different countries, including banking, taxation, and regulatory frameworks."
+          "Learn how European financial systems operate across different countries, including banking, taxation, capital access, and regulatory frameworks."
       },
       {
         title: "Business Formation and Compliance",
         description:
-          "Understand how to start and maintain a business in Europe, including legal structures, compliance obligations, and reporting requirements."
+          "Understand how to form and maintain a business in Europe, including entity selection, compliance duties, reporting obligations, and cross-border considerations."
       },
       {
         title: "Investment and Capital Markets",
         description:
-          "Explore European stock markets, investment vehicles, and strategies used across the EU and neighboring economies."
+          "Explore European investment markets, business funding options, securities concepts, and capital growth strategies."
       },
       {
-        title: "Cross-Border Trade",
+        title: "Cross-Border Trade and Expansion",
         description:
-          "Learn how goods and services move across European borders, including customs, VAT, and trade agreements."
+          "Learn how businesses expand across European borders, including VAT, customs, banking, logistics, and regional market entry."
       }
     ]
   },
-
   es: {
     sections: [
       {
         title: "Sistemas Financieros en Europa",
         description:
-          "Aprende cómo funcionan los sistemas financieros en Europa, incluyendo bancos, impuestos y regulaciones."
+          "Aprende cómo funcionan los sistemas financieros europeos, incluyendo bancos, impuestos, acceso a capital y regulaciones."
       },
       {
         title: "Formación de Empresas y Cumplimiento",
         description:
-          "Entiende cómo crear y mantener una empresa en Europa, incluyendo estructuras legales y requisitos regulatorios."
+          "Entiende cómo formar y mantener una empresa en Europa, incluyendo selección de entidad, cumplimiento, reportes y consideraciones transfronterizas."
       },
       {
         title: "Inversiones y Mercados de Capital",
         description:
-          "Explora los mercados bursátiles europeos, vehículos de inversión y estrategias utilizadas en la región."
+          "Explora los mercados de inversión europeos, opciones de financiamiento, conceptos de valores y estrategias de crecimiento de capital."
       },
       {
-        title: "Comercio Transfronterizo",
+        title: "Comercio Transfronterizo y Expansión",
         description:
-          "Aprende cómo se mueven bienes y servicios entre países europeos, incluyendo aduanas e IVA."
+          "Aprende cómo las empresas se expanden entre países europeos, incluyendo IVA, aduanas, banca, logística y entrada a nuevos mercados."
       }
     ]
   }
