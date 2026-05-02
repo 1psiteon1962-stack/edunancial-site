@@ -1,3 +1,5 @@
+// src/lib/pricing/loadPricing.ts
+
 export type PricingPlan = {
   id: string;
   name: string;
@@ -7,7 +9,6 @@ export type PricingPlan = {
 };
 
 export async function loadPricing(): Promise<PricingPlan[]> {
-  // Temporary fallback data so build succeeds
   return [
     {
       id: "basic",
