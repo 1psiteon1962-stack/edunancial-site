@@ -1,6 +1,6 @@
 // src/app/page.tsx
 
-import { loadPricing } from "@/lib/pricing/loadPricing";
+import { loadPricing } from "../lib/pricing/loadPricing";
 
 export default async function HomePage() {
   const pricing = await loadPricing();
@@ -8,7 +8,22 @@ export default async function HomePage() {
   return (
     <main>
       <h1>Edunancial</h1>
-      <pre>{JSON.stringify(pricing, null, 2)}</pre>
+
+      <section>
+        {pricing.map((plan) => (
+          <div key={plan.id}>
+            <h2>{plan.name}</h2>
+            <p>
+              {plan.currency} ${plan.price}
+            </p>
+            <ul>
+              {plan.features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
     </main>
   );
 }
