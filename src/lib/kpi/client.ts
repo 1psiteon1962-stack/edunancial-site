@@ -1,49 +1,26 @@
-export type KPIEventName =
-  | "page_view"
-  | "cta_click"
-  | "purchase_start"
-  | "purchase_complete"
-  | "lead_submit";
+// src/lib/kpi/client.ts
 
-export interface KPIClientPayload {
-  event_name: KPIEventName;
-  path?: string;
-  referrer?: string;
-  metadata?: Record<string, any>;
-}
+export type KPIEventPayload = {
+  event: string;
+  label?: string;
+  value?: number;
+  metadata?: Record<string, unknown>;
+};
 
-export async function trackKPI(
-  eventName: KPIEventName,
-  payload?: Omit<KPIClientPayload, "event_name">
-) {
+export async function trackKPI(payload: KPIEventPayload): Promise<void> {
   try {
-    const safeWindow =
-      typeof window !== "undefined" ? window : undefined;
-
-    const safeDocument =
-      typeof document !== "undefined" ? document : undefined;
-
-    const finalPayload: KPIClientPayload = {
-      event_name: eventName,
-      path:
-        payload?.path ??
-        (safeWindow ? safeWindow.location.pathname : ""),
-      referrer:
-        payload?.referrer ??
-        (safeDocument ? safeDocument.referrer : ""),
-      metadata: {
-        ...(payload?.metadata ?? {})
-      }
-    };
+    if (typeof window === "undefined") {
+      return;
+    }
 
     await fetch("/api/kpi/track", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(finalPayload)
+      body: JSON.stringify(payload),
     });
-  } catch (err) {
-    console.error("KPI client error:", err);
+  } catch (error) {
+    console.warn("KPI tracking failed:", error);
   }
 }
