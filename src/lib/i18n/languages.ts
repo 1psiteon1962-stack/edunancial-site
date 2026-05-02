@@ -1,14 +1,19 @@
 // src/lib/i18n/languages.ts
 
-export type SupportedLanguage =
-  | "en"
-  | "es"
-  | "ko"
-  | "ja"
-  | "tl"
-  | "ar"
-  | "pt"
-  | "fr";
+export const languages = [
+  "en",
+  "es",
+  "ko",
+  "ja",
+  "tl",
+  "ar",
+  "pt",
+  "fr",
+] as const;
+
+export type SupportedLanguage = (typeof languages)[number];
+
+export type Language = SupportedLanguage;
 
 export type SupportedLanguageConfig = {
   code: SupportedLanguage;
@@ -58,3 +63,7 @@ export const supportedLanguages: SupportedLanguageConfig[] = [
     nativeLabel: "Français",
   },
 ];
+
+export function isLanguage(value: string): value is Language {
+  return languages.includes(value as Language);
+}
