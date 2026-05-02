@@ -1,21 +1,22 @@
-import { Offer, OptimizedOffer } from "@/types/offers";
+// src/utils/optimizeOffer.ts
 
-/**
- * ✅ FINAL FIX
- * This MUST return OptimizedOffer — NOT number
- */
+import { Offer, OptimizedOffer } from "../types/offers";
+
 export function optimizeOffer(offer: Offer): OptimizedOffer {
-  const discount = offer.discount ?? 0;
+  const originalPrice = offer.price ?? offer.basePrice ?? 0;
 
-  const savings = (offer.price * discount) / 100;
-  const finalPrice = offer.price - savings;
+  const discount = originalPrice >= 100 ? 10 : 0;
+  const savings = originalPrice * (discount / 100);
+  const finalPrice = originalPrice - savings;
 
   return {
     id: offer.id,
     title: offer.title,
-    price: offer.price,
-    discount: offer.discount ?? null,
-    savings,
+    price: originalPrice,
     finalPrice,
+    discount,
+    savings,
+    description: offer.description,
+    discountApplied: discount > 0,
   };
 }
