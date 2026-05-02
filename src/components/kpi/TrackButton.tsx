@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { trackKPI } from "@/lib/kpi/client";
+import { trackKPI } from "../../lib/kpi/client";
 
 type TrackButtonProps = {
   children: ReactNode;
