@@ -1,18 +1,17 @@
 // lib/types/curriculum.ts
 
-import { Language } from "../core";
+export type CurriculumLanguage = "en" | "es";
 
-// ✅ STRUCTURE USED BY europe.ts AND OTHER REGIONS
-export type CurriculumSection = {
+export interface CurriculumSection {
   title: string;
   description: string;
-};
+}
 
-export type CurriculumContent = {
+export interface CurriculumLanguageContent {
   sections: CurriculumSection[];
-};
+}
 
-// ✅ REGION-LEVEL CONTENT (MULTI-LANGUAGE)
 export type RegionCurriculumContent = {
-  [key in Language]?: CurriculumContent;
+  en: CurriculumLanguageContent;
+  es: CurriculumLanguageContent;
 };
