@@ -1,81 +1,58 @@
-export type ContractCategory =
-  | "terms_of_service"
-  | "non_redistribution"
-  | "licensing_restrictions"
-  | "education_license"
-  | "partner_agreement";
+// src/lib/contracts/contractTypes.ts
+
+export type ContractTemplateKey =
+  | "termsOfUse"
+  | "privacyPolicy"
+  | "subscriptionAgreement"
+  | "revenueShareAgreement"
+  | "generalServiceAgreement";
 
 export type ContractTemplate = {
-  id: string;
-  category: ContractCategory;
+  key: ContractTemplateKey;
   title: string;
-  description: string;
-  requiredForAccess: boolean;
-  regions: string[];
-  languages: string[];
   version: string;
-  autoAttachToProducts: boolean;
+  effectiveDate: string;
+  body: string;
 };
 
-export const CONTRACT_TEMPLATES: ContractTemplate[] = [
-  {
-    id: "tos_global_v1",
-    category: "terms_of_service",
-    title: "Global Terms of Service",
-    description:
-      "Base agreement required for access to Edunancial services and digital infrastructure.",
-    requiredForAccess: true,
-    regions: ["global"],
-    languages: ["en", "es", "fr"],
-    version: "1.0",
-    autoAttachToProducts: true
+export const CONTRACT_TEMPLATES: Record<ContractTemplateKey, ContractTemplate> = {
+  termsOfUse: {
+    key: "termsOfUse",
+    title: "Terms of Use",
+    version: "1.0.0",
+    effectiveDate: "2026-05-02",
+    body: "These Terms of Use govern access to and use of the Edunancial platform.",
   },
-  {
-    id: "non_redistribution_v1",
-    category: "non_redistribution",
-    title: "Non-Redistribution Agreement",
-    description:
-      "Users may not redistribute, repackage, resell, or publicly share Edunancial course material, frameworks, models, or systems.",
-    requiredForAccess: true,
-    regions: ["global"],
-    languages: ["en", "es", "fr"],
-    version: "1.0",
-    autoAttachToProducts: true
+
+  privacyPolicy: {
+    key: "privacyPolicy",
+    title: "Privacy Policy",
+    version: "1.0.0",
+    effectiveDate: "2026-05-02",
+    body: "This Privacy Policy describes how Edunancial collects, uses, stores, and protects information.",
   },
-  {
-    id: "licensing_framework_v1",
-    category: "licensing_restrictions",
-    title: "Platform Licensing Restrictions",
-    description:
-      "Defines limits on republishing or licensing Edunancial intellectual frameworks or models without written permission.",
-    requiredForAccess: true,
-    regions: ["global"],
-    languages: ["en", "es", "fr"],
-    version: "1.0",
-    autoAttachToProducts: true
+
+  subscriptionAgreement: {
+    key: "subscriptionAgreement",
+    title: "Subscription Agreement",
+    version: "1.0.0",
+    effectiveDate: "2026-05-02",
+    body: "This Subscription Agreement governs paid access to Edunancial products and services.",
   },
-  {
-    id: "education_license_v1",
-    category: "education_license",
-    title: "Education Program License",
-    description:
-      "Allows individuals or institutions to use Edunancial educational programs under defined licensing terms.",
-    requiredForAccess: false,
-    regions: ["global"],
-    languages: ["en", "es", "fr"],
-    version: "1.0",
-    autoAttachToProducts: true
+
+  revenueShareAgreement: {
+    key: "revenueShareAgreement",
+    title: "Revenue Share Agreement",
+    version: "1.0.0",
+    effectiveDate: "2026-05-02",
+    body: "This Revenue Share Agreement outlines participation, revenue allocation, and payment terms.",
   },
-  {
-    id: "partner_agreement_v1",
-    category: "partner_agreement",
-    title: "Partner Distribution Agreement",
-    description:
-      "Agreement used when partners distribute Edunancial education systems or operate affiliated learning programs.",
-    requiredForAccess: false,
-    regions: ["global"],
-    languages: ["en", "es", "fr"],
-    version: "1.0",
-    autoAttachToProducts: false
-  }
-];
+
+  generalServiceAgreement: {
+    key: "generalServiceAgreement",
+    title: "General Service Agreement",
+    version: "1.0.0",
+    effectiveDate: "2026-05-02",
+    body: "This General Service Agreement governs general services provided through the Edunancial platform.",
+  },
+};
