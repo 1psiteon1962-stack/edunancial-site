@@ -1,6 +1,4 @@
-// src/app/contracts/page.tsx
-
-import { CONTRACT_TEMPLATES } from "../../lib/contracts/contractTypes";
+import { CONTRACT_TEMPLATES } from "@/lib/contracts/contractTypes";
 
 export default function ContractsPage() {
   const contracts = Object.values(CONTRACT_TEMPLATES);
