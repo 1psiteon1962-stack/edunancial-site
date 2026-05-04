@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-import PageViewTracker from "../components/kpi/PageViewTracker";
+import PageViewTracker from "@/components/kpi/PageViewTracker";
 
 export const metadata: Metadata = {
   title: "Edunancial",
