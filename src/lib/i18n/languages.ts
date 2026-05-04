@@ -1,5 +1,3 @@
-// src/lib/i18n/languages.ts
-
 export const languages = [
   "en",
   "es",
@@ -22,46 +20,14 @@ export type SupportedLanguageConfig = {
 };
 
 export const supportedLanguages: SupportedLanguageConfig[] = [
-  {
-    code: "en",
-    label: "English",
-    nativeLabel: "English",
-  },
-  {
-    code: "es",
-    label: "Spanish",
-    nativeLabel: "Español",
-  },
-  {
-    code: "ko",
-    label: "Korean",
-    nativeLabel: "한국어",
-  },
-  {
-    code: "ja",
-    label: "Japanese",
-    nativeLabel: "日本語",
-  },
-  {
-    code: "tl",
-    label: "Tagalog",
-    nativeLabel: "Tagalog",
-  },
-  {
-    code: "ar",
-    label: "Arabic",
-    nativeLabel: "العربية",
-  },
-  {
-    code: "pt",
-    label: "Portuguese",
-    nativeLabel: "Português",
-  },
-  {
-    code: "fr",
-    label: "French",
-    nativeLabel: "Français",
-  },
+  { code: "en", label: "English", nativeLabel: "English" },
+  { code: "es", label: "Spanish", nativeLabel: "Español" },
+  { code: "ko", label: "Korean", nativeLabel: "한국어" },
+  { code: "ja", label: "Japanese", nativeLabel: "日本語" },
+  { code: "tl", label: "Tagalog", nativeLabel: "Tagalog" },
+  { code: "ar", label: "Arabic", nativeLabel: "العربية" },
+  { code: "pt", label: "Portuguese", nativeLabel: "Português" },
+  { code: "fr", label: "French", nativeLabel: "Français" },
 ];
 
 export function isLanguage(value: string): value is Language {
