@@ -1,14 +1,16 @@
 "use client";
 
 import { useEffect } from "react";
+import { trackKPI } from "@/lib/kpi/client";
 
 export default function PageViewTracker() {
   useEffect(() => {
-    try {
-      console.log("Page view:", window.location.pathname);
-    } catch (err) {
-      console.warn("Tracking error:", err);
-    }
+    trackKPI({
+      event: "page_view",
+      metadata: {
+        path: window.location.pathname,
+      },
+    });
   }, []);
 
   return null;
