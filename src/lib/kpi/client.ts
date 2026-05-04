@@ -1,5 +1,3 @@
-// src/lib/kpi/client.ts
-
 export type KPIEventPayload = {
   event: string;
   label?: string;
@@ -9,9 +7,7 @@ export type KPIEventPayload = {
 
 export async function trackKPI(payload: KPIEventPayload): Promise<void> {
   try {
-    if (typeof window === "undefined") {
-      return;
-    }
+    if (typeof window === "undefined") return;
 
     await fetch("/api/kpi/track", {
       method: "POST",
