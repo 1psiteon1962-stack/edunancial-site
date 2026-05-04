@@ -1,5 +1,3 @@
-// src/types/offers.ts
-
 export interface Offer {
   id: string;
   title: string;
