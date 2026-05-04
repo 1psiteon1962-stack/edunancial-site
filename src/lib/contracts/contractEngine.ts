@@ -1,6 +1,4 @@
-// src/lib/contracts/contractEngine.ts
-
-import { CONTRACT_TEMPLATES, ContractTemplateKey } from "./contractTypes";
+import { CONTRACT_TEMPLATES, ContractTemplateKey } from "@/lib/contracts/contractTypes";
 
 export type ContractAcceptanceRecord = {
   userId: string;
