@@ -1,5 +1,3 @@
-// src/lib/pricing/loadPricing.ts
-
 export type PricingRegion =
   | "us"
   | "latam"
@@ -32,7 +30,7 @@ export async function loadPricing(
     {
       id: "basic",
       name: "Basic",
-      price: region === "africa" ? 0 : 0,
+      price: 0,
       currency: currencyByRegion[region],
       features: ["Free access", "Basic tools"],
     },
