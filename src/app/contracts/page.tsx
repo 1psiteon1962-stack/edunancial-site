@@ -1,41 +1,37 @@
-import { CONTRACT_TEMPLATES } from "../../lib/contracts/contractTypes";
+// src/app/contracts/page.tsx
+
+import { CONTRACT_TEMPLATES } from "@/lib/contracts/contractTypes";
 
 export default function ContractsPage() {
+  const contracts = Object.values(CONTRACT_TEMPLATES);
+
   return (
-    <main style={{ padding: "2rem", maxWidth: 900, margin: "0 auto" }}>
-      <h1>Platform Agreements</h1>
+    <main>
+      <h1>Contracts</h1>
 
       <p>
-        Access to Edunancial education systems requires agreement to the
-        following contractual protections and licensing rules.
+        Review the current Edunancial contract templates, policies, and
+        agreements.
       </p>
 
-      {CONTRACT_TEMPLATES.map((contract) => (
+      {contracts.map((contract) => (
         <section
-          key={contract.id}
+          key={contract.key}
           style={{
             border: "1px solid #ddd",
-            padding: "1rem",
-            borderRadius: "10px",
-            marginBottom: "1rem"
+            borderRadius: "8px",
+            padding: "16px",
+            marginBottom: "16px",
           }}
         >
           <h2>{contract.title}</h2>
-
-          <p>{contract.description}</p>
-
           <p>
             <strong>Version:</strong> {contract.version}
           </p>
-
           <p>
-            <strong>Languages:</strong> {contract.languages.join(", ")}
+            <strong>Effective Date:</strong> {contract.effectiveDate}
           </p>
-
-          <p>
-            <strong>Required for access:</strong>{" "}
-            {contract.requiredForAccess ? "Yes" : "No"}
-          </p>
+          <p>{contract.body}</p>
         </section>
       ))}
     </main>
