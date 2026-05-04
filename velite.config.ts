@@ -1,18 +1,15 @@
-import { defineConfig } from 'velite'
+// velite.config.ts
+
+import { defineConfig } from "velite";
 
 export default defineConfig({
-  root: '.',
+  root: ".",
   output: {
-    data: '.velite/generated'
+    data: ".velite",
+    assets: "public/static",
+    base: "/static/",
+    name: "[name]-[hash:6].[ext]",
+    clean: true,
   },
-  collections: {
-    pages: {
-      pattern: 'content/**/*.mdx',
-      schema: {
-        title: 'string',
-        description: 'string?',
-        body: 'mdx'
-      }
-    }
-  }
-})
+  collections: {},
+});
