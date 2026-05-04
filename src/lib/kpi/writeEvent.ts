@@ -1,8 +1,16 @@
-import type { InsertableKPIEventRow } from "./types";
+// src/lib/kpi/writeKPIEvent.ts
 
-export async function writeEvent(row: InsertableKPIEventRow) {
-  // Replace later with Supabase / DB
-  console.log("KPI EVENT:", row);
+export type KPIWriteEventInput = {
+  event_name: string;
+  event_type?: string;
+  metadata?: Record<string, unknown>;
+};
 
-  return { success: true };
+export async function writeKPIEvent(
+  event: KPIWriteEventInput
+): Promise<void> {
+  console.log("KPI event:", {
+    ...event,
+    receivedAt: new Date().toISOString(),
+  });
 }
