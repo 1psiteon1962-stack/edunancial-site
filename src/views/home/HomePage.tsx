@@ -1,29 +1,29 @@
-import { loadPricing } from "@/lib/pricing/loadPricing";
+// src/views/home/HomePage.tsx
+
+import { loadPricing } from "../../lib/pricing/loadPricing";
 
 export default async function HomePage() {
-  const pricing = await loadPricing("us"); // resolve the Promise here
+  const pricing = await loadPricing("us");
 
   return (
-    <main style={{ padding: "2rem" }}>
+    <main>
       <h1>Edunancial</h1>
 
-      <h2>Pricing ({pricing.currency})</h2>
-
-      <ul>
-        {pricing.products.map((p) => (
-          <li key={p.sku}>
-            <strong>{p.label}</strong> — {p.price} {pricing.currency}
-            {p.description && <p>{p.description}</p>}
-            {p.features && (
-              <ul>
-                {p.features.map((f) => (
-                  <li key={f}>{f}</li>
-                ))}
-              </ul>
-            )}
-          </li>
+      <section>
+        {pricing.map((plan) => (
+          <div key={plan.id}>
+            <h2>{plan.name}</h2>
+            <p>
+              {plan.currency} ${plan.price}
+            </p>
+            <ul>
+              {plan.features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </section>
     </main>
   );
 }
