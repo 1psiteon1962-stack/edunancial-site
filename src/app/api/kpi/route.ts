@@ -1,35 +1,49 @@
-import { NextResponse } from "next/server";
-import type { KPIEvent } from "@/lib/kpi/types";
-import { writeEvent as writeKPIEvent } from "@/lib/kpi/writeEvent";
-import { hashIP } from "@/lib/kpi/hash";
+// src/app/api/kpi/route.ts
 
-export const runtime = "nodejs";
+import { NextResponse } from "next/server";
+import { writeKPIEvent } from "@/lib/kpi/writeKPIEvent";
+
+type KPIRequestBody = {
+  event_name?: string;
+  event_type?: string | null;
+  metadata?: Record<string, unknown>;
+};
+
+function createFingerprint(request: Request): string {
+  const userAgent = request.headers.get("user-agent") ?? "unknown";
+  const forwardedFor = request.headers.get("x-forwarded-for") ?? "unknown";
+
+  return `${userAgent}:${forwardedFor}`;
+}
 
 export async function POST(request: Request) {
   try {
-    const body: KPIEvent = await request.json();
+    const body = (await request.json()) as KPIRequestBody;
 
-    const ip =
-      request.headers.get("x-forwarded-for") ||
-      request.headers.get("x-real-ip") ||
-      "";
+    if (!body.event_name) {
+      return NextResponse.json(
+        { success: false, error: "Missing event_name" },
+        { status: 400 }
+      );
+    }
 
-    const fingerprint = hashIP(ip);
+    const fingerprint = createFingerprint(request);
 
     await writeKPIEvent({
       event_name: body.event_name,
-      event_type: body.event_type, // ✅ now valid
+      event_type: body.event_type ?? undefined,
       metadata: {
-        ...(body.metadata || {}),
+        ...(body.metadata ?? {}),
         fingerprint,
       },
     });
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("KPI route error:", error);
+    console.warn("KPI route failed:", error);
+
     return NextResponse.json(
-      { success: false, error: "Failed to write KPI event" },
+      { success: false, error: "KPI route failed" },
       { status: 500 }
     );
   }
