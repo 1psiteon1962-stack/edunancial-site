@@ -1,6 +1,4 @@
-// src/views/home/HomePage.tsx
-
-import { loadPricing } from "../../lib/pricing/loadPricing";
+import { loadPricing } from "@/lib/pricing/loadPricing";
 
 export default async function HomePage() {
   const pricing = await loadPricing("us");
@@ -8,6 +6,7 @@ export default async function HomePage() {
   return (
     <main>
       <h1>Edunancial</h1>
+      <p>Financial education, business structure, and global growth tools.</p>
 
       <section>
         {pricing.map((plan) => (
