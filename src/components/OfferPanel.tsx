@@ -1,7 +1,7 @@
 "use client";
 
-import { Offer, OptimizedOffer } from "../types/offers";
-import { optimizeOffer } from "../utils/optimizeOffer";
+import { Offer, OptimizedOffer } from "@/types/offers";
+import { optimizeOffer } from "@/utils/optimizeOffer";
 
 interface Props {
   offers: Offer[];
@@ -20,9 +20,7 @@ export default function OfferPanel({ offers }: Props) {
             {optimized.description && <p>{optimized.description}</p>}
 
             <p>Original: ${optimized.price.toFixed(2)}</p>
-
             <p>Discount: {optimized.discount}%</p>
-
             <p>Savings: ${optimized.savings.toFixed(2)}</p>
 
             <p>
