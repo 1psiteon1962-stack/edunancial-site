@@ -1,7 +1,7 @@
 // src/app/api/kpi/route.ts
 
 import { NextResponse } from "next/server";
-import { writeKPIEvent } from "@/lib/kpi/writeKPIEvent";
+import { writeKPIEvent } from "../../../lib/kpi/writeKPIEvent";
 
 type KPIRequestBody = {
   event_name?: string;
