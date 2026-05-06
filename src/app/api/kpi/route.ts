@@ -1,7 +1,6 @@
 // src/app/api/kpi/route.ts
 
 import { NextResponse } from "next/server";
-import { writeKPIEvent } from "../../../lib/kpi/writeKPIEvent";
 
 type KPIRequestBody = {
   event_name?: string;
@@ -14,6 +13,17 @@ function createFingerprint(request: Request): string {
   const forwardedFor = request.headers.get("x-forwarded-for") ?? "unknown";
 
   return `${userAgent}:${forwardedFor}`;
+}
+
+async function writeKPIEvent(event: {
+  event_name: string;
+  event_type?: string;
+  metadata?: Record<string, unknown>;
+}): Promise<void> {
+  console.log("KPI event:", {
+    ...event,
+    receivedAt: new Date().toISOString(),
+  });
 }
 
 export async function POST(request: Request) {
