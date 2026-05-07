@@ -1,48 +1,10 @@
 // src/app/(regions)/(root)/page.tsx
 
-type HomeClientModule = {
-  id: string;
-  title: string;
-  description: string;
-};
+import { getHomePage } from "@/lib/queries/homepage";
 
-type HomePageData = {
-  title: string;
-  description: string;
-  clientModules: HomeClientModule[];
-};
-
-function getFallbackHomePageData(): HomePageData {
-  return {
-    title: "Edunancial",
-    description:
-      "Financial education, business structure, and global growth tools.",
-    clientModules: [
-      {
-        id: "financial-literacy",
-        title: "Financial Literacy",
-        description:
-          "Learn how money, credit, investing, business structure, and long-term wealth systems work.",
-      },
-      {
-        id: "business-formation",
-        title: "Business Formation",
-        description:
-          "Understand how to build, structure, and operate a business with discipline and compliance.",
-      },
-      {
-        id: "global-growth",
-        title: "Global Growth",
-        description:
-          "Explore practical frameworks for expanding business education and opportunity across regions.",
-      },
-    ],
-  };
-}
-
-export default function Page() {
-  const page = getFallbackHomePageData();
-  const clientModules = page.clientModules ?? [];
+export default async function Page() {
+  const page = await getHomePage();
+  const clientModules = page?.clientModules ?? [];
 
   return (
     <main>
