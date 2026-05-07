@@ -1,7 +1,5 @@
 // src/app/(regions)/(root)/page.tsx
 
-export const dynamic = "force-static";
-
 type HomeClientModule = {
   id: string;
   title: string;
@@ -14,7 +12,7 @@ type HomePageData = {
   clientModules: HomeClientModule[];
 };
 
-async function getSafeHomePageData(): Promise<HomePageData> {
+function getFallbackHomePageData(): HomePageData {
   return {
     title: "Edunancial",
     description:
@@ -42,8 +40,9 @@ async function getSafeHomePageData(): Promise<HomePageData> {
   };
 }
 
-export default async function Page() {
-  const page = await getSafeHomePageData();
+export default function Page() {
+  const page = getFallbackHomePageData();
+  const clientModules = page.clientModules ?? [];
 
   return (
     <main>
@@ -53,7 +52,7 @@ export default async function Page() {
       </section>
 
       <section>
-        {page.clientModules.map((module) => (
+        {clientModules.map((module) => (
           <article key={module.id}>
             <h2>{module.title}</h2>
             <p>{module.description}</p>
