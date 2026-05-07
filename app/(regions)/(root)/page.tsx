@@ -1,6 +1,4 @@
-// app/(regions)/(root)/page.tsx
-
-export const dynamic = "force-static";
+// app/(regions)/(root)/HomePageRoot.tsx
 
 type ClientModule = {
   id: string;
@@ -29,7 +27,7 @@ const clientModules: ClientModule[] = [
   },
 ];
 
-export default function Page() {
+export default function HomePageRoot() {
   return (
     <main>
       <section>
