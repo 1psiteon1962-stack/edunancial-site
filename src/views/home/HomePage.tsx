@@ -5,8 +5,13 @@ export default async function HomePage() {
 
   return (
     <main>
-      <h1>Edunancial</h1>
-      <p>Financial education, business structure, and global growth tools.</p>
+      <section>
+        <h1>Edunancial</h1>
+        <p>
+          Financial education, business structure, and long-term readiness for
+          entrepreneurs, students, families, and global builders.
+        </p>
+      </section>
 
       <section>
         {pricing.map((plan) => (
