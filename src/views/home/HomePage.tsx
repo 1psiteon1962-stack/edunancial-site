@@ -1,32 +1,18 @@
-import { loadPricing } from "@/lib/pricing/loadPricing";
-
-export default async function HomePage() {
-  const pricing = await loadPricing("us");
-
+export default function HomePage() {
   return (
     <main>
       <section>
         <h1>Edunancial</h1>
-        <p>
-          Financial education, business structure, and long-term readiness for
-          entrepreneurs, students, families, and global builders.
-        </p>
-      </section>
 
-      <section>
-        {pricing.map((plan) => (
-          <div key={plan.id}>
-            <h2>{plan.name}</h2>
-            <p>
-              {plan.currency} ${plan.price}
-            </p>
-            <ul>
-              {plan.features.map((feature) => (
-                <li key={feature}>{feature}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <p>
+          Financial education, business structure, investing, ownership, and
+          global growth education for entrepreneurs, students, families, and
+          new investors.
+        </p>
+
+        <p>
+          The platform is live. Full content expansion is now in progress.
+        </p>
       </section>
     </main>
   );
