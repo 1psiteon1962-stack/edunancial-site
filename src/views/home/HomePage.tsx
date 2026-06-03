@@ -1,7 +1,28 @@
-import { loadPricing } from "@/lib/pricing";
-
 export default async function HomePage() {
-  const pricing = await loadPricing("us");
+  const pricing = [
+    {
+      id: "basic",
+      name: "Basic Membership",
+      price: 5,
+      currency: "USD",
+      features: [
+        "Financial Literacy Articles",
+        "Educational Resources",
+        "Business Education Content"
+      ]
+    },
+    {
+      id: "gold",
+      name: "Gold Membership",
+      price: 10,
+      currency: "USD",
+      features: [
+        "Everything in Basic",
+        "Premium Educational Content",
+        "Advanced Financial Literacy Resources"
+      ]
+    }
+  ];
 
   return (
     <main
@@ -12,8 +33,6 @@ export default async function HomePage() {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      {/* HERO SECTION */}
-
       <section>
         <h1>Edunancial</h1>
 
@@ -34,25 +53,19 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* MISSION */}
-
       <section style={{ marginTop: "50px" }}>
         <h2>Our Mission</h2>
 
         <p>
           Financial literacy is one of the most important life skills
-          a person can develop. Unfortunately, many people graduate
-          from school without receiving practical education regarding
-          money management, entrepreneurship, investing, business
-          ownership, taxes, credit, and long-term wealth building.
+          a person can develop.
         </p>
 
         <p>
-          Edunancial exists to help bridge that gap.
+          Edunancial exists to help bridge the gap between traditional
+          education and real-world financial knowledge.
         </p>
       </section>
-
-      {/* WHAT WE TEACH */}
 
       <section style={{ marginTop: "50px" }}>
         <h2>What We Teach</h2>
@@ -71,8 +84,6 @@ export default async function HomePage() {
         </ul>
       </section>
 
-      {/* WHO WE SERVE */}
-
       <section style={{ marginTop: "50px" }}>
         <h2>Who We Serve</h2>
 
@@ -86,41 +97,6 @@ export default async function HomePage() {
           <li>Individuals Pursuing Financial Independence</li>
         </ul>
       </section>
-
-      {/* IMPORTANT DISCLAIMER */}
-
-      <section style={{ marginTop: "50px" }}>
-        <h2>Educational Disclaimer</h2>
-
-        <p>
-          Edunancial is a financial literacy provider.
-        </p>
-
-        <p>
-          We provide educational information and educational materials
-          only.
-        </p>
-
-        <p>
-          Edunancial does not provide loans, credit products, banking
-          services, securities brokerage services, investment advisory
-          services, wealth management services, insurance products,
-          tax preparation services, accounting services, or legal services.
-        </p>
-
-        <p>
-          Nothing on this website should be considered financial,
-          legal, accounting, investment, tax, or professional advice.
-        </p>
-
-        <p>
-          Readers should consult appropriately licensed professionals
-          before making financial, investment, legal, accounting,
-          insurance, or tax decisions.
-        </p>
-      </section>
-
-      {/* MEMBERSHIP */}
 
       <section style={{ marginTop: "50px" }}>
         <h2>Membership Options</h2>
@@ -142,7 +118,7 @@ export default async function HomePage() {
             </p>
 
             <ul>
-              {plan.features.map((feature: string) => (
+              {plan.features.map((feature) => (
                 <li key={feature}>{feature}</li>
               ))}
             </ul>
@@ -150,7 +126,29 @@ export default async function HomePage() {
         ))}
       </section>
 
-      {/* FUTURE GROWTH */}
+      <section style={{ marginTop: "50px" }}>
+        <h2>Educational Disclaimer</h2>
+
+        <p>
+          Edunancial is a financial literacy provider.
+        </p>
+
+        <p>
+          We provide educational information and educational materials only.
+        </p>
+
+        <p>
+          Edunancial does not provide loans, credit products, banking
+          services, investment advisory services, securities brokerage
+          services, insurance products, tax preparation services,
+          accounting services, or legal services.
+        </p>
+
+        <p>
+          Nothing on this website constitutes financial, legal,
+          accounting, tax, or investment advice.
+        </p>
+      </section>
 
       <section style={{ marginTop: "50px" }}>
         <h2>Growing Financial Literacy Worldwide</h2>
@@ -161,13 +159,11 @@ export default async function HomePage() {
         </p>
 
         <p>
-          Future content will include additional educational resources,
-          books, courses, entrepreneurship training, and multilingual
-          financial literacy materials.
+          Future content will include books, courses, educational tools,
+          entrepreneurship training, and multilingual financial literacy
+          resources.
         </p>
       </section>
-
-      {/* FOOTER */}
 
       <footer
         style={{
@@ -176,9 +172,7 @@ export default async function HomePage() {
           paddingTop: "25px",
         }}
       >
-        <p>
-          © 2026 Edunancial. All Rights Reserved.
-        </p>
+        <p>© 2026 Edunancial. All Rights Reserved.</p>
 
         <p>
           Financial Literacy Provider | Educational Content Only
@@ -186,8 +180,8 @@ export default async function HomePage() {
 
         <p>
           Edunancial does not provide loans, investment advice,
-          financial advisory services, legal advice, accounting
-          advice, insurance products, or tax advice.
+          financial advisory services, legal advice,
+          accounting advice, insurance products, or tax advice.
         </p>
       </footer>
     </main>
