@@ -1,10 +1,8 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import PageViewTracker from "@/components/kpi/PageViewTracker";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Edunancial",
-  description: "Financial education platform",
+  description: "Financial Literacy and Education",
 };
 
 export default function RootLayout({
@@ -12,12 +10,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
+
     <html lang="en">
+
       <body>
-        <PageViewTracker />
+
         {children}
+
       </body>
+
     </html>
+
   );
+
 }
