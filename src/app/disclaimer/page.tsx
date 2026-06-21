@@ -1,51 +1,91 @@
-<h1>Disclaimer</h1>
+export const metadata = {
+  title: "Disclaimer | Edunancial",
+  description:
+    "Important legal disclaimers regarding the educational content provided by Edunancial.",
+};
 
-<p>
+export default function DisclaimerPage() {
+  return (
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "40px 20px",
+        lineHeight: "1.8",
+      }}
+    >
+      <h1>Disclaimer</h1>
 
-Edunancial is a financial literacy platform.
+      <p>
+        Edunancial is a financial literacy platform dedicated to education.
+        The information contained on this website is provided solely for
+        educational and informational purposes.
+      </p>
 
-Information provided on this website, through courses, books, videos, calculators, memberships, newsletters, downloads, and related materials is for educational and informational purposes only.
+      <h2>No Financial Advice</h2>
 
-</p>
+      <p>
+        Edunancial does not provide financial, investment, legal, tax,
+        accounting, insurance, or other professional advice.
+      </p>
 
-<p>
+      <p>
+        Nothing on this website should be interpreted as a recommendation
+        to buy, sell, hold, or invest in any security, cryptocurrency,
+        real estate, precious metal, business venture, or financial product.
+      </p>
 
-Edunancial does not provide:
+      <h2>No Professional Relationship</h2>
 
-</p>
+      <p>
+        Use of this website does not create an advisor-client,
+        attorney-client, fiduciary, or agency relationship between
+        Edunancial and any visitor or member.
+      </p>
 
-<ul>
+      <h2>Investment Risk</h2>
 
-<li>Financial Advice</li>
+      <p>
+        All investments involve risk, including the possible loss of
+        principal. Past performance does not guarantee future results.
+      </p>
 
-<li>Investment Advice</li>
+      <p>
+        Users should conduct their own due diligence and consult licensed
+        professionals before making financial decisions.
+      </p>
 
-<li>Legal Advice</li>
+      <h2>Accuracy of Information</h2>
 
-<li>Tax Advice</li>
+      <p>
+        While we strive to provide accurate and current information,
+        Edunancial makes no guarantees regarding completeness,
+        accuracy, or timeliness.
+      </p>
 
-<li>Accounting Advice</li>
+      <h2>External Links</h2>
 
-<li>Insurance Advice</li>
+      <p>
+        This website may contain links to third-party websites.
+        Edunancial is not responsible for the content, accuracy,
+        or policies of external sites.
+      </p>
 
-</ul>
+      <h2>Limitation of Liability</h2>
 
-<p>
+      <p>
+        By using this website, you agree that Edunancial and its owners,
+        affiliates, contributors, and representatives shall not be liable
+        for any damages arising from your reliance on the information
+        provided on this site.
+      </p>
 
-Edunancial does not recommend or endorse any particular investment, stock, ETF, option, real estate investment, business opportunity, cryptocurrency, or financial product.
+      <h2>Contact</h2>
 
-</p>
-
-<p>
-
-Users are responsible for evaluating information based upon their own circumstances and should consult qualified professionals before making financial, legal, tax, investment, or business decisions.
-
-</p>
-
-<p>
-
-Past performance does not guarantee future results.
-
-All investments involve risk.
-
-</p>
+      <p>
+        Questions regarding this disclaimer may be directed through the
+        Contact page of this website.
+      </p>
+    </main>
+  );
+}
