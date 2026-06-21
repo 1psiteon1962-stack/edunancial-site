@@ -2,27 +2,17 @@ import "./globals.css";
 
 export const metadata = {
   title: "Edunancial",
-  description: "Financial Literacy and Education",
+  description: "Financial literacy platform for wealth building, business readiness, and access to capital."
 };
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
-
   return (
-
     <html lang="en">
-
-      <body>
-
-        {children}
-
-      </body>
-
+      <body>{children}</body>
     </html>
-
   );
-
 }
