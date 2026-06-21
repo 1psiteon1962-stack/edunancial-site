@@ -1,23 +1,73 @@
-<nav className="region-nav">
-  <span className="region-label">Regions:</span>
+import Link from "next/link";
 
-  <a href="/" className="region-link">US</a>
-  <span> | </span>
+export default function Navbar() {
 
-  <a href="/latam" className="region-link">LATAM</a>
-  <span> | </span>
+  return (
 
-  <a href="/africa" className="region-link">Africa</a>
-  <span> | </span>
+    <nav
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "20px",
+        borderBottom: "1px solid #ddd",
+        background: "#ffffff",
+        position: "sticky",
+        top: 0,
+        zIndex: 1000
+      }}
+    >
 
-  <a href="/mena" className="region-link">MENA</a>
-  <span> | </span>
+      <div
+        style={{
+          fontSize: "28px",
+          fontWeight: "bold",
+          color: "#1a237e"
+        }}
+      >
+        Edunancial
+      </div>
 
-  <a href="/europe" className="region-link">Europe</a>
-  <span> | </span>
+      <div
+        style={{
+          display: "flex",
+          gap: "20px",
+          fontSize: "16px"
+        }}
+      >
 
-  <a href="/asia-pacific" className="region-link">Asia-Pacific</a>
-  <span> | </span>
+        <Link href="/">
+          Home
+        </Link>
 
-  <a href="/asia-emerging" className="region-link">Emerging Asia</a>
-</nav>
+        <Link href="/courses">
+          Courses
+        </Link>
+
+        <Link href="/levels">
+          Levels
+        </Link>
+
+        <Link href="/membership">
+          Membership
+        </Link>
+
+        <Link href="/sponsor">
+          Sponsor
+        </Link>
+
+        <Link href="/about">
+          About
+        </Link>
+
+        <Link href="/contact">
+          Contact
+        </Link>
+
+      </div>
+
+    </nav>
+
+  );
+
+}
