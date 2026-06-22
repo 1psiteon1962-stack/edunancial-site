@@ -1,69 +1,120 @@
-export const metadata = {
-title:"About Edunancial | Financial Literacy Platform",
-description:
-"Edunancial is a financial literacy platform dedicated to helping individuals understand money, business, real estate, paper assets, and wealth-building principles.",
-};
-
 export default function AboutPage() {
 
-return (
+  return (
 
-<main>
+    <main
 
-<h1>About Edunancial</h1>
+      style={{
 
-<h2>Financial Literacy for Real Life</h2>
+        maxWidth: "1100px",
 
-<p>
+        margin: "0 auto",
 
-Edunancial is a financial literacy platform dedicated to helping individuals and families improve their understanding of money, business ownership, real estate, paper assets, entrepreneurship, and long-term wealth-building principles.
+        padding: "60px 20px"
 
-</p>
+      }}
 
-<p>
+    >
 
-Our mission is to increase financial literacy by providing educational information, practical tools, and real-world examples so individuals can make informed decisions based upon their own goals and circumstances.
+      <h1>
 
-</p>
+        About Edunancial
 
-<h2>Our Framework</h2>
+      </h1>
 
-<ul>
+      <p
 
-<li>
+        style={{
 
-<strong>WHITE</strong>
+          fontSize: "22px",
 
-Paper Assets
+          lineHeight: "1.8"
 
-Stocks, ETFs, retirement accounts, precious metals, options and investing concepts.
+        }}
 
-</li>
+      >
 
-<li>
+        Edunancial began when my son was
+        11 years old and asked if he
+        could work with his head instead
+        of only with his hands.
 
-<strong>RED</strong>
+      </p>
 
-Real Estate
+      <p>
 
-Rental property, tax liens, tax deeds, creative financing and real estate investing.
+        That simple question led to years
+        of learning about financial literacy,
+        ownership, investing,
+        business, and wealth creation.
 
-</li>
+      </p>
 
-<li>
+      <p>
 
-<strong>BLUE</strong>
+        Today Edunancial teaches:
 
-Business
+      </p>
 
-Entrepreneurship, profit, pricing, marketing, KPIs and business systems.
+      <ul>
 
-</li>
+        <li>
 
-</ul>
+          Financial Literacy
 
-</main>
+        </li>
 
-);
+        <li>
+
+          Economic Self Defense
+
+        </li>
+
+        <li>
+
+          Blue: Business Ownership
+
+        </li>
+
+        <li>
+
+          White: Paper Assets
+
+        </li>
+
+        <li>
+
+          Red: Real Estate
+
+        </li>
+
+      </ul>
+
+      <h2>
+
+        Our Mission
+
+      </h2>
+
+      <p>
+
+        Most people are never taught
+        how money works.
+
+      </p>
+
+      <p>
+
+        We teach financial literacy,
+        ownership,
+        and economic self-defense
+        so ordinary people can build
+        extraordinary futures.
+
+      </p>
+
+    </main>
+
+  );
 
 }
