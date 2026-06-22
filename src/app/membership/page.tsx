@@ -1,131 +1,119 @@
-export const metadata = {
+import { memberships } from "../../data/memberships";
 
-title:"Membership | Edunancial",
+export default function MembershipPage() {
 
-description:
+  return (
 
-"Membership plans for the Edunancial Financial Literacy Platform.",
+    <main
 
-};
+      style={{
 
-export default function MembershipPage(){
+        maxWidth: "1100px",
 
-return(
+        margin: "0 auto",
 
-<main
+        padding: "60px 20px"
 
-style={
+      }}
 
-{
+    >
 
-maxWidth:"1000px",
+      <h1>
 
-margin:"0 auto",
+        Membership
 
-padding:"40px 20px",
+      </h1>
 
-fontFamily:"Arial,sans-serif",
+      <p>
 
-lineHeight:1.8,
+        Recurring value through education,
+        ownership, and economic self-defense.
 
-}
+      </p>
 
-}
+      <div
 
->
+        style={{
 
-<h1>Membership</h1>
+          display: "grid",
 
-<p>
+          gridTemplateColumns:
+            "repeat(auto-fit,minmax(300px,1fr))",
 
-Edunancial is a Financial Literacy Platform.
+          gap: "20px",
 
-Membership provides access to courses,
+          marginTop: "40px"
 
-financial literacy materials,
+        }}
 
-tools,
+      >
 
-and future community features.
+        {
 
-</p>
+          memberships.map((membership) => (
 
-<hr />
+            <section
 
-<h2>Basic</h2>
+              key={membership.name}
 
-<p>
+              style={{
 
-$9.99 Monthly
+                border: "1px solid #ddd",
 
-</p>
+                borderRadius: "12px",
 
-<ul>
+                padding: "24px"
 
-<li>Financial Literacy Articles</li>
+              }}
 
-<li>Beginner Courses</li>
+            >
 
-<li>Financial Calculators</li>
+              <h2>
 
-<li>White / Red / Blue Framework</li>
+                {membership.name}
 
-<li>Community Updates</li>
+              </h2>
 
-</ul>
+              <h3>
 
-<hr />
+                {membership.monthly}/month
 
-<h2>Gold</h2>
+              </h3>
 
-<p>
+              <p>
 
-$29.99 Monthly
+                {membership.description}
 
-</p>
+              </p>
 
-<ul>
+              <ul>
 
-<li>Everything in Basic</li>
+                {
 
-<li>Advanced Courses</li>
+                  membership.features.map((feature) => (
 
-<li>Business KPI Templates</li>
+                    <li key={feature}>
 
-<li>Investment Trackers</li>
+                      {feature}
 
-<li>Net Worth Trackers</li>
+                    </li>
 
-<li>Downloadable Resources</li>
+                  ))
 
-</ul>
+                }
 
-<hr />
+              </ul>
 
-<h2>Mentor</h2>
+            </section>
 
-<p>
+          ))
 
-Future Program
+        }
 
-</p>
+      </div>
 
-<ul>
+    </main>
 
-<li>Mentor Directory</li>
-
-<li>Entrepreneur Profiles</li>
-
-<li>Sponsorship Opportunities</li>
-
-<li>Private Community</li>
-
-<li>Recognition Program</li>
-
-</ul>
-
-</main>
-
-);
+  );
 
 }
