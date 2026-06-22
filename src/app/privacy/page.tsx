@@ -1,128 +1,87 @@
-export const metadata = {
-title:"Privacy Policy | Edunancial",
-description:
-"Privacy Policy for Edunancial, a Financial Literacy Platform.",
-};
+export default function PrivacyPage() {
 
-export default function PrivacyPage(){
+  return (
 
-return(
+    <main
 
-<main
-style={{
-maxWidth:"1000px",
-margin:"0 auto",
-padding:"40px 20px",
-fontFamily:"Arial,sans-serif",
-lineHeight:1.8,
-}}
->
+      style={{
 
-<h1>Privacy Policy</h1>
+        maxWidth: "1000px",
 
-<p>
+        margin: "0 auto",
 
-Edunancial is committed to protecting your privacy.
+        padding: "60px 20px"
 
-This Privacy Policy explains how information may be collected,
-used, stored, and protected when you use this website.
+      }}
 
-</p>
+    >
 
-<h2>Information We May Collect</h2>
+      <h1>
 
-<ul>
+        Privacy Policy
 
-<li>Name</li>
+      </h1>
 
-<li>Email Address</li>
+      <p>
 
-<li>Membership Information</li>
+        Edunancial respects your privacy.
 
-<li>Transaction Information</li>
+      </p>
 
-<li>Course Progress</li>
+      <p>
 
-<li>Contact Form Messages</li>
+        We may collect:
 
-<li>Website Usage Information</li>
+      </p>
 
-<li>Analytics Information</li>
+      <ul>
 
-</ul>
+        <li>Name</li>
 
-<h2>How We Use Information</h2>
+        <li>Email Address</li>
 
-<ul>
+        <li>Country</li>
 
-<li>Provide financial literacy content.</li>
+        <li>Membership Information</li>
 
-<li>Manage memberships.</li>
+        <li>Course Progress</li>
 
-<li>Provide courses and downloads.</li>
+      </ul>
 
-<li>Respond to questions.</li>
+      <p>
 
-<li>Improve website performance.</li>
+        We do not sell your personal information.
 
-<li>Send newsletters and updates.</li>
+      </p>
 
-</ul>
+      <p>
 
-<h2>Payment Information</h2>
+        Information is used to:
 
-<p>
+      </p>
 
-Payments may be processed through third-party providers including:
+      <ul>
 
-</p>
+        <li>Provide courses</li>
 
-<ul>
+        <li>Manage memberships</li>
 
-<li>Square</li>
+        <li>Send educational emails</li>
 
-<li>PayPal</li>
+        <li>Improve the platform</li>
 
-</ul>
+      </ul>
 
-<p>
+      <p>
 
-Edunancial does not store complete credit card information
-on its own servers.
+        By using Edunancial,
 
-</p>
+        you agree to this policy.
 
-<h2>No Sale of Personal Information</h2>
+      </p>
 
-<p>
+    </main>
 
-Edunancial does not sell personal information.
-
-</p>
-
-<h2>Data Security</h2>
-
-<p>
-
-Reasonable administrative and technical safeguards are used
-to protect information.
-
-However, no internet transmission or storage system can be
-guaranteed to be 100% secure.
-
-</p>
-
-<h2>Contact</h2>
-
-<p>
-
-Questions concerning this Privacy Policy may be submitted
-through the Contact page.
-
-</p>
-
-</main>
-
-);
+  );
 
 }
