@@ -1,115 +1,67 @@
-export const metadata = {
+export default function ContactPage() {
 
-title:"Contact | Edunancial",
+  return (
 
-description:
+    <main
 
-"Contact Edunancial Financial Literacy Platform.",
+      style={{
 
-};
+        maxWidth: "900px",
 
-export default function ContactPage(){
+        margin: "0 auto",
 
-return(
+        padding: "60px 20px"
 
-<main
+      }}
 
-style={
+    >
 
-{
+      <h1>
 
-maxWidth:"1000px",
+        Contact Edunancial
 
-margin:"0 auto",
+      </h1>
 
-padding:"40px 20px",
+      <p>
 
-fontFamily:"Arial,sans-serif",
+        We'd love to hear from you.
 
-lineHeight:1.8,
+      </p>
 
-}
+      <p>
 
-}
+        Questions about:
 
->
+      </p>
 
-<h1>
+      <ul>
 
-Contact Edunancial
+        <li>Memberships</li>
 
-</h1>
+        <li>Courses</li>
 
-<p>
+        <li>Downloads</li>
 
-We welcome questions,
+        <li>Speaking</li>
 
-comments,
+        <li>Partnerships</li>
 
-and suggestions.
+      </ul>
 
-</p>
+      <p>
 
-<h2>
+        Email:
 
-General Inquiries
+      </p>
 
-</h2>
+      <p>
 
-<p>
+        info@edunancial.com
 
-Please use the contact form or email address
+      </p>
 
-that will be listed here.
+    </main>
 
-</p>
-
-<h2>
-
-Topics
-
-</h2>
-
-<ul>
-
-<li>Membership Questions</li>
-
-<li>Course Questions</li>
-
-<li>Financial Literacy Resources</li>
-
-<li>Partnership Opportunities</li>
-
-<li>Mentorship</li>
-
-<li>Sponsorship Programs</li>
-
-<li>Media Requests</li>
-
-</ul>
-
-<h2>
-
-Our Mission
-
-</h2>
-
-<p>
-
-To improve financial literacy around the world
-
-through education,
-
-mentorship,
-
-business development,
-
-and responsible access to capital.
-
-</p>
-
-</main>
-
-);
+  );
 
 }
