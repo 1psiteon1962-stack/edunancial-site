@@ -1,40 +1,175 @@
-import Hero from "../components/Hero";
+export default function HomePage() {
 
-import WhiteSection from "../components/WhiteSection";
+return (
 
-import RedSection from "../components/RedSection";
+<main style={{fontFamily:"Arial, sans-serif"}}>
 
-import BlueSection from "../components/BlueSection";
+<section
+style={{
+background:"#0B1F3A",
+color:"white",
+padding:"80px 20px",
+textAlign:"center"
+}}
+>
 
-import LevelsOverview from "../components/LevelsOverview";
+<h1
+style={{
+fontSize:"3rem",
+fontWeight:"bold",
+marginBottom:"20px"
+}}
+>
+Edunancial
+</h1>
 
-import SponsorPreview from "../components/SponsorPreview";
+<p
+style={{
+fontSize:"1.4rem",
+maxWidth:"900px",
+margin:"0 auto"
+}}
+>
 
-import CallToAction from "../components/CallToAction";
+Financial literacy for ordinary people.
 
-import FinancialDisclaimer from "../components/FinancialDisclaimer";
+Red. White. Blue.
 
-export default function HomePage(){
+Learn Real Estate, Paper Assets, and Business.
 
-return(
+Build Economic Self Defense.
 
-<main>
+</p>
 
-<Hero />
+</section>
 
-<WhiteSection />
+<section
+style={{
+padding:"60px 20px",
+maxWidth:"1100px",
+margin:"auto"
+}}
+>
 
-<RedSection />
+<h2 style={{color:"#C62828"}}>
 
-<BlueSection />
+RED — Real Estate
 
-<LevelsOverview />
+</h2>
 
-<SponsorPreview />
+<ul>
 
-<CallToAction />
+<li>Rental Properties</li>
 
-<FinancialDisclaimer />
+<li>Tax Liens</li>
+
+<li>Tax Deeds</li>
+
+<li>Creative Financing</li>
+
+<li>1031 Exchanges</li>
+
+<li>Commercial Real Estate</li>
+
+</ul>
+
+</section>
+
+<section
+style={{
+padding:"60px 20px",
+background:"#f7f7f7"
+}}
+>
+
+<div style={{maxWidth:"1100px",margin:"auto"}}>
+
+<h2 style={{color:"#666"}}>
+
+WHITE — Paper Assets
+
+</h2>
+
+<ul>
+
+<li>Budgeting</li>
+
+<li>Stocks</li>
+
+<li>ETFs</li>
+
+<li>Options</li>
+
+<li>Precious Metals</li>
+
+<li>Retirement Accounts</li>
+
+<li>Risk Management</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section
+style={{
+padding:"60px 20px",
+maxWidth:"1100px",
+margin:"auto"
+}}
+>
+
+<h2 style={{color:"#0D47A1"}}>
+
+BLUE — Business
+
+</h2>
+
+<ul>
+
+<li>Entrepreneurship</li>
+
+<li>Marketing</li>
+
+<li>Pricing</li>
+
+<li>KPIs</li>
+
+<li>Inventory</li>
+
+<li>Profit</li>
+
+<li>Scaling</li>
+
+</ul>
+
+</section>
+
+<section
+style={{
+padding:"60px 20px",
+background:"#0B1F3A",
+color:"white",
+textAlign:"center"
+}}
+>
+
+<h2>
+
+Economic Self Defense
+
+</h2>
+
+<p>
+
+Knowledge is a form of protection.
+
+Learn how to earn, save, invest, and build wealth.
+
+</p>
+
+</section>
 
 </main>
 
