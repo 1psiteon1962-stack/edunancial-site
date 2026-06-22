@@ -1,65 +1,113 @@
+import { courses } from "../../data/courses";
+
 export default function CoursesPage() {
+
   return (
+
     <main
       style={{
-        maxWidth: "1000px",
+        maxWidth: "1100px",
         margin: "0 auto",
-        padding: "60px 20px",
+        padding: "60px 20px"
       }}
     >
-      <h1
-        style={{
-          fontSize: "2.5rem",
-          marginBottom: "20px",
-          color: "#0b4b8f",
-        }}
-      >
+
+      <h1>
+
         Courses
+
       </h1>
 
       <p
         style={{
-          fontSize: "1.2rem",
-          lineHeight: "1.7",
-          marginBottom: "40px",
+          fontSize: "22px",
+          lineHeight: "1.7"
         }}
       >
-        Edunancial courses are designed to teach financial literacy,
-        entrepreneurship, investing, and business development using
-        practical examples and real-world case studies.
+
+        Financial literacy, ownership,
+        business, paper assets,
+        real estate, and
+        economic self-defense.
+
       </p>
 
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ color: "#0b4b8f" }}>
-          White – Paper Assets
-        </h2>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns:
+            "repeat(auto-fit,minmax(300px,1fr))",
+          gap: "20px",
+          marginTop: "40px"
+        }}
+      >
 
-        <p>
-          Learn stocks, bonds, ETFs, options, and portfolio management.
-        </p>
-      </section>
+        {
 
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ color: "#b22222" }}>
-          Red – Real Estate
-        </h2>
+          courses.map((course) => (
 
-        <p>
-          Learn real estate investing, tax liens, tax deeds,
-          creative financing, and 1031 exchanges.
-        </p>
-      </section>
+            <section
 
-      <section style={{ marginBottom: "40px" }}>
-        <h2 style={{ color: "#003366" }}>
-          Blue – Business
-        </h2>
+              key={course.id}
 
-        <p>
-          Learn entrepreneurship, marketing, profit strategies,
-          KPIs, and how to build businesses that generate cash flow.
-        </p>
-      </section>
+              style={{
+
+                border: "1px solid #ddd",
+
+                padding: "24px",
+
+                borderRadius: "12px"
+
+              }}
+
+            >
+
+              <h2>
+
+                {course.title}
+
+              </h2>
+
+              <p>
+
+                {course.description}
+
+              </p>
+
+              <h3>
+
+                Lessons
+
+              </h3>
+
+              <ol>
+
+                {
+
+                  course.lessons.map((lesson) => (
+
+                    <li key={lesson}>
+
+                      {lesson}
+
+                    </li>
+
+                  ))
+
+                }
+
+              </ol>
+
+            </section>
+
+          ))
+
+        }
+
+      </div>
+
     </main>
+
   );
+
 }
