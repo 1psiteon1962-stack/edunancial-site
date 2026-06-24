@@ -1,1 +1,3 @@
-/    /us    302
+http://edunancial.com/* https://edunancial.com/:splat 301!
+http://www.edunancial.com/* https://edunancial.com/:splat 301!
+https://www.edunancial.com/* https://edunancial.com/:splat 301!
