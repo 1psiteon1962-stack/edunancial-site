@@ -1,85 +1,27 @@
+"use client";
+
 import Link from "next/link";
 
-export default function CallToAction(){
-
-return(
-
-<section
-
-style={
-
-{
-
-padding:"80px",
-
-textAlign:"center",
-
-background:"#f5f5f5",
-
-}
-
-}
-
->
-
-<h2>
-
-Ready To Start?
-
+export default function CallToAction() {
+return (
+<section className="bg-[#0b1020] py-24">
+<div className="max-w-6xl mx-auto text-center px-6">
+<h2 className="text-5xl font-black text-white">
+Start Building Wealth Today
 </h2>
 
-<p>
+    <p className="text-xl text-gray-300 mt-6">
+      Learn. Apply. Build. Repeat.
+    </p>
 
-Improve your financial literacy.
-
-Build wealth.
-
-Help others create opportunity.
-
-</p>
-
-<div
-
-style={
-
-{
-
-marginTop:"30px",
-
-display:"flex",
-
-justifyContent:"center",
-
-gap:"20px",
-
-}
-
-}
-
->
-
-<Link href="/membership">
-
-Membership
-
-</Link>
-
-<Link href="/courses">
-
-Courses
-
-</Link>
-
-<Link href="/sponsor">
-
-Sponsor
-
-</Link>
-
-</div>
-
+    <Link
+      href="/membership"
+      className="inline-block mt-10 rounded-xl bg-blue-600 px-10 py-4 font-bold text-white hover:bg-blue-700"
+    >
+      Become a Member
+    </Link>
+  </div>
 </section>
 
 );
-
 }
