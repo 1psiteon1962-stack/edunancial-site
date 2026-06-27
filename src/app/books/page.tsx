@@ -1,73 +1,47 @@
 export default function BooksPage() {
-
   return (
+    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-    <main
+      <section className="max-w-6xl mx-auto px-6 py-20">
 
-      style={{
+        <h1 className="text-5xl md:text-6xl font-black">
+          Edunancial Books
+        </h1>
 
-        maxWidth: "1100px",
+        <p className="text-gray-300 mt-4 text-xl">
+          Downloadable eBooks focused on Economic Self Defense.
+        </p>
 
-        margin: "0 auto",
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
 
-        padding: "60px 20px"
+          <div className="bg-[#151b2d] rounded-2xl p-8">
 
-      }}
+            <h2 className="text-3xl font-bold text-red-500">
+              Business Is About Profit
+            </h2>
 
-    >
+            <p className="mt-4 text-gray-300">
+              Learn why profit—not revenue—is the foundation of every successful business.
+            </p>
 
-      <h1>
+            <div className="mt-8 flex items-center justify-between">
 
-        Books
+              <span className="text-3xl font-bold">
+                $9.99
+              </span>
 
-      </h1>
+              <button className="bg-red-600 px-6 py-3 rounded-xl font-bold">
+                Buy Now
+              </button>
 
-      <ul>
+            </div>
 
-        <li>
+          </div>
 
-          Business Is About Making Profit
+        </div>
 
-        </li>
-
-        <li>
-
-          Economic Self Defense
-
-        </li>
-
-        <li>
-
-          Building Wealth Through Paper Assets
-
-        </li>
-
-        <li>
-
-          Building Wealth Through Real Estate
-
-        </li>
-
-      </ul>
-
-      <p>
-
-        Available as:
-
-      </p>
-
-      <ul>
-
-        <li>Digital Books</li>
-
-        <li>PDF Downloads</li>
-
-        <li>Audio Books</li>
-
-      </ul>
+      </section>
 
     </main>
-
   );
-
 }
