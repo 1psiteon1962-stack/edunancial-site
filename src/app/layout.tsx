@@ -1,12 +1,13 @@
 import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Edunancial",
-  description: "Financial literacy platform for wealth building, business readiness, and access to capital."
+  description: "Financial Literacy for Ordinary People",
 };
 
 export default function RootLayout({
-  children
+  children,
 }: {
   children: React.ReactNode;
 }) {
