@@ -1,36 +1,47 @@
-import DownloadCard from "@/components/DownloadCard";
-import { downloads } from "@/lib/downloads";
-
 export default function DownloadsPage() {
+
   return (
+
     <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <div className="mx-auto max-w-5xl px-6 py-20">
 
         <h1 className="text-5xl font-black">
+
           My Downloads
+
         </h1>
 
-        <p className="text-gray-300 mt-5">
-          All purchased products appear here.
+        <p className="mt-6 text-gray-300 text-xl">
+
+          Purchased ebooks, flashcard packs,
+          worksheets, and future courses will
+          appear here.
+
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="mt-16 rounded-2xl bg-[#151b2d] p-8">
 
-          {downloads.map((book) => (
+          <h2 className="text-2xl font-bold">
 
-            <DownloadCard
-              key={book.id}
-              title={book.title}
-              filename={book.filename}
-            />
+            No purchases yet
 
-          ))}
+          </h2>
+
+          <p className="mt-4 text-gray-400">
+
+            After completing a Square payment,
+            your purchased products will be
+            available here for download.
+
+          </p>
 
         </div>
 
-      </section>
+      </div>
 
     </main>
+
   );
+
 }
