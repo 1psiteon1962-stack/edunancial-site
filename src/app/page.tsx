@@ -2,72 +2,154 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#0a0f1e] text-white">
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-      <section className="max-w-7xl mx-auto px-6 py-20 text-center">
+      {/* HERO */}
 
-        <p className="uppercase tracking-[8px] text-gray-400 mb-8">
-          Financial Literacy For Ordinary People
-        </p>
+      <section className="relative overflow-hidden">
 
-        <h1 className="text-6xl md:text-8xl font-black leading-none">
+        <div className="mx-auto max-w-7xl px-6 py-28 text-center">
 
-          <span className="text-red-500">RED.</span>
+          <p className="text-lg uppercase tracking-[0.45em] text-gray-400">
 
-          <br />
+            Financial Literacy for Ordinary People
 
-          <span className="text-white">WHITE.</span>
+          </p>
 
-          <br />
+          <h1 className="mt-10 text-7xl md:text-8xl font-black leading-none">
 
-          <span className="text-blue-500">BLUE.</span>
+            <span className="block text-red-500">
+              RED.
+            </span>
 
-        </h1>
+            <span className="block text-white">
+              WHITE.
+            </span>
 
-        <div className="flex mt-10 h-2 rounded-full overflow-hidden">
+            <span className="block text-blue-500">
+              BLUE.
+            </span>
 
-          <div className="w-1/3 bg-red-500"></div>
+          </h1>
 
-          <div className="w-1/3 bg-white"></div>
+          <div className="mx-auto mt-10 h-2 w-full max-w-4xl rounded-full bg-gradient-to-r from-red-600 via-white to-blue-600" />
 
-          <div className="w-1/3 bg-blue-500"></div>
+          <p className="mx-auto mt-12 max-w-4xl text-3xl leading-relaxed text-gray-300">
+
+            Real Estate. Paper Assets. Business.
+
+          </p>
+
+          <p className="mx-auto mt-5 max-w-4xl text-2xl leading-relaxed text-gray-400">
+
+            Three Pillars. One Mission.
+
+            <br />
+
+            Economic Self Defense.
+
+          </p>
+
+          <div className="mt-16 flex flex-wrap justify-center gap-6">
+
+            <Link
+              href="/books"
+              className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
+            >
+              Explore Books
+            </Link>
+
+            <Link
+              href="/terms"
+              className="rounded-xl border border-white px-10 py-5 text-xl font-bold hover:bg-white hover:text-black"
+            >
+              Financial Terms
+            </Link>
+
+          </div>
 
         </div>
 
-        <p className="mt-10 text-3xl text-gray-300">
+      </section>
 
-          Real Estate. Paper Assets. Business.
+      {/* RED */}
+
+      <section className="mx-auto max-w-7xl px-6 py-24">
+
+        <h2 className="text-5xl font-black text-red-500">
+
+          RED — Real Estate
+
+        </h2>
+
+        <p className="mt-8 text-xl text-gray-300">
+
+          Rental Property • Tax Liens • Tax Deeds • Creative Financing •
+          Commercial Real Estate • 1031 Exchanges
 
         </p>
 
-        <p className="mt-3 text-2xl text-gray-400">
+      </section>
 
-          Three pillars. One mission — Economic Self Defense.
+      {/* WHITE */}
+
+      <section className="bg-[#111827]">
+
+        <div className="mx-auto max-w-7xl px-6 py-24">
+
+          <h2 className="text-5xl font-black">
+
+            WHITE — Paper Assets
+
+          </h2>
+
+          <p className="mt-8 text-xl text-gray-300">
+
+            Budgeting • Stocks • ETFs • Options • Precious Metals •
+            Retirement Accounts • Risk Management
+
+          </p>
+
+        </div>
+
+      </section>
+
+      {/* BLUE */}
+
+      <section className="mx-auto max-w-7xl px-6 py-24">
+
+        <h2 className="text-5xl font-black text-blue-500">
+
+          BLUE — Business
+
+        </h2>
+
+        <p className="mt-8 text-xl text-gray-300">
+
+          Entrepreneurship • Marketing • Pricing • KPIs • Inventory •
+          Profit • Scaling
 
         </p>
 
-        <div className="mt-14 flex flex-col md:flex-row gap-5 justify-center">
+      </section>
 
-          <Link
-            href="/books"
-            className="bg-red-600 px-8 py-4 rounded-xl font-bold"
-          >
-            Books
-          </Link>
+      {/* FOOTER */}
 
-          <Link
-            href="/courses"
-            className="bg-blue-600 px-8 py-4 rounded-xl font-bold"
-          >
-            Courses
-          </Link>
+      <section className="bg-[#0b1326]">
 
-          <Link
-            href="/terms"
-            className="bg-white text-black px-8 py-4 rounded-xl font-bold"
-          >
-            Financial Terms
-          </Link>
+        <div className="mx-auto max-w-7xl px-6 py-20 text-center">
+
+          <h2 className="text-5xl font-black">
+
+            Economic Self Defense
+
+          </h2>
+
+          <p className="mt-8 text-xl text-gray-300">
+
+            Learn. Earn. Save. Invest. Build Wealth.
+
+          </p>
 
         </div>
 
