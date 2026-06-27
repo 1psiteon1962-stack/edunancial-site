@@ -1,93 +1,38 @@
 export default function DownloadsPage() {
-
   return (
+    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-    <main
+      <section className="max-w-5xl mx-auto px-6 py-20">
 
-      style={{
+        <h1 className="text-5xl font-black">
+          My Downloads
+        </h1>
 
-        maxWidth: "1100px",
+        <p className="mt-4 text-xl text-gray-300">
+          Purchased books, guides and future courses will appear here.
+        </p>
 
-        margin: "0 auto",
+        <div className="mt-12 bg-[#151b2d] rounded-2xl p-8">
 
-        padding: "60px 20px"
+          <h2 className="text-2xl font-bold">
+            Business Is About Profit
+          </h2>
 
-      }}
+          <p className="mt-3 text-gray-400">
+            Purchase required.
+          </p>
 
-    >
+          <button
+            disabled
+            className="mt-8 px-6 py-3 rounded-xl bg-gray-700 text-gray-400 cursor-not-allowed"
+          >
+            Download Locked
+          </button>
 
-      <h1>
+        </div>
 
-        Downloads
-
-      </h1>
-
-      <p>
-
-        Practical tools you can use immediately.
-
-      </p>
-
-      <ul>
-
-        <li>
-
-          10 Rules to Build Wealth
-
-        </li>
-
-        <li>
-
-          Budget Worksheet
-
-        </li>
-
-        <li>
-
-          Emergency Fund Worksheet
-
-        </li>
-
-        <li>
-
-          Net Worth Tracker
-
-        </li>
-
-        <li>
-
-          Profit Calculator
-
-        </li>
-
-        <li>
-
-          Investment Tracker
-
-        </li>
-
-        <li>
-
-          Mortgage Worksheet
-
-        </li>
-
-        <li>
-
-          Rental Property Worksheet
-
-        </li>
-
-        <li>
-
-          Tax Lien Checklist
-
-        </li>
-
-      </ul>
+      </section>
 
     </main>
-
   );
-
 }
