@@ -2,91 +2,97 @@ export default function TermsPage() {
 
   return (
 
-    <main
+    <main className="min-h-screen bg-[#0a0f1e] text-white p-8">
 
-      style={{
+      <div className="max-w-5xl mx-auto">
 
-        maxWidth: "1000px",
+        <h1 className="text-5xl font-black mb-4">
 
-        margin: "0 auto",
+          Financial Terms
 
-        padding: "60px 20px"
+        </h1>
 
-      }}
+        <p className="text-xl text-gray-300 mb-12">
 
-    >
+          Learn the language of wealth through the Red, White, Blue framework.
 
-      <h1>
+        </p>
 
-        Terms and Conditions
+        <div className="grid gap-8">
 
-      </h1>
+          <div className="rounded-xl bg-[#141826] p-8 border border-blue-700">
 
-      <h2>
+            <h2 className="text-3xl font-bold">
 
-        Educational Purposes
+              Business Foundations
 
-      </h2>
+            </h2>
 
-      <p>
+            <p className="mt-3">
 
-        Edunancial provides educational information only.
+              FREE • 50 Terms
 
-      </p>
+            </p>
 
-      <p>
+            <button className="mt-6 bg-blue-600 px-6 py-3 rounded-lg font-bold">
 
-        Nothing on this website constitutes:
+              Study Free
 
-      </p>
+            </button>
 
-      <ul>
+          </div>
 
-        <li>Legal advice</li>
+          <div className="rounded-xl bg-[#141826] p-8">
 
-        <li>Financial advice</li>
+            <h2 className="text-3xl font-bold text-red-500">
 
-        <li>Investment advice</li>
+              Real Estate Basics
 
-        <li>Tax advice</li>
+            </h2>
 
-        <li>Accounting advice</li>
+            <p className="mt-3">
 
-      </ul>
+              $0.99 • 50 Terms
 
-      <h2>
+            </p>
 
-        No Guarantees
+          </div>
 
-      </h2>
+          <div className="rounded-xl bg-[#141826] p-8">
 
-      <p>
+            <h2 className="text-3xl font-bold">
 
-        Past results do not guarantee future outcomes.
+              Paper Assets Basics
 
-      </p>
+            </h2>
 
-      <p>
+            <p className="mt-3">
 
-        Users are responsible for
+              $0.99 • 50 Terms
 
-        their own decisions.
+            </p>
 
-      </p>
+          </div>
 
-      <h2>
+          <div className="rounded-xl bg-[#141826] p-8">
 
-        Governing Law
+            <h2 className="text-3xl font-bold text-blue-500">
 
-      </h2>
+              Sales & Marketing
 
-      <p>
+            </h2>
 
-        These terms are governed
+            <p className="mt-3">
 
-        by applicable United States law.
+              $0.99 • 50 Terms
 
-      </p>
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </main>
 
