@@ -1,119 +1,46 @@
-import { memberships } from "../../data/memberships";
-
 export default function MembershipPage() {
-
   return (
+    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-    <main
+      <section className="max-w-5xl mx-auto px-6 py-20">
 
-      style={{
+        <h1 className="text-5xl font-black">
+          Edunancial Membership
+        </h1>
 
-        maxWidth: "1100px",
+        <p className="mt-5 text-xl text-gray-300">
+          One membership. Unlimited financial education.
+        </p>
 
-        margin: "0 auto",
+        <div className="grid md:grid-cols-3 gap-8 mt-16">
 
-        padding: "60px 20px"
+          <div className="bg-[#151b2d] rounded-2xl p-8">
 
-      }}
+            <h2 className="text-2xl font-bold">
+              Monthly
+            </h2>
 
-    >
+            <div className="text-5xl font-black mt-6">
+              $19
+            </div>
 
-      <h1>
+            <ul className="mt-8 space-y-3 text-gray-300">
+              <li>✔ All eBooks</li>
+              <li>✔ Financial Terms App</li>
+              <li>✔ Future Courses</li>
+              <li>✔ Updates Included</li>
+            </ul>
 
-        Membership
+            <button className="mt-10 w-full rounded-xl bg-blue-600 py-4 font-bold">
+              Subscribe
+            </button>
 
-      </h1>
+          </div>
 
-      <p>
+        </div>
 
-        Recurring value through education,
-        ownership, and economic self-defense.
-
-      </p>
-
-      <div
-
-        style={{
-
-          display: "grid",
-
-          gridTemplateColumns:
-            "repeat(auto-fit,minmax(300px,1fr))",
-
-          gap: "20px",
-
-          marginTop: "40px"
-
-        }}
-
-      >
-
-        {
-
-          memberships.map((membership) => (
-
-            <section
-
-              key={membership.name}
-
-              style={{
-
-                border: "1px solid #ddd",
-
-                borderRadius: "12px",
-
-                padding: "24px"
-
-              }}
-
-            >
-
-              <h2>
-
-                {membership.name}
-
-              </h2>
-
-              <h3>
-
-                {membership.monthly}/month
-
-              </h3>
-
-              <p>
-
-                {membership.description}
-
-              </p>
-
-              <ul>
-
-                {
-
-                  membership.features.map((feature) => (
-
-                    <li key={feature}>
-
-                      {feature}
-
-                    </li>
-
-                  ))
-
-                }
-
-              </ul>
-
-            </section>
-
-          ))
-
-        }
-
-      </div>
+      </section>
 
     </main>
-
   );
-
 }
