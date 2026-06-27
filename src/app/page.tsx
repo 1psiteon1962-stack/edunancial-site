@@ -1,178 +1,78 @@
+import Link from "next/link";
+
 export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-return (
+      <section className="max-w-7xl mx-auto px-6 py-20 text-center">
 
-<main style={{fontFamily:"Arial, sans-serif"}}>
+        <p className="uppercase tracking-[8px] text-gray-400 mb-8">
+          Financial Literacy For Ordinary People
+        </p>
 
-<section
-style={{
-background:"#0B1F3A",
-color:"white",
-padding:"80px 20px",
-textAlign:"center"
-}}
->
+        <h1 className="text-6xl md:text-8xl font-black leading-none">
 
-<h1
-style={{
-fontSize:"3rem",
-fontWeight:"bold",
-marginBottom:"20px"
-}}
->
-Edunancial
-</h1>
+          <span className="text-red-500">RED.</span>
 
-<p
-style={{
-fontSize:"1.4rem",
-maxWidth:"900px",
-margin:"0 auto"
-}}
->
+          <br />
 
-Financial literacy for ordinary people.
+          <span className="text-white">WHITE.</span>
 
-Red. White. Blue.
+          <br />
 
-Learn Real Estate, Paper Assets, and Business.
+          <span className="text-blue-500">BLUE.</span>
 
-Build Economic Self Defense.
+        </h1>
 
-</p>
+        <div className="flex mt-10 h-2 rounded-full overflow-hidden">
 
-</section>
+          <div className="w-1/3 bg-red-500"></div>
 
-<section
-style={{
-padding:"60px 20px",
-maxWidth:"1100px",
-margin:"auto"
-}}
->
+          <div className="w-1/3 bg-white"></div>
 
-<h2 style={{color:"#C62828"}}>
+          <div className="w-1/3 bg-blue-500"></div>
 
-RED — Real Estate
+        </div>
 
-</h2>
+        <p className="mt-10 text-3xl text-gray-300">
 
-<ul>
+          Real Estate. Paper Assets. Business.
 
-<li>Rental Properties</li>
+        </p>
 
-<li>Tax Liens</li>
+        <p className="mt-3 text-2xl text-gray-400">
 
-<li>Tax Deeds</li>
+          Three pillars. One mission — Economic Self Defense.
 
-<li>Creative Financing</li>
+        </p>
 
-<li>1031 Exchanges</li>
+        <div className="mt-14 flex flex-col md:flex-row gap-5 justify-center">
 
-<li>Commercial Real Estate</li>
+          <Link
+            href="/books"
+            className="bg-red-600 px-8 py-4 rounded-xl font-bold"
+          >
+            Books
+          </Link>
 
-</ul>
+          <Link
+            href="/courses"
+            className="bg-blue-600 px-8 py-4 rounded-xl font-bold"
+          >
+            Courses
+          </Link>
 
-</section>
+          <Link
+            href="/terms"
+            className="bg-white text-black px-8 py-4 rounded-xl font-bold"
+          >
+            Financial Terms
+          </Link>
 
-<section
-style={{
-padding:"60px 20px",
-background:"#f7f7f7"
-}}
->
+        </div>
 
-<div style={{maxWidth:"1100px",margin:"auto"}}>
+      </section>
 
-<h2 style={{color:"#666"}}>
-
-WHITE — Paper Assets
-
-</h2>
-
-<ul>
-
-<li>Budgeting</li>
-
-<li>Stocks</li>
-
-<li>ETFs</li>
-
-<li>Options</li>
-
-<li>Precious Metals</li>
-
-<li>Retirement Accounts</li>
-
-<li>Risk Management</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<section
-style={{
-padding:"60px 20px",
-maxWidth:"1100px",
-margin:"auto"
-}}
->
-
-<h2 style={{color:"#0D47A1"}}>
-
-BLUE — Business
-
-</h2>
-
-<ul>
-
-<li>Entrepreneurship</li>
-
-<li>Marketing</li>
-
-<li>Pricing</li>
-
-<li>KPIs</li>
-
-<li>Inventory</li>
-
-<li>Profit</li>
-
-<li>Scaling</li>
-
-</ul>
-
-</section>
-
-<section
-style={{
-padding:"60px 20px",
-background:"#0B1F3A",
-color:"white",
-textAlign:"center"
-}}
->
-
-<h2>
-
-Economic Self Defense
-
-</h2>
-
-<p>
-
-Knowledge is a form of protection.
-
-Learn how to earn, save, invest, and build wealth.
-
-</p>
-
-</section>
-
-</main>
-
-);
-
+    </main>
+  );
 }
