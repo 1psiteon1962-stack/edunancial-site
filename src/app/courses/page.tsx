@@ -1,110 +1,52 @@
-import { courses } from "../../data/courses";
-
 export default function CoursesPage() {
 
   return (
 
-    <main
-      style={{
-        maxWidth: "1100px",
-        margin: "0 auto",
-        padding: "60px 20px"
-      }}
-    >
+    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-      <h1>
+      <section className="max-w-6xl mx-auto px-6 py-20">
 
-        Courses
+        <h1 className="text-5xl md:text-6xl font-black">
 
-      </h1>
+          Edunancial Courses
 
-      <p
-        style={{
-          fontSize: "22px",
-          lineHeight: "1.7"
-        }}
-      >
+        </h1>
 
-        Financial literacy, ownership,
-        business, paper assets,
-        real estate, and
-        economic self-defense.
+        <p className="text-xl text-gray-300 mt-4">
 
-      </p>
+          Complete financial literacy programs built around the Red • White • Blue framework.
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns:
-            "repeat(auto-fit,minmax(300px,1fr))",
-          gap: "20px",
-          marginTop: "40px"
-        }}
-      >
+        </p>
 
-        {
+        <div className="mt-16 bg-[#151b2d] rounded-2xl p-10">
 
-          courses.map((course) => (
+          <h2 className="text-3xl font-bold">
 
-            <section
+            Coming Soon
 
-              key={course.id}
+          </h2>
 
-              style={{
+          <p className="mt-4 text-gray-300">
 
-                border: "1px solid #ddd",
+            Our full learning platform is currently being completed.
 
-                padding: "24px",
+          </p>
 
-                borderRadius: "12px"
+          <ul className="mt-8 space-y-3 text-lg">
 
-              }}
+            <li>• Real Estate</li>
 
-            >
+            <li>• Paper Assets</li>
 
-              <h2>
+            <li>• Business</li>
 
-                {course.title}
+            <li>• Economic Self Defense</li>
 
-              </h2>
+          </ul>
 
-              <p>
+        </div>
 
-                {course.description}
-
-              </p>
-
-              <h3>
-
-                Lessons
-
-              </h3>
-
-              <ol>
-
-                {
-
-                  course.lessons.map((lesson) => (
-
-                    <li key={lesson}>
-
-                      {lesson}
-
-                    </li>
-
-                  ))
-
-                }
-
-              </ol>
-
-            </section>
-
-          ))
-
-        }
-
-      </div>
+      </section>
 
     </main>
 
