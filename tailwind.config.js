@@ -1,22 +1,25 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from "tailwindcss";
 
-module.exports = {
+const config: Config = {
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/lib/**/*.{js,ts,jsx,tsx,mdx}"
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        edublue: {
-          DEFAULT: "#0b4b8f"
+        edunancial: {
+          background: "#08101f",
+          card: "#151b2d",
+          red: "#dc2626",
+          white: "#f8fafc",
+          blue: "#2563eb",
         },
-        edugold: {
-          DEFAULT: "#f1c40f"
-        }
-      }
-    }
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
+
+export default config;
