@@ -1,26 +1,28 @@
 export type TermColor = "red" | "white" | "blue";
 
-export type TermCard = {
-  term: string;
-  full: string;
-  definition: string;
-};
-
-export type TermPack = {
+export interface FinancialTerm {
   id: string;
-  color: TermColor;
-  title: string;
-  subtitle: string;
+  term: string;
+  fullName?: string;
+  definition: string;
+  category: TermColor;
   free: boolean;
-  price: number | null;
-  cards: TermCard[];
-};
+  packId: string;
+  related?: string[];
+}
 
-export const TERM_COLORS = {
-  red: {
-    hex: "#dc2626",
-    label: "Real Estate",
-    emoji: "🏠",
-  },
-  white: {
-   
+export interface TermPack {
+  id: string;
+  title: string;
+  description: string;
+  color: TermColor;
+  price: number;
+  free: boolean;
+  icon: string;
+}
+
+export const COLORS = {
+  red: "#dc2626",
+  white: "#ffffff",
+  blue: "#2563eb",
+};
