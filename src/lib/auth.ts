@@ -1,19 +1,23 @@
-// src/lib/auth.ts
+export interface User {
 
-export type AdminUser = {
   id: string;
-  email: string;
-  role: "admin";
-};
 
-export function requireAdmin(): AdminUser {
-  return {
-    id: "build-placeholder",
-    email: "admin@example.com",
-    role: "admin",
-  };
+  email: string;
+
+  firstName: string;
+
+  lastName: string;
+
 }
 
-export function isAdmin(): boolean {
-  return true;
+export function isLoggedIn(): boolean {
+
+  return false;
+
+}
+
+export function currentUser(): User | null {
+
+  return null;
+
 }
