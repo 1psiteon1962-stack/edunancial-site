@@ -1,37 +1,62 @@
-import BookUploadForm from "@/components/BookUploadForm";
+export default function AdminBooksPage(){
 
-export default function AdminBooksPage() {
+return(
 
-  return (
+<main className="min-h-screen bg-[#08101f] text-white p-10">
 
-    <main className="min-h-screen bg-[#08101f] text-white">
+<h1 className="text-6xl font-black">
+Book Administration
+</h1>
 
-      <section className="mx-auto max-w-6xl px-6 py-20">
+<div className="grid gap-6 mt-12">
 
-        <h1 className="text-6xl font-black">
+<input
+placeholder="Book Title"
+className="rounded-xl bg-[#101a2f] p-4"
+/>
 
-          Book Administration
+<input
+placeholder="Author"
+className="rounded-xl bg-[#101a2f] p-4"
+/>
 
-        </h1>
+<input
+placeholder="Price"
+className="rounded-xl bg-[#101a2f] p-4"
+/>
 
-        <p className="mt-6 text-xl text-gray-300">
+<select
+className="rounded-xl bg-[#101a2f] p-4"
+>
 
-          Upload new books, cover images,
-          PDFs, prices, Square checkout links,
-          and publish instantly.
+<option>North America</option>
 
-        </p>
+<option>Caribbean</option>
 
-        <div className="mt-16">
+<option>Latin America</option>
 
-          <BookUploadForm />
+<option>Europe</option>
 
-        </div>
+<option>Africa</option>
 
-      </section>
+<option>Middle East</option>
 
-    </main>
+<option>Asia Pacific</option>
 
-  );
+</select>
+
+<button
+className="rounded-xl bg-blue-600 p-4 font-bold"
+>
+
+Upload Book
+
+</button>
+
+</div>
+
+</main>
+
+);
 
 }
