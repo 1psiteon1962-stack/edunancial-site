@@ -1,46 +1,70 @@
 export default function MembershipPage() {
-  return (
-    <main className="min-h-screen bg-[#0a0f1e] text-white">
 
-      <section className="max-w-5xl mx-auto px-6 py-20">
+return(
 
-        <h1 className="text-5xl font-black">
-          Edunancial Membership
-        </h1>
+<main className="min-h-screen bg-[#08101f] text-white px-6 py-20">
 
-        <p className="mt-5 text-xl text-gray-300">
-          One membership. Unlimited financial education.
-        </p>
+<div className="max-w-6xl mx-auto">
 
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+<h1 className="text-6xl font-black">
+MEMBERSHIP
+</h1>
 
-          <div className="bg-[#151b2d] rounded-2xl p-8">
+<p className="mt-6 text-xl text-gray-300">
 
-            <h2 className="text-2xl font-bold">
-              Monthly
-            </h2>
+Become an Edunancial member and receive
+exclusive books,
+courses,
+downloads,
+financial calculators,
+and future member benefits.
 
-            <div className="text-5xl font-black mt-6">
-              $19
-            </div>
+</p>
 
-            <ul className="mt-8 space-y-3 text-gray-300">
-              <li>✔ All eBooks</li>
-              <li>✔ Financial Terms App</li>
-              <li>✔ Future Courses</li>
-              <li>✔ Updates Included</li>
-            </ul>
+<div className="grid gap-8 mt-16 md:grid-cols-3">
 
-            <button className="mt-10 w-full rounded-xl bg-blue-600 py-4 font-bold">
-              Subscribe
-            </button>
+<div className="rounded-2xl bg-[#101a2f] p-8">
 
-          </div>
+<h2 className="text-3xl font-black">
+Basic
+</h2>
 
-        </div>
+<p className="mt-5">
+$9.99/month
+</p>
 
-      </section>
+</div>
 
-    </main>
-  );
+<div className="rounded-2xl bg-blue-700 p-8">
+
+<h2 className="text-3xl font-black">
+Gold
+</h2>
+
+<p className="mt-5">
+$29.99/month
+</p>
+
+</div>
+
+<div className="rounded-2xl bg-[#101a2f] p-8">
+
+<h2 className="text-3xl font-black">
+Lifetime
+</h2>
+
+<p className="mt-5">
+Coming Soon
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+);
+
 }
