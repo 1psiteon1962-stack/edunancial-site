@@ -2,54 +2,79 @@ export default function CoursesPage() {
 
   return (
 
-    <main className="min-h-screen bg-[#0a0f1e] text-white">
+    <main className="min-h-screen bg-[#08101f] text-white px-6 py-20">
 
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto">
 
-        <h1 className="text-5xl md:text-6xl font-black">
-
-          Edunancial Courses
-
+        <h1 className="text-6xl font-black">
+          COURSES
         </h1>
 
-        <p className="text-xl text-gray-300 mt-4">
+        <p className="mt-6 text-gray-300 text-xl">
 
-          Complete financial literacy programs built around the Red • White • Blue framework.
+          Self-paced financial literacy courses
+          designed for desktop, tablet and smartphone.
 
         </p>
 
-        <div className="mt-16 bg-[#151b2d] rounded-2xl p-10">
+        <div className="grid gap-8 mt-16 md:grid-cols-2">
 
-          <h2 className="text-3xl font-bold">
+          <CourseCard
+            title="Red Course"
+            description="Real Estate Wealth Building"
+          />
 
-            Coming Soon
+          <CourseCard
+            title="White Course"
+            description="Paper Assets & Investing"
+          />
 
-          </h2>
+          <CourseCard
+            title="Blue Course"
+            description="Business & Entrepreneurship"
+          />
 
-          <p className="mt-4 text-gray-300">
-
-            Our full learning platform is currently being completed.
-
-          </p>
-
-          <ul className="mt-8 space-y-3 text-lg">
-
-            <li>• Real Estate</li>
-
-            <li>• Paper Assets</li>
-
-            <li>• Business</li>
-
-            <li>• Economic Self Defense</li>
-
-          </ul>
+          <CourseCard
+            title="Economic Self Defense"
+            description="Putting It All Together"
+          />
 
         </div>
 
-      </section>
+      </div>
 
     </main>
 
   );
+
+}
+
+function CourseCard({
+  title,
+  description,
+}:{
+  title:string;
+  description:string;
+}){
+
+return(
+
+<div className="rounded-2xl bg-[#101a2f] border border-white/10 p-8">
+
+<h2 className="text-3xl font-black">
+{title}
+</h2>
+
+<p className="mt-5 text-gray-300">
+{description}
+</p>
+
+<button className="mt-8 rounded-xl bg-blue-600 px-8 py-4 font-bold">
+Coming Soon
+</button>
+
+</div>
+
+);
 
 }
