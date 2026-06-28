@@ -1,17 +1,21 @@
-export interface CourseProgress {
-  userId: string;
-  courseId: string;
-  completedLessons: string[];
-  lastLessonId?: string;
-  updatedAt: string;
+export interface CourseProgress{
+userId:string;
+courseId:string;
+lessonId:string;
+percent:number;
+completed:boolean;
+lastViewed:string;
 }
 
-const KEY = "edunancial-course-progress";
-
-export function getCourseProgress(): CourseProgress[] {
-  if (typeof window === "undefined") return [];
-  const data = localStorage.getItem(KEY);
-  return data ? JSON.parse(data) : [];
+export function updateProgress(
+progress:CourseProgress[],
+item:CourseProgress
+){
+return[
+...progress.filter(p=>!(
+p.userId===item.userId &&
+p.courseId===item.courseId
+)),
+item
+];
 }
-
-export function saveCourseProgress(progress: Course
