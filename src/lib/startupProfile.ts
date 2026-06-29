@@ -1,0 +1,19 @@
+export interface StartupProfile{
+id:string;
+ownerId:string;
+companyName:string;
+industry:string;
+country:string;
+state:string;
+city:string;
+website?:string;
+description:string;
+employees:number;
+annualRevenue:number;
+annualProfit:number;
+stage:"idea"|"startup"|"growth"|"expansion";
+lookingForCapital:boolean;
+publicProfile:boolean;
+createdAt:string;
+updatedAt:string;
+}
