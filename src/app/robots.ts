@@ -1,4 +1,6 @@
-export default function robots(){
+import { MetadataRoute } from "next";
+
+export default function robots(): MetadataRoute.Robots {
 
 return{
 
@@ -10,13 +12,23 @@ userAgent:"*",
 
 allow:"/",
 
-},
+disallow:[
+
+"/admin",
+
+"/api",
+
+"/dashboard"
+
+]
+
+}
 
 ],
 
-sitemap:
+sitemap:"https://www.edunancial.com/sitemap.xml",
 
-"https://www.edunancial.com/sitemap.xml",
+host:"https://www.edunancial.com"
 
 };
 
