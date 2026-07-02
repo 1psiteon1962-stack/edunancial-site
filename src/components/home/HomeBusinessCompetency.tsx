@@ -1,80 +1,84 @@
 import Link from "next/link";
 
-export default function HomeBusinessCompetency(){
+export default function HomeCompetency() {
+  return (
+    <section className="bg-[#111827] py-24">
 
-return(
+      <div className="mx-auto max-w-7xl px-6">
 
-<section className="bg-[#111827] py-24">
+        <p className="font-bold uppercase tracking-[0.4em] text-yellow-400">
+          OUR MISSION
+        </p>
 
-<div className="mx-auto max-w-7xl px-6">
+        <h2 className="mt-6 text-6xl font-black">
+          Financial Competency
+        </h2>
 
-<h2 className="text-6xl font-black">
+        <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+          Financial literacy provides the foundation.
+        </p>
 
-Business Competency
+        <p className="mt-4 max-w-5xl text-2xl font-bold leading-10 text-white">
+          Financial competency is built through disciplined action.
+        </p>
 
-</h2>
+        <div className="mt-20 grid gap-8 md:grid-cols-4">
 
-<p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+          <div className="rounded-xl bg-slate-900 p-8">
+            <h3 className="text-2xl font-black text-red-500">
+              Learn
+            </h3>
 
-Most businesses fail because owners don't know their numbers.
+            <p className="mt-5 text-slate-300">
+              Build financial literacy through structured education.
+            </p>
+          </div>
 
-Revenue.
+          <div className="rounded-xl bg-slate-900 p-8">
+            <h3 className="text-2xl font-black text-blue-400">
+              Practice
+            </h3>
 
-Profit.
+            <p className="mt-5 text-slate-300">
+              Complete real-world missions and simulations.
+            </p>
+          </div>
 
-Cash Flow.
+          <div className="rounded-xl bg-slate-900 p-8">
+            <h3 className="text-2xl font-black text-green-400">
+              Measure
+            </h3>
 
-KPIs.
+            <p className="mt-5 text-slate-300">
+              Track your competency with assessments and dashboards.
+            </p>
+          </div>
 
-Distribution.
+          <div className="rounded-xl bg-slate-900 p-8">
+            <h3 className="text-2xl font-black text-yellow-400">
+              Improve
+            </h3>
 
-Value Chain.
+            <p className="mt-5 text-slate-300">
+              Continue building better financial and business decisions.
+            </p>
+          </div>
 
-Learn to make decisions using measurable data.
+        </div>
 
-</p>
+        <div className="mt-16">
 
-<div className="mt-16 grid gap-8 md:grid-cols-3">
+          <Link
+            href="/assessment"
+            className="rounded-xl bg-blue-600 px-8 py-5 text-xl font-bold hover:bg-blue-700"
+          >
+            Measure Your Competency
+          </Link>
 
-<Card title="Startup"/>
+        </div>
 
-<Card title="Growth"/>
+      </div>
 
-<Card title="Executive"/>
-
-</div>
-
-<Link
-href="/courses/blue"
-className="mt-12 inline-block rounded-xl bg-blue-600 px-8 py-5 font-bold"
->
-
-Explore Business Courses
-
-</Link>
-
-</div>
-
-</section>
-
-);
-
-}
-
-function Card({title}:{title:string}){
-
-return(
-
-<div className="rounded-xl bg-slate-900 p-8">
-
-<h3 className="text-2xl font-black">
-
-{title}
-
-</h3>
-
-</div>
-
-);
-
+    </section>
+  );
 }
