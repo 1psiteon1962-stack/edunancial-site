@@ -7,56 +7,74 @@ export default function HomePage() {
 
       {/* HERO */}
 
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]">
 
         <div className="mx-auto max-w-7xl px-6 py-28 text-center">
 
-          <p className="text-lg uppercase tracking-[0.45em] text-gray-400">
-            Financial Literacy for Ordinary People
+          <p className="uppercase tracking-[0.5em] text-yellow-400 font-bold">
+
+            EDUNANCIAL
+
           </p>
 
           <h1 className="mt-10 text-7xl md:text-8xl font-black leading-none">
 
-            <span className="block text-red-500">
-              RED.
+            BUILD
+
+            <br/>
+
+            <span className="text-blue-500">
+
+              FINANCIAL
+
             </span>
 
             <span className="block text-white">
-              WHITE.
-            </span>
 
-            <span className="block text-blue-500">
-              BLUE.
+              COMPETENCY
+
             </span>
 
           </h1>
 
-          <div className="mx-auto mt-10 h-2 w-full max-w-4xl rounded-full bg-gradient-to-r from-red-600 via-white to-blue-600" />
+          <p className="mx-auto mt-12 max-w-5xl text-3xl leading-relaxed text-slate-300">
 
-          <p className="mx-auto mt-12 max-w-4xl text-3xl leading-relaxed text-gray-300">
-            Real Estate. Paper Assets. Business.
+            Financial literacy provides the foundation.
+
+            <br/>
+
+            Financial competency is built through disciplined action.
+
           </p>
 
-          <p className="mx-auto mt-5 max-w-4xl text-2xl leading-relaxed text-gray-400">
-            Three Pillars. One Mission.
-            <br />
-            Economic Self Defense.
+          <p className="mx-auto mt-10 max-w-5xl text-xl leading-9 text-slate-400">
+
+            Edunancial is the launch pad that helps people take that first step—
+
+            from understanding financial concepts to developing real-world
+
+            financial competency.
+
           </p>
 
           <div className="mt-16 flex flex-wrap justify-center gap-6">
 
             <Link
-              href="/books"
+              href="/assessment"
               className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
             >
-              Explore Books
+
+              Take Assessment
+
             </Link>
 
             <Link
-              href="/terms"
+              href="/courses"
               className="rounded-xl border border-white px-10 py-5 text-xl font-bold hover:bg-white hover:text-black"
             >
-              Financial Terms
+
+              Start Learning
+
             </Link>
 
           </div>
@@ -65,77 +83,158 @@ export default function HomePage() {
 
       </section>
 
-      {/* RED */}
+      {/* JOURNEY */}
 
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="bg-slate-900 py-24">
 
-        <h2 className="text-5xl font-black text-red-500">
-          RED — Real Estate
-        </h2>
+        <div className="mx-auto max-w-6xl">
 
-        <p className="mt-8 text-xl text-gray-300">
-          Rental Property • Tax Liens • Tax Deeds • Creative Financing •
-          Commercial Real Estate • 1031 Exchanges
-        </p>
+          <h2 className="text-center text-5xl font-black">
 
-      </section>
+            Your Journey
 
-      {/* WHITE */}
-
-      <section className="bg-[#111827]">
-
-        <div className="mx-auto max-w-7xl px-6 py-24">
-
-          <h2 className="text-5xl font-black">
-            WHITE — Paper Assets
           </h2>
 
-          <p className="mt-8 text-xl text-gray-300">
-            Budgeting • Stocks • ETFs • Options • Precious Metals •
-            Retirement Accounts • Risk Management
-          </p>
+          <div className="mt-16 space-y-10 text-center">
+
+            <div className="text-3xl font-bold">
+
+              Financial Literacy
+
+            </div>
+
+            <div className="text-5xl text-blue-500">
+
+              ↓
+
+            </div>
+
+            <div className="text-3xl font-bold">
+
+              Financial Competency
+
+            </div>
+
+            <div className="text-5xl text-blue-500">
+
+              ↓
+
+            </div>
+
+            <div className="text-3xl font-bold">
+
+              Economic Competency
+
+            </div>
+
+            <div className="text-5xl text-blue-500">
+
+              ↓
+
+            </div>
+
+            <div className="text-3xl font-bold">
+
+              Business Ownership
+
+            </div>
+
+            <div className="text-5xl text-blue-500">
+
+              ↓
+
+            </div>
+
+            <div className="text-3xl font-bold">
+
+              Wealth Creation
+
+            </div>
+
+          </div>
 
         </div>
 
       </section>
 
-      {/* BLUE */}
+      {/* RED WHITE BLUE */}
 
       <section className="mx-auto max-w-7xl px-6 py-24">
 
-        <h2 className="text-5xl font-black text-blue-500">
-          BLUE — Business
+        <h2 className="text-center text-5xl font-black">
+
+          Choose Your Path
+
         </h2>
 
-        <p className="mt-8 text-xl text-gray-300">
-          Entrepreneurship • Marketing • Pricing • KPIs • Inventory •
-          Profit • Scaling
-        </p>
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
 
-      </section>
+          <div className="rounded-xl bg-red-700 p-10">
 
-      {/* NEW HOMEPAGE CONTENT */}
+            <h3 className="text-5xl font-black">
 
-      <HomePortal />
+              RED
 
-      {/* FOOTER */}
+            </h3>
 
-      <section className="bg-[#0b1326]">
+            <p className="mt-8 text-xl">
 
-        <div className="mx-auto max-w-7xl px-6 py-20 text-center">
+              Learn Real Estate
 
-          <h2 className="text-5xl font-black">
-            Economic Self Defense
-          </h2>
+            </p>
 
-          <p className="mt-8 text-xl text-gray-300">
-            Learn. Earn. Save. Invest. Build Wealth.
-          </p>
+            <p className="mt-6 text-red-100">
+
+              Build Real Estate Competency
+
+            </p>
+
+          </div>
+
+          <div className="rounded-xl bg-slate-100 p-10 text-slate-900">
+
+            <h3 className="text-5xl font-black">
+
+              WHITE
+
+            </h3>
+
+            <p className="mt-8 text-xl">
+
+              Learn Investing
+
+            </p>
+
+            <p className="mt-6">
+
+              Build Financial Competency
+
+            </p>
+
+          </div>
+
+          <div className="rounded-xl bg-blue-700 p-10">
+
+            <h3 className="text-5xl font-black">
+
+              BLUE
+
+            </h3>
+
+            <p className="mt-8 text-xl">
+
+              Learn Business
+
+            </p>
+
+            <p className="mt-6 text-blue-100">
+
+              Build Entrepreneurial Competency
+
+            </p>
+
+          </div>
 
         </div>
 
       </section>
-
-    </main>
-  );
-}
