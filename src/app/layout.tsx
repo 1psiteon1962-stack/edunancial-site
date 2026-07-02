@@ -1,19 +1,39 @@
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import AnnouncementBar from "@/components/layout/AnnouncementBar";
+
+export const metadata = {
   title: "Edunancial",
-  description: "Financial Literacy for Ordinary People",
+  description:
+    "Financial literacy provides the foundation. Financial competency is built through disciplined action.",
 };
 
 export default function RootLayout({
   children,
-}: {
+}:{
   children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+}){
+
+return(
+
+<html lang="en">
+
+<body className="bg-[#08101f] text-white">
+
+<AnnouncementBar/>
+
+<Navbar/>
+
+{children}
+
+<Footer/>
+
+</body>
+
+</html>
+
+);
+
 }
