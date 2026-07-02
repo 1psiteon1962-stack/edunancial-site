@@ -1,83 +1,79 @@
-export default function EconomicSelfDefensePage() {
+export default function EconomicSelfDefensePage(){
 
-  return (
+return(
 
-    <main
-      style={{
-        maxWidth: "1100px",
-        margin: "0 auto",
-        padding: "60px 20px"
-      }}
-    >
+<main className="min-h-screen bg-[#08101f] text-white">
 
-      <h1>
+<section className="mx-auto max-w-6xl px-6 py-24">
 
-        Economic Self Defense
+<h1 className="text-7xl font-black">
 
-      </h1>
+Economic
+<br/>
+Self-Defense
 
-      <p
-        style={{
-          fontSize: "24px",
-          lineHeight: "1.8"
-        }}
-      >
+</h1>
 
-        Most people are never taught how money works.
+<p className="mt-10 text-2xl leading-10 text-slate-300">
 
-        Economic self-defense means learning how to protect yourself financially,
-        build options, and make better decisions over your lifetime.
+Economic self-defense means preparing yourself and your family
+to make informed financial and business decisions regardless of
+where you live or what the economy is doing.
 
-      </p>
+</p>
 
-      <h2>
+<div className="mt-20 grid gap-8 md:grid-cols-2">
 
-        Protect Yourself From:
+<div className="rounded-xl bg-slate-900 p-8">
 
-      </h2>
+<h2 className="text-3xl font-black">
 
-      <ul>
+Protect Yourself
 
-        <li>Debt</li>
+</h2>
 
-        <li>Inflation</li>
+<ul className="mt-8 space-y-4">
 
-        <li>Scams</li>
+<li>Understand debt.</li>
 
-        <li>Poor Contracts</li>
+<li>Build savings.</li>
 
-        <li>Bad Investments</li>
+<li>Manage risk.</li>
 
-        <li>Job Loss</li>
+<li>Protect your income.</li>
 
-        <li>Lifestyle Inflation</li>
+</ul>
 
-      </ul>
+</div>
 
-      <h2>
+<div className="rounded-xl bg-slate-900 p-8">
 
-        Learn How To:
+<h2 className="text-3xl font-black">
 
-      </h2>
+Build Opportunity
 
-      <ul>
+</h2>
 
-        <li>Create Emergency Funds</li>
+<ul className="mt-8 space-y-4">
 
-        <li>Understand Taxes</li>
+<li>Start businesses.</li>
 
-        <li>Build Multiple Income Streams</li>
+<li>Create investments.</li>
 
-        <li>Own Productive Assets</li>
+<li>Develop multiple income streams.</li>
 
-        <li>Protect Purchasing Power</li>
+<li>Think long term.</li>
 
-        <li>Build Long-Term Wealth</li>
+</ul>
 
-      </ul>
+</div>
 
-    </main>
+</div>
 
-  );
+</section>
+
+</main>
+
+);
 
 }
