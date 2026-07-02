@@ -1,80 +1,85 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "Courses | Edunancial",
+};
+
+const tracks = [
+  {
+    color: "RED",
+    title: "Real Estate Competency",
+    description:
+      "Residential • Commercial • Tax Liens • Tax Deeds • 1031 Exchanges • Creative Financing",
+    href: "/courses/red",
+    bg: "bg-red-700",
+  },
+  {
+    color: "WHITE",
+    title: "Financial Asset Competency",
+    description:
+      "Budgeting • Credit • Stocks • ETFs • Options • Precious Metals • Retirement",
+    href: "/courses/white",
+    bg: "bg-white text-black",
+  },
+  {
+    color: "BLUE",
+    title: "Business Competency",
+    description:
+      "Entrepreneurship • Marketing • KPIs • Profit • Leadership • Scaling",
+    href: "/courses/blue",
+    bg: "bg-blue-700",
+  },
+];
+
 export default function CoursesPage() {
-
   return (
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-    <main className="min-h-screen bg-[#08101f] text-white px-6 py-20">
+      <section className="mx-auto max-w-7xl px-6 py-24">
 
-      <div className="max-w-7xl mx-auto">
-
-        <h1 className="text-6xl font-black">
-          COURSES
-        </h1>
-
-        <p className="mt-6 text-gray-300 text-xl">
-
-          Self-paced financial literacy courses
-          designed for desktop, tablet and smartphone.
-
+        <p className="uppercase tracking-[0.4em] text-yellow-400 font-bold">
+          COURSE LIBRARY
         </p>
 
-        <div className="grid gap-8 mt-16 md:grid-cols-2">
+        <h1 className="mt-8 text-7xl font-black">
+          Build Financial Competency
+        </h1>
 
-          <CourseCard
-            title="Red Course"
-            description="Real Estate Wealth Building"
-          />
+        <p className="mt-10 max-w-5xl text-2xl text-slate-300 leading-10">
+          Financial literacy provides the foundation.
+          Financial competency is built through disciplined action.
+        </p>
 
-          <CourseCard
-            title="White Course"
-            description="Paper Assets & Investing"
-          />
+        <div className="mt-20 grid gap-8 md:grid-cols-3">
 
-          <CourseCard
-            title="Blue Course"
-            description="Business & Entrepreneurship"
-          />
+          {tracks.map((track) => (
 
-          <CourseCard
-            title="Economic Self Defense"
-            description="Putting It All Together"
-          />
+            <Link
+              key={track.color}
+              href={track.href}
+              className={`${track.bg} rounded-xl p-10`}
+            >
+
+              <h2 className="text-5xl font-black">
+                {track.color}
+              </h2>
+
+              <h3 className="mt-8 text-2xl font-bold">
+                {track.title}
+              </h3>
+
+              <p className="mt-6 text-lg">
+                {track.description}
+              </p>
+
+            </Link>
+
+          ))}
 
         </div>
 
-      </div>
+      </section>
 
     </main>
-
   );
-
-}
-
-function CourseCard({
-  title,
-  description,
-}:{
-  title:string;
-  description:string;
-}){
-
-return(
-
-<div className="rounded-2xl bg-[#101a2f] border border-white/10 p-8">
-
-<h2 className="text-3xl font-black">
-{title}
-</h2>
-
-<p className="mt-5 text-gray-300">
-{description}
-</p>
-
-<button className="mt-8 rounded-xl bg-blue-600 px-8 py-4 font-bold">
-Coming Soon
-</button>
-
-</div>
-
-);
-
 }
