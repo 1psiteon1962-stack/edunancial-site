@@ -1,49 +1,59 @@
-export default function AICoach(){
+export const metadata = {
+  title: "AI Financial Coach | Edunancial",
+};
 
-return(
+const features = [
+  "Personal Financial Coach",
+  "Business Coach",
+  "Investment Guidance",
+  "Course Recommendations",
+  "Book Recommendations",
+  "Goal Tracking",
+  "Competency Analysis",
+  "24/7 AI Assistance",
+];
 
-<main className="min-h-screen bg-slate-100">
+export default function AICoachPage() {
 
-<div className="max-w-7xl mx-auto p-10">
+  return (
 
-<h1 className="text-5xl font-bold">
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-AI Learning Coach
+      <section className="mx-auto max-w-7xl px-6 py-24">
 
-</h1>
+        <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
+          AI FINANCIAL COACH
+        </p>
 
-<div className="grid lg:grid-cols-2 gap-8 mt-10">
+        <h1 className="mt-6 text-6xl font-black">
+          Learn Smarter.
+          <br />
+          Grow Faster.
+        </h1>
 
-<div className="rounded-xl bg-white shadow p-8">
+        <div className="mt-20 grid gap-8 md:grid-cols-2">
 
-Ask Questions
+          {features.map((feature) => (
 
-</div>
+            <div
+              key={feature}
+              className="rounded-xl bg-slate-900 p-8"
+            >
 
-<div className="rounded-xl bg-white shadow p-8">
+              <h2 className="text-2xl font-black">
+                {feature}
+              </h2>
 
-Voice Conversation
+            </div>
 
-</div>
+          ))}
 
-<div className="rounded-xl bg-white shadow p-8">
+        </div>
 
-Recommended Courses
+      </section>
 
-</div>
+    </main>
 
-<div className="rounded-xl bg-white shadow p-8">
-
-Today's Goals
-
-</div>
-
-</div>
-
-</div>
-
-</main>
-
-);
+  );
 
 }
