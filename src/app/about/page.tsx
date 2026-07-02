@@ -1,120 +1,63 @@
-export default function AboutPage() {
+import Link from "next/link";
 
-  return (
+export default function AboutPage(){
 
-    <main
+return(
 
-      style={{
+<main className="min-h-screen bg-[#08101f] text-white">
 
-        maxWidth: "1100px",
+<section className="mx-auto max-w-6xl px-6 py-24 text-center">
 
-        margin: "0 auto",
+<h1 className="text-7xl font-black">
 
-        padding: "60px 20px"
+About
+Edunancial
 
-      }}
+</h1>
 
-    >
+<p className="mx-auto mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
 
-      <h1>
+Edunancial is an educational platform dedicated to helping
+people develop Financial Competency through practical learning,
+real-world application, and continuous improvement.
 
-        About Edunancial
+</p>
 
-      </h1>
+<div className="mt-20 flex flex-wrap justify-center gap-6">
 
-      <p
+<Link
+href="/why-edunancial"
+className="rounded-xl bg-blue-600 px-8 py-5 text-xl font-bold"
+>
 
-        style={{
+Our Story
 
-          fontSize: "22px",
+</Link>
 
-          lineHeight: "1.8"
+<Link
+href="/philosophy"
+className="rounded-xl border border-white px-8 py-5 text-xl font-bold"
+>
 
-        }}
+Our Philosophy
 
-      >
+</Link>
 
-        Edunancial began when my son was
-        11 years old and asked if he
-        could work with his head instead
-        of only with his hands.
+<Link
+href="/economic-self-defense"
+className="rounded-xl border border-white px-8 py-5 text-xl font-bold"
+>
 
-      </p>
+Economic Self-Defense
 
-      <p>
+</Link>
 
-        That simple question led to years
-        of learning about financial literacy,
-        ownership, investing,
-        business, and wealth creation.
+</div>
 
-      </p>
+</section>
 
-      <p>
+</main>
 
-        Today Edunancial teaches:
-
-      </p>
-
-      <ul>
-
-        <li>
-
-          Financial Literacy
-
-        </li>
-
-        <li>
-
-          Economic Self Defense
-
-        </li>
-
-        <li>
-
-          Blue: Business Ownership
-
-        </li>
-
-        <li>
-
-          White: Paper Assets
-
-        </li>
-
-        <li>
-
-          Red: Real Estate
-
-        </li>
-
-      </ul>
-
-      <h2>
-
-        Our Mission
-
-      </h2>
-
-      <p>
-
-        Most people are never taught
-        how money works.
-
-      </p>
-
-      <p>
-
-        We teach financial literacy,
-        ownership,
-        and economic self-defense
-        so ordinary people can build
-        extraordinary futures.
-
-      </p>
-
-    </main>
-
-  );
+);
 
 }
