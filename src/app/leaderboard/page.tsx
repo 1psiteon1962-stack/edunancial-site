@@ -1,21 +1,57 @@
-export default function Leaderboard(){
+export const metadata = {
+  title: "Leaderboard | Edunancial",
+};
 
-return(
+const leaders = [
+  ["Maria", 1820],
+  ["David", 1765],
+  ["Sophia", 1710],
+  ["James", 1698],
+  ["Olivia", 1655],
+  ["Daniel", 1610],
+  ["Emma", 1598],
+  ["Michael", 1550],
+];
 
-<main className="min-h-screen bg-white">
+export default function LeaderboardPage() {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-<div className="max-w-6xl mx-auto p-10">
+      <section className="mx-auto max-w-5xl px-6 py-24">
 
-<h1 className="text-5xl font-bold">
+        <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
+          LEADERBOARD
+        </p>
 
-Leaderboard
+        <h1 className="mt-6 text-6xl font-black">
+          Top Competency Scores
+        </h1>
 
-</h1>
+        <div className="mt-20 space-y-5">
 
-</div>
+          {leaders.map(([name, score], index) => (
 
-</main>
+            <div
+              key={name}
+              className="flex justify-between rounded-xl bg-slate-900 p-6"
+            >
 
-);
+              <span className="font-bold">
+                #{index + 1} {name}
+              </span>
 
+              <span className="text-yellow-400 font-bold">
+                {score} XP
+              </span>
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </section>
+
+    </main>
+  );
 }
