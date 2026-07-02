@@ -1,83 +1,46 @@
 export const metadata = {
-  title: "Edunancial Passport",
+  title: "Competency Passport | Edunancial",
 };
 
 export default function PassportPage() {
+
   return (
+
     <main className="min-h-screen bg-[#08101f] text-white">
 
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="mx-auto max-w-6xl px-6 py-24">
 
-        <h1 className="text-7xl font-black">
-
-          Your Edunancial Passport
-
-        </h1>
-
-        <p className="mt-10 max-w-5xl text-2xl text-slate-300">
-
-          Every lesson.
-
-          Every mission.
-
-          Every challenge.
-
-          Every simulation.
-
-          Every certificate.
-
-          Builds your Financial Competency.
-
+        <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
+          COMPETENCY PASSPORT
         </p>
 
-        <div className="mt-20 grid gap-8 md:grid-cols-3">
+        <h1 className="mt-6 text-6xl font-black">
+          Your Learning Journey
+        </h1>
 
-          <div className="rounded-xl bg-slate-900 p-8">
+        <p className="mt-10 text-2xl leading-10 text-slate-300">
+          Complete courses.
+          Pass assessments.
+          Earn badges.
+          Build financial competency.
+        </p>
 
-            <h2 className="text-2xl font-black">
+        <div className="mt-20 grid gap-8 md:grid-cols-4">
 
-              XP Earned
-
-            </h2>
-
-            <p className="mt-6 text-5xl font-black text-blue-500">
-
-              7,850
-
-            </p>
-
+          <div className="rounded-xl bg-red-700 p-8">
+            RED
           </div>
 
-          <div className="rounded-xl bg-slate-900 p-8">
-
-            <h2 className="text-2xl font-black">
-
-              Current Level
-
-            </h2>
-
-            <p className="mt-6 text-4xl font-black">
-
-              Entrepreneur
-
-            </p>
-
+          <div className="rounded-xl bg-white p-8 text-black">
+            WHITE
           </div>
 
-          <div className="rounded-xl bg-slate-900 p-8">
+          <div className="rounded-xl bg-blue-700 p-8">
+            BLUE
+          </div>
 
-            <h2 className="text-2xl font-black">
-
-              Competency
-
-            </h2>
-
-            <p className="mt-6 text-5xl font-black text-green-400">
-
-              82%
-
-            </p>
-
+          <div className="rounded-xl bg-green-700 p-8">
+            MASTER
           </div>
 
         </div>
@@ -85,5 +48,7 @@ export default function PassportPage() {
       </section>
 
     </main>
+
   );
+
 }
