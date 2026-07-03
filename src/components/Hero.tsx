@@ -1,9 +1,7 @@
 import Link from "next/link";
 
 export default function Hero() {
-
   return (
-
     <section
       style={{
         padding: "60px 20px",
@@ -12,27 +10,21 @@ export default function Hero() {
         margin: "0 auto",
       }}
     >
-
       <img
-        src="/images/three-paths-hero.webp"
-        alt="Three Roads to Wealth"
+        src="/images/three-paths-hero.svg"
+        alt="Edunancial Three Roads to Wealth"
         style={{
           width: "100%",
-          maxWidth: "950px",
+          maxWidth: "1100px",
           margin: "0 auto 50px auto",
           display: "block",
           borderRadius: "20px",
           boxShadow: "0 20px 60px rgba(0,0,0,.45)",
+          background: "#020817",
         }}
       />
 
-      <h1
-        style={{
-          fontSize: "54px",
-          fontWeight: 800,
-          marginBottom: "25px",
-        }}
-      >
+      <h1 style={{ fontSize: "54px", fontWeight: 800, marginBottom: "25px" }}>
         Three Roads.
         <br />
         One Gate.
@@ -40,24 +32,11 @@ export default function Hero() {
         One Destination.
       </h1>
 
-      <p
-        style={{
-          fontSize: "24px",
-          lineHeight: 1.7,
-          maxWidth: "850px",
-          margin: "0 auto",
-        }}
-      >
-        Every journey begins with a choice.
-        Whether your path is
-        <strong> Real Estate</strong>,
-        <strong> Paper Assets</strong>,
-        or
-        <strong> Business</strong>,
-        each road passes through
-        <strong> Competency</strong>
-        before leading toward
-        <strong> Wealth.</strong>
+      <p style={{ fontSize: "24px", lineHeight: 1.7, maxWidth: "850px", margin: "0 auto" }}>
+        Every journey begins with a choice. Whether your path is
+        <strong> Real Estate</strong>, <strong> Paper Assets</strong>, or
+        <strong> Business</strong>, each road passes through
+        <strong> Competency</strong> before leading toward <strong>Wealth.</strong>
       </p>
 
       <p
@@ -70,11 +49,8 @@ export default function Hero() {
           marginRight: "auto",
         }}
       >
-        Edunancial helps ordinary people build
-        extraordinary financial futures through
-        measurable financial competency,
-        practical education,
-        and disciplined action.
+        Edunancial helps ordinary people build extraordinary financial futures through
+        measurable financial competency, practical education, and disciplined action.
       </p>
 
       <div
@@ -86,7 +62,6 @@ export default function Hero() {
           flexWrap: "wrap",
         }}
       >
-
         <Link
           href="/assessment"
           style={{
@@ -114,11 +89,7 @@ export default function Hero() {
         >
           Explore Courses
         </Link>
-
       </div>
-
     </section>
-
   );
-
 }
