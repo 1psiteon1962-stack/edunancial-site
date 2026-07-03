@@ -1,27 +1,59 @@
-export default function PartnersPage(){
+export const metadata = {
+  title: "Partners | Edunancial",
+};
 
-return(
+const partners = [
+  "Schools",
+  "Universities",
+  "Businesses",
+  "Nonprofits",
+  "Government",
+  "Financial Professionals",
+  "Community Organizations",
+  "International Partners",
+];
 
-<main className="min-h-screen bg-slate-100">
+export default function PartnersPage() {
 
-<div className="max-w-6xl mx-auto p-10">
+  return (
 
-<h1 className="text-5xl font-black">
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-Partners
+      <section className="mx-auto max-w-7xl px-6 py-24">
 
-</h1>
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          PARTNERS
+        </p>
 
-<p className="mt-6">
+        <h1 className="mt-6 text-6xl font-black">
+          Working Together
+        </h1>
 
-Organizations working together with Edunancial.
+        <div className="mt-20 grid gap-8 md:grid-cols-4">
 
-</p>
+          {partners.map((partner) => (
 
-</div>
+            <div
+              key={partner}
+              className="rounded-xl bg-slate-900 p-8 text-center"
+            >
 
-</main>
+              <h2 className="text-2xl font-black">
 
-);
+                {partner}
+
+              </h2>
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </section>
+
+    </main>
+
+  );
 
 }
