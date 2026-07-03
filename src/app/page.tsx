@@ -531,15 +531,6 @@ export default function HomePage() {
   </div>
 
 </section>
-              Read Our Story
-
-            </Link>
-
-          </div>
-
-        </div>
-
-      </section>
 
       {/* ECONOMIC SELF DEFENSE */}
 
