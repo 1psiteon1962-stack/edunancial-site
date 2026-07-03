@@ -1,77 +1,53 @@
+export const metadata = {
+  title: "Frequently Asked Questions",
+};
+
+const faqs = [
+  "What is Financial Competency?",
+  "How do memberships work?",
+  "Are books available in Spanish?",
+  "Can I earn certificates?",
+  "How does the Competency Passport work?",
+  "Can children use Edunancial?",
+  "Will there be audiobooks?",
+  "How do I contact support?",
+];
+
 export default function FAQPage() {
-
   return (
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-    <main
+      <section className="mx-auto max-w-6xl px-6 py-24">
 
-      style={{
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          FAQ
+        </p>
 
-        maxWidth: "1000px",
+        <h1 className="mt-6 text-6xl font-black">
+          Frequently Asked Questions
+        </h1>
 
-        margin: "0 auto",
+        <div className="mt-20 space-y-6">
 
-        padding: "60px 20px"
+          {faqs.map((faq) => (
 
-      }}
+            <div
+              key={faq}
+              className="rounded-xl bg-slate-900 p-8"
+            >
 
-    >
+              <h2 className="text-2xl font-black">
+                {faq}
+              </h2>
 
-      <h1>
+            </div>
 
-        Frequently Asked Questions
+          ))}
 
-      </h1>
+        </div>
 
-      <h2>
-
-        What is Edunancial?
-
-      </h2>
-
-      <p>
-
-        Edunancial is a financial literacy platform teaching ownership,
-
-        business,
-
-        paper assets,
-
-        real estate,
-
-        and economic self-defense.
-
-      </p>
-
-      <h2>
-
-        Is this investment advice?
-
-      </h2>
-
-      <p>
-
-        No.
-
-        Edunancial provides educational information only.
-
-      </p>
-
-      <h2>
-
-        Who is this for?
-
-      </h2>
-
-      <p>
-
-        Anyone interested in learning how money works
-
-        and building long-term wealth.
-
-      </p>
+      </section>
 
     </main>
-
   );
-
 }
