@@ -1,21 +1,45 @@
-export default function Community(){
+export const metadata = {
+  title: "Community | Edunancial",
+};
 
-return(
+export default function CommunityPage() {
 
-<main className="min-h-screen bg-slate-100">
+  return (
 
-<div className="max-w-7xl mx-auto p-10">
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-<h1 className="text-5xl font-bold">
+      <section className="mx-auto max-w-6xl px-6 py-24">
 
-Community
+        <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
+          COMMUNITY
+        </p>
 
-</h1>
+        <h1 className="mt-6 text-6xl font-black">
+          Learn Together.
+          <br />
+          Grow Together.
+        </h1>
 
-</div>
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
 
-</main>
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">Discussion Groups</h2>
+          </div>
 
-);
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">Study Groups</h2>
+          </div>
+
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">Live Events</h2>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  );
 
 }
