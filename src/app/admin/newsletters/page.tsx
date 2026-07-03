@@ -1,65 +1,45 @@
-export default function NewsletterAdmin(){
+export const metadata = {
+  title: "Edunancial News",
+};
 
-return(
+export default function NewsPage() {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-<main className="min-h-screen bg-slate-950 text-white p-10">
+      <section className="mx-auto max-w-6xl px-6 py-24">
 
-<h1 className="text-5xl font-black">
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          NEWSROOM
+        </p>
 
-Newsletter Manager
+        <h1 className="mt-6 text-6xl font-black">
+          Latest News & Announcements
+        </h1>
 
-</h1>
+        <div className="mt-20 space-y-8">
 
-<div className="grid gap-5 mt-10">
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">
+              Latest Announcements
+            </h2>
+          </div>
 
-<input
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">
+              Press Releases
+            </h2>
+          </div>
 
-placeholder="Newsletter Title"
+          <div className="rounded-xl bg-slate-900 p-10">
+            <h2 className="text-3xl font-black">
+              New Courses
+            </h2>
+          </div>
 
-className="rounded-lg bg-slate-900 p-4"
+        </div>
 
-/>
+      </section>
 
-<input
-
-placeholder="Subject"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<textarea
-
-rows={10}
-
-placeholder="Newsletter"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<input
-
-type="datetime-local"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<button
-
-className="rounded-lg bg-blue-600 p-4 font-bold"
-
->
-
-Schedule Newsletter
-
-</button>
-
-</div>
-
-</main>
-
-);
-
+    </main>
+  );
 }
