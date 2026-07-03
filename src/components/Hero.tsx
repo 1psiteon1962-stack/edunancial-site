@@ -1,119 +1,124 @@
-export default function Hero(){
+import Link from "next/link";
 
-return(
+export default function Hero() {
 
-<section
+  return (
 
-style={
+    <section
+      style={{
+        padding: "60px 20px",
+        textAlign: "center",
+        maxWidth: "1200px",
+        margin: "0 auto",
+      }}
+    >
 
-{
+      <img
+        src="/images/three-paths-hero.webp"
+        alt="Three Roads to Wealth"
+        style={{
+          width: "100%",
+          maxWidth: "950px",
+          margin: "0 auto 50px auto",
+          display: "block",
+          borderRadius: "20px",
+          boxShadow: "0 20px 60px rgba(0,0,0,.45)",
+        }}
+      />
 
-padding:"80px 20px",
+      <h1
+        style={{
+          fontSize: "54px",
+          fontWeight: 800,
+          marginBottom: "25px",
+        }}
+      >
+        Three Roads.
+        <br />
+        One Gate.
+        <br />
+        One Destination.
+      </h1>
 
-textAlign:"center",
+      <p
+        style={{
+          fontSize: "24px",
+          lineHeight: 1.7,
+          maxWidth: "850px",
+          margin: "0 auto",
+        }}
+      >
+        Every journey begins with a choice.
+        Whether your path is
+        <strong> Real Estate</strong>,
+        <strong> Paper Assets</strong>,
+        or
+        <strong> Business</strong>,
+        each road passes through
+        <strong> Competency</strong>
+        before leading toward
+        <strong> Wealth.</strong>
+      </p>
 
-maxWidth:"1000px",
+      <p
+        style={{
+          marginTop: "40px",
+          fontSize: "22px",
+          lineHeight: 1.8,
+          maxWidth: "900px",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        Edunancial helps ordinary people build
+        extraordinary financial futures through
+        measurable financial competency,
+        practical education,
+        and disciplined action.
+      </p>
 
-margin:"0 auto",
+      <div
+        style={{
+          marginTop: "50px",
+          display: "flex",
+          justifyContent: "center",
+          gap: "20px",
+          flexWrap: "wrap",
+        }}
+      >
 
-}
+        <Link
+          href="/assessment"
+          style={{
+            background: "#2563eb",
+            color: "white",
+            padding: "16px 36px",
+            borderRadius: "12px",
+            fontWeight: 700,
+            textDecoration: "none",
+          }}
+        >
+          Start Assessment
+        </Link>
 
-}
+        <Link
+          href="/courses"
+          style={{
+            border: "2px solid white",
+            color: "white",
+            padding: "16px 36px",
+            borderRadius: "12px",
+            fontWeight: 700,
+            textDecoration: "none",
+          }}
+        >
+          Explore Courses
+        </Link>
 
->
+      </div>
 
-<h1
+    </section>
 
-style={
-
-{
-
-fontSize:"54px",
-
-marginBottom:"20px",
-
-}
-
-}
-
->
-
-Financial Literacy
-
-For Real Life
-
-</h1>
-
-<p
-
-style={
-
-{
-
-fontSize:"24px",
-
-lineHeight:1.6,
-
-maxWidth:"800px",
-
-margin:"0 auto",
-
-}
-
-}
-
->
-
-Understand Money.
-
-Build Wealth.
-
-Create Opportunity.
-
-Help Others.
-
-</p>
-
-<p
-
-style={
-
-{
-
-marginTop:"40px",
-
-fontSize:"20px",
-
-lineHeight:1.8,
-
-}
-
-}
-
->
-
-Edunancial is a Financial Literacy Platform
-
-dedicated to helping individuals understand
-
-money,
-
-business,
-
-real estate,
-
-paper assets,
-
-and entrepreneurship
-
-so they can make informed decisions
-
-based upon their own circumstances.
-
-</p>
-
-</section>
-
-);
+  );
 
 }
