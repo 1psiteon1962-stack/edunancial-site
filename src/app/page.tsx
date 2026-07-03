@@ -346,48 +346,191 @@ export default function HomePage() {
 
       </section>
 
-      {/* WHY EDUNANCIAL */}
+     {/* WHY EDUNANCIAL */}
 
-      <section className="bg-[#111827]">
+<section className="bg-[#111827]">
 
-        <div className="mx-auto max-w-7xl px-6 py-24">
+  <div className="mx-auto max-w-7xl px-6 py-24">
 
-          <h2 className="text-6xl font-black">
+    <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+      OUR STORY
+    </p>
 
-            Why Edunancial?
+    <h2 className="mt-6 text-6xl font-black">
 
-          </h2>
+      Why Edunancial Exists
 
-          <p className="mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
+    </h2>
 
-            Edunancial began with a father teaching his
-            eleven-year-old son principles of investing,
-            entrepreneurship,
-            and wealth creation.
+    <p className="mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
 
-          </p>
+      Edunancial didn't begin as a business plan.
 
-          <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+      It began as a conversation between a father and his eleven-year-old son.
 
-            Years later,
-            those same principles were used to help develop
-            entrepreneurs in another country.
+    </p>
 
-            Different people.
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
 
-            Different cultures.
+      One day, my son came into my room.
 
-            The same financial principles.
+      I had just finished sending a file to a client and was waiting for an electronic payment to arrive.
 
-          </p>
+      A few moments later, the payment came through.
 
-          <div className="mt-14">
+    </p>
 
-            <Link
-              href="/why-edunancial"
-              className="rounded-xl bg-green-600 px-8 py-5 text-xl font-bold"
-            >
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
 
+      My son looked at the amount on my phone and asked,
+
+    </p>
+
+    <blockquote className="mt-8 border-l-4 border-yellow-400 pl-8 text-4xl font-black italic">
+
+      "Dad... how did you do that?"
+
+    </blockquote>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      I answered,
+
+    </p>
+
+    <blockquote className="mt-8 border-l-4 border-blue-500 pl-8 text-4xl font-black italic">
+
+      "Because I worked with my head."
+
+    </blockquote>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      Then I asked him a question that would change both of our lives.
+
+    </p>
+
+    <blockquote className="mt-8 border-l-4 border-green-500 pl-8 text-4xl font-black italic">
+
+      "Would you like to work with your head someday?"
+
+    </blockquote>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      He smiled and answered,
+
+    </p>
+
+    <blockquote className="mt-8 border-l-4 border-red-500 pl-8 text-4xl font-black italic">
+
+      "Yes... but I don't know how."
+
+    </blockquote>
+
+    <p className="mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      That answer stopped me.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      At that moment, I realized something.
+
+      Schools teach people how to earn a paycheck, but they rarely teach people how to build wealth, evaluate investments, understand business, or create financial freedom.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      If my own son didn't know how, millions of other children—and adults—probably didn't either.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      So we began learning together at the kitchen table.
+
+      We talked about saving before spending, investing before consuming, profit before revenue, and making decisions based on knowledge instead of emotion.
+
+      We explored real estate, businesses, stocks, options, precious metals, and the principles that create lasting wealth.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      But learning wasn't enough.
+
+      I wanted him to apply what he was learning.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      He began using his own money to purchase silver.
+
+      As his knowledge and confidence grew, he eventually began buying gold as well.
+
+      He wasn't just learning financial literacy anymore.
+
+      He was applying it.
+
+      He was developing financial competency by making informed financial decisions with his own money.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      Those same principles were later shared with entrepreneurs in another country.
+
+      Different people.
+
+      Different cultures.
+
+      The same financial principles.
+
+    </p>
+
+    <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+      Today, Edunancial exists to help individuals, families, entrepreneurs, and business owners build something far more valuable than financial literacy alone.
+
+    </p>
+
+    <blockquote className="mt-12 border-l-4 border-yellow-400 pl-8 text-4xl font-black leading-relaxed">
+
+      Financial literacy provides the foundation.
+
+      <br />
+
+      Financial competency creates choices.
+
+      <br />
+
+      Financial competency creates independence.
+
+      <br />
+
+      Financial competency builds wealth.
+
+    </blockquote>
+
+    <p className="mt-12 max-w-5xl text-3xl font-bold leading-relaxed">
+
+      And it all began with one eleven-year-old boy asking a simple question...
+
+    </p>
+
+    <blockquote className="mt-8 border-l-4 border-white pl-8 text-5xl font-black italic">
+
+      "Dad... how did you do that?"
+
+    </blockquote>
+
+  </div>
+
+</section>
               Read Our Story
 
             </Link>
