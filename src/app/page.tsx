@@ -162,190 +162,7 @@ export default function HomePage() {
             </p>
 
           </div>
-
-        </div>
-
-      </section>
-
-      {/* FINANCIAL COMPETENCY */}
-
-      <section className="bg-[#111827]">
-
-        <div className="mx-auto max-w-7xl px-6 py-24">
-
-          <h2 className="text-center text-6xl font-black">
-
-            Financial Competency
-
-          </h2>
-
-          <p className="mx-auto mt-10 max-w-5xl text-center text-2xl leading-10 text-slate-300">
-
-            Knowledge alone is not enough.
-
-            Real competency comes from learning,
-            practicing,
-            measuring,
-            and improving over time.
-
-          </p>
-
-          <div className="mt-20 grid gap-8 md:grid-cols-4">
-
-            <div className="rounded-xl bg-slate-900 p-8">
-              <h3 className="text-2xl font-black">Learn</h3>
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-              <h3 className="text-2xl font-black">Practice</h3>
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-              <h3 className="text-2xl font-black">Measure</h3>
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-              <h3 className="text-2xl font-black">Improve</h3>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section> 
-            {/* ENTREPRENEUR ASSESSMENT */}
-
-      <section className="py-24">
-
-        <div className="mx-auto max-w-7xl px-6">
-
-          <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
-            START HERE
-          </p>
-
-          <h2 className="mt-6 text-6xl font-black">
-            Measure Your Financial Competency
-          </h2>
-
-          <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
-
-            Don't guess where to begin.
-
-            Discover your strengths,
-            identify your weaknesses,
-            and receive a personalized learning roadmap.
-
-          </p>
-
-          <div className="mt-20 grid gap-8 md:grid-cols-4">
-
-            <div className="rounded-xl bg-slate-900 p-8">
-
-              <h3 className="text-3xl font-black">
-
-                Financial
-
-              </h3>
-
-              <p className="mt-6 text-slate-300">
-
-                Budgeting
-
-                <br/>
-
-                Credit
-
-                <br/>
-
-                Debt
-
-              </p>
-
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-
-              <h3 className="text-3xl font-black">
-
-                Investing
-
-              </h3>
-
-              <p className="mt-6 text-slate-300">
-
-                Stocks
-
-                <br/>
-
-                ETFs
-
-                <br/>
-
-                Precious Metals
-
-              </p>
-
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-
-              <h3 className="text-3xl font-black">
-
-                Business
-
-              </h3>
-
-              <p className="mt-6 text-slate-300">
-
-                Profit
-
-                <br/>
-
-                Cash Flow
-
-                <br/>
-
-                KPIs
-
-              </p>
-
-            </div>
-
-            <div className="rounded-xl bg-slate-900 p-8">
-
-              <h3 className="text-3xl font-black">
-
-                Overall
-
-              </h3>
-
-              <p className="mt-6 text-slate-300">
-
-                Personalized Learning Plan
-
-              </p>
-
-            </div>
-
-          </div>
-
-          <div className="mt-16">
-
-            <Link
-              href="/assessment"
-              className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
-            >
-
-              Begin Assessment
-
-            </Link>
-
-          </div>
-
-        </div>
-
-      </section>
-
+           
      {/* WHY EDUNANCIAL */}
 
 <section className="bg-[#111827]">
@@ -531,6 +348,289 @@ export default function HomePage() {
   </div>
 
 </section>
+
+      {/* FINANCIAL COMPETENCY */}
+
+      <section className="bg-[#111827]">
+
+        <div className="mx-auto max-w-7xl px-6 py-24">
+
+          <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+            FINANCIAL COMPETENCY
+          </p>
+
+          <h2 className="mt-6 text-center text-6xl font-black">
+
+            Financial Competency
+
+          </h2>
+
+          <p className="mx-auto mt-10 max-w-5xl text-center text-2xl leading-10 text-slate-300">
+
+            Financial literacy introduces ideas.
+
+            Financial competency develops the judgment,
+            discipline,
+            habits,
+            and decision-making skills necessary to apply those ideas successfully over a lifetime.
+
+          </p>
+
+          <p className="mx-auto mt-8 max-w-5xl text-center text-xl leading-9 text-slate-400">
+
+            Knowledge without action creates very little.
+
+            Action without knowledge creates unnecessary risk.
+
+            Financial competency combines both.
+
+          </p>
+
+          <div className="mt-20 grid gap-8 md:grid-cols-4">
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Learn
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Understand principles before making financial decisions.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Practice
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Apply what you learn in real-world situations.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Measure
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Track progress through measurable financial competency.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Improve
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Continue improving throughout your lifetime.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+          
+      {/* ENTREPRENEUR ASSESSMENT */}
+
+      <section className="py-24">
+
+        <div className="mx-auto max-w-7xl px-6">
+
+          <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+
+            START HERE
+
+          </p>
+
+          <h2 className="mt-6 text-6xl font-black">
+
+            Measure Your Financial Competency
+
+          </h2>
+
+          <p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
+
+            Every successful journey begins by knowing where you are today.
+
+            Our Financial Competency Assessment measures your current knowledge,
+
+            identifies strengths,
+
+            uncovers opportunities for improvement,
+
+            and builds a personalized roadmap designed specifically for you.
+
+          </p>
+
+          <div className="mt-20 grid gap-8 md:grid-cols-4">
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Financial
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Budgeting
+
+                <br />
+
+                Credit
+
+                <br />
+
+                Debt
+
+                <br />
+
+                Cash Flow
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Investing
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Stocks
+
+                <br />
+
+                ETFs
+
+                <br />
+
+                Precious Metals
+
+                <br />
+
+                Retirement
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Business
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                KPIs
+
+                <br />
+
+                Profit
+
+                <br />
+
+                Cash Flow
+
+                <br />
+
+                Leadership
+
+              </p>
+
+            </div>
+
+            <div className="rounded-xl bg-slate-900 p-8">
+
+              <h3 className="text-3xl font-black">
+
+                Personalized
+
+              </h3>
+
+              <p className="mt-6 text-slate-300">
+
+                Competency Score
+
+                <br />
+
+                Learning Roadmap
+
+                <br />
+
+                Course Recommendations
+
+                <br />
+
+                Progress Tracking
+
+              </p>
+
+            </div>
+
+          </div>
+
+          <div className="mt-16 flex flex-wrap gap-6">
+
+            <Link
+              href="/assessment"
+              className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
+            >
+
+              Begin Assessment
+
+            </Link>
+
+            <Link
+              href="/business"
+              className="rounded-xl border border-white px-10 py-5 text-xl font-bold hover:bg-white hover:text-black"
+            >
+
+              Business Assessment
+
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
 
       {/* ECONOMIC SELF DEFENSE */}
 
