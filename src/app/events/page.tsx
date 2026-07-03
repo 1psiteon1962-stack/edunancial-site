@@ -1,27 +1,53 @@
-export default function EventsPage(){
+export const metadata = {
+  title: "Events | Edunancial",
+};
 
-return(
+const events = [
+  "Live Webinars",
+  "Financial Workshops",
+  "Business Bootcamps",
+  "Executive Sessions",
+  "Community Meetups",
+  "Youth Programs",
+  "Guest Speakers",
+  "Global Events",
+];
 
-<main className="min-h-screen bg-slate-100">
+export default function EventsPage() {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white">
+      <section className="mx-auto max-w-7xl px-6 py-24">
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          EVENTS
+        </p>
 
-<div className="max-w-7xl mx-auto p-10">
+        <h1 className="mt-6 text-6xl font-black">
+          Learn Together
+        </h1>
 
-<h1 className="text-5xl font-black">
+        <div className="mt-20 grid gap-8 md:grid-cols-2">
 
-Events
+          {events.map((event) => (
 
-</h1>
+            <div
+              key={event}
+              className="rounded-xl bg-slate-900 p-8"
+            >
+              <h2 className="text-2xl font-black">
+                {event}
+              </h2>
 
-<p className="mt-6">
+              <button className="mt-8 rounded-lg bg-blue-600 px-6 py-3 font-bold">
+                Learn More
+              </button>
 
-Upcoming webinars, workshops and live training.
+            </div>
 
-</p>
+          ))}
 
-</div>
+        </div>
 
-</main>
-
-);
-
+      </section>
+    </main>
+  );
 }
