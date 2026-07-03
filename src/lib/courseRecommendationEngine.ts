@@ -1,13 +1,107 @@
-export interface CourseRecommendation{
+import { businessCourses } from "@/data/businessCourses";
 
-courseId:string;
+export interface StudentProfile {
+  competencyLevel: string;
+  stage: string;
+  weaknesses: string[];
+}
 
-title:string;
+export function recommendCourses(
+  profile: StudentProfile
+) {
 
-score:number;
+  const recommendations = [];
 
-reason:string;
+  if (
+    profile.weaknesses.includes("cashFlow")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "cash-flow"
+      )
+    );
+  }
 
-priority:number;
+  if (
+    profile.weaknesses.includes("profit")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "profit-first"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("pricing")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "pricing"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("sales")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "sales"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("marketing")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "marketing"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("leadership")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "leadership"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("hiring")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "hiring"
+      )
+    );
+  }
+
+  if (
+    profile.weaknesses.includes("systems")
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "systems"
+      )
+    );
+  }
+
+  if (
+    profile.stage === "scale"
+  ) {
+    recommendations.push(
+      businessCourses.find(
+        c => c.id === "scale"
+      )
+    );
+  }
+
+  return recommendations.filter(Boolean);
 
 }
