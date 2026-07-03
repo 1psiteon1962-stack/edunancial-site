@@ -1,27 +1,34 @@
-export default function CareersPage(){
+export const metadata = {
+  title: "Careers | Edunancial",
+};
 
-return(
+export default function CareersPage() {
 
-<main className="min-h-screen bg-white">
+  return (
 
-<div className="max-w-6xl mx-auto p-10">
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-<h1 className="text-5xl font-black">
+      <section className="mx-auto max-w-6xl px-6 py-24">
 
-Careers
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          CAREERS
+        </p>
 
-</h1>
+        <h1 className="mt-6 text-6xl font-black">
+          Join Our Mission
+        </h1>
 
-<p className="mt-6">
+        <p className="mt-10 text-2xl leading-10 text-slate-300">
+          We're building a global financial competency platform.
+          As Edunancial grows, opportunities will become available
+          for educators, technologists, designers, translators,
+          AI specialists, and business professionals.
+        </p>
 
-Help us build the future of financial education.
+      </section>
 
-</p>
+    </main>
 
-</div>
-
-</main>
-
-);
+  );
 
 }
