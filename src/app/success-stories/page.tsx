@@ -1,80 +1,53 @@
+export const metadata = {
+  title: "Success Stories | Edunancial",
+};
+
+const stories = [
+  "Students",
+  "Families",
+  "Entrepreneurs",
+  "Veterans",
+  "Professionals",
+  "Small Business Owners",
+  "Young Investors",
+  "Community Leaders",
+];
+
 export default function SuccessStoriesPage() {
 
   return (
 
-    <main
+    <main className="min-h-screen bg-[#08101f] text-white">
 
-      style={{
+      <section className="mx-auto max-w-7xl px-6 py-24">
 
-        maxWidth: "1100px",
-
-        margin: "0 auto",
-
-        padding: "60px 20px"
-
-      }}
-
-    >
-
-      <h1>
-
-        Success Stories
-
-      </h1>
-
-      <p>
-
-        Real people.
-
-        Real businesses.
-
-        Real lessons.
-
-      </p>
-
-      <section>
-
-        <h2>
-
-          The Son Who Started At 11
-
-        </h2>
-
-        <p>
-
-          Learning financial literacy,
-
-          buying silver and gold,
-
-          studying investing,
-
-          and building ownership early.
-
+        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+          SUCCESS STORIES
         </p>
 
-      </section>
+        <h1 className="mt-6 text-6xl font-black">
+          Real People.
+          Real Progress.
+        </h1>
 
-      <section>
+        <div className="mt-20 grid gap-8 md:grid-cols-4">
 
-        <h2>
+          {stories.map((story) => (
 
-          Uganda Entrepreneur
+            <div
+              key={story}
+              className="rounded-xl bg-slate-900 p-8 text-center"
+            >
 
-        </h2>
+              <h2 className="text-2xl font-black">
+                {story}
+              </h2>
 
-        <p>
+            </div>
 
-          Learning profit,
+          ))}
 
-          inventory,
-
-          pricing,
-
-          and scaling
-
-          one plate at a time.
-
-        </p>
+        </div>
 
       </section>
 
