@@ -1,0 +1,77 @@
+import { CountryConfiguration } from "@/types/country-config";
+
+export const countries: CountryConfiguration[] = [
+
+  {
+    isoCode: "US",
+    country: "United States",
+    continent: "North America",
+    enabled: true,
+    status: "live",
+    membershipEnabled: true,
+    marketplaceEnabled: true,
+    paymentsEnabled: true,
+    coursesEnabled: true,
+    assessmentsEnabled: true,
+    hiringEnabled: true,
+    aiEnabled: true,
+    operatingEntity: "Edge Financial USA",
+    currency: "USD",
+    language: "English",
+  },
+
+  {
+    isoCode: "CA",
+    country: "Canada",
+    continent: "North America",
+    enabled: true,
+    status: "development",
+    membershipEnabled: true,
+    marketplaceEnabled: true,
+    paymentsEnabled: true,
+    coursesEnabled: true,
+    assessmentsEnabled: true,
+    hiringEnabled: true,
+    aiEnabled: true,
+    operatingEntity: "Edge Financial USA",
+    currency: "CAD",
+    language: "English",
+  },
+
+  {
+    isoCode: "UG",
+    country: "Uganda",
+    continent: "Africa",
+    enabled: true,
+    status: "planning",
+    membershipEnabled: true,
+    marketplaceEnabled: true,
+    paymentsEnabled: false,
+    coursesEnabled: true,
+    assessmentsEnabled: true,
+    hiringEnabled: true,
+    aiEnabled: true,
+    operatingEntity: "Edge Financial USA",
+    currency: "UGX",
+    language: "English",
+  },
+
+  {
+    isoCode: "CU",
+    country: "Cuba",
+    continent: "Caribbean",
+    enabled: false,
+    status: "disabled",
+    membershipEnabled: false,
+    marketplaceEnabled: false,
+    paymentsEnabled: false,
+    coursesEnabled: false,
+    assessmentsEnabled: false,
+    hiringEnabled: false,
+    aiEnabled: false,
+    operatingEntity: "",
+    currency: "CUP",
+    language: "Spanish",
+  }
+
+];
