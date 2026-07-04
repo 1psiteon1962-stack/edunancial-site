@@ -34,7 +34,8 @@ function average(values: number[]): number {
   if (values.length === 0) return 0;
 
   return Math.round(
-    values.reduce((a, b) => a + b, 0) / values.length
+    values.reduce((sum, value) => sum + value, 0) /
+      values.length
   );
 }
 
@@ -52,7 +53,9 @@ export function calculateCompetencyScores(
   };
 
   answers.forEach((answer) => {
-    buckets[answer.area].push(answerPoints[answer.answer]);
+    buckets[answer.area].push(
+      answerPoints[answer.answer]
+    );
   });
 
   const personalFinance = average(
@@ -97,48 +100,29 @@ export function calculateCompetencyScores(
     riskManagement,
     financialProfile,
   };
-}export function competencyLevel(score: number): string {
+}
 
-  if (score >= 95) {
-    return "Master";
-  }
+export function competencyLevel(
+  score: number
+): string {
 
-  if (score >= 85) {
-    return "Advanced";
-  }
-
-  if (score >= 70) {
-    return "Proficient";
-  }
-
-  if (score >= 55) {
-    return "Developing";
-  }
-
-  if (score >= 40) {
-    return "Foundational";
-  }
+  if (score >= 95) return "Master";
+  if (score >= 85) return "Advanced";
+  if (score >= 70) return "Proficient";
+  if (score >= 55) return "Developing";
+  if (score >= 40) return "Foundational";
 
   return "Beginning";
 }
 
-export function competencyColor(score: number): string {
+export function competencyColor(
+  score: number
+): string {
 
-  if (score >= 85) {
-    return "green";
-  }
-
-  if (score >= 70) {
-    return "blue";
-  }
-
-  if (score >= 55) {
-    return "yellow";
-  }
-
-  if (score >= 40) {
-    return "orange";
-  }
+  if (score >= 85) return "green";
+  if (score >= 70) return "blue";
+  if (score >= 55) return "yellow";
+  if (score >= 40) return "orange";
 
   return "red";
 }
@@ -147,14 +131,14 @@ export function strongestCompetency(
   scores: CompetencyScores
 ): CompetencyArea {
 
-  const values = [
+  const values: [CompetencyArea, number][] = [
     ["personalFinance", scores.personalFinance],
     ["investing", scores.investing],
     ["realEstate", scores.realEstate],
     ["business", scores.business],
     ["riskManagement", scores.riskManagement],
     ["financialProfile", scores.financialProfile],
-  ] as const;
+  ];
 
   values.sort((a, b) => b[1] - a[1]);
 
@@ -165,19 +149,16 @@ export function weakestCompetency(
   scores: CompetencyScores
 ): CompetencyArea {
 
-  const values = [
+  const values: [CompetencyArea, number][] = [
     ["personalFinance", scores.personalFinance],
     ["investing", scores.investing],
     ["realEstate", scores.realEstate],
     ["business", scores.business],
     ["riskManagement", scores.riskManagement],
     ["financialProfile", scores.financialProfile],
-  ] as const;
+  ];
 
   values.sort((a, b) => a[1] - b[1]);
 
   return values[0][0];
 }
-
-
-
