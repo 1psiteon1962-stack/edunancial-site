@@ -26,12 +26,10 @@ export default function AssessmentSectionSix() {
 
         <p className="mt-8 max-w-4xl text-2xl leading-10 text-slate-300">
 
-          This final section helps us understand
-          your financial goals,
-          motivation,
-          learning preferences,
-          and long-term objectives so we can build
-          a personalized roadmap specifically for you.
+          This final section helps us understand your financial goals,
+          motivation, learning preferences, and long-term objectives.
+          Your answers allow Edunancial to build a personalized
+          Financial Competency Roadmap.
 
         </p>
 
@@ -45,8 +43,8 @@ export default function AssessmentSectionSix() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            What is your primary financial goal during
-            the next five years?
+            What is your primary financial goal over the next
+            five years?
 
           </p>
 
@@ -60,13 +58,13 @@ export default function AssessmentSectionSix() {
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              B. Start or grow a business
+              B. Build a successful business
 
             </button>
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              C. Build an investment portfolio
+              C. Become an active investor
 
             </button>
 
@@ -98,25 +96,25 @@ export default function AssessmentSectionSix() {
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              A. I am actively building wealth.
+              A. I actively build wealth every month.
 
             </button>
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              B. I have started but need direction.
+              B. I'm making progress but need better structure.
 
             </button>
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              C. I want to begin but don't know where.
+              C. I'm just getting started.
 
             </button>
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              D. I have never had a financial plan.
+              D. I don't currently have a financial plan.
 
             </button>
 
@@ -124,8 +122,7 @@ export default function AssessmentSectionSix() {
 
         </div>
 
-
-             <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+                <div className="mt-16 rounded-2xl bg-slate-900 p-10">
 
           <h2 className="text-4xl font-black">
 
@@ -135,8 +132,7 @@ export default function AssessmentSectionSix() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Which learning style helps you understand new
-            financial concepts most effectively?
+            How do you learn new financial concepts most effectively?
 
           </p>
 
@@ -144,7 +140,7 @@ export default function AssessmentSectionSix() {
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              A. Reading articles and books
+              A. Reading books and articles
 
             </button>
 
@@ -156,13 +152,13 @@ export default function AssessmentSectionSix() {
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              C. Hands-on practice and exercises
+              C. Hands-on practice and real-world application
 
             </button>
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
 
-              D. One-on-one coaching and mentoring
+              D. One-on-one coaching or mentoring
 
             </button>
 
@@ -180,8 +176,8 @@ export default function AssessmentSectionSix() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            If you could master one financial skill first,
-            which would you choose?
+            If you could master one financial skill next,
+            which would have the greatest impact on your future?
 
           </p>
 
@@ -193,4 +189,74 @@ export default function AssessmentSectionSix() {
 
             </button>
 
-              
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
+
+              B. Real estate investing
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
+
+              C. Investing in stocks, ETFs, and precious metals
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-yellow-500">
+
+              D. Personal financial planning and budgeting
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <div className="mt-16 rounded-2xl border border-yellow-500 bg-[#111827] p-10">
+
+          <h2 className="text-4xl font-black">
+
+            You're Almost Finished
+
+          </h2>
+
+          <p className="mt-8 text-xl leading-9 text-slate-300">
+
+            Thank you for completing the Financial Competency Assessment.
+
+            Your responses will now be evaluated to calculate your
+            Financial Competency Score, identify your strongest
+            competencies, determine opportunities for improvement,
+            and build a personalized learning roadmap.
+
+          </p>
+
+        </div>
+
+        <div className="mt-16 flex justify-between">
+
+          <Link
+            href="/assessment/start/section-5"
+            className="rounded-xl border border-white px-8 py-4 text-lg font-bold hover:bg-white hover:text-black"
+          >
+
+            Previous
+
+          </Link>
+
+          <Link
+            href="/assessment/results"
+            className="rounded-xl bg-green-600 px-8 py-4 text-lg font-bold hover:bg-green-700"
+          >
+
+            View Results →
+
+          </Link>
+
+        </div>
+
+             </section>
+
+    </main>
+
+  );
+} 
