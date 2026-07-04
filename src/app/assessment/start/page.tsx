@@ -111,3 +111,59 @@ export default function AssessmentStartPage() {
           </div>
 
         </div>
+
+        <div className="mt-16 rounded-2xl border border-slate-700 p-10">
+
+          <h2 className="text-3xl font-black">
+
+            What You Will Receive
+
+          </h2>
+
+          <ul className="mt-8 space-y-5 text-xl leading-9 text-slate-300">
+
+            <li>✓ Overall Financial Competency Score</li>
+
+            <li>✓ Personal Finance Score</li>
+
+            <li>✓ Real Estate Competency Score</li>
+
+            <li>✓ Paper Assets Competency Score</li>
+
+            <li>✓ Business Competency Score</li>
+
+            <li>✓ Entrepreneur Readiness Score</li>
+
+            <li>✓ Investor Readiness Score</li>
+
+            <li>✓ Personalized Learning Roadmap</li>
+
+            <li>✓ Recommended Courses</li>
+
+            <li>✓ Progress Tracking</li>
+
+          </ul>
+
+        </div>
+
+        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+
+          <h2 className="text-3xl font-black">
+
+            Before You Continue
+
+          </h2>
+
+          <p className="mt-8 text-xl leading-9 text-slate-300">
+
+            There are no trick questions.
+
+            This is not a pass or fail examination.
+
+            The purpose is to identify your current level of
+            financial competency so your learning experience can
+            be personalized specifically for you.
+
+          </p>
+
+          <div className="mt-12
