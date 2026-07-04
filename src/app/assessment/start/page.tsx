@@ -166,4 +166,4 @@ export default function AssessmentStartPage() {
 
           </p>
 
-          <div className="mt-12
+          <div className="mt-12">
