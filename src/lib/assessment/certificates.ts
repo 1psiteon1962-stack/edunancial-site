@@ -74,63 +74,68 @@ export function generateCertificates(
 
 
 
+export function earnedCertificates(
+  scores: CompetencyScores
+): number {
 
+  return generateCertificates(scores).filter(
+    (certificate) => certificate.earned
+  ).length;
 
+}
 
+export function certificateCompletionPercentage(
+  scores: CompetencyScores
+): number {
 
+  const total = generateCertificates(scores).length;
 
+  const earned = earnedCertificates(scores);
 
+  return Math.round((earned / total) * 100);
 
+}
 
+export function nextCertificate(
+  scores: CompetencyScores
+): Certificate | null {
 
+  const certificates = generateCertificates(scores);
 
+  const next = certificates.find(
+    (certificate) => !certificate.earned
+  );
 
+  return next ?? null;
 
+}
 
+export function qualifiesForMasterCertification(
+  scores: CompetencyScores
+): boolean {
 
+  return (
+    scores.overall >= 95 &&
+    scores.personalFinance >= 90 &&
+    scores.investing >= 90 &&
+    scores.realEstate >= 90 &&
+    scores.business >= 90 &&
+    scores.riskManagement >= 90 &&
+    scores.financialProfile >= 90
+  );
 
+}
 
+export function certificateProgress(
+  score: number,
+  minimumScore: number
+): number {
 
+  return Math.min(
+    100
+    Math round (score / minimumScore)
+*  100
+  );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  )
+    
