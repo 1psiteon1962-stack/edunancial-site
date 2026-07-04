@@ -159,10 +159,12 @@ export default function HomePage() {
               Entrepreneurship • Marketing • KPIs • Pricing •
               Cash Flow • Profit • Scaling
 
-            </p>
-</div>
+                        </p>
+          </div>      {/* Close BLUE card */}
 
-</section>
+        </div>        {/* Close 3-column grid */}
+
+      </section>      {/* Close THREE PILLARS section */}
           
      {/* WHY EDUNANCIAL */}
 
