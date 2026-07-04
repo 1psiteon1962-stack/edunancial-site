@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Start Assessment | Edunancial",
+  title: "Financial Competency Assessment | Edunancial",
   description:
     "Begin your Financial Competency Assessment.",
 };
@@ -14,97 +14,165 @@ export default function AssessmentStartPage() {
 
         <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
 
-          STEP 1 OF 6
+          FINANCIAL COMPETENCY ASSESSMENT
 
         </p>
 
-        <h1 className="mt-8 text-6xl font-black">
+        <h1 className="mt-8 text-7xl font-black">
 
-          Financial Competency Assessment
+          Begin Your
+          <br />
+          Financial Journey
 
         </h1>
 
-        <p className="mt-10 max-w-4xl text-2xl leading-10 text-slate-300">
+        <p className="mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
 
-          Answer every question honestly.
+          This assessment measures your current Financial Competency
+          across six major areas.
 
-          This assessment is designed to identify your strengths,
-          weaknesses,
-          and opportunities for growth.
+          At the end, you'll receive your Financial Competency Score,
+          personalized recommendations,
+          and a customized learning roadmap.
 
         </p>
 
-        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+        <div className="mt-16 grid gap-8 md:grid-cols-2">
 
-          <h2 className="text-3xl font-black">
+          <div className="rounded-2xl bg-slate-900 p-10">
 
-            Assessment Overview
+            <h2 className="text-3xl font-black">
 
-          </h2>
+              Assessment Includes
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            </h2>
 
-            <div className="rounded-xl bg-slate-800 p-6">
+            <ul className="mt-8 space-y-4 text-xl text-slate-300">
 
-              <h3 className="text-2xl font-bold">
+              <li>• Personal Financial Management</li>
 
-                Personal Finance
+              <li>• Investing & Paper Assets</li>
 
-              </h3>
+              <li>• Real Estate</li>
 
-              <p className="mt-4 text-slate-300">
+              <li>• Business</li>
 
-                Budgeting, credit, debt, savings and cash flow.
+              <li>• Risk Management</li>
 
-              </p>
+              <li>• Financial Competency Profile</li>
 
-            </div>
+            </ul>
 
-            <div className="rounded-xl bg-slate-800 p-6">
+          </div>
 
-              <h3 className="text-2xl font-bold">
+          <div className="rounded-2xl bg-slate-900 p-10">
 
-                Investing
+            <h2 className="text-3xl font-black">
 
-              </h3>
+              Before You Begin
 
-              <p className="mt-4 text-slate-300">
+            </h2>
 
-                Stocks, ETFs, precious metals and long-term investing.
+            <p className="mt-8 text-xl leading-9 text-slate-300">
 
-              </p>
+              Answer every question honestly.
 
-            </div>
+              There are no penalties for lower scores.
 
-            <div className="rounded-xl bg-slate-800 p-6">
+              The purpose is to identify your current level of
+              Financial Competency so Edunancial can recommend
+              the most effective learning path.
 
-              <h3 className="text-2xl font-bold">
+            </p>
 
-                Real Estate
+          </div>
 
-              </h3>
+        </div>
 
-              <p className="mt-4 text-slate-300">
+        <div className="mt-12">
 
-                Residential, commercial, financing and investing.
+                   <div className="rounded-2xl border border-blue-600 bg-[#111827] p-10">
 
-              </p>
+            <h2 className="text-3xl font-black">
 
-            </div>
+              What You'll Receive
 
-            <div className="rounded-xl bg-slate-800 p-6">
+            </h2>
 
-              <h3 className="text-2xl font-bold">
+            <div className="mt-8 space-y-6">
 
-                Business
+              <div>
 
-              </h3>
+                <h3 className="text-2xl font-bold">
 
-              <p className="mt-4 text-slate-300">
+                  Financial Competency Score
 
-                Profit, KPIs, pricing, cash flow and leadership.
+                </h3>
 
-              </p>
+                <p className="mt-2 text-slate-300">
+
+                  An overall score measuring your current level of
+                  financial competency.
+
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-bold">
+
+                  Category Scores
+
+                </h3>
+
+                <p className="mt-2 text-slate-300">
+
+                  Individual scores for Personal Finance,
+                  Investing,
+                  Real Estate,
+                  Business,
+                  Risk Management,
+                  and your overall Financial Profile.
+
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-bold">
+
+                  Personalized Learning Roadmap
+
+                </h3>
+
+                <p className="mt-2 text-slate-300">
+
+                  A customized sequence of recommended courses
+                  designed to improve your weakest areas first.
+
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-bold">
+
+                  Progress Tracking
+
+                </h3>
+
+                <p className="mt-2 text-slate-300">
+
+                  Your results become part of your Financial
+                  Competency Passport so you can measure your
+                  improvement over time.
+
+                </p>
+
+              </div>
 
             </div>
 
@@ -112,58 +180,31 @@ export default function AssessmentStartPage() {
 
         </div>
 
-        <div className="mt-16 rounded-2xl border border-slate-700 p-10">
+        <div className="mt-16 flex justify-between">
 
-          <h2 className="text-3xl font-black">
+          <Link
+            href="/assessment"
+            className="rounded-xl border border-white px-8 py-4 text-lg font-bold hover:bg-white hover:text-black"
+          >
 
-            What You Will Receive
+            Back
 
-          </h2>
+          </Link>
 
-          <ul className="mt-8 space-y-5 text-xl leading-9 text-slate-300">
+          <Link
+            href="/assessment/start/section-1"
+            className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold hover:bg-blue-700"
+          >
 
-            <li>✓ Overall Financial Competency Score</li>
+            Begin Assessment →
 
-            <li>✓ Personal Finance Score</li>
-
-            <li>✓ Real Estate Competency Score</li>
-
-            <li>✓ Paper Assets Competency Score</li>
-
-            <li>✓ Business Competency Score</li>
-
-            <li>✓ Entrepreneur Readiness Score</li>
-
-            <li>✓ Investor Readiness Score</li>
-
-            <li>✓ Personalized Learning Roadmap</li>
-
-            <li>✓ Recommended Courses</li>
-
-            <li>✓ Progress Tracking</li>
-
-          </ul>
+          </Link>
 
         </div>
 
-        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+              </section>
 
-          <h2 className="text-3xl font-black">
+    </main>
 
-            Before You Continue
-
-          </h2>
-
-          <p className="mt-8 text-xl leading-9 text-slate-300">
-
-            There are no trick questions.
-
-            This is not a pass or fail examination.
-
-            The purpose is to identify your current level of
-            financial competency so your learning experience can
-            be personalized specifically for you.
-
-          </p>
-
-          <div className="mt-12">
+  );
+}
