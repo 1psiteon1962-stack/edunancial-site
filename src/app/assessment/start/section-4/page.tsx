@@ -126,3 +126,122 @@ export default function AssessmentSectionFour() {
           </div>
 
         </div>
+
+                <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+
+          <h2 className="text-4xl font-black">
+
+            Question 3
+
+          </h2>
+
+          <p className="mt-8 text-2xl leading-10">
+
+            How frequently do you review Key Performance
+            Indicators (KPIs) for your business or personal finances?
+
+          </p>
+
+          <div className="mt-10 space-y-4">
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              A. Weekly or more often
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              B. Monthly
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              C. Occasionally
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              D. I do not track KPIs
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+
+          <h2 className="text-4xl font-black">
+
+            Question 4
+
+          </h2>
+
+          <p className="mt-8 text-2xl leading-10">
+
+            Which statement best reflects your philosophy
+            about business?
+
+          </p>
+
+          <div className="mt-10 space-y-4">
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              A. A business exists to consistently generate profits.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              B. Revenue growth is more important than profitability.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              C. I have not yet developed a business philosophy.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              D. I am unsure.
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <div className="mt-16 flex justify-between">
+
+          <Link
+            href="/assessment/start/section-3"
+            className="rounded-xl border border-white px-8 py-4 text-lg font-bold hover:bg-white hover:text-black"
+          >
+
+            Previous
+
+          </Link>
+
+          <Link
+            href="/assessment/start/section-5"
+            className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold hover:bg-blue-700"
+          >
+
+            Continue to Section 5 →
+
+          </Link>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  );
+}
