@@ -12,7 +12,7 @@ export default function AssessmentSectionTwo() {
 
       <section className="mx-auto max-w-6xl px-6 py-24">
 
-        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+        <p className="font-bold uppercase tracking-[0.45em] text-white">
 
           SECTION 2 OF 6
 
@@ -20,18 +20,21 @@ export default function AssessmentSectionTwo() {
 
         <h1 className="mt-8 text-6xl font-black">
 
-          Investing
+          Investing &
+          <br />
+          Paper Assets
 
         </h1>
 
         <p className="mt-8 max-w-4xl text-2xl leading-10 text-slate-300">
 
-          This section evaluates your understanding of
-          investing,
-          risk,
+          This section evaluates your understanding of investing,
           diversification,
-          long-term planning,
-          and wealth creation.
+          stocks,
+          ETFs,
+          retirement planning,
+          precious metals,
+          and long-term wealth creation.
 
         </p>
 
@@ -45,34 +48,33 @@ export default function AssessmentSectionTwo() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Which investment strategy best describes
-            your current approach?
+            Which statement best describes your current investing experience?
 
           </p>
 
           <div className="mt-10 space-y-4">
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              A. Long-term diversified investing
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              B. Occasionally invest when I have extra money
+              A. I actively manage multiple investments.
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              C. Mostly keep cash in savings
+              B. I invest regularly.
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              D. I currently do not invest
+              C. I have invested a little.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
+
+              D. I have never invested.
 
             </button>
 
@@ -90,41 +92,41 @@ export default function AssessmentSectionTwo() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            How familiar are you with ETFs,
-            mutual funds,
-            and index investing?
+            How diversified is your investment portfolio?
 
           </p>
 
           <div className="mt-10 space-y-4">
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              A. Very knowledgeable
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              B. Somewhat knowledgeable
+              A. Highly diversified
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              C. I've heard of them
+              B. Moderately diversified
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              D. I don't know what they are
+              C. Limited diversification
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
+
+              D. No investments
 
             </button>
 
           </div>
 
-                  <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+        </div>
+
+               <div className="mt-16 rounded-2xl bg-slate-900 p-10">
 
           <h2 className="text-4xl font-black">
 
@@ -134,34 +136,34 @@ export default function AssessmentSectionTwo() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Which statement best describes your understanding
-            of investment risk?
+            Which investment best protects purchasing power over
+            long periods of inflation?
 
           </p>
 
           <div className="mt-10 space-y-4">
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              A. I understand how risk and return work together.
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              B. I understand the basics but want to learn more.
+              A. Diversified portfolio of productive assets
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              C. I know very little about investment risk.
+              B. Savings account only
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              D. I have never invested.
+              C. Cash kept at home
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
+
+              D. I don't know
 
             </button>
 
@@ -179,34 +181,34 @@ export default function AssessmentSectionTwo() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Which investment objective most closely matches
-            your current financial goals?
+            Before purchasing an investment,
+            how much research do you normally perform?
 
           </p>
 
           <div className="mt-10 space-y-4">
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              A. Long-term wealth creation
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              B. Retirement planning
+              A. Extensive research and comparison
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              C. Short-term income
+              B. Some research
 
             </button>
 
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
 
-              D. I have not established investment goals.
+              C. Very little research
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-white">
+
+              D. I usually rely on tips or emotion
 
             </button>
 
@@ -236,9 +238,9 @@ export default function AssessmentSectionTwo() {
 
         </div>
 
-      </section>
+              </section>
 
     </main>
+
   );
 }
-        </div>
