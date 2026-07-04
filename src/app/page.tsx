@@ -160,9 +160,10 @@ export default function HomePage() {
               Cash Flow • Profit • Scaling
 
             </p>
+</div>
 
-          </div>
-           
+</section>
+          
      {/* WHY EDUNANCIAL */}
 
 <section className="bg-[#111827]">
