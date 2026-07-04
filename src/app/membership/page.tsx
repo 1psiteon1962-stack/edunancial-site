@@ -1,70 +1,209 @@
+import Link from "next/link";
+
+import { membershipPlans } from "@/types/membership";
+
 export default function MembershipPage() {
 
-return(
+  return (
 
-<main className="min-h-screen bg-[#08101f] text-white px-6 py-20">
+    <main className="mx-auto max-w-7xl px-6 py-12">
 
-<div className="max-w-6xl mx-auto">
+      <section className="text-center">
 
-<h1 className="text-6xl font-black">
-MEMBERSHIP
-</h1>
+        <h1 className="text-5xl font-bold">
 
-<p className="mt-6 text-xl text-gray-300">
+          Become an Edunancial Member
 
-Become an Edunancial member and receive
-exclusive books,
-courses,
-downloads,
-financial calculators,
-and future member benefits.
+        </h1>
 
-</p>
+        <p className="mt-6 text-xl text-slate-600">
 
-<div className="grid gap-8 mt-16 md:grid-cols-3">
+          Financial literacy teaches knowledge.
 
-<div className="rounded-2xl bg-[#101a2f] p-8">
+          Financial competency develops the ability to make
+          better financial decisions throughout life.
 
-<h2 className="text-3xl font-black">
-Basic
-</h2>
+        </p>
 
-<p className="mt-5">
-$9.99/month
-</p>
+      </section>
 
-</div>
+      <section className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
 
-<div className="rounded-2xl bg-blue-700 p-8">
+        {membershipPlans.map(plan => (
 
-<h2 className="text-3xl font-black">
-Gold
-</h2>
+          <div
+            key={plan.id}
+            className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
+          >
 
-<p className="mt-5">
-$29.99/month
-</p>
+            <h2 className="text-3xl font-bold">
 
-</div>
+              {plan.name}
 
-<div className="rounded-2xl bg-[#101a2f] p-8">
+            </h2>
 
-<h2 className="text-3xl font-black">
-Lifetime
-</h2>
+            <div className="mt-6">
 
-<p className="mt-5">
-Coming Soon
-</p>
+              <span className="text-5xl font-bold">
 
-</div>
+                ${plan.monthlyPrice}
 
-</div>
+              </span>
 
-</div>
+              <span className="ml-2 text-slate-500">
 
-</main>
+                /month
 
-);
+              </span>
+
+            </div>
+
+            <ul className="mt-8 space-y-3 text-left">
+
+              <li>
+
+                {plan.assessmentIncluded
+                  ? "✓"
+                  : "—"} Financial Competency Assessment
+
+              </li>
+
+              <li>
+
+                {plan.marketplaceIncluded
+                  ? "✓"
+                  : "—"} Marketplace Access
+
+              </li>
+
+              <li>
+
+                {plan.aiCoachIncluded
+                  ? "✓"
+                  : "—"} AI Coach
+
+              </li>
+
+              <li>
+
+                {plan.downloadableCourses
+                  ? "✓"
+                  : "—"} Downloadable Courses
+
+              </li>
+
+              <li>
+
+                {plan.prioritySupport
+                  ? "✓"
+                  : "—"} Priority Support
+
+              </li>
+
+            </ul>
+
+            <Link
+
+              href={`/membership/checkout?plan=${plan.id}`}
+
+              className="mt-10 inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-semibold text-white hover:bg-blue-800"
+
+            >
+
+              Select {plan.name}
+
+            </Link>
+
+          </div>
+
+        ))}
+
+      </section>
+
+      <section className="mt-24 rounded-2xl bg-slate-100 p-10">
+
+        <h2 className="text-3xl font-bold">
+
+          Why Become a Member?
+
+        </h2>
+
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+          <div>
+
+            <h3 className="font-semibold">
+
+              Learn
+
+            </h3>
+
+            <p>
+
+              Structured financial education designed to build
+              financial competency.
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h3 className="font-semibold">
+
+              Assess
+
+            </h3>
+
+            <p>
+
+              Measure your competency and monitor your progress
+              over time.
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h3 className="font-semibold">
+
+              Connect
+
+            </h3>
+
+            <p>
+
+              Access trusted professionals in your local
+              marketplace.
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h3 className="font-semibold">
+
+              Grow
+
+            </h3>
+
+            <p>
+
+              Build the knowledge, discipline, and habits needed
+              to improve your financial future.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  );
 
 }
