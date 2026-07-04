@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Section 1 | Personal Financial Management",
+  title: "Section 1 | Personal Finance",
   description:
-    "Financial Competency Assessment - Section 1",
+    "Financial Competency Assessment - Personal Finance",
 };
 
 export default function AssessmentSectionOne() {
@@ -26,13 +26,9 @@ export default function AssessmentSectionOne() {
 
         <p className="mt-8 max-w-4xl text-2xl leading-10 text-slate-300">
 
-          This section measures your understanding of
-          budgeting,
-          saving,
-          debt,
-          credit,
-          cash flow,
-          and financial decision-making.
+          This section measures your understanding of budgeting,
+          cash flow, debt management, savings, emergency planning,
+          and financial decision making.
 
         </p>
 
@@ -46,7 +42,7 @@ export default function AssessmentSectionOne() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Do you currently follow a written monthly budget?
+            How often do you prepare and follow a written budget?
 
           </p>
 
@@ -80,7 +76,7 @@ export default function AssessmentSectionOne() {
 
         </div>
 
-                <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
 
           <h2 className="text-4xl font-black">
 
@@ -90,8 +86,8 @@ export default function AssessmentSectionOne() {
 
           <p className="mt-8 text-2xl leading-10">
 
-            Approximately what percentage of your monthly income
-            do you consistently save or invest?
+            If you lost your primary source of income today,
+            how long could you pay your normal living expenses?
 
           </p>
 
@@ -99,53 +95,7 @@ export default function AssessmentSectionOne() {
 
             <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
 
-              A. More than 20%
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              B. 10%–20%
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              C. Less than 10%
-
-            </button>
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              D. I do not consistently save
-
-            </button>
-
-          </div>
-
-        </div>
-
-        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
-
-          <h2 className="text-4xl font-black">
-
-            Question 3
-
-          </h2>
-
-          <p className="mt-8 text-2xl leading-10">
-
-            If you unexpectedly lost your primary income today,
-            how long could you maintain your current lifestyle
-            without borrowing money?
-
-          </p>
-
-          <div className="mt-10 space-y-4">
-
-            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
-
-              A. More than 12 months
+              A. More than one year
 
             </button>
 
@@ -171,6 +121,95 @@ export default function AssessmentSectionOne() {
 
         </div>
 
+               <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+
+          <h2 className="text-4xl font-black">
+
+            Question 3
+
+          </h2>
+
+          <p className="mt-8 text-2xl leading-10">
+
+            Which statement best describes your savings habits?
+
+          </p>
+
+          <div className="mt-10 space-y-4">
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              A. I save automatically every payday.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              B. I save regularly but not consistently.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              C. I save only when money is left over.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              D. I rarely save money.
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <div className="mt-16 rounded-2xl bg-slate-900 p-10">
+
+          <h2 className="text-4xl font-black">
+
+            Question 4
+
+          </h2>
+
+          <p className="mt-8 text-2xl leading-10">
+
+            When making a purchase,
+            what usually influences your decision the most?
+
+          </p>
+
+          <div className="mt-10 space-y-4">
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              A. My written financial plan and budget.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              B. I compare value before buying.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              C. I usually decide based on emotion.
+
+            </button>
+
+            <button className="w-full rounded-xl border border-slate-700 p-6 text-left hover:border-blue-500">
+
+              D. I buy what I want without much planning.
+
+            </button>
+
+          </div>
+
+        </div>
+
         <div className="mt-16 flex justify-between">
 
           <Link
@@ -183,5 +222,19 @@ export default function AssessmentSectionOne() {
           </Link>
 
           <Link
-           
-<div className="mt-12 space-y-6">
+            href="/assessment/start/section-2"
+            className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold hover:bg-blue-700"
+          >
+
+            Continue to Section 2 →
+
+          </Link>
+
+        </div>
+
+             </section>
+
+    </main>
+
+  );
+} 
