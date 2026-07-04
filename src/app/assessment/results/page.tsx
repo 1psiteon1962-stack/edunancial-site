@@ -210,4 +210,4 @@ export default function AssessmentResultsPage() {
 
           <div className="mt-10 space-y-8">
 
-            <div className="rounded-xl bg-slate-
+         <div className="rounded-xl bg-slate-900 p-8">   
