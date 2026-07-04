@@ -73,7 +73,6 @@ export function generateCertificates(
 }
 
 
-
 export function earnedCertificates(
   scores: CompetencyScores
 ): number {
@@ -132,10 +131,8 @@ export function certificateProgress(
 ): number {
 
   return Math.min(
-    100
-    Math round (score / minimumScore)
-*  100
+    100,
+    Math.round((score / minimumScore) * 100)
   );
 
-  )
-    
+}
