@@ -7,6 +7,14 @@ import MemberWelcomeKit from "@/components/membership/MemberWelcomeKit";
 import WhyMembershipMatters from "@/components/membership/WhyMembershipMatters";
 import MembershipCallToAction from "@/components/membership/MembershipCallToAction";
 
+import FeaturedCourses from "@/components/home/FeaturedCourses";
+import SuccessStories from "@/components/home/SuccessStories";
+import MarketplacePreview from "@/components/home/MarketplacePreview";
+import AICoachPreview from "@/components/home/AICoachPreview";
+import CompetencyJourney from "@/components/home/CompetencyJourney";
+import FrequentlyAskedQuestions from "@/components/home/FrequentlyAskedQuestions";
+import CommunitySection from "@/components/home/CommunitySection";
+import FinalCallToAction from "@/components/home/FinalCallToAction";
 export const metadata = {
   title: "Edunancial | Financial Literacy & Financial Competency",
   description:
