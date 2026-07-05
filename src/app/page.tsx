@@ -1,6 +1,12 @@
 import Link from "next/link";
 import HomePortal from "@/components/home/HomePortal";
 
+import HomeMembershipSection from "@/components/membership/HomeMembershipSection";
+import FreeDownloadsSection from "@/components/membership/FreeDownloadsSection";
+import MemberWelcomeKit from "@/components/membership/MemberWelcomeKit";
+import WhyMembershipMatters from "@/components/membership/WhyMembershipMatters";
+import MembershipCallToAction from "@/components/membership/MembershipCallToAction";
+
 export const metadata = {
   title: "Edunancial | Financial Literacy & Financial Competency",
   description:
@@ -72,6 +78,16 @@ export default function HomePage() {
         </div>
 
       </section>
+
+<HomeMembershipSection />
+
+<FreeDownloadsSection />
+
+<MemberWelcomeKit />
+
+<WhyMembershipMatters />
+
+<MembershipCallToAction />
 
       {/* THREE PILLARS */}
 
