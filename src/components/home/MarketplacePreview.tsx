@@ -1,69 +1,59 @@
+import Link from "next/link";
+
 export default function MarketplacePreview() {
+  return (
+    <section className="py-24">
 
-const services = [
+      <div className="mx-auto max-w-7xl px-6">
 
-"CPAs",
+        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+          MARKETPLACE
+        </p>
 
-"Bookkeepers",
+        <h2 className="mt-6 text-6xl font-black">
+          Learn. Connect. Apply.
+        </h2>
 
-"Insurance",
+        <p className="mt-8 max-w-4xl text-2xl leading-10 text-slate-300">
+          Connect with trusted professionals who can help you implement
+          what you learn.
+        </p>
 
-"Attorneys",
+        <div className="mt-16 grid gap-8 md:grid-cols-4">
 
-"Business Consultants",
+          {[
+            "Attorneys",
+            "Accountants",
+            "Lenders",
+            "Business Advisors"
+          ].map((item) => (
 
-"Commercial Realtors",
+            <div
+              key={item}
+              className="rounded-xl bg-slate-900 p-8 text-center"
+            >
+              <h3 className="text-2xl font-bold">
+                {item}
+              </h3>
+            </div>
 
-"Mortgage Brokers",
+          ))}
 
-"Financial Coaches"
+        </div>
 
-];
+        <div className="mt-16">
 
-return(
+          <Link
+            href="/marketplace"
+            className="rounded-xl bg-blue-600 px-10 py-5 font-bold hover:bg-blue-700"
+          >
+            Explore Marketplace
+          </Link>
 
-<section className="mx-auto max-w-7xl px-6 py-20">
+        </div>
 
-<h2 className="text-5xl font-black text-white">
+      </div>
 
-Professional Marketplace
-
-</h2>
-
-<p className="text-gray-400 mt-6">
-
-Find trusted professionals that help you build wealth.
-
-</p>
-
-<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-
-{services.map(service=>(
-
-<div
-key={service}
-className="rounded-xl bg-slate-900 border border-slate-700 p-8">
-
-<h3 className="text-2xl text-white font-bold">
-
-{service}
-
-</h3>
-
-<p className="text-gray-400 mt-4">
-
-Coming Soon
-
-</p>
-
-</div>
-
-))}
-
-</div>
-
-</section>
-
-);
-
+    </section>
+  );
 }
