@@ -1,35 +1,64 @@
-export default function SuccessMetrics(){
+export default function SuccessMetrics() {
 
-return(
+  const metrics = [
 
-<section className="grid lg:grid-cols-4 gap-6">
+    "Lessons Completed",
 
-<div className="rounded-xl bg-green-50 p-6">
+    "Competencies Earned",
 
-Revenue
+    "Decision Labs Passed",
 
-</div>
+    "Case Studies Completed",
 
-<div className="rounded-xl bg-blue-50 p-6">
+    "Business Plans Created",
 
-Profit
+    "ROI Calculated",
 
-</div>
+    "AI Sessions",
 
-<div className="rounded-xl bg-red-50 p-6">
+    "Certifications Earned",
 
-Courses
+  ];
 
-</div>
+  return (
 
-<div className="rounded-xl bg-yellow-50 p-6">
+    <section className="py-24">
 
-Businesses Started
+      <div className="mx-auto max-w-7xl px-6">
 
-</div>
+        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
 
-</section>
+          SUCCESS METRICS
 
-);
+        </p>
+
+        <h2 className="mt-6 text-6xl font-black">
+
+          Measure Your Progress
+
+        </h2>
+
+        <div className="mt-20 grid gap-8 md:grid-cols-4">
+
+          {metrics.map((metric)=>(
+
+            <div
+              key={metric}
+              className="rounded-xl bg-slate-900 p-8"
+            >
+
+              {metric}
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </div>
+
+    </section>
+
+  );
 
 }
