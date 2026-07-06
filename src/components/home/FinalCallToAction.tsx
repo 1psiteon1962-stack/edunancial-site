@@ -1,40 +1,51 @@
 import Link from "next/link";
 
 export default function FinalCallToAction() {
+
   return (
-    <section className="bg-[#0b1326] py-24">
 
-      <div className="mx-auto max-w-7xl px-6 text-center">
+    <section className="bg-gradient-to-r from-blue-900 via-slate-900 to-red-900 py-28">
 
-        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
-          START TODAY
-        </p>
+      <div className="mx-auto max-w-5xl px-6 text-center">
 
-        <h2 className="mt-6 text-6xl font-black">
-          Your Financial Future
+        <h2 className="text-6xl font-black">
+
+          Stop Memorizing.
+
           <br />
-          Starts With One Decision.
+
+          Start Building Financial Competency.
+
         </h2>
 
-        <p className="mx-auto mt-10 max-w-4xl text-2xl leading-10 text-slate-300">
-          Build financial competency through education,
-          disciplined action and continuous improvement.
+        <p className="mt-10 text-2xl leading-10 text-slate-300">
+
+          Better thinking creates better decisions.
+
+          Better decisions create better businesses.
+
+          Better businesses build stronger communities.
+
         </p>
 
         <div className="mt-16 flex flex-wrap justify-center gap-6">
 
           <Link
             href="/membership"
-            className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
+            className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold"
           >
-            Become a Member
+
+            Become A Member
+
           </Link>
 
           <Link
             href="/assessment"
             className="rounded-xl border border-white px-10 py-5 text-xl font-bold hover:bg-white hover:text-black"
           >
-            Take Assessment
+
+            Take The Assessment
+
           </Link>
 
         </div>
@@ -42,5 +53,7 @@ export default function FinalCallToAction() {
       </div>
 
     </section>
+
   );
+
 }
