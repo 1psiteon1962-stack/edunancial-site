@@ -1,160 +1,210 @@
 // ======================================================
-// MEMBERSHIP CONFIGURATION
+// EDUNANCIAL MEMBERSHIP CONFIGURATION
 // FILE 1036
-// PART 1
+// VERSION 3.0
 // ======================================================
 
-// ======================================================
-// MEMBERSHIP FEATURES
-// FILE 1036
-// PART 2
-// ======================================================
+export type MembershipTier =
+  | "visitor"
+  | "preview"
+  | "learn"
+  | "build"
+  | "lead"
+  | "enterprise";
 
-export const MembershipFeatures = {
+export interface Membership {
 
-learn: [
+  name: string;
 
-"Dashboard",
+  priceMonthly: number | null;
 
-"Learning Paths",
+  priceAnnual: number | null;
 
-"Financial Literacy",
+  previewAllowed: boolean;
 
-"Assessment",
+}
 
-"Progress Tracking",
+export const Memberships: Record<MembershipTier, Membership> = {
 
-"Basic AI",
+  visitor: {
 
-],
+    name: "Visitor",
 
-build: [
+    priceMonthly: 0,
 
-"Everything in Learn",
+    priceAnnual: 0,
 
-"Business Courses",
+    previewAllowed: true,
 
-"Investing",
+  },
 
-"Real Estate",
+  preview: {
 
-"Decision Labs",
+    name: "Preview",
 
-"Case Studies",
+    priceMonthly: 0,
 
-"Business AI",
+    priceAnnual: 0,
 
-"KPI Dashboard",
+    previewAllowed: false,
 
-],
+  },
 
-lead: [
+  learn: {
 
-"Everything in Build",
+    name: "Learn",
 
-"Executive Dashboard",
+    priceMonthly: 9.99,
 
-"Executive AI",
+    priceAnnual: 99,
 
-"International Expansion",
+    previewAllowed: false,
 
-"Pricing Intelligence",
+  },
 
-"Market Intelligence",
+  build: {
 
-"Founder Reports",
+    name: "Build",
 
-],
+    priceMonthly: 39.99,
 
-enterprise: [
+    priceAnnual: 399,
 
-"Organization Dashboard",
+    previewAllowed: false,
 
-"Student Management",
+  },
 
-"Organization Analytics",
+  lead: {
 
-"Enterprise Reporting",
+    name: "Lead",
 
-"Dedicated AI",
+    priceMonthly: 99.99,
 
-"API Access",
+    priceAnnual: 999,
 
-"Administrative Controls",
+    previewAllowed: false,
 
-],
+  },
+
+  enterprise: {
+
+    name: "Enterprise",
+
+    priceMonthly: null,
+
+    priceAnnual: null,
+
+    previewAllowed: false,
+
+  },
 
 };
 
-// ======================================================
-// MEMBERSHIP FEATURE MATRIX
-// FILE 1036
-// PART 2 OF 2
-// ======================================================
-
-export const MembershipFeatures = {
+export const MembershipFeatures: Record<MembershipTier, string[]> = {
 
   visitor: [
+
     "Homepage",
+
     "Public Pages",
-    "Sample Lesson"
+
+    "View Membership Options"
+
   ],
 
   preview: [
+
     "One Sample Lesson",
+
     "One Sample Assessment",
+
     "Limited Dashboard Preview"
+
   ],
 
   learn: [
-    "Full Foundations Curriculum",
-    "Basic Financial Literacy",
-    "Basic Financial Competency",
-    "Course Certificates",
-    "Progress Dashboard",
+
+    "Financial Literacy",
+
+    "Financial Competency",
+
+    "Learning Dashboard",
+
+    "Progress Tracking",
+
+    "Certificates",
+
     "Basic AI Coach"
+
   ],
 
   build: [
+
     "Everything in Learn",
+
+    "Business Builder",
+
     "Business Courses",
+
     "Investment Courses",
+
     "Real Estate Courses",
-    "Business KPI Dashboard",
-    "Business AI",
+
     "Decision Labs",
-    "Case Studies"
+
+    "Case Studies",
+
+    "Business Health Dashboard",
+
+    "Business AI"
+
   ],
 
   lead: [
+
     "Everything in Build",
+
     "Executive Dashboard",
-    "International Expansion",
-    "Market Intelligence",
-    "Advanced Analytics",
+
     "Leadership AI",
+
     "Hiring AI",
+
     "Legal AI",
-    "Tax AI"
+
+    "Tax AI",
+
+    "International Expansion",
+
+    "Advanced Analytics",
+
+    "Market Intelligence"
+
   ],
 
   enterprise: [
+
     "Everything in Lead",
+
     "Organization Dashboard",
-    "Multiple User Accounts",
-    "Instructor Portal",
-    "Enterprise Reporting",
-    "Dedicated AI",
+
     "Organization Analytics",
+
+    "Instructor Portal",
+
+    "Multiple User Accounts",
+
+    "Dedicated AI",
+
     "Priority Support",
+
+    "Enterprise Reporting",
+
     "API Access"
+
   ]
 
 };
-
-// ======================================================
-// SAMPLE CONTENT RULES
-// ======================================================
 
 export const SampleRules = {
 
@@ -166,9 +216,29 @@ export const SampleRules = {
 
   requireAccountCreation: true,
 
-  requireEmailVerification: true
+  requireEmailVerification: true,
 
 };
+
+export function getMembershipFeatures(
+
+  membership: MembershipTier
+
+): string[] {
+
+  return MembershipFeatures[membership];
+
+}
+
+export function isPreviewAllowed(
+
+  membership: MembershipTier
+
+): boolean {
+
+  return Memberships[membership].previewAllowed;
+
+}
 
 // ======================================================
 // END OF FILE
