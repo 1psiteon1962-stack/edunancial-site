@@ -1,7 +1,7 @@
 // ======================================================
 // GLOBAL PERMISSIONS
 // FILE 1040
-// VERSION 2.0
+// VERSION 3.0
 // ======================================================
 
 export enum GlobalPermission {
@@ -19,7 +19,20 @@ export enum GlobalPermission {
   SYSTEM_ADMIN = "SYSTEM_ADMIN",
 }
 
-export const GlobalRolePermissions = {
+export type GlobalRole =
+  | "guest"
+  | "visitor"
+  | "member"
+  | "premium"
+  | "instructor"
+  | "support"
+  | "organizationAdmin"
+  | "countryManager"
+  | "regionalDirector"
+  | "executive"
+  | "founder";
+
+export const GlobalRolePermissions: Record<GlobalRole, GlobalPermission[]> = {
 
   guest: [],
 
@@ -89,10 +102,10 @@ export const GlobalRolePermissions = {
     GlobalPermission.SYSTEM_ADMIN,
   ],
 
-} as const;
+};
 
 export function hasGlobalPermission(
-  role: keyof typeof GlobalRolePermissions,
+  role: GlobalRole,
   permission: GlobalPermission
 ): boolean {
   return GlobalRolePermissions[role].includes(permission);
