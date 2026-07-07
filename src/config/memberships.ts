@@ -79,3 +79,86 @@ previewAllowed:false,
 },
 
 };
+
+// ======================================================
+// MEMBERSHIP FEATURES
+// FILE 1036
+// PART 2
+// ======================================================
+
+export const MembershipFeatures = {
+
+learn: [
+
+"Dashboard",
+
+"Learning Paths",
+
+"Financial Literacy",
+
+"Assessment",
+
+"Progress Tracking",
+
+"Basic AI",
+
+],
+
+build: [
+
+"Everything in Learn",
+
+"Business Courses",
+
+"Investing",
+
+"Real Estate",
+
+"Decision Labs",
+
+"Case Studies",
+
+"Business AI",
+
+"KPI Dashboard",
+
+],
+
+lead: [
+
+"Everything in Build",
+
+"Executive Dashboard",
+
+"Executive AI",
+
+"International Expansion",
+
+"Pricing Intelligence",
+
+"Market Intelligence",
+
+"Founder Reports",
+
+],
+
+enterprise: [
+
+"Organization Dashboard",
+
+"Student Management",
+
+"Organization Analytics",
+
+"Enterprise Reporting",
+
+"Dedicated AI",
+
+"API Access",
+
+"Administrative Controls",
+
+],
+
+};
+
