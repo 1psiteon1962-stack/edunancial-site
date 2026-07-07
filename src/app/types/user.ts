@@ -1,15 +1,61 @@
-// src/app/types/user.ts
+// ======================================================
+// EDUNANCIAL USER CORE TYPES
+// FILE 1035
+// PART 1
+// ======================================================
 
-/**
- * Canonical user profile type
- * Used by API routes and access logic
- */
+export type MembershipLevel =
+  | "visitor"
+  | "preview"
+  | "learn"
+  | "build"
+  | "lead"
+  | "enterprise";
+
+export type UserRole =
+  | "guest"
+  | "member"
+  | "premium"
+  | "instructor"
+  | "support"
+  | "organizationAdmin"
+  | "countryManager"
+  | "regionalDirector"
+  | "executive"
+  | "founder";
+
 export interface UserProfile {
-  id?: string;
+
+  id: string;
+
+  firstName: string;
+
+  lastName: string;
+
   email: string;
 
-  plan?: string;
+  country: string;
 
-  createdAt?: string;
-  updatedAt?: string;
+  stateProvince: string;
+
+  city: string;
+
+  language: string;
+
+  currency: string;
+
+  timezone: string;
+
+  membership: MembershipLevel;
+
+  role: UserRole;
+
+  pinEnabled: boolean;
+
+  twoFactorEnabled: boolean;
+
+  createdAt: string;
+
+  lastLogin: string;
+
 }
