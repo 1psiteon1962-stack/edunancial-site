@@ -83,7 +83,14 @@ export default function BooksPage() {
 
         </div>
 
-        <div className="mt-20 text-center">
+        <div className="mt-20 flex flex-wrap justify-center gap-6">
+
+          <Link
+            href="/library?type=book"
+            className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold"
+          >
+            Browse Full Book Library
+          </Link>
 
           <Link
             href="/giveaways"
