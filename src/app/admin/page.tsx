@@ -34,6 +34,10 @@ const modules = [
     href: "/admin/kpis",
   },
   {
+    title: "DevOps Dashboard",
+    href: "/admin/devops",
+  },
+  {
     title: "System Settings",
     href: "/admin/settings",
   },

@@ -1,0 +1,162 @@
+name: Release Management
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump type"
+        required: true
+        type: choice
+        options: [patch, minor, major]
+      prerelease:
+        description: "Pre-release identifier (leave blank for stable)"
+        required: false
+        type: string
+
+jobs:
+  # ── Create a new version tag (manual trigger only) ────────────────────────────
+  tag-version:
+    name: Tag New Version
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+    outputs:
+      new-version: ${{ steps.bump.outputs.new-version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Determine current version
+        id: current
+        run: |
+          LATEST=$(git tag --list 'v*.*.*' --sort=-version:refname | head -1)
+          echo "latest=${LATEST:-v0.0.0}" >> $GITHUB_OUTPUT
+
+      - name: Calculate next version
+        id: bump
+        run: |
+          CURRENT="${{ steps.current.outputs.latest }}"
+          CURRENT="${CURRENT#v}"
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT"
+          case "${{ github.event.inputs.bump }}" in
+            major) MAJOR=$((MAJOR+1)); MINOR=0; PATCH=0 ;;
+            minor) MINOR=$((MINOR+1)); PATCH=0 ;;
+            patch) PATCH=$((PATCH+1)) ;;
+          esac
+          PRE="${{ github.event.inputs.prerelease }}"
+          if [[ -n "$PRE" ]]; then
+            NEW="v${MAJOR}.${MINOR}.${PATCH}-${PRE}"
+          else
+            NEW="v${MAJOR}.${MINOR}.${PATCH}"
+          fi
+          echo "new-version=${NEW}" >> $GITHUB_OUTPUT
+          echo "New version: ${NEW}"
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create and push tag
+        run: |
+          git tag -a "${{ steps.bump.outputs.new-version }}" \
+            -m "Release ${{ steps.bump.outputs.new-version }}"
+          git push origin "${{ steps.bump.outputs.new-version }}"
+
+  # ── Generate release + changelog on tag push ─────────────────────────────────
+  create-release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract version
+        id: version
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+          echo "version=${TAG#v}" >> $GITHUB_OUTPUT
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          PREVIOUS=$(git tag --list 'v*.*.*' --sort=-version:refname | sed -n '2p' || echo "")
+          if [[ -z "$PREVIOUS" ]]; then
+            RANGE="HEAD"
+          else
+            RANGE="${PREVIOUS}..HEAD"
+          fi
+
+          echo "## What's Changed" > /tmp/release-notes.md
+          echo "" >> /tmp/release-notes.md
+
+          # Features
+          FEATS=$(git log $RANGE --pretty=format:"- %s (%h)" --grep="^feat" || true)
+          if [[ -n "$FEATS" ]]; then
+            echo "### ✨ Features" >> /tmp/release-notes.md
+            echo "$FEATS" >> /tmp/release-notes.md
+            echo "" >> /tmp/release-notes.md
+          fi
+
+          # Fixes
+          FIXES=$(git log $RANGE --pretty=format:"- %s (%h)" --grep="^fix" || true)
+          if [[ -n "$FIXES" ]]; then
+            echo "### 🐛 Bug Fixes" >> /tmp/release-notes.md
+            echo "$FIXES" >> /tmp/release-notes.md
+            echo "" >> /tmp/release-notes.md
+          fi
+
+          # Other commits
+          OTHERS=$(git log $RANGE --pretty=format:"- %s (%h)" --invert-grep --grep="^feat\|^fix\|^chore\|^ci\|^docs" || true)
+          if [[ -n "$OTHERS" ]]; then
+            echo "### 🔧 Other Changes" >> /tmp/release-notes.md
+            echo "$OTHERS" >> /tmp/release-notes.md
+            echo "" >> /tmp/release-notes.md
+          fi
+
+          echo "---" >> /tmp/release-notes.md
+          echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREVIOUS}...${{ steps.version.outputs.tag }}" >> /tmp/release-notes.md
+          cat /tmp/release-notes.md
+
+      - name: Update CHANGELOG.md
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          DATE="$(date -u +%Y-%m-%d)"
+          NOTES=$(cat /tmp/release-notes.md)
+
+          # Prepend new entry to CHANGELOG.md
+          if [[ -f CHANGELOG.md ]]; then
+            EXISTING=$(cat CHANGELOG.md)
+          else
+            EXISTING="# Changelog\n\nAll notable changes to this project will be documented here.\n"
+          fi
+
+          printf "# Changelog\n\nAll notable changes to this project will be documented here.\n\n## [${TAG}] - ${DATE}\n\n${NOTES}\n\n---\n\n$(echo "$EXISTING" | tail -n +5)" > CHANGELOG.md
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git commit -m "docs: update CHANGELOG for $TAG [skip ci]" || echo "No changes to commit"
+          git push origin HEAD:${{ github.event.repository.default_branch }} || echo "Could not push changelog update"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: "Release ${{ steps.version.outputs.tag }}"
+          body_path: /tmp/release-notes.md
+          draft: false
+          prerelease: ${{ contains(steps.version.outputs.tag, '-') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

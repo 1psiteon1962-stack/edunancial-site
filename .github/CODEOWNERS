@@ -1,0 +1,5 @@
+# * @1psiteon1962-stack
+# Critical paths require review from repository owners
+/src/app/admin/            @1psiteon1962-stack
+/.github/workflows/        @1psiteon1962-stack
+/scripts/                  @1psiteon1962-stack
