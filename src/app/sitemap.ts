@@ -102,6 +102,30 @@ new Date(),
 
 url:
 
+"https://www.edunancial.com/trust-center",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/security",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
 "https://www.edunancial.com/disclaimer",
 
 lastModified:
@@ -139,6 +163,30 @@ new Date(),
 url:
 
 "https://www.edunancial.com/faq",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/assessment",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/why-edunancial",
 
 lastModified:
 
