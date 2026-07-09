@@ -1,11 +1,16 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import GlobalExperienceBar from "@/components/global-rollout/GlobalExperienceBar";
+import { GlobalRolloutProvider } from "@/components/global-rollout/GlobalRolloutProvider";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import { getLaunchMarketCountries } from "@/lib/global-rollout/service";
 
 const siteUrl = "https://www.edunancial.com";
+const launchMarkets = getLaunchMarketCountries();
+const launchMarketCodes = launchMarkets.map((country) => country.code);
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -14,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Edunancial",
   },
   description:
-    "Edunancial helps individuals, families, entrepreneurs, and business owners build financial competency through real estate, paper assets, and business education. North America's financial education platform.",
+    "Edunancial helps individuals, families, entrepreneurs, and business owners build financial competency through real estate, paper assets, and business education in a globally configurable learning platform.",
   keywords: [
     "financial literacy",
     "financial competency",
@@ -23,7 +28,7 @@ export const metadata: Metadata = {
     "business education",
     "investing courses",
     "financial freedom",
-    "North America",
+    "global learning platform",
     "edunancial",
   ],
   authors: [{ name: "Edunancial", url: siteUrl }],
@@ -47,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Edunancial",
     title: "Edunancial | Financial Literacy & Financial Competency",
     description:
-      "Build financial competency through real estate, paper assets, and business education. Serving individuals, families, and entrepreneurs across North America.",
+      "Build financial competency through real estate, paper assets, and business education with configuration-driven global rollout support.",
     images: [
       {
         url: "/og-image.png",
@@ -87,13 +92,13 @@ export default function RootLayout({
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
     description:
-      "Edunancial is a North American financial literacy and competency platform helping individuals, families, entrepreneurs, and business owners build wealth through real estate, paper assets, and business education.",
+      "Edunancial is a globally configurable financial literacy and competency platform helping individuals, families, entrepreneurs, and business owners build wealth through real estate, paper assets, and business education.",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
       url: `${siteUrl}/contact`,
     },
-    areaServed: ["US", "CA"],
+    areaServed: launchMarketCodes,
     knowsAbout: [
       "Financial Literacy",
       "Financial Competency",
@@ -113,10 +118,13 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#08101f] text-white">
-        <AnnouncementBar />
-        <Navbar />
-        {children}
-        <Footer />
+        <GlobalRolloutProvider>
+          <AnnouncementBar />
+          <Navbar />
+          <GlobalExperienceBar />
+          {children}
+          <Footer />
+        </GlobalRolloutProvider>
       </body>
     </html>
   );
