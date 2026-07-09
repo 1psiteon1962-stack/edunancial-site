@@ -1,3 +1,4 @@
+import React from "react";
 import { formatMetricValue } from "@/lib/operations/metrics";
 import { MetricSample } from "@/lib/operations/types";
 import StatusBadge from "@/components/operations/StatusBadge";

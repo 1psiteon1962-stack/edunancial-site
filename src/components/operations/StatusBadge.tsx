@@ -1,3 +1,4 @@
+import React from "react";
 import { AlertSeverity, HealthStatus, LogSeverity } from "@/lib/operations/types";
 
 type BadgeTone = HealthStatus | AlertSeverity | LogSeverity | "stub" | "ready" | "demo";

@@ -1,3 +1,4 @@
+import React from "react";
 import OperationsMetricCard from "@/components/operations/OperationsMetricCard";
 import StatusBadge from "@/components/operations/StatusBadge";
 import { LogQuery, OperationsDashboardData } from "@/lib/operations/types";
