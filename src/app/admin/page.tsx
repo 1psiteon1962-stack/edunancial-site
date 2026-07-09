@@ -30,6 +30,10 @@ const modules = [
     href: "/admin/languages",
   },
   {
+    title: "Global Rollout Center",
+    href: "/admin/global-rollout",
+  },
+  {
     title: "KPI Center",
     href: "/admin/kpis",
   },
@@ -41,7 +45,7 @@ const modules = [
 
 export default function AdminPortal() {
   return (
-    <main className="min-h-screen bg-[#08101f] text-white p-10">
+    <main className="min-h-screen bg-[#08101f] p-10 text-white">
       <h1 className="text-6xl font-black">
         ADMIN PORTAL
       </h1>
@@ -50,7 +54,7 @@ export default function AdminPortal() {
         Global Administration Console
       </p>
 
-      <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {modules.map((module) => (
           <Link
             key={module.title}

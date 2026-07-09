@@ -1,3 +1,5 @@
+import FeatureAvailabilityGate from "@/components/global-rollout/FeatureAvailabilityGate";
+
 export const metadata = {
   title: "AI Financial Coach | Edunancial",
 };
@@ -14,46 +16,31 @@ const features = [
 ];
 
 export default function AICoachPage() {
-
   return (
+    <FeatureAvailabilityGate feature="aiCoach" featureLabel="AI Coach">
+      <main className="min-h-screen bg-[#08101f] text-white">
+        <section className="mx-auto max-w-7xl px-6 py-24">
+          <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
+            AI FINANCIAL COACH
+          </p>
 
-    <main className="min-h-screen bg-[#08101f] text-white">
+          <h1 className="mt-6 text-6xl font-black">
+            Learn Smarter.
+            <br />
+            Grow Faster.
+          </h1>
 
-      <section className="mx-auto max-w-7xl px-6 py-24">
-
-        <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
-          AI FINANCIAL COACH
-        </p>
-
-        <h1 className="mt-6 text-6xl font-black">
-          Learn Smarter.
-          <br />
-          Grow Faster.
-        </h1>
-
-        <div className="mt-20 grid gap-8 md:grid-cols-2">
-
-          {features.map((feature) => (
-
-            <div
-              key={feature}
-              className="rounded-xl bg-slate-900 p-8"
-            >
-
-              <h2 className="text-2xl font-black">
-                {feature}
-              </h2>
-
-            </div>
-
-          ))}
-
-        </div>
-
-      </section>
-
-    </main>
-
+          <div className="mt-20 grid gap-8 md:grid-cols-2">
+            {features.map((feature) => (
+              <div key={feature} className="rounded-xl bg-slate-900 p-8">
+                <h2 className="text-2xl font-black">
+                  {feature}
+                </h2>
+              </div>
+            ))}
+          </div>
+        </section>
+      </main>
+    </FeatureAvailabilityGate>
   );
-
 }
