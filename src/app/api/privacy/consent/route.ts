@@ -41,14 +41,18 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid consent payload." }, { status: 400 });
   }
 
+  const preferences = {
+    analytics: body.analytics,
+    marketing: body.marketing,
+  };
+
   const session = await getSecuritySessionFromRequest(request);
   const response = NextResponse.json(
     {
       success: true,
       preferences: {
         essential: true,
-        analytics: body.analytics,
-        marketing: body.marketing,
+        ...preferences,
       },
     },
     {
@@ -58,7 +62,7 @@ export async function POST(request: Request) {
     }
   );
 
-  response.cookies.set(CONSENT_COOKIE_NAME, serializeConsentPreferences(body), {
+  response.cookies.set(CONSENT_COOKIE_NAME, serializeConsentPreferences(preferences), {
     httpOnly: false,
     maxAge: 60 * 60 * 24 * 365,
     path: "/",
@@ -74,8 +78,7 @@ export async function POST(request: Request) {
     outcome: "success",
     request,
     metadata: {
-      analytics: body.analytics,
-      marketing: body.marketing,
+      ...preferences,
     },
   });
 

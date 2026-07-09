@@ -7,12 +7,12 @@ function toBase64Url(bytes: Uint8Array): string {
     .replace(/=+$/g, "");
 }
 
-function fromBase64Url(value: string): Uint8Array {
+function fromBase64Url(value: string): ArrayBuffer {
   const padded = value.replace(/-/g, "+").replace(/_/g, "/");
   const normalized = padded + "=".repeat((4 - (padded.length % 4 || 4)) % 4);
   const binary = atob(normalized);
 
-  return Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  return Uint8Array.from(binary, (character) => character.charCodeAt(0)).buffer;
 }
 
 async function importEncryptionKey(secret: string) {
@@ -67,7 +67,7 @@ export async function decryptSensitiveValue(value: string): Promise<string> {
 
   const key = await importEncryptionKey(secret);
   const decrypted = await crypto.subtle.decrypt(
-    { name: "AES-GCM", iv: fromBase64Url(ivPart) },
+    { name: "AES-GCM", iv: new Uint8Array(fromBase64Url(ivPart)) },
     key,
     fromBase64Url(payloadPart)
   );
