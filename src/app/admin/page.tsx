@@ -22,6 +22,10 @@ const modules = [
     href: "/admin/customers",
   },
   {
+    title: "Support Dashboard",
+    href: "/admin/support",
+  },
+  {
     title: "Regions",
     href: "/admin/regions",
   },
