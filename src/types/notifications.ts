@@ -12,24 +12,30 @@ export type NotificationCategory =
   | "payment"
   | "system"
   | "ai"
-  | "executive";
+  | "executive"
+  | "community"
+  | "announcement";
+
+export type NotificationChannel =
+  | "email"
+  | "sms"
+  | "in-app"
+  | "newsletter";
+
+export interface NotificationAction {
+  label: string;
+  href: string;
+}
 
 export interface Notification {
-
   id: string;
-
+  userId: string;
   title: string;
-
   message: string;
-
   category: NotificationCategory;
-
   priority: NotificationPriority;
-
+  channel: NotificationChannel;
   read: boolean;
-
-  createdAt: Date;
-
-  actionUrl?: string;
-
+  createdAt: string;
+  action?: NotificationAction;
 }
