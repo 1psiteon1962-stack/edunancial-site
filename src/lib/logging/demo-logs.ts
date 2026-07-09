@@ -1,8 +1,8 @@
 // Demo log data for the log viewer admin panel
-import { type LogEntry } from "./types";
+import { type LogEntry, type LogCategory, type LogSeverity } from "./types";
 
 const SERVICES = ["api-gateway", "auth-service", "course-engine", "payment-service", "notification-service", "admin-panel", "background-worker"];
-const MESSAGES: Record<string, string[]> = {
+const MESSAGES: Record<LogCategory, string[]> = {
   authentication: [
     "User login succeeded",
     "User login failed — invalid credentials",
@@ -60,6 +60,13 @@ const MESSAGES: Record<string, string[]> = {
     "Email digest dispatched",
     "Analytics rollup failed — retrying",
     "Cache warmup completed",
+  ],
+  infrastructure: [
+    "Server health check passed",
+    "High CPU utilization detected on web-01",
+    "Disk usage above 80% threshold",
+    "Load balancer failover triggered",
+    "SSL certificate renewed automatically",
   ],
 };
 

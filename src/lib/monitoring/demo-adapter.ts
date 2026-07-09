@@ -113,13 +113,13 @@ export class DemoMetricsProvider implements MetricsProvider {
     to: number,
     _filter?: Partial<ObservabilityEvent>
   ): Promise<ObservabilityEvent[]> {
-    const events: ObservabilityEvent[] = [
+    const allEvents: ObservabilityEvent[] = [
       { id: makeId(), type: "slow_query", service: "course-engine", severity: "warning", message: "Query exceeded 500ms threshold", timestamp: Date.now() - 120_000, durationMs: 720, metadata: { query: "SELECT * FROM enrollments WHERE ...", database: "primary-postgres" } },
       { id: makeId(), type: "error", service: "notification-service", severity: "error", message: "Email delivery failed: SMTP timeout", timestamp: Date.now() - 300_000, metadata: { retryCount: 3 } },
       { id: makeId(), type: "performance", service: "api-gateway", severity: "info", message: "P99 latency spike to 480ms on /api/courses", timestamp: Date.now() - 600_000, durationMs: 480 },
       { id: makeId(), type: "exception", service: "payment-service", severity: "error", message: "Unhandled promise rejection in webhook processor", timestamp: Date.now() - 900_000, metadata: { handled: false } },
-    ].filter((e) => e.timestamp >= from && e.timestamp <= to);
-    return events;
+    ];
+    return allEvents.filter((e) => e.timestamp >= from && e.timestamp <= to);
   }
 
   async fetchTrace(traceId: string): Promise<DistributedTrace | null> {
