@@ -19,11 +19,11 @@
 - [x] Production guides and runbooks documented in `/docs`
 
 ## Validation before launch
-- [ ] Run `npm install`
-- [ ] Run `npm run lint`
-- [ ] Run `npm test`
-- [ ] Run `npm run build`
-- [ ] Review CodeQL and secret-scan results
+- [x] Run `npm install`
+- [x] Run `npm run lint`
+- [x] Run `npm test`
+- [x] Run `npm run build`
+- [x] Review CodeQL and secret-scan results
 
 ## Residual launch items
 - [ ] Replace placeholder member authentication/session flows with a production identity provider

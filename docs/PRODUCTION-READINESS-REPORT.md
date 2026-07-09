@@ -43,11 +43,11 @@ The application is materially closer to public-launch readiness after this harde
 - Residual gap: structured log shipping, alerting, and backup automation are still external responsibilities
 
 ## Validation checklist
-- `npm run lint`
-- `npm test`
-- `npm run build`
-- Secret scan on changed files
-- CodeQL review on final diff
+- [x] `npm run lint`
+- [x] `npm test`
+- [x] `npm run build`
+- [x] Secret scan on changed files
+- [x] CodeQL review on final diff
 
 ## Remaining known risks and mitigation
 | Priority | Risk | Mitigation |
