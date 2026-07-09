@@ -1,0 +1,70 @@
+name: CD – Development
+
+on:
+  push:
+    branches: [develop]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: "20"
+  ENVIRONMENT: development
+
+jobs:
+  build-and-deploy:
+    name: Deploy to Development
+    runs-on: ubuntu-latest
+    environment:
+      name: development
+      url: ${{ steps.deploy.outputs.deploy-url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint & type check
+        run: |
+          npm run lint
+          npm run type-check
+
+      - name: Run tests
+        run: npm run test:ci
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_ENV: development
+
+      - name: Deploy to Netlify (Development)
+        id: deploy
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: ".next"
+          production-deploy: false
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Dev deploy from commit ${{ github.sha }}"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          alias: dev-${{ github.sha }}
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_DEV }}
+
+      - name: Health check
+        if: steps.deploy.outputs.deploy-url != ''
+        run: |
+          chmod +x scripts/health-check.sh
+          ./scripts/health-check.sh "${{ steps.deploy.outputs.deploy-url }}"
+
+      - name: Record deployment
+        run: |
+          echo "{\"env\":\"development\",\"sha\":\"${{ github.sha }}\",\"ref\":\"${{ github.ref_name }}\",\"url\":\"${{ steps.deploy.outputs.deploy-url }}\",\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",\"actor\":\"${{ github.actor }}\",\"status\":\"success\"}" \
+            >> deployment-history.jsonl || true

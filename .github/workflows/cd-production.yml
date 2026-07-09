@@ -1,0 +1,177 @@
+name: CD – Production
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Git tag / release version to deploy (e.g. v1.2.3)"
+        required: true
+        type: string
+      confirm:
+        description: "Type DEPLOY to confirm production deployment"
+        required: true
+        type: string
+
+env:
+  NODE_VERSION: "20"
+  ENVIRONMENT: production
+
+jobs:
+  # ── Guard ─────────────────────────────────────────────────────────────────────
+  validate-inputs:
+    name: Validate Deployment Inputs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm intent
+        run: |
+          if [[ "${{ github.event.inputs.confirm }}" != "DEPLOY" ]]; then
+            echo "::error::Confirmation value must be exactly 'DEPLOY'. Got: ${{ github.event.inputs.confirm }}"
+            exit 1
+          fi
+          echo "Deployment of ${{ github.event.inputs.version }} confirmed."
+
+  # ── Full quality gate ─────────────────────────────────────────────────────────
+  quality-gate:
+    name: Quality Gate
+    runs-on: ubuntu-latest
+    needs: validate-inputs
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.version }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run type-check
+
+      - name: Tests with coverage
+        run: npm run test:ci
+
+      - name: Security audit (zero high-severity CVEs)
+        run: npm audit --audit-level=high
+
+  # ── Build ─────────────────────────────────────────────────────────────────────
+  build:
+    name: Build for Production
+    runs-on: ubuntu-latest
+    needs: quality-gate
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.version }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_ENV: production
+
+      - name: Upload production build
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build-${{ github.event.inputs.version }}
+          path: .next/
+          retention-days: 30
+
+  # ── Manual approval ───────────────────────────────────────────────────────────
+  approval:
+    name: Awaiting Production Approval
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: production          # configure required reviewers in repo Settings → Environments
+    steps:
+      - name: Approved
+        run: echo "Production deployment approved by ${{ github.actor }}."
+
+  # ── Deploy ────────────────────────────────────────────────────────────────────
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: approval
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.deploy-url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.version }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download production build
+        uses: actions/download-artifact@v4
+        with:
+          name: production-build-${{ github.event.inputs.version }}
+          path: .next/
+
+      - name: Deploy to Netlify (Production)
+        id: deploy
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: ".next"
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Production release ${{ github.event.inputs.version }}"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_PRODUCTION }}
+
+      - name: Post-deploy health check
+        id: healthcheck
+        run: |
+          chmod +x scripts/health-check.sh
+          ./scripts/health-check.sh "${{ steps.deploy.outputs.deploy-url }}"
+
+      - name: Rollback on failure
+        if: failure() && steps.healthcheck.outcome == 'failure'
+        run: |
+          echo "::error::Production health check failed! Initiating automatic rollback..."
+          chmod +x scripts/rollback.sh
+          ./scripts/rollback.sh production "${{ github.event.inputs.version }}"
+
+      - name: Record deployment
+        if: always()
+        run: |
+          STATUS=${{ job.status }}
+          echo "{\"env\":\"production\",\"version\":\"${{ github.event.inputs.version }}\",\"sha\":\"${{ github.sha }}\",\"url\":\"${{ steps.deploy.outputs.deploy-url }}\",\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",\"actor\":\"${{ github.actor }}\",\"status\":\"$STATUS\"}" \
+            >> deployment-history.jsonl || true
+
+      - name: Create deployment summary
+        if: success()
+        run: |
+          echo "## 🚀 Production Deployment Successful" >> $GITHUB_STEP_SUMMARY
+          echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| Version | \`${{ github.event.inputs.version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| URL | ${{ steps.deploy.outputs.deploy-url }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Deployed by | @${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Timestamp | $(date -u +%Y-%m-%dT%H:%M:%SZ) |" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,127 @@
+name: CD – Staging
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: "20"
+  ENVIRONMENT: staging
+
+jobs:
+  quality-gate:
+    name: Quality Gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run type-check
+
+      - name: Tests with coverage
+        run: npm run test:ci
+
+      - name: Security audit
+        run: npm audit --audit-level=high
+
+  build:
+    name: Build for Staging
+    runs-on: ubuntu-latest
+    needs: quality-gate
+    outputs:
+      build-sha: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_ENV: staging
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: staging-build-${{ github.sha }}
+          path: .next/
+          retention-days: 3
+
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: staging
+      url: ${{ steps.deploy.outputs.deploy-url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: staging-build-${{ github.sha }}
+          path: .next/
+
+      - name: Deploy to Netlify (Staging)
+        id: deploy
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: ".next"
+          production-deploy: false
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Staging deploy from commit ${{ github.sha }}"
+          alias: staging-${{ github.sha }}
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_STAGING }}
+
+      - name: Health check
+        run: |
+          chmod +x scripts/health-check.sh
+          ./scripts/health-check.sh "${{ steps.deploy.outputs.deploy-url }}"
+
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          echo "::error::Staging deployment health check failed. Initiating rollback..."
+          chmod +x scripts/rollback.sh
+          ./scripts/rollback.sh staging "${{ github.sha }}" || true
+
+      - name: Record deployment
+        if: always()
+        run: |
+          STATUS=${{ job.status }}
+          echo "{\"env\":\"staging\",\"sha\":\"${{ github.sha }}\",\"ref\":\"${{ github.ref_name }}\",\"url\":\"${{ steps.deploy.outputs.deploy-url }}\",\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",\"actor\":\"${{ github.actor }}\",\"status\":\"$STATUS\"}" \
+            >> deployment-history.jsonl || true
