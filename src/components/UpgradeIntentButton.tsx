@@ -1,5 +1,10 @@
 "use client";
 
+import {
+  createProtectedJsonHeaders,
+  hasBrowserConsent,
+} from "@/lib/security/client";
+
 interface UpgradeIntentButtonProps {
   region: string;
   level: string;
@@ -14,10 +19,15 @@ async function recordUpgradeIntent(params: {
   source: string;
 }) {
   try {
+    if (!hasBrowserConsent("analytics")) {
+      return { success: false };
+    }
+
     await fetch("/api/kpi/track", {
       method: "POST",
+      credentials: "same-origin",
       headers: {
-        "Content-Type": "application/json",
+        ...createProtectedJsonHeaders(),
       },
       body: JSON.stringify({
         event_name: "upgrade_intent",
