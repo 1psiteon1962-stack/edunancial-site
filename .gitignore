@@ -1,2 +1,4 @@
 !.velite
 !.velite/generated
+node_modules
+.next
