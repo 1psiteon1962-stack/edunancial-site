@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function VideoLessonCard({
@@ -19,9 +20,12 @@ href={href}
 className="block rounded-xl overflow-hidden border border-slate-700 bg-slate-900 hover:border-blue-500"
 >
 
-<img
+<Image
 src={thumbnail}
 alt={title}
+width={1280}
+height={720}
+unoptimized
 className="aspect-video w-full object-cover"
 />
 

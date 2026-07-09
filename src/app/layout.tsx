@@ -112,10 +112,18 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
-      <body className="bg-[#08101f] text-white">
+      <body className="flex min-h-screen flex-col bg-[#08101f] text-white">
+        <a
+          href="#main-content"
+          className="sr-only absolute left-4 top-4 z-[100] rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white focus:not-sr-only"
+        >
+          Skip to main content
+        </a>
         <AnnouncementBar />
         <Navbar />
-        {children}
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

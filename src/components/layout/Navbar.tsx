@@ -19,7 +19,7 @@ export default function Navbar() {
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
-        <Link href="/" className="text-3xl font-black">
+        <Link href="/" aria-label="Edunancial home" className="text-3xl font-black">
 
           <span className="text-red-500">RED</span>
 
@@ -33,7 +33,7 @@ export default function Navbar() {
 
         </Link>
 
-        <nav className="hidden gap-8 lg:flex">
+        <nav aria-label="Primary" className="hidden gap-8 lg:flex">
 
           {navigation.map((item) => (
 
@@ -51,6 +51,7 @@ export default function Navbar() {
 
         <Link
           href="/assessment"
+          aria-label="Start assessment"
           className="rounded-lg bg-blue-600 px-5 py-3 font-bold"
         >
           Start Assessment

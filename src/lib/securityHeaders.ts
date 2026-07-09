@@ -1,15 +1,39 @@
-export interface SecurityHeaders{
+export const noIndexHeaderValue = "noindex, nofollow, noarchive";
 
-csp:boolean;
+export function buildContentSecurityPolicy(): string {
+  return [
+    "default-src 'self'",
+    "base-uri 'self'",
+    "object-src 'none'",
+    "frame-ancestors 'self'",
+    "form-action 'self' https://www.paypal.com",
+    "script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co",
+    "connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co https://connect.squareup.com",
+    "img-src 'self' data: blob: https:",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "font-src 'self' data: https://fonts.gstatic.com",
+    "frame-src 'self' https://www.paypal.com https://js.squareupsandbox.com https://web.squarecdn.com",
+    "manifest-src 'self'",
+    "media-src 'self' blob:",
+    "upgrade-insecure-requests",
+  ].join("; ");
+}
 
-hsts:boolean;
+export const securityHeaderEntries = [
+  ["Content-Security-Policy", buildContentSecurityPolicy()],
+  ["Referrer-Policy", "strict-origin-when-cross-origin"],
+  ["X-Content-Type-Options", "nosniff"],
+  ["X-Frame-Options", "SAMEORIGIN"],
+  ["Strict-Transport-Security", "max-age=63072000; includeSubDomains; preload"],
+  ["Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=(self)"],
+  ["Cross-Origin-Opener-Policy", "same-origin"],
+  ["Cross-Origin-Resource-Policy", "same-origin"],
+];
 
-xFrameOptions:boolean;
+export function applySecurityHeaders(headers: Headers): Headers {
+  for (const [key, value] of securityHeaderEntries) {
+    headers.set(key, value);
+  }
 
-xContentTypeOptions:boolean;
-
-referrerPolicy:boolean;
-
-permissionsPolicy:boolean;
-
+  return headers;
 }

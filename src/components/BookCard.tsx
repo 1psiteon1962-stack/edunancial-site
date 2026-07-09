@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import SquareBuyButton from "./SquareBuyButton";
 
 type Props = {
@@ -18,9 +20,12 @@ checkoutUrl,
 return (
 <div className="rounded-2xl bg-[#151b2d] overflow-hidden shadow-xl">
 
-  <img
+  <Image
     src={image}
     alt={title}
+    width={720}
+    height={576}
+    unoptimized
     className="w-full h-72 object-cover"
   />
 
