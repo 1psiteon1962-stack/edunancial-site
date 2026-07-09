@@ -77,24 +77,27 @@ function randomFrom<T>(arr: T[]): T {
 export function generateDemoLogs(count = 100): LogEntry[] {
   const categories = Object.keys(MESSAGES) as Array<keyof typeof MESSAGES>;
   const severities: LogSeverity[] = ["info", "info", "info", "info", "warning", "warning", "error", "critical"];
+  // Demo user IDs — not cryptographically sensitive, used for display only
+  const DEMO_USER_IDS = ["usr_001", "usr_002", "usr_003", "usr_004", "usr_005", "usr_006", "usr_007", "usr_008"];
+  const DEMO_CORRELATION_IDS = ["req_a1b2c3d4", "req_e5f6g7h8", "req_i9j0k1l2", "req_m3n4o5p6", "req_q7r8s9t0"];
   const now = Date.now();
   return Array.from({ length: count }, (_, i) => {
     const category = randomFrom(categories);
     const service = randomFrom(SERVICES);
     const messages = MESSAGES[category];
     const severity = randomFrom(severities);
-    const tsMs = now - i * 30_000 - Math.floor(Math.random() * 15_000);
+    const tsMs = now - i * 30_000 - ((i * 7919) % 15_000);
     return {
-      id: Math.random().toString(36).slice(2),
+      id: `log_${i.toString().padStart(6, "0")}`,
       timestamp: new Date(tsMs).toISOString(),
       timestampMs: tsMs,
       severity,
       category,
       service,
       message: randomFrom(messages),
-      correlationId: Math.random() > 0.7 ? Math.random().toString(36).slice(2, 10) : undefined,
-      actor: Math.random() > 0.5
-        ? { userId: `usr_${Math.random().toString(36).slice(2, 8)}`, role: randomFrom(["user", "admin", "editor"]) }
+      correlationId: i % 3 === 0 ? randomFrom(DEMO_CORRELATION_IDS) : undefined,
+      actor: i % 2 === 0
+        ? { userId: DEMO_USER_IDS[i % DEMO_USER_IDS.length], role: randomFrom(["user", "admin", "editor"]) }
         : undefined,
     } satisfies LogEntry;
   });
