@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# Build outputs
-.next/
-node_modules/
-out/
-
-=======
 # Build output
 .next/
 out/
@@ -18,29 +11,21 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.local
 
->>>>>>> origin/main
 # Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
-# Local env files
-.env.local
-.env.*.local
-
-# Vercel
-.vercel
-
-# Velite generated
-=======
 # Misc
 .DS_Store
 *.pem
 
+# Vercel
+.vercel
+
 # Velite generated (keep tracked)
->>>>>>> origin/main
 !.velite
 !.velite/generated
 
