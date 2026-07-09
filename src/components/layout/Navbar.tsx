@@ -6,10 +6,10 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Courses", href: "/courses" },
   { name: "Assessment", href: "/assessment" },
+  { name: "Membership", href: "/membership" },
   { name: "Passport", href: "/passport" },
   { name: "Marketplace", href: "/marketplace" },
   { name: "Family", href: "/family" },
-  { name: "Books", href: "/books" },
   { name: "Our Story", href: "/why-edunancial" },
 ];
 
