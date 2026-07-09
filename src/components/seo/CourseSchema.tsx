@@ -1,3 +1,5 @@
+import { serializeJsonForHtml } from "@/lib/security/json";
+
 export default function CourseSchema(){
 
 const schema={
@@ -23,7 +25,7 @@ return(
 <script
 type="application/ld+json"
 dangerouslySetInnerHTML={{
-__html:JSON.stringify(schema)
+__html:serializeJsonForHtml(schema)
 }}
 />
 

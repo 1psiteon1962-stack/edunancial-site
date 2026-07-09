@@ -1,9 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
+import CookieBanner from "@/components/CookieBanner";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import { serializeJsonForHtml } from "@/lib/security/json";
 
 const siteUrl = "https://www.edunancial.com";
 
@@ -109,13 +111,14 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonForHtml(orgSchema) }}
         />
       </head>
       <body className="bg-[#08101f] text-white">
         <AnnouncementBar />
         <Navbar />
         {children}
+        <CookieBanner />
         <Footer />
       </body>
     </html>

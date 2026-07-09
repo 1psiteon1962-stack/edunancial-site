@@ -1,3 +1,7 @@
+"use client";
+
+import { createProtectedJsonHeaders } from "@/lib/security/client";
+
 export interface CheckoutItem {
   id: string;
   name: string;
@@ -9,9 +13,8 @@ export async function startSquareCheckout(
 ) {
   const response = await fetch("/api/square/checkout", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    credentials: "same-origin",
+    headers: createProtectedJsonHeaders(),
     body: JSON.stringify(item),
   });
 

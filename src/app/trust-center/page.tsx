@@ -89,18 +89,18 @@ export default function TrustCenter() {
                 body: "Our Privacy Policy and Terms of Service are written to be understandable — not buried in legalese.",
               },
               {
-                icon: "&#9201;",
+                icon: "⌁",
                 title: "Breach notification",
                 body: "In the event of a data breach, we will notify affected users and relevant regulators as required by US and Canadian law.",
               },
               {
-                icon: "&#128101;",
+                icon: "👥",
                 title: "Role-based access",
                 body: "Our team members access only the data necessary for their specific role. Access is logged and reviewed.",
               },
             ].map((item) => (
               <div key={item.title} className="rounded-xl bg-slate-900 p-6 flex gap-4">
-                <span className="text-3xl flex-shrink-0" dangerouslySetInnerHTML={{ __html: item.icon }} />
+                <span className="text-3xl flex-shrink-0">{item.icon}</span>
                 <div>
                   <h3 className="font-bold mb-2">{item.title}</h3>
                   <p className="text-slate-300 text-sm leading-7">{item.body}</p>

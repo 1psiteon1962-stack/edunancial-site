@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import { createProtectedJsonHeaders } from "@/lib/security/client";
+
 export default function ContractAcceptance({
   contractId,
   title
@@ -16,6 +18,8 @@ export default function ContractAcceptance({
 
     await fetch("/api/contracts/accept", {
       method: "POST",
+      credentials: "same-origin",
+      headers: createProtectedJsonHeaders(),
       body: JSON.stringify({
         contractId
       })
