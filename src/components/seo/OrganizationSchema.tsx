@@ -10,7 +10,28 @@ const schema={
 
 "url":"https://www.edunancial.com",
 
-"description":"Global financial literacy and business education platform.",
+"logo":"https://www.edunancial.com/logo.png",
+
+"description":"Edunancial is a financial education platform that builds understanding, confidence, decision-making ability, and real-world financial competence. We help people make better financial decisions for life.",
+
+"knowsAbout":[
+  "Personal Finance",
+  "Financial Literacy",
+  "Wealth Building",
+  "Real Estate Investing",
+  "Stock Market",
+  "Business Finance",
+  "Retirement Planning",
+  "Credit Management",
+  "Tax Education",
+  "Insurance"
+],
+
+"hasOfferCatalog":{
+  "@type":"OfferCatalog",
+  "name":"Edunancial Courses and Resources",
+  "numberOfItems":500
+},
 
 "sameAs":[]
 

@@ -16,6 +16,7 @@ import CompetencyJourney from "@/components/home/CompetencyJourney";
 import FrequentlyAskedQuestions from "@/components/home/FrequentlyAskedQuestions";
 import CommunitySection from "@/components/home/CommunitySection";
 import FinalCallToAction from "@/components/home/FinalCallToAction";
+import WhyEdunancial from "@/components/home/WhyEdunancial";
 
 export const metadata: Metadata = {
   title: "Edunancial | Financial Literacy & Financial Competency",
@@ -97,6 +98,9 @@ export default function HomePage() {
 
         </div>
       </section>
+
+      {/* WHY EDUNANCIAL — Trust & Credibility */}
+      <WhyEdunancial />
 
       {/* THREE PILLARS */}
       <section className="mx-auto max-w-7xl px-6 py-24">
