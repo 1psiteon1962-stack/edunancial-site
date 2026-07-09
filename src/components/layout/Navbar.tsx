@@ -7,6 +7,7 @@ const navigation = [
   { name: "Courses", href: "/courses" },
   { name: "Assessment", href: "/assessment" },
   { name: "Membership", href: "/membership" },
+  { name: "Blog", href: "/blog" },
   { name: "Passport", href: "/passport" },
   { name: "Marketplace", href: "/marketplace" },
   { name: "Family", href: "/family" },
@@ -16,27 +17,17 @@ const navigation = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#08101f]/95 backdrop-blur">
-
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-
         <Link href="/" className="text-3xl font-black">
-
           <span className="text-red-500">RED</span>
-
           <span className="text-white">.</span>
-
           <span className="text-white">WHITE</span>
-
           <span className="text-white">.</span>
-
           <span className="text-blue-500">BLUE</span>
-
         </Link>
 
         <nav className="hidden gap-8 lg:flex">
-
           {navigation.map((item) => (
-
             <Link
               key={item.name}
               href={item.href}
@@ -44,9 +35,7 @@ export default function Navbar() {
             >
               {item.name}
             </Link>
-
           ))}
-
         </nav>
 
         <Link
@@ -55,9 +44,7 @@ export default function Navbar() {
         >
           Start Assessment
         </Link>
-
       </div>
-
     </header>
   );
 }

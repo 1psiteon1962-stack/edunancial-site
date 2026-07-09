@@ -3,25 +3,18 @@ export type AgentStatus =
   | "disabled";
 
 export interface AIAgent {
-
   id: string;
-
   name: string;
-
   description: string;
-
   schedule:
     | "manual"
     | "hourly"
     | "daily"
     | "weekly";
-
   status: AgentStatus;
-
 }
 
 export const aiAgents: AIAgent[] = [
-
   {
     id: "research",
     name: "Research Agent",
@@ -30,7 +23,6 @@ export const aiAgents: AIAgent[] = [
     schedule: "daily",
     status: "enabled",
   },
-
   {
     id: "localization",
     name: "Localization Agent",
@@ -39,7 +31,6 @@ export const aiAgents: AIAgent[] = [
     schedule: "manual",
     status: "enabled",
   },
-
   {
     id: "compliance",
     name: "Compliance Agent",
@@ -48,7 +39,6 @@ export const aiAgents: AIAgent[] = [
     schedule: "manual",
     status: "enabled",
   },
-
   {
     id: "marketing",
     name: "Marketing Agent",
@@ -57,7 +47,14 @@ export const aiAgents: AIAgent[] = [
     schedule: "daily",
     status: "enabled",
   },
-
+  {
+    id: "content-publishing",
+    name: "Content Publishing Agent",
+    description:
+      "Generates reviewable outlines, metadata suggestions, FAQs, and internal link opportunities for the editorial team.",
+    schedule: "manual",
+    status: "enabled",
+  },
   {
     id: "marketplace",
     name: "Marketplace Agent",
@@ -66,7 +63,6 @@ export const aiAgents: AIAgent[] = [
     schedule: "daily",
     status: "enabled",
   },
-
   {
     id: "kpi",
     name: "KPI Agent",
@@ -75,7 +71,6 @@ export const aiAgents: AIAgent[] = [
     schedule: "daily",
     status: "enabled",
   },
-
   {
     id: "country-readiness",
     name: "Country Readiness Agent",
@@ -84,5 +79,4 @@ export const aiAgents: AIAgent[] = [
     schedule: "weekly",
     status: "enabled",
   },
-
 ];

@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <footer className="border-t border-slate-800 bg-[#050b17]">
       <div className="mx-auto max-w-7xl px-6 py-20">
-
         <h2 className="text-4xl font-black">
           Financial literacy provides the foundation.
         </h2>
@@ -13,7 +12,6 @@ export default function Footer() {
         </h3>
 
         <div className="mt-16 grid gap-10 md:grid-cols-5">
-
           <div>
             <h4 className="font-bold text-white">Learn</h4>
             <div className="mt-5 space-y-3 text-slate-400">
@@ -21,6 +19,7 @@ export default function Footer() {
               <div><Link href="/courses/white" className="hover:text-white">WHITE — Paper Assets</Link></div>
               <div><Link href="/courses/blue" className="hover:text-white">BLUE — Business</Link></div>
               <div><Link href="/courses" className="hover:text-white">All Courses</Link></div>
+              <div><Link href="/blog" className="hover:text-white">Financial Education Library</Link></div>
             </div>
           </div>
 
@@ -50,6 +49,7 @@ export default function Footer() {
               <div><Link href="/family" className="hover:text-white">Family</Link></div>
               <div><Link href="/marketplace" className="hover:text-white">Marketplace</Link></div>
               <div><Link href="/faq" className="hover:text-white">FAQ</Link></div>
+              <div><Link href="/authors/maya-brooks" className="hover:text-white">Editorial Team</Link></div>
             </div>
           </div>
 
@@ -65,19 +65,16 @@ export default function Footer() {
               <div><Link href="/refund" className="hover:text-white">Refund Policy</Link></div>
             </div>
           </div>
-
         </div>
 
-        <div className="mt-16 border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-8 text-sm text-slate-500 md:flex-row">
           <p>&copy; {new Date().getFullYear()} Edunancial. All rights reserved.</p>
-          <p className="text-center md:text-right max-w-xl">
+          <p className="max-w-xl text-center md:text-right">
             Edunancial provides financial education only — not financial, investment,
-            or legal advice. See our{" "}
-            <Link href="/disclaimer" className="underline hover:text-slate-300">disclaimer</Link>.
+            or legal advice. See our <Link href="/disclaimer" className="underline hover:text-slate-300">disclaimer</Link>.
             We serve the United States and Canada.
           </p>
         </div>
-
       </div>
     </footer>
   );

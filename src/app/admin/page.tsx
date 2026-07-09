@@ -6,6 +6,10 @@ const modules = [
     href: "/admin/dashboard",
   },
   {
+    title: "Editorial Publishing",
+    href: "/admin/content",
+  },
+  {
     title: "Book Management",
     href: "/admin/books",
   },
@@ -41,25 +45,19 @@ const modules = [
 
 export default function AdminPortal() {
   return (
-    <main className="min-h-screen bg-[#08101f] text-white p-10">
-      <h1 className="text-6xl font-black">
-        ADMIN PORTAL
-      </h1>
+    <main className="min-h-screen bg-[#08101f] p-10 text-white">
+      <h1 className="text-6xl font-black">ADMIN PORTAL</h1>
 
-      <p className="mt-6 text-xl text-gray-300">
-        Global Administration Console
-      </p>
+      <p className="mt-6 text-xl text-gray-300">Global Administration Console</p>
 
-      <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {modules.map((module) => (
           <Link
             key={module.title}
             href={module.href}
             className="rounded-2xl border border-white/10 bg-[#101a2f] p-8 hover:border-blue-500"
           >
-            <h2 className="text-3xl font-black">
-              {module.title}
-            </h2>
+            <h2 className="text-3xl font-black">{module.title}</h2>
           </Link>
         ))}
       </div>
