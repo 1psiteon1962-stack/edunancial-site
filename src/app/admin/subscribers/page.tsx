@@ -1,45 +1,51 @@
-export default function SubscribersPage(){
+export default function SubscribersPage() {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white p-8 lg:p-12">
 
-return(
+      <div className="mb-10">
+        <p className="text-xs font-bold tracking-widest text-gray-500 uppercase">
+          Commerce
+        </p>
+        <h1 className="mt-2 text-5xl font-black">
+          Subscribers
+        </h1>
+        <p className="mt-3 text-gray-400">
+          Manage all email subscribers and their subscription preferences.
+        </p>
+      </div>
 
-<main className="min-h-screen bg-slate-950 text-white p-10">
+      <div className="grid gap-4 lg:grid-cols-4 mb-10">
+        {[
+          { label: "Total Subscribers", value: "0" },
+          { label: "Active", value: "0" },
+          { label: "Unsubscribed", value: "0" },
+          { label: "Bounced", value: "0" },
+        ].map(({ label, value }) => (
+          <div key={label} className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+            <p className="text-gray-400 text-sm">{label}</p>
+            <h2 className="text-4xl font-black mt-2">{value}</h2>
+          </div>
+        ))}
+      </div>
 
-<h1 className="text-5xl font-black">
+      <div className="rounded-2xl bg-[#101a2f] border border-white/10 overflow-hidden">
+        <div className="px-6 py-4 border-b border-white/10 flex flex-wrap items-center gap-4">
+          <input
+            placeholder="Search subscribers..."
+            className="flex-1 min-w-0 rounded-xl bg-[#08101f] border border-white/10 px-4 py-2.5 text-sm placeholder:text-gray-500"
+          />
+          <button className="rounded-xl bg-green-600 px-4 py-2.5 text-sm font-bold hover:bg-green-700 transition-colors">
+            Export CSV
+          </button>
+          <button className="rounded-xl border border-white/10 px-4 py-2.5 text-sm font-bold hover:bg-white/5 transition-colors">
+            Import
+          </button>
+        </div>
+        <div className="px-6 py-12 text-center text-gray-500">
+          No subscribers yet. Subscribers will appear here once they sign up.
+        </div>
+      </div>
 
-Subscribers
-
-</h1>
-
-<div className="grid gap-4 mt-10">
-
-<input
-
-placeholder="Search"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<button
-
-className="rounded-lg bg-green-600 p-4 font-bold"
-
->
-
-Export CSV
-
-</button>
-
-<div className="rounded-xl bg-slate-900 p-8">
-
-Subscriber database will appear here.
-
-</div>
-
-</div>
-
-</main>
-
-);
-
+    </main>
+  );
 }

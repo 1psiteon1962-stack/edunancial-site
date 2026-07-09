@@ -1,45 +1,74 @@
-export const metadata = {
-  title: "Edunancial News",
-};
-
-export default function NewsPage() {
+export default function NewslettersAdmin() {
   return (
-    <main className="min-h-screen bg-[#08101f] text-white">
+    <main className="min-h-screen bg-[#08101f] text-white p-8 lg:p-12">
 
-      <section className="mx-auto max-w-6xl px-6 py-24">
-
-        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
-          NEWSROOM
+      <div className="mb-10">
+        <p className="text-xs font-bold tracking-widest text-gray-500 uppercase">
+          Marketing
         </p>
-
-        <h1 className="mt-6 text-6xl font-black">
-          Latest News & Announcements
+        <h1 className="mt-2 text-5xl font-black">
+          Newsletter Manager
         </h1>
+        <p className="mt-3 text-gray-400">
+          Create, schedule and track newsletter publications.
+        </p>
+      </div>
 
-        <div className="mt-20 space-y-8">
-
-          <div className="rounded-xl bg-slate-900 p-10">
-            <h2 className="text-3xl font-black">
-              Latest Announcements
-            </h2>
+      <div className="grid gap-4 lg:grid-cols-4 mb-10">
+        {[
+          { label: "Total Newsletters", value: "0" },
+          { label: "Sent", value: "0" },
+          { label: "Avg. Open Rate", value: "0%" },
+          { label: "Subscribers", value: "0" },
+        ].map(({ label, value }) => (
+          <div key={label} className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+            <p className="text-gray-400 text-sm">{label}</p>
+            <h2 className="text-4xl font-black mt-2">{value}</h2>
           </div>
+        ))}
+      </div>
 
-          <div className="rounded-xl bg-slate-900 p-10">
-            <h2 className="text-3xl font-black">
-              Press Releases
-            </h2>
+      <div className="grid gap-6 lg:grid-cols-2">
+
+        <div className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+          <h2 className="font-bold mb-5">Create Newsletter</h2>
+          <div className="space-y-4">
+            <input
+              placeholder="Newsletter Title"
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm placeholder:text-gray-500"
+            />
+            <input
+              placeholder="Subject Line"
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm placeholder:text-gray-500"
+            />
+            <textarea
+              rows={4}
+              placeholder="Preview text / teaser..."
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm placeholder:text-gray-500"
+            />
+            <input
+              type="datetime-local"
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm"
+            />
+            <button className="w-full rounded-xl bg-blue-600 py-3 font-bold text-sm hover:bg-blue-700 transition-colors">
+              Schedule Newsletter
+            </button>
           </div>
-
-          <div className="rounded-xl bg-slate-900 p-10">
-            <h2 className="text-3xl font-black">
-              New Courses
-            </h2>
-          </div>
-
         </div>
 
-      </section>
+        <div className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+          <h2 className="font-bold mb-5">Recent Newsletters</h2>
+          <div className="text-center text-gray-500 text-sm py-12">
+            No newsletters sent yet.
+          </div>
+        </div>
+
+      </div>
 
     </main>
   );
 }
+
+export const metadata = {
+  title: "Edunancial News",
+};

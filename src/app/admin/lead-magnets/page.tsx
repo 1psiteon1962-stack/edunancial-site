@@ -1,57 +1,74 @@
-export default function LeadMagnets(){
+export default function LeadMagnets() {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white p-8 lg:p-12">
 
-return(
+      <div className="mb-10">
+        <p className="text-xs font-bold tracking-widest text-gray-500 uppercase">
+          Marketing
+        </p>
+        <h1 className="mt-2 text-5xl font-black">
+          Lead Magnet Manager
+        </h1>
+        <p className="mt-3 text-gray-400">
+          Create and track downloadable lead magnets that grow your subscriber list.
+        </p>
+      </div>
 
-<main className="min-h-screen bg-slate-950 text-white p-10">
+      <div className="grid gap-4 lg:grid-cols-4 mb-10">
+        {[
+          { label: "Total Lead Magnets", value: "0" },
+          { label: "Active", value: "0" },
+          { label: "Total Downloads", value: "0" },
+          { label: "Leads Generated", value: "0" },
+        ].map(({ label, value }) => (
+          <div key={label} className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+            <p className="text-gray-400 text-sm">{label}</p>
+            <h2 className="text-4xl font-black mt-2">{value}</h2>
+          </div>
+        ))}
+      </div>
 
-<h1 className="text-5xl font-black">
+      <div className="grid gap-6 lg:grid-cols-2">
 
-Lead Magnet Manager
+        <div className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+          <h2 className="font-bold mb-5">Add Lead Magnet</h2>
+          <div className="space-y-4">
+            <input
+              placeholder="Lead Magnet Title"
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm placeholder:text-gray-500"
+            />
+            <textarea
+              rows={3}
+              placeholder="Description"
+              className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm placeholder:text-gray-500"
+            />
+            <select className="w-full rounded-xl bg-[#08101f] border border-white/10 px-4 py-3 text-sm">
+              <option>Content Type</option>
+              <option>PDF Guide</option>
+              <option>Checklist</option>
+              <option>Workbook</option>
+              <option>Video Series</option>
+              <option>Mini-Course</option>
+            </select>
+            <div className="rounded-xl border-2 border-dashed border-white/20 p-6 text-center">
+              <p className="text-gray-400 text-sm">Upload lead magnet file</p>
+              <input type="file" className="mt-3 text-sm text-gray-400" />
+            </div>
+            <button className="w-full rounded-xl bg-blue-600 py-3 font-bold text-sm hover:bg-blue-700 transition-colors">
+              Publish Lead Magnet
+            </button>
+          </div>
+        </div>
 
-</h1>
+        <div className="rounded-2xl bg-[#101a2f] border border-white/10 p-6">
+          <h2 className="font-bold mb-5">Lead Magnet Library</h2>
+          <div className="text-center text-gray-500 text-sm py-12">
+            No lead magnets yet. Create your first one above.
+          </div>
+        </div>
 
-<div className="grid gap-5 mt-10">
+      </div>
 
-<input
-
-placeholder="Lead Magnet Title"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<textarea
-
-rows={5}
-
-placeholder="Description"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<input
-
-type="file"
-
-className="rounded-lg bg-slate-900 p-4"
-
-/>
-
-<button
-
-className="rounded-lg bg-blue-600 p-4 font-bold"
-
->
-
-Publish Lead Magnet
-
-</button>
-
-</div>
-
-</main>
-
-);
-
+    </main>
+  );
 }
