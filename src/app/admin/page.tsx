@@ -34,6 +34,10 @@ const modules = [
     href: "/admin/kpis",
   },
   {
+    title: "Operations Command Center",
+    href: "/admin/operations",
+  },
+  {
     title: "System Settings",
     href: "/admin/settings",
   },
