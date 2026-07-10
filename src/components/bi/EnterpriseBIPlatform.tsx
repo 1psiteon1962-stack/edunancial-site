@@ -13,6 +13,16 @@ import {
   TrendBadge,
 } from "@/components/bi/BIVisuals";
 
+const sectionLinks = [
+  { href: "#executive", label: "Executive" },
+  { href: "#learning", label: "Learning" },
+  { href: "#financial", label: "Financial" },
+  { href: "#marketing", label: "Marketing" },
+  { href: "#operations", label: "Operations" },
+  { href: "#report-builder", label: "Report builder" },
+  { href: "#ai-analytics", label: "AI interfaces" },
+];
+
 function SectionShell({
   id,
   eyebrow,
@@ -275,6 +285,21 @@ export function EnterpriseBIPlatform({
             <span className="rounded-full border border-white/10 px-4 py-2">WCAG 2.2 AA-minded UI</span>
             <span className="rounded-full border border-white/10 px-4 py-2">Millions-of-users ready architecture</span>
           </div>
+
+          <nav
+            aria-label="Dashboard sections"
+            className="mt-8 flex flex-wrap gap-3"
+          >
+            {sectionLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-full border border-white/10 bg-[#10192e] px-4 py-2 text-sm font-medium text-slate-200 transition hover:border-cyan-400 hover:text-white"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
         </div>
       </section>
 
