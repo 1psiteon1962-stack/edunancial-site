@@ -1,21 +1,49 @@
 import { NextResponse } from "next/server";
+import { logStructuredError } from "@/lib/observability/errors";
+import { logger } from "@/lib/observability/logger";
+import { recordRequestMetric } from "@/lib/observability/metrics";
+import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
 
 export async function POST(request: Request) {
+  const start = Date.now();
+  const requestId = getRequestId(request.headers);
+
   try {
     const body = await request.json();
 
-    console.log("KPI event received:", {
-      ...body,
-      receivedAt: new Date().toISOString(),
+    logger.info("kpi.track.received", {
+      requestId,
+      payload: body,
     });
 
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.warn("KPI tracking route failed:", error);
+    const response = NextResponse.json({ success: true, requestId });
 
-    return NextResponse.json(
-      { success: false, error: "KPI tracking failed" },
+    recordRequestMetric({
+      method: request.method,
+      route: "/api/kpi/track",
+      status: 200,
+      durationMs: Date.now() - start,
+    });
+
+    return attachRequestHeaders(response, requestId);
+  } catch (error) {
+    logStructuredError(error, {
+      ...getRequestContext(request, requestId),
+      route: "/api/kpi/track",
+    });
+
+    const response = NextResponse.json(
+      { success: false, error: "KPI tracking failed", requestId },
       { status: 500 }
     );
+
+    recordRequestMetric({
+      method: request.method,
+      route: "/api/kpi/track",
+      status: 500,
+      durationMs: Date.now() - start,
+    });
+
+    return attachRequestHeaders(response, requestId);
   }
 }
