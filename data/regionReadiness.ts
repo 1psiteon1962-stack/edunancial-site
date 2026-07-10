@@ -10,6 +10,11 @@ export const REGION_READINESS: Record<
     phase: "live",
   },
 
+  latam: {
+    enabled: false,
+    phase: "planned",
+  },
+
   mena: {
     enabled: true,
     phase: "pilot",
