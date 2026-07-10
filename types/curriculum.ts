@@ -1,6 +1,10 @@
 // types/curriculum.ts
 
-export type CurriculumLanguage = "en" | "es";
+/**
+ * Supported curriculum language codes.
+ * Add new language codes here to make them available without other code changes.
+ */
+export type CurriculumLanguage = "en" | "es" | "pt" | "fr" | "nl" | "de" | "it" | "ar";
 
 /**
  * One curriculum lesson/module
@@ -23,14 +27,10 @@ export type RegionCurriculumLocaleBlock = {
 };
 
 /**
- * Full region curriculum content:
- * Example:
- * {
- *   en: { title, description, curriculum: [...] },
- *   es: { title, description, curriculum: [...] }
- * }
+ * Full region curriculum content keyed by language.
+ * Uses Partial so regions only need to provide the languages they support.
+ * Regions must include at least "en" as a fallback.
  */
-export type RegionCurriculumContent = Record<
-  CurriculumLanguage,
-  RegionCurriculumLocaleBlock
->;
+export type RegionCurriculumContent = Partial<Record<CurriculumLanguage, RegionCurriculumLocaleBlock>> & {
+  en: RegionCurriculumLocaleBlock;
+};
