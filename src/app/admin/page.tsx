@@ -6,6 +6,10 @@ const modules = [
     href: "/admin/dashboard",
   },
   {
+    title: "BI Report Builder",
+    href: "/admin/dashboard#report-builder",
+  },
+  {
     title: "Book Management",
     href: "/admin/books",
   },
@@ -31,7 +35,7 @@ const modules = [
   },
   {
     title: "KPI Center",
-    href: "/admin/kpis",
+    href: "/admin/dashboard#visualization-framework",
   },
   {
     title: "System Settings",
@@ -47,7 +51,7 @@ export default function AdminPortal() {
       </h1>
 
       <p className="mt-6 text-xl text-gray-300">
-        Global Administration Console
+        Global administration console for content, operations, and enterprise reporting.
       </p>
 
       <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">

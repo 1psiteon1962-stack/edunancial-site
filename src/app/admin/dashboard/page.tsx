@@ -1,47 +1,27 @@
-export default function DashboardPage() {
+import { EnterpriseBIPlatform } from "@/components/bi/EnterpriseBIPlatform";
+import { getEnterpriseBIData, normalizeReportPeriod } from "@/lib/bi/demo-data";
 
-  const cards = [
-    ["Global Revenue", "$0.00"],
-    ["Net Profit", "$0.00"],
-    ["Profit Margin", "0%"],
-    ["Members", "0"],
-    ["Books Sold", "0"],
-    ["Courses Sold", "0"],
-    ["Countries", "0"],
-    ["Regions", "0"],
-  ];
+function getSingleValue(value: string | string[] | undefined) {
+  return Array.isArray(value) ? value[0] : value;
+}
+
+export default async function DashboardPage({
+  searchParams,
+}: {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const period = normalizeReportPeriod(getSingleValue(resolvedSearchParams?.period));
+  const startDate = getSingleValue(resolvedSearchParams?.startDate);
+  const endDate = getSingleValue(resolvedSearchParams?.endDate);
+  const data = getEnterpriseBIData(period, startDate, endDate);
 
   return (
-    <main className="min-h-screen bg-[#08101f] text-white p-10">
-
-      <h1 className="text-6xl font-black">
-        Executive Dashboard
-      </h1>
-
-      <div className="grid gap-6 mt-16 md:grid-cols-2 lg:grid-cols-4">
-
-        {cards.map(([title,value])=>(
-
-          <div
-            key={title}
-            className="rounded-2xl border border-white/10 bg-[#101a2f] p-8"
-          >
-
-            <p className="text-gray-400">
-              {title}
-            </p>
-
-            <h2 className="mt-4 text-4xl font-black">
-              {value}
-            </h2>
-
-          </div>
-
-        ))}
-
-      </div>
-
-    </main>
+    <EnterpriseBIPlatform
+      data={data}
+      activePeriod={period}
+      startDate={startDate}
+      endDate={endDate}
+    />
   );
-
 }
