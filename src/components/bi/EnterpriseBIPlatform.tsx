@@ -181,6 +181,11 @@ function ReportBuilder({
           Current report window: <strong>{data.range.label}</strong>
         </div>
 
+        <p className="mt-4 text-sm leading-6 text-slate-400">
+          Exports use demo-safe BI payloads today and are structured to map cleanly into future
+          warehouse, Power BI, and Tableau connectors.
+        </p>
+
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
           {EXPORT_FORMAT_OPTIONS.map((option) => (
             <Link

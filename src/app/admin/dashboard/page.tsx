@@ -8,9 +8,13 @@ function getSingleValue(value: string | string[] | undefined) {
 export default async function DashboardPage({
   searchParams,
 }: {
-  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+  searchParams?:
+    | Promise<Record<string, string | string[] | undefined>>
+    | Record<string, string | string[] | undefined>;
 }) {
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const resolvedSearchParams = searchParams
+    ? await Promise.resolve(searchParams)
+    : undefined;
   const period = normalizeReportPeriod(getSingleValue(resolvedSearchParams?.period));
   const startDate = getSingleValue(resolvedSearchParams?.startDate);
   const endDate = getSingleValue(resolvedSearchParams?.endDate);
