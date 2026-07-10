@@ -1,0 +1,32 @@
+name: Public Launch Smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Base URL to test
+        required: false
+        default: https://www.edunancial.com
+  schedule:
+    - cron: "17 14 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run public route smoke checks
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://www.edunancial.com' }}
+        run: node scripts/public-launch-smoke.mjs
