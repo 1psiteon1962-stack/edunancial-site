@@ -14,8 +14,10 @@ export type StaticParam = {
 export function generateStaticParams(): StaticParam[] {
   const params: StaticParam[] = [];
 
-  for (const region of Object.keys(REGION_LANGUAGES)) {
-    for (const lang of REGION_LANGUAGES[region]) {
+  for (const [region, regionLanguages] of Object.entries(
+    REGION_LANGUAGES
+  ) as Array<[string, readonly Language[]]>) {
+    for (const lang of regionLanguages) {
       params.push({ region, lang });
     }
   }

@@ -1,11 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Navbar from "@/components/layout/Navbar";
+import HreflangTags from "@/components/i18n/HreflangTags";
 import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import { I18nProvider } from "@/lib/i18n";
 
-const siteUrl = "https://www.edunancial.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.edunancial.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -105,18 +107,21 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" dir="ltr">
       <head>
+        <HreflangTags currentLocale="en" pageSlug="/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
       <body className="bg-[#08101f] text-white">
-        <AnnouncementBar />
-        <Navbar />
-        {children}
-        <Footer />
+        <I18nProvider>
+          <AnnouncementBar />
+          <Navbar />
+          {children}
+          <Footer />
+        </I18nProvider>
       </body>
     </html>
   );

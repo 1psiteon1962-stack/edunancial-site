@@ -1,39 +1,25 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
-import { supportedLanguages } from "@/lib/i18n/languages";
+import { getAriaLabel, supportedLanguages, useI18n } from "@/lib/i18n";
 
 export default function LanguageSwitcher() {
-  const router = useRouter();
-  const pathname = usePathname();
-
-  function switchLanguage(languageCode: string) {
-    const segments = pathname.split("/").filter(Boolean);
-
-    const existingLanguage = supportedLanguages.some(
-      (language) => language.code === segments[0]
-    );
-
-    if (existingLanguage) {
-      segments[0] = languageCode;
-    } else {
-      segments.unshift(languageCode);
-    }
-
-    router.push(`/${segments.join("/")}`);
-  }
+  const { locale, setLocale } = useI18n();
 
   return (
-    <div>
-      {supportedLanguages.map((language) => (
-        <button
-          key={language.code}
-          type="button"
-          onClick={() => switchLanguage(language.code)}
-        >
-          {language.nativeLabel}
-        </button>
-      ))}
-    </div>
+    <label className="flex items-center gap-2 text-sm text-slate-300">
+      <span className="sr-only">{getAriaLabel("nav.select_language", locale)}</span>
+      <select
+        aria-label={getAriaLabel("nav.select_language", locale)}
+        className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-white"
+        value={locale}
+        onChange={(event) => setLocale(event.target.value)}
+      >
+        {supportedLanguages.map((language) => (
+          <option key={language.code} value={language.code}>
+            {language.nativeLabel}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }

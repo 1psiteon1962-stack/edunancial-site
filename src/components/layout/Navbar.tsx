@@ -2,62 +2,56 @@
 
 import Link from "next/link";
 
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useI18n } from "@/lib/i18n";
+
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Courses", href: "/courses" },
-  { name: "Assessment", href: "/assessment" },
-  { name: "Membership", href: "/membership" },
-  { name: "Passport", href: "/passport" },
-  { name: "Marketplace", href: "/marketplace" },
-  { name: "Family", href: "/family" },
-  { name: "Our Story", href: "/why-edunancial" },
-];
+  { key: "nav.home", href: "/" },
+  { key: "nav.books", href: "/books" },
+  { key: "nav.courses", href: "/courses" },
+  { key: "nav.terms", href: "/terms" },
+  { key: "nav.membership", href: "/membership" },
+  { key: "nav.downloads", href: "/downloads" },
+] as const;
 
 export default function Navbar() {
+  const { t } = useI18n();
+
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#08101f]/95 backdrop-blur">
-
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-
-        <Link href="/" className="text-3xl font-black">
-
-          <span className="text-red-500">RED</span>
-
-          <span className="text-white">.</span>
-
-          <span className="text-white">WHITE</span>
-
-          <span className="text-white">.</span>
-
-          <span className="text-blue-500">BLUE</span>
-
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-5">
+        <Link href="/" className="text-2xl font-black tracking-wide text-white">
+          EDUNANCIAL
         </Link>
 
-        <nav className="hidden gap-8 lg:flex">
-
+        <nav className="hidden items-center gap-6 lg:flex">
           {navigation.map((item) => (
-
             <Link
-              key={item.name}
+              key={item.href}
               href={item.href}
-              className="text-slate-300 hover:text-white"
+              className="text-sm font-semibold text-slate-300 transition hover:text-white"
             >
-              {item.name}
+              {t(item.key)}
             </Link>
-
           ))}
-
         </nav>
 
-        <Link
-          href="/assessment"
-          className="rounded-lg bg-blue-600 px-5 py-3 font-bold"
-        >
-          Start Assessment
-        </Link>
-
+        <div className="flex items-center gap-3">
+          <LanguageSwitcher />
+          <Link
+            href="/login"
+            className="hidden text-sm font-semibold text-slate-300 transition hover:text-white md:inline-flex"
+          >
+            {t("nav.login")}
+          </Link>
+          <Link
+            href="/signup"
+            className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-blue-500"
+          >
+            {t("nav.signup")}
+          </Link>
+        </div>
       </div>
-
     </header>
   );
 }
