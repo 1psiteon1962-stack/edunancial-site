@@ -389,39 +389,88 @@ function resolveDelayedSchedule(node: WorkflowNode): string {
   return new Date().toISOString();
 }
 
+/**
+ * Evaluates a condition expression without using dynamic code evaluation.
+ *
+ * Supports:
+ *   {{path}} <op> <literal>
+ *   <literal> <op> {{path}}
+ *   {{path}} (truthy check)
+ *
+ * Operators: ===, !==, ==, !=, >=, <=, >, <
+ * Literals: number, "string", 'string', true, false, null
+ */
 function evaluateCondition(
   expression: string,
   execution: WorkflowExecution
 ): boolean {
-  // Safe evaluation: support simple key=value and boolean expressions
-  try {
-    // Replace variable references like {{triggerPayload.field}} with actual values
-    const resolved = expression
-      .replace(/\{\{(\w+(?:\.\w+)*)\}\}/g, (_, path: string) => {
-        const keys = path.split(".");
-        let val: unknown = {
-          triggerPayload: execution.triggerPayload,
-          metadata: execution.metadata,
-        };
-        for (const key of keys) {
-          if (val && typeof val === "object" && key in (val as object)) {
-            val = (val as Record<string, unknown>)[key];
-          } else {
-            val = undefined;
-            break;
-          }
-        }
-        return String(val ?? "");
-      });
+  if (!expression || expression.trim() === "true") return true;
+  if (expression.trim() === "false") return false;
 
-    // Only allow safe expressions
-    if (/[;(){}\[\]]/.test(resolved)) return false;
+  const ctx: Record<string, unknown> = {
+    triggerPayload: execution.triggerPayload,
+    metadata: execution.metadata,
+  };
 
-    // eslint-disable-next-line no-new-func
-    return Boolean(new Function(`"use strict"; return (${resolved});`)());
-  } catch {
-    return false;
+  function resolvePath(path: string): unknown {
+    const keys = path.split(".");
+    let val: unknown = ctx;
+    for (const key of keys) {
+      if (val && typeof val === "object" && key in (val as object)) {
+        val = (val as Record<string, unknown>)[key];
+      } else {
+        return undefined;
+      }
+    }
+    return val;
   }
+
+  function parseLiteral(token: string): unknown {
+    const t = token.trim();
+    if (t === "true") return true;
+    if (t === "false") return false;
+    if (t === "null" || t === "undefined") return null;
+    if ((t.startsWith('"') && t.endsWith('"')) ||
+        (t.startsWith("'") && t.endsWith("'"))) {
+      return t.slice(1, -1);
+    }
+    const n = Number(t);
+    if (!isNaN(n) && t !== "") return n;
+    return t;
+  }
+
+  function resolveToken(token: string): unknown {
+    const t = token.trim();
+    const varMatch = t.match(/^\{\{(\w+(?:\.\w+)*)\}\}$/);
+    if (varMatch) return resolvePath(varMatch[1]);
+    return parseLiteral(t);
+  }
+
+  // Match: <token> <op> <token>
+  const opPattern = /^(.+?)\s*(===|!==|==|!=|>=|<=|>|<)\s*(.+)$/;
+  const match = expression.trim().match(opPattern);
+
+  if (match) {
+    const [, leftRaw, op, rightRaw] = match;
+    const left = resolveToken(leftRaw);
+    const right = resolveToken(rightRaw);
+
+    switch (op) {
+      case "===": return left === right;
+      case "!==": return left !== right;
+      case "==":  return left == right;  // eslint-disable-line eqeqeq
+      case "!=":  return left != right;  // eslint-disable-line eqeqeq
+      case ">=":  return Number(left) >= Number(right);
+      case "<=":  return Number(left) <= Number(right);
+      case ">":   return Number(left) > Number(right);
+      case "<":   return Number(left) < Number(right);
+      default: return false;
+    }
+  }
+
+  // Single token — truthy check
+  const singleVal = resolveToken(expression.trim());
+  return Boolean(singleVal);
 }
 
 export const workflowEngine = new WorkflowEngine();
