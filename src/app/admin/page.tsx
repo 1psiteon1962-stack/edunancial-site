@@ -37,6 +37,10 @@ const modules = [
     title: "System Settings",
     href: "/admin/settings",
   },
+  {
+    title: "Community Moderation",
+    href: "/admin/community",
+  },
 ];
 
 export default function AdminPortal() {
