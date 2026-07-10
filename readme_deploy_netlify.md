@@ -1,17 +1,23 @@
-# netlify deployment (open-next)
+# Netlify deployment (Next.js plugin)
 
-this site is deployed using open-next.
+This project is currently deployed on Netlify using the Next.js runtime plugin.
 
-netlify runs:
-npm run netlify
+## Source of truth
+- `netlify.toml`
+- `_headers`
+- `_redirects`
+- `public/_redirects`
 
-which executes:
-npx open-next build
+## Build settings
+Netlify executes:
+- `npm run build`
 
-the output is written to:
-.open-next
+Configured publish directory:
+- `.next`
 
-netlify then publishes that folder directly.
+Configured plugin:
+- `@netlify/plugin-nextjs`
 
-no netlify next.js plugin is used.
-no netlify forms are used.
+## Notes
+- This repository is **not** currently configured for `open-next` in scripts.
+- Keep this README aligned with `netlify.toml` when deployment settings change.
