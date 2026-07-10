@@ -27,6 +27,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white">Competency</h4>
             <div className="mt-5 space-y-3 text-slate-400">
+              <div><Link href="/dashboard" className="hover:text-white">Member Dashboard</Link></div>
               <div><Link href="/assessment" className="hover:text-white">Assessment</Link></div>
               <div><Link href="/passport" className="hover:text-white">Financial Passport</Link></div>
               <div><Link href="/missions" className="hover:text-white">Mission Center</Link></div>
@@ -37,8 +38,11 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white">Company</h4>
             <div className="mt-5 space-y-3 text-slate-400">
-              <div><Link href="/why-edunancial" className="hover:text-white">Our Story</Link></div>
-              <div><Link href="/philosophy" className="hover:text-white">Philosophy</Link></div>
+              <div><Link href="/our-story" className="hover:text-white">Our Story</Link></div>
+              <div><Link href="/mission" className="hover:text-white">Mission</Link></div>
+              <div><Link href="/vision" className="hover:text-white">Vision</Link></div>
+              <div><Link href="/features" className="hover:text-white">Features</Link></div>
+              <div><Link href="/pricing" className="hover:text-white">Pricing</Link></div>
               <div><Link href="/about" className="hover:text-white">About</Link></div>
               <div><Link href="/contact" className="hover:text-white">Contact</Link></div>
             </div>
@@ -49,6 +53,8 @@ export default function Footer() {
             <div className="mt-5 space-y-3 text-slate-400">
               <div><Link href="/family" className="hover:text-white">Family</Link></div>
               <div><Link href="/marketplace" className="hover:text-white">Marketplace</Link></div>
+              <div><Link href="/community" className="hover:text-white">Community</Link></div>
+              <div><Link href="/webinars" className="hover:text-white">Webinars</Link></div>
               <div><Link href="/faq" className="hover:text-white">FAQ</Link></div>
             </div>
           </div>

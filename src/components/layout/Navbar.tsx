@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/" },
+  { name: "Dashboard", href: "/dashboard" },
   { name: "Courses", href: "/courses" },
-  { name: "Assessment", href: "/assessment" },
-  { name: "Membership", href: "/membership" },
-  { name: "Passport", href: "/passport" },
-  { name: "Marketplace", href: "/marketplace" },
-  { name: "Family", href: "/family" },
-  { name: "Our Story", href: "/why-edunancial" },
+  { name: "AI Coach", href: "/ai-coach" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "FAQ", href: "/faq" },
+  { name: "Contact", href: "/contact" },
+  { name: "Log In", href: "/login" },
 ];
 
 export default function Navbar() {
@@ -50,10 +50,10 @@ export default function Navbar() {
         </nav>
 
         <Link
-          href="/assessment"
+          href="/membership"
           className="rounded-lg bg-blue-600 px-5 py-3 font-bold"
         >
-          Start Assessment
+          Become a Member
         </Link>
 
       </div>
