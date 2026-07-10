@@ -1,5 +1,4 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { Ebook } from "@/lib/bookTypes";
 import SquareBuyButton from "./SquareBuyButton";
@@ -20,9 +19,12 @@ export default function EbookCard({ book }: Props) {
 
       <div className="relative">
 
-        <img
+        <Image
           src={book.coverImage}
           alt={book.title}
+          width={720}
+          height={960}
+          sizes="(min-width: 1024px) 33vw, 100vw"
           className="h-[420px] w-full object-cover"
         />
 
