@@ -1,6 +1,8 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import LoginForm from "@/components/auth/LoginForm";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Member Login | Edunancial",
 };
 
@@ -22,55 +24,20 @@ export default function LoginPage() {
 
         </div>
 
-        <form className="mt-12 space-y-6">
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              Email Address
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="email"
-            />
-
-          </div>
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              Password
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="password"
-            />
-
-          </div>
-
-          <button
-            className="w-full rounded-xl bg-blue-600 py-4 text-lg font-bold text-white"
-            type="submit"
-          >
-            Sign In
-          </button>
-
-        </form>
+        <LoginForm />
 
         <div className="mt-10 flex justify-between">
 
           <Link
             href="/forgot-password"
-            className="text-blue-400"
+            className="text-blue-400 hover:underline"
           >
             Forgot Password?
           </Link>
 
           <Link
             href="/register"
-            className="text-blue-400"
+            className="text-blue-400 hover:underline"
           >
             Create Account
           </Link>

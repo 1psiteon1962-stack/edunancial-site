@@ -13,7 +13,21 @@ function normalizeName(value: string): string {
 }
 
 function isValidEmail(value: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  // Split-based validation avoids ReDoS on unbounded repetition patterns.
+  const atIndex = value.indexOf("@");
+  if (atIndex < 1) return false;
+  if (atIndex !== value.lastIndexOf("@")) return false;
+
+  const local = value.slice(0, atIndex);
+  const domain = value.slice(atIndex + 1);
+
+  if (!local || !domain) return false;
+  if (/\s/.test(local) || /\s/.test(domain)) return false;
+
+  const dotIndex = domain.lastIndexOf(".");
+  if (dotIndex < 1 || dotIndex >= domain.length - 1) return false;
+
+  return true;
 }
 
 export async function POST(request: Request) {

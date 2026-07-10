@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import { SessionProvider } from "@/lib/auth/SessionProvider";
 
 const siteUrl = "https://www.edunancial.com";
 
@@ -113,10 +114,12 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#08101f] text-white">
-        <AnnouncementBar />
-        <Navbar />
-        {children}
-        <Footer />
+        <SessionProvider>
+          <AnnouncementBar />
+          <Navbar />
+          {children}
+          <Footer />
+        </SessionProvider>
       </body>
     </html>
   );

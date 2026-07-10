@@ -1,4 +1,7 @@
-export const metadata = {
+import type { Metadata } from "next";
+import ForgotPasswordForm from "@/components/auth/ForgotPasswordForm";
+
+export const metadata: Metadata = {
   title: "Forgot Password | Edunancial",
 };
 
@@ -16,22 +19,7 @@ export default function ForgotPasswordPage() {
           Enter the email address associated with your membership account.
         </p>
 
-        <form className="mt-10 space-y-6">
-
-          <input
-            className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-            type="email"
-            placeholder="Email Address"
-          />
-
-          <button
-            className="w-full rounded-xl bg-blue-600 py-4 font-bold text-white"
-            type="submit"
-          >
-            Send Reset Link
-          </button>
-
-        </form>
+        <ForgotPasswordForm />
 
       </div>
 
