@@ -37,6 +37,10 @@ const modules = [
     title: "System Settings",
     href: "/admin/settings",
   },
+  {
+    title: "Workflow Automation",
+    href: "/admin/workflows",
+  },
 ];
 
 export default function AdminPortal() {
