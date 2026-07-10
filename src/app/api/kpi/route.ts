@@ -20,10 +20,12 @@ async function writeKPIEvent(event: {
   event_type?: string;
   metadata?: Record<string, unknown>;
 }): Promise<void> {
-  console.log("KPI event:", {
-    ...event,
-    receivedAt: new Date().toISOString(),
-  });
+  if (process.env.NODE_ENV !== "production") {
+    console.log("KPI event:", {
+      ...event,
+      receivedAt: new Date().toISOString(),
+    });
+  }
 }
 
 export async function POST(request: Request) {
@@ -48,13 +50,23 @@ export async function POST(request: Request) {
       },
     });
 
-    return NextResponse.json({ success: true });
+    return new NextResponse(null, {
+      status: 204,
+      headers: {
+        "Cache-Control": "no-store, max-age=0",
+      },
+    });
   } catch (error) {
     console.warn("KPI route failed:", error);
 
     return NextResponse.json(
       { success: false, error: "KPI route failed" },
-      { status: 500 }
+      {
+        status: 500,
+        headers: {
+          "Cache-Control": "no-store, max-age=0",
+        },
+      }
     );
   }
 }
