@@ -20,6 +20,7 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+*.tsbuildinfo
 
 # Velite generated (keep tracked)
 !.velite
