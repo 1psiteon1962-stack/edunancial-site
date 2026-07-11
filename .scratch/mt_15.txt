@@ -1,0 +1,1394 @@
+changed in both
+  base   100644 274ab7aa434fdd42de5a388e43d44645ae08c2e3 src/app/dashboard/page.tsx
+  our    100644 aa582e725615def15a0e5e7cb3d41ae067a7b390 src/app/dashboard/page.tsx
+  their  100644 82d14d05705e69c2d59b211ccb249e7b09fd290d src/app/dashboard/page.tsx
+@@ -1,5 +1,6 @@
+-import Link from "next/link";
++import type { Metadata } from "next";
+ 
++<<<<<<< .our
+ import { currentUser } from "@/lib/auth";
+ import {
+   getAdaptiveLearningExperience,
+@@ -14,9 +15,23 @@
+ export const metadata = {
+   title: "Member Dashboard | Edunancial",
+   description: "Phase 1 member dashboard shell with adaptive learning status and next-step guidance.",
++|||||||
++export const metadata = {
++  title: "Financial Competency Dashboard | Edunancial",
++  description:
++    "Track your Financial Competency journey.",
++=======
++import PersonalizedMemberDashboard from "@/components/dashboard/PersonalizedMemberDashboard";
++
++export const metadata: Metadata = {
++  title: "Personalized Member Dashboard",
++  description:
++    "Track learning progress, resume recent courses, discover personalized recommendations, and access Edunancial financial tools from one member dashboard.",
++>>>>>>> .their
+ };
+ 
+ export default function DashboardPage() {
++<<<<<<< .our
+   const user = currentUser();
+   const firstName = user?.firstName ?? "Member";
+   const adaptiveLearning = getAdaptiveLearningExperience(user?.id ?? "guest-member");
+@@ -158,4 +173,358 @@
+       </section>
+     </main>
+   );
++|||||||
++  return (
++    <main className="min-h-screen bg-[#08101f] text-white">
++
++      <section className="mx-auto max-w-7xl px-6 py-24">
++
++        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">
++
++          MEMBER DASHBOARD
++
++        </p>
++
++        <h1 className="mt-8 text-7xl font-black">
++
++          Financial Competency Dashboard
++
++        </h1>
++
++        <p className="mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
++
++          Monitor your progress.
++
++          Complete courses.
++
++          Improve your Financial Competency Score.
++
++          Build wealth through continuous learning.
++
++        </p>
++
++        <div className="mt-20 grid gap-8 md:grid-cols-4">
++
++          <div className="rounded-2xl bg-blue-700 p-10 text-center">
++
++            <p className="text-lg uppercase">
++
++              Overall Score
++
++            </p>
++
++            <h2 className="mt-6 text-6xl font-black">
++
++              82
++
++            </h2>
++
++          </div>
++
++          <div className="rounded-2xl bg-red-700 p-10 text-center">
++
++            <p className="text-lg uppercase">
++
++              Courses Completed
++
++            </p>
++
++            <h2 className="mt-6 text-6xl font-black">
++
++              14
++
++            </h2>
++
++          </div>
++
++          <div className="rounded-2xl bg-green-700 p-10 text-center">
++
++            <p className="text-lg uppercase">
++
++              Learning Hours
++
++            </p>
++
++            <h2 className="mt-6 text-6xl font-black">
++
++              39
++
++            </h2>
++
++          </div>
++
++          <div className="rounded-2xl bg-yellow-600 p-10 text-center">
++
++            <p className="text-lg uppercase">
++
++              Certificates
++
++            </p>
++
++            <h2 className="mt-6 text-6xl font-black">
++
++              6
++
++            </h2>
++
++          </div>
++
++        </div>
++
++        <div className="mt-20 rounded-2xl bg-slate-900 p-10">
++
++          <h2 className="text-4xl font-black">
++
++            Financial Competency Progress
++
++          </h2>
++
++          <div className="mt-10 space-y-8">
++
++            <div>
++
++              <div className="flex justify-between">
++
++                <span>Personal Finance</span>
++
++                <span>91%</span>
++
++              </div>
++
++              <div className="mt-3 h-4 rounded-full bg-slate-700">
++
++                <div className="h-4 w-[91%] rounded-full bg-green-500"></div>
++
++              </div>
++
++            </div>
++
++            <div>
++
++              <div className="flex justify-between">
++
++                <span>Real Estate</span>
++
++                <span>76%</span>
++
++              </div>
++
++              <div className="mt-3 h-4 rounded-full bg-slate-700">
++
++                <div className="h-4 w-[76%] rounded-full bg-red-500"></div>
++
++              </div>
++
++            </div>
++
++            <div>
++
++              <div className="flex justify-between">
++
++                <span>Paper Assets</span>
++
++                <span>84%</span>
++
++              </div>
++
++              <div className="mt-3 h-4 rounded-full bg-slate-700">
++
++                <div className="h-4 w-[84%] rounded-full bg-white"></div>
++
++              </div>
++
++            </div>
++
++            <div>
++
++              <div className="flex justify-between">
++
++                <span>Business</span>
++
++                <span>95%</span>
++
++              </div>
++
++              <div className="mt-3 h-4 rounded-full bg-slate-700">
++
++                <div className="h-4 w-[95%] rounded-full bg-blue-500"></div>
++
++              </div>
++
++            </div>
++
++          </div>
++
++        </div>
++
++              <div className="mt-20 grid gap-8 lg:grid-cols-2">
++
++          <div className="rounded-2xl bg-slate-900 p-10">
++
++            <h2 className="text-4xl font-black">
++
++              Recommended Next Courses
++
++            </h2>
++
++            <div className="mt-10 space-y-6">
++
++              <div className="rounded-xl bg-slate-800 p-6">
++
++                <h3 className="text-2xl font-bold">
++
++                  Building Wealth Through Real Estate
++
++                </h3>
++
++                <p className="mt-4 text-slate-300">
++
++                  Recommended because your Real Estate competency
++                  score is currently below your overall average.
++
++                </p>
++
++              </div>
++
++              <div className="rounded-xl bg-slate-800 p-6">
++
++                <h3 className="text-2xl font-bold">
++
++                  Advanced Risk Management
++
++                </h3>
++
++                <p className="mt-4 text-slate-300">
++
++                  Improve wealth preservation and long-term
++                  financial security.
++
++                </p>
++
++              </div>
++
++              <div className="rounded-xl bg-slate-800 p-6">
++
++                <h3 className="text-2xl font-bold">
++
++                  Executive KPI Dashboard
++
++                </h3>
++
++                <p className="mt-4 text-slate-300">
++
++                  Strengthen business decision-making using
++                  measurable performance indicators.
++
++                </p>
++
++              </div>
++
++            </div>
++
++          </div>
++
++          <div className="rounded-2xl bg-slate-900 p-10">
++
++            <h2 className="text-4xl font-black">
++
++              Achievement Badges
++
++            </h2>
++
++            <div className="mt-10 grid gap-6 md:grid-cols-2">
++
++              <div className="rounded-xl border border-yellow-500 p-6 text-center">
++
++                🥇
++
++                <p className="mt-4 font-bold">
++
++                  First Assessment
++
++                </p>
++
++              </div>
++
++              <div className="rounded-xl border border-blue-500 p-6 text-center">
++
++                📈
++
++                <p className="mt-4 font-bold">
++
++                  Investment Explorer
++
++                </p>
++
++              </div>
++
++              <div className="rounded-xl border border-red-500 p-6 text-center">
++
++                🏘️
++
++                <p className="mt-4 font-bold">
++
++                  Real Estate Student
++
++                </p>
++
++              </div>
++
++              <div className="rounded-xl border border-green-500 p-6 text-center">
++
++                💼
++
++                <p className="mt-4 font-bold">
++
++                  Business Builder
++
++                </p>
++
++              </div>
++
++            </div>
++
++          </div>
++
++        </div>
++
++        <div className="mt-20 flex flex-wrap gap-6">
++
++          <Link
++            href="/courses"
++            className="rounded-xl bg-blue-600 px-10 py-5 text-xl font-bold hover:bg-blue-700"
++          >
++
++            Continue Learning
++
++          </Link>
++
++          <Link
++            href="/assessment"
++            className="rounded-xl border border-white px-10 py-5 text-xl font-bold hover:bg-white hover:text-black"
++          >
++
++            Retake Assessment
++
++          </Link>
++
++          <Link
++            href="/marketplace"
++            className="rounded-xl border border-green-500 px-10 py-5 text-xl font-bold hover:bg-green-600"
++          >
++
++            Visit Marketplace
++
++          </Link>
++
++        </div>
++
++      </section>
++
++    </main>
++
++  );
++=======
++  return <PersonalizedMemberDashboard />;
++>>>>>>> .their
+ }
+added in remote
+  their  100644 f7b7ff5ffd8f9fb22a77c2183e6ffff69ec1d12a src/components/dashboard/MotivationalQuoteRotator.tsx
+@@ -0,0 +1,61 @@
++"use client";
++
++import { useEffect, useState } from "react";
++
++import type { MotivationalQuote } from "@/lib/memberDashboard";
++
++interface MotivationalQuoteRotatorProps {
++  quotes: MotivationalQuote[];
++}
++
++export default function MotivationalQuoteRotator({
++  quotes,
++}: MotivationalQuoteRotatorProps) {
++  const [activeQuoteIndex, setActiveQuoteIndex] = useState(0);
++
++  useEffect(() => {
++    if (quotes.length <= 1) {
++      return undefined;
++    }
++
++    const interval = window.setInterval(() => {
++      setActiveQuoteIndex((currentIndex) => (currentIndex + 1) % quotes.length);
++    }, 5000);
++
++    return () => {
++      window.clearInterval(interval);
++    };
++  }, [quotes]);
++
++  if (quotes.length === 0) {
++    return (
++      <div className="rounded-3xl border border-dashed border-slate-700 bg-slate-950/50 p-6 text-slate-300">
++        New motivational insights will appear here soon.
++      </div>
++    );
++  }
++
++  const activeQuote = quotes[activeQuoteIndex];
++
++  return (
++    <div className="rounded-3xl border border-blue-500/30 bg-gradient-to-br from-blue-950/70 via-slate-900 to-slate-950 p-6 shadow-lg shadow-blue-950/20">
++      <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++        Motivation
++      </p>
++      <blockquote className="mt-4 text-2xl font-semibold leading-relaxed text-white">
++        “{activeQuote.quote}”
++      </blockquote>
++      <p className="mt-4 text-sm text-slate-300">{activeQuote.author}</p>
++      <div className="mt-5 flex gap-2" aria-label="Quote rotation indicators">
++        {quotes.map((quote, index) => (
++          <span
++            key={quote.quote}
++            className={`h-2.5 w-2.5 rounded-full ${
++              index === activeQuoteIndex ? "bg-yellow-400" : "bg-slate-700"
++            }`}
++          />
++        ))}
++      </div>
++    </div>
++  );
++}
+added in remote
+  their  100644 8a83ce810ccccecf7d4cbfc03defdd87be3db0cc src/components/dashboard/PersonalizedMemberDashboard.tsx
+@@ -0,0 +1,505 @@
++import Link from "next/link";
++
++import CourseProgressBar from "@/components/CourseProgressBar";
++import MotivationalQuoteRotator from "@/components/dashboard/MotivationalQuoteRotator";
++import {
++  type AnnouncementItem,
++  type ContinueLearningCourse,
++  type FinancialToolShortcut,
++  type MemberDashboardData,
++  getMemberDashboardData,
++} from "@/lib/memberDashboard";
++
++interface DashboardPanelProps {
++  title: string;
++  eyebrow?: string;
++  children: React.ReactNode;
++}
++
++function DashboardPanel({ title, eyebrow, children }: DashboardPanelProps) {
++  return (
++    <section className="rounded-3xl border border-slate-800 bg-slate-950/80 p-6 shadow-xl shadow-slate-950/20 md:p-8">
++      {eyebrow ? (
++        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++          {eyebrow}
++        </p>
++      ) : null}
++      <h2 className="mt-3 text-2xl font-bold text-white md:text-3xl">{title}</h2>
++      <div className="mt-6">{children}</div>
++    </section>
++  );
++}
++
++function DashboardLoadingState({ label }: { label: string }) {
++  return (
++    <div
++      aria-label={`${label} loading`}
++      className="grid gap-4 md:grid-cols-2 xl:grid-cols-3"
++    >
++      {Array.from({ length: 3 }, (_, index) => (
++        <div
++          key={`${label}-${index}`}
++          className="min-h-40 animate-pulse rounded-2xl border border-slate-800 bg-slate-900/70"
++        />
++      ))}
++    </div>
++  );
++}
++
++function DashboardEmptyState({
++  title,
++  description,
++}: {
++  title: string;
++  description: string;
++}) {
++  return (
++    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-900/60 p-8 text-center text-slate-300">
++      <p className="text-lg font-semibold text-white">{title}</p>
++      <p className="mt-3 text-sm leading-7">{description}</p>
++    </div>
++  );
++}
++
++function ContinueLearningSection({
++  courses,
++  isLoading = false,
++}: {
++  courses: ContinueLearningCourse[];
++  isLoading?: boolean;
++}) {
++  if (isLoading) {
++    return <DashboardLoadingState label="Continue learning" />;
++  }
++
++  if (courses.length === 0) {
++    return (
++      <DashboardEmptyState
++        title="No active courses yet"
++        description="Start your first course to see personalized resume cards here."
++      />
++    );
++  }
++
++  return (
++    <div className="grid gap-5 xl:grid-cols-3">
++      {courses.map((course) => (
++        <article
++          key={course.id}
++          className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/70"
++        >
++          <img
++            src={course.imageSrc}
++            alt={course.imageAlt}
++            width={800}
++            height={450}
++            className="h-44 w-full object-cover"
++          />
++          <div className="p-5">
++            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
++              {course.category}
++            </p>
++            <h3 className="mt-3 text-xl font-semibold text-white">{course.title}</h3>
++            <div className="mt-5">
++              <div className="mb-2 flex items-center justify-between gap-4 text-sm text-slate-300">
++                <span>{course.estimatedTimeRemaining}</span>
++                <span>{course.progress}% complete</span>
++              </div>
++              <CourseProgressBar progress={course.progress} />
++            </div>
++            <Link
++              href={course.href}
++              className="mt-5 inline-flex min-h-11 items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++            >
++              Resume Learning
++            </Link>
++          </div>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++function RecommendationSection({
++  data,
++  isLoading = false,
++}: {
++  data: MemberDashboardData["recommendations"];
++  isLoading?: boolean;
++}) {
++  if (isLoading) {
++    return <DashboardLoadingState label="Recommended courses" />;
++  }
++
++  if (data.length === 0) {
++    return (
++      <DashboardEmptyState
++        title="Recommendations will appear soon"
++        description="As you complete more coursework, personalized next-course suggestions will populate here."
++      />
++    );
++  }
++
++  return (
++    <div className="space-y-5">
++      <div className="flex flex-wrap gap-2">
++        {[
++          "Personal Finance",
++          "Credit",
++          "Budgeting",
++          "Investing",
++          "Taxes",
++          "Insurance",
++          "Real Estate",
++          "Entrepreneurship",
++        ].map((category) => (
++          <span
++            key={category}
++            className="rounded-full border border-slate-700 bg-slate-900/60 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-300"
++          >
++            {category}
++          </span>
++        ))}
++      </div>
++      <div className="grid gap-4 lg:grid-cols-2">
++        {data.map((recommendation) => (
++          <article
++            key={recommendation.id}
++            className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5"
++          >
++            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-300">
++              {recommendation.category}
++            </p>
++            <h3 className="mt-3 text-xl font-semibold text-white">
++              {recommendation.title}
++            </h3>
++            <p className="mt-3 text-sm leading-7 text-slate-300">
++              {recommendation.description}
++            </p>
++            <p className="mt-4 rounded-2xl bg-slate-950/80 p-4 text-sm leading-7 text-slate-300">
++              {recommendation.reason}
++            </p>
++            <Link
++              href={recommendation.href}
++              className="mt-5 inline-flex min-h-11 items-center justify-center rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++            >
++              Explore course
++            </Link>
++          </article>
++        ))}
++      </div>
++    </div>
++  );
++}
++
++function ToolShortcutCard({ tool }: { tool: FinancialToolShortcut }) {
++  return (
++    <article className="flex h-full flex-col rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
++      <div className="flex items-start justify-between gap-4">
++        <h3 className="text-lg font-semibold text-white">{tool.title}</h3>
++        <span
++          className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${
++            tool.available
++              ? "bg-emerald-500/15 text-emerald-300"
++              : "bg-slate-800 text-slate-300"
++          }`}
++        >
++          {tool.available ? "Available" : "Coming Soon"}
++        </span>
++      </div>
++      <p className="mt-4 flex-1 text-sm leading-7 text-slate-300">{tool.description}</p>
++      {tool.available ? (
++        <Link
++          href={tool.href}
++          className="mt-5 inline-flex min-h-11 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
++        >
++          Open tool
++        </Link>
++      ) : (
++        <span className="mt-5 inline-flex min-h-11 items-center justify-center rounded-xl border border-slate-700 px-5 py-3 text-sm font-semibold text-slate-400">
++          Coming Soon
++        </span>
++      )}
++    </article>
++  );
++}
++
++function AnnouncementList({
++  announcements,
++  isLoading = false,
++}: {
++  announcements: AnnouncementItem[];
++  isLoading?: boolean;
++}) {
++  if (isLoading) {
++    return <DashboardLoadingState label="Announcements" />;
++  }
++
++  if (announcements.length === 0) {
++    return (
++      <DashboardEmptyState
++        title="No announcements right now"
++        description="New course updates, webinars, and member news will appear here."
++      />
++    );
++  }
++
++  return (
++    <div className="space-y-4">
++      {announcements.map((announcement) => (
++        <article
++          key={announcement.id}
++          className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5"
++        >
++          <div className="flex flex-wrap items-center gap-3">
++            <span className="rounded-full bg-yellow-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-yellow-300">
++              {announcement.tag}
++            </span>
++          </div>
++          <h3 className="mt-3 text-lg font-semibold text-white">{announcement.title}</h3>
++          <p className="mt-3 text-sm leading-7 text-slate-300">
++            {announcement.description}
++          </p>
++          <Link
++            href={announcement.href}
++            className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-blue-300 transition hover:text-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++          >
++            {announcement.cta}
++          </Link>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export default function PersonalizedMemberDashboard() {
++  const data = getMemberDashboardData();
++  const monthlyGoalProgress = Math.min(
++    100,
++    Math.round((data.monthlyGoal.completedHours / data.monthlyGoal.targetHours) * 100),
++  );
++  const tools = [...data.financialTools].sort(
++    (left, right) => Number(right.available) - Number(left.available),
++  );
++
++  return (
++    <main className="min-h-screen bg-[#08101f] text-white">
++      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
++        <section className="rounded-[2rem] border border-blue-500/20 bg-gradient-to-br from-blue-950/80 via-slate-950 to-slate-900 p-6 shadow-2xl shadow-blue-950/20 md:p-10">
++          <p className="text-sm font-semibold uppercase tracking-[0.4em] text-yellow-400">
++            Member Dashboard
++          </p>
++          <h1 className="mt-4 text-4xl font-black tracking-tight text-white md:text-6xl">
++            Welcome back, {data.memberName}!
++          </h1>
++          <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300 md:text-xl">
++            Continue building your financial competence today.
++          </p>
++          <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-6">
++            {data.overview.map((item) => (
++              <article
++                key={item.label}
++                className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur"
++              >
++                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">
++                  {item.label}
++                </p>
++                <p className="mt-3 text-3xl font-black text-white">{item.value}</p>
++                <p className="mt-3 text-sm leading-6 text-slate-300">{item.supportingText}</p>
++              </article>
++            ))}
++          </div>
++        </section>
++
++        <div className="mt-10 grid gap-10">
++          <DashboardPanel
++            eyebrow="Continue learning"
++            title="Pick up where you left off"
++          >
++            <ContinueLearningSection courses={data.continueLearning} />
++          </DashboardPanel>
++
++          <DashboardPanel
++            eyebrow="Recommendations"
++            title="Recommended next courses"
++          >
++            <RecommendationSection data={data.recommendations} />
++          </DashboardPanel>
++
++          <div className="grid gap-10 xl:grid-cols-[1.25fr,0.95fr]">
++            <DashboardPanel
++              eyebrow="Learning progress"
++              title="Your progress at a glance"
++            >
++              <div className="grid gap-6 lg:grid-cols-2">
++                <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
++                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">
++                    Overall completion
++                  </p>
++                  <p className="mt-3 text-5xl font-black text-white">
++                    {data.overallCompletion}%
++                  </p>
++                  <div className="mt-4">
++                    <CourseProgressBar progress={data.overallCompletion} />
++                  </div>
++                  <p className="mt-4 text-sm leading-7 text-slate-300">
++                    Your active pathways are more than halfway complete, with strong momentum in budgeting and personal finance.
++                  </p>
++                </div>
++
++                <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
++                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">
++                    Monthly learning goal
++                  </p>
++                  <p className="mt-3 text-5xl font-black text-white">
++                    {monthlyGoalProgress}%
++                  </p>
++                  <div className="mt-4">
++                    <CourseProgressBar progress={monthlyGoalProgress} />
++                  </div>
++                  <p className="mt-4 text-sm leading-7 text-slate-300">
++                    {data.monthlyGoal.completedHours} of {data.monthlyGoal.targetHours} hours completed this month.
++                  </p>
++                </div>
++              </div>
++
++              <div className="mt-6 grid gap-6 lg:grid-cols-[1.3fr,0.9fr]">
++                <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
++                  <h3 className="text-lg font-semibold text-white">Category completion</h3>
++                  <div className="mt-5 space-y-5">
++                    {data.categoryCompletion.map((category) => (
++                      <div key={category.category}>
++                        <div className="flex items-center justify-between gap-4 text-sm text-slate-300">
++                          <span>{category.category}</span>
++                          <span>
++                            {category.lessonsCompleted}/{category.totalLessons} lessons
++                          </span>
++                        </div>
++                        <div className="mt-2 flex items-center gap-4">
++                          <div className="flex-1">
++                            <CourseProgressBar progress={category.completion} />
++                          </div>
++                          <span className="w-12 text-right text-sm font-semibold text-white">
++                            {category.completion}%
++                          </span>
++                        </div>
++                      </div>
++                    ))}
++                  </div>
++                </div>
++
++                <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
++                  <h3 className="text-lg font-semibold text-white">Weekly activity</h3>
++                  <div className="mt-5 grid grid-cols-7 gap-3">
++                    {data.weeklyActivity.map((point) => (
++                      <div key={point.day} className="text-center">
++                        <div className="flex h-36 items-end justify-center rounded-2xl bg-slate-950/80 p-2">
++                          <div
++                            className="w-full rounded-xl bg-blue-500"
++                            style={{
++                              height: `${Math.max(18, Math.round((point.minutes / 60) * 100))}%`,
++                            }}
++                            aria-label={`${point.day}: ${point.minutes} minutes`}
++                            title={`${point.day}: ${point.minutes} minutes`}
++                          />
++                        </div>
++                        <p className="mt-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-300">
++                          {point.day}
++                        </p>
++                        <p className="mt-1 text-sm text-white">{point.minutes}m</p>
++                      </div>
++                    ))}
++                  </div>
++                </div>
++              </div>
++            </DashboardPanel>
++
++            <div className="grid gap-10">
++              <DashboardPanel
++                eyebrow="Achievements"
++                title="Badges earned and in progress"
++              >
++                <div className="grid gap-4 md:grid-cols-2">
++                  {data.achievementBadges.map((badge) => (
++                    <article
++                      key={badge.id}
++                      className={`rounded-2xl border p-5 ${
++                        badge.earned
++                          ? "border-emerald-500/40 bg-emerald-500/10"
++                          : "border-slate-800 bg-slate-900/70"
++                      }`}
++                    >
++                      <div className="flex items-start justify-between gap-4">
++                        <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-950/80 text-xl text-white">
++                          {badge.icon}
++                        </div>
++                        <span
++                          className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${
++                            badge.earned
++                              ? "bg-emerald-500/20 text-emerald-200"
++                              : "bg-slate-800 text-slate-300"
++                          }`}
++                        >
++                          {badge.earned ? "Earned" : "Locked"}
++                        </span>
++                      </div>
++                      <h3 className="mt-4 text-lg font-semibold text-white">{badge.title}</h3>
++                      <p className="mt-2 text-sm leading-7 text-slate-300">{badge.description}</p>
++                      <p className="mt-3 text-sm font-semibold text-blue-200">
++                        {badge.progressLabel}
++                      </p>
++                    </article>
++                  ))}
++                </div>
++              </DashboardPanel>
++
++              <DashboardPanel
++                eyebrow="Quick access"
++                title="Financial tool shortcuts"
++              >
++                <div className="grid gap-4 md:grid-cols-2">
++                  {tools.map((tool) => (
++                    <ToolShortcutCard key={tool.id} tool={tool} />
++                  ))}
++                </div>
++              </DashboardPanel>
++            </div>
++          </div>
++
++          <div className="grid gap-10 xl:grid-cols-[1.15fr,0.85fr]">
++            <DashboardPanel eyebrow="Announcements" title="What is new for members">
++              <AnnouncementList announcements={data.announcements} />
++            </DashboardPanel>
++
++            <div className="grid gap-10">
++              <MotivationalQuoteRotator quotes={data.motivationalQuotes} />
++
++              <DashboardPanel eyebrow="Next steps" title="Keep your momentum going">
++                <div className="grid gap-4">
++                  <Link
++                    href="/courses"
++                    className="inline-flex min-h-11 items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++                  >
++                    Browse all courses
++                  </Link>
++                  <Link
++                    href="/financial-tools"
++                    className="inline-flex min-h-11 items-center justify-center rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++                  >
++                    Open financial tools
++                  </Link>
++                  <Link
++                    href="/webinars"
++                    className="inline-flex min-h-11 items-center justify-center rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
++                  >
++                    Reserve a webinar seat
++                  </Link>
++                </div>
++              </DashboardPanel>
++            </div>
++          </div>
++        </div>
++      </div>
++    </main>
++  );
++}
+added in remote
+  their  100644 b26f7600203df43eb0267d5b24de07aeba47f3aa src/lib/memberDashboard.ts
+@@ -0,0 +1,424 @@
++export type RecommendationCategory =
++  | "Personal Finance"
++  | "Credit"
++  | "Budgeting"
++  | "Investing"
++  | "Taxes"
++  | "Insurance"
++  | "Real Estate"
++  | "Entrepreneurship";
++
++export interface DashboardOverviewItem {
++  label: string;
++  value: string;
++  supportingText: string;
++}
++
++export interface ContinueLearningCourse {
++  id: string;
++  title: string;
++  category: RecommendationCategory;
++  progress: number;
++  estimatedTimeRemaining: string;
++  href: string;
++  imageSrc: string;
++  imageAlt: string;
++}
++
++export interface DashboardRecommendation {
++  id: string;
++  title: string;
++  category: RecommendationCategory;
++  description: string;
++  reason: string;
++  href: string;
++}
++
++export interface FinancialToolShortcut {
++  id: string;
++  title: string;
++  description: string;
++  href: string;
++  available: boolean;
++}
++
++export interface AchievementBadge {
++  id: string;
++  title: string;
++  description: string;
++  icon: string;
++  earned: boolean;
++  progressLabel: string;
++}
++
++export interface CategoryCompletion {
++  category: RecommendationCategory;
++  completion: number;
++  lessonsCompleted: number;
++  totalLessons: number;
++}
++
++export interface WeeklyActivityPoint {
++  day: string;
++  minutes: number;
++}
++
++export interface MonthlyGoal {
++  completedHours: number;
++  targetHours: number;
++}
++
++export interface AnnouncementItem {
++  id: string;
++  tag: string;
++  title: string;
++  description: string;
++  href: string;
++  cta: string;
++}
++
++export interface MotivationalQuote {
++  quote: string;
++  author: string;
++}
++
++export interface MemberDashboardData {
++  memberName: string;
++  overview: DashboardOverviewItem[];
++  continueLearning: ContinueLearningCourse[];
++  recommendations: DashboardRecommendation[];
++  financialTools: FinancialToolShortcut[];
++  achievementBadges: AchievementBadge[];
++  overallCompletion: number;
++  categoryCompletion: CategoryCompletion[];
++  weeklyActivity: WeeklyActivityPoint[];
++  monthlyGoal: MonthlyGoal;
++  announcements: AnnouncementItem[];
++  motivationalQuotes: MotivationalQuote[];
++}
++
++const categoryCatalog: Array<
++  Omit<DashboardRecommendation, "reason"> & { placeholderReason: string }
++> = [
++  {
++    id: "personal-finance-roadmap",
++    title: "Personal Finance Reset",
++    category: "Personal Finance",
++    description: "Strengthen cash-flow habits, goal setting, and confident money routines.",
++    href: "/courses",
++    placeholderReason: "Recommended to reinforce everyday money decisions before moving into advanced tracks.",
++  },
++  {
++    id: "credit-confidence",
++    title: "Credit Confidence Blueprint",
++    category: "Credit",
++    description: "Learn how credit history, utilization, and repayment habits affect opportunity.",
++    href: "/courses",
++    placeholderReason: "Recommended because your completed coursework shows room to improve credit fundamentals.",
++  },
++  {
++    id: "budgeting-systems",
++    title: "Budgeting Systems That Stick",
++    category: "Budgeting",
++    description: "Build a repeatable spending plan with practical guardrails and review habits.",
++    href: "/courses",
++    placeholderReason: "Recommended to support the budgeting tools you are already using inside Edunancial.",
++  },
++  {
++    id: "investing-basics",
++    title: "Investing Foundations",
++    category: "Investing",
++    description: "Understand risk, compounding, diversification, and long-term portfolio habits.",
++    href: "/courses",
++    placeholderReason: "Recommended as the next step after your recent progress in core wealth-building topics.",
++  },
++  {
++    id: "tax-smart-decisions",
++    title: "Tax-Smart Financial Decisions",
++    category: "Taxes",
++    description: "Explore how taxes shape savings, investing, and business cash-flow strategy.",
++    href: "/courses",
++    placeholderReason: "Recommended to connect your current learning streak with practical year-round tax awareness.",
++  },
++  {
++    id: "insurance-basics",
++    title: "Insurance Essentials",
++    category: "Insurance",
++    description: "Review protection planning, risk transfer, and coverage choices for major life events.",
++    href: "/courses",
++    placeholderReason: "Recommended because protection planning is a key gap after your completed starter courses.",
++  },
++  {
++    id: "real-estate-primer",
++    title: "Real Estate Investing Primer",
++    category: "Real Estate",
++    description: "Compare property strategies, leverage, and long-term wealth-building opportunities.",
++    href: "/courses",
++    placeholderReason: "Recommended because this category is close to your current average and ready for a deeper push.",
++  },
++  {
++    id: "entrepreneurship-cashflow",
++    title: "Entrepreneurship Cash-Flow Playbook",
++    category: "Entrepreneurship",
++    description: "Learn how founders can manage pricing, runway, and growth-minded financial decisions.",
++    href: "/courses",
++    placeholderReason: "Recommended to expand your completed coursework into business ownership and income creation.",
++  },
++];
++
++function createCourseImage(title: string, accentColor: string, detailColor: string) {
++  const svg = `
++    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="${title}">
++      <defs>
++        <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
++          <stop offset="0%" stop-color="#0f172a" />
++          <stop offset="100%" stop-color="${accentColor}" />
++        </linearGradient>
++      </defs>
++      <rect width="800" height="450" rx="36" fill="url(#g)" />
++      <circle cx="645" cy="95" r="96" fill="${detailColor}" fill-opacity="0.22" />
++      <circle cx="125" cy="355" r="118" fill="#facc15" fill-opacity="0.08" />
++      <text x="60" y="165" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Continue Learning</text>
++      <text x="60" y="225" fill="#f8fafc" font-family="Arial, sans-serif" font-size="54" font-weight="800">${title}</text>
++      <text x="60" y="300" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Financial competency in action</text>
++    </svg>
++  `;
++
++  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
++}
++
++function getPlaceholderRecommendations(
++  categoryCompletion: CategoryCompletion[],
++) {
++  const completionLookup = new Map(
++    categoryCompletion.map((entry) => [entry.category, entry.completion]),
++  );
++
++  return [...categoryCatalog]
++    .sort(
++      (left, right) =>
++        (completionLookup.get(left.category) ?? 0) -
++        (completionLookup.get(right.category) ?? 0),
++    )
++    .map(({ placeholderReason, ...recommendation }) => ({
++      ...recommendation,
++      reason: placeholderReason,
++    }));
++}
++
++export function getMemberDashboardData(): MemberDashboardData {
++  const categoryCompletion: CategoryCompletion[] = [
++    { category: "Budgeting", completion: 82, lessonsCompleted: 14, totalLessons: 17 },
++    { category: "Personal Finance", completion: 74, lessonsCompleted: 17, totalLessons: 23 },
++    { category: "Investing", completion: 67, lessonsCompleted: 12, totalLessons: 18 },
++    { category: "Credit", completion: 61, lessonsCompleted: 11, totalLessons: 18 },
++    { category: "Taxes", completion: 48, lessonsCompleted: 7, totalLessons: 15 },
++    { category: "Insurance", completion: 41, lessonsCompleted: 5, totalLessons: 12 },
++    { category: "Real Estate", completion: 58, lessonsCompleted: 10, totalLessons: 17 },
++    { category: "Entrepreneurship", completion: 53, lessonsCompleted: 8, totalLessons: 15 },
++  ];
++
++  const continueLearning: ContinueLearningCourse[] = [
++    {
++      id: "cash-flow-confidence",
++      title: "Cash-Flow Confidence",
++      category: "Budgeting",
++      progress: 84,
++      estimatedTimeRemaining: "18 minutes remaining",
++      href: "/courses",
++      imageSrc: createCourseImage("Cash-Flow Confidence", "#2563eb", "#38bdf8"),
++      imageAlt: "Illustrated cover for the Cash-Flow Confidence course.",
++    },
++    {
++      id: "credit-repair-basics",
++      title: "Credit Repair Basics",
++      category: "Credit",
++      progress: 56,
++      estimatedTimeRemaining: "42 minutes remaining",
++      href: "/courses",
++      imageSrc: createCourseImage("Credit Repair Basics", "#7c3aed", "#c084fc"),
++      imageAlt: "Illustrated cover for the Credit Repair Basics course.",
++    },
++    {
++      id: "investing-with-purpose",
++      title: "Investing With Purpose",
++      category: "Investing",
++      progress: 31,
++      estimatedTimeRemaining: "1 hour 12 minutes remaining",
++      href: "/courses",
++      imageSrc: createCourseImage("Investing With Purpose", "#0f766e", "#2dd4bf"),
++      imageAlt: "Illustrated cover for the Investing With Purpose course.",
++    },
++  ];
++
++  return {
++    memberName: "Taylor",
++    overview: [
++      { label: "Courses Started", value: "5", supportingText: "3 currently active this week" },
++      { label: "Courses Completed", value: "3", supportingText: "1 completed in the last 30 days" },
++      { label: "Learning Progress", value: "62%", supportingText: "Across active learning plans" },
++      { label: "Tools Used", value: "3", supportingText: "Budget, investment, and net worth tools" },
++      { label: "Current Learning Streak", value: "12 days", supportingText: "Keep your weekly rhythm going" },
++      { label: "Certificates Earned", value: "1", supportingText: "Placeholder for future certificate sync" },
++    ],
++    continueLearning,
++    recommendations: getPlaceholderRecommendations(categoryCompletion),
++    financialTools: [
++      {
++        id: "budget-calculator",
++        title: "Budget Calculator",
++        description: "Review monthly cash flow and identify surplus or deficit quickly.",
++        href: "/financial-tools",
++        available: true,
++      },
++      {
++        id: "net-worth-tracker",
++        title: "Net Worth Tracker",
++        description: "Track assets and debts to measure long-term financial progress.",
++        href: "/financial-tools",
++        available: true,
++      },
++      {
++        id: "investment-calculator",
++        title: "Investment Calculator",
++        description: "Estimate long-term growth and understand compounding scenarios.",
++        href: "/financial-tools",
++        available: true,
++      },
++      {
++        id: "retirement-calculator",
++        title: "Retirement Calculator",
++        description: "Project future retirement readiness with contribution planning.",
++        href: "/financial-tools",
++        available: false,
++      },
++      {
++        id: "debt-planner",
++        title: "Debt Planner",
++        description: "Compare payoff strategies and build a future debt-reduction roadmap.",
++        href: "/financial-tools",
++        available: false,
++      },
++      {
++        id: "mortgage-calculator",
++        title: "Mortgage Calculator",
++        description: "Explore payment scenarios, affordability ranges, and next-home planning.",
++        href: "/financial-tools",
++        available: false,
++      },
++    ],
++    achievementBadges: [
++      {
++        id: "first-lesson-completed",
++        title: "First Lesson Completed",
++        description: "Complete your first lesson to begin tracking momentum.",
++        icon: "✓",
++        earned: true,
++        progressLabel: "Earned",
++      },
++      {
++        id: "budget-builder",
++        title: "Budget Builder",
++        description: "Finish the budgeting pathway and use the calculator at least once.",
++        icon: "¤",
++        earned: true,
++        progressLabel: "Earned",
++      },
++      {
++        id: "debt-crusher",
++        title: "Debt Crusher",
++        description: "Complete two debt reduction modules and build a payoff plan.",
++        icon: "↘",
++        earned: false,
++        progressLabel: "1 of 2 modules completed",
++      },
++      {
++        id: "investing-beginner",
++        title: "Investing Beginner",
++        description: "Finish your first investing course and record a practice scenario.",
++        icon: "↑",
++        earned: false,
++        progressLabel: "31% complete",
++      },
++      {
++        id: "savings-champion",
++        title: "Savings Champion",
++        description: "Maintain a positive monthly surplus for four consecutive weeks.",
++        icon: "★",
++        earned: true,
++        progressLabel: "Earned",
++      },
++      {
++        id: "financial-literacy-explorer",
++        title: "Financial Literacy Explorer",
++        description: "Touch four learning categories to broaden your money knowledge.",
++        icon: "◎",
++        earned: false,
++        progressLabel: "3 of 4 categories explored",
++      },
++    ],
++    overallCompletion: 62,
++    categoryCompletion,
++    weeklyActivity: [
++      { day: "Mon", minutes: 25 },
++      { day: "Tue", minutes: 40 },
++      { day: "Wed", minutes: 30 },
++      { day: "Thu", minutes: 55 },
++      { day: "Fri", minutes: 20 },
++      { day: "Sat", minutes: 45 },
++      { day: "Sun", minutes: 35 },
++    ],
++    monthlyGoal: {
++      completedHours: 9.5,
++      targetHours: 14,
++    },
++    announcements: [
++      {
++        id: "new-course",
++        tag: "New Course",
++        title: "Personal Finance Reset is now live",
++        description: "Start the newest learner-friendly course focused on everyday money confidence.",
++        href: "/courses",
++        cta: "View course",
++      },
++      {
++        id: "website-update",
++        tag: "Website Update",
++        title: "Financial tools have a faster entry point",
++        description: "Quick-access shortcuts now prioritize calculators that are already available today.",
++        href: "/financial-tools",
++        cta: "Open tools",
++      },
++      {
++        id: "upcoming-webinar",
++        tag: "Upcoming Webinar",
++        title: "Join the next live budgeting workshop",
++        description: "Reserve your spot for a guided session on building a spending plan that lasts.",
++        href: "/webinars",
++        cta: "See webinars",
++      },
++      {
++        id: "member-news",
++        tag: "Member News",
++        title: "Achievement badges are expanding soon",
++        description: "More badge unlocks and certificate sync points are planned for future dashboard updates.",
++        href: "/membership",
++        cta: "Learn more",
++      },
++    ],
++    motivationalQuotes: [
++      {
++        quote: "The best investment you can make is in yourself.",
++        author: "Warren Buffett",
++      },
++      {
++        quote: "Do not save what is left after spending, but spend what is left after saving.",
++        author: "Warren Buffett",
++      },
++      {
++        quote: "A budget is telling your money where to go instead of wondering where it went.",
++        author: "Dave Ramsey",
++      },
++    ],
++  };
++}

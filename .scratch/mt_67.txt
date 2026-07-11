@@ -1,0 +1,82 @@
+merged
+  result 100644 2c696226056b17913e48350028ef282947afd4ac curriculum/inventory.json
+  our    100644 b971358c3df99c31469f8ef9b844f32c03455084 curriculum/inventory.json
+@@ -1,6 +1,6 @@
+ {
+   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
+-  "_generated": "2026-07-11T04:10:43.971Z",
++  "_generated": "deterministic",
+   "summary": {
+     "totalLessons": 0,
+     "totalTracks": 0,
+merged
+  result 100644 32f5ac22cabcd2f95543ffea06c6fc0212ba5497 curriculum/reports/CURRICULUM-AUDIT.json
+  our    100644 1bf3d8892df90de3f3e790732c597371e08d16e3 curriculum/reports/CURRICULUM-AUDIT.json
+@@ -1,6 +1,6 @@
+ {
+-  "timestamp": "2026-07-11T04:10:44.018Z",
+-  "commit": "e550b9f4705d593d31eadb4465846c2d83eee9d2",
++  "timestamp": "deterministic",
++  "commit": "deterministic",
+   "registeredAssets": 0,
+   "totalIssues": 0,
+   "issues": {
+merged
+  result 100644 71f91472e69b0b695eefbcdcad357efa8c469865 curriculum/reports/CURRICULUM-AUDIT.md
+  our    100644 0ed26e424fb07514c7095a5bda10cc43909ede9b curriculum/reports/CURRICULUM-AUDIT.md
+@@ -1,7 +1,7 @@
+ # Curriculum Audit Report
+ 
+-**Generated:** 2026-07-11T04:10:44.018Z
+-**Commit:** `e550b9f4705d593d31eadb4465846c2d83eee9d2`
++**Generated:** deterministic
++**Commit:** `deterministic`
+ **Registered Assets:** 0
+ **Total Issues:** 0
+ 
+merged
+  result 100644 83e211f3503ddd5495ff5181b0a9d9de1871e51b scripts/curriculum/audit.mjs
+  our    100644 313384dd4aeb3ebe086619e81f2622f674bad977 scripts/curriculum/audit.mjs
+@@ -2,7 +2,6 @@
+ // scripts/curriculum/audit.mjs
+ // Audits filesystem vs registry, detects orphans, bad paths, duplicates, etc.
+ 
+-import { execSync } from 'node:child_process';
+ import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from 'node:fs';
+ import { join, relative } from 'node:path';
+ 
+@@ -14,12 +13,7 @@
+ 
+ log.section('Curriculum Auditor');
+ 
+-let currentCommit = 'unknown';
+-try {
+-  currentCommit = execSync('git rev-parse HEAD', { cwd: repoPath() }).toString().trim();
+-} catch {
+-  // Ignore git lookup failures.
+-}
++const currentCommit = 'deterministic';
+ 
+ const registry = readRegistry();
+ const registeredAssets = listAllAssets(registry);
+@@ -99,7 +93,7 @@
+ scanDir(CONTENT_CURRICULUM_ROOT);
+ 
+ mkdirSync(REPORTS_DIR, { recursive: true });
+-const timestamp = new Date().toISOString();
++const timestamp = 'deterministic';
+ const totalIssues = Object.values(issues).reduce((sum, list) => sum + list.length, 0);
+ 
+ const jsonReport = {
+merged
+  result 100644 57301e19046da768bc801ab94c2779f2820f4a0e scripts/curriculum/inventory.mjs
+  our    100644 4124560d62689b47973d080685b2c42900f4cca2 scripts/curriculum/inventory.mjs
+@@ -25,7 +25,7 @@
+ 
+ const inventory = {
+   _note: 'Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.',
+-  _generated: new Date().toISOString(),
++  _generated: 'deterministic',
+   summary: {
+     totalLessons: assets.length,
+     totalTracks: Object.keys(byTrack).length,

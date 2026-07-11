@@ -1,0 +1,295 @@
+changed in both
+  base   100644 60896f6a67915cb6897585b530a57670ef22ef5c .gitignore
+  our    100644 f7ea864b63fabc8294a54f0906ae95633f775481 .gitignore
+  their  100644 3b27c29ecc528a1c9e2404516417d03a731c78da .gitignore
+@@ -1,7 +1,13 @@
+ # Build output
+ .next/
+ out/
++<<<<<<< .our
+ *.tsbuildinfo
++|||||||
++=======
++.test-dist/
++*.tsbuildinfo
++>>>>>>> .their
+ 
+ # Dependencies
+ node_modules/
+changed in both
+  base   100644 4c06bbc9d250e77fdf741ae0e69f7e4a489cad06 package.json
+  our    100644 86ae399f11bf25e020de9f185554392135b7d634 package.json
+  their  100644 833835568425ae18bc78780bcff32d21c0be2b46 package.json
+@@ -6,6 +6,7 @@
+     "dev": "next dev",
+     "build": "next build",
+     "start": "next start",
++<<<<<<< .our
+     "lint": "next lint",
+     "curriculum:import": "node scripts/curriculum/import.mjs",
+     "curriculum:validate": "node scripts/curriculum/validate.mjs",
+@@ -16,6 +17,13 @@
+     "curriculum:test": "node --test scripts/curriculum/tests/*.test.mjs",
+     "international:test": "node --experimental-specifier-resolution=node --test scripts/international/tests/preferences.test.ts",
+     "regionalization:test": "node --experimental-strip-types --test scripts/regionalization/tests/engine.test.ts"
++|||||||
++    "lint": "next lint"
++=======
++    "lint": "next lint",
++    "typecheck": "tsc -p tsconfig.json --noEmit",
++    "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && node --test .test-dist/guardrails.test.js"
++>>>>>>> .their
+   },
+   "dependencies": {
+     "autoprefixer": "^10.4.20",
+added in remote
+  their  100644 1c091ba8bb54a094ff97ca0363a660c7dbdc47aa src/lib/ai/guardrails.test.ts
+@@ -0,0 +1,138 @@
++import test from "node:test";
++import assert from "node:assert/strict";
++
++import { evaluateCoachRequest, type CoachRequest } from "./guardrails";
++
++const INVESTMENT_ADVICE_MESSAGE =
++  "Edunancial does not recommend specific stocks, businesses, cryptocurrencies, real estate, or other investments. Explain your reasoning and evidence. If you need individualized advice, use the Marketplace to consult a licensed professional.";
++
++const BEGINNER_MESSAGE =
++  "Explain the concept in simple language, ask one question at a time, and verify understanding before continuing.";
++
++const INTERMEDIATE_MESSAGE =
++  "Challenge assumptions, discuss risk, liquidity, cash flow, ROI, and opportunity cost.";
++
++const ADVANCED_MESSAGE =
++  "Require evidence, multiple scenarios, quantitative reasoning, and discussion of competing viewpoints.";
++
++const INVALID_COMPETENCY_MESSAGE =
++  "I can help with general financial education. Please choose beginner, intermediate, or advanced.";
++
++function buildRequest(overrides: Partial<CoachRequest> = {}): CoachRequest {
++  return {
++    competency: "beginner",
++    topic: "budgeting",
++    asksForSpecificInvestment: false,
++    ...overrides,
++  };
++}
++
++test("returns beginner guidance for beginner competency", () => {
++  const response = evaluateCoachRequest(
++    buildRequest({
++      competency: "beginner",
++      topic: "budgeting basics",
++    }),
++  );
++
++  assert.deepEqual(response, {
++    permitted: true,
++    redirectToMarketplace: false,
++    message: BEGINNER_MESSAGE,
++  });
++});
++
++test("returns intermediate guidance for intermediate competency", () => {
++  const response = evaluateCoachRequest(
++    buildRequest({
++      competency: "intermediate",
++      topic: "cash flow planning",
++    }),
++  );
++
++  assert.deepEqual(response, {
++    permitted: true,
++    redirectToMarketplace: false,
++    message: INTERMEDIATE_MESSAGE,
++  });
++});
++
++test("returns advanced guidance for advanced competency", () => {
++  const response = evaluateCoachRequest(
++    buildRequest({
++      competency: "advanced",
++      topic: "valuation scenarios",
++    }),
++  );
++
++  assert.deepEqual(response, {
++    permitted: true,
++    redirectToMarketplace: false,
++    message: ADVANCED_MESSAGE,
++  });
++});
++
++test("blocks specific investment requests and redirects to marketplace", () => {
++  const response = evaluateCoachRequest(
++    buildRequest({
++      competency: "intermediate",
++      topic: "should I buy TSLA",
++      asksForSpecificInvestment: true,
++    }),
++  );
++
++  assert.deepEqual(response, {
++    permitted: false,
++    redirectToMarketplace: true,
++    message: INVESTMENT_ADVICE_MESSAGE,
++  });
++});
++
++test("uses investment guardrail even when competency is invalid", () => {
++  const response = evaluateCoachRequest({
++    competency: "expert" as CoachRequest["competency"],
++    topic: "recommend me one crypto",
++    asksForSpecificInvestment: true,
++  });
++
++  assert.deepEqual(response, {
++    permitted: false,
++    redirectToMarketplace: true,
++    message: INVESTMENT_ADVICE_MESSAGE,
++  });
++});
++
++test("returns safe response for invalid competency without redirect", () => {
++  const response = evaluateCoachRequest({
++    competency: "expert" as CoachRequest["competency"],
++    topic: "scenario planning",
++    asksForSpecificInvestment: false,
++  });
++
++  assert.deepEqual(response, {
++    permitted: false,
++    redirectToMarketplace: false,
++    message: INVALID_COMPETENCY_MESSAGE,
++  });
++});
++
++test("topic variations do not change competency-based messaging", () => {
++  const plainTopic = evaluateCoachRequest(
++    buildRequest({
++      competency: "advanced",
++      topic: "liquidity",
++    }),
++  );
++
++  const mixedTopic = evaluateCoachRequest(
++    buildRequest({
++      competency: "advanced",
++      topic: "  LIQUIDITY + 🇺🇸 taxes + 2026?!  ",
++    }),
++  );
++
++  assert.equal(plainTopic.message, ADVANCED_MESSAGE);
++  assert.equal(mixedTopic.message, ADVANCED_MESSAGE);
++  assert.equal(plainTopic.redirectToMarketplace, false);
++  assert.equal(mixedTopic.redirectToMarketplace, false);
++});
+added in remote
+  their  100644 f052d50ecd35ff0b058af998328e4962fc29c145 src/lib/ai/guardrails.ts
+@@ -0,0 +1,81 @@
++export type Competency = "beginner" | "intermediate" | "advanced";
++
++export interface CoachRequest {
++  competency: Competency;
++  topic: string;
++  asksForSpecificInvestment: boolean;
++}
++
++export interface CoachResponse {
++  permitted: boolean;
++  message: string;
++  redirectToMarketplace: boolean;
++}
++
++const INVESTMENT_ADVICE_MESSAGE =
++  "Edunancial does not recommend specific stocks, businesses, cryptocurrencies, real estate, or other investments. Explain your reasoning and evidence. If you need individualized advice, use the Marketplace to consult a licensed professional.";
++
++const BEGINNER_MESSAGE =
++  "Explain the concept in simple language, ask one question at a time, and verify understanding before continuing.";
++
++const INTERMEDIATE_MESSAGE =
++  "Challenge assumptions, discuss risk, liquidity, cash flow, ROI, and opportunity cost.";
++
++const ADVANCED_MESSAGE =
++  "Require evidence, multiple scenarios, quantitative reasoning, and discussion of competing viewpoints.";
++
++const INVALID_COMPETENCY_MESSAGE =
++  "I can help with general financial education. Please choose beginner, intermediate, or advanced.";
++
++function assertNever(value: never): never {
++  throw new Error(`Unhandled competency value: ${String(value)}`);
++}
++
++function isCompetency(value: string): value is Competency {
++  return (
++    value === "beginner" || value === "intermediate" || value === "advanced"
++  );
++}
++
++export function evaluateCoachRequest(request: CoachRequest): CoachResponse {
++  if (request.asksForSpecificInvestment) {
++    return {
++      permitted: false,
++      redirectToMarketplace: true,
++      message: INVESTMENT_ADVICE_MESSAGE,
++    };
++  }
++
++  const competency = request.competency as string;
++
++  if (!isCompetency(competency)) {
++    return {
++      permitted: false,
++      redirectToMarketplace: false,
++      message: INVALID_COMPETENCY_MESSAGE,
++    };
++  }
++
++  switch (competency) {
++    case "beginner":
++      return {
++        permitted: true,
++        redirectToMarketplace: false,
++        message: BEGINNER_MESSAGE,
++      };
++    case "intermediate":
++      return {
++        permitted: true,
++        redirectToMarketplace: false,
++        message: INTERMEDIATE_MESSAGE,
++      };
++    case "advanced":
++      return {
++        permitted: true,
++        redirectToMarketplace: false,
++        message: ADVANCED_MESSAGE,
++      };
++    default:
++      return assertNever(competency);
++  }
++}
+merged
+  result 100644 b58168aea6ffead60b15ce60870805833b2b79eb src/lib/ai/index.ts
+  our    100644 2683bbd83fc427be911f8c629549aff723c1334c src/lib/ai/index.ts
+@@ -5,3 +5,5 @@
+ export * from "./reports";
+ 
+ export * from "./countries";
++
++export * from "./guardrails";
+added in remote
+  their  100644 5526ca8096b2c88ff9129a63d5092892f47554b1 tsconfig.test.json
+@@ -0,0 +1,14 @@
++{
++  "extends": "./tsconfig.json",
++  "compilerOptions": {
++    "noEmit": false,
++    "outDir": ".test-dist",
++    "module": "commonjs",
++    "moduleResolution": "node",
++    "incremental": false
++  },
++  "include": [
++    "src/lib/ai/guardrails.ts",
++    "src/lib/ai/guardrails.test.ts"
++  ]
++}

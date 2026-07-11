@@ -1,0 +1,2007 @@
+changed in both
+  base   100644 29939243f33050377dd048f2972fb773f97f5bde .gitignore
+  our    100644 f7ea864b63fabc8294a54f0906ae95633f775481 .gitignore
+  their  100644 164a140767c7f1b7551670cbc6ee897102d7e1df .gitignore
+@@ -1,3 +1,4 @@
++<<<<<<< .our
+ # Build output
+ .next/
+ out/
+@@ -23,5 +24,11 @@
+ *.pem
+ 
+ # Velite generated (keep tracked)
++|||||||
++=======
++node_modules/
++.next/
++out/
++>>>>>>> .their
+ !.velite
+ !.velite/generated
+added in remote
+  their  100644 b2d29fbeb69b964ae6e67517174a6449f3804231 src/app/admin/communications/page.tsx
+@@ -0,0 +1,11 @@
++import AdminCommunicationsHub from "@/components/communications/AdminCommunicationsHub";
++
++export const metadata = {
++  title: "Communications Command Center | Edunancial",
++  description:
++    "Operate announcements, campaigns, reminders, newsletters, templates, and subscriber outreach.",
++};
++
++export default function AdminCommunicationsPage() {
++  return <AdminCommunicationsHub mode="overview" />;
++}
+merged
+  result 100644 57483d1d4311db80fed48608ad54266054b7b111 src/app/admin/email-campaigns/page.tsx
+  our    100644 9dbaeae34ca00a6cc26ca5def51d4e793c91fee3 src/app/admin/email-campaigns/page.tsx
+@@ -1,55 +1,9 @@
+-export default function EmailCampaigns(){
++import AdminCommunicationsHub from "@/components/communications/AdminCommunicationsHub";
+ 
+-return(
+-
+-<main className="min-h-screen bg-slate-950 text-white p-10">
+-
+-<h1 className="text-5xl font-black">
+-
+-Email Campaigns
+-
+-</h1>
+-
+-<div className="grid gap-5 mt-10">
+-
+-<input
+-
+-placeholder="Campaign Name"
+-
+-className="rounded-lg bg-slate-900 p-4"
+-
+-/>
+-
+-<input
+-
+-placeholder="Subject"
+-
+-className="rounded-lg bg-slate-900 p-4"
+-
+-/>
+-
+-<input
+-
+-type="datetime-local"
+-
+-className="rounded-lg bg-slate-900 p-4"
+-
+-/>
+-
+-<button
+-
+-className="rounded-lg bg-blue-600 p-4 font-bold"
+-
+->
+-
+-Schedule Campaign
+-
+-</button>
+-
+-</div>
+-
+-</main>
+-
+-);
++export const metadata = {
++  title: "Email Campaign Operations | Edunancial",
++};
+ 
++export default function EmailCampaignsPage() {
++  return <AdminCommunicationsHub mode="campaigns" />;
+ }
+merged
+  result 100644 1af9aefeadd1e7c7b0c1a2a3395d4d4ff299f68d src/app/admin/newsletters/page.tsx
+  our    100644 f0a0b01ec75559be564529233c6b022ba2e58a96 src/app/admin/newsletters/page.tsx
+@@ -1,45 +1,9 @@
++import AdminCommunicationsHub from "@/components/communications/AdminCommunicationsHub";
++
+ export const metadata = {
+-  title: "Edunancial News",
++  title: "Newsletter Framework | Edunancial",
+ };
+ 
+-export default function NewsPage() {
+-  return (
+-    <main className="min-h-screen bg-[#08101f] text-white">
+-
+-      <section className="mx-auto max-w-6xl px-6 py-24">
+-
+-        <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">
+-          NEWSROOM
+-        </p>
+-
+-        <h1 className="mt-6 text-6xl font-black">
+-          Latest News & Announcements
+-        </h1>
+-
+-        <div className="mt-20 space-y-8">
+-
+-          <div className="rounded-xl bg-slate-900 p-10">
+-            <h2 className="text-3xl font-black">
+-              Latest Announcements
+-            </h2>
+-          </div>
+-
+-          <div className="rounded-xl bg-slate-900 p-10">
+-            <h2 className="text-3xl font-black">
+-              Press Releases
+-            </h2>
+-          </div>
+-
+-          <div className="rounded-xl bg-slate-900 p-10">
+-            <h2 className="text-3xl font-black">
+-              New Courses
+-            </h2>
+-          </div>
+-
+-        </div>
+-
+-      </section>
+-
+-    </main>
+-  );
++export default function NewslettersPage() {
++  return <AdminCommunicationsHub mode="newsletters" />;
+ }
+changed in both
+  base   100644 78716f175f837378d88b8dfe4e9fe6f19314f022 src/app/admin/page.tsx
+  our    100644 e4b8e4387958008f9ca4275bbe7e04d866342345 src/app/admin/page.tsx
+  their  100644 83a6dc61c123a1b348b60096ac809ecbc9ab081b src/app/admin/page.tsx
+@@ -4,54 +4,77 @@
+   {
+     title: "Executive Dashboard",
+     href: "/admin/dashboard",
++    description: "Global operational metrics and leadership visibility.",
+   },
+   {
++<<<<<<< .our
+     title: "Digital Library",
+     href: "/admin/library",
+   },
+   {
+     title: "Book Management",
+     href: "/admin/books",
++|||||||
++    title: "Book Management",
++    href: "/admin/books",
++=======
++    title: "Communications Platform",
++    href: "/admin/communications",
++    description: "Campaigns, announcements, reminders, templates, and subscriber tools.",
++>>>>>>> .their
+   },
+   {
+-    title: "Course Management",
+-    href: "/admin/courses",
++    title: "Email Operations",
++    href: "/admin/email-campaigns",
++    description: "Email center with SMS hooks, campaign status, and reminder orchestration.",
+   },
+   {
+-    title: "Financial Terms",
+-    href: "/admin/terms",
++    title: "Newsletter Framework",
++    href: "/admin/newsletters",
++    description: "Editorial calendars, segmented issues, and accessibility-ready digests.",
+   },
+   {
+-    title: "Customers",
+-    href: "/admin/customers",
++    title: "Subscriber Intelligence",
++    href: "/admin/subscribers",
++    description: "Audience quality, opt-in visibility, and member alert prioritization.",
+   },
+   {
++<<<<<<< .our
+     title: "Regions",
+     href: "/admin/regional-management",
++|||||||
++    title: "Regions",
++    href: "/admin/regions",
++=======
++    title: "Book Management",
++    href: "/admin/books",
++    description: "Manage catalog publishing and supporting content assets.",
++>>>>>>> .their
+   },
+   {
+-    title: "Languages",
+-    href: "/admin/languages",
++    title: "Course Management",
++    href: "/admin/courses",
++    description: "Control learning experiences, sequencing, and related materials.",
+   },
+   {
+-    title: "KPI Center",
+-    href: "/admin/kpis",
++    title: "Customers",
++    href: "/admin/customers",
++    description: "Review customer records and account support workflows.",
+   },
+   {
+-    title: "System Settings",
+-    href: "/admin/settings",
++    title: "Memberships",
++    href: "/admin/memberships",
++    description: "Track member plans, benefits, and lifecycle changes.",
+   },
+ ];
+ 
+ export default function AdminPortal() {
+   return (
+     <main className="min-h-screen bg-[#08101f] text-white p-10">
+-      <h1 className="text-6xl font-black">
+-        ADMIN PORTAL
+-      </h1>
++      <h1 className="text-6xl font-black">ADMIN PORTAL</h1>
+ 
+-      <p className="mt-6 text-xl text-gray-300">
+-        Global Administration Console
++      <p className="mt-6 max-w-3xl text-xl text-gray-300">
++        Global administration console with a complete communications platform for member outreach and lifecycle messaging.
+       </p>
+ 
+       <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+@@ -61,9 +84,8 @@
+             href={module.href}
+             className="rounded-2xl border border-white/10 bg-[#101a2f] p-8 hover:border-blue-500"
+           >
+-            <h2 className="text-3xl font-black">
+-              {module.title}
+-            </h2>
++            <h2 className="text-3xl font-black">{module.title}</h2>
++            <p className="mt-4 text-sm text-slate-300">{module.description}</p>
+           </Link>
+         ))}
+       </div>
+merged
+  result 100644 5b4107c21cb398bc4ed2ddd8b2efd92a7dd065bd src/app/admin/subscribers/page.tsx
+  our    100644 d30d4570279c2b83cc20e9e7e95c81b2f7f012eb src/app/admin/subscribers/page.tsx
+@@ -1,45 +1,9 @@
+-export default function SubscribersPage(){
++import AdminCommunicationsHub from "@/components/communications/AdminCommunicationsHub";
+ 
+-return(
+-
+-<main className="min-h-screen bg-slate-950 text-white p-10">
+-
+-<h1 className="text-5xl font-black">
+-
+-Subscribers
+-
+-</h1>
+-
+-<div className="grid gap-4 mt-10">
+-
+-<input
+-
+-placeholder="Search"
+-
+-className="rounded-lg bg-slate-900 p-4"
+-
+-/>
+-
+-<button
+-
+-className="rounded-lg bg-green-600 p-4 font-bold"
+-
+->
+-
+-Export CSV
+-
+-</button>
+-
+-<div className="rounded-xl bg-slate-900 p-8">
+-
+-Subscriber database will appear here.
+-
+-</div>
+-
+-</div>
+-
+-</main>
+-
+-);
++export const metadata = {
++  title: "Subscriber Intelligence | Edunancial",
++};
+ 
++export default function SubscribersPage() {
++  return <AdminCommunicationsHub mode="subscribers" />;
+ }
+changed in both
+  base   100644 c0a4b68a379b8dcfeda7b563622b1836e0d3620e src/app/member/settings/page.tsx
+  our    100644 f163a9fe0e6def5b940c22f80680ef72f12dd559 src/app/member/settings/page.tsx
+  their  100644 28e6a01edc09e81b5d90e017976c85ce598c27d1 src/app/member/settings/page.tsx
+@@ -1,10 +1,17 @@
++<<<<<<< .our
+ import InternationalPreferencesPanel from "@/components/international/InternationalPreferencesPanel";
+ 
++|||||||
++=======
++import MemberCommunicationsHub from "@/components/communications/MemberCommunicationsHub";
++
++>>>>>>> .their
+ export const metadata = {
+   title: "Member Settings | Edunancial",
+ };
+ 
+ export default function MemberSettingsPage() {
++<<<<<<< .our
+   return (
+     <main className="mx-auto max-w-7xl px-6 py-20">
+ 
+@@ -51,4 +58,50 @@
+ 
+     </main>
+   );
++|||||||
++  return (
++    <main className="mx-auto max-w-7xl px-6 py-20">
++
++      <div className="mb-12">
++
++        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++          Account Settings
++        </p>
++
++        <h1 className="mt-4 text-4xl font-bold">
++          Member Settings
++        </h1>
++
++        <p className="mt-6 max-w-3xl text-slate-300">
++          Manage your account, profile, notifications,
++          communication preferences, and membership settings.
++        </p>
++
++      </div>
++
++      <div className="grid gap-8 md:grid-cols-2">
++
++        <div className="rounded-xl border border-slate-700 bg-slate-900/60 p-8">
++          Personal Information
++        </div>
++
++        <div className="rounded-xl border border-slate-700 bg-slate-900/60 p-8">
++          Password & Security
++        </div>
++
++        <div className="rounded-xl border border-slate-700 bg-slate-900/60 p-8">
++          Communication Preferences
++        </div>
++
++        <div className="rounded-xl border border-slate-700 bg-slate-900/60 p-8">
++          Privacy Settings
++        </div>
++
++      </div>
++
++    </main>
++  );
++=======
++  return <MemberCommunicationsHub mode="settings" />;
++>>>>>>> .their
+ }
+merged
+  result 100644 33ee992c996377e3486befaa95ffe9b3fc7166c9 src/app/messages/page.tsx
+  our    100644 58e3f1afb76635f8e3631891b457280d5f05ef09 src/app/messages/page.tsx
+@@ -1,27 +1,11 @@
+-export default function Messages(){
++import MemberCommunicationsHub from "@/components/communications/MemberCommunicationsHub";
+ 
+-return(
+-
+-<main className="min-h-screen bg-white">
+-
+-<div className="max-w-6xl mx-auto p-10">
+-
+-<h1 className="text-5xl font-bold">
+-
+-Messages
+-
+-</h1>
+-
+-<div className="rounded-xl border p-8 mt-8">
+-
+-Inbox
+-
+-</div>
+-
+-</div>
+-
+-</main>
+-
+-);
++export const metadata = {
++  title: "Messaging Center | Edunancial",
++  description:
++    "Review communication templates, outreach channels, and message operations.",
++};
+ 
++export default function MessagesPage() {
++  return <MemberCommunicationsHub mode="messages" />;
+ }
+merged
+  result 100644 3dd992d683a921dac3ca77ac3aa6cf9a09089c57 src/app/notifications/page.tsx
+  our    100644 35ad54ccdd0a78daad3258f5d05f5454fabd4b0e src/app/notifications/page.tsx
+@@ -1,27 +1,11 @@
+-export default function Notifications(){
++import MemberCommunicationsHub from "@/components/communications/MemberCommunicationsHub";
+ 
+-return(
+-
+-<main className="min-h-screen bg-slate-100">
+-
+-<div className="max-w-6xl mx-auto p-10">
+-
+-<h1 className="text-5xl font-bold">
+-
+-Notifications
+-
+-</h1>
+-
+-<div className="mt-10 rounded-xl bg-white shadow p-8">
+-
+-No new notifications.
+-
+-</div>
+-
+-</div>
+-
+-</main>
+-
+-);
++export const metadata = {
++  title: "Notifications Center | Edunancial",
++  description:
++    "Track announcements, in-app notifications, reminders, and communication preferences.",
++};
+ 
++export default function NotificationsPage() {
++  return <MemberCommunicationsHub mode="notifications" />;
+ }
+changed in both
+  base   100644 25d05ac25f5dcd2079e423612d4a54681f0a0aa8 src/app/settings/page.tsx
+  our    100644 161167ac97e095ce5fcf13c312d316483ddd3718 src/app/settings/page.tsx
+  their  100644 8c426685dc1ed734029b863f1bf114c8af048c07 src/app/settings/page.tsx
+@@ -1,7 +1,14 @@
++<<<<<<< .our
+ import InternationalPreferencesPanel from "@/components/international/InternationalPreferencesPanel";
+ 
+ export default function Settings(){
++|||||||
++export default function Settings(){
++=======
++import MemberCommunicationsHub from "@/components/communications/MemberCommunicationsHub";
++>>>>>>> .their
+ 
++<<<<<<< .our
+ return(
+ 
+ <main className="min-h-screen bg-white">
+@@ -49,5 +56,64 @@
+ </main>
+ 
+ );
++|||||||
++return(
++
++<main className="min-h-screen bg-white">
++
++<div className="max-w-6xl mx-auto p-10">
++
++<h1 className="text-5xl font-bold">
++
++Account Settings
++
++</h1>
++
++<div className="grid gap-6 mt-10">
++
++<div className="rounded-xl border p-6">
++
++Profile
++
++</div>
++
++<div className="rounded-xl border p-6">
++
++Password & Security
++
++</div>
++
++<div className="rounded-xl border p-6">
++
++Notifications
++
++</div>
+ 
++<div className="rounded-xl border p-6">
++
++Language
++
++</div>
++
++<div className="rounded-xl border p-6">
++
++Privacy
++
++</div>
++
++</div>
++
++</div>
++
++</main>
++
++);
++=======
++export const metadata = {
++  title: "Account Settings | Edunancial",
++};
++>>>>>>> .their
++
++export default function SettingsPage() {
++  return <MemberCommunicationsHub mode="settings" />;
+ }
+added in remote
+  their  100644 7a37f29e9b6e4c3d801c8c2c941b07bf421a4299 src/components/communications/AdminCommunicationsHub.tsx
+@@ -0,0 +1,258 @@
++import Link from "next/link";
++import {
++  campaigns,
++  channelHealth,
++  communicationMetrics,
++  memberAlerts,
++  messageTemplates,
++  newsletterIssues,
++  outreachActions,
++  preferenceGroups,
++  reminderWorkflows,
++  smsHooks,
++  subscribers,
++} from "@/lib/communications/platform";
++import {
++  ActionGrid,
++  AlertGrid,
++  ChannelGrid,
++  MetricGrid,
++  NewsletterGrid,
++  PreferenceGroups,
++  SectionHeader,
++  SmsHookTable,
++  SubscriberTable,
++  TemplateGrid,
++} from "@/components/communications/CommunicationBlocks";
++
++export default function AdminCommunicationsHub({
++  mode,
++}: {
++  mode: "overview" | "campaigns" | "newsletters" | "subscribers";
++}) {
++  const heading =
++    mode === "campaigns"
++      ? "Email + SMS operations"
++      : mode === "newsletters"
++        ? "Newsletter framework"
++        : mode === "subscribers"
++          ? "Subscriber intelligence"
++          : "Communications command center";
++
++  const description =
++    mode === "campaigns"
++      ? "Coordinate announcement sends, template governance, SMS fallback hooks, and reminder orchestration from one operational workspace."
++      : mode === "newsletters"
++        ? "Plan editorial calendars, segmented digests, and accessible mobile-first issues without leaving the admin console."
++        : mode === "subscribers"
++          ? "Review audience quality, preference coverage, and member alerts before launching the next campaign."
++          : "A complete communications platform for announcements, in-app notifications, templates, reminders, newsletters, and preference-aware outreach.";
++
++  const subscriberRows = subscribers.map((subscriber) => ({
++    id: subscriber.id,
++    name: `${subscriber.firstName} ${subscriber.lastName}`,
++    location: `${subscriber.country} • ${subscriber.region}`,
++    source: subscriber.source,
++    status: subscriber.status,
++    value: `$${subscriber.lifetimeValue.toLocaleString("en-US")}`,
++  }));
++
++  return (
++    <main className="min-h-screen bg-[#08101f] text-white">
++      <section className="mx-auto max-w-7xl px-6 py-20">
++        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
++          <div className="max-w-4xl">
++            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++              Admin communication tools
++            </p>
++            <h1 className="mt-5 text-4xl font-black md:text-6xl">{heading}</h1>
++            <p className="mt-6 text-lg text-slate-300 md:text-xl">{description}</p>
++          </div>
++          <div className="flex flex-wrap gap-3">
++            <Link
++              href="/admin/communications"
++              className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
++            >
++              Communications hub
++            </Link>
++            <Link
++              href="/admin/newsletters"
++              className="rounded-xl border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/5"
++            >
++              Newsletters
++            </Link>
++          </div>
++        </div>
++
++        <div className="mt-12">
++          <MetricGrid items={communicationMetrics} />
++        </div>
++
++        <div className="mt-16 space-y-16">
++          {mode === "overview" ? (
++            <section aria-labelledby="actions-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Command center"
++                title="Fast paths for daily communication work"
++                description="Core admin tools are grouped around launch readiness, subscriber review, and preference-aware member support."
++              />
++              <ActionGrid items={outreachActions} />
++            </section>
++          ) : null}
++
++          <section aria-labelledby="campaigns-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Email notification center"
++              title="Campaign scheduling and lifecycle coverage"
++              description="Campaign cards keep send status, conversion context, and audience size visible so administrators can launch the right message with confidence."
++            />
++            <div className="grid gap-4 xl:grid-cols-3">
++              {campaigns.map((campaign) => (
++                <article
++                  key={campaign.id}
++                  className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++                >
++                  <div className="flex items-center justify-between gap-3">
++                    <h3 className="text-xl font-bold text-white">{campaign.name}</h3>
++                    <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold capitalize text-blue-200">
++                      {campaign.status}
++                    </span>
++                  </div>
++                  <p className="mt-3 text-sm font-semibold text-blue-200">{campaign.subject}</p>
++                  <dl className="mt-5 space-y-2 text-sm text-slate-300">
++                    <div className="flex justify-between gap-4">
++                      <dt>Audience</dt>
++                      <dd className="font-semibold text-white">
++                        {campaign.subscribers.toLocaleString("en-US")}
++                      </dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Opens / Clicks</dt>
++                      <dd className="font-semibold text-white">
++                        {campaign.opens}% / {campaign.clicks}%
++                      </dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Conversions</dt>
++                      <dd className="font-semibold text-white">{campaign.conversions}%</dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Revenue</dt>
++                      <dd className="font-semibold text-white">
++                        ${campaign.revenue.toLocaleString("en-US")}
++                      </dd>
++                    </div>
++                  </dl>
++                </article>
++              ))}
++            </div>
++          </section>
++
++          <section aria-labelledby="sms-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="SMS notification hooks"
++              title="Fallback paths for high-signal moments"
++              description="SMS hooks are documented alongside their destinations so operators can audit escalation rules and preserve consent-aware delivery."
++            />
++            <SmsHookTable items={smsHooks} />
++          </section>
++
++          <section aria-labelledby="templates-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Messaging templates"
++              title="Shared content building blocks"
++              description="Templates cover reminder emails, urgent SMS copy, and newsletter layouts while remaining readable, short, and reusable."
++            />
++            <TemplateGrid items={messageTemplates} />
++          </section>
++
++          {mode !== "campaigns" ? (
++            <section aria-labelledby="newsletters-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Newsletter framework"
++                title="Editorial calendar with segmented delivery"
++                description="Each issue documents its audience, timing, and goal so the newsletter program can scale without duplicating work."
++              />
++              <NewsletterGrid items={newsletterIssues} />
++            </section>
++          ) : null}
++
++          <section aria-labelledby="reminders-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Reminder engine"
++              title="Automations spanning email, SMS, and in-app"
++              description="Reminder workflows are visible to administrators so launches, renewals, and dormant learners all receive the right follow-up."
++            />
++            <div className="grid gap-4 lg:grid-cols-3">
++              {reminderWorkflows.map((workflow) => (
++                <article
++                  key={workflow.title}
++                  className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++                >
++                  <h3 className="text-xl font-bold text-white">{workflow.title}</h3>
++                  <p className="mt-3 text-sm text-slate-300">{workflow.message}</p>
++                  <dl className="mt-5 space-y-2 text-sm text-slate-300">
++                    <div className="flex justify-between gap-4">
++                      <dt>Cadence</dt>
++                      <dd className="font-semibold text-white">{workflow.cadence}</dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Channel</dt>
++                      <dd className="font-semibold text-white">{workflow.channel}</dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Audience</dt>
++                      <dd className="text-right font-semibold text-white">{workflow.audience}</dd>
++                    </div>
++                  </dl>
++                </article>
++              ))}
++            </div>
++          </section>
++
++          {mode === "subscribers" || mode === "overview" ? (
++            <section aria-labelledby="subscribers-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Subscriber registry"
++                title="Audience quality and lifecycle visibility"
++                description="Subscriber snapshots make it easier to export, segment, and prioritize high-value members before sending the next outreach sequence."
++              />
++              <SubscriberTable rows={subscriberRows} />
++            </section>
++          ) : null}
++
++          {mode === "subscribers" || mode === "overview" ? (
++            <section aria-labelledby="alerts-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Member alerts"
++                title="Who needs attention before the next send"
++                description="Alert visibility helps administrators catch members at risk before they churn or miss critical milestones."
++              />
++              <AlertGrid items={memberAlerts} />
++            </section>
++          ) : null}
++
++          <section aria-labelledby="preferences-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Preference management"
++              title="Consent-aware communication controls"
++              description="Admin and member settings share the same preference model so every campaign respects channel permissions and delivery cadence."
++            />
++            <PreferenceGroups items={preferenceGroups} />
++          </section>
++
++          {mode === "overview" || mode === "campaigns" ? (
++            <section aria-labelledby="channels-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Operational status"
++                title="Channel readiness across the platform"
++                description="Health cards summarize throughput, status, and operating detail for email, SMS, in-app, and newsletter delivery."
++              />
++              <ChannelGrid items={channelHealth} />
++            </section>
++          ) : null}
++        </div>
++      </section>
++    </main>
++  );
++}
+added in remote
+  their  100644 ca2a4dd0d39b669a3ac0f4848ebf21c86228778d src/components/communications/CommunicationBlocks.tsx
+@@ -0,0 +1,390 @@
++import Link from "next/link";
++import type {
++  AnnouncementItem,
++  ChannelHealth,
++  CommunicationMetric,
++  MemberAlert,
++  MessageTemplate,
++  NewsletterIssue,
++  OutreachAction,
++  PreferenceGroup,
++  SmsHook,
++} from "@/lib/communications/platform";
++import type { Notification } from "@/types/notifications";
++
++export function SectionHeader({
++  eyebrow,
++  title,
++  description,
++}: {
++  eyebrow: string;
++  title: string;
++  description: string;
++}) {
++  return (
++    <div className="max-w-3xl">
++      <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++        {eyebrow}
++      </p>
++      <h2 className="mt-4 text-3xl font-black text-white md:text-4xl">{title}</h2>
++      <p className="mt-4 text-base text-slate-300 md:text-lg">{description}</p>
++    </div>
++  );
++}
++
++export function MetricGrid({ items }: { items: CommunicationMetric[] }) {
++  return (
++    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
++      {items.map((item) => (
++        <article
++          key={item.label}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <p className="text-sm uppercase tracking-[0.25em] text-slate-400">{item.label}</p>
++          <p className="mt-4 text-4xl font-black text-white">{item.value}</p>
++          <p className="mt-3 text-sm text-slate-300">{item.detail}</p>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function AnnouncementCards({ items }: { items: AnnouncementItem[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-3">
++      {items.map((item) => (
++        <article
++          key={item.id}
++          className="flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex flex-wrap items-center gap-3 text-sm text-slate-300">
++            <StatusBadge label={item.priority} />
++            <span>{item.audience}</span>
++            <span aria-hidden="true">•</span>
++            <span>{item.window}</span>
++          </div>
++          <h3 className="mt-4 text-2xl font-bold text-white">{item.title}</h3>
++          <p className="mt-3 flex-1 text-sm text-slate-300">{item.summary}</p>
++          <Link
++            href={item.href}
++            className="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-4 py-3 text-sm font-semibold text-white hover:bg-blue-500"
++          >
++            {item.callToAction}
++          </Link>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function ChannelGrid({ items }: { items: ChannelHealth[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-2">
++      {items.map((item) => (
++        <article
++          key={item.name}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex flex-wrap items-center justify-between gap-3">
++            <h3 className="text-xl font-bold text-white">{item.name}</h3>
++            <StatusBadge label={item.status} />
++          </div>
++          <p className="mt-4 text-sm uppercase tracking-[0.25em] text-slate-400">
++            {item.type} • {item.throughput}
++          </p>
++          <p className="mt-3 text-sm text-slate-300">{item.detail}</p>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function NotificationFeed({ items }: { items: Notification[] }) {
++  return (
++    <div className="space-y-4">
++      {items.map((item) => (
++        <article
++          key={item.id}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex flex-wrap items-start justify-between gap-4">
++            <div>
++              <div className="flex flex-wrap items-center gap-3 text-sm text-slate-300">
++                <StatusBadge label={item.priority} />
++                <span>{item.category}</span>
++                <span aria-hidden="true">•</span>
++                <span>{item.channel}</span>
++              </div>
++              <h3 className="mt-4 text-xl font-bold text-white">{item.title}</h3>
++              <p className="mt-3 text-sm text-slate-300">{item.message}</p>
++            </div>
++            <div className="text-right text-sm text-slate-400">
++              <p>{new Date(item.createdAt).toLocaleString("en-US", {
++                month: "short",
++                day: "numeric",
++                hour: "numeric",
++                minute: "2-digit",
++              })}</p>
++              <p className="mt-2 font-semibold text-white">
++                {item.read ? "Read" : "Unread"}
++              </p>
++            </div>
++          </div>
++          {item.action ? (
++            <Link
++              href={item.action.href}
++              className="mt-5 inline-flex rounded-xl border border-blue-400 px-4 py-2 text-sm font-semibold text-blue-200 hover:bg-blue-500/10"
++            >
++              {item.action.label}
++            </Link>
++          ) : null}
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function AlertGrid({ items }: { items: MemberAlert[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-3">
++      {items.map((item) => (
++        <article
++          key={item.id}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex items-center justify-between gap-3">
++            <h3 className="text-lg font-bold text-white">{item.member}</h3>
++            <StatusBadge label={item.severity} />
++          </div>
++          <p className="mt-4 text-sm text-slate-300">{item.trigger}</p>
++          <dl className="mt-5 space-y-2 text-sm text-slate-300">
++            <div className="flex justify-between gap-4">
++              <dt>Channel</dt>
++              <dd className="font-semibold text-white">{item.channel}</dd>
++            </div>
++            <div className="flex justify-between gap-4">
++              <dt>Status</dt>
++              <dd className="text-right font-semibold text-white">{item.status}</dd>
++            </div>
++          </dl>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function PreferenceGroups({ items }: { items: PreferenceGroup[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-3">
++      {items.map((group) => (
++        <article
++          key={group.title}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <h3 className="text-xl font-bold text-white">{group.title}</h3>
++          <p className="mt-3 text-sm text-slate-300">{group.description}</p>
++          <ul className="mt-6 space-y-3">
++            {group.items.map((item) => (
++              <li
++                key={item.label}
++                className="rounded-xl border border-white/10 bg-slate-950/70 p-4"
++              >
++                <div className="flex items-start justify-between gap-4">
++                  <div>
++                    <p className="font-semibold text-white">{item.label}</p>
++                    <p className="mt-1 text-sm text-slate-400">
++                      {item.channel} • {item.cadence}
++                    </p>
++                  </div>
++                  <span
++                    className={`rounded-full px-3 py-1 text-xs font-semibold ${
++                      item.enabled
++                        ? "bg-emerald-500/15 text-emerald-200"
++                        : "bg-slate-700 text-slate-200"
++                    }`}
++                  >
++                    {item.enabled ? "On" : "Off"}
++                  </span>
++                </div>
++              </li>
++            ))}
++          </ul>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function TemplateGrid({ items }: { items: MessageTemplate[] }) {
++  return (
++    <div className="grid gap-4 xl:grid-cols-3">
++      {items.map((item) => (
++        <article
++          key={item.id}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex items-center justify-between gap-3">
++            <h3 className="text-xl font-bold text-white">{item.name}</h3>
++            <StatusBadge label={item.channel} />
++          </div>
++          <p className="mt-3 text-sm font-semibold text-blue-200">{item.subject}</p>
++          <p className="mt-3 text-sm text-slate-300">{item.description}</p>
++          <dl className="mt-5 space-y-2 text-sm text-slate-300">
++            <div className="flex justify-between gap-4">
++              <dt>Owner</dt>
++              <dd className="font-semibold text-white">{item.owner}</dd>
++            </div>
++            <div>
++              <dt className="text-slate-400">Variables</dt>
++              <dd className="mt-2 flex flex-wrap gap-2">
++                {item.variables.map((variable) => (
++                  <span
++                    key={variable}
++                    className="rounded-full bg-slate-800 px-3 py-1 text-xs text-slate-200"
++                  >
++                    {variable}
++                  </span>
++                ))}
++              </dd>
++            </div>
++          </dl>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function NewsletterGrid({ items }: { items: NewsletterIssue[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-3">
++      {items.map((item) => (
++        <article
++          key={item.id}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++        >
++          <div className="flex items-center justify-between gap-3">
++            <h3 className="text-xl font-bold text-white">{item.title}</h3>
++            <StatusBadge label={item.status} />
++          </div>
++          <p className="mt-3 text-sm text-slate-300">{item.goal}</p>
++          <dl className="mt-5 space-y-2 text-sm text-slate-300">
++            <div className="flex justify-between gap-4">
++              <dt>Audience</dt>
++              <dd className="text-right font-semibold text-white">{item.audience}</dd>
++            </div>
++            <div className="flex justify-between gap-4">
++              <dt>Send window</dt>
++              <dd className="text-right font-semibold text-white">{item.sendWindow}</dd>
++            </div>
++          </dl>
++        </article>
++      ))}
++    </div>
++  );
++}
++
++export function SmsHookTable({ items }: { items: SmsHook[] }) {
++  return (
++    <div className="overflow-x-auto rounded-2xl border border-white/10 bg-slate-900/80">
++      <table className="min-w-full divide-y divide-white/10 text-left text-sm text-slate-300">
++        <thead className="bg-slate-950/70 text-xs uppercase tracking-[0.25em] text-slate-400">
++          <tr>
++            <th className="px-4 py-4">Event</th>
++            <th className="px-4 py-4">Destination</th>
++            <th className="px-4 py-4">Status</th>
++            <th className="px-4 py-4">Purpose</th>
++          </tr>
++        </thead>
++        <tbody className="divide-y divide-white/10">
++          {items.map((item) => (
++            <tr key={item.id}>
++              <td className="px-4 py-4 font-semibold text-white">{item.event}</td>
++              <td className="px-4 py-4 font-mono text-xs text-blue-200">{item.destination}</td>
++              <td className="px-4 py-4">
++                <StatusBadge label={item.status} />
++              </td>
++              <td className="px-4 py-4">{item.description}</td>
++            </tr>
++          ))}
++        </tbody>
++      </table>
++    </div>
++  );
++}
++
++export function SubscriberTable({
++  rows,
++}: {
++  rows: Array<{
++    id: string;
++    name: string;
++    location: string;
++    source: string;
++    status: string;
++    value: string;
++  }>;
++}) {
++  return (
++    <div className="overflow-x-auto rounded-2xl border border-white/10 bg-slate-900/80">
++      <table className="min-w-full divide-y divide-white/10 text-left text-sm text-slate-300">
++        <thead className="bg-slate-950/70 text-xs uppercase tracking-[0.25em] text-slate-400">
++          <tr>
++            <th className="px-4 py-4">Member</th>
++            <th className="px-4 py-4">Location</th>
++            <th className="px-4 py-4">Source</th>
++            <th className="px-4 py-4">Status</th>
++            <th className="px-4 py-4">LTV</th>
++          </tr>
++        </thead>
++        <tbody className="divide-y divide-white/10">
++          {rows.map((row) => (
++            <tr key={row.id}>
++              <td className="px-4 py-4 font-semibold text-white">{row.name}</td>
++              <td className="px-4 py-4">{row.location}</td>
++              <td className="px-4 py-4">{row.source}</td>
++              <td className="px-4 py-4">
++                <StatusBadge label={row.status} />
++              </td>
++              <td className="px-4 py-4 text-white">{row.value}</td>
++            </tr>
++          ))}
++        </tbody>
++      </table>
++    </div>
++  );
++}
++
++export function ActionGrid({ items }: { items: OutreachAction[] }) {
++  return (
++    <div className="grid gap-4 lg:grid-cols-3">
++      {items.map((item) => (
++        <Link
++          key={item.title}
++          href={item.href}
++          className="rounded-2xl border border-white/10 bg-slate-900/80 p-6 hover:border-blue-400"
++        >
++          <h3 className="text-xl font-bold text-white">{item.title}</h3>
++          <p className="mt-3 text-sm text-slate-300">{item.description}</p>
++        </Link>
++      ))}
++    </div>
++  );
++}
++
++function StatusBadge({ label }: { label: string }) {
++  const tone = label.toLowerCase();
++  const className =
++    tone === "critical" || tone === "fallback"
++      ? "bg-red-500/15 text-red-200"
++      : tone === "high" || tone === "monitoring" || tone === "queued"
++        ? "bg-amber-500/15 text-amber-200"
++        : tone === "healthy" || tone === "live" || tone === "scheduled" || tone === "ready"
++          ? "bg-emerald-500/15 text-emerald-200"
++          : "bg-blue-500/15 text-blue-200";
++
++  return (
++    <span className={`rounded-full px-3 py-1 text-xs font-semibold capitalize ${className}`}>
++      {label}
++    </span>
++  );
++}
+added in remote
+  their  100644 53652c57571db7f81d2e02dddd4166791b83f48f src/components/communications/MemberCommunicationsHub.tsx
+@@ -0,0 +1,181 @@
++import Link from "next/link";
++import {
++  announcements,
++  channelHealth,
++  communicationMetrics,
++  getUnreadNotificationCount,
++  inAppNotifications,
++  memberAlerts,
++  messageTemplates,
++  preferenceGroups,
++  reminderWorkflows,
++} from "@/lib/communications/platform";
++import {
++  AlertGrid,
++  AnnouncementCards,
++  ChannelGrid,
++  MetricGrid,
++  NotificationFeed,
++  PreferenceGroups,
++  SectionHeader,
++  TemplateGrid,
++} from "@/components/communications/CommunicationBlocks";
++
++export default function MemberCommunicationsHub({
++  mode,
++}: {
++  mode: "notifications" | "messages" | "settings";
++}) {
++  const heroDescription =
++    mode === "settings"
++      ? "Manage every channel, cadence, and announcement preference from a single responsive accessibility-first workspace."
++      : mode === "messages"
++        ? "Review reusable messaging templates, recent delivery activity, and the channels that keep members engaged."
++        : "Stay on top of announcements, in-app notifications, reminder automation, and member alerts without leaving your dashboard.";
++
++  const headline =
++    mode === "settings"
++      ? "Communication preferences"
++      : mode === "messages"
++        ? "Messaging center"
++        : "Notifications center";
++
++  return (
++    <main className="min-h-screen bg-[#08101f] text-white">
++      <section className="mx-auto max-w-7xl px-6 py-20">
++        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
++          <div className="max-w-4xl">
++            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
++              Communications Platform
++            </p>
++            <h1 className="mt-5 text-4xl font-black md:text-6xl">{headline}</h1>
++            <p className="mt-6 text-lg text-slate-300 md:text-xl">{heroDescription}</p>
++          </div>
++          <div className="rounded-2xl border border-blue-500/30 bg-blue-500/10 p-6 text-left lg:max-w-sm">
++            <p className="text-sm uppercase tracking-[0.3em] text-blue-200">Unread items</p>
++            <p className="mt-3 text-5xl font-black text-white">{getUnreadNotificationCount()}</p>
++            <p className="mt-3 text-sm text-slate-300">
++              Includes announcements, reminder escalations, and member alerts waiting for action.
++            </p>
++          </div>
++        </div>
++
++        <div className="mt-12">
++          <MetricGrid items={communicationMetrics} />
++        </div>
++
++        <div className="mt-16 space-y-16">
++          <section aria-labelledby="announcements-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Announcement system"
++              title="Pinned updates for every audience"
++              description="Announcement publishing now aligns homepage messaging, member alerts, and newsletter recaps so important updates remain visible on mobile and desktop."
++            />
++            <AnnouncementCards items={announcements} />
++          </section>
++
++          {mode !== "settings" ? (
++            <section aria-labelledby="notifications-feed-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="In-app notification center"
++                title="Actionable alerts instead of empty placeholders"
++                description="Each notification tracks urgency, category, preferred channel, and a next-step action so members can move directly into the right workflow."
++              />
++              <NotificationFeed items={inAppNotifications} />
++            </section>
++          ) : null}
++
++          <section aria-labelledby="alerts-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Member alerts"
++              title="Escalations visible across the platform"
++              description="Alert cards surface expiring memberships, unfinished assessments, and unread executive updates before they become support issues."
++            />
++            <AlertGrid items={memberAlerts} />
++          </section>
++
++          <section aria-labelledby="reminder-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Reminder engine"
++              title="Automations tuned to lifecycle moments"
++              description="Reminder rules cover daily learning streaks, renewal protection, and re-engagement cadences while respecting channel preferences."
++            />
++            <div className="grid gap-4 lg:grid-cols-3">
++              {reminderWorkflows.map((workflow) => (
++                <article
++                  key={workflow.title}
++                  className="rounded-2xl border border-white/10 bg-slate-900/80 p-6"
++                >
++                  <div className="flex items-center justify-between gap-3">
++                    <h3 className="text-xl font-bold text-white">{workflow.title}</h3>
++                    <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold text-blue-200">
++                      {workflow.channel}
++                    </span>
++                  </div>
++                  <p className="mt-3 text-sm text-slate-300">{workflow.message}</p>
++                  <dl className="mt-5 space-y-2 text-sm text-slate-300">
++                    <div className="flex justify-between gap-4">
++                      <dt>Cadence</dt>
++                      <dd className="font-semibold text-white">{workflow.cadence}</dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Audience</dt>
++                      <dd className="text-right font-semibold text-white">{workflow.audience}</dd>
++                    </div>
++                    <div className="flex justify-between gap-4">
++                      <dt>Schedule</dt>
++                      <dd className="text-right font-semibold text-white">{workflow.scheduledFor}</dd>
++                    </div>
++                  </dl>
++                </article>
++              ))}
++            </div>
++          </section>
++
++          <section aria-labelledby="preferences-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Preference management"
++              title="Channel controls members can actually understand"
++              description="Preference groups bundle consent, cadence, and accessibility-safe delivery expectations into one place for members and administrators."
++            />
++            <PreferenceGroups items={preferenceGroups} />
++            <div className="flex flex-wrap gap-4">
++              <Link
++                href="/member/settings"
++                className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
++              >
++                Open member settings
++              </Link>
++              <Link
++                href="/settings"
++                className="rounded-xl border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/5"
++              >
++                Review account settings
++              </Link>
++            </div>
++          </section>
++
++          {mode !== "notifications" ? (
++            <section aria-labelledby="templates-heading" className="space-y-8">
++              <SectionHeader
++                eyebrow="Messaging templates"
++                title="Reusable copy across email, SMS, and newsletter sends"
++                description="Templates stay concise, scannable, and accessible while preserving a consistent voice across every delivery channel."
++              />
++              <TemplateGrid items={messageTemplates} />
++            </section>
++          ) : null}
++
++          <section aria-labelledby="channels-heading" className="space-y-8">
++            <SectionHeader
++              eyebrow="Channel health"
++              title="Responsive delivery with accessibility in mind"
++              description="The platform keeps every communication mode visible, from SMS fallbacks to newsletter editions designed for readable mobile layouts."
++            />
++            <ChannelGrid items={channelHealth} />
++          </section>
++        </div>
++      </section>
++    </main>
++  );
++}
+merged
+  result 100644 e0d9401437048d58e301913ed9d2ee62a618dbba src/components/layout/AnnouncementBar.tsx
+  our    100644 6e7b7f5729d2e681db2f2a35df1c3ebf2e5e8bc9 src/components/layout/AnnouncementBar.tsx
+@@ -1,14 +1,20 @@
+-export default function AnnouncementBar() {
+-
+-return(
+-
+-<div className="bg-blue-700 py-3 text-center font-bold text-white">
++import Link from "next/link";
++import { getActiveAnnouncement } from "@/lib/communications/platform";
+ 
+-Financial literacy provides the foundation.
+-Financial competency is built through disciplined action.
+-
+-</div>
+-
+-);
++export default function AnnouncementBar() {
++  const announcement = getActiveAnnouncement();
+ 
++  return (
++    <div className="bg-blue-700 py-3 text-center font-bold text-white">
++      <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-2 px-4 text-sm md:flex-row md:text-base">
++        <span>{announcement.title}</span>
++        <span className="hidden md:inline" aria-hidden="true">
++          •
++        </span>
++        <Link href={announcement.href} className="underline underline-offset-4 hover:text-blue-100">
++          {announcement.callToAction}
++        </Link>
++      </div>
++    </div>
++  );
+ }
+added in remote
+  their  100644 c59ae8fa909d23e1e2e9da0fba2a1ed56cb3eed2 src/lib/communications/platform.ts
+@@ -0,0 +1,530 @@
++import type { EmailCampaign } from "@/lib/emailCampaignTypes";
++import type { EmailSubscriber } from "@/lib/emailSubscriberTypes";
++import type { EmailTemplate } from "@/lib/emailTemplateTypes";
++import type { LearningReminder } from "@/lib/learningReminderTypes";
++import type {
++  Notification,
++  NotificationChannel,
++  NotificationPriority,
++} from "@/types/notifications";
++
++export interface CommunicationMetric {
++  label: string;
++  value: string;
++  detail: string;
++}
++
++export interface ChannelHealth {
++  name: string;
++  type: NotificationChannel;
++  status: "Healthy" | "Monitoring" | "Scheduled";
++  throughput: string;
++  detail: string;
++}
++
++export interface AnnouncementItem {
++  id: string;
++  title: string;
++  audience: string;
++  window: string;
++  priority: NotificationPriority;
++  summary: string;
++  callToAction: string;
++  href: string;
++}
++
++export interface MessageTemplate extends EmailTemplate {
++  channel: NotificationChannel;
++  description: string;
++  variables: string[];
++  owner: string;
++}
++
++export interface MemberAlert {
++  id: string;
++  member: string;
++  trigger: string;
++  severity: NotificationPriority;
++  channel: NotificationChannel;
++  status: string;
++}
++
++export interface CommunicationReminder extends LearningReminder {
++  cadence: string;
++  audience: string;
++  channel: NotificationChannel;
++}
++
++export interface PreferenceGroup {
++  title: string;
++  description: string;
++  items: Array<{
++    label: string;
++    channel: NotificationChannel;
++    enabled: boolean;
++    cadence: string;
++  }>;
++}
++
++export interface SmsHook {
++  id: string;
++  event: string;
++  destination: string;
++  status: "Live" | "Queued" | "Fallback";
++  description: string;
++}
++
++export interface NewsletterIssue {
++  id: string;
++  title: string;
++  audience: string;
++  sendWindow: string;
++  status: "Draft" | "Ready" | "Scheduled";
++  goal: string;
++}
++
++export interface OutreachAction {
++  title: string;
++  description: string;
++  href: string;
++}
++
++export const communicationMetrics: CommunicationMetric[] = [
++  {
++    label: "Reachable members",
++    value: "12.4K",
++    detail: "Unified audience across email, SMS, and in-app channels.",
++  },
++  {
++    label: "Active automations",
++    value: "18",
++    detail: "Reminder and renewal journeys running every day.",
++  },
++  {
++    label: "Weekly opt-in rate",
++    value: "92%",
++    detail: "Preference management keeps channel consent visible.",
++  },
++  {
++    label: "Announcements scheduled",
++    value: "6",
++    detail: "Global, member, and executive announcements queued.",
++  },
++];
++
++export const channelHealth: ChannelHealth[] = [
++  {
++    name: "Email notification center",
++    type: "email",
++    status: "Healthy",
++    throughput: "6.4K / day",
++    detail: "Handles onboarding, billing, and campaign sends with template reuse.",
++  },
++  {
++    name: "SMS notification hooks",
++    type: "sms",
++    status: "Monitoring",
++    throughput: "1.1K / day",
++    detail: "Reserved for urgent reminders, expiring memberships, and event nudges.",
++  },
++  {
++    name: "In-app notification center",
++    type: "in-app",
++    status: "Healthy",
++    throughput: "Real-time",
++    detail: "Surfaces contextual alerts, unread actions, and announcement callouts.",
++  },
++  {
++    name: "Newsletter framework",
++    type: "newsletter",
++    status: "Scheduled",
++    throughput: "3 editions / month",
++    detail: "Supports segmented digests, accessibility review, and mobile-first copy.",
++  },
++];
++
++export const announcements: AnnouncementItem[] = [
++  {
++    id: "ann-1",
++    title: "Financial competency sprint starts Monday",
++    audience: "All members",
++    window: "Jul 15 - Jul 22",
++    priority: "high",
++    summary: "Launch week includes daily micro-lessons, one webinar, and achievement reminders.",
++    callToAction: "Reserve your spot",
++    href: "/events",
++  },
++  {
++    id: "ann-2",
++    title: "Executive briefing for enterprise cohorts",
++    audience: "Executive members",
++    window: "Jul 18",
++    priority: "medium",
++    summary: "A live overview of portfolio dashboards, growth metrics, and renewal planning.",
++    callToAction: "View dashboard",
++    href: "/executive",
++  },
++  {
++    id: "ann-3",
++    title: "Community office hours with mentors",
++    audience: "Community learners",
++    window: "Every Thursday",
++    priority: "low",
++    summary: "Weekly announcement stream ties member alerts to new mentor availability.",
++    callToAction: "Open community",
++    href: "/community",
++  },
++];
++
++export const inAppNotifications: Notification[] = [
++  {
++    id: "note-1",
++    userId: "member-101",
++    title: "Complete your course checkpoint",
++    message: "Section 4 is ready for review and your next badge unlocks after submission.",
++    category: "course",
++    priority: "high",
++    channel: "in-app",
++    read: false,
++    createdAt: "2026-07-09T03:15:00Z",
++    action: { label: "Resume lesson", href: "/courses" },
++  },
++  {
++    id: "note-2",
++    userId: "member-101",
++    title: "Newsletter preferences updated",
++    message: "Your monthly digest is now tailored to investing and business builder content.",
++    category: "membership",
++    priority: "medium",
++    channel: "email",
++    read: true,
++    createdAt: "2026-07-08T15:45:00Z",
++    action: { label: "Review settings", href: "/member/settings" },
++  },
++  {
++    id: "note-3",
++    userId: "member-101",
++    title: "Assessment reminder queued",
++    message: "A same-day SMS reminder will send if your assessment is still incomplete at 6 PM.",
++    category: "assessment",
++    priority: "medium",
++    channel: "sms",
++    read: false,
++    createdAt: "2026-07-08T11:00:00Z",
++    action: { label: "Start assessment", href: "/assessment" },
++  },
++  {
++    id: "note-4",
++    userId: "member-101",
++    title: "New announcement posted",
++    message: "This week’s sprint announcement includes a new webinar schedule and workbook links.",
++    category: "announcement",
++    priority: "low",
++    channel: "newsletter",
++    read: false,
++    createdAt: "2026-07-07T09:20:00Z",
++    action: { label: "Read announcement", href: "/notifications" },
++  },
++];
++
++export const messageTemplates: MessageTemplate[] = [
++  {
++    id: "tmpl-1",
++    name: "Course completion reminder",
++    subject: "Finish this week strong",
++    html: "<p>Complete your current lesson to unlock your next milestone.</p>",
++    text: "Complete your current lesson to unlock your next milestone.",
++    language: "English",
++    active: true,
++    channel: "email",
++    description: "Reusable reminder for members who pause during a lesson sequence.",
++    variables: ["firstName", "courseName", "resumeUrl"],
++    owner: "Learning Operations",
++  },
++  {
++    id: "tmpl-2",
++    name: "Renewal countdown",
++    subject: "Membership renewal in 3 days",
++    html: "<p>Your plan renews soon. Review benefits and billing before your renewal date.</p>",
++    text: "Your plan renews soon. Review benefits and billing before your renewal date.",
++    language: "English",
++    active: true,
++    channel: "sms",
++    description: "Short-form member alert mirrored to SMS and in-app delivery.",
++    variables: ["firstName", "renewalDate", "billingUrl"],
++    owner: "Membership Team",
++  },
++  {
++    id: "tmpl-3",
++    name: "Weekly digest",
++    subject: "Your Edunancial highlights",
++    html: "<p>See your latest progress, new lessons, and announcement highlights.</p>",
++    text: "See your latest progress, new lessons, and announcement highlights.",
++    language: "English",
++    active: true,
++    channel: "newsletter",
++    description: "Accessible digest template with short sections and stacked mobile layout.",
++    variables: ["firstName", "highlights", "announcementUrl"],
++    owner: "Content Studio",
++  },
++];
++
++export const memberAlerts: MemberAlert[] = [
++  {
++    id: "alert-1",
++    member: "Danielle Rivers",
++    trigger: "Assessment incomplete for 5 days",
++    severity: "high",
++    channel: "sms",
++    status: "Escalated to reminder engine",
++  },
++  {
++    id: "alert-2",
++    member: "Marcus Lee",
++    trigger: "Membership renews in 48 hours",
++    severity: "critical",
++    channel: "email",
++    status: "Awaiting billing confirmation",
++  },
++  {
++    id: "alert-3",
++    member: "Ava Thompson",
++    trigger: "Unread executive briefing announcement",
++    severity: "medium",
++    channel: "in-app",
++    status: "Visible in notification center",
++  },
++];
++
++export const reminderWorkflows: CommunicationReminder[] = [
++  {
++    userId: "member-101",
++    title: "Daily lesson continuation",
++    message: "Prompt members to resume unfinished learning paths before streaks expire.",
++    scheduledFor: "Every day at 6:00 PM",
++    completed: false,
++    cadence: "Daily",
++    audience: "Active learners",
++    channel: "in-app",
++  },
++  {
++    userId: "member-220",
++    title: "Renewal safeguard",
++    message: "Send email first, then SMS fallback for members approaching subscription renewal.",
++    scheduledFor: "72h and 24h before renewal",
++    completed: false,
++    cadence: "Lifecycle",
++    audience: "Paid members",
++    channel: "email",
++  },
++  {
++    userId: "member-401",
++    title: "Newsletter re-engagement",
++    message: "Re-introduce dormant readers to new content and community highlights.",
++    scheduledFor: "First business day each month",
++    completed: true,
++    cadence: "Monthly",
++    audience: "At-risk subscribers",
++    channel: "newsletter",
++  },
++];
++
++export const preferenceGroups: PreferenceGroup[] = [
++  {
++    title: "Learning updates",
++    description: "Course reminders, achievements, and study streak nudges.",
++    items: [
++      { label: "Email reminders", channel: "email", enabled: true, cadence: "Twice weekly" },
++      { label: "SMS escalations", channel: "sms", enabled: true, cadence: "Urgent only" },
++      { label: "In-app checkpoints", channel: "in-app", enabled: true, cadence: "Real-time" },
++    ],
++  },
++  {
++    title: "Membership & billing",
++    description: "Renewal notices, receipts, and plan changes.",
++    items: [
++      { label: "Billing confirmation", channel: "email", enabled: true, cadence: "Per event" },
++      { label: "Renewal fallback text", channel: "sms", enabled: true, cadence: "72h before renewal" },
++      { label: "Plan update banners", channel: "in-app", enabled: true, cadence: "As needed" },
++    ],
++  },
++  {
++    title: "Community & newsletter",
++    description: "Weekly digests, announcements, and office-hours invitations.",
++    items: [
++      { label: "Monthly newsletter", channel: "newsletter", enabled: true, cadence: "Monthly" },
++      { label: "Announcement recaps", channel: "email", enabled: true, cadence: "Weekly" },
++      { label: "Community reminders", channel: "in-app", enabled: false, cadence: "Paused" },
++    ],
++  },
++];
++
++export const smsHooks: SmsHook[] = [
++  {
++    id: "sms-1",
++    event: "renewal_due",
++    destination: "/api/communications/sms/renewal",
++    status: "Live",
++    description: "Delivers urgent renewal countdown texts when email remains unopened.",
++  },
++  {
++    id: "sms-2",
++    event: "assessment_deadline",
++    destination: "/api/communications/sms/assessment",
++    status: "Queued",
++    description: "Triggers for members who have not resumed assessments after two in-app nudges.",
++  },
++  {
++    id: "sms-3",
++    event: "event_checkin",
++    destination: "/api/communications/sms/events",
++    status: "Fallback",
++    description: "Supports same-day reminders for webinars and live cohort sessions.",
++  },
++];
++
++export const newsletterIssues: NewsletterIssue[] = [
++  {
++    id: "news-1",
++    title: "Wealth Builder Weekly",
++    audience: "All active members",
++    sendWindow: "Fridays at 8:00 AM",
++    status: "Scheduled",
++    goal: "Blend announcements, progress highlights, and next-step lessons.",
++  },
++  {
++    id: "news-2",
++    title: "Executive Portfolio Brief",
++    audience: "Executive cohort",
++    sendWindow: "Second Tuesday monthly",
++    status: "Ready",
++    goal: "Summarize KPI movements, alerts, and strategic recommendations.",
++  },
++  {
++    id: "news-3",
++    title: "Family Learning Roundup",
++    audience: "Family membership segment",
++    sendWindow: "First Monday monthly",
++    status: "Draft",
++    goal: "Promote family challenges, new lessons, and printable resources.",
++  },
++];
++
++export const outreachActions: OutreachAction[] = [
++  {
++    title: "Launch announcement",
++    description: "Publish a homepage announcement, queue email, and mirror the message in-app.",
++    href: "/notifications",
++  },
++  {
++    title: "Review subscribers",
++    description: "Check preference coverage, high-value segments, and newsletter readiness.",
++    href: "/admin/subscribers",
++  },
++  {
++    title: "Open member settings",
++    description: "Audit channel consent and accessibility-safe cadence for each member segment.",
++    href: "/member/settings",
++  },
++];
++
++export const campaigns: EmailCampaign[] = [
++  {
++    id: "cmp-1",
++    name: "Assessment completion sprint",
++    subject: "Finish your next milestone",
++    fromName: "Edunancial Learning Team",
++    replyTo: "support@edunancial.com",
++    scheduledDate: "2026-07-10T13:00:00Z",
++    status: "scheduled",
++    subscribers: 4200,
++    opens: 61,
++    clicks: 29,
++    conversions: 14,
++    revenue: 18000,
++  },
++  {
++    id: "cmp-2",
++    name: "Renewal protection journey",
++    subject: "Keep your membership active",
++    fromName: "Edunancial Membership",
++    replyTo: "billing@edunancial.com",
++    scheduledDate: "2026-07-11T15:30:00Z",
++    status: "sending",
++    subscribers: 980,
++    opens: 72,
++    clicks: 31,
++    conversions: 19,
++    revenue: 9200,
++  },
++  {
++    id: "cmp-3",
++    name: "Community office hours",
++    subject: "Meet your mentors this week",
++    fromName: "Edunancial Community",
++    replyTo: "community@edunancial.com",
++    scheduledDate: "2026-07-14T16:00:00Z",
++    status: "draft",
++    subscribers: 1850,
++    opens: 0,
++    clicks: 0,
++    conversions: 0,
++    revenue: 0,
++  },
++];
++
++export const subscribers: EmailSubscriber[] = [
++  {
++    id: "sub-1",
++    firstName: "Danielle",
++    lastName: "Rivers",
++    email: "danielle@example.com",
++    country: "United States",
++    region: "North America",
++    language: "English",
++    leadMagnet: "Assessment Guide",
++    source: "Member Dashboard",
++    subscribedAt: "2026-01-12",
++    status: "active",
++    lifetimeValue: 1200,
++    customerAcquisitionCost: 42,
++  },
++  {
++    id: "sub-2",
++    firstName: "Marcus",
++    lastName: "Lee",
++    email: "marcus@example.com",
++    country: "Canada",
++    region: "North America",
++    language: "English",
++    leadMagnet: "Executive Briefing",
++    source: "Newsletter Landing Page",
++    subscribedAt: "2026-02-08",
++    status: "active",
++    lifetimeValue: 3400,
++    customerAcquisitionCost: 68,
++  },
++  {
++    id: "sub-3",
++    firstName: "Ava",
++    lastName: "Thompson",
++    email: "ava@example.com",
++    country: "United Kingdom",
++    region: "Europe",
++    language: "English",
++    leadMagnet: "Family Learning Pack",
++    source: "Community Event",
++    subscribedAt: "2026-03-04",
++    status: "unsubscribed",
++    lifetimeValue: 640,
++    customerAcquisitionCost: 37,
++  },
++];
++
++export function getActiveAnnouncement() {
++  return announcements[0];
++}
++
++export function getUnreadNotificationCount() {
++  return inAppNotifications.filter((notification) => !notification.read).length;
++}
+merged
+  result 100644 8f9e833d5687c5cec5f800ae332a7a05636b70b0 src/types/notifications.ts
+  our    100644 1ef48c5d2d41fb16239cfe7d2b1a3daafd003d2f src/types/notifications.ts
+@@ -12,24 +12,30 @@
+   | "payment"
+   | "system"
+   | "ai"
+-  | "executive";
++  | "executive"
++  | "community"
++  | "announcement";
++
++export type NotificationChannel =
++  | "email"
++  | "sms"
++  | "in-app"
++  | "newsletter";
++
++export interface NotificationAction {
++  label: string;
++  href: string;
++}
+ 
+ export interface Notification {
+-
+   id: string;
+-
++  userId: string;
+   title: string;
+-
+   message: string;
+-
+   category: NotificationCategory;
+-
+   priority: NotificationPriority;
+-
++  channel: NotificationChannel;
+   read: boolean;
+-
+-  createdAt: Date;
+-
+-  actionUrl?: string;
+-
++  createdAt: string;
++  action?: NotificationAction;
+ }
