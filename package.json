@@ -14,7 +14,8 @@
     "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
     "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",
     "curriculum:test": "node --test scripts/curriculum/tests/curriculum.test.mjs",
-    "international:test": "node --experimental-specifier-resolution=node --test scripts/international/tests/preferences.test.ts"
+    "international:test": "node --experimental-specifier-resolution=node --test scripts/international/tests/preferences.test.ts",
+    "regionalization:test": "node --experimental-strip-types --test scripts/regionalization/tests/engine.test.ts"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",

@@ -23,7 +23,7 @@ const modules = [
   },
   {
     title: "Regions",
-    href: "/admin/regions",
+    href: "/admin/regional-management",
   },
   {
     title: "Languages",
