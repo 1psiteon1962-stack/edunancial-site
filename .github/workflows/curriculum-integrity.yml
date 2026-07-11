@@ -22,6 +22,9 @@ on:
       - 'package.json'
       - 'package-lock.json'
 
+permissions:
+  contents: read
+
 jobs:
   curriculum-integrity:
     runs-on: ubuntu-latest
