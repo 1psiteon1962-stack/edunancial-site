@@ -1,0 +1,32 @@
+{
+  "_version": "1.0",
+  "_generated": "2026-07-11T04:10:48.225Z",
+  "_note": "Records migration of legacy IDs to canonical IDs. Populated by curriculum:migrate-legacy.",
+  "searchedBranches": [
+    "main",
+    "copilot/1psiteon1962-stackcurriculum-management",
+    "origin/copilot/1psiteon1962-stackcurriculum-management"
+  ],
+  "searchedPatterns": [
+    "RED-L1-001 through RED-L1-010",
+    "RED-L1-MANIFEST",
+    "RED-L1-BATCH-VERIFICATION",
+    "WHITE-L1-001",
+    "BLUE-L1-001",
+    "red-01",
+    "white-01",
+    "blue-01"
+  ],
+  "findings": {
+    "RED-L1-001-through-RED-L1-010": "NOT FOUND in any branch or file as of 2026-07-11",
+    "RED-L1-MANIFEST": "NOT FOUND",
+    "RED-L1-BATCH-VERIFICATION": "NOT FOUND",
+    "WHITE-L1-001": "NOT FOUND",
+    "BLUE-L1-001": "NOT FOUND",
+    "red-01": "NOT FOUND",
+    "white-01": "NOT FOUND",
+    "blue-01": "NOT FOUND"
+  },
+  "migrationEntries": [],
+  "note": "Searched main branch and all accessible branches. No legacy curriculum assets with these IDs were discovered. The RED Level 1 batch manifest was referenced in a chat conversation but the actual lesson files (RED-L1-001 through RED-L1-010) have not been committed to the repository. When these files are provided, run `npm run curriculum:import -- <path>` to register them properly."
+}

@@ -1,0 +1,64 @@
+name: Curriculum Integrity
+
+on:
+  push:
+    paths:
+      - 'curriculum/**'
+      - 'content/curriculum/**'
+      - 'scripts/curriculum/**'
+      - 'docs/curriculum-management.md'
+      - 'examples/curriculum-package/**'
+      - '.github/workflows/curriculum-integrity.yml'
+      - 'package.json'
+      - 'package-lock.json'
+  pull_request:
+    paths:
+      - 'curriculum/**'
+      - 'content/curriculum/**'
+      - 'scripts/curriculum/**'
+      - 'docs/curriculum-management.md'
+      - 'examples/curriculum-package/**'
+      - '.github/workflows/curriculum-integrity.yml'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  curriculum-integrity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run curriculum unit tests
+        run: npm run curriculum:test
+
+      - name: Validate registered curriculum assets
+        run: npm run curriculum:validate
+
+      - name: Audit registry and filesystem
+        run: npm run curriculum:audit
+
+      - name: Regenerate inventory
+        run: npm run curriculum:inventory
+
+      - name: Ensure generated curriculum artifacts are committed
+        run: git diff --exit-code -- curriculum/inventory.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md
+
+      - name: Lint application
+        run: npm run lint
+
+      - name: Typecheck application
+        run: npx tsc --noEmit
+
+      - name: Build application
+        run: npm run build

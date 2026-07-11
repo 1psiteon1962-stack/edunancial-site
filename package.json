@@ -6,7 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "curriculum:import": "node scripts/curriculum/import.mjs",
+    "curriculum:validate": "node scripts/curriculum/validate.mjs",
+    "curriculum:audit": "node scripts/curriculum/audit.mjs",
+    "curriculum:locate": "node scripts/curriculum/locate.mjs",
+    "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
+    "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",
+    "curriculum:test": "node --test scripts/curriculum/tests/curriculum.test.mjs"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",

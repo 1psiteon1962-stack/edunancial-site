@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-07-11T04:10:09.788Z",
+  "totalAssets": 1,
+  "passed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "assetId": "RED-L1-001",
+      "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

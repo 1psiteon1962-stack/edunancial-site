@@ -1,0 +1,6 @@
+{
+  "_schema": "curriculum/schemas/ledger.schema.json",
+  "_version": "1.0",
+  "_note": "Append-only ingestion ledger. Each import/update/rejection is recorded here.",
+  "entries": []
+}

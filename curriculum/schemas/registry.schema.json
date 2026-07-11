@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum/schemas/registry.schema.json",
+  "title": "Curriculum Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_schema", "_version", "_generated", "_note", "tracks"],
+  "properties": {
+    "_schema": { "type": "string" },
+    "_version": { "type": "string" },
+    "_generated": { "type": "string", "format": "date-time" },
+    "_note": { "type": "string" },
+    "tracks": {
+      "type": "object",
+      "propertyNames": {
+        "enum": ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "name", "levels"],
+        "properties": {
+          "code": { "type": "string" },
+          "name": { "type": "string" },
+          "levels": {
+            "type": "object",
+            "patternProperties": {
+              "^[1-9]$": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["assets"],
+                "properties": {
+                  "assets": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "additionalProperties": true,
+                      "required": [
+                        "id",
+                        "type",
+                        "track",
+                        "trackName",
+                        "level",
+                        "path",
+                        "checksum",
+                        "status",
+                        "ingestionId",
+                        "importedAt",
+                        "validationPassed"
+                      ],
+                      "properties": {
+                        "id": { "type": "string" },
+                        "type": { "type": "string", "enum": ["lesson", "manifest", "batch-verification"] },
+                        "track": { "type": "string" },
+                        "trackName": { "type": "string" },
+                        "level": { "type": "integer", "minimum": 1, "maximum": 9 },
+                        "title": { "type": "string" },
+                        "version": { "type": "string" },
+                        "author": { "type": "string" },
+                        "date": { "type": "string" },
+                        "path": { "type": "string" },
+                        "checksum": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+                        "status": { "type": "string" },
+                        "ingestionId": { "type": "string" },
+                        "importedAt": { "type": "string", "format": "date-time" },
+                        "validationPassed": { "type": "boolean" },
+                        "warnings": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

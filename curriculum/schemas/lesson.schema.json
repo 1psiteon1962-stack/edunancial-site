@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum/schemas/lesson.schema.json",
+  "title": "Curriculum Lesson Front Matter",
+  "description": "Schema for lesson metadata declared in a markdown front-matter block.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "track",
+    "officialTrackName",
+    "level",
+    "lessonNumber",
+    "title",
+    "version",
+    "author",
+    "date",
+    "regionalStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L[1-9]-[0-9]{3}$"
+    },
+    "track": {
+      "type": "string",
+      "enum": ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]
+    },
+    "officialTrackName": { "type": "string", "minLength": 1 },
+    "level": { "type": "integer", "minimum": 1, "maximum": 9 },
+    "lessonNumber": { "type": "integer", "minimum": 1, "maximum": 999 },
+    "title": { "type": "string", "minLength": 1 },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]+(?:\.[0-9]+)?$"
+    },
+    "author": { "type": "string", "minLength": 1 },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "regionalStatus": { "type": "string", "minLength": 1 }
+  }
+}
