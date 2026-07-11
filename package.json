@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit --incremental false",
     "curriculum:import": "node scripts/curriculum/import.mjs",
     "curriculum:validate": "node scripts/curriculum/validate.mjs",
     "curriculum:audit": "node scripts/curriculum/audit.mjs",
