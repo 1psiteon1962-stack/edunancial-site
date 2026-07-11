@@ -2,7 +2,6 @@
 // scripts/curriculum/audit.mjs
 // Audits filesystem vs registry, detects orphans, bad paths, duplicates, etc.
 
-import { execSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -14,12 +13,7 @@ import { listAllAssets, readRegistry } from './lib/registry.mjs';
 
 log.section('Curriculum Auditor');
 
-let currentCommit = 'unknown';
-try {
-  currentCommit = execSync('git rev-parse HEAD', { cwd: repoPath() }).toString().trim();
-} catch {
-  // Ignore git lookup failures.
-}
+const currentCommit = 'deterministic';
 
 const registry = readRegistry();
 const registeredAssets = listAllAssets(registry);
@@ -99,7 +93,7 @@ function scanDir(dir) {
 scanDir(CONTENT_CURRICULUM_ROOT);
 
 mkdirSync(REPORTS_DIR, { recursive: true });
-const timestamp = new Date().toISOString();
+const timestamp = 'deterministic';
 const totalIssues = Object.values(issues).reduce((sum, list) => sum + list.length, 0);
 
 const jsonReport = {
