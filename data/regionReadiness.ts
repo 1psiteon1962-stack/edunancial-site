@@ -30,7 +30,17 @@ export const REGION_READINESS: Record<
     phase: "pilot",
   },
 
+  "europe-2a": {
+    enabled: true,
+    phase: "pilot",
+  },
+
   "eastern-europe": {
+    enabled: true,
+    phase: "pilot",
+  },
+
+  "europe-2b": {
     enabled: true,
     phase: "pilot",
   },
@@ -41,6 +51,16 @@ export const REGION_READINESS: Record<
   },
 
   "west-africa": {
+    enabled: true,
+    phase: "pilot",
+  },
+
+  "latin-america-2a": {
+    enabled: true,
+    phase: "pilot",
+  },
+
+  "latin-america-2b": {
     enabled: true,
     phase: "pilot",
   },
@@ -60,6 +80,11 @@ export const REGION_READINESS: Record<
     phase: "pilot",
   },
 
+  africa: {
+    enabled: true,
+    phase: "pilot",
+  },
+
   europe: {
     enabled: true,
     phase: "pilot",
@@ -70,8 +95,18 @@ export const REGION_READINESS: Record<
     phase: "planned",
   },
 
+  asia: {
+    enabled: true,
+    phase: "planned",
+  },
+
   "asia-emerging": {
     enabled: false,
+    phase: "planned",
+  },
+
+  oceania: {
+    enabled: true,
     phase: "planned",
   },
 };
