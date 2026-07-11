@@ -590,10 +590,12 @@ const COUNTRY_TO_CURRENCY: Partial<Record<RegionSlug, string>> = {
   "europe-2a": "EUR",
   "europe-2b": "GBP",
   africa: "USD",
-  latam: "USD",
+  "latin-america-2a": "USD",
+  "latin-america-2b": "USD",
   caribbean: "USD",
   "middle-east": "USD",
-  "asia-pacific": "USD",
+  asia: "USD",
+  oceania: "AUD",
 };
 
 function buildRegionDefinition(slug: RegionSlug): RegionDefinition {
@@ -618,10 +620,12 @@ export const REGION_REGISTRY: Record<RegionSlug, RegionDefinition> = (() => {
     "europe-2a",
     "europe-2b",
     "africa",
-    "latam",
+    "latin-america-2a",
+    "latin-america-2b",
     "caribbean",
     "middle-east",
-    "asia-pacific",
+    "asia",
+    "oceania",
   ];
   return Object.fromEntries(
     allSlugs.map((slug) => [slug, buildRegionDefinition(slug)])
