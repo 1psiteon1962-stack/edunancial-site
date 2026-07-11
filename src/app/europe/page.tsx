@@ -2,37 +2,37 @@ import Link from "next/link";
 
 const architecturalSegments = [
   {
-    label: "Segment A — Mexico & Central America",
-    href: "/latin-america/segment-a",
+    label: "Europe 2A — Western Europe",
+    href: "/europe/2a",
     description:
-      "Mexico, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, and Panama — serving Spanish-speaking Central American markets.",
+      "UK, France, Germany, Spain, Italy, Netherlands, Belgium, Sweden, Switzerland, Austria, and allied markets.",
   },
   {
-    label: "Segment B — South America",
-    href: "/latin-america/segment-b",
+    label: "Europe 2B — Central & Eastern Europe",
+    href: "/europe/2b",
     description:
-      "Brazil, Argentina, Colombia, Peru, Chile, Ecuador, Bolivia, Uruguay, Venezuela, and Paraguay — covering all South American economies.",
+      "Poland, Romania, Czech Republic, Hungary, Greece, Portugal, Croatia, Slovakia, Bulgaria, and emerging EU markets.",
   },
 ];
 
 export const metadata = {
-  title: "Edunancial Latin America | Financial Competency Platform",
+  title: "Edunancial Europe | Financial Competency Platform",
   description:
-    "Edunancial Latin America delivers financial competency education across two dedicated architectural segments: Mexico & Central America (Segment A) and South America (Segment B).",
+    "Edunancial Europe delivers financial competency education across Western, Central, and Eastern European markets through two dedicated regional segments.",
 };
 
-export default function LatinAmericaPage() {
+export default function EuropePage() {
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="text-sm font-black uppercase tracking-[0.45em] text-yellow-400">
-          Latin America Regional Architecture
+          Europe Regional Architecture
         </p>
         <h1 className="mt-8 max-w-5xl text-5xl font-black leading-tight md:text-7xl">
-          Financial competency across Latin America.
+          Financial competency across the European continent.
         </h1>
         <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">
-          The Edunancial Latin American architecture spans two segments — Mexico &amp; Central America (Segment A) and South America (Segment B) — each purpose-built to deliver Red, White, and Blue curriculum levels to members across the full Latin American region.
+          The Edunancial European architecture spans two segments — Western Europe (2A) and Central &amp; Eastern Europe (2B) — each purpose-built to deliver Red, White, and Blue curriculum levels to members across their respective markets.
         </p>
         <div className="mt-10 flex flex-wrap gap-4">
           <Link href="/membership" className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold hover:bg-blue-700">

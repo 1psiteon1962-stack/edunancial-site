@@ -8,7 +8,13 @@ export type RegionCode =
   | "asia-pacific"
   | "asia-emerging"
   | "mena"
+  | "middle-east"
   | "europe"
+  | "europe-2a"
+  | "europe-2b"
+  | "latin-america"
+  | "latin-america-segment-a"
+  | "latin-america-segment-b"
   | "caribbean";
 
 export interface RegionConfig {
@@ -86,11 +92,59 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     readinessKey: "europe",
   },
 
+  "europe-2a": {
+    name: "Europe 2A — Western Europe",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "europe-2a",
+  },
+
+  "europe-2b": {
+    name: "Europe 2B — Central & Eastern Europe",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "europe-2b",
+  },
+
+  "latin-america": {
+    name: "Latin America",
+    enabled: false,
+    defaultLanguage: "es",
+    languages: ["es", "en", "fr"],
+    readinessKey: "latin-america",
+  },
+
+  "latin-america-segment-a": {
+    name: "Latin America — Segment A (Mexico & Central America)",
+    enabled: false,
+    defaultLanguage: "es",
+    languages: ["es", "en"],
+    readinessKey: "latin-america-segment-a",
+  },
+
+  "latin-america-segment-b": {
+    name: "Latin America — Segment B (South America)",
+    enabled: false,
+    defaultLanguage: "es",
+    languages: ["es", "en", "fr"],
+    readinessKey: "latin-america-segment-b",
+  },
+
   caribbean: {
     name: "Caribbean",
     enabled: false,
     defaultLanguage: "en",
     languages: ["en", "es", "fr"],
     readinessKey: "caribbean",
+  },
+
+  "middle-east": {
+    name: "Middle East",
+    enabled: false,
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
+    readinessKey: "middle-east",
   },
 };
