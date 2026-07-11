@@ -1,6 +1,7 @@
 # Build output
 .next/
 out/
+*.tsbuildinfo
 
 # Dependencies
 node_modules/
