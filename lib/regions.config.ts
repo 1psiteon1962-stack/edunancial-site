@@ -2,6 +2,7 @@
 
 export type RegionCode =
   | "us"
+  | "latam"
   | "africa"
   | "asia"
   | "asia-pacific"
@@ -13,8 +14,8 @@ export type RegionCode =
 export interface RegionConfig {
   name: string;
   enabled: boolean;
-  defaultLanguage: "en" | "es" | "fr";
-  languages: readonly ("en" | "es" | "fr")[];
+  defaultLanguage: "en" | "es" | "fr" | "pt" | "nl";
+  languages: readonly ("en" | "es" | "fr" | "pt" | "nl")[];
   readinessKey: string;
 }
 
@@ -25,6 +26,15 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     defaultLanguage: "en",
     languages: ["en", "es"],
     readinessKey: "us",
+  },
+
+  // LATAM: PRIVATE by default — enabled=false until formally activated
+  latam: {
+    name: "Latin America",
+    enabled: false,
+    defaultLanguage: "es",
+    languages: ["es", "pt", "en", "fr", "nl"],
+    readinessKey: "latam",
   },
 
   // Other regions intentionally disabled until activated

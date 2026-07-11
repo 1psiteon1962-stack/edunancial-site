@@ -1,0 +1,9 @@
+/**
+ * LATAM Region — barrel export
+ */
+
+export { LATAM_REGION_CONFIG } from "./config";
+export { ALL_LATAM_COUNTRIES, ALL_LATAM_COUNTRY_CODES, CENTRAL_AMERICA_COUNTRIES, SOUTH_AMERICA_COUNTRIES, CARIBBEAN_COUNTRIES } from "./countries";
+export { LATAM_LANGUAGES, LATAM_LANGUAGE_CODES, LATAM_DEFAULT_LANGUAGE } from "./languages";
+export { LATAM_CURRENCY_CODES, LATAM_DEFAULT_CURRENCY } from "./currencies";
+export { LATAM_TAX_REGISTRY, LATAM_TAX_CONFIGS } from "./tax";

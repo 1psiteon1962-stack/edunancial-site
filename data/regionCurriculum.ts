@@ -13,6 +13,16 @@ export const REGION_CURRICULUM: Record<
     ],
   },
 
+  latam: {
+    focusAreas: [
+      "Entrepreneurship and business formation",
+      "Currency risk and economic resilience",
+      "Cross-border trade and LATAM agreements",
+      "Investment and capital access",
+      "Taxation and compliance by country",
+    ],
+  },
+
   mena: {
     focusAreas: [
       "Entrepreneurship",

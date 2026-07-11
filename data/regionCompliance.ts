@@ -12,6 +12,13 @@ export const REGION_COMPLIANCE: Record<
     contentRestrictions: "Low",
   },
 
+  latam: {
+    dataProtection:
+      "Country-specific frameworks: Brazil LGPD, Mexico LFPDPPP, Argentina PDPA, Colombia Ley 1581. Varies by jurisdiction.",
+    payments: "Cards, local gateways, remittance networks, mobile wallets",
+    contentRestrictions: "Low to moderate",
+  },
+
   mena: {
     dataProtection: "Country-specific data residency rules",
     payments: "Cards, local gateways",
