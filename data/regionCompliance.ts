@@ -4,6 +4,8 @@ export const REGION_COMPLIANCE: Record<
     dataProtection: string;
     payments: string;
     contentRestrictions: string;
+    taxModel?: string;
+    regulatoryHooks?: readonly string[];
   }
 > = {
   us: {
@@ -28,6 +30,12 @@ export const REGION_COMPLIANCE: Record<
     dataProtection: "Mixed national frameworks",
     payments: "Cards, wallets, local rails",
     contentRestrictions: "Moderate",
+    taxModel: "Country-specific GST/VAT frameworks",
+    regulatoryHooks: [
+      "pdpa-readiness",
+      "cross-border-data-transfer-review",
+      "regional-tax-registration",
+    ],
   },
 
   "asia-emerging": {

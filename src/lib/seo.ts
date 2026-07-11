@@ -6,7 +6,9 @@ title:string,
 
 description:string,
 
-path:string
+path:string,
+
+localizedPaths?:Record<string,string>
 
 ):Metadata{
 
@@ -18,7 +20,16 @@ description,
 
 alternates:{
 
-canonical:`https://www.edunancial.com${path}`
+canonical:`https://www.edunancial.com${path}`,
+
+languages: localizedPaths
+  ? Object.fromEntries(
+      Object.entries(localizedPaths).map(([locale, localizedPath]) => [
+        locale,
+        `https://www.edunancial.com${localizedPath}`
+      ])
+    )
+  : undefined
 
 },
 

@@ -69,9 +69,15 @@ export const regions: Region[] = [
   },
 
   {
-    id: "asia",
-    name: "Asia",
-    countries: [],
+    id: "asia-pacific",
+    name: "Asia-Pacific",
+    countries: [
+      "Australia",
+      "Singapore",
+      "Japan",
+      "South Korea",
+      "India"
+    ],
     defaultLanguages: [
       "en",
       "zh",

@@ -28,5 +28,10 @@
     "currency": "USD",
     "tiers": ["free", "starter"],
     "notes": "Staged monetization"
+  },
+  "asia-pacific": {
+    "currency": "SGD",
+    "tiers": ["free", "starter"],
+    "notes": "Private launch profile with APAC-localized pricing hooks"
   }
 }

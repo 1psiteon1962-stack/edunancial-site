@@ -13,8 +13,8 @@ export type RegionCode =
 export interface RegionConfig {
   name: string;
   enabled: boolean;
-  defaultLanguage: "en" | "es" | "fr";
-  languages: readonly ("en" | "es" | "fr")[];
+  defaultLanguage: "en" | "es" | "fr" | "zh" | "ja" | "ko" | "hi";
+  languages: readonly ("en" | "es" | "fr" | "zh" | "ja" | "ko" | "hi")[];
   readinessKey: string;
 }
 
@@ -48,7 +48,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     name: "Asia Pacific",
     enabled: false,
     defaultLanguage: "en",
-    languages: ["en"],
+    languages: ["en", "zh", "ja", "ko", "hi"],
     readinessKey: "asia-pacific",
   },
 

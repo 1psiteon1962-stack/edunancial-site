@@ -40,5 +40,12 @@
     "providers": [],
     "cryptoAllowed": true,
     "notes": "Payments staged pending regional decisions"
+  },
+  "asia-pacific": {
+    "enabled": false,
+    "currency": "SGD",
+    "providers": [],
+    "cryptoAllowed": false,
+    "notes": "Private-by-default; tax and compliance validation required before activation"
   }
 }

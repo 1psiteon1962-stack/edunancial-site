@@ -25,6 +25,7 @@ export function getruntimesitekey(): string {
   if (host.includes("latam")) return "latam";
   if (host.includes("africa")) return "africa";
   if (host.includes("europe")) return "europe";
+  if (host.includes("asia-pacific") || host.includes("apac")) return "asia-pacific";
   if (host.includes("asia")) return "asia";
   if (host.includes("caribbean")) return "caribbean";
 

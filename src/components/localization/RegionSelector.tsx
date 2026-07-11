@@ -16,7 +16,7 @@ return(
 
 <option>Middle East</option>
 
-<option>Asia</option>
+<option>Asia-Pacific</option>
 
 <option>Europe</option>
 

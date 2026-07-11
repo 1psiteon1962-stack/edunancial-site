@@ -6,8 +6,10 @@ export const supportedLanguages = [
   "fr", // French
   "pt", // Portuguese
   "ar", // Arabic
+  "zh", // Chinese
   "ja", // Japanese
   "ko", // Korean
+  "hi", // Hindi
   "de", // German
   "it", // Italian
 ] as const;
@@ -24,6 +26,7 @@ export const isLanguage = (value: string): value is Language => {
  */
 export const REGION_LANGUAGES: Record<string, readonly Language[]> = {
   global: supportedLanguages,
+  "asia-pacific": ["en", "zh", "ja", "ko", "hi"],
 };
 
 /**
@@ -50,6 +53,10 @@ const translations: Record<Language, Record<string, string>> = {
     doctrine_title: "العقيدة",
     doctrine_body: "المبادئ والبنية الأساسية.",
   },
+  zh: {
+    doctrine_title: "纲要",
+    doctrine_body: "基础原则与结构。",
+  },
   ja: {
     doctrine_title: "教義",
     doctrine_body: "基本原則と構造。",
@@ -57,6 +64,10 @@ const translations: Record<Language, Record<string, string>> = {
   ko: {
     doctrine_title: "교리",
     doctrine_body: "기본 원칙과 구조.",
+  },
+  hi: {
+    doctrine_title: "सिद्धांत",
+    doctrine_body: "मूलभूत सिद्धांत और संरचना।",
   },
   de: {
     doctrine_title: "Doktrin",

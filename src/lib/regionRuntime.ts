@@ -1,4 +1,4 @@
-export type SiteRegion = "us" | "latam" | "africa" | "asia" | "mena" | "eu" | "global" | "preview" | "branch";
+export type SiteRegion = "us" | "latam" | "africa" | "asia" | "asia-pacific" | "mena" | "eu" | "global" | "preview" | "branch";
 
 const FALLBACK_REGION: SiteRegion = "us";
 
@@ -6,7 +6,7 @@ const FALLBACK_REGION: SiteRegion = "us";
 export function getSiteRegion(): SiteRegion {
   const raw = (process.env.SITE_REGION || "").toLowerCase();
 
-  const allowed: SiteRegion[] = ["us", "latam", "africa", "asia", "mena", "eu", "global", "preview", "branch"];
+  const allowed: SiteRegion[] = ["us", "latam", "africa", "asia", "asia-pacific", "mena", "eu", "global", "preview", "branch"];
   if (allowed.includes(raw as SiteRegion)) return raw as SiteRegion;
 
   return FALLBACK_REGION;

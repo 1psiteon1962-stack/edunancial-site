@@ -3,11 +3,21 @@ export const REGION_READINESS: Record<
   {
     enabled: boolean;
     phase: "live" | "pilot" | "planned";
+    rollout?: {
+      founderOnly: boolean;
+      betaTestersEnabled: boolean;
+      featureFlags: Record<string, boolean>;
+    };
   }
 > = {
   us: {
     enabled: true,
     phase: "live",
+    rollout: {
+      founderOnly: false,
+      betaTestersEnabled: false,
+      featureFlags: {},
+    },
   },
 
   mena: {
@@ -23,6 +33,15 @@ export const REGION_READINESS: Record<
   "asia-pacific": {
     enabled: false,
     phase: "planned",
+    rollout: {
+      founderOnly: true,
+      betaTestersEnabled: false,
+      featureFlags: {
+        APAC_FOUNDATION_PRIVATE: false,
+        APAC_BETA_ACCESS: false,
+        APAC_PUBLIC_ROLLOUT: false,
+      },
+    },
   },
 
   "asia-emerging": {

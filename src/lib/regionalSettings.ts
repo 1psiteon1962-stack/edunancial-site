@@ -32,6 +32,15 @@ export const regionalSettings: RegionalSettings[] = [
     supportedLanguages: ["es","en","fr"],
     supportedCurrencies: ["USD","DOP","JMD"],
     active: true
+  },
+
+  {
+    region: "asia-pacific",
+    defaultLanguage: "en",
+    defaultCurrency: "SGD",
+    supportedLanguages: ["en","zh","ja","ko","hi"],
+    supportedCurrencies: ["SGD","AUD","JPY","KRW","INR","USD"],
+    active: false
   }
 
 ];

@@ -4,7 +4,8 @@ export type PricingRegion =
   | "caribbean"
   | "africa"
   | "europe"
-  | "asia";
+  | "asia"
+  | "asia-pacific";
 
 export type PricingPlan = {
   id: string;
@@ -24,6 +25,7 @@ export async function loadPricing(
     africa: "USD",
     europe: "EUR",
     asia: "USD",
+    "asia-pacific": "SGD",
   };
 
   return [

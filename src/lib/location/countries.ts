@@ -155,4 +155,89 @@ export const countries: CountryConfig[] = [
     coursesEnabled: false,
   },
 
+  {
+    id: "au",
+    name: "Australia",
+    iso2: "AU",
+    currency: "AUD",
+    currencySymbol: "$",
+    language: "English",
+    timezone: "Australia/Sydney",
+
+    launchStatus: "planned",
+
+    marketplaceEnabled: false,
+    assessmentEnabled: false,
+    passportEnabled: false,
+    coursesEnabled: false,
+  },
+
+  {
+    id: "sg",
+    name: "Singapore",
+    iso2: "SG",
+    currency: "SGD",
+    currencySymbol: "S$",
+    language: "English",
+    timezone: "Asia/Singapore",
+
+    launchStatus: "planned",
+
+    marketplaceEnabled: false,
+    assessmentEnabled: false,
+    passportEnabled: false,
+    coursesEnabled: false,
+  },
+
+  {
+    id: "jp",
+    name: "Japan",
+    iso2: "JP",
+    currency: "JPY",
+    currencySymbol: "¥",
+    language: "Japanese",
+    timezone: "Asia/Tokyo",
+
+    launchStatus: "planned",
+
+    marketplaceEnabled: false,
+    assessmentEnabled: false,
+    passportEnabled: false,
+    coursesEnabled: false,
+  },
+
+  {
+    id: "kr",
+    name: "South Korea",
+    iso2: "KR",
+    currency: "KRW",
+    currencySymbol: "₩",
+    language: "Korean",
+    timezone: "Asia/Seoul",
+
+    launchStatus: "planned",
+
+    marketplaceEnabled: false,
+    assessmentEnabled: false,
+    passportEnabled: false,
+    coursesEnabled: false,
+  },
+
+  {
+    id: "in",
+    name: "India",
+    iso2: "IN",
+    currency: "INR",
+    currencySymbol: "₹",
+    language: "Hindi",
+    timezone: "Asia/Kolkata",
+
+    launchStatus: "planned",
+
+    marketplaceEnabled: false,
+    assessmentEnabled: false,
+    passportEnabled: false,
+    coursesEnabled: false,
+  },
+
 ];
