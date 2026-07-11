@@ -48,6 +48,10 @@ export const regionCurriculumContent: RegionCurriculumContent = {
       title: "المنهج العالمي",
       description: "منهج عالمي يركز على الهيكل والانضباط والأنظمة.",
     },
+    zh: {
+      title: "全球课程体系",
+      description: "面向全球、聚焦结构、纪律与系统的课程。",
+    },
     ja: {
       title: "グローバルカリキュラム",
       description: "構造・規律・システムに焦点を当てたグローバルなカリキュラム。",
@@ -55,6 +59,10 @@ export const regionCurriculumContent: RegionCurriculumContent = {
     ko: {
       title: "글로벌 커리큘럼",
       description: "구조, 규율, 시스템에 초점을 맞춘 글로벌 커리큘럼.",
+    },
+    hi: {
+      title: "वैश्विक पाठ्यक्रम",
+      description: "संरचना, अनुशासन और सिस्टम पर केंद्रित वैश्विक पाठ्यक्रम।",
     },
     de: {
       title: "Globaler Lehrplan",
