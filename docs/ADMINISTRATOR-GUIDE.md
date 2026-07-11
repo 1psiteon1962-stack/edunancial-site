@@ -3,6 +3,7 @@
 ## Admin entry points
 - Admin home: `/admin`
 - Dashboard: `/admin/dashboard`
+- Global Curriculum CMS dashboard: `/admin/cms`
 - KPI dashboard: `/admin/kpi`
 - KPI CSV export: `/admin/kpi/export`
 

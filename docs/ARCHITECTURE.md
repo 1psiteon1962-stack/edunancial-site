@@ -27,6 +27,10 @@ The current implementation supports environment-driven integrations, with safe f
 - `POST /api/kpi/track`
 - `POST /api/square/checkout`
 - `GET /admin/kpi/export`
+- `GET|POST /api/cms/content`
+- `GET /api/cms/content/:lessonId/versions`
+- `GET /api/cms/content/:lessonId/localization`
+- `GET|POST /api/cms/media`
 
 ## Security-relevant platform configuration
 - `src/app/robots.ts` blocks crawling for `/admin`, `/api`, and `/dashboard`.

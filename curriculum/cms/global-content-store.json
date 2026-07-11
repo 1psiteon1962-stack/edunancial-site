@@ -1,0 +1,12 @@
+{
+  "lessons": {},
+  "media": {},
+  "activity": [],
+  "settings": {
+    "aiAssistance": {
+      "enabled": true,
+      "autoPublish": false,
+      "requiresHumanApproval": true
+    }
+  }
+}
