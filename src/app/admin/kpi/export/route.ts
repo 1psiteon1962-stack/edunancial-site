@@ -1,115 +1,54 @@
-import { NextResponse } from "next/server";
-import { fetchEventsCSV } from "@/lib/kpi/adminQueries";
-import { logAdminAuditEvent, logAuthAuditEvent } from "@/lib/auditLog";
-import { logStructuredError } from "@/lib/observability/errors";
-import { recordRequestMetric } from "@/lib/observability/metrics";
-import {
-  attachRequestHeaders,
-  getRequestContext,
-  getRequestId,
-} from "@/lib/observability/tracing";
+import { NextResponse } from "next/server"
+import { fetchEventsCSV } from "@/lib/kpi/adminQueries"
+import { GlobalPermission } from "@/lib/globalPermissions"
+import { writeAuditLog } from "@/lib/security/audit"
+import { applyRateLimit } from "@/lib/security/rate-limit"
+import { getSecuritySessionFromRequest, hasSessionPermission } from "@/lib/security/session"
 
-export const runtime = "nodejs";
-
-function getProvidedToken(request: Request): string | null {
-  const bearer = request.headers.get("authorization");
-  if (bearer?.startsWith("Bearer ")) {
-    return bearer.slice("Bearer ".length).trim();
-  }
-
-  return request.headers.get("x-admin-metrics-token");
-}
+export const runtime = "nodejs"
 
 export async function GET(request: Request) {
-  const start = Date.now();
-  const requestId = getRequestId(request.headers);
-  const configuredToken = process.env.ADMIN_METRICS_TOKEN;
-  const providedToken = getProvidedToken(request);
-
-  if (configuredToken && providedToken !== configuredToken) {
-    logAuthAuditEvent({
-      actor: "anonymous",
-      action: "admin.metrics.authenticate",
-      result: "failure",
-      requestId,
-      target: "admin.kpi.export",
-    });
-
-    const response = NextResponse.json(
-      { error: "Unauthorized", requestId },
-      { status: 401 }
-    );
-
-    recordRequestMetric({
-      method: request.method,
-      route: "/admin/kpi/export",
-      status: 401,
-      durationMs: Date.now() - start,
-    });
-
-    return attachRequestHeaders(response, requestId);
-  }
-
-  logAuthAuditEvent({
-    actor: "admin",
-    action: "admin.metrics.authenticate",
-    result: "success",
-    requestId,
-    target: "admin.kpi.export",
-  });
-
   try {
-    const csv = await fetchEventsCSV();
+    const session = await getSecuritySessionFromRequest(request)
 
-    logAdminAuditEvent({
-      actor: "admin",
-      action: "admin.kpi.export",
-      result: "success",
-      requestId,
-      target: "kpi.events",
-    });
+    if (!hasSessionPermission(session, GlobalPermission.MANAGE_KPIS)) {
+      return NextResponse.json({ error: "Forbidden" }, { status: 403 })
+    }
 
-    const response = new NextResponse(csv, {
+    const rateLimit = applyRateLimit({
+      request,
+      name: "admin.kpi.export",
+      limit: Number(process.env.EDUNANCIAL_RATE_LIMIT_EXPORTS ?? 10),
+      windowMs: 10 * 60 * 1000,
+      sessionKey: session.userId,
+    })
+
+    if (!rateLimit.allowed) {
+      return NextResponse.json({ error: "Too many export requests" }, { status: 429 })
+    }
+
+    const csv = await fetchEventsCSV()
+
+    writeAuditLog({
+      action: "admin.kpi.exported",
+      actorId: session.userId,
+      actorRole: session.role,
+      target: "kpi-events.csv",
+      outcome: "success",
+      request,
+    })
+
+    return new NextResponse(csv, {
       headers: {
+        "Cache-Control": "no-store",
         "Content-Type": "text/csv",
-        "Content-Disposition": "attachment; filename=kpi-events.csv",
-      },
-    });
-
-    recordRequestMetric({
-      method: request.method,
-      route: "/admin/kpi/export",
-      status: 200,
-      durationMs: Date.now() - start,
-    });
-
-    return attachRequestHeaders(response, requestId);
+        "Content-Disposition": "attachment; filename=kpi-events.csv"
+      }
+    })
   } catch (error) {
-    logStructuredError(error, {
-      ...getRequestContext(request, requestId),
-      route: "/admin/kpi/export",
-    });
-
-    logAdminAuditEvent({
-      actor: "admin",
-      action: "admin.kpi.export",
-      result: "failure",
-      requestId,
-      target: "kpi.events",
-    });
-
-    const response = NextResponse.json(
-      { error: "Failed to export KPI data", requestId },
+    return NextResponse.json(
+      { error: "Failed to export KPI data" },
       { status: 500 }
-    );
-
-    recordRequestMetric({
-      method: request.method,
-      route: "/admin/kpi/export",
-      status: 500,
-      durationMs: Date.now() - start,
-    });
-
-    return attachRequestHeaders(response, requestId);
+    )
   }
 }

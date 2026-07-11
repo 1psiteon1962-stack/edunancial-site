@@ -1,75 +1,60 @@
 import { NextResponse } from "next/server";
-import { logStructuredError } from "@/lib/observability/errors";
-import { logger } from "@/lib/observability/logger";
-import { recordRequestMetric } from "@/lib/observability/metrics";
-import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
-import { logAuditEvent } from "@/lib/auditLog";
+
+import { writeAuditLog, writeSecurityEvent } from "@/lib/security/audit";
+import { validateCsrfRequest } from "@/lib/security/csrf";
+import { applyRateLimit } from "@/lib/security/rate-limit";
+import { getSecuritySessionFromRequest } from "@/lib/security/session";
+import { readJsonBody, validateString } from "@/lib/security/validation";
 
 export async function POST(req: Request) {
-  const start = Date.now();
-  const requestId = getRequestId(req.headers);
+  const csrf = validateCsrfRequest(req);
 
-  try {
-    const body = (await req.json()) as { contractId?: string; userId?: string };
-
-    const contractId = body.contractId ?? "unknown";
-
-    logAuditEvent({
-      actor: body.userId ?? "anonymous",
-      action: "contract.accept",
-      target: "contract",
-      result: "success",
-      requestId,
-      metadata: {
-        contractId,
-      },
+  if (!csrf.ok) {
+    writeSecurityEvent({
+      event: "csrf.contract_accept.blocked",
+      severity: "warning",
+      request: req,
+      metadata: { reason: csrf.reason },
     });
 
-    const response = NextResponse.json({
-      status: "accepted",
-      contractId,
-      requestId,
-    });
-
-    recordRequestMetric({
-      method: req.method,
-      route: "/api/contracts/accept",
-      status: 200,
-      durationMs: Date.now() - start,
-    });
-
-    return attachRequestHeaders(response, requestId);
-  } catch (error) {
-    logStructuredError(error, {
-      ...getRequestContext(req, requestId),
-      route: "/api/contracts/accept",
-    });
-
-    logAuditEvent({
-      actor: "anonymous",
-      action: "contract.accept",
-      target: "contract",
-      result: "failure",
-      requestId,
-    });
-
-    const response = NextResponse.json(
-      { status: "error", error: "Invalid request payload", requestId },
-      { status: 400 }
-    );
-
-    recordRequestMetric({
-      method: req.method,
-      route: "/api/contracts/accept",
-      status: 400,
-      durationMs: Date.now() - start,
-    });
-
-    logger.warn("contracts.accept.failed", {
-      requestId,
-      route: "/api/contracts/accept",
-    });
-
-    return attachRequestHeaders(response, requestId);
+    return NextResponse.json({ error: "Invalid request." }, { status: 403 });
   }
+
+  const rateLimit = applyRateLimit({
+    request: req,
+    name: "contracts.accept",
+    limit: Number(process.env.EDUNANCIAL_RATE_LIMIT_CONTRACTS ?? 20),
+    windowMs: 10 * 60 * 1000,
+  });
+
+  if (!rateLimit.allowed) {
+    return NextResponse.json({ error: "Too many requests." }, { status: 429 });
+  }
+
+  const body = await readJsonBody(req);
+  const contractId = validateString(body?.contractId, {
+    field: "contractId",
+    maxLength: 120,
+    minLength: 2,
+  });
+
+  if (!body || !contractId) {
+    return NextResponse.json({ error: "Invalid contract payload." }, { status: 400 });
+  }
+
+  const session = await getSecuritySessionFromRequest(req);
+
+  writeAuditLog({
+    action: "contracts.accepted",
+    actorId: session.userId,
+    actorRole: session.role,
+    target: contractId,
+    outcome: "success",
+    request: req,
+  });
+
+  return NextResponse.json({
+    status: "accepted",
+    contractId
+  });
 }

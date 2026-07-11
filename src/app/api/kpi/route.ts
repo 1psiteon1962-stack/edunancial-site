@@ -1,8 +1,14 @@
+// src/app/api/kpi/route.ts
+
 import { NextResponse } from "next/server";
-import { logStructuredError } from "@/lib/observability/errors";
-import { logger } from "@/lib/observability/logger";
-import { recordRequestMetric } from "@/lib/observability/metrics";
-import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
+
+import { writeAuditLog, writeSecurityEvent } from "@/lib/security/audit";
+import { validateCsrfRequest, getCookieValue } from "@/lib/security/csrf";
+import { CONSENT_COOKIE_NAME, parseConsentPreferences } from "@/lib/security/privacy";
+import { applyRateLimit } from "@/lib/security/rate-limit";
+import { getSecuritySessionFromRequest } from "@/lib/security/session";
+import { writeMonitoringEvent } from "@/lib/security/monitoring";
+import { isRecord, readJsonBody, validateString } from "@/lib/security/validation";
 
 type KPIRequestBody = {
   event_name?: string;
@@ -21,79 +27,113 @@ async function writeKPIEvent(event: {
   event_name: string;
   event_type?: string;
   metadata?: Record<string, unknown>;
-  requestId: string;
 }): Promise<void> {
-  logger.info("kpi.event.received", {
-    event_name: event.event_name,
-    event_type: event.event_type,
-    metadata: event.metadata,
-    requestId: event.requestId,
+  writeMonitoringEvent({
+    category: "analytics.event.normalized",
+    metadata: {
+      event_name: event.event_name,
+      event_type: event.event_type ?? "unknown",
+      metadata: event.metadata ?? {},
+      receivedAt: new Date().toISOString(),
+    },
   });
 }
 
 export async function POST(request: Request) {
-  const start = Date.now();
-  const requestId = getRequestId(request.headers);
-
   try {
-    const body = (await request.json()) as KPIRequestBody;
+    const csrf = validateCsrfRequest(request);
 
-    if (!body.event_name) {
-      const response = NextResponse.json(
-        { success: false, error: "Missing event_name", requestId },
-        { status: 400 }
-      );
-
-      recordRequestMetric({
-        method: request.method,
-        route: "/api/kpi",
-        status: 400,
-        durationMs: Date.now() - start,
+    if (!csrf.ok) {
+      writeSecurityEvent({
+        event: "csrf.kpi.blocked",
+        severity: "warning",
+        request,
+        metadata: { reason: csrf.reason },
       });
 
-      return attachRequestHeaders(response, requestId);
+      return NextResponse.json({ success: false, error: "Invalid request." }, { status: 403 });
+    }
+
+    const session = await getSecuritySessionFromRequest(request);
+    const rateLimit = applyRateLimit({
+      request,
+      name: "kpi.raw",
+      limit: Number(process.env.EDUNANCIAL_RATE_LIMIT_KPI ?? 60),
+      windowMs: 10 * 60 * 1000,
+      sessionKey: session.userId,
+    });
+
+    if (!rateLimit.allowed) {
+      return NextResponse.json({ success: false, error: "Too many requests" }, { status: 429 });
+    }
+
+    const consent = parseConsentPreferences(
+      getCookieValue(request.headers.get("cookie"), CONSENT_COOKIE_NAME)
+    );
+
+    if (!consent.analytics) {
+      return NextResponse.json({ success: false, skipped: "consent_required" }, { status: 202 });
+    }
+
+    const rawBody = await readJsonBody(request);
+    const body = rawBody as KPIRequestBody | null;
+    const eventName = validateString(body?.event_name, {
+      field: "event_name",
+      maxLength: 80,
+      minLength: 2,
+    });
+    const eventType = body?.event_type
+      ? validateString(body.event_type, {
+          field: "event_type",
+          maxLength: 80,
+          minLength: 2,
+        })
+      : null;
+
+    if (!body || !eventName || (body.event_type && !eventType)) {
+      return NextResponse.json(
+        { success: false, error: "Invalid event payload" },
+        { status: 400 }
+      );
     }
 
     const fingerprint = createFingerprint(request);
 
     await writeKPIEvent({
-      event_name: body.event_name,
-      event_type: body.event_type ?? undefined,
+      event_name: eventName,
+      event_type: eventType ?? undefined,
       metadata: {
-        ...(body.metadata ?? {}),
+        ...(isRecord(body.metadata) ? body.metadata : {}),
         fingerprint,
       },
-      requestId,
     });
 
-    const response = NextResponse.json({ success: true, requestId });
-
-    recordRequestMetric({
-      method: request.method,
-      route: "/api/kpi",
-      status: 200,
-      durationMs: Date.now() - start,
+    writeAuditLog({
+      action: "analytics.kpi_recorded",
+      actorId: session.userId,
+      actorRole: session.role,
+      target: eventName,
+      outcome: "success",
+      request,
+      metadata: {
+        event_type: eventType,
+      },
     });
 
-    return attachRequestHeaders(response, requestId);
+    return NextResponse.json({ success: true });
   } catch (error) {
-    logStructuredError(error, {
-      ...getRequestContext(request, requestId),
-      route: "/api/kpi",
+    writeSecurityEvent({
+      event: "kpi.failed",
+      severity: "error",
+      request,
+      metadata: {
+        error: error instanceof Error ? error.message : "unknown",
+      },
     });
 
-    const response = NextResponse.json(
-      { success: false, error: "KPI route failed", requestId },
+    return NextResponse.json(
+      { success: false, error: "KPI route failed" },
       { status: 500 }
     );
-
-    recordRequestMetric({
-      method: request.method,
-      route: "/api/kpi",
-      status: 500,
-      durationMs: Date.now() - start,
-    });
-
-    return attachRequestHeaders(response, requestId);
   }
 }
