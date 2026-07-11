@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 
 import { isLoggedIn } from "@/lib/auth";
+import WhyEdunancial from "@/components/home/WhyEdunancial";
 
 const primaryCallsToAction = [
   {
@@ -204,6 +205,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* WHY EDUNANCIAL — Trust & Credibility */}
+      <WhyEdunancial />
 
       <section aria-labelledby="homepage-story-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="grid gap-10 rounded-3xl border border-white/10 bg-slate-950/50 p-8 md:p-10 lg:grid-cols-[1.3fr_0.7fr]">
