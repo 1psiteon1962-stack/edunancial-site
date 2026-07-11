@@ -1,3 +1,5 @@
+import { APAC_FOUNDATION_COUNTRIES, APAC_LANGUAGE_REGISTRY } from "@/lib/regionalization/apacFoundation";
+
 export interface Region {
 
   id: string;
@@ -71,14 +73,8 @@ export const regions: Region[] = [
   {
     id: "asia",
     name: "Asia",
-    countries: [],
-    defaultLanguages: [
-      "en",
-      "zh",
-      "ja",
-      "ko",
-      "hi"
-    ]
+    countries: APAC_FOUNDATION_COUNTRIES.map((country) => country.country),
+    defaultLanguages: APAC_LANGUAGE_REGISTRY.map((language) => language.code)
   }
 
 ];

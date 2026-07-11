@@ -6,10 +6,14 @@ import { supportedLanguages } from "@/lib/i18n";
 const languageNames: Record<string, { name: string; flag: string }> = {
   en: { name: "English", flag: "🇺🇸" },
   es: { name: "Español", flag: "🇪🇸" },
+  zh: { name: "中文", flag: "🇨🇳" },
   fr: { name: "Français", flag: "🇫🇷" },
   pt: { name: "Português", flag: "🇵🇹" },
   de: { name: "Deutsch", flag: "🇩🇪" },
   it: { name: "Italiano", flag: "🇮🇹" },
+  fil: { name: "Filipino", flag: "🇵🇭" },
+  hi: { name: "हिन्दी", flag: "🇮🇳" },
+  ms: { name: "Bahasa Melayu", flag: "🇸🇬" },
   ar: { name: "العربية", flag: "🇸🇦" },
   ja: { name: "日本語", flag: "🇯🇵" },
   ko: { name: "한국어", flag: "🇰🇷" }

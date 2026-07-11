@@ -1,3 +1,9 @@
+import type {
+  LaunchControls,
+  RegionalComplianceConfiguration,
+  RegionalTaxConfiguration,
+} from "@/lib/regionalization/apacFoundation";
+
 export interface CountryProfile{
 
 country:string;
@@ -25,6 +31,20 @@ startupHubEnabled:boolean;
 fundingCenterEnabled:boolean;
 
 voiceAIEnabled:boolean;
+
+locales?:string[];
+
+launchControls?:LaunchControls;
+
+founderControlsEnabled?:boolean;
+
+betaTesterControlsEnabled?:boolean;
+
+taxConfiguration?:RegionalTaxConfiguration;
+
+complianceConfiguration?:RegionalComplianceConfiguration;
+
+seoLocale?:string;
 
 }
 
