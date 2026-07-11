@@ -7,6 +7,7 @@ import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import DetectedPreferencesBanner from "@/components/international/DetectedPreferencesBanner";
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import { SessionProvider } from "@/lib/auth/SessionProvider";
 
 const siteUrl = "https://www.edunancial.com";
 const languageAlternates = Object.fromEntries(
@@ -120,13 +121,15 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#08101f] text-white">
-        <InternationalPreferencesProvider>
-          <AnnouncementBar />
-          <Navbar />
-          <DetectedPreferencesBanner />
-          {children}
-          <Footer />
-        </InternationalPreferencesProvider>
+        <SessionProvider>
+          <InternationalPreferencesProvider>
+            <AnnouncementBar />
+            <Navbar />
+            <DetectedPreferencesBanner />
+            {children}
+            <Footer />
+          </InternationalPreferencesProvider>
+        </SessionProvider>
       </body>
     </html>
   );

@@ -1,6 +1,8 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import RegisterForm from "@/components/auth/RegisterForm";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Create Your Account | Edunancial",
   description: "Register for your Edunancial membership.",
 };
@@ -27,74 +29,13 @@ export default function RegisterPage() {
 
         </div>
 
-        <form className="mt-12 space-y-6">
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              First Name
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="text"
-            />
-
-          </div>
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              Last Name
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="text"
-            />
-
-          </div>
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              Email Address
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="email"
-            />
-
-          </div>
-
-          <div>
-
-            <label className="mb-2 block font-semibold">
-              Password
-            </label>
-
-            <input
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-4"
-              type="password"
-            />
-
-          </div>
-
-          <button
-            className="w-full rounded-xl bg-blue-600 py-4 text-lg font-bold text-white"
-            type="submit"
-          >
-            Create Account
-          </button>
-
-        </form>
+        <RegisterForm />
 
         <div className="mt-10 text-center">
 
           <Link
             href="/login"
-            className="text-blue-400 underline"
+            className="text-blue-400 underline hover:text-blue-300"
           >
             Already have an account?
           </Link>
