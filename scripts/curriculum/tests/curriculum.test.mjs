@@ -29,6 +29,24 @@ describe('parseAssetId', () => {
     assert.equal(result.level, 2);
   });
 
+  test('parses required WHITE curriculum lesson pattern', () => {
+    const result = parseAssetId('WHITE-L3-008');
+    assert.equal(result.valid, true);
+    assert.equal(result.type, 'lesson');
+    assert.equal(result.track, 'WHITE');
+    assert.equal(result.level, 3);
+    assert.equal(result.number, 8);
+  });
+
+  test('parses required BLUE curriculum lesson pattern', () => {
+    const result = parseAssetId('BLUE-L5-010');
+    assert.equal(result.valid, true);
+    assert.equal(result.type, 'lesson');
+    assert.equal(result.track, 'BLUE');
+    assert.equal(result.level, 5);
+    assert.equal(result.number, 10);
+  });
+
   test('parses valid batch-verification ID', () => {
     const result = parseAssetId('BLUE-L1-BATCH-VERIFICATION');
     assert.equal(result.valid, true);
@@ -218,5 +236,12 @@ describe('parseFrontMatter', () => {
     const meta = parseFrontMatter(content);
     assert.equal(meta.date, '2026-07-11');
     assert.equal(meta.title, 'Real Estate: Introduction');
+  });
+
+  test('preserves extra metadata fields for registry ingestion', () => {
+    const content = '---\nid: RED-L1-001\nregionalStatus: NORTH_AMERICA\ncurriculumType: adaptive\n---\n';
+    const meta = parseFrontMatter(content);
+    assert.equal(meta.regionalStatus, 'NORTH_AMERICA');
+    assert.equal(meta.curriculumType, 'adaptive');
   });
 });

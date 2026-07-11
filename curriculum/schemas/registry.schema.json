@@ -54,6 +54,7 @@
                         "track": { "type": "string" },
                         "trackName": { "type": "string" },
                         "level": { "type": "integer", "minimum": 1, "maximum": 9 },
+                        "lessonNumber": { "type": "integer", "minimum": 1 },
                         "title": { "type": "string" },
                         "version": { "type": "string" },
                         "author": { "type": "string" },
@@ -67,6 +68,12 @@
                         "warnings": {
                           "type": "array",
                           "items": { "type": "string" }
+                        },
+                        "metadata": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
                         }
                       }
                     }

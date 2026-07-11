@@ -290,6 +290,21 @@ async function processFile(file) {
   mkdirSync(dirname(destinationAbsolute), { recursive: true });
   writeFileSync(destinationAbsolute, file.content, 'utf8');
 
+  const reservedMetadataKeys = new Set([
+    'id',
+    'track',
+    'officialTrackName',
+    'level',
+    'lessonNumber',
+    'title',
+    'version',
+    'author',
+    'date',
+  ]);
+  const metadata = Object.fromEntries(
+    Object.entries(meta).filter(([key]) => !reservedMetadataKeys.has(key)),
+  );
+
   const freshRegistry = readRegistry();
   upsertAsset(freshRegistry, parsed, {
     id: parsed.id,
@@ -297,6 +312,7 @@ async function processFile(file) {
     track: parsed.track,
     trackName: parsed.trackName,
     level: parsed.level,
+    lessonNumber: parsed.type === 'lesson' ? (Number.parseInt(meta.lessonNumber, 10) || parsed.number) : undefined,
     title: meta.title || '',
     version: newVersion,
     author: meta.author || '',
@@ -308,6 +324,10 @@ async function processFile(file) {
     importedAt: ingestionTimestamp,
     validationPassed: validation.valid,
     warnings: validation.warnings,
+    metadata: {
+      officialTrackName: meta.officialTrackName || parsed.trackName,
+      ...metadata,
+    },
   });
   writeRegistry(freshRegistry);
 
