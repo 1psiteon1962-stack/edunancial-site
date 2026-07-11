@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".test-dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "incremental": false
+  },
+  "include": [
+    "src/lib/ai/guardrails.ts",
+    "src/lib/ai/guardrails.test.ts"
+  ]
+}
