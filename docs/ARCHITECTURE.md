@@ -13,6 +13,25 @@
 - **Static/public assets** live in `public/`.
 - **Configuration/data artifacts** live in `data/` and legacy helper functions in `functions/`.
 
+## Global regional foundation architecture
+- Regional architecture scaffolding is centralized in `src/lib/global-region-foundation.ts`.
+- Canonical foundation routes are under `src/app/regions/**`:
+  - `GET /regions` (global regional index)
+  - `GET /regions/:region`
+  - `GET /regions/:region/:track/:level`
+- Required region foundations currently scaffolded:
+  - `north-america`
+  - `europe`
+  - `latin-america`
+  - `caribbean`
+  - `africa`
+  - `middle-east`
+  - `asia-pacific`
+- Track/level scaffolding is route-only and content-free:
+  - Tracks: `red`, `white`, `blue`
+  - Levels: `level-1` through `level-5`
+- No curriculum content is loaded from this architecture layer; it exists only as structural routing and typed configuration for future integration.
+
 ## Integrations and data sources
 The current implementation supports environment-driven integrations, with safe fallbacks in code:
 - Supabase admin client (`lib/kpi/supabaseAdmin.ts`)
