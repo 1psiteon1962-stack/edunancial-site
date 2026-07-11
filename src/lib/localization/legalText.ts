@@ -53,7 +53,7 @@ your personal information.
 
 // ─── Region overrides ────────────────────────────────────────────────────────
 
-const REGION_LEGAL_OVERRIDES: Partial<Record<RegionCode, Partial<LegalTextPack>>> = {
+const REGION_LEGAL_OVERRIDES: Partial<Record<string, Partial<LegalTextPack>>> = {
   europe: {
     privacyNotice: `
 Your personal data is processed in accordance with GDPR (EU 2016/679) and our
@@ -129,7 +129,7 @@ educational only.
  * Returns the merged legal text pack for a region.
  * Region-specific keys override the global base; unset keys fall back to base.
  */
-export function getLegalText(region: RegionCode): LegalTextPack {
+export function getLegalText(region: string): LegalTextPack {
   const overrides = REGION_LEGAL_OVERRIDES[region] ?? {};
   return { ...BASE_LEGAL, ...overrides };
 }
@@ -138,7 +138,7 @@ export function getLegalText(region: RegionCode): LegalTextPack {
  * Returns a single legal text string by key for a region.
  */
 export function getLegalKey(
-  region: RegionCode,
+  region: string,
   key: keyof LegalTextPack,
 ): string {
   return getLegalText(region)[key];

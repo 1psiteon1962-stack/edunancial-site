@@ -5,7 +5,8 @@
  * No external dependencies.
  */
 
-import { RegionCode, REGION_REGISTRY } from "./engine";
+import { REGION_REGISTRY } from "./engine";
+import type { RegionCode } from "./engine";
 
 // ─── Currency metadata ───────────────────────────────────────────────────────
 

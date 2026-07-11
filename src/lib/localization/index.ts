@@ -2,31 +2,31 @@
  * Localization module – public barrel
  *
  * Import everything you need from "@/lib/localization":
- *
- *   import { translate, formatCurrency, formatDate, getLegalText, REGION_FLAGS } from "@/lib/localization";
+ *   import { resolveRegionalization, loadRegionalCurrency, formatCurrency } from "@/lib/localization";
  */
 
-// Core engine
+// Core regionalization engine
 export {
-  SUPPORTED_LANGUAGES,
-  REGION_FLAGS,
+  resolveRegionFromCountry,
+  resolveRegionalization,
+  loadRegionalLegalNotices,
+  loadRegionalCurrency,
+  resolvePaymentRouting,
   REGION_REGISTRY,
-  isLocaleCode,
-  isRegionEnabled,
-  buildFallbackChain,
-  translate,
-  resolveLocale,
 } from "./engine";
 
 export type {
-  LocaleCode,
+  RegionSlug,
   RegionCode,
+  LegalNoticeType,
+  PaymentProvider,
+  LocalizationAssets,
+  RegionalContent,
+  RegionalizationResolution,
   RegionDefinition,
-  TranslationPack,
-  TranslationTable,
 } from "./engine";
 
-// Currency
+// Currency formatting
 export {
   CURRENCY_META,
   formatCurrency,
@@ -36,7 +36,7 @@ export {
 
 export type { CurrencyMeta, FormatCurrencyOptions } from "./currency";
 
-// Date / time
+// Date / time formatting
 export {
   formatDate,
   formatTime,
@@ -50,6 +50,6 @@ export type { DateStyle, TimeStyle, FormatDateOptions } from "./datetime";
 export { getLegalText, getLegalKey } from "./legalText";
 export type { LegalTextPack } from "./legalText";
 
-// Regional management (admin dashboard data)
+// Regional management table
 export { getRegionalManagementRows } from "./regionalManagement";
 export type { RegionalManagementRow } from "./regionalManagement";
