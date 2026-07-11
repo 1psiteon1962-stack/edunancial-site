@@ -6,6 +6,10 @@ const modules = [
     href: "/admin/dashboard",
   },
   {
+    title: "Digital Library",
+    href: "/admin/library",
+  },
+  {
     title: "Book Management",
     href: "/admin/books",
   },
