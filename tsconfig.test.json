@@ -1,14 +1,16 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "noEmit": false,
-    "outDir": ".test-dist",
     "module": "commonjs",
     "moduleResolution": "node",
-    "incremental": false
+    "outDir": "./.test-out",
+    "noEmit": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
-    "src/lib/ai/guardrails.ts",
-    "src/lib/ai/guardrails.test.ts"
-  ]
+    "src/lib/localization/**/*.ts"
+  ],
+  "exclude": ["node_modules", ".next"]
 }

@@ -9,6 +9,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit --incremental false",
     "guardrails:test": "rm -rf .test-dist && tsc -p tsconfig.test.json && node --test .test-dist/guardrails.test.js",
+    "localization:test": "tsc -p tsconfig.test.json && node --test .test-out/engine.test.js",
     "curriculum:import": "node scripts/curriculum/import.mjs",
     "curriculum:validate": "node scripts/curriculum/validate.mjs",
     "curriculum:audit": "node scripts/curriculum/audit.mjs",
