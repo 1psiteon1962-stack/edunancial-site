@@ -13,6 +13,7 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.local
 
 # Debug
 npm-debug.log*
@@ -24,8 +25,15 @@ yarn-error.log*
 *.pem
 *.tsbuildinfo
 
+# Vercel
+.vercel
+
 # Velite generated (keep tracked)
 !.velite
 !.velite/generated
 node_modules
 .next
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
