@@ -1,8 +1,17 @@
 export const REGION_LANGUAGES: Record<string, readonly string[]> = {
   us: ["en", "es"],
+  "north-america": ["en", "es", "fr"],
+  "europe-2a": ["en", "fr", "de", "es", "it"],
+  "europe-2b": ["en", "fr", "de", "es", "it"],
+  "latin-america-2a": ["es", "pt", "en"],
+  "latin-america-2b": ["pt", "es", "en"],
   mena: ["ar", "en", "fr"],
+  "middle-east": ["ar", "en", "fr"],
   europe: ["en", "fr", "de", "es", "it"],
   "asia-pacific": ["en", "zh", "ja", "ko"],
   "asia-emerging": ["en", "hi", "bn", "ur"],
+  asia: ["en", "zh", "ja", "ko", "hi"],
   caribbean: ["en", "es", "fr"],
+  africa: ["en", "fr", "sw", "ar"],
+  oceania: ["en"],
 };
