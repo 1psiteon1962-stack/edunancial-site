@@ -1,3 +1,5 @@
+import InternationalPreferencesPanel from "@/components/international/InternationalPreferencesPanel";
+
 export const metadata = {
   title: "Member Settings | Edunancial",
 };
@@ -41,6 +43,10 @@ export default function MemberSettingsPage() {
           Privacy Settings
         </div>
 
+      </div>
+
+      <div className="mt-8">
+        <InternationalPreferencesPanel />
       </div>
 
     </main>

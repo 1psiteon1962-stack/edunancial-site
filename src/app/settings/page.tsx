@@ -1,3 +1,5 @@
+import InternationalPreferencesPanel from "@/components/international/InternationalPreferencesPanel";
+
 export default function Settings(){
 
 return(
@@ -32,11 +34,7 @@ Notifications
 
 </div>
 
-<div className="rounded-xl border p-6">
-
-Language
-
-</div>
+<InternationalPreferencesPanel />
 
 <div className="rounded-xl border p-6">
 
