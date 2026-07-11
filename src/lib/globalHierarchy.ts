@@ -1,3 +1,9 @@
+import {
+  APAC_CURRENCY_REGISTRY,
+  APAC_FOUNDATION_COUNTRIES,
+  APAC_LANGUAGE_REGISTRY,
+} from "@/lib/regionalization/apacFoundation";
+
 export interface GlobalHierarchy {
 
   region: string;
@@ -69,9 +75,9 @@ export const GLOBAL_HIERARCHY: GlobalHierarchy[] = [
 
   {
     region: "Asia Pacific",
-    countries: [],
-    languages: ["en","zh","ja","ko"],
-    currencies: ["USD","JPY"]
+    countries: APAC_FOUNDATION_COUNTRIES.map((country) => country.isoCode),
+    languages: APAC_LANGUAGE_REGISTRY.map((language) => language.code),
+    currencies: APAC_CURRENCY_REGISTRY.map((currency) => currency.code)
   }
 
 ];

@@ -1,3 +1,9 @@
+import {
+  APAC_FOUNDATION_COUNTRIES,
+  isApacAudienceEnabled,
+  type LaunchControls,
+} from "@/lib/regionalization/apacFoundation";
+
 export type LaunchStatus = "live" | "coming-soon" | "planned";
 
 export interface CountryConfig {
@@ -11,11 +17,38 @@ export interface CountryConfig {
 
   launchStatus: LaunchStatus;
 
+  region?: string;
+
+  locales?: string[];
+
+  launchControls?: LaunchControls;
+
   marketplaceEnabled: boolean;
   assessmentEnabled: boolean;
   passportEnabled: boolean;
   coursesEnabled: boolean;
 }
+
+const apacCountries: CountryConfig[] = APAC_FOUNDATION_COUNTRIES.map((country) => ({
+  id: country.id,
+  name: country.country,
+  iso2: country.isoCode,
+  currency: country.currency.code,
+  currencySymbol: country.currency.symbol,
+  language: country.languages[0]?.label ?? "English",
+  timezone: country.timezone,
+  launchStatus: country.status === "beta" ? "coming-soon" : "planned",
+  region: "asia-pacific",
+  locales: country.languages.map((language) => language.locale),
+  launchControls: country.launchControls,
+  marketplaceEnabled:
+    country.capabilities.marketplace && isApacAudienceEnabled(country.id, "public"),
+  assessmentEnabled:
+    country.capabilities.assessments && isApacAudienceEnabled(country.id, "public"),
+  passportEnabled: isApacAudienceEnabled(country.id, "public"),
+  coursesEnabled:
+    country.capabilities.courses && isApacAudienceEnabled(country.id, "public"),
+}));
 
 export const countries: CountryConfig[] = [
 
@@ -154,5 +187,7 @@ export const countries: CountryConfig[] = [
     passportEnabled: false,
     coursesEnabled: false,
   },
+
+  ...apacCountries,
 
 ];

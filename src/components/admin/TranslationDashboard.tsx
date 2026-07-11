@@ -1,14 +1,6 @@
+import { supportedLanguages } from "@/lib/i18n/languages";
+
 export default function TranslationDashboard() {
-
-  const languages = [
-    "English",
-    "Spanish",
-    "French",
-    "Portuguese",
-    "Arabic",
-    "Swahili",
-  ];
-
   return (
     <section className="rounded-xl bg-slate-900 p-8">
 
@@ -18,14 +10,14 @@ export default function TranslationDashboard() {
 
       <div className="mt-8 space-y-3">
 
-        {languages.map((language) => (
+        {supportedLanguages.map((language) => (
 
           <div
-            key={language}
+            key={language.code}
             className="flex justify-between rounded bg-slate-800 p-4"
           >
             <span className="text-white">
-              {language}
+              {language.label}
             </span>
 
             <span className="text-green-400">

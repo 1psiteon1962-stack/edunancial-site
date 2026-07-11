@@ -7,6 +7,12 @@ export type CountryStatus =
   | "suspended"
   | "disabled";
 
+import type {
+  LaunchControls,
+  RegionalComplianceConfiguration,
+  RegionalTaxConfiguration,
+} from "@/lib/regionalization/apacFoundation";
+
 export interface CountryConfiguration {
 
   isoCode: string;
@@ -38,5 +44,21 @@ export interface CountryConfiguration {
   currency: string;
 
   language: string;
+
+  region?: string;
+
+  locales?: string[];
+
+  founderControlsEnabled?: boolean;
+
+  betaTesterControlsEnabled?: boolean;
+
+  launchControls?: LaunchControls;
+
+  taxConfiguration?: RegionalTaxConfiguration;
+
+  complianceConfiguration?: RegionalComplianceConfiguration;
+
+  seoLocale?: string;
 
 }
