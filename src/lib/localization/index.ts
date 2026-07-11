@@ -49,3 +49,7 @@ export type { DateStyle, TimeStyle, FormatDateOptions } from "./datetime";
 // Legal text
 export { getLegalText, getLegalKey } from "./legalText";
 export type { LegalTextPack } from "./legalText";
+
+// Regional management (admin dashboard data)
+export { getRegionalManagementRows } from "./regionalManagement";
+export type { RegionalManagementRow } from "./regionalManagement";
