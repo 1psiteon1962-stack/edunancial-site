@@ -24,3 +24,5 @@ yarn-error.log*
 # Velite generated (keep tracked)
 !.velite
 !.velite/generated
+# Test build output
+.test-out/
