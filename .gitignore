@@ -27,3 +27,5 @@ yarn-error.log*
 # Velite generated (keep tracked)
 !.velite
 !.velite/generated
+node_modules
+.next
