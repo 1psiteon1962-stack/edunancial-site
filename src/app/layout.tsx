@@ -4,8 +4,14 @@ import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import DetectedPreferencesBanner from "@/components/international/DetectedPreferencesBanner";
+import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
+import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 
 const siteUrl = "https://www.edunancial.com";
+const languageAlternates = Object.fromEntries(
+  LANGUAGE_CATALOG.map((language) => [language.code, `${siteUrl}/${language.code}/`])
+);
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -68,6 +74,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: siteUrl,
+    languages: languageAlternates,
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? undefined,
@@ -113,10 +120,13 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#08101f] text-white">
-        <AnnouncementBar />
-        <Navbar />
-        {children}
-        <Footer />
+        <InternationalPreferencesProvider>
+          <AnnouncementBar />
+          <Navbar />
+          <DetectedPreferencesBanner />
+          {children}
+          <Footer />
+        </InternationalPreferencesProvider>
       </body>
     </html>
   );
