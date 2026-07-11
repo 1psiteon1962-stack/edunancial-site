@@ -1,3 +1,5 @@
+import { APAC_FOUNDATION_COUNTRIES } from "@/lib/regionalization/apacFoundation";
+
 export interface ProductPrice {
   id: string;
   name: string;
@@ -12,6 +14,33 @@ export interface CountryPricing {
 
   products: ProductPrice[];
 }
+
+const apacPricing: CountryPricing[] = APAC_FOUNDATION_COUNTRIES.map((country) => ({
+  countryId: country.id,
+  products: [
+    {
+      id: "assessment",
+      name: "Financial Competency Assessment",
+      amount: country.pricing.assessment,
+      currency: country.currency.code,
+      currencySymbol: country.currency.symbol,
+    },
+    {
+      id: "monthly",
+      name: "Monthly Membership",
+      amount: country.pricing.monthly,
+      currency: country.currency.code,
+      currencySymbol: country.currency.symbol,
+    },
+    {
+      id: "annual",
+      name: "Annual Membership",
+      amount: country.pricing.annual,
+      currency: country.currency.code,
+      currencySymbol: country.currency.symbol,
+    },
+  ],
+}));
 
 export const pricing: CountryPricing[] = [
 
@@ -310,6 +339,8 @@ export const pricing: CountryPricing[] = [
     ],
 
   },
+
+  ...apacPricing,
 
 ];
 

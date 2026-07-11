@@ -52,9 +52,25 @@ export const regionCurriculumContent: RegionCurriculumContent = {
       title: "グローバルカリキュラム",
       description: "構造・規律・システムに焦点を当てたグローバルなカリキュラム。",
     },
+    zh: {
+      title: "全球课程",
+      description: "一套聚焦结构、纪律与系统的全球通用课程。",
+    },
     ko: {
       title: "글로벌 커리큘럼",
       description: "구조, 규율, 시스템에 초점을 맞춘 글로벌 커리큘럼.",
+    },
+    fil: {
+      title: "Pandaigdigang Kurikulum",
+      description: "Isang pandaigdigang kurikulum na nakatuon sa istruktura, disiplina, at mga sistema.",
+    },
+    hi: {
+      title: "वैश्विक पाठ्यक्रम",
+      description: "संरचना, अनुशासन और प्रणालियों पर केंद्रित वैश्विक पाठ्यक्रम।",
+    },
+    ms: {
+      title: "Kurikulum Global",
+      description: "Kurikulum global yang memfokuskan struktur, disiplin, dan sistem.",
     },
     de: {
       title: "Globaler Lehrplan",

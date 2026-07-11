@@ -31,6 +31,20 @@ community:boolean;
 
 analytics:boolean;
 
+apacFoundation:boolean;
+
+apacRegionalPricing:boolean;
+
+apacTax:boolean;
+
+apacCompliance:boolean;
+
+apacSeo:boolean;
+
+founderControls:boolean;
+
+betaTesterControls:boolean;
+
 }
 
 export const DefaultFeatures:FeatureFlags={
@@ -60,5 +74,19 @@ marketplace:false,
 community:false,
 
 analytics:true,
+
+apacFoundation:false,
+
+apacRegionalPricing:false,
+
+apacTax:false,
+
+apacCompliance:false,
+
+apacSeo:false,
+
+founderControls:false,
+
+betaTesterControls:false,
 
 };

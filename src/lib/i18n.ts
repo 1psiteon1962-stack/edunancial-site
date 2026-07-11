@@ -1,21 +1,15 @@
 // src/lib/i18n.ts
 
-export const supportedLanguages = [
-  "en", // English
-  "es", // Spanish
-  "fr", // French
-  "pt", // Portuguese
-  "ar", // Arabic
-  "ja", // Japanese
-  "ko", // Korean
-  "de", // German
-  "it", // Italian
-] as const;
+import {
+  languages as supportedLanguages,
+  type Language,
+} from "@/lib/i18n/languages";
 
-export type Language = typeof supportedLanguages[number];
+export { supportedLanguages };
+export type { Language };
 
 export const isLanguage = (value: string): value is Language => {
-  return (supportedLanguages as readonly string[]).includes(value);
+  return supportedLanguages.includes(value as Language);
 };
 
 /**
@@ -57,6 +51,22 @@ const translations: Record<Language, Record<string, string>> = {
   ko: {
     doctrine_title: "교리",
     doctrine_body: "기본 원칙과 구조.",
+  },
+  zh: {
+    doctrine_title: "原则",
+    doctrine_body: "基础原则与结构。",
+  },
+  fil: {
+    doctrine_title: "Doktrina",
+    doctrine_body: "Pangunahing mga prinsipyo at istruktura.",
+  },
+  hi: {
+    doctrine_title: "सिद्धांत",
+    doctrine_body: "मूलभूत सिद्धांत और संरचना।",
+  },
+  ms: {
+    doctrine_title: "Doktrin",
+    doctrine_body: "Prinsip dan struktur asas.",
   },
   de: {
     doctrine_title: "Doktrin",
