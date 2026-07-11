@@ -46,12 +46,24 @@ export const regions: Region[] = [
   {
     id: "africa",
     name: "Africa",
-    countries: [],
+    countries: [
+      "Algeria","Egypt","Libya","Morocco","Sudan","Tunisia","Western Sahara",
+      "Burundi","Comoros","Djibouti","Eritrea","Ethiopia","Kenya","Madagascar",
+      "Malawi","Mauritius","Mozambique","Rwanda","Réunion","Seychelles","Somalia",
+      "South Sudan","Tanzania","Uganda","Zambia","Zimbabwe",
+      "Benin","Burkina Faso","Cape Verde","Côte d'Ivoire","Gambia","Ghana","Guinea",
+      "Guinea-Bissau","Liberia","Mali","Mauritania","Niger","Nigeria","Saint Helena",
+      "Senegal","Sierra Leone","Togo",
+      "Angola","Cameroon","Central African Republic","Chad","Republic of the Congo",
+      "DR Congo","Equatorial Guinea","Gabon","São Tomé and Príncipe",
+      "Botswana","Eswatini","Lesotho","Namibia","South Africa"
+    ],
     defaultLanguages: [
       "en",
       "fr",
-      "sw",
-      "ar"
+      "ar",
+      "pt",
+      "sw"
     ]
   },
 

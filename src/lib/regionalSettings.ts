@@ -32,6 +32,15 @@ export const regionalSettings: RegionalSettings[] = [
     supportedLanguages: ["es","en","fr"],
     supportedCurrencies: ["USD","DOP","JMD"],
     active: true
+  },
+
+  {
+    region: "africa",
+    defaultLanguage: "en",
+    defaultCurrency: "USD",
+    supportedLanguages: ["en","fr","ar","pt","sw"],
+    supportedCurrencies: ["USD","NGN","ZAR","KES","GHS","EGP","MAD"],
+    active: false
   }
 
 ];
