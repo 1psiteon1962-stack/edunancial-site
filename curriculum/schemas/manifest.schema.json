@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum/schemas/manifest.schema.json",
+  "title": "Curriculum Track Manifest Front Matter",
+  "description": "Schema for manifest metadata declared in a markdown front-matter block.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "track",
+    "officialTrackName",
+    "level",
+    "title",
+    "version",
+    "author",
+    "date",
+    "regionalStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L[1-9]-MANIFEST$"
+    },
+    "track": {
+      "type": "string",
+      "enum": ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]
+    },
+    "officialTrackName": { "type": "string", "minLength": 1 },
+    "level": { "type": "integer", "minimum": 1, "maximum": 9 },
+    "title": { "type": "string", "minLength": 1 },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\.[0-9]+(?:\.[0-9]+)?$"
+    },
+    "author": { "type": "string", "minLength": 1 },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "regionalStatus": { "type": "string", "minLength": 1 },
+    "lessonIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L[1-9]-[0-9]{3}$"
+      }
+    }
+  }
+}

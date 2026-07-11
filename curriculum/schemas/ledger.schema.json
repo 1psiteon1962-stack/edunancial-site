@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum/schemas/ledger.schema.json",
+  "title": "Curriculum Ingestion Ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_schema", "_version", "_note", "entries"],
+  "properties": {
+    "_schema": { "type": "string" },
+    "_version": { "type": "string" },
+    "_note": { "type": "string" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["ingestionId", "timestamp", "operation", "assetId", "source", "outcome"],
+        "properties": {
+          "ingestionId": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "operation": {
+            "type": "string",
+            "enum": ["import", "update", "supersede", "reject", "stage", "skip", "conflict"]
+          },
+          "assetId": { "type": "string" },
+          "assetVersion": { "type": "string" },
+          "source": { "type": "string" },
+          "destination": { "type": "string" },
+          "checksum": { "type": "string" },
+          "outcome": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

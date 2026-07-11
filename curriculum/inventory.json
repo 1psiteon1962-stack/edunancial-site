@@ -1,0 +1,11 @@
+{
+  "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
+  "_generated": "2026-07-11T04:10:43.971Z",
+  "summary": {
+    "totalLessons": 0,
+    "totalTracks": 0,
+    "totalLevels": 0,
+    "byTrack": {}
+  },
+  "assets": []
+}
