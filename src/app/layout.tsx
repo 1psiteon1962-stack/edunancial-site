@@ -13,6 +13,7 @@ const siteUrl = "https://www.edunancial.com";
 const languageAlternates = Object.fromEntries(
   LANGUAGE_CATALOG.map((language) => [language.code, `${siteUrl}/${language.code}/`])
 );
+languageAlternates["x-default"] = siteUrl;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

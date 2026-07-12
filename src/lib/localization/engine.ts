@@ -45,7 +45,6 @@ export interface LocalizationAssets {
 }
 
 export interface RegionalContent {
-  language: string;
   currency: string;
   legalNotices: Record<LegalNoticeType, string>;
   taxDisclaimers: string[];
@@ -88,7 +87,7 @@ export interface RegionalizationAiHooks {
 export interface RegionalizationResolution {
   region: RegionSlug;
   countryCode?: string;
-  language: string;
+  interfaceLanguage: string;
   currency: string;
   legalNotices: Record<LegalNoticeType, string>;
   taxDisclaimers: string[];
@@ -115,7 +114,6 @@ const GLOBAL_LEGAL_NOTICES: Record<LegalNoticeType, string> = {
 
 const CONTENT_LAYERS: ContentLayers = {
   globalCore: {
-    language: "en",
     currency: "USD",
     legalNotices: GLOBAL_LEGAL_NOTICES,
     taxDisclaimers: ["Global tax disclaimer."],
@@ -136,7 +134,6 @@ const CONTENT_LAYERS: ContentLayers = {
   },
   regionalOverrides: {
     "north-america": {
-      language: "en",
       currency: "USD",
       paymentProviders: ["square", "stripe"],
       legalNotices: {
@@ -154,7 +151,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "latin-america-2a": {
-      language: "es",
       localizationAssets: {
         dateFormat: "DD/MM/YYYY",
         numberFormat: "1.234,56",
@@ -165,7 +161,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "latin-america-2b": {
-      language: "pt",
       localizationAssets: {
         dateFormat: "DD/MM/YYYY",
         numberFormat: "1.234,56",
@@ -176,7 +171,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     caribbean: {
-      language: "es",
       currency: "USD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -193,7 +187,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "europe-2a": {
-      language: "en",
       currency: "EUR",
       paymentProviders: ["stripe"],
       legalNotices: {
@@ -210,12 +203,10 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "europe-2b": {
-      language: "en",
       currency: "EUR",
       paymentProviders: ["stripe"],
     },
     africa: {
-      language: "en",
       currency: "USD",
       paymentProviders: ["flutterwave", "paystack", "mobile-money"],
       legalNotices: {
@@ -232,22 +223,18 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "middle-east": {
-      language: "ar",
       paymentProviders: ["regional-gateway", "stripe"],
     },
     asia: {
-      language: "en",
       paymentProviders: ["regional-gateway", "stripe"],
     },
     oceania: {
-      language: "en",
       currency: "AUD",
       paymentProviders: ["stripe"],
     },
   },
   countryOverrides: {
     US: {
-      language: "en",
       currency: "USD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -260,12 +247,10 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     CA: {
-      language: "en",
       currency: "CAD",
       paymentProviders: ["square", "stripe"],
     },
     NG: {
-      language: "en",
       currency: "NGN",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -285,7 +270,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     ES: {
-      language: "es",
       currency: "EUR",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -294,7 +278,6 @@ const CONTENT_LAYERS: ContentLayers = {
       paymentProviders: ["stripe"],
     },
     DO: {
-      language: "es",
       currency: "DOP",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -314,7 +297,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     JP: {
-      language: "ja",
       currency: "JPY",
       educationalExamples: {
         mortgage: "Mortgage example: ¥35,000,000 principal in JPY.",
@@ -367,7 +349,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "caribbean",
     name: "Caribbean",
     enabled: true,
-    supportedLanguages: ["es", "en", "fr"],
+    supportedLanguages: ["es", "en", "fr", "nl", "ht", "pap"],
     supportedCurrencies: ["USD", "DOP", "JMD"],
     status: "Ready for Publication",
     translationCompletion: 96,
@@ -377,7 +359,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "europe-2a",
     name: "Europe 2A",
     enabled: true,
-    supportedLanguages: ["en", "es", "fr", "de", "it"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "GBP", "CHF"],
     status: "Legal Review Needed",
     translationCompletion: 87,
@@ -387,7 +369,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "europe-2b",
     name: "Europe 2B",
     enabled: true,
-    supportedLanguages: ["en", "es", "fr", "de", "it"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "PLN", "CZK", "HUF"],
     status: "Localization Needed",
     translationCompletion: 82,
@@ -397,7 +379,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "africa",
     name: "Africa",
     enabled: true,
-    supportedLanguages: ["en", "fr", "sw", "ar"],
+    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "yo", "zu", "am"],
     supportedCurrencies: ["USD", "NGN", "KES", "ZAR", "EGP"],
     status: "Translation Needed",
     translationCompletion: 68,
@@ -417,7 +399,21 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "asia",
     name: "Asia",
     enabled: true,
-    supportedLanguages: ["en", "zh", "ja", "ko", "hi"],
+    supportedLanguages: [
+      "en",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "zh-Hant",
+      "hi",
+      "th",
+      "vi",
+      "ms",
+      "id",
+      "fil",
+      "ta",
+      "bn",
+    ],
     supportedCurrencies: ["USD", "JPY", "SGD", "KRW", "INR"],
     status: "Localization Needed",
     translationCompletion: 75,
@@ -502,6 +498,7 @@ export function resolveRegionalization(
   options: {
     region?: RegionSlug;
     countryCode?: string;
+    userPreferredLanguage?: string;
   } = {}
 ): RegionalizationResolution {
   const countryCode = options.countryCode?.toUpperCase();
@@ -513,7 +510,7 @@ export function resolveRegionalization(
   return {
     region,
     countryCode,
-    language: merged.language,
+    interfaceLanguage: normalizeInterfaceLanguage(options.userPreferredLanguage),
     currency: merged.currency,
     legalNotices: merged.legalNotices,
     taxDisclaimers: merged.taxDisclaimers,
@@ -535,6 +532,28 @@ export function resolveRegionalization(
         "Placeholder: AI can suggest conversion ranges; no payment processing impact.",
     },
   };
+}
+
+function normalizeInterfaceLanguage(languageCode: string | undefined) {
+  if (!languageCode) {
+    return "en";
+  }
+
+  const normalized = languageCode.trim().toLowerCase();
+
+  if (normalized === "zh" || normalized === "zh-cn" || normalized === "zh-hans") {
+    return "zh-Hans";
+  }
+
+  if (normalized === "zh-tw" || normalized === "zh-hk" || normalized === "zh-hant") {
+    return "zh-Hant";
+  }
+
+  if (normalized === "tl") {
+    return "fil";
+  }
+
+  return normalized;
 }
 
 export function loadRegionalLegalNotices(
@@ -563,4 +582,3 @@ export function getRegionalManagementRows() {
     ).length,
   }));
 }
-

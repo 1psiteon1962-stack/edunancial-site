@@ -1,35 +1,18 @@
-// src/lib/i18n.ts
+import { LANGUAGE_CATALOG } from "./international/languages";
 
-export const supportedLanguages = [
-  "en", // English
-  "es", // Spanish
-  "fr", // French
-  "pt", // Portuguese
-  "ar", // Arabic
-  "ja", // Japanese
-  "ko", // Korean
-  "de", // German
-  "it", // Italian
-] as const;
+export const supportedLanguages = LANGUAGE_CATALOG.map((language) => language.code) as readonly string[];
 
-export type Language = typeof supportedLanguages[number];
+export type Language = string;
 
 export const isLanguage = (value: string): value is Language => {
-  return (supportedLanguages as readonly string[]).includes(value);
+  return supportedLanguages.includes(value);
 };
 
-/**
- * Region → allowed languages
- * Used by static param generation
- */
-export const REGION_LANGUAGES: Record<string, readonly Language[]> = {
+export const REGION_LANGUAGES: Record<string, readonly string[]> = {
   global: supportedLanguages,
 };
 
-/**
- * Central translation table.
- */
-const translations: Record<Language, Record<string, string>> = {
+const translations: Record<string, Record<string, string>> = {
   en: {
     doctrine_title: "Doctrine",
     doctrine_body: "Foundational principles and structure.",
@@ -71,3 +54,4 @@ const translations: Record<Language, Record<string, string>> = {
 export function t(lang: Language, key: string): string {
   return translations[lang]?.[key] ?? translations.en[key] ?? key;
 }
+

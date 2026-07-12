@@ -13,10 +13,18 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "de", label: "German", nativeLabel: "Deutsch", rtl: false },
   { code: "it", label: "Italian", nativeLabel: "Italiano", rtl: false },
   { code: "nl", label: "Dutch", nativeLabel: "Nederlands", rtl: false },
+  { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl Ayisyen", rtl: false },
+  { code: "pap", label: "Papiamento", nativeLabel: "Papiamentu", rtl: false },
   { code: "pl", label: "Polish", nativeLabel: "Polski", rtl: false },
   { code: "ar", label: "Arabic", nativeLabel: "العربية", rtl: true },
   { code: "he", label: "Hebrew", nativeLabel: "עברית", rtl: true },
   { code: "hi", label: "Hindi", nativeLabel: "हिन्दी", rtl: false },
+  { code: "th", label: "Thai", nativeLabel: "ไทย", rtl: false },
+  { code: "vi", label: "Vietnamese", nativeLabel: "Tiếng Việt", rtl: false },
+  { code: "ms", label: "Malay", nativeLabel: "Bahasa Melayu", rtl: false },
+  { code: "id", label: "Bahasa Indonesia", nativeLabel: "Bahasa Indonesia", rtl: false },
+  { code: "fil", label: "Filipino", nativeLabel: "Filipino", rtl: false },
+  { code: "ta", label: "Tamil", nativeLabel: "தமிழ்", rtl: false },
   { code: "bn", label: "Bengali", nativeLabel: "বাংলা", rtl: false },
   { code: "ur", label: "Urdu", nativeLabel: "اردو", rtl: true },
   {
@@ -35,6 +43,9 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "ko", label: "Korean", nativeLabel: "한국어", rtl: false },
   { code: "ru", label: "Russian", nativeLabel: "Русский", rtl: false },
   { code: "sw", label: "Swahili", nativeLabel: "Kiswahili", rtl: false },
+  { code: "yo", label: "Yoruba", nativeLabel: "Yorùbá", rtl: false },
+  { code: "zu", label: "Zulu", nativeLabel: "isiZulu", rtl: false },
+  { code: "am", label: "Amharic", nativeLabel: "አማርኛ", rtl: false },
 ] as const;
 
 export const DEFAULT_LANGUAGE_CODE = "en";
@@ -47,7 +58,10 @@ export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
   "zh-tw": "zh-Hant",
   "zh-hk": "zh-Hant",
   "zh-mo": "zh-Hant",
+  tl: "fil",
 };
+
+export const FRAMEWORK_READY_LANGUAGE_CODES = ["pap", "sw", "yo", "zu", "am", "th", "vi", "ms", "id", "fil", "ta", "bn"] as const;
 
 export const LANGUAGE_ADMIN_STORAGE_KEY = "edunancial:language-admin";
 

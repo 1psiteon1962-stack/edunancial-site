@@ -1,199 +1,38 @@
-export default function sitemap(){
-
-return[
-
-{
-
-url:
-
-"https://www.edunancial.com",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/about",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/courses",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/membership",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/levels",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/sponsor",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/contact",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/privacy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/trust-center",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/security",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/disclaimer",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/terms",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/refund-policy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/faq",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/assessment",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/why-edunancial",
-
-lastModified:
-
-new Date(),
-
-},
-
+import type { MetadataRoute } from "next";
+
+import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+
+const SITE_URL = "https://www.edunancial.com";
+const PATHS = [
+  "",
+  "/about",
+  "/courses",
+  "/membership",
+  "/levels",
+  "/sponsor",
+  "/contact",
+  "/privacy",
+  "/trust-center",
+  "/security",
+  "/disclaimer",
+  "/terms",
+  "/refund-policy",
+  "/faq",
+  "/assessment",
+  "/why-edunancial",
 ];
 
+export default function sitemap(): MetadataRoute.Sitemap {
+  const languageAlternates = Object.fromEntries(
+    LANGUAGE_CATALOG.map((language) => [language.code, `${SITE_URL}/?lang=${language.code}`])
+  );
+
+  return PATHS.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: new Date(),
+    alternates: {
+      languages: languageAlternates,
+    },
+  }));
 }
+

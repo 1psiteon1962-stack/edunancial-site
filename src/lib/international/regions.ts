@@ -15,11 +15,28 @@ export type SupportedLanguageCode =
   | "es"
   | "fr"
   | "pt"
+  | "de"
+  | "it"
+  | "nl"
+  | "ht"
+  | "pap"
   | "ar"
   | "sw"
+  | "yo"
+  | "zu"
+  | "am"
   | "ja"
   | "ko"
-  | "zh-Hans";
+  | "zh-Hans"
+  | "zh-Hant"
+  | "hi"
+  | "th"
+  | "vi"
+  | "ms"
+  | "id"
+  | "fil"
+  | "ta"
+  | "bn";
 
 export type RegionalPaymentProviderId =
   | "square"
@@ -92,7 +109,7 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   caribbean: {
     id: "caribbean",
-    supportedLanguages: ["en", "es", "fr"],
+    supportedLanguages: ["en", "es", "fr", "nl", "ht", "pap"],
     supportedCurrencies: ["USD", "DOP", "JMD", "TTD"],
     defaultTimeZone: "America/Santo_Domingo",
     countries: ["DO", "JM", "TT", "BB", "BS"],
@@ -109,7 +126,7 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   europe: {
     id: "europe",
-    supportedLanguages: ["en", "fr", "es", "pt"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "GBP", "CHF"],
     defaultTimeZone: "Europe/Paris",
     countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT"],
@@ -126,7 +143,7 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   africa: {
     id: "africa",
-    supportedLanguages: ["en", "fr", "sw", "ar"],
+    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "yo", "zu", "am"],
     supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "USD"],
     defaultTimeZone: "Africa/Lagos",
     countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG"],
@@ -160,7 +177,21 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   "asia-pacific": {
     id: "asia-pacific",
-    supportedLanguages: ["en", "ja", "ko", "zh-Hans"],
+    supportedLanguages: [
+      "en",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "zh-Hant",
+      "hi",
+      "th",
+      "vi",
+      "ms",
+      "id",
+      "fil",
+      "ta",
+      "bn",
+    ],
     supportedCurrencies: ["JPY", "KRW", "SGD", "AUD", "USD"],
     defaultTimeZone: "Asia/Singapore",
     countries: ["JP", "KR", "CN", "SG", "AU", "NZ", "PH"],
