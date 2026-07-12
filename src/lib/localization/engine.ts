@@ -226,7 +226,7 @@ const CONTENT_LAYERS: ContentLayers = {
     },
     africa: {
       currency: "USD",
-      paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+      paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
         taxDisclaimer: "Africa tax disclaimer by country.",
@@ -305,7 +305,7 @@ const CONTENT_LAYERS: ContentLayers = {
         ...GLOBAL_LEGAL_NOTICES,
         taxDisclaimer: "Nigeria-specific tax disclaimer.",
       },
-      paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+      paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
       educationalExamples: {
         mortgage: "Mortgage example: ₦120,000,000 principal in NGN.",
       },
@@ -316,6 +316,62 @@ const CONTENT_LAYERS: ContentLayers = {
         phoneFormat: "+234 ### ### ####",
         measurementUnits: "metric",
         timezone: "Africa/Lagos",
+      },
+    },
+    KE: {
+      currency: "KES",
+      paymentProviders: ["mobile-money", "flutterwave", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-county-postal-country",
+        phoneFormat: "+254 ### ### ###",
+        measurementUnits: "metric",
+        timezone: "Africa/Nairobi",
+      },
+    },
+    ZA: {
+      currency: "ZAR",
+      paymentProviders: ["flutterwave", "paystack", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY/MM/DD",
+        numberFormat: "1,234.56",
+        addressFormat: "street-suburb-city-postal-country",
+        phoneFormat: "+27 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Africa/Johannesburg",
+      },
+    },
+    EG: {
+      currency: "EGP",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Egypt privacy notice.",
+      },
+      paymentProviders: ["stripe", "mobile-money"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "building-street-district-city-country",
+        phoneFormat: "+20 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Africa/Cairo",
+      },
+    },
+    MA: {
+      currency: "USD",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Francophone Africa privacy notice.",
+      },
+      paymentProviders: ["stripe", "mobile-money"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1 234,56",
+        addressFormat: "street-city-region-postal-country",
+        phoneFormat: "+212 ### ######",
+        measurementUnits: "metric",
+        timezone: "Africa/Casablanca",
       },
     },
     ES: {
@@ -438,6 +494,171 @@ const CONTENT_LAYERS: ContentLayers = {
         timezone: "Asia/Tokyo",
       },
     },
+    KR: {
+      currency: "KRW",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₩450,000,000 principal in KRW.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY.MM.DD",
+        numberFormat: "1,234",
+        addressFormat: "postal-city-district-street",
+        phoneFormat: "+82 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Seoul",
+      },
+    },
+    CN: {
+      currency: "CNY",
+      educationalExamples: {
+        mortgage: "Mortgage example: ¥2,000,000 principal in CNY.",
+      },
+      paymentProviders: ["regional-gateway"],
+      localizationAssets: {
+        dateFormat: "YYYY年MM月DD日",
+        numberFormat: "1,234.56",
+        addressFormat: "postal-province-city-district-street",
+        phoneFormat: "+86 ### #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Shanghai",
+      },
+    },
+    TW: {
+      currency: "TWD",
+      educationalExamples: {
+        mortgage: "Mortgage example: NT$10,000,000 principal in TWD.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY/MM/DD",
+        numberFormat: "1,234",
+        addressFormat: "postal-city-district-street",
+        phoneFormat: "+886 # #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Taipei",
+      },
+    },
+    HK: {
+      currency: "HKD",
+      educationalExamples: {
+        mortgage: "Mortgage example: HK$6,000,000 principal in HKD.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-district-region",
+        phoneFormat: "+852 #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Hong_Kong",
+      },
+    },
+    SG: {
+      currency: "SGD",
+      educationalExamples: {
+        mortgage: "Mortgage example: S$800,000 principal in SGD.",
+      },
+      paymentProviders: ["stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-unit-postal-country",
+        phoneFormat: "+65 #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Singapore",
+      },
+    },
+    IN: {
+      currency: "INR",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₹7,500,000 principal in INR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,23,456.78",
+        addressFormat: "street-city-state-postal-country",
+        phoneFormat: "+91 ##### #####",
+        measurementUnits: "metric",
+        timezone: "Asia/Kolkata",
+      },
+    },
+    PH: {
+      currency: "PHP",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₱5,000,000 principal in PHP.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "MM/DD/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-province-postal-country",
+        phoneFormat: "+63 ### ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Manila",
+      },
+    },
+    TH: {
+      currency: "THB",
+      educationalExamples: {
+        mortgage: "Mortgage example: ฿3,500,000 principal in THB.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-district-city-postal-country",
+        phoneFormat: "+66 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Bangkok",
+      },
+    },
+    MY: {
+      currency: "MYR",
+      educationalExamples: {
+        mortgage: "Mortgage example: RM600,000 principal in MYR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-state-postal-country",
+        phoneFormat: "+60 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Kuala_Lumpur",
+      },
+    },
+    ID: {
+      currency: "IDR",
+      educationalExamples: {
+        mortgage: "Mortgage example: Rp 800,000,000 principal in IDR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234,56",
+        addressFormat: "street-city-province-postal-country",
+        phoneFormat: "+62 ### #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Jakarta",
+      },
+    },
+    VN: {
+      currency: "VND",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₫2,000,000,000 principal in VND.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234",
+        addressFormat: "street-ward-district-city-country",
+        phoneFormat: "+84 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Ho_Chi_Minh",
+      },
+    },
   },
 };
 
@@ -541,7 +762,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
       "ta",
       "bn",
     ],
-    supportedCurrencies: ["USD", "JPY", "SGD", "KRW", "INR"],
+    supportedCurrencies: ["USD", "JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND"],
     status: "Localization Needed",
     translationCompletion: 75,
     localizationCompletion: 71,
@@ -584,7 +805,24 @@ const COUNTRY_CONFIGS: CountryConfiguration[] = [
   { countryCode: "LV", country: "Latvia", region: "europe-2b" },
   { countryCode: "LT", country: "Lithuania", region: "europe-2b" },
   { countryCode: "NG", country: "Nigeria", region: "africa" },
+  { countryCode: "KE", country: "Kenya", region: "africa" },
+  { countryCode: "ZA", country: "South Africa", region: "africa" },
+  { countryCode: "EG", country: "Egypt", region: "africa" },
+  { countryCode: "MA", country: "Morocco", region: "africa" },
   { countryCode: "JP", country: "Japan", region: "asia" },
+  { countryCode: "KR", country: "South Korea", region: "asia" },
+  { countryCode: "CN", country: "China", region: "asia" },
+  { countryCode: "TW", country: "Taiwan", region: "asia" },
+  { countryCode: "HK", country: "Hong Kong", region: "asia" },
+  { countryCode: "SG", country: "Singapore", region: "asia" },
+  { countryCode: "IN", country: "India", region: "asia" },
+  { countryCode: "PH", country: "Philippines", region: "asia" },
+  { countryCode: "TH", country: "Thailand", region: "asia" },
+  { countryCode: "MY", country: "Malaysia", region: "asia" },
+  { countryCode: "ID", country: "Indonesia", region: "asia" },
+  { countryCode: "VN", country: "Vietnam", region: "asia" },
+  { countryCode: "AU", country: "Australia", region: "oceania" },
+  { countryCode: "NZ", country: "New Zealand", region: "oceania" },
 ];
 
 function mergeRegionalContent(

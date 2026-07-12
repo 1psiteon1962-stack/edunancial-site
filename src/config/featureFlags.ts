@@ -3,64 +3,36 @@
 // FILE 1039
 // ======================================================
 
-export interface FeatureFlags{
-
-dashboard:boolean;
-
-assessments:boolean;
-
-learningPaths:boolean;
-
-decisionLabs:boolean;
-
-caseStudies:boolean;
-
-businessAI:boolean;
-
-investmentAI:boolean;
-
-realEstateAI:boolean;
-
-executiveAI:boolean;
-
-countryPricing:boolean;
-
-marketplace:boolean;
-
-community:boolean;
-
-analytics:boolean;
-
+export interface FeatureFlags {
+  dashboard: boolean;
+  assessments: boolean;
+  learningPaths: boolean;
+  decisionLabs: boolean;
+  caseStudies: boolean;
+  businessAI: boolean;
+  investmentAI: boolean;
+  realEstateAI: boolean;
+  executiveAI: boolean;
+  countryPricing: boolean;
+  marketplace: boolean;
+  community: boolean;
+  analytics: boolean;
 }
 
-export const DefaultFeatures:FeatureFlags={
-
-dashboard:true,
-
-assessments:true,
-
-learningPaths:true,
-
-decisionLabs:true,
-
-caseStudies:true,
-
-businessAI:true,
-
-investmentAI:false,
-
-realEstateAI:false,
-
-executiveAI:false,
-
-countryPricing:false,
-
-marketplace:false,
-
-community:false,
-
-analytics:true,
-
+export const DefaultFeatures: FeatureFlags = {
+  dashboard: true,
+  assessments: true,
+  learningPaths: true,
+  decisionLabs: true,
+  caseStudies: true,
+  businessAI: true,
+  investmentAI: false,
+  realEstateAI: false,
+  executiveAI: false,
+  countryPricing: false,
+  marketplace: false,
+  community: false,
+  analytics: true,
 };
 
 // ======================================================
@@ -107,3 +79,34 @@ export const EUROPE_2B_FEATURE_FLAGS: EuropeRegionalFeatureFlags = {
   vatOssSupport: true,
 };
 
+// ======================================================
+// APAC REGIONAL FEATURE FLAGS
+// ======================================================
+
+export interface ApacFeatureFlags {
+  apacRouting: boolean;
+  apacLocaleSelector: boolean;
+  apacRegionalPricing: boolean;
+  apacCountryDetection: boolean;
+  apacHreflang: boolean;
+  apacPaymentProviders: boolean;
+  apacJapanese: boolean;
+  apacKorean: boolean;
+  apacSimplifiedChinese: boolean;
+  apacTraditionalChinese: boolean;
+  apacHindi: boolean;
+}
+
+export const APAC_FEATURE_FLAGS: ApacFeatureFlags = {
+  apacRouting: true,
+  apacLocaleSelector: true,
+  apacRegionalPricing: true,
+  apacCountryDetection: true,
+  apacHreflang: true,
+  apacPaymentProviders: true,
+  apacJapanese: true,
+  apacKorean: true,
+  apacSimplifiedChinese: true,
+  apacTraditionalChinese: true,
+  apacHindi: true,
+};

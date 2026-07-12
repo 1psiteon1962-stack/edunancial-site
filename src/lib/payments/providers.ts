@@ -98,6 +98,11 @@ export const paymentProviders: PaymentProvider[] = [
       "HUF",
       "RON",
       "BGN",
+      "NGN",
+      "KES",
+      "ZAR",
+      "EGP",
+      "MAD",
     ],
   },
 

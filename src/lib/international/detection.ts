@@ -27,6 +27,9 @@ const timezoneRegionMap: Record<string, string> = {
   "Asia/Singapore": "asia",
   "Australia/Sydney": "oceania",
   "Africa/Johannesburg": "africa",
+  "Africa/Lagos": "africa",
+  "Africa/Nairobi": "africa",
+  "Africa/Cairo": "africa",
 };
 
 const countryRegionMap: Record<string, string> = {
@@ -34,12 +37,15 @@ const countryRegionMap: Record<string, string> = {
   ca: "north-america",
   mx: "latin-america-2a",
   br: "latin-america-2b",
-  eg: "middle-east",
+  eg: "africa",
   ae: "middle-east",
   sa: "middle-east",
   qa: "middle-east",
   ng: "africa",
+  ke: "africa",
   za: "africa",
+  gh: "africa",
+  tz: "africa",
   dz: "africa",
   ma: "africa",
   ug: "africa",

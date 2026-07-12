@@ -93,7 +93,7 @@ export const regionalSettings: RegionalSettings[] = [
     defaultLanguage: "en",
     defaultCurrency: "USD",
     supportedLanguages: ["en","ja","ko","zh-Hans","zh-Hant","hi","th","vi","ms","id","fil","ta","bn"],
-    supportedCurrencies: ["USD","JPY","SGD","KRW","INR"],
+    supportedCurrencies: ["USD","JPY","KRW","CNY","TWD","HKD","SGD","INR","AUD","NZD","PHP","THB","MYR","IDR","VND"],
     active: true
   },
 

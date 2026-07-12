@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 
+import { APAC_LOCALES } from "@/config/asia-pacific";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 
 const SITE_URL = "https://www.edunancial.com";
@@ -20,6 +21,7 @@ const ACTIVE_LOCALE_CODES = new Set([
   "zh-Hant",
   "ht",
 ]);
+
 const PATHS = [
   "",
   "/about",
@@ -36,6 +38,7 @@ const PATHS = [
   "/refund-policy",
   "/faq",
   "/assessment",
+  "/africa",
   "/why-edunancial",
   "/canada",
   "/canada/courses",
@@ -44,6 +47,8 @@ const PATHS = [
   "/europe",
   "/western-europe",
   "/eastern-europe",
+  "/asia-pacific",
+  ...APAC_LOCALES.map((locale) => `/asia-pacific/${locale}`),
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {

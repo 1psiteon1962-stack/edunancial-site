@@ -65,6 +65,7 @@ export const countryPayments: CountryPaymentConfiguration[] = [
     providers: [
       "paystack",
       "flutterwave",
+      "stripe",
       "bank-transfer",
     ],
   },
@@ -78,6 +79,34 @@ export const countryPayments: CountryPaymentConfiguration[] = [
 
     providers: [
       "flutterwave",
+      "paystack",
+      "stripe",
+      "bank-transfer",
+    ],
+  },
+
+  {
+    countryId: "eg",
+
+    currency: "EGP",
+
+    defaultProvider: "stripe",
+
+    providers: [
+      "stripe",
+      "bank-transfer",
+    ],
+  },
+
+  {
+    countryId: "ma",
+
+    currency: "MAD",
+
+    defaultProvider: "stripe",
+
+    providers: [
+      "stripe",
       "bank-transfer",
     ],
   },

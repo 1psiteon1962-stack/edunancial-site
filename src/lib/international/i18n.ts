@@ -35,7 +35,11 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   ht: htMessages,
 };
 
-export function translate(languageCode: string, key: string, values?: Record<string, string | number>) {
+export function translate(
+  languageCode: string,
+  key: string,
+  values?: Record<string, string | number>
+) {
   const normalizedLanguage = normalizeLanguageCode(languageCode);
   const catalog = messageCatalogs[normalizedLanguage] ?? messageCatalogs[DEFAULT_LANGUAGE_CODE];
   const fallbackCatalog = messageCatalogs[DEFAULT_LANGUAGE_CODE];

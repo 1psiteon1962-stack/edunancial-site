@@ -30,9 +30,9 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
   // Other regions intentionally disabled until activated
   africa: {
     name: "Africa",
-    enabled: false,
+    enabled: true,
     defaultLanguage: "en",
-    languages: ["en", "fr"],
+    languages: ["en", "fr", "ar"],
     readinessKey: "africa",
   },
 

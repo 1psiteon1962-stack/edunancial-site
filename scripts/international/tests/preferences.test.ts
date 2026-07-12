@@ -5,7 +5,10 @@ import {
   parseCountryCodeFromLanguageTag,
   resolveRegion,
 } from "../../../src/lib/international/detection.ts";
-import { LANGUAGE_CATALOG, normalizeLanguageCode } from "../../../src/lib/international/languages.ts";
+import {
+  LANGUAGE_CATALOG,
+  normalizeLanguageCode,
+} from "../../../src/lib/international/languages.ts";
 import { resolveAvailablePaymentMethods } from "../../../src/lib/international/preference-architecture.ts";
 
 test("US locale resolves to US country code", () => {
@@ -36,6 +39,12 @@ test("Latin America timezone fallback remains region-driven", () => {
   const region = resolveRegion("", "America/Mexico_City");
 
   assert.equal(region, "latin-america-2a");
+});
+
+test("Egypt resolves to africa regardless of Arabic locale", () => {
+  const region = resolveRegion(parseCountryCodeFromLanguageTag("ar-EG"), "Africa/Cairo");
+
+  assert.equal(region, "africa");
 });
 
 test("language catalog has no duplicate language registrations", () => {

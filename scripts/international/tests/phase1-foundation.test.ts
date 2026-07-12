@@ -40,6 +40,7 @@ test("africa and europe payment providers include required regional methods", ()
     "flutterwave",
     "paystack",
     "mobile-money",
+    "stripe",
   ]);
   assert.deepEqual(europe.paymentProviders, ["stripe", "paypal", "local-eu-methods"]);
 });
