@@ -22,6 +22,14 @@ export async function getDictionary(lang: string) {
       return (await import("./translations/fr-CA")).default;
     case "fr":
       return (await import("./translations/fr")).default;
+    case "de":
+      return (await import("./translations/de")).default;
+    case "it":
+      return (await import("./translations/it")).default;
+    case "nl":
+      return (await import("./translations/nl")).default;
+    case "ht":
+      return (await import("./translations/ht")).default;
     default:
       return (await import("./translations/en")).default;
   }
