@@ -1,199 +1,48 @@
-export default function sitemap(){
-
-return[
-
-{
-
-url:
-
-"https://www.edunancial.com",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/about",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/courses",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/membership",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/levels",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/sponsor",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/contact",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/privacy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/trust-center",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/security",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/disclaimer",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/terms",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/refund-policy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/faq",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/assessment",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/why-edunancial",
-
-lastModified:
-
-new Date(),
-
-},
-
-];
-
+const BASE_URL = "https://www.edunancial.com";
+
+const CARIBBEAN_SECTIONS = [
+  "legal",
+  "privacy",
+  "terms",
+  "contact",
+  "membership",
+  "dashboard",
+  "assessment",
+  "curriculum-upload",
+] as const;
+
+export default function sitemap() {
+  const staticRoutes = [
+    "",
+    "/about",
+    "/courses",
+    "/membership",
+    "/levels",
+    "/sponsor",
+    "/contact",
+    "/privacy",
+    "/trust-center",
+    "/security",
+    "/disclaimer",
+    "/terms",
+    "/refund-policy",
+    "/faq",
+    "/assessment",
+    "/why-edunancial",
+    "/caribbean",
+  ].map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified: new Date("2025-01-01"),
+  }));
+
+  const caribbeanRoutes = [
+    { url: `${BASE_URL}/caribbean`, lastModified: new Date("2025-01-01") },
+    ...CARIBBEAN_SECTIONS.map((section) => ({
+      url: `${BASE_URL}/caribbean/${section}`,
+      lastModified: new Date("2025-01-01"),
+    })),
+  ];
+
+  return [...staticRoutes, ...caribbeanRoutes];
 }
+

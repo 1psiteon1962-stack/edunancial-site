@@ -19,7 +19,9 @@ export type SupportedLanguageCode =
   | "sw"
   | "ja"
   | "ko"
-  | "zh-Hans";
+  | "zh-Hans"
+  | "nl"
+  | "ht";
 
 export type RegionalPaymentProviderId =
   | "square"
@@ -92,10 +94,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   caribbean: {
     id: "caribbean",
-    supportedLanguages: ["en", "es", "fr"],
-    supportedCurrencies: ["USD", "DOP", "JMD", "TTD"],
+    supportedLanguages: ["en", "es", "fr", "nl", "ht"],
+    supportedCurrencies: ["USD", "DOP", "JMD", "TTD", "BBD", "HTG", "AWG"],
     defaultTimeZone: "America/Santo_Domingo",
-    countries: ["DO", "JM", "TT", "BB", "BS"],
+    countries: ["DO", "JM", "TT", "BB", "BS", "HT", "PR", "CU", "LC", "VC", "GD", "DM", "KN", "AG", "AW", "CW"],
     taxSettings: {
       model: "mixed",
       pricesIncludeTax: true,
@@ -191,6 +193,29 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   TT: "caribbean",
   BB: "caribbean",
   BS: "caribbean",
+  HT: "caribbean",
+  PR: "caribbean",
+  CU: "caribbean",
+  LC: "caribbean",
+  VC: "caribbean",
+  GD: "caribbean",
+  DM: "caribbean",
+  KN: "caribbean",
+  AG: "caribbean",
+  AW: "caribbean",
+  CW: "caribbean",
+  AI: "caribbean",
+  BQ: "caribbean",
+  VG: "caribbean",
+  KY: "caribbean",
+  GP: "caribbean",
+  MQ: "caribbean",
+  MS: "caribbean",
+  BL: "caribbean",
+  MF: "caribbean",
+  SX: "caribbean",
+  TC: "caribbean",
+  VI: "caribbean",
   FR: "europe",
   DE: "europe",
   ES: "europe",
@@ -228,6 +253,11 @@ const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
   "America/Mexico_City": "latin-america",
   "America/Sao_Paulo": "latin-america",
   "America/Santo_Domingo": "caribbean",
+  "America/Port-au-Prince": "caribbean",
+  "America/Jamaica": "caribbean",
+  "America/Puerto_Rico": "caribbean",
+  "America/Curacao": "caribbean",
+  "America/Aruba": "caribbean",
   "Europe/Paris": "europe",
   "Europe/Berlin": "europe",
   "Africa/Lagos": "africa",

@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+const BASE_URL = "https://www.edunancial.com";
 
 const launchPriorities = [
   "Island economy dynamics and multilingual financial education",
@@ -7,10 +10,30 @@ const launchPriorities = [
   "Financial competency tailored to Caribbean markets and culture",
 ];
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Edunancial Caribbean | Financial Competency Platform",
   description:
     "Edunancial Caribbean helps members across the Dominican Republic, Puerto Rico, Jamaica, Haiti, Cuba, and island nations build financial competency through structured education.",
+  alternates: {
+    canonical: `${BASE_URL}/caribbean`,
+    languages: {
+      "en": `${BASE_URL}/caribbean`,
+      "es": `${BASE_URL}/caribbean`,
+      "fr": `${BASE_URL}/caribbean`,
+      "nl": `${BASE_URL}/caribbean`,
+      "ht": `${BASE_URL}/caribbean`,
+      "x-default": `${BASE_URL}/caribbean`,
+    },
+  },
+  openGraph: {
+    title: "Edunancial Caribbean | Financial Competency Platform",
+    description:
+      "Edunancial Caribbean helps members across the Dominican Republic, Puerto Rico, Jamaica, Haiti, Cuba, and island nations build financial competency through structured education.",
+    url: `${BASE_URL}/caribbean`,
+    siteName: "Edunancial",
+    locale: "en_029",
+    type: "website",
+  },
 };
 
 export default function CaribbeanPage() {
