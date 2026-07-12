@@ -262,7 +262,38 @@ const CONTENT_LAYERS: ContentLayers = {
     CA: {
       language: "en",
       currency: "CAD",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy:
+          "Canada privacy notice (PIPEDA). Personal information is collected and used in accordance with the Personal Information Protection and Electronic Documents Act (PIPEDA).",
+        terms: "Canada terms and conditions.",
+        taxDisclaimer:
+          "Prices shown in CAD. Applicable GST/HST and provincial sales taxes will be calculated at checkout based on your province or territory.",
+      },
+      taxDisclaimers: [
+        "Canadian prices are in CAD and subject to federal GST (5%) plus applicable provincial/territorial taxes.",
+        "HST applies in Ontario (13%), New Brunswick (15%), Nova Scotia (15%), Newfoundland and Labrador (15%), and Prince Edward Island (15%).",
+        "Quebec residents are subject to QST (9.975%) in addition to federal GST.",
+        "British Columbia and Manitoba charge provincial sales tax (PST/RST) in addition to federal GST.",
+      ],
+      consumerDisclosures: [
+        "Canadian consumer protection laws apply. You have rights under applicable provincial consumer protection legislation.",
+        "Refund and cancellation terms comply with applicable Canadian provincial laws.",
+        "PIPEDA breach notification obligations apply. You will be notified of any breach that poses a real risk of significant harm.",
+      ],
       paymentProviders: ["square", "stripe"],
+      educationalExamples: {
+        mortgage:
+          "Mortgage example: CA$500,000 principal at current Bank of Canada rates. Stress test applies under federal guidelines.",
+      },
+      localizationAssets: {
+        dateFormat: "YYYY-MM-DD",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-province-postal-country",
+        phoneFormat: "+1 (###) ###-####",
+        measurementUnits: "metric",
+        timezone: "America/Toronto",
+      },
     },
     NG: {
       language: "en",

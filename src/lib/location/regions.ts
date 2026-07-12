@@ -27,6 +27,15 @@ export const regions: Region[] = [
   { id: "ab", countryId: "ca", name: "Alberta" },
   { id: "bc", countryId: "ca", name: "British Columbia" },
   { id: "qc", countryId: "ca", name: "Quebec" },
+  { id: "mb", countryId: "ca", name: "Manitoba" },
+  { id: "sk", countryId: "ca", name: "Saskatchewan" },
+  { id: "ns", countryId: "ca", name: "Nova Scotia" },
+  { id: "nb", countryId: "ca", name: "New Brunswick" },
+  { id: "nl", countryId: "ca", name: "Newfoundland and Labrador" },
+  { id: "pe", countryId: "ca", name: "Prince Edward Island" },
+  { id: "yt", countryId: "ca", name: "Yukon" },
+  { id: "nt", countryId: "ca", name: "Northwest Territories" },
+  { id: "nu", countryId: "ca", name: "Nunavut" },
 
   // ===========================
   // UGANDA

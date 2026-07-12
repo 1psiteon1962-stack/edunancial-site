@@ -206,6 +206,55 @@ new Date(),
 
 },
 
+// Canada region entries
+{
+
+url:
+
+"https://www.edunancial.com/canada",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/canada/courses",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/canada/membership",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
+"https://www.edunancial.com/legal/pipeda",
+
+lastModified:
+
+new Date(),
+
+},
+
 ];
 
 }
