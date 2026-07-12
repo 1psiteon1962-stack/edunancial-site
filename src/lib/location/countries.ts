@@ -41,16 +41,16 @@ export const countries: CountryConfig[] = [
     name: "Canada",
     iso2: "CA",
     currency: "CAD",
-    currencySymbol: "$",
+    currencySymbol: "CA$",
     language: "English",
     timezone: "America/Toronto",
 
-    launchStatus: "planned",
+    launchStatus: "coming-soon",
 
-    marketplaceEnabled: false,
-    assessmentEnabled: false,
-    passportEnabled: false,
-    coursesEnabled: false,
+    marketplaceEnabled: true,
+    assessmentEnabled: true,
+    passportEnabled: true,
+    coursesEnabled: true,
   },
 
   {

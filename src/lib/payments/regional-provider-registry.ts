@@ -9,6 +9,8 @@ export interface CheckoutSessionInput {
   amount: number;
   currency: string;
   customerId?: string;
+  productId?: string;
+  productName?: string;
 }
 
 export interface CheckoutSessionResult {
@@ -47,18 +49,29 @@ function buildPlaceholderAdapter(
   };
 }
 
-const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapter> = {
-  square: {
-    id: "square",
-    displayName: "Square",
-    supportsRegions: [DEFAULT_REGION_ID],
-    async createCheckoutSession() {
-      return {
-        status: "ready",
-        providerId: "square",
-      };
-    },
+/**
+ * Square adapter — primary payment provider for North America (US + Canada).
+ * Routes checkout through /api/square/checkout which calls Square's Payment Links API
+ * when credentials are configured, or falls back to the internal checkout page.
+ */
+const squareAdapter: PaymentProviderAdapter = {
+  id: "square",
+  displayName: "Square",
+  supportsRegions: [DEFAULT_REGION_ID],
+  async createCheckoutSession(input) {
+    const productId = input.productId ?? "";
+    const checkoutUrl = `/api/square/checkout`;
+    return {
+      status: "ready",
+      providerId: "square",
+      checkoutUrl,
+      message: `POST ${checkoutUrl} with { id: "${productId}", name, price } to initiate Square checkout.`,
+    };
   },
+};
+
+const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapter> = {
+  square: squareAdapter,
   stripe: buildPlaceholderAdapter("stripe", "Stripe", [
     "latin-america",
     "caribbean",
