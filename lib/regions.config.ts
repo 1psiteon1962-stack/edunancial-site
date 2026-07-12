@@ -63,8 +63,8 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
   mena: {
     name: "MENA",
     enabled: false,
-    defaultLanguage: "ar",
-    languages: ["ar", "en", "fr"],
+    defaultLanguage: "en",
+    languages: ["en", "fr"],
     readinessKey: "mena",
   },
 
