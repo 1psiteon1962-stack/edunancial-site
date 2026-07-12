@@ -139,7 +139,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "Edunancial financial competency learning platform",
@@ -151,7 +151,7 @@ export const metadata: Metadata = {
     title: "Edunancial | Build Financial Competency With Guided Learning",
     description:
       "Build practical financial competency with guided courses, AI coaching, and member tools.",
-    images: ["/og-image.png"],
+    images: ["/og-image.svg"],
   },
 };
 

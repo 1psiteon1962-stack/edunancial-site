@@ -150,7 +150,7 @@ new Date(),
 
 url:
 
-"https://www.edunancial.com/refund-policy",
+"https://www.edunancial.com/refund",
 
 lastModified:
 
