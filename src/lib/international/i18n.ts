@@ -13,6 +13,22 @@ import nlMessages from "../../locales/nl.json";
 import hiMessages from "../../locales/hi.json";
 import zhHantMessages from "../../locales/zh-Hant.json";
 import htMessages from "../../locales/ht.json";
+import plMessages from "../../locales/pl.json";
+import ruMessages from "../../locales/ru.json";
+import csMessages from "../../locales/cs.json";
+import skMessages from "../../locales/sk.json";
+import roMessages from "../../locales/ro.json";
+import bgMessages from "../../locales/bg.json";
+import ltMessages from "../../locales/lt.json";
+import lvMessages from "../../locales/lv.json";
+import etMessages from "../../locales/et.json";
+import beMessages from "../../locales/be.json";
+import faMessages from "../../locales/fa.json";
+import psMessages from "../../locales/ps.json";
+import haMessages from "../../locales/ha.json";
+import igMessages from "../../locales/ig.json";
+import lgMessages from "../../locales/lg.json";
+import yueHantMessages from "../../locales/yue-Hant.json";
 import { DEFAULT_LANGUAGE_CODE, normalizeLanguageCode } from "./languages";
 
 type MessageCatalog = Record<string, string>;
@@ -33,6 +49,22 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   hi: hiMessages,
   "zh-Hant": zhHantMessages,
   ht: htMessages,
+  pl: plMessages,
+  ru: ruMessages,
+  cs: csMessages,
+  sk: skMessages,
+  ro: roMessages,
+  bg: bgMessages,
+  lt: ltMessages,
+  lv: lvMessages,
+  et: etMessages,
+  be: beMessages,
+  fa: faMessages,
+  ps: psMessages,
+  ha: haMessages,
+  ig: igMessages,
+  lg: lgMessages,
+  "yue-Hant": yueHantMessages,
 };
 
 export function translate(
