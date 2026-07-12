@@ -7,6 +7,8 @@ import {
   getGlobalRegionArchitecture,
 } from "@/lib/globalRegionArchitecture";
 
+const BASE_URL = "https://www.edunancial.com";
+
 export function generateStaticParams() {
   return REQUIRED_GLOBAL_REGIONS.map((region) => ({ region: region.slug }));
 }
@@ -23,9 +25,30 @@ export async function generateMetadata({
     return {};
   }
 
+  const canonicalUrl = `${BASE_URL}/${regionConfig.slug}`;
+
+  const hreflangAlternates: Record<string, string> = {
+    "x-default": canonicalUrl,
+  };
+  for (const lang of regionConfig.supportedLanguages) {
+    hreflangAlternates[lang] = `${BASE_URL}/${regionConfig.slug}?lang=${lang}`;
+  }
+
   return {
     title: `${regionConfig.name} | Edunancial`,
     description: regionConfig.description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: hreflangAlternates,
+    },
+    openGraph: {
+      title: `${regionConfig.name} | Edunancial`,
+      description: regionConfig.description,
+      url: canonicalUrl,
+      siteName: "Edunancial",
+      locale: regionConfig.locale,
+      type: "website",
+    },
   };
 }
 

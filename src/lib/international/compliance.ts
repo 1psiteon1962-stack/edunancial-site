@@ -8,6 +8,8 @@ export type ComplianceFrameworkId =
   | "gdpr"
   | "pipeda"
   | "ccpa-cpra"
+  | "lgpd"
+  | "lfpdppp"
   | "cookie-consent"
   | "privacy-notice"
   | "regional-terms";
@@ -64,7 +66,25 @@ const REGIONAL_COMPLIANCE: RegionalComplianceConfig = {
       templateText: "Placeholder PIPEDA notice. Legal review required.",
     },
   ],
-  "latin-america": [...BASE_PLACEHOLDERS],
+  "latin-america": [
+    ...BASE_PLACEHOLDERS,
+    {
+      framework: "lgpd" as const,
+      titleKey: "compliance.lgpd.title",
+      policyPath: "/legal/lgpd",
+      legalReviewRequired: true,
+      templateText:
+        "Placeholder LGPD notice for Brazil. Legal review required before publication.",
+    },
+    {
+      framework: "lfpdppp" as const,
+      titleKey: "compliance.lfpdppp.title",
+      policyPath: "/legal/lfpdppp",
+      legalReviewRequired: true,
+      templateText:
+        "Placeholder LFPDPPP notice for Mexico. Legal review required before publication.",
+    },
+  ],
   caribbean: [...BASE_PLACEHOLDERS],
   europe: [
     ...BASE_PLACEHOLDERS,

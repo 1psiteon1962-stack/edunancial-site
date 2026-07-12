@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+const BASE_URL = "https://www.edunancial.com";
+const PAGE_PATH = "/latin-america";
 
 const launchPriorities = [
   "Informality to structure: unlocking capital and protection",
@@ -7,10 +11,41 @@ const launchPriorities = [
   "Cross-border expansion across Spanish and Portuguese markets",
 ];
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Edunancial Latin America | Financial Competency Platform",
   description:
     "Edunancial Latin America helps members across Mexico, Colombia, Argentina, Brazil, and all of South and Central America build financial competency through structured education.",
+  alternates: {
+    canonical: `${BASE_URL}${PAGE_PATH}`,
+    languages: {
+      "x-default": `${BASE_URL}${PAGE_PATH}`,
+      es: `${BASE_URL}/latin-america-2a`,
+      "es-419": `${BASE_URL}/latin-america-2a`,
+      "es-MX": `${BASE_URL}/latin-america-2a`,
+      pt: `${BASE_URL}/latin-america-2b`,
+      "pt-BR": `${BASE_URL}/latin-america-2b`,
+      en: `${BASE_URL}${PAGE_PATH}`,
+    },
+  },
+  openGraph: {
+    title: "Edunancial Latin America | Financial Competency Platform",
+    description:
+      "Build financial competency across Mexico, Colombia, Argentina, Brazil, and all of Latin America.",
+    url: `${BASE_URL}${PAGE_PATH}`,
+    siteName: "Edunancial",
+    locale: "es_419",
+    type: "website",
+  },
+  keywords: [
+    "educación financiera latinoamérica",
+    "competencia financiera",
+    "finanzas méxico",
+    "finanzas colombia",
+    "educación financiera brasil",
+    "inversión latinoamérica",
+    "negocios latinoamérica",
+    "edunancial",
+  ],
 };
 
 export default function LatinAmericaPage() {
@@ -92,6 +127,32 @@ export default function LatinAmericaPage() {
               <p className="mt-2 text-slate-300">{m.detail}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-16">
+        <h2 className="text-3xl font-black text-white">Regional Architecture</h2>
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
+          <Link
+            href="/latin-america-2a"
+            className="rounded-2xl border border-white/10 bg-slate-900 p-6 hover:border-blue-500 hover:bg-slate-800 transition-colors"
+          >
+            <h3 className="text-xl font-bold text-yellow-400">Latin America 2A</h3>
+            <p className="mt-2 text-slate-300">
+              Spanish-speaking markets: Mexico, Central America, Northern South America.
+            </p>
+            <p className="mt-2 text-sm text-slate-400">Currencies: USD, MXN, COP, PEN</p>
+          </Link>
+          <Link
+            href="/latin-america-2b"
+            className="rounded-2xl border border-white/10 bg-slate-900 p-6 hover:border-blue-500 hover:bg-slate-800 transition-colors"
+          >
+            <h3 className="text-xl font-bold text-yellow-400">Latin America 2B</h3>
+            <p className="mt-2 text-slate-300">
+              Portuguese-speaking markets: Brazil, Argentina, Southern South America.
+            </p>
+            <p className="mt-2 text-sm text-slate-400">Currencies: USD, BRL, ARS, CLP</p>
+          </Link>
         </div>
       </section>
     </main>
