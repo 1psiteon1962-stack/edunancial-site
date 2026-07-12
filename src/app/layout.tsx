@@ -7,12 +7,8 @@ import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import DetectedPreferencesBanner from "@/components/international/DetectedPreferencesBanner";
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { Providers } from "@/components/Providers";
-import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 
 const siteUrl = "https://www.edunancial.com";
-const languageAlternates = Object.fromEntries(
-  LANGUAGE_CATALOG.map((language) => [language.code, `${siteUrl}/${language.code}/`])
-);
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -57,7 +53,7 @@ export const metadata: Metadata = {
       "Build financial competency through real estate, paper assets, and business education. Serving individuals, families, and entrepreneurs across North America.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "Edunancial — Financial Literacy & Competency Platform",
@@ -69,13 +65,12 @@ export const metadata: Metadata = {
     title: "Edunancial | Financial Literacy & Financial Competency",
     description:
       "Build financial competency through real estate, paper assets, and business education.",
-    images: ["/og-image.png"],
+    images: ["/og-image.svg"],
     creator: "@edunancial",
     site: "@edunancial",
   },
   alternates: {
     canonical: siteUrl,
-    languages: languageAlternates,
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? undefined,
@@ -93,7 +88,7 @@ export default function RootLayout({
     "@type": "EducationalOrganization",
     name: "Edunancial",
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: `${siteUrl}/logo.svg`,
     description:
       "Edunancial is a North American financial literacy and competency platform helping individuals, families, entrepreneurs, and business owners build wealth through real estate, paper assets, and business education.",
     contactPoint: {

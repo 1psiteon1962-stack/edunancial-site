@@ -4,7 +4,7 @@ export default function OrganizationSchema() {
     "@type": "Organization",
     name: "Edunancial",
     url: "https://www.edunancial.com",
-    logo: "https://www.edunancial.com/logo.png",
+    logo: "https://www.edunancial.com/logo.svg",
     description:
       "Financial education and entrepreneurship platform.",
     address: {
