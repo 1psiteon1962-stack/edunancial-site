@@ -6,6 +6,12 @@ export async function getDictionary(lang: string) {
       return (await import("./translations/ko")).default;
     case "ja":
       return (await import("./translations/ja")).default;
+    case "zh-Hans":
+      return (await import("./translations/zh-Hans")).default;
+    case "zh-Hant":
+      return (await import("./translations/zh-Hant")).default;
+    case "hi":
+      return (await import("./translations/hi")).default;
     case "tl":
       return (await import("./translations/tl")).default;
     case "ar":

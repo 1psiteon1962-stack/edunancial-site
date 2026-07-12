@@ -19,7 +19,9 @@ export type SupportedLanguageCode =
   | "sw"
   | "ja"
   | "ko"
-  | "zh-Hans";
+  | "zh-Hans"
+  | "zh-Hant"
+  | "hi";
 
 export type RegionalPaymentProviderId =
   | "square"
@@ -160,10 +162,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   "asia-pacific": {
     id: "asia-pacific",
-    supportedLanguages: ["en", "ja", "ko", "zh-Hans"],
-    supportedCurrencies: ["JPY", "KRW", "SGD", "AUD", "USD"],
+    supportedLanguages: ["en", "ja", "ko", "zh-Hans", "zh-Hant", "hi"],
+    supportedCurrencies: ["JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND", "USD"],
     defaultTimeZone: "Asia/Singapore",
-    countries: ["JP", "KR", "CN", "SG", "AU", "NZ", "PH"],
+    countries: ["JP", "KR", "CN", "TW", "HK", "SG", "IN", "AU", "NZ", "PH", "TH", "MY", "ID", "VN"],
     taxSettings: {
       model: "gst",
       pricesIncludeTax: true,
@@ -216,10 +218,17 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   JP: "asia-pacific",
   KR: "asia-pacific",
   CN: "asia-pacific",
+  TW: "asia-pacific",
+  HK: "asia-pacific",
   SG: "asia-pacific",
+  IN: "asia-pacific",
   AU: "asia-pacific",
   NZ: "asia-pacific",
   PH: "asia-pacific",
+  TH: "asia-pacific",
+  MY: "asia-pacific",
+  ID: "asia-pacific",
+  VN: "asia-pacific",
 };
 
 const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
@@ -236,6 +245,18 @@ const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
   "Asia/Dubai": "middle-east",
   "Asia/Singapore": "asia-pacific",
   "Asia/Tokyo": "asia-pacific",
+  "Asia/Seoul": "asia-pacific",
+  "Asia/Shanghai": "asia-pacific",
+  "Asia/Taipei": "asia-pacific",
+  "Asia/Hong_Kong": "asia-pacific",
+  "Asia/Kolkata": "asia-pacific",
+  "Asia/Manila": "asia-pacific",
+  "Asia/Bangkok": "asia-pacific",
+  "Asia/Kuala_Lumpur": "asia-pacific",
+  "Asia/Jakarta": "asia-pacific",
+  "Asia/Ho_Chi_Minh": "asia-pacific",
+  "Australia/Sydney": "asia-pacific",
+  "Pacific/Auckland": "asia-pacific",
 };
 
 export const DEFAULT_REGION_ID: GlobalRegionId = "north-america";

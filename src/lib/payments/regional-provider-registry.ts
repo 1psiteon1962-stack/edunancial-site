@@ -83,7 +83,7 @@ const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapte
   ),
   "local-apac-methods": buildPlaceholderAdapter(
     "local-apac-methods",
-    "APAC Local Methods",
+    "APAC Local Methods (Alipay, WeChat Pay, PayPay, Paytm, GrabPay, GCash, PayNow, KakaoPay, LINE Pay)",
     ["middle-east", "asia-pacific"]
   ),
 };

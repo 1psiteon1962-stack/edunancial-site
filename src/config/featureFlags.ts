@@ -62,3 +62,31 @@ community:false,
 analytics:true,
 
 };
+
+export interface ApacFeatureFlags {
+  apacRouting: boolean;
+  apacLocaleSelector: boolean;
+  apacRegionalPricing: boolean;
+  apacCountryDetection: boolean;
+  apacHreflang: boolean;
+  apacPaymentProviders: boolean;
+  apacJapanese: boolean;
+  apacKorean: boolean;
+  apacSimplifiedChinese: boolean;
+  apacTraditionalChinese: boolean;
+  apacHindi: boolean;
+}
+
+export const APAC_FEATURE_FLAGS: ApacFeatureFlags = {
+  apacRouting: true,
+  apacLocaleSelector: true,
+  apacRegionalPricing: true,
+  apacCountryDetection: true,
+  apacHreflang: true,
+  apacPaymentProviders: true,
+  apacJapanese: true,
+  apacKorean: true,
+  apacSimplifiedChinese: true,
+  apacTraditionalChinese: true,
+  apacHindi: true,
+};

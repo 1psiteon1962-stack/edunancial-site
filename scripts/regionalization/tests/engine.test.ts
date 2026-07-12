@@ -62,3 +62,74 @@ test("fallback order is country -> region -> global core", () => {
     "Use the same mortgage concept with region-aware currency and legal references."
   );
 });
+
+test("Japan visitor uses Japanese, JPY, and regional routing", () => {
+  const resolved = resolveRegionalization({ countryCode: "JP" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "ja");
+  assert.equal(resolved.currency, "JPY");
+  assert.match(resolved.educationalExamples.mortgage, /JPY/);
+});
+
+test("South Korea visitor uses Korean and KRW", () => {
+  const resolved = resolveRegionalization({ countryCode: "KR" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "ko");
+  assert.equal(resolved.currency, "KRW");
+  assert.match(resolved.educationalExamples.mortgage, /KRW/);
+});
+
+test("China visitor uses Simplified Chinese and CNY", () => {
+  const resolved = resolveRegionalization({ countryCode: "CN" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "zh-Hans");
+  assert.equal(resolved.currency, "CNY");
+});
+
+test("Taiwan visitor uses Traditional Chinese and TWD", () => {
+  const resolved = resolveRegionalization({ countryCode: "TW" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "zh-Hant");
+  assert.equal(resolved.currency, "TWD");
+});
+
+test("India visitor uses Hindi and INR", () => {
+  const resolved = resolveRegionalization({ countryCode: "IN" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "hi");
+  assert.equal(resolved.currency, "INR");
+  assert.match(resolved.educationalExamples.mortgage, /INR/);
+});
+
+test("Singapore visitor uses English and SGD", () => {
+  const resolved = resolveRegionalization({ countryCode: "SG" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "en");
+  assert.equal(resolved.currency, "SGD");
+});
+
+test("Philippines visitor uses English and PHP", () => {
+  const resolved = resolveRegionalization({ countryCode: "PH" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "en");
+  assert.equal(resolved.currency, "PHP");
+});
+
+test("Asia region baseline uses English and regional-gateway payment", () => {
+  const resolved = resolveRegionalization({ region: "asia" });
+
+  assert.equal(resolved.region, "asia");
+  assert.equal(resolved.language, "en");
+  assert.ok(
+    resolved.paymentProviders.includes("regional-gateway") ||
+      resolved.paymentProviders.includes("stripe"),
+    "asia region should have at least one payment provider"
+  );
+});
