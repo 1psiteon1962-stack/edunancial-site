@@ -35,5 +35,12 @@
   "admin.rtl": "RTL",
   "admin.completeness": "Completitud de traducción",
   "admin.missingTranslations_one": "1 traducción faltante",
-  "admin.missingTranslations_other": "{{count}} traducciones faltantes"
+  "admin.missingTranslations_other": "{{count}} traducciones faltantes",
+  "foundation.phase1.title": "Base global Fase 1",
+  "compliance.cookieConsent.title": "Consentimiento de cookies",
+  "compliance.privacyNotice.title": "Aviso de privacidad",
+  "compliance.terms.title": "Términos de servicio regionales",
+  "compliance.ccpa.title": "Aviso CCPA/CPRA",
+  "compliance.pipeda.title": "Aviso PIPEDA",
+  "compliance.gdpr.title": "Aviso GDPR"
 }
