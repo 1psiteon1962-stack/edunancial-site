@@ -25,7 +25,6 @@ for (const asset of assets) {
 
 const inventory = {
   _note: 'Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.',
-  _generated: new Date().toISOString(),
   summary: {
     totalLessons: assets.length,
     totalTracks: Object.keys(byTrack).length,

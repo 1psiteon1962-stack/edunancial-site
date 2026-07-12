@@ -2,7 +2,6 @@
 // scripts/curriculum/audit.mjs
 // Audits filesystem vs registry, detects orphans, bad paths, duplicates, etc.
 
-import { execSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -13,13 +12,6 @@ import { CONTENT_CURRICULUM_ROOT, repoPath, REPORTS_DIR } from './lib/paths.mjs'
 import { listAllAssets, readRegistry } from './lib/registry.mjs';
 
 log.section('Curriculum Auditor');
-
-let currentCommit = 'unknown';
-try {
-  currentCommit = execSync('git rev-parse HEAD', { cwd: repoPath() }).toString().trim();
-} catch {
-  // Ignore git lookup failures.
-}
 
 const registry = readRegistry();
 const registeredAssets = listAllAssets(registry);
@@ -99,12 +91,9 @@ function scanDir(dir) {
 scanDir(CONTENT_CURRICULUM_ROOT);
 
 mkdirSync(REPORTS_DIR, { recursive: true });
-const timestamp = new Date().toISOString();
 const totalIssues = Object.values(issues).reduce((sum, list) => sum + list.length, 0);
 
 const jsonReport = {
-  timestamp,
-  commit: currentCommit,
   registeredAssets: registeredAssets.length,
   totalIssues,
   issues,
@@ -115,8 +104,6 @@ writeFileSync(jsonPath, `${JSON.stringify(jsonReport, null, 2)}\n`, 'utf8');
 const mdLines = [
   '# Curriculum Audit Report',
   '',
-  `**Generated:** ${timestamp}`,
-  `**Commit:** \`${currentCommit}\``,
   `**Registered Assets:** ${registeredAssets.length}`,
   `**Total Issues:** ${totalIssues}`,
   '',
