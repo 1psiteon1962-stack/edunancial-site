@@ -1,13 +1,13 @@
 export default function MembershipComparisonChart() {
   const rows = [
     ["Financial Competency Assessment", "✓", "✓", "✓"],
-    ["Learning Roadmap", "✓", "✓", "✓"],
-    ["Course Library", "Limited", "Full", "Full"],
-    ["Certificates", "-", "✓", "✓"],
-    ["AI Financial Coach", "-", "Basic", "Advanced"],
-    ["Download Library", "Limited", "✓", "Premium"],
-    ["Marketplace Access", "Browse", "Member", "Priority"],
-    ["Business KPI Tools", "-", "✓", "Advanced"],
+    ["Structured Learning Paths", "✓", "✓", "✓"],
+    ["Learning Resource Library", "Individual", "Organization", "Organization"],
+    ["Certificates of Completion", "✓", "✓", "✓"],
+    ["AI Financial Coach", "✓", "✓", "✓"],
+    ["Download Library", "✓", "✓", "✓"],
+    ["Marketplace Access", "Member", "Member", "Priority"],
+    ["Business KPI Tools", "✓", "✓", "✓"],
     ["Priority Support", "-", "-", "✓"],
   ];
 
@@ -28,11 +28,11 @@ export default function MembershipComparisonChart() {
 
               <th className="p-4 text-left">Benefit</th>
 
-              <th className="p-4">Free</th>
+              <th className="p-4">Individual</th>
 
-              <th className="p-4">Silver</th>
+              <th className="p-4">Approved Organization</th>
 
-              <th className="p-4">Gold</th>
+              <th className="p-4">100+ Organization</th>
 
             </tr>
 

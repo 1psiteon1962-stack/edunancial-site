@@ -10,7 +10,7 @@ const schema={
 
 "provider":{
 
-"@type":"EducationalOrganization",
+"@type":"Organization",
 
 "name":"Edunancial"
 

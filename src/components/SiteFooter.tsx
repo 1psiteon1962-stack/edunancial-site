@@ -53,7 +53,7 @@ export default function SiteFooter() {
 
           <div className="space-y-3 text-gray-400">
             <Link href="/privacy">Privacy Policy</Link><br/>
-            <Link href="/terms">Terms of Service</Link><br/>
+            <Link href="/terms">Terms of Use</Link><br/>
             <Link href="/refund">Refund Policy</Link><br/>
             <Link href="/disclaimer">Disclaimer</Link>
           </div>

@@ -58,7 +58,7 @@ export default function RegisterForm() {
       return;
     }
     if (!form.agree) {
-      setError("You must agree to the Terms of Service and Privacy Policy.");
+      setError("You must agree to the Terms of Use and Privacy Policy.");
       return;
     }
     setLoading(true);
@@ -240,7 +240,7 @@ export default function RegisterForm() {
             <span>
               I agree to the{" "}
               <Link href="/terms" className="text-blue-400 underline">
-                Terms of Service
+                Terms of Use
               </Link>{" "}
               and{" "}
               <Link href="/privacy" className="text-blue-400 underline">

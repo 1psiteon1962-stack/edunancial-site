@@ -326,7 +326,7 @@ export default function PrivacyPage() {
         <div className="border-t border-slate-800 pt-8 text-sm text-slate-500">
           <p>
             Related policies:{" "}
-            <Link href="/terms" className="underline">Terms of Service</Link>
+            <Link href="/terms" className="underline">Terms of Use</Link>
             {" · "}
             <Link href="/cookies" className="underline">Cookie Policy</Link>
             {" · "}
