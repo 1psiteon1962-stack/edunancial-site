@@ -73,11 +73,18 @@ const squareAdapter: PaymentProviderAdapter = {
 const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapter> = {
   square: squareAdapter,
   stripe: buildPlaceholderAdapter("stripe", "Stripe", [
+    "africa",
     "latin-america",
     "caribbean",
     "europe",
     "middle-east",
     "asia-pacific",
+  ]),
+  paypal: buildPlaceholderAdapter("paypal", "PayPal", [
+    "north-america",
+    "europe",
+    "latin-america",
+    "caribbean",
   ]),
   flutterwave: buildPlaceholderAdapter("flutterwave", "Flutterwave", ["africa"]),
   paystack: buildPlaceholderAdapter("paystack", "Paystack", ["africa"]),

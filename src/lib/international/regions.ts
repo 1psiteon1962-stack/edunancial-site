@@ -15,17 +15,33 @@ export type SupportedLanguageCode =
   | "es"
   | "fr"
   | "pt"
+  | "de"
+  | "it"
+  | "nl"
+  | "ht"
+  | "pap"
   | "ar"
   | "sw"
+  | "yo"
+  | "zu"
+  | "am"
   | "ja"
   | "ko"
   | "zh-Hans"
   | "zh-Hant"
-  | "hi";
+  | "hi"
+  | "th"
+  | "vi"
+  | "ms"
+  | "id"
+  | "fil"
+  | "ta"
+  | "bn";
 
 export type RegionalPaymentProviderId =
   | "square"
   | "stripe"
+  | "paypal"
   | "flutterwave"
   | "paystack"
   | "mobile-money"
@@ -94,7 +110,7 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   caribbean: {
     id: "caribbean",
-    supportedLanguages: ["en", "es", "fr"],
+    supportedLanguages: ["en", "es", "fr", "nl", "ht", "pap"],
     supportedCurrencies: ["USD", "DOP", "JMD", "TTD"],
     defaultTimeZone: "America/Santo_Domingo",
     countries: ["DO", "JM", "TT", "BB", "BS"],
@@ -111,16 +127,16 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   europe: {
     id: "europe",
-    supportedLanguages: ["en", "fr", "es", "pt"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "GBP", "CHF"],
     defaultTimeZone: "Europe/Paris",
-    countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT"],
+    countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT", "CH", "PL", "CZ", "HU", "RO"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
       disclaimerKey: "tax.eu.disclaimer",
     },
-    paymentProviders: ["stripe", "local-eu-methods"],
+    paymentProviders: ["stripe", "paypal", "local-eu-methods"],
     defaultPricing: {
       currency: "EUR",
       starterMonthlyAmount: 39,
@@ -128,16 +144,16 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   africa: {
     id: "africa",
-    supportedLanguages: ["en", "fr", "sw", "ar"],
+    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "yo", "zu", "am"],
     supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "USD"],
     defaultTimeZone: "Africa/Lagos",
-    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG"],
+    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG", "MA"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
       disclaimerKey: "tax.africa.disclaimer",
     },
-    paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+    paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
     defaultPricing: {
       currency: "USD",
       starterMonthlyAmount: 29,
@@ -162,7 +178,21 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   "asia-pacific": {
     id: "asia-pacific",
-    supportedLanguages: ["en", "ja", "ko", "zh-Hans", "zh-Hant", "hi"],
+    supportedLanguages: [
+      "en",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "zh-Hant",
+      "hi",
+      "th",
+      "vi",
+      "ms",
+      "id",
+      "fil",
+      "ta",
+      "bn",
+    ],
     supportedCurrencies: ["JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND", "USD"],
     defaultTimeZone: "Asia/Singapore",
     countries: ["JP", "KR", "CN", "TW", "HK", "SG", "IN", "AU", "NZ", "PH", "TH", "MY", "ID", "VN"],
@@ -201,6 +231,26 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   BE: "europe",
   GB: "europe",
   PT: "europe",
+  CH: "europe",
+  AT: "europe",
+  IE: "europe",
+  SE: "europe",
+  DK: "europe",
+  FI: "europe",
+  NO: "europe",
+  LU: "europe",
+  PL: "europe",
+  CZ: "europe",
+  HU: "europe",
+  RO: "europe",
+  SK: "europe",
+  BG: "europe",
+  HR: "europe",
+  EE: "europe",
+  LV: "europe",
+  LT: "europe",
+  SI: "europe",
+  GR: "europe",
   NG: "africa",
   KE: "africa",
   ZA: "africa",
@@ -208,6 +258,7 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   UG: "africa",
   TZ: "africa",
   EG: "africa",
+  MA: "africa",
   AE: "middle-east",
   SA: "middle-east",
   QA: "middle-east",
@@ -239,6 +290,22 @@ const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
   "America/Santo_Domingo": "caribbean",
   "Europe/Paris": "europe",
   "Europe/Berlin": "europe",
+  "Europe/London": "europe",
+  "Europe/Madrid": "europe",
+  "Europe/Rome": "europe",
+  "Europe/Amsterdam": "europe",
+  "Europe/Brussels": "europe",
+  "Europe/Lisbon": "europe",
+  "Europe/Zurich": "europe",
+  "Europe/Warsaw": "europe",
+  "Europe/Prague": "europe",
+  "Europe/Budapest": "europe",
+  "Europe/Bucharest": "europe",
+  "Europe/Sofia": "europe",
+  "Europe/Zagreb": "europe",
+  "Europe/Tallinn": "europe",
+  "Europe/Riga": "europe",
+  "Europe/Vilnius": "europe",
   "Africa/Lagos": "africa",
   "Africa/Nairobi": "africa",
   "Asia/Riyadh": "middle-east",

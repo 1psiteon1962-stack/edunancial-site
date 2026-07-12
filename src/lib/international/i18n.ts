@@ -7,8 +7,8 @@ import swMessages from "../../locales/sw.json";
 import jaMessages from "../../locales/ja.json";
 import koMessages from "../../locales/ko.json";
 import zhHansMessages from "../../locales/zh-Hans.json";
-import zhHantMessages from "../../locales/zh-Hant.json";
 import hiMessages from "../../locales/hi.json";
+import zhHantMessages from "../../locales/zh-Hant.json";
 import { DEFAULT_LANGUAGE_CODE, normalizeLanguageCode } from "./languages";
 
 type MessageCatalog = Record<string, string>;
@@ -23,8 +23,8 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   ja: jaMessages,
   ko: koMessages,
   "zh-Hans": zhHansMessages,
-  "zh-Hant": zhHantMessages,
   hi: hiMessages,
+  "zh-Hant": zhHantMessages,
 };
 
 export function translate(languageCode: string, key: string, values?: Record<string, string | number>) {
