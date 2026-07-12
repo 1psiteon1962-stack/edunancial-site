@@ -1,63 +1,31 @@
 import { APAC_LOCALES } from "@/config/asia-pacific/index";
 
-const BASE_URL = "https://www.edunancial.com";
-
-export default function sitemap(){
-
-const coreRoutes=[
-
-{url:`${BASE_URL}`,lastModified:new Date()},
-
-{url:`${BASE_URL}/about`,lastModified:new Date()},
-
-{url:`${BASE_URL}/courses`,lastModified:new Date()},
-
-{url:`${BASE_URL}/membership`,lastModified:new Date()},
-
-{url:`${BASE_URL}/levels`,lastModified:new Date()},
-
-{url:`${BASE_URL}/sponsor`,lastModified:new Date()},
-
-{url:`${BASE_URL}/contact`,lastModified:new Date()},
-
-{url:`${BASE_URL}/privacy`,lastModified:new Date()},
-
-{url:`${BASE_URL}/trust-center`,lastModified:new Date()},
-
-{url:`${BASE_URL}/security`,lastModified:new Date()},
-
-{url:`${BASE_URL}/disclaimer`,lastModified:new Date()},
-
-{url:`${BASE_URL}/terms`,lastModified:new Date()},
-
-{url:`${BASE_URL}/refund-policy`,lastModified:new Date()},
-
-{url:`${BASE_URL}/faq`,lastModified:new Date()},
-
-{url:`${BASE_URL}/assessment`,lastModified:new Date()},
-
-{url:`${BASE_URL}/why-edunancial`,lastModified:new Date()},
-
-{url:`${BASE_URL}/canada`,lastModified:new Date()},
-
-{url:`${BASE_URL}/canada/courses`,lastModified:new Date()},
-
-{url:`${BASE_URL}/canada/membership`,lastModified:new Date()},
-
-{url:`${BASE_URL}/legal/pipeda`,lastModified:new Date()},
-
-{url:`${BASE_URL}/asia-pacific`,lastModified:new Date()},
-
-];
-
-const apacLocaleRoutes=APAC_LOCALES.map((locale)=>({
-
-url:`${BASE_URL}/asia-pacific/${locale}`,
-
-lastModified:new Date(),
-
-}));
-
-return[...coreRoutes,...apacLocaleRoutes];
-
+export default function sitemap() {
+  return [
+    { url: "https://www.edunancial.com", lastModified: new Date() },
+    { url: "https://www.edunancial.com/about", lastModified: new Date() },
+    { url: "https://www.edunancial.com/courses", lastModified: new Date() },
+    { url: "https://www.edunancial.com/membership", lastModified: new Date() },
+    { url: "https://www.edunancial.com/levels", lastModified: new Date() },
+    { url: "https://www.edunancial.com/sponsor", lastModified: new Date() },
+    { url: "https://www.edunancial.com/contact", lastModified: new Date() },
+    { url: "https://www.edunancial.com/privacy", lastModified: new Date() },
+    { url: "https://www.edunancial.com/trust-center", lastModified: new Date() },
+    { url: "https://www.edunancial.com/security", lastModified: new Date() },
+    { url: "https://www.edunancial.com/disclaimer", lastModified: new Date() },
+    { url: "https://www.edunancial.com/terms", lastModified: new Date() },
+    { url: "https://www.edunancial.com/refund-policy", lastModified: new Date() },
+    { url: "https://www.edunancial.com/faq", lastModified: new Date() },
+    { url: "https://www.edunancial.com/assessment", lastModified: new Date() },
+    { url: "https://www.edunancial.com/why-edunancial", lastModified: new Date() },
+    { url: "https://www.edunancial.com/canada", lastModified: new Date() },
+    { url: "https://www.edunancial.com/canada/courses", lastModified: new Date() },
+    { url: "https://www.edunancial.com/canada/membership", lastModified: new Date() },
+    { url: "https://www.edunancial.com/legal/pipeda", lastModified: new Date() },
+    { url: "https://www.edunancial.com/asia-pacific", lastModified: new Date() },
+    ...APAC_LOCALES.map((locale) => ({
+      url: `https://www.edunancial.com/asia-pacific/${locale}`,
+      lastModified: new Date(),
+    })),
+  ];
 }
