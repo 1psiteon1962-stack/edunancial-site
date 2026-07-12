@@ -8,10 +8,6 @@ export async function getDictionary(lang: string) {
       return (await import("./translations/ja")).default;
     case "zh-Hans":
       return (await import("./translations/zh-Hans")).default;
-    case "zh-Hant":
-      return (await import("./translations/zh-Hant")).default;
-    case "hi":
-      return (await import("./translations/hi")).default;
     case "tl":
       return (await import("./translations/tl")).default;
     case "ar":
@@ -22,14 +18,10 @@ export async function getDictionary(lang: string) {
       return (await import("./translations/fr-CA")).default;
     case "fr":
       return (await import("./translations/fr")).default;
-    case "de":
-      return (await import("./translations/de")).default;
-    case "it":
-      return (await import("./translations/it")).default;
-    case "nl":
-      return (await import("./translations/nl")).default;
-    case "ht":
-      return (await import("./translations/ht")).default;
+    case "hi":
+      return (await import("./translations/hi")).default;
+    case "zh-Hant":
+      return (await import("./translations/zh-Hant")).default;
     default:
       return (await import("./translations/en")).default;
   }

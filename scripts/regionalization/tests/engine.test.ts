@@ -9,9 +9,12 @@ import {
 } from "../../../src/lib/localization/engine.ts";
 
 test("USA visitor uses USD, US legal notices, English, Square", () => {
-  const resolved = resolveRegionalization({ countryCode: "US" });
+  const resolved = resolveRegionalization({
+    countryCode: "US",
+    userPreferredLanguage: "hi",
+  });
 
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "hi");
   assert.equal(loadRegionalCurrency({ countryCode: "US" }), "USD");
   assert.equal(
     loadRegionalLegalNotices({ countryCode: "US" }).privacy,
@@ -21,9 +24,12 @@ test("USA visitor uses USD, US legal notices, English, Square", () => {
 });
 
 test("Nigeria visitor uses NGN with regional legal and examples", () => {
-  const resolved = resolveRegionalization({ countryCode: "NG" });
+  const resolved = resolveRegionalization({
+    countryCode: "NG",
+    userPreferredLanguage: "fr",
+  });
 
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "fr");
   assert.equal(resolved.currency, "NGN");
   assert.equal(
     resolved.legalNotices.taxDisclaimer,
@@ -49,28 +55,37 @@ test("Morocco visitor receives Francophone localization in Africa", () => {
 });
 
 test("Spain visitor uses EUR, Spanish, and European legal notices", () => {
-  const resolved = resolveRegionalization({ countryCode: "ES" });
+  const resolved = resolveRegionalization({
+    countryCode: "ES",
+    userPreferredLanguage: "ar",
+  });
 
   assert.equal(resolved.region, "europe-2a");
-  assert.equal(resolved.language, "es");
+  assert.equal(resolved.interfaceLanguage, "ar");
   assert.equal(resolved.currency, "EUR");
-  assert.equal(resolved.legalNotices.privacy, "Spain and EU privacy notice.");
+  assert.equal(resolved.legalNotices.privacy, "Spain GDPR privacy notice (Ley de Protección de Datos).");
 });
 
 test("Dominican Republic visitor uses Spanish, DOP, and Caribbean content", () => {
-  const resolved = resolveRegionalization({ countryCode: "DO" });
+  const resolved = resolveRegionalization({
+    countryCode: "DO",
+    userPreferredLanguage: "zh-Hant",
+  });
 
   assert.equal(resolved.region, "caribbean");
-  assert.equal(resolved.language, "es");
+  assert.equal(resolved.interfaceLanguage, "zh-Hant");
   assert.equal(resolved.currency, "DOP");
   assert.match(resolved.educationalExamples.mortgage, /DOP/);
 });
 
 test("fallback order is country -> region -> global core", () => {
-  const regional = resolveRegionalization({ region: "middle-east" });
+  const regional = resolveRegionalization({
+    region: "middle-east",
+    userPreferredLanguage: "ta",
+  });
   const fallback = resolveRegionalization({ countryCode: "ZZ" });
 
-  assert.equal(regional.language, "ar");
+  assert.equal(regional.interfaceLanguage, "ta");
   assert.equal(regional.currency, "USD");
   assert.equal(fallback.region, "north-america");
   assert.equal(
@@ -79,70 +94,83 @@ test("fallback order is country -> region -> global core", () => {
   );
 });
 
-test("Japan visitor uses Japanese, JPY, and regional routing", () => {
-  const resolved = resolveRegionalization({ countryCode: "JP" });
+test("Japan visitor keeps selected interface language while pricing in JPY", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "JP",
+    userPreferredLanguage: "hi",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "ja");
+  assert.equal(resolved.interfaceLanguage, "hi");
   assert.equal(resolved.currency, "JPY");
   assert.match(resolved.educationalExamples.mortgage, /JPY/);
 });
 
-test("South Korea visitor uses Korean and KRW", () => {
-  const resolved = resolveRegionalization({ countryCode: "KR" });
+test("South Korea visitor uses KRW pricing and regional routing", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "KR",
+    userPreferredLanguage: "en",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "ko");
+  assert.equal(resolved.interfaceLanguage, "en");
   assert.equal(resolved.currency, "KRW");
   assert.match(resolved.educationalExamples.mortgage, /KRW/);
 });
 
-test("China visitor uses Simplified Chinese and CNY", () => {
-  const resolved = resolveRegionalization({ countryCode: "CN" });
+test("China visitor supports Simplified Chinese selection with CNY", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "CN",
+    userPreferredLanguage: "zh-Hans",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "zh-Hans");
+  assert.equal(resolved.interfaceLanguage, "zh-Hans");
   assert.equal(resolved.currency, "CNY");
 });
 
-test("Taiwan visitor uses Traditional Chinese and TWD", () => {
-  const resolved = resolveRegionalization({ countryCode: "TW" });
+test("Taiwan visitor supports Traditional Chinese selection with TWD", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "TW",
+    userPreferredLanguage: "zh-Hant",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "zh-Hant");
+  assert.equal(resolved.interfaceLanguage, "zh-Hant");
   assert.equal(resolved.currency, "TWD");
 });
 
-test("India visitor uses Hindi and INR", () => {
-  const resolved = resolveRegionalization({ countryCode: "IN" });
+test("India visitor supports Hindi selection with INR", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "IN",
+    userPreferredLanguage: "hi",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "hi");
+  assert.equal(resolved.interfaceLanguage, "hi");
   assert.equal(resolved.currency, "INR");
   assert.match(resolved.educationalExamples.mortgage, /INR/);
 });
 
-test("Singapore visitor uses English and SGD", () => {
-  const resolved = resolveRegionalization({ countryCode: "SG" });
+test("Singapore visitor can use Japanese interface with SGD pricing", () => {
+  const resolved = resolveRegionalization({
+    countryCode: "SG",
+    userPreferredLanguage: "ja",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "ja");
   assert.equal(resolved.currency, "SGD");
 });
 
-test("Philippines visitor uses English and PHP", () => {
-  const resolved = resolveRegionalization({ countryCode: "PH" });
+test("Asia region baseline keeps language independent from payment routing", () => {
+  const resolved = resolveRegionalization({
+    region: "asia",
+    userPreferredLanguage: "ko",
+  });
 
   assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "en");
-  assert.equal(resolved.currency, "PHP");
-});
-
-test("Asia region baseline uses English and regional-gateway payment", () => {
-  const resolved = resolveRegionalization({ region: "asia" });
-
-  assert.equal(resolved.region, "asia");
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "ko");
   assert.ok(
     resolved.paymentProviders.includes("regional-gateway") ||
       resolved.paymentProviders.includes("stripe"),
