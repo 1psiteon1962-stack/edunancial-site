@@ -7,6 +7,8 @@ export const languages = [
   "ar",
   "pt",
   "fr",
+  "nl",
+  "ht",
 ] as const;
 
 export type SupportedLanguage = (typeof languages)[number];
@@ -28,6 +30,8 @@ export const supportedLanguages: SupportedLanguageConfig[] = [
   { code: "ar", label: "Arabic", nativeLabel: "العربية" },
   { code: "pt", label: "Portuguese", nativeLabel: "Português" },
   { code: "fr", label: "French", nativeLabel: "Français" },
+  { code: "nl", label: "Dutch", nativeLabel: "Nederlands" },
+  { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl ayisyen" },
 ];
 
 export function isLanguage(value: string): value is Language {
