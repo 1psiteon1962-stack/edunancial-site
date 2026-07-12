@@ -129,13 +129,13 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
     supportedLanguages: ["en", "fr", "sw", "ar"],
     supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "USD"],
     defaultTimeZone: "Africa/Lagos",
-    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG"],
+    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG", "MA"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
       disclaimerKey: "tax.africa.disclaimer",
     },
-    paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+    paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
     defaultPricing: {
       currency: "USD",
       starterMonthlyAmount: 29,
@@ -206,6 +206,7 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   UG: "africa",
   TZ: "africa",
   EG: "africa",
+  MA: "africa",
   AE: "middle-east",
   SA: "middle-east",
   QA: "middle-east",

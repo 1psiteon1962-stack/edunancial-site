@@ -73,6 +73,7 @@ const squareAdapter: PaymentProviderAdapter = {
 const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapter> = {
   square: squareAdapter,
   stripe: buildPlaceholderAdapter("stripe", "Stripe", [
+    "africa",
     "latin-america",
     "caribbean",
     "europe",

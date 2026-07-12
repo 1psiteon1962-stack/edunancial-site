@@ -6,6 +6,7 @@ const segments = [
   { name: "Latin America", href: "/latin-america" },
   { name: "Western Europe", href: "/western-europe" },
   { name: "Eastern Europe", href: "/eastern-europe" },
+  { name: "Africa", href: "/africa" },
   { name: "East Africa", href: "/east-africa" },
   { name: "West Africa", href: "/west-africa" },
   { name: "Southern Africa", href: "/southern-africa" },
