@@ -38,7 +38,7 @@ test("Spain visitor uses EUR, Spanish, and European legal notices", () => {
   assert.equal(resolved.region, "europe-2a");
   assert.equal(resolved.language, "es");
   assert.equal(resolved.currency, "EUR");
-  assert.equal(resolved.legalNotices.privacy, "Spain and EU privacy notice.");
+  assert.equal(resolved.legalNotices.privacy, "Spain GDPR privacy notice (Ley de Protección de Datos).");
 });
 
 test("Dominican Republic visitor uses Spanish, DOP, and Caribbean content", () => {

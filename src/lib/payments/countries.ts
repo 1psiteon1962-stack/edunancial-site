@@ -97,6 +97,90 @@ export const countryPayments: CountryPaymentConfiguration[] = [
   },
 
   {
+    countryId: "fr",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "de",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "it",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "nl",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "be",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "pt",
+    currency: "EUR",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "gb",
+    currency: "GBP",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "ch",
+    currency: "CHF",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "pl",
+    currency: "PLN",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "cz",
+    currency: "CZK",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "hu",
+    currency: "HUF",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
+    countryId: "ro",
+    currency: "RON",
+    defaultProvider: "stripe",
+    providers: ["stripe", "paypal", "bank-transfer"],
+  },
+
+  {
     countryId: "do",
 
     currency: "DOP",

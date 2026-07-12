@@ -62,3 +62,48 @@ community:false,
 analytics:true,
 
 };
+
+// ======================================================
+// EUROPE REGIONAL FEATURE FLAGS
+// ======================================================
+
+export interface EuropeRegionalFeatureFlags {
+  gdprConsentBanner: boolean;
+  cookiePreferenceCenter: boolean;
+  dataPortabilityRequest: boolean;
+  rightToErasureRequest: boolean;
+  vatDisplay: boolean;
+  multiCurrencyCheckout: boolean;
+  psd2StrongAuthentication: boolean;
+  hreflangAlternates: boolean;
+  paypalEnabled: boolean;
+  stripeEnabled: boolean;
+  multilingual: boolean;
+  vatOssSupport: boolean;
+}
+
+export const EUROPE_FEATURE_FLAGS: EuropeRegionalFeatureFlags = {
+  gdprConsentBanner: true,
+  cookiePreferenceCenter: true,
+  dataPortabilityRequest: true,
+  rightToErasureRequest: true,
+  vatDisplay: true,
+  multiCurrencyCheckout: true,
+  psd2StrongAuthentication: true,
+  hreflangAlternates: true,
+  paypalEnabled: true,
+  stripeEnabled: true,
+  multilingual: true,
+  vatOssSupport: false,
+};
+
+export const EUROPE_2A_FEATURE_FLAGS: EuropeRegionalFeatureFlags = {
+  ...EUROPE_FEATURE_FLAGS,
+  vatOssSupport: true,
+};
+
+export const EUROPE_2B_FEATURE_FLAGS: EuropeRegionalFeatureFlags = {
+  ...EUROPE_FEATURE_FLAGS,
+  vatOssSupport: true,
+};
+
