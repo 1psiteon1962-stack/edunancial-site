@@ -28,8 +28,14 @@ import { resolveAvailablePaymentMethods } from "@/lib/international/preference-a
 type InternationalPreferencesContextValue = {
   ready: boolean;
   preferences: InternationalPreferences;
+  /** Language active for this session (may differ from persisted preferences.preferredLanguage). */
+  effectiveLanguage: string;
+  /** True while awaiting the user's YES/NO response to "make this your default?" */
+  languagePromptPending: boolean;
   showDetectionBanner: boolean;
   setLanguage: (language: string) => void;
+  /** Call after setLanguage: true = persist as default, false = session-only. */
+  confirmLanguageDefault: (makeDefault: boolean) => void;
   setCountry: (country: string) => void;
   setRegion: (region: string) => void;
   setCurrency: (currency: string) => void;
@@ -47,8 +53,11 @@ const defaultPreferences = detectInitialInternationalPreferences();
 const InternationalPreferencesContext = createContext<InternationalPreferencesContextValue>({
   ready: false,
   preferences: defaultPreferences,
+  effectiveLanguage: defaultPreferences.preferredLanguage,
+  languagePromptPending: false,
   showDetectionBanner: false,
   setLanguage: () => {},
+  confirmLanguageDefault: () => {},
   setCountry: () => {},
   setRegion: () => {},
   setCurrency: () => {},
@@ -69,6 +78,10 @@ export function InternationalPreferencesProvider({
   const [preferences, setPreferences] = useState<InternationalPreferences>(defaultPreferences);
   const [showDetectionBanner, setShowDetectionBanner] = useState(false);
   const [ready, setReady] = useState(false);
+  /** Language chosen this session but not yet persisted as a default. */
+  const [sessionLanguage, setSessionLanguage] = useState<string | null>(null);
+  /** Whether a YES/NO default-language prompt is awaiting the user's answer. */
+  const [languagePromptPending, setLanguagePromptPending] = useState(false);
 
   useEffect(() => {
     const stored = loadInternationalPreferences();
@@ -95,22 +108,37 @@ export function InternationalPreferencesProvider({
 
     saveInternationalPreferences(preferences);
 
-    document.documentElement.lang = normalizeLanguageCode(preferences.preferredLanguage);
-    document.documentElement.dir = isRtlLanguage(preferences.preferredLanguage) ? "rtl" : "ltr";
-  }, [preferences, ready]);
+    const langToApply = sessionLanguage ?? preferences.preferredLanguage;
+    document.documentElement.lang = normalizeLanguageCode(langToApply);
+    document.documentElement.dir = isRtlLanguage(langToApply) ? "rtl" : "ltr";
+  }, [preferences, sessionLanguage, ready]);
 
   const contextValue = useMemo<InternationalPreferencesContextValue>(() => {
+    const effectiveLanguage = sessionLanguage ?? preferences.preferredLanguage;
     return {
       ready,
       preferences,
+      effectiveLanguage,
+      languagePromptPending,
       showDetectionBanner,
       setLanguage: (language) => {
         const normalizedLanguage = normalizeLanguageCode(language);
-        setPreferences((previous) => ({
-          ...previous,
-          preferredLanguage: normalizedLanguage,
-          languageSelectionSource: "user-confirmed",
-        }));
+        // Apply language immediately for this session without persisting.
+        setSessionLanguage(normalizedLanguage);
+        setLanguagePromptPending(true);
+      },
+      confirmLanguageDefault: (makeDefault) => {
+        if (makeDefault && sessionLanguage) {
+          // Persist as the user's confirmed default.
+          setPreferences((previous) => ({
+            ...previous,
+            preferredLanguage: sessionLanguage,
+            languageSelectionSource: "user-confirmed",
+          }));
+          setSessionLanguage(null);
+        }
+        // If not making default, sessionLanguage remains active for this session only.
+        setLanguagePromptPending(false);
       },
       setCountry: (country) => {
         setPreferences((previous) => ({
@@ -176,16 +204,16 @@ export function InternationalPreferencesProvider({
       },
       t: (key, values) => {
         const adminSettings = getStoredLanguageAdminSettings();
-        const isEnabled = adminSettings.enabledLanguages.includes(preferences.preferredLanguage);
+        const isEnabled = adminSettings.enabledLanguages.includes(effectiveLanguage);
 
         const languageToUse = isEnabled
-          ? preferences.preferredLanguage
+          ? effectiveLanguage
           : adminSettings.fallbackLanguage;
 
         return translate(languageToUse, key, values);
       },
     };
-  }, [preferences, ready, showDetectionBanner]);
+  }, [preferences, sessionLanguage, languagePromptPending, ready, showDetectionBanner]);
 
   return (
     <InternationalPreferencesContext.Provider value={contextValue}>

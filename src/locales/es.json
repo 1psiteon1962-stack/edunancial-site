@@ -50,5 +50,8 @@
   "pricing.approvedOrganizationMembership": "Approved Organization Membership — $14.99/member/month",
   "pricing.organizationRate100": "100+ Member Organization Rate — $9.99/active paid member/month",
   "pricing.betaTester": "Beta Tester — $0, invitation only",
-  "legal.translationReview": "Human legal review recommended before publishing localized legal copy."
+  "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
+  "selector.defaultPrompt": "¿Desea establecer este como su idioma predeterminado?",
+  "selector.setDefault.yes": "Sí, establecer como predeterminado",
+  "selector.setDefault.no": "No, solo para esta sesión"
 }
