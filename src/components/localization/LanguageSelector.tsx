@@ -1,4 +1,7 @@
 "use client";
 
-export { default } from "@/components/international/LanguagePreferenceSelector";
+import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 
+export default function LanguageSelector() {
+  return <LanguagePreferenceSelector compact />;
+}

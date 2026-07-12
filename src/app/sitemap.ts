@@ -1,4 +1,9 @@
-const ACTIVE_LOCALES = [
+import type { MetadataRoute } from "next";
+
+import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+
+const SITE_URL = "https://www.edunancial.com";
+const ACTIVE_LOCALE_CODES = new Set([
   "en",
   "es",
   "fr",
@@ -14,11 +19,8 @@ const ACTIVE_LOCALES = [
   "hi",
   "zh-Hant",
   "ht",
-] as const;
-
-const BASE_URL = "https://www.edunancial.com";
-
-const PUBLIC_PATHS = [
+]);
+const PATHS = [
   "",
   "/about",
   "/courses",
@@ -44,20 +46,16 @@ const PUBLIC_PATHS = [
   "/eastern-europe",
 ] as const;
 
-export default function sitemap() {
-  const lastModified = new Date();
-
-  const canonicalEntries = PUBLIC_PATHS.map((path) => ({
-    url: `${BASE_URL}${path}`,
-    lastModified,
+export default function sitemap(): MetadataRoute.Sitemap {
+  return PATHS.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: new Date(),
+    alternates: {
+      languages: Object.fromEntries(
+        LANGUAGE_CATALOG.filter((language) => ACTIVE_LOCALE_CODES.has(language.code)).map(
+          (language) => [language.code, `${SITE_URL}/${language.code}${path}`]
+        )
+      ),
+    },
   }));
-
-  const localizedEntries = PUBLIC_PATHS.flatMap((path) =>
-    ACTIVE_LOCALES.filter((locale) => locale !== "en").map((locale) => ({
-      url: `${BASE_URL}/${locale}${path}`,
-      lastModified,
-    }))
-  );
-
-  return [...canonicalEntries, ...localizedEntries];
 }

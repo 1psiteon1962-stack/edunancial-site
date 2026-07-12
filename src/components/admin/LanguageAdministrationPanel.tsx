@@ -166,7 +166,7 @@ export default function LanguageAdministrationPanel() {
             </label>
 
             <p className="mt-3 text-sm text-slate-300">
-              {translatePlural(preferences.language, "admin.missingTranslations", row.missing, {
+              {translatePlural(preferences.preferredLanguage, "admin.missingTranslations", row.missing, {
                 count: row.missing,
               })}
             </p>

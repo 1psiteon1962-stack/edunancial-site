@@ -9,9 +9,12 @@ import {
 } from "../../../src/lib/localization/engine.ts";
 
 test("USA visitor uses USD, US legal notices, English, Square", () => {
-  const resolved = resolveRegionalization({ countryCode: "US" });
+  const resolved = resolveRegionalization({
+    countryCode: "US",
+    userPreferredLanguage: "hi",
+  });
 
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "hi");
   assert.equal(loadRegionalCurrency({ countryCode: "US" }), "USD");
   assert.equal(
     loadRegionalLegalNotices({ countryCode: "US" }).privacy,
@@ -21,9 +24,12 @@ test("USA visitor uses USD, US legal notices, English, Square", () => {
 });
 
 test("Nigeria visitor uses NGN with regional legal and examples", () => {
-  const resolved = resolveRegionalization({ countryCode: "NG" });
+  const resolved = resolveRegionalization({
+    countryCode: "NG",
+    userPreferredLanguage: "fr",
+  });
 
-  assert.equal(resolved.language, "en");
+  assert.equal(resolved.interfaceLanguage, "fr");
   assert.equal(resolved.currency, "NGN");
   assert.equal(
     resolved.legalNotices.taxDisclaimer,
@@ -33,28 +39,37 @@ test("Nigeria visitor uses NGN with regional legal and examples", () => {
 });
 
 test("Spain visitor uses EUR, Spanish, and European legal notices", () => {
-  const resolved = resolveRegionalization({ countryCode: "ES" });
+  const resolved = resolveRegionalization({
+    countryCode: "ES",
+    userPreferredLanguage: "ar",
+  });
 
   assert.equal(resolved.region, "europe-2a");
-  assert.equal(resolved.language, "es");
+  assert.equal(resolved.interfaceLanguage, "ar");
   assert.equal(resolved.currency, "EUR");
   assert.equal(resolved.legalNotices.privacy, "Spain GDPR privacy notice (Ley de Protección de Datos).");
 });
 
 test("Dominican Republic visitor uses Spanish, DOP, and Caribbean content", () => {
-  const resolved = resolveRegionalization({ countryCode: "DO" });
+  const resolved = resolveRegionalization({
+    countryCode: "DO",
+    userPreferredLanguage: "zh-Hant",
+  });
 
   assert.equal(resolved.region, "caribbean");
-  assert.equal(resolved.language, "es");
+  assert.equal(resolved.interfaceLanguage, "zh-Hant");
   assert.equal(resolved.currency, "DOP");
   assert.match(resolved.educationalExamples.mortgage, /DOP/);
 });
 
 test("fallback order is country -> region -> global core", () => {
-  const regional = resolveRegionalization({ region: "middle-east" });
+  const regional = resolveRegionalization({
+    region: "middle-east",
+    userPreferredLanguage: "ta",
+  });
   const fallback = resolveRegionalization({ countryCode: "ZZ" });
 
-  assert.equal(regional.language, "ar");
+  assert.equal(regional.interfaceLanguage, "ta");
   assert.equal(regional.currency, "USD");
   assert.equal(fallback.region, "north-america");
   assert.equal(

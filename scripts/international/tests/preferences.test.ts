@@ -5,6 +5,8 @@ import {
   parseCountryCodeFromLanguageTag,
   resolveRegion,
 } from "../../../src/lib/international/detection.ts";
+import { LANGUAGE_CATALOG, normalizeLanguageCode } from "../../../src/lib/international/languages.ts";
+import { resolveAvailablePaymentMethods } from "../../../src/lib/international/preference-architecture.ts";
 
 test("US locale resolves to US country code", () => {
   assert.equal(parseCountryCodeFromLanguageTag("en-US"), "us");
@@ -34,4 +36,17 @@ test("Latin America timezone fallback remains region-driven", () => {
   const region = resolveRegion("", "America/Mexico_City");
 
   assert.equal(region, "latin-america-2a");
+});
+
+test("language catalog has no duplicate language registrations", () => {
+  const uniqueCodes = new Set(LANGUAGE_CATALOG.map((language) => language.code));
+  assert.equal(uniqueCodes.size, LANGUAGE_CATALOG.length);
+});
+
+test("language preference is independent from payment provider routing", () => {
+  const paymentMethods = resolveAvailablePaymentMethods("north-america", "us");
+  const hindiLanguage = normalizeLanguageCode("hi");
+
+  assert.equal(hindiLanguage, "hi");
+  assert.deepEqual(paymentMethods.slice(0, 3), ["square", "stripe", "paypal"]);
 });

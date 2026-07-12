@@ -1,3 +1,5 @@
+import type { GlobalUserPreferences } from "../src/lib/international/preference-architecture";
+
 /**
  * Canonical User Profile
  * INTERNAL SYSTEM TYPE
@@ -17,6 +19,15 @@ export interface UserProfile {
   email?: string;
   phone?: string;
   country?: string;
+  region?: string;
+  preferredLanguage?: string;
+  preferredCurrency?: string;
+  timeZone?: string;
+  dateFormat?: string;
+  numberFormat?: string;
+  measurementSystem?: "metric" | "imperial";
+  preferredPaymentMethod?: string;
+  preferences?: GlobalUserPreferences;
 
   /** Business context */
   hasBusiness?: boolean;

@@ -1,10 +1,12 @@
 "use client";
 
 import { currencies } from "@/lib/location/currencies";
+import { countries } from "@/lib/location/countries";
 import { supportedTimezones } from "@/lib/location/timezones";
 import { regionalSettings } from "@/lib/regionalSettings";
 import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
 
 const dateFormats = ["MM/DD/YYYY", "DD/MM/YYYY", "YYYY-MM-DD"];
 const numberFormats = ["1,234.56", "1.234,56", "1 234,56"];
@@ -12,14 +14,20 @@ const numberFormats = ["1,234.56", "1.234,56", "1 234,56"];
 export default function InternationalPreferencesPanel() {
   const {
     preferences,
+    setCountry,
     setRegion,
     setCurrency,
     setTimezone,
     setDateFormat,
     setNumberFormat,
     setMeasurementSystem,
+    setPreferredPaymentMethod,
     t,
   } = useInternationalPreferences();
+  const availablePaymentMethods = resolveAvailablePaymentMethods(
+    preferences.region,
+    preferences.country
+  );
 
   return (
     <section className="rounded-xl border border-slate-700 bg-slate-900/60 p-8">
@@ -30,6 +38,21 @@ export default function InternationalPreferencesPanel() {
           <p className="text-sm text-slate-300">{t("settings.language")}</p>
           <LanguagePreferenceSelector compact />
         </div>
+
+        <label className="flex flex-col gap-2">
+          <span className="text-sm text-slate-300">Country</span>
+          <select
+            value={preferences.country}
+            onChange={(event) => setCountry(event.target.value)}
+            className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-white"
+          >
+            {countries.map((country) => (
+              <option key={country.id} value={country.id}>
+                {country.name}
+              </option>
+            ))}
+          </select>
+        </label>
 
         <label className="flex flex-col gap-2">
           <span className="text-sm text-slate-300">{t("settings.region")}</span>
@@ -49,7 +72,7 @@ export default function InternationalPreferencesPanel() {
         <label className="flex flex-col gap-2">
           <span className="text-sm text-slate-300">{t("settings.currency")}</span>
           <select
-            value={preferences.currency}
+            value={preferences.preferredCurrency}
             onChange={(event) => setCurrency(event.target.value)}
             className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-white"
           >
@@ -62,9 +85,24 @@ export default function InternationalPreferencesPanel() {
         </label>
 
         <label className="flex flex-col gap-2">
+          <span className="text-sm text-slate-300">Payment method</span>
+          <select
+            value={preferences.preferredPaymentMethod}
+            onChange={(event) => setPreferredPaymentMethod(event.target.value)}
+            className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-white"
+          >
+            {availablePaymentMethods.map((paymentMethod) => (
+              <option key={paymentMethod} value={paymentMethod}>
+                {paymentMethod}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="flex flex-col gap-2">
           <span className="text-sm text-slate-300">{t("settings.timezone")}</span>
           <select
-            value={preferences.timezone}
+            value={preferences.timeZone}
             onChange={(event) => setTimezone(event.target.value)}
             className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-white"
           >

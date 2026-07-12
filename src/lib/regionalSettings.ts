@@ -29,7 +29,7 @@ export const regionalSettings: RegionalSettings[] = [
     region: "caribbean",
     defaultLanguage: "es",
     defaultCurrency: "USD",
-    supportedLanguages: ["es","en","fr"],
+    supportedLanguages: ["es","en","fr","nl","ht","pap"],
     supportedCurrencies: ["USD","DOP","JMD"],
     active: true
   },
@@ -38,7 +38,7 @@ export const regionalSettings: RegionalSettings[] = [
     region: "europe-2a",
     defaultLanguage: "en",
     defaultCurrency: "EUR",
-    supportedLanguages: ["en","fr","de","es","it"],
+    supportedLanguages: ["en","fr","de","es","pt","it","nl"],
     supportedCurrencies: ["EUR","GBP","CHF"],
     active: true
   },
@@ -47,7 +47,7 @@ export const regionalSettings: RegionalSettings[] = [
     region: "europe-2b",
     defaultLanguage: "en",
     defaultCurrency: "EUR",
-    supportedLanguages: ["en","fr","de","es","it"],
+    supportedLanguages: ["en","fr","de","es","pt","it","nl"],
     supportedCurrencies: ["EUR","PLN","CZK","HUF"],
     active: true
   },
@@ -74,7 +74,7 @@ export const regionalSettings: RegionalSettings[] = [
     region: "africa",
     defaultLanguage: "en",
     defaultCurrency: "USD",
-    supportedLanguages: ["en","fr","sw","ar"],
+    supportedLanguages: ["en","fr","ar","pt","sw","yo","zu","am"],
     supportedCurrencies: ["USD","NGN","KES","ZAR","EGP"],
     active: true
   },
@@ -92,7 +92,7 @@ export const regionalSettings: RegionalSettings[] = [
     region: "asia",
     defaultLanguage: "en",
     defaultCurrency: "USD",
-    supportedLanguages: ["en","zh","ja","ko","hi"],
+    supportedLanguages: ["en","ja","ko","zh-Hans","zh-Hant","hi","th","vi","ms","id","fil","ta","bn"],
     supportedCurrencies: ["USD","JPY","SGD","KRW","INR"],
     active: true
   },
