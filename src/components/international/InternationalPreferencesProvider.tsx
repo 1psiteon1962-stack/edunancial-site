@@ -23,18 +23,21 @@ import {
   saveInternationalPreferences,
   type InternationalPreferences,
 } from "@/lib/international/preferences";
+import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
 
 type InternationalPreferencesContextValue = {
   ready: boolean;
   preferences: InternationalPreferences;
   showDetectionBanner: boolean;
   setLanguage: (language: string) => void;
+  setCountry: (country: string) => void;
   setRegion: (region: string) => void;
   setCurrency: (currency: string) => void;
   setTimezone: (timezone: string) => void;
   setDateFormat: (dateFormat: string) => void;
   setNumberFormat: (numberFormat: string) => void;
   setMeasurementSystem: (measurementSystem: "metric" | "imperial") => void;
+  setPreferredPaymentMethod: (paymentMethod: string) => void;
   dismissDetectionBanner: () => void;
   t: (key: string, values?: Record<string, string | number>) => string;
 };
@@ -46,12 +49,14 @@ const InternationalPreferencesContext = createContext<InternationalPreferencesCo
   preferences: defaultPreferences,
   showDetectionBanner: false,
   setLanguage: () => {},
+  setCountry: () => {},
   setRegion: () => {},
   setCurrency: () => {},
   setTimezone: () => {},
   setDateFormat: () => {},
   setNumberFormat: () => {},
   setMeasurementSystem: () => {},
+  setPreferredPaymentMethod: () => {},
   dismissDetectionBanner: () => {},
   t: (key) => key,
 });
@@ -90,8 +95,8 @@ export function InternationalPreferencesProvider({
 
     saveInternationalPreferences(preferences);
 
-    document.documentElement.lang = normalizeLanguageCode(preferences.language);
-    document.documentElement.dir = isRtlLanguage(preferences.language) ? "rtl" : "ltr";
+    document.documentElement.lang = normalizeLanguageCode(preferences.preferredLanguage);
+    document.documentElement.dir = isRtlLanguage(preferences.preferredLanguage) ? "rtl" : "ltr";
   }, [preferences, ready]);
 
   const contextValue = useMemo<InternationalPreferencesContextValue>(() => {
@@ -100,31 +105,45 @@ export function InternationalPreferencesProvider({
       preferences,
       showDetectionBanner,
       setLanguage: (language) => {
+        const normalizedLanguage = normalizeLanguageCode(language);
         setPreferences((previous) => ({
           ...previous,
-          language,
-          numberFormat:
-            language === "en"
-              ? "1,234.56"
-              : previous.numberFormat,
+          preferredLanguage: normalizedLanguage,
+          languageSelectionSource: "user-confirmed",
+        }));
+      },
+      setCountry: (country) => {
+        setPreferences((previous) => ({
+          ...previous,
+          country,
         }));
       },
       setRegion: (region) => {
         setPreferences((previous) => ({
           ...previous,
-          region,
+          ...(function () {
+            const availablePaymentMethods = resolveAvailablePaymentMethods(region, previous.country);
+            return {
+              region,
+              preferredPaymentMethod: (availablePaymentMethods as readonly string[]).includes(
+                previous.preferredPaymentMethod
+              )
+                ? previous.preferredPaymentMethod
+                : availablePaymentMethods[0],
+            };
+          })(),
         }));
       },
       setCurrency: (currency) => {
         setPreferences((previous) => ({
           ...previous,
-          currency,
+          preferredCurrency: currency,
         }));
       },
       setTimezone: (timezone) => {
         setPreferences((previous) => ({
           ...previous,
-          timezone,
+          timeZone: timezone,
         }));
       },
       setDateFormat: (dateFormat) => {
@@ -145,16 +164,22 @@ export function InternationalPreferencesProvider({
           measurementSystem,
         }));
       },
+      setPreferredPaymentMethod: (preferredPaymentMethod) => {
+        setPreferences((previous) => ({
+          ...previous,
+          preferredPaymentMethod,
+        }));
+      },
       dismissDetectionBanner: () => {
         setShowDetectionBanner(false);
         dismissInternationalBanner();
       },
       t: (key, values) => {
         const adminSettings = getStoredLanguageAdminSettings();
-        const isEnabled = adminSettings.enabledLanguages.includes(preferences.language);
+        const isEnabled = adminSettings.enabledLanguages.includes(preferences.preferredLanguage);
 
         const languageToUse = isEnabled
-          ? preferences.language
+          ? preferences.preferredLanguage
           : adminSettings.fallbackLanguage;
 
         return translate(languageToUse, key, values);

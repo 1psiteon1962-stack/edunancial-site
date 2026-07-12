@@ -80,6 +80,12 @@ const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapte
     "middle-east",
     "asia-pacific",
   ]),
+  paypal: buildPlaceholderAdapter("paypal", "PayPal", [
+    "north-america",
+    "europe",
+    "latin-america",
+    "caribbean",
+  ]),
   flutterwave: buildPlaceholderAdapter("flutterwave", "Flutterwave", ["africa"]),
   paystack: buildPlaceholderAdapter("paystack", "Paystack", ["africa"]),
   "mobile-money": buildPlaceholderAdapter("mobile-money", "Mobile Money", [
@@ -97,7 +103,7 @@ const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapte
   ),
   "local-apac-methods": buildPlaceholderAdapter(
     "local-apac-methods",
-    "APAC Local Methods",
+    "APAC Local Methods (Alipay, WeChat Pay, PayPay, Paytm, GrabPay, GCash, PayNow, KakaoPay, LINE Pay)",
     ["middle-east", "asia-pacific"]
   ),
 };

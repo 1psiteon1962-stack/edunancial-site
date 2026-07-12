@@ -1,3 +1,5 @@
+import type { GlobalUserPreferences } from "@/lib/international/preference-architecture";
+
 export interface Member {
   id: string;
 
@@ -16,6 +18,20 @@ export interface Member {
   preferredLanguage: string;
 
   preferredCurrency: string;
+
+  region?: string;
+
+  timeZone?: string;
+
+  dateFormat?: string;
+
+  numberFormat?: string;
+
+  measurementSystem?: "metric" | "imperial";
+
+  preferredPaymentMethod?: string;
+
+  preferences?: GlobalUserPreferences;
 
   membershipLevel: string;
 

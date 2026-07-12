@@ -7,18 +7,19 @@ export default function PaymentSuccessPage() {
       <div className="max-w-2xl text-center">
 
         <h1 className="text-6xl font-black text-green-500">
-          Payment Successful
+          Payment Received
         </h1>
 
         <p className="mt-8 text-xl text-gray-300">
-          Thank you for your purchase. Your product has been unlocked.
+          Thank you. Access remains pending until Edunancial confirms payment on the
+          server and applies the correct membership or purchase records.
         </p>
 
         <Link
-          href="/downloads"
+          href="/dashboard"
           className="inline-block mt-12 rounded-xl bg-blue-600 px-8 py-4 font-bold"
         >
-          Go To My Downloads
+          Go To My Dashboard
         </Link>
 
       </div>

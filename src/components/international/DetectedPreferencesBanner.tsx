@@ -21,13 +21,20 @@ export default function DetectedPreferencesBanner() {
         <div>
           <p className="font-bold">{t("banner.title")}</p>
           <p className="mt-1">
-            {t("banner.language")}: {getLanguageByCode(preferences.language)?.nativeLabel ?? "English"}
+            {t("banner.language")}:{" "}
+            {getLanguageByCode(preferences.preferredLanguage)?.nativeLabel ?? "English"}
           </p>
           <p>
             {t("banner.region")}: {preferences.region}
           </p>
           <p>
-            {t("banner.currency")}: {preferences.currency}
+            {t("banner.currency")}: {preferences.preferredCurrency}
+          </p>
+          <p>
+            Source:{" "}
+            {preferences.languageSelectionSource === "user-confirmed"
+              ? "Manual selection"
+              : "Detected recommendation"}
           </p>
           <p className="mt-1">{t("banner.message")}</p>
         </div>

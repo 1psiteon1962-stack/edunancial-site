@@ -2,6 +2,7 @@ export interface CheckoutItem {
   id: string;
   name: string;
   price: number;
+  currency: string;
 }
 
 export async function startSquareCheckout(
@@ -16,7 +17,13 @@ export async function startSquareCheckout(
   });
 
   if (!response.ok) {
-    throw new Error("Checkout failed.");
+    const errorBody = (await response.json().catch(() => null)) as
+      | { error?: string }
+      | null;
+
+    throw new Error(
+      errorBody?.error ?? "Secure checkout is unavailable right now."
+    );
   }
 
   const data = await response.json();

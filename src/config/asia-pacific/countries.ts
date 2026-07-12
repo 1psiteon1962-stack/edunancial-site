@@ -1,0 +1,178 @@
+export interface ApacCountry {
+  isoCode: string;
+  name: string;
+  nativeName: string;
+  locale: string;
+  currency: string;
+  timezone: string;
+  paymentProviders: string[];
+  taxModel: "gst" | "vat" | "sales-tax" | "mixed" | "none";
+  pricesIncludeTax: boolean;
+}
+
+export const APAC_COUNTRIES: readonly ApacCountry[] = [
+  {
+    isoCode: "JP",
+    name: "Japan",
+    nativeName: "日本",
+    locale: "ja-JP",
+    currency: "JPY",
+    timezone: "Asia/Tokyo",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "KR",
+    name: "South Korea",
+    nativeName: "대한민국",
+    locale: "ko-KR",
+    currency: "KRW",
+    timezone: "Asia/Seoul",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "CN",
+    name: "China",
+    nativeName: "中国",
+    locale: "zh-Hans-CN",
+    currency: "CNY",
+    timezone: "Asia/Shanghai",
+    paymentProviders: ["local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "TW",
+    name: "Taiwan",
+    nativeName: "臺灣",
+    locale: "zh-Hant-TW",
+    currency: "TWD",
+    timezone: "Asia/Taipei",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "HK",
+    name: "Hong Kong",
+    nativeName: "香港",
+    locale: "zh-Hant-HK",
+    currency: "HKD",
+    timezone: "Asia/Hong_Kong",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "none",
+    pricesIncludeTax: false,
+  },
+  {
+    isoCode: "SG",
+    name: "Singapore",
+    nativeName: "Singapore",
+    locale: "en-SG",
+    currency: "SGD",
+    timezone: "Asia/Singapore",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "gst",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "IN",
+    name: "India",
+    nativeName: "भारत",
+    locale: "hi-IN",
+    currency: "INR",
+    timezone: "Asia/Kolkata",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "gst",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "AU",
+    name: "Australia",
+    nativeName: "Australia",
+    locale: "en-AU",
+    currency: "AUD",
+    timezone: "Australia/Sydney",
+    paymentProviders: ["stripe"],
+    taxModel: "gst",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "NZ",
+    name: "New Zealand",
+    nativeName: "New Zealand",
+    locale: "en-NZ",
+    currency: "NZD",
+    timezone: "Pacific/Auckland",
+    paymentProviders: ["stripe"],
+    taxModel: "gst",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "PH",
+    name: "Philippines",
+    nativeName: "Pilipinas",
+    locale: "en-PH",
+    currency: "PHP",
+    timezone: "Asia/Manila",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "TH",
+    name: "Thailand",
+    nativeName: "ประเทศไทย",
+    locale: "th-TH",
+    currency: "THB",
+    timezone: "Asia/Bangkok",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "MY",
+    name: "Malaysia",
+    nativeName: "Malaysia",
+    locale: "en-MY",
+    currency: "MYR",
+    timezone: "Asia/Kuala_Lumpur",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "gst",
+    pricesIncludeTax: false,
+  },
+  {
+    isoCode: "ID",
+    name: "Indonesia",
+    nativeName: "Indonesia",
+    locale: "id-ID",
+    currency: "IDR",
+    timezone: "Asia/Jakarta",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+  {
+    isoCode: "VN",
+    name: "Vietnam",
+    nativeName: "Việt Nam",
+    locale: "vi-VN",
+    currency: "VND",
+    timezone: "Asia/Ho_Chi_Minh",
+    paymentProviders: ["stripe", "local-apac-methods"],
+    taxModel: "vat",
+    pricesIncludeTax: true,
+  },
+];
+
+export const APAC_COUNTRY_CODES = APAC_COUNTRIES.map((c) => c.isoCode);
+
+export function getApacCountry(isoCode: string): ApacCountry | undefined {
+  return APAC_COUNTRIES.find((c) => c.isoCode === isoCode.toUpperCase());
+}
+
+export function isApacCountry(isoCode: string): boolean {
+  return APAC_COUNTRY_CODES.includes(isoCode.toUpperCase());
+}

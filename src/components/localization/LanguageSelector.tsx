@@ -1,23 +1,7 @@
 "use client";
 
-export default function LanguageSelector(){
+import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 
-return(
-
-<select className="rounded-lg border p-2">
-
-<option>English</option>
-
-<option>Español</option>
-
-<option>Français</option>
-
-<option>العربية</option>
-
-<option>Português</option>
-
-</select>
-
-);
-
+export default function LanguageSelector() {
+  return <LanguagePreferenceSelector compact />;
 }

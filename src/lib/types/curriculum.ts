@@ -1,4 +1,4 @@
-export type CurriculumLanguage = "en" | "es";
+export type CurriculumLanguage = "en" | "es" | "fr" | "de" | "it" | "pt" | "ar" | "sw" | "ja" | "ko" | "zh-Hans";
 
 export interface CurriculumSection {
   title: string;
@@ -11,5 +11,4 @@ export interface CurriculumLanguageContent {
 
 export type RegionCurriculumContent = {
   en: CurriculumLanguageContent;
-  es: CurriculumLanguageContent;
-};
+} & Partial<Record<Exclude<CurriculumLanguage, "en">, CurriculumLanguageContent>>;
