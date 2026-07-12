@@ -16,8 +16,18 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl Ayisyen", rtl: false },
   { code: "pap", label: "Papiamento", nativeLabel: "Papiamentu", rtl: false },
   { code: "pl", label: "Polish", nativeLabel: "Polski", rtl: false },
+  { code: "cs", label: "Czech", nativeLabel: "Čeština", rtl: false },
+  { code: "sk", label: "Slovak", nativeLabel: "Slovenčina", rtl: false },
+  { code: "ro", label: "Romanian", nativeLabel: "Română", rtl: false },
+  { code: "bg", label: "Bulgarian", nativeLabel: "Български", rtl: false },
+  { code: "lt", label: "Lithuanian", nativeLabel: "Lietuvių", rtl: false },
+  { code: "lv", label: "Latvian", nativeLabel: "Latviešu", rtl: false },
+  { code: "et", label: "Estonian", nativeLabel: "Eesti", rtl: false },
+  { code: "be", label: "Belarusian", nativeLabel: "Беларуская", rtl: false },
   { code: "ar", label: "Arabic", nativeLabel: "العربية", rtl: true },
   { code: "he", label: "Hebrew", nativeLabel: "עברית", rtl: true },
+  { code: "fa", label: "Persian", nativeLabel: "فارسی", rtl: true },
+  { code: "ps", label: "Pashto", nativeLabel: "پښتو", rtl: true },
   { code: "hi", label: "Hindi", nativeLabel: "हिन्दी", rtl: false },
   { code: "th", label: "Thai", nativeLabel: "ภาษาไทย", rtl: false },
   { code: "vi", label: "Vietnamese", nativeLabel: "Tiếng Việt", rtl: false },
@@ -39,11 +49,20 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
     nativeLabel: "中文 (繁體)",
     rtl: false,
   },
+  {
+    code: "yue-Hant",
+    label: "Cantonese",
+    nativeLabel: "廣東話",
+    rtl: false,
+  },
   { code: "ja", label: "Japanese", nativeLabel: "日本語", rtl: false },
   { code: "ko", label: "Korean", nativeLabel: "한국어", rtl: false },
   { code: "ru", label: "Russian", nativeLabel: "Русский", rtl: false },
   { code: "sw", label: "Swahili", nativeLabel: "Kiswahili", rtl: false },
   { code: "yo", label: "Yoruba", nativeLabel: "Yorùbá", rtl: false },
+  { code: "ha", label: "Hausa", nativeLabel: "Hausa", rtl: false },
+  { code: "ig", label: "Igbo", nativeLabel: "Igbo", rtl: false },
+  { code: "lg", label: "Luganda", nativeLabel: "Luganda", rtl: false },
   { code: "zu", label: "Zulu", nativeLabel: "isiZulu", rtl: false },
   { code: "am", label: "Amharic", nativeLabel: "አማርኛ", rtl: false },
 ] as const;
@@ -56,12 +75,23 @@ export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
   "zh-cn": "zh-Hans",
   "zh-sg": "zh-Hans",
   "zh-tw": "zh-Hant",
-  "zh-hk": "zh-Hant",
+  "zh-hk": "yue-Hant",
   "zh-mo": "zh-Hant",
   tl: "fil",
+  "fa-af": "fa",
+  prs: "fa",
+  yue: "yue-Hant",
 };
 
-export const FRAMEWORK_READY_LANGUAGE_CODES = ["pap", "sw", "yo", "zu", "am", "th", "vi", "ms", "id", "fil", "ta", "bn"] as const;
+export const FRAMEWORK_READY_LANGUAGE_CODES = [
+  "pap", "sw", "yo", "zu", "am",
+  "th", "vi", "ms", "id", "fil", "ta", "bn",
+  "cs", "sk", "ro", "bg", "lt", "lv", "et", "be",
+  "fa", "ps",
+  "ha", "ig", "lg",
+  "yue-Hant",
+  "ru", "pl", "he", "ur",
+] as const;
 
 export const LANGUAGE_ADMIN_STORAGE_KEY = "edunancial:language-admin";
 
