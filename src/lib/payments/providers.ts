@@ -52,7 +52,7 @@ export const paymentProviders: PaymentProvider[] = [
     id: "paypal",
     name: "PayPal",
 
-    active: false,
+    active: true,
 
     supportsSubscriptions: true,
     supportsRefunds: true,
@@ -64,6 +64,15 @@ export const paymentProviders: PaymentProvider[] = [
       "CAD",
       "EUR",
       "GBP",
+      "CHF",
+      "PLN",
+      "CZK",
+      "HUF",
+      "RON",
+      "BGN",
+      "DKK",
+      "SEK",
+      "NOK",
     ],
   },
 
@@ -71,7 +80,7 @@ export const paymentProviders: PaymentProvider[] = [
     id: "stripe",
     name: "Stripe",
 
-    active: false,
+    active: true,
 
     supportsSubscriptions: true,
     supportsRefunds: true,
@@ -82,6 +91,13 @@ export const paymentProviders: PaymentProvider[] = [
       "USD",
       "CAD",
       "EUR",
+      "GBP",
+      "CHF",
+      "PLN",
+      "CZK",
+      "HUF",
+      "RON",
+      "BGN",
     ],
   },
 

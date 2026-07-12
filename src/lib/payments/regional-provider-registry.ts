@@ -66,6 +66,12 @@ const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapte
     "middle-east",
     "asia-pacific",
   ]),
+  paypal: buildPlaceholderAdapter("paypal", "PayPal", [
+    "north-america",
+    "europe",
+    "latin-america",
+    "caribbean",
+  ]),
   flutterwave: buildPlaceholderAdapter("flutterwave", "Flutterwave", ["africa"]),
   paystack: buildPlaceholderAdapter("paystack", "Paystack", ["africa"]),
   "mobile-money": buildPlaceholderAdapter("mobile-money", "Mobile Money", [

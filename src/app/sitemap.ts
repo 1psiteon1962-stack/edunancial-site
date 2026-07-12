@@ -243,6 +243,26 @@ new Date(),
 
 },
 
-];
+{
+  url: "https://www.edunancial.com/europe",
+  lastModified: new Date(),
+  changeFrequency: "weekly" as const,
+  priority: 0.9,
+},
 
+{
+  url: "https://www.edunancial.com/western-europe",
+  lastModified: new Date(),
+  changeFrequency: "weekly" as const,
+  priority: 0.8,
+},
+
+{
+  url: "https://www.edunancial.com/eastern-europe",
+  lastModified: new Date(),
+  changeFrequency: "weekly" as const,
+  priority: 0.8,
+},
+
+];
 }
