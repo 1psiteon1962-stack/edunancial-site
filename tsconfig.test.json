@@ -9,6 +9,8 @@
   },
   "include": [
     "src/lib/ai/guardrails.ts",
-    "src/lib/ai/guardrails.test.ts"
+    "src/lib/ai/guardrails.test.ts",
+    "src/lib/dashboard/dashboard-service.ts",
+    "src/lib/dashboard/dashboard-service.test.ts"
   ]
 }
