@@ -13,8 +13,8 @@ export type RegionCode =
 export interface RegionConfig {
   name: string;
   enabled: boolean;
-  defaultLanguage: "en" | "es" | "fr" | "ar";
-  languages: readonly ("en" | "es" | "fr" | "ar")[];
+  defaultLanguage: string;
+  languages: readonly string[];
   readinessKey: string;
 }
 
@@ -80,7 +80,7 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
     name: "Caribbean",
     enabled: false,
     defaultLanguage: "en",
-    languages: ["en", "es", "fr"],
+    languages: ["en", "es", "fr", "nl", "ht", "pap"],
     readinessKey: "caribbean",
   },
 };

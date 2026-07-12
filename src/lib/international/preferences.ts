@@ -8,15 +8,22 @@ import {
   normalizeLanguageCode,
 } from "./languages";
 import { parseCountryCodeFromLanguageTag, resolveRegion } from "./detection";
+import {
+  resolveDefaultPaymentMethod,
+  type GlobalUserPreferences,
+  type LanguageSelectionSource,
+} from "./preference-architecture";
 
-export type InternationalPreferences = {
-  language: string;
-  region: string;
-  currency: string;
-  timezone: string;
-  dateFormat: string;
-  numberFormat: string;
-  measurementSystem: "metric" | "imperial";
+export type InternationalPreferences = GlobalUserPreferences;
+
+type LegacyInternationalPreferences = {
+  language?: string;
+  currency?: string;
+  timezone?: string;
+  region?: string;
+  dateFormat?: string;
+  numberFormat?: string;
+  measurementSystem?: "metric" | "imperial";
 };
 
 export const INTERNATIONAL_PREFERENCES_STORAGE_KEY = "edunancial:international-preferences";
@@ -29,35 +36,22 @@ function getDefaultTimezone() {
 
 function resolveCurrency(countryCode: string, region: string) {
   const byCountry = countries.find((country) => country.id === countryCode.toLowerCase());
-
   if (byCountry?.currency) {
     return byCountry.currency;
   }
-
   const byRegion = regionalSettings.find((setting) => setting.region === region);
-
   return byRegion?.defaultCurrency ?? "USD";
 }
 
-function resolveLanguage(browserLanguage: string, region: string) {
+function resolveLanguage(browserLanguage: string) {
   const settings = getStoredLanguageAdminSettings();
   const normalizedBrowserLanguage = normalizeLanguageCode(browserLanguage);
-  const regionSettings = regionalSettings.find((setting) => setting.region === region);
 
   if (
     settings.enabledLanguages.includes(normalizedBrowserLanguage) &&
     isLanguageSupported(normalizedBrowserLanguage)
   ) {
     return normalizedBrowserLanguage;
-  }
-
-  const regionDefaultLanguage = normalizeLanguageCode(regionSettings?.defaultLanguage);
-
-  if (
-    settings.enabledLanguages.includes(regionDefaultLanguage) &&
-    isLanguageSupported(regionDefaultLanguage)
-  ) {
-    return regionDefaultLanguage;
   }
 
   if (
@@ -74,8 +68,8 @@ function resolveDateFormat(countryCode: string) {
   return countryCode.toLowerCase() === "us" ? "MM/DD/YYYY" : "DD/MM/YYYY";
 }
 
-function resolveNumberFormat(language: string) {
-  return language === "en" ? "1,234.56" : "1.234,56";
+function resolveNumberFormat(countryCode: string) {
+  return countryCode.toLowerCase() === "us" ? "1,234.56" : "1.234,56";
 }
 
 function resolveMeasurementSystem(countryCode: string): "metric" | "imperial" {
@@ -90,27 +84,51 @@ function isClient() {
   return typeof window !== "undefined";
 }
 
+function resolveLanguageSource(
+  input?: string
+): LanguageSelectionSource {
+  return input === "user-confirmed" ? "user-confirmed" : "detected";
+}
+
+function toInternationalPreferences(
+  parsed: Partial<InternationalPreferences> | LegacyInternationalPreferences
+): InternationalPreferences | null {
+  const source = parsed as Record<string, string | undefined>;
+  const rawLanguage = source.preferredLanguage ?? source.language;
+  const rawCurrency = source.preferredCurrency ?? source.currency;
+  const rawTimezone = source.timeZone ?? source.timezone;
+  const region = source.region;
+
+  if (!rawLanguage || !rawCurrency || !rawTimezone || !region) {
+    return null;
+  }
+
+  const country = (source.country ?? parseCountryCodeFromLanguageTag(rawLanguage) ?? "us").toLowerCase();
+  const preferredLanguage = normalizeLanguageCode(rawLanguage);
+
+  return {
+    preferredLanguage,
+    preferredCurrency: rawCurrency,
+    country,
+    region,
+    timeZone: rawTimezone,
+    dateFormat: parsed.dateFormat ?? resolveDateFormat(country),
+    numberFormat: parsed.numberFormat ?? resolveNumberFormat(country),
+    measurementSystem: parsed.measurementSystem ?? resolveMeasurementSystem(country),
+    preferredPaymentMethod:
+      source.preferredPaymentMethod ?? resolveDefaultPaymentMethod(region, country),
+    languageSelectionSource: resolveLanguageSource(source.languageSelectionSource),
+  };
+}
+
 function parseStoredPreferences(raw: string | null): InternationalPreferences | null {
   if (!raw) {
     return null;
   }
 
   try {
-    const parsed = JSON.parse(raw) as Partial<InternationalPreferences>;
-
-    if (!parsed.language || !parsed.region || !parsed.currency || !parsed.timezone) {
-      return null;
-    }
-
-    return {
-      language: normalizeLanguageCode(parsed.language),
-      region: parsed.region,
-      currency: parsed.currency,
-      timezone: parsed.timezone,
-      dateFormat: parsed.dateFormat ?? resolveDateFormat("us"),
-      numberFormat: parsed.numberFormat ?? resolveNumberFormat(parsed.language),
-      measurementSystem: parsed.measurementSystem ?? "imperial",
-    };
+    const parsed = JSON.parse(raw) as Partial<InternationalPreferences> | LegacyInternationalPreferences;
+    return toInternationalPreferences(parsed);
   } catch {
     return null;
   }
@@ -124,10 +142,7 @@ export function loadInternationalPreferences(): InternationalPreferences | null 
   const user = currentUser();
 
   if (user?.id) {
-    const userScoped = parseStoredPreferences(
-      localStorage.getItem(getUserScopedKey(user.id))
-    );
-
+    const userScoped = parseStoredPreferences(localStorage.getItem(getUserScopedKey(user.id)));
     if (userScoped) {
       return userScoped;
     }
@@ -152,22 +167,23 @@ export function saveInternationalPreferences(preferences: InternationalPreferenc
 }
 
 export function detectInitialInternationalPreferences() {
-  const browserLanguage =
-    typeof navigator !== "undefined" ? navigator.language : DEFAULT_LANGUAGE_CODE;
-
+  const browserLanguage = typeof navigator !== "undefined" ? navigator.language : DEFAULT_LANGUAGE_CODE;
   const timezone = isClient() ? getDefaultTimezone() : "America/New_York";
-  const countryCode = parseCountryCodeFromLanguageTag(browserLanguage);
-  const region = resolveRegion(countryCode, timezone);
-  const language = resolveLanguage(browserLanguage, region);
+  const country = parseCountryCodeFromLanguageTag(browserLanguage);
+  const region = resolveRegion(country, timezone);
+  const preferredLanguage = resolveLanguage(browserLanguage);
 
   return {
-    language,
+    preferredLanguage,
+    preferredCurrency: resolveCurrency(country, region),
+    country,
     region,
-    currency: resolveCurrency(countryCode, region),
-    timezone,
-    dateFormat: resolveDateFormat(countryCode),
-    numberFormat: resolveNumberFormat(language),
-    measurementSystem: resolveMeasurementSystem(countryCode),
+    timeZone: timezone,
+    dateFormat: resolveDateFormat(country),
+    numberFormat: resolveNumberFormat(country),
+    measurementSystem: resolveMeasurementSystem(country),
+    preferredPaymentMethod: resolveDefaultPaymentMethod(region, country),
+    languageSelectionSource: "detected",
   } satisfies InternationalPreferences;
 }
 

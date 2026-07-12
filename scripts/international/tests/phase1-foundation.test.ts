@@ -42,7 +42,7 @@ test("africa and europe payment providers include required regional methods", ()
     "mobile-money",
     "stripe",
   ]);
-  assert.deepEqual(europe.paymentProviders, ["stripe", "local-eu-methods"]);
+  assert.deepEqual(europe.paymentProviders, ["stripe", "paypal", "local-eu-methods"]);
 });
 
 test("translation catalogs include all phase 1 supported languages", () => {

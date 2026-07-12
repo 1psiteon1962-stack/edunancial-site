@@ -45,7 +45,6 @@ export interface LocalizationAssets {
 }
 
 export interface RegionalContent {
-  language: string;
   currency: string;
   legalNotices: Record<LegalNoticeType, string>;
   taxDisclaimers: string[];
@@ -88,7 +87,7 @@ export interface RegionalizationAiHooks {
 export interface RegionalizationResolution {
   region: RegionSlug;
   countryCode?: string;
-  language: string;
+  interfaceLanguage: string;
   currency: string;
   legalNotices: Record<LegalNoticeType, string>;
   taxDisclaimers: string[];
@@ -115,7 +114,6 @@ const GLOBAL_LEGAL_NOTICES: Record<LegalNoticeType, string> = {
 
 const CONTENT_LAYERS: ContentLayers = {
   globalCore: {
-    language: "en",
     currency: "USD",
     legalNotices: GLOBAL_LEGAL_NOTICES,
     taxDisclaimers: ["Global tax disclaimer."],
@@ -136,7 +134,6 @@ const CONTENT_LAYERS: ContentLayers = {
   },
   regionalOverrides: {
     "north-america": {
-      language: "en",
       currency: "USD",
       paymentProviders: ["square", "stripe"],
       legalNotices: {
@@ -154,7 +151,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "latin-america-2a": {
-      language: "es",
       localizationAssets: {
         dateFormat: "DD/MM/YYYY",
         numberFormat: "1.234,56",
@@ -165,7 +161,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "latin-america-2b": {
-      language: "pt",
       localizationAssets: {
         dateFormat: "DD/MM/YYYY",
         numberFormat: "1.234,56",
@@ -176,7 +171,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     caribbean: {
-      language: "es",
       currency: "USD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -193,12 +187,14 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "europe-2a": {
-      language: "en",
       currency: "EUR",
-      paymentProviders: ["stripe"],
+      paymentProviders: ["stripe", "regional-gateway"],
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
-        privacy: "European (2A) GDPR privacy notice.",
+        privacy: "European (2A) GDPR privacy notice — covers FR, DE, ES, IT, NL, BE, PT, GB, CH.",
+        cookies: "European ePrivacy / Cookie Directive notice. Consent required before non-essential cookies.",
+        terms: "European regional terms including consumer rights under EU Directive 2011/83/EU.",
+        taxDisclaimer: "Prices include VAT where applicable under EU VAT Directive 2006/112/EC.",
       },
       localizationAssets: {
         dateFormat: "DD/MM/YYYY",
@@ -210,12 +206,25 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "europe-2b": {
-      language: "en",
       currency: "EUR",
-      paymentProviders: ["stripe"],
+      paymentProviders: ["stripe", "regional-gateway"],
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "European (2B) GDPR privacy notice — covers PL, CZ, HU, RO, SK, BG, HR, EE, LV, LT.",
+        cookies: "European ePrivacy / Cookie Directive notice. Consent required before non-essential cookies.",
+        terms: "European regional terms including consumer rights under EU Directive 2011/83/EU.",
+        taxDisclaimer: "Prices include VAT where applicable under EU VAT Directive 2006/112/EC.",
+      },
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234,56",
+        addressFormat: "street-postal-city-country",
+        phoneFormat: "+[country] [number]",
+        measurementUnits: "metric",
+        timezone: "Europe/Warsaw",
+      },
     },
     africa: {
-      language: "en",
       currency: "USD",
       paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
       legalNotices: {
@@ -232,22 +241,18 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     "middle-east": {
-      language: "ar",
       paymentProviders: ["regional-gateway", "stripe"],
     },
     asia: {
-      language: "en",
       paymentProviders: ["regional-gateway", "stripe"],
     },
     oceania: {
-      language: "en",
       currency: "AUD",
       paymentProviders: ["stripe"],
     },
   },
   countryOverrides: {
     US: {
-      language: "en",
       currency: "USD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -260,7 +265,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     CA: {
-      language: "en",
       currency: "CAD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -296,7 +300,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     NG: {
-      language: "en",
       currency: "NGN",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -316,7 +319,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     KE: {
-      language: "en",
       currency: "KES",
       paymentProviders: ["mobile-money", "flutterwave", "stripe"],
       localizationAssets: {
@@ -329,7 +331,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     ZA: {
-      language: "en",
       currency: "ZAR",
       paymentProviders: ["flutterwave", "paystack", "stripe"],
       localizationAssets: {
@@ -342,7 +343,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     EG: {
-      language: "ar",
       currency: "EGP",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -359,7 +359,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     MA: {
-      language: "fr",
       currency: "USD",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -376,16 +375,92 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     ES: {
-      language: "es",
       currency: "EUR",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
-        privacy: "Spain and EU privacy notice.",
+        privacy: "Spain GDPR privacy notice (Ley de Protección de Datos).",
+        taxDisclaimer: "Los precios incluyen IVA (21%).",
       },
-      paymentProviders: ["stripe"],
+      paymentProviders: ["stripe", "regional-gateway"],
+    },
+    FR: {
+      currency: "EUR",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "France RGPD privacy notice (Règlement Général sur la Protection des Données).",
+        taxDisclaimer: "Prix TTC — TVA 20% incluse.",
+      },
+      paymentProviders: ["stripe", "regional-gateway"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1 234,56",
+        addressFormat: "street-postal-city-country",
+        phoneFormat: "+33 # ## ## ## ##",
+        measurementUnits: "metric",
+        timezone: "Europe/Paris",
+      },
+    },
+    DE: {
+      currency: "EUR",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Deutschland DSGVO Datenschutzhinweis.",
+        taxDisclaimer: "Preise inkl. MwSt. (19%).",
+      },
+      paymentProviders: ["stripe", "regional-gateway"],
+      localizationAssets: {
+        dateFormat: "DD.MM.YYYY",
+        numberFormat: "1.234,56",
+        addressFormat: "street-postal-city-country",
+        phoneFormat: "+49 ### ###########",
+        measurementUnits: "metric",
+        timezone: "Europe/Berlin",
+      },
+    },
+    IT: {
+      currency: "EUR",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Italia GDPR Informativa sulla Privacy.",
+        taxDisclaimer: "Prezzi IVA inclusa (22%).",
+      },
+      paymentProviders: ["stripe", "regional-gateway"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234,56",
+        addressFormat: "street-postal-city-country",
+        phoneFormat: "+39 ### ### ####",
+        measurementUnits: "metric",
+        timezone: "Europe/Rome",
+      },
+    },
+    GB: {
+      currency: "GBP",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "United Kingdom UK GDPR privacy notice.",
+        taxDisclaimer: "Prices include VAT (20%) where applicable.",
+      },
+      paymentProviders: ["stripe", "regional-gateway"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-county-postcode-country",
+        phoneFormat: "+44 #### ######",
+        measurementUnits: "metric",
+        timezone: "Europe/London",
+      },
+    },
+    PT: {
+      currency: "EUR",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Portugal RGPD aviso de privacidade.",
+        taxDisclaimer: "Preços com IVA incluído (23%).",
+      },
+      paymentProviders: ["stripe", "regional-gateway"],
     },
     DO: {
-      language: "es",
       currency: "DOP",
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
@@ -405,7 +480,6 @@ const CONTENT_LAYERS: ContentLayers = {
       },
     },
     JP: {
-      language: "ja",
       currency: "JPY",
       educationalExamples: {
         mortgage: "Mortgage example: ¥35,000,000 principal in JPY.",
@@ -418,6 +492,171 @@ const CONTENT_LAYERS: ContentLayers = {
         phoneFormat: "+81 ## #### ####",
         measurementUnits: "metric",
         timezone: "Asia/Tokyo",
+      },
+    },
+    KR: {
+      currency: "KRW",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₩450,000,000 principal in KRW.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY.MM.DD",
+        numberFormat: "1,234",
+        addressFormat: "postal-city-district-street",
+        phoneFormat: "+82 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Seoul",
+      },
+    },
+    CN: {
+      currency: "CNY",
+      educationalExamples: {
+        mortgage: "Mortgage example: ¥2,000,000 principal in CNY.",
+      },
+      paymentProviders: ["regional-gateway"],
+      localizationAssets: {
+        dateFormat: "YYYY年MM月DD日",
+        numberFormat: "1,234.56",
+        addressFormat: "postal-province-city-district-street",
+        phoneFormat: "+86 ### #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Shanghai",
+      },
+    },
+    TW: {
+      currency: "TWD",
+      educationalExamples: {
+        mortgage: "Mortgage example: NT$10,000,000 principal in TWD.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY/MM/DD",
+        numberFormat: "1,234",
+        addressFormat: "postal-city-district-street",
+        phoneFormat: "+886 # #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Taipei",
+      },
+    },
+    HK: {
+      currency: "HKD",
+      educationalExamples: {
+        mortgage: "Mortgage example: HK$6,000,000 principal in HKD.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-district-region",
+        phoneFormat: "+852 #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Hong_Kong",
+      },
+    },
+    SG: {
+      currency: "SGD",
+      educationalExamples: {
+        mortgage: "Mortgage example: S$800,000 principal in SGD.",
+      },
+      paymentProviders: ["stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-unit-postal-country",
+        phoneFormat: "+65 #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Singapore",
+      },
+    },
+    IN: {
+      currency: "INR",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₹7,500,000 principal in INR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,23,456.78",
+        addressFormat: "street-city-state-postal-country",
+        phoneFormat: "+91 ##### #####",
+        measurementUnits: "metric",
+        timezone: "Asia/Kolkata",
+      },
+    },
+    PH: {
+      currency: "PHP",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₱5,000,000 principal in PHP.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "MM/DD/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-province-postal-country",
+        phoneFormat: "+63 ### ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Manila",
+      },
+    },
+    TH: {
+      currency: "THB",
+      educationalExamples: {
+        mortgage: "Mortgage example: ฿3,500,000 principal in THB.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-district-city-postal-country",
+        phoneFormat: "+66 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Bangkok",
+      },
+    },
+    MY: {
+      currency: "MYR",
+      educationalExamples: {
+        mortgage: "Mortgage example: RM600,000 principal in MYR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-state-postal-country",
+        phoneFormat: "+60 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Kuala_Lumpur",
+      },
+    },
+    ID: {
+      currency: "IDR",
+      educationalExamples: {
+        mortgage: "Mortgage example: Rp 800,000,000 principal in IDR.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234,56",
+        addressFormat: "street-city-province-postal-country",
+        phoneFormat: "+62 ### #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Jakarta",
+      },
+    },
+    VN: {
+      currency: "VND",
+      educationalExamples: {
+        mortgage: "Mortgage example: ₫2,000,000,000 principal in VND.",
+      },
+      paymentProviders: ["regional-gateway", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1.234",
+        addressFormat: "street-ward-district-city-country",
+        phoneFormat: "+84 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Asia/Ho_Chi_Minh",
       },
     },
   },
@@ -458,7 +697,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "caribbean",
     name: "Caribbean",
     enabled: true,
-    supportedLanguages: ["es", "en", "fr"],
+    supportedLanguages: ["es", "en", "fr", "nl", "ht", "pap"],
     supportedCurrencies: ["USD", "DOP", "JMD"],
     status: "Ready for Publication",
     translationCompletion: 96,
@@ -468,7 +707,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "europe-2a",
     name: "Europe 2A",
     enabled: true,
-    supportedLanguages: ["en", "es", "fr", "de", "it"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "GBP", "CHF"],
     status: "Legal Review Needed",
     translationCompletion: 87,
@@ -478,7 +717,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "europe-2b",
     name: "Europe 2B",
     enabled: true,
-    supportedLanguages: ["en", "es", "fr", "de", "it"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
     supportedCurrencies: ["EUR", "PLN", "CZK", "HUF"],
     status: "Localization Needed",
     translationCompletion: 82,
@@ -488,7 +727,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "africa",
     name: "Africa",
     enabled: true,
-    supportedLanguages: ["en", "fr", "sw", "ar"],
+    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "yo", "zu", "am"],
     supportedCurrencies: ["USD", "NGN", "KES", "ZAR", "EGP"],
     status: "Translation Needed",
     translationCompletion: 68,
@@ -508,8 +747,22 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "asia",
     name: "Asia",
     enabled: true,
-    supportedLanguages: ["en", "zh", "ja", "ko", "hi"],
-    supportedCurrencies: ["USD", "JPY", "SGD", "KRW", "INR"],
+    supportedLanguages: [
+      "en",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "zh-Hant",
+      "hi",
+      "th",
+      "vi",
+      "ms",
+      "id",
+      "fil",
+      "ta",
+      "bn",
+    ],
+    supportedCurrencies: ["USD", "JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND"],
     status: "Localization Needed",
     translationCompletion: 75,
     localizationCompletion: 71,
@@ -530,13 +783,46 @@ const COUNTRY_CONFIGS: CountryConfiguration[] = [
   { countryCode: "US", country: "United States", region: "north-america" },
   { countryCode: "CA", country: "Canada", region: "north-america" },
   { countryCode: "DO", country: "Dominican Republic", region: "caribbean" },
+  // Europe 2A — Western Europe
+  { countryCode: "FR", country: "France", region: "europe-2a" },
+  { countryCode: "DE", country: "Germany", region: "europe-2a" },
   { countryCode: "ES", country: "Spain", region: "europe-2a" },
+  { countryCode: "IT", country: "Italy", region: "europe-2a" },
+  { countryCode: "NL", country: "Netherlands", region: "europe-2a" },
+  { countryCode: "BE", country: "Belgium", region: "europe-2a" },
+  { countryCode: "PT", country: "Portugal", region: "europe-2a" },
+  { countryCode: "GB", country: "United Kingdom", region: "europe-2a" },
+  { countryCode: "CH", country: "Switzerland", region: "europe-2a" },
+  // Europe 2B — Eastern / Central Europe
+  { countryCode: "PL", country: "Poland", region: "europe-2b" },
+  { countryCode: "CZ", country: "Czech Republic", region: "europe-2b" },
+  { countryCode: "HU", country: "Hungary", region: "europe-2b" },
+  { countryCode: "RO", country: "Romania", region: "europe-2b" },
+  { countryCode: "SK", country: "Slovakia", region: "europe-2b" },
+  { countryCode: "BG", country: "Bulgaria", region: "europe-2b" },
+  { countryCode: "HR", country: "Croatia", region: "europe-2b" },
+  { countryCode: "EE", country: "Estonia", region: "europe-2b" },
+  { countryCode: "LV", country: "Latvia", region: "europe-2b" },
+  { countryCode: "LT", country: "Lithuania", region: "europe-2b" },
   { countryCode: "NG", country: "Nigeria", region: "africa" },
   { countryCode: "KE", country: "Kenya", region: "africa" },
   { countryCode: "ZA", country: "South Africa", region: "africa" },
   { countryCode: "EG", country: "Egypt", region: "africa" },
   { countryCode: "MA", country: "Morocco", region: "africa" },
   { countryCode: "JP", country: "Japan", region: "asia" },
+  { countryCode: "KR", country: "South Korea", region: "asia" },
+  { countryCode: "CN", country: "China", region: "asia" },
+  { countryCode: "TW", country: "Taiwan", region: "asia" },
+  { countryCode: "HK", country: "Hong Kong", region: "asia" },
+  { countryCode: "SG", country: "Singapore", region: "asia" },
+  { countryCode: "IN", country: "India", region: "asia" },
+  { countryCode: "PH", country: "Philippines", region: "asia" },
+  { countryCode: "TH", country: "Thailand", region: "asia" },
+  { countryCode: "MY", country: "Malaysia", region: "asia" },
+  { countryCode: "ID", country: "Indonesia", region: "asia" },
+  { countryCode: "VN", country: "Vietnam", region: "asia" },
+  { countryCode: "AU", country: "Australia", region: "oceania" },
+  { countryCode: "NZ", country: "New Zealand", region: "oceania" },
 ];
 
 function mergeRegionalContent(
@@ -597,6 +883,7 @@ export function resolveRegionalization(
   options: {
     region?: RegionSlug;
     countryCode?: string;
+    userPreferredLanguage?: string;
   } = {}
 ): RegionalizationResolution {
   const countryCode = options.countryCode?.toUpperCase();
@@ -608,7 +895,7 @@ export function resolveRegionalization(
   return {
     region,
     countryCode,
-    language: merged.language,
+    interfaceLanguage: normalizeInterfaceLanguage(options.userPreferredLanguage),
     currency: merged.currency,
     legalNotices: merged.legalNotices,
     taxDisclaimers: merged.taxDisclaimers,
@@ -630,6 +917,28 @@ export function resolveRegionalization(
         "Placeholder: AI can suggest conversion ranges; no payment processing impact.",
     },
   };
+}
+
+function normalizeInterfaceLanguage(languageCode: string | undefined) {
+  if (!languageCode) {
+    return "en";
+  }
+
+  const normalized = languageCode.trim().toLowerCase();
+
+  if (normalized === "zh" || normalized === "zh-cn" || normalized === "zh-hans") {
+    return "zh-Hans";
+  }
+
+  if (normalized === "zh-tw" || normalized === "zh-hk" || normalized === "zh-hant") {
+    return "zh-Hant";
+  }
+
+  if (normalized === "tl") {
+    return "fil";
+  }
+
+  return normalized;
 }
 
 export function loadRegionalLegalNotices(

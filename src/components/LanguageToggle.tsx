@@ -1,5 +1,3 @@
 "use client";
 
-export default function LanguageToggle() {
-  return null;
-}
+export { default } from "@/components/international/LanguagePreferenceSelector";
