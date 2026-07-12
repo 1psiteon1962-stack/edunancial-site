@@ -1,268 +1,63 @@
-export default function sitemap(){
-
-return[
-
-{
-
-url:
-
-"https://www.edunancial.com",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/about",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/courses",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/membership",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/levels",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/sponsor",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/contact",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/privacy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/trust-center",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/security",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/disclaimer",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/terms",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/refund-policy",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/faq",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/assessment",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/why-edunancial",
-
-lastModified:
-
-new Date(),
-
-},
-
-// Canada region entries
-{
-
-url:
-
-"https://www.edunancial.com/canada",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/canada/courses",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/canada/membership",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-
-url:
-
-"https://www.edunancial.com/legal/pipeda",
-
-lastModified:
-
-new Date(),
-
-},
-
-{
-  url: "https://www.edunancial.com/europe",
-  lastModified: new Date(),
-  changeFrequency: "weekly" as const,
-  priority: 0.9,
-},
-
-{
-  url: "https://www.edunancial.com/western-europe",
-  lastModified: new Date(),
-  changeFrequency: "weekly" as const,
-  priority: 0.8,
-},
-
-{
-  url: "https://www.edunancial.com/eastern-europe",
-  lastModified: new Date(),
-  changeFrequency: "weekly" as const,
-  priority: 0.8,
-},
-
-];
+const ACTIVE_LOCALES = [
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ar",
+  "sw",
+  "ja",
+  "ko",
+  "zh-Hans",
+  "de",
+  "it",
+  "nl",
+  "hi",
+  "zh-Hant",
+  "ht",
+] as const;
+
+const BASE_URL = "https://www.edunancial.com";
+
+const PUBLIC_PATHS = [
+  "",
+  "/about",
+  "/courses",
+  "/membership",
+  "/levels",
+  "/sponsor",
+  "/contact",
+  "/privacy",
+  "/trust-center",
+  "/security",
+  "/disclaimer",
+  "/terms",
+  "/refund-policy",
+  "/faq",
+  "/assessment",
+  "/why-edunancial",
+  "/canada",
+  "/canada/courses",
+  "/canada/membership",
+  "/legal/pipeda",
+  "/europe",
+  "/western-europe",
+  "/eastern-europe",
+] as const;
+
+export default function sitemap() {
+  const lastModified = new Date();
+
+  const canonicalEntries = PUBLIC_PATHS.map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified,
+  }));
+
+  const localizedEntries = PUBLIC_PATHS.flatMap((path) =>
+    ACTIVE_LOCALES.filter((locale) => locale !== "en").map((locale) => ({
+      url: `${BASE_URL}/${locale}${path}`,
+      lastModified,
+    }))
+  );
+
+  return [...canonicalEntries, ...localizedEntries];
 }
