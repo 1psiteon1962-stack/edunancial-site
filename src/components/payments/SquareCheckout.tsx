@@ -27,6 +27,7 @@ export default function SquareCheckout({
         id: planId,
         name: planName ?? `Plan ${planId}`,
         price: amount,
+        currency,
       });
     } catch (err) {
       setError(
