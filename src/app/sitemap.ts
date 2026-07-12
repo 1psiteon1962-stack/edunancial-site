@@ -14,12 +14,8 @@ const ACTIVE_LOCALE_CODES = new Set([
   "ja",
   "ko",
   "zh-Hans",
-  "de",
-  "it",
-  "nl",
   "hi",
   "zh-Hant",
-  "ht",
 ]);
 
 const PATHS = [
@@ -43,9 +39,6 @@ const PATHS = [
   "/canada/courses",
   "/canada/membership",
   "/legal/pipeda",
-  "/europe",
-  "/western-europe",
-  "/eastern-europe",
   "/asia-pacific",
   ...APAC_LOCALES.map((locale) => `/asia-pacific/${locale}`),
 ] as const;

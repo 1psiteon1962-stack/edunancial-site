@@ -39,19 +39,25 @@ test("Nigeria visitor uses NGN with regional legal and examples", () => {
 });
 
 test("Egypt visitor uses Arabic, EGP, and Stripe-ready routing", () => {
-  const resolved = resolveRegionalization({ countryCode: "EG" });
+  const resolved = resolveRegionalization({
+    countryCode: "EG",
+    userPreferredLanguage: "ar",
+  });
 
   assert.equal(resolved.region, "africa");
-  assert.equal(resolved.language, "ar");
+  assert.equal(resolved.interfaceLanguage, "ar");
   assert.equal(resolved.currency, "EGP");
   assert.ok(resolved.paymentProviders.includes("stripe"));
 });
 
 test("Morocco visitor receives Francophone localization in Africa", () => {
-  const resolved = resolveRegionalization({ countryCode: "MA" });
+  const resolved = resolveRegionalization({
+    countryCode: "MA",
+    userPreferredLanguage: "fr",
+  });
 
   assert.equal(resolved.region, "africa");
-  assert.equal(resolved.language, "fr");
+  assert.equal(resolved.interfaceLanguage, "fr");
 });
 
 test("Spain visitor uses EUR, Spanish, and European legal notices", () => {
