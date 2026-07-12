@@ -34,6 +34,7 @@ const PATHS = [
   "/refund-policy",
   "/faq",
   "/assessment",
+  "/africa",
   "/why-edunancial",
   "/canada",
   "/canada/courses",

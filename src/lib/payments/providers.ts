@@ -82,6 +82,11 @@ export const paymentProviders: PaymentProvider[] = [
       "USD",
       "CAD",
       "EUR",
+      "NGN",
+      "KES",
+      "ZAR",
+      "EGP",
+      "MAD",
     ],
   },
 

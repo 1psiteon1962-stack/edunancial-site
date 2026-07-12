@@ -30,9 +30,23 @@ export async function generateMetadata({
     return {};
   }
 
+  const formattedSection = section.replace("-", " ");
+  const routePath = `/${regionConfig.slug}/${section}`;
+  const title = `${regionConfig.name} ${formattedSection} | Edunancial`;
+
   return {
-    title: `${regionConfig.name} ${section.replace("-", " ")} | Edunancial`,
-    description: `${regionConfig.name} ${section.replace("-", " ")} architecture route.`,
+    title,
+    description: `${regionConfig.name} ${formattedSection} architecture route.`,
+    alternates: {
+      canonical: routePath,
+    },
+    openGraph: {
+      title,
+      description: `${regionConfig.name} ${formattedSection} architecture route.`,
+      url: routePath,
+      locale: regionConfig.locale,
+      type: "website",
+    },
   };
 }
 

@@ -35,3 +35,9 @@ test("Latin America timezone fallback remains region-driven", () => {
 
   assert.equal(region, "latin-america-2a");
 });
+
+test("Egypt resolves to africa regardless of Arabic locale", () => {
+  const region = resolveRegion(parseCountryCodeFromLanguageTag("ar-EG"), "Africa/Cairo");
+
+  assert.equal(region, "africa");
+});

@@ -23,9 +23,34 @@ export async function generateMetadata({
     return {};
   }
 
+  const routePath = `/${regionConfig.slug}`;
+  const title = `${regionConfig.name} | Edunancial`;
+
   return {
-    title: `${regionConfig.name} | Edunancial`,
+    title,
     description: regionConfig.description,
+    alternates: {
+      canonical: routePath,
+    },
+    keywords: [
+      regionConfig.name,
+      "Edunancial",
+      "regional routing",
+      "localized pricing",
+      "privacy and legal",
+    ],
+    openGraph: {
+      title,
+      description: regionConfig.description,
+      url: routePath,
+      locale: regionConfig.locale,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: regionConfig.description,
+    },
   };
 }
 
