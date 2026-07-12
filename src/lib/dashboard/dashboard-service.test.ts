@@ -13,19 +13,21 @@ const baseUser = {
   country: "United States",
   assessmentCompleted: true,
   overallScore: 82,
+  betaAccess: null,
 } as const;
 
 test("maps authentication tiers to dashboard subscription levels", () => {
-  assert.equal(getSubscriptionLevel("free"), "Basic");
-  assert.equal(getSubscriptionLevel("basic"), "Basic");
-  assert.equal(getSubscriptionLevel("premium"), "Pro");
-  assert.equal(getSubscriptionLevel("enterprise"), "Gold");
+  assert.equal(getSubscriptionLevel("free"), "Member Access");
+  assert.equal(getSubscriptionLevel("basic"), "Individual Membership");
+  assert.equal(getSubscriptionLevel("premium"), "Approved Organization Membership");
+  assert.equal(getSubscriptionLevel("enterprise"), "100+ Member Organization Rate");
+  assert.equal(getSubscriptionLevel("beta"), "Beta Tester");
 });
 
 test("builds dashboard data for the three North American learning paths", () => {
   const data = getDashboardData(baseUser);
 
-  assert.equal(data.subscriptionLevel, "Pro");
+  assert.equal(data.subscriptionLevel, "Approved Organization Membership");
   assert.equal(data.learningPaths.length, 3);
   assert.deepEqual(
     data.learningPaths.map((path) => path.code),

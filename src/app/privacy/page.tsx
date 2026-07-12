@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  EDUNANCIAL_IDENTITY,
+  EDUNANCIAL_PUBLIC_DISCLAIMER,
+} from "@/lib/positioning";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Edunancial",
@@ -29,7 +33,7 @@ export default function PrivacyPage() {
         <div className="rounded-xl bg-blue-900/30 border border-blue-700 p-6 mb-12">
           <p className="text-blue-200 text-sm">
             <strong>Plain-language summary:</strong> Edunancial collects only the information
-            needed to provide educational services. We never sell your personal information.
+            needed to provide membership services. We never sell your personal information.
             You have the right to access, correct, or delete your data. We honor requests
             from California residents under CCPA/CPRA, Canadian residents under PIPEDA,
             and Quebec residents under Law 25.
@@ -40,10 +44,11 @@ export default function PrivacyPage() {
           <h2 className="text-3xl font-black mb-4">1. Who We Are</h2>
           <p className="text-slate-300 leading-8">
             Edunancial (&ldquo;Edunancial,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
-            &ldquo;our&rdquo;) is a financial literacy and competency education platform
-            serving individuals, families, entrepreneurs, and business owners across
-            North America, including the United States and Canada.
+            &ldquo;our&rdquo;) is a financial literacy and financial competency membership
+            platform serving individuals, families, entrepreneurs, and business owners.
           </p>
+          <p className="mt-4 text-slate-300 leading-8">{EDUNANCIAL_IDENTITY}</p>
+          <p className="mt-4 text-slate-300 leading-8">{EDUNANCIAL_PUBLIC_DISCLAIMER}</p>
           <p className="mt-4 text-slate-300 leading-8">
             Our platform is available at{" "}
             <Link href="https://www.edunancial.com" className="underline text-blue-400">
@@ -67,7 +72,7 @@ export default function PrivacyPage() {
             <li>Name and email address (account registration)</li>
             <li>Country and region/state/province of residence</li>
             <li>Membership and billing information (processed by our payment providers)</li>
-            <li>Course progress and assessment responses</li>
+            <li>Member progress and assessment responses</li>
             <li>Communications you send us (support requests, feedback)</li>
             <li>Voluntary profile information (business type, learning goals)</li>
           </ul>
@@ -86,10 +91,10 @@ export default function PrivacyPage() {
           <p className="text-slate-300 leading-8 mb-4">We use your information to:</p>
           <ul className="list-disc pl-8 text-slate-300 space-y-2">
             <li>Create and manage your account</li>
-            <li>Deliver courses, assessments, and educational content</li>
+            <li>Deliver learning resources, assessments, and membership content</li>
             <li>Process membership subscriptions and payments</li>
-            <li>Send transactional emails (receipts, enrollment confirmations)</li>
-            <li>Send educational newsletters and course updates (with your consent)</li>
+            <li>Send transactional emails (receipts, onboarding confirmations, beta notices)</li>
+            <li>Send membership newsletters and learning updates (with your consent)</li>
             <li>Improve and personalize platform features</li>
             <li>Provide customer support</li>
             <li>Comply with legal obligations</li>

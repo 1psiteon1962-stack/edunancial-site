@@ -8,6 +8,7 @@ import {
 import { nextRank, passportRank, passportStatus, pointsToNextRank } from "../assessment/passport";
 import type { AuthUser } from "../authContext";
 import { getLibraryItem } from "../library/libraryData";
+import { EDUNANCIAL_CERTIFICATE_DISCLAIMER } from "../positioning";
 
 const TRACK_ORDER = ["RED", "WHITE", "BLUE"] as const satisfies readonly AdaptiveTrackCode[];
 
@@ -17,11 +18,15 @@ const TRACK_COURSE_IDS: Record<AdaptiveTrackCode, string> = {
   BLUE: "blue-business",
 };
 
-const MEMBERSHIP_LEVELS: Record<AuthUser["membershipTier"], "Basic" | "Pro" | "Gold"> = {
-  free: "Basic",
-  basic: "Basic",
-  premium: "Pro",
-  enterprise: "Gold",
+const MEMBERSHIP_LEVELS: Record<
+  AuthUser["membershipTier"],
+  "Member Access" | "Individual Membership" | "Approved Organization Membership" | "100+ Member Organization Rate" | "Beta Tester"
+> = {
+  free: "Member Access",
+  basic: "Individual Membership",
+  premium: "Approved Organization Membership",
+  enterprise: "100+ Member Organization Rate",
+  beta: "Beta Tester",
 };
 
 const DOWNLOAD_ITEM_IDS = [
@@ -39,7 +44,7 @@ const ANNOUNCEMENTS = [
   {
     id: "north-america-launch",
     title: "North American member dashboard is now live",
-    detail: "Track learning progress, passport milestones, certificates, and downloads from one place.",
+    detail: "Track learning progress, passport milestones, completion recognition, and downloads from one place.",
     href: "/dashboard",
     date: "July 2026",
   },
@@ -122,7 +127,7 @@ export interface DashboardAnnouncement {
 
 export interface DashboardData {
   memberName: string;
-  subscriptionLevel: "Basic" | "Pro" | "Gold";
+  subscriptionLevel: "Member Access" | "Individual Membership" | "Approved Organization Membership" | "100+ Member Organization Rate" | "Beta Tester";
   assessmentCompleted: boolean;
   competencyScore: number | null;
   courseCompletionPercentage: number;
@@ -139,7 +144,7 @@ export interface DashboardData {
 
 export function getSubscriptionLevel(
   membershipTier: AuthUser["membershipTier"],
-): "Basic" | "Pro" | "Gold" {
+): "Member Access" | "Individual Membership" | "Approved Organization Membership" | "100+ Member Organization Rate" | "Beta Tester" {
   return MEMBERSHIP_LEVELS[membershipTier];
 }
 
@@ -174,7 +179,7 @@ export function getDashboardData(user: AuthUser): DashboardData {
       const [, level = path.currentLevel] = certificateId.split("-");
       return {
         id: certificateId,
-        title: `${path.title} ${level} Certificate`,
+        title: `${path.title} ${level} Certificate of Completion`,
         trackTitle: path.title,
         level,
         completionPercentage: 100,
@@ -191,7 +196,7 @@ export function getDashboardData(user: AuthUser): DashboardData {
     return [
       {
         id: `${path.code}-${nextLevel}-IN-PROGRESS`,
-        title: `${path.title} ${nextLevel} Certificate`,
+        title: `${path.title} ${nextLevel} Certificate of Completion`,
         trackTitle: path.title,
         level: nextLevel,
         completionPercentage: Math.min(99, Math.max(path.completionPercentage, 20)),
@@ -254,3 +259,5 @@ export function getDashboardData(user: AuthUser): DashboardData {
     announcements: [...ANNOUNCEMENTS],
   };
 }
+
+export const DASHBOARD_CERTIFICATE_DISCLAIMER = EDUNANCIAL_CERTIFICATE_DISCLAIMER;

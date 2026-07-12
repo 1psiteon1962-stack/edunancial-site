@@ -41,6 +41,10 @@ const modules = [
     title: "System Settings",
     href: "/admin/settings",
   },
+  {
+    title: "Beta Testers",
+    href: "/admin/beta-testers",
+  },
 ];
 
 export default function AdminPortal() {

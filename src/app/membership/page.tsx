@@ -1,11 +1,15 @@
 import Link from "next/link";
 
-import { membershipPlans } from "@/types/membership";
+import {
+  EDUNANCIAL_LONG_DESCRIPTION,
+  EDUNANCIAL_METHODS_CLARIFICATION,
+  EDUNANCIAL_PUBLIC_DISCLAIMER,
+} from "@/lib/positioning";
+import { publicMembershipPlans } from "@/types/membership";
 
 export const metadata = {
-  title: "Edunancial Membership | Financial Competency Platform",
-  description:
-    "Choose an Edunancial membership and start building practical financial competency across real estate, paper assets, and business.",
+  title: "Edunancial Membership | Financial Literacy Membership Platform",
+  description: EDUNANCIAL_LONG_DESCRIPTION,
 };
 
 export default function MembershipPage() {
@@ -16,10 +20,16 @@ export default function MembershipPage() {
           Membership
         </p>
         <h1 className="mt-8 max-w-5xl text-5xl font-black leading-tight md:text-7xl">
-          Become an Edunancial member and start building financial competency.
+          Become an Edunancial member and build practical financial literacy and financial competency.
         </h1>
         <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">
-          Financial literacy teaches knowledge. Financial competency develops the judgment, habits, and discipline to apply that knowledge when money decisions matter.
+          {EDUNANCIAL_LONG_DESCRIPTION}
+        </p>
+        <p className="mt-4 max-w-4xl text-base leading-8 text-slate-400">
+          {EDUNANCIAL_METHODS_CLARIFICATION}
+        </p>
+        <p className="mt-6 max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-300">
+          {EDUNANCIAL_PUBLIC_DISCLAIMER}
         </p>
         <div className="mt-10 flex flex-wrap gap-4">
           <Link href="/assessment" className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold hover:bg-blue-700">
@@ -34,23 +44,28 @@ export default function MembershipPage() {
       <section className="border-y border-white/10 bg-slate-950/70">
         <div className="mx-auto max-w-7xl px-6 py-16">
           <h2 className="text-4xl font-black">Choose your starting point.</h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-            {membershipPlans.map((plan) => (
+          <div className="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {publicMembershipPlans.map((plan) => (
               <div key={plan.id} className="rounded-2xl border border-white/10 bg-white p-8 text-slate-950 shadow-xl">
                 <h3 className="text-3xl font-black">{plan.name}</h3>
+                <p className="mt-4 text-sm leading-7 text-slate-600">{plan.description}</p>
                 <div className="mt-6">
-                  <span className="text-5xl font-black">${plan.monthlyPrice}</span>
-                  <span className="ml-2 text-slate-500">/month</span>
+                  <span className="text-5xl font-black">${plan.monthlyPrice.toFixed(2)}</span>
+                  <span className="ml-2 text-slate-500">{plan.billingLabel}</span>
                 </div>
                 <ul className="mt-8 space-y-3 text-left text-sm font-semibold text-slate-700">
                   <li>{plan.assessmentIncluded ? "Yes" : "No"} - Competency Assessment</li>
                   <li>{plan.marketplaceIncluded ? "Yes" : "No"} - Marketplace Access</li>
                   <li>{plan.aiCoachIncluded ? "Yes" : "No"} - AI Coach</li>
-                  <li>{plan.downloadableCourses ? "Yes" : "No"} - Downloadable Courses</li>
+                  <li>{plan.downloadableCourses ? "Yes" : "No"} - Downloadable Learning Resources</li>
                   <li>{plan.prioritySupport ? "Yes" : "No"} - Priority Support</li>
                 </ul>
-                <Link href={`/membership/checkout?plan=${plan.id}`} className="mt-10 inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-bold text-white hover:bg-blue-800">
-                  Select {plan.name}
+                {plan.legalNote && <p className="mt-6 text-xs leading-6 text-slate-500">{plan.legalNote}</p>}
+                <Link
+                  href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
+                  className="mt-10 inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-bold text-white hover:bg-blue-800"
+                >
+                  {plan.ctaLabel}
                 </Link>
               </div>
             ))}
@@ -61,9 +76,9 @@ export default function MembershipPage() {
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-8 md:grid-cols-4">
           {[
-            ["Learn", "Structured education across real estate, paper assets, and business."],
+            ["Learn", "Structured learning resources across real estate, paper assets, and business."],
             ["Assess", "Measure your financial competency and track improvement."],
-            ["Apply", "Use checklists and tools to convert lessons into decisions."],
+            ["Apply", "Use practical exercises and member tools to convert lessons into decisions."],
             ["Grow", "Build habits designed to support long-term financial progress."],
           ].map(([title, body]) => (
             <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-8">

@@ -3,6 +3,13 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 
 import { isLoggedIn } from "@/lib/auth";
+import {
+  COLOR_FRAMEWORK,
+  EDUNANCIAL_IDENTITY,
+  EDUNANCIAL_LONG_DESCRIPTION,
+  EDUNANCIAL_METHODS_CLARIFICATION,
+  RED_WHITE_BLUE_FOUNDATION,
+} from "@/lib/positioning";
 
 const primaryCallsToAction = [
   {
@@ -117,23 +124,23 @@ const informationArchitectureLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: "Edunancial | Build Financial Competency With Guided Learning",
-  description:
-    "Join Edunancial to build practical financial competency through guided courses, AI coaching, and member tools designed for real-world decisions.",
+  title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+  description: EDUNANCIAL_LONG_DESCRIPTION,
   keywords: [
     "financial competency platform",
-    "financial education membership",
-    "financial literacy courses",
+    "financial literacy membership",
+    "real estate knowledge",
+    "investment knowledge",
+    "business competency",
     "AI financial coach",
-    "personal finance learning",
+    "practical financial knowledge",
   ],
   alternates: {
     canonical: "https://www.edunancial.com",
   },
   openGraph: {
-    title: "Edunancial | Build Financial Competency With Guided Learning",
-    description:
-      "Start with Edunancial's guided learning paths, AI Financial Coach, and member tools built to help you take action with confidence.",
+    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    description: EDUNANCIAL_LONG_DESCRIPTION,
     url: "https://www.edunancial.com",
     siteName: "Edunancial",
     type: "website",
@@ -148,9 +155,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Edunancial | Build Financial Competency With Guided Learning",
-    description:
-      "Build practical financial competency with guided courses, AI coaching, and member tools.",
+    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    description: EDUNANCIAL_IDENTITY,
     images: ["/og-image.png"],
   },
 };
@@ -172,16 +178,13 @@ export default function HomePage() {
               Edunancial
             </p>
             <h1 id="homepage-hero-heading" className="mt-6 text-4xl font-black leading-tight sm:text-5xl md:text-7xl">
-              Financial Education.
-              <br />
-              Financial Competency.
-              <br />
-              Financial Freedom.
+              {EDUNANCIAL_IDENTITY}
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-200 sm:text-lg sm:leading-8 md:text-xl">
-              Edunancial helps individuals, families, and entrepreneurs move from learning
-              financial concepts to applying them with confidence through courses, tools,
-              and guided next steps.
+              {EDUNANCIAL_LONG_DESCRIPTION}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-400 sm:text-base">
+              {EDUNANCIAL_METHODS_CLARIFICATION}
             </p>
             <div className="mt-10 grid gap-3 sm:mt-12 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
               {primaryCallsToAction.map((cta) => (
@@ -192,10 +195,10 @@ export default function HomePage() {
             </div>
             <div className="mt-8 grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
               <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                No credit card required to start
+                Invitation-only beta access remains hidden from public pricing
               </span>
               <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                Mobile-first learning and progress tracking
+                Color-coded financial literacy modules across Red, White, and Blue
               </span>
               <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
                 AI-guided next steps for better decisions
@@ -217,8 +220,11 @@ export default function HomePage() {
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
               Edunancial began with a simple problem: too many people learn financial terms
               without ever being shown how to make real financial decisions. The platform was
-              created to close that gap with practical education, measurable progress, and
-              member experiences built for long-term growth.
+              created to close that gap with structured learning resources, measurable progress,
+              and member experiences built for long-term growth.
+            </p>
+            <p className="mt-4 max-w-3xl text-base leading-7 text-slate-400">
+              {RED_WHITE_BLUE_FOUNDATION}
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
@@ -238,8 +244,8 @@ export default function HomePage() {
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
             {[
-              ["Why we exist", "To turn financial education into applied financial competency."],
-              ["The mission", "Make practical wealth-building education clear, useful, and accessible."],
+              ["Why we exist", "To turn financial literacy into applied financial competency."],
+              ["The mission", "Make practical wealth-building knowledge clear, useful, and accessible."],
               ["The problem", "Too much theory, not enough guided action or accountability."],
             ].map(([title, body]) => (
               <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -285,6 +291,31 @@ export default function HomePage() {
               <p className="mt-4 text-sm leading-7 text-slate-300">{card.description}</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="homepage-colors-heading" className="border-y border-white/10 bg-[#0b1326]">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+          <div className="max-w-4xl">
+            <p className="text-sm font-bold uppercase tracking-[0.4em] text-red-300">Color Framework</p>
+            <h2 id="homepage-colors-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
+              Red, White, and Blue each mean something specific
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-slate-300">
+              Visitors should not have to infer the meaning of the Edunancial color system. Each
+              pathway organizes a practical area of financial literacy and financial competency.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {COLOR_FRAMEWORK.map((pillar) => (
+              <article key={pillar.color} className="rounded-3xl border border-white/10 bg-slate-950/60 p-6">
+                <p className="text-sm font-bold uppercase tracking-[0.35em] text-slate-400">{pillar.color}</p>
+                <h3 className="mt-3 text-2xl font-black">{pillar.title}</h3>
+                <p className="mt-4 text-sm leading-7 text-slate-300">{pillar.description}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 

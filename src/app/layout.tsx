@@ -8,6 +8,10 @@ import DetectedPreferencesBanner from "@/components/international/DetectedPrefer
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { Providers } from "@/components/Providers";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import {
+  EDUNANCIAL_IDENTITY,
+  EDUNANCIAL_LONG_DESCRIPTION,
+} from "@/lib/positioning";
 
 const siteUrl = "https://www.edunancial.com";
 const languageAlternates = Object.fromEntries(
@@ -18,20 +22,20 @@ languageAlternates["x-default"] = siteUrl;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Edunancial | Financial Literacy & Financial Competency",
+    default: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
     template: "%s | Edunancial",
   },
-  description:
-    "Edunancial helps individuals, families, entrepreneurs, and business owners build financial competency through real estate, paper assets, and business education. North America's financial education platform.",
+  description: EDUNANCIAL_LONG_DESCRIPTION,
   keywords: [
     "financial literacy",
     "financial competency",
-    "financial education",
-    "real estate investing",
-    "business education",
-    "investing courses",
-    "financial freedom",
-    "North America",
+    "financial literacy platform",
+    "financial competency platform",
+    "real estate knowledge",
+    "investment knowledge",
+    "business competency",
+    "wealth-building skills",
+    "entrepreneurship knowledge",
     "edunancial",
   ],
   authors: [{ name: "Edunancial", url: siteUrl }],
@@ -53,9 +57,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Edunancial",
-    title: "Edunancial | Financial Literacy & Financial Competency",
-    description:
-      "Build financial competency through real estate, paper assets, and business education. Serving individuals, families, and entrepreneurs across North America.",
+    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    description: EDUNANCIAL_LONG_DESCRIPTION,
     images: [
       {
         url: "/og-image.png",
@@ -67,9 +70,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Edunancial | Financial Literacy & Financial Competency",
-    description:
-      "Build financial competency through real estate, paper assets, and business education.",
+    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    description: EDUNANCIAL_IDENTITY,
     images: ["/og-image.png"],
     creator: "@edunancial",
     site: "@edunancial",
@@ -81,7 +83,7 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? undefined,
   },
-  category: "education",
+  category: "finance",
 };
 
 export default function RootLayout({
@@ -91,12 +93,11 @@ export default function RootLayout({
 }) {
   const orgSchema = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
+    "@type": "Organization",
     name: "Edunancial",
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
-    description:
-      "Edunancial is a North American financial literacy and competency platform helping individuals, families, entrepreneurs, and business owners build wealth through real estate, paper assets, and business education.",
+    description: EDUNANCIAL_LONG_DESCRIPTION,
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
@@ -106,9 +107,9 @@ export default function RootLayout({
     knowsAbout: [
       "Financial Literacy",
       "Financial Competency",
-      "Real Estate Investing",
-      "Business Education",
-      "Stock Market Investing",
+      "Real Estate Knowledge",
+      "Investment Knowledge",
+      "Business Competency",
       "Entrepreneurship",
     ],
   };

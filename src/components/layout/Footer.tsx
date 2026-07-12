@@ -1,4 +1,8 @@
 import Link from "next/link";
+import {
+  EDUNANCIAL_IDENTITY,
+  EDUNANCIAL_PUBLIC_DISCLAIMER,
+} from "@/lib/positioning";
 
 export default function Footer() {
   return (
@@ -6,7 +10,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-20">
 
         <h2 className="text-4xl font-black">
-          Financial literacy provides the foundation.
+          {EDUNANCIAL_IDENTITY}
         </h2>
         <h3 className="mt-5 text-3xl font-bold text-blue-400">
           Financial competency is built through disciplined action.
@@ -63,7 +67,9 @@ export default function Footer() {
             <h4 className="font-bold text-white">Trust &amp; Legal</h4>
             <div className="mt-5 space-y-3 text-slate-400">
               <div><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></div>
-              <div><Link href="/terms" className="hover:text-white">Terms of Service</Link></div>
+              <div><Link href="/terms" className="hover:text-white">Terms of Use</Link></div>
+              <div><Link href="/membership-terms" className="hover:text-white">Membership Terms</Link></div>
+              <div><Link href="/beta-terms" className="hover:text-white">Beta Terms</Link></div>
               <div><Link href="/trust-center" className="hover:text-white">Trust Center</Link></div>
               <div><Link href="/security" className="hover:text-white">Security</Link></div>
               <div><Link href="/cookies" className="hover:text-white">Cookie Policy</Link></div>
@@ -77,10 +83,9 @@ export default function Footer() {
         <div className="mt-16 border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} Edunancial. All rights reserved.</p>
           <p className="text-center md:text-right max-w-xl">
-            Edunancial provides financial education only — not financial, investment,
-            or legal advice. See our{" "}
+            {EDUNANCIAL_PUBLIC_DISCLAIMER} Edunancial provides informational content only — not
+            financial, investment, tax, accounting, or legal advice. See our{" "}
             <Link href="/disclaimer" className="underline hover:text-slate-300">disclaimer</Link>.
-            We serve the United States and Canada.
           </p>
         </div>
 

@@ -11,6 +11,7 @@ export default function LoginForm() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [betaPassNumber, setBetaPassNumber] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +23,7 @@ export default function LoginForm() {
       return;
     }
     setLoading(true);
-    const result = await login(email, password);
+    const result = await login(email, password, betaPassNumber || undefined);
     setLoading(false);
     if (result.success) {
       router.push("/dashboard");
@@ -41,6 +42,10 @@ export default function LoginForm() {
           <h1 className="mt-4 text-4xl font-bold">Welcome Back</h1>
           <p className="mt-3 text-slate-400">
             Sign in to access your Financial Competency Dashboard.
+          </p>
+          <p className="mt-2 text-sm text-slate-500">
+            Beta testers should sign in with their approved email address and enter the invitation
+            pass number below on first login.
           </p>
         </div>
 
@@ -80,6 +85,20 @@ export default function LoginForm() {
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
               placeholder="••••••••••••"
               required
+            />
+          </div>
+
+          <div>
+            <label htmlFor="login-beta-pass-number" className="mb-2 block text-sm font-semibold">
+              Beta invitation pass number <span className="text-slate-500">(optional)</span>
+            </label>
+            <input
+              id="login-beta-pass-number"
+              type="text"
+              value={betaPassNumber}
+              onChange={(e) => setBetaPassNumber(e.target.value.toUpperCase())}
+              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
+              placeholder="ABCD-EFGH-IJKL"
             />
           </div>
 

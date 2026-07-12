@@ -10,7 +10,12 @@
   "include": [
     "src/lib/ai/guardrails.ts",
     "src/lib/ai/guardrails.test.ts",
+    "src/lib/beta-access.ts",
+    "src/lib/beta-access.test.ts",
     "src/lib/dashboard/dashboard-service.ts",
-    "src/lib/dashboard/dashboard-service.test.ts"
+    "src/lib/dashboard/dashboard-service.test.ts",
+    "src/lib/positioning.ts",
+    "src/lib/positioning.test.ts",
+    "src/types/membership.ts"
   ]
 }

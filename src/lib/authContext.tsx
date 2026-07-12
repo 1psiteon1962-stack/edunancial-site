@@ -8,6 +8,16 @@ import React, {
   useCallback,
 } from "react";
 
+import {
+  BETA_AUDIT_STORAGE_KEY,
+  BETA_INVITATIONS_STORAGE_KEY,
+  type BetaAccessSummary,
+  type BetaAuditEntry,
+  type BetaInvitationRecord,
+  applyBetaLogin,
+  getBetaAccessSummary,
+  normalizeEmail,
+} from "@/lib/beta-access";
 import { PASSWORD_POLICY } from "@/lib/passwordPolicy";
 
 const STORAGE_KEY = "edu_auth";
@@ -18,13 +28,14 @@ export interface AuthUser {
   email: string;
   firstName: string;
   lastName: string;
-  membershipTier: "free" | "basic" | "premium" | "enterprise";
+  membershipTier: "free" | "basic" | "premium" | "enterprise" | "beta";
   joinedDate: string;
   country: string;
   phone?: string;
   bio?: string;
   assessmentCompleted: boolean;
   overallScore: number | null;
+  betaAccess?: BetaAccessSummary | null;
 }
 
 interface StoredUser extends AuthUser {
@@ -34,7 +45,11 @@ interface StoredUser extends AuthUser {
 interface AuthContextValue {
   user: AuthUser | null;
   loading: boolean;
-  login: (email: string, password: string) => Promise<{ success: boolean; error?: string }>;
+  login: (
+    email: string,
+    password: string,
+    betaPassNumber?: string,
+  ) => Promise<{ success: boolean; error?: string }>;
   register: (data: RegisterData) => Promise<{ success: boolean; error?: string }>;
   logout: () => void;
   updateProfile: (data: Partial<AuthUser>) => void;
@@ -74,6 +89,70 @@ function saveUsers(users: StoredUser[]): void {
   localStorage.setItem(USERS_KEY, JSON.stringify(users));
 }
 
+function getBetaInvitations(): BetaInvitationRecord[] {
+  try {
+    const raw = localStorage.getItem(BETA_INVITATIONS_STORAGE_KEY);
+    return raw ? (JSON.parse(raw) as BetaInvitationRecord[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveBetaInvitations(invitations: BetaInvitationRecord[]): void {
+  localStorage.setItem(BETA_INVITATIONS_STORAGE_KEY, JSON.stringify(invitations));
+}
+
+function appendBetaAuditEntries(entries: BetaAuditEntry[]): void {
+  if (entries.length === 0) {
+    return;
+  }
+
+  try {
+    const raw = localStorage.getItem(BETA_AUDIT_STORAGE_KEY);
+    const existing = raw ? (JSON.parse(raw) as BetaAuditEntry[]) : [];
+    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify([...existing, ...entries]));
+  } catch {
+    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify(entries));
+  }
+}
+
+function syncStoredUser(user: AuthUser): void {
+  const users = getUsers();
+  const index = users.findIndex((storedUser) => storedUser.id === user.id);
+  if (index >= 0) {
+    users[index] = { ...users[index], ...user };
+    saveUsers(users);
+  }
+}
+
+function applyPersistedBetaState(user: AuthUser): AuthUser {
+  const invitation = getBetaInvitations().find(
+    (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(user.email),
+  );
+  const access = getBetaAccessSummary(invitation ?? null, user.email);
+
+  if (access.status === "active") {
+    return {
+      ...user,
+      membershipTier: "beta",
+      betaAccess: access,
+    };
+  }
+
+  if (access.status === "expired" || access.status === "revoked") {
+    return {
+      ...user,
+      membershipTier: user.membershipTier === "beta" ? "free" : user.membershipTier,
+      betaAccess: access,
+    };
+  }
+
+  return {
+    ...user,
+    betaAccess: access.status === "none" ? null : access,
+  };
+}
+
 export function validatePassword(password: string): string[] {
   const errors: string[] = [];
   if (password.length < PASSWORD_POLICY.minimumLength)
@@ -99,7 +178,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
-        setUser(JSON.parse(raw) as AuthUser);
+        const parsedUser = JSON.parse(raw) as AuthUser;
+        const syncedUser = applyPersistedBetaState(parsedUser);
+        setUser(syncedUser);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
+        syncStoredUser(syncedUser);
       }
     } catch {
       // ignore
@@ -109,21 +192,61 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = useCallback(
-    async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
+    async (
+      email: string,
+      password: string,
+      betaPassNumber?: string,
+    ): Promise<{ success: boolean; error?: string }> => {
       await new Promise((r) => setTimeout(r, 500));
       const users = getUsers();
       const found = users.find(
-        (u) => u.email.toLowerCase() === email.toLowerCase()
+        (candidate) => candidate.email.toLowerCase() === email.toLowerCase(),
       );
-      if (!found) return { success: false, error: "No account found with that email address." };
-      if (found.passwordHash !== simpleHash(password))
+      if (!found) {
+        return { success: false, error: "No account found with that email address." };
+      }
+      if (found.passwordHash !== simpleHash(password)) {
         return { success: false, error: "Incorrect password. Please try again." };
-      const { passwordHash: _, ...authUser } = found;
+      }
+
+      const { passwordHash: _, ...storedAuthUser } = found;
+      const invitations = getBetaInvitations();
+      const invitationIndex = invitations.findIndex(
+        (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(email),
+      );
+      const betaResult = await applyBetaLogin({
+        invitation: invitationIndex >= 0 ? invitations[invitationIndex] : null,
+        email,
+        passNumber: betaPassNumber,
+      });
+
+      if (betaResult.error) {
+        appendBetaAuditEntries(betaResult.auditEntries);
+        return { success: false, error: betaResult.error };
+      }
+
+      if (invitationIndex >= 0 && betaResult.invitation) {
+        invitations[invitationIndex] = betaResult.invitation;
+        saveBetaInvitations(invitations);
+      }
+
+      appendBetaAuditEntries(betaResult.auditEntries);
+
+      const authUser =
+        betaResult.access.status === "active"
+          ? {
+              ...storedAuthUser,
+              membershipTier: "beta" as const,
+              betaAccess: betaResult.access,
+            }
+          : applyPersistedBetaState(storedAuthUser);
+
       setUser(authUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
+      syncStoredUser(authUser);
       return { success: true };
     },
-    []
+    [],
   );
 
   const register = useCallback(
@@ -145,15 +268,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         joinedDate: new Date().toISOString(),
         assessmentCompleted: false,
         overallScore: null,
+        betaAccess: null,
         passwordHash: simpleHash(data.password),
       };
       saveUsers([...users, newUser]);
       const { passwordHash: _, ...authUser } = newUser;
-      setUser(authUser);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
+      const syncedUser = applyPersistedBetaState(authUser);
+      setUser(syncedUser);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
       return { success: true };
     },
-    []
+    [],
   );
 
   const logout = useCallback(() => {
@@ -166,13 +291,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (!prev) return prev;
       const updated = { ...prev, ...data };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-      // also update in users store
-      const users = getUsers();
-      const idx = users.findIndex((u) => u.id === prev.id);
-      if (idx >= 0) {
-        users[idx] = { ...users[idx], ...data };
-        saveUsers(users);
-      }
+      syncStoredUser(updated);
       return updated;
     });
   }, []);

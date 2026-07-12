@@ -88,6 +88,10 @@ export default function RegisterForm() {
           <p className="mt-3 text-slate-400">
             Begin building your Financial Competency today.
           </p>
+          <p className="mt-2 text-sm text-slate-500">
+            If you were invited as a Beta Tester, register with the approved email address first,
+            then enter your pass number on first login to start the 72-hour beta window.
+          </p>
         </div>
 
         {error && (
