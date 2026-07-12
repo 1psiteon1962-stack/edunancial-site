@@ -38,6 +38,14 @@ const coreRoutes=[
 
 {url:`${BASE_URL}/why-edunancial`,lastModified:new Date()},
 
+{url:`${BASE_URL}/canada`,lastModified:new Date()},
+
+{url:`${BASE_URL}/canada/courses`,lastModified:new Date()},
+
+{url:`${BASE_URL}/canada/membership`,lastModified:new Date()},
+
+{url:`${BASE_URL}/legal/pipeda`,lastModified:new Date()},
+
 {url:`${BASE_URL}/asia-pacific`,lastModified:new Date()},
 
 ];
