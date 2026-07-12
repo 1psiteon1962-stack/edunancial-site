@@ -19,7 +19,16 @@ export type SupportedLanguageCode =
   | "sw"
   | "ja"
   | "ko"
-  | "zh-Hans";
+  | "zh-Hans"
+  // Europe
+  | "de"
+  | "it"
+  | "nl"
+  // Asia-Pacific
+  | "hi"
+  | "zh-Hant"
+  // Caribbean
+  | "ht";
 
 export type RegionalPaymentProviderId =
   | "square"
@@ -92,7 +101,9 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   caribbean: {
     id: "caribbean",
-    supportedLanguages: ["en", "es", "fr"],
+    // ht (Haitian Creole) and nl (Dutch) added per required matrix.
+    // pap (Papiamento) is registered in LANGUAGE_CATALOG as an extension point; translations pending.
+    supportedLanguages: ["en", "es", "fr", "ht", "nl"],
     supportedCurrencies: ["USD", "DOP", "JMD", "TTD"],
     defaultTimeZone: "America/Santo_Domingo",
     countries: ["DO", "JM", "TT", "BB", "BS"],
@@ -109,7 +120,9 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   europe: {
     id: "europe",
-    supportedLanguages: ["en", "fr", "es", "pt"],
+    // de (German), it (Italian), nl (Dutch) added per required matrix.
+    // Additional country languages can be added through LANGUAGE_CATALOG without rewrites.
+    supportedLanguages: ["en", "fr", "es", "pt", "de", "it", "nl"],
     supportedCurrencies: ["EUR", "GBP", "CHF"],
     defaultTimeZone: "Europe/Paris",
     countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT"],
@@ -126,7 +139,9 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   africa: {
     id: "africa",
-    supportedLanguages: ["en", "fr", "sw", "ar"],
+    // pt (Portuguese) added for Mozambique, Angola, Cape Verde coverage.
+    // sw (Swahili) active. Extension points for additional regional languages available via LANGUAGE_CATALOG.
+    supportedLanguages: ["en", "fr", "sw", "ar", "pt"],
     supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "USD"],
     defaultTimeZone: "Africa/Lagos",
     countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG"],
@@ -160,7 +175,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   "asia-pacific": {
     id: "asia-pacific",
-    supportedLanguages: ["en", "ja", "ko", "zh-Hans"],
+    // hi (Hindi) and zh-Hant (Traditional Chinese) added per required matrix.
+    // Extension points for th, vi, id, ms, fil, bn, ta registered in LANGUAGE_CATALOG;
+    // full translations pending — all fall back to English gracefully.
+    supportedLanguages: ["en", "ja", "ko", "zh-Hans", "hi", "zh-Hant"],
     supportedCurrencies: ["JPY", "KRW", "SGD", "AUD", "USD"],
     defaultTimeZone: "Asia/Singapore",
     countries: ["JP", "KR", "CN", "SG", "AU", "NZ", "PH"],

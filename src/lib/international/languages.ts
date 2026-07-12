@@ -35,6 +35,17 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "ko", label: "Korean", nativeLabel: "한국어", rtl: false },
   { code: "ru", label: "Russian", nativeLabel: "Русский", rtl: false },
   { code: "sw", label: "Swahili", nativeLabel: "Kiswahili", rtl: false },
+  // Caribbean required
+  { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl ayisyen", rtl: false },
+  // Caribbean extension point — full translation pending
+  { code: "pap", label: "Papiamento", nativeLabel: "Papiamentu", rtl: false },
+  // Asia-Pacific extension points — registered framework-ready; translations pending
+  { code: "th", label: "Thai", nativeLabel: "ภาษาไทย", rtl: false },
+  { code: "vi", label: "Vietnamese", nativeLabel: "Tiếng Việt", rtl: false },
+  { code: "id", label: "Indonesian", nativeLabel: "Bahasa Indonesia", rtl: false },
+  { code: "ms", label: "Malay", nativeLabel: "Bahasa Melayu", rtl: false },
+  { code: "fil", label: "Filipino", nativeLabel: "Filipino", rtl: false },
+  { code: "ta", label: "Tamil", nativeLabel: "தமிழ்", rtl: false },
 ] as const;
 
 export const DEFAULT_LANGUAGE_CODE = "en";
