@@ -60,6 +60,7 @@ const PROVIDER_REGISTRY: Record<RegionalPaymentProviderId, PaymentProviderAdapte
     },
   },
   stripe: buildPlaceholderAdapter("stripe", "Stripe", [
+    "africa",
     "latin-america",
     "caribbean",
     "europe",

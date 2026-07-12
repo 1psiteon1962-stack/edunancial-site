@@ -13,8 +13,8 @@ export type RegionCode =
 export interface RegionConfig {
   name: string;
   enabled: boolean;
-  defaultLanguage: "en" | "es" | "fr";
-  languages: readonly ("en" | "es" | "fr")[];
+  defaultLanguage: "en" | "es" | "fr" | "ar";
+  languages: readonly ("en" | "es" | "fr" | "ar")[];
   readinessKey: string;
 }
 
@@ -30,9 +30,9 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
   // Other regions intentionally disabled until activated
   africa: {
     name: "Africa",
-    enabled: false,
+    enabled: true,
     defaultLanguage: "en",
-    languages: ["en", "fr"],
+    languages: ["en", "fr", "ar"],
     readinessKey: "africa",
   },
 
@@ -63,8 +63,8 @@ export const REGIONS: Record<RegionCode, RegionConfig> = {
   mena: {
     name: "MENA",
     enabled: false,
-    defaultLanguage: "en",
-    languages: ["en", "fr"],
+    defaultLanguage: "ar",
+    languages: ["ar", "en", "fr"],
     readinessKey: "mena",
   },
 

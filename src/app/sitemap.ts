@@ -186,6 +186,18 @@ new Date(),
 
 url:
 
+"https://www.edunancial.com/africa",
+
+lastModified:
+
+new Date(),
+
+},
+
+{
+
+url:
+
 "https://www.edunancial.com/why-edunancial",
 
 lastModified:

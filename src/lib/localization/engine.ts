@@ -217,7 +217,7 @@ const CONTENT_LAYERS: ContentLayers = {
     africa: {
       language: "en",
       currency: "USD",
-      paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+      paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
       legalNotices: {
         ...GLOBAL_LEGAL_NOTICES,
         taxDisclaimer: "Africa tax disclaimer by country.",
@@ -271,7 +271,7 @@ const CONTENT_LAYERS: ContentLayers = {
         ...GLOBAL_LEGAL_NOTICES,
         taxDisclaimer: "Nigeria-specific tax disclaimer.",
       },
-      paymentProviders: ["flutterwave", "paystack", "mobile-money"],
+      paymentProviders: ["flutterwave", "paystack", "mobile-money", "stripe"],
       educationalExamples: {
         mortgage: "Mortgage example: ₦120,000,000 principal in NGN.",
       },
@@ -282,6 +282,66 @@ const CONTENT_LAYERS: ContentLayers = {
         phoneFormat: "+234 ### ### ####",
         measurementUnits: "metric",
         timezone: "Africa/Lagos",
+      },
+    },
+    KE: {
+      language: "en",
+      currency: "KES",
+      paymentProviders: ["mobile-money", "flutterwave", "stripe"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "street-city-county-postal-country",
+        phoneFormat: "+254 ### ### ###",
+        measurementUnits: "metric",
+        timezone: "Africa/Nairobi",
+      },
+    },
+    ZA: {
+      language: "en",
+      currency: "ZAR",
+      paymentProviders: ["flutterwave", "paystack", "stripe"],
+      localizationAssets: {
+        dateFormat: "YYYY/MM/DD",
+        numberFormat: "1,234.56",
+        addressFormat: "street-suburb-city-postal-country",
+        phoneFormat: "+27 ## ### ####",
+        measurementUnits: "metric",
+        timezone: "Africa/Johannesburg",
+      },
+    },
+    EG: {
+      language: "ar",
+      currency: "EGP",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Egypt privacy notice.",
+      },
+      paymentProviders: ["stripe", "mobile-money"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1,234.56",
+        addressFormat: "building-street-district-city-country",
+        phoneFormat: "+20 ## #### ####",
+        measurementUnits: "metric",
+        timezone: "Africa/Cairo",
+      },
+    },
+    MA: {
+      language: "fr",
+      currency: "USD",
+      legalNotices: {
+        ...GLOBAL_LEGAL_NOTICES,
+        privacy: "Francophone Africa privacy notice.",
+      },
+      paymentProviders: ["stripe", "mobile-money"],
+      localizationAssets: {
+        dateFormat: "DD/MM/YYYY",
+        numberFormat: "1 234,56",
+        addressFormat: "street-city-region-postal-country",
+        phoneFormat: "+212 ### ######",
+        measurementUnits: "metric",
+        timezone: "Africa/Casablanca",
       },
     },
     ES: {
@@ -441,6 +501,10 @@ const COUNTRY_CONFIGS: CountryConfiguration[] = [
   { countryCode: "DO", country: "Dominican Republic", region: "caribbean" },
   { countryCode: "ES", country: "Spain", region: "europe-2a" },
   { countryCode: "NG", country: "Nigeria", region: "africa" },
+  { countryCode: "KE", country: "Kenya", region: "africa" },
+  { countryCode: "ZA", country: "South Africa", region: "africa" },
+  { countryCode: "EG", country: "Egypt", region: "africa" },
+  { countryCode: "MA", country: "Morocco", region: "africa" },
   { countryCode: "JP", country: "Japan", region: "asia" },
 ];
 
@@ -563,4 +627,3 @@ export function getRegionalManagementRows() {
     ).length,
   }));
 }
-
