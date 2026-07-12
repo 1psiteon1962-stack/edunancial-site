@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -10,12 +11,16 @@ export default function Hero() {
         margin: "0 auto",
       }}
     >
-      <img
+      <Image
         src="/images/three-paths-hero.svg"
         alt="Edunancial Three Roads to Wealth"
+        width={1100}
+        height={620}
+        priority
         style={{
           width: "100%",
           maxWidth: "1100px",
+          height: "auto",
           margin: "0 auto 50px auto",
           display: "block",
           borderRadius: "20px",
