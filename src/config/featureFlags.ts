@@ -110,3 +110,41 @@ export const APAC_FEATURE_FLAGS: ApacFeatureFlags = {
   apacTraditionalChinese: true,
   apacHindi: true,
 };
+
+// ======================================================
+// AI COUNTRY SELECTION FEATURE FLAGS
+// ======================================================
+
+export interface AiCountryFeatureFlags {
+  aiCountrySelection: boolean;
+  aiCountryKnowledge: boolean;
+  aiMultiCountryComparison: boolean;
+}
+
+export const AI_COUNTRY_FEATURE_FLAGS: AiCountryFeatureFlags = {
+  aiCountrySelection: true,
+  aiCountryKnowledge: true,
+  aiMultiCountryComparison: false,
+};
+
+// ======================================================
+// COMPLIANCE-GATED COUNTRY FLAGS
+// Countries disabled pending compliance review.
+// Language support remains installed regardless.
+// ======================================================
+
+export interface ComplianceGatedCountryFlags {
+  chinaEnabled: boolean;
+  russiaEnabled: boolean;
+  belarusEnabled: boolean;
+  iranEnabled: boolean;
+  afghanistanEnabled: boolean;
+}
+
+export const COMPLIANCE_GATED_COUNTRY_FLAGS: ComplianceGatedCountryFlags = {
+  chinaEnabled: false,
+  russiaEnabled: false,
+  belarusEnabled: false,
+  iranEnabled: false,
+  afghanistanEnabled: false,
+};

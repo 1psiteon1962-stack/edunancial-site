@@ -41,9 +41,23 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   },
   { code: "ja", label: "Japanese", nativeLabel: "日本語", rtl: false },
   { code: "ko", label: "Korean", nativeLabel: "한국어", rtl: false },
+  { code: "cs", label: "Czech", nativeLabel: "Čeština", rtl: false },
+  { code: "sk", label: "Slovak", nativeLabel: "Slovenčina", rtl: false },
+  { code: "ro", label: "Romanian", nativeLabel: "Română", rtl: false },
+  { code: "bg", label: "Bulgarian", nativeLabel: "Български", rtl: false },
+  { code: "lt", label: "Lithuanian", nativeLabel: "Lietuvių", rtl: false },
+  { code: "lv", label: "Latvian", nativeLabel: "Latviešu", rtl: false },
+  { code: "et", label: "Estonian", nativeLabel: "Eesti", rtl: false },
+  { code: "be", label: "Belarusian", nativeLabel: "Беларуская", rtl: false },
   { code: "ru", label: "Russian", nativeLabel: "Русский", rtl: false },
+  { code: "fa", label: "Farsi (Persian)", nativeLabel: "فارسی", rtl: true },
+  { code: "prs", label: "Dari", nativeLabel: "دری", rtl: true },
+  { code: "ps", label: "Pashto", nativeLabel: "پښتو", rtl: true },
   { code: "sw", label: "Swahili", nativeLabel: "Kiswahili", rtl: false },
+  { code: "lg", label: "Luganda", nativeLabel: "Luganda", rtl: false },
   { code: "yo", label: "Yoruba", nativeLabel: "Yorùbá", rtl: false },
+  { code: "ig", label: "Igbo", nativeLabel: "Igbo", rtl: false },
+  { code: "ha", label: "Hausa", nativeLabel: "Hausa", rtl: false },
   { code: "zu", label: "Zulu", nativeLabel: "isiZulu", rtl: false },
   { code: "am", label: "Amharic", nativeLabel: "አማርኛ", rtl: false },
 ] as const;
@@ -61,7 +75,12 @@ export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
   tl: "fil",
 };
 
-export const FRAMEWORK_READY_LANGUAGE_CODES = ["pap", "sw", "yo", "zu", "am", "th", "vi", "ms", "id", "fil", "ta", "bn"] as const;
+export const FRAMEWORK_READY_LANGUAGE_CODES = [
+  "pap",
+  "sw", "lg", "yo", "ig", "ha", "zu", "am",
+  "th", "vi", "ms", "id", "fil", "ta", "bn",
+  "cs", "sk", "ro", "bg", "lt", "lv", "et", "be", "fa", "prs", "ps",
+] as const;
 
 export const LANGUAGE_ADMIN_STORAGE_KEY = "edunancial:language-admin";
 

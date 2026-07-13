@@ -4,12 +4,16 @@
     "noEmit": false,
     "outDir": ".test-dist",
     "module": "commonjs",
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "incremental": false
   },
   "include": [
     "src/lib/ai/guardrails.ts",
     "src/lib/ai/guardrails.test.ts",
+    "src/lib/ai/country-knowledge.ts",
+    "src/lib/ai/country-selection.ts",
+    "src/lib/ai/country-selection.test.ts",
+    "src/config/featureFlags.ts",
     "src/lib/beta-access.ts",
     "src/lib/beta-access.test.ts",
     "src/lib/dashboard/dashboard-service.ts",
