@@ -80,49 +80,6 @@ const dashboardCards = [
   },
 ];
 
-const informationArchitectureLinks = [
-  {
-    title: "Our Story",
-    description: "Learn why Edunancial exists and how the mission began.",
-    href: "/our-story",
-  },
-  {
-    title: "Mission",
-    description: "See the practical objective behind the platform.",
-    href: "/mission",
-  },
-  {
-    title: "Vision",
-    description: "Understand the long-term platform direction and member experience.",
-    href: "/vision",
-  },
-  {
-    title: "Features",
-    description: "Review the tools, learning systems, and dashboard capabilities.",
-    href: "/features",
-  },
-  {
-    title: "FAQ",
-    description: "Get answers about memberships, courses, certificates, and access.",
-    href: "/faq",
-  },
-  {
-    title: "Pricing",
-    description: "Compare membership options and choose the right starting point.",
-    href: "/pricing",
-  },
-  {
-    title: "Privacy & Security",
-    description: "Review how Edunancial protects member data and trust.",
-    href: "/privacy",
-  },
-  {
-    title: "Contact",
-    description: "Reach the right team for support, billing, partnerships, or press.",
-    href: "/contact",
-  },
-];
-
 export const metadata: Metadata = {
   title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
   description: EDUNANCIAL_LONG_DESCRIPTION,
@@ -169,48 +126,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
 
-      {/* ── Section 1: Hero ──────────────────────────────────────────────── */}
-      <section
-        aria-labelledby="homepage-hero-heading"
-        className="border-b border-white/10 bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]"
-      >
-        <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
-          <div className="mx-auto max-w-4xl text-center">
-            <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">
-              Edunancial
-            </p>
-            <h1 id="homepage-hero-heading" className="mt-6 text-4xl font-black leading-tight sm:text-5xl md:text-7xl">
-              {EDUNANCIAL_IDENTITY}
-            </h1>
-            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-200 sm:text-lg sm:leading-8 md:text-xl">
-              {EDUNANCIAL_LONG_DESCRIPTION}
-            </p>
-            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-400 sm:text-base">
-              {EDUNANCIAL_METHODS_CLARIFICATION}
-            </p>
-            <div className="mt-10 grid gap-3 sm:mt-12 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
-              {primaryCallsToAction.map((cta) => (
-                <Link key={cta.label} href={cta.href} className={cta.className}>
-                  {cta.label}
-                </Link>
-              ))}
-            </div>
-            <div className="mt-8 grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
-              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                Invitation-only beta access remains hidden from public pricing
-              </span>
-              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                Color-coded financial literacy modules across Red, White, and Blue
-              </span>
-              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                AI-guided next steps for better decisions
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Section 2: Why Edunancial? ───────────────────────────────────── */}
+      {/* ── Section 1: Why Edunancial? ───────────────────────────────────── */}
       <section aria-labelledby="homepage-story-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="grid gap-10 rounded-3xl border border-white/10 bg-slate-950/50 p-8 md:p-10 lg:grid-cols-[1.3fr_0.7fr]">
           <div>
@@ -260,41 +176,51 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Section 3: What is Edunancial? ───────────────────────────────── */}
-      <section aria-labelledby="homepage-explore-heading" className="border-y border-white/10 bg-[#0b1326]">
-        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
+      {/* ── Section 2: What is Edunancial? ───────────────────────────────── */}
+      <section
+        aria-labelledby="homepage-hero-heading"
+        className="border-b border-white/10 bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
+          <div className="mx-auto max-w-4xl text-center">
+            <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">
+              Edunancial
+            </p>
+            <h1 id="homepage-hero-heading" className="mt-6 text-4xl font-black leading-tight sm:text-5xl md:text-7xl">
               What is Edunancial?
+            </h1>
+            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-200 sm:text-lg sm:leading-8 md:text-xl">
+              {EDUNANCIAL_LONG_DESCRIPTION}
             </p>
-            <h2 id="homepage-explore-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
-              Dedicated pages for the information you used to scroll for
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-300">
-              Long-form homepage content has been broken into focused pages so visitors can
-              find the right answer faster without losing search visibility or context.
+            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-400 sm:text-base">
+              {EDUNANCIAL_METHODS_CLARIFICATION}
             </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {informationArchitectureLinks.map((link) => (
-              <Link
-                key={link.title}
-                href={link.href}
-                className="rounded-2xl border border-white/10 bg-slate-950/60 p-6 transition hover:border-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0b1326]"
-              >
-                <h3 className="text-xl font-black">{link.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-300">{link.description}</p>
-              </Link>
-            ))}
+            <div className="mt-10 grid gap-3 sm:mt-12 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+              {primaryCallsToAction.map((cta) => (
+                <Link key={cta.label} href={cta.href} className={cta.className}>
+                  {cta.label}
+                </Link>
+              ))}
+            </div>
+            <div className="mt-8 grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
+              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+                Invitation-only beta access remains hidden from public pricing
+              </span>
+              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+                Color-coded financial literacy modules across Red, White, and Blue
+              </span>
+              <span className="rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+                AI-guided next steps for better decisions
+              </span>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ── Section 4: Member Success Stories ───────────────────────────── */}
+      {/* ── Section 3: Member Success Stories ───────────────────────────── */}
       <MemberSuccessStories stories={[]} />
 
-      {/* ── Section 5: Navigate Every Major Area ────────────────────────── */}
+      {/* ── Section 4: Navigate Every Major Area ────────────────────────── */}
       <section aria-labelledby="homepage-dashboard-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
@@ -332,7 +258,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Section 6: Free Trial placeholder ───────────────────────────── */}
+      {/* ── Section 5: Free Trial placeholder ───────────────────────────── */}
       {/* Free Trial section — content will be added in a future update */}
       <section aria-label="Free trial" className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
@@ -345,7 +271,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Section 7: Membership ────────────────────────────────────────── */}
+      {/* ── Section 6: Membership ────────────────────────────────────────── */}
       <section aria-labelledby="homepage-final-cta-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="rounded-3xl border border-blue-500/30 bg-blue-500/10 p-8 md:p-10">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
