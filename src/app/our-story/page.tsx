@@ -51,50 +51,46 @@ export default function OurStoryPage() {
 
         </h2>
 
-        <p className="mt-10 text-xl leading-10 text-slate-300">
-
-          When my son was eleven years old he told me he wanted to work with
-          his mind instead of his back.
-
-          That conversation changed everything.
-
+        <p className="mt-10 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          When my son was 11 years old, I had just finished working on a file
+          when my phone alerted me that a client payment had arrived.
         </p>
 
-        <p className="mt-8 text-xl leading-10 text-slate-300">
-
-          Rather than simply telling him how money worked,
-          we began teaching him how wealth is actually created.
-
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          He happened to walk into the room at that exact moment. Looking at the
+          amount, he asked me a simple question:
         </p>
 
-        <p className="mt-8 text-xl leading-10 text-slate-300">
-
-          He learned budgeting.
-
-          He bought precious metals.
-
-          He researched stocks.
-
-          He developed business ideas.
-
-          He learned about corporations,
-          holding companies,
-          return on investment,
-          and long-term thinking.
-
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          "Dad, how did you do that?"
         </p>
 
-        <p className="mt-8 text-xl leading-10 text-slate-300">
-
-          The objective was never memorization.
-
-          The objective was competency.
-
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          I answered,
         </p>
 
-        <p className="mt-8 text-xl leading-10 text-slate-300">
-          Edunancial was never built to operate as a school or academic institution. It was built
-          as a membership platform that helps people strengthen practical financial judgment.
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          "Because I work with my head."
+        </p>
+
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          He looked surprised, so I asked him another question:
+        </p>
+
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          "Would you like to work with your head someday?"
+        </p>
+
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          Without hesitation he answered,
+        </p>
+
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          "Yes... but I don't know how."
+        </p>
+
+        <p className="mt-8 text-[1.4rem] leading-10 text-slate-300 sm:text-2xl">
+          That was the moment Edunancial was born.
         </p>
 
       </section>
@@ -108,7 +104,6 @@ export default function OurStoryPage() {
           <h2 className="text-5xl font-black text-green-400">
 
             Then Came Ntege
-
           </h2>
 
           <p className="mt-10 text-xl leading-10 text-slate-300">
