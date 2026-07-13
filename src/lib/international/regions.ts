@@ -20,23 +20,41 @@ export type SupportedLanguageCode =
   | "nl"
   | "ht"
   | "pap"
+  | "pl"
+  | "cs"
+  | "sk"
+  | "ro"
+  | "bg"
+  | "lt"
+  | "lv"
+  | "et"
+  | "be"
+  | "ru"
   | "ar"
+  | "he"
+  | "fa"
+  | "prs"
+  | "ps"
+  | "hi"
+  | "ur"
+  | "bn"
+  | "ta"
   | "sw"
+  | "lg"
   | "yo"
+  | "ig"
+  | "ha"
   | "zu"
   | "am"
   | "ja"
   | "ko"
   | "zh-Hans"
   | "zh-Hant"
-  | "hi"
   | "th"
   | "vi"
   | "ms"
   | "id"
-  | "fil"
-  | "ta"
-  | "bn";
+  | "fil";
 
 export type RegionalPaymentProviderId =
   | "square"
@@ -127,10 +145,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   europe: {
     id: "europe",
-    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl"],
-    supportedCurrencies: ["EUR", "GBP", "CHF"],
+    supportedLanguages: ["en", "fr", "de", "es", "pt", "it", "nl", "pl", "cs", "sk", "ro", "bg", "lt", "lv", "et", "ru", "be"],
+    supportedCurrencies: ["EUR", "GBP", "CHF", "PLN", "CZK", "RON", "BGN", "RUB", "BYR"],
     defaultTimeZone: "Europe/Paris",
-    countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT", "CH", "PL", "CZ", "HU", "RO"],
+    countries: ["FR", "DE", "ES", "IT", "NL", "BE", "GB", "PT", "CH", "PL", "CZ", "SK", "RO", "BG", "LT", "LV", "EE", "HU"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
@@ -144,10 +162,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   africa: {
     id: "africa",
-    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "yo", "zu", "am"],
-    supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "USD"],
+    supportedLanguages: ["en", "fr", "ar", "pt", "sw", "lg", "yo", "ig", "ha", "zu", "am"],
+    supportedCurrencies: ["NGN", "KES", "ZAR", "GHS", "UGX", "TZS", "RWF", "USD"],
     defaultTimeZone: "Africa/Lagos",
-    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "EG", "MA"],
+    countries: ["NG", "KE", "ZA", "GH", "UG", "TZ", "RW", "EG", "MA"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
@@ -161,10 +179,10 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
   },
   "middle-east": {
     id: "middle-east",
-    supportedLanguages: ["ar", "en", "fr"],
-    supportedCurrencies: ["AED", "SAR", "QAR", "USD"],
+    supportedLanguages: ["ar", "he", "fa", "prs", "ps", "ur", "en", "fr"],
+    supportedCurrencies: ["AED", "SAR", "QAR", "KWD", "BHD", "OMR", "JOD", "ILS", "LBP", "USD"],
     defaultTimeZone: "Asia/Riyadh",
-    countries: ["AE", "SA", "QA", "KW", "BH", "OM", "JO"],
+    countries: ["AE", "SA", "QA", "KW", "BH", "OM", "JO", "IL", "LB"],
     taxSettings: {
       model: "vat",
       pricesIncludeTax: true,
@@ -185,17 +203,18 @@ export const REGIONAL_CONFIG: Record<GlobalRegionId, RegionalConfiguration> = {
       "zh-Hans",
       "zh-Hant",
       "hi",
+      "ur",
+      "bn",
+      "ta",
       "th",
       "vi",
       "ms",
       "id",
       "fil",
-      "ta",
-      "bn",
     ],
-    supportedCurrencies: ["JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND", "USD"],
+    supportedCurrencies: ["JPY", "KRW", "CNY", "TWD", "HKD", "SGD", "INR", "PKR", "BDT", "LKR", "AUD", "NZD", "PHP", "THB", "MYR", "IDR", "VND", "USD"],
     defaultTimeZone: "Asia/Singapore",
-    countries: ["JP", "KR", "CN", "TW", "HK", "SG", "IN", "AU", "NZ", "PH", "TH", "MY", "ID", "VN"],
+    countries: ["JP", "KR", "CN", "TW", "HK", "SG", "IN", "PK", "BD", "LK", "AU", "NZ", "PH", "TH", "MY", "ID", "VN"],
     taxSettings: {
       model: "gst",
       pricesIncludeTax: true,
@@ -251,12 +270,15 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   LT: "europe",
   SI: "europe",
   GR: "europe",
+  RU: "europe",
+  BY: "europe",
   NG: "africa",
   KE: "africa",
   ZA: "africa",
   GH: "africa",
   UG: "africa",
   TZ: "africa",
+  RW: "africa",
   EG: "africa",
   MA: "africa",
   AE: "middle-east",
@@ -266,6 +288,10 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   BH: "middle-east",
   OM: "middle-east",
   JO: "middle-east",
+  IL: "middle-east",
+  LB: "middle-east",
+  IR: "middle-east",
+  AF: "middle-east",
   JP: "asia-pacific",
   KR: "asia-pacific",
   CN: "asia-pacific",
@@ -273,6 +299,9 @@ const COUNTRY_TO_REGION: Record<string, GlobalRegionId> = {
   HK: "asia-pacific",
   SG: "asia-pacific",
   IN: "asia-pacific",
+  PK: "asia-pacific",
+  BD: "asia-pacific",
+  LK: "asia-pacific",
   AU: "asia-pacific",
   NZ: "asia-pacific",
   PH: "asia-pacific",
@@ -299,18 +328,35 @@ const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
   "Europe/Zurich": "europe",
   "Europe/Warsaw": "europe",
   "Europe/Prague": "europe",
+  "Europe/Bratislava": "europe",
   "Europe/Budapest": "europe",
   "Europe/Bucharest": "europe",
   "Europe/Sofia": "europe",
-  "Europe/Zagreb": "europe",
-  "Europe/Tallinn": "europe",
-  "Europe/Riga": "europe",
   "Europe/Vilnius": "europe",
+  "Europe/Riga": "europe",
+  "Europe/Tallinn": "europe",
+  "Europe/Zagreb": "europe",
+  "Europe/Moscow": "europe",
+  "Europe/Minsk": "europe",
   "Africa/Lagos": "africa",
   "Africa/Nairobi": "africa",
+  "Africa/Kampala": "africa",
+  "Africa/Dar_es_Salaam": "africa",
+  "Africa/Accra": "africa",
+  "Africa/Johannesburg": "africa",
+  "Africa/Kigali": "africa",
   "Africa/Casablanca": "africa",
   "Asia/Riyadh": "middle-east",
   "Asia/Dubai": "middle-east",
+  "Asia/Qatar": "middle-east",
+  "Asia/Kuwait": "middle-east",
+  "Asia/Bahrain": "middle-east",
+  "Asia/Muscat": "middle-east",
+  "Asia/Amman": "middle-east",
+  "Asia/Jerusalem": "middle-east",
+  "Asia/Beirut": "middle-east",
+  "Asia/Tehran": "middle-east",
+  "Asia/Kabul": "middle-east",
   "Asia/Singapore": "asia-pacific",
   "Asia/Tokyo": "asia-pacific",
   "Asia/Seoul": "asia-pacific",
@@ -318,6 +364,9 @@ const TIMEZONE_TO_REGION: Record<string, GlobalRegionId> = {
   "Asia/Taipei": "asia-pacific",
   "Asia/Hong_Kong": "asia-pacific",
   "Asia/Kolkata": "asia-pacific",
+  "Asia/Karachi": "asia-pacific",
+  "Asia/Dhaka": "asia-pacific",
+  "Asia/Colombo": "asia-pacific",
   "Asia/Manila": "asia-pacific",
   "Asia/Bangkok": "asia-pacific",
   "Asia/Kuala_Lumpur": "asia-pacific",
