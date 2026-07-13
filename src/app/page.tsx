@@ -16,19 +16,19 @@ const primaryCallsToAction = [
     href: "/register",
     label: "Become a Member",
     className:
-      "inline-flex items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 text-base font-black text-black transition hover:bg-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]",
+      "inline-flex items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 text-base font-black text-black transition hover:bg-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950",
   },
   {
     href: "/pricing",
     label: "View Membership Plans",
     className:
-      "inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-4 text-base font-bold text-white transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]",
+      "inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-4 text-base font-bold text-white transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950",
   },
   {
     href: "/login",
     label: "Log In",
     className:
-      "inline-flex items-center justify-center rounded-xl border border-white/60 px-6 py-4 text-base font-bold transition hover:bg-white hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]",
+      "inline-flex items-center justify-center rounded-xl border border-white/60 px-6 py-4 text-base font-bold transition hover:bg-white hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950",
   },
 ];
 
@@ -136,25 +136,118 @@ export default function HomePage() {
             <h2 id="homepage-story-heading" className="mt-6 text-3xl font-black sm:text-4xl md:text-5xl">
               Why Edunancial?
             </h2>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Edunancial began with a simple problem: too many people learn financial terms
-              without ever being shown how to make real financial decisions. The platform was
-              created to close that gap with structured learning resources, measurable progress,
-              and member experiences built for long-term growth.
-            </p>
-            <p className="mt-4 max-w-3xl text-base leading-7 text-slate-400">
-              {RED_WHITE_BLUE_FOUNDATION}
-            </p>
+            <div className="mt-6 max-w-3xl space-y-4 text-lg leading-8 text-slate-300">
+              <p>Edunancial began with a conversation between a father and his 11-year-old son.</p>
+
+              <p>
+                One day I had just finished working on a file when my phone alerted me that a
+                client payment had arrived. My son happened to walk into the room at that exact
+                moment. Looking at the amount, he asked a simple question:
+              </p>
+
+              <p>
+                <strong>"Dad, how did you do that?"</strong>
+              </p>
+
+              <p>I answered,</p>
+
+              <p>
+                <strong>"Because I work with my head."</strong>
+              </p>
+
+              <p>He looked surprised, so I asked him another question:</p>
+
+              <p>
+                <strong>"Would you like to work with your head someday?"</strong>
+              </p>
+
+              <p>Without hesitation he answered,</p>
+
+              <p>
+                <strong>"Yes... but I don't know how."</strong>
+              </p>
+
+              <p>That was the moment Edunancial was born.</p>
+
+              <p>
+                Over the next four years, I began teaching him a simple system that an 11-year-old
+                could understand.
+              </p>
+
+              <p>
+                <strong>RED</strong> represented <strong>Real Estate.</strong>
+              </p>
+
+              <p>
+                <strong>WHITE</strong> represented <strong>Paper Assets</strong>—stocks, bonds,
+                ETFs, options, and other investments.
+              </p>
+
+              <p>
+                <strong>BLUE</strong> represented <strong>Business</strong>—how businesses are
+                built, operated, managed, and grown profitably.
+              </p>
+
+              <p>
+                What started as a way to teach my own son soon revealed something much larger.
+              </p>
+
+              <p>
+                It became apparent to me that millions of people—children, adults,
+                entrepreneurs, and even experienced professionals—were asking the very same
+                question:
+              </p>
+
+              <p>
+                <strong>
+                  "I want to work with my head... but nobody has shown me how."
+                </strong>
+              </p>
+
+              <p>Most people are taught financial vocabulary.</p>
+
+              <p>Very few are taught financial systems.</p>
+
+              <p>
+                At Edunancial, we believe wealth is rarely created by luck. It is built by
+                following sound systems, making informed decisions, understanding cash flow,
+                protecting capital, managing risk, and thinking long term.
+              </p>
+
+              <p>Financial literacy provides knowledge.</p>
+
+              <p>
+                Financial competency is the ability to consistently apply that knowledge in the
+                real world.
+              </p>
+
+              <p>That difference changes lives.</p>
+
+              <p>
+                Edunancial was created to help people move beyond memorizing financial terms and
+                begin building practical financial judgment through structured learning,
+                measurable progress, artificial intelligence, and real-world application.
+              </p>
+
+              <p>Our mission is simple:</p>
+
+              <p>
+                <strong>
+                  Teach people how to think—not what to think—so they can make better financial
+                  decisions for the rest of their lives.
+                </strong>
+              </p>
+            </div>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/our-story"
-                className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-4 font-bold text-white transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+                className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-4 font-bold text-white transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
                 Read Our Story
               </Link>
               <Link
                 href="/mission"
-                className="inline-flex items-center justify-center rounded-xl border border-white/20 px-6 py-4 font-bold text-white transition hover:bg-white hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+                className="inline-flex items-center justify-center rounded-xl border border-white/20 px-6 py-4 font-bold text-white transition hover:bg-white hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
                 Mission &amp; Vision
               </Link>
@@ -233,7 +326,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/dashboard"
-            className="font-bold text-blue-300 hover:text-blue-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+            className="font-bold text-blue-300 hover:text-blue-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
           >
             Preview the member dashboard &rarr;
           </Link>
@@ -244,7 +337,7 @@ export default function HomePage() {
             <Link
               key={card.title}
               href={card.href}
-              className="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:border-blue-400 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+              className="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:border-blue-400 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
             >
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-xl font-black sm:text-2xl">{card.title}</h3>
@@ -290,13 +383,13 @@ export default function HomePage() {
             <div className="grid gap-4 sm:grid-cols-2">
               <Link
                 href="/register"
-                className="inline-flex items-center justify-center rounded-2xl bg-yellow-400 px-6 py-5 text-center font-black text-slate-950 transition hover:bg-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+                className="inline-flex items-center justify-center rounded-2xl bg-yellow-400 px-6 py-5 text-center font-black text-slate-950 transition hover:bg-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
                 Start Membership
               </Link>
               <Link
                 href="/ai-coach"
-                className="inline-flex items-center justify-center rounded-2xl bg-white/10 px-6 py-5 text-center font-bold text-white transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#08101f]"
+                className="inline-flex items-center justify-center rounded-2xl bg-white/10 px-6 py-5 text-center font-bold text-white transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
                 Try the AI Financial Coach
               </Link>
