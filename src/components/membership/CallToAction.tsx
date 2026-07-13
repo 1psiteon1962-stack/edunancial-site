@@ -16,24 +16,24 @@ export default function CallToAction() {
       <div className="mt-12 flex flex-wrap justify-center gap-6">
 
         <Link
-          href="/membership/checkout?plan=free"
+          href="/membership/checkout?plan=basic"
           className="rounded-xl bg-blue-600 px-8 py-4 font-bold"
         >
-          Start Free
+          Start Individual Membership
         </Link>
 
         <Link
-          href="/membership/checkout?plan=silver"
+          href="/contact"
           className="rounded-xl bg-green-600 px-8 py-4 font-bold"
         >
-          Join Silver
+          Approved Organization Membership
         </Link>
 
         <Link
-          href="/membership/checkout?plan=gold"
+          href="/contact"
           className="rounded-xl bg-yellow-500 px-8 py-4 font-bold text-black"
         >
-          Become Gold
+          100+ Member Organization Rate
         </Link>
 
       </div>

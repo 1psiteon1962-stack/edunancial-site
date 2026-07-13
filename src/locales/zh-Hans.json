@@ -42,5 +42,16 @@
   "compliance.terms.title": "区域服务条款",
   "compliance.ccpa.title": "CCPA/CPRA 通知",
   "compliance.pipeda.title": "PIPEDA 通知",
-  "compliance.gdpr.title": "GDPR 通知"
+  "compliance.gdpr.title": "GDPR 通知",
+  "branding.identity": "Edunancial is a financial literacy and financial competency membership platform.",
+  "branding.longDescription": "Edunancial is a membership platform dedicated to improving financial literacy and financial competency through structured learning resources, interactive tools, practical exercises, and technology-supported methods.",
+  "branding.publicDisclaimer": "Edunancial is not a school, college, university, vocational institution, accredited educational institution, or degree-granting institution. Membership does not result in an academic degree, diploma, professional license, or regulated educational credential.",
+  "pricing.individualMembership": "Individual Membership — $19.99/month",
+  "pricing.approvedOrganizationMembership": "Approved Organization Membership — $14.99/member/month",
+  "pricing.organizationRate100": "100+ Member Organization Rate — $9.99/active paid member/month",
+  "pricing.betaTester": "Beta Tester — $0, invitation only",
+  "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
+  "selector.defaultPrompt": "您想将此设为默认语言吗？",
+  "selector.setDefault.yes": "是，设为默认",
+  "selector.setDefault.no": "否，仅用于本次访问"
 }

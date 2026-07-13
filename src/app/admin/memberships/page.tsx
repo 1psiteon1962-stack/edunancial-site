@@ -3,20 +3,20 @@ export default function MembershipAdministrationPage() {
   const plans = [
 
     {
-      name: "Basic",
-      price: "$0.00",
+      name: "Individual Membership",
+      price: "$19.99 / month",
       members: 0
     },
 
     {
-      name: "Gold",
-      price: "$0.00",
+      name: "Approved Organization Membership",
+      price: "$14.99 / member / month",
       members: 0
     },
 
     {
-      name: "Platinum",
-      price: "$0.00",
+      name: "100+ Member Organization Rate",
+      price: "$9.99 / active paid member / month",
       members: 0
     }
 
@@ -31,6 +31,11 @@ export default function MembershipAdministrationPage() {
         Membership Administration
 
       </h1>
+
+      <p className="mt-6 max-w-4xl text-lg text-slate-300">
+        Beta Tester access is managed separately through the invitation-only beta workflow and is
+        intentionally hidden from public pricing.
+      </p>
 
       <div className="grid gap-8 mt-12 lg:grid-cols-3">
 

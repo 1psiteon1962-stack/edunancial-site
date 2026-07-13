@@ -42,5 +42,16 @@
   "compliance.terms.title": "지역별 서비스 약관",
   "compliance.ccpa.title": "CCPA/CPRA 고지",
   "compliance.pipeda.title": "PIPEDA 고지",
-  "compliance.gdpr.title": "GDPR 고지"
+  "compliance.gdpr.title": "GDPR 고지",
+  "branding.identity": "Edunancial is a financial literacy and financial competency membership platform.",
+  "branding.longDescription": "Edunancial is a membership platform dedicated to improving financial literacy and financial competency through structured learning resources, interactive tools, practical exercises, and technology-supported methods.",
+  "branding.publicDisclaimer": "Edunancial is not a school, college, university, vocational institution, accredited educational institution, or degree-granting institution. Membership does not result in an academic degree, diploma, professional license, or regulated educational credential.",
+  "pricing.individualMembership": "Individual Membership — $19.99/month",
+  "pricing.approvedOrganizationMembership": "Approved Organization Membership — $14.99/member/month",
+  "pricing.organizationRate100": "100+ Member Organization Rate — $9.99/active paid member/month",
+  "pricing.betaTester": "Beta Tester — $0, invitation only",
+  "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
+  "selector.defaultPrompt": "이 언어를 기본 언어로 설정하시겠습니까?",
+  "selector.setDefault.yes": "예, 기본값으로 설정",
+  "selector.setDefault.no": "아니요, 이 세션만"
 }

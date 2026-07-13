@@ -30,10 +30,10 @@ export default function MembershipPricingBanner() {
           </Link>
 
           <Link
-            href="/membership/checkout?plan=free"
+            href="/membership/checkout?plan=basic"
             className="rounded-xl border border-slate-500 px-8 py-4 font-semibold"
           >
-            Start Free
+            Start Individual Membership
           </Link>
 
         </div>

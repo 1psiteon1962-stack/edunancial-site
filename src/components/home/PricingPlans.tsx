@@ -1,105 +1,39 @@
 import Link from "next/link";
 
+import { publicMembershipPlans } from "@/types/membership";
+
 export default function PricingPlans() {
+  return (
+    <section className="bg-[#08101f] py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <h2 className="text-center text-5xl font-black">Membership Plans</h2>
 
-const plans=[
+        <div className="mt-12 grid gap-8 lg:grid-cols-3">
+          {publicMembershipPlans.map((plan) => (
+            <div
+              key={plan.name}
+              className="rounded-2xl border border-slate-700 bg-[#111827] p-8"
+            >
+              <h3 className="text-3xl font-black">{plan.name}</h3>
 
-{
-name:"Free",
-price:"$0",
-items:[
-"Free Downloads",
-"Newsletter",
-"Selected Videos"
-]
-},
+              <p className="mt-6 text-4xl font-bold">${plan.monthlyPrice.toFixed(2)}</p>
+              <p className="mt-2 text-sm text-slate-400">{plan.billingLabel}</p>
+              <ul className="mt-8 space-y-3">
+                <li>• Financial Competency Assessment</li>
+                <li>• Guided member resources</li>
+                <li>• Practical financial tools</li>
+              </ul>
 
-{
-name:"Basic",
-price:"Coming Soon",
-items:[
-"All Beginner Courses",
-"Worksheets",
-"Progress Tracking"
-]
-},
-
-{
-name:"Gold",
-price:"Coming Soon",
-items:[
-"All Courses",
-"Certificates",
-"Priority Support"
-]
-}
-
-];
-
-return(
-
-<section className="py-24 bg-[#08101f]">
-
-<div className="max-w-7xl mx-auto px-6">
-
-<h2 className="text-5xl font-black text-center">
-
-Membership Plans
-
-</h2>
-
-<div className="grid lg:grid-cols-3 gap-8 mt-12">
-
-{plans.map(plan=>(
-
-<div
-key={plan.name}
-className="rounded-2xl bg-[#111827] border border-slate-700 p-8">
-
-<h3 className="text-3xl font-black">
-
-{plan.name}
-
-</h3>
-
-<p className="text-4xl font-bold mt-6">
-
-{plan.price}
-
-</p>
-
-<ul className="mt-8 space-y-3">
-
-{plan.items.map(item=>(
-
-<li key={item}>
-
-• {item}
-
-</li>
-
-))}
-
-</ul>
-
-<Link
-href="/checkout"
-className="mt-10 inline-block rounded-xl bg-blue-600 px-8 py-4 font-bold">
-
-Choose Plan
-
-</Link>
-
-</div>
-
-))}
-
-</div>
-
-</div>
-
-</section>
-
-);
-
+              <Link
+                href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
+                className="mt-10 inline-block rounded-xl bg-blue-600 px-8 py-4 font-bold"
+              >
+                {plan.ctaLabel}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }

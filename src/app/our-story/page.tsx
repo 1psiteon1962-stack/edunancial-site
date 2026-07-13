@@ -1,9 +1,15 @@
 import Link from "next/link";
+import {
+  COLOR_FRAMEWORK,
+  EDUNANCIAL_IDENTITY,
+  EDUNANCIAL_METHODS_CLARIFICATION,
+  RED_WHITE_BLUE_FOUNDATION,
+} from "@/lib/positioning";
 
 export const metadata = {
   title: "Our Story | Edunancial",
   description:
-    "Learn why Edunancial exists and how financial competency became our mission.",
+    "Learn why Edunancial exists and how Red, White, and Blue became the foundation of the membership platform.",
 };
 
 export default function OurStoryPage() {
@@ -27,11 +33,10 @@ export default function OurStoryPage() {
         </h1>
 
         <p className="mx-auto mt-10 max-w-5xl text-2xl leading-10 text-slate-300">
-
-          Financial literacy provides the foundation.
-
-          Financial competency is built through disciplined action.
-
+          {EDUNANCIAL_IDENTITY}
+        </p>
+        <p className="mx-auto mt-6 max-w-5xl text-lg leading-9 text-slate-400">
+          {EDUNANCIAL_METHODS_CLARIFICATION}
         </p>
 
       </section>
@@ -87,6 +92,11 @@ export default function OurStoryPage() {
 
         </p>
 
+        <p className="mt-8 text-xl leading-10 text-slate-300">
+          Edunancial was never built to operate as a school or academic institution. It was built
+          as a membership platform that helps people strengthen practical financial judgment.
+        </p>
+
       </section>
 
       {/* NTEGE */}
@@ -140,7 +150,12 @@ export default function OurStoryPage() {
 
           </p>
 
-        </div>
+            <p className="mt-8 text-xl leading-10 text-slate-300">
+              Those experiences shaped the methods used inside Edunancial: structured learning
+              resources, practical exercises, guided reflection, and technology-supported support.
+            </p>
+
+          </div>
 
       </section>
 
@@ -189,6 +204,22 @@ export default function OurStoryPage() {
           Financial competency changed the outcome.
 
         </p>
+
+        <p className="mt-10 text-xl leading-9 text-slate-300">
+          {RED_WHITE_BLUE_FOUNDATION}
+        </p>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {COLOR_FRAMEWORK.map((pillar) => (
+            <article key={pillar.color} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm font-bold uppercase tracking-[0.35em] text-slate-400">
+                {pillar.color}
+              </p>
+              <h3 className="mt-3 text-2xl font-black">{pillar.title}</h3>
+              <p className="mt-3 text-sm leading-7 text-slate-300">{pillar.description}</p>
+            </article>
+          ))}
+        </div>
 
         <div className="mt-16 flex flex-wrap gap-6">
 

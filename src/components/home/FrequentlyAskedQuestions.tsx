@@ -8,7 +8,7 @@ export default function FrequentlyAskedQuestions() {
     {
       question: "Is membership required?",
       answer:
-        "A free membership is available, with premium memberships providing additional education, coaching and tools.",
+        "Individual Membership is $19.99/month, while approved organizations can request partner pricing and onboarding.",
     },
     {
       question: "Can families learn together?",
@@ -18,7 +18,7 @@ export default function FrequentlyAskedQuestions() {
     {
       question: "Do I receive certificates?",
       answer:
-        "Silver and Gold memberships include certificates as courses are completed.",
+        "Members may receive Certificates of Completion for eligible modules. They are not academic degrees, licenses, or regulated credentials.",
     },
   ];
 

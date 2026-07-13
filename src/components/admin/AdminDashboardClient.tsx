@@ -19,6 +19,7 @@ const QUICK_LINKS = [
   { title: "Course Management", href: "/admin/courses", icon: "📚" },
   { title: "Revenue & Profit", href: "/admin/profit-dashboard", icon: "💰" },
   { title: "Email Campaigns", href: "/admin/email-campaigns", icon: "📧" },
+  { title: "Beta Testers", href: "/admin/beta-testers", icon: "🧪" },
   { title: "Analytics & KPIs", href: "/admin/kpi", icon: "📊" },
   { title: "Security Center", href: "/admin/security-center", icon: "🔐" },
   { title: "System Settings", href: "/admin", icon: "⚙️" },

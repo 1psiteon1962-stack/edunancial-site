@@ -86,7 +86,7 @@ export default function TrustCenter() {
               {
                 icon: "&#128196;",
                 title: "Clear policies",
-                body: "Our Privacy Policy and Terms of Service are written to be understandable — not buried in legalese.",
+                body: "Our Privacy Policy and Terms of Use are written to be understandable — not buried in legalese.",
               },
               {
                 icon: "&#9201;",
@@ -161,7 +161,7 @@ export default function TrustCenter() {
             Related:{" "}
             <Link href="/privacy" className="underline">Privacy Policy</Link>
             {" · "}
-            <Link href="/terms" className="underline">Terms of Service</Link>
+            <Link href="/terms" className="underline">Terms of Use</Link>
             {" · "}
             <Link href="/security" className="underline">Security</Link>
             {" · "}

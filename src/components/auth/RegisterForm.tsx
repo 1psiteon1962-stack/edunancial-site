@@ -58,7 +58,7 @@ export default function RegisterForm() {
       return;
     }
     if (!form.agree) {
-      setError("You must agree to the Terms of Service and Privacy Policy.");
+      setError("You must agree to the Terms of Use and Privacy Policy.");
       return;
     }
     setLoading(true);
@@ -87,6 +87,10 @@ export default function RegisterForm() {
           <h1 className="mt-4 text-4xl font-bold">Create Your Account</h1>
           <p className="mt-3 text-slate-400">
             Begin building your Financial Competency today.
+          </p>
+          <p className="mt-2 text-sm text-slate-500">
+            If you were invited as a Beta Tester, register with the approved email address first,
+            then enter your pass number on first login to start the 72-hour beta window.
           </p>
         </div>
 
@@ -236,7 +240,7 @@ export default function RegisterForm() {
             <span>
               I agree to the{" "}
               <Link href="/terms" className="text-blue-400 underline">
-                Terms of Service
+                Terms of Use
               </Link>{" "}
               and{" "}
               <Link href="/privacy" className="text-blue-400 underline">

@@ -5,12 +5,18 @@ import { useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 
 import { useAuth } from "@/lib/authContext";
-import { getDashboardData } from "@/lib/dashboard/dashboard-service";
+import {
+  DASHBOARD_CERTIFICATE_DISCLAIMER,
+  getDashboardData,
+} from "@/lib/dashboard/dashboard-service";
+import { formatRemainingBetaTime } from "@/lib/beta-access";
 
 const SUBSCRIPTION_STYLES = {
-  Basic: "border-blue-400/40 bg-blue-500/10 text-blue-200",
-  Pro: "border-violet-400/40 bg-violet-500/10 text-violet-200",
-  Gold: "border-yellow-400/50 bg-yellow-500/10 text-yellow-100",
+  "Member Access": "border-slate-400/40 bg-slate-500/10 text-slate-200",
+  "Individual Membership": "border-blue-400/40 bg-blue-500/10 text-blue-200",
+  "Approved Organization Membership": "border-violet-400/40 bg-violet-500/10 text-violet-200",
+  "100+ Member Organization Rate": "border-yellow-400/50 bg-yellow-500/10 text-yellow-100",
+  "Beta Tester": "border-emerald-400/50 bg-emerald-500/10 text-emerald-100",
 } as const;
 
 const TRACK_STYLES = {
@@ -123,9 +129,7 @@ export default function DashboardClient() {
                 paths, competency progress, certificates, downloads, and announcements in one
                 accessible place.
               </p>
-              <div
-                className={`mt-5 inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold ${subscriptionStyle}`}
-              >
+              <div className={`mt-5 inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold ${subscriptionStyle}`}>
                 {dashboardData.subscriptionLevel} subscription
               </div>
             </div>
@@ -153,9 +157,50 @@ export default function DashboardClient() {
           </div>
         </header>
 
+        {user.betaAccess?.status === "active" && (
+          <section className="mt-8 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-6">
+            <h2 className="text-2xl font-black text-emerald-200">Beta Tester access is active</h2>
+            <p className="mt-3 max-w-3xl text-slate-100">
+              Your beta window began at first successful login and expires 72 hours later.
+            </p>
+            <p className="mt-3 text-sm font-semibold text-emerald-100">
+              {formatRemainingBetaTime(user.betaAccess.remainingMs)}
+            </p>
+            <p className="mt-3 text-sm text-slate-200">
+              Please submit feedback before access ends so Edunancial can improve the membership
+              platform before wider release.
+            </p>
+            <Link
+              href="/beta/feedback"
+              className="mt-5 inline-flex rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950 transition hover:bg-emerald-400"
+            >
+              Submit Beta Feedback
+            </Link>
+          </section>
+        )}
+
+        {user.betaAccess?.status === "expired" && (
+          <section className="mt-8 rounded-2xl border border-yellow-500/30 bg-yellow-500/10 p-6">
+            <h2 className="text-2xl font-black text-yellow-200">Beta access has expired</h2>
+            <p className="mt-3 max-w-3xl text-slate-100">
+              Your account, progress, and prior feedback are still available. Beta access ended 72
+              hours after your first successful login and did not auto-bill or auto-convert.
+            </p>
+            <p className="mt-3 text-sm text-slate-200">
+              Continue with Individual Membership for $19.99/month whenever you are ready.
+            </p>
+            <Link
+              href="/membership/checkout?plan=basic"
+              className="mt-5 inline-flex rounded-xl bg-yellow-400 px-5 py-3 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Start Individual Membership
+            </Link>
+          </section>
+        )}
+
         <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <StatCard
-            label="Subscription Level"
+          label="Membership"
             value={dashboardData.subscriptionLevel}
             detail="Mapped to the current authentication and membership account tier."
           />
@@ -174,7 +219,7 @@ export default function DashboardClient() {
             detail="Average completion across the Red, White, and Blue launch paths."
           />
           <StatCard
-            label="Certificates"
+          label="Completion Recognition"
             value={dashboardData.certificatesEarned}
             detail={`${dashboardData.downloadsAvailable} dashboard downloads available right now.`}
           />
@@ -537,6 +582,10 @@ export default function DashboardClient() {
             ))}
           </div>
         </section>
+
+        <p className="mt-8 px-1 text-xs leading-6 text-slate-500">
+          {DASHBOARD_CERTIFICATE_DISCLAIMER}
+        </p>
       </section>
     </main>
   );

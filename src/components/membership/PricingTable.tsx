@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import { membershipPlans } from "@/types/membership";
+import { EDUNANCIAL_CERTIFICATE_DISCLAIMER } from "@/lib/positioning";
+import { publicMembershipPlans } from "@/types/membership";
 
 export default function PricingTable() {
   return (
@@ -16,7 +17,7 @@ export default function PricingTable() {
               Feature
             </th>
 
-            {membershipPlans.map((plan) => (
+            {publicMembershipPlans.map((plan) => (
               <th
                 key={plan.id}
                 className="px-6 py-5 text-center"
@@ -26,11 +27,11 @@ export default function PricingTable() {
                 </div>
 
                 <div className="mt-2 text-3xl font-bold text-blue-700">
-                  ${plan.monthlyPrice}
+                  ${plan.monthlyPrice.toFixed(2)}
                 </div>
 
                 <div className="text-sm text-slate-500">
-                  Monthly
+                  {plan.billingLabel}
                 </div>
               </th>
             ))}
@@ -43,35 +44,35 @@ export default function PricingTable() {
 
           <PricingRow
             title="Financial Competency Assessment"
-            values={membershipPlans.map(
+            values={publicMembershipPlans.map(
               plan => plan.assessmentIncluded
             )}
           />
 
           <PricingRow
             title="Marketplace Access"
-            values={membershipPlans.map(
+            values={publicMembershipPlans.map(
               plan => plan.marketplaceIncluded
             )}
           />
 
           <PricingRow
             title="AI Financial Coach"
-            values={membershipPlans.map(
+            values={publicMembershipPlans.map(
               plan => plan.aiCoachIncluded
             )}
           />
 
           <PricingRow
-            title="Downloadable Courses"
-            values={membershipPlans.map(
+            title="Downloadable Learning Resources"
+            values={publicMembershipPlans.map(
               plan => plan.downloadableCourses
             )}
           />
 
           <PricingRow
             title="Priority Support"
-            values={membershipPlans.map(
+            values={publicMembershipPlans.map(
               plan => plan.prioritySupport
             )}
           />
@@ -79,10 +80,10 @@ export default function PricingTable() {
           <tr className="border-t">
 
             <td className="px-6 py-5 font-semibold">
-              Certificates
+              Certificates of Completion
             </td>
 
-            {membershipPlans.map(plan => (
+            {publicMembershipPlans.map(plan => (
               <td
                 key={plan.id}
                 className="text-center"
@@ -97,7 +98,7 @@ export default function PricingTable() {
 
             <td />
 
-            {membershipPlans.map(plan => (
+            {publicMembershipPlans.map(plan => (
 
               <td
                 key={plan.id}
@@ -105,10 +106,10 @@ export default function PricingTable() {
               >
 
                 <Link
-                  href={`/membership/checkout?plan=${plan.id}`}
+                  href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
                   className="inline-flex rounded-xl bg-blue-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
                 >
-                  Select
+                  {plan.showContactOnly ? "Contact Us" : "Select"}
                 </Link>
 
               </td>
@@ -120,6 +121,10 @@ export default function PricingTable() {
         </tbody>
 
       </table>
+
+      <div className="border-t border-slate-200 px-6 py-5 text-sm leading-7 text-slate-600">
+        {EDUNANCIAL_CERTIFICATE_DISCLAIMER}
+      </div>
 
     </section>
   );

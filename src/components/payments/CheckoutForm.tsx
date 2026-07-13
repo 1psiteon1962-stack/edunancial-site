@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import SquareCheckout from "@/components/payments/SquareCheckout";
 import { useAuth } from "@/lib/authContext";
+import { EDUNANCIAL_PUBLIC_DISCLAIMER } from "@/lib/positioning";
 import { membershipPlans, type MembershipPlan } from "@/types/membership";
 
 interface CheckoutFormProps {
@@ -17,18 +18,19 @@ export default function CheckoutForm({
 }: CheckoutFormProps) {
   const { user } = useAuth();
 
-  if (plan.monthlyPrice === 0) {
+  if (plan.id === "beta") {
     return (
       <div className="rounded-2xl border border-slate-200 bg-white p-10 text-slate-900 shadow-sm">
-        <h2 className="text-3xl font-bold">{plan.name} Plan</h2>
+        <h2 className="text-3xl font-bold">{plan.name}</h2>
         <p className="mt-4 text-slate-600">
-          The {plan.name} plan is free. No payment required.
+          Beta Tester access is invitation only. Use your approved email address and pass number
+          during login to begin the 72-hour beta period.
         </p>
         <Link
-          href="/register"
+          href="/login"
           className="mt-8 inline-block w-full rounded-xl bg-blue-700 px-6 py-4 text-center font-bold text-white hover:bg-blue-800"
         >
-          Create Free Account
+          Sign In to Redeem Beta Access
         </Link>
       </div>
     );
@@ -36,9 +38,9 @@ export default function CheckoutForm({
 
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-10 text-slate-900 shadow-sm">
-      <h2 className="text-3xl font-bold">{plan.name} Plan</h2>
+      <h2 className="text-3xl font-bold">{plan.name}</h2>
       <p className="mt-2 text-slate-500">
-        Review your membership before completing payment.
+        Review your membership details before continuing.
       </p>
 
       <div className="mt-8 space-y-3 rounded-xl bg-slate-50 p-6">
@@ -48,19 +50,19 @@ export default function CheckoutForm({
         </div>
         <div className="flex justify-between">
           <span className="text-slate-600">Billing Period</span>
-          <strong>Monthly</strong>
+          <strong>{plan.billingLabel}</strong>
         </div>
         <div className="flex justify-between">
           <span className="text-slate-600">Monthly Price</span>
           <strong>
-            ${plan.monthlyPrice} {plan.currency}
+            ${plan.monthlyPrice.toFixed(2)} {plan.currency}
           </strong>
         </div>
         <hr className="border-slate-200" />
         <div className="flex justify-between text-lg font-bold">
           <span>Total Today</span>
           <span>
-            ${plan.monthlyPrice} {plan.currency}
+            ${plan.monthlyPrice.toFixed(2)} {plan.currency}
           </span>
         </div>
       </div>
@@ -70,8 +72,12 @@ export default function CheckoutForm({
         <p>{plan.assessmentIncluded ? "✓" : "✗"} Financial Competency Assessment</p>
         <p>{plan.marketplaceIncluded ? "✓" : "✗"} Marketplace Access</p>
         <p>{plan.aiCoachIncluded ? "✓" : "✗"} AI Financial Coach</p>
-        <p>{plan.downloadableCourses ? "✓" : "✗"} Downloadable Courses</p>
+        <p>{plan.downloadableCourses ? "✓" : "✗"} Downloadable Learning Resources</p>
         <p>{plan.prioritySupport ? "✓" : "✗"} Priority Support</p>
+      </div>
+
+      <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
+        {EDUNANCIAL_PUBLIC_DISCLAIMER}
       </div>
 
       {!user && (
@@ -87,7 +93,12 @@ export default function CheckoutForm({
         client-side confirmation screens do not activate membership.
       </div>
 
-      {secureCheckoutEnabled && user ? (
+      {plan.showContactOnly ? (
+        <div className="mt-6 rounded-lg border border-blue-200 bg-blue-50 px-4 py-4 text-sm text-blue-900">
+          {plan.legalNote ?? "This membership requires approval before billing can begin."} Contact
+          support to confirm eligibility and onboarding requirements.
+        </div>
+      ) : secureCheckoutEnabled && user ? (
         <div className="mt-6">
           <SquareCheckout
             planId={plan.id}
@@ -117,10 +128,10 @@ export default function CheckoutForm({
           Back to Membership
         </Link>
         <Link
-          href="/contact"
+          href={plan.showContactOnly ? "/contact" : "/contact"}
           className="inline-flex flex-1 items-center justify-center rounded-xl bg-blue-700 px-4 py-3 text-center font-bold text-white hover:bg-blue-800"
         >
-          Contact Support
+          {plan.showContactOnly ? "Request Organization Approval" : "Contact Support"}
         </Link>
       </div>
 
