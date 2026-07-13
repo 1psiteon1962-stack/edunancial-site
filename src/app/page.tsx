@@ -4,12 +4,12 @@ import { redirect } from "next/navigation";
 
 import { isLoggedIn } from "@/lib/auth";
 import {
-  COLOR_FRAMEWORK,
   EDUNANCIAL_IDENTITY,
   EDUNANCIAL_LONG_DESCRIPTION,
   EDUNANCIAL_METHODS_CLARIFICATION,
   RED_WHITE_BLUE_FOUNDATION,
 } from "@/lib/positioning";
+import MemberSuccessStories from "@/components/home/MemberSuccessStories";
 
 const primaryCallsToAction = [
   {
@@ -168,6 +168,8 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
+
+      {/* ── Section 1: Hero ──────────────────────────────────────────────── */}
       <section
         aria-labelledby="homepage-hero-heading"
         className="border-b border-white/10 bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]"
@@ -208,6 +210,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Section 2: Why Edunancial? ───────────────────────────────────── */}
       <section aria-labelledby="homepage-story-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="grid gap-10 rounded-3xl border border-white/10 bg-slate-950/50 p-8 md:p-10 lg:grid-cols-[1.3fr_0.7fr]">
           <div>
@@ -215,7 +218,7 @@ export default function HomePage() {
               Our Story
             </p>
             <h2 id="homepage-story-heading" className="mt-6 text-3xl font-black sm:text-4xl md:text-5xl">
-              Why Edunancial exists
+              Why Edunancial?
             </h2>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
               Edunancial began with a simple problem: too many people learn financial terms
@@ -257,6 +260,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Section 3: What is Edunancial? ───────────────────────────────── */}
+      <section aria-labelledby="homepage-explore-heading" className="border-y border-white/10 bg-[#0b1326]">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
+              What is Edunancial?
+            </p>
+            <h2 id="homepage-explore-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
+              Dedicated pages for the information you used to scroll for
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-slate-300">
+              Long-form homepage content has been broken into focused pages so visitors can
+              find the right answer faster without losing search visibility or context.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {informationArchitectureLinks.map((link) => (
+              <Link
+                key={link.title}
+                href={link.href}
+                className="rounded-2xl border border-white/10 bg-slate-950/60 p-6 transition hover:border-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0b1326]"
+              >
+                <h3 className="text-xl font-black">{link.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-300">{link.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Section 4: Member Success Stories ───────────────────────────── */}
+      <MemberSuccessStories stories={[]} />
+
+      {/* ── Section 5: Navigate Every Major Area ────────────────────────── */}
       <section aria-labelledby="homepage-dashboard-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
@@ -294,61 +332,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section aria-labelledby="homepage-colors-heading" className="border-y border-white/10 bg-[#0b1326]">
-        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
-          <div className="max-w-4xl">
-            <p className="text-sm font-bold uppercase tracking-[0.4em] text-red-300">Color Framework</p>
-            <h2 id="homepage-colors-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
-              Red, White, and Blue each mean something specific
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-300">
-              Visitors should not have to infer the meaning of the Edunancial color system. Each
-              pathway organizes a practical area of financial literacy and financial competency.
+      {/* ── Section 6: Free Trial placeholder ───────────────────────────── */}
+      {/* Free Trial section — content will be added in a future update */}
+      <section aria-label="Free trial" className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+          <div className="rounded-3xl border border-dashed border-white/20 bg-white/5 p-8 text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.4em] text-slate-400">
+              Free Trial
             </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {COLOR_FRAMEWORK.map((pillar) => (
-              <article key={pillar.color} className="rounded-3xl border border-white/10 bg-slate-950/60 p-6">
-                <p className="text-sm font-bold uppercase tracking-[0.35em] text-slate-400">{pillar.color}</p>
-                <h3 className="mt-3 text-2xl font-black">{pillar.title}</h3>
-                <p className="mt-4 text-sm leading-7 text-slate-300">{pillar.description}</p>
-              </article>
-            ))}
+            <p className="mt-2 text-slate-500 text-sm">Coming soon</p>
           </div>
         </div>
       </section>
 
-      <section aria-labelledby="homepage-explore-heading" className="border-y border-white/10 bg-[#0b1326]">
-        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
-              Explore More
-            </p>
-            <h2 id="homepage-explore-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
-              Dedicated pages for the information you used to scroll for
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-300">
-              Long-form homepage content has been broken into focused pages so visitors can
-              find the right answer faster without losing search visibility or context.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {informationArchitectureLinks.map((link) => (
-              <Link
-                key={link.title}
-                href={link.href}
-                className="rounded-2xl border border-white/10 bg-slate-950/60 p-6 transition hover:border-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0b1326]"
-              >
-                <h3 className="text-xl font-black">{link.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-300">{link.description}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      {/* ── Section 7: Membership ────────────────────────────────────────── */}
       <section aria-labelledby="homepage-final-cta-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="rounded-3xl border border-blue-500/30 bg-blue-500/10 p-8 md:p-10">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
