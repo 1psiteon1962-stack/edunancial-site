@@ -260,3 +260,73 @@ test("getSelectableCountries returns array with label and isoCode", () => {
   assert.ok(us);
   assert.equal(us?.label, "United States");
 });
+
+// ── Compliance-blocked country selection tests ────────────────────────────────
+
+import { isCountryBlockedByCompliance } from "./country-selection";
+
+test("isCountryBlockedByCompliance returns true for China (CN)", () => {
+  assert.equal(isCountryBlockedByCompliance("CN"), true);
+});
+
+test("isCountryBlockedByCompliance returns true for Russia (RU)", () => {
+  assert.equal(isCountryBlockedByCompliance("RU"), true);
+});
+
+test("isCountryBlockedByCompliance returns true for Belarus (BY)", () => {
+  assert.equal(isCountryBlockedByCompliance("BY"), true);
+});
+
+test("isCountryBlockedByCompliance returns true for Iran (IR)", () => {
+  assert.equal(isCountryBlockedByCompliance("IR"), true);
+});
+
+test("isCountryBlockedByCompliance returns true for Afghanistan (AF)", () => {
+  assert.equal(isCountryBlockedByCompliance("AF"), true);
+});
+
+test("isCountryBlockedByCompliance returns false for Japan (JP)", () => {
+  assert.equal(isCountryBlockedByCompliance("JP"), false);
+});
+
+test("isCountryBlockedByCompliance returns false for Uganda (UG)", () => {
+  assert.equal(isCountryBlockedByCompliance("UG"), false);
+});
+
+test("buildCountrySelectionContext throws for compliance-blocked country in other mode", () => {
+  assert.throws(
+    () =>
+      buildCountrySelectionContext({
+        homeCountryIso: "US",
+        level: 3,
+        mode: "other",
+        requestedIso: "IR",
+      }),
+    /compliance/i
+  );
+});
+
+test("buildCountrySelectionContext throws for China in other mode", () => {
+  assert.throws(
+    () =>
+      buildCountrySelectionContext({
+        homeCountryIso: "US",
+        level: 3,
+        mode: "other",
+        requestedIso: "CN",
+      }),
+    /compliance/i
+  );
+});
+
+test("buildCountrySelectionContext succeeds for Iraq (IQ) in other mode at Level 3", () => {
+  const ctx = buildCountrySelectionContext({
+    homeCountryIso: "US",
+    level: 3,
+    mode: "other",
+    requestedIso: "IQ",
+  });
+  assert.equal(ctx.selectedCountryIso, "IQ");
+  assert.equal(ctx.mode, "other");
+});
+

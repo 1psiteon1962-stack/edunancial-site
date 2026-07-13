@@ -589,6 +589,24 @@ export const countries: CountryConfiguration[] = [
   },
 
   {
+    isoCode: "IQ",
+    country: "Iraq",
+    continent: "Middle East",
+    enabled: true,
+    status: "planning",
+    membershipEnabled: true,
+    marketplaceEnabled: false,
+    paymentsEnabled: false,
+    coursesEnabled: true,
+    assessmentsEnabled: true,
+    hiringEnabled: false,
+    aiEnabled: true,
+    operatingEntity: "Edge Financial USA",
+    currency: "IQD",
+    language: "Arabic",
+  },
+
+  {
     isoCode: "IR",
     country: "Iran",
     continent: "Middle East",
@@ -807,3 +825,25 @@ export const countries: CountryConfiguration[] = [
   },
 
 ];
+
+// ── Utility helpers ──────────────────────────────────────────────────────────
+
+export function getCountry(isoCode: string): CountryConfiguration | undefined {
+  return countries.find((c) => c.isoCode.toUpperCase() === isoCode.toUpperCase());
+}
+
+export function isCountryInstalled(isoCode: string): boolean {
+  return Boolean(getCountry(isoCode));
+}
+
+export function isCountryEnabled(isoCode: string): boolean {
+  return getCountry(isoCode)?.enabled === true;
+}
+
+export function getEnabledCountries(): CountryConfiguration[] {
+  return countries.filter((c) => c.enabled);
+}
+
+export function getDisabledCountries(): CountryConfiguration[] {
+  return countries.filter((c) => !c.enabled);
+}

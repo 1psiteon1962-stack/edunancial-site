@@ -4,7 +4,10 @@
     "noEmit": false,
     "outDir": ".test-dist",
     "module": "commonjs",
-    "moduleResolution": "node16",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "5.0",
+    "types": ["node"],
+    "jsx": "react",
     "incremental": false
   },
   "include": [
@@ -20,6 +23,10 @@
     "src/lib/dashboard/dashboard-service.test.ts",
     "src/lib/positioning.ts",
     "src/lib/positioning.test.ts",
-    "src/types/membership.ts"
+    "src/types/membership.ts",
+    "src/types/country-config.ts",
+    "src/lib/countries/country-registry.ts",
+    "src/lib/countries/country-registry.test.ts",
+    "src/lib/international/regions.ts"
   ]
 }

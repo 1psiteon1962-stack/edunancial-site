@@ -12,6 +12,27 @@ import {
   type CountryKnowledge,
 } from "./country-knowledge";
 
+import { COMPLIANCE_GATED_COUNTRY_FLAGS } from "../../config/featureFlags";
+
+// ── Blocked ISO codes (compliance-gated) ─────────────────────────────────────
+
+const COMPLIANCE_BLOCKED_ISOS: Record<string, keyof typeof COMPLIANCE_GATED_COUNTRY_FLAGS> = {
+  CN: "chinaEnabled",
+  RU: "russiaEnabled",
+  BY: "belarusEnabled",
+  IR: "iranEnabled",
+  AF: "afghanistanEnabled",
+};
+
+/**
+ * Returns true if a country ISO is blocked by active compliance flags.
+ */
+export function isCountryBlockedByCompliance(isoCode: string): boolean {
+  const key = COMPLIANCE_BLOCKED_ISOS[isoCode.toUpperCase()];
+  if (!key) return false;
+  return COMPLIANCE_GATED_COUNTRY_FLAGS[key] === false;
+}
+
 // ── Level definitions ────────────────────────────────────────────────────────
 
 /**
@@ -129,7 +150,13 @@ export function buildCountrySelectionContext(options: {
       if (!options.requestedIso) {
         throw new Error("A country ISO code is required when mode is 'other'.");
       }
-      selectedIso = options.requestedIso.toUpperCase();
+      const requested = options.requestedIso.toUpperCase();
+      if (isCountryBlockedByCompliance(requested)) {
+        throw new Error(
+          `Country ${requested} is not available for selection due to compliance restrictions.`
+        );
+      }
+      selectedIso = requested;
       break;
     }
 
