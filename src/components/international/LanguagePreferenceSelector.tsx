@@ -58,8 +58,8 @@ export default function LanguagePreferenceSelector({
         value={searchValue}
         onChange={(event) => setSearchValue(event.target.value)}
         className="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 text-xs text-white"
-        placeholder="Search language…"
-        aria-label="Search languages"
+        placeholder={t("selector.searchPlaceholder")}
+        aria-label={t("selector.searchAria")}
       />
       <select
         aria-label={t("selector.aria")}

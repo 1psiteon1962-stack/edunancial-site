@@ -61,7 +61,7 @@ export default function Navbar() {
                     onClick={logout}
                     className="rounded-lg bg-slate-700 px-4 py-2 font-semibold transition-colors hover:bg-slate-600"
                   >
-                    Sign Out
+                    {t("nav.signOut")}
                   </button>
                 </>
               ) : (
@@ -99,7 +99,7 @@ export default function Navbar() {
           </button>
           <button
             type="button"
-            aria-label="Menu"
+            aria-label={t("nav.menu")}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((previous) => !previous)}
             className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold"
@@ -138,7 +138,7 @@ export default function Navbar() {
                       onClick={logout}
                       className="mt-2 rounded-lg bg-slate-700 px-3 py-2 text-center font-semibold"
                     >
-                      Sign Out
+                      {t("nav.signOut")}
                     </button>
                   </>
                 ) : (

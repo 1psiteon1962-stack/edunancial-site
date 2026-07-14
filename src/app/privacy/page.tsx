@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  EDUNANCIAL_IDENTITY,
-  EDUNANCIAL_PUBLIC_DISCLAIMER,
-} from "@/lib/positioning";
+import BilingualContent from "@/components/international/BilingualContent";
+import { EDUNANCIAL_IDENTITY, EDUNANCIAL_PUBLIC_DISCLAIMER } from "@/lib/positioning";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Edunancial",
@@ -18,27 +16,29 @@ const lastUpdated = "July 9, 2026";
 
 export default function PrivacyPage() {
   return (
-    <main className="min-h-screen bg-[#08101f] text-white">
-      <div className="mx-auto max-w-4xl px-6 py-20">
+    <BilingualContent
+      en={
+        <main className="min-h-screen bg-[#08101f] text-white">
+          <div className="mx-auto max-w-4xl px-6 py-20">
 
-        <p className="text-sm font-bold uppercase tracking-widest text-yellow-400 mb-4">
-          Legal &amp; Compliance
-        </p>
-        <h1 className="text-5xl font-black mb-4">Privacy Policy</h1>
-        <p className="text-slate-400 mb-12">
-          <strong>Last Updated:</strong> {lastUpdated} &nbsp;|&nbsp;
-          <strong>Effective Date:</strong> {lastUpdated}
-        </p>
+            <p className="text-sm font-bold uppercase tracking-widest text-yellow-400 mb-4">
+              Legal &amp; Compliance
+            </p>
+            <h1 className="text-5xl font-black mb-4">Privacy Policy</h1>
+            <p className="text-slate-400 mb-12">
+              <strong>Last Updated:</strong> {lastUpdated} &nbsp;|&nbsp;
+              <strong>Effective Date:</strong> {lastUpdated}
+            </p>
 
-        <div className="rounded-xl bg-blue-900/30 border border-blue-700 p-6 mb-12">
-          <p className="text-blue-200 text-sm">
-            <strong>Plain-language summary:</strong> Edunancial collects only the information
-            needed to provide membership services. We never sell your personal information.
-            You have the right to access, correct, or delete your data. We honor requests
-            from California residents under CCPA/CPRA, Canadian residents under PIPEDA,
-            and Quebec residents under Law 25.
-          </p>
-        </div>
+            <div className="rounded-xl bg-blue-900/30 border border-blue-700 p-6 mb-12">
+              <p className="text-blue-200 text-sm">
+                <strong>Plain-language summary:</strong> Edunancial collects only the information
+                needed to provide membership services. We never sell your personal information.
+                You have the right to access, correct, or delete your data. We honor requests
+                from California residents under CCPA/CPRA, Canadian residents under PIPEDA,
+                and Quebec residents under Law 25.
+              </p>
+            </div>
 
         <section className="mb-12">
           <h2 className="text-3xl font-black mb-4">1. Who We Are</h2>
@@ -323,20 +323,72 @@ export default function PrivacyPage() {
           </div>
         </section>
 
-        <div className="border-t border-slate-800 pt-8 text-sm text-slate-500">
-          <p>
-            Related policies:{" "}
-            <Link href="/terms" className="underline">Terms of Use</Link>
-            {" · "}
-            <Link href="/cookies" className="underline">Cookie Policy</Link>
-            {" · "}
-            <Link href="/disclaimer" className="underline">Disclaimer</Link>
-            {" · "}
-            <Link href="/trust-center" className="underline">Trust Center</Link>
-          </p>
-        </div>
+            <div className="border-t border-slate-800 pt-8 text-sm text-slate-500">
+              <p>
+                Related policies:{" "}
+                <Link href="/terms" className="underline">Terms of Use</Link>
+                {" · "}
+                <Link href="/cookies" className="underline">Cookie Policy</Link>
+                {" · "}
+                <Link href="/disclaimer" className="underline">Disclaimer</Link>
+                {" · "}
+                <Link href="/trust-center" className="underline">Trust Center</Link>
+              </p>
+            </div>
 
-      </div>
-    </main>
+          </div>
+        </main>
+      }
+      es={
+        <main className="min-h-screen bg-[#08101f] text-white">
+          <div className="mx-auto max-w-4xl px-6 py-20">
+            <p className="text-sm font-bold uppercase tracking-widest text-yellow-400 mb-4">
+              Legal y cumplimiento
+            </p>
+            <h1 className="text-5xl font-black mb-4">Privacidad</h1>
+            <p className="text-slate-300 leading-8">
+              Edunancial recopila únicamente la información necesaria para ofrecer membresías,
+              progreso de aprendizaje y soporte. No vendemos información personal y respetamos las
+              solicitudes de acceso, corrección y eliminación de datos para miembros de
+              Norteamérica.
+            </p>
+
+            <div className="mt-10 rounded-2xl border border-blue-400/30 bg-blue-500/10 p-6 text-slate-200">
+              <p className="font-semibold text-blue-200">
+                Revisión legal en español en progreso
+              </p>
+              <p className="mt-3 leading-7">
+                La versión completa en español de la política de privacidad para Norteamérica está
+                bajo revisión legal y de cumplimiento. Mientras tanto, puede usar esta página como
+                resumen operativo y comunicarse con{" "}
+                <a href="mailto:privacy@edunancial.com" className="underline text-blue-300">
+                  privacy@edunancial.com
+                </a>{" "}
+                si necesita ayuda específica de privacidad.
+              </p>
+            </div>
+
+            <div className="mt-10 grid gap-6 md:grid-cols-2">
+              {[
+                ["Qué recopilamos", "Datos de cuenta, preferencias, progreso, pagos verificados y solicitudes de soporte."],
+                ["Cómo lo usamos", "Prestación de servicios, seguridad, soporte, pagos y mejora del producto."],
+                ["Qué no hacemos", "No vendemos información personal ni activamos membresías sin verificación del servidor."],
+                ["Sus opciones", "Puede solicitar acceso, corrección o eliminación de datos y retirar el consentimiento aplicable."],
+              ].map(([title, body]) => (
+                <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                  <h2 className="text-2xl font-black">{title}</h2>
+                  <p className="mt-3 leading-7 text-slate-300">{body}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-10 rounded-2xl border border-white/10 bg-slate-900/70 p-6 text-sm leading-7 text-slate-300">
+              <p><strong>Identidad de la plataforma:</strong> {EDUNANCIAL_IDENTITY}</p>
+              <p className="mt-4"><strong>Descargo público:</strong> {EDUNANCIAL_PUBLIC_DISCLAIMER}</p>
+            </div>
+          </div>
+        </main>
+      }
+    />
   );
 }

@@ -5,6 +5,7 @@ import {
   applyBetaLogin,
   createBetaInvitation,
   recordBetaFeedback,
+  renderBetaInvitationEmail,
 } from "./beta-access";
 
 test("beta activation starts on first successful login for the approved email", async () => {
@@ -93,4 +94,17 @@ test("beta feedback records tester identity without extra sensitive data", async
   assert.equal(submission.email, "beta@example.com");
   assert.equal(submission.testerId, "tester-1");
   assert.equal(submission.rating, 5);
+});
+
+test("beta invitation email can render in Spanish", () => {
+  const email = renderBetaInvitationEmail({
+    testerName: "María",
+    approvedEmail: "maria@example.com",
+    passNumber: "PASS-123",
+    languageCode: "es-MX",
+  });
+
+  assert.equal(email.subject, "Su invitación para probar Edunancial");
+  assert.match(email.text, /Hola María/);
+  assert.match(email.text, /Número de pase único/);
 });

@@ -1,9 +1,15 @@
+"use client";
+
 import Link from "next/link";
 
+import { useNorthAmericaLaunchLanguage } from "@/components/international/BilingualContent";
 import { EDUNANCIAL_CERTIFICATE_DISCLAIMER } from "@/lib/positioning";
+import { getMembershipFeatureLabel, getMembershipPlanCopy } from "@/lib/membershipCopy";
 import { publicMembershipPlans } from "@/types/membership";
 
 export default function PricingTable() {
+  const language = useNorthAmericaLaunchLanguage();
+
   return (
     <section className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
 
@@ -14,27 +20,31 @@ export default function PricingTable() {
           <tr>
 
             <th className="px-6 py-5 text-left text-lg font-bold">
-              Feature
+              {language === "es" ? "Característica" : "Feature"}
             </th>
 
-            {publicMembershipPlans.map((plan) => (
-              <th
-                key={plan.id}
-                className="px-6 py-5 text-center"
-              >
-                <div className="text-2xl font-bold">
-                  {plan.name}
-                </div>
+            {publicMembershipPlans.map((plan) => {
+              const copy = getMembershipPlanCopy(plan.id, language);
 
-                <div className="mt-2 text-3xl font-bold text-blue-700">
-                  ${plan.monthlyPrice.toFixed(2)}
-                </div>
+              return (
+                <th
+                  key={plan.id}
+                  className="px-6 py-5 text-center"
+                >
+                  <div className="text-2xl font-bold">
+                    {copy.name}
+                  </div>
 
-                <div className="text-sm text-slate-500">
-                  {plan.billingLabel}
-                </div>
-              </th>
-            ))}
+                  <div className="mt-2 text-3xl font-bold text-blue-700">
+                    ${plan.monthlyPrice.toFixed(2)}
+                  </div>
+
+                  <div className="text-sm text-slate-500">
+                    {copy.billingLabel}
+                  </div>
+                </th>
+              );
+            })}
 
           </tr>
 
@@ -43,35 +53,35 @@ export default function PricingTable() {
         <tbody>
 
           <PricingRow
-            title="Financial Competency Assessment"
+            title={getMembershipFeatureLabel("assessmentIncluded", language)}
             values={publicMembershipPlans.map(
               plan => plan.assessmentIncluded
             )}
           />
 
           <PricingRow
-            title="Marketplace Access"
+            title={getMembershipFeatureLabel("marketplaceIncluded", language)}
             values={publicMembershipPlans.map(
               plan => plan.marketplaceIncluded
             )}
           />
 
           <PricingRow
-            title="AI Financial Coach"
+            title={getMembershipFeatureLabel("aiCoachIncluded", language)}
             values={publicMembershipPlans.map(
               plan => plan.aiCoachIncluded
             )}
           />
 
           <PricingRow
-            title="Downloadable Learning Resources"
+            title={getMembershipFeatureLabel("downloadableCourses", language)}
             values={publicMembershipPlans.map(
               plan => plan.downloadableCourses
             )}
           />
 
           <PricingRow
-            title="Priority Support"
+            title={getMembershipFeatureLabel("prioritySupport", language)}
             values={publicMembershipPlans.map(
               plan => plan.prioritySupport
             )}
@@ -80,7 +90,7 @@ export default function PricingTable() {
           <tr className="border-t">
 
             <td className="px-6 py-5 font-semibold">
-              Certificates of Completion
+              {getMembershipFeatureLabel("maxCertificates", language)}
             </td>
 
             {publicMembershipPlans.map(plan => (
@@ -98,22 +108,20 @@ export default function PricingTable() {
 
             <td />
 
-            {publicMembershipPlans.map(plan => (
-
+            {publicMembershipPlans.map((plan) => (
               <td
                 key={plan.id}
                 className="p-6 text-center"
               >
-
                 <Link
                   href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
                   className="inline-flex rounded-xl bg-blue-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
                 >
-                  {plan.showContactOnly ? "Contact Us" : "Select"}
+                  {plan.showContactOnly
+                    ? language === "es" ? "Contáctenos" : "Contact Us"
+                    : language === "es" ? "Seleccionar" : "Select"}
                 </Link>
-
               </td>
-
             ))}
 
           </tr>
@@ -123,7 +131,9 @@ export default function PricingTable() {
       </table>
 
       <div className="border-t border-slate-200 px-6 py-5 text-sm leading-7 text-slate-600">
-        {EDUNANCIAL_CERTIFICATE_DISCLAIMER}
+        {language === "es"
+          ? "Este certificado reconoce la finalización de un módulo de alfabetización financiera o competencia financiera de Edunancial. No es un título académico, licencia profesional, credencial regulada ni prueba de acreditación."
+          : EDUNANCIAL_CERTIFICATE_DISCLAIMER}
       </div>
 
     </section>
