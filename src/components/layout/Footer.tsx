@@ -21,9 +21,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white">Learn</h4>
             <div className="mt-5 space-y-3 text-slate-400">
-              <div><Link href="/courses/red" className="hover:text-white">RED — Real Estate</Link></div>
-              <div><Link href="/courses/white" className="hover:text-white">WHITE — Paper Assets</Link></div>
-              <div><Link href="/courses/blue" className="hover:text-white">BLUE — Business</Link></div>
+              <div><Link href="/courses/red-real-estate" className="hover:text-white">RED — Real Estate</Link></div>
+              <div><Link href="/courses/white-paper-assets" className="hover:text-white">WHITE — Paper Assets</Link></div>
+              <div><Link href="/courses/blue-business" className="hover:text-white">BLUE — Business</Link></div>
               <div><Link href="/courses" className="hover:text-white">All Courses</Link></div>
             </div>
           </div>
@@ -48,6 +48,7 @@ export default function Footer() {
               <div><Link href="/features" className="hover:text-white">Features</Link></div>
               <div><Link href="/pricing" className="hover:text-white">Pricing</Link></div>
               <div><Link href="/about" className="hover:text-white">About</Link></div>
+              <div><Link href="/future-curriculum" className="hover:text-white">Future Curriculum</Link></div>
               <div><Link href="/contact" className="hover:text-white">Contact</Link></div>
             </div>
           </div>

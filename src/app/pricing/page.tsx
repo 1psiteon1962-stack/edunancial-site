@@ -113,20 +113,6 @@ export default function PricingPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-24">
         <PricingTable />
-        <div className="mt-10 flex flex-wrap gap-4">
-          <Link
-            href="/membership"
-            className="rounded-xl bg-yellow-400 px-6 py-4 font-black text-slate-950 transition hover:bg-yellow-300"
-          >
-            View Membership Details
-          </Link>
-          <Link
-            href="/contact"
-            className="rounded-xl border border-white/20 px-6 py-4 font-bold transition hover:bg-white hover:text-slate-950"
-          >
-            Contact Sales &amp; Support
-          </Link>
-        </div>
       </section>
     </main>
   );
