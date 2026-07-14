@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { useNorthAmericaLaunchLanguage } from "@/components/international/BilingualContent";
+
 export interface VideoSource {
   /** "mp4" uses a native <video> element; "youtube" and "vimeo" use responsive iframes. */
   type: "mp4" | "youtube" | "vimeo";
@@ -223,6 +225,8 @@ function StoryCard({ story }: { story: SuccessStory }) {
 export default function MemberSuccessStories({
   stories = [],
 }: MemberSuccessStoriesProps) {
+  const language = useNorthAmericaLaunchLanguage();
+
   return (
     <section
       aria-labelledby="homepage-success-stories-heading"
@@ -230,16 +234,18 @@ export default function MemberSuccessStories({
     >
       <div>
         <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
-          Member Success Stories
+          {language === "es" ? "Historias de éxito de miembros" : "Member Success Stories"}
         </p>
         <h2
           id="homepage-success-stories-heading"
           className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl"
         >
-          Real results from real members
+          {language === "es" ? "Resultados reales de miembros reales" : "Real results from real members"}
         </h2>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-          Member experiences and outcomes will be shared here as they are gathered from the community.
+          {language === "es"
+            ? "Las experiencias y resultados de los miembros se compartirán aquí a medida que se recopilen de la comunidad."
+            : "Member experiences and outcomes will be shared here as they are gathered from the community."}
         </p>
       </div>
 

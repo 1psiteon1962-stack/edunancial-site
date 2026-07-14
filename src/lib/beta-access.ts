@@ -1,3 +1,5 @@
+import { normalizeLanguageCode } from "./international/languages";
+
 const BETA_WINDOW_MS = 72 * 60 * 60 * 1000;
 
 export const BETA_INVITATIONS_STORAGE_KEY = "edunancial:beta-invitations";
@@ -356,6 +358,7 @@ export function renderBetaInvitationEmail({
   privacyUrl = "https://www.edunancial.com/privacy",
   termsUrl = "https://www.edunancial.com/beta-terms",
   supportEmail = "support@edunancial.com",
+  languageCode = "en",
 }: {
   testerName: string;
   approvedEmail: string;
@@ -363,7 +366,35 @@ export function renderBetaInvitationEmail({
   privacyUrl?: string;
   termsUrl?: string;
   supportEmail?: string;
+  languageCode?: string;
 }): BetaInvitationEmail {
+  if (normalizeLanguageCode(languageCode) === "es") {
+    return {
+      subject: "Su invitación para probar Edunancial",
+      text: `Hola ${testerName},
+
+Ha sido aprobado(a) para probar Edunancial.
+
+Correo aprobado: ${approvedEmail}
+Número de pase único: ${passNumber}
+
+Instrucciones de canje:
+1. Cree o use una cuenta de Edunancial con el correo aprobado indicado arriba.
+2. Inicie sesión con ese mismo correo aprobado.
+3. Ingrese el número de pase durante el inicio de sesión para activar el acceso beta.
+
+Términos importantes de la beta:
+- Su número de pase es de un solo uso, no transferible y está vinculado a ${approvedEmail}.
+- Su ventana de acceso beta de 72 horas comienza solo en el primer inicio de sesión exitoso después del canje válido.
+- El acceso beta no se renueva automáticamente, no genera cobro automático ni se convierte automáticamente en una membresía de pago.
+- Solicitamos encarecidamente sus comentarios antes de que termine su ventana.
+
+Soporte: ${supportEmail}
+Privacidad: ${privacyUrl}
+Términos beta: ${termsUrl}`,
+    };
+  }
+
   return {
     subject: "Your Invitation to Test Edunancial",
     text: `Hello ${testerName},
