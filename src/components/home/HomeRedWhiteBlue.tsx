@@ -15,7 +15,7 @@ export default function HomeRedWhiteBlue() {
         <div className="mt-20 grid gap-8 md:grid-cols-3">
 
           <Link
-            href="/courses/red"
+            href="/courses/red-real-estate"
             className="rounded-xl bg-red-700 p-10"
           >
 
@@ -30,7 +30,7 @@ export default function HomeRedWhiteBlue() {
           </Link>
 
           <Link
-            href="/courses/white"
+            href="/courses/white-paper-assets"
             className="rounded-xl bg-white p-10 text-slate-900"
           >
 
@@ -45,7 +45,7 @@ export default function HomeRedWhiteBlue() {
           </Link>
 
           <Link
-            href="/courses/blue"
+            href="/courses/blue-business"
             className="rounded-xl bg-blue-700 p-10"
           >
 

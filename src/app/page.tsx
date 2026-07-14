@@ -36,17 +36,17 @@ const dashboardCards = [
   {
     title: "Financial Literacy",
     description: "Budgeting, cash flow, saving, and financial fundamentals.",
-    href: "/courses/white",
+    href: "/courses/white-paper-assets",
   },
   {
     title: "Real Estate",
     description: "Creative finance, tax liens, rentals, and long-term asset building.",
-    href: "/courses/red",
+    href: "/courses/red-real-estate",
   },
   {
     title: "Entrepreneurship",
     description: "Profit, pricing, KPIs, leadership, and business growth.",
-    href: "/courses/blue",
+    href: "/courses/blue-business",
   },
   {
     title: "AI Financial Coach",
@@ -351,7 +351,61 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Section 5: Free Trial placeholder ───────────────────────────── */}
+      {/* ── Section 5: Who Edunancial Is For ─────────────────────────── */}
+      <section aria-labelledby="homepage-audience-heading" className="border-t border-white/10 bg-slate-950/50">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+          <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
+            Who This Is For
+          </p>
+          <h2 id="homepage-audience-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl max-w-4xl">
+            Edunancial is built for working people who want to improve their financial future one decision at a time.
+          </h2>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+            Designed primarily for L1 and L2 beginners — working families, working professionals,
+            beginning investors, and beginning entrepreneurs. As competency grows, the platform
+            continues with you into L3, L4, and L5.
+          </p>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+            {[
+              ["Working Families", "Build a financially literate household. Teach your children alongside yourself."],
+              ["Working Professionals", "Fill the gaps your formal education left. Apply new knowledge to real decisions."],
+              ["Beginning Investors", "Start with the foundations before the strategies. Competency before capital."],
+              ["Beginning Entrepreneurs", "Learn the financial side of business ownership before the common mistakes become expensive."],
+            ].map(([title, body]) => (
+              <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-lg font-black">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-400">{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Section 6: Philosophy ─────────────────────────────────────── */}
+      <section aria-labelledby="homepage-philosophy-heading" className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+          <p className="text-sm font-bold uppercase tracking-[0.4em] text-blue-400">
+            How We Teach
+          </p>
+          <h2 id="homepage-philosophy-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl max-w-4xl">
+            Teach HOW to think. Never tell people WHAT to think.
+          </h2>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
+            {["Learn", "Think", "Practice", "Improve", "Repeat"].map((step) => (
+              <div key={step} className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
+                <p className="text-2xl font-black text-white">{step}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 max-w-3xl text-base leading-7 text-slate-400">
+            Financial literacy provides knowledge. Financial competency is built through
+            disciplined practice over time. The goal is not to change your opinion in one
+            lesson — it is to change your thinking over a lifetime.
+          </p>
+        </div>
+      </section>
+
+      {/* ── Section 7: Free Trial placeholder ───────────────────────────── */}
       {/* Free Trial section — content will be added in a future update */}
       <section aria-label="Free trial" className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
@@ -364,7 +418,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Section 6: Membership ────────────────────────────────────────── */}
+      {/* ── Section 8: Membership ────────────────────────────────────────── */}
       <section aria-labelledby="homepage-final-cta-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="rounded-3xl border border-blue-500/30 bg-blue-500/10 p-8 md:p-10">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
