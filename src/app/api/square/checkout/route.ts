@@ -30,6 +30,15 @@ interface SquarePaymentLinkResponse {
   errors?: { category: string; code: string; detail?: string }[];
 }
 
+function isAllowedSquareCheckoutHost(hostname: string) {
+  return (
+    hostname === "squareup.com" ||
+    hostname.endsWith(".squareup.com") ||
+    hostname === "squareupsandbox.com" ||
+    hostname.endsWith(".squareupsandbox.com")
+  );
+}
+
 export async function POST(request: Request) {
   const start = Date.now();
   const requestId = getRequestId(request.headers);
@@ -208,8 +217,7 @@ export async function POST(request: Request) {
     const parsedCheckoutUrl = new URL(checkoutUrl);
     if (
       parsedCheckoutUrl.protocol !== "https:" ||
-      (!parsedCheckoutUrl.hostname.endsWith("squareup.com") &&
-        !parsedCheckoutUrl.hostname.endsWith("squareupsandbox.com"))
+      !isAllowedSquareCheckoutHost(parsedCheckoutUrl.hostname)
     ) {
       throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
     }
