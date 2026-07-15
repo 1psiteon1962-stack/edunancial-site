@@ -3,6 +3,7 @@ export interface CheckoutItem {
   name: string;
   price: number;
   currency: string;
+  memberEmail?: string;
 }
 
 export async function startSquareCheckout(

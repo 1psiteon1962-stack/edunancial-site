@@ -11,6 +11,8 @@ import {
   isSquareVerifiedCheckoutEnabled,
   verifySquareWebhookSignature,
 } from "@/lib/square";
+import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
+import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 
 interface SquareWebhookEvent {
   merchant_id?: string;
@@ -29,6 +31,37 @@ export async function POST(request: Request) {
   const requestId = getRequestId(request.headers);
 
   try {
+    const ipAddress =
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      request.headers.get("x-real-ip") ||
+      "unknown";
+    const rateLimit = enforcePaymentRateLimit({
+      scope: "square-webhook",
+      key: ipAddress,
+      maxRequests: 120,
+      windowMs: 60_000,
+    });
+
+    if (!rateLimit.allowed) {
+      const response = NextResponse.json(
+        { success: false, error: "Webhook rate limit exceeded", requestId },
+        { status: 429 }
+      );
+      response.headers.set(
+        "Retry-After",
+        Math.ceil((rateLimit.resetAt - Date.now()) / 1000).toString()
+      );
+
+      recordRequestMetric({
+        method: request.method,
+        route: "/api/square/webhook",
+        status: 429,
+        durationMs: Date.now() - start,
+      });
+
+      return attachRequestHeaders(response, requestId);
+    }
+
     const rawBody = await request.text();
     const signatureHeader = request.headers.get("x-square-hmacsha256-signature");
 
@@ -71,28 +104,19 @@ export async function POST(request: Request) {
 
     const event = JSON.parse(rawBody) as SquareWebhookEvent;
     const eventType = event.type ?? "unknown";
-
-    switch (eventType) {
-      case "payment.completed":
-      case "payment.updated":
-      case "order.updated":
-      case "order.fulfillment.updated":
-      case "subscription.created":
-      case "subscription.updated":
-      case "subscription.deactivated":
-      case "refund.created":
-      case "refund.updated":
-      default:
-        break;
-    }
+    const lifecycle = processSquareLifecycleEvent(event);
 
     const response = NextResponse.json(
       {
         success: true,
-        processed: false,
+        processed: lifecycle.processed,
         eventType,
-        message:
-          "Event signature verified. Automated fulfillment remains disabled until membership lifecycle handlers are implemented.",
+        subscriptionId: lifecycle.subscriptionId,
+        membershipStatus: lifecycle.status,
+        nextRoute: lifecycle.nextJourneyRoute,
+        message: lifecycle.processed
+          ? "Webhook processed and membership lifecycle synchronized."
+          : "Event signature verified; no membership lifecycle state change required.",
         requestId,
       },
       { status: 202 }
