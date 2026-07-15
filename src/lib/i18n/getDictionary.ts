@@ -1,5 +1,7 @@
 export async function getDictionary(lang: string) {
   switch (lang) {
+    case "en-US":
+      return (await import("./translations/en")).default;
     case "es":
       return (await import("./translations/es")).default;
     case "ko":
@@ -16,6 +18,8 @@ export async function getDictionary(lang: string) {
       return (await import("./translations/pt")).default;
     case "fr-CA":
       return (await import("./translations/fr-CA")).default;
+    case "fr-FR":
+      return (await import("./translations/fr-FR")).default;
     case "fr":
       return (await import("./translations/fr")).default;
     case "de":

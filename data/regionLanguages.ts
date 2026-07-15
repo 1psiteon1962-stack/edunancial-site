@@ -1,6 +1,6 @@
 export const REGION_LANGUAGES: Record<string, readonly string[]> = {
-  us: ["en", "es"],
-  "north-america": ["en", "es", "fr"],
+  us: ["en-US", "es", "fr-CA", "fr-FR"],
+  "north-america": ["en-US", "es", "fr-CA", "fr-FR"],
   "europe-2a": ["en", "fr", "de", "es", "it"],
   "europe-2b": ["en", "fr", "de", "es", "it"],
   "latin-america-2a": ["es", "pt", "en"],

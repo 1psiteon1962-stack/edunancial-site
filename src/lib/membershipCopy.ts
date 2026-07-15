@@ -1,4 +1,4 @@
-export type MembershipCopyLanguage = "en" | "es";
+export type MembershipCopyLanguage = "en" | "es" | "fr";
 
 const MEMBERSHIP_PLAN_COPY = {
   basic: {
@@ -119,13 +119,14 @@ export function getMembershipPlanCopy(
   language: MembershipCopyLanguage
 ) {
   const plan = MEMBERSHIP_PLAN_COPY[planId];
+  const resolvedLanguage = language === "fr" ? "en" : language;
 
   return {
-    name: plan.name[language],
-    description: plan.description[language],
-    billingLabel: plan.billingLabel[language],
-    ctaLabel: plan.ctaLabel[language],
-    legalNote: "legalNote" in plan ? plan.legalNote[language] : undefined,
+    name: plan.name[resolvedLanguage],
+    description: plan.description[resolvedLanguage],
+    billingLabel: plan.billingLabel[resolvedLanguage],
+    ctaLabel: plan.ctaLabel[resolvedLanguage],
+    legalNote: "legalNote" in plan ? plan.legalNote[resolvedLanguage] : undefined,
   };
 }
 
@@ -133,5 +134,6 @@ export function getMembershipFeatureLabel(
   feature: keyof typeof MEMBERSHIP_FEATURE_COPY,
   language: MembershipCopyLanguage
 ) {
-  return MEMBERSHIP_FEATURE_COPY[feature][language];
+  const resolvedLanguage = language === "fr" ? "en" : language;
+  return MEMBERSHIP_FEATURE_COPY[feature][resolvedLanguage];
 }

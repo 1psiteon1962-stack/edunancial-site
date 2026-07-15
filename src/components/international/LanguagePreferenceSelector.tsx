@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import {
   getStoredLanguageAdminSettings,
   LANGUAGE_CATALOG,
+  normalizeLanguageCode,
 } from "@/lib/international/languages";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
@@ -12,11 +13,19 @@ type LanguagePreferenceSelectorProps = {
   compact?: boolean;
 };
 
+const NORTH_AMERICA_LAUNCH_LANGUAGE_CODES = [
+  "en-US",
+  "es",
+  "fr-CA",
+  "fr-FR",
+] as const;
+
 export default function LanguagePreferenceSelector({
   compact = false,
 }: LanguagePreferenceSelectorProps) {
   const {
     effectiveLanguage,
+    preferences,
     languagePromptPending,
     setLanguage,
     confirmLanguageDefault,
@@ -24,11 +33,19 @@ export default function LanguagePreferenceSelector({
   } = useInternationalPreferences();
   const [searchValue, setSearchValue] = useState("");
   const settings = getStoredLanguageAdminSettings();
-  const enabledLanguages = useMemo(
-    () =>
-      LANGUAGE_CATALOG.filter((language) => settings.enabledLanguages.includes(language.code)),
-    [settings.enabledLanguages]
-  );
+  const enabledLanguages = useMemo(() => {
+    const available = LANGUAGE_CATALOG.filter((language) =>
+      settings.enabledLanguages.includes(language.code)
+    );
+
+    if (preferences.region !== "north-america") {
+      return available;
+    }
+
+    return NORTH_AMERICA_LAUNCH_LANGUAGE_CODES.map((code) =>
+      available.find((language) => language.code === code)
+    ).filter((language): language is (typeof available)[number] => Boolean(language));
+  }, [preferences.region, settings.enabledLanguages]);
   const filteredLanguages = useMemo(() => {
     const normalizedSearch = searchValue.trim().toLowerCase();
     if (!normalizedSearch) {
@@ -41,6 +58,13 @@ export default function LanguagePreferenceSelector({
         .includes(normalizedSearch)
     );
   }, [enabledLanguages, searchValue]);
+  const selectedLanguage = useMemo(() => {
+    const normalized = normalizeLanguageCode(effectiveLanguage);
+
+    return filteredLanguages.some((language) => language.code === normalized)
+      ? normalized
+      : filteredLanguages[0]?.code ?? normalized;
+  }, [effectiveLanguage, filteredLanguages]);
 
   return (
     <div
@@ -63,7 +87,7 @@ export default function LanguagePreferenceSelector({
       />
       <select
         aria-label={t("selector.aria")}
-        value={effectiveLanguage}
+        value={selectedLanguage}
         onChange={(event) => setLanguage(event.target.value)}
         className="bg-transparent text-white outline-none"
       >

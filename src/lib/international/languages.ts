@@ -6,9 +6,25 @@ export type LanguageDefinition = {
 };
 
 export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
-  { code: "en", label: "English", nativeLabel: "English", rtl: false },
+  {
+    code: "en-US",
+    label: "English (United States)",
+    nativeLabel: "English (United States)",
+    rtl: false,
+  },
   { code: "es", label: "Spanish", nativeLabel: "Español", rtl: false },
-  { code: "fr", label: "French", nativeLabel: "Français", rtl: false },
+  {
+    code: "fr-CA",
+    label: "French (Canada)",
+    nativeLabel: "Français (Canada)",
+    rtl: false,
+  },
+  {
+    code: "fr-FR",
+    label: "French (France)",
+    nativeLabel: "Français (France)",
+    rtl: false,
+  },
   { code: "pt", label: "Portuguese", nativeLabel: "Português", rtl: false },
   { code: "de", label: "German", nativeLabel: "Deutsch", rtl: false },
   { code: "it", label: "Italian", nativeLabel: "Italiano", rtl: false },
@@ -62,10 +78,12 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "am", label: "Amharic", nativeLabel: "አማርኛ", rtl: false },
 ] as const;
 
-export const DEFAULT_LANGUAGE_CODE = "en";
-export const FALLBACK_LANGUAGE_CODE = "en";
+export const DEFAULT_LANGUAGE_CODE = "en-US";
+export const FALLBACK_LANGUAGE_CODE = "en-US";
 
 export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
+  en: "en-US",
+  fr: "fr-CA",
   zh: "zh-Hans",
   "zh-cn": "zh-Hans",
   "zh-sg": "zh-Hans",
@@ -107,16 +125,16 @@ export function normalizeLanguageCode(input: string | undefined | null): string 
 
   const normalized = input.trim().toLowerCase();
 
-  if (LANGUAGE_ALIAS_MAP[normalized]) {
-    return LANGUAGE_ALIAS_MAP[normalized];
-  }
-
   const exact = LANGUAGE_CATALOG.find(
     (language) => language.code.toLowerCase() === normalized
   );
 
   if (exact) {
     return exact.code;
+  }
+
+  if (LANGUAGE_ALIAS_MAP[normalized]) {
+    return LANGUAGE_ALIAS_MAP[normalized];
   }
 
   const base = normalized.split("-")[0];
@@ -173,23 +191,26 @@ export function getStoredLanguageAdminSettings(): LanguageAdminSettings {
     const parsedSettings = JSON.parse(rawSettings) as Partial<LanguageAdminSettings>;
 
     const enabledLanguages =
-      parsedSettings.enabledLanguages?.filter(isLanguageSupported) ?? defaults.enabledLanguages;
+      parsedSettings.enabledLanguages
+        ?.map((language) => normalizeLanguageCode(language))
+        .filter(isLanguageSupported) ?? defaults.enabledLanguages;
 
-    const defaultLanguage = isLanguageSupported(parsedSettings.defaultLanguage ?? "")
-      ? parsedSettings.defaultLanguage ?? defaults.defaultLanguage
-      : defaults.defaultLanguage;
-
-    const fallbackLanguage = isLanguageSupported(parsedSettings.fallbackLanguage ?? "")
-      ? parsedSettings.fallbackLanguage ?? defaults.fallbackLanguage
-      : defaults.fallbackLanguage;
+    const defaultLanguage = normalizeLanguageCode(parsedSettings.defaultLanguage);
+    const fallbackLanguage = normalizeLanguageCode(parsedSettings.fallbackLanguage);
 
     const rtlLanguages =
-      parsedSettings.rtlLanguages?.filter(isLanguageSupported) ?? defaults.rtlLanguages;
+      parsedSettings.rtlLanguages
+        ?.map((language) => normalizeLanguageCode(language))
+        .filter(isLanguageSupported) ?? defaults.rtlLanguages;
 
     return {
       enabledLanguages: enabledLanguages.length > 0 ? enabledLanguages : defaults.enabledLanguages,
-      defaultLanguage,
-      fallbackLanguage,
+      defaultLanguage: isLanguageSupported(defaultLanguage)
+        ? defaultLanguage
+        : defaults.defaultLanguage,
+      fallbackLanguage: isLanguageSupported(fallbackLanguage)
+        ? fallbackLanguage
+        : defaults.fallbackLanguage,
       rtlLanguages,
       translationCompleteness: {
         ...defaults.translationCompleteness,

@@ -11,8 +11,11 @@ export const GLOBAL_REGIONS = [
 export type GlobalRegionId = (typeof GLOBAL_REGIONS)[number];
 
 export type SupportedLanguageCode =
+  | "en-US"
   | "en"
   | "es"
+  | "fr-CA"
+  | "fr-FR"
   | "fr"
   | "pt"
   | "de"
@@ -91,7 +94,7 @@ export interface RegionalConfiguration {
 
 export const NORTH_AMERICA_REGION: RegionalConfiguration = {
   id: "north-america",
-  supportedLanguages: ["en", "es", "fr"],
+  supportedLanguages: ["en-US", "es", "fr-CA", "fr-FR"],
   supportedCurrencies: ["USD", "CAD"],
   defaultTimeZone: "America/New_York",
   countries: ["US", "CA"],
