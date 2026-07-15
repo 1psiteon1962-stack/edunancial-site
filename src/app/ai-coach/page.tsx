@@ -26,15 +26,24 @@ const esFeatures = [
   "Asistencia de IA 24/7",
 ];
 
+const frFeatures = [
+  "Coach financier personnel",
+  "Coach d'affaires",
+  "Conseils en investissement",
+  "Recommandations de cours",
+  "Recommandations de livres",
+  "Suivi des objectifs",
+  "Analyse des compétences",
+  "Assistance IA 24/7",
+];
+
 export default function AICoachPage() {
   return (
     <BilingualContent
       en={
         <main className="min-h-screen bg-[#08101f] text-white">
           <section className="mx-auto max-w-7xl px-6 py-24">
-            <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
-              AI Financial Coach
-            </p>
+            <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">AI Financial Coach</p>
             <h1 className="mt-6 text-5xl font-black md:text-6xl">
               Learn smarter.
               <br />
@@ -59,9 +68,7 @@ export default function AICoachPage() {
       es={
         <main className="min-h-screen bg-[#08101f] text-white">
           <section className="mx-auto max-w-7xl px-6 py-24">
-            <p className="uppercase tracking-[0.45em] font-bold text-yellow-400">
-              Coach financiero con IA
-            </p>
+            <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">Coach financiero con IA</p>
             <h1 className="mt-6 text-5xl font-black md:text-6xl">
               Aprenda con más claridad.
               <br />
@@ -75,6 +82,31 @@ export default function AICoachPage() {
 
             <div className="mt-20 grid gap-8 md:grid-cols-2">
               {esFeatures.map((feature) => (
+                <div key={feature} className="rounded-xl bg-slate-900 p-8">
+                  <h2 className="text-2xl font-black">{feature}</h2>
+                </div>
+              ))}
+            </div>
+          </section>
+        </main>
+      }
+      fr={
+        <main className="min-h-screen bg-[#08101f] text-white">
+          <section className="mx-auto max-w-7xl px-6 py-24">
+            <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">Coach financier IA</p>
+            <h1 className="mt-6 text-5xl font-black md:text-6xl">
+              Apprenez plus efficacement.
+              <br />
+              Progressez avec des prochaines étapes claires.
+            </h1>
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+              Le Coach IA d'Edunancial aide les membres à passer de la littératie financière à la
+              prise de décision pratique avec des suggestions guidées, des recommandations de cours
+              et un suivi orienté vers l'action.
+            </p>
+
+            <div className="mt-20 grid gap-8 md:grid-cols-2">
+              {frFeatures.map((feature) => (
                 <div key={feature} className="rounded-xl bg-slate-900 p-8">
                   <h2 className="text-2xl font-black">{feature}</h2>
                 </div>
