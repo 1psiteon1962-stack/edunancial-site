@@ -667,7 +667,7 @@ const REGION_CONFIGS: RegionConfiguration[] = [
     slug: "north-america",
     name: "North America",
     enabled: true,
-    supportedLanguages: ["en", "es", "fr"],
+    supportedLanguages: ["en-US", "es", "fr-CA", "fr-FR"],
     supportedCurrencies: ["USD", "CAD"],
     status: "Ready for Publication",
     translationCompletion: 100,
@@ -925,6 +925,14 @@ function normalizeInterfaceLanguage(languageCode: string | undefined) {
   }
 
   const normalized = languageCode.trim().toLowerCase();
+
+  if (normalized === "fr-ca") {
+    return "fr-CA";
+  }
+
+  if (normalized === "fr-fr") {
+    return "fr-FR";
+  }
 
   if (normalized === "zh" || normalized === "zh-cn" || normalized === "zh-hans") {
     return "zh-Hans";

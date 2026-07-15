@@ -1,4 +1,5 @@
 export const languages = [
+  "en-US",
   "en",
   "es",
   "ko",
@@ -7,6 +8,8 @@ export const languages = [
   "tl",
   "ar",
   "pt",
+  "fr-CA",
+  "fr-FR",
   "fr",
   "de",
   "it",
@@ -27,6 +30,7 @@ export type SupportedLanguageConfig = {
 };
 
 export const supportedLanguages: SupportedLanguageConfig[] = [
+  { code: "en-US", label: "English (United States)", nativeLabel: "English (United States)" },
   { code: "en", label: "English", nativeLabel: "English" },
   { code: "es", label: "Spanish", nativeLabel: "Español" },
   { code: "ko", label: "Korean", nativeLabel: "한국어" },
@@ -35,6 +39,8 @@ export const supportedLanguages: SupportedLanguageConfig[] = [
   { code: "tl", label: "Tagalog", nativeLabel: "Tagalog" },
   { code: "ar", label: "Arabic", nativeLabel: "العربية" },
   { code: "pt", label: "Portuguese", nativeLabel: "Português" },
+  { code: "fr-CA", label: "French (Canada)", nativeLabel: "Français (Canada)" },
+  { code: "fr-FR", label: "French (France)", nativeLabel: "Français (France)" },
   { code: "fr", label: "French", nativeLabel: "Français" },
   { code: "de", label: "German", nativeLabel: "Deutsch" },
   { code: "it", label: "Italian", nativeLabel: "Italiano" },

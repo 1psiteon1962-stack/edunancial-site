@@ -18,9 +18,9 @@ export const regionalSettings: RegionalSettings[] = [
 
   {
     region: "north-america",
-    defaultLanguage: "en",
+    defaultLanguage: "en-US",
     defaultCurrency: "USD",
-    supportedLanguages: ["en","es","fr"],
+    supportedLanguages: ["en-US","es","fr-CA","fr-FR"],
     supportedCurrencies: ["USD","CAD"],
     active: true
   },
