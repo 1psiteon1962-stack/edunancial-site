@@ -72,43 +72,73 @@ const esFaqs = [
   },
 ];
 
+const frFaqs = [
+  {
+    question: "Qu'est-ce qu'Edunancial ?",
+    answer:
+      "Edunancial est une plateforme d'abonnement en littératie financière et compétence financière. Elle aide les membres à améliorer leur jugement financier pratique grâce à des ressources d'apprentissage, des évaluations, des outils et un support guidé.",
+  },
+  {
+    question: "Que signifient Red, White et Blue ?",
+    answer:
+      "Red couvre l'immobilier, White couvre les actifs financiers et Blue couvre les affaires. Ces trois piliers restent le fondement de la plateforme.",
+  },
+  {
+    question: "Comment fonctionnent les abonnements ?",
+    answer:
+      "L'abonnement individuel est à 19,99 $/mois. L'abonnement pour organisations approuvées est à 14,99 $/membre/mois pour les partenaires approuvés. Le tarif pour les organisations de 100+ membres est de 9,99 $ par membre actif payant/mois avec un minimum de 100 membres actifs payants et un accord formel.",
+  },
+  {
+    question: "Edunancial est-il une école ou un établissement accrédité ?",
+    answer:
+      "Edunancial n'est pas une école, un collège, une université, un établissement de formation professionnelle, un établissement d'enseignement accrédité ni un établissement délivrant des diplômes. L'abonnement ne confère aucun grade académique, diplôme, licence professionnelle ni titre d'enseignement réglementé.",
+  },
+  {
+    question: "Puis-je obtenir des certificats ?",
+    answer:
+      "Les membres peuvent recevoir des certificats d'achèvement pour les modules Edunancial. Ce sont uniquement des reconnaissances d'achèvement et non des diplômes académiques, des licences ni des titres réglementés.",
+  },
+  {
+    question: "Comment fonctionne l'accès bêta ?",
+    answer:
+      "L'accès testeur bêta est à 0 $, sur invitation uniquement, lié à une adresse e-mail approuvée, et commence à la première connexion réussie après un échange valide. L'accès expire 72 heures plus tard, sauf si un administrateur le prolonge explicitement.",
+  },
+];
+
+function FAQLayout({
+  label,
+  heading,
+  faqs,
+}: {
+  label: string;
+  heading: string;
+  faqs: { question: string; answer: string }[];
+}) {
+  return (
+    <main className="min-h-screen bg-[#08101f] text-white">
+      <section className="mx-auto max-w-6xl px-6 py-24">
+        <p className="font-bold uppercase tracking-[0.45em] text-yellow-400">{label}</p>
+        <h1 className="mt-6 text-5xl font-black md:text-6xl">{heading}</h1>
+
+        <div className="mt-20 space-y-6">
+          {faqs.map((faq) => (
+            <div key={faq.question} className="rounded-xl bg-slate-900 p-8">
+              <h2 className="text-2xl font-black">{faq.question}</h2>
+              <p className="mt-4 leading-8 text-slate-300">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
+
 export default function FAQPage() {
   return (
     <BilingualContent
-      en={
-        <main className="min-h-screen bg-[#08101f] text-white">
-          <section className="mx-auto max-w-6xl px-6 py-24">
-            <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">FAQ</p>
-            <h1 className="mt-6 text-6xl font-black">Frequently Asked Questions</h1>
-
-            <div className="mt-20 space-y-6">
-              {enFaqs.map((faq) => (
-                <div key={faq.question} className="rounded-xl bg-slate-900 p-8">
-                  <h2 className="text-2xl font-black">{faq.question}</h2>
-                  <p className="mt-4 leading-8 text-slate-300">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        </main>
-      }
-      es={
-        <main className="min-h-screen bg-[#08101f] text-white">
-          <section className="mx-auto max-w-6xl px-6 py-24">
-            <p className="uppercase tracking-[0.45em] text-yellow-400 font-bold">Preguntas frecuentes</p>
-            <h1 className="mt-6 text-5xl font-black md:text-6xl">Respuestas rápidas para seguir avanzando</h1>
-
-            <div className="mt-20 space-y-6">
-              {esFaqs.map((faq) => (
-                <div key={faq.question} className="rounded-xl bg-slate-900 p-8">
-                  <h2 className="text-2xl font-black">{faq.question}</h2>
-                  <p className="mt-4 leading-8 text-slate-300">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        </main>
-      }
+      en={<FAQLayout label="FAQ" heading="Frequently Asked Questions" faqs={enFaqs} />}
+      es={<FAQLayout label="Preguntas frecuentes" heading="Respuestas rápidas para seguir avanzando" faqs={esFaqs} />}
+      fr={<FAQLayout label="Questions fréquentes" heading="Questions fréquemment posées" faqs={frFaqs} />}
     />
   );
 }
