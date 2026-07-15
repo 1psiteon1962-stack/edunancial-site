@@ -25,6 +25,12 @@ test("regional config falls back to North America by default", () => {
   assert.deepEqual(resolved.paymentProviders, ["square"]);
 });
 
+test("north america supports distinct launch language variants", () => {
+  const northAmerica = getRegionalConfiguration("north-america");
+
+  assert.deepEqual(northAmerica.supportedLanguages, ["en-US", "es", "fr-CA", "fr-FR"]);
+});
+
 test("regional payment architecture preserves Square default in North America", () => {
   const paymentPlan = resolveRegionalPaymentPlan("north-america");
 
@@ -108,5 +114,5 @@ test("geo detection suggests regional defaults and allows manual override", () =
 
   assert.equal(manuallyAdjusted.regionId, "north-america");
   assert.equal(manuallyAdjusted.currency, "CAD");
-  assert.equal(manuallyAdjusted.language, "fr");
+  assert.equal(manuallyAdjusted.language, "fr-CA");
 });

@@ -59,3 +59,13 @@ test("language preference is independent from payment provider routing", () => {
   assert.equal(hindiLanguage, "hi");
   assert.deepEqual(paymentMethods.slice(0, 3), ["square", "stripe", "paypal"]);
 });
+
+test("normalization preserves distinct fr-CA and fr-FR selections", () => {
+  assert.equal(normalizeLanguageCode("fr-CA"), "fr-CA");
+  assert.equal(normalizeLanguageCode("fr-FR"), "fr-FR");
+});
+
+test("normalization aliases plain en and fr for North America launch", () => {
+  assert.equal(normalizeLanguageCode("en"), "en-US");
+  assert.equal(normalizeLanguageCode("fr"), "fr-CA");
+});

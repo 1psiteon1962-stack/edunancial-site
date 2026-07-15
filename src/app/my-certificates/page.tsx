@@ -9,7 +9,13 @@ import { useNorthAmericaLaunchLanguage } from "@/components/international/Biling
 const completedCourseIds = ["financial-foundations"];
 const completedCourses = courseList.filter((c) => completedCourseIds.includes(c.id));
 
-function CertificateCard({ courseId, language }: { courseId: string; language: "en" | "es" }) {
+function CertificateCard({
+  courseId,
+  language,
+}: {
+  courseId: string;
+  language: "en" | "es" | "fr";
+}) {
   const course = courseList.find((c) => c.id === courseId);
   if (!course) return null;
   const issueDate = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });

@@ -20,9 +20,10 @@ export const regions: Region[] = [
       "Canada"
     ],
     defaultLanguages: [
-      "en",
+      "en-US",
       "es",
-      "fr"
+      "fr-CA",
+      "fr-FR"
     ]
   },
 
