@@ -7,7 +7,11 @@ import SquareCheckout from "@/components/payments/SquareCheckout";
 import { useAuth } from "@/lib/authContext";
 import { EDUNANCIAL_PUBLIC_DISCLAIMER } from "@/lib/positioning";
 import { getMembershipFeatureLabel, getMembershipPlanCopy } from "@/lib/membershipCopy";
-import { membershipPlans, type MembershipPlan } from "@/types/membership";
+import {
+  membershipPlans,
+  resolveMembershipPlanId,
+  type MembershipPlan,
+} from "@/types/membership";
 
 interface CheckoutFormProps {
   plan: MembershipPlan;
@@ -23,25 +27,6 @@ export default function CheckoutForm({
   const planCopy = getMembershipPlanCopy(plan.id, language);
   const yesLabel = language === "es" ? "✓" : "✓";
   const noLabel = language === "es" ? "✗" : "✗";
-
-  if (plan.id === "beta") {
-    return (
-      <div className="rounded-2xl border border-slate-200 bg-white p-10 text-slate-900 shadow-sm">
-        <h2 className="text-3xl font-bold">{planCopy.name}</h2>
-        <p className="mt-4 text-slate-600">
-          {language === "es"
-            ? "El acceso para probadores beta es solo por invitación. Use su correo aprobado y su número de pase durante el inicio de sesión para comenzar el período beta de 72 horas."
-            : "Beta Tester access is invitation only. Use your approved email address and pass number during login to begin the 72-hour beta period."}
-        </p>
-        <Link
-          href="/login"
-          className="mt-8 inline-block w-full rounded-xl bg-blue-700 px-6 py-4 text-center font-bold text-white hover:bg-blue-800"
-        >
-          {language === "es" ? "Iniciar sesión para canjear acceso beta" : "Sign In to Redeem Beta Access"}
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-10 text-slate-900 shadow-sm">
@@ -129,6 +114,7 @@ export default function CheckoutForm({
             amount={plan.monthlyPrice}
             currency={plan.currency}
             planName={`${planCopy.name} ${language === "es" ? "Membresía" : "Membership"}`}
+            memberEmail={user.email}
           />
         </div>
       ) : !user ? (
@@ -140,8 +126,8 @@ export default function CheckoutForm({
       ) : (
         <div className="mt-6 rounded-lg border border-amber-300 bg-amber-50 px-4 py-4 text-sm text-amber-900">
           {language === "es"
-            ? "El pago en línea verificado para membresías no está disponible actualmente. Square sigue desactivado hasta que la verificación por webhook y la activación de membresías estén totalmente implementadas."
-            : "Verified online membership checkout is currently unavailable. Square remains feature-flagged off until webhook verification and membership fulfillment are fully implemented."}
+            ? "El pago en línea verificado para membresías no está disponible con la configuración actual del entorno. Verifique credenciales de Square, firma de webhook y el indicador SQUARE_VERIFIED_CHECKOUT_ENABLED."
+            : "Verified online membership checkout is unavailable in the current environment configuration. Confirm Square credentials, webhook signature settings, and the SQUARE_VERIFIED_CHECKOUT_ENABLED flag."}
         </div>
       )}
 
@@ -178,8 +164,9 @@ export function CheckoutPage({
   planId?: string;
   secureCheckoutEnabled: boolean;
 }) {
+  const canonicalPlanId = resolveMembershipPlanId(planId);
   const selectedPlan =
-    membershipPlans.find((plan) => plan.id === planId) ?? membershipPlans[1];
+    membershipPlans.find((plan) => plan.id === canonicalPlanId) ?? membershipPlans[0];
   const language = useNorthAmericaLaunchLanguage();
   const selectedPlanCopy = getMembershipPlanCopy(selectedPlan.id, language);
 

@@ -3,86 +3,78 @@ export type MembershipCopyLanguage = "en" | "es";
 const MEMBERSHIP_PLAN_COPY = {
   basic: {
     name: {
-      en: "Individual Membership",
-      es: "Membresía individual",
+      en: "Basic Membership",
+      es: "Membresía Básica",
     },
     description: {
-      en: "Structured learning resources, guided sessions, practical exercises, and member tools for individual financial literacy and financial competency growth.",
-      es: "Recursos de aprendizaje estructurados, sesiones guiadas, ejercicios prácticos y herramientas para fortalecer la alfabetización financiera y la competencia financiera de cada miembro.",
+      en: "Structured learning resources, guided sessions, practical exercises, and member tools for financial literacy and competency growth.",
+      es: "Recursos de aprendizaje estructurados, sesiones guiadas, ejercicios prácticos y herramientas para fortalecer la alfabetización y competencia financiera.",
     },
     billingLabel: {
       en: "per month",
       es: "por mes",
     },
     ctaLabel: {
-      en: "Choose Individual Membership",
-      es: "Elegir membresía individual",
+      en: "Choose Basic Membership",
+      es: "Elegir Membresía Básica",
     },
   },
   premium: {
     name: {
-      en: "Approved Organization Membership",
-      es: "Membresía para organizaciones aprobadas",
+      en: "Pro Membership",
+      es: "Membresía Pro",
     },
     description: {
-      en: "For approved schools, nonprofits, community organizations, workforce programs, churches, youth organizations, and similar approved partners onboarding members through Edunancial.",
-      es: "Para escuelas aprobadas, organizaciones sin fines de lucro, organizaciones comunitarias, programas laborales, iglesias, organizaciones juveniles y socios similares que integran miembros a través de Edunancial.",
+      en: "Expanded member benefits with deeper learning access, downloads, and AI financial coach support.",
+      es: "Beneficios ampliados con mayor acceso de aprendizaje, descargas y soporte del Coach Financiero con IA.",
     },
     billingLabel: {
-      en: "per member / month",
-      es: "por miembro / mes",
+      en: "per month",
+      es: "por mes",
     },
     ctaLabel: {
-      en: "Request organization approval",
-      es: "Solicitar aprobación de la organización",
-    },
-    legalNote: {
-      en: "Available only to approved partner organizations.",
-      es: "Disponible solo para organizaciones asociadas aprobadas.",
+      en: "Choose Pro Membership",
+      es: "Elegir Membresía Pro",
     },
   },
   enterprise: {
     name: {
-      en: "100+ Member Organization Rate",
-      es: "Tarifa para organizaciones de 100+ miembros",
+      en: "Gold Membership",
+      es: "Membresía Gold",
     },
     description: {
-      en: "For organizations with at least 100 active paid members under a formal organizational agreement.",
-      es: "Para organizaciones con al menos 100 miembros activos de pago bajo un acuerdo organizacional formal.",
+      en: "Full membership access for advanced learners with priority support and premium tools.",
+      es: "Acceso completo para aprendizaje avanzado con soporte prioritario y herramientas premium.",
     },
     billingLabel: {
-      en: "per active paid member / month",
-      es: "por miembro activo de pago / mes",
+      en: "per month",
+      es: "por mes",
     },
     ctaLabel: {
-      en: "Contact for 100+ member agreement",
-      es: "Contactar para un acuerdo de 100+ miembros",
-    },
-    legalNote: {
-      en: "Minimum 100 active paid members and a formal organizational agreement required.",
-      es: "Se requieren al menos 100 miembros activos de pago y un acuerdo organizacional formal.",
+      en: "Choose Gold Membership",
+      es: "Elegir Membresía Gold",
     },
   },
   beta: {
     name: {
-      en: "Beta Tester",
-      es: "Probador beta",
+      en: "Trial Membership",
+      es: "Membresía de Prueba",
     },
     description: {
-      en: "Invitation-only access for approved testers evaluating Edunancial membership experiences before public release milestones.",
-      es: "Acceso solo por invitación para evaluadores aprobados que analizan la experiencia de membresía de Edunancial antes de hitos de lanzamiento público.",
+      en: "Optional starter plan for North America launch campaigns when trial enrollment is enabled.",
+      es: "Plan inicial opcional para campañas de lanzamiento en Norteamérica cuando la prueba está habilitada.",
     },
     billingLabel: {
-      en: "invitation only",
-      es: "solo por invitación",
+      en: "introductory trial",
+      es: "prueba introductoria",
     },
     ctaLabel: {
-      en: "Redeem beta invitation",
-      es: "Canjear invitación beta",
+      en: "Start Trial Membership",
+      es: "Iniciar Membresía de Prueba",
     },
     legalNote: {
-      en: "Hidden from public pricing. Beta access starts at first successful login and expires 72 hours later unless explicitly extended by an administrator.",
-      es: "Oculto del precio público. El acceso beta comienza en el primer inicio de sesión exitoso y expira 72 horas después, salvo extensión explícita por un administrador.",
+      en: "Trial availability is controlled by launch configuration.",
+      es: "La disponibilidad de la prueba se controla por configuración de lanzamiento.",
     },
   },
 } as const;

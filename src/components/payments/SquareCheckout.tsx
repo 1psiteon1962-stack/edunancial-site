@@ -8,6 +8,7 @@ interface SquareCheckoutProps {
   amount: number;
   currency: string;
   planName?: string;
+  memberEmail?: string;
 }
 
 export default function SquareCheckout({
@@ -15,6 +16,7 @@ export default function SquareCheckout({
   amount,
   currency,
   planName,
+  memberEmail,
 }: SquareCheckoutProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -28,6 +30,7 @@ export default function SquareCheckout({
         name: planName ?? `Plan ${planId}`,
         price: amount,
         currency,
+        memberEmail,
       });
     } catch (err) {
       setError(
