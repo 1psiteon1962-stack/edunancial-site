@@ -1,11 +1,11 @@
 /*
   Content-Security-Policy: default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co;
-    connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co;
-    img-src 'self' data: https://*.paypal.com https://www.paypalobjects.com https://*.tidio.co;
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.squareup.com https://js.squareupsandbox.com https://code.tidio.co https://*.tidio.co;
+    connect-src 'self' https://api.netlify.com https://connect.squareup.com https://connect.squareupsandbox.com https://*.tidio.co wss://ws.tidio.co;
+    img-src 'self' data: https://*.squareup.com https://*.squareupsandbox.com https://*.tidio.co;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com;
-    frame-src https://www.paypal.com;
+    frame-src https://squareup.com https://*.squareup.com https://squareupsandbox.com https://*.squareupsandbox.com;
   Referrer-Policy: no-referrer-when-downgrade
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
