@@ -1,23 +1,14 @@
-export default function CountryDashboard(){
+"use client";
 
-return(
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-<section className="rounded-xl bg-white shadow p-8">
+export default function CountryDashboard() {
+  const { t } = useInternationalPreferences();
 
-<h2 className="text-3xl font-bold">
-
-Country Dashboard
-
-</h2>
-
-<p className="mt-4">
-
-Revenue, memberships, pricing and KPIs by country.
-
-</p>
-
-</section>
-
-);
-
+  return (
+    <section className="rounded-xl bg-white p-8 shadow">
+      <h2 className="text-3xl font-bold">{t("globalExpansion.countryDashboard.title")}</h2>
+      <p className="mt-4">{t("globalExpansion.countryDashboard.description")}</p>
+    </section>
+  );
 }

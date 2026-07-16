@@ -1,27 +1,19 @@
 "use client";
 
-export default function RegionSelector(){
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-return(
+export default function RegionSelector() {
+  const { t } = useInternationalPreferences();
 
-<select className="rounded-lg border p-2">
-
-<option>North America</option>
-
-<option>Latin America</option>
-
-<option>Caribbean</option>
-
-<option>Africa</option>
-
-<option>Middle East</option>
-
-<option>Asia</option>
-
-<option>Europe</option>
-
-</select>
-
-);
-
+  return (
+    <select className="rounded-lg border p-2">
+      <option>{t("globalExpansion.region.northAmerica")}</option>
+      <option>{t("globalExpansion.region.latinAmerica")}</option>
+      <option>{t("globalExpansion.region.caribbean")}</option>
+      <option>{t("globalExpansion.region.africa")}</option>
+      <option>{t("globalExpansion.region.middleEast")}</option>
+      <option>{t("globalExpansion.region.asia")}</option>
+      <option>{t("globalExpansion.region.europe")}</option>
+    </select>
+  );
 }

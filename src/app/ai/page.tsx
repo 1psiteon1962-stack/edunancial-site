@@ -1,39 +1,25 @@
-export default function AIPage(){
+"use client";
 
-return(
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-<main className="min-h-screen bg-white">
+export default function AIPage() {
+  const { t } = useInternationalPreferences();
 
-<div className="max-w-5xl mx-auto p-10">
+  return (
+    <main className="min-h-screen bg-white">
+      <div className="mx-auto max-w-5xl p-10">
+        <h1 className="text-5xl font-bold">{t("aiAssistant.title")}</h1>
 
-<h1 className="text-5xl font-bold">
+        <textarea
+          className="mt-10 w-full rounded-lg border p-4"
+          rows={8}
+          placeholder={t("aiAssistant.placeholder")}
+        />
 
-Edunancial AI Assistant
-
-</h1>
-
-<textarea
-
-className="border rounded-lg w-full mt-10 p-4"
-
-rows={8}
-
-placeholder="Ask a financial literacy question..."
-
-/>
-
-<button
-
-className="mt-6 rounded bg-blue-600 text-white px-6 py-3">
-
-Ask AI
-
-</button>
-
-</div>
-
-</main>
-
-);
-
+        <button className="mt-6 rounded bg-blue-600 px-6 py-3 text-white">
+          {t("aiAssistant.submit")}
+        </button>
+      </div>
+    </main>
+  );
 }
