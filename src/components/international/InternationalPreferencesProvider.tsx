@@ -24,6 +24,7 @@ import {
   type InternationalPreferences,
 } from "@/lib/international/preferences";
 import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
+import { useAuth } from "@/lib/authContext";
 
 type InternationalPreferencesContextValue = {
   ready: boolean;
@@ -82,6 +83,22 @@ export function InternationalPreferencesProvider({
   const [sessionLanguage, setSessionLanguage] = useState<string | null>(null);
   /** Whether a YES/NO default-language prompt is awaiting the user's answer. */
   const [languagePromptPending, setLanguagePromptPending] = useState(false);
+
+  const { user } = useAuth();
+
+  // Reload preferences whenever the authenticated user changes (login / logout).
+  useEffect(() => {
+    const stored = loadInternationalPreferences();
+
+    if (stored) {
+      setPreferences(stored);
+      setShowDetectionBanner(false);
+      // Clear any pending session-only language when switching user profiles.
+      setSessionLanguage(null);
+      setLanguagePromptPending(false);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id]);
 
   useEffect(() => {
     const stored = loadInternationalPreferences();

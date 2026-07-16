@@ -57,5 +57,20 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.toggle": "Change language",
+  "selector.current": "Current language: {{language}}",
+  "page.team.title": "Meet Our Team",
+  "page.team.founder": "Founder",
+  "page.team.leadership": "Leadership",
+  "page.team.advisors": "Advisors",
+  "page.media.title": "Press & Media",
+  "page.media.description": "News, interviews and media resources.",
+  "page.coach.title": "AI Financial Coach",
+  "page.coach.description": "Receive personalized recommendations, daily missions, and competency coaching.",
+  "page.coach.window": "AI Coach Conversation Window",
+  "page.vision.title": "Our Vision",
+  "page.vision.description": "To build the world's leading financial education ecosystem where learning, AI, entrepreneurship, professional services, and business growth work together in one platform.",
+  "page.messages.title": "Messages",
+  "page.messages.inbox": "Inbox"
 }

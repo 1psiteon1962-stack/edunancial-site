@@ -67,5 +67,20 @@
   "selector.searchPlaceholder": "Rechercher une langue…",
   "selector.searchAria": "Rechercher des langues",
   "nav.signOut": "Se déconnecter",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.toggle": "Changer de langue",
+  "selector.current": "Langue actuelle : {{language}}",
+  "page.team.title": "Rencontrez notre équipe",
+  "page.team.founder": "Fondateur",
+  "page.team.leadership": "Direction",
+  "page.team.advisors": "Conseillers",
+  "page.media.title": "Presse et médias",
+  "page.media.description": "Actualités, interviews et ressources médias.",
+  "page.coach.title": "Coach financier IA",
+  "page.coach.description": "Recevez des recommandations personnalisées, des missions quotidiennes et un coaching en compétences.",
+  "page.coach.window": "Fenêtre de conversation du coach IA",
+  "page.vision.title": "Notre vision",
+  "page.vision.description": "Construire l'écosystème d'éducation financière de premier plan dans le monde où l'apprentissage, l'IA, l'entrepreneuriat, les services professionnels et la croissance des entreprises fonctionnent ensemble sur une seule plateforme.",
+  "page.messages.title": "Messages",
+  "page.messages.inbox": "Boîte de réception"
 }
