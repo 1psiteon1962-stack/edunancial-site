@@ -3,7 +3,7 @@
   "compilerOptions": {
     "noEmit": false,
     "outDir": ".test-dist",
-    "module": "commonjs",
+    "module": "Node16",
     "moduleResolution": "node16",
     "incremental": false
   },
@@ -20,6 +20,7 @@
     "src/lib/dashboard/dashboard-service.test.ts",
     "src/lib/positioning.ts",
     "src/lib/positioning.test.ts",
-    "src/types/membership.ts"
+    "src/types/membership.ts",
+    "src/lib/admin-content/**/*.ts"
   ]
 }

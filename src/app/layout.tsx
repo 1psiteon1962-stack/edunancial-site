@@ -1,12 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import AnnouncementBar from "@/components/layout/AnnouncementBar";
-import DetectedPreferencesBanner from "@/components/international/DetectedPreferencesBanner";
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { Providers } from "@/components/Providers";
+import SiteChrome from "@/components/layout/SiteChrome";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import {
   EDUNANCIAL_IDENTITY,
@@ -125,11 +122,7 @@ export default function RootLayout({
       <body className="bg-[#08101f] text-white">
         <Providers>
           <InternationalPreferencesProvider>
-            <AnnouncementBar />
-            <Navbar />
-            <DetectedPreferencesBanner />
-            {children}
-            <Footer />
+            <SiteChrome>{children}</SiteChrome>
           </InternationalPreferencesProvider>
         </Providers>
       </body>
