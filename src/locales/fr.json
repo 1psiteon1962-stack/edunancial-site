@@ -57,5 +57,6 @@
   "selector.searchPlaceholder": "Rechercher une langue…",
   "selector.searchAria": "Rechercher des langues",
   "nav.signOut": "Se déconnecter",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "nav.marketplace": "Marché"
 }

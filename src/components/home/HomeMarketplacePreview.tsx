@@ -1,70 +1,55 @@
 import Link from "next/link";
 
-export default function HomeMarketplacePreview(){
+import { getFeaturedProducts } from "@/data/marketplace-products";
+import ProductCard from "@/components/marketplace/ProductCard";
 
-return(
+export default function HomeMarketplacePreview() {
+  const featured = getFeaturedProducts(4);
 
-<section className="py-24">
+  return (
+    <section className="py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <p className="mb-4 text-xs font-black uppercase tracking-[0.3em] text-blue-400">
+          Marketplace
+        </p>
+        <h2 className="text-5xl font-black md:text-6xl">
+          Learn &amp; Shop
+        </h2>
+        <p className="mt-6 max-w-3xl text-xl leading-9 text-slate-300">
+          Books, courses, digital tools, and branded merchandise — all in one
+          place. Organized by RED, WHITE &amp; BLUE.
+        </p>
 
-<div className="mx-auto max-w-7xl px-6">
+        <div className="mt-10 flex flex-wrap gap-4">
+          <Link
+            href="/marketplace/learn"
+            className="rounded-xl bg-blue-600 px-6 py-4 font-bold hover:bg-blue-700"
+          >
+            Browse Learn
+          </Link>
+          <Link
+            href="/marketplace/shop"
+            className="rounded-xl border border-slate-600 px-6 py-4 font-bold hover:border-white"
+          >
+            Browse Shop
+          </Link>
+        </div>
 
-<h2 className="text-6xl font-black">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {featured.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
 
-Marketplace
-
-</h2>
-
-<p className="mt-8 max-w-5xl text-2xl leading-10 text-slate-300">
-
-Learning is only part of the journey.
-
-Connect with professionals who can help you apply what you've learned.
-
-</p>
-
-<div className="mt-16 grid gap-6 md:grid-cols-4">
-
-<Card title="Attorneys"/>
-
-<Card title="Accountants"/>
-
-<Card title="Lenders"/>
-
-<Card title="Business Advisors"/>
-
-</div>
-
-<Link
-href="/marketplace"
-className="mt-12 inline-block rounded-xl bg-blue-600 px-8 py-5 font-bold"
->
-
-Explore Marketplace
-
-</Link>
-
-</div>
-
-</section>
-
-);
-
-}
-
-function Card({title}:{title:string}){
-
-return(
-
-<div className="rounded-xl bg-slate-900 p-6">
-
-<h3 className="text-xl font-bold">
-
-{title}
-
-</h3>
-
-</div>
-
-);
-
+        <div className="mt-10 text-center">
+          <Link
+            href="/marketplace"
+            className="inline-block rounded-xl bg-slate-900 px-8 py-5 font-bold border border-slate-700 hover:border-blue-500 transition"
+          >
+            Explore Full Marketplace →
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
 }

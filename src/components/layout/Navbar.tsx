@@ -9,6 +9,7 @@ import { useAuth } from "@/lib/authContext";
 
 const navigation = [
   { key: "nav.home", href: "/" },
+  { key: "nav.marketplace", href: "/marketplace" },
   { key: "nav.courses", href: "/courses" },
   { key: "nav.aiCoach", href: "/ai-coach" },
   { key: "nav.pricing", href: "/pricing" },

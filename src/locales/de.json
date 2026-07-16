@@ -53,5 +53,6 @@
   "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
   "selector.defaultPrompt": "Möchten Sie dies als Ihre Standardsprache festlegen?",
   "selector.setDefault.yes": "Ja, als Standard festlegen",
-  "selector.setDefault.no": "Nein, nur für diese Sitzung"
+  "selector.setDefault.no": "Nein, nur für diese Sitzung",
+  "nav.marketplace": "Marktplatz"
 }
