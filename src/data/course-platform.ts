@@ -1,6 +1,9 @@
 // ─────────────────────────────────────────────────────────────
 // Course Platform Data Model
+// Global standard for all Edunancial regional websites.
 // ─────────────────────────────────────────────────────────────
+
+import type { LessonResource, KeyDefinition, ReflectionQuestion, AICoachConfig, PublicationStatus } from "@/lib/video-learning/types";
 
 export type Difficulty = "Beginner" | "Intermediate" | "Advanced";
 export type CourseCategory =
@@ -34,14 +37,44 @@ export interface Lesson {
   id: string;
   courseId: string;
   title: string;
-  duration: string; // e.g. "12 min"
+  /** Duration label, e.g. "12 min" */
+  duration: string;
+  /** YouTube embed URL or any video source URL */
   videoUrl: string;
   description: string;
   notes: string;
   order: number;
   quizId?: string;
+  /** Legacy single download URL (use resources[] for multiple) */
   downloadUrl?: string;
   transcript?: string;
+
+  // ── Global Video Learning Architecture extensions ──────────
+  /** What the learner will be able to do after this lesson */
+  objectives?: string[];
+  /** Key terms and definitions introduced in this lesson */
+  definitions?: KeyDefinition[];
+  /** Downloads: workbooks, checklists, templates, guides */
+  resources?: LessonResource[];
+  /** Guided reflection / Socratic questions */
+  reflectionQuestions?: ReflectionQuestion[];
+  /** AI Coach configuration for post-lesson reinforcement */
+  aiCoach?: AICoachConfig;
+  /** Estimated total completion time in minutes (video + activities) */
+  estimatedMinutes?: number;
+  /** Lesson IDs that should be completed before this one */
+  prerequisites?: string[];
+  /** Suggested next lesson ID */
+  suggestedNextLessonId?: string;
+  /** Whether closed captions are available */
+  closedCaptionsAvailable?: boolean;
+  /** Language of this lesson (BCP 47, default: 'en') */
+  language?: string;
+  /** Region override (default: 'global') */
+  region?: string;
+  publicationStatus?: PublicationStatus;
+  version?: string;
+  isPremium?: boolean;
 }
 
 export interface Instructor {
@@ -367,23 +400,198 @@ export const lessons: Record<string, Lesson> = {
     courseId: "red-real-estate",
     title: "Introduction to Real Estate Investing",
     duration: "18 min",
+    estimatedMinutes: 25,
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     description: "Overview of the RED track: rental properties, tax liens, tax deeds, creative financing, and 1031 exchanges.",
     notes: "Real estate is one of the oldest and most reliable wealth-building vehicles. In this lesson we cover the mindset shift required to see real estate as a business, not just a purchase.",
     order: 1,
     quizId: "quiz-real-estate-intro",
     downloadUrl: "/downloads/red-01-notes.pdf",
+    closedCaptionsAvailable: true,
+    publicationStatus: "published",
+    version: "1.0.0",
+    objectives: [
+      "Identify the four primary real estate investing strategies covered in the RED track.",
+      "Explain why real estate is treated as a business, not just a purchase.",
+      "Describe at least two ways real estate generates income.",
+      "Articulate the mindset difference between a homeowner and a real estate investor.",
+    ],
+    definitions: [
+      {
+        term: "Passive Income",
+        definition: "Money earned without active, ongoing work — such as rental income from a property you own.",
+        example: "A rental property that generates $500/month after all expenses is passive income.",
+      },
+      {
+        term: "Cash Flow",
+        definition: "The net money left after all property expenses (mortgage, taxes, insurance, maintenance) are paid.",
+        example: "If you collect $1,500/month in rent and pay $1,100 in expenses, your cash flow is $400/month.",
+      },
+      {
+        term: "Tax Lien",
+        definition: "A government claim against a property when the owner fails to pay property taxes. Investors can purchase tax lien certificates to earn interest.",
+      },
+      {
+        term: "1031 Exchange",
+        definition: "An IRS provision that allows you to defer capital gains taxes by reinvesting proceeds from a sold property into a like-kind property.",
+      },
+    ],
+    resources: [
+      {
+        id: "red-01-workbook",
+        type: "workbook",
+        label: "RED Track Introduction Workbook",
+        url: "/downloads/red-01-workbook.pdf",
+        format: "PDF",
+        fileSize: "1.2 MB",
+        description: "Guided workbook with exercises to apply the concepts from this lesson.",
+      },
+      {
+        id: "red-01-checklist",
+        type: "checklist",
+        label: "Real Estate Mindset Checklist",
+        url: "/downloads/red-01-checklist.pdf",
+        format: "PDF",
+        fileSize: "0.4 MB",
+        description: "A checklist to assess your readiness to shift from homeowner to investor mindset.",
+      },
+      {
+        id: "red-01-notes",
+        type: "guide",
+        label: "Lesson Notes PDF",
+        url: "/downloads/red-01-notes.pdf",
+        format: "PDF",
+        fileSize: "0.8 MB",
+      },
+    ],
+    reflectionQuestions: [
+      {
+        id: "red-01-r1",
+        question: "What has been your biggest mental barrier to viewing real estate as a business?",
+        hint: "Think about what emotions or beliefs have shaped how you view property ownership.",
+      },
+      {
+        id: "red-01-r2",
+        question: "Which of the four RED strategies (rentals, tax liens, tax deeds, creative financing) interests you most, and why?",
+        hint: "Consider your current financial position, risk tolerance, and available time.",
+      },
+      {
+        id: "red-01-r3",
+        question: "What would change in your financial life if you had one property generating $500/month in passive cash flow?",
+        hint: "Be specific — think about what bills that would cover or what new options it would create.",
+      },
+    ],
+    aiCoach: {
+      enabled: true,
+      socratiсQuestions: [
+        "What is the key difference between buying a home to live in and buying real estate as an investment?",
+        "If a rental property has positive cash flow, what does that tell you about its income versus expenses?",
+        "Why might someone use a tax lien certificate instead of purchasing a property outright?",
+        "What risks should an investor consider before purchasing their first real estate investment?",
+        "How does a 1031 exchange help an investor grow their portfolio faster?",
+      ],
+      recommendedLessonIds: ["red-02", "ff-01"],
+    },
+    suggestedNextLessonId: "red-02",
   },
   "red-02": {
     id: "red-02",
     courseId: "red-real-estate",
     title: "Rental Properties: Cash Flow Analysis",
     duration: "24 min",
+    estimatedMinutes: 35,
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     description: "How to analyze a rental property for positive cash flow using the 1% rule, cap rate, and NOI.",
     notes: "Key formulas: NOI = Gross Rent − Vacancy − Operating Expenses. Cap Rate = NOI / Purchase Price. Cash on Cash Return = Annual Cash Flow / Total Cash Invested.",
     order: 2,
     downloadUrl: "/downloads/red-02-cashflow.pdf",
+    closedCaptionsAvailable: true,
+    publicationStatus: "published",
+    version: "1.0.0",
+    prerequisites: ["red-01"],
+    objectives: [
+      "Calculate Net Operating Income (NOI) for a rental property.",
+      "Apply the 1% rule to quickly screen potential rental properties.",
+      "Calculate capitalization rate (cap rate) and interpret what it means.",
+      "Determine cash-on-cash return for a leveraged investment.",
+    ],
+    definitions: [
+      {
+        term: "Net Operating Income (NOI)",
+        definition: "Gross rental income minus vacancy losses minus all operating expenses (excluding mortgage).",
+        example: "Gross Rent $1,800 − $90 Vacancy − $400 Expenses = $1,310 NOI per month.",
+      },
+      {
+        term: "Capitalization Rate (Cap Rate)",
+        definition: "Annual NOI divided by the property's purchase price. Measures the return independent of financing.",
+        example: "Annual NOI $15,720 ÷ $200,000 purchase price = 7.86% cap rate.",
+      },
+      {
+        term: "1% Rule",
+        definition: "A quick screening tool: monthly rent should be at least 1% of the purchase price to likely cash flow positively.",
+        example: "A $150,000 property should rent for at least $1,500/month to pass the 1% rule.",
+      },
+      {
+        term: "Cash-on-Cash Return",
+        definition: "Annual pre-tax cash flow divided by the total cash invested. Measures actual return on your out-of-pocket money.",
+      },
+    ],
+    resources: [
+      {
+        id: "red-02-workbook",
+        type: "workbook",
+        label: "Cash Flow Analysis Workbook",
+        url: "/downloads/red-02-workbook.pdf",
+        format: "PDF",
+        fileSize: "1.4 MB",
+        description: "Step-by-step workbook to analyze any rental property for cash flow.",
+      },
+      {
+        id: "red-02-template",
+        type: "template",
+        label: "Cash Flow Calculator Spreadsheet",
+        url: "/downloads/red-02-cashflow-calculator.xlsx",
+        format: "XLSX",
+        fileSize: "0.6 MB",
+        description: "Pre-built spreadsheet to enter property numbers and instantly see NOI, cap rate, and cash-on-cash return.",
+      },
+      {
+        id: "red-02-checklist",
+        type: "checklist",
+        label: "Property Due Diligence Checklist",
+        url: "/downloads/red-02-due-diligence-checklist.pdf",
+        format: "PDF",
+        fileSize: "0.3 MB",
+      },
+    ],
+    reflectionQuestions: [
+      {
+        id: "red-02-r1",
+        question: "If a property has a 5% cap rate and another has an 8% cap rate, which would you choose and why?",
+        hint: "Consider what a higher cap rate typically indicates about the property and the market.",
+      },
+      {
+        id: "red-02-r2",
+        question: "What operating expenses are investors most likely to underestimate when analyzing a rental property?",
+        hint: "Think beyond the obvious — consider vacancy, repairs, property management, and insurance.",
+      },
+      {
+        id: "red-02-r3",
+        question: "How does using a mortgage (leverage) affect your cash-on-cash return compared to paying all cash?",
+      },
+    ],
+    aiCoach: {
+      enabled: true,
+      socratiсQuestions: [
+        "Walk me through how you would calculate NOI on a property with $1,800/month gross rent, 5% vacancy, and $450/month in operating expenses.",
+        "A property costs $180,000 and rents for $1,500/month. Does it pass the 1% rule? What does that tell you?",
+        "Why do experienced investors use cap rate instead of monthly cash flow to compare two properties?",
+        "What is the danger of ignoring vacancy rate when analyzing a rental property?",
+        "If your cash-on-cash return is lower than a high-yield savings account, what does that suggest about the deal?",
+      ],
+      recommendedLessonIds: ["red-03", "red-04"],
+    },
+    suggestedNextLessonId: "red-03",
   },
   "red-03": {
     id: "red-03",
@@ -579,10 +787,83 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "What Is Financial Literacy?",
     duration: "12 min",
+    estimatedMinutes: 20,
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     description: "The foundation of all financial education: understanding money, how it works, and why most people lose.",
     notes: "Financial literacy is not taught in schools by design. Your job is to self-educate and then act on what you learn.",
     order: 1,
+    closedCaptionsAvailable: true,
+    publicationStatus: "published",
+    version: "1.0.0",
+    objectives: [
+      "Define financial literacy and explain why it is rarely taught in formal education.",
+      "Identify the gap between financial knowledge and financial action.",
+      "Describe the three wealth tracks: Real Estate, Paper Assets, and Business.",
+      "Commit to a personal financial education plan.",
+    ],
+    definitions: [
+      {
+        term: "Financial Literacy",
+        definition: "The ability to understand and effectively use personal financial skills including budgeting, investing, and managing debt.",
+      },
+      {
+        term: "Financial Competency",
+        definition: "Financial literacy translated into consistent, disciplined action that improves financial outcomes over time.",
+        example: "Knowing how to budget is literacy. Actually building and following a budget every month is competency.",
+      },
+      {
+        term: "Wealth Track",
+        definition: "One of Edunancial's three primary investment categories: RED (Real Estate), WHITE (Paper Assets), and BLUE (Business).",
+      },
+    ],
+    resources: [
+      {
+        id: "ff-01-workbook",
+        type: "workbook",
+        label: "Financial Literacy Foundations Workbook",
+        url: "/downloads/ff-01-workbook.pdf",
+        format: "PDF",
+        fileSize: "1.0 MB",
+        description: "Begin your financial education journey with guided exercises and self-assessment.",
+      },
+      {
+        id: "ff-01-checklist",
+        type: "checklist",
+        label: "Financial Self-Assessment Checklist",
+        url: "/downloads/ff-01-self-assessment.pdf",
+        format: "PDF",
+        fileSize: "0.3 MB",
+        description: "Identify your current financial knowledge gaps and priority learning areas.",
+      },
+    ],
+    reflectionQuestions: [
+      {
+        id: "ff-01-r1",
+        question: "What financial concepts do you wish you had learned earlier in life? Why?",
+        hint: "Think about decisions you made — or watched others make — that could have gone differently with better knowledge.",
+      },
+      {
+        id: "ff-01-r2",
+        question: "What is the difference between knowing something financially and actually doing it?",
+        hint: "Most people know they should save. Why do so many not do it consistently?",
+      },
+      {
+        id: "ff-01-r3",
+        question: "Which of the three tracks — Real Estate, Paper Assets, or Business — feels most aligned with your strengths and interests right now?",
+      },
+    ],
+    aiCoach: {
+      enabled: true,
+      socratiсQuestions: [
+        "What does it mean to be financially literate versus financially competent?",
+        "Why do you think financial education is rarely part of school curricula?",
+        "What is one financial decision you would make differently if you had learned these concepts five years ago?",
+        "How would your daily financial habits need to change to close the gap between knowing and doing?",
+        "Which of the three wealth tracks interests you most and what draws you to it?",
+      ],
+      recommendedLessonIds: ["ff-02", "ff-03"],
+    },
+    suggestedNextLessonId: "ff-02",
   },
   "ff-02": {
     id: "ff-02",
