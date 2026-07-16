@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { useNorthAmericaLaunchLanguage } from "@/components/international/BilingualContent";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 export interface VideoSource {
   type: "mp4" | "youtube" | "vimeo";
@@ -35,14 +35,6 @@ export interface SuccessStory {
 interface MemberSuccessStoriesProps {
   stories?: SuccessStory[];
 }
-
-const sectionCopy = {
-  eyebrow: { en: "Member Success Stories", es: "Historias de éxito de miembros", "fr-CA": "Témoignages de membres", "fr-FR": "Témoignages de membres" },
-  heading: { en: "Real results from real members", es: "Resultados reales de miembros reales", "fr-CA": "De vrais résultats de vrais membres", "fr-FR": "De vrais résultats de vrais membres" },
-  body: { en: "Member experiences and outcomes will be shared here as they are gathered from the community.", es: "Las experiencias y resultados de los miembros se compartirán aquí a medida que se recopilen de la comunidad.", "fr-CA": "Les expériences et les résultats des membres seront partagés ici à mesure qu'ils seront recueillis auprès de la communauté.", "fr-FR": "Les expériences et les résultats des membres seront partagés ici à mesure qu'ils seront recueillis auprès de la communauté." },
-  lessonsLearned: { en: "Lessons learned", es: "Lecciones aprendidas", "fr-CA": "Leçons retenues", "fr-FR": "Leçons retenues" },
-  videoUnsupported: { en: "Your browser does not support the video element.", es: "Su navegador no admite el elemento de video.", "fr-CA": "Votre navigateur ne prend pas en charge l'élément vidéo.", "fr-FR": "Votre navigateur ne prend pas en charge l'élément vidéo." },
-} as const;
 
 function StoryVideoPlayer({
   video,
@@ -158,7 +150,9 @@ function StoryCard({ story, lessonsTitle, unsupportedLabel }: { story: SuccessSt
               <ul className="mt-3 space-y-2" aria-label={lessonsTitle}>
                 {story.lessonsLearned.map((lesson, index) => (
                   <li key={index} className="flex gap-3 text-sm leading-6 text-slate-300">
-                    <span className="mt-0.5 shrink-0 text-yellow-400" aria-hidden="true">•</span>
+                    <span className="mt-0.5 shrink-0 text-yellow-400" aria-hidden="true">
+                      •
+                    </span>
                     {lesson}
                   </li>
                 ))}
@@ -179,17 +173,16 @@ function StoryCard({ story, lessonsTitle, unsupportedLabel }: { story: SuccessSt
 }
 
 export default function MemberSuccessStories({ stories = [] }: MemberSuccessStoriesProps) {
-  const language = useNorthAmericaLaunchLanguage();
-  const t = <K extends keyof typeof sectionCopy>(key: K) => sectionCopy[key][language] ?? sectionCopy[key].en;
+  const { t } = useInternationalPreferences();
 
   return (
     <section aria-labelledby="homepage-success-stories-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
       <div>
-        <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">{t("eyebrow")}</p>
+        <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">{t("memberStories.eyebrow")}</p>
         <h2 id="homepage-success-stories-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">
-          {t("heading")}
+          {t("memberStories.heading")}
         </h2>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">{t("body")}</p>
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">{t("memberStories.body")}</p>
       </div>
 
       {stories.length > 0 && (
@@ -198,8 +191,8 @@ export default function MemberSuccessStories({ stories = [] }: MemberSuccessStor
             <StoryCard
               key={story.id}
               story={story}
-              lessonsTitle={t("lessonsLearned")}
-              unsupportedLabel={t("videoUnsupported")}
+              lessonsTitle={t("memberStories.lessonsLearned")}
+              unsupportedLabel={t("memberStories.videoUnsupported")}
             />
           ))}
         </div>

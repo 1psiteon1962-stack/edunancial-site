@@ -2,33 +2,24 @@
 
 import Link from "next/link";
 
-import { useNorthAmericaLaunchLanguage } from "@/components/international/BilingualContent";
-import { EDUNANCIAL_CERTIFICATE_DISCLAIMER } from "@/lib/positioning";
-import { getMembershipFeatureLabel, getMembershipPlanCopy } from "@/lib/membershipCopy";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import {
+  getMembershipFeatureLabel,
+  getMembershipPlanCopy,
+  resolveMembershipCopyLanguage,
+} from "@/lib/membershipCopy";
 import { publicMembershipPlans } from "@/types/membership";
 
-const copy = {
-  feature: { en: "Feature", es: "Característica", "fr-CA": "Fonctionnalité", "fr-FR": "Fonctionnalité" },
-  contactUs: { en: "Contact Us", es: "Contáctenos", "fr-CA": "Nous contacter", "fr-FR": "Nous contacter" },
-  select: { en: "Select", es: "Seleccionar", "fr-CA": "Sélectionner", "fr-FR": "Sélectionner" },
-  certificateDisclaimer: {
-    en: EDUNANCIAL_CERTIFICATE_DISCLAIMER,
-    es: "Este certificado reconoce la finalización de un módulo de alfabetización financiera o competencia financiera de Edunancial. No es un título académico, licencia profesional, credencial regulada ni prueba de acreditación.",
-    "fr-CA": "Ce certificat reconnaît l'achèvement d'un module de littératie financière ou de compétence financière d'Edunancial. Il ne constitue pas un diplôme académique, une licence professionnelle, un titre réglementé ni une preuve d'accréditation.",
-    "fr-FR": "Ce certificat reconnaît l'achèvement d'un module de littératie financière ou de compétence financière d'Edunancial. Il ne constitue pas un diplôme académique, une licence professionnelle, un titre réglementé ni une preuve d'accréditation.",
-  },
-} as const;
-
 export default function PricingTable() {
-  const language = useNorthAmericaLaunchLanguage();
-  const t = <K extends keyof typeof copy>(key: K) => copy[key][language] ?? copy[key].en;
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const language = resolveMembershipCopyLanguage(effectiveLanguage);
 
   return (
     <section className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
       <table className="min-w-full border-collapse">
         <thead className="bg-slate-100">
           <tr>
-            <th className="px-6 py-5 text-left text-lg font-bold">{t("feature")}</th>
+            <th className="px-6 py-5 text-left text-lg font-bold">{t("pricingTable.feature")}</th>
             {publicMembershipPlans.map((plan) => {
               const membershipCopy = getMembershipPlanCopy(plan.id, language);
 
@@ -82,7 +73,7 @@ export default function PricingTable() {
                   href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
                   className="inline-flex rounded-xl bg-blue-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
                 >
-                  {plan.showContactOnly ? t("contactUs") : t("select")}
+                  {plan.showContactOnly ? t("pricingTable.contactUs") : t("pricingTable.select")}
                 </Link>
               </td>
             ))}
@@ -91,7 +82,7 @@ export default function PricingTable() {
       </table>
 
       <div className="border-t border-slate-200 px-6 py-5 text-sm leading-7 text-slate-600">
-        {t("certificateDisclaimer")}
+        {t("pricingTable.certificateDisclaimer")}
       </div>
     </section>
   );

@@ -1,5 +1,21 @@
 export type MembershipCopyLanguage = "en" | "es" | "fr-CA" | "fr-FR";
 
+export function resolveMembershipCopyLanguage(language: string): MembershipCopyLanguage {
+  if (language === "es") {
+    return "es";
+  }
+
+  if (language === "fr-FR") {
+    return "fr-FR";
+  }
+
+  if (language === "fr" || language === "fr-CA") {
+    return "fr-CA";
+  }
+
+  return "en";
+}
+
 const MEMBERSHIP_PLAN_COPY = {
   basic: {
     name: {
