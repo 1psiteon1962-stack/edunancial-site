@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
@@ -27,16 +27,19 @@ function ActiveLanguageButton({
   expanded: boolean;
 }) {
   const lang = LANGUAGE_CATALOG.find((l) => l.code === effectiveLanguage);
-  const nativeLabel = lang?.nativeLabel ?? effectiveLanguage;
+  // Strip the "(Region)" qualifier for compact display (e.g., "English (United States)" → "English")
+  const rawLabel = lang?.nativeLabel ?? effectiveLanguage;
+  const shortLabel = rawLabel.replace(/\s*\([^)]+\)$/, "");
 
   return (
     <button
       type="button"
       aria-expanded={expanded}
+      aria-haspopup="listbox"
       onClick={onClick}
       className="flex items-center gap-1.5 rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-200 hover:border-slate-500 hover:text-white"
     >
-      🌐 <span>{nativeLabel}</span>
+      🌐 <span>{shortLabel}</span>
     </button>
   );
 }
@@ -46,6 +49,22 @@ export default function Navbar() {
   const [languageOpen, setLanguageOpen] = useState(false);
   const { t, effectiveLanguage } = useInternationalPreferences();
   const { user, logout, loading } = useAuth();
+  const languageDropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close language dropdown when clicking outside
+  useEffect(() => {
+    if (!languageOpen) return;
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        languageDropdownRef.current &&
+        !languageDropdownRef.current.contains(event.target as Node)
+      ) {
+        setLanguageOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [languageOpen]);
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#08101f]/95 backdrop-blur">
@@ -71,7 +90,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <div className="relative">
+          <div className="relative" ref={languageDropdownRef}>
             <ActiveLanguageButton
               effectiveLanguage={effectiveLanguage}
               onClick={() => setLanguageOpen((previous) => !previous)}
