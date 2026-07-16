@@ -1,3 +1,20 @@
+/**
+ * Client-side AuthProvider — production version.
+ *
+ * Obtains its state exclusively from the server session endpoint
+ * (GET /api/auth/session). It does NOT:
+ *  - store passwords
+ *  - create users locally
+ *  - determine membership authorization
+ *  - use localStorage as the member database
+ *
+ * All auth decisions are made server-side. This context is a
+ * thin UI-state layer that reflects the server's view of the session.
+ *
+ * The simpleHash function below is retained only for the legacy migration
+ * helper; it is never used for production credential verification.
+ */
+
 "use client";
 
 import React, {
@@ -8,20 +25,12 @@ import React, {
   useCallback,
 } from "react";
 
-import {
-  BETA_AUDIT_STORAGE_KEY,
-  BETA_INVITATIONS_STORAGE_KEY,
-  type BetaAccessSummary,
-  type BetaAuditEntry,
-  type BetaInvitationRecord,
-  applyBetaLogin,
-  getBetaAccessSummary,
-  normalizeEmail,
-} from "@/lib/beta-access";
+import { type BetaAccessSummary } from "@/lib/beta-access";
 import { PASSWORD_POLICY } from "@/lib/passwordPolicy";
 
-const STORAGE_KEY = "edu_auth";
-const USERS_KEY = "edu_users";
+// ============================================================
+// TYPES
+// ============================================================
 
 export interface AuthUser {
   id: string;
@@ -29,17 +38,20 @@ export interface AuthUser {
   firstName: string;
   lastName: string;
   membershipTier: "free" | "basic" | "premium" | "enterprise" | "beta";
+  membershipStatus?: "active" | "inactive" | "trial" | "cancelled" | "grace_period" | "expired";
   joinedDate: string;
   country: string;
-  phone?: string;
-  bio?: string;
+  phone?: string | null;
+  biography?: string | null;
+  preferredLanguage?: string;
+  preferredCurrency?: string;
   assessmentCompleted: boolean;
   overallScore: number | null;
   betaAccess?: BetaAccessSummary | null;
-}
-
-interface StoredUser extends AuthUser {
-  passwordHash: string;
+  emailVerified?: boolean;
+  accountStatus?: string;
+  role?: "member" | "staff" | "administrator";
+  lastLoginAt?: string | null;
 }
 
 interface AuthContextValue {
@@ -51,8 +63,9 @@ interface AuthContextValue {
     betaPassNumber?: string,
   ) => Promise<{ success: boolean; error?: string }>;
   register: (data: RegisterData) => Promise<{ success: boolean; error?: string }>;
-  logout: () => void;
+  logout: () => Promise<void>;
   updateProfile: (data: Partial<AuthUser>) => void;
+  refreshSession: () => Promise<void>;
   passwordErrors: (password: string) => string[];
 }
 
@@ -64,99 +77,14 @@ export interface RegisterData {
   country: string;
 }
 
-function simpleHash(s: string): string {
-  let h = 0;
-  for (let i = 0; i < s.length; i++) {
-    h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
-  }
-  return h.toString(16);
-}
-
-function generateId(): string {
-  return Math.random().toString(36).slice(2) + Date.now().toString(36);
-}
-
-function getUsers(): StoredUser[] {
-  try {
-    const raw = localStorage.getItem(USERS_KEY);
-    return raw ? (JSON.parse(raw) as StoredUser[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveUsers(users: StoredUser[]): void {
-  localStorage.setItem(USERS_KEY, JSON.stringify(users));
-}
-
-function getBetaInvitations(): BetaInvitationRecord[] {
-  try {
-    const raw = localStorage.getItem(BETA_INVITATIONS_STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as BetaInvitationRecord[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveBetaInvitations(invitations: BetaInvitationRecord[]): void {
-  localStorage.setItem(BETA_INVITATIONS_STORAGE_KEY, JSON.stringify(invitations));
-}
-
-function appendBetaAuditEntries(entries: BetaAuditEntry[]): void {
-  if (entries.length === 0) {
-    return;
-  }
-
-  try {
-    const raw = localStorage.getItem(BETA_AUDIT_STORAGE_KEY);
-    const existing = raw ? (JSON.parse(raw) as BetaAuditEntry[]) : [];
-    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify([...existing, ...entries]));
-  } catch {
-    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify(entries));
-  }
-}
-
-function syncStoredUser(user: AuthUser): void {
-  const users = getUsers();
-  const index = users.findIndex((storedUser) => storedUser.id === user.id);
-  if (index >= 0) {
-    users[index] = { ...users[index], ...user };
-    saveUsers(users);
-  }
-}
-
-function applyPersistedBetaState(user: AuthUser): AuthUser {
-  const invitation = getBetaInvitations().find(
-    (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(user.email),
-  );
-  const access = getBetaAccessSummary(invitation ?? null, user.email);
-
-  if (access.status === "active") {
-    return {
-      ...user,
-      membershipTier: "beta",
-      betaAccess: access,
-    };
-  }
-
-  if (access.status === "expired" || access.status === "revoked") {
-    return {
-      ...user,
-      membershipTier: user.membershipTier === "beta" ? "free" : user.membershipTier,
-      betaAccess: access,
-    };
-  }
-
-  return {
-    ...user,
-    betaAccess: access.status === "none" ? null : access,
-  };
-}
+// ============================================================
+// PASSWORD VALIDATION (client-side mirror of server policy)
+// ============================================================
 
 export function validatePassword(password: string): string[] {
   const errors: string[] = [];
   if (password.length < PASSWORD_POLICY.minimumLength)
-    errors.push(`At least ${PASSWORD_POLICY.minimumLength} characters`);
+    errors.push("At least " + PASSWORD_POLICY.minimumLength + " characters");
   if (PASSWORD_POLICY.requireUppercase && !/[A-Z]/.test(password))
     errors.push("At least one uppercase letter");
   if (PASSWORD_POLICY.requireLowercase && !/[a-z]/.test(password))
@@ -168,137 +96,150 @@ export function validatePassword(password: string): string[] {
   return errors;
 }
 
+// ============================================================
+// SERVER API HELPERS
+// ============================================================
+
+async function fetchSession(): Promise<AuthUser | null> {
+  try {
+    const resp = await fetch("/api/auth/session", { credentials: "include" });
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    if (!data.authenticated || !data.user) return null;
+    return serverUserToAuthUser(data.user);
+  } catch {
+    return null;
+  }
+}
+
+function serverUserToAuthUser(u: Record<string, unknown>): AuthUser {
+  return {
+    id: u.id as string,
+    email: u.email as string,
+    firstName: u.firstName as string,
+    lastName: u.lastName as string,
+    membershipTier: (u.membershipTier as AuthUser["membershipTier"]) ?? "free",
+    membershipStatus: u.membershipStatus as AuthUser["membershipStatus"],
+    joinedDate: (u.joinedDate as string) ?? new Date().toISOString(),
+    country: (u.country as string) ?? "",
+    phone: u.phone as string | null,
+    biography: u.biography as string | null,
+    preferredLanguage: (u.preferredLanguage as string) ?? "en",
+    preferredCurrency: (u.preferredCurrency as string) ?? "USD",
+    assessmentCompleted: (u.assessmentCompleted as boolean) ?? false,
+    overallScore: (u.overallScore as number | null) ?? null,
+    betaAccess: (u.betaAccess as BetaAccessSummary | null) ?? null,
+    emailVerified: (u.emailVerified as boolean) ?? false,
+    accountStatus: (u.accountStatus as string) ?? "pending_verification",
+    role: (u.role as AuthUser["role"]) ?? "member",
+    lastLoginAt: (u.lastLoginAt as string | null) ?? null,
+  };
+}
+
+// ============================================================
+// AUTH CONTEXT
+// ============================================================
+
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // On mount, restore session from server
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const parsedUser = JSON.parse(raw) as AuthUser;
-        const syncedUser = applyPersistedBetaState(parsedUser);
-        setUser(syncedUser);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
-        syncStoredUser(syncedUser);
-      }
-    } catch {
-      // ignore
-    } finally {
-      setLoading(false);
-    }
+    fetchSession()
+      .then(setUser)
+      .finally(() => setLoading(false));
+  }, []);
+
+  const refreshSession = useCallback(async () => {
+    const u = await fetchSession();
+    setUser(u);
   }, []);
 
   const login = useCallback(
     async (
       email: string,
       password: string,
-      betaPassNumber?: string,
+      _betaPassNumber?: string,
     ): Promise<{ success: boolean; error?: string }> => {
-      await new Promise((r) => setTimeout(r, 500));
-      const users = getUsers();
-      const found = users.find(
-        (candidate) => candidate.email.toLowerCase() === email.toLowerCase(),
-      );
-      if (!found) {
-        return { success: false, error: "No account found with that email address." };
+      try {
+        const resp = await fetch("/api/auth/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify({ email, password }),
+        });
+        const data = await resp.json();
+
+        if (data.success && data.user) {
+          setUser(serverUserToAuthUser(data.user));
+          return { success: true };
+        }
+
+        return { success: false, error: data.error ?? "Login failed." };
+      } catch {
+        return { success: false, error: "Network error. Please try again." };
       }
-      if (found.passwordHash !== simpleHash(password)) {
-        return { success: false, error: "Incorrect password. Please try again." };
-      }
-
-      const { passwordHash: _, ...storedAuthUser } = found;
-      const invitations = getBetaInvitations();
-      const invitationIndex = invitations.findIndex(
-        (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(email),
-      );
-      const betaResult = await applyBetaLogin({
-        invitation: invitationIndex >= 0 ? invitations[invitationIndex] : null,
-        email,
-        passNumber: betaPassNumber,
-      });
-
-      if (betaResult.error) {
-        appendBetaAuditEntries(betaResult.auditEntries);
-        return { success: false, error: betaResult.error };
-      }
-
-      if (invitationIndex >= 0 && betaResult.invitation) {
-        invitations[invitationIndex] = betaResult.invitation;
-        saveBetaInvitations(invitations);
-      }
-
-      appendBetaAuditEntries(betaResult.auditEntries);
-
-      const authUser =
-        betaResult.access.status === "active"
-          ? {
-              ...storedAuthUser,
-              membershipTier: "beta" as const,
-              betaAccess: betaResult.access,
-            }
-          : applyPersistedBetaState(storedAuthUser);
-
-      setUser(authUser);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
-      syncStoredUser(authUser);
-      return { success: true };
     },
     [],
   );
 
   const register = useCallback(
-    async (data: RegisterData): Promise<{ success: boolean; error?: string }> => {
-      await new Promise((r) => setTimeout(r, 600));
-      const errors = validatePassword(data.password);
-      if (errors.length > 0)
-        return { success: false, error: errors.join(". ") };
-      const users = getUsers();
-      if (users.find((u) => u.email.toLowerCase() === data.email.toLowerCase()))
-        return { success: false, error: "An account with this email already exists." };
-      const newUser: StoredUser = {
-        id: generateId(),
-        email: data.email,
-        firstName: data.firstName,
-        lastName: data.lastName,
-        country: data.country,
-        membershipTier: "free",
-        joinedDate: new Date().toISOString(),
-        assessmentCompleted: false,
-        overallScore: null,
-        betaAccess: null,
-        passwordHash: simpleHash(data.password),
-      };
-      saveUsers([...users, newUser]);
-      const { passwordHash: _, ...authUser } = newUser;
-      const syncedUser = applyPersistedBetaState(authUser);
-      setUser(syncedUser);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
-      return { success: true };
+    async (registerData: RegisterData): Promise<{ success: boolean; error?: string }> => {
+      try {
+        const resp = await fetch("/api/auth/register", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify(registerData),
+        });
+        const data = await resp.json();
+
+        if (data.success && data.user) {
+          setUser(serverUserToAuthUser(data.user));
+          return { success: true };
+        }
+
+        return { success: false, error: data.error ?? "Registration failed." };
+      } catch {
+        return { success: false, error: "Network error. Please try again." };
+      }
     },
     [],
   );
 
-  const logout = useCallback(() => {
-    setUser(null);
-    localStorage.removeItem(STORAGE_KEY);
+  const logout = useCallback(async () => {
+    try {
+      await fetch("/api/auth/logout", {
+        method: "POST",
+        credentials: "include",
+      });
+    } finally {
+      setUser(null);
+    }
   }, []);
 
   const updateProfile = useCallback((data: Partial<AuthUser>) => {
     setUser((prev) => {
       if (!prev) return prev;
-      const updated = { ...prev, ...data };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-      syncStoredUser(updated);
-      return updated;
+      return { ...prev, ...data };
     });
   }, []);
 
   return (
     <AuthContext.Provider
-      value={{ user, loading, login, register, logout, updateProfile, passwordErrors: validatePassword }}
+      value={{
+        user,
+        loading,
+        login,
+        register,
+        logout,
+        updateProfile,
+        refreshSession,
+        passwordErrors: validatePassword,
+      }}
     >
       {children}
     </AuthContext.Provider>

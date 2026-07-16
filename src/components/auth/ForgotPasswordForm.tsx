@@ -17,8 +17,23 @@ export default function ForgotPasswordForm() {
       return;
     }
     setLoading(true);
-    // Simulate sending reset email
-    await new Promise((r) => setTimeout(r, 800));
+    try {
+      const resp = await fetch("/api/auth/forgot-password", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await resp.json();
+      if (!resp.ok && !data.success) {
+        setError(data.error ?? "Failed to send reset email. Please try again.");
+        setLoading(false);
+        return;
+      }
+    } catch {
+      setError("Network error. Please try again.");
+      setLoading(false);
+      return;
+    }
     setLoading(false);
     setSent(true);
   }
