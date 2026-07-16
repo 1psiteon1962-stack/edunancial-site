@@ -14,13 +14,18 @@
     "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
     "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",
     "curriculum:test": "node --test scripts/curriculum/tests/*.test.mjs",
+    "auth:test": "node --test scripts/auth/tests/*.test.mjs",
     "international:test": "node --experimental-specifier-resolution=node --test scripts/international/tests/preferences.test.ts",
     "regionalization:test": "node --experimental-strip-types --test scripts/regionalization/tests/engine.test.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && mkdir -p .test-dist/node_modules && ln -sfn ../src .test-dist/node_modules/@ && node --test $(find .test-dist/src -name '*.test.js' -print | sort)"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.6",
+    "@types/bcryptjs": "^2.4.6",
     "autoprefixer": "^10.4.20",
+    "bcryptjs": "^3.0.3",
+    "iron-session": "^8.0.4",
     "next": "^15.5.19",
     "postcss": "^8.5.3",
     "react": "^19.0.0",

@@ -43,7 +43,7 @@ export default function ProfileClient() {
         email: user.email,
         phone: user.phone ?? "",
         country: user.country ?? "",
-        bio: user.bio ?? "",
+        bio: user.biography ?? "",
       });
     }
   }, [user, loading, router]);
@@ -70,7 +70,7 @@ export default function ProfileClient() {
       lastName: form.lastName,
       phone: form.phone,
       country: form.country,
-      bio: form.bio,
+      biography: form.bio,
     });
     setSaving(false);
     setSaved(true);
