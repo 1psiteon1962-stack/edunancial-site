@@ -9,6 +9,13 @@ import {
 } from "./languages";
 import { parseCountryCodeFromLanguageTag, resolveRegion } from "./detection";
 import {
+  buildRegionalPreferenceCookie,
+  decodeRegionalPreferenceCookie,
+  getRegionalPreferenceCookieKey,
+  resolveRegionalPreference,
+  type StoredRegionalPreference,
+} from "./preference-engine";
+import {
   resolveDefaultPaymentMethod,
   type GlobalUserPreferences,
   type LanguageSelectionSource,
@@ -29,6 +36,7 @@ type LegacyInternationalPreferences = {
 export const INTERNATIONAL_PREFERENCES_STORAGE_KEY = "edunancial:international-preferences";
 export const INTERNATIONAL_BANNER_DISMISSED_STORAGE_KEY =
   "edunancial:international-banner-dismissed";
+export const INTERNATIONAL_PREFERENCES_COOKIE_KEY = getRegionalPreferenceCookieKey();
 
 function getDefaultTimezone() {
   return Intl.DateTimeFormat().resolvedOptions().timeZone || "America/New_York";
@@ -82,6 +90,23 @@ function getUserScopedKey(userId: string) {
 
 function isClient() {
   return typeof window !== "undefined";
+}
+
+function parseCookieValue(key: string): string | null {
+  if (!isClient()) {
+    return null;
+  }
+
+  const cookie = document.cookie
+    .split(";")
+    .map((entry) => entry.trim())
+    .find((entry) => entry.startsWith(`${key}=`));
+
+  if (!cookie) {
+    return null;
+  }
+
+  return cookie.slice(key.length + 1);
 }
 
 function resolveLanguageSource(
@@ -148,7 +173,39 @@ export function loadInternationalPreferences(): InternationalPreferences | null 
     }
   }
 
-  return parseStoredPreferences(localStorage.getItem(INTERNATIONAL_PREFERENCES_STORAGE_KEY));
+  const storagePreference = parseStoredPreferences(
+    localStorage.getItem(INTERNATIONAL_PREFERENCES_STORAGE_KEY)
+  );
+  if (storagePreference) {
+    return storagePreference;
+  }
+
+  const cookiePreference = decodeRegionalPreferenceCookie(
+    parseCookieValue(INTERNATIONAL_PREFERENCES_COOKIE_KEY)
+  );
+  if (!cookiePreference) {
+    return null;
+  }
+
+  const resolved = resolveRegionalPreference({
+    cookiePreference,
+  });
+
+  return {
+    preferredLanguage: normalizeLanguageCode(resolved.language),
+    preferredCurrency: resolved.currency,
+    country: resolved.country.toLowerCase(),
+    region: resolved.region,
+    timeZone: getDefaultTimezone(),
+    dateFormat: resolveDateFormat(resolved.country),
+    numberFormat: resolveNumberFormat(resolved.country),
+    measurementSystem: resolveMeasurementSystem(resolved.country),
+    preferredPaymentMethod: resolveDefaultPaymentMethod(
+      resolved.region,
+      resolved.country.toLowerCase()
+    ),
+    languageSelectionSource: resolveLanguageSource("user-confirmed"),
+  };
 }
 
 export function saveInternationalPreferences(preferences: InternationalPreferences) {
@@ -160,6 +217,12 @@ export function saveInternationalPreferences(preferences: InternationalPreferenc
   const encoded = JSON.stringify(preferences);
 
   localStorage.setItem(INTERNATIONAL_PREFERENCES_STORAGE_KEY, encoded);
+  document.cookie = buildRegionalPreferenceCookie({
+    language: preferences.preferredLanguage,
+    currency: preferences.preferredCurrency,
+    country: preferences.country.toUpperCase(),
+    region: preferences.region,
+  } satisfies StoredRegionalPreference);
 
   if (user?.id) {
     localStorage.setItem(getUserScopedKey(user.id), encoded);
@@ -167,22 +230,39 @@ export function saveInternationalPreferences(preferences: InternationalPreferenc
 }
 
 export function detectInitialInternationalPreferences() {
-  const browserLanguage = typeof navigator !== "undefined" ? navigator.language : DEFAULT_LANGUAGE_CODE;
+  const browserLanguage =
+    typeof navigator !== "undefined" ? navigator.language : DEFAULT_LANGUAGE_CODE;
   const timezone = isClient() ? getDefaultTimezone() : "America/New_York";
   const country = parseCountryCodeFromLanguageTag(browserLanguage);
   const region = resolveRegion(country, timezone);
-  const preferredLanguage = resolveLanguage(browserLanguage);
+  const cookiePreference = decodeRegionalPreferenceCookie(
+    parseCookieValue(INTERNATIONAL_PREFERENCES_COOKIE_KEY)
+  );
+  const resolved = resolveRegionalPreference({
+    cookiePreference: cookiePreference ?? undefined,
+    browserLanguages: [browserLanguage],
+    countrySelection: country.toUpperCase(),
+    geoDetection: {
+      enabled: true,
+      country: country.toUpperCase(),
+      region,
+    },
+  });
+  const preferredLanguage = resolveLanguage(resolved.language);
 
   return {
     preferredLanguage,
-    preferredCurrency: resolveCurrency(country, region),
-    country,
-    region,
+    preferredCurrency: resolved.currency ?? resolveCurrency(country, region),
+    country: resolved.country.toLowerCase(),
+    region: resolved.region,
     timeZone: timezone,
-    dateFormat: resolveDateFormat(country),
-    numberFormat: resolveNumberFormat(country),
-    measurementSystem: resolveMeasurementSystem(country),
-    preferredPaymentMethod: resolveDefaultPaymentMethod(region, country),
+    dateFormat: resolveDateFormat(resolved.country),
+    numberFormat: resolveNumberFormat(resolved.country),
+    measurementSystem: resolveMeasurementSystem(resolved.country),
+    preferredPaymentMethod: resolveDefaultPaymentMethod(
+      resolved.region,
+      resolved.country.toLowerCase()
+    ),
     languageSelectionSource: "detected",
   } satisfies InternationalPreferences;
 }

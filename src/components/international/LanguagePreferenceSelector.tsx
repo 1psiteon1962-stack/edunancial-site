@@ -7,6 +7,7 @@ import {
   LANGUAGE_CATALOG,
   normalizeLanguageCode,
 } from "@/lib/international/languages";
+import { getPublicLanguageCodes } from "@/lib/international/global-regional-architecture";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 type LanguagePreferenceSelectorProps = {
@@ -34,8 +35,13 @@ export default function LanguagePreferenceSelector({
   const [searchValue, setSearchValue] = useState("");
   const settings = getStoredLanguageAdminSettings();
   const enabledLanguages = useMemo(() => {
+    const regionPublicLanguages = new Set(getPublicLanguageCodes(preferences.region as string));
+    const fallbackLanguages = new Set(NORTH_AMERICA_LAUNCH_LANGUAGE_CODES);
     const available = LANGUAGE_CATALOG.filter((language) =>
-      settings.enabledLanguages.includes(language.code)
+      settings.enabledLanguages.includes(language.code) &&
+      (regionPublicLanguages.size === 0
+        ? fallbackLanguages.has(language.code as (typeof NORTH_AMERICA_LAUNCH_LANGUAGE_CODES)[number])
+        : regionPublicLanguages.has(language.code))
     );
 
     if (preferences.region !== "north-america") {

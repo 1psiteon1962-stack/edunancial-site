@@ -1,56 +1,9 @@
 import type { MetadataRoute } from "next";
 
 import { APAC_LOCALES } from "@/config/asia-pacific";
-import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import { resolveSeoAlternates } from "@/lib/international/global-regional-architecture";
 
 const SITE_URL = "https://www.edunancial.com";
-const ACTIVE_LOCALE_CODES = new Set([
-  "en",
-  "es",
-  "fr",
-  "pt",
-  "de",
-  "it",
-  "nl",
-  "ht",
-  "pap",
-  "pl",
-  "cs",
-  "sk",
-  "ro",
-  "bg",
-  "lt",
-  "lv",
-  "et",
-  "ru",
-  "be",
-  "ar",
-  "he",
-  "fa",
-  "prs",
-  "ps",
-  "hi",
-  "ur",
-  "bn",
-  "ta",
-  "sw",
-  "lg",
-  "yo",
-  "ig",
-  "ha",
-  "zu",
-  "am",
-  "ja",
-  "ko",
-  "zh-Hans",
-  "zh-Hant",
-  "th",
-  "vi",
-  "ms",
-  "id",
-  "fil",
-]);
-
 const PATHS = [
   "",
   "/about",
@@ -84,12 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return PATHS.map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: new Date(),
-    alternates: {
-      languages: Object.fromEntries(
-        LANGUAGE_CATALOG.filter((language) => ACTIVE_LOCALE_CODES.has(language.code)).map(
-          (language) => [language.code, `${SITE_URL}/${language.code}${path}`]
-        )
-      ),
-    },
+    alternates: path === "" ? { languages: resolveSeoAlternates({ canonicalPath: "/" }) } : undefined,
   }));
 }

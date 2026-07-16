@@ -7,17 +7,14 @@ import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import DetectedPreferencesBanner from "@/components/international/DetectedPreferencesBanner";
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { Providers } from "@/components/Providers";
-import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import { resolveSeoAlternates } from "@/lib/international/global-regional-architecture";
 import {
   EDUNANCIAL_IDENTITY,
   EDUNANCIAL_LONG_DESCRIPTION,
 } from "@/lib/positioning";
 
 const siteUrl = "https://www.edunancial.com";
-const languageAlternates = Object.fromEntries(
-  LANGUAGE_CATALOG.map((language) => [language.code, `${siteUrl}/${language.code}/`])
-);
-languageAlternates["x-default"] = siteUrl;
+const languageAlternates = resolveSeoAlternates({ canonicalPath: "/" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
