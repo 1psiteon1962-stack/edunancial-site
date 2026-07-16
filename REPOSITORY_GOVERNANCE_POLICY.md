@@ -2,6 +2,8 @@
 
 Repository: `1psiteon1962-stack/edunancial-site`
 
+> **Note:** The `EXECUTIVE_WORKFLOW_POLICY.md` at the root of this repository is the authoritative executive standard. This document supplements it and remains in force for all matters not addressed there.
+
 This policy applies immediately to the North American site and shall become the standard for every future Edunancial regional repository (Latin America, Caribbean, Europe, Africa, Asia, and all subsequent deployments).
 
 ## Task Lifecycle

@@ -1,5 +1,7 @@
 # Repository Workflow Policy
 
+> **Note:** The `EXECUTIVE_WORKFLOW_POLICY.md` at the root of this repository is the authoritative executive standard. This document supplements it and remains in force for all matters not addressed there.
+
 Effective immediately, all coding agents working in this repository must follow this workflow for every task.
 
 1. Create a dedicated feature branch for the assigned task.
