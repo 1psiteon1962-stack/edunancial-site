@@ -2,8 +2,8 @@ import type { SupportedLanguage } from "@/lib/admin-content/types";
 
 const LANGUAGE_HEURISTICS: Record<SupportedLanguage, RegExp[]> = {
   en: [/\b(the|and|lesson|course|financial|business)\b/i],
-  es: [/\b(el|la|de|para|curso|leccion|finanzas)\b/i],
-  fr: [/\b(le|la|les|des|cours|lecon|finance)\b/i],
+  es: [/\b(el|curso|leccion|finanzas|bienes|raices|inversionistas)\b/i],
+  fr: [/\b(le|les|des|cours|lecon|finance|politique|confidentialite)\b/i],
   "fr-CA": [/\b(bonjour|quebec|canadien|canadienne|canada)\b/i],
 };
 

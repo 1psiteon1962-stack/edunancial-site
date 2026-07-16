@@ -31,7 +31,7 @@ function serializeSession(session: AdminSession) {
   return `${payload}.${sign(payload)}`;
 }
 
-function parseSession(value: string | undefined | null): AdminSession | null {
+export function parseAdminSessionValue(value: string | undefined | null): AdminSession | null {
   if (!value) return null;
   const [payload, signature] = value.split(".");
   if (!payload || !signature) return null;
@@ -99,6 +99,10 @@ export async function createAdminSession(email: string) {
   return session;
 }
 
+export function createSignedSessionValue(session: AdminSession) {
+  return serializeSession(session);
+}
+
 export async function clearAdminSession() {
   const cookieStore = await cookies();
   cookieStore.set(ADMIN_SESSION_COOKIE, "", { httpOnly: true, path: "/", expires: new Date(0) });
@@ -107,7 +111,7 @@ export async function clearAdminSession() {
 
 export async function getAdminSession() {
   const cookieStore = await cookies();
-  return parseSession(cookieStore.get(ADMIN_SESSION_COOKIE)?.value);
+  return parseAdminSessionValue(cookieStore.get(ADMIN_SESSION_COOKIE)?.value);
 }
 
 export async function requireAdminPageSession() {
@@ -119,7 +123,7 @@ export async function requireAdminPageSession() {
 }
 
 export async function requireAdminApiSession(request: Request, stateChanging = false) {
-  const session = parseSession(request.headers.get("cookie")?.match(new RegExp(`${ADMIN_SESSION_COOKIE}=([^;]+)`))?.[1] ?? null);
+  const session = parseAdminSessionValue(request.headers.get("cookie")?.match(new RegExp(`${ADMIN_SESSION_COOKIE}=([^;]+)`))?.[1] ?? null);
   if (!session) {
     return { ok: false as const, response: NextResponse.json({ error: "Unauthorized" }, { status: 401 }) };
   }

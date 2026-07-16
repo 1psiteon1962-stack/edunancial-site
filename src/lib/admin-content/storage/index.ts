@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 import { DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
@@ -227,4 +227,9 @@ export function getAdminContentStorage(): AdminContentStorage {
 
 export function getLocalAdminStorageFiles() {
   return existsSync(LOCAL_ROOT) ? readdirSync(LOCAL_ROOT, { recursive: true }) : [];
+}
+
+export function resetAdminContentStorage() {
+  cachedStorage = null;
+  rmSync(LOCAL_ROOT, { recursive: true, force: true });
 }

@@ -26,7 +26,7 @@ export type ZipEntryRecord = {
 };
 
 export function normalizeUploadFilename(name: string) {
-  const raw = name.replaceAll("\\", "/").split("/").filter(Boolean).at(-1) ?? "upload";
+  const raw = name.replaceAll("\\", " ").replaceAll("/", " ").trim() || "upload";
   const extension = extname(raw).toLowerCase();
   const stem = raw.slice(0, raw.length - extension.length) || "upload";
   const normalizedStem = slugify(stem).replace(/^-+|-+$/g, "") || "upload";
@@ -77,7 +77,7 @@ export function validateFileType(name: string, mimeType: string, buffer: Buffer)
   const detectedMime = detectMimeType(buffer, mimeType || "application/octet-stream");
   const allowedMimes = EXTENSION_TO_MIME[extension] ?? [];
   const looksText = [".txt", ".md", ".mdx", ".json", ".csv", ".svg"].includes(extension);
-  if (!looksText && allowedMimes.length > 0 && !allowedMimes.includes(detectedMime) && !allowedMimes.includes(mimeType)) {
+  if (!looksText && allowedMimes.length > 0 && !allowedMimes.includes(detectedMime)) {
     throw new Error(`MIME type ${detectedMime} does not match ${extension}`);
   }
 
