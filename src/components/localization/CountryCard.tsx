@@ -1,31 +1,20 @@
-export default function CountryCard(){
+"use client";
 
-return(
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-<div className="rounded-xl border shadow p-6">
+export default function CountryCard() {
+  const { t } = useInternationalPreferences();
 
-<h3 className="text-2xl font-bold">
-
-Country Profile
-
-</h3>
-
-<ul className="mt-4 space-y-2">
-
-<li>Language</li>
-
-<li>Currency</li>
-
-<li>Pricing</li>
-
-<li>Payment Methods</li>
-
-<li>Marketplace</li>
-
-</ul>
-
-</div>
-
-);
-
+  return (
+    <div className="rounded-xl border p-6 shadow">
+      <h3 className="text-2xl font-bold">{t("globalExpansion.countryCard.title")}</h3>
+      <ul className="mt-4 space-y-2">
+        <li>{t("globalExpansion.countryCard.language")}</li>
+        <li>{t("globalExpansion.countryCard.currency")}</li>
+        <li>{t("globalExpansion.countryCard.pricing")}</li>
+        <li>{t("globalExpansion.countryCard.paymentMethods")}</li>
+        <li>{t("globalExpansion.countryCard.marketplace")}</li>
+      </ul>
+    </div>
+  );
 }
