@@ -53,5 +53,6 @@
   "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
   "selector.defaultPrompt": "Would you like to make this your default language?",
   "selector.setDefault.yes": "Yes, set as default",
-  "selector.setDefault.no": "No, just for this session"
+  "selector.setDefault.no": "No, just for this session",
+  "nav.marketplace": "ገበያ"
 }

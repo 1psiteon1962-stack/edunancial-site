@@ -53,5 +53,6 @@
   "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
   "selector.defaultPrompt": "您想将此设为默认语言吗？",
   "selector.setDefault.yes": "是，设为默认",
-  "selector.setDefault.no": "否，仅用于本次访问"
+  "selector.setDefault.no": "否，仅用于本次访问",
+  "nav.marketplace": "市场"
 }

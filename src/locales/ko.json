@@ -53,5 +53,6 @@
   "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
   "selector.defaultPrompt": "이 언어를 기본 언어로 설정하시겠습니까?",
   "selector.setDefault.yes": "예, 기본값으로 설정",
-  "selector.setDefault.no": "아니요, 이 세션만"
+  "selector.setDefault.no": "아니요, 이 세션만",
+  "nav.marketplace": "마켓플레이스"
 }

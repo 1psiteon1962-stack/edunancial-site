@@ -53,5 +53,6 @@
   "legal.translationReview": "Human legal review recommended before publishing localized legal copy.",
   "selector.defaultPrompt": "您想將此設為預設語言嗎？",
   "selector.setDefault.yes": "是，設為預設",
-  "selector.setDefault.no": "否，僅用於本次訪問"
+  "selector.setDefault.no": "否，僅用於本次訪問",
+  "nav.marketplace": "市場"
 }
