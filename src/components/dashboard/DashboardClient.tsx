@@ -10,6 +10,7 @@ import {
   getDashboardData,
 } from "@/lib/dashboard/dashboard-service";
 import { formatRemainingBetaTime } from "@/lib/beta-access";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 const SUBSCRIPTION_STYLES = {
   "Member Access": "border-slate-400/40 bg-slate-500/10 text-slate-200",
@@ -92,6 +93,7 @@ function StatCard({
 export default function DashboardClient() {
   const { user, loading } = useAuth();
   const router = useRouter();
+  const { t } = useInternationalPreferences();
 
   useEffect(() => {
     if (!loading && !user) {
@@ -104,7 +106,7 @@ export default function DashboardClient() {
   if (loading || !user || !dashboardData) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-[#08101f]">
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-400">{t("dashboard.loading")}</p>
       </main>
     );
   }
@@ -119,18 +121,16 @@ export default function DashboardClient() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div className="max-w-3xl">
               <p className="text-sm font-bold uppercase tracking-[0.45em] text-yellow-400">
-                Member Dashboard
+                {t("dashboard.label")}
               </p>
               <h1 className="mt-4 text-4xl font-black sm:text-5xl">
-                Welcome back, {dashboardData.memberName}
+                {t("dashboard.welcome", { name: dashboardData.memberName })}
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-                Your North American learning experience keeps your subscription, learning
-                paths, competency progress, certificates, downloads, and announcements in one
-                accessible place.
+                {t("dashboard.description")}
               </p>
               <div className={`mt-5 inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold ${subscriptionStyle}`}>
-                {dashboardData.subscriptionLevel} subscription
+                {t("dashboard.subscription", { level: dashboardData.subscriptionLevel })}
               </div>
             </div>
 
@@ -139,19 +139,19 @@ export default function DashboardClient() {
                 href="/continue-learning"
                 className="rounded-xl bg-blue-600 px-5 py-3 font-bold transition hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
               >
-                Continue Learning
+                {t("dashboard.continueLearning")}
               </Link>
               <Link
                 href="/my-certificates"
                 className="rounded-xl border border-slate-600 px-5 py-3 font-bold text-slate-200 transition hover:border-white hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                My Certificates
+                {t("dashboard.myCertificates")}
               </Link>
               <Link
                 href="/profile"
                 className="rounded-xl border border-yellow-500/60 px-5 py-3 font-bold text-yellow-200 transition hover:bg-yellow-500/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300"
               >
-                My Profile
+                {t("dashboard.myProfile")}
               </Link>
             </nav>
           </div>
@@ -159,41 +159,39 @@ export default function DashboardClient() {
 
         {user.betaAccess?.status === "active" && (
           <section className="mt-8 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-6">
-            <h2 className="text-2xl font-black text-emerald-200">Beta Tester access is active</h2>
+            <h2 className="text-2xl font-black text-emerald-200">{t("dashboard.betaActive.heading")}</h2>
             <p className="mt-3 max-w-3xl text-slate-100">
-              Your beta window began at first successful login and expires 72 hours later.
+              {t("dashboard.betaActive.body")}
             </p>
             <p className="mt-3 text-sm font-semibold text-emerald-100">
               {formatRemainingBetaTime(user.betaAccess.remainingMs)}
             </p>
             <p className="mt-3 text-sm text-slate-200">
-              Please submit feedback before access ends so Edunancial can improve the membership
-              platform before wider release.
+              {t("dashboard.betaActive.feedback")}
             </p>
             <Link
               href="/beta/feedback"
               className="mt-5 inline-flex rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950 transition hover:bg-emerald-400"
             >
-              Submit Beta Feedback
+              {t("dashboard.betaActive.cta")}
             </Link>
           </section>
         )}
 
         {user.betaAccess?.status === "expired" && (
           <section className="mt-8 rounded-2xl border border-yellow-500/30 bg-yellow-500/10 p-6">
-            <h2 className="text-2xl font-black text-yellow-200">Beta access has expired</h2>
+            <h2 className="text-2xl font-black text-yellow-200">{t("dashboard.betaExpired.heading")}</h2>
             <p className="mt-3 max-w-3xl text-slate-100">
-              Your account, progress, and prior feedback are still available. Beta access ended 72
-              hours after your first successful login and did not auto-bill or auto-convert.
+              {t("dashboard.betaExpired.body")}
             </p>
             <p className="mt-3 text-sm text-slate-200">
-              Continue with Individual Membership for $19.99/month whenever you are ready.
+              {t("dashboard.betaExpired.upgrade")}
             </p>
             <Link
               href="/membership/checkout?plan=basic"
               className="mt-5 inline-flex rounded-xl bg-yellow-400 px-5 py-3 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Start Individual Membership
+              {t("dashboard.betaExpired.cta")}
             </Link>
           </section>
         )}

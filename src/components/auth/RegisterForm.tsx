@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth, validatePassword } from "@/lib/authContext";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 const COUNTRIES = [
   "United States",
@@ -19,9 +20,19 @@ const COUNTRIES = [
   "Other",
 ];
 
+/** Maps each password requirement to the English string validatePassword() returns and a translation key. */
+const PASSWORD_REQUIREMENTS = [
+  { en: "At least 12 characters", key: "auth.password.minLength" },
+  { en: "At least one uppercase letter", key: "auth.password.uppercase" },
+  { en: "At least one lowercase letter", key: "auth.password.lowercase" },
+  { en: "At least one number", key: "auth.password.number" },
+  { en: "At least one special character (!@#$%^&*)", key: "auth.password.special" },
+] as const;
+
 export default function RegisterForm() {
   const { register } = useAuth();
   const router = useRouter();
+  const { t } = useInternationalPreferences();
 
   const [form, setForm] = useState({
     firstName: "",
@@ -46,19 +57,19 @@ export default function RegisterForm() {
     e.preventDefault();
     setError("");
     if (!form.firstName || !form.lastName || !form.email || !form.password || !form.country) {
-      setError("Please complete all required fields.");
+      setError(t("auth.errors.required"));
       return;
     }
     if (passwordErrors.length > 0) {
-      setError("Password does not meet security requirements.");
+      setError(t("auth.errors.passwordWeak"));
       return;
     }
     if (form.password !== form.confirmPassword) {
-      setError("Passwords do not match.");
+      setError(t("auth.errors.passwordMismatch"));
       return;
     }
     if (!form.agree) {
-      setError("You must agree to the Terms of Use and Privacy Policy.");
+      setError(t("auth.errors.mustAgree"));
       return;
     }
     setLoading(true);
@@ -73,7 +84,7 @@ export default function RegisterForm() {
     if (result.success) {
       router.push("/verify-email");
     } else {
-      setError(result.error ?? "Registration failed.");
+      setError(result.error ?? t("auth.errors.registrationFailed"));
     }
   }
 
@@ -82,15 +93,14 @@ export default function RegisterForm() {
       <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
-            Membership Registration
+            {t("auth.register.label")}
           </p>
-          <h1 className="mt-4 text-4xl font-bold">Create Your Account</h1>
+          <h1 className="mt-4 text-4xl font-bold">{t("auth.register.heading")}</h1>
           <p className="mt-3 text-slate-400">
-            Begin building your Financial Competency today.
+            {t("auth.register.subheading")}
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            If you were invited as a Beta Tester, register with the approved email address first,
-            then enter your pass number on first login to start the 72-hour beta window.
+            {t("auth.register.betaNote")}
           </p>
         </div>
 
@@ -104,7 +114,7 @@ export default function RegisterForm() {
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor="reg-first" className="mb-2 block text-sm font-semibold">
-                First Name <span className="text-red-400">*</span>
+                {t("auth.register.firstNameLabel")} <span className="text-red-400">*</span>
               </label>
               <input
                 id="reg-first"
@@ -113,13 +123,13 @@ export default function RegisterForm() {
                 value={form.firstName}
                 onChange={(e) => set("firstName", e.target.value)}
                 className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-                placeholder="First name"
+                placeholder={t("auth.register.firstNamePlaceholder")}
                 required
               />
             </div>
             <div>
               <label htmlFor="reg-last" className="mb-2 block text-sm font-semibold">
-                Last Name <span className="text-red-400">*</span>
+                {t("auth.register.lastNameLabel")} <span className="text-red-400">*</span>
               </label>
               <input
                 id="reg-last"
@@ -128,7 +138,7 @@ export default function RegisterForm() {
                 value={form.lastName}
                 onChange={(e) => set("lastName", e.target.value)}
                 className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-                placeholder="Last name"
+                placeholder={t("auth.register.lastNamePlaceholder")}
                 required
               />
             </div>
@@ -136,7 +146,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-email" className="mb-2 block text-sm font-semibold">
-              Email Address <span className="text-red-400">*</span>
+              {t("auth.register.emailLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-email"
@@ -145,14 +155,14 @@ export default function RegisterForm() {
               value={form.email}
               onChange={(e) => set("email", e.target.value)}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-              placeholder="you@example.com"
+              placeholder={t("auth.register.emailPlaceholder")}
               required
             />
           </div>
 
           <div>
             <label htmlFor="reg-country" className="mb-2 block text-sm font-semibold">
-              Country <span className="text-red-400">*</span>
+              {t("auth.register.countryLabel")} <span className="text-red-400">*</span>
             </label>
             <select
               id="reg-country"
@@ -161,7 +171,7 @@ export default function RegisterForm() {
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white focus:border-blue-500 focus:outline-none"
               required
             >
-              <option value="">Select your country</option>
+              <option value="">{t("auth.register.countryPlaceholder")}</option>
               {COUNTRIES.map((c) => (
                 <option key={c} value={c}>{c}</option>
               ))}
@@ -170,7 +180,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-password" className="mb-2 block text-sm font-semibold">
-              Password <span className="text-red-400">*</span>
+              {t("auth.register.passwordLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-password"
@@ -190,17 +200,11 @@ export default function RegisterForm() {
             />
             {form.password.length > 0 && (
               <ul className="mt-2 space-y-1 text-xs">
-                {[
-                  "At least 12 characters",
-                  "At least one uppercase letter",
-                  "At least one lowercase letter",
-                  "At least one number",
-                  "At least one special character (!@#$%^&*)",
-                ].map((req) => {
-                  const met = !passwordErrors.includes(req);
+                {PASSWORD_REQUIREMENTS.map((req) => {
+                  const met = !passwordErrors.includes(req.en);
                   return (
-                    <li key={req} className={met ? "text-green-400" : "text-slate-400"}>
-                      {met ? "✓" : "○"} {req}
+                    <li key={req.key} className={met ? "text-green-400" : "text-slate-400"}>
+                      {met ? "✓" : "○"} {t(req.key)}
                     </li>
                   );
                 })}
@@ -210,7 +214,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-confirm" className="mb-2 block text-sm font-semibold">
-              Confirm Password <span className="text-red-400">*</span>
+              {t("auth.register.confirmPasswordLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-confirm"
@@ -238,13 +242,13 @@ export default function RegisterForm() {
               className="mt-0.5 shrink-0"
             />
             <span>
-              I agree to the{" "}
+              {t("auth.register.agreeLabel")}{" "}
               <Link href="/terms" className="text-blue-400 underline">
-                Terms of Use
+                {t("auth.register.termsLink")}
               </Link>{" "}
-              and{" "}
+              {t("auth.register.and")}{" "}
               <Link href="/privacy" className="text-blue-400 underline">
-                Privacy Policy
+                {t("auth.register.privacyLink")}
               </Link>
               .
             </span>
@@ -255,13 +259,14 @@ export default function RegisterForm() {
             disabled={loading}
             className="w-full rounded-xl bg-blue-600 py-3 text-base font-bold text-white transition hover:bg-blue-700 disabled:opacity-60"
           >
-            {loading ? "Creating account…" : "Create Account"}
+            {loading ? "…" : t("auth.register.submit")}
           </button>
         </form>
 
         <div className="mt-6 text-center text-sm">
+          <span className="text-slate-400">{t("auth.register.haveAccount")}</span>{" "}
           <Link href="/login" className="text-blue-400 hover:underline">
-            Already have an account? Sign in
+            {t("auth.register.signIn")}
           </Link>
         </div>
       </div>
