@@ -18,7 +18,7 @@
     "international:test": "node --experimental-specifier-resolution=node --test scripts/international/tests/preferences.test.ts",
     "regionalization:test": "node --experimental-strip-types --test scripts/regionalization/tests/engine.test.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && node --test .test-dist/src/lib/ai/guardrails.test.js .test-dist/src/lib/ai/country-selection.test.js .test-dist/src/lib/dashboard/dashboard-service.test.js .test-dist/src/lib/beta-access.test.js .test-dist/src/lib/positioning.test.js"
+    "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && mkdir -p .test-dist/node_modules && ln -sfn ../src .test-dist/node_modules/@ && node --test $(find .test-dist/src -name '*.test.js' -print | sort)"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.6",
