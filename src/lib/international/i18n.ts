@@ -40,6 +40,12 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   ht: htMessages,
 };
 
+export function reportMissingTranslation(languageCode: string, key: string) {
+  if (typeof console !== "undefined") {
+    console.warn(`[i18n] Missing translation: key="${key}" language="${languageCode}"`);
+  }
+}
+
 export function translate(
   languageCode: string,
   key: string,
@@ -48,6 +54,15 @@ export function translate(
   const normalizedLanguage = normalizeLanguageCode(languageCode);
   const catalog = messageCatalogs[normalizedLanguage] ?? messageCatalogs[DEFAULT_LANGUAGE_CODE];
   const fallbackCatalog = messageCatalogs[DEFAULT_LANGUAGE_CODE];
+
+  const inCatalog = catalog?.[key] !== undefined;
+  const inFallback = fallbackCatalog?.[key] !== undefined;
+
+  if (!inCatalog && !inFallback) {
+    reportMissingTranslation(normalizedLanguage, key);
+  } else if (!inCatalog && inFallback && normalizedLanguage !== DEFAULT_LANGUAGE_CODE) {
+    reportMissingTranslation(normalizedLanguage, key);
+  }
 
   const template = catalog?.[key] ?? fallbackCatalog?.[key] ?? key;
 

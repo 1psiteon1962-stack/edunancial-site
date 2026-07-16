@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import { useAuth } from "@/lib/authContext";
 
 const navigation = [
@@ -16,10 +17,34 @@ const navigation = [
   { key: "nav.contact", href: "/contact" },
 ];
 
+function ActiveLanguageButton({
+  effectiveLanguage,
+  onClick,
+  expanded,
+}: {
+  effectiveLanguage: string;
+  onClick: () => void;
+  expanded: boolean;
+}) {
+  const lang = LANGUAGE_CATALOG.find((l) => l.code === effectiveLanguage);
+  const nativeLabel = lang?.nativeLabel ?? effectiveLanguage;
+
+  return (
+    <button
+      type="button"
+      aria-expanded={expanded}
+      onClick={onClick}
+      className="flex items-center gap-1.5 rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-200 hover:border-slate-500 hover:text-white"
+    >
+      🌐 <span>{nativeLabel}</span>
+    </button>
+  );
+}
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
-  const { t } = useInternationalPreferences();
+  const { t, effectiveLanguage } = useInternationalPreferences();
   const { user, logout, loading } = useAuth();
 
   return (
@@ -46,7 +71,18 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <LanguagePreferenceSelector />
+          <div className="relative">
+            <ActiveLanguageButton
+              effectiveLanguage={effectiveLanguage}
+              onClick={() => setLanguageOpen((previous) => !previous)}
+              expanded={languageOpen}
+            />
+            {languageOpen && (
+              <div className="absolute right-0 top-full z-50 mt-2 min-w-[16rem]">
+                <LanguagePreferenceSelector compact />
+              </div>
+            )}
+          </div>
           {!loading && (
             <>
               {user ? (
@@ -85,18 +121,14 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
-          <button
-            type="button"
-            aria-label={t("selector.globe")}
-            aria-expanded={languageOpen}
+          <ActiveLanguageButton
+            effectiveLanguage={effectiveLanguage}
             onClick={() => {
               setLanguageOpen((previous) => !previous);
               setMenuOpen(true);
             }}
-            className="rounded-lg border border-slate-700 px-3 py-2"
-          >
-            🌐
-          </button>
+            expanded={languageOpen}
+          />
           <button
             type="button"
             aria-label={t("nav.menu")}
@@ -157,3 +189,4 @@ export default function Navbar() {
     </header>
   );
 }
+
