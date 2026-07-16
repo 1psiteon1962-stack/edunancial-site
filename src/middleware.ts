@@ -28,6 +28,14 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
+  if (request.nextUrl.pathname.startsWith("/admin")) {
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
+    response.headers.set(
+      "Content-Security-Policy",
+      "default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+    );
+  }
+
   logger.info("request.completed", {
     requestId,
     method: request.method,
@@ -40,5 +48,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/kpi/export"],
+  matcher: ["/api/:path*", "/admin/:path*"],
 };
