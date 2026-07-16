@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { LANGUAGE_CATALOG, normalizeLanguageCode } from "@/lib/international/languages";
 import { useAuth } from "@/lib/authContext";
 
 const navigation = [
@@ -18,9 +19,13 @@ const navigation = [
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [languageOpen, setLanguageOpen] = useState(false);
-  const { t } = useInternationalPreferences();
+  const { t, effectiveLanguage } = useInternationalPreferences();
   const { user, logout, loading } = useAuth();
+
+  const currentLanguageLabel =
+    LANGUAGE_CATALOG.find(
+      (lang) => lang.code === normalizeLanguageCode(effectiveLanguage)
+    )?.nativeLabel ?? effectiveLanguage;
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#08101f]/95 backdrop-blur">
@@ -87,15 +92,13 @@ export default function Navbar() {
         <div className="flex items-center gap-2 lg:hidden">
           <button
             type="button"
-            aria-label={t("selector.globe")}
-            aria-expanded={languageOpen}
-            onClick={() => {
-              setLanguageOpen((previous) => !previous);
-              setMenuOpen(true);
-            }}
-            className="rounded-lg border border-slate-700 px-3 py-2"
+            aria-label={t("selector.toggle")}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((previous) => !previous)}
+            className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-white"
           >
-            🌐
+            <span aria-hidden="true">🌐</span>
+            <span className="max-w-[80px] truncate">{currentLanguageLabel}</span>
           </button>
           <button
             type="button"
@@ -109,7 +112,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {(menuOpen || languageOpen) && (
+      {menuOpen && (
         <div className="border-t border-slate-800 px-6 py-4 lg:hidden">
           <div className="mb-4">
             <LanguagePreferenceSelector compact />
