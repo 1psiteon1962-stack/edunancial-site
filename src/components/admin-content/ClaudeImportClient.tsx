@@ -1,0 +1,328 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+
+const EXAMPLE_JSON = JSON.stringify(
+  {
+    title: "Real Estate Investing Fundamentals",
+    subtitle: "Your first steps toward financial freedom through property",
+    description:
+      "A comprehensive introduction to real estate investing for beginners.",
+    path: "red",
+    language: "en",
+    difficulty: "beginner",
+    duration: "6 hours",
+    membershipTier: "free",
+    instructorName: "Marcus Thompson",
+    tags: ["real-estate", "investing", "beginner"],
+    categories: ["Real Estate"],
+    learningObjectives: [
+      "Understand how real estate creates wealth",
+      "Identify profitable investment properties",
+      "Learn financing options for first-time investors",
+    ],
+    prerequisites: ["Basic financial literacy"],
+    modules: [
+      {
+        title: "Introduction to Real Estate",
+        description: "Overview of the real estate market",
+        lessons: [
+          {
+            title: "Why Real Estate?",
+            description: "The case for real estate as a wealth-building vehicle",
+            duration: "15 min",
+            content:
+              "Real estate has created more millionaires than any other investment class...",
+          },
+          {
+            title: "Types of Properties",
+            description: "Residential, commercial, industrial",
+            duration: "20 min",
+          },
+        ],
+      },
+      {
+        title: "Finding Your First Property",
+        lessons: [
+          {
+            title: "Market Analysis",
+            duration: "25 min",
+            blocks: [
+              {
+                type: "text",
+                title: "Introduction",
+                content: "Before buying, analyze the market...",
+                url: null,
+                mediaId: null,
+                order: 0,
+              },
+              {
+                type: "video",
+                title: "Market Analysis Tutorial",
+                content: "",
+                url: "https://www.youtube.com/watch?v=example",
+                mediaId: null,
+                order: 1,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  null,
+  2,
+);
+
+export default function ClaudeImportClient() {
+  const router = useRouter();
+  const [input, setInput] = useState("");
+  const [preview, setPreview] = useState<Record<string, unknown> | null>(null);
+  const [errors, setErrors] = useState<string[]>([]);
+  const [importing, setImporting] = useState(false);
+  const [previewing, setPreviewing] = useState(false);
+  const [csrfToken, setCsrfToken] = useState("");
+
+  useEffect(() => {
+    fetch("/api/admin/auth/session", { cache: "no-store" })
+      .then((response) => response.json())
+      .then((data) => setCsrfToken(data.csrfToken ?? ""))
+      .catch(() => {});
+  }, []);
+
+  async function handlePreview() {
+    setPreviewing(true);
+    setErrors([]);
+    setPreview(null);
+
+    try {
+      const payload = JSON.parse(input);
+      const response = await fetch("/api/admin/import", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-csrf-token": csrfToken,
+        },
+        body: JSON.stringify({ action: "preview", payload }),
+      });
+      const data = await response.json();
+      if (!response.ok || !data.ok) {
+        setErrors(data.errors || [data.error || "Validation failed"]);
+        return;
+      }
+
+      setPreview(data);
+    } catch (error) {
+      setErrors([
+        `JSON parse error: ${error instanceof Error ? error.message : String(error)}`,
+      ]);
+    } finally {
+      setPreviewing(false);
+    }
+  }
+
+  async function handleImport() {
+    if (!preview) return;
+
+    setImporting(true);
+    try {
+      const payload = JSON.parse(input);
+      const response = await fetch("/api/admin/import", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-csrf-token": csrfToken,
+        },
+        body: JSON.stringify({ action: "import", payload }),
+      });
+      const data = await response.json();
+      if (!response.ok || !data.ok) {
+        setErrors(data.errors || [data.error || "Import failed"]);
+        return;
+      }
+
+      router.push(`/admin/courses/${data.courseId}`);
+    } catch {
+      setErrors(["Import failed"]);
+    } finally {
+      setImporting(false);
+    }
+  }
+
+  return (
+    <main className="min-h-screen bg-[#08101f] px-6 py-12 text-white">
+      <div className="mx-auto max-w-4xl">
+        <p className="text-sm uppercase tracking-[0.3em] text-blue-300">
+          Admin → Courses
+        </p>
+        <h1 className="mt-2 text-4xl font-black">Import Course from Claude</h1>
+        <p className="mt-3 text-slate-400">
+          Paste a JSON course package generated by Claude or another tool. Preview
+          before importing.
+        </p>
+
+        <div className="mt-8 grid gap-6 lg:grid-cols-2">
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h2 className="font-bold">Course JSON</h2>
+              <button
+                onClick={() => setInput(EXAMPLE_JSON)}
+                className="text-xs text-blue-400 hover:text-blue-300"
+              >
+                Load example
+              </button>
+            </div>
+            <textarea
+              className="h-80 w-full resize-none rounded-2xl border border-white/10 bg-[#101a2f] p-4 font-mono text-xs text-slate-200 outline-none focus:border-blue-500/40"
+              value={input}
+              onChange={(event) => {
+                setInput(event.target.value);
+                setPreview(null);
+                setErrors([]);
+              }}
+              placeholder="Paste JSON here…"
+            />
+            <div className="flex gap-3">
+              <button
+                onClick={handlePreview}
+                disabled={!input.trim() || previewing}
+                className="rounded-xl bg-blue-600 px-5 py-2.5 font-semibold hover:bg-blue-500 disabled:opacity-60"
+              >
+                {previewing ? "Validating…" : "Preview"}
+              </button>
+              <button
+                onClick={() => {
+                  setInput("");
+                  setPreview(null);
+                  setErrors([]);
+                }}
+                className="rounded-xl border border-white/20 px-5 py-2.5 font-semibold text-slate-300 hover:border-white/40"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="font-bold">Preview</h2>
+
+            {errors.length > 0 && (
+              <div className="rounded-2xl border border-red-500/30 bg-red-500/10 p-4">
+                <p className="mb-2 text-sm font-semibold text-red-300">
+                  Validation errors:
+                </p>
+                <ul className="list-inside list-disc space-y-1">
+                  {errors.map((error, index) => (
+                    <li key={index} className="text-xs text-red-300">
+                      {error}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {preview && (
+              <div className="space-y-3">
+                <div className="rounded-2xl border border-green-500/20 bg-[#101a2f] p-4">
+                  <p className="mb-3 text-sm font-semibold text-green-300">
+                    ✓ Valid — ready to import
+                  </p>
+                  <div className="space-y-1.5 text-sm">
+                    <Row
+                      label="Title"
+                      value={String((preview.preview as Record<string, unknown>)?.title ?? "")}
+                    />
+                    <Row
+                      label="Path"
+                      value={String(
+                        (preview.preview as Record<string, unknown>)?.path ?? "",
+                      ).toUpperCase()}
+                    />
+                    <Row
+                      label="Language"
+                      value={String(
+                        (preview.preview as Record<string, unknown>)?.language ?? "",
+                      )}
+                    />
+                    <Row
+                      label="Difficulty"
+                      value={String(
+                        (preview.preview as Record<string, unknown>)?.difficulty ?? "",
+                      )}
+                    />
+                    <Row label="Modules" value={String(preview.moduleCount ?? 0)} />
+                    <Row label="Lessons" value={String(preview.lessonCount ?? 0)} />
+                    <Row
+                      label="Membership"
+                      value={String(
+                        (preview.preview as Record<string, unknown>)?.membershipTier ??
+                          "free",
+                      )}
+                    />
+                  </div>
+                </div>
+
+                <div className="flex gap-3">
+                  <button
+                    onClick={handleImport}
+                    disabled={importing}
+                    className="rounded-xl bg-green-600 px-5 py-2.5 font-semibold hover:bg-green-500 disabled:opacity-60"
+                  >
+                    {importing ? "Importing…" : "Import Course"}
+                  </button>
+                  <button
+                    onClick={() => setPreview(null)}
+                    className="rounded-xl border border-white/20 px-5 py-2.5 font-semibold text-slate-300 hover:border-white/40"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {!preview && errors.length === 0 && (
+              <div className="rounded-2xl border border-white/10 bg-[#101a2f] p-8 text-center text-slate-500">
+                Paste JSON and click Preview to validate
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-white/10 bg-[#101a2f] p-6">
+          <h2 className="mb-3 font-bold">Required Fields</h2>
+          <div className="grid gap-2 text-sm sm:grid-cols-2">
+            {[
+              ["title", "string", "Course title"],
+              ["path", '"red" | "white" | "blue"', "Learning path"],
+              ["language", '"en" | "es" | "fr"', "Course language"],
+              ["modules[].title", "string", "Module title"],
+            ].map(([field, type, description]) => (
+              <div
+                key={field}
+                className="flex gap-2 rounded-lg border border-white/5 bg-[#0a1020] px-3 py-2"
+              >
+                <span className="font-mono text-blue-300">{field}</span>
+                <span className="text-slate-500">{type}</span>
+                <span className="text-slate-400">{description}</span>
+              </div>
+            ))}
+          </div>
+          <p className="mt-3 text-xs text-slate-500">
+            See <code className="rounded bg-[#0a1020] px-1.5 py-0.5">docs/CLAUDE_COURSE_CONTENT_STANDARD.md</code>{" "}
+            for the complete specification.
+          </p>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+function Row({ label, value }: { label: string; value: string }) {
+  return (
+    <p>
+      <span className="text-slate-500">{label}:</span>{" "}
+      <span className="font-medium text-white">{value}</span>
+    </p>
+  );
+}
