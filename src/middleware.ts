@@ -6,6 +6,55 @@ import {
   generateRequestId,
 } from "@/lib/observability/tracing";
 
+const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
+
+function base64urlDecode(str: string): string {
+  const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
+  const padded = base64 + "=".repeat((4 - (base64.length % 4 || 4)) % 4);
+
+  try {
+    return atob(padded);
+  } catch {
+    throw new Error("Invalid base64url");
+  }
+}
+
+function getAdminSessionFromCookie(value: string | undefined): {
+  valid: boolean;
+  expired: boolean;
+} {
+  if (!value) {
+    return { valid: false, expired: false };
+  }
+
+  const dotIdx = value.lastIndexOf(".");
+  if (dotIdx < 0) {
+    return { valid: false, expired: false };
+  }
+
+  const payload = value.slice(0, dotIdx);
+
+  try {
+    const json = JSON.parse(base64urlDecode(payload)) as {
+      expiresAt?: number;
+      email?: string;
+      csrfToken?: string;
+    };
+
+    if (!json.email || !json.csrfToken || typeof json.expiresAt !== "number") {
+      return { valid: false, expired: false };
+    }
+
+    if (json.expiresAt <= Date.now()) {
+      return { valid: true, expired: true };
+    }
+
+    return { valid: true, expired: false };
+  } catch {
+    return { valid: false, expired: false };
+  }
+}
+
 export function middleware(request: NextRequest) {
   const start = Date.now();
   const requestId =
@@ -17,18 +66,40 @@ export function middleware(request: NextRequest) {
   requestHeaders.set(REQUEST_ID_HEADER, requestId);
   requestHeaders.set(CORRELATION_ID_HEADER, requestId);
 
-  const response = NextResponse.next({
-    request: {
-      headers: requestHeaders,
-    },
-  });
+  const { pathname } = request.nextUrl;
+  const isAdminPath = pathname.startsWith("/admin");
+  const isAdminLoginPath = pathname === "/admin/login";
+  const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
+
+  let response =
+    isAdminPath && !isAdminLoginPath && !isAdminAuthApiPath
+      ? (() => {
+          const session = getAdminSessionFromCookie(
+            request.cookies.get(ADMIN_SESSION_COOKIE)?.value,
+          );
+
+          if (!session.valid || session.expired) {
+            return NextResponse.redirect(new URL("/admin/login", request.url));
+          }
+
+          return NextResponse.next({
+            request: {
+              headers: requestHeaders,
+            },
+          });
+        })()
+      : NextResponse.next({
+          request: {
+            headers: requestHeaders,
+          },
+        });
 
   const durationMs = Date.now() - start;
 
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
-  if (request.nextUrl.pathname.startsWith("/admin")) {
+  if (isAdminPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",
@@ -39,7 +110,7 @@ export function middleware(request: NextRequest) {
   logger.info("request.completed", {
     requestId,
     method: request.method,
-    path: request.nextUrl.pathname,
+    path: pathname,
     statusCode: response.status,
     durationMs,
   });
