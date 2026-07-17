@@ -26,3 +26,6 @@ yarn-error.log*
 # Velite generated (keep tracked)
 !.velite
 !.velite/generated
+
+# Admin CMS runtime data
+.admin-data/

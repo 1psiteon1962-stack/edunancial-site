@@ -9,7 +9,7 @@ import {
   DEFAULT_LOGIN_RATE_LIMIT,
   DEFAULT_SESSION_MAX_AGE_SECONDS,
 } from "@/lib/admin-content/config";
-import { AuditEvent, type ActorContext, type AdminSession } from "@/lib/admin-content/types";
+import { AuditEvent, type ActorContext, type AdminRole, type AdminSession } from "@/lib/admin-content/types";
 import { appendGlobalAuditEvent } from "@/lib/admin-content/audit";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { createCsrfToken, createId } from "@/lib/admin-content/utils";
@@ -72,13 +72,14 @@ export function verifyAdminPassword(password: string, storedHash: string) {
   return candidateBuffer.length === digestBuffer.length && timingSafeEqual(candidateBuffer, digestBuffer);
 }
 
-export async function createAdminSession(email: string) {
+export async function createAdminSession(email: string, role: AdminRole = "admin") {
   const csrfToken = createCsrfToken();
   const maxAge = DEFAULT_SESSION_MAX_AGE_SECONDS;
   const session: AdminSession = {
     email,
     csrfToken,
     expiresAt: Date.now() + maxAge * 1000,
+    role,
   };
   const serialized = serializeSession(session);
   const cookieStore = await cookies();
@@ -140,7 +141,25 @@ export async function requireAdminApiSession(request: Request, stateChanging = f
   return { ok: true as const, session };
 }
 
-export async function validateAdminLogin(request: Request, email: string, password: string) {
+export async function requireOwnerPageSession() {
+  const session = await getAdminSession();
+  if (!session || session.role !== "owner") {
+    redirect("/executive/login");
+  }
+  return session;
+}
+
+export async function requireOwnerApiSession(request: Request, stateChanging = false) {
+  const result = await requireAdminApiSession(request, stateChanging);
+  if (!result.ok) return result;
+  if (result.session.role !== "owner") {
+    return { ok: false as const, response: NextResponse.json({ error: "Forbidden" }, { status: 403 }) };
+  }
+  return result;
+}
+
+
+export async function validateAdminLogin(request: Request, email: string, password: string, targetRole: AdminRole = "admin") {
   const limited = checkRateLimit(
     getRateLimitKey("admin-login", request),
     DEFAULT_LOGIN_RATE_LIMIT.maxRequests,
@@ -159,10 +178,43 @@ export async function validateAdminLogin(request: Request, email: string, passwo
     return NextResponse.json({ error: "Too many login attempts" }, { status: 429 });
   }
 
+  const normalizedEmail = email.trim().toLowerCase();
+
+  if (targetRole === "owner") {
+    const ownerEmail = process.env.EDUNANCIAL_OWNER_EMAIL;
+    const ownerHash = process.env.EDUNANCIAL_OWNER_PASSWORD_HASH;
+    const normalizedOwnerEmail = ownerEmail?.trim().toLowerCase();
+    const ownerEmailMatches =
+      normalizedOwnerEmail &&
+      normalizedEmail.length === normalizedOwnerEmail.length &&
+      timingSafeEqual(Buffer.from(normalizedEmail), Buffer.from(normalizedOwnerEmail));
+    const ownerPasswordMatches = ownerHash ? verifyAdminPassword(password, ownerHash) : false;
+    if (ownerEmailMatches && ownerPasswordMatches) {
+      await createAdminSession(normalizedEmail, "owner");
+      await appendGlobalAuditEvent({
+        id: createId("audit"),
+        timestamp: new Date().toISOString(),
+        action: "login-success",
+        result: "success",
+        actor: normalizedEmail,
+        metadata: { role: "owner" },
+      });
+      return NextResponse.json({ ok: true, email: normalizedEmail, role: "owner" });
+    }
+    await appendGlobalAuditEvent({
+      id: createId("audit"),
+      timestamp: new Date().toISOString(),
+      action: "login-failure",
+      result: "failure",
+      actor: normalizedEmail || "unknown",
+      metadata: { reason: "invalid-credentials", targetRole },
+    });
+    return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
+  }
+
   const configuredEmail = process.env.EDUNANCIAL_ADMIN_EMAIL;
   const configuredHash = process.env.EDUNANCIAL_ADMIN_PASSWORD_HASH;
   const normalizedConfiguredEmail = configuredEmail?.trim().toLowerCase();
-  const normalizedEmail = email.trim().toLowerCase();
   const emailMatches =
     normalizedConfiguredEmail &&
     normalizedEmail.length === normalizedConfiguredEmail.length &&
@@ -181,15 +233,16 @@ export async function validateAdminLogin(request: Request, email: string, passwo
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
-  await createAdminSession(normalizedEmail);
+  await createAdminSession(normalizedEmail, "admin");
   await appendGlobalAuditEvent({
     id: createId("audit"),
     timestamp: new Date().toISOString(),
     action: "login-success",
     result: "success",
     actor: normalizedEmail,
+    metadata: { role: "admin" },
   });
-  return NextResponse.json({ ok: true, email: normalizedEmail });
+  return NextResponse.json({ ok: true, email: normalizedEmail, role: "admin" });
 }
 
 export function toActor(session: AdminSession): ActorContext {

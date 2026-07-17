@@ -17,12 +17,15 @@ const QUICK_LINKS = [
   { title: "Customer Management", href: "/admin/customers", icon: "👥" },
   { title: "Membership Management", href: "/admin/memberships", icon: "🏆" },
   { title: "Course Management", href: "/admin/courses", icon: "📚" },
+  { title: "Course Import", href: "/admin/courses/import", icon: "⬆️" },
+  { title: "Media Library", href: "/admin/media", icon: "🗂️" },
+  { title: "Content Upload Portal", href: "/admin/content", icon: "📦" },
   { title: "Revenue & Profit", href: "/admin/profit-dashboard", icon: "💰" },
   { title: "Email Campaigns", href: "/admin/email-campaigns", icon: "📧" },
   { title: "Beta Testers", href: "/admin/beta-testers", icon: "🧪" },
   { title: "Analytics & KPIs", href: "/admin/kpi", icon: "📊" },
   { title: "Security Center", href: "/admin/security-center", icon: "🔐" },
-  { title: "System Settings", href: "/admin", icon: "⚙️" },
+  { title: "Settings", href: "/admin/settings", icon: "⚙️" },
 ];
 
 const RECENT_ACTIVITY = [
@@ -34,7 +37,6 @@ export default function AdminDashboardClient() {
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <div className="mx-auto max-w-7xl px-6 py-12">
-        {/* Header */}
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">
@@ -53,20 +55,15 @@ export default function AdminDashboardClient() {
           </Link>
         </div>
 
-        {/* KPI cards */}
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {METRICS.map(({ label, value, color }) => (
-            <div
-              key={label}
-              className={`rounded-2xl border-l-4 ${color} bg-[#101a2f] p-7`}
-            >
+            <div key={label} className={`rounded-2xl border-l-4 ${color} bg-[#101a2f] p-7`}>
               <p className="text-sm text-slate-400">{label}</p>
               <p className="mt-3 text-4xl font-black">{value}</p>
             </div>
           ))}
         </div>
 
-        {/* Charts placeholder */}
         <div className="mt-10 grid gap-8 lg:grid-cols-2">
           <div className="rounded-2xl border border-white/10 bg-[#101a2f] p-8">
             <h2 className="text-xl font-bold">Revenue Over Time</h2>
@@ -74,7 +71,7 @@ export default function AdminDashboardClient() {
               Connect your payment provider to see revenue trends.
             </p>
             <div className="mt-6 flex h-40 items-center justify-center rounded-xl bg-slate-800/40">
-              <p className="text-slate-500 text-sm">Chart · Awaiting data</p>
+              <p className="text-sm text-slate-500">Chart · Awaiting data</p>
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-[#101a2f] p-8">
@@ -83,12 +80,11 @@ export default function AdminDashboardClient() {
               Member registrations by month will appear here.
             </p>
             <div className="mt-6 flex h-40 items-center justify-center rounded-xl bg-slate-800/40">
-              <p className="text-slate-500 text-sm">Chart · Awaiting data</p>
+              <p className="text-sm text-slate-500">Chart · Awaiting data</p>
             </div>
           </div>
         </div>
 
-        {/* Quick links */}
         <div className="mt-10">
           <h2 className="text-2xl font-bold">Administration Modules</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -96,7 +92,7 @@ export default function AdminDashboardClient() {
               <Link
                 key={title}
                 href={href}
-                className="flex items-center gap-4 rounded-2xl border border-white/10 bg-[#101a2f] p-6 hover:border-blue-500 transition"
+                className="flex items-center gap-4 rounded-2xl border border-white/10 bg-[#101a2f] p-6 transition hover:border-blue-500"
               >
                 <span className="text-2xl">{icon}</span>
                 <span className="font-semibold">{title}</span>
@@ -105,7 +101,6 @@ export default function AdminDashboardClient() {
           </div>
         </div>
 
-        {/* Recent activity */}
         <div className="mt-10 rounded-2xl border border-white/10 bg-[#101a2f] p-8">
           <h2 className="text-xl font-bold">Recent Activity</h2>
           <div className="mt-5 space-y-3">

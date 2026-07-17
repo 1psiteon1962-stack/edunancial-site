@@ -222,12 +222,139 @@ export interface BatchSummary {
   conflicts: number;
 }
 
+export type AdminRole = "owner" | "admin";
+
 export interface AdminSession {
   email: string;
   expiresAt: number;
   csrfToken: string;
+  role?: AdminRole;
 }
 
 export interface ActorContext {
   email: string;
+}
+
+// ─── Course CMS Types ──────────────────────────────────────────────────────
+
+export type CourseStatus = "draft" | "published" | "archived";
+export type PathColor = "red" | "white" | "blue";
+export type CourseAccessRole = "admin" | "content_manager" | "instructor" | "student";
+export type LessonContentType =
+  | "text"
+  | "video"
+  | "audio"
+  | "pdf"
+  | "docx"
+  | "image"
+  | "quiz"
+  | "download"
+  | "external-link"
+  | "ai-coach";
+export type MembershipTier = "free" | "basic" | "premium" | "elite";
+
+export interface LessonBlock {
+  id: string;
+  type: LessonContentType;
+  title: string;
+  content: string;
+  url: string | null;
+  mediaId: string | null;
+  order: number;
+}
+
+export interface AdminLesson {
+  id: string;
+  moduleId: string;
+  courseId: string;
+  title: string;
+  slug: string;
+  description: string;
+  duration: string;
+  order: number;
+  blocks: LessonBlock[];
+  aiCoachPrompt: string;
+  status: CourseStatus;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface AdminModule {
+  id: string;
+  courseId: string;
+  title: string;
+  slug: string;
+  description: string;
+  order: number;
+  lessons: AdminLesson[];
+  status: CourseStatus;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface CourseSeoMeta {
+  metaTitle: string;
+  metaDescription: string;
+  ogImage: string;
+  keywords: string[];
+  canonicalUrl: string;
+}
+
+export interface AdminCourse {
+  id: string;
+  title: string;
+  slug: string;
+  subtitle: string;
+  description: string;
+  status: CourseStatus;
+  path: PathColor;
+  language: SupportedLanguage;
+  region: string | null;
+  country: string | null;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  duration: string;
+  membershipTier: MembershipTier;
+  instructorName: string;
+  instructorBio: string;
+  thumbnailUrl: string | null;
+  tags: string[];
+  categories: string[];
+  prerequisites: string[];
+  learningObjectives: string[];
+  modules: AdminModule[];
+  seo: CourseSeoMeta;
+  relatedCourseIds: string[];
+  relatedMarketplaceIds: string[];
+  publishedAt: string | null;
+  archivedAt: string | null;
+  createdAt: string;
+  updatedAt: string;
+  createdBy: string;
+}
+
+export interface MediaItem {
+  id: string;
+  title: string;
+  description: string;
+  altText: string;
+  language: SupportedLanguage;
+  region: string | null;
+  fileType: string;
+  mimeType: string;
+  extension: string;
+  sizeBytes: number;
+  storagePath: string;
+  publicUrl: string | null;
+  uploadedAt: string;
+  uploadedBy: string;
+  associatedCourseIds: string[];
+  associatedLessonIds: string[];
+}
+
+export interface ClauseImportPreview {
+  course: Omit<AdminCourse, "id" | "modules" | "createdAt" | "updatedAt" | "createdBy" | "publishedAt" | "archivedAt">;
+  modules: Omit<AdminModule, "id" | "lessons" | "createdAt" | "updatedAt">[];
+  lessons: Omit<AdminLesson, "id" | "createdAt" | "updatedAt">[];
+  validationErrors: string[];
+  validationWarnings: string[];
 }
