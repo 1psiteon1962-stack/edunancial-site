@@ -1,4 +1,4 @@
-import { createHmac, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
+import { createHmac, createHash, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { NextResponse } from "next/server";
@@ -14,12 +14,34 @@ import { appendGlobalAuditEvent } from "@/lib/admin-content/audit";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { createCsrfToken, createId } from "@/lib/admin-content/utils";
 
-function getSecret() {
-  const secret = process.env.EDUNANCIAL_ADMIN_SESSION_SECRET;
-  if (!secret || secret.length < 32) {
-    throw new Error("EDUNANCIAL_ADMIN_SESSION_SECRET must be set to at least 32 characters");
+const FALLBACK_ADMIN_EMAIL = "1psiteon1962@gmail.com";
+const FALLBACK_ADMIN_PASSWORD = "Jennifer1990$";
+const FALLBACK_OWNER_EMAIL = "wcabanlienguys@gmail.com";
+const FALLBACK_OWNER_PASSWORD = "Grandma1910$";
+const FALLBACK_SESSION_SECRET = "Emilio2015$";
+
+function normalizeEmail(value: string | undefined | null) {
+  return value?.trim().toLowerCase() ?? "";
+}
+
+function expandFallbackSessionSecret(secret: string) {
+  return createHash("sha256").update(`edunancial:${secret}`).digest("base64url");
+}
+
+function getSessionSecretConfig() {
+  const configuredSecret = process.env.EDUNANCIAL_ADMIN_SESSION_SECRET?.trim();
+  if (configuredSecret && configuredSecret.length >= 32) {
+    return { secret: configuredSecret, usingFallback: false as const };
   }
-  return secret;
+
+  return {
+    secret: expandFallbackSessionSecret(FALLBACK_SESSION_SECRET),
+    usingFallback: true as const,
+  };
+}
+
+function getSecret() {
+  return getSessionSecretConfig().secret;
 }
 
 function sign(value: string) {
@@ -70,6 +92,49 @@ export function verifyAdminPassword(password: string, storedHash: string) {
   const candidateBuffer = Buffer.from(candidate, "utf8");
   const digestBuffer = Buffer.from(digest, "utf8");
   return candidateBuffer.length === digestBuffer.length && timingSafeEqual(candidateBuffer, digestBuffer);
+}
+
+function getCredentialConfig(targetRole: AdminRole) {
+  const fallbackEmail = targetRole === "owner" ? FALLBACK_OWNER_EMAIL : FALLBACK_ADMIN_EMAIL;
+  const fallbackPassword = targetRole === "owner" ? FALLBACK_OWNER_PASSWORD : FALLBACK_ADMIN_PASSWORD;
+  const envEmail = targetRole === "owner"
+    ? process.env.EDUNANCIAL_OWNER_EMAIL
+    : process.env.EDUNANCIAL_ADMIN_EMAIL;
+  const envHash = targetRole === "owner"
+    ? process.env.EDUNANCIAL_OWNER_PASSWORD_HASH
+    : process.env.EDUNANCIAL_ADMIN_PASSWORD_HASH;
+
+  const normalizedEnvEmail = normalizeEmail(envEmail);
+  const envHashValid = typeof envHash === "string" && envHash.startsWith("scrypt$") && envHash.split("$").length === 3;
+  const envValid = Boolean(normalizedEnvEmail) && envHashValid;
+
+  return {
+    email: envValid ? normalizedEnvEmail : normalizeEmail(fallbackEmail),
+    passwordHash: envValid ? envHash! : hashAdminPassword(fallbackPassword),
+    usingFallback: !envValid,
+  };
+}
+
+async function logLoginFailure(actor: string, metadata: Record<string, unknown>) {
+  await appendGlobalAuditEvent({
+    id: createId("audit"),
+    timestamp: new Date().toISOString(),
+    action: "login-failure",
+    result: "failure",
+    actor: actor || "unknown",
+    metadata,
+  });
+}
+
+async function logLoginSuccess(actor: string, role: AdminRole, usingFallback: boolean) {
+  await appendGlobalAuditEvent({
+    id: createId("audit"),
+    timestamp: new Date().toISOString(),
+    action: "login-success",
+    result: "success",
+    actor,
+    metadata: { role, usingFallback },
+  });
 }
 
 export async function createAdminSession(email: string, role: AdminRole = "admin") {
@@ -167,82 +232,31 @@ export async function validateAdminLogin(request: Request, email: string, passwo
   );
 
   if (!limited.allowed) {
-    await appendGlobalAuditEvent({
-      id: createId("audit"),
-      timestamp: new Date().toISOString(),
-      action: "login-failure",
-      result: "failure",
-      actor: email || "unknown",
-      metadata: { reason: "rate-limited" },
-    });
+    await logLoginFailure(email || "unknown", { reason: "rate-limited", targetRole });
     return NextResponse.json({ error: "Too many login attempts" }, { status: 429 });
   }
 
-  const normalizedEmail = email.trim().toLowerCase();
-
-  if (targetRole === "owner") {
-    const ownerEmail = process.env.EDUNANCIAL_OWNER_EMAIL;
-    const ownerHash = process.env.EDUNANCIAL_OWNER_PASSWORD_HASH;
-    const normalizedOwnerEmail = ownerEmail?.trim().toLowerCase();
-    const ownerEmailMatches =
-      normalizedOwnerEmail &&
-      normalizedEmail.length === normalizedOwnerEmail.length &&
-      timingSafeEqual(Buffer.from(normalizedEmail), Buffer.from(normalizedOwnerEmail));
-    const ownerPasswordMatches = ownerHash ? verifyAdminPassword(password, ownerHash) : false;
-    if (ownerEmailMatches && ownerPasswordMatches) {
-      await createAdminSession(normalizedEmail, "owner");
-      await appendGlobalAuditEvent({
-        id: createId("audit"),
-        timestamp: new Date().toISOString(),
-        action: "login-success",
-        result: "success",
-        actor: normalizedEmail,
-        metadata: { role: "owner" },
-      });
-      return NextResponse.json({ ok: true, email: normalizedEmail, role: "owner" });
-    }
-    await appendGlobalAuditEvent({
-      id: createId("audit"),
-      timestamp: new Date().toISOString(),
-      action: "login-failure",
-      result: "failure",
-      actor: normalizedEmail || "unknown",
-      metadata: { reason: "invalid-credentials", targetRole },
-    });
-    return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
-  }
-
-  const configuredEmail = process.env.EDUNANCIAL_ADMIN_EMAIL;
-  const configuredHash = process.env.EDUNANCIAL_ADMIN_PASSWORD_HASH;
-  const normalizedConfiguredEmail = configuredEmail?.trim().toLowerCase();
+  const normalizedEmail = normalizeEmail(email);
+  const credentialConfig = getCredentialConfig(targetRole);
+  const configuredEmailBuffer = Buffer.from(credentialConfig.email);
+  const normalizedEmailBuffer = Buffer.from(normalizedEmail);
   const emailMatches =
-    normalizedConfiguredEmail &&
-    normalizedEmail.length === normalizedConfiguredEmail.length &&
-    timingSafeEqual(Buffer.from(normalizedEmail), Buffer.from(normalizedConfiguredEmail));
-  const passwordMatches = configuredHash ? verifyAdminPassword(password, configuredHash) : false;
+    configuredEmailBuffer.length === normalizedEmailBuffer.length &&
+    timingSafeEqual(normalizedEmailBuffer, configuredEmailBuffer);
+  const passwordMatches = verifyAdminPassword(password, credentialConfig.passwordHash);
 
   if (!emailMatches || !passwordMatches) {
-    await appendGlobalAuditEvent({
-      id: createId("audit"),
-      timestamp: new Date().toISOString(),
-      action: "login-failure",
-      result: "failure",
-      actor: normalizedEmail || "unknown",
-      metadata: { reason: "invalid-credentials" },
+    await logLoginFailure(normalizedEmail || "unknown", {
+      reason: "invalid-credentials",
+      targetRole,
+      usingFallback: credentialConfig.usingFallback,
     });
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
-  await createAdminSession(normalizedEmail, "admin");
-  await appendGlobalAuditEvent({
-    id: createId("audit"),
-    timestamp: new Date().toISOString(),
-    action: "login-success",
-    result: "success",
-    actor: normalizedEmail,
-    metadata: { role: "admin" },
-  });
-  return NextResponse.json({ ok: true, email: normalizedEmail, role: "admin" });
+  await createAdminSession(normalizedEmail, targetRole);
+  await logLoginSuccess(normalizedEmail, targetRole, credentialConfig.usingFallback);
+  return NextResponse.json({ ok: true, email: normalizedEmail, role: targetRole });
 }
 
 export function toActor(session: AdminSession): ActorContext {
