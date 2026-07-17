@@ -62,16 +62,16 @@ This architecture allows the UI to render safely with clear provenance labels wh
 ### Required Environment Variables
 
 ```env
-# Owner / Executive credentials
+# Administrator credentials
+EDUNANCIAL_ADMIN_EMAIL=admin@yourdomain.com
+EDUNANCIAL_ADMIN_PASSWORD_HASH=<scrypt hash>
+
+# Executive / Owner credentials
 EDUNANCIAL_OWNER_EMAIL=owner@yourdomain.com
 EDUNANCIAL_OWNER_PASSWORD_HASH=<scrypt hash>
 
-# Session signing secret (shared with admin, minimum 32 characters)
+# Shared session signing secret (minimum 32 characters)
 EDUNANCIAL_ADMIN_SESSION_SECRET=<at-least-32-character-random-string>
-
-# Existing admin credentials (unchanged)
-EDUNANCIAL_ADMIN_EMAIL=admin@yourdomain.com
-EDUNANCIAL_ADMIN_PASSWORD_HASH=<scrypt hash>
 ```
 
 ### Generating a Password Hash
@@ -241,7 +241,7 @@ src/middleware.ts              # Updated: covers /executive/* routes
 
 ## Recommended Next Steps
 
-1. Create `EDUNANCIAL_OWNER_EMAIL` and `EDUNANCIAL_OWNER_PASSWORD_HASH` in Netlify environment variables
+1. Create `EDUNANCIAL_ADMIN_EMAIL`, `EDUNANCIAL_ADMIN_PASSWORD_HASH`, `EDUNANCIAL_OWNER_EMAIL`, `EDUNANCIAL_OWNER_PASSWORD_HASH`, and `EDUNANCIAL_ADMIN_SESSION_SECRET` in Netlify environment variables
 2. Connect Supabase membership tables to `getMembershipKPIs()`
 3. Connect payment provider (Square/Stripe) webhooks to `getRevenueKPIs()`
 4. Implement `executive_goals` Supabase table for configurable KPI targets
