@@ -19,15 +19,11 @@ test("uses required legal positioning copy", () => {
 test("publishes only the three paid public membership plans", () => {
   assert.deepEqual(
     publicMembershipPlans.map((plan) => plan.name),
-    [
-      "Individual Membership",
-      "Approved Organization Membership",
-      "100+ Member Organization Rate",
-    ],
+    ["Basic Membership", "Pro Membership", "Gold Membership"],
   );
   assert.deepEqual(
     publicMembershipPlans.map((plan) => plan.monthlyPrice),
-    [19.99, 14.99, 9.99],
+    [9.99, 29, 59],
   );
   assert.equal(membershipPlans.find((plan) => plan.id === "beta")?.isPublic, false);
 });
