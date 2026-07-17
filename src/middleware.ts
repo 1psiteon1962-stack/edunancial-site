@@ -68,6 +68,7 @@ export function middleware(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
   const isAdminPath = pathname.startsWith("/admin");
+  const isExecutivePath = pathname.startsWith("/executive");
   const isAdminLoginPath = pathname === "/admin/login";
   const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
 
@@ -99,7 +100,11 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
+<<<<<<< HEAD
   if (isAdminPath) {
+=======
+  if (isAdminPath || isExecutivePath) {
+>>>>>>> origin/copilot/add-executive-analytics-dashboard
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",
@@ -119,5 +124,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/:path*"],
+  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*"],
 };
