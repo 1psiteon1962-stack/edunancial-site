@@ -100,11 +100,7 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
-<<<<<<< HEAD
-  if (isAdminPath) {
-=======
   if (isAdminPath || isExecutivePath) {
->>>>>>> origin/copilot/add-executive-analytics-dashboard
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",

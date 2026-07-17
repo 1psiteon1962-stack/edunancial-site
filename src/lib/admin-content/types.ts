@@ -239,7 +239,7 @@ export interface ActorContext {
 
 export type CourseStatus = "draft" | "published" | "archived";
 export type PathColor = "red" | "white" | "blue";
-export type AdminRole = "admin" | "content_manager" | "instructor" | "student";
+export type CourseAccessRole = "admin" | "content_manager" | "instructor" | "student";
 export type LessonContentType =
   | "text"
   | "video"
