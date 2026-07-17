@@ -28,7 +28,7 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
-  if (request.nextUrl.pathname.startsWith("/admin")) {
+  if (request.nextUrl.pathname.startsWith("/admin") || request.nextUrl.pathname.startsWith("/executive")) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",
@@ -48,5 +48,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/:path*"],
+  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*"],
 };

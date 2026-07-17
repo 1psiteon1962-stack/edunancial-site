@@ -222,10 +222,13 @@ export interface BatchSummary {
   conflicts: number;
 }
 
+export type AdminRole = "owner" | "admin";
+
 export interface AdminSession {
   email: string;
   expiresAt: number;
   csrfToken: string;
+  role?: AdminRole;
 }
 
 export interface ActorContext {
