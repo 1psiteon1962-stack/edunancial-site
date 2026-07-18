@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
 import { Providers } from "@/components/Providers";
 import SiteChrome from "@/components/layout/SiteChrome";
+import ProductionRuntimeInstrumentation from "@/components/runtime/ProductionRuntimeInstrumentation";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import {
   EDUNANCIAL_IDENTITY,
@@ -122,7 +123,9 @@ export default function RootLayout({
       <body className="bg-[#08101f] text-white">
         <Providers>
           <InternationalPreferencesProvider>
-            <SiteChrome>{children}</SiteChrome>
+            <SiteChrome>
+              <ProductionRuntimeInstrumentation>{children}</ProductionRuntimeInstrumentation>
+            </SiteChrome>
           </InternationalPreferencesProvider>
         </Providers>
       </body>
