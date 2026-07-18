@@ -1,9 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
-import { Providers } from "@/components/Providers";
-import SiteChrome from "@/components/layout/SiteChrome";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import {
   EDUNANCIAL_IDENTITY,
@@ -119,13 +116,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
-      <body className="bg-[#08101f] text-white">
-        <Providers>
-          <InternationalPreferencesProvider>
-            <SiteChrome>{children}</SiteChrome>
-          </InternationalPreferencesProvider>
-        </Providers>
-      </body>
+      <body className="bg-[#08101f] text-white">{children}</body>
     </html>
   );
 }

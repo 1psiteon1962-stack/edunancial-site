@@ -9,11 +9,7 @@ export default async function AdminLoginPage() {
 
   return (
     <main className="min-h-screen bg-[#08101f] px-6 py-16 text-white">
-      <div className="mx-auto max-w-2xl text-center">
-        <p className="text-sm uppercase tracking-[0.3em] text-blue-300">Owner-only workspace</p>
-        <h1 className="mt-4 text-5xl font-black">Edunancial Admin Login</h1>
-        <p className="mt-6 text-lg text-slate-300">This secure administrative workspace uses a server-issued session and is isolated from public-site prototype authentication.</p>
-      </div>
+      <h1 className="mx-auto max-w-md text-center text-4xl font-black">Admin Login</h1>
       <LoginForm />
     </main>
   );

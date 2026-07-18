@@ -10,7 +10,7 @@ import {
   DEFAULT_SESSION_MAX_AGE_SECONDS,
 } from "@/lib/admin-content/config";
 import { AuditEvent, type ActorContext, type AdminRole, type AdminSession } from "@/lib/admin-content/types";
-import { appendGlobalAuditEvent } from "@/lib/admin-content/audit";
+import { appendGlobalAuditEventSafely } from "@/lib/admin-content/audit";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { createCsrfToken, createId } from "@/lib/admin-content/utils";
 
@@ -116,7 +116,7 @@ function getCredentialConfig(targetRole: AdminRole) {
 }
 
 async function logLoginFailure(actor: string, metadata: Record<string, unknown>) {
-  await appendGlobalAuditEvent({
+  await appendGlobalAuditEventSafely({
     id: createId("audit"),
     timestamp: new Date().toISOString(),
     action: "login-failure",
@@ -127,7 +127,7 @@ async function logLoginFailure(actor: string, metadata: Record<string, unknown>)
 }
 
 async function logLoginSuccess(actor: string, role: AdminRole, usingFallback: boolean) {
-  await appendGlobalAuditEvent({
+  await appendGlobalAuditEventSafely({
     id: createId("audit"),
     timestamp: new Date().toISOString(),
     action: "login-success",
