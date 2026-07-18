@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 
-import { extractZipEntries, normalizeUploadFilename, validateFileType } from "@/lib/admin-content/security";
+import { extractZipEntries, normalizeUploadFilename, validateFileSize, validateFileType } from "@/lib/admin-content/security";
 
 function writeUInt16LE(value: number) {
   const buffer = Buffer.alloc(2);
@@ -112,5 +112,11 @@ describe("admin-content security", () => {
   test("rejects invalid ZIP and empty ZIP cases", () => {
     assert.throws(() => extractZipEntries(Buffer.from("not-a-zip")), /Invalid ZIP/);
     assert.throws(() => extractZipEntries(makeZip([])), /empty/);
+  });
+
+  test("accepts files up to 50 MB and rejects larger files", () => {
+    const limit = 50 * 1024 * 1024;
+    assert.doesNotThrow(() => validateFileSize(limit));
+    assert.throws(() => validateFileSize(limit + 1), /Upload exceeds/);
   });
 });

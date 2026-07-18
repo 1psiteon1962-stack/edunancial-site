@@ -167,7 +167,7 @@ async function processUploadFile(batchId: string, source: string, file: File) {
   if (extension === ".zip") {
     const entries = extractZipEntries(buffer);
     const files = entries.map((entry) =>
-      createReviewFile(batchId, uploadId, entry.normalizedName, entry.name, file.name, validateFileType(entry.normalizedName, detectedMime, entry.data).detectedMime, entry.data, source),
+      createReviewFile(batchId, uploadId, entry.normalizedName, entry.name, file.name, validateFileType(entry.normalizedName, "", entry.data).detectedMime, entry.data, source),
     );
     uploadRecord.extractedFileIds = files.map((entry) => entry.id);
     return { uploadRecord, files };

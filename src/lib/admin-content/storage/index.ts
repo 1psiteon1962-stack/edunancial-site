@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-import { DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
+import { DEFAULT_STORAGE_BUCKET, DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
 import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 
@@ -101,28 +101,23 @@ class LocalAdminContentStorage implements AdminContentStorage {
 }
 
 class SupabaseObjectStorage implements AdminContentStorage {
-  constructor(private readonly bucket: string, private readonly prefix: string) {}
-
-  private get baseUrl() {
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
-    if (!url || !key) {
-      throw new Error("Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY");
-    }
-    return { url, key };
-  }
+  constructor(
+    private readonly bucket: string,
+    private readonly prefix: string,
+    private readonly url: string,
+    private readonly key: string,
+  ) {}
 
   private objectPath(path: string) {
     return `${this.prefix}/${path}`;
   }
 
   private async request(path: string, init: RequestInit = {}) {
-    const { url, key } = this.baseUrl;
-    const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${path}`, {
+    const response = await fetch(`${this.url}/storage/v1/object/${this.bucket}/${path}`, {
       ...init,
       headers: {
-        Authorization: "Bearer " + key,
-        apikey: key,
+        Authorization: "Bearer " + this.key,
+        apikey: this.key,
         "x-upsert": "true",
         ...(init.headers ?? {}),
       },
@@ -204,21 +199,42 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
 let cachedStorage: AdminContentStorage | null = null;
 
+function readFirstEnv(...names: string[]) {
+  for (const name of names) {
+    const value = process.env[name]?.trim();
+    if (value) return value;
+  }
+  return undefined;
+}
+
+export function resolveAdminContentStorageEnv() {
+  const bucket = readFirstEnv("EDUNANCIAL_UPLOAD_STORAGE_KEY", "EDUNANCIAL_UPLOAD_STORAGE_BUCKET") ?? DEFAULT_STORAGE_BUCKET;
+  const url = readFirstEnv("NEXT_PUBLIC_SUPABASE_URL", "SUPABASE_URL");
+  const key = readFirstEnv("SUPABASE_SERVICE_ROLE_KEY");
+  return {
+    bucket,
+    url,
+    key,
+    canUseSupabase: Boolean(url && key),
+  };
+}
+
 export function getAdminContentStorage(): AdminContentStorage {
   if (cachedStorage) {
     return cachedStorage;
   }
 
-  const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
-  const canUseSupabase = Boolean(bucket && process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
+  const { bucket, url, key, canUseSupabase } = resolveAdminContentStorageEnv();
 
   if (canUseSupabase) {
-    cachedStorage = new SupabaseObjectStorage(bucket as string, DEFAULT_STORAGE_PREFIX);
+    cachedStorage = new SupabaseObjectStorage(bucket, DEFAULT_STORAGE_PREFIX, url as string, key as string);
     return cachedStorage;
   }
 
   if (process.env.NODE_ENV === "production") {
-    throw new Error("Configure EDUNANCIAL_UPLOAD_STORAGE_KEY with Supabase credentials for production admin content storage.");
+    throw new Error(
+      "Configure production admin content storage with SUPABASE_SERVICE_ROLE_KEY plus NEXT_PUBLIC_SUPABASE_URL or SUPABASE_URL.",
+    );
   }
 
   cachedStorage = new LocalAdminContentStorage();

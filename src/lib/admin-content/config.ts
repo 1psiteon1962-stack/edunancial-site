@@ -3,6 +3,7 @@ import type { SupportedLanguage } from "@/lib/admin-content/types";
 export const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
 export const ADMIN_CSRF_COOKIE = "edunancial_admin_csrf";
 export const DEFAULT_STORAGE_PREFIX = "admin-content";
+export const DEFAULT_STORAGE_BUCKET = "admin-content";
 export const DEFAULT_BATCH_FILE_LIMIT = 500;
 export const DEFAULT_MAX_UPLOAD_BYTES = 50 * 1024 * 1024;
 export const DEFAULT_MAX_BATCH_BYTES = 200 * 1024 * 1024;
