@@ -13,7 +13,7 @@ export default function PricingTierCards() {
     },
     {
       name: "Gold",
-      price: "$29/month",
+      price: "$59.99/month",
       description: "Courses, missions, assessments, and progress tracking.",
       features: [
         "Unlimited courses",

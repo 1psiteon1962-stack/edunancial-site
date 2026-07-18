@@ -24,7 +24,7 @@ export default function MembershipTermsPage() {
           <section>
             <h2 className="text-3xl font-black text-white">Individual Membership</h2>
             <p className="mt-4 leading-8">
-              Individual Membership is offered at $19.99 per month and is designed for personal
+              Individual Membership is offered at $24.99 per month and is designed for personal
               use by a single member account.
             </p>
           </section>

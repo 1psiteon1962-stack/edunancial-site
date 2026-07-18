@@ -8,7 +8,7 @@ export default function FrequentlyAskedQuestions() {
     {
       question: "Is membership required?",
       answer:
-        "Individual Membership is $19.99/month, while approved organizations can request partner pricing and onboarding.",
+        "Individual Membership is $24.99/month, while approved organizations can request partner pricing and onboarding.",
     },
     {
       question: "Can families learn together?",

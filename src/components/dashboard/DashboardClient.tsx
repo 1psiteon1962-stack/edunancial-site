@@ -187,7 +187,7 @@ export default function DashboardClient() {
               hours after your first successful login and did not auto-bill or auto-convert.
             </p>
             <p className="mt-3 text-sm text-slate-200">
-              Continue with Individual Membership for $19.99/month whenever you are ready.
+              Continue with Individual Membership for $24.99/month whenever you are ready.
             </p>
             <Link
               href="/membership/checkout?plan=basic"

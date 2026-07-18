@@ -13,7 +13,7 @@ export const plans: Record<
 > = {
   basic: {
     name: "Individual Membership",
-    price: 19.99,
+    price: 24.99,
   },
   premium: {
     name: "Approved Organization Membership",

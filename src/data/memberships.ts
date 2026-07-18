@@ -3,7 +3,7 @@ export const memberships = [
   {
     name: "Entry",
 
-    monthly: "$9.99",
+    monthly: "$24.99",
 
     description:
       "Start learning financial literacy.",
@@ -26,7 +26,7 @@ export const memberships = [
   {
     name: "Standard",
 
-    monthly: "$29",
+    monthly: "$39.99",
 
     description:
       "The primary Edunancial membership.",
@@ -53,7 +53,7 @@ export const memberships = [
   {
     name: "Premium",
 
-    monthly: "$59",
+    monthly: "$59.99",
 
     description:
       "Everything Edunancial offers.",
