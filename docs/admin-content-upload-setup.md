@@ -5,16 +5,16 @@ Set the following server-only variables before using the portal in production:
 - `EDUNANCIAL_ADMIN_EMAIL`
 - `EDUNANCIAL_ADMIN_PASSWORD_HASH`
 - `EDUNANCIAL_ADMIN_SESSION_SECRET`
-- `EDUNANCIAL_UPLOAD_STORAGE_KEY`
-- `NEXT_PUBLIC_SUPABASE_URL`
 - `SUPABASE_SERVICE_ROLE_KEY`
+- `NEXT_PUBLIC_SUPABASE_URL` or `SUPABASE_URL`
+- Optional: `EDUNANCIAL_UPLOAD_STORAGE_KEY` (or `EDUNANCIAL_UPLOAD_STORAGE_BUCKET`) when you want a bucket name other than the default `admin-content`
 - Optional GitHub export variables: `EDUNANCIAL_GITHUB_TOKEN`, `EDUNANCIAL_GITHUB_OWNER`, `EDUNANCIAL_GITHUB_REPO`, `EDUNANCIAL_GITHUB_BASE_BRANCH`
 
 ## 2. Generate the password hash
 Use the documented one-line Node command in `.env.example` to generate a `scrypt$<salt>$<hash>` string. Store the resulting hash in `EDUNANCIAL_ADMIN_PASSWORD_HASH` and keep the plaintext password out of the repo.
 
 ## 3. Create durable storage
-Create a Supabase storage bucket whose name matches `EDUNANCIAL_UPLOAD_STORAGE_KEY`.
+Create a Supabase storage bucket whose name matches `EDUNANCIAL_UPLOAD_STORAGE_KEY` / `EDUNANCIAL_UPLOAD_STORAGE_BUCKET`, or create the default `admin-content` bucket when neither variable is set.
 The portal stores:
 - batch JSON metadata
 - audit history
