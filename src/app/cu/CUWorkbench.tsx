@@ -127,10 +127,11 @@ export default function CUWorkbench({ authenticated }: { authenticated: boolean 
         throw new Error(payload.error || "Upload failed.");
       }
 
-      const nextFiles = [...payload.files, ...files];
+      const uploadedFiles = payload.files;
+      const nextFiles = [...uploadedFiles, ...files];
       persist(nextFiles);
-      setSelectedId((current) => payload.files[0]?.id ?? current);
-      setMessage(`Loaded ${payload.files.length} file${payload.files.length === 1 ? "" : "s"} into the workbench.`);
+      setSelectedId((current) => uploadedFiles[0]?.id ?? current);
+      setMessage(`Loaded ${uploadedFiles.length} file${uploadedFiles.length === 1 ? "" : "s"} into the workbench.`);
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "Upload failed.");
     } finally {
