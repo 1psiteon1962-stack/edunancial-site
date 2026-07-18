@@ -34,13 +34,13 @@ export default function HomepageJourney() {
           </Link>
 
           <Link
-            href="/books"
+            href="/marketplace"
             className="rounded-2xl bg-[#151b2d] p-10 hover:bg-[#1d2640]"
           >
 
             <h3 className="text-3xl font-black text-red-500">
 
-              Read Books
+              Browse Marketplace
 
             </h3>
 

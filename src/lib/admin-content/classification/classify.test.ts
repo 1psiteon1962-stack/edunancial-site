@@ -30,4 +30,16 @@ describe("admin-content classification", () => {
     assert.equal(proposal.category, "legal");
     assert.match(proposal.destination, /^data\/content\/legal\/fr\//);
   });
+
+  test("maps uploaded marketplace books into marketplace destination structure", () => {
+    const proposal = classifyFile({
+      normalizedFilename: "financial-competency-book-en.pdf",
+      archivePath: null,
+      previewText: "Financial competency ebook",
+      rawText: "A practical book.",
+    }, "marketplace");
+
+    assert.equal(proposal.category, "books");
+    assert.match(proposal.destination, /^data\/marketplace\/books\/en\//);
+  });
 });

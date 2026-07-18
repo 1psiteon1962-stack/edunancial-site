@@ -16,7 +16,7 @@ export default function HomePageClient() {
   const storyParagraphs = [1, 2, 3, 4].map((index) => t(`home.story.p${index}`));
   const storyCards = [1, 2, 3].map((index) => [t(`home.story.card${index}.title`), t(`home.story.card${index}.body`)] as const);
   const heroBadges = [1, 2, 3].map((index) => t(`home.hero.badge${index}`));
-  const dashboardHrefs = ["/courses/white", "/courses/red", "/courses/blue", "/ai-coach", "/courses", "/books", "/community", "/downloads", "/dashboard"] as const;
+  const dashboardHrefs = ["/courses/white", "/courses/red", "/courses/blue", "/ai-coach", "/courses", "/marketplace", "/community", "/downloads", "/dashboard"] as const;
   const dashboardCards = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => ({
     title: t(`home.dashboard.card${index}.title`),
     description: t(`home.dashboard.card${index}.body`),

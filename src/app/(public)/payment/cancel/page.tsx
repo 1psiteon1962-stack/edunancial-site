@@ -16,7 +16,7 @@ export default function PaymentCancelledPage() {
         </p>
 
         <Link
-          href="/books"
+          href="/marketplace"
           className="inline-block mt-12 rounded-xl bg-red-600 px-8 py-4 font-bold"
         >
           Return To Store

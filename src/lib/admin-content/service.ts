@@ -4,6 +4,7 @@ import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { appendBatchAuditEvent } from "@/lib/admin-content/audit";
 import { createAuditEvent } from "@/lib/admin-content/auth";
 import { classifyFile } from "@/lib/admin-content/classification/classify";
+import { isUploadDestination } from "@/lib/admin-content/classification/destination-rules";
 import { extractPreview } from "@/lib/admin-content/extractors";
 import { createExportPackage } from "@/lib/admin-content/export";
 import { createGithubPullRequest } from "@/lib/admin-content/github";
@@ -18,11 +19,18 @@ import {
   verifyDestinationPath,
 } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
-import type { ActorContext, BatchSummary, ExtractedFile, FileMetadataRecord, UploadBatch } from "@/lib/admin-content/types";
+import type { ActorContext, BatchSummary, ExtractedFile, FileMetadataRecord, UploadBatch, UploadDestination } from "@/lib/admin-content/types";
 import { createId, encodeBase64, nowIso, normalizeSimilarityText, sha256, slugify } from "@/lib/admin-content/utils";
 
-function defaultMetadata(batchId: string, source: string, title: string, checksum: string): FileMetadataRecord {
+function defaultMetadata(
+  batchId: string,
+  source: string,
+  title: string,
+  checksum: string,
+  destination: UploadDestination,
+): FileMetadataRecord {
   return {
+    destination,
     language: "en",
     region: null,
     title,
@@ -81,6 +89,7 @@ function createReviewFile(
   mimeType: string,
   buffer: Buffer,
   source: string,
+  destination: UploadDestination,
 ) {
   const normalizedFilename = assertValidUploadName(originalFilename);
   const checksum = sha256(buffer);
@@ -115,19 +124,20 @@ function createReviewFile(
       reasons: [],
       pillar: "uncategorized" as const,
     },
-    metadata: defaultMetadata(batchId, source, normalizedFilename, checksum),
+    metadata: defaultMetadata(batchId, source, normalizedFilename, checksum, destination),
     warnings: [] as string[],
     error: null,
     approvedAt: null,
     rejectedAt: null,
     updatedAt: timestamp,
   };
-  const classification = classifyFile(baseFile);
+  const classification = classifyFile(baseFile, destination);
   return {
     ...baseFile,
     classification,
     metadata: {
       ...baseFile.metadata,
+      destination,
       title: normalizedFilename,
       language: classification.language,
       contentType: classification.category,
@@ -138,7 +148,7 @@ function createReviewFile(
   } satisfies ExtractedFile;
 }
 
-async function processUploadFile(batchId: string, source: string, file: File) {
+async function processUploadFile(batchId: string, source: string, file: File, destination: UploadDestination) {
   const storage = getAdminContentStorage();
   const buffer = Buffer.from(await file.arrayBuffer());
   validateFileSize(buffer.length);
@@ -167,13 +177,23 @@ async function processUploadFile(batchId: string, source: string, file: File) {
   if (extension === ".zip") {
     const entries = extractZipEntries(buffer);
     const files = entries.map((entry) =>
-      createReviewFile(batchId, uploadId, entry.normalizedName, entry.name, file.name, validateFileType(entry.normalizedName, detectedMime, entry.data).detectedMime, entry.data, source),
+      createReviewFile(
+        batchId,
+        uploadId,
+        entry.normalizedName,
+        entry.name,
+        file.name,
+        validateFileType(entry.normalizedName, detectedMime, entry.data).detectedMime,
+        entry.data,
+        source,
+        destination,
+      ),
     );
     uploadRecord.extractedFileIds = files.map((entry) => entry.id);
     return { uploadRecord, files };
   }
 
-  const reviewFile = createReviewFile(batchId, uploadId, safeName, null, null, detectedMime, buffer, source);
+  const reviewFile = createReviewFile(batchId, uploadId, safeName, null, null, detectedMime, buffer, source, destination);
   uploadRecord.extractedFileIds = [reviewFile.id];
   return { uploadRecord, files: [reviewFile] };
 }
@@ -199,12 +219,18 @@ export async function createUploadBatch(request: Request, actor: ActorContext, f
   const name = String(formData.get("batchName") || "Content upload").trim();
   const source = String(formData.get("source") || "manual-upload").trim() || "manual-upload";
   const notes = String(formData.get("notes") || "").trim();
+  const destinationInput = String(formData.get("destination") || "").trim();
+  if (!isUploadDestination(destinationInput)) {
+    throw new Error("Select a valid destination before uploading.");
+  }
+  const destination = destinationInput as UploadDestination;
   const batchId = createId("batch");
   const timestamp = nowIso();
   const batch: UploadBatch = {
     id: batchId,
     name,
     slug: slugify(name),
+    destination,
     source,
     notes,
     status: "processing",
@@ -222,7 +248,7 @@ export async function createUploadBatch(request: Request, actor: ActorContext, f
 
   for (const file of files) {
     try {
-      const processed = await processUploadFile(batchId, source, file);
+      const processed = await processUploadFile(batchId, source, file, destination);
       batch.uploads.push(processed.uploadRecord);
       batch.files.push(...processed.files);
       await appendBatchAuditEvent(
@@ -286,6 +312,15 @@ export async function listUploadBatches() {
 
 export async function getUploadBatch(batchId: string) {
   return getAdminContentStorage().getBatch(batchId);
+}
+
+export async function listApprovedFilesByDestination(destination: UploadDestination) {
+  const storage = getAdminContentStorage();
+  const summaries = await storage.listBatches();
+  const batches = await Promise.all(summaries.slice(0, 100).map((summary) => storage.getBatch(summary.id)));
+  return batches
+    .flatMap((batch) => batch?.files ?? [])
+    .filter((file) => file.reviewStatus === "approved" && (file.metadata.destination ?? "courses") === destination);
 }
 
 export async function updateBatchMetadata(batchId: string, actor: ActorContext, updates: Partial<Pick<UploadBatch, "name" | "source" | "notes">>) {

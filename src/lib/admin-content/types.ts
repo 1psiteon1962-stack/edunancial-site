@@ -24,6 +24,7 @@ export type ConflictStatus =
 export type SupportedLanguage = "en" | "es" | "fr" | "fr-CA";
 export type EdunancialPillar = "red" | "white" | "blue" | "academy" | "uncategorized";
 export type AcademyLevel = "level-1" | "level-2" | "level-3" | "level-4" | "level-5" | null;
+export type UploadDestination = "marketplace" | "courses" | "library" | "blog" | "news" | "resources";
 
 export type TopLevelClassification =
   | "books"
@@ -70,6 +71,7 @@ export type TaxonomySubcategory =
   | null;
 
 export interface FileMetadataRecord {
+  destination: UploadDestination;
   language: SupportedLanguage;
   region: string | null;
   title: string;
@@ -194,6 +196,7 @@ export interface UploadBatch {
   id: string;
   name: string;
   slug: string;
+  destination: UploadDestination;
   source: string;
   notes: string;
   status: UploadBatchStatus;
@@ -210,6 +213,7 @@ export interface BatchSummary {
   id: string;
   name: string;
   slug: string;
+  destination: UploadDestination;
   source: string;
   status: UploadBatchStatus;
   createdAt: string;

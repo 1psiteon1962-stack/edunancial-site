@@ -9,10 +9,10 @@ return (
 <div className="flex flex-wrap justify-center gap-5 mt-12">
 
   <Link
-    href="/books"
+    href="/marketplace"
     className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-xl font-bold"
   >
-    Books
+    Marketplace
   </Link>
 
   <Link

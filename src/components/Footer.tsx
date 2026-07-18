@@ -28,7 +28,7 @@ return (
           Learn
         </h4>
 
-        <Link href="/books">Books</Link><br/>
+        <Link href="/marketplace">Marketplace</Link><br/>
         <Link href="/courses">Courses</Link><br/>
         <Link href="/terms">Financial Terms</Link>
 

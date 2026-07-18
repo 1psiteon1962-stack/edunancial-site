@@ -8,7 +8,7 @@ return(
 
 <h2 className="text-3xl font-bold">
 
-Featured Books
+Featured Marketplace
 
 </h2>
 
@@ -19,10 +19,10 @@ Financial literacy books, audiobooks and study guides.
 </p>
 
 <Link
-href="/books"
+href="/marketplace"
 className="inline-block mt-6 rounded-lg bg-blue-600 text-white px-5 py-3">
 
-Browse Books
+Browse Marketplace
 
 </Link>
 

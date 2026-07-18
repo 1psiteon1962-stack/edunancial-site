@@ -95,11 +95,11 @@ export default function AudioBooksPage() {
           </p>
 
           <Link
-            href="/books"
+            href="/marketplace"
             className="mt-10 inline-block rounded-xl bg-green-600 px-10 py-5 text-xl font-bold"
           >
 
-            Browse Book Library
+            Browse Marketplace
 
           </Link>
 

@@ -34,6 +34,7 @@ function summarizeBatch(batch: UploadBatch): BatchSummary {
     id: batch.id,
     name: batch.name,
     slug: batch.slug,
+    destination: batch.destination,
     source: batch.source,
     status: batch.status,
     createdAt: batch.createdAt,
