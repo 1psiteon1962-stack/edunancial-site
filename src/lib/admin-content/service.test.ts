@@ -64,6 +64,47 @@ describe("admin-content upload service", () => {
     assert.equal(secondBatch.files[0].duplicateStatus, "exact-duplicate");
   });
 
+  test("accepts supported individual file types and keeps uploaded content in draft review state", async () => {
+    const formData = makeFormData();
+    formData.append("files", new File([Buffer.from("## Lesson\n\nMarkdown content")], "lesson.md", { type: "text/markdown" }));
+    formData.append("files", new File([Buffer.from("%PDF-1.4\nmock")], "worksheet.pdf", { type: "application/pdf" }));
+    formData.append("files", new File([Buffer.from('{"topic":"budget"}')], "budget.json", { type: "application/json" }));
+    formData.append("files", new File([Buffer.from("name,value\nsavings,10")], "dataset.csv", { type: "text/csv" }));
+    formData.append("files", new File([Buffer.from("89504e470d0a1a0a0000000d49484452", "hex")], "graphic.png", { type: "image/png" }));
+
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    assert.equal(batch.files.length, 5);
+    for (const uploaded of batch.files) {
+      assert.equal(uploaded.reviewStatus, "pending");
+      assert.equal(uploaded.metadata.publicationStatus, "draft");
+    }
+  });
+
+  test("extracts multi-lesson markdown ZIP uploads into staged review files", async () => {
+    const formData = makeFormData();
+    formData.append(
+      "files",
+      new File(
+        [
+          makeZip([
+            { name: "academy/lesson-1.md", content: "# Lesson 1\n\nIntro" },
+            { name: "academy/lesson-2.md", content: "# Lesson 2\n\nPractice" },
+            { name: "academy/lesson-3.md", content: "# Lesson 3\n\nReview" },
+          ]),
+        ],
+        "lesson-bundle.zip",
+        { type: "application/zip" },
+      ),
+    );
+
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    assert.equal(batch.uploads.length, 1);
+    assert.equal(batch.uploads[0].isArchive, true);
+    assert.equal(batch.files.length, 3);
+    assert(batch.files.every((entry) => entry.reviewStatus === "pending"));
+    assert(batch.files.every((entry) => entry.metadata.publicationStatus === "draft"));
+  });
+
   test("supports approve and export workflow and surfaces github config failures", async () => {
     const formData = makeFormData();
     formData.append("files", new File([Buffer.from("## Learning Objectives\n\n## Core Content\n\nBusiness lesson")], "business-level-1-lesson.md", { type: "text/markdown" }));
