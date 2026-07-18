@@ -3,6 +3,16 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { ALLOWED_EXTENSIONS } from "@/lib/admin-content/config";
+
+const ACCEPTED_UPLOAD_EXTENSIONS = Array.from(ALLOWED_EXTENSIONS).join(",");
+const SUPPORTED_UPLOAD_EXTENSIONS = Array.from(ALLOWED_EXTENSIONS);
+
+function isSupportedUpload(file: File) {
+  const lowerName = file.name.toLowerCase();
+  return SUPPORTED_UPLOAD_EXTENSIONS.some((extension) => lowerName.endsWith(extension));
+}
+
 export default function UploadClient() {
   const router = useRouter();
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -25,7 +35,17 @@ export default function UploadClient() {
 
   function appendFiles(list: FileList | null) {
     if (!list) return;
-    setFiles((current) => [...current, ...Array.from(list)]);
+    const incomingFiles = Array.from(list);
+    const acceptedFiles = incomingFiles.filter(isSupportedUpload);
+    const rejectedFiles = incomingFiles.filter((file) => !isSupportedUpload(file));
+    setError(
+      rejectedFiles.length === 0
+        ? ""
+        : `Skipped unsupported file types: ${rejectedFiles.map((file) => file.name).join(", ")}.`,
+    );
+    if (acceptedFiles.length > 0) {
+      setFiles((current) => [...current, ...acceptedFiles]);
+    }
   }
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -38,20 +58,26 @@ export default function UploadClient() {
     formData.append("notes", notes);
     files.forEach((file) => formData.append("files", file));
     controllerRef.current = new AbortController();
-    const response = await fetch("/api/admin/content/upload", {
-      method: "POST",
-      headers: { "x-csrf-token": csrfToken },
-      body: formData,
-      signal: controllerRef.current.signal,
-    });
-    const payload = await response.json();
-    if (!response.ok) {
-      setError(payload.error ?? "Upload failed.");
+    try {
+      const response = await fetch("/api/admin/content/upload", {
+        method: "POST",
+        headers: { "x-csrf-token": csrfToken },
+        body: formData,
+        signal: controllerRef.current.signal,
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        setError(payload.error ?? "Upload failed.");
+        return;
+      }
+      router.push(`/admin/content/batches/${payload.batch.id}`);
+      router.refresh();
+    } catch (error) {
+      setError(error instanceof Error && error.name === "AbortError" ? "Upload cancelled." : "Upload failed.");
+    } finally {
+      controllerRef.current = null;
       setUploading(false);
-      return;
     }
-    router.push(`/admin/content/batches/${payload.batch.id}`);
-    router.refresh();
   }
 
   return (
@@ -78,7 +104,7 @@ export default function UploadClient() {
           <button type="button" onClick={() => fileInputRef.current?.click()} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500">Choose files</button>
           {uploading ? <button type="button" onClick={() => controllerRef.current?.abort()} className="rounded-xl border border-white/15 px-5 py-3 font-semibold">Cancel upload</button> : null}
         </div>
-        <input ref={fileInputRef} type="file" multiple onChange={(event) => appendFiles(event.target.files)} className="hidden" />
+        <input ref={fileInputRef} type="file" accept={ACCEPTED_UPLOAD_EXTENSIONS} multiple onChange={(event) => appendFiles(event.target.files)} className="hidden" />
       </div>
 
       <div className="rounded-3xl border border-white/10 bg-[#101a2f] p-6">
