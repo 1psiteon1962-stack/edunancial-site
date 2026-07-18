@@ -104,10 +104,10 @@ class SupabaseObjectStorage implements AdminContentStorage {
   constructor(private readonly bucket: string, private readonly prefix: string) {}
 
   private get baseUrl() {
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const url = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
     const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
     if (!url || !key) {
-      throw new Error("Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY");
+      throw new Error("Supabase storage requires SUPABASE_URL (or NEXT_PUBLIC_SUPABASE_URL) and SUPABASE_SERVICE_ROLE_KEY");
     }
     return { url, key };
   }
@@ -209,8 +209,9 @@ export function getAdminContentStorage(): AdminContentStorage {
     return cachedStorage;
   }
 
-  const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
-  const canUseSupabase = Boolean(bucket && process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
+  const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY || process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
+  const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const canUseSupabase = Boolean(bucket && supabaseUrl && process.env.SUPABASE_SERVICE_ROLE_KEY);
 
   if (canUseSupabase) {
     cachedStorage = new SupabaseObjectStorage(bucket as string, DEFAULT_STORAGE_PREFIX);
@@ -218,7 +219,9 @@ export function getAdminContentStorage(): AdminContentStorage {
   }
 
   if (process.env.NODE_ENV === "production") {
-    throw new Error("Configure EDUNANCIAL_UPLOAD_STORAGE_KEY with Supabase credentials for production admin content storage.");
+    throw new Error(
+      "Configure EDUNANCIAL_UPLOAD_STORAGE_KEY (or EDUNANCIAL_UPLOAD_STORAGE_BUCKET), SUPABASE_URL (or NEXT_PUBLIC_SUPABASE_URL), and SUPABASE_SERVICE_ROLE_KEY for production admin content storage.",
+    );
   }
 
   cachedStorage = new LocalAdminContentStorage();
