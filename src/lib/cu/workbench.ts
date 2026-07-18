@@ -1,6 +1,3 @@
-import { slugify } from "@/lib/admin-content/utils";
-import { verifyDestinationPath } from "@/lib/admin-content/security";
-
 export const CU_TRACKS = ["RED", "WHITE", "BLUE"] as const;
 export const CU_CATEGORIES = ["lessons", "quizzes", "courses", "certificates", "general", "legal"] as const;
 export const CU_LEVELS = [1, 2, 3, 4, 5] as const;
@@ -27,6 +24,28 @@ export type CuDestinationOption = {
   label: string;
   description: string;
 };
+
+function slugify(value: string) {
+  return value
+    .normalize("NFKD")
+    .replace(/[^\w\s.-]/g, " ")
+    .trim()
+    .toLowerCase()
+    .replace(/[\s_.]+/g, "-")
+    .replace(/-+/g, "-") || "content-upload";
+}
+
+function verifyCuDestinationPath(destination: string) {
+  const normalized = destination.replaceAll("\\", "/").replace(/^\/+/, "");
+  const allowedPrefixes = ["content/", "curriculum/", "data/", "assets/"];
+  if (!allowedPrefixes.some((prefix) => normalized.startsWith(prefix))) {
+    throw new Error(`Destination path is outside approved roots: ${destination}`);
+  }
+  if (normalized.includes("../") || normalized.includes("..\\") || normalized.startsWith("/")) {
+    throw new Error(`Destination path is unsafe: ${destination}`);
+  }
+  return normalized;
+}
 
 function normalizeLanguageSegment(language: string) {
   return slugify(language || "en-US").replace(/-/g, "_") || "en_us";
@@ -63,12 +82,12 @@ export function buildCuDestinationOptions({
 }: Omit<CuDraftInput, "password" | "destination" | "mode">): CuDestinationOption[] {
   const slug = inferCuSlug(content);
   const normalizedLanguage = normalizeLanguageSegment(language);
-  const stagingPath = verifyDestinationPath(
+  const stagingPath = verifyCuDestinationPath(
     `curriculum/staging/content-upload/${category}/${normalizedLanguage}/${track.toLowerCase()}-l${level}-${slug}.md`,
   );
 
   const primaryPath = ["lessons", "quizzes", "courses", "certificates"].includes(category)
-    ? verifyDestinationPath(`content/curriculum/${track}/L${level}/${track.toLowerCase()}-l${level}-${slug}.md`)
+    ? verifyCuDestinationPath(`content/curriculum/${track}/L${level}/${track.toLowerCase()}-l${level}-${slug}.md`)
     : stagingPath;
 
   return [
@@ -115,7 +134,7 @@ export function validateCuDraftInput(input: CuDraftInput) {
 
 export function validateSelectedCuDestination(input: Omit<CuDraftInput, "password" | "mode">) {
   const allowed = buildCuDestinationOptions(input);
-  const selected = verifyDestinationPath(input.destination);
+  const selected = verifyCuDestinationPath(input.destination);
   if (!allowed.some((option) => option.value === selected)) {
     throw new Error("Destination file is not allowed for the current CU selection.");
   }
