@@ -4,7 +4,7 @@ import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { appendBatchAuditEvent } from "@/lib/admin-content/audit";
 import { createAuditEvent } from "@/lib/admin-content/auth";
 import { classifyFile } from "@/lib/admin-content/classification/classify";
-import { isUploadDestination } from "@/lib/admin-content/classification/destination-rules";
+import { isUploadDestination } from "@/lib/admin-content/destinations";
 import { extractPreview } from "@/lib/admin-content/extractors";
 import { createExportPackage } from "@/lib/admin-content/export";
 import { createGithubPullRequest } from "@/lib/admin-content/github";

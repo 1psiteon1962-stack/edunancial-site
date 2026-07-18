@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { UPLOAD_DESTINATIONS } from "@/lib/admin-content/classification/destination-rules";
+import { UPLOAD_DESTINATIONS } from "@/lib/admin-content/destinations";
 
 export default function UploadClient() {
   const router = useRouter();
