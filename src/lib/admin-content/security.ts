@@ -74,8 +74,8 @@ export function validateFileType(name: string, mimeType: string, buffer: Buffer)
     throw new Error(`Executable uploads are not allowed: ${extension}`);
   }
 
-  const detectedMime = detectMimeType(buffer, mimeType || "application/octet-stream");
   const allowedMimes = EXTENSION_TO_MIME[extension] ?? [];
+  const detectedMime = detectMimeType(buffer, mimeType || allowedMimes[0] || "application/octet-stream");
   const looksText = [".txt", ".md", ".mdx", ".json", ".csv", ".svg"].includes(extension);
   if (!looksText && allowedMimes.length > 0 && !allowedMimes.includes(detectedMime)) {
     throw new Error(`MIME type ${detectedMime} does not match ${extension}`);

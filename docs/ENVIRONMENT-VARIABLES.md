@@ -7,7 +7,7 @@ This file documents environment variables referenced by the current implementati
 | Variable | Used in | Purpose |
 |---|---|---|
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | `src/app/layout.tsx` | Google Search Console verification |
-| `NEXT_PUBLIC_SUPABASE_URL` | `lib/kpi/supabaseAdmin.ts` | Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_URL` | `lib/kpi/supabaseAdmin.ts` | Supabase project URL (the admin upload portal also accepts `SUPABASE_URL`) |
 | `SUPABASE_SERVICE_ROLE_KEY` | `lib/kpi/supabaseAdmin.ts` | Server-side Supabase service key |
 | `STRAPI_API_URL` | `src/lib/api/home.ts` | Strapi API base URL |
 | `STRAPI_API_TOKEN` | `src/lib/api/home.ts` | Strapi API token |
@@ -31,7 +31,7 @@ This file documents environment variables referenced by the current implementati
 | `EDUNANCIAL_ADMIN_EMAIL` | `src/lib/admin-content/auth.ts` | Owner-only admin login identity |
 | `EDUNANCIAL_ADMIN_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Server-side scrypt password hash |
 | `EDUNANCIAL_ADMIN_SESSION_SECRET` | `src/lib/admin-content/auth.ts` | HMAC signing key for secure admin sessions |
-| `EDUNANCIAL_UPLOAD_STORAGE_KEY` | `src/lib/admin-content/storage/index.ts` | Supabase storage bucket for admin uploads and exports |
+| `EDUNANCIAL_UPLOAD_STORAGE_KEY` | `src/lib/admin-content/storage/index.ts` | Supabase storage bucket for admin uploads and exports (`EDUNANCIAL_UPLOAD_STORAGE_BUCKET` is also accepted; the default bucket name is `admin-content`) |
 | `EDUNANCIAL_GITHUB_TOKEN` | `src/lib/admin-content/github.ts` | Server-only GitHub token for branch/PR creation |
 | `EDUNANCIAL_GITHUB_OWNER` | `src/lib/admin-content/github.ts` | GitHub owner used by the export integration |
 | `EDUNANCIAL_GITHUB_REPO` | `src/lib/admin-content/github.ts` | GitHub repository used by the export integration |

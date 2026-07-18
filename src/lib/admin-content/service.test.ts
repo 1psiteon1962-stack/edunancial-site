@@ -61,6 +61,9 @@ describe("admin-content upload service", () => {
     const second = makeFormData();
     second.append("files", new File([makeZip([{ name: "lesson.txt", content: "lesson one" }])], "lesson-bundle.zip", { type: "application/zip" }));
     const secondBatch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, second);
+    assert.equal(secondBatch.uploads[0].isArchive, true);
+    assert.equal(secondBatch.files[0].mimeType, "text/plain");
+    assert.equal(secondBatch.files[0].reviewStatus, "pending");
     assert.equal(secondBatch.files[0].duplicateStatus, "exact-duplicate");
   });
 
