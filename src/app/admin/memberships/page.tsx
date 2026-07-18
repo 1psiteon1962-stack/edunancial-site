@@ -4,7 +4,7 @@ export default function MembershipAdministrationPage() {
 
     {
       name: "Individual Membership",
-      price: "$19.99 / month",
+      price: "$24.99 / month",
       members: 0
     },
 

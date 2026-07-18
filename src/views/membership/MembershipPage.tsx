@@ -12,7 +12,7 @@ export default function MembershipPage() {
       >
         <h2>Basic Membership</h2>
 
-        <h3>$5 / Month</h3>
+        <h3>$24.99 / Month</h3>
 
         <ul>
           <li>Financial Literacy Resources</li>
@@ -29,7 +29,7 @@ export default function MembershipPage() {
       >
         <h2>Gold Membership</h2>
 
-        <h3>$10 / Month</h3>
+        <h3>$59.99 / Month</h3>
 
         <ul>
           <li>Everything in Basic</li>

@@ -30,7 +30,7 @@ Basic
 
 <p>
 
-$9.99 Monthly
+$24.99 Monthly
 
 </p>
 
@@ -42,7 +42,7 @@ Gold
 
 <p>
 
-$29.99 Monthly
+$59.99 Monthly
 
 </p>
 

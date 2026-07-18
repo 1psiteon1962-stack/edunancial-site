@@ -18,7 +18,7 @@ Foundations
 
 <p className="mt-8 text-4xl font-black">
 
-$9.99/mo
+$24.99/mo
 
 </p>
 
