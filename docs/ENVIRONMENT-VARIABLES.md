@@ -35,4 +35,5 @@ This file documents environment variables referenced by the current implementati
 | `EDUNANCIAL_GITHUB_TOKEN` | `src/lib/admin-content/github.ts` | Server-only GitHub token for branch/PR creation |
 | `EDUNANCIAL_GITHUB_OWNER` | `src/lib/admin-content/github.ts` | GitHub owner used by the export integration |
 | `EDUNANCIAL_GITHUB_REPO` | `src/lib/admin-content/github.ts` | GitHub repository used by the export integration |
-| `EDUNANCIAL_GITHUB_BASE_BRANCH` | `src/lib/admin-content/github.ts` | Base branch for content-upload pull requests |
+| `EDUNANCIAL_GITHUB_BASE_BRANCH` | `src/lib/admin-content/github.ts`, `src/lib/cu/github.ts` | Base branch for content-upload publishing (defaults to `main`) |
+| `EDUNANCIAL_CU_PASSWORD_HASH` | `src/lib/cu/github.ts` | Optional dedicated scrypt password hash for the temporary `/cu` workbench |
