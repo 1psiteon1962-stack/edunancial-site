@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, test } from "node:test";
 
@@ -28,5 +28,10 @@ describe("admin and executive route isolation", () => {
     const executiveLayout = readSourceFile("src/app/executive/layout.tsx");
 
     assert.doesNotMatch(executiveLayout, /ExecutiveNav/);
+  });
+
+  test("keeps content-loader route outside the public route group", () => {
+    assert.equal(existsSync(path.join(process.cwd(), "src/app/content-loader/page.tsx")), true);
+    assert.equal(existsSync(path.join(process.cwd(), "src/app/(public)/content-loader/page.tsx")), false);
   });
 });
