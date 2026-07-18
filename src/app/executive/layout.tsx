@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import ExecutiveErrorLogger from "@/components/executive/ExecutiveErrorLogger";
+
 export const metadata: Metadata = {
   title: "Edunancial Executive",
   robots: {
@@ -10,5 +12,10 @@ export const metadata: Metadata = {
 };
 
 export default function ExecutiveLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <ExecutiveErrorLogger />
+      {children}
+    </>
+  );
 }
