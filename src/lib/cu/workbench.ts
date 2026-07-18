@@ -52,9 +52,13 @@ function normalizeLanguageSegment(language: string) {
 }
 
 export function inferCuTitle(content: string) {
-  const headingMatch = content.match(/^#\s+(.+)$/m)?.[1]?.trim();
-  if (headingMatch) {
-    return headingMatch;
+  for (const line of content.split(/\r?\n/)) {
+    if (line.startsWith("# ")) {
+      const heading = line.slice(2).trim();
+      if (heading) {
+        return heading;
+      }
+    }
   }
 
   const firstLine = content
