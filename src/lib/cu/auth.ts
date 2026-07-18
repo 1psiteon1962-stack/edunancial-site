@@ -1,4 +1,4 @@
-import { createHash, timingSafeEqual } from "node:crypto";
+import { scryptSync, timingSafeEqual } from "node:crypto";
 
 import { cookies } from "next/headers";
 import { NextResponse, type NextRequest } from "next/server";
@@ -6,22 +6,23 @@ import { NextResponse, type NextRequest } from "next/server";
 import { CU_COOKIE_NAME } from "@/lib/cu/constants";
 
 const FALLBACK_TEMP_PASSWORD = "WeekendCUAccess2026!";
-
-function digest(value: string) {
-  return createHash("sha256").update(value).digest();
-}
+const CU_PASSWORD_SALT = "edunancial-cu-password";
 
 function expectedPassword() {
   return process.env.CU_TEMP_PASSWORD?.trim() || FALLBACK_TEMP_PASSWORD;
 }
 
+function deriveKey(value: string) {
+  return scryptSync(value, CU_PASSWORD_SALT, 32);
+}
+
 function authCookieValue() {
-  return createHash("sha256").update(expectedPassword()).digest("hex");
+  return deriveKey(expectedPassword()).toString("hex");
 }
 
 export function verifyCuPassword(input: string) {
-  const provided = digest(input);
-  const expected = digest(expectedPassword());
+  const provided = deriveKey(input);
+  const expected = deriveKey(expectedPassword());
   return provided.length === expected.length && timingSafeEqual(provided, expected);
 }
 

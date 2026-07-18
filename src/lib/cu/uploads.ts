@@ -63,16 +63,19 @@ function textFromBuffer(buffer: Buffer, extension: string) {
 }
 
 function decodeXmlText(value: string) {
-  return value
+  const normalized = value
     .replace(/<w:tab\/?\s*>/g, "\t")
     .replace(/<w:br\/?\s*>/g, "\n")
-    .replace(/<\/w:p>/g, "\n\n")
-    .replace(/<[^>]+>/g, "")
+    .replace(/<\/w:p>/g, "\n\n");
+
+  const textRuns = Array.from(normalized.matchAll(/<w:t\b[^>]*>([\s\S]*?)<\/w:t>/g), (match) => match[1] || "");
+  const joined = textRuns.join("");
+
+  return joined
     .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
+    .replace(/\r/g, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }

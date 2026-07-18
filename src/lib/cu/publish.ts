@@ -4,10 +4,33 @@ import { basename, dirname, join } from "node:path";
 import type { CuPublishInput, CuPublishResult } from "@/lib/cu/types";
 
 function safeFilename(value: string) {
-  return basename(value)
-    .replace(/[^a-zA-Z0-9._-]+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^[-.]+|[-.]+$/g, "") || "upload";
+  const source = basename(value);
+  let result = "";
+  let lastWasDash = false;
+
+  for (const char of source) {
+    const allowed =
+      (char >= "a" && char <= "z") ||
+      (char >= "A" && char <= "Z") ||
+      (char >= "0" && char <= "9") ||
+      char === "." ||
+      char === "_" ||
+      char === "-";
+
+    if (allowed) {
+      result += char;
+      lastWasDash = char === "-";
+      continue;
+    }
+
+    if (!lastWasDash) {
+      result += "-";
+      lastWasDash = true;
+    }
+  }
+
+  result = result.replace(/^[-.]+/, "").replace(/[-.]+$/, "");
+  return result || "upload";
 }
 
 export function buildCuDestinationPath(file: CuPublishInput) {
