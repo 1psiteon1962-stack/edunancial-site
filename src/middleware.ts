@@ -71,6 +71,7 @@ export function middleware(request: NextRequest) {
   const isExecutivePath = pathname.startsWith("/executive");
   const isCuPath = pathname === "/cu";
   const isCuApiPath = pathname.startsWith("/api/cu");
+  const isContentLoaderPath = pathname.startsWith("/content-loader") || pathname.startsWith("/api/content-loader");
   const isAdminLoginPath = pathname === "/admin/login";
   const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
 
@@ -102,11 +103,11 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
-  if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath) {
+  if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath || isContentLoaderPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",
-      "default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+      "default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
     );
   }
 
@@ -122,5 +123,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*", "/cu"],
+  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*", "/cu", "/content-loader/:path*", "/content-loader"],
 };

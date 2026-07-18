@@ -22,6 +22,7 @@
     "src/lib/positioning.test.ts",
     "src/types/membership.ts",
     "src/lib/admin-content/**/*.ts",
-    "src/lib/cu/**/*.ts"
+    "src/lib/cu/**/*.ts",
+    "src/lib/content-loader/**/*.ts"
   ]
 }
