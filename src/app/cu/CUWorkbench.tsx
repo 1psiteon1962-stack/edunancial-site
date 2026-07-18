@@ -191,8 +191,16 @@ export default function CUWorkbench({ authenticated }: { authenticated: boolean 
       return;
     }
 
-    const nextFiles = files.map((file) =>
-      file.id === selectedFile.id ? { ...file, ...patch, status: "pending", error: null, destination: null } : file,
+    const nextFiles: CuFileRecord[] = files.map((file) =>
+      file.id === selectedFile.id
+        ? {
+            ...file,
+            ...patch,
+            status: "pending",
+            error: null,
+            destination: null,
+          }
+        : file,
     );
     persist(nextFiles);
   }
