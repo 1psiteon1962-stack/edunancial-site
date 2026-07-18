@@ -69,6 +69,8 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const isAdminPath = pathname.startsWith("/admin");
   const isExecutivePath = pathname.startsWith("/executive");
+  const isCuPath = pathname === "/cu";
+  const isCuApiPath = pathname.startsWith("/api/cu");
   const isAdminLoginPath = pathname === "/admin/login";
   const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
 
@@ -100,7 +102,7 @@ export function middleware(request: NextRequest) {
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
 
-  if (isAdminPath || isExecutivePath) {
+  if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     response.headers.set(
       "Content-Security-Policy",
@@ -120,5 +122,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*"],
+  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*", "/cu"],
 };

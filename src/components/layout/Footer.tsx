@@ -89,17 +89,24 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-8 text-sm text-slate-500 md:flex-row">
-          <p>
-            &copy; {new Date().getFullYear()} Edunancial. {t("footer.copyright")}
-          </p>
-          <p className="max-w-xl text-center md:text-right">
-            {t("footer.disclaimer")}{" "}
-            <Link href="/disclaimer" className="underline hover:text-slate-300">
-              {t("footer.disclaimerLink")}
+        <div className="mt-16 border-t border-slate-800 pt-8 text-sm text-slate-500">
+          <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+            <p>
+              &copy; {new Date().getFullYear()} Edunancial. {t("footer.copyright")}
+            </p>
+            <p className="max-w-xl text-center md:text-right">
+              {t("footer.disclaimer")}{" "}
+              <Link href="/disclaimer" className="underline hover:text-slate-300">
+                {t("footer.disclaimerLink")}
+              </Link>
+              .
+            </p>
+          </div>
+          <div className="mt-6 flex justify-center md:justify-end">
+            <Link href="/cu" className="text-[10px] uppercase tracking-[0.35em] text-slate-600 hover:text-slate-400">
+              CU
             </Link>
-            .
-          </p>
+          </div>
         </div>
       </div>
     </footer>
