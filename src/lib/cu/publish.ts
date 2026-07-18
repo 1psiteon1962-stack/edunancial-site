@@ -29,7 +29,14 @@ function safeFilename(value: string) {
     }
   }
 
-  result = result.replace(/^[-.]+/, "").replace(/[-.]+$/, "");
+  while (result.startsWith("-") || result.startsWith(".")) {
+    result = result.slice(1);
+  }
+
+  while (result.endsWith("-") || result.endsWith(".")) {
+    result = result.slice(0, -1);
+  }
+
   return result || "upload";
 }
 
