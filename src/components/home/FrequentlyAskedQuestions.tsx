@@ -8,7 +8,7 @@ export default function FrequentlyAskedQuestions() {
     {
       question: "Is membership required?",
       answer:
-        "Individual Membership is $19.99/month, while approved organizations can request partner pricing and onboarding.",
+        "Test Drive is $0/month. Basic is $24.99/month, Pro is $39.99/month, and Gold is $59.99/month.",
     },
     {
       question: "Can families learn together?",

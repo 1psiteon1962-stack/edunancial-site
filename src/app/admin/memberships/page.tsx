@@ -3,20 +3,26 @@ export default function MembershipAdministrationPage() {
   const plans = [
 
     {
-      name: "Individual Membership",
-      price: "$19.99 / month",
+      name: "Basic Membership",
+      price: "$24.99 / month",
       members: 0
     },
 
     {
-      name: "Approved Organization Membership",
-      price: "$14.99 / member / month",
+      name: "Pro Membership",
+      price: "$39.99 / month",
       members: 0
     },
 
     {
-      name: "100+ Member Organization Rate",
-      price: "$9.99 / active paid member / month",
+      name: "Gold Membership",
+      price: "$59.99 / month",
+      members: 0
+    },
+
+    {
+      name: "Test Drive",
+      price: "$0 / month",
       members: 0
     }
 
