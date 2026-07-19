@@ -6,6 +6,7 @@ import {
   EDUNANCIAL_PUBLIC_DISCLAIMER,
 } from "./positioning";
 import { membershipPlans, publicMembershipPlans } from "../types/membership";
+import enMessages from "../locales/en.json";
 
 test("uses required legal positioning copy", () => {
   assert.equal(
@@ -23,7 +24,12 @@ test("publishes only the three paid public membership plans", () => {
   );
   assert.deepEqual(
     publicMembershipPlans.map((plan) => plan.monthlyPrice),
-    [9.99, 29, 59],
+    [24.99, 39.99, 59.99],
   );
   assert.equal(membershipPlans.find((plan) => plan.id === "beta")?.isPublic, false);
+});
+
+test("uses test drive labels on pricing free plan card", () => {
+  assert.equal(enMessages["pricingPage.freePlan.name"], "TEST DRIVE");
+  assert.equal(enMessages["pricingPage.freePlan.ctaLabel"], "Start Test Drive");
 });
