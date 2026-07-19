@@ -114,9 +114,11 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
   private get baseUrl() {
     const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    const key = resolveSupabaseKey();
     if (!url || !key) {
-      throw new Error("Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY");
+      throw new Error(
+        "Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and either SUPABASE_SERVICE_ROLE_KEY or NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      );
     }
     return { url, key };
   }
@@ -257,13 +259,22 @@ function resolveStorageBucketName() {
   return process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ?? "";
 }
 
+/**
+ * Resolve the Supabase authentication key for server-side storage operations.
+ * Prefers the service-role key (bypasses RLS) and falls back to the anon key
+ * so deployments that only configure NEXT_PUBLIC_SUPABASE_ANON_KEY still work.
+ */
+function resolveSupabaseKey() {
+  return process.env.SUPABASE_SERVICE_ROLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+}
+
 export function getAdminContentStorage(): AdminContentStorage {
   if (cachedStorage) {
     return cachedStorage;
   }
 
   const bucket = resolveStorageBucketName();
-  const canUseSupabase = Boolean(bucket && process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
+  const canUseSupabase = Boolean(bucket && process.env.NEXT_PUBLIC_SUPABASE_URL && resolveSupabaseKey());
 
   if (canUseSupabase) {
     cachedStorage = new SupabaseObjectStorage(bucket as string, DEFAULT_STORAGE_PREFIX);
@@ -272,7 +283,9 @@ export function getAdminContentStorage(): AdminContentStorage {
 
   if (process.env.NODE_ENV === "production") {
     throw new Error(
-      "Configure EDUNANCIAL_UPLOAD_STORAGE_BUCKET (or EDUNANCIAL_UPLOAD_STORAGE_KEY) with Supabase credentials for production admin content storage.",
+      "Production admin content storage requires NEXT_PUBLIC_SUPABASE_URL, " +
+        "SUPABASE_SERVICE_ROLE_KEY (or NEXT_PUBLIC_SUPABASE_ANON_KEY), and " +
+        "EDUNANCIAL_UPLOAD_STORAGE_BUCKET (or EDUNANCIAL_UPLOAD_STORAGE_KEY).",
     );
   }
 

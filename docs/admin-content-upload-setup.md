@@ -5,10 +5,11 @@ Set the following server-only variables before using the portal in production:
 - `EDUNANCIAL_ADMIN_EMAIL`
 - `EDUNANCIAL_ADMIN_PASSWORD_HASH`
 - `EDUNANCIAL_ADMIN_SESSION_SECRET`
-- `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (preferred)
-- `EDUNANCIAL_UPLOAD_STORAGE_KEY`
+- `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (preferred) or `EDUNANCIAL_UPLOAD_STORAGE_KEY` (legacy alias)
 - `NEXT_PUBLIC_SUPABASE_URL`
-- `SUPABASE_SERVICE_ROLE_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY` **preferred** — bypasses RLS so the portal can read and write freely
+  _or_ `NEXT_PUBLIC_SUPABASE_ANON_KEY` — accepted as a fallback; requires the Supabase bucket's RLS
+  policies to permit the upload operations
 - Optional GitHub export variables: `EDUNANCIAL_GITHUB_TOKEN`, `EDUNANCIAL_GITHUB_OWNER`, `EDUNANCIAL_GITHUB_REPO`, `EDUNANCIAL_GITHUB_BASE_BRANCH`
 
 ## 2. Generate the password hash

@@ -12,12 +12,14 @@ describe("admin-content audit", () => {
     const originalBucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
     const originalSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const originalSupabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    const originalAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
     env.NODE_ENV = "production";
     delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
     delete process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
     delete process.env.NEXT_PUBLIC_SUPABASE_URL;
     delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
     resetAdminContentStorage();
 
     try {
@@ -52,6 +54,11 @@ describe("admin-content audit", () => {
         delete process.env.SUPABASE_SERVICE_ROLE_KEY;
       } else {
         process.env.SUPABASE_SERVICE_ROLE_KEY = originalSupabaseKey;
+      }
+      if (originalAnonKey === undefined) {
+        delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+      } else {
+        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = originalAnonKey;
       }
       resetAdminContentStorage();
     }

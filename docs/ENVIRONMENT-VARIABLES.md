@@ -8,7 +8,8 @@ This file documents environment variables referenced by the current implementati
 |---|---|---|
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | `src/app/layout.tsx` | Google Search Console verification |
 | `NEXT_PUBLIC_SUPABASE_URL` | `lib/kpi/supabaseAdmin.ts` | Supabase project URL |
-| `SUPABASE_SERVICE_ROLE_KEY` | `lib/kpi/supabaseAdmin.ts` | Server-side Supabase service key |
+| `SUPABASE_SERVICE_ROLE_KEY` | `lib/kpi/supabaseAdmin.ts`, `src/lib/admin-content/storage/index.ts` | Server-side Supabase service key (preferred for admin storage; bypasses RLS) |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `src/lib/admin-content/storage/index.ts` | Supabase anon key — used as a fallback for admin storage when `SUPABASE_SERVICE_ROLE_KEY` is absent |
 | `STRAPI_API_URL` | `src/lib/api/home.ts` | Strapi API base URL |
 | `STRAPI_API_TOKEN` | `src/lib/api/home.ts` | Strapi API token |
 | `HYGRAPH_ENDPOINT` | `lib/hygraph.ts` | Hygraph GraphQL endpoint |
