@@ -5,6 +5,7 @@ Set the following server-only variables before using the portal in production:
 - `EDUNANCIAL_ADMIN_EMAIL`
 - `EDUNANCIAL_ADMIN_PASSWORD_HASH`
 - `EDUNANCIAL_ADMIN_SESSION_SECRET`
+- `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (preferred)
 - `EDUNANCIAL_UPLOAD_STORAGE_KEY`
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `SUPABASE_SERVICE_ROLE_KEY`
@@ -14,7 +15,8 @@ Set the following server-only variables before using the portal in production:
 Use the documented one-line Node command in `.env.example` to generate a `scrypt$<salt>$<hash>` string. Store the resulting hash in `EDUNANCIAL_ADMIN_PASSWORD_HASH` and keep the plaintext password out of the repo.
 
 ## 3. Create durable storage
-Create a Supabase storage bucket whose name matches `EDUNANCIAL_UPLOAD_STORAGE_KEY`.
+Set `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (or legacy `EDUNANCIAL_UPLOAD_STORAGE_KEY`) to the target bucket name.
+If the bucket does not exist yet, the server will attempt to create it automatically using the Supabase service role key.
 The portal stores:
 - batch JSON metadata
 - audit history

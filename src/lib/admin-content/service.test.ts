@@ -20,6 +20,14 @@ function makeFormData() {
   formData.set("batchName", "Claude batch");
   formData.set("source", "Claude");
   formData.set("notes", "Generated from tests");
+  formData.set("contentDestination", "courses");
+  formData.set("courseTrack", "red");
+  formData.set("courseLevel", "level-1");
+  formData.set("language", "en");
+  formData.set("membershipAccess", "basic");
+  formData.set("publicationStatus", "draft");
+  formData.set("title", "Generated course");
+  formData.set("description", "Generated from tests");
   return formData;
 }
 
