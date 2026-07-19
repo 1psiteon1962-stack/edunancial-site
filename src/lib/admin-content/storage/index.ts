@@ -138,7 +138,25 @@ class SupabaseObjectStorage implements AdminContentStorage {
       },
       cache: "no-store",
     });
-    if (read.status === 404) {
+    if (!read.ok) {
+      // Supabase Storage normally returns HTTP 404 for a missing bucket, but some
+      // Supabase proxy / PostgREST versions return HTTP 400 with a JSON body whose
+      // `statusCode` field is the string "404".  Treat both shapes as "not found"
+      // so the server can auto-create the bucket instead of surfacing a hard error.
+      let bucketMissing = read.status === 404;
+      let bodyText = "";
+      if (!bucketMissing) {
+        bodyText = await read.text();
+        try {
+          const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
+          bucketMissing = String(body?.statusCode) === "404" || body?.error === "Bucket not found";
+        } catch {
+          // Non-JSON body — not a missing-bucket signal; fall through to hard error.
+        }
+      }
+      if (!bucketMissing) {
+        throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
+      }
       const created = await fetch(`${url}/storage/v1/bucket`, {
         method: "POST",
         headers: {
@@ -156,8 +174,6 @@ class SupabaseObjectStorage implements AdminContentStorage {
       if (!created.ok) {
         throw new Error(`Supabase bucket setup failed: ${created.status} ${await created.text()}`);
       }
-    } else if (!read.ok) {
-      throw new Error(`Supabase bucket check failed: ${read.status} ${await read.text()}`);
     }
     this.bucketVerified = true;
   }
