@@ -22,36 +22,34 @@ export default function MembershipTermsPage() {
 
         <div className="mt-10 space-y-8 text-slate-300">
           <section>
-            <h2 className="text-3xl font-black text-white">Individual Membership</h2>
+            <h2 className="text-3xl font-black text-white">Basic Membership</h2>
             <p className="mt-4 leading-8">
-              Individual Membership is offered at $19.99 per month and is designed for personal
+              Basic Membership is offered at $24.99 per month and is designed for personal
               use by a single member account.
             </p>
           </section>
 
           <section>
-            <h2 className="text-3xl font-black text-white">Approved Organization Membership</h2>
+            <h2 className="text-3xl font-black text-white">Pro Membership</h2>
             <p className="mt-4 leading-8">
-              Approved Organization Membership is priced at $14.99 per member per month and is
-              available only to approved partner organizations such as schools, nonprofits,
-              community organizations, workforce programs, churches, youth organizations, and
-              similar approved partners.
+              Pro Membership is priced at $39.99 per month and expands access to deeper learning,
+              downloadable resources, and additional member support.
             </p>
           </section>
 
           <section>
-            <h2 className="text-3xl font-black text-white">100+ Member Organization Rate</h2>
+            <h2 className="text-3xl font-black text-white">Gold Membership</h2>
             <p className="mt-4 leading-8">
-              The 100+ Member Organization Rate is $9.99 per active paid member per month and
-              requires a minimum of 100 active paid members plus a formal organizational agreement.
+              Gold Membership is priced at $59.99 per month and includes full advanced member
+              access with premium support and tools.
             </p>
           </section>
 
           <section>
-            <h2 className="text-3xl font-black text-white">Beta Tester Access</h2>
+            <h2 className="text-3xl font-black text-white">Test Drive Access</h2>
             <p className="mt-4 leading-8">
-              Beta Tester access is $0, invitation only, and not publicly listed as a membership
-              plan. It never auto-bills or auto-converts into a paid plan.
+              Test Drive access is $0, available for account onboarding, and does not auto-bill or
+              auto-convert into a paid membership plan.
             </p>
           </section>
         </div>

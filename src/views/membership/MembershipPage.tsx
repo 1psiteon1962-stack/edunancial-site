@@ -1,42 +1,30 @@
+import { publicMembershipPlans } from "@/types/membership";
+
 export default function MembershipPage() {
   return (
     <main style={{ maxWidth: "1000px", margin: "0 auto", padding: "20px" }}>
       <h1>Membership Plans</h1>
 
-      <div
-        style={{
-          border: "1px solid #ccc",
-          padding: "20px",
-          marginBottom: "20px",
-        }}
-      >
-        <h2>Basic Membership</h2>
+      {publicMembershipPlans.map((plan) => (
+        <div
+          key={plan.id}
+          style={{
+            border: "1px solid #ccc",
+            padding: "20px",
+            marginBottom: "20px",
+          }}
+        >
+          <h2>{plan.name}</h2>
 
-        <h3>$5 / Month</h3>
+          <h3>${plan.monthlyPrice.toFixed(2)} / Month</h3>
 
-        <ul>
-          <li>Financial Literacy Resources</li>
-          <li>Business Education Articles</li>
-          <li>Newsletter Access</li>
-        </ul>
-      </div>
-
-      <div
-        style={{
-          border: "1px solid #ccc",
-          padding: "20px",
-        }}
-      >
-        <h2>Gold Membership</h2>
-
-        <h3>$10 / Month</h3>
-
-        <ul>
-          <li>Everything in Basic</li>
-          <li>Premium Educational Content</li>
-          <li>Priority Access</li>
-        </ul>
-      </div>
+          <ul>
+            <li>Financial Literacy Resources</li>
+            <li>Business Education Articles</li>
+            <li>Newsletter Access</li>
+          </ul>
+        </div>
+      ))}
     </main>
   );
 }
