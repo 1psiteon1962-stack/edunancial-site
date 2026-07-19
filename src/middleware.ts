@@ -75,8 +75,13 @@ export function middleware(request: NextRequest) {
   const isAdminLoginPath = pathname === "/admin/login";
   const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
 
+  const requiresAdminSession =
+    (isAdminPath && !isAdminLoginPath && !isAdminAuthApiPath) ||
+    isCuPath ||
+    isCuApiPath;
+
   let response =
-    isAdminPath && !isAdminLoginPath && !isAdminAuthApiPath
+    requiresAdminSession
       ? (() => {
           const session = getAdminSessionFromCookie(
             request.cookies.get(ADMIN_SESSION_COOKIE)?.value,
