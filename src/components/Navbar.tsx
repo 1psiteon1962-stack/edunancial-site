@@ -16,7 +16,7 @@ return (
 
       <Link href="/">Home</Link>
 
-      <Link href="/books">Books</Link>
+      <Link href="/marketplace">Marketplace</Link>
 
       <Link href="/courses">Courses</Link>
 

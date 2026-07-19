@@ -107,7 +107,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-blue-300">Batch review</p>
             <h1 className="mt-3 text-4xl font-black">{batch.name}</h1>
-            <p className="mt-3 text-slate-300">Source: {batch.source} · Status: {batch.status}</p>
+            <p className="mt-3 text-slate-300">Source: {batch.source} · Destination: {batch.destination ?? "courses"} · Status: {batch.status}</p>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>

@@ -9,7 +9,7 @@ export default function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-bold uppercase tracking-widest text-gray-300 md:flex">
-          <Link href="/books" className="hover:text-white">Books</Link>
+          <Link href="/marketplace" className="hover:text-white">Marketplace</Link>
           <Link href="/terms" className="hover:text-white">Terms</Link>
           <Link href="/courses" className="hover:text-white">Courses</Link>
           <Link href="/membership" className="hover:text-white">Membership</Link>

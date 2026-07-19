@@ -19,6 +19,7 @@ function makeFormData() {
   const formData = new FormData();
   formData.set("batchName", "Claude batch");
   formData.set("source", "Claude");
+  formData.set("destination", "marketplace");
   formData.set("notes", "Generated from tests");
   return formData;
 }
@@ -76,5 +77,15 @@ describe("admin-content upload service", () => {
     assert.match(exportPackage.fileName, /approved-content\.zip$/);
 
     await assert.rejects(() => exportBatchToGithub(batch.id, { email: "owner@example.com" }), /GitHub integration requires/);
+  });
+
+  test("routes approved files to selected destination", async () => {
+    const formData = makeFormData();
+    formData.set("destination", "blog");
+    formData.append("files", new File([Buffer.from("market update")], "weekly-update.md", { type: "text/markdown" }));
+
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    assert.match(batch.files[0].classification.destination, /^data\/blog\/en\//);
+    assert.equal(batch.files[0].metadata.destination, "blog");
   });
 });

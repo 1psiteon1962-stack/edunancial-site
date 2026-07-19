@@ -1,10 +1,13 @@
-import type { ClassificationProposal, ExtractedFile, TaxonomySubcategory, TopLevelClassification } from "@/lib/admin-content/types";
+import type { ClassificationProposal, ExtractedFile, TaxonomySubcategory, TopLevelClassification, UploadDestination } from "@/lib/admin-content/types";
 
 import { buildDestination } from "@/lib/admin-content/classification/destination-rules";
 import { classifyFromContent, detectLanguage } from "@/lib/admin-content/classification/content-rules";
 import { classifyFromFilename } from "@/lib/admin-content/classification/filename-rules";
 
-export function classifyFile(input: Pick<ExtractedFile, "normalizedFilename" | "archivePath" | "previewText" | "rawText">): ClassificationProposal {
+export function classifyFile(
+  input: Pick<ExtractedFile, "normalizedFilename" | "archivePath" | "previewText" | "rawText">,
+  uploadDestination: UploadDestination = "courses",
+): ClassificationProposal {
   const filenameBased = classifyFromFilename(input.normalizedFilename, input.archivePath);
   const contentReasons = classifyFromContent(input.rawText || input.previewText);
   const language = detectLanguage(`${input.normalizedFilename} ${input.previewText} ${input.rawText}`);
@@ -25,6 +28,7 @@ export function classifyFile(input: Pick<ExtractedFile, "normalizedFilename" | "
       pillar,
     },
     input.normalizedFilename,
+    uploadDestination,
   );
 
   return {

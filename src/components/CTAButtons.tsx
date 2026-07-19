@@ -7,10 +7,10 @@ export default function CTAButtons() {
     <div className="flex flex-wrap justify-center gap-6 mt-12">
 
       <Link
-        href="/books"
+        href="/marketplace"
         className="rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold text-white transition hover:bg-blue-500"
       >
-        Explore Books
+        Explore Marketplace
       </Link>
 
       <Link

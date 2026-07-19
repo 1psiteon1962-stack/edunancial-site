@@ -5,8 +5,8 @@ export default function MainNavigation(){
 const links=[
 ["Home","/"],
 ["Courses","/courses"],
-["Books","/books"],
 ["Marketplace","/marketplace"],
+["Professionals","/marketplace/professionals"],
 ["AI","/ai"],
 ["Dashboard","/dashboard"],
 ["Funding","/funding-center"]

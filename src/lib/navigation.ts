@@ -6,8 +6,8 @@ export const navigation = [
   },
 
   {
-    title: "Books",
-    href: "/books",
+    title: "Marketplace",
+    href: "/marketplace",
   },
 
   {

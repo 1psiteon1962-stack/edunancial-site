@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { UPLOAD_DESTINATIONS } from "@/lib/admin-content/destinations";
 
 export default function UploadClient() {
   const router = useRouter();
@@ -9,6 +10,7 @@ export default function UploadClient() {
   const [files, setFiles] = useState<File[]>([]);
   const [batchName, setBatchName] = useState("");
   const [source, setSource] = useState("Claude export");
+  const [destination, setDestination] = useState("marketplace");
   const [notes, setNotes] = useState("");
   const [csrfToken, setCsrfToken] = useState("");
   const [error, setError] = useState("");
@@ -35,6 +37,7 @@ export default function UploadClient() {
     const formData = new FormData();
     formData.append("batchName", batchName || `Content Upload ${new Date().toISOString().slice(0, 10)}`);
     formData.append("source", source);
+    formData.append("destination", destination);
     formData.append("notes", notes);
     files.forEach((file) => formData.append("files", file));
     controllerRef.current = new AbortController();
@@ -64,6 +67,12 @@ export default function UploadClient() {
         <label className="grid gap-2 text-sm font-semibold text-slate-200">
           Source
           <input value={source} onChange={(event) => setSource(event.target.value)} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white" placeholder="Claude export" />
+        </label>
+        <label className="grid gap-2 text-sm font-semibold text-slate-200">
+          Destination (required)
+          <select value={destination} onChange={(event) => setDestination(event.target.value)} required className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
+            {UPLOAD_DESTINATIONS.map((entry) => <option key={entry} value={entry}>{entry}</option>)}
+          </select>
         </label>
       </div>
       <label className="grid gap-2 text-sm font-semibold text-slate-200">

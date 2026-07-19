@@ -25,7 +25,7 @@ function makeFile(overrides: Partial<ExtractedFile> = {}): ExtractedFile {
     rawText: "raw",
     encodedContent: Buffer.from("raw").toString("base64"),
     classification: { category: "lessons", subcategory: "general", language: "en", academyLevel: "level-1", destination: "content/curriculum/RED/L1/lesson.md", confidence: 0.9, reasons: [], pillar: "red" },
-    metadata: { language: "en", region: null, title: "Lesson", description: "", source: "upload", intendedDestination: "content/curriculum/RED/L1/lesson.md", contentType: "lessons", pillar: "red", academyLevel: "level-1", publicationStatus: "draft", version: "1.0.0", checksum: "sha256:test", uploadBatchId: "batch-1" },
+    metadata: { destination: "courses", language: "en", region: null, title: "Lesson", description: "", source: "upload", intendedDestination: "content/curriculum/RED/L1/lesson.md", contentType: "lessons", pillar: "red", academyLevel: "level-1", publicationStatus: "draft", version: "1.0.0", checksum: "sha256:test", uploadBatchId: "batch-1" },
     warnings: [],
     error: null,
     approvedAt: null,

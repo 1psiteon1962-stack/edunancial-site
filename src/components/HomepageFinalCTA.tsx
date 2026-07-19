@@ -26,7 +26,7 @@ export default function HomepageFinalCTA() {
         </p>
 
         <Link
-          href="/books"
+          href="/marketplace"
           className="inline-block mt-12 rounded-xl bg-red-600 px-10 py-4 font-bold hover:bg-red-700"
         >
 

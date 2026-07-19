@@ -26,7 +26,7 @@ export default function SiteFooter() {
           </h3>
 
           <div className="space-y-3 text-gray-400">
-            <Link href="/books">Books</Link><br/>
+            <Link href="/marketplace">Marketplace</Link><br/>
             <Link href="/courses">Courses</Link><br/>
             <Link href="/terms">Financial Terms</Link><br/>
             <Link href="/downloads">Downloads</Link>
