@@ -1,207 +1,35 @@
-export default function MembershipCards(){
-
-return(
-
-<section
-
-style={
-
-{
-
-padding:"60px",
-
-maxWidth:"1000px",
-
-margin:"0 auto",
-
-display:"grid",
-
-gridTemplateColumns:
-
-"repeat(auto-fit,minmax(250px,1fr))",
-
-gap:"20px",
-
-}
-
-}
-
->
-
-<div
-
-style={
-
-{
-
-border:"1px solid #ddd",
-
-padding:"25px",
-
-borderRadius:"12px",
-
-}
-
-}
-
->
-
-<h2>
-
-Basic
-
-</h2>
-
-<p>
-
-$9.99
-
-Monthly
-
-</p>
-
-<ul>
-
-<li>
-
-Articles
-
-</li>
-
-<li>
-
-Courses
-
-</li>
-
-<li>
-
-Calculators
-
-</li>
-
-</ul>
-
-</div>
-
-<div
-
-style={
-
-{
-
-border:"1px solid #ddd",
-
-padding:"25px",
-
-borderRadius:"12px",
-
-}
-
-}
-
->
-
-<h2>
-
-Gold
-
-</h2>
-
-<p>
-
-$29.99
-
-Monthly
-
-</p>
-
-<ul>
-
-<li>
-
-Everything in Basic
-
-</li>
-
-<li>
-
-Advanced Courses
-
-</li>
-
-<li>
-
-Trackers
-
-</li>
-
-<li>
-
-Downloads
-
-</li>
-
-</ul>
-
-</div>
-
-<div
-
-style={
-
-{
-
-border:"1px solid #ddd",
-
-padding:"25px",
-
-borderRadius:"12px",
-
-}
-
-}
-
->
-
-<h2>
-
-Mentor
-
-</h2>
-
-<p>
-
-Future Program
-
-</p>
-
-<ul>
-
-<li>
-
-Mentorship
-
-</li>
-
-<li>
-
-Entrepreneur Profiles
-
-</li>
-
-<li>
-
-Sponsorship
-
-</li>
-
-</ul>
-
-</div>
-
-</section>
-
-);
-
+import { publicMembershipPlans } from "@/types/membership";
+
+export default function MembershipCards() {
+  return (
+    <section
+      style={{
+        padding: "60px",
+        maxWidth: "1000px",
+        margin: "0 auto",
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))",
+        gap: "20px",
+      }}
+    >
+      {publicMembershipPlans.map((plan) => (
+        <div
+          key={plan.id}
+          style={{
+            border: "1px solid #ddd",
+            padding: "25px",
+            borderRadius: "12px",
+          }}
+        >
+          <h2>{plan.name}</h2>
+          <p>${plan.monthlyPrice.toFixed(2)} Monthly</p>
+          <ul>
+            <li>Financial Competency Assessment</li>
+            <li>Structured Learning Resources</li>
+            <li>AI Coach Access</li>
+          </ul>
+        </div>
+      ))}
+    </section>
+  );
 }

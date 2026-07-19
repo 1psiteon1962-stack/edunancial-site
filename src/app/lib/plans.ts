@@ -12,19 +12,19 @@ export const plans: Record<
   }
 > = {
   basic: {
-    name: "Individual Membership",
-    price: 19.99,
+    name: "Basic Membership",
+    price: 24.99,
   },
   premium: {
-    name: "Approved Organization Membership",
-    price: 14.99,
+    name: "Pro Membership",
+    price: 39.99,
   },
   enterprise: {
-    name: "100+ Member Organization Rate",
-    price: 9.99,
+    name: "Gold Membership",
+    price: 59.99,
   },
   beta: {
-    name: "Beta Tester",
+    name: "Test Drive",
     price: 0,
   },
 };

@@ -1,29 +1,6 @@
-export default async function HomePage() {
-  const pricing = [
-    {
-      id: "basic",
-      name: "Basic Membership",
-      price: 5,
-      currency: "USD",
-      features: [
-        "Financial Literacy Articles",
-        "Educational Resources",
-        "Business Education Content"
-      ]
-    },
-    {
-      id: "gold",
-      name: "Gold Membership",
-      price: 10,
-      currency: "USD",
-      features: [
-        "Everything in Basic",
-        "Premium Educational Content",
-        "Advanced Financial Literacy Resources"
-      ]
-    }
-  ];
+import { publicMembershipPlans } from "@/types/membership";
 
+export default async function HomePage() {
   return (
     <main
       style={{
@@ -101,9 +78,9 @@ export default async function HomePage() {
       <section style={{ marginTop: "50px" }}>
         <h2>Membership Options</h2>
 
-        {pricing.map((plan) => (
+        {publicMembershipPlans.map((plan) => (
           <div
-            key={plan.id}
+            key={plan.name}
             style={{
               border: "1px solid #ddd",
               padding: "20px",
@@ -114,13 +91,13 @@ export default async function HomePage() {
             <h3>{plan.name}</h3>
 
             <p>
-              {plan.currency} ${plan.price}
+              {plan.currency} ${plan.monthlyPrice.toFixed(2)}
             </p>
 
             <ul>
-              {plan.features.map((feature) => (
-                <li key={feature}>{feature}</li>
-              ))}
+              <li>Financial Literacy Articles</li>
+              <li>Educational Resources</li>
+              <li>Business Education Content</li>
             </ul>
           </div>
         ))}
