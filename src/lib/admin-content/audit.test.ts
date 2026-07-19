@@ -8,11 +8,13 @@ describe("admin-content audit", () => {
   test("does not throw when production audit storage is unavailable", async () => {
     const env = process.env as Record<string, string | undefined>;
     const originalNodeEnv = process.env.NODE_ENV;
+    const originalBucketName = process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
     const originalBucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
     const originalSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const originalSupabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
     env.NODE_ENV = "production";
+    delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
     delete process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
     delete process.env.NEXT_PUBLIC_SUPABASE_URL;
     delete process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -35,6 +37,11 @@ describe("admin-content audit", () => {
         delete process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
       } else {
         process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY = originalBucket;
+      }
+      if (originalBucketName === undefined) {
+        delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
+      } else {
+        process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = originalBucketName;
       }
       if (originalSupabaseUrl === undefined) {
         delete process.env.NEXT_PUBLIC_SUPABASE_URL;
