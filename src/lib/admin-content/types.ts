@@ -79,7 +79,7 @@ export interface FileMetadataRecord {
   contentType: TopLevelClassification;
   pillar: EdunancialPillar;
   academyLevel: AcademyLevel;
-  publicationStatus: "draft" | "approved" | "rejected";
+  publicationStatus: "draft" | "review" | "published" | "archived" | "approved" | "rejected";
   version: string;
   checksum: string;
   uploadBatchId: string;
@@ -111,6 +111,9 @@ export interface UploadedAsset {
   extractedFileIds: string[];
   source: string;
   notes: string;
+  uploader: string;
+  storageBucket: string | null;
+  contentDestination: "courses" | "marketplace";
 }
 
 export interface ExtractedFile {

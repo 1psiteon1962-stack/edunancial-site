@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 import { DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
@@ -77,6 +77,13 @@ class LocalAdminContentStorage implements AdminContentStorage {
     writeFileSync(target, content);
   }
 
+  async deleteBinary(path: string) {
+    const target = localPath(path);
+    if (existsSync(target)) {
+      unlinkSync(target);
+    }
+  }
+
   async readBinary(path: string) {
     const target = localPath(path);
     return existsSync(target) ? readFileSync(target) : null;
@@ -101,6 +108,8 @@ class LocalAdminContentStorage implements AdminContentStorage {
 }
 
 class SupabaseObjectStorage implements AdminContentStorage {
+  private bucketVerified = false;
+
   constructor(private readonly bucket: string, private readonly prefix: string) {}
 
   private get baseUrl() {
@@ -116,8 +125,44 @@ class SupabaseObjectStorage implements AdminContentStorage {
     return `${this.prefix}/${path}`;
   }
 
+  private async ensureBucketExists() {
+    if (this.bucketVerified) return;
+    const { url, key } = this.baseUrl;
+    const read = await fetch(`${url}/storage/v1/bucket/${this.bucket}`, {
+      method: "GET",
+      headers: {
+        Authorization: "Bearer " + key,
+        apikey: key,
+      },
+      cache: "no-store",
+    });
+    if (read.status === 404) {
+      const created = await fetch(`${url}/storage/v1/bucket`, {
+        method: "POST",
+        headers: {
+          Authorization: "Bearer " + key,
+          apikey: key,
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          id: this.bucket,
+          name: this.bucket,
+          public: false,
+        }),
+        cache: "no-store",
+      });
+      if (!created.ok) {
+        throw new Error(`Supabase bucket setup failed: ${created.status} ${await created.text()}`);
+      }
+    } else if (!read.ok) {
+      throw new Error(`Supabase bucket check failed: ${read.status} ${await read.text()}`);
+    }
+    this.bucketVerified = true;
+  }
+
   private async request(path: string, init: RequestInit = {}) {
     const { url, key } = this.baseUrl;
+    await this.ensureBucketExists();
     const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${path}`, {
       ...init,
       headers: {
@@ -184,6 +229,10 @@ class SupabaseObjectStorage implements AdminContentStorage {
     return Buffer.from(await response.arrayBuffer());
   }
 
+  async deleteBinary(path: string) {
+    await this.request(this.objectPath(path), { method: "DELETE" });
+  }
+
   async appendAuditEvent(event: AuditEvent) {
     const current = await this.readJson<AuditEvent[]>(AUDIT_FILE, []);
     current.unshift(event);
@@ -204,12 +253,16 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
 let cachedStorage: AdminContentStorage | null = null;
 
+function resolveStorageBucketName() {
+  return process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ?? "";
+}
+
 export function getAdminContentStorage(): AdminContentStorage {
   if (cachedStorage) {
     return cachedStorage;
   }
 
-  const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY;
+  const bucket = resolveStorageBucketName();
   const canUseSupabase = Boolean(bucket && process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
 
   if (canUseSupabase) {
@@ -218,7 +271,9 @@ export function getAdminContentStorage(): AdminContentStorage {
   }
 
   if (process.env.NODE_ENV === "production") {
-    throw new Error("Configure EDUNANCIAL_UPLOAD_STORAGE_KEY with Supabase credentials for production admin content storage.");
+    throw new Error(
+      "Configure EDUNANCIAL_UPLOAD_STORAGE_BUCKET (or EDUNANCIAL_UPLOAD_STORAGE_KEY) with Supabase credentials for production admin content storage.",
+    );
   }
 
   cachedStorage = new LocalAdminContentStorage();
