@@ -1,5 +1,15 @@
 # Admin Content Upload User Guide
 
+## Complete Production Content Workflow
+
+```
+Upload ZIP → Validate → Extract → Review → Assign → Approve → Publish → Verify
+```
+
+Nothing becomes publicly visible until you have approved the files **and** merged the GitHub pull request.
+
+---
+
 ## 1. Download files from Claude
 In Claude, use the download controls next to each generated file and save them to a folder on your computer.
 If Claude gives you multiple files, keep them together in one folder so they are easy to review before upload.
@@ -8,36 +18,129 @@ If Claude gives you multiple files, keep them together in one folder so they are
 Select the files you want to upload, right-click, and create a ZIP archive.
 Use one ZIP when you want Claude output to stay grouped as a single review batch.
 
+A standard Edunancial course ZIP should contain:
+
+```
+course-package.zip
+├── course.json              ← Course metadata (title, path, level, language, region, membershipTier, modules)
+├── lessons/
+│   ├── lesson-01.md         ← Lesson content with YAML front matter
+│   └── lesson-02.md
+├── media/
+│   ├── thumbnail.jpg        ← Course thumbnail image
+│   ├── worksheet.pdf        ← Lesson worksheets or resources
+│   └── intro-video.mp4      ← Optional video content
+└── README.md                ← Optional description
+```
+
 ## 3. Log into Edunancial Admin
 Open `/admin/login` on the site.
 Enter the owner email and password that match the secure server-side admin environment variables.
 
-## 4. Upload the ZIP
+## 4. Upload the ZIP (once)
 Go to `/admin/content/upload`.
 Drag the ZIP into the drop zone or use **Choose files**.
-Add a batch name, source, and optional notes, then click **Upload batch**.
+Add a batch name, source, and optional notes.
+Select the content destination (**Courses**), course color track (Red / White / Blue), level (Level 1–5), language, and membership tier.
+Click **Upload batch**.
 
-## 5. Review classifications
+The system automatically:
+- Validates the ZIP for security (path traversal, blocked file types, size limits)
+- Extracts every supported file from the ZIP
+- Classifies and previews each file
+- Detects duplicates and conflicts
+
+## 5. Review extracted content
 After upload, the batch review page lists every extracted file.
 Check the file preview, proposed category, pillar, language, academy level, confidence, and duplicate/conflict warnings.
 
-## 6. Correct a destination
+## 6. Assign to Academy, Level, Color, Course, Language, Region, and Membership
+Each file card shows a **Course assignment** panel with dropdowns:
+
+| Field | Options |
+|---|---|
+| Academy (Color) | Red Academy, White Academy, Blue Academy |
+| Level | Level 1 – Level 5 |
+| Language | English, Español, Français, Français (CA) |
+| Region | North America, Latin America, Caribbean, Europe, Africa, Asia, Middle East, Oceania, Global |
+| Membership level | Free, Basic, Premium, Elite |
+
+The **Resolved destination** path updates automatically as you make selections.
+Click **Apply assignment** to save.
+
+## 7. Correct a destination
 Use the **Destination** field on the batch review page.
 If a file should go somewhere else, change the path and click **Save**.
+The system verifies the path and prevents directory traversal.
 
-## 7. Approve or reject files
+## 8. Approve or reject files
 Approve only the files you want included in the export or PR.
 Reject unsupported, duplicate, incorrect, or low-confidence files.
 You can also bulk approve or bulk reject selected files.
 
-## 8. Create the GitHub PR
-Click **Create GitHub PR** after you have approved the right files.
-The portal creates a branch named like `content-upload/YYYY-MM-DD-batch-slug`, commits only approved files plus the manifest, and opens a pull request.
+**Nothing is published at this step.** Approving only stages files for the export.
 
-## 9. Review the Netlify deploy preview
-Open the deploy preview linked from the pull request checks.
-Verify that uploaded content appears where expected and that existing site functionality still works.
+## 9. Preview before publishing
+Review the resolved destination paths in the **Publish to Course** section.
+Verify that:
+- Academy (Color) is correct
+- Level is correct
+- Language and Region are correct
+- All files you expect appear in the list
 
-## 10. Merge only after checking the preview
+## 10. Publish to Course
+Click **Publish N approved files to course** in the **Publish to Course** section.
+The portal:
+- Exports all approved files into the production course structure
+- Creates a GitHub branch named `content-upload/YYYY-MM-DD-batch-slug`
+- Commits only approved files plus the manifest
+- Opens a GitHub pull request
+
+**Nothing is visible on the live website yet.**
+
+## 11. Review the GitHub PR and Netlify deploy preview
+Open the GitHub pull request.
+Open the Netlify deploy preview linked from the PR checks.
+Verify on the preview:
+- The course appears in the correct Academy (Red / White / Blue)
+- The correct Level is displayed
+- The correct Color category is displayed
+- All uploaded files are accessible
+- Images, PDFs, videos, audio, and attachments work correctly
+- Navigation links function correctly
+- The course displays correctly on the live preview website
+
+## 12. Merge only after all checks pass
 Do not merge based on upload success alone.
-Merge only after the PR diff, validation output, and Netlify preview all look correct.
+Merge only after:
+- The PR diff looks correct
+- All GitHub checks pass
+- The Netlify deploy preview is verified
+
+## 13. Verify on the live production website
+After merging and deploying, verify on the live production website:
+- Course appears in the correct Academy
+- Correct Level is displayed
+- Correct Color category is shown
+- All files are accessible
+- Images, PDFs, videos, audio, and attachments work
+- Navigation links function
+- Course displays correctly on all devices (mobile, tablet, desktop)
+
+---
+
+## Post-publish verification checklist
+
+- [ ] Course appears in correct Academy (Red / White / Blue)
+- [ ] Correct Level is displayed
+- [ ] Correct Color category is displayed
+- [ ] All uploaded files are accessible
+- [ ] Images display correctly
+- [ ] PDFs open correctly
+- [ ] Videos play correctly
+- [ ] Audio plays correctly
+- [ ] Attachments download correctly
+- [ ] Navigation links function correctly
+- [ ] Course displays correctly on mobile
+- [ ] Course displays correctly on desktop
+

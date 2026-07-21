@@ -7,9 +7,14 @@ Set the following server-only variables before using the portal in production:
 - `EDUNANCIAL_ADMIN_SESSION_SECRET`
 - `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (preferred) or `EDUNANCIAL_UPLOAD_STORAGE_KEY` (legacy alias)
 - `NEXT_PUBLIC_SUPABASE_URL`
-- `SUPABASE_SERVICE_ROLE_KEY` **preferred** — bypasses RLS so the portal can read and write freely
-  _or_ `NEXT_PUBLIC_SUPABASE_ANON_KEY` — accepted as a fallback; requires the Supabase bucket's RLS
-  policies to permit the upload operations
+- `SUPABASE_SERVICE_ROLE_KEY` **required for automatic bucket creation** — bypasses RLS so the portal
+  can create the storage bucket and read/write objects freely.  When this key is absent the server
+  skips bucket management entirely and assumes the bucket was pre-created; object reads/writes will
+  use `NEXT_PUBLIC_SUPABASE_ANON_KEY` as a fallback but will fail if the bucket's RLS policies do
+  not permit those operations.
+  _Using only_ `NEXT_PUBLIC_SUPABASE_ANON_KEY` **without** `SUPABASE_SERVICE_ROLE_KEY` will cause a
+  `403 Unauthorized — new row violates row-level security policy` error if bucket creation is
+  attempted.  Always set `SUPABASE_SERVICE_ROLE_KEY` in the Netlify environment.
 - Optional GitHub export variables: `EDUNANCIAL_GITHUB_TOKEN`, `EDUNANCIAL_GITHUB_OWNER`, `EDUNANCIAL_GITHUB_REPO`, `EDUNANCIAL_GITHUB_BASE_BRANCH`
 
 ## 2. Generate the password hash
@@ -17,7 +22,10 @@ Use the documented one-line Node command in `.env.example` to generate a `scrypt
 
 ## 3. Create durable storage
 Set `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` (or legacy `EDUNANCIAL_UPLOAD_STORAGE_KEY`) to the target bucket name.
-If the bucket does not exist yet, the server will attempt to create it automatically using the Supabase service role key.
+If `SUPABASE_SERVICE_ROLE_KEY` is configured, the server will attempt to create the bucket automatically when it
+is missing.  If only the anon key is set, bucket creation is skipped and the bucket **must** be pre-created in
+the Supabase Dashboard before the first upload — attempting creation with the anon key fails with an RLS
+`403 Unauthorized` error.
 The portal stores:
 - batch JSON metadata
 - audit history

@@ -105,6 +105,12 @@ class LocalAdminContentStorage implements AdminContentStorage {
     writeJsonFile(localPath("exports", `${exportPackage.id}.json`), exportPackage);
     return exportPackage;
   }
+
+  async getSignedUploadUrl(_path: string): Promise<string | null> {
+    // Local file-system storage does not support signed upload URLs.
+    // The client falls back to the legacy single-request upload endpoint.
+    return null;
+  }
 }
 
 class SupabaseObjectStorage implements AdminContentStorage {
@@ -127,52 +133,98 @@ class SupabaseObjectStorage implements AdminContentStorage {
     return `${this.prefix}/${path}`;
   }
 
+  /**
+   * Validates that a storage path contains only safe characters so that it
+   * cannot be used to construct unexpected URLs (SSRF / path-traversal guard).
+   * Storage paths are always server-generated; this is a defence-in-depth check.
+   */
+  private static assertSafePath(path: string) {
+    // Allow alphanumeric characters plus the URL-safe set typically used in
+    // storage object paths: forward slash, hyphen, underscore, dot.
+    // Reject anything else — including encoded sequences or protocol-relative
+    // patterns — to prevent URL injection.
+    if (!/^[a-zA-Z0-9/\-_.]+$/.test(path)) {
+      throw new Error(`Unsafe storage path rejected: ${path}`);
+    }
+  }
   private async ensureBucketExists() {
     if (this.bucketVerified) return;
-    const { url, key } = this.baseUrl;
+
+    // Bucket creation (INSERT into storage.buckets) requires the service-role key
+    // because Supabase Storage RLS blocks that operation for the anon role.  When
+    // no service-role key is configured, skip bucket management entirely and assume
+    // the bucket was pre-created — attempting to create it with the anon key would
+    // fail immediately with a 403 RLS violation.
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+    if (!serviceRoleKey) {
+      this.bucketVerified = true;
+      return;
+    }
+
+    const { url } = this.baseUrl;
     const read = await fetch(`${url}/storage/v1/bucket/${this.bucket}`, {
       method: "GET",
       headers: {
-        Authorization: "Bearer " + key,
-        apikey: key,
+        Authorization: "Bearer " + serviceRoleKey,
+        apikey: serviceRoleKey,
       },
       cache: "no-store",
     });
-    if (!read.ok) {
-      // Supabase Storage normally returns HTTP 404 for a missing bucket, but some
-      // Supabase proxy / PostgREST versions return HTTP 400 with a JSON body whose
-      // `statusCode` field is the string "404".  Treat both shapes as "not found"
-      // so the server can auto-create the bucket instead of surfacing a hard error.
-      let bucketMissing = read.status === 404;
-      let bodyText = "";
-      if (!bucketMissing) {
-        bodyText = await read.text();
-        try {
-          const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
-          bucketMissing = String(body?.statusCode) === "404" || body?.error === "Bucket not found";
-        } catch {
-          // Non-JSON body — not a missing-bucket signal; fall through to hard error.
-        }
+    if (read.ok) {
+      // Bucket already exists — skip creation.
+      this.bucketVerified = true;
+      return;
+    }
+
+    // Supabase Storage normally returns HTTP 404 for a missing bucket, but some
+    // Supabase proxy / PostgREST versions return HTTP 400 with a JSON body whose
+    // `statusCode` field is the string "404".  Treat both shapes as "not found"
+    // so the server can auto-create the bucket instead of surfacing a hard error.
+    let bucketMissing = read.status === 404;
+    let bodyText = "";
+    if (!bucketMissing) {
+      bodyText = await read.text();
+      try {
+        const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
+        bucketMissing = String(body?.statusCode) === "404" || body?.error === "Bucket not found";
+      } catch {
+        // Non-JSON body — not a missing-bucket signal; fall through to hard error.
       }
-      if (!bucketMissing) {
-        throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
+    }
+    if (!bucketMissing) {
+      throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
+    }
+
+    // Bucket is genuinely missing; create it with the service-role key.
+    const created = await fetch(`${url}/storage/v1/bucket`, {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + serviceRoleKey,
+        apikey: serviceRoleKey,
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        id: this.bucket,
+        name: this.bucket,
+        public: false,
+      }),
+      cache: "no-store",
+    });
+    if (!created.ok) {
+      const createdBody = await created.text();
+      // If another process raced ahead and created the bucket between our GET and
+      // POST, treat the duplicate-key conflict as success.
+      let alreadyExists = false;
+      try {
+        const body = JSON.parse(createdBody) as { error?: string; message?: string };
+        alreadyExists =
+          body?.error === "Duplicate" ||
+          (body?.message ?? "").toLowerCase().includes("already exists");
+      } catch {
+        // Non-JSON; not a duplicate signal.
       }
-      const created = await fetch(`${url}/storage/v1/bucket`, {
-        method: "POST",
-        headers: {
-          Authorization: "Bearer " + key,
-          apikey: key,
-          "content-type": "application/json",
-        },
-        body: JSON.stringify({
-          id: this.bucket,
-          name: this.bucket,
-          public: false,
-        }),
-        cache: "no-store",
-      });
-      if (!created.ok) {
-        throw new Error(`Supabase bucket setup failed: ${created.status} ${await created.text()}`);
+      if (!alreadyExists) {
+        throw new Error(`Supabase bucket setup failed: ${created.status} ${createdBody}`);
       }
     }
     this.bucketVerified = true;
@@ -180,8 +232,12 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
   private async request(path: string, init: RequestInit = {}) {
     const { url, key } = this.baseUrl;
+    SupabaseObjectStorage.assertSafePath(path);
     await this.ensureBucketExists();
-    const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${path}`, {
+    // Encode each path segment individually to prevent URL injection while
+    // preserving the '/' separators expected by the Supabase Storage API.
+    const encodedPath = path.split("/").map(encodeURIComponent).join("/");
+    const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${encodedPath}`, {
       ...init,
       headers: {
         Authorization: "Bearer " + key,
@@ -266,6 +322,49 @@ class SupabaseObjectStorage implements AdminContentStorage {
     await this.saveBinary(exportPackage.storagePath, archive, "application/zip");
     await this.writeJson(`exports/${exportPackage.id}.json`, exportPackage);
     return exportPackage;
+  }
+
+  /**
+   * Creates a Supabase signed upload URL so the browser can PUT a file directly
+   * to Supabase Storage without routing its content through the Netlify
+   * serverless function (which has a 6 MB request-body limit).
+   *
+   * Requires SUPABASE_SERVICE_ROLE_KEY.  Returns null when only the anon key is
+   * configured so callers can fall back to direct upload using the anon key.
+   */
+  async getSignedUploadUrl(path: string): Promise<string | null> {
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (!serviceRoleKey) return null;
+
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    if (!url) return null;
+
+    const objectPath = this.objectPath(path);
+    // Guard against path-injection / SSRF: storage paths are server-generated
+    // but we validate them here as a defence-in-depth measure.
+    SupabaseObjectStorage.assertSafePath(objectPath);
+    // Encode each segment individually to prevent URL injection.
+    const encodedObjectPath = objectPath.split("/").map(encodeURIComponent).join("/");
+    await this.ensureBucketExists();
+
+    const response = await fetch(`${url}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + serviceRoleKey,
+        apikey: serviceRoleKey,
+      },
+      cache: "no-store",
+    });
+
+    if (!response.ok) {
+      // Signed URL creation failed; caller falls back to direct anon-key upload
+      // or legacy API-proxied upload.  Do not throw so the upload can still proceed.
+      return null;
+    }
+
+    const data = (await response.json()) as { signedURL?: string };
+    if (!data.signedURL) return null;
+    return `${url}${data.signedURL}`;
   }
 }
 

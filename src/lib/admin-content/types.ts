@@ -163,6 +163,7 @@ export interface AuditEvent {
     | "export-generated"
     | "github-branch-created"
     | "github-pr-opened"
+    | "batch-published"
     | "system-error";
   result: "success" | "failure" | "warning";
   actor: string;
