@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 
-import { buildIntendedDestination, parseUploadConfig } from "@/lib/admin-content/upload-intake";
+import { buildIntendedDestination, parseUploadConfig, type CourseUploadConfig, type MarketplaceUploadConfig } from "@/lib/admin-content/upload-intake";
 
 describe("admin-content upload intake", () => {
   test("requires destination selection", () => {
@@ -21,7 +21,7 @@ describe("admin-content upload intake", () => {
     formData.set("publicationStatus", "published");
     formData.set("courseTrack", "red");
     formData.set("courseLevel", "level-3");
-    const config = parseUploadConfig(formData);
+    const config = parseUploadConfig(formData) as CourseUploadConfig;
     assert.equal(config.destination, "courses");
     assert.equal(config.track, "red");
     assert.equal(config.level, "level-3");
@@ -36,7 +36,7 @@ describe("admin-content upload intake", () => {
     formData.set("membershipAccess", "free");
     formData.set("publicationStatus", "draft");
     formData.set("marketplaceCategory", "worksheets");
-    const config = parseUploadConfig(formData);
+    const config = parseUploadConfig(formData) as MarketplaceUploadConfig;
     assert.equal(config.destination, "marketplace");
     assert.equal(config.category, "worksheets");
   });

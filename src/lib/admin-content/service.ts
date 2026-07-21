@@ -433,6 +433,38 @@ export async function getExportArchive(batchId: string, exportId: string) {
   return getAdminContentStorage().readBinary(exportPackage.storagePath);
 }
 
+export async function publishBatch(batchId: string, actor: ActorContext) {
+  const storage = getAdminContentStorage();
+  const batch = await storage.getBatch(batchId);
+  if (!batch) throw new Error("Batch not found");
+  const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
+  if (approvedFiles.length === 0) {
+    throw new Error("At least one file must be approved before publishing.");
+  }
+  const github = await exportBatchToGithub(batchId, actor);
+  const updatedBatch = await storage.getBatch(batchId);
+  if (updatedBatch) {
+    updatedBatch.status = "exported";
+    updatedBatch.updatedAt = nowIso();
+    await appendBatchAuditEvent(
+      updatedBatch,
+      createAuditEvent({
+        action: "batch-published",
+        result: "success",
+        actor: actor.email,
+        batchId,
+        metadata: {
+          approvedFileCount: approvedFiles.length,
+          pullRequestUrl: github.pullRequestUrl,
+          branch: github.branch,
+        },
+      }),
+    );
+    await storage.updateBatch(updatedBatch);
+  }
+  return github;
+}
+
 export async function listAuditHistory(batchId?: string) {
   return getAdminContentStorage().listAuditHistory(batchId);
 }

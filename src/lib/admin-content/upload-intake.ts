@@ -7,6 +7,16 @@ export const COURSE_TRACKS = ["red", "white", "blue"] as const;
 export const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
 export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] as const;
 export const MEMBERSHIP_ACCESS = ["free", "basic", "premium", "elite"] as const;
+export const SUPPORTED_REGIONS = [
+  "north-america",
+  "latin-america",
+  "caribbean",
+  "europe",
+  "africa",
+  "asia",
+  "middle-east",
+  "oceania",
+] as const;
 export const MARKETPLACE_CATEGORIES = [
   "books",
   "ebooks",
@@ -33,6 +43,7 @@ export type CourseTrack = (typeof COURSE_TRACKS)[number];
 export type CourseLevel = (typeof COURSE_LEVELS)[number];
 export type PublicationState = (typeof PUBLICATION_STATES)[number];
 export type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];
+export type SupportedRegion = (typeof SUPPORTED_REGIONS)[number];
 export type MarketplaceCategory = (typeof MARKETPLACE_CATEGORIES)[number];
 export type UploadLanguage = (typeof SUPPORTED_UPLOAD_LANGUAGES)[number];
 
