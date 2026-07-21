@@ -436,3 +436,49 @@ export async function getExportArchive(batchId: string, exportId: string) {
 export async function listAuditHistory(batchId?: string) {
   return getAdminContentStorage().listAuditHistory(batchId);
 }
+
+export async function publishBatch(batchId: string, actor: ActorContext) {
+  const storage = getAdminContentStorage();
+  const batch = await storage.getBatch(batchId);
+  if (!batch) throw new Error("Batch not found");
+  const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
+  if (approvedFiles.length === 0) throw new Error("No approved files to publish. Approve files before publishing.");
+
+  // Ensure export and GitHub PR exist
+  const latestExport = batch.exports[0] ?? (await exportBatch(batchId, actor));
+  if (!latestExport.github) {
+    const github = await createGithubPullRequest(batch, latestExport);
+    latestExport.github = github;
+    batch.exports[0] = latestExport;
+    await appendBatchAuditEvent(batch, createAuditEvent({ action: "github-branch-created", result: "success", actor: actor.email, batchId, metadata: { branch: github.branch } }));
+    await appendBatchAuditEvent(batch, createAuditEvent({ action: "github-pr-opened", result: "success", actor: actor.email, batchId, metadata: { url: github.pullRequestUrl } }));
+  }
+
+  // Mark all approved files as published
+  batch.files = batch.files.map((file) => {
+    if (file.reviewStatus !== "approved") return file;
+    return {
+      ...file,
+      metadata: { ...file.metadata, publicationStatus: "published" },
+      updatedAt: nowIso(),
+    };
+  });
+  batch.status = "exported";
+  batch.updatedAt = nowIso();
+
+  await appendBatchAuditEvent(
+    batch,
+    createAuditEvent({
+      action: "batch-published",
+      result: "success",
+      actor: actor.email,
+      batchId,
+      metadata: {
+        publishedFiles: approvedFiles.length,
+        githubPr: latestExport.github?.pullRequestUrl ?? null,
+      },
+    }),
+  );
+  await storage.updateBatch(batch);
+  return { batch, github: latestExport.github };
+}
