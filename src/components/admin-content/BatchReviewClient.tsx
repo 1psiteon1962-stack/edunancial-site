@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import type { ExtractedFile, UploadBatch } from "@/lib/admin-content/types";
-import { COURSE_LEVELS, COURSE_TRACKS, MEMBERSHIP_ACCESS, SUPPORTED_REGIONS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/upload-intake";
+import { COURSE_LEVELS, MEMBERSHIP_ACCESS, SUPPORTED_REGIONS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
 
 export default function BatchReviewClient({ batchId }: { batchId: string }) {
   const [batch, setBatch] = useState<UploadBatch | null>(null);
