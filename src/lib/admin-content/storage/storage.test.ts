@@ -106,4 +106,54 @@ describe("SupabaseObjectStorage ensureBucketExists", () => {
       /Supabase bucket check failed: 400/,
     );
   });
+
+  test("skips bucket management and proceeds when only anon key is available", async () => {
+    // Simulate the production failure scenario: no SUPABASE_SERVICE_ROLE_KEY,
+    // only the anon key.  The server must NOT attempt bucket creation (which
+    // would fail with an RLS 403) and must proceed to the actual storage call.
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "anon-key";
+    resetAdminContentStorage();
+
+    const calls: string[] = [];
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      calls.push(url);
+      // Object read returns an empty list.
+      return makeResponse(200, "[]");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    const batches = await storage.listBatches();
+
+    assert.ok(
+      calls.every((u) => !u.includes("/storage/v1/bucket")),
+      "must not touch the bucket management endpoint when no service-role key is set",
+    );
+    assert.deepEqual(batches, [], "should return empty list");
+
+    delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    resetAdminContentStorage();
+  });
+
+  test("skips bucket creation when bucket already exists (GET returns 200)", async () => {
+    const calls: string[] = [];
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      calls.push(url);
+      if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
+        return makeResponse(200, { id: FAKE_BUCKET, name: FAKE_BUCKET });
+      }
+      return makeResponse(200, "[]");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    await storage.listBatches();
+
+    assert.ok(calls.some((u) => u.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)), "should GET bucket");
+    assert.ok(
+      !calls.some((u) => u.endsWith("/storage/v1/bucket")),
+      "must not POST to create an already-existing bucket",
+    );
+  });
 });
