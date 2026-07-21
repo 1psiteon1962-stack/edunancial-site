@@ -31,14 +31,14 @@ function makeFormData() {
   return formData;
 }
 
-function makeZip(entries: Array<{ name: string; content: string }>) {
+function makeZip(entries: Array<{ name: string; content: string | Buffer }>) {
   const chunks: Buffer[] = [];
   const central: Buffer[] = [];
   let offset = 0;
   const u16 = (value: number) => { const b = Buffer.alloc(2); b.writeUInt16LE(value, 0); return b; };
   const u32 = (value: number) => { const b = Buffer.alloc(4); b.writeUInt32LE(value >>> 0, 0); return b; };
   for (const entry of entries) {
-    const data = Buffer.from(entry.content);
+    const data = Buffer.isBuffer(entry.content) ? entry.content : Buffer.from(entry.content);
     const name = Buffer.from(entry.name);
     const local = Buffer.concat([Buffer.from([0x50,0x4b,0x03,0x04]),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
     const dir = Buffer.concat([Buffer.from([0x50,0x4b,0x01,0x02]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
@@ -115,7 +115,7 @@ function makeEdunancialCourseZip() {
     },
     {
       name: "media/thumbnail.jpg",
-      content: "\xff\xd8\xff\xe0placeholder-jpg",
+      content: Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.from("placeholder-jpg")]),
     },
     {
       name: "media/worksheet-lesson-01.pdf",
