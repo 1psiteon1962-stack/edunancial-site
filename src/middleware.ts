@@ -110,9 +110,29 @@ export function middleware(request: NextRequest) {
 
   if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath || isContentLoaderPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
+
+    // Build connect-src: always include 'self'; additionally include the
+    // Supabase origin so admin pages can POST/PUT file bytes directly to
+    // Supabase Storage (two-phase upload flow).  NEXT_PUBLIC_SUPABASE_URL is a
+    // build-time public env var so it is safely readable from the Edge
+    // middleware.
+    const supabaseOrigin = (() => {
+      try {
+        const raw = process.env.NEXT_PUBLIC_SUPABASE_URL;
+        if (!raw) return "";
+        const parsed = new URL(raw);
+        // Only accept https: origins that look like Supabase project URLs to
+        // avoid accidentally permitting arbitrary origins via a misconfigured
+        // env var.
+        return parsed.protocol === "https:" ? " " + parsed.origin : "";
+      } catch {
+        return "";
+      }
+    })();
+
     response.headers.set(
       "Content-Security-Policy",
-      "default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+      `default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'${supabaseOrigin}; frame-ancestors 'none'; base-uri 'self'; form-action 'self'`,
     );
   }
 

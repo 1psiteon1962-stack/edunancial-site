@@ -318,3 +318,81 @@ describe("createUploadBatchFromStoredFiles", () => {
     assert.equal(batch.uploads.length, 0);
   });
 });
+
+// ---------------------------------------------------------------------------
+// Regression tests: directUpload URL path alignment
+//
+// The presign route constructs a directUpload URL for anon-key uploads that
+// MUST include DEFAULT_STORAGE_PREFIX so that the path the browser writes to
+// matches the path the finalize route reads via storage.readBinary().
+//
+// storage.readBinary(storagePath) → request(objectPath(storagePath))
+//                                 → fetch({supabase}/object/{bucket}/PREFIX/storagePath)
+//
+// directUpload.url MUST be {supabase}/storage/v1/object/{bucket}/PREFIX/storagePath
+// ---------------------------------------------------------------------------
+describe("presign directUpload URL path alignment", () => {
+  let originalFetch: typeof globalThis.fetch;
+
+  beforeEach(() => {
+    originalFetch = globalThis.fetch;
+    process.env.NEXT_PUBLIC_SUPABASE_URL = FAKE_URL;
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "anon-key";
+    process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = FAKE_BUCKET;
+    // No service-role key → getSignedUploadUrl returns null, directUpload is used.
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    resetAdminContentStorage();
+  });
+
+  afterEach(() => {
+    globalThis.fetch = originalFetch;
+    delete process.env.NEXT_PUBLIC_SUPABASE_URL;
+    delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
+    resetAdminContentStorage();
+  });
+
+  test("readBinary uses DEFAULT_STORAGE_PREFIX in its Supabase URL", async () => {
+    // Verify that SupabaseObjectStorage.readBinary() prefixes the object path
+    // with DEFAULT_STORAGE_PREFIX.  This is the path the presign directUpload
+    // URL must match.
+    const capturedUrls: string[] = [];
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      capturedUrls.push(input.toString());
+      return makeResponse(404, "");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    const storagePath = "uploads/courses/batch-1/upload-1-file.zip";
+    await storage.readBinary(storagePath);
+
+    // The fetched URL must contain DEFAULT_STORAGE_PREFIX/storagePath
+    const readUrl = capturedUrls.find((u) => u.includes("/storage/v1/object/"));
+    assert.ok(readUrl, "should have made a storage fetch");
+    assert.ok(
+      readUrl!.includes(`/storage/v1/object/${FAKE_BUCKET}/admin-content/${storagePath}`),
+      `readBinary URL should include prefix 'admin-content/${storagePath}', got: ${readUrl}`,
+    );
+  });
+
+  test("presign route source references DEFAULT_STORAGE_PREFIX in directUpload URL construction", () => {
+    // Static code assertion: the presign route MUST include DEFAULT_STORAGE_PREFIX
+    // when constructing the directUpload URL so that browser writes go to the
+    // same Supabase path that finalize reads back.
+    const { readFileSync } = require("node:fs");
+    const path = require("node:path");
+    const routeSrc = readFileSync(
+      path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
+      "utf8",
+    ) as string;
+
+    assert.ok(
+      routeSrc.includes("DEFAULT_STORAGE_PREFIX"),
+      "presign/route.ts must import and use DEFAULT_STORAGE_PREFIX in directUpload URL",
+    );
+    assert.ok(
+      routeSrc.includes("objectStoragePath"),
+      "presign/route.ts must use objectStoragePath (prefix + storagePath) for directUpload URL",
+    );
+  });
+})
