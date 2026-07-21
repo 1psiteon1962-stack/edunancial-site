@@ -10,6 +10,39 @@ Nothing becomes publicly visible until you have approved the files **and** merge
 
 ---
 
+## Production Prerequisites
+
+Before using the upload workflow in production, ensure the following are configured:
+
+### 1. Supabase Storage Bucket
+
+The upload system stores files in a Supabase Storage bucket named **`admin-content`**.
+
+**Option A — Auto-create (recommended):** Set the `SUPABASE_SERVICE_ROLE_KEY` environment variable in your Netlify settings. The system will automatically create the bucket on first use.
+
+**Option B — Manual setup:** Create the bucket manually in your Supabase dashboard:
+1. Open your Supabase project → Storage → New bucket
+2. Name it `admin-content`
+3. Set it as **private** (not public)
+4. Add an RLS INSERT policy allowing service-role uploads, or configure your service role key
+
+Without one of these, the presign endpoint returns a descriptive `400` error: `"Bucket 'admin-content' does not exist"` rather than silently failing.
+
+### 2. Environment Variables
+
+Ensure these are set in Netlify (Site settings → Environment variables):
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `SUPABASE_SERVICE_ROLE_KEY` | Recommended | Auto-creates bucket; enables signed upload URLs for files > 5 MB |
+| `NEXT_PUBLIC_SUPABASE_URL` | Required | Supabase project URL (also used by CSP header for XHR access) |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Required | Browser-side Supabase client |
+| `EDUNANCIAL_GITHUB_TOKEN` | Required for publish | GitHub personal access token for opening course PRs |
+| `EDUNANCIAL_GITHUB_OWNER` | Required for publish | GitHub repo owner (e.g. `1psiteon1962-stack`) |
+| `EDUNANCIAL_GITHUB_REPO` | Required for publish | GitHub repo name (e.g. `edunancial-site`) |
+
+---
+
 ## 1. Download files from Claude
 In Claude, use the download controls next to each generated file and save them to a folder on your computer.
 If Claude gives you multiple files, keep them together in one folder so they are easy to review before upload.
