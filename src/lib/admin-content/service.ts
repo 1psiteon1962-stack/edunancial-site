@@ -315,6 +315,190 @@ export async function createUploadBatch(request: Request, actor: ActorContext, f
   return batch;
 }
 
+/** Metadata describing a single file that was already uploaded directly to storage. */
+export type StoredUploadEntry = {
+  uploadId: string;
+  originalFilename: string;
+  mimeType: string;
+  sizeBytes: number;
+  storagePath: string;
+};
+
+/**
+ * Finalize an upload batch whose files were already written directly to storage
+ * (via signed Supabase upload URLs).  Reads each file from storage, validates
+ * it, extracts ZIP contents, and creates the review batch — without requiring
+ * the file bytes to pass through the Netlify serverless function request body.
+ *
+ * This is the server-side counterpart to the two-phase upload flow that
+ * bypasses Netlify's 6 MB function request-body limit.
+ */
+export async function createUploadBatchFromStoredFiles(
+  request: Request,
+  actor: ActorContext,
+  params: {
+    batchId: string;
+    batchName: string;
+    source: string;
+    notes: string;
+    uploadConfig: UploadConfig;
+    uploads: StoredUploadEntry[];
+  },
+) {
+  const limited = checkRateLimit(
+    getRateLimitKey("admin-upload", request),
+    DEFAULT_UPLOAD_RATE_LIMIT.maxRequests,
+    DEFAULT_UPLOAD_RATE_LIMIT.windowMs,
+  );
+  if (!limited.allowed) throw new Error("Upload rate limit exceeded");
+
+  const { batchId, uploads, uploadConfig } = params;
+  if (!uploads.length) throw new Error("No uploaded files were provided.");
+
+  const name = (params.batchName || "Content upload").trim();
+  const source = (params.source || "manual-upload").trim() || "manual-upload";
+  const notes = (params.notes || "").trim();
+  const timestamp = nowIso();
+
+  const batch: UploadBatch = {
+    id: batchId,
+    name,
+    slug: slugify(name),
+    source,
+    notes,
+    status: "processing",
+    createdAt: timestamp,
+    updatedAt: timestamp,
+    uploads: [],
+    files: [],
+    auditHistory: [],
+    exports: [],
+    warnings: [],
+  };
+
+  const storage = getAdminContentStorage();
+  await appendBatchAuditEvent(batch, createAuditEvent({ action: "batch-created", result: "success", actor: actor.email, batchId }));
+
+  for (const upload of uploads) {
+    try {
+      const buffer = await storage.readBinary(upload.storagePath);
+      if (!buffer) throw new Error(`File not found in storage after upload: ${upload.originalFilename}`);
+
+      validateFileSize(buffer.length);
+      const { safeName, extension, detectedMime } = validateFileType(upload.originalFilename, upload.mimeType, buffer);
+
+      const uploadRecord = {
+        id: upload.uploadId,
+        batchId,
+        originalFilename: upload.originalFilename,
+        normalizedFilename: safeName,
+        mimeType: detectedMime,
+        extension,
+        sizeBytes: buffer.length,
+        checksum: sha256(buffer),
+        isArchive: extension === ".zip",
+        storagePath: upload.storagePath,
+        createdAt: nowIso(),
+        extractedFileIds: [] as string[],
+        source,
+        notes: "",
+        uploader: actor.email,
+        storageBucket: process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ?? null,
+        contentDestination: uploadConfig.destination,
+      };
+
+      if (extension === ".zip") {
+        const entries = extractZipEntries(buffer);
+        const files = entries.map((entry) =>
+          createReviewFile(
+            batchId,
+            upload.uploadId,
+            entry.normalizedName,
+            entry.name,
+            upload.originalFilename,
+            validateFileType(entry.normalizedName, detectedMime, entry.data).detectedMime,
+            entry.data,
+            source,
+            uploadConfig,
+          ),
+        );
+        uploadRecord.extractedFileIds = files.map((f) => f.id);
+        batch.uploads.push(uploadRecord);
+        batch.files.push(...files);
+        await appendBatchAuditEvent(
+          batch,
+          createAuditEvent({
+            action: "file-uploaded",
+            result: "success",
+            actor: actor.email,
+            batchId,
+            metadata: { file: upload.originalFilename, reviewableFiles: files.length },
+          }),
+        );
+        await appendBatchAuditEvent(
+          batch,
+          createAuditEvent({
+            action: "archive-extracted",
+            result: "success",
+            actor: actor.email,
+            batchId,
+            metadata: { archive: upload.originalFilename, extractedFiles: files.length },
+          }),
+        );
+      } else {
+        const reviewFile = createReviewFile(batchId, upload.uploadId, safeName, null, null, detectedMime, buffer, source, uploadConfig);
+        uploadRecord.extractedFileIds = [reviewFile.id];
+        batch.uploads.push(uploadRecord);
+        batch.files.push(reviewFile);
+        await appendBatchAuditEvent(
+          batch,
+          createAuditEvent({
+            action: "file-uploaded",
+            result: "success",
+            actor: actor.email,
+            batchId,
+            metadata: { file: upload.originalFilename, reviewableFiles: 1 },
+          }),
+        );
+      }
+    } catch (error) {
+      batch.warnings.push(`${upload.originalFilename}: ${(error as Error).message}`);
+      await appendBatchAuditEvent(
+        batch,
+        createAuditEvent({
+          action: "extraction-failure",
+          result: "warning",
+          actor: actor.email,
+          batchId,
+          metadata: { file: upload.originalFilename, error: (error as Error).message },
+        }),
+      );
+    }
+  }
+
+  const existingFiles = await listExistingFiles();
+  batch.files = batch.files.map((file) => {
+    const conflictStatus = detectConflicts(file, existingFiles.filter((candidate) => candidate.batchId !== batchId));
+    return {
+      ...file,
+      conflictStatus,
+      duplicateStatus: toDuplicateStatus(conflictStatus, file.processingStatus === "error"),
+      updatedAt: nowIso(),
+    };
+  });
+
+  batch.status = deriveBatchStatus(batch.files);
+  batch.updatedAt = nowIso();
+  try {
+    await storage.createBatch(batch);
+  } catch (error) {
+    // Roll back orphaned storage objects on batch-save failure.
+    await Promise.allSettled(batch.uploads.map((u) => storage.deleteBinary(u.storagePath)));
+    throw error;
+  }
+  return batch;
+}
+
 export async function listUploadBatches() {
   return getAdminContentStorage().listBatches();
 }

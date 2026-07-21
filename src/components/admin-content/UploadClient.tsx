@@ -86,6 +86,37 @@ export default function UploadClient() {
     return "";
   }
 
+  /** Upload a single file using XHR and track progress (0–100). */
+  function uploadFileDirect(
+    file: File,
+    url: string,
+    method: string,
+    headers: Record<string, string>,
+    onProgress: (pct: number) => void,
+  ): Promise<void> {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhrRef.current = xhr;
+      xhr.upload.onprogress = (evt) => {
+        if (evt.lengthComputable) onProgress(Math.round((evt.loaded / evt.total) * 100));
+      };
+      xhr.onload = () => {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          resolve();
+        } else {
+          reject(new Error(`Direct upload failed (HTTP ${xhr.status}): ${xhr.responseText}`));
+        }
+      };
+      xhr.onerror = () => reject(new Error("Network error during file upload."));
+      xhr.onabort = () => reject(new Error("Upload canceled."));
+      xhr.open(method, url);
+      for (const [key, value] of Object.entries(headers)) {
+        xhr.setRequestHeader(key, value);
+      }
+      xhr.send(file);
+    });
+  }
+
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const validation = validateBeforeUpload();
@@ -97,25 +128,165 @@ export default function UploadClient() {
     setError("");
     setSuccess("");
     setProgress(0);
-    const formData = new FormData();
-    formData.append("batchName", batchName || `Content Upload ${new Date().toISOString().slice(0, 10)}`);
-    formData.append("source", source);
-    formData.append("notes", notes);
-    formData.append("contentDestination", contentDestination);
-    formData.append("language", language);
-    formData.append("membershipAccess", membershipAccess);
-    formData.append("publicationStatus", publicationStatus);
-    formData.append("title", title);
-    formData.append("description", description);
-    formData.append("thumbnailUrl", thumbnailUrl);
-    formData.append("previewUrl", previewUrl);
+
+    // Build the shared config payload used for both presign and legacy upload.
+    const sharedConfig: Record<string, string> = {
+      batchName: batchName || `Content Upload ${new Date().toISOString().slice(0, 10)}`,
+      source,
+      notes,
+      contentDestination,
+      language,
+      membershipAccess,
+      publicationStatus,
+      title,
+      description,
+      thumbnailUrl,
+      previewUrl,
+    };
     if (contentDestination === "courses") {
-      formData.append("courseTrack", courseTrack);
-      formData.append("courseLevel", courseLevel);
+      sharedConfig.courseTrack = courseTrack;
+      sharedConfig.courseLevel = courseLevel;
     } else {
-      formData.append("marketplaceCategory", marketplaceCategory);
-      formData.append("associatedTrack", associatedTrack);
-      formData.append("associatedLevel", associatedLevel);
+      sharedConfig.marketplaceCategory = marketplaceCategory;
+      sharedConfig.associatedTrack = associatedTrack;
+      sharedConfig.associatedLevel = associatedLevel;
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // Two-phase upload: presign → direct-to-Supabase → finalize
+    // This bypasses Netlify's 6 MB serverless-function request-body limit so
+    // that ZIP files of any size can be uploaded.
+    // ─────────────────────────────────────────────────────────────────────────
+    let presignResult: {
+      batchId: string;
+      uploads: Array<{
+        uploadId: string;
+        storagePath: string;
+        safeName: string;
+        signedUrl: string | null;
+        directUpload: { url: string; headers: Record<string, string> } | null;
+      }>;
+    } | null = null;
+
+    try {
+      const presignResponse = await fetch("/api/admin/content/upload/presign", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-csrf-token": csrfToken,
+        },
+        body: JSON.stringify({
+          ...sharedConfig,
+          files: files.map((f) => ({ name: f.name, size: f.size, type: f.type })),
+        }),
+      });
+
+      if (!presignResponse.ok) {
+        let message = "Failed to prepare upload.";
+        try {
+          const parsed = (await presignResponse.json()) as { error?: string };
+          message = parsed.error ?? message;
+        } catch {}
+        setError(message);
+        setUploading(false);
+        return;
+      }
+
+      presignResult = (await presignResponse.json()) as {
+        batchId: string;
+        uploads: Array<{
+          uploadId: string;
+          storagePath: string;
+          safeName: string;
+          signedUrl: string | null;
+          directUpload: { url: string; headers: Record<string, string> } | null;
+        }>;
+      };
+    } catch {
+      // Presign endpoint not reachable — fall through to legacy single-request upload.
+    }
+
+    // Check whether all files have a usable upload URL.
+    const allHaveDirectPath =
+      presignResult !== null &&
+      presignResult.uploads.every((u) => u.signedUrl !== null || u.directUpload !== null);
+
+    if (presignResult && allHaveDirectPath) {
+      // Phase 2: upload each file directly to Supabase.
+      const { batchId, uploads } = presignResult;
+      try {
+        for (let i = 0; i < files.length; i++) {
+          const file = files[i];
+          const uploadSpec = uploads[i];
+          const baseProgress = Math.round((i / files.length) * 85);
+
+          if (uploadSpec.signedUrl) {
+            await uploadFileDirect(file, uploadSpec.signedUrl, "PUT", { "Content-Type": file.type || "application/octet-stream" }, (pct) => {
+              setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
+            });
+          } else if (uploadSpec.directUpload) {
+            const { url, headers } = uploadSpec.directUpload;
+            await uploadFileDirect(file, url, "POST", { ...headers, "Content-Type": file.type || "application/octet-stream" }, (pct) => {
+              setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
+            });
+          }
+        }
+
+        setProgress(90);
+
+        // Phase 3: finalize — server reads from storage and creates the batch record.
+        const finalizeResponse = await fetch("/api/admin/content/upload/finalize", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-csrf-token": csrfToken,
+          },
+          body: JSON.stringify({
+            ...sharedConfig,
+            batchId,
+            uploads: files.map((file, i) => ({
+              uploadId: uploads[i].uploadId,
+              originalFilename: file.name,
+              mimeType: file.type || "application/octet-stream",
+              sizeBytes: file.size,
+              storagePath: uploads[i].storagePath,
+            })),
+          }),
+        });
+
+        setUploading(false);
+        setProgress(100);
+
+        if (!finalizeResponse.ok) {
+          let message = "Upload processing failed.";
+          try {
+            const parsed = (await finalizeResponse.json()) as { error?: string };
+            message = parsed.error ?? message;
+          } catch {}
+          setError(message);
+          return;
+        }
+
+        const payload = (await finalizeResponse.json()) as { batch: { id: string } };
+        setSuccess("Upload successful. Routing to batch review.");
+        router.push(`/admin/content/batches/${payload.batch.id}`);
+        router.refresh();
+        return;
+      } catch (err) {
+        setUploading(false);
+        setError((err as Error).message || "Upload failed.");
+        return;
+      }
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // Legacy single-request upload fallback (used in local development and for
+    // deployments where neither signed URLs nor direct anon-key upload is
+    // available).  Subject to Netlify's 6 MB request-body limit in production.
+    // ─────────────────────────────────────────────────────────────────────────
+    const formData = new FormData();
+    for (const [key, value] of Object.entries(sharedConfig)) {
+      formData.append(key, value);
     }
     files.forEach((file) => formData.append("files", file));
     const xhr = new XMLHttpRequest();
