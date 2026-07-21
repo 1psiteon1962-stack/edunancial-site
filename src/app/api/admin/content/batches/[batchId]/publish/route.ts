@@ -1,0 +1,14 @@
+import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
+import { publishBatch } from "@/lib/admin-content/service";
+
+export async function POST(request: Request, { params }: { params: Promise<{ batchId: string }> }) {
+  const auth = await requireAdminApiSession(request, true);
+  if (!auth.ok) return auth.response;
+  const { batchId } = await params;
+  try {
+    const result = await publishBatch(batchId, toActor(auth.session));
+    return Response.json({ batch: result.batch, github: result.github });
+  } catch (error) {
+    return Response.json({ error: (error as Error).message }, { status: 400 });
+  }
+}
