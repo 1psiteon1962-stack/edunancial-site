@@ -16,10 +16,11 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { DEFAULT_STORAGE_PREFIX, DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
+import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import { createDirectUploadSpec } from "@/lib/admin-content/upload-direct";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
@@ -107,20 +108,12 @@ export async function POST(request: NextRequest) {
         // directly to Supabase without routing file bytes through the Netlify
         // serverless function.
         //
-        // IMPORTANT: the object path sent to Supabase Storage must include the
-        // DEFAULT_STORAGE_PREFIX so it matches the path that the finalize route
-        // reads via storage.readBinary(storagePath) → objectPath(storagePath).
-        const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
+        // IMPORTANT: createDirectUploadSpec includes DEFAULT_STORAGE_PREFIX in
+        // the object path so the browser writes to the same path that the
+        // finalize route reads via storage.readBinary(storagePath).
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
-            ? {
-                url: supabaseUrl + "/storage/v1/object/" + bucket + "/" + objectStoragePath,
-                headers: {
-                  Authorization: "Bearer " + anonKey,
-                  apikey: anonKey,
-                  "x-upsert": "true",
-                } as Record<string, string>,
-              }
+            ? createDirectUploadSpec(supabaseUrl, anonKey, bucket, storagePath)
             : null;
 
         return {
