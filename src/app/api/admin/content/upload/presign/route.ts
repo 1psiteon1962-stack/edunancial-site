@@ -20,6 +20,7 @@ import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import { createDirectUploadSpec } from "@/lib/admin-content/upload-direct";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
@@ -89,14 +90,7 @@ export async function POST(request: NextRequest) {
         // serverless function.
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
-            ? {
-                url: supabaseUrl + "/storage/v1/object/" + bucket + "/" + storagePath,
-                headers: {
-                  Authorization: "Bearer " + anonKey,
-                  apikey: anonKey,
-                  "x-upsert": "true",
-                } as Record<string, string>,
-              }
+            ? createDirectUploadSpec(supabaseUrl, anonKey, bucket, storagePath)
             : null;
 
         return {
