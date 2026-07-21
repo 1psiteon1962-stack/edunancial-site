@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { afterEach, describe, test } from "node:test";
 
-import { bulkReview, createUploadBatch, exportBatch, exportBatchToGithub, getUploadBatch } from "@/lib/admin-content/service";
+import { bulkReview, createUploadBatch, exportBatch, exportBatchToGithub, getUploadBatch, publishBatch } from "@/lib/admin-content/service";
 import { resetAdminContentStorage } from "@/lib/admin-content/storage";
 
 afterEach(() => {
@@ -48,6 +48,86 @@ function makeZip(entries: Array<{ name: string; content: string }>) {
   return Buffer.concat([...chunks, cd, Buffer.from([0x50,0x4b,0x05,0x06]), u16(0), u16(0), u16(entries.length), u16(entries.length), u32(cd.length), u32(offset), u16(0)]);
 }
 
+/** Simulates an actual Edunancial course ZIP with multiple lessons, assets, and metadata */
+function makeEdunancialCourseZip() {
+  return makeZip([
+    {
+      name: "course.json",
+      content: JSON.stringify({
+        title: "Real Estate Foundations",
+        slug: "real-estate-foundations",
+        path: "red",
+        level: "level-1",
+        language: "en",
+        region: "north-america",
+        membershipTier: "basic",
+        modules: [
+          {
+            title: "Module 1: Introduction",
+            lessons: [
+              { title: "Lesson 1: What is Real Estate?", file: "lessons/lesson-01.md" },
+              { title: "Lesson 2: Types of Property",   file: "lessons/lesson-02.md" },
+            ],
+          },
+        ],
+      }),
+    },
+    {
+      name: "lessons/lesson-01.md",
+      content: [
+        "---",
+        "id: RED-L1-001",
+        "track: RED",
+        "level: 1",
+        "lessonNumber: 1",
+        "title: What is Real Estate?",
+        "---",
+        "",
+        "## Learning Objectives",
+        "",
+        "- Understand what real estate means",
+        "- Identify different property types",
+        "",
+        "## Core Content",
+        "",
+        "Real estate refers to land and any permanent structures attached to it.",
+      ].join("\n"),
+    },
+    {
+      name: "lessons/lesson-02.md",
+      content: [
+        "---",
+        "id: RED-L1-002",
+        "track: RED",
+        "level: 1",
+        "lessonNumber: 2",
+        "title: Types of Property",
+        "---",
+        "",
+        "## Learning Objectives",
+        "",
+        "- Know residential vs commercial property",
+        "",
+        "## Core Content",
+        "",
+        "Residential property is used for housing. Commercial property is used for business.",
+      ].join("\n"),
+    },
+    {
+      name: "media/thumbnail.jpg",
+      content: "\xff\xd8\xff\xe0placeholder-jpg",
+    },
+    {
+      name: "media/worksheet-lesson-01.pdf",
+      content: "%PDF-1.4 placeholder worksheet",
+    },
+    {
+      name: "README.md",
+      content: "# Real Estate Foundations\n\nEdunancial Red Academy – Level 1 course package.",
+    },
+  ]);
+}
+
 describe("admin-content upload service", () => {
   test("creates a valid multi-file upload batch", async () => {
     const formData = makeFormData();
@@ -84,5 +164,71 @@ describe("admin-content upload service", () => {
     assert.match(exportPackage.fileName, /approved-content\.zip$/);
 
     await assert.rejects(() => exportBatchToGithub(batch.id, { email: "owner@example.com" }), /GitHub integration requires/);
+  });
+
+  test("full Edunancial production content workflow: upload ZIP → validate → extract → review → assign → approve → publish", async () => {
+    // Step 1: Upload ZIP (once)
+    const formData = makeFormData();
+    formData.set("batchName", "Real Estate Foundations – Level 1");
+    formData.set("courseTrack", "red");
+    formData.set("courseLevel", "level-1");
+    formData.set("language", "en");
+    formData.set("title", "Real Estate Foundations");
+    formData.set("description", "Edunancial Red Academy Level 1 – North America");
+    formData.append("files", new File([makeEdunancialCourseZip()], "real-estate-foundations.zip", { type: "application/zip" }));
+
+    // Step 2 & 3: System validates and extracts automatically
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    assert.equal(batch.uploads.length, 1, "one ZIP uploaded");
+    assert(batch.files.length >= 5, "all files extracted from ZIP");
+
+    // Verify extraction produced expected file types
+    const filenames = batch.files.map((f) => f.normalizedFilename);
+    assert(filenames.some((n) => n.endsWith(".json")), "course.json extracted");
+    assert(filenames.some((n) => n.endsWith(".md")), "markdown lessons extracted");
+    assert(filenames.some((n) => n.endsWith(".pdf")), "PDF worksheet extracted");
+    assert(filenames.some((n) => n.endsWith(".jpg") || n.endsWith(".jpeg")), "image extracted");
+
+    // Step 4: Files presented for review (all start as pending)
+    assert(batch.files.every((f) => f.reviewStatus === "pending"), "all files pending review");
+
+    // Step 5: Assign Academy, Level, Color, Language, Region per file
+    for (const file of batch.files) {
+      assert(file.classification.pillar === "red", `pillar is red for ${file.normalizedFilename}`);
+      assert(file.classification.academyLevel === "level-1", `level is level-1 for ${file.normalizedFilename}`);
+      assert(file.classification.language === "en", `language is en for ${file.normalizedFilename}`);
+    }
+
+    // Step 6: Storage destinations set automatically
+    for (const file of batch.files) {
+      assert(file.metadata.intendedDestination.startsWith("content/courses/red/level-1/en/"), `destination correct for ${file.normalizedFilename}`);
+    }
+
+    // Step 7: Approve files (review gate – nothing published yet)
+    const allFileIds = batch.files.map((f) => f.id);
+    const reviewed = await bulkReview(batch.id, { email: "owner@example.com" }, allFileIds, "approved");
+    assert(reviewed.files.every((f) => f.reviewStatus === "approved"), "all files approved");
+
+    // Step 8: Publish requires GitHub config; verify error is surfaced correctly
+    await assert.rejects(
+      () => publishBatch(batch.id, { email: "owner@example.com" }),
+      /GitHub integration requires/,
+      "publish correctly surfaces missing GitHub config error",
+    );
+
+    // Verify audit trail includes batch-created, archive-extracted, bulk-action events
+    const actions = batch.auditHistory.map((e) => e.action);
+    assert(actions.includes("batch-created"), "audit: batch-created");
+    assert(actions.includes("archive-extracted"), "audit: archive-extracted");
+  });
+
+  test("publishBatch rejects when no files are approved", async () => {
+    const formData = makeFormData();
+    formData.append("files", new File([Buffer.from("lesson content")], "lesson.txt", { type: "text/plain" }));
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    await assert.rejects(
+      () => publishBatch(batch.id, { email: "owner@example.com" }),
+      /No approved files to publish/,
+    );
   });
 });
