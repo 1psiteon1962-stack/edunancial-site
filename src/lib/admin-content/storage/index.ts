@@ -149,50 +149,82 @@ class SupabaseObjectStorage implements AdminContentStorage {
   }
   private async ensureBucketExists() {
     if (this.bucketVerified) return;
-    const { url, key } = this.baseUrl;
+
+    // Bucket creation (INSERT into storage.buckets) requires the service-role key
+    // because Supabase Storage RLS blocks that operation for the anon role.  When
+    // no service-role key is configured, skip bucket management entirely and assume
+    // the bucket was pre-created — attempting to create it with the anon key would
+    // fail immediately with a 403 RLS violation.
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+    if (!serviceRoleKey) {
+      this.bucketVerified = true;
+      return;
+    }
+
+    const { url } = this.baseUrl;
     const read = await fetch(`${url}/storage/v1/bucket/${this.bucket}`, {
       method: "GET",
       headers: {
-        Authorization: "Bearer " + key,
-        apikey: key,
+        Authorization: "Bearer " + serviceRoleKey,
+        apikey: serviceRoleKey,
       },
       cache: "no-store",
     });
-    if (!read.ok) {
-      // Supabase Storage normally returns HTTP 404 for a missing bucket, but some
-      // Supabase proxy / PostgREST versions return HTTP 400 with a JSON body whose
-      // `statusCode` field is the string "404".  Treat both shapes as "not found"
-      // so the server can auto-create the bucket instead of surfacing a hard error.
-      let bucketMissing = read.status === 404;
-      let bodyText = "";
-      if (!bucketMissing) {
-        bodyText = await read.text();
-        try {
-          const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
-          bucketMissing = String(body?.statusCode) === "404" || body?.error === "Bucket not found";
-        } catch {
-          // Non-JSON body — not a missing-bucket signal; fall through to hard error.
-        }
+    if (read.ok) {
+      // Bucket already exists — skip creation.
+      this.bucketVerified = true;
+      return;
+    }
+
+    // Supabase Storage normally returns HTTP 404 for a missing bucket, but some
+    // Supabase proxy / PostgREST versions return HTTP 400 with a JSON body whose
+    // `statusCode` field is the string "404".  Treat both shapes as "not found"
+    // so the server can auto-create the bucket instead of surfacing a hard error.
+    let bucketMissing = read.status === 404;
+    let bodyText = "";
+    if (!bucketMissing) {
+      bodyText = await read.text();
+      try {
+        const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
+        bucketMissing = String(body?.statusCode) === "404" || body?.error === "Bucket not found";
+      } catch {
+        // Non-JSON body — not a missing-bucket signal; fall through to hard error.
       }
-      if (!bucketMissing) {
-        throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
+    }
+    if (!bucketMissing) {
+      throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
+    }
+
+    // Bucket is genuinely missing; create it with the service-role key.
+    const created = await fetch(`${url}/storage/v1/bucket`, {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + serviceRoleKey,
+        apikey: serviceRoleKey,
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        id: this.bucket,
+        name: this.bucket,
+        public: false,
+      }),
+      cache: "no-store",
+    });
+    if (!created.ok) {
+      const createdBody = await created.text();
+      // If another process raced ahead and created the bucket between our GET and
+      // POST, treat the duplicate-key conflict as success.
+      let alreadyExists = false;
+      try {
+        const body = JSON.parse(createdBody) as { error?: string; message?: string };
+        alreadyExists =
+          body?.error === "Duplicate" ||
+          (body?.message ?? "").toLowerCase().includes("already exists");
+      } catch {
+        // Non-JSON; not a duplicate signal.
       }
-      const created = await fetch(`${url}/storage/v1/bucket`, {
-        method: "POST",
-        headers: {
-          Authorization: "Bearer " + key,
-          apikey: key,
-          "content-type": "application/json",
-        },
-        body: JSON.stringify({
-          id: this.bucket,
-          name: this.bucket,
-          public: false,
-        }),
-        cache: "no-store",
-      });
-      if (!created.ok) {
-        throw new Error(`Supabase bucket setup failed: ${created.status} ${await created.text()}`);
+      if (!alreadyExists) {
+        throw new Error(`Supabase bucket setup failed: ${created.status} ${createdBody}`);
       }
     }
     this.bucketVerified = true;
