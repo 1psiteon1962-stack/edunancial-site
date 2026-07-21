@@ -6,11 +6,5 @@ publish = ".next"
 NODE_VERSION = "22"
 NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 
-# Increase the default function timeout so that ZIP extraction and content
-# classification in the finalize endpoint have enough time to complete.
-# Netlify's maximum for synchronous functions is 26 s.
-[functions]
-  timeout = 26
-
 [[plugins]]
 package = "@netlify/plugin-nextjs"

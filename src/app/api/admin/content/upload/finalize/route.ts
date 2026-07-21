@@ -18,9 +18,9 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { createUploadBatchFromStoredFiles, type StoredUploadEntry } from "@/lib/admin-content/service";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 
-// File processing (ZIP extraction, classification) can be time-consuming for
-// large archives; allow up to 60 s.
-export const maxDuration = 60;
+// Netlify synchronous functions allow up to 26 s; use the maximum so that
+// ZIP extraction and content classification have enough time to complete.
+export const maxDuration = 26;
 
 type FinalizeBody = {
   batchId: string;

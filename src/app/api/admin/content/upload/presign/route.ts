@@ -23,8 +23,9 @@ import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
-// Allow up to 60 s for presign + bucket-existence check on cold-start.
-export const maxDuration = 60;
+// Netlify synchronous functions allow up to 26 s; use the maximum to allow
+// bucket-existence check on cold-start without timing out.
+export const maxDuration = 26;
 
 type FileDescriptor = { name: string; size: number; type: string };
 
