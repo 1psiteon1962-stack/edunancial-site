@@ -1,1 +1,5 @@
-/* /index.html 200
+# Next.js routing is handled entirely by @netlify/plugin-nextjs.
+# A legacy "/* /index.html 200" SPA catch-all is NOT appropriate here:
+# there is no index.html in the .next publish directory, and such a rule
+# would interfere with Next.js API route function dispatching.
+# Leave this file intentionally empty; all redirects live in netlify.toml.

@@ -16,7 +16,7 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
+import { DEFAULT_STORAGE_PREFIX, DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
@@ -75,6 +75,25 @@ export async function POST(request: NextRequest) {
       process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ??
       null;
 
+    // Validate Supabase connectivity early when we know signed URLs are
+    // unavailable (no service-role key).  This surfaces a "bucket not found"
+    // error in the presign response rather than as a cryptic 404 from the
+    // browser's direct-upload XHR.
+    if (!process.env.SUPABASE_SERVICE_ROLE_KEY && supabaseUrl && anonKey && bucket) {
+      const bucketCheck = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
+        method: "GET",
+        headers: { Authorization: "Bearer " + anonKey, apikey: anonKey },
+        cache: "no-store",
+      }).catch(() => null);
+      if (bucketCheck && bucketCheck.status === 404) {
+        throw new Error(
+          `Supabase storage bucket "${bucket}" does not exist. ` +
+            "Create the bucket in your Supabase project (Storage → New bucket) and enable the required RLS policies, " +
+            "or configure SUPABASE_SERVICE_ROLE_KEY so the server can create it automatically.",
+        );
+      }
+    }
+
     const uploads = await Promise.all(
       fileDescriptors.map(async (file) => {
         const uploadId = createId("upload");
@@ -87,10 +106,15 @@ export async function POST(request: NextRequest) {
         // Fallback: expose anon-key credentials so the browser can upload
         // directly to Supabase without routing file bytes through the Netlify
         // serverless function.
+        //
+        // IMPORTANT: the object path sent to Supabase Storage must include the
+        // DEFAULT_STORAGE_PREFIX so it matches the path that the finalize route
+        // reads via storage.readBinary(storagePath) → objectPath(storagePath).
+        const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
             ? {
-                url: supabaseUrl + "/storage/v1/object/" + bucket + "/" + storagePath,
+                url: supabaseUrl + "/storage/v1/object/" + bucket + "/" + objectStoragePath,
                 headers: {
                   Authorization: "Bearer " + anonKey,
                   apikey: anonKey,

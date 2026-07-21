@@ -104,7 +104,17 @@ export default function UploadClient() {
         if (xhr.status >= 200 && xhr.status < 300) {
           resolve();
         } else {
-          reject(new Error(`Direct upload failed (HTTP ${xhr.status}): ${xhr.responseText}`));
+          // Try to extract a meaningful message from a JSON error body
+          // (Supabase Storage returns JSON for 404/403 etc.).  Fall back to
+          // the raw response text when the body is not valid JSON.
+          let detail = xhr.responseText;
+          try {
+            const parsed = JSON.parse(xhr.responseText) as { message?: string; error?: string };
+            detail = parsed.message ?? parsed.error ?? detail;
+          } catch {
+            // non-JSON body (e.g. HTML Next.js 404 page) — use raw text
+          }
+          reject(new Error(`Direct upload failed (HTTP ${xhr.status}): ${detail}`));
         }
       };
       xhr.onerror = () => reject(new Error("Network error during file upload."));
@@ -306,10 +316,14 @@ export default function UploadClient() {
         setError(message);
         return;
       }
-      const payload = JSON.parse(xhr.responseText) as { batch: { id: string } };
-      setSuccess("Upload successful. Routing to batch review.");
-      router.push(`/admin/content/batches/${payload.batch.id}`);
-      router.refresh();
+      try {
+        const payload = JSON.parse(xhr.responseText) as { batch: { id: string } };
+        setSuccess("Upload successful. Routing to batch review.");
+        router.push(`/admin/content/batches/${payload.batch.id}`);
+        router.refresh();
+      } catch {
+        setError("Upload response was not valid JSON. The upload endpoint may not be reachable.");
+      }
     };
     xhr.onerror = () => {
       setUploading(false);
