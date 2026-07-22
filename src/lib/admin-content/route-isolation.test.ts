@@ -202,4 +202,44 @@ describe("admin content upload 404 regression", () => {
       );
     }
   });
+
+  test("public/_headers does not apply a cacheable Cache-Control to /api/* routes", () => {
+    // public/_headers is copied into the publish output by @netlify/plugin-nextjs
+    // and may be the _headers file that Netlify actually processes for the
+    // deployed site.  It must not apply a cacheable Cache-Control to /api/*
+    // routes — a stale 404 cached by the CDN would survive a routing fix and
+    // continue to serve HTML instead of JSON for every upload API request.
+    const headers = readSourceFile("public/_headers");
+
+    const sections = headers.split(/^(?=\S)/m).filter((s) => s.trim());
+    for (const section of sections) {
+      const lines = section.split("\n");
+      const pathLine = lines[0].trim();
+      if (!pathLine.startsWith("/api/")) continue;
+
+      const cacheControlLine = lines.find((l) => /Cache-Control:/i.test(l));
+      if (!cacheControlLine) continue;
+
+      assert.doesNotMatch(
+        cacheControlLine,
+        /public\s*,\s*max-age\s*=\s*[1-9]/i,
+        `public/_headers section for "${pathLine}" must not set a cacheable Cache-Control (public, max-age>0) — use no-store for API routes`,
+      );
+    }
+  });
+
+  test("netlify.toml does not contain a catch-all redirect that intercepts API requests", () => {
+    // A catch-all redirect rule such as "from = '/*' to = '/index.html'" in
+    // netlify.toml would intercept every request — including POST to
+    // /api/admin/content/upload/presign — and return an HTML page instead of
+    // the expected JSON response.  The toml must only contain specific redirects
+    // (e.g. HTTP→HTTPS, www→apex) that never match /api/* paths.
+    const toml = readSourceFile("netlify.toml");
+
+    assert.doesNotMatch(
+      toml,
+      /from\s*=\s*["']\s*\/\*\s*["']/m,
+      "netlify.toml must not contain a /* catch-all redirect — it would intercept Next.js API route requests",
+    );
+  });
 });

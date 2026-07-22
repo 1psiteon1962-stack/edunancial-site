@@ -8,4 +8,10 @@ Cross-Origin-Opener-Policy: same-origin
 Cross-Origin-Resource-Policy: same-origin
 Cross-Origin-Embedder-Policy: require-corp
 X-XSS-Protection: 1; mode=block
-*/
+
+# API routes must never be cached — they return dynamic JSON responses and
+# must be served fresh on every request.  A cached error response (e.g. a
+# prior 404 from a misconfigured deployment) can never be served from CDN in
+# place of the correct JSON API response.
+/api/*
+  Cache-Control: no-store, max-age=0

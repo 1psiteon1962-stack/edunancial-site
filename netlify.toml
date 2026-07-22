@@ -8,3 +8,14 @@ NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+# API routes must never be cached.  A prior 404 response from a misconfigured
+# deployment (e.g. a SPA catch-all rewrite) must not be served from the Netlify
+# CDN after the routing is fixed.  This [[headers]] block is processed by
+# Netlify from netlify.toml directly — it is the most reliable way to apply
+# headers regardless of which _headers file is picked up from the publish
+# directory.
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
