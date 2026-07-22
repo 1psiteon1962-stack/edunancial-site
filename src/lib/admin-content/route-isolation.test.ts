@@ -242,4 +242,30 @@ describe("admin content upload 404 regression", () => {
       "netlify.toml must not contain a /* catch-all redirect — it would intercept Next.js API route requests",
     );
   });
+
+  test("canonical host redirects are method-preserving in netlify.toml and not duplicated in public/_redirects", () => {
+    const toml = readSourceFile("netlify.toml");
+    const publicRedirects = readSourceFile("public/_redirects");
+
+    const canonicalRules = [
+      'from = "http://edunancial.com/*"',
+      'from = "http://www.edunancial.com/*"',
+      'from = "https://www.edunancial.com/*"',
+    ];
+
+    for (const fromRule of canonicalRules) {
+      const escaped = fromRule.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      assert.match(
+        toml,
+        new RegExp(`${escaped}[\\s\\S]*?status\\s*=\\s*308`, "m"),
+        `netlify.toml canonical redirect (${fromRule}) must use status 308 to preserve POST requests`,
+      );
+    }
+
+    assert.doesNotMatch(
+      publicRedirects,
+      /^\s*https?:\/\/(?:www\.)?edunancial\.com\/\*\s+https:\/\/edunancial\.com\/:splat\s+\d{3}/m,
+      "public/_redirects must not contain active canonical host redirects; they belong in netlify.toml",
+    );
+  });
 });
