@@ -242,4 +242,18 @@ describe("admin content upload 404 regression", () => {
       "netlify.toml must not contain a /* catch-all redirect — it would intercept Next.js API route requests",
     );
   });
+
+  test("canonical-origin redirects are defined in netlify.toml with method-preserving 308 status", () => {
+    const toml = readSourceFile("netlify.toml");
+    const publicRedirects = readSourceFile("public/_redirects");
+
+    // Canonical host redirects must preserve POST methods for API calls.
+    assert.match(toml, /from\s*=\s*["']http:\/\/edunancial\.com\/\*["'][\s\S]*status\s*=\s*308/m);
+    assert.match(toml, /from\s*=\s*["']http:\/\/www\.edunancial\.com\/\*["'][\s\S]*status\s*=\s*308/m);
+    assert.match(toml, /from\s*=\s*["']https:\/\/www\.edunancial\.com\/\*["'][\s\S]*status\s*=\s*308/m);
+
+    // Keep publish-time _redirects free of active redirect rules so it cannot
+    // accidentally override Next.js API route dispatch.
+    assert.doesNotMatch(publicRedirects, /^\s*https?:\/\/\S+\s+\S+\s+\d{3}!?\s*$/m);
+  });
 });
