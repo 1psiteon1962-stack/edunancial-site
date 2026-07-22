@@ -4,6 +4,5 @@
 # the publish directory, and such a rule would silently rewrite every request
 # (including POST /api/admin/content/upload/presign) to /index.html, causing
 # Netlify to return a 404 HTML page instead of the expected JSON API response.
-http://edunancial.com/* https://edunancial.com/:splat 301!
-http://www.edunancial.com/* https://edunancial.com/:splat 301!
-https://www.edunancial.com/* https://edunancial.com/:splat 301!
+# Canonical redirects are defined in netlify.toml using HTTP 308 to preserve
+# POST methods for API requests.
