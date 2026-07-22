@@ -46,25 +46,47 @@ describe("admin and executive route isolation", () => {
 // ---------------------------------------------------------------------------
 
 describe("admin content upload 404 regression", () => {
-  test("_redirects does not contain a SPA catch-all rule that intercepts API requests", () => {
-    const redirects = readSourceFile("_redirects");
+  // ---------------------------------------------------------------------------
+  // Netlify processes BOTH the root _redirects AND the public/_redirects file
+  // (public/ contents are copied into the site output by @netlify/plugin-nextjs).
+  // Either file containing a "/* /index.html 200" SPA catch-all would cause
+  // every request — including POST /api/admin/content/upload/presign — to be
+  // silently rewritten to /index.html.  There is no index.html in the .next
+  // publish directory, so @netlify/plugin-nextjs forwards the rewritten path
+  // to Next.js, which returns its not-found.tsx 404 HTML page instead of the
+  // expected JSON API response.
+  //
+  // VERIFIED ROOT CAUSE: this was exactly what happened in production.  The
+  // root _redirects file contained "/* /index.html 200", fixed in PR #144.
+  // The tests below guard BOTH files against re-introduction of each failure mode.
+  // ---------------------------------------------------------------------------
 
-    // A "/* /index.html 200" rule (or any variant) would cause Netlify to
-    // serve /index.html for every path, including API routes, which produces
-    // an HTML 404 page instead of a JSON API response.
+  function assertNoSpaCatchAll(redirects: string, filename: string) {
+    // "/* /index.html 200" rewrites ALL paths to /index.html; since .next has
+    // no index.html, Next.js returns 404 HTML for every API request.
     assert.doesNotMatch(
       redirects,
       /^\s*\/\*\s+\/index\.html\s+200/m,
-      "_redirects must not contain a /* /index.html 200 SPA catch-all rule — it intercepts Next.js API route requests and returns HTML 404",
+      `${filename} must not contain a /* /index.html 200 SPA catch-all rule — it intercepts Next.js API route requests and returns HTML 404`,
     );
 
-    // Any splat redirect to an HTML file (e.g. /* /404.html 200) is
-    // similarly dangerous for a Next.js + @netlify/plugin-nextjs deployment.
+    // Any splat rewrite to an HTML file is equally dangerous.
     assert.doesNotMatch(
       redirects,
       /^\s*\/\*\s+\/\S+\.html\s+200/m,
-      "_redirects must not contain a /* /*.html 200 catch-all — it intercepts Next.js API route requests",
+      `${filename} must not contain a /* /*.html 200 catch-all — it intercepts Next.js API route requests`,
     );
+  }
+
+  test("root _redirects does not contain a SPA catch-all rule that intercepts API requests", () => {
+    assertNoSpaCatchAll(readSourceFile("_redirects"), "_redirects");
+  });
+
+  test("public/_redirects does not contain a SPA catch-all rule that intercepts API requests", () => {
+    // public/_redirects is copied to the .next output directory by
+    // @netlify/plugin-nextjs and processed by Netlify as the deployed redirect
+    // rules.  A SPA catch-all here is just as dangerous as one in root _redirects.
+    assertNoSpaCatchAll(readSourceFile("public/_redirects"), "public/_redirects");
   });
 
   test("all three upload API route files exist with a POST export", () => {
@@ -150,5 +172,34 @@ describe("admin content upload 404 regression", () => {
       /publish\s*=\s*["']?\.next["']?/,
       "netlify.toml publish directory must be .next",
     );
+  });
+
+  test("_headers does not apply a cacheable Cache-Control to /api/* routes", () => {
+    // A "Cache-Control: public, max-age=N" rule applied to /api/* routes via
+    // Netlify's _headers file can cause the CDN to cache error responses (e.g.
+    // a 404 from a misconfigured deployment).  After the misconfiguration is
+    // fixed, the CDN serves the stale cached error instead of the corrected
+    // API response.  The _headers file must either omit Cache-Control for API
+    // routes entirely (relying on the no-store header set by next.config.mjs)
+    // or explicitly set Cache-Control: no-store for /api/*.
+    const headers = readSourceFile("_headers");
+
+    // Split into sections; each section starts with a path line (no leading whitespace).
+    const sections = headers.split(/^(?=\S)/m).filter((s) => s.trim());
+    for (const section of sections) {
+      const lines = section.split("\n");
+      const pathLine = lines[0].trim();
+      if (!pathLine.startsWith("/api/")) continue;
+
+      // An /api/* section must NOT set a publicly cacheable Cache-Control.
+      const cacheControlLine = lines.find((l) => /Cache-Control:/i.test(l));
+      if (!cacheControlLine) continue;
+
+      assert.doesNotMatch(
+        cacheControlLine,
+        /public\s*,\s*max-age\s*=\s*[1-9]/i,
+        `_headers section for "${pathLine}" must not set a cacheable Cache-Control (public, max-age>0) — use no-store for API routes`,
+      );
+    }
   });
 });
