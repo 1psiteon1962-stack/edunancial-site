@@ -21,6 +21,11 @@
     "src/lib/positioning.ts",
     "src/lib/positioning.test.ts",
     "src/types/membership.ts",
+    "src/lib/purchases.ts",
+    "src/lib/payments/emailAutomation.ts",
+    "src/lib/payments/emailAutomation.test.ts",
+    "src/lib/payments/membershipLifecycle.ts",
+    "src/lib/payments/membershipLifecycle.test.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
     "src/lib/content-loader/**/*.ts"
