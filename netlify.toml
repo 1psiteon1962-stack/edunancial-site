@@ -6,6 +6,15 @@ publish = ".next"
 NODE_VERSION = "22"
 NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 
+# Deploy-preview context: inherits production build settings.
+# Only the active production site (edunancial.com) should build deploy previews
+# for this repository.  If this file is processed by a different Netlify site,
+# the deploy-preview will still run but will not be the authoritative check.
+# See docs/NETLIFY-INTEGRATION-CLEANUP.md for instructions on removing stale
+# Netlify site connections that post obsolete status checks to GitHub.
+[context.deploy-preview]
+command = "npm run build"
+
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
