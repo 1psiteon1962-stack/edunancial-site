@@ -1,4 +1,4 @@
-import { createHmac, createHash, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
+import { createHmac, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { NextResponse } from "next/server";
@@ -14,34 +14,26 @@ import { appendGlobalAuditEventSafely } from "@/lib/admin-content/audit";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { createCsrfToken, createId } from "@/lib/admin-content/utils";
 
-const FALLBACK_ADMIN_EMAIL = "1psiteon1962@gmail.com";
-const FALLBACK_ADMIN_PASSWORD = "Jennifer1990$";
-const FALLBACK_OWNER_EMAIL = "wcabanlienguys@gmail.com";
-const FALLBACK_OWNER_PASSWORD = "Grandma1910$";
-const FALLBACK_SESSION_SECRET = "Emilio2015$";
-
 function normalizeEmail(value: string | undefined | null) {
   return value?.trim().toLowerCase() ?? "";
 }
 
-function expandFallbackSessionSecret(secret: string) {
-  return createHash("sha256").update(`edunancial:${secret}`).digest("base64url");
-}
-
 function getSessionSecretConfig() {
   const configuredSecret = process.env.EDUNANCIAL_ADMIN_SESSION_SECRET?.trim();
-  if (configuredSecret && configuredSecret.length >= 32) {
-    return { secret: configuredSecret, usingFallback: false as const };
-  }
+  const validConfiguredSecret = configuredSecret && configuredSecret.length >= 32;
 
   return {
-    secret: expandFallbackSessionSecret(FALLBACK_SESSION_SECRET),
-    usingFallback: true as const,
+    secret: validConfiguredSecret ? configuredSecret : null,
+    usingFallback: !validConfiguredSecret,
   };
 }
 
 function getSecret() {
-  return getSessionSecretConfig().secret;
+  const { secret } = getSessionSecretConfig();
+  if (!secret) {
+    throw new Error("EDUNANCIAL_ADMIN_SESSION_SECRET must be set to at least 32 characters.");
+  }
+  return secret;
 }
 
 function sign(value: string) {
@@ -57,7 +49,14 @@ export function parseAdminSessionValue(value: string | undefined | null): AdminS
   if (!value) return null;
   const [payload, signature] = value.split(".");
   if (!payload || !signature) return null;
-  const expected = sign(payload);
+
+  let expected: string;
+  try {
+    expected = sign(payload);
+  } catch {
+    return null;
+  }
+
   const provided = Buffer.from(signature);
   const actual = Buffer.from(expected);
   if (provided.length !== actual.length || !timingSafeEqual(provided, actual)) {
@@ -95,8 +94,6 @@ export function verifyAdminPassword(password: string, storedHash: string) {
 }
 
 function getCredentialConfig(targetRole: AdminRole) {
-  const fallbackEmail = targetRole === "owner" ? FALLBACK_OWNER_EMAIL : FALLBACK_ADMIN_EMAIL;
-  const fallbackPassword = targetRole === "owner" ? FALLBACK_OWNER_PASSWORD : FALLBACK_ADMIN_PASSWORD;
   const envEmail = targetRole === "owner"
     ? process.env.EDUNANCIAL_OWNER_EMAIL
     : process.env.EDUNANCIAL_ADMIN_EMAIL;
@@ -109,8 +106,8 @@ function getCredentialConfig(targetRole: AdminRole) {
   const envValid = Boolean(normalizedEnvEmail) && envHashValid;
 
   return {
-    email: envValid ? normalizedEnvEmail : normalizeEmail(fallbackEmail),
-    passwordHash: envValid ? envHash! : hashAdminPassword(fallbackPassword),
+    email: envValid ? normalizedEnvEmail : "",
+    passwordHash: envValid ? envHash! : "",
     usingFallback: !envValid,
   };
 }
@@ -238,6 +235,19 @@ export async function validateAdminLogin(request: Request, email: string, passwo
 
   const normalizedEmail = normalizeEmail(email);
   const credentialConfig = getCredentialConfig(targetRole);
+
+  if (!credentialConfig.email || !credentialConfig.passwordHash) {
+    await logLoginFailure(normalizedEmail || "unknown", {
+      reason: "missing-config",
+      targetRole,
+      usingFallback: credentialConfig.usingFallback,
+    });
+    return NextResponse.json(
+      { error: "Admin login is not configured. Set the required admin environment variables." },
+      { status: 503 },
+    );
+  }
+
   const configuredEmailBuffer = Buffer.from(credentialConfig.email);
   const normalizedEmailBuffer = Buffer.from(normalizedEmail);
   const emailMatches =
