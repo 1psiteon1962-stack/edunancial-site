@@ -18,7 +18,7 @@ Entrepreneur
 
 <p className="mt-8 text-4xl font-black">
 
-$39.99/mo
+$49.99/mo
 
 </p>
 
