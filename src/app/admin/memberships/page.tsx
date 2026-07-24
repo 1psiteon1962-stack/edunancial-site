@@ -4,19 +4,19 @@ export default function MembershipAdministrationPage() {
 
     {
       name: "Basic Membership",
-      price: "$24.99 / month",
-      members: 0
-    },
-
-    {
-      name: "Pro Membership",
       price: "$39.99 / month",
       members: 0
     },
 
     {
+      name: "Pro Membership",
+      price: "$69.99 / month",
+      members: 0
+    },
+
+    {
       name: "Gold Membership",
-      price: "$59.99 / month",
+      price: "$99.99 / month",
       members: 0
     },
 
