@@ -23,8 +23,36 @@ export default function MembershipAdministrationPage() {
     };
   });
 
+<<<<<<< HEAD
   const totalActive = members.filter((m) => m.active).length;
   const totalSubscriptions = subscriptions.length;
+=======
+    {
+      name: "Basic Membership",
+      price: "$39.99 / month",
+      members: 0
+    },
+
+    {
+      name: "Pro Membership",
+      price: "$69.99 / month",
+      members: 0
+    },
+
+    {
+      name: "Gold Membership",
+      price: "$99.99 / month",
+      members: 0
+    },
+
+    {
+      name: "Test Drive",
+      price: "$0 / month",
+      members: 0
+    }
+
+  ];
+>>>>>>> f0f3e57e (Update US/CA monthly membership pricing displays and plan values)
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white p-10">
