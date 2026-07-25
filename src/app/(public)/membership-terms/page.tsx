@@ -24,7 +24,7 @@ export default function MembershipTermsPage() {
           <section>
             <h2 className="text-3xl font-black text-white">Basic Membership</h2>
             <p className="mt-4 leading-8">
-              Basic Membership is offered at $69.99 per month and is designed for personal
+              Basic Membership is offered at $39.99 per month and is designed for personal
               use by a single member account.
             </p>
           </section>
