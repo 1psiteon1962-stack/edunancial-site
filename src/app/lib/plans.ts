@@ -13,15 +13,15 @@ export const plans: Record<
 > = {
   basic: {
     name: "Basic Membership",
-    price: 24.99,
+    price: 39.99,
   },
   premium: {
     name: "Pro Membership",
-    price: 39.99,
+    price: 69.99,
   },
   enterprise: {
     name: "Gold Membership",
-    price: 59.99,
+    price: 99.99,
   },
   beta: {
     name: "Test Drive",
