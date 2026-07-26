@@ -174,7 +174,7 @@ export default function UploadClient() {
         storagePath: string;
         safeName: string;
         signedUrl: string | null;
-        directUpload: { url: string; headers: Record<string, string> } | null;
+        directUpload: { url: string; method: string; headers: Record<string, string> } | null;
       }>;
     } | null = null;
 
@@ -209,7 +209,7 @@ export default function UploadClient() {
           storagePath: string;
           safeName: string;
           signedUrl: string | null;
-          directUpload: { url: string; headers: Record<string, string> } | null;
+          directUpload: { url: string; method: string; headers: Record<string, string> } | null;
         }>;
       };
     } catch {
@@ -235,8 +235,8 @@ export default function UploadClient() {
               setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
             });
           } else if (uploadSpec.directUpload) {
-            const { url, headers } = uploadSpec.directUpload;
-            await uploadFileDirect(file, url, "POST", { ...headers, "Content-Type": file.type || "application/octet-stream" }, (pct) => {
+            const { url, method, headers } = uploadSpec.directUpload;
+            await uploadFileDirect(file, url, method, { ...headers, "Content-Type": file.type || "application/octet-stream" }, (pct) => {
               setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
             });
           }

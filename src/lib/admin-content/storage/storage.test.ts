@@ -375,24 +375,85 @@ describe("presign directUpload URL path alignment", () => {
     );
   });
 
-  test("presign route source references DEFAULT_STORAGE_PREFIX in directUpload URL construction", () => {
-    // Static code assertion: the presign route MUST include DEFAULT_STORAGE_PREFIX
-    // when constructing the directUpload URL so that browser writes go to the
-    // same Supabase path that finalize reads back.
+  test("upload-direct createDirectUploadSpec includes DEFAULT_STORAGE_PREFIX in URL", () => {
+    // Static code assertion: the upload-direct helper MUST include DEFAULT_STORAGE_PREFIX
+    // in the generated URL so that the browser writes to the same path that the
+    // finalize route reads via storage.readBinary(storagePath).
     const { readFileSync } = require("node:fs");
     const path = require("node:path");
-    const routeSrc = readFileSync(
-      path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
+    const helperSrc = readFileSync(
+      path.join(process.cwd(), "src/lib/admin-content/upload-direct.ts"),
       "utf8",
     ) as string;
 
     assert.ok(
-      routeSrc.includes("DEFAULT_STORAGE_PREFIX"),
-      "presign/route.ts must import and use DEFAULT_STORAGE_PREFIX in directUpload URL",
+      helperSrc.includes("DEFAULT_STORAGE_PREFIX"),
+      "upload-direct.ts must import and use DEFAULT_STORAGE_PREFIX in the URL",
+    );
+    // The presign route now delegates to createDirectUploadSpec, so it no longer
+    // needs to reference DEFAULT_STORAGE_PREFIX directly.
+    const routeSrc = readFileSync(
+      path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
+      "utf8",
+    ) as string;
+    assert.ok(
+      routeSrc.includes("createDirectUploadSpec"),
+      "presign/route.ts must delegate directUpload URL construction to createDirectUploadSpec",
+    );
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Regression tests: getSignedUploadUrl URL normalization
+//
+// If NEXT_PUBLIC_SUPABASE_URL has a trailing slash and the Supabase API returns
+// a signedURL that starts with "/", naively concatenating them produces a
+// double-slash URL that the Supabase CDN 404s on. getSignedUploadUrl must
+// strip the trailing slash before concatenating.
+// ---------------------------------------------------------------------------
+describe("getSignedUploadUrl URL normalization", () => {
+  let originalFetch: typeof globalThis.fetch;
+
+  beforeEach(() => {
+    originalFetch = globalThis.fetch;
+    process.env.NEXT_PUBLIC_SUPABASE_URL = FAKE_URL + "/"; // trailing slash
+    process.env.SUPABASE_SERVICE_ROLE_KEY = FAKE_KEY;
+    process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = FAKE_BUCKET;
+    resetAdminContentStorage();
+  });
+
+  afterEach(() => {
+    globalThis.fetch = originalFetch;
+    delete process.env.NEXT_PUBLIC_SUPABASE_URL;
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
+    resetAdminContentStorage();
+  });
+
+  test("strips trailing slash from SUPABASE_URL before building signed URL", async () => {
+    const returnedSignedPath = "/storage/v1/object/upload/sign/admin-content/admin-content/uploads/test.zip?token=tok";
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      if (url.includes("/storage/v1/bucket/")) {
+        return makeResponse(200, { id: FAKE_BUCKET });
+      }
+      if (url.includes("/storage/v1/object/sign/upload/")) {
+        return makeResponse(200, { signedURL: returnedSignedPath });
+      }
+      return makeResponse(404, "");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    const result = await storage.getSignedUploadUrl("uploads/test.zip");
+
+    assert.ok(result, "should return a signed URL");
+    assert.ok(
+      !result!.includes("co//storage"),
+      `signed URL must not have double-slash, got: ${result}`,
     );
     assert.ok(
-      routeSrc.includes("objectStoragePath"),
-      "presign/route.ts must use objectStoragePath (prefix + storagePath) for directUpload URL",
+      result!.startsWith(FAKE_URL + "/storage/"),
+      `signed URL must start with ${FAKE_URL}/storage/, got: ${result}`,
     );
   });
 })

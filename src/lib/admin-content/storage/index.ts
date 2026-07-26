@@ -339,6 +339,11 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
     if (!url) return null;
 
+    // Normalize: remove trailing slash so that concatenating with the leading-slash
+    // signedURL returned by Supabase does not produce a double-slash path (which
+    // causes a 404 from the Supabase CDN even when the object exists).
+    const normalizedUrl = url.replace(/\/+$/, "");
+
     const objectPath = this.objectPath(path);
     // Guard against path-injection / SSRF: storage paths are server-generated
     // but we validate them here as a defence-in-depth measure.
@@ -347,7 +352,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const encodedObjectPath = objectPath.split("/").map(encodeURIComponent).join("/");
     await this.ensureBucketExists();
 
-    const response = await fetch(`${url}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
+    const response = await fetch(`${normalizedUrl}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
       method: "POST",
       headers: {
         Authorization: "Bearer " + serviceRoleKey,
@@ -364,7 +369,9 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
     const data = (await response.json()) as { signedURL?: string };
     if (!data.signedURL) return null;
-    return `${url}${data.signedURL}`;
+    // Supabase returns signedURL as a root-relative path ("/storage/v1/…").
+    // Prepend normalizedUrl (no trailing slash) to form a valid absolute URL.
+    return `${normalizedUrl}${data.signedURL}`;
   }
 }
 
