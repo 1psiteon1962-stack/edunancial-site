@@ -1,7 +1,7 @@
 /*
   Content-Security-Policy: default-src 'self';
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co;
-    connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co;
+    connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co https://*.supabase.co https://connect.squareup.com https://connect.squareupsandbox.com;
     img-src 'self' data: https://*.paypal.com https://www.paypalobjects.com https://*.tidio.co;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com;

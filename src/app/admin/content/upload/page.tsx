@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import DiagnosticsPanel from "@/components/admin-content/DiagnosticsPanel";
 import UploadClient from "@/components/admin-content/UploadClient";
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
 
@@ -16,7 +17,10 @@ export default async function AdminContentUploadPage() {
           </div>
           <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back to portal</Link>
         </div>
-        <div className="mt-10">
+        <div className="mt-8">
+          <DiagnosticsPanel />
+        </div>
+        <div className="mt-8">
           <UploadClient />
         </div>
       </div>
