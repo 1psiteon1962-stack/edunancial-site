@@ -119,7 +119,8 @@ class SupabaseObjectStorage implements AdminContentStorage {
   constructor(private readonly bucket: string, private readonly prefix: string) {}
 
   private get baseUrl() {
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const url = rawUrl?.trim().replace(/\/+$/, "") || "";
     const key = resolveSupabaseKey();
     if (!url || !key) {
       throw new Error(
@@ -336,7 +337,8 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
     if (!serviceRoleKey) return null;
 
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const url = rawUrl?.trim().replace(/\/+$/, "") || "";
     if (!url) return null;
 
     const objectPath = this.objectPath(path);

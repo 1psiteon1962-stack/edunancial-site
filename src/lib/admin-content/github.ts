@@ -31,6 +31,26 @@ async function githubRequest(path: string, init: RequestInit = {}) {
 
 export async function createGithubPullRequest(batch: UploadBatch, exportPackage: ExportPackage) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
+
+  if (approvedFiles.length === 0) {
+    throw new Error("No approved files to publish. Approve at least one file before publishing.");
+  }
+
+  // Detect in-batch duplicate destination paths before hitting the GitHub API.
+  const destinationCounts = approvedFiles.reduce<Record<string, number>>((acc, file) => {
+    const dest = file.classification.destination || file.metadata.intendedDestination;
+    acc[dest] = (acc[dest] ?? 0) + 1;
+    return acc;
+  }, {});
+  const duplicateDestinations = Object.entries(destinationCounts)
+    .filter(([, count]) => count > 1)
+    .map(([dest]) => dest);
+  if (duplicateDestinations.length > 0) {
+    throw new Error(
+      `Multiple approved files share the same destination path — resolve conflicts before publishing: ${duplicateDestinations.join(", ")}`,
+    );
+  }
+
   const validation = await validateCurriculumFiles(
     approvedFiles.map((file) => ({
       destination: verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination),
@@ -45,7 +65,11 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   const repo = process.env.EDUNANCIAL_GITHUB_REPO as string;
   const baseBranch = process.env.EDUNANCIAL_GITHUB_BASE_BRANCH || DEFAULT_BASE_BRANCH;
   const batchSlug = slugify(batch.name);
-  const branchName = `content-upload/${new Date().toISOString().slice(0, 10)}-${batchSlug}`;
+  // Branch name includes full timestamp (YYYYMMDD-HHMMSS) for predictability and uniqueness.
+  const now = new Date();
+  const datePart = now.toISOString().slice(0, 10).replaceAll("-", "");
+  const timePart = now.toISOString().slice(11, 19).replaceAll(":", "");
+  const branchName = `content/course-upload-${datePart}-${timePart}-${batchSlug}`;
 
   const refData = await githubRequest(`/git/ref/heads/${baseBranch}`);
   const baseSha = (refData.object as { sha: string }).sha;
@@ -65,10 +89,32 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     }),
   );
 
+  // Rich manifest: includes per-file metadata for traceability.
+  const manifestEntries = approvedFiles.map((file) => ({
+    sourceFilename: file.originalFilename,
+    destinationPath: verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination),
+    title: file.metadata.title,
+    track: file.metadata.pillar,
+    level: file.metadata.academyLevel,
+    language: file.metadata.language,
+    region: file.metadata.region,
+    membership: file.metadata.contentType,
+    batchId: batch.id,
+    uploadTimestamp: file.updatedAt,
+    checksum: file.checksum,
+  }));
+  const manifest = {
+    batchId: batch.id,
+    exportId: exportPackage.id,
+    uploadTimestamp: now.toISOString(),
+    branch: branchName,
+    files: manifestEntries,
+    validation,
+  };
   const manifestBlob = await githubRequest("/git/blobs", {
     method: "POST",
     body: JSON.stringify({
-      content: Buffer.from(JSON.stringify({ batchId: batch.id, exportId: exportPackage.id, validation }, null, 2)).toString("base64"),
+      content: Buffer.from(JSON.stringify(manifest, null, 2)).toString("base64"),
       encoding: "base64",
     }),
   });

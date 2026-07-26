@@ -293,7 +293,23 @@ export default function UploadClient() {
     // Legacy single-request upload fallback (used in local development and for
     // deployments where neither signed URLs nor direct anon-key upload is
     // available).  Subject to Netlify's 6 MB request-body limit in production.
+    //
+    // PRODUCTION GUARD: if direct Supabase upload is unavailable and any file
+    // exceeds the safe Netlify body threshold, abort with a clear message so
+    // the administrator knows exactly what to fix instead of getting a silent
+    // mid-upload failure or a generic 413 from the CDN.
     // ─────────────────────────────────────────────────────────────────────────
+    const NETLIFY_SAFE_BYTES = 6 * 1024 * 1024;
+    const oversizedFiles = files.filter((f) => f.size > NETLIFY_SAFE_BYTES);
+    if (oversizedFiles.length > 0 && typeof window !== "undefined" && !window.location.hostname.includes("localhost")) {
+      setUploading(false);
+      setError(
+        `Direct Supabase upload is not configured. The following file(s) exceed the ${(NETLIFY_SAFE_BYTES / 1024 / 1024).toFixed(0)} MB serverless limit and cannot be uploaded via the legacy path: ${oversizedFiles.map((f) => f.name).join(", ")}. ` +
+          "Configure NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET in your environment.",
+      );
+      return;
+    }
+
     const formData = new FormData();
     for (const [key, value] of Object.entries(sharedConfig)) {
       formData.append(key, value);

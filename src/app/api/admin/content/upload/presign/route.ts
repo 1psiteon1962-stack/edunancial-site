@@ -20,6 +20,7 @@ import { DEFAULT_STORAGE_PREFIX, DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-c
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
@@ -58,7 +59,17 @@ export async function POST(request: NextRequest) {
     }
     parseUploadConfig(configFormData);
 
-    const storage = getAdminContentStorage();
+    const storage: AdminContentStorage | null = (() => {
+      try {
+        return getAdminContentStorage();
+      } catch {
+        // Storage is not configured (e.g. Supabase env vars absent in this
+        // deployment).  The presign response will carry null signedUrl and null
+        // directUpload for every file; the upload client will fall through to
+        // the legacy single-request upload endpoint automatically.
+        return null;
+      }
+    })();
     const batchName = (
       String(body.batchName ?? "") || "Content Upload " + new Date().toISOString().slice(0, 10)
     ).trim();
@@ -68,7 +79,7 @@ export async function POST(request: NextRequest) {
 
     // The anon key is NEXT_PUBLIC — safe to include in API responses for the
     // admin portal, which is already behind session + CSRF guards.
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? null;
+    const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/, "") || null;
     const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? null;
     const bucket =
       process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ??
@@ -101,7 +112,7 @@ export async function POST(request: NextRequest) {
         const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
 
         // Try signed URL first (requires SUPABASE_SERVICE_ROLE_KEY on server).
-        const signedUrl = await storage.getSignedUploadUrl(storagePath);
+        const signedUrl = storage ? await storage.getSignedUploadUrl(storagePath) : null;
 
         // Fallback: expose anon-key credentials so the browser can upload
         // directly to Supabase without routing file bytes through the Netlify
