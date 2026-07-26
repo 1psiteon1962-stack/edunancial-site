@@ -366,7 +366,27 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
     const data = (await response.json()) as { signedURL?: string };
     if (!data.signedURL) return null;
-    return `${url}${data.signedURL}`;
+
+    const signedPath = data.signedURL.trim();
+    if (!signedPath) return null;
+
+    if (/^https?:\/\//i.test(signedPath)) {
+      return signedPath;
+    }
+
+    if (signedPath.startsWith("/storage/v1/")) {
+      return `${url}${signedPath}`;
+    }
+
+    if (signedPath.startsWith("storage/v1/")) {
+      return `${url}/${signedPath}`;
+    }
+
+    if (signedPath.startsWith("/")) {
+      return `${url}/storage/v1${signedPath}`;
+    }
+
+    return `${url}/storage/v1/${signedPath}`;
   }
 }
 
