@@ -79,7 +79,7 @@ export async function POST(request: NextRequest) {
 
     // The anon key is NEXT_PUBLIC — safe to include in API responses for the
     // admin portal, which is already behind session + CSRF guards.
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? null;
+    const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/, "") || null;
     const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? null;
     const bucket =
       process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ??

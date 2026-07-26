@@ -24,7 +24,7 @@ export default function MembershipTermsPage() {
           <section>
             <h2 className="text-3xl font-black text-white">Basic Membership</h2>
             <p className="mt-4 leading-8">
-              Basic Membership is offered at $39.99 per month and is designed for personal
+              Basic Membership is offered at $24.99 per month and is designed for personal
               use by a single member account.
             </p>
           </section>
@@ -32,7 +32,7 @@ export default function MembershipTermsPage() {
           <section>
             <h2 className="text-3xl font-black text-white">Pro Membership</h2>
             <p className="mt-4 leading-8">
-              Pro Membership is priced at $69.99 per month and expands access to deeper learning,
+              Pro Membership is priced at $39.99 per month and expands access to deeper learning,
               downloadable resources, and additional member support.
             </p>
           </section>
@@ -40,7 +40,7 @@ export default function MembershipTermsPage() {
           <section>
             <h2 className="text-3xl font-black text-white">Gold Membership</h2>
             <p className="mt-4 leading-8">
-              Gold Membership is priced at $99.99 per month and includes full advanced member
+              Gold Membership is priced at $59.99 per month and includes full advanced member
               access with premium support and tools.
             </p>
           </section>
