@@ -8,7 +8,7 @@ export default function FrequentlyAskedQuestions() {
     {
       question: "Is membership required?",
       answer:
-        "Test Drive is $0/month. Basic is $24.99/month, Pro is $39.99/month, and Gold is $59.99/month.",
+        "Test Drive is $0/month. Basic is $39.99/month, Pro is $69.99/month, and Gold is $99.99/month.",
     },
     {
       question: "Can families learn together?",
