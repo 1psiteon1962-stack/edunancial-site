@@ -41,7 +41,7 @@ function makeZip(entries: Array<{ name: string; content: string | Buffer }>) {
     const data = Buffer.isBuffer(entry.content) ? entry.content : Buffer.from(entry.content);
     const name = Buffer.from(entry.name);
     const local = Buffer.concat([Buffer.from([0x50,0x4b,0x03,0x04]),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
-    const dir = Buffer.concat([Buffer.from([0x50,0x4b,0x01,0x02]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
+    const dir = Buffer.concat([Buffer.from([0x50,0x4b,0x01,0x02]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
     chunks.push(local); central.push(dir); offset += local.length;
   }
   const cd = Buffer.concat(central);
