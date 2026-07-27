@@ -43,7 +43,7 @@ export const membershipPlans: MembershipPlan[] = [
     name: "Basic Membership",
     description:
       "Structured learning resources, guided sessions, practical exercises, and member tools for financial literacy and competency growth.",
-    monthlyPrice: 49.99,
+    monthlyPrice: 39.99,
     annualPrice: 299.88,
     currency: "USD",
     featured: true,

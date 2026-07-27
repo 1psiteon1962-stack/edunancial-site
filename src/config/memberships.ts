@@ -66,7 +66,7 @@ export const Memberships: Record<MembershipTier, Membership> = {
 
     name: "Build",
 
-    priceMonthly: 49.99,
+    priceMonthly: 39.99,
 
     priceAnnual: 399,
 
