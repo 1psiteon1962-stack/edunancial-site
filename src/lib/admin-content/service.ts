@@ -88,8 +88,9 @@ function createReviewFile(
   const checksum = sha256(buffer);
   const preview = extractPreview(normalizedFilename, mimeType, buffer);
   const timestamp = nowIso();
+  const fileId = createId("file");
   const baseFile = {
-    id: createId("file"),
+    id: fileId,
     batchId,
     uploadId,
     originalFilename,
@@ -112,7 +113,7 @@ function createReviewFile(
       subcategory: null,
       language: config.language,
       academyLevel: config.destination === "courses" ? toAcademyLevel(config.level) : null,
-      destination: buildIntendedDestination(config, normalizedFilename, uploadId),
+      destination: buildIntendedDestination(config, normalizedFilename, fileId),
       confidence: 1,
       reasons: [`explicit-destination:${config.destination}`],
       pillar: config.destination === "courses" ? config.track : "uncategorized",
@@ -132,7 +133,7 @@ function createReviewFile(
       category: config.destination === "courses" ? ("courses" as const) : classification.category,
       language: config.language,
       academyLevel: config.destination === "courses" ? toAcademyLevel(config.level) : classification.academyLevel,
-      destination: buildIntendedDestination(config, normalizedFilename, uploadId),
+      destination: buildIntendedDestination(config, normalizedFilename, fileId),
       pillar: config.destination === "courses" ? config.track : classification.pillar,
     },
     metadata: {
@@ -143,7 +144,7 @@ function createReviewFile(
       contentType: config.destination === "courses" ? "courses" : classification.category,
       pillar: config.destination === "courses" ? config.track : classification.pillar,
       academyLevel: config.destination === "courses" ? toAcademyLevel(config.level) : classification.academyLevel,
-      intendedDestination: buildIntendedDestination(config, normalizedFilename, uploadId),
+      intendedDestination: buildIntendedDestination(config, normalizedFilename, fileId),
       publicationStatus: config.publicationStatus,
     },
   } satisfies ExtractedFile;
