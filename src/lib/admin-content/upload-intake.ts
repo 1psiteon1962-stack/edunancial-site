@@ -1,4 +1,4 @@
-import { extname } from "node:path";
+import { basename, extname } from "node:path";
 
 import { slugify } from "@/lib/admin-content/utils";
 
@@ -165,7 +165,9 @@ function normalizeLanguage(language: string) {
 
 export function buildIntendedDestination(config: UploadConfig, filename: string, uploadId: string) {
   const extension = extname(filename).toLowerCase() || ".bin";
-  const base = `${slugify(config.title)}-${uploadId.slice(-8)}`;
+  const fileStem = slugify(basename(filename, extname(filename)));
+  const uniqueSuffix = fileStem || uploadId.slice(-8);
+  const base = `${slugify(config.title)}-${uniqueSuffix}`;
   const safeName = `${base}${extension}`;
   if (config.destination === "courses") {
     return `content/courses/${config.track}/${config.level}/${normalizeLanguage(config.language)}/${safeName}`;
