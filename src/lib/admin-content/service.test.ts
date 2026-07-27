@@ -41,7 +41,7 @@ function makeZip(entries: Array<{ name: string; content: string | Buffer }>) {
     const data = Buffer.isBuffer(entry.content) ? entry.content : Buffer.from(entry.content);
     const name = Buffer.from(entry.name);
     const local = Buffer.concat([Buffer.from([0x50,0x4b,0x03,0x04]),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
-    const dir = Buffer.concat([Buffer.from([0x50,0x4b,0x01,0x02]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
+    const dir = Buffer.concat([Buffer.from([0x50,0x4b,0x01,0x02]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(0),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
     chunks.push(local); central.push(dir); offset += local.length;
   }
   const cd = Buffer.concat(central);
@@ -166,7 +166,7 @@ describe("admin-content upload service", () => {
     await assert.rejects(() => exportBatchToGithub(batch.id, { email: "owner@example.com" }), /GitHub integration requires/);
   });
 
-  test("full Edunancial production content workflow: upload ZIP → validate → extract → review → assign → approve → publish", async () => {
+  test("full Edunancial production content workflow: upload ZIP → validate → extract → review → assign → approve", async () => {
     // Step 1: Upload ZIP (once)
     const formData = makeFormData();
     formData.set("batchName", "Real Estate Foundations – Level 1");
@@ -209,17 +209,35 @@ describe("admin-content upload service", () => {
     const reviewed = await bulkReview(batch.id, { email: "owner@example.com" }, allFileIds, "approved");
     assert(reviewed.files.every((f) => f.reviewStatus === "approved"), "all files approved");
 
-    // Step 8: Publish requires GitHub config; verify error is surfaced correctly
-    await assert.rejects(
-      () => publishBatch(batch.id, { email: "owner@example.com" }),
-      /GitHub integration requires/,
-      "publish correctly surfaces missing GitHub config error",
-    );
+    // Publish behavior is covered by dedicated tests. This ZIP fixture intentionally
+    // produces multiple approved files that normalize to the same publish destination,
+    // so asserting a missing GitHub-config error here would be brittle and order-dependent.
 
     // Verify audit trail includes batch-created, archive-extracted, bulk-action events
-    const actions = batch.auditHistory.map((e) => e.action);
+    const actions = reviewed.auditHistory.map((e) => e.action);
     assert(actions.includes("batch-created"), "audit: batch-created");
     assert(actions.includes("archive-extracted"), "audit: archive-extracted");
+    assert(actions.includes("bulk-action"), "audit: bulk-action");
+  });
+
+  test("publishBatch rejects duplicate approved destination paths before checking GitHub config", async () => {
+    const formData = makeFormData();
+    formData.set("batchName", "Real Estate Foundations – Level 1");
+    formData.set("courseTrack", "red");
+    formData.set("courseLevel", "level-1");
+    formData.set("language", "en");
+    formData.set("title", "Real Estate Foundations");
+    formData.set("description", "Edunancial Red Academy Level 1 – North America");
+    formData.append("files", new File([makeEdunancialCourseZip()], "real-estate-foundations.zip", { type: "application/zip" }));
+
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    await bulkReview(batch.id, { email: "owner@example.com" }, batch.files.map((f) => f.id), "approved");
+
+    await assert.rejects(
+      () => publishBatch(batch.id, { email: "owner@example.com" }),
+      /Multiple approved files share the same destination path/,
+      "publish should surface duplicate destination conflicts before GitHub config validation",
+    );
   });
 
   test("publishBatch rejects when no files are approved", async () => {
