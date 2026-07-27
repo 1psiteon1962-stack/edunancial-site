@@ -178,7 +178,7 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
     resetAdminContentStorage();
   });
 
-  test("returns full signed upload URL when service role key is present", async () => {
+  async function getSignedUploadUrlForResponse(signedURL: string | undefined) {
     globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
       const url = input.toString();
       // Bucket existence check
@@ -187,14 +187,87 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
       }
       // Signed upload URL creation
       if (url.includes("/storage/v1/object/sign/upload/")) {
-        return makeResponse(200, { signedURL: "/storage/v1/object/upload/sign/fake-token-abc" });
+        return makeResponse(200, signedURL === undefined ? {} : { signedURL });
       }
       return makeResponse(200, "{}");
     }) as typeof globalThis.fetch;
 
     const storage = getAdminContentStorage();
-    const signedUrl = await storage.getSignedUploadUrl("uploads/courses/batch-1/upload-1-file.md");
+    return storage.getSignedUploadUrl("uploads/courses/batch-1/upload-1-file.md");
+  }
+
+  test("returns full signed upload URL when service role key is present", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("/storage/v1/object/upload/sign/fake-token-abc");
     assert.equal(signedUrl, FAKE_URL + "/storage/v1/object/upload/sign/fake-token-abc");
+  });
+
+  test("normalizes signed URL with leading slash and no storage prefix", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://fake.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+  });
+
+  test("normalizes signed URL with no leading slash and no storage prefix", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://fake.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+  });
+
+  test("preserves signed URL with leading slash and storage prefix", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://fake.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+    assert.equal(signedUrl?.match(/\/storage\/v1/g)?.length, 1);
+  });
+
+  test("normalizes signed URL with storage prefix and no leading slash", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://fake.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+    assert.equal(signedUrl?.match(/\/storage\/v1/g)?.length, 1);
+  });
+
+  test("returns absolute signed upload URL unchanged", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("https://example.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://example.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+  });
+
+  test("returns null when signedURL is missing", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse(undefined);
+    assert.equal(signedUrl, null);
+  });
+
+  test("returns null when signedURL is empty", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("");
+    assert.equal(signedUrl, null);
+  });
+
+  test("returns null when signedURL is whitespace only", async () => {
+    const signedUrl = await getSignedUploadUrlForResponse("   ");
+    assert.equal(signedUrl, null);
+  });
+
+  test("normalizes signed URL without double slash when base URL has trailing slash", async () => {
+    process.env.NEXT_PUBLIC_SUPABASE_URL = "https://fake.supabase.co/";
+    resetAdminContentStorage();
+
+    const signedUrl = await getSignedUploadUrlForResponse("/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc");
+    assert.equal(
+      signedUrl,
+      "https://fake.supabase.co/storage/v1/object/upload/sign/admin-content/uploads/test-file.pdf?token=abc",
+    );
+    assert.equal(signedUrl?.startsWith("https://fake.supabase.co//"), false);
   });
 
   test("returns null when service role key is absent", async () => {
