@@ -186,7 +186,7 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
         return makeResponse(200, { name: FAKE_BUCKET });
       }
       // Signed upload URL creation
-      if (url.includes("/storage/v1/object/sign/upload/")) {
+      if (url.includes("/storage/v1/object/upload/sign/")) {
         return makeResponse(200, signedURL === undefined ? {} : { signedURL });
       }
       return makeResponse(200, "{}");
@@ -289,7 +289,7 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
       if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
         return makeResponse(200, { name: FAKE_BUCKET });
       }
-      if (url.includes("/storage/v1/object/sign/upload/")) {
+      if (url.includes("/storage/v1/object/upload/sign/")) {
         return makeResponse(403, "Forbidden");
       }
       return makeResponse(200, "{}");

@@ -349,7 +349,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const encodedObjectPath = objectPath.split("/").map(encodeURIComponent).join("/");
     await this.ensureBucketExists();
 
-    const response = await fetch(`${url}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
+    const response = await fetch(`${url}/storage/v1/object/upload/sign/${this.bucket}/${encodedObjectPath}`, {
       method: "POST",
       headers: {
         Authorization: "Bearer " + serviceRoleKey,
