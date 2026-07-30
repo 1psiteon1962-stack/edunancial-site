@@ -1,7 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
 import LessonEditorClient from "./LessonEditorClient";
@@ -25,11 +24,10 @@ function lessonFilePath(id: string): string | null {
 
 /** Map curriculum ID to the public lesson route */
 function publicLessonUrl(id: string): string | null {
-  const match = id.match(/^RED-L1-(\d{3})$/);
+  const match = id.match(/^([A-Z]+)-L(\d+)-(\d{3})$/);
   if (!match) return null;
-  const num = parseInt(match[1], 10);
-  const courseNum = `1${String(num).padStart(2, "0")}`;
-  return `/courses/red-level-1/lessons/red-${courseNum}`;
+  const [, track, level] = match;
+  return `/curriculum/${track.toLowerCase()}/l${level}/${id.toLowerCase()}`;
 }
 
 export default async function LessonEditorPage({ params }: Props) {
