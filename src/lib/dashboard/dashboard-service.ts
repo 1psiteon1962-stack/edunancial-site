@@ -237,7 +237,7 @@ export function getDashboardData(user: AuthUser): DashboardData {
       currentLevel: continueTrack.currentLevel,
       lessonTitle: continueTrack.nextLesson?.title ?? `${NORTH_AMERICA_TRACKS[continueTrackCode]} curriculum queue`,
       lessonLabel: continueTrack.nextLesson?.id ?? "Awaiting next lesson unlock",
-      href: `/courses/${TRACK_COURSE_IDS[continueTrackCode]}`,
+      href: `/curriculum/${continueTrackCode.toLowerCase()}`,
     },
     passport: {
       rank: score !== null ? passportRank(score) : "Student",
