@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { courseList } from "@/data/course-platform";
+import { courseList } from "@/lib/curriculum/production-catalog";
 
-// Mock initial bookmarks — in production stored in database/localStorage
-const INITIAL_BOOKMARKS = new Set(["red-real-estate", "white-paper-assets", "financial-foundations"]);
+// Bookmarks are stored in user session/database — start empty until real auth is wired.
+const INITIAL_BOOKMARKS = new Set<string>();
 
 export default function FavoritesPage() {
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set(INITIAL_BOOKMARKS));
@@ -89,7 +89,6 @@ export default function FavoritesPage() {
                   <p className="mt-3 text-sm text-slate-300 line-clamp-2">{course.subtitle}</p>
                   <div className="mt-4 flex gap-x-4 text-xs text-slate-500">
                     <span>📚 {course.lessons.length} lessons</span>
-                    <span>⏱ {course.totalDuration}</span>
                   </div>
                   <div className="mt-5 flex gap-3">
                     <Link

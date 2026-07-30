@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { use, useState } from "react";
-import { courses, lessons } from "@/data/course-platform";
+import { courses, lessons } from "@/lib/curriculum/production-catalog";
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -48,7 +48,6 @@ export default function LessonPage({ params }: Props) {
                   <span className={`text-sm flex-1 leading-tight ${l.id === lessonId ? "text-yellow-400 font-bold" : "text-slate-300"}`}>
                     {l.title}
                   </span>
-                  <span className="text-xs text-slate-500 flex-shrink-0">{l.duration}</span>
                 </Link>
               ))}
             </div>

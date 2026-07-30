@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { quizList, courses } from "@/data/course-platform";
+import { quizList, courses } from "@/lib/curriculum/production-catalog";
 
 export const metadata = {
   title: "Quizzes | Edunancial",
@@ -15,7 +15,19 @@ export default function QuizzesPage() {
           Each quiz reinforces your learning. Pass with 70% or above to unlock your certificate.
         </p>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16">
+          {quizList.length === 0 ? (
+            <div className="rounded-2xl border border-red-800 bg-red-950/30 p-12 text-center">
+              <p className="text-4xl">⚠️</p>
+              <p className="mt-4 text-2xl font-black text-red-400">No Quizzes Published</p>
+              <p className="mt-4 text-slate-300">
+                The production curriculum registry contains no quizzes. Quizzes will appear here
+                automatically when they are registered in{" "}
+                <code className="rounded bg-slate-800 px-2 py-0.5 text-yellow-400">curriculum/registry.json</code>.
+              </p>
+            </div>
+          ) : (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {quizList.map((quiz) => {
             const course = quiz.courseId ? courses[quiz.courseId] : null;
             return (
@@ -54,6 +66,8 @@ export default function QuizzesPage() {
               </div>
             );
           })}
+          </div>
+          )}
         </div>
       </section>
     </main>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { courses, lessons, instructors } from "@/data/course-platform";
+import { courses, lessons } from "@/lib/curriculum/production-catalog";
 
 interface Props {
   params: Promise<{ courseId: string }>;
@@ -28,7 +28,6 @@ export default async function CourseDetailPage({ params }: Props) {
   const course = courses[courseId];
   if (!course) notFound();
 
-  const instructor = instructors[course.instructor];
   const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
 
   return (
@@ -61,14 +60,7 @@ export default async function CourseDetailPage({ params }: Props) {
 
             {/* Stats */}
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-300">
-              <span className="flex items-center gap-2">
-                <span className="text-yellow-400 font-bold">{course.rating}</span>
-                <span className="text-yellow-400">{"★".repeat(Math.round(course.rating))}</span>
-                <span className="text-slate-500">({course.reviewCount} reviews)</span>
-              </span>
-              <span>👥 {course.enrolledCount.toLocaleString()} students</span>
               <span>📚 {courseLessons.length} lessons</span>
-              <span>⏱ {course.totalDuration}</span>
             </div>
 
             {/* Tags */}
@@ -79,26 +71,12 @@ export default async function CourseDetailPage({ params }: Props) {
                 </span>
               ))}
             </div>
-
-            {/* Instructor preview */}
-            {instructor && (
-              <div className="mt-8 flex items-center gap-4">
-                <div className="h-12 w-12 rounded-full bg-slate-700 flex items-center justify-center text-xl font-black">
-                  {instructor.name[0]}
-                </div>
-                <div>
-                  <p className="text-sm text-slate-400">Instructor</p>
-                  <p className="font-bold">{instructor.name}</p>
-                  <p className="text-sm text-slate-400">{instructor.title}</p>
-                </div>
-              </div>
-            )}
           </div>
 
           {/* Enroll card */}
           <div className="rounded-2xl bg-slate-900 border border-slate-700 p-8 h-fit lg:sticky lg:top-24">
             <div className={`h-1.5 w-full rounded-full mb-6 ${course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color}`} />
-            <p className="text-3xl font-black">{course.isFree ? "Free" : `$${course.price ?? 97}`}</p>
+            <p className="text-2xl font-black">Included with Membership</p>
             <Link
               href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
               className="mt-6 block w-full rounded-xl bg-yellow-500 py-4 text-center font-black text-black text-lg hover:bg-yellow-400 transition"
@@ -113,7 +91,6 @@ export default async function CourseDetailPage({ params }: Props) {
             </Link>
             <ul className="mt-8 space-y-3 text-sm text-slate-300">
               <li>✅ {courseLessons.length} on-demand lessons</li>
-              <li>✅ {course.totalDuration} total content</li>
               <li>✅ Downloadable resources</li>
               <li>✅ Certificate of completion</li>
               <li>✅ Lifetime access</li>
@@ -134,7 +111,7 @@ export default async function CourseDetailPage({ params }: Props) {
           <section>
             <h2 className="text-2xl font-black mb-6">Course Curriculum</h2>
             <p className="text-slate-400 mb-6 text-sm">
-              {courseLessons.length} lessons · {course.totalDuration}
+              {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}
             </p>
             <div className="space-y-3">
               {courseLessons.map((lesson, idx) => (
@@ -164,30 +141,6 @@ export default async function CourseDetailPage({ params }: Props) {
               ))}
             </div>
           </section>
-
-          {/* Instructor */}
-          {instructor && (
-            <section>
-              <h2 className="text-2xl font-black mb-6">Your Instructor</h2>
-              <div className="rounded-2xl bg-slate-900 border border-slate-800 p-8">
-                <div className="flex items-start gap-6">
-                  <div className="h-20 w-20 rounded-full bg-slate-700 flex items-center justify-center text-3xl font-black flex-shrink-0">
-                    {instructor.name[0]}
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-black">{instructor.name}</h3>
-                    <p className="text-yellow-400 font-medium mt-1">{instructor.title}</p>
-                    <div className="flex gap-6 mt-3 text-sm text-slate-400">
-                      <span>⭐ {instructor.rating} Rating</span>
-                      <span>👥 {instructor.students.toLocaleString()} Students</span>
-                      <span>📚 {instructor.courses.length} Course{instructor.courses.length !== 1 ? "s" : ""}</span>
-                    </div>
-                    <p className="mt-4 text-slate-300 leading-relaxed">{instructor.bio}</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          )}
         </div>
 
         {/* Sidebar */}

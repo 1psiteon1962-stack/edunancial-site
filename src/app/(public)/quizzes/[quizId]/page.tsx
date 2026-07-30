@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { use, useState } from "react";
-import { quizzes, courses } from "@/data/course-platform";
+import { quizzes, courses } from "@/lib/curriculum/production-catalog";
 
 interface Props {
   params: Promise<{ quizId: string }>;

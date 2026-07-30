@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import { courseList, lessonList, quizList } from "@/data/course-platform";
+import { courseList, lessonList, quizList } from "@/lib/curriculum/production-catalog";
 
 type ResultType = "course" | "lesson" | "quiz";
 

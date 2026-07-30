@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { courseList, instructorList } from "@/data/course-platform";
+import { courseList } from "@/lib/curriculum/production-catalog";
 
 export const metadata = {
   title: "Instructor Tools | Edunancial",
@@ -68,35 +68,30 @@ export default function TeachersPage() {
           {/* Course overview */}
           <div className="lg:col-span-2 space-y-6">
             <h2 className="text-2xl font-black">Course Overview</h2>
+            {courseList.length === 0 ? (
+              <div className="rounded-2xl border border-red-800 bg-red-950/30 p-8 text-center">
+                <p className="text-red-400 font-bold">No courses are currently published in the production registry.</p>
+              </div>
+            ) : (
             <div className="space-y-3">
-              {courseList.map((course) => {
-                const enrolled = Math.floor(Math.random() * 100) + 20;
-                const pct = Math.floor(Math.random() * 80) + 10;
-                return (
-                  <div key={course.id} className="rounded-xl bg-slate-900 border border-slate-800 p-5">
-                    <div className="flex items-center justify-between gap-4">
-                      <div className="flex items-center gap-3 min-w-0">
-                        <div className={`h-3 w-3 rounded-full flex-shrink-0 ${
-                          course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color
-                        }`} />
-                        <span className="font-bold text-sm truncate">{course.title}</span>
-                      </div>
-                      <div className="flex items-center gap-4 flex-shrink-0 text-xs text-slate-400">
-                        <span>👥 {course.enrolledCount.toLocaleString()}</span>
-                        <span>📚 {course.lessons.length} lessons</span>
-                        <Link href={`/courses/${course.id}`} className="text-blue-400 hover:text-blue-300">View</Link>
-                      </div>
+              {courseList.map((course) => (
+                <div key={course.id} className="rounded-xl bg-slate-900 border border-slate-800 p-5">
+                  <div className="flex items-center justify-between gap-4">
+                    <div className="flex items-center gap-3 min-w-0">
+                      <div className={`h-3 w-3 rounded-full flex-shrink-0 ${
+                        course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color
+                      }`} />
+                      <span className="font-bold text-sm truncate">{course.title}</span>
                     </div>
-                    <div className="mt-3 h-1.5 w-full rounded-full bg-slate-800">
-                      <div
-                        className="h-1.5 rounded-full bg-blue-500"
-                        style={{ width: `${Math.round((course.enrolledCount / 15000) * 100)}%` }}
-                      />
+                    <div className="flex items-center gap-4 flex-shrink-0 text-xs text-slate-400">
+                      <span>📚 {course.lessons.length} lessons</span>
+                      <Link href={`/courses/${course.id}`} className="text-blue-400 hover:text-blue-300">View</Link>
                     </div>
                   </div>
-                );
-              })}
+                </div>
+              ))}
             </div>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -114,24 +109,6 @@ export default function TeachersPage() {
                       <p className="text-sm font-bold">{item.student}</p>
                       <p className="text-xs text-slate-400">{item.action}</p>
                       <p className="text-xs text-slate-500">{item.course} · {item.time}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Instructors */}
-            <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
-              <h3 className="font-black text-lg mb-4">Instructors</h3>
-              <div className="space-y-4">
-                {instructorList.map((inst) => (
-                  <div key={inst.id} className="flex items-center gap-3">
-                    <div className="h-10 w-10 rounded-full bg-slate-700 flex items-center justify-center font-black text-sm flex-shrink-0">
-                      {inst.name[0]}
-                    </div>
-                    <div className="min-w-0">
-                      <p className="text-sm font-bold truncate">{inst.name}</p>
-                      <p className="text-xs text-slate-400">{inst.students.toLocaleString()} students · ⭐ {inst.rating}</p>
                     </div>
                   </div>
                 ))}

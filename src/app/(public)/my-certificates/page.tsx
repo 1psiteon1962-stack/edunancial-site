@@ -4,9 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/data/course-platform";
+import { courseList } from "@/lib/curriculum/production-catalog";
 
-const completedCourseIds = ["financial-foundations"];
+// Completed courses come from user session/database — empty until real auth is wired.
+const completedCourseIds: string[] = [];
 const completedCourses = courseList.filter((c) => completedCourseIds.includes(c.id));
 
 function earnedCountLabel(t: (key: string, values?: Record<string, string | number>) => string, count: number) {

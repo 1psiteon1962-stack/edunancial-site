@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import { courseList, categories, categoryColors } from "@/data/course-platform";
-import type { CourseCategory, Difficulty } from "@/data/course-platform";
+import { courseList, categories, categoryColors } from "@/lib/curriculum/production-catalog";
+import type { CourseCategory, Difficulty } from "@/lib/curriculum/production-catalog";
 
 const difficultyOptions: Difficulty[] = ["Beginner", "Intermediate", "Advanced"];
 
@@ -42,7 +42,9 @@ export default function CourseCatalogPage() {
           Explore Every Course
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-slate-300">
-          {courseList.length} courses across Real Estate, Paper Assets, Business, and more.
+          {courseList.length > 0
+            ? `${courseList.length} course${courseList.length !== 1 ? "s" : ""} across Real Estate, Paper Assets, Business, and more.`
+            : "Browse the production curriculum — add lessons to the registry to publish courses here."}
         </p>
 
         {/* Search */}
@@ -116,7 +118,22 @@ export default function CourseCatalogPage() {
 
       {/* Course Grid */}
       <section className="mx-auto max-w-7xl px-6 pb-24">
-        {filtered.length === 0 ? (
+        {courseList.length === 0 ? (
+          <div className="py-20 text-center">
+            <div className="mx-auto max-w-2xl rounded-2xl border border-red-800 bg-red-950/30 p-12">
+              <p className="text-5xl">⚠️</p>
+              <p className="mt-4 text-3xl font-black text-red-400">No Courses Published</p>
+              <p className="mt-4 text-lg text-slate-300">
+                The production curriculum registry is empty. No courses are currently available.
+              </p>
+              <p className="mt-4 text-sm text-slate-400">
+                Courses will appear automatically when lessons are added to{" "}
+                <code className="rounded bg-slate-800 px-2 py-0.5 text-yellow-400">curriculum/registry.json</code>{" "}
+                via <code className="rounded bg-slate-800 px-2 py-0.5 text-yellow-400">npm run curriculum:import</code>.
+              </p>
+            </div>
+          </div>
+        ) : filtered.length === 0 ? (
           <div className="py-20 text-center text-slate-400">
             <p className="text-2xl font-bold">No courses match your search.</p>
             <button
@@ -166,14 +183,6 @@ export default function CourseCatalogPage() {
                     {/* Meta */}
                     <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500">
                       <span>📚 {course.lessons.length} lessons</span>
-                      <span>⏱ {course.totalDuration}</span>
-                      <span>👥 {course.enrolledCount.toLocaleString()} enrolled</span>
-                    </div>
-                    {/* Rating */}
-                    <div className="mt-3 flex items-center gap-2">
-                      <span className="text-yellow-400 font-bold">{course.rating}</span>
-                      <span className="text-yellow-400 text-sm">{"★".repeat(Math.round(course.rating))}</span>
-                      <span className="text-slate-500 text-xs">({course.reviewCount})</span>
                     </div>
                     {/* Tags */}
                     <div className="mt-4 flex flex-wrap gap-2">
@@ -200,7 +209,7 @@ export default function CourseCatalogPage() {
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
           {categories.map((cat) => {
             const count = courseList.filter((c) => c.category === cat).length;
-            const colorClass = categoryColors[cat];
+            const colorClass = categoryColors[cat] ?? "bg-slate-700 text-white";
             return (
               <button
                 key={cat}

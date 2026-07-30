@@ -3,22 +3,16 @@
 import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/data/course-platform";
-
-const mockProgress: Record<string, number[]> = {
-  "red-real-estate": [0, 1],
-  "white-paper-assets": [0, 1, 2, 3],
-  "blue-business": [0],
-  "financial-foundations": [0, 1, 2, 3, 4],
-};
+import { courseList } from "@/lib/curriculum/production-catalog";
 
 function ProgressLayout() {
   const { t } = useInternationalPreferences();
-  const progressData = courseList.map((course) => {
-    const done = (mockProgress[course.id] ?? []).length;
-    const pct = Math.round((done / course.lessons.length) * 100);
-    return { ...course, done, pct };
-  });
+  // Progress comes from user session/database — not yet wired.
+  const progressData = courseList.map((course) => ({
+    ...course,
+    done: 0,
+    pct: 0,
+  }));
 
   const enrolled = progressData.filter((course) => course.pct > 0);
   const totalLessons = enrolled.reduce((sum, course) => sum + course.lessons.length, 0);
