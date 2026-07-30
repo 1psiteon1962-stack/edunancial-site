@@ -273,9 +273,10 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
   });
 
   test("returns null when service role key is absent", async () => {
-    const originalNodeEnv = process.env.NODE_ENV;
+    const env = process.env as Record<string, string | undefined>;
+    const originalNodeEnv = env.NODE_ENV;
     delete process.env.SUPABASE_SERVICE_ROLE_KEY;
-    process.env.NODE_ENV = "production";
+    env.NODE_ENV = "production";
     resetAdminContentStorage();
 
     try {
@@ -285,9 +286,9 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
       );
     } finally {
       if (originalNodeEnv === undefined) {
-        delete process.env.NODE_ENV;
+        delete env.NODE_ENV;
       } else {
-        process.env.NODE_ENV = originalNodeEnv;
+        env.NODE_ENV = originalNodeEnv;
       }
     }
   });
