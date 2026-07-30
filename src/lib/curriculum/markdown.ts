@@ -53,14 +53,17 @@ export function renderMarkdown(markdown: string): string {
 
 function inlineMarkdown(text: string): string {
   return text
-    // Inline code
-    .replace(/`([^`]+)`/g, '<code class="bg-slate-700 text-yellow-300 rounded px-1.5 py-0.5 text-sm font-mono">$1</code>')
+    // Inline code — escape content to prevent HTML injection
+    .replace(/`([^`]+)`/g, (_m, code: string) => `<code class="bg-slate-700 text-yellow-300 rounded px-1.5 py-0.5 text-sm font-mono">${escapeHtml(code)}</code>`)
     // Bold
     .replace(/\*\*(.+?)\*\*/g, '<strong class="font-bold text-white">$1</strong>')
     // Italic
     .replace(/\*(.+?)\*/g, '<em class="italic text-slate-200">$1</em>')
-    // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-yellow-400 hover:text-yellow-300 underline">$1</a>');
+    // Links — sanitize href to prevent javascript: and data: URIs
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label: string, href: string) => {
+      const safehref = /^https?:\/\/|^\//.test(href.trim()) ? href.trim() : `#`;
+      return `<a href="${escapeHtml(safehref)}" class="text-yellow-400 hover:text-yellow-300 underline">${label}</a>`;
+    });
 }
 
 function renderTable(tableBlock: string): string {
