@@ -1,8 +1,10 @@
+import { requireAdminPageSession } from "@/lib/admin-content/auth";
 import { getCmsEngine } from "@/lib/cms/engine";
 
 const engine = getCmsEngine();
 
-export default function CmsDashboardPage() {
+export default async function CmsDashboardPage() {
+  await requireAdminPageSession();
   const dashboard = engine.getDashboard();
 
   const cards: Array<[string, number]> = [

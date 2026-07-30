@@ -436,9 +436,6 @@ export default function CourseEditorClient({ initialCourse }: Props) {
                                 L{lesson.order + 1}
                               </span>
                               <span className="text-sm text-white">{lesson.title}</span>
-                              {lesson.duration && (
-                                <span className="text-xs text-slate-500">{lesson.duration}</span>
-                              )}
                             </div>
                             <span
                               className={`text-xs ${

@@ -1,95 +1,49 @@
 "use client";
 
 import Link from "next/link";
-
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { courseList } from "@/data/course-platform";
 
-const mockProgress: Record<string, number[]> = {
-  "red-real-estate": [0, 1],
-  "white-paper-assets": [0, 1, 2, 3],
-  "blue-business": [0],
-  "financial-foundations": [0, 1, 2, 3, 4],
-};
-
 function ProgressLayout() {
   const { t } = useInternationalPreferences();
-  const progressData = courseList.map((course) => {
-    const done = (mockProgress[course.id] ?? []).length;
-    const pct = Math.round((done / course.lessons.length) * 100);
-    return { ...course, done, pct };
-  });
-
-  const enrolled = progressData.filter((course) => course.pct > 0);
-  const totalLessons = enrolled.reduce((sum, course) => sum + course.lessons.length, 0);
-  const totalDone = enrolled.reduce((sum, course) => sum + course.done, 0);
-  const overallPct = totalLessons > 0 ? Math.round((totalDone / totalLessons) * 100) : 0;
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section className="mx-auto max-w-7xl px-6 py-20">
         <p className="text-sm font-bold uppercase tracking-[0.45em] text-yellow-400">{t("courseProgress.label")}</p>
         <h1 className="mt-4 text-5xl font-black">{t("courseProgress.title")}</h1>
+        <p className="mt-4 max-w-2xl text-lg text-slate-300">
+          Sign in to see your progress across all Edunancial courses.
+        </p>
 
-        <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-8">
-          <div className="mb-4 flex items-end justify-between">
-            <div>
-              <p className="text-sm text-slate-400">{t("courseProgress.overallLabel")}</p>
-              <p className="mt-1 text-4xl font-black text-blue-400">{overallPct}%</p>
-            </div>
-            <p className="text-sm text-slate-400">
-              {t("courseProgress.lessonsLabel", { done: totalDone, total: totalLessons })}
-            </p>
-          </div>
-          <div className="h-4 w-full rounded-full bg-slate-800">
-            <div className="h-4 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 transition-all" style={{ width: `${overallPct}%` }} />
-          </div>
-        </div>
-
-        <div className="mt-10 space-y-6">
-          <h2 className="text-2xl font-black">{t("courseProgress.breakdownLabel")}</h2>
-          {enrolled.map((course) => (
-            <div key={course.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-              <div className="mb-4 flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="text-lg font-black">{course.title}</h3>
-                  <p className="text-sm text-slate-400">{course.category} · {course.difficulty}</p>
+        <div className="mt-12">
+          <h2 className="text-2xl font-black mb-6">Available Courses</h2>
+          <div className="space-y-3">
+            {courseList.map((course) => (
+              <div key={course.id} className="rounded-xl bg-slate-900 border border-slate-800 p-5 flex items-center justify-between gap-6">
+                <div className="flex items-center gap-4 min-w-0">
+                  <div className={`h-3 w-3 rounded-full flex-shrink-0 ${
+                    course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color
+                  }`} />
+                  <div className="min-w-0">
+                    <p className="font-bold truncate">{course.title}</p>
+                    <p className="text-xs text-slate-400">{course.lessons.length} lessons · {course.difficulty}</p>
+                  </div>
                 </div>
-                <span className={`text-xl font-black ${course.pct === 100 ? "text-green-400" : "text-blue-400"}`}>{course.pct}%</span>
+                <Link
+                  href={`/courses/${course.id}`}
+                  className="flex-shrink-0 rounded-xl border border-slate-600 px-4 py-2 text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
+                >
+                  View
+                </Link>
               </div>
-              <div className="mb-3 h-3 w-full rounded-full bg-slate-800">
-                <div className={`h-3 rounded-full transition-all ${course.pct === 100 ? "bg-green-500" : "bg-blue-500"}`} style={{ width: `${course.pct}%` }} />
-              </div>
-              <div className="flex items-center justify-between text-sm text-slate-400">
-                <span>{t("courseProgress.completeTemplate", { done: course.done, total: course.lessons.length })}</span>
-                {course.pct === 100 ? (
-                  <Link href="/my-certificates" className="font-bold text-green-400 hover:text-green-300">
-                    ✅ {t("courseProgress.certificateLabel")}
-                  </Link>
-                ) : (
-                  <Link
-                    href={`/courses/${course.id}/lessons/${course.lessons[course.done] ?? course.lessons[0]}`}
-                    className="font-bold text-yellow-400 hover:text-yellow-300"
-                  >
-                    {t("courseProgress.continueLabel")}
-                  </Link>
-                )}
-              </div>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {course.lessons.map((_, index) => (
-                  <div key={index} className={`h-2.5 w-2.5 rounded-full ${index < course.done ? "bg-blue-500" : "bg-slate-700"}`} />
-                ))}
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        <div className="mt-16 flex flex-wrap gap-4">
-          <Link href="/my-courses" className="rounded-xl bg-yellow-500 px-6 py-3 font-black text-black transition hover:bg-yellow-400">
-            {t("courseProgress.primaryLabel")}
-          </Link>
-          <Link href="/course-catalog" className="rounded-xl border border-slate-600 px-6 py-3 font-bold text-slate-300 transition hover:bg-slate-800">
-            {t("courseProgress.secondaryLabel")}
+        <div className="mt-16 text-center">
+          <Link href="/login" className="rounded-xl bg-yellow-500 px-8 py-4 font-black text-black hover:bg-yellow-400 transition">
+            Sign In to Track Progress
           </Link>
         </div>
       </section>

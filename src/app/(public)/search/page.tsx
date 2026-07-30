@@ -36,7 +36,6 @@ function buildIndex(): SearchResult[] {
       title: l.title,
       subtitle: l.description,
       href: `/courses/${l.courseId}/lessons/${l.id}`,
-      tag: l.duration,
     });
   });
 

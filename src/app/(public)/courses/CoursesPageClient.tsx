@@ -34,12 +34,7 @@ function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: stri
               <p className="mt-2 text-xs text-slate-400">
                 {course.category} · {course.difficulty}
               </p>
-              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lessons · ⏱ {course.totalDuration}</p>
-              <div className="mt-3 flex items-center gap-1 text-xs">
-                <span className="text-yellow-400">{course.rating}</span>
-                <span className="text-yellow-400">★</span>
-                <span className="text-slate-500">({course.reviewCount})</span>
-              </div>
+              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lessons</p>
             </div>
           </Link>
         ))}

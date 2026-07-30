@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { actorFromRequest, getCmsEngine } from "@/lib/cms/engine";
+import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { actorFromAdminSession, getCmsEngine } from "@/lib/cms/engine";
 
 export const runtime = "nodejs";
 
@@ -38,7 +39,10 @@ function handleAction(action: string, body: Record<string, unknown>, actor: { us
 
 export async function GET(request: Request) {
   try {
-    const actor = actorFromRequest(request);
+    const auth = await requireAdminApiSession(request);
+    if (!auth.ok) return auth.response;
+    const actor = actorFromAdminSession(auth.session);
+
     const url = new URL(request.url);
     const lessonId = url.searchParams.get("lessonId");
 
@@ -70,7 +74,10 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const actor = actorFromRequest(request);
+    const auth = await requireAdminApiSession(request, true);
+    if (!auth.ok) return auth.response;
+    const actor = actorFromAdminSession(auth.session);
+
     const body = (await request.json()) as Record<string, unknown>;
     const action = String(body.action || "");
 
