@@ -51,7 +51,7 @@ function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: stri
               <p className="mt-2 text-xs text-slate-400">
                 {course.category} · {course.difficulty}
               </p>
-              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lessons</p>
+              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lesson{course.lessons.length !== 1 ? "s" : ""}</p>
             </div>
           </Link>
         ))}

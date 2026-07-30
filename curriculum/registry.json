@@ -1,7 +1,248 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-07-11T00:00:00.000Z",
+  "_generated": "2026-07-30T17:57:32.258Z",
   "_note": "Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.",
-  "tracks": {}
+  "tracks": {
+    "RED": {
+      "code": "RED",
+      "name": "Real Estate",
+      "levels": {
+        "1": {
+          "assets": {
+            "RED-L1-001": {
+              "id": "RED-L1-001",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 1,
+              "title": "Understanding Real Estate as an Asset Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-001.md",
+              "checksum": "sha256:eb48258c0a317bb029247198c0b5b583b739d9e8873670cf2e0e790e024187d5",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Real estate is one of the most powerful and accessible wealth-building tools available. This lesson establishes a foundational understanding of real estate as an asset class—what it is, how it differs from other assets, and why it belongs in a serious wealth-building strategy."
+              }
+            },
+            "RED-L1-002": {
+              "id": "RED-L1-002",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 2,
+              "title": "Types of Real Estate — Residential, Commercial, and Land",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-002.md",
+              "checksum": "sha256:a1c3c1af0d0ecd5d0e9830a644059083420bc88ae1a12fb8d1eeb7519a3d9e3d",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Before investing in real estate, you must understand what you are buying. This lesson breaks down the major categories of real estate, explains how each type generates returns, and helps you identify which type aligns with your resources and goals."
+              }
+            },
+            "RED-L1-003": {
+              "id": "RED-L1-003",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 3,
+              "title": "How Real Estate Generates Income",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-003.md",
+              "checksum": "sha256:8d300d3ac794b4971b75314ded0e72d3ed3861884830879d5acdd8f08a9f3001",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Real estate generates income through multiple simultaneous mechanisms. Understanding each income stream—and how they compound together—is what separates investors from accidental landlords."
+              }
+            },
+            "RED-L1-004": {
+              "id": "RED-L1-004",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 4,
+              "title": "The Real Estate Market Cycle",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-004.md",
+              "checksum": "sha256:7d58553f9a48492a680b0be8a42b24786629ca422415d1f641c1d8613225cf8c",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Real estate markets move in cycles. Investors who understand where a market is in its cycle make better acquisition decisions, hold properties at the right times, and exit at the right times. This lesson gives you a framework for reading any market."
+              }
+            },
+            "RED-L1-005": {
+              "id": "RED-L1-005",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 5,
+              "title": "Key Real Estate Financial Metrics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-005.md",
+              "checksum": "sha256:ca5e888aec63b7c9ca731a7098ef143ddcedb131af61df26b926bf63f7870565",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Successful real estate investing requires fluency with a specific set of financial metrics. These are not abstract formulas—they are the language that investors use to evaluate deals, communicate with lenders, and make decisions. This lesson makes you fluent."
+              }
+            },
+            "RED-L1-006": {
+              "id": "RED-L1-006",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 6,
+              "title": "Understanding Property Values and Appraisals",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-006.md",
+              "checksum": "sha256:7ab8ae2c60bc9fd26944b440fbe32d5a17473352e52cd3586f13cbf7ba73be7b",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Real estate value is not what you paid, not what your neighbor thinks, and not what an online algorithm estimates. This lesson explains how property value is actually determined, how to interpret appraisals, and how to use valuation knowledge to your advantage."
+              }
+            },
+            "RED-L1-007": {
+              "id": "RED-L1-007",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 7,
+              "title": "Financing Real Estate — Mortgages, Loans, and Leverage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-007.md",
+              "checksum": "sha256:c5b77be8c4f7d45f463f4332dbb0bee5322479f5667fac728fcbb7d7b996a03b",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Most real estate investors use leverage—borrowed money—to purchase properties. Understanding your financing options, how they work, and how to qualify for them is a core investor skill. This lesson covers the primary loan types, financing strategies, and the intelligent use of leverage."
+              }
+            },
+            "RED-L1-008": {
+              "id": "RED-L1-008",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 8,
+              "title": "Cash Flow Analysis for Rental Properties",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-008.md",
+              "checksum": "sha256:fbe8515baa20347f7853574ebc4982f2f5e21b49a34283d41f91f8a3ab05b4ba",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Cash flow analysis is the core skill of the real estate investor. A property that looks profitable on paper may destroy wealth in practice if analyzed incorrectly. This lesson teaches you to build an accurate pro forma and stress-test it against realistic scenarios."
+              }
+            },
+            "RED-L1-009": {
+              "id": "RED-L1-009",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 9,
+              "title": "Real Estate Risk and Due Diligence",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-009.md",
+              "checksum": "sha256:07738f0db71f06dd6bc73b612439c8af3d8179c61cc2546156a755e79d505adc",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Every real estate investment carries risk. The investor's job is not to eliminate risk—it is to identify, measure, and manage it. This lesson teaches the due diligence process that separates informed investors from those who discover problems after closing."
+              }
+            },
+            "RED-L1-010": {
+              "id": "RED-L1-010",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "lessonNumber": 10,
+              "title": "Building Your Real Estate Investment Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-07-30",
+              "path": "content/curriculum/RED/L1/RED-L1-010.md",
+              "checksum": "sha256:cc5e3c6524b1d2ce7311edaf2985372683b771690d95bc5af70eaef33a8ce040",
+              "status": "active",
+              "ingestionId": "8d176f57-8899-497a-afcd-173ceddd74bf",
+              "importedAt": "2026-07-30T17:57:32.246Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Lessons one through nine have given you the knowledge foundation. This final RED Level 1 lesson integrates everything into a personal real estate investment strategy—one you can begin executing immediately. Financial competency is built through action, not through accumulating more knowledge."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
