@@ -3,9 +3,9 @@
 import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/data/course-platform";
+import { courseList } from "@/lib/curriculum/production-catalog";
 
-const completedCourseIds = new Set(["financial-foundations"]);
+const completedCourseIds = new Set<string>();
 
 export default function CertificatesPageClient() {
   const { t } = useInternationalPreferences();

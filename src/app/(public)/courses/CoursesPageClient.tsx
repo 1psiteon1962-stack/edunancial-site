@@ -3,11 +3,28 @@
 import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/data/course-platform";
-
-const featured = courseList.filter((course) => course.isFeatured);
+import { courseList } from "@/lib/curriculum/production-catalog";
 
 function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: string }) {
+  const featured = courseList.filter((course) => course.isFeatured);
+  if (featured.length === 0) {
+    return (
+      <div className="mt-24">
+        <div className="mb-8 flex items-center justify-between">
+          <h2 className="text-3xl font-black">{heading}</h2>
+          <Link href="/course-catalog" className="text-sm font-bold text-yellow-400 hover:text-yellow-300">
+            {linkLabel}
+          </Link>
+        </div>
+        <div className="rounded-2xl border border-slate-800 bg-slate-900 p-12 text-center">
+          <p className="text-slate-400">No featured courses are currently published.</p>
+          <Link href="/course-catalog" className="mt-4 inline-block text-sm font-bold text-yellow-400 hover:text-yellow-300">
+            Browse Course Catalog →
+          </Link>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="mt-24">
       <div className="mb-8 flex items-center justify-between">
@@ -34,12 +51,7 @@ function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: stri
               <p className="mt-2 text-xs text-slate-400">
                 {course.category} · {course.difficulty}
               </p>
-              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lessons · ⏱ {course.totalDuration}</p>
-              <div className="mt-3 flex items-center gap-1 text-xs">
-                <span className="text-yellow-400">{course.rating}</span>
-                <span className="text-yellow-400">★</span>
-                <span className="text-slate-500">({course.reviewCount})</span>
-              </div>
+              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lessons</p>
             </div>
           </Link>
         ))}

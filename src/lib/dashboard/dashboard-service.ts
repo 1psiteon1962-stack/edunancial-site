@@ -1,4 +1,3 @@
-import { courseList } from "../../data/course-platform";
 import {
   LEVEL_CODES,
   NORTH_AMERICA_TRACKS,
@@ -153,8 +152,7 @@ export function getDashboardData(user: AuthUser): DashboardData {
   const learningPaths = TRACK_ORDER.map((trackCode) => {
     const track = adaptiveLearning.studentProgress.tracks[trackCode];
     const courseId = TRACK_COURSE_IDS[trackCode];
-    const courseTitle =
-      courseList.find((course) => course.id === courseId)?.title ?? NORTH_AMERICA_TRACKS[trackCode];
+    const courseTitle = NORTH_AMERICA_TRACKS[trackCode];
 
     return {
       code: trackCode,

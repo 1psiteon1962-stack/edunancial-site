@@ -1,25 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { courseList, lessonList } from "@/data/course-platform";
+import { courseList } from "@/lib/curriculum/production-catalog";
 import { useState } from "react";
-
-// Mock progress data — in production this would come from a database/auth context
-const mockProgress: Record<string, number[]> = {
-  "red-real-estate": [0, 1],        // completed lesson indices
-  "white-paper-assets": [0, 1, 2, 3],
-  "blue-business": [0],
-  "financial-foundations": [0, 1, 2, 3, 4],
-};
 
 export default function MyCoursesPage() {
   const [activeTab, setActiveTab] = useState<"in-progress" | "completed" | "all">("in-progress");
 
-  const coursesWithProgress = courseList.map((course) => {
-    const completedIndices = mockProgress[course.id] ?? [];
-    const pct = Math.round((completedIndices.length / course.lessons.length) * 100);
-    return { ...course, completedCount: completedIndices.length, pct };
-  });
+  // Progress comes from user session/database — not yet wired.
+  // All courses start at 0% until real auth progress is connected.
+  const coursesWithProgress = courseList.map((course) => ({
+    ...course,
+    completedCount: 0,
+    pct: 0,
+  }));
 
   const filtered = coursesWithProgress.filter((c) => {
     if (activeTab === "in-progress") return c.pct > 0 && c.pct < 100;
@@ -28,9 +22,7 @@ export default function MyCoursesPage() {
   });
 
   const totalCompleted = coursesWithProgress.filter((c) => c.pct === 100).length;
-  const totalLessonsCompleted = Object.values(mockProgress).reduce(
-    (sum, arr) => sum + arr.length, 0
-  );
+  const totalLessonsCompleted = 0;
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
