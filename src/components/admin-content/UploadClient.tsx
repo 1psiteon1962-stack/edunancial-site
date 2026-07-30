@@ -139,7 +139,7 @@ export default function UploadClient() {
     setSuccess("");
     setProgress(0);
 
-    // Build the shared config payload used for both presign and legacy upload.
+    // Build the shared config payload used for presign and finalize.
     const sharedConfig: Record<string, string> = {
       batchName: batchName || `Content Upload ${new Date().toISOString().slice(0, 10)}`,
       source,
@@ -173,8 +173,7 @@ export default function UploadClient() {
         uploadId: string;
         storagePath: string;
         safeName: string;
-        signedUrl: string | null;
-        directUpload: { url: string; headers: Record<string, string> } | null;
+        signedUrl: string;
       }>;
     } | null = null;
 
@@ -208,150 +207,69 @@ export default function UploadClient() {
           uploadId: string;
           storagePath: string;
           safeName: string;
-          signedUrl: string | null;
-          directUpload: { url: string; headers: Record<string, string> } | null;
+          signedUrl: string;
         }>;
       };
-    } catch {
-      // Presign endpoint not reachable — fall through to legacy single-request upload.
-    }
-
-    // Check whether all files have a usable upload URL.
-    const allHaveDirectPath =
-      presignResult !== null &&
-      presignResult.uploads.every((u) => u.signedUrl !== null || u.directUpload !== null);
-
-    if (presignResult && allHaveDirectPath) {
-      // Phase 2: upload each file directly to Supabase.
-      const { batchId, uploads } = presignResult;
-      try {
-        for (let i = 0; i < files.length; i++) {
-          const file = files[i];
-          const uploadSpec = uploads[i];
-          const baseProgress = Math.round((i / files.length) * 85);
-
-          if (uploadSpec.signedUrl) {
-            await uploadFileDirect(file, uploadSpec.signedUrl, "PUT", { "Content-Type": file.type || "application/octet-stream" }, (pct) => {
-              setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
-            });
-          } else if (uploadSpec.directUpload) {
-            const { url, headers } = uploadSpec.directUpload;
-            await uploadFileDirect(file, url, "POST", { ...headers, "Content-Type": file.type || "application/octet-stream" }, (pct) => {
-              setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
-            });
-          }
-        }
-
-        setProgress(90);
-
-        // Phase 3: finalize — server reads from storage and creates the batch record.
-        const finalizeResponse = await fetch("/api/admin/content/upload/finalize", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "x-csrf-token": csrfToken,
-          },
-          body: JSON.stringify({
-            ...sharedConfig,
-            batchId,
-            uploads: files.map((file, i) => ({
-              uploadId: uploads[i].uploadId,
-              originalFilename: file.name,
-              mimeType: file.type || "application/octet-stream",
-              sizeBytes: file.size,
-              storagePath: uploads[i].storagePath,
-            })),
-          }),
-        });
-
-        setUploading(false);
-        setProgress(100);
-
-        if (!finalizeResponse.ok) {
-          let message = "Upload processing failed.";
-          try {
-            const parsed = (await finalizeResponse.json()) as { error?: string };
-            message = parsed.error ?? message;
-          } catch {}
-          setError(message);
-          return;
-        }
-
-        const payload = (await finalizeResponse.json()) as { batch: { id: string } };
-        setSuccess("Upload successful. Routing to batch review.");
-        router.push(`/admin/content/batches/${payload.batch.id}`);
-        router.refresh();
-        return;
-      } catch (err) {
-        setUploading(false);
-        setError((err as Error).message || "Upload failed.");
-        return;
-      }
-    }
-
-    // ─────────────────────────────────────────────────────────────────────────
-    // Legacy single-request upload fallback (used in local development and for
-    // deployments where neither signed URLs nor direct anon-key upload is
-    // available).  Subject to Netlify's 6 MB request-body limit in production.
-    //
-    // PRODUCTION GUARD: if direct Supabase upload is unavailable and any file
-    // exceeds the safe Netlify body threshold, abort with a clear message so
-    // the administrator knows exactly what to fix instead of getting a silent
-    // mid-upload failure or a generic 413 from the CDN.
-    // ─────────────────────────────────────────────────────────────────────────
-    const NETLIFY_SAFE_BYTES = 6 * 1024 * 1024;
-    const oversizedFiles = files.filter((f) => f.size > NETLIFY_SAFE_BYTES);
-    if (oversizedFiles.length > 0 && typeof window !== "undefined" && !window.location.hostname.includes("localhost")) {
+    } catch (error) {
       setUploading(false);
-      setError(
-        `Direct Supabase upload is not configured. The following file(s) exceed the ${(NETLIFY_SAFE_BYTES / 1024 / 1024).toFixed(0)} MB serverless limit and cannot be uploaded via the legacy path: ${oversizedFiles.map((f) => f.name).join(", ")}. ` +
-          "Configure NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET in your environment.",
-      );
+      setError((error as Error).message || "Failed to prepare upload.");
       return;
     }
 
-    const formData = new FormData();
-    for (const [key, value] of Object.entries(sharedConfig)) {
-      formData.append(key, value);
-    }
-    files.forEach((file) => formData.append("files", file));
-    const xhr = new XMLHttpRequest();
-    xhrRef.current = xhr;
-    xhr.upload.onprogress = (evt) => {
-      if (!evt.lengthComputable) return;
-      setProgress(Math.min(100, Math.round((evt.loaded / evt.total) * 100)));
-    };
-    xhr.onload = () => {
+    const { batchId, uploads } = presignResult;
+    try {
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        const uploadSpec = uploads[i];
+        const baseProgress = Math.round((i / files.length) * 85);
+
+        await uploadFileDirect(file, uploadSpec.signedUrl, "PUT", { "Content-Type": file.type || "application/octet-stream" }, (pct) => {
+          setProgress(baseProgress + Math.round((pct / 100) * (85 / files.length)));
+        });
+      }
+
+      setProgress(90);
+
+      const finalizeResponse = await fetch("/api/admin/content/upload/finalize", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-csrf-token": csrfToken,
+        },
+        body: JSON.stringify({
+          ...sharedConfig,
+          batchId,
+          uploads: files.map((file, i) => ({
+            uploadId: uploads[i].uploadId,
+            originalFilename: file.name,
+            mimeType: file.type || "application/octet-stream",
+            sizeBytes: file.size,
+            storagePath: uploads[i].storagePath,
+          })),
+        }),
+      });
+
       setUploading(false);
-      if (xhr.status < 200 || xhr.status >= 300) {
-        let message = "Upload failed.";
+      setProgress(100);
+
+      if (!finalizeResponse.ok) {
+        let message = "Upload processing failed.";
         try {
-          const parsed = JSON.parse(xhr.responseText) as { error?: string };
+          const parsed = (await finalizeResponse.json()) as { error?: string };
           message = parsed.error ?? message;
         } catch {}
         setError(message);
         return;
       }
-      try {
-        const payload = JSON.parse(xhr.responseText) as { batch: { id: string } };
-        setSuccess("Upload successful. Routing to batch review.");
-        router.push(`/admin/content/batches/${payload.batch.id}`);
-        router.refresh();
-      } catch {
-        setError("Upload response was not valid JSON. The upload endpoint may not be reachable.");
-      }
-    };
-    xhr.onerror = () => {
+
+      const payload = (await finalizeResponse.json()) as { batch: { id: string } };
+      setSuccess("Upload successful. Routing to batch review.");
+      router.push(`/admin/content/batches/${payload.batch.id}`);
+      router.refresh();
+    } catch (err) {
       setUploading(false);
-      setError("Network error while uploading.");
-    };
-    xhr.onabort = () => {
-      setUploading(false);
-      setError("Upload canceled.");
-    };
-    xhr.open("POST", "/api/admin/content/upload");
-    xhr.setRequestHeader("x-csrf-token", csrfToken);
-    xhr.send(formData);
+      setError((err as Error).message || "Upload failed.");
+    }
   }
 
   return (

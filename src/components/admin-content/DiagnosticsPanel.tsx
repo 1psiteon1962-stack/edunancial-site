@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-type ActiveUploadMode = "signed-supabase" | "anon-supabase" | "legacy-local" | "unavailable";
+type ActiveUploadMode = "signed-supabase" | "unavailable";
 
 type DiagnosticsResult = {
   supabaseUrlConfigured: boolean;
@@ -25,9 +25,7 @@ type DiagnosticsResult = {
 };
 
 const MODE_LABELS: Record<ActiveUploadMode, string> = {
-  "signed-supabase": "Signed Supabase upload (recommended)",
-  "anon-supabase": "Direct Supabase upload (anon key)",
-  "legacy-local": "Legacy local upload (development only)",
+  "signed-supabase": "Signed Supabase upload",
   unavailable: "Upload unavailable",
 };
 
@@ -83,7 +81,7 @@ export default function DiagnosticsPanel() {
           <p className={`font-bold ${ready ? "text-green-300" : "text-red-300"}`}>
             {ready
               ? "READY — Supabase signed upload and GitHub publishing are connected."
-              : "BLOCKED — Upload is not fully configured."}
+              : "BLOCKED — The only supported production upload pipeline is not fully configured."}
           </p>
           <p className="mt-1 text-slate-400">
             Active upload mode:{" "}

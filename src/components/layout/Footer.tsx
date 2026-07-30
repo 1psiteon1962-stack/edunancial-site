@@ -102,11 +102,6 @@ export default function Footer() {
               .
             </p>
           </div>
-          <div className="mt-6 flex justify-center md:justify-end">
-            <Link href="/cu" className="text-[10px] uppercase tracking-[0.35em] text-slate-600 hover:text-slate-400">
-              CU
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

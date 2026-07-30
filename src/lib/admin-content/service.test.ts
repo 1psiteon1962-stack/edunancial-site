@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { afterEach, describe, test } from "node:test";
 
-import { bulkReview, createUploadBatch, exportBatch, exportBatchToGithub, getUploadBatch, publishBatch } from "@/lib/admin-content/service";
+import { bulkReview, createUploadBatch, exportBatch, getUploadBatch, publishBatch } from "@/lib/admin-content/service";
 import { resetAdminContentStorage } from "@/lib/admin-content/storage";
 
 afterEach(() => {
@@ -163,7 +163,7 @@ describe("admin-content upload service", () => {
     const exportPackage = await exportBatch(batch.id, { email: "owner@example.com" });
     assert.match(exportPackage.fileName, /approved-content\.zip$/);
 
-    await assert.rejects(() => exportBatchToGithub(batch.id, { email: "owner@example.com" }), /GitHub integration requires/);
+    await assert.rejects(() => publishBatch(batch.id, { email: "owner@example.com" }), /GitHub integration requires/);
   });
 
   test("full Edunancial production content workflow: upload ZIP → validate → extract → review → assign → approve → publish", async () => {

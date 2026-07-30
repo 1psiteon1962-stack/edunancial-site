@@ -1,11 +1,9 @@
-import { requireContentLoaderApiSession } from "@/lib/content-loader/auth";
-import { listContentLoaderDestinations } from "@/lib/content-loader/service";
-
-export async function GET(request: Request) {
-  const auth = await requireContentLoaderApiSession(request);
-  if (!auth.ok) {
-    return auth.response;
-  }
-  const destinations = await listContentLoaderDestinations();
-  return Response.json({ destinations });
+export async function GET() {
+  return Response.json(
+    {
+      error:
+        "The temporary content-loader publish path has been retired. Use /admin/content/upload and the admin batch publish flow instead.",
+    },
+    { status: 410 },
+  );
 }

@@ -97,6 +97,8 @@
 - `/api/admin/auth/logout`
 - `/api/admin/auth/session`
 - `/api/admin/content/upload`
+- `/api/admin/content/upload/presign`
+- `/api/admin/content/upload/finalize`
 - `/api/admin/content/batches`
 - `/api/admin/content/batches/[batchId]`
 - `/api/admin/content/batches/[batchId]/files/[fileId]`
@@ -104,7 +106,7 @@
 - `/api/admin/content/batches/[batchId]/reject`
 - `/api/admin/content/batches/[batchId]/export`
 - `/api/admin/content/batches/[batchId]/exports/[exportId]`
-- `/api/admin/content/batches/[batchId]/github`
+- `/api/admin/content/batches/[batchId]/publish`
 
 ### Tests added
 - `src/lib/admin-content/security.test.ts`

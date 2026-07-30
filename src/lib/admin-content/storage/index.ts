@@ -108,7 +108,6 @@ class LocalAdminContentStorage implements AdminContentStorage {
 
   async getSignedUploadUrl(_path: string): Promise<string | null> {
     // Local file-system storage does not support signed upload URLs.
-    // The client falls back to the legacy single-request upload endpoint.
     return null;
   }
 }
@@ -124,7 +123,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const key = resolveSupabaseKey();
     if (!url || !key) {
       throw new Error(
-        "Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and either SUPABASE_SERVICE_ROLE_KEY or NEXT_PUBLIC_SUPABASE_ANON_KEY",
+        "Supabase storage requires NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.",
       );
     }
     return { url, key };
@@ -330,8 +329,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
    * to Supabase Storage without routing its content through the Netlify
    * serverless function (which has a 6 MB request-body limit).
    *
-   * Requires SUPABASE_SERVICE_ROLE_KEY.  Returns null when only the anon key is
-   * configured so callers can fall back to direct upload using the anon key.
+   * Requires SUPABASE_SERVICE_ROLE_KEY.
    */
   async getSignedUploadUrl(path: string): Promise<string | null> {
     const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -349,7 +347,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const encodedObjectPath = objectPath.split("/").map(encodeURIComponent).join("/");
     await this.ensureBucketExists();
 
-    const response = await fetch(`${url}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
+    const response = await fetch(`${url}/storage/v1/object/upload/sign/${this.bucket}/${encodedObjectPath}`, {
       method: "POST",
       headers: {
         Authorization: "Bearer " + serviceRoleKey,
@@ -359,8 +357,6 @@ class SupabaseObjectStorage implements AdminContentStorage {
     });
 
     if (!response.ok) {
-      // Signed URL creation failed; caller falls back to direct anon-key upload
-      // or legacy API-proxied upload.  Do not throw so the upload can still proceed.
       return null;
     }
 
@@ -398,11 +394,16 @@ function resolveStorageBucketName() {
 
 /**
  * Resolve the Supabase authentication key for server-side storage operations.
- * Prefers the service-role key (bypasses RLS) and falls back to the anon key
- * so deployments that only configure NEXT_PUBLIC_SUPABASE_ANON_KEY still work.
+ * Production requires the service-role key; non-production can still use the
+ * anon key for limited local testing.
  */
 function resolveSupabaseKey() {
-  return process.env.SUPABASE_SERVICE_ROLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+  if (serviceRoleKey) return serviceRoleKey;
+  if (process.env.NODE_ENV !== "production") {
+    return process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+  }
+  return "";
 }
 
 export function getAdminContentStorage(): AdminContentStorage {
@@ -421,7 +422,7 @@ export function getAdminContentStorage(): AdminContentStorage {
   if (process.env.NODE_ENV === "production") {
     throw new Error(
       "Production admin content storage requires NEXT_PUBLIC_SUPABASE_URL, " +
-        "SUPABASE_SERVICE_ROLE_KEY (or NEXT_PUBLIC_SUPABASE_ANON_KEY), and " +
+        "SUPABASE_SERVICE_ROLE_KEY, and " +
         "EDUNANCIAL_UPLOAD_STORAGE_BUCKET (or EDUNANCIAL_UPLOAD_STORAGE_KEY).",
     );
   }

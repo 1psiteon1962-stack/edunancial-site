@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-
-import ContentUploadWorkbench from "@/components/cu/ContentUploadWorkbench";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "CU | Edunancial",
@@ -16,5 +15,5 @@ export const metadata: Metadata = {
 };
 
 export default function CuPage() {
-  return <ContentUploadWorkbench />;
+  redirect("/admin/content/upload");
 }
