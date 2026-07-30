@@ -1,31 +1,56 @@
-// SAFE SERVER-SIDE SUPABASE CLIENT (NO EXTERNAL PACKAGE REQUIRED)
-
-// This avoids build failure if @supabase/supabase-js is not installed.
-// You can swap this later for the real client once dependencies are stable.
-
 type QueryResult<T> = {
   data: T[] | null;
   error: Error | null;
 };
 
-class MockSupabaseClient {
-  from(_table: string) {
+function getSupabaseAdminConfig() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/+$/, "");
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
+  if (!url || !serviceRoleKey) {
+    throw new Error(
+      "KPI Supabase access requires NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.",
+    );
+  }
+  return { url, serviceRoleKey };
+}
+
+class SupabaseAdminClient {
+  from(table: string) {
     return {
-      select: async (): Promise<QueryResult<Record<string, unknown>>> => {
-        return {
-          data: [],
-          error: null,
-        };
-      },
-      insert: async (_payload: unknown): Promise<QueryResult<null>> => {
-        return {
-          data: null,
-          error: null,
-        };
+      select: async (columns = "*"): Promise<QueryResult<Record<string, unknown>>> => {
+        try {
+          const { url, serviceRoleKey } = getSupabaseAdminConfig();
+          const response = await fetch(
+            `${url}/rest/v1/${encodeURIComponent(table)}?select=${encodeURIComponent(columns)}`,
+            {
+              headers: {
+                apikey: serviceRoleKey,
+                Authorization: "Bearer " + serviceRoleKey,
+              },
+              cache: "no-store",
+            },
+          );
+
+          if (!response.ok) {
+            return {
+              data: null,
+              error: new Error(`Supabase KPI query failed (${response.status}).`),
+            };
+          }
+
+          return {
+            data: (await response.json()) as Record<string, unknown>[],
+            error: null,
+          };
+        } catch (error) {
+          return {
+            data: null,
+            error: error as Error,
+          };
+        }
       },
     };
   }
 }
 
-// EXPORT USED THROUGHOUT YOUR APP
-export const supabaseAdmin = new MockSupabaseClient();
+export const supabaseAdmin = new SupabaseAdminClient();

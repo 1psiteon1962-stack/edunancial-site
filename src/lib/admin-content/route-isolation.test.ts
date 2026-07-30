@@ -122,10 +122,6 @@ describe("admin content upload 404 regression", () => {
         fetchPath: "/api/admin/content/upload/finalize",
         routeFile: "src/app/api/admin/content/upload/finalize/route.ts",
       },
-      {
-        fetchPath: "/api/admin/content/upload",
-        routeFile: "src/app/api/admin/content/upload/route.ts",
-      },
     ];
 
     for (const { fetchPath, routeFile } of expectedRoutes) {
@@ -138,6 +134,72 @@ describe("admin content upload 404 regression", () => {
         `Route file must exist for fetch path "${fetchPath}": ${routeFile}`,
       );
     }
+
+    assert.doesNotMatch(
+      clientSrc,
+      /["']\/api\/admin\/content\/upload["']/,
+      "UploadClient must not reference the retired legacy multipart upload route",
+    );
+  });
+
+  test("legacy and duplicate publish routes are explicitly retired", () => {
+    const retiredRouteChecks = [
+      {
+        file: "src/app/api/admin/content/upload/route.ts",
+        message: "Legacy multipart uploads are retired",
+      },
+      {
+        file: "src/app/api/admin/content/batches/[batchId]/github/route.ts",
+        message: "Direct GitHub PR creation has been retired",
+      },
+      {
+        file: "src/app/api/content-loader/actions/route.ts",
+        message: "temporary content-loader publish path has been retired",
+      },
+      {
+        file: "src/app/api/cu/publish/route.ts",
+        message: "temporary CU publish workbench has been retired",
+      },
+    ];
+
+    for (const { file, message } of retiredRouteChecks) {
+      const src = readSourceFile(file);
+      assert.match(src, /status:\s*410/, `${file} must return HTTP 410`);
+      assert.match(src, new RegExp(message, "i"), `${file} must point callers to the canonical admin upload flow`);
+    }
+  });
+
+  test("duplicate upload and publish pages redirect to /admin/content/upload", () => {
+    const retiredPages = [
+      "src/app/admin/uploads/page.tsx",
+      "src/app/admin/videos/page.tsx",
+      "src/app/content-loader/page.tsx",
+      "src/app/(public)/cu/page.tsx",
+    ];
+
+    for (const file of retiredPages) {
+      const src = readSourceFile(file);
+      assert.match(src, /redirect\(["']\/admin\/content\/upload["']\)/, `${file} must redirect to /admin/content/upload`);
+    }
+  });
+
+  test("batch review UI keeps a single production publish action", () => {
+    const batchReviewClient = readSourceFile("src/components/admin-content/BatchReviewClient.tsx");
+    assert.match(
+      batchReviewClient,
+      /\/publish["'`]/,
+      "BatchReviewClient must retain the canonical publish endpoint",
+    );
+    assert.doesNotMatch(
+      batchReviewClient,
+      /\/github["'`]/,
+      "BatchReviewClient must not expose the retired duplicate GitHub publish path",
+    );
+  });
+
+  test("public footer does not link to the retired CU workbench", () => {
+    const footer = readSourceFile("src/components/layout/Footer.tsx");
+    assert.doesNotMatch(footer, /href=["']\/cu["']/, "Footer must not link to the retired CU workbench");
   });
 
   test("middleware does not redirect /api/admin/* requests to the login page", () => {

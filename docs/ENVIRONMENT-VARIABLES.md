@@ -7,9 +7,9 @@ This file documents environment variables referenced by the current implementati
 | Variable | Used in | Purpose |
 |---|---|---|
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | `src/app/layout.tsx` | Google Search Console verification |
-| `NEXT_PUBLIC_SUPABASE_URL` | `lib/kpi/supabaseAdmin.ts` | Supabase project URL |
-| `SUPABASE_SERVICE_ROLE_KEY` | `lib/kpi/supabaseAdmin.ts`, `src/lib/admin-content/storage/index.ts` | Server-side Supabase service key (preferred for admin storage; bypasses RLS) |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `src/lib/admin-content/storage/index.ts` | Supabase anon key — used as a fallback for admin storage when `SUPABASE_SERVICE_ROLE_KEY` is absent |
+| `NEXT_PUBLIC_SUPABASE_URL` | `lib/kpi/supabaseAdmin.ts`, `src/lib/kpi/supabaseAdmin.ts`, `src/lib/admin-content/storage/index.ts` | Supabase project URL |
+| `SUPABASE_SERVICE_ROLE_KEY` | `lib/kpi/supabaseAdmin.ts`, `src/lib/kpi/supabaseAdmin.ts`, `src/lib/admin-content/storage/index.ts` | Server-side Supabase service key required for KPI access and the production admin upload pipeline |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `src/lib/admin-content/storage/index.ts` | Optional non-production fallback for local Supabase storage tests |
 | `STRAPI_API_URL` | `src/lib/api/home.ts` | Strapi API base URL |
 | `STRAPI_API_TOKEN` | `src/lib/api/home.ts` | Strapi API token |
 | `HYGRAPH_ENDPOINT` | `lib/hygraph.ts` | Hygraph GraphQL endpoint |
@@ -37,5 +37,8 @@ This file documents environment variables referenced by the current implementati
 | `EDUNANCIAL_GITHUB_TOKEN` | `src/lib/admin-content/github.ts` | Server-only GitHub token for branch/PR creation |
 | `EDUNANCIAL_GITHUB_OWNER` | `src/lib/admin-content/github.ts` | GitHub owner used by the export integration |
 | `EDUNANCIAL_GITHUB_REPO` | `src/lib/admin-content/github.ts` | GitHub repository used by the export integration |
-| `EDUNANCIAL_GITHUB_BASE_BRANCH` | `src/lib/admin-content/github.ts`, `src/lib/cu/github.ts` | Base branch for content-upload publishing (defaults to `main`) |
-| `EDUNANCIAL_CU_PASSWORD_HASH` | `src/lib/cu/github.ts` | Optional dedicated scrypt password hash for the temporary `/cu` workbench |
+| `EDUNANCIAL_GITHUB_BASE_BRANCH` | `src/lib/admin-content/github.ts`, `src/lib/cu/github.ts`, `src/lib/content-loader/github.ts` | Base branch for content publishing (defaults to `main`) |
+
+## Retired legacy publishing portals
+
+The `/cu` and `/content-loader` publishing paths are retired in favor of `/admin/content/upload` plus the batch review publish action. Their old environment variables should generally remain unset.

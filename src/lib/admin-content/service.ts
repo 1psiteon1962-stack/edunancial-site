@@ -596,20 +596,6 @@ export async function exportBatch(batchId: string, actor: ActorContext) {
   return exportPackage;
 }
 
-export async function exportBatchToGithub(batchId: string, actor: ActorContext) {
-  const storage = getAdminContentStorage();
-  const batch = await storage.getBatch(batchId);
-  if (!batch) throw new Error("Batch not found");
-  const latestExport = batch.exports[0] ?? (await exportBatch(batchId, actor));
-  const github = await createGithubPullRequest(batch, latestExport);
-  latestExport.github = github;
-  batch.exports[0] = latestExport;
-  await appendBatchAuditEvent(batch, createAuditEvent({ action: "github-branch-created", result: "success", actor: actor.email, batchId, metadata: { branch: github.branch } }));
-  await appendBatchAuditEvent(batch, createAuditEvent({ action: "github-pr-opened", result: "success", actor: actor.email, batchId, metadata: { url: github.pullRequestUrl } }));
-  await storage.updateBatch(batch);
-  return github;
-}
-
 export async function getExportArchive(batchId: string, exportId: string) {
   const batch = await getAdminContentStorage().getBatch(batchId);
   const exportPackage = batch?.exports.find((entry) => entry.id === exportId);

@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import { afterEach, beforeEach, describe, mock, test } from "node:test";
 
 import { getAdminContentStorage, resetAdminContentStorage } from "@/lib/admin-content/storage";
@@ -108,7 +110,7 @@ describe("SupabaseObjectStorage ensureBucketExists", () => {
     );
   });
 
-  test("skips bucket management and proceeds when only anon key is available", async () => {
+  test("skips bucket management and proceeds when only anon key is available in non-production", async () => {
     // Simulate the production failure scenario: no SUPABASE_SERVICE_ROLE_KEY,
     // only the anon key.  The server must NOT attempt bucket creation (which
     // would fail with an RLS 403) and must proceed to the actual storage call.
@@ -186,7 +188,7 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
         return makeResponse(200, { name: FAKE_BUCKET });
       }
       // Signed upload URL creation
-      if (url.includes("/storage/v1/object/sign/upload/")) {
+      if (url.includes("/storage/v1/object/upload/sign/")) {
         return makeResponse(200, signedURL === undefined ? {} : { signedURL });
       }
       return makeResponse(200, "{}");
@@ -271,16 +273,23 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
   });
 
   test("returns null when service role key is absent", async () => {
+    const originalNodeEnv = process.env.NODE_ENV;
     delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    process.env.NODE_ENV = "production";
     resetAdminContentStorage();
-    // Re-set with only anon key so storage initialises as Supabase
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "anon-key";
 
-    const storage = getAdminContentStorage();
-    const signedUrl = await storage.getSignedUploadUrl("uploads/courses/batch-1/upload-1-file.md");
-    assert.equal(signedUrl, null);
-
-    delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    try {
+      assert.throws(
+        () => getAdminContentStorage(),
+        /Production admin content storage requires NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET/,
+      );
+    } finally {
+      if (originalNodeEnv === undefined) {
+        delete process.env.NODE_ENV;
+      } else {
+        process.env.NODE_ENV = originalNodeEnv;
+      }
+    }
   });
 
   test("returns null when Supabase returns a non-OK response", async () => {
@@ -289,7 +298,7 @@ describe("SupabaseObjectStorage getSignedUploadUrl", () => {
       if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
         return makeResponse(200, { name: FAKE_BUCKET });
       }
-      if (url.includes("/storage/v1/object/sign/upload/")) {
+      if (url.includes("/storage/v1/object/upload/sign/")) {
         return makeResponse(403, "Forbidden");
       }
       return makeResponse(200, "{}");
@@ -392,80 +401,14 @@ describe("createUploadBatchFromStoredFiles", () => {
   });
 });
 
-// ---------------------------------------------------------------------------
-// Regression tests: directUpload URL path alignment
-//
-// The presign route constructs a directUpload URL for anon-key uploads that
-// MUST include DEFAULT_STORAGE_PREFIX so that the path the browser writes to
-// matches the path the finalize route reads via storage.readBinary().
-//
-// storage.readBinary(storagePath) → request(objectPath(storagePath))
-//                                 → fetch({supabase}/object/{bucket}/PREFIX/storagePath)
-//
-// directUpload.url MUST be {supabase}/storage/v1/object/{bucket}/PREFIX/storagePath
-// ---------------------------------------------------------------------------
-describe("presign directUpload URL path alignment", () => {
-  let originalFetch: typeof globalThis.fetch;
-
-  beforeEach(() => {
-    originalFetch = globalThis.fetch;
-    process.env.NEXT_PUBLIC_SUPABASE_URL = FAKE_URL;
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "anon-key";
-    process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = FAKE_BUCKET;
-    // No service-role key → getSignedUploadUrl returns null, directUpload is used.
-    delete process.env.SUPABASE_SERVICE_ROLE_KEY;
-    resetAdminContentStorage();
-  });
-
-  afterEach(() => {
-    globalThis.fetch = originalFetch;
-    delete process.env.NEXT_PUBLIC_SUPABASE_URL;
-    delete process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-    delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
-    resetAdminContentStorage();
-  });
-
-  test("readBinary uses DEFAULT_STORAGE_PREFIX in its Supabase URL", async () => {
-    // Verify that SupabaseObjectStorage.readBinary() prefixes the object path
-    // with DEFAULT_STORAGE_PREFIX.  This is the path the presign directUpload
-    // URL must match.
-    const capturedUrls: string[] = [];
-    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
-      capturedUrls.push(input.toString());
-      return makeResponse(404, "");
-    }) as typeof globalThis.fetch;
-
-    const storage = getAdminContentStorage();
-    const storagePath = "uploads/courses/batch-1/upload-1-file.zip";
-    await storage.readBinary(storagePath);
-
-    // The fetched URL must contain DEFAULT_STORAGE_PREFIX/storagePath
-    const readUrl = capturedUrls.find((u) => u.includes("/storage/v1/object/"));
-    assert.ok(readUrl, "should have made a storage fetch");
-    assert.ok(
-      readUrl!.includes(`/storage/v1/object/${FAKE_BUCKET}/admin-content/${storagePath}`),
-      `readBinary URL should include prefix 'admin-content/${storagePath}', got: ${readUrl}`,
-    );
-  });
-
-  test("presign route source references DEFAULT_STORAGE_PREFIX in directUpload URL construction", () => {
-    // Static code assertion: the presign route MUST include DEFAULT_STORAGE_PREFIX
-    // when constructing the directUpload URL so that browser writes go to the
-    // same Supabase path that finalize reads back.
-    const { readFileSync } = require("node:fs");
-    const path = require("node:path");
+describe("presign signed-upload enforcement", () => {
+  test("presign route requires signed upload URLs and no longer returns directUpload fallback data", () => {
     const routeSrc = readFileSync(
       path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
       "utf8",
-    ) as string;
+    );
 
-    assert.ok(
-      routeSrc.includes("DEFAULT_STORAGE_PREFIX"),
-      "presign/route.ts must import and use DEFAULT_STORAGE_PREFIX in directUpload URL",
-    );
-    assert.ok(
-      routeSrc.includes("objectStoragePath"),
-      "presign/route.ts must use objectStoragePath (prefix + storagePath) for directUpload URL",
-    );
+    assert.match(routeSrc, /Signed Supabase upload URLs are unavailable/, "presign route must fail clearly when signed URLs are unavailable");
+    assert.doesNotMatch(routeSrc, /\bdirectUpload\b/, "presign route must not return directUpload fallback data");
   });
-})
+});

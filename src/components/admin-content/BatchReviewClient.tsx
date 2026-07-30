@@ -85,17 +85,17 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
     await refresh();
   }
 
-  async function exportBatch(mode: "export" | "github") {
-    const response = await fetch(`/api/admin/content/batches/${batchId}/${mode}`, {
+  async function exportBatch() {
+    const response = await fetch(`/api/admin/content/batches/${batchId}/export`, {
       method: "POST",
       headers: { "x-csrf-token": csrfToken },
     });
     const payload = await response.json();
     if (!response.ok) {
-      setError(payload.error ?? `${mode} failed.`);
+      setError(payload.error ?? "export failed.");
       return;
     }
-    if (mode === "export" && payload.downloadUrl) {
+    if (payload.downloadUrl) {
       window.open(payload.downloadUrl, "_blank", "noopener,noreferrer");
     }
     await refresh();
@@ -136,8 +136,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>
-            <button onClick={() => exportBatch("export")} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-500">Export ZIP</button>
-            <button onClick={() => exportBatch("github")} className="rounded-xl border border-blue-400/40 px-5 py-3 font-semibold text-blue-200 hover:border-blue-300">Create GitHub PR</button>
+            <button onClick={exportBatch} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-500">Export ZIP</button>
           </div>
         </div>
 

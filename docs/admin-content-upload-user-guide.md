@@ -26,7 +26,7 @@ The upload system stores files in a Supabase Storage bucket named **`admin-conte
 3. Set it as **private** (not public)
 4. Add an RLS INSERT policy allowing service-role uploads, or configure your service role key
 
-Without one of these, the presign endpoint returns a descriptive `400` error: `"Bucket 'admin-content' does not exist"` rather than silently failing.
+Without `SUPABASE_SERVICE_ROLE_KEY`, the presign endpoint fails explicitly instead of falling back to any alternate upload path.
 
 ### 2. Environment Variables
 
@@ -34,9 +34,8 @@ Ensure these are set in Netlify (Site settings → Environment variables):
 
 | Variable | Required | Purpose |
 |---|---|---|
-| `SUPABASE_SERVICE_ROLE_KEY` | Recommended | Auto-creates bucket; enables signed upload URLs for files > 5 MB |
+| `SUPABASE_SERVICE_ROLE_KEY` | Required | Auto-creates bucket; enables the only supported signed upload pipeline |
 | `NEXT_PUBLIC_SUPABASE_URL` | Required | Supabase project URL (also used by CSP header for XHR access) |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Required | Browser-side Supabase client |
 | `EDUNANCIAL_GITHUB_TOKEN` | Required for publish | GitHub personal access token for opening course PRs |
 | `EDUNANCIAL_GITHUB_OWNER` | Required for publish | GitHub repo owner (e.g. `1psiteon1962-stack`) |
 | `EDUNANCIAL_GITHUB_REPO` | Required for publish | GitHub repo name (e.g. `edunancial-site`) |
@@ -72,6 +71,7 @@ Enter the owner email and password that match the secure server-side admin envir
 
 ## 4. Upload the ZIP (once)
 Go to `/admin/content/upload`.
+Legacy upload pages (`/admin/uploads` and `/admin/videos`) now redirect here automatically.
 Drag the ZIP into the drop zone or use **Choose files**.
 Add a batch name, source, and optional notes.
 Select the content destination (**Courses**), course color track (Red / White / Blue), level (Level 1–5), language, and membership tier.
@@ -129,6 +129,8 @@ The portal:
 - Commits only approved files plus the manifest
 - Opens a GitHub pull request
 
+This is the only supported production publishing path. The temporary `/content-loader`, `/cu`, and duplicate GitHub-only publish actions have been retired.
+
 **Nothing is visible on the live website yet.**
 
 ## 11. Review the GitHub PR and Netlify deploy preview
@@ -176,4 +178,3 @@ After merging and deploying, verify on the live production website:
 - [ ] Navigation links function correctly
 - [ ] Course displays correctly on mobile
 - [ ] Course displays correctly on desktop
-
