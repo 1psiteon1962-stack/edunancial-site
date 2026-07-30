@@ -1,4 +1,4 @@
-import { createHash, createHmac, randomBytes, timingSafeEqual } from "node:crypto";
+import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
@@ -30,7 +30,9 @@ function getSessionSecret() {
   if (configured.length >= 32) {
     return configured;
   }
-  return createHash("sha256").update("edunancial-content-loader-temporary-session").digest("base64url");
+  throw new Error(
+    "EDUNANCIAL_CONTENT_LOADER_SESSION_SECRET (or EDUNANCIAL_ADMIN_SESSION_SECRET) must be set to at least 32 characters.",
+  );
 }
 
 function sign(value: string) {
@@ -71,7 +73,12 @@ export async function getContentLoaderSession() {
 export async function createContentLoaderSession() {
   const cookieStore = await cookies();
   const csrfToken = randomBytes(24).toString("base64url");
-  const email = normalizeValue(process.env.EDUNANCIAL_CONTENT_LOADER_USERNAME) || "content-loader-admin";
+  const email =
+    normalizeValue(process.env.EDUNANCIAL_CONTENT_LOADER_USERNAME) ||
+    normalizeValue(process.env.EDUNANCIAL_ADMIN_EMAIL);
+  if (!email) {
+    throw new Error("EDUNANCIAL_CONTENT_LOADER_USERNAME (or EDUNANCIAL_ADMIN_EMAIL) must be configured.");
+  }
   const maxAge = DEFAULT_SESSION_MAX_AGE_SECONDS;
   const session: ContentLoaderSession = {
     email,

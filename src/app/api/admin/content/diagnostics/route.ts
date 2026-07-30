@@ -18,7 +18,7 @@ export const maxDuration = 26;
 // multipart path in production.
 const NETLIFY_BODY_LIMIT_BYTES = 6 * 1024 * 1024;
 
-type ActiveUploadMode = "signed-supabase" | "anon-supabase" | "legacy-local" | "unavailable";
+type ActiveUploadMode = "signed-supabase" | "unavailable";
 
 export type DiagnosticsResult = {
   supabaseUrlConfigured: boolean;
@@ -124,7 +124,6 @@ export async function GET(request: NextRequest) {
   if (!auth.ok) return auth.response;
 
   const supabaseUrl = normalizeUrl(process.env.NEXT_PUBLIC_SUPABASE_URL);
-  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || null;
   const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim() || null;
   const bucketRaw =
     process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET?.trim() ||
@@ -133,10 +132,8 @@ export async function GET(request: NextRequest) {
   const githubToken = process.env.EDUNANCIAL_GITHUB_TOKEN?.trim() || null;
   const githubOwner = process.env.EDUNANCIAL_GITHUB_OWNER?.trim() || null;
   const githubRepo = process.env.EDUNANCIAL_GITHUB_REPO?.trim() || null;
-  const isProduction = process.env.NODE_ENV === "production";
-
   const supabaseUrlConfigured = Boolean(supabaseUrl);
-  const anonKeyConfigured = Boolean(anonKey);
+  const anonKeyConfigured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim());
   const serviceRoleConfigured = Boolean(serviceRoleKey);
   const storageBucketConfigured = Boolean(bucketRaw);
   const githubTokenConfigured = Boolean(githubToken);
@@ -152,10 +149,10 @@ export async function GET(request: NextRequest) {
   let githubRepositoryReachable = false;
 
   // Probe Supabase storage when URL and at least one key are present.
-  if (supabaseUrl && bucketRaw && (serviceRoleKey ?? anonKey)) {
-    bucketReachable = await checkBucketReachable(supabaseUrl, bucketRaw, serviceRoleKey, anonKey);
+  if (supabaseUrl && bucketRaw && serviceRoleKey) {
+    bucketReachable = await checkBucketReachable(supabaseUrl, bucketRaw, serviceRoleKey, null);
     if (bucketReachable) {
-      const exists = await checkBucketExists(supabaseUrl, bucketRaw, serviceRoleKey, anonKey);
+      const exists = await checkBucketExists(supabaseUrl, bucketRaw, serviceRoleKey, null);
       signedUploadAvailable = serviceRoleConfigured && exists;
     }
   }
@@ -169,10 +166,6 @@ export async function GET(request: NextRequest) {
   let activeUploadMode: ActiveUploadMode;
   if (signedUploadAvailable) {
     activeUploadMode = "signed-supabase";
-  } else if (supabaseUrl && anonKey && bucketRaw) {
-    activeUploadMode = "anon-supabase";
-  } else if (!isProduction) {
-    activeUploadMode = "legacy-local";
   } else {
     activeUploadMode = "unavailable";
   }
@@ -183,13 +176,9 @@ export async function GET(request: NextRequest) {
   if (!supabaseUrlConfigured) {
     problems.push("NEXT_PUBLIC_SUPABASE_URL is not set — Supabase storage unavailable.");
   }
-  if (!anonKeyConfigured) {
-    problems.push("NEXT_PUBLIC_SUPABASE_ANON_KEY is not set — Supabase storage unavailable.");
-  }
   if (!serviceRoleConfigured) {
     problems.push(
-      "SUPABASE_SERVICE_ROLE_KEY is not set — signed upload URLs unavailable; " +
-        "anon-key direct upload will be used if the bucket allows public writes.",
+      "SUPABASE_SERVICE_ROLE_KEY is not set — the production signed-upload pipeline is unavailable.",
     );
   }
   if (!storageBucketConfigured) {
@@ -197,16 +186,13 @@ export async function GET(request: NextRequest) {
       "EDUNANCIAL_UPLOAD_STORAGE_BUCKET is not set — use 'admin-content' as the recommended bucket name.",
     );
   }
-  if (supabaseUrl && bucketRaw && (serviceRoleKey ?? anonKey) && !bucketReachable) {
+  if (supabaseUrl && bucketRaw && serviceRoleKey && !bucketReachable) {
     problems.push(
       `Supabase storage bucket "${bucketRaw}" is not reachable — check network connectivity and RLS policies.`,
     );
   }
-  if (supabaseUrl && bucketRaw && (serviceRoleKey ?? anonKey) && bucketReachable && !signedUploadAvailable && !anonKeyConfigured) {
-    problems.push(
-      `Bucket "${bucketRaw}" exists but signed upload requires SUPABASE_SERVICE_ROLE_KEY, ` +
-        "and anon-key upload requires NEXT_PUBLIC_SUPABASE_ANON_KEY.",
-    );
+  if (supabaseUrl && bucketRaw && serviceRoleKey && bucketReachable && !signedUploadAvailable) {
+    problems.push(`Bucket "${bucketRaw}" exists but signed upload URL creation is still unavailable.`);
   }
   if (!githubTokenConfigured) {
     problems.push("EDUNANCIAL_GITHUB_TOKEN is not set — GitHub PR publication unavailable.");
@@ -222,15 +208,14 @@ export async function GET(request: NextRequest) {
       `GitHub repository ${githubOwner}/${githubRepo} is not reachable — verify EDUNANCIAL_GITHUB_TOKEN has 'contents:write' and 'pull-requests:write' permissions.`,
     );
   }
-  if (isProduction && activeUploadMode === "unavailable") {
+  if (activeUploadMode === "unavailable") {
     problems.push(
-      "Production upload is unavailable — configure NEXT_PUBLIC_SUPABASE_URL, " +
-        "NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET.",
+      "Production upload is unavailable — configure NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET.",
     );
   }
 
   const productionReady =
-    (activeUploadMode === "signed-supabase" || activeUploadMode === "anon-supabase") &&
+    activeUploadMode === "signed-supabase" &&
     githubTokenConfigured &&
     githubOwnerConfigured &&
     githubRepoConfigured &&

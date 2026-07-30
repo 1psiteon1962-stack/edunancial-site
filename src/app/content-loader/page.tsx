@@ -1,4 +1,4 @@
-import ContentLoaderPortal from "@/components/content-loader/ContentLoaderPortal";
+import { redirect } from "next/navigation";
 
 export const metadata = {
   title: "Content Loader | Edunancial",
@@ -9,5 +9,5 @@ export const metadata = {
 };
 
 export default function ContentLoaderPage() {
-  return <ContentLoaderPortal />;
+  redirect("/admin/content/upload");
 }

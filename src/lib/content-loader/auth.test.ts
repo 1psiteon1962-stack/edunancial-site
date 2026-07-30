@@ -8,13 +8,15 @@ import {
   requireContentLoaderApiSession,
 } from "@/lib/content-loader/auth";
 
-import { createHash, createHmac } from "node:crypto";
+import { createHmac } from "node:crypto";
 
 function createSignedSession(payload: { email: string; csrfToken: string; expiresAt: number }) {
   const configuredSecret =
     process.env.EDUNANCIAL_CONTENT_LOADER_SESSION_SECRET?.trim() ||
-    process.env.EDUNANCIAL_ADMIN_SESSION_SECRET?.trim() ||
-    createHash("sha256").update("edunancial-content-loader-temporary-session").digest("base64url");
+    process.env.EDUNANCIAL_ADMIN_SESSION_SECRET?.trim();
+  if (!configuredSecret) {
+    throw new Error("Test content-loader session secret must be configured.");
+  }
   const body = Buffer.from(JSON.stringify(payload)).toString("base64url");
   const signature = createHmac("sha256", configuredSecret).update(body).digest("base64url");
   return `${body}.${signature}`;
@@ -32,6 +34,7 @@ describe("content-loader auth", () => {
   });
 
   test("blocks unauthorized and invalid csrf state-changing access", async () => {
+    process.env.EDUNANCIAL_CONTENT_LOADER_SESSION_SECRET = "12345678901234567890123456789012";
     const unauthorized = await requireContentLoaderApiSession(new Request("https://example.com/api/content-loader/actions"), true);
     assert.equal(unauthorized.ok, false);
     if (!unauthorized.ok) assert.equal(unauthorized.response.status, 401);
