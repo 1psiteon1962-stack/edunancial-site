@@ -16,6 +16,7 @@ const METRICS = [
 const QUICK_LINKS = [
   { title: "Customer Management", href: "/admin/customers", icon: "👥" },
   { title: "Membership Management", href: "/admin/memberships", icon: "🏆" },
+  { title: "Curriculum Manager", href: "/admin/curriculum", icon: "📖" },
   { title: "Course Management", href: "/admin/courses", icon: "📚" },
   { title: "Course Import", href: "/admin/courses/import", icon: "⬆️" },
   { title: "Media Library", href: "/admin/media", icon: "🗂️" },
