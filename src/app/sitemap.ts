@@ -80,8 +80,10 @@ const PATHS = [
   ...APAC_LOCALES.map((locale) => `/asia-pacific/${locale}`),
 ] as const;
 
+import { getCurriculumSitemapEntries } from "@/lib/curriculum/reader";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return PATHS.map((path) => ({
+  const staticEntries = PATHS.map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: new Date(),
     alternates: {
@@ -92,4 +94,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ),
     },
   }));
+
+  // Curriculum entries are auto-generated from the registry — no code change needed when new lessons are added
+  const curriculumEntries = getCurriculumSitemapEntries(SITE_URL);
+
+  return [...staticEntries, ...curriculumEntries];
 }

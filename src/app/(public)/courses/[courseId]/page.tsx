@@ -58,9 +58,9 @@ export default async function CourseDetailPage({ params }: Props) {
             <h1 className="text-4xl font-black md:text-5xl leading-tight">{course.title}</h1>
             <p className="mt-4 text-xl text-slate-300">{course.subtitle}</p>
 
-            {/* Stats */}
+            {/* Stats — only show real data */}
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-300">
-              <span>📚 {courseLessons.length} lessons</span>
+              <span>📚 {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}</span>
             </div>
 
             {/* Tags */}
