@@ -1,7 +1,26 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-07-11T00:00:00.000Z",
+  "_generated": "2026-07-30T00:00:00.000Z",
   "_note": "Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.",
-  "tracks": {}
+  "tracks": {
+    "RED": {
+      "levels": {
+        "1": {
+          "assets": {
+            "RED-L1-001": { "id": "RED-L1-001", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 1, "title": "Introduction to Real Estate Investing", "path": "content/curriculum/RED/L1/RED-L1-001.md" },
+            "RED-L1-002": { "id": "RED-L1-002", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 2, "title": "Rental Properties: Cash Flow Analysis", "path": "content/curriculum/RED/L1/RED-L1-002.md" },
+            "RED-L1-003": { "id": "RED-L1-003", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 3, "title": "Understanding Real Estate Markets", "path": "content/curriculum/RED/L1/RED-L1-003.md" },
+            "RED-L1-004": { "id": "RED-L1-004", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 4, "title": "Financing Your First Investment Property", "path": "content/curriculum/RED/L1/RED-L1-004.md" },
+            "RED-L1-005": { "id": "RED-L1-005", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 5, "title": "Finding and Evaluating Investment Properties", "path": "content/curriculum/RED/L1/RED-L1-005.md" },
+            "RED-L1-006": { "id": "RED-L1-006", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 6, "title": "Tax Liens: Government-Backed Returns", "path": "content/curriculum/RED/L1/RED-L1-006.md" },
+            "RED-L1-007": { "id": "RED-L1-007", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 7, "title": "Tax Deeds: Acquiring Property at Auction", "path": "content/curriculum/RED/L1/RED-L1-007.md" },
+            "RED-L1-008": { "id": "RED-L1-008", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 8, "title": "Creative Financing Strategies", "path": "content/curriculum/RED/L1/RED-L1-008.md" },
+            "RED-L1-009": { "id": "RED-L1-009", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 9, "title": "Property Management Fundamentals", "path": "content/curriculum/RED/L1/RED-L1-009.md" },
+            "RED-L1-010": { "id": "RED-L1-010", "type": "lesson", "track": "RED", "trackName": "Real Estate", "level": 1, "lessonNumber": 10, "title": "Building Your Real Estate Portfolio", "path": "content/curriculum/RED/L1/RED-L1-010.md" }
+          }
+        }
+      }
+    }
+  }
 }
