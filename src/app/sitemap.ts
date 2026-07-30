@@ -55,6 +55,8 @@ const PATHS = [
   "",
   "/about",
   "/courses",
+  "/courses/red-real-estate",
+  "/courses/red-real-estate/lessons/red-01",
   "/membership",
   "/levels",
   "/sponsor",
