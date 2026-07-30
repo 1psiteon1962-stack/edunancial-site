@@ -36,6 +36,11 @@ export interface AuthUser {
   assessmentCompleted: boolean;
   overallScore: number | null;
   betaAccess?: BetaAccessSummary | null;
+  /**
+   * Set when the browser also holds a valid admin session cookie.
+   * owner / admin / editor / instructor roles bypass all paywalls.
+   */
+  adminRole?: string | null;
 }
 
 interface StoredUser extends AuthUser {
@@ -54,6 +59,8 @@ interface AuthContextValue {
   logout: () => void;
   updateProfile: (data: Partial<AuthUser>) => void;
   passwordErrors: (password: string) => string[];
+  /** True when the current browser has an admin session that bypasses paywalls. */
+  hasAdminBypass: boolean;
 }
 
 export interface RegisterData {
@@ -173,6 +180,7 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [loading, setLoading] = useState(true);
+  const [hasAdminBypass, setHasAdminBypass] = useState(false);
 
   useEffect(() => {
     try {
@@ -189,6 +197,22 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     } finally {
       setLoading(false);
     }
+
+    // Check if a valid admin session cookie exists so the member portal
+    // can bypass paywall restrictions for owner/admin/editor/instructor.
+    fetch("/api/admin/auth/admin-status")
+      .then((res) => res.json() as Promise<{ bypassPaywall?: boolean; role?: string | null }>)
+      .then((data) => {
+        if (data.bypassPaywall) {
+          setHasAdminBypass(true);
+          setUser((prev) =>
+            prev ? { ...prev, adminRole: data.role ?? null } : prev,
+          );
+        }
+      })
+      .catch(() => {
+        // Non-critical; silently ignore network errors.
+      });
   }, []);
 
   const login = useCallback(
@@ -298,7 +322,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <AuthContext.Provider
-      value={{ user, loading, login, register, logout, updateProfile, passwordErrors: validatePassword }}
+      value={{ user, loading, login, register, logout, updateProfile, passwordErrors: validatePassword, hasAdminBypass }}
     >
       {children}
     </AuthContext.Provider>

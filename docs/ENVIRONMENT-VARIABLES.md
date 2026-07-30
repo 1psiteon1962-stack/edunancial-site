@@ -25,13 +25,15 @@ This file documents environment variables referenced by the current implementati
 - Keep secrets and service-role keys server-only.
 - Production should not rely on fallback values for critical integrations.
 
-## Secure admin content upload portal
+## Secure admin content upload portal — Owner & RBAC
 
 | Variable | Used in | Purpose |
 |---|---|---|
-| `EDUNANCIAL_ADMIN_EMAIL` | `src/lib/admin-content/auth.ts` | Owner-only admin login identity |
-| `EDUNANCIAL_ADMIN_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Server-side scrypt password hash |
-| `EDUNANCIAL_ADMIN_SESSION_SECRET` | `src/lib/admin-content/auth.ts` | HMAC signing key for secure admin sessions |
+| `EDUNANCIAL_OWNER_EMAIL` | `src/lib/admin-content/auth.ts` | Owner (super administrator) login email. Required for `/executive/login`. |
+| `EDUNANCIAL_OWNER_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Owner scrypt password hash. Generate with `node scripts/generate-owner-credentials.mjs`. |
+| `EDUNANCIAL_ADMIN_EMAIL` | `src/lib/admin-content/auth.ts` | Administrator login email. Required for `/admin/login`. |
+| `EDUNANCIAL_ADMIN_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Administrator scrypt password hash. |
+| `EDUNANCIAL_ADMIN_SESSION_SECRET` | `src/lib/admin-content/auth.ts` | 32+ character server-only secret for HMAC signing of admin sessions |
 | `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` | `src/lib/admin-content/storage/index.ts` | Preferred Supabase storage bucket for admin uploads and exports |
 | `EDUNANCIAL_UPLOAD_STORAGE_KEY` | `src/lib/admin-content/storage/index.ts` | Legacy alias for `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` |
 | `EDUNANCIAL_GITHUB_TOKEN` | `src/lib/admin-content/github.ts` | Server-only GitHub token for branch/PR creation |
@@ -39,3 +41,5 @@ This file documents environment variables referenced by the current implementati
 | `EDUNANCIAL_GITHUB_REPO` | `src/lib/admin-content/github.ts` | GitHub repository used by the export integration |
 | `EDUNANCIAL_GITHUB_BASE_BRANCH` | `src/lib/admin-content/github.ts`, `src/lib/cu/github.ts` | Base branch for content-upload publishing (defaults to `main`) |
 | `EDUNANCIAL_CU_PASSWORD_HASH` | `src/lib/cu/github.ts` | Optional dedicated scrypt password hash for the temporary `/cu` workbench |
+
+See [docs/OWNER-SETUP.md](./OWNER-SETUP.md) for the complete Owner account initialization guide.

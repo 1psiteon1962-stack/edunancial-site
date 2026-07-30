@@ -226,7 +226,7 @@ export interface BatchSummary {
   conflicts: number;
 }
 
-export type AdminRole = "owner" | "admin";
+export type AdminRole = "owner" | "admin" | "editor" | "instructor" | "member" | "guest";
 
 export interface AdminSession {
   email: string;
