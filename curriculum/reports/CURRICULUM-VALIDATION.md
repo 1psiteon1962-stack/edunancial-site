@@ -1,12 +1,18 @@
 # Curriculum Validation Report
 
-**Generated:** 2026-07-11T04:10:09.788Z
-**Total Assets:** 1
-**Passed:** 1
+**Generated:** 2026-07-30T18:02:09.984Z
+**Total Assets:** 3
+**Passed:** 3
 **Failed:** 0
 
 ## Results
 
-### RED-L1-001 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-001.md`
+### RED-L1-MANIFEST — ✅ PASS
+Path: `curriculum/manifests/RED-L1-MANIFEST.md`
+
+### WHITE-L1-MANIFEST — ✅ PASS
+Path: `curriculum/manifests/WHITE-L1-MANIFEST.md`
+
+### BLUE-L1-MANIFEST — ✅ PASS
+Path: `curriculum/manifests/BLUE-L1-MANIFEST.md`
 

@@ -1,7 +1,104 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-07-11T00:00:00.000Z",
+  "_generated": "2026-07-30T17:58:10.144Z",
   "_note": "Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.",
-  "tracks": {}
+  "tracks": {
+    "RED": {
+      "code": "RED",
+      "name": "Real Estate",
+      "levels": {
+        "1": {
+          "assets": {
+            "RED-L1-MANIFEST": {
+              "id": "RED-L1-MANIFEST",
+              "type": "manifest",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 1,
+              "title": "RED Level 1 Manifest",
+              "version": "1.0",
+              "author": "Curriculum Team",
+              "date": "2026-07-30",
+              "path": "curriculum/manifests/RED-L1-MANIFEST.md",
+              "checksum": "sha256:b5cfdf27393f695e065067ae22150cdeb8b73250484a102e270866550b83e086",
+              "status": "active",
+              "ingestionId": "b9eadd94-4800-45a6-ab45-82abaafe71c4",
+              "importedAt": "2026-07-30T17:58:05.998Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "regionalStatus": "GLOBAL CORE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WHITE": {
+      "code": "WHITE",
+      "name": "Paper Assets",
+      "levels": {
+        "1": {
+          "assets": {
+            "WHITE-L1-MANIFEST": {
+              "id": "WHITE-L1-MANIFEST",
+              "type": "manifest",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "title": "WHITE Level 1 Manifest",
+              "version": "1.0",
+              "author": "Curriculum Team",
+              "date": "2026-07-30",
+              "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+              "checksum": "sha256:e1db98878809a357e23efc222013c4ba3cafdc5e14c228bb50578a881c452a30",
+              "status": "active",
+              "ingestionId": "cb2d923a-55ea-46ed-ade0-5e7cf3456b2a",
+              "importedAt": "2026-07-30T17:58:09.973Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "regionalStatus": "GLOBAL CORE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BLUE": {
+      "code": "BLUE",
+      "name": "Business",
+      "levels": {
+        "1": {
+          "assets": {
+            "BLUE-L1-MANIFEST": {
+              "id": "BLUE-L1-MANIFEST",
+              "type": "manifest",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "title": "BLUE Level 1 Manifest",
+              "version": "1.0",
+              "author": "Curriculum Team",
+              "date": "2026-07-30",
+              "path": "curriculum/manifests/BLUE-L1-MANIFEST.md",
+              "checksum": "sha256:5620708cdadf3e7283d3bd74c5c52d3fd62480f4fd2df630dcc894488bf33e03",
+              "status": "active",
+              "ingestionId": "db789e60-9a90-4d33-87ed-01e9b99eb5e2",
+              "importedAt": "2026-07-30T17:58:10.130Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "regionalStatus": "GLOBAL CORE"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

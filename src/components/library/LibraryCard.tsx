@@ -84,7 +84,9 @@ export default function LibraryCard({ item }: { item: LibraryItem }) {
             ★ {item.averageRating.toFixed(1)} ({item.ratingCount?.toLocaleString()})
           </span>
         )}
-        <span className="ml-auto">{item.viewCount.toLocaleString()} views</span>
+        {item.viewCount != null && (
+          <span className="ml-auto">{item.viewCount.toLocaleString()} views</span>
+        )}
       </div>
     </Link>
   );

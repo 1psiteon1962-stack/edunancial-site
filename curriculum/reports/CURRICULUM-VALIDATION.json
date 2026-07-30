@@ -1,12 +1,24 @@
 {
-  "timestamp": "2026-07-11T04:10:09.788Z",
-  "totalAssets": 1,
-  "passed": 1,
+  "timestamp": "2026-07-30T18:02:09.984Z",
+  "totalAssets": 3,
+  "passed": 3,
   "failed": 0,
   "results": [
     {
-      "assetId": "RED-L1-001",
-      "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "assetId": "RED-L1-MANIFEST",
+      "path": "curriculum/manifests/RED-L1-MANIFEST.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-MANIFEST",
+      "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-MANIFEST",
+      "path": "curriculum/manifests/BLUE-L1-MANIFEST.md",
       "errors": [],
       "warnings": []
     }

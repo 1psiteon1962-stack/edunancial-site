@@ -48,7 +48,6 @@ export default function LessonPage({ params }: Props) {
                   <span className={`text-sm flex-1 leading-tight ${l.id === lessonId ? "text-yellow-400 font-bold" : "text-slate-300"}`}>
                     {l.title}
                   </span>
-                  <span className="text-xs text-slate-500 flex-shrink-0">{l.duration}</span>
                 </Link>
               ))}
             </div>
@@ -76,15 +75,23 @@ export default function LessonPage({ params }: Props) {
           </div>
 
           {/* Video player */}
-          <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-900 border border-slate-800">
-            <iframe
-              src={lesson.videoUrl}
-              title={lesson.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            />
-          </div>
+          {lesson.videoUrl ? (
+            <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-900 border border-slate-800">
+              <iframe
+                src={lesson.videoUrl}
+                title={lesson.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+          ) : (
+            <div className="aspect-video w-full rounded-2xl flex flex-col items-center justify-center bg-slate-900 border border-slate-800 text-slate-400">
+              <span className="text-4xl mb-4">📖</span>
+              <p className="text-lg font-bold text-white">Text-Based Lesson</p>
+              <p className="mt-2 text-sm">Video content is being prepared. Review the lesson notes below.</p>
+            </div>
+          )}
 
           {/* Tabs */}
           <div className="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden">

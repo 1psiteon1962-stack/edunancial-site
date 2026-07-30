@@ -89,7 +89,6 @@ export default function FavoritesPage() {
                   <p className="mt-3 text-sm text-slate-300 line-clamp-2">{course.subtitle}</p>
                   <div className="mt-4 flex gap-x-4 text-xs text-slate-500">
                     <span>📚 {course.lessons.length} lessons</span>
-                    <span>⏱ {course.totalDuration}</span>
                   </div>
                   <div className="mt-5 flex gap-3">
                     <Link
