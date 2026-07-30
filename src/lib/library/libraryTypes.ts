@@ -61,9 +61,9 @@ export interface LibraryItem {
   isbn?: string;
   publisher?: string;
 
-  // Stats
-  downloadCount: number;
-  viewCount: number;
+  // Stats — set only when backed by real data
+  downloadCount?: number;
+  viewCount?: number;
   averageRating?: number;
   ratingCount?: number;
 }

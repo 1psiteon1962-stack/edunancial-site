@@ -168,10 +168,12 @@ export default async function LibraryItemPage({ params }: PageProps) {
                   </dd>
                 </div>
               )}
-              <div className="flex justify-between border-b border-white/10 pb-2">
-                <dt className="text-slate-400">Downloads</dt>
-                <dd className="font-semibold">{item.downloadCount.toLocaleString()}</dd>
-              </div>
+              {item.downloadCount != null && (
+                <div className="flex justify-between border-b border-white/10 pb-2">
+                  <dt className="text-slate-400">Downloads</dt>
+                  <dd className="font-semibold">{item.downloadCount.toLocaleString()}</dd>
+                </div>
+              )}
             </dl>
           </aside>
 

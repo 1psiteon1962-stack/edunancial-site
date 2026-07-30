@@ -29,9 +29,11 @@ This file documents environment variables referenced by the current implementati
 
 | Variable | Used in | Purpose |
 |---|---|---|
-| `EDUNANCIAL_ADMIN_EMAIL` | `src/lib/admin-content/auth.ts` | Owner-only admin login identity |
-| `EDUNANCIAL_ADMIN_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Server-side scrypt password hash |
-| `EDUNANCIAL_ADMIN_SESSION_SECRET` | `src/lib/admin-content/auth.ts` | HMAC signing key for secure admin sessions |
+| `EDUNANCIAL_ADMIN_EMAIL` | `src/lib/admin-content/auth.ts` | Admin role login identity (role: admin — CMS and course management) |
+| `EDUNANCIAL_ADMIN_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Server-side scrypt password hash for admin account |
+| `EDUNANCIAL_OWNER_EMAIL` | `src/lib/admin-content/auth.ts` | Owner/Super Admin login identity (role: owner — bypasses all paywalls, full access). Log in at `/executive/login`. |
+| `EDUNANCIAL_OWNER_PASSWORD_HASH` | `src/lib/admin-content/auth.ts` | Server-side scrypt password hash for owner account. Generate with `node scripts/bootstrap-owner.mjs` |
+| `EDUNANCIAL_ADMIN_SESSION_SECRET` | `src/lib/admin-content/auth.ts` | HMAC signing key for secure admin sessions (32+ chars) |
 | `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` | `src/lib/admin-content/storage/index.ts` | Preferred Supabase storage bucket for admin uploads and exports |
 | `EDUNANCIAL_UPLOAD_STORAGE_KEY` | `src/lib/admin-content/storage/index.ts` | Legacy alias for `EDUNANCIAL_UPLOAD_STORAGE_BUCKET` |
 | `EDUNANCIAL_GITHUB_TOKEN` | `src/lib/admin-content/github.ts` | Server-only GitHub token for branch/PR creation |

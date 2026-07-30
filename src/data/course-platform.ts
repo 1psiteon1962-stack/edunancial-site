@@ -34,8 +34,8 @@ export interface Lesson {
   id: string;
   courseId: string;
   title: string;
-  duration: string; // e.g. "12 min"
-  videoUrl: string;
+  duration?: string; // e.g. "12 min"
+  videoUrl?: string;
   description: string;
   notes: string;
   order: number;
@@ -51,8 +51,6 @@ export interface Instructor {
   bio: string;
   avatar: string;
   courses: string[];
-  students: number;
-  rating: number;
 }
 
 export interface Course {
@@ -65,10 +63,7 @@ export interface Course {
   instructor: string; // instructor id
   lessons: string[]; // lesson ids
   quizzes: string[]; // quiz ids
-  totalDuration: string;
-  enrolledCount: number;
-  rating: number;
-  reviewCount: number;
+  totalDuration?: string;
   thumbnail: string;
   color: string; // tailwind bg class
   tags: string[];
@@ -87,41 +82,33 @@ export const instructors: Record<string, Instructor> = {
     id: "edunancial-team",
     name: "Edunancial Faculty",
     title: "Certified Financial Educators",
-    bio: "The Edunancial Faculty is a team of certified financial educators, real estate professionals, and business strategists with a combined 60+ years of real-world experience building wealth and training others to do the same.",
+    bio: "The Edunancial Faculty is a team of certified financial educators, real estate professionals, and business strategists dedicated to building practical financial competency.",
     avatar: "/images/instructor-team.jpg",
     courses: ["red-real-estate", "white-paper-assets", "blue-business", "financial-foundations"],
-    students: 12400,
-    rating: 4.9,
   },
   "red-instructor": {
     id: "red-instructor",
-    name: "Marcus Thompson",
-    title: "Real Estate Strategist & Investor",
-    bio: "Marcus has bought, sold, and managed over 200 real estate transactions including residential rentals, commercial properties, tax liens, and creative financing deals across 14 states.",
-    avatar: "/images/instructor-red.jpg",
+    name: "Edunancial Faculty",
+    title: "Real Estate Track Instructor",
+    bio: "The Edunancial Faculty delivers the RED track curriculum covering real estate investing strategies, rental properties, tax liens, tax deeds, and creative financing.",
+    avatar: "/images/instructor-team.jpg",
     courses: ["red-real-estate"],
-    students: 5800,
-    rating: 4.8,
   },
   "white-instructor": {
     id: "white-instructor",
-    name: "Diane Rivera",
-    title: "Certified Financial Planner & Investor",
-    bio: "Diane is a CFP with 20 years of experience in equity investing, options trading, precious metals, and retirement planning. She has managed individual portfolios exceeding $50M.",
-    avatar: "/images/instructor-white.jpg",
+    name: "Edunancial Faculty",
+    title: "Paper Assets Track Instructor",
+    bio: "The Edunancial Faculty delivers the WHITE track curriculum covering equity investing, ETF portfolio construction, options strategies, precious metals, and retirement accounts.",
+    avatar: "/images/instructor-team.jpg",
     courses: ["white-paper-assets"],
-    students: 6200,
-    rating: 4.9,
   },
   "blue-instructor": {
     id: "blue-instructor",
-    name: "Kevin Osei",
-    title: "Serial Entrepreneur & Business Coach",
-    bio: "Kevin has launched, scaled, and sold three businesses with combined revenue exceeding $8M. He specializes in KPI-driven operations, marketing systems, and profit-first business building.",
-    avatar: "/images/instructor-blue.jpg",
+    name: "Edunancial Faculty",
+    title: "Business Track Instructor",
+    bio: "The Edunancial Faculty delivers the BLUE track curriculum covering entrepreneurship, KPI-driven operations, marketing systems, and profit-first business building.",
+    avatar: "/images/instructor-team.jpg",
     courses: ["blue-business"],
-    students: 4900,
-    rating: 4.7,
   },
 };
 
@@ -367,30 +354,28 @@ export const lessons: Record<string, Lesson> = {
     courseId: "red-real-estate",
     title: "Introduction to Real Estate Investing",
     duration: "18 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Overview of the RED track: rental properties, tax liens, tax deeds, creative financing, and 1031 exchanges.",
     notes: "Real estate is one of the oldest and most reliable wealth-building vehicles. In this lesson we cover the mindset shift required to see real estate as a business, not just a purchase.",
     order: 1,
     quizId: "quiz-real-estate-intro",
-    downloadUrl: "/downloads/red-01-notes.pdf",
   },
   "red-02": {
     id: "red-02",
     courseId: "red-real-estate",
     title: "Rental Properties: Cash Flow Analysis",
     duration: "24 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How to analyze a rental property for positive cash flow using the 1% rule, cap rate, and NOI.",
     notes: "Key formulas: NOI = Gross Rent − Vacancy − Operating Expenses. Cap Rate = NOI / Purchase Price. Cash on Cash Return = Annual Cash Flow / Total Cash Invested.",
     order: 2,
-    downloadUrl: "/downloads/red-02-cashflow.pdf",
   },
   "red-03": {
     id: "red-03",
     courseId: "red-real-estate",
     title: "Tax Liens: Earning Interest on Debt",
     duration: "20 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How tax lien certificates work, how to bid at auctions, and how to earn 8–36% annual returns.",
     notes: "Tax liens are government-backed investments. When you purchase a tax lien, the property owner must pay you back with interest. If they don't, you can foreclose.",
     order: 3,
@@ -400,7 +385,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "red-real-estate",
     title: "Tax Deeds: Acquiring Property at Auction",
     duration: "22 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Understanding tax deed sales, due diligence process, and how to acquire properties below market value.",
     notes: "A tax deed transfers ownership when a lien goes unpaid for an extended period. You can purchase real property outright at county auctions for pennies on the dollar.",
     order: 4,
@@ -410,7 +395,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "red-real-estate",
     title: "Creative Financing Strategies",
     duration: "28 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Seller financing, lease options, subject-to, wraparound mortgages, and BRRRR method.",
     notes: "Creative financing allows you to acquire properties with little to no money down by structuring deals outside the traditional banking system.",
     order: 5,
@@ -420,7 +405,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "red-real-estate",
     title: "1031 Exchanges: Defer Capital Gains",
     duration: "16 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How to use IRS Section 1031 to defer capital gains taxes and scale your real estate portfolio.",
     notes: "The 1031 Exchange is one of the most powerful tax deferral tools available to real estate investors. Identify replacement property within 45 days, close within 180 days.",
     order: 6,
@@ -431,7 +416,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "Introduction to Financial Assets",
     duration: "15 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Overview of the WHITE track: budgeting, stocks, ETFs, options, precious metals, and retirement accounts.",
     notes: "Paper assets are financial instruments like stocks, bonds, and funds. They offer liquidity and scalability that physical assets cannot match.",
     order: 1,
@@ -442,18 +427,17 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "Budgeting for Wealth Building",
     duration: "20 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Build a bulletproof budget using the 50/30/20 rule, zero-based budgeting, and cash flow tracking.",
     notes: "A budget isn't a restriction — it's a plan for your money. Track every dollar and assign it a purpose before the month begins.",
     order: 2,
-    downloadUrl: "/downloads/white-02-budget-template.pdf",
   },
   "white-03": {
     id: "white-03",
     courseId: "white-paper-assets",
     title: "Stocks: Fundamentals & Analysis",
     duration: "26 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How to read financial statements, evaluate P/E ratios, and identify quality companies to invest in.",
     notes: "Fundamental analysis focuses on a company's financial health. Key ratios: P/E, P/B, Debt-to-Equity, Free Cash Flow Yield.",
     order: 3,
@@ -463,7 +447,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "ETFs: Diversification Made Simple",
     duration: "18 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How exchange-traded funds work, expense ratios, index investing, and building a diversified portfolio.",
     notes: "ETFs track an index, commodity, or sector. A low-cost S&P 500 ETF has historically returned 10% annually over long periods.",
     order: 4,
@@ -473,7 +457,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "Options Trading Basics",
     duration: "30 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Calls, puts, strike price, expiration, the Greeks, and how to use options to generate income.",
     notes: "Options give you the right, not the obligation, to buy or sell. Covered calls generate income. Protective puts limit downside risk.",
     order: 5,
@@ -483,7 +467,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "Precious Metals as a Hedge",
     duration: "16 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Gold, silver, platinum — how to buy, store, and use precious metals as an inflation hedge.",
     notes: "Precious metals preserve purchasing power. The recommended allocation is 5–15% of an investment portfolio in physical gold and silver.",
     order: 6,
@@ -493,7 +477,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "white-paper-assets",
     title: "Retirement Accounts: IRA, Roth, 401k",
     duration: "22 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Traditional vs. Roth IRAs, 401(k) matching, SEP IRA for self-employed, and self-directed IRA.",
     notes: "Max contributions: IRA $7,000/year (2024), 401(k) $23,000/year. Always capture full employer match — it's free money.",
     order: 7,
@@ -505,7 +489,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "Introduction to Business Competency",
     duration: "14 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Overview of the BLUE track: entrepreneurship, marketing, KPIs, pricing, and scaling.",
     notes: "Business competency means understanding every critical number in your business and making decisions based on data, not emotion.",
     order: 1,
@@ -516,7 +500,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "Entrepreneurship Mindset",
     duration: "20 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "The difference between self-employment and entrepreneurship, risk tolerance, and building systems.",
     notes: "An entrepreneur builds a system that works without them. A self-employed person has bought themselves a job. The goal is to engineer yourself out of the daily operations.",
     order: 2,
@@ -526,19 +510,18 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "KPIs: Running on Data",
     duration: "25 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How to select, track, and act on the 10 most important KPIs for any business.",
     notes: "Your dashboard KPIs: Revenue, Gross Margin, CAC, CLV, Churn Rate, Net Profit Margin, Inventory Turnover, Receivables Days, Employee Productivity, NPS.",
     order: 3,
     quizId: "quiz-business-intro",
-    downloadUrl: "/downloads/blue-03-kpi-tracker.pdf",
   },
   "blue-04": {
     id: "blue-04",
     courseId: "blue-business",
     title: "Marketing: Attract. Convert. Retain.",
     duration: "28 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Building a marketing system using content, email, social, and referrals to generate predictable leads.",
     notes: "Marketing framework: Awareness → Interest → Decision → Action → Loyalty. Build a system for each stage of the funnel.",
     order: 4,
@@ -548,7 +531,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "Pricing Strategy for Profit",
     duration: "18 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Value-based pricing, cost-plus pricing, competitive pricing, and how to raise prices without losing customers.",
     notes: "Most businesses underprice. Value-based pricing anchors to the transformation you provide, not the time you spend.",
     order: 5,
@@ -558,7 +541,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "Profit: Taking Money Seriously",
     duration: "22 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Profit First methodology, owner's pay, tax allocation, and building a sustainable profit-generating business.",
     notes: "Profit First allocation: Revenue → Owner Pay (10%) → Profit (5%) → Tax (15%) → Operating Expenses (70%). Adjust ratios as revenue grows.",
     order: 6,
@@ -568,7 +551,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "blue-business",
     title: "Scaling: Systems Over Hustle",
     duration: "24 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How to build standard operating procedures, delegate effectively, and scale revenue without increasing your hours.",
     notes: "Scaling requires systems. Document every repeatable process. Hire for talent, train for skill, and build with systems.",
     order: 7,
@@ -579,7 +562,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "What Is Financial Literacy?",
     duration: "12 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "The foundation of all financial education: understanding money, how it works, and why most people lose.",
     notes: "Financial literacy is not taught in schools by design. Your job is to self-educate and then act on what you learn.",
     order: 1,
@@ -589,7 +572,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "Assets vs. Liabilities",
     duration: "14 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "The rich vs. poor vs. middle class asset column — understanding what puts money in your pocket.",
     notes: "Assets put money IN your pocket. Liabilities take money OUT. Most people's homes, cars, and consumer debt are liabilities.",
     order: 2,
@@ -599,7 +582,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "The Power of Compound Interest",
     duration: "10 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "How compound interest works, the Rule of 72, and why starting early is the most powerful financial decision.",
     notes: "Rule of 72: Divide 72 by your interest rate to find doubling time. At 8%, money doubles every 9 years. At 12%, every 6 years.",
     order: 3,
@@ -609,7 +592,7 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "Income Streams & Passive Income",
     duration: "16 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "The 7 income streams of millionaires and how to begin building passive and portfolio income.",
     notes: "The average millionaire has 7 income streams: earned, profit, interest, dividend, rental, capital gains, royalty. Start building additional streams immediately.",
     order: 4,
@@ -619,12 +602,11 @@ export const lessons: Record<string, Lesson> = {
     courseId: "financial-foundations",
     title: "Debt: Enemy or Tool?",
     duration: "18 min",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    
     description: "Good debt vs. bad debt, the debt avalanche vs. snowball methods, and leveraging debt to build wealth.",
     notes: "Good debt creates income greater than its cost. Bad debt funds consumption. Destroy bad debt first, then leverage good debt strategically.",
     order: 5,
     quizId: "quiz-financial-foundations",
-    downloadUrl: "/downloads/ff-05-debt-worksheet.pdf",
   },
 };
 
@@ -643,10 +625,6 @@ export const courses: Record<string, Course> = {
     instructor: "red-instructor",
     lessons: ["red-01", "red-02", "red-03", "red-04", "red-05", "red-06"],
     quizzes: ["quiz-real-estate-intro"],
-    totalDuration: "2h 8min",
-    enrolledCount: 5840,
-    rating: 4.8,
-    reviewCount: 412,
     thumbnail: "/images/course-red.jpg",
     color: "bg-red-700",
     tags: ["Real Estate", "Passive Income", "Tax Liens", "Rentals", "Creative Financing"],
@@ -663,10 +641,6 @@ export const courses: Record<string, Course> = {
     instructor: "white-instructor",
     lessons: ["white-01", "white-02", "white-03", "white-04", "white-05", "white-06", "white-07"],
     quizzes: ["quiz-paper-assets-intro"],
-    totalDuration: "2h 27min",
-    enrolledCount: 6220,
-    rating: 4.9,
-    reviewCount: 531,
     thumbnail: "/images/course-white.jpg",
     color: "bg-slate-200 text-slate-900",
     tags: ["Investing", "Stocks", "ETFs", "Retirement", "Budgeting"],
@@ -683,10 +657,6 @@ export const courses: Record<string, Course> = {
     instructor: "blue-instructor",
     lessons: ["blue-01", "blue-02", "blue-03", "blue-04", "blue-05", "blue-06", "blue-07"],
     quizzes: ["quiz-business-intro"],
-    totalDuration: "2h 31min",
-    enrolledCount: 4910,
-    rating: 4.7,
-    reviewCount: 348,
     thumbnail: "/images/course-blue.jpg",
     color: "bg-blue-700",
     tags: ["Business", "Entrepreneurship", "KPIs", "Marketing", "Profit"],
@@ -703,10 +673,6 @@ export const courses: Record<string, Course> = {
     instructor: "edunancial-team",
     lessons: ["ff-01", "ff-02", "ff-03", "ff-04", "ff-05"],
     quizzes: ["quiz-financial-foundations"],
-    totalDuration: "1h 10min",
-    enrolledCount: 12400,
-    rating: 4.9,
-    reviewCount: 1024,
     thumbnail: "/images/course-foundations.jpg",
     color: "bg-yellow-600",
     tags: ["Foundations", "Beginner", "Money", "Assets", "Debt"],
@@ -724,10 +690,6 @@ export const courses: Record<string, Course> = {
     instructor: "edunancial-team",
     lessons: ["ff-01", "ff-02", "ff-03"],
     quizzes: ["quiz-financial-foundations"],
-    totalDuration: "1h 45min",
-    enrolledCount: 3200,
-    rating: 4.8,
-    reviewCount: 218,
     thumbnail: "/images/course-defense.jpg",
     color: "bg-slate-700",
     tags: ["Protection", "Inflation", "Taxes", "Economic Defense"],
@@ -743,10 +705,6 @@ export const courses: Record<string, Course> = {
     instructor: "edunancial-team",
     lessons: ["ff-01", "ff-02", "ff-03", "ff-04"],
     quizzes: ["quiz-financial-foundations"],
-    totalDuration: "1h 20min",
-    enrolledCount: 2100,
-    rating: 4.7,
-    reviewCount: 156,
     thumbnail: "/images/course-family.jpg",
     color: "bg-green-700",
     tags: ["Family", "Children", "Generational Wealth", "Budgeting"],
@@ -762,10 +720,6 @@ export const courses: Record<string, Course> = {
     instructor: "edunancial-team",
     lessons: ["blue-01", "blue-02", "blue-03"],
     quizzes: ["quiz-business-intro"],
-    totalDuration: "59 min",
-    enrolledCount: 1840,
-    rating: 4.9,
-    reviewCount: 204,
     thumbnail: "/images/course-teen.jpg",
     color: "bg-purple-700",
     tags: ["Teens", "Youth", "Entrepreneurship", "First Business"],
@@ -782,10 +736,6 @@ export const courses: Record<string, Course> = {
     instructor: "edunancial-team",
     lessons: ["white-05", "white-07", "blue-06", "blue-07"],
     quizzes: ["quiz-business-intro", "quiz-paper-assets-intro"],
-    totalDuration: "1h 38min",
-    enrolledCount: 890,
-    rating: 4.8,
-    reviewCount: 98,
     thumbnail: "/images/course-executive.jpg",
     color: "bg-amber-800",
     tags: ["Executive", "Advanced", "Capital", "Leadership", "Wealth Preservation"],

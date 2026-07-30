@@ -2,5 +2,39 @@
   "_schema": "curriculum/schemas/ledger.schema.json",
   "_version": "1.0",
   "_note": "Append-only ingestion ledger. Each import/update/rejection is recorded here.",
-  "entries": []
+  "entries": [
+    {
+      "ingestionId": "b9eadd94-4800-45a6-ab45-82abaafe71c4",
+      "timestamp": "2026-07-30T17:58:05.998Z",
+      "operation": "import",
+      "assetId": "RED-L1-MANIFEST",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/curriculum/manifests/RED-L1-MANIFEST.md",
+      "destination": "curriculum/manifests/RED-L1-MANIFEST.md",
+      "checksum": "sha256:b5cfdf27393f695e065067ae22150cdeb8b73250484a102e270866550b83e086",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "cb2d923a-55ea-46ed-ade0-5e7cf3456b2a",
+      "timestamp": "2026-07-30T17:58:09.973Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-MANIFEST",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "destination": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "checksum": "sha256:e1db98878809a357e23efc222013c4ba3cafdc5e14c228bb50578a881c452a30",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "db789e60-9a90-4d33-87ed-01e9b99eb5e2",
+      "timestamp": "2026-07-30T17:58:10.130Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-MANIFEST",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/curriculum/manifests/BLUE-L1-MANIFEST.md",
+      "destination": "curriculum/manifests/BLUE-L1-MANIFEST.md",
+      "checksum": "sha256:5620708cdadf3e7283d3bd74c5c52d3fd62480f4fd2df630dcc894488bf33e03",
+      "outcome": "success"
+    }
+  ]
 }

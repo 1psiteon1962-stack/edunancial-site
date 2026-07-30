@@ -25,10 +25,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-06-01",
     pageCount: 280,
     publisher: "Edunancial Press",
-    downloadCount: 1842,
-    viewCount: 9400,
-    averageRating: 4.8,
-    ratingCount: 312,
   },
   {
     id: "book-profit",
@@ -53,10 +49,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-04-20",
     pageCount: 210,
     publisher: "Edunancial Press",
-    downloadCount: 2103,
-    viewCount: 11500,
-    averageRating: 4.7,
-    ratingCount: 408,
   },
   {
     id: "book-esd",
@@ -81,10 +73,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-03-15",
     pageCount: 190,
     publisher: "Edunancial Press",
-    downloadCount: 1456,
-    viewCount: 7300,
-    averageRating: 4.6,
-    ratingCount: 287,
   },
   {
     id: "book-fc",
@@ -109,10 +97,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-05-10",
     pageCount: 340,
     publisher: "Edunancial Press",
-    downloadCount: 3201,
-    viewCount: 18200,
-    averageRating: 4.9,
-    ratingCount: 524,
   },
   // ── Audiobooks ───────────────────────────────────────────────────────────
   {
@@ -137,10 +121,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-06-01",
     updatedAt: "2024-01-10",
     publisher: "Edunancial Press",
-    downloadCount: 890,
-    viewCount: 4200,
-    averageRating: 4.7,
-    ratingCount: 198,
   },
   {
     id: "audio-profit",
@@ -164,10 +144,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-08-15",
     updatedAt: "2024-02-01",
     publisher: "Edunancial Press",
-    downloadCount: 654,
-    viewCount: 3100,
-    averageRating: 4.6,
-    ratingCount: 142,
   },
   // ── PDFs ─────────────────────────────────────────────────────────────────
   {
@@ -189,10 +165,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2022-09-01",
     updatedAt: "2023-10-05",
     pageCount: 12,
-    downloadCount: 8432,
-    viewCount: 22000,
-    averageRating: 4.5,
-    ratingCount: 712,
   },
   {
     id: "pdf-budget-worksheet",
@@ -213,10 +185,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2022-10-01",
     updatedAt: "2023-11-20",
     pageCount: 4,
-    downloadCount: 12050,
-    viewCount: 35000,
-    averageRating: 4.8,
-    ratingCount: 1024,
   },
   {
     id: "pdf-business-plan",
@@ -238,10 +206,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-02-01",
     updatedAt: "2024-01-15",
     pageCount: 24,
-    downloadCount: 3210,
-    viewCount: 9800,
-    averageRating: 4.7,
-    ratingCount: 389,
   },
   // ── EPUBs ────────────────────────────────────────────────────────────────
   {
@@ -265,10 +229,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-03-01",
     pageCount: 160,
     publisher: "Edunancial Press",
-    downloadCount: 1543,
-    viewCount: 6700,
-    averageRating: 4.8,
-    ratingCount: 302,
   },
   {
     id: "epub-family-finance",
@@ -291,10 +251,6 @@ export const libraryItems: LibraryItem[] = [
     updatedAt: "2024-05-20",
     pageCount: 200,
     publisher: "Edunancial Press",
-    downloadCount: 876,
-    viewCount: 3800,
-    averageRating: 4.9,
-    ratingCount: 218,
   },
   // ── Videos ───────────────────────────────────────────────────────────────
   {
@@ -307,7 +263,6 @@ export const libraryItems: LibraryItem[] = [
     categories: ["personal-finance", "foundations"],
     tags: ["video", "budgeting", "money", "lesson", "101"],
     coverImage: "/library/covers/budgeting-video.jpg",
-    previewUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     status: "published",
     accessLevel: "free",
     downloadable: false,
@@ -315,10 +270,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-04-01",
     updatedAt: "2024-02-10",
     durationMinutes: 35,
-    downloadCount: 0,
-    viewCount: 28400,
-    averageRating: 4.7,
-    ratingCount: 892,
   },
   {
     id: "video-investing-basics",
@@ -330,7 +281,6 @@ export const libraryItems: LibraryItem[] = [
     categories: ["investing", "foundations"],
     tags: ["video", "investing", "stocks", "ETF", "bonds"],
     coverImage: "/library/covers/investing-video.jpg",
-    previewUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     status: "published",
     accessLevel: "membership",
     membershipRequired: "standard",
@@ -339,10 +289,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-07-01",
     updatedAt: "2024-04-01",
     durationMinutes: 62,
-    downloadCount: 0,
-    viewCount: 14200,
-    averageRating: 4.8,
-    ratingCount: 456,
   },
   {
     id: "video-real-estate-intro",
@@ -354,7 +300,6 @@ export const libraryItems: LibraryItem[] = [
     categories: ["real-estate", "investing", "wealth-building"],
     tags: ["video", "real estate", "investing", "property", "house hacking"],
     coverImage: "/library/covers/re-video.jpg",
-    previewUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     status: "published",
     accessLevel: "paid",
     price: 7.99,
@@ -363,10 +308,6 @@ export const libraryItems: LibraryItem[] = [
     publishedAt: "2023-10-01",
     updatedAt: "2024-05-01",
     durationMinutes: 85,
-    downloadCount: 0,
-    viewCount: 9800,
-    averageRating: 4.9,
-    ratingCount: 334,
   },
 ];
 
