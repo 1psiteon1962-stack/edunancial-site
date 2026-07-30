@@ -59,16 +59,9 @@ export default async function CourseDetailPage({ params }: Props) {
             <h1 className="text-4xl font-black md:text-5xl leading-tight">{course.title}</h1>
             <p className="mt-4 text-xl text-slate-300">{course.subtitle}</p>
 
-            {/* Stats */}
+            {/* Stats — only show real data */}
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-300">
-              <span className="flex items-center gap-2">
-                <span className="text-yellow-400 font-bold">{course.rating}</span>
-                <span className="text-yellow-400">{"★".repeat(Math.round(course.rating))}</span>
-                <span className="text-slate-500">({course.reviewCount} reviews)</span>
-              </span>
-              <span>👥 {course.enrolledCount.toLocaleString()} students</span>
-              <span>📚 {courseLessons.length} lessons</span>
-              <span>⏱ {course.totalDuration}</span>
+              <span>📚 {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}</span>
             </div>
 
             {/* Tags */}
