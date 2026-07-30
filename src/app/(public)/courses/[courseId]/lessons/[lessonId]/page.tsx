@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { use, useState } from "react";
 import { courses, lessons } from "@/data/course-platform";
+import { useAdminSession } from "@/lib/useAdminSession";
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -15,6 +16,8 @@ export default function LessonPage({ params }: Props) {
   const lesson = lessons[lessonId];
   if (!course || !lesson) notFound();
 
+  const isAdmin = useAdminSession();
+
   const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
   const currentIndex = courseLessons.findIndex((l) => l.id === lessonId);
   const prevLesson = currentIndex > 0 ? courseLessons[currentIndex - 1] : null;
@@ -24,6 +27,33 @@ export default function LessonPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
+      {/* Admin toolbar — only visible to authenticated admin sessions */}
+      {isAdmin && (
+        <div className="border-b border-yellow-500/40 bg-yellow-500/10 px-4 py-2">
+          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 text-sm">
+            <div className="flex items-center gap-2">
+              <span className="rounded-full bg-yellow-500 px-2 py-0.5 text-xs font-black text-black">ADMIN</span>
+              <span className="text-yellow-200">
+                Viewing: <span className="font-semibold">{lesson.title}</span>
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Link
+                href={`/admin/courses/red`}
+                className="rounded-lg bg-yellow-500/20 px-3 py-1 font-semibold text-yellow-300 hover:bg-yellow-500/30"
+              >
+                Manage RED Lessons
+              </Link>
+              <Link
+                href="/admin/courses"
+                className="rounded-lg border border-yellow-500/40 px-3 py-1 font-semibold text-yellow-400 hover:border-yellow-400"
+              >
+                Course Admin →
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="mx-auto max-w-7xl px-4 py-8 grid gap-8 lg:grid-cols-4">
         {/* Lesson sidebar */}
         <aside className="hidden lg:block lg:col-span-1">
