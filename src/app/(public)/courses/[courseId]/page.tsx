@@ -61,14 +61,7 @@ export default async function CourseDetailPage({ params }: Props) {
 
             {/* Stats */}
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-300">
-              <span className="flex items-center gap-2">
-                <span className="text-yellow-400 font-bold">{course.rating}</span>
-                <span className="text-yellow-400">{"★".repeat(Math.round(course.rating))}</span>
-                <span className="text-slate-500">({course.reviewCount} reviews)</span>
-              </span>
-              <span>👥 {course.enrolledCount.toLocaleString()} students</span>
               <span>📚 {courseLessons.length} lessons</span>
-              <span>⏱ {course.totalDuration}</span>
             </div>
 
             {/* Tags */}
@@ -113,8 +106,6 @@ export default async function CourseDetailPage({ params }: Props) {
             </Link>
             <ul className="mt-8 space-y-3 text-sm text-slate-300">
               <li>✅ {courseLessons.length} on-demand lessons</li>
-              <li>✅ {course.totalDuration} total content</li>
-              <li>✅ Downloadable resources</li>
               <li>✅ Certificate of completion</li>
               <li>✅ Lifetime access</li>
             </ul>
@@ -134,7 +125,7 @@ export default async function CourseDetailPage({ params }: Props) {
           <section>
             <h2 className="text-2xl font-black mb-6">Course Curriculum</h2>
             <p className="text-slate-400 mb-6 text-sm">
-              {courseLessons.length} lessons · {course.totalDuration}
+              {courseLessons.length} lessons
             </p>
             <div className="space-y-3">
               {courseLessons.map((lesson, idx) => (
@@ -154,10 +145,6 @@ export default async function CourseDetailPage({ params }: Props) {
                     {lesson.quizId && (
                       <span className="rounded-full bg-purple-900 text-purple-300 px-2 py-0.5 text-xs">Quiz</span>
                     )}
-                    {lesson.downloadUrl && (
-                      <span className="rounded-full bg-blue-900 text-blue-300 px-2 py-0.5 text-xs">PDF</span>
-                    )}
-                    <span className="text-slate-400 text-sm">{lesson.duration}</span>
                     <span className="text-slate-500">▶</span>
                   </div>
                 </Link>
@@ -177,11 +164,6 @@ export default async function CourseDetailPage({ params }: Props) {
                   <div>
                     <h3 className="text-xl font-black">{instructor.name}</h3>
                     <p className="text-yellow-400 font-medium mt-1">{instructor.title}</p>
-                    <div className="flex gap-6 mt-3 text-sm text-slate-400">
-                      <span>⭐ {instructor.rating} Rating</span>
-                      <span>👥 {instructor.students.toLocaleString()} Students</span>
-                      <span>📚 {instructor.courses.length} Course{instructor.courses.length !== 1 ? "s" : ""}</span>
-                    </div>
                     <p className="mt-4 text-slate-300 leading-relaxed">{instructor.bio}</p>
                   </div>
                 </div>

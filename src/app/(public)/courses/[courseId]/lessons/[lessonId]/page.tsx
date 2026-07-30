@@ -20,7 +20,7 @@ export default function LessonPage({ params }: Props) {
   const prevLesson = currentIndex > 0 ? courseLessons[currentIndex - 1] : null;
   const nextLesson = currentIndex < courseLessons.length - 1 ? courseLessons[currentIndex + 1] : null;
 
-  const [activeTab, setActiveTab] = useState<"notes" | "transcript" | "downloads">("notes");
+  const [activeTab, setActiveTab] = useState<"notes" | "transcript">("notes");
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -48,7 +48,6 @@ export default function LessonPage({ params }: Props) {
                   <span className={`text-sm flex-1 leading-tight ${l.id === lessonId ? "text-yellow-400 font-bold" : "text-slate-300"}`}>
                     {l.title}
                   </span>
-                  <span className="text-xs text-slate-500 flex-shrink-0">{l.duration}</span>
                 </Link>
               ))}
             </div>
@@ -75,21 +74,19 @@ export default function LessonPage({ params }: Props) {
             <p className="mt-2 text-slate-300">{lesson.description}</p>
           </div>
 
-          {/* Video player */}
-          <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-900 border border-slate-800">
-            <iframe
-              src={lesson.videoUrl}
-              title={lesson.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            />
+          {/* Video placeholder */}
+          <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 flex items-center justify-center">
+            <div className="text-center px-8">
+              <p className="text-4xl mb-4">🎓</p>
+              <p className="font-bold text-lg text-slate-200">Video Coming Soon</p>
+              <p className="text-slate-400 mt-2 text-sm">Lesson notes and content are available below.</p>
+            </div>
           </div>
 
           {/* Tabs */}
           <div className="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden">
             <div className="flex border-b border-slate-800">
-              {(["notes", "transcript", "downloads"] as const).map((tab) => (
+              {(["notes", "transcript"] as const).map((tab) => (
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
@@ -114,27 +111,8 @@ export default function LessonPage({ params }: Props) {
                 <div>
                   <h3 className="text-lg font-black mb-3">Transcript</h3>
                   <p className="text-slate-400 italic">
-                    {lesson.transcript || "Transcript coming soon. Notes are available in the Notes tab."}
+                    Transcript available when video is published.
                   </p>
-                </div>
-              )}
-              {activeTab === "downloads" && (
-                <div>
-                  <h3 className="text-lg font-black mb-3">Downloads</h3>
-                  {lesson.downloadUrl ? (
-                    <a
-                      href={lesson.downloadUrl}
-                      className="flex items-center gap-3 rounded-xl bg-slate-800 px-5 py-4 hover:bg-slate-700 transition"
-                    >
-                      <span className="text-2xl">📄</span>
-                      <div>
-                        <p className="font-bold text-sm">Lesson Notes PDF</p>
-                        <p className="text-xs text-slate-400">Click to download</p>
-                      </div>
-                    </a>
-                  ) : (
-                    <p className="text-slate-400">No downloads available for this lesson.</p>
-                  )}
                 </div>
               )}
             </div>

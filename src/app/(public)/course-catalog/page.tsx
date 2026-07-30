@@ -166,14 +166,6 @@ export default function CourseCatalogPage() {
                     {/* Meta */}
                     <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500">
                       <span>📚 {course.lessons.length} lessons</span>
-                      <span>⏱ {course.totalDuration}</span>
-                      <span>👥 {course.enrolledCount.toLocaleString()} enrolled</span>
-                    </div>
-                    {/* Rating */}
-                    <div className="mt-3 flex items-center gap-2">
-                      <span className="text-yellow-400 font-bold">{course.rating}</span>
-                      <span className="text-yellow-400 text-sm">{"★".repeat(Math.round(course.rating))}</span>
-                      <span className="text-slate-500 text-xs">({course.reviewCount})</span>
                     </div>
                     {/* Tags */}
                     <div className="mt-4 flex flex-wrap gap-2">
