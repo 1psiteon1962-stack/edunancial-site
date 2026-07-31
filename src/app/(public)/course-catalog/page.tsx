@@ -152,7 +152,7 @@ export default function CourseCatalogPage() {
               {filtered.map((course) => (
                 <Link
                   key={course.id}
-                  href={`/courses/${course.id}`}
+                  href={course.href}
                   className="group rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden hover:border-slate-600 transition"
                 >
                   {/* Color bar */}

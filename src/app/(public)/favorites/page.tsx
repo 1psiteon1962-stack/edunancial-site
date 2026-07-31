@@ -92,13 +92,13 @@ export default function FavoritesPage() {
                   </div>
                   <div className="mt-5 flex gap-3">
                     <Link
-                      href={`/courses/${course.id}`}
+                      href={course.href}
                       className="flex-1 rounded-xl bg-yellow-500 py-2.5 text-center text-sm font-black text-black hover:bg-yellow-400 transition"
                     >
                       View Course
                     </Link>
                     <Link
-                      href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
+                      href={course.firstLessonHref ?? course.href}
                       className="rounded-xl border border-slate-600 px-3 py-2.5 text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
                     >
                       ▶ Start

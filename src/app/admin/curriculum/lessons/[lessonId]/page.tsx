@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
+import { getCanonicalLessonHref } from "@/lib/curriculum/routes";
 import LessonEditorClient from "./LessonEditorClient";
 
 interface Props {
@@ -25,11 +26,7 @@ function lessonFilePath(id: string): string | null {
 
 /** Map curriculum ID to the public lesson route */
 function publicLessonUrl(id: string): string | null {
-  const match = id.match(/^RED-L1-(\d{3})$/);
-  if (!match) return null;
-  const num = parseInt(match[1], 10);
-  const courseNum = `1${String(num).padStart(2, "0")}`;
-  return `/courses/red-level-1/lessons/red-${courseNum}`;
+  return getCanonicalLessonHref("red", id);
 }
 
 export default async function LessonEditorPage({ params }: Props) {

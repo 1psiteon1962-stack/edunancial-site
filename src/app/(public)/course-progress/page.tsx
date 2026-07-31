@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { courseList } from "@/lib/curriculum/production-catalog";
+import { getCanonicalLessonHref } from "@/lib/curriculum/routes";
 
 function ProgressLayout() {
   const { t } = useInternationalPreferences();
@@ -62,7 +63,7 @@ function ProgressLayout() {
                   </Link>
                 ) : (
                   <Link
-                    href={`/courses/${course.id}/lessons/${course.lessons[course.done] ?? course.lessons[0]}`}
+                    href={getCanonicalLessonHref(course.id, course.lessons[course.done] ?? course.lessons[0])}
                     className="font-bold text-yellow-400 hover:text-yellow-300"
                   >
                     {t("courseProgress.continueLabel")}

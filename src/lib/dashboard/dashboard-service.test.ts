@@ -34,6 +34,7 @@ test("builds dashboard data for the three North American learning paths", () => 
     ["RED", "WHITE", "BLUE"],
   );
   assert.equal(data.continueLearning.trackCode, "WHITE");
+  assert.equal(data.continueLearning.href, "/curriculum/white");
   assert.match(data.continueLearning.lessonTitle, /\S/);
   assert.equal(data.passport.rank, "Professional");
   assert.equal(data.passport.nextRank, "Expert");

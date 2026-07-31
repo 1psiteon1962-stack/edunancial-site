@@ -8,7 +8,11 @@ import {
   getLessonNavigation,
   getLessonsForLevel,
 } from "@/lib/curriculum/reader";
-import { renderMarkdown } from "@/lib/curriculum/markdown";
+import {
+  estimateReadingTime,
+  extractToc,
+  renderMarkdown,
+} from "@/lib/curriculum/markdown";
 
 interface Props {
   params: Promise<{ track: string; level: string; lesson: string }>;
@@ -71,6 +75,10 @@ export default async function LessonViewerPage({ params }: Props) {
 
   const trackColor = TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10";
   const renderedBody = renderMarkdown(body);
+  const toc = extractToc(body);
+  const readingTime = estimateReadingTime(body);
+  const relatedLessons = siblings.filter((sibling) => sibling.id !== meta.id).slice(0, 4);
+  const knowledgeCheckEntry = toc.find((entry) => /knowledge check|knowledge review|quiz/i.test(entry.text));
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -147,6 +155,7 @@ export default async function LessonViewerPage({ params }: Props) {
               </span>
               <span className="text-xs text-slate-500">Lesson {meta.lessonNumber} of {siblings.length}</span>
               <span className="text-xs text-slate-500">{meta.id}</span>
+              <span className="text-xs text-slate-500">📖 {readingTime} min read</span>
             </div>
             <h1 className="text-3xl font-black md:text-4xl leading-tight">{meta.title}</h1>
             {meta.summary && (
@@ -157,11 +166,64 @@ export default async function LessonViewerPage({ params }: Props) {
             </p>
           </div>
 
+          {(toc.length > 0 || knowledgeCheckEntry) && (
+            <div className="grid gap-4 md:grid-cols-[minmax(0,1fr)_auto]">
+              {toc.length > 0 && (
+                <div className="rounded-2xl bg-slate-900 border border-slate-800 p-5">
+                  <p className="text-xs font-bold uppercase tracking-[0.35em] text-slate-400">Table of Contents</p>
+                  <nav className="mt-4 space-y-2">
+                    {toc.map((entry) => (
+                      <a
+                        key={entry.id}
+                        href={`#${entry.id}`}
+                        className={`block text-sm transition hover:text-yellow-400 ${
+                          entry.level === 3 ? "pl-4 text-slate-500" : "text-slate-300"
+                        }`}
+                      >
+                        {entry.text}
+                      </a>
+                    ))}
+                  </nav>
+                </div>
+              )}
+              {knowledgeCheckEntry && (
+                <div className="rounded-2xl bg-slate-900 border border-slate-800 p-5 md:min-w-56">
+                  <p className="text-xs font-bold uppercase tracking-[0.35em] text-slate-400">Knowledge Check</p>
+                  <a
+                    href={`#${knowledgeCheckEntry.id}`}
+                    className="mt-4 inline-flex rounded-xl bg-yellow-500 px-4 py-3 text-sm font-black text-black transition hover:bg-yellow-400"
+                  >
+                    Jump to section →
+                  </a>
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Lesson content */}
           <article
             className="prose-curriculum rounded-2xl bg-slate-900/50 border border-slate-800 p-6 md:p-8"
             dangerouslySetInnerHTML={{ __html: renderedBody }}
           />
+
+          {relatedLessons.length > 0 && (
+            <section className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
+              <h2 className="text-xl font-black">Related Lessons</h2>
+              <div className="mt-4 grid gap-3 md:grid-cols-2">
+                {relatedLessons.map((related) => (
+                  <Link
+                    key={related.id}
+                    href={`/curriculum/${trackParam}/${levelParam}/${related.id.toLowerCase()}`}
+                    className="rounded-xl border border-slate-800 bg-slate-950/50 p-4 transition hover:border-slate-600"
+                  >
+                    <p className="text-xs text-slate-500">{related.id}</p>
+                    <p className="mt-1 font-bold text-white">{related.title}</p>
+                    <p className="mt-2 text-sm text-slate-400">Lesson {related.lessonNumber}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Navigation */}
           <div className="flex items-center justify-between gap-4 pt-4">

@@ -154,7 +154,7 @@ export default function MyCertificatesPage() {
                       {t("myCertificates.copyVerifyLink")}
                     </button>
                     <Link
-                      href={`/courses/${course.id}`}
+                      href={course.href}
                       className="rounded-xl border border-slate-600 px-6 py-3 font-bold text-slate-300 transition hover:bg-slate-800"
                     >
                       {t("myCertificates.reviewCourse")}

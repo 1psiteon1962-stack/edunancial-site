@@ -19,8 +19,10 @@ import {
   getAdaptiveCurriculumCatalog,
   NORTH_AMERICA_TRACKS,
   type AdaptiveLessonRecord,
+  type AdaptiveLevelCode,
   type AdaptiveTrackCode,
 } from "@/lib/adaptive-learning";
+import { getCanonicalCourseHref, getCanonicalLessonHref } from "@/lib/curriculum/routes";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -36,6 +38,7 @@ export type CourseCategory = string;
  */
 export interface ProductionCourse {
   id: string;
+  track: AdaptiveTrackCode;
   title: string;
   subtitle: string;
   description: string;
@@ -43,6 +46,8 @@ export interface ProductionCourse {
   difficulty: Difficulty;
   /** Ordered list of lesson IDs that belong to this course. */
   lessons: string[];
+  href: string;
+  firstLessonHref: string | null;
   /** Tailwind bg class used for colour-coding (e.g. "bg-red-700"). */
   color: string;
   isFree: boolean;
@@ -59,8 +64,12 @@ export interface ProductionCourse {
 export interface ProductionLesson {
   id: string;
   courseId: string;
+  track: AdaptiveTrackCode;
+  level: AdaptiveLevelCode;
+  lessonNumber: number;
   title: string;
   description: string;
+  href: string;
   /** "—" when the registry does not supply a duration. */
   duration: string;
   notes: string;
@@ -142,14 +151,18 @@ function _buildCourse(
   trackCode: AdaptiveTrackCode,
   records: AdaptiveLessonRecord[],
 ): ProductionCourse {
+  const courseId = TRACK_TO_COURSE_ID[trackCode];
   return {
-    id: TRACK_TO_COURSE_ID[trackCode],
+    id: courseId,
+    track: trackCode,
     title: `${trackCode}: ${NORTH_AMERICA_TRACKS[trackCode]}`,
     subtitle: TRACK_SUBTITLE[trackCode],
     description: TRACK_SUBTITLE[trackCode],
     category: NORTH_AMERICA_TRACKS[trackCode],
     difficulty: TRACK_DIFFICULTY[trackCode],
     lessons: records.map((r) => r.id),
+    href: getCanonicalCourseHref(courseId),
+    firstLessonHref: records[0] ? getCanonicalLessonHref(courseId, records[0].id) : null,
     color: TRACK_COLOR[trackCode],
     isFree: false,
     isFeatured: false,
@@ -162,8 +175,15 @@ function _buildLesson(record: AdaptiveLessonRecord): ProductionLesson {
   return {
     id: record.id,
     courseId,
+    track: record.track,
+    level: record.level,
+    lessonNumber: record.lessonNumber,
     title: record.title,
-    description: record.metadata["summary"] ?? record.metadata["description"] ?? "",
+    description:
+      record.metadata["summary"] ??
+      record.metadata["description"] ??
+      `${record.trackName} ${record.level} lesson ${record.lessonNumber}`,
+    href: getCanonicalLessonHref(courseId, record.id),
     duration: record.metadata["duration"] ?? "—",
     notes: record.metadata["notes"] ?? "",
     transcript: record.metadata["transcript"] ?? null,

@@ -33,7 +33,7 @@ export default function CertificatesPageClient() {
                     <button className="flex-1 rounded-xl bg-yellow-500 py-3 font-bold text-black transition hover:bg-yellow-400">
                       {t("certificates.downloadLabel")}
                     </button>
-                    <Link href={`/courses/${course.id}`} className="rounded-xl border border-slate-600 px-4 py-3 font-bold text-slate-300 transition hover:bg-slate-800">
+                    <Link href={course.href} className="rounded-xl border border-slate-600 px-4 py-3 font-bold text-slate-300 transition hover:bg-slate-800">
                       {t("certificates.reviewLabel")}
                     </Link>
                   </div>
@@ -56,7 +56,7 @@ export default function CertificatesPageClient() {
                     <div className="h-2 rounded-full bg-slate-600" style={{ width: "0%" }} />
                   </div>
                   <div className="flex gap-3">
-                    <Link href={`/courses/${course.id}`} className="flex-1 rounded-xl border border-slate-600 bg-slate-800 py-2.5 text-center text-sm font-bold text-slate-300 transition hover:bg-slate-700">
+                    <Link href={course.href} className="flex-1 rounded-xl border border-slate-600 bg-slate-800 py-2.5 text-center text-sm font-bold text-slate-300 transition hover:bg-slate-700">
                       {t("certificates.startLabel")}
                     </Link>
                   </div>
