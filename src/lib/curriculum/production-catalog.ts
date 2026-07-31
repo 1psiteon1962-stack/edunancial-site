@@ -163,7 +163,7 @@ function _buildLesson(record: AdaptiveLessonRecord): ProductionLesson {
     id: record.id,
     courseId,
     title: record.title,
-    description: record.metadata["description"] ?? "",
+    description: record.metadata["summary"] ?? record.metadata["description"] ?? "",
     duration: record.metadata["duration"] ?? "—",
     notes: record.metadata["notes"] ?? "",
     transcript: record.metadata["transcript"] ?? null,

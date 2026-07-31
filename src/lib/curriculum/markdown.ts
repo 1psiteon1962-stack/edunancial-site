@@ -17,9 +17,15 @@ export function renderMarkdown(markdown: string): string {
     // Horizontal rules
     .replace(/^---$/gm, "<hr class=\"border-slate-700 my-6\" />")
     // H3
-    .replace(/^### (.+)$/gm, (_, t: string) => `<h3 class="text-lg font-black mt-6 mb-2 text-white">${inlineMarkdown(t)}</h3>`)
+    .replace(/^### (.+)$/gm, (_, t: string) => {
+      const id = headingId(t);
+      return `<h3 id="${id}" class="text-lg font-black mt-6 mb-2 text-white">${inlineMarkdown(t)}</h3>`;
+    })
     // H2
-    .replace(/^## (.+)$/gm, (_, t: string) => `<h2 class="text-xl font-black mt-8 mb-3 text-yellow-400 border-b border-slate-700 pb-2">${inlineMarkdown(t)}</h2>`)
+    .replace(/^## (.+)$/gm, (_, t: string) => {
+      const id = headingId(t);
+      return `<h2 id="${id}" class="text-xl font-black mt-8 mb-3 text-yellow-400 border-b border-slate-700 pb-2">${inlineMarkdown(t)}</h2>`;
+    })
     // H1
     .replace(/^# (.+)$/gm, (_, t: string) => `<h1 class="text-2xl font-black mt-8 mb-3 text-white">${inlineMarkdown(t)}</h1>`)
     // Blockquotes
@@ -119,6 +125,31 @@ function renderOrderedList(listBlock: string): string {
       return `<li class="my-1 text-slate-200">${inlineMarkdown(text)}</li>`;
     });
   return `<ol class="list-decimal list-inside space-y-1 my-3 ml-4">${items.join("")}</ol>`;
+}
+
+function headingId(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/** Extract a table of contents from markdown. Returns H2 and H3 entries. */
+export function extractToc(markdown: string): Array<{ id: string; text: string; level: 2 | 3 }> {
+  const toc: Array<{ id: string; text: string; level: 2 | 3 }> = [];
+  for (const line of markdown.split(/\r?\n/)) {
+    const h2 = line.match(/^## (.+)$/);
+    const h3 = line.match(/^### (.+)$/);
+    if (h2) {
+      toc.push({ id: headingId(h2[1]), text: h2[1], level: 2 });
+    } else if (h3) {
+      toc.push({ id: headingId(h3[1]), text: h3[1], level: 3 });
+    }
+  }
+  return toc;
+}
+
+/** Estimate reading time in minutes (200 wpm). */
+export function estimateReadingTime(markdown: string): number {
+  const words = markdown.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 200));
 }
 
 function escapeHtml(s: string): string {

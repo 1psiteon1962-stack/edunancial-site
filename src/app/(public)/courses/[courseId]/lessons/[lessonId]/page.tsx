@@ -3,10 +3,25 @@ import { notFound } from "next/navigation";
 
 import { courses, lessons } from "@/lib/curriculum/production-catalog";
 import { getAdminSession } from "@/lib/admin-content/auth";
+import {
+  getLessonContent,
+  getLessonNavigation,
+  getLessonsForLevel,
+  getAllLessonStaticParams,
+} from "@/lib/curriculum/reader";
+import { renderMarkdown, extractToc, estimateReadingTime } from "@/lib/curriculum/markdown";
 import LessonPageClient from "./LessonPageClient";
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
+}
+
+export async function generateStaticParams() {
+  // Derive static params from both the production catalog and the curriculum registry
+  const catalogParams = Object.values(courses).flatMap((course) =>
+    course.lessons.map((lessonId) => ({ courseId: course.id, lessonId }))
+  );
+  return catalogParams;
 }
 
 export async function generateMetadata({ params }: Props) {
@@ -68,6 +83,27 @@ export default async function LessonPage({ params }: Props) {
     );
   }
 
+  // Load markdown lesson content from the curriculum registry
+  const content = getLessonContent(lessonId);
+  const { prev: registryPrev, next: registryNext } = getLessonNavigation(lessonId);
+
+  let renderedHtml: string | null = null;
+  let toc: Array<{ id: string; text: string; level: 2 | 3 }> = [];
+  let readingTime: number | null = null;
+  let relatedLessons: Array<{ id: string; title: string; lessonNumber: number }> = [];
+
+  if (content) {
+    renderedHtml = renderMarkdown(content.body);
+    toc = extractToc(content.body);
+    readingTime = estimateReadingTime(content.body);
+
+    // Siblings in the same track/level for "Related Lessons"
+    const siblings = getLessonsForLevel(content.meta.track, content.meta.level);
+    relatedLessons = siblings
+      .filter((s) => s.id !== lessonId)
+      .map((s) => ({ id: s.id, title: s.title, lessonNumber: s.lessonNumber }));
+  }
+
   return (
     <LessonPageClient
       courseId={courseId}
@@ -77,6 +113,12 @@ export default async function LessonPage({ params }: Props) {
       courseLessons={courseLessons}
       currentIndex={currentIndex}
       isAdmin={isAdmin}
+      renderedHtml={renderedHtml}
+      toc={toc}
+      readingTime={readingTime}
+      registryPrev={registryPrev ? { id: registryPrev.id, title: registryPrev.title } : null}
+      registryNext={registryNext ? { id: registryNext.id, title: registryNext.title } : null}
+      relatedLessons={relatedLessons}
     />
   );
 }
