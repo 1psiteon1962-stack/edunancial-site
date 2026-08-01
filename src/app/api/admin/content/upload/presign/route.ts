@@ -161,11 +161,10 @@ export async function POST(request: NextRequest) {
         // path injection.
         const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
         const encodedObjectStoragePath = objectStoragePath.split("/").map(encodeURIComponent).join("/");
-        const encodedBucket = encodeURIComponent(bucket);
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
             ? {
-                url: `${supabaseUrl}/storage/v1/object/${encodedBucket}/${encodedObjectStoragePath}`,
+                url: `${supabaseUrl}/storage/v1/object/${encodeURIComponent(bucket)}/${encodedObjectStoragePath}`,
                 headers: {
                   Authorization: "Bearer " + anonKey,
                   apikey: anonKey,
