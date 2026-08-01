@@ -86,17 +86,51 @@ export async function POST(request: NextRequest) {
       process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ??
       null;
 
-    // Validate Supabase connectivity early when we know signed URLs are
-    // unavailable (no service-role key).  This surfaces a "bucket not found"
-    // error in the presign response rather than as a cryptic 404 from the
-    // browser's direct-upload XHR.
-    if (!process.env.SUPABASE_SERVICE_ROLE_KEY && supabaseUrl && anonKey && bucket) {
+    // Validate Supabase connectivity early — this surfaces a misconfigured
+    // NEXT_PUBLIC_SUPABASE_URL (e.g. pointing at the Netlify site instead of
+    // Supabase) or a missing bucket before the browser receives a cryptic HTML
+    // 404 from the direct-upload XHR.
+    //
+    // Run this check unconditionally when direct upload will be used (i.e.
+    // Supabase is configured with an anon key), regardless of whether a
+    // service-role key is also present.  When a service-role key IS set,
+    // SupabaseObjectStorage.ensureBucketExists() also performs this validation
+    // inside getSignedUploadUrl(); this pre-flight check provides an early
+    // signal before per-file processing begins and catches the HTML-response
+    // scenario for the anon-key-only code path.
+    if (supabaseUrl && anonKey && bucket) {
+      const checkKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? anonKey;
       const bucketCheck = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
         method: "GET",
-        headers: { Authorization: "Bearer " + anonKey, apikey: anonKey },
+        headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
         cache: "no-store",
       }).catch(() => null);
-      if (bucketCheck && bucketCheck.status === 404) {
+
+      if (!bucketCheck) {
+        // Network-level failure — cannot reach Supabase at all.
+        throw new Error(
+          `Cannot reach Supabase Storage at ${supabaseUrl}. ` +
+            "Verify NEXT_PUBLIC_SUPABASE_URL is set to your Supabase project URL " +
+            "(e.g. https://xyz.supabase.co) and that the Supabase project is online.",
+        );
+      }
+
+      // An HTML response (Content-Type: text/html) means NEXT_PUBLIC_SUPABASE_URL
+      // is pointing to the wrong host — for example the Netlify site URL.  If
+      // we proceeded, the presign route would construct a directUpload URL
+      // pointing at the same wrong host, and the browser would receive HTML 404
+      // from the direct-upload XHR instead of a Supabase JSON response.
+      const contentType = bucketCheck.headers.get("content-type") ?? "";
+      if (contentType.toLowerCase().includes("text/html")) {
+        throw new Error(
+          `NEXT_PUBLIC_SUPABASE_URL (${supabaseUrl}) appears to be misconfigured — ` +
+            "the Supabase Storage bucket endpoint returned HTML instead of JSON. " +
+            "Set NEXT_PUBLIC_SUPABASE_URL to your Supabase project URL " +
+            "(e.g. https://xyz.supabase.co), not the Netlify site URL.",
+        );
+      }
+
+      if (bucketCheck.status === 404) {
         throw new Error(
           `Supabase storage bucket "${bucket}" does not exist. ` +
             "Create the bucket in your Supabase project (Storage → New bucket) and enable the required RLS policies, " +
@@ -121,11 +155,17 @@ export async function POST(request: NextRequest) {
         // IMPORTANT: the object path sent to Supabase Storage must include the
         // DEFAULT_STORAGE_PREFIX so it matches the path that the finalize route
         // reads via storage.readBinary(storagePath) → objectPath(storagePath).
+        //
+        // Encode each path segment individually (same as SupabaseObjectStorage.request)
+        // so that special characters in any segment never break the URL or allow
+        // path injection.
         const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
+        const encodedObjectStoragePath = objectStoragePath.split("/").map(encodeURIComponent).join("/");
+        const encodedBucket = encodeURIComponent(bucket);
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
             ? {
-                url: supabaseUrl + "/storage/v1/object/" + bucket + "/" + objectStoragePath,
+                url: `${supabaseUrl}/storage/v1/object/${encodedBucket}/${encodedObjectStoragePath}`,
                 headers: {
                   Authorization: "Bearer " + anonKey,
                   apikey: anonKey,

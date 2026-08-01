@@ -271,6 +271,84 @@ describe("admin content upload 404 regression", () => {
 });
 
 // ---------------------------------------------------------------------------
+// Presign route — bucket connectivity check guards
+//
+// Root cause of the production "Direct upload failed (HTTP 404): <!DOCTYPE html>"
+// error: the bucket connectivity check only looked at HTTP status 404.  When
+// NEXT_PUBLIC_SUPABASE_URL is misconfigured to the Netlify site URL, a
+// Next.js catch-all page returns HTTP 200 with Content-Type: text/html.  The
+// status-only check passed silently, the presign route constructed a
+// directUpload URL pointing at the Netlify app, and the browser received HTML
+// 404 from the XHR.
+//
+// Fix: the presign route must also detect HTML content-type in the bucket
+// response and surface a clear configuration error before returning any
+// directUpload URL.
+// ---------------------------------------------------------------------------
+
+describe("presign route — bucket connectivity check guards", () => {
+  test("presign/route.ts runs bucket check unconditionally when Supabase is configured (not only when service-role key is absent)", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
+
+    // The guard condition must NOT gate the bucket check on the absence of
+    // SUPABASE_SERVICE_ROLE_KEY.  Previously it was:
+    //   if (!process.env.SUPABASE_SERVICE_ROLE_KEY && supabaseUrl && anonKey && bucket)
+    // which skipped the check when a service-role key was set, leaving the
+    // HTML-response scenario undetected.
+    assert.doesNotMatch(
+      src,
+      /if\s*\(\s*!process\.env\.SUPABASE_SERVICE_ROLE_KEY\s*&&\s*supabaseUrl/,
+      "presign/route.ts must not gate the bucket connectivity check on SUPABASE_SERVICE_ROLE_KEY being absent",
+    );
+
+    // The bucket check must now run whenever supabaseUrl, anonKey, and bucket
+    // are all configured.
+    assert.match(
+      src,
+      /if\s*\(\s*supabaseUrl\s*&&\s*anonKey\s*&&\s*bucket\s*\)/,
+      "presign/route.ts must run the bucket check whenever supabaseUrl, anonKey, and bucket are all set",
+    );
+  });
+
+  test("presign/route.ts detects HTML response from bucket check and surfaces a clear error", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
+
+    // The bucket check must inspect the Content-Type header and throw when
+    // it contains 'text/html' — this is the signal that NEXT_PUBLIC_SUPABASE_URL
+    // is pointing at the wrong host (e.g. the Netlify site URL).
+    assert.match(
+      src,
+      /content-type.*text\/html|text\/html.*content-type/i,
+      "presign/route.ts must check content-type header for text/html to detect a misconfigured Supabase URL",
+    );
+
+    assert.match(
+      src,
+      /appears to be misconfigured|wrong host|Netlify site URL/,
+      "presign/route.ts must surface a clear error message when the bucket endpoint returns HTML",
+    );
+  });
+
+  test("presign/route.ts URL-encodes bucket and object path segments in directUpload URL", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
+
+    // The directUpload URL must encode segments individually (same as
+    // SupabaseObjectStorage.request) so that special characters in any segment
+    // cannot break the URL.
+    assert.match(
+      src,
+      /encodedObjectStoragePath/,
+      "presign/route.ts must URL-encode objectStoragePath in directUpload.url",
+    );
+    assert.match(
+      src,
+      /encodedBucket/,
+      "presign/route.ts must URL-encode the bucket name in directUpload.url",
+    );
+  });
+});
+
+// ---------------------------------------------------------------------------
 // Curriculum auto-ingest pipeline tests
 //
 // These tests validate that:
