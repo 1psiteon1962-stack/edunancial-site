@@ -10,7 +10,7 @@ const FAKE_BUCKET = "admin-content";
 
 function makeResponse(status: number, body: unknown, contentType?: string): Response {
   const text = typeof body === "string" ? body : JSON.stringify(body);
-  const headers = contentType ? { "content-type": contentType } : {};
+  const headers: Record<string, string> = contentType ? { "content-type": contentType } : {};
   return new Response(text, { status, headers });
 }
 

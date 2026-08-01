@@ -171,22 +171,25 @@ class SupabaseObjectStorage implements AdminContentStorage {
       },
       cache: "no-store",
     });
+
+    // Validate the response is JSON regardless of status — an HTML response
+    // (Content-Type: text/html) at any status code means NEXT_PUBLIC_SUPABASE_URL
+    // is pointing to the wrong host (e.g. the Netlify site URL instead of the
+    // Supabase project URL).  If we allowed this to pass, getSignedUploadUrl()
+    // would silently return null and the presign route would construct a
+    // directUpload URL pointing at the same wrong host — causing the browser to
+    // receive HTML 404 instead of a Supabase JSON response.
+    const contentType = read.headers.get("content-type") ?? "";
+    if (contentType.toLowerCase().includes("text/html")) {
+      throw new Error(
+        `NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured: the Supabase Storage ` +
+          `bucket endpoint returned HTML instead of JSON. ` +
+          "Verify NEXT_PUBLIC_SUPABASE_URL is your Supabase project URL " +
+          "(e.g. https://xyz.supabase.co), not the site or Netlify URL.",
+      );
+    }
+
     if (read.ok) {
-      // Validate the response is JSON — an HTML response (Content-Type: text/html)
-      // means NEXT_PUBLIC_SUPABASE_URL is pointing to the wrong host (e.g. the
-      // Netlify site URL instead of the Supabase project URL).  If we allowed this
-      // to pass, getSignedUploadUrl() would silently return null and the presign
-      // route would construct a directUpload URL pointing at the wrong host —
-      // causing the browser to receive HTML 404 instead of a Supabase JSON response.
-      const contentType = read.headers.get("content-type") ?? "";
-      if (contentType.toLowerCase().includes("text/html")) {
-        throw new Error(
-          `NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured: the Supabase Storage ` +
-            `bucket endpoint returned HTML instead of JSON. ` +
-            "Verify NEXT_PUBLIC_SUPABASE_URL is your Supabase project URL " +
-            "(e.g. https://xyz.supabase.co), not the site or Netlify URL.",
-        );
-      }
       // Bucket already exists — skip creation.
       this.bucketVerified = true;
       return;
