@@ -8,9 +8,18 @@ const FAKE_URL = "https://fake.supabase.co";
 const FAKE_KEY = "service-role-key";
 const FAKE_BUCKET = "admin-content";
 
-function makeResponse(status: number, body: unknown): Response {
+function makeResponse(status: number, body: unknown, contentType?: string): Response {
   const text = typeof body === "string" ? body : JSON.stringify(body);
-  return new Response(text, { status });
+  const headers: Record<string, string> = contentType ? { "content-type": contentType } : {};
+  return new Response(text, { status, headers });
+}
+
+function makeHtmlResponse(status: number): Response {
+  return makeResponse(
+    status,
+    "<!DOCTYPE html><html><head><title>Not Found</title></head><body>404 Not Found</body></html>",
+    "text/html; charset=utf-8",
+  );
 }
 
 describe("SupabaseObjectStorage ensureBucketExists", () => {
@@ -467,5 +476,118 @@ describe("presign directUpload URL path alignment", () => {
       routeSrc.includes("objectStoragePath"),
       "presign/route.ts must use objectStoragePath (prefix + storagePath) for directUpload URL",
     );
+  });
+
+  test("presign route URL-encodes bucket and object path in directUpload URL", () => {
+    // The directUpload URL must encode each path segment individually so that
+    // special characters in bucket names or file paths can never break the URL
+    // or be exploited for path injection.
+    const { readFileSync } = require("node:fs");
+    const path = require("node:path");
+    const routeSrc = readFileSync(
+      path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
+      "utf8",
+    ) as string;
+
+    assert.ok(
+      routeSrc.includes("encodedObjectStoragePath"),
+      "presign/route.ts must URL-encode the objectStoragePath before inserting it into directUpload.url",
+    );
+    assert.ok(
+      routeSrc.includes("encodedBucket"),
+      "presign/route.ts must URL-encode the bucket name before inserting it into directUpload.url",
+    );
+  });
+})
+
+// ---------------------------------------------------------------------------
+// Regression tests: HTML-response detection prevents wrong-host 404
+//
+// Root cause of "Direct upload failed (HTTP 404): <!DOCTYPE html>...":
+//   When NEXT_PUBLIC_SUPABASE_URL is misconfigured to the Netlify site URL,
+//   the bucket connectivity check fetches a URL on the Netlify app.  A
+//   Next.js catch-all page returns HTTP 200 with Content-Type: text/html.
+//   Previously the check only looked at status == 404, so the 200 HTML
+//   passed silently.  The presign route then returned a directUpload.url
+//   pointing at the Netlify app, and the browser's XHR received HTML 404.
+//
+//   Fix: also throw when the bucket check response has Content-Type: text/html.
+// ---------------------------------------------------------------------------
+
+describe("SupabaseObjectStorage ensureBucketExists — HTML response detection", () => {
+  let originalFetch: typeof globalThis.fetch;
+
+  beforeEach(() => {
+    originalFetch = globalThis.fetch;
+    process.env.NEXT_PUBLIC_SUPABASE_URL = FAKE_URL;
+    process.env.SUPABASE_SERVICE_ROLE_KEY = FAKE_KEY;
+    process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = FAKE_BUCKET;
+    resetAdminContentStorage();
+  });
+
+  afterEach(() => {
+    globalThis.fetch = originalFetch;
+    delete process.env.NEXT_PUBLIC_SUPABASE_URL;
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+    delete process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET;
+    resetAdminContentStorage();
+  });
+
+  test("throws with a clear message when bucket GET returns HTTP 200 with text/html (wrong Supabase URL)", async () => {
+    // Simulates NEXT_PUBLIC_SUPABASE_URL pointing at the Netlify site:
+    // the catch-all page returns HTTP 200 with Content-Type: text/html.
+    // Without the HTML check this would have passed as "bucket exists" and
+    // getSignedUploadUrl() would silently return null, causing the presign
+    // route to construct a directUpload URL that also points at the Netlify
+    // site — resulting in "Direct upload failed (HTTP 404): <!DOCTYPE html>".
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
+        return makeHtmlResponse(200);
+      }
+      return makeResponse(200, "{}");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    await assert.rejects(
+      () => storage.listBatches(),
+      /NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured.*HTML instead of JSON/i,
+      "must reject with a clear message when bucket check returns HTML — indicates wrong Supabase URL",
+    );
+  });
+
+  test("throws with a clear message when bucket GET returns HTTP 404 with text/html", async () => {
+    // Simulates NEXT_PUBLIC_SUPABASE_URL pointing at a host that returns
+    // HTML 404 for unknown paths (the original production failure signature).
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
+        return makeHtmlResponse(404);
+      }
+      return makeResponse(200, "{}");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    await assert.rejects(
+      () => storage.listBatches(),
+      /NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured.*HTML instead of JSON/i,
+      "must reject with a clear message when bucket check returns HTML 404",
+    );
+  });
+
+  test("does NOT throw when bucket GET returns HTTP 200 with application/json (correct Supabase URL)", async () => {
+    // Normal happy-path: Supabase returns JSON for a valid bucket.
+    globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
+      const url = input.toString();
+      if (url.includes(`/storage/v1/bucket/${FAKE_BUCKET}`)) {
+        return makeResponse(200, { id: FAKE_BUCKET, name: FAKE_BUCKET }, "application/json");
+      }
+      return makeResponse(200, "[]", "application/json");
+    }) as typeof globalThis.fetch;
+
+    const storage = getAdminContentStorage();
+    // Should not throw — bucket exists and returns valid JSON.
+    const batches = await storage.listBatches();
+    assert.deepEqual(batches, []);
   });
 })
