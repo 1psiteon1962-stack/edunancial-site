@@ -85,7 +85,7 @@ export default function TeachersPage() {
                     </div>
                     <div className="flex items-center gap-4 flex-shrink-0 text-xs text-slate-400">
                       <span>📚 {course.lessons.length} lessons</span>
-                      <Link href={`/courses/${course.id}`} className="text-blue-400 hover:text-blue-300">View</Link>
+                      <Link href={course.href} className="text-blue-400 hover:text-blue-300">View</Link>
                     </div>
                   </div>
                 </div>

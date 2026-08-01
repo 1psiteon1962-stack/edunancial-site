@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { courses, lessons } from "@/lib/curriculum/production-catalog";
+import { getCanonicalCourseHref } from "@/lib/curriculum/routes";
 
 interface Props {
   params: Promise<{ courseId: string }>;
@@ -12,9 +13,16 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { courseId } = await params;
+  const canonicalHref = getCanonicalCourseHref(courseId);
+  if (canonicalHref !== `/courses/${courseId}`) {
+    return { title: "Redirecting… | Edunancial" };
+  }
   const course = courses[courseId];
   if (!course) return { title: "Course Not Found" };
-  return { title: `${course.title} | Edunancial` };
+  return {
+    title: `${course.title} | Edunancial`,
+    description: course.description,
+  };
 }
 
 const difficultyBadge: Record<string, string> = {
@@ -25,6 +33,10 @@ const difficultyBadge: Record<string, string> = {
 
 export default async function CourseDetailPage({ params }: Props) {
   const { courseId } = await params;
+  const canonicalHref = getCanonicalCourseHref(courseId);
+  if (canonicalHref !== `/courses/${courseId}`) {
+    redirect(canonicalHref);
+  }
   const course = courses[courseId];
   if (!course) notFound();
 
@@ -78,7 +90,7 @@ export default async function CourseDetailPage({ params }: Props) {
             <div className={`h-1.5 w-full rounded-full mb-6 ${course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color}`} />
             <p className="text-2xl font-black">Included with Membership</p>
             <Link
-              href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
+              href={course.firstLessonHref ?? course.href}
               className="mt-6 block w-full rounded-xl bg-yellow-500 py-4 text-center font-black text-black text-lg hover:bg-yellow-400 transition"
             >
               {course.isFree ? "Start Free Course" : "Enroll Now"}
@@ -117,7 +129,7 @@ export default async function CourseDetailPage({ params }: Props) {
               {courseLessons.map((lesson, idx) => (
                 <Link
                   key={lesson.id}
-                  href={`/courses/${course.id}/lessons/${lesson.id}`}
+                  href={lesson.href}
                   className="flex items-center gap-4 rounded-xl bg-slate-900 border border-slate-800 px-5 py-4 hover:border-slate-600 transition group"
                 >
                   <div className="h-9 w-9 rounded-full bg-slate-800 group-hover:bg-blue-700 flex items-center justify-center text-sm font-bold transition flex-shrink-0">
@@ -125,7 +137,11 @@ export default async function CourseDetailPage({ params }: Props) {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-bold group-hover:text-yellow-400 transition truncate">{lesson.title}</p>
-                    <p className="text-slate-400 text-xs mt-0.5">{lesson.description.slice(0, 80)}…</p>
+                    <p className="text-slate-400 text-xs mt-0.5">
+                      {lesson.description.length > 80
+                        ? `${lesson.description.slice(0, 80)}…`
+                        : lesson.description}
+                    </p>
                   </div>
                   <div className="flex items-center gap-3 flex-shrink-0">
                     {lesson.quizId && (
@@ -153,7 +169,7 @@ export default async function CourseDetailPage({ params }: Props) {
               .map((related) => (
                 <Link
                   key={related.id}
-                  href={`/courses/${related.id}`}
+                  href={related.href}
                   className="flex items-center gap-3 py-3 border-b border-slate-800 last:border-0 hover:text-yellow-400 transition"
                 >
                   <div className={`h-3 w-3 rounded-full flex-shrink-0 ${related.color.startsWith("bg-slate-2") ? "bg-slate-400" : related.color}`} />

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { courseList } from "@/lib/curriculum/production-catalog";
 import { useState } from "react";
+import { getCanonicalLessonHref } from "@/lib/curriculum/routes";
 
 export default function MyCoursesPage() {
   const [activeTab, setActiveTab] = useState<"in-progress" | "completed" | "all">("in-progress");
@@ -111,7 +112,7 @@ export default function MyCoursesPage() {
                             🎓 View Certificate
                           </Link>
                           <Link
-                            href={`/courses/${course.id}/lessons/${firstLesson}`}
+                            href={getCanonicalLessonHref(course.id, firstLesson)}
                             className="rounded-xl border border-slate-600 px-5 py-2.5 text-center text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
                           >
                             Review
@@ -119,14 +120,14 @@ export default function MyCoursesPage() {
                         </>
                       ) : (
                         <Link
-                          href={`/courses/${course.id}/lessons/${nextLesson}`}
+                          href={getCanonicalLessonHref(course.id, nextLesson)}
                           className="rounded-xl bg-yellow-500 px-5 py-2.5 text-center text-sm font-black text-black hover:bg-yellow-400 transition"
                         >
                           {course.pct === 0 ? "Start" : "Continue"} →
                         </Link>
                       )}
                       <Link
-                        href={`/courses/${course.id}`}
+                        href={course.href}
                         className="text-center text-xs text-slate-400 hover:text-white"
                       >
                         Course Overview

@@ -24,7 +24,7 @@ function buildIndex(): SearchResult[] {
       type: "course",
       title: c.title,
       subtitle: c.subtitle,
-      href: `/courses/${c.id}`,
+      href: c.href,
       tag: c.category,
     });
   });
@@ -35,7 +35,7 @@ function buildIndex(): SearchResult[] {
       type: "lesson",
       title: l.title,
       subtitle: l.description,
-      href: `/courses/${l.courseId}/lessons/${l.id}`,
+      href: l.href,
       tag: l.duration,
     });
   });

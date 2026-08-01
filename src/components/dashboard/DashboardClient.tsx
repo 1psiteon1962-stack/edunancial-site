@@ -410,7 +410,7 @@ export default function DashboardClient() {
 
                   <div className="mt-6 flex flex-wrap gap-3">
                     <Link
-                      href={`/courses/${path.courseId}`}
+                      href={`/curriculum/${path.code.toLowerCase()}`}
                       className="rounded-xl bg-slate-800 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                     >
                       Open Path

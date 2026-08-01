@@ -37,7 +37,7 @@ function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: stri
         {featured.map((course) => (
           <Link
             key={course.id}
-            href={`/courses/${course.id}`}
+            href={course.href}
             className="group overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 transition hover:border-slate-600"
           >
             <div className={`h-1.5 w-full ${course.color.startsWith("bg-slate-2") ? "bg-slate-300" : course.color}`} />
@@ -85,7 +85,7 @@ export default function CoursesPageClient() {
           {tracks.map((track) => (
             <Link
               key={track}
-              href={`/courses/${track}`}
+              href={`/curriculum/${track}`}
               className={`${trackStyles[track]} rounded-2xl p-10 transition hover:opacity-90`}
             >
               <h2 className="text-5xl font-black">{track.toUpperCase()}</h2>
