@@ -1,7 +1,15 @@
 import type { ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 import { slugify } from "@/lib/admin-content/utils";
-import { validateCurriculumFiles } from "@/lib/admin-content/curriculum";
+import {
+  buildRegistryEntry,
+  detectCurriculumAsset,
+  upsertRegistryEntries,
+  validateCurriculumFiles,
+  type CurriculumRegistry,
+} from "@/lib/admin-content/curriculum";
 import { verifyDestinationPath } from "@/lib/admin-content/security";
+
+const CURRICULUM_REGISTRY_PATH = "curriculum/registry.json";
 
 const DEFAULT_BASE_BRANCH = "main";
 
@@ -29,6 +37,22 @@ async function githubRequest(path: string, init: RequestInit = {}) {
   return response.json() as Promise<Record<string, unknown>>;
 }
 
+/**
+ * Fetch the current curriculum/registry.json from the default branch via the
+ * GitHub Contents API.  Returns null when the file does not yet exist so the
+ * caller can start from an empty registry on the first import.
+ */
+async function fetchCurrentRegistry(): Promise<CurriculumRegistry | null> {
+  try {
+    const data = await githubRequest(`/contents/${CURRICULUM_REGISTRY_PATH}`);
+    if (!data.content || typeof data.content !== "string") return null;
+    const raw = Buffer.from(data.content as string, "base64").toString("utf8");
+    return JSON.parse(raw) as CurriculumRegistry;
+  } catch {
+    return null;
+  }
+}
+
 export async function createGithubPullRequest(batch: UploadBatch, exportPackage: ExportPackage) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
 
@@ -36,10 +60,38 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     throw new Error("No approved files to publish. Approve at least one file before publishing.");
   }
 
+  // ---------------------------------------------------------------------------
+  // Phase 1: resolve the final destination for each approved file.
+  //
+  // For files that contain valid curriculum front-matter (id: TRACK-L{n}-{nnn})
+  // we override the destination to the canonical curriculum path
+  // `content/curriculum/{TRACK}/L{n}/{id}.md`.  This ensures that uploading
+  // RED-Level-1-Combined.md or any other lesson markdown causes the lesson to
+  // land at the correct path and become discoverable through the curriculum
+  // system without requiring any manual code changes.
+  // ---------------------------------------------------------------------------
+  const ingestionId = crypto.randomUUID();
+  const ingestionTimestamp = new Date().toISOString();
+
+  type ResolvedFile = (typeof approvedFiles)[number] & {
+    resolvedDestination: string;
+    curriculumAsset: Awaited<ReturnType<typeof detectCurriculumAsset>>;
+  };
+
+  const resolvedFiles: ResolvedFile[] = await Promise.all(
+    approvedFiles.map(async (file) => {
+      const rawContent = file.rawText ?? Buffer.from(file.encodedContent, "base64").toString("utf8");
+      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(rawContent) : null;
+      const resolvedDestination = curriculumAsset
+        ? curriculumAsset.canonicalPath
+        : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
+      return { ...file, resolvedDestination, curriculumAsset };
+    }),
+  );
+
   // Detect in-batch duplicate destination paths before hitting the GitHub API.
-  const destinationCounts = approvedFiles.reduce<Record<string, number>>((acc, file) => {
-    const dest = file.classification.destination || file.metadata.intendedDestination;
-    acc[dest] = (acc[dest] ?? 0) + 1;
+  const destinationCounts = resolvedFiles.reduce<Record<string, number>>((acc, file) => {
+    acc[file.resolvedDestination] = (acc[file.resolvedDestination] ?? 0) + 1;
     return acc;
   }, {});
   const duplicateDestinations = Object.entries(destinationCounts)
@@ -52,9 +104,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   }
 
   const validation = await validateCurriculumFiles(
-    approvedFiles.map((file) => ({
-      destination: verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination),
-      content: file.rawText,
+    resolvedFiles.map((file) => ({
+      destination: file.resolvedDestination,
+      content: file.rawText ?? "",
     })),
   );
   if (!validation.success) {
@@ -79,20 +131,65 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   });
 
   const blobs = await Promise.all(
-    approvedFiles.map(async (file) => {
-      const destination = verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
+    resolvedFiles.map(async (file) => {
       const blob = await githubRequest("/git/blobs", {
         method: "POST",
         body: JSON.stringify({ content: Buffer.from(file.encodedContent, "base64").toString("base64"), encoding: "base64" }),
       });
-      return { path: destination, mode: "100644", type: "blob", sha: blob.sha as string };
+      return { path: file.resolvedDestination, mode: "100644", type: "blob", sha: blob.sha as string };
     }),
   );
 
+  // ---------------------------------------------------------------------------
+  // Phase 2: if any files are curriculum assets, fetch the current registry and
+  // build an updated version that includes the new entries.  The updated
+  // registry is included in the same commit so the lesson becomes discoverable
+  // immediately after the PR is merged and the site is redeployed — no manual
+  // `npm run curriculum:import` or code changes are required.
+  // ---------------------------------------------------------------------------
+  const curriculumFiles = resolvedFiles.filter((f) => f.curriculumAsset !== null);
+  let registryIncludedInPr = false;
+
+  if (curriculumFiles.length > 0) {
+    try {
+      const existingRegistry = await fetchCurrentRegistry();
+      const newEntries = curriculumFiles.map((file) => {
+        const contentBytes = Buffer.from(file.encodedContent, "base64");
+        return buildRegistryEntry(
+          file.curriculumAsset!,
+          contentBytes,
+          ingestionId,
+          ingestionTimestamp,
+          file.checksum ? `sha256:${file.checksum}` : undefined,
+        );
+      });
+      const updatedRegistry = upsertRegistryEntries(existingRegistry, newEntries);
+      const registryBlob = await githubRequest("/git/blobs", {
+        method: "POST",
+        body: JSON.stringify({
+          content: Buffer.from(JSON.stringify(updatedRegistry, null, 2) + "\n").toString("base64"),
+          encoding: "base64",
+        }),
+      });
+      blobs.push({
+        path: CURRICULUM_REGISTRY_PATH,
+        mode: "100644",
+        type: "blob",
+        sha: registryBlob.sha as string,
+      });
+      registryIncludedInPr = true;
+    } catch (registryError) {
+      // Registry update is best-effort: if it fails (e.g. GitHub API is
+      // temporarily unavailable) the content files are still committed.  The
+      // admin can run `npm run curriculum:import` manually as a fallback.
+      console.error("curriculum registry update failed (non-fatal):", registryError);
+    }
+  }
+
   // Rich manifest: includes per-file metadata for traceability.
-  const manifestEntries = approvedFiles.map((file) => ({
+  const manifestEntries = resolvedFiles.map((file) => ({
     sourceFilename: file.originalFilename,
-    destinationPath: verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination),
+    destinationPath: file.resolvedDestination,
     title: file.metadata.title,
     track: file.metadata.pillar,
     level: file.metadata.academyLevel,
@@ -102,6 +199,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     batchId: batch.id,
     uploadTimestamp: file.updatedAt,
     checksum: file.checksum,
+    curriculumAssetId: file.curriculumAsset?.id ?? null,
   }));
   const manifest = {
     batchId: batch.id,
@@ -110,6 +208,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     branch: branchName,
     files: manifestEntries,
     validation,
+    registryUpdated: registryIncludedInPr,
+    curriculumAssets: curriculumFiles.length,
   };
   const manifestBlob = await githubRequest("/git/blobs", {
     method: "POST",
@@ -145,13 +245,13 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   });
 
   const counts = {
-    approved: approvedFiles.length,
+    approved: resolvedFiles.length,
     rejected: batch.files.filter((file) => file.reviewStatus === "rejected").length,
     duplicates: batch.files.filter((file) => file.conflictStatus === "exact-duplicate" || file.conflictStatus === "probable-duplicate").length,
     conflicts: batch.files.filter((file) => file.conflictStatus === "destination-conflict" || file.conflictStatus === "classification-conflict").length,
   };
-  const destinationSummary = approvedFiles.reduce<Record<string, number>>((accumulator, file) => {
-    const key = file.classification.destination;
+  const destinationSummary = resolvedFiles.reduce<Record<string, number>>((accumulator, file) => {
+    const key = file.resolvedDestination;
     accumulator[key] = (accumulator[key] ?? 0) + 1;
     return accumulator;
   }, {});
@@ -169,6 +269,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Rejected: ${counts.rejected}`,
         `Duplicates: ${counts.duplicates}`,
         `Conflicts: ${counts.conflicts}`,
+        `Curriculum assets: ${curriculumFiles.length}`,
+        `Registry updated in PR: ${registryIncludedInPr}`,
         `Validation success: ${validation.success}`,
         `Validation warnings: ${validation.warnings.join("; ") || "None"}`,
         `Destination summary: ${Object.entries(destinationSummary).map(([path, count]) => `${count} -> ${path}`).join(", ")}`,
