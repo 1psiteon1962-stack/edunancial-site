@@ -24,11 +24,11 @@ import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
+type FileDescriptor = { name: string; size: number; type: string };
+
 // Netlify synchronous functions allow up to 26 s; use the maximum to allow
 // bucket-existence check on cold-start without timing out.
 export const maxDuration = 26;
-
-type FileDescriptor = { name: string; size: number; type: string };
 
 export async function POST(request: NextRequest) {
   try {
@@ -161,10 +161,11 @@ export async function POST(request: NextRequest) {
         // path injection.
         const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
         const encodedObjectStoragePath = objectStoragePath.split("/").map(encodeURIComponent).join("/");
+        const encodedBucket = encodeURIComponent(bucket);
         const directUpload =
           !signedUrl && supabaseUrl && anonKey && bucket
             ? {
-                url: `${supabaseUrl}/storage/v1/object/${encodeURIComponent(bucket)}/${encodedObjectStoragePath}`,
+                url: `${supabaseUrl}/storage/v1/object/${encodedBucket}/${encodedObjectStoragePath}`,
                 headers: {
                   Authorization: "Bearer " + anonKey,
                   apikey: anonKey,
