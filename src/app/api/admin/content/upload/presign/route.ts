@@ -31,10 +31,10 @@ export const maxDuration = 26;
 type FileDescriptor = { name: string; size: number; type: string };
 
 export async function POST(request: NextRequest) {
-  const auth = await requireAdminApiSession(request, true);
-  if (!auth.ok) return auth.response;
-
   try {
+    const auth = await requireAdminApiSession(request, true);
+    if (!auth.ok) return auth.response;
+
     const limited = checkRateLimit(
       getRateLimitKey("admin-upload", request),
       DEFAULT_UPLOAD_RATE_LIMIT.maxRequests,
@@ -144,8 +144,18 @@ export async function POST(request: NextRequest) {
       }),
     );
 
-    return Response.json({ batchId, batchSlug, uploads });
+    return Response.json({ success: true, batchId, batchSlug, uploads });
   } catch (error) {
-    return Response.json({ error: (error as Error).message }, { status: 400 });
+    const err = error as Error;
+    const body: Record<string, unknown> = {
+      success: false,
+      error: err.message ?? "Presign failed.",
+      reason: err.name ?? "UnknownError",
+      status: 400,
+    };
+    if (process.env.NODE_ENV !== "production") {
+      body.stack = err.stack;
+    }
+    return Response.json(body, { status: 400 });
   }
 }

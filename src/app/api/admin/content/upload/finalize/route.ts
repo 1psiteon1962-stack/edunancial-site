@@ -33,10 +33,10 @@ type FinalizeBody = {
 };
 
 export async function POST(request: NextRequest) {
-  const auth = await requireAdminApiSession(request, true);
-  if (!auth.ok) return auth.response;
-
   try {
+    const auth = await requireAdminApiSession(request, true);
+    if (!auth.ok) return auth.response;
+
     const body = (await request.json()) as FinalizeBody;
 
     const { batchId, uploads } = body;
@@ -68,8 +68,18 @@ export async function POST(request: NextRequest) {
       uploads,
     });
 
-    return Response.json({ batch }, { status: 201 });
+    return Response.json({ success: true, batch }, { status: 201 });
   } catch (error) {
-    return Response.json({ error: (error as Error).message }, { status: 400 });
+    const err = error as Error;
+    const body: Record<string, unknown> = {
+      success: false,
+      error: err.message ?? "Finalize failed.",
+      reason: err.name ?? "UnknownError",
+      status: 400,
+    };
+    if (process.env.NODE_ENV !== "production") {
+      body.stack = err.stack;
+    }
+    return Response.json(body, { status: 400 });
   }
 }

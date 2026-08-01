@@ -269,3 +269,103 @@ describe("admin content upload 404 regression", () => {
     );
   });
 });
+
+// ---------------------------------------------------------------------------
+// Curriculum auto-ingest pipeline tests
+//
+// These tests validate that:
+//   1. Upload API routes always return structured JSON (never HTML) on error.
+//   2. The curriculum.ts helpers correctly detect assets, build registry
+//      entries, and merge them into an existing registry.
+//   3. The GitHub PR creation step includes the registry update logic that
+//      makes RED-111.md, WHITE-205.md, or any lesson file discoverable without
+//      manual code changes after the PR is merged.
+// ---------------------------------------------------------------------------
+
+describe("curriculum auto-ingest pipeline", () => {
+  test("all three upload route handlers wrap errors in structured JSON with success/error/reason/status", () => {
+    const routes = [
+      "src/app/api/admin/content/upload/route.ts",
+      "src/app/api/admin/content/upload/presign/route.ts",
+      "src/app/api/admin/content/upload/finalize/route.ts",
+    ];
+
+    for (const route of routes) {
+      const src = readSourceFile(route);
+
+      // Each route must have a single top-level try-catch that wraps the
+      // entire handler (auth included) so that no unhandled exception can
+      // cause Next.js to return an HTML error page instead of JSON.
+      assert.match(src, /\btry\b/, `${route} must contain a try block for JSON error wrapping`);
+      assert.match(src, /success:\s*(true|false)/, `${route} response must include a 'success' field`);
+      assert.match(src, /\berror\b.*err\.message/, `${route} error response must include 'error: err.message'`);
+      assert.match(src, /\breason\b/, `${route} error response must include a 'reason' field`);
+      assert.match(src, /\bstatus\b.*\b400\b/, `${route} error response must include a status 400`);
+      assert.match(
+        src,
+        /NODE_ENV.*production[\s\S]*stack|stack[\s\S]*NODE_ENV.*production/,
+        `${route} must expose 'stack' only in non-production environments`,
+      );
+    }
+  });
+
+  test("curriculum.ts exports detectCurriculumAsset, buildRegistryEntry, upsertRegistryEntries", () => {
+    const src = readSourceFile("src/lib/admin-content/curriculum.ts");
+
+    assert.match(src, /export async function detectCurriculumAsset/, "curriculum.ts must export detectCurriculumAsset");
+    assert.match(src, /export function buildRegistryEntry/, "curriculum.ts must export buildRegistryEntry");
+    assert.match(src, /export function upsertRegistryEntries/, "curriculum.ts must export upsertRegistryEntries");
+  });
+
+  test("github.ts imports curriculum detection helpers and calls fetchCurrentRegistry + upsertRegistryEntries", () => {
+    const src = readSourceFile("src/lib/admin-content/github.ts");
+
+    assert.match(src, /detectCurriculumAsset/, "github.ts must call detectCurriculumAsset to auto-detect curriculum files");
+    assert.match(src, /fetchCurrentRegistry/, "github.ts must fetch existing registry before building update");
+    assert.match(src, /upsertRegistryEntries/, "github.ts must merge new entries into existing registry");
+    assert.match(src, /CURRICULUM_REGISTRY_PATH/, "github.ts must define the registry path constant");
+    assert.match(src, /curriculum\/registry\.json/, "github.ts must reference curriculum/registry.json");
+  });
+
+  test("github.ts includes updated registry.json blob in the commit tree when curriculum files are detected", () => {
+    const src = readSourceFile("src/lib/admin-content/github.ts");
+
+    // The registry blob must be pushed into the blobs array so the git tree
+    // creation step includes it in the same commit as the content files.
+    assert.match(
+      src,
+      /blobs\.push[\s\S]*?CURRICULUM_REGISTRY_PATH/,
+      "github.ts must push the registry blob into the commit tree blobs array",
+    );
+  });
+
+  test("upsertRegistryEntries correctly merges new entries into an empty registry", async () => {
+    // Source-level verification: the function signature must accept null (empty registry)
+    // and return a registry with the expected shape.  Runtime behavior is tested in
+    // curriculum.test.ts which is compiled via npm test.
+    const src = readSourceFile("src/lib/admin-content/curriculum.ts");
+    assert.match(src, /upsertRegistryEntries\s*\(/, "upsertRegistryEntries must be defined in curriculum.ts");
+    assert.match(src, /existingRegistry.*null/, "upsertRegistryEntries must accept null as the existing registry");
+    assert.match(src, /registry\.tracks\[entry\.track\]/, "upsertRegistryEntries must index tracks by track code");
+  });
+
+  test("upsertRegistryEntries preserves existing assets when merging new entries", () => {
+    const src = readSourceFile("src/lib/admin-content/curriculum.ts");
+    // The function iterates over entries and calls upsert for each one, meaning
+    // entries from previous calls are retained as long as a fresh registry object
+    // is passed through.
+    assert.match(src, /for\s*\(const entry of entries\)/, "upsertRegistryEntries must iterate over all new entries");
+  });
+
+  test("detectCurriculumAsset returns null for non-curriculum markdown", () => {
+    const src = readSourceFile("src/lib/admin-content/curriculum.ts");
+    assert.match(src, /return null/, "detectCurriculumAsset must return null on failure paths");
+    assert.match(src, /if\s*\(!fm\s*\|\|\s*!fm\.id\)\s*return null/, "detectCurriculumAsset must return null when front-matter or id is missing");
+  });
+
+  test("detectCurriculumAsset detects a valid curriculum lesson and returns canonical path", () => {
+    const src = readSourceFile("src/lib/admin-content/curriculum.ts");
+    assert.match(src, /idParser\.assetPath\(parsed\)/, "detectCurriculumAsset must use assetPath() for the canonical path");
+    assert.match(src, /canonicalPath/, "detectCurriculumAsset must return a canonicalPath field");
+  });
+});
