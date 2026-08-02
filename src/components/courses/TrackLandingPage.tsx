@@ -96,7 +96,7 @@ function getTrackContent(
     path: [1, 2, 3].map((index) => t(`track.${track}.path.${index}`)),
     comingSoon: [1, 2].map((index) => t(`track.${track}.comingSoon.${index}`)),
     primaryCta: {
-      href: track === "red" ? "/courses/red-real-estate" : track === "white" ? "/courses/white-paper-assets" : "/courses/blue-business",
+      href: track === "red" ? "/curriculum/red" : track === "white" ? "/curriculum/white" : "/curriculum/blue",
       label: t(`track.${track}.primaryCta`),
     },
     secondaryCta: {
