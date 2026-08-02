@@ -381,8 +381,13 @@ export async function createUploadBatchFromStoredFiles(
 
   for (const upload of uploads) {
     try {
+      console.log(`[finalize] reading storagePath=${upload.storagePath} uploadId=${upload.uploadId} file=${upload.originalFilename}`);
       const buffer = await storage.readBinary(upload.storagePath);
-      if (!buffer) throw new Error(`File not found in storage after upload: ${upload.originalFilename}`);
+      if (!buffer) {
+        console.log(`[finalize] NOT FOUND storagePath=${upload.storagePath} — file was not found after upload`);
+        throw new Error(`File not found in storage after upload: ${upload.originalFilename}`);
+      }
+      console.log(`[finalize] found storagePath=${upload.storagePath} bytes=${buffer.length}`);
 
       validateFileSize(buffer.length);
       const { safeName, extension, detectedMime } = validateFileType(upload.originalFilename, upload.mimeType, buffer);

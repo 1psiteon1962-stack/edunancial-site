@@ -256,7 +256,10 @@ class SupabaseObjectStorage implements AdminContentStorage {
     // Encode each path segment individually to prevent URL injection while
     // preserving the '/' separators expected by the Supabase Storage API.
     const encodedPath = path.split("/").map(encodeURIComponent).join("/");
-    const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${encodedPath}`, {
+    const method = (init.method ?? "GET").toUpperCase();
+    const storageUrl = `${url}/storage/v1/object/${this.bucket}/${encodedPath}`;
+    console.log(`[storage] ${method} bucket=${this.bucket} path=${path}`);
+    const response = await fetch(storageUrl, {
       ...init,
       headers: {
         Authorization: "Bearer " + key,
@@ -266,8 +269,25 @@ class SupabaseObjectStorage implements AdminContentStorage {
       },
       cache: "no-store",
     });
+    console.log(`[storage] ${method} status=${response.status} path=${path}`);
     if (!response.ok && response.status !== 404) {
-      throw new Error(`Supabase storage request failed: ${response.status} ${await response.text()}`);
+      // Supabase Storage sometimes returns HTTP 400 (not 404) with a JSON body
+      // whose `statusCode` is the string "404" and `error` is "NoSuchKey" for
+      // missing objects — exactly the same quirk observed for missing buckets in
+      // ensureBucketExists.  Treat this shape as "not found" so readBinary can
+      // return null gracefully instead of propagating an error.
+      let bodyText = "";
+      try {
+        bodyText = await response.text();
+        const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string };
+        if (String(body?.statusCode) === "404" || body?.error === "NoSuchKey") {
+          console.log(`[storage] ${method} treating 400+NoSuchKey as 404 for path=${path}`);
+          return new Response(bodyText, { status: 404, headers: { "content-type": "application/json" } });
+        }
+      } catch {
+        // Non-JSON body — not a NoSuchKey signal; fall through to hard error.
+      }
+      throw new Error(`Supabase storage request failed: ${response.status} ${bodyText}`);
     }
     return response;
   }
@@ -309,17 +329,27 @@ class SupabaseObjectStorage implements AdminContentStorage {
   }
 
   async saveBinary(path: string, content: Buffer, contentType: string) {
-    await this.request(this.objectPath(path), {
+    const fullPath = this.objectPath(path);
+    console.log(`[storage] saveBinary storagePath=${path} objectPath=${fullPath} bucket=${this.bucket} bytes=${content.length}`);
+    await this.request(fullPath, {
       method: "POST",
       headers: { "content-type": contentType },
       body: new Uint8Array(content),
     });
+    console.log(`[storage] saveBinary complete storagePath=${path}`);
   }
 
   async readBinary(path: string) {
-    const response = await this.request(this.objectPath(path));
-    if (response.status === 404) return null;
-    return Buffer.from(await response.arrayBuffer());
+    const fullPath = this.objectPath(path);
+    console.log(`[storage] readBinary storagePath=${path} objectPath=${fullPath} bucket=${this.bucket}`);
+    const response = await this.request(fullPath);
+    if (response.status === 404) {
+      console.log(`[storage] readBinary NOT FOUND storagePath=${path}`);
+      return null;
+    }
+    const buffer = Buffer.from(await response.arrayBuffer());
+    console.log(`[storage] readBinary found storagePath=${path} bytes=${buffer.length}`);
+    return buffer;
   }
 
   async deleteBinary(path: string) {
@@ -367,6 +397,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const encodedObjectPath = objectPath.split("/").map(encodeURIComponent).join("/");
     await this.ensureBucketExists();
 
+    console.log(`[storage] getSignedUploadUrl path=${path} objectPath=${objectPath} bucket=${this.bucket}`);
     const response = await fetch(`${url}/storage/v1/object/sign/upload/${this.bucket}/${encodedObjectPath}`, {
       method: "POST",
       headers: {
@@ -379,6 +410,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     if (!response.ok) {
       // Signed URL creation failed; caller falls back to direct anon-key upload
       // or legacy API-proxied upload.  Do not throw so the upload can still proceed.
+      console.log(`[storage] getSignedUploadUrl FAILED status=${response.status} path=${path}`);
       return null;
     }
 
@@ -388,23 +420,21 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const signedPath = data.signedURL.trim();
     if (!signedPath) return null;
 
+    let resolvedUrl: string;
     if (/^https?:\/\//i.test(signedPath)) {
-      return signedPath;
+      resolvedUrl = signedPath;
+    } else if (signedPath.startsWith("/storage/v1/")) {
+      resolvedUrl = `${url}${signedPath}`;
+    } else if (signedPath.startsWith("storage/v1/")) {
+      resolvedUrl = `${url}/${signedPath}`;
+    } else if (signedPath.startsWith("/")) {
+      resolvedUrl = `${url}/storage/v1${signedPath}`;
+    } else {
+      resolvedUrl = `${url}/storage/v1/${signedPath}`;
     }
 
-    if (signedPath.startsWith("/storage/v1/")) {
-      return `${url}${signedPath}`;
-    }
-
-    if (signedPath.startsWith("storage/v1/")) {
-      return `${url}/${signedPath}`;
-    }
-
-    if (signedPath.startsWith("/")) {
-      return `${url}/storage/v1${signedPath}`;
-    }
-
-    return `${url}/storage/v1/${signedPath}`;
+    console.log(`[storage] getSignedUploadUrl OK path=${path} signedUrl=${resolvedUrl.substring(0, 120)}...`);
+    return resolvedUrl;
   }
 }
 

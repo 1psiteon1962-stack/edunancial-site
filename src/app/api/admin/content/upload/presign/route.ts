@@ -153,6 +153,7 @@ export async function POST(request: NextRequest) {
         const uploadId = createId("upload");
         const safeName = assertValidUploadName(file.name);
         const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
+        console.log(`[presign] file=${file.name} batchId=${batchId} uploadId=${uploadId} storagePath=${storagePath}`);
 
         // Try signed URL first (requires SUPABASE_SERVICE_ROLE_KEY on server).
         // When a signed URL is available the browser PUTs directly to Supabase;
@@ -167,6 +168,7 @@ export async function POST(request: NextRequest) {
         // subject to RLS — without an explicit INSERT policy for the anon role
         // every such upload fails with HTTP 400 / RLS violation.
         const signedUrl = storage ? await storage.getSignedUploadUrl(storagePath) : null;
+        console.log(`[presign] storagePath=${storagePath} signedUrl=${signedUrl ? "obtained" : "null (will use server-proxied upload)"}`);
 
         return {
           uploadId,
