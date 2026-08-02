@@ -26,6 +26,8 @@
     "src/lib/payments/emailAutomation.test.ts",
     "src/lib/payments/membershipLifecycle.ts",
     "src/lib/payments/membershipLifecycle.test.ts",
+    "src/lib/curriculum/academies.ts",
+    "src/lib/curriculum/academies.test.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
     "src/lib/content-loader/**/*.ts"
