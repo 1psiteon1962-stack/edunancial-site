@@ -6,7 +6,7 @@ import { describe, test } from 'node:test';
 
 import { checksumBuffer } from '../lib/checksum.mjs';
 import { assetPath, parseAssetId } from '../lib/id-parser.mjs';
-import { ANSWER_KEY_INDICATORS, FORBIDDEN_EXTENSIONS, TRACKS } from '../lib/taxonomy.mjs';
+import { ANSWER_KEY_INDICATORS, FORBIDDEN_EXTENSIONS, LESSON_ID_PATTERN, TRACKS } from '../lib/taxonomy.mjs';
 import { parseFrontMatter, validateLesson } from '../lib/validator.mjs';
 import { extractZip } from '../lib/zip.mjs';
 
@@ -99,6 +99,38 @@ describe('taxonomy', () => {
     assert.equal(TRACKS.PURPLE.name, 'Law');
     assert.equal(TRACKS.ORANGE.name, 'Sales & Marketing');
     assert.equal(TRACKS.BLACK.name, 'Leadership & Executive Management');
+  });
+
+  test('primary academies RED, WHITE, BLUE are present and ordered first', () => {
+    const trackCodes = Object.keys(TRACKS);
+    assert.ok(trackCodes.includes('RED'), 'RED must be in taxonomy');
+    assert.ok(trackCodes.includes('WHITE'), 'WHITE must be in taxonomy');
+    assert.ok(trackCodes.includes('BLUE'), 'BLUE must be in taxonomy');
+  });
+
+  test('lesson ID pattern accepts RED Levels 1-5', () => {
+    for (let level = 1; level <= 5; level++) {
+      const id = `RED-L${level}-001`;
+      assert.match(id, LESSON_ID_PATTERN, `${id} must match LESSON_ID_PATTERN`);
+    }
+  });
+
+  test('lesson ID pattern accepts WHITE Levels 1-5', () => {
+    for (let level = 1; level <= 5; level++) {
+      const id = `WHITE-L${level}-010`;
+      assert.match(id, LESSON_ID_PATTERN, `${id} must match LESSON_ID_PATTERN`);
+    }
+  });
+
+  test('lesson ID pattern accepts BLUE Levels 1-5', () => {
+    for (let level = 1; level <= 5; level++) {
+      const id = `BLUE-L${level}-005`;
+      assert.match(id, LESSON_ID_PATTERN, `${id} must match LESSON_ID_PATTERN`);
+    }
+  });
+
+  test('lesson ID pattern rejects levels above 9', () => {
+    assert.doesNotMatch('RED-L0-001', LESSON_ID_PATTERN, 'Level 0 must be rejected');
   });
 });
 
