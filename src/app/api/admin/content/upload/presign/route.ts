@@ -9,14 +9,23 @@
  * SUPABASE_SERVICE_ROLE_KEY is configured, a time-limited signed upload URL
  * for each file so the browser can PUT the bytes directly to Supabase Storage.
  *
- * If signed URLs are unavailable (anon-key-only deployment or local dev) the
- * response sets signedUrl to null and includes a directUpload spec with the
- * anon-key credentials the browser can use instead.
+ * If signed URLs are unavailable (no SUPABASE_SERVICE_ROLE_KEY, or local dev)
+ * the response sets both signedUrl and directUpload to null so the upload
+ * client falls back to the legacy server-proxied upload endpoint, which reads
+ * the file bytes on the server and writes to storage using the service-role
+ * key — bypassing RLS entirely.
+ *
+ * The previous anon-key directUpload fallback has been intentionally removed.
+ * Browser uploads authenticated only with the anon key are subject to Supabase
+ * RLS policies on storage.objects; without an explicit INSERT policy for the
+ * anon role every such upload fails with HTTP 400 / "new row violates
+ * row-level security policy".  Using the server-proxied fallback avoids this
+ * because the server holds SUPABASE_SERVICE_ROLE_KEY, which bypasses RLS.
  */
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { DEFAULT_STORAGE_PREFIX, DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
+import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
@@ -81,6 +90,7 @@ export async function POST(request: NextRequest) {
     // admin portal, which is already behind session + CSRF guards.
     const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/, "") || null;
     const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? null;
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? null;
     const bucket =
       process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ??
       process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ??
@@ -91,15 +101,14 @@ export async function POST(request: NextRequest) {
     // Supabase) or a missing bucket before the browser receives a cryptic HTML
     // 404 from the direct-upload XHR.
     //
-    // Run this check unconditionally when direct upload will be used (i.e.
-    // Supabase is configured with an anon key), regardless of whether a
-    // service-role key is also present.  When a service-role key IS set,
-    // SupabaseObjectStorage.ensureBucketExists() also performs this validation
-    // inside getSignedUploadUrl(); this pre-flight check provides an early
-    // signal before per-file processing begins and catches the HTML-response
-    // scenario for the anon-key-only code path.
-    if (supabaseUrl && anonKey && bucket) {
-      const checkKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? anonKey;
+    // Run this check whenever any Supabase key is configured (service-role or
+    // anon), unconditionally of which upload path will be taken.  When a
+    // service-role key IS set, SupabaseObjectStorage.ensureBucketExists() also
+    // performs this validation inside getSignedUploadUrl(); this pre-flight
+    // check provides an earlier signal and catches the HTML-response scenario
+    // for all code paths.
+    const checkKey = serviceRoleKey ?? anonKey;
+    if (supabaseUrl && checkKey && bucket) {
       const bucketCheck = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
         method: "GET",
         headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
@@ -133,7 +142,7 @@ export async function POST(request: NextRequest) {
       if (bucketCheck.status === 404) {
         throw new Error(
           `Supabase storage bucket "${bucket}" does not exist. ` +
-            "Create the bucket in your Supabase project (Storage → New bucket) and enable the required RLS policies, " +
+            "Create the bucket in your Supabase project (Storage → New bucket), " +
             "or configure SUPABASE_SERVICE_ROLE_KEY so the server can create it automatically.",
         );
       }
@@ -146,40 +155,25 @@ export async function POST(request: NextRequest) {
         const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
 
         // Try signed URL first (requires SUPABASE_SERVICE_ROLE_KEY on server).
+        // When a signed URL is available the browser PUTs directly to Supabase;
+        // the signed-URL token authenticates the upload and bypasses RLS.
+        //
+        // When no signed URL is available, both signedUrl and directUpload are
+        // null so the upload client falls back to the server-proxied legacy
+        // endpoint, which sends file bytes through the Next.js function.  The
+        // server writes to storage using SUPABASE_SERVICE_ROLE_KEY (bypasses
+        // RLS).  The anon-key direct-upload path has been intentionally removed
+        // because browser uploads authenticated with only the anon key are
+        // subject to RLS — without an explicit INSERT policy for the anon role
+        // every such upload fails with HTTP 400 / RLS violation.
         const signedUrl = storage ? await storage.getSignedUploadUrl(storagePath) : null;
-
-        // Fallback: expose anon-key credentials so the browser can upload
-        // directly to Supabase without routing file bytes through the Netlify
-        // serverless function.
-        //
-        // IMPORTANT: the object path sent to Supabase Storage must include the
-        // DEFAULT_STORAGE_PREFIX so it matches the path that the finalize route
-        // reads via storage.readBinary(storagePath) → objectPath(storagePath).
-        //
-        // Encode each path segment individually (same as SupabaseObjectStorage.request)
-        // so that special characters in any segment never break the URL or allow
-        // path injection.
-        const objectStoragePath = DEFAULT_STORAGE_PREFIX + "/" + storagePath;
-        const encodedObjectStoragePath = objectStoragePath.split("/").map(encodeURIComponent).join("/");
-        const encodedBucket = bucket ? encodeURIComponent(bucket) : null;
-        const directUpload =
-          !signedUrl && supabaseUrl && anonKey && encodedBucket
-            ? {
-                url: `${supabaseUrl}/storage/v1/object/${encodedBucket}/${encodedObjectStoragePath}`,
-                headers: {
-                  Authorization: "Bearer " + anonKey,
-                  apikey: anonKey,
-                  "x-upsert": "true",
-                } as Record<string, string>,
-              }
-            : null;
 
         return {
           uploadId,
           storagePath,
           safeName,
           signedUrl: signedUrl ?? null,
-          directUpload,
+          directUpload: null,
         };
       }),
     );
