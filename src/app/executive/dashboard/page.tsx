@@ -117,6 +117,9 @@ export default async function ExecutiveDashboardPage() {
           { href: "/executive/kpi", label: "Know Your Numbers", icon: "🎯", desc: "Goals, gauges, targets" },
           { href: "/executive/system", label: "System Health", icon: "🔧", desc: "Uptime, status, API health" },
           { href: "/admin/content", label: "Admin CMS", icon: "⚙️", desc: "Content management" },
+          { href: "/admin/users", label: "User & Role Management", icon: "👥", desc: "Manage users, promote admins, assign roles" },
+          { href: "/admin/courses", label: "Course Management", icon: "📚", desc: "Lessons, modules, course tracks" },
+          { href: "/admin/memberships", label: "Membership Management", icon: "🏅", desc: "Plans, subscriptions, access control" },
         ].map(({ href, label, icon, desc }) => (
           <Link
             key={href}

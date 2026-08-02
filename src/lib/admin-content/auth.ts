@@ -220,6 +220,42 @@ export async function requireOwnerApiSession(request: Request, stateChanging = f
   return result;
 }
 
+/**
+ * Require the current page session to have one of the specified roles.
+ * Redirects to /admin/login if no valid session exists or the role is not allowed.
+ */
+export async function requireRolePageSession(allowedRoles: AdminRole[]) {
+  const session = await getAdminSession();
+  if (!session) {
+    redirect("/admin/login");
+  }
+  const sessionRole: AdminRole = session.role ?? "admin";
+  if (!allowedRoles.includes(sessionRole)) {
+    redirect("/admin/login");
+  }
+  return session;
+}
+
+/**
+ * Require the current API request session to have one of the specified roles.
+ */
+export async function requireRoleApiSession(
+  request: Request,
+  allowedRoles: AdminRole[],
+  stateChanging = false,
+) {
+  const result = await requireAdminApiSession(request, stateChanging);
+  if (!result.ok) return result;
+  const sessionRole: AdminRole = result.session.role ?? "admin";
+  if (!allowedRoles.includes(sessionRole)) {
+    return {
+      ok: false as const,
+      response: NextResponse.json({ error: "Forbidden" }, { status: 403 }),
+    };
+  }
+  return result;
+}
+
 
 export async function validateAdminLogin(request: Request, email: string, password: string, targetRole: AdminRole = "admin") {
   const limited = checkRateLimit(
