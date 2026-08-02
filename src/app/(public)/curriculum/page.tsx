@@ -16,61 +16,41 @@ export const metadata: Metadata = {
   },
 };
 
-const TRACK_STYLES: Record<
+const TRACK_META: Record<
   string,
-  { bg: string; border: string; badge: string; heading: string }
+  {
+    subtitle: string;
+    bg: string;
+    border: string;
+    badge: string;
+    heading: string;
+  }
 > = {
   RED: {
+    subtitle: "Real estate investing: rentals, tax liens, tax deeds, and creative financing.",
     bg: "bg-red-950/40",
     border: "border-red-500/30 hover:border-red-400/60",
     badge: "bg-red-500/20 text-red-300 border border-red-500/40",
     heading: "text-red-400",
   },
   WHITE: {
+    subtitle: "Paper asset investing: stocks, bonds, ETFs, and retirement accounts.",
     bg: "bg-slate-800/40",
     border: "border-slate-600/30 hover:border-slate-500/60",
     badge: "bg-slate-500/20 text-slate-300 border border-slate-500/40",
     heading: "text-slate-200",
   },
   BLUE: {
+    subtitle: "Business competency: starting, growing, and managing a business.",
     bg: "bg-blue-950/40",
     border: "border-blue-500/30 hover:border-blue-400/60",
     badge: "bg-blue-500/20 text-blue-300 border border-blue-500/40",
     heading: "text-blue-400",
   },
-  GREEN: {
-    bg: "bg-green-950/40",
-    border: "border-green-500/30 hover:border-green-400/60",
-    badge: "bg-green-500/20 text-green-300 border border-green-500/40",
-    heading: "text-green-400",
-  },
-  GOLD: {
-    bg: "bg-yellow-950/40",
-    border: "border-yellow-500/30 hover:border-yellow-400/60",
-    badge: "bg-yellow-500/20 text-yellow-300 border border-yellow-500/40",
-    heading: "text-yellow-400",
-  },
-  PURPLE: {
-    bg: "bg-purple-950/40",
-    border: "border-purple-500/30 hover:border-purple-400/60",
-    badge: "bg-purple-500/20 text-purple-300 border border-purple-500/40",
-    heading: "text-purple-400",
-  },
-  ORANGE: {
-    bg: "bg-orange-950/40",
-    border: "border-orange-500/30 hover:border-orange-400/60",
-    badge: "bg-orange-500/20 text-orange-300 border border-orange-500/40",
-    heading: "text-orange-400",
-  },
-  BLACK: {
-    bg: "bg-slate-900/60",
-    border: "border-slate-400/30 hover:border-slate-300/60",
-    badge: "bg-slate-400/20 text-slate-200 border border-slate-400/40",
-    heading: "text-slate-200",
-  },
 };
 
-const DEFAULT_STYLE = {
+const DEFAULT_META = {
+  subtitle: "",
   bg: "bg-slate-900/40",
   border: "border-slate-700/30 hover:border-slate-600/60",
   badge: "bg-slate-600/20 text-slate-300 border border-slate-600/40",
@@ -80,14 +60,13 @@ const DEFAULT_STYLE = {
 export default function CurriculumIndexPage() {
   const tracks = listTracks();
 
-  const publishedTracks = tracks.filter((t) =>
-    t.levels.some((l) => l.lessonCount > 0)
-  );
-
   const totalLessons = tracks.reduce(
     (sum, t) => sum + t.levels.reduce((s, l) => s + l.lessonCount, 0),
     0
   );
+  const publishedCount = tracks.filter((t) =>
+    t.levels.some((l) => l.lessonCount > 0)
+  ).length;
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -101,105 +80,66 @@ export default function CurriculumIndexPage() {
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">
           Production financial education. Every lesson delivers practical knowledge
-          you can apply to your financial decisions. Browse by track below.
+          you can apply to your financial decisions. Browse by academy below.
         </p>
 
         {totalLessons > 0 && (
           <p className="mt-4 text-sm text-slate-500">
             {totalLessons} lesson{totalLessons !== 1 ? "s" : ""} published across{" "}
-            {publishedTracks.length} track{publishedTracks.length !== 1 ? "s" : ""}
+            {publishedCount} academy{publishedCount !== 1 ? " academies" : ""}
           </p>
         )}
       </section>
 
-      {/* Published tracks */}
-      {publishedTracks.length > 0 && (
-        <section className="mx-auto max-w-6xl px-6 pb-16">
-          <h2 className="text-2xl font-black mb-6">Available Now</h2>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {publishedTracks.map((track) => {
-              const styles = TRACK_STYLES[track.code] ?? DEFAULT_STYLE;
-              const totalLessonsInTrack = track.levels.reduce(
-                (sum, l) => sum + l.lessonCount,
-                0
-              );
-              const firstLevel = track.levels[0];
+      {/* All three academies — always visible */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <h2 className="text-2xl font-black mb-6">Academies</h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {tracks.map((track) => {
+            const meta = TRACK_META[track.code] ?? DEFAULT_META;
+            const totalLessonsInTrack = track.levels.reduce(
+              (sum, l) => sum + l.lessonCount,
+              0
+            );
+            const hasLessons = totalLessonsInTrack > 0;
+            const publishedLevels = track.levels.filter((l) => l.lessonCount > 0).length;
 
-              return (
-                <Link
-                  key={track.code}
-                  href={`/curriculum/${track.code.toLowerCase()}`}
-                  className={`rounded-2xl border p-6 transition group ${styles.bg} ${styles.border}`}
-                >
+            return (
+              <Link
+                key={track.code}
+                href={`/curriculum/${track.code.toLowerCase()}`}
+                className={`rounded-2xl border p-6 transition group ${meta.bg} ${meta.border}`}
+              >
+                <div className="flex items-center justify-between mb-4">
                   <span
-                    className={`inline-block rounded-full px-3 py-1 text-xs font-bold mb-4 ${styles.badge}`}
+                    className={`inline-block rounded-full px-3 py-1 text-xs font-bold ${meta.badge}`}
                   >
                     {track.code}
                   </span>
-                  <h3
-                    className={`text-2xl font-black transition group-hover:opacity-80 ${styles.heading}`}
-                  >
-                    {track.name}
-                  </h3>
-                  <p className="mt-3 text-sm text-slate-400">
-                    {totalLessonsInTrack} lesson
-                    {totalLessonsInTrack !== 1 ? "s" : ""} ·{" "}
-                    {track.levels.length} level
-                    {track.levels.length !== 1 ? "s" : ""}
-                  </p>
-                  {firstLevel && firstLevel.lessonCount > 0 && (
-                    <p className="mt-2 text-xs text-slate-500">
-                      Start with Level {firstLevel.level}: {firstLevel.lessonCount} lessons ready
-                    </p>
-                  )}
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* Coming Soon tracks */}
-      {tracks.length === 0 && (
-        <section className="mx-auto max-w-6xl px-6 pb-20">
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-16 text-center">
-            <p className="text-2xl font-bold text-slate-400">Curriculum Coming Soon</p>
-            <p className="mt-3 text-slate-500">
-              Production lessons are being prepared. Check back soon.
-            </p>
-          </div>
-        </section>
-      )}
-
-      {/* Tracks with no lessons yet */}
-      {tracks.some((t) => t.levels.every((l) => l.lessonCount === 0)) && (
-        <section className="mx-auto max-w-6xl px-6 pb-20">
-          <h2 className="text-xl font-black mb-4 text-slate-500">Coming Soon</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {tracks
-              .filter((t) => t.levels.every((l) => l.lessonCount === 0))
-              .map((track) => {
-                const styles = TRACK_STYLES[track.code] ?? DEFAULT_STYLE;
-                return (
-                  <div
-                    key={track.code}
-                    className={`rounded-2xl border p-5 opacity-50 ${styles.bg} ${styles.border}`}
-                  >
-                    <span
-                      className={`inline-block rounded-full px-2 py-0.5 text-xs font-bold mb-3 ${styles.badge}`}
-                    >
-                      {track.code}
+                  {!hasLessons && (
+                    <span className="text-xs font-bold text-slate-500 border border-slate-700 rounded-full px-2 py-0.5">
+                      Coming Soon
                     </span>
-                    <h3 className={`text-lg font-black ${styles.heading}`}>
-                      {track.name}
-                    </h3>
-                    <p className="mt-1 text-xs text-slate-600">Coming Soon</p>
-                  </div>
-                );
-              })}
-          </div>
-        </section>
-      )}
+                  )}
+                </div>
+                <h3
+                  className={`text-2xl font-black transition group-hover:opacity-80 ${meta.heading}`}
+                >
+                  {track.name}
+                </h3>
+                <p className="mt-2 text-sm text-slate-400 leading-relaxed">
+                  {meta.subtitle}
+                </p>
+                <p className="mt-3 text-sm text-slate-500">
+                  {hasLessons
+                    ? `${totalLessonsInTrack} lesson${totalLessonsInTrack !== 1 ? "s" : ""} · ${publishedLevels} level${publishedLevels !== 1 ? "s" : ""} available`
+                    : `${track.levels.length} level${track.levels.length !== 1 ? "s" : ""} · lessons in preparation`}
+                </p>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
     </main>
   );
 }

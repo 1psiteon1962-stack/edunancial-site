@@ -16,6 +16,24 @@ const REPO_ROOT = join(process.cwd());
 const REGISTRY_PATH = join(REPO_ROOT, "curriculum", "registry.json");
 
 // ---------------------------------------------------------------------------
+// Canonical academy definitions
+// ---------------------------------------------------------------------------
+
+/**
+ * The three active North-American academies.
+ * Adding an academy here is the only change required to make it appear
+ * everywhere — landing page, track page, level pages, sitemap, and static params.
+ */
+const CANONICAL_ACADEMIES = [
+  { code: "RED", name: "Real Estate" },
+  { code: "WHITE", name: "Paper Assets" },
+  { code: "BLUE", name: "Business" },
+] as const;
+
+/** Every academy always exposes exactly five levels. */
+const CANONICAL_LEVELS = [1, 2, 3, 4, 5] as const;
+
+// ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
 
@@ -125,50 +143,17 @@ export function invalidateRegistryCache(): void {
 
 export function listTracks(): TrackSummary[] {
   const registry = readRegistry();
-  return Object.values(registry.tracks).map((track) => ({
-    code: track.code,
-    name: track.name,
-    levels: Object.entries(track.levels)
-      .sort(([a], [b]) => Number(a) - Number(b))
-      .map(([levelKey, level]) => {
-        const lessons = Object.values(level.assets)
-          .filter((a): a is RegistryAsset & { lessonNumber: number } =>
-            a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
-          )
-          .sort((a, b) => a.lessonNumber - b.lessonNumber)
-          .map(assetToLessonMeta);
-        return {
-          level: Number(levelKey),
-          lessonCount: lessons.length,
-          lessons,
-        };
-      }),
-  }));
+  return CANONICAL_ACADEMIES.map((academy) =>
+    buildTrackSummary(academy.code, academy.name, registry.tracks[academy.code])
+  );
 }
 
 export function getTrack(trackCode: string): TrackSummary | null {
+  const upperCode = trackCode.toUpperCase();
+  const academy = CANONICAL_ACADEMIES.find((a) => a.code === upperCode);
+  if (!academy) return null;
   const registry = readRegistry();
-  const track = registry.tracks[trackCode.toUpperCase()];
-  if (!track) return null;
-  return {
-    code: track.code,
-    name: track.name,
-    levels: Object.entries(track.levels)
-      .sort(([a], [b]) => Number(a) - Number(b))
-      .map(([levelKey, level]) => {
-        const lessons = Object.values(level.assets)
-          .filter((a): a is RegistryAsset & { lessonNumber: number } =>
-            a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
-          )
-          .sort((a, b) => a.lessonNumber - b.lessonNumber)
-          .map(assetToLessonMeta);
-        return {
-          level: Number(levelKey),
-          lessonCount: lessons.length,
-          lessons,
-        };
-      }),
-  };
+  return buildTrackSummary(academy.code, academy.name, registry.tracks[upperCode]);
 }
 
 export function getLessonsForLevel(trackCode: string, level: number): LessonMeta[] {
@@ -281,13 +266,12 @@ export function getAllTrackLevelStaticParams(): Array<{
   track: string;
   level: string;
 }> {
-  const registry = readRegistry();
   const params: Array<{ track: string; level: string }> = [];
-  for (const track of Object.values(registry.tracks)) {
-    for (const levelKey of Object.keys(track.levels)) {
+  for (const academy of CANONICAL_ACADEMIES) {
+    for (const level of CANONICAL_LEVELS) {
       params.push({
-        track: track.code.toLowerCase(),
-        level: `l${levelKey}`,
+        track: academy.code.toLowerCase(),
+        level: `l${level}`,
       });
     }
   }
@@ -306,30 +290,34 @@ export function getCurriculumSitemapEntries(baseUrl: string): Array<{
 }> {
   const registry = readRegistry();
   const entries: ReturnType<typeof getCurriculumSitemapEntries> = [];
-  for (const track of Object.values(registry.tracks)) {
-    // Track level page
+  for (const academy of CANONICAL_ACADEMIES) {
+    // Track-level page
     entries.push({
-      url: `${baseUrl}/curriculum/${track.code.toLowerCase()}`,
+      url: `${baseUrl}/curriculum/${academy.code.toLowerCase()}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
     });
-    for (const [levelKey, level] of Object.entries(track.levels)) {
+    for (const levelNum of CANONICAL_LEVELS) {
       // Level page
       entries.push({
-        url: `${baseUrl}/curriculum/${track.code.toLowerCase()}/l${levelKey}`,
+        url: `${baseUrl}/curriculum/${academy.code.toLowerCase()}/l${levelNum}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
       });
-      for (const asset of Object.values(level.assets)) {
-        if (asset.type === "lesson" && asset.status === "active") {
-          entries.push({
-            url: `${baseUrl}/curriculum/${track.code.toLowerCase()}/l${levelKey}/${asset.id.toLowerCase()}`,
-            lastModified: new Date(asset.importedAt),
-            changeFrequency: "weekly",
-            priority: 0.8,
-          });
+      // Individual lesson pages (only if in registry)
+      const levelData = registry.tracks[academy.code]?.levels[String(levelNum)];
+      if (levelData) {
+        for (const asset of Object.values(levelData.assets)) {
+          if (asset.type === "lesson" && asset.status === "active") {
+            entries.push({
+              url: `${baseUrl}/curriculum/${academy.code.toLowerCase()}/l${levelNum}/${asset.id.toLowerCase()}`,
+              lastModified: new Date(asset.importedAt),
+              changeFrequency: "weekly",
+              priority: 0.8,
+            });
+          }
         }
       }
     }
@@ -385,6 +373,34 @@ export function getCurriculumSearchIndex(): LessonSearchEntry[] {
 // ---------------------------------------------------------------------------
 // Private helpers
 // ---------------------------------------------------------------------------
+
+/**
+ * Build a TrackSummary for a canonical academy.
+ * If the academy has no entry in the registry yet, all 5 levels are returned
+ * with lessonCount=0. Empty levels display as "Coming Soon" in the UI.
+ */
+function buildTrackSummary(
+  code: string,
+  name: string,
+  registryTrack: RegistryTrack | undefined
+): TrackSummary {
+  return {
+    code,
+    name,
+    levels: CANONICAL_LEVELS.map((levelNum) => {
+      const levelData = registryTrack?.levels[String(levelNum)];
+      const lessons = levelData
+        ? Object.values(levelData.assets)
+            .filter((a): a is RegistryAsset & { lessonNumber: number } =>
+              a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
+            )
+            .sort((a, b) => a.lessonNumber - b.lessonNumber)
+            .map(assetToLessonMeta)
+        : [];
+      return { level: levelNum, lessonCount: lessons.length, lessons };
+    }),
+  };
+}
 
 function assetToLessonMeta(
   asset: RegistryAsset & { lessonNumber: number }
