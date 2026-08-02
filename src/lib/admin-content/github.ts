@@ -151,39 +151,35 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   let registryIncludedInPr = false;
 
   if (curriculumFiles.length > 0) {
-    try {
-      const existingRegistry = await fetchCurrentRegistry();
-      const newEntries = curriculumFiles.map((file) => {
-        const contentBytes = Buffer.from(file.encodedContent, "base64");
-        return buildRegistryEntry(
-          file.curriculumAsset!,
-          contentBytes,
-          ingestionId,
-          ingestionTimestamp,
-          file.checksum ? `sha256:${file.checksum}` : undefined,
-        );
-      });
-      const updatedRegistry = upsertRegistryEntries(existingRegistry, newEntries);
-      const registryBlob = await githubRequest("/git/blobs", {
-        method: "POST",
-        body: JSON.stringify({
-          content: Buffer.from(JSON.stringify(updatedRegistry, null, 2) + "\n").toString("base64"),
-          encoding: "base64",
-        }),
-      });
-      blobs.push({
-        path: CURRICULUM_REGISTRY_PATH,
-        mode: "100644",
-        type: "blob",
-        sha: registryBlob.sha as string,
-      });
-      registryIncludedInPr = true;
-    } catch (registryError) {
-      // Registry update is best-effort: if it fails (e.g. GitHub API is
-      // temporarily unavailable) the content files are still committed.  The
-      // admin can run `npm run curriculum:import` manually as a fallback.
-      console.error("curriculum registry update failed (non-fatal):", registryError);
-    }
+    // Registry update is MANDATORY for curriculum assets.  If it fails the PR
+    // must not be created — a partial commit (content without registry) would
+    // leave the lesson unreachable on the live site and break the pipeline.
+    const existingRegistry = await fetchCurrentRegistry();
+    const newEntries = curriculumFiles.map((file) => {
+      const contentBytes = Buffer.from(file.encodedContent, "base64");
+      return buildRegistryEntry(
+        file.curriculumAsset!,
+        contentBytes,
+        ingestionId,
+        ingestionTimestamp,
+        file.checksum ? `sha256:${file.checksum}` : undefined,
+      );
+    });
+    const updatedRegistry = upsertRegistryEntries(existingRegistry, newEntries);
+    const registryBlob = await githubRequest("/git/blobs", {
+      method: "POST",
+      body: JSON.stringify({
+        content: Buffer.from(JSON.stringify(updatedRegistry, null, 2) + "\n").toString("base64"),
+        encoding: "base64",
+      }),
+    });
+    blobs.push({
+      path: CURRICULUM_REGISTRY_PATH,
+      mode: "100644",
+      type: "blob",
+      sha: registryBlob.sha as string,
+    });
+    registryIncludedInPr = true;
   }
 
   // Rich manifest: includes per-file metadata for traceability.
