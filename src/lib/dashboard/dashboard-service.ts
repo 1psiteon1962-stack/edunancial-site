@@ -12,9 +12,9 @@ import { EDUNANCIAL_CERTIFICATE_DISCLAIMER } from "../positioning";
 const TRACK_ORDER = ["RED", "WHITE", "BLUE"] as const satisfies readonly AdaptiveTrackCode[];
 
 const TRACK_COURSE_IDS: Record<AdaptiveTrackCode, string> = {
-  RED: "red-real-estate",
-  WHITE: "white-paper-assets",
-  BLUE: "blue-business",
+  RED: "red",
+  WHITE: "white",
+  BLUE: "blue",
 };
 
 const MEMBERSHIP_LEVELS: Record<
