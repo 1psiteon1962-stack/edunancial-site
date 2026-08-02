@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-08-02T00:00:00.000Z",
+  "updatedBy": "system",
+  "description": "Admin-editable tier to curriculum level mapping. Edit via /admin/curriculum/tier-config. Changes take effect immediately without a deploy.",
+  "freePreview": {
+    "level": 1,
+    "maxLesson": 3,
+    "note": "Level 1 lessons 001-003 are always accessible to any authenticated user, regardless of membership tier."
+  },
+  "mapping": {
+    "basic": [1, 2],
+    "pro": [1, 2, 3, 4],
+    "gold": [1, 2, 3, 4, 5]
+  }
+}

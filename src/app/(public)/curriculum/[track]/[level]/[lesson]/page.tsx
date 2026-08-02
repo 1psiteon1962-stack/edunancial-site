@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -9,6 +10,7 @@ import {
   getLessonsForLevel,
 } from "@/lib/curriculum/reader";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
+import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 
 interface Props {
   params: Promise<{ track: string; level: string; lesson: string }>;
@@ -70,6 +72,121 @@ export default async function LessonViewerPage({ params }: Props) {
   const siblings = getLessonsForLevel(trackCode, levelNum);
 
   const trackColor = TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10";
+
+  // ── Server-side access gate ───────────────────────────────────────────────
+  const headersList = await headers();
+  const cookieHeader = headersList.get("cookie");
+  const access = checkLessonAccess(meta.level, meta.lessonNumber, cookieHeader);
+
+  if (!access.allowed) {
+    // Render locked lesson view — body content is never passed to the client
+    const pricingHref = access.pricingTierParam
+      ? `/pricing?tier=${access.pricingTierParam}`
+      : "/pricing";
+
+    return (
+      <main className="min-h-screen bg-[#08101f] text-white">
+        <div className="mx-auto max-w-7xl px-4 py-8 grid gap-8 lg:grid-cols-4">
+          {/* Sidebar */}
+          <aside className="hidden lg:block lg:col-span-1">
+            <div className="sticky top-24 rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden">
+              <div className="px-5 py-4 border-b border-slate-800">
+                <Link
+                  href={`/curriculum/${trackParam}/${levelParam}`}
+                  className="text-xs text-yellow-400 hover:text-yellow-300"
+                >
+                  ← Back to Level {levelNum}
+                </Link>
+                <p className="mt-2 font-black text-sm">
+                  <span className={`inline-block rounded-full px-2 py-0.5 text-xs border mr-2 ${trackColor}`}>
+                    {trackCode}
+                  </span>
+                  Level {levelNum}
+                </p>
+                <p className="text-xs text-slate-400 mt-1">{siblings.length} lessons</p>
+              </div>
+              <div className="divide-y divide-slate-800 max-h-[60vh] overflow-y-auto">
+                {siblings.map((l) => (
+                  <Link
+                    key={l.id}
+                    href={`/curriculum/${trackParam}/${levelParam}/${l.id.toLowerCase()}`}
+                    className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-800 transition ${
+                      l.id === meta.id ? "bg-slate-800 border-l-2 border-yellow-400" : ""
+                    }`}
+                  >
+                    <span className="text-xs w-6 text-center text-slate-400 flex-shrink-0">
+                      {l.lessonNumber}
+                    </span>
+                    <span
+                      className={`text-sm flex-1 leading-tight ${
+                        l.id === meta.id ? "text-yellow-400 font-bold" : "text-slate-300"
+                      }`}
+                    >
+                      {l.title}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </aside>
+
+          {/* Locked lesson */}
+          <div className="lg:col-span-3 space-y-6">
+            <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
+              <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+              <span>/</span>
+              <Link href={`/curriculum/${trackParam}`} className="hover:text-white">{meta.trackName}</Link>
+              <span>/</span>
+              <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">Level {levelNum}</Link>
+              <span>/</span>
+              <span className="text-slate-200 truncate max-w-[200px]">{meta.title}</span>
+            </nav>
+
+            <div>
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border ${trackColor}`}>
+                  {trackCode} · Level {levelNum}
+                </span>
+                <span className="text-xs text-slate-500">Lesson {meta.lessonNumber} of {siblings.length}</span>
+              </div>
+              <h1 className="text-3xl font-black md:text-4xl leading-tight">{meta.title}</h1>
+              {meta.summary && (
+                <p className="mt-3 text-slate-300 leading-relaxed max-w-3xl">{meta.summary}</p>
+              )}
+            </div>
+
+            {/* Locked content gate */}
+            <div className="rounded-2xl border border-yellow-500/40 bg-yellow-500/5 p-8 text-center space-y-4">
+              <div className="text-4xl">🔒</div>
+              <h2 className="text-xl font-black text-yellow-400">Members Only</h2>
+              <p className="text-slate-300 max-w-lg mx-auto leading-relaxed">
+                {access.lockedMessage}
+              </p>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+                <Link
+                  href={pricingHref}
+                  className="rounded-xl bg-yellow-500 px-6 py-3 text-sm font-black text-black hover:bg-yellow-400 transition"
+                >
+                  Become a Member →
+                </Link>
+                <Link
+                  href="/curriculum"
+                  className="rounded-xl border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-300 hover:text-white hover:border-slate-500 transition"
+                >
+                  Browse Free Lessons
+                </Link>
+              </div>
+              <p className="text-xs text-slate-500 pt-2">
+                Free preview includes Level 1 lessons 001–003 for every track.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  // ── Full lesson view (access granted) ────────────────────────────────────
   const renderedBody = renderMarkdown(body);
 
   return (
