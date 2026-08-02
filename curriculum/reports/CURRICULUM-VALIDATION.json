@@ -1,12 +1,132 @@
 {
-  "timestamp": "2026-07-11T04:10:09.788Z",
-  "totalAssets": 1,
-  "passed": 1,
+  "timestamp": "2026-08-02T23:42:53.449Z",
+  "totalAssets": 21,
+  "passed": 21,
   "failed": 0,
   "results": [
     {
       "assetId": "RED-L1-001",
       "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-002",
+      "path": "content/curriculum/RED/L1/RED-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-003",
+      "path": "content/curriculum/RED/L1/RED-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-004",
+      "path": "content/curriculum/RED/L1/RED-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-005",
+      "path": "content/curriculum/RED/L1/RED-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-006",
+      "path": "content/curriculum/RED/L1/RED-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-007",
+      "path": "content/curriculum/RED/L1/RED-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-008",
+      "path": "content/curriculum/RED/L1/RED-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-009",
+      "path": "content/curriculum/RED/L1/RED-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-010",
+      "path": "content/curriculum/RED/L1/RED-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-001",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-002",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-003",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-004",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-005",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-006",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-007",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-008",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-009",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-010",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-MANIFEST",
+      "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
       "errors": [],
       "warnings": []
     }

@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-07-30T17:57:32.258Z",
+  "_generated": "2026-08-02T23:42:45.868Z",
   "_note": "Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.",
   "tracks": {
     "RED": {
@@ -238,6 +238,267 @@
               "metadata": {
                 "officialTrackName": "Real Estate",
                 "summary": "Lessons one through nine have given you the knowledge foundation. This final RED Level 1 lesson integrates everything into a personal real estate investment strategy—one you can begin executing immediately. Financial competency is built through action, not through accumulating more knowledge."
+              }
+            }
+          }
+        }
+      }
+    },
+    "WHITE": {
+      "code": "WHITE",
+      "name": "Paper Assets",
+      "levels": {
+        "1": {
+          "assets": {
+            "WHITE-L1-001": {
+              "id": "WHITE-L1-001",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 1,
+              "title": "Understanding Paper Assets as an Asset Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
+              "checksum": "sha256:50a93cf87b0667b3fb04b88ae1e15c8c3127d3dd82a00805c1372a252acdf65c",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Paper assets are financial instruments that represent a claim on an underlying value — a share of a company, a loan to a government, or a unit in a fund. This lesson establishes a foundational understanding of paper assets as an asset class and why they belong in a long-term wealth-building strategy."
+              }
+            },
+            "WHITE-L1-002": {
+              "id": "WHITE-L1-002",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 2,
+              "title": "Stocks — Ownership, Price, and Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
+              "checksum": "sha256:6d61814bbfa29f62486b5c7193baaa80b2191ab65f8862b01b8b9e9957097c3a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A stock is a unit of ownership in a company. Understanding how stock prices are set, how returns are generated, and how to evaluate a stock's value is a foundational skill for every paper asset investor."
+              }
+            },
+            "WHITE-L1-003": {
+              "id": "WHITE-L1-003",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 3,
+              "title": "Bonds — Fixed Income and Lending Returns",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
+              "checksum": "sha256:52b76db360232c0a990c153fd791b73b2b973b233a1255bc2800cc574427da0e",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A bond is a loan you make to a government or corporation in exchange for regular interest payments and the return of your principal at maturity. Understanding how bonds work, how they are priced, and when they belong in a portfolio is essential for building a diversified strategy."
+              }
+            },
+            "WHITE-L1-004": {
+              "id": "WHITE-L1-004",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 4,
+              "title": "Funds — ETFs, Index Funds, and Mutual Funds",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
+              "checksum": "sha256:9c705c5b0f0d4d0e67bff5e191d4bc4d7e599776ebab17d36b41ca51b897a5cf",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A fund pools money from many investors to purchase a diversified portfolio of securities. Understanding the differences between ETFs, index funds, and mutual funds — and how to evaluate their costs — is one of the highest-value skills in personal finance."
+              }
+            },
+            "WHITE-L1-005": {
+              "id": "WHITE-L1-005",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 5,
+              "title": "Tax-Advantaged Accounts — 401(k), IRA, and Roth IRA",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
+              "checksum": "sha256:bf4b59bee4037474cd4fadf8d19c67fe37dbd857bafcf682057a306e6c3f48a4",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Tax-advantaged accounts are the single most powerful wealth-building tool available to most working Americans. Understanding how 401(k), IRA, and Roth IRA accounts work — and how to use them optimally — is not optional for anyone serious about financial competency."
+              }
+            },
+            "WHITE-L1-006": {
+              "id": "WHITE-L1-006",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 6,
+              "title": "Asset Allocation and Portfolio Construction",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
+              "checksum": "sha256:ec1bdf970b906d20f858189e4f027b95ce1d77490bce417f066bf1031fff561a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Asset allocation is the single most important decision an investor makes. How you divide your portfolio between equities, fixed income, and other assets determines more of your long-term return and risk than any individual security selection."
+              }
+            },
+            "WHITE-L1-007": {
+              "id": "WHITE-L1-007",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 7,
+              "title": "How the Stock Market Works — Exchanges, Orders, and Market Mechanics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
+              "checksum": "sha256:ffd617f9948a66176388b1ce9ec4f11c6a325cbafad3f600426a2c6178122709",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understanding how the stock market actually functions — how exchanges match buyers and sellers, how order types work, and why prices move — removes the mystery from investing and prevents costly beginner mistakes."
+              }
+            },
+            "WHITE-L1-008": {
+              "id": "WHITE-L1-008",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 8,
+              "title": "Reading Financial Statements for Investors",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
+              "checksum": "sha256:348391d77dcb832eb2934c29e9dda2d23b407c69ee482682927b92113f5d604a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Financial statements are the language companies use to report their performance. Understanding the income statement, balance sheet, and cash flow statement enables investors to evaluate companies rather than speculate about them."
+              }
+            },
+            "WHITE-L1-009": {
+              "id": "WHITE-L1-009",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 9,
+              "title": "Investment Risk — Types, Measurement, and Management",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
+              "checksum": "sha256:f0c1b979c07f7dd611cc76e370cb0ed3b8c83f7418e378c39b1a598d1cfbb314",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Every investment carries risk. The investor's job is not to avoid risk but to understand it, measure it, and accept only the risks that are compensated with adequate expected return. This lesson gives you the framework for evaluating investment risk systematically."
+              }
+            },
+            "WHITE-L1-010": {
+              "id": "WHITE-L1-010",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 10,
+              "title": "Building Your Paper Asset Investment Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
+              "checksum": "sha256:735dd3ccf91e2c7b35cf19543e594c24f2b7551cee7c88dcfd08e66d48223c7a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Lessons one through nine have established the foundational knowledge. This final WHITE Level 1 lesson integrates everything into a personal paper asset investment strategy you can begin executing immediately. Financial competency is built through systematic action, not through accumulating more knowledge."
+              }
+            },
+            "WHITE-L1-MANIFEST": {
+              "id": "WHITE-L1-MANIFEST",
+              "type": "manifest",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "title": "\"WHITE Level 1 — Paper Asset Foundations\"",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+              "checksum": "sha256:a30771ff44cb39f17f3cc61c063fd1ae6323584219feb0848cdcc55eef5fde76",
+              "status": "active",
+              "ingestionId": "be935c0e-5943-4963-9277-ac5d30023453",
+              "importedAt": "2026-08-02T23:42:45.863Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets"
               }
             }
           }
