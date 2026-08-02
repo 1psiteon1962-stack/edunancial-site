@@ -245,3 +245,96 @@ describe('parseFrontMatter', () => {
     assert.equal(meta.curriculumType, 'adaptive');
   });
 });
+
+// ---------------------------------------------------------------------------
+// Tier-based access gate logic (validates behavior without file I/O)
+// ---------------------------------------------------------------------------
+
+describe('tier access gate', () => {
+  // Mirror the logic from src/lib/curriculum/tier-config.ts for unit testing
+  function canAccessLesson(level, lessonNumber, viewerTier, config) {
+    if (viewerTier === 'admin') return true;
+    const fp = config.freePreview;
+    if (level === fp.level && lessonNumber <= fp.maxLesson) return true;
+    if (viewerTier === 'free') return false;
+    const unlockedLevels = config.mapping[viewerTier] ?? [];
+    return unlockedLevels.includes(level);
+  }
+
+  const defaultConfig = {
+    freePreview: { level: 1, maxLesson: 3 },
+    mapping: { basic: [1, 2], pro: [1, 2, 3, 4], gold: [1, 2, 3, 4, 5] },
+  };
+
+  test('admin bypasses all gating', () => {
+    assert.equal(canAccessLesson(5, 10, 'admin', defaultConfig), true);
+    assert.equal(canAccessLesson(3, 1, 'admin', defaultConfig), true);
+  });
+
+  test('free tier: can access level 1 lessons 001-003', () => {
+    assert.equal(canAccessLesson(1, 1, 'free', defaultConfig), true);
+    assert.equal(canAccessLesson(1, 2, 'free', defaultConfig), true);
+    assert.equal(canAccessLesson(1, 3, 'free', defaultConfig), true);
+  });
+
+  test('free tier: cannot access level 1 lesson 004+', () => {
+    assert.equal(canAccessLesson(1, 4, 'free', defaultConfig), false);
+    assert.equal(canAccessLesson(1, 10, 'free', defaultConfig), false);
+  });
+
+  test('free tier: cannot access level 2+', () => {
+    assert.equal(canAccessLesson(2, 1, 'free', defaultConfig), false);
+    assert.equal(canAccessLesson(3, 1, 'free', defaultConfig), false);
+    assert.equal(canAccessLesson(5, 1, 'free', defaultConfig), false);
+  });
+
+  test('basic tier: can access level 1 and 2', () => {
+    assert.equal(canAccessLesson(1, 4, 'basic', defaultConfig), true);
+    assert.equal(canAccessLesson(2, 1, 'basic', defaultConfig), true);
+    assert.equal(canAccessLesson(2, 10, 'basic', defaultConfig), true);
+  });
+
+  test('basic tier: cannot access level 3+', () => {
+    assert.equal(canAccessLesson(3, 1, 'basic', defaultConfig), false);
+    assert.equal(canAccessLesson(4, 1, 'basic', defaultConfig), false);
+    assert.equal(canAccessLesson(5, 1, 'basic', defaultConfig), false);
+  });
+
+  test('pro tier: can access levels 1-4', () => {
+    assert.equal(canAccessLesson(3, 1, 'pro', defaultConfig), true);
+    assert.equal(canAccessLesson(4, 10, 'pro', defaultConfig), true);
+  });
+
+  test('pro tier: cannot access level 5', () => {
+    assert.equal(canAccessLesson(5, 1, 'pro', defaultConfig), false);
+  });
+
+  test('gold tier: can access all levels 1-5', () => {
+    for (let lvl = 1; lvl <= 5; lvl++) {
+      assert.equal(canAccessLesson(lvl, 1, 'gold', defaultConfig), true, `gold should access level ${lvl}`);
+    }
+  });
+
+  test('config is cumulative — tiers include lower tiers', () => {
+    // Gold unlocks everything pro does
+    const proLevels = defaultConfig.mapping.pro;
+    const goldLevels = defaultConfig.mapping.gold;
+    for (const lvl of proLevels) {
+      assert.ok(goldLevels.includes(lvl), `gold must include level ${lvl} which pro includes`);
+    }
+    // Pro unlocks everything basic does
+    const basicLevels = defaultConfig.mapping.basic;
+    for (const lvl of basicLevels) {
+      assert.ok(proLevels.includes(lvl), `pro must include level ${lvl} which basic includes`);
+    }
+  });
+
+  test('free preview boundary is configurable', () => {
+    const customConfig = {
+      freePreview: { level: 1, maxLesson: 5 },
+      mapping: { basic: [1, 2], pro: [1, 2, 3, 4], gold: [1, 2, 3, 4, 5] },
+    };
+    assert.equal(canAccessLesson(1, 5, 'free', customConfig), true);
+    assert.equal(canAccessLesson(1, 6, 'free', customConfig), false);
+  });
+});
