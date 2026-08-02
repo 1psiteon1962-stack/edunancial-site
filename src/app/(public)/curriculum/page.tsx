@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { listTracks } from "@/lib/curriculum/reader";
+import { listAcademies } from "@/lib/curriculum/reader";
 
 export const metadata: Metadata = {
   title: "Curriculum | Edunancial",
@@ -78,14 +78,19 @@ const DEFAULT_STYLE = {
 };
 
 export default function CurriculumIndexPage() {
-  const tracks = listTracks();
+  // Always returns RED, WHITE, and BLUE with 5 levels each.
+  // Anonymous visitors see only free-tier lessons (default).
+  const academies = listAcademies();
 
-  const publishedTracks = tracks.filter((t) =>
-    t.levels.some((l) => l.lessonCount > 0)
+  const academiesWithLessons = academies.filter((a) =>
+    a.levels.some((l) => l.lessonCount > 0)
+  );
+  const academiesComingSoon = academies.filter((a) =>
+    a.levels.every((l) => l.lessonCount === 0)
   );
 
-  const totalLessons = tracks.reduce(
-    (sum, t) => sum + t.levels.reduce((s, l) => s + l.lessonCount, 0),
+  const totalLessons = academies.reduce(
+    (sum, a) => sum + a.levels.reduce((s, l) => s + l.lessonCount, 0),
     0
   );
 
@@ -101,51 +106,56 @@ export default function CurriculumIndexPage() {
         </h1>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">
           Production financial education. Every lesson delivers practical knowledge
-          you can apply to your financial decisions. Browse by track below.
+          you can apply to your financial decisions. Browse by academy below.
         </p>
 
         {totalLessons > 0 && (
           <p className="mt-4 text-sm text-slate-500">
             {totalLessons} lesson{totalLessons !== 1 ? "s" : ""} published across{" "}
-            {publishedTracks.length} track{publishedTracks.length !== 1 ? "s" : ""}
+            {academiesWithLessons.length} academy{academiesWithLessons.length !== 1 ? " academies" : ""}
           </p>
         )}
       </section>
 
-      {/* Published tracks */}
-      {publishedTracks.length > 0 && (
+      {/* Academies with published lessons */}
+      {academiesWithLessons.length > 0 && (
         <section className="mx-auto max-w-6xl px-6 pb-16">
           <h2 className="text-2xl font-black mb-6">Available Now</h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {publishedTracks.map((track) => {
-              const styles = TRACK_STYLES[track.code] ?? DEFAULT_STYLE;
-              const totalLessonsInTrack = track.levels.reduce(
+            {academiesWithLessons.map((academy) => {
+              const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
+              const totalLessonsInAcademy = academy.levels.reduce(
                 (sum, l) => sum + l.lessonCount,
                 0
               );
-              const firstLevel = track.levels[0];
+              const firstLevel = academy.levels.find((l) => l.lessonCount > 0);
 
               return (
                 <Link
-                  key={track.code}
-                  href={`/curriculum/${track.code.toLowerCase()}`}
+                  key={academy.code}
+                  href={`/curriculum/${academy.code.toLowerCase()}`}
                   className={`rounded-2xl border p-6 transition group ${styles.bg} ${styles.border}`}
                 >
                   <span
                     className={`inline-block rounded-full px-3 py-1 text-xs font-bold mb-4 ${styles.badge}`}
                   >
-                    {track.code}
+                    {academy.code}
                   </span>
                   <h3
                     className={`text-2xl font-black transition group-hover:opacity-80 ${styles.heading}`}
                   >
-                    {track.name}
+                    {academy.name}
                   </h3>
+                  {academy.description && (
+                    <p className="mt-2 text-sm text-slate-400 leading-relaxed line-clamp-3">
+                      {academy.description}
+                    </p>
+                  )}
                   <p className="mt-3 text-sm text-slate-400">
-                    {totalLessonsInTrack} lesson
-                    {totalLessonsInTrack !== 1 ? "s" : ""} ·{" "}
-                    {track.levels.length} level
-                    {track.levels.length !== 1 ? "s" : ""}
+                    {totalLessonsInAcademy} lesson
+                    {totalLessonsInAcademy !== 1 ? "s" : ""} ·{" "}
+                    {academy.levels.length} level
+                    {academy.levels.length !== 1 ? "s" : ""}
                   </p>
                   {firstLevel && firstLevel.lessonCount > 0 && (
                     <p className="mt-2 text-xs text-slate-500">
@@ -159,44 +169,49 @@ export default function CurriculumIndexPage() {
         </section>
       )}
 
-      {/* Coming Soon tracks */}
-      {tracks.length === 0 && (
+      {/* Academies coming soon */}
+      {academiesComingSoon.length > 0 && (
+        <section className="mx-auto max-w-6xl px-6 pb-20">
+          <h2 className="text-xl font-black mb-4 text-slate-500">Coming Soon</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {academiesComingSoon.map((academy) => {
+              const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
+              return (
+                <div
+                  key={academy.code}
+                  className={`rounded-2xl border p-5 opacity-60 ${styles.bg} ${styles.border}`}
+                >
+                  <span
+                    className={`inline-block rounded-full px-2 py-0.5 text-xs font-bold mb-3 ${styles.badge}`}
+                  >
+                    {academy.code}
+                  </span>
+                  <h3 className={`text-lg font-black ${styles.heading}`}>
+                    {academy.name}
+                  </h3>
+                  {academy.description && (
+                    <p className="mt-1 text-xs text-slate-500 leading-relaxed line-clamp-2">
+                      {academy.description}
+                    </p>
+                  )}
+                  <p className="mt-2 text-xs text-slate-600">
+                    Coming Soon · {academy.levels.length} levels planned
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Fallback when there is no data at all (should not happen in production) */}
+      {academies.length === 0 && (
         <section className="mx-auto max-w-6xl px-6 pb-20">
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-16 text-center">
             <p className="text-2xl font-bold text-slate-400">Curriculum Coming Soon</p>
             <p className="mt-3 text-slate-500">
               Production lessons are being prepared. Check back soon.
             </p>
-          </div>
-        </section>
-      )}
-
-      {/* Tracks with no lessons yet */}
-      {tracks.some((t) => t.levels.every((l) => l.lessonCount === 0)) && (
-        <section className="mx-auto max-w-6xl px-6 pb-20">
-          <h2 className="text-xl font-black mb-4 text-slate-500">Coming Soon</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {tracks
-              .filter((t) => t.levels.every((l) => l.lessonCount === 0))
-              .map((track) => {
-                const styles = TRACK_STYLES[track.code] ?? DEFAULT_STYLE;
-                return (
-                  <div
-                    key={track.code}
-                    className={`rounded-2xl border p-5 opacity-50 ${styles.bg} ${styles.border}`}
-                  >
-                    <span
-                      className={`inline-block rounded-full px-2 py-0.5 text-xs font-bold mb-3 ${styles.badge}`}
-                    >
-                      {track.code}
-                    </span>
-                    <h3 className={`text-lg font-black ${styles.heading}`}>
-                      {track.name}
-                    </h3>
-                    <p className="mt-1 text-xs text-slate-600">Coming Soon</p>
-                  </div>
-                );
-              })}
           </div>
         </section>
       )}

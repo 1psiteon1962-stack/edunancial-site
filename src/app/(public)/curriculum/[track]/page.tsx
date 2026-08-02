@@ -2,15 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { getTrack, listTracks } from "@/lib/curriculum/reader";
+import { ACADEMIES } from "@/lib/curriculum/academies";
+import { getTrack } from "@/lib/curriculum/reader";
 
 interface Props {
   params: Promise<{ track: string }>;
 }
 
 export async function generateStaticParams() {
-  const tracks = listTracks();
-  return tracks.map((t) => ({ track: t.code.toLowerCase() }));
+  // Always include all primary academies so static pages are generated even
+  // before lessons exist.
+  return ACADEMIES.map((a) => ({ track: a.code.toLowerCase() }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
