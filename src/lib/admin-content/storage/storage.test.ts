@@ -402,18 +402,15 @@ describe("createUploadBatchFromStoredFiles", () => {
 });
 
 // ---------------------------------------------------------------------------
-// Regression tests: directUpload URL path alignment
-//
-// The presign route constructs a directUpload URL for anon-key uploads that
-// MUST include DEFAULT_STORAGE_PREFIX so that the path the browser writes to
-// matches the path the finalize route reads via storage.readBinary().
+// Regression tests: storage path prefix alignment
 //
 // storage.readBinary(storagePath) → request(objectPath(storagePath))
 //                                 → fetch({supabase}/object/{bucket}/PREFIX/storagePath)
 //
-// directUpload.url MUST be {supabase}/storage/v1/object/{bucket}/PREFIX/storagePath
+// The presign route produces storagePath values that the finalize route reads
+// back via storage.readBinary(storagePath).  The two paths MUST stay in sync.
 // ---------------------------------------------------------------------------
-describe("presign directUpload URL path alignment", () => {
+describe("storage path prefix alignment", () => {
   let originalFetch: typeof globalThis.fetch;
 
   beforeEach(() => {
@@ -421,7 +418,7 @@ describe("presign directUpload URL path alignment", () => {
     process.env.NEXT_PUBLIC_SUPABASE_URL = FAKE_URL;
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "anon-key";
     process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET = FAKE_BUCKET;
-    // No service-role key → getSignedUploadUrl returns null, directUpload is used.
+    // No service-role key → getSignedUploadUrl returns null.
     delete process.env.SUPABASE_SERVICE_ROLE_KEY;
     resetAdminContentStorage();
   });
@@ -436,8 +433,9 @@ describe("presign directUpload URL path alignment", () => {
 
   test("readBinary uses DEFAULT_STORAGE_PREFIX in its Supabase URL", async () => {
     // Verify that SupabaseObjectStorage.readBinary() prefixes the object path
-    // with DEFAULT_STORAGE_PREFIX.  This is the path the presign directUpload
-    // URL must match.
+    // with DEFAULT_STORAGE_PREFIX.  This ensures finalize can read files that
+    // were written using the same prefix by signed-URL uploads or server-proxied
+    // uploads.
     const capturedUrls: string[] = [];
     globalThis.fetch = mock.fn(async (input: RequestInfo | URL) => {
       capturedUrls.push(input.toString());
@@ -457,10 +455,16 @@ describe("presign directUpload URL path alignment", () => {
     );
   });
 
-  test("presign route source references DEFAULT_STORAGE_PREFIX in directUpload URL construction", () => {
-    // Static code assertion: the presign route MUST include DEFAULT_STORAGE_PREFIX
-    // when constructing the directUpload URL so that browser writes go to the
-    // same Supabase path that finalize reads back.
+  test("presign route does not expose anon-key credentials for direct browser upload", () => {
+    // Security regression: the presign route must NOT construct a directUpload
+    // spec that includes the anon key, because browser uploads authenticated
+    // only with the anon key are subject to Supabase RLS and fail with
+    // HTTP 400 / "new row violates row-level security policy" when no explicit
+    // INSERT policy exists for the anon role.
+    //
+    // The correct fallback is to return directUpload: null so the upload client
+    // falls through to the server-proxied legacy endpoint, which uses the
+    // service-role key and bypasses RLS.
     const { readFileSync } = require("node:fs");
     const path = require("node:path");
     const routeSrc = readFileSync(
@@ -469,33 +473,12 @@ describe("presign directUpload URL path alignment", () => {
     ) as string;
 
     assert.ok(
-      routeSrc.includes("DEFAULT_STORAGE_PREFIX"),
-      "presign/route.ts must import and use DEFAULT_STORAGE_PREFIX in directUpload URL",
+      !routeSrc.includes('"Bearer " + anonKey'),
+      "presign/route.ts must not construct anon-key Authorization headers for a directUpload spec",
     );
     assert.ok(
-      routeSrc.includes("objectStoragePath"),
-      "presign/route.ts must use objectStoragePath (prefix + storagePath) for directUpload URL",
-    );
-  });
-
-  test("presign route URL-encodes bucket and object path in directUpload URL", () => {
-    // The directUpload URL must encode each path segment individually so that
-    // special characters in bucket names or file paths can never break the URL
-    // or be exploited for path injection.
-    const { readFileSync } = require("node:fs");
-    const path = require("node:path");
-    const routeSrc = readFileSync(
-      path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
-      "utf8",
-    ) as string;
-
-    assert.ok(
-      routeSrc.includes("encodedObjectStoragePath"),
-      "presign/route.ts must URL-encode the objectStoragePath before inserting it into directUpload.url",
-    );
-    assert.ok(
-      routeSrc.includes("encodedBucket"),
-      "presign/route.ts must URL-encode the bucket name before inserting it into directUpload.url",
+      routeSrc.includes("directUpload: null"),
+      "presign/route.ts must always return directUpload: null (anon-key direct upload removed)",
     );
   });
 })

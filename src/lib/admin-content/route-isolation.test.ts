@@ -301,12 +301,13 @@ describe("presign route — bucket connectivity check guards", () => {
       "presign/route.ts must not gate the bucket connectivity check on SUPABASE_SERVICE_ROLE_KEY being absent",
     );
 
-    // The bucket check must now run whenever supabaseUrl, anonKey, and bucket
-    // are all configured.
+    // The bucket check now runs whenever any Supabase key (service-role or anon)
+    // is configured.  It uses a unified `checkKey` (serviceRoleKey ?? anonKey)
+    // so the check also fires when only the service-role key is set.
     assert.match(
       src,
-      /if\s*\(\s*supabaseUrl\s*&&\s*anonKey\s*&&\s*bucket\s*\)/,
-      "presign/route.ts must run the bucket check whenever supabaseUrl, anonKey, and bucket are all set",
+      /if\s*\(\s*supabaseUrl\s*&&\s*checkKey\s*&&\s*bucket\s*\)/,
+      "presign/route.ts must run the bucket check whenever supabaseUrl, checkKey, and bucket are all set",
     );
   });
 
@@ -329,21 +330,27 @@ describe("presign route — bucket connectivity check guards", () => {
     );
   });
 
-  test("presign/route.ts URL-encodes bucket and object path segments in directUpload URL", () => {
+  test("presign/route.ts does not expose anon-key credentials for direct browser upload (RLS fix)", () => {
     const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
 
-    // The directUpload URL must encode segments individually (same as
-    // SupabaseObjectStorage.request) so that special characters in any segment
-    // cannot break the URL.
-    assert.match(
+    // Security regression: the presign route must NOT construct a directUpload
+    // spec with anon-key Authorization headers.  Browser uploads authenticated
+    // only with the anon key are subject to Supabase RLS on storage.objects;
+    // without an explicit INSERT policy for the anon role every such upload
+    // fails with HTTP 400 / "new row violates row-level security policy".
+    //
+    // The correct behaviour is to return directUpload: null so the upload
+    // client falls through to the server-proxied legacy endpoint, which uses
+    // SUPABASE_SERVICE_ROLE_KEY (bypasses RLS).
+    assert.doesNotMatch(
       src,
-      /encodedObjectStoragePath/,
-      "presign/route.ts must URL-encode objectStoragePath in directUpload.url",
+      /"Bearer " \+ anonKey/,
+      "presign/route.ts must not construct anon-key Authorization headers for a directUpload spec",
     );
     assert.match(
       src,
-      /encodedBucket/,
-      "presign/route.ts must URL-encode the bucket name in directUpload.url",
+      /directUpload:\s*null/,
+      "presign/route.ts must always return directUpload: null (anon-key direct upload removed to fix RLS errors)",
     );
   });
 });
