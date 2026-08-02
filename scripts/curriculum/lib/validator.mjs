@@ -1,6 +1,7 @@
 // scripts/curriculum/lib/validator.mjs
 import {
   ANSWER_KEY_INDICATORS,
+  MEMBERSHIP_TIERS,
   OFFICIAL_TRACK_NAMES,
   REQUIRED_BATCH_VERIFICATION_SECTIONS,
   REQUIRED_LESSON_SECTIONS,
@@ -99,6 +100,11 @@ export function validateLesson(content, declaredId) {
 
   validateCommonMetadata(meta, declaredId, errors);
   validateSections(content, REQUIRED_LESSON_SECTIONS, errors);
+
+  // Validate optional membership field when present
+  if (meta.membership && !MEMBERSHIP_TIERS.includes(meta.membership.toLowerCase())) {
+    errors.push(`Invalid membership tier "${meta.membership}". Must be one of: ${MEMBERSHIP_TIERS.join(', ')}`);
+  }
 
   for (const indicator of ANSWER_KEY_INDICATORS) {
     if (content.includes(indicator)) {

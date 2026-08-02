@@ -12,6 +12,16 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
+import {
+  ACADEMIES,
+  ACADEMY_MAP,
+  academyLevels,
+  isLessonVisible,
+  type MembershipTier,
+} from "./academies";
+
+export type { MembershipTier };
+
 const REPO_ROOT = join(process.cwd());
 const REGISTRY_PATH = join(REPO_ROOT, "curriculum", "registry.json");
 
@@ -37,6 +47,8 @@ export interface RegistryAsset {
   importedAt: string;
   validationPassed: boolean;
   warnings: string[];
+  /** Optional membership tier required to access this lesson (defaults to "free") */
+  membership?: string;
   metadata: Record<string, string>;
 }
 
@@ -71,6 +83,8 @@ export interface LessonMeta {
   version: string;
   status: "active" | "archived" | "superseded";
   importedAt: string;
+  /** Membership tier required to access this lesson (defaults to "free") */
+  membership: string;
 }
 
 export interface LessonContent {
@@ -84,6 +98,8 @@ export interface LessonContent {
 export interface TrackSummary {
   code: string;
   name: string;
+  /** Short description from the academy definition (empty string for non-primary tracks) */
+  description: string;
   levels: LevelSummary[];
 }
 
@@ -123,64 +139,148 @@ export function invalidateRegistryCache(): void {
 // Track / level queries
 // ---------------------------------------------------------------------------
 
-export function listTracks(): TrackSummary[] {
-  const registry = readRegistry();
-  return Object.values(registry.tracks).map((track) => ({
-    code: track.code,
-    name: track.name,
-    levels: Object.entries(track.levels)
-      .sort(([a], [b]) => Number(a) - Number(b))
-      .map(([levelKey, level]) => {
-        const lessons = Object.values(level.assets)
-          .filter((a): a is RegistryAsset & { lessonNumber: number } =>
-            a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
-          )
+/**
+ * Build a list of LevelSummary objects for a track.
+ *
+ * For primary academies (RED, WHITE, BLUE) all five levels are always included,
+ * even when no lessons exist in a level.  For other tracks only registry levels
+ * are returned (existing behaviour).
+ *
+ * @param track   - Registry track object (may be undefined when the academy has no registry entry yet).
+ * @param code    - Track code (e.g. "RED").
+ * @param viewer  - Membership tier or "admin".  Defaults to "free" (anonymous visitor).
+ */
+function buildLevelSummaries(
+  track: RegistryTrack | undefined,
+  code: string,
+  viewer: MembershipTier | "admin" = "free",
+): LevelSummary[] {
+  const academyDef = ACADEMY_MAP.get(code);
+  const canonicalLevels = academyDef ? academyLevels(academyDef) : undefined;
+
+  // Determine which level numbers to include.
+  const registryLevelNums = track
+    ? Object.keys(track.levels).map(Number).sort((a, b) => a - b)
+    : [];
+
+  let levelNums: number[];
+  if (canonicalLevels) {
+    // Always include all canonical levels for primary academies.
+    // Merge canonical levels with any extra registry levels (future-proof).
+    const allNums = new Set([...canonicalLevels, ...registryLevelNums]);
+    levelNums = Array.from(allNums).sort((a, b) => a - b);
+  } else {
+    levelNums = registryLevelNums;
+  }
+
+  return levelNums.map((levelNum) => {
+    const levelData = track?.levels[String(levelNum)];
+    const lessons = levelData
+      ? Object.values(levelData.assets)
+          .filter((a): a is RegistryAsset & { lessonNumber: number } => {
+            if (a.type !== "lesson" || a.status !== "active" || typeof a.lessonNumber !== "number") {
+              return false;
+            }
+            // Apply membership filter
+            const lessonTier = a.membership ?? a.metadata?.membership ?? "free";
+            return isLessonVisible(lessonTier, viewer);
+          })
           .sort((a, b) => a.lessonNumber - b.lessonNumber)
-          .map(assetToLessonMeta);
-        return {
-          level: Number(levelKey),
-          lessonCount: lessons.length,
-          lessons,
-        };
-      }),
-  }));
+          .map(assetToLessonMeta)
+      : [];
+    return {
+      level: levelNum,
+      lessonCount: lessons.length,
+      lessons,
+    };
+  });
 }
 
-export function getTrack(trackCode: string): TrackSummary | null {
+/**
+ * Returns all tracks that have at least one registry entry.
+ *
+ * For primary academies (RED, WHITE, BLUE) all five levels are always included.
+ * Use `listAcademies()` when you need all three primary academies to appear even
+ * when they have no registry data yet.
+ *
+ * @param viewer  - Membership tier or "admin" for visibility filtering.  Defaults to "free".
+ */
+export function listTracks(viewer: MembershipTier | "admin" = "free"): TrackSummary[] {
   const registry = readRegistry();
-  const track = registry.tracks[trackCode.toUpperCase()];
-  if (!track) return null;
+  return Object.values(registry.tracks).map((track) => {
+    const academyDef = ACADEMY_MAP.get(track.code);
+    return {
+      code: track.code,
+      name: track.name,
+      description: academyDef?.description ?? "",
+      levels: buildLevelSummaries(track, track.code, viewer),
+    };
+  });
+}
+
+/**
+ * Returns all three primary academies (RED, WHITE, BLUE) always — even when
+ * they have no lessons yet — each with five levels.
+ *
+ * Empty levels still appear and carry `lessonCount: 0`.
+ * Use this for the curriculum landing page and academy navigation.
+ *
+ * @param viewer  - Membership tier or "admin" for visibility filtering.  Defaults to "free".
+ */
+export function listAcademies(viewer: MembershipTier | "admin" = "free"): TrackSummary[] {
+  const registry = readRegistry();
+  return ACADEMIES.map((academyDef) => {
+    const registryTrack = registry.tracks[academyDef.code];
+    return {
+      code: academyDef.code,
+      name: academyDef.name,
+      description: academyDef.description,
+      levels: buildLevelSummaries(registryTrack, academyDef.code, viewer),
+    };
+  });
+}
+
+export function getTrack(
+  trackCode: string,
+  viewer: MembershipTier | "admin" = "free",
+): TrackSummary | null {
+  const registry = readRegistry();
+  const upper = trackCode.toUpperCase();
+  const registryTrack = registry.tracks[upper];
+  const academyDef = ACADEMY_MAP.get(upper);
+
+  // For primary academies always return a summary even without registry data.
+  if (!registryTrack && !academyDef) return null;
+
+  const name = registryTrack?.name ?? academyDef!.name;
+  const description = academyDef?.description ?? "";
+
   return {
-    code: track.code,
-    name: track.name,
-    levels: Object.entries(track.levels)
-      .sort(([a], [b]) => Number(a) - Number(b))
-      .map(([levelKey, level]) => {
-        const lessons = Object.values(level.assets)
-          .filter((a): a is RegistryAsset & { lessonNumber: number } =>
-            a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
-          )
-          .sort((a, b) => a.lessonNumber - b.lessonNumber)
-          .map(assetToLessonMeta);
-        return {
-          level: Number(levelKey),
-          lessonCount: lessons.length,
-          lessons,
-        };
-      }),
+    code: upper,
+    name,
+    description,
+    levels: buildLevelSummaries(registryTrack, upper, viewer),
   };
 }
 
-export function getLessonsForLevel(trackCode: string, level: number): LessonMeta[] {
+export function getLessonsForLevel(
+  trackCode: string,
+  level: number,
+  viewer: MembershipTier | "admin" = "free",
+): LessonMeta[] {
   const registry = readRegistry();
   const track = registry.tracks[trackCode.toUpperCase()];
   if (!track) return [];
   const levelData = track.levels[String(level)];
   if (!levelData) return [];
   return Object.values(levelData.assets)
-    .filter((a): a is RegistryAsset & { lessonNumber: number } =>
-      a.type === "lesson" && a.status === "active" && typeof a.lessonNumber === "number"
-    )
+    .filter((a): a is RegistryAsset & { lessonNumber: number } => {
+      if (a.type !== "lesson" || a.status !== "active" || typeof a.lessonNumber !== "number") {
+        return false;
+      }
+      const lessonTier = a.membership ?? a.metadata?.membership ?? "free";
+      return isLessonVisible(lessonTier, viewer);
+    })
     .sort((a, b) => a.lessonNumber - b.lessonNumber)
     .map(assetToLessonMeta);
 }
@@ -283,14 +383,31 @@ export function getAllTrackLevelStaticParams(): Array<{
 }> {
   const registry = readRegistry();
   const params: Array<{ track: string; level: string }> = [];
-  for (const track of Object.values(registry.tracks)) {
-    for (const levelKey of Object.keys(track.levels)) {
-      params.push({
-        track: track.code.toLowerCase(),
-        level: `l${levelKey}`,
-      });
+
+  // Include all primary academy levels (ensures static pages are generated
+  // even before any lessons exist).
+  const included = new Set<string>();
+  for (const academy of ACADEMIES) {
+    for (let lvl = 1; lvl <= academy.levelCount; lvl++) {
+      const key = `${academy.code.toLowerCase()}:l${lvl}`;
+      if (!included.has(key)) {
+        included.add(key);
+        params.push({ track: academy.code.toLowerCase(), level: `l${lvl}` });
+      }
     }
   }
+
+  // Also include any additional registry tracks/levels not covered above.
+  for (const track of Object.values(registry.tracks)) {
+    for (const levelKey of Object.keys(track.levels)) {
+      const key = `${track.code.toLowerCase()}:l${levelKey}`;
+      if (!included.has(key)) {
+        included.add(key);
+        params.push({ track: track.code.toLowerCase(), level: `l${levelKey}` });
+      }
+    }
+  }
+
   return params;
 }
 
@@ -402,6 +519,7 @@ function assetToLessonMeta(
     version: asset.version,
     status: asset.status,
     importedAt: asset.importedAt,
+    membership: asset.membership ?? asset.metadata?.membership ?? "free",
   };
 }
 
