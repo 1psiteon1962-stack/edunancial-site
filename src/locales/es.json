@@ -484,5 +484,21 @@
   "executive.geo.traffic": "Tráfico",
   "executive.geo.completions": "Completados",
   "executive.geo.aiUsage": "Uso de IA",
-  "executive.geo.noData": "Datos geográficos no disponibles aún. Conecta Supabase geo_analytics para poblar esta tabla."
+  "executive.geo.noData": "Datos geográficos no disponibles aún. Conecta Supabase geo_analytics para poblar esta tabla.",
+  "lesson.whatYouWillLearn": "What You Will Learn",
+  "lesson.watchLesson": "Watch the Lesson",
+  "lesson.keyTakeaways": "Key Takeaways",
+  "lesson.commonMistakes": "Common Mistakes to Avoid",
+  "lesson.faq": "Frequently Asked Questions",
+  "lesson.disclaimer": "Educational Disclaimer",
+  "lesson.nextLesson": "Up Next",
+  "lesson.backToCourse": "← Back to Course",
+  "lesson.browseAllCourses": "Browse All Courses",
+  "lesson.lessonOf": "Lesson {current} of {total}",
+  "lesson.duration": "{duration} read",
+  "lesson.beginnerLevel": "Beginner",
+  "lesson.upNext": "Up Next",
+  "glossaryTerm.prefix": "Glossary: ",
+  "red101.title": "RED 101: What Is Real Estate?",
+  "red101.description": "Define real estate as an asset class and understand how ownership generates wealth through cash flow and appreciation."
 }
