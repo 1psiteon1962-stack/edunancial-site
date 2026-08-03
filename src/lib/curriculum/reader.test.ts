@@ -13,12 +13,17 @@ test("listAcademies keeps RED, WHITE, and BLUE active regardless of published le
   assert.ok(academies.every((academy) => academy.levels.length === 5));
 });
 
-test("getTrack returns active WHITE and BLUE summaries even with zero lessons", () => {
+test("getTrack returns summaries for WHITE and BLUE with L1 lessons and empty upper levels", () => {
   for (const code of ["WHITE", "BLUE"] as const) {
     const track = getTrack(code);
     assert.ok(track, `${code} track should exist`);
     assert.equal(track?.levels.length, 5);
-    assert.equal(track?.levels.every((level) => level.lessonCount === 0), true);
+    // Level 1 now has published lessons; levels 2-5 remain empty.
+    assert.ok((track?.levels[0]?.lessonCount ?? 0) > 0, `${code} L1 should have published lessons`);
+    assert.ok(
+      track?.levels.slice(1).every((level) => level.lessonCount === 0),
+      `${code} levels 2-5 should have zero lessons`,
+    );
   }
 });
 
