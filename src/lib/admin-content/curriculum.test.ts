@@ -200,6 +200,78 @@ describe("curriculum auto-ingest — detectCurriculumAsset", () => {
     assert.strictEqual(asset.canonicalPath, "content/curriculum/RED/L1/RED-L1-099.md");
   });
 
+  test("returns null when front-matter delimiters are stripped (as extractMarkdownPreview does)", async () => {
+    // Reproduces the publishing defect: extractMarkdownPreview strips '---' via
+    // .replace(/[#>*_\-]+/g, " "), so rawText never contains the front-matter
+    // block that detectCurriculumAsset needs.  github.ts must use the original
+    // bytes (from encodedContent) instead of rawText for curriculum detection.
+    const strippedRawText = VALID_CURRICULUM_CONTENT
+      .replace(/`{1,3}[\s\S]*?`{1,3}/g, " ")
+      .replace(/[#>*_\-]+/g, " ");
+    const asset = await detectCurriculumAsset(strippedRawText);
+    assert.strictEqual(
+      asset,
+      null,
+      "detectCurriculumAsset must return null for preview-stripped rawText — use original encodedContent instead",
+    );
+  });
+
+  test("detects WHITE lesson from original content, confirming the pipeline fix", async () => {
+    const whiteLesson = [
+      "---",
+      "id: WHITE-L1-001",
+      "track: WHITE",
+      "officialTrackName: Paper Assets",
+      "level: 1",
+      "lessonNumber: 1",
+      "title: Introduction to Paper Assets",
+      "version: 1.0",
+      "author: Edunancial Faculty",
+      "date: 2026-08-03",
+      "---",
+      "",
+      "## Learning Objectives",
+      "Understand paper assets.",
+      "",
+      "## Core Content",
+      "Paper assets include stocks, bonds, and funds.",
+    ].join("\n");
+
+    const asset = await detectCurriculumAsset(whiteLesson);
+    assert.ok(asset !== null, "detectCurriculumAsset must detect a WHITE lesson from original content");
+    assert.strictEqual(asset.id, "WHITE-L1-001");
+    assert.strictEqual(asset.track, "WHITE");
+    assert.strictEqual(asset.canonicalPath, "content/curriculum/WHITE/L1/WHITE-L1-001.md");
+  });
+
+  test("detects BLUE lesson from original content, confirming the pipeline fix", async () => {
+    const blueLesson = [
+      "---",
+      "id: BLUE-L1-001",
+      "track: BLUE",
+      "officialTrackName: Business",
+      "level: 1",
+      "lessonNumber: 1",
+      "title: Introduction to Business",
+      "version: 1.0",
+      "author: Edunancial Faculty",
+      "date: 2026-08-03",
+      "---",
+      "",
+      "## Learning Objectives",
+      "Understand business fundamentals.",
+      "",
+      "## Core Content",
+      "Business is the activity of producing and selling goods and services.",
+    ].join("\n");
+
+    const asset = await detectCurriculumAsset(blueLesson);
+    assert.ok(asset !== null, "detectCurriculumAsset must detect a BLUE lesson from original content");
+    assert.strictEqual(asset.id, "BLUE-L1-001");
+    assert.strictEqual(asset.track, "BLUE");
+    assert.strictEqual(asset.canonicalPath, "content/curriculum/BLUE/L1/BLUE-L1-001.md");
+  });
+
   test("reports validation warnings for a lesson with missing sections", async () => {
     const minimalContent = "---\nid: RED-L1-099\n---\n\nNo required sections.";
     const asset = await detectCurriculumAsset(minimalContent);

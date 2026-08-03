@@ -82,11 +82,15 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
   const resolvedFiles: ResolvedFile[] = await Promise.all(
     approvedFiles.map(async (file) => {
-      const rawContent = file.rawText ?? Buffer.from(file.encodedContent, "base64").toString("utf8");
-      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(rawContent) : null;
+      // Use the original file bytes for curriculum detection and validation.
+      // rawText has markdown syntax stripped (including '---' front-matter
+      // delimiters) by the preview extractor, which breaks front-matter parsing
+      // in detectCurriculumAsset and validateCurriculumFiles.
+      const originalContent = Buffer.from(file.encodedContent, "base64").toString("utf8");
+      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(originalContent) : null;
       const bundledLessons =
         file.extension === ".md" && !curriculumAsset
-          ? await detectBundledCurriculumLessons(rawContent)
+          ? await detectBundledCurriculumLessons(originalContent)
           : [];
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.canonicalPath
@@ -125,7 +129,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     [
       ...resolvedFiles.map((file) => ({
         destination: file.resolvedDestination,
-        content: file.rawText ?? "",
+        content: Buffer.from(file.encodedContent, "base64").toString("utf8"),
       })),
       ...bundledCurriculumFiles.map((file) => ({
         destination: file.destination,
