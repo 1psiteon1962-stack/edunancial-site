@@ -424,5 +424,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "僅用於本次工作階段",
+  "selector.resetToAuto": "使用自動語言偵測",
+  "selector.preferenceMode.auto": "自動偵測",
+  "selector.preferenceMode.session": "僅本次工作階段",
+  "selector.preferenceMode.saved": "預設語言"
 }

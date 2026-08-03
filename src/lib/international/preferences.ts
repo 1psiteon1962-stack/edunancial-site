@@ -16,6 +16,75 @@ import {
 
 export type InternationalPreferences = GlobalUserPreferences;
 
+// ---------------------------------------------------------------------------
+// Language preference storage keys
+// ---------------------------------------------------------------------------
+
+/** sessionStorage key for the current-session language override. */
+export const SESSION_LANGUAGE_KEY = "edunancial.locale.session";
+
+/** localStorage key for the saved default language preference. */
+export const SAVED_LANGUAGE_KEY = "edunancial.locale.saved";
+
+/**
+ * Cookie name for the saved default language.
+ * Written when the user saves a default so that the server-rendered HTML
+ * can include the correct `lang` attribute before JavaScript loads.
+ */
+export const LANGUAGE_COOKIE_NAME = "edunancial-lang";
+
+// ---------------------------------------------------------------------------
+// Session-only language override (sessionStorage)
+// ---------------------------------------------------------------------------
+
+/** Returns the session-only language override, or `null` if none is set. */
+export function loadSessionLanguageOverride(): string | null {
+  if (!isClient()) return null;
+  return sessionStorage.getItem(SESSION_LANGUAGE_KEY);
+}
+
+/** Stores a session-only language override in sessionStorage. */
+export function saveSessionLanguageOverride(locale: string): void {
+  if (!isClient()) return;
+  sessionStorage.setItem(SESSION_LANGUAGE_KEY, locale);
+}
+
+/** Removes the session-only language override. */
+export function clearSessionLanguageOverride(): void {
+  if (!isClient()) return;
+  sessionStorage.removeItem(SESSION_LANGUAGE_KEY);
+}
+
+// ---------------------------------------------------------------------------
+// Saved default language preference (localStorage + cookie)
+// ---------------------------------------------------------------------------
+
+/** Returns the saved default language preference, or `null` if none is set. */
+export function loadSavedLanguagePreference(): string | null {
+  if (!isClient()) return null;
+  return localStorage.getItem(SAVED_LANGUAGE_KEY);
+}
+
+/**
+ * Persists the user's chosen default language in localStorage and as a
+ * cookie so server-rendered pages can use the correct `lang` attribute.
+ */
+export function saveSavedLanguagePreference(locale: string): void {
+  if (!isClient()) return;
+  localStorage.setItem(SAVED_LANGUAGE_KEY, locale);
+  document.cookie = `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(locale)}; path=/; max-age=${365 * 24 * 60 * 60}; SameSite=Lax`;
+}
+
+/**
+ * Removes the saved default language preference, restoring automatic
+ * language detection on the next visit.
+ */
+export function clearSavedLanguagePreference(): void {
+  if (!isClient()) return;
+  localStorage.removeItem(SAVED_LANGUAGE_KEY);
+  document.cookie = `${LANGUAGE_COOKIE_NAME}=; path=/; max-age=0; SameSite=Lax`;
+}
+
 type LegacyInternationalPreferences = {
   language?: string;
   currency?: string;

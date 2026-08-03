@@ -424,5 +424,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "Kwa kikao hiki tu",
+  "selector.resetToAuto": "Tumia utambuzi wa lugha otomatiki",
+  "selector.preferenceMode.auto": "Utambuzi otomatiki",
+  "selector.preferenceMode.session": "Kikao hiki tu",
+  "selector.preferenceMode.saved": "Lugha ya msingi"
 }

@@ -26,9 +26,11 @@ export default function LanguagePreferenceSelector({
   const {
     effectiveLanguage,
     preferences,
+    languagePreferenceMode,
     languagePromptPending,
     setLanguage,
     confirmLanguageDefault,
+    resetToAutomatic,
     t,
   } = useInternationalPreferences();
   const [searchValue, setSearchValue] = useState("");
@@ -107,24 +109,43 @@ export default function LanguagePreferenceSelector({
           <p className="font-semibold text-yellow-200">
             {t("selector.defaultPrompt")}
           </p>
-          <div className="mt-2 flex gap-2">
+          <div className="mt-2 flex flex-col gap-2">
+            <button
+              type="button"
+              onClick={() => confirmLanguageDefault(false)}
+              className="rounded-md border border-white/20 px-3 py-1.5 font-semibold text-white transition hover:bg-white/10"
+            >
+              {t("selector.sessionOnly")}
+            </button>
             <button
               type="button"
               onClick={() => confirmLanguageDefault(true)}
-              className="rounded-md bg-yellow-400 px-3 py-1 font-bold text-slate-950 transition hover:bg-yellow-300"
+              className="rounded-md bg-yellow-400 px-3 py-1.5 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
               {t("selector.setDefault.yes")}
             </button>
             <button
               type="button"
-              onClick={() => confirmLanguageDefault(false)}
-              className="rounded-md border border-white/20 px-3 py-1 font-semibold text-white transition hover:bg-white/10"
+              onClick={resetToAutomatic}
+              className="rounded-md border border-white/10 px-3 py-1.5 text-slate-400 transition hover:bg-white/5 hover:text-white"
             >
-              {t("selector.setDefault.no")}
+              {t("selector.resetToAuto")}
             </button>
           </div>
         </div>
       )}
+
+      {!languagePromptPending && languagePreferenceMode !== "auto" && (
+        <button
+          type="button"
+          onClick={resetToAutomatic}
+          className="mt-1 rounded-md border border-white/10 px-2 py-1 text-xs text-slate-400 transition hover:bg-white/5 hover:text-white"
+          title={t("selector.resetToAuto")}
+        >
+          {t("selector.resetToAuto")}
+        </button>
+      )}
     </div>
   );
 }
+

@@ -484,5 +484,10 @@
   "executive.geo.traffic": "Traffic",
   "executive.geo.completions": "Completions",
   "executive.geo.aiUsage": "AI Usage",
-  "executive.geo.noData": "Geographic data not yet available. Connect Supabase geo_analytics to populate this table."
+  "executive.geo.noData": "Geographic data not yet available. Connect Supabase geo_analytics to populate this table.",
+  "selector.sessionOnly": "Use for this session only",
+  "selector.resetToAuto": "Use Automatic Language Detection",
+  "selector.preferenceMode.auto": "Automatic detection",
+  "selector.preferenceMode.session": "Session only",
+  "selector.preferenceMode.saved": "Default language"
 }
