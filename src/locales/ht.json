@@ -425,5 +425,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "Sèlman pou sesyon sa a",
+  "selector.resetToAuto": "Itilize deteksyon otomatik lang",
+  "selector.preferenceMode.auto": "Deteksyon otomatik",
+  "selector.preferenceMode.session": "Sesyon sa a sèlman",
+  "selector.preferenceMode.saved": "Lang pa default"
 }

@@ -424,5 +424,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "仅用于本次会话",
+  "selector.resetToAuto": "使用自动语言检测",
+  "selector.preferenceMode.auto": "自动检测",
+  "selector.preferenceMode.session": "仅本次会话",
+  "selector.preferenceMode.saved": "默认语言"
 }

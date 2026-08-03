@@ -434,5 +434,10 @@
   "track.blue.comingSoon.1": "Guides élargis sur le leadership et le recrutement",
   "track.blue.comingSoon.2": "Tableaux de bord avancés des systèmes d'affaires",
   "track.blue.primaryCta": "Voir les cours BLUE",
-  "track.blue.secondaryCta": "Améliorer l'abonnement"
+  "track.blue.secondaryCta": "Améliorer l'abonnement",
+  "selector.sessionOnly": "Pour cette session seulement",
+  "selector.resetToAuto": "Utiliser la détection automatique de la langue",
+  "selector.preferenceMode.auto": "Détection automatique",
+  "selector.preferenceMode.session": "Session seulement",
+  "selector.preferenceMode.saved": "Langue par défaut"
 }
