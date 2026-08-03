@@ -14,13 +14,20 @@ const CURRICULUM_REGISTRY_PATH = "curriculum/registry.json";
 
 const DEFAULT_BASE_BRANCH = "main";
 
-async function githubRequest(path: string, init: RequestInit = {}) {
+function getRequiredGithubConfig() {
   const token = process.env.EDUNANCIAL_GITHUB_TOKEN;
   const owner = process.env.EDUNANCIAL_GITHUB_OWNER;
   const repo = process.env.EDUNANCIAL_GITHUB_REPO;
+
   if (!token || !owner || !repo) {
     throw new Error("GitHub integration requires EDUNANCIAL_GITHUB_TOKEN, EDUNANCIAL_GITHUB_OWNER, and EDUNANCIAL_GITHUB_REPO.");
   }
+
+  return { token, owner, repo };
+}
+
+async function githubRequest(path: string, init: RequestInit = {}) {
+  const { token, owner, repo } = getRequiredGithubConfig();
 
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}${path}`, {
     ...init,
@@ -61,6 +68,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     throw new Error("No approved files to publish. Approve at least one file before publishing.");
   }
 
+  const { owner, repo } = getRequiredGithubConfig();
+
   // ---------------------------------------------------------------------------
   // Phase 1: resolve the final destination for each approved file.
   //
@@ -82,11 +91,15 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
   const resolvedFiles: ResolvedFile[] = await Promise.all(
     approvedFiles.map(async (file) => {
-      const rawContent = file.rawText ?? Buffer.from(file.encodedContent, "base64").toString("utf8");
-      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(rawContent) : null;
+      // Use the original file bytes for curriculum detection and validation.
+      // rawText has markdown syntax stripped (including '---' front-matter
+      // delimiters) by the preview extractor, which breaks front-matter parsing
+      // in detectCurriculumAsset and validateCurriculumFiles.
+      const originalContent = Buffer.from(file.encodedContent, "base64").toString("utf8");
+      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(originalContent) : null;
       const bundledLessons =
         file.extension === ".md" && !curriculumAsset
-          ? await detectBundledCurriculumLessons(rawContent)
+          ? await detectBundledCurriculumLessons(originalContent)
           : [];
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.canonicalPath
@@ -125,7 +138,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     [
       ...resolvedFiles.map((file) => ({
         destination: file.resolvedDestination,
-        content: file.rawText ?? "",
+        content: Buffer.from(file.encodedContent, "base64").toString("utf8"),
       })),
       ...bundledCurriculumFiles.map((file) => ({
         destination: file.destination,
@@ -137,8 +150,6 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     throw new Error(`GitHub export blocked by curriculum validation: ${validation.errors.join("; ")}`);
   }
 
-  const owner = process.env.EDUNANCIAL_GITHUB_OWNER as string;
-  const repo = process.env.EDUNANCIAL_GITHUB_REPO as string;
   const baseBranch = process.env.EDUNANCIAL_GITHUB_BASE_BRANCH || DEFAULT_BASE_BRANCH;
   const batchSlug = slugify(batch.name);
   // Branch name includes full timestamp (YYYYMMDD-HHMMSS) for predictability and uniqueness.
