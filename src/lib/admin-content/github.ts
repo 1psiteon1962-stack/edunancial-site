@@ -2,6 +2,7 @@ import type { ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 import { slugify } from "@/lib/admin-content/utils";
 import {
   buildRegistryEntry,
+  detectBundledCurriculumLessons,
   detectCurriculumAsset,
   upsertRegistryEntries,
   validateCurriculumFiles,
@@ -76,17 +77,31 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   type ResolvedFile = (typeof approvedFiles)[number] & {
     resolvedDestination: string;
     curriculumAsset: Awaited<ReturnType<typeof detectCurriculumAsset>>;
+    bundledLessons: Awaited<ReturnType<typeof detectBundledCurriculumLessons>>;
   };
 
   const resolvedFiles: ResolvedFile[] = await Promise.all(
     approvedFiles.map(async (file) => {
       const rawContent = file.rawText ?? Buffer.from(file.encodedContent, "base64").toString("utf8");
       const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(rawContent) : null;
+      const bundledLessons =
+        file.extension === ".md" && !curriculumAsset
+          ? await detectBundledCurriculumLessons(rawContent)
+          : [];
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.canonicalPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
-      return { ...file, resolvedDestination, curriculumAsset };
+      return { ...file, resolvedDestination, curriculumAsset, bundledLessons };
     }),
+  );
+
+  const bundledCurriculumFiles = resolvedFiles.flatMap((file) =>
+    file.bundledLessons.map((lesson) => ({
+      sourceFileId: file.id,
+      destination: lesson.asset.canonicalPath,
+      content: lesson.content,
+      asset: lesson.asset,
+    })),
   );
 
   // Detect in-batch duplicate destination paths before hitting the GitHub API.
@@ -94,6 +109,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     acc[file.resolvedDestination] = (acc[file.resolvedDestination] ?? 0) + 1;
     return acc;
   }, {});
+  for (const bundledFile of bundledCurriculumFiles) {
+    destinationCounts[bundledFile.destination] = (destinationCounts[bundledFile.destination] ?? 0) + 1;
+  }
   const duplicateDestinations = Object.entries(destinationCounts)
     .filter(([, count]) => count > 1)
     .map(([dest]) => dest);
@@ -104,10 +122,16 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   }
 
   const validation = await validateCurriculumFiles(
-    resolvedFiles.map((file) => ({
-      destination: file.resolvedDestination,
-      content: file.rawText ?? "",
-    })),
+    [
+      ...resolvedFiles.map((file) => ({
+        destination: file.resolvedDestination,
+        content: file.rawText ?? "",
+      })),
+      ...bundledCurriculumFiles.map((file) => ({
+        destination: file.destination,
+        content: file.content,
+      })),
+    ],
   );
   if (!validation.success) {
     throw new Error(`GitHub export blocked by curriculum validation: ${validation.errors.join("; ")}`);
@@ -140,6 +164,17 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     }),
   );
 
+  const bundledLessonBlobs = await Promise.all(
+    bundledCurriculumFiles.map(async (file) => {
+      const blob = await githubRequest("/git/blobs", {
+        method: "POST",
+        body: JSON.stringify({ content: Buffer.from(file.content, "utf8").toString("base64"), encoding: "base64" }),
+      });
+      return { path: file.destination, mode: "100644", type: "blob", sha: blob.sha as string };
+    }),
+  );
+  blobs.push(...bundledLessonBlobs);
+
   // ---------------------------------------------------------------------------
   // Phase 2: if any files are curriculum assets, fetch the current registry and
   // build an updated version that includes the new entries.  The updated
@@ -148,14 +183,15 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   // `npm run curriculum:import` or code changes are required.
   // ---------------------------------------------------------------------------
   const curriculumFiles = resolvedFiles.filter((f) => f.curriculumAsset !== null);
+  const totalCurriculumAssets = curriculumFiles.length + bundledCurriculumFiles.length;
   let registryIncludedInPr = false;
 
-  if (curriculumFiles.length > 0) {
+  if (totalCurriculumAssets > 0) {
     // Registry update is MANDATORY for curriculum assets.  If it fails the PR
     // must not be created — a partial commit (content without registry) would
     // leave the lesson unreachable on the live site and break the pipeline.
     const existingRegistry = await fetchCurrentRegistry();
-    const newEntries = curriculumFiles.map((file) => {
+    const directEntries = curriculumFiles.map((file) => {
       const contentBytes = Buffer.from(file.encodedContent, "base64");
       return buildRegistryEntry(
         file.curriculumAsset!,
@@ -165,6 +201,11 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         file.checksum ? `sha256:${file.checksum}` : undefined,
       );
     });
+    const bundledEntries = bundledCurriculumFiles.map((file) => {
+      const contentBytes = Buffer.from(file.content, "utf8");
+      return buildRegistryEntry(file.asset, contentBytes, ingestionId, ingestionTimestamp);
+    });
+    const newEntries = [...directEntries, ...bundledEntries];
     const updatedRegistry = upsertRegistryEntries(existingRegistry, newEntries);
     const registryBlob = await githubRequest("/git/blobs", {
       method: "POST",
@@ -205,7 +246,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     files: manifestEntries,
     validation,
     registryUpdated: registryIncludedInPr,
-    curriculumAssets: curriculumFiles.length,
+    curriculumAssets: totalCurriculumAssets,
   };
   const manifestBlob = await githubRequest("/git/blobs", {
     method: "POST",
@@ -265,7 +306,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Rejected: ${counts.rejected}`,
         `Duplicates: ${counts.duplicates}`,
         `Conflicts: ${counts.conflicts}`,
-        `Curriculum assets: ${curriculumFiles.length}`,
+        `Curriculum assets: ${totalCurriculumAssets}`,
         `Registry updated in PR: ${registryIncludedInPr}`,
         `Validation success: ${validation.success}`,
         `Validation warnings: ${validation.warnings.join("; ") || "None"}`,
