@@ -1,8 +1,8 @@
 # Curriculum Validation Report
 
-**Generated:** 2026-08-02T23:42:53.449Z
-**Total Assets:** 21
-**Passed:** 21
+**Generated:** 2026-08-03T02:55:24.424Z
+**Total Assets:** 32
+**Passed:** 32
 **Failed:** 0
 
 ## Results
@@ -69,4 +69,37 @@ Path: `content/curriculum/WHITE/L1/WHITE-L1-010.md`
 
 ### WHITE-L1-MANIFEST — ✅ PASS
 Path: `curriculum/manifests/WHITE-L1-MANIFEST.md`
+
+### BLUE-L1-001 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-001.md`
+
+### BLUE-L1-002 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-002.md`
+
+### BLUE-L1-003 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-003.md`
+
+### BLUE-L1-004 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-004.md`
+
+### BLUE-L1-005 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-005.md`
+
+### BLUE-L1-006 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-006.md`
+
+### BLUE-L1-007 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-007.md`
+
+### BLUE-L1-008 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-008.md`
+
+### BLUE-L1-009 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-009.md`
+
+### BLUE-L1-010 — ✅ PASS
+Path: `content/curriculum/BLUE/L1/BLUE-L1-010.md`
+
+### BLUE-L1-MANIFEST — ✅ PASS
+Path: `curriculum/manifests/BLUE-L1-MANIFEST.md`
 
