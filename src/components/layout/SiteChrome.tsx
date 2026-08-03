@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 
+import AILearningCoachWidget from "@/components/ai-learning/AILearningCoachWidget";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
@@ -21,6 +22,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
       <Navbar />
       <DetectedPreferencesBanner />
       {children}
+      <AILearningCoachWidget />
       <Footer />
     </>
   );
