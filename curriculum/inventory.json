@@ -1,13 +1,17 @@
 {
   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
   "summary": {
-    "totalLessons": 10,
-    "totalTracks": 1,
-    "totalLevels": 1,
+    "totalLessons": 21,
+    "totalTracks": 2,
+    "totalLevels": 2,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
         "totalLessons": 10
+      },
+      "WHITE": {
+        "name": "Paper Assets",
+        "totalLessons": 11
       }
     }
   },
@@ -141,6 +145,149 @@
       "path": "content/curriculum/RED/L1/RED-L1-010.md",
       "checksum": "sha256:cc5e3c6524b1d2ce7311edaf2985372683b771690d95bc5af70eaef33a8ce040",
       "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "WHITE-L1-001",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Understanding Paper Assets as an Asset Class",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
+      "checksum": "sha256:50a93cf87b0667b3fb04b88ae1e15c8c3127d3dd82a00805c1372a252acdf65c",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-002",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Stocks — Ownership, Price, and Return",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
+      "checksum": "sha256:6d61814bbfa29f62486b5c7193baaa80b2191ab65f8862b01b8b9e9957097c3a",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-003",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Bonds — Fixed Income and Lending Returns",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
+      "checksum": "sha256:52b76db360232c0a990c153fd791b73b2b973b233a1255bc2800cc574427da0e",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-004",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Funds — ETFs, Index Funds, and Mutual Funds",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
+      "checksum": "sha256:9c705c5b0f0d4d0e67bff5e191d4bc4d7e599776ebab17d36b41ca51b897a5cf",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-005",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Tax-Advantaged Accounts — 401(k), IRA, and Roth IRA",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
+      "checksum": "sha256:bf4b59bee4037474cd4fadf8d19c67fe37dbd857bafcf682057a306e6c3f48a4",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-006",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Asset Allocation and Portfolio Construction",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
+      "checksum": "sha256:ec1bdf970b906d20f858189e4f027b95ce1d77490bce417f066bf1031fff561a",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-007",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "How the Stock Market Works — Exchanges, Orders, and Market Mechanics",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
+      "checksum": "sha256:ffd617f9948a66176388b1ce9ec4f11c6a325cbafad3f600426a2c6178122709",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-008",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Reading Financial Statements for Investors",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
+      "checksum": "sha256:348391d77dcb832eb2934c29e9dda2d23b407c69ee482682927b92113f5d604a",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-009",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Investment Risk — Types, Measurement, and Management",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
+      "checksum": "sha256:f0c1b979c07f7dd611cc76e370cb0ed3b8c83f7418e378c39b1a598d1cfbb314",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-010",
+      "type": "lesson",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "Building Your Paper Asset Investment Strategy",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
+      "checksum": "sha256:735dd3ccf91e2c7b35cf19543e594c24f2b7551cee7c88dcfd08e66d48223c7a",
+      "importedAt": "2026-08-02T23:42:42.498Z"
+    },
+    {
+      "id": "WHITE-L1-MANIFEST",
+      "type": "manifest",
+      "track": "WHITE",
+      "trackName": "Paper Assets",
+      "level": 1,
+      "title": "\"WHITE Level 1 — Paper Asset Foundations\"",
+      "version": "1.0",
+      "status": "active",
+      "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "checksum": "sha256:a30771ff44cb39f17f3cc61c063fd1ae6323584219feb0848cdcc55eef5fde76",
+      "importedAt": "2026-08-02T23:42:45.863Z"
     }
   ]
 }
