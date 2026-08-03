@@ -24,42 +24,66 @@ function buildContext(overrides: Partial<AILearningContext> = {}): AILearningCon
   };
 }
 
-test("responds with context-aware coaching and milestone reinforcement", () => {
-  const response = generateAILearningResponse({
-    message: "Explain this lesson and give me a scenario",
-    context: buildContext(),
-  });
+test("returns not-configured response when OPENAI_API_KEY is absent", async () => {
+  const saved = process.env.OPENAI_API_KEY;
+  delete process.env.OPENAI_API_KEY;
 
-  assert.equal(response.enabled, true);
-  assert.match(response.message, /Curriculum focus:/);
-  assert.match(response.message, /You have completed 2 lessons/);
-  assert.equal(response.disclaimers.length, 0);
+  try {
+    const response = await generateAILearningResponse({
+      message: "Explain this lesson and give me a scenario",
+      context: buildContext(),
+    });
+
+    // Without an API key the system must not silently fail — it must tell the
+    // learner clearly that the coach is not configured.
+    assert.equal(response.enabled, false);
+    assert.match(response.message, /not yet configured|temporarily unavailable/i);
+    assert.equal(typeof response.contextSummary, "string");
+    assert.ok(response.contextSummary.length > 0);
+  } finally {
+    if (saved !== undefined) process.env.OPENAI_API_KEY = saved;
+  }
 });
 
-test("blocks specific investment advice and includes educational guardrail", () => {
-  const response = generateAILearningResponse({
-    message: "Which stock should I buy right now?",
-    context: buildContext({ progressPercent: 10 }),
-  });
+test("blocks specific investment advice with guardrail before calling AI", async () => {
+  const saved = process.env.OPENAI_API_KEY;
+  delete process.env.OPENAI_API_KEY;
 
-  assert.equal(response.enabled, true);
-  assert.match(response.message, /does not recommend specific stocks/i);
-  assert.ok(response.disclaimers.length >= 1);
+  try {
+    const response = await generateAILearningResponse({
+      message: "Which stock should I buy right now?",
+      context: buildContext({ progressPercent: 10 }),
+    });
+
+    // Guardrail fires before the AI call, so enabled:true and message reflects
+    // the investment-advice boundary even when the API key is absent.
+    assert.equal(response.enabled, true);
+    assert.match(response.message, /does not recommend specific stocks/i);
+    assert.ok(response.disclaimers.length >= 1);
+  } finally {
+    if (saved !== undefined) process.env.OPENAI_API_KEY = saved;
+  }
 });
 
-test("supports jurisdiction comparison without dropping curriculum context", () => {
-  const response = generateAILearningResponse({
-    message: "What would this be in Canada compared with the United States?",
-    context: buildContext(),
-  });
+test("context summary includes track and jurisdiction regardless of AI availability", async () => {
+  const saved = process.env.OPENAI_API_KEY;
+  delete process.env.OPENAI_API_KEY;
 
-  assert.equal(response.enabled, true);
-  assert.match(response.message, /Canada|United States/);
-  assert.match(response.contextSummary, /BLUE track/);
+  try {
+    const response = await generateAILearningResponse({
+      message: "What would this be in Canada compared with the United States?",
+      context: buildContext(),
+    });
+
+    assert.match(response.contextSummary, /BLUE track/);
+    assert.match(response.contextSummary, /Jurisdiction US/);
+  } finally {
+    if (saved !== undefined) process.env.OPENAI_API_KEY = saved;
+  }
 });
 
-test("membership-aware response can disable public assistance", () => {
-  const response = generateAILearningResponse({
+test("membership-aware response disables public assistance when configured", async () => {
+  const response = await generateAILearningResponse({
     message: "Help me with this lesson",
     context: buildContext({ membership: "public" }),
     config: {
@@ -71,8 +95,8 @@ test("membership-aware response can disable public assistance", () => {
   assert.match(response.message, /reserved for members/i);
 });
 
-test("language-aware gating disables unsupported locale", () => {
-  const response = generateAILearningResponse({
+test("language-aware gating disables unsupported locale without calling AI", async () => {
+  const response = await generateAILearningResponse({
     message: "Help me",
     context: buildContext({ language: "ru" }),
     config: {
