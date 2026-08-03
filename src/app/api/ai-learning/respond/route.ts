@@ -30,7 +30,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const response = generateAILearningResponse({
+  const response = await generateAILearningResponse({
     message,
     context,
     config: mergeAILearningConfig(payload.config),
