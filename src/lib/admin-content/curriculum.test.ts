@@ -17,6 +17,7 @@ import { describe, test } from "node:test";
 
 import {
   buildRegistryEntry,
+  detectBundledCurriculumLessons,
   detectCurriculumAsset,
   upsertRegistryEntries,
 } from "@/lib/admin-content/curriculum";
@@ -126,6 +127,55 @@ describe("curriculum auto-ingest — detectCurriculumAsset", () => {
   test("returns null for plain text with no front-matter", async () => {
     const result = await detectCurriculumAsset("No front-matter here.");
     assert.strictEqual(result, null);
+  });
+
+  describe("curriculum auto-ingest — detectBundledCurriculumLessons", () => {
+    test("extracts canonical lessons from a combined uploaded curriculum file", async () => {
+      const bundled = [
+        "BATCH MANIFEST",
+        "",
+        "CONTENT ID: WHITE-L1-001",
+        "TRACK: WHITE",
+        "OFFICIAL TRACK NAME: Paper Assets",
+        "LEVEL: 1",
+        "LESSON NUMBER: 001",
+        "LESSON TITLE: Introduction to Financial Markets",
+        "AUTHOR: Edunancial Faculty",
+        "VERSION: 1.0",
+        "DATE: 2026-08-02",
+        "",
+        "# Introduction to Financial Markets",
+        "## Learning Objectives",
+        "- Understand financial markets",
+        "## Core Content",
+        "This is lesson one.",
+        "",
+        "CONTENT ID: WHITE-L1-002",
+        "TRACK: WHITE",
+        "OFFICIAL TRACK NAME: Paper Assets",
+        "LEVEL: 1",
+        "LESSON NUMBER: 002",
+        "LESSON TITLE: Understanding Stocks",
+        "AUTHOR: Edunancial Faculty",
+        "VERSION: 1.0",
+        "DATE: 2026-08-02",
+        "",
+        "# Understanding Stocks",
+        "## Learning Objectives",
+        "- Understand stocks",
+        "## Core Content",
+        "This is lesson two.",
+      ].join("\n");
+
+      const lessons = await detectBundledCurriculumLessons(bundled);
+
+      assert.equal(lessons.length, 2);
+      assert.equal(lessons[0].asset.id, "WHITE-L1-001");
+      assert.equal(lessons[0].asset.track, "WHITE");
+      assert.equal(lessons[0].asset.canonicalPath, "content/curriculum/WHITE/L1/WHITE-L1-001.md");
+      assert.match(lessons[0].content, /^---\nid: WHITE-L1-001/m);
+      assert.equal(lessons[1].asset.id, "WHITE-L1-002");
+    });
   });
 
   test("returns null for markdown with front-matter but no 'id' field", async () => {

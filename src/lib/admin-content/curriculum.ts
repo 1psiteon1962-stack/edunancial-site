@@ -58,6 +58,11 @@ export type ParsedCurriculumAsset = {
   warnings: string[];
 };
 
+export type BundledCurriculumLesson = {
+  asset: ParsedCurriculumAsset;
+  content: string;
+};
+
 // Type helpers for the dynamically imported curriculum script modules.
 // These match the shapes returned by the .mjs files at runtime; TypeScript
 // cannot infer them automatically because .mjs imports are untyped.
@@ -120,6 +125,84 @@ export async function detectCurriculumAsset(
   } catch {
     return null;
   }
+}
+
+function parseBundledMetadata(section: string): Record<string, string> {
+  const metadata: Record<string, string> = {};
+  for (const line of section.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) break;
+    const colonIndex = trimmed.indexOf(":");
+    if (colonIndex <= 0) continue;
+    const key = trimmed.slice(0, colonIndex).trim().toUpperCase();
+    const value = trimmed.slice(colonIndex + 1).trim();
+    if (key && value) metadata[key] = value;
+  }
+  return metadata;
+}
+
+/**
+ * Parse a "combined" uploaded curriculum markdown file that contains multiple
+ * `CONTENT ID: TRACK-Lx-yyy` blocks and derive canonical per-lesson markdown.
+ */
+export async function detectBundledCurriculumLessons(
+  content: string,
+): Promise<BundledCurriculumLesson[]> {
+  const marker = /^CONTENT ID:\s*([A-Z]+-L\d-[0-9]{3})\s*$/gm;
+  const matches = Array.from(content.matchAll(marker));
+  if (matches.length === 0) return [];
+
+  const lessons: BundledCurriculumLesson[] = [];
+  for (let index = 0; index < matches.length; index += 1) {
+    const current = matches[index];
+    const next = matches[index + 1];
+    const sectionStart = current.index ?? 0;
+    const sectionEnd = next?.index ?? content.length;
+    const section = content.slice(sectionStart, sectionEnd).trim();
+    const metadata = parseBundledMetadata(section);
+    const headingStart = section.search(/^#\s+/m);
+    if (headingStart < 0) continue;
+
+    const id = current[1];
+    const track = metadata["TRACK"] ?? id.split("-")[0];
+    const levelFromId = id.match(/-L(\d)-/)?.[1] ?? "1";
+    const lessonNumberFromId = id.match(/-([0-9]{3})$/)?.[1] ?? "1";
+    const level = Number(metadata["LEVEL"] ?? levelFromId);
+    const lessonNumber = Number(metadata["LESSON NUMBER"] ?? lessonNumberFromId);
+    const title = metadata["LESSON TITLE"] ?? id;
+    const author = metadata["AUTHOR"] ?? "Edunancial Faculty";
+    const version = metadata["VERSION"] ?? "1.0";
+    const date = metadata["DATE"] ?? metadata["LAST REVIEW DATE"] ?? new Date().toISOString().slice(0, 10);
+    const officialTrackName = metadata["OFFICIAL TRACK NAME"] ?? "";
+    const body = section.slice(headingStart).trim();
+
+    const canonicalLesson = [
+      "---",
+      `id: ${id}`,
+      `track: ${track}`,
+      `officialTrackName: ${officialTrackName}`,
+      `level: ${level}`,
+      `lessonNumber: ${lessonNumber}`,
+      `title: ${title}`,
+      `version: ${version}`,
+      `author: ${author}`,
+      `date: ${date}`,
+      "---",
+      "",
+      body,
+      "",
+    ].join("\n");
+
+    const asset = await detectCurriculumAsset(canonicalLesson);
+    if (asset) {
+      lessons.push({
+        asset,
+        content: canonicalLesson,
+      });
+    }
+  }
+
+  return lessons;
 }
 
 export type CurriculumRegistryEntry = {
