@@ -16,6 +16,17 @@ export default function HomePageClient() {
   const storyParagraphs = [1, 2, 3, 4].map((index) => t(`home.story.p${index}`));
   const storyCards = [1, 2, 3].map((index) => [t(`home.story.card${index}.title`), t(`home.story.card${index}.body`)] as const);
   const heroBadges = [1, 2, 3].map((index) => t(`home.hero.badge${index}`));
+  const activeTracks = ["red", "white", "blue"].map((track) => ({
+    code: track.toUpperCase(),
+    href: `/curriculum/${track}`,
+    title: t(`courses.track.${track}.title`),
+    description: t(`courses.track.${track}.description`),
+    className: track === "red"
+      ? "border-red-500/30 bg-red-500/10 hover:border-red-400/60"
+      : track === "white"
+        ? "border-white/20 bg-white/5 hover:border-white/40"
+        : "border-blue-500/30 bg-blue-500/10 hover:border-blue-400/60",
+  }));
   const dashboardHrefs = ["/courses/white", "/courses/red", "/courses/blue", "/ai-coach", "/courses", "/books", "/community", "/downloads", "/dashboard"] as const;
   const dashboardCards = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => ({
     title: t(`home.dashboard.card${index}.title`),
@@ -102,6 +113,38 @@ export default function HomePageClient() {
       </section>
 
       <MemberSuccessStories stories={[]} />
+
+      <section aria-labelledby="homepage-curriculum-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20">
+        <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">Available Now</p>
+        <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 id="homepage-curriculum-heading" className="text-3xl font-black sm:text-4xl md:text-5xl">
+              {t("nav.curriculum")}
+            </h2>
+            <p className="mt-3 max-w-3xl text-slate-300">
+              RED, WHITE, and BLUE are all active curriculum tracks. Lessons publish independently inside each track.
+            </p>
+          </div>
+          <Link href="/curriculum" className="font-bold text-blue-300 hover:text-blue-200">
+            {t("nav.curriculum")} →
+          </Link>
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
+          {activeTracks.map((track) => (
+            <Link
+              key={track.code}
+              href={track.href}
+              className={`rounded-2xl border p-6 transition ${track.className}`}
+            >
+              <p className="text-sm font-black tracking-[0.35em] text-slate-300">{track.code}</p>
+              <h3 className="mt-4 text-2xl font-black">{track.title}</h3>
+              <p className="mt-3 text-sm leading-7 text-slate-300">{track.description}</p>
+              <p className="mt-6 text-sm font-bold text-yellow-300">{t("courses.trackLabel")}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       <section aria-labelledby="homepage-dashboard-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">

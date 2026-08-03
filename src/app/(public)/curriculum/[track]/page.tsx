@@ -22,7 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const totalLessons = track.levels.reduce((sum, l) => sum + l.lessonCount, 0);
   const title = `${track.name} (${track.code}) | Edunancial`;
-  const description = `${track.name} curriculum — ${totalLessons} lesson${totalLessons !== 1 ? "s" : ""} available.`;
+  const description = totalLessons > 0
+    ? `${track.name} curriculum — ${totalLessons} lesson${totalLessons !== 1 ? "s" : ""} available.`
+    : `${track.name} curriculum — this track is active and lessons are being published.`;
 
   return {
     title,
@@ -78,7 +80,7 @@ export default async function TrackPage({ params }: Props) {
           <p className="mt-4 text-slate-300 text-lg">
             {totalLessons > 0
               ? `${totalLessons} lesson${totalLessons !== 1 ? "s" : ""} across ${track.levels.length} level${track.levels.length !== 1 ? "s" : ""}`
-              : "Curriculum coming soon."}
+              : "This track is active. Lessons are being published level by level."}
           </p>
         </div>
 
@@ -98,16 +100,16 @@ export default async function TrackPage({ params }: Props) {
                 <p className="mt-2 text-sm text-slate-400">
                   {level.lessonCount > 0
                     ? `${level.lessonCount} lesson${level.lessonCount !== 1 ? "s" : ""}`
-                    : "Coming soon"}
+                    : "Lessons coming soon"}
                 </p>
               </Link>
             ))}
           </div>
         ) : (
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-12 text-center">
-            <p className="text-2xl font-bold text-slate-400">Coming Soon</p>
+            <p className="text-2xl font-bold text-slate-200">Track Active</p>
             <p className="mt-3 text-slate-500">
-              {track.name} curriculum is being prepared.
+              {track.name} lessons will appear here as they are published.
             </p>
           </div>
         )}

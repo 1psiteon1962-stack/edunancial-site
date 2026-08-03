@@ -23,8 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const track = getTrack(trackCode);
   if (!track) return { title: "Level Not Found | Edunancial" };
 
+  const lessonCount = getLessonsForLevel(trackCode, levelNum).length;
   const title = `${track.name} — Level ${levelNum} | Edunancial`;
-  const description = `${track.code} Level ${levelNum}: Browse all ${getLessonsForLevel(trackCode, levelNum).length} lessons in this level.`;
+  const description = lessonCount > 0
+    ? `${track.code} Level ${levelNum}: Browse all ${lessonCount} lessons in this level.`
+    : `${track.code} Level ${levelNum}: This level is active and lessons will be published soon.`;
 
   return {
     title,
@@ -116,7 +119,7 @@ export default async function LevelPage({ params }: Props) {
           <p className="mt-4 text-slate-300 text-lg">
             {lessons.length > 0
               ? `${lessons.length} lesson${lessons.length !== 1 ? "s" : ""} available`
-              : "No lessons published yet."}
+              : "This level is active. Lessons are being published."}
           </p>
         </div>
 
@@ -151,9 +154,9 @@ export default async function LevelPage({ params }: Props) {
           </div>
         ) : (
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-12 text-center">
-            <p className="text-2xl font-bold text-slate-400">Coming Soon</p>
+            <p className="text-2xl font-bold text-slate-200">Lesson Coming Soon</p>
             <p className="mt-3 text-slate-500">
-              Lessons for {track.name} Level {levelNum} are being prepared.
+              {track.name} Level {levelNum} is active. Lessons will appear here as they are published.
             </p>
           </div>
         )}

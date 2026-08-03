@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { courses, lessons } from "@/lib/curriculum/production-catalog";
+import { getPlaceholderLessonMeta } from "@/lib/curriculum/reader";
 import { getAdminSession } from "@/lib/admin-content/auth";
 import LessonPageClient from "./LessonPageClient";
 
@@ -13,7 +14,12 @@ export async function generateMetadata({ params }: Props) {
   const { courseId, lessonId } = await params;
   const course = courses[courseId];
   const lesson = lessons[lessonId];
-  if (!course || !lesson) return { title: "Lesson Not Found" };
+  if (!course) return { title: "Lesson Not Found" };
+  if (!lesson) {
+    const placeholder = getPlaceholderLessonMeta(courseId, lessonId);
+    if (!placeholder) return { title: "Lesson Not Found" };
+    return { title: `${placeholder.id} | Lesson Coming Soon | ${course.title} | Edunancial` };
+  }
   return { title: `${lesson.title} | ${course.title} | Edunancial` };
 }
 
@@ -21,7 +27,38 @@ export default async function LessonPage({ params }: Props) {
   const { courseId, lessonId } = await params;
   const course = courses[courseId];
   const lesson = lessons[lessonId];
-  if (!course || !lesson) notFound();
+  if (!course) notFound();
+  if (!lesson) {
+    const placeholder = getPlaceholderLessonMeta(courseId, lessonId);
+    if (!placeholder) notFound();
+
+    return (
+      <main className="min-h-screen bg-[#08101f] text-white flex items-center px-6 py-16">
+        <div className="mx-auto max-w-3xl rounded-3xl border border-slate-800 bg-slate-900/60 p-8 md:p-12">
+          <p className="text-sm font-black uppercase tracking-[0.4em] text-yellow-400">{course.title}</p>
+          <h1 className="mt-4 text-4xl font-black md:text-5xl">Lesson coming soon</h1>
+          <p className="mt-4 text-lg leading-8 text-slate-300">
+            {placeholder.trackName} Level {placeholder.level} Lesson {placeholder.lessonNumber} belongs to an active curriculum track.
+            The lesson content has not been published yet, but the track remains available now.
+          </p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Link
+              href={`/courses/${courseId}`}
+              className="rounded-xl bg-yellow-500 px-6 py-3 text-center font-black text-black hover:bg-yellow-400 transition"
+            >
+              Back to Course
+            </Link>
+            <Link
+              href={`/curriculum/${courseId}`}
+              className="rounded-xl border border-slate-700 px-6 py-3 text-center font-bold text-slate-300 hover:bg-slate-800 transition"
+            >
+              Browse Track Structure
+            </Link>
+          </div>
+        </div>
+      </main>
+    );
+  }
 
   const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
   const currentIndex = courseLessons.findIndex((l) => l.id === lessonId);

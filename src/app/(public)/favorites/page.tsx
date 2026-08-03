@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { courseList } from "@/lib/curriculum/production-catalog";
+import { courseList, getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
 
 // Bookmarks are stored in user session/database — start empty until real auth is wired.
 const INITIAL_BOOKMARKS = new Set<string>();
@@ -98,10 +98,10 @@ export default function FavoritesPage() {
                       View Course
                     </Link>
                     <Link
-                      href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
+                      href={getCoursePrimaryHref(course)}
                       className="rounded-xl border border-slate-600 px-3 py-2.5 text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
                     >
-                      ▶ Start
+                      {course.lessons.length > 0 ? "▶ Start" : "View Track"}
                     </Link>
                   </div>
                 </div>

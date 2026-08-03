@@ -95,6 +95,8 @@ export interface LessonContent {
   frontMatter: Record<string, string>;
 }
 
+const PLACEHOLDER_LESSON_ID_PATTERN = /^([A-Z]+)-L(\d+)-(\d{3})$/;
+
 export interface TrackSummary {
   code: string;
   name: string;
@@ -296,6 +298,48 @@ export function getLessonMeta(lessonId: string): LessonMeta | null {
     }
   }
   return null;
+}
+
+export function getPlaceholderLessonMeta(
+  trackCode: string,
+  lessonId: string,
+  expectedLevel?: number,
+): LessonMeta | null {
+  const upperTrackCode = trackCode.toUpperCase();
+  const academyDef = ACADEMY_MAP.get(upperTrackCode);
+  if (!academyDef) return null;
+
+  const match = lessonId.toUpperCase().match(PLACEHOLDER_LESSON_ID_PATTERN);
+  if (!match) return null;
+
+  const [, lessonTrack, levelRaw, lessonNumberRaw] = match;
+  const level = Number(levelRaw);
+  const lessonNumber = Number(lessonNumberRaw);
+  const validLevels = academyLevels(academyDef);
+
+  if (
+    lessonTrack !== upperTrackCode ||
+    !validLevels.includes(level) ||
+    (typeof expectedLevel === "number" && level !== expectedLevel)
+  ) {
+    return null;
+  }
+
+  return {
+    id: lessonId.toUpperCase(),
+    track: upperTrackCode,
+    trackName: academyDef.name,
+    level,
+    lessonNumber,
+    title: `${academyDef.name} Lesson ${lessonNumber}`,
+    summary: "This lesson belongs to an active curriculum track and will be published soon.",
+    author: "Edunancial Faculty",
+    date: "",
+    version: "",
+    status: "active",
+    importedAt: "",
+    membership: "free",
+  };
 }
 
 // ---------------------------------------------------------------------------
