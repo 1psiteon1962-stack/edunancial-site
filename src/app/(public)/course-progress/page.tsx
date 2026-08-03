@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/lib/curriculum/production-catalog";
+import { courseList, getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
 
 function ProgressLayout() {
   const { t } = useInternationalPreferences();
@@ -14,7 +14,7 @@ function ProgressLayout() {
     pct: 0,
   }));
 
-  const enrolled = progressData.filter((course) => course.pct > 0);
+  const enrolled = progressData;
   const totalLessons = enrolled.reduce((sum, course) => sum + course.lessons.length, 0);
   const totalDone = enrolled.reduce((sum, course) => sum + course.done, 0);
   const overallPct = totalLessons > 0 ? Math.round((totalDone / totalLessons) * 100) : 0;
@@ -62,10 +62,14 @@ function ProgressLayout() {
                   </Link>
                 ) : (
                   <Link
-                    href={`/courses/${course.id}/lessons/${course.lessons[course.done] ?? course.lessons[0]}`}
+                    href={
+                      course.lessons[course.done]
+                        ? `/courses/${course.id}/lessons/${course.lessons[course.done]}`
+                        : getCoursePrimaryHref(course)
+                    }
                     className="font-bold text-yellow-400 hover:text-yellow-300"
                   >
-                    {t("courseProgress.continueLabel")}
+                    {course.lessons.length > 0 ? t("courseProgress.continueLabel") : "View Track"}
                   </Link>
                 )}
               </div>

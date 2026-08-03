@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import {
   getAllLessonStaticParams,
   getLessonContent,
+  getPlaceholderLessonMeta,
   getLessonNavigation,
   getLessonsForLevel,
 } from "@/lib/curriculum/reader";
@@ -21,10 +22,26 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lesson: lessonParam } = await params;
+  const { track: trackParam, level: levelParam, lesson: lessonParam } = await params;
   const lessonId = lessonParam.toUpperCase();
+  const trackCode = trackParam.toUpperCase();
+  const levelNum = Number(levelParam.replace(/^l/i, ""));
   const content = getLessonContent(lessonId);
-  if (!content) return { title: "Lesson Not Found | Edunancial" };
+  if (!content) {
+    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum);
+    if (!placeholder) return { title: "Lesson Not Found | Edunancial" };
+
+    return {
+      title: `${placeholder.id} | Lesson Coming Soon | Edunancial`,
+      description: `${placeholder.trackName} Level ${placeholder.level} Lesson ${placeholder.lessonNumber} is part of an active track and will be published soon.`,
+      openGraph: {
+        title: `${placeholder.id} | Lesson Coming Soon | Edunancial`,
+        description: `${placeholder.trackName} Level ${placeholder.level} Lesson ${placeholder.lessonNumber} is part of an active track and will be published soon.`,
+        type: "website",
+        siteName: "Edunancial",
+      },
+    };
+  }
 
   const { meta } = content;
   const title = `${meta.id} — ${meta.title} | Edunancial`;
@@ -65,7 +82,60 @@ export default async function LessonViewerPage({ params }: Props) {
   const levelNum = Number(levelParam.replace(/^l/i, ""));
 
   const content = getLessonContent(lessonId);
-  if (!content) notFound();
+  if (!content) {
+    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum);
+    if (!placeholder) notFound();
+
+    const siblings = getLessonsForLevel(trackCode, levelNum);
+
+    return (
+      <main className="min-h-screen bg-[#08101f] text-white">
+        <section className="mx-auto max-w-4xl px-6 py-16">
+          <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
+            <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+            <span>/</span>
+            <Link href={`/curriculum/${trackParam}`} className="hover:text-white">{placeholder.trackName}</Link>
+            <span>/</span>
+            <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">Level {levelNum}</Link>
+            <span>/</span>
+            <span className="text-slate-200">{placeholder.id}</span>
+          </nav>
+
+          <div className="mt-10 rounded-3xl border border-slate-800 bg-slate-900/60 p-8 md:p-12">
+            <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border ${TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10"}`}>
+              {trackCode} · Level {levelNum}
+            </span>
+            <h1 className="mt-6 text-4xl font-black md:text-5xl">Lesson coming soon</h1>
+            <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-300">
+              {placeholder.trackName} Level {placeholder.level} Lesson {placeholder.lessonNumber} belongs to an active curriculum track.
+              The lesson content has not been published yet, but the track and level remain available now.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href={`/curriculum/${trackParam}/${levelParam}`}
+                className="rounded-xl bg-yellow-500 px-6 py-3 text-center font-black text-black hover:bg-yellow-400 transition"
+              >
+                Return to Level {levelNum}
+              </Link>
+              <Link
+                href={`/curriculum/${trackParam}`}
+                className="rounded-xl border border-slate-700 px-6 py-3 text-center font-bold text-slate-300 hover:bg-slate-800 transition"
+              >
+                View {placeholder.trackName} Track
+              </Link>
+            </div>
+
+            {siblings.length > 0 && (
+              <p className="mt-6 text-sm text-slate-500">
+                {siblings.length} published lesson{siblings.length !== 1 ? "s are" : " is"} currently available in this level.
+              </p>
+            )}
+          </div>
+        </section>
+      </main>
+    );
+  }
 
   const { meta, body } = content;
   const { prev, next } = getLessonNavigation(lessonId);

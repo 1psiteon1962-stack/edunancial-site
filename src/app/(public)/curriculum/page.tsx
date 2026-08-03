@@ -78,16 +78,7 @@ const DEFAULT_STYLE = {
 };
 
 export default function CurriculumIndexPage() {
-  // Always returns RED, WHITE, and BLUE with 5 levels each.
-  // Anonymous visitors see only free-tier lessons (default).
   const academies = listAcademies();
-
-  const academiesWithLessons = academies.filter((a) =>
-    a.levels.some((l) => l.lessonCount > 0)
-  );
-  const academiesComingSoon = academies.filter((a) =>
-    a.levels.every((l) => l.lessonCount === 0)
-  );
 
   const totalLessons = academies.reduce(
     (sum, a) => sum + a.levels.reduce((s, l) => s + l.lessonCount, 0),
@@ -112,17 +103,16 @@ export default function CurriculumIndexPage() {
         {totalLessons > 0 && (
           <p className="mt-4 text-sm text-slate-500">
             {totalLessons} lesson{totalLessons !== 1 ? "s" : ""} published across{" "}
-            {academiesWithLessons.length} academy{academiesWithLessons.length !== 1 ? " academies" : ""}
+            {academies.length} academy{academies.length !== 1 ? " academies" : ""}
           </p>
         )}
       </section>
 
-      {/* Academies with published lessons */}
-      {academiesWithLessons.length > 0 && (
+      {academies.length > 0 && (
         <section className="mx-auto max-w-6xl px-6 pb-16">
           <h2 className="text-2xl font-black mb-6">Available Now</h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {academiesWithLessons.map((academy) => {
+            {academies.map((academy) => {
               const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
               const totalLessonsInAcademy = academy.levels.reduce(
                 (sum, l) => sum + l.lessonCount,
@@ -157,47 +147,16 @@ export default function CurriculumIndexPage() {
                     {academy.levels.length} level
                     {academy.levels.length !== 1 ? "s" : ""}
                   </p>
-                  {firstLevel && firstLevel.lessonCount > 0 && (
+                  {firstLevel && firstLevel.lessonCount > 0 ? (
                     <p className="mt-2 text-xs text-slate-500">
                       Start with Level {firstLevel.level}: {firstLevel.lessonCount} lessons ready
                     </p>
-                  )}
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* Academies coming soon */}
-      {academiesComingSoon.length > 0 && (
-        <section className="mx-auto max-w-6xl px-6 pb-20">
-          <h2 className="text-xl font-black mb-4 text-slate-500">Coming Soon</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {academiesComingSoon.map((academy) => {
-              const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
-              return (
-                <div
-                  key={academy.code}
-                  className={`rounded-2xl border p-5 opacity-60 ${styles.bg} ${styles.border}`}
-                >
-                  <span
-                    className={`inline-block rounded-full px-2 py-0.5 text-xs font-bold mb-3 ${styles.badge}`}
-                  >
-                    {academy.code}
-                  </span>
-                  <h3 className={`text-lg font-black ${styles.heading}`}>
-                    {academy.name}
-                  </h3>
-                  {academy.description && (
-                    <p className="mt-1 text-xs text-slate-500 leading-relaxed line-clamp-2">
-                      {academy.description}
+                  ) : (
+                    <p className="mt-2 text-xs text-slate-500">
+                      Track active · Lessons will appear here as they are published
                     </p>
                   )}
-                  <p className="mt-2 text-xs text-slate-600">
-                    Coming Soon · {academy.levels.length} levels planned
-                  </p>
-                </div>
+                </Link>
               );
             })}
           </div>
