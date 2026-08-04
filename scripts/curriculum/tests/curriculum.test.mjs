@@ -9,6 +9,7 @@ import { assetPath, parseAssetId } from '../lib/id-parser.mjs';
 import { ANSWER_KEY_INDICATORS, FORBIDDEN_EXTENSIONS, TRACKS } from '../lib/taxonomy.mjs';
 import { parseFrontMatter, validateLesson } from '../lib/validator.mjs';
 import { extractZip } from '../lib/zip.mjs';
+import { isAllowedCurriculumAsset, ALLOWED_EXTENSIONS, EXCLUDED_DIRECTORY_SEGMENTS } from '../lib/export-filter.mjs';
 
 describe('parseAssetId', () => {
   test('parses valid lesson ID', () => {
@@ -337,4 +338,110 @@ describe('tier access gate', () => {
     assert.equal(canAccessLesson(1, 5, 'free', customConfig), true);
     assert.equal(canAccessLesson(1, 6, 'free', customConfig), false);
   });
+});
+
+// ── export-filter regression tests ───────────────────────────────────────────
+
+describe('isAllowedCurriculumAsset — allowed files', () => {
+  test('allows lesson markdown files', () => {
+    assert.equal(isAllowedCurriculumAsset('RED-L1-011.md'), true);
+    assert.equal(isAllowedCurriculumAsset('WHITE-L2-MANIFEST.md'), true);
+    assert.equal(isAllowedCurriculumAsset('RED/L1/RED-L1-025.md'), true);
+  });
+
+  test('allows JSON metadata files', () => {
+    assert.equal(isAllowedCurriculumAsset('manifest.json'), true);
+    assert.equal(isAllowedCurriculumAsset('RED/L1/registry.json'), true);
+  });
+
+  test('allows image files', () => {
+    assert.equal(isAllowedCurriculumAsset('images/chart.png'), true);
+    assert.equal(isAllowedCurriculumAsset('assets/diagram.svg'), true);
+    assert.equal(isAllowedCurriculumAsset('media/photo.jpg'), true);
+    assert.equal(isAllowedCurriculumAsset('media/photo.jpeg'), true);
+    assert.equal(isAllowedCurriculumAsset('media/photo.gif'), true);
+    assert.equal(isAllowedCurriculumAsset('media/photo.webp'), true);
+  });
+
+  test('allows approved media files', () => {
+    assert.equal(isAllowedCurriculumAsset('media/lesson.mp3'), true);
+    assert.equal(isAllowedCurriculumAsset('media/lesson.mp4'), true);
+    assert.equal(isAllowedCurriculumAsset('media/lesson.webm'), true);
+    assert.equal(isAllowedCurriculumAsset('media/lesson.ogg'), true);
+  });
+
+  test('allows PDF reference documents', () => {
+    assert.equal(isAllowedCurriculumAsset('reference/handout.pdf'), true);
+  });
+});
+
+describe('isAllowedCurriculumAsset — disallowed files (regression for commit-red-l1-011-025.sh)', () => {
+  test('rejects shell scripts (.sh) — root cause of the reported bug', () => {
+    assert.equal(isAllowedCurriculumAsset('red/commit-red-l1-011-025.sh'), false);
+    assert.equal(isAllowedCurriculumAsset('reset_deps.sh'), false);
+    assert.equal(isAllowedCurriculumAsset('scripts/deploy.sh'), false);
+  });
+
+  test('rejects Windows batch and PowerShell scripts', () => {
+    assert.equal(isAllowedCurriculumAsset('build.bat'), false);
+    assert.equal(isAllowedCurriculumAsset('deploy.cmd'), false);
+    assert.equal(isAllowedCurriculumAsset('setup.ps1'), false);
+  });
+
+  test('rejects executable and binary files', () => {
+    assert.equal(isAllowedCurriculumAsset('tool.exe'), false);
+    assert.equal(isAllowedCurriculumAsset('lib.dll'), false);
+    assert.equal(isAllowedCurriculumAsset('module.so'), false);
+  });
+
+  test('rejects script language files', () => {
+    assert.equal(isAllowedCurriculumAsset('helper.py'), false);
+    assert.equal(isAllowedCurriculumAsset('helper.rb'), false);
+    assert.equal(isAllowedCurriculumAsset('helper.js'), false);
+    assert.equal(isAllowedCurriculumAsset('helper.mjs'), false);
+  });
+
+  test('rejects hidden dot-files', () => {
+    assert.equal(isAllowedCurriculumAsset('.DS_Store'), false);
+    assert.equal(isAllowedCurriculumAsset('.gitignore'), false);
+    assert.equal(isAllowedCurriculumAsset('RED/.env'), false);
+  });
+
+  test('rejects files inside excluded directories', () => {
+    assert.equal(isAllowedCurriculumAsset('.git/config'), false);
+    assert.equal(isAllowedCurriculumAsset('.github/workflows/ci.yml'), false);
+    assert.equal(isAllowedCurriculumAsset('node_modules/lodash/index.js'), false);
+    assert.equal(isAllowedCurriculumAsset('dist/bundle.js'), false);
+    assert.equal(isAllowedCurriculumAsset('build/output.json'), false);
+    assert.equal(isAllowedCurriculumAsset('tmp/scratch.md'), false);
+  });
+});
+
+describe('isAllowedCurriculumAsset — path separator compatibility', () => {
+  test('accepts back-slash separators (Windows paths)', () => {
+    assert.equal(isAllowedCurriculumAsset('RED\\L1\\RED-L1-011.md'), true);
+    assert.equal(isAllowedCurriculumAsset('red\\commit-red-l1-011-025.sh'), false);
+    assert.equal(isAllowedCurriculumAsset('node_modules\\pkg\\index.js'), false);
+  });
+});
+
+describe('ALLOWED_EXTENSIONS covers all expected curriculum asset types', () => {
+  test('contains markdown', () => assert.ok(ALLOWED_EXTENSIONS.has('.md')));
+  test('contains json', () => assert.ok(ALLOWED_EXTENSIONS.has('.json')));
+  test('contains common image types', () => {
+    for (const ext of ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']) {
+      assert.ok(ALLOWED_EXTENSIONS.has(ext), `Expected ${ext} in ALLOWED_EXTENSIONS`);
+    }
+  });
+  test('does NOT contain shell script extensions', () => {
+    for (const ext of ['.sh', '.bat', '.cmd', '.ps1', '.exe', '.js', '.mjs', '.py']) {
+      assert.ok(!ALLOWED_EXTENSIONS.has(ext), `Expected ${ext} NOT in ALLOWED_EXTENSIONS`);
+    }
+  });
+});
+
+describe('EXCLUDED_DIRECTORY_SEGMENTS covers all expected dev directories', () => {
+  for (const dir of ['.git', '.github', 'node_modules', 'dist', 'build', '.next', 'tmp', 'temp']) {
+    test(`excludes "${dir}" directory`, () => assert.ok(EXCLUDED_DIRECTORY_SEGMENTS.has(dir)));
+  }
 });

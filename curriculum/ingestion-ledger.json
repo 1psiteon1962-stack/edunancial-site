@@ -354,6 +354,106 @@
       "destination": "curriculum/manifests/BLUE-L1-MANIFEST.md",
       "checksum": "sha256:b17843d7d120e766c72a310c46a35d18f2095aebf95ce09c4075ec607058d04d",
       "outcome": "success"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-001",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-001.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-002",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-002.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-003",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-003.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-004",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-004.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-005",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-005.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-006",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-006.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-007",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-007.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-008",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-008.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-009",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-009.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "f99e643e-0c3f-4f44-aabf-8db34e84e020",
+      "timestamp": "2026-08-04T02:35:01.324Z",
+      "operation": "skip",
+      "assetId": "RED-L1-010",
+      "assetVersion": "1.0",
+      "source": "ZIP:RED-L1-010.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
     }
   ]
 }
