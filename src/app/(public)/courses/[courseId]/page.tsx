@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { courses, lessons } from "@/lib/curriculum/production-catalog";
+import {
+  courses,
+  getCoursePrimaryHref,
+  lessons,
+} from "@/lib/curriculum/production-catalog";
 
 interface Props {
   params: Promise<{ courseId: string }>;
@@ -29,6 +33,10 @@ export default async function CourseDetailPage({ params }: Props) {
   if (!course) notFound();
 
   const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
+  const hasPublishedLessons = courseLessons.length > 0;
+  const primaryHref = hasPublishedLessons
+    ? getCoursePrimaryHref(course)
+    : `/curriculum/${course.id}`;
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -78,10 +86,12 @@ export default async function CourseDetailPage({ params }: Props) {
             <div className={`h-1.5 w-full rounded-full mb-6 ${course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color}`} />
             <p className="text-2xl font-black">Included with Membership</p>
             <Link
-              href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
+              href={primaryHref}
               className="mt-6 block w-full rounded-xl bg-yellow-500 py-4 text-center font-black text-black text-lg hover:bg-yellow-400 transition"
             >
-              {course.isFree ? "Start Free Course" : "Enroll Now"}
+              {hasPublishedLessons
+                ? (course.isFree ? "Start Free Course" : "Enroll Now")
+                : "View Active Track"}
             </Link>
             <Link
               href="/my-courses"
@@ -90,10 +100,10 @@ export default async function CourseDetailPage({ params }: Props) {
               View My Courses
             </Link>
             <ul className="mt-8 space-y-3 text-sm text-slate-300">
-              <li>✅ {courseLessons.length} on-demand lessons</li>
-              <li>✅ Downloadable resources</li>
-              <li>✅ Certificate of completion</li>
-              <li>✅ Lifetime access</li>
+              <li>✅ Track remains active regardless of lesson count</li>
+              <li>✅ {courseLessons.length} published lesson{courseLessons.length !== 1 ? "s" : ""}</li>
+              <li>✅ New lessons appear here automatically as they are published</li>
+              <li>✅ Membership access stays tied to lesson availability, not track activation</li>
             </ul>
           </div>
         </div>
@@ -113,33 +123,48 @@ export default async function CourseDetailPage({ params }: Props) {
             <p className="text-slate-400 mb-6 text-sm">
               {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}
             </p>
-            <div className="space-y-3">
-              {courseLessons.map((lesson, idx) => (
+            {hasPublishedLessons ? (
+              <div className="space-y-3">
+                {courseLessons.map((lesson, idx) => (
+                  <Link
+                    key={lesson.id}
+                    href={`/courses/${course.id}/lessons/${lesson.id}`}
+                    className="flex items-center gap-4 rounded-xl bg-slate-900 border border-slate-800 px-5 py-4 hover:border-slate-600 transition group"
+                  >
+                    <div className="h-9 w-9 rounded-full bg-slate-800 group-hover:bg-blue-700 flex items-center justify-center text-sm font-bold transition flex-shrink-0">
+                      {idx + 1}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-bold group-hover:text-yellow-400 transition truncate">{lesson.title}</p>
+                      <p className="text-slate-400 text-xs mt-0.5">{lesson.description.slice(0, 80)}…</p>
+                    </div>
+                    <div className="flex items-center gap-3 flex-shrink-0">
+                      {lesson.quizId && (
+                        <span className="rounded-full bg-purple-900 text-purple-300 px-2 py-0.5 text-xs">Quiz</span>
+                      )}
+                      {lesson.downloadUrl && (
+                        <span className="rounded-full bg-blue-900 text-blue-300 px-2 py-0.5 text-xs">PDF</span>
+                      )}
+                      <span className="text-slate-400 text-sm">{lesson.duration}</span>
+                      <span className="text-slate-500">▶</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-10 text-center">
+                <p className="text-2xl font-black text-slate-200">Lesson Coming Soon</p>
+                <p className="mt-3 text-slate-400">
+                  {course.title} is active now. Published lessons will appear in this course outline as they are added.
+                </p>
                 <Link
-                  key={lesson.id}
-                  href={`/courses/${course.id}/lessons/${lesson.id}`}
-                  className="flex items-center gap-4 rounded-xl bg-slate-900 border border-slate-800 px-5 py-4 hover:border-slate-600 transition group"
+                  href={`/curriculum/${course.id}`}
+                  className="mt-6 inline-block rounded-xl border border-slate-700 px-6 py-3 font-bold text-slate-300 hover:bg-slate-800 transition"
                 >
-                  <div className="h-9 w-9 rounded-full bg-slate-800 group-hover:bg-blue-700 flex items-center justify-center text-sm font-bold transition flex-shrink-0">
-                    {idx + 1}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="font-bold group-hover:text-yellow-400 transition truncate">{lesson.title}</p>
-                    <p className="text-slate-400 text-xs mt-0.5">{lesson.description.slice(0, 80)}…</p>
-                  </div>
-                  <div className="flex items-center gap-3 flex-shrink-0">
-                    {lesson.quizId && (
-                      <span className="rounded-full bg-purple-900 text-purple-300 px-2 py-0.5 text-xs">Quiz</span>
-                    )}
-                    {lesson.downloadUrl && (
-                      <span className="rounded-full bg-blue-900 text-blue-300 px-2 py-0.5 text-xs">PDF</span>
-                    )}
-                    <span className="text-slate-400 text-sm">{lesson.duration}</span>
-                    <span className="text-slate-500">▶</span>
-                  </div>
+                  Browse Track Structure
                 </Link>
-              ))}
-            </div>
+              </div>
+            )}
           </section>
         </div>
 

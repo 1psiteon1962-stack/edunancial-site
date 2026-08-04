@@ -58,13 +58,15 @@ describe('multi-academy structure', () => {
 // ---------------------------------------------------------------------------
 
 describe('membership tiers', () => {
-  const VALID_TIERS = ['free', 'basic', 'standard', 'premium'];
+  const VALID_TIERS = ['free', 'basic', 'pro', 'gold', 'standard', 'premium'];
 
   test('accepted membership tier values are documented', () => {
     // Verify the set of accepted values is stable
-    assert.equal(VALID_TIERS.length, 4);
+    assert.equal(VALID_TIERS.length, 6);
     assert.ok(VALID_TIERS.includes('free'), 'free tier must be supported');
     assert.ok(VALID_TIERS.includes('basic'), 'basic tier must be supported');
+    assert.ok(VALID_TIERS.includes('pro'), 'pro tier must be supported');
+    assert.ok(VALID_TIERS.includes('gold'), 'gold tier must be supported');
     assert.ok(VALID_TIERS.includes('standard'), 'standard tier must be supported');
     assert.ok(VALID_TIERS.includes('premium'), 'premium tier must be supported');
   });
@@ -74,12 +76,12 @@ describe('membership tiers', () => {
     const tierAccess = {
       free:     new Set(['free']),
       basic:    new Set(['free', 'basic']),
-      standard: new Set(['free', 'basic', 'standard']),
-      premium:  new Set(['free', 'basic', 'standard', 'premium']),
+      pro:      new Set(['free', 'basic', 'pro']),
+      gold:     new Set(['free', 'basic', 'pro', 'gold']),
     };
 
-    for (const tier of VALID_TIERS) {
-      assert.ok(tierAccess.premium.has(tier), `premium must grant access to ${tier}`);
+    for (const tier of ['free', 'basic', 'pro', 'gold']) {
+      assert.ok(tierAccess.gold.has(tier), `gold must grant access to ${tier}`);
     }
   });
 
@@ -87,22 +89,22 @@ describe('membership tiers', () => {
     const tierAccess = {
       free:     new Set(['free']),
       basic:    new Set(['free', 'basic']),
-      standard: new Set(['free', 'basic', 'standard']),
-      premium:  new Set(['free', 'basic', 'standard', 'premium']),
+      pro:      new Set(['free', 'basic', 'pro']),
+      gold:     new Set(['free', 'basic', 'pro', 'gold']),
     };
 
-    assert.ok(tierAccess.standard.has('free'));
-    assert.ok(tierAccess.standard.has('basic'));
-    assert.ok(tierAccess.standard.has('standard'));
-    assert.ok(!tierAccess.standard.has('premium'), 'standard must NOT grant access to premium');
+    assert.ok(tierAccess.pro.has('free'));
+    assert.ok(tierAccess.pro.has('basic'));
+    assert.ok(tierAccess.pro.has('pro'));
+    assert.ok(!tierAccess.pro.has('gold'), 'pro must NOT grant access to gold');
   });
 
   test('tier inheritance: basic includes only free and basic', () => {
     const tierAccess = {
       free:     new Set(['free']),
       basic:    new Set(['free', 'basic']),
-      standard: new Set(['free', 'basic', 'standard']),
-      premium:  new Set(['free', 'basic', 'standard', 'premium']),
+      pro:      new Set(['free', 'basic', 'pro']),
+      gold:     new Set(['free', 'basic', 'pro', 'gold']),
     };
 
     assert.ok(tierAccess.basic.has('free'));
@@ -115,14 +117,14 @@ describe('membership tiers', () => {
     const tierAccess = {
       free:     new Set(['free']),
       basic:    new Set(['free', 'basic']),
-      standard: new Set(['free', 'basic', 'standard']),
-      premium:  new Set(['free', 'basic', 'standard', 'premium']),
+      pro:      new Set(['free', 'basic', 'pro']),
+      gold:     new Set(['free', 'basic', 'pro', 'gold']),
     };
 
     assert.ok(tierAccess.free.has('free'));
     assert.ok(!tierAccess.free.has('basic'));
-    assert.ok(!tierAccess.free.has('standard'));
-    assert.ok(!tierAccess.free.has('premium'));
+    assert.ok(!tierAccess.free.has('pro'));
+    assert.ok(!tierAccess.free.has('gold'));
   });
 
   test('admin override: admin viewer bypasses all membership filters', () => {
@@ -131,20 +133,23 @@ describe('membership tiers', () => {
       const tierAccess = {
         free:     new Set(['free']),
         basic:    new Set(['free', 'basic']),
-        standard: new Set(['free', 'basic', 'standard']),
-        premium:  new Set(['free', 'basic', 'standard', 'premium']),
+        pro:      new Set(['free', 'basic', 'pro']),
+        gold:     new Set(['free', 'basic', 'pro', 'gold']),
       };
-      const normalised = (lessonTier ?? 'free').toLowerCase();
+      const raw = (lessonTier ?? 'free').toLowerCase();
+      const normalised = raw === 'standard' ? 'pro' : raw === 'premium' ? 'gold' : raw;
       return tierAccess[viewer]?.has(normalised) ?? false;
     }
 
-    for (const tier of ['free', 'basic', 'standard', 'premium']) {
+    for (const tier of ['free', 'basic', 'pro', 'gold', 'standard', 'premium']) {
       assert.ok(isLessonVisible(tier, 'admin'), `admin must see ${tier} lessons`);
     }
 
-    // Anonymous (free) viewer should NOT see premium lessons
+    // Anonymous (free) viewer should NOT see gold/pro lessons
     assert.ok(!isLessonVisible('premium', 'free'), 'anonymous user must NOT see premium lessons');
     assert.ok(!isLessonVisible('standard', 'free'), 'anonymous user must NOT see standard lessons');
+    assert.ok(!isLessonVisible('gold', 'free'), 'anonymous user must NOT see gold lessons');
+    assert.ok(!isLessonVisible('pro', 'free'), 'anonymous user must NOT see pro lessons');
     assert.ok(!isLessonVisible('basic', 'free'), 'anonymous user must NOT see basic lessons');
     assert.ok(isLessonVisible('free', 'free'), 'anonymous user must see free lessons');
   });

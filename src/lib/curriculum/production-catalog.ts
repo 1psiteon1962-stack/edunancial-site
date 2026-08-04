@@ -125,6 +125,8 @@ const TRACK_SUBTITLE: Record<AdaptiveTrackCode, string> = {
   BLUE: "Business competency: starting, growing, and managing a business.",
 };
 
+const TRACK_ORDER = Object.keys(NORTH_AMERICA_TRACKS) as AdaptiveTrackCode[];
+
 // ─── Build catalog from registry ─────────────────────────────────────────────
 
 const _registryCatalog: AdaptiveLessonRecord[] = getAdaptiveCurriculumCatalog();
@@ -179,9 +181,9 @@ function _buildLesson(record: AdaptiveLessonRecord): ProductionLesson {
  * All courses derived from the production curriculum registry.
  * Empty when the registry has no lessons.
  */
-export const courseList: ProductionCourse[] = Array.from(
-  _trackGroups.entries(),
-).map(([trackCode, records]) => _buildCourse(trackCode, records));
+export const courseList: ProductionCourse[] = TRACK_ORDER.map((trackCode) =>
+  _buildCourse(trackCode, _trackGroups.get(trackCode) ?? []),
+);
 
 /**
  * All lessons derived from the production curriculum registry.
@@ -237,3 +239,9 @@ export const categoryColors: Record<string, string> = {
   "Paper Assets": "bg-slate-200 text-slate-900",
   Business: "bg-blue-800 text-white",
 };
+
+export function getCoursePrimaryHref(course: Pick<ProductionCourse, "id" | "lessons">): string {
+  return course.lessons[0]
+    ? `/courses/${course.id}/lessons/${course.lessons[0]}`
+    : `/courses/${course.id}`;
+}

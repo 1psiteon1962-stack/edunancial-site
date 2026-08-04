@@ -112,6 +112,248 @@
       "destination": "content/curriculum/RED/L1/RED-L1-010.md",
       "checksum": "sha256:cc5e3c6524b1d2ce7311edaf2985372683b771690d95bc5af70eaef33a8ce040",
       "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-001",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-001.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
+      "checksum": "sha256:50a93cf87b0667b3fb04b88ae1e15c8c3127d3dd82a00805c1372a252acdf65c",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-002",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-002.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
+      "checksum": "sha256:6d61814bbfa29f62486b5c7193baaa80b2191ab65f8862b01b8b9e9957097c3a",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-003",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-003.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
+      "checksum": "sha256:52b76db360232c0a990c153fd791b73b2b973b233a1255bc2800cc574427da0e",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-004",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-004.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
+      "checksum": "sha256:9c705c5b0f0d4d0e67bff5e191d4bc4d7e599776ebab17d36b41ca51b897a5cf",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-005",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-005.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
+      "checksum": "sha256:bf4b59bee4037474cd4fadf8d19c67fe37dbd857bafcf682057a306e6c3f48a4",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-006",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-006.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
+      "checksum": "sha256:ec1bdf970b906d20f858189e4f027b95ce1d77490bce417f066bf1031fff561a",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-007",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-007.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
+      "checksum": "sha256:ffd617f9948a66176388b1ce9ec4f11c6a325cbafad3f600426a2c6178122709",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-008",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-008.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
+      "checksum": "sha256:348391d77dcb832eb2934c29e9dda2d23b407c69ee482682927b92113f5d604a",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-009",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-009.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
+      "checksum": "sha256:f0c1b979c07f7dd611cc76e370cb0ed3b8c83f7418e378c39b1a598d1cfbb314",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+      "timestamp": "2026-08-02T23:42:42.498Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-010",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/WHITE/L1/WHITE-L1-010.md",
+      "destination": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
+      "checksum": "sha256:735dd3ccf91e2c7b35cf19543e594c24f2b7551cee7c88dcfd08e66d48223c7a",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "be935c0e-5943-4963-9277-ac5d30023453",
+      "timestamp": "2026-08-02T23:42:45.863Z",
+      "operation": "import",
+      "assetId": "WHITE-L1-MANIFEST",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "destination": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+      "checksum": "sha256:a30771ff44cb39f17f3cc61c063fd1ae6323584219feb0848cdcc55eef5fde76",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-001",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-001.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-001.md",
+      "checksum": "sha256:b3e9075b0a72cfe1f41c43aee082557c18e9cde5bd8e658a6de0be0c8701072d",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-002",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-002.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-002.md",
+      "checksum": "sha256:0541aa69dbabfdb161cabe1e894b68327828d4771eb820586ebdbbbe831b3daa",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-003",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-003.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-003.md",
+      "checksum": "sha256:d3cc9cab04b5a192f414e9f28099671095aad9d5dbd493992b13aab39c324405",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-004",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-004.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-004.md",
+      "checksum": "sha256:5e58bcfefe8a3c2b3b1904daa7a2346e85cfde61de9770bda8c6f6035446c84e",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-005",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-005.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-005.md",
+      "checksum": "sha256:4a6c632f44bc4c773a3cab504307221ddf3551f2b9928d5ec0498b3d6a1469b4",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-006",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-006.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-006.md",
+      "checksum": "sha256:3d3fa2442d10c1333e0509a358632b5437dc39cdf914b68dc0792307ce0b7cdb",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-007",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-007.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-007.md",
+      "checksum": "sha256:6e6e2929cc5da39eea83872006edaf47de103928db9c39136597b269e80883a6",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-008",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-008.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-008.md",
+      "checksum": "sha256:31b2170c2cd3f2cc74fa443abb06a0d8247b4e7698711855891d0a105d987eb9",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-009",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-009.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-009.md",
+      "checksum": "sha256:0a12cf116eb0b05c4e0ed1ba2427944d391ec1f3e12c6e5f4dc90de1eeef2f6b",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+      "timestamp": "2026-08-03T02:41:05.295Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-010",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-010.md",
+      "destination": "content/curriculum/BLUE/L1/BLUE-L1-010.md",
+      "checksum": "sha256:37fc4823f065a86c5cc9fd89ee245139b8e073e86c6188f423eb66735240ea13",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "55a78569-ba2f-4195-aa3a-d97380172577",
+      "timestamp": "2026-08-03T02:41:08.630Z",
+      "operation": "import",
+      "assetId": "BLUE-L1-MANIFEST",
+      "assetVersion": "1.0",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/curriculum/manifests/BLUE-L1-MANIFEST.md",
+      "destination": "curriculum/manifests/BLUE-L1-MANIFEST.md",
+      "checksum": "sha256:b17843d7d120e766c72a310c46a35d18f2095aebf95ce09c4075ec607058d04d",
+      "outcome": "success"
     }
   ]
 }

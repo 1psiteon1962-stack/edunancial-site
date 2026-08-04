@@ -484,5 +484,10 @@
   "executive.geo.traffic": "Tráfico",
   "executive.geo.completions": "Completados",
   "executive.geo.aiUsage": "Uso de IA",
-  "executive.geo.noData": "Datos geográficos no disponibles aún. Conecta Supabase geo_analytics para poblar esta tabla."
+  "executive.geo.noData": "Datos geográficos no disponibles aún. Conecta Supabase geo_analytics para poblar esta tabla.",
+  "selector.sessionOnly": "Solo para esta sesión",
+  "selector.resetToAuto": "Usar detección automática de idioma",
+  "selector.preferenceMode.auto": "Detección automática",
+  "selector.preferenceMode.session": "Solo esta sesión",
+  "selector.preferenceMode.saved": "Idioma predeterminado"
 }

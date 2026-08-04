@@ -1,7 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 
-import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import { LANGUAGE_CATALOG, isRtlLanguage } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 import {
   EDUNANCIAL_IDENTITY,
   EDUNANCIAL_LONG_DESCRIPTION,
@@ -80,11 +82,17 @@ export const metadata: Metadata = {
   category: "finance",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  // Read the saved language preference cookie so the server-rendered HTML
+  // contains the correct `lang` and `dir` attributes before JavaScript loads.
+  const cookieStore = await cookies();
+  const savedLocale = cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US";
+  const dir = isRtlLanguage(savedLocale) ? "rtl" : "ltr";
+
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -109,7 +117,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang={savedLocale} dir={dir}>
       <head>
         <script
           type="application/ld+json"

@@ -13,6 +13,7 @@ import {
 } from "@/lib/square";
 import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
+import { claimWebhookEvent } from "@/lib/payments/webhookIdempotency";
 
 interface SquareWebhookEvent {
   merchant_id?: string;
@@ -104,6 +105,33 @@ export async function POST(request: Request) {
 
     const event = JSON.parse(rawBody) as SquareWebhookEvent;
     const eventType = event.type ?? "unknown";
+    const eventId = event.event_id ?? "";
+
+    // ── Idempotency guard — reject duplicate / replayed events ────────────
+    if (eventId) {
+      const claimed = claimWebhookEvent(eventId, eventType);
+      if (!claimed) {
+        const dupResponse = NextResponse.json(
+          {
+            success: true,
+            processed: false,
+            duplicate: true,
+            eventType,
+            message: "Duplicate event ignored.",
+            requestId,
+          },
+          { status: 202 }
+        );
+        recordRequestMetric({
+          method: request.method,
+          route: "/api/square/webhook",
+          status: 202,
+          durationMs: Date.now() - start,
+        });
+        return attachRequestHeaders(dupResponse, requestId);
+      }
+    }
+
     const lifecycle = processSquareLifecycleEvent(event);
 
     const response = NextResponse.json(

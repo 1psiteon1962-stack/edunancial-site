@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { courseList } from "@/lib/curriculum/production-catalog";
 import { useState } from "react";
+import { getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
 
 export default function MyCoursesPage() {
   const [activeTab, setActiveTab] = useState<"in-progress" | "completed" | "all">("in-progress");
@@ -16,7 +17,7 @@ export default function MyCoursesPage() {
   }));
 
   const filtered = coursesWithProgress.filter((c) => {
-    if (activeTab === "in-progress") return c.pct > 0 && c.pct < 100;
+    if (activeTab === "in-progress") return c.pct < 100;
     if (activeTab === "completed") return c.pct === 100;
     return true;
   });
@@ -73,8 +74,15 @@ export default function MyCoursesPage() {
             </div>
           ) : (
             filtered.map((course) => {
-              const firstLesson = course.lessons[0];
-              const nextLesson = course.lessons[course.completedCount] ?? course.lessons[0];
+              const nextLesson = course.lessons[course.completedCount];
+              const actionHref = nextLesson
+                ? `/courses/${course.id}/lessons/${nextLesson}`
+                : getCoursePrimaryHref(course);
+              const actionLabel = course.lessons.length === 0
+                ? "View Track →"
+                : course.pct === 0
+                  ? "Start →"
+                  : "Continue →";
               return (
                 <div key={course.id} className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-6">
@@ -110,19 +118,21 @@ export default function MyCoursesPage() {
                           >
                             🎓 View Certificate
                           </Link>
-                          <Link
-                            href={`/courses/${course.id}/lessons/${firstLesson}`}
-                            className="rounded-xl border border-slate-600 px-5 py-2.5 text-center text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
-                          >
-                            Review
-                          </Link>
+                          {course.lessons.length > 0 && (
+                            <Link
+                              href={`/courses/${course.id}/lessons/${course.lessons[0]}`}
+                              className="rounded-xl border border-slate-600 px-5 py-2.5 text-center text-sm font-bold text-slate-300 hover:bg-slate-800 transition"
+                            >
+                              Review
+                            </Link>
+                          )}
                         </>
                       ) : (
                         <Link
-                          href={`/courses/${course.id}/lessons/${nextLesson}`}
+                          href={actionHref}
                           className="rounded-xl bg-yellow-500 px-5 py-2.5 text-center text-sm font-black text-black hover:bg-yellow-400 transition"
                         >
-                          {course.pct === 0 ? "Start" : "Continue"} →
+                          {actionLabel}
                         </Link>
                       )}
                       <Link

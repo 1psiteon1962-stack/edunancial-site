@@ -1,5 +1,6 @@
 import { extname } from "node:path";
 
+import { validateAcademyConsistency } from "@/lib/admin-content/academy-consistency";
 import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { appendBatchAuditEvent } from "@/lib/admin-content/audit";
 import { createAuditEvent } from "@/lib/admin-content/auth";
@@ -549,6 +550,20 @@ export async function updateBatchFile(batchId: string, fileId: string, actor: Ac
           : current.metadata.intendedDestination,
       }
     : current.metadata;
+
+  // Academy consistency check: filename and/or front-matter track must match
+  // the assigned pillar.  This prevents a file like "blue-level-1-combined.md"
+  // from being saved under White Academy.
+  const rawText = updates.rawText ?? current.rawText;
+  const consistencyCheck = validateAcademyConsistency(
+    updates.normalizedFilename ?? current.normalizedFilename,
+    classification.pillar,
+    rawText,
+  );
+  if (!consistencyCheck.consistent) {
+    throw new Error(consistencyCheck.error);
+  }
+
   batch.files[index] = {
     ...current,
     ...updates,
@@ -568,6 +583,30 @@ export async function bulkReview(batchId: string, actor: ActorContext, fileIds: 
   const batch = await storage.getBatch(batchId);
   if (!batch) throw new Error("Batch not found");
   const touched = new Set(fileIds);
+
+  // When approving, verify academy consistency for every file being approved.
+  // This prevents misassigned files (e.g. blue-level-1-combined.md filed under
+  // White Academy) from ever reaching the approved state.
+  if (reviewStatus === "approved") {
+    const violations: string[] = [];
+    for (const file of batch.files) {
+      if (!touched.has(file.id)) continue;
+      const check = validateAcademyConsistency(
+        file.normalizedFilename,
+        file.classification.pillar,
+        file.rawText,
+      );
+      if (!check.consistent) {
+        violations.push(`[${file.normalizedFilename}] ${check.error}`);
+      }
+    }
+    if (violations.length > 0) {
+      throw new Error(
+        `Approval blocked — academy/filename mismatch detected:\n${violations.join("\n")}`,
+      );
+    }
+  }
+
   batch.files = batch.files.map((file) => {
     if (!touched.has(file.id)) return file;
     return {

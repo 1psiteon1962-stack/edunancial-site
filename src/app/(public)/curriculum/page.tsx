@@ -78,8 +78,6 @@ const DEFAULT_STYLE = {
 };
 
 export default function CurriculumIndexPage() {
-  // Always returns RED, WHITE, and BLUE with 5 levels each.
-  // Anonymous visitors see only free-tier lessons (default).
   const academies = listAcademies();
 
   // A track is "Available Now" only when Level 1 has at least one published lesson.

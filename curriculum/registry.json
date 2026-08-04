@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-07-30T17:57:32.258Z",
+  "_generated": "2026-08-03T02:41:08.636Z",
   "_note": "Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.",
   "tracks": {
     "RED": {
@@ -238,6 +238,528 @@
               "metadata": {
                 "officialTrackName": "Real Estate",
                 "summary": "Lessons one through nine have given you the knowledge foundation. This final RED Level 1 lesson integrates everything into a personal real estate investment strategy—one you can begin executing immediately. Financial competency is built through action, not through accumulating more knowledge."
+              }
+            }
+          }
+        }
+      }
+    },
+    "WHITE": {
+      "code": "WHITE",
+      "name": "Paper Assets",
+      "levels": {
+        "1": {
+          "assets": {
+            "WHITE-L1-001": {
+              "id": "WHITE-L1-001",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 1,
+              "title": "Understanding Paper Assets as an Asset Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
+              "checksum": "sha256:50a93cf87b0667b3fb04b88ae1e15c8c3127d3dd82a00805c1372a252acdf65c",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Paper assets are financial instruments that represent a claim on an underlying value — a share of a company, a loan to a government, or a unit in a fund. This lesson establishes a foundational understanding of paper assets as an asset class and why they belong in a long-term wealth-building strategy."
+              }
+            },
+            "WHITE-L1-002": {
+              "id": "WHITE-L1-002",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 2,
+              "title": "Stocks — Ownership, Price, and Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
+              "checksum": "sha256:6d61814bbfa29f62486b5c7193baaa80b2191ab65f8862b01b8b9e9957097c3a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A stock is a unit of ownership in a company. Understanding how stock prices are set, how returns are generated, and how to evaluate a stock's value is a foundational skill for every paper asset investor."
+              }
+            },
+            "WHITE-L1-003": {
+              "id": "WHITE-L1-003",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 3,
+              "title": "Bonds — Fixed Income and Lending Returns",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
+              "checksum": "sha256:52b76db360232c0a990c153fd791b73b2b973b233a1255bc2800cc574427da0e",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A bond is a loan you make to a government or corporation in exchange for regular interest payments and the return of your principal at maturity. Understanding how bonds work, how they are priced, and when they belong in a portfolio is essential for building a diversified strategy."
+              }
+            },
+            "WHITE-L1-004": {
+              "id": "WHITE-L1-004",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 4,
+              "title": "Funds — ETFs, Index Funds, and Mutual Funds",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
+              "checksum": "sha256:9c705c5b0f0d4d0e67bff5e191d4bc4d7e599776ebab17d36b41ca51b897a5cf",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "A fund pools money from many investors to purchase a diversified portfolio of securities. Understanding the differences between ETFs, index funds, and mutual funds — and how to evaluate their costs — is one of the highest-value skills in personal finance."
+              }
+            },
+            "WHITE-L1-005": {
+              "id": "WHITE-L1-005",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 5,
+              "title": "Tax-Advantaged Accounts — 401(k), IRA, and Roth IRA",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
+              "checksum": "sha256:bf4b59bee4037474cd4fadf8d19c67fe37dbd857bafcf682057a306e6c3f48a4",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Tax-advantaged accounts are the single most powerful wealth-building tool available to most working Americans. Understanding how 401(k), IRA, and Roth IRA accounts work — and how to use them optimally — is not optional for anyone serious about financial competency."
+              }
+            },
+            "WHITE-L1-006": {
+              "id": "WHITE-L1-006",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 6,
+              "title": "Asset Allocation and Portfolio Construction",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
+              "checksum": "sha256:ec1bdf970b906d20f858189e4f027b95ce1d77490bce417f066bf1031fff561a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Asset allocation is the single most important decision an investor makes. How you divide your portfolio between equities, fixed income, and other assets determines more of your long-term return and risk than any individual security selection."
+              }
+            },
+            "WHITE-L1-007": {
+              "id": "WHITE-L1-007",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 7,
+              "title": "How the Stock Market Works — Exchanges, Orders, and Market Mechanics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
+              "checksum": "sha256:ffd617f9948a66176388b1ce9ec4f11c6a325cbafad3f600426a2c6178122709",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understanding how the stock market actually functions — how exchanges match buyers and sellers, how order types work, and why prices move — removes the mystery from investing and prevents costly beginner mistakes."
+              }
+            },
+            "WHITE-L1-008": {
+              "id": "WHITE-L1-008",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 8,
+              "title": "Reading Financial Statements for Investors",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
+              "checksum": "sha256:348391d77dcb832eb2934c29e9dda2d23b407c69ee482682927b92113f5d604a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Financial statements are the language companies use to report their performance. Understanding the income statement, balance sheet, and cash flow statement enables investors to evaluate companies rather than speculate about them."
+              }
+            },
+            "WHITE-L1-009": {
+              "id": "WHITE-L1-009",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 9,
+              "title": "Investment Risk — Types, Measurement, and Management",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
+              "checksum": "sha256:f0c1b979c07f7dd611cc76e370cb0ed3b8c83f7418e378c39b1a598d1cfbb314",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Every investment carries risk. The investor's job is not to avoid risk but to understand it, measure it, and accept only the risks that are compensated with adequate expected return. This lesson gives you the framework for evaluating investment risk systematically."
+              }
+            },
+            "WHITE-L1-010": {
+              "id": "WHITE-L1-010",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "lessonNumber": 10,
+              "title": "Building Your Paper Asset Investment Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
+              "checksum": "sha256:735dd3ccf91e2c7b35cf19543e594c24f2b7551cee7c88dcfd08e66d48223c7a",
+              "status": "active",
+              "ingestionId": "0124e4a8-562d-43a6-8d8c-036a494b5b33",
+              "importedAt": "2026-08-02T23:42:42.498Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Lessons one through nine have established the foundational knowledge. This final WHITE Level 1 lesson integrates everything into a personal paper asset investment strategy you can begin executing immediately. Financial competency is built through systematic action, not through accumulating more knowledge."
+              }
+            },
+            "WHITE-L1-MANIFEST": {
+              "id": "WHITE-L1-MANIFEST",
+              "type": "manifest",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 1,
+              "title": "\"WHITE Level 1 — Paper Asset Foundations\"",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-02",
+              "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
+              "checksum": "sha256:a30771ff44cb39f17f3cc61c063fd1ae6323584219feb0848cdcc55eef5fde76",
+              "status": "active",
+              "ingestionId": "be935c0e-5943-4963-9277-ac5d30023453",
+              "importedAt": "2026-08-02T23:42:45.863Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Paper Assets"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BLUE": {
+      "code": "BLUE",
+      "name": "Business",
+      "levels": {
+        "1": {
+          "assets": {
+            "BLUE-L1-001": {
+              "id": "BLUE-L1-001",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 1,
+              "title": "Understanding Business as an Asset Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-001.md",
+              "checksum": "sha256:b3e9075b0a72cfe1f41c43aee082557c18e9cde5bd8e658a6de0be0c8701072d",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "A business is an asset when it generates cash flow that exceeds its operating costs. This lesson introduces business ownership as the third major asset class alongside real estate and paper assets, and establishes why financial competency in business is essential to building lasting wealth."
+              }
+            },
+            "BLUE-L1-002": {
+              "id": "BLUE-L1-002",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 2,
+              "title": "Business Models — How Businesses Generate Revenue",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-002.md",
+              "checksum": "sha256:0541aa69dbabfdb161cabe1e894b68327828d4771eb820586ebdbbbe831b3daa",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "A business model defines how a business creates value for customers and captures a portion of that value as revenue. This lesson covers the primary business model types, how each generates income, and how to evaluate which model fits a given business concept."
+              }
+            },
+            "BLUE-L1-003": {
+              "id": "BLUE-L1-003",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 3,
+              "title": "Cash Flow in Business — Reading the Numbers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-003.md",
+              "checksum": "sha256:d3cc9cab04b5a192f414e9f28099671095aad9d5dbd493992b13aab39c324405",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "More businesses fail from cash flow problems than from a lack of profit. This lesson explains the difference between profit and cash flow, how to read a basic cash flow statement, and why managing cash timing is a core business competency."
+              }
+            },
+            "BLUE-L1-004": {
+              "id": "BLUE-L1-004",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 4,
+              "title": "Profit Margins — Revenue, Costs, and What's Left",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-004.md",
+              "checksum": "sha256:5e58bcfefe8a3c2b3b1904daa7a2346e85cfde61de9770bda8c6f6035446c84e",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Profit margin measures how efficiently a business converts revenue into profit. This lesson covers the three core margin metrics — gross, operating, and net — explains what drives them, and establishes why margin management is more important than revenue growth for sustainable businesses."
+              }
+            },
+            "BLUE-L1-005": {
+              "id": "BLUE-L1-005",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 5,
+              "title": "Key Performance Indicators — Measuring What Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-005.md",
+              "checksum": "sha256:4a6c632f44bc4c773a3cab504307221ddf3551f2b9928d5ec0498b3d6a1469b4",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Key performance indicators (KPIs) are the measurements that tell a business owner whether the business is on track. This lesson establishes the framework for selecting, tracking, and acting on the right KPIs — and explains why measuring activity without acting on results is meaningless."
+              }
+            },
+            "BLUE-L1-006": {
+              "id": "BLUE-L1-006",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 6,
+              "title": "Pricing Strategy — Setting Prices for Profit",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-006.md",
+              "checksum": "sha256:3d3fa2442d10c1333e0509a358632b5437dc39cdf914b68dc0792307ce0b7cdb",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Pricing is the single most powerful lever in business finance. A 10% price increase on a 30% gross margin product doubles profit. This lesson covers the primary pricing strategies, how to set prices that support profitability, and the most common pricing mistakes that destroy margin."
+              }
+            },
+            "BLUE-L1-007": {
+              "id": "BLUE-L1-007",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 7,
+              "title": "Customer Acquisition — The Economics of Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-007.md",
+              "checksum": "sha256:6e6e2929cc5da39eea83872006edaf47de103928db9c39136597b269e80883a6",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Every new customer costs money to acquire. Understanding the relationship between customer acquisition cost and customer lifetime value determines whether a business can grow profitably. This lesson covers the economics of customer acquisition and the foundational marketing channels that drive sustainable growth."
+              }
+            },
+            "BLUE-L1-008": {
+              "id": "BLUE-L1-008",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 8,
+              "title": "Operations — Systems, Processes, and Efficiency",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-008.md",
+              "checksum": "sha256:31b2170c2cd3f2cc74fa443abb06a0d8247b4e7698711855891d0a105d987eb9",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "A business that depends on the owner's knowledge and presence to function is not a business — it is a job. This lesson covers the principles of business operations, how to document and systematize processes, and how operational efficiency directly improves financial performance."
+              }
+            },
+            "BLUE-L1-009": {
+              "id": "BLUE-L1-009",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 9,
+              "title": "Business Risk and Financial Resilience",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-009.md",
+              "checksum": "sha256:0a12cf116eb0b05c4e0ed1ba2427944d391ec1f3e12c6e5f4dc90de1eeef2f6b",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Every business faces risks that can interrupt revenue, increase costs, or destroy the enterprise entirely. This lesson identifies the primary categories of business risk, explains how to evaluate each, and establishes the financial practices that make a business resilient enough to survive setbacks and continue building wealth."
+              }
+            },
+            "BLUE-L1-010": {
+              "id": "BLUE-L1-010",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "lessonNumber": 10,
+              "title": "Building Your Business Competency Foundation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "content/curriculum/BLUE/L1/BLUE-L1-010.md",
+              "checksum": "sha256:37fc4823f065a86c5cc9fd89ee245139b8e073e86c6188f423eb66735240ea13",
+              "status": "active",
+              "ingestionId": "2bb9f56a-4781-4498-a5f4-b08bcf2bd711",
+              "importedAt": "2026-08-03T02:41:05.295Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Business competency is built through disciplined practice, not theory alone. This final Level 1 lesson integrates the concepts from all previous lessons into a personal business competency framework — the foundation you will continue to build across all five levels of the BLUE track."
+              }
+            },
+            "BLUE-L1-MANIFEST": {
+              "id": "BLUE-L1-MANIFEST",
+              "type": "manifest",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 1,
+              "title": "\"BLUE Level 1 — Business Foundations\"",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-08-03",
+              "path": "curriculum/manifests/BLUE-L1-MANIFEST.md",
+              "checksum": "sha256:b17843d7d120e766c72a310c46a35d18f2095aebf95ce09c4075ec607058d04d",
+              "status": "active",
+              "ingestionId": "55a78569-ba2f-4195-aa3a-d97380172577",
+              "importedAt": "2026-08-03T02:41:08.630Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "Business"
               }
             }
           }

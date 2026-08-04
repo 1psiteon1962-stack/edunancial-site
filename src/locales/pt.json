@@ -424,5 +424,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "Somente para esta sessão",
+  "selector.resetToAuto": "Usar detecção automática de idioma",
+  "selector.preferenceMode.auto": "Detecção automática",
+  "selector.preferenceMode.session": "Somente esta sessão",
+  "selector.preferenceMode.saved": "Idioma padrão"
 }

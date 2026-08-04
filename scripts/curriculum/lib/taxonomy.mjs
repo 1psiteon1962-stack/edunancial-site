@@ -29,7 +29,15 @@ export const OFFICIAL_TRACK_NAMES = Object.freeze(
 );
 
 /** Valid membership tiers for lesson access control */
-export const MEMBERSHIP_TIERS = Object.freeze(['free', 'basic', 'standard', 'premium']);
+export const MEMBERSHIP_TIERS = Object.freeze([
+  'free',
+  'basic',
+  'pro',
+  'gold',
+  // Legacy values supported for backward compatibility.
+  'standard',
+  'premium',
+]);
 
 /** Forbidden file types for ZIP import */
 export const FORBIDDEN_EXTENSIONS = new Set([

@@ -26,6 +26,7 @@ const QUICK_LINKS = [
   { title: "Beta Testers", href: "/admin/beta-testers", icon: "🧪" },
   { title: "Analytics & KPIs", href: "/admin/kpi", icon: "📊" },
   { title: "Security Center", href: "/admin/security-center", icon: "🔐" },
+  { title: "AI Learning Network", href: "/admin/ai-learning", icon: "🧠" },
   { title: "Settings", href: "/admin/settings", icon: "⚙️" },
 ];
 

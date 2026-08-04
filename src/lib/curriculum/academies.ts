@@ -13,21 +13,27 @@
 // ---------------------------------------------------------------------------
 
 /**
- * Ordered membership tiers.  Higher tiers inherit all content from lower tiers.
+ * Ordered membership tiers used for catalog visibility filtering.
  * "admin" is a special override that bypasses all visibility rules server-side.
+ *
+ * Note: Full lesson body access is governed by the admin-editable tier→level
+ * mapping in curriculum/tier-config.json (see src/lib/curriculum/tier-config.ts).
  */
-export type MembershipTier = "free" | "basic" | "standard" | "premium";
+export type MembershipTier = "free" | "basic" | "pro" | "gold";
 
 /** All tiers a given tier can access (including its own tier). */
 const TIER_ACCESS: Record<MembershipTier, Set<MembershipTier>> = {
-  free:     new Set(["free"]),
-  basic:    new Set(["free", "basic"]),
-  standard: new Set(["free", "basic", "standard"]),
-  premium:  new Set(["free", "basic", "standard", "premium"]),
+  free:  new Set(["free"]),
+  basic: new Set(["free", "basic"]),
+  pro:   new Set(["free", "basic", "pro"]),
+  gold:  new Set(["free", "basic", "pro", "gold"]),
 };
 
 /**
- * Returns true when `lesson` is visible to `viewer`.
+ * Returns true when `lesson` is visible in the catalog to `viewer`.
+ *
+ * This governs catalog listing visibility only. Full lesson body access is
+ * governed separately by canAccessLesson() in tier-config.ts.
  *
  * @param lessonTier  - The membership tier recorded on the lesson (defaults to "free" when absent).
  * @param viewer      - The viewer's tier, or "admin" to bypass all restrictions.
@@ -37,7 +43,13 @@ export function isLessonVisible(
   viewer: MembershipTier | "admin",
 ): boolean {
   if (viewer === "admin") return true;
-  const normalised = (lessonTier ?? "free").toLowerCase() as MembershipTier;
+  const raw = (lessonTier ?? "free").toLowerCase();
+  // Map legacy tier names to the current naming convention
+  const normalised = (
+    raw === "standard" ? "pro" :
+    raw === "premium" ? "gold" :
+    raw
+  ) as MembershipTier;
   return TIER_ACCESS[viewer]?.has(normalised) ?? false;
 }
 

@@ -424,5 +424,10 @@
   "selector.searchPlaceholder": "Search language…",
   "selector.searchAria": "Search languages",
   "nav.signOut": "Sign Out",
-  "nav.menu": "Menu"
+  "nav.menu": "Menu",
+  "selector.sessionOnly": "이 세션에만 적용",
+  "selector.resetToAuto": "자동 언어 감지 사용",
+  "selector.preferenceMode.auto": "자동 감지",
+  "selector.preferenceMode.session": "이 세션만",
+  "selector.preferenceMode.saved": "기본 언어"
 }
