@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import ComingSoon from "@/components/ComingSoon";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 export interface VideoSource {
@@ -185,7 +186,17 @@ export default function MemberSuccessStories({ stories = [] }: MemberSuccessStor
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">{t("memberStories.body")}</p>
       </div>
 
-      {stories.length > 0 && (
+      {stories.length === 0 ? (
+        <div className="mt-12">
+          <ComingSoon
+            labelKey="comingSoon.label"
+            headingKey="comingSoon.stories.heading"
+            bodyKey="comingSoon.stories.body"
+            ctaLabelKey="comingSoon.stories.cta"
+            ctaHref="/pricing"
+          />
+        </div>
+      ) : (
         <div className="mt-12 flex flex-col gap-12">
           {stories.map((story) => (
             <StoryCard

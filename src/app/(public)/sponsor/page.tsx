@@ -8,6 +8,8 @@ description:
 
 };
 
+import SponsorComingSoon from "./SponsorComingSoon";
+
 export default function SponsorPage(){
 
 return(
@@ -177,10 +179,11 @@ Programs may include:
 
 <p>
 
-Program details are under development and
-may change over time.
+Program details are being finalized and will be published before launch.
 
 </p>
+
+<SponsorComingSoon />
 
 <h2>
 
