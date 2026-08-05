@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 
+import ComingSoon from "@/components/ComingSoon";
 import MemberSuccessStories from "@/components/home/MemberSuccessStories";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
@@ -176,10 +177,13 @@ export default function HomePageClient() {
 
       <section aria-label={t("home.trial.label")} className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-          <div className="rounded-3xl border border-dashed border-white/20 bg-white/5 p-8 text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.4em] text-slate-400">{t("home.trial.label")}</p>
-            <p className="mt-2 text-sm text-slate-300">{t("home.trial.body")}</p>
-          </div>
+          <ComingSoon
+            labelKey="home.trial.label"
+            headingKey="comingSoon.trial.heading"
+            bodyKey="comingSoon.trial.body"
+            ctaLabelKey="comingSoon.trial.cta"
+            ctaHref="/pricing"
+          />
         </div>
       </section>
 
