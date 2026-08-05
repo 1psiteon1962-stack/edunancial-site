@@ -2,7 +2,7 @@
  * Curriculum Academy Configuration
  *
  * Defines the canonical multi-academy structure for the Edunancial curriculum.
- * RED, WHITE, and BLUE are the three primary academies, each with five levels.
+ * RED, WHITE, BLUE, GREEN, GOLD, PURPLE, ORANGE, and BLACK are the eight primary academies, each with five levels.
  *
  * Adding a new academy requires only adding an entry here — no other code changes.
  * Adding new lessons requires only adding lesson files; they appear automatically.
@@ -94,6 +94,41 @@ export const ACADEMIES: AcademyDefinition[] = [
     name: "Business",
     description:
       "Build business competency — business models, cash flow, operations, growth strategies, and the financial mechanics of entrepreneurship.",
+    levelCount: 5,
+  },
+  {
+    code: "GREEN",
+    name: "Taxes",
+    description:
+      "Understand how the tax system works — income taxes, deductions, credits, tax-advantaged accounts, and strategies to legally minimize your tax burden.",
+    levelCount: 5,
+  },
+  {
+    code: "GOLD",
+    name: "Investing & Wealth Building",
+    description:
+      "Build lasting wealth through disciplined investing — asset allocation, diversification, compounding, retirement accounts, and long-term wealth strategies.",
+    levelCount: 5,
+  },
+  {
+    code: "PURPLE",
+    name: "Law",
+    description:
+      "Navigate the legal landscape of personal and business finance — contracts, entity structures, intellectual property, estate planning, and legal risk management.",
+    levelCount: 5,
+  },
+  {
+    code: "ORANGE",
+    name: "Sales & Marketing",
+    description:
+      "Drive revenue through effective sales and marketing — customer acquisition, conversion, branding, digital marketing, and building sustainable growth.",
+    levelCount: 5,
+  },
+  {
+    code: "BLACK",
+    name: "Leadership & Executive Management",
+    description:
+      "Develop executive leadership competency — organizational strategy, team leadership, financial decision-making, and the disciplines that define high-performance organizations.",
     levelCount: 5,
   },
 ];
