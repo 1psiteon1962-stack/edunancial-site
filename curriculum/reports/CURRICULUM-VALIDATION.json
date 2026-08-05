@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-03T02:55:24.424Z",
-  "totalAssets": 32,
-  "passed": 32,
+  "timestamp": "2026-08-05T02:07:29.515Z",
+  "totalAssets": 127,
+  "passed": 127,
   "failed": 0,
   "results": [
     {
@@ -61,6 +61,96 @@
     {
       "assetId": "RED-L1-010",
       "path": "content/curriculum/RED/L1/RED-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-011",
+      "path": "content/curriculum/RED/L1/RED-L1-011.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-012",
+      "path": "content/curriculum/RED/L1/RED-L1-012.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-013",
+      "path": "content/curriculum/RED/L1/RED-L1-013.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-014",
+      "path": "content/curriculum/RED/L1/RED-L1-014.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-015",
+      "path": "content/curriculum/RED/L1/RED-L1-015.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-016",
+      "path": "content/curriculum/RED/L1/RED-L1-016.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-017",
+      "path": "content/curriculum/RED/L1/RED-L1-017.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-018",
+      "path": "content/curriculum/RED/L1/RED-L1-018.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-019",
+      "path": "content/curriculum/RED/L1/RED-L1-019.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-020",
+      "path": "content/curriculum/RED/L1/RED-L1-020.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-021",
+      "path": "content/curriculum/RED/L1/RED-L1-021.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-022",
+      "path": "content/curriculum/RED/L1/RED-L1-022.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-023",
+      "path": "content/curriculum/RED/L1/RED-L1-023.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-024",
+      "path": "content/curriculum/RED/L1/RED-L1-024.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "RED-L1-025",
+      "path": "content/curriculum/RED/L1/RED-L1-025.md",
       "errors": [],
       "warnings": []
     },
@@ -131,6 +221,96 @@
       "warnings": []
     },
     {
+      "assetId": "WHITE-L1-011",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-011.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-012",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-012.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-013",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-013.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-014",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-014.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-015",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-015.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-016",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-016.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-017",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-017.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-018",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-018.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-019",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-019.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-020",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-020.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-021",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-021.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-022",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-022.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-023",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-023.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-024",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-024.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "WHITE-L1-025",
+      "path": "content/curriculum/WHITE/L1/WHITE-L1-025.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
       "assetId": "BLUE-L1-001",
       "path": "content/curriculum/BLUE/L1/BLUE-L1-001.md",
       "errors": [],
@@ -193,6 +373,396 @@
     {
       "assetId": "BLUE-L1-MANIFEST",
       "path": "curriculum/manifests/BLUE-L1-MANIFEST.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-011",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-011.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-012",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-012.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-013",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-013.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-014",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-014.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-015",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-015.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-016",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-016.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-017",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-017.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-018",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-018.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-019",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-019.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-020",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-020.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-021",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-021.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-022",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-022.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-023",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-023.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-024",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-024.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLUE-L1-025",
+      "path": "content/curriculum/BLUE/L1/BLUE-L1-025.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-001",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-002",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-003",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-004",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-005",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-006",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-007",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-008",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-009",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GREEN-L1-010",
+      "path": "content/curriculum/GREEN/L1/GREEN-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-001",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-002",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-003",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-004",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-005",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-006",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-007",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-008",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-009",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-010",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-001",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-002",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-003",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-004",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-005",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-006",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-007",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-008",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-009",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "PURPLE-L1-010",
+      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-001",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-002",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-003",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-004",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-005",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-006",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-007",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-008",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-009",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "ORANGE-L1-010",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-010.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-001",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-002",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-003",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-003.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-004",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-004.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-005",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-005.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-006",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-006.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-007",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-007.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-008",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-008.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-009",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-009.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "BLACK-L1-010",
+      "path": "content/curriculum/BLACK/L1/BLACK-L1-010.md",
       "errors": [],
       "warnings": []
     }
