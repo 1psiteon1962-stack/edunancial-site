@@ -3,12 +3,12 @@ import test from "node:test";
 
 import { getPlaceholderLessonMeta, getTrack, listAcademies } from "./reader";
 
-test("listAcademies keeps RED, WHITE, and BLUE active regardless of published lessons", () => {
+test("listAcademies returns all eight academies with five levels each", () => {
   const academies = listAcademies();
 
   assert.deepEqual(
     academies.map((academy) => academy.code),
-    ["RED", "WHITE", "BLUE"],
+    ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"],
   );
   assert.ok(academies.every((academy) => academy.levels.length === 5));
 });
