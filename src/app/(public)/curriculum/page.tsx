@@ -80,6 +80,18 @@ const DEFAULT_STYLE = {
 export default function CurriculumIndexPage() {
   const academies = listAcademies();
 
+  // A track is "Available Now" only when Level 1 has at least one published lesson.
+  // This ensures the badge reflects actual live content at the entry level.
+  const academiesWithLessons = academies.filter((a) => {
+    const level1 = a.levels.find((l) => l.level === 1);
+    return (level1?.lessonCount ?? 0) > 0;
+  });
+  // A track is "Coming Soon" when Level 1 has zero published lessons.
+  const academiesComingSoon = academies.filter((a) => {
+    const level1 = a.levels.find((l) => l.level === 1);
+    return (level1?.lessonCount ?? 0) === 0;
+  });
+
   const totalLessons = academies.reduce(
     (sum, a) => sum + a.levels.reduce((s, l) => s + l.lessonCount, 0),
     0
@@ -103,16 +115,17 @@ export default function CurriculumIndexPage() {
         {totalLessons > 0 && (
           <p className="mt-4 text-sm text-slate-500">
             {totalLessons} lesson{totalLessons !== 1 ? "s" : ""} published across{" "}
-            {academies.length} academy{academies.length !== 1 ? " academies" : ""}
+            {academiesWithLessons.length} academy{academiesWithLessons.length !== 1 ? " academies" : ""}
           </p>
         )}
       </section>
 
-      {academies.length > 0 && (
+      {/* Academies with published lessons */}
+      {academiesWithLessons.length > 0 && (
         <section className="mx-auto max-w-6xl px-6 pb-16">
           <h2 className="text-2xl font-black mb-6">Available Now</h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {academies.map((academy) => {
+            {academiesWithLessons.map((academy) => {
               const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
               const totalLessonsInAcademy = academy.levels.reduce(
                 (sum, l) => sum + l.lessonCount,
@@ -120,17 +133,27 @@ export default function CurriculumIndexPage() {
               );
               const firstLevel = academy.levels.find((l) => l.lessonCount > 0);
 
+              // Levels that have at least one published lesson
+              const levelsWithContent = academy.levels.filter(
+                (l) => l.lessonCount > 0
+              ).length;
+
               return (
                 <Link
                   key={academy.code}
                   href={`/curriculum/${academy.code.toLowerCase()}`}
                   className={`rounded-2xl border p-6 transition group ${styles.bg} ${styles.border}`}
                 >
-                  <span
-                    className={`inline-block rounded-full px-3 py-1 text-xs font-bold mb-4 ${styles.badge}`}
-                  >
-                    {academy.code}
-                  </span>
+                  <div className="flex items-center gap-2 mb-4 flex-wrap">
+                    <span
+                      className={`inline-block rounded-full px-3 py-1 text-xs font-bold ${styles.badge}`}
+                    >
+                      {academy.code}
+                    </span>
+                    <span className="inline-block rounded-full px-3 py-1 text-xs font-bold bg-green-500/20 text-green-300 border border-green-500/40">
+                      Available Now
+                    </span>
+                  </div>
                   <h3
                     className={`text-2xl font-black transition group-hover:opacity-80 ${styles.heading}`}
                   >
@@ -144,19 +167,60 @@ export default function CurriculumIndexPage() {
                   <p className="mt-3 text-sm text-slate-400">
                     {totalLessonsInAcademy} lesson
                     {totalLessonsInAcademy !== 1 ? "s" : ""} ·{" "}
-                    {academy.levels.length} level
-                    {academy.levels.length !== 1 ? "s" : ""}
+                    {levelsWithContent} level
+                    {levelsWithContent !== 1 ? "s" : ""}
                   </p>
-                  {firstLevel && firstLevel.lessonCount > 0 ? (
+                  {firstLevel && firstLevel.lessonCount > 0 && (
                     <p className="mt-2 text-xs text-slate-500">
                       Start with Level {firstLevel.level}: {firstLevel.lessonCount} lessons ready
                     </p>
-                  ) : (
-                    <p className="mt-2 text-xs text-slate-500">
-                      Track active · Lessons will appear here as they are published
-                    </p>
                   )}
                 </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Academies coming soon */}
+      {academiesComingSoon.length > 0 && (
+        <section className="mx-auto max-w-6xl px-6 pb-20">
+          <h2 className="text-xl font-black mb-4 text-slate-500">Coming Soon</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {academiesComingSoon.map((academy) => {
+              const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
+              const publishedLessons = academy.levels.reduce(
+                (sum, l) => sum + l.lessonCount,
+                0
+              );
+              const levelsPlanned = academy.levels.length;
+              return (
+                <div
+                  key={academy.code}
+                  className={`rounded-2xl border p-5 opacity-60 ${styles.bg} ${styles.border}`}
+                >
+                  <div className="flex items-center gap-2 mb-3 flex-wrap">
+                    <span
+                      className={`inline-block rounded-full px-2 py-0.5 text-xs font-bold ${styles.badge}`}
+                    >
+                      {academy.code}
+                    </span>
+                    <span className="inline-block rounded-full px-2 py-0.5 text-xs font-bold bg-slate-600/30 text-slate-400 border border-slate-500/30">
+                      Coming Soon
+                    </span>
+                  </div>
+                  <h3 className={`text-lg font-black ${styles.heading}`}>
+                    {academy.name}
+                  </h3>
+                  {academy.description && (
+                    <p className="mt-1 text-xs text-slate-500 leading-relaxed line-clamp-2">
+                      {academy.description}
+                    </p>
+                  )}
+                  <p className="mt-2 text-xs text-slate-600">
+                    {publishedLessons} lesson{publishedLessons !== 1 ? "s" : ""} published · {levelsPlanned} level{levelsPlanned !== 1 ? "s" : ""} planned
+                  </p>
+                </div>
               );
             })}
           </div>
