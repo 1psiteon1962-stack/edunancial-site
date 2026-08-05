@@ -429,5 +429,22 @@
   "selector.resetToAuto": "Tumia utambuzi wa lugha otomatiki",
   "selector.preferenceMode.auto": "Utambuzi otomatiki",
   "selector.preferenceMode.session": "Kikao hiki tu",
-  "selector.preferenceMode.saved": "Lugha ya msingi"
+  "selector.preferenceMode.saved": "Lugha ya msingi",
+  "comingSoon.label": "Coming Soon",
+  "comingSoon.heading": "This section is on the way.",
+  "comingSoon.body": "We're working on it — check back soon.",
+  "comingSoon.stories.heading": "Member success stories are on the way.",
+  "comingSoon.stories.body": "As our members build financial competency and achieve results, they will share their stories here. Check back soon.",
+  "comingSoon.stories.cta": "View Membership Plans",
+  "comingSoon.trial.heading": "Free trial is coming.",
+  "comingSoon.trial.body": "We're putting the finishing touches on the Edunancial free trial experience. In the meantime, explore our membership plans and start building financial competency today.",
+  "comingSoon.trial.cta": "View Membership Plans",
+  "comingSoon.blog.heading": "Articles are on the way.",
+  "comingSoon.blog.body": "Practical financial education articles on real estate, business, investing, and economic self-defense — coming soon.",
+  "comingSoon.blog.cta": "Explore the Curriculum",
+  "comingSoon.sponsor.heading": "Sponsorship program details are coming soon.",
+  "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
+  "comingSoon.successStories.heading": "Success stories are on the way.",
+  "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
+  "comingSoon.successStories.cta": "Become a Member"
 }
