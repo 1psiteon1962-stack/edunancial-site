@@ -1,10 +1,146 @@
 {
   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
   "summary": {
-    "totalLessons": 0,
-    "totalTracks": 0,
-    "totalLevels": 0,
-    "byTrack": {}
+    "totalLessons": 10,
+    "totalTracks": 1,
+    "totalLevels": 1,
+    "byTrack": {
+      "RED": {
+        "name": "Real Estate",
+        "totalLessons": 10
+      }
+    }
   },
-  "assets": []
+  "assets": [
+    {
+      "id": "RED-L1-001",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Understanding Real Estate as an Asset Class",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "checksum": "sha256:eb48258c0a317bb029247198c0b5b583b739d9e8873670cf2e0e790e024187d5",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-002",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Types of Real Estate — Residential, Commercial, and Land",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-002.md",
+      "checksum": "sha256:a1c3c1af0d0ecd5d0e9830a644059083420bc88ae1a12fb8d1eeb7519a3d9e3d",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-003",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "How Real Estate Generates Income",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-003.md",
+      "checksum": "sha256:8d300d3ac794b4971b75314ded0e72d3ed3861884830879d5acdd8f08a9f3001",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-004",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "The Real Estate Market Cycle",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-004.md",
+      "checksum": "sha256:7d58553f9a48492a680b0be8a42b24786629ca422415d1f641c1d8613225cf8c",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-005",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Key Real Estate Financial Metrics",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-005.md",
+      "checksum": "sha256:ca5e888aec63b7c9ca731a7098ef143ddcedb131af61df26b926bf63f7870565",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-006",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Understanding Property Values and Appraisals",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-006.md",
+      "checksum": "sha256:7ab8ae2c60bc9fd26944b440fbe32d5a17473352e52cd3586f13cbf7ba73be7b",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-007",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Financing Real Estate — Mortgages, Loans, and Leverage",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-007.md",
+      "checksum": "sha256:c5b77be8c4f7d45f463f4332dbb0bee5322479f5667fac728fcbb7d7b996a03b",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-008",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Cash Flow Analysis for Rental Properties",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-008.md",
+      "checksum": "sha256:fbe8515baa20347f7853574ebc4982f2f5e21b49a34283d41f91f8a3ab05b4ba",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-009",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Real Estate Risk and Due Diligence",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-009.md",
+      "checksum": "sha256:07738f0db71f06dd6bc73b612439c8af3d8179c61cc2546156a755e79d505adc",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    },
+    {
+      "id": "RED-L1-010",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Building Your Real Estate Investment Strategy",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-010.md",
+      "checksum": "sha256:cc5e3c6524b1d2ce7311edaf2985372683b771690d95bc5af70eaef33a8ce040",
+      "importedAt": "2026-07-30T17:57:32.246Z"
+    }
+  ]
 }
