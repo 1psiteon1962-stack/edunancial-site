@@ -87,12 +87,23 @@ export interface LessonMeta {
   membership: string;
 }
 
+export interface LessonVideo {
+  id: string;
+  title: string;
+  youtubeUrl: string;
+  description?: string;
+  thumbnail?: string;
+  length?: string;
+}
+
 export interface LessonContent {
   meta: LessonMeta;
   /** Raw markdown content with front-matter stripped */
   body: string;
-  /** Front-matter as a key-value map */
+  /** Front-matter as a key-value map (string values only) */
   frontMatter: Record<string, string>;
+  /** Parsed videos array from front-matter (if present) */
+  videos: LessonVideo[];
 }
 
 const PLACEHOLDER_LESSON_ID_PATTERN = /^([A-Z]+)-L(\d+)-(\d{3})$/;
@@ -368,12 +379,13 @@ export function getLessonContent(lessonId: string): LessonContent | null {
   if (!existsSync(absPath)) return null;
 
   const raw = readFileSync(absPath, "utf-8");
-  const { frontMatter, body } = parseFrontMatter(raw);
+  const { frontMatter, body, videos } = parseFrontMatter(raw);
 
   return {
     meta: assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }),
     body,
     frontMatter,
+    videos,
   };
 }
 
@@ -570,18 +582,35 @@ function assetToLessonMeta(
 function parseFrontMatter(content: string): {
   frontMatter: Record<string, string>;
   body: string;
+  videos: LessonVideo[];
 } {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
   if (!match) {
-    return { frontMatter: {}, body: content };
+    return { frontMatter: {}, body: content, videos: [] };
   }
+
   const fm: Record<string, string> = {};
-  for (const line of match[1].split(/\r?\n/)) {
+  let videos: LessonVideo[] = [];
+
+  // Detect multi-line JSON block: videos: [...]
+  const fmBlock = match[1];
+  const videosJsonMatch = fmBlock.match(/^videos:\s*(\[[\s\S]*?\])$/m);
+  if (videosJsonMatch) {
+    try {
+      videos = JSON.parse(videosJsonMatch[1]) as LessonVideo[];
+    } catch {
+      // ignore parse errors
+    }
+  }
+
+  for (const line of fmBlock.split(/\r?\n/)) {
+    // Skip the videos key — it may be inline JSON and would confuse the simple parser
+    if (/^videos\s*:/.test(line.trim())) continue;
     const colonIdx = line.indexOf(":");
     if (colonIdx < 0) continue;
     const key = line.slice(0, colonIdx).trim();
     const value = line.slice(colonIdx + 1).trim();
     if (key) fm[key] = value;
   }
-  return { frontMatter: fm, body: match[2] };
+  return { frontMatter: fm, body: match[2], videos };
 }
