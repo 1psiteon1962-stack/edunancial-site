@@ -15,6 +15,7 @@ import { join } from "node:path";
 import {
   getLocalizedLessonTitle,
   getLocalizedTrackCopy,
+  isEnglishLocale,
   resolveCurriculumLocale,
   type CurriculumLocale,
 } from "./localization";
@@ -376,7 +377,9 @@ export function getPlaceholderLessonMeta(
     summary:
       locale === "es"
         ? "Esta lección pertenece a una ruta activa del currículo y se publicará próximamente."
-        : "This lesson belongs to an active curriculum track and will be published soon.",
+        : !isEnglishLocale(locale)
+          ? ""
+          : "This lesson belongs to an active curriculum track and will be published soon.",
     author: "Edunancial Faculty",
     date: "",
     version: "",
@@ -416,15 +419,25 @@ export function getLessonContent(
   if (!existsSync(absPath)) return null;
 
   const localizedPath =
-    locale === "es" && absPath.endsWith(".md")
-      ? absPath.replace(/\.md$/u, ".es.md")
+    !isEnglishLocale(locale) && absPath.endsWith(".md")
+      ? absPath.replace(/\.md$/u, `.${locale}.md`)
       : absPath;
   const selectedPath = existsSync(localizedPath) ? localizedPath : absPath;
+  const usingLocalizedFile = selectedPath !== absPath;
   const raw = readFileSync(selectedPath, "utf-8");
   const { frontMatter, body, videos } = parseFrontMatter(raw);
   const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
-  const title = frontMatter.title ?? getLocalizedLessonTitle(asset.id, locale, asset.title);
-  const summary = frontMatter.summary ?? (locale === "en" ? asset.metadata?.summary ?? "" : "");
+  // When a localized file was found, its own frontMatter title takes priority.
+  // When falling back to the English source file, consult LESSON_TITLE_COPY first
+  // so the UI shows the correct translated title instead of the English one.
+  const title = usingLocalizedFile
+    ? (frontMatter.title ?? getLocalizedLessonTitle(asset.id, locale, asset.title))
+    : getLocalizedLessonTitle(asset.id, locale, frontMatter.title ?? asset.title);
+  // For the English source file, only surface the summary when the locale is English.
+  // When a localized file was found, use its own frontMatter summary if present.
+  const summary = usingLocalizedFile
+    ? (frontMatter.summary ?? "")
+    : (isEnglishLocale(locale) ? (frontMatter.summary ?? asset.metadata?.summary ?? "") : "");
 
   return {
     meta: {
@@ -621,7 +634,7 @@ function assetToLessonMeta(
     level: asset.level,
     lessonNumber: asset.lessonNumber,
     title: getLocalizedLessonTitle(asset.id, locale, asset.title),
-    summary: locale === "en" ? asset.metadata?.summary ?? "" : "",
+    summary: isEnglishLocale(locale) ? asset.metadata?.summary ?? "" : "",
     author: asset.author,
     date: asset.date,
     version: asset.version,
