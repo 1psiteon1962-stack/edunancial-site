@@ -1,17 +1,16 @@
 // src/components/LocalizedDoctrine.tsx
 
-import type { Language } from "@/lib/i18n";
-import { t } from "@/lib/i18n";
+"use client";
 
-type Props = {
-  lang: Language;
-};
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-export default function LocalizedDoctrine({ lang }: Props) {
+export default function LocalizedDoctrine() {
+  const { t } = useInternationalPreferences();
+
   return (
     <section>
-      <h2>{t(lang, "doctrine_title")}</h2>
-      <p>{t(lang, "doctrine_body")}</p>
+      <h2>{t("doctrine_title")}</h2>
+      <p>{t("doctrine_body")}</p>
     </section>
   );
 }

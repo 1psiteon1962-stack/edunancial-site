@@ -429,5 +429,19 @@
   "selector.resetToAuto": "使用自動語言偵測",
   "selector.preferenceMode.auto": "自動偵測",
   "selector.preferenceMode.session": "僅本次工作階段",
-  "selector.preferenceMode.saved": "預設語言"
+  "selector.preferenceMode.saved": "預設語言",
+  "doctrine_title": "Doctrine",
+  "doctrine_body": "Foundational principles and structure.",
+  "curriculum.global.title": "Global Curriculum",
+  "curriculum.global.description": "A globally applicable curriculum focused on structure, discipline, and systems.",
+  "apac.heading": "建立金融能力",
+  "apac.subtitle": "為亞太創業者和家庭提供系統化教育。",
+  "apac.pricing": "定價方案",
+  "apac.becomeMember": "成為會員",
+  "apac.startAssessment": "開始評估",
+  "apac.primaryMarket": "主要市場",
+  "apac.currency": "貨幣",
+  "apac.timezone": "時區",
+  "apac.taxModel": "稅務模型",
+  "apac.perMonth": "/月"
 }

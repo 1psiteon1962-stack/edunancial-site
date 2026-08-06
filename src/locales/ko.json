@@ -429,5 +429,19 @@
   "selector.resetToAuto": "자동 언어 감지 사용",
   "selector.preferenceMode.auto": "자동 감지",
   "selector.preferenceMode.session": "이 세션만",
-  "selector.preferenceMode.saved": "기본 언어"
+  "selector.preferenceMode.saved": "기본 언어",
+  "doctrine_title": "교리",
+  "doctrine_body": "기본 원칙과 구조.",
+  "curriculum.global.title": "글로벌 커리큘럼",
+  "curriculum.global.description": "구조, 규율, 시스템에 초점을 맞춘 글로벌 커리큘럼.",
+  "apac.heading": "금융 역량을 키우세요",
+  "apac.subtitle": "아시아태평양 창업가와 가정을 위한 체계적인 교육.",
+  "apac.pricing": "요금제",
+  "apac.becomeMember": "회원 가입",
+  "apac.startAssessment": "평가 시작",
+  "apac.primaryMarket": "주요 시장",
+  "apac.currency": "통화",
+  "apac.timezone": "시간대",
+  "apac.taxModel": "세금 모델",
+  "apac.perMonth": "/월"
 }

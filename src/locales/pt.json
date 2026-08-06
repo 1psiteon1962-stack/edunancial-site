@@ -429,5 +429,19 @@
   "selector.resetToAuto": "Usar detecção automática de idioma",
   "selector.preferenceMode.auto": "Detecção automática",
   "selector.preferenceMode.session": "Somente esta sessão",
-  "selector.preferenceMode.saved": "Idioma padrão"
+  "selector.preferenceMode.saved": "Idioma padrão",
+  "doctrine_title": "Doutrina",
+  "doctrine_body": "Princípios e estrutura fundamentais.",
+  "curriculum.global.title": "Currículo Global",
+  "curriculum.global.description": "Um currículo global focado em estrutura, disciplina e sistemas.",
+  "apac.heading": "Build Financial Competency",
+  "apac.subtitle": "Structured education for Asia-Pacific founders and families.",
+  "apac.pricing": "Pricing Plans",
+  "apac.becomeMember": "Become a Member",
+  "apac.startAssessment": "Start Assessment",
+  "apac.primaryMarket": "Primary Market",
+  "apac.currency": "Currency",
+  "apac.timezone": "Timezone",
+  "apac.taxModel": "Tax Model",
+  "apac.perMonth": "/mo"
 }

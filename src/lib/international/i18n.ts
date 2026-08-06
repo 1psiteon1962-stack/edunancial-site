@@ -15,6 +15,13 @@ import nlMessages from "../../locales/nl.json";
 import hiMessages from "../../locales/hi.json";
 import zhHantMessages from "../../locales/zh-Hant.json";
 import htMessages from "../../locales/ht.json";
+import ruMessages from "../../locales/ru.json";
+import plMessages from "../../locales/pl.json";
+import zuMessages from "../../locales/zu.json";
+import elMessages from "../../locales/el.json";
+import srMessages from "../../locales/sr.json";
+import soMessages from "../../locales/so.json";
+import smMessages from "../../locales/sm.json";
 import { DEFAULT_LANGUAGE_CODE, normalizeLanguageCode } from "./languages";
 
 type MessageCatalog = Record<string, string>;
@@ -38,6 +45,13 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   hi: hiMessages,
   "zh-Hant": zhHantMessages,
   ht: htMessages,
+  ru: ruMessages,
+  pl: plMessages,
+  zu: zuMessages,
+  el: elMessages,
+  sr: srMessages,
+  so: soMessages,
+  sm: smMessages,
 };
 
 export function translate(
