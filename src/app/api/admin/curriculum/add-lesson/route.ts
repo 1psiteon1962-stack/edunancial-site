@@ -5,6 +5,7 @@ import { join } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { getLocalizedTrackCopy } from "@/lib/curriculum/localization";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
@@ -43,12 +44,7 @@ function readRegistry(): RegistryShape {
 }
 
 function trackNameFromCode(code: string): string {
-  const names: Record<string, string> = {
-    RED: "Real Estate",
-    WHITE: "Paper Assets",
-    BLUE: "Business",
-  };
-  return names[code] ?? code;
+  return getLocalizedTrackCopy(code, "en")?.name ?? code;
 }
 
 export async function POST(request: Request) {
