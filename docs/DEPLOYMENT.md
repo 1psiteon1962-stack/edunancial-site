@@ -12,7 +12,7 @@ The repository is currently configured for **Netlify + Next.js plugin** deployme
 `netlify.toml` currently sets:
 - Build command: `npm run build`
 - Publish directory: `.next`
-- Node version: `18`
+- Node version: `22`
 - Plugin: `@netlify/plugin-nextjs`
 
 ## Required checks before deploy

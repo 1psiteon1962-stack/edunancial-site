@@ -1,4 +1,3 @@
-<script>
 /*
   Site Identity Configuration
   CHANGE THESE VALUES PER MIRROR SITE
@@ -10,4 +9,3 @@ window.EDUNANCIAL_SITE = {
   role: "primary",                 // primary | mirror
   canonical: "https://edunancial.com"
 };
-</script>

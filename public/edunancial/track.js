@@ -5,6 +5,7 @@
       return;
     }
 
+    const endpoint = "/.netlify/functions/collect";
     const payload = {
       site: window.EDUNANCIAL_SITE.site_id,
       region: window.EDUNANCIAL_SITE.region,
@@ -15,11 +16,23 @@
       userAgent: navigator.userAgent,
       timestamp: new Date().toISOString()
     };
+    const body = JSON.stringify(payload);
 
-    navigator.sendBeacon(
-      "/.netlify/functions/collect",
-      JSON.stringify(payload)
-    );
+    if (typeof navigator.sendBeacon === "function") {
+      const queued = navigator.sendBeacon(endpoint, body);
+      if (queued) {
+        return;
+      }
+    }
+
+    if (typeof fetch === "function") {
+      fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body,
+        keepalive: true
+      }).catch(() => {});
+    }
   } catch (e) {
     console.error("EDUNANCIAL TRACK ERROR", e);
   }
