@@ -1,9 +1,18 @@
 import { normalizeLanguageCode } from "@/lib/international/languages";
 
 export type CurriculumLocale = "en" | "es";
-export type LaunchTrackCode = "RED" | "WHITE" | "BLUE";
+export type LaunchTrackCode = "RED" | "WHITE" | "BLUE" | "GREEN" | "GOLD" | "PURPLE" | "ORANGE" | "BLACK";
 
-export const PUBLIC_CURRICULUM_TRACK_CODES = ["RED", "WHITE", "BLUE"] as const satisfies readonly LaunchTrackCode[];
+export const PUBLIC_CURRICULUM_TRACK_CODES = [
+  "RED",
+  "WHITE",
+  "BLUE",
+  "GREEN",
+  "GOLD",
+  "PURPLE",
+  "ORANGE",
+  "BLACK",
+] as const satisfies readonly LaunchTrackCode[];
 
 export function isPublicCurriculumTrack(trackCode: string): trackCode is LaunchTrackCode {
   return PUBLIC_CURRICULUM_TRACK_CODES.includes(trackCode.toUpperCase() as LaunchTrackCode);
@@ -57,6 +66,66 @@ const TRACK_COPY: Record<LaunchTrackCode, TrackCopy> = {
     subtitle: {
       en: "Business competency: starting, growing, and managing a business.",
       es: "Competencia empresarial: iniciar, hacer crecer y administrar un negocio.",
+    },
+  },
+  GREEN: {
+    name: { en: "Taxes", es: "Impuestos" },
+    description: {
+      en: "Understand how taxation works, how to minimize your tax burden legally, and how to use the tax code as a financial tool.",
+      es: "Comprende cómo funcionan los impuestos, cómo reducir legalmente tu carga fiscal y cómo usar el código tributario como herramienta financiera.",
+    },
+    category: { en: "Taxes", es: "Impuestos" },
+    subtitle: {
+      en: "Tax strategy: legal minimization, deductions, entities, and tax-advantaged wealth building.",
+      es: "Estrategia fiscal: minimización legal, deducciones, entidades y creación de patrimonio con ventajas fiscales.",
+    },
+  },
+  GOLD: {
+    name: { en: "Investing & Wealth Building", es: "Inversión y creación de patrimonio" },
+    description: {
+      en: "Master investment principles, portfolio construction, asset allocation, and long-term wealth building strategies across all asset classes.",
+      es: "Domina los principios de inversión, la construcción de carteras, la asignación de activos y las estrategias de creación de patrimonio a largo plazo en todas las clases de activos.",
+    },
+    category: { en: "Investing & Wealth Building", es: "Inversión y creación de patrimonio" },
+    subtitle: {
+      en: "Wealth building: investment fundamentals, portfolio strategy, and financial independence.",
+      es: "Creación de patrimonio: fundamentos de inversión, estrategia de cartera e independencia financiera.",
+    },
+  },
+  PURPLE: {
+    name: { en: "Law", es: "Derecho" },
+    description: {
+      en: "Learn how legal structures, contracts, entities, and asset protection strategies work — and how to use them to protect and grow your wealth.",
+      es: "Aprende cómo funcionan las estructuras legales, contratos, entidades y estrategias de protección de activos, y cómo usarlos para proteger y hacer crecer tu patrimonio.",
+    },
+    category: { en: "Law", es: "Derecho" },
+    subtitle: {
+      en: "Legal foundations: contracts, entities, asset protection, and financial law.",
+      es: "Fundamentos legales: contratos, entidades, protección de activos y derecho financiero.",
+    },
+  },
+  ORANGE: {
+    name: { en: "Sales & Marketing", es: "Ventas y marketing" },
+    description: {
+      en: "Develop competency in sales, marketing, customer acquisition, and persuasion — the skills that drive revenue in any business or career.",
+      es: "Desarrolla competencia en ventas, marketing, adquisición de clientes y persuasión: las habilidades que impulsan los ingresos en cualquier negocio o carrera.",
+    },
+    category: { en: "Sales & Marketing", es: "Ventas y marketing" },
+    subtitle: {
+      en: "Sales and marketing competency: persuasion, customer acquisition, and revenue growth.",
+      es: "Competencia en ventas y marketing: persuasión, adquisición de clientes y crecimiento de ingresos.",
+    },
+  },
+  BLACK: {
+    name: { en: "Leadership & Executive Management", es: "Liderazgo y gestión ejecutiva" },
+    description: {
+      en: "Build leadership competency — executive decision-making, team building, organizational management, and the financial acumen required at the highest levels.",
+      es: "Desarrolla competencia en liderazgo: toma de decisiones ejecutivas, formación de equipos, gestión organizacional y el criterio financiero requerido en los niveles más altos.",
+    },
+    category: { en: "Leadership & Executive Management", es: "Liderazgo y gestión ejecutiva" },
+    subtitle: {
+      en: "Leadership and executive management: decision-making, teams, and organizational financial acumen.",
+      es: "Liderazgo y gestión ejecutiva: toma de decisiones, equipos y criterio financiero organizacional.",
     },
   },
 };
