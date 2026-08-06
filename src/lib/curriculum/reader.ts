@@ -13,6 +13,12 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import {
+  getLocalizedLessonTitle,
+  getLocalizedTrackCopy,
+  resolveCurriculumLocale,
+  type CurriculumLocale,
+} from "./localization";
+import {
   ACADEMIES,
   ACADEMY_MAP,
   academyLevels,
@@ -167,6 +173,7 @@ function buildLevelSummaries(
   track: RegistryTrack | undefined,
   code: string,
   viewer: MembershipTier | "admin" = "free",
+  locale: CurriculumLocale = "en",
 ): LevelSummary[] {
   const academyDef = ACADEMY_MAP.get(code);
   const canonicalLevels = academyDef ? academyLevels(academyDef) : undefined;
@@ -199,7 +206,7 @@ function buildLevelSummaries(
             return isLessonVisible(lessonTier, viewer);
           })
           .sort((a, b) => a.lessonNumber - b.lessonNumber)
-          .map(assetToLessonMeta)
+          .map((asset) => assetToLessonMeta(asset, locale))
       : [];
     return {
       level: levelNum,
@@ -222,11 +229,12 @@ export function listTracks(viewer: MembershipTier | "admin" = "free"): TrackSumm
   const registry = readRegistry();
   return Object.values(registry.tracks).map((track) => {
     const academyDef = ACADEMY_MAP.get(track.code);
+    const localizedTrack = getLocalizedTrackCopy(track.code, "en");
     return {
       code: track.code,
-      name: track.name,
-      description: academyDef?.description ?? "",
-      levels: buildLevelSummaries(track, track.code, viewer),
+      name: localizedTrack?.name ?? track.name,
+      description: localizedTrack?.description ?? academyDef?.description ?? "",
+      levels: buildLevelSummaries(track, track.code, viewer, "en"),
     };
   });
 }
@@ -240,15 +248,20 @@ export function listTracks(viewer: MembershipTier | "admin" = "free"): TrackSumm
  *
  * @param viewer  - Membership tier or "admin" for visibility filtering.  Defaults to "free".
  */
-export function listAcademies(viewer: MembershipTier | "admin" = "free"): TrackSummary[] {
+export function listAcademies(
+  viewer: MembershipTier | "admin" = "free",
+  languageOrLocale: string | CurriculumLocale = "en",
+): TrackSummary[] {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const registry = readRegistry();
   return ACADEMIES.map((academyDef) => {
     const registryTrack = registry.tracks[academyDef.code];
+    const localizedTrack = getLocalizedTrackCopy(academyDef.code, locale);
     return {
       code: academyDef.code,
-      name: academyDef.name,
-      description: academyDef.description,
-      levels: buildLevelSummaries(registryTrack, academyDef.code, viewer),
+      name: localizedTrack?.name ?? academyDef.name,
+      description: localizedTrack?.description ?? academyDef.description,
+      levels: buildLevelSummaries(registryTrack, academyDef.code, viewer, locale),
     };
   });
 }
@@ -256,7 +269,9 @@ export function listAcademies(viewer: MembershipTier | "admin" = "free"): TrackS
 export function getTrack(
   trackCode: string,
   viewer: MembershipTier | "admin" = "free",
+  languageOrLocale: string | CurriculumLocale = "en",
 ): TrackSummary | null {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const registry = readRegistry();
   const upper = trackCode.toUpperCase();
   const registryTrack = registry.tracks[upper];
@@ -265,14 +280,15 @@ export function getTrack(
   // For primary academies always return a summary even without registry data.
   if (!registryTrack && !academyDef) return null;
 
-  const name = registryTrack?.name ?? academyDef!.name;
-  const description = academyDef?.description ?? "";
+  const localizedTrack = getLocalizedTrackCopy(upper, locale);
+  const name = localizedTrack?.name ?? registryTrack?.name ?? academyDef!.name;
+  const description = localizedTrack?.description ?? academyDef?.description ?? "";
 
   return {
     code: upper,
     name,
     description,
-    levels: buildLevelSummaries(registryTrack, upper, viewer),
+    levels: buildLevelSummaries(registryTrack, upper, viewer, locale),
   };
 }
 
@@ -280,7 +296,9 @@ export function getLessonsForLevel(
   trackCode: string,
   level: number,
   viewer: MembershipTier | "admin" = "free",
+  languageOrLocale: string | CurriculumLocale = "en",
 ): LessonMeta[] {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const registry = readRegistry();
   const track = registry.tracks[trackCode.toUpperCase()];
   if (!track) return [];
@@ -295,16 +313,20 @@ export function getLessonsForLevel(
       return isLessonVisible(lessonTier, viewer);
     })
     .sort((a, b) => a.lessonNumber - b.lessonNumber)
-    .map(assetToLessonMeta);
+    .map((asset) => assetToLessonMeta(asset, locale));
 }
 
-export function getLessonMeta(lessonId: string): LessonMeta | null {
+export function getLessonMeta(
+  lessonId: string,
+  languageOrLocale: string | CurriculumLocale = "en",
+): LessonMeta | null {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const registry = readRegistry();
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       const asset = level.assets[lessonId];
       if (asset && asset.type === "lesson" && typeof asset.lessonNumber === "number") {
-        return assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number });
+        return assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }, locale);
       }
     }
   }
@@ -315,7 +337,9 @@ export function getPlaceholderLessonMeta(
   trackCode: string,
   lessonId: string,
   expectedLevel?: number,
+  languageOrLocale: string | CurriculumLocale = "en",
 ): LessonMeta | null {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const upperTrackCode = trackCode.toUpperCase();
   const academyDef = ACADEMY_MAP.get(upperTrackCode);
   if (!academyDef) return null;
@@ -336,14 +360,23 @@ export function getPlaceholderLessonMeta(
     return null;
   }
 
+  const localizedTrack = getLocalizedTrackCopy(upperTrackCode, locale);
+  const trackName = localizedTrack?.name ?? academyDef.name;
+
   return {
     id: lessonId.toUpperCase(),
     track: upperTrackCode,
-    trackName: academyDef.name,
+    trackName,
     level,
     lessonNumber,
-    title: `${academyDef.name} Lesson ${lessonNumber}`,
-    summary: "This lesson belongs to an active curriculum track and will be published soon.",
+    title:
+      locale === "es"
+        ? `Lección ${lessonNumber} de ${trackName}`
+        : `${trackName} Lesson ${lessonNumber}`,
+    summary:
+      locale === "es"
+        ? "Esta lección pertenece a una ruta activa del currículo y se publicará próximamente."
+        : "This lesson belongs to an active curriculum track and will be published soon.",
     author: "Edunancial Faculty",
     date: "",
     version: "",
@@ -357,7 +390,11 @@ export function getPlaceholderLessonMeta(
 // Lesson content
 // ---------------------------------------------------------------------------
 
-export function getLessonContent(lessonId: string): LessonContent | null {
+export function getLessonContent(
+  lessonId: string,
+  languageOrLocale: string | CurriculumLocale = "en",
+): LessonContent | null {
+  const locale = resolveCurriculumLocale(languageOrLocale);
   const registry = readRegistry();
   let asset: RegistryAsset | null = null;
 
@@ -378,11 +415,24 @@ export function getLessonContent(lessonId: string): LessonContent | null {
   const absPath = join(REPO_ROOT, asset.path);
   if (!existsSync(absPath)) return null;
 
-  const raw = readFileSync(absPath, "utf-8");
+  const localizedPath =
+    locale === "es" && absPath.endsWith(".md")
+      ? absPath.replace(/\.md$/u, ".es.md")
+      : absPath;
+  const selectedPath = existsSync(localizedPath) ? localizedPath : absPath;
+  const raw = readFileSync(selectedPath, "utf-8");
   const { frontMatter, body, videos } = parseFrontMatter(raw);
+  const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
+  const title = frontMatter.title ?? getLocalizedLessonTitle(asset.id, locale, asset.title);
+  const summary = frontMatter.summary ?? (locale === "en" ? asset.metadata?.summary ?? "" : "");
 
   return {
-    meta: assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }),
+    meta: {
+      ...assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }, locale),
+      title,
+      summary,
+      trackName: localizedTrack?.name ?? asset.trackName,
+    },
     body,
     frontMatter,
     videos,
@@ -560,16 +610,18 @@ export function getCurriculumSearchIndex(): LessonSearchEntry[] {
 // ---------------------------------------------------------------------------
 
 function assetToLessonMeta(
-  asset: RegistryAsset & { lessonNumber: number }
+  asset: RegistryAsset & { lessonNumber: number },
+  locale: CurriculumLocale = "en",
 ): LessonMeta {
+  const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
   return {
     id: asset.id,
     track: asset.track,
-    trackName: asset.trackName,
+    trackName: localizedTrack?.name ?? asset.trackName,
     level: asset.level,
     lessonNumber: asset.lessonNumber,
-    title: asset.title,
-    summary: asset.metadata?.summary ?? "",
+    title: getLocalizedLessonTitle(asset.id, locale, asset.title),
+    summary: locale === "en" ? asset.metadata?.summary ?? "" : "",
     author: asset.author,
     date: asset.date,
     version: asset.version,

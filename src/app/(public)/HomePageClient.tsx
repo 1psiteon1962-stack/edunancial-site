@@ -81,7 +81,7 @@ export default function HomePageClient() {
       <section aria-labelledby="homepage-hero-heading" className="border-b border-white/10 bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]">
         <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">Edunancial</p>
+            <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">{t("branding.identity")}</p>
             <h1 id="homepage-hero-heading" className="mt-6 text-4xl font-black leading-tight sm:text-5xl md:text-7xl">
               {t("home.hero.title")}
             </h1>
@@ -116,14 +116,14 @@ export default function HomePageClient() {
       <MemberSuccessStories stories={[]} />
 
       <section aria-labelledby="homepage-curriculum-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20">
-        <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">Available Now</p>
+        <p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">{t("curriculumPage.availableNow")}</p>
         <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 id="homepage-curriculum-heading" className="text-3xl font-black sm:text-4xl md:text-5xl">
               {t("nav.curriculum")}
             </h2>
             <p className="mt-3 max-w-3xl text-slate-300">
-              RED, WHITE, and BLUE are all active curriculum tracks. Lessons publish independently inside each track.
+              {t("home.curriculum.body")}
             </p>
           </div>
           <Link href="/curriculum" className="font-bold text-blue-300 hover:text-blue-200">

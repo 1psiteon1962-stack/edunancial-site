@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { useAuth, validatePassword } from "@/lib/authContext";
 
 const COUNTRIES = [
@@ -21,6 +22,7 @@ const COUNTRIES = [
 
 export default function RegisterForm() {
   const { register } = useAuth();
+  const { t } = useInternationalPreferences();
   const router = useRouter();
 
   const [form, setForm] = useState({
@@ -37,6 +39,28 @@ export default function RegisterForm() {
 
   const passwordErrors = validatePassword(form.password);
   const passwordStrong = form.password.length > 0 && passwordErrors.length === 0;
+  const passwordRules = [
+    {
+      id: `At least 12 characters`,
+      label: t("register.passwordRule.length"),
+    },
+    {
+      id: "At least one uppercase letter",
+      label: t("register.passwordRule.uppercase"),
+    },
+    {
+      id: "At least one lowercase letter",
+      label: t("register.passwordRule.lowercase"),
+    },
+    {
+      id: "At least one number",
+      label: t("register.passwordRule.number"),
+    },
+    {
+      id: "At least one special character (!@#$%^&*)",
+      label: t("register.passwordRule.special"),
+    },
+  ];
 
   function set(field: string, value: string | boolean) {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -46,19 +70,19 @@ export default function RegisterForm() {
     e.preventDefault();
     setError("");
     if (!form.firstName || !form.lastName || !form.email || !form.password || !form.country) {
-      setError("Please complete all required fields.");
+      setError(t("register.error.required"));
       return;
     }
     if (passwordErrors.length > 0) {
-      setError("Password does not meet security requirements.");
+      setError(t("register.error.passwordRequirements"));
       return;
     }
     if (form.password !== form.confirmPassword) {
-      setError("Passwords do not match.");
+      setError(t("register.error.passwordMismatch"));
       return;
     }
     if (!form.agree) {
-      setError("You must agree to the Terms of Use and Privacy Policy.");
+      setError(t("register.error.agree"));
       return;
     }
     setLoading(true);
@@ -73,7 +97,7 @@ export default function RegisterForm() {
     if (result.success) {
       router.push("/verify-email");
     } else {
-      setError(result.error ?? "Registration failed.");
+      setError(result.error ?? t("register.error.failed"));
     }
   }
 
@@ -82,15 +106,14 @@ export default function RegisterForm() {
       <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
-            Membership Registration
+            {t("register.label")}
           </p>
-          <h1 className="mt-4 text-4xl font-bold">Create Your Account</h1>
+          <h1 className="mt-4 text-4xl font-bold">{t("register.title")}</h1>
           <p className="mt-3 text-slate-400">
-            Begin building your Financial Competency today.
+            {t("register.subtitle")}
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            If you were invited as a Beta Tester, register with the approved email address first,
-            then enter your pass number on first login to start the 72-hour beta window.
+            {t("register.betaNote")}
           </p>
         </div>
 
@@ -104,7 +127,7 @@ export default function RegisterForm() {
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor="reg-first" className="mb-2 block text-sm font-semibold">
-                First Name <span className="text-red-400">*</span>
+                {t("register.firstNameLabel")} <span className="text-red-400">*</span>
               </label>
               <input
                 id="reg-first"
@@ -113,13 +136,13 @@ export default function RegisterForm() {
                 value={form.firstName}
                 onChange={(e) => set("firstName", e.target.value)}
                 className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-                placeholder="First name"
+                placeholder={t("register.firstNamePlaceholder")}
                 required
               />
             </div>
             <div>
               <label htmlFor="reg-last" className="mb-2 block text-sm font-semibold">
-                Last Name <span className="text-red-400">*</span>
+                {t("register.lastNameLabel")} <span className="text-red-400">*</span>
               </label>
               <input
                 id="reg-last"
@@ -128,7 +151,7 @@ export default function RegisterForm() {
                 value={form.lastName}
                 onChange={(e) => set("lastName", e.target.value)}
                 className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-                placeholder="Last name"
+                placeholder={t("register.lastNamePlaceholder")}
                 required
               />
             </div>
@@ -136,7 +159,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-email" className="mb-2 block text-sm font-semibold">
-              Email Address <span className="text-red-400">*</span>
+              {t("register.emailLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-email"
@@ -145,14 +168,14 @@ export default function RegisterForm() {
               value={form.email}
               onChange={(e) => set("email", e.target.value)}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-              placeholder="you@example.com"
+              placeholder={t("register.emailPlaceholder")}
               required
             />
           </div>
 
           <div>
             <label htmlFor="reg-country" className="mb-2 block text-sm font-semibold">
-              Country <span className="text-red-400">*</span>
+              {t("register.countryLabel")} <span className="text-red-400">*</span>
             </label>
             <select
               id="reg-country"
@@ -161,7 +184,7 @@ export default function RegisterForm() {
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white focus:border-blue-500 focus:outline-none"
               required
             >
-              <option value="">Select your country</option>
+              <option value="">{t("register.countryPlaceholder")}</option>
               {COUNTRIES.map((c) => (
                 <option key={c} value={c}>{c}</option>
               ))}
@@ -170,7 +193,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-password" className="mb-2 block text-sm font-semibold">
-              Password <span className="text-red-400">*</span>
+              {t("register.passwordLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-password"
@@ -185,22 +208,16 @@ export default function RegisterForm() {
                   ? "border-green-600"
                   : "border-yellow-600"
               } focus:border-blue-500`}
-              placeholder="Create a strong password"
+              placeholder={t("register.passwordPlaceholder")}
               required
             />
             {form.password.length > 0 && (
               <ul className="mt-2 space-y-1 text-xs">
-                {[
-                  "At least 12 characters",
-                  "At least one uppercase letter",
-                  "At least one lowercase letter",
-                  "At least one number",
-                  "At least one special character (!@#$%^&*)",
-                ].map((req) => {
-                  const met = !passwordErrors.includes(req);
+                {passwordRules.map((rule) => {
+                  const met = !passwordErrors.includes(rule.id);
                   return (
-                    <li key={req} className={met ? "text-green-400" : "text-slate-400"}>
-                      {met ? "✓" : "○"} {req}
+                    <li key={rule.id} className={met ? "text-green-400" : "text-slate-400"}>
+                      {met ? "✓" : "○"} {rule.label}
                     </li>
                   );
                 })}
@@ -210,7 +227,7 @@ export default function RegisterForm() {
 
           <div>
             <label htmlFor="reg-confirm" className="mb-2 block text-sm font-semibold">
-              Confirm Password <span className="text-red-400">*</span>
+              {t("register.confirmPasswordLabel")} <span className="text-red-400">*</span>
             </label>
             <input
               id="reg-confirm"
@@ -225,7 +242,7 @@ export default function RegisterForm() {
                   ? "border-green-600"
                   : "border-red-600"
               } focus:border-blue-500`}
-              placeholder="Repeat your password"
+              placeholder={t("register.confirmPasswordPlaceholder")}
               required
             />
           </div>
@@ -238,13 +255,13 @@ export default function RegisterForm() {
               className="mt-0.5 shrink-0"
             />
             <span>
-              I agree to the{" "}
+              {t("register.agreePrefix")}{" "}
               <Link href="/terms" className="text-blue-400 underline">
-                Terms of Use
+                {t("register.termsLabel")}
               </Link>{" "}
-              and{" "}
+              {t("register.agreeAnd")}{" "}
               <Link href="/privacy" className="text-blue-400 underline">
-                Privacy Policy
+                {t("register.privacyLabel")}
               </Link>
               .
             </span>
@@ -255,13 +272,13 @@ export default function RegisterForm() {
             disabled={loading}
             className="w-full rounded-xl bg-blue-600 py-3 text-base font-bold text-white transition hover:bg-blue-700 disabled:opacity-60"
           >
-            {loading ? "Creating account…" : "Create Account"}
+            {loading ? t("register.creating") : t("register.createAccount")}
           </button>
         </form>
 
         <div className="mt-6 text-center text-sm">
           <Link href="/login" className="text-blue-400 hover:underline">
-            Already have an account? Sign in
+            {t("register.loginLink")}
           </Link>
         </div>
       </div>

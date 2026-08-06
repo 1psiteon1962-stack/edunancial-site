@@ -21,6 +21,12 @@ import {
   type AdaptiveLessonRecord,
   type AdaptiveTrackCode,
 } from "@/lib/adaptive-learning";
+import {
+  getLocalizedLessonTitle,
+  getLocalizedTrackCopy,
+  resolveCurriculumLocale,
+  type CurriculumLocale,
+} from "@/lib/curriculum/localization";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -143,29 +149,36 @@ for (const record of _registryCatalog) {
 function _buildCourse(
   trackCode: AdaptiveTrackCode,
   records: AdaptiveLessonRecord[],
+  locale: CurriculumLocale = "en",
 ): ProductionCourse {
+  const localizedTrack = getLocalizedTrackCopy(trackCode, locale);
+  const trackName = localizedTrack?.name ?? NORTH_AMERICA_TRACKS[trackCode];
+  const subtitle = localizedTrack?.subtitle ?? TRACK_SUBTITLE[trackCode];
   return {
     id: TRACK_TO_COURSE_ID[trackCode],
-    title: `${trackCode}: ${NORTH_AMERICA_TRACKS[trackCode]}`,
-    subtitle: TRACK_SUBTITLE[trackCode],
-    description: TRACK_SUBTITLE[trackCode],
-    category: NORTH_AMERICA_TRACKS[trackCode],
+    title: `${trackCode}: ${trackName}`,
+    subtitle,
+    description: subtitle,
+    category: localizedTrack?.category ?? NORTH_AMERICA_TRACKS[trackCode],
     difficulty: TRACK_DIFFICULTY[trackCode],
     lessons: records.map((r) => r.id),
     color: TRACK_COLOR[trackCode],
     isFree: false,
     isFeatured: false,
-    tags: [NORTH_AMERICA_TRACKS[trackCode]],
+    tags: [trackName],
   };
 }
 
-function _buildLesson(record: AdaptiveLessonRecord): ProductionLesson {
+function _buildLesson(
+  record: AdaptiveLessonRecord,
+  locale: CurriculumLocale = "en",
+): ProductionLesson {
   const courseId = TRACK_TO_COURSE_ID[record.track] ?? record.track.toLowerCase();
   return {
     id: record.id,
     courseId,
-    title: record.title,
-    description: record.metadata["description"] ?? "",
+    title: getLocalizedLessonTitle(record.id, locale, record.title),
+    description: locale === "en" ? record.metadata["description"] ?? "" : "",
     duration: record.metadata["duration"] ?? "—",
     notes: record.metadata["notes"] ?? "",
     transcript: record.metadata["transcript"] ?? null,
@@ -189,7 +202,7 @@ export const courseList: ProductionCourse[] = TRACK_ORDER.map((trackCode) =>
  * All lessons derived from the production curriculum registry.
  * Empty when the registry has no lessons.
  */
-export const lessonList: ProductionLesson[] = _registryCatalog.map(_buildLesson);
+export const lessonList: ProductionLesson[] = _registryCatalog.map((record) => _buildLesson(record));
 
 /**
  * No quizzes are registered in the production registry.
@@ -244,4 +257,22 @@ export function getCoursePrimaryHref(course: Pick<ProductionCourse, "id" | "less
   return course.lessons[0]
     ? `/courses/${course.id}/lessons/${course.lessons[0]}`
     : `/courses/${course.id}`;
+}
+
+export function getLocalizedCourseList(languageCode: string): ProductionCourse[] {
+  const locale = resolveCurriculumLocale(languageCode);
+  return TRACK_ORDER.map((trackCode) => _buildCourse(trackCode, _trackGroups.get(trackCode) ?? [], locale));
+}
+
+export function getLocalizedCourseMap(languageCode: string): Record<string, ProductionCourse> {
+  return Object.fromEntries(getLocalizedCourseList(languageCode).map((course) => [course.id, course]));
+}
+
+export function getLocalizedLessonList(languageCode: string): ProductionLesson[] {
+  const locale = resolveCurriculumLocale(languageCode);
+  return _registryCatalog.map((record) => _buildLesson(record, locale));
+}
+
+export function getLocalizedLessonMap(languageCode: string): Record<string, ProductionLesson> {
+  return Object.fromEntries(getLocalizedLessonList(languageCode).map((lesson) => [lesson.id, lesson]));
 }

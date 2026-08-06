@@ -3,10 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { useAuth } from "@/lib/authContext";
 
 export default function LoginForm() {
   const { login } = useAuth();
+  const { t } = useInternationalPreferences();
   const router = useRouter();
 
   const [email, setEmail] = useState("");
@@ -19,7 +21,7 @@ export default function LoginForm() {
     e.preventDefault();
     setError("");
     if (!email || !password) {
-      setError("Please enter your email and password.");
+      setError(t("login.error.missingCredentials"));
       return;
     }
     setLoading(true);
@@ -28,7 +30,7 @@ export default function LoginForm() {
     if (result.success) {
       router.push("/dashboard");
     } else {
-      setError(result.error ?? "Login failed.");
+      setError(result.error ?? t("login.error.failed"));
     }
   }
 
@@ -37,15 +39,14 @@ export default function LoginForm() {
       <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
-            Member Login
+            {t("login.label")}
           </p>
-          <h1 className="mt-4 text-4xl font-bold">Welcome Back</h1>
+          <h1 className="mt-4 text-4xl font-bold">{t("login.title")}</h1>
           <p className="mt-3 text-slate-400">
-            Sign in to access your Financial Competency Dashboard.
+            {t("login.subtitle")}
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Beta testers should sign in with their approved email address and enter the invitation
-            pass number below on first login.
+            {t("login.betaNote")}
           </p>
         </div>
 
@@ -58,7 +59,7 @@ export default function LoginForm() {
         <form onSubmit={handleSubmit} className="mt-8 space-y-5" noValidate>
           <div>
             <label htmlFor="login-email" className="mb-2 block text-sm font-semibold">
-              Email Address
+            {t("login.emailLabel")}
             </label>
             <input
               id="login-email"
@@ -67,14 +68,14 @@ export default function LoginForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-              placeholder="you@example.com"
+              placeholder={t("login.emailPlaceholder")}
               required
             />
           </div>
 
           <div>
             <label htmlFor="login-password" className="mb-2 block text-sm font-semibold">
-              Password
+            {t("login.passwordLabel")}
             </label>
             <input
               id="login-password"
@@ -83,14 +84,14 @@ export default function LoginForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-              placeholder="••••••••••••"
+              placeholder={t("login.passwordPlaceholder")}
               required
             />
           </div>
 
           <div>
             <label htmlFor="login-beta-pass-number" className="mb-2 block text-sm font-semibold">
-              Beta invitation pass number <span className="text-slate-500">(optional)</span>
+            {t("login.betaPassLabel")} <span className="text-slate-500">({t("common.optional")})</span>
             </label>
             <input
               id="login-beta-pass-number"
@@ -98,7 +99,7 @@ export default function LoginForm() {
               value={betaPassNumber}
               onChange={(e) => setBetaPassNumber(e.target.value.toUpperCase())}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none"
-              placeholder="ABCD-EFGH-IJKL"
+              placeholder={t("login.betaPassPlaceholder")}
             />
           </div>
 
@@ -107,28 +108,28 @@ export default function LoginForm() {
             disabled={loading}
             className="w-full rounded-xl bg-blue-600 py-3 text-base font-bold text-white transition hover:bg-blue-700 disabled:opacity-60"
           >
-            {loading ? "Signing in…" : "Sign In"}
+            {loading ? t("login.signingIn") : t("login.signIn")}
           </button>
         </form>
 
         <div className="mt-8 flex justify-between text-sm">
           <Link href="/forgot-password" className="text-blue-400 hover:underline">
-            Forgot Password?
+            {t("login.forgotPassword")}
           </Link>
           <Link href="/register" className="text-blue-400 hover:underline">
-            Create Account
+            {t("login.createAccount")}
           </Link>
         </div>
       </div>
 
       <p className="mt-6 text-center text-xs text-slate-500">
-        By signing in you agree to our{" "}
+        {t("login.legalPrefix")}{" "}
         <Link href="/terms" className="underline">
-          Terms
+          {t("footer.link.terms")}
         </Link>{" "}
-        and{" "}
+        {t("login.legalAnd")}{" "}
         <Link href="/privacy" className="underline">
-          Privacy Policy
+          {t("footer.link.privacy")}
         </Link>
         .
       </p>

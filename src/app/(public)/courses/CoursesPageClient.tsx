@@ -5,7 +5,17 @@ import Link from "next/link";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { courseList } from "@/lib/curriculum/production-catalog";
 
-function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: string }) {
+function FeaturedGrid({
+  heading,
+  linkLabel,
+  emptyBody,
+  emptyCta,
+}: {
+  heading: string;
+  linkLabel: string;
+  emptyBody: string;
+  emptyCta: string;
+}) {
   const featured = courseList.filter((course) => course.isFeatured);
   if (featured.length === 0) {
     return (
@@ -17,9 +27,9 @@ function FeaturedGrid({ heading, linkLabel }: { heading: string; linkLabel: stri
           </Link>
         </div>
         <div className="rounded-2xl border border-slate-800 bg-slate-900 p-12 text-center">
-          <p className="text-slate-400">No featured courses are currently published.</p>
+          <p className="text-slate-400">{emptyBody}</p>
           <Link href="/course-catalog" className="mt-4 inline-block text-sm font-bold text-yellow-400 hover:text-yellow-300">
-            Browse Course Catalog →
+            {emptyCta} →
           </Link>
         </div>
       </div>
@@ -102,7 +112,12 @@ export default function CoursesPageClient() {
             <p className="mt-4 max-w-3xl leading-8">{noteBody}</p>
           </div>
         ) : (
-          <FeaturedGrid heading={t("courses.featuredHeading")} linkLabel={t("courses.featuredLink")} />
+          <FeaturedGrid
+            heading={t("courses.featuredHeading")}
+            linkLabel={t("courses.featuredLink")}
+            emptyBody={t("courses.featuredEmptyBody")}
+            emptyCta={t("courses.featuredEmptyCta")}
+          />
         )}
 
         <div className="mt-20 flex flex-col gap-4 sm:flex-row">
