@@ -32,6 +32,8 @@
     "src/lib/payments/paymentPipeline.test.ts",
     "src/lib/curriculum/academies.ts",
     "src/lib/curriculum/academies.test.ts",
+    "src/lib/curriculum/localization.ts",
+    "src/lib/curriculum/localization.test.ts",
     "src/lib/curriculum/reader.ts",
     "src/lib/curriculum/reader.test.ts",
     "src/lib/curriculum/production-catalog.ts",
