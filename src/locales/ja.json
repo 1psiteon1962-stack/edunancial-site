@@ -429,5 +429,19 @@
   "selector.resetToAuto": "自動言語検出を使用する",
   "selector.preferenceMode.auto": "自動検出",
   "selector.preferenceMode.session": "このセッションのみ",
-  "selector.preferenceMode.saved": "デフォルト言語"
+  "selector.preferenceMode.saved": "デフォルト言語",
+  "doctrine_title": "ドクトリン",
+  "doctrine_body": "基本的な原則と構造。",
+  "curriculum.global.title": "グローバルカリキュラム",
+  "curriculum.global.description": "構造・規律・システムに焦点を当てたグローバルなカリキュラム。",
+  "apac.heading": "金融リテラシーを身につける",
+  "apac.subtitle": "アジア太平洋の起業家と家族のための体系的な教育。",
+  "apac.pricing": "料金プラン",
+  "apac.becomeMember": "メンバーになる",
+  "apac.startAssessment": "評価を開始する",
+  "apac.primaryMarket": "主要市場",
+  "apac.currency": "通貨",
+  "apac.timezone": "タイムゾーン",
+  "apac.taxModel": "税モデル",
+  "apac.perMonth": "/月"
 }

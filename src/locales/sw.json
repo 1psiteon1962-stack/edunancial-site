@@ -429,5 +429,19 @@
   "selector.resetToAuto": "Tumia utambuzi wa lugha otomatiki",
   "selector.preferenceMode.auto": "Utambuzi otomatiki",
   "selector.preferenceMode.session": "Kikao hiki tu",
-  "selector.preferenceMode.saved": "Lugha ya msingi"
+  "selector.preferenceMode.saved": "Lugha ya msingi",
+  "doctrine_title": "Mafundisho",
+  "doctrine_body": "Kanuni za msingi na muundo.",
+  "curriculum.global.title": "Global Curriculum",
+  "curriculum.global.description": "A globally applicable curriculum focused on structure, discipline, and systems.",
+  "apac.heading": "Build Financial Competency",
+  "apac.subtitle": "Structured education for Asia-Pacific founders and families.",
+  "apac.pricing": "Pricing Plans",
+  "apac.becomeMember": "Become a Member",
+  "apac.startAssessment": "Start Assessment",
+  "apac.primaryMarket": "Primary Market",
+  "apac.currency": "Currency",
+  "apac.timezone": "Timezone",
+  "apac.taxModel": "Tax Model",
+  "apac.perMonth": "/mo"
 }

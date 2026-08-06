@@ -2,26 +2,24 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const targets = [path.join(root, 'src', 'app'), path.join(root, 'src', 'components')];
-const excludedFiles = new Set([
-  path.join(root, 'src', 'components', 'international', 'BilingualContent.tsx'),
-]);
+const targets = [path.join(root, 'src', 'app'), path.join(root, 'src', 'components'), path.join(root, 'src', 'lib')];
 const filePattern = /\.(ts|tsx)$/;
+
 const checks = [
   {
     code: 'deprecated-bilingual-content',
     pattern: /\bBilingualContent\b/g,
-    message: 'Deprecated BilingualContent usage found.',
+    message: 'Deprecated BilingualContent usage found. Use useInternationalPreferences().t() instead.',
   },
   {
     code: 'deprecated-launch-language-hook',
     pattern: /\buseNorthAmericaLaunchLanguage\b/g,
-    message: 'Deprecated useNorthAmericaLaunchLanguage hook found.',
+    message: 'Deprecated useNorthAmericaLaunchLanguage hook found. Use useInternationalPreferences() instead.',
   },
   {
     code: 'deprecated-content-map',
     pattern: /\bcontentByLocale\b/g,
-    message: 'Deprecated contentByLocale pattern found.',
+    message: 'Deprecated contentByLocale pattern found. Use locale JSON catalog keys instead.',
   },
   {
     code: 'inline-locale-copy-map',
@@ -33,7 +31,45 @@ const checks = [
     pattern: /\bTRACK_CONTENT\b/g,
     message: 'Inline track content map found; prefer locale JSON catalogs.',
   },
+  {
+    code: 'legacy-i18n-import',
+    pattern: /from\s+['"]@\/lib\/i18n['"]/g,
+    message: 'Import from legacy @/lib/i18n detected. Use @/lib/international/i18n or useInternationalPreferences() instead.',
+  },
+  {
+    code: 'legacy-language-selector',
+    pattern: /localStorage\.setItem\s*\(\s*['"]edunancial-language['"]/g,
+    message: 'Legacy edunancial-language localStorage key found. Use canonical InternationalPreferencesProvider instead.',
+  },
+  {
+    code: 'window-location-reload-on-lang',
+    // Heuristic: window.location.reload in a language-change context
+    pattern: /window\.location\.reload\s*\(\s*\)/g,
+    message: 'window.location.reload() found. Language switching should use InternationalPreferencesProvider context (no page reload).',
+  },
+  {
+    code: 'hardcoded-locale-branch',
+    pattern: /locale\s*===\s*['"](?:ja|ko|zh-Hans|zh-Hant|hi|ar|es|fr)['"]\s*\?/g,
+    message: 'Hardcoded locale ternary detected. Use locale JSON catalog keys via t() instead.',
+  },
 ];
+
+// Files that are themselves the canonical system (not violations)
+const excludedFiles = new Set([
+  path.join(root, 'src', 'lib', 'international', 'languages.ts'),
+  path.join(root, 'src', 'lib', 'international', 'i18n.ts'),
+  path.join(root, 'src', 'lib', 'international', 'preferences.ts'),
+  path.join(root, 'src', 'lib', 'i18n', 'config.ts'),
+  path.join(root, 'src', 'lib', 'i18n', 'geo-map.ts'),
+  path.join(root, 'src', 'components', 'international', 'BilingualContent.tsx'),
+  path.join(root, 'src', 'components', 'international', 'InternationalPreferencesProvider.tsx'),
+  path.join(root, 'src', 'components', 'international', 'LanguagePreferenceSelector.tsx'),
+]);
+
+// window.location.reload is allowed outside of language-context files
+const reloadAllowedFiles = new Set([
+  path.join(root, 'src', 'components', 'international', 'InternationalPreferencesProvider.tsx'),
+]);
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -65,6 +101,9 @@ for (const file of files) {
   const relativePath = path.relative(root, file);
 
   for (const check of checks) {
+    if (check.code === 'window-location-reload-on-lang' && reloadAllowedFiles.has(file)) {
+      continue;
+    }
     for (const match of content.matchAll(check.pattern)) {
       findings.push({
         file: relativePath,
@@ -77,7 +116,7 @@ for (const file of files) {
 }
 
 if (findings.length === 0) {
-  console.log('✅ i18n audit passed. No deprecated BilingualContent patterns found.');
+  console.log('✅ i18n audit passed. Single-pipeline architecture enforced.');
   process.exit(0);
 }
 

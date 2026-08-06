@@ -76,6 +76,10 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "ha", label: "Hausa", nativeLabel: "Hausa", rtl: false },
   { code: "zu", label: "Zulu", nativeLabel: "isiZulu", rtl: false },
   { code: "am", label: "Amharic", nativeLabel: "አማርኛ", rtl: false },
+  { code: "el", label: "Greek", nativeLabel: "Ελληνικά", rtl: false },
+  { code: "sr", label: "Serbian", nativeLabel: "Српски", rtl: false },
+  { code: "so", label: "Somali", nativeLabel: "Soomaali", rtl: false },
+  { code: "sm", label: "Samoan", nativeLabel: "Gagana Samoa", rtl: false },
 ] as const;
 
 export const DEFAULT_LANGUAGE_CODE = "en-US";

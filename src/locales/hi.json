@@ -429,5 +429,19 @@
   "selector.resetToAuto": "स्वचालित भाषा पहचान का उपयोग करें",
   "selector.preferenceMode.auto": "स्वचालित पहचान",
   "selector.preferenceMode.session": "केवल यह सत्र",
-  "selector.preferenceMode.saved": "डिफ़ॉल्ट भाषा"
+  "selector.preferenceMode.saved": "डिफ़ॉल्ट भाषा",
+  "doctrine_title": "सिद्धांत",
+  "doctrine_body": "मूलभूत सिद्धांत और संरचना।",
+  "curriculum.global.title": "वैश्विक पाठ्यक्रम",
+  "curriculum.global.description": "एक वैश्विक स्तर पर लागू पाठ्यक्रम जो संरचना, अनुशासन और प्रणालियों पर केंद्रित है।",
+  "apac.heading": "वित्तीय क्षमता बनाएं",
+  "apac.subtitle": "एशिया-प्रशांत के उद्यमियों और परिवारों के लिए संरचित शिक्षा।",
+  "apac.pricing": "मूल्य योजनाएं",
+  "apac.becomeMember": "सदस्य बनें",
+  "apac.startAssessment": "मूल्यांकन शुरू करें",
+  "apac.primaryMarket": "प्राथमिक बाज़ार",
+  "apac.currency": "मुद्रा",
+  "apac.timezone": "समय क्षेत्र",
+  "apac.taxModel": "कर मॉडल",
+  "apac.perMonth": "/माह"
 }

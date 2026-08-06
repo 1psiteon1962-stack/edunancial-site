@@ -429,5 +429,19 @@
   "selector.resetToAuto": "استخدام الكشف التلقائي للغة",
   "selector.preferenceMode.auto": "الكشف التلقائي",
   "selector.preferenceMode.session": "الجلسة الحالية فقط",
-  "selector.preferenceMode.saved": "اللغة الافتراضية"
+  "selector.preferenceMode.saved": "اللغة الافتراضية",
+  "doctrine_title": "العقيدة",
+  "doctrine_body": "المبادئ والبنية الأساسية.",
+  "curriculum.global.title": "المنهج العالمي",
+  "curriculum.global.description": "منهج عالمي يركز على الهيكل والانضباط والأنظمة.",
+  "apac.heading": "Build Financial Competency",
+  "apac.subtitle": "Structured education for Asia-Pacific founders and families.",
+  "apac.pricing": "Pricing Plans",
+  "apac.becomeMember": "Become a Member",
+  "apac.startAssessment": "Start Assessment",
+  "apac.primaryMarket": "Primary Market",
+  "apac.currency": "Currency",
+  "apac.timezone": "Timezone",
+  "apac.taxModel": "Tax Model",
+  "apac.perMonth": "/mo"
 }
