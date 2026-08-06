@@ -1,29 +1,38 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import {
   getAllTrackLevelStaticParams,
   getLessonsForLevel,
   getTrack,
 } from "@/lib/curriculum/reader";
+import { translate } from "@/lib/international/i18n";
+import { normalizeLanguageCode } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 
 interface Props {
   params: Promise<{ track: string; level: string }>;
 }
 
 export async function generateStaticParams() {
-  return getAllTrackLevelStaticParams();
+  return getAllTrackLevelStaticParams().filter((params) =>
+    isPublicCurriculumTrack(params.track.toUpperCase()),
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam, level: levelParam } = await params;
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
-  const track = getTrack(trackCode);
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const track = getTrack(trackCode, "free", language);
   if (!track) return { title: "Level Not Found | Edunancial" };
 
-  const lessonCount = getLessonsForLevel(trackCode, levelNum).length;
+  const lessonCount = getLessonsForLevel(trackCode, levelNum, "free", language).length;
   const title = `${track.name} — Level ${levelNum} | Edunancial`;
   const description = lessonCount > 0
     ? `${track.code} Level ${levelNum}: Browse all ${lessonCount} lessons in this level.`
@@ -89,11 +98,15 @@ export default async function LevelPage({ params }: Props) {
   const { track: trackParam, level: levelParam } = await params;
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  if (!isPublicCurriculumTrack(trackCode)) notFound();
+  const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
-  const track = getTrack(trackCode);
+  const track = getTrack(trackCode, "free", language);
   if (!track) notFound();
 
-  const lessons = getLessonsForLevel(trackCode, levelNum);
+  const lessons = getLessonsForLevel(trackCode, levelNum, "free", language);
   const colors = TRACK_COLORS[trackCode] ?? DEFAULT_COLORS;
 
   return (
@@ -101,25 +114,30 @@ export default async function LevelPage({ params }: Props) {
       <section className="mx-auto max-w-5xl px-6 py-16">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-          <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+          <Link href="/curriculum" className="hover:text-white">{t("nav.curriculum")}</Link>
           <span>/</span>
           <Link href={`/curriculum/${trackParam}`} className="hover:text-white">{track.name}</Link>
           <span>/</span>
-          <span className="text-slate-200">Level {levelNum}</span>
+          <span className="text-slate-200">{t("curriculumTrack.levelLabel", { level: levelNum })}</span>
         </nav>
 
         {/* Header */}
         <div className="mb-10">
           <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border mb-4 ${colors.badge}`}>
-            {trackCode} · Level {levelNum}
+            {t("curriculumLevel.badge", { code: trackCode, level: levelNum })}
           </span>
           <h1 className={`text-4xl font-black md:text-5xl ${colors.heading}`}>
-            {track.name} — Level {levelNum}
+            {t("curriculumLevel.heading", { trackName: track.name, level: levelNum })}
           </h1>
           <p className="mt-4 text-slate-300 text-lg">
             {lessons.length > 0
-              ? `${lessons.length} lesson${lessons.length !== 1 ? "s" : ""} available`
-              : "This level is active. Lessons are being published."}
+              ? t(
+                  lessons.length === 1
+                    ? "curriculumLevel.available_one"
+                    : "curriculumLevel.available_other",
+                  { count: lessons.length },
+                )
+              : t("curriculumLevel.emptySummary")}
           </p>
         </div>
 
@@ -154,9 +172,9 @@ export default async function LevelPage({ params }: Props) {
           </div>
         ) : (
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-12 text-center">
-            <p className="text-2xl font-bold text-slate-200">Lesson Coming Soon</p>
+            <p className="text-2xl font-bold text-slate-200">{t("curriculumLevel.comingSoonTitle")}</p>
             <p className="mt-3 text-slate-500">
-              {track.name} Level {levelNum} is active. Lessons will appear here as they are published.
+              {t("curriculumLevel.comingSoonBody", { trackName: track.name, level: levelNum })}
             </p>
           </div>
         )}
@@ -168,7 +186,7 @@ export default async function LevelPage({ params }: Props) {
               href={`/curriculum/${trackParam}/${levelParam}/${lessons[0].id.toLowerCase()}`}
               className={`inline-flex items-center gap-2 rounded-xl px-6 py-3 font-bold text-white transition ${colors.button}`}
             >
-              Start Lesson 1 →
+              {t("curriculumLevel.startLesson")} →
             </Link>
           </div>
         )}

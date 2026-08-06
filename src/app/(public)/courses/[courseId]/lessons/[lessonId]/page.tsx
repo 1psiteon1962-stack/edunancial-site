@@ -1,9 +1,18 @@
+import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { courses, lessons } from "@/lib/curriculum/production-catalog";
+import {
+  courses,
+  getLocalizedCourseMap,
+  getLocalizedLessonMap,
+  lessons,
+} from "@/lib/curriculum/production-catalog";
 import { getPlaceholderLessonMeta } from "@/lib/curriculum/reader";
 import { getAdminSession } from "@/lib/admin-content/auth";
+import { translate } from "@/lib/international/i18n";
+import { normalizeLanguageCode } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 import LessonPageClient from "./LessonPageClient";
 
 interface Props {
@@ -12,11 +21,15 @@ interface Props {
 
 export async function generateMetadata({ params }: Props) {
   const { courseId, lessonId } = await params;
-  const course = courses[courseId];
-  const lesson = lessons[lessonId];
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const localizedCourses = getLocalizedCourseMap(language);
+  const localizedLessons = getLocalizedLessonMap(language);
+  const course = localizedCourses[courseId] ?? courses[courseId];
+  const lesson = localizedLessons[lessonId] ?? lessons[lessonId];
   if (!course) return { title: "Lesson Not Found" };
   if (!lesson) {
-    const placeholder = getPlaceholderLessonMeta(courseId, lessonId);
+    const placeholder = getPlaceholderLessonMeta(courseId, lessonId, undefined, language);
     if (!placeholder) return { title: "Lesson Not Found" };
     return { title: `${placeholder.id} | Lesson Coming Soon | ${course.title} | Edunancial` };
   }
@@ -25,34 +38,42 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function LessonPage({ params }: Props) {
   const { courseId, lessonId } = await params;
-  const course = courses[courseId];
-  const lesson = lessons[lessonId];
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
+  const localizedCourses = getLocalizedCourseMap(language);
+  const localizedLessons = getLocalizedLessonMap(language);
+  const course = localizedCourses[courseId] ?? courses[courseId];
+  const lesson = localizedLessons[lessonId] ?? lessons[lessonId];
   if (!course) notFound();
   if (!lesson) {
-    const placeholder = getPlaceholderLessonMeta(courseId, lessonId);
+    const placeholder = getPlaceholderLessonMeta(courseId, lessonId, undefined, language);
     if (!placeholder) notFound();
 
     return (
       <main className="min-h-screen bg-[#08101f] text-white flex items-center px-6 py-16">
         <div className="mx-auto max-w-3xl rounded-3xl border border-slate-800 bg-slate-900/60 p-8 md:p-12">
           <p className="text-sm font-black uppercase tracking-[0.4em] text-yellow-400">{course.title}</p>
-          <h1 className="mt-4 text-4xl font-black md:text-5xl">Lesson coming soon</h1>
+          <h1 className="mt-4 text-4xl font-black md:text-5xl">{t("curriculumLesson.comingSoonTitle")}</h1>
           <p className="mt-4 text-lg leading-8 text-slate-300">
-            {placeholder.trackName} Level {placeholder.level} Lesson {placeholder.lessonNumber} belongs to an active curriculum track.
-            The lesson content has not been published yet, but the track remains available now.
+            {t("curriculumLesson.comingSoonBody", {
+              trackName: placeholder.trackName,
+              level: placeholder.level,
+              lessonNumber: placeholder.lessonNumber,
+            })}
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={`/courses/${courseId}`}
               className="rounded-xl bg-yellow-500 px-6 py-3 text-center font-black text-black hover:bg-yellow-400 transition"
             >
-              Back to Course
+              {t("courseLesson.backToCourse")}
             </Link>
             <Link
               href={`/curriculum/${courseId}`}
               className="rounded-xl border border-slate-700 px-6 py-3 text-center font-bold text-slate-300 hover:bg-slate-800 transition"
             >
-              Browse Track Structure
+              {t("courseDetail.browseTrackStructure")}
             </Link>
           </div>
         </div>
@@ -60,7 +81,7 @@ export default async function LessonPage({ params }: Props) {
     );
   }
 
-  const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
+  const courseLessons = course.lessons.map((id) => localizedLessons[id] ?? lessons[id]).filter(Boolean);
   const currentIndex = courseLessons.findIndex((l) => l.id === lessonId);
 
   // Determine admin status server-side so admin can bypass all access restrictions.
@@ -74,30 +95,29 @@ export default async function LessonPage({ params }: Props) {
       <main className="min-h-screen bg-[#08101f] text-white flex flex-col items-center justify-center px-6">
         <div className="max-w-lg w-full text-center space-y-6">
           <div className="text-6xl">🔒</div>
-          <h1 className="text-3xl font-black">Members Only</h1>
+          <h1 className="text-3xl font-black">{t("curriculumLesson.membersOnly")}</h1>
           <p className="text-slate-300 leading-relaxed">
             <strong className="text-white">{lesson.title}</strong> is part of{" "}
-            <strong className="text-yellow-400">{course.title}</strong>. This course requires an active
-            Edunancial membership.
+            <strong className="text-yellow-400">{course.title}</strong>. {t("courseLesson.membershipRequired")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/membership"
               className="rounded-xl bg-yellow-500 px-8 py-4 font-black text-black hover:bg-yellow-400 transition"
             >
-              View Membership Plans
+              {t("courseLesson.viewMembershipPlans")}
             </Link>
             <Link
               href={`/courses/${courseId}`}
               className="rounded-xl border border-slate-600 px-8 py-4 font-bold text-slate-300 hover:bg-slate-800 transition"
             >
-              Back to Course
+              {t("courseLesson.backToCourse")}
             </Link>
           </div>
           <p className="text-xs text-slate-500">
-            Already a member?{" "}
+            {t("courseLesson.alreadyMember")}{" "}
             <Link href="/login" className="text-yellow-400 hover:underline">
-              Sign in
+              {t("login.signIn")}
             </Link>
           </p>
         </div>

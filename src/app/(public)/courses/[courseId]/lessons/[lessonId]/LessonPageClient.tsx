@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import type { ProductionCourse, ProductionLesson } from "@/lib/curriculum/production-catalog";
 
 interface Props {
@@ -24,6 +25,7 @@ export default function LessonPageClient({
   currentIndex,
   isAdmin,
 }: Props) {
+  const { t } = useInternationalPreferences();
   const prevLesson = currentIndex > 0 ? courseLessons[currentIndex - 1] : null;
   const nextLesson = currentIndex < courseLessons.length - 1 ? courseLessons[currentIndex + 1] : null;
 
@@ -33,15 +35,15 @@ export default function LessonPageClient({
     <main className="min-h-screen bg-[#08101f] text-white">
       {isAdmin && (
         <div className="bg-yellow-600/20 border-b border-yellow-500/30 px-6 py-2 flex items-center gap-4 text-sm">
-          <span className="font-bold text-yellow-300">🔑 Admin View</span>
+          <span className="font-bold text-yellow-300">🔑 {t("courseLesson.adminView")}</span>
           <Link
             href={`/admin/curriculum/lessons/${lesson.id}`}
             className="text-yellow-200 hover:text-yellow-100 underline"
           >
-            Edit this lesson
+            {t("courseLesson.editLesson")}
           </Link>
           <Link href="/admin/curriculum" className="text-yellow-200 hover:text-yellow-100 underline">
-            Curriculum Manager
+            {t("courseLesson.curriculumManager")}
           </Link>
         </div>
       )}
@@ -51,10 +53,10 @@ export default function LessonPageClient({
           <div className="sticky top-24 rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden">
             <div className="px-5 py-4 border-b border-slate-800">
               <Link href={`/courses/${courseId}`} className="text-xs text-yellow-400 hover:text-yellow-300">
-                ← Back to Course
+                ← {t("courseLesson.backToCourse")}
               </Link>
               <p className="mt-2 font-black text-sm line-clamp-2">{course.title}</p>
-              <p className="text-xs text-slate-400 mt-1">{courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}</p>
+              <p className="text-xs text-slate-400 mt-1">{t(courseLessons.length === 1 ? "courseDetail.lessonCount_one" : "courseDetail.lessonCount_other", { count: courseLessons.length })}</p>
             </div>
             <div className="divide-y divide-slate-800 max-h-[60vh] overflow-y-auto">
               {courseLessons.map((l, idx) => (
@@ -85,7 +87,7 @@ export default function LessonPageClient({
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400">
             <Link href="/course-catalog" className="hover:text-white">
-              Catalog
+              {t("courseLesson.catalog")}
             </Link>
             <span>/</span>
             <Link href={`/courses/${courseId}`} className="hover:text-white">
@@ -98,7 +100,7 @@ export default function LessonPageClient({
           {/* Lesson title */}
           <div>
             <p className="text-xs uppercase tracking-widest text-yellow-400 font-bold">
-              Lesson {currentIndex + 1} of {courseLessons.length}
+              {t("courseLesson.position", { lessonNumber: currentIndex + 1, total: courseLessons.length })}
             </p>
             <h1 className="mt-2 text-3xl font-black md:text-4xl">{lesson.title}</h1>
             <p className="mt-2 text-slate-300">{lesson.description}</p>
@@ -128,28 +130,28 @@ export default function LessonPageClient({
                       : "text-slate-400 hover:text-white"
                   }`}
                 >
-                  {tab}
+                  {t(`courseLesson.tab.${tab}`)}
                 </button>
               ))}
             </div>
             <div className="p-6">
               {activeTab === "notes" && (
                 <div>
-                  <h3 className="text-lg font-black mb-3">Lesson Notes</h3>
+                  <h3 className="text-lg font-black mb-3">{t("courseLesson.notesTitle")}</h3>
                   <p className="text-slate-300 leading-relaxed whitespace-pre-line">{lesson.notes}</p>
                 </div>
               )}
               {activeTab === "transcript" && (
                 <div>
-                  <h3 className="text-lg font-black mb-3">Transcript</h3>
+                  <h3 className="text-lg font-black mb-3">{t("courseLesson.transcriptTitle")}</h3>
                   <p className="text-slate-400 italic">
-                    {lesson.transcript || "Transcript coming soon. Notes are available in the Notes tab."}
+                    {lesson.transcript || t("courseLesson.transcriptFallback")}
                   </p>
                 </div>
               )}
               {activeTab === "downloads" && (
                 <div>
-                  <h3 className="text-lg font-black mb-3">Downloads</h3>
+                  <h3 className="text-lg font-black mb-3">{t("courseLesson.downloadsTitle")}</h3>
                   {lesson.downloadUrl ? (
                     <a
                       href={lesson.downloadUrl}
@@ -157,12 +159,12 @@ export default function LessonPageClient({
                     >
                       <span className="text-2xl">📄</span>
                       <div>
-                        <p className="font-bold text-sm">Lesson Notes PDF</p>
-                        <p className="text-xs text-slate-400">Click to download</p>
+                        <p className="font-bold text-sm">{t("courseLesson.lessonNotesPdf")}</p>
+                        <p className="text-xs text-slate-400">{t("courseLesson.clickToDownload")}</p>
                       </div>
                     </a>
                   ) : (
-                    <p className="text-slate-400">No downloads available for this lesson.</p>
+                    <p className="text-slate-400">{t("courseLesson.noDownloads")}</p>
                   )}
                 </div>
               )}
@@ -174,13 +176,13 @@ export default function LessonPageClient({
             <div className="rounded-2xl bg-purple-950 border border-purple-800 p-6 flex items-center justify-between gap-4">
               <div>
                 <p className="font-black text-lg text-purple-300">🧠 Lesson Quiz Available</p>
-                <p className="text-slate-300 text-sm mt-1">Test your understanding of this lesson.</p>
+                <p className="text-slate-300 text-sm mt-1">{t("courseLesson.quizBody")}</p>
               </div>
               <Link
                 href={`/quizzes/${lesson.quizId}`}
                 className="flex-shrink-0 rounded-xl bg-purple-600 px-6 py-3 font-bold text-white hover:bg-purple-500 transition"
               >
-                Take Quiz
+                {t("courseLesson.takeQuiz")}
               </Link>
             </div>
           )}
@@ -194,14 +196,14 @@ export default function LessonPageClient({
               >
                 ←{" "}
                 <span className="hidden sm:inline">{prevLesson.title}</span>
-                <span className="sm:hidden">Previous</span>
+                <span className="sm:hidden">{t("courseLesson.previous")}</span>
               </Link>
             ) : (
               <div />
             )}
 
             <Link href={`/courses/${courseId}`} className="text-sm text-slate-400 hover:text-white">
-              Back to Course
+              {t("courseLesson.backToCourse")}
             </Link>
 
             {nextLesson ? (
@@ -210,14 +212,14 @@ export default function LessonPageClient({
                 className="flex items-center gap-2 rounded-xl bg-yellow-500 px-5 py-3 text-sm font-black text-black hover:bg-yellow-400 transition"
               >
                 <span className="hidden sm:inline">{nextLesson.title}</span>
-                <span className="sm:hidden">Next</span> →
+                <span className="sm:hidden">{t("courseLesson.next")}</span> →
               </Link>
             ) : (
               <Link
                 href={`/courses/${courseId}`}
                 className="flex items-center gap-2 rounded-xl bg-green-600 px-5 py-3 text-sm font-black text-white hover:bg-green-500 transition"
               >
-                ✅ Complete Course
+                ✅ {t("courseLesson.completeCourse")}
               </Link>
             )}
           </div>

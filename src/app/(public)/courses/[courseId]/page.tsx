@@ -1,10 +1,16 @@
+import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   courses,
   getCoursePrimaryHref,
+  getLocalizedCourseMap,
+  getLocalizedLessonMap,
   lessons,
 } from "@/lib/curriculum/production-catalog";
+import { translate } from "@/lib/international/i18n";
+import { normalizeLanguageCode } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 
 interface Props {
   params: Promise<{ courseId: string }>;
@@ -16,7 +22,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { courseId } = await params;
-  const course = courses[courseId];
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const course = getLocalizedCourseMap(language)[courseId] ?? courses[courseId];
   if (!course) return { title: "Course Not Found" };
   return { title: `${course.title} | Edunancial` };
 }
@@ -29,10 +37,15 @@ const difficultyBadge: Record<string, string> = {
 
 export default async function CourseDetailPage({ params }: Props) {
   const { courseId } = await params;
-  const course = courses[courseId];
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
+  const localizedCourses = getLocalizedCourseMap(language);
+  const localizedLessons = getLocalizedLessonMap(language);
+  const course = localizedCourses[courseId] ?? courses[courseId];
   if (!course) notFound();
 
-  const courseLessons = course.lessons.map((id) => lessons[id]).filter(Boolean);
+  const courseLessons = course.lessons.map((id) => localizedLessons[id] ?? lessons[id]).filter(Boolean);
   const hasPublishedLessons = courseLessons.length > 0;
   const primaryHref = hasPublishedLessons
     ? getCoursePrimaryHref(course)
@@ -46,7 +59,7 @@ export default async function CourseDetailPage({ params }: Props) {
           <div className="lg:col-span-2">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-              <Link href="/course-catalog" className="hover:text-white">Course Catalog</Link>
+              <Link href="/course-catalog" className="hover:text-white">{t("courseDetail.catalogLink")}</Link>
               <span>/</span>
               <span className="text-slate-200">{course.category}</span>
             </nav>
@@ -56,10 +69,10 @@ export default async function CourseDetailPage({ params }: Props) {
                 {course.difficulty}
               </span>
               {course.isFree && (
-                <span className="rounded-full bg-green-900 text-green-300 px-3 py-1 text-xs font-bold">FREE</span>
+                <span className="rounded-full bg-green-900 text-green-300 px-3 py-1 text-xs font-bold">{t("courseDetail.freeBadge")}</span>
               )}
               {course.isFeatured && (
-                <span className="rounded-full bg-yellow-900 text-yellow-300 px-3 py-1 text-xs font-bold">⭐ Featured</span>
+                <span className="rounded-full bg-yellow-900 text-yellow-300 px-3 py-1 text-xs font-bold">⭐ {t("courseDetail.featuredBadge")}</span>
               )}
             </div>
 
@@ -68,7 +81,7 @@ export default async function CourseDetailPage({ params }: Props) {
 
             {/* Stats — only show real data */}
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-300">
-              <span>📚 {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}</span>
+              <span>📚 {t(courseLessons.length === 1 ? "courseDetail.lessonCount_one" : "courseDetail.lessonCount_other", { count: courseLessons.length })}</span>
             </div>
 
             {/* Tags */}
@@ -84,26 +97,26 @@ export default async function CourseDetailPage({ params }: Props) {
           {/* Enroll card */}
           <div className="rounded-2xl bg-slate-900 border border-slate-700 p-8 h-fit lg:sticky lg:top-24">
             <div className={`h-1.5 w-full rounded-full mb-6 ${course.color.startsWith("bg-slate-2") ? "bg-slate-400" : course.color}`} />
-            <p className="text-2xl font-black">Included with Membership</p>
+            <p className="text-2xl font-black">{t("courseDetail.includedWithMembership")}</p>
             <Link
               href={primaryHref}
               className="mt-6 block w-full rounded-xl bg-yellow-500 py-4 text-center font-black text-black text-lg hover:bg-yellow-400 transition"
             >
               {hasPublishedLessons
-                ? (course.isFree ? "Start Free Course" : "Enroll Now")
-                : "View Active Track"}
+                ? (course.isFree ? t("courseDetail.startFreeCourse") : t("courseDetail.enrollNow"))
+                : t("courseDetail.viewActiveTrack")}
             </Link>
             <Link
               href="/my-courses"
               className="mt-3 block w-full rounded-xl border border-slate-600 py-3 text-center font-bold text-slate-300 hover:bg-slate-800 transition"
             >
-              View My Courses
+              {t("courseDetail.viewMyCourses")}
             </Link>
             <ul className="mt-8 space-y-3 text-sm text-slate-300">
-              <li>✅ Track remains active regardless of lesson count</li>
-              <li>✅ {courseLessons.length} published lesson{courseLessons.length !== 1 ? "s" : ""}</li>
-              <li>✅ New lessons appear here automatically as they are published</li>
-              <li>✅ Membership access stays tied to lesson availability, not track activation</li>
+              <li>✅ {t("courseDetail.checklist.trackActive")}</li>
+              <li>✅ {t(courseLessons.length === 1 ? "courseDetail.lessonCountPublished_one" : "courseDetail.lessonCountPublished_other", { count: courseLessons.length })}</li>
+              <li>✅ {t("courseDetail.checklist.newLessons")}</li>
+              <li>✅ {t("courseDetail.checklist.membershipAccess")}</li>
             </ul>
           </div>
         </div>
@@ -113,15 +126,15 @@ export default async function CourseDetailPage({ params }: Props) {
         <div className="lg:col-span-2 space-y-12">
           {/* About */}
           <section>
-            <h2 className="text-2xl font-black mb-4">About This Course</h2>
+            <h2 className="text-2xl font-black mb-4">{t("courseDetail.aboutTitle")}</h2>
             <p className="text-slate-300 leading-relaxed text-lg">{course.description}</p>
           </section>
 
           {/* Lessons */}
           <section>
-            <h2 className="text-2xl font-black mb-6">Course Curriculum</h2>
+            <h2 className="text-2xl font-black mb-6">{t("courseDetail.curriculumTitle")}</h2>
             <p className="text-slate-400 mb-6 text-sm">
-              {courseLessons.length} lesson{courseLessons.length !== 1 ? "s" : ""}
+              {t(courseLessons.length === 1 ? "courseDetail.lessonCount_one" : "courseDetail.lessonCount_other", { count: courseLessons.length })}
             </p>
             {hasPublishedLessons ? (
               <div className="space-y-3">
@@ -136,14 +149,16 @@ export default async function CourseDetailPage({ params }: Props) {
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-bold group-hover:text-yellow-400 transition truncate">{lesson.title}</p>
-                      <p className="text-slate-400 text-xs mt-0.5">{lesson.description.slice(0, 80)}…</p>
+                      {lesson.description && (
+                        <p className="text-slate-400 text-xs mt-0.5">{lesson.description.slice(0, 80)}…</p>
+                      )}
                     </div>
                     <div className="flex items-center gap-3 flex-shrink-0">
                       {lesson.quizId && (
-                        <span className="rounded-full bg-purple-900 text-purple-300 px-2 py-0.5 text-xs">Quiz</span>
+                        <span className="rounded-full bg-purple-900 text-purple-300 px-2 py-0.5 text-xs">{t("courseDetail.quizBadge")}</span>
                       )}
                       {lesson.downloadUrl && (
-                        <span className="rounded-full bg-blue-900 text-blue-300 px-2 py-0.5 text-xs">PDF</span>
+                        <span className="rounded-full bg-blue-900 text-blue-300 px-2 py-0.5 text-xs">{t("courseDetail.pdfBadge")}</span>
                       )}
                       <span className="text-slate-400 text-sm">{lesson.duration}</span>
                       <span className="text-slate-500">▶</span>
@@ -153,15 +168,15 @@ export default async function CourseDetailPage({ params }: Props) {
               </div>
             ) : (
               <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-10 text-center">
-                <p className="text-2xl font-black text-slate-200">Lesson Coming Soon</p>
+                <p className="text-2xl font-black text-slate-200">{t("curriculumLevel.comingSoonTitle")}</p>
                 <p className="mt-3 text-slate-400">
-                  {course.title} is active now. Published lessons will appear in this course outline as they are added.
+                  {t("courseDetail.comingSoonBody", { courseTitle: course.title })}
                 </p>
                 <Link
                   href={`/curriculum/${course.id}`}
                   className="mt-6 inline-block rounded-xl border border-slate-700 px-6 py-3 font-bold text-slate-300 hover:bg-slate-800 transition"
                 >
-                  Browse Track Structure
+                  {t("courseDetail.browseTrackStructure")}
                 </Link>
               </div>
             )}
@@ -171,8 +186,8 @@ export default async function CourseDetailPage({ params }: Props) {
         {/* Sidebar */}
         <div className="space-y-6">
           <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
-            <h3 className="font-black text-lg mb-4">Related Courses</h3>
-            {Object.values(courses)
+            <h3 className="font-black text-lg mb-4">{t("courseDetail.relatedCourses")}</h3>
+            {Object.values(localizedCourses)
               .filter((c) => c.id !== course.id && c.category === course.category)
               .slice(0, 3)
               .map((related) => (
@@ -186,15 +201,15 @@ export default async function CourseDetailPage({ params }: Props) {
                 </Link>
               ))}
             <Link href="/course-catalog" className="mt-4 block text-center text-sm text-blue-400 hover:text-blue-300">
-              Browse All Courses →
+              {t("courseDetail.browseAllCourses")} →
             </Link>
           </div>
 
           <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6">
-            <h3 className="font-black text-lg mb-4">Certificate</h3>
-            <p className="text-sm text-slate-300">Complete all lessons and pass the final quiz to earn your certificate of completion.</p>
+            <h3 className="font-black text-lg mb-4">{t("courseDetail.certificateTitle")}</h3>
+            <p className="text-sm text-slate-300">{t("courseDetail.certificateBody")}</p>
             <Link href="/certificates" className="mt-4 block text-center text-sm text-yellow-400 hover:text-yellow-300">
-              View Certificate Gallery →
+              {t("courseDetail.certificateLink")} →
             </Link>
           </div>
         </div>

@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import {
   getAllLessonStaticParams,
   getLessonContent,
@@ -13,13 +14,18 @@ import {
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 import LessonVideoPlayer from "@/components/curriculum/LessonVideoPlayer";
+import { translate } from "@/lib/international/i18n";
+import { normalizeLanguageCode } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 
 interface Props {
   params: Promise<{ track: string; level: string; lesson: string }>;
 }
 
 export async function generateStaticParams() {
-  return getAllLessonStaticParams();
+  return getAllLessonStaticParams().filter((params) =>
+    isPublicCurriculumTrack(params.track.toUpperCase()),
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -27,9 +33,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lessonId = lessonParam.toUpperCase();
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
-  const content = getLessonContent(lessonId);
+  const headersList = await headers();
+  const cookieHeader = headersList.get("cookie") ?? "";
+  const languageMatch = cookieHeader.match(/(?:^|;\s*)edunancial-lang=([^;]+)/u);
+  const language = normalizeLanguageCode(languageMatch?.[1] ? decodeURIComponent(languageMatch[1]) : "en-US");
+  const content = getLessonContent(lessonId, language);
   if (!content) {
-    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum);
+    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum, language);
     if (!placeholder) return { title: "Lesson Not Found | Edunancial" };
 
     return {
@@ -81,35 +91,44 @@ export default async function LessonViewerPage({ params }: Props) {
   const lessonId = lessonParam.toUpperCase();
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
+  if (!isPublicCurriculumTrack(trackCode)) notFound();
+  const headersList = await headers();
+  const cookieHeader = headersList.get("cookie") ?? "";
+  const languageMatch = cookieHeader.match(/(?:^|;\s*)edunancial-lang=([^;]+)/u);
+  const language = normalizeLanguageCode(languageMatch?.[1] ? decodeURIComponent(languageMatch[1]) : "en-US");
+  const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
-  const content = getLessonContent(lessonId);
+  const content = getLessonContent(lessonId, language);
   if (!content) {
-    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum);
+    const placeholder = getPlaceholderLessonMeta(trackCode, lessonId, levelNum, language);
     if (!placeholder) notFound();
 
-    const siblings = getLessonsForLevel(trackCode, levelNum);
+    const siblings = getLessonsForLevel(trackCode, levelNum, "free", language);
 
     return (
       <main className="min-h-screen bg-[#08101f] text-white">
         <section className="mx-auto max-w-4xl px-6 py-16">
           <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
-            <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+            <Link href="/curriculum" className="hover:text-white">{t("nav.curriculum")}</Link>
             <span>/</span>
             <Link href={`/curriculum/${trackParam}`} className="hover:text-white">{placeholder.trackName}</Link>
             <span>/</span>
-            <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">Level {levelNum}</Link>
+            <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">{t("curriculumTrack.levelLabel", { level: levelNum })}</Link>
             <span>/</span>
             <span className="text-slate-200">{placeholder.id}</span>
           </nav>
 
           <div className="mt-10 rounded-3xl border border-slate-800 bg-slate-900/60 p-8 md:p-12">
             <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border ${TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10"}`}>
-              {trackCode} · Level {levelNum}
+              {t("curriculumLevel.badge", { code: trackCode, level: levelNum })}
             </span>
-            <h1 className="mt-6 text-4xl font-black md:text-5xl">Lesson coming soon</h1>
+            <h1 className="mt-6 text-4xl font-black md:text-5xl">{t("curriculumLesson.comingSoonTitle")}</h1>
             <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-300">
-              {placeholder.trackName} Level {placeholder.level} Lesson {placeholder.lessonNumber} belongs to an active curriculum track.
-              The lesson content has not been published yet, but the track and level remain available now.
+              {t("curriculumLesson.comingSoonBody", {
+                trackName: placeholder.trackName,
+                level: placeholder.level,
+                lessonNumber: placeholder.lessonNumber,
+              })}
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -117,19 +136,24 @@ export default async function LessonViewerPage({ params }: Props) {
                 href={`/curriculum/${trackParam}/${levelParam}`}
                 className="rounded-xl bg-yellow-500 px-6 py-3 text-center font-black text-black hover:bg-yellow-400 transition"
               >
-                Return to Level {levelNum}
+                {t("curriculumLesson.returnToLevel", { level: levelNum })}
               </Link>
               <Link
                 href={`/curriculum/${trackParam}`}
                 className="rounded-xl border border-slate-700 px-6 py-3 text-center font-bold text-slate-300 hover:bg-slate-800 transition"
               >
-                View {placeholder.trackName} Track
+                {t("curriculumLesson.viewTrack", { trackName: placeholder.trackName })}
               </Link>
             </div>
 
             {siblings.length > 0 && (
               <p className="mt-6 text-sm text-slate-500">
-                {siblings.length} published lesson{siblings.length !== 1 ? "s are" : " is"} currently available in this level.
+                {t(
+                  siblings.length === 1
+                    ? "curriculumLesson.publishedInLevel_one"
+                    : "curriculumLesson.publishedInLevel_other",
+                  { count: siblings.length },
+                )}
               </p>
             )}
           </div>
@@ -140,13 +164,11 @@ export default async function LessonViewerPage({ params }: Props) {
 
   const { meta, body, videos } = content;
   const { prev, next } = getLessonNavigation(lessonId);
-  const siblings = getLessonsForLevel(trackCode, levelNum);
+  const siblings = getLessonsForLevel(trackCode, levelNum, "free", language);
 
   const trackColor = TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10";
 
   // ── Server-side access gate ───────────────────────────────────────────────
-  const headersList = await headers();
-  const cookieHeader = headersList.get("cookie");
   const access = checkLessonAccess(meta.level, meta.lessonNumber, cookieHeader);
 
   if (!access.allowed) {
@@ -166,7 +188,7 @@ export default async function LessonViewerPage({ params }: Props) {
                   href={`/curriculum/${trackParam}/${levelParam}`}
                   className="text-xs text-yellow-400 hover:text-yellow-300"
                 >
-                  ← Back to Level {levelNum}
+                  ← {t("curriculumLesson.backToLevel", { level: levelNum })}
                 </Link>
                 <p className="mt-2 font-black text-sm">
                   <span className={`inline-block rounded-full px-2 py-0.5 text-xs border mr-2 ${trackColor}`}>
@@ -174,7 +196,10 @@ export default async function LessonViewerPage({ params }: Props) {
                   </span>
                   Level {levelNum}
                 </p>
-                <p className="text-xs text-slate-400 mt-1">{siblings.length} lessons</p>
+                <p className="text-xs text-slate-400 mt-1">{t(
+                  siblings.length === 1 ? "curriculumLevel.available_one" : "curriculumLevel.available_other",
+                  { count: siblings.length },
+                )}</p>
               </div>
               <div className="divide-y divide-slate-800 max-h-[60vh] overflow-y-auto">
                 {siblings.map((l) => (
@@ -204,11 +229,11 @@ export default async function LessonViewerPage({ params }: Props) {
           {/* Locked lesson */}
           <div className="lg:col-span-3 space-y-6">
             <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
-              <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+              <Link href="/curriculum" className="hover:text-white">{t("nav.curriculum")}</Link>
               <span>/</span>
               <Link href={`/curriculum/${trackParam}`} className="hover:text-white">{meta.trackName}</Link>
               <span>/</span>
-              <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">Level {levelNum}</Link>
+              <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">{t("curriculumTrack.levelLabel", { level: levelNum })}</Link>
               <span>/</span>
               <span className="text-slate-200 truncate max-w-[200px]">{meta.title}</span>
             </nav>
@@ -216,9 +241,9 @@ export default async function LessonViewerPage({ params }: Props) {
             <div>
               <div className="flex flex-wrap items-center gap-3 mb-3">
                 <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border ${trackColor}`}>
-                  {trackCode} · Level {levelNum}
+                  {t("curriculumLevel.badge", { code: trackCode, level: levelNum })}
                 </span>
-                <span className="text-xs text-slate-500">Lesson {meta.lessonNumber} of {siblings.length}</span>
+                <span className="text-xs text-slate-500">{t("curriculumLesson.position", { lessonNumber: meta.lessonNumber, total: siblings.length })}</span>
               </div>
               <h1 className="text-3xl font-black md:text-4xl leading-tight">{meta.title}</h1>
               {meta.summary && (
@@ -229,7 +254,7 @@ export default async function LessonViewerPage({ params }: Props) {
             {/* Locked content gate */}
             <div className="rounded-2xl border border-yellow-500/40 bg-yellow-500/5 p-8 text-center space-y-4">
               <div className="text-4xl">🔒</div>
-              <h2 className="text-xl font-black text-yellow-400">Members Only</h2>
+              <h2 className="text-xl font-black text-yellow-400">{t("curriculumLesson.membersOnly")}</h2>
               <p className="text-slate-300 max-w-lg mx-auto leading-relaxed">
                 {access.lockedMessage}
               </p>
@@ -238,17 +263,17 @@ export default async function LessonViewerPage({ params }: Props) {
                   href={pricingHref}
                   className="rounded-xl bg-yellow-500 px-6 py-3 text-sm font-black text-black hover:bg-yellow-400 transition"
                 >
-                  Become a Member →
+                  {t("curriculumLesson.becomeMember")} →
                 </Link>
                 <Link
                   href="/curriculum"
                   className="rounded-xl border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-300 hover:text-white hover:border-slate-500 transition"
                 >
-                  Browse Free Lessons
+                  {t("curriculumLesson.browseFreeLessons")}
                 </Link>
               </div>
               <p className="text-xs text-slate-500 pt-2">
-                Free preview includes Level 1 lessons 001–003 for every track.
+                {t("curriculumLesson.freePreviewNote")}
               </p>
             </div>
           </div>
@@ -271,7 +296,7 @@ export default async function LessonViewerPage({ params }: Props) {
                 href={`/curriculum/${trackParam}/${levelParam}`}
                 className="text-xs text-yellow-400 hover:text-yellow-300"
               >
-                ← Back to Level {levelNum}
+                ← {t("curriculumLesson.backToLevel", { level: levelNum })}
               </Link>
               <p className="mt-2 font-black text-sm">
                 <span className={`inline-block rounded-full px-2 py-0.5 text-xs border mr-2 ${trackColor}`}>
@@ -279,7 +304,10 @@ export default async function LessonViewerPage({ params }: Props) {
                 </span>
                 Level {levelNum}
               </p>
-              <p className="text-xs text-slate-400 mt-1">{siblings.length} lessons</p>
+              <p className="text-xs text-slate-400 mt-1">{t(
+                siblings.length === 1 ? "curriculumLevel.available_one" : "curriculumLevel.available_other",
+                { count: siblings.length },
+              )}</p>
             </div>
             <div className="divide-y divide-slate-800 max-h-[60vh] overflow-y-auto">
               {siblings.map((l) => (
@@ -311,7 +339,7 @@ export default async function LessonViewerPage({ params }: Props) {
           {/* Breadcrumb */}
           <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
             <Link href="/curriculum" className="hover:text-white">
-              Curriculum
+              {t("nav.curriculum")}
             </Link>
             <span>/</span>
             <Link href={`/curriculum/${trackParam}`} className="hover:text-white">
@@ -331,9 +359,9 @@ export default async function LessonViewerPage({ params }: Props) {
               <span
                 className={`inline-block rounded-full px-3 py-1 text-xs font-bold border ${trackColor}`}
               >
-                {trackCode} · Level {levelNum}
+                {t("curriculumLevel.badge", { code: trackCode, level: levelNum })}
               </span>
-              <span className="text-xs text-slate-500">Lesson {meta.lessonNumber} of {siblings.length}</span>
+              <span className="text-xs text-slate-500">{t("curriculumLesson.position", { lessonNumber: meta.lessonNumber, total: siblings.length })}</span>
               <span className="text-xs text-slate-500">{meta.id}</span>
             </div>
             <h1 className="text-3xl font-black md:text-4xl leading-tight">{meta.title}</h1>
@@ -347,8 +375,8 @@ export default async function LessonViewerPage({ params }: Props) {
 
           {/* Lesson Videos */}
           {videos.length > 0 && (
-            <section aria-label="Lesson Videos">
-              <h2 className="text-xl font-black text-white mb-4">Lesson Videos</h2>
+            <section aria-label={t("curriculumLesson.videosLabel")}>
+          <h2 className="text-xl font-black text-white mb-4">{t("curriculumLesson.videosLabel")}</h2>
               {videos.map((video) => (
                 <LessonVideoPlayer key={video.id} video={video} />
               ))}
@@ -370,7 +398,7 @@ export default async function LessonViewerPage({ params }: Props) {
               >
                 <span className="flex-shrink-0">←</span>
                 <span className="truncate hidden sm:inline">{prev.title}</span>
-                <span className="sm:hidden">Previous</span>
+                <span className="sm:hidden">{t("curriculumLesson.previous")}</span>
               </Link>
             ) : (
               <div />
@@ -380,7 +408,7 @@ export default async function LessonViewerPage({ params }: Props) {
               href={`/curriculum/${trackParam}/${levelParam}`}
               className="text-sm text-slate-400 hover:text-white flex-shrink-0"
             >
-              Level {levelNum}
+              {t("curriculumTrack.levelLabel", { level: levelNum })}
             </Link>
 
             {next ? (
@@ -389,7 +417,7 @@ export default async function LessonViewerPage({ params }: Props) {
                 className="flex items-center gap-2 rounded-xl bg-yellow-500 px-5 py-3 text-sm font-black text-black hover:bg-yellow-400 transition max-w-[45%]"
               >
                 <span className="truncate hidden sm:inline">{next.title}</span>
-                <span className="sm:hidden">Next</span>
+                <span className="sm:hidden">{t("curriculumLesson.next")}</span>
                 <span className="flex-shrink-0">→</span>
               </Link>
             ) : (
@@ -397,7 +425,7 @@ export default async function LessonViewerPage({ params }: Props) {
                 href={`/curriculum/${trackParam}`}
                 className="flex items-center gap-2 rounded-xl bg-green-600 px-5 py-3 text-sm font-black text-white hover:bg-green-500 transition"
               >
-                ✅ Level Complete
+                ✅ {t("curriculumLesson.levelComplete")}
               </Link>
             )}
           </div>
@@ -406,7 +434,7 @@ export default async function LessonViewerPage({ params }: Props) {
           <div className="lg:hidden">
             <details className="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden">
               <summary className="px-5 py-4 cursor-pointer text-sm font-bold text-slate-300 hover:text-white">
-                All lessons in this level ({siblings.length})
+                {t("curriculumLesson.allLessons", { count: siblings.length })}
               </summary>
               <div className="divide-y divide-slate-800 max-h-64 overflow-y-auto border-t border-slate-800">
                 {siblings.map((l) => (

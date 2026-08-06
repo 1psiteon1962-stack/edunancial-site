@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { ACADEMIES } from "@/lib/curriculum/academies";
 import { getTrack } from "@/lib/curriculum/reader";
+import { translate } from "@/lib/international/i18n";
+import { normalizeLanguageCode } from "@/lib/international/languages";
+import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 
 interface Props {
   params: Promise<{ track: string }>;
@@ -12,12 +17,16 @@ interface Props {
 export async function generateStaticParams() {
   // Always include all primary academies so static pages are generated even
   // before lessons exist.
-  return ACADEMIES.map((a) => ({ track: a.code.toLowerCase() }));
+  return ACADEMIES.filter((a) => isPublicCurriculumTrack(a.code)).map((a) => ({
+    track: a.code.toLowerCase(),
+  }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam } = await params;
-  const track = getTrack(trackParam.toUpperCase());
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const track = getTrack(trackParam.toUpperCase(), "free", language);
   if (!track) return { title: "Track Not Found | Edunancial" };
 
   const totalLessons = track.levels.reduce((sum, l) => sum + l.lessonCount, 0);
@@ -53,8 +62,12 @@ const DEFAULT_COLORS = {
 export default async function TrackPage({ params }: Props) {
   const { track: trackParam } = await params;
   const trackCode = trackParam.toUpperCase();
-  const track = getTrack(trackCode);
+  const cookieStore = await cookies();
+  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  if (!isPublicCurriculumTrack(trackCode)) notFound();
+  const track = getTrack(trackCode, "free", language);
   if (!track) notFound();
+  const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
   const colors = TRACK_COLORS[trackCode] ?? DEFAULT_COLORS;
   const totalLessons = track.levels.reduce((sum, l) => sum + l.lessonCount, 0);
@@ -64,7 +77,7 @@ export default async function TrackPage({ params }: Props) {
       <section className="mx-auto max-w-5xl px-6 py-16">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-          <Link href="/curriculum" className="hover:text-white">Curriculum</Link>
+          <Link href="/curriculum" className="hover:text-white">{t("nav.curriculum")}</Link>
           <span>/</span>
           <span className="text-slate-200">{track.name}</span>
         </nav>
@@ -72,15 +85,20 @@ export default async function TrackPage({ params }: Props) {
         {/* Header */}
         <div className="mb-10">
           <span className={`inline-block rounded-full px-3 py-1 text-xs font-bold border mb-4 ${colors.badge}`}>
-            {track.code} Track
+            {t("curriculumTrack.badge", { code: track.code })}
           </span>
           <h1 className={`text-5xl font-black md:text-6xl ${colors.heading}`}>
             {track.name}
           </h1>
           <p className="mt-4 text-slate-300 text-lg">
             {totalLessons > 0
-              ? `${totalLessons} lesson${totalLessons !== 1 ? "s" : ""} across ${track.levels.length} level${track.levels.length !== 1 ? "s" : ""}`
-              : "This track is active. Lessons are being published level by level."}
+              ? t(
+                  totalLessons === 1
+                    ? "curriculumTrack.summary_one"
+                    : "curriculumTrack.summary_other",
+                  { lessonCount: totalLessons, levelCount: track.levels.length },
+                )
+              : t("curriculumTrack.emptySummary")}
           </p>
         </div>
 
@@ -93,23 +111,28 @@ export default async function TrackPage({ params }: Props) {
                 href={`/curriculum/${trackParam}/l${level.level}`}
                 className={`rounded-2xl bg-slate-900 border p-6 transition group ${colors.border}`}
               >
-                <p className="text-sm text-slate-500 mb-1">Level {level.level}</p>
+                <p className="text-sm text-slate-500 mb-1">{t("curriculumTrack.levelLabel", { level: level.level })}</p>
                 <h3 className="text-xl font-black text-white group-hover:text-yellow-400 transition">
                   {track.name} {level.level}
                 </h3>
                 <p className="mt-2 text-sm text-slate-400">
                   {level.lessonCount > 0
-                    ? `${level.lessonCount} lesson${level.lessonCount !== 1 ? "s" : ""}`
-                    : "Lessons coming soon"}
+                    ? t(
+                        level.lessonCount === 1
+                          ? "curriculumTrack.levelCount_one"
+                          : "curriculumTrack.levelCount_other",
+                        { count: level.lessonCount },
+                      )
+                    : t("curriculumTrack.lessonsComingSoon")}
                 </p>
               </Link>
             ))}
           </div>
         ) : (
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-12 text-center">
-            <p className="text-2xl font-bold text-slate-200">Track Active</p>
+            <p className="text-2xl font-bold text-slate-200">{t("curriculumTrack.activeTitle")}</p>
             <p className="mt-3 text-slate-500">
-              {track.name} lessons will appear here as they are published.
+              {t("curriculumTrack.activeBody", { trackName: track.name })}
             </p>
           </div>
         )}
