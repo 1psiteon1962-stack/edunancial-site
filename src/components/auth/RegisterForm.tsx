@@ -7,17 +7,17 @@ import { useInternationalPreferences } from "@/components/international/Internat
 import { useAuth, validatePassword } from "@/lib/authContext";
 
 const COUNTRIES = [
-  "United States",
-  "Canada",
-  "Mexico",
-  "United Kingdom",
-  "Australia",
-  "Nigeria",
-  "Ghana",
-  "Jamaica",
-  "Trinidad and Tobago",
-  "Barbados",
-  "Other",
+  { value: "United States", labelKey: "register.country.unitedStates" },
+  { value: "Canada", labelKey: "register.country.canada" },
+  { value: "Mexico", labelKey: "register.country.mexico" },
+  { value: "United Kingdom", labelKey: "register.country.unitedKingdom" },
+  { value: "Australia", labelKey: "register.country.australia" },
+  { value: "Nigeria", labelKey: "register.country.nigeria" },
+  { value: "Ghana", labelKey: "register.country.ghana" },
+  { value: "Jamaica", labelKey: "register.country.jamaica" },
+  { value: "Trinidad and Tobago", labelKey: "register.country.trinidadAndTobago" },
+  { value: "Barbados", labelKey: "register.country.barbados" },
+  { value: "Other", labelKey: "register.country.other" },
 ];
 
 export default function RegisterForm() {
@@ -185,8 +185,8 @@ export default function RegisterForm() {
               required
             >
               <option value="">{t("register.countryPlaceholder")}</option>
-              {COUNTRIES.map((c) => (
-                <option key={c} value={c}>{c}</option>
+              {COUNTRIES.map((country) => (
+                <option key={country.value} value={country.value}>{t(country.labelKey)}</option>
               ))}
             </select>
           </div>

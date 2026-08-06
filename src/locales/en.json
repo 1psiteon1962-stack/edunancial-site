@@ -682,5 +682,16 @@
   "common.optional": "optional",
   "home.curriculum.body": "RED, WHITE, and BLUE are all active curriculum tracks. Lessons publish independently inside each track.",
   "courses.featuredEmptyBody": "No featured courses are currently published.",
-  "courses.featuredEmptyCta": "Browse Course Catalog"
+  "courses.featuredEmptyCta": "Browse Course Catalog",
+  "register.country.unitedStates": "United States",
+  "register.country.canada": "Canada",
+  "register.country.mexico": "Mexico",
+  "register.country.unitedKingdom": "United Kingdom",
+  "register.country.australia": "Australia",
+  "register.country.nigeria": "Nigeria",
+  "register.country.ghana": "Ghana",
+  "register.country.jamaica": "Jamaica",
+  "register.country.trinidadAndTobago": "Trinidad and Tobago",
+  "register.country.barbados": "Barbados",
+  "register.country.other": "Other"
 }

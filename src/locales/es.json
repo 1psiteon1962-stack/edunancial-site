@@ -682,5 +682,16 @@
   "common.optional": "opcional",
   "home.curriculum.body": "RED, WHITE y BLUE son rutas curriculares activas. Las lecciones se publican de forma independiente dentro de cada ruta.",
   "courses.featuredEmptyBody": "No hay cursos destacados publicados actualmente.",
-  "courses.featuredEmptyCta": "Explorar catálogo de cursos"
+  "courses.featuredEmptyCta": "Explorar catálogo de cursos",
+  "register.country.unitedStates": "Estados Unidos",
+  "register.country.canada": "Canadá",
+  "register.country.mexico": "México",
+  "register.country.unitedKingdom": "Reino Unido",
+  "register.country.australia": "Australia",
+  "register.country.nigeria": "Nigeria",
+  "register.country.ghana": "Ghana",
+  "register.country.jamaica": "Jamaica",
+  "register.country.trinidadAndTobago": "Trinidad y Tobago",
+  "register.country.barbados": "Barbados",
+  "register.country.other": "Otro"
 }
