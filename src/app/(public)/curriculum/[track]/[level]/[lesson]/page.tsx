@@ -12,6 +12,7 @@ import {
 } from "@/lib/curriculum/reader";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { checkLessonAccess } from "@/lib/curriculum/access-gate";
+import LessonVideoPlayer from "@/components/curriculum/LessonVideoPlayer";
 
 interface Props {
   params: Promise<{ track: string; level: string; lesson: string }>;
@@ -137,7 +138,7 @@ export default async function LessonViewerPage({ params }: Props) {
     );
   }
 
-  const { meta, body } = content;
+  const { meta, body, videos } = content;
   const { prev, next } = getLessonNavigation(lessonId);
   const siblings = getLessonsForLevel(trackCode, levelNum);
 
@@ -343,6 +344,16 @@ export default async function LessonViewerPage({ params }: Props) {
               {meta.author} · {meta.date} · Version {meta.version}
             </p>
           </div>
+
+          {/* Lesson Videos */}
+          {videos.length > 0 && (
+            <section aria-label="Lesson Videos">
+              <h2 className="text-xl font-black text-white mb-4">Lesson Videos</h2>
+              {videos.map((video) => (
+                <LessonVideoPlayer key={video.id} video={video} />
+              ))}
+            </section>
+          )}
 
           {/* Lesson content */}
           <article
