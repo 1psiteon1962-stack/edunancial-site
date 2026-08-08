@@ -693,5 +693,17 @@
   "register.country.jamaica": "Jamaica",
   "register.country.trinidadAndTobago": "Trinidad y Tobago",
   "register.country.barbados": "Barbados",
-  "register.country.other": "Otro"
+  "register.country.other": "Otro",
+  "curriculum.level1.title": "Alfabetización Financiera",
+  "curriculum.level2.title": "Competencia Financiera",
+  "curriculum.level3.title": "Aplicación Financiera",
+  "curriculum.level4.title": "Estrategia Financiera",
+  "curriculum.level5.title": "Dominio Financiero",
+  "curriculum.level.label": "Nivel {{level}} — {{title}}",
+  "membership.tier.testDrive": "Prueba gratuita",
+  "membership.tier.basic": "Membresía Básica",
+  "membership.tier.pro": "Membresía Pro",
+  "membership.tier.gold": "Membresía Gold",
+  "membership.testDrive.note": "La prueba gratuita da acceso solo a las lecciones de muestra designadas. Las lecciones de muestra pueden ser de cualquier nivel.",
+  "curriculum.level.freePreviewNote": "La vista previa gratuita incluye las lecciones 001–003 del Nivel 1 para cada pista de lanzamiento."
 }

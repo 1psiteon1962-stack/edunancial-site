@@ -10,10 +10,10 @@
  * getViewerTierFromCookies() to detect member sessions and return their tier.
  */
 
-import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, type CurriculumTier } from "./tier-config";
+import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES, type CurriculumTier } from "./tier-config";
 
 export type { CurriculumTier };
-export { canAccessLesson, getLockedLessonMessage, getPricingTierParam };
+export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES };
 
 // ---------------------------------------------------------------------------
 // Admin session detection (mirrors middleware.ts logic without HMAC verify)
@@ -104,14 +104,16 @@ export interface AccessGateResult {
  * @param lessonLevel   - The lesson's curriculum level (1–5).
  * @param lessonNumber  - The lesson's number within the level (1, 2, 3 …).
  * @param cookieHeader  - The raw Cookie header string from the request.
+ * @param lessonId      - Optional lesson ID (e.g. "RED-L1-001") for Test Drive check.
  */
 export function checkLessonAccess(
   lessonLevel: number,
   lessonNumber: number,
   cookieHeader: string | null | undefined,
+  lessonId?: string,
 ): AccessGateResult {
   const viewerTier = getViewerTierFromCookies(cookieHeader);
-  const allowed = canAccessLesson(lessonLevel, lessonNumber, viewerTier);
+  const allowed = canAccessLesson(lessonLevel, lessonNumber, viewerTier, lessonId);
 
   if (allowed) {
     return { allowed: true, viewerTier };

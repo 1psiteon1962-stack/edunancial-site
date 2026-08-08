@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "الثقافة المالية",
+  "curriculum.level2.title": "الكفاءة المالية",
+  "curriculum.level3.title": "التطبيق المالي",
+  "curriculum.level4.title": "الاستراتيجية المالية",
+  "curriculum.level5.title": "الإتقان المالي",
+  "curriculum.level.label": "المستوى {{level}} — {{title}}",
+  "membership.tier.testDrive": "تجربة مجانية",
+  "membership.tier.basic": "العضوية الأساسية",
+  "membership.tier.pro": "عضوية برو",
+  "membership.tier.gold": "عضوية ذهبية",
+  "membership.testDrive.note": "تتيح التجربة المجانية الوصول فقط إلى الدروس النموذجية المحددة.",
+  "curriculum.level.freePreviewNote": "تتضمن المعاينة المجانية دروس المستوى 1 من 001 إلى 003 لكل مسار."
 }

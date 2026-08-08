@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "金融リテラシー",
+  "curriculum.level2.title": "金融コンピテンシー",
+  "curriculum.level3.title": "金融アプリケーション",
+  "curriculum.level4.title": "金融ストラテジー",
+  "curriculum.level5.title": "金融マスタリー",
+  "curriculum.level.label": "レベル {{level}} — {{title}}",
+  "membership.tier.testDrive": "テストドライブ",
+  "membership.tier.basic": "ベーシックメンバーシップ",
+  "membership.tier.pro": "プロメンバーシップ",
+  "membership.tier.gold": "ゴールドメンバーシップ",
+  "membership.testDrive.note": "テストドライブは指定されたサンプルレッスンのみアクセス可能です。",
+  "curriculum.level.freePreviewNote": "無料プレビューには、各トラックのレベル1のレッスン001～003が含まれます。"
 }

@@ -6,21 +6,46 @@
  * immediately without a code deploy.
  *
  * Tier hierarchy (cumulative / strictly additive):
- *   free  → free preview only (Level 1, lessons 001–003)
- *   basic → Level 1 + Level 2 (plus free preview)
- *   pro   → Levels 1–4 (plus all basic content)
- *   gold  → Levels 1–5 (plus all pro content)
- *   admin → bypasses all gating
+ *   test-drive → only explicitly designated sample lessons (any level)
+ *   basic      → Levels 1–2
+ *   pro        → Levels 1–4 (includes all basic content)
+ *   gold       → Levels 1–5 (includes all pro content)
+ *   admin      → bypasses all gating
+ *
+ * Test Drive is NOT Level 0. A sample lesson can come from any level.
+ * Test Drive provides access only to lessons explicitly marked isSample.
  */
 
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 // ---------------------------------------------------------------------------
+// Canonical curriculum level titles (single source of truth)
+// ---------------------------------------------------------------------------
+
+/**
+ * Official five-level curriculum progression titles.
+ * These are the authoritative English titles; locale files provide translations.
+ * Internal identifiers (level numbers 1–5) are language-neutral.
+ */
+export const CURRICULUM_LEVEL_TITLES: Record<number, string> = {
+  1: "Financial Literacy",
+  2: "Financial Competency",
+  3: "Financial Application",
+  4: "Financial Strategy",
+  5: "Financial Mastery",
+} as const;
+
+/** Returns the canonical display title for a curriculum level number (1–5). */
+export function getLevelTitle(level: number): string {
+  return CURRICULUM_LEVEL_TITLES[level] ?? `Level ${level}`;
+}
+
+// ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
 
-export type CurriculumTier = "free" | "basic" | "pro" | "gold";
+export type CurriculumTier = "free" | "test-drive" | "basic" | "pro" | "gold";
 
 export interface TierLevelConfig {
   version: string;
@@ -34,6 +59,12 @@ export interface TierLevelConfig {
   };
   /** Maps tier name → array of unlocked level numbers */
   mapping: Record<string, number[]>;
+  /**
+   * Lesson IDs that are explicitly designated as Test Drive / sample lessons.
+   * A sample lesson can come from any level. Test Drive members may only access
+   * lessons in this list — not the entire level they belong to.
+   */
+  sampleLessons?: string[];
 }
 
 const CONFIG_PATH = join(process.cwd(), "curriculum", "tier-config.json");
@@ -48,6 +79,7 @@ const DEFAULT_CONFIG: TierLevelConfig = {
     pro: [1, 2, 3, 4],
     gold: [1, 2, 3, 4, 5],
   },
+  sampleLessons: [],
 };
 
 let _cachedConfig: TierLevelConfig | null = null;
@@ -79,25 +111,40 @@ export function invalidateTierConfigCache(): void {
  * Returns true when the viewer (given their membership tier) can read the
  * full body of a lesson identified by its level and lesson number.
  *
- * Gate order (matches Part C spec):
+ * Gate order:
  * 1. Admin → always allowed.
- * 2. Level 1 lessons 001–003 → free preview; any viewer allowed.
- * 3. Otherwise → check tier config mapping.
+ * 2. Test Drive → only sample lessons explicitly listed in sampleLessons[].
+ * 3. Level 1 lessons 001–003 → free preview; any viewer allowed (backward compat).
+ * 4. Otherwise → check tier config mapping.
+ *
+ * @param lessonLevel   - The lesson's curriculum level (1–5).
+ * @param lessonNumber  - The lesson's number within the level.
+ * @param viewerTier    - The viewer's effective membership tier.
+ * @param lessonId      - Optional lesson ID (e.g. "RED-L1-001") for Test Drive check.
  */
 export function canAccessLesson(
   lessonLevel: number,
   lessonNumber: number,
   viewerTier: CurriculumTier | "admin",
+  lessonId?: string,
 ): boolean {
   if (viewerTier === "admin") return true;
 
   const config = readTierConfig();
+
+  // Test Drive: only sample lessons (from any level) — never the whole level
+  if (viewerTier === "test-drive") {
+    if (!lessonId) return false;
+    const sampleLessons = config.sampleLessons ?? [];
+    return sampleLessons.includes(lessonId);
+  }
+
   const fp = config.freePreview;
 
   // Free preview: Level 1, lessons 001–003 (configurable via tier-config.json)
   if (lessonLevel === fp.level && lessonNumber <= fp.maxLesson) return true;
 
-  // No membership
+  // No membership (unauthenticated / free)
   if (viewerTier === "free") return false;
 
   const unlockedLevels: number[] = config.mapping[viewerTier] ?? [];
@@ -132,11 +179,28 @@ export function getRequiredTierForLevel(
 /** Human-readable display labels for each tier */
 export const TIER_LABELS: Record<CurriculumTier | "admin", string> = {
   free: "Free Preview",
+  "test-drive": "Test Drive",
   basic: "Basic Membership",
   pro: "Pro Membership",
   gold: "Gold Membership",
   admin: "Administrator",
 };
+
+/**
+ * Returns true if the given lesson ID is designated as a Test Drive sample lesson.
+ */
+export function isSampleLesson(lessonId: string): boolean {
+  const config = readTierConfig();
+  return (config.sampleLessons ?? []).includes(lessonId);
+}
+
+/**
+ * Returns all lesson IDs currently designated as Test Drive sample lessons.
+ */
+export function getSampleLessons(): string[] {
+  const config = readTierConfig();
+  return config.sampleLessons ?? [];
+}
 
 /**
  * Returns a human-readable description of which tier is required to access

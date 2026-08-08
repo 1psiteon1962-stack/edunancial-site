@@ -456,5 +456,17 @@
   "comingSoon.sponsor.body": "Nous finalisons les détails de notre programme de parrainage pour entrepreneurs. Les conditions du programme seront publiées avant le lancement.",
   "comingSoon.successStories.heading": "Les témoignages de succès arrivent bientôt.",
   "comingSoon.successStories.body": "Des progrès réels de vrais membres — étudiants, familles, entrepreneurs et professionnels développant une compétence financière pratique. Leurs témoignages seront partagés ici.",
-  "comingSoon.successStories.cta": "Devenir Membre"
+  "comingSoon.successStories.cta": "Devenir Membre",
+  "curriculum.level1.title": "Littératie Financière",
+  "curriculum.level2.title": "Compétence Financière",
+  "curriculum.level3.title": "Application Financière",
+  "curriculum.level4.title": "Stratégie Financière",
+  "curriculum.level5.title": "Maîtrise Financière",
+  "curriculum.level.label": "Niveau {{level}} — {{title}}",
+  "membership.tier.testDrive": "Essai gratuit",
+  "membership.tier.basic": "Adhésion de base",
+  "membership.tier.pro": "Adhésion Pro",
+  "membership.tier.gold": "Adhésion Gold",
+  "membership.testDrive.note": "L'essai gratuit donne accès uniquement aux leçons exemples désignées.",
+  "curriculum.level.freePreviewNote": "L'aperçu gratuit comprend les leçons 001–003 du Niveau 1 pour chaque piste de lancement."
 }

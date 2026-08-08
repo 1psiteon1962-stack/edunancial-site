@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "金融识字",
+  "curriculum.level2.title": "金融能力",
+  "curriculum.level3.title": "金融应用",
+  "curriculum.level4.title": "金融策略",
+  "curriculum.level5.title": "金融精通",
+  "curriculum.level.label": "第 {{level}} 级 — {{title}}",
+  "membership.tier.testDrive": "试驾",
+  "membership.tier.basic": "基础会员",
+  "membership.tier.pro": "专业会员",
+  "membership.tier.gold": "黄金会员",
+  "membership.testDrive.note": "试驾仅提供对指定示例课程的访问权限。",
+  "curriculum.level.freePreviewNote": "免费预览包括每个启动课程轨道的第1级课程001–003。"
 }

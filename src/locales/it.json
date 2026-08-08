@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "Alfabetizzazione Finanziaria",
+  "curriculum.level2.title": "Competenza Finanziaria",
+  "curriculum.level3.title": "Applicazione Finanziaria",
+  "curriculum.level4.title": "Strategia Finanziaria",
+  "curriculum.level5.title": "Padronanza Finanziaria",
+  "curriculum.level.label": "Livello {{level}} — {{title}}",
+  "membership.tier.testDrive": "Test Drive",
+  "membership.tier.basic": "Abbonamento Base",
+  "membership.tier.pro": "Abbonamento Pro",
+  "membership.tier.gold": "Abbonamento Gold",
+  "membership.testDrive.note": "Il Test Drive consente l'accesso solo alle lezioni campione designate.",
+  "curriculum.level.freePreviewNote": "L'anteprima gratuita include le lezioni 001–003 del Livello 1 per ogni percorso."
 }
