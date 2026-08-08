@@ -6,7 +6,25 @@ import { dirname, join } from 'node:path';
 import { REPORTS_DIR, repoPath } from './lib/paths.mjs';
 import { listAllAssets, readRegistry } from './lib/registry.mjs';
 
-const ACTIVE_CURRICULUM_LOCALES = ['en-US', 'es', 'fr-CA', 'fr-FR'];
+function loadActiveCurriculumLocales() {
+  const source = readFileSync(
+    repoPath('src/lib/international/languages.ts'),
+    'utf8',
+  );
+  const codes = [];
+  const codePattern = /code:\s*"([^"]+)"/gu;
+
+  for (const match of source.matchAll(codePattern)) {
+    const [, code] = match;
+    if (code && !codes.includes(code)) {
+      codes.push(code);
+    }
+  }
+
+  return codes.length > 0 ? codes : ['en-US'];
+}
+
+const ACTIVE_CURRICULUM_LOCALES = loadActiveCurriculumLocales();
 
 function normalizeCurriculumLocale(locale) {
   if (!locale) return 'en';
