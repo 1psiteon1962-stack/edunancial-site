@@ -219,3 +219,24 @@ export function previewBinaryUpload(name: string, mimeType: string, buffer: Buff
 export function checksumText(value: string) {
   return sha256(Buffer.from(value, "utf8"));
 }
+
+const ENTITY_ID_PATTERN = /^[a-z]+_[0-9a-f-]{36}$/i;
+const WORKSPACE_PATH_PATTERN = /^[a-zA-Z0-9/_\-.]+$/;
+
+export function assertValidEntityId(value: string, label: string) {
+  if (!ENTITY_ID_PATTERN.test(value)) {
+    throw new Error(`Invalid ${label} identifier.`);
+  }
+  return value;
+}
+
+export function assertSafeWorkspacePath(value: string) {
+  const normalized = value.replaceAll("\\", "/").replace(/^\/+/, "");
+  if (!normalized || normalized.includes("../") || normalized.includes("..\\") || normalized.startsWith(".")) {
+    throw new Error("Unsafe workspace path.");
+  }
+  if (!WORKSPACE_PATH_PATTERN.test(normalized)) {
+    throw new Error("Workspace path contains invalid characters.");
+  }
+  return normalized;
+}

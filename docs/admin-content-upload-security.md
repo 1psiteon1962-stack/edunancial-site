@@ -31,3 +31,10 @@ State-changing routes require:
 - approved files are exported only after explicit owner action
 - GitHub export creates a branch + PR and never pushes to `main`
 - curriculum validation blocks GitHub export when fatal curriculum issues are detected
+
+## Deletion and maintenance controls
+- destructive endpoints require the same admin session + CSRF + same-origin protections
+- batch/file identifiers are validated server-side to block ID tampering
+- workspace paths are validated and traversal/object-key manipulation is rejected
+- deletion is scoped to workspace ingestion artifacts only (never merged GitHub/live production content)
+- orphan scan/delete and clear-workspace are audited with structured events

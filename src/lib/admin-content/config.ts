@@ -11,6 +11,9 @@ export const DEFAULT_MAX_COMPRESSION_RATIO = 120;
 export const DEFAULT_SESSION_MAX_AGE_SECONDS = 60 * 60 * 8;
 export const DEFAULT_LOGIN_RATE_LIMIT = { maxRequests: 5, windowMs: 15 * 60 * 1000 };
 export const DEFAULT_UPLOAD_RATE_LIMIT = { maxRequests: 10, windowMs: 15 * 60 * 1000 };
+export const DEFAULT_BULK_DELETE_LIMIT = 100;
+export const DEFAULT_FAILED_BATCH_DELETE_LIMIT = 250;
+export const WORKSPACE_CLEAR_CONFIRMATION = "DELETE ALL WORKSPACE CONTENT";
 
 export const SUPPORTED_LANGUAGES: SupportedLanguage[] = ["en", "es", "fr", "fr-CA"];
 

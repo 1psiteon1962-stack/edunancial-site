@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, unlinkSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 import { DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
@@ -47,6 +47,20 @@ function summarizeBatch(batch: UploadBatch): BatchSummary {
   };
 }
 
+function listLocalWorkspaceEntries() {
+  if (!existsSync(LOCAL_ROOT)) return [] as string[];
+  return readdirSync(LOCAL_ROOT, { recursive: true })
+    .map(String)
+    .filter((entry) => {
+      try {
+        return statSync(join(LOCAL_ROOT, entry)).isFile();
+      } catch {
+        return false;
+      }
+    })
+    .map((entry) => entry.replaceAll("\\", "/"));
+}
+
 class LocalAdminContentStorage implements AdminContentStorage {
   async createBatch(batch: UploadBatch) {
     await this.updateBatch(batch);
@@ -61,6 +75,14 @@ class LocalAdminContentStorage implements AdminContentStorage {
     next.unshift(summary);
     writeJsonFile(localPath(INDEX_FILE), next);
     return batch;
+  }
+
+  async removeBatch(batchId: string) {
+    await this.deleteBinary(`batches/${batchId}.json`);
+  }
+
+  async updateBatchIndex(summaries: BatchSummary[]) {
+    writeJsonFile(localPath(INDEX_FILE), summaries);
   }
 
   async listBatches() {
@@ -79,9 +101,7 @@ class LocalAdminContentStorage implements AdminContentStorage {
 
   async deleteBinary(path: string) {
     const target = localPath(path);
-    if (existsSync(target)) {
-      unlinkSync(target);
-    }
+    rmSync(target, { force: true });
   }
 
   async readBinary(path: string) {
@@ -110,6 +130,10 @@ class LocalAdminContentStorage implements AdminContentStorage {
     // Local file-system storage does not support signed upload URLs.
     // The client falls back to the legacy single-request upload endpoint.
     return null;
+  }
+
+  async listWorkspaceEntries() {
+    return listLocalWorkspaceEntries();
   }
 }
 
@@ -292,6 +316,32 @@ class SupabaseObjectStorage implements AdminContentStorage {
     return response;
   }
 
+  private async listPrefix(prefix: string) {
+    const { url, key } = this.baseUrl;
+    await this.ensureBucketExists();
+    const body = JSON.stringify({
+      prefix: this.objectPath(prefix),
+      limit: 1000,
+      offset: 0,
+      sortBy: { column: "name", order: "asc" },
+    });
+    const response = await fetch(`${url}/storage/v1/object/list/${this.bucket}`, {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + key,
+        apikey: key,
+        "content-type": "application/json",
+      },
+      body,
+      cache: "no-store",
+    });
+    if (!response.ok) {
+      const bodyText = await response.text().catch(() => "");
+      throw new Error(`Supabase storage list failed: ${response.status} ${bodyText}`);
+    }
+    return await response.json() as Array<{ name: string; id?: string | null; metadata?: Record<string, unknown> | null }>;
+  }
+
   private async readJson<T>(path: string, fallback: T) {
     const response = await this.request(this.objectPath(path));
     if (response.status === 404) return fallback;
@@ -318,6 +368,14 @@ class SupabaseObjectStorage implements AdminContentStorage {
     next.unshift(summarizeBatch(batch));
     await this.writeJson(INDEX_FILE, next);
     return batch;
+  }
+
+  async removeBatch(batchId: string) {
+    await this.deleteBinary(`batches/${batchId}.json`);
+  }
+
+  async updateBatchIndex(summaries: BatchSummary[]) {
+    await this.writeJson(INDEX_FILE, summaries);
   }
 
   async listBatches() {
@@ -435,6 +493,29 @@ class SupabaseObjectStorage implements AdminContentStorage {
 
     console.log(`[storage] getSignedUploadUrl OK path=${path} signedUrl=${resolvedUrl.substring(0, 120)}...`);
     return resolvedUrl;
+  }
+
+  async listWorkspaceEntries() {
+    const queue = [""];
+    const files: string[] = [];
+    const visited = new Set<string>();
+    while (queue.length > 0) {
+      const prefix = queue.shift() ?? "";
+      if (visited.has(prefix)) continue;
+      visited.add(prefix);
+      const entries = await this.listPrefix(prefix);
+      for (const entry of entries) {
+        if (!entry?.name) continue;
+        const nextPath = `${prefix}${entry.name}`;
+        const isFolder = !entry.id && !entry.metadata;
+        if (isFolder) {
+          queue.push(`${nextPath}/`);
+        } else {
+          files.push(nextPath.replaceAll("\\", "/"));
+        }
+      }
+    }
+    return files;
   }
 }
 

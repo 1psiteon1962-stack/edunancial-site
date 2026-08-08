@@ -162,6 +162,24 @@ After merging and deploying, verify on the live production website:
 
 ---
 
+## 14. Workspace deletion and maintenance
+
+Use `/admin/content/maintenance` for cleanup operations:
+- Delete failed batches quickly
+- Scan for orphaned workspace objects
+- Delete orphaned workspace objects
+- Clear the full content workspace (high-risk)
+
+For exported batches, the portal shows extra warnings before deletion. Deleting workspace data does **not** delete merged GitHub content or production website content.
+
+High-risk clear-workspace requires typing:
+
+`DELETE ALL WORKSPACE CONTENT`
+
+before the server executes deletion.
+
+---
+
 ## Post-publish verification checklist
 
 - [ ] Course appears in correct Academy (Red / White / Blue)
@@ -176,4 +194,3 @@ After merging and deploying, verify on the live production website:
 - [ ] Navigation links function correctly
 - [ ] Course displays correctly on mobile
 - [ ] Course displays correctly on desktop
-

@@ -164,6 +164,16 @@ export interface AuditEvent {
     | "github-branch-created"
     | "github-pr-opened"
     | "batch-published"
+    | "content_file_deleted"
+    | "content_files_bulk_deleted"
+    | "content_batch_deleted"
+    | "content_batches_bulk_deleted"
+    | "failed_batches_deleted"
+    | "workspace_cleared"
+    | "content_batch_restored"
+    | "content_batch_purged"
+    | "workspace_orphans_scanned"
+    | "workspace_orphans_deleted"
     | "system-error";
   result: "success" | "failure" | "warning";
   actor: string;
