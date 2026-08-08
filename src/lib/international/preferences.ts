@@ -43,16 +43,28 @@ export function loadSessionLanguageOverride(): string | null {
   return sessionStorage.getItem(SESSION_LANGUAGE_KEY);
 }
 
-/** Stores a session-only language override in sessionStorage. */
+/** Stores a session-only language override in sessionStorage AND as a session
+ *  cookie so that server-rendered pages (e.g. curriculum, course pages) also
+ *  see the change without requiring a full page reload. */
 export function saveSessionLanguageOverride(locale: string): void {
   if (!isClient()) return;
   sessionStorage.setItem(SESSION_LANGUAGE_KEY, locale);
+  // Session cookie (no max-age) so it expires when the browser tab closes.
+  document.cookie = `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(locale)}; path=/; SameSite=Lax`;
 }
 
-/** Removes the session-only language override. */
+/** Removes the session-only language override from sessionStorage and clears
+ *  the session cookie so server-rendered pages revert to the saved default. */
 export function clearSessionLanguageOverride(): void {
   if (!isClient()) return;
   sessionStorage.removeItem(SESSION_LANGUAGE_KEY);
+  // Remove only if there is no saved default that should replace it.
+  const saved = localStorage.getItem(SAVED_LANGUAGE_KEY);
+  if (saved) {
+    document.cookie = `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(saved)}; path=/; max-age=${365 * 24 * 60 * 60}; SameSite=Lax`;
+  } else {
+    document.cookie = `${LANGUAGE_COOKIE_NAME}=; path=/; max-age=0; SameSite=Lax`;
+  }
 }
 
 // ---------------------------------------------------------------------------
