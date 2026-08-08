@@ -23,6 +23,7 @@ import {
 } from "@/lib/adaptive-learning";
 import {
   getLocalizedLessonTitle,
+  getLocalizedLessonDescription,
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
   type CurriculumLocale,
@@ -178,7 +179,7 @@ function _buildLesson(
     id: record.id,
     courseId,
     title: getLocalizedLessonTitle(record.id, locale, record.title),
-    description: locale === "en" ? record.metadata["description"] ?? "" : "",
+    description: getLocalizedLessonDescription(record.id, locale, record.metadata["description"] ?? ""),
     duration: record.metadata["duration"] ?? "—",
     notes: record.metadata["notes"] ?? "",
     transcript: record.metadata["transcript"] ?? null,

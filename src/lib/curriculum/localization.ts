@@ -957,3 +957,25 @@ export function getLocalizedLessonTitle(lessonId: string, locale: CurriculumLoca
   if (!entry) return fallbackTitle;
   return resolveLocalizedValue({ en: fallbackTitle, ...entry }, locale);
 }
+
+/**
+ * Translations for lesson descriptions, keyed by stable lesson ID.
+ * "en" is derived from the canonical registry metadata at runtime (fallbackDescription).
+ * Add translated entries here as translations become available.
+ */
+const LESSON_DESCRIPTION_COPY: Record<string, Partial<Record<string, string>>> = {};
+
+/**
+ * Resolve a lesson description for the given locale.
+ * Falls back through: exact locale → base language → English (fallbackDescription).
+ * Never returns blank when a canonical English description exists.
+ */
+export function getLocalizedLessonDescription(
+  lessonId: string,
+  locale: CurriculumLocale,
+  fallbackDescription: string,
+): string {
+  const entry = LESSON_DESCRIPTION_COPY[lessonId];
+  if (!entry) return fallbackDescription;
+  return resolveLocalizedValue({ en: fallbackDescription, ...entry }, locale);
+}
