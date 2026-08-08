@@ -20,6 +20,9 @@
     "pro": [1, 2, 3, 4],
     "gold": [1, 2, 3, 4, 5]
   },
-  "sampleLessons": [],
+  "sampleLessons": [
+    "RED-L1-001",
+    "GOLD-L1-002"
+  ],
   "_note_testDrive": "Test Drive provides access only to lessons whose IDs appear in sampleLessons[]. A sample lesson can come from any level; listing it here does NOT unlock the entire level for Test Drive members."
 }

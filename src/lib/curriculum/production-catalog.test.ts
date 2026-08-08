@@ -103,3 +103,13 @@ test("lesson descriptions are non-empty for regional Spanish (es-PR) locale", ()
     }
   }
 });
+
+test("production lesson maps use file-backed localized lesson summaries when available", () => {
+  const lessons = getLocalizedLessonList("es-PR");
+  const lesson = lessons.find((entry) => entry.id === "GOLD-L1-002");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.title, "Entiende tu patrimonio neto");
+  assert.match(lesson?.description ?? "", /patrimonio neto/);
+  assert.equal(lesson?.localization?.resolvedLocale, "es-PR");
+});

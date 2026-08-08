@@ -96,13 +96,15 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       // delimiters) by the preview extractor, which breaks front-matter parsing
       // in detectCurriculumAsset and validateCurriculumFiles.
       const originalContent = Buffer.from(file.encodedContent, "base64").toString("utf8");
-      const curriculumAsset = file.extension === ".md" ? await detectCurriculumAsset(originalContent) : null;
+      const curriculumAsset = file.extension === ".md"
+        ? await detectCurriculumAsset(originalContent, file.originalFilename)
+        : null;
       const bundledLessons =
         file.extension === ".md" && !curriculumAsset
           ? await detectBundledCurriculumLessons(originalContent)
           : [];
       const resolvedDestination = curriculumAsset
-        ? curriculumAsset.canonicalPath
+        ? curriculumAsset.destinationPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
       return { ...file, resolvedDestination, curriculumAsset, bundledLessons };
     }),
@@ -202,7 +204,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     // must not be created — a partial commit (content without registry) would
     // leave the lesson unreachable on the live site and break the pipeline.
     const existingRegistry = await fetchCurrentRegistry();
-    const directEntries = curriculumFiles.map((file) => {
+    const directEntries = curriculumFiles
+      .filter((file) => !file.curriculumAsset?.locale)
+      .map((file) => {
       const contentBytes = Buffer.from(file.encodedContent, "base64");
       return buildRegistryEntry(
         file.curriculumAsset!,
@@ -211,7 +215,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         ingestionTimestamp,
         file.checksum ? `sha256:${file.checksum}` : undefined,
       );
-    });
+      });
     const bundledEntries = bundledCurriculumFiles.map((file) => {
       const contentBytes = Buffer.from(file.content, "utf8");
       return buildRegistryEntry(file.asset, contentBytes, ingestionId, ingestionTimestamp);

@@ -163,13 +163,13 @@ export default async function LessonViewerPage({ params }: Props) {
   }
 
   const { meta, body, videos } = content;
-  const { prev, next } = getLessonNavigation(lessonId);
+  const { prev, next } = getLessonNavigation(lessonId, language);
   const siblings = getLessonsForLevel(trackCode, levelNum, "free", language);
 
   const trackColor = TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10";
 
   // ── Server-side access gate ───────────────────────────────────────────────
-  const access = checkLessonAccess(meta.level, meta.lessonNumber, cookieHeader);
+  const access = checkLessonAccess(meta.level, meta.lessonNumber, cookieHeader, meta.id);
 
   if (!access.allowed) {
     // Render locked lesson view — body content is never passed to the client
@@ -194,7 +194,7 @@ export default async function LessonViewerPage({ params }: Props) {
                   <span className={`inline-block rounded-full px-2 py-0.5 text-xs border mr-2 ${trackColor}`}>
                     {trackCode}
                   </span>
-                  Level {levelNum}
+                  {t("curriculumTrack.levelLabel", { level: levelNum })}
                 </p>
                 <p className="text-xs text-slate-400 mt-1">{t(
                   siblings.length === 1 ? "curriculumLevel.available_one" : "curriculumLevel.available_other",
@@ -302,7 +302,7 @@ export default async function LessonViewerPage({ params }: Props) {
                 <span className={`inline-block rounded-full px-2 py-0.5 text-xs border mr-2 ${trackColor}`}>
                   {trackCode}
                 </span>
-                Level {levelNum}
+                {t("curriculumTrack.levelLabel", { level: levelNum })}
               </p>
               <p className="text-xs text-slate-400 mt-1">{t(
                 siblings.length === 1 ? "curriculumLevel.available_one" : "curriculumLevel.available_other",
@@ -347,7 +347,7 @@ export default async function LessonViewerPage({ params }: Props) {
             </Link>
             <span>/</span>
             <Link href={`/curriculum/${trackParam}/${levelParam}`} className="hover:text-white">
-              Level {levelNum}
+              {t("curriculumTrack.levelLabel", { level: levelNum })}
             </Link>
             <span>/</span>
             <span className="text-slate-200 truncate max-w-[200px]">{meta.title}</span>

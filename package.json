@@ -10,6 +10,7 @@
     "curriculum:import": "node scripts/curriculum/import.mjs",
     "curriculum:validate": "node scripts/curriculum/validate.mjs",
     "curriculum:audit": "node scripts/curriculum/audit.mjs",
+    "curriculum:localization": "node scripts/curriculum/localization-report.mjs",
     "curriculum:locate": "node scripts/curriculum/locate.mjs",
     "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
     "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",

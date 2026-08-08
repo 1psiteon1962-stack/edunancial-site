@@ -160,6 +160,7 @@ async function processFile(file) {
   }
 
   result.assetId = parsed.id;
+  const localizedFileLocale = file.name.match(/\.([A-Za-z0-9-]+)\.md$/u)?.[1] ?? null;
 
   const validation = validateAsset(file.content, parsed.id);
   if (!validation.valid && validation.errors.length > 0) {
@@ -210,6 +211,48 @@ async function processFile(file) {
   const existing = getAsset(registry, parsed.id);
   const newChecksum = checksumBuffer(Buffer.from(file.content, 'utf8'));
   const newVersion = meta.version || '1.0';
+
+  if (localizedFileLocale) {
+    if (!existing) {
+      result.outcome = 'rejected';
+      result.error = `Cannot import localized lesson ${file.name} before canonical asset ${parsed.id} exists in the registry.`;
+      log.error(`[REJECTED] ${file.name}: ${result.error}`);
+      appendLedgerEntry({
+        ingestionId,
+        timestamp: ingestionTimestamp,
+        operation: 'reject',
+        assetId: parsed.id,
+        assetVersion: newVersion,
+        source: result.source,
+        outcome: 'rejected',
+        reason: result.error,
+      });
+      return result;
+    }
+
+    const canonicalRelative = assetPath(parsed);
+    const destinationRelative = canonicalRelative.replace(/\.md$/u, `.${localizedFileLocale}.md`);
+    const destinationAbsolute = repoPath(destinationRelative);
+    mkdirSync(dirname(destinationAbsolute), { recursive: true });
+    writeFileSync(destinationAbsolute, file.content, 'utf8');
+
+    appendLedgerEntry({
+      ingestionId,
+      timestamp: ingestionTimestamp,
+      operation: 'localize',
+      assetId: parsed.id,
+      assetVersion: newVersion,
+      source: result.source,
+      destination: destinationRelative,
+      checksum: newChecksum,
+      outcome: 'success',
+      reason: `Localized variant imported for locale ${localizedFileLocale}`,
+    });
+
+    result.outcome = 'localized';
+    log.ok(`[LOCALIZED] ${parsed.id} -> ${destinationRelative}`);
+    return result;
+  }
 
   if (existing) {
     if (existing.checksum === newChecksum) {

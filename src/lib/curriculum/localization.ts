@@ -35,6 +35,24 @@ export function resolveCurriculumLocale(languageCode: string): CurriculumLocale 
   return normalizeLanguageCode(languageCode) || "en";
 }
 
+export function getCurriculumLocaleFallbackChain(
+  languageOrLocale: string,
+): CurriculumLocale[] {
+  const resolved = resolveCurriculumLocale(languageOrLocale);
+  const chain: CurriculumLocale[] = [resolved];
+  const base = resolved.split("-")[0];
+
+  if (base && base !== resolved) {
+    chain.push(base);
+  }
+
+  if (!chain.includes("en")) {
+    chain.push("en");
+  }
+
+  return chain;
+}
+
 /**
  * Resolve a LocalizedValue to a string for the given locale.
  * Tries: exact locale → base language (strip region/script) → "en" → first available value.

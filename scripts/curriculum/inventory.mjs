@@ -2,8 +2,8 @@
 // scripts/curriculum/inventory.mjs
 // Generates curriculum/inventory.json from registry.
 
-import { mkdirSync, writeFileSync } from 'node:fs';
-import { dirname } from 'node:path';
+import { mkdirSync, readdirSync, writeFileSync } from 'node:fs';
+import { basename, dirname, join } from 'node:path';
 import { log } from './lib/logger.mjs';
 import { INVENTORY_PATH } from './lib/paths.mjs';
 import { listAllAssets, readRegistry } from './lib/registry.mjs';
@@ -15,12 +15,32 @@ const assets = listAllAssets(registry);
 
 const byTrack = {};
 const levelsSeen = new Set();
+let localizedVariantCount = 0;
+
+function listLocalizedVariants(relativeCanonicalPath) {
+  const absolutePath = repoPath(relativeCanonicalPath);
+  const directory = dirname(absolutePath);
+  const canonicalBase = basename(absolutePath).replace(/\.md$/u, '');
+  return readdirSync(directory)
+    .filter((name) => name.startsWith(`${canonicalBase}.`) && name.endsWith('.md'))
+    .map((name) => {
+      const localeMatch = name.match(/\.([A-Za-z0-9-]+)\.md$/u);
+      return {
+        locale: localeMatch?.[1] ?? 'unknown',
+        path: join(directory, name).replace(`${process.cwd()}/`, ''),
+      };
+    });
+}
+
 for (const asset of assets) {
   if (!byTrack[asset.trackCode]) {
-    byTrack[asset.trackCode] = { name: asset.trackName || asset.trackCode, totalLessons: 0 };
+    byTrack[asset.trackCode] = { name: asset.trackName || asset.trackCode, totalLessons: 0, localizedVariants: 0 };
   }
   byTrack[asset.trackCode].totalLessons += 1;
   levelsSeen.add(`${asset.trackCode}:L${asset.level}`);
+  const variants = listLocalizedVariants(asset.path);
+  localizedVariantCount += variants.length;
+  byTrack[asset.trackCode].localizedVariants += variants.length;
 }
 
 const inventory = {
@@ -29,9 +49,11 @@ const inventory = {
     totalLessons: assets.length,
     totalTracks: Object.keys(byTrack).length,
     totalLevels: levelsSeen.size,
+    localizedVariants: localizedVariantCount,
     byTrack,
   },
   assets: assets.map((asset) => ({
+    localizations: listLocalizedVariants(asset.path),
     id: asset.assetId,
     type: asset.type,
     track: asset.trackCode,
