@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "Ujuzi wa Fedha",
+  "curriculum.level2.title": "Uwezo wa Fedha",
+  "curriculum.level3.title": "Matumizi ya Fedha",
+  "curriculum.level4.title": "Mkakati wa Fedha",
+  "curriculum.level5.title": "Ustadi wa Fedha",
+  "curriculum.level.label": "Kiwango {{level}} — {{title}}",
+  "membership.tier.testDrive": "Jaribu Bure",
+  "membership.tier.basic": "Uanachama wa Msingi",
+  "membership.tier.pro": "Uanachama wa Pro",
+  "membership.tier.gold": "Uanachama wa Dhahabu",
+  "membership.testDrive.note": "Jaribio hili linatoa ufikiaji wa masomo ya mfano yaliyochaguliwa tu.",
+  "curriculum.level.freePreviewNote": "Hakiki ya bure inajumuisha masomo 001–003 ya Kiwango 1 kwa kila wimbo."
 }

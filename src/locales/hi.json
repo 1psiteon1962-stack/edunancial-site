@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "वित्तीय साक्षरता",
+  "curriculum.level2.title": "वित्तीय दक्षता",
+  "curriculum.level3.title": "वित्तीय अनुप्रयोग",
+  "curriculum.level4.title": "वित्तीय रणनीति",
+  "curriculum.level5.title": "वित्तीय निपुणता",
+  "curriculum.level.label": "स्तर {{level}} — {{title}}",
+  "membership.tier.testDrive": "टेस्ट ड्राइव",
+  "membership.tier.basic": "बेसिक सदस्यता",
+  "membership.tier.pro": "प्रो सदस्यता",
+  "membership.tier.gold": "गोल्ड सदस्यता",
+  "membership.testDrive.note": "टेस्ट ड्राइव केवल नामित नमूना पाठों तक पहुँच देता है।",
+  "curriculum.level.freePreviewNote": "निःशुल्क पूर्वावलोकन में प्रत्येक ट्रैक के स्तर 1 के पाठ 001–003 शामिल हैं।"
 }

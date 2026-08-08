@@ -447,5 +447,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "Konesans Finansyèl",
+  "curriculum.level2.title": "Konpetans Finansyèl",
+  "curriculum.level3.title": "Aplikasyon Finansyèl",
+  "curriculum.level4.title": "Estrateji Finansyèl",
+  "curriculum.level5.title": "Mètrize Finansyèl",
+  "curriculum.level.label": "Nivo {{level}} — {{title}}",
+  "membership.tier.testDrive": "Test Drive",
+  "membership.tier.basic": "Manm Debaz",
+  "membership.tier.pro": "Manm Pro",
+  "membership.tier.gold": "Manm Gold",
+  "membership.testDrive.note": "Test Drive bay aksè sèlman nan leson echantiyon ki deziyen yo.",
+  "curriculum.level.freePreviewNote": "Apèsi gratis la gen ladan leson 001–003 Nivo 1 pou chak pis lanse."
 }

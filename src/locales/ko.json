@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "금융 리터러시",
+  "curriculum.level2.title": "금융 역량",
+  "curriculum.level3.title": "금융 응용",
+  "curriculum.level4.title": "금융 전략",
+  "curriculum.level5.title": "금융 마스터리",
+  "curriculum.level.label": "레벨 {{level}} — {{title}}",
+  "membership.tier.testDrive": "테스트 드라이브",
+  "membership.tier.basic": "기본 멤버십",
+  "membership.tier.pro": "프로 멤버십",
+  "membership.tier.gold": "골드 멤버십",
+  "membership.testDrive.note": "테스트 드라이브는 지정된 샘플 레슨만 이용 가능합니다.",
+  "curriculum.level.freePreviewNote": "무료 미리보기에는 각 트랙의 레벨 1 레슨 001–003이 포함됩니다."
 }

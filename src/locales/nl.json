@@ -446,5 +446,17 @@
   "comingSoon.sponsor.body": "We are finalizing the details of our entrepreneur sponsorship program. Program terms will be published before launch.",
   "comingSoon.successStories.heading": "Success stories are on the way.",
   "comingSoon.successStories.body": "Real progress from real members — students, families, entrepreneurs, and professionals building practical financial competency. Their stories will be shared here.",
-  "comingSoon.successStories.cta": "Become a Member"
+  "comingSoon.successStories.cta": "Become a Member",
+  "curriculum.level1.title": "Financiële Geletterdheid",
+  "curriculum.level2.title": "Financiële Bekwaamheid",
+  "curriculum.level3.title": "Financiële Toepassing",
+  "curriculum.level4.title": "Financiële Strategie",
+  "curriculum.level5.title": "Financiële Beheersing",
+  "curriculum.level.label": "Niveau {{level}} — {{title}}",
+  "membership.tier.testDrive": "Test Drive",
+  "membership.tier.basic": "Basislidmaatschap",
+  "membership.tier.pro": "Pro-lidmaatschap",
+  "membership.tier.gold": "Gold-lidmaatschap",
+  "membership.testDrive.note": "Test Drive geeft alleen toegang tot aangewezen voorbeeldlessen.",
+  "curriculum.level.freePreviewNote": "De gratis preview omvat lessen 001–003 van Niveau 1 voor elk introductiepad."
 }

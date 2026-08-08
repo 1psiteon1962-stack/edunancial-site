@@ -693,5 +693,17 @@
   "register.country.jamaica": "Jamaica",
   "register.country.trinidadAndTobago": "Trinidad and Tobago",
   "register.country.barbados": "Barbados",
-  "register.country.other": "Other"
+  "register.country.other": "Other",
+  "curriculum.level1.title": "Financial Literacy",
+  "curriculum.level2.title": "Financial Competency",
+  "curriculum.level3.title": "Financial Application",
+  "curriculum.level4.title": "Financial Strategy",
+  "curriculum.level5.title": "Financial Mastery",
+  "curriculum.level.label": "Level {{level}} — {{title}}",
+  "membership.tier.testDrive": "Test Drive",
+  "membership.tier.basic": "Basic Membership",
+  "membership.tier.pro": "Pro Membership",
+  "membership.tier.gold": "Gold Membership",
+  "membership.testDrive.note": "Test Drive provides access to designated sample lessons only. Sample lessons may come from any level.",
+  "curriculum.level.freePreviewNote": "Free preview includes Level 1 lessons 001–003 for every launch track."
 }
