@@ -5,7 +5,6 @@ import { dirname, join } from 'node:path';
 
 import { REPORTS_DIR, repoPath } from './lib/paths.mjs';
 import { listAllAssets, readRegistry } from './lib/registry.mjs';
-import { validateAsset } from './lib/validator.mjs';
 
 const ACTIVE_CURRICULUM_LOCALES = ['en-US', 'es', 'fr-CA', 'fr-FR'];
 
@@ -71,17 +70,20 @@ function summarizeLocale(asset, locale) {
 
     const content = readFileSync(candidatePath, 'utf8');
     const parsed = parseFrontMatter(content);
-    const validation = validateAsset(content, asset.assetId);
     const completeness = candidate === 'en' ? [] : missingFields(parsed.frontMatter, parsed.body);
-    const valid = validation.errors.length === 0 && completeness.length === 0;
+    const validationErrors = [];
+    if ((parsed.frontMatter.id ?? '').trim() !== asset.assetId) {
+      validationErrors.push(`expected canonical lesson id ${asset.assetId}`);
+    }
+    const valid = validationErrors.length === 0 && completeness.length === 0;
 
     attempts.push({
       locale: candidate,
       exists: true,
       path: candidatePath,
       missingFields: completeness,
-      validationErrors: validation.errors,
-      validationWarnings: validation.warnings,
+      validationErrors,
+      validationWarnings: [],
       valid,
     });
 

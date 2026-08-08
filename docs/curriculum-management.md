@@ -111,6 +111,7 @@ Additions in `package.json`:
 npm run curriculum:import -- <path>
 npm run curriculum:validate
 npm run curriculum:audit
+npm run curriculum:localization
 npm run curriculum:locate -- <asset-id>
 npm run curriculum:inventory
 npm run curriculum:migrate-legacy
@@ -156,6 +157,22 @@ It detects:
 - checksum drift
 - duplicate IDs
 - non-canonical paths
+
+### Localization Coverage
+
+`npm run curriculum:localization` audits active canonical lessons against the live curriculum locales currently exposed by the site language selector and writes:
+
+- `curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.json`
+- `curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.md`
+
+Coverage tracks:
+
+- canonical lesson presence
+- exact-locale localized files
+- base-language fallback usage
+- English fallback usage
+- title / summary / body completeness
+- localized-file validation failures
 
 ### Locate
 
@@ -221,6 +238,63 @@ Required lesson sections:
 - `Core Content`
 
 Answer keys must never appear in the lesson body. They must live in separate assets.
+
+### Localized Lesson Format
+
+English source files remain canonical:
+
+```text
+content/curriculum/GOLD/L1/GOLD-L1-002.md
+```
+
+Localized lesson bodies must stay beside the canonical file and keep the same lesson ID:
+
+```text
+content/curriculum/GOLD/L1/GOLD-L1-002.es.md
+content/curriculum/GOLD/L1/GOLD-L1-002.fr.md
+content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md
+```
+
+Rules:
+
+- keep the canonical lesson ID, track, level, and lesson number in front matter
+- translate the full lesson content object, not just the title
+- localized files must include non-empty `title`, `summary`, and body content
+- do **not** create separate lesson IDs per translation
+
+### Locale Resolution Order
+
+Curriculum lesson loading resolves localized markdown in this order:
+
+1. exact locale (example: `es-PR`)
+2. base language (example: `es`)
+3. canonical English source (`.md`)
+
+Examples:
+
+- `es-PR -> es -> en`
+- `fr-CA -> fr -> en`
+
+Diagnostics preserve both the requested locale and the resolved locale so the app can distinguish exact translation, base fallback, and canonical English fallback.
+
+### Registry, Inventory, and Progress Identity
+
+- `curriculum/registry.json` indexes only the canonical lesson record for each lesson ID.
+- `curriculum/inventory.json` now records localized sibling files under each canonical lesson without creating duplicate lesson IDs.
+- progress, entitlements, navigation, and lesson identity must always remain bound to the canonical lesson ID (for example `GOLD-L1-002`) even when localized files are rendered.
+
+### Adding a Translation
+
+1. Start from the canonical English lesson file.
+2. Create a localized sibling file using the locale suffix format above.
+3. Preserve canonical identifiers in front matter.
+4. Translate `title`, `summary`, and the full lesson body.
+5. Run:
+   - `npm run curriculum:validate`
+   - `npm run curriculum:localization`
+   - `npm run curriculum:inventory`
+
+Localized imports through curriculum tooling preserve the canonical registry entry and write the localized sibling file instead of inventing a new lesson ID.
 
 ## ZIP Security Controls
 

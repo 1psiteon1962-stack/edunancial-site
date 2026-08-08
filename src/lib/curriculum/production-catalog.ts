@@ -22,11 +22,12 @@ import {
   type AdaptiveTrackCode,
 } from "@/lib/adaptive-learning";
 import {
+  getLocalizedLessonTitle,
+  getLocalizedLessonDescription,
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
   type CurriculumLocale,
 } from "@/lib/curriculum/localization";
-import { getLessonMeta, type LessonLocalizationDiagnostics } from "@/lib/curriculum/reader";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -74,7 +75,6 @@ export interface ProductionLesson {
   downloadUrl: string | null;
   quizId: string | null;
   videoUrl: string;
-  localization: LessonLocalizationDiagnostics | null;
 }
 
 /**
@@ -175,19 +175,17 @@ function _buildLesson(
   locale: CurriculumLocale = "en",
 ): ProductionLesson {
   const courseId = TRACK_TO_COURSE_ID[record.track] ?? record.track.toLowerCase();
-  const meta = getLessonMeta(record.id, locale);
   return {
     id: record.id,
     courseId,
-    title: meta?.title ?? record.title,
-    description: meta?.summary ?? record.metadata["description"] ?? "",
+    title: getLocalizedLessonTitle(record.id, locale, record.title),
+    description: getLocalizedLessonDescription(record.id, locale, record.metadata["description"] ?? ""),
     duration: record.metadata["duration"] ?? "—",
     notes: record.metadata["notes"] ?? "",
     transcript: record.metadata["transcript"] ?? null,
     downloadUrl: record.metadata["downloadUrl"] ?? null,
     quizId: record.metadata["quizId"] ?? null,
     videoUrl: record.metadata["videoUrl"] ?? "",
-    localization: meta?.localization ?? null,
   };
 }
 

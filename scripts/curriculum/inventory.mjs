@@ -5,7 +5,7 @@
 import { mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 import { log } from './lib/logger.mjs';
-import { INVENTORY_PATH } from './lib/paths.mjs';
+import { INVENTORY_PATH, repoPath } from './lib/paths.mjs';
 import { listAllAssets, readRegistry } from './lib/registry.mjs';
 
 log.section('Curriculum Inventory Generator');
@@ -22,6 +22,7 @@ function listLocalizedVariants(relativeCanonicalPath) {
   const directory = dirname(absolutePath);
   const canonicalBase = basename(absolutePath).replace(/\.md$/u, '');
   return readdirSync(directory)
+    .filter((name) => name !== `${canonicalBase}.md`)
     .filter((name) => name.startsWith(`${canonicalBase}.`) && name.endsWith('.md'))
     .map((name) => {
       const localeMatch = name.match(/\.([A-Za-z0-9-]+)\.md$/u);

@@ -4,43 +4,53 @@
     "totalLessons": 127,
     "totalTracks": 8,
     "totalLevels": 8,
+    "localizedVariants": 3,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
-        "totalLessons": 25
+        "totalLessons": 25,
+        "localizedVariants": 0
       },
       "WHITE": {
         "name": "Paper Assets",
-        "totalLessons": 26
+        "totalLessons": 26,
+        "localizedVariants": 0
       },
       "BLUE": {
         "name": "Business",
-        "totalLessons": 26
+        "totalLessons": 26,
+        "localizedVariants": 0
       },
       "GREEN": {
         "name": "Taxes",
-        "totalLessons": 10
+        "totalLessons": 10,
+        "localizedVariants": 0
       },
       "GOLD": {
         "name": "Investing",
-        "totalLessons": 10
+        "totalLessons": 10,
+        "localizedVariants": 3
       },
       "PURPLE": {
         "name": "Law",
-        "totalLessons": 10
+        "totalLessons": 10,
+        "localizedVariants": 0
       },
       "ORANGE": {
         "name": "Sales & Marketing",
-        "totalLessons": 10
+        "totalLessons": 10,
+        "localizedVariants": 0
       },
       "BLACK": {
         "name": "Leadership & Executive Management",
-        "totalLessons": 10
+        "totalLessons": 10,
+        "localizedVariants": 0
       }
     }
   },
   "assets": [
     {
+      "localizations": [],
       "id": "RED-L1-001",
       "type": "lesson",
       "track": "RED",
@@ -54,6 +64,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-002",
       "type": "lesson",
       "track": "RED",
@@ -67,6 +78,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-003",
       "type": "lesson",
       "track": "RED",
@@ -80,6 +92,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-004",
       "type": "lesson",
       "track": "RED",
@@ -93,6 +106,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-005",
       "type": "lesson",
       "track": "RED",
@@ -106,6 +120,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-006",
       "type": "lesson",
       "track": "RED",
@@ -119,6 +134,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-007",
       "type": "lesson",
       "track": "RED",
@@ -132,6 +148,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-008",
       "type": "lesson",
       "track": "RED",
@@ -145,6 +162,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-009",
       "type": "lesson",
       "track": "RED",
@@ -158,6 +176,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-010",
       "type": "lesson",
       "track": "RED",
@@ -171,6 +190,7 @@
       "importedAt": "2026-07-30T17:57:32.246Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-011",
       "type": "lesson",
       "track": "RED",
@@ -184,6 +204,7 @@
       "importedAt": "2026-08-05T01:52:22.401Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-012",
       "type": "lesson",
       "track": "RED",
@@ -197,6 +218,7 @@
       "importedAt": "2026-08-05T01:52:28.423Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-013",
       "type": "lesson",
       "track": "RED",
@@ -210,6 +232,7 @@
       "importedAt": "2026-08-05T01:52:28.579Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-014",
       "type": "lesson",
       "track": "RED",
@@ -223,6 +246,7 @@
       "importedAt": "2026-08-05T01:52:28.738Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-015",
       "type": "lesson",
       "track": "RED",
@@ -236,6 +260,7 @@
       "importedAt": "2026-08-05T01:52:28.891Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-016",
       "type": "lesson",
       "track": "RED",
@@ -249,6 +274,7 @@
       "importedAt": "2026-08-05T01:52:29.051Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-017",
       "type": "lesson",
       "track": "RED",
@@ -262,6 +288,7 @@
       "importedAt": "2026-08-05T01:52:29.209Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-018",
       "type": "lesson",
       "track": "RED",
@@ -275,6 +302,7 @@
       "importedAt": "2026-08-05T01:52:29.365Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-019",
       "type": "lesson",
       "track": "RED",
@@ -288,6 +316,7 @@
       "importedAt": "2026-08-05T01:52:29.519Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-020",
       "type": "lesson",
       "track": "RED",
@@ -301,6 +330,7 @@
       "importedAt": "2026-08-05T01:52:29.672Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-021",
       "type": "lesson",
       "track": "RED",
@@ -314,6 +344,7 @@
       "importedAt": "2026-08-05T01:52:29.823Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-022",
       "type": "lesson",
       "track": "RED",
@@ -327,6 +358,7 @@
       "importedAt": "2026-08-05T01:52:29.972Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-023",
       "type": "lesson",
       "track": "RED",
@@ -340,6 +372,7 @@
       "importedAt": "2026-08-05T01:52:30.127Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-024",
       "type": "lesson",
       "track": "RED",
@@ -353,6 +386,7 @@
       "importedAt": "2026-08-05T01:52:30.284Z"
     },
     {
+      "localizations": [],
       "id": "RED-L1-025",
       "type": "lesson",
       "track": "RED",
@@ -366,6 +400,7 @@
       "importedAt": "2026-08-05T01:52:30.441Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-001",
       "type": "lesson",
       "track": "WHITE",
@@ -379,6 +414,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-002",
       "type": "lesson",
       "track": "WHITE",
@@ -392,6 +428,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-003",
       "type": "lesson",
       "track": "WHITE",
@@ -405,6 +442,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-004",
       "type": "lesson",
       "track": "WHITE",
@@ -418,6 +456,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-005",
       "type": "lesson",
       "track": "WHITE",
@@ -431,6 +470,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-006",
       "type": "lesson",
       "track": "WHITE",
@@ -444,6 +484,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-007",
       "type": "lesson",
       "track": "WHITE",
@@ -457,6 +498,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-008",
       "type": "lesson",
       "track": "WHITE",
@@ -470,6 +512,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-009",
       "type": "lesson",
       "track": "WHITE",
@@ -483,6 +526,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-010",
       "type": "lesson",
       "track": "WHITE",
@@ -496,6 +540,7 @@
       "importedAt": "2026-08-02T23:42:42.498Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-MANIFEST",
       "type": "manifest",
       "track": "WHITE",
@@ -509,6 +554,7 @@
       "importedAt": "2026-08-02T23:42:45.863Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-011",
       "type": "lesson",
       "track": "WHITE",
@@ -522,6 +568,7 @@
       "importedAt": "2026-08-05T01:52:34.894Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-012",
       "type": "lesson",
       "track": "WHITE",
@@ -535,6 +582,7 @@
       "importedAt": "2026-08-05T01:52:35.052Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-013",
       "type": "lesson",
       "track": "WHITE",
@@ -548,6 +596,7 @@
       "importedAt": "2026-08-05T01:52:35.226Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-014",
       "type": "lesson",
       "track": "WHITE",
@@ -561,6 +610,7 @@
       "importedAt": "2026-08-05T01:52:35.384Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-015",
       "type": "lesson",
       "track": "WHITE",
@@ -574,6 +624,7 @@
       "importedAt": "2026-08-05T01:52:35.539Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-016",
       "type": "lesson",
       "track": "WHITE",
@@ -587,6 +638,7 @@
       "importedAt": "2026-08-05T01:52:35.699Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-017",
       "type": "lesson",
       "track": "WHITE",
@@ -600,6 +652,7 @@
       "importedAt": "2026-08-05T01:52:35.860Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-018",
       "type": "lesson",
       "track": "WHITE",
@@ -613,6 +666,7 @@
       "importedAt": "2026-08-05T01:52:36.015Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-019",
       "type": "lesson",
       "track": "WHITE",
@@ -626,6 +680,7 @@
       "importedAt": "2026-08-05T01:52:36.179Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-020",
       "type": "lesson",
       "track": "WHITE",
@@ -639,6 +694,7 @@
       "importedAt": "2026-08-05T01:52:36.343Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-021",
       "type": "lesson",
       "track": "WHITE",
@@ -652,6 +708,7 @@
       "importedAt": "2026-08-05T01:52:36.505Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-022",
       "type": "lesson",
       "track": "WHITE",
@@ -665,6 +722,7 @@
       "importedAt": "2026-08-05T01:52:36.667Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-023",
       "type": "lesson",
       "track": "WHITE",
@@ -678,6 +736,7 @@
       "importedAt": "2026-08-05T01:52:36.821Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-024",
       "type": "lesson",
       "track": "WHITE",
@@ -691,6 +750,7 @@
       "importedAt": "2026-08-05T01:52:36.980Z"
     },
     {
+      "localizations": [],
       "id": "WHITE-L1-025",
       "type": "lesson",
       "track": "WHITE",
@@ -704,6 +764,7 @@
       "importedAt": "2026-08-05T01:52:37.138Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-001",
       "type": "lesson",
       "track": "BLUE",
@@ -717,6 +778,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-002",
       "type": "lesson",
       "track": "BLUE",
@@ -730,6 +792,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-003",
       "type": "lesson",
       "track": "BLUE",
@@ -743,6 +806,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-004",
       "type": "lesson",
       "track": "BLUE",
@@ -756,6 +820,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-005",
       "type": "lesson",
       "track": "BLUE",
@@ -769,6 +834,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-006",
       "type": "lesson",
       "track": "BLUE",
@@ -782,6 +848,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-007",
       "type": "lesson",
       "track": "BLUE",
@@ -795,6 +862,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-008",
       "type": "lesson",
       "track": "BLUE",
@@ -808,6 +876,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-009",
       "type": "lesson",
       "track": "BLUE",
@@ -821,6 +890,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-010",
       "type": "lesson",
       "track": "BLUE",
@@ -834,6 +904,7 @@
       "importedAt": "2026-08-03T02:41:05.295Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-MANIFEST",
       "type": "manifest",
       "track": "BLUE",
@@ -847,6 +918,7 @@
       "importedAt": "2026-08-03T02:41:08.630Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-011",
       "type": "lesson",
       "track": "BLUE",
@@ -860,6 +932,7 @@
       "importedAt": "2026-08-05T01:52:37.299Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-012",
       "type": "lesson",
       "track": "BLUE",
@@ -873,6 +946,7 @@
       "importedAt": "2026-08-05T01:52:37.458Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-013",
       "type": "lesson",
       "track": "BLUE",
@@ -886,6 +960,7 @@
       "importedAt": "2026-08-05T01:52:37.613Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-014",
       "type": "lesson",
       "track": "BLUE",
@@ -899,6 +974,7 @@
       "importedAt": "2026-08-05T01:52:37.775Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-015",
       "type": "lesson",
       "track": "BLUE",
@@ -912,6 +988,7 @@
       "importedAt": "2026-08-05T01:52:37.933Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-016",
       "type": "lesson",
       "track": "BLUE",
@@ -925,6 +1002,7 @@
       "importedAt": "2026-08-05T01:52:38.087Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-017",
       "type": "lesson",
       "track": "BLUE",
@@ -938,6 +1016,7 @@
       "importedAt": "2026-08-05T01:52:38.247Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-018",
       "type": "lesson",
       "track": "BLUE",
@@ -951,6 +1030,7 @@
       "importedAt": "2026-08-05T01:52:38.409Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-019",
       "type": "lesson",
       "track": "BLUE",
@@ -964,6 +1044,7 @@
       "importedAt": "2026-08-05T01:52:38.567Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-020",
       "type": "lesson",
       "track": "BLUE",
@@ -977,6 +1058,7 @@
       "importedAt": "2026-08-05T01:52:38.724Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-021",
       "type": "lesson",
       "track": "BLUE",
@@ -990,6 +1072,7 @@
       "importedAt": "2026-08-05T01:52:38.881Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-022",
       "type": "lesson",
       "track": "BLUE",
@@ -1003,6 +1086,7 @@
       "importedAt": "2026-08-05T01:52:39.035Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-023",
       "type": "lesson",
       "track": "BLUE",
@@ -1016,6 +1100,7 @@
       "importedAt": "2026-08-05T01:52:39.200Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-024",
       "type": "lesson",
       "track": "BLUE",
@@ -1029,6 +1114,7 @@
       "importedAt": "2026-08-05T01:52:39.359Z"
     },
     {
+      "localizations": [],
       "id": "BLUE-L1-025",
       "type": "lesson",
       "track": "BLUE",
@@ -1042,6 +1128,7 @@
       "importedAt": "2026-08-05T01:52:39.521Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-001",
       "type": "lesson",
       "track": "GREEN",
@@ -1055,6 +1142,7 @@
       "importedAt": "2026-08-05T01:52:56.109Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-002",
       "type": "lesson",
       "track": "GREEN",
@@ -1068,6 +1156,7 @@
       "importedAt": "2026-08-05T01:52:56.266Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-003",
       "type": "lesson",
       "track": "GREEN",
@@ -1081,6 +1170,7 @@
       "importedAt": "2026-08-05T01:52:56.430Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-004",
       "type": "lesson",
       "track": "GREEN",
@@ -1094,6 +1184,7 @@
       "importedAt": "2026-08-05T01:52:56.588Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-005",
       "type": "lesson",
       "track": "GREEN",
@@ -1107,6 +1198,7 @@
       "importedAt": "2026-08-05T01:52:56.753Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-006",
       "type": "lesson",
       "track": "GREEN",
@@ -1120,6 +1212,7 @@
       "importedAt": "2026-08-05T01:52:56.910Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-007",
       "type": "lesson",
       "track": "GREEN",
@@ -1133,6 +1226,7 @@
       "importedAt": "2026-08-05T01:52:57.068Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-008",
       "type": "lesson",
       "track": "GREEN",
@@ -1146,6 +1240,7 @@
       "importedAt": "2026-08-05T01:52:57.231Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-009",
       "type": "lesson",
       "track": "GREEN",
@@ -1159,6 +1254,7 @@
       "importedAt": "2026-08-05T01:52:57.396Z"
     },
     {
+      "localizations": [],
       "id": "GREEN-L1-010",
       "type": "lesson",
       "track": "GREEN",
@@ -1172,6 +1268,7 @@
       "importedAt": "2026-08-05T01:52:57.560Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-001",
       "type": "lesson",
       "track": "GOLD",
@@ -1185,6 +1282,20 @@
       "importedAt": "2026-08-05T01:52:57.727Z"
     },
     {
+      "localizations": [
+        {
+          "locale": "es-PR",
+          "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md"
+        },
+        {
+          "locale": "es",
+          "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es.md"
+        },
+        {
+          "locale": "fr",
+          "path": "content/curriculum/GOLD/L1/GOLD-L1-002.fr.md"
+        }
+      ],
       "id": "GOLD-L1-002",
       "type": "lesson",
       "track": "GOLD",
@@ -1198,6 +1309,7 @@
       "importedAt": "2026-08-05T01:52:57.890Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-003",
       "type": "lesson",
       "track": "GOLD",
@@ -1211,6 +1323,7 @@
       "importedAt": "2026-08-05T01:52:58.052Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-004",
       "type": "lesson",
       "track": "GOLD",
@@ -1224,6 +1337,7 @@
       "importedAt": "2026-08-05T01:52:58.210Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-005",
       "type": "lesson",
       "track": "GOLD",
@@ -1237,6 +1351,7 @@
       "importedAt": "2026-08-05T01:52:58.371Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-006",
       "type": "lesson",
       "track": "GOLD",
@@ -1250,6 +1365,7 @@
       "importedAt": "2026-08-05T01:52:58.531Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-007",
       "type": "lesson",
       "track": "GOLD",
@@ -1263,6 +1379,7 @@
       "importedAt": "2026-08-05T01:52:58.695Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-008",
       "type": "lesson",
       "track": "GOLD",
@@ -1276,6 +1393,7 @@
       "importedAt": "2026-08-05T01:52:58.861Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-009",
       "type": "lesson",
       "track": "GOLD",
@@ -1289,6 +1407,7 @@
       "importedAt": "2026-08-05T01:52:59.019Z"
     },
     {
+      "localizations": [],
       "id": "GOLD-L1-010",
       "type": "lesson",
       "track": "GOLD",
@@ -1302,6 +1421,7 @@
       "importedAt": "2026-08-05T01:52:59.175Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-001",
       "type": "lesson",
       "track": "PURPLE",
@@ -1315,6 +1435,7 @@
       "importedAt": "2026-08-05T01:52:59.333Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-002",
       "type": "lesson",
       "track": "PURPLE",
@@ -1328,6 +1449,7 @@
       "importedAt": "2026-08-05T01:52:59.490Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-003",
       "type": "lesson",
       "track": "PURPLE",
@@ -1341,6 +1463,7 @@
       "importedAt": "2026-08-05T01:52:59.658Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-004",
       "type": "lesson",
       "track": "PURPLE",
@@ -1354,6 +1477,7 @@
       "importedAt": "2026-08-05T01:52:59.819Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-005",
       "type": "lesson",
       "track": "PURPLE",
@@ -1367,6 +1491,7 @@
       "importedAt": "2026-08-05T01:52:59.980Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-006",
       "type": "lesson",
       "track": "PURPLE",
@@ -1380,6 +1505,7 @@
       "importedAt": "2026-08-05T01:53:00.146Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-007",
       "type": "lesson",
       "track": "PURPLE",
@@ -1393,6 +1519,7 @@
       "importedAt": "2026-08-05T01:53:00.307Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-008",
       "type": "lesson",
       "track": "PURPLE",
@@ -1406,6 +1533,7 @@
       "importedAt": "2026-08-05T01:53:00.474Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-009",
       "type": "lesson",
       "track": "PURPLE",
@@ -1419,6 +1547,7 @@
       "importedAt": "2026-08-05T01:53:00.648Z"
     },
     {
+      "localizations": [],
       "id": "PURPLE-L1-010",
       "type": "lesson",
       "track": "PURPLE",
@@ -1432,6 +1561,7 @@
       "importedAt": "2026-08-05T01:53:00.813Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-001",
       "type": "lesson",
       "track": "ORANGE",
@@ -1445,6 +1575,7 @@
       "importedAt": "2026-08-05T01:53:00.979Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-002",
       "type": "lesson",
       "track": "ORANGE",
@@ -1458,6 +1589,7 @@
       "importedAt": "2026-08-05T01:53:01.139Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-003",
       "type": "lesson",
       "track": "ORANGE",
@@ -1471,6 +1603,7 @@
       "importedAt": "2026-08-05T01:53:01.299Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-004",
       "type": "lesson",
       "track": "ORANGE",
@@ -1484,6 +1617,7 @@
       "importedAt": "2026-08-05T01:53:01.460Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-005",
       "type": "lesson",
       "track": "ORANGE",
@@ -1497,6 +1631,7 @@
       "importedAt": "2026-08-05T01:53:01.621Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-006",
       "type": "lesson",
       "track": "ORANGE",
@@ -1510,6 +1645,7 @@
       "importedAt": "2026-08-05T01:53:01.779Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-007",
       "type": "lesson",
       "track": "ORANGE",
@@ -1523,6 +1659,7 @@
       "importedAt": "2026-08-05T01:53:01.946Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-008",
       "type": "lesson",
       "track": "ORANGE",
@@ -1536,6 +1673,7 @@
       "importedAt": "2026-08-05T01:53:02.108Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-009",
       "type": "lesson",
       "track": "ORANGE",
@@ -1549,6 +1687,7 @@
       "importedAt": "2026-08-05T01:53:02.276Z"
     },
     {
+      "localizations": [],
       "id": "ORANGE-L1-010",
       "type": "lesson",
       "track": "ORANGE",
@@ -1562,6 +1701,7 @@
       "importedAt": "2026-08-05T01:53:02.437Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-001",
       "type": "lesson",
       "track": "BLACK",
@@ -1575,6 +1715,7 @@
       "importedAt": "2026-08-05T01:53:02.597Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-002",
       "type": "lesson",
       "track": "BLACK",
@@ -1588,6 +1729,7 @@
       "importedAt": "2026-08-05T01:53:02.756Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-003",
       "type": "lesson",
       "track": "BLACK",
@@ -1601,6 +1743,7 @@
       "importedAt": "2026-08-05T01:53:02.921Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-004",
       "type": "lesson",
       "track": "BLACK",
@@ -1614,6 +1757,7 @@
       "importedAt": "2026-08-05T01:53:03.085Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-005",
       "type": "lesson",
       "track": "BLACK",
@@ -1627,6 +1771,7 @@
       "importedAt": "2026-08-05T01:53:03.250Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-006",
       "type": "lesson",
       "track": "BLACK",
@@ -1640,6 +1785,7 @@
       "importedAt": "2026-08-05T01:53:03.410Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-007",
       "type": "lesson",
       "track": "BLACK",
@@ -1653,6 +1799,7 @@
       "importedAt": "2026-08-05T01:53:03.576Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-008",
       "type": "lesson",
       "track": "BLACK",
@@ -1666,6 +1813,7 @@
       "importedAt": "2026-08-05T01:53:03.740Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-009",
       "type": "lesson",
       "track": "BLACK",
@@ -1679,6 +1827,7 @@
       "importedAt": "2026-08-05T01:53:03.921Z"
     },
     {
+      "localizations": [],
       "id": "BLACK-L1-010",
       "type": "lesson",
       "track": "BLACK",

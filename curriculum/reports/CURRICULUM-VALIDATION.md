@@ -1,9 +1,10 @@
 # Curriculum Validation Report
 
-**Generated:** 2026-08-05T02:07:29.515Z
+**Generated:** 2026-08-08T16:25:29.491Z
 **Total Assets:** 127
-**Passed:** 127
+**Passed:** 130
 **Failed:** 0
+**Localized Files Audited:** 3
 
 ## Results
 
@@ -273,6 +274,15 @@ Path: `content/curriculum/GOLD/L1/GOLD-L1-001.md`
 
 ### GOLD-L1-002 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-002.md`
+
+### GOLD-L1-002:GOLD-L1-002.es-PR.md — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md`
+
+### GOLD-L1-002:GOLD-L1-002.es.md — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-002.es.md`
+
+### GOLD-L1-002:GOLD-L1-002.fr.md — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-002.fr.md`
 
 ### GOLD-L1-003 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-003.md`

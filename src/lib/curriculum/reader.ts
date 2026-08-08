@@ -379,6 +379,15 @@ export function getPlaceholderLessonMeta(
 
   const localizedTrack = getLocalizedTrackCopy(upperTrackCode, locale);
   const trackName = localizedTrack?.name ?? academyDef.name;
+  const candidateLocales = getCurriculumLocaleFallbackChain(locale);
+  const canonicalPath = join(
+    REPO_ROOT,
+    "content",
+    "curriculum",
+    upperTrackCode,
+    `L${level}`,
+    `${lessonId.toUpperCase()}.md`,
+  );
 
   return {
     id: lessonId.toUpperCase(),
@@ -393,7 +402,7 @@ export function getPlaceholderLessonMeta(
     summary:
       locale === "es"
         ? "Esta lección pertenece a una ruta activa del currículo y se publicará próximamente."
-        : !isEnglishLocale(locale)
+        : locale !== "en"
           ? ""
           : "This lesson belongs to an active curriculum track and will be published soon.",
     author: "Edunancial Faculty",
@@ -402,6 +411,17 @@ export function getPlaceholderLessonMeta(
     status: "active",
     importedAt: "",
     membership: "free",
+    localization: {
+      requestedLocale: locale,
+      candidateLocales,
+      resolvedLocale: locale,
+      resolution: locale === "en" ? "exact" : "base",
+      translated: locale !== "en",
+      usedFallback: false,
+      canonicalPath,
+      resolvedPath: canonicalPath,
+      missingFields: [],
+    },
   };
 }
 
@@ -580,20 +600,20 @@ export function getCurriculumSearchIndex(): LessonSearchEntry[] {
             lessonNumber: asset.lessonNumber,
           });
         }
-
-        export function getTestDriveLessons(
-          languageOrLocale: string | CurriculumLocale = "en",
-        ): LessonContent[] {
-          return getSampleLessons()
-            .map((lessonId) => getLessonContent(lessonId, languageOrLocale))
-            .filter((lesson): lesson is LessonContent => Boolean(lesson));
-        }
       }
     }
   }
   return entries.sort((a, b) =>
     a.track.localeCompare(b.track) || a.level - b.level || a.lessonNumber - b.lessonNumber
   );
+}
+
+export function getTestDriveLessons(
+  languageOrLocale: string | CurriculumLocale = "en",
+): LessonContent[] {
+  return getSampleLessons()
+    .map((lessonId) => getLessonContent(lessonId, languageOrLocale))
+    .filter((lesson): lesson is LessonContent => Boolean(lesson));
 }
 
 // ---------------------------------------------------------------------------

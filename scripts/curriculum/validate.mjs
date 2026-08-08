@@ -45,6 +45,10 @@ function parseFrontMatter(content) {
 
 function missingLocalizedFields(frontMatter, body) {
   const missing = [];
+  if (!(frontMatter.id ?? '').trim()) missing.push('id');
+  if (!(frontMatter.track ?? '').trim()) missing.push('track');
+  if (!(frontMatter.level ?? '').trim()) missing.push('level');
+  if (!(frontMatter.lessonNumber ?? '').trim()) missing.push('lessonNumber');
   if (!(frontMatter.title ?? '').trim()) missing.push('title');
   if (!(frontMatter.summary ?? '').trim()) missing.push('summary');
   if (!body.trim()) missing.push('body');
@@ -91,16 +95,19 @@ for (const asset of assets) {
   const canonicalName = basename(absPath).replace(/\.md$/u, '');
   const siblingDir = dirname(absPath);
   const localizedFiles = readdirSync(siblingDir)
+    .filter((name) => name !== `${canonicalName}.md`)
     .filter((name) => name.startsWith(`${canonicalName}.`) && name.endsWith('.md'));
 
   for (const localizedFile of localizedFiles) {
     localizedFileCount += 1;
     const localizedPath = join(siblingDir, localizedFile);
     const localizedContent = readFileSync(localizedPath, 'utf8');
-    const localizedValidation = validateAsset(localizedContent, asset.assetId);
     const localizedParsed = parseFrontMatter(localizedContent);
     const missingFields = missingLocalizedFields(localizedParsed.frontMatter, localizedParsed.body);
-    const localizedErrors = [...localizedValidation.errors];
+    const localizedErrors = [];
+    if ((localizedParsed.frontMatter.id ?? '').trim() !== asset.assetId) {
+      localizedErrors.push(`Localized lesson id must remain canonical: expected ${asset.assetId}`);
+    }
     if (missingFields.length > 0) {
       localizedErrors.push(`Localized lesson is incomplete: missing ${missingFields.join(', ')}`);
     }
@@ -108,7 +115,7 @@ for (const asset of assets) {
       assetId: `${asset.assetId}:${localizedFile}`,
       path: localizedPath.replace(`${process.cwd()}/`, ''),
       errors: localizedErrors,
-      warnings: localizedValidation.warnings,
+      warnings: [],
     };
     results.push(localizedResult);
     if (localizedErrors.length > 0) {

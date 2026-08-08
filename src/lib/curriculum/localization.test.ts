@@ -3,7 +3,6 @@ import test from "node:test";
 
 import {
   getLocalizedCourseMap,
-  getLocalizedLessonMap,
 } from "@/lib/curriculum/production-catalog";
 import {
   getLessonContent,
@@ -181,7 +180,7 @@ test("no academy remains in English when Spanish is selected", () => {
 });
 
 test("getCurriculumLocaleFallbackChain preserves exact, base, then English", () => {
-  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("en-US"), ["en-US", "en"]);
 });
@@ -197,13 +196,11 @@ test("localizes launch-track course titles in Spanish", () => {
 });
 
 test("uses localized lesson front matter for base-language curriculum lesson titles", () => {
-  const lessons = getLocalizedLessonMap("es");
+  const lesson = getLessonContent("GOLD-L1-002", "es");
 
-  assert.equal(lessons["GOLD-L1-002"].title, "Comprender tu patrimonio neto");
-  assert.equal(
-    lessons["GOLD-L1-002"].localization?.resolvedLocale,
-    "es",
-  );
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Comprender tu patrimonio neto");
+  assert.equal(lesson?.localization.resolvedLocale, "es");
 });
 
 test("localizes curriculum track summaries in Spanish", () => {
@@ -259,9 +256,10 @@ test("falls back from an exact regional locale to the base language translation"
 
   assert.ok(lesson);
   assert.equal(lesson?.meta.title, "Comprender tu patrimonio neto");
-  assert.equal(lesson?.localization.requestedLocale, "es");
+  assert.equal(lesson?.localization.requestedLocale, "es-MX");
   assert.equal(lesson?.localization.resolvedLocale, "es");
-  assert.equal(lesson?.localization.resolution, "exact");
+  assert.equal(lesson?.localization.resolution, "base");
+  assert.equal(lesson?.localization.usedFallback, true);
 });
 
 test("falls back from a regional French locale to the base French translation", () => {

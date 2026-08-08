@@ -24,6 +24,38 @@ export function isPublicCurriculumTrack(trackCode: string): trackCode is LaunchT
   return PUBLIC_CURRICULUM_TRACK_CODES.includes(trackCode.toUpperCase() as LaunchTrackCode);
 }
 
+function canonicalizeCurriculumLocale(languageCode: string): CurriculumLocale | null {
+  const trimmed = languageCode.trim();
+  if (!trimmed) return null;
+
+  const segments = trimmed
+    .replace(/_/g, "-")
+    .split("-")
+    .filter(Boolean);
+
+  if (segments.length === 0) {
+    return null;
+  }
+
+  return segments
+    .map((segment, index) => {
+      if (index === 0) {
+        return segment.toLowerCase();
+      }
+
+      if (segment.length === 2 || segment.length === 3) {
+        return segment.toUpperCase();
+      }
+
+      if (segment.length === 4) {
+        return `${segment[0]?.toUpperCase() ?? ""}${segment.slice(1).toLowerCase()}`;
+      }
+
+      return segment.toLowerCase();
+    })
+    .join("-");
+}
+
 /**
  * Resolve any incoming language code to the most specific curriculum locale
  * available in TRACK_COPY.  Falls back through:
@@ -32,7 +64,25 @@ export function isPublicCurriculumTrack(trackCode: string): trackCode is LaunchT
  *   3. "en"
  */
 export function resolveCurriculumLocale(languageCode: string): CurriculumLocale {
-  return normalizeLanguageCode(languageCode) || "en";
+  const canonical = canonicalizeCurriculumLocale(languageCode);
+  if (!canonical) {
+    return "en";
+  }
+
+  const normalized = normalizeLanguageCode(canonical);
+  if (!normalized) {
+    return canonical;
+  }
+
+  if (canonical.includes("-") && normalized === canonical.split("-")[0]) {
+    return canonical;
+  }
+
+  if (canonical === "en" || canonical === "fr") {
+    return canonical;
+  }
+
+  return normalized;
 }
 
 export function getCurriculumLocaleFallbackChain(
