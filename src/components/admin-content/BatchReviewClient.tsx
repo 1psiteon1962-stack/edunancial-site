@@ -85,6 +85,63 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
     await refresh();
   }
 
+  async function bulkDeleteSelectedFiles() {
+    if (selected.length === 0) return;
+    const confirmed = window.confirm(`Delete ${selected.length} selected files from this workspace batch?`);
+    if (!confirmed) return;
+    const response = await fetch(`/api/admin/content/batches/${batchId}/files/bulk-delete`, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-csrf-token": csrfToken },
+      body: JSON.stringify({ fileIds: selected }),
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+      setError(payload.error ?? "Bulk file deletion failed.");
+      return;
+    }
+    setSelected([]);
+    await refresh();
+  }
+
+  async function deleteSingleFile(file: ExtractedFile) {
+    const confirmed = window.confirm(`Delete ${file.originalFilename} from this workspace batch?`);
+    if (!confirmed) return;
+    const response = await fetch(`/api/admin/content/batches/${batchId}/files/${file.id}`, {
+      method: "DELETE",
+      headers: { "x-csrf-token": csrfToken },
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+      setError(payload.error ?? "File deletion failed.");
+      return;
+    }
+    await refresh();
+  }
+
+  async function deleteCurrentBatch() {
+    if (!batch) return;
+    const exported = batch.status === "exported" || batch.exports.length > 0;
+    if (exported) {
+      const confirmExported = window.confirm(
+        "This batch has export history. Deleting workspace data never removes merged GitHub content or live production content, but this will permanently remove workspace artifacts and review data. Continue?",
+      );
+      if (!confirmExported) return;
+    }
+    const confirmed = window.confirm(`Delete workspace batch \"${batch.name}\"? This action cannot be undone.`);
+    if (!confirmed) return;
+    const response = await fetch(`/api/admin/content/batches/${batch.id}`, {
+      method: "DELETE",
+      headers: { "content-type": "application/json", "x-csrf-token": csrfToken },
+      body: JSON.stringify({ allowExported: exported }),
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+      setError(payload.error ?? "Batch deletion failed.");
+      return;
+    }
+    window.location.href = "/admin/content";
+  }
+
   async function exportBatch(mode: "export" | "github") {
     const response = await fetch(`/api/admin/content/batches/${batchId}/${mode}`, {
       method: "POST",
@@ -138,8 +195,19 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>
             <button onClick={() => exportBatch("export")} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-500">Export ZIP</button>
             <button onClick={() => exportBatch("github")} className="rounded-xl border border-blue-400/40 px-5 py-3 font-semibold text-blue-200 hover:border-blue-300">Create GitHub PR</button>
+            <button onClick={deleteCurrentBatch} className="rounded-xl border border-red-500/40 px-5 py-3 font-semibold text-red-200 hover:border-red-400">Delete batch</button>
           </div>
         </div>
+
+        {batch.exports.length > 0 ? (
+          <div className="mt-4 rounded-2xl border border-amber-400/40 bg-amber-400/10 p-4 text-sm text-amber-100">
+            <p className="font-semibold">Exported batch safety warning</p>
+            <p className="mt-2">
+              Deleting this workspace batch does <strong>not</strong> delete merged GitHub repository content or live production website content.
+              Export metadata is preserved in audit logs with branch/PR details when available.
+            </p>
+          </div>
+        ) : null}
 
         <div className="mt-8 grid gap-4 md:grid-cols-5">
           <SummaryCard label="Files" value={String(batch.files.length)} />
@@ -155,12 +223,24 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           <FilterSelect label="Language" value={filters.language} options={["all", "en", "es", "fr", "fr-CA"]} onChange={(value) => setFilters((current) => ({ ...current, language: value }))} />
           <button disabled={selected.length === 0} onClick={() => bulkAction("approve")} className="rounded-xl bg-emerald-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk approve</button>
           <button disabled={selected.length === 0} onClick={() => bulkAction("reject")} className="rounded-xl bg-rose-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk reject</button>
+          <button
+            disabled={selected.length === 0}
+            onClick={bulkDeleteSelectedFiles}
+            className="rounded-xl border border-red-500/40 px-4 py-3 text-sm font-semibold text-red-200 hover:border-red-400 disabled:opacity-50"
+          >
+            Bulk delete files
+          </button>
         </div>
 
         {error ? <p className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">{error}</p> : null}
         {batch.warnings.length > 0 ? <div className="mt-4 rounded-2xl border border-amber-400/30 bg-amber-400/10 p-4 text-sm text-amber-100"><p className="font-semibold">Batch warnings</p><ul className="mt-2 list-disc pl-6">{batch.warnings.map((warning) => <li key={warning}>{warning}</li>)}</ul></div> : null}
 
         <div className="mt-8 grid gap-4">
+          {visibleFiles.length === 0 ? (
+            <div className="rounded-3xl border border-white/10 bg-[#101a2f] p-6 text-sm text-slate-300">
+              No files match the current filters.
+            </div>
+          ) : null}
           {visibleFiles.map((file) => (
             <article key={file.id} className="rounded-3xl border border-white/10 bg-[#101a2f] p-5">
               <div className="flex flex-wrap items-start justify-between gap-4">
@@ -175,6 +255,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
                 <div className="flex flex-wrap gap-3">
                   <button onClick={() => patchFile(file, { reviewStatus: "approved", approvedAt: new Date().toISOString(), metadata: { ...file.metadata, publicationStatus: "approved" } })} className="rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold">Approve</button>
                   <button onClick={() => patchFile(file, { reviewStatus: "rejected", rejectedAt: new Date().toISOString(), metadata: { ...file.metadata, publicationStatus: "rejected" } })} className="rounded-xl bg-rose-600 px-4 py-2 text-sm font-semibold">Reject</button>
+                  <button onClick={() => deleteSingleFile(file)} className="rounded-xl border border-red-500/40 px-4 py-2 text-sm font-semibold text-red-200 hover:border-red-400">Delete</button>
                 </div>
               </div>
 

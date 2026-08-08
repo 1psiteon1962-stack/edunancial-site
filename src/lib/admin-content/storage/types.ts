@@ -3,6 +3,8 @@ import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib
 export interface AdminContentStorage {
   createBatch(batch: UploadBatch): Promise<UploadBatch>;
   updateBatch(batch: UploadBatch): Promise<UploadBatch>;
+  removeBatch(batchId: string): Promise<void>;
+  updateBatchIndex(summaries: BatchSummary[]): Promise<void>;
   listBatches(): Promise<BatchSummary[]>;
   getBatch(batchId: string): Promise<UploadBatch | null>;
   saveBinary(path: string, content: Buffer, contentType: string): Promise<void>;
@@ -11,6 +13,7 @@ export interface AdminContentStorage {
   appendAuditEvent(event: AuditEvent): Promise<void>;
   listAuditHistory(batchId?: string): Promise<AuditEvent[]>;
   createExport(exportPackage: ExportPackage, archive: Buffer): Promise<ExportPackage>;
+  listWorkspaceEntries(): Promise<string[]>;
   /**
    * Returns a time-limited signed URL that a browser can PUT a single file to,
    * uploading directly to backend storage without routing through the Netlify
