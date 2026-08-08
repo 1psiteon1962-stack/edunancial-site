@@ -13,7 +13,7 @@ describe("admin-content auth", () => {
 
   test("rejects expired signed sessions", () => {
     process.env.EDUNANCIAL_ADMIN_SESSION_SECRET = "12345678901234567890123456789012";
-    const signed = createSignedSessionValue({ email: "owner@example.com", csrfToken: "csrf", expiresAt: Date.now() - 1000 });
+    const signed = createSignedSessionValue({ email: "owner@example.com", csrfToken: "csrf", expiresAt: Date.now() - 1000, role: "owner" });
     assert.equal(parseAdminSessionValue(signed), null);
   });
 
@@ -22,8 +22,20 @@ describe("admin-content auth", () => {
     assert.equal(unauthorized.ok, false);
     if (!unauthorized.ok) assert.equal(unauthorized.response.status, 401);
 
-    const signed = createSignedSessionValue({ email: "owner@example.com", csrfToken: "csrf", expiresAt: Date.now() + 60_000 });
+    const signed = createSignedSessionValue({ email: "owner@example.com", csrfToken: "csrf", expiresAt: Date.now() + 60_000, role: "admin" });
     const forbidden = await requireAdminApiSession(new Request("https://example.com/api/admin/content/batches", { method: "POST", headers: { cookie: `${ADMIN_SESSION_COOKIE}=${signed}; ${ADMIN_CSRF_COOKIE}=csrf`, origin: "https://malicious.example", host: "example.com", "x-csrf-token": "csrf" } }), true);
+    assert.equal(forbidden.ok, false);
+    if (!forbidden.ok) assert.equal(forbidden.response.status, 403);
+  });
+
+  test("blocks non-admin sessions", async () => {
+    const signed = createSignedSessionValue({ email: "member@example.com", csrfToken: "csrf", expiresAt: Date.now() + 60_000, role: "member" as never });
+    const forbidden = await requireAdminApiSession(
+      new Request("https://example.com/api/admin/content/batches", {
+        method: "GET",
+        headers: { cookie: `${ADMIN_SESSION_COOKIE}=${signed}` },
+      }),
+    );
     assert.equal(forbidden.ok, false);
     if (!forbidden.ok) assert.equal(forbidden.response.status, 403);
   });

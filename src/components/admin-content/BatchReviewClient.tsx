@@ -1,10 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
+import ConfirmDialog from "@/components/admin-content/ConfirmDialog";
 import type { ExtractedFile, UploadBatch } from "@/lib/admin-content/types";
 import { COURSE_LEVELS, MEMBERSHIP_ACCESS, SUPPORTED_REGIONS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
+import { getVisibleSelectionState, pruneSelection, replaceVisibleSelection, summarizeSelectedFiles, toggleSelectionItem } from "@/lib/admin-content/selection";
+
+type FileDeleteDialogState =
+  | { type: "single-file"; fileIds: string[] }
+  | { type: "bulk-files"; fileIds: string[] }
+  | { type: "delete-batch"; fileIds: string[] }
+  | null;
 
 export default function BatchReviewClient({ batchId }: { batchId: string }) {
   const [batch, setBatch] = useState<UploadBatch | null>(null);
@@ -15,6 +23,10 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
   const [dirty, setDirty] = useState(false);
   const [publishing, setPublishing] = useState(false);
   const [publishResult, setPublishResult] = useState<{ pullRequestUrl?: string } | null>(null);
+  const [message, setMessage] = useState("");
+  const [deleteDialog, setDeleteDialog] = useState<FileDeleteDialogState>(null);
+  const desktopMasterCheckboxRef = useRef<HTMLInputElement | null>(null);
+  const mobileMasterCheckboxRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     const beforeUnload = (event: BeforeUnloadEvent) => {
@@ -37,6 +49,10 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
       return;
     }
     setBatch(payload.batch);
+    setSelected((current) => {
+      const next = pruneSelection(current, (payload.batch?.files ?? []).map((file: ExtractedFile) => file.id));
+      return next.length === current.length && next.every((id, index) => id === current[index]) ? current : next;
+    });
   }, [batchId]);
 
   useEffect(() => {
@@ -54,6 +70,25 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
   }, [batch, filters]);
 
   const approvedCount = batch?.files.filter((f) => f.reviewStatus === "approved").length ?? 0;
+  const visibleFileIds = useMemo(() => visibleFiles.map((file) => file.id), [visibleFiles]);
+  const visibleSelection = useMemo(() => getVisibleSelectionState(selected, visibleFileIds), [selected, visibleFileIds]);
+  const selectedVisibleFiles = useMemo(() => visibleFiles.filter((file) => selected.includes(file.id)), [selected, visibleFiles]);
+  const dialogFiles = useMemo(() => batch?.files.filter((file) => deleteDialog?.fileIds.includes(file.id)) ?? [], [batch, deleteDialog]);
+
+  useEffect(() => {
+    for (const ref of [desktopMasterCheckboxRef, mobileMasterCheckboxRef]) {
+      if (ref.current) {
+        ref.current.indeterminate = visibleSelection.someVisibleSelected;
+      }
+    }
+  }, [visibleSelection]);
+
+  useEffect(() => {
+    setSelected((current) => {
+      const next = pruneSelection(current, visibleFileIds);
+      return next.length === current.length && next.every((id, index) => id === current[index]) ? current : next;
+    });
+  }, [visibleFileIds]);
 
   async function patchFile(file: ExtractedFile, updates: Partial<ExtractedFile>) {
     setDirty(false);
@@ -71,41 +106,49 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
   }
 
   async function bulkAction(action: "approve" | "reject") {
+    const visibleSelectedIds = pruneSelection(selected, visibleFileIds);
+    if (visibleSelectedIds.length === 0) return;
     const response = await fetch(`/api/admin/content/batches/${batchId}/${action}`, {
       method: "POST",
       headers: { "content-type": "application/json", "x-csrf-token": csrfToken },
-      body: JSON.stringify({ fileIds: selected }),
+      body: JSON.stringify({ fileIds: visibleSelectedIds }),
     });
     if (!response.ok) {
       const payload = await response.json();
       setError(payload.error ?? `${action} failed.`);
       return;
     }
+    setMessage(`${action === "approve" ? "Approved" : "Rejected"} ${visibleSelectedIds.length} file(s).`);
     setSelected([]);
     await refresh();
   }
 
-  async function bulkDeleteSelectedFiles() {
-    if (selected.length === 0) return;
-    const confirmed = window.confirm(`Delete ${selected.length} selected files from this workspace batch?`);
-    if (!confirmed) return;
+  const bulkDeleteSelectedFiles = useCallback(async (fileIds: string[]) => {
+    if (fileIds.length === 0) return;
+    const visibleSelectedIds = pruneSelection(fileIds, visibleFileIds);
+    if (visibleSelectedIds.length === 0) return;
     const response = await fetch(`/api/admin/content/batches/${batchId}/files/bulk-delete`, {
       method: "POST",
       headers: { "content-type": "application/json", "x-csrf-token": csrfToken },
-      body: JSON.stringify({ fileIds: selected }),
+      body: JSON.stringify({ fileIds: visibleSelectedIds }),
     });
     const payload = await response.json();
     if (!response.ok) {
       setError(payload.error ?? "Bulk file deletion failed.");
       return;
     }
-    setSelected([]);
+    setError("");
+    setMessage(
+      payload.result?.partial
+        ? `Deleted ${payload.result?.deleted ?? 0} file(s) with ${payload.result?.failedObjects?.length ?? 0} cleanup warning(s).`
+        : `Deleted ${payload.result?.deleted ?? 0} file(s).`,
+    );
+    setDeleteDialog(null);
+    setSelected((current) => current.filter((id) => !visibleSelectedIds.includes(id)));
     await refresh();
-  }
+  }, [batchId, csrfToken, refresh, visibleFileIds]);
 
-  async function deleteSingleFile(file: ExtractedFile) {
-    const confirmed = window.confirm(`Delete ${file.originalFilename} from this workspace batch?`);
-    if (!confirmed) return;
+  const deleteSingleFile = useCallback(async (file: ExtractedFile) => {
     const response = await fetch(`/api/admin/content/batches/${batchId}/files/${file.id}`, {
       method: "DELETE",
       headers: { "x-csrf-token": csrfToken },
@@ -115,20 +158,19 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
       setError(payload.error ?? "File deletion failed.");
       return;
     }
+    setError("");
+    setMessage(
+      payload.result?.partial
+        ? `Deleted ${file.originalFilename} with ${payload.result?.failedObjects?.length ?? 0} cleanup warning(s).`
+        : `Deleted ${file.originalFilename}.`,
+    );
+    setDeleteDialog(null);
     await refresh();
-  }
+  }, [batchId, csrfToken, refresh]);
 
-  async function deleteCurrentBatch() {
+  const deleteCurrentBatch = useCallback(async () => {
     if (!batch) return;
     const exported = batch.status === "exported" || batch.exports.length > 0;
-    if (exported) {
-      const confirmExported = window.confirm(
-        "This batch has export history. Deleting workspace data never removes merged GitHub content or live production content, but this will permanently remove workspace artifacts and review data. Continue?",
-      );
-      if (!confirmExported) return;
-    }
-    const confirmed = window.confirm(`Delete workspace batch \"${batch.name}\"? This action cannot be undone.`);
-    if (!confirmed) return;
     const response = await fetch(`/api/admin/content/batches/${batch.id}`, {
       method: "DELETE",
       headers: { "content-type": "application/json", "x-csrf-token": csrfToken },
@@ -139,8 +181,60 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
       setError(payload.error ?? "Batch deletion failed.");
       return;
     }
+    setDeleteDialog(null);
     window.location.href = "/admin/content";
-  }
+  }, [batch, csrfToken]);
+
+  const deleteDialogSummary = useMemo(() => {
+    if (!batch || !deleteDialog) return null;
+    if (deleteDialog.type === "delete-batch") {
+      const exported = batch.status === "exported" || batch.exports.length > 0;
+      return {
+        title: "Delete Batch",
+        description: [
+          `Batch: ${batch.name}`,
+          `Status: ${batch.status}`,
+          `Files: ${batch.files.length}`,
+          exported
+            ? "Only Admin Content Workspace copies are removed. GitHub commits, branches, published curriculum, and production content are not removed."
+            : null,
+        ]
+          .filter(Boolean)
+          .join("\n"),
+        confirmLabel: "Delete Batch",
+        onConfirm: deleteCurrentBatch,
+      };
+    }
+    if (deleteDialog.type === "single-file") {
+      const file = dialogFiles[0];
+      if (!file) return null;
+      return {
+        title: "Delete File",
+        description: [
+          `Filename: ${file.originalFilename}`,
+          `Batch: ${batch.name}`,
+          `Status: ${file.reviewStatus}`,
+          "Exported GitHub or published content is not removed.",
+        ].join("\n"),
+        confirmLabel: "Delete File",
+        onConfirm: () => deleteSingleFile(file),
+      };
+    }
+    const summary = summarizeSelectedFiles(dialogFiles);
+    return {
+      title: "Delete Selected Files",
+      description: [
+        `Selected files: ${summary.fileCount}`,
+        `Approved: ${summary.approvedFiles}`,
+        `Pending: ${summary.pendingFiles}`,
+        `Rejected: ${summary.rejectedFiles}`,
+        `Conflicts: ${summary.conflicts}`,
+        "Exported GitHub or published content is not removed.",
+      ].join("\n"),
+      confirmLabel: "Delete Selected Files",
+      onConfirm: () => bulkDeleteSelectedFiles(dialogFiles.map((file) => file.id)),
+    };
+  }, [batch, bulkDeleteSelectedFiles, deleteCurrentBatch, deleteDialog, deleteSingleFile, dialogFiles]);
 
   async function exportBatch(mode: "export" | "github") {
     const response = await fetch(`/api/admin/content/batches/${batchId}/${mode}`, {
@@ -195,7 +289,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>
             <button onClick={() => exportBatch("export")} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-500">Export ZIP</button>
             <button onClick={() => exportBatch("github")} className="rounded-xl border border-blue-400/40 px-5 py-3 font-semibold text-blue-200 hover:border-blue-300">Create GitHub PR</button>
-            <button onClick={deleteCurrentBatch} className="rounded-xl border border-red-500/40 px-5 py-3 font-semibold text-red-200 hover:border-red-400">Delete batch</button>
+            <button onClick={() => setDeleteDialog({ type: "delete-batch", fileIds: [] })} className="rounded-xl border border-red-500/40 px-5 py-3 font-semibold text-red-200 hover:border-red-400">Delete batch</button>
           </div>
         </div>
 
@@ -221,31 +315,76 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           <FilterSelect label="Review" value={filters.status} options={["all", "pending", "approved", "rejected"]} onChange={(value) => setFilters((current) => ({ ...current, status: value }))} />
           <FilterSelect label="Pillar" value={filters.pillar} options={["all", "red", "white", "blue", "academy", "uncategorized"]} onChange={(value) => setFilters((current) => ({ ...current, pillar: value }))} />
           <FilterSelect label="Language" value={filters.language} options={["all", "en", "es", "fr", "fr-CA"]} onChange={(value) => setFilters((current) => ({ ...current, language: value }))} />
-          <button disabled={selected.length === 0} onClick={() => bulkAction("approve")} className="rounded-xl bg-emerald-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk approve</button>
-          <button disabled={selected.length === 0} onClick={() => bulkAction("reject")} className="rounded-xl bg-rose-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk reject</button>
+          <label className="flex items-center gap-3 rounded-xl border border-white/10 px-4 py-3 text-sm font-semibold text-slate-200">
+            <input
+              ref={desktopMasterCheckboxRef}
+              type="checkbox"
+              aria-label="Select All Visible"
+              checked={visibleSelection.allVisibleSelected}
+              onChange={(event) => setSelected((current) => replaceVisibleSelection(current, visibleFileIds, event.target.checked))}
+              className="h-4 w-4 rounded border-white/20 bg-transparent"
+            />
+            Select All Visible
+          </label>
+          <button disabled={visibleSelection.selectedVisible === 0} onClick={() => bulkAction("approve")} className="rounded-xl bg-emerald-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk approve</button>
+          <button disabled={visibleSelection.selectedVisible === 0} onClick={() => bulkAction("reject")} className="rounded-xl bg-rose-600 px-4 py-3 text-sm font-semibold disabled:opacity-50">Bulk reject</button>
           <button
-            disabled={selected.length === 0}
-            onClick={bulkDeleteSelectedFiles}
+            disabled={visibleSelection.selectedVisible === 0}
+            onClick={() => setDeleteDialog({ type: "bulk-files", fileIds: selectedVisibleFiles.map((file) => file.id) })}
             className="rounded-xl border border-red-500/40 px-4 py-3 text-sm font-semibold text-red-200 hover:border-red-400 disabled:opacity-50"
           >
-            Bulk delete files
+            Delete Selected Files
+          </button>
+          <button
+            disabled={selected.length === 0}
+            onClick={() => setSelected([])}
+            className="rounded-xl border border-white/15 px-4 py-3 text-sm font-semibold text-slate-200 hover:border-white/30 disabled:opacity-50"
+          >
+            Clear Selection
           </button>
         </div>
 
         {error ? <p className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">{error}</p> : null}
+        {message ? <p className="mt-4 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-200">{message}</p> : null}
         {batch.warnings.length > 0 ? <div className="mt-4 rounded-2xl border border-amber-400/30 bg-amber-400/10 p-4 text-sm text-amber-100"><p className="font-semibold">Batch warnings</p><ul className="mt-2 list-disc pl-6">{batch.warnings.map((warning) => <li key={warning}>{warning}</li>)}</ul></div> : null}
 
         <div className="mt-8 grid gap-4">
           {visibleFiles.length === 0 ? (
             <div className="rounded-3xl border border-white/10 bg-[#101a2f] p-6 text-sm text-slate-300">
-              No files match the current filters.
+              {batch.files.length === 0 ? "This batch contains no files." : "No files match the current filters."}
+              {batch.files.length === 0 ? (
+                <div className="mt-4">
+                  <button onClick={() => setDeleteDialog({ type: "delete-batch", fileIds: [] })} className="rounded-xl border border-red-500/40 px-4 py-3 font-semibold text-red-200 hover:border-red-400">
+                    Delete Empty Batch
+                  </button>
+                </div>
+              ) : null}
             </div>
+          ) : null}
+          {visibleFiles.length > 0 ? (
+            <label className="flex items-center gap-3 rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-sm font-semibold text-slate-200 md:hidden">
+              <input
+                ref={mobileMasterCheckboxRef}
+                type="checkbox"
+                aria-label="Select All Visible"
+                checked={visibleSelection.allVisibleSelected}
+                onChange={(event) => setSelected((current) => replaceVisibleSelection(current, visibleFileIds, event.target.checked))}
+                className="h-4 w-4 rounded border-white/20 bg-transparent"
+              />
+              Select All Visible
+            </label>
           ) : null}
           {visibleFiles.map((file) => (
             <article key={file.id} className="rounded-3xl border border-white/10 bg-[#101a2f] p-5">
               <div className="flex flex-wrap items-start justify-between gap-4">
                 <div className="flex items-start gap-3">
-                  <input type="checkbox" checked={selected.includes(file.id)} onChange={(event) => setSelected((current) => event.target.checked ? [...current, file.id] : current.filter((entry) => entry !== file.id))} className="mt-1 h-4 w-4 rounded border-white/20 bg-transparent" />
+                  <input
+                    type="checkbox"
+                    aria-label={`Select file ${file.originalFilename}`}
+                    checked={selected.includes(file.id)}
+                    onChange={(event) => setSelected((current) => toggleSelectionItem(current, file.id, event.target.checked))}
+                    className="mt-1 h-4 w-4 rounded border-white/20 bg-transparent"
+                  />
                   <div>
                     <h2 className="text-xl font-bold text-white">{file.originalFilename}</h2>
                     <p className="mt-1 text-xs uppercase tracking-[0.2em] text-slate-400">{file.reviewStatus} · {file.duplicateStatus} · {file.metadata.language}</p>
@@ -255,7 +394,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
                 <div className="flex flex-wrap gap-3">
                   <button onClick={() => patchFile(file, { reviewStatus: "approved", approvedAt: new Date().toISOString(), metadata: { ...file.metadata, publicationStatus: "approved" } })} className="rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold">Approve</button>
                   <button onClick={() => patchFile(file, { reviewStatus: "rejected", rejectedAt: new Date().toISOString(), metadata: { ...file.metadata, publicationStatus: "rejected" } })} className="rounded-xl bg-rose-600 px-4 py-2 text-sm font-semibold">Reject</button>
-                  <button onClick={() => deleteSingleFile(file)} className="rounded-xl border border-red-500/40 px-4 py-2 text-sm font-semibold text-red-200 hover:border-red-400">Delete</button>
+                  <button aria-label={`Delete File ${file.originalFilename}`} onClick={() => setDeleteDialog({ type: "single-file", fileIds: [file.id] })} className="rounded-xl border border-red-500/40 px-4 py-2 text-sm font-semibold text-red-200 hover:border-red-400">Delete File</button>
                 </div>
               </div>
 
@@ -370,6 +509,16 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           </ul>
         </section>
       </div>
+      {deleteDialogSummary ? (
+        <ConfirmDialog
+          open
+          title={deleteDialogSummary.title}
+          description={deleteDialogSummary.description}
+          confirmLabel={deleteDialogSummary.confirmLabel}
+          onConfirm={deleteDialogSummary.onConfirm}
+          onCancel={() => setDeleteDialog(null)}
+        />
+      ) : null}
     </main>
   );
 }

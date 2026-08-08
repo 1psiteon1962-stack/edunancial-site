@@ -40,6 +40,7 @@ function signedHeaders(overrides?: Record<string, string>) {
     email: "owner@example.com",
     csrfToken: "csrf-token",
     expiresAt: Date.now() + 60_000,
+    role: "admin",
   });
   return {
     cookie: `${ADMIN_SESSION_COOKIE}=${signed}; ${ADMIN_CSRF_COOKIE}=csrf-token`,
@@ -102,6 +103,30 @@ describe("admin-content deletion routes", () => {
       { params: Promise.resolve({ batchId: batch.id, fileId: batch.files[0].id }) },
     );
     assert.equal(response.status, 200);
+  });
+
+  test("rejects non-admin batch delete", async () => {
+    const signed = createSignedSessionValue({
+      email: "member@example.com",
+      csrfToken: "csrf-token",
+      expiresAt: Date.now() + 60_000,
+      role: "member" as never,
+    });
+    const response = await deleteBatchRoute(
+      new Request("https://example.com/api/admin/content/batches/batch_1", {
+        method: "DELETE",
+        headers: {
+          cookie: `${ADMIN_SESSION_COOKIE}=${signed}; ${ADMIN_CSRF_COOKIE}=csrf-token`,
+          origin: "https://example.com",
+          host: "example.com",
+          "x-csrf-token": "csrf-token",
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ allowExported: false }),
+      }),
+      { params: Promise.resolve({ batchId: "batch_00000000-0000-0000-0000-000000000000" }) },
+    );
+    assert.equal(response.status, 403);
   });
 
   test("requires typed confirmation for clear workspace endpoint", async () => {

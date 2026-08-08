@@ -179,7 +179,7 @@ export async function getAdminSession() {
 
 export async function requireAdminPageSession() {
   const session = await getAdminSession();
-  if (!session) {
+  if (!session || (session.role !== "admin" && session.role !== "owner")) {
     redirect("/admin/login");
   }
   return session;
@@ -189,6 +189,9 @@ export async function requireAdminApiSession(request: Request, stateChanging = f
   const session = parseAdminSessionValue(request.headers.get("cookie")?.match(new RegExp(`${ADMIN_SESSION_COOKIE}=([^;]+)`))?.[1] ?? null);
   if (!session) {
     return { ok: false as const, response: NextResponse.json({ error: "Unauthorized" }, { status: 401 }) };
+  }
+  if (session.role !== "admin" && session.role !== "owner") {
+    return { ok: false as const, response: NextResponse.json({ error: "Forbidden" }, { status: 403 }) };
   }
   if (stateChanging) {
     const csrfCookie = request.headers.get("cookie")?.match(new RegExp(`${ADMIN_CSRF_COOKIE}=([^;]+)`))?.[1] ?? "";

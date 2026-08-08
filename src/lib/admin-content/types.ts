@@ -174,6 +174,7 @@ export interface AuditEvent {
     | "content_batch_purged"
     | "workspace_orphans_scanned"
     | "workspace_orphans_deleted"
+    | "orphan_objects_deleted"
     | "system-error";
   result: "success" | "failure" | "warning";
   actor: string;
