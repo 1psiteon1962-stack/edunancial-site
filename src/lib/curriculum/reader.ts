@@ -13,9 +13,8 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import {
-  getLocalizedLessonTitle,
+  getCurriculumLocaleFallbackChain,
   getLocalizedTrackCopy,
-  isEnglishLocale,
   resolveCurriculumLocale,
   type CurriculumLocale,
 } from "./localization";
@@ -26,6 +25,7 @@ import {
   isLessonVisible,
   type MembershipTier,
 } from "./academies";
+import { getSampleLessons } from "./tier-config";
 
 export type { MembershipTier };
 
@@ -92,6 +92,7 @@ export interface LessonMeta {
   importedAt: string;
   /** Membership tier required to access this lesson (defaults to "free") */
   membership: string;
+  localization: LessonLocalizationDiagnostics;
 }
 
 export interface LessonVideo {
@@ -111,6 +112,19 @@ export interface LessonContent {
   frontMatter: Record<string, string>;
   /** Parsed videos array from front-matter (if present) */
   videos: LessonVideo[];
+  localization: LessonLocalizationDiagnostics;
+}
+
+export interface LessonLocalizationDiagnostics {
+  requestedLocale: CurriculumLocale;
+  candidateLocales: CurriculumLocale[];
+  resolvedLocale: CurriculumLocale;
+  resolution: "exact" | "base" | "canonical-en";
+  translated: boolean;
+  usedFallback: boolean;
+  canonicalPath: string;
+  resolvedPath: string;
+  missingFields: string[];
 }
 
 const PLACEHOLDER_LESSON_ID_PATTERN = /^([A-Z]+)-L(\d+)-(\d{3})$/;
@@ -134,6 +148,7 @@ export interface LevelSummary {
 // ---------------------------------------------------------------------------
 
 let _cachedRegistry: Registry | null = null;
+const _cachedLocalizedLessons = new Map<string, LessonContent>();
 
 export function readRegistry(): Registry {
   if (_cachedRegistry) return _cachedRegistry;
@@ -153,6 +168,7 @@ export function readRegistry(): Registry {
 /** Invalidate the in-process cache (useful in dev or after imports) */
 export function invalidateRegistryCache(): void {
   _cachedRegistry = null;
+  _cachedLocalizedLessons.clear();
 }
 
 // ---------------------------------------------------------------------------
@@ -363,6 +379,15 @@ export function getPlaceholderLessonMeta(
 
   const localizedTrack = getLocalizedTrackCopy(upperTrackCode, locale);
   const trackName = localizedTrack?.name ?? academyDef.name;
+  const candidateLocales = getCurriculumLocaleFallbackChain(locale);
+  const canonicalPath = join(
+    REPO_ROOT,
+    "content",
+    "curriculum",
+    upperTrackCode,
+    `L${level}`,
+    `${lessonId.toUpperCase()}.md`,
+  );
 
   return {
     id: lessonId.toUpperCase(),
@@ -377,7 +402,7 @@ export function getPlaceholderLessonMeta(
     summary:
       locale === "es"
         ? "Esta lección pertenece a una ruta activa del currículo y se publicará próximamente."
-        : !isEnglishLocale(locale)
+        : locale !== "en"
           ? ""
           : "This lesson belongs to an active curriculum track and will be published soon.",
     author: "Edunancial Faculty",
@@ -386,6 +411,17 @@ export function getPlaceholderLessonMeta(
     status: "active",
     importedAt: "",
     membership: "free",
+    localization: {
+      requestedLocale: locale,
+      candidateLocales,
+      resolvedLocale: locale,
+      resolution: locale === "en" ? "exact" : "base",
+      translated: locale !== "en",
+      usedFallback: false,
+      canonicalPath,
+      resolvedPath: canonicalPath,
+      missingFields: [],
+    },
   };
 }
 
@@ -397,59 +433,11 @@ export function getLessonContent(
   lessonId: string,
   languageOrLocale: string | CurriculumLocale = "en",
 ): LessonContent | null {
-  const locale = resolveCurriculumLocale(languageOrLocale);
-  const registry = readRegistry();
-  let asset: RegistryAsset | null = null;
-
-  for (const track of Object.values(registry.tracks)) {
-    for (const level of Object.values(track.levels)) {
-      if (level.assets[lessonId]) {
-        asset = level.assets[lessonId];
-        break;
-      }
-    }
-    if (asset) break;
-  }
-
-  if (!asset || asset.type !== "lesson" || typeof asset.lessonNumber !== "number") {
+  const asset = findLessonAsset(lessonId);
+  if (!asset) {
     return null;
   }
-
-  const absPath = join(REPO_ROOT, asset.path);
-  if (!existsSync(absPath)) return null;
-
-  const localizedPath =
-    !isEnglishLocale(locale) && absPath.endsWith(".md")
-      ? absPath.replace(/\.md$/u, `.${locale}.md`)
-      : absPath;
-  const selectedPath = existsSync(localizedPath) ? localizedPath : absPath;
-  const usingLocalizedFile = selectedPath !== absPath;
-  const raw = readFileSync(selectedPath, "utf-8");
-  const { frontMatter, body, videos } = parseFrontMatter(raw);
-  const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
-  // When a localized file was found, its own frontMatter title takes priority.
-  // When falling back to the English source file, consult LESSON_TITLE_COPY first
-  // so the UI shows the correct translated title instead of the English one.
-  const title = usingLocalizedFile
-    ? (frontMatter.title ?? getLocalizedLessonTitle(asset.id, locale, asset.title))
-    : getLocalizedLessonTitle(asset.id, locale, frontMatter.title ?? asset.title);
-  // For the English source file, only surface the summary when the locale is English.
-  // When a localized file was found, use its own frontMatter summary if present.
-  const summary = usingLocalizedFile
-    ? (frontMatter.summary ?? "")
-    : (isEnglishLocale(locale) ? (frontMatter.summary ?? asset.metadata?.summary ?? "") : "");
-
-  return {
-    meta: {
-      ...assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }, locale),
-      title,
-      summary,
-      trackName: localizedTrack?.name ?? asset.trackName,
-    },
-    body,
-    frontMatter,
-    videos,
-  };
+  return resolveLessonContent(asset, languageOrLocale);
 }
 
 // ---------------------------------------------------------------------------
@@ -457,11 +445,12 @@ export function getLessonContent(
 // ---------------------------------------------------------------------------
 
 export function getLessonNavigation(
-  lessonId: string
+  lessonId: string,
+  languageOrLocale: string | CurriculumLocale = "en",
 ): { prev: LessonMeta | null; next: LessonMeta | null } {
-  const meta = getLessonMeta(lessonId);
+  const meta = getLessonMeta(lessonId, languageOrLocale);
   if (!meta) return { prev: null, next: null };
-  const siblings = getLessonsForLevel(meta.track, meta.level);
+  const siblings = getLessonsForLevel(meta.track, meta.level, "free", languageOrLocale);
   const idx = siblings.findIndex((l) => l.id === lessonId);
   return {
     prev: idx > 0 ? siblings[idx - 1] : null,
@@ -599,13 +588,14 @@ export function getCurriculumSearchIndex(): LessonSearchEntry[] {
           asset.status === "active" &&
           typeof asset.lessonNumber === "number"
         ) {
+          const content = resolveLessonContent(asset as RegistryAsset & { lessonNumber: number }, "en");
           entries.push({
             id: asset.id,
             url: `/curriculum/${track.code.toLowerCase()}/l${levelKey}/${asset.id.toLowerCase()}`,
-            title: asset.title,
-            summary: asset.metadata?.summary ?? "",
+            title: content?.meta.title ?? asset.title,
+            summary: content?.meta.summary ?? asset.metadata?.summary ?? "",
             track: track.code,
-            trackName: track.name,
+            trackName: content?.meta.trackName ?? track.name,
             level: Number(levelKey),
             lessonNumber: asset.lessonNumber,
           });
@@ -618,6 +608,14 @@ export function getCurriculumSearchIndex(): LessonSearchEntry[] {
   );
 }
 
+export function getTestDriveLessons(
+  languageOrLocale: string | CurriculumLocale = "en",
+): LessonContent[] {
+  return getSampleLessons()
+    .map((lessonId) => getLessonContent(lessonId, languageOrLocale))
+    .filter((lesson): lesson is LessonContent => Boolean(lesson));
+}
+
 // ---------------------------------------------------------------------------
 // Private helpers
 // ---------------------------------------------------------------------------
@@ -627,21 +625,185 @@ function assetToLessonMeta(
   locale: CurriculumLocale = "en",
 ): LessonMeta {
   const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
+  const resolved = resolveLessonSource(asset, locale);
+  const title = resolved?.frontMatter.title ?? asset.title;
+  const summary = resolved?.frontMatter.summary ?? asset.metadata?.summary ?? "";
   return {
     id: asset.id,
     track: asset.track,
     trackName: localizedTrack?.name ?? asset.trackName,
     level: asset.level,
     lessonNumber: asset.lessonNumber,
-    title: getLocalizedLessonTitle(asset.id, locale, asset.title),
-    summary: isEnglishLocale(locale) ? asset.metadata?.summary ?? "" : "",
+    title,
+    summary,
     author: asset.author,
     date: asset.date,
     version: asset.version,
     status: asset.status,
     importedAt: asset.importedAt,
     membership: asset.membership ?? asset.metadata?.membership ?? "free",
+    localization: resolved?.localization ?? buildCanonicalLocalizationFallback(asset, locale),
   };
+}
+
+function findLessonAsset(
+  lessonId: string,
+): (RegistryAsset & { lessonNumber: number }) | null {
+  const registry = readRegistry();
+  for (const track of Object.values(registry.tracks)) {
+    for (const level of Object.values(track.levels)) {
+      const asset = level.assets[lessonId];
+      if (asset?.type === "lesson" && typeof asset.lessonNumber === "number") {
+        return asset as RegistryAsset & { lessonNumber: number };
+      }
+    }
+  }
+  return null;
+}
+
+function resolveLessonContent(
+  asset: RegistryAsset & { lessonNumber: number },
+  languageOrLocale: string | CurriculumLocale = "en",
+): LessonContent | null {
+  const locale = resolveCurriculumLocale(languageOrLocale);
+  const cacheKey = `${asset.id}::${locale}`;
+  const cached = _cachedLocalizedLessons.get(cacheKey);
+  if (cached) {
+    return cached;
+  }
+
+  const resolved = resolveLessonSource(asset, locale);
+  if (!resolved) {
+    return null;
+  }
+
+  const localizedTrack = getLocalizedTrackCopy(asset.track, locale);
+  const content: LessonContent = {
+    meta: {
+      id: asset.id,
+      track: asset.track,
+      trackName: localizedTrack?.name ?? asset.trackName,
+      level: asset.level,
+      lessonNumber: asset.lessonNumber,
+      title: resolved.frontMatter.title ?? asset.title,
+      summary: resolved.frontMatter.summary ?? asset.metadata?.summary ?? "",
+      author: resolved.frontMatter.author ?? asset.author,
+      date: resolved.frontMatter.date ?? asset.date,
+      version: resolved.frontMatter.version ?? asset.version,
+      status: asset.status,
+      importedAt: asset.importedAt,
+      membership: asset.membership ?? asset.metadata?.membership ?? "free",
+      localization: resolved.localization,
+    },
+    body: resolved.body,
+    frontMatter: resolved.frontMatter,
+    videos: resolved.videos,
+    localization: resolved.localization,
+  };
+
+  _cachedLocalizedLessons.set(cacheKey, content);
+  return content;
+}
+
+function resolveLessonSource(
+  asset: RegistryAsset & { lessonNumber: number },
+  languageOrLocale: string | CurriculumLocale = "en",
+): {
+  frontMatter: Record<string, string>;
+  body: string;
+  videos: LessonVideo[];
+  localization: LessonLocalizationDiagnostics;
+} | null {
+  const requestedLocale = resolveCurriculumLocale(languageOrLocale);
+  const canonicalPath = join(REPO_ROOT, asset.path);
+  if (!existsSync(canonicalPath)) {
+    return null;
+  }
+
+  const candidateLocales = getCurriculumLocaleFallbackChain(requestedLocale);
+
+  for (const [index, candidateLocale] of candidateLocales.entries()) {
+    const candidatePath = candidateLocale === "en"
+      ? canonicalPath
+      : canonicalPath.replace(/\.md$/u, `.${candidateLocale}.md`);
+
+    if (candidateLocale !== "en" && !existsSync(candidatePath)) {
+      continue;
+    }
+
+    const raw = readFileSync(candidatePath, "utf-8");
+    const { frontMatter, body, videos } = parseFrontMatter(raw);
+    const missingFields = candidateLocale === "en"
+      ? []
+      : getMissingLocalizedLessonFields(frontMatter, body);
+
+    if (candidateLocale !== "en" && missingFields.length > 0) {
+      continue;
+    }
+
+    return {
+      frontMatter,
+      body,
+      videos,
+      localization: {
+        requestedLocale,
+        candidateLocales,
+        resolvedLocale: candidateLocale === "en" ? "en" : candidateLocale,
+        resolution: index === 0 ? "exact" : candidateLocale === "en" ? "canonical-en" : "base",
+        translated: candidateLocale !== "en",
+        usedFallback: index > 0,
+        canonicalPath,
+        resolvedPath: candidatePath,
+        missingFields,
+      },
+    };
+  }
+
+  const raw = readFileSync(canonicalPath, "utf-8");
+  const { frontMatter, body, videos } = parseFrontMatter(raw);
+  return {
+    frontMatter,
+    body,
+    videos,
+    localization: buildCanonicalLocalizationFallback(asset, requestedLocale),
+  };
+}
+
+function buildCanonicalLocalizationFallback(
+  asset: RegistryAsset,
+  languageOrLocale: string | CurriculumLocale,
+): LessonLocalizationDiagnostics {
+  const requestedLocale = resolveCurriculumLocale(languageOrLocale);
+  const canonicalPath = join(REPO_ROOT, asset.path);
+  const candidateLocales = getCurriculumLocaleFallbackChain(requestedLocale);
+  return {
+    requestedLocale,
+    candidateLocales,
+    resolvedLocale: "en",
+    resolution: requestedLocale === "en" ? "exact" : "canonical-en",
+    translated: false,
+    usedFallback: requestedLocale !== "en",
+    canonicalPath,
+    resolvedPath: canonicalPath,
+    missingFields: [],
+  };
+}
+
+function getMissingLocalizedLessonFields(
+  frontMatter: Record<string, string>,
+  body: string,
+): string[] {
+  const missingFields: string[] = [];
+  if (!(frontMatter.title ?? "").trim()) {
+    missingFields.push("title");
+  }
+  if (!(frontMatter.summary ?? "").trim()) {
+    missingFields.push("summary");
+  }
+  if (!body.trim()) {
+    missingFields.push("body");
+  }
+  return missingFields;
 }
 
 function parseFrontMatter(content: string): {

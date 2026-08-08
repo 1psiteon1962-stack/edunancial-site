@@ -13,7 +13,7 @@ export async function validateCurriculumFiles(files: Array<{ destination: string
   const errors: string[] = [];
 
   for (const file of relevant) {
-    const match = file.destination.match(/([A-Z]+-L\d-[A-Z0-9-]+)\.md$/);
+    const match = file.destination.match(/([A-Z]+-L\d-[A-Z0-9-]+)(?:\.[A-Za-z0-9-]+)?\.md$/);
     const assetId = match?.[1];
     if (!assetId) {
       warnings.push(`${file.destination} does not map to a canonical curriculum asset ID.`);
@@ -53,6 +53,8 @@ export type ParsedCurriculumAsset = {
   level: number;
   number?: number;
   canonicalPath: string;
+  destinationPath: string;
+  locale?: string;
   frontMatter: Record<string, string>;
   validationPassed: boolean;
   warnings: string[];
@@ -90,6 +92,7 @@ type ValidationResult = {
  */
 export async function detectCurriculumAsset(
   content: string,
+  sourceFilename?: string,
 ): Promise<ParsedCurriculumAsset | null> {
   try {
     const idParser = await import("../../../scripts/curriculum/lib/id-parser.mjs") as {
@@ -108,6 +111,8 @@ export async function detectCurriculumAsset(
     if (!parsed.valid) return null;
 
     const canonicalPath = idParser.assetPath(parsed);
+    const localeMatch = sourceFilename?.match(/\.([A-Za-z0-9-]+)\.md$/u);
+    const locale = localeMatch?.[1];
     const validation = validator.validateAsset(content, fm.id);
 
     return {
@@ -118,6 +123,11 @@ export async function detectCurriculumAsset(
       level: parsed.level ?? 0,
       number: parsed.number,
       canonicalPath,
+      destinationPath:
+        locale && canonicalPath.endsWith(".md")
+          ? canonicalPath.replace(/\.md$/u, `.${locale}.md`)
+          : canonicalPath,
+      locale,
       frontMatter: fm,
       validationPassed: validation.valid,
       warnings: validation.warnings,

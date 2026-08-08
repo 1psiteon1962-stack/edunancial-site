@@ -54,7 +54,7 @@ const TIER_MAPPING = {
 };
 
 const FREE_PREVIEW = { level: 1, maxLesson: 3 };
-const SAMPLE_LESSONS = ['RED-L1-001', 'WHITE-L2-005'];
+const SAMPLE_LESSONS = ['RED-L1-001', 'GOLD-L1-002'];
 
 /**
  * Pure function version of canAccessLesson for unit testing without file I/O.
@@ -107,7 +107,7 @@ describe('Free preview (unauthenticated)', () => {
 describe('Test Drive tier (sample lessons only)', () => {
   test('test-drive can access designated sample lessons', () => {
     assert.equal(canAccessLesson(1, 1, 'test-drive', 'RED-L1-001'), true);
-    assert.equal(canAccessLesson(2, 5, 'test-drive', 'WHITE-L2-005'), true);
+    assert.equal(canAccessLesson(1, 2, 'test-drive', 'GOLD-L1-002'), true);
   });
 
   test('test-drive cannot access non-sample lessons', () => {
@@ -119,9 +119,9 @@ describe('Test Drive tier (sample lessons only)', () => {
     assert.equal(canAccessLesson(1, 1, 'test-drive', undefined), false);
   });
 
-  test('test-drive sample can come from any level (not just level 1)', () => {
-    // WHITE-L2-005 is a level-2 sample — test-drive can access it
-    assert.equal(canAccessLesson(2, 5, 'test-drive', 'WHITE-L2-005'), true);
+  test('test-drive access remains tied to designated canonical lesson ids', () => {
+    // GOLD-L1-002 is explicitly designated — test-drive can access it by canonical lesson ID
+    assert.equal(canAccessLesson(1, 2, 'test-drive', 'GOLD-L1-002'), true);
   });
 });
 

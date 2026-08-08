@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-08-05T02:07:29.515Z",
+  "timestamp": "2026-08-08T16:25:29.491Z",
   "totalAssets": 127,
-  "passed": 127,
+  "localizedFiles": 3,
+  "passed": 130,
   "failed": 0,
   "results": [
     {
@@ -535,6 +536,24 @@
     {
       "assetId": "GOLD-L1-002",
       "path": "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-002:GOLD-L1-002.es-PR.md",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-002:GOLD-L1-002.es.md",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-002:GOLD-L1-002.fr.md",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.fr.md",
       "errors": [],
       "warnings": []
     },

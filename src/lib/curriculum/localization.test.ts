@@ -3,15 +3,18 @@ import test from "node:test";
 
 import {
   getLocalizedCourseMap,
-  getLocalizedLessonMap,
 } from "@/lib/curriculum/production-catalog";
 import {
   getLessonContent,
+  getLessonNavigation,
+  getLessonsForLevel,
   getPlaceholderLessonMeta,
+  getTestDriveLessons,
   getTrack,
   listAcademies,
 } from "@/lib/curriculum/reader";
 import {
+  getCurriculumLocaleFallbackChain,
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
 } from "@/lib/curriculum/localization";
@@ -176,7 +179,13 @@ test("no academy remains in English when Spanish is selected", () => {
   }
 });
 
-// ─── Existing tests (preserved) ──────────────────────────────────────────────
+test("getCurriculumLocaleFallbackChain preserves exact, base, then English", () => {
+  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("en-US"), ["en-US", "en"]);
+});
+
+// ─── File-backed curriculum lesson localization ───────────────────────────────
 
 test("localizes launch-track course titles in Spanish", () => {
   const courses = getLocalizedCourseMap("es");
@@ -186,12 +195,12 @@ test("localizes launch-track course titles in Spanish", () => {
   assert.equal(courses.blue.title, "BLUE: Negocios");
 });
 
-test("localizes launch-track lesson titles in Spanish", () => {
-  const lessons = getLocalizedLessonMap("es");
+test("uses localized lesson front matter for base-language curriculum lesson titles", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "es");
 
-  assert.equal(lessons["RED-L1-001"].title, "Comprender los bienes raíces como clase de activo");
-  assert.equal(lessons["WHITE-L1-010"].title, "Construir tu estrategia de inversión en activos financieros");
-  assert.equal(lessons["BLUE-L1-025"].title, "Del primer negocio a la independencia financiera");
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Comprender tu patrimonio neto");
+  assert.equal(lesson?.localization.resolvedLocale, "es");
 });
 
 test("localizes curriculum track summaries in Spanish", () => {
@@ -210,10 +219,104 @@ test("builds Spanish placeholder lesson metadata", () => {
   assert.match(placeholder?.summary ?? "", /se publicará próximamente/);
 });
 
-test("returns localized lesson content metadata when Spanish body is unavailable", () => {
-  const lesson = getLessonContent("RED-L1-004", "es");
+test("returns canonical English lesson content when English is requested", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "en-US");
 
   assert.ok(lesson);
-  assert.equal(lesson?.meta.title, "El ciclo del mercado inmobiliario");
-  assert.equal(lesson?.meta.summary, "");
+  assert.equal(lesson?.meta.title, "Understanding Your Net Worth");
+  assert.match(lesson?.body ?? "", /Net worth — assets minus liabilities/);
+  assert.equal(lesson?.localization.requestedLocale, "en-US");
+  assert.equal(lesson?.localization.resolvedLocale, "en");
+});
+
+test("returns localized lesson title, summary, and body for a base-language translation", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "es");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Comprender tu patrimonio neto");
+  assert.match(lesson?.meta.summary ?? "", /patrimonio neto/);
+  assert.match(lesson?.body ?? "", /Contenido principal/);
+  assert.equal(lesson?.localization.resolvedLocale, "es");
+  assert.equal(lesson?.localization.resolution, "exact");
+  assert.equal(lesson?.localization.usedFallback, false);
+});
+
+test("returns localized lesson content for an exact regional translation", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "es-PR");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Entiende tu patrimonio neto");
+  assert.match(lesson?.body ?? "", /Lo próximo/);
+  assert.equal(lesson?.localization.resolvedLocale, "es-PR");
+  assert.equal(lesson?.localization.resolution, "exact");
+});
+
+test("falls back from an exact regional locale to the base language translation", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "es-MX");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Comprender tu patrimonio neto");
+  assert.equal(lesson?.localization.requestedLocale, "es-MX");
+  assert.equal(lesson?.localization.resolvedLocale, "es");
+  assert.equal(lesson?.localization.resolution, "base");
+  assert.equal(lesson?.localization.usedFallback, true);
+});
+
+test("falls back from a regional French locale to the base French translation", () => {
+  const lesson = getLessonContent("GOLD-L1-002", "fr-CA");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Comprendre votre valeur nette");
+  assert.match(lesson?.body ?? "", /Contenu principal/);
+  assert.equal(lesson?.localization.resolvedLocale, "fr");
+  assert.equal(lesson?.localization.resolution, "base");
+  assert.equal(lesson?.localization.usedFallback, true);
+});
+
+test("falls back to canonical English when exact and base translations are missing", () => {
+  const lesson = getLessonContent("GOLD-L1-005", "de-DE");
+
+  assert.ok(lesson);
+  assert.equal(lesson?.meta.title, "Asset Classes and Their Historical Returns");
+  assert.equal(lesson?.localization.resolvedLocale, "en");
+  assert.equal(lesson?.localization.resolution, "canonical-en");
+  assert.equal(lesson?.localization.usedFallback, true);
+});
+
+test("localized lesson lists power sidebar and breadcrumb titles through the same resolver", () => {
+  const lessons = getLessonsForLevel("GOLD", 1, "free", "es-PR");
+  const current = lessons.find((lesson) => lesson.id === "GOLD-L1-002");
+
+  assert.ok(current);
+  assert.equal(current?.title, "Entiende tu patrimonio neto");
+  assert.equal(current?.localization.resolvedLocale, "es-PR");
+});
+
+test("localized lesson navigation uses the same locale-aware resolver", () => {
+  const navigation = getLessonNavigation("GOLD-L1-002", "fr-CA");
+
+  assert.ok(navigation.prev);
+  assert.equal(navigation.prev?.localization.resolvedLocale, "en");
+  assert.ok(navigation.next);
+  assert.equal(navigation.next?.localization.resolvedLocale, "en");
+});
+
+test("test drive lessons use the same curriculum localization resolver", () => {
+  const lessons = getTestDriveLessons("es-PR");
+  const localizedSample = lessons.find((lesson) => lesson.meta.id === "GOLD-L1-002");
+
+  assert.ok(localizedSample);
+  assert.equal(localizedSample?.meta.title, "Entiende tu patrimonio neto");
+  assert.equal(localizedSample?.localization.resolvedLocale, "es-PR");
+});
+
+test("locale-specific cached lesson reads stay isolated across locale switches", () => {
+  const spanish = getLessonContent("GOLD-L1-002", "es");
+  const english = getLessonContent("GOLD-L1-002", "en-US");
+
+  assert.ok(spanish);
+  assert.ok(english);
+  assert.equal(spanish?.meta.title, "Comprender tu patrimonio neto");
+  assert.equal(english?.meta.title, "Understanding Your Net Worth");
+  assert.notEqual(spanish?.body, english?.body);
 });
