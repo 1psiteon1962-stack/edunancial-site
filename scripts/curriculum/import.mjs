@@ -164,28 +164,6 @@ async function processFile(file) {
 
   const validation = validateAsset(file.content, parsed.id);
   if (!validation.valid && validation.errors.length > 0) {
-    const hasAnswerKeyViolation = validation.errors.some((error) => error.includes('ANSWER KEY VIOLATION'));
-    if (hasAnswerKeyViolation) {
-      result.outcome = 'rejected';
-      result.error = validation.errors.join('; ');
-      log.error(`[REJECTED - ANSWER KEY] ${parsed.id}: ${result.error}`);
-      const rejectedPath = join(REJECTED_DIR, `${parsed.id}-${Date.now()}.md`);
-      mkdirSync(REJECTED_DIR, { recursive: true });
-      writeFileSync(rejectedPath, file.content, 'utf8');
-      appendLedgerEntry({
-        ingestionId,
-        timestamp: ingestionTimestamp,
-        operation: 'reject',
-        assetId: parsed.id,
-        assetVersion: meta.version,
-        source: result.source,
-        destination: rejectedPath,
-        outcome: 'rejected',
-        reason: result.error,
-      });
-      return result;
-    }
-
     result.outcome = 'staged-with-errors';
     result.error = validation.errors.join('; ');
     result.warnings = validation.warnings;

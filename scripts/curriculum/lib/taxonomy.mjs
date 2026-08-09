@@ -77,8 +77,3 @@ export const REQUIRED_BATCH_VERIFICATION_SECTIONS = [
   'Verification Summary', 'Checklist',
 ];
 
-/** Answer-key indicators that MUST NOT appear in lesson body */
-export const ANSWER_KEY_INDICATORS = [
-  'ANSWER KEY', 'Answer Key', 'CORRECT ANSWER', 'Correct Answer:',
-  'ANSWERS:', '## Answers', '### Answers',
-];

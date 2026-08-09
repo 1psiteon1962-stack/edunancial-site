@@ -6,7 +6,7 @@ import { describe, test } from 'node:test';
 
 import { checksumBuffer } from '../lib/checksum.mjs';
 import { assetPath, parseAssetId } from '../lib/id-parser.mjs';
-import { ANSWER_KEY_INDICATORS, FORBIDDEN_EXTENSIONS, TRACKS } from '../lib/taxonomy.mjs';
+import { FORBIDDEN_EXTENSIONS, TRACKS } from '../lib/taxonomy.mjs';
 import { parseFrontMatter, validateLesson } from '../lib/validator.mjs';
 import { extractZip } from '../lib/zip.mjs';
 import { isAllowedCurriculumAsset, ALLOWED_EXTENSIONS, EXCLUDED_DIRECTORY_SEGMENTS } from '../lib/export-filter.mjs';
@@ -162,11 +162,35 @@ describe('validateLesson', () => {
     assert(result.errors.some((error) => error.includes('Core Content')));
   });
 
-  test('fails answer key in lesson body', () => {
-    const content = `${makeLesson()}\n## ANSWER KEY\n1. A\n2. B\n`;
+  test('accepts answer key in lesson body (self-study)', () => {
+    const content = `${makeLesson()}\n## Answer Key\n\n1. B — Stock\n`;
     const result = validateLesson(content, 'RED-L1-001');
-    assert.equal(result.valid, false);
-    assert(result.errors.some((error) => error.includes('ANSWER KEY VIOLATION')));
+    assert.equal(result.valid, true);
+    assert(!result.errors.some((error) => error.includes('ANSWER KEY')));
+  });
+
+  test('accepts Correct Answer in lesson body', () => {
+    const content = `${makeLesson()}\nCorrect Answer: B\n`;
+    const result = validateLesson(content, 'RED-L1-001');
+    assert.equal(result.valid, true);
+  });
+
+  test('accepts ## Answers heading in lesson body', () => {
+    const content = `${makeLesson()}\n## Answers\n\n1. B\n2. C\n`;
+    const result = validateLesson(content, 'RED-L1-001');
+    assert.equal(result.valid, true);
+  });
+
+  test('accepts answers plus explanations in lesson body', () => {
+    const content = `${makeLesson()}\n## Answers and Explanations\n\n1. B — Stock represents equity ownership.\n`;
+    const result = validateLesson(content, 'RED-L1-001');
+    assert.equal(result.valid, true);
+  });
+
+  test('accepts localized answer headings in sibling lesson', () => {
+    const content = `${makeLesson()}\n## Respuestas\n\n1. B — Las acciones representan propiedad.\n`;
+    const result = validateLesson(content, 'RED-L1-001');
+    assert.equal(result.valid, true);
   });
 
   test('fails wrong official track name for ORANGE lesson', () => {
@@ -212,11 +236,6 @@ describe('extractZip', () => {
     assert(FORBIDDEN_EXTENSIONS.has('.exe'));
     assert(FORBIDDEN_EXTENSIONS.has('.sh'));
     assert(FORBIDDEN_EXTENSIONS.has('.dll'));
-  });
-
-  test('answer key indicators contain expected values', () => {
-    assert(ANSWER_KEY_INDICATORS.includes('ANSWER KEY'));
-    assert(ANSWER_KEY_INDICATORS.includes('## Answers'));
   });
 });
 
