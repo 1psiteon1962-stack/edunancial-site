@@ -6,6 +6,9 @@ import { assertSafeWorkspacePath, assertValidEntityId } from "@/lib/admin-conten
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ActorContext, UploadBatch } from "@/lib/admin-content/types";
 import { nowIso } from "@/lib/admin-content/utils";
+import { removePublishedLessonsForBatch } from "@/lib/curriculum/authoritative-published";
+import { invalidateRegistryCache } from "@/lib/curriculum/reader";
+import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 
 const PROTECTED_WORKSPACE_PATHS = new Set(["audit.json"]);
 
@@ -164,6 +167,14 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
     throw new Error("Batch has exports. Explicit exported-batch confirmation is required.");
   }
 
+  let publishedRemoval: Awaited<ReturnType<typeof removePublishedLessonsForBatch>>;
+  try {
+    publishedRemoval = await removePublishedLessonsForBatch(batch);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to remove published curriculum entries for batch ${normalizedBatchId}: ${message}`);
+  }
+
   const artifactPaths = collectBatchArtifactPaths(batch);
   const storageOutcome = await deleteWorkspacePaths(artifactPaths);
 
@@ -179,6 +190,7 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
       batchId: normalizedBatchId,
       metadata: {
         exported: batch.exports.length > 0,
+        removedPublishedLessons: publishedRemoval.removed,
         exports: batch.exports.map((entry) => ({
           exportId: entry.id,
           branch: entry.github?.branch ?? null,
@@ -193,6 +205,8 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
     }),
   );
   const remainingCounts = await getRemainingWorkspaceCounts();
+  invalidateRegistryCache();
+  await revalidatePublishedCurriculumRoutes();
   return {
     status: storageOutcome.failures.length > 0 ? "partial" : "success",
     success: storageOutcome.failures.length === 0,

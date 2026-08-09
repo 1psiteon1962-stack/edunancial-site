@@ -10,6 +10,9 @@ import { createExportPackage } from "@/lib/admin-content/export";
 import { createGithubPullRequest } from "@/lib/admin-content/github";
 import { deriveBatchStatus, toDuplicateStatus } from "@/lib/admin-content/review";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
+import { upsertPublishedLessonsFromBatch } from "@/lib/curriculum/authoritative-published";
+import { invalidateRegistryCache } from "@/lib/curriculum/reader";
+import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 import {
   assertValidUploadName,
   extractZipEntries,
@@ -694,6 +697,8 @@ export async function publishBatch(batchId: string, actor: ActorContext) {
   batch.status = "exported";
   batch.updatedAt = nowIso();
 
+  const publishedStateResult = await upsertPublishedLessonsFromBatch(batch);
+
   await appendBatchAuditEvent(
     batch,
     createAuditEvent({
@@ -703,10 +708,13 @@ export async function publishBatch(batchId: string, actor: ActorContext) {
       batchId,
       metadata: {
         publishedFiles: approvedFiles.length,
+        publishedLessons: publishedStateResult.upserted,
         githubPr: latestExport.github?.pullRequestUrl ?? null,
       },
     }),
   );
   await storage.updateBatch(batch);
+  invalidateRegistryCache();
+  await revalidatePublishedCurriculumRoutes();
   return { batch, github: latestExport.github };
 }

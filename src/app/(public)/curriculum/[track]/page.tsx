@@ -4,29 +4,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
-import { ACADEMIES } from "@/lib/curriculum/academies";
-import { getTrack } from "@/lib/curriculum/reader";
+import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
 import { translate } from "@/lib/international/i18n";
 import { normalizeLanguageCode } from "@/lib/international/languages";
 import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 
+export const dynamic = "force-dynamic";
+
 interface Props {
   params: Promise<{ track: string }>;
-}
-
-export async function generateStaticParams() {
-  // Always include all primary academies so static pages are generated even
-  // before lessons exist.
-  return ACADEMIES.filter((a) => isPublicCurriculumTrack(a.code)).map((a) => ({
-    track: a.code.toLowerCase(),
-  }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam } = await params;
   const cookieStore = await cookies();
   const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
-  const track = getTrack(trackParam.toUpperCase(), "free", language);
+  const track = await getPublishedTrack(trackParam.toUpperCase(), language);
   if (!track) return { title: "Track Not Found | Edunancial" };
 
   const totalLessons = track.levels.reduce((sum, l) => sum + l.lessonCount, 0);
@@ -65,7 +58,7 @@ export default async function TrackPage({ params }: Props) {
   const cookieStore = await cookies();
   const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
   if (!isPublicCurriculumTrack(trackCode)) notFound();
-  const track = getTrack(trackCode, "free", language);
+  const track = await getPublishedTrack(trackCode, language);
   if (!track) notFound();
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 

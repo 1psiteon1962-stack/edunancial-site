@@ -2,6 +2,10 @@ import assert from "node:assert/strict";
 import { afterEach, describe, test } from "node:test";
 
 import {
+  getPublishedTracks,
+  upsertPublishedLessonsFromBatch,
+} from "@/lib/curriculum/authoritative-published";
+import {
   bulkDeleteBatchFiles,
   clearWorkspace,
   deleteBatch,
@@ -147,5 +151,58 @@ describe("admin-content deletion service", () => {
     assert.equal(stats.pendingFiles, 0);
     assert.equal(stats.approvedFiles, 0);
     assert.equal(stats.conflicts, 0);
+  });
+
+  test("deleting a batch also removes its published curriculum from the public source", async () => {
+    const formData = makeFormData();
+    formData.append(
+      "files",
+      new File(
+        [
+          Buffer.from(`---\nid: RED-L1-901\ntrack: RED\nofficialTrackName: Real Estate\nlevel: 1\nlessonNumber: 901\ntitle: Delete Me\nversion: 1.0\nauthor: Test\ndate: 2026-01-01\nsummary: Temporary lesson\n---\n\n# Delete Me\n\nBody`),
+        ],
+        "delete-me.md",
+        { type: "text/markdown" },
+      ),
+    );
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    await bulkReview(batch.id, { email: "owner@example.com" }, batch.files.map((entry) => entry.id), "approved");
+    const approvedBatch = await getUploadBatch(batch.id);
+    assert(approvedBatch);
+
+    const published = await upsertPublishedLessonsFromBatch(approvedBatch);
+    assert.equal(published.upserted, 1);
+
+    const beforeDelete = await getPublishedTracks("en");
+    assert.equal(beforeDelete.some((track) => track.code === "RED" && track.lessonCount > 0), true);
+
+    await deleteBatch(batch.id, { email: "owner@example.com" });
+
+    const afterDelete = await getPublishedTracks("en");
+    const redTrack = afterDelete.find((track) => track.code === "RED");
+    assert.equal(redTrack?.levels.some((level) => level.lessons.some((lesson) => lesson.id === "RED-L1-901")) ?? false, false);
+    const afterDeleteReload = await getPublishedTracks("en");
+    assert.equal(afterDeleteReload.some((track) => track.levels.some((level) => level.lessons.some((lesson) => lesson.id === "RED-L1-901"))), false);
+
+    const secondForm = makeFormData();
+    secondForm.append(
+      "files",
+      new File(
+        [
+          Buffer.from(`---\nid: RED-L1-902\ntrack: RED\nofficialTrackName: Real Estate\nlevel: 1\nlessonNumber: 902\ntitle: Replacement Lesson\nversion: 1.0\nauthor: Test\ndate: 2026-01-01\nsummary: Replacement\n---\n\n# Replacement`),
+        ],
+        "replacement.md",
+        { type: "text/markdown" },
+      ),
+    );
+    const secondBatch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, secondForm);
+    await bulkReview(secondBatch.id, { email: "owner@example.com" }, secondBatch.files.map((entry) => entry.id), "approved");
+    const approvedSecond = await getUploadBatch(secondBatch.id);
+    assert(approvedSecond);
+    await upsertPublishedLessonsFromBatch(approvedSecond);
+
+    const afterRepublish = await getPublishedTracks("en");
+    assert.equal(afterRepublish.some((track) => track.levels.some((level) => level.lessons.some((lesson) => lesson.id === "RED-L1-901"))), false);
+    assert.equal(afterRepublish.some((track) => track.levels.some((level) => level.lessons.some((lesson) => lesson.id === "RED-L1-902"))), true);
   });
 });

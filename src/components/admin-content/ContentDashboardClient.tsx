@@ -122,7 +122,7 @@ export default function ContentDashboardClient() {
           `Status: ${batch.status}`,
           `Files: ${batch.totalFiles}`,
           batch.status === "exported"
-            ? "Exported workspace safety: only Admin Content Workspace copies are removed. GitHub commits, pull requests, published curriculum, and production content are not removed."
+            ? "Deleting an exported batch removes workspace records and linked published curriculum entries for that batch."
             : null,
         ]
           .filter(Boolean)
@@ -137,7 +137,7 @@ export default function ContentDashboardClient() {
         description: [
           `Failed batches selected: ${summary.batchCount}`,
           `Files in failed batches: ${summary.totalFiles}`,
-          "Only failed Admin Content Workspace batches are removed. GitHub and published production content are not removed.",
+          "Failed workspace batches are removed. Any linked published curriculum entries are removed when present.",
         ].join("\n"),
         confirmLabel: "Delete Failed Batches",
         onConfirm: deleteFailedBatches,
@@ -152,7 +152,7 @@ export default function ContentDashboardClient() {
         `Failed batches: ${summary.failedBatches}`,
         `Conflicts: ${summary.conflicts}`,
         summary.exportedBatches > 0
-          ? "Exported workspace safety: only workspace copies are removed. GitHub commits, branches, merged PR content, published curriculum, and production content are not removed."
+          ? "Deleting exported batches removes workspace records and linked published curriculum entries for those batches."
           : null,
       ]
         .filter(Boolean)
