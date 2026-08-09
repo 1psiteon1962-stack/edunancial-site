@@ -710,5 +710,10 @@
   "login.header": "உள்நுழைய",
   "login.signUp": "பதிவுசெய்க",
   "notFound.cta": "முகப்புக்கு திரும்பு",
-  "register.header": "உங்கள் கணக்கை உருவாக்குங்கள்"
+  "register.header": "உங்கள் கணக்கை உருவாக்குங்கள்",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

@@ -22,9 +22,9 @@ test("resolveCurriculumLocale keeps French regional locales for fallback chainin
 });
 
 test("getCurriculumLocaleFallbackChain preserves exact locale, base locale, and English fallback", () => {
-  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es", "en"]);
-  assert.deepEqual(getCurriculumLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en"]);
-  assert.deepEqual(getCurriculumLocaleFallbackChain("fr-FR"), ["fr-FR", "fr", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es", "en-US", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en-US", "en"]);
+  assert.deepEqual(getCurriculumLocaleFallbackChain("fr-FR"), ["fr-FR", "fr", "en-US", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("en-US"), ["en-US", "en"]);
 });
 

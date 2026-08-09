@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "Registreren met Google",
   "register.termsOfService": "Servicevoorwaarden",
   "register.usernameLabel": "Gebruikersnaam",
-  "register.usernamePlaceholder": "Kies een gebruikersnaam"
+  "register.usernamePlaceholder": "Kies een gebruikersnaam",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

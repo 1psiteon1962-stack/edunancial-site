@@ -51,11 +51,11 @@ type ResolveLocaleInput = {
 };
 
 function resolveLocale(input: ResolveLocaleInput): string {
-  const saved = matchSupportedLocale(input.savedPreference);
-  if (saved) return saved;
-
   const session = matchSupportedLocale(input.sessionOverride);
   if (session) return session;
+
+  const saved = matchSupportedLocale(input.savedPreference);
+  if (saved) return saved;
 
   const browserCandidates: string[] = [
     ...(input.navigatorLanguages ?? []),
@@ -128,7 +128,7 @@ test("matchSupportedLocale returns null for completely unsupported locale", () =
 // resolveLocale — priority order
 // ---------------------------------------------------------------------------
 
-test("saved preference wins over everything else", () => {
+test("session override wins over saved preference and browser detection", () => {
   assert.equal(
     resolveLocale({
       savedPreference: "fr-CA",
@@ -136,7 +136,7 @@ test("saved preference wins over everything else", () => {
       navigatorLanguages: ["en-US"],
       geoLocale: "de",
     }),
-    "fr-CA"
+    "es"
   );
 });
 
@@ -196,7 +196,7 @@ test("falls back to en-US when all signals are unsupported locales", () => {
 // Specific Part 14 examples
 // ---------------------------------------------------------------------------
 
-test("saved fr-CA beats browser en-US and US geo", () => {
+test("saved fr-CA still wins when there is no session override", () => {
   assert.equal(
     resolveLocale({
       savedPreference: "fr-CA",
@@ -367,14 +367,14 @@ test("matchSupportedLocale returns null for completely unsupported locale", () =
 // resolveLocale — priority order
 // ---------------------------------------------------------------------------
 
-test("saved preference wins over everything else", () => {
+test("session override wins over saved preference and browser detection", () => {
   const locale = resolveLocale({
     savedPreference: "fr-CA",
     sessionOverride: "es",
     navigatorLanguages: ["en-US"],
     geoLocale: "de",
   });
-  assert.equal(locale, "fr-CA");
+  assert.equal(locale, "es");
 });
 
 test("session override wins when no saved preference", () => {
@@ -426,7 +426,7 @@ test("falls back to en-US when all signals are unsupported locales", () => {
 // Specific Part 14 examples
 // ---------------------------------------------------------------------------
 
-test("saved fr-CA beats browser en-US and US geo", () => {
+test("saved fr-CA still wins when there is no session override", () => {
   const locale = resolveLocale({
     savedPreference: "fr-CA",
     sessionOverride: null,

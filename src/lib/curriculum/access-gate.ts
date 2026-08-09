@@ -111,6 +111,7 @@ export function checkLessonAccess(
   lessonNumber: number,
   cookieHeader: string | null | undefined,
   lessonId?: string,
+  languageCode?: string,
 ): AccessGateResult {
   const viewerTier = getViewerTierFromCookies(cookieHeader);
   const allowed = canAccessLesson(lessonLevel, lessonNumber, viewerTier, lessonId);
@@ -122,7 +123,7 @@ export function checkLessonAccess(
   return {
     allowed: false,
     viewerTier,
-    lockedMessage: getLockedLessonMessage(lessonLevel),
+    lockedMessage: getLockedLessonMessage(lessonLevel, languageCode),
     pricingTierParam: getPricingTierParam(lessonLevel),
   };
 }

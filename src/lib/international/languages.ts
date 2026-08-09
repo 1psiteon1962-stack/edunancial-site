@@ -118,12 +118,48 @@ export function isLanguageSupported(code: string): boolean {
   return Boolean(getLanguageByCode(code));
 }
 
-export function normalizeLanguageCode(input: string | undefined | null): string {
+export function canonicalizeLocaleTag(input: string | undefined | null): string | null {
   if (!input) {
+    return null;
+  }
+
+  const segments = input
+    .trim()
+    .replace(/_/g, "-")
+    .split("-")
+    .filter(Boolean);
+
+  if (segments.length === 0) {
+    return null;
+  }
+
+  return segments
+    .map((segment, index) => {
+      if (index === 0) {
+        return segment.toLowerCase();
+      }
+
+      if (segment.length === 2 || segment.length === 3) {
+        return segment.toUpperCase();
+      }
+
+      if (segment.length === 4) {
+        return `${segment[0]?.toUpperCase() ?? ""}${segment.slice(1).toLowerCase()}`;
+      }
+
+      return segment.toLowerCase();
+    })
+    .join("-");
+}
+
+export function normalizeLanguageCode(input: string | undefined | null): string {
+  const canonical = canonicalizeLocaleTag(input);
+
+  if (!canonical) {
     return DEFAULT_LANGUAGE_CODE;
   }
 
-  const normalized = input.trim().toLowerCase();
+  const normalized = canonical.toLowerCase();
 
   const exact = LANGUAGE_CATALOG.find(
     (language) => language.code.toLowerCase() === normalized
@@ -149,6 +185,42 @@ export function normalizeLanguageCode(input: string | undefined | null): string 
   });
 
   return fromBase?.code ?? DEFAULT_LANGUAGE_CODE;
+}
+
+export function getBaseLanguageCode(input: string | undefined | null): string | null {
+  const canonical = canonicalizeLocaleTag(input);
+  return canonical?.split("-")[0] ?? null;
+}
+
+export function getLocaleFallbackChain(input: string | undefined | null): string[] {
+  const canonical = canonicalizeLocaleTag(input) ?? DEFAULT_LANGUAGE_CODE;
+  const resolved = normalizeLanguageCode(canonical);
+  const chain: string[] = [canonical];
+
+  if (!chain.includes(resolved)) {
+    chain.push(resolved);
+  }
+
+  const base = getBaseLanguageCode(canonical);
+  if (base && !chain.includes(base)) {
+    chain.push(base);
+  }
+
+  const resolvedBase = getBaseLanguageCode(resolved);
+  if (resolvedBase && !chain.includes(resolvedBase)) {
+    chain.push(resolvedBase);
+  }
+
+  if (!chain.includes(DEFAULT_LANGUAGE_CODE)) {
+    chain.push(DEFAULT_LANGUAGE_CODE);
+  }
+
+  const defaultBase = getBaseLanguageCode(DEFAULT_LANGUAGE_CODE);
+  if (defaultBase && !chain.includes(defaultBase)) {
+    chain.push(defaultBase);
+  }
+
+  return chain;
 }
 
 export function isRtlLanguage(code: string): boolean {

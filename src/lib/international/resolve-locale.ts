@@ -74,20 +74,20 @@ export function matchSupportedLocale(value?: string | null): string | null {
 
 /**
  * Resolves the active locale following the required priority chain:
- *   1. Saved default language  (durable storage / cookie)
- *   2. Current-session language override  (sessionStorage)
+ *   1. Current-session language override  (explicit selection)
+ *   2. Saved default language  (durable storage / cookie)
  *   3. Automatic browser language detection  (navigator + accept-language + OS)
  *   4. Geographic region detection
  *   5. English (US) fallback
  */
 export function resolveLocale(input: ResolveLocaleInput): string {
-  // 1. Saved default language
-  const saved = matchSupportedLocale(input.savedPreference);
-  if (saved) return saved;
-
-  // 2. Session language override
+  // 1. Session language override
   const session = matchSupportedLocale(input.sessionOverride);
   if (session) return session;
+
+  // 2. Saved default language
+  const saved = matchSupportedLocale(input.savedPreference);
+  if (saved) return saved;
 
   // 3. Browser language detection (weighted by signal reliability)
   const browserCandidates: string[] = [

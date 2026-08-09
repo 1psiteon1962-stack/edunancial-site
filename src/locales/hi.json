@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "Google से साइन अप करें",
   "register.termsOfService": "सेवा की शर्तें",
   "register.usernameLabel": "उपयोगकर्ता नाम",
-  "register.usernamePlaceholder": "उपयोगकर्ता नाम चुनें"
+  "register.usernamePlaceholder": "उपयोगकर्ता नाम चुनें",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

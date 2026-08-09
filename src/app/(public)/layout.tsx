@@ -2,15 +2,18 @@ import { InternationalPreferencesProvider } from "@/components/international/Int
 import { Providers } from "@/components/Providers";
 import { AILearningProvider } from "@/components/ai-learning/AILearningProvider";
 import SiteChrome from "@/components/layout/SiteChrome";
+import { getServerLanguage } from "@/lib/international/server";
 
-export default function PublicLayout({
+export default async function PublicLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const initialLanguage = await getServerLanguage();
+
   return (
     <Providers>
-      <InternationalPreferencesProvider>
+      <InternationalPreferencesProvider initialLanguage={initialLanguage}>
         <AILearningProvider>
           <SiteChrome>{children}</SiteChrome>
         </AILearningProvider>

@@ -710,5 +710,10 @@
   "login.header": "لاگ ان",
   "login.signUp": "سائن اپ",
   "notFound.cta": "ہوم پر واپس جائیں",
-  "register.header": "اپنا اکاؤنٹ بنائیں"
+  "register.header": "اپنا اکاؤنٹ بنائیں",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

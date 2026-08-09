@@ -1,7 +1,5 @@
-import { readFileSync } from "node:fs";
-import { join, resolve, sep } from "node:path";
-
 import { evaluateCoachRequest } from "@/lib/ai/guardrails";
+import { getLessonContent } from "@/lib/curriculum/reader";
 
 import {
   canUseAILearningLesson,
@@ -49,44 +47,22 @@ interface ParsedAIResponse {
 }
 
 function loadLessonObjectives(
-  track: string | null,
-  level: number | null,
   lessonId: string | null,
+  languageCode: string,
 ): string {
-  if (!track || !level || !lessonId) return "";
+  if (!lessonId || !/^[A-Z0-9-]{3,30}$/.test(lessonId.toUpperCase())) return "";
 
-  // Validate all path components against strict allowlists before constructing
-  // the filesystem path, preventing path-traversal/injection attacks.
-  if (!/^[A-Z]{2,10}$/.test(track.toUpperCase())) return "";
-  if (!Number.isInteger(level) || level < 1 || level > 20) return "";
-  if (!/^[A-Z0-9-]{3,30}$/.test(lessonId.toUpperCase())) return "";
+  const lesson = getLessonContent(lessonId.toUpperCase(), languageCode);
+  if (!lesson) return "";
 
-  try {
-    const curriculumBase = resolve(process.cwd(), "content", "curriculum");
-    const filePath = join(
-      curriculumBase,
-      track.toUpperCase(),
-      `L${level}`,
-      `${lessonId.toUpperCase()}.md`,
-    );
-
-    // Confirm the resolved path is still inside the curriculum directory.
-    if (!filePath.startsWith(curriculumBase + sep)) return "";
-
-    const content = readFileSync(filePath, "utf8");
-
-    const objectivesMatch = content.match(
-      /## Learning Objectives\n([\s\S]*?)(?=\n##|\n---|\s*$)/,
-    );
-    if (objectivesMatch) {
-      return objectivesMatch[1].trim();
-    }
-
-    const titleMatch = content.match(/^title:\s*(.+)$/m);
-    return titleMatch ? `Lesson: ${titleMatch[1].trim()}` : "";
-  } catch {
-    return "";
+  const objectivesMatch = lesson.body.match(
+    /##\s+(Learning Objectives|Objectifs d'apprentissage|Objetivos de aprendizaje)\n([\s\S]*?)(?=\n##|\n---|\s*$)/iu,
+  );
+  if (objectivesMatch?.[2]) {
+    return objectivesMatch[2].trim();
   }
+
+  return lesson.meta.title ? `Lesson: ${lesson.meta.title}` : "";
 }
 
 function buildSystemPrompt(context: AILearningContext, lessonObjectives: string): string {
@@ -152,7 +128,7 @@ COACHING GUIDELINES:
 4. Use positive reinforcement when acknowledging learner progress.
 5. Never recommend specific stocks, specific investments, or personalized financial advice.
 6. Keep responses practical, educational, and actionable.
-7. IMPORTANT: Respond entirely in the language identified by code "${context.language}". For "es" respond in Spanish. For "fr-CA" or "fr-FR" respond in French. For "pt" respond in Portuguese. For "ar" respond in Arabic. For "ja" respond in Japanese. For "ko" respond in Korean. For "zh-Hans" or "zh-Hant" respond in Chinese. Otherwise respond in English.
+7. IMPORTANT: Respond entirely in the language identified by code "${context.language}". Use the requested locale itself when possible, otherwise use its parent language before ever falling back to English.
 8. When educational disclaimers are appropriate (tax, legal, investment topics), include them in the disclaimers array.
 9. Provide 2–3 concrete follow-up suggestions to continue learning.
 10. If the learner has made significant progress, acknowledge it in the milestone field.
@@ -304,7 +280,7 @@ export async function generateAILearningResponse(
     };
   }
 
-  const lessonObjectives = loadLessonObjectives(context.track, context.level, context.lessonId);
+  const lessonObjectives = loadLessonObjectives(context.lessonId, context.language);
   const systemPrompt = buildSystemPrompt(context, lessonObjectives);
   const aiResponse = await callOpenAIAPI(systemPrompt, request.message);
 

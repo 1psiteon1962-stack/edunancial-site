@@ -1,4 +1,9 @@
-import { LANGUAGE_CATALOG, normalizeLanguageCode } from "@/lib/international/languages";
+import {
+  canonicalizeLocaleTag,
+  getLocaleFallbackChain,
+  LANGUAGE_CATALOG,
+  normalizeLanguageCode,
+} from "@/lib/international/languages";
 
 /**
  * CurriculumLocale is now an open string type matching the app's language codes.
@@ -26,38 +31,6 @@ export function isPublicCurriculumTrack(trackCode: string): trackCode is LaunchT
   return PUBLIC_CURRICULUM_TRACK_CODES.includes(trackCode.toUpperCase() as LaunchTrackCode);
 }
 
-function canonicalizeCurriculumLocale(languageCode: string): CurriculumLocale | null {
-  const trimmed = languageCode.trim();
-  if (!trimmed) return null;
-
-  const segments = trimmed
-    .replace(/_/g, "-")
-    .split("-")
-    .filter(Boolean);
-
-  if (segments.length === 0) {
-    return null;
-  }
-
-  return segments
-    .map((segment, index) => {
-      if (index === 0) {
-        return segment.toLowerCase();
-      }
-
-      if (segment.length === 2 || segment.length === 3) {
-        return segment.toUpperCase();
-      }
-
-      if (segment.length === 4) {
-        return `${segment[0]?.toUpperCase() ?? ""}${segment.slice(1).toLowerCase()}`;
-      }
-
-      return segment.toLowerCase();
-    })
-    .join("-");
-}
-
 /**
  * Resolve any incoming language code to the most specific curriculum locale
  * available in TRACK_COPY.  Falls back through:
@@ -66,7 +39,7 @@ function canonicalizeCurriculumLocale(languageCode: string): CurriculumLocale | 
  *   3. "en"
  */
 export function resolveCurriculumLocale(languageCode: string): CurriculumLocale {
-  const canonical = canonicalizeCurriculumLocale(languageCode);
+  const canonical = canonicalizeLocaleTag(languageCode);
   if (!canonical) {
     return "en";
   }
@@ -90,19 +63,7 @@ export function resolveCurriculumLocale(languageCode: string): CurriculumLocale 
 export function getCurriculumLocaleFallbackChain(
   languageOrLocale: string,
 ): CurriculumLocale[] {
-  const resolved = resolveCurriculumLocale(languageOrLocale);
-  const chain: CurriculumLocale[] = [resolved];
-  const base = resolved.split("-")[0];
-
-  if (base && base !== resolved) {
-    chain.push(base);
-  }
-
-  if (!chain.includes("en")) {
-    chain.push("en");
-  }
-
-  return chain;
+  return getLocaleFallbackChain(languageOrLocale) as CurriculumLocale[];
 }
 
 /**

@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "التسجيل بحساب Google",
   "register.termsOfService": "شروط الخدمة",
   "register.usernameLabel": "اسم المستخدم",
-  "register.usernamePlaceholder": "اختر اسم مستخدم"
+  "register.usernamePlaceholder": "اختر اسم مستخدم",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

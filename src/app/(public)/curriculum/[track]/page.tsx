@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
-import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
 import { translate } from "@/lib/international/i18n";
-import { normalizeLanguageCode } from "@/lib/international/languages";
-import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
+import { getServerLanguage } from "@/lib/international/server";
 
 export const dynamic = "force-dynamic";
 
@@ -17,8 +15,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam } = await params;
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   const track = await getPublishedTrack(trackParam.toUpperCase(), language);
   if (!track) return { title: "Track Not Found | Edunancial" };
 
@@ -55,8 +52,7 @@ const DEFAULT_COLORS = {
 export default async function TrackPage({ params }: Props) {
   const { track: trackParam } = await params;
   const trackCode = trackParam.toUpperCase();
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   if (!isPublicCurriculumTrack(trackCode)) notFound();
   const track = await getPublishedTrack(trackCode, language);
   if (!track) notFound();

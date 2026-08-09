@@ -11,7 +11,7 @@ import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { translate } from "@/lib/international/i18n";
-import { normalizeLanguageCode } from "@/lib/international/languages";
+import { resolveRequestLanguage } from "@/lib/international/server";
 
 interface Props {
   params: Promise<{ track: string; level: string; lesson: string }>;
@@ -22,9 +22,11 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lesson: lessonParam } = await params;
   const headersList = await headers();
-  const cookieHeader = headersList.get("cookie") ?? "";
-  const languageMatch = cookieHeader.match(/(?:^|;\s*)edunancial-lang=([^;]+)/u);
-  const language = normalizeLanguageCode(languageMatch?.[1] ? decodeURIComponent(languageMatch[1]) : "en-US");
+  const cookieHeader = headersList.get("cookie");
+  const language = resolveRequestLanguage({
+    cookieHeader,
+    acceptLanguageHeader: headersList.get("accept-language"),
+  });
   const lesson = await getPublishedLesson(lessonParam.toUpperCase(), language);
   if (!lesson) return { title: "Lesson Not Found | Edunancial" };
 
@@ -58,9 +60,11 @@ export default async function LessonViewerPage({ params }: Props) {
   if (!isPublicCurriculumTrack(trackCode)) notFound();
 
   const headersList = await headers();
-  const cookieHeader = headersList.get("cookie") ?? "";
-  const languageMatch = cookieHeader.match(/(?:^|;\s*)edunancial-lang=([^;]+)/u);
-  const language = normalizeLanguageCode(languageMatch?.[1] ? decodeURIComponent(languageMatch[1]) : "en-US");
+  const cookieHeader = headersList.get("cookie");
+  const language = resolveRequestLanguage({
+    cookieHeader,
+    acceptLanguageHeader: headersList.get("accept-language"),
+  });
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
   const lesson = await getPublishedLesson(lessonId, language);
@@ -78,7 +82,7 @@ export default async function LessonViewerPage({ params }: Props) {
   const next = currentIndex >= 0 && currentIndex < siblings.length - 1 ? siblings[currentIndex + 1] : null;
 
   const trackColor = TRACK_COLORS[trackCode] ?? "text-yellow-400 border-yellow-500/40 bg-yellow-500/10";
-  const access = checkLessonAccess(lesson.level, lesson.lessonNumber, cookieHeader, lesson.id);
+  const access = checkLessonAccess(lesson.level, lesson.lessonNumber, cookieHeader, lesson.id, language);
 
   if (!access.allowed) {
     const pricingHref = access.pricingTierParam ? `/pricing?tier=${access.pricingTierParam}` : "/pricing";

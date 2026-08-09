@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "Google로 회원가입",
   "register.termsOfService": "서비스 약관",
   "register.usernameLabel": "사용자 이름",
-  "register.usernamePlaceholder": "사용자 이름 선택"
+  "register.usernamePlaceholder": "사용자 이름 선택",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

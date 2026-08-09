@@ -1,4 +1,3 @@
-import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -6,8 +5,7 @@ import { getAdminSession } from "@/lib/admin-content/auth";
 import { getPublishedCourses, getPublishedLesson } from "@/lib/curriculum/authoritative-published";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { translate } from "@/lib/international/i18n";
-import { normalizeLanguageCode } from "@/lib/international/languages";
-import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
+import { getServerLanguage } from "@/lib/international/server";
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -17,8 +15,7 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: Props) {
   const { courseId, lessonId } = await params;
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   const courses = await getPublishedCourses(language);
   const course = courses.find((entry) => entry.id === courseId);
   const lesson = await getPublishedLesson(lessonId.toUpperCase(), language);
@@ -28,8 +25,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function LessonPage({ params }: Props) {
   const { courseId, lessonId } = await params;
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
   const courses = await getPublishedCourses(language);

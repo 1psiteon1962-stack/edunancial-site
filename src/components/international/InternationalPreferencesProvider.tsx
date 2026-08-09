@@ -28,6 +28,7 @@ import {
   saveInternationalPreferences,
   saveSavedLanguagePreference,
   saveSessionLanguageOverride,
+  LANGUAGE_COOKIE_NAME,
   type InternationalPreferences,
 } from "@/lib/international/preferences";
 import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
@@ -78,7 +79,18 @@ type InternationalPreferencesContextValue = {
   t: (key: string, values?: Record<string, string | number>) => string;
 };
 
-const defaultPreferences = detectInitialInternationalPreferences();
+function createDefaultPreferences(initialLanguage?: string): InternationalPreferences {
+  const detected = detectInitialInternationalPreferences();
+
+  return initialLanguage
+    ? {
+        ...detected,
+        preferredLanguage: normalizeLanguageCode(initialLanguage),
+      }
+    : detected;
+}
+
+const defaultPreferences = createDefaultPreferences();
 
 const InternationalPreferencesContext = createContext<InternationalPreferencesContextValue>({
   ready: false,
@@ -103,11 +115,15 @@ const InternationalPreferencesContext = createContext<InternationalPreferencesCo
 });
 
 export function InternationalPreferencesProvider({
+  initialLanguage,
   children,
 }: {
+  initialLanguage?: string;
   children: ReactNode;
 }) {
-  const [preferences, setPreferences] = useState<InternationalPreferences>(defaultPreferences);
+  const [preferences, setPreferences] = useState<InternationalPreferences>(() =>
+    createDefaultPreferences(initialLanguage)
+  );
   const [showDetectionBanner, setShowDetectionBanner] = useState(false);
   const [ready, setReady] = useState(false);
   /**
@@ -131,7 +147,7 @@ export function InternationalPreferencesProvider({
         : stored;
       setPreferences(effectiveStored);
     } else {
-      const detected = detectInitialInternationalPreferences();
+      const detected = createDefaultPreferences(initialLanguage);
       setPreferences(detected);
       saveInternationalPreferences(detected);
     }
@@ -151,8 +167,15 @@ export function InternationalPreferencesProvider({
     saveInternationalPreferences(preferences);
 
     const langToApply = sessionLanguage ?? preferences.preferredLanguage;
-    document.documentElement.lang = normalizeLanguageCode(langToApply);
+    const normalizedLanguage = normalizeLanguageCode(langToApply);
+    const isPersistentDefault =
+      !sessionLanguage && preferences.languageSelectionSource === "user-confirmed";
+
+    document.documentElement.lang = normalizedLanguage;
     document.documentElement.dir = isRtlLanguage(langToApply) ? "rtl" : "ltr";
+    document.cookie = isPersistentDefault
+      ? `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/; max-age=${365 * 24 * 60 * 60}; SameSite=Lax`
+      : `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/; SameSite=Lax`;
   }, [preferences, sessionLanguage, ready]);
 
   const setSessionLanguage = useCallback((lang: string | null) => {
