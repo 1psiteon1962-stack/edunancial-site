@@ -264,6 +264,11 @@ export default function CourseEditorClient({ initialCourse }: Props) {
                     <option value="red">🔴 RED</option>
                     <option value="white">⚪ WHITE</option>
                     <option value="blue">🔵 BLUE</option>
+                    <option value="green">🟢 GREEN</option>
+                    <option value="gold">🟡 GOLD</option>
+                    <option value="purple">🟣 PURPLE</option>
+                    <option value="orange">🟠 ORANGE</option>
+                    <option value="black">⚫ BLACK</option>
                   </select>
                 </Field>
                 <Field label="Language">

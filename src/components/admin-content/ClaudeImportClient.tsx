@@ -294,7 +294,7 @@ export default function ClaudeImportClient() {
           <div className="grid gap-2 text-sm sm:grid-cols-2">
             {[
               ["title", "string", "Course title"],
-              ["path", '"red" | "white" | "blue"', "Learning path"],
+              ["path", '"red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black"', "Learning path"],
               ["language", '"en" | "es" | "fr"', "Course language"],
               ["modules[].title", "string", "Module title"],
             ].map(([field, type, description]) => (

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-type PathColor = "red" | "white" | "blue";
+type PathColor = "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black";
 type Difficulty = "beginner" | "intermediate" | "advanced";
 type MembershipTier = "free" | "basic" | "premium" | "elite";
 type Language = "en" | "es" | "fr" | "fr-CA";
@@ -160,6 +160,11 @@ export default function CourseFormClient({ mode }: { mode: "create" }) {
                   <option value="red">🔴 RED Path — Real Estate</option>
                   <option value="white">⚪ WHITE Path — Paper Assets</option>
                   <option value="blue">🔵 BLUE Path — Business</option>
+                  <option value="green">🟢 GREEN Path — Taxes</option>
+                  <option value="gold">🟡 GOLD Path — Investing &amp; Wealth Building</option>
+                  <option value="purple">🟣 PURPLE Path — Law</option>
+                  <option value="orange">🟠 ORANGE Path — Sales &amp; Marketing</option>
+                  <option value="black">⚫ BLACK Path — Leadership &amp; Executive</option>
                 </select>
               </FieldGroup>
               <FieldGroup label="Language">

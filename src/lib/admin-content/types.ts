@@ -22,7 +22,7 @@ export type ConflictStatus =
   | "classification-conflict";
 
 export type SupportedLanguage = "en" | "es" | "fr" | "fr-CA";
-export type EdunancialPillar = "red" | "white" | "blue" | "academy" | "uncategorized";
+export type EdunancialPillar = "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black" | "academy" | "uncategorized";
 export type AcademyLevel = "level-1" | "level-2" | "level-3" | "level-4" | "level-5" | null;
 
 export type TopLevelClassification =
@@ -253,7 +253,7 @@ export interface ActorContext {
 // ─── Course CMS Types ──────────────────────────────────────────────────────
 
 export type CourseStatus = "draft" | "published" | "archived";
-export type PathColor = "red" | "white" | "blue";
+export type PathColor = "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black";
 export type CourseAccessRole = "admin" | "content_manager" | "instructor" | "student";
 export type LessonContentType =
   | "text"

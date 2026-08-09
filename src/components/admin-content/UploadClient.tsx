@@ -32,7 +32,7 @@ export default function UploadClient() {
   const [batchName, setBatchName] = useState("");
   const [source, setSource] = useState("Admin dashboard");
   const [notes, setNotes] = useState("");
-  const [courseTrack, setCourseTrack] = useState<"red" | "white" | "blue">("red");
+  const [courseTrack, setCourseTrack] = useState<"red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black">("red");
   const [courseLevel, setCourseLevel] = useState<(typeof COURSE_LEVELS)[number]>("level-1");
   const [marketplaceCategory, setMarketplaceCategory] = useState<(typeof MARKETPLACE_CATEGORIES)[number]>("books");
   const [language, setLanguage] = useState<"en" | "es" | "fr" | "fr-CA">("en");
@@ -42,7 +42,7 @@ export default function UploadClient() {
   const [description, setDescription] = useState("");
   const [thumbnailUrl, setThumbnailUrl] = useState("");
   const [previewUrl, setPreviewUrl] = useState("");
-  const [associatedTrack, setAssociatedTrack] = useState<"" | "red" | "white" | "blue">("");
+  const [associatedTrack, setAssociatedTrack] = useState<"" | "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black">("");
   const [associatedLevel, setAssociatedLevel] = useState<"" | (typeof COURSE_LEVELS)[number]>("");
   const [csrfToken, setCsrfToken] = useState("");
   const [error, setError] = useState("");
@@ -426,10 +426,15 @@ export default function UploadClient() {
           <>
             <label className="grid gap-2 text-sm font-semibold text-slate-200">
               Color Track *
-              <select value={courseTrack} onChange={(event) => setCourseTrack(event.target.value as "red" | "white" | "blue")} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
-                <option value="red">Red</option>
-                <option value="white">White</option>
-                <option value="blue">Blue</option>
+              <select value={courseTrack} onChange={(event) => setCourseTrack(event.target.value as "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black")} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
+                <option value="red">🔴 Red</option>
+                <option value="white">⚪ White</option>
+                <option value="blue">🔵 Blue</option>
+                <option value="green">🟢 Green</option>
+                <option value="gold">🟡 Gold</option>
+                <option value="purple">🟣 Purple</option>
+                <option value="orange">🟠 Orange</option>
+                <option value="black">⚫ Black</option>
               </select>
             </label>
             <label className="grid gap-2 text-sm font-semibold text-slate-200">
@@ -450,11 +455,16 @@ export default function UploadClient() {
             <label className="grid gap-2 text-sm font-semibold text-slate-200">
               Optional Course Association
               <div className="grid grid-cols-2 gap-3">
-                <select value={associatedTrack} onChange={(event) => setAssociatedTrack(event.target.value as "" | "red" | "white" | "blue")} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
+                <select value={associatedTrack} onChange={(event) => setAssociatedTrack(event.target.value as "" | "red" | "white" | "blue" | "green" | "gold" | "purple" | "orange" | "black")} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
                   <option value="">Track (optional)</option>
-                  <option value="red">Red</option>
-                  <option value="white">White</option>
-                  <option value="blue">Blue</option>
+                  <option value="red">🔴 Red</option>
+                  <option value="white">⚪ White</option>
+                  <option value="blue">🔵 Blue</option>
+                  <option value="green">🟢 Green</option>
+                  <option value="gold">🟡 Gold</option>
+                  <option value="purple">🟣 Purple</option>
+                  <option value="orange">🟠 Orange</option>
+                  <option value="black">⚫ Black</option>
                 </select>
                 <select value={associatedLevel} onChange={(event) => setAssociatedLevel(event.target.value as "" | (typeof COURSE_LEVELS)[number])} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white">
                   <option value="">Level (optional)</option>

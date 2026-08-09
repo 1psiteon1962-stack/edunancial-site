@@ -313,7 +313,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
 
         <div className="mt-8 flex flex-wrap gap-3 rounded-3xl border border-white/10 bg-[#101a2f] p-4">
           <FilterSelect label="Review" value={filters.status} options={["all", "pending", "approved", "rejected"]} onChange={(value) => setFilters((current) => ({ ...current, status: value }))} />
-          <FilterSelect label="Pillar" value={filters.pillar} options={["all", "red", "white", "blue", "academy", "uncategorized"]} onChange={(value) => setFilters((current) => ({ ...current, pillar: value }))} />
+          <FilterSelect label="Pillar" value={filters.pillar} options={["all", "red", "white", "blue", "green", "gold", "purple", "orange", "black", "academy", "uncategorized"]} onChange={(value) => setFilters((current) => ({ ...current, pillar: value }))} />
           <FilterSelect label="Language" value={filters.language} options={["all", "en", "es", "fr", "fr-CA"]} onChange={(value) => setFilters((current) => ({ ...current, language: value }))} />
           <label className="flex items-center gap-3 rounded-xl border border-white/10 px-4 py-3 text-sm font-semibold text-slate-200">
             <input
@@ -573,8 +573,8 @@ function CourseAssignmentPanel({
         <AssignSelect
           label="Academy (Color)"
           value={academy}
-          options={["red", "white", "blue", "academy", "uncategorized"]}
-          labels={{ red: "Red Academy", white: "White Academy", blue: "Blue Academy", academy: "Academy (General)", uncategorized: "Uncategorized" }}
+          options={["red", "white", "blue", "green", "gold", "purple", "orange", "black", "academy", "uncategorized"]}
+          labels={{ red: "Red Academy", white: "White Academy", blue: "Blue Academy", green: "Green Academy", gold: "Gold Academy", purple: "Purple Academy", orange: "Orange Academy", black: "Black Academy", academy: "Academy (General)", uncategorized: "Uncategorized" }}
           onChange={(v) => { setAcademy(v); onDirty(true); }}
         />
         <AssignSelect

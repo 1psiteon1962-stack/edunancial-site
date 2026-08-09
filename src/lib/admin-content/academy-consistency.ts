@@ -20,10 +20,20 @@ const PILLAR_TO_TRACK: Record<string, string> = {
   red: "RED",
   white: "WHITE",
   blue: "BLUE",
+  green: "GREEN",
+  gold: "GOLD",
+  purple: "PURPLE",
+  orange: "ORANGE",
+  black: "BLACK",
 };
 
 /** Ordered so longer / more-specific tokens are checked first. */
 const COLOR_TOKENS: ReadonlyArray<{ token: string; pillar: string }> = [
+  { token: "orange", pillar: "orange" },
+  { token: "purple", pillar: "purple" },
+  { token: "green", pillar: "green" },
+  { token: "black", pillar: "black" },
+  { token: "gold", pillar: "gold" },
   { token: "blue", pillar: "blue" },
   { token: "white", pillar: "white" },
   { token: "red", pillar: "red" },
@@ -59,11 +69,9 @@ export function academyImpliedByFrontMatter(rawText: string | null | undefined):
   if (!fm) return null;
   const trackLine = fm[1].split(/\r?\n/).find((line) => /^track\s*:/i.test(line));
   if (!trackLine) return null;
-  const value = trackLine.replace(/^track\s*:\s*/i, "").trim().toUpperCase();
-  if (value === "RED") return "red";
-  if (value === "WHITE") return "white";
-  if (value === "BLUE") return "blue";
-  return null;
+  const value = trackLine.replace(/^track\s*:\s*/i, "").trim().toLowerCase();
+  const validTracks = ["red", "white", "blue", "green", "gold", "purple", "orange", "black"];
+  return validTracks.includes(value) ? value : null;
 }
 
 export type ConsistencyResult =
@@ -83,7 +91,7 @@ export function validateAcademyConsistency(
   pillar: EdunancialPillar,
   rawText?: string | null,
 ): ConsistencyResult {
-  // Only the three color academies have a strict track; skip for others.
+  // Only the eight color academies have a strict track; skip for others.
   const assignedTrack = PILLAR_TO_TRACK[pillar];
   if (!assignedTrack) return { consistent: true };
 
