@@ -710,5 +710,15 @@
   "login.header": "உள்நுழைய",
   "login.signUp": "பதிவுசெய்க",
   "notFound.cta": "முகப்புக்கு திரும்பு",
-  "register.header": "உங்கள் கணக்கை உருவாக்குங்கள்"
+  "register.header": "உங்கள் கணக்கை உருவாக்குங்கள்",
+  "curriculumGate.title": "Membership Required",
+  "curriculumGate.subtitle": "This lesson requires an active Edunancial membership.",
+  "curriculumGate.freeNote": "Level 1 Lessons 1–3 are available to explore.",
+  "curriculumGate.levelsNote": "All lessons in Levels 2–5 require an active membership.",
+  "curriculumGate.loginCta": "Log In",
+  "curriculumGate.membershipCta": "View Membership Plans",
+  "curriculumGate.upgradeCta": "Upgrade Membership",
+  "curriculumGate.browseFree": "Browse Free Lessons",
+  "curriculumLesson.free": "Free",
+  "curriculumLesson.locked": "Membership Required"
 }

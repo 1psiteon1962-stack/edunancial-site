@@ -72,6 +72,35 @@ function simpleHash(s: string): string {
   return h.toString(16);
 }
 
+// ---------------------------------------------------------------------------
+// Server-side member session cookie sync
+// ---------------------------------------------------------------------------
+
+/**
+ * Syncs the current user's membership tier to a server-side signed cookie so
+ * that Next.js Server Components can enforce curriculum access control.
+ * Fire-and-forget: failures are silently ignored to avoid blocking the UI.
+ */
+async function syncMemberSessionCookie(user: AuthUser): Promise<void> {
+  try {
+    await fetch("/api/auth/member-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ authTier: user.membershipTier, email: user.email }),
+    });
+  } catch {
+    // Non-fatal — the gate defaults to "free" if the cookie is absent
+  }
+}
+
+async function clearMemberSessionCookie(): Promise<void> {
+  try {
+    await fetch("/api/auth/member-session", { method: "DELETE" });
+  } catch {
+    // Non-fatal
+  }
+}
+
 function generateId(): string {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
@@ -244,6 +273,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(authUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
       syncStoredUser(authUser);
+      void syncMemberSessionCookie(authUser);
       return { success: true };
     },
     [],
@@ -276,6 +306,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const syncedUser = applyPersistedBetaState(authUser);
       setUser(syncedUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
+      void syncMemberSessionCookie(syncedUser);
       return { success: true };
     },
     [],
@@ -284,6 +315,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = useCallback(() => {
     setUser(null);
     localStorage.removeItem(STORAGE_KEY);
+    void clearMemberSessionCookie();
   }, []);
 
   const updateProfile = useCallback((data: Partial<AuthUser>) => {

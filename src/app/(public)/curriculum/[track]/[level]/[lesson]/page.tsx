@@ -28,8 +28,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lesson = await getPublishedLesson(lessonParam.toUpperCase(), language);
   if (!lesson) return { title: "Lesson Not Found | Edunancial" };
 
+  // Check access before exposing lesson metadata — protected lesson summaries
+  // must not appear in HTML head, Open Graph tags, or social card previews.
+  const access = checkLessonAccess(lesson.level, lesson.lessonNumber, cookieHeader, lesson.id);
+
   const title = `${lesson.id} — ${lesson.title} | Edunancial`;
-  const description = lesson.summary || `${lesson.trackName} Level ${lesson.level} — Lesson ${lesson.lessonNumber}`;
+  // Only include the lesson summary in metadata when the viewer is authorised.
+  // Unauthorised viewers receive a generic description to avoid leaking content.
+  const description = access.allowed
+    ? (lesson.summary || `${lesson.trackName} Level ${lesson.level} — Lesson ${lesson.lessonNumber}`)
+    : `${lesson.trackName} Level ${lesson.level} — Lesson ${lesson.lessonNumber}`;
 
   return {
     title,
@@ -123,13 +131,30 @@ export default async function LessonViewerPage({ params }: Props) {
               <span className="text-slate-200 truncate max-w-[200px]">{lesson.title}</span>
             </nav>
 
-            <div className="rounded-2xl border border-yellow-500/40 bg-yellow-500/5 p-8 text-center space-y-4">
+            <div className="rounded-2xl border border-yellow-500/40 bg-yellow-500/5 p-8 text-center space-y-5">
               <div className="text-4xl">🔒</div>
-              <h2 className="text-xl font-black text-yellow-400">{t("curriculumLesson.membersOnly")}</h2>
-              <p className="text-slate-300 max-w-lg mx-auto leading-relaxed">{access.lockedMessage}</p>
-              <Link href={pricingHref} className="inline-block rounded-xl bg-yellow-500 px-6 py-3 font-black text-black hover:bg-yellow-400 transition">
-                {t("curriculumLesson.unlockCurriculum")}
-              </Link>
+              <h2 className="text-2xl font-black text-yellow-400">{t("curriculumGate.title")}</h2>
+              <p className="text-slate-300 max-w-lg mx-auto leading-relaxed">{t("curriculumGate.subtitle")}</p>
+              <p className="text-sm text-slate-400 max-w-lg mx-auto">{t("curriculumGate.freeNote")}</p>
+              <div className="flex flex-wrap gap-3 justify-center pt-2">
+                {access.isAuthenticated ? (
+                  <Link href={pricingHref} className="inline-block rounded-xl bg-yellow-500 px-6 py-3 font-black text-black hover:bg-yellow-400 transition">
+                    {t("curriculumGate.upgradeCta")}
+                  </Link>
+                ) : (
+                  <>
+                    <Link href="/login" className="inline-block rounded-xl border border-slate-600 px-6 py-3 font-bold text-slate-200 hover:bg-slate-800 transition">
+                      {t("curriculumGate.loginCta")}
+                    </Link>
+                    <Link href={pricingHref} className="inline-block rounded-xl bg-yellow-500 px-6 py-3 font-black text-black hover:bg-yellow-400 transition">
+                      {t("curriculumGate.membershipCta")}
+                    </Link>
+                  </>
+                )}
+                <Link href={`/curriculum/${trackParam}/l1`} className="inline-block rounded-xl border border-slate-700 px-6 py-3 font-bold text-slate-400 hover:bg-slate-800 transition">
+                  {t("curriculumGate.browseFree")}
+                </Link>
+              </div>
             </div>
           </div>
         </div>

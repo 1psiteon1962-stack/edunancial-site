@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
+import { isFreeLesson } from "@/lib/curriculum/access-gate";
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { translate } from "@/lib/international/i18n";
 import { normalizeLanguageCode } from "@/lib/international/languages";
@@ -136,7 +137,9 @@ export default async function LevelPage({ params }: Props) {
         {/* Lessons */}
         {lessons.length > 0 ? (
           <div className="space-y-3">
-            {lessons.map((lesson, idx) => (
+            {lessons.map((lesson, idx) => {
+              const free = isFreeLesson(levelNum, lesson.lessonNumber);
+              return (
               <Link
                 key={lesson.id}
                 href={`/curriculum/${trackParam}/${levelParam}/${lesson.id.toLowerCase()}`}
@@ -146,7 +149,18 @@ export default async function LevelPage({ params }: Props) {
                   {idx + 1}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs text-slate-500 mb-1">{lesson.id}</p>
+                  <div className="flex items-center gap-2 mb-1">
+                    <p className="text-xs text-slate-500">{lesson.id}</p>
+                    {free ? (
+                      <span className="inline-block rounded-full px-2 py-0.5 text-xs font-bold bg-green-900/40 text-green-400 border border-green-700/40">
+                        {t("curriculumLesson.free")}
+                      </span>
+                    ) : (
+                      <span className="inline-block rounded-full px-2 py-0.5 text-xs font-bold bg-yellow-900/30 text-yellow-400 border border-yellow-700/40">
+                        {t("curriculumLesson.locked")}
+                      </span>
+                    )}
+                  </div>
                   <h3 className="font-bold text-white group-hover:text-yellow-400 transition leading-snug">
                     {lesson.title}
                   </h3>
@@ -160,7 +174,8 @@ export default async function LevelPage({ params }: Props) {
                   →
                 </span>
               </Link>
-            ))}
+              );
+            })}
           </div>
         ) : (
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-12 text-center">

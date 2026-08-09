@@ -756,5 +756,15 @@
   "register.signInWithGoogle": "使用 Google 注册",
   "register.termsOfService": "服务条款",
   "register.usernameLabel": "用户名",
-  "register.usernamePlaceholder": "选择用户名"
+  "register.usernamePlaceholder": "选择用户名",
+  "curriculumGate.title": "Membership Required",
+  "curriculumGate.subtitle": "This lesson requires an active Edunancial membership.",
+  "curriculumGate.freeNote": "Level 1 Lessons 1–3 are available to explore.",
+  "curriculumGate.levelsNote": "All lessons in Levels 2–5 require an active membership.",
+  "curriculumGate.loginCta": "Log In",
+  "curriculumGate.membershipCta": "View Membership Plans",
+  "curriculumGate.upgradeCta": "Upgrade Membership",
+  "curriculumGate.browseFree": "Browse Free Lessons",
+  "curriculumLesson.free": "Free",
+  "curriculumLesson.locked": "Membership Required"
 }

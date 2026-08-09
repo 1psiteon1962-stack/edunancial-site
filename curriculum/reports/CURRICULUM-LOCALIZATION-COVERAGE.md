@@ -1,6 +1,6 @@
 # Curriculum Localization Coverage Report
 
-**Generated:** 2026-08-09T01:53:51.379Z
+**Generated:** 2026-08-09T08:21:10.222Z
 **Canonical lessons audited:** 0
 **Locales audited:** en-US, es, fr-CA, fr-FR, pt, de, it, nl, ht, pap, pl, ar, he, hi, th, vi, ms, id, fil, ta, bn, ur, zh-Hans, zh-Hant, ja, ko, cs, sk, ro, bg, lt, lv, et, be, ru, fa, prs, ps, sw, lg, yo, ig, ha, zu, am
 
