@@ -23,6 +23,21 @@ export function classifyFromFilename(filename: string, archivePath: string | nul
   } else if (/business|entrepreneurship|profit|margins|ai|artificial[- ]intelligence|operations/.test(haystack)) {
     pillar = "blue";
     reasons.push("filename references blue pillar topics");
+  } else if (/\btax(es|ation|able|ing)?\b/.test(haystack)) {
+    pillar = "green";
+    reasons.push("filename references green pillar topics");
+  } else if (/investing|wealth[- ]building|portfolio|hedge|commodity|commodities/.test(haystack)) {
+    pillar = "gold";
+    reasons.push("filename references gold pillar topics");
+  } else if (/\blaw\b|legal[- ]strategy|contract[- ]law|lawsuit|litigation|attorney|counsel/.test(haystack)) {
+    pillar = "purple";
+    reasons.push("filename references purple pillar topics");
+  } else if (/sales|marketing|branding|advertising|funnel|copywriting/.test(haystack)) {
+    pillar = "orange";
+    reasons.push("filename references orange pillar topics");
+  } else if (/leadership|executive|management|team[- ]building|culture/.test(haystack)) {
+    pillar = "black";
+    reasons.push("filename references black pillar topics");
   }
 
   const levelMatch = haystack.match(levelPattern);

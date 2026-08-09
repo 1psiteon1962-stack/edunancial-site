@@ -12,7 +12,7 @@ export function buildDestination(proposal: Omit<ClassificationProposal, "destina
   const slug = slugify(normalizedFilename.replace(extension, ""));
   const level = levelFolder(proposal.academyLevel);
 
-  if (["lessons", "quizzes", "courses", "certificates"].includes(proposal.category) && level && ["red", "white", "blue"].includes(proposal.pillar)) {
+  if (["lessons", "quizzes", "courses", "certificates"].includes(proposal.category) && level && ["red", "white", "blue", "green", "gold", "purple", "orange", "black"].includes(proposal.pillar)) {
     return `content/curriculum/${proposal.pillar.toUpperCase()}/${level}/${slug}${extension}`;
   }
 

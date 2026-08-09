@@ -1,9 +1,10 @@
 import { basename, extname } from "node:path";
 
+import { COURSE_TRACKS } from "@/lib/admin-content/constants";
 import { slugify } from "@/lib/admin-content/utils";
 
+export { COURSE_TRACKS } from "@/lib/admin-content/constants";
 export const CONTENT_DESTINATIONS = ["courses", "marketplace"] as const;
-export const COURSE_TRACKS = ["red", "white", "blue"] as const;
 export const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
 export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] as const;
 export const MEMBERSHIP_ACCESS = ["free", "basic", "premium", "elite"] as const;
@@ -40,7 +41,7 @@ export const MARKETPLACE_CATEGORIES = [
 export const SUPPORTED_UPLOAD_LANGUAGES = ["en", "es", "fr", "fr-CA"] as const;
 
 export type ContentDestination = (typeof CONTENT_DESTINATIONS)[number];
-export type CourseTrack = (typeof COURSE_TRACKS)[number];
+export type { CourseTrack } from "@/lib/admin-content/constants";
 export type CourseLevel = (typeof COURSE_LEVELS)[number];
 export type PublicationState = (typeof PUBLICATION_STATES)[number];
 export type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];

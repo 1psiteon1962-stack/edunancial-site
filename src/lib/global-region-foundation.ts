@@ -1,4 +1,4 @@
-export const CURRICULUM_TRACKS = ["red", "white", "blue"] as const;
+export const CURRICULUM_TRACKS = ["red", "white", "blue", "green", "gold", "purple", "orange", "black"] as const;
 export const CURRICULUM_LEVELS = [1, 2, 3, 4, 5] as const;
 
 export type CurriculumTrack = (typeof CURRICULUM_TRACKS)[number];

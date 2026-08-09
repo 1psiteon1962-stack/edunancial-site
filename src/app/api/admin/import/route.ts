@@ -1,6 +1,7 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { COURSE_TRACKS } from "@/lib/admin-content/constants";
 import { saveCourse } from "@/lib/admin-content/course-storage";
 import type { AdminCourse, AdminLesson, AdminModule } from "@/lib/admin-content/types";
 
@@ -31,8 +32,8 @@ function validateImportPayload(payload: unknown): string[] {
   if (!record.title || typeof record.title !== "string") {
     errors.push("course.title is required");
   }
-  if (!record.path || !["red", "white", "blue"].includes(String(record.path))) {
-    errors.push("course.path must be 'red', 'white', or 'blue'");
+  if (!record.path || !(COURSE_TRACKS as readonly string[]).includes(String(record.path))) {
+    errors.push(`course.path must be one of: ${COURSE_TRACKS.join(", ")}`);
   }
   if (!record.language) {
     errors.push("course.language is required");
@@ -160,7 +161,7 @@ export async function POST(request: NextRequest) {
     subtitle: String(record.subtitle || ""),
     description,
     status: "draft",
-    path: (["red", "white", "blue"].includes(String(record.path))
+    path: ((COURSE_TRACKS as readonly string[]).includes(String(record.path))
       ? String(record.path)
       : "white") as AdminCourse["path"],
     language: (record.language as AdminCourse["language"]) || "en",
