@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -90,6 +91,13 @@ function createDefaultPreferences(initialLanguage?: string): InternationalPrefer
     : detected;
 }
 
+function writeLanguageCookie(language: string, persistent: boolean): void {
+  if (typeof document === "undefined") return;
+  const normalizedLanguage = normalizeLanguageCode(language);
+  const lifetime = persistent ? `; max-age=${365 * 24 * 60 * 60}` : "";
+  document.cookie = `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/${lifetime}; SameSite=Lax`;
+}
+
 const defaultPreferences = createDefaultPreferences();
 
 const InternationalPreferencesContext = createContext<InternationalPreferencesContextValue>({
@@ -121,6 +129,7 @@ export function InternationalPreferencesProvider({
   initialLanguage?: string;
   children: ReactNode;
 }) {
+  const router = useRouter();
   const [preferences, setPreferences] = useState<InternationalPreferences>(() =>
     createDefaultPreferences(initialLanguage)
   );
@@ -158,7 +167,7 @@ export function InternationalPreferencesProvider({
 
     setShowDetectionBanner(!isInternationalBannerDismissed());
     setReady(true);
-  }, []);
+  }, [initialLanguage]);
 
   // Sync document attributes whenever the effective language changes.
   useEffect(() => {
@@ -173,9 +182,7 @@ export function InternationalPreferencesProvider({
 
     document.documentElement.lang = normalizedLanguage;
     document.documentElement.dir = isRtlLanguage(langToApply) ? "rtl" : "ltr";
-    document.cookie = isPersistentDefault
-      ? `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/; max-age=${365 * 24 * 60 * 60}; SameSite=Lax`
-      : `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/; SameSite=Lax`;
+    writeLanguageCookie(normalizedLanguage, isPersistentDefault);
   }, [preferences, sessionLanguage, ready]);
 
   const setSessionLanguage = useCallback((lang: string | null) => {
@@ -208,13 +215,19 @@ export function InternationalPreferencesProvider({
       showDetectionBanner,
       setLanguage: (language) => {
         const normalizedLanguage = normalizeLanguageCode(language);
-        // Apply language immediately for this session without persisting.
+        // Write the request-visible cookie before refreshing Server Components.
+        // Client-only state already re-renders immediately, while router.refresh()
+        // makes server-rendered curriculum/course/lesson content use the same locale
+        // without requiring the visitor to manually reload the page.
+        writeLanguageCookie(normalizedLanguage, false);
         setSessionLanguage(normalizedLanguage);
         setLanguagePromptPending(true);
+        router.refresh();
       },
       confirmLanguageDefault: (makeDefault) => {
         if (makeDefault && sessionLanguage) {
           // Persist as the user's confirmed default.
+          writeLanguageCookie(sessionLanguage, true);
           saveSavedLanguagePreference(sessionLanguage);
           setPreferences((previous) => ({
             ...previous,
@@ -222,6 +235,7 @@ export function InternationalPreferencesProvider({
             languageSelectionSource: "user-confirmed",
           }));
           setSessionLanguage(null);
+          router.refresh();
         }
         // If not making default, sessionLanguage remains active for this session only.
         setLanguagePromptPending(false);
@@ -231,13 +245,17 @@ export function InternationalPreferencesProvider({
         clearSavedLanguagePreference();
         setSessionLanguage(null);
         setLanguagePromptPending(false);
-        // Re-detect language from browser signals.
+        // Re-detect language from browser signals and synchronize the cookie used by
+        // Server Components before refreshing them.
         const detected = detectInitialInternationalPreferences();
+        const detectedLanguage = normalizeLanguageCode(detected.preferredLanguage);
+        writeLanguageCookie(detectedLanguage, false);
         setPreferences((previous) => ({
           ...previous,
-          preferredLanguage: detected.preferredLanguage,
+          preferredLanguage: detectedLanguage,
           languageSelectionSource: "detected",
         }));
+        router.refresh();
       },
       setCountry: (country) => {
         setPreferences((previous) => ({ ...previous, country }));
@@ -285,7 +303,7 @@ export function InternationalPreferencesProvider({
         return translate(languageToUse, key, values);
       },
     };
-  }, [preferences, sessionLanguage, languagePromptPending, ready, showDetectionBanner, setSessionLanguage]);
+  }, [preferences, sessionLanguage, languagePromptPending, ready, showDetectionBanner, setSessionLanguage, router]);
 
   return (
     <InternationalPreferencesContext.Provider value={contextValue}>
