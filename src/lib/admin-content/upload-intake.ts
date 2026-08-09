@@ -1,6 +1,7 @@
 import { basename, extname } from "node:path";
 
 import { COURSE_TRACKS } from "@/lib/admin-content/constants";
+import type { CourseTrack } from "@/lib/admin-content/constants";
 import { slugify } from "@/lib/admin-content/utils";
 
 export { COURSE_TRACKS } from "@/lib/admin-content/constants";
