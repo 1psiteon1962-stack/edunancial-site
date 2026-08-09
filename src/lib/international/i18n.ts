@@ -1,20 +1,49 @@
 import enMessages from "../../locales/en.json";
-import frCaMessages from "../../locales/fr-CA.json";
-import frFrMessages from "../../locales/fr-FR.json";
 import esMessages from "../../locales/es.json";
 import frMessages from "../../locales/fr.json";
+import frCaMessages from "../../locales/fr-CA.json";
+import frFrMessages from "../../locales/fr-FR.json";
 import ptMessages from "../../locales/pt.json";
 import deMessages from "../../locales/de.json";
 import itMessages from "../../locales/it.json";
+import nlMessages from "../../locales/nl.json";
+import htMessages from "../../locales/ht.json";
+import papMessages from "../../locales/pap.json";
+import plMessages from "../../locales/pl.json";
 import arMessages from "../../locales/ar.json";
-import swMessages from "../../locales/sw.json";
+import heMessages from "../../locales/he.json";
+import hiMessages from "../../locales/hi.json";
+import thMessages from "../../locales/th.json";
+import viMessages from "../../locales/vi.json";
+import msMessages from "../../locales/ms.json";
+import idMessages from "../../locales/id.json";
+import filMessages from "../../locales/fil.json";
+import taMessages from "../../locales/ta.json";
+import bnMessages from "../../locales/bn.json";
+import urMessages from "../../locales/ur.json";
+import zhHansMessages from "../../locales/zh-Hans.json";
+import zhHantMessages from "../../locales/zh-Hant.json";
 import jaMessages from "../../locales/ja.json";
 import koMessages from "../../locales/ko.json";
-import zhHansMessages from "../../locales/zh-Hans.json";
-import nlMessages from "../../locales/nl.json";
-import hiMessages from "../../locales/hi.json";
-import zhHantMessages from "../../locales/zh-Hant.json";
-import htMessages from "../../locales/ht.json";
+import csMessages from "../../locales/cs.json";
+import skMessages from "../../locales/sk.json";
+import roMessages from "../../locales/ro.json";
+import bgMessages from "../../locales/bg.json";
+import ltMessages from "../../locales/lt.json";
+import lvMessages from "../../locales/lv.json";
+import etMessages from "../../locales/et.json";
+import beMessages from "../../locales/be.json";
+import ruMessages from "../../locales/ru.json";
+import faMessages from "../../locales/fa.json";
+import prsMessages from "../../locales/prs.json";
+import psMessages from "../../locales/ps.json";
+import swMessages from "../../locales/sw.json";
+import lgMessages from "../../locales/lg.json";
+import yoMessages from "../../locales/yo.json";
+import igMessages from "../../locales/ig.json";
+import haMessages from "../../locales/ha.json";
+import zuMessages from "../../locales/zu.json";
+import amMessages from "../../locales/am.json";
 import { DEFAULT_LANGUAGE_CODE, normalizeLanguageCode } from "./languages";
 
 type MessageCatalog = Record<string, string>;
@@ -29,15 +58,44 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   pt: ptMessages,
   de: deMessages,
   it: itMessages,
+  nl: nlMessages,
+  ht: htMessages,
+  pap: papMessages,
+  pl: plMessages,
   ar: arMessages,
-  sw: swMessages,
+  he: heMessages,
+  hi: hiMessages,
+  th: thMessages,
+  vi: viMessages,
+  ms: msMessages,
+  id: idMessages,
+  fil: filMessages,
+  ta: taMessages,
+  bn: bnMessages,
+  ur: urMessages,
+  "zh-Hans": zhHansMessages,
+  "zh-Hant": zhHantMessages,
   ja: jaMessages,
   ko: koMessages,
-  "zh-Hans": zhHansMessages,
-  nl: nlMessages,
-  hi: hiMessages,
-  "zh-Hant": zhHantMessages,
-  ht: htMessages,
+  cs: csMessages,
+  sk: skMessages,
+  ro: roMessages,
+  bg: bgMessages,
+  lt: ltMessages,
+  lv: lvMessages,
+  et: etMessages,
+  be: beMessages,
+  ru: ruMessages,
+  fa: faMessages,
+  prs: prsMessages,
+  ps: psMessages,
+  sw: swMessages,
+  lg: lgMessages,
+  yo: yoMessages,
+  ig: igMessages,
+  ha: haMessages,
+  zu: zuMessages,
+  am: amMessages,
 };
 
 function getLocaleFallbackChain(languageCode: string): string[] {
