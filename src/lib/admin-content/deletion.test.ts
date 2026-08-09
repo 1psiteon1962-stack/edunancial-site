@@ -46,14 +46,17 @@ describe("admin-content deletion service", () => {
     formData.append("files", new File([Buffer.from("lesson one")], "lesson-one.md", { type: "text/markdown" }));
     formData.append("files", new File([Buffer.from("lesson two")], "lesson-two.md", { type: "text/markdown" }));
     const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    const storage = getAdminContentStorage();
 
     const targetFile = batch.files[0];
-    await deleteBatchFile(batch.id, targetFile.id, { email: "owner@example.com" });
+    const result = await deleteBatchFile(batch.id, targetFile.id, { email: "owner@example.com" });
 
     const updated = await getUploadBatch(batch.id);
     assert(updated);
     assert.equal(updated.files.length, 1);
     assert.equal(updated.files.some((entry) => entry.id === targetFile.id), false);
+    assert.equal(result.remainingCounts.batches, 1);
+    assert.equal(await storage.readBinary(batch.uploads[0]!.storagePath), null);
   });
 
   test("requires explicit exported-batch confirmation before deletion", async () => {
@@ -105,6 +108,26 @@ describe("admin-content deletion service", () => {
     const result = await bulkDeleteBatchFiles(batch.id, [batch.files[0].id, "file_00000000-0000-0000-0000-000000000000"], { email: "owner@example.com" });
     assert.equal(result.deleted, 1);
     assert.equal(result.failures.length, 1);
+    assert.equal(result.partial, true);
+  });
+
+  test("bulk file deletion persists all visible removals and leaves an empty batch when all files are deleted", async () => {
+    const formData = makeFormData();
+    formData.append("files", new File([Buffer.from("lesson one")], "lesson-one.md", { type: "text/markdown" }));
+    formData.append("files", new File([Buffer.from("lesson two")], "lesson-two.md", { type: "text/markdown" }));
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    const storage = getAdminContentStorage();
+
+    const result = await bulkDeleteBatchFiles(batch.id, batch.files.map((file) => file.id), { email: "owner@example.com" });
+
+    const reloaded = await getUploadBatch(batch.id);
+    assert(reloaded);
+    assert.equal(result.deleted, 2);
+    assert.equal(reloaded.files.length, 0);
+    assert.equal(reloaded.uploads.length, 0);
+    assert.equal(reloaded.status, "failed");
+    assert.equal(result.remainingCounts.files, 0);
+    assert.equal(await storage.readBinary(batch.uploads[0]!.storagePath), null);
   });
 
   test("clear workspace requires typed confirmation and leaves clean zero state", async () => {
@@ -120,5 +143,9 @@ describe("admin-content deletion service", () => {
     await clearWorkspace({ email: "owner@example.com" }, "DELETE ALL WORKSPACE CONTENT");
     const stats = await getWorkspaceMaintenanceStats();
     assert.equal(stats.totalBatches, 0);
+    assert.equal(stats.totalFiles, 0);
+    assert.equal(stats.pendingFiles, 0);
+    assert.equal(stats.approvedFiles, 0);
+    assert.equal(stats.conflicts, 0);
   });
 });

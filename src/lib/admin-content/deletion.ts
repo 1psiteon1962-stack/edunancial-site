@@ -11,24 +11,56 @@ const PROTECTED_WORKSPACE_PATHS = new Set(["audit.json"]);
 
 type DeleteAttempt = { path: string; ok: boolean; error?: string };
 
+export type RemainingWorkspaceCounts = {
+  batches: number;
+  files: number;
+  pendingFiles: number;
+  approvedFiles: number;
+  rejectedFiles: number;
+  conflicts: number;
+  failedBatches: number;
+  exportedBatches: number;
+  workspaceObjects: number;
+  orphanObjects: number;
+};
+
 export type DeleteOutcome = {
   deleted: number;
   skipped: number;
+  deletedPaths: string[];
+  skippedPaths: string[];
   failures: DeleteAttempt[];
 };
 
 export type BatchDeleteResult = {
+  status: "success" | "partial";
+  success: boolean;
+  partial: boolean;
+  retryable: boolean;
   batchId: string;
+  deletedBatchIds: string[];
   deletedFileIds: string[];
+  deletedObjects: string[];
+  failedObjects: Array<{ id: string; error: string; retryable: boolean }>;
   deletedPaths: string[];
   storageOutcome: DeleteOutcome;
+  remainingCounts: RemainingWorkspaceCounts;
 };
 
 export type BulkDeleteResult = {
+  status: "success" | "partial";
+  success: boolean;
+  partial: boolean;
+  retryable: boolean;
   requested: number;
   deleted: number;
   skipped: number;
-  failures: Array<{ id: string; error: string }>;
+  deletedBatchIds: string[];
+  deletedFileIds: string[];
+  deletedObjects: string[];
+  failedObjects: Array<{ id: string; error: string; retryable: boolean }>;
+  failures: Array<{ id: string; error: string; retryable: boolean }>;
+  remainingCounts: RemainingWorkspaceCounts;
 };
 
 export type WorkspaceOrphanScan = {
@@ -39,21 +71,26 @@ export type WorkspaceOrphanScan = {
 
 function summarizeDeleteResults(paths: string[], settled: PromiseSettledResult<void>[]): DeleteOutcome {
   const failures: DeleteAttempt[] = [];
+  const deletedPaths: string[] = [];
+  const skippedPaths: string[] = [];
   let deleted = 0;
   let skipped = 0;
   settled.forEach((result, index) => {
+    const path = paths[index] ?? "unknown";
     if (result.status === "fulfilled") {
       deleted += 1;
+      deletedPaths.push(path);
       return;
     }
     const message = result.reason instanceof Error ? result.reason.message : String(result.reason);
     if (/404|not found|NoSuchKey/i.test(message)) {
       skipped += 1;
+      skippedPaths.push(path);
       return;
     }
-    failures.push({ path: paths[index] ?? "unknown", ok: false, error: message });
+    failures.push({ path, ok: false, error: message });
   });
-  return { deleted, skipped, failures };
+  return { deleted, skipped, deletedPaths, skippedPaths, failures };
 }
 
 function collectBatchArtifactPaths(batch: UploadBatch) {
@@ -87,6 +124,35 @@ async function deleteWorkspacePaths(paths: string[]) {
   const safePaths = paths.map(assertSafeWorkspacePath);
   const settled = await Promise.allSettled(safePaths.map((path) => storage.deleteBinary(path)));
   return summarizeDeleteResults(safePaths, settled);
+}
+
+function isRetryableError(message: string) {
+  return !/not found|invalid|unsafe|confirmation|required/i.test(message);
+}
+
+function toFailedObjects(failures: Array<{ id: string; error: string }>) {
+  return failures.map((entry) => ({
+    ...entry,
+    retryable: isRetryableError(entry.error),
+  }));
+}
+
+async function getRemainingWorkspaceCounts() {
+  const storage = getAdminContentStorage();
+  const summaries = await storage.listBatches();
+  const orphanScan = await scanWorkspaceOrphans();
+  return {
+    batches: summaries.length,
+    files: summaries.reduce((sum, summary) => sum + summary.totalFiles, 0),
+    pendingFiles: summaries.reduce((sum, summary) => sum + summary.pendingFiles, 0),
+    approvedFiles: summaries.reduce((sum, summary) => sum + summary.approvedFiles, 0),
+    rejectedFiles: summaries.reduce((sum, summary) => sum + summary.rejectedFiles, 0),
+    conflicts: summaries.reduce((sum, summary) => sum + summary.conflicts, 0),
+    failedBatches: summaries.filter((summary) => summary.status === "failed").length,
+    exportedBatches: summaries.filter((summary) => summary.status === "exported").length,
+    workspaceObjects: (await storage.listWorkspaceEntries()).length,
+    orphanObjects: orphanScan.orphanPaths.length,
+  } satisfies RemainingWorkspaceCounts;
 }
 
 export async function deleteBatch(batchId: string, actor: ActorContext, options?: { allowExported?: boolean }) {
@@ -126,22 +192,24 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
       },
     }),
   );
-
-  await appendGlobalAuditEvent(
-    createAuditEvent({
-      action: "content_batch_purged",
-      result: storageOutcome.failures.length > 0 ? "warning" : "success",
-      actor: actor.email,
-      batchId: normalizedBatchId,
-      metadata: { hardDelete: true },
-    }),
-  );
-
+  const remainingCounts = await getRemainingWorkspaceCounts();
   return {
+    status: storageOutcome.failures.length > 0 ? "partial" : "success",
+    success: storageOutcome.failures.length === 0,
+    partial: storageOutcome.failures.length > 0,
+    retryable: storageOutcome.failures.length > 0,
     batchId: normalizedBatchId,
+    deletedBatchIds: [normalizedBatchId],
     deletedFileIds: batch.files.map((file) => file.id),
+    deletedObjects: storageOutcome.deletedPaths,
+    failedObjects: storageOutcome.failures.map((entry) => ({
+      id: entry.path,
+      error: entry.error ?? "Delete failed",
+      retryable: true,
+    })),
     deletedPaths: artifactPaths,
     storageOutcome,
+    remainingCounts,
   } satisfies BatchDeleteResult;
 }
 
@@ -191,86 +259,157 @@ export async function deleteBatchFile(batchId: string, fileId: string, actor: Ac
       },
     }),
   );
-
+  const remainingCounts = await getRemainingWorkspaceCounts();
   return {
+    status: storageOutcome.failures.length > 0 ? "partial" : "success",
+    success: storageOutcome.failures.length === 0,
+    partial: storageOutcome.failures.length > 0,
+    retryable: storageOutcome.failures.length > 0,
     batch,
     fileId: normalizedFileId,
+    deletedBatchIds: [] as string[],
+    deletedFileIds: [normalizedFileId],
+    deletedObjects: storageOutcome.deletedPaths,
+    failedObjects: storageOutcome.failures.map((entry) => ({
+      id: entry.path,
+      error: entry.error ?? "Delete failed",
+      retryable: true,
+    })),
     deletedArtifactPaths: artifactsToDelete,
     storageOutcome,
+    remainingCounts,
   };
 }
 
 export async function bulkDeleteBatchFiles(batchId: string, fileIds: string[], actor: ActorContext) {
+  const storage = getAdminContentStorage();
   const normalizedBatchId = assertValidEntityId(batchId, "batch");
   const normalizedFileIds = normalizeUniqueIds(fileIds, "file");
   assertDeleteLimit(normalizedFileIds);
+  const batch = await storage.getBatch(normalizedBatchId);
+  if (!batch) throw new Error("Batch not found.");
 
-  const results = await Promise.allSettled(normalizedFileIds.map((fileId) => deleteBatchFile(normalizedBatchId, fileId, actor)));
-  const failures: Array<{ id: string; error: string }> = [];
-  let deleted = 0;
-  results.forEach((result, index) => {
-    if (result.status === "fulfilled") {
-      deleted += 1;
-      return;
-    }
-    failures.push({
-      id: normalizedFileIds[index] ?? "unknown",
-      error: result.reason instanceof Error ? result.reason.message : String(result.reason),
-    });
-  });
+  const selectedFiles = batch.files.filter((entry) => normalizedFileIds.includes(entry.id));
+  const selectedFileIds = new Set(selectedFiles.map((entry) => entry.id));
+  const failures = toFailedObjects(
+    normalizedFileIds
+      .filter((fileId) => !selectedFileIds.has(fileId))
+      .map((fileId) => ({ id: fileId, error: "File not found in batch." })),
+  );
+  const selectedUploadIds = new Set(selectedFiles.map((entry) => entry.uploadId));
+
+  batch.files = batch.files.filter((entry) => !selectedFileIds.has(entry.id));
+  const artifactsToDelete = batch.uploads
+    .filter((upload) => selectedUploadIds.has(upload.id))
+    .filter((upload) => upload.extractedFileIds.every((entry) => selectedFileIds.has(entry)))
+    .map((upload) => upload.storagePath);
+  batch.uploads = batch.uploads
+    .map((upload) =>
+      selectedUploadIds.has(upload.id)
+        ? {
+            ...upload,
+            extractedFileIds: upload.extractedFileIds.filter((entry) => !selectedFileIds.has(entry)),
+          }
+        : upload,
+    )
+    .filter((upload) => upload.extractedFileIds.length > 0);
+  batch.status = deriveBatchStatus(batch.files);
+  batch.updatedAt = nowIso();
+  await storage.updateBatch(batch);
+
+  const storageOutcome = await deleteWorkspacePaths(artifactsToDelete);
+  const storageFailures = storageOutcome.failures.map((entry) => ({
+    id: entry.path,
+    error: entry.error ?? "Delete failed",
+  }));
+  const failedObjects = [...failures, ...toFailedObjects(storageFailures)];
+  const deleted = selectedFiles.length;
 
   await appendGlobalAuditEvent(
     createAuditEvent({
       action: "content_files_bulk_deleted",
-      result: failures.length > 0 ? "warning" : "success",
+      result: failedObjects.length > 0 ? "warning" : "success",
       actor: actor.email,
       batchId: normalizedBatchId,
-      metadata: { requested: normalizedFileIds.length, deleted, failed: failures.length },
+      metadata: {
+        requested: normalizedFileIds.length,
+        deleted,
+        failed: failedObjects.length,
+        deletedArtifacts: storageOutcome.deleted,
+        skippedArtifacts: storageOutcome.skipped,
+      },
     }),
   );
-
+  const remainingCounts = await getRemainingWorkspaceCounts();
   return {
+    status: failedObjects.length > 0 ? "partial" : "success",
+    success: failedObjects.length === 0,
+    partial: failedObjects.length > 0,
+    retryable: failedObjects.some((entry) => entry.retryable),
     requested: normalizedFileIds.length,
     deleted,
     skipped: normalizedFileIds.length - deleted - failures.length,
-    failures,
+    deletedBatchIds: [],
+    deletedFileIds: selectedFiles.map((file) => file.id),
+    deletedObjects: storageOutcome.deletedPaths,
+    failedObjects,
+    failures: failedObjects,
+    remainingCounts,
   } satisfies BulkDeleteResult;
 }
 
 export async function bulkDeleteBatches(batchIds: string[], actor: ActorContext, options?: { allowExported?: boolean }) {
   const normalizedBatchIds = normalizeUniqueIds(batchIds, "batch");
   assertDeleteLimit(normalizedBatchIds);
+  const batchFailures: Array<{ id: string; error: string; retryable: boolean }> = [];
+  const failedObjects: Array<{ id: string; error: string; retryable: boolean }> = [];
+  const deletedBatchIds: string[] = [];
+  const deletedFileIds: string[] = [];
+  const deletedObjects: string[] = [];
 
-  const results = await Promise.allSettled(
-    normalizedBatchIds.map((id) => deleteBatch(id, actor, { allowExported: options?.allowExported ?? false })),
-  );
-  const failures: Array<{ id: string; error: string }> = [];
-  let deleted = 0;
-  results.forEach((result, index) => {
-    if (result.status === "fulfilled") {
-      deleted += 1;
-      return;
+  for (const id of normalizedBatchIds) {
+    try {
+      const result = await deleteBatch(id, actor, { allowExported: options?.allowExported ?? false });
+      deletedBatchIds.push(...result.deletedBatchIds);
+      deletedFileIds.push(...result.deletedFileIds);
+      deletedObjects.push(...result.deletedObjects);
+      failedObjects.push(...result.failedObjects);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      batchFailures.push({ id, error: message, retryable: isRetryableError(message) });
     }
-    failures.push({
-      id: normalizedBatchIds[index] ?? "unknown",
-      error: result.reason instanceof Error ? result.reason.message : String(result.reason),
-    });
-  });
+  }
+  const deleted = deletedBatchIds.length;
 
   await appendGlobalAuditEvent(
     createAuditEvent({
       action: "content_batches_bulk_deleted",
-      result: failures.length > 0 ? "warning" : "success",
+      result: batchFailures.length > 0 || failedObjects.length > 0 ? "warning" : "success",
       actor: actor.email,
-      metadata: { requested: normalizedBatchIds.length, deleted, failed: failures.length, allowExported: options?.allowExported ?? false },
+      metadata: {
+        requested: normalizedBatchIds.length,
+        deleted,
+        failed: batchFailures.length,
+        failedObjects: failedObjects.length,
+        allowExported: options?.allowExported ?? false,
+      },
     }),
   );
-
+  const remainingCounts = await getRemainingWorkspaceCounts();
   return {
+    status: batchFailures.length > 0 || failedObjects.length > 0 ? "partial" : "success",
+    success: batchFailures.length === 0 && failedObjects.length === 0,
+    partial: batchFailures.length > 0 || failedObjects.length > 0,
+    retryable: [...batchFailures, ...failedObjects].some((entry) => entry.retryable),
     requested: normalizedBatchIds.length,
     deleted,
-    skipped: normalizedBatchIds.length - deleted - failures.length,
-    failures,
+    skipped: normalizedBatchIds.length - deleted - batchFailures.length,
+    deletedBatchIds,
+    deletedFileIds,
+    deletedObjects,
+    failedObjects: [...batchFailures, ...failedObjects],
+    failures: batchFailures,
+    remainingCounts,
   } satisfies BulkDeleteResult;
 }
 
@@ -324,7 +463,7 @@ export async function deleteWorkspaceOrphans(paths: string[], actor: ActorContex
 
   await appendGlobalAuditEvent(
     createAuditEvent({
-      action: "workspace_orphans_deleted",
+      action: "orphan_objects_deleted",
       result: storageOutcome.failures.length > 0 ? "warning" : "success",
       actor: actor.email,
       metadata: {
@@ -335,12 +474,26 @@ export async function deleteWorkspaceOrphans(paths: string[], actor: ActorContex
       },
     }),
   );
-
+  const remainingCounts = await getRemainingWorkspaceCounts();
+  const failedObjects = storageOutcome.failures.map((entry) => ({
+    id: entry.path,
+    error: entry.error ?? "Delete failed",
+    retryable: true,
+  }));
   return {
+    status: failedObjects.length > 0 ? "partial" : "success",
+    success: failedObjects.length === 0,
+    partial: failedObjects.length > 0,
+    retryable: failedObjects.length > 0,
     requested: safePaths.length,
     deleted: storageOutcome.deleted,
     skipped: storageOutcome.skipped,
-    failures: storageOutcome.failures.map((entry) => ({ id: entry.path, error: entry.error ?? "Delete failed" })),
+    deletedBatchIds: [],
+    deletedFileIds: [],
+    deletedObjects: storageOutcome.deletedPaths,
+    failedObjects,
+    failures: failedObjects,
+    remainingCounts,
   } satisfies BulkDeleteResult;
 }
 
@@ -400,7 +553,16 @@ export async function clearWorkspace(actor: ActorContext, confirmation: string) 
   );
 
   return {
+    status: batchDeleteResult.failures.length > 0 || orphanDeleteResult.failures.length > 0 ? "partial" : "success",
+    success: batchDeleteResult.failures.length === 0 && orphanDeleteResult.failures.length === 0,
+    partial: batchDeleteResult.failures.length > 0 || orphanDeleteResult.failures.length > 0,
+    retryable: batchDeleteResult.retryable || orphanDeleteResult.retryable,
     confirmationRequired: WORKSPACE_CLEAR_CONFIRMATION,
+    deletedBatchIds: batchDeleteResult.deletedBatchIds,
+    deletedFileIds: batchDeleteResult.deletedFileIds,
+    deletedObjects: [...batchDeleteResult.deletedObjects, ...orphanDeleteResult.deletedObjects],
+    failedObjects: [...batchDeleteResult.failedObjects, ...orphanDeleteResult.failedObjects],
+    remainingCounts: await getRemainingWorkspaceCounts(),
     batchDeleteResult,
     orphanDeleteResult,
   };
@@ -410,18 +572,23 @@ export async function getWorkspaceMaintenanceStats() {
   const storage = getAdminContentStorage();
   const summaries = await storage.listBatches();
   const orphanScan = await scanWorkspaceOrphans();
+  const remainingCounts = await getRemainingWorkspaceCounts();
   const statusCounts = summaries.reduce<Record<string, number>>((acc, summary) => {
     acc[summary.status] = (acc[summary.status] ?? 0) + 1;
     return acc;
   }, {});
 
   return {
-    totalBatches: summaries.length,
-    failedBatches: statusCounts.failed ?? 0,
-    exportedBatches: statusCounts.exported ?? 0,
-    totalFiles: summaries.reduce((sum, summary) => sum + summary.totalFiles, 0),
+    totalBatches: remainingCounts.batches,
+    failedBatches: remainingCounts.failedBatches,
+    exportedBatches: remainingCounts.exportedBatches,
+    totalFiles: remainingCounts.files,
+    pendingFiles: remainingCounts.pendingFiles,
+    approvedFiles: remainingCounts.approvedFiles,
+    rejectedFiles: remainingCounts.rejectedFiles,
+    conflicts: remainingCounts.conflicts,
     statusCounts,
-    workspaceObjectCount: (await storage.listWorkspaceEntries()).length,
+    workspaceObjectCount: remainingCounts.workspaceObjects,
     orphanScan,
     clearWorkspaceConfirmation: WORKSPACE_CLEAR_CONFIRMATION,
   };

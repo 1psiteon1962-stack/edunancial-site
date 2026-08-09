@@ -8,6 +8,10 @@ type MaintenanceStats = {
   failedBatches: number;
   exportedBatches: number;
   totalFiles: number;
+  pendingFiles: number;
+  approvedFiles: number;
+  rejectedFiles: number;
+  conflicts: number;
   workspaceObjectCount: number;
   clearWorkspaceConfirmation: string;
   orphanScan: {
@@ -54,7 +58,11 @@ export default function MaintenanceClient() {
       setError(payload.error ?? "Delete failed batches failed.");
       return;
     }
-    setMessage(`Deleted ${payload.result?.deleted ?? 0} failed batch(es).`);
+    setMessage(
+      payload.result?.partial
+        ? `Deleted ${payload.result?.deleted ?? 0} failed batch(es) with ${payload.result?.failedObjects?.length ?? 0} cleanup warning(s).`
+        : `Deleted ${payload.result?.deleted ?? 0} failed batch(es).`,
+    );
     await refresh();
   }
 
@@ -84,7 +92,11 @@ export default function MaintenanceClient() {
       setError(payload.error ?? "Delete orphans failed.");
       return;
     }
-    setMessage(`Deleted ${payload.result?.deleted ?? 0} orphan workspace object(s).`);
+    setMessage(
+      payload.result?.partial
+        ? `Deleted ${payload.result?.deleted ?? 0} orphan workspace object(s) with ${payload.result?.failedObjects?.length ?? 0} cleanup warning(s).`
+        : `Deleted ${payload.result?.deleted ?? 0} orphan workspace object(s).`,
+    );
     await refresh();
   }
 
@@ -106,7 +118,11 @@ export default function MaintenanceClient() {
       setError(payload.error ?? "Clear workspace failed.");
       return;
     }
-    setMessage("Workspace cleared.");
+    setMessage(
+      payload.result?.partial
+        ? `Workspace cleared with ${payload.result?.failedObjects?.length ?? 0} cleanup warning(s).`
+        : "Workspace cleared.",
+    );
     setClearText("");
     await refresh();
   }
@@ -126,11 +142,15 @@ export default function MaintenanceClient() {
           <Link href="/admin/content" className="rounded-xl border border-white/20 px-5 py-3 font-semibold text-slate-200 hover:border-white/35">Back to portal</Link>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-5">
+        <div className="mt-8 grid gap-4 md:grid-cols-5 xl:grid-cols-9">
           <StatCard label="Batches" value={String(stats.totalBatches)} />
           <StatCard label="Failed" value={String(stats.failedBatches)} />
           <StatCard label="Exported" value={String(stats.exportedBatches)} />
           <StatCard label="Files" value={String(stats.totalFiles)} />
+          <StatCard label="Pending" value={String(stats.pendingFiles)} />
+          <StatCard label="Approved" value={String(stats.approvedFiles)} />
+          <StatCard label="Rejected" value={String(stats.rejectedFiles)} />
+          <StatCard label="Conflicts" value={String(stats.conflicts)} />
           <StatCard label="Workspace objects" value={String(stats.workspaceObjectCount)} />
         </div>
 
@@ -140,9 +160,9 @@ export default function MaintenanceClient() {
         <section className="mt-8 rounded-3xl border border-white/10 bg-[#101a2f] p-6">
           <h2 className="text-2xl font-bold">Maintenance actions</h2>
           <div className="mt-4 flex flex-wrap gap-3">
-            <button onClick={runDeleteFailed} className="rounded-xl border border-amber-500/40 px-4 py-3 text-sm font-semibold text-amber-100 hover:border-amber-400">Delete failed batches</button>
-            <button onClick={scanOrphans} className="rounded-xl border border-blue-500/40 px-4 py-3 text-sm font-semibold text-blue-100 hover:border-blue-400">Scan for orphans</button>
-            <button onClick={deleteOrphans} disabled={stats.orphanScan.orphanPaths.length === 0} className="rounded-xl border border-red-500/40 px-4 py-3 text-sm font-semibold text-red-100 hover:border-red-400 disabled:opacity-50">Delete orphaned objects</button>
+            <button onClick={runDeleteFailed} className="rounded-xl border border-amber-500/40 px-4 py-3 text-sm font-semibold text-amber-100 hover:border-amber-400">Delete Failed Batches</button>
+            <button onClick={scanOrphans} className="rounded-xl border border-blue-500/40 px-4 py-3 text-sm font-semibold text-blue-100 hover:border-blue-400">Scan for Orphans</button>
+            <button onClick={deleteOrphans} disabled={stats.orphanScan.orphanPaths.length === 0} className="rounded-xl border border-red-500/40 px-4 py-3 text-sm font-semibold text-red-100 hover:border-red-400 disabled:opacity-50">Delete Orphaned Objects</button>
           </div>
 
           <div className="mt-4 rounded-2xl border border-white/10 bg-[#08101f] p-4 text-sm text-slate-300">
@@ -171,7 +191,7 @@ export default function MaintenanceClient() {
             disabled={clearText.trim() !== stats.clearWorkspaceConfirmation}
             className="mt-4 rounded-xl bg-red-600 px-5 py-3 font-semibold text-white disabled:opacity-40"
           >
-            Clear workspace
+            Clear Content Workspace
           </button>
         </section>
       </div>
