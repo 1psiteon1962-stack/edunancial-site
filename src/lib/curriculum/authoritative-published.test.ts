@@ -70,6 +70,15 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
             path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
             body: "English body",
             frontMatter: {},
+            translations: {
+              es: {
+                title: "Comprender tu patrimonio neto",
+                body: "## Objetivos de aprendizaje\n\nComprende tu patrimonio neto.",
+              },
+              fr: {
+                title: "Comprendre votre valeur nette",
+              },
+            },
           },
         },
         batchLessonIds: {},

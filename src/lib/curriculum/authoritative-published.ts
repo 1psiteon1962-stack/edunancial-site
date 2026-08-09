@@ -19,6 +19,12 @@ import {
 
 const PUBLISHED_STATE_PATH = "published/curriculum-state.json";
 
+export interface PublishedLessonTranslation {
+  title?: string;
+  summary?: string;
+  body?: string;
+}
+
 export interface PublishedLessonRecord {
   id: string;
   track: string;
@@ -36,6 +42,7 @@ export interface PublishedLessonRecord {
   path: string;
   body: string;
   frontMatter: Record<string, string>;
+  translations?: Record<string, PublishedLessonTranslation>;
 }
 
 export interface PublishedCurriculumState {
@@ -147,26 +154,57 @@ function entryFromRegistryAsset(asset: RegistryAsset): PublishedLessonRecord | n
   }
 
   const content = getLessonContent(asset.id, "en");
-  if (!content) return null;
+  if (content) {
+    return {
+      id: asset.id,
+      track: asset.track,
+      trackName: normalizeTrackName(asset.track, asset.trackName),
+      level: asset.level,
+      lessonNumber: asset.lessonNumber,
+      title: content.meta.title,
+      summary: content.meta.summary,
+      author: content.meta.author,
+      date: content.meta.date,
+      version: content.meta.version,
+      status: "active",
+      importedAt: content.meta.importedAt,
+      metadata: asset.metadata ?? {},
+      path: asset.path,
+      body: content.body,
+      frontMatter: content.frontMatter,
+    };
+  }
 
+  // Fall back to registry metadata when no content file is available
   return {
     id: asset.id,
     track: asset.track,
     trackName: normalizeTrackName(asset.track, asset.trackName),
     level: asset.level,
     lessonNumber: asset.lessonNumber,
-    title: content.meta.title,
-    summary: content.meta.summary,
-    author: content.meta.author,
-    date: content.meta.date,
-    version: content.meta.version,
+    title: asset.title,
+    summary: asset.metadata?.summary ?? "",
+    author: asset.author,
+    date: asset.date,
+    version: asset.version,
     status: "active",
-    importedAt: content.meta.importedAt,
+    importedAt: asset.importedAt,
     metadata: asset.metadata ?? {},
     path: asset.path,
-    body: content.body,
-    frontMatter: content.frontMatter,
+    body: "",
+    frontMatter: {},
   };
+}
+
+function resolveTranslation(
+  translations: Record<string, PublishedLessonTranslation> | undefined,
+  locale: CurriculumLocale,
+): PublishedLessonTranslation | undefined {
+  if (!translations) return undefined;
+  if (translations[locale]) return translations[locale];
+  const base = locale.split("-")[0];
+  if (base && base !== locale && translations[base]) return translations[base];
+  return undefined;
 }
 
 function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] {
@@ -337,12 +375,15 @@ export async function getPublishedTracks(
         };
       });
 
+    const lessonCount = levels.reduce((sum, level) => sum + level.lessonCount, 0);
+    const legacyFallback = process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
+    if (lessonCount === 0 && !legacyFallback) continue;
     tracks.push({
       code: academy.code,
       name: localizedTrack?.name ?? academy.name,
       description: localizedTrack?.description ?? academy.description,
       levelCount: academy.levelCount,
-      lessonCount: levels.reduce((sum, level) => sum + level.lessonCount, 0),
+      lessonCount,
       levels,
     });
   }
@@ -368,10 +409,13 @@ export async function getPublishedLesson(
   const lesson = state.lessons[lessonId.toUpperCase()];
   if (!lesson || lesson.status !== "active") return null;
 
+  const translation = resolveTranslation(lesson.translations, locale);
+
   return {
     ...lesson,
-    title: getLocalizedLessonTitle(lesson.id, locale, lesson.title),
-    summary: getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
+    title: translation?.title ?? getLocalizedLessonTitle(lesson.id, locale, lesson.title),
+    summary: translation?.summary ?? getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
+    body: translation?.body ?? lesson.body,
   };
 }
 
