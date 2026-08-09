@@ -38,6 +38,10 @@
     "src/lib/curriculum/reader.test.ts",
     "src/lib/curriculum/production-catalog.ts",
     "src/lib/curriculum/production-catalog.test.ts",
+    "src/lib/curriculum/tier-config.ts",
+    "src/lib/curriculum/member-session.ts",
+    "src/lib/curriculum/access-gate.ts",
+    "src/lib/curriculum/access-gate.test.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
     "src/lib/content-loader/**/*.ts"
