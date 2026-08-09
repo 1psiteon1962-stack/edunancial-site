@@ -710,5 +710,10 @@
   "login.header": "Log Masuk",
   "login.signUp": "Daftar",
   "notFound.cta": "Kembali ke Laman Utama",
-  "register.header": "Buat Akaun Anda"
+  "register.header": "Buat Akaun Anda",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

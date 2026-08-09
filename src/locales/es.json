@@ -705,5 +705,10 @@
   "membership.tier.pro": "Membresía Pro",
   "membership.tier.gold": "Membresía Gold",
   "membership.testDrive.note": "La prueba gratuita da acceso solo a las lecciones de muestra designadas. Las lecciones de muestra pueden ser de cualquier nivel.",
-  "curriculum.level.freePreviewNote": "La vista previa gratuita incluye las lecciones 001–003 del Nivel 1 para cada pista de lanzamiento."
+  "curriculum.level.freePreviewNote": "La vista previa gratuita incluye las lecciones 001–003 del Nivel 1 para cada pista de lanzamiento.",
+  "curriculumLesson.unlockCurriculum": "Desbloquear currículo",
+  "curriculumLesson.lockedRequiresTier": "Esta lección forma parte del Nivel {{level}} y está disponible con {{tier}} o superior.",
+  "curriculumLesson.lockedRequiresMembership": "Esta lección forma parte del Nivel {{level}} y requiere una membresía para acceder.",
+  "courseLesson.previous": "Lección anterior",
+  "courseLesson.next": "Lección siguiente"
 }

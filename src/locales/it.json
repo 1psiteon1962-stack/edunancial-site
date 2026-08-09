@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "Registrati con Google",
   "register.termsOfService": "Termini di Servizio",
   "register.usernameLabel": "Nome Utente",
-  "register.usernamePlaceholder": "Scegli un nome utente"
+  "register.usernamePlaceholder": "Scegli un nome utente",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

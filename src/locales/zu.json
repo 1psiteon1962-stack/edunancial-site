@@ -710,5 +710,10 @@
   "login.header": "Ngena",
   "login.signUp": "Bhalisa",
   "notFound.cta": "Buyela Ekhaya",
-  "register.header": "Yenza I-Akhawunti Yakho"
+  "register.header": "Yenza I-Akhawunti Yakho",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

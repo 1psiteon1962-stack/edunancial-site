@@ -710,5 +710,10 @@
   "login.header": "লগ ইন",
   "login.signUp": "সাইন আপ",
   "notFound.cta": "হোমে ফিরুন",
-  "register.header": "আপনার অ্যাকাউন্ট তৈরি করুন"
+  "register.header": "আপনার অ্যাকাউন্ট তৈরি করুন",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

@@ -710,5 +710,10 @@
   "login.header": "Đăng Nhập",
   "login.signUp": "Đăng Ký",
   "notFound.cta": "Trở Về Trang Chủ",
-  "register.header": "Tạo Tài Khoản Của Bạn"
+  "register.header": "Tạo Tài Khoản Của Bạn",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

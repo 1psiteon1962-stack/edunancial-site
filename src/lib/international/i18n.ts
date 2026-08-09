@@ -44,7 +44,10 @@ import igMessages from "../../locales/ig.json";
 import haMessages from "../../locales/ha.json";
 import zuMessages from "../../locales/zu.json";
 import amMessages from "../../locales/am.json";
-import { DEFAULT_LANGUAGE_CODE, normalizeLanguageCode } from "./languages";
+import {
+  getLocaleFallbackChain,
+  normalizeLanguageCode,
+} from "./languages";
 
 type MessageCatalog = Record<string, string>;
 
@@ -97,27 +100,6 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   zu: zuMessages,
   am: amMessages,
 };
-
-function getLocaleFallbackChain(languageCode: string): string[] {
-  const normalizedLanguage = normalizeLanguageCode(languageCode);
-  const chain = [normalizedLanguage];
-  const baseLanguage = normalizedLanguage.split("-")[0];
-
-  if (baseLanguage && baseLanguage !== normalizedLanguage) {
-    chain.push(baseLanguage);
-  }
-
-  if (!chain.includes(DEFAULT_LANGUAGE_CODE)) {
-    chain.push(DEFAULT_LANGUAGE_CODE);
-  }
-
-  const defaultBase = DEFAULT_LANGUAGE_CODE.split("-")[0];
-  if (defaultBase && !chain.includes(defaultBase)) {
-    chain.push(defaultBase);
-  }
-
-  return chain;
-}
 
 export function translate(
   languageCode: string,

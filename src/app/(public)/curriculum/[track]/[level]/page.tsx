@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
-import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { translate } from "@/lib/international/i18n";
-import { normalizeLanguageCode } from "@/lib/international/languages";
-import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
+import { getServerLanguage } from "@/lib/international/server";
 
 interface Props {
   params: Promise<{ track: string; level: string }>;
@@ -19,8 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam, level: levelParam } = await params;
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   const track = await getPublishedTrack(trackCode, language);
   if (!track) return { title: "Level Not Found | Edunancial" };
 
@@ -90,8 +87,7 @@ export default async function LevelPage({ params }: Props) {
   const { track: trackParam, level: levelParam } = await params;
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
-  const cookieStore = await cookies();
-  const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
+  const language = await getServerLanguage();
   if (!isPublicCurriculumTrack(trackCode)) notFound();
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 

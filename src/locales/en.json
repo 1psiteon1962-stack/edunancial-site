@@ -705,5 +705,10 @@
   "membership.tier.pro": "Pro Membership",
   "membership.tier.gold": "Gold Membership",
   "membership.testDrive.note": "Test Drive provides access to designated sample lessons only. Sample lessons may come from any level.",
-  "curriculum.level.freePreviewNote": "Free preview includes Level 1 lessons 001–003 for every launch track."
+  "curriculum.level.freePreviewNote": "Free preview includes Level 1 lessons 001–003 for every launch track.",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

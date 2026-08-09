@@ -739,5 +739,10 @@
   "register.accountLabel": "Taarifa za Akaunti",
   "register.membershipTitle": "Mpango wa Uanachama",
   "register.betaPassLabel": "Nambari ya Uanachama (si lazima)",
-  "register.betaPassPlaceholder": "Ingiza nambari ya uanachama"
+  "register.betaPassPlaceholder": "Ingiza nambari ya uanachama",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

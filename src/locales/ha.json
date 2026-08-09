@@ -710,5 +710,10 @@
   "login.header": "Shiga",
   "login.signUp": "Yi Rajista",
   "notFound.cta": "Koma Gida",
-  "register.header": "Ƙirƙiri Asusunka"
+  "register.header": "Ƙirƙiri Asusunka",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

@@ -1,3 +1,5 @@
+import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+
 export const AI_LEARNING_ADMIN_STORAGE_KEY = "edunancial:ai-learning-config";
 
 export interface AILearningAdminConfig {
@@ -28,7 +30,7 @@ export const DEFAULT_AI_LEARNING_CONFIG: AILearningAdminConfig = {
     "LATAM",
     "MIDDLE-EAST",
   ],
-  supportedLanguages: ["en-US", "es", "fr-CA", "fr-FR", "pt", "ja", "ko", "zh-Hans", "zh-Hant", "hi", "ar"],
+  supportedLanguages: LANGUAGE_CATALOG.map((language) => language.code),
   publicAssistanceEnabled: true,
 };
 

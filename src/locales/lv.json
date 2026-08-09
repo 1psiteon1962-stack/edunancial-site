@@ -710,5 +710,10 @@
   "login.header": "Pieteikties",
   "login.signUp": "Reģistrēties",
   "notFound.cta": "Atpakaļ uz sākumu",
-  "register.header": "Izveidot kontu"
+  "register.header": "Izveidot kontu",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

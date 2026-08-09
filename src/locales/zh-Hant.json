@@ -756,5 +756,10 @@
   "register.signInWithGoogle": "使用 Google 注册",
   "register.termsOfService": "服务条款",
   "register.usernameLabel": "用户名",
-  "register.usernamePlaceholder": "选择用户名"
+  "register.usernamePlaceholder": "选择用户名",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

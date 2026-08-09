@@ -710,5 +710,10 @@
   "login.header": "Mag-login",
   "login.signUp": "Mag-sign Up",
   "notFound.cta": "Bumalik sa Home",
-  "register.header": "Lumikha ng Iyong Account"
+  "register.header": "Lumikha ng Iyong Account",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

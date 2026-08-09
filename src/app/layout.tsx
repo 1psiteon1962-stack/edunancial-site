@@ -1,13 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { cookies } from "next/headers";
 
 import { LANGUAGE_CATALOG, isRtlLanguage } from "@/lib/international/languages";
-import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
 import {
   EDUNANCIAL_IDENTITY,
   EDUNANCIAL_LONG_DESCRIPTION,
 } from "@/lib/positioning";
+import { getServerLanguage } from "@/lib/international/server";
 
 const siteUrl = "https://www.edunancial.com";
 const languageAlternates = Object.fromEntries(
@@ -87,10 +86,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Read the saved language preference cookie so the server-rendered HTML
-  // contains the correct `lang` and `dir` attributes before JavaScript loads.
-  const cookieStore = await cookies();
-  const savedLocale = cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US";
+  const savedLocale = await getServerLanguage();
   const dir = isRtlLanguage(savedLocale) ? "rtl" : "ltr";
 
   const orgSchema = {

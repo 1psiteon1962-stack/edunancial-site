@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
-import { normalizeLanguageCode } from "@/lib/international/languages";
-import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
+import { resolveRequestLanguage } from "@/lib/international/server";
 
 export const dynamic = "force-dynamic";
 
@@ -15,11 +14,11 @@ const CATEGORY_COLORS: Record<string, string> = {
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const queryLanguage = url.searchParams.get("lang");
-  const cookieMatch = request.headers
-    .get("cookie")
-    ?.match(new RegExp(`(?:^|;\\s*)${LANGUAGE_COOKIE_NAME}=([^;]+)`, "u"));
-  const cookieLanguage = cookieMatch?.[1] ? decodeURIComponent(cookieMatch[1]) : null;
-  const language = normalizeLanguageCode(queryLanguage || cookieLanguage || "en-US");
+  const language = resolveRequestLanguage({
+    explicitLocale: queryLanguage,
+    cookieHeader: request.headers.get("cookie"),
+    acceptLanguageHeader: request.headers.get("accept-language"),
+  });
 
   const courses = await getPublishedCourses(language);
   const courseList = courses.map((course) => ({

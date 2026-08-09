@@ -19,6 +19,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
+import { translate } from "@/lib/international/i18n";
+
 // ---------------------------------------------------------------------------
 // Canonical curriculum level titles (single source of truth)
 // ---------------------------------------------------------------------------
@@ -207,16 +209,24 @@ export function getSampleLessons(): string[] {
  * a lesson, suitable for displaying on a locked lesson page.
  * e.g. "This lesson is part of Level 3, available with Pro Membership or higher."
  */
-export function getLockedLessonMessage(lessonLevel: number): string {
+export function getLockedLessonMessage(
+  lessonLevel: number,
+  languageCode = "en-US",
+): string {
   const config = readTierConfig();
   const tierOrder: CurriculumTier[] = ["basic", "pro", "gold"];
   for (const tier of tierOrder) {
     const levels: number[] = config.mapping[tier] ?? [];
     if (levels.includes(lessonLevel)) {
-      return `This lesson is part of Level ${lessonLevel}, available with ${TIER_LABELS[tier]} or higher.`;
+      return translate(languageCode, "curriculumLesson.lockedRequiresTier", {
+        level: lessonLevel,
+        tier: translate(languageCode, `membership.tier.${tier}`),
+      });
     }
   }
-  return `This lesson is part of Level ${lessonLevel} and requires a membership to access.`;
+  return translate(languageCode, "curriculumLesson.lockedRequiresMembership", {
+    level: lessonLevel,
+  });
 }
 
 /**

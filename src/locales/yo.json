@@ -710,5 +710,10 @@
   "login.header": "Wọlé",
   "login.signUp": "Forúkọsílẹ̀",
   "notFound.cta": "Padà Sí Ìlé",
-  "register.header": "Ṣẹ̀dá Àkọsílẹ̀ Rẹ"
+  "register.header": "Ṣẹ̀dá Àkọsílẹ̀ Rẹ",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

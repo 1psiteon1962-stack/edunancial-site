@@ -711,5 +711,10 @@
   "login.header": "Konekte",
   "login.signUp": "Enskri",
   "notFound.cta": "Retounen Kay",
-  "register.header": "Kreye Kont Ou"
+  "register.header": "Kreye Kont Ou",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

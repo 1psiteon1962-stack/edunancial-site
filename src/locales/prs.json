@@ -710,5 +710,10 @@
   "login.header": "ورود",
   "login.signUp": "ثبت‌نام",
   "notFound.cta": "بازگشت به صفحه اصلی",
-  "register.header": "ایجاد حساب"
+  "register.header": "ایجاد حساب",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }

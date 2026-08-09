@@ -766,5 +766,10 @@
   "register.country.jamaica": "Jamaica",
   "register.country.trinidadAndTobago": "Trinidad and Tobago",
   "register.country.barbados": "Barbados",
-  "register.country.other": "Other"
+  "register.country.other": "Other",
+  "curriculumLesson.unlockCurriculum": "Déverrouiller le programme",
+  "curriculumLesson.lockedRequiresTier": "Cette leçon fait partie du niveau {{level}} et est disponible avec {{tier}} ou un niveau supérieur.",
+  "curriculumLesson.lockedRequiresMembership": "Cette leçon fait partie du niveau {{level}} et nécessite une adhésion pour y accéder.",
+  "courseLesson.previous": "Leçon précédente",
+  "courseLesson.next": "Leçon suivante"
 }

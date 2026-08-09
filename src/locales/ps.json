@@ -710,5 +710,10 @@
   "login.header": "ننوتل",
   "login.signUp": "نوم لیکل",
   "notFound.cta": "کور ته ستنیدل",
-  "register.header": "حساب جوړ کړئ"
+  "register.header": "حساب جوړ کړئ",
+  "curriculumLesson.unlockCurriculum": "Unlock Curriculum",
+  "curriculumLesson.lockedRequiresTier": "This lesson is part of Level {{level}} and is available with {{tier}} or higher.",
+  "curriculumLesson.lockedRequiresMembership": "This lesson is part of Level {{level}} and requires a membership to access.",
+  "courseLesson.previous": "Previous lesson",
+  "courseLesson.next": "Next lesson"
 }
