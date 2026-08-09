@@ -129,7 +129,6 @@ npm run curriculum:test
 Import behavior:
 
 - validates front matter and required sections
-- rejects answer keys embedded in lessons
 - skips exact duplicates
 - blocks same-version content conflicts
 - rejects lower versions unless `--force-lower-version` is used
@@ -237,7 +236,7 @@ Required lesson sections:
 - `Learning Objectives`
 - `Core Content`
 
-Answer keys must never appear in the lesson body. They must live in separate assets.
+Lessons may include practice quizzes, answer keys, worked solutions, and answer explanations as part of the same Markdown lesson. Edunancial supports self-paced learning and self-assessment, so sections such as `## Answer Key`, `## Answers`, `Correct Answer: B`, `## Worked Solution`, and `## Answers and Explanations` are all permitted and do not receive separate curriculum IDs. Answer material remains part of the canonical lesson body.
 
 ### Localized Lesson Format
 

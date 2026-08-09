@@ -1,6 +1,5 @@
 // scripts/curriculum/lib/validator.mjs
 import {
-  ANSWER_KEY_INDICATORS,
   MEMBERSHIP_TIERS,
   OFFICIAL_TRACK_NAMES,
   REQUIRED_BATCH_VERIFICATION_SECTIONS,
@@ -104,12 +103,6 @@ export function validateLesson(content, declaredId) {
   // Validate optional membership field when present
   if (meta.membership && !MEMBERSHIP_TIERS.includes(meta.membership.toLowerCase())) {
     errors.push(`Invalid membership tier "${meta.membership}". Must be one of: ${MEMBERSHIP_TIERS.join(', ')}`);
-  }
-
-  for (const indicator of ANSWER_KEY_INDICATORS) {
-    if (content.includes(indicator)) {
-      errors.push(`ANSWER KEY VIOLATION: Lesson body contains answer key indicator "${indicator}". Answer keys must be in a separate file.`);
-    }
   }
 
   return { valid: errors.length === 0, errors, warnings, meta };
