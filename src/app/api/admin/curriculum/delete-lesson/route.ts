@@ -1,18 +1,25 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { unlink } from "node:fs/promises";
-import { join } from "node:path";
+import { join, resolve, sep } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { removePublishedLesson } from "@/lib/curriculum/authoritative-published";
+import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+const CURRICULUM_ROOT = resolve(process.cwd(), "content", "curriculum");
 
 function lessonFilePath(id: string): string | null {
   const match = id.match(/^([A-Z]+)-L(\d+)-(\d{3})$/);
   if (!match) return null;
   const [, track, level] = match;
-  return join(process.cwd(), `content/curriculum/${track}/L${level}/${id}.md`);
+  const candidate = resolve(CURRICULUM_ROOT, track, `L${level}`, `${id}.md`);
+  if (!candidate.startsWith(`${CURRICULUM_ROOT}${sep}`)) {
+    return null;
+  }
+  return candidate;
 }
 
 function removeFromRegistry(lessonId: string) {
@@ -64,18 +71,21 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid lesson ID format" }, { status: 400 });
   }
 
-  try {
+  let fileDeleted = false;
+  if (existsSync(filePath)) {
     await unlink(filePath);
-  } catch (err: unknown) {
-    const code = (err as NodeJS.ErrnoException).code;
-    if (code === "ENOENT") {
-      return NextResponse.json({ error: "Lesson file not found" }, { status: 404 });
-    }
-    throw err;
+    fileDeleted = true;
   }
 
   // Remove from registry so it no longer appears in the curriculum
   removeFromRegistry(lessonId);
+  await removePublishedLesson(lessonId);
+  await revalidatePublishedCurriculumRoutes();
 
-  return NextResponse.json({ ok: true, message: `Lesson ${lessonId} deleted.` });
+  return NextResponse.json({
+    ok: true,
+    message: fileDeleted
+      ? `Lesson ${lessonId} deleted.`
+      : `Lesson ${lessonId} removed from curriculum records.`,
+  });
 }

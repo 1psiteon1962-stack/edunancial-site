@@ -13,16 +13,14 @@ test("listAcademies returns all eight academies with five levels each", () => {
   assert.ok(academies.every((academy) => academy.levels.length === 5));
 });
 
-test("getTrack returns summaries for WHITE and BLUE with L1 lessons and empty upper levels", () => {
+test("getTrack returns summaries for WHITE and BLUE with empty levels when no lessons are published", () => {
   for (const code of ["WHITE", "BLUE"] as const) {
     const track = getTrack(code);
     assert.ok(track, `${code} track should exist`);
     assert.equal(track?.levels.length, 5);
-    // Level 1 now has published lessons; levels 2-5 remain empty.
-    assert.ok((track?.levels[0]?.lessonCount ?? 0) > 0, `${code} L1 should have published lessons`);
     assert.ok(
-      track?.levels.slice(1).every((level) => level.lessonCount === 0),
-      `${code} levels 2-5 should have zero lessons`,
+      track?.levels.every((level) => level.lessonCount === 0),
+      `${code} levels should have zero lessons`,
     );
   }
 });

@@ -5,7 +5,9 @@ import { join } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { upsertPublishedLessonFromRegistry } from "@/lib/curriculum/authoritative-published";
 import { getLocalizedTrackCopy } from "@/lib/curriculum/localization";
+import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
@@ -169,6 +171,8 @@ export async function POST(request: Request) {
   registry._generated = now;
   writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2), "utf8");
   invalidateRegistryCache();
+  await upsertPublishedLessonFromRegistry(lessonId);
+  await revalidatePublishedCurriculumRoutes();
 
   return NextResponse.json({
     ok: true,

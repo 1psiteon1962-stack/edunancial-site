@@ -15,12 +15,7 @@
  * `npm run curriculum:import` and they will appear automatically.
  */
 
-import {
-  getAdaptiveCurriculumCatalog,
-  NORTH_AMERICA_TRACKS,
-  type AdaptiveLessonRecord,
-  type AdaptiveTrackCode,
-} from "@/lib/adaptive-learning";
+import curriculumRegistry from "../../../curriculum/registry.json";
 import {
   getLocalizedLessonTitle,
   getLocalizedLessonDescription,
@@ -33,6 +28,38 @@ import {
 
 export type Difficulty = "Beginner" | "Intermediate" | "Advanced";
 export type CourseCategory = string;
+type AdaptiveTrackCode = "RED" | "WHITE" | "BLUE";
+
+type AdaptiveLessonRecord = {
+  id: string;
+  track: AdaptiveTrackCode;
+  trackName: string;
+  level: `L${1 | 2 | 3 | 4 | 5}`;
+  lessonNumber: number;
+  title: string;
+  path: string;
+  metadata: Record<string, string>;
+};
+
+type RegistryAsset = {
+  id?: string;
+  type?: string;
+  track?: string;
+  trackName?: string;
+  title?: string;
+  lessonNumber?: number;
+  path?: string;
+  status?: string;
+  metadata?: Record<string, string>;
+};
+
+type RegistryTrack = {
+  levels?: Record<string, { assets?: Record<string, RegistryAsset> }>;
+};
+
+type RegistryFile = {
+  tracks?: Record<string, RegistryTrack>;
+};
 
 /**
  * A production course derived from the curriculum registry.
@@ -114,6 +141,12 @@ const TRACK_TO_COURSE_ID: Record<AdaptiveTrackCode, string> = {
   BLUE: "blue",
 };
 
+const NORTH_AMERICA_TRACKS: Record<AdaptiveTrackCode, string> = {
+  RED: "Real Estate",
+  WHITE: "Paper Assets",
+  BLUE: "Business",
+};
+
 const TRACK_DIFFICULTY: Record<AdaptiveTrackCode, Difficulty> = {
   RED: "Intermediate",
   WHITE: "Intermediate",
@@ -135,8 +168,47 @@ const TRACK_SUBTITLE: Record<AdaptiveTrackCode, string> = {
 const TRACK_ORDER = Object.keys(NORTH_AMERICA_TRACKS) as AdaptiveTrackCode[];
 
 // ─── Build catalog from registry ─────────────────────────────────────────────
-
-const _registryCatalog: AdaptiveLessonRecord[] = getAdaptiveCurriculumCatalog();
+const CURRICULUM_ID_PATTERN = /^(RED|WHITE|BLUE)-L([1-5])-([0-9]{3})$/;
+const _registryCatalog: AdaptiveLessonRecord[] = Object.values(
+  (curriculumRegistry as RegistryFile).tracks ?? {},
+)
+  .flatMap((track) => Object.values(track.levels ?? {}))
+  .flatMap((levelEntry) => Object.values(levelEntry.assets ?? {}))
+  .filter((asset): asset is {
+    id: string;
+    type: "lesson";
+    track: string;
+    trackName?: string;
+    title?: string;
+    lessonNumber?: number;
+    path?: string;
+    metadata?: Record<string, string>;
+    status?: string;
+  } => asset.type === "lesson" && typeof asset.id === "string" && asset.status === "active")
+  .map((asset) => {
+    const match = asset.id.match(CURRICULUM_ID_PATTERN);
+    if (!match) {
+      return null;
+    }
+    const [, track, level, lessonNumberRaw] = match;
+    return {
+      id: asset.id,
+      track: track as AdaptiveTrackCode,
+      trackName: asset.trackName ?? NORTH_AMERICA_TRACKS[track as AdaptiveTrackCode],
+      level: `L${level}` as AdaptiveLessonRecord["level"],
+      lessonNumber: asset.lessonNumber ?? Number.parseInt(lessonNumberRaw, 10),
+      title: asset.title ?? asset.id,
+      path: asset.path ?? `/courses/${track.toLowerCase()}`,
+      metadata: asset.metadata ?? {},
+    };
+  })
+  .filter((lesson): lesson is AdaptiveLessonRecord => Boolean(lesson))
+  .sort(
+    (left, right) =>
+      left.track.localeCompare(right.track)
+      || left.level.localeCompare(right.level)
+      || left.lessonNumber - right.lessonNumber,
+  );
 
 // Group lessons by track to form courses
 const _trackGroups = new Map<AdaptiveTrackCode, AdaptiveLessonRecord[]>();

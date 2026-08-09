@@ -121,6 +121,21 @@ type RegistryFile = {
   tracks?: Record<string, RegistryTrack>;
 };
 
+function readAdaptiveRegistryAtRuntime(): RegistryFile {
+  if (typeof window !== "undefined") {
+    return curriculumRegistry;
+  }
+
+  try {
+    const runtimeRequire = (0, eval)("require") as (modulePath: string) => {
+      readRegistry: () => RegistryFile;
+    };
+    return runtimeRequire("./curriculum/reader").readRegistry();
+  } catch {
+    return curriculumRegistry;
+  }
+}
+
 const CURRICULUM_ID_PATTERN = /^(RED|WHITE|BLUE)-L([1-5])-([0-9]{3})$/;
 const TRACK_ORDER = Object.keys(NORTH_AMERICA_TRACKS) as AdaptiveTrackCode[];
 const TRACK_STATE_FIXTURES: Record<
@@ -173,7 +188,7 @@ export function getAdaptiveLearningExperience(
 }
 
 export function getAdaptiveCurriculumCatalog(
-  registry: RegistryFile = curriculumRegistry,
+  registry: RegistryFile = readAdaptiveRegistryAtRuntime(),
 ): AdaptiveLessonRecord[] {
   const lessons: AdaptiveLessonRecord[] = [];
 
