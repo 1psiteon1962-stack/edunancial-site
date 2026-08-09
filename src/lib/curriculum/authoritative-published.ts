@@ -376,8 +376,6 @@ export async function getPublishedTracks(
       });
 
     const lessonCount = levels.reduce((sum, level) => sum + level.lessonCount, 0);
-    const legacyFallback = process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
-    if (lessonCount === 0 && !legacyFallback) continue;
     tracks.push({
       code: academy.code,
       name: localizedTrack?.name ?? academy.name,
