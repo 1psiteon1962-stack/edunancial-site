@@ -38,6 +38,8 @@
     "src/lib/curriculum/reader.test.ts",
     "src/lib/curriculum/production-catalog.ts",
     "src/lib/curriculum/production-catalog.test.ts",
+    "src/lib/curriculum/authoritative-published.ts",
+    "src/lib/curriculum/authoritative-published.test.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
     "src/lib/content-loader/**/*.ts"
