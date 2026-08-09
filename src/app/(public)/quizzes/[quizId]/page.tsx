@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { use, useState } from "react";
-import { quizzes, courses } from "@/lib/curriculum/production-catalog";
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 
 interface Props {
   params: Promise<{ quizId: string }>;
@@ -13,16 +13,21 @@ type QuizState = "intro" | "active" | "result";
 
 export default function QuizPage({ params }: Props) {
   const { quizId } = use(params);
+  const { quizzes, courses, loading } = usePublishedCatalog();
   const quiz = quizzes[quizId];
-  if (!quiz) notFound();
 
-  const course = quiz.courseId ? courses[quiz.courseId] : null;
+  const course = quiz?.courseId ? courses[quiz.courseId] : null;
 
   const [state, setState] = useState<QuizState>("intro");
   const [currentQ, setCurrentQ] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(Array(quiz.questions.length).fill(null));
+  const [answers, setAnswers] = useState<(number | null)[]>(Array(quiz?.questions.length ?? 0).fill(null));
   const [selected, setSelected] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
+
+  if (loading) {
+    return <main className="min-h-screen bg-[#08101f] text-white flex items-center justify-center">Loading…</main>;
+  }
+  if (!quiz) notFound();
 
   const question = quiz.questions[currentQ];
   const isLast = currentQ === quiz.questions.length - 1;

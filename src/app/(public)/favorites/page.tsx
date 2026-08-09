@@ -2,12 +2,19 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { courseList, getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
+
+function getCoursePrimaryHref(course: Pick<{ id: string; lessons: string[] }, "id" | "lessons">): string {
+  return course.lessons[0]
+    ? `/courses/${course.id}/lessons/${course.lessons[0]}`
+    : `/courses/${course.id}`;
+}
 
 // Bookmarks are stored in user session/database — start empty until real auth is wired.
 const INITIAL_BOOKMARKS = new Set<string>();
 
 export default function FavoritesPage() {
+  const { courseList } = usePublishedCatalog();
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set(INITIAL_BOOKMARKS));
   const [search, setSearch] = useState("");
 

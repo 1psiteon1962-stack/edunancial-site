@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import { courseList, categories, categoryColors } from "@/lib/curriculum/production-catalog";
-import type { CourseCategory, Difficulty } from "@/lib/curriculum/production-catalog";
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
+
+type Difficulty = "Beginner" | "Intermediate" | "Advanced";
+type CourseCategory = string;
 
 const difficultyOptions: Difficulty[] = ["Beginner", "Intermediate", "Advanced"];
 
@@ -14,6 +16,7 @@ const difficultyBadge: Record<Difficulty, string> = {
 };
 
 export default function CourseCatalogPage() {
+  const { courseList, categories, categoryColors } = usePublishedCatalog();
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<CourseCategory | "All">("All");
   const [activeDifficulty, setActiveDifficulty] = useState<Difficulty | "All">("All");
@@ -29,7 +32,7 @@ export default function CourseCatalogPage() {
       const matchesDifficulty = activeDifficulty === "All" || c.difficulty === activeDifficulty;
       return matchesSearch && matchesCategory && matchesDifficulty;
     });
-  }, [search, activeCategory, activeDifficulty]);
+  }, [courseList, search, activeCategory, activeDifficulty]);
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
