@@ -3,12 +3,8 @@ import { cookies } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
-import {
-  getAllTrackLevelStaticParams,
-  getLessonsForLevel,
-  getTrack,
-} from "@/lib/curriculum/reader";
 import { translate } from "@/lib/international/i18n";
 import { normalizeLanguageCode } from "@/lib/international/languages";
 import { LANGUAGE_COOKIE_NAME } from "@/lib/international/preferences";
@@ -17,11 +13,7 @@ interface Props {
   params: Promise<{ track: string; level: string }>;
 }
 
-export async function generateStaticParams() {
-  return getAllTrackLevelStaticParams().filter((params) =>
-    isPublicCurriculumTrack(params.track.toUpperCase()),
-  );
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { track: trackParam, level: levelParam } = await params;
@@ -29,10 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const levelNum = Number(levelParam.replace(/^l/i, ""));
   const cookieStore = await cookies();
   const language = normalizeLanguageCode(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value ?? "en-US");
-  const track = getTrack(trackCode, "free", language);
+  const track = await getPublishedTrack(trackCode, language);
   if (!track) return { title: "Level Not Found | Edunancial" };
 
-  const lessonCount = getLessonsForLevel(trackCode, levelNum, "free", language).length;
+  const lessonCount = track.levels.find((entry) => entry.level === levelNum)?.lessonCount ?? 0;
   const title = `${track.name} — Level ${levelNum} | Edunancial`;
   const description = lessonCount > 0
     ? `${track.code} Level ${levelNum}: Browse all ${lessonCount} lessons in this level.`
@@ -103,10 +95,10 @@ export default async function LevelPage({ params }: Props) {
   if (!isPublicCurriculumTrack(trackCode)) notFound();
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
-  const track = getTrack(trackCode, "free", language);
+  const track = await getPublishedTrack(trackCode, language);
   if (!track) notFound();
 
-  const lessons = getLessonsForLevel(trackCode, levelNum, "free", language);
+  const lessons = track.levels.find((entry) => entry.level === levelNum)?.lessons ?? [];
   const colors = TRACK_COLORS[trackCode] ?? DEFAULT_COLORS;
 
   return (

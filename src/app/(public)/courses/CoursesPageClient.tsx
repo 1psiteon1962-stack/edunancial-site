@@ -3,20 +3,22 @@
 import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/lib/curriculum/production-catalog";
+import type { PublishedCourse } from "@/lib/curriculum/authoritative-published";
 
 function FeaturedGrid({
+  featuredCourses,
   heading,
   linkLabel,
   emptyBody,
   emptyCta,
 }: {
+  featuredCourses: PublishedCourse[];
   heading: string;
   linkLabel: string;
   emptyBody: string;
   emptyCta: string;
 }) {
-  const featured = courseList.filter((course) => course.isFeatured);
+  const featured = featuredCourses;
   if (featured.length === 0) {
     return (
       <div className="mt-24">
@@ -70,9 +72,14 @@ function FeaturedGrid({
   );
 }
 
-export default function CoursesPageClient() {
+export default function CoursesPageClient({ courses }: { courses: PublishedCourse[] }) {
   const { effectiveLanguage, t } = useInternationalPreferences();
-  const tracks = ["red", "white", "blue"] as const;
+  const tracks = courses.map((course) => ({
+    id: course.id,
+    code: course.code.toLowerCase(),
+    title: course.category,
+    description: course.description,
+  }));
   const noteBody = t("courses.note.body");
   const showNote = noteBody.length > 0;
   const language = effectiveLanguage === "es" ? "es" : "default";
@@ -94,17 +101,22 @@ export default function CoursesPageClient() {
         <div className="mt-16 grid gap-6 md:grid-cols-3">
           {tracks.map((track) => (
             <Link
-              key={track}
-              href={`/courses/${track}`}
-              className={`${trackStyles[track]} rounded-2xl p-10 transition hover:opacity-90`}
+              key={track.id}
+              href={`/courses/${track.id}`}
+              className={`${trackStyles[track.code as keyof typeof trackStyles] ?? "bg-slate-700"} rounded-2xl p-10 transition hover:opacity-90`}
             >
-              <h2 className="text-5xl font-black">{track.toUpperCase()}</h2>
-              <h3 className="mt-6 text-2xl font-bold">{t(`courses.track.${track}.title`)}</h3>
-              <p className="mt-4 text-lg opacity-80">{t(`courses.track.${track}.description`)}</p>
+              <h2 className="text-5xl font-black">{track.code.toUpperCase()}</h2>
+              <h3 className="mt-6 text-2xl font-bold">{track.title}</h3>
+              <p className="mt-4 text-lg opacity-80">{track.description}</p>
               <p className="mt-8 text-sm font-bold">{t("courses.trackLabel")}</p>
             </Link>
           ))}
         </div>
+        {tracks.length === 0 && (
+          <div className="mt-16 rounded-2xl border border-slate-800 bg-slate-900 p-10 text-center">
+            <p className="text-xl font-bold text-slate-300">No courses are currently available.</p>
+          </div>
+        )}
 
         {showNote ? (
           <div className="mt-16 rounded-2xl border border-blue-400/30 bg-blue-500/10 p-8 text-slate-200">
@@ -113,6 +125,7 @@ export default function CoursesPageClient() {
           </div>
         ) : (
           <FeaturedGrid
+            featuredCourses={courses.filter((course) => course.lessons.length > 0)}
             heading={t("courses.featuredHeading")}
             linkLabel={t("courses.featuredLink")}
             emptyBody={t("courses.featuredEmptyBody")}
