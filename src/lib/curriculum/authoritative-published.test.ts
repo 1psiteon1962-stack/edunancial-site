@@ -35,8 +35,14 @@ afterEach(() => {
 });
 
 test("does not auto-load legacy registry lessons unless explicitly enabled", async () => {
+  // All academy tracks are returned (so the curriculum page can render Coming Soon cards),
+  // but none have lessons until content is published or the legacy fallback is enabled.
   const tracksWithoutFallback = await getPublishedTracks("en");
-  assert.equal(tracksWithoutFallback.length, 0);
+  assert.ok(tracksWithoutFallback.length > 0, "all academy tracks should be returned");
+  assert.ok(
+    tracksWithoutFallback.every((t) => t.lessonCount === 0),
+    "no lessons should be loaded without a published state or legacy flag",
+  );
 
   process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true";
   const tracksWithFallback = await getPublishedTracks("en");
