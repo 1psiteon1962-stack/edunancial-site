@@ -2,11 +2,18 @@
 
 import Link from "next/link";
 
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList, getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
+
+function getCoursePrimaryHref(course: Pick<{ id: string; lessons: string[] }, "id" | "lessons">): string {
+  return course.lessons[0]
+    ? `/courses/${course.id}/lessons/${course.lessons[0]}`
+    : `/courses/${course.id}`;
+}
 
 function ProgressLayout() {
   const { t } = useInternationalPreferences();
+  const { courseList } = usePublishedCatalog();
   // Progress comes from user session/database — not yet wired.
   const progressData = courseList.map((course) => ({
     ...course,

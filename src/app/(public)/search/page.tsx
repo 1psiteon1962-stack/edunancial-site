@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import { courseList, lessonList, quizList } from "@/lib/curriculum/production-catalog";
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 
 type ResultType = "course" | "lesson" | "quiz";
 
@@ -15,7 +15,11 @@ interface SearchResult {
   tag?: string;
 }
 
-function buildIndex(): SearchResult[] {
+function buildIndex(
+  courseList: Array<{ id: string; title: string; subtitle: string; category: string }>,
+  lessonList: Array<{ id: string; title: string; description: string; courseId: string; duration: string }>,
+  quizList: Array<{ id: string; title: string; questions: Array<unknown>; passingScore: number }>,
+): SearchResult[] {
   const results: SearchResult[] = [];
 
   courseList.forEach((c) => {
@@ -53,8 +57,6 @@ function buildIndex(): SearchResult[] {
   return results;
 }
 
-const allResults = buildIndex();
-
 const typeIcon: Record<ResultType, string> = {
   course: "📚",
   lesson: "▶️",
@@ -68,8 +70,10 @@ const typeBadge: Record<ResultType, string> = {
 };
 
 export default function SearchPage() {
+  const { courseList, lessonList, quizList } = usePublishedCatalog();
   const [query, setQuery] = useState("");
   const [activeType, setActiveType] = useState<ResultType | "all">("all");
+  const allResults = useMemo(() => buildIndex(courseList, lessonList, quizList), [courseList, lessonList, quizList]);
 
   const filtered = useMemo(() => {
     if (!query.trim()) return [];
@@ -82,7 +86,7 @@ export default function SearchPage() {
         (r.tag ?? "").toLowerCase().includes(q);
       return matchType && matchText;
     });
-  }, [query, activeType]);
+  }, [query, activeType, allResults]);
 
   const popularSearches = ["Real Estate", "Budgeting", "Business", "Stocks", "ETFs", "Tax Liens", "KPIs", "Certificates"];
 

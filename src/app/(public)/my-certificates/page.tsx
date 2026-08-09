@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/lib/curriculum/production-catalog";
 
 // Completed courses come from user session/database — empty until real auth is wired.
 const completedCourseIds: string[] = [];
-const completedCourses = courseList.filter((c) => completedCourseIds.includes(c.id));
 
 function earnedCountLabel(t: (key: string, values?: Record<string, string | number>) => string, count: number) {
   return count === 1
@@ -18,6 +17,7 @@ function earnedCountLabel(t: (key: string, values?: Record<string, string | numb
 
 function CertificateCard({ courseId }: { courseId: string }) {
   const { t } = useInternationalPreferences();
+  const { courseList } = usePublishedCatalog();
   const course = courseList.find((c) => c.id === courseId);
 
   if (!course) {
@@ -97,6 +97,8 @@ function CertificateCard({ courseId }: { courseId: string }) {
 
 export default function MyCertificatesPage() {
   const { t } = useInternationalPreferences();
+  const { courseList } = usePublishedCatalog();
+  const completedCourses = courseList.filter((course) => completedCourseIds.includes(course.id));
   const [expandedId, setExpandedId] = useState<string | null>(completedCourseIds[0] ?? null);
 
   if (completedCourses.length === 0) {

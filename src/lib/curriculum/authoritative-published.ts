@@ -5,8 +5,6 @@ import { detectBundledCurriculumLessons, detectCurriculumAsset } from "@/lib/adm
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { ACADEMIES, ACADEMY_MAP } from "@/lib/curriculum/academies";
 import {
-  getLocalizedLessonDescription,
-  getLocalizedLessonTitle,
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
   type CurriculumLocale,
@@ -186,6 +184,10 @@ function readLegacyPublishedLessons(): Record<string, PublishedLessonRecord> {
   return lessons;
 }
 
+function shouldUseLegacyRegistryFallback(): boolean {
+  return process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
+}
+
 function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] {
   return [...lessons].sort((a, b) => {
     return a.track.localeCompare(b.track)
@@ -197,7 +199,7 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
   const state = await readPublishedState();
-  if (state.initialized) {
+  if (state.initialized || !shouldUseLegacyRegistryFallback()) {
     return state;
   }
 
@@ -270,7 +272,6 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
 
   const state = await readPublishedState();
   if (!state.initialized) {
-    state.lessons = readLegacyPublishedLessons();
     state.initialized = true;
   }
 
@@ -312,7 +313,6 @@ export async function removePublishedLessonsForBatch(
   }
 
   if (!state.initialized) {
-    state.lessons = readLegacyPublishedLessons();
     state.initialized = true;
   }
 
@@ -340,9 +340,16 @@ export async function getPublishedTracks(
   const lessonsByTrackLevel = new Map<string, Map<number, PublishedLessonRecord[]>>();
   for (const lesson of Object.values(state.lessons)) {
     if (lesson.status !== "active") continue;
+    const localizedContent = getLessonContent(lesson.id, locale);
     const byLevel = lessonsByTrackLevel.get(lesson.track) ?? new Map<number, PublishedLessonRecord[]>();
     const list = byLevel.get(lesson.level) ?? [];
-    list.push(lesson);
+    list.push({
+      ...lesson,
+      title: localizedContent?.meta.title ?? lesson.title,
+      summary: localizedContent?.meta.summary ?? lesson.summary,
+      body: localizedContent?.body ?? lesson.body,
+      frontMatter: localizedContent?.frontMatter ?? lesson.frontMatter,
+    });
     byLevel.set(lesson.level, list);
     lessonsByTrackLevel.set(lesson.track, byLevel);
   }
@@ -362,8 +369,8 @@ export async function getPublishedTracks(
         lessons: sortLessons(lessons).map((lesson) => ({
           ...lesson,
           trackName: localizedTrack?.name ?? lesson.trackName,
-          title: getLocalizedLessonTitle(lesson.id, locale, lesson.title),
-          summary: getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
+          title: lesson.title,
+          summary: lesson.summary,
         })),
       }));
 
@@ -397,11 +404,17 @@ export async function getPublishedLesson(
   const state = await getEffectiveState();
   const lesson = state.lessons[lessonId.toUpperCase()];
   if (!lesson || lesson.status !== "active") return null;
+  const localizedContent = getLessonContent(lesson.id, locale);
 
   return {
     ...lesson,
-    title: getLocalizedLessonTitle(lesson.id, locale, lesson.title),
-    summary: getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
+    title: localizedContent?.meta.title ?? lesson.title,
+    summary: localizedContent?.meta.summary ?? lesson.summary,
+    body: localizedContent?.body ?? lesson.body,
+    frontMatter: localizedContent?.frontMatter ?? lesson.frontMatter,
+    author: localizedContent?.meta.author ?? lesson.author,
+    date: localizedContent?.meta.date ?? lesson.date,
+    version: localizedContent?.meta.version ?? lesson.version,
   };
 }
 
