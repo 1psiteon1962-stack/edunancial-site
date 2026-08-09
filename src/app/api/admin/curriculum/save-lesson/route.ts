@@ -3,6 +3,9 @@ import { join } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { upsertPublishedLessonFromRegistry } from "@/lib/curriculum/authoritative-published";
+import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
+import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 function lessonFilePath(id: string): string | null {
   const match = id.match(/^([A-Z]+)-L(\d+)-(\d{3})$/);
@@ -41,6 +44,9 @@ export async function POST(request: Request) {
   }
 
   await writeFile(filePath, content, "utf8");
+  invalidateRegistryCache();
+  await upsertPublishedLessonFromRegistry(lessonId);
+  await revalidatePublishedCurriculumRoutes();
 
   return NextResponse.json({ ok: true, message: `Lesson ${lessonId} saved.` });
 }

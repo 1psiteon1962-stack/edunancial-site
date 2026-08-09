@@ -342,7 +342,12 @@ export function getLessonMeta(
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       const asset = level.assets[lessonId];
-      if (asset && asset.type === "lesson" && typeof asset.lessonNumber === "number") {
+      if (
+        asset &&
+        asset.type === "lesson" &&
+        asset.status === "active" &&
+        typeof asset.lessonNumber === "number"
+      ) {
         return assetToLessonMeta(asset as RegistryAsset & { lessonNumber: number }, locale);
       }
     }
@@ -653,7 +658,11 @@ function findLessonAsset(
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       const asset = level.assets[lessonId];
-      if (asset?.type === "lesson" && typeof asset.lessonNumber === "number") {
+      if (
+        asset?.type === "lesson" &&
+        asset.status === "active" &&
+        typeof asset.lessonNumber === "number"
+      ) {
         return asset as RegistryAsset & { lessonNumber: number };
       }
     }

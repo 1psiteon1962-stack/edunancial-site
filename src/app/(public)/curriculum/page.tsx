@@ -82,8 +82,7 @@ const DEFAULT_STYLE = {
 
 export default async function CurriculumIndexPage() {
   const { language, t } = await getServerTranslator();
-  const academiesWithLessons = await getPublishedTracks(language);
-  const academies = academiesWithLessons;
+  const academies = await getPublishedTracks(language);
 
   const totalLessons = academies.reduce(
     (sum, a) => sum + a.levels.reduce((s, l) => s + l.lessonCount, 0),
@@ -110,24 +109,25 @@ export default async function CurriculumIndexPage() {
                 : "curriculumPage.publishedLessons_other",
               {
                 lessonCount: totalLessons,
-                academyCount: academiesWithLessons.length,
+                academyCount: academies.length,
               },
             )}
           </p>
         )}
       </section>
 
-      {/* Academies with published lessons */}
-      {academiesWithLessons.length > 0 && (
-        <section className="mx-auto max-w-6xl px-6 pb-16">
-          <h2 className="text-2xl font-black mb-6">{t("curriculumPage.availableNow")}</h2>
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <h2 className="text-2xl font-black mb-6">
+          {totalLessons > 0 ? t("curriculumPage.availableNow") : t("curriculumPage.comingSoon")}
+        </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {academiesWithLessons.map((academy) => {
+            {academies.map((academy) => {
               const styles = TRACK_STYLES[academy.code] ?? DEFAULT_STYLE;
               const totalLessonsInAcademy = academy.levels.reduce(
                 (sum, l) => sum + l.lessonCount,
                 0
               );
+              const hasPublishedLessons = totalLessonsInAcademy > 0;
               const firstLevel = academy.levels.find((l) => l.lessonCount > 0);
 
               // Levels that have at least one published lesson
@@ -148,7 +148,7 @@ export default async function CurriculumIndexPage() {
                       {academy.code}
                     </span>
                     <span className="inline-block rounded-full px-3 py-1 text-xs font-bold bg-green-500/20 text-green-300 border border-green-500/40">
-                      {t("curriculumPage.availableNow")}
+                      {hasPublishedLessons ? t("curriculumPage.availableNow") : t("curriculumPage.comingSoon")}
                     </span>
                   </div>
                   <h3
@@ -163,12 +163,16 @@ export default async function CurriculumIndexPage() {
                   )}
                   <p className="mt-3 text-sm text-slate-400">
                     {t(
-                      totalLessonsInAcademy === 1
-                        ? "curriculumPage.academyStats_one"
-                        : "curriculumPage.academyStats_other",
+                      hasPublishedLessons
+                        ? totalLessonsInAcademy === 1
+                          ? "curriculumPage.academyStats_one"
+                          : "curriculumPage.academyStats_other"
+                        : totalLessonsInAcademy === 1
+                          ? "curriculumPage.plannedStats_one"
+                          : "curriculumPage.plannedStats_other",
                       {
                         lessonCount: totalLessonsInAcademy,
-                        levelCount: levelsWithContent,
+                        levelCount: hasPublishedLessons ? levelsWithContent : academy.levelCount,
                       },
                     )}
                   </p>
@@ -189,14 +193,12 @@ export default async function CurriculumIndexPage() {
               );
             })}
           </div>
-        </section>
-      )}
+      </section>
 
-      {/* Truthful empty state when no published curriculum exists */}
-      {academies.length === 0 && (
+      {totalLessons === 0 && (
         <section className="mx-auto max-w-6xl px-6 pb-20">
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-16 text-center">
-            <p className="text-2xl font-bold text-slate-400">No curriculum is currently available.</p>
+            <p className="text-2xl font-bold text-slate-400">{t("curriculumPage.emptyTitle")}</p>
             <p className="mt-3 text-slate-500">
               {t("curriculumPage.emptyBody")}
             </p>
