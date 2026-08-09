@@ -1,11 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { courseList } from "@/lib/curriculum/production-catalog";
 import { useState } from "react";
-import { getCoursePrimaryHref } from "@/lib/curriculum/production-catalog";
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
+
+function getCoursePrimaryHref(course: Pick<{ id: string; lessons: string[] }, "id" | "lessons">): string {
+  return course.lessons[0]
+    ? `/courses/${course.id}/lessons/${course.lessons[0]}`
+    : `/courses/${course.id}`;
+}
 
 export default function MyCoursesPage() {
+  const { courseList } = usePublishedCatalog();
   const [activeTab, setActiveTab] = useState<"in-progress" | "completed" | "all">("in-progress");
 
   // Progress comes from user session/database — not yet wired.

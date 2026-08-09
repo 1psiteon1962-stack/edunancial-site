@@ -40,16 +40,38 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   ht: htMessages,
 };
 
+function getLocaleFallbackChain(languageCode: string): string[] {
+  const normalizedLanguage = normalizeLanguageCode(languageCode);
+  const chain = [normalizedLanguage];
+  const baseLanguage = normalizedLanguage.split("-")[0];
+
+  if (baseLanguage && baseLanguage !== normalizedLanguage) {
+    chain.push(baseLanguage);
+  }
+
+  if (!chain.includes(DEFAULT_LANGUAGE_CODE)) {
+    chain.push(DEFAULT_LANGUAGE_CODE);
+  }
+
+  const defaultBase = DEFAULT_LANGUAGE_CODE.split("-")[0];
+  if (defaultBase && !chain.includes(defaultBase)) {
+    chain.push(defaultBase);
+  }
+
+  return chain;
+}
+
 export function translate(
   languageCode: string,
   key: string,
   values?: Record<string, string | number>
 ) {
-  const normalizedLanguage = normalizeLanguageCode(languageCode);
-  const catalog = messageCatalogs[normalizedLanguage] ?? messageCatalogs[DEFAULT_LANGUAGE_CODE];
-  const fallbackCatalog = messageCatalogs[DEFAULT_LANGUAGE_CODE];
-
-  const template = catalog?.[key] ?? fallbackCatalog?.[key] ?? key;
+  const localeChain = getLocaleFallbackChain(languageCode);
+  const template =
+    localeChain
+      .map((code) => messageCatalogs[code]?.[key])
+      .find((entry): entry is string => typeof entry === "string")
+    ?? key;
 
   if (!values) {
     return template;

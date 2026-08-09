@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 
+import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { courseList } from "@/lib/curriculum/production-catalog";
 
 const completedCourseIds = new Set<string>();
 
 export default function CertificatesPageClient() {
   const { t } = useInternationalPreferences();
+  const { courseList } = usePublishedCatalog();
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
