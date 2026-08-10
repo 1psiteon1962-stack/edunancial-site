@@ -5,12 +5,14 @@
  * and exposes helpers used by lesson viewer pages and API routes to enforce
  * server-side access control.
  *
- * Design note: The current implementation treats the admin session as the only
- * persisted session.  When a real user membership/auth system is added, update
- * getViewerTierFromCookies() to detect member sessions and return their tier.
+ * Membership tier resolution order:
+ * 1. Valid admin session cookie → "admin" (bypasses all gating)
+ * 2. Valid signed edu_mt membership-tier cookie → the user's normalized tier
+ * 3. Otherwise → "free" (no membership, public lessons only)
  */
 
 import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES, type CurriculumTier } from "./tier-config";
+import { verifyTierCookie, MEMBERSHIP_TIER_COOKIE } from "@/app/api/auth/sync-membership/route";
 
 export type { CurriculumTier };
 export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES };
@@ -56,11 +58,10 @@ function isValidAdminSession(cookieValue: string | undefined): boolean {
 /**
  * Determines the viewer's effective membership tier from the cookie header.
  *
- * Current logic:
- * - Valid admin session cookie → "admin"
- * - Otherwise → "free" (no membership)
- *
- * Extend this function when real user membership sessions are implemented.
+ * Resolution order:
+ * 1. Valid admin session cookie → "admin"
+ * 2. Valid signed edu_mt membership cookie → mapped to CurriculumTier
+ * 3. Otherwise → "free"
  */
 export function getViewerTierFromCookies(
   cookieHeader: string | null | undefined,
@@ -68,17 +69,24 @@ export function getViewerTierFromCookies(
   if (!cookieHeader) return "free";
 
   // Parse cookie string into a map
-  const cookies: Record<string, string> = {};
+  const cookieMap: Record<string, string> = {};
   for (const part of cookieHeader.split(";")) {
     const eq = part.indexOf("=");
     if (eq < 0) continue;
     const key = part.slice(0, eq).trim();
     const val = part.slice(eq + 1).trim();
-    cookies[key] = val;
+    cookieMap[key] = val;
   }
 
-  if (isValidAdminSession(cookies[ADMIN_SESSION_COOKIE])) {
+  if (isValidAdminSession(cookieMap[ADMIN_SESSION_COOKIE])) {
     return "admin";
+  }
+
+  // Read signed membership tier cookie set by /api/auth/sync-membership
+  const membershipTier = verifyTierCookie(cookieMap[MEMBERSHIP_TIER_COOKIE]);
+  if (membershipTier && membershipTier !== "free") {
+    // Map NormalizedCurriculumTier to CurriculumTier (they align except "free" → omit)
+    return membershipTier as CurriculumTier;
   }
 
   return "free";

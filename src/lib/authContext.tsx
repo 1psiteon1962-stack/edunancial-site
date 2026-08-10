@@ -19,9 +19,25 @@ import {
   normalizeEmail,
 } from "@/lib/beta-access";
 import { PASSWORD_POLICY } from "@/lib/passwordPolicy";
+import { normalizeToCurriculumTier } from "@/lib/curriculum/access";
 
 const STORAGE_KEY = "edu_auth";
 const USERS_KEY = "edu_users";
+
+/** Syncs the user's membership tier to the server-side httpOnly cookie. */
+async function syncMembershipCookie(tier: string): Promise<void> {
+  const normalizedTier = normalizeToCurriculumTier(tier);
+  await fetch("/api/auth/sync-membership", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ tier: normalizedTier }),
+  }).catch(() => { /* non-critical: best-effort */ });
+}
+
+/** Clears the server-side membership cookie on logout. */
+async function clearMembershipCookie(): Promise<void> {
+  await fetch("/api/auth/sync-membership", { method: "DELETE" }).catch(() => {});
+}
 
 export interface AuthUser {
   id: string;
@@ -183,6 +199,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setUser(syncedUser);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
         syncStoredUser(syncedUser);
+        void syncMembershipCookie(syncedUser.membershipTier);
       }
     } catch {
       // ignore
@@ -244,6 +261,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(authUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
       syncStoredUser(authUser);
+      void syncMembershipCookie(authUser.membershipTier);
       return { success: true };
     },
     [],
@@ -276,6 +294,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const syncedUser = applyPersistedBetaState(authUser);
       setUser(syncedUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
+      void syncMembershipCookie(syncedUser.membershipTier);
       return { success: true };
     },
     [],
@@ -284,6 +303,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = useCallback(() => {
     setUser(null);
     localStorage.removeItem(STORAGE_KEY);
+    void clearMembershipCookie();
   }, []);
 
   const updateProfile = useCallback((data: Partial<AuthUser>) => {

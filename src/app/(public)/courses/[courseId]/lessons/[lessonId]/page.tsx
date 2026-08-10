@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 
 import LessonAccessGate from "./LessonAccessGate";
 import { getAdminSession } from "@/lib/admin-content/auth";
+import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 import { getPublishedCourses, getPublishedLesson } from "@/lib/curriculum/authoritative-published";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { translate } from "@/lib/international/i18n";
@@ -41,8 +43,49 @@ export default async function LessonPage({ params }: Props) {
   const prevLesson = currentIndex > 0 ? courseLessons[currentIndex - 1] : null;
   const nextLesson = currentIndex >= 0 && currentIndex < courseLessons.length - 1 ? courseLessons[currentIndex + 1] : null;
 
+  // ── Server-side access gate ──────────────────────────────────────────────
+  // Reads the signed edu_mt membership cookie (and admin session cookie) to
+  // determine access BEFORE rendering any lesson body content.  This prevents
+  // protected body HTML from ever appearing in page source or serialized props.
   const session = await getAdminSession();
   const isAdmin = Boolean(session);
+
+  const cookieHeader = (await headers()).get("cookie");
+  const access = checkLessonAccess(
+    lesson.level,
+    lesson.lessonNumber,
+    cookieHeader,
+    lesson.id,
+    language,
+  );
+
+  const serverAllowed = isAdmin || access.allowed;
+
+  // For locked lessons: return only title + summary + upgrade CTA.
+  // The lesson body is never fetched into a variable or passed to JSX.
+  if (!serverAllowed) {
+    return (
+      <LessonAccessGate
+        level={lesson.level}
+        lessonNumber={lesson.lessonNumber}
+        isAdmin={isAdmin}
+        serverLocked={true}
+        lessonTitle={lesson.title}
+        courseTitle={course.title}
+        lessonSummary={lesson.summary ?? null}
+        membersOnlyLabel={t("curriculumLesson.membersOnly")}
+        membershipRequiredLabel={t("courseLesson.membershipRequired")}
+        viewMembershipPlansLabel={t("courseLesson.viewMembershipPlans")}
+        upgradeRequiredTier={access.lockedMessage ?? null}
+        courseId={courseId}
+        prevLesson={prevLesson ? { id: prevLesson.id.toLowerCase(), title: prevLesson.title } : null}
+        nextLesson={nextLesson ? { id: nextLesson.id.toLowerCase(), title: nextLesson.title } : null}
+        coursesLabel={t("courses.label")}
+      />
+    );
+  }
+
+  // Render full lesson body only when server has verified access.
   const html = renderMarkdown(lesson.body);
 
   return (
@@ -50,11 +93,18 @@ export default async function LessonPage({ params }: Props) {
       level={lesson.level}
       lessonNumber={lesson.lessonNumber}
       isAdmin={isAdmin}
+      serverLocked={false}
       lessonTitle={lesson.title}
       courseTitle={course.title}
+      lessonSummary={lesson.summary ?? null}
       membersOnlyLabel={t("curriculumLesson.membersOnly")}
       membershipRequiredLabel={t("courseLesson.membershipRequired")}
       viewMembershipPlansLabel={t("courseLesson.viewMembershipPlans")}
+      upgradeRequiredTier={null}
+      courseId={courseId}
+      prevLesson={prevLesson ? { id: prevLesson.id.toLowerCase(), title: prevLesson.title } : null}
+      nextLesson={nextLesson ? { id: nextLesson.id.toLowerCase(), title: nextLesson.title } : null}
+      coursesLabel={t("courses.label")}
     >
       <main className="min-h-screen bg-[#08101f] text-white">
         <section className="mx-auto max-w-5xl px-6 py-14">
