@@ -10,6 +10,25 @@ import {
 } from './taxonomy.mjs';
 import { parseAssetId } from './id-parser.mjs';
 
+// Legacy curriculum uploads may contain YAML-style surrounding quotes and, for
+// GOLD, the former public-facing name "Investing & Wealth Building". The
+// canonical taxonomy remains unchanged; these values are accepted only for
+// backward-compatible validation so approved legacy batches can be exported.
+const LEGACY_OFFICIAL_TRACK_NAMES = Object.freeze({
+  GOLD: new Set(['Investing & Wealth Building']),
+});
+
+function normalizeMetadataScalar(value) {
+  const trimmed = String(value ?? '').trim();
+  if (
+    (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+    (trimmed.startsWith("'") && trimmed.endsWith("'"))
+  ) {
+    return trimmed.slice(1, -1).trim();
+  }
+  return trimmed;
+}
+
 /**
  * Parse the front-matter metadata block from a markdown file content.
  * Expects block like:
@@ -59,7 +78,11 @@ function validateCommonMetadata(meta, declaredId, errors) {
   }
   if (meta.officialTrackName) {
     const expected = OFFICIAL_TRACK_NAMES[parsed.track];
-    if (meta.officialTrackName !== expected) {
+    const actual = normalizeMetadataScalar(meta.officialTrackName);
+    const legacyNames = LEGACY_OFFICIAL_TRACK_NAMES[parsed.track];
+    const matchesCanonical = actual === expected;
+    const matchesLegacy = legacyNames instanceof Set && legacyNames.has(actual);
+    if (!matchesCanonical && !matchesLegacy) {
       errors.push(`officialTrackName must be "${expected}" for track ${parsed.track}, got "${meta.officialTrackName}"`);
     }
   }
