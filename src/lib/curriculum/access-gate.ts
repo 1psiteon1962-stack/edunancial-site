@@ -12,7 +12,7 @@
  */
 
 import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES, type CurriculumTier } from "./tier-config";
-import { verifyTierCookie, MEMBERSHIP_TIER_COOKIE } from "@/app/api/auth/sync-membership/route";
+import { verifyTierCookie, MEMBERSHIP_TIER_COOKIE } from "@/lib/curriculum/membership-cookie";
 
 export type { CurriculumTier };
 export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES };

@@ -16,48 +16,11 @@
  *   this cookie is a server-readable mirror used solely for content gating.
  */
 
-import { createHmac, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 import { type NormalizedCurriculumTier } from "@/lib/curriculum/access";
-
-export const MEMBERSHIP_TIER_COOKIE = "edu_mt";
-
-const VALID_TIERS: NormalizedCurriculumTier[] = ["free", "basic", "pro", "gold"];
-
-function getSecret(): string {
-  const secret =
-    process.env.EDUNANCIAL_CURRICULUM_SECRET?.trim() ||
-    process.env.EDUNANCIAL_ADMIN_SESSION_SECRET?.trim();
-  if (!secret || secret.length < 16) {
-    // Graceful degradation: fall back to a fixed dev-only secret.
-    // In production both env vars should be set.
-    return "dev-curriculum-secret-fallback-32ch";
-  }
-  return secret;
-}
-
-export function signTier(tier: NormalizedCurriculumTier): string {
-  const sig = createHmac("sha256", getSecret()).update(tier).digest("base64url");
-  return `${tier}.${sig}`;
-}
-
-export function verifyTierCookie(
-  value: string | undefined,
-): NormalizedCurriculumTier | null {
-  if (!value) return null;
-  const dotIdx = value.indexOf(".");
-  if (dotIdx < 0) return null;
-  const tier = value.slice(0, dotIdx) as NormalizedCurriculumTier;
-  const sig = value.slice(dotIdx + 1);
-  if (!(VALID_TIERS as string[]).includes(tier)) return null;
-  const expected = createHmac("sha256", getSecret()).update(tier).digest("base64url");
-  const sigBuf = Buffer.from(sig);
-  const expBuf = Buffer.from(expected);
-  if (sigBuf.length !== expBuf.length || !timingSafeEqual(sigBuf, expBuf)) return null;
-  return tier;
-}
+import { MEMBERSHIP_TIER_COOKIE, VALID_TIERS, signTier } from "@/lib/curriculum/membership-cookie";
 
 export async function POST(request: Request) {
   let tier: string;
