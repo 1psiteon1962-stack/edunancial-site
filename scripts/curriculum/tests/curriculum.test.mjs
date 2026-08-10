@@ -464,3 +464,140 @@ describe('EXCLUDED_DIRECTORY_SEGMENTS covers all expected dev directories', () =
     test(`excludes "${dir}" directory`, () => assert.ok(EXCLUDED_DIRECTORY_SEGMENTS.has(dir)));
   }
 });
+
+import { normalizeGoldOfficialTrackName } from '../fix-gold-official-track-name.mjs';
+
+function makeGoldLesson(overrides = {}) {
+  const meta = {
+    id: 'GOLD-L1-001',
+    track: 'GOLD',
+    officialTrackName: 'Investing',
+    level: '1',
+    lessonNumber: '1',
+    title: 'Introduction to Investing',
+    version: '1.0',
+    author: 'Test Author',
+    date: '2026-07-11',
+    regionalStatus: 'GLOBAL CORE',
+    ...overrides,
+  };
+  const frontMatter = Object.entries(meta)
+    .map(([key, value]) => `${key}: ${value}`)
+    .join('\n');
+  return `---\n${frontMatter}\n---\n\n## Learning Objectives\n\n- Objective 1\n\n## Core Content\n\nContent here. Investing & Wealth Building is discussed.\n`;
+}
+
+describe('normalizeGoldOfficialTrackName', () => {
+  test('GOLD + "Investing" is already correct — no change', () => {
+    const content = makeGoldLesson({ officialTrackName: '"Investing"' });
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'already-correct');
+    assert.equal(result.content, content);
+  });
+
+  test('GOLD + "Investing & Wealth Building" (quoted) is normalized', () => {
+    const content = makeGoldLesson({ officialTrackName: '"Investing & Wealth Building"' });
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'changed');
+    assert.ok(result.content.includes('officialTrackName: Investing'));
+    assert.ok(!result.content.includes('"Investing & Wealth Building"'));
+  });
+
+  test('GOLD + unquoted Investing & Wealth Building is normalized', () => {
+    const content = makeGoldLesson({ officialTrackName: 'Investing & Wealth Building' });
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'changed');
+    assert.ok(result.content.includes('officialTrackName: Investing'));
+  });
+
+  test('body text containing "Investing & Wealth Building" is NOT modified', () => {
+    const content = makeGoldLesson({ officialTrackName: '"Investing & Wealth Building"' });
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'changed');
+    // Body phrase survives intact
+    assert.ok(result.content.includes('Investing & Wealth Building is discussed.'));
+  });
+
+  test('only YAML front matter officialTrackName is changed', () => {
+    const content = makeGoldLesson({ officialTrackName: '"Investing & Wealth Building"' });
+    const result = normalizeGoldOfficialTrackName(content);
+    // Extract front matter
+    const fmMatch = result.content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+    assert.ok(fmMatch, 'front matter present');
+    const fm = fmMatch[1];
+    assert.ok(fm.includes('officialTrackName: Investing'));
+    assert.ok(!fm.includes('Wealth Building'));
+  });
+
+  test('RED track is untouched (skipped)', () => {
+    const content = `---\nid: RED-L1-001\ntrack: RED\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+    assert.equal(result.content, content);
+  });
+
+  test('WHITE track is untouched (skipped)', () => {
+    const content = `---\nid: WHITE-L1-001\ntrack: WHITE\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+    assert.equal(result.content, content);
+  });
+
+  test('BLUE track is untouched (skipped)', () => {
+    const content = `---\nid: BLUE-L1-001\ntrack: BLUE\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+    assert.equal(result.content, content);
+  });
+
+  test('GREEN track is untouched (skipped)', () => {
+    const content = `---\nid: GREEN-L1-001\ntrack: GREEN\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+  });
+
+  test('PURPLE track is untouched (skipped)', () => {
+    const content = `---\nid: PURPLE-L1-001\ntrack: PURPLE\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+  });
+
+  test('ORANGE track is untouched (skipped)', () => {
+    const content = `---\nid: ORANGE-L1-001\ntrack: ORANGE\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+  });
+
+  test('BLACK track is untouched (skipped)', () => {
+    const content = `---\nid: BLACK-L1-001\ntrack: BLACK\nofficialTrackName: "Investing & Wealth Building"\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'skipped');
+  });
+
+  test('unexpected GOLD officialTrackName returns unexpected status', () => {
+    const content = makeGoldLesson({ officialTrackName: '"Completely Different"' });
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'unexpected');
+  });
+
+  test('missing officialTrackName field returns missing status', () => {
+    const content = `---\nid: GOLD-L1-001\ntrack: GOLD\nlevel: 1\nlessonNumber: 1\ntitle: Test\nversion: 1.0\nauthor: A\ndate: 2026-01-01\nregionalStatus: GLOBAL CORE\n---\n\n## Learning Objectives\n\n- x\n\n## Core Content\n\ny\n`;
+    const result = normalizeGoldOfficialTrackName(content);
+    assert.equal(result.status, 'missing');
+  });
+
+  test('validator accepts GOLD + "Investing" after normalization', () => {
+    const outdated = makeGoldLesson({ officialTrackName: '"Investing & Wealth Building"' });
+    const normalized = normalizeGoldOfficialTrackName(outdated);
+    assert.equal(normalized.status, 'changed');
+    const validation = validateLesson(normalized.content, 'GOLD-L1-001');
+    assert.equal(validation.valid, true, `Validation errors: ${validation.errors.join('; ')}`);
+  });
+
+  test('validator rejects GOLD + "Investing & Wealth Building" without normalization', () => {
+    const outdated = makeGoldLesson({ officialTrackName: '"Investing & Wealth Building"' });
+    const validation = validateLesson(outdated, 'GOLD-L1-001');
+    assert.equal(validation.valid, false);
+    assert.ok(validation.errors.some((e) => e.includes('officialTrackName')));
+  });
+});
