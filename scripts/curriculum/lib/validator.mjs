@@ -10,13 +10,10 @@ import {
 } from './taxonomy.mjs';
 import { parseAssetId } from './id-parser.mjs';
 
-// Legacy curriculum uploads may contain YAML-style surrounding quotes and, for
-// GOLD, the former public-facing name "Investing & Wealth Building". The
-// canonical taxonomy remains unchanged; these values are accepted only for
-// backward-compatible validation so approved legacy batches can be exported.
-const LEGACY_OFFICIAL_TRACK_NAMES = Object.freeze({
-  GOLD: new Set(['Investing & Wealth Building']),
-});
+// Legacy YAML-style surrounding quotes are stripped by normalizeMetadataScalar.
+// The former GOLD name "Investing & Wealth Building" is no longer accepted;
+// all content must use the canonical name "Investing" (enforced via migration).
+const LEGACY_OFFICIAL_TRACK_NAMES = Object.freeze({});
 
 function normalizeMetadataScalar(value) {
   const trimmed = String(value ?? '').trim();
