@@ -1,12 +1,12 @@
 {
-  "version": "1.1",
-  "updatedAt": "2026-08-08T00:00:00.000Z",
+  "version": "1.2",
+  "updatedAt": "2026-08-09T21:43:00-07:00",
   "updatedBy": "system",
-  "description": "Admin-editable tier to curriculum level mapping. Edit via /admin/curriculum/tier-config. Changes take effect immediately without a deploy.",
+  "description": "Curriculum access policy: Level 1 lessons 001-003 are public in every track. All other lessons in Level 1 and every lesson in Levels 2-5 require any active membership.",
   "freePreview": {
     "level": 1,
     "maxLesson": 3,
-    "note": "Level 1 lessons 001-003 are always accessible to any unauthenticated visitor, regardless of membership tier."
+    "note": "Level 1 lessons 001-003 are always accessible to any unauthenticated visitor in every curriculum color/track."
   },
   "levelTitles": {
     "1": "Financial Literacy",
@@ -16,8 +16,8 @@
     "5": "Financial Mastery"
   },
   "mapping": {
-    "basic": [1, 2],
-    "pro": [1, 2, 3, 4],
+    "basic": [1, 2, 3, 4, 5],
+    "pro": [1, 2, 3, 4, 5],
     "gold": [1, 2, 3, 4, 5]
   },
   "sampleLessons": [],
