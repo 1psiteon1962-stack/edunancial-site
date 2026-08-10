@@ -82,6 +82,20 @@ export interface PublishedCourse {
   lessons: PublishedLessonRecord[];
 }
 
+export interface PublishedLessonTranslationImportRecord {
+  lessonId: string;
+  locale: string;
+  title?: string;
+  summary?: string;
+  body?: string;
+}
+
+export interface PublishedLessonTranslationImportResult {
+  updatedRecords: number;
+  updatedLessonIds: string[];
+  missingLessonIds: string[];
+}
+
 function createEmptyState(): PublishedCurriculumState {
   return {
     schemaVersion: "1.0",
@@ -327,6 +341,57 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
 
   await writePublishedState(state);
   return { upserted: lessonIds.size };
+}
+
+export async function importPublishedLessonTranslations(
+  records: PublishedLessonTranslationImportRecord[],
+): Promise<PublishedLessonTranslationImportResult> {
+  if (records.length === 0) {
+    return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
+  }
+
+  const state = await readPublishedState();
+  const missingLessonIds = [...new Set(
+    records
+      .map((record) => record.lessonId.trim().toUpperCase())
+      .filter((lessonId) => !state.lessons[lessonId]),
+  )];
+
+  if (missingLessonIds.length > 0) {
+    return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds };
+  }
+
+  const updatedLessonIds = new Set<string>();
+  for (const record of records) {
+    const lessonId = record.lessonId.trim().toUpperCase();
+    const locale = record.locale.trim();
+    const lesson = state.lessons[lessonId];
+    const existingTranslations = lesson.translations ?? {};
+    const currentLocaleTranslation = existingTranslations[locale] ?? {};
+    const nextLocaleTranslation: PublishedLessonTranslation = { ...currentLocaleTranslation };
+
+    if (typeof record.title === "string") nextLocaleTranslation.title = record.title;
+    if (typeof record.summary === "string") nextLocaleTranslation.summary = record.summary;
+    if (typeof record.body === "string") nextLocaleTranslation.body = record.body;
+
+    state.lessons[lessonId] = {
+      ...lesson,
+      translations: {
+        ...existingTranslations,
+        [locale]: nextLocaleTranslation,
+      },
+    };
+    updatedLessonIds.add(lessonId);
+  }
+
+  state.updatedAt = new Date().toISOString();
+  await writePublishedState(state);
+
+  return {
+    updatedRecords: records.length,
+    updatedLessonIds: [...updatedLessonIds].sort(),
+    missingLessonIds: [],
+  };
 }
 
 export async function removePublishedLessonsForBatch(

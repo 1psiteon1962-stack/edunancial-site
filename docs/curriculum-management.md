@@ -295,6 +295,43 @@ Diagnostics preserve both the requested locale and the resolved locale so the ap
 
 Localized imports through curriculum tooling preserve the canonical registry entry and write the localized sibling file instead of inventing a new lesson ID.
 
+### Bulk Translation Import API (Published State)
+
+For published curriculum lessons, admins can bulk-write translations directly into `lesson.translations` in `published/curriculum-state.json` without creating or updating `.es.md` / `.fr.md` sibling files.
+
+- **Endpoint**: `POST /api/admin/curriculum/translations/import`
+- **Auth**: admin session + CSRF (`requireAdminApiSession(request, true)`)
+- **Payload**: JSON array, or `{ "records": [...] }`
+
+```json
+{
+  "records": [
+    {
+      "lessonId": "GOLD-L1-002",
+      "locale": "es",
+      "title": "Comprender tu patrimonio neto",
+      "summary": "Resumen en español",
+      "body": "## Objetivos de aprendizaje\n\n..."
+    },
+    {
+      "lessonId": "GOLD-L1-002",
+      "locale": "fr-CA",
+      "title": "Comprendre votre valeur nette",
+      "summary": "Résumé en français canadien",
+      "body": "## Objectifs d'apprentissage\n\n..."
+    }
+  ]
+}
+```
+
+Rules:
+
+- `lessonId` and `locale` are required per record.
+- At least one of `title`, `summary`, or `body` must be provided per record.
+- Locale is generic (for example `es`, `fr`, `fr-CA`, `es-PR`) and is not hardcoded.
+- Existing locales are preserved; only provided locale fields are merged.
+- Canonical English fields (`title`, `summary`, `body`) remain unchanged.
+
 ## ZIP Security Controls
 
 ZIP import is implemented with built-in Node.js modules only. The extractor enforces:

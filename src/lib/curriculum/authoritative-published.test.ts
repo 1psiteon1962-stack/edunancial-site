@@ -6,6 +6,7 @@ import { afterEach, beforeEach, test } from "node:test";
 import {
   getPublishedLesson,
   getPublishedTracks,
+  importPublishedLessonTranslations,
 } from "@/lib/curriculum/authoritative-published";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
@@ -351,4 +352,138 @@ test("published tracks fall back to stub copy when no localized file or translat
   assert.equal(spanishTrackLesson.title, spanish.title);
   assert.equal(spanishTrackLesson.summary, spanish.summary);
   assert.equal(spanishTrackLesson.body, spanish.body);
+});
+
+test("importPublishedLessonTranslations merges locale entries into published lessons", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "GOLD-L1-002": {
+            id: "GOLD-L1-002",
+            track: "GOLD",
+            trackName: "Investing",
+            level: 1,
+            lessonNumber: 2,
+            title: "Understanding Net Worth",
+            summary: "English summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+            body: "English body",
+            frontMatter: {},
+            translations: {
+              es: {
+                title: "Comprender tu patrimonio neto",
+              },
+            },
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await importPublishedLessonTranslations([
+    {
+      lessonId: "gold-l1-002",
+      locale: "es",
+      summary: "Resumen en español",
+      body: "Cuerpo en español",
+    },
+    {
+      lessonId: "GOLD-L1-002",
+      locale: "fr-CA",
+      title: "Comprendre votre valeur nette",
+      summary: "Résumé en français canadien",
+      body: "Corps en français canadien",
+    },
+  ]);
+
+  assert.deepEqual(result.missingLessonIds, []);
+  assert.equal(result.updatedRecords, 2);
+  assert.deepEqual(result.updatedLessonIds, ["GOLD-L1-002"]);
+
+  const spanish = await getPublishedLesson("GOLD-L1-002", "es");
+  assert.ok(spanish);
+  assert.equal(spanish.title, "Comprender tu patrimonio neto");
+  assert.equal(spanish.summary, "Resumen en español");
+  assert.equal(spanish.body, "Cuerpo en español");
+
+  const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
+  assert.ok(frenchCanada);
+  assert.equal(frenchCanada.title, "Comprendre votre valeur nette");
+  assert.equal(frenchCanada.summary, "Résumé en français canadien");
+  assert.equal(frenchCanada.body, "Corps en français canadien");
+});
+
+test("importPublishedLessonTranslations reports missing lesson IDs without persisting partial updates", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "GOLD-L1-002": {
+            id: "GOLD-L1-002",
+            track: "GOLD",
+            trackName: "Investing",
+            level: 1,
+            lessonNumber: 2,
+            title: "Understanding Net Worth",
+            summary: "English summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+            body: "English body",
+            frontMatter: {},
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const result = await importPublishedLessonTranslations([
+    {
+      lessonId: "GOLD-L1-002",
+      locale: "es",
+      title: "Comprender tu patrimonio neto",
+    },
+    {
+      lessonId: "GOLD-L1-999",
+      locale: "es",
+      title: "No existe",
+    },
+  ]);
+
+  assert.equal(result.updatedRecords, 0);
+  assert.deepEqual(result.updatedLessonIds, []);
+  assert.deepEqual(result.missingLessonIds, ["GOLD-L1-999"]);
+
+  const spanish = await getPublishedLesson("GOLD-L1-002", "es");
+  assert.ok(spanish);
+  assert.equal(spanish.title, "Understanding Net Worth");
 });
