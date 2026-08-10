@@ -35,6 +35,18 @@ afterEach(() => {
   }
 });
 
+function findTrackLesson(
+  tracks: Awaited<ReturnType<typeof getPublishedTracks>>,
+  trackCode: string,
+  levelNumber: number,
+  lessonId: string,
+) {
+  return tracks
+    .find((track) => track.code === trackCode)
+    ?.levels.find((level) => level.level === levelNumber)
+    ?.lessons.find((lesson) => lesson.id === lessonId);
+}
+
 test("does not auto-load legacy registry lessons unless explicitly enabled", async () => {
   // All academy tracks are returned (so the curriculum page can render Coming Soon cards),
   // but none have lessons until content is published or the legacy fallback is enabled.
@@ -101,9 +113,21 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
   assert.equal(spanish.title, "Comprender tu patrimonio neto");
   assert.match(spanish.body, /Objetivos de aprendizaje/u);
 
+  const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "GOLD", 1, "GOLD-L1-002");
+  assert.ok(spanishTrackLesson);
+  assert.equal(spanishTrackLesson.title, spanish.title);
+  assert.equal(spanishTrackLesson.summary, spanish.summary);
+  assert.equal(spanishTrackLesson.body, spanish.body);
+
   const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
   assert.ok(frenchCanada);
   assert.equal(frenchCanada.title, "Comprendre votre valeur nette");
+
+  const frenchCanadaTrackLesson = findTrackLesson(await getPublishedTracks("fr-CA"), "GOLD", 1, "GOLD-L1-002");
+  assert.ok(frenchCanadaTrackLesson);
+  assert.equal(frenchCanadaTrackLesson.title, frenchCanada.title);
+  assert.equal(frenchCanadaTrackLesson.summary, frenchCanada.summary);
+  assert.equal(frenchCanadaTrackLesson.body, frenchCanada.body);
 });
 
 test("published lesson prefers localized sibling curriculum files for title, summary, and body", async () => {
@@ -257,6 +281,15 @@ Cuerpo localizado en español.
       title: "Published Front Matter Title",
       summary: "Published Front Matter Summary",
     });
+
+    const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "BLUE", 1, "BLUE-L1-003");
+    assert.ok(spanishTrackLesson);
+    assert.equal(spanishTrackLesson.title, spanish.title);
+    assert.equal(spanishTrackLesson.summary, spanish.summary);
+    assert.equal(spanishTrackLesson.body, spanish.body);
+    assert.equal(spanishTrackLesson.author, "Published Author");
+    assert.equal(spanishTrackLesson.date, "2026-08-03");
+    assert.equal(spanishTrackLesson.version, "9.9");
   } finally {
     // Restore registry and clean up lesson files.
     if (originalRegistry === null) {
@@ -268,4 +301,54 @@ Cuerpo localizado en español.
     rmSync(join(lessonDir, "BLUE-L1-003.es.md"), { force: true });
     invalidateRegistryCache();
   }
+});
+
+test("published tracks fall back to stub copy when no localized file or translation map exists", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "BLUE-L1-005": {
+            id: "BLUE-L1-005",
+            track: "BLUE",
+            trackName: "Business",
+            level: 1,
+            lessonNumber: 5,
+            title: "Key Performance Indicators — Measuring What Matters",
+            summary: "English published summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/BLUE/L1/BLUE-L1-005.md",
+            body: "English published body",
+            frontMatter: {},
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const spanish = await getPublishedLesson("BLUE-L1-005", "es");
+  assert.ok(spanish);
+  assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
+  assert.equal(spanish.summary, "English published summary");
+  assert.equal(spanish.body, "English published body");
+
+  const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "BLUE", 1, "BLUE-L1-005");
+  assert.ok(spanishTrackLesson);
+  assert.equal(spanishTrackLesson.title, spanish.title);
+  assert.equal(spanishTrackLesson.summary, spanish.summary);
+  assert.equal(spanishTrackLesson.body, spanish.body);
 });
