@@ -96,6 +96,18 @@ export interface PublishedLessonTranslationImportResult {
   missingLessonIds: string[];
 }
 
+export interface PublishedLessonTranslationExportRecord {
+  id: string;
+  title: string;
+  summary: string;
+  body: string;
+}
+
+export interface PublishedLessonTranslationExportOptions {
+  prefix?: string;
+  lessonIds?: string[];
+}
+
 function createEmptyState(): PublishedCurriculumState {
   return {
     schemaVersion: "1.0",
@@ -392,6 +404,28 @@ export async function importPublishedLessonTranslations(
     updatedLessonIds: [...updatedLessonIds].sort(),
     missingLessonIds: [],
   };
+}
+
+export async function exportPublishedLessonTranslations(
+  options: PublishedLessonTranslationExportOptions = {},
+): Promise<PublishedLessonTranslationExportRecord[]> {
+  const prefix = options.prefix?.trim().toUpperCase();
+  const lessonIds = options.lessonIds?.map((lessonId) => lessonId.trim().toUpperCase()).filter(Boolean);
+  const requestedLessonIds = lessonIds && lessonIds.length > 0 ? new Set(lessonIds) : null;
+  const state = await getEffectiveState();
+
+  return sortLessons(Object.values(state.lessons).filter((lesson) => {
+    if (lesson.status !== "active") return false;
+    // When both filters are supplied, explicit lessonIds are narrowed by prefix.
+    if (requestedLessonIds && !requestedLessonIds.has(lesson.id)) return false;
+    if (prefix && !lesson.id.startsWith(`${prefix}-`)) return false;
+    return true;
+  })).map((lesson) => ({
+    id: lesson.id,
+    title: lesson.title,
+    summary: lesson.summary,
+    body: lesson.body,
+  }));
 }
 
 export async function removePublishedLessonsForBatch(
