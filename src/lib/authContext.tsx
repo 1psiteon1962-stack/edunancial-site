@@ -312,6 +312,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const updated = { ...prev, ...data };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
       syncStoredUser(updated);
+      void syncMembershipCookie(updated.membershipTier);
       return updated;
     });
   }, []);

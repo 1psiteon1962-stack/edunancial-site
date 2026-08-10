@@ -56,7 +56,13 @@ function isValidAdminSession(cookieValue: string | undefined): boolean {
 // ---------------------------------------------------------------------------
 
 /**
- * Determines the viewer's effective membership tier from the cookie header.
+ * Effective viewer type used by the access gate.
+ * "member" = any active paying/beta membership; grants access to all gated lessons.
+ */
+export type ViewerTier = CurriculumTier | "admin" | "member";
+
+/**
+ * Determines the viewer's effective access tier from the cookie header.
  *
  * Resolution order:
  * 1. Valid admin session cookie → "admin"
@@ -65,7 +71,7 @@ function isValidAdminSession(cookieValue: string | undefined): boolean {
  */
 export function getViewerTierFromCookies(
   cookieHeader: string | null | undefined,
-): CurriculumTier | "admin" {
+): ViewerTier {
   if (!cookieHeader) return "free";
 
   // Parse cookie string into a map
@@ -93,13 +99,31 @@ export function getViewerTierFromCookies(
 }
 
 /**
+ * Returns true when the viewer may read the full lesson body.
+ *
+ * Rules:
+ * - admin → always allowed
+ * - member → all lessons allowed
+ * - free → only L1 lessons 1–3
+ */
+function canViewerAccessLesson(
+  viewerTier: ViewerTier,
+  lessonLevel: number,
+  lessonNumber: number,
+): boolean {
+  if (viewerTier === "admin" || viewerTier === "member") return true;
+  // Free preview: L1 lessons 1–3 only
+  return lessonLevel === 1 && lessonNumber >= 1 && lessonNumber <= 3;
+}
+
+/**
  * Result of the access gate check for a single lesson.
  */
 export interface AccessGateResult {
   /** Whether the viewer may read the full lesson body. */
   allowed: boolean;
   /** The viewer's effective tier. */
-  viewerTier: CurriculumTier | "admin";
+  viewerTier: ViewerTier;
   /** Locked lesson message when allowed === false. */
   lockedMessage?: string;
   /** Tier param for the pricing page CTA link when allowed === false. */
@@ -112,7 +136,8 @@ export interface AccessGateResult {
  * @param lessonLevel   - The lesson's curriculum level (1–5).
  * @param lessonNumber  - The lesson's number within the level (1, 2, 3 …).
  * @param cookieHeader  - The raw Cookie header string from the request.
- * @param lessonId      - Optional lesson ID (e.g. "RED-L1-001") for Test Drive check.
+ * @param lessonId      - Optional lesson ID (e.g. "RED-L1-001") — unused, kept for API compat.
+ * @param languageCode  - Optional language code for the locked message.
  */
 export function checkLessonAccess(
   lessonLevel: number,
@@ -122,7 +147,7 @@ export function checkLessonAccess(
   languageCode?: string,
 ): AccessGateResult {
   const viewerTier = getViewerTierFromCookies(cookieHeader);
-  const allowed = canAccessLesson(lessonLevel, lessonNumber, viewerTier, lessonId);
+  const allowed = canViewerAccessLesson(viewerTier, lessonLevel, lessonNumber);
 
   if (allowed) {
     return { allowed: true, viewerTier };
