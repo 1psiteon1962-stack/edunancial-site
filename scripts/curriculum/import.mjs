@@ -22,6 +22,7 @@ import { IMPORTS_REPORTS_DIR, REJECTED_DIR, repoPath, STAGING_DIR, SUPERSEDED_DI
 import { getAsset, readRegistry, upsertAsset, writeRegistry } from './lib/registry.mjs';
 import { parseFrontMatter, validateAsset } from './lib/validator.mjs';
 import { extractZip } from './lib/zip.mjs';
+import { normalizeGoldOfficialTrackName } from './fix-gold-official-track-name.mjs';
 
 const args = process.argv.slice(2);
 const inputPath = args[0];
@@ -161,6 +162,15 @@ async function processFile(file) {
 
   result.assetId = parsed.id;
   const localizedFileLocale = file.name.match(/\.([A-Za-z0-9-]+)\.md$/u)?.[1] ?? null;
+
+  // Normalize GOLD officialTrackName before validation so outdated values
+  // ("Investing & Wealth Building") are corrected to the canonical "Investing"
+  // without touching body text or any other metadata.
+  const normResult = normalizeGoldOfficialTrackName(file.content);
+  if (normResult.status === 'changed') {
+    file = { ...file, content: normResult.content };
+    log.info(`[NORMALIZED] ${parsed.id}: officialTrackName corrected to "Investing"`);
+  }
 
   const validation = validateAsset(file.content, parsed.id);
   if (!validation.valid && validation.errors.length > 0) {
