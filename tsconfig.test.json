@@ -42,6 +42,7 @@
     "src/lib/curriculum/authoritative-published.test.ts",
     "src/lib/curriculum/access.ts",
     "src/lib/curriculum/access.test.ts",
+    "src/lib/learning-progress/**/*.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
     "src/lib/content-loader/**/*.ts"
