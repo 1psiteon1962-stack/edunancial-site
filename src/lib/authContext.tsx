@@ -19,24 +19,37 @@ import {
   normalizeEmail,
 } from "@/lib/beta-access";
 import { PASSWORD_POLICY } from "@/lib/passwordPolicy";
-import { normalizeToCurriculumTier } from "@/lib/curriculum/access";
 
 const STORAGE_KEY = "edu_auth";
 const USERS_KEY = "edu_users";
 
-/** Syncs the user's membership tier to the server-side httpOnly cookie. */
-async function syncMembershipCookie(tier: string): Promise<void> {
-  const normalizedTier = normalizeToCurriculumTier(tier);
-  await fetch("/api/auth/sync-membership", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tier: normalizedTier }),
-  }).catch(() => { /* non-critical: best-effort */ });
-}
+/** Cookie name readable by the server-side access gate. */
+const MEMBER_COOKIE = "edunancial_member_session";
 
-/** Clears the server-side membership cookie on logout. */
-async function clearMembershipCookie(): Promise<void> {
-  await fetch("/api/auth/sync-membership", { method: "DELETE" }).catch(() => {});
+/** Membership tiers that grant curriculum access. */
+const ACTIVE_MEMBER_TIERS: AuthUser["membershipTier"][] = [
+  "basic",
+  "premium",
+  "enterprise",
+  "beta",
+];
+
+/**
+ * Synchronises a browser cookie that the server-side curriculum access gate
+ * can read.  The cookie carries 1 = active member, 0 = free/no membership.
+ * It is NOT HttpOnly so the client can update it; treat it as a best-effort
+ * gate rather than a cryptographic proof (the underlying auth state lives in
+ * localStorage just as before).
+ */
+function syncMemberCookie(user: AuthUser | null): void {
+  if (typeof document === "undefined") return;
+  if (user && ACTIVE_MEMBER_TIERS.includes(user.membershipTier)) {
+    // 7-day session; SameSite=Strict reduces CSRF risk
+    document.cookie = `${MEMBER_COOKIE}=1; path=/; max-age=604800; SameSite=Strict`;
+  } else {
+    // Clear the cookie
+    document.cookie = `${MEMBER_COOKIE}=0; path=/; max-age=0; SameSite=Strict`;
+  }
 }
 
 export interface AuthUser {
@@ -199,7 +212,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setUser(syncedUser);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
         syncStoredUser(syncedUser);
-        void syncMembershipCookie(syncedUser.membershipTier);
+        syncMemberCookie(syncedUser);
       }
     } catch {
       // ignore
@@ -261,7 +274,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(authUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
       syncStoredUser(authUser);
-      void syncMembershipCookie(authUser.membershipTier);
+      syncMemberCookie(authUser);
       return { success: true };
     },
     [],
@@ -294,7 +307,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const syncedUser = applyPersistedBetaState(authUser);
       setUser(syncedUser);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
-      void syncMembershipCookie(syncedUser.membershipTier);
+      syncMemberCookie(syncedUser);
       return { success: true };
     },
     [],
@@ -303,7 +316,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = useCallback(() => {
     setUser(null);
     localStorage.removeItem(STORAGE_KEY);
-    void clearMembershipCookie();
+    syncMemberCookie(null);
   }, []);
 
   const updateProfile = useCallback((data: Partial<AuthUser>) => {
@@ -312,7 +325,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const updated = { ...prev, ...data };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
       syncStoredUser(updated);
-      void syncMembershipCookie(updated.membershipTier);
+      syncMemberCookie(updated);
       return updated;
     });
   }, []);

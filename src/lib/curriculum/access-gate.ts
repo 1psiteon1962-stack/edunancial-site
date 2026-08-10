@@ -5,14 +5,18 @@
  * and exposes helpers used by lesson viewer pages and API routes to enforce
  * server-side access control.
  *
- * Membership tier resolution order:
- * 1. Valid admin session cookie → "admin" (bypasses all gating)
- * 2. Valid signed edu_mt membership-tier cookie → the user's normalized tier
- * 3. Otherwise → "free" (no membership, public lessons only)
+ * Membership recognition:
+ * - Valid admin session cookie → "admin"
+ * - edunancial_member_session=1 cookie → "member" (any active membership tier)
+ * - Otherwise → "free"
+ *
+ * Access rules (authoritative):
+ * - Any track, L1 lessons 1–3 → free (public preview)
+ * - Any track, L1 lesson 4+ and all of L2–L5 → requires active membership
+ * - Admin → always allowed
  */
 
 import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES, type CurriculumTier } from "./tier-config";
-import { verifyTierCookie, MEMBERSHIP_TIER_COOKIE } from "@/app/api/auth/sync-membership/route";
 
 export type { CurriculumTier };
 export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES };
@@ -22,6 +26,7 @@ export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleL
 // ---------------------------------------------------------------------------
 
 const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
+const MEMBER_SESSION_COOKIE = "edunancial_member_session";
 
 function base64urlDecode(str: string): string {
   const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
@@ -64,10 +69,9 @@ export type ViewerTier = CurriculumTier | "admin" | "member";
 /**
  * Determines the viewer's effective access tier from the cookie header.
  *
- * Resolution order:
- * 1. Valid admin session cookie → "admin"
- * 2. Valid signed edu_mt membership cookie → mapped to CurriculumTier
- * 3. Otherwise → "free"
+ * - Valid admin session cookie → "admin"
+ * - edunancial_member_session=1 → "member"
+ * - Otherwise → "free"
  */
 export function getViewerTierFromCookies(
   cookieHeader: string | null | undefined,
@@ -75,24 +79,21 @@ export function getViewerTierFromCookies(
   if (!cookieHeader) return "free";
 
   // Parse cookie string into a map
-  const cookieMap: Record<string, string> = {};
+  const cookies: Record<string, string> = {};
   for (const part of cookieHeader.split(";")) {
     const eq = part.indexOf("=");
     if (eq < 0) continue;
     const key = part.slice(0, eq).trim();
     const val = part.slice(eq + 1).trim();
-    cookieMap[key] = val;
+    cookies[key] = val;
   }
 
-  if (isValidAdminSession(cookieMap[ADMIN_SESSION_COOKIE])) {
+  if (isValidAdminSession(cookies[ADMIN_SESSION_COOKIE])) {
     return "admin";
   }
 
-  // Read signed membership tier cookie set by /api/auth/sync-membership
-  const membershipTier = verifyTierCookie(cookieMap[MEMBERSHIP_TIER_COOKIE]);
-  if (membershipTier && membershipTier !== "free") {
-    // Map NormalizedCurriculumTier to CurriculumTier (they align except "free" → omit)
-    return membershipTier as CurriculumTier;
+  if (cookies[MEMBER_SESSION_COOKIE] === "1") {
+    return "member";
   }
 
   return "free";
