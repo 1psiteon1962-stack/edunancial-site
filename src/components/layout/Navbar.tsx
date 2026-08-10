@@ -92,7 +92,6 @@ export default function Navbar() {
             aria-expanded={languageOpen}
             onClick={() => {
               setLanguageOpen((previous) => !previous);
-              setMenuOpen(true);
             }}
             className="rounded-lg border border-slate-700 px-3 py-2"
           >
