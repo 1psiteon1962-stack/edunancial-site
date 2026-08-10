@@ -407,6 +407,21 @@ export async function getPublishedLesson(
   const lesson = state.lessons[lessonId.toUpperCase()];
   if (!lesson || lesson.status !== "active") return null;
 
+  // Prefer locale-aware curriculum source files first for rendered lesson copy.
+  // This enables sibling localized lesson files such as:
+  //   BLUE-L1-003.es.md
+  //   BLUE-L1-003.fr.md
+  // while preserving published-state metadata like author/date/version/frontMatter.
+  const localizedContent = getLessonContent(lesson.id, locale);
+  if (localizedContent) {
+    return {
+      ...lesson,
+      title: localizedContent.meta.title,
+      summary: localizedContent.meta.summary,
+      body: localizedContent.body,
+    };
+  }
+
   const translation = resolveTranslation(lesson.translations, locale);
 
   return {
