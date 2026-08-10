@@ -7,6 +7,7 @@ import {
   getPublishedLesson,
   getPublishedTracks,
 } from "@/lib/curriculum/authoritative-published";
+import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 const STORE_ROOT = join(process.cwd(), ".admin-content-store");
 const STATE_PATH = join(STORE_ROOT, "published", "curriculum-state.json");
@@ -103,4 +104,168 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
   const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
   assert.ok(frenchCanada);
   assert.equal(frenchCanada.title, "Comprendre votre valeur nette");
+});
+
+test("published lesson prefers localized sibling curriculum files for title, summary, and body", async () => {
+  const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+  const originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
+  const baseRegistry = originalRegistry ? (JSON.parse(originalRegistry) as Record<string, unknown>) : { tracks: {} };
+  const patchedRegistry = {
+    ...baseRegistry,
+    tracks: {
+      ...(baseRegistry.tracks as Record<string, unknown>),
+      BLUE: {
+        code: "BLUE",
+        name: "Business",
+        levels: {
+          "1": {
+            assets: {
+              "BLUE-L1-003": {
+                id: "BLUE-L1-003",
+                type: "lesson",
+                track: "BLUE",
+                trackName: "Business",
+                officialTrackName: "Business",
+                level: 1,
+                lessonNumber: 3,
+                title: "Cash Flow in Business — Reading the Numbers",
+                summary: "English canonical summary",
+                author: "Canonical Author",
+                date: "2026-08-03",
+                version: "1.0",
+                status: "active",
+                importedAt: new Date().toISOString(),
+                metadata: {},
+                membership: "free",
+                path: "content/curriculum/BLUE/L1/BLUE-L1-003.md",
+              },
+            },
+          },
+        },
+      },
+    },
+  };
+  writeFileSync(REGISTRY_PATH, JSON.stringify(patchedRegistry, null, 2), "utf8");
+  invalidateRegistryCache();
+
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "BLUE-L1-003": {
+            id: "BLUE-L1-003",
+            track: "BLUE",
+            trackName: "Business",
+            level: 1,
+            lessonNumber: 3,
+            title: "Cash Flow in Business — Reading the Numbers",
+            summary: "English published summary",
+            author: "Published Author",
+            date: "2026-08-03",
+            version: "9.9",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/BLUE/L1/BLUE-L1-003.md",
+            body: "English published body",
+            frontMatter: {
+              title: "Published Front Matter Title",
+              summary: "Published Front Matter Summary",
+            },
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
+  mkdirSync(lessonDir, { recursive: true });
+
+  writeFileSync(
+    join(lessonDir, "BLUE-L1-003.md"),
+    `---
+id: BLUE-L1-003
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 3
+title: Cash Flow in Business — Reading the Numbers
+version: 1.0
+author: Canonical Author
+date: 2026-08-03
+summary: English canonical summary
+---
+
+## Learning Objectives
+
+- Read business cash flow basics.
+
+## Core Content
+
+English canonical body.
+`,
+    "utf8",
+  );
+
+  writeFileSync(
+    join(lessonDir, "BLUE-L1-003.es.md"),
+    `---
+id: BLUE-L1-003
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 3
+title: Flujo de caja en los negocios — leer los números
+version: 1.0
+author: Localized Author
+date: 2026-08-04
+summary: Resumen localizado en español
+---
+
+## Learning Objectives
+
+- Comprender los fundamentos del flujo de caja empresarial.
+
+## Core Content
+
+Cuerpo localizado en español.
+`,
+    "utf8",
+  );
+
+  try {
+    const spanish = await getPublishedLesson("BLUE-L1-003", "es");
+    assert.ok(spanish);
+    assert.equal(spanish.title, "Flujo de caja en los negocios — leer los números");
+    assert.equal(spanish.summary, "Resumen localizado en español");
+    assert.match(spanish.body, /Cuerpo localizado en español/u);
+
+    // Non-content metadata should remain sourced from published state.
+    assert.equal(spanish.author, "Published Author");
+    assert.equal(spanish.date, "2026-08-03");
+    assert.equal(spanish.version, "9.9");
+    assert.deepEqual(spanish.frontMatter, {
+      title: "Published Front Matter Title",
+      summary: "Published Front Matter Summary",
+    });
+  } finally {
+    // Restore registry and clean up lesson files.
+    if (originalRegistry === null) {
+      rmSync(REGISTRY_PATH, { force: true });
+    } else {
+      writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
+    }
+    rmSync(join(lessonDir, "BLUE-L1-003.md"), { force: true });
+    rmSync(join(lessonDir, "BLUE-L1-003.es.md"), { force: true });
+    invalidateRegistryCache();
+  }
 });
