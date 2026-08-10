@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { afterEach, beforeEach, test } from "node:test";
 
 import {
+  exportPublishedLessonTranslations,
   getPublishedLesson,
   getPublishedTracks,
   importPublishedLessonTranslations,
@@ -486,4 +487,145 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
   const spanish = await getPublishedLesson("GOLD-L1-002", "es");
   assert.ok(spanish);
   assert.equal(spanish.title, "Understanding Net Worth");
+});
+
+test("exportPublishedLessonTranslations returns deterministic English base content with optional filtering", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "RED-L2-001": {
+            id: "RED-L2-001",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 2,
+            lessonNumber: 1,
+            title: "Level 2 lesson",
+            summary: "Second level summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L2/RED-L2-001.md",
+            body: "Level 2 body",
+            frontMatter: {},
+            translations: {
+              es: {
+                title: "Lección de nivel 2",
+                summary: "Resumen de nivel 2",
+                body: "Cuerpo de nivel 2",
+              },
+            },
+          },
+          "RED-L1-002": {
+            id: "RED-L1-002",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 1,
+            lessonNumber: 2,
+            title: "Second lesson",
+            summary: "Second summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L1/RED-L1-002.md",
+            body: "Second body",
+            frontMatter: {},
+          },
+          "RED-L1-001": {
+            id: "RED-L1-001",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 1,
+            lessonNumber: 1,
+            title: "First lesson",
+            summary: "First summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L1/RED-L1-001.md",
+            body: "First body",
+            frontMatter: {},
+          },
+          "BLUE-L1-001": {
+            id: "BLUE-L1-001",
+            track: "BLUE",
+            trackName: "Business",
+            level: 1,
+            lessonNumber: 1,
+            title: "Blue lesson",
+            summary: "Blue summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/BLUE/L1/BLUE-L1-001.md",
+            body: "Blue body",
+            frontMatter: {},
+          },
+          "RED-L1-099": {
+            id: "RED-L1-099",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 1,
+            lessonNumber: 99,
+            title: "Later lesson",
+            summary: "Later summary",
+            author: "Edunancial Faculty",
+            date: "2026-08-05",
+            version: "1.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L1/RED-L1-099.md",
+            body: "Inactive body",
+            frontMatter: {},
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  const allLessons = await exportPublishedLessonTranslations();
+  assert.deepEqual(allLessons, [
+    { id: "BLUE-L1-001", title: "Blue lesson", summary: "Blue summary", body: "Blue body" },
+    { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
+    { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
+    { id: "RED-L1-099", title: "Later lesson", summary: "Later summary", body: "Inactive body" },
+    { id: "RED-L2-001", title: "Level 2 lesson", summary: "Second level summary", body: "Level 2 body" },
+  ]);
+
+  const prefixedLessons = await exportPublishedLessonTranslations({ prefix: "RED-L1" });
+  assert.deepEqual(prefixedLessons, [
+    { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
+    { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
+    { id: "RED-L1-099", title: "Later lesson", summary: "Later summary", body: "Inactive body" },
+  ]);
+
+  const intersectedLessons = await exportPublishedLessonTranslations({
+    prefix: "RED-L1",
+    lessonIds: ["RED-L2-001", "RED-L1-002", "BLUE-L1-001"],
+  });
+  assert.deepEqual(intersectedLessons, [
+    { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
+  ]);
 });

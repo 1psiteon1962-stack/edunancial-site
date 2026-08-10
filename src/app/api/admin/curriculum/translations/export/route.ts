@@ -1,0 +1,49 @@
+import { NextResponse } from "next/server";
+
+import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { exportPublishedLessonTranslations } from "@/lib/curriculum/authoritative-published";
+
+const LESSON_ID_PATTERN = /^[A-Za-z]+-L[1-9]\d*-\d{3}$/u;
+const PREFIX_PATTERN = /^[A-Za-z]+(?:-L[1-9]\d*)?$/u;
+
+function parseExportQuery(request: Request): { prefix?: string; lessonIds?: string[]; errors: string[] } {
+  const url = new URL(request.url);
+  const rawPrefix = url.searchParams.get("prefix");
+  const rawLessonIds = url.searchParams.getAll("lessonId");
+  const errors: string[] = [];
+
+  const prefix = rawPrefix?.trim();
+  if (rawPrefix !== null && !prefix) {
+    errors.push("prefix must not be empty when provided");
+  } else if (prefix && !PREFIX_PATTERN.test(prefix)) {
+    errors.push("prefix must be a track code or track-level prefix such as RED or RED-L1");
+  }
+
+  const lessonIds = rawLessonIds.map((lessonId) => lessonId.trim());
+  if (lessonIds.some((lessonId) => !lessonId)) {
+    errors.push("lessonId must not be empty when provided");
+  }
+  if (lessonIds.some((lessonId) => lessonId && !LESSON_ID_PATTERN.test(lessonId))) {
+    errors.push("lessonId must use canonical lesson format such as RED-L1-001");
+  }
+
+  return {
+    ...(prefix ? { prefix: prefix.toUpperCase() } : {}),
+    ...(lessonIds.length > 0 ? { lessonIds: [...new Set(lessonIds.map((lessonId) => lessonId.toUpperCase()).filter(Boolean))] } : {}),
+    errors,
+  };
+}
+
+export async function GET(request: Request) {
+  const auth = await requireAdminApiSession(request);
+  if (!auth.ok) return auth.response;
+
+  const { prefix, lessonIds, errors } = parseExportQuery(request);
+  if (errors.length > 0) {
+    return NextResponse.json({ error: "Invalid curriculum translation export query", errors }, { status: 400 });
+  }
+
+  return NextResponse.json(
+    await exportPublishedLessonTranslations({ prefix, lessonIds }),
+  );
+}

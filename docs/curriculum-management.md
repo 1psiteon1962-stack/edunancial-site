@@ -332,6 +332,29 @@ Rules:
 - Existing locales are preserved; only provided locale fields are merged.
 - Canonical English fields (`title`, `summary`, `body`) remain unchanged.
 
+### Translation Export API (Published State)
+
+Admins can export the stored English base lesson content from live published curriculum state for translation workflows.
+
+- **Endpoint**: `GET /api/admin/curriculum/translations/export`
+- **Auth**: admin session (`requireAdminApiSession(request)`)
+- **Response**: JSON array of `{ id, title, summary, body }`
+
+Optional query params:
+
+- `prefix=RED` exports one full track.
+- `prefix=RED-L1` exports one track level.
+- repeated `lessonId` params export explicit lessons:
+  - `lessonId=RED-L1-001&lessonId=RED-L1-002`
+- when both `prefix` and `lessonId` are provided, the endpoint returns the **intersection** so callers can safely narrow an explicit lesson list to one track/level scope.
+
+Rules:
+
+- Data is read live from `published/curriculum-state.json` through the same published-state storage path used by the app.
+- Export returns the stored canonical English fields only; it does not resolve localized sibling markdown files or `lesson.translations`.
+- Matching lessons are returned in deterministic curriculum order.
+- Invalid `prefix` or `lessonId` values return `400`.
+
 ## ZIP Security Controls
 
 ZIP import is implemented with built-in Node.js modules only. The extractor enforces:
