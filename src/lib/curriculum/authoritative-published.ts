@@ -207,6 +207,30 @@ function resolveTranslation(
   return undefined;
 }
 
+function resolvePublishedLessonForLocale(
+  lesson: PublishedLessonRecord,
+  locale: CurriculumLocale,
+): PublishedLessonRecord {
+  const localizedContent = getLessonContent(lesson.id, locale);
+  if (localizedContent) {
+    return {
+      ...lesson,
+      title: localizedContent.meta.title,
+      summary: localizedContent.meta.summary,
+      body: localizedContent.body,
+    };
+  }
+
+  const translation = resolveTranslation(lesson.translations, locale);
+
+  return {
+    ...lesson,
+    title: translation?.title ?? getLocalizedLessonTitle(lesson.id, locale, lesson.title),
+    summary: translation?.summary ?? getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
+    body: translation?.body ?? lesson.body,
+  };
+}
+
 function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] {
   return [...lessons].sort((a, b) => {
     return a.track.localeCompare(b.track)
@@ -367,10 +391,8 @@ export async function getPublishedTracks(
           level,
           lessonCount: lessons.length,
           lessons: sortLessons(lessons).map((lesson) => ({
-            ...lesson,
+            ...resolvePublishedLessonForLocale(lesson, locale),
             trackName: localizedTrack?.name ?? lesson.trackName,
-            title: getLocalizedLessonTitle(lesson.id, locale, lesson.title),
-            summary: getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
           })),
         };
       });
@@ -406,30 +428,7 @@ export async function getPublishedLesson(
   const state = await getEffectiveState();
   const lesson = state.lessons[lessonId.toUpperCase()];
   if (!lesson || lesson.status !== "active") return null;
-
-  // Prefer locale-aware curriculum source files first for rendered lesson copy.
-  // This enables sibling localized lesson files such as:
-  //   BLUE-L1-003.es.md
-  //   BLUE-L1-003.fr.md
-  // while preserving published-state metadata like author/date/version/frontMatter.
-  const localizedContent = getLessonContent(lesson.id, locale);
-  if (localizedContent) {
-    return {
-      ...lesson,
-      title: localizedContent.meta.title,
-      summary: localizedContent.meta.summary,
-      body: localizedContent.body,
-    };
-  }
-
-  const translation = resolveTranslation(lesson.translations, locale);
-
-  return {
-    ...lesson,
-    title: translation?.title ?? getLocalizedLessonTitle(lesson.id, locale, lesson.title),
-    summary: translation?.summary ?? getLocalizedLessonDescription(lesson.id, locale, lesson.summary),
-    body: translation?.body ?? lesson.body,
-  };
+  return resolvePublishedLessonForLocale(lesson, locale);
 }
 
 export async function removePublishedLesson(lessonId: string): Promise<boolean> {
