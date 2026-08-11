@@ -115,11 +115,23 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
   assert.equal(spanish.title, "Comprender tu patrimonio neto");
   assert.match(spanish.body, /Objetivos de aprendizaje/u);
 
+  const spanishSpain = await getPublishedLesson("GOLD-L1-002", "es-ES");
+  assert.ok(spanishSpain);
+  assert.equal(spanishSpain.title, spanish.title);
+  assert.equal(spanishSpain.summary, spanish.summary);
+  assert.equal(spanishSpain.body, spanish.body);
+
   const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "GOLD", 1, "GOLD-L1-002");
   assert.ok(spanishTrackLesson);
   assert.equal(spanishTrackLesson.title, spanish.title);
   assert.equal(spanishTrackLesson.summary, spanish.summary);
   assert.equal(spanishTrackLesson.body, spanish.body);
+
+  const spanishSpainTrackLesson = findTrackLesson(await getPublishedTracks("es-ES"), "GOLD", 1, "GOLD-L1-002");
+  assert.ok(spanishSpainTrackLesson);
+  assert.equal(spanishSpainTrackLesson.title, spanish.title);
+  assert.equal(spanishSpainTrackLesson.summary, spanish.summary);
+  assert.equal(spanishSpainTrackLesson.body, spanish.body);
 
   const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
   assert.ok(frenchCanada);
@@ -130,6 +142,18 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
   assert.equal(frenchCanadaTrackLesson.title, frenchCanada.title);
   assert.equal(frenchCanadaTrackLesson.summary, frenchCanada.summary);
   assert.equal(frenchCanadaTrackLesson.body, frenchCanada.body);
+
+  const britishEnglish = await getPublishedLesson("GOLD-L1-002", "en-GB");
+  assert.ok(britishEnglish);
+  assert.equal(britishEnglish.title, "Understanding Net Worth");
+  assert.equal(britishEnglish.summary, "English summary");
+  assert.equal(britishEnglish.body, "English body");
+
+  const britishEnglishTrackLesson = findTrackLesson(await getPublishedTracks("en-GB"), "GOLD", 1, "GOLD-L1-002");
+  assert.ok(britishEnglishTrackLesson);
+  assert.equal(britishEnglishTrackLesson.title, britishEnglish.title);
+  assert.equal(britishEnglishTrackLesson.summary, britishEnglish.summary);
+  assert.equal(britishEnglishTrackLesson.body, britishEnglish.body);
 });
 
 test("published lesson prefers localized sibling curriculum files for title, summary, and body", async () => {

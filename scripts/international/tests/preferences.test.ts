@@ -52,6 +52,26 @@ test("language catalog has no duplicate language registrations", () => {
   assert.equal(uniqueCodes.size, LANGUAGE_CATALOG.length);
 });
 
+test("language catalog includes British English and Spain Spanish entries", () => {
+  assert.deepEqual(
+    LANGUAGE_CATALOG.filter((language) => language.code === "en-GB" || language.code === "es-ES"),
+    [
+      {
+        code: "en-GB",
+        label: "English (United Kingdom)",
+        nativeLabel: "English (United Kingdom)",
+        rtl: false,
+      },
+      {
+        code: "es-ES",
+        label: "Español (España)",
+        nativeLabel: "Español (España)",
+        rtl: false,
+      },
+    ],
+  );
+});
+
 test("language preference is independent from payment provider routing", () => {
   const paymentMethods = resolveAvailablePaymentMethods("north-america", "us");
   const hindiLanguage = normalizeLanguageCode("hi");
@@ -68,4 +88,9 @@ test("normalization preserves distinct fr-CA and fr-FR selections", () => {
 test("normalization aliases plain en and fr for North America launch", () => {
   assert.equal(normalizeLanguageCode("en"), "en-US");
   assert.equal(normalizeLanguageCode("fr"), "fr-CA");
+});
+
+test("normalization preserves new regional English and Spanish selections", () => {
+  assert.equal(normalizeLanguageCode("en-GB"), "en-GB");
+  assert.equal(normalizeLanguageCode("es-ES"), "es-ES");
 });

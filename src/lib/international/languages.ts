@@ -12,7 +12,19 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
     nativeLabel: "English (United States)",
     rtl: false,
   },
+  {
+    code: "en-GB",
+    label: "English (United Kingdom)",
+    nativeLabel: "English (United Kingdom)",
+    rtl: false,
+  },
   { code: "es", label: "Spanish", nativeLabel: "Español", rtl: false },
+  {
+    code: "es-ES",
+    label: "Español (España)",
+    nativeLabel: "Español (España)",
+    rtl: false,
+  },
   {
     code: "fr-CA",
     label: "French (Canada)",

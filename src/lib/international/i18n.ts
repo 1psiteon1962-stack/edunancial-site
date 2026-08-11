@@ -54,7 +54,9 @@ type MessageCatalog = Record<string, string>;
 const messageCatalogs: Record<string, MessageCatalog> = {
   en: enMessages,
   "en-US": enMessages,
+  "en-GB": enMessages,
   es: esMessages,
+  "es-ES": esMessages,
   fr: frMessages,
   "fr-CA": frCaMessages,
   "fr-FR": frFrMessages,
