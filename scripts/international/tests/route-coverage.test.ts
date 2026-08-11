@@ -73,6 +73,8 @@ test("every enabled locale has a deterministic fallback chain", () => {
   assert.deepEqual(getLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en-US", "en"]);
   assert.deepEqual(getLocaleFallbackChain("fr-FR"), ["fr-FR", "fr", "en-US", "en"]);
   assert.deepEqual(getLocaleFallbackChain("fr"), ["fr", "fr-CA", "en-US", "en"]);
+  assert.deepEqual(getLocaleFallbackChain("en-GB"), ["en-GB", "en", "en-US"]);
+  assert.deepEqual(getLocaleFallbackChain("es-ES"), ["es-ES", "es", "en-US", "en"]);
 });
 
 test("major public routes use centralized locale helpers", () => {
