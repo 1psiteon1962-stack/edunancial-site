@@ -11,14 +11,21 @@ const STORE_ROOT = join(process.cwd(), ".admin-content-store");
 const STATE_PATH = join(STORE_ROOT, "published", "curriculum-state.json");
 
 let originalState: string | null = null;
+const originalExportToken = process.env.CURRICULUM_EXPORT_ADMIN_TOKEN;
 
 beforeEach(() => {
   process.env.EDUNANCIAL_ADMIN_SESSION_SECRET = "12345678901234567890123456789012";
+  delete process.env.CURRICULUM_EXPORT_ADMIN_TOKEN;
   originalState = existsSync(STATE_PATH) ? readFileSync(STATE_PATH, "utf8") : null;
   rmSync(STATE_PATH, { force: true });
 });
 
 afterEach(() => {
+  if (originalExportToken === undefined) {
+    delete process.env.CURRICULUM_EXPORT_ADMIN_TOKEN;
+  } else {
+    process.env.CURRICULUM_EXPORT_ADMIN_TOKEN = originalExportToken;
+  }
   if (originalState === null) {
     rmSync(STATE_PATH, { force: true });
   } else {
@@ -40,12 +47,81 @@ function signedHeaders() {
   };
 }
 
+function writeSharedState() {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+}
+
 test("curriculum translation export route requires admin auth", async () => {
   const response = await exportTranslationsRoute(
     new Request("https://example.com/api/admin/curriculum/translations/export"),
   );
 
   assert.equal(response.status, 401);
+});
+
+test("curriculum translation export route still accepts existing admin session auth", async () => {
+  writeSharedState();
+
+  const response = await exportTranslationsRoute(
+    new Request("https://example.com/api/admin/curriculum/translations/export?lessonId=RED-L1-001", {
+      headers: signedHeaders(),
+    }),
+  );
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), [{
+    id: "RED-L1-001",
+    title: "Red L1 lesson",
+    summary: "Red L1 summary",
+    body: "Red L1 body",
+  }]);
+});
+
+test("curriculum translation export route rejects incorrect bearer tokens", async () => {
+  process.env.CURRICULUM_EXPORT_ADMIN_TOKEN = "expected-export-token";
+  writeSharedState();
+
+  const response = await exportTranslationsRoute(
+    new Request("https://example.com/api/admin/curriculum/translations/export?lessonId=RED-L1-001", {
+      headers: { authorization: ["Bearer", "wrong-export-token"].join(" ") },
+    }),
+  );
+
+  assert.equal(response.status, 401);
+  assert.deepEqual(await response.json(), { error: "Unauthorized" });
+});
+
+test("curriculum translation export route accepts valid bearer tokens", async () => {
+  process.env.CURRICULUM_EXPORT_ADMIN_TOKEN = "expected-export-token";
+  writeSharedState();
+
+  const response = await exportTranslationsRoute(
+    new Request("https://example.com/api/admin/curriculum/translations/export?lessonId=RED-L1-001", {
+      headers: { authorization: ["Bearer", "expected-export-token"].join(" ") },
+    }),
+  );
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), [{
+    id: "RED-L1-001",
+    title: "Red L1 lesson",
+    summary: "Red L1 summary",
+    body: "Red L1 body",
+  }]);
+});
+
+test("curriculum translation export route does not authorize bearer tokens when env is unset", async () => {
+  writeSharedState();
+
+  const response = await exportTranslationsRoute(
+    new Request("https://example.com/api/admin/curriculum/translations/export?lessonId=RED-L1-001", {
+      headers: { authorization: ["Bearer", "expected-export-token"].join(" ") },
+    }),
+  );
+
+  assert.equal(response.status, 401);
+  assert.deepEqual(await response.json(), { error: "Unauthorized" });
 });
 
 test("curriculum translation export route validates prefix and lessonId query params", async () => {
@@ -199,8 +275,7 @@ function buildSharedState() {
 }
 
 test("curriculum translation export route matches level-only prefix L1 across all tracks", async () => {
-  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
-  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+  writeSharedState();
 
   const response = await exportTranslationsRoute(
     new Request(
@@ -218,8 +293,7 @@ test("curriculum translation export route matches level-only prefix L1 across al
 });
 
 test("curriculum translation export route matches comma-separated prefixes", async () => {
-  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
-  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+  writeSharedState();
 
   const response = await exportTranslationsRoute(
     new Request(
@@ -237,8 +311,7 @@ test("curriculum translation export route matches comma-separated prefixes", asy
 });
 
 test("curriculum translation export route returns null placeholders for missing lessonIds", async () => {
-  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
-  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+  writeSharedState();
 
   const response = await exportTranslationsRoute(
     new Request(
