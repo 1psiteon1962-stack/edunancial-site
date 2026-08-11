@@ -1,4 +1,6 @@
 import { Buffer } from "node:buffer";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 
 import type { ExtractedFile, UploadBatch } from "@/lib/admin-content/types";
 import { detectBundledCurriculumLessons, detectCurriculumAsset } from "@/lib/admin-content/curriculum";
@@ -18,6 +20,7 @@ import {
 } from "@/lib/curriculum/reader";
 
 const PUBLISHED_STATE_PATH = "published/curriculum-state.json";
+const SEEDS_DIR = join(process.cwd(), "curriculum", "seeds", "translations");
 
 export interface PublishedLessonTranslation {
   title?: string;
@@ -222,6 +225,51 @@ function entryFromRegistryAsset(asset: RegistryAsset): PublishedLessonRecord | n
   };
 }
 
+let _seedTranslationCache: Map<string, PublishedLessonTranslation> | null = null;
+
+function loadSeedTranslations(): Map<string, PublishedLessonTranslation> {
+  if (_seedTranslationCache) return _seedTranslationCache;
+  const map = new Map<string, PublishedLessonTranslation>();
+  if (!existsSync(SEEDS_DIR)) {
+    _seedTranslationCache = map;
+    return map;
+  }
+  for (const file of readdirSync(SEEDS_DIR)) {
+    if (!file.endsWith(".json")) continue;
+    try {
+      const content = readFileSync(join(SEEDS_DIR, file), "utf8");
+      const records = JSON.parse(content) as PublishedLessonTranslationImportRecord[];
+      if (!Array.isArray(records)) continue;
+      for (const record of records) {
+        if (typeof record.lessonId === "string" && typeof record.locale === "string") {
+          const key = `${record.lessonId}::${record.locale}`;
+          map.set(key, {
+            ...(typeof record.title === "string" ? { title: record.title } : {}),
+            ...(typeof record.summary === "string" ? { summary: record.summary } : {}),
+            ...(typeof record.body === "string" ? { body: record.body } : {}),
+          });
+        }
+      }
+    } catch {
+      // skip malformed seed files
+    }
+  }
+  _seedTranslationCache = map;
+  return map;
+}
+
+function resolveSeedTranslation(
+  lessonId: string,
+  locale: CurriculumLocale,
+): PublishedLessonTranslation | undefined {
+  const seeds = loadSeedTranslations();
+  const exact = seeds.get(`${lessonId}::${locale}`);
+  if (exact) return exact;
+  const base = locale.split("-")[0];
+  if (base && base !== locale) return seeds.get(`${lessonId}::${base}`);
+  return undefined;
+}
+
 function resolveTranslation(
   translations: Record<string, PublishedLessonTranslation> | undefined,
   locale: CurriculumLocale,
@@ -247,7 +295,8 @@ function resolvePublishedLessonForLocale(
     };
   }
 
-  const translation = resolveTranslation(lesson.translations, locale);
+  const translation = resolveTranslation(lesson.translations, locale)
+    ?? resolveSeedTranslation(lesson.id, locale);
 
   return {
     ...lesson,
