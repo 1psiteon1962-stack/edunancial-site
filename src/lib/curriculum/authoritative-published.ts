@@ -104,7 +104,7 @@ export interface PublishedLessonTranslationExportRecord {
 }
 
 export interface PublishedLessonTranslationExportOptions {
-  prefix?: string;
+  prefixes?: string[];
   lessonIds?: string[];
 }
 
@@ -408,17 +408,35 @@ export async function importPublishedLessonTranslations(
 
 export async function exportPublishedLessonTranslations(
   options: PublishedLessonTranslationExportOptions = {},
-): Promise<PublishedLessonTranslationExportRecord[]> {
-  const prefix = options.prefix?.trim().toUpperCase();
+): Promise<(PublishedLessonTranslationExportRecord | { id: string; title: null; summary: null; body: null })[]> {
+  const prefixes = options.prefixes?.map((p) => p.trim().toUpperCase()).filter(Boolean);
   const lessonIds = options.lessonIds?.map((lessonId) => lessonId.trim().toUpperCase()).filter(Boolean);
   const requestedLessonIds = lessonIds && lessonIds.length > 0 ? new Set(lessonIds) : null;
   const state = await getEffectiveState();
 
-  return sortLessons(Object.values(state.lessons).filter((lesson) => {
+  // Determine whether a lesson ID matches any of the supplied prefixes.
+  // A prefix can be:
+  //   - level-only (e.g. "L1")            → matches any lesson at that level: *-L1-*
+  //   - track-level (e.g. "RED-L1")       → matches RED-L1-*
+  //   - track-only (e.g. "RED")           → matches RED-*
+  function matchesPrefix(id: string): boolean {
+    if (!prefixes || prefixes.length === 0) return true;
+    return prefixes.some((p) => {
+      // Level-only prefix: starts with "L" followed by digits only
+      if (/^L[1-9]\d*$/u.test(p)) {
+        // Match TRACK-L{n}-NNN pattern: segment between first and second dash equals p
+        const parts = id.split("-");
+        return parts.length === 3 && parts[1] === p;
+      }
+      // Track or track-level prefix: lesson id must start with prefix + "-"
+      return id.startsWith(`${p}-`);
+    });
+  }
+
+  const matched = sortLessons(Object.values(state.lessons).filter((lesson) => {
     if (lesson.status !== "active") return false;
-    // When both filters are supplied, explicit lessonIds are narrowed by prefix.
     if (requestedLessonIds && !requestedLessonIds.has(lesson.id)) return false;
-    if (prefix && !lesson.id.startsWith(`${prefix}-`)) return false;
+    if (!matchesPrefix(lesson.id)) return false;
     return true;
   })).map((lesson) => ({
     id: lesson.id,
@@ -426,6 +444,17 @@ export async function exportPublishedLessonTranslations(
     summary: lesson.summary,
     body: lesson.body,
   }));
+
+  // If explicit lessonIds were requested, insert null-field placeholders for any that are missing.
+  if (requestedLessonIds) {
+    const foundIds = new Set(matched.map((r) => r.id));
+    const nullPlaceholders = [...requestedLessonIds]
+      .filter((id) => !foundIds.has(id))
+      .map((id) => ({ id, title: null, summary: null, body: null }));
+    return [...matched, ...nullPlaceholders];
+  }
+
+  return matched;
 }
 
 export async function removePublishedLessonsForBatch(

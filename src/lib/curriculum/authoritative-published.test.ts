@@ -614,7 +614,7 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
     { id: "RED-L2-001", title: "Level 2 lesson", summary: "Second level summary", body: "Level 2 body" },
   ]);
 
-  const prefixedLessons = await exportPublishedLessonTranslations({ prefix: "RED-L1" });
+  const prefixedLessons = await exportPublishedLessonTranslations({ prefixes: ["RED-L1"] });
   assert.deepEqual(prefixedLessons, [
     { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
     { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
@@ -622,10 +622,12 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
   ]);
 
   const intersectedLessons = await exportPublishedLessonTranslations({
-    prefix: "RED-L1",
+    prefixes: ["RED-L1"],
     lessonIds: ["RED-L2-001", "RED-L1-002", "BLUE-L1-001"],
   });
   assert.deepEqual(intersectedLessons, [
     { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
+    { id: "RED-L2-001", title: null, summary: null, body: null },
+    { id: "BLUE-L1-001", title: null, summary: null, body: null },
   ]);
 });
