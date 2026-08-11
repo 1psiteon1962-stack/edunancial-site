@@ -59,7 +59,7 @@ test("curriculum translation export route validates prefix and lessonId query pa
   assert.deepEqual(await response.json(), {
     error: "Invalid curriculum translation export query",
     errors: [
-      "prefix must be a track code or track-level prefix such as RED or RED-L1",
+      "prefix must be a track code, track-level prefix, or level prefix such as RED, RED-L1, or L1",
       "lessonId must use canonical lesson format such as RED-L1-001",
     ],
   });
@@ -160,5 +160,101 @@ test("curriculum translation export route returns stored English fields and inte
       summary: "Second summary",
       body: "Second body",
     },
+    {
+      id: "BLUE-L1-001",
+      title: null,
+      summary: null,
+      body: null,
+    },
   ]);
+});
+
+function buildSharedState() {
+  return {
+    schemaVersion: "1.0",
+    initialized: true,
+    updatedAt: new Date().toISOString(),
+    lessons: {
+      "RED-L1-001": {
+        id: "RED-L1-001", track: "RED", trackName: "Real Estate", level: 1, lessonNumber: 1,
+        title: "Red L1 lesson", summary: "Red L1 summary", author: "Edunancial Faculty",
+        date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(),
+        metadata: {}, path: "content/curriculum/RED/L1/RED-L1-001.md", body: "Red L1 body", frontMatter: {},
+      },
+      "BLUE-L1-001": {
+        id: "BLUE-L1-001", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 1,
+        title: "Blue L1 lesson", summary: "Blue L1 summary", author: "Edunancial Faculty",
+        date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(),
+        metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-001.md", body: "Blue L1 body", frontMatter: {},
+      },
+      "RED-L2-001": {
+        id: "RED-L2-001", track: "RED", trackName: "Real Estate", level: 2, lessonNumber: 1,
+        title: "Red L2 lesson", summary: "Red L2 summary", author: "Edunancial Faculty",
+        date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(),
+        metadata: {}, path: "content/curriculum/RED/L2/RED-L2-001.md", body: "Red L2 body", frontMatter: {},
+      },
+    },
+    batchLessonIds: {},
+  };
+}
+
+test("curriculum translation export route matches level-only prefix L1 across all tracks", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+
+  const response = await exportTranslationsRoute(
+    new Request(
+      "https://example.com/api/admin/curriculum/translations/export?prefix=L1",
+      { headers: signedHeaders() },
+    ),
+  );
+
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  const ids = body.map((r: { id: string }) => r.id);
+  assert.ok(ids.includes("RED-L1-001"), "should include RED-L1-001");
+  assert.ok(ids.includes("BLUE-L1-001"), "should include BLUE-L1-001");
+  assert.ok(!ids.includes("RED-L2-001"), "should not include RED-L2-001");
+});
+
+test("curriculum translation export route matches comma-separated prefixes", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+
+  const response = await exportTranslationsRoute(
+    new Request(
+      "https://example.com/api/admin/curriculum/translations/export?prefix=RED-L1,BLUE-L1",
+      { headers: signedHeaders() },
+    ),
+  );
+
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  const ids = body.map((r: { id: string }) => r.id);
+  assert.ok(ids.includes("RED-L1-001"), "should include RED-L1-001");
+  assert.ok(ids.includes("BLUE-L1-001"), "should include BLUE-L1-001");
+  assert.ok(!ids.includes("RED-L2-001"), "should not include RED-L2-001");
+});
+
+test("curriculum translation export route returns null placeholders for missing lessonIds", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify(buildSharedState(), null, 2), "utf8");
+
+  const response = await exportTranslationsRoute(
+    new Request(
+      "https://example.com/api/admin/curriculum/translations/export?lessonId=RED-L1-001&lessonId=RED-L1-099",
+      { headers: signedHeaders() },
+    ),
+  );
+
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  const found = body.find((r: { id: string }) => r.id === "RED-L1-001");
+  const missing = body.find((r: { id: string }) => r.id === "RED-L1-099");
+  assert.ok(found, "should include RED-L1-001");
+  assert.equal(found.title, "Red L1 lesson");
+  assert.ok(missing, "should include placeholder for RED-L1-099");
+  assert.equal(missing.title, null);
+  assert.equal(missing.summary, null);
+  assert.equal(missing.body, null);
 });
