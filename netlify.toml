@@ -1,6 +1,31 @@
 [build]
 command = "npm run build"
 publish = ".next"
+# Stale-site guard — FIX 3 (PR #295)
+# ─────────────────────────────────────────────────────────────────────────────
+# A previous Netlify site that was connected to this repository but never fully
+# decommissioned still appears as a duplicate GitHub status check on every PR
+# (e.g. "Redirect rules -edunancial-site").  The root cause is that the stale
+# site's Netlify GitHub App installation is still authorised on this repo.
+#
+# IN-REPO GUARD: The `ignore` command below exits 0 (skip build) for any
+# Netlify site whose SITE_NAME is set but does not match the canonical
+# production site name ("edunancial").  This prevents a stale site from
+# running a full build; its check will appear as "Skipped" rather than
+# spinning up a build runner.
+#
+# REQUIRED OUT-OF-REPO ACTION (cannot be fixed in code alone):
+#   1. Log in to app.netlify.com as the site owner.
+#   2. Open the *stale* site settings (the one whose name ends in
+#      "-edunancial-site").
+#   3. Go to Site configuration → Build & deploy → Continuous deployment →
+#      "Unlink repository" (or delete the stale site entirely).
+#   This removes the stale GitHub App authorisation and eliminates the
+#   duplicate status checks permanently.
+#
+# Once the stale site is unlinked the `ignore` guard below is still harmless
+# and can remain as a future safeguard.
+ignore = "[ -n \"${SITE_NAME}\" ] && [ \"${SITE_NAME}\" != \"edunancial\" ]"
 
 [build.environment]
 NODE_VERSION = "22"
