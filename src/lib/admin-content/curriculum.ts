@@ -154,13 +154,22 @@ function parseBundledMetadata(section: string): Record<string, string> {
 /**
  * Parse a "combined" uploaded curriculum markdown file that contains multiple
  * `CONTENT ID: TRACK-Lx-yyy` blocks and derive canonical per-lesson markdown.
+ *
+ * Also handles the heading-style admin upload format where lessons appear as
+ * `# TRACK-Lx-yyy-MAIN` sections with `**Lesson ID:** TRACK-Lx-yyy` metadata.
  */
 export async function detectBundledCurriculumLessons(
   content: string,
 ): Promise<BundledCurriculumLesson[]> {
   const marker = /^CONTENT ID:\s*([A-Z]+-L\d-[0-9]{3})\s*$/gm;
   const matches = Array.from(content.matchAll(marker));
-  if (matches.length === 0) return [];
+
+  // Fallback: detect the heading-style admin upload format.
+  // Files uploaded via admin dashboard use "# TRACK-Lx-yyy-MAIN" headings
+  // and "**Lesson ID:** TRACK-Lx-yyy" metadata instead of CONTENT ID markers.
+  if (matches.length === 0) {
+    return detectHeadingStyleCurriculumLessons(content);
+  }
 
   const lessons: BundledCurriculumLesson[] = [];
   for (let index = 0; index < matches.length; index += 1) {
@@ -214,6 +223,111 @@ export async function detectBundledCurriculumLessons(
 
   return lessons;
 }
+
+/**
+ * Detect curriculum lessons in the heading-style admin upload format.
+ *
+ * Files produced by the admin dashboard batch upload tool use a structured
+ * heading format instead of CONTENT ID markers:
+ *
+ *   # TRACK-Lx-yyy-MAIN
+ *   ## Lesson Title
+ *
+ *   **Lesson ID:** TRACK-Lx-yyy
+ *   **Track:** TRACK (Track Name)
+ *   **Level:** x
+ *   **Author:** Author Name
+ *
+ * Only the `-MAIN` section is extracted and converted to the canonical
+ * front-matter format so the validator and registry pipeline can process it.
+ * Auxiliary sections (`-ANSWER-KEY`, `-SEO`, `-AI`, `-LOCALIZATION`,
+ * `-REFERENCES`, `-COMPETENCY`) are intentionally excluded from the canonical
+ * lesson file as they are not consumed by the curriculum reader.
+ */
+async function detectHeadingStyleCurriculumLessons(
+  content: string,
+): Promise<BundledCurriculumLesson[]> {
+  // Match headings like "# RED-L2-001-MAIN" or "# RED-L2-001-main"
+  const mainSectionPattern = /^# ([A-Z]+-L\d-[0-9]{3})-MAIN\s*$/gim;
+  const mainMatches = Array.from(content.matchAll(mainSectionPattern));
+  if (mainMatches.length === 0) return [];
+
+  const lessons: BundledCurriculumLesson[] = [];
+
+  for (const mainMatch of mainMatches) {
+    const id = mainMatch[1].toUpperCase();
+    const sectionStart = mainMatch.index ?? 0;
+
+    // Find the end of the MAIN section: next level-1 heading that is a different
+    // section suffix (e.g. "# RED-L2-001-ANSWER-KEY") or end of file.
+    const nextSectionPattern = /^# [A-Z]+-L\d-[0-9]{3}-(?!MAIN)/im;
+    const afterMain = content.slice(sectionStart + mainMatch[0].length);
+    const nextMatch = afterMain.search(nextSectionPattern);
+    const sectionEnd = nextMatch >= 0
+      ? sectionStart + mainMatch[0].length + nextMatch
+      : content.length;
+
+    const mainBody = content.slice(sectionStart, sectionEnd).trim();
+
+    // Extract metadata from bold-label lines: **Lesson ID:** RED-L2-001
+    const metaLine = (label: string) => {
+      const m = mainBody.match(new RegExp(`\\*\\*${label}:\\*\\*\\s*(.+?)(?:\\n|$)`, "i"));
+      return m?.[1]?.trim() ?? "";
+    };
+
+    const lessonId = metaLine("Lesson ID") || id;
+    const trackRaw = metaLine("Track");
+    const track = trackRaw.match(/^([A-Z]+)/)?.[1] ?? id.split("-")[0];
+    const levelRaw = metaLine("Level");
+    const levelFromId = id.match(/-L(\d)-/)?.[1] ?? "1";
+    const level = Number(levelRaw.match(/\d+/)?.[0] ?? levelFromId);
+    const lessonNumberFromId = Number(id.match(/-([0-9]{3})$/)?.[1] ?? "1");
+    const authorRaw = metaLine("Author");
+    const author = authorRaw || "Edunancial Faculty";
+
+    // Extract title: first ## heading after the # MAIN heading
+    const titleMatch = mainBody.match(/^## (.+)$/m);
+    const title = titleMatch?.[1]?.trim() ?? id;
+
+    // Extract summary from Executive Summary section
+    const summaryMatch = mainBody.match(/## Executive Summary\s+\n+([\s\S]+?)(?:\n\n## |\n##)/);
+    const summary = summaryMatch?.[1]?.replace(/\n/g, " ").trim().slice(0, 220) ?? "";
+
+    const today = new Date().toISOString().slice(0, 10);
+
+    // Extract Learning Objectives and Main Lesson body for the canonical file.
+    // Strip the executive summary block and auxiliary metadata lines.
+    const coreMatch = mainBody.match(/(## Learning Objectives[\s\S]+)/);
+    const coreBody = coreMatch?.[1]?.trim() ?? mainBody;
+
+    const officialTrackNameResolved = trackRaw.replace(/^[A-Z]+\s*\((.+)\)$/, "$1") || track;
+    const canonicalLesson = [
+      "---",
+      `id: ${lessonId}`,
+      `track: ${track}`,
+      `officialTrackName: ${officialTrackNameResolved}`,
+      `level: ${level}`,
+      `lessonNumber: ${lessonNumberFromId}`,
+      `title: ${title}`,
+      `summary: ${summary}`,
+      `version: 1.0`,
+      `author: ${author}`,
+      `date: ${today}`,
+      "---",
+      "",
+      coreBody,
+      "",
+    ].join("\n");
+
+    const asset = await detectCurriculumAsset(canonicalLesson);
+    if (asset) {
+      lessons.push({ asset, content: canonicalLesson });
+    }
+  }
+
+  return lessons;
+}
+
 
 export type CurriculumRegistryEntry = {
   id: string;

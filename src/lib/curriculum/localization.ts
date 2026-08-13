@@ -886,7 +886,26 @@ const TRACK_COPY: Record<LaunchTrackCode, TrackCopy> = {
   },
 };
 
-const LESSON_TITLE_COPY: Partial<Record<string, Partial<Record<string, string>>>> = {};
+const LESSON_TITLE_COPY: Partial<Record<string, Partial<Record<string, string>>>> = {
+  "RED-L2-001": {
+    es: "Umbrales de Cantidad de Unidades: Donde Termina lo Residencial y Empieza lo Comercial",
+    fr: "Seuils du Nombre d'Unités : Où Finit le Résidentiel et Où Commence le Commercial",
+    "fr-CA": "Seuils du Nombre d'Unités : Où Finit le Résidentiel et Où Commence le Commercial",
+    ht: "Sèy Kantite Inite: Kote Rezidansyèl Fini ak Kote Komèsyal Kòmanse",
+    nl: "Drempels voor Aantal Eenheden: Waar Residentieel Eindigt en Commercieel Begint",
+    it: "Soglie del Numero di Unità: Dove Finisce il Residenziale e Inizia il Commerciale",
+    de: "Einheitenschwellen: Wo Wohnimmobilien Enden und Gewerbeimmobilien Beginnen",
+  },
+  "RED-L2-002": {
+    es: "Préstamos VA y Financiamiento Creativo: Opciones en el Umbral Residencial",
+    fr: "Prêts VA et Financement Créatif : Options au Seuil Résidentiel",
+    "fr-CA": "Prêts VA et Financement Créatif : Options au Seuil Résidentiel",
+    ht: "Prè VA ak Finansman Kreyatif: Opsyon nan Sèy Rezidansyèl la",
+    nl: "VA-Leningen en Creatieve Financiering: Opties bij de Residentiële Drempel",
+    it: "Mutui VA e Finanziamento Creativo: Opzioni alla Soglia Residenziale",
+    de: "VA-Darlehen und Kreative Finanzierung: Optionen an der Wohnimmobilien-Schwelle",
+  },
+};
 
 /**
  * Returns true when the resolved locale maps to English (base code "en").
@@ -918,7 +937,26 @@ export function getLocalizedLessonTitle(lessonId: string, locale: CurriculumLoca
  * "en" is derived from the canonical registry metadata at runtime (fallbackDescription).
  * Add translated entries here as translations become available.
  */
-const LESSON_DESCRIPTION_COPY: Record<string, Partial<Record<string, string>>> = {};
+const LESSON_DESCRIPTION_COPY: Record<string, Partial<Record<string, string>>> = {
+  "RED-L2-001": {
+    es: "Toda propiedad cae en uno de dos mundos en cuanto cuentas sus unidades: 1-4, o 5 o más. Ese número decide tu prestamista, tu método de valoración y tu tipo de préstamo.",
+    fr: "Chaque bien immobilier appartient à l'une de deux catégories dès que l'on compte ses unités : 1 à 4, ou 5 et plus. Ce chiffre détermine le prêteur, la méthode d'évaluation et le type de prêt.",
+    "fr-CA": "Chaque propriété appartient à l'une de deux catégories dès qu'on en compte les unités : 1 à 4, ou 5 et plus. Ce chiffre détermine le prêteur, la méthode d'évaluation et le type de prêt.",
+    ht: "Chak pwopriyete tonbe nan youn nan de kategori depi w konte inite li yo: 1-4, oswa 5 oswa plis. Nimewo sa a deside kilès prete lajan w ap sèvi avè l, ki metòd evalyasyon, ak ki tip prè.",
+    nl: "Elk pand valt in een van twee categorieën zodra je de eenheden telt: 1-4, of 5 of meer. Dat aantal bepaalt je geldverstrekker, je waarderingsmethode en je type lening.",
+    it: "Ogni immobile rientra in una di due categorie non appena se ne contano le unità: 1-4, oppure 5 o più. Questo numero determina il creditore, il metodo di valutazione e il tipo di mutuo.",
+    de: "Jede Immobilie fällt in eine von zwei Kategorien, sobald man ihre Einheiten zählt: 1-4, oder 5 und mehr. Diese Zahl bestimmt den Kreditgeber, die Bewertungsmethode und die Darlehensart.",
+  },
+  "RED-L2-002": {
+    es: "Más allá del préstamo convencional, existen otros dos caminos para propiedades residenciales: los préstamos VA para veteranos elegibles, y el financiamiento creativo que no pasa por un banco.",
+    fr: "Au-delà du prêt hypothécaire classique, deux autres voies s'ouvrent pour l'immobilier résidentiel : les prêts VA pour les anciens combattants américains éligibles, et le financement créatif qui ne passe pas par une banque.",
+    "fr-CA": "Au-delà du prêt hypothécaire classique, deux autres voies s'ouvrent pour l'immobilier résidentiel : les prêts VA pour les vétérans américains admissibles, et le financement créatif qui ne passe pas par une banque.",
+    ht: "Pi lwen pase prè konvansyonèl la, gen de lòt chemen ki ouvè pou pwopriyete rezidansyèl: prè VA pou veteran ki kalifye, ak finansman kreyatif ki pa pase nan yon bank ditou.",
+    nl: "Naast de standaard hypotheek zijn er twee andere wegen voor woonvastgoed: VA-leningen voor in aanmerking komende Amerikaanse veteranen, en creatieve financiering die helemaal niet via een bank loopt.",
+    it: "Oltre al mutuo convenzionale, si aprono altre due vie per gli immobili residenziali: i mutui VA per i veterani statunitensi idonei, e il finanziamento creativo che non passa affatto per una banca.",
+    de: "Über die klassische Hypothek hinaus gibt es zwei weitere Wege für Wohnimmobilien: VA-Darlehen für berechtigte US-Veteranen und kreative Finanzierung, die überhaupt nicht über eine Bank läuft.",
+  },
+};
 
 /**
  * Resolve a lesson description for the given locale.

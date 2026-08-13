@@ -1521,6 +1521,28 @@
       "destination": "content/curriculum/BLACK/L1/BLACK-L1-010.md",
       "checksum": "sha256:1fe5259b4cf5284acc0db16090cf51ac19f0fbc5574e1d51080599198f9c7188",
       "outcome": "success"
+    },
+    {
+      "ingestionId": "b058c8cf-1234-4e6d-a07b-6fd281bce823",
+      "timestamp": "2026-08-13T19:11:48.516Z",
+      "operation": "import",
+      "assetId": "RED-L2-001",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/RED/L2/RED-L2-001.md",
+      "destination": "content/curriculum/RED/L2/RED-L2-001.md",
+      "checksum": "sha256:80c82820ad65f864aae558c9ddb99d45f894691d1a0397886476a1c0a7b8a530",
+      "outcome": "success"
+    },
+    {
+      "ingestionId": "e9d94119-02b4-4a0b-a29f-83b807627760",
+      "timestamp": "2026-08-13T19:11:51.170Z",
+      "operation": "import",
+      "assetId": "RED-L2-002",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/RED/L2/RED-L2-002.md",
+      "destination": "content/curriculum/RED/L2/RED-L2-002.md",
+      "checksum": "sha256:ebfdf113f0f9f95b5e867b839b7efaa0c300c5fc43b5a3491343838177c58613",
+      "outcome": "success"
     }
   ]
 }

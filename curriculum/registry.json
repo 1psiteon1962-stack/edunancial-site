@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-08-10T04:32:55.038Z",
+  "_generated": "2026-08-13T19:11:51.175Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -12,7 +12,54 @@
           "assets": {}
         },
         "2": {
-          "assets": {}
+          "assets": {
+            "RED-L2-001": {
+              "id": "RED-L2-001",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 2,
+              "lessonNumber": 1,
+              "title": "\"Unit Count Thresholds: Where Residential Ends and Commercial Begins\"",
+              "version": "\"1.0\"",
+              "author": "\"Waldemar M. Caban, JD MA\"",
+              "date": "\"2026-08-13\"",
+              "path": "content/curriculum/RED/L2/RED-L2-001.md",
+              "checksum": "sha256:80c82820ad65f864aae558c9ddb99d45f894691d1a0397886476a1c0a7b8a530",
+              "status": "active",
+              "ingestionId": "b058c8cf-1234-4e6d-a07b-6fd281bce823",
+              "importedAt": "2026-08-13T19:11:48.516Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "\"Real Estate\"",
+                "summary": "\"Every property gets sorted into one of two worlds the moment you count its units: 1-4, or 5+. That number decides your lender, your valuation method, and your loan type.\""
+              }
+            },
+            "RED-L2-002": {
+              "id": "RED-L2-002",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 2,
+              "lessonNumber": 2,
+              "title": "\"VA Loans and Creative Financing: Options at the Residential Threshold\"",
+              "version": "\"1.0\"",
+              "author": "\"Waldemar M. Caban, JD MA\"",
+              "date": "\"2026-08-13\"",
+              "path": "content/curriculum/RED/L2/RED-L2-002.md",
+              "checksum": "sha256:ebfdf113f0f9f95b5e867b839b7efaa0c300c5fc43b5a3491343838177c58613",
+              "status": "active",
+              "ingestionId": "e9d94119-02b4-4a0b-a29f-83b807627760",
+              "importedAt": "2026-08-13T19:11:51.170Z",
+              "validationPassed": true,
+              "warnings": [],
+              "metadata": {
+                "officialTrackName": "\"Real Estate\"",
+                "summary": "\"Beyond conventional mortgages, VA loans and creative financing structures give eligible buyers powerful alternative paths to acquiring 1-4 unit residential properties without routing through a bank.\""
+              }
+            }
+          }
         },
         "3": {
           "assets": {}
