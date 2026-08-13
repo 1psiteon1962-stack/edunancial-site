@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
-import test from "node:test";
+import { existsSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import test, { afterEach, beforeEach } from "node:test";
 
 import { getLocalizedCourseMap } from "@/lib/curriculum/production-catalog";
 import {
@@ -7,6 +9,7 @@ import {
   getLessonsForLevel,
   getTestDriveLessons,
   getTrack,
+  invalidateRegistryCache,
   listAcademies,
 } from "@/lib/curriculum/reader";
 import {
@@ -14,6 +17,24 @@ import {
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
 } from "@/lib/curriculum/localization";
+
+const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+let originalRegistry: string | null = null;
+
+beforeEach(() => {
+  originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
+  rmSync(REGISTRY_PATH, { force: true });
+  invalidateRegistryCache();
+});
+
+afterEach(() => {
+  if (originalRegistry === null) {
+    rmSync(REGISTRY_PATH, { force: true });
+  } else {
+    writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
+  }
+  invalidateRegistryCache();
+});
 
 test("resolveCurriculumLocale keeps French regional locales for fallback chaining", () => {
   assert.equal(resolveCurriculumLocale("fr-CA"), "fr-CA");

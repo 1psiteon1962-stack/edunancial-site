@@ -13,6 +13,7 @@ import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
 const STORE_ROOT = join(process.cwd(), ".admin-content-store");
 const STATE_PATH = join(STORE_ROOT, "published", "curriculum-state.json");
+const TRANSLATION_TEST_LESSON_ID = "GOLD-L5-099";
 
 const ORIGINAL_FALLBACK_FLAG = process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
 let originalState: string | null = null;
@@ -74,12 +75,12 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
         initialized: true,
         updatedAt: new Date().toISOString(),
         lessons: {
-          "GOLD-L1-002": {
-            id: "GOLD-L1-002",
+          [TRANSLATION_TEST_LESSON_ID]: {
+            id: TRANSLATION_TEST_LESSON_ID,
             track: "GOLD",
             trackName: "Investing",
-            level: 1,
-            lessonNumber: 2,
+            level: 5,
+            lessonNumber: 99,
             title: "Understanding Net Worth",
             summary: "English summary",
             author: "Edunancial Faculty",
@@ -88,7 +89,7 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
             status: "active",
             importedAt: new Date().toISOString(),
             metadata: {},
-            path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+            path: "content/curriculum/GOLD/L5/GOLD-L5-099.md",
             body: "English body",
             frontMatter: {},
             translations: {
@@ -110,46 +111,46 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
     "utf8",
   );
 
-  const spanish = await getPublishedLesson("GOLD-L1-002", "es");
+  const spanish = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "es");
   assert.ok(spanish);
   assert.equal(spanish.title, "Comprender tu patrimonio neto");
   assert.match(spanish.body, /Objetivos de aprendizaje/u);
 
-  const spanishSpain = await getPublishedLesson("GOLD-L1-002", "es-ES");
+  const spanishSpain = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "es-ES");
   assert.ok(spanishSpain);
   assert.equal(spanishSpain.title, spanish.title);
   assert.equal(spanishSpain.summary, spanish.summary);
   assert.equal(spanishSpain.body, spanish.body);
 
-  const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "GOLD", 1, "GOLD-L1-002");
+  const spanishTrackLesson = findTrackLesson(await getPublishedTracks("es"), "GOLD", 5, TRANSLATION_TEST_LESSON_ID);
   assert.ok(spanishTrackLesson);
   assert.equal(spanishTrackLesson.title, spanish.title);
   assert.equal(spanishTrackLesson.summary, spanish.summary);
   assert.equal(spanishTrackLesson.body, spanish.body);
 
-  const spanishSpainTrackLesson = findTrackLesson(await getPublishedTracks("es-ES"), "GOLD", 1, "GOLD-L1-002");
+  const spanishSpainTrackLesson = findTrackLesson(await getPublishedTracks("es-ES"), "GOLD", 5, TRANSLATION_TEST_LESSON_ID);
   assert.ok(spanishSpainTrackLesson);
   assert.equal(spanishSpainTrackLesson.title, spanish.title);
   assert.equal(spanishSpainTrackLesson.summary, spanish.summary);
   assert.equal(spanishSpainTrackLesson.body, spanish.body);
 
-  const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
+  const frenchCanada = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "fr-CA");
   assert.ok(frenchCanada);
   assert.equal(frenchCanada.title, "Comprendre votre valeur nette");
 
-  const frenchCanadaTrackLesson = findTrackLesson(await getPublishedTracks("fr-CA"), "GOLD", 1, "GOLD-L1-002");
+  const frenchCanadaTrackLesson = findTrackLesson(await getPublishedTracks("fr-CA"), "GOLD", 5, TRANSLATION_TEST_LESSON_ID);
   assert.ok(frenchCanadaTrackLesson);
   assert.equal(frenchCanadaTrackLesson.title, frenchCanada.title);
   assert.equal(frenchCanadaTrackLesson.summary, frenchCanada.summary);
   assert.equal(frenchCanadaTrackLesson.body, frenchCanada.body);
 
-  const britishEnglish = await getPublishedLesson("GOLD-L1-002", "en-GB");
+  const britishEnglish = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "en-GB");
   assert.ok(britishEnglish);
   assert.equal(britishEnglish.title, "Understanding Net Worth");
   assert.equal(britishEnglish.summary, "English summary");
   assert.equal(britishEnglish.body, "English body");
 
-  const britishEnglishTrackLesson = findTrackLesson(await getPublishedTracks("en-GB"), "GOLD", 1, "GOLD-L1-002");
+  const britishEnglishTrackLesson = findTrackLesson(await getPublishedTracks("en-GB"), "GOLD", 5, TRANSLATION_TEST_LESSON_ID);
   assert.ok(britishEnglishTrackLesson);
   assert.equal(britishEnglishTrackLesson.title, britishEnglish.title);
   assert.equal(britishEnglishTrackLesson.summary, britishEnglish.summary);
@@ -389,12 +390,12 @@ test("importPublishedLessonTranslations merges locale entries into published les
         initialized: true,
         updatedAt: new Date().toISOString(),
         lessons: {
-          "GOLD-L1-002": {
-            id: "GOLD-L1-002",
+          [TRANSLATION_TEST_LESSON_ID]: {
+            id: TRANSLATION_TEST_LESSON_ID,
             track: "GOLD",
             trackName: "Investing",
-            level: 1,
-            lessonNumber: 2,
+            level: 5,
+            lessonNumber: 99,
             title: "Understanding Net Worth",
             summary: "English summary",
             author: "Edunancial Faculty",
@@ -403,7 +404,7 @@ test("importPublishedLessonTranslations merges locale entries into published les
             status: "active",
             importedAt: new Date().toISOString(),
             metadata: {},
-            path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+            path: "content/curriculum/GOLD/L5/GOLD-L5-099.md",
             body: "English body",
             frontMatter: {},
             translations: {
@@ -423,13 +424,13 @@ test("importPublishedLessonTranslations merges locale entries into published les
 
   const result = await importPublishedLessonTranslations([
     {
-      lessonId: "gold-l1-002",
+      lessonId: TRANSLATION_TEST_LESSON_ID.toLowerCase(),
       locale: "es",
       summary: "Resumen en español",
       body: "Cuerpo en español",
     },
     {
-      lessonId: "GOLD-L1-002",
+      lessonId: TRANSLATION_TEST_LESSON_ID,
       locale: "fr-CA",
       title: "Comprendre votre valeur nette",
       summary: "Résumé en français canadien",
@@ -439,15 +440,15 @@ test("importPublishedLessonTranslations merges locale entries into published les
 
   assert.deepEqual(result.missingLessonIds, []);
   assert.equal(result.updatedRecords, 2);
-  assert.deepEqual(result.updatedLessonIds, ["GOLD-L1-002"]);
+  assert.deepEqual(result.updatedLessonIds, [TRANSLATION_TEST_LESSON_ID]);
 
-  const spanish = await getPublishedLesson("GOLD-L1-002", "es");
+  const spanish = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "es");
   assert.ok(spanish);
   assert.equal(spanish.title, "Comprender tu patrimonio neto");
   assert.equal(spanish.summary, "Resumen en español");
   assert.equal(spanish.body, "Cuerpo en español");
 
-  const frenchCanada = await getPublishedLesson("GOLD-L1-002", "fr-CA");
+  const frenchCanada = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "fr-CA");
   assert.ok(frenchCanada);
   assert.equal(frenchCanada.title, "Comprendre votre valeur nette");
   assert.equal(frenchCanada.summary, "Résumé en français canadien");
@@ -464,12 +465,12 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
         initialized: true,
         updatedAt: new Date().toISOString(),
         lessons: {
-          "GOLD-L1-002": {
-            id: "GOLD-L1-002",
+          [TRANSLATION_TEST_LESSON_ID]: {
+            id: TRANSLATION_TEST_LESSON_ID,
             track: "GOLD",
             trackName: "Investing",
-            level: 1,
-            lessonNumber: 2,
+            level: 5,
+            lessonNumber: 99,
             title: "Understanding Net Worth",
             summary: "English summary",
             author: "Edunancial Faculty",
@@ -478,7 +479,7 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
             status: "active",
             importedAt: new Date().toISOString(),
             metadata: {},
-            path: "content/curriculum/GOLD/L1/GOLD-L1-002.md",
+            path: "content/curriculum/GOLD/L5/GOLD-L5-099.md",
             body: "English body",
             frontMatter: {},
           },
@@ -493,7 +494,7 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
 
   const result = await importPublishedLessonTranslations([
     {
-      lessonId: "GOLD-L1-002",
+      lessonId: TRANSLATION_TEST_LESSON_ID,
       locale: "es",
       title: "Comprender tu patrimonio neto",
     },
@@ -508,7 +509,7 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
   assert.deepEqual(result.updatedLessonIds, []);
   assert.deepEqual(result.missingLessonIds, ["GOLD-L1-999"]);
 
-  const spanish = await getPublishedLesson("GOLD-L1-002", "es");
+  const spanish = await getPublishedLesson(TRANSLATION_TEST_LESSON_ID, "es");
   assert.ok(spanish);
   assert.equal(spanish.title, "Understanding Net Worth");
 });
