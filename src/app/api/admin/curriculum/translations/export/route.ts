@@ -1,3 +1,5 @@
+import { timingSafeEqual } from "node:crypto";
+
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
@@ -6,6 +8,34 @@ import { exportPublishedLessonTranslations } from "@/lib/curriculum/authoritativ
 const LESSON_ID_PATTERN = /^[A-Za-z]+-L[1-9]\d*-\d{3}$/u;
 // Accepts: track code (RED), track-level (RED-L1), or level-only (L1)
 const PREFIX_PART_PATTERN = /^(?:[A-Za-z]+-)?L[1-9]\d*$|^[A-Za-z]+(?:-L[1-9]\d*)?$/u;
+
+function getBearerToken(request: Request) {
+  const authorization = request.headers.get("authorization");
+  if (!authorization?.startsWith("Bearer ")) return null;
+  return authorization.slice("Bearer ".length).trim();
+}
+
+function hasValidCurriculumExportAdminToken(request: Request) {
+  const configuredToken = process.env.CURRICULUM_EXPORT_ADMIN_TOKEN?.trim();
+  const providedToken = getBearerToken(request);
+
+  if (!configuredToken || !providedToken) {
+    return false;
+  }
+
+  const provided = Buffer.from(providedToken);
+  const expected = Buffer.from(configuredToken);
+  return provided.length === expected.length && timingSafeEqual(provided, expected);
+}
+
+async function authorizeTranslationExport(request: Request) {
+  const auth = await requireAdminApiSession(request);
+  if (auth.ok || hasValidCurriculumExportAdminToken(request)) {
+    return { ok: true as const };
+  }
+
+  return auth;
+}
 
 function parseExportQuery(request: Request): { prefixes?: string[]; lessonIds?: string[]; errors: string[] } {
   const url = new URL(request.url);
@@ -41,7 +71,7 @@ function parseExportQuery(request: Request): { prefixes?: string[]; lessonIds?: 
 }
 
 export async function GET(request: Request) {
-  const auth = await requireAdminApiSession(request);
+  const auth = await authorizeTranslationExport(request);
   if (!auth.ok) return auth.response;
 
   const { prefixes, lessonIds, errors } = parseExportQuery(request);
