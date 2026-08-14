@@ -120,21 +120,6 @@ export const paymentCatalog: PaymentCatalogItem[] = [
     membershipPlanId: "enterprise",
     active: true,
   },
-  {
-    id: "square-payment-test-001",
-    name: "Square Payment Test",
-    description:
-      "Temporary $1.00 payment used to verify Edunancial's Square production checkout and webhook pipeline.",
-    type: "other",
-    price: 1.0,
-    currency: "USD",
-    isRecurring: false,
-    active: true,
-    metadata: {
-      productId: "square-payment-test-001",
-      purpose: "square-payment-test",
-    },
-  },
 
   // ── Courses (example — add real course IDs as they become available) ──────
   // {
