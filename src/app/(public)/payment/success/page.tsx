@@ -7,15 +7,20 @@ import { Suspense } from "react";
 function PaymentSuccessContent() {
   const params = useSearchParams();
   const plan = params.get("plan");
+  const itemId = params.get("item");
   const itemType = params.get("type");
   const contentId = params.get("content");
+  const isSquarePaymentTest = itemId === "square-payment-test-001";
 
   const isMembership =
-    !itemType ||
-    itemType === "membership_monthly" ||
-    itemType === "membership_annual";
+    !isSquarePaymentTest &&
+    (!itemType ||
+      itemType === "membership_monthly" ||
+      itemType === "membership_annual");
 
-  const titleText = isMembership
+  const titleText = isSquarePaymentTest
+    ? "Payment Successful"
+    : isMembership
     ? "Membership Activated"
     : itemType === "course"
     ? "Course Access Granted"
@@ -25,13 +30,20 @@ function PaymentSuccessContent() {
     ? "Registration Confirmed"
     : "Payment Received";
 
-  const descriptionText = isMembership
+  const descriptionText = isSquarePaymentTest
+    ? "Your $1.00 Square test payment was received."
+    : isMembership
     ? "Your membership is being activated automatically after Square payment verification. Continue to your dashboard below."
     : contentId
     ? `Access to ${contentId.replace(/-/g, " ")} is being provisioned.`
     : "Your purchase is confirmed. Your access will be activated after payment verification.";
 
-  const nextSteps = isMembership
+  const nextSteps = isSquarePaymentTest
+    ? [
+        { label: "Return to Payment Test", href: "/payment-test" },
+        { label: "Browse Courses", href: "/courses" },
+      ]
+    : isMembership
     ? [
         { label: "Member Dashboard", href: "/dashboard" },
         { label: "Recommended First Lesson", href: "/courses" },
@@ -119,4 +131,3 @@ export default function PaymentSuccessPage() {
     </Suspense>
   );
 }
-

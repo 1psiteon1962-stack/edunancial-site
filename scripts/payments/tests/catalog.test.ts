@@ -84,3 +84,23 @@ test("all catalog items have required fields set", () => {
     assert.ok(item.price >= 0, `${item.id} price must be >= 0`);
   }
 });
+
+test("square payment test item exists with the expected one-time configuration", () => {
+  const item = getCatalogItem("square-payment-test-001");
+  assert.ok(item);
+  assert.equal(item.name, "Square Payment Test");
+  assert.equal(
+    item.description,
+    "Temporary $1.00 payment used to verify Edunancial's Square production checkout and webhook pipeline."
+  );
+  assert.equal(item.price, 1);
+  assert.equal(item.currency, "USD");
+  assert.equal(item.isRecurring, false);
+  assert.equal(item.membershipPlanId, undefined);
+  assert.equal(item.contentId, undefined);
+  assert.equal(item.active, true);
+  assert.deepEqual(item.metadata, {
+    productId: "square-payment-test-001",
+    purpose: "square-payment-test",
+  });
+});

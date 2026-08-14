@@ -183,19 +183,18 @@ export function processSquareLifecycleEvent(event: {
   const email =
     (object.customer_email as string | undefined) ??
     (object.email_address as string | undefined);
-  const planId =
+  const membershipPlanId =
     (object.plan_id as string | undefined) ??
-    (object.membership_plan_id as string | undefined) ??
-    "basic";
+    (object.membership_plan_id as string | undefined);
 
   switch (eventType) {
     case "payment.completed": {
-      if (!email) {
+      if (!email || !membershipPlanId) {
         return { processed: false, eventType };
       }
       const provisioned = provisionMemberFromPayment({
         email,
-        planId,
+        planId: membershipPlanId,
         providerSubscriptionId: subscriptionReference,
         providerPaymentId: object.payment_id as string | undefined,
         providerCustomerId: object.customer_id as string | undefined,
@@ -212,7 +211,9 @@ export function processSquareLifecycleEvent(event: {
     case "subscription.updated": {
       const existing = findSubscriptionByProviderId(subscriptionReference);
       if (!existing) return { processed: false, eventType };
-      const updated = updateSubscriptionStatus(existing, "active", { planId });
+      const updated = updateSubscriptionStatus(existing, "active", {
+        planId: membershipPlanId,
+      });
       queuePaymentEmailEvent({
         templateId: "renewal-confirmation",
         recipientEmail: updated.memberEmail,
