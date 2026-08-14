@@ -87,6 +87,21 @@ describe("processSquareLifecycleEvent — payment.completed", () => {
     assert.equal(result.processed, false);
     assert.equal(listProvisionedMembers().length, 0);
   });
+
+  test("returns processed=false when payment.completed has no membership plan metadata", () => {
+    const result = processSquareLifecycleEvent({
+      type: "payment.completed",
+      data: {
+        object: {
+          customer_email: "one-time@example.com",
+          payment_id: "sq-pay-one-time-001",
+        },
+      },
+    });
+
+    assert.equal(result.processed, false);
+    assert.equal(listProvisionedMembers().length, 0);
+  });
 });
 
 describe("processSquareLifecycleEvent — subscription lifecycle", () => {
