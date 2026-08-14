@@ -50,6 +50,8 @@ function isAllowedSquareCheckoutHost(hostname: string): boolean {
   return (
     hostname === "squareup.com" ||
     hostname.endsWith(".squareup.com") ||
+    hostname === "square.link" ||
+    hostname.endsWith(".square.link") ||
     hostname === "squareupsandbox.com" ||
     hostname.endsWith(".squareupsandbox.com")
   );
@@ -61,7 +63,6 @@ export async function POST(request: Request) {
   const route = "/api/square/payment-link";
 
   try {
-    // ── Rate limiting ──────────────────────────────────────────────────────
     const ipAddress =
       request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
       request.headers.get("x-real-ip") ||
@@ -91,7 +92,6 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    // ── Feature flag guard ────────────────────────────────────────────────
     if (!isSquareVerifiedCheckoutEnabled()) {
       const response = NextResponse.json(
         {
@@ -106,7 +106,6 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    // ── Parse and validate request body ──────────────────────────────────
     const body = (await request.json()) as PaymentLinkRequestBody;
     const { itemId = "", discountCode, customerEmail } = body;
 
@@ -119,7 +118,6 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    // ── Resolve catalog item ──────────────────────────────────────────────
     const item = resolveCatalogItem(itemId);
 
     if (!item) {
@@ -148,7 +146,6 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    // ── Apply discount code ───────────────────────────────────────────────
     let finalPrice = item.price;
     let discountApplied = false;
     let discountDescription: string | undefined;
@@ -183,7 +180,6 @@ export async function POST(request: Request) {
       finalPrice = 0;
     }
 
-    // ── Build Square payment link ─────────────────────────────────────────
     const squareApiBase =
       squareConfig.environment === "sandbox"
         ? "https://connect.squareupsandbox.com"
@@ -191,7 +187,6 @@ export async function POST(request: Request) {
 
     const appOrigin = new URL(request.url).origin;
 
-    // Build line items for the Square order.
     const lineItems = [
       {
         name: item.name,
@@ -203,7 +198,6 @@ export async function POST(request: Request) {
       },
     ];
 
-    // If a discount was applied, add a discount line item.
     const orderDiscounts = discountApplied
       ? [
           {
@@ -279,7 +273,6 @@ export async function POST(request: Request) {
       throw new Error("Square did not return a checkout URL.");
     }
 
-    // Validate that the URL points to a legitimate Square domain.
     const parsedUrl = new URL(checkoutUrl);
     if (
       parsedUrl.protocol !== "https:" ||
@@ -288,7 +281,6 @@ export async function POST(request: Request) {
       throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
     }
 
-    // Record discount redemption only after the link is successfully created.
     if (discountApplied && discountCode) {
       recordDiscountRedemption(discountCode);
     }
@@ -310,7 +302,6 @@ export async function POST(request: Request) {
 
     recordRequestMetric({ method: request.method, route, status: 200, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
-
   } catch (error) {
     logStructuredError(error, {
       ...getRequestContext(request, requestId),
