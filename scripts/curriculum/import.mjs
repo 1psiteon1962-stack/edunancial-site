@@ -14,7 +14,7 @@ import {
 import { randomUUID } from 'node:crypto';
 import { basename, dirname, extname, join, resolve } from 'node:path';
 
-import { checksumBuffer } from './lib/checksum.mjs';
+import { checksumBuffer, normalizeChecksum } from './lib/checksum.mjs';
 import { assetPath, parseAssetId } from './lib/id-parser.mjs';
 import { appendLedgerEntry } from './lib/ledger.mjs';
 import { log } from './lib/logger.mjs';
@@ -197,7 +197,7 @@ async function processFile(file) {
 
   const registry = readRegistry();
   const existing = getAsset(registry, parsed.id);
-  const newChecksum = checksumBuffer(Buffer.from(file.content, 'utf8'));
+  const newChecksum = normalizeChecksum(checksumBuffer(Buffer.from(file.content, 'utf8')));
   const newVersion = meta.version || '1.0';
 
   if (localizedFileLocale) {

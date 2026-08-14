@@ -4,7 +4,7 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 
-import { checksumBuffer } from '../lib/checksum.mjs';
+import { checksumBuffer, normalizeChecksum } from '../lib/checksum.mjs';
 import { assetPath, parseAssetId } from '../lib/id-parser.mjs';
 import { FORBIDDEN_EXTENSIONS, TRACKS } from '../lib/taxonomy.mjs';
 import { parseFrontMatter, validateLesson } from '../lib/validator.mjs';
@@ -224,6 +224,29 @@ describe('checksumBuffer', () => {
 
   test('different content different checksum', () => {
     assert.notEqual(checksumBuffer(Buffer.from('content A')), checksumBuffer(Buffer.from('content B')));
+  });
+});
+
+describe('normalizeChecksum', () => {
+  test('leaves a correctly-prefixed checksum unchanged', () => {
+    const cs = checksumBuffer(Buffer.from('hello'));
+    assert.equal(normalizeChecksum(cs), cs);
+  });
+
+  test('strips one extra sha256: prefix (double-prefix bug regression)', () => {
+    const correct = checksumBuffer(Buffer.from('hello'));
+    const doubled = `sha256:${correct}`;
+    assert.equal(normalizeChecksum(doubled), correct);
+  });
+
+  test('strips multiple extra sha256: prefixes', () => {
+    const correct = checksumBuffer(Buffer.from('hello'));
+    assert.equal(normalizeChecksum(`sha256:sha256:sha256:${correct.slice('sha256:'.length)}`), correct);
+  });
+
+  test('returns non-string values unchanged', () => {
+    assert.equal(normalizeChecksum(null), null);
+    assert.equal(normalizeChecksum(undefined), undefined);
   });
 });
 

@@ -286,7 +286,14 @@ function resolvePublishedLessonForLocale(
   locale: CurriculumLocale,
 ): PublishedLessonRecord {
   const localizedContent = getLessonContent(lesson.id, locale);
-  if (localizedContent) {
+  // Only use filesystem content when it was actually resolved in the requested
+  // locale (resolution "exact" or "base"). When getLessonContent falls back to
+  // the canonical English file ("canonical-en" resolution), it must not silently
+  // override the state's translation map — the state's stored title/body/summary
+  // take precedence for all locales that lack their own curriculum file.
+  const contentMatchesLocale =
+    localizedContent && localizedContent.localization.resolution !== "canonical-en";
+  if (contentMatchesLocale) {
     return {
       ...lesson,
       title: localizedContent.meta.title,

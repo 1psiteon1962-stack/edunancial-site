@@ -10,3 +10,17 @@ export function checksumBuffer(buf) {
 export function checksumFile(filePath) {
   return checksumBuffer(readFileSync(filePath));
 }
+
+/**
+ * Normalize a checksum string to a single `sha256:` prefix.
+ * Corrects double-prefixed values (e.g. `sha256:sha256:hex`) produced by
+ * pipelines that wrapped an already-prefixed checksumFile/checksumBuffer
+ * result in an additional `sha256:` literal.
+ */
+export function normalizeChecksum(checksum) {
+  if (typeof checksum !== 'string') return checksum;
+  while (checksum.startsWith('sha256:sha256:')) {
+    checksum = checksum.slice('sha256:'.length);
+  }
+  return checksum;
+}
