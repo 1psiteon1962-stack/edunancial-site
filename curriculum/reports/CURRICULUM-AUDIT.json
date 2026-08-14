@@ -10,5 +10,12 @@
     "legacyIdFiles": [],
     "manifestMismatches": [],
     "brokenReferences": []
-  }
+  },
+  "assets": [
+    {
+      "id": "GOLD-L1-001",
+      "checksum": "sha256:9cb7c8f48fb0867fed23e047ea89284f01accce9bcb51b9d4d0cc4ff66d04237",
+      "importedAt": "2026-08-10T04:32:53.258Z"
+    }
+  ]
 }
