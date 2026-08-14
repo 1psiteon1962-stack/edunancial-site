@@ -84,3 +84,19 @@ test("all catalog items have required fields set", () => {
     assert.ok(item.price >= 0, `${item.id} price must be >= 0`);
   }
 });
+
+// TEMPORARY TEST ITEM — Square payment verification only, remove before next production content push
+test("square-payment-test-001 is present, active, and has the correct shape", () => {
+  const item = getCatalogItem("square-payment-test-001");
+  assert.ok(item, "square-payment-test-001 must exist in the catalog");
+  assert.equal(item.id, "square-payment-test-001");
+  assert.equal(item.type, "other");
+  assert.equal(item.price, 1.0);
+  assert.equal(item.currency, "USD");
+  assert.equal(item.isRecurring, false);
+  assert.equal(item.active, true);
+  assert.equal(item.membershipPlanId, undefined);
+  assert.ok(item.metadata);
+  assert.equal(item.metadata.productId, "square-payment-test-001");
+  assert.equal(item.metadata.purpose, "square-payment-test");
+});

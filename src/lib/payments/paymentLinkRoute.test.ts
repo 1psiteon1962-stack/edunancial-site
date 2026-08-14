@@ -172,3 +172,66 @@ test("webhook route still rejects invalid signatures when verified checkout is e
   assert.equal(body.error, "Invalid signature");
   assert.ok(body.requestId.length > 0);
 });
+
+// TEMPORARY TEST ITEM — Square payment verification only, remove before next production content push
+test("payment-link route accepts square-payment-test-001 and sends 100 cents USD to Square", async () => {
+  let capturedUrl: string | null = null;
+  let capturedPayload: Record<string, unknown> | null = null;
+
+  globalThis.fetch = async (input, init) => {
+    capturedUrl = String(input);
+    capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
+      string,
+      unknown
+    >;
+
+    return new Response(
+      JSON.stringify({
+        payment_link: {
+          url: "https://checkout.squareup.com/c/pay/test-link",
+        },
+      }),
+      {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+  };
+
+  const { POST } = await import("../../app/api/square/payment-link/route.js");
+  const response = await POST(
+    new Request("https://edunancial.com/api/square/payment-link", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ itemId: "square-payment-test-001" }),
+    })
+  );
+
+  assert.equal(response.status, 200);
+  assert.ok(capturedUrl);
+  assert.equal(
+    capturedUrl,
+    "https://connect.squareup.com/v2/online-checkout/payment-links"
+  );
+  assert.ok(capturedPayload);
+
+  const payload = capturedPayload as Record<string, unknown>;
+  const order = payload.order as {
+    line_items: Array<{ base_price_money: { amount: number; currency: string } }>;
+    metadata: Record<string, string>;
+  };
+  const checkoutOptions = payload.checkout_options as { redirect_url: string };
+
+  assert.equal(order.line_items[0].base_price_money.amount, 100);
+  assert.equal(order.line_items[0].base_price_money.currency, "USD");
+  assert.equal(order.metadata.catalog_item_id, "square-payment-test-001");
+  assert.equal(order.metadata.item_type, "other");
+  assert.equal(order.metadata.productId, "square-payment-test-001");
+  assert.equal(order.metadata.purpose, "square-payment-test");
+  assert.equal(order.metadata.membership_plan_id, undefined);
+  assert.ok(
+    checkoutOptions.redirect_url.includes(
+      "/payment/success?item=square-payment-test-001&type=other"
+    )
+  );
+});
