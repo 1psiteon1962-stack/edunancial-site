@@ -77,12 +77,12 @@ export default function MembershipPageClient() {
               $1.00 one-time charge to verify the Square production checkout
               and webhook pipeline. Not a membership offer.
             </p>
-            <a
+            <Link
               href="/payment-test"
               className="mt-4 inline-flex rounded-xl border border-yellow-500/60 bg-yellow-900/20 px-5 py-3 text-sm font-bold text-yellow-300 hover:bg-yellow-900/40"
             >
               Run $1.00 Square Test →
-            </a>
+            </Link>
           </div>
         </div>
       </section>
