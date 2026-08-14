@@ -368,8 +368,21 @@ function resolvePublishedLessonForLocale(
     };
   }
 
-  const translation = resolveTranslation(lesson.translations, locale)
-    ?? resolveSeedTranslation(lesson.id, locale);
+  const storedTranslation = resolveTranslation(lesson.translations, locale);
+  const committedTranslation = resolveSeedTranslation(lesson.id, locale);
+
+  // Translation sources are deltas, not all-or-nothing records. A live
+  // published-state translation may contain only title/summary while the
+  // committed seed carries the full body. Merge field-by-field so a partial
+  // stored record cannot suppress valid committed translated fields.
+  const translation: PublishedLessonTranslation | undefined =
+    storedTranslation || committedTranslation
+      ? {
+          title: storedTranslation?.title ?? committedTranslation?.title,
+          summary: storedTranslation?.summary ?? committedTranslation?.summary,
+          body: storedTranslation?.body ?? committedTranslation?.body,
+        }
+      : undefined;
 
   return {
     ...lesson,
