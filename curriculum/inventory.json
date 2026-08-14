@@ -1,11 +1,25 @@
 {
   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
   "summary": {
-    "totalLessons": 0,
-    "totalTracks": 0,
-    "totalLevels": 0,
+    "totalLessons": 52,
+    "totalTracks": 2,
+    "totalLevels": 6,
     "localizedVariants": 0,
-    "byTrack": {}
+    "byTrack": {
+      "RED": 2,
+      "GOLD": 50
+    }
   },
-  "assets": []
+  "assets": [
+    {
+      "track": "RED",
+      "count": 2,
+      "importedAt": "2026-08-10T04:32:53.258Z"
+    },
+    {
+      "track": "GOLD",
+      "count": 50,
+      "importedAt": "2026-08-10T04:32:53.258Z"
+    }
+  ]
 }
