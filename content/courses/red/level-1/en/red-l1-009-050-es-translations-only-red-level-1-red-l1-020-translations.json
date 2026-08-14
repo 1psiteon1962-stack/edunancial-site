@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-020",
+  "translations": {
+    "es": {
+      "title": "Unifamiliar vs. Multifamiliar: ¿Cuál Es La Verdadera Diferencia Para Un Dueño?",
+      "exec_summary": "Las palabras \"unifamiliar\" y \"multifamiliar\" se usan libremente, pero las diferencias reales importan mucho para el financiamiento, la administración, y el riesgo. Esta lección presenta las distinciones prácticas.",
+      "objectives": [
+        "Definir propiedades unifamiliares y multifamiliares",
+        "Comparar diferencias de financiamiento",
+        "Comparar diferencias de administración",
+        "Identificar diferencias de riesgo e ingreso"
+      ],
+      "topics": [
+        [
+          "Definiciones",
+          "Una propiedad unifamiliar aloja a un hogar en una unidad. Una propiedad multifamiliar contiene dos o más unidades separadas, como un dúplex, tríplex, o edificio de apartamentos."
+        ],
+        [
+          "Diferencias de Financiamiento",
+          "Las propiedades con hasta cuatro unidades generalmente todavía califican para financiamiento residencial en EE.UU., mientras que cinco o más unidades típicamente requieren financiamiento comercial — un umbral que vale la pena conocer (HECHO VERIFICADO para las convenciones de préstamos convencionales en EE.UU., aunque los términos varían por prestamista)."
+        ],
+        [
+          "Diferencias de Administración",
+          "Las propiedades multifamiliares generalmente significan más inquilinos, más rotación, y más demandas de administración diaria que una casa unifamiliar."
+        ],
+        [
+          "Diferencias de Riesgo e Ingreso",
+          "Las propiedades multifamiliares pueden ofrecer ingreso de renta diversificado (si una unidad está vacante, otras todavía pueden pagar), pero también vienen con más piezas móviles y complejidad."
+        ]
+      ],
+      "definitions": [
+        [
+          "Propiedad Unifamiliar",
+          "Una propiedad residencial con una unidad de vivienda."
+        ],
+        [
+          "Propiedad Multifamiliar",
+          "Una propiedad residencial con dos o más unidades de vivienda separadas."
+        ],
+        [
+          "Dúplex",
+          "Una propiedad multifamiliar con dos unidades."
+        ],
+        [
+          "Unidad",
+          "Un espacio habitable independiente dentro de una propiedad."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño compra un dúplex, vive en una unidad, y renta la otra — una estrategia común a veces llamada \"house hacking\" (cubierta en una lección posterior)."
+      ],
+      "mistakes": [
+        "Asumir que cualquier propiedad con un apartamento en el sótano es automáticamente \"multifamiliar\" sin verificar el conteo legal de unidades.",
+        "Pasar por alto que las reglas de financiamiento pueden cambiar drásticamente en el umbral de 5 unidades.",
+        "Subestimar la carga de administración de múltiples inquilinos."
+      ],
+      "faq": [
+        [
+          "¿Se considera un dúplex residencial o comercial?",
+          "Típicamente todavía residencial para propósitos de financiamiento (1-4 unidades), un HECHO VERIFICADO bajo los estándares comunes de préstamos convencionales, aunque esto puede variar por prestamista y programa."
+        ],
+        [
+          "¿Cuál es más riesgoso, unifamiliar o multifamiliar?",
+          "La OPINIÓN varía entre inversionistas — ambos conllevan diferentes tipos, no necesariamente diferentes cantidades, de riesgo."
+        ]
+      ],
+      "takeaways": [
+        "El conteo de unidades es lo que separa unifamiliar de multifamiliar, no el tamaño.",
+        "La línea de 1-4 vs. 5+ unidades importa para el financiamiento.",
+        "Multifamiliar significa más inquilinos y más demandas de administración."
+      ],
+      "exercise": "Clasifica lo siguiente como unifamiliar o multifamiliar: (a) un tríplex, (b) una unidad de condominio, (c) un cuádruplex, (d) un edificio de apartamentos de 8 unidades."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

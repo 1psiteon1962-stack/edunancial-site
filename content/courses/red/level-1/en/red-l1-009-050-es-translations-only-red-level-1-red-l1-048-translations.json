@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-048",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Venta Corta, y En Qué Se Diferencia De La Ejecución Hipotecaria?",
+      "exec_summary": "Una venta corta y una ejecución hipotecaria a menudo involucran a un dueño de casa en dificultades, pero son procesos muy diferentes con resultados diferentes. Esta lección explica qué es una venta corta y cómo se diferencia.",
+      "objectives": [
+        "Definir una venta corta",
+        "Explicar por qué se requiere la aprobación del prestamista",
+        "Comparar la venta corta con la ejecución hipotecaria",
+        "Identificar por qué una venta corta podría ser preferible para un prestatario"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Venta Corta",
+          "Una venta corta ocurre cuando un dueño de casa vende su propiedad por menos de la cantidad adeudada en la hipoteca, con la aprobación del prestamista, generalmente cuando el dueño de casa enfrenta dificultades financieras."
+        ],
+        [
+          "Por Qué Se Requiere La Aprobación Del Prestamista",
+          "Porque las ganancias de la venta no pagarán completamente el préstamo, el prestamista debe acordar aceptar menos de la cantidad total adeudada, haciendo la aprobación del prestamista una parte requerida del proceso."
+        ],
+        [
+          "Venta Corta vs. Ejecución Hipotecaria",
+          "Una venta corta es una venta voluntaria y negociada iniciada con la cooperación del dueño de casa, mientras que la ejecución hipotecaria es un proceso legal dirigido por el prestamista para tomar y vender la propiedad después del incumplimiento."
+        ],
+        [
+          "Por Qué Podría Ser Preferible Para Un Prestatario",
+          "NOTA DE OPINIÓN/GENERAL: algunos prestatarios y asesores ven una venta corta como menos dañina para el crédito o más controlada que una ejecución hipotecaria, aunque los resultados varían y esto no debe tratarse como universalmente cierto sin orientación profesional."
+        ]
+      ],
+      "definitions": [
+        [
+          "Venta Corta",
+          "Una venta de una propiedad por menos del saldo de la hipoteca adeudado, con aprobación del prestamista."
+        ],
+        [
+          "Deficiencia",
+          "La cantidad restante adeudada después de una venta corta, que puede o no ser perdonada dependiendo del acuerdo y la jurisdicción."
+        ],
+        [
+          "Dificultad Financiera",
+          "Una dificultad financiera (como pérdida de empleo o gastos médicos) a menudo requerida para justificar buscar una venta corta."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño de casa debe $300,000 pero solo puede vender por $270,000 debido a las condiciones del mercado; con la aprobación del prestamista, completan una venta corta en lugar de proceder hacia la ejecución hipotecaria."
+      ],
+      "mistakes": [
+        "Asumir que una venta corta puede suceder sin aprobación del prestamista.",
+        "Confundir una venta corta con una ejecución hipotecaria.",
+        "Asumir que cualquier deficiencia restante es automáticamente perdonada sin confirmar esto con el prestamista."
+      ],
+      "faq": [
+        [
+          "¿Se perdona siempre la deuda restante (deficiencia) en una venta corta?",
+          "No automáticamente — esto es un asunto ESPECÍFICO DE LA REGIÓN y específico del prestamista que debe confirmarse en el acuerdo de venta corta."
+        ],
+        [
+          "¿Requiere una venta corta que el dueño de casa ya esté en incumplimiento?",
+          "No necesariamente siempre requerido, pero comúnmente se asocia con situaciones de dificultad financiera."
+        ]
+      ],
+      "takeaways": [
+        "Una venta corta es una venta aprobada por el prestamista por menos del saldo de la hipoteca adeudado.",
+        "Requiere la aprobación del prestamista, a diferencia de una venta estándar.",
+        "Es una alternativa voluntaria y negociada al proceso de ejecución hipotecaria dirigido por el prestamista."
+      ],
+      "exercise": "Explica la diferencia principal entre quién inicia una venta corta versus quién inicia una ejecución hipotecaria."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

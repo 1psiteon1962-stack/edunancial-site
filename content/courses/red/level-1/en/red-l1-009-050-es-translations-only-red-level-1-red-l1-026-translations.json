@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-026",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es La Depreciación, y Por Qué Ayudaría Una Pérdida En Papel?",
+      "exec_summary": "La depreciación suena negativa, pero como concepto fiscal en bienes raíces, en realidad puede funcionar a favor del dueño. Esta lección explica qué significa y por qué una pérdida en papel todavía puede ayudar.",
+      "objectives": [
+        "Definir la depreciación fiscal",
+        "Explicar por qué se llama \"pérdida en papel\"",
+        "Identificar por qué puede beneficiar a un dueño",
+        "Distinguir la depreciación fiscal de la disminución del valor de mercado"
+      ],
+      "topics": [
+        [
+          "Qué Significa La Depreciación Fiscal",
+          "En términos fiscales, la depreciación permite a un dueño deducir una parte del costo de una propiedad de renta cada año, reflejando el desgaste asumido del edificio a través del tiempo — REGLA ESPECÍFICA DE LA REGIÓN, usando las convenciones del IRS de EE.UU. como punto de referencia aquí."
+        ],
+        [
+          "Por Qué Se Llama Pérdida En Papel",
+          "Esta deducción reduce el ingreso gravable sin requerir que el dueño gaste dinero real ese año — la propiedad no tiene que perder valor realmente para que esta deducción aplique."
+        ],
+        [
+          "Por Qué Puede Ayudar A Un Dueño",
+          "Al reducir el ingreso de renta gravable, la depreciación puede reducir el impuesto adeudado sobre ese ingreso, potencialmente incluso mientras la propiedad continúa generando flujo de efectivo positivo y apreciando en valor de mercado."
+        ],
+        [
+          "Depreciación vs. Disminución del Valor de Mercado",
+          "La depreciación fiscal es una deducción contable programada, separada de si el valor de mercado real de la propiedad sube o baja."
+        ]
+      ],
+      "definitions": [
+        [
+          "Depreciación Fiscal",
+          "Una deducción fiscal programada por el desgaste y pérdida de valor asumida de la estructura de una propiedad de renta a través del tiempo."
+        ],
+        [
+          "Pérdida En Papel",
+          "Una deducción o pérdida reconocida para propósitos fiscales sin una salida de efectivo real equivalente."
+        ],
+        [
+          "Base",
+          "El valor usado como punto de partida para calcular la depreciación, generalmente relacionado con el costo de la propiedad."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño deduce una parte del costo de su propiedad de renta como depreciación cada año, reduciendo su ingreso de renta gravable aunque no gastó ese dinero ese año."
+      ],
+      "mistakes": [
+        "Asumir que la depreciación significa que la propiedad está perdiendo valor real de mercado.",
+        "No entender que la depreciación es una REGLA ESPECÍFICA DE LA REGIÓN (específica del tratamiento fiscal de EE.UU. como se referencia aquí).",
+        "Pasar por alto que las deducciones de depreciación pueden afectar los impuestos adeudados al momento de la venta (un tema más avanzado)."
+      ],
+      "faq": [
+        [
+          "¿Significa la depreciación que mi propiedad vale menos?",
+          "No — este es un concepto de contabilidad fiscal, separado del valor de mercado real, el cual puede subir aunque se reclame depreciación fiscal."
+        ],
+        [
+          "¿Es esto igual en todos los países?",
+          "No — esto es una REGLA ESPECÍFICA DE LA REGIÓN; el tratamiento fiscal de la depreciación varía por país y debe verificarse localmente."
+        ]
+      ],
+      "takeaways": [
+        "La depreciación fiscal permite a un dueño deducir una parte del costo de una propiedad anualmente.",
+        "Es una pérdida en papel — no sale efectivo real del bolsillo del dueño por esta deducción.",
+        "Es separada de si el valor de mercado de la propiedad está subiendo o bajando."
+      ],
+      "exercise": "Explica en tus propias palabras por qué una propiedad puede apreciar en valor de mercado en el mismo año en que el dueño reclama una deducción de depreciación fiscal."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

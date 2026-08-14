@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-019",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Asociación de Propietarios (HOA), y Qué Poder Tiene?",
+      "exec_summary": "Una HOA puede moldear la vida diaria de un dueño mucho más de lo que la gente espera. Esta lección explica qué es una HOA, qué poderes típicamente tiene, y por qué revisar sus reglas importa antes de comprar.",
+      "objectives": [
+        "Definir qué es una HOA",
+        "Explicar qué poderes típicamente tiene una HOA",
+        "Identificar qué financian las cuotas de la HOA",
+        "Reconocer los riesgos de ignorar las reglas de la HOA"
+      ],
+      "topics": [
+        [
+          "Qué Es Una HOA",
+          "Una asociación de propietarios (HOA, por sus siglas en inglés) es una organización dentro de una comunidad residencial que crea y hace cumplir reglas para las propiedades dentro de ella, a menudo ligada a condominios, casas adosadas, o desarrollos planificados."
+        ],
+        [
+          "Qué Poder Tiene",
+          "Una HOA típicamente puede hacer cumplir reglas sobre la apariencia, uso, y modificaciones de la propiedad, y puede imponer multas o incluso colocar un gravamen sobre una propiedad por cuotas sin pagar — una REGLA ESPECÍFICA DE LA REGIÓN en términos del poder exacto de cumplimiento."
+        ],
+        [
+          "Qué Financian Las Cuotas",
+          "Las cuotas de la HOA generalmente financian amenidades y mantenimiento compartidos — como jardinería, piscinas, o exteriores de edificios — y a menudo acumulan un fondo de reserva para reparaciones futuras más grandes."
+        ],
+        [
+          "Por Qué Importa Antes de Comprar",
+          "Revisar las reglas de la HOA (CC&Rs) y su salud financiera antes de comprar ayuda a evitar sorpresas como reglas restrictivas o evaluaciones especiales inminentes."
+        ]
+      ],
+      "definitions": [
+        [
+          "HOA",
+          "Una organización que gobierna una comunidad residencial, haciendo cumplir reglas y cobrando cuotas."
+        ],
+        [
+          "CC&Rs",
+          "Pactos, Condiciones, y Restricciones — las reglas que gobiernan una HOA."
+        ],
+        [
+          "Cuotas de HOA",
+          "Cargos regulares pagados por los dueños para financiar las operaciones y reservas de la HOA."
+        ],
+        [
+          "Fondo de Reserva",
+          "Dinero apartado por una HOA para futuras reparaciones mayores."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño pinta su puerta principal de un color no aprobado por la HOA y recibe una multa hasta que la vuelva a pintar de un color aprobado."
+      ],
+      "mistakes": [
+        "No leer los CC&Rs antes de comprar en una comunidad con HOA.",
+        "Asumir que las cuotas de la HOA son fijas para siempre.",
+        "Ignorar las multas de la HOA, que a veces pueden llevar a un gravamen."
+      ],
+      "faq": [
+        [
+          "¿Se puede optar por no pertenecer a una HOA?",
+          "Generalmente no, si la propiedad está dentro de sus límites — la membresía típicamente es obligatoria."
+        ],
+        [
+          "¿Pueden aumentar las cuotas de la HOA?",
+          "Sí, a menudo basado en las necesidades del presupuesto, lo cual es común y debe esperarse."
+        ]
+      ],
+      "takeaways": [
+        "Una HOA hace cumplir las reglas de la comunidad y puede multar o poner gravamen por violaciones.",
+        "Las cuotas financian amenidades compartidas y reservas.",
+        "Revisar los CC&Rs antes de comprar es esencial."
+      ],
+      "exercise": "Enumera tres tipos de reglas que una HOA podría comúnmente hacer cumplir (por ejemplo, color de pintura exterior, estacionamiento, mascotas) y anota por qué cada una podría importarle a un comprador."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-027",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Intercambio 1031? (Qué Es, En Términos Sencillos)",
+      "exec_summary": "Un intercambio 1031 le permite a un inversionista aplazar el pago de impuestos sobre la venta de una propiedad reinvirtiendo las ganancias en otra propiedad calificada. Esta lección mantiene el concepto simple, en términos sencillos.",
+      "objectives": [
+        "Definir un intercambio 1031 en términos sencillos",
+        "Explicar qué significa \"aplazar\" impuestos",
+        "Identificar el requisito básico para calificar",
+        "Reconocer que esto es una REGLA ESPECÍFICA DE LA REGIÓN"
+      ],
+      "topics": [
+        [
+          "Qué Es Un Intercambio 1031",
+          "Un intercambio 1031, nombrado por la Sección 1031 del código fiscal de EE.UU., le permite a un inversionista vender una propiedad de inversión y reinvertir las ganancias en una propiedad similar (\"del mismo tipo\") mientras aplaza el impuesto sobre ganancias de capital que de otra forma se debería — REGLA ESPECÍFICA DE LA REGIÓN, específica de la ley fiscal federal de EE.UU."
+        ],
+        [
+          "Qué Significa \"Aplazar\"",
+          "Aplazar impuestos significa que el impuesto no se elimina — se pospone hasta una venta futura que no use otro intercambio, momento en el cual puede volverse debido."
+        ],
+        [
+          "El Requisito Básico",
+          "En términos generales, la propiedad de reemplazo debe ser \"del mismo tipo\" (una categoría amplia para bienes raíces) y aplican plazos específicos para identificar y cerrar en la propiedad de reemplazo — HECHO VERIFICADO de que existen plazos estrictos del IRS, aunque las reglas exactas deben verificarse con un profesional fiscal."
+        ],
+        [
+          "Por Qué Los Inversionistas Lo Usan",
+          "Los inversionistas pueden usar un intercambio 1031 para hacer crecer sus posesiones de bienes raíces a través del tiempo sin pagar impuestos en cada venta individual a lo largo del camino."
+        ]
+      ],
+      "definitions": [
+        [
+          "Intercambio 1031",
+          "Una transacción que permite aplazar el impuesto sobre ganancias de capital reinvirtiendo las ganancias de la venta de una propiedad en una propiedad del mismo tipo."
+        ],
+        [
+          "Propiedad Del Mismo Tipo",
+          "Una categoría amplia, bajo las reglas fiscales de EE.UU., que generalmente cubre la mayoría de los bienes raíces mantenidos para inversión o uso de negocio."
+        ],
+        [
+          "Impuesto Sobre Ganancias de Capital",
+          "Impuesto adeudado sobre la ganancia de vender un activo, como bienes raíces."
+        ],
+        [
+          "Aplazamiento de Impuesto",
+          "Posponer el impuesto adeudado a una fecha posterior, en lugar de eliminarlo."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un inversionista vende una propiedad de renta con una ganancia de $100,000 y, en lugar de pagar el impuesto sobre ganancias de capital inmediatamente, reinvierte las ganancias en otra propiedad de renta usando un intercambio 1031, aplazando ese impuesto."
+      ],
+      "mistakes": [
+        "Asumir que un intercambio 1031 elimina el impuesto en lugar de aplazarlo.",
+        "Asumir que cualquier propiedad califica como \"del mismo tipo\" sin orientación profesional.",
+        "No estar consciente de que aplican plazos estrictos."
+      ],
+      "faq": [
+        [
+          "¿Funciona un intercambio 1031 para una residencia principal?",
+          "Generalmente no — está diseñado para propiedad de inversión o uso de negocio, no una residencia personal, aunque las reglas pueden ser matizadas; esto debe verificarse con un profesional."
+        ],
+        [
+          "¿Está disponible un intercambio 1031 fuera de EE.UU.?",
+          "No — esto es una REGLA ESPECÍFICA DE LA REGIÓN específica del código fiscal de EE.UU.; otros países tienen sus propios sistemas, si acaso."
+        ]
+      ],
+      "takeaways": [
+        "Un intercambio 1031 aplaza, en lugar de eliminar, el impuesto sobre ganancias de capital.",
+        "La propiedad de reemplazo generalmente debe ser \"del mismo tipo.\"",
+        "Aplican plazos estrictos, y esta es una disposición fiscal específica de EE.UU."
+      ],
+      "exercise": "En tus propias palabras, explica la diferencia entre \"aplazar\" impuestos y \"eliminar\" impuestos, usando el intercambio 1031 como tu ejemplo."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

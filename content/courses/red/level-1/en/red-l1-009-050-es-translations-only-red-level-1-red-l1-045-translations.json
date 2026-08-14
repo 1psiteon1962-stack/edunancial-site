@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-045",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Préstamo de Capital de Vivienda vs. Una HELOC?",
+      "exec_summary": "Los préstamos de capital de vivienda y las HELOC ambos le permiten a los dueños pedir prestado contra su capital, pero funcionan de forma muy diferente. Esta lección desglosa la diferencia básica.",
+      "objectives": [
+        "Definir un préstamo de capital de vivienda",
+        "Definir una HELOC",
+        "Comparar las dos estructuras",
+        "Identificar un escenario adecuado para cada una"
+      ],
+      "topics": [
+        [
+          "Qué Es Un Préstamo de Capital de Vivienda",
+          "Un préstamo de capital de vivienda provee una suma global por adelantado, prestada contra el capital de vivienda del dueño, pagada durante un plazo fijo con una tasa de interés típicamente fija."
+        ],
+        [
+          "Qué Es Una HELOC",
+          "Una HELOC (Línea de Crédito de Capital de Vivienda) funciona más como una tarjeta de crédito — una línea de crédito rotativa prestada contra el capital de vivienda, donde el dueño puede retirar fondos según los necesite hasta un límite, a menudo con una tasa de interés variable."
+        ],
+        [
+          "Diferencias Estructurales Clave",
+          "El préstamo de capital de vivienda da una suma global fija con pagos fijos; la HELOC ofrece préstamos flexibles, según se necesite, con pagos que pueden variar según el uso y los cambios en la tasa de interés."
+        ],
+        [
+          "Cuándo Se Podría Usar Cada Una",
+          "NOTA DE OPINIÓN/GUÍA GENERAL: un préstamo de capital de vivienda puede ser adecuado para un gasto único conocido (como una remodelación específica), mientras que una HELOC puede ser adecuada para gastos continuos o inciertos (como remodelaciones por fases) debido a su flexibilidad."
+        ]
+      ],
+      "definitions": [
+        [
+          "Préstamo de Capital de Vivienda",
+          "Un préstamo que provee una suma global prestada contra el capital de vivienda, pagada durante un plazo fijo."
+        ],
+        [
+          "HELOC (Línea de Crédito de Capital de Vivienda)",
+          "Una línea de crédito rotativa prestada contra el capital de vivienda, permitiendo retiros flexibles hasta un límite."
+        ],
+        [
+          "Crédito Rotativo",
+          "Un arreglo de crédito que permite préstamos y pagos repetidos hasta un límite establecido, similar a una tarjeta de crédito."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño que necesita $30,000 para una remodelación de cocina conocida podría elegir un préstamo de capital de vivienda por su previsibilidad de pago fijo, mientras que un dueño inseguro de los costos totales a través de varios proyectos podría preferir la flexibilidad de una HELOC."
+      ],
+      "mistakes": [
+        "Confundir los dos productos como idénticos.",
+        "Asumir que una HELOC tiene una tasa de interés fija como un préstamo típico de capital de vivienda.",
+        "No considerar cómo podrían cambiar los pagos variables de HELOC con el tiempo."
+      ],
+      "faq": [
+        [
+          "¿Cuál es mejor, un préstamo de capital de vivienda o una HELOC?",
+          "OPINIÓN: depende de las necesidades del prestatario — una suma global conocida favorece un préstamo de capital de vivienda, mientras que necesidades flexibles/inciertas favorecen una HELOC."
+        ],
+        [
+          "¿Ambas usan la casa como garantía?",
+          "Sí — HECHO VERIFICADO: ambas están aseguradas por el capital de la vivienda, lo que significa que la casa está en riesgo si no se hacen los pagos."
+        ]
+      ],
+      "takeaways": [
+        "Un préstamo de capital de vivienda provee una suma global fija con pagos fijos.",
+        "Una HELOC provee crédito rotativo flexible, a menudo con una tasa variable.",
+        "La elección correcta a menudo depende de si el gasto es una suma global conocida o una necesidad continua/incierta."
+      ],
+      "exercise": "Explica cuál producto (préstamo de capital de vivienda o HELOC) probablemente sería adecuado para un dueño que planea varios proyectos pequeños de casa distribuidos a lo largo de dos años, y por qué."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

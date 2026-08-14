@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-014",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Tasación, y En Qué Se Diferencia De Una Inspección?",
+      "exec_summary": "La tasación y la inspección se confunden constantemente, pero responden preguntas muy diferentes. Esta lección explica qué determina realmente una tasación y quién depende de ella.",
+      "objectives": [
+        "Definir una tasación",
+        "Explicar quién típicamente la ordena",
+        "Distinguir la tasación de la inspección",
+        "Explicar por qué los prestamistas requieren una"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Tasación",
+          "Una tasación es una estimación profesional del valor de mercado de una propiedad, realizada por un tasador licenciado, a menudo usando ventas recientes comparables en el área."
+        ],
+        [
+          "Quién La Ordena",
+          "En la mayoría de las transacciones hipotecarias en EE.UU., el prestamista ordena la tasación (aunque el comprador típicamente la paga) para confirmar que la propiedad respalda el monto del préstamo."
+        ],
+        [
+          "Tasación vs. Inspección",
+          "Una tasación se enfoca en el valor; una inspección se enfoca en la condición y seguridad. Las realizan profesionales diferentes y sirven propósitos diferentes en una transacción."
+        ],
+        [
+          "Por Qué Los Prestamistas Requieren Una",
+          "Los prestamistas usan la tasación para verificar el valor de la garantía, ya que la propiedad asegura el préstamo — si la tasación sale baja, los términos de financiamiento pueden necesitar renegociarse."
+        ]
+      ],
+      "definitions": [
+        [
+          "Tasación",
+          "Una estimación profesional del valor de mercado de una propiedad."
+        ],
+        [
+          "Tasador",
+          "Un profesional licenciado que determina el valor estimado de una propiedad."
+        ],
+        [
+          "Ventas Comparables (Comps)",
+          "Propiedades similares vendidas recientemente, usadas para ayudar a estimar el valor de una propiedad."
+        ],
+        [
+          "Garantía",
+          "La propiedad que asegura un préstamo, la cual el prestamista podría reclamar si el préstamo no se paga."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un comprador acuerda comprar una casa por $350,000, pero la tasación regresa en $335,000 — potencialmente requiriendo renegociación, un pago inicial más grande, o una contingencia de contrato para resolver la diferencia."
+      ],
+      "mistakes": [
+        "Confundir una tasación con una inspección de vivienda.",
+        "Asumir que el valor tasado siempre coincide con el precio de compra acordado.",
+        "No entender que una tasación baja puede afectar el financiamiento."
+      ],
+      "faq": [
+        [
+          "¿Quién paga por la tasación?",
+          "Típicamente el comprador, aunque el prestamista la ordena, como una REGLA ESPECÍFICA DE LA REGIÓN que generalmente es consistente pero puede variar por tipo de préstamo."
+        ],
+        [
+          "¿Qué pasa si la tasación es más baja que el precio de compra?",
+          "Esto puede requerir renegociación, un pago inicial más grande, o una contingencia de tasación para proteger al comprador, dependiendo del contrato."
+        ]
+      ],
+      "takeaways": [
+        "Una tasación estima el valor de mercado; una inspección evalúa la condición.",
+        "El prestamista típicamente ordena la tasación para confirmar que la propiedad asegura el préstamo.",
+        "Una tasación baja puede afectar el financiamiento y requerir renegociación."
+      ],
+      "exercise": "Explica en una o dos oraciones la diferencia principal entre lo que mide una tasación y lo que mide una inspección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

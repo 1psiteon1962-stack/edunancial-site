@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-018",
+  "translations": {
+    "es": {
+      "title": "Costos de Cierre: ¿Qué Estás Pagando Realmente?",
+      "exec_summary": "Los costos de cierre sorprenden a muchos compradores primerizos porque rara vez se explican claramente por adelantado. Esta lección desglosa qué cubren realmente estos cargos y da una idea realista de su magnitud.",
+      "objectives": [
+        "Definir los costos de cierre",
+        "Enumerar categorías comunes de costos de cierre",
+        "Estimar un rango típico de costos de cierre",
+        "Identificar quién típicamente paga qué costos"
+      ],
+      "topics": [
+        [
+          "Qué Son Los Costos de Cierre",
+          "Los costos de cierre son los cargos y gastos, más allá del precio de compra, necesarios para finalizar una transacción de bienes raíces — cubriendo cosas como el origen del préstamo, trabajo de título, y cargos de registro."
+        ],
+        [
+          "Categorías Comunes",
+          "Las categorías típicas incluyen cargos del prestamista (origen, suscripción), seguro de título, cargos de tasación, cargos de registro, y artículos prepagados como el seguro de vivienda y la reserva del impuesto sobre la propiedad."
+        ],
+        [
+          "Aproximadamente Qué Tan Grandes Pueden Ser",
+          "ESTIMACIÓN: los costos de cierre comúnmente varían entre aproximadamente 2% y 5% del precio de compra, aunque esto varía según la ubicación y el tipo de préstamo."
+        ],
+        [
+          "Quién Paga Qué",
+          "Compradores y vendedores pueden tener sus propios costos de cierre; quién paga qué cargo a menudo es negociable y es una REGLA ESPECÍFICA DE LA REGIÓN en algunos casos (como los impuestos de transferencia)."
+        ]
+      ],
+      "definitions": [
+        [
+          "Costos de Cierre",
+          "Cargos y gastos debidos al cierre de una transacción de bienes raíces, separados del precio de compra."
+        ],
+        [
+          "Seguro de Título",
+          "Seguro que protege contra defectos en el título de la propiedad."
+        ],
+        [
+          "Cargo de Origen del Préstamo",
+          "Un cargo cobrado por el prestamista por procesar un nuevo préstamo."
+        ],
+        [
+          "Custodia (Escrow)",
+          "Una cuenta que retiene fondos (como pagos de impuestos y seguros) administrada por un tercero."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: En una compra de $300,000, los costos de cierre podrían variar aproximadamente entre $6,000 y $15,000 dependiendo de la ubicación y el tipo de préstamo."
+      ],
+      "mistakes": [
+        "Asumir que los costos de cierre son una cantidad fija y universal.",
+        "Olvidar presupuestar los costos de cierre por separado del pago inicial.",
+        "No pedir una Estimación del Préstamo para ver los costos desglosados por adelantado."
+      ],
+      "faq": [
+        [
+          "¿Se pueden negociar los costos de cierre?",
+          "Algunos sí — los compradores a veces piden que el vendedor cubra parte de ellos como una concesión, lo cual es negociable y depende del mercado."
+        ],
+        [
+          "¿Son los costos de cierre iguales en todas partes?",
+          "No, esto varía por estado y prestamista, así que trata cualquier número específico como una ESTIMACIÓN."
+        ]
+      ],
+      "takeaways": [
+        "Los costos de cierre son separados del pago inicial.",
+        "Típicamente varían entre aproximadamente 2-5% del precio de compra (ESTIMACIÓN).",
+        "Los compradores deben pedir una Estimación del Préstamo desglosada."
+      ],
+      "exercise": "Usando el rango de ESTIMACIÓN de 2-5%, calcula un rango aproximado de costos de cierre para una compra de $250,000."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

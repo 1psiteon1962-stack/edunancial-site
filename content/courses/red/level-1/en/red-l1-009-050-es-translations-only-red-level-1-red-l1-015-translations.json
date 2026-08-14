@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-015",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Dinero de Buena Fe, y Qué Pasa Con Él?",
+      "exec_summary": "El dinero de buena fe (earnest money) es la forma en que un comprador muestra que va en serio — pero muchos compradores primerizos no entienden qué pasa con ese dinero si el trato no se cierra. Esta lección lo explica claramente.",
+      "objectives": [
+        "Definir el dinero de buena fe",
+        "Explicar su propósito",
+        "Describir qué pasa con él al cierre",
+        "Explicar qué puede pasar si un trato fracasa"
+      ],
+      "topics": [
+        [
+          "Qué Es El Dinero de Buena Fe",
+          "El dinero de buena fe es un depósito que un comprador pone poco después de que se acepta una oferta, señalando intención seria de comprar."
+        ],
+        [
+          "Su Propósito",
+          "Le da al vendedor cierta seguridad financiera de que el comprador está comprometido, y puede compensar al vendedor si el comprador se retira sin una razón contractual válida."
+        ],
+        [
+          "Qué Pasa Al Cierre",
+          "Si el trato se cierra exitosamente, el dinero de buena fe típicamente se aplica hacia el pago inicial del comprador o los costos de cierre — no es un costo adicional sobre el precio de compra."
+        ],
+        [
+          "Qué Pasa Si El Trato Fracasa",
+          "Si el comprador recupera el dinero de buena fe depende de la razón por la cual el trato fracasó y si se usaron contingencias contractuales válidas — esto lo gobierna el contrato de compra y es un asunto ESPECÍFICO DE LA REGIÓN/CONTRATO."
+        ]
+      ],
+      "definitions": [
+        [
+          "Dinero de Buena Fe",
+          "Un depósito hecho por un comprador poco después de que se acepta una oferta, mostrando intención seria de comprar."
+        ],
+        [
+          "Cuenta de Custodia (Escrow)",
+          "Una cuenta neutral de terceros donde típicamente se retiene el dinero de buena fe hasta el cierre (cubierto más en una lección posterior)."
+        ],
+        [
+          "Contingencia",
+          "Una condición en un contrato que debe cumplirse para que el trato proceda, cubierta completamente en una lección posterior."
+        ],
+        [
+          "Incumplimiento",
+          "No cumplir con una obligación contractual, lo cual puede afectar los resultados del dinero de buena fe."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un comprador pone $5,000 de dinero de buena fe. Al cierre, esos $5,000 se acreditan hacia su pago inicial, reduciendo la cantidad que necesita traer por separado."
+      ],
+      "mistakes": [
+        "Asumir que el dinero de buena fe es un cargo no reembolsable en todas las situaciones.",
+        "Asumir que el dinero de buena fe es separado de, en lugar de aplicado hacia, el pago inicial.",
+        "No entender cómo las contingencias afectan si el dinero de buena fe es reembolsable."
+      ],
+      "faq": [
+        [
+          "¿Es siempre reembolsable el dinero de buena fe?",
+          "No siempre — la reembolsabilidad generalmente depende de las contingencias del contrato y la razón por la cual el trato no se cerró."
+        ],
+        [
+          "¿Quién retiene el dinero de buena fe?",
+          "Típicamente un tercero neutral, como una compañía de custodia o de título, en lugar del comprador o vendedor directamente."
+        ]
+      ],
+      "takeaways": [
+        "El dinero de buena fe muestra la intención seria de compra de un comprador.",
+        "Típicamente se aplica hacia el pago inicial o los costos de cierre al cierre.",
+        "La reembolsabilidad si un trato fracasa depende de los términos del contrato y las contingencias."
+      ],
+      "exercise": "Explica qué crees que pasaría con el dinero de buena fe si un comprador se retirara de un trato debido a una contingencia de inspección fallida, versus retirarse sin una razón contractual."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

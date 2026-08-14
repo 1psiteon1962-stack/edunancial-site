@@ -1,0 +1,105 @@
+{
+  "lesson_id": "RED-L1-009",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Impuesto Sobre La Propiedad, y Quién Lo Establece?",
+      "exec_summary": "El impuesto sobre la propiedad es un pago recurrente que paga todo dueño de propiedad, pero pocos entienden cómo se calcula realmente ese número. Esta lección explica quién establece la tasa, cómo influye el valor catastral de tu propiedad, y por qué el impuesto puede cambiar aunque tú no toques la propiedad.",
+      "objectives": [
+        "Explicar qué es el impuesto sobre la propiedad y quién lo cobra",
+        "Describir cómo el valor catastral es diferente al valor de mercado",
+        "Identificar quién establece las tasas del impuesto sobre la propiedad en la mayoría de las jurisdicciones",
+        "Reconocer por qué la factura del impuesto puede cambiar año tras año"
+      ],
+      "topics": [
+        [
+          "Qué Es Realmente El Impuesto Sobre La Propiedad",
+          "El impuesto sobre la propiedad es una REGLA ESPECÍFICA DE LA REGIÓN — un impuesto recurrente que los gobiernos locales (usualmente condados, ciudades, o distritos escolares) cobran a los dueños de propiedad, basado en el valor de la propiedad. Es una de las principales formas en que los gobiernos locales financian escuelas, carreteras, policía, y bomberos."
+        ],
+        [
+          "Quién Establece La Tasa",
+          "Los cuerpos de gobierno local — a menudo una comisión de condado, concejo municipal, o junta escolar — establecen la tasa del impuesto, a veces llamada \"tasa de millaje.\" Esto es una REGLA ESPECÍFICA DE LA REGIÓN, ya que el cuerpo exacto y el proceso varía según el estado y el condado."
+        ],
+        [
+          "Valor Catastral vs. Valor de Mercado",
+          "Tu factura de impuestos no se basa directamente en lo que podrías vender tu casa (valor de mercado). Se basa en un valor catastral, que un tasador local calcula — a veces por debajo del valor de mercado, a veces igual, dependiendo de las reglas locales y qué tan reciente fue la reevaluación."
+        ],
+        [
+          "Por Qué La Factura Puede Cambiar Sin Que Tú Hagas Nada",
+          "Aunque nunca hagas remodelaciones ni vendas, tu factura de impuesto sobre la propiedad puede subir si el gobierno local sube la tasa, o si el tasador aumenta tu valor catastral porque los valores de las casas cercanas subieron."
+        ]
+      ],
+      "definitions": [
+        [
+          "Impuesto Sobre La Propiedad",
+          "Un impuesto recurrente que cobra el gobierno local basado en el valor de una propiedad."
+        ],
+        [
+          "Valor Catastral",
+          "El valor que un tasador local le asigna a una propiedad, usado para calcular la factura de impuestos."
+        ],
+        [
+          "Tasa de Millaje",
+          "La tasa de impuesto aplicada por cada $1,000 de valor catastral; a menudo expresada en \"millas.\""
+        ],
+        [
+          "Tasador",
+          "El oficial u oficina del gobierno local responsable de determinar el valor catastral."
+        ]
+      ],
+      "examples": [
+        "Una casa tasada en $250,000 en una jurisdicción con una tasa efectiva de impuesto de 1.2% debería $3,000 aproximadamente por año en impuesto sobre la propiedad.",
+        "Un dueño de casa no hace nada a su propiedad, pero el condado retasa todas las casas del área hacia arriba debido al aumento de precios — su factura de impuestos sube de todos modos."
+      ],
+      "mistakes": [
+        "Asumir que el valor de mercado y el valor catastral siempre son el mismo número.",
+        "Creer que las tasas del impuesto sobre la propiedad son fijas para siempre una vez que compras.",
+        "No verificar si la jurisdicción ofrece exenciones (como exenciones de vivienda familiar) que podrían bajar la factura."
+      ],
+      "faq": [
+        [
+          "¿Puedo apelar mi valor catastral?",
+          "En la mayoría de las jurisdicciones, sí — esto es una REGLA ESPECÍFICA DE LA REGIÓN y el proceso de apelación, los plazos, y la evidencia requerida varían por condado."
+        ],
+        [
+          "¿El impuesto sobre la propiedad alguna vez desaparece?",
+          "Generalmente no, mientras seas dueño de la propiedad; es uno de los costos continuos de ser propietario."
+        ]
+      ],
+      "takeaways": [
+        "El impuesto sobre la propiedad lo establece el gobierno local, no el dueño de la propiedad.",
+        "El valor catastral es lo que se grava, no necesariamente el valor de mercado.",
+        "Las facturas pueden subir aunque el dueño no haga ningún cambio."
+      ],
+      "exercise": "Busca la tasación más reciente de tu propia propiedad (o una propiedad de ejemplo en tu área) y compara el valor catastral con lo que crees que es el valor de mercado. Anota cualquier diferencia y considera por qué podría existir."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

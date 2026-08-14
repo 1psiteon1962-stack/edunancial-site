@@ -1,0 +1,96 @@
+{
+  "lesson_id": "RED-L1-049",
+  "translations": {
+    "es": {
+      "title": "Comprando Tu Primera Propiedad: ¿En Qué Orden Van Realmente Estos Pasos?",
+      "exec_summary": "A estas alturas, has aprendido muchas piezas individuales — hipotecas, inspecciones, tasaciones, contingencias, costos de cierre. Esta lección las une en el orden general en que realmente suceden en una compra real.",
+      "objectives": [
+        "Secuenciar los pasos generales de una compra de propiedad",
+        "Conectar cada paso con conceptos cubiertos anteriormente en este nivel",
+        "Reconocer que esto es una secuencia general, no universal",
+        "Prepararse para la lección de capstone"
+      ],
+      "topics": [
+        [
+          "Por Qué Importa El Orden",
+          "Entender la secuencia general ayuda a un comprador primerizo a saber qué esperar a continuación y reduce la ansiedad de un proceso desconocido."
+        ],
+        [
+          "La Secuencia General",
+          "Un orden típico: (1) obtener preaprobación para financiamiento, (2) buscar y hacer una oferta en una propiedad, (3) poner dinero de buena fe y abrir custodia, (4) completar inspección y tasación, (5) satisfacer o renunciar a contingencias, (6) finalizar financiamiento, (7) cerrar, pagando costos de cierre y recibiendo la escritura."
+        ],
+        [
+          "Cómo Se Conecta Esto Con Lecciones Anteriores",
+          "Cada paso en esta secuencia se conecta directamente con conceptos cubiertos anteriormente: dinero de buena fe (L15), inspección (L13), tasación (L14), contingencias (L17), custodia (L16), y costos de cierre (L18) — esta lección es una síntesis, no material nuevo."
+        ],
+        [
+          "Esto Es Una Secuencia General, No Universal",
+          "NOTA DE SUPOSICIÓN/ESPECÍFICA DE LA REGIÓN: el orden exacto y la terminología pueden variar por estado y tipo de transacción, pero este flujo general aplica a la mayoría de las compras convencionales."
+        ]
+      ],
+      "definitions": [
+        [
+          "Preaprobación",
+          "Una evaluación preliminar de un prestamista de cuánto puede probablemente pedir prestado un comprador, basada en información financiera."
+        ],
+        [
+          "Secuencia de Compra",
+          "El orden general de pasos que típicamente sigue una transacción de bienes raíces desde la oferta hasta el cierre."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un comprador obtiene preaprobación, encuentra una propiedad, hace una oferta con una contingencia de inspección y financiamiento, pone dinero de buena fe en custodia, completa inspección y tasación, resuelve cualquier problema encontrado, finaliza su préstamo, y cierra — recibiendo las llaves y la escritura."
+      ],
+      "mistakes": [
+        "Omitir la preaprobación y buscar casas sin conocer un presupuesto realista.",
+        "Asumir que la inspección y la tasación suceden antes de que se acepte siquiera una oferta.",
+        "No entender cómo encajan las contingencias en la secuencia en relación al dinero de buena fe y el cierre."
+      ],
+      "faq": [
+        [
+          "¿Aplica este orden exacto a cada compra?",
+          "Generalmente sí para compras convencionales, aunque existen variaciones — esto se trata como una SUPOSICIÓN que refleja el patrón común, no una regla universal."
+        ],
+        [
+          "¿Por qué obtener preaprobación antes de buscar una propiedad?",
+          "NOTA DE OPINIÓN/GUÍA PRÁCTICA: saber tu presupuesto y probabilidad de financiamiento por adelantado hace la búsqueda más enfocada y las ofertas más creíbles para los vendedores."
+        ]
+      ],
+      "takeaways": [
+        "Una secuencia de compra típica sigue: preaprobación, oferta, dinero de buena fe/custodia, inspección/tasación, resolución de contingencias, finalización de financiamiento, y cierre.",
+        "Cada paso se conecta con un concepto específico cubierto anteriormente en este nivel.",
+        "Este es un patrón general, y los detalles pueden variar por transacción y ubicación."
+      ],
+      "exercise": "Sin mirar atrás en la lección, intenta enumerar la secuencia general de compra en orden de memoria, luego verifica tu respuesta contra la sección de Lección Principal."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

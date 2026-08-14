@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-046",
+  "translations": {
+    "es": {
+      "title": "¿Qué Significa Estar 'Bajo el Agua' En Una Hipoteca?",
+      "exec_summary": "Estar 'bajo el agua' en una hipoteca es una de las situaciones más estresantes que un dueño de casa puede enfrentar. Esta lección explica qué significa, cómo puede pasar, y qué opciones generales existen.",
+      "objectives": [
+        "Definir estar bajo el agua en una hipoteca",
+        "Explicar cómo puede pasar",
+        "Identificar el riesgo básico que crea",
+        "Reconocer opciones generales en esta situación"
+      ],
+      "topics": [
+        [
+          "Qué Significa Bajo El Agua",
+          "Un dueño de casa está 'bajo el agua' (o tiene 'capital negativo') cuando debe más en su hipoteca de lo que la propiedad vale actualmente."
+        ],
+        [
+          "Cómo Puede Pasar",
+          "Esto típicamente pasa cuando los valores de propiedad disminuyen después de la compra, conectando de vuelta con la lección anterior sobre que la apreciación no está garantizada, o cuando un dueño tiene una relación préstamo-valor muy alta con poco colchón de capital."
+        ],
+        [
+          "El Riesgo Básico Que Crea",
+          "Estar bajo el agua hace que vender sea difícil sin traer efectivo al cierre (ya que las ganancias de la venta no cubrirían el saldo del préstamo), y puede limitar las opciones de refinanciamiento."
+        ],
+        [
+          "Opciones Generales En Esta Situación",
+          "NOTA DE OPINIÓN/GENERAL: las opciones pueden incluir continuar pagando y esperar que los valores se recuperen, explorar programas de modificación de préstamo (donde estén disponibles), o en casos severos, considerar una venta corta (cubierta en una lección posterior) — ninguna de las cuales es simple o sin intercambios."
+        ]
+      ],
+      "definitions": [
+        [
+          "Bajo El Agua (Capital Negativo)",
+          "Una situación donde el saldo de la hipoteca adeudado excede el valor de mercado actual de la propiedad."
+        ],
+        [
+          "Relación Préstamo-Valor (LTV)",
+          "El monto del préstamo dividido entre el valor de la propiedad, usado para evaluar el colchón de capital."
+        ],
+        [
+          "Modificación de Préstamo",
+          "Un cambio a los términos del préstamo, a veces ofrecido por prestamistas para ayudar a un prestatario en dificultades."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño de casa debe $280,000 en su hipoteca, pero después de una caída del mercado, su casa solo vale $250,000 — están bajo el agua por $30,000."
+      ],
+      "mistakes": [
+        "Asumir que estar bajo el agua significa la pérdida inmediata de la casa.",
+        "No entender que las caídas del mercado (no solo pagos perdidos) pueden causar esta situación.",
+        "Asumir que no hay opciones una vez que se está bajo el agua."
+      ],
+      "faq": [
+        [
+          "¿Significa estar bajo el agua que perderás tu casa?",
+          "No necesariamente — NOTA DE OPINIÓN/GENERAL: muchos dueños de casa bajo el agua continúan pagando y esperan que los valores se recuperen, aunque esto no está garantizado que suceda en ningún plazo particular."
+        ],
+        [
+          "¿Pueden los valores recuperarse después de una caída?",
+          "HECHO VERIFICADO (histórico): los mercados se han recuperado después de caídas pasadas, aunque el momento y el alcance varían y no están garantizados para ningún caso específico."
+        ]
+      ],
+      "takeaways": [
+        "Estar bajo el agua significa deber más de lo que la propiedad vale actualmente.",
+        "Típicamente resulta de una caída de valor o una relación préstamo-valor alta al momento de la compra.",
+        "Crea restricciones reales en la venta y el refinanciamiento, aunque existen opciones dependiendo de la situación."
+      ],
+      "exercise": "Usando el ejemplo de esta lección, explica en tus propias palabras por qué el dueño de casa no puede simplemente vender la propiedad para retirarse sin consecuencia financiera."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

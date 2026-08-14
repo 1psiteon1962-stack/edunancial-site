@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-041",
+  "translations": {
+    "es": {
+      "title": "¿Qué Está Cubriendo Realmente El Seguro de Vivienda (y Qué No)?",
+      "exec_summary": "El seguro de vivienda suena como si cubriera todo hasta que realmente lees la póliza. Esta lección explica qué cubre típicamente una póliza estándar, y, tan importante, qué típicamente no cubre.",
+      "objectives": [
+        "Definir el seguro de vivienda",
+        "Enumerar áreas de cobertura comunes",
+        "Identificar exclusiones comunes",
+        "Explicar por qué importa leer la póliza"
+      ],
+      "topics": [
+        [
+          "Qué Es El Seguro de Vivienda",
+          "El seguro de vivienda es una póliza que protege financieramente a un dueño contra riesgos específicos a su propiedad y responsabilidad civil, a cambio de una prima."
+        ],
+        [
+          "Qué Cubre Típicamente",
+          "Las pólizas estándar comúnmente cubren cosas como incendio, cierto daño por viento/tormenta, robo, y responsabilidad civil personal — aunque la cobertura exacta varía significativamente por póliza y aseguradora."
+        ],
+        [
+          "Qué Típicamente No Cubre",
+          "Las pólizas estándar de vivienda comúnmente excluyen el daño por inundación y el daño por terremoto, requiriendo pólizas separadas para esos riesgos — una REGLA ESPECÍFICA DE LA REGIÓN dependiendo de la aseguradora y el perfil de riesgo de la ubicación."
+        ],
+        [
+          "Por Qué Importa Leer La Póliza",
+          "Porque la cobertura y las exclusiones varían por póliza y aseguradora, un dueño debe revisar cuidadosamente su póliza específica en lugar de asumir que la cobertura estándar aplica a cada riesgo."
+        ]
+      ],
+      "definitions": [
+        [
+          "Seguro de Vivienda",
+          "Una póliza que protege a un dueño contra riesgos específicos de propiedad y responsabilidad civil a cambio de una prima."
+        ],
+        [
+          "Prima",
+          "La cantidad pagada, usualmente anual o mensualmente, por una póliza de seguro."
+        ],
+        [
+          "Exclusión",
+          "Un riesgo o evento específico no cubierto por una póliza de seguro estándar."
+        ],
+        [
+          "Cobertura de Responsabilidad Civil",
+          "Protección contra reclamos si alguien se lesiona en la propiedad asegurada."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: La póliza de un dueño de casa cubre el daño por incendio a su hogar, pero cuando un río cercano inunda su sótano, descubre que el daño por inundación no está cubierto bajo su póliza estándar y habría requerido seguro de inundación separado."
+      ],
+      "mistakes": [
+        "Asumir que una póliza estándar cubre el daño por inundación o terremoto.",
+        "No leer las exclusiones específicas de la póliza antes de que ocurra un incidente.",
+        "Subestimar el riesgo de responsabilidad civil personal y las necesidades de cobertura."
+      ],
+      "faq": [
+        [
+          "¿Cubre el seguro de vivienda el daño por inundación?",
+          "Generalmente no — el seguro de inundación típicamente es una póliza separada, cubierta en la próxima lección."
+        ],
+        [
+          "¿Es la cobertura la misma en todas las aseguradoras?",
+          "No — esto es un asunto ESPECÍFICO DE LA REGIÓN/ASEGURADORA, y los términos específicos siempre deben verificarse en la póliza real."
+        ]
+      ],
+      "takeaways": [
+        "El seguro de vivienda cubre riesgos específicos a cambio de una prima.",
+        "La cobertura común incluye incendio, cierto daño por tormenta, robo, y responsabilidad civil.",
+        "Las exclusiones comunes incluyen daño por inundación y terremoto, requiriendo pólizas separadas."
+      ],
+      "exercise": "Enumera dos cosas que una póliza estándar de vivienda comúnmente cubre, y dos cosas que comúnmente excluye, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

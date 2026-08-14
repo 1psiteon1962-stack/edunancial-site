@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-042",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Seguro de Inundación, y Por Qué No Es Automático?",
+      "exec_summary": "El seguro de inundación sorprende a muchos dueños porque no se incluye automáticamente con el seguro de vivienda estándar. Esta lección explica por qué es separado y quién típicamente lo necesita.",
+      "objectives": [
+        "Definir el seguro de inundación",
+        "Explicar por qué es separado del seguro de vivienda estándar",
+        "Identificar quién típicamente está requerido a tenerlo",
+        "Reconocer que el riesgo de inundación no se limita a zonas de inundación obvias"
+      ],
+      "topics": [
+        [
+          "Qué Es El Seguro de Inundación",
+          "El seguro de inundación es una póliza separada que cubre específicamente el daño por inundación, distinta de la póliza estándar de vivienda discutida en la lección anterior."
+        ],
+        [
+          "Por Qué Es Una Póliza Separada",
+          "El riesgo de inundación está concentrado geográficamente y puede ser catastrófico, llevando a las aseguradoras a tratarlo como un riesgo distinto, con precio separado, en lugar de incluirlo en la cobertura estándar."
+        ],
+        [
+          "Quién Típicamente Está Requerido A Tenerlo",
+          "HECHO VERIFICADO: en EE.UU., las hipotecas respaldadas federalmente en propiedades en zonas de inundación de alto riesgo designadas generalmente requieren seguro de inundación; es opcional (pero a menudo aún sabio) para zonas de menor riesgo."
+        ],
+        [
+          "El Riesgo de Inundación No Se Limita A Zonas Obvias",
+          "NOTA DE OPINIÓN/RIESGO: muchos reclamos de inundación ocurren fuera de las zonas de alto riesgo oficialmente designadas, razón por la cual algunos dueños eligen cobertura de inundación incluso cuando no está requerida."
+        ]
+      ],
+      "definitions": [
+        [
+          "Seguro de Inundación",
+          "Una póliza de seguro separada que cubre específicamente el daño por inundación."
+        ],
+        [
+          "Zona de Inundación",
+          "Una designación geográfica (a menudo por FEMA en EE.UU.) que indica el nivel de riesgo de inundación."
+        ],
+        [
+          "Programa Nacional de Seguro de Inundación (NFIP)",
+          "Un programa federal de EE.UU. que provee seguro de inundación en comunidades participantes."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Una propiedad en una zona de inundación de alto riesgo federalmente designada con una hipoteca respaldada federalmente generalmente está requerida a tener seguro de inundación como condición del préstamo."
+      ],
+      "mistakes": [
+        "Asumir que el seguro de vivienda estándar cubre inundaciones.",
+        "Asumir que el seguro de inundación es innecesario fuera de zonas de alto riesgo oficialmente designadas.",
+        "No verificar la designación de zona de inundación de una propiedad antes de comprar."
+      ],
+      "faq": [
+        [
+          "¿Se requiere el seguro de inundación en todas partes?",
+          "No — generalmente se requiere para hipotecas respaldadas federalmente en zonas de alto riesgo designadas, y es opcional en otros lugares, un asunto ESPECÍFICO DE LA REGIÓN/BASADO EN RIESGO."
+        ],
+        [
+          "¿Puede ocurrir una inundación fuera de una zona de inundación designada?",
+          "Sí — las designaciones de zona de inundación estiman el nivel de riesgo, pero las inundaciones pueden ocurrir fuera de esos límites."
+        ]
+      ],
+      "takeaways": [
+        "El seguro de inundación es una póliza separada del seguro de vivienda estándar.",
+        "Generalmente se requiere para hipotecas respaldadas federalmente en zonas de inundación de alto riesgo.",
+        "El riesgo de inundación no se limita estrictamente a zonas oficialmente designadas."
+      ],
+      "exercise": "Explica por qué un dueño fuera de una zona de inundación de alto riesgo designada podría aún considerar comprar seguro de inundación."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

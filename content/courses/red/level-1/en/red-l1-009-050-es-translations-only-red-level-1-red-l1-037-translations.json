@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-037",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Mayoreo (Wholesaling) En Bienes Raíces?",
+      "exec_summary": "El mayoreo (wholesaling) es una de las estrategias de bienes raíces más malentendidas porque en realidad no requiere comprar propiedad. Esta lección explica qué significa y cómo se diferencia de una compra típica.",
+      "objectives": [
+        "Definir el mayoreo",
+        "Explicar el mecanismo de asignación de contrato",
+        "Distinguir el mayoreo de comprar propiedad",
+        "Identificar por qué a menudo se ve como una estrategia de entrada de bajo capital"
+      ],
+      "topics": [
+        [
+          "Qué Significa El Mayoreo",
+          "El mayoreo involucra a un mayorista poniendo una propiedad bajo contrato con un vendedor (a menudo con descuento), luego asignando o revendiendo ese contrato a otro comprador por una cuota, sin nunca tomar posesión ellos mismos."
+        ],
+        [
+          "El Mecanismo de Asignación de Contrato",
+          "El mayorista no compra la propiedad; controla el derecho a comprarla vía contrato, luego transfiere (asigna) ese derecho a un comprador final, típicamente un inversionista, por una cuota de asignación."
+        ],
+        [
+          "Mayoreo vs. Comprar Propiedad",
+          "A diferencia de voltear (flipping) o invertir para comprar y mantener, el mayoreo no requiere que el mayorista asegure financiamiento o tome título de la propiedad en absoluto."
+        ],
+        [
+          "Por Qué Se Ve Como Bajo Capital",
+          "Porque el mayorista generalmente no compra la propiedad, el mayoreo a menudo se describe (OPINIÓN) como un punto de entrada de menor capital a la inversión en bienes raíces, aunque requiere fuertes habilidades de búsqueda de tratos y negociación."
+        ]
+      ],
+      "definitions": [
+        [
+          "Mayoreo (Wholesaling)",
+          "Poner una propiedad bajo contrato y asignar o revender ese contrato a otro comprador por una cuota, sin tomar posesión."
+        ],
+        [
+          "Cuota de Asignación",
+          "La cuota que gana un mayorista por transferir sus derechos de contrato a un comprador final."
+        ],
+        [
+          "Comprador Final",
+          "El inversionista o comprador que finalmente compra la propiedad del contrato del mayorista."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un mayorista pone una propiedad en dificultades bajo contrato por $150,000, luego asigna ese contrato a un inversionista por $160,000, ganando una cuota de asignación de $10,000 sin nunca poseer la propiedad."
+      ],
+      "mistakes": [
+        "Asumir que el mayoreo requiere comprar la propiedad.",
+        "No entender que esta estrategia depende fuertemente de la ley de contratos y los requisitos de divulgación, los cuales son REGLAS ESPECÍFICAS DE LA REGIÓN.",
+        "Subestimar la habilidad de búsqueda de tratos y negociación requerida."
+      ],
+      "faq": [
+        [
+          "¿Necesita un mayorista una licencia de bienes raíces?",
+          "Esto es una REGLA ESPECÍFICA DE LA REGIÓN — los requisitos varían significativamente por estado, y esto debe verificarse localmente."
+        ],
+        [
+          "¿Se considera el mayoreo de bajo riesgo?",
+          "OPINIÓN: evita algunos riesgos (financiamiento, propiedad) pero conlleva sus propios riesgos, como no encontrar un comprador final antes de la fecha límite del contrato."
+        ]
+      ],
+      "takeaways": [
+        "El mayoreo significa controlar una propiedad vía contrato, no poseerla.",
+        "El mayorista se beneficia de una cuota de asignación al transferir el contrato.",
+        "A menudo se ve como un punto de entrada de menor capital, aunque requiere habilidad de búsqueda de tratos."
+      ],
+      "exercise": "Explica la diferencia entre lo que hace un mayorista y lo que hace un comprador de casa tradicional, usando el concepto de asignación de contrato."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

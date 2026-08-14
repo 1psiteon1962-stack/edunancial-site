@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-028",
+  "translations": {
+    "es": {
+      "title": "Fundamentos del Arrendador: ¿De Qué Eres Realmente Responsable?",
+      "exec_summary": "Convertirse en arrendador significa asumir responsabilidades reales, no solo cobrar renta. Esta lección presenta los deberes principales que típicamente llevan los arrendadores.",
+      "objectives": [
+        "Enumerar responsabilidades principales del arrendador",
+        "Distinguir los deberes del arrendador de los del inquilino",
+        "Identificar la habitabilidad como un concepto clave",
+        "Reconocer que esto varía por jurisdicción"
+      ],
+      "topics": [
+        [
+          "Responsabilidades Principales",
+          "Los arrendadores generalmente son responsables de mantener la propiedad habitable — es decir, segura, sanitaria, y funcional — junto con reparaciones estructurales mayores y el cumplimiento de los códigos de vivienda locales."
+        ],
+        [
+          "Deberes del Arrendador vs. del Inquilino",
+          "Los arrendadores típicamente manejan reparaciones y sistemas mayores (techo, plomería, calefacción), mientras que los inquilinos típicamente manejan el mantenimiento diario y el mantenimiento menor, aunque la división exacta a menudo se define en el contrato de arrendamiento."
+        ],
+        [
+          "Habitabilidad",
+          "La habitabilidad es una REGLA ESPECÍFICA DE LA REGIÓN — la mayoría de las jurisdicciones requieren que las unidades de renta cumplan con estándares mínimos de seguridad y habitabilidad, y los arrendadores pueden enfrentar consecuencias legales por no mantenerlos."
+        ],
+        [
+          "Por Qué Esto Importa",
+          "Entender estas responsabilidades por adelantado ayuda a un nuevo arrendador a presupuestar para el mantenimiento y evitar exposición legal."
+        ]
+      ],
+      "definitions": [
+        [
+          "Arrendador",
+          "El dueño de una propiedad de renta que la arrienda a un inquilino."
+        ],
+        [
+          "Habitabilidad",
+          "El estándar legal que requiere que una unidad de renta sea segura y habitable."
+        ],
+        [
+          "Código de Vivienda",
+          "Regulaciones locales que establecen estándares mínimos para las condiciones de vivienda de renta."
+        ],
+        [
+          "Contrato de Arrendamiento",
+          "El acuerdo legal que describe las responsabilidades del arrendador y el inquilino (cubierto completamente en la próxima lección)."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un inquilino reporta un calentador roto en invierno — bajo la mayoría de los estándares de habitabilidad, el arrendador sería responsable de la reparación pronta."
+      ],
+      "mistakes": [
+        "Asumir que los inquilinos son responsables de las reparaciones de sistemas mayores como el techo o el calentador.",
+        "Ignorar los requisitos del código de vivienda local.",
+        "No presupuestar para las responsabilidades de mantenimiento continuo."
+      ],
+      "faq": [
+        [
+          "¿Son las responsabilidades del arrendador iguales en todas partes?",
+          "No — esto es una REGLA ESPECÍFICA DE LA REGIÓN, y los estándares específicos de habitabilidad y reparaciones requeridas varían por estado y localidad."
+        ],
+        [
+          "¿Puede un contrato de arrendamiento transferir todas las responsabilidades al inquilino?",
+          "Generalmente no — los requisitos de habitabilidad típicamente no pueden ser completamente renunciados por un contrato de arrendamiento."
+        ]
+      ],
+      "takeaways": [
+        "Los arrendadores generalmente son responsables de las reparaciones mayores y la habitabilidad.",
+        "Las responsabilidades se dividen con los inquilinos, a menudo definidas más en el contrato de arrendamiento.",
+        "Los estándares de habitabilidad varían por jurisdicción pero generalmente no pueden renunciarse."
+      ],
+      "exercise": "Enumera tres reparaciones que crees que típicamente le corresponderían al arrendador, y dos que típicamente le corresponderían al inquilino."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

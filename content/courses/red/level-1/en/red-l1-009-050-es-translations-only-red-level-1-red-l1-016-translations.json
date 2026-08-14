@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-016",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es La Custodia (Escrow), y Qué Papel Juega En Una Compra?",
+      "exec_summary": "La custodia (escrow) aparece constantemente en bienes raíces, en más de un sentido. Esta lección explica el significado principal de la transacción de compra: un tercero neutral que retiene fondos y documentos hasta que se cumplan las condiciones.",
+      "objectives": [
+        "Definir la custodia en el sentido de la transacción de compra",
+        "Explicar el papel del custodio",
+        "Identificar qué se retiene comúnmente en custodia",
+        "Distinguir esto de la cuenta de custodia de impuestos/seguro"
+      ],
+      "topics": [
+        [
+          "Qué Significa La Custodia En Una Compra",
+          "En una compra de bienes raíces, la custodia se refiere a un tercero neutral que retiene fondos (como el dinero de buena fe) y documentos importantes hasta que se cumplan todas las condiciones de la venta, para luego liberarlos al cierre."
+        ],
+        [
+          "El Papel Del Custodio",
+          "Un custodio — a menudo una compañía de título, un abogado, o una compañía dedicada de custodia (una REGLA ESPECÍFICA DE LA REGIÓN en cuanto a cuál es usual) — no representa ni al comprador ni al vendedor, actuando como un guardián neutral."
+        ],
+        [
+          "Qué Se Retiene Comúnmente En Custodia",
+          "El dinero de buena fe, documentos firmados, y a veces la escritura misma pueden retenerse en custodia hasta que se satisfagan las condiciones de cierre."
+        ],
+        [
+          "Un Significado Diferente: La Cuenta de Custodia Continua",
+          "Después del cierre, muchas hipotecas también usan una 'cuenta de custodia' continua para recolectar y pagar el impuesto sobre la propiedad y el seguro — un concepto relacionado pero separado de la custodia de transacción, que vale la pena distinguir."
+        ]
+      ],
+      "definitions": [
+        [
+          "Custodia (Sentido de Transacción)",
+          "Un arreglo neutral de terceros que retiene fondos y documentos hasta que se cumplan las condiciones de una venta."
+        ],
+        [
+          "Custodio",
+          "El tercero neutral (a menudo una compañía de título o un abogado) que administra el proceso de custodia."
+        ],
+        [
+          "Cuenta de Custodia (Sentido Continuo)",
+          "Una cuenta continua separada, a menudo establecida por un administrador de hipoteca, para recolectar y pagar el impuesto sobre la propiedad y el seguro."
+        ],
+        [
+          "Cierre",
+          "El paso final de una transacción de bienes raíces, cuando se liberan los fondos y documentos y se transfiere la propiedad."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: El dinero de buena fe de un comprador y los documentos de compra firmados permanecen con una compañía de custodia hasta que se satisfacen las condiciones de inspección, tasación, y financiamiento, momento en el cual todo se libera al cierre."
+      ],
+      "mistakes": [
+        "Confundir la custodia de transacción con la cuenta de custodia hipotecaria continua para impuestos y seguro.",
+        "Asumir que el custodio representa específicamente los intereses del comprador.",
+        "No entender que la custodia protege a ambas partes al asegurar que se cumplan las condiciones antes de que se muevan los fondos."
+      ],
+      "faq": [
+        [
+          "¿Trabaja el custodio para el comprador o el vendedor?",
+          "Ninguno — el custodio es un tercero neutral."
+        ],
+        [
+          "¿Es la custodia lo mismo que la cuenta de impuestos/seguro en mi estado de cuenta hipotecario?",
+          "No — esa es una cuenta continua relacionada pero separada; esta lección se enfoca en el sentido de cierre de transacción de la custodia."
+        ]
+      ],
+      "takeaways": [
+        "La custodia, en una compra, significa un tercero neutral que retiene fondos/documentos hasta que se cumplan las condiciones.",
+        "El custodio no representa a ninguna de las partes.",
+        "Esto difiere de la cuenta de custodia hipotecaria continua para impuestos y seguro."
+      ],
+      "exercise": "En tus propias palabras, explica por qué un custodio neutral beneficia tanto al comprador como al vendedor durante una transacción."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

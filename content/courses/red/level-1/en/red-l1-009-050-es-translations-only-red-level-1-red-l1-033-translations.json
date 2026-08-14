@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-033",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es La Zonificación, y Por Qué No Puedes Construir Lo Que Quieras, Donde Quieras?",
+      "exec_summary": "La zonificación moldea silenciosamente lo que es posible con un terreno mucho antes de que un dueño levante un martillo. Esta lección explica qué controla la zonificación y por qué existe.",
+      "objectives": [
+        "Definir la zonificación",
+        "Explicar qué controlan típicamente las leyes de zonificación",
+        "Identificar por qué existe la zonificación",
+        "Reconocer la zonificación como una REGLA ESPECÍFICA DE LA REGIÓN"
+      ],
+      "topics": [
+        [
+          "Qué Es La Zonificación",
+          "La zonificación es un sistema de regulaciones del gobierno local que divide el terreno en categorías designadas (como residencial, comercial, o industrial) que controlan cómo se puede usar la propiedad en cada categoría."
+        ],
+        [
+          "Qué Controla",
+          "La zonificación puede controlar el uso del edificio, la altura, la densidad, los retiros de las líneas de propiedad, y a veces incluso el estilo arquitectónico — una REGLA ESPECÍFICA DE LA REGIÓN que varía significativamente por municipio."
+        ],
+        [
+          "Por Qué Existe",
+          "La zonificación generalmente existe para separar usos de terreno incompatibles (como una fábrica junto a una escuela) y administrar el crecimiento comunitario y las necesidades de infraestructura."
+        ],
+        [
+          "Por Qué Importa Para Los Dueños",
+          "Un dueño no puede simplemente construir o usar una propiedad como quiera — las restricciones de zonificación pueden limitar remodelaciones, adiciones, o uso de negocio de una propiedad residencial."
+        ]
+      ],
+      "definitions": [
+        [
+          "Zonificación",
+          "Regulaciones del gobierno local que dividen el terreno en categorías que controlan los usos permitidos."
+        ],
+        [
+          "Retiro (Setback)",
+          "La distancia mínima que una estructura debe estar de una línea de propiedad bajo las reglas de zonificación."
+        ],
+        [
+          "Variancia",
+          "Una excepción otorgada a una regla de zonificación, usualmente a través de un proceso formal de solicitud."
+        ],
+        [
+          "Categoría de Zonificación",
+          "Una clasificación designada (por ejemplo, residencial, comercial) que determina el uso permitido del terreno."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño en una zona residencial no puede legalmente abrir una tienda minorista desde su casa sin buscar una variancia u operar dentro de los límites que el código de zonificación permite para negocios en casa."
+      ],
+      "mistakes": [
+        "Asumir que cualquier remodelación o uso está permitido mientras seas el dueño de la propiedad.",
+        "No verificar la zonificación antes de comprar terreno destinado a un uso específico.",
+        "Asumir que las reglas de zonificación son iguales en cada ciudad."
+      ],
+      "faq": [
+        [
+          "¿Pueden cambiar las reglas de zonificación con el tiempo?",
+          "Sí — los gobiernos locales pueden rezonificar áreas, lo cual es un proceso ESPECÍFICO DE LA REGIÓN que varía por municipio."
+        ],
+        [
+          "¿Qué es una variancia?",
+          "Una excepción formal a una regla de zonificación, típicamente requiriendo un proceso de solicitud y aprobación."
+        ]
+      ],
+      "takeaways": [
+        "La zonificación controla cómo se puede usar el terreno en diferentes categorías.",
+        "Existe para separar usos incompatibles y administrar el crecimiento.",
+        "Las reglas de zonificación varían significativamente por municipio y pueden limitar lo que un dueño puede hacer."
+      ],
+      "exercise": "Explica por qué una ciudad podría evitar que se construya una fábrica directamente junto a un vecindario residencial, usando el concepto de zonificación."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

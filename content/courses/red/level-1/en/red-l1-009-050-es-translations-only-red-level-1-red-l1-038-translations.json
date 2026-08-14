@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-038",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Voltear (Flipping), y Qué Puede Salir Mal?",
+      "exec_summary": "Voltear (flipping) se ve simple en la televisión: comprar barato, remodelar, vender caro. Esta lección explica qué involucra realmente el flipping y los riesgos reales que pueden convertir un trato prometedor en una pérdida.",
+      "objectives": [
+        "Definir el flipping de propiedades",
+        "Identificar el proceso básico de flipping",
+        "Enumerar riesgos comunes",
+        "Explicar por qué importa la precisión del presupuesto"
+      ],
+      "topics": [
+        [
+          "Qué Significa Voltear",
+          "Voltear significa comprar una propiedad, típicamente una que necesita remodelación, mejorarla, y revenderla relativamente rápido por una ganancia."
+        ],
+        [
+          "El Proceso Básico",
+          "Los pasos generales incluyen encontrar una propiedad subvalorada, estimar con precisión los costos de remodelación, financiar la compra y remodelación, completar el trabajo, y revender."
+        ],
+        [
+          "Riesgos Comunes",
+          "Los riesgos incluyen subestimar los costos de remodelación, problemas estructurales inesperados encontrados durante el trabajo, costos de financiamiento acumulándose durante un plazo más largo de lo planeado, y cambios de mercado antes de la reventa."
+        ],
+        [
+          "Por Qué Importa La Precisión del Presupuesto",
+          "Ya que la ganancia es la diferencia entre los costos totales (compra, remodelación, financiamiento, costos de venta) y el precio de reventa, incluso sobrecostos modestos pueden borrar el margen de ganancia de un flip."
+        ]
+      ],
+      "definitions": [
+        [
+          "Voltear (Flipping)",
+          "Comprar, remodelar, y revender rápidamente una propiedad por ganancia."
+        ],
+        [
+          "Valor Después de Reparación (ARV)",
+          "El valor estimado de una propiedad después de que se completan las remodelaciones planeadas."
+        ],
+        [
+          "Costos de Retención",
+          "Costos continuos (financiamiento, impuestos, seguro) incurridos mientras se remodela y vende un flip."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un volteador compra una propiedad por $200,000, presupuesta $50,000 para remodelación, y espera vender por $300,000 — pero problemas de fundación ocultos añaden $20,000 en costos no planeados, reduciendo drásticamente la ganancia esperada."
+      ],
+      "mistakes": [
+        "Subestimar los costos de remodelación, especialmente para problemas ocultos.",
+        "Ignorar los costos de retención durante un plazo de remodelación y venta más largo de lo esperado.",
+        "Sobreestimar el valor de reventa (ARV) sin datos comparables sólidos."
+      ],
+      "faq": [
+        [
+          "¿Está garantizado que el flipping sea rentable?",
+          "No — OPINIÓN/RIESGO VERIFICADO: el flipping conlleva riesgo financiero real, y muchos flips tienen un desempeño inferior a las proyecciones iniciales."
+        ],
+        [
+          "¿Qué es ARV?",
+          "Valor Después de Reparación — el valor estimado de la propiedad una vez que se completan las remodelaciones, usado para planear el trato."
+        ]
+      ],
+      "takeaways": [
+        "Voltear involucra comprar, remodelar, y revender rápidamente por ganancia.",
+        "Los riesgos comunes incluyen sobrecostos, costos de retención, y cambios de mercado.",
+        "El presupuesto preciso tanto para remodelación como para retención es crítico para la rentabilidad."
+      ],
+      "exercise": "Enumera tres riesgos específicos que podrían reducir o eliminar la ganancia en un flip, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

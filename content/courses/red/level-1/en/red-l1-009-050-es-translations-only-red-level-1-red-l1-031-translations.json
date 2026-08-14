@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-031",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Desalojo, y Por Qué Es Un Último Recurso, No Un Primer Paso?",
+      "exec_summary": "El desalojo a menudo se malentiende como algo que un arrendador puede hacer instantáneamente. Esta lección explica qué es realmente el desalojo legalmente, por qué requiere un proceso formal, y por qué los arrendadores experimentados lo tratan como último recurso.",
+      "objectives": [
+        "Definir el desalojo legalmente",
+        "Explicar por qué el desalojo requiere un proceso judicial formal",
+        "Identificar por qué se considera un último recurso",
+        "Reconocer los riesgos de un arrendador actuando sin proceso legal"
+      ],
+      "topics": [
+        [
+          "Qué Es Realmente El Desalojo",
+          "El desalojo es el proceso legal por el cual un arrendador remueve a un inquilino de una propiedad de renta, típicamente debido a violaciones del contrato como el no pago de renta."
+        ],
+        [
+          "Por Qué Requiere Un Proceso Formal",
+          "Un arrendador generalmente no puede simplemente remover a un inquilino o sus pertenencias sin pasar por la corte — esto es una REGLA ESPECÍFICA DE LA REGIÓN, pero el requisito de un proceso legal formal es común en las jurisdicciones de EE.UU."
+        ],
+        [
+          "Por Qué Es Un Último Recurso",
+          "El desalojo es costoso y consume mucho tiempo para los arrendadores también — renta perdida, honorarios legales, y tiempo de vacancia a menudo lo hacen un peor resultado que resolver problemas directamente con un inquilino cuando es posible."
+        ],
+        [
+          "El Riesgo del Desalojo Por Cuenta Propia",
+          "Los arrendadores que intentan remover a un inquilino sin seguir el proceso legal (como cambiar las cerraduras o cortar los servicios) pueden enfrentar responsabilidad legal significativa — a menudo llamado 'desalojo por cuenta propia,' lo cual es ilegal en la mayoría de las jurisdicciones."
+        ]
+      ],
+      "definitions": [
+        [
+          "Desalojo",
+          "El proceso legal de remover a un inquilino de una propiedad de renta."
+        ],
+        [
+          "Desalojo Por Cuenta Propia",
+          "Un intento ilegal de un arrendador de remover a un inquilino sin seguir el proceso legal formal."
+        ],
+        [
+          "Aviso de Desalojo",
+          "Un aviso formal dado a un inquilino como un primer paso requerido antes de los procedimientos de desalojo en muchas jurisdicciones."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un arrendador cambia las cerraduras de un inquilino que no paga sin pasar por la corte — este intento de desalojo por cuenta propia expone al arrendador a responsabilidad legal en lugar de resolver la situación."
+      ],
+      "mistakes": [
+        "Asumir que un arrendador puede remover a un inquilino o sus pertenencias sin involucramiento de la corte.",
+        "Tratar el desalojo como una solución rápida y de bajo costo.",
+        "No entender que el desalojo por cuenta propia es ilegal en la mayoría de los lugares."
+      ],
+      "faq": [
+        [
+          "¿Puede un arrendador cambiar las cerraduras para remover a un inquilino que no paga?",
+          "Generalmente no — esto típicamente es un desalojo por cuenta propia ilegal y puede exponer al arrendador a responsabilidad legal."
+        ],
+        [
+          "¿Es el proceso de desalojo igual en todas partes?",
+          "No, esto es una REGLA ESPECÍFICA DE LA REGIÓN con plazos y requisitos que varían por estado y localidad."
+        ]
+      ],
+      "takeaways": [
+        "El desalojo requiere un proceso legal formal, no acción por cuenta propia del arrendador.",
+        "Es costoso y consume tiempo, haciéndolo un último recurso en la práctica.",
+        "Los intentos de desalojo por cuenta propia pueden crear responsabilidad legal para los arrendadores."
+      ],
+      "exercise": "Explica en tus propias palabras por qué el desalojo se describe como un 'último recurso' en lugar de la primera respuesta de un arrendador a una violación del contrato."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

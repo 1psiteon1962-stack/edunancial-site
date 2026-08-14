@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-029",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Contrato de Arrendamiento, y Qué Debería Incluir?",
+      "exec_summary": "Un contrato de arrendamiento es la base legal de la relación arrendador-inquilino. Esta lección explica qué es realmente un contrato de arrendamiento y los términos principales que debería contener.",
+      "objectives": [
+        "Definir un contrato de arrendamiento legalmente",
+        "Enumerar términos principales que debería incluir un contrato de arrendamiento",
+        "Explicar por qué importa un contrato de arrendamiento escrito",
+        "Reconocer que los términos del contrato son negociables dentro de límites legales"
+      ],
+      "topics": [
+        [
+          "Qué Es Un Contrato de Arrendamiento",
+          "Un contrato de arrendamiento es un contrato legalmente vinculante entre un arrendador y un inquilino, otorgándole al inquilino el derecho de ocupar una propiedad por un período establecido a cambio de renta."
+        ],
+        [
+          "Términos Principales A Incluir",
+          "Los términos principales comunes incluyen los nombres de las partes, la dirección de la propiedad, el monto de la renta y la fecha de vencimiento, el plazo del contrato (fechas de inicio/fin), el monto del depósito de seguridad, y las responsabilidades de mantenimiento."
+        ],
+        [
+          "Por Qué Importa Un Contrato Escrito",
+          "Un contrato de arrendamiento escrito crea un registro claro de las obligaciones de ambas partes, reduciendo disputas comparado con un acuerdo verbal — HECHO VERIFICADO de que los contratos escritos son fuertemente recomendados, aunque los contratos verbales pueden ser legalmente vinculantes en algunas jurisdicciones."
+        ],
+        [
+          "Negociable Dentro de Límites Legales",
+          "Muchos términos del contrato son negociables entre arrendador e inquilino, pero ciertas protecciones (como la habitabilidad) están establecidas por ley y no pueden renunciarse, lo cual es una REGLA ESPECÍFICA DE LA REGIÓN."
+        ]
+      ],
+      "definitions": [
+        [
+          "Contrato de Arrendamiento",
+          "Un contrato legalmente vinculante que otorga a un inquilino el derecho de ocupar una propiedad a cambio de renta."
+        ],
+        [
+          "Plazo del Contrato",
+          "El período de tiempo que cubre el contrato, desde la fecha de inicio hasta la fecha de fin."
+        ],
+        [
+          "Depósito de Seguridad",
+          "Fondos retenidos por un arrendador para cubrir posibles daños o renta sin pagar, cubierto completamente en la próxima lección."
+        ],
+        [
+          "Fecha de Vencimiento de Renta",
+          "La fecha en que se debe cada pago de renta del período."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un contrato de arrendamiento de 12 meses especifica $1,500 de renta mensual con vencimiento el día 1, un depósito de seguridad de $1,500, y que el inquilino es responsable del cuidado del césped."
+      ],
+      "mistakes": [
+        "Depender de un acuerdo verbal en lugar de un contrato escrito.",
+        "Dejar fuera fechas o montos claros de vencimiento de renta.",
+        "Asumir que cualquier término del contrato es exigible, aunque entre en conflicto con las leyes de protección al inquilino."
+      ],
+      "faq": [
+        [
+          "¿Puede un contrato incluir cualquier término que quiera el arrendador?",
+          "No — ciertas protecciones al inquilino establecidas por ley generalmente no pueden renunciarse por los términos del contrato, esto es una REGLA ESPECÍFICA DE LA REGIÓN."
+        ],
+        [
+          "¿Es un contrato verbal legalmente vinculante?",
+          "En algunas jurisdicciones sí, pero es mucho más difícil de hacer cumplir y probar que un contrato escrito."
+        ]
+      ],
+      "takeaways": [
+        "Un contrato de arrendamiento es un contrato vinculante que define la relación arrendador-inquilino.",
+        "Los términos principales deben incluir nombres, propiedad, renta, fechas de plazo, y depósito.",
+        "Los contratos escritos reducen disputas comparados con acuerdos verbales."
+      ],
+      "exercise": "Redacta una lista corta de cinco términos que querrías incluir en un contrato de arrendamiento si fueras el arrendador."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}
