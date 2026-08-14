@@ -1,288 +1,24 @@
 # Curriculum Validation Report
 
-**Generated:** 2026-08-09T01:07:19.457Z
-**Total Assets:** 127
-**Passed:** 130
+**Generated:** 2026-08-14T01:43:16.549Z
+**Total Assets:** 52
+**Passed:** 52
 **Failed:** 0
-**Localized Files Audited:** 3
+**Localized Files Audited:** 0
 
 ## Results
 
-### RED-L1-001 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-001.md`
-
-### RED-L1-002 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-002.md`
-
-### RED-L1-003 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-003.md`
-
-### RED-L1-004 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-004.md`
-
-### RED-L1-005 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-005.md`
-
-### RED-L1-006 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-006.md`
-
-### RED-L1-007 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-007.md`
-
-### RED-L1-008 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-008.md`
-
-### RED-L1-009 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-009.md`
-
-### RED-L1-010 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-010.md`
-
-### RED-L1-011 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-011.md`
-
-### RED-L1-012 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-012.md`
-
-### RED-L1-013 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-013.md`
-
-### RED-L1-014 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-014.md`
-
-### RED-L1-015 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-015.md`
-
-### RED-L1-016 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-016.md`
-
-### RED-L1-017 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-017.md`
-
-### RED-L1-018 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-018.md`
-
-### RED-L1-019 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-019.md`
-
-### RED-L1-020 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-020.md`
-
-### RED-L1-021 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-021.md`
-
-### RED-L1-022 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-022.md`
-
-### RED-L1-023 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-023.md`
-
-### RED-L1-024 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-024.md`
-
-### RED-L1-025 — ✅ PASS
-Path: `content/curriculum/RED/L1/RED-L1-025.md`
-
-### WHITE-L1-001 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-001.md`
-
-### WHITE-L1-002 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-002.md`
-
-### WHITE-L1-003 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-003.md`
-
-### WHITE-L1-004 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-004.md`
-
-### WHITE-L1-005 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-005.md`
-
-### WHITE-L1-006 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-006.md`
-
-### WHITE-L1-007 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-007.md`
-
-### WHITE-L1-008 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-008.md`
-
-### WHITE-L1-009 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-009.md`
-
-### WHITE-L1-010 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-010.md`
-
-### WHITE-L1-MANIFEST — ✅ PASS
-Path: `curriculum/manifests/WHITE-L1-MANIFEST.md`
-
-### WHITE-L1-011 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-011.md`
-
-### WHITE-L1-012 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-012.md`
-
-### WHITE-L1-013 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-013.md`
-
-### WHITE-L1-014 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-014.md`
-
-### WHITE-L1-015 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-015.md`
-
-### WHITE-L1-016 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-016.md`
-
-### WHITE-L1-017 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-017.md`
-
-### WHITE-L1-018 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-018.md`
-
-### WHITE-L1-019 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-019.md`
-
-### WHITE-L1-020 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-020.md`
-
-### WHITE-L1-021 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-021.md`
-
-### WHITE-L1-022 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-022.md`
-
-### WHITE-L1-023 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-023.md`
-
-### WHITE-L1-024 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-024.md`
-
-### WHITE-L1-025 — ✅ PASS
-Path: `content/curriculum/WHITE/L1/WHITE-L1-025.md`
-
-### BLUE-L1-001 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-001.md`
-
-### BLUE-L1-002 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-002.md`
-
-### BLUE-L1-003 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-003.md`
-
-### BLUE-L1-004 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-004.md`
-
-### BLUE-L1-005 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-005.md`
-
-### BLUE-L1-006 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-006.md`
-
-### BLUE-L1-007 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-007.md`
-
-### BLUE-L1-008 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-008.md`
-
-### BLUE-L1-009 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-009.md`
-
-### BLUE-L1-010 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-010.md`
-
-### BLUE-L1-MANIFEST — ✅ PASS
-Path: `curriculum/manifests/BLUE-L1-MANIFEST.md`
-
-### BLUE-L1-011 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-011.md`
-
-### BLUE-L1-012 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-012.md`
-
-### BLUE-L1-013 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-013.md`
-
-### BLUE-L1-014 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-014.md`
-
-### BLUE-L1-015 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-015.md`
-
-### BLUE-L1-016 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-016.md`
-
-### BLUE-L1-017 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-017.md`
-
-### BLUE-L1-018 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-018.md`
-
-### BLUE-L1-019 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-019.md`
-
-### BLUE-L1-020 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-020.md`
-
-### BLUE-L1-021 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-021.md`
-
-### BLUE-L1-022 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-022.md`
-
-### BLUE-L1-023 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-023.md`
-
-### BLUE-L1-024 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-024.md`
-
-### BLUE-L1-025 — ✅ PASS
-Path: `content/curriculum/BLUE/L1/BLUE-L1-025.md`
-
-### GREEN-L1-001 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-001.md`
-
-### GREEN-L1-002 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-002.md`
-
-### GREEN-L1-003 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-003.md`
-
-### GREEN-L1-004 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-004.md`
-
-### GREEN-L1-005 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-005.md`
-
-### GREEN-L1-006 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-006.md`
-
-### GREEN-L1-007 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-007.md`
-
-### GREEN-L1-008 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-008.md`
-
-### GREEN-L1-009 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-009.md`
-
-### GREEN-L1-010 — ✅ PASS
-Path: `content/curriculum/GREEN/L1/GREEN-L1-010.md`
+### RED-L2-001 — ✅ PASS
+Path: `content/curriculum/RED/L2/RED-L2-001.md`
+
+### RED-L2-002 — ✅ PASS
+Path: `content/curriculum/RED/L2/RED-L2-002.md`
 
 ### GOLD-L1-001 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-001.md`
 
 ### GOLD-L1-002 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-002.md`
-
-### GOLD-L1-002:GOLD-L1-002.es-PR.md — ✅ PASS
-Path: `content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md`
-
-### GOLD-L1-002:GOLD-L1-002.es.md — ✅ PASS
-Path: `content/curriculum/GOLD/L1/GOLD-L1-002.es.md`
-
-### GOLD-L1-002:GOLD-L1-002.fr.md — ✅ PASS
-Path: `content/curriculum/GOLD/L1/GOLD-L1-002.fr.md`
 
 ### GOLD-L1-003 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-003.md`
@@ -308,93 +44,123 @@ Path: `content/curriculum/GOLD/L1/GOLD-L1-009.md`
 ### GOLD-L1-010 — ✅ PASS
 Path: `content/curriculum/GOLD/L1/GOLD-L1-010.md`
 
-### PURPLE-L1-001 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-001.md`
+### GOLD-L1-011 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-011.md`
 
-### PURPLE-L1-002 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-002.md`
+### GOLD-L1-012 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-012.md`
 
-### PURPLE-L1-003 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-003.md`
+### GOLD-L1-013 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-013.md`
 
-### PURPLE-L1-004 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-004.md`
+### GOLD-L1-014 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-014.md`
 
-### PURPLE-L1-005 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-005.md`
+### GOLD-L1-015 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-015.md`
 
-### PURPLE-L1-006 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-006.md`
+### GOLD-L1-016 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-016.md`
 
-### PURPLE-L1-007 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-007.md`
+### GOLD-L1-017 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-017.md`
 
-### PURPLE-L1-008 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-008.md`
+### GOLD-L1-018 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-018.md`
 
-### PURPLE-L1-009 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-009.md`
+### GOLD-L1-019 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-019.md`
 
-### PURPLE-L1-010 — ✅ PASS
-Path: `content/curriculum/PURPLE/L1/PURPLE-L1-010.md`
+### GOLD-L1-020 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-020.md`
 
-### ORANGE-L1-001 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-001.md`
+### GOLD-L1-021 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-021.md`
 
-### ORANGE-L1-002 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-002.md`
+### GOLD-L1-022 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-022.md`
 
-### ORANGE-L1-003 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-003.md`
+### GOLD-L1-023 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-023.md`
 
-### ORANGE-L1-004 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-004.md`
+### GOLD-L1-024 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-024.md`
 
-### ORANGE-L1-005 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-005.md`
+### GOLD-L1-025 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-025.md`
 
-### ORANGE-L1-006 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-006.md`
+### GOLD-L1-026 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-026.md`
 
-### ORANGE-L1-007 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-007.md`
+### GOLD-L1-027 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-027.md`
 
-### ORANGE-L1-008 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-008.md`
+### GOLD-L1-028 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-028.md`
 
-### ORANGE-L1-009 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-009.md`
+### GOLD-L1-029 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-029.md`
 
-### ORANGE-L1-010 — ✅ PASS
-Path: `content/curriculum/ORANGE/L1/ORANGE-L1-010.md`
+### GOLD-L1-030 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-030.md`
 
-### BLACK-L1-001 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-001.md`
+### GOLD-L1-031 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-031.md`
 
-### BLACK-L1-002 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-002.md`
+### GOLD-L1-032 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-032.md`
 
-### BLACK-L1-003 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-003.md`
+### GOLD-L1-033 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-033.md`
 
-### BLACK-L1-004 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-004.md`
+### GOLD-L1-034 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-034.md`
 
-### BLACK-L1-005 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-005.md`
+### GOLD-L1-035 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-035.md`
 
-### BLACK-L1-006 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-006.md`
+### GOLD-L1-036 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-036.md`
 
-### BLACK-L1-007 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-007.md`
+### GOLD-L1-037 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-037.md`
 
-### BLACK-L1-008 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-008.md`
+### GOLD-L1-038 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-038.md`
 
-### BLACK-L1-009 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-009.md`
+### GOLD-L1-039 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-039.md`
 
-### BLACK-L1-010 — ✅ PASS
-Path: `content/curriculum/BLACK/L1/BLACK-L1-010.md`
+### GOLD-L1-040 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-040.md`
+
+### GOLD-L1-041 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-041.md`
+
+### GOLD-L1-042 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-042.md`
+
+### GOLD-L1-043 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-043.md`
+
+### GOLD-L1-044 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-044.md`
+
+### GOLD-L1-045 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-045.md`
+
+### GOLD-L1-046 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-046.md`
+
+### GOLD-L1-047 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-047.md`
+
+### GOLD-L1-048 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-048.md`
+
+### GOLD-L1-049 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-049.md`
+
+### GOLD-L1-050 — ✅ PASS
+Path: `content/curriculum/GOLD/L1/GOLD-L1-050.md`
 

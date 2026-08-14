@@ -1,529 +1,19 @@
 {
-  "timestamp": "2026-08-09T01:07:19.457Z",
-  "totalAssets": 127,
-  "localizedFiles": 3,
-  "passed": 130,
+  "timestamp": "2026-08-14T01:43:16.549Z",
+  "totalAssets": 52,
+  "localizedFiles": 0,
+  "passed": 52,
   "failed": 0,
   "results": [
     {
-      "assetId": "RED-L1-001",
-      "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "assetId": "RED-L2-001",
+      "path": "content/curriculum/RED/L2/RED-L2-001.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "RED-L1-002",
-      "path": "content/curriculum/RED/L1/RED-L1-002.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-003",
-      "path": "content/curriculum/RED/L1/RED-L1-003.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-004",
-      "path": "content/curriculum/RED/L1/RED-L1-004.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-005",
-      "path": "content/curriculum/RED/L1/RED-L1-005.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-006",
-      "path": "content/curriculum/RED/L1/RED-L1-006.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-007",
-      "path": "content/curriculum/RED/L1/RED-L1-007.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-008",
-      "path": "content/curriculum/RED/L1/RED-L1-008.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-009",
-      "path": "content/curriculum/RED/L1/RED-L1-009.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-010",
-      "path": "content/curriculum/RED/L1/RED-L1-010.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-011",
-      "path": "content/curriculum/RED/L1/RED-L1-011.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-012",
-      "path": "content/curriculum/RED/L1/RED-L1-012.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-013",
-      "path": "content/curriculum/RED/L1/RED-L1-013.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-014",
-      "path": "content/curriculum/RED/L1/RED-L1-014.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-015",
-      "path": "content/curriculum/RED/L1/RED-L1-015.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-016",
-      "path": "content/curriculum/RED/L1/RED-L1-016.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-017",
-      "path": "content/curriculum/RED/L1/RED-L1-017.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-018",
-      "path": "content/curriculum/RED/L1/RED-L1-018.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-019",
-      "path": "content/curriculum/RED/L1/RED-L1-019.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-020",
-      "path": "content/curriculum/RED/L1/RED-L1-020.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-021",
-      "path": "content/curriculum/RED/L1/RED-L1-021.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-022",
-      "path": "content/curriculum/RED/L1/RED-L1-022.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-023",
-      "path": "content/curriculum/RED/L1/RED-L1-023.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-024",
-      "path": "content/curriculum/RED/L1/RED-L1-024.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "RED-L1-025",
-      "path": "content/curriculum/RED/L1/RED-L1-025.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-001",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-001.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-002",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-002.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-003",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-003.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-004",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-004.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-005",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-005.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-006",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-006.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-007",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-007.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-008",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-008.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-009",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-009.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-010",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-010.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-MANIFEST",
-      "path": "curriculum/manifests/WHITE-L1-MANIFEST.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-011",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-011.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-012",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-012.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-013",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-013.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-014",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-014.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-015",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-015.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-016",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-016.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-017",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-017.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-018",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-018.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-019",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-019.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-020",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-020.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-021",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-021.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-022",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-022.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-023",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-023.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-024",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-024.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "WHITE-L1-025",
-      "path": "content/curriculum/WHITE/L1/WHITE-L1-025.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-001",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-001.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-002",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-002.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-003",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-003.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-004",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-004.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-005",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-005.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-006",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-006.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-007",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-007.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-008",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-008.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-009",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-009.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-010",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-010.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-MANIFEST",
-      "path": "curriculum/manifests/BLUE-L1-MANIFEST.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-011",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-011.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-012",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-012.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-013",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-013.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-014",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-014.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-015",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-015.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-016",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-016.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-017",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-017.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-018",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-018.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-019",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-019.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-020",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-020.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-021",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-021.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-022",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-022.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-023",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-023.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-024",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-024.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "BLUE-L1-025",
-      "path": "content/curriculum/BLUE/L1/BLUE-L1-025.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-001",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-001.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-002",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-002.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-003",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-003.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-004",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-004.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-005",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-005.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-006",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-006.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-007",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-007.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-008",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-008.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-009",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-009.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GREEN-L1-010",
-      "path": "content/curriculum/GREEN/L1/GREEN-L1-010.md",
+      "assetId": "RED-L2-002",
+      "path": "content/curriculum/RED/L2/RED-L2-002.md",
       "errors": [],
       "warnings": []
     },
@@ -536,24 +26,6 @@
     {
       "assetId": "GOLD-L1-002",
       "path": "content/curriculum/GOLD/L1/GOLD-L1-002.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GOLD-L1-002:GOLD-L1-002.es-PR.md",
-      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es-PR.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GOLD-L1-002:GOLD-L1-002.es.md",
-      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.es.md",
-      "errors": [],
-      "warnings": []
-    },
-    {
-      "assetId": "GOLD-L1-002:GOLD-L1-002.fr.md",
-      "path": "content/curriculum/GOLD/L1/GOLD-L1-002.fr.md",
       "errors": [],
       "warnings": []
     },
@@ -606,182 +78,242 @@
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-001",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-001.md",
+      "assetId": "GOLD-L1-011",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-011.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-002",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-002.md",
+      "assetId": "GOLD-L1-012",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-012.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-003",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-003.md",
+      "assetId": "GOLD-L1-013",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-013.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-004",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-004.md",
+      "assetId": "GOLD-L1-014",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-014.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-005",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-005.md",
+      "assetId": "GOLD-L1-015",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-015.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-006",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-006.md",
+      "assetId": "GOLD-L1-016",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-016.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-007",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-007.md",
+      "assetId": "GOLD-L1-017",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-017.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-008",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-008.md",
+      "assetId": "GOLD-L1-018",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-018.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-009",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-009.md",
+      "assetId": "GOLD-L1-019",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-019.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "PURPLE-L1-010",
-      "path": "content/curriculum/PURPLE/L1/PURPLE-L1-010.md",
+      "assetId": "GOLD-L1-020",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-020.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-001",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-001.md",
+      "assetId": "GOLD-L1-021",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-021.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-002",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-002.md",
+      "assetId": "GOLD-L1-022",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-022.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-003",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-003.md",
+      "assetId": "GOLD-L1-023",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-023.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-004",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-004.md",
+      "assetId": "GOLD-L1-024",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-024.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-005",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-005.md",
+      "assetId": "GOLD-L1-025",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-025.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-006",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-006.md",
+      "assetId": "GOLD-L1-026",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-026.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-007",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-007.md",
+      "assetId": "GOLD-L1-027",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-027.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-008",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-008.md",
+      "assetId": "GOLD-L1-028",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-028.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-009",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-009.md",
+      "assetId": "GOLD-L1-029",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-029.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "ORANGE-L1-010",
-      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-010.md",
+      "assetId": "GOLD-L1-030",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-030.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-001",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-001.md",
+      "assetId": "GOLD-L1-031",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-031.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-002",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-002.md",
+      "assetId": "GOLD-L1-032",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-032.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-003",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-003.md",
+      "assetId": "GOLD-L1-033",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-033.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-004",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-004.md",
+      "assetId": "GOLD-L1-034",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-034.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-005",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-005.md",
+      "assetId": "GOLD-L1-035",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-035.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-006",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-006.md",
+      "assetId": "GOLD-L1-036",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-036.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-007",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-007.md",
+      "assetId": "GOLD-L1-037",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-037.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-008",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-008.md",
+      "assetId": "GOLD-L1-038",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-038.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-009",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-009.md",
+      "assetId": "GOLD-L1-039",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-039.md",
       "errors": [],
       "warnings": []
     },
     {
-      "assetId": "BLACK-L1-010",
-      "path": "content/curriculum/BLACK/L1/BLACK-L1-010.md",
+      "assetId": "GOLD-L1-040",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-040.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-041",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-041.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-042",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-042.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-043",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-043.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-044",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-044.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-045",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-045.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-046",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-046.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-047",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-047.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-048",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-048.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-049",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-049.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "assetId": "GOLD-L1-050",
+      "path": "content/curriculum/GOLD/L1/GOLD-L1-050.md",
       "errors": [],
       "warnings": []
     }
