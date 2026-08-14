@@ -21,6 +21,7 @@ import {
 
 const PUBLISHED_STATE_PATH = "published/curriculum-state.json";
 const SEEDS_DIR = join(process.cwd(), "curriculum", "seeds", "translations");
+const COURSE_CONTENT_DIR = join(process.cwd(), "content", "courses");
 
 export interface PublishedLessonTranslation {
   title?: string;
@@ -204,7 +205,6 @@ function entryFromRegistryAsset(asset: RegistryAsset): PublishedLessonRecord | n
     };
   }
 
-  // Fall back to registry metadata when no content file is available
   return {
     id: asset.id,
     track: asset.track,
@@ -227,33 +227,84 @@ function entryFromRegistryAsset(asset: RegistryAsset): PublishedLessonRecord | n
 
 let _seedTranslationCache: Map<string, PublishedLessonTranslation> | null = null;
 
+function addTranslationToMap(
+  map: Map<string, PublishedLessonTranslation>,
+  lessonId: string,
+  locale: string,
+  translation: PublishedLessonTranslation,
+): void {
+  const normalizedLessonId = lessonId.trim().toUpperCase();
+  const normalizedLocale = locale.trim();
+  if (!normalizedLessonId || !normalizedLocale) return;
+  map.set(`${normalizedLessonId}::${normalizedLocale}`, translation);
+}
+
+function loadBundledTranslationFiles(
+  dir: string,
+  map: Map<string, PublishedLessonTranslation>,
+): void {
+  if (!existsSync(dir)) return;
+
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const path = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      loadBundledTranslationFiles(path, map);
+      continue;
+    }
+    if (!entry.name.endsWith("-translations.json")) continue;
+
+    try {
+      const parsed = JSON.parse(readFileSync(path, "utf8")) as {
+        id?: string;
+        translations?: Record<string, PublishedLessonTranslation>;
+      };
+      if (typeof parsed.id !== "string" || !parsed.translations || typeof parsed.translations !== "object") {
+        continue;
+      }
+      for (const [locale, translation] of Object.entries(parsed.translations)) {
+        if (!translation || typeof translation !== "object") continue;
+        addTranslationToMap(map, parsed.id, locale, {
+          ...(typeof translation.title === "string" ? { title: translation.title } : {}),
+          ...(typeof translation.summary === "string" ? { summary: translation.summary } : {}),
+          ...(typeof translation.body === "string" ? { body: translation.body } : {}),
+        });
+      }
+    } catch {
+      // Ignore malformed translation artifacts; they should not break curriculum rendering.
+    }
+  }
+}
+
 function loadSeedTranslations(): Map<string, PublishedLessonTranslation> {
   if (_seedTranslationCache) return _seedTranslationCache;
   const map = new Map<string, PublishedLessonTranslation>();
-  if (!existsSync(SEEDS_DIR)) {
-    _seedTranslationCache = map;
-    return map;
-  }
-  for (const file of readdirSync(SEEDS_DIR)) {
-    if (!file.endsWith(".json")) continue;
-    try {
-      const content = readFileSync(join(SEEDS_DIR, file), "utf8");
-      const records = JSON.parse(content) as PublishedLessonTranslationImportRecord[];
-      if (!Array.isArray(records)) continue;
-      for (const record of records) {
-        if (typeof record.lessonId === "string" && typeof record.locale === "string") {
-          const key = `${record.lessonId}::${record.locale}`;
-          map.set(key, {
-            ...(typeof record.title === "string" ? { title: record.title } : {}),
-            ...(typeof record.summary === "string" ? { summary: record.summary } : {}),
-            ...(typeof record.body === "string" ? { body: record.body } : {}),
-          });
+
+  if (existsSync(SEEDS_DIR)) {
+    for (const file of readdirSync(SEEDS_DIR)) {
+      if (!file.endsWith(".json")) continue;
+      try {
+        const content = readFileSync(join(SEEDS_DIR, file), "utf8");
+        const records = JSON.parse(content) as PublishedLessonTranslationImportRecord[];
+        if (!Array.isArray(records)) continue;
+        for (const record of records) {
+          if (typeof record.lessonId === "string" && typeof record.locale === "string") {
+            addTranslationToMap(map, record.lessonId, record.locale, {
+              ...(typeof record.title === "string" ? { title: record.title } : {}),
+              ...(typeof record.summary === "string" ? { summary: record.summary } : {}),
+              ...(typeof record.body === "string" ? { body: record.body } : {}),
+            });
+          }
         }
+      } catch {
+        // skip malformed seed files
       }
-    } catch {
-      // skip malformed seed files
     }
   }
+
+  // Course imports also generate JSON translation artifacts next to the source
+  // lessons. These files were previously committed but never read at runtime.
+  loadBundledTranslationFiles(COURSE_CONTENT_DIR, map);
+
   _seedTranslationCache = map;
   return map;
 }
@@ -263,10 +314,24 @@ function resolveSeedTranslation(
   locale: CurriculumLocale,
 ): PublishedLessonTranslation | undefined {
   const seeds = loadSeedTranslations();
-  const exact = seeds.get(`${lessonId}::${locale}`);
+  const normalizedLessonId = lessonId.toUpperCase();
+  const exact = seeds.get(`${normalizedLessonId}::${locale}`);
   if (exact) return exact;
+
   const base = locale.split("-")[0];
-  if (base && base !== locale) return seeds.get(`${lessonId}::${base}`);
+  if (base) {
+    const baseMatch = seeds.get(`${normalizedLessonId}::${base}`);
+    if (baseMatch) return baseMatch;
+
+    // A generic locale such as "es" should be able to consume a bundled
+    // regional translation such as "es-Caribbean" when no plain "es" record
+    // exists. This is especially important for generated course JSON files.
+    for (const [key, translation] of seeds) {
+      if (!key.startsWith(`${normalizedLessonId}::`)) continue;
+      const candidateLocale = key.slice(key.indexOf("::") + 2);
+      if (candidateLocale.split("-")[0] === base) return translation;
+    }
+  }
   return undefined;
 }
 
@@ -277,7 +342,13 @@ function resolveTranslation(
   if (!translations) return undefined;
   if (translations[locale]) return translations[locale];
   const base = locale.split("-")[0];
-  if (base && base !== locale && translations[base]) return translations[base];
+  if (base && translations[base]) return translations[base];
+  if (base) {
+    const regionalKey = Object.keys(translations).find(
+      (candidate) => candidate.split("-")[0] === base,
+    );
+    if (regionalKey) return translations[regionalKey];
+  }
   return undefined;
 }
 
@@ -286,11 +357,6 @@ function resolvePublishedLessonForLocale(
   locale: CurriculumLocale,
 ): PublishedLessonRecord {
   const localizedContent = getLessonContent(lesson.id, locale);
-  // Only use filesystem content when it was actually resolved in the requested
-  // locale (resolution "exact" or "base"). When getLessonContent falls back to
-  // the canonical English file ("canonical-en" resolution), it must not silently
-  // override the state's translation map — the state's stored title/body/summary
-  // take precedence for all locales that lack their own curriculum file.
   const contentMatchesLocale =
     localizedContent && localizedContent.localization.resolution !== "canonical-en";
   if (contentMatchesLocale) {
@@ -323,7 +389,24 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
 }
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
-  return readPublishedState();
+  const state = await readPublishedState();
+  const registry = readRegistry();
+
+  // The repository registry is authoritative for committed active curriculum.
+  // Storage state may contain newer imported records and therefore wins on ID
+  // collisions, but active registry lessons must not disappear merely because
+  // the external published-state JSON has not yet been refreshed.
+  for (const track of Object.values(registry.tracks)) {
+    for (const level of Object.values(track.levels)) {
+      for (const asset of Object.values(level.assets)) {
+        if (state.lessons[asset.id]) continue;
+        const record = entryFromRegistryAsset(asset);
+        if (record) state.lessons[record.id] = record;
+      }
+    }
+  }
+
+  return state;
 }
 
 function lessonFromDetectedAsset(
@@ -470,21 +553,13 @@ export async function exportPublishedLessonTranslations(
   const requestedLessonIds = lessonIds && lessonIds.length > 0 ? new Set(lessonIds) : null;
   const state = await getEffectiveState();
 
-  // Determine whether a lesson ID matches any of the supplied prefixes.
-  // A prefix can be:
-  //   - level-only (e.g. "L1")            → matches any lesson at that level: *-L1-*
-  //   - track-level (e.g. "RED-L1")       → matches RED-L1-*
-  //   - track-only (e.g. "RED")           → matches RED-*
   function matchesPrefix(id: string): boolean {
     if (!prefixes || prefixes.length === 0) return true;
     return prefixes.some((p) => {
-      // Level-only prefix: starts with "L" followed by digits only
       if (/^L[1-9]\d*$/u.test(p)) {
-        // Match TRACK-L{n}-NNN pattern: segment between first and second dash equals p
         const parts = id.split("-");
         return parts.length === 3 && parts[1] === p;
       }
-      // Track or track-level prefix: lesson id must start with prefix + "-"
       return id.startsWith(`${p}-`);
     });
   }
@@ -501,7 +576,6 @@ export async function exportPublishedLessonTranslations(
     body: lesson.body,
   }));
 
-  // If explicit lessonIds were requested, insert null-field placeholders for any that are missing.
   if (requestedLessonIds) {
     const foundIds = new Set(matched.map((r) => r.id));
     const nullPlaceholders = [...requestedLessonIds]
