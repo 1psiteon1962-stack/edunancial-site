@@ -66,6 +66,24 @@ export default function MembershipPageClient() {
               );
             })}
           </div>
+
+          {/* TEMPORARY TEST ITEM — Square payment verification only, remove before next production content push */}
+          <div className="mt-8 rounded-2xl border border-yellow-500/40 bg-yellow-900/10 p-6">
+            <p className="mb-1 text-xs font-black uppercase tracking-widest text-yellow-400">
+              ⚠ Temporary — Dev / QA Only
+            </p>
+            <h3 className="text-xl font-black">Square Payment Test</h3>
+            <p className="mt-2 text-sm text-slate-400">
+              $1.00 one-time charge to verify the Square production checkout
+              and webhook pipeline. Not a membership offer.
+            </p>
+            <a
+              href="/payment-test"
+              className="mt-4 inline-flex rounded-xl border border-yellow-500/60 bg-yellow-900/20 px-5 py-3 text-sm font-bold text-yellow-300 hover:bg-yellow-900/40"
+            >
+              Run $1.00 Square Test →
+            </a>
+          </div>
         </div>
       </section>
 
