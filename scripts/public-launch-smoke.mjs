@@ -1,6 +1,9 @@
-const baseUrl = (process.env.BASE_URL || "https://www.edunancial.com").replace(/\/$/, "");
+import { readFileSync } from "node:fs";
 
-const routes = [
+const baseUrl = (process.env.BASE_URL || "https://www.edunancial.com").replace(/\/$/, "");
+const inventory = JSON.parse(readFileSync(new URL("../curriculum/inventory.json", import.meta.url), "utf8"));
+
+const staticRoutes = [
   "/",
   "/dashboard",
   "/features",
@@ -8,10 +11,6 @@ const routes = [
   "/membership",
   "/courses",
   "/curriculum",
-  "/curriculum/red",
-  "/curriculum/red/l2",
-  "/curriculum/red/l2/red-l2-001",
-  "/curriculum/red/l2/red-l2-002",
   "/books",
   "/blog",
   "/community",
@@ -27,12 +26,43 @@ const routes = [
   "/api/health",
 ];
 
-const requiredBodyTokens = new Map([
-  ["/curriculum/red/l2", ["RED-L2-001", "RED-L2-002"]],
-  ["/curriculum/red/l2/red-l2-001", ["RED-L2-001"]],
-  ["/curriculum/red/l2/red-l2-002", ["RED-L2-002"]],
-]);
+const requiredBodyTokens = new Map();
+const curriculumRoutes = new Set();
+const assetsByLevel = new Map();
 
+for (const asset of inventory.assets || []) {
+  if (asset?.type !== "lesson" || asset?.status !== "active" || !asset?.id || !asset?.track || !asset?.level) continue;
+  const track = String(asset.track).toLowerCase();
+  const level = Number(asset.level);
+  const id = String(asset.id);
+  const key = `${track}:l${level}`;
+  const list = assetsByLevel.get(key) || [];
+  list.push(id);
+  assetsByLevel.set(key, list);
+}
+
+for (const [key, ids] of assetsByLevel) {
+  const [track, levelSlug] = key.split(":");
+  const trackRoute = `/curriculum/${track}`;
+  const levelRoute = `${trackRoute}/${levelSlug}`;
+  curriculumRoutes.add(trackRoute);
+  curriculumRoutes.add(levelRoute);
+
+  // Verify every registered canonical ID is present on its level listing page.
+  // This catches the exact class of regression where a level silently vanishes
+  // or only a subset of registered lessons is rendered.
+  requiredBodyTokens.set(levelRoute, ids);
+
+  // Also exercise one deterministic lesson route per track/level. This scales
+  // with the inventory without turning a large curriculum into hundreds of
+  // production HTTP requests on every smoke run.
+  const representativeId = [...ids].sort()[0];
+  const lessonRoute = `${levelRoute}/${representativeId.toLowerCase()}`;
+  curriculumRoutes.add(lessonRoute);
+  requiredBodyTokens.set(lessonRoute, [representativeId]);
+}
+
+const routes = [...new Set([...staticRoutes, ...curriculumRoutes])];
 const failures = [];
 
 for (const route of routes) {
@@ -40,13 +70,11 @@ for (const route of routes) {
   try {
     const response = await fetch(url, {
       redirect: "follow",
-      headers: { "user-agent": "EdunancialLaunchSmoke/1.1" },
+      headers: { "user-agent": "EdunancialLaunchSmoke/1.2" },
     });
 
     const contentType = response.headers.get("content-type") || "";
-    const isExpectedStatus = response.status >= 200 && response.status < 400;
-
-    if (!isExpectedStatus) {
+    if (response.status < 200 || response.status >= 400) {
       failures.push(`${route}: HTTP ${response.status}`);
       console.error(`FAIL ${route} -> HTTP ${response.status}`);
       continue;
@@ -97,3 +125,4 @@ if (failures.length > 0) {
 }
 
 console.log(`\nAll ${routes.length} public launch smoke checks passed for ${baseUrl}.`);
+console.log(`Inventory coverage: ${assetsByLevel.size} registered track/level combination(s).`);
