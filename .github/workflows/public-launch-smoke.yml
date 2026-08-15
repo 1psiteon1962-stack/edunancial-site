@@ -24,9 +24,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
-      - name: Run public route smoke checks
+      - name: Run public route and curriculum smoke checks
         env:
           BASE_URL: ${{ github.event.inputs.base_url || 'https://www.edunancial.com' }}
         run: node scripts/public-launch-smoke.mjs
