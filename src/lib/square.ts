@@ -9,6 +9,43 @@ export const squareConfig = {
   webhookNotificationUrl: process.env.SQUARE_WEBHOOK_NOTIFICATION_URL || "",
 };
 
+const SQUARE_WEBHOOK_API_VERSION = "2026-07-15";
+const DEFAULT_PRODUCTION_WEBHOOK_URL = "https://edunancial.com/api/square/webhook";
+const WEBHOOK_CACHE_TTL_MS = 5 * 60 * 1000;
+
+const REQUIRED_WEBHOOK_EVENTS = [
+  "payment.created",
+  "payment.updated",
+  "refund.created",
+  "refund.updated",
+  "subscription.created",
+  "subscription.updated",
+] as const;
+
+interface SquareWebhookSubscription {
+  id?: string;
+  name?: string;
+  enabled?: boolean;
+  event_types?: string[];
+  notification_url?: string;
+  api_version?: string;
+  signature_key?: string;
+}
+
+interface SquareWebhookListResponse {
+  subscriptions?: SquareWebhookSubscription[];
+  errors?: { category?: string; code?: string; detail?: string }[];
+}
+
+interface SquareWebhookResponse {
+  subscription?: SquareWebhookSubscription;
+  errors?: { category?: string; code?: string; detail?: string }[];
+}
+
+let managedWebhookCache:
+  | { subscriptionId: string; signatureKey: string; notificationUrl: string; expiresAt: number }
+  | undefined;
+
 function getRuntimeSquareConfig() {
   return {
     applicationId: process.env.NEXT_PUBLIC_SQUARE_APPLICATION_ID || "",
@@ -20,9 +57,164 @@ function getRuntimeSquareConfig() {
   };
 }
 
-export function getSquareCheckoutUrl(
-  checkoutUrl: string
-) {
+function getSquareApiBase(environment: string) {
+  return environment === "sandbox"
+    ? "https://connect.squareupsandbox.com"
+    : "https://connect.squareup.com";
+}
+
+export function getSquareWebhookNotificationUrl() {
+  const config = getRuntimeSquareConfig();
+  if (config.webhookNotificationUrl.trim()) {
+    return config.webhookNotificationUrl.trim();
+  }
+
+  return DEFAULT_PRODUCTION_WEBHOOK_URL;
+}
+
+function webhookErrorDetail(payload: {
+  errors?: { detail?: string; code?: string }[];
+}) {
+  return payload.errors?.[0]?.detail || payload.errors?.[0]?.code || "Unknown Square webhook API error";
+}
+
+async function squareWebhookRequest<T>(
+  path: string,
+  init: RequestInit = {}
+): Promise<T> {
+  const config = getRuntimeSquareConfig();
+  if (!config.accessToken) {
+    throw new Error("SQUARE_ACCESS_TOKEN is not configured.");
+  }
+
+  const response = await fetch(`${getSquareApiBase(config.environment)}${path}`, {
+    ...init,
+    headers: {
+      Authorization: `Bearer ${config.accessToken}`,
+      "Content-Type": "application/json",
+      "Square-Version": SQUARE_WEBHOOK_API_VERSION,
+      ...(init.headers || {}),
+    },
+    cache: "no-store",
+  });
+
+  const payload = (await response.json().catch(() => ({}))) as T & {
+    errors?: { detail?: string; code?: string }[];
+  };
+
+  if (!response.ok) {
+    throw new Error(
+      `Square webhook API ${response.status}: ${webhookErrorDetail(payload)}`
+    );
+  }
+
+  return payload;
+}
+
+function hasRequiredEvents(subscription: SquareWebhookSubscription) {
+  const events = new Set(subscription.event_types || []);
+  return REQUIRED_WEBHOOK_EVENTS.every((eventType) => events.has(eventType));
+}
+
+async function retrieveWebhookSubscription(subscriptionId: string) {
+  const payload = await squareWebhookRequest<SquareWebhookResponse>(
+    `/v2/webhooks/subscriptions/${encodeURIComponent(subscriptionId)}`
+  );
+
+  if (!payload.subscription?.id) {
+    throw new Error("Square did not return the webhook subscription.");
+  }
+
+  return payload.subscription;
+}
+
+export async function ensureSquareWebhookSubscription() {
+  const config = getRuntimeSquareConfig();
+  if (!validateSquareConfig()) {
+    throw new Error("Square application, location, or access-token configuration is incomplete.");
+  }
+
+  const notificationUrl = getSquareWebhookNotificationUrl();
+
+  if (
+    managedWebhookCache &&
+    managedWebhookCache.notificationUrl === notificationUrl &&
+    managedWebhookCache.expiresAt > Date.now()
+  ) {
+    return managedWebhookCache;
+  }
+
+  const listPayload = await squareWebhookRequest<SquareWebhookListResponse>(
+    "/v2/webhooks/subscriptions?include_disabled=true"
+  );
+
+  let subscription = (listPayload.subscriptions || []).find(
+    (candidate) => candidate.notification_url === notificationUrl
+  );
+
+  if (!subscription?.id) {
+    const createPayload = await squareWebhookRequest<SquareWebhookResponse>(
+      "/v2/webhooks/subscriptions",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          idempotency_key: `edunancial-webhook-${config.environment}`,
+          subscription: {
+            name: "Edunancial Production Payments",
+            enabled: true,
+            event_types: [...REQUIRED_WEBHOOK_EVENTS],
+            notification_url: notificationUrl,
+            api_version: SQUARE_WEBHOOK_API_VERSION,
+          },
+        }),
+      }
+    );
+    subscription = createPayload.subscription;
+  } else if (!subscription.enabled || !hasRequiredEvents(subscription)) {
+    const updatePayload = await squareWebhookRequest<SquareWebhookResponse>(
+      `/v2/webhooks/subscriptions/${encodeURIComponent(subscription.id)}`,
+      {
+        method: "PUT",
+        body: JSON.stringify({
+          subscription: {
+            name: subscription.name || "Edunancial Production Payments",
+            enabled: true,
+            event_types: [...REQUIRED_WEBHOOK_EVENTS],
+            notification_url: notificationUrl,
+            api_version: subscription.api_version || SQUARE_WEBHOOK_API_VERSION,
+          },
+        }),
+      }
+    );
+    subscription = updatePayload.subscription;
+  }
+
+  if (!subscription?.id) {
+    throw new Error("Square webhook subscription could not be created or resolved.");
+  }
+
+  if (!subscription.signature_key) {
+    subscription = await retrieveWebhookSubscription(subscription.id);
+  }
+
+  const signatureKey =
+    subscription.signature_key || config.webhookSignatureKey.trim();
+
+  if (!signatureKey) {
+    throw new Error("Square webhook subscription has no signature key.");
+  }
+
+  managedWebhookCache = {
+    subscriptionId: subscription.id,
+    signatureKey,
+    notificationUrl,
+    expiresAt: Date.now() + WEBHOOK_CACHE_TTL_MS,
+  };
+
+  return managedWebhookCache;
+}
+
+export function getSquareCheckoutUrl(checkoutUrl: string) {
   return checkoutUrl;
 }
 
@@ -38,36 +230,29 @@ export function validateSquareConfig() {
 
 export function hasSquareWebhookVerificationConfig() {
   const config = getRuntimeSquareConfig();
-
   return (
-    config.webhookSignatureKey.length > 0 &&
-    config.webhookNotificationUrl.length > 0
+    (config.webhookSignatureKey.length > 0 &&
+      getSquareWebhookNotificationUrl().length > 0) ||
+    validateSquareConfig()
   );
 }
 
 export function isSquareVerifiedCheckoutEnabled() {
-  return (
-    process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED === "true" &&
-    validateSquareConfig() &&
-    hasSquareWebhookVerificationConfig()
-  );
+  return validateSquareConfig();
 }
 
-export function verifySquareWebhookSignature(
+function verifySignatureWithKey(
   body: string,
-  signatureHeader: string | null
+  signatureHeader: string | null,
+  signatureKey: string,
+  notificationUrl: string
 ) {
-  const config = getRuntimeSquareConfig();
-
-  if (!hasSquareWebhookVerificationConfig() || !signatureHeader) {
+  if (!signatureHeader || !signatureKey || !notificationUrl) {
     return false;
   }
 
-  const expectedSignature = createHmac(
-    "sha256",
-    config.webhookSignatureKey
-  )
-    .update(`${config.webhookNotificationUrl}${body}`)
+  const expectedSignature = createHmac("sha256", signatureKey)
+    .update(`${notificationUrl}${body}`)
     .digest("base64");
 
   const provided = Buffer.from(signatureHeader.trim());
@@ -78,4 +263,39 @@ export function verifySquareWebhookSignature(
   }
 
   return timingSafeEqual(provided, expected);
+}
+
+/**
+ * Synchronous verifier retained for unit tests and explicit environment-based
+ * webhook setups. Production webhook handling uses the managed async verifier
+ * below so the signature key can be retrieved from Square directly.
+ */
+export function verifySquareWebhookSignature(
+  body: string,
+  signatureHeader: string | null
+) {
+  const config = getRuntimeSquareConfig();
+  return verifySignatureWithKey(
+    body,
+    signatureHeader,
+    config.webhookSignatureKey,
+    getSquareWebhookNotificationUrl()
+  );
+}
+
+export async function verifyManagedSquareWebhookSignature(
+  body: string,
+  signatureHeader: string | null
+) {
+  const managed = await ensureSquareWebhookSubscription();
+  return verifySignatureWithKey(
+    body,
+    signatureHeader,
+    managed.signatureKey,
+    managed.notificationUrl
+  );
+}
+
+export function resetManagedSquareWebhookCacheForTests() {
+  managedWebhookCache = undefined;
 }
