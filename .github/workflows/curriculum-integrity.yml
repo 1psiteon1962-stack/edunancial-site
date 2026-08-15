@@ -5,7 +5,9 @@ on:
     paths:
       - 'curriculum/**'
       - 'content/curriculum/**'
+      - 'content/courses/**'
       - 'scripts/curriculum/**'
+      - 'src/lib/admin-content/**'
       - 'docs/curriculum-management.md'
       - 'examples/curriculum-package/**'
       - '.github/workflows/curriculum-integrity.yml'
@@ -15,7 +17,9 @@ on:
     paths:
       - 'curriculum/**'
       - 'content/curriculum/**'
+      - 'content/courses/**'
       - 'scripts/curriculum/**'
+      - 'src/lib/admin-content/**'
       - 'docs/curriculum-management.md'
       - 'examples/curriculum-package/**'
       - '.github/workflows/curriculum-integrity.yml'
@@ -51,11 +55,19 @@ jobs:
       - name: Audit registry and filesystem
         run: npm run curriculum:audit
 
-      - name: Regenerate inventory
+      - name: Generate machine-readable curriculum inventory
         run: npm run curriculum:inventory
 
-      - name: Ensure generated curriculum artifacts are committed
-        run: git diff --exit-code -- curriculum/inventory.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md
+      - name: Publish generated curriculum inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: curriculum-inventory-${{ github.sha }}
+          path: curriculum/inventory.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Ensure audit artifacts are committed
+        run: git diff --exit-code -- curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md
 
       - name: Lint application
         run: npm run lint
