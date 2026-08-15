@@ -2,328 +2,202 @@
 
 import React, {
   createContext,
+  useCallback,
   useContext,
   useEffect,
+  useMemo,
   useState,
-  useCallback,
 } from "react";
 
-import {
-  BETA_AUDIT_STORAGE_KEY,
-  BETA_INVITATIONS_STORAGE_KEY,
-  type BetaAccessSummary,
-  type BetaAuditEntry,
-  type BetaInvitationRecord,
-  applyBetaLogin,
-  getBetaAccessSummary,
-  normalizeEmail,
-} from "@/lib/beta-access";
-import { PASSWORD_POLICY } from "@/lib/passwordPolicy";
-import { normalizeToCurriculumTier } from "@/lib/curriculum/access";
-
-const STORAGE_KEY = "edu_auth";
-const USERS_KEY = "edu_users";
-
-/** Syncs the user's membership tier to the server-side httpOnly cookie. */
-async function syncMembershipCookie(tier: string): Promise<void> {
-  const normalizedTier = normalizeToCurriculumTier(tier);
-  await fetch("/api/auth/sync-membership", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tier: normalizedTier }),
-  }).catch(() => { /* non-critical: best-effort */ });
-}
-
-/** Clears the server-side membership cookie on logout. */
-async function clearMembershipCookie(): Promise<void> {
-  await fetch("/api/auth/sync-membership", { method: "DELETE" }).catch(() => {});
-}
-
-export interface AuthUser {
-  id: string;
-  email: string;
-  firstName: string;
-  lastName: string;
-  membershipTier: "free" | "basic" | "premium" | "enterprise" | "beta";
-  joinedDate: string;
-  country: string;
-  phone?: string;
-  bio?: string;
-  assessmentCompleted: boolean;
-  overallScore: number | null;
-  betaAccess?: BetaAccessSummary | null;
-}
-
-interface StoredUser extends AuthUser {
-  passwordHash: string;
-}
+import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { validatePassword } from "@/lib/auth/password";
+import type {
+  AuthResult,
+  AuthUser,
+  PasswordUpdateResult,
+  RegisterData,
+  SessionPayload,
+} from "@/lib/auth/types";
 
 interface AuthContextValue {
   user: AuthUser | null;
   loading: boolean;
+  csrfToken: string | null;
   login: (
     email: string,
     password: string,
     betaPassNumber?: string,
-  ) => Promise<{ success: boolean; error?: string }>;
-  register: (data: RegisterData) => Promise<{ success: boolean; error?: string }>;
-  logout: () => void;
-  updateProfile: (data: Partial<AuthUser>) => void;
+  ) => Promise<AuthResult>;
+  register: (data: RegisterData) => Promise<AuthResult>;
+  logout: () => Promise<void>;
+  updateProfile: (data: Partial<AuthUser>) => Promise<AuthResult>;
+  refreshSession: () => Promise<void>;
+  requestPasswordReset: (email: string) => Promise<AuthResult>;
+  updatePassword: (newPassword: string) => Promise<PasswordUpdateResult>;
+  signOutOtherSessions: () => Promise<AuthResult>;
   passwordErrors: (password: string) => string[];
-}
-
-export interface RegisterData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
-  country: string;
-}
-
-function simpleHash(s: string): string {
-  let h = 0;
-  for (let i = 0; i < s.length; i++) {
-    h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
-  }
-  return h.toString(16);
-}
-
-function generateId(): string {
-  return Math.random().toString(36).slice(2) + Date.now().toString(36);
-}
-
-function getUsers(): StoredUser[] {
-  try {
-    const raw = localStorage.getItem(USERS_KEY);
-    return raw ? (JSON.parse(raw) as StoredUser[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveUsers(users: StoredUser[]): void {
-  localStorage.setItem(USERS_KEY, JSON.stringify(users));
-}
-
-function getBetaInvitations(): BetaInvitationRecord[] {
-  try {
-    const raw = localStorage.getItem(BETA_INVITATIONS_STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as BetaInvitationRecord[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveBetaInvitations(invitations: BetaInvitationRecord[]): void {
-  localStorage.setItem(BETA_INVITATIONS_STORAGE_KEY, JSON.stringify(invitations));
-}
-
-function appendBetaAuditEntries(entries: BetaAuditEntry[]): void {
-  if (entries.length === 0) {
-    return;
-  }
-
-  try {
-    const raw = localStorage.getItem(BETA_AUDIT_STORAGE_KEY);
-    const existing = raw ? (JSON.parse(raw) as BetaAuditEntry[]) : [];
-    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify([...existing, ...entries]));
-  } catch {
-    localStorage.setItem(BETA_AUDIT_STORAGE_KEY, JSON.stringify(entries));
-  }
-}
-
-function syncStoredUser(user: AuthUser): void {
-  const users = getUsers();
-  const index = users.findIndex((storedUser) => storedUser.id === user.id);
-  if (index >= 0) {
-    users[index] = { ...users[index], ...user };
-    saveUsers(users);
-  }
-}
-
-function applyPersistedBetaState(user: AuthUser): AuthUser {
-  const invitation = getBetaInvitations().find(
-    (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(user.email),
-  );
-  const access = getBetaAccessSummary(invitation ?? null, user.email);
-
-  if (access.status === "active") {
-    return {
-      ...user,
-      membershipTier: "beta",
-      betaAccess: access,
-    };
-  }
-
-  if (access.status === "expired" || access.status === "revoked") {
-    return {
-      ...user,
-      membershipTier: user.membershipTier === "beta" ? "free" : user.membershipTier,
-      betaAccess: access,
-    };
-  }
-
-  return {
-    ...user,
-    betaAccess: access.status === "none" ? null : access,
-  };
-}
-
-export function validatePassword(password: string): string[] {
-  const errors: string[] = [];
-  if (password.length < PASSWORD_POLICY.minimumLength)
-    errors.push(`At least ${PASSWORD_POLICY.minimumLength} characters`);
-  if (PASSWORD_POLICY.requireUppercase && !/[A-Z]/.test(password))
-    errors.push("At least one uppercase letter");
-  if (PASSWORD_POLICY.requireLowercase && !/[a-z]/.test(password))
-    errors.push("At least one lowercase letter");
-  if (PASSWORD_POLICY.requireNumber && !/[0-9]/.test(password))
-    errors.push("At least one number");
-  if (PASSWORD_POLICY.requireSpecialCharacter && !/[^A-Za-z0-9]/.test(password))
-    errors.push("At least one special character (!@#$%^&*)");
-  return errors;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
+async function fetchSession(): Promise<SessionPayload> {
+  const response = await fetch("/api/member/session", { cache: "no-store" });
+  if (!response.ok) {
+    return { authenticated: false, user: null, csrfToken: null };
+  }
+  return (await response.json()) as SessionPayload;
+}
+
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
+  const [csrfToken, setCsrfToken] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const refreshSession = useCallback(async () => {
+    const session = await fetchSession();
+    setUser(session.user);
+    setCsrfToken(session.csrfToken);
+  }, []);
+
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const parsedUser = JSON.parse(raw) as AuthUser;
-        const syncedUser = applyPersistedBetaState(parsedUser);
-        setUser(syncedUser);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
-        syncStoredUser(syncedUser);
-        void syncMembershipCookie(syncedUser.membershipTier);
-      }
-    } catch {
-      // ignore
-    } finally {
-      setLoading(false);
-    }
-  }, []);
+    const supabase = getSupabaseBrowserClient();
+    void refreshSession().finally(() => setLoading(false));
 
-  const login = useCallback(
-    async (
-      email: string,
-      password: string,
-      betaPassNumber?: string,
-    ): Promise<{ success: boolean; error?: string }> => {
-      await new Promise((r) => setTimeout(r, 500));
-      const users = getUsers();
-      const found = users.find(
-        (candidate) => candidate.email.toLowerCase() === email.toLowerCase(),
-      );
-      if (!found) {
-        return { success: false, error: "No account found with that email address." };
-      }
-      if (found.passwordHash !== simpleHash(password)) {
-        return { success: false, error: "Incorrect password. Please try again." };
-      }
-
-      const { passwordHash: _, ...storedAuthUser } = found;
-      const invitations = getBetaInvitations();
-      const invitationIndex = invitations.findIndex(
-        (candidate) => normalizeEmail(candidate.approvedEmail) === normalizeEmail(email),
-      );
-      const betaResult = await applyBetaLogin({
-        invitation: invitationIndex >= 0 ? invitations[invitationIndex] : null,
-        email,
-        passNumber: betaPassNumber,
-      });
-
-      if (betaResult.error) {
-        appendBetaAuditEntries(betaResult.auditEntries);
-        return { success: false, error: betaResult.error };
-      }
-
-      if (invitationIndex >= 0 && betaResult.invitation) {
-        invitations[invitationIndex] = betaResult.invitation;
-        saveBetaInvitations(invitations);
-      }
-
-      appendBetaAuditEntries(betaResult.auditEntries);
-
-      const authUser =
-        betaResult.access.status === "active"
-          ? {
-              ...storedAuthUser,
-              membershipTier: "beta" as const,
-              betaAccess: betaResult.access,
-            }
-          : applyPersistedBetaState(storedAuthUser);
-
-      setUser(authUser);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(authUser));
-      syncStoredUser(authUser);
-      void syncMembershipCookie(authUser.membershipTier);
-      return { success: true };
-    },
-    [],
-  );
-
-  const register = useCallback(
-    async (data: RegisterData): Promise<{ success: boolean; error?: string }> => {
-      await new Promise((r) => setTimeout(r, 600));
-      const errors = validatePassword(data.password);
-      if (errors.length > 0)
-        return { success: false, error: errors.join(". ") };
-      const users = getUsers();
-      if (users.find((u) => u.email.toLowerCase() === data.email.toLowerCase()))
-        return { success: false, error: "An account with this email already exists." };
-      const newUser: StoredUser = {
-        id: generateId(),
-        email: data.email,
-        firstName: data.firstName,
-        lastName: data.lastName,
-        country: data.country,
-        membershipTier: "free",
-        joinedDate: new Date().toISOString(),
-        assessmentCompleted: false,
-        overallScore: null,
-        betaAccess: null,
-        passwordHash: simpleHash(data.password),
-      };
-      saveUsers([...users, newUser]);
-      const { passwordHash: _, ...authUser } = newUser;
-      const syncedUser = applyPersistedBetaState(authUser);
-      setUser(syncedUser);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(syncedUser));
-      void syncMembershipCookie(syncedUser.membershipTier);
-      return { success: true };
-    },
-    [],
-  );
-
-  const logout = useCallback(() => {
-    setUser(null);
-    localStorage.removeItem(STORAGE_KEY);
-    void clearMembershipCookie();
-  }, []);
-
-  const updateProfile = useCallback((data: Partial<AuthUser>) => {
-    setUser((prev) => {
-      if (!prev) return prev;
-      const updated = { ...prev, ...data };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-      syncStoredUser(updated);
-      void syncMembershipCookie(updated.membershipTier);
-      return updated;
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event) => {
+      void refreshSession();
     });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, [refreshSession]);
+
+  const login = useCallback(async (email: string, password: string): Promise<AuthResult> => {
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    await refreshSession();
+    await fetch("/api/auth/sync-membership", { method: "POST" }).catch(() => undefined);
+    return { success: true };
+  }, [refreshSession]);
+
+  const register = useCallback(async (data: RegisterData): Promise<AuthResult> => {
+    const errors = validatePassword(data.password);
+    if (errors.length > 0) {
+      return { success: false, error: errors.join(". ") };
+    }
+
+    const origin = typeof window !== "undefined" ? window.location.origin : "";
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signUp({
+      email: data.email,
+      password: data.password,
+      options: {
+        emailRedirectTo: `${origin}/auth/confirm?next=/verify-email?verified=1`,
+        data: {
+          first_name: data.firstName,
+          last_name: data.lastName,
+          country: data.country,
+        },
+      },
+    });
+
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    await refreshSession();
+    return { success: true };
+  }, [refreshSession]);
+
+  const logout = useCallback(async () => {
+    const supabase = getSupabaseBrowserClient();
+    await fetch("/api/member/session", {
+      method: "DELETE",
+      headers: csrfToken ? { "x-csrf-token": csrfToken } : undefined,
+    }).catch(() => undefined);
+    await supabase.auth.signOut();
+    setUser(null);
+  }, [csrfToken]);
+
+  const updateProfile = useCallback(async (data: Partial<AuthUser>): Promise<AuthResult> => {
+    const response = await fetch("/api/member/profile", {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        ...(csrfToken ? { "x-csrf-token": csrfToken } : {}),
+      },
+      body: JSON.stringify(data),
+    });
+
+    const payload = (await response.json().catch(() => ({}))) as { user?: AuthUser; error?: string };
+    if (!response.ok || !payload.user) {
+      return { success: false, error: payload.error ?? "Unable to update profile." };
+    }
+
+    setUser(payload.user);
+    return { success: true };
+  }, [csrfToken]);
+
+  const requestPasswordReset = useCallback(async (email: string): Promise<AuthResult> => {
+    const response = await fetch("/api/member/password-reset", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+
+    const payload = (await response.json().catch(() => ({}))) as { error?: string };
+    return response.ok
+      ? { success: true }
+      : { success: false, error: payload.error ?? "Unable to request password reset." };
   }, []);
 
-  return (
-    <AuthContext.Provider
-      value={{ user, loading, login, register, logout, updateProfile, passwordErrors: validatePassword }}
-    >
-      {children}
-    </AuthContext.Provider>
-  );
+  const updatePassword = useCallback(async (newPassword: string): Promise<PasswordUpdateResult> => {
+    const errors = validatePassword(newPassword);
+    if (errors.length > 0) {
+      return { success: false, error: errors.join(". ") };
+    }
+
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.updateUser({ password: newPassword });
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    await refreshSession();
+    return { success: true };
+  }, [refreshSession]);
+
+  const signOutOtherSessions = useCallback(async (): Promise<AuthResult> => {
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signOut({ scope: "others" });
+    if (error) {
+      return { success: false, error: error.message };
+    }
+    return { success: true };
+  }, []);
+
+  const value = useMemo<AuthContextValue>(() => ({
+    user,
+    loading,
+    csrfToken,
+    login,
+    register,
+    logout,
+    updateProfile,
+    refreshSession,
+    requestPasswordReset,
+    updatePassword,
+    signOutOtherSessions,
+    passwordErrors: validatePassword,
+  }), [user, loading, csrfToken, login, register, logout, updateProfile, refreshSession, requestPasswordReset, updatePassword, signOutOtherSessions]);
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
 
 export function useAuth(): AuthContextValue {
@@ -331,3 +205,6 @@ export function useAuth(): AuthContextValue {
   if (!ctx) throw new Error("useAuth must be used within AuthProvider");
   return ctx;
 }
+
+export { validatePassword };
+export type { AuthUser, RegisterData } from "@/lib/auth/types";

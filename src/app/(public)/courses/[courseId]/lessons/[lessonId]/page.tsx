@@ -3,7 +3,10 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 
 import LessonAccessGate from "./LessonAccessGate";
+import LessonProgressTracker from "@/components/member/LessonProgressTracker";
 import { getAdminSession } from "@/lib/admin-content/auth";
+import { getAuthenticatedMemberSession } from "@/lib/auth/server";
+import { canAccessCurriculumLesson } from "@/lib/curriculum/access";
 import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 import { getPublishedCourses, getPublishedLesson } from "@/lib/curriculum/authoritative-published";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
@@ -49,6 +52,7 @@ export default async function LessonPage({ params }: Props) {
   // protected body HTML from ever appearing in page source or serialized props.
   const session = await getAdminSession();
   const isAdmin = Boolean(session);
+  const memberSession = await getAuthenticatedMemberSession();
 
   const cookieHeader = (await headers()).get("cookie");
   const access = checkLessonAccess(
@@ -59,7 +63,17 @@ export default async function LessonPage({ params }: Props) {
     language,
   );
 
-  const serverAllowed = isAdmin || access.allowed;
+  const sessionAllowed =
+    memberSession.user
+      ? canAccessCurriculumLesson({
+          level: lesson.level,
+          lessonNumber: lesson.lessonNumber,
+          membershipTier: memberSession.user.membershipTier,
+          isAdmin,
+        })
+      : false;
+
+  const serverAllowed = isAdmin || sessionAllowed || access.allowed;
 
   // For locked lessons: return only title + summary + upgrade CTA.
   // The lesson body is never fetched into a variable or passed to JSX.
@@ -120,6 +134,12 @@ export default async function LessonPage({ params }: Props) {
           {lesson.summary ? <p className="mt-4 text-lg text-slate-300">{lesson.summary}</p> : null}
 
           <article className="prose prose-invert max-w-none mt-10 rounded-2xl border border-slate-800 bg-slate-900/50 p-8" dangerouslySetInnerHTML={{ __html: html }} />
+
+          <LessonProgressTracker
+            courseId={courseId}
+            lessonId={lesson.id}
+            nextLessonHref={nextLesson ? `/courses/${courseId}/lessons/${nextLesson.id.toLowerCase()}` : null}
+          />
 
           <div className="mt-10 flex flex-wrap justify-between gap-3">
             {prevLesson ? (

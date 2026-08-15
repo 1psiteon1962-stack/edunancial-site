@@ -198,7 +198,14 @@ export async function requireAdminApiSession(request: Request, stateChanging = f
     const csrfHeader = request.headers.get("x-csrf-token") ?? "";
     const origin = request.headers.get("origin");
     const host = request.headers.get("host");
-    const originMatches = !origin || !host || origin.includes(host);
+    const originMatches = (() => {
+      if (!origin || !host) return false;
+      try {
+        return new URL(origin).host === host;
+      } catch {
+        return false;
+      }
+    })();
     if (!originMatches || !csrfCookie || csrfCookie !== session.csrfToken || csrfHeader !== session.csrfToken) {
       return { ok: false as const, response: NextResponse.json({ error: "Invalid CSRF token" }, { status: 403 }) };
     }
