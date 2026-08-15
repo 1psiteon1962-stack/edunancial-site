@@ -1,0 +1,67 @@
+{
+  "lessonId": "RED-L1-004",
+  "translations": {
+    "es-ES": {
+      "title": "¿Qué es una hipoteca? (No es solo \"un préstamo para comprar una vivienda\")",
+      "subtitle": "Aprende qué es realmente una hipoteca — un préstamo garantizado por la propia vivienda — y por qué esa garantía lo cambia todo en el funcionamiento del préstamo.",
+      "learningObjectives": [
+        "Explicar qué diferencia una hipoteca de otros tipos de préstamos.",
+        "Entender el papel de la vivienda como garantía real (colateral).",
+        "Reconocer los términos básicos que aparecen en cualquier hipoteca."
+      ],
+      "mainContent": [
+        {
+          "heading": null,
+          "body": "La mayoría de la gente piensa en una hipoteca como \"el préstamo para comprar la vivienda\". Eso es cierto, pero incompleto. Una hipoteca es un préstamo garantizado por la propia vivienda. Esa palabra — garantizado — es la clave de todo."
+        },
+        {
+          "heading": null,
+          "body": "Cuando pides un préstamo personal sin garantía, el banco confía en tu promesa de pago. Si no pagas, el banco tiene que reclamar el dinero por otras vías — empresas de cobro, vía judicial — y tu historial crediticio se ve gravemente dañado. Es un proceso lento y no siempre da resultado."
+        },
+        {
+          "heading": null,
+          "body": "Con una hipoteca es distinto. La propia vivienda actúa como garantía. Si dejas de pagar, el banco tiene el derecho legal de quedarse con la vivienda mediante un proceso llamado ejecución hipotecaria — lo veremos con detalle más adelante en el curso. Esa garantía es la razón por la que los bancos están dispuestos a prestar cientos de miles de dólares a un tipo de interés relativamente bajo: el riesgo para ellos es menor porque cuentan con un bien tangible que pueden recuperar."
+        },
+        {
+          "heading": null,
+          "body": "HECHO VERIFICADO: En Estados Unidos, la mayoría de las hipotecas residenciales tienen plazos de 15 o 30 años, aunque existen otras estructuras."
+        },
+        {
+          "heading": null,
+          "body": "Esto también explica por qué el banco se implica tanto en el proceso de compra — exige una tasación, una inspección y un seguro de la vivienda. No es solo burocracia: es el banco protegiendo el valor de su garantía."
+        }
+      ],
+      "practicalExample": "Pregunta guía: Si dos personas piden prestados 200.000 $ — una con un préstamo personal sin garantía y otra con una hipoteca — ¿por qué crees que la persona con la hipoteca probablemente obtendrá un tipo de interés más bajo? Piénsalo así: el banco que presta sin garantía apuesta por completo a que la persona pagará. El banco que concede la hipoteca tiene un plan B: la vivienda. Un menor riesgo para el banco suele traducirse en un tipo de interés más bajo para ti. EJEMPLO ILUSTRATIVO: Ana quiere comprar una vivienda de 250.000 $. En lugar de pedir un préstamo personal (algo casi imposible de conseguir por esa cantidad, y con un tipo de interés muy alto), solicita una hipoteca. El banco toma la vivienda como garantía en el contrato. Ana ahora tiene una deuda de 250.000 $ (menos su entrada), pero también accede a un tipo de interés mucho más razonable que si hubiera pedido ese dinero sin garantía.",
+      "practiceQuiz": [
+        {
+          "question": "¿Qué diferencia a una hipoteca de un préstamo personal sin garantía?",
+          "options": {"a": "Las hipotecas siempre tienen tipos de interés más altos", "b": "Las hipotecas están garantizadas por la propia vivienda", "c": "Las hipotecas no requieren cuotas mensuales", "d": "Las hipotecas no involucran a un banco"}
+        },
+        {
+          "question": "¿Por qué los bancos suelen ofrecer tipos de interés más bajos en las hipotecas?",
+          "options": {"a": "Es una ley federal", "b": "El riesgo es menor porque cuentan con la vivienda como garantía", "c": "Las viviendas siempre suben de valor", "d": "No hay ninguna razón real"}
+        },
+        {
+          "question": "¿Qué puede hacer el banco si el propietario deja de pagar la hipoteca?",
+          "options": {"a": "Nada, tiene que esperar", "b": "Iniciar el proceso de ejecución hipotecaria para quedarse con la vivienda", "c": "Subir el precio de la vivienda", "d": "Cancelar la deuda automáticamente"}
+        },
+        {
+          "question": "Verdadero o Falso: El banco se implica en el proceso de compra (tasación, inspección, seguro) solo por burocracia, sin ningún propósito real.",
+          "options": null
+        }
+      ],
+      "answerKey": [
+        "b) Las hipotecas están garantizadas por la propia vivienda",
+        "b) El riesgo es menor porque cuentan con la vivienda como garantía",
+        "b) Iniciar el proceso de ejecución hipotecaria para quedarse con la vivienda",
+        "Falso — el banco protege el valor de su garantía"
+      ],
+      "keyPoints": [
+        "Una hipoteca es un préstamo garantizado por la propia vivienda, no solo \"dinero para comprar una vivienda\".",
+        "Esa garantía reduce el riesgo del banco y, por lo general, se traduce en tipos de interés más bajos.",
+        "Si el propietario no paga, el banco puede iniciar una ejecución hipotecaria para recuperar la vivienda.",
+        "Los requisitos del banco durante la compra (tasación, inspección, seguro) existen para proteger el valor de esa garantía."
+      ]
+    }
+  }
+}

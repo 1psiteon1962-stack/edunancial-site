@@ -1,0 +1,59 @@
+{
+  "lessonId": "RED-L1-001",
+  "translations": {
+    "es-ES": {
+      "title": "¿Qué es realmente un inmueble? (El terreno, la construcción y qué es lo que realmente estás comprando)",
+      "subtitle": "Aprende las tres cosas que se incluyen en toda compra de un inmueble — el terreno, la construcción y los derechos legales — antes de entrar en la financiación o la inversión.",
+      "learningObjectives": [
+        "Nombrar las partes que se incluyen en la compra de un inmueble.",
+        "Explicar la diferencia entre ser propietario del terreno y ser propietario de lo que está construido en él.",
+        "Describir qué significan realmente los \"derechos\" legales que conlleva ser propietario de un inmueble."
+      ],
+      "mainContent": [
+        {
+          "heading": "Un inmueble es un conjunto, no una sola cosa",
+          "body": "Cuando alguien dice \"he comprado un inmueble\", normalmente se refiere a una combinación de: el terreno en sí, lo que está construido en él (una vivienda, un local, un bloque de pisos) y los derechos legales asociados a esa propiedad — el derecho a usarla, venderla, alquilarla o excluir a otras personas de ella."
+        },
+        {
+          "heading": "El terreno frente a lo construido en él",
+          "body": "Dos viviendas pueden estar en terrenos de tamaño similar, en el mismo barrio, pero un terreno puede valer mucho más que otro por la ubicación o por lo que legalmente se podría construir en él — incluso si las viviendas en sí son casi idénticas. Ese es el valor del terreno, separado del valor de la construcción."
+        },
+        {
+          "heading": "Qué significan realmente los \"derechos\"",
+          "body": "Ser propietario de un inmueble conlleva un conjunto de derechos: poseerlo, usarlo dentro de los límites legales, impedir que otros lo usen y transmitirlo. Una servidumbre limita un derecho específico sin quitar la propiedad completa."
+        }
+      ],
+      "practicalExample": "Un solar vacío en una zona urbana en crecimiento puede valer una cantidad considerable sin ninguna construcción.",
+      "practiceQuiz": [
+        {
+          "question": "Ser propietario de un inmueble incluye:",
+          "options": {
+            "A": "Solo la construcción física",
+            "B": "Solo el terreno",
+            "C": "El terreno, la construcción y un conjunto de derechos legales",
+            "D": "Solo el derecho legal a vender la propiedad"
+          }
+        },
+        {
+          "question": "Verdadero o Falso: El propietario puede legalmente hacer lo que quiera con el inmueble, sin restricciones.",
+          "options": null
+        },
+        {
+          "question": "¿Qué es una servidumbre?",
+          "options": {
+            "A": "Un tipo de hipoteca",
+            "B": "Un derecho legal para que otra persona use parte de la propiedad con un propósito específico",
+            "C": "Un impuesto sobre los solares vacíos",
+            "D": "Una forma de seguro"
+          }
+        }
+      ],
+      "answerKey": ["C", "Falso", "B"],
+      "keyPoints": [
+        "Un inmueble es un conjunto: terreno, construcción y derechos legales.",
+        "El terreno y la construcción pueden tener motores de valor muy distintos.",
+        "Los derechos de propiedad son reales, pero están limitados por la ley."
+      ]
+    }
+  }
+}

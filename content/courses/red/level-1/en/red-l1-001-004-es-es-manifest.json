@@ -1,0 +1,11 @@
+{
+  "batch": "RED-L1-001-to-004-es-ES",
+  "locale": "es-ES",
+  "track": "RED",
+  "level": 1,
+  "lessons": ["RED-L1-001", "RED-L1-002", "RED-L1-003", "RED-L1-004"],
+  "excluded_this_batch": ["RED-L1-005", "RED-L1-006 (photographed but not requested in this batch — held for a future delivery)"],
+  "format": "locale-keyed lesson.translations JSON per lesson file",
+  "source": "Transcribed from screenshots of live site content (existing Spanish version)",
+  "notes": "Peninsular Spanish localization pass: bien raíz->inmueble, apartamento->piso/bloque de pisos, vecindario->barrio, colateral->garantía (colateral kept in parens on first mention in RED-L1-004), dueño->propietario, tasa de interés->tipo de interés, pago inicial->entrada, corte->vía judicial, casa->vivienda where natural. Numbers reformatted to Spain convention (period as thousands separator). Dollar amounts kept as-is ($ USD) since track content teaches the US mortgage/real estate system."
+}
