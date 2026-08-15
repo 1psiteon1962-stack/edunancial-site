@@ -1,0 +1,16 @@
+{
+  "selector.label": "Idioma",
+  "selector.aria": "Selecionar idioma",
+  "selector.defaultPrompt": "Gostaria de definir este como o seu idioma predefinido?",
+  "selector.setDefault.yes": "Sim, definir como predefinido",
+  "selector.setDefault.no": "Não, apenas para esta sessão",
+  "banner.title": "Detetámos a sua localização.",
+  "banner.message": "Pode alterar estas definições a qualquer momento.",
+  "settings.international": "Preferências internacionais",
+  "settings.timezone": "Fuso horário",
+  "settings.numberFormat": "Formato numérico",
+  "nav.login": "Iniciar sessão",
+  "nav.becomeMember": "Tornar-se membro",
+  "home.story.link.readOurStory": "Leia a nossa história",
+  "home.cta.login": "Iniciar sessão"
+}
