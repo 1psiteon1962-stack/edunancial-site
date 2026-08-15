@@ -484,18 +484,18 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
   const state = await readPublishedState();
-  const registry = readRegistry();
+  const allowLegacyFallback =
+    process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
 
-  // The repository registry is authoritative for committed active curriculum.
-  // Storage state may contain newer imported records and therefore wins on ID
-  // collisions, but active registry lessons must not disappear merely because
-  // the external published-state JSON has not yet been refreshed.
-  for (const track of Object.values(registry.tracks)) {
-    for (const level of Object.values(track.levels)) {
-      for (const asset of Object.values(level.assets)) {
-        if (state.lessons[asset.id]) continue;
-        const record = entryFromRegistryAsset(asset);
-        if (record) state.lessons[record.id] = record;
+  if (allowLegacyFallback) {
+    const registry = readRegistry();
+    for (const track of Object.values(registry.tracks)) {
+      for (const level of Object.values(track.levels)) {
+        for (const asset of Object.values(level.assets)) {
+          if (state.lessons[asset.id]) continue;
+          const record = entryFromRegistryAsset(asset);
+          if (record) state.lessons[record.id] = record;
+        }
       }
     }
   }

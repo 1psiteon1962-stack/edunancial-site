@@ -5,7 +5,8 @@
     "outDir": ".test-dist",
     "module": "Node16",
     "moduleResolution": "node16",
-    "incremental": false
+    "incremental": false,
+    "types": ["node"]
   },
   "include": [
     "src/lib/ai/guardrails.ts",
@@ -32,6 +33,9 @@
     "src/lib/payments/catalog.ts",
     "src/lib/payments/discounts.ts",
     "src/lib/payments/paymentPipeline.test.ts",
+    "src/lib/payments/squareHardening.test.ts",
+    "src/lib/supabase/server.ts",
+    "src/lib/square.ts",
     "src/lib/curriculum/academies.ts",
     "src/lib/curriculum/academies.test.ts",
     "src/lib/curriculum/localization.ts",
