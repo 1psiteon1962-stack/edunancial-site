@@ -1,0 +1,50 @@
+name: Manual Netlify Production Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Optional reason for this production deploy"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: manual-netlify-production-deploy
+  cancel-in-progress: false
+
+jobs:
+  trigger-production-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify deploy hook is configured
+        shell: bash
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          if [ -z "$NETLIFY_BUILD_HOOK" ]; then
+            echo "::error::NETLIFY_BUILD_HOOK is not configured in GitHub Actions secrets. Create a Netlify production build hook and save its URL as the repository secret NETLIFY_BUILD_HOOK."
+            exit 1
+          fi
+
+      - name: Trigger Netlify production deploy
+        shell: bash
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          http_code="$(curl --silent --show-error --output response.json --write-out '%{http_code}' \
+            --request POST \
+            --header 'Content-Type: application/json' \
+            --data '{"trigger_title":"Manual GitHub production deploy"}' \
+            "$NETLIFY_BUILD_HOOK")"
+
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+            echo "::error::Netlify build hook returned HTTP $http_code."
+            cat response.json
+            exit 1
+          fi
+
+          echo "Netlify accepted the production deploy request (HTTP $http_code)."
