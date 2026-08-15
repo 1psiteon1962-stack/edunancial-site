@@ -6,7 +6,7 @@ import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/obs
 import { isSquareVerifiedCheckoutEnabled, verifyManagedSquareWebhookSignature } from "@/lib/square";
 import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
-import { claimWebhookEvent } from "@/lib/payments/webhookIdempotency";
+import { claimWebhookEventAsync } from "@/lib/payments/webhookIdempotency";
 
 interface SquareWebhookEvent {
   merchant_id?: string;
@@ -51,7 +51,7 @@ export async function POST(request: Request) {
     const eventId = event.event_id ?? "";
 
     if (eventId) {
-      const claimed = claimWebhookEvent(eventId, eventType);
+      const claimed = await claimWebhookEventAsync(eventId, eventType);
       if (!claimed) {
         const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
         recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });

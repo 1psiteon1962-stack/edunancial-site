@@ -1,6 +1,11 @@
 import assert from "node:assert/strict";
 import { afterEach, beforeEach, test } from "node:test";
 
+import {
+  resetManagedSquareWebhookCacheForTests,
+  resetSquareCredentialCacheForTests,
+} from "@/lib/square";
+
 const ORIGINAL_FETCH = globalThis.fetch;
 const ORIGINAL_ENV = { ...process.env };
 
@@ -29,42 +34,71 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_SIGNATURE_KEY = "webhook-secret";
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL =
     "https://edunancial.com/api/square/webhook";
-  process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+}
+
+function makeSquareFetchMock(
+  paymentLinkUrlOverride?: string,
+  payloadCapture?: { ref: Record<string, unknown> | null; urlRef?: string | null }
+) {
+  return async (input: RequestInfo | URL, init?: RequestInit): Promise<Response> => {
+    const url = String(input);
+
+    if (url.includes("/v2/webhooks/subscriptions")) {
+      return new Response(
+        JSON.stringify({
+          subscriptions: [{
+            id: "sub-001",
+            enabled: true,
+            notification_url: "https://edunancial.com/api/square/webhook",
+            event_types: ["payment.created", "payment.updated", "refund.created", "refund.updated", "subscription.created", "subscription.updated"],
+            signature_key: "webhook-secret",
+          }],
+        }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    if (url.includes("/v2/locations/")) {
+      return new Response(
+        JSON.stringify({ location: { id: "location-id", status: "ACTIVE" } }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    if (url.includes("/v2/online-checkout/payment-links")) {
+      if (payloadCapture) {
+        if (payloadCapture.urlRef !== undefined) payloadCapture.urlRef = url;
+        payloadCapture.ref = JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>;
+      }
+      return new Response(
+        JSON.stringify({
+          payment_link: { url: paymentLinkUrlOverride ?? "https://checkout.squareup.com/c/pay/membership-link" },
+        }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    return new Response(JSON.stringify({}), { status: 200, headers: { "Content-Type": "application/json" } });
+  };
 }
 
 beforeEach(() => {
   restoreEnv();
   configureSquareEnv();
+  resetManagedSquareWebhookCacheForTests();
+  resetSquareCredentialCacheForTests();
 });
 
 afterEach(() => {
   globalThis.fetch = ORIGINAL_FETCH;
   restoreEnv();
+  resetManagedSquareWebhookCacheForTests();
+  resetSquareCredentialCacheForTests();
 });
 
 test("payment-link route preserves existing membership checkout behavior", async () => {
-  let capturedPayload: Record<string, unknown> | null = null;
-
-  globalThis.fetch = async (_input, init) => {
-    capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
-      string,
-      unknown
-    >;
-
-    return new Response(
-      JSON.stringify({
-        payment_link: {
-          url: "https://checkout.squareup.com/c/pay/membership-link",
-        },
-      }),
-      {
-        status: 200,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-  };
+  const capture: { ref: Record<string, unknown> | null } = { ref: null };
+  globalThis.fetch = makeSquareFetchMock("https://checkout.squareup.com/c/pay/membership-link", capture);
 
   const { POST } = await import("../../app/api/square/payment-link/route.js");
   const response = await POST(
@@ -76,8 +110,8 @@ test("payment-link route preserves existing membership checkout behavior", async
   );
 
   assert.equal(response.status, 200);
-  assert.ok(capturedPayload);
-  const payload = capturedPayload as Record<string, unknown>;
+  assert.ok(capture.ref);
+  const payload = capture.ref as Record<string, unknown>;
 
   const order = payload.order as {
     metadata: Record<string, string>;
@@ -147,6 +181,7 @@ test("course checkout route remains on the existing success flow", async () => {
 });
 
 test("webhook route still rejects invalid signatures when verified checkout is enabled", async () => {
+  globalThis.fetch = makeSquareFetchMock();
   const { POST } = await import("../../app/api/square/webhook/route.js");
   const response = await POST(
     new Request("https://edunancial.com/api/square/webhook", {
@@ -178,25 +213,27 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   let capturedUrl: string | null = null;
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (input, init) => {
-    capturedUrl = String(input);
-    capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
-      string,
-      unknown
-    >;
-
+  globalThis.fetch = (async (input: RequestInfo | URL, init?: RequestInit) => {
+    const url = String(input);
+    if (url.includes("/v2/webhooks/subscriptions")) {
+      return new Response(
+        JSON.stringify({ subscriptions: [{ id: "sub-001", enabled: true, notification_url: "https://edunancial.com/api/square/webhook", event_types: ["payment.created", "payment.updated", "refund.created", "refund.updated", "subscription.created", "subscription.updated"], signature_key: "webhook-secret" }] }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+    if (url.includes("/v2/locations/")) {
+      return new Response(
+        JSON.stringify({ location: { id: "location-id", status: "ACTIVE" } }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+    capturedUrl = url;
+    capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>;
     return new Response(
-      JSON.stringify({
-        payment_link: {
-          url: "https://checkout.squareup.com/c/pay/test-link",
-        },
-      }),
-      {
-        status: 200,
-        headers: { "Content-Type": "application/json" },
-      }
+      JSON.stringify({ payment_link: { url: "https://checkout.squareup.com/c/pay/test-link" } }),
+      { status: 200, headers: { "Content-Type": "application/json" } }
     );
-  };
+  }) as typeof globalThis.fetch;
 
   const { POST } = await import("../../app/api/square/payment-link/route.js");
   const response = await POST(
