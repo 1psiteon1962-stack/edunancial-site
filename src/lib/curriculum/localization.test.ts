@@ -47,9 +47,6 @@ test("listAcademies keeps all academies and canonical levels available", () => {
     assert.equal(academy.levels.length, 5);
   }
 
-  // Published lesson counts belong to the authoritative production catalog.
-  // The filesystem registry reader may intentionally be empty in production-validation
-  // environments where legacy registry content is not auto-loaded.
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.lessons.length, 2);
   assert.equal(courses.white.lessons.length, 0);
@@ -61,13 +58,9 @@ test("track and lesson queries distinguish empty registry tracks, published cont
   assert.deepEqual(getLessonsForLevel("BLUE", 1, "free", "fr-CA"), []);
   assert.equal(getLessonContent("BLUE-L1-001", "fr-CA"), null);
 
-  // The August RED lessons are authoritative published-state content. Verify them
-  // through the production catalog rather than requiring the optional legacy
-  // filesystem registry reader to auto-load them in this test environment.
   const courses = getLocalizedCourseMap("es");
   assert.deepEqual(courses.red.lessons, ["RED-L2-001", "RED-L2-002"]);
 
-  // A non-existent registry lesson ID must still return null.
   assert.equal(getLessonContent("GOLD-L5-999", "es"), null);
 });
 
