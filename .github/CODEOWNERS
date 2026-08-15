@@ -1,0 +1,6 @@
+# Edunancial protected curriculum and deployment safety controls
+/curriculum/curriculum-removals.json @1psiteon1962-stack
+/scripts/curriculum/ @1psiteon1962-stack
+/.github/workflows/curriculum-preservation.yml @1psiteon1962-stack
+/.github/copilot-instructions.md @1psiteon1962-stack
+/CLAUDE.md @1psiteon1962-stack
