@@ -335,13 +335,16 @@ function loadBundledTranslationFiles(
       const parsed = JSON.parse(readFileSync(path, "utf8")) as {
         id?: unknown;
         lesson_id?: unknown;
+        lessonId?: unknown;
         translations?: Record<string, unknown>;
       };
       const lessonId = typeof parsed.id === "string"
         ? parsed.id
         : typeof parsed.lesson_id === "string"
           ? parsed.lesson_id
-          : "";
+          : typeof parsed.lessonId === "string"
+            ? parsed.lessonId
+            : "";
       if (!lessonId || !parsed.translations || typeof parsed.translations !== "object") {
         continue;
       }
@@ -351,7 +354,7 @@ function loadBundledTranslationFiles(
         addTranslationToMap(map, lessonId, locale, translation);
       }
     } catch {
-      // Ignore malformed translation artifacts; they should not break curriculum rendering.
+      // Ignore malformed translation artifacts; validation catches them in CI.
     }
   }
 }
@@ -382,8 +385,6 @@ function loadSeedTranslations(): Map<string, PublishedLessonTranslation> {
     }
   }
 
-  // Course imports also generate JSON translation artifacts next to the source
-  // lessons. These files were previously committed but never read at runtime.
   loadBundledTranslationFiles(COURSE_CONTENT_DIR, map);
 
   _seedTranslationCache = map;
@@ -404,9 +405,6 @@ function resolveSeedTranslation(
     const baseMatch = seeds.get(`${normalizedLessonId}::${base}`);
     if (baseMatch) return baseMatch;
 
-    // A generic locale such as "es" should be able to consume a bundled
-    // regional translation such as "es-Caribbean" when no plain "es" record
-    // exists. This is especially important for generated course JSON files.
     for (const [key, translation] of seeds) {
       if (!key.startsWith(`${normalizedLessonId}::`)) continue;
       const candidateLocale = key.slice(key.indexOf("::") + 2);
@@ -452,10 +450,6 @@ function resolvePublishedLessonForLocale(
   const storedTranslation = resolveTranslation(lesson.translations, locale);
   const committedTranslation = resolveSeedTranslation(lesson.id, locale);
 
-  // Translation sources are deltas, not all-or-nothing records. A live
-  // published-state translation may contain only title/summary while the
-  // committed seed carries the full body. Merge field-by-field so a partial
-  // stored record cannot suppress valid committed translated fields.
   const translation: PublishedLessonTranslation | undefined =
     storedTranslation || committedTranslation
       ? {
@@ -484,10 +478,19 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
   const state = await readPublishedState();
-  const allowLegacyFallback =
+
+  // Git is the canonical source of truth for authored curriculum. In every
+  // non-test runtime, active registered lessons are additive and may not be
+  // hidden merely because a separate publication-state store is empty, stale,
+  // unavailable, or missing an entry. The state store can enrich/override an
+  // existing lesson record, but absence from that store is never deletion
+  // authority. Tests retain the old opt-in switch so isolated state fixtures
+  // can still intentionally exercise an empty publication store.
+  const includeCanonicalRegistry =
+    process.env.NODE_ENV !== "test" ||
     process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
 
-  if (allowLegacyFallback) {
+  if (includeCanonicalRegistry) {
     const registry = readRegistry();
     for (const track of Object.values(registry.tracks)) {
       for (const level of Object.values(track.levels)) {
@@ -565,7 +568,6 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
   }
 
   const state = await readPublishedState();
-
   const lessonIds = new Set<string>();
 
   for (const lesson of lessonsFromBatch) {
