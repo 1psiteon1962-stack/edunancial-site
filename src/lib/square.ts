@@ -141,6 +141,15 @@ export async function ensureSquareWebhookSubscription(): Promise<{
 
   const notificationUrl = getSquareWebhookNotificationUrl();
 
+  if (config.webhookSignatureKey.trim()) {
+    return {
+      subscriptionId: "configured-via-env",
+      signatureKey: config.webhookSignatureKey.trim(),
+      notificationUrl,
+      expiresAt: Date.now() + WEBHOOK_CACHE_TTL_MS,
+    };
+  }
+
   if (
     managedWebhookCache &&
     managedWebhookCache.notificationUrl === notificationUrl &&
@@ -293,6 +302,16 @@ export async function verifyManagedSquareWebhookSignature(
   body: string,
   signatureHeader: string | null
 ) {
+  const config = getRuntimeSquareConfig();
+  if (config.webhookSignatureKey.trim()) {
+    return verifySignatureWithKey(
+      body,
+      signatureHeader,
+      config.webhookSignatureKey.trim(),
+      getSquareWebhookNotificationUrl()
+    );
+  }
+
   const managed = await ensureSquareWebhookSubscription();
   return verifySignatureWithKey(
     body,
