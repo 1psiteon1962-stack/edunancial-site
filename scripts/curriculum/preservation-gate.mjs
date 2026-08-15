@@ -10,10 +10,6 @@ const REMOVALS = 'curriculum/curriculum-removals.json';
 const COURSE_DIRS = ['content/curriculum', 'content/courses'];
 const ID_RE = /^[A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,}$/u;
 const LOCALE_RE = /^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/u;
-
-// The application historically uses this explicit regional alias in committed
-// translation artifacts. Preserve it as a supported compatibility locale while
-// requiring all other locale keys to follow the normal structured locale form.
 const SUPPORTED_LEGACY_LOCALE_ALIASES = new Set(['es-Caribbean']);
 
 function gitText(ref, path) {
@@ -47,6 +43,16 @@ function parseRegistry(text) {
   return rows;
 }
 
+function parseRemovalIds(text) {
+  if (!text) return new Set();
+  const parsed = JSON.parse(text);
+  return new Set(
+    (parsed.removals || [])
+      .map((record) => String(record.id || '').toUpperCase())
+      .filter(Boolean),
+  );
+}
+
 function localeFromFilename(canonicalPath, localizedPath) {
   const base = basename(canonicalPath).replace(/\.md$/u, '');
   const name = basename(localizedPath);
@@ -74,7 +80,7 @@ function addTranslationJsonLocalesFromWorktree(inventory) {
     for (const file of walk(join(ROOT, relDir))) {
       if (!file.endsWith('-translations.json')) continue;
       const parsed = JSON.parse(readFileSync(file, 'utf8'));
-      const id = String(parsed.id || parsed.lesson_id || '').toUpperCase();
+      const id = String(parsed.id || parsed.lesson_id || parsed.lessonId || '').toUpperCase();
       if (!id || !inventory.has(id)) continue;
       for (const locale of Object.keys(parsed.translations || {})) {
         inventory.get(id).locales.add(locale);
@@ -98,9 +104,7 @@ function localInventory() {
     const dir = dirname(canonical);
     const base = basename(canonical).replace(/\.md$/u, '');
     for (const name of readdirSync(dir)) {
-      if (name === `${base}.md` || !name.startsWith(`${base}.`) || !name.endsWith('.md')) {
-        continue;
-      }
+      if (name === `${base}.md` || !name.startsWith(`${base}.`) || !name.endsWith('.md')) continue;
       const locale = localeFromFilename(lesson.path, join(dir, name));
       if (locale) locales.add(locale);
     }
@@ -120,9 +124,7 @@ function refInventory(ref) {
 
   let files = [];
   try {
-    files = execFileSync('git', ['ls-tree', '-r', '--name-only', ref], {
-      encoding: 'utf8',
-    })
+    files = execFileSync('git', ['ls-tree', '-r', '--name-only', ref], { encoding: 'utf8' })
       .split(/\r?\n/u)
       .filter(Boolean);
   } catch {
@@ -148,27 +150,17 @@ function refInventory(ref) {
     if (!text) continue;
     try {
       const parsed = JSON.parse(text);
-      const id = String(parsed.id || parsed.lesson_id || '').toUpperCase();
+      const id = String(parsed.id || parsed.lesson_id || parsed.lessonId || '').toUpperCase();
       if (!result.has(id)) continue;
       for (const locale of Object.keys(parsed.translations || {})) {
         result.get(id).locales.add(locale);
       }
     } catch {
-      // Head/worktree validation reports malformed JSON. Historical malformed
-      // JSON must not crash a preservation comparison.
+      // Historical malformed JSON must not crash the comparison.
     }
   }
 
   return result;
-}
-
-function approvedRemovals() {
-  const parsed = JSON.parse(readFileSync(join(ROOT, REMOVALS), 'utf8'));
-  return new Set(
-    (parsed.removals || [])
-      .map((record) => String(record.id || '').toUpperCase())
-      .filter(Boolean),
-  );
 }
 
 function isSupportedLocale(locale) {
@@ -185,9 +177,7 @@ function validateHead(head) {
     seen.add(id);
 
     for (const locale of lesson.locales) {
-      if (!isSupportedLocale(locale)) {
-        errors.push(`Malformed locale ${locale} on ${id}`);
-      }
+      if (!isSupportedLocale(locale)) errors.push(`Malformed locale ${locale} on ${id}`);
     }
   }
 
@@ -197,21 +187,38 @@ function validateHead(head) {
 const baseRef = process.env.CURRICULUM_BASE_REF || process.argv[2] || 'origin/main';
 const base = refInventory(baseRef);
 const head = localInventory();
-const removals = approvedRemovals();
+
+// Critical safety rule: destructive authorization must already exist on the
+// base branch. A PR cannot authorize its own deletion by adding an entry to the
+// removal ledger in the same change that removes a lesson/translation.
+const previouslyAuthorizedRemovals = parseRemovalIds(gitText(baseRef, REMOVALS));
+const proposedRemovalLedger = parseRemovalIds(readFileSync(join(ROOT, REMOVALS), 'utf8'));
 const errors = validateHead(head);
+
+for (const id of proposedRemovalLedger) {
+  if (!previouslyAuthorizedRemovals.has(id) && !base.has(id)) {
+    errors.push(`Removal authorization references unknown lesson: ${id}`);
+  }
+}
 
 for (const [id, previous] of base) {
   const current = head.get(id);
   if (!current) {
-    if (!removals.has(id)) {
-      errors.push(`Missing production lesson: ${id} (${previous.path})`);
+    if (!previouslyAuthorizedRemovals.has(id)) {
+      errors.push(
+        `Missing production lesson: ${id} (${previous.path}). ` +
+        `Removal is blocked because authorization was not present on ${baseRef} before this change.`,
+      );
     }
     continue;
   }
 
   for (const locale of previous.locales) {
-    if (!current.locales.has(locale) && !removals.has(id)) {
-      errors.push(`Missing production translation: ${id} locale=${locale}`);
+    if (!current.locales.has(locale) && !previouslyAuthorizedRemovals.has(id)) {
+      errors.push(
+        `Missing production translation: ${id} locale=${locale}. ` +
+        `Removal is blocked because authorization was not present on ${baseRef} before this change.`,
+      );
     }
   }
 }
@@ -222,6 +229,8 @@ const report = {
   proposedLessons: head.size,
   baseTranslations: [...base.values()].reduce((count, lesson) => count + lesson.locales.size, 0),
   proposedTranslations: [...head.values()].reduce((count, lesson) => count + lesson.locales.size, 0),
+  previouslyAuthorizedRemovals: [...previouslyAuthorizedRemovals].sort(),
+  proposedRemovalLedger: [...proposedRemovalLedger].sort(),
   errors,
 };
 
