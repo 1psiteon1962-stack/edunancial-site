@@ -1,0 +1,53 @@
+{
+  "lessonId": "RED-L1-003",
+  "translations": {
+    "es-ES": {
+      "title": "¿Qué es la plusvalía de una vivienda?",
+      "subtitle": "Aprende cómo se calcula la plusvalía, las dos formas en que aumenta, las dos formas en que disminuye y por qué no es lo mismo que el efectivo.",
+      "learningObjectives": [
+        "Calcular la plusvalía a partir del valor y el saldo del préstamo.",
+        "Explicar dos formas en que aumenta la plusvalía.",
+        "Explicar dos formas en que disminuye la plusvalía."
+      ],
+      "mainContent": [
+        {
+          "heading": "La fórmula",
+          "body": "Plusvalía = Valor Actual − Saldo del Préstamo. 350.000 $ con 220.000 $ pendientes = 130.000 $ de plusvalía."
+        },
+        {
+          "heading": "Dos formas en que aumenta",
+          "body": "Amortizando el préstamo, o cuando sube el valor de mercado."
+        },
+        {
+          "heading": "Dos formas en que disminuye",
+          "body": "Pidiendo un préstamo con garantía sobre la vivienda, o cuando baja el valor de mercado."
+        },
+        {
+          "heading": "Por qué no es efectivo",
+          "body": "Para poder usarla hay que vender la vivienda o pedir un préstamo — ambas opciones generan una nueva situación."
+        }
+      ],
+      "practicalExample": "Una vivienda de 400.000 $ con 150.000 $ pendientes tiene 250.000 $ de plusvalía. Si el valor baja a 370.000 $, la plusvalía baja a 220.000 $ — sin que cambie el préstamo.",
+      "practiceQuiz": [
+        {
+          "question": "Una vivienda vale 280.000 $ y se deben 190.000 $. ¿Cuál es la plusvalía?",
+          "options": {"A": "90.000 $", "B": "190.000 $", "C": "280.000 $", "D": "470.000 $"}
+        },
+        {
+          "question": "Verdadero o Falso: Una caída del valor aumenta lo que se debe.",
+          "options": null
+        },
+        {
+          "question": "¿Qué aumenta la plusvalía?",
+          "options": {"A": "Subir el saldo", "B": "Bajar el valor", "C": "Bajar el saldo del préstamo", "D": "Pedir un préstamo con garantía sobre la vivienda"}
+        }
+      ],
+      "answerKey": ["A", "Falso", "C"],
+      "keyPoints": [
+        "Plusvalía = Valor Actual − Saldo del Préstamo.",
+        "Aumenta al amortizar deuda Y al subir el valor — dos fuentes distintas.",
+        "No es efectivo disponible — usarla requiere vender o pedir un préstamo."
+      ]
+    }
+  }
+}

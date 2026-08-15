@@ -1,0 +1,49 @@
+{
+  "lessonId": "RED-L1-002",
+  "translations": {
+    "es-ES": {
+      "title": "Alquilar frente a comprar: qué cambia cuando eres propietario",
+      "subtitle": "Entiende qué responsabilidades, costes y riesgos cambian realmente cuando alguien pasa de alquilar a ser propietario de una vivienda.",
+      "learningObjectives": [
+        "Enumerar las responsabilidades que pasan del arrendador al propietario.",
+        "Explicar qué significa \"generar plusvalía\".",
+        "Identificar un coste real de ser propietario que el alquiler no tiene."
+      ],
+      "mainContent": [
+        {
+          "heading": "Quién es responsable de qué",
+          "body": "Cuando alquilas, tu arrendador (casero) se hace cargo de las reparaciones mayores, los impuestos y el seguro. Cuando eres propietario, todo eso recae sobre ti."
+        },
+        {
+          "heading": "Qué significa \"generar plusvalía\"",
+          "body": "Si compras una vivienda por 300.000 $ y amortizas 50.000 $ del préstamo, ahora tienes 50.000 $ de plusvalía — libre de deuda."
+        },
+        {
+          "heading": "Un coste real que el alquiler no tiene",
+          "body": "Un propietario paga las reparaciones inesperadas de su bolsillo; un inquilino llama al casero."
+        }
+      ],
+      "practicalExample": "Un inquilino paga 1.800 $/mes generando 0 $ en patrimonio. Un propietario con el mismo pago genera plusvalía sobre parte de ese importe.",
+      "practiceQuiz": [
+        {
+          "question": "Cuando alquilas, ¿quién suele encargarse de las reparaciones mayores?",
+          "options": {"A": "El inquilino", "B": "El arrendador", "C": "Ninguno", "D": "El gobierno"}
+        },
+        {
+          "question": "Verdadero o Falso: El alquiler genera plusvalía igual que una hipoteca.",
+          "options": null
+        },
+        {
+          "question": "¿Qué es la plusvalía?",
+          "options": {"A": "El precio total", "B": "La parte del valor libre de deuda", "C": "Un seguro", "D": "La cuota mensual"}
+        }
+      ],
+      "answerKey": ["B", "Falso", "B"],
+      "keyPoints": [
+        "Ser propietario transfiere la responsabilidad de reparaciones, impuestos y seguro.",
+        "La plusvalía es la parte del valor que realmente te pertenece.",
+        "Alquilar o comprar depende de las circunstancias, no del éxito o el fracaso."
+      ]
+    }
+  }
+}
