@@ -7,6 +7,11 @@ const routes = [
   "/pricing",
   "/membership",
   "/courses",
+  "/curriculum",
+  "/curriculum/red",
+  "/curriculum/red/l2",
+  "/curriculum/red/l2/red-l2-001",
+  "/curriculum/red/l2/red-l2-002",
   "/books",
   "/blog",
   "/community",
@@ -22,6 +27,12 @@ const routes = [
   "/api/health",
 ];
 
+const requiredBodyTokens = new Map([
+  ["/curriculum/red/l2", ["RED-L2-001", "RED-L2-002"]],
+  ["/curriculum/red/l2/red-l2-001", ["RED-L2-001"]],
+  ["/curriculum/red/l2/red-l2-002", ["RED-L2-002"]],
+]);
+
 const failures = [];
 
 for (const route of routes) {
@@ -29,7 +40,7 @@ for (const route of routes) {
   try {
     const response = await fetch(url, {
       redirect: "follow",
-      headers: { "user-agent": "EdunancialLaunchSmoke/1.0" },
+      headers: { "user-agent": "EdunancialLaunchSmoke/1.1" },
     });
 
     const contentType = response.headers.get("content-type") || "";
@@ -41,13 +52,22 @@ for (const route of routes) {
       continue;
     }
 
-    if (route === "/api/health") {
-      const body = await response.text();
-      if (!body.includes("ok")) {
-        failures.push(`${route}: health response does not contain ok`);
-        console.error(`FAIL ${route} -> unexpected health body`);
-        continue;
-      }
+    let body = null;
+    const needsBody = route === "/api/health" || requiredBodyTokens.has(route);
+    if (needsBody) body = await response.text();
+
+    if (route === "/api/health" && !body?.includes("ok")) {
+      failures.push(`${route}: health response does not contain ok`);
+      console.error(`FAIL ${route} -> unexpected health body`);
+      continue;
+    }
+
+    const requiredTokens = requiredBodyTokens.get(route) || [];
+    const missingTokens = requiredTokens.filter((token) => !body?.includes(token));
+    if (missingTokens.length > 0) {
+      failures.push(`${route}: missing production curriculum markers ${missingTokens.join(", ")}`);
+      console.error(`FAIL ${route} -> missing ${missingTokens.join(", ")}`);
+      continue;
     }
 
     if (route.endsWith(".xml") && !contentType.includes("xml")) {
