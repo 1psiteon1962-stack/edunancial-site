@@ -195,9 +195,6 @@ test("published lesson prefers localized sibling curriculum files for title, sum
       },
     },
   };
-  writeFileSync(REGISTRY_PATH, JSON.stringify(patchedRegistry, null, 2), "utf8");
-  invalidateRegistryCache();
-
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(
     STATE_PATH,
@@ -293,6 +290,8 @@ Cuerpo localizado en español.
   );
 
   try {
+    writeFileSync(REGISTRY_PATH, JSON.stringify(patchedRegistry, null, 2), "utf8");
+    invalidateRegistryCache();
     const spanish = await getPublishedLesson("BLUE-L1-003", "es");
     assert.ok(spanish);
     assert.equal(spanish.title, "Flujo de caja en los negocios — leer los números");
