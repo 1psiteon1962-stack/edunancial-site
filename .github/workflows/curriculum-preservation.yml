@@ -1,0 +1,42 @@
+name: Curriculum Preservation
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preserve:
+    name: Curriculum Preservation Gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository with history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate existing curriculum structure
+        run: npm run curriculum:validate
+
+      - name: Compare proposed curriculum with main
+        if: github.event_name == 'pull_request'
+        env:
+          CURRICULUM_BASE_REF: origin/${{ github.base_ref }}
+        run: node scripts/curriculum/preservation-gate.mjs
+
+      - name: Validate main inventory after merge
+        if: github.event_name != 'pull_request'
+        env:
+          CURRICULUM_BASE_REF: HEAD~1
+        run: node scripts/curriculum/preservation-gate.mjs
