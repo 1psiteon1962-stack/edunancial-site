@@ -197,6 +197,11 @@ export async function ensureSquareWebhookSubscription() {
     subscription = await retrieveWebhookSubscription(subscription.id);
   }
 
+  const subscriptionId = subscription.id;
+  if (!subscriptionId) {
+    throw new Error("Square webhook subscription id is missing after retrieval.");
+  }
+
   const signatureKey =
     subscription.signature_key || config.webhookSignatureKey.trim();
 
@@ -205,7 +210,7 @@ export async function ensureSquareWebhookSubscription() {
   }
 
   managedWebhookCache = {
-    subscriptionId: subscription.id,
+    subscriptionId,
     signatureKey,
     notificationUrl,
     expiresAt: Date.now() + WEBHOOK_CACHE_TTL_MS,
