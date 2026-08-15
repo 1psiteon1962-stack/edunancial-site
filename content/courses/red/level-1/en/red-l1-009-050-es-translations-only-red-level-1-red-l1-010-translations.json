@@ -1,0 +1,105 @@
+{
+  "lesson_id": "RED-L1-010",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Gravamen Sobre Una Propiedad?",
+      "exec_summary": "Un gravamen (\"lien\" en inglés) es una de esas palabras que la gente escucha y asiente sin realmente entender. Esta lección lo hace concreto: qué es un gravamen, cómo se adhiere a una propiedad, y por qué importa aunque nunca planees vender.",
+      "objectives": [
+        "Definir qué es un gravamen en términos sencillos",
+        "Explicar cómo se adhiere un gravamen a una propiedad",
+        "Identificar tipos comunes de gravámenes",
+        "Entender por qué los gravámenes importan al vender o refinanciar"
+      ],
+      "topics": [
+        [
+          "Qué Es Realmente Un Gravamen",
+          "Un gravamen es un reclamo legal contra una propiedad que asegura una deuda u obligación. No significa que otra persona sea dueña de la propiedad — significa que tiene derecho a que se le pague del valor de la propiedad, usualmente antes de que el dueño pueda vender o refinanciar libremente."
+        ],
+        [
+          "Cómo Se Adhiere Un Gravamen",
+          "Los gravámenes usualmente se registran con la oficina del registrador o secretario del condado local, lo cual es una REGLA ESPECÍFICA DE LA REGIÓN. Una vez registrado, el gravamen se convierte en parte del registro público ligado a esa propiedad específica, no solo al dueño personalmente."
+        ],
+        [
+          "Tipos Comunes de Gravámenes",
+          "Una hipoteca en sí misma es un tipo de gravamen. Otros incluyen gravámenes fiscales (impuesto sobre la propiedad sin pagar), gravámenes de mecánico (contratistas sin pagar), y gravámenes de sentencia judicial (sentencias de corte sin pagar)."
+        ],
+        [
+          "Por Qué Los Gravámenes Importan Al Vender O Refinanciar",
+          "La mayoría de los gravámenes deben pagarse o resolverse antes de que una propiedad pueda venderse con título limpio, o antes de que un prestamista apruebe una nueva hipoteca. Los gravámenes sin resolver pueden retrasar o cancelar una transacción."
+        ]
+      ],
+      "definitions": [
+        [
+          "Gravamen",
+          "Un reclamo legal contra una propiedad que asegura el pago de una deuda u obligación."
+        ],
+        [
+          "Gravamen de Mecánico",
+          "Un gravamen presentado por un contratista o proveedor a quien no se le ha pagado por trabajo o materiales."
+        ],
+        [
+          "Gravamen de Sentencia",
+          "Un gravamen resultante de una sentencia judicial contra el dueño de la propiedad."
+        ],
+        [
+          "Título Limpio",
+          "Propiedad libre de gravámenes o reclamos en competencia."
+        ]
+      ],
+      "examples": [
+        "Un dueño de casa contrata a un techero pero nunca paga la factura final. El techero presenta un gravamen de mecánico contra la propiedad hasta que se le pague.",
+        "Un dueño de propiedad se atrasa en el impuesto sobre la propiedad. El condado coloca un gravamen fiscal sobre la propiedad."
+      ],
+      "mistakes": [
+        "Asumir que un gravamen significa que ya no eres dueño de la propiedad.",
+        "Olvidar que los gravámenes se adhieren a la propiedad, no solo a la persona, y pueden pasar a un nuevo dueño si no se resuelven.",
+        "No verificar si hay gravámenes antes de comprar una propiedad."
+      ],
+      "faq": [
+        [
+          "¿Un gravamen significa que el acreedor puede simplemente tomar la propiedad?",
+          "No automáticamente — la mayoría de los gravámenes requieren un proceso legal (como la ejecución hipotecaria) antes de que el acreedor pueda forzar una venta."
+        ],
+        [
+          "¿Cómo puedo averiguar si una propiedad tiene un gravamen?",
+          "Una búsqueda de título, usualmente hecha durante una compra o refinanciamiento, revelará gravámenes registrados."
+        ]
+      ],
+      "takeaways": [
+        "Un gravamen es un reclamo contra la propiedad, no una transferencia automática de propiedad.",
+        "Los gravámenes se adhieren a la propiedad misma y pueden pasar a un nuevo dueño.",
+        "El título limpio generalmente requiere resolver todos los gravámenes."
+      ],
+      "exercise": "Identifica tres tipos diferentes de gravámenes descritos en esta lección y, para cada uno, escribe una oración describiendo qué tipo de deuda sin pagar lo causó."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

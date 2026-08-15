@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-021",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Propiedad de Renta, y En Qué Se Diferencia De Un Hogar Donde Vives?",
+      "exec_summary": "Una casa es una casa — hasta que su propósito cambia. Esta lección explica qué hace que una propiedad sea \"de renta\" en la práctica, y cómo ese cambio de propósito altera el financiamiento, los impuestos, y el riesgo.",
+      "objectives": [
+        "Definir una propiedad de renta",
+        "Comparar una propiedad de renta con una residencia principal",
+        "Identificar diferencias de financiamiento",
+        "Identificar diferencias de tratamiento fiscal"
+      ],
+      "topics": [
+        [
+          "Qué Hace Que Una Propiedad Sea De Renta",
+          "Una propiedad de renta es un bien inmueble comprado o usado principalmente para generar ingreso rentándolo a inquilinos, en lugar de vivir en él como residencia principal."
+        ],
+        [
+          "Diferencias de Financiamiento",
+          "Los prestamistas típicamente ven los préstamos de propiedad de inversión como de mayor riesgo que los préstamos ocupados por el dueño, a menudo requiriendo pagos iniciales más grandes y cobrando tasas de interés más altas (HECHO VERIFICADO como convención general de préstamos, los términos exactos varían por prestamista)."
+        ],
+        [
+          "Diferencias de Tratamiento Fiscal",
+          "Las propiedades de renta permiten ciertas deducciones (como la depreciación, cubierta en una lección posterior) no disponibles en una residencia principal, pero también vienen con requisitos de reporte fiscal diferentes."
+        ],
+        [
+          "Diferencias de Riesgo",
+          "El ingreso de una propiedad de renta depende de los inquilinos y la renta del mercado, añadiendo una capa de riesgo y administración no presente con una residencia principal."
+        ]
+      ],
+      "definitions": [
+        [
+          "Propiedad de Renta",
+          "Bien inmueble mantenido principalmente para generar ingreso de renta."
+        ],
+        [
+          "Residencia Principal",
+          "La propiedad donde un dueño vive la mayor parte del tiempo."
+        ],
+        [
+          "Préstamo de Propiedad de Inversión",
+          "Una hipoteca usada para financiar una propiedad que no está destinada a ser la residencia principal del comprador."
+        ],
+        [
+          "Ocupado Por El Dueño",
+          "Una propiedad en la que el dueño vive, a diferencia de rentarla."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un comprador adquiere una segunda casa puramente para rentar a inquilinos y nunca vive ahí — esto es una propiedad de renta, no una residencia principal."
+      ],
+      "mistakes": [
+        "Asumir que los términos de financiamiento son idénticos para una residencia principal y una propiedad de renta.",
+        "No tomar en cuenta el riesgo de vacancia al presupuestar el ingreso de renta.",
+        "Pasar por alto las diferencias de reporte fiscal entre los dos."
+      ],
+      "faq": [
+        [
+          "¿Puede una residencia principal convertirse en una propiedad de renta más tarde?",
+          "Sí, y esto es común — un dueño podría mudarse y rentar una antigua residencia principal."
+        ],
+        [
+          "¿Las propiedades de renta siempre requieren un pago inicial más grande?",
+          "Generalmente sí bajo préstamos convencionales, aunque esto es una convención general, no una regla universal."
+        ]
+      ],
+      "takeaways": [
+        "El propósito de una propiedad de renta es generar ingreso, no albergar al dueño.",
+        "Los términos de financiamiento típicamente son más estrictos para propiedades de renta.",
+        "El tratamiento fiscal difiere significativamente entre propiedades de renta y residencias principales."
+      ],
+      "exercise": "Enumera dos diferencias de financiamiento y dos diferencias fiscales entre una residencia principal y una propiedad de renta, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

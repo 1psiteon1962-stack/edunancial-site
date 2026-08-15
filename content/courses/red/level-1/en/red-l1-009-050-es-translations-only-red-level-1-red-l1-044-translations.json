@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-044",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Refinanciamiento, y Cuándo Realmente Tiene Sentido?",
+      "exec_summary": "El refinanciamiento se promociona constantemente, pero no es automáticamente una buena movida. Esta lección explica qué significa el refinanciamiento y las situaciones comunes donde realmente tiene sentido.",
+      "objectives": [
+        "Definir el refinanciamiento",
+        "Enumerar razones comunes por las que los dueños refinancian",
+        "Explicar la consideración básica de costo/beneficio",
+        "Reconocer que el refinanciamiento no es automáticamente beneficioso"
+      ],
+      "topics": [
+        [
+          "Qué Significa El Refinanciamiento",
+          "El refinanciamiento significa reemplazar una hipoteca existente con una nueva, típicamente para cambiar la tasa de interés, el plazo del préstamo, o el tipo de préstamo."
+        ],
+        [
+          "Razones Comunes Para Refinanciar",
+          "Las razones comunes incluyen asegurar una tasa de interés más baja, acortar o alargar el plazo del préstamo, cambiar de una tasa ajustable a una fija (o viceversa), o acceder al capital a través de un refinanciamiento con retiro de efectivo."
+        ],
+        [
+          "La Consideración Básica de Costo/Beneficio",
+          "El refinanciamiento típicamente involucra costos de cierre similares a una compra, así que los dueños generalmente necesitan sopesar esos costos contra los ahorros o beneficio obtenido, a menudo usando un cálculo de 'punto de equilibrio.'"
+        ],
+        [
+          "Por Qué No Es Automáticamente Beneficioso",
+          "NOTA ANALÍTICA/OPINIÓN: si un dueño planea vender o mudarse antes de alcanzar el punto de equilibrio en los costos de refinanciamiento, el refinanciamiento puede no valer la pena financieramente."
+        ]
+      ],
+      "definitions": [
+        [
+          "Refinanciamiento",
+          "Reemplazar una hipoteca existente con una nueva, típicamente para cambiar la tasa, el plazo, o el tipo de préstamo."
+        ],
+        [
+          "Refinanciamiento Con Retiro de Efectivo",
+          "Un refinanciamiento que le provee al dueño efectivo pidiendo prestado contra el capital de vivienda aumentado."
+        ],
+        [
+          "Punto de Equilibrio",
+          "El punto en el cual los ahorros del refinanciamiento compensan los costos del refinanciamiento."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño refinancia para bajar su tasa de interés, pagando $4,000 en costos de cierre pero ahorrando $200/mes — alcanzando el punto de equilibrio después de 20 meses, después de lo cual el refinanciamiento se convierte en un beneficio financiero neto si se quedan en la casa."
+      ],
+      "mistakes": [
+        "Refinanciar sin calcular el punto de equilibrio en relación a cuánto tiempo se planea quedar en la casa.",
+        "Asumir que el refinanciamiento siempre es gratis o de bajo costo.",
+        "No comparar múltiples ofertas de refinanciamiento."
+      ],
+      "faq": [
+        [
+          "¿Siempre baja el refinanciamiento la tasa de interés?",
+          "No — el refinanciamiento también se puede usar para cambiar el plazo del préstamo o acceder al capital, no solo bajar la tasa."
+        ],
+        [
+          "¿Para qué se usa un refinanciamiento con retiro de efectivo?",
+          "A menudo se usa para acceder al capital para gastos como remodelaciones, aunque esto aumenta el saldo del préstamo y debe considerarse cuidadosamente."
+        ]
+      ],
+      "takeaways": [
+        "El refinanciamiento reemplaza una hipoteca existente, a menudo para mejorar los términos.",
+        "Las metas comunes incluyen tasa más baja, plazo diferente, o acceder al capital.",
+        "El análisis del punto de equilibrio ayuda a determinar si el refinanciamiento tiene sentido financiero."
+      ],
+      "exercise": "Usando el ejemplo de esta lección ($4,000 en costos, $200/mes de ahorros), confirma el cálculo del punto de equilibrio y explica lo que significa para un dueño de casa que planea mudarse en 12 meses."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

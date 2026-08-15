@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-013",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Inspección de Vivienda, y Qué Revisa Realmente?",
+      "exec_summary": "Una inspección de vivienda es la oportunidad del comprador de averiguar qué está pasando realmente dentro de las paredes antes de comprometerse. Esta lección cubre qué revisa realmente y quién la realiza.",
+      "objectives": [
+        "Definir una inspección de vivienda",
+        "Enumerar sistemas comunes que cubre una inspección",
+        "Distinguir la inspección de la tasación",
+        "Explicar por qué un comprador típicamente pide una"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Inspección de Vivienda",
+          "Una inspección de vivienda es un examen visual, no invasivo, de la condición de una propiedad, típicamente realizado por un inspector licenciado o certificado contratado por el comprador."
+        ],
+        [
+          "Qué Cubre Típicamente",
+          "Las inspecciones comúnmente revisan el techo, la fundación, la plomería, los sistemas eléctricos, el HVAC, y los componentes estructurales en busca de defectos visibles o problemas de seguridad."
+        ],
+        [
+          "Inspección vs. Tasación",
+          "Una inspección de vivienda evalúa la condición y seguridad; una tasación (cubierta a continuación) evalúa el valor. Sirven propósitos diferentes y usualmente las realizan profesionales diferentes."
+        ],
+        [
+          "Por Qué Los Compradores Piden Una",
+          "Una inspección le da al comprador información para negociar reparaciones, pedir créditos, o en algunos casos retirarse del trato, dependiendo de las contingencias del contrato (cubiertas más adelante)."
+        ]
+      ],
+      "definitions": [
+        [
+          "Inspección de Vivienda",
+          "Un examen visual de la condición y sistemas de una propiedad, realizado por un inspector entrenado."
+        ],
+        [
+          "Inspector",
+          "Un profesional entrenado para evaluar la condición de una propiedad e identificar defectos visibles."
+        ],
+        [
+          "HVAC",
+          "Sistemas de calefacción, ventilación, y aire acondicionado en una propiedad."
+        ],
+        [
+          "Componente Estructural",
+          "Una parte de carga o fundamental de la construcción de un edificio."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Una inspección revela un techo envejecido con varios años de vida útil restante — informando la negociación del comprador o la planificación de presupuesto, sin necesariamente cancelar el trato."
+      ],
+      "mistakes": [
+        "Confundir una inspección de vivienda con una tasación.",
+        "Omitir una inspección para hacer una oferta más competitiva, sin entender el riesgo añadido.",
+        "Asumir que una inspección cubre todo, incluyendo cosas detrás de paredes o bajo tierra."
+      ],
+      "faq": [
+        [
+          "¿Es requerida una inspección de vivienda?",
+          "Usualmente no es requerida por ley, pero comúnmente se recomienda y a menudo la requiere una contingencia de contrato o un prestamista en algunos casos."
+        ],
+        [
+          "¿Garantiza el inspector que no habrá problemas futuros?",
+          "No — una inspección refleja la condición visible al momento de la inspección, no una garantía contra problemas futuros."
+        ]
+      ],
+      "takeaways": [
+        "Una inspección de vivienda evalúa la condición, no el valor.",
+        "Típicamente cubre sistemas principales: techo, fundación, plomería, eléctrico, HVAC.",
+        "Le da a los compradores información, no necesariamente una salida automática del trato."
+      ],
+      "exercise": "Enumera tres sistemas o áreas que una inspección de vivienda típica cubre, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

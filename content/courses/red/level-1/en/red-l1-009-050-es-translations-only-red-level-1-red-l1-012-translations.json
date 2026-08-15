@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-012",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Seguro de Título, y Por Qué Lo Necesitas?",
+      "exec_summary": "El seguro de título es uno de esos cargos del día de cierre que los compradores rara vez cuestionan. Esta lección explica qué protege realmente y por qué importa aunque ya se haya hecho una búsqueda de título.",
+      "objectives": [
+        "Definir el seguro de título",
+        "Distinguir entre pólizas de título del propietario y del prestamista",
+        "Explicar contra qué protege el seguro de título",
+        "Reconocer por qué una búsqueda de título sola no es suficiente"
+      ],
+      "topics": [
+        [
+          "Qué Es El Seguro de Título",
+          "El seguro de título protege contra pérdida financiera por defectos en el título de una propiedad — como gravámenes no descubiertos, falsificación, o errores en los registros públicos — que una búsqueda de título pudo haber pasado por alto."
+        ],
+        [
+          "Póliza del Propietario vs. Póliza del Prestamista",
+          "Una póliza de título del prestamista protege el interés del prestamista en el monto del préstamo; una póliza de título del propietario protege el capital del comprador en la propiedad. Son pólizas separadas, y los prestamistas típicamente requieren la suya."
+        ],
+        [
+          "Por Qué Una Búsqueda de Título Sola No Es Suficiente",
+          "Una búsqueda de título revisa los registros públicos buscando problemas existentes, pero el seguro de título protege contra problemas que incluso una búsqueda cuidadosa podría pasar por alto — como fraude o errores administrativos."
+        ],
+        [
+          "Cuándo Se Paga",
+          "El seguro de título típicamente es una prima de pago único al cierre, a diferencia del seguro de vivienda, que se paga anualmente — una REGLA ESPECÍFICA DE LA REGIÓN en cuanto a quién paga usualmente (comprador o vendedor) varía por estado."
+        ]
+      ],
+      "definitions": [
+        [
+          "Seguro de Título",
+          "Seguro que protege contra pérdida financiera por defectos en el título de una propiedad."
+        ],
+        [
+          "Póliza de Título del Propietario",
+          "Una póliza de seguro de título que protege el capital del comprador en la propiedad."
+        ],
+        [
+          "Póliza de Título del Prestamista",
+          "Una póliza de seguro de título que protege el interés del prestamista en el préstamo."
+        ],
+        [
+          "Búsqueda de Título",
+          "Una revisión de los registros públicos para verificar gravámenes existentes o problemas de propiedad en una propiedad."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Después del cierre, un heredero previamente desconocido reclama un interés parcial de propiedad debido a un error de registro de décadas atrás. El seguro de título cubre los costos legales y la posible pérdida."
+      ],
+      "mistakes": [
+        "Asumir que una búsqueda de título sola elimina todo riesgo futuro.",
+        "Omitir una póliza del propietario porque solo se requería la póliza del prestamista.",
+        "No entender que el seguro de título típicamente es un costo único, no recurrente."
+      ],
+      "faq": [
+        [
+          "¿Es requerido el seguro de título?",
+          "La póliza del prestamista típicamente es requerida por el prestamista; la póliza del propietario es opcional pero comúnmente recomendada."
+        ],
+        [
+          "¿Quién paga por el seguro de título?",
+          "Esto es una REGLA ESPECÍFICA DE LA REGIÓN — la práctica habitual sobre quién paga (comprador o vendedor) varía por estado."
+        ]
+      ],
+      "takeaways": [
+        "El seguro de título protege contra defectos de título que una búsqueda podría pasar por alto.",
+        "Las pólizas del propietario y del prestamista son separadas y protegen a diferentes partes.",
+        "Típicamente es una prima de pago único al cierre."
+      ],
+      "exercise": "Explica en tus propias palabras la diferencia entre lo que protege una póliza de título del propietario versus lo que protege una póliza de título del prestamista."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-030",
+  "translations": {
+    "es": {
+      "title": "Depósitos de Seguridad: Qué Pueden y No Pueden Hacer Los Arrendadores",
+      "exec_summary": "Los depósitos de seguridad son una de las partes más disputadas de la relación arrendador-inquilino. Esta lección explica para qué son y los límites generales sobre cómo los arrendadores pueden usarlos.",
+      "objectives": [
+        "Definir un depósito de seguridad",
+        "Explicar su propósito básico",
+        "Identificar límites comunes en el uso del arrendador",
+        "Reconocer que esto es una REGLA ESPECÍFICA DE LA REGIÓN"
+      ],
+      "topics": [
+        [
+          "Qué Es Un Depósito de Seguridad",
+          "Un depósito de seguridad es dinero recolectado por adelantado por un arrendador para cubrir posible renta sin pagar o daño a la propiedad más allá del desgaste normal."
+        ],
+        [
+          "Su Propósito Básico",
+          "Protege al arrendador financieramente si un inquilino se va debiendo renta o causa daño más allá de lo esperado por el uso normal."
+        ],
+        [
+          "Límites Comunes en el Uso del Arrendador",
+          "Muchas jurisdicciones limitan el monto del depósito (a menudo ligado a la renta mensual), requieren que se retenga de una forma específica (a veces una cuenta separada), y establecen plazos para devolverlo después de la mudanza — todas REGLAS ESPECÍFICAS DE LA REGIÓN."
+        ],
+        [
+          "Desgaste Normal vs. Daño",
+          "Los arrendadores generalmente no pueden deducir por desgaste normal (como el desvanecimiento menor de la alfombra), solo por daño real más allá de eso — una distinción que causa muchas disputas."
+        ]
+      ],
+      "definitions": [
+        [
+          "Depósito de Seguridad",
+          "Fondos recolectados por un arrendador por adelantado para cubrir renta sin pagar o daño más allá del desgaste normal."
+        ],
+        [
+          "Desgaste Normal",
+          "Deterioro menor esperado por uso ordinario a través del tiempo, no considerado daño."
+        ],
+        [
+          "Plazo de Mudanza",
+          "El plazo legalmente requerido para que un arrendador devuelva un depósito o proporcione una lista de deducciones detallada después de que un inquilino se va."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un inquilino se muda después de dos años; el desvanecimiento menor de la alfombra es desgaste normal, pero una mancha grande de una sustancia derramada puede ser daño deducible."
+      ],
+      "mistakes": [
+        "Asumir que un arrendador puede deducir por cualquier imperfección, incluyendo desgaste normal.",
+        "No saber el plazo local para la devolución del depósito.",
+        "No documentar la condición de la propiedad al momento de entrar y salir."
+      ],
+      "faq": [
+        [
+          "¿Hay un límite nacional en los montos de depósito de seguridad?",
+          "No — esto es una REGLA ESPECÍFICA DE LA REGIÓN; los límites (si existen) varían por estado o localidad."
+        ],
+        [
+          "¿Qué debería hacer un inquilino o arrendador para evitar disputas?",
+          "OPINIÓN: muchos profesionales recomiendan una inspección documentada de entrada/salida con fotos."
+        ]
+      ],
+      "takeaways": [
+        "Un depósito de seguridad protege contra renta sin pagar y daño más allá del desgaste normal.",
+        "Las reglas sobre límites, retención, y plazos de devolución varían por jurisdicción.",
+        "El desgaste normal generalmente no puede deducirse."
+      ],
+      "exercise": "Enumera dos ejemplos de \"desgaste normal\" y dos ejemplos de \"daño\" que podrían deducirse de un depósito de seguridad."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

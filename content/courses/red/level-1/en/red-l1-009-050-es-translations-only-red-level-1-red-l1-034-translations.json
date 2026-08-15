@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-034",
+  "translations": {
+    "es": {
+      "title": "Residencial vs. Comercial: ¿Qué Cambia Realmente?",
+      "exec_summary": "Los bienes raíces residenciales y comerciales operan bajo reglas diferentes, desde el financiamiento hasta cómo se calcula el valor. Esta lección presenta lo que realmente cambia entre los dos.",
+      "objectives": [
+        "Definir bienes raíces residenciales y comerciales",
+        "Comparar diferencias de financiamiento",
+        "Comparar enfoques de valoración",
+        "Identificar por qué importa la distinción"
+      ],
+      "topics": [
+        [
+          "Definiciones",
+          "Los bienes raíces residenciales generalmente se usan para vivienda (1-4 unidades, según lecciones anteriores); los bienes raíces comerciales incluyen propiedades usadas para propósitos de negocio, o propiedades residenciales con 5+ unidades."
+        ],
+        [
+          "Diferencias de Financiamiento",
+          "El financiamiento comercial típicamente involucra estructuras de préstamo diferentes, a menudo plazos más cortos, pagos iniciales más altos, y más énfasis en el desempeño de ingreso de la propiedad en lugar de solo el ingreso personal del prestatario."
+        ],
+        [
+          "Diferencias de Valoración",
+          "Las propiedades residenciales a menudo se valoran usando ventas comparables (comps); las propiedades comerciales frecuentemente se valoran usando enfoques basados en ingreso, conectando de vuelta con conceptos como la tasa de capitalización cubierta anteriormente."
+        ],
+        [
+          "Por Qué Importa La Distinción",
+          "La línea residencial/comercial afecta las opciones de financiamiento, los métodos de valoración, e incluso con qué profesionales (agentes, tasadores, prestamistas) típicamente trabajaría un dueño."
+        ]
+      ],
+      "definitions": [
+        [
+          "Bienes Raíces Residenciales",
+          "Propiedad usada para vivienda, generalmente 1-4 unidades."
+        ],
+        [
+          "Bienes Raíces Comerciales",
+          "Propiedad usada para propósitos de negocio, o propiedad residencial con 5+ unidades."
+        ],
+        [
+          "Valoración Basada en Ingreso",
+          "Un enfoque de valoración basado en el desempeño de ingreso de una propiedad, común en bienes raíces comerciales."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un edificio de apartamentos de 4 unidades típicamente se financia y valora más como bienes raíces residenciales, mientras que un edificio de 6 unidades cruza hacia el tratamiento comercial."
+      ],
+      "mistakes": [
+        "Asumir que cualquier propiedad con inquilinos es automáticamente comercial.",
+        "No saber que el umbral de 4 vs. 5 unidades afecta la categoría de financiamiento.",
+        "Asumir que los métodos de valoración son idénticos entre las dos categorías."
+      ],
+      "faq": [
+        [
+          "¿Es un edificio de apartamentos de 4 unidades residencial o comercial?",
+          "Generalmente todavía residencial para propósitos de financiamiento, consistente con el umbral de 1-4 unidades discutido anteriormente."
+        ],
+        [
+          "¿Siempre cuesta más el bien raíz comercial?",
+          "OPINIÓN: no necesariamente — las propiedades comerciales varían ampliamente en precio, igual que las residenciales."
+        ]
+      ],
+      "takeaways": [
+        "La línea residencial/comercial es generalmente el mismo umbral de 1-4 vs. 5+ unidades discutido anteriormente.",
+        "Los enfoques de financiamiento y valoración difieren significativamente entre los dos.",
+        "Esta distinción afecta qué profesionales y procesos aplican."
+      ],
+      "exercise": "Explica por qué un edificio de apartamentos de 6 unidades probablemente se valoraría diferente a un edificio de 3 unidades, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-032",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Administrador de Propiedades, y Cuándo Necesitas Uno?",
+      "exec_summary": "Un administrador de propiedades puede quitarle mucho trabajo a un dueño, pero tiene un costo. Esta lección explica qué hace un administrador de propiedades y cuándo tiene sentido práctico contratar uno.",
+      "objectives": [
+        "Definir el papel de un administrador de propiedades",
+        "Identificar costos típicos",
+        "Explicar cuándo tiene sentido contratar uno",
+        "Reconocer las ventajas y desventajas de auto-administrar vs. contratar"
+      ],
+      "topics": [
+        [
+          "Qué Hace Un Administrador de Propiedades",
+          "Un administrador de propiedades maneja las operaciones diarias de la propiedad de renta — selección de inquilinos, cobro de renta, coordinación de mantenimiento, y a menudo manejo de problemas de inquilinos — en nombre del dueño."
+        ],
+        [
+          "Costos Típicos",
+          "ESTIMACIÓN: las cuotas de administración de propiedades comúnmente rondan el 8-10% de la renta mensual, más posibles cuotas de arrendamiento, aunque esto varía por mercado y nivel de servicio."
+        ],
+        [
+          "Cuándo Tiene Sentido",
+          "Los dueños con múltiples propiedades, propiedades lejos de donde viven, o aquellos que no quieren involucramiento diario a menudo encuentran que un administrador de propiedades vale la pena a pesar del costo."
+        ],
+        [
+          "Ventajas y Desventajas",
+          "Auto-administrar ahorra la cuota pero requiere el tiempo y disponibilidad del dueño; contratar un administrador cuesta dinero pero libera el tiempo del dueño y provee experiencia profesional."
+        ]
+      ],
+      "definitions": [
+        [
+          "Administrador de Propiedades",
+          "Un profesional o compañía contratada para manejar las operaciones diarias de una propiedad de renta en nombre de un dueño."
+        ],
+        [
+          "Selección de Inquilinos",
+          "El proceso de evaluar a inquilinos prospectivos, a menudo incluyendo verificaciones de crédito y antecedentes."
+        ],
+        [
+          "Cuota de Arrendamiento",
+          "Una cuota cobrada por un administrador de propiedades por encontrar y colocar a un nuevo inquilino."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño que vive fuera del estado contrata a un administrador de propiedades por 9% de la renta mensual para manejar problemas de inquilinos y mantenimiento que de otra forma no podría manejar remotamente."
+      ],
+      "mistakes": [
+        "Asumir que la auto-administración siempre es más barata una vez que se toman en cuenta el tiempo y el estrés.",
+        "No investigar completamente la estructura de cuotas de un administrador de propiedades (cuotas de arrendamiento, márgenes de mantenimiento, etc.).",
+        "Contratar a un administrador de propiedades sin verificar reseñas o referencias."
+      ],
+      "faq": [
+        [
+          "¿Vale la pena contratar un administrador de propiedades para una sola propiedad local?",
+          "OPINIÓN: muchos dueños auto-administran una sola propiedad cercana; el valor de un administrador a menudo aumenta con el número de propiedades o la distancia."
+        ],
+        [
+          "¿Todos los administradores de propiedades cobran las mismas cuotas?",
+          "No — las estructuras de cuotas varían por compañía y mercado, así que esto debe tratarse como un rango de ESTIMACIÓN."
+        ]
+      ],
+      "takeaways": [
+        "Un administrador de propiedades maneja las operaciones diarias por una cuota.",
+        "Las cuotas comúnmente rondan el 8-10% de la renta (ESTIMACIÓN).",
+        "El valor de contratar uno a menudo aumenta con la distancia o el número de propiedades poseídas."
+      ],
+      "exercise": "Enumera dos escenarios donde contratar a un administrador de propiedades probablemente tendría sentido, y uno donde auto-administrar podría tener más sentido."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

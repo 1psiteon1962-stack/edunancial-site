@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-036",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El House Hacking?",
+      "exec_summary": "El house hacking se ha convertido en una estrategia popular para entrar a la inversión en bienes raíces mientras aún resuelves tus propias necesidades de vivienda. Esta lección explica qué significa y cómo funciona en la práctica.",
+      "objectives": [
+        "Definir el house hacking",
+        "Explicar cómo reduce los costos de vivienda",
+        "Identificar estructuras comunes de house hacking",
+        "Reconocer su conexión con el financiamiento ocupado por el dueño"
+      ],
+      "topics": [
+        [
+          "Qué Significa El House Hacking",
+          "El house hacking significa comprar una propiedad, vivir en parte de ella, y rentar el resto para compensar o eliminar los costos de vivienda propios del dueño."
+        ],
+        [
+          "Cómo Reduce Los Costos",
+          "El ingreso de renta de otras unidades o cuartos puede cubrir parte o todo el pago de la hipoteca, reduciendo efectivamente lo que el dueño paga por vivir ahí."
+        ],
+        [
+          "Estructuras Comunes",
+          "Los enfoques comunes de house hacking incluyen comprar un dúplex/tríplex/cuádruplex y vivir en una unidad, o rentar cuartos libres en una casa unifamiliar."
+        ],
+        [
+          "Conexión Con El Financiamiento Ocupado Por El Dueño",
+          "Porque el dueño vive en el sitio, el house hacking a menudo califica para términos de financiamiento ocupado por el dueño (discutidos en lecciones anteriores), lo cual puede significar pagos iniciales más bajos que los préstamos de propiedad de inversión puros."
+        ]
+      ],
+      "definitions": [
+        [
+          "House Hacking",
+          "Comprar una propiedad, vivir en parte de ella, y rentar el resto para reducir los costos de vivienda."
+        ],
+        [
+          "Financiamiento Ocupado Por El Dueño",
+          "Términos de hipoteca disponibles cuando el prestatario vivirá en la propiedad, a menudo más favorables que los préstamos de propiedad de inversión."
+        ],
+        [
+          "Dueño-Ocupante Multifamiliar",
+          "Un dueño que vive en una unidad de una propiedad multifamiliar que posee."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño compra un tríplex, vive en una unidad, y renta las otras dos — el ingreso de renta cubre la mayoría de la hipoteca, bajando dramáticamente el costo de vivienda personal del dueño."
+      ],
+      "mistakes": [
+        "Asumir que el house hacking requiere una propiedad multifamiliar (rentar cuartos libres en una casa unifamiliar también es común).",
+        "No tomar en cuenta las responsabilidades añadidas de también ser arrendador mientras se vive en el sitio.",
+        "Sobreestimar cuánto ingreso de renta compensará completamente la hipoteca."
+      ],
+      "faq": [
+        [
+          "¿Siempre elimina el house hacking completamente el pago de la hipoteca?",
+          "OPINIÓN/ESTIMACIÓN: no siempre — depende de las rentas, el conteo de unidades, y el mercado, pero incluso una compensación parcial puede ser valiosa."
+        ],
+        [
+          "¿Puede el house hacking funcionar con una casa unifamiliar?",
+          "Sí — rentar cuartos libres es un enfoque común de house hacking unifamiliar."
+        ]
+      ],
+      "takeaways": [
+        "El house hacking significa vivir en parte de una propiedad mientras se renta el resto.",
+        "Puede reducir o eliminar significativamente los costos de vivienda del dueño.",
+        "A menudo permite acceso a términos de financiamiento ocupado por el dueño."
+      ],
+      "exercise": "Describe dos estructuras de propiedad diferentes (multifamiliar y unifamiliar) que podrían usarse para house hacking, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

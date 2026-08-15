@@ -239,6 +239,84 @@ function addTranslationToMap(
   map.set(`${normalizedLessonId}::${normalizedLocale}`, translation);
 }
 
+const LEGACY_TRANSLATION_SECTION_TITLES: Record<string, string> = {
+  objectives: "Objetivos de aprendizaje",
+  topics: "Contenido principal",
+  definitions: "Definiciones",
+  examples: "Ejemplos prácticos",
+  mistakes: "Errores comunes",
+  faq: "Preguntas frecuentes",
+  takeaways: "Puntos clave",
+  exercise: "Ejercicio",
+};
+
+function formatLegacyKey(key: string): string {
+  return key
+    .replace(/[_-]+/gu, " ")
+    .replace(/\b\w/gu, (letter) => letter.toUpperCase());
+}
+
+function renderLegacyValue(value: unknown, depth = 3): string {
+  if (typeof value === "string") return value.trim();
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => {
+        if (typeof item === "string" || typeof item === "number" || typeof item === "boolean") {
+          return `- ${String(item).trim()}`;
+        }
+        return renderLegacyValue(item, depth);
+      })
+      .filter(Boolean)
+      .join("\n\n");
+  }
+  if (!value || typeof value !== "object") return "";
+
+  const headingDepth = Math.min(Math.max(depth, 1), 6);
+  return Object.entries(value as Record<string, unknown>)
+    .map(([key, nested]) => {
+      const rendered = renderLegacyValue(nested, headingDepth + 1);
+      if (!rendered) return "";
+      if (typeof nested === "string" || typeof nested === "number" || typeof nested === "boolean") {
+        return `**${formatLegacyKey(key)}:** ${rendered}`;
+      }
+      return `${"#".repeat(headingDepth)} ${formatLegacyKey(key)}\n\n${rendered}`;
+    })
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+function renderLegacyStructuredBody(record: Record<string, unknown>): string | undefined {
+  const sections = Object.entries(LEGACY_TRANSLATION_SECTION_TITLES)
+    .map(([key, title]) => {
+      const rendered = renderLegacyValue(record[key]);
+      return rendered ? `## ${title}\n\n${rendered}` : "";
+    })
+    .filter(Boolean);
+  return sections.length > 0 ? sections.join("\n\n") : undefined;
+}
+
+function normalizeBundledTranslation(raw: unknown): PublishedLessonTranslation | null {
+  if (!raw || typeof raw !== "object") return null;
+  const record = raw as Record<string, unknown>;
+  const title = typeof record.title === "string" ? record.title.trim() : undefined;
+  const summaryValue = typeof record.summary === "string"
+    ? record.summary
+    : typeof record.exec_summary === "string"
+      ? record.exec_summary
+      : undefined;
+  const summary = summaryValue?.trim();
+  const canonicalBody = typeof record.body === "string" ? record.body.trim() : undefined;
+  const body = canonicalBody || renderLegacyStructuredBody(record);
+
+  if (!title && !summary && !body) return null;
+  return {
+    ...(title ? { title } : {}),
+    ...(summary ? { summary } : {}),
+    ...(body ? { body } : {}),
+  };
+}
+
 function loadBundledTranslationFiles(
   dir: string,
   map: Map<string, PublishedLessonTranslation>,
@@ -255,19 +333,22 @@ function loadBundledTranslationFiles(
 
     try {
       const parsed = JSON.parse(readFileSync(path, "utf8")) as {
-        id?: string;
-        translations?: Record<string, PublishedLessonTranslation>;
+        id?: unknown;
+        lesson_id?: unknown;
+        translations?: Record<string, unknown>;
       };
-      if (typeof parsed.id !== "string" || !parsed.translations || typeof parsed.translations !== "object") {
+      const lessonId = typeof parsed.id === "string"
+        ? parsed.id
+        : typeof parsed.lesson_id === "string"
+          ? parsed.lesson_id
+          : "";
+      if (!lessonId || !parsed.translations || typeof parsed.translations !== "object") {
         continue;
       }
-      for (const [locale, translation] of Object.entries(parsed.translations)) {
-        if (!translation || typeof translation !== "object") continue;
-        addTranslationToMap(map, parsed.id, locale, {
-          ...(typeof translation.title === "string" ? { title: translation.title } : {}),
-          ...(typeof translation.summary === "string" ? { summary: translation.summary } : {}),
-          ...(typeof translation.body === "string" ? { body: translation.body } : {}),
-        });
+      for (const [locale, rawTranslation] of Object.entries(parsed.translations)) {
+        const translation = normalizeBundledTranslation(rawTranslation);
+        if (!translation) continue;
+        addTranslationToMap(map, lessonId, locale, translation);
       }
     } catch {
       // Ignore malformed translation artifacts; they should not break curriculum rendering.

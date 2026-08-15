@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-040",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Evaluación Especial de HOA?",
+      "exec_summary": "Una evaluación especial de HOA puede golpear a un dueño con una factura grande e inesperada fuera de las cuotas regulares. Esta lección explica qué es y por qué es un riesgo financiero real que vale la pena entender antes de comprar en una HOA.",
+      "objectives": [
+        "Definir una evaluación especial de HOA",
+        "Explicar por qué sucede",
+        "Distinguirla de las cuotas regulares",
+        "Reconocerla como un riesgo financiero real"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Evaluación Especial",
+          "Una evaluación especial es un cargo adicional, a menudo único, que una HOA impone a los dueños, separado de las cuotas regulares mensuales o anuales, usualmente para cubrir un gasto inesperado o mayor."
+        ],
+        [
+          "Por Qué Sucede",
+          "Las evaluaciones especiales comúnmente surgen cuando el fondo de reserva de la HOA es insuficiente para cubrir una reparación mayor (como el reemplazo de un techo o un problema estructural) o un costo inesperado."
+        ],
+        [
+          "Evaluación Especial vs. Cuotas Regulares",
+          "Las cuotas regulares son pagos presupuestados y recurrentes; una evaluación especial es un cargo adicional no planeado, a menudo grande, fuera del ciclo normal de presupuesto."
+        ],
+        [
+          "Por Qué Es Un Riesgo Real",
+          "Las evaluaciones especiales pueden ser de miles de dólares y generalmente son obligatorias para todos los dueños en la HOA, independientemente de la preparación financiera individual — revisar la salud del fondo de reserva de una HOA antes de comprar puede ayudar a medir este riesgo."
+        ]
+      ],
+      "definitions": [
+        [
+          "Evaluación Especial",
+          "Un cargo adicional impuesto por una HOA fuera de las cuotas regulares, usualmente por un gasto mayor o inesperado."
+        ],
+        [
+          "Fondo de Reserva",
+          "Dinero que una HOA aparta para futuras reparaciones mayores, discutido en una lección anterior."
+        ],
+        [
+          "Reserva Subfinanciada",
+          "Un fondo de reserva que no tiene suficiente dinero para cubrir gastos mayores futuros anticipados."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: El fondo de reserva de una HOA no puede cubrir un reemplazo de techo necesario en toda la comunidad, así que impone una evaluación especial de $3,000 a cada dueño para financiar la reparación."
+      ],
+      "mistakes": [
+        "No revisar la salud del fondo de reserva de una HOA antes de comprar.",
+        "Asumir que las evaluaciones especiales son raras o no sucederán.",
+        "No presupuestar ninguna contingencia para este tipo de costo inesperado."
+      ],
+      "faq": [
+        [
+          "¿Puede un dueño negarse a pagar una evaluación especial?",
+          "Generalmente no — típicamente es obligatoria, similar a las cuotas regulares, y el no pago puede llevar a consecuencias similares como multas o gravámenes."
+        ],
+        [
+          "¿Cómo puede un comprador medir el riesgo de evaluación especial antes de comprar?",
+          "OPINIÓN: revisar los estados financieros de la HOA y los estudios del fondo de reserva, donde estén disponibles, puede ayudar a evaluar este riesgo."
+        ]
+      ],
+      "takeaways": [
+        "Una evaluación especial es un cargo adicional, a menudo grande, de la HOA fuera de las cuotas regulares.",
+        "Comúnmente sucede cuando los fondos de reserva son insuficientes para reparaciones mayores.",
+        "Generalmente es obligatoria y representa un riesgo financiero real para los dueños en comunidades con HOA."
+      ],
+      "exercise": "Explica por qué un fondo de reserva de HOA subfinanciado aumenta el riesgo de una futura evaluación especial."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

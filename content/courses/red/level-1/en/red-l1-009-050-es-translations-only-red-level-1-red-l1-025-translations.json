@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-025",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es La Apreciación, y Por Qué No Está Garantizada?",
+      "exec_summary": "La apreciación a menudo se trata como una característica automática de los bienes raíces, pero no está garantizada. Esta lección explica qué impulsa la apreciación y por qué los dueños no deberían contar con ella ciegamente.",
+      "objectives": [
+        "Definir la apreciación",
+        "Identificar impulsores comunes de la apreciación",
+        "Explicar por qué la apreciación no está garantizada",
+        "Distinguir la apreciación del flujo de efectivo"
+      ],
+      "topics": [
+        [
+          "Qué Significa La Apreciación",
+          "La apreciación es un aumento en el valor de una propiedad a través del tiempo."
+        ],
+        [
+          "Impulsores Comunes",
+          "La apreciación a menudo es impulsada por factores como la oferta y demanda local, el crecimiento económico, la inflación, y las mejoras del vecindario — ninguno de los cuales está garantizado que continúe."
+        ],
+        [
+          "Por Qué No Está Garantizada",
+          "Los valores de propiedad también pueden mantenerse estables o disminuir debido a recesiones económicas, sobreoferta, o factores locales — HECHO VERIFICADO: los mercados de vivienda históricos de EE.UU. han experimentado períodos tanto de apreciación como de disminución."
+        ],
+        [
+          "Apreciación vs. Flujo de Efectivo",
+          "La apreciación es una ganancia en papel hasta que se vende o refinancia la propiedad, mientras que el flujo de efectivo es dinero recibido en mano a lo largo del camino — son diferentes tipos de retorno."
+        ]
+      ],
+      "definitions": [
+        [
+          "Apreciación",
+          "Un aumento en el valor de mercado de una propiedad a través del tiempo."
+        ],
+        [
+          "Depreciación (sentido de mercado)",
+          "Una disminución en el valor de mercado de una propiedad a través del tiempo (diferente del concepto fiscal de depreciación, cubierto más adelante)."
+        ],
+        [
+          "Ganancia No Realizada",
+          "Un aumento en valor que aún no se ha convertido en efectivo a través de una venta o refinanciamiento."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Una propiedad comprada por $250,000 vale $280,000 cinco años después — una apreciación de $30,000, aunque esta ganancia no está realizada hasta que se venda o refinancie."
+      ],
+      "mistakes": [
+        "Asumir que la apreciación está garantizada cada año.",
+        "Tratar la apreciación no realizada como efectivo gastable.",
+        "Ignorar la posibilidad de disminuciones de valor."
+      ],
+      "faq": [
+        [
+          "¿Los bienes raíces siempre suben de valor?",
+          "No — HECHO VERIFICADO: los mercados históricamente han experimentado tanto aumentos como disminuciones en diferentes períodos."
+        ],
+        [
+          "¿Es la apreciación mejor que el flujo de efectivo?",
+          "OPINIÓN: los inversionistas difieren; algunos priorizan el flujo de efectivo por estabilidad, otros aceptan menor flujo de efectivo por potencial de apreciación."
+        ]
+      ],
+      "takeaways": [
+        "La apreciación es un aumento de valor a través del tiempo, no una garantía.",
+        "Es impulsada por factores fuera del control del dueño, como la oferta, demanda, y la economía.",
+        "Permanece no realizada hasta la venta o refinanciamiento."
+      ],
+      "exercise": "Nombra tres factores que podrían causar que el valor de una propiedad disminuya en lugar de apreciar."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

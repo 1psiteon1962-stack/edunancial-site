@@ -1,0 +1,96 @@
+{
+  "lesson_id": "RED-L1-050",
+  "translations": {
+    "es": {
+      "title": "Capstone: Recorriendo Una Compra de Propiedad Real, De Principio a Fin",
+      "exec_summary": "Este es el capstone para RED Nivel 1 — aplicando todo lo aprendido a través de las 49 lecciones anteriores a un solo escenario realista de compra de propiedad de principio a fin.",
+      "objectives": [
+        "Aplicar conceptos de RED-L1 a un escenario completo de compra",
+        "Demostrar comprensión de la secuencia de compra",
+        "Integrar conceptos financieros, legales, y de proceso aprendidos",
+        "Prepararse para el enfoque más profundo de 'Cómo' de RED Nivel 2"
+      ],
+      "topics": [
+        [
+          "Estableciendo El Escenario",
+          "EJEMPLO ILUSTRATIVO: Un comprador obtiene preaprobación para financiamiento, encuentra una propiedad, y trabaja a través del proceso de compra paso a paso, aplicando conceptos desde hipotecas y pagos iniciales hasta el cierre."
+        ],
+        [
+          "Recorriendo El Escenario",
+          "El comprador analiza opciones de financiamiento (tasa fija vs. ajustable, consideraciones de PMI), ordena una inspección y tasación, negocia usando contingencias, trabaja con custodia, y entiende sus obligaciones de impuestos y gravámenes hacia adelante como nuevo dueño."
+        ],
+        [
+          "Dónde Encajan El Impuesto Sobre La Propiedad, Los Gravámenes, y Los Costos Continuos",
+          "Después del cierre, el comprador ahora asume responsabilidades continuas cubiertas anteriormente en este nivel: impuesto sobre la propiedad, posibles cuotas de HOA, seguro de vivienda, y entender qué podría ponerlo en riesgo (como gravámenes o, en el peor caso, capital bajo el agua o ejecución hipotecaria)."
+        ],
+        [
+          "Mirando Hacia El Nivel 2",
+          "Este capstone completa el marco de 'Qué' del Nivel 1. RED Nivel 2 cambia a 'Cómo' — aplicando estos conceptos con más profundidad, incluyendo temas como umbrales de financiamiento por conteo de unidades, préstamos VA, y estructuras de financiamiento creativo."
+        ]
+      ],
+      "definitions": [
+        [
+          "Lección Capstone",
+          "Una lección culminante que aplica y sintetiza conceptos aprendidos a través de un nivel completo."
+        ],
+        [
+          "Escenario de Compra",
+          "Un recorrido realista e ilustrativo que integra múltiples conceptos en un ejemplo conectado."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Siguiendo la secuencia de la lección anterior, un comprador obtiene preaprobación, encuentra una casa unifamiliar, negocia con una contingencia de inspección, resuelve un hallazgo menor de inspección, finaliza el financiamiento con PMI ya que su pago inicial es menor al 20%, y cierra — volviéndose responsable del impuesto sobre la propiedad, seguro, y pagos de hipoteca hacia adelante."
+      ],
+      "mistakes": [
+        "Tratar este capstone como introduciendo conceptos nuevos y no probados en lugar de aplicar lo que ya se ha aprendido.",
+        "Saltar adelante sin tener una comprensión sólida de las lecciones individuales de las cuales se basa este capstone.",
+        "Asumir que cada escenario de compra se ve idéntico a este ejemplo ilustrativo."
+      ],
+      "faq": [
+        [
+          "¿Este escenario pretende representar cada compra posible?",
+          "No — es un EJEMPLO ILUSTRATIVO que sintetiza conceptos comunes; las transacciones reales varían."
+        ],
+        [
+          "¿Qué sigue después de esta lección?",
+          "RED Nivel 2, que cambia de 'Qué' (definicional) a 'Cómo' (ejecución aplicada), según la estructura de escalada Socrática bloqueada del Currículo."
+        ]
+      ],
+      "takeaways": [
+        "Este capstone integra financiamiento, inspección, tasación, contingencias, custodia, cierre, y costos continuos de propiedad en un escenario.",
+        "Representa el punto de transición del marco de 'Qué' del Nivel 1 al marco de 'Cómo' del Nivel 2.",
+        "El dominio aquí refleja la preparación para aplicar estos fundamentos con mayor profundidad."
+      ],
+      "exercise": "Usando tus propias palabras, recorre un escenario completo de compra de propiedad desde la preaprobación hasta el cierre, refiriéndote a al menos cinco conceptos específicos cubiertos a través de RED Nivel 1."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

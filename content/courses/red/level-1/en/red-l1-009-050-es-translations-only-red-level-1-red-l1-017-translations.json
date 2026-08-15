@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-017",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Contingencia En Un Contrato de Bienes Raíces?",
+      "exec_summary": "Las contingencias son lo que le da a un comprador una salida legítima de un trato sin perder su dinero de buena fe. Esta lección explica qué son y los tipos más comunes.",
+      "objectives": [
+        "Definir una contingencia",
+        "Enumerar tipos comunes de contingencias",
+        "Explicar cómo las contingencias protegen a un comprador",
+        "Reconocer que las contingencias son términos de contrato negociables"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Contingencia",
+          "Una contingencia es una condición escrita en un contrato de compra que debe satisfacerse para que el trato avance; si no se cumple, el comprador (o a veces el vendedor) puede cancelar sin penalización."
+        ],
+        [
+          "Tipos Comunes",
+          "Las contingencias comunes incluyen una contingencia de financiamiento (el préstamo debe aprobarse), una contingencia de inspección (la propiedad debe pasar la inspección a satisfacción del comprador), y una contingencia de tasación (la propiedad debe tasarse en o por encima del precio de compra)."
+        ],
+        [
+          "Cómo Las Contingencias Protegen A Un Comprador",
+          "Las contingencias se conectan directamente con lecciones anteriores: a menudo son el mecanismo que determina si el dinero de buena fe es reembolsable si un trato no se cierra."
+        ],
+        [
+          "Las Contingencias Son Negociables",
+          "El número y la fuerza de las contingencias incluidas en una oferta es negociable entre comprador y vendedor, y puede afectar qué tan competitiva se ve una oferta en un mercado dado."
+        ]
+      ],
+      "definitions": [
+        [
+          "Contingencia",
+          "Una condición en un contrato de compra que debe cumplirse para que el trato proceda."
+        ],
+        [
+          "Contingencia de Financiamiento",
+          "Una contingencia que le permite al comprador cancelar si no puede asegurar la aprobación del préstamo."
+        ],
+        [
+          "Contingencia de Inspección",
+          "Una contingencia que le permite al comprador cancelar o renegociar basado en los hallazgos de la inspección."
+        ],
+        [
+          "Contingencia de Tasación",
+          "Una contingencia que le permite al comprador cancelar o renegociar si la propiedad se tasa por debajo del precio de compra."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un comprador incluye una contingencia de inspección; la inspección revela un problema serio de fundación, y el comprador cancela el contrato y recibe su dinero de buena fe de vuelta bajo los términos de esa contingencia."
+      ],
+      "mistakes": [
+        "Renunciar a todas las contingencias para hacer una oferta más competitiva sin entender el riesgo añadido.",
+        "Asumir que las contingencias son automáticas y no necesitan escribirse específicamente en el contrato.",
+        "Perder los plazos de las contingencias, lo cual puede anular la protección que brindan."
+      ],
+      "faq": [
+        [
+          "¿Puede un comprador renunciar a las contingencias?",
+          "Sí, a menudo para hacer una oferta más competitiva, pero esto aumenta el riesgo del comprador, incluyendo la posible pérdida del dinero de buena fe."
+        ],
+        [
+          "¿Tienen las contingencias plazos?",
+          "Sí, típicamente — perder un plazo de contingencia puede significar perder el derecho a cancelar bajo esa contingencia."
+        ]
+      ],
+      "takeaways": [
+        "Una contingencia es una condición que debe cumplirse para que un trato proceda.",
+        "Los tipos comunes incluyen contingencias de financiamiento, inspección, y tasación.",
+        "Renunciar a contingencias aumenta la competitividad pero también aumenta el riesgo del comprador."
+      ],
+      "exercise": "Empareja cada tipo de contingencia (financiamiento, inspección, tasación) con el problema específico contra el cual protege a un comprador, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

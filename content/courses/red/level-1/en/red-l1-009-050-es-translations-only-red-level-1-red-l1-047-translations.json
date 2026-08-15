@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-047",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es La Ejecución Hipotecaria, Paso a Paso?",
+      "exec_summary": "La ejecución hipotecaria a menudo se discute de forma abstracta, pero es un proceso legal específico con etapas reales. Esta lección recorre las etapas generales y por qué se trata como un resultado serio de último recurso tanto para el prestatario como para el prestamista.",
+      "objectives": [
+        "Definir la ejecución hipotecaria",
+        "Delinear las etapas generales de la ejecución hipotecaria",
+        "Explicar por qué también es un último recurso para los prestamistas",
+        "Reconocer que este proceso varía por jurisdicción"
+      ],
+      "topics": [
+        [
+          "Qué Es La Ejecución Hipotecaria",
+          "La ejecución hipotecaria es el proceso legal por el cual un prestamista toma posesión de y vende una propiedad después de que un prestatario no hace los pagos hipotecarios requeridos."
+        ],
+        [
+          "Etapas Generales",
+          "Aunque los pasos exactos son una REGLA ESPECÍFICA DE LA REGIÓN, la ejecución hipotecaria generalmente sigue un patrón: pagos perdidos que llevan al incumplimiento, un aviso formal de incumplimiento, un período que permite al prestatario ponerse al día o resolver el problema, y finalmente, si no se resuelve, una venta de la propiedad."
+        ],
+        [
+          "Por Qué También Es Un Último Recurso Para Los Prestamistas",
+          "La ejecución hipotecaria es costosa y consume tiempo para los prestamistas también — costos legales, mantenimiento de propiedad, e incertidumbre del valor de reventa a menudo lo hacen un peor resultado que trabajar en una alternativa con el prestatario cuando es posible."
+        ],
+        [
+          "Por Qué Este Proceso Varía",
+          "Algunos estados usan ejecución hipotecaria judicial (requiriendo involucramiento de la corte) mientras que otros usan ejecución hipotecaria no judicial (un proceso más rápido, fuera de la corte) — una REGLA ESPECÍFICA DE LA REGIÓN significativa que afecta el plazo y los derechos del prestatario."
+        ]
+      ],
+      "definitions": [
+        [
+          "Ejecución Hipotecaria",
+          "El proceso legal por el cual un prestamista toma y vende una propiedad después de que un prestatario incumple los pagos hipotecarios."
+        ],
+        [
+          "Incumplimiento",
+          "No hacer los pagos hipotecarios requeridos según lo acordado."
+        ],
+        [
+          "Aviso de Incumplimiento",
+          "Un aviso formal que indica que un prestatario se ha atrasado y los procedimientos de ejecución hipotecaria pueden comenzar."
+        ],
+        [
+          "Ejecución Hipotecaria Judicial vs. No Judicial",
+          "Dos procesos legales diferentes para la ejecución hipotecaria, que varían por estado, con la judicial requiriendo involucramiento de la corte."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un prestatario pierde varios pagos hipotecarios, recibe un aviso de incumplimiento, tiene un período para resolver la morosidad, y si no se resuelve, la propiedad eventualmente procede a una venta de ejecución hipotecaria."
+      ],
+      "mistakes": [
+        "Asumir que la ejecución hipotecaria sucede inmediatamente después de un solo pago perdido.",
+        "Asumir que el proceso de ejecución hipotecaria es idéntico en cada estado.",
+        "No entender que los prestamistas también tienen fuertes incentivos para evitar la ejecución hipotecaria cuando es posible."
+      ],
+      "faq": [
+        [
+          "¿Perder un pago dispara la ejecución hipotecaria inmediatamente?",
+          "No — la ejecución hipotecaria generalmente sigue un período de incumplimiento sostenido y aviso formal, no un solo pago perdido."
+        ],
+        [
+          "¿Es el proceso el mismo en cada estado?",
+          "No — esto es una REGLA ESPECÍFICA DE LA REGIÓN significativa, con estados de ejecución judicial y no judicial siguiendo procesos diferentes."
+        ]
+      ],
+      "takeaways": [
+        "La ejecución hipotecaria es el proceso legal de un prestamista tomando y vendiendo una propiedad después de un incumplimiento sostenido.",
+        "Generalmente sigue etapas: incumplimiento, aviso, período de resolución, y venta si no se resuelve.",
+        "El proceso exacto varía significativamente por estado (judicial vs. no judicial)."
+      ],
+      "exercise": "Explica por qué la ejecución hipotecaria se describe como costosa para los prestamistas, no solo para los prestatarios, basándote en esta lección."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

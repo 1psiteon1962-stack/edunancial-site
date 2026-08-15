@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-024",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Retorno de Efectivo Sobre Efectivo?",
+      "exec_summary": "El retorno de efectivo sobre efectivo responde una pregunta más personal que la tasa de capitalización: dado el efectivo real que un inversionista invirtió, ¿qué retorno está obteniendo? Esta lección explica el cálculo y cómo se diferencia de la tasa de capitalización.",
+      "objectives": [
+        "Definir el retorno de efectivo sobre efectivo",
+        "Establecer la fórmula",
+        "Compararlo con la tasa de capitalización",
+        "Identificar por qué el financiamiento cambia el resultado"
+      ],
+      "topics": [
+        [
+          "Qué Mide El Retorno de Efectivo Sobre Efectivo",
+          "El retorno de efectivo sobre efectivo mide el flujo de efectivo anual antes de impuestos que un inversionista recibe en relación con el efectivo real que invirtió (como un pago inicial y costos de cierre), no el valor total de la propiedad."
+        ],
+        [
+          "La Fórmula Básica",
+          "Retorno de Efectivo Sobre Efectivo = Flujo de Efectivo Anual / Efectivo Total Invertido, expresado como un porcentaje."
+        ],
+        [
+          "Cómo Se Diferencia De La Tasa de Capitalización",
+          "La tasa de capitalización asume una compra totalmente en efectivo e ignora el financiamiento. El retorno de efectivo sobre efectivo específicamente toma en cuenta el apalancamiento (financiamiento) usado, mostrando el retorno sobre el efectivo real que el inversionista puso de su bolsillo."
+        ],
+        [
+          "Por Qué El Financiamiento Cambia El Resultado",
+          "Usar una hipoteca significa que se invierte menos efectivo por adelantado, lo cual puede aumentar el porcentaje de retorno de efectivo sobre efectivo comparado con la tasa de capitalización, aunque también introduce riesgo de deuda."
+        ]
+      ],
+      "definitions": [
+        [
+          "Retorno de Efectivo Sobre Efectivo",
+          "Flujo de efectivo anual dividido entre el efectivo total invertido, expresado como un porcentaje."
+        ],
+        [
+          "Efectivo Total Invertido",
+          "El dinero real de bolsillo puesto en un trato, como el pago inicial, costos de cierre, y reparaciones iniciales."
+        ],
+        [
+          "Apalancamiento",
+          "El uso de dinero prestado (como una hipoteca) para aumentar los retornos potenciales de una inversión."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un inversionista pone $60,000 en efectivo en una propiedad (pago inicial más costos de cierre) y recibe $4,800 en flujo de efectivo anual. Retorno de efectivo sobre efectivo = $4,800 / $60,000 = 8%."
+      ],
+      "mistakes": [
+        "Usar el precio total de la propiedad en lugar del efectivo realmente invertido.",
+        "Confundir el retorno de efectivo sobre efectivo con la tasa de capitalización.",
+        "Ignorar que el apalancamiento aumenta el riesgo aunque pueda aumentar este porcentaje."
+      ],
+      "faq": [
+        [
+          "¿Es el retorno de efectivo sobre efectivo más útil que la tasa de capitalización?",
+          "OPINIÓN: muchos inversionistas financiados lo encuentran más relevante personalmente, ya que refleja su desembolso real de efectivo, mientras que la tasa de capitalización es útil para comparar propiedades independientemente del financiamiento."
+        ],
+        [
+          "¿El retorno de efectivo sobre efectivo incluye la apreciación?",
+          "No — se enfoca en el flujo de efectivo anual en relación con el efectivo invertido, no en cambios en el valor de la propiedad."
+        ]
+      ],
+      "takeaways": [
+        "Retorno de Efectivo Sobre Efectivo = Flujo de Efectivo Anual / Efectivo Total Invertido.",
+        "Refleja el impacto del financiamiento, a diferencia de la tasa de capitalización.",
+        "No incluye la apreciación ni las ganancias en papel."
+      ],
+      "exercise": "Un inversionista pone $50,000 en efectivo en un trato y recibe $5,000 en flujo de efectivo anual. Calcula el retorno de efectivo sobre efectivo."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

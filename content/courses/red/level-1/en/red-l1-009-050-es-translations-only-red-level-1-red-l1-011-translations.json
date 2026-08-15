@@ -1,0 +1,101 @@
+{
+  "lesson_id": "RED-L1-011",
+  "translations": {
+    "es": {
+      "title": "Estados de Gravamen Fiscal vs. Estados de Escritura Fiscal: ¿Cuál Es La Verdadera Diferencia?",
+      "exec_summary": "Cuando un dueño de propiedad no paga el impuesto sobre la propiedad, lo que pasa después depende mucho de en qué estado esté la propiedad. Esta lección explica los dos sistemas principales — estados de gravamen fiscal y estados de escritura fiscal — y qué significa cada uno para dueños e inversionistas.",
+      "objectives": [
+        "Explicar qué pasa cuando el impuesto sobre la propiedad no se paga",
+        "Distinguir entre estados de gravamen fiscal y estados de escritura fiscal",
+        "Identificar qué compra un inversionista en cada sistema",
+        "Reconocer que esto es una REGLA ESPECÍFICA DE LA REGIÓN que varía por estado"
+      ],
+      "topics": [
+        [
+          "Qué Pasa Cuando El Impuesto No Se Paga",
+          "Cuando un dueño de propiedad no paga el impuesto sobre la propiedad, el gobierno local necesita una forma de recuperar ese dinero. Existen dos sistemas principales en los estados de EE.UU., y el enfoque usado es una REGLA ESPECÍFICA DE LA REGIÓN."
+        ],
+        [
+          "Estados de Gravamen Fiscal",
+          "En un estado de gravamen fiscal, el condado vende un gravamen (el derecho a cobrar el impuesto sin pagar más intereses) a un inversionista, no la propiedad misma. El dueño original todavía es dueño de la propiedad pero ahora le debe al tenedor del gravamen en lugar del condado."
+        ],
+        [
+          "Estados de Escritura Fiscal",
+          "En un estado de escritura fiscal, el condado eventualmente puede vender la propiedad misma en subasta para recuperar el impuesto sin pagar, transfiriendo la propiedad al postor ganador — un proceso mucho más directo y de mayor riesgo."
+        ],
+        [
+          "Por Qué La Distinción Importa",
+          "Inversionistas y dueños necesitan saber qué sistema aplica a una propiedad dada, ya que los riesgos, plazos, y resultados son muy diferentes entre los dos."
+        ]
+      ],
+      "definitions": [
+        [
+          "Estado de Gravamen Fiscal",
+          "Un estado donde el impuesto sobre la propiedad sin pagar resulta en la venta de un gravamen contra la propiedad, no la propiedad misma."
+        ],
+        [
+          "Estado de Escritura Fiscal",
+          "Un estado donde el impuesto sobre la propiedad sin pagar puede eventualmente resultar en la venta de la propiedad misma en subasta."
+        ],
+        [
+          "Período de Redención",
+          "Una ventana de tiempo durante la cual el dueño original puede pagar el gravamen o reclamar la propiedad, común en ambos sistemas pero con reglas diferentes."
+        ]
+      ],
+      "examples": [
+        "En un estado de gravamen fiscal, un inversionista paga al condado $4,000 para cubrir una factura de impuestos morosa, recibiendo un gravamen que gana interés hasta que el dueño lo pague.",
+        "En un estado de escritura fiscal, una propiedad va a subasta pública después de años de impuesto sin pagar, y un comprador la compra directamente por la cantidad de impuesto adeudada."
+      ],
+      "mistakes": [
+        "Asumir que todos los estados funcionan igual para el impuesto sobre la propiedad sin pagar.",
+        "Creer que comprar un gravamen fiscal significa ser dueño de la propiedad inmediatamente.",
+        "Ignorar el período de redención, durante el cual el dueño original todavía puede reclamar la propiedad."
+      ],
+      "faq": [
+        [
+          "¿Puede un inversionista tomar posesión inmediata al comprar un gravamen fiscal?",
+          "No — en estados de gravamen fiscal, el inversionista tiene un reclamo de pago, no propiedad; la transferencia de propiedad (si ocurre) generalmente solo pasa después de que expira un período de redención y se toman pasos legales adicionales."
+        ],
+        [
+          "¿Es esto igual en todos los estados?",
+          "No, esto es una REGLA ESPECÍFICA DE LA REGIÓN y varía significativamente; algunos estados usan sistemas híbridos."
+        ]
+      ],
+      "takeaways": [
+        "El impuesto sobre la propiedad sin pagar activa procesos diferentes dependiendo del estado.",
+        "Los estados de gravamen fiscal venden el reclamo de deuda; los estados de escritura fiscal eventualmente pueden vender la propiedad.",
+        "Esta distinción es una REGLA ESPECÍFICA DE LA REGIÓN — siempre verifica el sistema en el estado relevante."
+      ],
+      "exercise": "Elige un estado que conozcas y investiga (o anota como SUPOSICIÓN si no estás seguro) si opera como estado de gravamen fiscal, estado de escritura fiscal, o sistema híbrido."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

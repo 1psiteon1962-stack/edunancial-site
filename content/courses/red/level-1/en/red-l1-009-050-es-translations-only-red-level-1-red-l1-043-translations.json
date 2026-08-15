@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-043",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Hipoteca Inversa?",
+      "exec_summary": "Una hipoteca inversa voltea la relación hipotecaria normal al revés. Esta lección explica qué es, para quién generalmente está diseñada, y un intercambio clave que vale la pena entender.",
+      "objectives": [
+        "Definir una hipoteca inversa",
+        "Explicar para quién típicamente está diseñada",
+        "Identificar cómo se diferencia de una hipoteca tradicional",
+        "Reconocer un intercambio clave involucrado"
+      ],
+      "topics": [
+        [
+          "Qué Es Una Hipoteca Inversa",
+          "Una hipoteca inversa le permite a un dueño de casa convertir el capital de su vivienda en ganancias de préstamo pagadas a él, en lugar de hacer pagos mensuales a un prestamista como con una hipoteca tradicional."
+        ],
+        [
+          "Para Quién Típicamente Está Diseñada",
+          "HECHO VERIFICADO: en EE.UU., el producto de hipoteca inversa más común (HECM) generalmente está disponible para dueños de casa de 62 años o más, diseñado para ayudar con ingreso o gastos de jubilación."
+        ],
+        [
+          "Cómo Se Diferencia De Una Hipoteca Tradicional",
+          "En una hipoteca tradicional, el prestatario paga al prestamista con el tiempo y el capital aumenta; en una hipoteca inversa, el prestamista paga al prestatario con el tiempo y el capital generalmente disminuye a medida que crece el saldo del préstamo."
+        ],
+        [
+          "Un Intercambio Clave",
+          "Mientras que una hipoteca inversa puede proveer ingreso sin pagos mensuales, el saldo del préstamo crece con el tiempo (con interés), reduciendo el capital disponible para el dueño de casa o sus herederos más tarde — un intercambio importante para entender completamente antes de usar este producto."
+        ]
+      ],
+      "definitions": [
+        [
+          "Hipoteca Inversa",
+          "Un préstamo que le permite a un dueño de casa convertir el capital de su vivienda en pagos recibidos, en lugar de pagar a un prestamista."
+        ],
+        [
+          "HECM (Hipoteca de Conversión de Capital de Vivienda)",
+          "El tipo más común de hipoteca inversa en EE.UU., asegurada por el gobierno federal."
+        ],
+        [
+          "Capital de Vivienda",
+          "La parte del valor de una propiedad que el dueño realmente posee, libre de deuda."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un dueño de casa de 70 años con capital significativo de vivienda toma una hipoteca inversa para complementar el ingreso de jubilación, recibiendo pagos mensuales en lugar de hacerlos, mientras el saldo de su préstamo crece con el tiempo."
+      ],
+      "mistakes": [
+        "Asumir que una hipoteca inversa funciona exactamente como una hipoteca tradicional al revés, sin intercambios.",
+        "No entender que el saldo del préstamo crece con el tiempo, reduciendo el capital restante.",
+        "No considerar cómo esto afecta lo que los herederos podrían heredar."
+      ],
+      "faq": [
+        [
+          "¿Elimina una hipoteca inversa la necesidad de pagar el impuesto sobre la propiedad y el seguro?",
+          "No — HECHO VERIFICADO: los prestatarios generalmente todavía están requeridos a pagar el impuesto sobre la propiedad, el seguro, y mantener la casa."
+        ],
+        [
+          "¿Pueden los herederos perder la casa por completo?",
+          "NOTA DE OPINIÓN/GENERAL: los herederos típicamente tienen opciones (como pagar el saldo del préstamo) para quedarse con la casa, pero el saldo del préstamo debe abordarse, lo cual es una consideración real."
+        ]
+      ],
+      "takeaways": [
+        "Una hipoteca inversa le paga al dueño de casa usando el capital de la vivienda, en lugar de que el dueño le pague a un prestamista.",
+        "Generalmente está diseñada para dueños de casa de 62+ años en el producto más común de EE.UU.",
+        "El saldo del préstamo crece con el tiempo, reduciendo el capital disponible más tarde — un intercambio importante."
+      ],
+      "exercise": "Explica, en tus propias palabras, el intercambio clave que hace un prestatario de hipoteca inversa a cambio de recibir pagos en lugar de hacerlos."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

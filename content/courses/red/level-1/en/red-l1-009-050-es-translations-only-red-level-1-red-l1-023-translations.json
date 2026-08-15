@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-023",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Una Tasa de Capitalización? (Versión Introductoria)",
+      "exec_summary": "La tasa de capitalización (cap rate) es uno de los números más citados en la inversión de bienes raíces, y uno de los más comúnmente malentendidos. Esta lección introductoria lo mantiene simple: qué mide y cómo se calcula.",
+      "objectives": [
+        "Definir la tasa de capitalización",
+        "Establecer la fórmula básica de la tasa de capitalización",
+        "Explicar qué estima la tasa de capitalización",
+        "Reconocer las limitaciones de la tasa de capitalización"
+      ],
+      "topics": [
+        [
+          "Qué Mide La Tasa de Capitalización",
+          "La tasa de capitalización (cap rate) estima la tasa de retorno que una propiedad generaría si se comprara completamente en efectivo, basada en su ingreso operativo neto en relación con su precio."
+        ],
+        [
+          "La Fórmula Básica",
+          "Tasa de Capitalización = Ingreso Operativo Neto (NOI) / Valor de la Propiedad. Se expresa como un porcentaje."
+        ],
+        [
+          "Para Qué Se Usa",
+          "Los inversionistas a menudo usan la tasa de capitalización para comparar propiedades rápidamente, ya que elimina los efectos del financiamiento y se enfoca solo en el desempeño de ingreso de la propiedad."
+        ],
+        [
+          "Una Limitación Clave",
+          "La tasa de capitalización ignora cómo se financia una propiedad, así que dos propiedades con la misma tasa de capitalización pueden tener retornos reales muy diferentes para un dueño dependiendo de los términos de su hipoteca — un tema más profundo cubierto en L2/L3."
+        ]
+      ],
+      "definitions": [
+        [
+          "Tasa de Capitalización",
+          "Ingreso Operativo Neto dividido entre el valor de la propiedad, expresado como un porcentaje."
+        ],
+        [
+          "Ingreso Operativo Neto (NOI)",
+          "Ingreso de renta menos gastos operativos, antes del servicio de deuda."
+        ],
+        [
+          "Valor de la Propiedad",
+          "El precio de compra o valor de mercado actual usado en el cálculo de la tasa de capitalización."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Una propiedad con $24,000 de NOI anual y un valor de $400,000 tiene una tasa de capitalización de $24,000 / $400,000 = 6%."
+      ],
+      "mistakes": [
+        "Confundir la tasa de capitalización con el retorno de efectivo sobre efectivo (una medida relacionada pero diferente cubierta a continuación).",
+        "Usar la tasa de capitalización como el único factor en una decisión de compra.",
+        "Olvidar que el NOI excluye el pago de la hipoteca."
+      ],
+      "faq": [
+        [
+          "¿Una tasa de capitalización más alta siempre es mejor?",
+          "OPINIÓN: no necesariamente — una tasa de capitalización más alta también puede señalar mayor riesgo percibido en un mercado dado."
+        ],
+        [
+          "¿La tasa de capitalización toma en cuenta el financiamiento?",
+          "No — deliberadamente ignora el financiamiento para aislar el desempeño de ingreso de la propiedad misma."
+        ]
+      ],
+      "takeaways": [
+        "Tasa de Capitalización = NOI / Valor de la Propiedad.",
+        "Estima el retorno asumiendo una compra totalmente en efectivo.",
+        "Es una herramienta de comparación, no una decisión de inversión completa por sí sola."
+      ],
+      "exercise": "Calcula la tasa de capitalización para una propiedad con $18,000 de NOI anual y un precio de compra de $300,000."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

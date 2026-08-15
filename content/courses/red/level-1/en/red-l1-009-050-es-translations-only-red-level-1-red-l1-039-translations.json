@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-039",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un Estimado de Contratista, y Por Qué Varían Tanto?",
+      "exec_summary": "Los estimados de contratistas pueden variar enormemente para el mismo trabajo, y esa variación confunde a muchos remodeladores primerizos. Esta lección explica qué representa realmente un estimado y por qué existe el rango.",
+      "objectives": [
+        "Definir un estimado de contratista",
+        "Explicar por qué varían los estimados entre contratistas",
+        "Identificar por qué importa obtener múltiples estimados",
+        "Distinguir un estimado de un precio final fijo"
+      ],
+      "topics": [
+        [
+          "Qué Es Un Estimado de Contratista",
+          "Un estimado de contratista es el costo proyectado de un contratista para un alcance específico de trabajo, basado en su evaluación de materiales, mano de obra, y tiempo requerido."
+        ],
+        [
+          "Por Qué Varían Tanto Los Estimados",
+          "Los estimados pueden variar debido a diferencias en los costos generales del contratista, nivel de experiencia, carga de trabajo/demanda actual, obtención de materiales, y qué tan a fondo evaluaron el alcance del proyecto."
+        ],
+        [
+          "Por Qué Importa Obtener Múltiples Estimados",
+          "Comparar múltiples estimados ayuda a identificar un rango de precio razonable y puede revelar si uno o más contratistas malinterpretaron el alcance del trabajo."
+        ],
+        [
+          "Estimado vs. Precio Final Fijo",
+          "Un estimado es una proyección, no siempre un precio final vinculante — algunos contratos permiten ajustes de costo si surgen problemas inesperados, lo cual debe aclararse antes de comenzar el trabajo."
+        ]
+      ],
+      "definitions": [
+        [
+          "Estimado de Contratista",
+          "El costo proyectado de un contratista para un alcance de trabajo definido."
+        ],
+        [
+          "Alcance de Trabajo",
+          "Una descripción detallada del trabajo a realizar, usada como base para un estimado."
+        ],
+        [
+          "Orden de Cambio",
+          "Un ajuste formal al alcance o costo de un contrato después de que ha comenzado el trabajo, a menudo debido a problemas inesperados."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Tres contratistas estiman una remodelación de cocina en $25,000, $32,000, y $40,000 para lo que parece ser el mismo alcance de trabajo — diferencias en materiales, tarifas de mano de obra, y minuciosidad de la evaluación probablemente explican la brecha."
+      ],
+      "mistakes": [
+        "Elegir automáticamente el estimado más bajo sin verificar el alcance y las suposiciones de calidad.",
+        "Asumir que un estimado es un precio final garantizado sin posibilidad de cambio.",
+        "No obtener múltiples estimados para comparar antes de comprometerse."
+      ],
+      "faq": [
+        [
+          "¿Siempre debería elegir el estimado más barato?",
+          "OPINIÓN: no necesariamente — el estimado más bajo puede reflejar un alcance más estrecho, materiales de menor calidad, o menos experiencia, así que la comparación de alcance importa."
+        ],
+        [
+          "¿Puede el costo final diferir del estimado?",
+          "Sí, particularmente si surgen problemas inesperados; esto a menudo se maneja a través de una orden de cambio."
+        ]
+      ],
+      "takeaways": [
+        "Un estimado de contratista proyecta el costo basado en el alcance, materiales, y mano de obra evaluados.",
+        "Los estimados varían debido a costos generales, experiencia, demanda, y minuciosidad de la evaluación.",
+        "Obtener múltiples estimados ayuda a establecer un rango de precio razonable y aclarar el alcance."
+      ],
+      "exercise": "Nombra dos razones por las cuales dos contratistas podrían dar estimados muy diferentes para lo que parece ser el mismo proyecto de remodelación."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

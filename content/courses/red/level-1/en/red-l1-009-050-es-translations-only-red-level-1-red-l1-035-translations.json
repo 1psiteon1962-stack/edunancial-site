@@ -1,0 +1,100 @@
+{
+  "lesson_id": "RED-L1-035",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es Un REIT? (Bienes Raíces Sin Poseer Propiedad Directamente)",
+      "exec_summary": "No todos quieren administrar inquilinos e inodoros para invertir en bienes raíces. Esta lección explica los REITs — una forma de acceder a retornos de bienes raíces sin poseer propiedad directamente.",
+      "objectives": [
+        "Definir un REIT",
+        "Explicar cómo los REITs permiten a los inversionistas acceder a bienes raíces",
+        "Identificar un requisito clave de los REITs",
+        "Comparar la inversión en REITs con la propiedad directa"
+      ],
+      "topics": [
+        [
+          "Qué Es Un REIT",
+          "Un REIT (Fideicomiso de Inversión en Bienes Raíces) es una compañía que posee, opera, o financia bienes raíces que generan ingreso, permitiendo a los inversionistas comprar acciones muy parecido a una acción bursátil."
+        ],
+        [
+          "Cómo Permite A Los Inversionistas Acceder A Bienes Raíces",
+          "Comprar acciones de REIT le da a un inversionista exposición a retornos de bienes raíces (como ingreso de renta y apreciación) sin poseer, administrar, o financiar propiedad directamente ellos mismos."
+        ],
+        [
+          "Un Requisito Clave",
+          "HECHO VERIFICADO: los REITs de EE.UU. generalmente están requeridos a distribuir al menos 90% de su ingreso gravable a los accionistas como dividendos, una característica estructural definitoria."
+        ],
+        [
+          "REIT vs. Propiedad Directa",
+          "Los REITs ofrecen liquidez (las acciones típicamente se pueden comprar/vender fácilmente, especialmente los REITs de negociación pública) y ninguna carga de administración directa, pero los inversionistas no controlan propiedades específicas de la forma en que lo haría un dueño directo."
+        ]
+      ],
+      "definitions": [
+        [
+          "REIT",
+          "Una compañía que posee, opera, o financia bienes raíces que generan ingreso, permitiendo a los inversionistas comprar acciones."
+        ],
+        [
+          "REIT de Negociación Pública",
+          "Un REIT cuyas acciones se negocian en una bolsa de valores pública."
+        ],
+        [
+          "Dividendo",
+          "Un pago hecho por una compañía (incluyendo REITs) a los accionistas, a menudo del ingreso."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Un inversionista compra acciones de un REIT de negociación pública que posee centros comerciales, ganando exposición al ingreso y cambios de valor de ese bien raíz sin nunca administrar a un inquilino."
+      ],
+      "mistakes": [
+        "Asumir que los REITs son idénticos a poseer propiedad física directamente.",
+        "No saber que los REITs están requeridos a distribuir la mayoría de su ingreso como dividendos.",
+        "Asumir que todos los REITs se negocian públicamente y son igualmente líquidos."
+      ],
+      "faq": [
+        [
+          "¿Se negocian todos los REITs públicamente?",
+          "No — algunos REITs son privados o no negociados, lo cual afecta significativamente la liquidez; esta distinción importa."
+        ],
+        [
+          "¿Eliminan los REITs todos los riesgos de invertir en bienes raíces?",
+          "OPINIÓN: no — intercambian el riesgo de administración directa por riesgos de mercado y específicos del REIT."
+        ]
+      ],
+      "takeaways": [
+        "Un REIT permite a los inversionistas acceder a retornos de bienes raíces comprando acciones, no propiedad.",
+        "Los REITs deben distribuir la mayoría de su ingreso gravable como dividendos (HECHO VERIFICADO para REITs de EE.UU.).",
+        "Los REITs ofrecen más liquidez pero menos control directo que poseer propiedad."
+      ],
+      "exercise": "Explica una ventaja y una desventaja de invertir en un REIT comparado con comprar una propiedad de renta directamente."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}

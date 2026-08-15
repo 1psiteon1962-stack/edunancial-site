@@ -1,0 +1,104 @@
+{
+  "lesson_id": "RED-L1-022",
+  "translations": {
+    "es": {
+      "title": "¿Qué Es El Flujo de Efectivo En Bienes Raíces?",
+      "exec_summary": "El flujo de efectivo es el número que le dice a un dueño si una propiedad de renta realmente está poniendo dinero en su bolsillo cada mes, o sacándolo. Esta lección desglosa cómo se calcula.",
+      "objectives": [
+        "Definir el flujo de efectivo en un contexto de bienes raíces",
+        "Calcular el flujo de efectivo básico",
+        "Distinguir flujo de efectivo positivo de negativo",
+        "Identificar gastos comunes que afectan el flujo de efectivo"
+      ],
+      "topics": [
+        [
+          "Qué Significa El Flujo de Efectivo",
+          "El flujo de efectivo es el dinero que queda después de cobrar la renta y pagar todos los gastos operativos y pagos de deuda en una propiedad, para un período dado (usualmente mensual)."
+        ],
+        [
+          "La Fórmula Básica",
+          "Flujo de Efectivo = Ingreso de Renta - Gastos Operativos - Servicio de Deuda (pago de hipoteca). Esta es una fórmula simplificada, estilo ESTIMACIÓN; un análisis completo incluiría más partidas."
+        ],
+        [
+          "Flujo de Efectivo Positivo vs. Negativo",
+          "Flujo de efectivo positivo significa que la propiedad genera más ingreso que sus costos. Flujo de efectivo negativo significa que el dueño debe cubrir un déficit de su propio bolsillo cada período."
+        ],
+        [
+          "Gastos Comunes A Incluir",
+          "Impuesto sobre la propiedad, seguro, mantenimiento, cuotas de administración de propiedad, y una reserva para vacancia son gastos comunes que reducen el flujo de efectivo si no se toman en cuenta."
+        ]
+      ],
+      "definitions": [
+        [
+          "Flujo de Efectivo",
+          "Dinero que queda después de que todos los gastos y pagos de deuda se restan del ingreso de renta."
+        ],
+        [
+          "Gastos Operativos",
+          "Los costos continuos de operar una propiedad de renta, excluyendo la hipoteca."
+        ],
+        [
+          "Servicio de Deuda",
+          "El pago de hipoteca (principal e interés) adeudado en una propiedad."
+        ],
+        [
+          "Reserva Para Vacancia",
+          "Una estimación presupuestada para períodos cuando la propiedad está sin rentar."
+        ]
+      ],
+      "examples": [
+        "EJEMPLO ILUSTRATIVO: Una propiedad cobra $2,000/mes de renta, tiene $600 en gastos operativos, y un pago de hipoteca de $1,100. Flujo de efectivo = $2,000 - $600 - $1,100 = $300/mes positivo."
+      ],
+      "mistakes": [
+        "Olvidar incluir una reserva para vacancia en el cálculo.",
+        "Confundir el flujo de efectivo con la ganancia en papel (que incluye partidas no monetarias como la depreciación).",
+        "Ignorar las reservas de mantenimiento, llevando a gastos subestimados."
+      ],
+      "faq": [
+        [
+          "¿Es el flujo de efectivo positivo la única medida que importa?",
+          "OPINIÓN: muchos inversionistas la valoran mucho, pero es una de varias medidas (como la apreciación y los beneficios fiscales) consideradas juntas."
+        ],
+        [
+          "¿Puede una propiedad tener flujo de efectivo negativo y aun así ser una buena inversión?",
+          "OPINIÓN: algunos inversionistas aceptan flujo de efectivo negativo a corto plazo por apreciación esperada, aunque esto conlleva riesgo adicional."
+        ]
+      ],
+      "takeaways": [
+        "El flujo de efectivo mide el dinero real que queda después de gastos y deuda.",
+        "El flujo de efectivo positivo significa que la propiedad se paga a sí misma y más.",
+        "Una reserva para vacancia debe incluirse en estimaciones realistas de flujo de efectivo."
+      ],
+      "exercise": "Usando la fórmula Flujo de Efectivo = Ingreso de Renta - Gastos Operativos - Servicio de Deuda, calcula el flujo de efectivo para una propiedad con $1,800 de renta, $500 de gastos operativos, y un pago de hipoteca de $1,000."
+    },
+    "en-GB": {
+      "status": "PENDING"
+    },
+    "es-Caribbean": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Caribbean dialect pass"
+    },
+    "es-ES": {
+      "status": "PENDING",
+      "note": "Derive from 'es' baseline with Iberian Spanish pass"
+    },
+    "fr-FR": {
+      "status": "PENDING"
+    },
+    "fr-CA": {
+      "status": "PENDING"
+    },
+    "ht": {
+      "status": "PENDING"
+    },
+    "nl": {
+      "status": "PENDING"
+    },
+    "it": {
+      "status": "PENDING"
+    },
+    "de": {
+      "status": "PENDING"
+    }
+  }
+}
