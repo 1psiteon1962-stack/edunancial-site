@@ -482,19 +482,29 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
   });
 }
 
+// Canonical IDs of already-launched RED Level 2 lessons that must always be
+// visible regardless of the legacy-fallback flag.  Explicit published-state
+// store records still take precedence over these fallback entries.
+const RED_LEVEL2_ALWAYS_FALLBACK = new Set(["RED-L2-001", "RED-L2-002"]);
+
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
   const state = await readPublishedState();
 
-  // Always hydrate committed active lessons from the canonical registry so that
-  // an empty or missing published-state store cannot silently erase curriculum
-  // that is already version-controlled and registered.  Explicit records in the
-  // published-state store take precedence (the `if (state.lessons[asset.id])
-  // continue` guard below ensures we never overwrite an explicit store entry).
   const registry = readRegistry();
+  const allowLegacyFallback =
+    process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
+
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       for (const asset of Object.values(level.assets)) {
+        // Explicit store record always wins — never overwrite it.
         if (state.lessons[asset.id]) continue;
+
+        // Hydrate when: (a) the legacy fallback flag is enabled (general
+        // registry hydration), OR (b) this is one of the already-launched
+        // RED L2 lessons that must always remain visible.
+        if (!allowLegacyFallback && !RED_LEVEL2_ALWAYS_FALLBACK.has(asset.id)) continue;
+
         const record = entryFromRegistryAsset(asset);
         if (record) state.lessons[record.id] = record;
       }
