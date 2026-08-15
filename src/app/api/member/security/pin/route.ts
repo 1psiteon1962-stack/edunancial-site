@@ -19,6 +19,10 @@ export async function POST(request: Request) {
   if (!auth.ok) {
     return auth.response;
   }
+  const member = auth.session.user;
+  if (!member) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
 
   let body: PinBody;
   try {
@@ -33,11 +37,11 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: pinError }, { status: 400 });
   }
 
-  if (!requireRecentAuthentication(auth.session.user.lastSignInAt)) {
+  if (!requireRecentAuthentication(member.lastSignInAt ?? null)) {
     return NextResponse.json({ error: "Please sign in again before setting or changing your security PIN." }, { status: 403 });
   }
 
-  const existing = await getUserSecuritySettings(auth.session.user.id);
+  const existing = await getUserSecuritySettings(member.id);
   const admin = getSupabaseAdminClient();
   const pinHash = hashSecurityPin(pin);
   const { error } = await admin
@@ -49,14 +53,14 @@ export async function POST(request: Request) {
       pin_changed_at: new Date().toISOString(),
       require_pin_for_sensitive_actions: true,
     })
-    .eq("user_id", auth.session.user.id);
+    .eq("user_id", member.id);
 
   if (error) {
     return NextResponse.json({ error: "Unable to save PIN." }, { status: 500 });
   }
 
   await recordSecurityEvent({
-    userId: auth.session.user.id,
+    userId: member.id,
     eventType: existing.pin_hash ? "security.pin.changed" : "security.pin.created",
     outcome: "success",
   }).catch(() => undefined);

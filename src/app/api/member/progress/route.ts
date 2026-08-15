@@ -10,11 +10,15 @@ export async function GET() {
   if (!auth.ok) {
     return auth.response;
   }
+  const member = auth.session.user;
+  if (!member) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
 
   const language = await getServerLanguage();
   const [courses, rows] = await Promise.all([
     getPublishedCourses(language),
-    getCourseProgressRows(auth.session.user.id),
+    getCourseProgressRows(member.id),
   ]);
 
   const rowsByCourseId = new Map(rows.map((row) => [row.course_id, row]));

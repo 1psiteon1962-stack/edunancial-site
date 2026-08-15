@@ -8,19 +8,23 @@ export async function GET() {
   if (!auth.ok) {
     return auth.response;
   }
+  const member = auth.session.user;
+  if (!member) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
 
-  const settings = await getUserSecuritySettings(auth.session.user.id);
-  const events = await listRecentSecurityEvents(auth.session.user.id, 10);
+  const settings = await getUserSecuritySettings(member.id);
+  const events = await listRecentSecurityEvents(member.id, 10);
 
   return NextResponse.json({
     security: {
-      email: auth.session.user.email,
-      emailVerified: auth.session.user.emailVerified,
+      email: member.email,
+      emailVerified: member.emailVerified,
       pinEnabled: Boolean(settings.pin_hash),
       pinLockedUntil: settings.pin_locked_until,
       pinChangedAt: settings.pin_changed_at,
       failedPinAttempts: settings.pin_failed_attempts,
-      lastSignInAt: auth.session.user.lastSignInAt,
+      lastSignInAt: member.lastSignInAt,
       events: events.map((event) => ({
         id: event.id,
         eventType: event.event_type,

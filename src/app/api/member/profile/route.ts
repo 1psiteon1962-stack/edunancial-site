@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import type { AuthUser } from "@/lib/auth/types";
 import { requireAuthenticatedMember, requireAuthenticatedMemberWrite } from "@/lib/auth/server";
 import { ensureUserProfile, mapAuthUser, sanitizeProfileUpdate } from "@/lib/member/profile";
 import { recordSecurityEvent } from "@/lib/member/security";
@@ -9,6 +10,9 @@ export async function GET() {
   const auth = await requireAuthenticatedMember();
   if (!auth.ok) {
     return auth.response;
+  }
+  if (!auth.session.user) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
   }
 
   return NextResponse.json({ user: auth.session.user });
@@ -30,7 +34,7 @@ export async function PATCH(request: Request) {
     return NextResponse.json({ error: "Invalid JSON." }, { status: 400 });
   }
 
-  const updates = sanitizeProfileUpdate(body);
+  const updates = sanitizeProfileUpdate(body as Partial<AuthUser>);
   const supabase = await createSupabaseServerAuthClient();
   const { data, error } = await supabase
     .from("user_profiles")

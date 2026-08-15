@@ -20,9 +20,13 @@ export async function POST(request: Request) {
   if (!auth.ok) {
     return auth.response;
   }
+  const member = auth.session.user;
+  if (!member) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
 
   const rateLimit = enforceMemberRateLimit(
-    getRequestRateLimitKey("member-pin-verify-hard", request, auth.session.user.id),
+    getRequestRateLimitKey("member-pin-verify-hard", request, member.id),
     10,
     60_000,
   );
@@ -39,13 +43,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid JSON." }, { status: 400 });
   }
 
-  const settings = await getUserSecuritySettings(auth.session.user.id);
+  const settings = await getUserSecuritySettings(member.id);
   if (!settings.pin_hash) {
     return NextResponse.json({ error: "Security PIN is not enabled." }, { status: 404 });
   }
   if (isPinLocked(settings)) {
     await recordSecurityEvent({
-      userId: auth.session.user.id,
+      userId: member.id,
       eventType: "security.pin.lockout",
       outcome: "blocked",
     }).catch(() => undefined);
@@ -63,10 +67,10 @@ export async function POST(request: Request) {
         pin_failed_attempts: failureState.failedAttempts,
         pin_locked_until: failureState.lockedUntil,
       })
-      .eq("user_id", auth.session.user.id);
+      .eq("user_id", member.id);
 
     await recordSecurityEvent({
-      userId: auth.session.user.id,
+      userId: member.id,
       eventType: failureState.locked ? "security.pin.lockout" : "security.pin.verify_failed",
       outcome: failureState.locked ? "blocked" : "failure",
       metadata: { failedAttempts: failureState.failedAttempts },
@@ -81,10 +85,10 @@ export async function POST(request: Request) {
       pin_failed_attempts: 0,
       pin_locked_until: null,
     })
-    .eq("user_id", auth.session.user.id);
+    .eq("user_id", member.id);
 
   await recordSecurityEvent({
-    userId: auth.session.user.id,
+    userId: member.id,
     eventType: "security.pin.verified",
     outcome: "success",
   }).catch(() => undefined);

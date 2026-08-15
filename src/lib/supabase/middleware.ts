@@ -1,5 +1,4 @@
 import { createServerClient } from "@supabase/ssr";
-import type { CookieOptions } from "@supabase/supabase-js";
 import { NextResponse, type NextRequest } from "next/server";
 
 import { getSupabaseAnonKey, getSupabaseUrl } from "@/lib/supabase/config";
@@ -19,7 +18,7 @@ export async function refreshSupabaseSession(request: NextRequest): Promise<{
       getAll() {
         return request.cookies.getAll();
       },
-      setAll(cookiesToSet: Array<{ name: string; value: string; options?: CookieOptions }>) {
+      setAll(cookiesToSet) {
         for (const { name, value } of cookiesToSet) {
           request.cookies.set(name, value);
         }

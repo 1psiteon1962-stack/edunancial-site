@@ -90,7 +90,7 @@ async function squareWebhookRequest<T>(
   const response = await fetch(`${getSquareApiBase(config.environment)}${path}`, {
     ...init,
     headers: {
-      Authorization: `Bearer ${config.accessToken}`,
+      Authorization: "Bearer " + config.accessToken,
       "Content-Type": "application/json",
       "Square-Version": SQUARE_WEBHOOK_API_VERSION,
       ...(init.headers || {}),
@@ -128,7 +128,12 @@ async function retrieveWebhookSubscription(subscriptionId: string) {
   return payload.subscription;
 }
 
-export async function ensureSquareWebhookSubscription() {
+export async function ensureSquareWebhookSubscription(): Promise<{
+  subscriptionId: string;
+  signatureKey: string;
+  notificationUrl: string;
+  expiresAt: number;
+}> {
   const config = getRuntimeSquareConfig();
   if (!validateSquareConfig()) {
     throw new Error("Square application, location, or access-token configuration is incomplete.");
@@ -192,9 +197,10 @@ export async function ensureSquareWebhookSubscription() {
   if (!subscription?.id) {
     throw new Error("Square webhook subscription could not be created or resolved.");
   }
+  const subscriptionId = subscription.id;
 
   if (!subscription.signature_key) {
-    subscription = await retrieveWebhookSubscription(subscription.id);
+    subscription = await retrieveWebhookSubscription(subscriptionId);
   }
 
   const signatureKey =
@@ -205,7 +211,7 @@ export async function ensureSquareWebhookSubscription() {
   }
 
   managedWebhookCache = {
-    subscriptionId: subscription.id,
+    subscriptionId,
     signatureKey,
     notificationUrl,
     expiresAt: Date.now() + WEBHOOK_CACHE_TTL_MS,

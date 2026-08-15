@@ -1,12 +1,12 @@
 import { createServerClient } from "@supabase/ssr";
-import type { CookieOptions, SupabaseClient } from "@supabase/supabase-js";
+import type { SupabaseClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 
 import { getSupabaseAnonKey, getSupabaseUrl } from "@/lib/supabase/config";
 
 function applyCookies(
   cookieStore: Awaited<ReturnType<typeof cookies>>,
-  cookiesToSet: Array<{ name: string; value: string; options?: CookieOptions }>,
+  cookiesToSet: Array<{ name: string; value: string; options?: Parameters<typeof cookieStore.set>[2] }>,
 ) {
   for (const { name, value, options } of cookiesToSet) {
     cookieStore.set(name, value, options);

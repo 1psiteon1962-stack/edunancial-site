@@ -15,8 +15,8 @@ export interface AuthUser {
   assessmentCompleted: boolean;
   overallScore: number | null;
   betaAccess?: BetaAccessSummary | null;
-  emailVerified: boolean;
-  lastSignInAt: string | null;
+  emailVerified?: boolean;
+  lastSignInAt?: string | null;
 }
 
 export interface RegisterData {
