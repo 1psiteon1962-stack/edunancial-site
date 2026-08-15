@@ -1,0 +1,29 @@
+{
+  "lessonId": "RED-L2-002",
+  "status": "INCOMPLETE - main content body captured in full, but no Objetivos de Aprendizaje, Ejemplo Práctico, Cuestionario de Práctica, Clave de Respuestas, or Puntos Clave sections were visible in the photos provided. Re-photograph the top of the page (objectives) and the rest of the page below the main content (example through key points) to complete it.",
+  "translations": {
+    "es-ES": {
+      "title": "Préstamos VA y financiación creativa: opciones en el umbral residencial",
+      "subtitle": "Más allá del préstamo convencional, existen otros dos caminos para propiedades residenciales: los préstamos VA para veteranos elegibles, y la financiación creativa que no pasa por un banco.",
+      "learningObjectives": "[NO CAPTURADO]",
+      "mainContent": [
+        {
+          "heading": null,
+          "body": "Un préstamo VA es una hipoteca respaldada por el Departamento de Asuntos de Veteranos de Estados Unidos para veteranos elegibles, militares en servicio activo y algunos cónyuges supérstites, para financiar propiedades residenciales de 1 a 4 unidades. Lo garantiza el VA, pero lo origina un prestamista privado. Ventajas clave: a menudo no se exige entrada, no hay seguro hipotecario privado (PMI), y los tipos son competitivos. Esto es específico de Estados Unidos y está vinculado al servicio militar."
+        },
+        {
+          "heading": null,
+          "body": "La financiación creativa es cualquier método de compra que no depende únicamente de un préstamo bancario, incluyendo la financiación del vendedor (el vendedor actúa como prestamista), Owner Will Carry (el vendedor financia parte o la totalidad del precio como un préstamo), y los acuerdos de recompra/arrendamiento posterior. En la financiación del vendedor, comprador y vendedor negocian directamente el precio, la entrada, el tipo de interés y el calendario de pagos; el comprador firma un pagaré y, normalmente, una hipoteca. Los vendedores pueden aceptar esto por unos ingresos constantes, ventajas fiscales, o un precio efectivo más alto; los compradores lo utilizan cuando aún no cumplen los requisitos para una financiación convencional o VA, o cuando quieren condiciones más flexibles."
+        },
+        {
+          "heading": null,
+          "body": "La financiación creativa resulta más útil en situaciones específicas; no es la primera opción universal — cuando un comprador cumple fácilmente los requisitos de un préstamo convencional o VA a tipo bajo, la financiación bancaria suele ser más barata y estandarizada. Documenta siempre los acuerdos de financiación creativa con los instrumentos legales apropiados; los acuerdos informales generan un riesgo real para ambas partes."
+        }
+      ],
+      "practicalExample": "[NO CAPTURADO]",
+      "practiceQuiz": "[NO CAPTURADO]",
+      "answerKey": "[NO CAPTURADO]",
+      "keyPoints": "[NO CAPTURADO]"
+    }
+  }
+}

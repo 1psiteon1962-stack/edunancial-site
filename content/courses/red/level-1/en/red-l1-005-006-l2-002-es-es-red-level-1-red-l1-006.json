@@ -1,0 +1,35 @@
+{
+  "lessonId": "RED-L1-006",
+  "status": "INCOMPLETE - missing main content body, practical example, and quiz question text. Only title, subtitle, objectives, answer key, and key points were visible in the photos provided. Re-photograph the middle of this lesson's page to complete it.",
+  "translations": {
+    "es-ES": {
+      "title": "¿Qué es una entrada (pago inicial) y por qué importa tanto?",
+      "subtitle": "Aprende qué hace realmente una entrada — más allá de solo \"empezar el préstamo\" — y cómo afecta a tu hipoteca a largo plazo.",
+      "learningObjectives": [
+        "Explicar qué es una entrada (down payment).",
+        "Entender cómo afecta al tamaño del préstamo y al coste total.",
+        "Reconocer la conexión entre la entrada y el PMI (que veremos en la próxima lección)."
+      ],
+      "mainContent": [
+        {
+          "heading": null,
+          "body": "[INCOMPLETO — solo se capturó la primera frase] La entrada es la parte del precio de compra que pagas de tu propio bolsillo, en efectivo, antes de que..."
+        }
+      ],
+      "practicalExample": null,
+      "practiceQuiz": "[NO CAPTURADO — faltan las preguntas del cuestionario]",
+      "answerKey": [
+        "b) La porción del precio que pagas en efectivo antes de la financiación",
+        "b) Reduce el tamaño del préstamo y el interés total",
+        "b) El requisito de PMI (seguro hipotecario privado)",
+        "b) Equidad (equity) en la propiedad"
+      ],
+      "keyPoints": [
+        "La entrada es el dinero que aportas directamente antes de que el banco financie el resto.",
+        "Una entrada mayor reduce el tamaño del préstamo y el interés total pagado.",
+        "Una entrada inferior al 20% suele activar el requisito de PMI.",
+        "La entrada genera equidad inmediata en la propiedad desde el primer día."
+      ]
+    }
+  }
+}
