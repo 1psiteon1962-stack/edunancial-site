@@ -11,8 +11,13 @@ import {
 import { verifyDestinationPath } from "@/lib/admin-content/security";
 
 const CURRICULUM_REGISTRY_PATH = "curriculum/registry.json";
-
 const DEFAULT_BASE_BRANCH = "main";
+const CANONICAL_LESSON_ID_RE = /^[A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,}$/u;
+
+type CurriculumTranslationJson = {
+  lessonId: string;
+  locales: string[];
+};
 
 function getRequiredGithubConfig() {
   const token = process.env.EDUNANCIAL_GITHUB_TOKEN;
@@ -45,11 +50,6 @@ async function githubRequest(path: string, init: RequestInit = {}) {
   return response.json() as Promise<Record<string, unknown>>;
 }
 
-/**
- * Fetch the current curriculum/registry.json from the default branch via the
- * GitHub Contents API.  Returns null when the file does not yet exist so the
- * caller can start from an empty registry on the first import.
- */
 async function fetchCurrentRegistry(): Promise<CurriculumRegistry | null> {
   try {
     const data = await githubRequest(`/contents/${CURRICULUM_REGISTRY_PATH}`);
@@ -61,6 +61,54 @@ async function fetchCurrentRegistry(): Promise<CurriculumRegistry | null> {
   }
 }
 
+function activeLessonIds(registry: CurriculumRegistry | null): Set<string> {
+  const ids = new Set<string>();
+  if (!registry || typeof registry !== "object") return ids;
+
+  const tracks = (registry as unknown as { tracks?: Record<string, { levels?: Record<string, { assets?: Record<string, { id?: string; type?: string; status?: string }> }> }> }).tracks;
+  for (const track of Object.values(tracks ?? {})) {
+    for (const level of Object.values(track.levels ?? {})) {
+      for (const asset of Object.values(level.assets ?? {})) {
+        if (asset?.type !== "lesson" || asset?.status !== "active") continue;
+        const id = String(asset.id ?? "").toUpperCase();
+        if (id) ids.add(id);
+      }
+    }
+  }
+  return ids;
+}
+
+function detectTranslationJson(content: string): CurriculumTranslationJson | null {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(content);
+  } catch {
+    return null;
+  }
+
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return null;
+  const record = parsed as Record<string, unknown>;
+  const translations = record.translations;
+  if (!translations || typeof translations !== "object" || Array.isArray(translations)) return null;
+
+  const lessonId = String(record.lessonId ?? record.lesson_id ?? record.id ?? "").toUpperCase();
+  if (!CANONICAL_LESSON_ID_RE.test(lessonId)) return null;
+
+  const locales = Object.keys(translations);
+  if (locales.length === 0) {
+    throw new Error(`Curriculum translation JSON for ${lessonId} has an empty translations object.`);
+  }
+
+  for (const locale of locales) {
+    const translation = (translations as Record<string, unknown>)[locale];
+    if (!translation || typeof translation !== "object" || Array.isArray(translation)) {
+      throw new Error(`Curriculum translation JSON for ${lessonId} has invalid locale payload: ${locale}.`);
+    }
+  }
+
+  return { lessonId, locales };
+}
+
 export async function createGithubPullRequest(batch: UploadBatch, exportPackage: ExportPackage) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
 
@@ -69,17 +117,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   }
 
   const { owner, repo } = getRequiredGithubConfig();
+  const existingRegistryAtStart = await fetchCurrentRegistry();
+  const existingLessonIds = activeLessonIds(existingRegistryAtStart);
 
-  // ---------------------------------------------------------------------------
-  // Phase 1: resolve the final destination for each approved file.
-  //
-  // For files that contain valid curriculum front-matter (id: TRACK-L{n}-{nnn})
-  // we override the destination to the canonical curriculum path
-  // `content/curriculum/{TRACK}/L{n}/{id}.md`.  This ensures that uploading
-  // RED-Level-1-Combined.md or any other lesson markdown causes the lesson to
-  // land at the correct path and become discoverable through the curriculum
-  // system without requiring any manual code changes.
-  // ---------------------------------------------------------------------------
   const ingestionId = crypto.randomUUID();
   const ingestionTimestamp = new Date().toISOString();
 
@@ -87,14 +127,11 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     resolvedDestination: string;
     curriculumAsset: Awaited<ReturnType<typeof detectCurriculumAsset>>;
     bundledLessons: Awaited<ReturnType<typeof detectBundledCurriculumLessons>>;
+    curriculumTranslation: CurriculumTranslationJson | null;
   };
 
   const resolvedFiles: ResolvedFile[] = await Promise.all(
     approvedFiles.map(async (file) => {
-      // Use the original file bytes for curriculum detection and validation.
-      // rawText has markdown syntax stripped (including '---' front-matter
-      // delimiters) by the preview extractor, which breaks front-matter parsing
-      // in detectCurriculumAsset and validateCurriculumFiles.
       const originalContent = Buffer.from(file.encodedContent, "base64").toString("utf8");
       const curriculumAsset = file.extension === ".md"
         ? await detectCurriculumAsset(originalContent, file.originalFilename)
@@ -103,10 +140,22 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         file.extension === ".md" && !curriculumAsset
           ? await detectBundledCurriculumLessons(originalContent)
           : [];
+      const curriculumTranslation = file.extension === ".json"
+        ? detectTranslationJson(originalContent)
+        : null;
+
+      if (curriculumTranslation && !existingLessonIds.has(curriculumTranslation.lessonId)) {
+        throw new Error(
+          `Curriculum translation upload blocked: ${file.originalFilename} references ` +
+          `${curriculumTranslation.lessonId}, but that canonical lesson is not an active lesson in ${CURRICULUM_REGISTRY_PATH}. ` +
+          `Publish/register the canonical lesson first; translations may not create orphan lesson identities.`,
+        );
+      }
+
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.destinationPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
-      return { ...file, resolvedDestination, curriculumAsset, bundledLessons };
+      return { ...file, resolvedDestination, curriculumAsset, bundledLessons, curriculumTranslation };
     }),
   );
 
@@ -119,7 +168,6 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     })),
   );
 
-  // Detect in-batch duplicate destination paths before hitting the GitHub API.
   const destinationCounts = resolvedFiles.reduce<Record<string, number>>((acc, file) => {
     acc[file.resolvedDestination] = (acc[file.resolvedDestination] ?? 0) + 1;
     return acc;
@@ -154,7 +202,6 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
   const baseBranch = process.env.EDUNANCIAL_GITHUB_BASE_BRANCH || DEFAULT_BASE_BRANCH;
   const batchSlug = slugify(batch.name);
-  // Branch name includes full timestamp (YYYYMMDD-HHMMSS) for predictability and uniqueness.
   const now = new Date();
   const datePart = now.toISOString().slice(0, 10).replaceAll("-", "");
   const timePart = now.toISOString().slice(11, 19).replaceAll(":", "");
@@ -188,33 +235,29 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   );
   blobs.push(...bundledLessonBlobs);
 
-  // ---------------------------------------------------------------------------
-  // Phase 2: if any files are curriculum assets, fetch the current registry and
-  // build an updated version that includes the new entries.  The updated
-  // registry is included in the same commit so the lesson becomes discoverable
-  // immediately after the PR is merged and the site is redeployed — no manual
-  // `npm run curriculum:import` or code changes are required.
-  // ---------------------------------------------------------------------------
   const curriculumFiles = resolvedFiles.filter((f) => f.curriculumAsset !== null);
+  const curriculumTranslationFiles = resolvedFiles.filter((f) => f.curriculumTranslation !== null);
   const totalCurriculumAssets = curriculumFiles.length + bundledCurriculumFiles.length;
+  const totalCurriculumTranslations = curriculumTranslationFiles.length;
+  const totalTranslationLocales = curriculumTranslationFiles.reduce(
+    (sum, file) => sum + (file.curriculumTranslation?.locales.length ?? 0),
+    0,
+  );
   let registryIncludedInPr = false;
 
   if (totalCurriculumAssets > 0) {
-    // Registry update is MANDATORY for curriculum assets.  If it fails the PR
-    // must not be created — a partial commit (content without registry) would
-    // leave the lesson unreachable on the live site and break the pipeline.
-    const existingRegistry = await fetchCurrentRegistry();
+    const existingRegistry = existingRegistryAtStart;
     const directEntries = curriculumFiles
       .filter((file) => !file.curriculumAsset?.locale)
       .map((file) => {
-      const contentBytes = Buffer.from(file.encodedContent, "base64");
-      return buildRegistryEntry(
-        file.curriculumAsset!,
-        contentBytes,
-        ingestionId,
-        ingestionTimestamp,
-        file.checksum ? `sha256:${file.checksum}` : undefined,
-      );
+        const contentBytes = Buffer.from(file.encodedContent, "base64");
+        return buildRegistryEntry(
+          file.curriculumAsset!,
+          contentBytes,
+          ingestionId,
+          ingestionTimestamp,
+          file.checksum ? `sha256:${file.checksum}` : undefined,
+        );
       });
     const bundledEntries = bundledCurriculumFiles.map((file) => {
       const contentBytes = Buffer.from(file.content, "utf8");
@@ -238,7 +281,6 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     registryIncludedInPr = true;
   }
 
-  // Rich manifest: includes per-file metadata for traceability.
   const manifestEntries = resolvedFiles.map((file) => ({
     sourceFilename: file.originalFilename,
     destinationPath: file.resolvedDestination,
@@ -252,6 +294,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     uploadTimestamp: file.updatedAt,
     checksum: file.checksum,
     curriculumAssetId: file.curriculumAsset?.id ?? null,
+    curriculumTranslationLessonId: file.curriculumTranslation?.lessonId ?? null,
+    curriculumTranslationLocales: file.curriculumTranslation?.locales ?? [],
   }));
   const manifest = {
     batchId: batch.id,
@@ -262,6 +306,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     validation,
     registryUpdated: registryIncludedInPr,
     curriculumAssets: totalCurriculumAssets,
+    curriculumTranslations: totalCurriculumTranslations,
+    curriculumTranslationLocales: totalTranslationLocales,
   };
   const manifestBlob = await githubRequest("/git/blobs", {
     method: "POST",
@@ -307,6 +353,10 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     accumulator[key] = (accumulator[key] ?? 0) + 1;
     return accumulator;
   }, {});
+  const translationSummary = curriculumTranslationFiles.map((file) => {
+    const translation = file.curriculumTranslation!;
+    return `${translation.lessonId} [${translation.locales.join(", ")}]`;
+  });
 
   const pr = await githubRequest("/pulls", {
     method: "POST",
@@ -322,6 +372,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Duplicates: ${counts.duplicates}`,
         `Conflicts: ${counts.conflicts}`,
         `Curriculum assets: ${totalCurriculumAssets}`,
+        `Curriculum translation files: ${totalCurriculumTranslations}`,
+        `Curriculum translation locales: ${totalTranslationLocales}`,
+        `Translation lessons: ${translationSummary.join("; ") || "None"}`,
         `Registry updated in PR: ${registryIncludedInPr}`,
         `Validation success: ${validation.success}`,
         `Validation warnings: ${validation.warnings.join("; ") || "None"}`,
