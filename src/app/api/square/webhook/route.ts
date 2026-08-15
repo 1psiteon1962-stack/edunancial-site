@@ -3,10 +3,11 @@ import { NextResponse } from "next/server";
 import { logStructuredError } from "@/lib/observability/errors";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
+import { applyAuthoritativeMembershipEntitlement } from "@/lib/member/entitlements";
 import { isSquareVerifiedCheckoutEnabled, verifyManagedSquareWebhookSignature } from "@/lib/square";
 import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
-import { claimWebhookEventAsync } from "@/lib/payments/webhookIdempotency";
+import { claimWebhookEvent } from "@/lib/payments/webhookIdempotency";
 
 interface SquareWebhookEvent {
   merchant_id?: string;
@@ -51,7 +52,7 @@ export async function POST(request: Request) {
     const eventId = event.event_id ?? "";
 
     if (eventId) {
-      const claimed = await claimWebhookEventAsync(eventId, eventType);
+      const claimed = claimWebhookEvent(eventId, eventType);
       if (!claimed) {
         const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
         recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
@@ -60,6 +61,26 @@ export async function POST(request: Request) {
     }
 
     const lifecycle = processSquareLifecycleEvent(event);
+    const eventObject = event.data?.object ?? {};
+    const customerEmail =
+      typeof eventObject.customer_email === "string"
+        ? eventObject.customer_email
+        : typeof eventObject.email_address === "string"
+          ? eventObject.email_address
+          : null;
+    const membershipPlanId =
+      typeof eventObject.plan_id === "string"
+        ? eventObject.plan_id
+        : typeof eventObject.membership_plan_id === "string"
+          ? eventObject.membership_plan_id
+          : null;
+
+    if (eventType === "payment.completed" && customerEmail && membershipPlanId) {
+      await applyAuthoritativeMembershipEntitlement({
+        email: customerEmail,
+        planId: membershipPlanId,
+      });
+    }
     const response = NextResponse.json({
       success: true,
       processed: lifecycle.processed,

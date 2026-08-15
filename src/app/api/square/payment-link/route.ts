@@ -7,7 +7,7 @@ import { NextResponse } from "next/server";
 import { logStructuredError } from "@/lib/observability/errors";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
-import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, validateSquareCredentials, getSquareServerConfig } from "@/lib/square";
+import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squareConfig } from "@/lib/square";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
@@ -53,14 +53,6 @@ export async function POST(request: Request) {
     // verified webhook subscription exists and its signing key is available.
     await ensureSquareWebhookSubscription();
 
-    // Validate credentials against Square API before creating a link.
-    const credCheck = await validateSquareCredentials();
-    if (!credCheck.valid) {
-      const response = NextResponse.json({ success: false, error: "Square credentials could not be verified.", requestId }, { status: 503 });
-      recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
-      return attachRequestHeaders(response, requestId);
-    }
-
     const body = (await request.json()) as PaymentLinkRequestBody;
     const { itemId = "", discountCode, customerEmail } = body;
     if (!itemId) return attachRequestHeaders(NextResponse.json({ success: false, error: "itemId is required.", requestId }, { status: 400 }), requestId);
@@ -80,17 +72,16 @@ export async function POST(request: Request) {
       discountDescription = discountResult.code?.description;
     }
 
-    const squareApiBase = getSquareServerConfig().environment === "sandbox" ? "https://connect.squareupsandbox.com" : "https://connect.squareup.com";
+    const squareApiBase = squareConfig.environment === "sandbox" ? "https://connect.squareupsandbox.com" : "https://connect.squareup.com";
     const appOrigin = new URL(request.url).origin;
     const lineItems = [{ name: item.name, quantity: "1", base_price_money: { amount: Math.round(item.price * 100), currency: item.currency.toUpperCase() } }];
     const orderDiscounts = discountApplied ? [{ name: discountDescription ?? "Promotional Discount", type: "FIXED_AMOUNT", amount_money: { amount: Math.round((item.price - finalPrice) * 100), currency: item.currency.toUpperCase() } }] : undefined;
     const successParams = new URLSearchParams({ item: item.id, type: item.type, ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}), ...(item.contentId ? { content: item.contentId } : {}) });
 
-    const runtimeConfig = getSquareServerConfig();
     const squarePayload: Record<string, unknown> = {
       idempotency_key: `${requestId}-${item.id}`,
       order: {
-        location_id: runtimeConfig.locationId,
+        location_id: squareConfig.locationId,
         line_items: lineItems,
         ...(orderDiscounts ? { discounts: orderDiscounts } : {}),
         metadata: {
@@ -108,7 +99,7 @@ export async function POST(request: Request) {
 
     const squareResponse = await fetch(`${squareApiBase}/v2/online-checkout/payment-links`, {
       method: "POST",
-      headers: { "Content-Type": "application/json", Authorization: "Bearer " + runtimeConfig.accessToken, "Square-Version": "2026-07-15" },
+      headers: { "Content-Type": "application/json", Authorization: "Bearer " + squareConfig.accessToken, "Square-Version": "2026-07-15" },
       body: JSON.stringify(squarePayload),
     });
 

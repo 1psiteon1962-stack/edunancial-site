@@ -1,29 +1,35 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-import { usePublishedCatalog } from "@/components/curriculum/usePublishedCatalog";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { useMemberProgress } from "@/components/member/useMemberProgress";
+import { useAuth } from "@/lib/authContext";
 
-function getCoursePrimaryHref(course: Pick<{ id: string; lessons: string[] }, "id" | "lessons">): string {
-  return course.lessons[0]
-    ? `/courses/${course.id}/lessons/${course.lessons[0]}`
-    : `/courses/${course.id}`;
-}
-
-function ProgressLayout() {
+export default function CourseProgressPage() {
   const { t } = useInternationalPreferences();
-  const { courseList } = usePublishedCatalog();
-  // Progress comes from user session/database — not yet wired.
-  const progressData = courseList.map((course) => ({
-    ...course,
-    done: 0,
-    pct: 0,
-  }));
+  const { user, loading: authLoading } = useAuth();
+  const { progress, loading } = useMemberProgress();
+  const router = useRouter();
 
-  const enrolled = progressData;
-  const totalLessons = enrolled.reduce((sum, course) => sum + course.lessons.length, 0);
-  const totalDone = enrolled.reduce((sum, course) => sum + course.done, 0);
+  useEffect(() => {
+    if (!authLoading && !user) {
+      router.push("/login");
+    }
+  }, [authLoading, router, user]);
+
+  if (authLoading || loading || !user) {
+    return (
+      <main className="flex min-h-screen items-center justify-center bg-[#08101f] text-white">
+        <p className="text-slate-400">Loading…</p>
+      </main>
+    );
+  }
+
+  const totalLessons = progress.reduce((sum, course) => sum + course.total_lessons, 0);
+  const totalDone = progress.reduce((sum, course) => sum + course.completed_lessons_count, 0);
   const overallPct = totalLessons > 0 ? Math.round((totalDone / totalLessons) * 100) : 0;
 
   return (
@@ -49,40 +55,33 @@ function ProgressLayout() {
 
         <div className="mt-10 space-y-6">
           <h2 className="text-2xl font-black">{t("courseProgress.breakdownLabel")}</h2>
-          {enrolled.map((course) => (
-            <div key={course.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
+          {progress.map((course) => (
+            <div key={course.courseId} className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
               <div className="mb-4 flex items-start justify-between gap-4">
                 <div>
                   <h3 className="text-lg font-black">{course.title}</h3>
                   <p className="text-sm text-slate-400">{course.category} · {course.difficulty}</p>
                 </div>
-                <span className={`text-xl font-black ${course.pct === 100 ? "text-green-400" : "text-blue-400"}`}>{course.pct}%</span>
+                <span className={`text-xl font-black ${course.progress_percent === 100 ? "text-green-400" : "text-blue-400"}`}>{Math.round(course.progress_percent)}%</span>
               </div>
               <div className="mb-3 h-3 w-full rounded-full bg-slate-800">
-                <div className={`h-3 rounded-full transition-all ${course.pct === 100 ? "bg-green-500" : "bg-blue-500"}`} style={{ width: `${course.pct}%` }} />
+                <div className={`h-3 rounded-full transition-all ${course.progress_percent === 100 ? "bg-green-500" : "bg-blue-500"}`} style={{ width: `${course.progress_percent}%` }} />
               </div>
               <div className="flex items-center justify-between text-sm text-slate-400">
-                <span>{t("courseProgress.completeTemplate", { done: course.done, total: course.lessons.length })}</span>
-                {course.pct === 100 ? (
+                <span>{t("courseProgress.completeTemplate", { done: course.completed_lessons_count, total: course.total_lessons })}</span>
+                {course.completed ? (
                   <Link href="/my-certificates" className="font-bold text-green-400 hover:text-green-300">
                     ✅ {t("courseProgress.certificateLabel")}
                   </Link>
                 ) : (
-                  <Link
-                    href={
-                      course.lessons[course.done]
-                        ? `/courses/${course.id}/lessons/${course.lessons[course.done]}`
-                        : getCoursePrimaryHref(course)
-                    }
-                    className="font-bold text-yellow-400 hover:text-yellow-300"
-                  >
-                    {course.lessons.length > 0 ? t("courseProgress.continueLabel") : "View Track"}
+                  <Link href={course.continue_href} className="font-bold text-yellow-400 hover:text-yellow-300">
+                    {course.total_lessons > 0 ? t("courseProgress.continueLabel") : "View Track"}
                   </Link>
                 )}
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
-                {course.lessons.map((_, index) => (
-                  <div key={index} className={`h-2.5 w-2.5 rounded-full ${index < course.done ? "bg-blue-500" : "bg-slate-700"}`} />
+                {course.lessonIds.map((lessonId) => (
+                  <div key={lessonId} className={`h-2.5 w-2.5 rounded-full ${course.completed_lesson_ids.includes(lessonId) ? "bg-blue-500" : "bg-slate-700"}`} />
                 ))}
               </div>
             </div>
@@ -100,8 +99,4 @@ function ProgressLayout() {
       </section>
     </main>
   );
-}
-
-export default function CourseProgressPage() {
-  return <ProgressLayout />;
 }

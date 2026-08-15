@@ -31,6 +31,7 @@ export default function ProfileClient() {
   });
   const [saved, setSaved] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     if (!loading && !user) {
@@ -59,13 +60,14 @@ export default function ProfileClient() {
   function set(field: string, value: string) {
     setForm((prev) => ({ ...prev, [field]: value }));
     setSaved(false);
+    setError("");
   }
 
   async function handleSave(e: React.FormEvent) {
     e.preventDefault();
     setSaving(true);
-    await new Promise((r) => setTimeout(r, 400));
-    updateProfile({
+    setError("");
+    const result = await updateProfile({
       firstName: form.firstName,
       lastName: form.lastName,
       phone: form.phone,
@@ -73,6 +75,10 @@ export default function ProfileClient() {
       bio: form.bio,
     });
     setSaving(false);
+    if (!result.success) {
+      setError(result.error ?? "Unable to update your profile.");
+      return;
+    }
     setSaved(true);
   }
 
@@ -133,7 +139,7 @@ export default function ProfileClient() {
               </nav>
               <hr className="my-4 border-slate-700" />
               <button
-                onClick={logout}
+                onClick={() => void logout()}
                 className="block w-full rounded-lg px-3 py-2 text-left text-sm text-red-400 hover:bg-red-900/20"
               >
                 Sign Out
@@ -152,6 +158,11 @@ export default function ProfileClient() {
               {saved && (
                 <div className="mt-4 rounded-lg border border-green-700 bg-green-950/40 px-4 py-3 text-sm text-green-300">
                   ✓ Profile updated successfully.
+                </div>
+              )}
+              {error && (
+                <div className="mt-4 rounded-lg border border-red-700 bg-red-950/40 px-4 py-3 text-sm text-red-300">
+                  {error}
                 </div>
               )}
 

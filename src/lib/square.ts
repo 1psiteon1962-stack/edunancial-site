@@ -1,21 +1,12 @@
-// This file is server-only. It must not be imported by client components.
-// Add `server-only` to package.json dependencies to enforce this at build time.
 import { createHmac, timingSafeEqual } from "node:crypto";
 
-/**
- * @deprecated Use getSquareRuntimeConfig() or getSquareServerConfig() instead.
- * This object is kept for backward compatibility only during migration;
- * all values are read at the time of access via getters, not at import time.
- *
- * Do NOT use this in new code. Server routes must call getSquareServerConfig().
- */
 export const squareConfig = {
-  get applicationId() { return process.env.NEXT_PUBLIC_SQUARE_APPLICATION_ID ?? ""; },
-  get locationId() { return process.env.NEXT_PUBLIC_SQUARE_LOCATION_ID ?? ""; },
-  get environment() { return process.env.NEXT_PUBLIC_SQUARE_ENVIRONMENT ?? "production"; },
-  get accessToken() { return process.env.SQUARE_ACCESS_TOKEN ?? ""; },
-  get webhookSignatureKey() { return process.env.SQUARE_WEBHOOK_SIGNATURE_KEY ?? ""; },
-  get webhookNotificationUrl() { return process.env.SQUARE_WEBHOOK_NOTIFICATION_URL ?? ""; },
+  applicationId: process.env.NEXT_PUBLIC_SQUARE_APPLICATION_ID || "",
+  locationId: process.env.NEXT_PUBLIC_SQUARE_LOCATION_ID || "",
+  environment: process.env.NEXT_PUBLIC_SQUARE_ENVIRONMENT || "production",
+  accessToken: process.env.SQUARE_ACCESS_TOKEN || "",
+  webhookSignatureKey: process.env.SQUARE_WEBHOOK_SIGNATURE_KEY || "",
+  webhookNotificationUrl: process.env.SQUARE_WEBHOOK_NOTIFICATION_URL || "",
 };
 
 const SQUARE_WEBHOOK_API_VERSION = "2026-07-15";
@@ -57,157 +48,13 @@ let managedWebhookCache:
 
 function getRuntimeSquareConfig() {
   return {
-    applicationId: process.env.NEXT_PUBLIC_SQUARE_APPLICATION_ID ?? "",
-    locationId: process.env.NEXT_PUBLIC_SQUARE_LOCATION_ID ?? "",
-    environment: process.env.NEXT_PUBLIC_SQUARE_ENVIRONMENT ?? "production",
-    accessToken: process.env.SQUARE_ACCESS_TOKEN ?? "",
-    webhookSignatureKey: process.env.SQUARE_WEBHOOK_SIGNATURE_KEY ?? "",
-    webhookNotificationUrl: process.env.SQUARE_WEBHOOK_NOTIFICATION_URL ?? "",
+    applicationId: process.env.NEXT_PUBLIC_SQUARE_APPLICATION_ID || "",
+    locationId: process.env.NEXT_PUBLIC_SQUARE_LOCATION_ID || "",
+    environment: process.env.NEXT_PUBLIC_SQUARE_ENVIRONMENT || "production",
+    accessToken: process.env.SQUARE_ACCESS_TOKEN || "",
+    webhookSignatureKey: process.env.SQUARE_WEBHOOK_SIGNATURE_KEY || "",
+    webhookNotificationUrl: process.env.SQUARE_WEBHOOK_NOTIFICATION_URL || "",
   };
-}
-
-/**
- * Returns all Square config values at runtime. Never call at module scope.
- * Server-only: secrets are included. Never pass to client components.
- */
-export function getSquareServerConfig() {
-  return getRuntimeSquareConfig();
-}
-
-/**
- * Returns only public/browser-safe Square config values (no secrets).
- */
-export function getSquareRuntimeConfig() {
-  const config = getRuntimeSquareConfig();
-  return {
-    applicationId: config.applicationId,
-    locationId: config.locationId,
-    environment: config.environment,
-  };
-}
-
-/**
- * Returns a readiness diagnostic object with only boolean/string indicators —
- * never secret values. Safe to log internally (not to expose to end users).
- */
-export function getSquareReadinessDiagnostics() {
-  const config = getRuntimeSquareConfig();
-  const env = config.environment;
-  const isProduction = env === "production";
-  const isSandbox = env === "sandbox";
-
-  return {
-    hasApplicationId: config.applicationId.length > 0,
-    hasLocationId: config.locationId.length > 0,
-    hasAccessToken: config.accessToken.length > 0,
-    hasWebhookSignatureKey: config.webhookSignatureKey.length > 0,
-    hasWebhookNotificationUrl: config.webhookNotificationUrl.length > 0,
-    environment: env,
-    isProduction,
-    isSandbox,
-    isConfigured:
-      config.applicationId.length > 0 &&
-      config.locationId.length > 0 &&
-      config.accessToken.length > 0,
-  };
-}
-
-/**
- * Caches credential validation result for a short window to avoid
- * unnecessary Square API calls on rapid checkout requests.
- */
-let credentialValidationCache:
-  | { valid: boolean; missingVarNames: string[]; expiresAt: number }
-  | undefined;
-const CREDENTIAL_VALIDATION_TTL_MS = 2 * 60 * 1000;
-
-/**
- * Performs a live Square API call to validate access token and location.
- * Fail-closed: returns invalid on any error. Does not expose secret values.
- */
-export async function validateSquareCredentials(options?: { forceRefresh?: boolean }): Promise<{
-  valid: boolean;
-  missingVarNames: string[];
-  errorMessage?: string;
-}> {
-  const config = getRuntimeSquareConfig();
-  const missing: string[] = [];
-  if (!config.applicationId) missing.push("NEXT_PUBLIC_SQUARE_APPLICATION_ID");
-  if (!config.locationId) missing.push("NEXT_PUBLIC_SQUARE_LOCATION_ID");
-  if (!config.accessToken) missing.push("SQUARE_ACCESS_TOKEN");
-
-  if (missing.length > 0) {
-    return { valid: false, missingVarNames: missing, errorMessage: `Missing configuration: ${missing.join(", ")}` };
-  }
-
-  // Production environment must not fall back to sandbox.
-  const env = config.environment;
-  if (env !== "production" && env !== "sandbox") {
-    return {
-      valid: false,
-      missingVarNames: [],
-      errorMessage: `NEXT_PUBLIC_SQUARE_ENVIRONMENT has unexpected value "${env}". Must be "production" or "sandbox".`,
-    };
-  }
-
-  if (
-    !options?.forceRefresh &&
-    credentialValidationCache &&
-    credentialValidationCache.expiresAt > Date.now()
-  ) {
-    return {
-      valid: credentialValidationCache.valid,
-      missingVarNames: credentialValidationCache.missingVarNames,
-    };
-  }
-
-  try {
-    const apiBase = getSquareApiBase(env);
-    const response = await fetch(
-      `${apiBase}/v2/locations/${encodeURIComponent(config.locationId)}`,
-      {
-        headers: {
-          Authorization: "Bearer " + config.accessToken,
-          "Square-Version": SQUARE_WEBHOOK_API_VERSION,
-          "Content-Type": "application/json",
-        },
-        cache: "no-store",
-      }
-    );
-
-    if (response.status === 401 || response.status === 403) {
-      credentialValidationCache = { valid: false, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-      return { valid: false, missingVarNames: [], errorMessage: "Square access token is not valid or lacks required permissions." };
-    }
-
-    if (response.status === 404) {
-      credentialValidationCache = { valid: false, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-      return { valid: false, missingVarNames: [], errorMessage: "Square location ID is not found or not accessible." };
-    }
-
-    if (!response.ok) {
-      credentialValidationCache = { valid: false, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-      return { valid: false, missingVarNames: [], errorMessage: `Square credential validation returned status ${response.status}.` };
-    }
-
-    // Verify environment consistency: sandbox tokens must not work against production and vice versa.
-    const body = (await response.json().catch(() => ({}))) as { location?: { status?: string } };
-    if (!body.location) {
-      credentialValidationCache = { valid: false, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-      return { valid: false, missingVarNames: [], errorMessage: "Square did not return location data." };
-    }
-
-    credentialValidationCache = { valid: true, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-    return { valid: true, missingVarNames: [] };
-  } catch {
-    credentialValidationCache = { valid: false, missingVarNames: [], expiresAt: Date.now() + CREDENTIAL_VALIDATION_TTL_MS };
-    return { valid: false, missingVarNames: [], errorMessage: "Square credential validation failed due to network or configuration error." };
-  }
-}
-
-/** Reset credential validation cache — for use in tests only. */
-export function resetSquareCredentialCacheForTests() {
-  credentialValidationCache = undefined;
 }
 
 function getSquareApiBase(environment: string) {
@@ -281,13 +128,27 @@ async function retrieveWebhookSubscription(subscriptionId: string) {
   return payload.subscription;
 }
 
-export async function ensureSquareWebhookSubscription() {
+export async function ensureSquareWebhookSubscription(): Promise<{
+  subscriptionId: string;
+  signatureKey: string;
+  notificationUrl: string;
+  expiresAt: number;
+}> {
   const config = getRuntimeSquareConfig();
   if (!validateSquareConfig()) {
     throw new Error("Square application, location, or access-token configuration is incomplete.");
   }
 
   const notificationUrl = getSquareWebhookNotificationUrl();
+
+  if (config.webhookSignatureKey.trim()) {
+    return {
+      subscriptionId: "configured-via-env",
+      signatureKey: config.webhookSignatureKey.trim(),
+      notificationUrl,
+      expiresAt: Date.now() + WEBHOOK_CACHE_TTL_MS,
+    };
+  }
 
   if (
     managedWebhookCache &&
@@ -445,6 +306,16 @@ export async function verifyManagedSquareWebhookSignature(
   body: string,
   signatureHeader: string | null
 ) {
+  const config = getRuntimeSquareConfig();
+  if (config.webhookSignatureKey.trim()) {
+    return verifySignatureWithKey(
+      body,
+      signatureHeader,
+      config.webhookSignatureKey.trim(),
+      getSquareWebhookNotificationUrl()
+    );
+  }
+
   const managed = await ensureSquareWebhookSubscription();
   return verifySignatureWithKey(
     body,

@@ -5,6 +5,8 @@ import {
   REQUEST_ID_HEADER,
   generateRequestId,
 } from "@/lib/observability/tracing";
+import { hasSupabaseAuthConfig } from "@/lib/supabase/config";
+import { refreshSupabaseSession } from "@/lib/supabase/middleware";
 
 const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
 
@@ -55,7 +57,7 @@ function getAdminSessionFromCookie(value: string | undefined): {
   }
 }
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const start = Date.now();
   const requestId =
     request.headers.get(REQUEST_ID_HEADER) ??
@@ -72,13 +74,24 @@ export function middleware(request: NextRequest) {
   const isCuPath = pathname === "/cu";
   const isCuApiPath = pathname.startsWith("/api/cu");
   const isContentLoaderPath = pathname.startsWith("/content-loader") || pathname.startsWith("/api/content-loader");
+  const isMemberApiPath = pathname.startsWith("/api/member");
   const isAdminLoginPath = pathname === "/admin/login";
   const isAdminAuthApiPath = pathname.startsWith("/api/admin/auth/");
+  const isProtectedMemberPath = [
+    "/dashboard",
+    "/profile",
+    "/settings",
+    "/course-progress",
+    "/my-courses",
+    "/my-certificates",
+    "/continue-learning",
+  ].some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 
   const requiresAdminSession =
     (isAdminPath && !isAdminLoginPath && !isAdminAuthApiPath) ||
     isCuPath ||
     isCuApiPath;
+  const requiresMemberSession = isProtectedMemberPath || isMemberApiPath;
 
   let response =
     requiresAdminSession
@@ -103,10 +116,31 @@ export function middleware(request: NextRequest) {
           },
         });
 
+  if (!requiresAdminSession && requiresMemberSession && hasSupabaseAuthConfig()) {
+    const refreshed = await refreshSupabaseSession(request);
+    response = refreshed.response;
+
+    if (!refreshed.userId) {
+      if (isMemberApiPath) {
+        response = NextResponse.json({ error: "Authentication required." }, { status: 401 });
+      } else {
+        const loginUrl = new URL("/login", request.url);
+        loginUrl.searchParams.set("next", pathname);
+        response = NextResponse.redirect(loginUrl);
+      }
+    }
+  }
+
   const durationMs = Date.now() - start;
 
   response.headers.set(REQUEST_ID_HEADER, requestId);
   response.headers.set(CORRELATION_ID_HEADER, requestId);
+  response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
+  response.headers.set("X-Content-Type-Options", "nosniff");
+  response.headers.set(
+    "Permissions-Policy",
+    "camera=(), microphone=(), geolocation=(), payment=(self)",
+  );
 
   if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath || isContentLoaderPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
@@ -132,7 +166,7 @@ export function middleware(request: NextRequest) {
 
     response.headers.set(
       "Content-Security-Policy",
-      `default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'${supabaseOrigin}; frame-ancestors 'none'; base-uri 'self'; form-action 'self'`,
+      `default-src 'self'; img-src 'self' data: blob:; media-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'${supabaseOrigin}; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; form-action 'self'`,
     );
   }
 
@@ -148,5 +182,19 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/api/:path*", "/admin/:path*", "/executive/:path*", "/cu", "/content-loader/:path*", "/content-loader"],
+  matcher: [
+    "/api/:path*",
+    "/admin/:path*",
+    "/executive/:path*",
+    "/cu",
+    "/content-loader/:path*",
+    "/content-loader",
+    "/dashboard/:path*",
+    "/profile/:path*",
+    "/settings/:path*",
+    "/course-progress/:path*",
+    "/my-courses/:path*",
+    "/my-certificates/:path*",
+    "/continue-learning/:path*",
+  ],
 };

@@ -5,8 +5,7 @@
     "outDir": ".test-dist",
     "module": "Node16",
     "moduleResolution": "node16",
-    "incremental": false,
-    "types": ["node"]
+    "incremental": false
   },
   "include": [
     "src/lib/ai/guardrails.ts",
@@ -33,9 +32,6 @@
     "src/lib/payments/catalog.ts",
     "src/lib/payments/discounts.ts",
     "src/lib/payments/paymentPipeline.test.ts",
-    "src/lib/payments/squareHardening.test.ts",
-    "src/lib/supabase/server.ts",
-    "src/lib/square.ts",
     "src/lib/curriculum/academies.ts",
     "src/lib/curriculum/academies.test.ts",
     "src/lib/curriculum/localization.ts",
@@ -49,6 +45,10 @@
     "src/lib/curriculum/translation-export-route.test.ts",
     "src/lib/curriculum/access.ts",
     "src/lib/curriculum/access.test.ts",
+    "src/lib/curriculum/membership-cookie.ts",
+    "src/lib/curriculum/membership-cookie.test.ts",
+    "src/lib/auth/**/*.ts",
+    "src/lib/member/**/*.ts",
     "src/lib/learning-progress/**/*.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",

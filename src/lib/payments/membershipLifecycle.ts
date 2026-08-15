@@ -1,16 +1,5 @@
 import { queuePaymentEmailEvent } from "@/lib/payments/emailAutomation";
 
-/**
- * Item IDs that must NEVER trigger membership fulfillment.
- * These are test/verification items only.
- */
-const BLOCKED_CATALOG_ITEM_IDS = new Set(["square-payment-test-001"]);
-
-/**
- * Metadata purposes that must NEVER trigger membership fulfillment.
- */
-const BLOCKED_PURPOSES = new Set(["square-payment-test"]);
-
 type MembershipLifecycleStatus =
   | "active"
   | "cancelled"
@@ -198,26 +187,9 @@ export function processSquareLifecycleEvent(event: {
     (object.plan_id as string | undefined) ??
     (object.membership_plan_id as string | undefined);
 
-  // Check for blocked/test catalog items — these must never grant membership.
-  const catalogItemId = object.catalog_item_id as string | undefined;
-  const purpose = object.purpose as string | undefined;
-  if (
-    (catalogItemId && BLOCKED_CATALOG_ITEM_IDS.has(catalogItemId)) ||
-    (purpose && BLOCKED_PURPOSES.has(purpose))
-  ) {
-    return { processed: false, eventType };
-  }
-
   switch (eventType) {
     case "payment.completed": {
-      // Membership fulfillment requires BOTH email AND a server-set membership
-      // plan ID from order metadata. Client-supplied plan IDs are never trusted
-      // for fulfillment — the plan must come from order.metadata set server-side.
       if (!email || !membershipPlanId) {
-        return { processed: false, eventType };
-      }
-      // Double-check: if order metadata has a catalog_item_id, it must not be blocked.
-      if (catalogItemId && BLOCKED_CATALOG_ITEM_IDS.has(catalogItemId)) {
         return { processed: false, eventType };
       }
       const provisioned = provisionMemberFromPayment({
