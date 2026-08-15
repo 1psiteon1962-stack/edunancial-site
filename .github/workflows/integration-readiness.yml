@@ -13,8 +13,20 @@ on:
 permissions:
   contents: read
 
+# The retired Netlify context `netlify/edunancial-site/deploy-preview` is
+# intentionally NOT part of this repository-controlled readiness gate.
+# The authoritative Netlify project is `edunancial`; GitHub branch protection
+# requires the `Build` check produced below. This workflow does not enumerate
+# or fail on unrelated external status contexts, so the retired context cannot
+# block the repository-controlled Build gate.
+#
+# Do not add logic here that requires every external commit status to succeed.
+# Legitimate application validation remains enforced by the steps below and by
+# the separate Production Validation workflow.
+
 jobs:
-  validate:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
