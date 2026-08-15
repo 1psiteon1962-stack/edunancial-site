@@ -3,8 +3,6 @@ import { logStructuredError } from "@/lib/observability/errors";
 
 let registered = false;
 
-const REQUIRED_PUBLISHED_LESSONS = ["RED-L2-001", "RED-L2-002"] as const;
-
 function supportsProcessEvents(): boolean {
   return (
     typeof process !== "undefined" &&
@@ -13,32 +11,7 @@ function supportsProcessEvents(): boolean {
   );
 }
 
-async function publishRequiredCurriculumLessons(): Promise<void> {
-  if (process.env.NEXT_RUNTIME !== "nodejs") return;
-
-  try {
-    const { upsertPublishedLessonFromRegistry } = await import(
-      "@/lib/curriculum/authoritative-published"
-    );
-
-    // Keep writes sequential: each upsert reads the state produced by the
-    // previous write, preventing one required lesson from overwriting another.
-    for (const lessonId of REQUIRED_PUBLISHED_LESSONS) {
-      const published = await upsertPublishedLessonFromRegistry(lessonId);
-      if (!published) {
-        logger.error("Required curriculum lesson could not be published", {
-          lessonId,
-        });
-      }
-    }
-  } catch (error) {
-    logStructuredError(error, {
-      source: "instrumentation.publishRequiredCurriculumLessons",
-    });
-  }
-}
-
-export async function register() {
+export function register() {
   if (registered || !supportsProcessEvents()) {
     return;
   }
@@ -61,6 +34,4 @@ export async function register() {
       source: "process.unhandledRejection",
     });
   });
-
-  await publishRequiredCurriculumLessons();
 }
