@@ -4,6 +4,8 @@ import frMessages from "../../locales/fr.json";
 import frCaMessages from "../../locales/fr-CA.json";
 import frFrMessages from "../../locales/fr-FR.json";
 import ptMessages from "../../locales/pt.json";
+import ptBrMessages from "../../locales/pt-BR.json";
+import ptPtMessages from "../../locales/pt-PT.json";
 import deMessages from "../../locales/de.json";
 import itMessages from "../../locales/it.json";
 import nlMessages from "../../locales/nl.json";
@@ -61,6 +63,8 @@ const messageCatalogs: Record<string, MessageCatalog> = {
   "fr-CA": frCaMessages,
   "fr-FR": frFrMessages,
   pt: ptMessages,
+  "pt-BR": { ...ptMessages, ...ptBrMessages },
+  "pt-PT": { ...ptMessages, ...ptPtMessages },
   de: deMessages,
   it: itMessages,
   nl: nlMessages,
