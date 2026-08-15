@@ -1,0 +1,15 @@
+{
+  "batch": "RED-L1-005-006_RED-L2-002_es-ES",
+  "locale": "es-ES",
+  "lessons_included": {
+    "RED-L1-005": "complete",
+    "RED-L1-006": "partial - missing main content body, practical example, quiz questions",
+    "RED-L2-002": "partial - missing objectives, practical example, quiz, answer key, key points"
+  },
+  "lessons_not_included": {
+    "RED-L2-001": "no lesson-page content received yet - only the one-line index/catalog blurb (\"Toda propiedad cae en uno de dos mundos...\"). Need screenshots of the actual RED-L2-001 lesson page.",
+    "RED-L1-007": "not photographed yet",
+    "RED-L1-008": "not photographed yet"
+  },
+  "notes": "Same Peninsular Spanish conventions as the previous batch: bien raíz->inmueble, apartamento->piso, colateral->garantía, dueño->propietario, tasa de interés->tipo de interés, pago inicial->entrada, casa->vivienda where natural. Dollar amounts kept as $ since the track teaches the US mortgage system; numbers reformatted to Spain's period-as-thousands convention. 'Owner Will Carry' kept untranslated as a proper term, matching the English-source convention already used elsewhere in the course."
+}

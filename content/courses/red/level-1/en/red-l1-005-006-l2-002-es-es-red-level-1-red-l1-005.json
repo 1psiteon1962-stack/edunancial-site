@@ -1,0 +1,64 @@
+{
+  "lessonId": "RED-L1-005",
+  "status": "complete",
+  "translations": {
+    "es-ES": {
+      "title": "Capital frente a interés: adónde va realmente tu cuota",
+      "subtitle": "Aprende cómo se divide una cuota hipotecaria entre el capital (principal) y el interés, y por qué esa proporción cambia con el tiempo.",
+      "learningObjectives": [
+        "Distinguir entre capital (principal) e interés en una cuota hipotecaria.",
+        "Explicar por qué la proporción entre ambos cambia con el tiempo.",
+        "Entender el concepto de amortización a un nivel básico."
+      ],
+      "mainContent": [
+        {
+          "heading": null,
+          "body": "Cuando pagas tu hipoteca cada mes, esa cuota no va toda a reducir la deuda. Se divide en dos partes: Capital (principal): la parte que realmente reduce lo que debes. Interés: el coste de haber pedido el dinero prestado — lo que le pagas al banco por el privilegio de usar su dinero."
+        },
+        {
+          "heading": null,
+          "body": "Al principio del préstamo, la mayor parte de tu cuota mensual va destinada al interés, y solo una pequeña parte reduce el capital. Con el tiempo, esa proporción se invierte: pagas menos interés y más capital cada mes, aunque la cuota mensual total se mantenga igual (en una hipoteca a tipo fijo). Este proceso gradual se llama amortización."
+        },
+        {
+          "heading": null,
+          "body": "HECHO VERIFICADO: En un préstamo hipotecario típico a tipo fijo a 30 años, los primeros años del préstamo destinan una proporción mucho mayor al interés que al capital."
+        },
+        {
+          "heading": null,
+          "body": "¿Por qué funciona así? El interés se calcula sobre el saldo pendiente de la deuda. Cuando debes más, el interés mensual es más alto. A medida que el saldo baja, el interés también baja, dejando más margen en tu cuota fija para reducir el capital."
+        }
+      ],
+      "practicalExample": "Pregunta guía: Si tu cuota mensual es siempre el mismo importe, ¿por qué crees que en el año 1 casi todo va a interés, pero en el año 25 casi todo va a capital? Piénsalo como una balanza: el interés se calcula sobre lo que aún debes. Al principio debes casi todo el préstamo, así que el interés \"pesa\" más en esa cuota fija. Con cada pago, el saldo baja un poco, el interés siguiente es algo menor, y el capital ocupa más espacio en la balanza. EJEMPLO ILUSTRATIVO: Miguel tiene una hipoteca de 200.000 $ a 30 años. En su primera cuota mensual, quizá 150 $ van al capital y el resto al interés. Veinte años después, con un saldo mucho menor, esa proporción se invierte — la mayor parte de la cuota ahora reduce el capital directamente.",
+      "practiceQuiz": [
+        {
+          "question": "¿Qué representa la parte de \"capital\" en una cuota hipotecaria?",
+          "options": {"a": "El coste de pedir el dinero prestado", "b": "La parte que reduce lo que realmente debes", "c": "Un cargo adicional del banco", "d": "El seguro de la propiedad"}
+        },
+        {
+          "question": "¿Qué representa el \"interés\"?",
+          "options": {"a": "La reducción de la deuda", "b": "El coste de haber pedido el dinero prestado", "c": "El impuesto sobre la propiedad", "d": "La entrada"}
+        },
+        {
+          "question": "¿Cómo cambia la proporción capital/interés con el tiempo en una hipoteca a tipo fijo?",
+          "options": {"a": "Se mantiene exactamente igual todo el tiempo", "b": "Al principio hay más interés; con el tiempo hay más capital", "c": "Al principio hay más capital; con el tiempo hay más interés", "d": "No hay ninguna relación entre ambos"}
+        },
+        {
+          "question": "¿Sobre qué se calcula el interés cada mes?",
+          "options": {"a": "El precio original de la vivienda", "b": "El saldo pendiente de la deuda", "c": "El valor actual de mercado de la vivienda", "d": "La entrada"}
+        }
+      ],
+      "answerKey": [
+        "b) La parte que reduce lo que realmente debes",
+        "b) El coste de haber pedido el dinero prestado",
+        "b) Al principio hay más interés; con el tiempo hay más capital",
+        "b) El saldo pendiente de la deuda"
+      ],
+      "keyPoints": [
+        "Cada cuota hipotecaria se divide entre capital (reduce la deuda) e interés (coste del préstamo).",
+        "Al principio del préstamo, la mayor parte de la cuota va destinada al interés.",
+        "Con el tiempo, la proporción se invierte y más cuota reduce el capital.",
+        "Este proceso gradual se llama amortización, y ocurre porque el interés se calcula sobre el saldo pendiente."
+      ]
+    }
+  }
+}
