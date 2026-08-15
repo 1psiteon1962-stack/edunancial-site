@@ -1,0 +1,16 @@
+{
+  "selector.label": "Idioma",
+  "selector.aria": "Selecionar idioma",
+  "selector.defaultPrompt": "Gostaria de definir este como seu idioma padrão?",
+  "selector.setDefault.yes": "Sim, definir como padrão",
+  "selector.setDefault.no": "Não, apenas para esta sessão",
+  "banner.title": "Detectamos sua localização.",
+  "banner.message": "Você pode alterar essas configurações a qualquer momento.",
+  "settings.international": "Preferências internacionais",
+  "settings.timezone": "Fuso horário",
+  "settings.numberFormat": "Formato numérico",
+  "nav.login": "Entrar",
+  "nav.becomeMember": "Tornar-se membro",
+  "home.story.link.readOurStory": "Leia nossa história",
+  "home.cta.login": "Entrar"
+}
