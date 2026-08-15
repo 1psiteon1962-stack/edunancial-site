@@ -206,10 +206,14 @@ export async function ensureSquareWebhookSubscription(): Promise<{
   if (!subscription?.id) {
     throw new Error("Square webhook subscription could not be created or resolved.");
   }
-  const subscriptionId = subscription.id;
 
   if (!subscription.signature_key) {
-    subscription = await retrieveWebhookSubscription(subscriptionId);
+    subscription = await retrieveWebhookSubscription(subscription.id);
+  }
+
+  const subscriptionId = subscription.id;
+  if (!subscriptionId) {
+    throw new Error("Square webhook subscription id is missing after retrieval.");
   }
 
   const signatureKey =
