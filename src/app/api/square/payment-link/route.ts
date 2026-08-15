@@ -1,39 +1,16 @@
 /**
  * Unified Square Payment Link API
- *
- * This is the single, catalog-driven checkout endpoint.  It replaces
- * product-specific checkout routes: any purchasable item — membership,
- * course, book, event, certification, donation — goes through this one
- * handler.
- *
- * Request body:
- *   itemId      string   Required — catalog item ID (or legacy membership plan ID)
- *   discountCode  string   Optional — promotional/discount code
- *   customerEmail string   Optional — pre-fills the Square checkout email field
- *
- * Response (success):
- *   { success: true, checkoutUrl: "https://squareup.com/…", itemId, planId?, requestId }
  */
 
 import { NextResponse } from "next/server";
 
 import { logStructuredError } from "@/lib/observability/errors";
 import { recordRequestMetric } from "@/lib/observability/metrics";
-import {
-  attachRequestHeaders,
-  getRequestContext,
-  getRequestId,
-} from "@/lib/observability/tracing";
-import {
-  isSquareVerifiedCheckoutEnabled,
-  squareConfig,
-} from "@/lib/square";
+import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
+import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squareConfig } from "@/lib/square";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
-import {
-  applyDiscountCode,
-  recordDiscountRedemption,
-} from "@/lib/payments/discounts";
+import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
 
 interface PaymentLinkRequestBody {
   itemId?: string;
@@ -47,14 +24,7 @@ interface SquarePaymentLinkResponse {
 }
 
 function isAllowedSquareCheckoutHost(hostname: string): boolean {
-  return (
-    hostname === "squareup.com" ||
-    hostname.endsWith(".squareup.com") ||
-    hostname === "square.link" ||
-    hostname.endsWith(".square.link") ||
-    hostname === "squareupsandbox.com" ||
-    hostname.endsWith(".squareupsandbox.com")
-  );
+  return hostname === "squareup.com" || hostname.endsWith(".squareup.com") || hostname === "square.link" || hostname.endsWith(".square.link") || hostname === "squareupsandbox.com" || hostname.endsWith(".squareupsandbox.com");
 }
 
 export async function POST(request: Request) {
@@ -63,160 +33,50 @@ export async function POST(request: Request) {
   const route = "/api/square/payment-link";
 
   try {
-    const ipAddress =
-      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
-      request.headers.get("x-real-ip") ||
-      "unknown";
-
-    const rateLimit = enforcePaymentRateLimit({
-      scope: "square-payment-link",
-      key: ipAddress,
-      maxRequests: 20,
-      windowMs: 60_000,
-    });
+    const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
+    const rateLimit = enforcePaymentRateLimit({ scope: "square-payment-link", key: ipAddress, maxRequests: 20, windowMs: 60_000 });
 
     if (!rateLimit.allowed) {
-      const response = NextResponse.json(
-        {
-          success: false,
-          error: "Too many checkout requests. Please wait and retry.",
-          requestId,
-        },
-        { status: 429 }
-      );
-      response.headers.set(
-        "Retry-After",
-        Math.ceil((rateLimit.resetAt - Date.now()) / 1000).toString()
-      );
+      const response = NextResponse.json({ success: false, error: "Too many checkout requests. Please wait and retry.", requestId }, { status: 429 });
+      response.headers.set("Retry-After", Math.ceil((rateLimit.resetAt - Date.now()) / 1000).toString());
       recordRequestMetric({ method: request.method, route, status: 429, durationMs: Date.now() - start });
       return attachRequestHeaders(response, requestId);
     }
 
     if (!isSquareVerifiedCheckoutEnabled()) {
-      const response = NextResponse.json(
-        {
-          success: false,
-          error:
-            "Square checkout is disabled until verified webhook processing and fulfillment are configured.",
-          requestId,
-        },
-        { status: 503 }
-      );
+      const response = NextResponse.json({ success: false, error: "Square production credentials are not fully configured.", requestId }, { status: 503 });
       recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
       return attachRequestHeaders(response, requestId);
     }
 
+    // Fail closed: no checkout link is created until Square confirms that the
+    // verified webhook subscription exists and its signing key is available.
+    await ensureSquareWebhookSubscription();
+
     const body = (await request.json()) as PaymentLinkRequestBody;
     const { itemId = "", discountCode, customerEmail } = body;
-
-    if (!itemId) {
-      const response = NextResponse.json(
-        { success: false, error: "itemId is required.", requestId },
-        { status: 400 }
-      );
-      recordRequestMetric({ method: request.method, route, status: 400, durationMs: Date.now() - start });
-      return attachRequestHeaders(response, requestId);
-    }
+    if (!itemId) return attachRequestHeaders(NextResponse.json({ success: false, error: "itemId is required.", requestId }, { status: 400 }), requestId);
 
     const item = resolveCatalogItem(itemId);
-
-    if (!item) {
-      const response = NextResponse.json(
-        {
-          success: false,
-          error: "The requested item is not available for purchase.",
-          requestId,
-        },
-        { status: 400 }
-      );
-      recordRequestMetric({ method: request.method, route, status: 400, durationMs: Date.now() - start });
-      return attachRequestHeaders(response, requestId);
-    }
-
-    if (!item.active) {
-      const response = NextResponse.json(
-        {
-          success: false,
-          error: "This item is not currently available for purchase.",
-          requestId,
-        },
-        { status: 403 }
-      );
-      recordRequestMetric({ method: request.method, route, status: 403, durationMs: Date.now() - start });
-      return attachRequestHeaders(response, requestId);
-    }
+    if (!item) return attachRequestHeaders(NextResponse.json({ success: false, error: "The requested item is not available for purchase.", requestId }, { status: 400 }), requestId);
+    if (!item.active) return attachRequestHeaders(NextResponse.json({ success: false, error: "This item is not currently available for purchase.", requestId }, { status: 403 }), requestId);
 
     let finalPrice = item.price;
     let discountApplied = false;
     let discountDescription: string | undefined;
-
-    if (discountCode && discountCode.trim()) {
-      const discountResult = applyDiscountCode(
-        discountCode,
-        item.id,
-        item.price,
-        item.currency
-      );
-
-      if (!discountResult.valid) {
-        const response = NextResponse.json(
-          {
-            success: false,
-            error: discountResult.errorMessage ?? "Invalid discount code.",
-            requestId,
-          },
-          { status: 400 }
-        );
-        recordRequestMetric({ method: request.method, route, status: 400, durationMs: Date.now() - start });
-        return attachRequestHeaders(response, requestId);
-      }
-
-      finalPrice = discountResult.finalPrice;
+    if (discountCode?.trim()) {
+      const discountResult = applyDiscountCode(discountCode, item.id, item.price, item.currency);
+      if (!discountResult.valid) return attachRequestHeaders(NextResponse.json({ success: false, error: discountResult.errorMessage ?? "Invalid discount code.", requestId }, { status: 400 }), requestId);
+      finalPrice = Math.max(0, discountResult.finalPrice);
       discountApplied = true;
       discountDescription = discountResult.code?.description;
     }
 
-    if (finalPrice < 0) {
-      finalPrice = 0;
-    }
-
-    const squareApiBase =
-      squareConfig.environment === "sandbox"
-        ? "https://connect.squareupsandbox.com"
-        : "https://connect.squareup.com";
-
+    const squareApiBase = squareConfig.environment === "sandbox" ? "https://connect.squareupsandbox.com" : "https://connect.squareup.com";
     const appOrigin = new URL(request.url).origin;
-
-    const lineItems = [
-      {
-        name: item.name,
-        quantity: "1",
-        base_price_money: {
-          amount: Math.round(item.price * 100),
-          currency: item.currency.toUpperCase(),
-        },
-      },
-    ];
-
-    const orderDiscounts = discountApplied
-      ? [
-          {
-            name: discountDescription ?? "Promotional Discount",
-            type: "FIXED_AMOUNT",
-            amount_money: {
-              amount: Math.round((item.price - finalPrice) * 100),
-              currency: item.currency.toUpperCase(),
-            },
-          },
-        ]
-      : undefined;
-
-    const successParams = new URLSearchParams({
-      item: item.id,
-      type: item.type,
-      ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}),
-      ...(item.contentId ? { content: item.contentId } : {}),
-    });
+    const lineItems = [{ name: item.name, quantity: "1", base_price_money: { amount: Math.round(item.price * 100), currency: item.currency.toUpperCase() } }];
+    const orderDiscounts = discountApplied ? [{ name: discountDescription ?? "Promotional Discount", type: "FIXED_AMOUNT", amount_money: { amount: Math.round((item.price - finalPrice) * 100), currency: item.currency.toUpperCase() } }] : undefined;
+    const successParams = new URLSearchParams({ item: item.id, type: item.type, ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}), ...(item.contentId ? { content: item.contentId } : {}) });
 
     const squarePayload: Record<string, unknown> = {
       idempotency_key: `${requestId}-${item.id}`,
@@ -227,92 +87,42 @@ export async function POST(request: Request) {
         metadata: {
           catalog_item_id: item.id,
           item_type: item.type,
-          ...(item.membershipPlanId
-            ? { membership_plan_id: item.membershipPlanId }
-            : {}),
+          ...(item.membershipPlanId ? { membership_plan_id: item.membershipPlanId } : {}),
           ...(item.contentId ? { content_id: item.contentId } : {}),
           ...(discountCode ? { discount_code: discountCode } : {}),
           ...(item.metadata ?? {}),
         },
       },
-      checkout_options: {
-        redirect_url: `${appOrigin}/payment/success?${successParams.toString()}`,
-      },
-      pre_populated_data: customerEmail
-        ? { buyer_email: customerEmail }
-        : undefined,
+      checkout_options: { redirect_url: `${appOrigin}/payment/success?${successParams.toString()}` },
+      pre_populated_data: customerEmail ? { buyer_email: customerEmail } : undefined,
     };
 
-    const squareResponse = await fetch(
-      `${squareApiBase}/v2/online-checkout/payment-links`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: "Bearer " + squareConfig.accessToken,
-          "Square-Version": "2024-06-04",
-        },
-        body: JSON.stringify(squarePayload),
-      }
-    );
-
-    if (!squareResponse.ok) {
-      const errBody = (await squareResponse
-        .json()
-        .catch(() => ({}))) as SquarePaymentLinkResponse;
-      const detail =
-        errBody.errors?.[0]?.detail ?? squareResponse.statusText;
-      throw new Error(`Square API error ${squareResponse.status}: ${detail}`);
-    }
-
-    const squareData =
-      (await squareResponse.json()) as SquarePaymentLinkResponse;
-    const checkoutUrl = squareData.payment_link?.url;
-
-    if (!checkoutUrl) {
-      throw new Error("Square did not return a checkout URL.");
-    }
-
-    const parsedUrl = new URL(checkoutUrl);
-    if (
-      parsedUrl.protocol !== "https:" ||
-      !isAllowedSquareCheckoutHost(parsedUrl.hostname)
-    ) {
-      throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
-    }
-
-    if (discountApplied && discountCode) {
-      recordDiscountRedemption(discountCode);
-    }
-
-    const response = NextResponse.json({
-      success: true,
-      checkoutUrl,
-      itemId: item.id,
-      itemType: item.type,
-      planId: item.membershipPlanId,
-      contentId: item.contentId,
-      originalPrice: item.price,
-      finalPrice,
-      discountApplied,
-      squarePaymentLinkId: squareData.payment_link?.id,
-      squareOrderId: squareData.payment_link?.order_id,
-      requestId,
+    const squareResponse = await fetch(`${squareApiBase}/v2/online-checkout/payment-links`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: "Bearer " + squareConfig.accessToken, "Square-Version": "2026-07-15" },
+      body: JSON.stringify(squarePayload),
     });
 
+    if (!squareResponse.ok) {
+      const errBody = (await squareResponse.json().catch(() => ({}))) as SquarePaymentLinkResponse;
+      throw new Error(`Square API error ${squareResponse.status}: ${errBody.errors?.[0]?.detail ?? squareResponse.statusText}`);
+    }
+
+    const squareData = (await squareResponse.json()) as SquarePaymentLinkResponse;
+    const checkoutUrl = squareData.payment_link?.url;
+    if (!checkoutUrl) throw new Error("Square did not return a checkout URL.");
+    const parsedUrl = new URL(checkoutUrl);
+    if (parsedUrl.protocol !== "https:" || !isAllowedSquareCheckoutHost(parsedUrl.hostname)) throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
+
+    if (discountApplied && discountCode) recordDiscountRedemption(discountCode);
+
+    const response = NextResponse.json({ success: true, checkoutUrl, itemId: item.id, itemType: item.type, planId: item.membershipPlanId, contentId: item.contentId, originalPrice: item.price, finalPrice, discountApplied, squarePaymentLinkId: squareData.payment_link?.id, squareOrderId: squareData.payment_link?.order_id, requestId });
     recordRequestMetric({ method: request.method, route, status: 200, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   } catch (error) {
-    logStructuredError(error, {
-      ...getRequestContext(request, requestId),
-      route,
-    });
-
-    const response = NextResponse.json(
-      { success: false, error: "Checkout request failed", requestId },
-      { status: 500 }
-    );
-    recordRequestMetric({ method: request.method, route, status: 500, durationMs: Date.now() - start });
+    logStructuredError(error, { ...getRequestContext(request, requestId), route });
+    const response = NextResponse.json({ success: false, error: "Square checkout could not be activated. Verified webhook setup must succeed before payment is accepted.", requestId }, { status: 503 });
+    recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   }
 }
