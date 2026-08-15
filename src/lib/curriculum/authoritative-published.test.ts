@@ -50,19 +50,101 @@ function findTrackLesson(
     ?.lessons.find((lesson) => lesson.id === lessonId);
 }
 
-test("does not auto-load legacy registry lessons unless explicitly enabled", async () => {
-  // All academy tracks are returned (so the curriculum page can render Coming Soon cards),
-  // but none have lessons until content is published or the legacy fallback is enabled.
-  const tracksWithoutFallback = await getPublishedTracks("en");
-  assert.ok(tracksWithoutFallback.length > 0, "all academy tracks should be returned");
+test("empty store exposes exactly RED-L2-001 and RED-L2-002 without the legacy flag", async () => {
+  // Regression guard (1): committed RED L2 lessons must remain visible with an empty
+  // published-state store even when EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK
+  // is absent — they are already-launched production lessons.
+  // beforeEach deletes the store file and unsets the flag.
+  const tracks = await getPublishedTracks("en");
+  assert.ok(tracks.length > 0, "academy tracks should be returned");
+
+  const redTrack = tracks.find((t) => t.code === "RED");
+  assert.ok(redTrack, "RED track should be present");
+  const redL2 = redTrack?.levels.find((l) => l.level === 2);
+  assert.ok(redL2, "RED Level 2 should be present");
   assert.ok(
-    tracksWithoutFallback.every((t) => t.lessonCount === 0),
-    "no lessons should be loaded without a published state or legacy flag",
+    redL2 && redL2.lessonCount > 0,
+    "RED Level 2 must have lessons even when the published-state store is empty (regression guard for RED-L2-001/RED-L2-002)",
+  );
+  assert.ok(
+    redL2?.lessons.some((lesson) => lesson.id === "RED-L2-001"),
+    "RED-L2-001 must be discoverable with an empty published-state store and no legacy flag",
+  );
+  assert.ok(
+    redL2?.lessons.some((lesson) => lesson.id === "RED-L2-002"),
+    "RED-L2-002 must be discoverable with an empty published-state store and no legacy flag",
+  );
+});
+
+test("unrelated registry-only lessons are hidden without the legacy flag", async () => {
+  // Regression guard (2): the surgical RED L2 fallback must not bleed into
+  // other tracks.  GOLD-L1-001 is an active registry lesson but must remain
+  // hidden unless EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK=true.
+  // beforeEach has already cleared the store and unset the flag.
+  const lesson = await getPublishedLesson("GOLD-L1-001", "en");
+  assert.equal(
+    lesson,
+    null,
+    "GOLD-L1-001 must not be exposed when store is empty and legacy flag is absent",
+  );
+});
+
+test("enabling legacy flag hydrates all active registry lessons", async () => {
+  // Regression guard (3): setting EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK=true
+  // must still hydrate all active registry lessons, including non-RED tracks.
+  process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true";
+  invalidateRegistryCache();
+
+  const lesson = await getPublishedLesson("GOLD-L1-001", "en");
+  assert.ok(
+    lesson,
+    "GOLD-L1-001 must be discoverable when the legacy registry fallback flag is enabled",
+  );
+});
+
+test("explicit store record overrides RED Level 2 fallback entry", async () => {
+  // Regression guard (4): when the published-state store contains an explicit record
+  // for a RED L2 lesson, that store record must win over the registry fallback.
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "RED-L2-001": {
+            id: "RED-L2-001",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 2,
+            lessonNumber: 1,
+            title: "Store-override title",
+            summary: "Store-override summary",
+            author: "Test Author",
+            date: "2026-01-01",
+            version: "2.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L2/RED-L2-001.md",
+            body: "Store-override body",
+            frontMatter: {},
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
   );
 
-  process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true";
-  const tracksWithFallback = await getPublishedTracks("en");
-  assert.ok(tracksWithFallback.length > 0);
+  const lesson = await getPublishedLesson("RED-L2-001", "en");
+  assert.ok(lesson, "RED-L2-001 should be discoverable with a store record present");
+  // Non-content metadata fields like version are controlled by the store record.
+  assert.equal(lesson?.version, "2.0", "store record metadata (version) should take precedence over registry fallback");
 });
 
 test("published lesson content follows active locale with fr-CA -> fr -> en fallback", async () => {
@@ -515,6 +597,15 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
 });
 
 test("exportPublishedLessonTranslations returns deterministic English base content with optional filtering", async () => {
+  // Isolate the registry so that committed GOLD/RED lessons are not injected into the
+  // test state by getEffectiveState().  Without isolation the test's exact-equality
+  // assertions would fail because all 50+ committed registry lessons would be merged in.
+  const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+  const originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
+  writeFileSync(REGISTRY_PATH, JSON.stringify({ tracks: {} }, null, 2), "utf8");
+  invalidateRegistryCache();
+
+  try {
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(
     STATE_PATH,
@@ -655,4 +746,12 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
     { id: "RED-L2-001", title: null, summary: null, body: null },
     { id: "BLUE-L1-001", title: null, summary: null, body: null },
   ]);
+  } finally {
+    if (originalRegistry === null) {
+      rmSync(REGISTRY_PATH, { force: true });
+    } else {
+      writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
+    }
+    invalidateRegistryCache();
+  }
 });
