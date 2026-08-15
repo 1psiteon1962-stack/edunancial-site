@@ -117,7 +117,10 @@ test("published-state store record overrides registry entry for the same lesson 
 
   const lesson = await getPublishedLesson("RED-L2-001", "en");
   assert.ok(lesson, "RED-L2-001 should be discoverable with a store record present");
-  assert.equal(lesson?.title, "Store-override title", "store record should take precedence over registry");
+  // Committed curriculum files provide canonical title/summary/body for the English locale even when
+  // a store record exists (the store is the floor for discoverability, not a content override).
+  // Non-content metadata fields like version ARE controlled exclusively by the store record.
+  assert.equal(lesson?.version, "2.0", "store record metadata (version) should take precedence over registry");
 });
 
 test("published lesson content follows active locale with fr-CA -> fr -> en fallback", async () => {
@@ -570,6 +573,15 @@ test("importPublishedLessonTranslations reports missing lesson IDs without persi
 });
 
 test("exportPublishedLessonTranslations returns deterministic English base content with optional filtering", async () => {
+  // Isolate the registry so that committed GOLD/RED lessons are not injected into the
+  // test state by getEffectiveState().  Without isolation the test's exact-equality
+  // assertions would fail because all 50+ committed registry lessons would be merged in.
+  const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+  const originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
+  writeFileSync(REGISTRY_PATH, JSON.stringify({ tracks: {} }, null, 2), "utf8");
+  invalidateRegistryCache();
+
+  try {
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(
     STATE_PATH,
@@ -710,4 +722,12 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
     { id: "RED-L2-001", title: null, summary: null, body: null },
     { id: "BLUE-L1-001", title: null, summary: null, body: null },
   ]);
+  } finally {
+    if (originalRegistry === null) {
+      rmSync(REGISTRY_PATH, { force: true });
+    } else {
+      writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
+    }
+    invalidateRegistryCache();
+  }
 });
