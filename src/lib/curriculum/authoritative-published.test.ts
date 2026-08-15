@@ -50,19 +50,74 @@ function findTrackLesson(
     ?.lessons.find((lesson) => lesson.id === lessonId);
 }
 
-test("does not auto-load legacy registry lessons unless explicitly enabled", async () => {
-  // All academy tracks are returned (so the curriculum page can render Coming Soon cards),
-  // but none have lessons until content is published or the legacy fallback is enabled.
-  const tracksWithoutFallback = await getPublishedTracks("en");
-  assert.ok(tracksWithoutFallback.length > 0, "all academy tracks should be returned");
+test("always loads committed active registry lessons even without a published-state store", async () => {
+  // Regression guard: committed active lessons in the registry must remain visible
+  // regardless of whether the published-state store is populated.  An empty or missing
+  // store must NOT silently erase curriculum that is version-controlled and registered.
+  const tracks = await getPublishedTracks("en");
+  assert.ok(tracks.length > 0, "all academy tracks should be returned");
+
+  // The RED track must expose its committed L2 lessons (RED-L2-001 and RED-L2-002).
+  const redTrack = tracks.find((t) => t.code === "RED");
+  assert.ok(redTrack, "RED track should be present");
+  const redL2 = redTrack?.levels.find((l) => l.level === 2);
+  assert.ok(redL2, "RED Level 2 should be present");
   assert.ok(
-    tracksWithoutFallback.every((t) => t.lessonCount === 0),
-    "no lessons should be loaded without a published state or legacy flag",
+    redL2 && redL2.lessonCount > 0,
+    "RED Level 2 must have lessons even when the published-state store is empty (regression guard for RED-L2-001/RED-L2-002)",
+  );
+  assert.ok(
+    redL2?.lessons.some((lesson) => lesson.id === "RED-L2-001"),
+    "RED-L2-001 must be discoverable with an empty published-state store",
+  );
+  assert.ok(
+    redL2?.lessons.some((lesson) => lesson.id === "RED-L2-002"),
+    "RED-L2-002 must be discoverable with an empty published-state store",
+  );
+});
+
+test("published-state store record overrides registry entry for the same lesson id", async () => {
+  // When an explicit published-state record exists for a lesson that is also in the registry,
+  // the store record must win (the registry is the floor, not the ceiling).
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(
+    STATE_PATH,
+    JSON.stringify(
+      {
+        schemaVersion: "1.0",
+        initialized: true,
+        updatedAt: new Date().toISOString(),
+        lessons: {
+          "RED-L2-001": {
+            id: "RED-L2-001",
+            track: "RED",
+            trackName: "Real Estate",
+            level: 2,
+            lessonNumber: 1,
+            title: "Store-override title",
+            summary: "Store-override summary",
+            author: "Test Author",
+            date: "2026-01-01",
+            version: "2.0",
+            status: "active",
+            importedAt: new Date().toISOString(),
+            metadata: {},
+            path: "content/curriculum/RED/L2/RED-L2-001.md",
+            body: "Store-override body",
+            frontMatter: {},
+          },
+        },
+        batchLessonIds: {},
+      },
+      null,
+      2,
+    ),
+    "utf8",
   );
 
-  process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true";
-  const tracksWithFallback = await getPublishedTracks("en");
-  assert.ok(tracksWithFallback.length > 0);
+  const lesson = await getPublishedLesson("RED-L2-001", "en");
+  assert.ok(lesson, "RED-L2-001 should be discoverable with a store record present");
+  assert.equal(lesson?.title, "Store-override title", "store record should take precedence over registry");
 });
 
 test("published lesson content follows active locale with fr-CA -> fr -> en fallback", async () => {

@@ -484,18 +484,19 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
   const state = await readPublishedState();
-  const allowLegacyFallback =
-    process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK === "true";
 
-  if (allowLegacyFallback) {
-    const registry = readRegistry();
-    for (const track of Object.values(registry.tracks)) {
-      for (const level of Object.values(track.levels)) {
-        for (const asset of Object.values(level.assets)) {
-          if (state.lessons[asset.id]) continue;
-          const record = entryFromRegistryAsset(asset);
-          if (record) state.lessons[record.id] = record;
-        }
+  // Always hydrate committed active lessons from the canonical registry so that
+  // an empty or missing published-state store cannot silently erase curriculum
+  // that is already version-controlled and registered.  Explicit records in the
+  // published-state store take precedence (the `if (state.lessons[asset.id])
+  // continue` guard below ensures we never overwrite an explicit store entry).
+  const registry = readRegistry();
+  for (const track of Object.values(registry.tracks)) {
+    for (const level of Object.values(track.levels)) {
+      for (const asset of Object.values(level.assets)) {
+        if (state.lessons[asset.id]) continue;
+        const record = entryFromRegistryAsset(asset);
+        if (record) state.lessons[record.id] = record;
       }
     }
   }
