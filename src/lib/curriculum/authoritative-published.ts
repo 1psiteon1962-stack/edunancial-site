@@ -317,6 +317,31 @@ function normalizeBundledTranslation(raw: unknown): PublishedLessonTranslation |
   };
 }
 
+function loadBundledTranslationRecord(
+  rawRecord: unknown,
+  map: Map<string, PublishedLessonTranslation>,
+): void {
+  if (!rawRecord || typeof rawRecord !== "object" || Array.isArray(rawRecord)) return;
+  const record = rawRecord as Record<string, unknown>;
+  const lessonId = typeof record.id === "string"
+    ? record.id
+    : typeof record.lesson_id === "string"
+      ? record.lesson_id
+      : typeof record.lessonId === "string"
+        ? record.lessonId
+        : "";
+  const translations = record.translations;
+  if (!lessonId || !translations || typeof translations !== "object" || Array.isArray(translations)) {
+    return;
+  }
+
+  for (const [locale, rawTranslation] of Object.entries(translations as Record<string, unknown>)) {
+    const translation = normalizeBundledTranslation(rawTranslation);
+    if (!translation) continue;
+    addTranslationToMap(map, lessonId, locale, translation);
+  }
+}
+
 function loadBundledTranslationFiles(
   dir: string,
   map: Map<string, PublishedLessonTranslation>,
@@ -329,29 +354,28 @@ function loadBundledTranslationFiles(
       loadBundledTranslationFiles(path, map);
       continue;
     }
-    if (!entry.name.endsWith("-translations.json")) continue;
+
+    // Translation uploads have historically used several filename shapes,
+    // including batch names such as "...titles-summaries-fr-ca.json" rather
+    // than only "*-translations.json". Inspect every JSON artifact under the
+    // course tree and accept it only when its parsed shape contains lesson
+    // translation records. This keeps the loader generic across every track,
+    // level, and locale while safely ignoring unrelated JSON files.
+    if (!entry.name.endsWith(".json")) continue;
 
     try {
-      const parsed = JSON.parse(readFileSync(path, "utf8")) as {
-        id?: unknown;
-        lesson_id?: unknown;
-        translations?: Record<string, unknown>;
-      };
-      const lessonId = typeof parsed.id === "string"
-        ? parsed.id
-        : typeof parsed.lesson_id === "string"
-          ? parsed.lesson_id
-          : "";
-      if (!lessonId || !parsed.translations || typeof parsed.translations !== "object") {
-        continue;
-      }
-      for (const [locale, rawTranslation] of Object.entries(parsed.translations)) {
-        const translation = normalizeBundledTranslation(rawTranslation);
-        if (!translation) continue;
-        addTranslationToMap(map, lessonId, locale, translation);
+      const parsed = JSON.parse(readFileSync(path, "utf8")) as unknown;
+      const candidateRecords = Array.isArray(parsed)
+        ? parsed
+        : parsed && typeof parsed === "object" && Array.isArray((parsed as Record<string, unknown>).records)
+          ? (parsed as { records: unknown[] }).records
+          : [parsed];
+
+      for (const candidate of candidateRecords) {
+        loadBundledTranslationRecord(candidate, map);
       }
     } catch {
-      // Ignore malformed translation artifacts; they should not break curriculum rendering.
+      // Ignore malformed/unrelated JSON artifacts; they should not break curriculum rendering.
     }
   }
 }
@@ -717,7 +741,6 @@ export async function removePublishedLessonsForBatch(
 
   delete state.batchLessonIds[batch.id];
   state.updatedAt = new Date().toISOString();
-
   await writePublishedState(state);
 
   return {
