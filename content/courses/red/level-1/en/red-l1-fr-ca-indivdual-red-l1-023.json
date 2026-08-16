@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-023",
+  "translations": {
+    "fr-CA": {
+      "title": "Qu'est-ce qu'un taux de capitalisation? (Version d'introduction)",
+      "summary": "Découvrez ce qu'est un taux de capitalisation, comment il s'utilise pour comparer des propriétés, et ses limites à ce niveau.",
+      "body": "# Qu'est-ce qu'un taux de capitalisation? (Version d'introduction)\n\n## Objectifs d'apprentissage\n- Définir le taux de capitalisation en termes simples.\n- Expliquer comment il aide à comparer des propriétés.\n- Reconnaître ses limites à ce niveau d'introduction.\n\n## Contenu principal\n\n### Ce qu'est un taux de capitalisation\nLe taux de capitalisation (« cap rate ») est le revenu d'exploitation net annuel d'une propriété, divisé par sa valeur, exprimé en pourcentage.\n\n### Comment il aide à comparer\nUn taux de capitalisation plus élevé peut indiquer un meilleur rendement relatif, ce qui permet de comparer rapidement plusieurs propriétés entre elles.\n\n### Ses limites\nLe taux de capitalisation ignore le financement et le risque — deux propriétés au même taux peuvent avoir des profils de risque très différents.\n\n## Exemple concret\nUne propriété générant 24 000 $ de revenu net annuel, évaluée à 300 000 $, a un taux de capitalisation de 8 % (24 000 ÷ 300 000).\n\n## Quiz pratique\n1. Le taux de capitalisation se calcule à partir de : A. Le prix d'achat seulement B. Le revenu net annuel divisé par la valeur C. Le taux hypothécaire D. La mise de fonds\n2. Vrai ou faux : Le taux de capitalisation tient compte du financement.\n3. Que peut ignorer le taux de capitalisation? A. Le revenu net B. Le risque et le financement C. La valeur de la propriété D. Le pourcentage\n\n## Corrigé\n1. B\n2. Faux\n3. B\n\n## Réponses et explications\nLe taux de capitalisation compare revenu net et valeur, sans tenir compte du financement. Il ignore le risque relatif entre propriétés.\n\n## Points clés à retenir\n- Le taux de capitalisation = revenu net annuel ÷ valeur de la propriété.\n- Il permet une comparaison rapide entre propriétés.\n- Il ignore le financement et le risque, deux facteurs importants."
+    }
+  }
+}
