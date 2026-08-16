@@ -6,8 +6,10 @@ on:
       - 'curriculum/**'
       - 'content/curriculum/**'
       - 'content/courses/**'
+      - 'content/registries/**'
       - 'scripts/curriculum/**'
       - 'src/lib/admin-content/**'
+      - 'src/lib/curriculum/**'
       - 'docs/curriculum-management.md'
       - 'examples/curriculum-package/**'
       - '.github/workflows/curriculum-integrity.yml'
@@ -18,8 +20,10 @@ on:
       - 'curriculum/**'
       - 'content/curriculum/**'
       - 'content/courses/**'
+      - 'content/registries/**'
       - 'scripts/curriculum/**'
       - 'src/lib/admin-content/**'
+      - 'src/lib/curriculum/**'
       - 'docs/curriculum-management.md'
       - 'examples/curriculum-package/**'
       - '.github/workflows/curriculum-integrity.yml'
@@ -51,6 +55,17 @@ jobs:
 
       - name: Validate registered curriculum assets
         run: npm run curriculum:validate
+
+      - name: Validate global localization and generate translation manifest
+        run: npm run curriculum:localization:global
+
+      - name: Publish global translation manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-manifest-${{ github.sha }}
+          path: content/generated/translation-manifest.json
+          if-no-files-found: error
+          retention-days: 30
 
       - name: Audit registry and filesystem
         run: npm run curriculum:audit
