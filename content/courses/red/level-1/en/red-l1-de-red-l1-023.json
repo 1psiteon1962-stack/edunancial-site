@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-023",
+  "translations": {
+    "de": {
+      "title": "Was ist eine Kapitalisierungsrate? (Einführende Version)",
+      "summary": "Erfahren Sie, was eine Kapitalisierungsrate ist, wie sie hilft, Immobilien zu vergleichen, und ihre Grenzen auf diesem Niveau.",
+      "body": "# Was ist eine Kapitalisierungsrate? (Einführende Version)\n\n## Lernziele\n- Die Kapitalisierungsrate in einfachen Worten definieren.\n- Erklären, wie sie hilft, Immobilien zu vergleichen.\n- Ihre Grenzen auf diesem einführenden Niveau erkennen.\n\n## Kerninhalt\n\n### Was eine Kapitalisierungsrate ist\nDie Kapitalisierungsrate („Cap Rate\") ist der jährliche Nettobetriebsertrag einer Immobilie, geteilt durch ihren Wert, ausgedrückt als Prozentsatz.\n\n### Wie sie hilft zu vergleichen\nEine höhere Kapitalisierungsrate kann auf eine bessere relative Rendite hindeuten und erlaubt einen schnellen Vergleich mehrerer Immobilien untereinander.\n\n### Ihre Grenzen\nDie Kapitalisierungsrate ignoriert Finanzierung und Risiko — zwei Immobilien mit derselben Rate können sehr unterschiedliche Risikoprofile haben.\n\n## Praxisbeispiel\nEine Immobilie, die 24.000 € jährlichen Nettoertrag erzeugt und mit 300.000 € bewertet ist, hat eine Kapitalisierungsrate von 8 % (24.000 ÷ 300.000).\n\n## Quiz\n1. Die Kapitalisierungsrate berechnet sich aus: A. Nur dem Kaufpreis B. Dem jährlichen Nettoertrag geteilt durch den Wert C. Dem Hypothekenzinssatz D. Der Anzahlung\n2. Richtig oder falsch: Die Kapitalisierungsrate berücksichtigt die Finanzierung.\n3. Was kann die Kapitalisierungsrate ignorieren? A. Den Nettoertrag B. Risiko und Finanzierung C. Den Wert der Immobilie D. Den Prozentsatz\n\n## Lösungen\n1. B\n2. Falsch\n3. B\n\n## Antworten und Erklärungen\nDie Kapitalisierungsrate vergleicht Nettoertrag und Wert, ohne die Finanzierung zu berücksichtigen. Sie ignoriert das relative Risiko zwischen Immobilien.\n\n## Wichtige Punkte\n- Kapitalisierungsrate = jährlicher Nettoertrag ÷ Immobilienwert.\n- Sie ermöglicht einen schnellen Vergleich zwischen Immobilien.\n- Sie ignoriert Finanzierung und Risiko, zwei wichtige Faktoren."
+    }
+  }
+}
