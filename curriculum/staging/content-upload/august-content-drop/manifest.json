@@ -1,907 +1,907 @@
 {
-  "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-  "exportId": "export_batch_a7b2e095-37af-4ea7-960c-e972704687a1_1786899029596",
-  "uploadTimestamp": "2026-08-16T18:53:07.311Z",
-  "branch": "content/course-upload-20260816-185307-august-content-drop",
+  "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+  "exportId": "export_batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5_1786907161232",
+  "uploadTimestamp": "2026-08-16T19:06:03.757Z",
+  "branch": "content/course-upload-20260816-190603-august-content-drop",
   "files": [
     {
       "sourceFilename": "red-l1-001.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-001.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-001.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:a3c5ac2f88ac06e9fd5a4fc4f1694c05f06d61c66bae79eb9d3b2f466536fc82",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:6ef136b1528d3c9989d56cab17c885dfdeeecbcb79aa7f58e15dc79878a80c94",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-001",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-002.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-002.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-002.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:e910e2efbeddf8e3f6890eb48b708a7a57bb952fed013fd0cc0199c2f89fe95d",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:aff6244440c770771b1bab5f1394e190b765dc15d101fea73d408869929321ec",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-002",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-003.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-003.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-003.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:1c12405585fe353ecfe51106ada287aedb6e07b7e2c46e73b1f9e4ea2e932097",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:9af699d61db4e1ceee3a0e43cf47722f364ad53d24d0798fb55b5f43c7cb550b",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-003",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-004.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-004.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-004.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:5b56c2ff47466d79c412d214a28b59241fe7ec0f92b38a5ad87049ec69c3393a",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:186e5f4224ff8740735e7d7c91b649b72dead26fc9e6369e9c44df2872066750",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-004",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-005.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-005.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-005.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:e4b374cfbf8213fbeda95b69e3b7983ff6fb2ce2b970bcd8c447d257c2dc8851",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:95e57cc277d9b396d034a63b65ff553e39456241426a5198bac3f725396e350d",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-005",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-006.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-006.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-006.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:ec97f74d57541c22c70a3a9183169847d43b94602347649369b805070a152219",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:825db49a062aba786d7b7a35beffb853b1b233ae6434579e25605d2a2bf89392",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-006",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-007.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-007.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-007.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:5d1c4c88c2f4efe9f53668d4737c051dded190a2f129708d0af1cd0fe7bd833c",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:641eb5ce3a96c3f407a9f818611305c075e1dbe993110632f7f4e2187ffd7d77",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-007",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-008.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-008.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-008.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:14e28d71709df9a8e623599aead4649a41aa92d013db748c942df4de56b0bfcb",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:f8d70a6430c1ac8b6752865ab0525690d3e920ad96b30bb5bdda9c27d6f754b6",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-008",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-009.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-009.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-009.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:a2542445514092386b7d573b0ecb8432e24cae64dadf62750f1d3cd974e3044a",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:688eda128ad15dc55b7121fb9db47e89b2d99f3487ffe0b81bef56cbc8d6bb80",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-009",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-010.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-010.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-010.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:49e6169f27ecd779451354e7e8ef10a9f0c566a56734d671c454f7504097422f",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:4994e8921369a899948f3627c097ac09d22660ca6ebb3e7ea06dbbfc83855860",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-010",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-011.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-011.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-011.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:ec71b7006c206c2525702c890ec773d4cc22c74689913b53bb114cc03331cb85",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:03220e552d4e19dc07a66f8acbe803b8251972a605cfdcb82659c1045b35161e",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-011",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-012.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-012.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-012.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:5dd32820c4b2c81445ea73cba638cc519fd794c68063b23d6003a8c344f7c991",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:c13d8d8505ee5485f3ba997848be5f3c10a154d93bbff034c6ab80d32c9be5b2",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-012",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-013.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-013.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-013.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:f911864f86a040a33c4b3f5b511760330e237aabeac11ce023b799bcc8d8915b",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:501cd1396fda8e83288af1c057333858f3cb59597e83f410bf8e082af3020249",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-013",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-014.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-014.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-014.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:4321481911d44b86920639ecf670731f6804c92b6c664453bc261c04b0dfa870",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:39b849cbb349a2226692af758ee17b836ccbf2ba89d09ae517426d52cdd6a57a",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-014",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-015.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-015.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-015.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:60addffefd1c8b9911904cf6eff23ce9fd1ceebe7b4d0859f10dd5b79d3f55d7",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:acf5492cbd4069769a83186dff278c8d7967f6d4b1d0876582c2734c0502eae5",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-015",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-016.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-016.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-016.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:b19c343001e4c6d30b9449c282fea6028ad836e44fbad623c0d266ff81fea15d",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:62c5771dcdba1811761b5a660cfc675dbf8bcd681ffc47a40196119648aacbb4",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-016",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-017.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-017.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-017.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:1c816f968c4a834a23a2ebbc38b68dd0201f10589886b9a4837edb88e6079115",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:7caf9a88a27c9cd42f04ef83357342fbf20d898be5aff17bbc47bd081633983e",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-017",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-018.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-018.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-018.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:79d7dc3696bc4db6545f1f7ef585b4350420d1d1101dd0e1c8125e8ce2e357df",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:1f18784156ebaf6277a07bd3749dbcd274b358e7e6406919f61fd0bb2db2368c",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-018",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-019.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-019.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-019.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:8364e65ebca76dfc8845be5ece7e4098660b6ebd233f2290c842caf267e3b41c",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:f243e2b50d71320847799b160d32883138f735292868662fc1cdc9d60546da11",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-019",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-020.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-020.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-020.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:2ef486792934408df1ef04d905d67b91e74addcf055cf58a3084e2e1f3b0079b",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:b8a2c94e32c9841d5f121c68e6dd94376467780912242fbc6ebdad6af07353ee",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-020",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-021.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-021.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-021.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:845cf1e41d07ccfcdb952517e16da1e1d956b5e6d003f6b62d3218fd89a23c92",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:f00f42f01d0aba5fffe2cd2515ed2e4c6bd33105fd4414d72654b2d7879996cb",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-021",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-022.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-022.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-022.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:23163bdf9c614bf3f7bb3777b83cb04ba46c97904f8fb204d2e1b59a2ad01379",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.458Z",
+      "checksum": "sha256:47dc426e0d156f156593be27823a0dd86f344d9f5774b085560fd89785cc66d3",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-022",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-023.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-023.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-023.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:ef942a3ac40515fc254185eaad33a67a1e21819ddb0bfc51c8c515cb962fec0c",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:ffc56b0a787c56b59e32bda17c5b8ea0ca443cf23478039ae7523a6d278ee252",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-023",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-024.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-024.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-024.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:92d0f3b23b73a8adf8b32cf6046ff6f580e063d18c71a87a190173418e90d38f",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:b121804c98cada93ce0f2ac95fecb7996cf5dc1b4c7b031d31e2998ac437cabc",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-024",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-025.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-025.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-025.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:337261c5e92b410cf2ca75cc89ba903e55555da633286aedffefb57c221090cf",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:89e382443102f9c8ff4370e8de8e1082ed33ca793edea90354c23c03bf558bad",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-025",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-026.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-026.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-026.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:42c228e0ba994572f55b89a9d0a75bade8cd0b5f50bf34f15b5189df62f16588",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:d1fa59d48993dea5ef9d321f15e2f5240589c174966df1ecc2eadea835357d0a",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-026",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-027.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-027.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-027.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.532Z",
-      "checksum": "sha256:efd0a1f632d5fac02fa4e609d275ff50ad13d9b546d92daa3bb8a7aec9d7eb94",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:cb8f8e1c76b90f0d1125583d7b84bc235617743dc37b4a5519012b628906fe0b",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-027",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-028.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-028.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-028.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:50b909324fd4fce05d2909b11f641def902a02ba43308f1f4b538efaa5279cff",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:0246dae35b5a474f676d3af61c2bd8e5dbc76c19b492f00b922b2c15b6b14a6e",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-028",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-029.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-029.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-029.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:271b9c84fef344c362dab15f039f41dba76c1ae1dea42e71f5312d8478048db9",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:6ca667aeabe0d7646383756c9b3d765851bbe8ae04ec53a11157e16d217b9928",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-029",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-030.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-030.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-030.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:cc6e3aad3538a9cabcfc82434fc365655c2184f874ed09c54252dc08096d9b17",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:d6ed0800eefde9f19615ebf3e036257f11faf33d52066e5f54b526c6bceea295",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-030",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-031.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-031.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-031.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:5fada2100df4d8218b1c9a875833aa5acafb1f026d9031b54dba66451e834fa5",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:74809b7db595f1d7156f36559caaa7e2e9ef72c596396d5bbaf1615875a811f6",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-031",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-032.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-032.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-032.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:6ad952641e34fb540fde9a329623308434c2779be77e503c3290b6d3f5781d6a",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:db48532d1675676776d27e838e3ea1f8fc4927f89d3902dfbcfbab04f86a447d",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-032",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-033.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-033.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-033.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:f61ae3c30e24de0a7d81662cfc516709cf187025e570a023b11a6aaacfa0cfde",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:3b06e869bf9d7bf03bd14b321e049edfe5f847a645a3489f5fe6f8f0d5775642",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-033",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-034.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-034.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-034.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:17fb3f507a4c82222b4cf2a78f99f083fc61a46b33d72406f6da3b0e33180ced",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:cb74403b6e18138dae080875aa4038a3a6b892769d26149b0a236dfff19bbeb9",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-034",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-035.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-035.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-035.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:542a3eae283fb74996ac45b336ac84d4ce6222f68b253f4da2a079c6266849bc",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:6117f96c7360c093cf36047d417ebe4364382403993a64c657d096e8b6b20ead",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-035",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-036.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-036.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-036.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:7b356d479170fbc9e6b2b0529f64597fcaddb173d71e485bd5d16f26841dafbf",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:ed30b5725663333bb987baf4b36d9b605429d57e6ae658bf6b0749a7d20e6648",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-036",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-037.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-037.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-037.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:3bec06c05fbbbe73abb009d0219e56e9bd2acb88ab6f383d69c136a305b59f87",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:5b094ee9315cb25ba3f3105512e936ec2635da1cff025a114645944448dc935e",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-037",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-038.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-038.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-038.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:9ee6051516d3e4f8b9f60a0d52ff061449e513dd477d9c5581edefca227c6013",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:65cc65a1ee8beb354e953591a2b3e0838158b2b8653cb667bab590d6f2cc37f2",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-038",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-039.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-039.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-039.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:c4da6a9d61ead185e7589dc7129e200a7fdfb063ecf4d044e8e341faa0bf28c6",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:d68d708049d650f67dd108a2bf835d2b485dea8b8f5c4ae9aa975111dc79c99d",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-039",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-040.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-040.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-040.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:b93089b0fa3df7f17b3c2c2da2af4946f4f3a4d870106a5448345cf89a23c190",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:5643ccc8f32a3df4f0fe0acdd0d21129d50c8cf4aeb4785b00ecd644a8c46b4f",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-040",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-041.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-041.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-041.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:c1df6ea264b2d7cb485903b41df815eb55f7451e699fc58508416ba5084c3958",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:e44c28370a9329bfc828da36bb97b3af34e15a406d0b98e957cb84b9cd1a8745",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-041",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-042.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-042.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-042.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:38649f5113ccc24ba59795930b9202271e3f4d6cb36440d65da90bc79007cb8d",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:d7d82ab9e9209f6cfdbd655fd45c1c2373944970100895c162cf6a12d02e4b29",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-042",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-043.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-043.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-043.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:24d3473c820ccbe920f4baf46af9e5178af0d6232b3befb75a8812229efb6c30",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:bfaa2f966eb8fd00daa66346be6c3c102a05ef9741eb23d9fe87ef7bba12f8f7",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-043",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-044.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-044.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-044.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:fbdad08dc8b6d7fc4fe4b35a61100ee59381872af80b8b4ec05db07ca1592aae",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:3d9033ff41d126cf749daefe81fb48385b2f9957a521fc1788abdb6a0ffb90c3",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-044",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-045.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-045.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-045.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:fb962a7242b90f72c7bb86980d11700eb0562ee5498680ef1060bba20762e7e3",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:f7843e6bea8d3dab762017574e0e42f123d58241f62271ec4b3a0e4970fb813e",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-045",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-046.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-046.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-046.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:5d0181bcddf5ffd8ab9a89d1ba0b9cbb536737864d4fd96766042d893b9b15d7",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:0a1429c8ac4cca2f201e5d7f6b49f9de39f63d0dfddf83f6f1579a17a352495d",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-046",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-047.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-047.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-047.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:4726df5d8bc888a7fcf8e520384fec89ee86730c2b9a96d4871fd964733bd0f2",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:a31e1c232ef1f24dbc8eb344247454c8ac1bec027475b84cc73d3e2c3f2b9d13",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-047",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-048.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-048.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-048.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:fb402f560bb331284fa20d2893a0f6dad51f61870169572ca416fc25ca3ee398",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:239e28afab517b6a51aea8628902c16d153b671faa4c2ee4882e6e10d964b65d",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-048",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-049.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-049.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-049.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:d6c8791ec390e39274734b797b6ade5f863c3524eb547997771c16585a124507",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:e03de29def237537d1f5f033c51bf37c9f86a1b0c313e3d022fb7f22d408e45c",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-049",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     },
     {
       "sourceFilename": "red-l1-050.json",
-      "destinationPath": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-050.json",
-      "title": "Red-L1-fr-CA-INDIVDUAL",
+      "destinationPath": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-050.json",
+      "title": "Red-L1-pt-BR",
       "track": "red",
       "level": "level-1",
       "language": "en",
       "region": null,
       "membership": "courses",
-      "batchId": "batch_a7b2e095-37af-4ea7-960c-e972704687a1",
-      "uploadTimestamp": "2026-08-16T16:49:58.533Z",
-      "checksum": "sha256:6035fdec5331025cba6d5a0c2471434865057635ef6fef5acb6e1d5a312d03cf",
+      "batchId": "batch_b72d7f77-2f37-4664-a5a5-2f3c248e7ba5",
+      "uploadTimestamp": "2026-08-16T19:04:39.459Z",
+      "checksum": "sha256:a935eb9b10236f42ff725faf7581fd2227be1fa1ddfc406f9a03558d4fd5d55b",
       "curriculumAssetId": null,
       "curriculumTranslationLessonId": "RED-L1-050",
       "curriculumTranslationLocales": [
-        "fr-CA"
+        "pt-BR"
       ]
     }
   ],
