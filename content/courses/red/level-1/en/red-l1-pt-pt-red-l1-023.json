@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-023",
+  "translations": {
+    "pt-PT": {
+      "title": "O Que é a Taxa de Capitalização? (Versão Introdutória)",
+      "summary": "Descubra o que é a taxa de capitalização, como ajuda a comparar imóveis, e as suas limitações neste nível.",
+      "body": "# O Que é a Taxa de Capitalização? (Versão Introdutória)\n\n## Objetivos de Aprendizagem\n- Definir a taxa de capitalização em termos simples.\n- Explicar como ajuda a comparar imóveis.\n- Reconhecer as suas limitações neste nível introdutório.\n\n## Conteúdo Principal\n\n### O Que é a Taxa de Capitalização\nA taxa de capitalização (\"cap rate\") é o rendimento operacional líquido anual de um imóvel, dividido pelo seu valor, expresso em percentagem.\n\n### Como Ajuda a Comparar\nUma taxa de capitalização mais elevada pode indicar um retorno relativo melhor, permitindo comparar rapidamente vários imóveis entre si.\n\n### As Suas Limitações\nA taxa de capitalização ignora o financiamento e o risco — dois imóveis com a mesma taxa podem ter perfis de risco bem diferentes.\n\n## Exemplo Prático\nUm imóvel que gera 24.000 € de rendimento líquido anual, avaliado em 300.000 €, tem uma taxa de capitalização de 8% (24.000 ÷ 300.000).\n\n## Questionário\n1. A taxa de capitalização calcula-se a partir de: A. Apenas o preço de compra B. O rendimento líquido anual dividido pelo valor C. A taxa da hipoteca D. A entrada\n2. Verdadeiro ou falso: a taxa de capitalização tem em conta o financiamento.\n3. O que a taxa de capitalização pode ignorar? A. O rendimento líquido B. O risco e o financiamento C. O valor do imóvel D. A percentagem\n\n## Correção\n1. B\n2. Falso\n3. B\n\n## Respostas e Explicações\nA taxa de capitalização compara rendimento líquido e valor, sem ter em conta o financiamento. Ignora o risco relativo entre imóveis.\n\n## Pontos-Chave\n- Taxa de capitalização = rendimento líquido anual ÷ valor do imóvel.\n- Permite uma comparação rápida entre imóveis.\n- Ignora o financiamento e o risco, dois fatores importantes."
+    }
+  }
+}
