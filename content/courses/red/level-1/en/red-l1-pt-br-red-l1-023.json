@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-023",
+  "translations": {
+    "pt-BR": {
+      "title": "O Que é uma Taxa de Capitalização? (Versão Introdutória)",
+      "summary": "Descubra o que é uma taxa de capitalização, como ela ajuda a comparar imóveis, e suas limitações nesse nível.",
+      "body": "# O Que é uma Taxa de Capitalização? (Versão Introdutória)\n\n## Objetivos de Aprendizagem\n- Definir a taxa de capitalização em termos simples.\n- Explicar como ela ajuda a comparar imóveis.\n- Reconhecer suas limitações nesse nível introdutório.\n\n## Conteúdo Principal\n\n### O Que é uma Taxa de Capitalização\nA taxa de capitalização (\"cap rate\") é a renda operacional líquida anual de um imóvel, dividida pelo seu valor, expressa em porcentagem.\n\n### Como Ela Ajuda a Comparar\nUma taxa de capitalização mais alta pode indicar um retorno relativo melhor, permitindo comparar rapidamente vários imóveis entre si.\n\n### Suas Limitações\nA taxa de capitalização ignora o financiamento e o risco — dois imóveis com a mesma taxa podem ter perfis de risco bem diferentes.\n\n## Exemplo Prático\nUm imóvel que gera R$ 24.000 de renda líquida anual, avaliado em R$ 300.000, tem uma taxa de capitalização de 8% (24.000 ÷ 300.000).\n\n## Quiz\n1. A taxa de capitalização se calcula a partir de: A. Apenas o preço de compra B. A renda líquida anual dividida pelo valor C. A taxa do financiamento D. A entrada\n2. Verdadeiro ou falso: a taxa de capitalização considera o financiamento.\n3. O que a taxa de capitalização pode ignorar? A. A renda líquida B. O risco e o financiamento C. O valor do imóvel D. A porcentagem\n\n## Gabarito\n1. B\n2. Falso\n3. B\n\n## Respostas e Explicações\nA taxa de capitalização compara renda líquida e valor, sem considerar o financiamento. Ela ignora o risco relativo entre imóveis.\n\n## Pontos-Chave\n- Taxa de capitalização = renda líquida anual ÷ valor do imóvel.\n- Ela permite uma comparação rápida entre imóveis.\n- Ela ignora o financiamento e o risco, dois fatores importantes."
+    }
+  }
+}
