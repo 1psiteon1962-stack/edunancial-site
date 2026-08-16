@@ -13,14 +13,14 @@ test("production course catalog always includes the three launch tracks", () => 
     courseList.map((course) => course.id),
     ["red", "white", "blue"],
   );
-  // RED now has 2 published Level 2 lessons (RED-L2-001, RED-L2-002)
-  assert.equal(courses.red.lessons.length, 2);
+  // RED has the restored 50 Level 1 lessons plus the 2 published Level 2 lessons.
+  assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 0);
   assert.equal(courses.blue.lessons.length, 0);
 });
 
 test("getCoursePrimaryHref resolves to first lesson when RED has published lessons", () => {
-  assert.equal(getCoursePrimaryHref(courses.red), "/courses/red/lessons/RED-L2-001");
+  assert.equal(getCoursePrimaryHref(courses.red), "/courses/red/lessons/RED-L1-001");
 });
 
 test("getCoursePrimaryHref falls back to the course page when lessons are not published", () => {
