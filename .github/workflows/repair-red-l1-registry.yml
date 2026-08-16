@@ -1,0 +1,50 @@
+name: Repair RED-L1 Registry
+
+on:
+  push:
+    branches:
+      - chore/clear-stale-red-l1-fr-ca
+    paths:
+      - 'scripts/curriculum/register-existing-red-l1.mjs'
+      - '.github/workflows/repair-red-l1-registry.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repair branch
+        uses: actions/checkout@v4
+        with:
+          ref: chore/clear-stale-red-l1-fr-ca
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate RED-L1 registry entries
+        run: node scripts/curriculum/register-existing-red-l1.mjs
+
+      - name: Validate repaired curriculum
+        run: |
+          npm run curriculum:validate
+          npm run curriculum:audit
+
+      - name: Commit repaired registry
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add curriculum/registry.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md
+          if git diff --cached --quiet; then
+            echo 'No registry changes to commit.'
+          else
+            git commit -m 'fix: register canonical RED-L1 lessons'
+            git push origin HEAD:chore/clear-stale-red-l1-fr-ca
+          fi
