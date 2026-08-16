@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "defaultLocale": "en-US",
+  "locales": [
+    {"locale":"en-US","language":"en","script":"Latn","region":"US","displayName":"English (United States)","nativeName":"English (United States)","direction":"ltr","fallbackChain":[],"status":"active"},
+    {"locale":"en-GB","language":"en","script":"Latn","region":"GB","displayName":"English (United Kingdom)","nativeName":"English (United Kingdom)","direction":"ltr","fallbackChain":["en-US"],"status":"active"},
+    {"locale":"es","language":"es","script":"Latn","displayName":"Spanish","nativeName":"Español","direction":"ltr","fallbackChain":["en-US"],"status":"active"},
+    {"locale":"es-ES","language":"es","script":"Latn","region":"ES","displayName":"Spanish (Spain)","nativeName":"Español (España)","direction":"ltr","fallbackChain":["es","en-US"],"status":"active"},
+    {"locale":"fr-CA","language":"fr","script":"Latn","region":"CA","displayName":"French (Canada)","nativeName":"Français (Canada)","direction":"ltr","fallbackChain":["fr","en-US"],"status":"active"},
+    {"locale":"fr-FR","language":"fr","script":"Latn","region":"FR","displayName":"French (France)","nativeName":"Français (France)","direction":"ltr","fallbackChain":["fr","en-US"],"status":"active"},
+    {"locale":"pt-BR","language":"pt","script":"Latn","region":"BR","displayName":"Portuguese (Brazil)","nativeName":"Português (Brasil)","direction":"ltr","fallbackChain":["pt","en-US"],"status":"active"},
+    {"locale":"pt-PT","language":"pt","script":"Latn","region":"PT","displayName":"Portuguese (Portugal)","nativeName":"Português (Portugal)","direction":"ltr","fallbackChain":["pt","en-US"],"status":"active"},
+    {"locale":"de","language":"de","script":"Latn","displayName":"German","nativeName":"Deutsch","direction":"ltr","fallbackChain":["en-US"],"status":"active"},
+    {"locale":"it","language":"it","script":"Latn","displayName":"Italian","nativeName":"Italiano","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"nl","language":"nl","script":"Latn","displayName":"Dutch","nativeName":"Nederlands","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"sw","language":"sw","script":"Latn","displayName":"Swahili","nativeName":"Kiswahili","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"lg","language":"lg","script":"Latn","displayName":"Luganda","nativeName":"Luganda","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"ar","language":"ar","script":"Arab","displayName":"Arabic","nativeName":"العربية","direction":"rtl","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"fa","language":"fa","script":"Arab","displayName":"Farsi (Persian)","nativeName":"فارسی","direction":"rtl","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"zh-Hans","language":"zh","script":"Hans","displayName":"Chinese (Simplified)","nativeName":"中文 (简体)","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"zh-Hant","language":"zh","script":"Hant","displayName":"Chinese (Traditional)","nativeName":"中文 (繁體)","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"ja","language":"ja","script":"Jpan","displayName":"Japanese","nativeName":"日本語","direction":"ltr","fallbackChain":["en-US"],"status":"planned"},
+    {"locale":"ko","language":"ko","script":"Kore","displayName":"Korean","nativeName":"한국어","direction":"ltr","fallbackChain":["en-US"],"status":"planned"}
+  ]
+}
