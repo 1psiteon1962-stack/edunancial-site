@@ -40,7 +40,7 @@ function lessonIdFrom(value) {
 }
 
 function ensureLesson(id) {
-  return (lessons[id] ??= { id, canonical: null, translations: {} });
+  return (lessons[id] ??= { id, canonical: null, translations: {}, legacyPartials: {} });
 }
 
 function readJson(path) {
@@ -115,7 +115,12 @@ function addTranslation({ id, rawLocale, value, path }) {
 
   const missing = ["title", "summary", "body"].filter((key) => !normalized[key]);
   if (missing.length) {
-    errors.push(`${relativePath}: ${id} [${locale}] missing ${missing.join(", ")}`);
+    const lesson = ensureLesson(id);
+    lesson.legacyPartials[locale] ??= [];
+    lesson.legacyPartials[locale].push({ path: relativePath, missing });
+    warnings.push(
+      `${relativePath}: ${id} [${locale}] is a legacy/partial artifact missing ${missing.join(", ")}; excluded from published coverage`,
+    );
     return;
   }
 
@@ -123,7 +128,7 @@ function addTranslation({ id, rawLocale, value, path }) {
   const lesson = ensureLesson(id);
   const existing = lesson.translations[locale];
   if (existing && existing.checksum !== translationChecksum) {
-    errors.push(`${id} [${locale}]: conflicting duplicate translations (${existing.path} vs ${relativePath})`);
+    errors.push(`${id} [${locale}]: conflicting complete translations (${existing.path} vs ${relativePath})`);
     return;
   }
 
@@ -192,26 +197,33 @@ for (const path of walk(legacyRoot).filter((candidate) => candidate.endsWith(".j
 
 for (const [id, lesson] of Object.entries(lessons)) {
   if (!lesson.canonical && Object.keys(lesson.translations).length) {
-    errors.push(`${id}: translations exist without canonical lesson`);
+    errors.push(`${id}: complete translations exist without canonical lesson`);
   }
 }
 
+const canonicalLessonCount = Object.values(lessons).filter((lesson) => lesson.canonical).length;
 const coverage = {};
 for (const locale of knownLocales.keys()) {
   const translated = Object.values(lessons).filter((lesson) => lesson.canonical && lesson.translations[locale]).length;
   coverage[locale] = {
     translated,
-    canonical: Object.values(lessons).filter((lesson) => lesson.canonical).length,
+    canonical: canonicalLessonCount,
+    completePercent: canonicalLessonCount ? Number(((translated / canonicalLessonCount) * 100).toFixed(2)) : 0,
   };
 }
 
 const manifest = {
-  schemaVersion: "1.1",
+  schemaVersion: "1.2",
   generatedAt: new Date().toISOString(),
   defaultLocale: defaultLocale ?? localeRegistry.defaultLocale,
-  lessonCount: Object.values(lessons).filter((lesson) => lesson.canonical).length,
+  lessonCount: canonicalLessonCount,
   translationCount: Object.values(lessons).reduce(
     (count, lesson) => count + Object.keys(lesson.translations).length,
+    0,
+  ),
+  legacyPartialArtifactCount: Object.values(lessons).reduce(
+    (count, lesson) =>
+      count + Object.values(lesson.legacyPartials).reduce((subtotal, entries) => subtotal + entries.length, 0),
     0,
   ),
   coverage,
@@ -224,7 +236,7 @@ mkdirSync(dirname(outputPath), { recursive: true });
 writeFileSync(outputPath, `${JSON.stringify(manifest, null, 2)}\n`);
 
 console.log(
-  `Localization manifest: ${manifest.lessonCount} canonical lessons, ${manifest.translationCount} translations, ${errors.length} errors, ${warnings.length} warnings.`,
+  `Localization manifest: ${manifest.lessonCount} canonical lessons, ${manifest.translationCount} complete translations, ${manifest.legacyPartialArtifactCount} legacy partial artifacts, ${errors.length} errors, ${warnings.length} warnings.`,
 );
 for (const warning of warnings) console.warn(`WARNING: ${warning}`);
 if (errors.length) {
