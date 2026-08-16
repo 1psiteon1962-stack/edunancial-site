@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "domain": "real-estate",
+  "terms": [
+    {"term":"equity","translations":{"de":{"approved":"Eigenkapital"},"pt-BR":{"approved":"patrimônio líquido"},"pt-PT":{"approved":"património líquido"}}},
+    {"term":"mortgage","translations":{"de":{"approved":"Hypothek"},"pt-BR":{"approved":"financiamento imobiliário","contextNotes":"Use hipoteca where the legal instrument itself is meant."},"pt-PT":{"approved":"crédito hipotecário"}}},
+    {"term":"principal","translations":{"de":{"approved":"Tilgungsanteil","contextNotes":"Use Kapitalbetrag when referring to outstanding principal rather than a payment component."},"pt-BR":{"approved":"principal"},"pt-PT":{"approved":"capital"}}},
+    {"term":"interest","translations":{"de":{"approved":"Zinsen"},"pt-BR":{"approved":"juros"},"pt-PT":{"approved":"juros"}}},
+    {"term":"property tax","translations":{"de":{"approved":"Grundsteuer"},"pt-BR":{"approved":"imposto sobre a propriedade"},"pt-PT":{"approved":"imposto sobre imóveis"}}},
+    {"term":"lien","translations":{"de":{"approved":"Pfandrecht"},"pt-BR":{"approved":"gravame"},"pt-PT":{"approved":"ónus"}}},
+    {"term":"cash flow","translations":{"de":{"approved":"Cashflow"},"pt-BR":{"approved":"fluxo de caixa"},"pt-PT":{"approved":"fluxo de caixa"}}},
+    {"term":"down payment","translations":{"de":{"approved":"Anzahlung"},"pt-BR":{"approved":"entrada"},"pt-PT":{"approved":"entrada"}}}
+  ]
+}
