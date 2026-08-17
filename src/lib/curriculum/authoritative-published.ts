@@ -236,7 +236,23 @@ function addTranslationToMap(
   const normalizedLessonId = lessonId.trim().toUpperCase();
   const normalizedLocale = locale.trim();
   if (!normalizedLessonId || !normalizedLocale) return;
-  map.set(`${normalizedLessonId}::${normalizedLocale}`, translation);
+  const key = `${normalizedLessonId}::${normalizedLocale}`;
+  const existing = map.get(key);
+  if (!existing) {
+    map.set(key, translation);
+    return;
+  }
+
+  // Historical imports may leave multiple artifacts for the same lesson and
+  // locale. Treat every artifact as a delta so a later title/summary-only file
+  // can never erase a complete translated body discovered earlier. Newer
+  // non-empty fields may enrich an existing record, while completeness is
+  // preserved independently of filesystem traversal order.
+  map.set(key, {
+    title: translation.title || existing.title,
+    summary: translation.summary || existing.summary,
+    body: translation.body || existing.body,
+  });
 }
 
 const LEGACY_TRANSLATION_SECTION_TITLES: Record<string, string> = {
@@ -506,9 +522,6 @@ function sortLessons(lessons: PublishedLessonRecord[]): PublishedLessonRecord[] 
   });
 }
 
-// Canonical IDs of already-launched RED Level 2 lessons that must always be
-// visible regardless of the legacy-fallback flag.  Explicit published-state
-// store records still take precedence over these fallback entries.
 const RED_LEVEL2_ALWAYS_FALLBACK = new Set(["RED-L2-001", "RED-L2-002"]);
 
 async function getEffectiveState(): Promise<PublishedCurriculumState> {
@@ -521,12 +534,7 @@ async function getEffectiveState(): Promise<PublishedCurriculumState> {
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       for (const asset of Object.values(level.assets)) {
-        // Explicit store record always wins — never overwrite it.
         if (state.lessons[asset.id]) continue;
-
-        // Hydrate when: (a) the legacy fallback flag is enabled (general
-        // registry hydration), OR (b) this is one of the already-launched
-        // RED L2 lessons that must always remain visible.
         if (!allowLegacyFallback && !RED_LEVEL2_ALWAYS_FALLBACK.has(asset.id)) continue;
 
         const record = entryFromRegistryAsset(asset);
@@ -588,19 +596,12 @@ async function extractLessonsFromFile(file: ExtractedFile): Promise<PublishedLes
 
 export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promise<{ upserted: number }> {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
-  if (approvedFiles.length === 0) {
-    return { upserted: 0 };
-  }
+  if (approvedFiles.length === 0) return { upserted: 0 };
 
-  const lessonsFromBatch = (await Promise.all(approvedFiles.map((file) => extractLessonsFromFile(file))))
-    .flat();
-
-  if (lessonsFromBatch.length === 0) {
-    return { upserted: 0 };
-  }
+  const lessonsFromBatch = (await Promise.all(approvedFiles.map((file) => extractLessonsFromFile(file)))).flat();
+  if (lessonsFromBatch.length === 0) return { upserted: 0 };
 
   const state = await readPublishedState();
-
   const lessonIds = new Set<string>();
 
   for (const lesson of lessonsFromBatch) {
@@ -609,16 +610,12 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
       state.batchLessonIds[existingBatchId] = existingLessonIds.filter((id) => id !== lesson.id);
     }
 
-    state.lessons[lesson.id] = {
-      ...lesson,
-      importedAt: new Date().toISOString(),
-    };
+    state.lessons[lesson.id] = { ...lesson, importedAt: new Date().toISOString() };
     lessonIds.add(lesson.id);
   }
 
   state.batchLessonIds[batch.id] = sortLessons(lessonsFromBatch).map((lesson) => lesson.id);
   state.updatedAt = new Date().toISOString();
-
   await writePublishedState(state);
   return { upserted: lessonIds.size };
 }
@@ -626,20 +623,14 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
 export async function importPublishedLessonTranslations(
   records: PublishedLessonTranslationImportRecord[],
 ): Promise<PublishedLessonTranslationImportResult> {
-  if (records.length === 0) {
-    return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
-  }
+  if (records.length === 0) return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
 
   const state = await readPublishedState();
   const missingLessonIds = [...new Set(
-    records
-      .map((record) => record.lessonId.trim().toUpperCase())
-      .filter((lessonId) => !state.lessons[lessonId]),
+    records.map((record) => record.lessonId.trim().toUpperCase()).filter((lessonId) => !state.lessons[lessonId]),
   )];
 
-  if (missingLessonIds.length > 0) {
-    return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds };
-  }
+  if (missingLessonIds.length > 0) return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds };
 
   const updatedLessonIds = new Set<string>();
   for (const record of records) {
@@ -656,10 +647,7 @@ export async function importPublishedLessonTranslations(
 
     state.lessons[lessonId] = {
       ...lesson,
-      translations: {
-        ...existingTranslations,
-        [locale]: nextLocaleTranslation,
-      },
+      translations: { ...existingTranslations, [locale]: nextLocaleTranslation },
     };
     updatedLessonIds.add(lessonId);
   }
@@ -698,12 +686,7 @@ export async function exportPublishedLessonTranslations(
     if (requestedLessonIds && !requestedLessonIds.has(lesson.id)) return false;
     if (!matchesPrefix(lesson.id)) return false;
     return true;
-  })).map((lesson) => ({
-    id: lesson.id,
-    title: lesson.title,
-    summary: lesson.summary,
-    body: lesson.body,
-  }));
+  })).map((lesson) => ({ id: lesson.id, title: lesson.title, summary: lesson.summary, body: lesson.body }));
 
   if (requestedLessonIds) {
     const foundIds = new Set(matched.map((r) => r.id));
@@ -720,38 +703,25 @@ export async function removePublishedLessonsForBatch(
   batch: UploadBatch,
 ): Promise<{ removed: number; trackedLessonIds: string[] }> {
   const state = await readPublishedState();
-
   const trackedLessonIds = state.batchLessonIds[batch.id] ?? [];
   let targetIds = [...trackedLessonIds];
 
   if (targetIds.length === 0) {
-    const detected = (await Promise.all(batch.files.map((file) => extractLessonsFromFile(file))))
-      .flat()
-      .map((lesson) => lesson.id);
+    const detected = (await Promise.all(batch.files.map((file) => extractLessonsFromFile(file)))).flat().map((lesson) => lesson.id);
     targetIds = [...new Set(detected)];
   }
 
-  if (!state.initialized) {
-    state.initialized = true;
-  }
-
-  for (const lessonId of targetIds) {
-    delete state.lessons[lessonId];
-  }
+  if (!state.initialized) state.initialized = true;
+  for (const lessonId of targetIds) delete state.lessons[lessonId];
 
   delete state.batchLessonIds[batch.id];
   state.updatedAt = new Date().toISOString();
   await writePublishedState(state);
 
-  return {
-    removed: targetIds.length,
-    trackedLessonIds: targetIds,
-  };
+  return { removed: targetIds.length, trackedLessonIds: targetIds };
 }
 
-export async function getPublishedTracks(
-  languageOrLocale: string,
-): Promise<PublishedTrackSummary[]> {
+export async function getPublishedTracks(languageOrLocale: string): Promise<PublishedTrackSummary[]> {
   const locale = resolveCurriculumLocale(languageOrLocale);
   const state = await getEffectiveState();
 
@@ -766,22 +736,20 @@ export async function getPublishedTracks(
   }
 
   const tracks: PublishedTrackSummary[] = [];
-
   for (const academy of ACADEMIES) {
     const byLevel = lessonsByTrackLevel.get(academy.code);
     const localizedTrack = getLocalizedTrackCopy(academy.code, locale);
-    const levels = Array.from({ length: academy.levelCount }, (_, index) => index + 1)
-      .map((level) => {
-        const lessons = byLevel?.get(level) ?? [];
-        return {
-          level,
-          lessonCount: lessons.length,
-          lessons: sortLessons(lessons).map((lesson) => ({
-            ...resolvePublishedLessonForLocale(lesson, locale),
-            trackName: localizedTrack?.name ?? lesson.trackName,
-          })),
-        };
-      });
+    const levels = Array.from({ length: academy.levelCount }, (_, index) => index + 1).map((level) => {
+      const lessons = byLevel?.get(level) ?? [];
+      return {
+        level,
+        lessonCount: lessons.length,
+        lessons: sortLessons(lessons).map((lesson) => ({
+          ...resolvePublishedLessonForLocale(lesson, locale),
+          trackName: localizedTrack?.name ?? lesson.trackName,
+        })),
+      };
+    });
 
     const lessonCount = levels.reduce((sum, level) => sum + level.lessonCount, 0);
     tracks.push({
@@ -821,9 +789,7 @@ export async function removePublishedLesson(lessonId: string): Promise<boolean> 
   const normalizedLessonId = lessonId.toUpperCase();
   const state = await readPublishedState();
   const exists = Boolean(state.lessons[normalizedLessonId]);
-  if (!exists) {
-    return false;
-  }
+  if (!exists) return false;
 
   delete state.lessons[normalizedLessonId];
   for (const [batchId, lessonIds] of Object.entries(state.batchLessonIds)) {
@@ -850,20 +816,12 @@ export async function upsertPublishedLessonFromRegistry(lessonId: string): Promi
     if (lessonAsset) break;
   }
 
-  if (!lessonAsset) {
-    return false;
-  }
-
+  if (!lessonAsset) return false;
   const nextRecord = entryFromRegistryAsset(lessonAsset);
-  if (!nextRecord) {
-    return false;
-  }
+  if (!nextRecord) return false;
 
   const state = await readPublishedState();
-  state.lessons[normalizedLessonId] = {
-    ...nextRecord,
-    importedAt: new Date().toISOString(),
-  };
+  state.lessons[normalizedLessonId] = { ...nextRecord, importedAt: new Date().toISOString() };
   state.updatedAt = new Date().toISOString();
   await writePublishedState(state);
   return true;
