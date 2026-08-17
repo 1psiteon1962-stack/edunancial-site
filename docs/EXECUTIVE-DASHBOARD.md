@@ -12,7 +12,7 @@
 
 | Branch | Owner | Status | PR # | Notes |
 |--------|-------|--------|------|-------|
-| `fix/square-readiness-ai-pipeline` | OpenAI agent | In progress | — | Restore Square production-readiness hardening that regressed after PR #308 and continue the canonical AI learning pipeline/orchestration architecture. |
+| `fix/square-readiness-ai-pipeline` | OpenAI agent | Validation in progress | #346 | Square runtime hardening and canonical AI learning pipeline implemented. Type-check passed; production build is running. |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | PR # | Title | Branch | Reason for Draft | Expected Ready Date |
 |------|-------|--------|-----------------|---------------------|
-| _(none)_ | — | — | — | — |
+| #346 | Restore Square readiness and formalize AI learning pipeline | `fix/square-readiness-ai-pipeline` | Awaiting production build/check completion and live Square verification. | 2026-08-17 |
 
 ---
 
@@ -52,15 +52,15 @@
 
 | Environment | Status | Last Deploy | Commit | URL |
 |-------------|--------|-------------|--------|-----|
-| Production (`main`) | Requires verification after current work merges | — | — | https://edunancial.com |
-| Deploy Preview | Pending PR | — | — | — |
+| Production (`main`) | Requires verification after PR #346 merges | — | — | https://edunancial.com |
+| Deploy Preview | Awaiting PR checks/deploy status | — | `23636d2f6cbff476a380b993807f7cf643a72de5` | — |
 
 ---
 
 ## Production Validation — Last Run
 
 **Date:** 2026-08-16
-**Branch/Commit:** `fix/square-readiness-ai-pipeline` / in progress
+**Branch/Commit:** `fix/square-readiness-ai-pipeline` / `23636d2f6cbff476a380b993807f7cf643a72de5`
 
 | # | Item | Result | Notes |
 |---|------|--------|-------|
@@ -78,12 +78,12 @@
 | 12 | Marketplace | ☐ | Pending post-merge validation. |
 | 13 | Course pages | ☐ | Pending post-merge validation. |
 | 14 | Video lessons | ☐ | Pending post-merge validation. |
-| 15 | AI Coach | ☐ | AI pipeline work in progress. |
+| 15 | AI Coach | ◐ | Canonical pipeline implemented; type-check passed; build in progress. |
 | 16 | FAQ | ☐ | Pending post-merge validation. |
 | 17 | Contact | ☐ | Pending post-merge validation. |
 | 18 | Pricing | ☐ | Pending post-merge validation. |
 | 19 | Dashboard | ☐ | Pending post-merge validation. |
-| 20 | Payment | ☐ | Square production regression under active repair. |
+| 20 | Payment | ◐ | Square runtime/credential hardening restored; live production checkout still requires deployment validation. |
 | 21 | Mobile responsiveness | ☐ | Pending post-merge validation. |
 | 22 | Images | ☐ | Pending post-merge validation. |
 | 23 | Links | ☐ | Pending post-merge validation. |
@@ -98,7 +98,7 @@
 
 | PR # | Branch | Owner | Technical Reason | Business Impact | Required Fix | Next Action | Expected Resolution |
 |------|--------|-------|-----------------|----------------|-------------|------------|---------------------|
-| — | `fix/square-readiness-ai-pipeline` | OpenAI agent | Square hardening introduced by merged PR #308 is absent from current `main`; production environment/credential state must also be validated without exposing secrets. | Checkout may fail before a usable Square payment link is created. | Restore runtime-safe Square configuration and live credential/readiness validation, then verify deployment configuration. | Implement code repair, tests, PR, deployment, and live validation. | Current work session, subject to external production credentials being valid. |
+| #346 | `fix/square-readiness-ai-pipeline` | OpenAI agent | Current production still runs `main`; Square credentials and location must be proven against the deployed environment after merge. | Owner cannot rely on checkout until a real Square payment link is generated from production. | Complete CI/build, merge, deploy, then exercise the $1 Square test checkout and verify webhook flow. | Finish checks and production validation. | After deployment, subject to configured Square production credentials being valid. |
 
 ---
 
@@ -108,3 +108,4 @@
 |------|---------|-----------|---------|
 | 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |
 | 2026-08-16 | Square + AI pipeline | OpenAI agent | Started branch `fix/square-readiness-ai-pipeline`; documented Square regression and resumed canonical AI pipeline architecture work. |
+| 2026-08-16 | Square + AI pipeline status | OpenAI agent | Opened draft PR #346. Restored runtime Square validation, updated checkout mocks, added canonical AI pipeline and normalization tests. GitHub type-check passed; production build remained in progress at session update. |
