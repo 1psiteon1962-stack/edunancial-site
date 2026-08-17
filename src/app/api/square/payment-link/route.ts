@@ -7,7 +7,7 @@ import { NextResponse } from "next/server";
 import { logStructuredError } from "@/lib/observability/errors";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
-import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squareConfig } from "@/lib/square";
+import { ensureSquareWebhookSubscription, getSquareServerConfig, isSquareVerifiedCheckoutEnabled, validateSquareCredentials } from "@/lib/square";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
@@ -49,8 +49,18 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    // Fail closed: no checkout link is created until Square confirms that the
-    // verified webhook subscription exists and its signing key is available.
+    // Validate the configured token/location against Square before doing any
+    // webhook provisioning or creating a checkout link. This produces a clean,
+    // fail-closed result when production credentials are stale or mismatched.
+    const credentialCheck = await validateSquareCredentials();
+    if (!credentialCheck.valid) {
+      const response = NextResponse.json({ success: false, error: "Square credentials could not be verified.", requestId }, { status: 503 });
+      recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
+    }
+
+    // Fail closed: no checkout link is created until a verified webhook signing
+    // key is available, either from environment configuration or Square itself.
     await ensureSquareWebhookSubscription();
 
     const body = (await request.json()) as PaymentLinkRequestBody;
@@ -72,7 +82,8 @@ export async function POST(request: Request) {
       discountDescription = discountResult.code?.description;
     }
 
-    const squareApiBase = squareConfig.environment === "sandbox" ? "https://connect.squareupsandbox.com" : "https://connect.squareup.com";
+    const runtimeConfig = getSquareServerConfig();
+    const squareApiBase = runtimeConfig.environment === "sandbox" ? "https://connect.squareupsandbox.com" : "https://connect.squareup.com";
     const appOrigin = new URL(request.url).origin;
     const lineItems = [{ name: item.name, quantity: "1", base_price_money: { amount: Math.round(item.price * 100), currency: item.currency.toUpperCase() } }];
     const orderDiscounts = discountApplied ? [{ name: discountDescription ?? "Promotional Discount", type: "FIXED_AMOUNT", amount_money: { amount: Math.round((item.price - finalPrice) * 100), currency: item.currency.toUpperCase() } }] : undefined;
@@ -81,7 +92,7 @@ export async function POST(request: Request) {
     const squarePayload: Record<string, unknown> = {
       idempotency_key: `${requestId}-${item.id}`,
       order: {
-        location_id: squareConfig.locationId,
+        location_id: runtimeConfig.locationId,
         line_items: lineItems,
         ...(orderDiscounts ? { discounts: orderDiscounts } : {}),
         metadata: {
@@ -99,7 +110,7 @@ export async function POST(request: Request) {
 
     const squareResponse = await fetch(`${squareApiBase}/v2/online-checkout/payment-links`, {
       method: "POST",
-      headers: { "Content-Type": "application/json", Authorization: "Bearer " + squareConfig.accessToken, "Square-Version": "2026-07-15" },
+      headers: { "Content-Type": "application/json", Authorization: "Bearer " + runtimeConfig.accessToken, "Square-Version": "2026-07-15" },
       body: JSON.stringify(squarePayload),
     });
 
@@ -121,7 +132,7 @@ export async function POST(request: Request) {
     return attachRequestHeaders(response, requestId);
   } catch (error) {
     logStructuredError(error, { ...getRequestContext(request, requestId), route });
-    const response = NextResponse.json({ success: false, error: "Square checkout could not be activated. Verified webhook setup must succeed before payment is accepted.", requestId }, { status: 503 });
+    const response = NextResponse.json({ success: false, error: "Square checkout could not be activated. Verified payment configuration must succeed before payment is accepted.", requestId }, { status: 503 });
     recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   }
