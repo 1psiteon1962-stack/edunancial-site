@@ -29,12 +29,20 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_SIGNATURE_KEY = "webhook-secret";
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL =
     "https://edunancial.com/api/square/webhook";
-  process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
 }
 
-beforeEach(() => {
+function squareLocationResponse() {
+  return new Response(
+    JSON.stringify({ location: { id: "location-id", status: "ACTIVE" } }),
+    { status: 200, headers: { "Content-Type": "application/json" } },
+  );
+}
+
+beforeEach(async () => {
   restoreEnv();
   configureSquareEnv();
+  const { resetSquareCredentialCacheForTests } = await import("../square.js");
+  resetSquareCredentialCacheForTests();
 });
 
 afterEach(() => {
@@ -45,7 +53,9 @@ afterEach(() => {
 test("payment-link route preserves existing membership checkout behavior", async () => {
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (_input, init) => {
+  globalThis.fetch = async (input, init) => {
+    if (String(input).includes("/v2/locations/")) return squareLocationResponse();
+
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
       unknown
@@ -179,6 +189,8 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   let capturedPayload: Record<string, unknown> | null = null;
 
   globalThis.fetch = async (input, init) => {
+    if (String(input).includes("/v2/locations/")) return squareLocationResponse();
+
     capturedUrl = String(input);
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
