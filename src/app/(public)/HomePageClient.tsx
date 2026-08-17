@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 
-import ComingSoon from "@/components/ComingSoon";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
 const primaryCtaClasses = [
@@ -52,7 +51,6 @@ export default function HomePageClient() {
 
       <section aria-labelledby="homepage-dashboard-heading" className="mx-auto max-w-7xl px-6 pb-16 md:pb-20"><div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between"><div><p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">{t("home.dashboard.label")}</p><h2 id="homepage-dashboard-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">{t("home.dashboard.heading")}</h2></div><Link href="/dashboard" className="font-bold text-blue-300 hover:text-blue-200">{t("home.dashboard.link")}</Link></div><div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">{dashboardCards.map((card)=><Link key={card.title} href={card.href} className="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:border-blue-400 hover:bg-slate-900"><div className="flex items-start justify-between gap-4"><h3 className="text-xl font-black sm:text-2xl">{card.title}</h3><span aria-hidden="true" className="text-blue-300">&rarr;</span></div><p className="mt-4 text-sm leading-7 text-slate-300">{card.description}</p></Link>)}</div></section>
 
-      <section aria-label={t("home.trial.label")} className="border-t border-white/10"><div className="mx-auto max-w-7xl px-6 py-12 md:py-16"><ComingSoon labelKey="home.trial.label" headingKey="comingSoon.trial.heading" bodyKey="comingSoon.trial.body" ctaLabelKey="comingSoon.trial.cta" ctaHref="/pricing" /></div></section>
       <section aria-labelledby="homepage-final-cta-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20"><div className="rounded-3xl border border-blue-500/30 bg-blue-500/10 p-8 md:p-10"><div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between"><div className="max-w-3xl"><p className="text-sm font-bold uppercase tracking-[0.4em] text-blue-300">{t("home.final.label")}</p><h2 id="homepage-final-cta-heading" className="mt-4 text-3xl font-black sm:text-4xl md:text-5xl">{t("home.final.heading")}</h2><p className="mt-5 text-base leading-7 text-slate-200 sm:text-lg sm:leading-8">{t("home.final.body")}</p></div><div className="grid gap-4 sm:grid-cols-2"><Link href="/register" className="inline-flex items-center justify-center rounded-2xl bg-yellow-400 px-6 py-5 text-center font-black text-slate-950 transition hover:bg-yellow-300">{t("home.final.primaryCta")}</Link><Link href="/ai-coach" className="inline-flex items-center justify-center rounded-2xl bg-white/10 px-6 py-5 text-center font-bold text-white transition hover:bg-white/20">{t("home.final.secondaryCta")}</Link></div></div></div></section>
     </main>
   );
