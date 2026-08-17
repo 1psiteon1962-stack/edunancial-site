@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-022",
+  "translations": {
+    "fr-FR": {
+      "title": "Qu'est-ce que le flux de trésorerie en immobilier ?",
+      "summary": "Découvrez ce qu'est le flux de trésorerie, comment il se calcule simplement, et pourquoi un flux positif compte.",
+      "body": "# Qu'est-ce que le flux de trésorerie en immobilier ?\n\n## Objectifs d'apprentissage\n- Définir le flux de trésorerie en termes simples.\n- Expliquer comment il se calcule de façon simplifiée.\n- Expliquer pourquoi un flux positif compte.\n\n## Contenu principal\n\n### Ce qu'est le flux de trésorerie\nLe flux de trésorerie est l'argent qui reste chaque mois après avoir payé toutes les charges liées à un bien locatif, y compris le crédit.\n\n### Comment il se calcule\nFlux de trésorerie = Revenu locatif − Toutes les charges (crédit, taxes, assurance, entretien, gestion).\n\n### Pourquoi un flux positif compte\nUn flux de trésorerie positif signifie que le bien s'autofinance et génère un profit mensuel ; un flux négatif signifie que le propriétaire doit ajouter de l'argent chaque mois.\n\n## Exemple concret\nUn bien génère 1 800 € de loyer et 1 500 € de charges totales : le flux de trésorerie est de 300 € par mois, positif.\n\n## Quiz\n1. Le flux de trésorerie est : A. Le prix d'achat B. L'argent restant après toutes les charges C. Le montant du crédit D. La valeur vénale\n2. Vrai ou faux : un flux de trésorerie négatif signifie un profit mensuel.\n3. Que signifie un flux de trésorerie positif ? A. Une perte mensuelle B. Le bien s'autofinance et génère un profit C. Le bien est vacant D. Le prêt est remboursé\n\n## Corrigé\n1. B\n2. Faux\n3. B\n\n## Réponses et explications\nLe flux de trésorerie mesure l'argent restant après charges. Un flux négatif signifie une perte, pas un profit. Un flux positif indique une rentabilité mensuelle.\n\n## À retenir\n- Le flux de trésorerie est le revenu locatif moins toutes les charges.\n- Un flux positif génère un profit mensuel réel.\n- Un flux négatif exige que le propriétaire ajoute de l'argent chaque mois."
+    }
+  }
+}

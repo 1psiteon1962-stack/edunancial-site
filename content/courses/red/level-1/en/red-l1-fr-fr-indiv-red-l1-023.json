@@ -1,0 +1,10 @@
+{
+  "id": "RED-L1-023",
+  "translations": {
+    "fr-FR": {
+      "title": "Qu'est-ce qu'un taux de capitalisation ? (Version d'introduction)",
+      "summary": "Découvrez ce qu'est un taux de capitalisation, comment il sert à comparer des biens, et ses limites à ce niveau.",
+      "body": "# Qu'est-ce qu'un taux de capitalisation ? (Version d'introduction)\n\n## Objectifs d'apprentissage\n- Définir le taux de capitalisation en termes simples.\n- Expliquer comment il aide à comparer des biens.\n- Reconnaître ses limites à ce niveau d'introduction.\n\n## Contenu principal\n\n### Ce qu'est un taux de capitalisation\nLe taux de capitalisation est le revenu net d'exploitation annuel d'un bien, divisé par sa valeur, exprimé en pourcentage.\n\n### Comment il aide à comparer\nUn taux de capitalisation plus élevé peut indiquer un meilleur rendement relatif, permettant de comparer rapidement plusieurs biens entre eux.\n\n### Ses limites\nLe taux de capitalisation ignore le financement et le risque — deux biens au même taux peuvent avoir des profils de risque très différents.\n\n## Exemple concret\nUn bien générant 24 000 € de revenu net annuel, évalué à 300 000 €, a un taux de capitalisation de 8 % (24 000 ÷ 300 000).\n\n## Quiz\n1. Le taux de capitalisation se calcule à partir de : A. Le prix d'achat seul B. Le revenu net annuel divisé par la valeur C. Le taux du crédit D. L'apport personnel\n2. Vrai ou faux : le taux de capitalisation tient compte du financement.\n3. Que peut ignorer le taux de capitalisation ? A. Le revenu net B. Le risque et le financement C. La valeur du bien D. Le pourcentage\n\n## Corrigé\n1. B\n2. Faux\n3. B\n\n## Réponses et explications\nLe taux de capitalisation compare revenu net et valeur, sans tenir compte du financement. Il ignore le risque relatif entre biens.\n\n## À retenir\n- Le taux de capitalisation = revenu net annuel ÷ valeur du bien.\n- Il permet une comparaison rapide entre biens.\n- Il ignore le financement et le risque, deux facteurs importants."
+    }
+  }
+}
