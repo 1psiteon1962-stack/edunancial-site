@@ -5,9 +5,11 @@ import {
   importPublishedLessonTranslations,
   type PublishedLessonTranslationImportRecord,
 } from "@/lib/curriculum/authoritative-published";
+import {
+  canonicalizeGlobalLocale,
+  getGlobalLocale,
+} from "@/lib/curriculum/global-localization";
 import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
-
-const LOCALE_PATTERN = /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/u;
 
 function parseRecords(
   payload: unknown,
@@ -34,8 +36,10 @@ function parseRecords(
     }
 
     const record = entry as Record<string, unknown>;
-    const lessonId = typeof record.lessonId === "string" ? record.lessonId.trim() : "";
-    const locale = typeof record.locale === "string" ? record.locale.trim() : "";
+    const lessonId = typeof record.lessonId === "string" ? record.lessonId.trim().toUpperCase() : "";
+    const rawLocale = typeof record.locale === "string" ? record.locale.trim() : "";
+    const canonicalLocale = rawLocale ? canonicalizeGlobalLocale(rawLocale) : "";
+    const registeredLocale = rawLocale ? getGlobalLocale(canonicalLocale) : undefined;
     const title = record.title;
     const summary = record.summary;
     const bodyContent = record.body;
@@ -43,36 +47,38 @@ function parseRecords(
     if (!lessonId) {
       errors.push(`records[${index}].lessonId is required`);
     }
-    if (!locale) {
+    if (!rawLocale) {
       errors.push(`records[${index}].locale is required`);
-    } else if (!LOCALE_PATTERN.test(locale)) {
-      errors.push(`records[${index}].locale is invalid`);
+    } else if (!registeredLocale) {
+      errors.push(`records[${index}].locale must be a registered global locale`);
+    } else if (registeredLocale.status !== "active") {
+      errors.push(`records[${index}].locale ${canonicalLocale} is not active`);
     }
 
-    const hasTitle = typeof title === "string";
-    const hasSummary = typeof summary === "string";
-    const hasBody = typeof bodyContent === "string";
+    const hasTitle = typeof title === "string" && title.trim().length > 0;
+    const hasSummary = typeof summary === "string" && summary.trim().length > 0;
+    const hasBody = typeof bodyContent === "string" && bodyContent.trim().length > 0;
 
     if (!hasTitle && !hasSummary && !hasBody) {
-      errors.push(`records[${index}] must include at least one of title, summary, or body`);
+      errors.push(`records[${index}] must include at least one non-empty title, summary, or body`);
     }
-    if (title !== undefined && !hasTitle) {
+    if (title !== undefined && typeof title !== "string") {
       errors.push(`records[${index}].title must be a string when provided`);
     }
-    if (summary !== undefined && !hasSummary) {
+    if (summary !== undefined && typeof summary !== "string") {
       errors.push(`records[${index}].summary must be a string when provided`);
     }
-    if (bodyContent !== undefined && !hasBody) {
+    if (bodyContent !== undefined && typeof bodyContent !== "string") {
       errors.push(`records[${index}].body must be a string when provided`);
     }
 
-    if (lessonId && locale && (hasTitle || hasSummary || hasBody)) {
+    if (lessonId && registeredLocale && registeredLocale.status === "active" && (hasTitle || hasSummary || hasBody)) {
       records.push({
         lessonId,
-        locale,
-        ...(hasTitle ? { title: title as string } : {}),
-        ...(hasSummary ? { summary: summary as string } : {}),
-        ...(hasBody ? { body: bodyContent as string } : {}),
+        locale: canonicalLocale,
+        ...(hasTitle ? { title: (title as string).trim() } : {}),
+        ...(hasSummary ? { summary: (summary as string).trim() } : {}),
+        ...(hasBody ? { body: (bodyContent as string).trim() } : {}),
       });
     }
   });
