@@ -37,40 +37,18 @@ function buildStoredZip(files: Array<{ path: string; content: Buffer }>) {
     const checksum = crc32(file.content);
     const localHeader = Buffer.concat([
       Buffer.from([0x50, 0x4b, 0x03, 0x04]),
-      writeUInt16LE(20),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt32LE(checksum),
-      writeUInt32LE(file.content.length),
-      writeUInt32LE(file.content.length),
-      writeUInt16LE(pathBuffer.length),
-      writeUInt16LE(0),
-      pathBuffer,
-      file.content,
+      writeUInt16LE(20), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0),
+      writeUInt32LE(checksum), writeUInt32LE(file.content.length), writeUInt32LE(file.content.length),
+      writeUInt16LE(pathBuffer.length), writeUInt16LE(0), pathBuffer, file.content,
     ]);
     localParts.push(localHeader);
 
     const centralHeader = Buffer.concat([
       Buffer.from([0x50, 0x4b, 0x01, 0x02]),
-      writeUInt16LE(20),
-      writeUInt16LE(20),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt32LE(checksum),
-      writeUInt32LE(file.content.length),
-      writeUInt32LE(file.content.length),
-      writeUInt16LE(pathBuffer.length),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt16LE(0),
-      writeUInt32LE(0),
-      writeUInt32LE(offset),
-      pathBuffer,
+      writeUInt16LE(20), writeUInt16LE(20), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0),
+      writeUInt32LE(checksum), writeUInt32LE(file.content.length), writeUInt32LE(file.content.length),
+      writeUInt16LE(pathBuffer.length), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0), writeUInt16LE(0),
+      writeUInt32LE(0), writeUInt32LE(offset), pathBuffer,
     ]);
     centralParts.push(centralHeader);
     offset += localHeader.length;
@@ -78,16 +56,10 @@ function buildStoredZip(files: Array<{ path: string; content: Buffer }>) {
 
   const centralDirectory = Buffer.concat(centralParts);
   const endRecord = Buffer.concat([
-    Buffer.from([0x50, 0x4b, 0x05, 0x06]),
-    writeUInt16LE(0),
-    writeUInt16LE(0),
-    writeUInt16LE(files.length),
-    writeUInt16LE(files.length),
-    writeUInt32LE(centralDirectory.length),
-    writeUInt32LE(offset),
-    writeUInt16LE(0),
+    Buffer.from([0x50, 0x4b, 0x05, 0x06]), writeUInt16LE(0), writeUInt16LE(0),
+    writeUInt16LE(files.length), writeUInt16LE(files.length), writeUInt32LE(centralDirectory.length),
+    writeUInt32LE(offset), writeUInt16LE(0),
   ]);
-
   return Buffer.concat([...localParts, centralDirectory, endRecord]);
 }
 
@@ -99,9 +71,7 @@ function buildRejectedSummary(files: ExtractedFile[]) {
 
 export async function createExportPackage(batch: UploadBatch) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
-  if (approvedFiles.length === 0) {
-    throw new Error("At least one file must be approved before exporting.");
-  }
+  if (approvedFiles.length === 0) throw new Error("At least one file must be approved before exporting.");
 
   const normalizedFiles = approvedFiles.map((file) => ({
     destination: verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination),
@@ -114,6 +84,7 @@ export async function createExportPackage(batch: UploadBatch) {
     batchId: batch.id,
     batchName: batch.name,
     generatedAt: nowIso(),
+    expectedRecordCount: approvedFiles.length,
     approvedCount: approvedFiles.length,
     files: normalizedFiles.map((entry) => ({
       id: entry.file.id,
@@ -123,24 +94,22 @@ export async function createExportPackage(batch: UploadBatch) {
       classification: entry.file.classification,
     })),
   };
-  const warnings = {
-    warnings: [...batch.warnings, ...batch.files.flatMap((file) => file.warnings), ...validation.warnings],
-  };
+  const warnings = { warnings: [...batch.warnings, ...batch.files.flatMap((file) => file.warnings), ...validation.warnings] };
   const auditSummary = batch.auditHistory.map((event: AuditEvent) => ({
-    timestamp: event.timestamp,
-    action: event.action,
-    actor: event.actor,
-    fileId: event.fileId ?? null,
-    result: event.result,
+    timestamp: event.timestamp, action: event.action, actor: event.actor, fileId: event.fileId ?? null, result: event.result,
   }));
   const rejectedFiles = buildRejectedSummary(batch.files);
 
+  // Batch ID is intentionally part of the staging path. Batch names are reusable
+  // (for example "August Content Drop"), so slug-only paths caused sequential
+  // language PRs to modify the same manifest and conflict after the first merge.
+  const stagingRoot = `curriculum/staging/content-upload/${slugify(batch.slug)}/${batch.id}`;
   const archiveFiles = [
     ...normalizedFiles.map((entry) => ({ path: entry.destination, content: entry.content })),
-    { path: `curriculum/staging/content-upload/${slugify(batch.slug)}/manifest.json`, content: Buffer.from(JSON.stringify(manifest, null, 2)) },
-    { path: `curriculum/staging/content-upload/${slugify(batch.slug)}/audit-summary.json`, content: Buffer.from(JSON.stringify(auditSummary, null, 2)) },
-    { path: `curriculum/staging/content-upload/${slugify(batch.slug)}/warnings.json`, content: Buffer.from(JSON.stringify(warnings, null, 2)) },
-    { path: `curriculum/staging/content-upload/${slugify(batch.slug)}/rejected-files.json`, content: Buffer.from(JSON.stringify(rejectedFiles, null, 2)) },
+    { path: `${stagingRoot}/manifest.json`, content: Buffer.from(JSON.stringify(manifest, null, 2)) },
+    { path: `${stagingRoot}/audit-summary.json`, content: Buffer.from(JSON.stringify(auditSummary, null, 2)) },
+    { path: `${stagingRoot}/warnings.json`, content: Buffer.from(JSON.stringify(warnings, null, 2)) },
+    { path: `${stagingRoot}/rejected-files.json`, content: Buffer.from(JSON.stringify(rejectedFiles, null, 2)) },
   ];
 
   const archive = buildStoredZip(archiveFiles);
@@ -151,10 +120,10 @@ export async function createExportPackage(batch: UploadBatch) {
     batchId: batch.id,
     fileName,
     storagePath: `exports/${exportId}.zip`,
-    manifestPath: `curriculum/staging/content-upload/${slugify(batch.slug)}/manifest.json`,
-    auditSummaryPath: `curriculum/staging/content-upload/${slugify(batch.slug)}/audit-summary.json`,
-    warningsPath: `curriculum/staging/content-upload/${slugify(batch.slug)}/warnings.json`,
-    rejectedFilesPath: `curriculum/staging/content-upload/${slugify(batch.slug)}/rejected-files.json`,
+    manifestPath: `${stagingRoot}/manifest.json`,
+    auditSummaryPath: `${stagingRoot}/audit-summary.json`,
+    warningsPath: `${stagingRoot}/warnings.json`,
+    rejectedFilesPath: `${stagingRoot}/rejected-files.json`,
     createdAt: nowIso(),
     validation,
   };
