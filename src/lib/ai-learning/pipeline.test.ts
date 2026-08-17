@@ -43,7 +43,7 @@ test("AI pipeline rejects unknown track and membership values", () => {
     lessonId: "not valid!",
     topic: null,
     language: "not a locale",
-    membership: "premium" as never,
+    membership: "vip" as never,
     jurisdiction: "",
     country: "",
     progressPercent: -10,
@@ -57,5 +57,6 @@ test("AI pipeline rejects unknown track and membership values", () => {
   assert.equal(normalized.level, null);
   assert.equal(normalized.lessonId, null);
   assert.equal(normalized.language, "en");
+  assert.equal(normalized.membership, "public");
   assert.equal(normalized.progressPercent, 0);
 });
