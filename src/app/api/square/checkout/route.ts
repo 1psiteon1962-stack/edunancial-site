@@ -52,9 +52,9 @@ export async function POST(request: Request) {
     const { id = "", price = 0, currency = "USD", memberEmail } = body;
     const canonicalPlanId = resolveMembershipPlanId(id);
     const plan = membershipPlans.find((candidate) => candidate.id === canonicalPlanId);
-    const item = resolveCatalogItem(canonicalPlanId);
+    const item = canonicalPlanId ? resolveCatalogItem(canonicalPlanId) : undefined;
 
-    if (!id || !plan || !item?.membershipPlanId) {
+    if (!id || !canonicalPlanId || !plan || !item?.membershipPlanId) {
       return attachRequestHeaders(NextResponse.json({ success: false, error: "A valid membership plan is required.", requestId }, { status: 400 }), requestId);
     }
     if (plan.id === "beta" && !plan.isPublic) {
