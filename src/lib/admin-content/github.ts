@@ -128,9 +128,10 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     curriculumAsset: Awaited<ReturnType<typeof detectCurriculumAsset>>;
     bundledLessons: Awaited<ReturnType<typeof detectBundledCurriculumLessons>>;
     curriculumTranslation: CurriculumTranslationJson | null;
+    translationBlockedReason: string | null;
   };
 
-  const resolvedFiles: ResolvedFile[] = await Promise.all(
+  const resolvedCandidates: ResolvedFile[] = await Promise.all(
     approvedFiles.map(async (file) => {
       const originalContent = Buffer.from(file.encodedContent, "base64").toString("utf8");
       const curriculumAsset = file.extension === ".md"
@@ -144,20 +145,40 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         ? detectTranslationJson(originalContent)
         : null;
 
-      if (curriculumTranslation && !existingLessonIds.has(curriculumTranslation.lessonId)) {
-        throw new Error(
-          `Curriculum translation upload blocked: ${file.originalFilename} references ` +
-          `${curriculumTranslation.lessonId}, but that canonical lesson is not an active lesson in ${CURRICULUM_REGISTRY_PATH}. ` +
-          `Publish/register the canonical lesson first; translations may not create orphan lesson identities.`,
-        );
-      }
+      const translationBlockedReason =
+        curriculumTranslation && !existingLessonIds.has(curriculumTranslation.lessonId)
+          ? `${file.originalFilename} references ${curriculumTranslation.lessonId}, but that canonical lesson is not an active lesson in ${CURRICULUM_REGISTRY_PATH}.`
+          : null;
 
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.destinationPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
-      return { ...file, resolvedDestination, curriculumAsset, bundledLessons, curriculumTranslation };
+      return {
+        ...file,
+        resolvedDestination,
+        curriculumAsset,
+        bundledLessons,
+        curriculumTranslation,
+        translationBlockedReason,
+      };
     }),
   );
+
+  // Translation files are overlays only. They may never create canonical lesson
+  // identities. Quarantine orphan translations instead of failing the entire
+  // approved batch so valid translations can continue through publication.
+  const blockedTranslationFiles = resolvedCandidates.filter((file) => file.translationBlockedReason !== null);
+  const resolvedFiles = resolvedCandidates.filter((file) => file.translationBlockedReason === null);
+
+  if (resolvedFiles.length === 0) {
+    const blockedLessonIds = blockedTranslationFiles
+      .map((file) => file.curriculumTranslation?.lessonId)
+      .filter((value): value is string => Boolean(value));
+    throw new Error(
+      `No publishable approved files remain. ${blockedTranslationFiles.length} orphan curriculum translation file(s) were quarantined because their canonical lessons are not active in ${CURRICULUM_REGISTRY_PATH}. ` +
+      `Blocked lesson IDs: ${blockedLessonIds.join(", ") || "unknown"}. Publish/register canonical lessons first; translations may not create lesson identities.`,
+    );
+  }
 
   const bundledCurriculumFiles = resolvedFiles.flatMap((file) =>
     file.bundledLessons.map((lesson) => ({
@@ -297,6 +318,12 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     curriculumTranslationLessonId: file.curriculumTranslation?.lessonId ?? null,
     curriculumTranslationLocales: file.curriculumTranslation?.locales ?? [],
   }));
+  const quarantinedTranslations = blockedTranslationFiles.map((file) => ({
+    sourceFilename: file.originalFilename,
+    lessonId: file.curriculumTranslation?.lessonId ?? null,
+    locales: file.curriculumTranslation?.locales ?? [],
+    reason: file.translationBlockedReason,
+  }));
   const manifest = {
     batchId: batch.id,
     exportId: exportPackage.id,
@@ -308,6 +335,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     curriculumAssets: totalCurriculumAssets,
     curriculumTranslations: totalCurriculumTranslations,
     curriculumTranslationLocales: totalTranslationLocales,
+    quarantinedCurriculumTranslations: quarantinedTranslations,
   };
   const manifestBlob = await githubRequest("/git/blobs", {
     method: "POST",
@@ -343,7 +371,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   });
 
   const counts = {
-    approved: resolvedFiles.length,
+    approved: approvedFiles.length,
+    published: resolvedFiles.length,
+    quarantinedTranslations: blockedTranslationFiles.length,
     rejected: batch.files.filter((file) => file.reviewStatus === "rejected").length,
     duplicates: batch.files.filter((file) => file.conflictStatus === "exact-duplicate" || file.conflictStatus === "probable-duplicate").length,
     conflicts: batch.files.filter((file) => file.conflictStatus === "destination-conflict" || file.conflictStatus === "classification-conflict").length,
@@ -357,6 +387,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     const translation = file.curriculumTranslation!;
     return `${translation.lessonId} [${translation.locales.join(", ")}]`;
   });
+  const quarantinedSummary = blockedTranslationFiles.map((file) =>
+    `${file.curriculumTranslation?.lessonId ?? file.originalFilename} (${file.originalFilename})`,
+  );
 
   const pr = await githubRequest("/pulls", {
     method: "POST",
@@ -368,6 +401,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Batch ID: ${batch.id}`,
         `Upload source: ${batch.source}`,
         `Approved: ${counts.approved}`,
+        `Published in this PR: ${counts.published}`,
+        `Quarantined orphan translations: ${counts.quarantinedTranslations}`,
         `Rejected: ${counts.rejected}`,
         `Duplicates: ${counts.duplicates}`,
         `Conflicts: ${counts.conflicts}`,
@@ -375,6 +410,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Curriculum translation files: ${totalCurriculumTranslations}`,
         `Curriculum translation locales: ${totalTranslationLocales}`,
         `Translation lessons: ${translationSummary.join("; ") || "None"}`,
+        `Quarantined translation lessons: ${quarantinedSummary.join("; ") || "None"}`,
         `Registry updated in PR: ${registryIncludedInPr}`,
         `Validation success: ${validation.success}`,
         `Validation warnings: ${validation.warnings.join("; ") || "None"}`,
