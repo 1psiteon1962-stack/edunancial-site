@@ -1,26 +1,10 @@
 /**
  * POST /api/admin/content/upload/presign
  *
- * Phase 1 of the two-phase upload flow that bypasses Netlify's 6 MB
- * serverless-function request-body limit.
- *
- * Accepts batch metadata and a list of file descriptors (name / size / type
- * only — no file content).  Returns a storage path and, when
- * SUPABASE_SERVICE_ROLE_KEY is configured, a time-limited signed upload URL
- * for each file so the browser can PUT the bytes directly to Supabase Storage.
- *
- * If signed URLs are unavailable (no SUPABASE_SERVICE_ROLE_KEY, or local dev)
- * the response sets both signedUrl and directUpload to null so the upload
- * client falls back to the legacy server-proxied upload endpoint, which reads
- * the file bytes on the server and writes to storage using the service-role
- * key — bypassing RLS entirely.
- *
- * The previous anon-key directUpload fallback has been intentionally removed.
- * Browser uploads authenticated only with the anon key are subject to Supabase
- * RLS policies on storage.objects; without an explicit INSERT policy for the
- * anon role every such upload fails with HTTP 400 / "new row violates
- * row-level security policy".  Using the server-proxied fallback avoids this
- * because the server holds SUPABASE_SERVICE_ROLE_KEY, which bypasses RLS.
+ * Phase 1 of the two-phase upload flow. Production uploads are required to use
+ * a server-generated Supabase signed URL. This avoids Netlify request-body
+ * limits and avoids anonymous storage writes, which are intentionally denied by
+ * RLS.
  */
 import { NextRequest } from "next/server";
 
@@ -29,15 +13,113 @@ import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
-import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
+import { prepareAdminUploadStorageRuntime } from "@/lib/admin-content/storage/runtime";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
 type FileDescriptor = { name: string; size: number; type: string };
 
-// Netlify synchronous functions allow up to 26 s; use the maximum to allow
-// bucket-existence check on cold-start without timing out.
 export const maxDuration = 26;
+
+function isMissingBucketResponse(status: number, bodyText: string) {
+  if (status === 404) return true;
+  try {
+    const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string; message?: string };
+    return (
+      String(body.statusCode ?? "") === "404" ||
+      body.error === "Bucket not found" ||
+      (body.message ?? "").toLowerCase().includes("bucket not found")
+    );
+  } catch {
+    return false;
+  }
+}
+
+async function assertProductionStorageReady() {
+  const runtime = prepareAdminUploadStorageRuntime();
+  if (process.env.NODE_ENV !== "production") return runtime;
+
+  const response = await fetch(
+    `${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(runtime.bucket)}`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Bearer " + runtime.serviceRoleKey,
+        apikey: runtime.serviceRoleKey,
+      },
+      cache: "no-store",
+    },
+  ).catch(() => null);
+
+  if (!response) {
+    throw new Error(
+      "Admin upload storage health check failed: Supabase Storage is unreachable. " +
+        "No file was uploaded; verify the Supabase project URL and project availability.",
+    );
+  }
+
+  const contentType = response.headers.get("content-type") ?? "";
+  const bodyText = await response.text();
+  if (contentType.toLowerCase().includes("text/html")) {
+    throw new Error(
+      "Admin upload storage health check failed: NEXT_PUBLIC_SUPABASE_URL returned HTML instead of the Supabase Storage API. " +
+        "No file was uploaded; correct the production Supabase project URL.",
+    );
+  }
+
+  if (response.ok) return runtime;
+
+  if (!isMissingBucketResponse(response.status, bodyText)) {
+    throw new Error(
+      `Admin upload storage health check failed (HTTP ${response.status}). ` +
+        "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and Supabase Storage availability.",
+    );
+  }
+
+  // The canonical bucket is missing. Create it before the browser receives any
+  // upload URL, then verify it immediately. This makes a missing bucket
+  // self-healing instead of a recurring upload failure.
+  const createResponse = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket`, {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + runtime.serviceRoleKey,
+      apikey: runtime.serviceRoleKey,
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({ id: runtime.bucket, name: runtime.bucket, public: false }),
+    cache: "no-store",
+  });
+
+  if (!createResponse.ok) {
+    const createBody = await createResponse.text();
+    const duplicate = /already exists|duplicate/i.test(createBody);
+    if (!duplicate) {
+      throw new Error(
+        `Admin upload storage bucket setup failed (HTTP ${createResponse.status}). ` +
+          "No file was uploaded; verify the production service-role credential.",
+      );
+    }
+  }
+
+  const verify = await fetch(
+    `${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(runtime.bucket)}`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Bearer " + runtime.serviceRoleKey,
+        apikey: runtime.serviceRoleKey,
+      },
+      cache: "no-store",
+    },
+  );
+  if (!verify.ok) {
+    throw new Error(
+      "Admin upload storage bucket could not be verified after setup. No file was uploaded.",
+    );
+  }
+
+  return runtime;
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -52,14 +134,9 @@ export async function POST(request: NextRequest) {
     if (!limited.allowed) throw new Error("Upload rate limit exceeded");
 
     const body = (await request.json()) as Record<string, unknown> & { files?: unknown };
-
-    const fileDescriptors: FileDescriptor[] = Array.isArray(body.files)
-      ? (body.files as FileDescriptor[])
-      : [];
+    const fileDescriptors: FileDescriptor[] = Array.isArray(body.files) ? (body.files as FileDescriptor[]) : [];
     if (!fileDescriptors.length) throw new Error("Select at least one file to upload.");
 
-    // Eagerly validate the upload config so the client gets a clear error
-    // before it starts uploading any bytes.
     const configFormData = new FormData();
     for (const [key, value] of Object.entries(body)) {
       if (key !== "files" && (typeof value === "string" || typeof value === "number")) {
@@ -68,17 +145,11 @@ export async function POST(request: NextRequest) {
     }
     parseUploadConfig(configFormData);
 
-    const storage: AdminContentStorage | null = (() => {
-      try {
-        return getAdminContentStorage();
-      } catch {
-        // Storage is not configured (e.g. Supabase env vars absent in this
-        // deployment).  The presign response will carry null signedUrl and null
-        // directUpload for every file; the upload client will fall through to
-        // the legacy single-request upload endpoint automatically.
-        return null;
-      }
-    })();
+    // Production must pass storage readiness before any upload starts. Do not
+    // silently fall through to a weaker path when credentials/bucket are broken.
+    await assertProductionStorageReady();
+    const storage = getAdminContentStorage();
+
     const batchName = (
       String(body.batchName ?? "") || "Content Upload " + new Date().toISOString().slice(0, 10)
     ).trim();
@@ -86,89 +157,19 @@ export async function POST(request: NextRequest) {
     const batchSlug = slugify(batchName);
     const contentDestination = String(body.contentDestination ?? "").trim() || "uploads";
 
-    // The anon key is NEXT_PUBLIC — safe to include in API responses for the
-    // admin portal, which is already behind session + CSRF guards.
-    const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/, "") || null;
-    const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? null;
-    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? null;
-    const bucket =
-      process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ??
-      process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ??
-      null;
-
-    // Validate Supabase connectivity early — this surfaces a misconfigured
-    // NEXT_PUBLIC_SUPABASE_URL (e.g. pointing at the Netlify site instead of
-    // Supabase) or a missing bucket before the browser receives a cryptic HTML
-    // 404 from the direct-upload XHR.
-    //
-    // Run this check whenever any Supabase key is configured (service-role or
-    // anon), unconditionally of which upload path will be taken.  When a
-    // service-role key IS set, SupabaseObjectStorage.ensureBucketExists() also
-    // performs this validation inside getSignedUploadUrl(); this pre-flight
-    // check provides an earlier signal and catches the HTML-response scenario
-    // for all code paths.
-    const checkKey = serviceRoleKey ?? anonKey;
-    if (supabaseUrl && checkKey && bucket) {
-      const bucketCheck = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
-        method: "GET",
-        headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
-        cache: "no-store",
-      }).catch(() => null);
-
-      if (!bucketCheck) {
-        // Network-level failure — cannot reach Supabase at all.
-        throw new Error(
-          `Cannot reach Supabase Storage at ${supabaseUrl}. ` +
-            "Verify NEXT_PUBLIC_SUPABASE_URL is set to your Supabase project URL " +
-            "(e.g. https://xyz.supabase.co) and that the Supabase project is online.",
-        );
-      }
-
-      // An HTML response (Content-Type: text/html) means NEXT_PUBLIC_SUPABASE_URL
-      // is pointing to the wrong host — for example the Netlify site URL.  If
-      // we proceeded, the presign route would construct a directUpload URL
-      // pointing at the same wrong host, and the browser would receive HTML 404
-      // from the direct-upload XHR instead of a Supabase JSON response.
-      const contentType = bucketCheck.headers.get("content-type") ?? "";
-      if (contentType.toLowerCase().includes("text/html")) {
-        throw new Error(
-          `NEXT_PUBLIC_SUPABASE_URL (${supabaseUrl}) appears to be misconfigured — ` +
-            "the Supabase Storage bucket endpoint returned HTML instead of JSON. " +
-            "Set NEXT_PUBLIC_SUPABASE_URL to your Supabase project URL " +
-            "(e.g. https://xyz.supabase.co), not the Netlify site URL.",
-        );
-      }
-
-      if (bucketCheck.status === 404) {
-        throw new Error(
-          `Supabase storage bucket "${bucket}" does not exist. ` +
-            "Create the bucket in your Supabase project (Storage → New bucket), " +
-            "or configure SUPABASE_SERVICE_ROLE_KEY so the server can create it automatically.",
-        );
-      }
-    }
-
     const uploads = await Promise.all(
       fileDescriptors.map(async (file) => {
         const uploadId = createId("upload");
         const safeName = assertValidUploadName(file.name);
         const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
-        console.log(`[presign] file=${file.name} batchId=${batchId} uploadId=${uploadId} storagePath=${storagePath}`);
+        const signedUrl = await storage.getSignedUploadUrl(storagePath);
 
-        // Try signed URL first (requires SUPABASE_SERVICE_ROLE_KEY on server).
-        // When a signed URL is available the browser PUTs directly to Supabase;
-        // the signed-URL token authenticates the upload and bypasses RLS.
-        //
-        // When no signed URL is available, both signedUrl and directUpload are
-        // null so the upload client falls back to the server-proxied legacy
-        // endpoint, which sends file bytes through the Next.js function.  The
-        // server writes to storage using SUPABASE_SERVICE_ROLE_KEY (bypasses
-        // RLS).  The anon-key direct-upload path has been intentionally removed
-        // because browser uploads authenticated with only the anon key are
-        // subject to RLS — without an explicit INSERT policy for the anon role
-        // every such upload fails with HTTP 400 / RLS violation.
-        const signedUrl = storage ? await storage.getSignedUploadUrl(storagePath) : null;
-        console.log(`[presign] storagePath=${storagePath} signedUrl=${signedUrl ? "obtained" : "null (will use server-proxied upload)"}`);
+        if (process.env.NODE_ENV === "production" && !signedUrl) {
+          throw new Error(
+            "Admin upload storage is configured but could not issue a signed upload URL. " +
+              "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and retry.",
+          );
+        }
 
         return {
           uploadId,
@@ -185,13 +186,11 @@ export async function POST(request: NextRequest) {
     const err = error as Error;
     const body: Record<string, unknown> = {
       success: false,
-      error: err.message ?? "Presign failed.",
+      error: err.message ?? "Upload preparation failed.",
       reason: err.name ?? "UnknownError",
-      status: 400,
+      status: 503,
     };
-    if (process.env.NODE_ENV !== "production") {
-      body.stack = err.stack;
-    }
-    return Response.json(body, { status: 400 });
+    if (process.env.NODE_ENV !== "production") body.stack = err.stack;
+    return Response.json(body, { status: 503 });
   }
 }
