@@ -11,6 +11,7 @@ import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squar
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
+import { hasPaymentPersistenceConfig, persistCheckoutInitiation } from "@/lib/payments/persistence";
 
 interface PaymentLinkRequestBody {
   itemId?: string;
@@ -43,14 +44,12 @@ export async function POST(request: Request) {
       return attachRequestHeaders(response, requestId);
     }
 
-    if (!isSquareVerifiedCheckoutEnabled()) {
-      const response = NextResponse.json({ success: false, error: "Square production credentials are not fully configured.", requestId }, { status: 503 });
+    if (!isSquareVerifiedCheckoutEnabled() || !hasPaymentPersistenceConfig()) {
+      const response = NextResponse.json({ success: false, error: "Square production checkout is not fully configured.", requestId }, { status: 503 });
       recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
       return attachRequestHeaders(response, requestId);
     }
 
-    // Fail closed: no checkout link is created until Square confirms that the
-    // verified webhook subscription exists and its signing key is available.
     await ensureSquareWebhookSubscription();
 
     const body = (await request.json()) as PaymentLinkRequestBody;
@@ -77,9 +76,10 @@ export async function POST(request: Request) {
     const lineItems = [{ name: item.name, quantity: "1", base_price_money: { amount: Math.round(item.price * 100), currency: item.currency.toUpperCase() } }];
     const orderDiscounts = discountApplied ? [{ name: discountDescription ?? "Promotional Discount", type: "FIXED_AMOUNT", amount_money: { amount: Math.round((item.price - finalPrice) * 100), currency: item.currency.toUpperCase() } }] : undefined;
     const successParams = new URLSearchParams({ item: item.id, type: item.type, ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}), ...(item.contentId ? { content: item.contentId } : {}) });
+    const idempotencyKey = `${requestId}-${item.id}`;
 
     const squarePayload: Record<string, unknown> = {
-      idempotency_key: `${requestId}-${item.id}`,
+      idempotency_key: idempotencyKey,
       order: {
         location_id: squareConfig.locationId,
         line_items: lineItems,
@@ -114,6 +114,19 @@ export async function POST(request: Request) {
     const parsedUrl = new URL(checkoutUrl);
     if (parsedUrl.protocol !== "https:" || !isAllowedSquareCheckoutHost(parsedUrl.hostname)) throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
 
+    await persistCheckoutInitiation({
+      item,
+      customerEmail,
+      amountRequested: finalPrice,
+      currency: item.currency,
+      discountCode,
+      discountAmount: item.price - finalPrice,
+      squarePaymentLinkId: squareData.payment_link?.id,
+      squareOrderId: squareData.payment_link?.order_id,
+      idempotencyKey,
+      metadata: { requestId, itemType: item.type },
+    });
+
     if (discountApplied && discountCode) recordDiscountRedemption(discountCode);
 
     const response = NextResponse.json({ success: true, checkoutUrl, itemId: item.id, itemType: item.type, planId: item.membershipPlanId, contentId: item.contentId, originalPrice: item.price, finalPrice, discountApplied, squarePaymentLinkId: squareData.payment_link?.id, squareOrderId: squareData.payment_link?.order_id, requestId });
@@ -121,7 +134,7 @@ export async function POST(request: Request) {
     return attachRequestHeaders(response, requestId);
   } catch (error) {
     logStructuredError(error, { ...getRequestContext(request, requestId), route });
-    const response = NextResponse.json({ success: false, error: "Square checkout could not be activated. Verified webhook setup must succeed before payment is accepted.", requestId }, { status: 503 });
+    const response = NextResponse.json({ success: false, error: "Square checkout could not be activated. Verified webhook and persistent payment storage must be available before payment is accepted.", requestId }, { status: 503 });
     recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   }
