@@ -5,9 +5,18 @@ import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
 import { applyAuthoritativeMembershipEntitlement } from "@/lib/member/entitlements";
 import { isSquareVerifiedCheckoutEnabled, verifyManagedSquareWebhookSignature } from "@/lib/square";
-import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
-import { claimWebhookEvent } from "@/lib/payments/webhookIdempotency";
+import { resolveCatalogItem } from "@/lib/payments/catalog";
+import {
+  claimPersistentWebhookEvent,
+  findOrderBySquareOrderId,
+  hasPaymentPersistenceConfig,
+  markPersistentWebhookEventProcessed,
+  persistMembershipActivation,
+  recordSquarePayment,
+  releasePersistentWebhookEvent,
+  type NormalizedSquarePayment,
+} from "@/lib/payments/persistence";
 
 interface SquareWebhookEvent {
   merchant_id?: string;
@@ -17,10 +26,54 @@ interface SquareWebhookEvent {
   data?: { type?: string; id?: string; object?: Record<string, unknown> };
 }
 
+function asRecord(value: unknown): Record<string, unknown> | null {
+  return value && typeof value === "object" && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : null;
+}
+
+function stringValue(value: unknown) {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
+function normalizePayment(eventObject: Record<string, unknown>): NormalizedSquarePayment | null {
+  const payment = asRecord(eventObject.payment) ?? eventObject;
+  const amountMoney = asRecord(payment.amount_money);
+  const amountMinor = typeof amountMoney?.amount === "number"
+    ? amountMoney.amount
+    : typeof amountMoney?.amount === "string"
+      ? Number(amountMoney.amount)
+      : 0;
+
+  const paymentId = stringValue(payment.id) ?? stringValue(eventObject.id);
+  const orderId = stringValue(payment.order_id);
+  const status = (stringValue(payment.status) ?? "UNKNOWN").toUpperCase();
+  const currency = (stringValue(amountMoney?.currency) ?? "USD").toUpperCase();
+  const customerEmail =
+    stringValue(payment.buyer_email_address) ??
+    stringValue(payment.customer_email) ??
+    stringValue(eventObject.customer_email) ??
+    stringValue(eventObject.email_address);
+
+  if (!paymentId && !orderId) return null;
+
+  return {
+    paymentId,
+    orderId,
+    customerId: stringValue(payment.customer_id),
+    status,
+    amount: Number.isFinite(amountMinor) ? amountMinor / 100 : 0,
+    currency,
+    customerEmail,
+    raw: payment,
+  };
+}
+
 export async function POST(request: Request) {
   const start = Date.now();
   const requestId = getRequestId(request.headers);
   const route = "/api/square/webhook";
+  let claimedEventId = "";
 
   try {
     const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
@@ -35,8 +88,8 @@ export async function POST(request: Request) {
     const rawBody = await request.text();
     const signatureHeader = request.headers.get("x-square-hmacsha256-signature");
 
-    if (!isSquareVerifiedCheckoutEnabled()) {
-      const response = NextResponse.json({ success: false, error: "Square production credentials are not fully configured.", requestId }, { status: 503 });
+    if (!isSquareVerifiedCheckoutEnabled() || !hasPaymentPersistenceConfig()) {
+      const response = NextResponse.json({ success: false, error: "Square production payment processing is not fully configured.", requestId }, { status: 503 });
       recordRequestMetric({ method: request.method, route, status: 503, durationMs: Date.now() - start });
       return attachRequestHeaders(response, requestId);
     }
@@ -51,49 +104,80 @@ export async function POST(request: Request) {
     const eventType = event.type ?? "unknown";
     const eventId = event.event_id ?? "";
 
-    if (eventId) {
-      const claimed = claimWebhookEvent(eventId, eventType);
-      if (!claimed) {
-        const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
-        recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
-        return attachRequestHeaders(response, requestId);
+    if (!eventId) {
+      return attachRequestHeaders(NextResponse.json({ success: false, error: "Square event_id is required.", requestId }, { status: 400 }), requestId);
+    }
+
+    const claimed = await claimPersistentWebhookEvent({
+      eventId,
+      eventType,
+      rawPayload: event as unknown as Record<string, unknown>,
+    });
+    if (!claimed) {
+      const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
+      recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
+    }
+    claimedEventId = eventId;
+
+    const eventObject = event.data?.object ?? {};
+    const payment = eventType === "payment.created" || eventType === "payment.updated"
+      ? normalizePayment(eventObject)
+      : null;
+
+    let processed = false;
+    let membershipStatus: string | undefined;
+    let nextRoute: string | undefined;
+
+    if (payment) {
+      const order = payment.orderId ? await findOrderBySquareOrderId(payment.orderId) : null;
+      await recordSquarePayment(payment, order);
+
+      if (payment.status === "COMPLETED" && order) {
+        const item = resolveCatalogItem(order.catalog_item_id);
+        if (item?.membershipPlanId) {
+          const email = order.customer_email ?? payment.customerEmail;
+          if (!email) {
+            throw new Error("Completed membership payment has no authoritative customer email.");
+          }
+
+          const activation = await persistMembershipActivation({
+            email,
+            planId: item.membershipPlanId,
+            paymentId: payment.paymentId,
+            customerId: payment.customerId,
+          });
+          await applyAuthoritativeMembershipEntitlement({
+            email,
+            planId: item.membershipPlanId,
+          });
+          processed = true;
+          membershipStatus = "active";
+          nextRoute = activation.nextJourneyRoute;
+        } else {
+          processed = payment.status === "COMPLETED";
+        }
       }
     }
 
-    const lifecycle = processSquareLifecycleEvent(event);
-    const eventObject = event.data?.object ?? {};
-    const customerEmail =
-      typeof eventObject.customer_email === "string"
-        ? eventObject.customer_email
-        : typeof eventObject.email_address === "string"
-          ? eventObject.email_address
-          : null;
-    const membershipPlanId =
-      typeof eventObject.plan_id === "string"
-        ? eventObject.plan_id
-        : typeof eventObject.membership_plan_id === "string"
-          ? eventObject.membership_plan_id
-          : null;
+    await markPersistentWebhookEventProcessed(eventId);
+    claimedEventId = "";
 
-    if (eventType === "payment.completed" && customerEmail && membershipPlanId) {
-      await applyAuthoritativeMembershipEntitlement({
-        email: customerEmail,
-        planId: membershipPlanId,
-      });
-    }
     const response = NextResponse.json({
       success: true,
-      processed: lifecycle.processed,
+      processed,
       eventType,
-      subscriptionId: lifecycle.subscriptionId,
-      membershipStatus: lifecycle.status,
-      nextRoute: lifecycle.nextJourneyRoute,
-      message: lifecycle.processed ? "Webhook processed and membership lifecycle synchronized." : "Event signature verified; no membership lifecycle state change required.",
+      membershipStatus,
+      nextRoute,
+      message: processed ? "Webhook processed and persisted." : "Event signature verified and persisted; no entitlement change required.",
       requestId,
     }, { status: 202 });
     recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   } catch (error) {
+    if (claimedEventId) {
+      await releasePersistentWebhookEvent(claimedEventId).catch(() => undefined);
+    }
     logStructuredError(error, { ...getRequestContext(request, requestId), route });
     const response = NextResponse.json({ success: false, error: "Webhook processing failed", requestId }, { status: 500 });
     recordRequestMetric({ method: request.method, route, status: 500, durationMs: Date.now() - start });
