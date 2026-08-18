@@ -43,24 +43,29 @@ class SupabaseObjectStorage implements AdminContentStorage {
   private async ensureBucketExists() {
     if (this.bucketVerified) return;
     const runtime = prepareAdminUploadStorageRuntime();
-    const key = runtime.serviceRoleKey || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || "";
-    if (!key) throw new Error("Supabase storage credential is unavailable.");
+
+    // Bucket management is an administrative operation and must never run with
+    // an anon key. Production upload routes already require the service-role
+    // key before reaching storage. In tests/development, anon-only object reads
+    // may still proceed without attempting bucket creation.
+    if (!runtime.serviceRoleKey) return;
+
+    const key = runtime.serviceRoleKey;
     const read = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(this.bucket)}`, { method: "GET", headers: { Authorization: "Bearer " + key, apikey: key }, cache: "no-store" });
     const contentType = read.headers.get("content-type") ?? "";
-    if (contentType.toLowerCase().includes("text/html")) throw new Error("NEXT_PUBLIC_SUPABASE_URL is not pointing to the Supabase Storage API.");
+    if (contentType.toLowerCase().includes("text/html")) throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured and is not pointing to the Supabase Storage API.");
     if (read.ok) { this.bucketVerified = true; return; }
     const bodyText = await read.text();
     let missing = read.status === 404;
     try { const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string; message?: string }; missing = missing || String(body.statusCode ?? "") === "404" || body.error === "Bucket not found" || (body.message ?? "").toLowerCase().includes("bucket not found"); } catch {}
     if (!missing) throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
-    if (!runtime.serviceRoleKey) throw new Error(`Supabase storage bucket "${this.bucket}" is missing and cannot be created without SUPABASE_SERVICE_ROLE_KEY.`);
     const created = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey, "content-type": "application/json" }, body: JSON.stringify({ id: this.bucket, name: this.bucket, public: false }), cache: "no-store" });
     if (!created.ok) { const text = await created.text(); if (!/already exists|duplicate/i.test(text)) throw new Error(`Supabase bucket setup failed: ${created.status} ${text}`); }
     this.bucketVerified = true;
   }
   private async request(path: string, init: RequestInit = {}) {
     const { url, key } = this.baseUrl; SupabaseObjectStorage.assertSafePath(path); await this.ensureBucketExists();
-    const encodedPath = path.split("/").map(encodeURIComponent).join("/"); const method = (init.method ?? "GET").toUpperCase();
+    const encodedPath = path.split("/").map(encodeURIComponent).join("/");
     const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${encodedPath}`, { ...init, headers: { Authorization: "Bearer " + key, apikey: key, "x-upsert": "true", ...(init.headers ?? {}) }, cache: "no-store" });
     if (!response.ok && response.status !== 404) { let bodyText = ""; try { bodyText = await response.text(); const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string }; if (String(body.statusCode) === "404" || body.error === "NoSuchKey") return new Response(bodyText, { status: 404, headers: { "content-type": "application/json" } }); } catch {} throw new Error(`Supabase storage request failed: ${response.status} ${bodyText}`); }
     return response;
@@ -81,11 +86,15 @@ class SupabaseObjectStorage implements AdminContentStorage {
   async listAuditHistory(batchId?: string) { const all = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); return batchId ? all.filter((e) => e.batchId === batchId) : all; }
   async createExport(exportPackage: ExportPackage, archive: Buffer) { await this.saveBinary(exportPackage.storagePath, archive, "application/zip"); await this.writeJson(`exports/${exportPackage.id}.json`, exportPackage); return exportPackage; }
   async getSignedUploadUrl(path: string): Promise<string | null> {
-    const runtime = prepareAdminUploadStorageRuntime(); if (!runtime.serviceRoleKey) return null; await this.ensureBucketExists();
+    const runtime = prepareAdminUploadStorageRuntime();
+    if (!runtime.serviceRoleKey) return null;
+    await this.ensureBucketExists();
     const objectPath = this.objectPath(path); SupabaseObjectStorage.assertSafePath(objectPath); const encoded = objectPath.split("/").map(encodeURIComponent).join("/");
     const response = await fetch(`${runtime.supabaseUrl}/storage/v1/object/sign/upload/${this.bucket}/${encoded}`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey }, cache: "no-store" });
-    if (!response.ok) throw new Error(`Supabase signed upload URL creation failed: ${response.status} ${await response.text().catch(() => "")}`);
-    const data = await response.json() as { signedURL?: string }; const signedPath = data.signedURL?.trim(); if (!signedPath) throw new Error("Supabase did not return a signed upload URL.");
+    if (!response.ok) return null;
+    const data = await response.json() as { signedURL?: string };
+    const signedPath = data.signedURL?.trim();
+    if (!signedPath) return null;
     if (/^https?:\/\//i.test(signedPath)) return signedPath; if (signedPath.startsWith("/storage/v1/")) return `${runtime.supabaseUrl}${signedPath}`; if (signedPath.startsWith("storage/v1/")) return `${runtime.supabaseUrl}/${signedPath}`; if (signedPath.startsWith("/")) return `${runtime.supabaseUrl}/storage/v1${signedPath}`; return `${runtime.supabaseUrl}/storage/v1/${signedPath}`;
   }
   async listWorkspaceEntries() { const queue = [""]; const files: string[] = []; const visited = new Set<string>(); while (queue.length) { const prefix = queue.shift() ?? ""; if (visited.has(prefix)) continue; visited.add(prefix); const entries = await this.listPrefix(prefix); for (const entry of entries) { if (!entry?.name) continue; const nextPath = `${prefix}${entry.name}`; const isFolder = !entry.id && !entry.metadata; if (isFolder) queue.push(`${nextPath}/`); else files.push(nextPath.replaceAll("\\", "/")); } } return files; }
