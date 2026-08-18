@@ -53,7 +53,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
     const key = runtime.serviceRoleKey;
     const read = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(this.bucket)}`, { method: "GET", headers: { Authorization: "Bearer " + key, apikey: key }, cache: "no-store" });
     const contentType = read.headers.get("content-type") ?? "";
-    if (contentType.toLowerCase().includes("text/html")) throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured and is not pointing to the Supabase Storage API.");
+    if (contentType.toLowerCase().includes("text/html")) throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or is the wrong Supabase URL: bucket check returned text/html instead of the Supabase Storage API.");
     if (read.ok) { this.bucketVerified = true; return; }
     const bodyText = await read.text();
     let missing = read.status === 404;
