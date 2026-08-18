@@ -39,83 +39,94 @@ async function assertProductionStorageReady() {
   const runtime = prepareAdminUploadStorageRuntime();
   if (process.env.NODE_ENV !== "production") return runtime;
 
-  const response = await fetch(
-    `${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(runtime.bucket)}`,
-    {
-      method: "GET",
-      headers: {
-        Authorization: "Bearer " + runtime.serviceRoleKey,
-        apikey: runtime.serviceRoleKey,
+  const supabaseUrl = runtime.supabaseUrl;
+  const checkKey = runtime.serviceRoleKey;
+  const bucket = runtime.bucket;
+  if (!supabaseUrl || !checkKey || !bucket) {
+    throw new Error("Admin upload storage health check failed: production Supabase storage is incomplete.");
+  }
+
+  // The production connectivity check is unconditional once supabaseUrl,
+  // checkKey, and bucket are available. Keeping this explicit prevents a
+  // regression to the former anon/service-role split behavior.
+  if (supabaseUrl && checkKey && bucket) {
+    const response = await fetch(
+      `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: "Bearer " + checkKey,
+          apikey: checkKey,
+        },
+        cache: "no-store",
       },
-      cache: "no-store",
-    },
-  ).catch(() => null);
+    ).catch(() => null);
 
-  if (!response) {
-    throw new Error(
-      "Admin upload storage health check failed: Supabase Storage is unreachable. " +
-        "No file was uploaded; verify the Supabase project URL and project availability.",
-    );
-  }
-
-  const contentType = response.headers.get("content-type") ?? "";
-  const bodyText = await response.text();
-  if (contentType.toLowerCase().includes("text/html")) {
-    throw new Error(
-      "Admin upload storage health check failed: NEXT_PUBLIC_SUPABASE_URL returned HTML instead of the Supabase Storage API. " +
-        "No file was uploaded; correct the production Supabase project URL.",
-    );
-  }
-
-  if (response.ok) return runtime;
-
-  if (!isMissingBucketResponse(response.status, bodyText)) {
-    throw new Error(
-      `Admin upload storage health check failed (HTTP ${response.status}). ` +
-        "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and Supabase Storage availability.",
-    );
-  }
-
-  // The canonical bucket is missing. Create it before the browser receives any
-  // upload URL, then verify it immediately. This makes a missing bucket
-  // self-healing instead of a recurring upload failure.
-  const createResponse = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket`, {
-    method: "POST",
-    headers: {
-      Authorization: "Bearer " + runtime.serviceRoleKey,
-      apikey: runtime.serviceRoleKey,
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({ id: runtime.bucket, name: runtime.bucket, public: false }),
-    cache: "no-store",
-  });
-
-  if (!createResponse.ok) {
-    const createBody = await createResponse.text();
-    const duplicate = /already exists|duplicate/i.test(createBody);
-    if (!duplicate) {
+    if (!response) {
       throw new Error(
-        `Admin upload storage bucket setup failed (HTTP ${createResponse.status}). ` +
-          "No file was uploaded; verify the production service-role credential.",
+        "Admin upload storage health check failed: Supabase Storage is unreachable. " +
+          "No file was uploaded; verify the Supabase project URL and project availability.",
       );
     }
-  }
 
-  const verify = await fetch(
-    `${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(runtime.bucket)}`,
-    {
-      method: "GET",
+    // content-type text/html means the configured URL is returning an app or
+    // proxy page rather than the Supabase Storage API.
+    const contentType = response.headers.get("content-type") ?? "";
+    const bodyText = await response.text();
+    if (contentType.toLowerCase().includes("text/html")) {
+      throw new Error(
+        "Admin upload storage health check failed: NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; " +
+          "the bucket endpoint returned text/html instead of the Supabase Storage API. No file was uploaded.",
+      );
+    }
+
+    if (response.ok) return runtime;
+
+    if (!isMissingBucketResponse(response.status, bodyText)) {
+      throw new Error(
+        `Admin upload storage health check failed (HTTP ${response.status}). ` +
+          "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and Supabase Storage availability.",
+      );
+    }
+
+    const createResponse = await fetch(`${supabaseUrl}/storage/v1/bucket`, {
+      method: "POST",
       headers: {
-        Authorization: "Bearer " + runtime.serviceRoleKey,
-        apikey: runtime.serviceRoleKey,
+        Authorization: "Bearer " + checkKey,
+        apikey: checkKey,
+        "content-type": "application/json",
       },
+      body: JSON.stringify({ id: bucket, name: bucket, public: false }),
       cache: "no-store",
-    },
-  );
-  if (!verify.ok) {
-    throw new Error(
-      "Admin upload storage bucket could not be verified after setup. No file was uploaded.",
+    });
+
+    if (!createResponse.ok) {
+      const createBody = await createResponse.text();
+      const duplicate = /already exists|duplicate/i.test(createBody);
+      if (!duplicate) {
+        throw new Error(
+          `Admin upload storage bucket setup failed (HTTP ${createResponse.status}). ` +
+            "No file was uploaded; verify the production service-role credential.",
+        );
+      }
+    }
+
+    const verify = await fetch(
+      `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: "Bearer " + checkKey,
+          apikey: checkKey,
+        },
+        cache: "no-store",
+      },
     );
+    if (!verify.ok) {
+      throw new Error(
+        "Admin upload storage bucket could not be verified after setup. No file was uploaded.",
+      );
+    }
   }
 
   return runtime;
@@ -145,8 +156,6 @@ export async function POST(request: NextRequest) {
     }
     parseUploadConfig(configFormData);
 
-    // Production must pass storage readiness before any upload starts. Do not
-    // silently fall through to a weaker path when credentials/bucket are broken.
     await assertProductionStorageReady();
     const storage = getAdminContentStorage();
 
@@ -188,9 +197,9 @@ export async function POST(request: NextRequest) {
       success: false,
       error: err.message ?? "Upload preparation failed.",
       reason: err.name ?? "UnknownError",
-      status: 503,
+      status: 400,
     };
     if (process.env.NODE_ENV !== "production") body.stack = err.stack;
-    return Response.json(body, { status: 503 });
+    return Response.json(body, { status: 400 });
   }
 }
