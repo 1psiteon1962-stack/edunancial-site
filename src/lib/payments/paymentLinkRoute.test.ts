@@ -6,7 +6,12 @@ const ORIGINAL_ENV = { ...process.env };
 
 function restoreEnv() {
   for (const key of Object.keys(process.env)) {
-    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_")) {
+    if (
+      key.startsWith("SQUARE_") ||
+      key.startsWith("NEXT_PUBLIC_SQUARE_") ||
+      key === "NEXT_PUBLIC_SUPABASE_URL" ||
+      key === "SUPABASE_SERVICE_ROLE_KEY"
+    ) {
       delete process.env[key];
     }
   }
@@ -30,6 +35,40 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL =
     "https://edunancial.com/api/square/webhook";
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+  process.env.NEXT_PUBLIC_SUPABASE_URL = "https://fake.supabase.co";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "service-role-key";
+}
+
+function isSupabaseRequest(input: RequestInfo | URL) {
+  return String(input).startsWith("https://fake.supabase.co/");
+}
+
+function supabasePersistenceResponse(input: RequestInfo | URL) {
+  const url = String(input);
+
+  if (url.includes("/rest/v1/orders")) {
+    return new Response(
+      JSON.stringify({
+        id: "order-db-1",
+        catalog_item_id: "test-item",
+        customer_email: null,
+        status: "pending",
+        amount_requested: 1,
+        amount_charged: null,
+        currency: "USD",
+        square_payment_link_id: "square-link-1",
+        square_order_id: "square-order-1",
+        square_payment_id: null,
+        idempotency_key: "request-test-item",
+      }),
+      { status: 200, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+  return new Response(JSON.stringify([]), {
+    status: 200,
+    headers: { "Content-Type": "application/json" },
+  });
 }
 
 beforeEach(() => {
@@ -45,7 +84,9 @@ afterEach(() => {
 test("payment-link route preserves existing membership checkout behavior", async () => {
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (_input, init) => {
+  globalThis.fetch = async (input, init) => {
+    if (isSupabaseRequest(input)) return supabasePersistenceResponse(input);
+
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
       unknown
@@ -54,6 +95,8 @@ test("payment-link route preserves existing membership checkout behavior", async
     return new Response(
       JSON.stringify({
         payment_link: {
+          id: "square-link-1",
+          order_id: "square-order-1",
           url: "https://checkout.squareup.com/c/pay/membership-link",
         },
       }),
@@ -179,6 +222,8 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   let capturedPayload: Record<string, unknown> | null = null;
 
   globalThis.fetch = async (input, init) => {
+    if (isSupabaseRequest(input)) return supabasePersistenceResponse(input);
+
     capturedUrl = String(input);
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
@@ -188,6 +233,8 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
     return new Response(
       JSON.stringify({
         payment_link: {
+          id: "square-link-1",
+          order_id: "square-order-1",
           url: "https://checkout.squareup.com/c/pay/test-link",
         },
       }),
