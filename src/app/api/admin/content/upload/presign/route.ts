@@ -3,6 +3,8 @@
  *
  * Signed uploads are preferred, but failure to create a signed URL must not
  * disable the previously working server-proxied upload path for small files.
+ * A lightweight Supabase connectivity check remains in place so a wrong host
+ * is diagnosed clearly without turning signed upload into a hard dependency.
  */
 import { NextRequest } from "next/server";
 
@@ -16,6 +18,41 @@ import { createId, slugify } from "@/lib/admin-content/utils";
 
 type FileDescriptor = { name: string; size: number; type: string };
 export const maxDuration = 26;
+
+async function checkSupabaseConnectivity(): Promise<void> {
+  const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/u, "");
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+  const checkKey = serviceRoleKey || anonKey;
+  const bucket =
+    process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ??
+    process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ??
+    "";
+
+  if (supabaseUrl && checkKey && bucket) {
+    const response = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
+      method: "GET",
+      headers: {
+        Authorization: "Bearer " + checkKey,
+        apikey: checkKey,
+      },
+      cache: "no-store",
+    }).catch(() => null);
+
+    if (!response) {
+      console.warn("[presign] Supabase connectivity check failed; signed upload may be unavailable and legacy fallback will be used.");
+      return;
+    }
+
+    const contentType = response.headers.get("content-type") ?? "";
+    if (contentType.toLowerCase().includes("text/html")) {
+      throw new Error(
+        "NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; " +
+          "the Supabase bucket endpoint returned text/html.",
+      );
+    }
+  }
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -40,6 +77,8 @@ export async function POST(request: NextRequest) {
       }
     }
     parseUploadConfig(configFormData);
+
+    await checkSupabaseConnectivity();
 
     const batchName = (
       String(body.batchName ?? "") || "Content Upload " + new Date().toISOString().slice(0, 10)
