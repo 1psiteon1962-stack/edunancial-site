@@ -25,6 +25,9 @@ create table if not exists public.business_tax_ledger (
 
 create index if not exists business_tax_ledger_due_idx on public.business_tax_ledger (filing_due_at, tax_type, country_code);
 create index if not exists business_tax_ledger_period_idx on public.business_tax_ledger (period_start, period_end);
+create unique index if not exists business_tax_ledger_source_unique_idx
+  on public.business_tax_ledger (source_system, source_reference, tax_type)
+  where source_system is not null and source_reference is not null;
 
 alter table public.business_tax_ledger enable row level security;
 revoke all on public.business_tax_ledger from anon, authenticated;
