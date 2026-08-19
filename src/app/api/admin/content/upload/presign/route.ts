@@ -12,8 +12,8 @@ import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
 import { assertValidUploadName } from "@/lib/admin-content/security";
-import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { prepareAdminUploadStorageRuntime } from "@/lib/admin-content/storage/runtime";
+import { createAdminSignedUploadUrl } from "@/lib/admin-content/storage/signed-upload";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { createId, slugify } from "@/lib/admin-content/utils";
 
@@ -46,87 +46,80 @@ async function assertProductionStorageReady() {
     throw new Error("Admin upload storage health check failed: production Supabase storage is incomplete.");
   }
 
-  // The production connectivity check is unconditional once supabaseUrl,
-  // checkKey, and bucket are available. Keeping this explicit prevents a
-  // regression to the former anon/service-role split behavior.
-  if (supabaseUrl && checkKey && bucket) {
-    const response = await fetch(
-      `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
-      {
-        method: "GET",
-        headers: {
-          Authorization: "Bearer " + checkKey,
-          apikey: checkKey,
-        },
-        cache: "no-store",
-      },
-    ).catch(() => null);
-
-    if (!response) {
-      throw new Error(
-        "Admin upload storage health check failed: Supabase Storage is unreachable. " +
-          "No file was uploaded; verify the Supabase project URL and project availability.",
-      );
-    }
-
-    // content-type text/html means the configured URL is returning an app or
-    // proxy page rather than the Supabase Storage API.
-    const contentType = response.headers.get("content-type") ?? "";
-    const bodyText = await response.text();
-    if (contentType.toLowerCase().includes("text/html")) {
-      throw new Error(
-        "Admin upload storage health check failed: NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; " +
-          "the bucket endpoint returned text/html instead of the Supabase Storage API. No file was uploaded.",
-      );
-    }
-
-    if (response.ok) return runtime;
-
-    if (!isMissingBucketResponse(response.status, bodyText)) {
-      throw new Error(
-        `Admin upload storage health check failed (HTTP ${response.status}). ` +
-          "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and Supabase Storage availability.",
-      );
-    }
-
-    const createResponse = await fetch(`${supabaseUrl}/storage/v1/bucket`, {
-      method: "POST",
+  const response = await fetch(
+    `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
+    {
+      method: "GET",
       headers: {
         Authorization: "Bearer " + checkKey,
         apikey: checkKey,
-        "content-type": "application/json",
       },
-      body: JSON.stringify({ id: bucket, name: bucket, public: false }),
       cache: "no-store",
-    });
+    },
+  ).catch(() => null);
 
-    if (!createResponse.ok) {
-      const createBody = await createResponse.text();
-      const duplicate = /already exists|duplicate/i.test(createBody);
-      if (!duplicate) {
-        throw new Error(
-          `Admin upload storage bucket setup failed (HTTP ${createResponse.status}). ` +
-            "No file was uploaded; verify the production service-role credential.",
-        );
-      }
-    }
-
-    const verify = await fetch(
-      `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
-      {
-        method: "GET",
-        headers: {
-          Authorization: "Bearer " + checkKey,
-          apikey: checkKey,
-        },
-        cache: "no-store",
-      },
+  if (!response) {
+    throw new Error(
+      "Admin upload storage health check failed: Supabase Storage is unreachable. " +
+        "No file was uploaded; verify the Supabase project URL and project availability.",
     );
-    if (!verify.ok) {
+  }
+
+  const contentType = response.headers.get("content-type") ?? "";
+  const bodyText = await response.text();
+  if (contentType.toLowerCase().includes("text/html")) {
+    throw new Error(
+      "Admin upload storage health check failed: NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; " +
+        "the bucket endpoint returned text/html instead of the Supabase Storage API. No file was uploaded.",
+    );
+  }
+
+  if (response.ok) return runtime;
+
+  if (!isMissingBucketResponse(response.status, bodyText)) {
+    throw new Error(
+      `Admin upload storage health check failed (HTTP ${response.status}). ` +
+        "No file was uploaded; verify SUPABASE_SERVICE_ROLE_KEY and Supabase Storage availability.",
+    );
+  }
+
+  const createResponse = await fetch(`${supabaseUrl}/storage/v1/bucket`, {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + checkKey,
+      apikey: checkKey,
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({ id: bucket, name: bucket, public: false }),
+    cache: "no-store",
+  });
+
+  if (!createResponse.ok) {
+    const createBody = await createResponse.text();
+    const duplicate = /already exists|duplicate/i.test(createBody);
+    if (!duplicate) {
       throw new Error(
-        "Admin upload storage bucket could not be verified after setup. No file was uploaded.",
+        `Admin upload storage bucket setup failed (HTTP ${createResponse.status}). ` +
+          "No file was uploaded; verify the production service-role credential.",
       );
     }
+  }
+
+  const verify = await fetch(
+    `${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Bearer " + checkKey,
+        apikey: checkKey,
+      },
+      cache: "no-store",
+    },
+  );
+  if (!verify.ok) {
+    throw new Error(
+      "Admin upload storage bucket could not be verified after setup. No file was uploaded.",
+    );
   }
 
   return runtime;
@@ -157,7 +150,6 @@ export async function POST(request: NextRequest) {
     parseUploadConfig(configFormData);
 
     await assertProductionStorageReady();
-    const storage = getAdminContentStorage();
 
     const batchName = (
       String(body.batchName ?? "") || "Content Upload " + new Date().toISOString().slice(0, 10)
@@ -171,7 +163,7 @@ export async function POST(request: NextRequest) {
         const uploadId = createId("upload");
         const safeName = assertValidUploadName(file.name);
         const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
-        const signedUrl = await storage.getSignedUploadUrl(storagePath);
+        const signedUrl = await createAdminSignedUploadUrl(storagePath);
 
         if (process.env.NODE_ENV === "production" && !signedUrl) {
           throw new Error(
