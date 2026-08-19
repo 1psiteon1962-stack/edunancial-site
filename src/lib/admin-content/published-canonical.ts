@@ -8,22 +8,13 @@ type PublishedStateShape = {
 };
 
 /**
- * Return canonical lesson identities that are already authoritative in the
- * production published-state store. The public curriculum renders from this
- * same state, so translation publication must recognize these lessons even
- * when a historical repository registry has fallen behind.
- *
- * This never creates lesson identities. It only reads already-published active
- * lessons and therefore preserves the orphan-translation safety boundary.
+ * Parse authoritative published-state JSON into canonical active lesson IDs.
+ * This pure helper keeps the safety rule testable without requiring Supabase.
  */
-export async function getAuthoritativePublishedLessonIds(): Promise<Set<string>> {
-  const storage = getAdminContentStorage();
-  const buffer = await storage.readBinary(PUBLISHED_STATE_PATH);
-  if (!buffer) return new Set();
-
+export function extractAuthoritativePublishedLessonIds(raw: string): Set<string> {
   let parsed: PublishedStateShape;
   try {
-    parsed = JSON.parse(buffer.toString("utf8")) as PublishedStateShape;
+    parsed = JSON.parse(raw) as PublishedStateShape;
   } catch {
     return new Set();
   }
@@ -36,4 +27,20 @@ export async function getAuthoritativePublishedLessonIds(): Promise<Set<string>>
     ids.add(id);
   }
   return ids;
+}
+
+/**
+ * Return canonical lesson identities that are already authoritative in the
+ * production published-state store. The public curriculum renders from this
+ * same state, so translation publication must recognize these lessons even
+ * when a historical repository registry has fallen behind.
+ *
+ * This never creates lesson identities. It only reads already-published active
+ * lessons and therefore preserves the orphan-translation safety boundary.
+ */
+export async function getAuthoritativePublishedLessonIds(): Promise<Set<string>> {
+  const storage = getAdminContentStorage();
+  const buffer = await storage.readBinary(PUBLISHED_STATE_PATH);
+  if (!buffer) return new Set();
+  return extractAuthoritativePublishedLessonIds(buffer.toString("utf8"));
 }
