@@ -44,8 +44,7 @@ async function checkSupabaseConnectivity(): Promise<void> {
       return;
     }
 
-    const contentType = response.headers.get("content-type") ?? "";
-    if (contentType.toLowerCase().includes("text/html")) {
+    if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
       throw new Error(
         "NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; " +
           "the Supabase bucket endpoint returned text/html.",
