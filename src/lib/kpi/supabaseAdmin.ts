@@ -1,31 +1,23 @@
-// SAFE SERVER-SIDE SUPABASE CLIENT (NO EXTERNAL PACKAGE REQUIRED)
+import { createClient } from "@supabase/supabase-js";
 
-// This avoids build failure if @supabase/supabase-js is not installed.
-// You can swap this later for the real client once dependencies are stable.
+let cached: ReturnType<typeof createClient> | null = null;
 
-type QueryResult<T> = {
-  data: T[] | null;
-  error: Error | null;
-};
+export function getKpiSupabaseAdmin() {
+  if (cached) return cached;
 
-class MockSupabaseClient {
-  from(_table: string) {
-    return {
-      select: async (): Promise<QueryResult<Record<string, unknown>>> => {
-        return {
-          data: [],
-          error: null,
-        };
-      },
-      insert: async (_payload: unknown): Promise<QueryResult<null>> => {
-        return {
-          data: null,
-          error: null,
-        };
-      },
-    };
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
+  if (!url || !serviceRoleKey) {
+    throw new Error("KPI data source unavailable: Supabase admin configuration is incomplete.");
   }
-}
 
-// EXPORT USED THROUGHOUT YOUR APP
-export const supabaseAdmin = new MockSupabaseClient();
+  cached = createClient(url, serviceRoleKey, {
+    auth: {
+      autoRefreshToken: false,
+      persistSession: false,
+      detectSessionInUrl: false,
+    },
+  });
+
+  return cached;
+}
