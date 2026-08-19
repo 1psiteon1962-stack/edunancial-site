@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
-import { mergeAILearningConfig, type AILearningAdminConfig } from "@/lib/ai-learning/config";
+import type { AILearningAdminConfig } from "@/lib/ai-learning/config";
 import type { AILearningContext } from "@/lib/ai-learning/context";
-import { generateAILearningResponse } from "@/lib/ai-learning/service";
+import { runAILearningPipeline } from "@/lib/ai-learning/pipeline";
 
 type RequestPayload = {
   message?: string;
@@ -25,15 +25,16 @@ export async function POST(request: Request) {
         disclaimers: [],
         milestone: null,
         contextSummary: "",
+        pipeline: { version: "1.0", stages: ["ingress"] },
       },
       { status: 400 },
     );
   }
 
-  const response = await generateAILearningResponse({
+  const response = await runAILearningPipeline({
     message,
     context,
-    config: mergeAILearningConfig(payload.config),
+    config: payload.config,
   });
 
   return NextResponse.json(response);
