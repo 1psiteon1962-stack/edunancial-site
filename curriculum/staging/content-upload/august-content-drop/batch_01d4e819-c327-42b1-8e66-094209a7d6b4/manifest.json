@@ -1,0 +1,437 @@
+{
+  "batchId": "batch_01d4e819-c327-42b1-8e66-094209a7d6b4",
+  "exportId": "export_batch_01d4e819-c327-42b1-8e66-094209a7d6b4_1787151173173",
+  "uploadTimestamp": "2026-08-19T14:52:56.529Z",
+  "branch": "content/course-upload-20260819-145256-august-content-drop",
+  "files": [
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-manifest.md",
+      "destinationPath": "content/courses/purple/level-1/en/purple-l1-en-gb-titles-summaries-purple-level-1-translations-en-gb-manifest.md",
+      "title": "Purple-L1-en-GB-titles-summaries",
+      "track": "purple",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_01d4e819-c327-42b1-8e66-094209a7d6b4",
+      "uploadTimestamp": "2026-08-19T14:52:38.272Z",
+      "checksum": "sha256:1075a71ac4335ce14288a6d0241bff6691ab025ac55a02893ced7e6f8f620805",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": [
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-045.json",
+      "lessonId": "PURPLE-L1-045",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-045.json references PURPLE-L1-045, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-009.json",
+      "lessonId": "PURPLE-L1-009",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-009.json references PURPLE-L1-009, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-006.json",
+      "lessonId": "PURPLE-L1-006",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-006.json references PURPLE-L1-006, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-034.json",
+      "lessonId": "PURPLE-L1-034",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-034.json references PURPLE-L1-034, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-048.json",
+      "lessonId": "PURPLE-L1-048",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-048.json references PURPLE-L1-048, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-015.json",
+      "lessonId": "PURPLE-L1-015",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-015.json references PURPLE-L1-015, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-010.json",
+      "lessonId": "PURPLE-L1-010",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-010.json references PURPLE-L1-010, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-020.json",
+      "lessonId": "PURPLE-L1-020",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-020.json references PURPLE-L1-020, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-005.json",
+      "lessonId": "PURPLE-L1-005",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-005.json references PURPLE-L1-005, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-011.json",
+      "lessonId": "PURPLE-L1-011",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-011.json references PURPLE-L1-011, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-029.json",
+      "lessonId": "PURPLE-L1-029",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-029.json references PURPLE-L1-029, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-016.json",
+      "lessonId": "PURPLE-L1-016",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-016.json references PURPLE-L1-016, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-013.json",
+      "lessonId": "PURPLE-L1-013",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-013.json references PURPLE-L1-013, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-044.json",
+      "lessonId": "PURPLE-L1-044",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-044.json references PURPLE-L1-044, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-014.json",
+      "lessonId": "PURPLE-L1-014",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-014.json references PURPLE-L1-014, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-019.json",
+      "lessonId": "PURPLE-L1-019",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-019.json references PURPLE-L1-019, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-050.json",
+      "lessonId": "PURPLE-L1-050",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-050.json references PURPLE-L1-050, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-026.json",
+      "lessonId": "PURPLE-L1-026",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-026.json references PURPLE-L1-026, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-004.json",
+      "lessonId": "PURPLE-L1-004",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-004.json references PURPLE-L1-004, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-047.json",
+      "lessonId": "PURPLE-L1-047",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-047.json references PURPLE-L1-047, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-039.json",
+      "lessonId": "PURPLE-L1-039",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-039.json references PURPLE-L1-039, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-027.json",
+      "lessonId": "PURPLE-L1-027",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-027.json references PURPLE-L1-027, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-018.json",
+      "lessonId": "PURPLE-L1-018",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-018.json references PURPLE-L1-018, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-046.json",
+      "lessonId": "PURPLE-L1-046",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-046.json references PURPLE-L1-046, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-043.json",
+      "lessonId": "PURPLE-L1-043",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-043.json references PURPLE-L1-043, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-041.json",
+      "lessonId": "PURPLE-L1-041",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-041.json references PURPLE-L1-041, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-007.json",
+      "lessonId": "PURPLE-L1-007",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-007.json references PURPLE-L1-007, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-025.json",
+      "lessonId": "PURPLE-L1-025",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-025.json references PURPLE-L1-025, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-040.json",
+      "lessonId": "PURPLE-L1-040",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-040.json references PURPLE-L1-040, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-024.json",
+      "lessonId": "PURPLE-L1-024",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-024.json references PURPLE-L1-024, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-032.json",
+      "lessonId": "PURPLE-L1-032",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-032.json references PURPLE-L1-032, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-017.json",
+      "lessonId": "PURPLE-L1-017",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-017.json references PURPLE-L1-017, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-021.json",
+      "lessonId": "PURPLE-L1-021",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-021.json references PURPLE-L1-021, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-022.json",
+      "lessonId": "PURPLE-L1-022",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-022.json references PURPLE-L1-022, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-008.json",
+      "lessonId": "PURPLE-L1-008",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-008.json references PURPLE-L1-008, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-030.json",
+      "lessonId": "PURPLE-L1-030",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-030.json references PURPLE-L1-030, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-002.json",
+      "lessonId": "PURPLE-L1-002",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-002.json references PURPLE-L1-002, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-001.json",
+      "lessonId": "PURPLE-L1-001",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-001.json references PURPLE-L1-001, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-042.json",
+      "lessonId": "PURPLE-L1-042",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-042.json references PURPLE-L1-042, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-049.json",
+      "lessonId": "PURPLE-L1-049",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-049.json references PURPLE-L1-049, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-035.json",
+      "lessonId": "PURPLE-L1-035",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-035.json references PURPLE-L1-035, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-023.json",
+      "lessonId": "PURPLE-L1-023",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-023.json references PURPLE-L1-023, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-031.json",
+      "lessonId": "PURPLE-L1-031",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-031.json references PURPLE-L1-031, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-038.json",
+      "lessonId": "PURPLE-L1-038",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-038.json references PURPLE-L1-038, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-037.json",
+      "lessonId": "PURPLE-L1-037",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-037.json references PURPLE-L1-037, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-003.json",
+      "lessonId": "PURPLE-L1-003",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-003.json references PURPLE-L1-003, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-033.json",
+      "lessonId": "PURPLE-L1-033",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-033.json references PURPLE-L1-033, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-028.json",
+      "lessonId": "PURPLE-L1-028",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-028.json references PURPLE-L1-028, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-036.json",
+      "lessonId": "PURPLE-L1-036",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-036.json references PURPLE-L1-036, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "purple-level-1-translations-en-gb-purple-l1-012.json",
+      "lessonId": "PURPLE-L1-012",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "purple-level-1-translations-en-gb-purple-l1-012.json references PURPLE-L1-012, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    }
+  ]
+}
