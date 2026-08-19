@@ -13,9 +13,13 @@ on:
 permissions:
   contents: read
 
+# Diagnostic runner pin: ubuntu-latest jobs are currently failing before
+# "Set up job" executes. Pinning the known stable 22.04 image lets us determine
+# whether runner-image assignment is the blocker without weakening validation.
 jobs:
-  validate:
-    runs-on: ubuntu-latest
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
     timeout-minutes: 20
 
     steps:
@@ -25,7 +29,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
