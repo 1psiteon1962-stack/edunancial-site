@@ -1,5 +1,6 @@
 export type RegionLaunchState = "ACTIVE" | "PRIVATE" | "BETA" | "DISABLED";
 export type RegionalSubregion = "north-america" | "central-america" | "south-america" | "caribbean" | "other";
+export type CountryActivationPolicy = "standard" | "sanctions-review";
 
 export type CanonicalRegionCode =
   | "north-america"
@@ -19,6 +20,7 @@ export interface CountryArchitectureConfig {
   subregion?: RegionalSubregion;
   taxAdapter?: "us-sales-tax" | "canada-indirect-tax" | "vat" | "gst" | "custom";
   launchState?: RegionLaunchState;
+  activationPolicy?: CountryActivationPolicy;
 }
 
 export interface RegionArchitectureConfig {
@@ -96,7 +98,7 @@ export const REGION_ARCHITECTURE: Record<CanonicalRegionCode, RegionArchitecture
       { countryCode: "AG", name: "Antigua and Barbuda", currencies: ["XCD"], languages: ["en"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
       { countryCode: "BS", name: "Bahamas", currencies: ["BSD"], languages: ["en"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
       { countryCode: "BB", name: "Barbados", currencies: ["BBD"], languages: ["en"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
-      { countryCode: "CU", name: "Cuba", currencies: ["CUP"], languages: ["es"], subregion: "caribbean", taxAdapter: customTax, launchState: "DISABLED" },
+      { countryCode: "CU", name: "Cuba", currencies: ["CUP"], languages: ["es"], subregion: "caribbean", taxAdapter: customTax, launchState: "DISABLED", activationPolicy: "sanctions-review" },
       { countryCode: "DM", name: "Dominica", currencies: ["XCD"], languages: ["en"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
       { countryCode: "DO", name: "Dominican Republic", currencies: ["DOP"], languages: ["es"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
       { countryCode: "GD", name: "Grenada", currencies: ["XCD"], languages: ["en"], subregion: "caribbean", taxAdapter: customTax, launchState: PRIVATE },
