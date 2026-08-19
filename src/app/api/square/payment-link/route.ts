@@ -11,11 +11,13 @@ import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squar
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
+import { assertCountryOperationAllowed } from "@/lib/regions/runtime-controls";
 
 interface PaymentLinkRequestBody {
   itemId?: string;
   discountCode?: string;
   customerEmail?: string;
+  countryCode?: string;
 }
 
 interface SquarePaymentLinkResponse {
@@ -25,6 +27,10 @@ interface SquarePaymentLinkResponse {
 
 function isAllowedSquareCheckoutHost(hostname: string): boolean {
   return hostname === "squareup.com" || hostname.endsWith(".squareup.com") || hostname === "square.link" || hostname.endsWith(".square.link") || hostname === "squareupsandbox.com" || hostname.endsWith(".squareupsandbox.com");
+}
+
+function inferNorthAmericaCountry(currency: string): "US" | "CA" {
+  return currency.trim().toUpperCase() === "CAD" ? "CA" : "US";
 }
 
 export async function POST(request: Request) {
@@ -61,6 +67,35 @@ export async function POST(request: Request) {
     if (!item) return attachRequestHeaders(NextResponse.json({ success: false, error: "The requested item is not available for purchase.", requestId }, { status: 400 }), requestId);
     if (!item.active) return attachRequestHeaders(NextResponse.json({ success: false, error: "This item is not currently available for purchase.", requestId }, { status: 403 }), requestId);
 
+    // Existing North America callers do not yet send a country. Preserve that
+    // flow by deriving US/CA from the catalog currency, while allowing newer
+    // callers to pass an explicit country that is checked against runtime controls.
+    const countryCode = (body.countryCode?.trim().toUpperCase() || inferNorthAmericaCountry(item.currency));
+    let countryControl;
+    try {
+      countryControl = await assertCountryOperationAllowed(countryCode, ["ACTIVE", "BETA"]);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Checkout is not enabled for this country.";
+      const response = NextResponse.json({ success: false, error: message, countryCode, requestId }, { status: 403 });
+      recordRequestMetric({ method: request.method, route, status: 403, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
+    }
+
+    // Country activation and payment-provider availability are intentionally
+    // separate controls. Activating a future country never assumes Square can
+    // legally or technically process that market.
+    if (countryControl.countryCode !== "US" && countryControl.countryCode !== "CA") {
+      const response = NextResponse.json({
+        success: false,
+        error: `Country ${countryControl.countryCode} is enabled, but Square is not an approved payment provider for this market.`,
+        countryCode: countryControl.countryCode,
+        paymentProvider: "square",
+        requestId,
+      }, { status: 409 });
+      recordRequestMetric({ method: request.method, route, status: 409, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
+    }
+
     let finalPrice = item.price;
     let discountApplied = false;
     let discountDescription: string | undefined;
@@ -76,7 +111,7 @@ export async function POST(request: Request) {
     const appOrigin = new URL(request.url).origin;
     const lineItems = [{ name: item.name, quantity: "1", base_price_money: { amount: Math.round(item.price * 100), currency: item.currency.toUpperCase() } }];
     const orderDiscounts = discountApplied ? [{ name: discountDescription ?? "Promotional Discount", type: "FIXED_AMOUNT", amount_money: { amount: Math.round((item.price - finalPrice) * 100), currency: item.currency.toUpperCase() } }] : undefined;
-    const successParams = new URLSearchParams({ item: item.id, type: item.type, ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}), ...(item.contentId ? { content: item.contentId } : {}) });
+    const successParams = new URLSearchParams({ item: item.id, type: item.type, country: countryControl.countryCode, ...(item.membershipPlanId ? { plan: item.membershipPlanId } : {}), ...(item.contentId ? { content: item.contentId } : {}) });
 
     const squarePayload: Record<string, unknown> = {
       idempotency_key: `${requestId}-${item.id}`,
@@ -87,6 +122,8 @@ export async function POST(request: Request) {
         metadata: {
           catalog_item_id: item.id,
           item_type: item.type,
+          country_code: countryControl.countryCode,
+          country_launch_state: countryControl.launchState,
           ...(item.membershipPlanId ? { membership_plan_id: item.membershipPlanId } : {}),
           ...(item.contentId ? { content_id: item.contentId } : {}),
           ...(discountCode ? { discount_code: discountCode } : {}),
@@ -116,7 +153,7 @@ export async function POST(request: Request) {
 
     if (discountApplied && discountCode) recordDiscountRedemption(discountCode);
 
-    const response = NextResponse.json({ success: true, checkoutUrl, itemId: item.id, itemType: item.type, planId: item.membershipPlanId, contentId: item.contentId, originalPrice: item.price, finalPrice, discountApplied, squarePaymentLinkId: squareData.payment_link?.id, squareOrderId: squareData.payment_link?.order_id, requestId });
+    const response = NextResponse.json({ success: true, checkoutUrl, countryCode: countryControl.countryCode, itemId: item.id, itemType: item.type, planId: item.membershipPlanId, contentId: item.contentId, originalPrice: item.price, finalPrice, discountApplied, squarePaymentLinkId: squareData.payment_link?.id, squareOrderId: squareData.payment_link?.order_id, requestId });
     recordRequestMetric({ method: request.method, route, status: 200, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   } catch (error) {
