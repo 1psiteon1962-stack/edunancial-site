@@ -1,0 +1,437 @@
+{
+  "batchId": "batch_748a219e-67a8-4fb8-b881-b60afcf69676",
+  "exportId": "export_batch_748a219e-67a8-4fb8-b881-b60afcf69676_1787151427777",
+  "uploadTimestamp": "2026-08-19T14:57:10.361Z",
+  "branch": "content/course-upload-20260819-145710-august-content-drop",
+  "files": [
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-manifest.md",
+      "destinationPath": "content/courses/green/level-1/en/green-l1-en-gb-titles-summaries-green-level-1-translations-en-gb-manifest.md",
+      "title": "Green-L1-en-GB-titles-summaries",
+      "track": "green",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_748a219e-67a8-4fb8-b881-b60afcf69676",
+      "uploadTimestamp": "2026-08-19T14:56:50.168Z",
+      "checksum": "sha256:24381229b48596a245e6ccffdd7917d78d9fcab98e513cb05a3b3babfb183763",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": [
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-002.json",
+      "lessonId": "GREEN-L1-002",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-002.json references GREEN-L1-002, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-026.json",
+      "lessonId": "GREEN-L1-026",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-026.json references GREEN-L1-026, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-041.json",
+      "lessonId": "GREEN-L1-041",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-041.json references GREEN-L1-041, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-013.json",
+      "lessonId": "GREEN-L1-013",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-013.json references GREEN-L1-013, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-018.json",
+      "lessonId": "GREEN-L1-018",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-018.json references GREEN-L1-018, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-008.json",
+      "lessonId": "GREEN-L1-008",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-008.json references GREEN-L1-008, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-049.json",
+      "lessonId": "GREEN-L1-049",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-049.json references GREEN-L1-049, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-005.json",
+      "lessonId": "GREEN-L1-005",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-005.json references GREEN-L1-005, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-004.json",
+      "lessonId": "GREEN-L1-004",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-004.json references GREEN-L1-004, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-027.json",
+      "lessonId": "GREEN-L1-027",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-027.json references GREEN-L1-027, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-043.json",
+      "lessonId": "GREEN-L1-043",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-043.json references GREEN-L1-043, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-038.json",
+      "lessonId": "GREEN-L1-038",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-038.json references GREEN-L1-038, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-017.json",
+      "lessonId": "GREEN-L1-017",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-017.json references GREEN-L1-017, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-046.json",
+      "lessonId": "GREEN-L1-046",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-046.json references GREEN-L1-046, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-006.json",
+      "lessonId": "GREEN-L1-006",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-006.json references GREEN-L1-006, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-010.json",
+      "lessonId": "GREEN-L1-010",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-010.json references GREEN-L1-010, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-024.json",
+      "lessonId": "GREEN-L1-024",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-024.json references GREEN-L1-024, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-031.json",
+      "lessonId": "GREEN-L1-031",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-031.json references GREEN-L1-031, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-015.json",
+      "lessonId": "GREEN-L1-015",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-015.json references GREEN-L1-015, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-044.json",
+      "lessonId": "GREEN-L1-044",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-044.json references GREEN-L1-044, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-048.json",
+      "lessonId": "GREEN-L1-048",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-048.json references GREEN-L1-048, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-042.json",
+      "lessonId": "GREEN-L1-042",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-042.json references GREEN-L1-042, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-025.json",
+      "lessonId": "GREEN-L1-025",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-025.json references GREEN-L1-025, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-036.json",
+      "lessonId": "GREEN-L1-036",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-036.json references GREEN-L1-036, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-022.json",
+      "lessonId": "GREEN-L1-022",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-022.json references GREEN-L1-022, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-012.json",
+      "lessonId": "GREEN-L1-012",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-012.json references GREEN-L1-012, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-011.json",
+      "lessonId": "GREEN-L1-011",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-011.json references GREEN-L1-011, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-030.json",
+      "lessonId": "GREEN-L1-030",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-030.json references GREEN-L1-030, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-020.json",
+      "lessonId": "GREEN-L1-020",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-020.json references GREEN-L1-020, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-019.json",
+      "lessonId": "GREEN-L1-019",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-019.json references GREEN-L1-019, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-023.json",
+      "lessonId": "GREEN-L1-023",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-023.json references GREEN-L1-023, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-003.json",
+      "lessonId": "GREEN-L1-003",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-003.json references GREEN-L1-003, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-001.json",
+      "lessonId": "GREEN-L1-001",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-001.json references GREEN-L1-001, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-040.json",
+      "lessonId": "GREEN-L1-040",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-040.json references GREEN-L1-040, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-016.json",
+      "lessonId": "GREEN-L1-016",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-016.json references GREEN-L1-016, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-032.json",
+      "lessonId": "GREEN-L1-032",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-032.json references GREEN-L1-032, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-037.json",
+      "lessonId": "GREEN-L1-037",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-037.json references GREEN-L1-037, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-047.json",
+      "lessonId": "GREEN-L1-047",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-047.json references GREEN-L1-047, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-029.json",
+      "lessonId": "GREEN-L1-029",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-029.json references GREEN-L1-029, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-035.json",
+      "lessonId": "GREEN-L1-035",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-035.json references GREEN-L1-035, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-009.json",
+      "lessonId": "GREEN-L1-009",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-009.json references GREEN-L1-009, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-050.json",
+      "lessonId": "GREEN-L1-050",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-050.json references GREEN-L1-050, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-021.json",
+      "lessonId": "GREEN-L1-021",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-021.json references GREEN-L1-021, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-033.json",
+      "lessonId": "GREEN-L1-033",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-033.json references GREEN-L1-033, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-014.json",
+      "lessonId": "GREEN-L1-014",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-014.json references GREEN-L1-014, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-045.json",
+      "lessonId": "GREEN-L1-045",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-045.json references GREEN-L1-045, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-028.json",
+      "lessonId": "GREEN-L1-028",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-028.json references GREEN-L1-028, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-034.json",
+      "lessonId": "GREEN-L1-034",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-034.json references GREEN-L1-034, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-007.json",
+      "lessonId": "GREEN-L1-007",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-007.json references GREEN-L1-007, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    },
+    {
+      "sourceFilename": "green-level-1-translations-en-gb-green-l1-039.json",
+      "lessonId": "GREEN-L1-039",
+      "locales": [
+        "en-GB"
+      ],
+      "reason": "green-level-1-translations-en-gb-green-l1-039.json references GREEN-L1-039, but that canonical lesson is not an active lesson in curriculum/registry.json."
+    }
+  ]
+}
