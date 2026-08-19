@@ -16,10 +16,23 @@ export interface UploadOperationInput {
   metadata?: Record<string, unknown>;
 }
 
+type UploadOperationRow = {
+  batch_id: string | null;
+  upload_id: string | null;
+  phase: UploadOperationPhase;
+  status: UploadOperationStatus;
+  storage_path: string | null;
+  file_name: string | null;
+  file_size: number | null;
+  error_code: string | null;
+  error_message: string | null;
+  metadata: Record<string, unknown>;
+};
+
 export async function recordUploadOperation(input: UploadOperationInput): Promise<void> {
   try {
     const db = getKpiSupabaseAdmin();
-    const { error } = await db.from("admin_upload_operations").insert({
+    const row: UploadOperationRow = {
       batch_id: input.batchId ?? null,
       upload_id: input.uploadId ?? null,
       phase: input.phase,
@@ -30,7 +43,8 @@ export async function recordUploadOperation(input: UploadOperationInput): Promis
       error_code: input.errorCode ?? null,
       error_message: input.errorMessage ?? null,
       metadata: input.metadata ?? {},
-    });
+    };
+    const { error } = await db.from("admin_upload_operations").insert(row as never);
     if (error) console.warn("[upload-operations] audit write failed", error.message);
   } catch (error) {
     console.warn("[upload-operations] audit unavailable", error);
