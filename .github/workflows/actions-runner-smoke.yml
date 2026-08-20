@@ -1,0 +1,20 @@
+name: Actions Runner Smoke Test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    name: Runner Smoke Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Confirm runner started
+        run: echo "GitHub-hosted runner started successfully"
