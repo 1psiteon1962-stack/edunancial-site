@@ -47,21 +47,11 @@ export async function POST(request: NextRequest) {
       throw new Error(assetError?.message ?? "Could not create raw video asset.");
     }
 
-    const signedUploadUrl = await createAdminSignedUploadUrlForVideo(storagePath);
+    const signedUploadUrl = await createAdminSignedUploadUrl(storagePath, { bucket: "raw-videos", prefix: null, upsert: false });
+    if (!signedUploadUrl) throw new Error("Video signed uploads are not configured.");
+
     return Response.json({ success: true, projectId: project.id, assetId: asset.id, storagePath, signedUploadUrl }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     return Response.json({ success: false, error: error instanceof Error ? error.message : "Video project creation failed." }, { status: 400, headers: { "Cache-Control": "private, no-store" } });
   }
-}
-
-async function createAdminSignedUploadUrlForVideo(storagePath: string) {
-  // The existing helper is bound to the general admin upload bucket, so R1 keeps
-  // the same server-only credential pattern while targeting the dedicated bucket.
-  if ((process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? "") === "raw-videos") {
-    return createAdminSignedUploadUrl(storagePath);
-  }
-  const supabase = getSupabaseAdminClient();
-  const { data, error } = await supabase.storage.from("raw-videos").createSignedUploadUrl(storagePath, { upsert: false });
-  if (error || !data?.signedUrl) throw new Error(error?.message ?? "Could not create video upload URL.");
-  return data.signedUrl;
 }
