@@ -12,17 +12,15 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-// Derive the effective visibility for a lesson based on its level and lesson number
 function deriveVisibility(level: number, lessonNumber: number, tierConfig: ReturnType<typeof readTierConfig>): string {
   const fp = tierConfig.freePreview;
   if (level === fp.level && lessonNumber <= fp.maxLesson) return "free_preview";
   return "members_only";
 }
 
-// Derive which tiers unlock a lesson
 function deriveUnlockedByTiers(level: number, lessonNumber: number, tierConfig: ReturnType<typeof readTierConfig>): string[] {
   const fp = tierConfig.freePreview;
-  if (level === fp.level && lessonNumber <= fp.maxLesson) return []; // free preview — no tier needed
+  if (level === fp.level && lessonNumber <= fp.maxLesson) return [];
   const result: string[] = [];
   const tierOrder = ["basic", "pro", "gold"] as const;
   for (const tier of tierOrder) {
@@ -74,17 +72,21 @@ export default async function CurriculumDashboardPage() {
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section className="mx-auto max-w-7xl px-6 py-12">
-        {/* Header */}
         <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-yellow-400 mb-1">Admin</p>
             <h1 className="text-4xl font-black">Curriculum Dashboard</h1>
             <p className="mt-2 text-slate-400">
-              Single reference point for all curriculum content — visibility, access tiers, and
-              management actions.
+              Single reference point for all curriculum content — visibility, access tiers, and management actions.
             </p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/admin/curriculum/translation-readiness"
+              className="rounded-xl bg-emerald-700 px-5 py-3 text-sm font-bold text-white hover:bg-emerald-600 transition"
+            >
+              L1 Translation Readiness
+            </Link>
             <Link
               href="/curriculum"
               className="rounded-xl border border-blue-500/40 px-5 py-3 text-sm font-semibold text-blue-300 hover:border-blue-400 transition"
@@ -110,7 +112,6 @@ export default async function CurriculumDashboardPage() {
           totalTracks={trackCodes.length}
         />
 
-        {/* Registry info */}
         <div className="mt-8 rounded-2xl border border-slate-800 bg-slate-900/30 p-6">
           <h3 className="font-black text-slate-400 mb-2">Content Management</h3>
           <div className="grid gap-4 sm:grid-cols-2 text-sm text-slate-400">

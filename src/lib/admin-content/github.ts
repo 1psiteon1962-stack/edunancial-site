@@ -8,6 +8,7 @@ import {
   validateCurriculumFiles,
   type CurriculumRegistry,
 } from "@/lib/admin-content/curriculum";
+import { getAuthoritativePublishedLessonIds } from "@/lib/admin-content/published-canonical";
 import { verifyDestinationPath } from "@/lib/admin-content/security";
 
 const CURRICULUM_REGISTRY_PATH = "curriculum/registry.json";
@@ -119,6 +120,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   const { owner, repo } = getRequiredGithubConfig();
   const existingRegistryAtStart = await fetchCurrentRegistry();
   const existingLessonIds = activeLessonIds(existingRegistryAtStart);
+  const publishedLessonIds = await getAuthoritativePublishedLessonIds();
+  for (const id of publishedLessonIds) existingLessonIds.add(id);
 
   const ingestionId = crypto.randomUUID();
   const ingestionTimestamp = new Date().toISOString();
@@ -147,7 +150,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
       const translationBlockedReason =
         curriculumTranslation && !existingLessonIds.has(curriculumTranslation.lessonId)
-          ? `${file.originalFilename} references ${curriculumTranslation.lessonId}, but that canonical lesson is not an active lesson in ${CURRICULUM_REGISTRY_PATH}.`
+          ? `${file.originalFilename} references ${curriculumTranslation.lessonId}, but that canonical lesson is not active in the repository registry or authoritative published curriculum state.`
           : null;
 
       const resolvedDestination = curriculumAsset
@@ -175,8 +178,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       .map((file) => file.curriculumTranslation?.lessonId)
       .filter((value): value is string => Boolean(value));
     throw new Error(
-      `No publishable approved files remain. ${blockedTranslationFiles.length} orphan curriculum translation file(s) were quarantined because their canonical lessons are not active in ${CURRICULUM_REGISTRY_PATH}. ` +
-      `Blocked lesson IDs: ${blockedLessonIds.join(", ") || "unknown"}. Publish/register canonical lessons first; translations may not create lesson identities.`,
+      `No publishable approved files remain. ${blockedTranslationFiles.length} orphan curriculum translation file(s) were quarantined because their canonical lessons are not active in the repository registry or authoritative published curriculum state. ` +
+      `Blocked lesson IDs: ${blockedLessonIds.join(", ") || "unknown"}. Publish canonical lessons first; translations may not create lesson identities.`,
     );
   }
 
