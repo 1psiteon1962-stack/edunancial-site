@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
+import FiqInvitationModal from "@/components/marketing/FiqInvitationModal";
 import PageViewTracker from "@/components/kpi/PageViewTracker";
 import { LANGUAGE_CATALOG, isRtlLanguage } from "@/lib/international/languages";
 import {
@@ -67,6 +68,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body className="bg-[#08101f] text-white">
         <Suspense fallback={null}><PageViewTracker /></Suspense>
+        <Suspense fallback={null}><FiqInvitationModal /></Suspense>
         {children}
       </body>
     </html>
