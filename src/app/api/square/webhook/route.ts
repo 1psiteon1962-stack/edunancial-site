@@ -3,10 +3,10 @@ import { NextResponse } from "next/server";
 import { logStructuredError } from "@/lib/observability/errors";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
-import { applyAuthoritativeMembershipEntitlement } from "@/lib/member/entitlements";
 import { isSquareVerifiedCheckoutEnabled, verifyManagedSquareWebhookSignature } from "@/lib/square";
 import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
+import { fulfillSquareMembershipPayment } from "@/lib/payments/squareFulfillment";
 import { claimWebhookEvent, markWebhookEventProcessed } from "@/lib/payments/webhookIdempotency";
 import { recordPaymentTaxLedgerEntry } from "@/lib/tax/payment-ledger";
 
@@ -30,6 +30,7 @@ interface SquarePayment {
   refunded_money?: SquareMoney;
   processing_fee?: Array<{ amount_money?: SquareMoney }>;
   order_id?: string;
+  buyer_email_address?: string;
   note?: string;
 }
 
@@ -123,8 +124,6 @@ export async function POST(request: Request) {
     const eventType = event.type ?? "unknown";
     const eventId = event.event_id ?? "";
 
-    // Square event IDs are required for durable exactly-once processing. An
-    // event without one cannot safely mutate payment or membership state.
     if (!eventId) {
       const response = NextResponse.json({ success: false, error: "Verified webhook is missing event_id", requestId }, { status: 400 });
       recordRequestMetric({ method: request.method, route, status: 400, durationMs: Date.now() - start });
@@ -140,35 +139,34 @@ export async function POST(request: Request) {
 
     const lifecycle = processSquareLifecycleEvent(event);
     const eventObject = event.data?.object ?? {};
+    const payment = extractPayment(eventObject);
+
     await persistVerifiedPaymentTax(event, eventObject);
 
-    const customerEmail =
-      typeof eventObject.customer_email === "string"
-        ? eventObject.customer_email
-        : typeof eventObject.email_address === "string"
-          ? eventObject.email_address
-          : null;
-    const membershipPlanId =
-      typeof eventObject.plan_id === "string"
-        ? eventObject.plan_id
-        : typeof eventObject.membership_plan_id === "string"
-          ? eventObject.membership_plan_id
-          : null;
-
-    if (eventType === "payment.completed" && customerEmail && membershipPlanId) {
-      await applyAuthoritativeMembershipEntitlement({ email: customerEmail, planId: membershipPlanId });
+    let membershipFulfilled = false;
+    if (payment?.status?.toUpperCase() === "COMPLETED") {
+      membershipFulfilled = await fulfillSquareMembershipPayment({
+        status: payment.status,
+        order_id: payment.order_id,
+        buyer_email_address: payment.buyer_email_address,
+      });
     }
 
     await markWebhookEventProcessed(eventId);
 
     const response = NextResponse.json({
       success: true,
-      processed: lifecycle.processed,
+      processed: lifecycle.processed || membershipFulfilled,
+      membershipFulfilled,
       eventType,
       subscriptionId: lifecycle.subscriptionId,
       membershipStatus: lifecycle.status,
       nextRoute: lifecycle.nextJourneyRoute,
-      message: lifecycle.processed ? "Webhook processed and membership lifecycle synchronized." : "Event signature verified; no membership lifecycle state change required.",
+      message: membershipFulfilled
+        ? "Verified Square payment processed and membership entitlement synchronized."
+        : lifecycle.processed
+          ? "Webhook processed and membership lifecycle synchronized."
+          : "Event signature verified; no membership lifecycle state change required.",
       requestId,
     }, { status: 202 });
     recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
