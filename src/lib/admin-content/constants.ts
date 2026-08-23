@@ -4,6 +4,8 @@
  * safely imported from both server code and client components.
  */
 
+import { ADMIN_CONTENT_LANGUAGES } from "@/lib/admin-content/languages";
+
 export const CONTENT_DESTINATIONS = ["courses", "marketplace"] as const;
 export const COURSE_TRACKS = ["red", "white", "blue", "green", "gold", "purple", "orange", "black"] as const;
 export type CourseTrack = (typeof COURSE_TRACKS)[number];
@@ -15,4 +17,4 @@ export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] a
 export const MEMBERSHIP_ACCESS = ["free", "basic", "premium", "elite"] as const;
 export const SUPPORTED_REGIONS = ["north-america", "latin-america", "caribbean", "europe", "africa", "asia", "middle-east", "oceania", "global"] as const;
 export const MARKETPLACE_CATEGORIES = ["books", "ebooks", "pdf-guides", "templates", "worksheets", "forms", "downloads", "zip-packages", "audio", "videos", "images", "software", "digital-products", "calculators", "presentations", "spreadsheets", "future-products"] as const;
-export const SUPPORTED_UPLOAD_LANGUAGES = ["en", "es", "fr", "fr-CA"] as const;
+export const SUPPORTED_UPLOAD_LANGUAGES = ADMIN_CONTENT_LANGUAGES;
