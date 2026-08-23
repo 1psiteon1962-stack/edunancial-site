@@ -34,9 +34,14 @@ const DEFAULT_MODEL = "gpt-4o-mini";
 const DEFAULT_MAX_TOKENS = 1200;
 
 const TRACK_DISPLAY_NAMES: Record<string, string> = {
-  RED: "Red Academy (Business & Entrepreneurship)",
-  WHITE: "White Academy (Paper Assets & Investing)",
-  BLUE: "Blue Academy (Real Estate & Advanced Wealth)",
+  RED: "Red Academy (Real Estate)",
+  WHITE: "White Academy (Paper Assets)",
+  BLUE: "Blue Academy (Business)",
+  GREEN: "Green Academy (Taxes)",
+  GOLD: "Gold Academy (Investing)",
+  PURPLE: "Purple Academy (Law)",
+  ORANGE: "Orange Academy (Sales & Marketing)",
+  BLACK: "Black Academy (Leadership & Executive Management)",
 };
 
 interface ParsedAIResponse {
