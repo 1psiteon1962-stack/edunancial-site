@@ -2,6 +2,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { REGISTRY_PATH } from './paths.mjs';
+import { assertRegistryNonDestructive } from './preservation.mjs';
 
 function ensureDir(filePath) {
   const dir = dirname(filePath);
@@ -24,6 +25,15 @@ export function readRegistry() {
 }
 
 export function writeRegistry(registry) {
+  // Fail closed before touching disk. A normal import/regeneration is allowed
+  // to add or update lessons, but it may never make an already-active lesson
+  // disappear. Intentional removals must use the separately authorized removal
+  // workflow and must not call this ordinary writer with a reduced registry.
+  if (existsSync(REGISTRY_PATH)) {
+    const previousRegistry = JSON.parse(readFileSync(REGISTRY_PATH, 'utf8'));
+    assertRegistryNonDestructive(previousRegistry, registry);
+  }
+
   registry._schema ||= 'curriculum/schemas/registry.schema.json';
   registry._version ||= '1.0';
   registry._note ||= 'Authoritative curriculum registry. Edit only via curriculum:import or curriculum:migrate-legacy.';
