@@ -1,10 +1,13 @@
 import { basename, extname } from "node:path";
 
-import { COURSE_TRACKS } from "@/lib/admin-content/constants";
+import {
+  COURSE_TRACKS,
+  SUPPORTED_UPLOAD_LANGUAGES,
+} from "@/lib/admin-content/constants";
 import type { CourseTrack } from "@/lib/admin-content/constants";
 import { slugify } from "@/lib/admin-content/utils";
 
-export { COURSE_TRACKS } from "@/lib/admin-content/constants";
+export { COURSE_TRACKS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
 export const CONTENT_DESTINATIONS = ["courses", "marketplace"] as const;
 export const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
 export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] as const;
@@ -39,7 +42,6 @@ export const MARKETPLACE_CATEGORIES = [
   "spreadsheets",
   "future-products",
 ] as const;
-export const SUPPORTED_UPLOAD_LANGUAGES = ["en", "es", "fr", "fr-CA"] as const;
 
 export type ContentDestination = (typeof CONTENT_DESTINATIONS)[number];
 export type { CourseTrack } from "@/lib/admin-content/constants";
@@ -161,8 +163,52 @@ export function parseUploadConfig(formData: FormData): UploadConfig {
   };
 }
 
+export function canonicalUploadLanguage(language: string): string {
+  const normalized = language.trim();
+  if (normalized === "en") return "en-US";
+  if (normalized === "fr") return "fr-CA";
+  if (normalized === "pt") return "pt-BR";
+  return normalized;
+}
+
+/**
+ * Infer a curriculum locale from the file name. Supports both the current
+ * hyphen form (`RED-L1-007-it.md`) and the registry-style dot form
+ * (`RED-L1-007.it.md`). Long regional tags are checked before base tags.
+ */
+export function inferUploadLanguageFromFilename(filename: string): UploadLanguage | null {
+  const stem = basename(filename, extname(filename));
+  const locales = [...SUPPORTED_UPLOAD_LANGUAGES].sort((a, b) => b.length - a.length);
+  const lowerStem = stem.toLowerCase();
+
+  for (const locale of locales) {
+    const lowerLocale = locale.toLowerCase();
+    if (lowerStem.endsWith(`-${lowerLocale}`) || lowerStem.endsWith(`.${lowerLocale}`)) {
+      return locale;
+    }
+  }
+  return null;
+}
+
+export function resolveUploadFileLanguage(configLanguage: UploadLanguage, filename: string): UploadLanguage {
+  return inferUploadLanguageFromFilename(filename) ?? configLanguage;
+}
+
 function normalizeLanguage(language: string) {
   return language.replaceAll("-", "_").toLowerCase();
+}
+
+export function replaceDestinationLanguage(destination: string, language: string): string {
+  const parts = destination.split("/");
+  if (parts[0] === "content" && parts[1] === "courses" && parts.length >= 6) {
+    parts[4] = normalizeLanguage(language);
+    return parts.join("/");
+  }
+  if (parts[0] === "content" && parts[1] === "marketplace" && parts.length >= 5) {
+    parts[3] = normalizeLanguage(language);
+    return parts.join("/");
+  }
+  return destination;
 }
 
 export function buildIntendedDestination(config: UploadConfig, filename: string, uploadId: string) {
@@ -171,10 +217,13 @@ export function buildIntendedDestination(config: UploadConfig, filename: string,
   const uniqueSuffix = fileStem || uploadId.slice(-8);
   const base = `${slugify(config.title)}-${uniqueSuffix}`;
   const safeName = `${base}${extension}`;
+  const fileLanguage = config.destination === "courses"
+    ? resolveUploadFileLanguage(config.language, filename)
+    : config.language;
   if (config.destination === "courses") {
-    return `content/courses/${config.track}/${config.level}/${normalizeLanguage(config.language)}/${safeName}`;
+    return `content/courses/${config.track}/${config.level}/${normalizeLanguage(fileLanguage)}/${safeName}`;
   }
-  return `content/marketplace/${config.category}/${normalizeLanguage(config.language)}/${safeName}`;
+  return `content/marketplace/${config.category}/${normalizeLanguage(fileLanguage)}/${safeName}`;
 }
 
 export function toAcademyLevel(level: CourseLevel | null) {
