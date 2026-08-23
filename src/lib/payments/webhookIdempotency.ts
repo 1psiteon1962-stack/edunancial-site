@@ -1,87 +1,124 @@
-/**
- * Webhook Event Idempotency
- *
- * Tracks Square webhook event IDs that have already been processed.
- * Any event arriving a second time is rejected with a no-op response.
- *
- * This prevents:
- *   • Duplicate membership activations
- *   • Duplicate email sends
- *   • Double-processing from Square retry attempts
- *   • Replay attacks using captured webhook payloads
- *
- * The store is in-memory for simplicity.  In a multi-instance deployment,
- * replace the Map with a shared key-value store (e.g. Supabase, Redis).
- */
+import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 
-interface IdempotencyEntry {
+interface WebhookEventRecord {
   eventId: string;
   eventType: string;
   processedAt: string;
 }
 
-/** How long to remember a processed event (72 hours). */
-const RETENTION_MS = 72 * 60 * 60 * 1_000;
+const testEvents = new Map<string, WebhookEventRecord>();
 
-const processedEvents = new Map<string, IdempotencyEntry>();
-
-/**
- * Attempt to claim an event ID for processing.
- *
- * Returns `true` if this is the first time the event ID has been seen and
- * the caller should proceed with processing.
- *
- * Returns `false` if the event has already been processed — the caller should
- * return a 200/202 without re-processing.
- */
-export function claimWebhookEvent(
-  eventId: string,
-  eventType: string
-): boolean {
-  pruneExpired();
-
-  if (processedEvents.has(eventId)) {
-    return false;
-  }
-
-  processedEvents.set(eventId, {
-    eventId,
-    eventType,
-    processedAt: new Date().toISOString(),
-  });
-
-  return true;
-}
-
-/**
- * Check whether an event ID has already been claimed/processed.
- * Does not claim the event — use {@link claimWebhookEvent} for atomic
- * claim-and-process semantics.
- */
-export function hasProcessedWebhookEvent(eventId: string): boolean {
-  return processedEvents.has(eventId);
-}
-
-/** Return all entries in the idempotency log (for admin inspection). */
-export function listProcessedWebhookEvents(): IdempotencyEntry[] {
-  pruneExpired();
-  return [...processedEvents.values()].sort(
-    (a, b) =>
-      new Date(b.processedAt).getTime() - new Date(a.processedAt).getTime()
+function hasSharedStoreConfig(): boolean {
+  return Boolean(
+    (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim() &&
+      (process.env.SUPABASE_SERVICE_ROLE_KEY ?? "").trim()
   );
 }
 
-/** Remove entries older than the retention window to bound memory usage. */
-function pruneExpired(): void {
-  const cutoff = Date.now() - RETENTION_MS;
-  for (const [id, entry] of processedEvents.entries()) {
-    if (new Date(entry.processedAt).getTime() < cutoff) {
-      processedEvents.delete(id);
-    }
+/**
+ * Atomically claims a Square webhook event.
+ *
+ * Production uses the shared Supabase webhook_events table, whose unique
+ * event_id constraint prevents duplicate processing across Netlify instances.
+ * Local/unit-test environments without server credentials use an isolated
+ * in-memory store so tests never require production secrets.
+ */
+export function claimWebhookEvent(
+  eventId: string,
+  eventType: string,
+  rawPayload?: unknown
+): boolean | Promise<boolean> {
+  if (!eventId.trim()) return false;
+
+  if (!hasSharedStoreConfig()) {
+    if (testEvents.has(eventId)) return false;
+    testEvents.set(eventId, {
+      eventId,
+      eventType: eventType || "unknown",
+      processedAt: new Date().toISOString(),
+    });
+    return true;
+  }
+
+  return claimSharedWebhookEvent(eventId, eventType, rawPayload);
+}
+
+async function claimSharedWebhookEvent(
+  eventId: string,
+  eventType: string,
+  rawPayload?: unknown
+): Promise<boolean> {
+  const supabase = getSupabaseAdminClient();
+  const { error } = await supabase.from("webhook_events").insert({
+    event_id: eventId,
+    event_type: eventType || "unknown",
+    provider: "square",
+    processed: false,
+    duplicate: false,
+    raw_payload: rawPayload ?? null,
+  });
+
+  if (!error) return true;
+  if (error.code === "23505") return false;
+
+  throw new Error(`Unable to claim Square webhook event: ${error.message}`);
+}
+
+export function hasProcessedWebhookEvent(eventId: string): boolean | Promise<boolean> {
+  if (!hasSharedStoreConfig()) return testEvents.has(eventId);
+
+  return (async () => {
+    const supabase = getSupabaseAdminClient();
+    const { data, error } = await supabase
+      .from("webhook_events")
+      .select("event_id")
+      .eq("event_id", eventId)
+      .maybeSingle();
+
+    if (error) throw new Error(`Unable to inspect Square webhook event: ${error.message}`);
+    return Boolean(data);
+  })();
+}
+
+export function listProcessedWebhookEvents(): WebhookEventRecord[] | Promise<WebhookEventRecord[]> {
+  if (!hasSharedStoreConfig()) {
+    return [...testEvents.values()].sort((a, b) => b.processedAt.localeCompare(a.processedAt));
+  }
+
+  return (async () => {
+    const supabase = getSupabaseAdminClient();
+    const { data, error } = await supabase
+      .from("webhook_events")
+      .select("event_id,event_type,processed_at")
+      .order("processed_at", { ascending: false })
+      .limit(500);
+
+    if (error) throw new Error(`Unable to list Square webhook events: ${error.message}`);
+
+    return (data ?? []).map((row) => ({
+      eventId: String(row.event_id),
+      eventType: String(row.event_type),
+      processedAt: String(row.processed_at),
+    }));
+  })();
+}
+
+/** Mark a successfully handled production event complete for audit/recovery. */
+export async function markWebhookEventProcessed(eventId: string): Promise<void> {
+  if (!hasSharedStoreConfig()) return;
+
+  const supabase = getSupabaseAdminClient();
+  const { error } = await supabase
+    .from("webhook_events")
+    .update({ processed: true, processed_at: new Date().toISOString() })
+    .eq("event_id", eventId);
+
+  if (error) {
+    throw new Error(`Unable to mark Square webhook event processed: ${error.message}`);
   }
 }
 
-/** Reset the store — for use in tests only. */
+/** Reset only the isolated non-production store used by automated tests. */
 export function resetWebhookIdempotencyForTests(): void {
-  processedEvents.clear();
+  testEvents.clear();
 }

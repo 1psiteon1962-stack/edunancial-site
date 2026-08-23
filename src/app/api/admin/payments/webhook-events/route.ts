@@ -7,7 +7,7 @@ export async function GET(request: Request) {
   const auth = await requireAdminApiSession(request);
   if (!auth.ok) return auth.response;
 
-  const events = listProcessedWebhookEvents();
+  const events = await listProcessedWebhookEvents();
 
   return NextResponse.json({
     events,

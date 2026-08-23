@@ -7,7 +7,7 @@ import { applyAuthoritativeMembershipEntitlement } from "@/lib/member/entitlemen
 import { isSquareVerifiedCheckoutEnabled, verifyManagedSquareWebhookSignature } from "@/lib/square";
 import { processSquareLifecycleEvent } from "@/lib/payments/membershipLifecycle";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
-import { claimWebhookEvent } from "@/lib/payments/webhookIdempotency";
+import { claimWebhookEvent, markWebhookEventProcessed } from "@/lib/payments/webhookIdempotency";
 import { recordPaymentTaxLedgerEntry } from "@/lib/tax/payment-ledger";
 
 interface SquareWebhookEvent {
@@ -68,9 +68,6 @@ async function persistVerifiedPaymentTax(event: SquareWebhookEvent, eventObject:
   const countryCode = stringValue(metadata.country_code);
   if (!countryCode) return;
 
-  // Square payment webhooks do not guarantee a tax breakout. Only persist tax
-  // when an authoritative non-negative minor-unit amount was attached upstream.
-  // Missing tax data must never be inferred from gross payment totals.
   const taxCollectedMinor = integerMoney(metadata.tax_collected_minor);
   if (taxCollectedMinor === null) return;
 
@@ -126,13 +123,19 @@ export async function POST(request: Request) {
     const eventType = event.type ?? "unknown";
     const eventId = event.event_id ?? "";
 
-    if (eventId) {
-      const claimed = claimWebhookEvent(eventId, eventType);
-      if (!claimed) {
-        const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
-        recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
-        return attachRequestHeaders(response, requestId);
-      }
+    // Square event IDs are required for durable exactly-once processing. An
+    // event without one cannot safely mutate payment or membership state.
+    if (!eventId) {
+      const response = NextResponse.json({ success: false, error: "Verified webhook is missing event_id", requestId }, { status: 400 });
+      recordRequestMetric({ method: request.method, route, status: 400, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
+    }
+
+    const claimed = await claimWebhookEvent(eventId, eventType, event);
+    if (!claimed) {
+      const response = NextResponse.json({ success: true, processed: false, duplicate: true, eventType, message: "Duplicate event ignored.", requestId }, { status: 202 });
+      recordRequestMetric({ method: request.method, route, status: 202, durationMs: Date.now() - start });
+      return attachRequestHeaders(response, requestId);
     }
 
     const lifecycle = processSquareLifecycleEvent(event);
@@ -155,6 +158,8 @@ export async function POST(request: Request) {
     if (eventType === "payment.completed" && customerEmail && membershipPlanId) {
       await applyAuthoritativeMembershipEntitlement({ email: customerEmail, planId: membershipPlanId });
     }
+
+    await markWebhookEventProcessed(eventId);
 
     const response = NextResponse.json({
       success: true,
