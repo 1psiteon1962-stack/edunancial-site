@@ -51,15 +51,31 @@ async function githubRequest(path: string, init: RequestInit = {}) {
   return response.json() as Promise<Record<string, unknown>>;
 }
 
-async function fetchCurrentRegistry(): Promise<CurriculumRegistry | null> {
-  try {
-    const data = await githubRequest(`/contents/${CURRICULUM_REGISTRY_PATH}`);
-    if (!data.content || typeof data.content !== "string") return null;
-    const raw = Buffer.from(data.content as string, "base64").toString("utf8");
-    return JSON.parse(raw) as CurriculumRegistry;
-  } catch {
-    return null;
+async function fetchCurrentRegistry(): Promise<CurriculumRegistry> {
+  const data = await githubRequest(`/contents/${CURRICULUM_REGISTRY_PATH}`);
+  if (!data.content || typeof data.content !== "string") {
+    throw new Error(
+      `Refusing curriculum publication because ${CURRICULUM_REGISTRY_PATH} could not be read from the repository. Existing curriculum must never be treated as empty.`,
+    );
   }
+
+  const raw = Buffer.from(data.content as string, "base64").toString("utf8");
+  let registry: CurriculumRegistry;
+  try {
+    registry = JSON.parse(raw) as CurriculumRegistry;
+  } catch (error) {
+    throw new Error(
+      `Refusing curriculum publication because ${CURRICULUM_REGISTRY_PATH} is not valid JSON. Existing curriculum must never be replaced from a failed registry read. Cause: ${(error as Error).message}`,
+    );
+  }
+
+  if (!registry || typeof registry !== "object" || !("tracks" in registry)) {
+    throw new Error(
+      `Refusing curriculum publication because ${CURRICULUM_REGISTRY_PATH} is missing its tracks structure. Existing curriculum must never be treated as empty.`,
+    );
+  }
+
+  return registry;
 }
 
 function activeLessonIds(registry: CurriculumRegistry | null): Set<string> {
