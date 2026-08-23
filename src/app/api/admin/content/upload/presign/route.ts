@@ -1,9 +1,10 @@
 /**
  * POST /api/admin/content/upload/presign
  *
- * Large files use direct-to-Supabase signed uploads. Small files deliberately
- * use the existing server-proxied multipart path because they are safely below
- * Netlify's request-body limit and do not need the extra finalize phase.
+ * Prefer direct-to-Supabase signed uploads for every file size. The legacy
+ * server-proxied multipart route is fallback-only when signed storage is not
+ * available; forcing small 50-lesson ZIPs through a serverless request proved
+ * unreliable in production.
  */
 import { NextRequest } from "next/server";
 
@@ -16,11 +17,6 @@ import { createId, slugify } from "@/lib/admin-content/utils";
 
 type FileDescriptor = { name: string; size: number; type: string };
 export const maxDuration = 26;
-
-// Keep enough headroom for multipart/form-data framing and metadata. Files at
-// or below this threshold are intentionally handled by /api/admin/content/upload
-// so a tiny curriculum ZIP cannot fail in the direct-upload finalize phase.
-const DIRECT_UPLOAD_THRESHOLD_BYTES = 5 * 1024 * 1024;
 
 async function checkSupabaseConnectivity(): Promise<void> {
   const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/u, "");
@@ -61,40 +57,19 @@ export async function POST(request: NextRequest) {
       if (key !== "files" && (typeof value === "string" || typeof value === "number")) configFormData.append(key, String(value));
     }
     parseUploadConfig(configFormData);
-
-    const needsDirectUpload = fileDescriptors.some((file) => file.size > DIRECT_UPLOAD_THRESHOLD_BYTES);
-    if (needsDirectUpload) await checkSupabaseConnectivity();
+    await checkSupabaseConnectivity();
 
     const batchName = (String(body.batchName ?? "") || "Content Upload " + new Date().toISOString().slice(0, 10)).trim();
     batchId = createId("batch");
     const batchSlug = slugify(batchName);
     const contentDestination = String(body.contentDestination ?? "").trim() || "uploads";
 
-    await recordUploadOperation({ batchId, phase: "PRESIGN", status: "STARTED", metadata: { fileCount: fileDescriptors.length, contentDestination, needsDirectUpload } });
+    await recordUploadOperation({ batchId, phase: "PRESIGN", status: "STARTED", metadata: { fileCount: fileDescriptors.length, contentDestination, preferredPath: "direct-storage" } });
 
     const uploads = await Promise.all(fileDescriptors.map(async (file) => {
       const uploadId = createId("upload");
       const safeName = assertValidUploadName(file.name);
       const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
-
-      // Small files are intentionally returned without a direct path. The
-      // existing UploadClient then falls through to its legacy multipart path.
-      // This removes the unnecessary direct-upload/finalize failure point for
-      // small curriculum ZIPs such as 50-lesson language bundles.
-      if (file.size <= DIRECT_UPLOAD_THRESHOLD_BYTES) {
-        await recordUploadOperation({
-          batchId,
-          uploadId,
-          phase: "PRESIGN",
-          status: "FALLBACK",
-          storagePath,
-          fileName: safeName,
-          fileSize: file.size,
-          metadata: { reason: "small-file-server-upload" },
-        });
-        return { uploadId, storagePath, safeName, signedUrl: null, directUpload: null };
-      }
-
       let signedUrl: string | null = null;
       try {
         signedUrl = await createAdminSignedUploadUrl(storagePath);
