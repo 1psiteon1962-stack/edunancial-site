@@ -1,87 +1,54 @@
-/**
- * Webhook Event Idempotency
- *
- * Tracks Square webhook event IDs that have already been processed.
- * Any event arriving a second time is rejected with a no-op response.
- *
- * This prevents:
- *   • Duplicate membership activations
- *   • Duplicate email sends
- *   • Double-processing from Square retry attempts
- *   • Replay attacks using captured webhook payloads
- *
- * The store is in-memory for simplicity.  In a multi-instance deployment,
- * replace the Map with a shared key-value store (e.g. Supabase, Redis).
- */
-
-interface IdempotencyEntry {
-  eventId: string;
-  eventType: string;
-  processedAt: string;
-}
-
-/** How long to remember a processed event (72 hours). */
-const RETENTION_MS = 72 * 60 * 60 * 1_000;
-
-const processedEvents = new Map<string, IdempotencyEntry>();
+import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 
 /**
- * Attempt to claim an event ID for processing.
+ * Atomically claims a Square webhook event in the shared Supabase store.
  *
- * Returns `true` if this is the first time the event ID has been seen and
- * the caller should proceed with processing.
- *
- * Returns `false` if the event has already been processed — the caller should
- * return a 200/202 without re-processing.
+ * The webhook_events.event_id UNIQUE constraint is the concurrency boundary:
+ * only the first delivery can insert the event. Every later delivery, including
+ * retries handled by another Netlify instance, is treated as a duplicate.
  */
-export function claimWebhookEvent(
+export async function claimWebhookEvent(
   eventId: string,
-  eventType: string
-): boolean {
-  pruneExpired();
-
-  if (processedEvents.has(eventId)) {
+  eventType: string,
+  rawPayload?: unknown
+): Promise<boolean> {
+  if (!eventId.trim()) {
     return false;
   }
 
-  processedEvents.set(eventId, {
-    eventId,
-    eventType,
-    processedAt: new Date().toISOString(),
+  const supabase = getSupabaseAdminClient();
+  const { error } = await supabase.from("webhook_events").insert({
+    event_id: eventId,
+    event_type: eventType || "unknown",
+    provider: "square",
+    processed: false,
+    duplicate: false,
+    raw_payload: rawPayload ?? null,
   });
 
-  return true;
-}
-
-/**
- * Check whether an event ID has already been claimed/processed.
- * Does not claim the event — use {@link claimWebhookEvent} for atomic
- * claim-and-process semantics.
- */
-export function hasProcessedWebhookEvent(eventId: string): boolean {
-  return processedEvents.has(eventId);
-}
-
-/** Return all entries in the idempotency log (for admin inspection). */
-export function listProcessedWebhookEvents(): IdempotencyEntry[] {
-  pruneExpired();
-  return [...processedEvents.values()].sort(
-    (a, b) =>
-      new Date(b.processedAt).getTime() - new Date(a.processedAt).getTime()
-  );
-}
-
-/** Remove entries older than the retention window to bound memory usage. */
-function pruneExpired(): void {
-  const cutoff = Date.now() - RETENTION_MS;
-  for (const [id, entry] of processedEvents.entries()) {
-    if (new Date(entry.processedAt).getTime() < cutoff) {
-      processedEvents.delete(id);
-    }
+  if (!error) {
+    return true;
   }
+
+  // PostgreSQL unique_violation. A prior delivery already owns this event ID.
+  if (error.code === "23505") {
+    return false;
+  }
+
+  // Fail closed: if the shared idempotency store is unavailable, do not risk
+  // processing the same payment/membership event more than once.
+  throw new Error(`Unable to claim Square webhook event: ${error.message}`);
 }
 
-/** Reset the store — for use in tests only. */
-export function resetWebhookIdempotencyForTests(): void {
-  processedEvents.clear();
+/** Mark a successfully handled event complete for audit/recovery purposes. */
+export async function markWebhookEventProcessed(eventId: string): Promise<void> {
+  const supabase = getSupabaseAdminClient();
+  const { error } = await supabase
+    .from("webhook_events")
+    .update({ processed: true, processed_at: new Date().toISOString() })
+    .eq("event_id", eventId);
+
+  if (error) {
+    throw new Error(`Unable to mark Square webhook event processed: ${error.message}`);
+  }
 }
