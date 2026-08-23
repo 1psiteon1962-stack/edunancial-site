@@ -13,7 +13,7 @@ export interface AILearningAdminConfig {
 
 export const DEFAULT_AI_LEARNING_CONFIG: AILearningAdminConfig = {
   enabledGlobally: true,
-  enabledTracks: ["RED", "WHITE", "BLUE"],
+  enabledTracks: ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"],
   disabledLessons: [],
   supportedJurisdictions: [
     "US",
