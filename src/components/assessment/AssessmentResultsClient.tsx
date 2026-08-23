@@ -32,28 +32,28 @@ const AREA_COLORS: Record<string, { bg: string; text: string }> = {
 
 const RECOMMENDATIONS: Record<string, { title: string; desc: string; href: string }[]> = {
   personalFinance: [
-    { title: "Build Your Financial Defense", desc: "Strengthen cash flow, reserves, credit, and debt decisions before deploying more capital.", href: "/course-catalog" },
-    { title: "Then Build Financial Offense", desc: "Use that stronger foundation to begin evaluating ownership and investment opportunities.", href: "/course-catalog" },
+    { title: "Build Your Financial Defense", desc: "Strengthen cash flow, reserves, credit, and debt decisions before deploying more capital.", href: "/curriculum" },
+    { title: "Then Build Financial Offense", desc: "Use that stronger foundation to begin evaluating ownership and investment opportunities.", href: "/curriculum/WHITE/l1" },
   ],
   investing: [
-    { title: "WHITE — Paper Assets", desc: "Learn how stocks, bonds, ETFs, diversification, risk, and financial markets work.", href: "/course-catalog" },
-    { title: "GOLD — Investing", desc: "Develop the ability to decide where capital should go and why.", href: "/course-catalog" },
+    { title: "WHITE — Paper Assets", desc: "Learn how stocks, bonds, ETFs, diversification, risk, and financial markets work.", href: "/curriculum/WHITE/l1" },
+    { title: "GOLD — Investing", desc: "Develop the ability to decide where capital should go and why.", href: "/curriculum/GOLD/l1" },
   ],
   realEstate: [
-    { title: "RED — Real Estate", desc: "Learn property, financing, cash flow, leverage, risk, and the mechanics of real-estate ownership.", href: "/course-catalog" },
-    { title: "Build Toward Deal Analysis", desc: "Progress from understanding property to evaluating whether an acquisition actually builds wealth.", href: "/course-catalog" },
+    { title: "RED — Real Estate", desc: "Learn property, financing, cash flow, leverage, risk, and the mechanics of real-estate ownership.", href: "/curriculum/RED/l1" },
+    { title: "Build Toward Deal Analysis", desc: "Progress from understanding property to evaluating whether an acquisition actually builds wealth.", href: "/curriculum/RED/l1" },
   ],
   business: [
-    { title: "BLUE — Business", desc: "Learn revenue, profit, margins, business ownership, financing, and entrepreneurship fundamentals.", href: "/course-catalog" },
-    { title: "Build Toward Ownership", desc: "Use the curriculum to move from understanding a business to operating and evaluating one.", href: "/course-catalog" },
+    { title: "BLUE — Business", desc: "Learn revenue, profit, margins, business ownership, financing, and entrepreneurship fundamentals.", href: "/curriculum/BLUE/l1" },
+    { title: "Build Toward Ownership", desc: "Use the curriculum to move from understanding a business to operating and evaluating one.", href: "/curriculum/BLUE/l1" },
   ],
   riskManagement: [
-    { title: "Strengthen Financial Defense", desc: "Improve reserves, downside planning, insurance awareness, and risk recognition.", href: "/course-catalog" },
-    { title: "Learn Before You Leverage", desc: "Understand downside exposure before using debt or capital to pursue higher returns.", href: "/course-catalog" },
+    { title: "Strengthen Financial Defense", desc: "Improve reserves, downside planning, insurance awareness, and risk recognition.", href: "/curriculum/PURPLE/l1" },
+    { title: "Learn Before You Leverage", desc: "Understand downside exposure before using debt or capital to pursue higher returns.", href: "/curriculum/RED/l1" },
   ],
   financialProfile: [
-    { title: "Develop Financial Intelligence", desc: "Practice comparing alternatives by cash flow, risk, liquidity, taxes, leverage, and opportunity cost.", href: "/course-catalog" },
-    { title: "Start With the Edunancial Foundations", desc: "Learn each financial chess piece before combining them into more advanced strategies.", href: "/course-catalog" },
+    { title: "Develop Financial Intelligence", desc: "Practice comparing alternatives by cash flow, risk, liquidity, taxes, leverage, and opportunity cost.", href: "/curriculum" },
+    { title: "Start With the Edunancial Foundations", desc: "Learn each financial chess piece before combining them into more advanced strategies.", href: "/curriculum" },
   ],
 };
 
@@ -97,6 +97,7 @@ export default function AssessmentResultsClient() {
   const weakest = getWeakestArea(scores);
   const strongest = getStrongestAreas(scores);
   const opportunities = [...ALL_AREAS].sort((a, b) => scores[a] - scores[b]).slice(0, 3);
+  const primaryRecommendationHref = RECOMMENDATIONS[weakest]?.[0]?.href ?? "/curriculum";
 
   if (!loaded) {
     return <main className="flex min-h-screen items-center justify-center"><p className="text-slate-400">Loading results…</p></main>;
@@ -154,7 +155,7 @@ export default function AssessmentResultsClient() {
                 <p className="text-xs font-bold uppercase tracking-wider text-yellow-400">Priority {i + 1}</p>
                 <h3 className="mt-2 text-xl font-bold">{rec.title}</h3>
                 <p className="mt-2 text-sm text-slate-400">{rec.desc}</p>
-                <Link href={rec.href} className="mt-5 inline-block font-bold text-blue-400 hover:text-blue-300">Explore lessons →</Link>
+                <Link href={rec.href} className="mt-5 inline-block font-bold text-blue-400 hover:text-blue-300">Start this path →</Link>
               </div>
             ))}
           </div>
@@ -166,7 +167,7 @@ export default function AssessmentResultsClient() {
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center gap-5">
-          <Link href="/course-catalog" className="rounded-xl bg-blue-600 px-10 py-4 text-lg font-bold hover:bg-blue-700">Start My Recommended Learning</Link>
+          <Link href={primaryRecommendationHref} className="rounded-xl bg-blue-600 px-10 py-4 text-lg font-bold hover:bg-blue-700">Start My Recommended Learning</Link>
           <Link href="/dashboard" className="rounded-xl border border-white px-10 py-4 text-lg font-bold hover:bg-white hover:text-black">Save Progress in Dashboard</Link>
           <Link href="/membership" className="rounded-xl border border-yellow-500 px-10 py-4 text-lg font-bold text-yellow-400 hover:bg-yellow-600 hover:text-white">See Membership Options</Link>
         </div>
