@@ -82,4 +82,24 @@ export const MARKETPLACE_CATEGORIES = [
   "spreadsheets",
   "future-products",
 ] as const;
-export const SUPPORTED_UPLOAD_LANGUAGES = ["en", "es", "fr", "fr-CA"] as const;
+
+/**
+ * Locales supported by the admin content workflow. Base-language aliases are
+ * retained for backward compatibility while regional variants remain distinct.
+ */
+export const SUPPORTED_UPLOAD_LANGUAGES = [
+  "en",
+  "en-US",
+  "en-GB",
+  "es",
+  "es-ES",
+  "fr",
+  "fr-CA",
+  "fr-FR",
+  "pt",
+  "pt-BR",
+  "pt-PT",
+  "de",
+  "it",
+  "nl",
+] as const;
