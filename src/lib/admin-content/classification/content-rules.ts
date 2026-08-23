@@ -1,6 +1,10 @@
 import type { SupportedLanguage } from "@/lib/admin-content/types";
 
-const LANGUAGE_HEURISTICS: Record<SupportedLanguage, RegExp[]> = {
+// Content heuristics intentionally remain conservative. Exact curriculum locale
+// (for example pt-BR vs pt-PT, en-US vs en-GB) comes from explicit upload
+// metadata and/or the locale suffix in the lesson filename. Broad content
+// detection must not guess a regional locale from short lesson text.
+const LANGUAGE_HEURISTICS: Partial<Record<SupportedLanguage, RegExp[]>> = {
   en: [/\b(the|and|lesson|course|financial|business)\b/i],
   es: [/\b(el|curso|leccion|finanzas|bienes|raices|inversionistas)\b/i],
   fr: [/\b(le|les|des|cours|lecon|finance|politique|confidentialite)\b/i],
@@ -9,7 +13,7 @@ const LANGUAGE_HEURISTICS: Record<SupportedLanguage, RegExp[]> = {
 
 export function detectLanguage(text: string): SupportedLanguage {
   for (const language of ["fr-CA", "es", "fr", "en"] as const) {
-    if (LANGUAGE_HEURISTICS[language].some((pattern) => pattern.test(text))) {
+    if (LANGUAGE_HEURISTICS[language]?.some((pattern) => pattern.test(text))) {
       return language;
     }
   }
