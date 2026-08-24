@@ -5,7 +5,10 @@ export const ADMIN_CSRF_COOKIE = "edunancial_admin_csrf";
 export const DEFAULT_STORAGE_PREFIX = "admin-content";
 export const DEFAULT_BATCH_FILE_LIMIT = 500;
 export const DEFAULT_MAX_UPLOAD_BYTES = 50 * 1024 * 1024;
-export const DEFAULT_MAX_BATCH_BYTES = 200 * 1024 * 1024;
+// Multilingual curriculum batches may contain 6-7 independently valid ZIPs.
+// Keep the 50 MB per-file safety cap while allowing the combined batch enough
+// headroom for a full color/level language delivery in one admin operation.
+export const DEFAULT_MAX_BATCH_BYTES = 500 * 1024 * 1024;
 export const DEFAULT_MAX_EXTRACTED_BYTES = 500 * 1024 * 1024;
 export const DEFAULT_MAX_COMPRESSION_RATIO = 120;
 export const DEFAULT_SESSION_MAX_AGE_SECONDS = 60 * 60 * 8;
