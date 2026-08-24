@@ -102,6 +102,18 @@ export default function Footer() {
               .
             </p>
           </div>
+          <p className="mx-auto mt-5 max-w-4xl text-center leading-6">
+            Paid memberships are recurring subscriptions and renew at the price and interval disclosed
+            at checkout until cancelled. Cancel before your next renewal to avoid the next charge. See{" "}
+            <Link href="/membership-terms" className="underline hover:text-slate-300">
+              Membership Terms
+            </Link>{" "}
+            and{" "}
+            <Link href="/refund" className="underline hover:text-slate-300">
+              Refund &amp; Cancellation Policy
+            </Link>
+            .
+          </p>
         </div>
       </div>
     </footer>
