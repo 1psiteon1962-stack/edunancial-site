@@ -7,9 +7,9 @@ import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 export const maxDuration = 26;
 
 function safeFilename(value: string) {
-  const base = value.trim().split(/[\\/]/u).pop() ?? "video.mp4";
+  const base = value.trim().split(/[\\/]/u).pop() ?? "source.mp4";
   const safe = base.replace(/[^a-zA-Z0-9._-]/gu, "-").replace(/-+/gu, "-");
-  if (!safe || safe.length > 180) throw new Error("Invalid video filename.");
+  if (!safe || safe.length > 180) throw new Error("Invalid source filename.");
   return safe;
 }
 
@@ -25,8 +25,8 @@ export async function POST(request: NextRequest) {
     const byteSize = Number(body.byteSize);
 
     if (!title || title.length > 200) throw new Error("Video title is required and must be 200 characters or fewer.");
-    if (!mimeType.startsWith("video/")) throw new Error("A video MIME type is required.");
-    if (!Number.isSafeInteger(byteSize) || byteSize <= 0) throw new Error("A valid video byte size is required.");
+    if (!(mimeType.startsWith("video/") || mimeType.startsWith("image/"))) throw new Error("A supported image or video MIME type is required.");
+    if (!Number.isSafeInteger(byteSize) || byteSize <= 0) throw new Error("A valid source byte size is required.");
 
     const supabase = getSupabaseAdminClient();
     const { data: project, error: projectError } = await supabase.from("video_projects").insert({ title, created_by: auth.session.email, status: "draft" }).select("id").single();
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     const { data: asset, error: assetError } = await supabase.from("video_assets").insert({ project_id: project.id, asset_type: "RAW_VIDEO", storage_bucket: "raw-videos", storage_path: storagePath, original_filename: fileName, mime_type: mimeType, byte_size: byteSize }).select("id").single();
     if (assetError || !asset) {
       await supabase.from("video_projects").delete().eq("id", project.id);
-      throw new Error(assetError?.message ?? "Could not create raw video asset.");
+      throw new Error(assetError?.message ?? "Could not create source asset.");
     }
 
     const signedUploadUrl = await createAdminSignedUploadUrl(storagePath, { bucket: "raw-videos", prefix: null, upsert: false });
