@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
-const lastUpdated = "July 9, 2026";
+const lastUpdated = "August 24, 2026";
 
 export default function PrivacyPageClient() {
   const { t } = useInternationalPreferences();
@@ -18,6 +18,24 @@ export default function PrivacyPageClient() {
 
         <div className="mt-10 rounded-2xl border border-blue-400/30 bg-blue-500/10 p-6 text-slate-200">
           <p className="font-semibold text-blue-200">{t("privacy.notice")}</p>
+        </div>
+
+        <div className="mt-10 rounded-2xl border border-yellow-400/30 bg-yellow-400/10 p-6 text-slate-200">
+          <h2 className="text-2xl font-black text-white">Persons Below the Age of Majority</h2>
+          <p className="mt-3 leading-7">
+            Parent or legal guardian consent is mandatory for every Edunancial user who has not reached
+            the legal age of majority in the jurisdiction where that user resides. The parent or legal
+            guardian must authorize the account and the minor&apos;s use of Edunancial and must provide any
+            consent required for Edunancial to collect, use, retain, or disclose the minor&apos;s personal
+            information under applicable law. Edunancial may require reasonable verification of age,
+            identity, relationship, or consent and may restrict an account until required consent is
+            verified.
+          </p>
+          <p className="mt-3 leading-7">
+            A parent or legal guardian may contact privacy@edunancial.com regarding a minor&apos;s account,
+            consent, access, correction, deletion, or other privacy rights. Where applicable law provides
+            additional protections for children or minors, those non-waivable protections control.
+          </p>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
