@@ -8,9 +8,11 @@ function validateEditRecipe(value: unknown) {
   const input = value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
   const trimStart = input.trimStart === undefined ? 0 : Number(input.trimStart);
   const trimEnd = input.trimEnd === undefined ? null : Number(input.trimEnd);
+  const durationSeconds = input.durationSeconds === undefined ? 6 : Number(input.durationSeconds);
   if (!Number.isFinite(trimStart) || trimStart < 0) throw new Error("trimStart must be a non-negative number.");
   if (trimEnd !== null && (!Number.isFinite(trimEnd) || trimEnd <= trimStart)) throw new Error("trimEnd must be greater than trimStart.");
-  return { trimStart, trimEnd, musicStoragePath: null };
+  if (!Number.isFinite(durationSeconds) || durationSeconds < 1 || durationSeconds > 60) throw new Error("durationSeconds must be between 1 and 60.");
+  return { trimStart, trimEnd, durationSeconds, musicStoragePath: null };
 }
 
 export async function POST(request: NextRequest) {
