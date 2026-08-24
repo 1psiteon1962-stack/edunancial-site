@@ -7,16 +7,127 @@ import {
 } from "@/lib/executive/types";
 import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 
+const numberValue = (value: unknown) => {
+  const parsed = Number(value ?? 0);
+  return Number.isFinite(parsed) ? parsed : 0;
+};
+
+const startOfUtcDay = (daysAgo = 0) => {
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - daysAgo)).toISOString();
+};
+const startOfUtcWeek = () => {
+  const now = new Date();
+  const day = now.getUTCDay();
+  const offset = day === 0 ? 6 : day - 1;
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - offset)).toISOString();
+};
+function startOfMonthIso() {
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString();
+}
+const startOfYearIso = () => new Date(Date.UTC(new Date().getUTCFullYear(), 0, 1)).toISOString();
+const between = (iso: string | null | undefined, from: string, to?: string) => Boolean(iso && iso >= from && (!to || iso < to));
+
 export async function getRevenueKPIs(): Promise<RevenueKPIs> {
-  return { today: metricPending(0), yesterday: metricPending(0), weekToDate: metricPending(0), monthToDate: metricPending(0), yearToDate: metricPending(0), mrr: metricPending(0), arr: metricPending(0), recurringRevenue: metricPending(0), oneTimeRevenue: metricPending(0), refunds: metricPending(0), arpu: metricPending(0), ltv: metricPending(0) };
+  try {
+    const db = getSupabaseAdminClient();
+    const [{ data: paymentRows, error: paymentError }, { data: subscriptionRows, error: subscriptionError }, { data: memberRows, error: memberError }] = await Promise.all([
+      db.from("payment_transactions").select("amount,status,created_at"),
+      db.from("subscriptions").select("plan_id,status"),
+      db.from("members").select("active"),
+    ]);
+    if (paymentError) throw paymentError;
+    const completed = (paymentRows ?? []).filter((row) => row.status === "completed");
+    const refunded = (paymentRows ?? []).filter((row) => row.status === "refunded");
+    const revenueFrom = (from: string, to?: string) => completed.filter((row) => between(row.created_at, from, to)).reduce((sum, row) => sum + numberValue(row.amount), 0);
+    const todayStart = startOfUtcDay();
+    const yesterdayStart = startOfUtcDay(1);
+    const activeSubscriptions = subscriptionError ? null : (subscriptionRows ?? []).filter((row) => row.status === "active");
+    const monthlyPlanPrice = (id: string) => {
+      const plan = String(id ?? "").toLowerCase();
+      if (plan.includes("basic")) return 39.99;
+      if (plan.includes("premium") || plan.includes("pro")) return 69.99;
+      if (plan.includes("enterprise") || plan.includes("gold")) return 99.99;
+      return 0;
+    };
+    const mrr = activeSubscriptions ? activeSubscriptions.reduce((sum, row) => sum + monthlyPlanPrice(row.plan_id), 0) : 0;
+    const activeMembers = memberError ? null : (memberRows ?? []).filter((row) => row.active).length;
+    const monthRevenue = revenueFrom(startOfMonthIso());
+    const arpu = activeMembers && activeMembers > 0 ? monthRevenue / activeMembers : 0;
+    return {
+      today: metricLive(revenueFrom(todayStart)),
+      yesterday: metricLive(revenueFrom(yesterdayStart, todayStart)),
+      weekToDate: metricLive(revenueFrom(startOfUtcWeek())),
+      monthToDate: metricLive(monthRevenue),
+      yearToDate: metricLive(revenueFrom(startOfYearIso())),
+      mrr: activeSubscriptions ? metricLive(mrr) : metricPending(0),
+      arr: activeSubscriptions ? metricLive(mrr * 12) : metricPending(0),
+      recurringRevenue: metricPending(0),
+      oneTimeRevenue: metricPending(0),
+      refunds: metricLive(refunded.reduce((sum, row) => sum + numberValue(row.amount), 0)),
+      arpu: activeMembers !== null ? metricLive(arpu) : metricPending(0),
+      ltv: metricPending(0),
+    };
+  } catch (error) {
+    console.error("getRevenueKPIs failed", error);
+    return { today: metricPending(0), yesterday: metricPending(0), weekToDate: metricPending(0), monthToDate: metricPending(0), yearToDate: metricPending(0), mrr: metricPending(0), arr: metricPending(0), recurringRevenue: metricPending(0), oneTimeRevenue: metricPending(0), refunds: metricPending(0), arpu: metricPending(0), ltv: metricPending(0) };
+  }
 }
 
 export async function getMembershipKPIs(): Promise<MembershipKPIs> {
-  return { total: metricPending(0), active: metricPending(0), inactive: metricPending(0), basicTier: metricPending(0), proTier: metricPending(0), goldTier: metricPending(0), trial: metricPending(0), renewals: metricPending(0), expired: metricPending(0), cancelled: metricPending(0), newToday: metricPending(0), monthlyChurn: metricPending(0), annualChurn: metricPending(0), growthRate: metricPending(0) };
+  try {
+    const db = getSupabaseAdminClient();
+    const { data, error } = await db.from("members").select("membership_tier,active,created_at");
+    if (error) throw error;
+    const rows = data ?? [];
+    const active = rows.filter((row) => row.active);
+    const tierCount = (tokens: string[]) => active.filter((row) => tokens.some((token) => String(row.membership_tier ?? "").toLowerCase().includes(token))).length;
+    const today = startOfUtcDay();
+    return {
+      total: metricLive(rows.length),
+      active: metricLive(active.length),
+      inactive: metricLive(rows.length - active.length),
+      basicTier: metricLive(tierCount(["basic"])),
+      proTier: metricLive(tierCount(["pro", "premium"])),
+      goldTier: metricLive(tierCount(["gold", "enterprise"])),
+      trial: metricPending(0),
+      renewals: metricPending(0),
+      expired: metricPending(0),
+      cancelled: metricPending(0),
+      newToday: metricLive(rows.filter((row) => between(row.created_at, today)).length),
+      monthlyChurn: metricPending(0),
+      annualChurn: metricPending(0),
+      growthRate: metricPending(0),
+    };
+  } catch (error) {
+    console.error("getMembershipKPIs failed", error);
+    return { total: metricPending(0), active: metricPending(0), inactive: metricPending(0), basicTier: metricPending(0), proTier: metricPending(0), goldTier: metricPending(0), trial: metricPending(0), renewals: metricPending(0), expired: metricPending(0), cancelled: metricPending(0), newToday: metricPending(0), monthlyChurn: metricPending(0), annualChurn: metricPending(0), growthRate: metricPending(0) };
+  }
 }
 
 export async function getFinancialKPIs(): Promise<FinancialKPIs> {
-  return { revenue: metricPending(0), expenses: metricPending(0), grossProfit: metricPending(0), netProfit: metricPending(0), cashPosition: metricPending(0), monthlyBurnRate: metricPending(0), operatingMargin: metricPending(0), grossMargin: metricPending(0), netMargin: metricPending(0) };
+  try {
+    const db = getSupabaseAdminClient();
+    const { data, error } = await db.from("payment_transactions").select("amount,status");
+    if (error) throw error;
+    const completed = (data ?? []).filter((row) => row.status === "completed").reduce((sum, row) => sum + numberValue(row.amount), 0);
+    const refunds = (data ?? []).filter((row) => row.status === "refunded").reduce((sum, row) => sum + numberValue(row.amount), 0);
+    return {
+      revenue: metricLive(completed - refunds),
+      expenses: metricPending(0),
+      grossProfit: metricPending(0),
+      netProfit: metricPending(0),
+      cashPosition: metricPending(0),
+      monthlyBurnRate: metricPending(0),
+      operatingMargin: metricPending(0),
+      grossMargin: metricPending(0),
+      netMargin: metricPending(0),
+    };
+  } catch (error) {
+    console.error("getFinancialKPIs failed", error);
+    return { revenue: metricPending(0), expenses: metricPending(0), grossProfit: metricPending(0), netProfit: metricPending(0), cashPosition: metricPending(0), monthlyBurnRate: metricPending(0), operatingMargin: metricPending(0), grossMargin: metricPending(0), netMargin: metricPending(0) };
+  }
 }
 
 export async function getCourseKPIs(): Promise<CourseKPIs> {
@@ -25,11 +136,6 @@ export async function getCourseKPIs(): Promise<CourseKPIs> {
 
 export async function getAICoachKPIs(): Promise<AICoachKPIs> {
   return { questionsAsked: metricPending(0), topTopics: metricPending([]), topLanguages: metricPending([]), failedSearches: metricPending(0), avgResponseTimeMs: metricPending(0), satisfactionRate: metricPending(0) };
-}
-
-function startOfMonthIso() {
-  const now = new Date();
-  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString();
 }
 
 export async function getMarketingKPIs(): Promise<MarketingKPIs> {
@@ -41,7 +147,6 @@ export async function getMarketingKPIs(): Promise<MarketingKPIs> {
       db.from("kpi_marketing_spend").select("amount").gte("spend_date", since.slice(0, 10)),
     ]);
     if (eventError) throw eventError;
-
     const rows = events ?? [];
     const pageViews = rows.filter((row) => row.event_name === "page_view");
     const sessions = new Set(pageViews.map((row) => row.session_id).filter(Boolean));
@@ -52,24 +157,12 @@ export async function getMarketingKPIs(): Promise<MarketingKPIs> {
     const organic = pageViews.filter((row) => row.utm_medium === "organic" || row.utm_source === "google" || row.utm_source === "bing").length;
     const social = pageViews.filter((row) => ["social", "paid_social"].includes(String(row.utm_medium ?? ""))).length;
     const referrals = pageViews.filter((row) => Boolean(row.referrer) && !String(row.referrer).includes("edunancial.com")).length;
-
     const spendAvailable = !spendError;
     const spend = spendAvailable ? (spendRows ?? []).reduce((sum, row) => sum + Number(row.amount ?? 0), 0) : 0;
     const cac = spendAvailable && conversions > 0 ? spend / conversions : 0;
     const cpa = spendAvailable && signups.length > 0 ? spend / signups.length : 0;
     const roas = spendAvailable && spend > 0 ? revenue / spend : 0;
-
-    return {
-      visitors: metricLive(sessions.size),
-      conversions: metricLive(conversions),
-      membershipSignups: metricLive(signups.length),
-      cpa: spendAvailable ? metricLive(cpa) : metricPending(0),
-      cac: spendAvailable ? metricLive(cac) : metricPending(0),
-      roas: spendAvailable ? metricLive(roas) : metricPending(0),
-      organicSearch: metricLive(organic),
-      referralTraffic: metricLive(referrals),
-      socialTraffic: metricLive(social),
-    };
+    return { visitors: metricLive(sessions.size), conversions: metricLive(conversions), membershipSignups: metricLive(signups.length), cpa: spendAvailable ? metricLive(cpa) : metricPending(0), cac: spendAvailable ? metricLive(cac) : metricPending(0), roas: spendAvailable ? metricLive(roas) : metricPending(0), organicSearch: metricLive(organic), referralTraffic: metricLive(referrals), socialTraffic: metricLive(social) };
   } catch (error) {
     console.error("getMarketingKPIs failed", error);
     return { visitors: metricPending(0), conversions: metricPending(0), membershipSignups: metricPending(0), cpa: metricPending(0), cac: metricPending(0), roas: metricPending(0), organicSearch: metricPending(0), referralTraffic: metricPending(0), socialTraffic: metricPending(0) };
