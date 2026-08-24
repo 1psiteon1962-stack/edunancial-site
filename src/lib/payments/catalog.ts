@@ -88,6 +88,25 @@ export const paymentCatalog: PaymentCatalogItem[] = [
     membershipPlanId: "enterprise",
     active: true,
   },
+
+  // TEMPORARY TEST ITEM — keep active until the owner confirms the complete
+  // Square production checkout -> payment -> webhook -> fulfillment flow works.
+  // Remove only after that end-to-end verification is complete.
+  {
+    id: "square-payment-test-001",
+    name: "Square Payment Test",
+    description:
+      "Temporary $1.00 payment used to verify Edunancial's Square production checkout and webhook pipeline end to end.",
+    type: "other",
+    price: 1.0,
+    currency: "USD",
+    isRecurring: false,
+    active: true,
+    metadata: {
+      productId: "square-payment-test-001",
+      purpose: "square-payment-test",
+    },
+  },
 ];
 
 export function getCatalogItem(id: string): PaymentCatalogItem | undefined {
