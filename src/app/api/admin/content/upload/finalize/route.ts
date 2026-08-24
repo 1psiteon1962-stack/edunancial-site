@@ -1,6 +1,7 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
+import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { createUploadBatchFromStoredFiles, type StoredUploadEntry } from "@/lib/admin-content/service";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
@@ -57,7 +58,7 @@ export async function POST(request: NextRequest) {
     }
 
     const uploadConfig = parseUploadConfig(configFormData);
-    const batch = await createUploadBatchFromStoredFiles(request, toActor(auth.session), {
+    const createdBatch = await createUploadBatchFromStoredFiles(request, toActor(auth.session), {
       batchId,
       batchName: String(body.batchName ?? ""),
       source: String(body.source ?? ""),
@@ -65,6 +66,7 @@ export async function POST(request: NextRequest) {
       uploadConfig,
       uploads,
     });
+    const batch = await normalizeMixedLocaleBatch(createdBatch);
 
     // A direct upload is not successful merely because the object reached storage.
     // If every supplied object failed validation/extraction, fail finalization and keep
