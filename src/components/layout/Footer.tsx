@@ -103,6 +103,18 @@ export default function Footer() {
             </p>
           </div>
           <p className="mx-auto mt-5 max-w-4xl text-center leading-6">
+            All content, tools, examples, calculators, scenarios, assessments, community materials,
+            and AI-generated responses are for general educational, informational, and/or recreational
+            purposes only. Edunancial does not provide legal, financial, investment, securities, tax,
+            accounting, insurance, lending, credit, real-estate, or other professional advice. No
+            professional, fiduciary, attorney-client, adviser-client, or similar relationship is created.
+            See the{" "}
+            <Link href="/disclaimer" className="underline hover:text-slate-300">
+              full Disclaimer
+            </Link>
+            .
+          </p>
+          <p className="mx-auto mt-5 max-w-4xl text-center leading-6">
             Paid memberships are recurring subscriptions and renew at the price and interval disclosed
             at checkout until cancelled. Cancel before your next renewal to avoid the next charge. See{" "}
             <Link href="/membership-terms" className="underline hover:text-slate-300">
