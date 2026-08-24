@@ -10,6 +10,7 @@ export interface AuthUser {
   membershipTier: MembershipTier;
   joinedDate: string;
   country: string;
+  dateOfBirth?: string | null;
   phone?: string | null;
   bio?: string | null;
   assessmentCompleted: boolean;
@@ -25,6 +26,7 @@ export interface RegisterData {
   email: string;
   password: string;
   country: string;
+  dateOfBirth: string;
 }
 
 export interface AuthResult {
