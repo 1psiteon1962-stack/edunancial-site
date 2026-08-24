@@ -3,8 +3,9 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { getSupabaseAdminClient } from "@/lib/supabase/admin";
 
-type SceneInput = { assetId?: unknown; durationSeconds?: unknown; overlayText?: unknown; fitMode?: unknown };
+type SceneInput = { assetId?: unknown; durationSeconds?: unknown; overlayText?: unknown; fitMode?: unknown; transitionType?: unknown; transitionSeconds?: unknown };
 type AudioInput = { assetId?: unknown; locale?: unknown; transcript?: unknown; volume?: unknown };
+const TRANSITIONS = new Set(["cut", "fade", "wipeleft", "wiperight", "slideleft", "slideright"]);
 
 function parseAudio(value: unknown, fallbackLocale: string, fallbackVolume: number) {
   const raw = value && typeof value === "object" ? value as AudioInput : null;
@@ -34,9 +35,14 @@ export async function PUT(request: NextRequest, context: { params: Promise<{ pro
       const durationSeconds = Number(scene.durationSeconds ?? 6);
       const overlayText = typeof scene.overlayText === "string" ? scene.overlayText.trim().slice(0, 500) : null;
       const fitMode = scene.fitMode === "cover" ? "cover" : "contain";
+      const requestedTransition = typeof scene.transitionType === "string" ? scene.transitionType : "cut";
+      const transitionType = TRANSITIONS.has(requestedTransition) ? requestedTransition : "cut";
+      const requestedTransitionSeconds = Number(scene.transitionSeconds ?? 0.35);
+      const transitionSeconds = Number.isFinite(requestedTransitionSeconds) ? Math.max(0.1, Math.min(2, requestedTransitionSeconds)) : 0.35;
       if (!/^[0-9a-f-]{36}$/iu.test(assetId)) throw new Error(`Scene ${index + 1} has an invalid asset.`);
       if (!Number.isFinite(durationSeconds) || durationSeconds < 1 || durationSeconds > 60) throw new Error(`Scene ${index + 1} duration must be 1-60 seconds.`);
-      return { project_id: projectId, asset_id: assetId, scene_order: index, duration_seconds: durationSeconds, overlay_text: overlayText || null, fit_mode: fitMode };
+      if (index < body.scenes!.length - 1 && transitionType !== "cut" && transitionSeconds >= durationSeconds) throw new Error(`Scene ${index + 1} transition must be shorter than the scene.`);
+      return { project_id: projectId, asset_id: assetId, scene_order: index, duration_seconds: durationSeconds, overlay_text: overlayText || null, fit_mode: fitMode, transition_type: index === body.scenes!.length - 1 ? "cut" : transitionType, transition_seconds: transitionSeconds };
     });
 
     const narration = parseAudio(body.narration, "en-US", 1);
