@@ -15,13 +15,12 @@ const SUPABASE_URL = process.env.SUPABASE_URL || "";
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
 const OUTPUT_BUCKET = process.env.PROCESSED_VIDEO_BUCKET || "processed-videos";
 const MAX_SKEW_SECONDS = 300;
+const FONT_FILE = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf";
 
 if (SHARED_SECRET.length < 32) throw new Error("WORKER_SHARED_SECRET must be at least 32 characters");
 if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) throw new Error("Supabase worker credentials are required");
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
-  auth: { persistSession: false, autoRefreshToken: false },
-});
+const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, { auth: { persistSession: false, autoRefreshToken: false } });
 
 function header(req, name) {
   const value = req.headers[name.toLowerCase()];
@@ -40,12 +39,10 @@ function verifySignature(req) {
   const requestId = header(req, "x-edunancial-request-id");
   const signature = header(req, "x-edunancial-signature");
   if (!timestamp || !requestId || !signature) return { ok: false };
-
   const numericTimestamp = Number(timestamp);
   const now = Math.floor(Date.now() / 1000);
   if (!Number.isFinite(numericTimestamp) || Math.abs(now - numericTimestamp) > MAX_SKEW_SECONDS) return { ok: false };
   if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(requestId)) return { ok: false };
-
   const body = req.body?.length ? req.body.toString("utf8") : "";
   const bodyHash = crypto.createHash("sha256").update(body).digest("hex");
   const canonical = [timestamp, requestId, req.method.toUpperCase(), req.path, bodyHash].join("\n");
@@ -70,10 +67,7 @@ async function download(bucket, objectPath, destination) {
 }
 
 async function updateJob(jobId, values) {
-  const { error } = await supabase
-    .from("video_jobs")
-    .update({ ...values, updated_at: new Date().toISOString() })
-    .eq("id", jobId);
+  const { error } = await supabase.from("video_jobs").update({ ...values, updated_at: new Date().toISOString() }).eq("id", jobId);
   if (error) throw error;
 }
 
@@ -84,88 +78,118 @@ async function recordRequest(requestId, jobId) {
   throw error;
 }
 
+function fitFilter(mode) {
+  return mode === "cover"
+    ? "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
+    : "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,setsar=1";
+}
+
+async function textFilter(text, dir, index) {
+  if (!text) return "";
+  const textFile = path.join(dir, `overlay-${index}.txt`);
+  await fs.writeFile(textFile, text, "utf8");
+  return `,drawtext=fontfile=${FONT_FILE}:textfile=${textFile}:fontcolor=white:fontsize=58:line_spacing=12:borderw=4:bordercolor=black:x=(w-text_w)/2:y=h-text_h-180`;
+}
+
+async function makeScene(scene, dir, index) {
+  const asset = scene.video_assets;
+  if (!asset) throw new Error(`Scene ${index + 1} asset not found`);
+  const ext = path.extname(asset.original_filename || asset.storage_path || "") || (asset.mime_type?.startsWith("image/") ? ".jpg" : ".mp4");
+  const input = path.join(dir, `scene-${index}-source${ext}`);
+  const output = path.join(dir, `scene-${index}.mp4`);
+  await download(asset.storage_bucket, asset.storage_path, input);
+  const duration = Math.max(1, Math.min(Number(scene.duration_seconds || 6), 60));
+  const filter = `${fitFilter(scene.fit_mode)}${await textFilter(scene.overlay_text, dir, index)},fps=30,format=yuv420p`;
+  const args = ["-y"];
+  if (asset.mime_type?.startsWith("image/")) args.push("-loop", "1");
+  args.push("-i", input, "-t", String(duration), "-vf", filter, "-an", "-c:v", "libx264", "-preset", "veryfast", "-movflags", "+faststart", output);
+  await run("ffmpeg", args);
+  return output;
+}
+
+async function renderComposition(job, dir, output) {
+  const { data: scenes, error: sceneError } = await supabase
+    .from("video_scenes")
+    .select("id,scene_order,duration_seconds,overlay_text,fit_mode,video_assets!video_scenes_asset_id_fkey(storage_bucket,storage_path,original_filename,mime_type)")
+    .eq("project_id", job.project_id)
+    .order("scene_order", { ascending: true });
+  if (sceneError) throw sceneError;
+  if (!scenes?.length) return false;
+
+  const sceneFiles = [];
+  for (let index = 0; index < scenes.length; index += 1) sceneFiles.push(await makeScene(scenes[index], dir, index));
+  const concatFile = path.join(dir, "scenes.txt");
+  await fs.writeFile(concatFile, sceneFiles.map((file) => `file '${file.replaceAll("'", "'\\''")}'`).join("\n"), "utf8");
+  const silent = path.join(dir, "silent.mp4");
+  await run("ffmpeg", ["-y", "-f", "concat", "-safe", "0", "-i", concatFile, "-c", "copy", silent]);
+
+  const { data: narration, error: narrationError } = await supabase
+    .from("video_audio_tracks")
+    .select("volume,video_assets!video_audio_tracks_asset_id_fkey(storage_bucket,storage_path,original_filename,mime_type)")
+    .eq("project_id", job.project_id)
+    .eq("track_type", "ORIGINAL_NARRATION")
+    .eq("muted", false)
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  if (narrationError) throw narrationError;
+
+  if (narration?.video_assets) {
+    const audioAsset = narration.video_assets;
+    const ext = path.extname(audioAsset.original_filename || audioAsset.storage_path || "") || ".m4a";
+    const audio = path.join(dir, `narration${ext}`);
+    await download(audioAsset.storage_bucket, audioAsset.storage_path, audio);
+    const volume = Math.max(0, Math.min(Number(narration.volume ?? 1), 2));
+    await run("ffmpeg", ["-y", "-i", silent, "-i", audio, "-filter:a", `volume=${volume}`, "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", output]);
+  } else {
+    await fs.copyFile(silent, output);
+  }
+  return true;
+}
+
+async function renderLegacy(job, dir, output) {
+  const { data: asset, error: assetError } = await supabase.from("video_assets").select("id,storage_bucket,storage_path,original_filename,mime_type").eq("id", job.source_asset_id).single();
+  if (assetError || !asset) throw assetError || new Error("Source asset not found");
+  const ext = path.extname(asset.original_filename || asset.storage_path || "") || (asset.mime_type?.startsWith("image/") ? ".jpg" : ".mp4");
+  const input = path.join(dir, `source${ext}`);
+  await download(asset.storage_bucket, asset.storage_path, input);
+  const recipe = job.edit_recipe && typeof job.edit_recipe === "object" ? job.edit_recipe : {};
+  const trimStart = Math.max(0, Number(recipe.trimStart || 0));
+  const trimEnd = recipe.trimEnd === null || recipe.trimEnd === undefined ? null : Number(recipe.trimEnd);
+  const duration = trimEnd !== null && Number.isFinite(trimEnd) && trimEnd > trimStart ? trimEnd - trimStart : null;
+  const verticalFilter = `${fitFilter("contain")},format=yuv420p`;
+  if (asset.mime_type?.startsWith("image/")) {
+    const stillSeconds = Math.max(1, Math.min(Number(recipe.durationSeconds || 6), 60));
+    await run("ffmpeg", ["-y", "-loop", "1", "-i", input, "-t", String(stillSeconds), "-vf", verticalFilter, "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-movflags", "+faststart", output]);
+  } else {
+    const args = ["-y"];
+    if (trimStart > 0) args.push("-ss", String(trimStart));
+    args.push("-i", input);
+    if (duration !== null) args.push("-t", String(duration));
+    args.push("-vf", verticalFilter, "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", output);
+    await run("ffmpeg", args);
+  }
+}
+
 async function render(jobId) {
-  const { data: job, error: jobError } = await supabase
-    .from("video_jobs")
-    .select("id,project_id,source_asset_id,output_asset_id,status,attempt_count,edit_recipe")
-    .eq("id", jobId)
-    .single();
+  const { data: job, error: jobError } = await supabase.from("video_jobs").select("id,project_id,source_asset_id,output_asset_id,status,attempt_count,edit_recipe").eq("id", jobId).single();
   if (jobError || !job) throw jobError || new Error("Video job not found");
   if (job.status === "succeeded" && job.output_asset_id) return;
-
-  const { data: asset, error: assetError } = await supabase
-    .from("video_assets")
-    .select("id,storage_bucket,storage_path,original_filename,mime_type")
-    .eq("id", job.source_asset_id)
-    .single();
-  if (assetError || !asset) throw assetError || new Error("Source asset not found");
-
   const attempt = Number(job.attempt_count || 0) + 1;
-  await updateJob(jobId, {
-    status: "processing",
-    attempt_count: attempt,
-    started_at: new Date().toISOString(),
-    completed_at: null,
-    last_error: null,
-  });
+  await updateJob(jobId, { status: "processing", attempt_count: attempt, started_at: new Date().toISOString(), completed_at: null, last_error: null });
   await supabase.from("video_projects").update({ status: "processing", updated_at: new Date().toISOString() }).eq("id", job.project_id);
-
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "edunancial-video-"));
   try {
-    const ext = path.extname(asset.original_filename || asset.storage_path || "") || (asset.mime_type?.startsWith("image/") ? ".jpg" : ".mp4");
-    const input = path.join(dir, `source${ext}`);
     const output = path.join(dir, "master.mp4");
-    await download(asset.storage_bucket, asset.storage_path, input);
-
-    const recipe = job.edit_recipe && typeof job.edit_recipe === "object" ? job.edit_recipe : {};
-    const trimStart = Math.max(0, Number(recipe.trimStart || 0));
-    const trimEnd = recipe.trimEnd === null || recipe.trimEnd === undefined ? null : Number(recipe.trimEnd);
-    const duration = trimEnd !== null && Number.isFinite(trimEnd) && trimEnd > trimStart ? trimEnd - trimStart : null;
-    const verticalFilter = "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p";
-
-    if (asset.mime_type?.startsWith("image/")) {
-      const stillSeconds = Math.max(1, Math.min(Number(recipe.durationSeconds || 6), 60));
-      await run("ffmpeg", [
-        "-y", "-loop", "1", "-i", input, "-t", String(stillSeconds),
-        "-vf", verticalFilter, "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-movflags", "+faststart", output,
-      ]);
-    } else {
-      const args = ["-y"];
-      if (trimStart > 0) args.push("-ss", String(trimStart));
-      args.push("-i", input);
-      if (duration !== null) args.push("-t", String(duration));
-      args.push("-vf", verticalFilter, "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", output);
-      await run("ffmpeg", args);
-    }
-
+    const composed = await renderComposition(job, dir, output);
+    if (!composed) await renderLegacy(job, dir, output);
     const outputPath = `projects/${job.project_id}/master/${jobId}/master.mp4`;
     const bytes = await fs.readFile(output);
-    const { error: uploadError } = await supabase.storage
-      .from(OUTPUT_BUCKET)
-      .upload(outputPath, bytes, { contentType: "video/mp4", upsert: true });
+    const { error: uploadError } = await supabase.storage.from(OUTPUT_BUCKET).upload(outputPath, bytes, { contentType: "video/mp4", upsert: true });
     if (uploadError) throw uploadError;
-
-    const { data: outputAsset, error: outputAssetError } = await supabase
-      .from("video_assets")
-      .insert({
-        project_id: job.project_id,
-        asset_type: "EDITED_MASTER",
-        storage_bucket: OUTPUT_BUCKET,
-        storage_path: outputPath,
-        original_filename: "master.mp4",
-        mime_type: "video/mp4",
-        byte_size: bytes.length,
-      })
-      .select("id")
-      .single();
+    const { data: outputAsset, error: outputAssetError } = await supabase.from("video_assets").insert({ project_id: job.project_id, asset_type: "EDITED_MASTER", storage_bucket: OUTPUT_BUCKET, storage_path: outputPath, original_filename: "master.mp4", mime_type: "video/mp4", byte_size: bytes.length }).select("id").single();
     if (outputAssetError || !outputAsset) throw outputAssetError || new Error("Could not register rendered master");
-
-    await updateJob(jobId, {
-      status: "succeeded",
-      output_asset_id: outputAsset.id,
-      completed_at: new Date().toISOString(),
-      last_error: null,
-    });
+    await updateJob(jobId, { status: "succeeded", output_asset_id: outputAsset.id, completed_at: new Date().toISOString(), last_error: null });
     await supabase.from("video_projects").update({ status: "master_ready", updated_at: new Date().toISOString() }).eq("id", job.project_id);
   } catch (error) {
     const message = error instanceof Error ? error.message.slice(0, 4000) : "Unknown render error";
@@ -178,16 +202,13 @@ async function render(jobId) {
 }
 
 app.get("/health", (_req, res) => res.json({ ok: true, service: "edunancial-video-worker" }));
-
 app.post("/internal/jobs/:jobId/execute", async (req, res) => {
   const verified = verifySignature(req);
   if (!verified.ok) return res.status(401).json({ error: "invalid_signature" });
-
   let body;
   try { body = JSON.parse(verified.body || "{}"); } catch { return res.status(400).json({ error: "invalid_json" }); }
   const jobId = req.params.jobId;
   if (!/^[0-9a-f-]{36}$/iu.test(jobId) || body?.jobId !== jobId) return res.status(400).json({ error: "invalid_job" });
-
   try {
     const accepted = await recordRequest(verified.requestId, jobId);
     if (!accepted) return res.status(409).json({ error: "replayed_request" });
@@ -195,7 +216,6 @@ app.post("/internal/jobs/:jobId/execute", async (req, res) => {
     console.error("request replay registration failed", jobId, error);
     return res.status(500).json({ error: "request_registration_failed" });
   }
-
   res.status(202).json({ accepted: true, jobId });
   render(jobId).catch((error) => console.error("render failed", jobId, error));
 });

@@ -33,7 +33,8 @@ export async function POST(request: NextRequest) {
     if (projectError || !project) throw new Error(projectError?.message ?? "Could not create video project.");
 
     const storagePath = `projects/${project.id}/raw/${crypto.randomUUID()}-${fileName}`;
-    const { data: asset, error: assetError } = await supabase.from("video_assets").insert({ project_id: project.id, asset_type: "RAW_VIDEO", storage_bucket: "raw-videos", storage_path: storagePath, original_filename: fileName, mime_type: mimeType, byte_size: byteSize }).select("id").single();
+    const assetType = mimeType.startsWith("image/") ? "RAW_IMAGE" : "RAW_VIDEO";
+    const { data: asset, error: assetError } = await supabase.from("video_assets").insert({ project_id: project.id, asset_type: assetType, storage_bucket: "raw-videos", storage_path: storagePath, original_filename: fileName, mime_type: mimeType, byte_size: byteSize }).select("id").single();
     if (assetError || !asset) {
       await supabase.from("video_projects").delete().eq("id", project.id);
       throw new Error(assetError?.message ?? "Could not create source asset.");
