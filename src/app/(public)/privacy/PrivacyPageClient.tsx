@@ -23,18 +23,23 @@ export default function PrivacyPageClient() {
         <div className="mt-10 rounded-2xl border border-yellow-400/30 bg-yellow-400/10 p-6 text-slate-200">
           <h2 className="text-2xl font-black text-white">Persons Below the Age of Majority</h2>
           <p className="mt-3 leading-7">
-            Parent or legal guardian consent is mandatory for every Edunancial user who has not reached
-            the legal age of majority in the jurisdiction where that user resides. The parent or legal
-            guardian must authorize the account and the minor&apos;s use of Edunancial and must provide any
-            consent required for Edunancial to collect, use, retain, or disclose the minor&apos;s personal
-            information under applicable law. Edunancial may require reasonable verification of age,
-            identity, relationship, or consent and may restrict an account until required consent is
-            verified.
+            Edunancial does not require parent or legal-guardian consent for purely free access solely
+            because a user is below the applicable age of majority. Parent or legal-guardian authorization
+            is, however, required before a person below the applicable age of majority may enter any paid
+            Edunancial membership, paid program, paid product, recurring subscription, or other transaction
+            that creates a payment obligation.
+          </p>
+          <p className="mt-3 leading-7">
+            This payment rule does not reduce privacy protections for children or minors. Where applicable
+            privacy, child-protection, or other law independently requires parental or guardian consent for
+            the collection, use, retention, or disclosure of a minor&apos;s personal information, Edunancial
+            will require that consent even for free access. Edunancial may require reasonable verification
+            of age, identity, relationship, or legally required consent.
           </p>
           <p className="mt-3 leading-7">
             A parent or legal guardian may contact privacy@edunancial.com regarding a minor&apos;s account,
-            consent, access, correction, deletion, or other privacy rights. Where applicable law provides
-            additional protections for children or minors, those non-waivable protections control.
+            consent, access, correction, deletion, or other privacy rights. Non-waivable protections under
+            applicable law control.
           </p>
         </div>
 
