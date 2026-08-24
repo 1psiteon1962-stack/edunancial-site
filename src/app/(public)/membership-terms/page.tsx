@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import {
+  EDUNANCIAL_CONTENT_DISCLAIMER,
   EDUNANCIAL_IDENTITY,
   EDUNANCIAL_PUBLIC_DISCLAIMER,
 } from "@/lib/positioning";
@@ -21,9 +22,36 @@ export default function MembershipTermsPage() {
         <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6 text-sm leading-7 text-slate-300">
           <p>{EDUNANCIAL_IDENTITY}</p>
           <p className="mt-4">{EDUNANCIAL_PUBLIC_DISCLAIMER}</p>
+          <p className="mt-4">{EDUNANCIAL_CONTENT_DISCLAIMER}</p>
         </div>
 
         <div className="mt-10 space-y-8 text-slate-300">
+          <section>
+            <h2 className="text-3xl font-black text-white">Age of Majority and Parent or Guardian Consent</h2>
+            <p className="mt-4 leading-8">
+              A person who has not reached the legal age of majority in the jurisdiction where that
+              person resides may use Edunancial only with the affirmative consent and supervision of a
+              parent or legal guardian. Parent or legal guardian consent is mandatory for every user
+              below the applicable age of majority, even where local law may otherwise permit a minor to
+              consent to particular online services.
+            </p>
+            <p className="mt-4 leading-8">
+              The consenting parent or legal guardian must review and accept the applicable Edunancial
+              Terms, Membership Terms, Privacy Policy, and other required notices on the minor&apos;s behalf;
+              authorize the minor&apos;s account and use of the service; authorize any paid purchase or
+              recurring membership; and remain responsible for supervising the minor&apos;s use. Edunancial
+              may require reasonable age, identity, relationship, or consent verification before creating,
+              activating, maintaining, or restoring a minor&apos;s account.
+            </p>
+            <p className="mt-4 leading-8">
+              A minor may not independently purchase a membership, enter a recurring-payment obligation,
+              or represent that the minor has reached the age of majority. If Edunancial learns that an
+              account requiring parent or guardian consent was created or used without the required
+              consent, Edunancial may restrict or suspend the account while consent and any legally
+              required privacy authorization are obtained, or delete information where required by law.
+            </p>
+          </section>
+
           <section>
             <h2 className="text-3xl font-black text-white">Plans and Access</h2>
             <p className="mt-4 leading-8">
@@ -42,7 +70,8 @@ export default function MembershipTermsPage() {
               disclosed at checkout, plus applicable taxes, until you cancel. Monthly memberships renew
               approximately monthly. Any annual membership offered at checkout renews approximately
               annually. The checkout screen controls if its price or interval differs from older
-              promotional or informational material.
+              promotional or informational material. For a member below the age of majority, this
+              authorization must be provided by the consenting parent or legal guardian.
             </p>
           </section>
 
@@ -93,18 +122,20 @@ export default function MembershipTermsPage() {
             <h2 className="text-3xl font-black text-white">Account Responsibility</h2>
             <p className="mt-4 leading-8">
               Membership access is for the authorized account holder unless an organizational agreement
-              expressly provides otherwise. Members are responsible for maintaining accurate account and
-              payment information and for protecting their login credentials. Accounts and paid access
-              may not be resold, transferred, or shared in a manner that circumvents membership limits.
+              expressly provides otherwise. Members and, where applicable, their consenting parent or
+              legal guardian are responsible for maintaining accurate account and payment information and
+              for protecting login credentials. Accounts and paid access may not be resold, transferred,
+              or shared in a manner that circumvents membership limits.
             </p>
           </section>
 
           <section>
             <h2 className="text-3xl font-black text-white">No Guaranteed Results</h2>
             <p className="mt-4 leading-8">
-              Membership provides access to educational resources and tools; it does not guarantee
-              earnings, investment performance, business success, financing, tax savings, credit results,
-              employment, professional licensure, or any other financial or educational outcome.
+              Membership provides access to educational, informational, and recreational resources and
+              tools; it does not guarantee earnings, investment performance, business success, financing,
+              tax savings, credit results, employment, professional licensure, or any other financial or
+              educational outcome.
             </p>
           </section>
 
@@ -114,7 +145,8 @@ export default function MembershipTermsPage() {
               Enterprise or organization access may be governed by a separate written agreement, order,
               invoice, or onboarding document. Beta Tester access is free and invitation only; expiration
               of beta access does not itself create a charge or automatically enroll the tester in a paid
-              membership.
+              membership. The parent-or-guardian consent requirement applies equally to beta, free,
+              organization-sponsored, and paid access by persons below the applicable age of majority.
             </p>
           </section>
         </div>
