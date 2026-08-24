@@ -1,12 +1,12 @@
 import { basename, extname } from "node:path";
-import { COURSE_TRACKS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
+import { COURSE_TRACKS, MEMBERSHIP_ACCESS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
 import type { CourseTrack } from "@/lib/admin-content/constants";
 import { slugify } from "@/lib/admin-content/utils";
 export { COURSE_TRACKS, SUPPORTED_UPLOAD_LANGUAGES } from "@/lib/admin-content/constants";
 export const CONTENT_DESTINATIONS = ["courses", "marketplace"] as const;
 export const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
 export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] as const;
-export const MEMBERSHIP_ACCESS = ["free", "basic", "premium", "elite"] as const;
+export { MEMBERSHIP_ACCESS } from "@/lib/admin-content/constants";
 export const SUPPORTED_REGIONS = ["north-america", "latin-america", "caribbean", "europe", "africa", "asia", "middle-east", "oceania", "global"] as const;
 export const MARKETPLACE_CATEGORIES = ["books", "ebooks", "pdf-guides", "templates", "worksheets", "forms", "downloads", "zip-packages", "audio", "videos", "images", "software", "digital-products", "calculators", "presentations", "spreadsheets", "future-products"] as const;
 export const CURRICULUM_FILENAME_LOCALES = ["es-Caribbean", "en-US", "en-GB", "es-ES", "fr-CA", "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "es", "fr", "pt", "en"] as const;
@@ -35,7 +35,7 @@ export function parseUploadConfig(formData: FormData): UploadConfig {
   if (destination === "courses") return { destination, track: assertOneOf(String(formData.get("courseTrack") ?? "").trim().toLowerCase(), COURSE_TRACKS, "Course color track is required."), level: assertOneOf(String(formData.get("courseLevel") ?? "").trim().toLowerCase(), COURSE_LEVELS, "Course level is required."), language, membershipAccess, publicationStatus, title, description, thumbnailUrl, previewUrl };
   return { destination, category: assertOneOf(String(formData.get("marketplaceCategory") ?? "").trim().toLowerCase(), MARKETPLACE_CATEGORIES, "Marketplace category is required."), associatedTrack: toOptionalText(formData.get("associatedTrack")) as CourseTrack | null, associatedLevel: toOptionalText(formData.get("associatedLevel")) as CourseLevel | null, language, membershipAccess, publicationStatus, title, description, thumbnailUrl, previewUrl };
 }
-export function canonicalUploadLanguage(language: string): string { if (language === "en") return "en-US"; if (language === "fr") return "fr-CA"; if (language === "pt") return "pt-BR"; return language.trim(); }
+export function canonicalUploadLanguage(language: string): string { if (language === "en") return "en-US"; if (language === "fr") return "fr-FR"; if (language === "pt") return "pt-BR"; return language.trim(); }
 export function inferUploadLanguageFromFilename(filename: string): string | null {
   const stem = basename(filename, extname(filename)).toLowerCase();
   for (const locale of CURRICULUM_FILENAME_LOCALES) { const candidate = locale.toLowerCase(); if (stem.endsWith(`-${candidate}`) || stem.endsWith(`.${candidate}`)) return locale; }
