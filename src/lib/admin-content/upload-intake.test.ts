@@ -53,7 +53,7 @@ describe("admin-content upload intake", () => {
         track: "blue",
         level: "level-4",
         language: "en",
-        membershipAccess: "elite",
+        membershipAccess: "gold",
         publicationStatus: "published",
         title: "Business Scaling",
         description: "Description",
