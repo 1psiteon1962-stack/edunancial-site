@@ -10,7 +10,7 @@ import { membershipPlans, publicMembershipPlans } from "../types/membership";
 test("uses required legal positioning copy", () => {
   assert.equal(
     EDUNANCIAL_IDENTITY,
-    "Edunancial is a financial literacy and financial intelligence membership platform.",
+    "At Edunancial, we begin with financial literacy, build financial competency, and work toward financial intelligence.",
   );
   assert.match(EDUNANCIAL_PUBLIC_DISCLAIMER, /not a school/i);
   assert.match(EDUNANCIAL_PUBLIC_DISCLAIMER, /degree-granting institution/i);
