@@ -7,14 +7,14 @@ import { EDUNANCIAL_IDENTITY, EDUNANCIAL_LONG_DESCRIPTION } from "@/lib/position
 import HomePageClient from "./HomePageClient";
 
 export const metadata: Metadata = {
-  title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+  title: "Edunancial | From Financial Literacy to Financial Intelligence",
   description: EDUNANCIAL_LONG_DESCRIPTION,
   keywords: [
-    "financial competency platform",
+    "financial intelligence platform",
     "financial literacy membership",
     "real estate knowledge",
     "investment knowledge",
-    "business competency",
+    "business education",
     "AI financial coach",
     "practical financial knowledge",
   ],
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: "https://www.edunancial.com",
   },
   openGraph: {
-    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    title: "Edunancial | From Financial Literacy to Financial Intelligence",
     description: EDUNANCIAL_LONG_DESCRIPTION,
     url: "https://www.edunancial.com",
     siteName: "Edunancial",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Edunancial financial competency learning platform",
+        alt: "Edunancial financial literacy to financial intelligence platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
+    title: "Edunancial | From Financial Literacy to Financial Intelligence",
     description: EDUNANCIAL_IDENTITY,
     images: ["/og-image.png"],
   },
