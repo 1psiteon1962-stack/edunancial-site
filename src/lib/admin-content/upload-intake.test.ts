@@ -3,6 +3,10 @@ import { describe, test } from "node:test";
 
 import {
   buildIntendedDestination,
+  inferCourseLevelFromFilename,
+  inferCourseTrackFromFilename,
+  inferCurriculumTitleFromFilename,
+  inferUploadLanguageFromFilename,
   parseUploadConfig,
   type CourseUploadConfig,
   type MarketplaceUploadConfig,
@@ -84,5 +88,21 @@ describe("admin-content upload intake", () => {
     assert.doesNotMatch(coursePath, /^content\/marketplace\//);
     assert.match(marketplacePath, /^content\/marketplace\//);
     assert.doesNotMatch(marketplacePath, /^content\/courses\//);
+  });
+
+  test("infers mixed curriculum identity from package filenames", () => {
+    assert.equal(inferCourseTrackFromFilename("BLUE-L1-fr-CA-complete.zip"), "blue");
+    assert.equal(inferCourseLevelFromFilename("BLUE-L1-fr-CA-complete.zip"), "level-1");
+    assert.equal(inferUploadLanguageFromFilename("BLUE-L1-fr-CA-complete.zip"), "fr-CA");
+
+    assert.equal(inferCourseTrackFromFilename("GREEN-level-2-pt-BR-curriculum.zip"), "green");
+    assert.equal(inferCourseLevelFromFilename("GREEN-level-2-pt-BR-curriculum.zip"), "level-2");
+    assert.equal(inferUploadLanguageFromFilename("GREEN-level-2-pt-BR-curriculum.zip"), "pt-BR");
+  });
+
+  test("does not mistake curriculum metadata for the course title", () => {
+    assert.equal(inferCurriculumTitleFromFilename("BLUE-L1-fr-CA-complete.zip"), null);
+    assert.equal(inferCurriculumTitleFromFilename("Business-Formation-BLUE-L2-en-US-complete.zip"), "Business Formation");
+    assert.equal(inferCurriculumTitleFromFilename("Tax-Strategy_GREEN_level-3_es-ES_curriculum.zip"), "Tax Strategy");
   });
 });
