@@ -1,7 +1,13 @@
 import { deriveBatchStatus, toDuplicateStatus } from "@/lib/admin-content/review";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ExtractedFile, SupportedLanguage, UploadBatch } from "@/lib/admin-content/types";
-import { inferUploadLanguageFromFilename, replaceDestinationLanguage } from "@/lib/admin-content/upload-intake";
+import {
+  inferCourseLevelFromFilename,
+  inferCourseTrackFromFilename,
+  inferCurriculumTitleFromFilename,
+  inferUploadLanguageFromFilename,
+  replaceCourseDestinationIdentity,
+} from "@/lib/admin-content/upload-intake";
 import { normalizeSimilarityText, nowIso } from "@/lib/admin-content/utils";
 
 function canonicalLocale(locale: string): string {
@@ -12,12 +18,40 @@ function canonicalLocale(locale: string): string {
   return value;
 }
 
-function inferredLocale(file: ExtractedFile): string | null {
-  return (
-    inferUploadLanguageFromFilename(file.originalFilename) ??
-    inferUploadLanguageFromFilename(file.normalizedFilename) ??
-    (file.sourceArchiveFilename ? inferUploadLanguageFromFilename(file.sourceArchiveFilename) : null)
+function sourceNames(file: ExtractedFile): string[] {
+  return [file.sourceArchiveFilename, file.originalFilename, file.normalizedFilename].filter(
+    (value): value is string => Boolean(value),
   );
+}
+
+function inferredLocale(file: ExtractedFile): string | null {
+  for (const name of sourceNames(file)) {
+    const value = inferUploadLanguageFromFilename(name);
+    if (value) return value;
+  }
+  return null;
+}
+
+function inferredTrack(file: ExtractedFile) {
+  for (const name of sourceNames(file)) {
+    const value = inferCourseTrackFromFilename(name);
+    if (value) return value;
+  }
+  return null;
+}
+
+function inferredLevel(file: ExtractedFile) {
+  for (const name of sourceNames(file)) {
+    const value = inferCourseLevelFromFilename(name);
+    if (value) return value;
+  }
+  return null;
+}
+
+function inferredTitle(file: ExtractedFile): string | null {
+  const sourceArchive = file.sourceArchiveFilename;
+  if (sourceArchive) return inferCurriculumTitleFromFilename(sourceArchive);
+  return null;
 }
 
 function sameCurriculumIdentity(a: ExtractedFile, b: ExtractedFile): boolean {
@@ -28,7 +62,7 @@ function sameCurriculumIdentity(a: ExtractedFile, b: ExtractedFile): boolean {
   );
 }
 
-function localeAwareConflict(current: ExtractedFile, candidates: ExtractedFile[]) {
+function curriculumAwareConflict(current: ExtractedFile, candidates: ExtractedFile[]) {
   for (const existing of candidates) {
     if (existing.id === current.id || !sameCurriculumIdentity(current, existing)) continue;
     if (existing.checksum === current.checksum) return "exact-duplicate" as const;
@@ -50,36 +84,64 @@ function localeAwareConflict(current: ExtractedFile, candidates: ExtractedFile[]
 }
 
 /**
- * Normalizes curriculum language after ZIP extraction. The locale may be on the
- * lesson filename or only on the source ZIP filename. This permits one batch to
- * contain multiple language ZIPs for the same color/level without assigning the
- * batch fallback language to every extracted lesson.
+ * Converts a broad browser upload into per-package curriculum metadata after ZIP
+ * extraction. Filename/package metadata wins over the form defaults whenever it
+ * can be inferred. This permits one selection to contain mixed colors, levels,
+ * languages and course titles; the form values remain safe fallbacks only.
  */
 export async function normalizeMixedLocaleBatch(batch: UploadBatch): Promise<UploadBatch> {
   let changed = false;
 
   batch.files = batch.files.map((file) => {
-    const locale = inferredLocale(file);
-    if (!locale || file.classification.category !== "courses") return file;
+    if (file.classification.category !== "courses") return file;
 
-    const destination = replaceDestinationLanguage(file.classification.destination, locale);
-    const currentLocale = canonicalLocale(String(file.metadata.language));
-    const nextLocale = canonicalLocale(locale);
-    if (currentLocale === nextLocale && destination === file.classification.destination) return file;
+    const locale = inferredLocale(file) ?? String(file.metadata.language);
+    const track = inferredTrack(file) ?? file.classification.pillar;
+    const level = inferredLevel(file) ?? file.classification.academyLevel;
+    const title = inferredTitle(file) ?? file.metadata.title;
 
+    if (!track || track === "uncategorized" || !level) return file;
+
+    const destination = replaceCourseDestinationIdentity(
+      file.classification.destination,
+      track as Parameters<typeof replaceCourseDestinationIdentity>[1],
+      level as Parameters<typeof replaceCourseDestinationIdentity>[2],
+      locale,
+    );
+
+    const identityChanged =
+      canonicalLocale(String(file.metadata.language)) !== canonicalLocale(locale) ||
+      file.metadata.pillar !== track ||
+      file.metadata.academyLevel !== level ||
+      file.metadata.title !== title ||
+      file.classification.destination !== destination;
+
+    if (!identityChanged) return file;
     changed = true;
+
     const language = locale as SupportedLanguage;
+    const reasons = [...file.classification.reasons];
+    if (canonicalLocale(String(file.metadata.language)) !== canonicalLocale(locale)) reasons.push(`filename-locale:${locale}`);
+    if (file.metadata.pillar !== track) reasons.push(`filename-track:${track}`);
+    if (file.metadata.academyLevel !== level) reasons.push(`filename-level:${level}`);
+    if (file.metadata.title !== title && file.sourceArchiveFilename) reasons.push(`archive-title:${file.sourceArchiveFilename}`);
+
     return {
       ...file,
       classification: {
         ...file.classification,
         language,
+        pillar: track,
+        academyLevel: level,
         destination,
-        reasons: [...file.classification.reasons, `filename-locale:${locale}`],
+        reasons,
       },
       metadata: {
         ...file.metadata,
+        title,
         language,
+        pillar: track,
+        academyLevel: level,
         intendedDestination: destination,
       },
       updatedAt: nowIso(),
@@ -99,7 +161,7 @@ export async function normalizeMixedLocaleBatch(batch: UploadBatch): Promise<Upl
   const priorFiles = priorBatches.flatMap((entry) => entry?.files ?? []);
 
   batch.files = batch.files.map((file) => {
-    const conflictStatus = localeAwareConflict(file, [...priorFiles, ...batch.files]);
+    const conflictStatus = curriculumAwareConflict(file, [...priorFiles, ...batch.files]);
     return {
       ...file,
       conflictStatus,
