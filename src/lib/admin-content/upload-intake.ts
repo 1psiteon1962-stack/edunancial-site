@@ -76,11 +76,21 @@ export function inferCourseLevelFromFilename(filename: string): CourseLevel | nu
 
 export function inferCurriculumTitleFromFilename(filename: string): string | null {
   const stem = basename(filename, extname(filename));
-  const cleaned = stem
+  const tokens = stem.split(/[-_.\s]+/).filter(Boolean);
+  const localeTokens = new Set(CURRICULUM_FILENAME_LOCALES.flatMap((locale) => locale.toLowerCase().split("-")));
+  const metadataTokens = new Set(["complete", "combined", "package", "curriculum", ...Object.keys(TRACK_ALIASES)]);
+  const titleTokens = tokens.filter((token) => {
+    const lower = token.toLowerCase();
+    if (metadataTokens.has(lower) || localeTokens.has(lower)) return false;
+    if (/^l[1-5]$/i.test(token) || /^level[1-5]$/i.test(token) || /^[1-5]$/.test(token)) return false;
+    return true;
+  });
+  if (titleTokens.length > 0) return titleTokens.join(" ");
+  const identity = stem
     .replace(/(?:^|[-_.])(complete|combined|package|curriculum)(?=$|[-_.])/gi, "-")
     .replace(/[-_.]+/g, " ")
     .trim();
-  return cleaned || null;
+  return identity || null;
 }
 
 export function resolveUploadFileLanguage(configLanguage: UploadLanguage, filename: string): string { return inferUploadLanguageFromFilename(filename) ?? configLanguage; }
