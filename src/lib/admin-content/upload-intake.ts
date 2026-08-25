@@ -36,13 +36,65 @@ export function parseUploadConfig(formData: FormData): UploadConfig {
   return { destination, category: assertOneOf(String(formData.get("marketplaceCategory") ?? "").trim().toLowerCase(), MARKETPLACE_CATEGORIES, "Marketplace category is required."), associatedTrack: toOptionalText(formData.get("associatedTrack")) as CourseTrack | null, associatedLevel: toOptionalText(formData.get("associatedLevel")) as CourseLevel | null, language, membershipAccess, publicationStatus, title, description, thumbnailUrl, previewUrl };
 }
 export function canonicalUploadLanguage(language: string): string { if (language === "en") return "en-US"; if (language === "fr") return "fr-FR"; if (language === "pt") return "pt-BR"; return language.trim(); }
+
+function filenameTokens(filename: string): string[] {
+  const stem = basename(filename, extname(filename)).toLowerCase();
+  return stem.split(/[^a-z0-9]+/).filter(Boolean);
+}
+
 export function inferUploadLanguageFromFilename(filename: string): string | null {
   const stem = basename(filename, extname(filename)).toLowerCase();
-  for (const locale of CURRICULUM_FILENAME_LOCALES) { const candidate = locale.toLowerCase(); if (stem.endsWith(`-${candidate}`) || stem.endsWith(`.${candidate}`)) return locale; }
+  const normalized = `-${stem.replaceAll("_", "-").replaceAll(".", "-")}-`;
+  for (const locale of CURRICULUM_FILENAME_LOCALES) {
+    const candidate = locale.toLowerCase();
+    if (normalized.includes(`-${candidate}-`)) return locale;
+  }
   return null;
 }
+
+const TRACK_ALIASES: Record<string, CourseTrack> = {
+  red: "red", white: "white", blue: "blue", green: "green", gold: "gold", purple: "purple", orange: "orange", black: "black",
+};
+
+export function inferCourseTrackFromFilename(filename: string): CourseTrack | null {
+  for (const token of filenameTokens(filename)) {
+    if (TRACK_ALIASES[token]) return TRACK_ALIASES[token];
+  }
+  return null;
+}
+
+export function inferCourseLevelFromFilename(filename: string): CourseLevel | null {
+  const tokens = filenameTokens(filename);
+  for (let index = 0; index < tokens.length; index += 1) {
+    const token = tokens[index];
+    const compact = token.match(/^l([1-5])$/) ?? token.match(/^level([1-5])$/);
+    if (compact) return `level-${compact[1]}` as CourseLevel;
+    if (token === "level" && /^[1-5]$/.test(tokens[index + 1] ?? "")) return `level-${tokens[index + 1]}` as CourseLevel;
+  }
+  return null;
+}
+
+export function inferCurriculumTitleFromFilename(filename: string): string | null {
+  const stem = basename(filename, extname(filename));
+  const cleaned = stem
+    .replace(/(?:^|[-_.])(complete|combined|package|curriculum)(?=$|[-_.])/gi, "-")
+    .replace(/[-_.]+/g, " ")
+    .trim();
+  return cleaned || null;
+}
+
 export function resolveUploadFileLanguage(configLanguage: UploadLanguage, filename: string): string { return inferUploadLanguageFromFilename(filename) ?? configLanguage; }
 function normalizeLanguage(language: string) { return language.replaceAll("-", "_").toLowerCase(); }
 export function replaceDestinationLanguage(destination: string, language: string): string { const parts = destination.split("/"); if (parts[0] === "content" && parts[1] === "courses" && parts.length >= 6) { parts[4] = normalizeLanguage(language); return parts.join("/"); } if (parts[0] === "content" && parts[1] === "marketplace" && parts.length >= 5) { parts[3] = normalizeLanguage(language); return parts.join("/"); } return destination; }
+export function replaceCourseDestinationIdentity(destination: string, track: CourseTrack, level: CourseLevel, language: string): string {
+  const parts = destination.split("/");
+  if (parts[0] === "content" && parts[1] === "courses" && parts.length >= 6) {
+    parts[2] = track;
+    parts[3] = level;
+    parts[4] = normalizeLanguage(language);
+    return parts.join("/");
+  }
+  return destination;
+}
 export function buildIntendedDestination(config: UploadConfig, filename: string, uploadId: string) { const extension = extname(filename).toLowerCase() || ".bin"; const fileStem = slugify(basename(filename, extname(filename))); const uniqueSuffix = fileStem || uploadId.slice(-8); const safeName = `${slugify(config.title)}-${uniqueSuffix}${extension}`; const fileLanguage = config.destination === "courses" ? resolveUploadFileLanguage(config.language, filename) : config.language; if (config.destination === "courses") return `content/courses/${config.track}/${config.level}/${normalizeLanguage(fileLanguage)}/${safeName}`; return `content/marketplace/${config.category}/${normalizeLanguage(fileLanguage)}/${safeName}`; }
 export function toAcademyLevel(level: CourseLevel | null) { return level; }
