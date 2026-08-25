@@ -3,91 +3,46 @@ import {
   type AICoachKPIs, type CourseKPIs, type ExecutiveSnapshot, type FinancialKPIs,
   type GeoDataPoint, type KPIGoal, type KPIGoals, type MarketingKPIs,
   type MembershipKPIs, type RevenueKPIs, type ServiceHealth, type SystemHealthKPIs,
-  metricDemo, metricLive, metricPending,
+  metricLive, metricPending,
 } from "@/lib/executive/types";
 import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { paymentCatalog } from "@/lib/payments/catalog";
 
-export async function getRevenueKPIs(): Promise<RevenueKPIs> {
-  return { today: metricPending(0), yesterday: metricPending(0), weekToDate: metricPending(0), monthToDate: metricPending(0), yearToDate: metricPending(0), mrr: metricPending(0), arr: metricPending(0), recurringRevenue: metricPending(0), oneTimeRevenue: metricPending(0), refunds: metricPending(0), arpu: metricPending(0), ltv: metricPending(0) };
+const numberValue=(value:unknown)=>{const parsed=Number(value??0);return Number.isFinite(parsed)?parsed:0};
+const startOfUtcDay=(daysAgo=0)=>{const now=new Date();return new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()-daysAgo)).toISOString()};
+const startOfUtcWeek=()=>{const now=new Date();const day=now.getUTCDay();const offset=day===0?6:day-1;return new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()-offset)).toISOString()};
+function startOfMonthIso(){const now=new Date();return new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)).toISOString()}
+const startOfYearIso=()=>new Date(Date.UTC(new Date().getUTCFullYear(),0,1)).toISOString();
+const between=(iso:string|null|undefined,from:string,to?:string)=>Boolean(iso&&iso>=from&&(!to||iso<to));
+const monthlyPriceForPlan=(planId:string)=>paymentCatalog.find(item=>item.active&&item.isRecurring&&item.recurringInterval==="monthly"&&item.membershipPlanId===planId)?.price??null;
+
+export async function getRevenueKPIs():Promise<RevenueKPIs>{
+ try{const db=getSupabaseAdminClient();const [{data:paymentRows,error:paymentError},{data:subscriptionRows,error:subscriptionError},{data:memberRows,error:memberError}]=await Promise.all([db.from("payment_transactions").select("amount,status,created_at"),db.from("subscriptions").select("plan_id,status"),db.from("members").select("active")]);if(paymentError)throw paymentError;const completed=(paymentRows??[]).filter(row=>row.status==="completed"),refunded=(paymentRows??[]).filter(row=>row.status==="refunded");const revenueFrom=(from:string,to?:string)=>completed.filter(row=>between(row.created_at,from,to)).reduce((sum,row)=>sum+numberValue(row.amount),0);const todayStart=startOfUtcDay(),yesterdayStart=startOfUtcDay(1);const activeSubscriptions=subscriptionError?null:(subscriptionRows??[]).filter(row=>row.status==="active");const pricedSubscriptions=activeSubscriptions?.map(row=>monthlyPriceForPlan(String(row.plan_id??"")))??null;const mrr=pricedSubscriptions&&pricedSubscriptions.every(price=>price!==null)?pricedSubscriptions.reduce((sum,price)=>sum+(price??0),0):null;const activeMembers=memberError?null:(memberRows??[]).filter(row=>row.active).length;const monthRevenue=revenueFrom(startOfMonthIso());const arpu=activeMembers&&activeMembers>0?monthRevenue/activeMembers:0;return {today:metricLive(revenueFrom(todayStart)),yesterday:metricLive(revenueFrom(yesterdayStart,todayStart)),weekToDate:metricLive(revenueFrom(startOfUtcWeek())),monthToDate:metricLive(monthRevenue),yearToDate:metricLive(revenueFrom(startOfYearIso())),mrr:mrr!==null?metricLive(mrr):metricPending(0),arr:mrr!==null?metricLive(mrr*12):metricPending(0),recurringRevenue:metricPending(0),oneTimeRevenue:metricPending(0),refunds:metricLive(refunded.reduce((sum,row)=>sum+numberValue(row.amount),0)),arpu:activeMembers!==null?metricLive(arpu):metricPending(0),ltv:metricPending(0)}}catch(error){console.error("getRevenueKPIs failed",error);return {today:metricPending(0),yesterday:metricPending(0),weekToDate:metricPending(0),monthToDate:metricPending(0),yearToDate:metricPending(0),mrr:metricPending(0),arr:metricPending(0),recurringRevenue:metricPending(0),oneTimeRevenue:metricPending(0),refunds:metricPending(0),arpu:metricPending(0),ltv:metricPending(0)}}
 }
 
-export async function getMembershipKPIs(): Promise<MembershipKPIs> {
-  return { total: metricPending(0), active: metricPending(0), inactive: metricPending(0), basicTier: metricPending(0), proTier: metricPending(0), goldTier: metricPending(0), trial: metricPending(0), renewals: metricPending(0), expired: metricPending(0), cancelled: metricPending(0), newToday: metricPending(0), monthlyChurn: metricPending(0), annualChurn: metricPending(0), growthRate: metricPending(0) };
+export async function getMembershipKPIs():Promise<MembershipKPIs>{try{const db=getSupabaseAdminClient();const {data,error}=await db.from("members").select("membership_tier,active,created_at");if(error)throw error;const rows=data??[],active=rows.filter(row=>row.active),tierCount=(tokens:string[])=>active.filter(row=>tokens.some(token=>String(row.membership_tier??"").toLowerCase().includes(token))).length,today=startOfUtcDay();return {total:metricLive(rows.length),active:metricLive(active.length),inactive:metricLive(rows.length-active.length),basicTier:metricLive(tierCount(["basic"])),proTier:metricLive(tierCount(["pro","premium"])),goldTier:metricLive(tierCount(["gold","enterprise"])),trial:metricPending(0),renewals:metricPending(0),expired:metricPending(0),cancelled:metricPending(0),newToday:metricLive(rows.filter(row=>between(row.created_at,today)).length),monthlyChurn:metricPending(0),annualChurn:metricPending(0),growthRate:metricPending(0)}}catch(error){console.error("getMembershipKPIs failed",error);return {total:metricPending(0),active:metricPending(0),inactive:metricPending(0),basicTier:metricPending(0),proTier:metricPending(0),goldTier:metricPending(0),trial:metricPending(0),renewals:metricPending(0),expired:metricPending(0),cancelled:metricPending(0),newToday:metricPending(0),monthlyChurn:metricPending(0),annualChurn:metricPending(0),growthRate:metricPending(0)}}}
+
+export async function getFinancialKPIs():Promise<FinancialKPIs>{try{const db=getSupabaseAdminClient();const {data,error}=await db.from("payment_transactions").select("amount,status");if(error)throw error;const completed=(data??[]).filter(row=>row.status==="completed").reduce((sum,row)=>sum+numberValue(row.amount),0),refunds=(data??[]).filter(row=>row.status==="refunded").reduce((sum,row)=>sum+numberValue(row.amount),0);return {revenue:metricLive(completed-refunds),expenses:metricPending(0),grossProfit:metricPending(0),netProfit:metricPending(0),cashPosition:metricPending(0),monthlyBurnRate:metricPending(0),operatingMargin:metricPending(0),grossMargin:metricPending(0),netMargin:metricPending(0)}}catch(error){console.error("getFinancialKPIs failed",error);return {revenue:metricPending(0),expenses:metricPending(0),grossProfit:metricPending(0),netProfit:metricPending(0),cashPosition:metricPending(0),monthlyBurnRate:metricPending(0),operatingMargin:metricPending(0),grossMargin:metricPending(0),netMargin:metricPending(0)}}}
+
+export async function getCourseKPIs():Promise<CourseKPIs>{
+ try{const db=getSupabaseAdminClient();const {data,error}=await db.from("user_lesson_progress").select("track_code,lesson_id,status,progress_percent,seconds_watched,completed_at,first_viewed_at");if(error)throw error;const rows=data??[];if(rows.length===0)return {mostPopular:metricPending("Unavailable"),leastPopular:metricPending("Unavailable"),mostViewedLesson:metricPending("Unavailable"),avgCompletionRate:metricLive(0),avgTimePerLesson:metricLive(0),completionsToday:metricLive(0),quizAvgScore:metricPending(0),certificatesIssued:metricPending(0),avgRating:metricPending(0)};const trackCounts=new Map<string,number>(),lessonCounts=new Map<string,number>();for(const row of rows){const track=String(row.track_code??"Unknown"),lesson=String(row.lesson_id??"Unknown");trackCounts.set(track,(trackCounts.get(track)??0)+1);lessonCounts.set(lesson,(lessonCounts.get(lesson)??0)+1)}const sortedTracks=[...trackCounts.entries()].sort((a,b)=>b[1]-a[1]),sortedLessons=[...lessonCounts.entries()].sort((a,b)=>b[1]-a[1]);const avgCompletion=rows.reduce((sum,row)=>sum+numberValue(row.progress_percent),0)/rows.length;const viewed=rows.filter(row=>row.first_viewed_at||numberValue(row.seconds_watched)>0);const avgTime=viewed.length?viewed.reduce((sum,row)=>sum+numberValue(row.seconds_watched),0)/viewed.length:0;const today=startOfUtcDay();return {mostPopular:metricLive(sortedTracks[0]?.[0]??"Unavailable"),leastPopular:metricLive(sortedTracks.at(-1)?.[0]??"Unavailable"),mostViewedLesson:metricLive(sortedLessons[0]?.[0]??"Unavailable"),avgCompletionRate:metricLive(avgCompletion),avgTimePerLesson:metricLive(avgTime),completionsToday:metricLive(rows.filter(row=>row.completed_at&&row.completed_at>=today).length),quizAvgScore:metricPending(0),certificatesIssued:metricPending(0),avgRating:metricPending(0)}}catch(error){console.error("getCourseKPIs failed",error);return {mostPopular:metricPending("Unavailable"),leastPopular:metricPending("Unavailable"),mostViewedLesson:metricPending("Unavailable"),avgCompletionRate:metricPending(0),avgTimePerLesson:metricPending(0),completionsToday:metricPending(0),quizAvgScore:metricPending(0),certificatesIssued:metricPending(0),avgRating:metricPending(0)}}
 }
 
-export async function getFinancialKPIs(): Promise<FinancialKPIs> {
-  return { revenue: metricPending(0), expenses: metricPending(0), grossProfit: metricPending(0), netProfit: metricPending(0), cashPosition: metricPending(0), monthlyBurnRate: metricPending(0), operatingMargin: metricPending(0), grossMargin: metricPending(0), netMargin: metricPending(0) };
+export async function getAICoachKPIs():Promise<AICoachKPIs>{return {questionsAsked:metricPending(0),topTopics:metricPending([]),topLanguages:metricPending([]),failedSearches:metricPending(0),avgResponseTimeMs:metricPending(0),satisfactionRate:metricPending(0)}}
+
+export async function getMarketingKPIs():Promise<MarketingKPIs>{try{const db=getSupabaseAdminClient(),since=startOfMonthIso();const [{data:events,error:eventError},{data:spendRows,error:spendError}]=await Promise.all([db.from("kpi_events").select("event_name,session_id,referrer,utm_source,utm_medium,value").gte("created_at",since),db.from("kpi_marketing_spend").select("amount").gte("spend_date",since.slice(0,10))]);if(eventError)throw eventError;const rows=events??[],pageViews=rows.filter(row=>row.event_name==="page_view"),sessions=new Set(pageViews.map(row=>row.session_id).filter(Boolean)),signups=rows.filter(row=>row.event_name==="signup"),purchases=rows.filter(row=>row.event_name==="purchase"),revenue=purchases.reduce((sum,row)=>sum+numberValue(row.value),0),conversions=purchases.length,organic=pageViews.filter(row=>row.utm_medium==="organic"||row.utm_source==="google"||row.utm_source==="bing").length,social=pageViews.filter(row=>["social","paid_social"].includes(String(row.utm_medium??""))).length,referrals=pageViews.filter(row=>Boolean(row.referrer)&&!String(row.referrer).includes("edunancial.com")).length,spendAvailable=!spendError,spend=spendAvailable?(spendRows??[]).reduce((sum,row)=>sum+numberValue(row.amount),0):0,cac=spendAvailable&&conversions>0?spend/conversions:0,cpa=spendAvailable&&signups.length>0?spend/signups.length:0,roas=spendAvailable&&spend>0?revenue/spend:0;return {visitors:metricLive(sessions.size),conversions:metricLive(conversions),membershipSignups:metricLive(signups.length),cpa:spendAvailable?metricLive(cpa):metricPending(0),cac:spendAvailable?metricLive(cac):metricPending(0),roas:spendAvailable?metricLive(roas):metricPending(0),organicSearch:metricLive(organic),referralTraffic:metricLive(referrals),socialTraffic:metricLive(social)}}catch(error){console.error("getMarketingKPIs failed",error);return {visitors:metricPending(0),conversions:metricPending(0),membershipSignups:metricPending(0),cpa:metricPending(0),cac:metricPending(0),roas:metricPending(0),organicSearch:metricPending(0),referralTraffic:metricPending(0),socialTraffic:metricPending(0)}}}
+
+function unknownService(name:string):ServiceHealth{return {name,status:"unknown",latencyMs:null,checkedAt:new Date().toISOString()}}
+export async function getSystemHealthKPIs():Promise<SystemHealthKPIs>{return {application:unknownService("Application"),database:unknownService("Database"),supabase:unknownService("Supabase"),netlify:unknownService("Netlify"),storage:metricPending(0),bandwidth:metricPending(0),apiHealth:unknownService("API")}}
+
+const unsetGoal=(label:string,unit:string):KPIGoal=>({label,current:0,target:0,unit});
+export async function getKPIGoals():Promise<KPIGoals>{
+ const fallback={revenueGoal:unsetGoal("Monthly Revenue Goal","USD"),membershipGoal:unsetGoal("Active Members Goal","members"),trafficGoal:unsetGoal("Monthly Traffic Goal","visitors"),courseCompletionGoal:unsetGoal("Course Completion Goal","completions"),customerSatisfactionGoal:unsetGoal("Customer Satisfaction Goal","%"),monthlyGrowthGoal:unsetGoal("Monthly Growth Goal","%"),annualGrowthGoal:unsetGoal("Annual Growth Goal","%"),netProfitGoal:unsetGoal("Monthly Net Profit Goal","USD")};
+ try{const db=getSupabaseAdminClient();const {data,error}=await db.from("executive_kpi_targets").select("metric_key,label,target_value,unit").eq("active",true);if(error)throw error;const byKey=new Map((data??[]).map(row=>[String(row.metric_key),row]));const goal=(key:string,base:KPIGoal)=>{const row=byKey.get(key);return row&&row.target_value!==null?{label:String(row.label),current:0,target:numberValue(row.target_value),unit:String(row.unit)}:base};return {revenueGoal:goal("monthly_revenue",fallback.revenueGoal),membershipGoal:goal("active_members",fallback.membershipGoal),trafficGoal:goal("monthly_traffic",fallback.trafficGoal),courseCompletionGoal:goal("course_completions",fallback.courseCompletionGoal),customerSatisfactionGoal:goal("customer_satisfaction",fallback.customerSatisfactionGoal),monthlyGrowthGoal:goal("monthly_growth",fallback.monthlyGrowthGoal),annualGrowthGoal:goal("annual_growth",fallback.annualGrowthGoal),netProfitGoal:goal("monthly_net_profit",fallback.netProfitGoal)}}catch(error){console.error("getKPIGoals failed",error);return fallback}
 }
 
-export async function getCourseKPIs(): Promise<CourseKPIs> {
-  return { mostPopular: metricPending("—"), leastPopular: metricPending("—"), mostViewedLesson: metricPending("—"), avgCompletionRate: metricPending(0), avgTimePerLesson: metricPending(0), completionsToday: metricPending(0), quizAvgScore: metricPending(0), certificatesIssued: metricPending(0), avgRating: metricPending(0) };
+export async function getGeoData():Promise<GeoDataPoint[]>{
+ try{const db=getSupabaseAdminClient();const [{data:profiles,error:profileError},{data:touchpoints,error:touchError}]=await Promise.all([db.from("member_analytics_profile").select("country,region"),db.from("marketing_touchpoints").select("country,region,event_type,revenue_usd")]);if(profileError&&touchError)return [];const map=new Map<string,GeoDataPoint>();const ensure=(country:string,region:string)=>{const key=`${region}|${country}`;if(!map.has(key))map.set(key,{continent:region,country,countryCode:"",members:0,revenue:0,traffic:0,courseCompletions:0,aiUsage:0});return map.get(key)!};for(const row of profiles??[]){const country=String(row.country??"Unknown"),region=String(row.region??"Unknown");ensure(country,region).members++}for(const row of touchpoints??[]){const country=String(row.country??"Unknown"),region=String(row.region??"Unknown"),point=ensure(country,region);if(row.event_type==="visit")point.traffic++;if(["purchase","renewal","upgrade"].includes(String(row.event_type)))point.revenue+=numberValue(row.revenue_usd);if(row.event_type==="lesson_complete")point.courseCompletions++}return [...map.values()].sort((a,b)=>(b.revenue+b.members)-(a.revenue+a.members))}catch(error){console.error("getGeoData failed",error);return []}
 }
 
-export async function getAICoachKPIs(): Promise<AICoachKPIs> {
-  return { questionsAsked: metricPending(0), topTopics: metricPending([]), topLanguages: metricPending([]), failedSearches: metricPending(0), avgResponseTimeMs: metricPending(0), satisfactionRate: metricPending(0) };
-}
-
-function startOfMonthIso() {
-  const now = new Date();
-  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString();
-}
-
-export async function getMarketingKPIs(): Promise<MarketingKPIs> {
-  try {
-    const db = getSupabaseAdminClient();
-    const since = startOfMonthIso();
-    const [{ data: events, error: eventError }, { data: spendRows, error: spendError }] = await Promise.all([
-      db.from("kpi_events").select("event_name,session_id,referrer,utm_source,utm_medium,value").gte("created_at", since),
-      db.from("kpi_marketing_spend").select("amount").gte("spend_date", since.slice(0, 10)),
-    ]);
-    if (eventError) throw eventError;
-
-    const rows = events ?? [];
-    const pageViews = rows.filter((row) => row.event_name === "page_view");
-    const sessions = new Set(pageViews.map((row) => row.session_id).filter(Boolean));
-    const signups = rows.filter((row) => row.event_name === "signup");
-    const purchases = rows.filter((row) => row.event_name === "purchase");
-    const revenue = purchases.reduce((sum, row) => sum + Number(row.value ?? 0), 0);
-    const conversions = purchases.length;
-    const organic = pageViews.filter((row) => row.utm_medium === "organic" || row.utm_source === "google" || row.utm_source === "bing").length;
-    const social = pageViews.filter((row) => ["social", "paid_social"].includes(String(row.utm_medium ?? ""))).length;
-    const referrals = pageViews.filter((row) => Boolean(row.referrer) && !String(row.referrer).includes("edunancial.com")).length;
-
-    const spendAvailable = !spendError;
-    const spend = spendAvailable ? (spendRows ?? []).reduce((sum, row) => sum + Number(row.amount ?? 0), 0) : 0;
-    const cac = spendAvailable && conversions > 0 ? spend / conversions : 0;
-    const cpa = spendAvailable && signups.length > 0 ? spend / signups.length : 0;
-    const roas = spendAvailable && spend > 0 ? revenue / spend : 0;
-
-    return {
-      visitors: metricLive(sessions.size),
-      conversions: metricLive(conversions),
-      membershipSignups: metricLive(signups.length),
-      cpa: spendAvailable ? metricLive(cpa) : metricPending(0),
-      cac: spendAvailable ? metricLive(cac) : metricPending(0),
-      roas: spendAvailable ? metricLive(roas) : metricPending(0),
-      organicSearch: metricLive(organic),
-      referralTraffic: metricLive(referrals),
-      socialTraffic: metricLive(social),
-    };
-  } catch (error) {
-    console.error("getMarketingKPIs failed", error);
-    return { visitors: metricPending(0), conversions: metricPending(0), membershipSignups: metricPending(0), cpa: metricPending(0), cac: metricPending(0), roas: metricPending(0), organicSearch: metricPending(0), referralTraffic: metricPending(0), socialTraffic: metricPending(0) };
-  }
-}
-
-function unknownService(name: string): ServiceHealth { return { name, status: "unknown", latencyMs: null, checkedAt: new Date().toISOString() }; }
-export async function getSystemHealthKPIs(): Promise<SystemHealthKPIs> {
-  return { application: unknownService("Application"), database: unknownService("Database"), supabase: unknownService("Supabase"), netlify: unknownService("Netlify"), storage: metricPending(0), bandwidth: metricPending(0), apiHealth: unknownService("API") };
-}
-function defaultGoal(label: string, target: number, unit: string): KPIGoal { return { label, current: 0, target, unit }; }
-export async function getKPIGoals(): Promise<KPIGoals> {
-  return { revenueGoal: defaultGoal("Monthly Revenue Goal", 10000, "USD"), membershipGoal: defaultGoal("Active Members Goal", 1000, "members"), trafficGoal: defaultGoal("Monthly Traffic Goal", 50000, "visitors"), courseCompletionGoal: defaultGoal("Course Completion Goal", 500, "completions"), customerSatisfactionGoal: defaultGoal("Customer Satisfaction Goal", 90, "%"), monthlyGrowthGoal: defaultGoal("Monthly Growth Goal", 10, "%"), annualGrowthGoal: defaultGoal("Annual Growth Goal", 100, "%"), netProfitGoal: defaultGoal("Monthly Net Profit Goal", 5000, "USD") };
-}
-export async function getGeoData(): Promise<GeoDataPoint[]> {
-  return [metricDemo({ continent: "North America", country: "United States", countryCode: "US", members: 0, revenue: 0, traffic: 0, courseCompletions: 0, aiUsage: 0 }).value];
-}
-export async function getExecutiveSnapshot(): Promise<ExecutiveSnapshot> {
-  const [revenue, membership, financial, courses, ai, marketing, system, goals, geo] = await Promise.all([getRevenueKPIs(), getMembershipKPIs(), getFinancialKPIs(), getCourseKPIs(), getAICoachKPIs(), getMarketingKPIs(), getSystemHealthKPIs(), getKPIGoals(), getGeoData()]);
-  return { revenue, membership, financial, courses, ai, marketing, system, goals, geo, generatedAt: new Date().toISOString() };
-}
+export async function getExecutiveSnapshot():Promise<ExecutiveSnapshot>{const [revenue,membership,financial,courses,ai,marketing,system,goals,geo]=await Promise.all([getRevenueKPIs(),getMembershipKPIs(),getFinancialKPIs(),getCourseKPIs(),getAICoachKPIs(),getMarketingKPIs(),getSystemHealthKPIs(),getKPIGoals(),getGeoData()]);return {revenue,membership,financial,courses,ai,marketing,system,goals,geo,generatedAt:new Date().toISOString()}}
