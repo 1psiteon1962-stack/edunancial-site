@@ -46,143 +46,72 @@ import igMessages from "../../locales/ig.json";
 import haMessages from "../../locales/ha.json";
 import zuMessages from "../../locales/zu.json";
 import amMessages from "../../locales/am.json";
-import {
-  getLocaleFallbackChain,
-  normalizeLanguageCode,
-} from "./languages";
+import { getPublicPageOverride } from "./public-page-overrides";
+import { getLocaleFallbackChain, normalizeLanguageCode } from "./languages";
 
 type MessageCatalog = Record<string, string>;
 
 const messageCatalogs: Record<string, MessageCatalog> = {
-  en: enMessages,
-  "en-US": enMessages,
-  "en-GB": enMessages,
-  es: esMessages,
-  "es-ES": esMessages,
-  fr: frMessages,
-  "fr-CA": frCaMessages,
-  "fr-FR": frFrMessages,
-  pt: ptMessages,
-  "pt-BR": { ...ptMessages, ...ptBrMessages },
-  "pt-PT": { ...ptMessages, ...ptPtMessages },
-  de: deMessages,
-  it: itMessages,
-  nl: nlMessages,
-  ht: htMessages,
-  pap: papMessages,
-  pl: plMessages,
-  ar: arMessages,
-  he: heMessages,
-  hi: hiMessages,
-  th: thMessages,
-  vi: viMessages,
-  ms: msMessages,
-  id: idMessages,
-  fil: filMessages,
-  ta: taMessages,
-  bn: bnMessages,
-  ur: urMessages,
-  "zh-Hans": zhHansMessages,
-  "zh-Hant": zhHantMessages,
-  ja: jaMessages,
-  ko: koMessages,
-  cs: csMessages,
-  sk: skMessages,
-  ro: roMessages,
-  bg: bgMessages,
-  lt: ltMessages,
-  lv: lvMessages,
-  et: etMessages,
-  be: beMessages,
-  ru: ruMessages,
-  fa: faMessages,
-  prs: prsMessages,
-  ps: psMessages,
-  sw: swMessages,
-  lg: lgMessages,
-  yo: yoMessages,
-  ig: igMessages,
-  ha: haMessages,
-  zu: zuMessages,
-  am: amMessages,
+  en: enMessages, "en-US": enMessages, "en-GB": enMessages,
+  es: esMessages, "es-ES": esMessages,
+  fr: frMessages, "fr-CA": frCaMessages, "fr-FR": frFrMessages,
+  pt: ptMessages, "pt-BR": { ...ptMessages, ...ptBrMessages }, "pt-PT": { ...ptMessages, ...ptPtMessages },
+  de: deMessages, it: itMessages, nl: nlMessages, ht: htMessages, pap: papMessages, pl: plMessages,
+  ar: arMessages, he: heMessages, hi: hiMessages, th: thMessages, vi: viMessages, ms: msMessages,
+  id: idMessages, fil: filMessages, ta: taMessages, bn: bnMessages, ur: urMessages,
+  "zh-Hans": zhHansMessages, "zh-Hant": zhHantMessages, ja: jaMessages, ko: koMessages,
+  cs: csMessages, sk: skMessages, ro: roMessages, bg: bgMessages, lt: ltMessages, lv: lvMessages,
+  et: etMessages, be: beMessages, ru: ruMessages, fa: faMessages, prs: prsMessages, ps: psMessages,
+  sw: swMessages, lg: lgMessages, yo: yoMessages, ig: igMessages, ha: haMessages, zu: zuMessages, am: amMessages,
 };
 
 const ENGLISH_PUBLIC_OVERRIDES: MessageCatalog = {
-  "branding.identity": "Edunancial is a financial literacy and financial intelligence membership platform.",
-  "branding.longDescription": "Edunancial is a membership platform designed to help people progress from financial literacy to financial intelligence through structured learning resources, interactive tools, practical exercises, and technology-supported methods.",
-  "branding.methodsClarification": "Edunancial may use educational methods, including structured learning paths, Socratic questioning, artificial intelligence, repetition, flashcards, quizzes, and practical exercises, solely to help members progress from financial literacy to financial intelligence.",
-  "footer.identity": "Edunancial is a financial literacy and financial intelligence membership platform.",
-  "footer.subtitle": "From financial literacy to financial intelligence.",
-  "footer.col.competency": "Intelligence",
-  "faq.q1.answer": "Edunancial is a financial literacy and financial intelligence membership platform. It helps members strengthen practical financial judgment through learning resources, assessments, tools, and guided support.",
+  "branding.identity": "At Edunancial, we begin with financial literacy, build financial competency, and work toward financial intelligence.",
+  "branding.longDescription": "Edunancial is a membership platform designed to help people progress from financial literacy through financial competency toward financial intelligence using structured learning resources, interactive tools, practical exercises, and technology-supported methods.",
+  "branding.methodsClarification": "Edunancial may use educational methods, including structured learning paths, Socratic questioning, artificial intelligence, repetition, flashcards, quizzes, and practical exercises, to help members progress from financial literacy through financial competency toward financial intelligence.",
+  "footer.identity": "At Edunancial, we begin with financial literacy, build financial competency, and work toward financial intelligence.",
+  "footer.subtitle": "Financial Literacy → Financial Competency → Financial Intelligence.",
+  "faq.q1.answer": "At Edunancial, we begin with financial literacy, build financial competency, and work toward financial intelligence. Members strengthen practical financial judgment through learning resources, assessments, tools, and guided support.",
   "faq.q2.answer": "Red covers Real Estate, White covers Paper Assets, and Blue covers Business. Red, White, and Blue were only the beginning; they remain the foundation of a broader color-based learning architecture.",
-  "home.story.p3": "Financial literacy gives people the foundation. Financial intelligence develops as they apply knowledge with disciplined action, measurable progress, and better decision-making.",
-  "home.story.card1.body": "To help people progress from financial literacy to financial intelligence.",
-  "home.story.card3.body": "Financial Literacy → Financial Intelligence → Disciplined Action → Measurable Progress → Wealth Building.",
+  "home.story.p3": "Financial literacy gives people the foundation. Financial competency develops their ability to apply that knowledge, and financial intelligence grows through disciplined action, measurable progress, and better decision-making.",
+  "home.story.card1.body": "To help people progress from financial literacy through financial competency toward financial intelligence.",
+  "home.story.card3.body": "Financial Literacy → Financial Competency → Financial Intelligence → Disciplined Action → Measurable Progress → Wealth Building.",
   "home.hero.badge1": "First three Level 1 lessons free in every curriculum color",
   "home.hero.badge2": "Red, White, and Blue were only the beginning",
   "home.trial.label": "Free Level 1 Access",
   "home.trial.body": "Choose any curriculum color and access the first three lessons of Level 1 free. No paid membership is required for those introductory lessons.",
-  "courses.title": "Build Financial Intelligence",
-  "courses.intro": "Financial literacy provides the foundation. Edunancial is designed to help members build toward financial intelligence through learning, application, measurement, and better decision-making.",
-  "pricingPage.intro": "Edunancial is a financial literacy and financial intelligence membership platform. Start with the first three Level 1 lessons in any curriculum color free, then choose the paid plan that fits the level of access you want.",
+  "courses.title": "Build Financial Competency Toward Financial Intelligence",
+  "courses.intro": "Financial literacy provides the foundation. Edunancial helps members build financial competency through learning and application, then work toward financial intelligence through measurement and better decision-making.",
+  "pricingPage.intro": "At Edunancial, we begin with financial literacy, build financial competency, and work toward financial intelligence. Start with the first three Level 1 lessons in any curriculum color free, then choose the paid plan that fits the level of access you want.",
   "pricingPage.freePlan.name": "FREE LEVEL 1 ACCESS",
   "pricingPage.freePlan.description": "Create a free Edunancial account and access the first three lessons of Level 1 in every curriculum color at no cost. No paid membership is required for those introductory lessons.",
   "pricingPage.freePlan.ctaLabel": "Start Free Level 1 Lessons",
-  "membership.title": "Become an Edunancial member and progress from financial literacy toward financial intelligence.",
-  "membership.block2.body": "Measure your progress and track improvement across Edunancial learning paths.",
+  "membership.title": "Become an Edunancial member and progress from financial literacy through financial competency toward financial intelligence.",
+  "membership.block2.body": "Measure your financial competency and track progress toward financial intelligence across Edunancial learning paths.",
 };
 
 function normalizeEnglishPositioning(languageCode: string, key: string, template: string): string {
   const normalized = normalizeLanguageCode(languageCode);
   if (normalized !== "en" && normalized !== "en-US" && normalized !== "en-GB") return template;
-
-  const override = ENGLISH_PUBLIC_OVERRIDES[key];
-  if (override) return override;
-
-  return template
-    .replaceAll("Financial Competency", "Financial Intelligence")
-    .replaceAll("financial competency", "financial intelligence");
+  return ENGLISH_PUBLIC_OVERRIDES[key] ?? template;
 }
 
-export function translate(
-  languageCode: string,
-  key: string,
-  values?: Record<string, string | number>
-) {
-  const localeChain = getLocaleFallbackChain(languageCode);
-  const rawTemplate =
-    localeChain
-      .map((code) => messageCatalogs[code]?.[key])
-      .find((entry): entry is string => typeof entry === "string")
-    ?? key;
-  const template = normalizeEnglishPositioning(languageCode, key, rawTemplate);
-
-  if (!values) {
-    return template;
-  }
-
-  return Object.entries(values).reduce((message, [token, value]) => {
-    return message.replaceAll(`{{${token}}}`, String(value));
-  }, template);
+export function translate(languageCode: string, key: string, values?: Record<string, string | number>) {
+  const normalizedLanguage = normalizeLanguageCode(languageCode);
+  const localeChain = getLocaleFallbackChain(normalizedLanguage);
+  const publicOverride = getPublicPageOverride(normalizedLanguage, key);
+  const rawTemplate = publicOverride ?? localeChain.map((code) => messageCatalogs[code]?.[key]).find((entry): entry is string => typeof entry === "string") ?? key;
+  const template = normalizeEnglishPositioning(normalizedLanguage, key, rawTemplate);
+  if (!values) return template;
+  return Object.entries(values).reduce((message, [token, value]) => message.replaceAll(`{{${token}}}`, String(value)), template);
 }
 
-export function translatePlural(
-  languageCode: string,
-  keyBase: string,
-  count: number,
-  values?: Record<string, string | number>
-) {
+export function translatePlural(languageCode: string, keyBase: string, count: number, values?: Record<string, string | number>) {
   const normalizedLanguage = normalizeLanguageCode(languageCode);
   const pluralCategory = new Intl.PluralRules(normalizedLanguage).select(count);
   const categoryKey = `${keyBase}_${pluralCategory}`;
   const fallbackCategoryKey = `${keyBase}_other`;
-
-  return translate(
-    normalizedLanguage,
-    categoryKey,
-    values ?? { count }
-  ) !== categoryKey
+  return translate(normalizedLanguage, categoryKey, values ?? { count }) !== categoryKey
     ? translate(normalizedLanguage, categoryKey, values ?? { count })
     : translate(normalizedLanguage, fallbackCategoryKey, values ?? { count });
 }
