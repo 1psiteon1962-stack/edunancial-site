@@ -22,6 +22,8 @@
     "i18n:audit": "node --experimental-strip-types scripts/i18n-audit.mjs",
     "international:test": "node --experimental-strip-types --test scripts/international/tests/preferences.test.ts scripts/international/tests/locale-resolution.test.ts scripts/international/tests/i18n-coverage.test.ts scripts/international/tests/route-coverage.test.ts",
     "regionalization:test": "node --experimental-strip-types --test scripts/regionalization/tests/engine.test.ts",
+    "launch:readiness": "node scripts/launch-readiness.mjs",
+    "verify:launch": "npm run typecheck && npm run test && npm run i18n:audit && npm run international:test && npm run regionalization:test && npm run curriculum:audit && npm run curriculum:translation-quality && npm run launch:readiness && npm run build",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && mkdir -p .test-dist/node_modules && ln -sfn ../src .test-dist/node_modules/@ && node --test --test-concurrency=1 $(find .test-dist/src -name '*.test.js' -print | sort)",
     "curriculum:fix-gold-track-name": "node scripts/curriculum/fix-gold-official-track-name.mjs"
