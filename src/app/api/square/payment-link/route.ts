@@ -7,6 +7,7 @@ import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squar
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
+import { hasPaymentPersistenceConfig, persistCheckoutInitiation } from "@/lib/payments/persistence";
 import { assertCountryOperationAllowed } from "@/lib/regions/runtime-controls";
 import { resolveCheckoutTax } from "@/lib/tax/checkout-tax";
 
@@ -23,7 +24,7 @@ export async function POST(request:Request){
   const ipAddress=request.headers.get("x-forwarded-for")?.split(",")[0]?.trim()||request.headers.get("x-real-ip")||"unknown";
   const rateLimit=enforcePaymentRateLimit({scope:"square-payment-link",key:ipAddress,maxRequests:20,windowMs:60000});
   if(!rateLimit.allowed){const response=NextResponse.json({success:false,error:"Too many checkout requests. Please wait and retry.",requestId},{status:429});response.headers.set("Retry-After",Math.ceil((rateLimit.resetAt-Date.now())/1000).toString());return attachRequestHeaders(response,requestId);}
-  if(!isSquareVerifiedCheckoutEnabled())return attachRequestHeaders(NextResponse.json({success:false,error:"Square production credentials are not fully configured.",requestId},{status:503}),requestId);
+  if(!isSquareVerifiedCheckoutEnabled()||!hasPaymentPersistenceConfig())return attachRequestHeaders(NextResponse.json({success:false,error:"Square production checkout is not fully configured.",requestId},{status:503}),requestId);
   await ensureSquareWebhookSubscription();
   const body=(await request.json()) as PaymentLinkRequestBody; const {itemId="",discountCode,customerEmail}=body;
   if(!itemId)return attachRequestHeaders(NextResponse.json({success:false,error:"itemId is required.",requestId},{status:400}),requestId);
@@ -60,11 +61,14 @@ export async function POST(request:Request){
   const successParams=new URLSearchParams({item:item.id,type:item.type,country:countryControl.countryCode,...(item.membershipPlanId?{plan:item.membershipPlanId}:{}),...(item.contentId?{content:item.contentId}:{})});
   const metadata:Record<string,string>={catalog_item_id:item.id,item_type:item.type,country_code:countryControl.countryCode,country_launch_state:countryControl.launchState,tax_status:taxStatus,...(item.membershipPlanId?{membership_plan_id:item.membershipPlanId}:{}),...(item.contentId?{content_id:item.contentId}:{}),...(discountCode?{discount_code:discountCode}:{}),...(item.metadata??{})};
   if(taxEnforcementEnabled()){metadata.tax_collected_minor=String(taxMinor);metadata.tax_jurisdiction_code=body.subdivisionCode?.trim().toUpperCase()||jurisdictionKey;metadata.tax_rule_version=taxRuleVersion;metadata.tax_registration_account_ref=taxRegistrationAccountRef;}
-  const squarePayload:Record<string,unknown>={idempotency_key:`${requestId}-${item.id}`,order:{location_id:squareConfig.locationId,line_items:lineItems,...(orderDiscounts?{discounts:orderDiscounts}:{}),metadata},checkout_options:{redirect_url:`${appOrigin}/payment/success?${successParams.toString()}`},pre_populated_data:customerEmail?{buyer_email:customerEmail}:undefined};
+  const idempotencyKey=`${requestId}-${item.id}`;
+  const squarePayload:Record<string,unknown>={idempotency_key:idempotencyKey,order:{location_id:squareConfig.locationId,line_items:lineItems,...(orderDiscounts?{discounts:orderDiscounts}:{}),metadata},checkout_options:{redirect_url:`${appOrigin}/payment/success?${successParams.toString()}`},pre_populated_data:customerEmail?{buyer_email:customerEmail}:undefined};
   const squareResponse=await fetch(`${squareApiBase}/v2/online-checkout/payment-links`,{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+squareConfig.accessToken,"Square-Version":"2026-07-15"},body:JSON.stringify(squarePayload)});
   if(!squareResponse.ok){const errBody=(await squareResponse.json().catch(()=>({}))) as SquarePaymentLinkResponse;throw new Error(`Square API error ${squareResponse.status}: ${errBody.errors?.[0]?.detail??squareResponse.statusText}`);}
   const squareData=(await squareResponse.json()) as SquarePaymentLinkResponse,checkoutUrl=squareData.payment_link?.url;if(!checkoutUrl)throw new Error("Square did not return a checkout URL.");const parsedUrl=new URL(checkoutUrl);if(parsedUrl.protocol!=="https:"||!isAllowedSquareCheckoutHost(parsedUrl.hostname))throw new Error("Square returned a non-HTTPS or unexpected checkout URL.");
+
+  await persistCheckoutInitiation({item,customerEmail,amountRequested:finalPrice+(taxMinor/100),currency:item.currency,discountCode,discountAmount:item.price-finalPrice,squarePaymentLinkId:squareData.payment_link?.id,squareOrderId:squareData.payment_link?.order_id,idempotencyKey,metadata:{requestId,itemType:item.type,countryCode:countryControl.countryCode,countryLaunchState:countryControl.launchState,taxStatus,taxMinor,jurisdictionKey:jurisdictionKey||null}});
   if(discountApplied&&discountCode)recordDiscountRedemption(discountCode);
   const response=NextResponse.json({success:true,checkoutUrl,countryCode:countryControl.countryCode,jurisdictionKey:jurisdictionKey||undefined,taxMinor,taxCurrency:currency,taxStatus,itemId:item.id,itemType:item.type,planId:item.membershipPlanId,contentId:item.contentId,originalPrice:item.price,finalPrice,discountApplied,squarePaymentLinkId:squareData.payment_link?.id,squareOrderId:squareData.payment_link?.order_id,requestId});recordRequestMetric({method:request.method,route,status:200,durationMs:Date.now()-start});return attachRequestHeaders(response,requestId);
- }catch(error){logStructuredError(error,{...getRequestContext(request,requestId),route});const response=NextResponse.json({success:false,error:"Square checkout could not be activated. Verified payment and tax prerequisites must succeed before payment is accepted.",requestId},{status:503});recordRequestMetric({method:request.method,route,status:503,durationMs:Date.now()-start});return attachRequestHeaders(response,requestId);}
+ }catch(error){logStructuredError(error,{...getRequestContext(request,requestId),route});const response=NextResponse.json({success:false,error:"Square checkout could not be activated. Verified payment, persistence, and tax prerequisites must succeed before payment is accepted.",requestId},{status:503});recordRequestMetric({method:request.method,route,status:503,durationMs:Date.now()-start});return attachRequestHeaders(response,requestId);}
 }
