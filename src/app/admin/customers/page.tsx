@@ -1,7 +1,7 @@
 import { getExecutiveOperationsSnapshot, type LiveValue } from "@/lib/admin/operations-snapshot";
 
-function displayValue(metric: LiveValue) {
-  return metric.status === "LIVE" && metric.value !== null
+function displayValue(metric?: LiveValue) {
+  return metric?.status === "LIVE" && metric.value !== null
     ? new Intl.NumberFormat("en-US").format(metric.value)
     : "Unavailable";
 }
