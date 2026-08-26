@@ -5,6 +5,7 @@ import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content
 import { getAdminContentStorage, resetAdminContentStorage } from "@/lib/admin-content/storage";
 import type { CourseUploadConfig } from "@/lib/admin-content/upload-intake";
 
+// Launch proof: exercise the same stored-upload finalizer used by production.
 function makeStoredZip(entries: Array<{ name: string; data: Buffer }>) {
   const localParts: Buffer[] = [];
   const centralParts: Buffer[] = [];
