@@ -33,11 +33,11 @@ export async function POST(request:Request){
 
   const countryCode=body.countryCode?.trim().toUpperCase()||inferNorthAmericaCountry(item.currency);
   let countryControl:{countryCode:string;launchState:string};
-  try{countryControl=await assertCountryOperationAllowed(countryCode,["ACTIVE","BETA"]);}catch(error){
-   // Transitional compatibility: existing North America checkout can continue until
-   // runtime enforcement is explicitly activated. Once enabled, country controls fail closed.
-   if(!taxEnforcementEnabled()&&(countryCode==="US"||countryCode==="CA")) countryControl={countryCode,launchState:"ACTIVE"};
-   else {const message=error instanceof Error?error.message:"Checkout is not enabled for this country.";return attachRequestHeaders(NextResponse.json({success:false,error:message,countryCode,requestId},{status:403}),requestId);}
+  try{
+   countryControl=await assertCountryOperationAllowed(countryCode,["ACTIVE","BETA"]);
+  }catch(error){
+   const message=error instanceof Error?error.message:"Checkout is not enabled for this country.";
+   return attachRequestHeaders(NextResponse.json({success:false,error:message,countryCode,requestId},{status:403}),requestId);
   }
   if(countryControl.countryCode!=="US"&&countryControl.countryCode!=="CA")return attachRequestHeaders(NextResponse.json({success:false,error:`Country ${countryControl.countryCode} is enabled, but Square is not an approved payment provider for this market.`,countryCode:countryControl.countryCode,paymentProvider:"square",requestId},{status:409}),requestId);
 
