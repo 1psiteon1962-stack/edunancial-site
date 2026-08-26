@@ -21,6 +21,15 @@ const requiredFiles = [
   "src/app/api/square/payment-link/route.ts",
   "src/app/executive/dashboard/page.tsx",
   "src/app/executive/investor-data/page.tsx",
+  "src/components/admin-content/UploadClient.tsx",
+  "src/app/admin/curriculum/lessons/[lessonId]/LessonEditorClient.tsx",
+  "src/lib/curriculum/access.ts",
+  "src/lib/curriculum/access.test.ts",
+  "src/app/(public)/courses/[courseId]/lessons/[lessonId]/LessonAccessGate.tsx",
+  "src/app/api/admin/video/readiness/route.ts",
+  "src/components/video-studio/VideoStudioReadiness.tsx",
+  "video-worker/Dockerfile",
+  "video-worker/README.md",
   "supabase/migrations/20260824_000006_location_tax_engine.sql",
   "supabase/migrations/20260824_000003_investor_kpi_dimensions.sql",
 ];
@@ -41,6 +50,33 @@ for (const marker of [
   "assertCountryOperationAllowed",
 ]) if (!checkout.includes(marker)) failures.push(`Checkout launch guard missing: ${marker}`);
 
+const accessControl = await text("src/lib/curriculum/access.ts");
+for (const marker of [
+  "lessonNumber >= 1 && lessonNumber <= 3",
+  "if (level === 1 || level === 2) return \"basic\"",
+  "if (level === 3 || level === 4) return \"pro\"",
+  "if (isAdmin) return true",
+]) if (!accessControl.includes(marker)) failures.push(`Learner/owner access contract missing: ${marker}`);
+
+const lessonEditor = await text("src/app/admin/curriculum/lessons/[lessonId]/LessonEditorClient.tsx");
+if (!lessonEditor.includes("Preview as Learner")) failures.push("Owner lesson workbench is missing Preview as Learner.");
+
+const videoReadiness = await text("src/app/api/admin/video/readiness/route.ts");
+for (const marker of [
+  "video_projects",
+  "video_assets",
+  "video_jobs",
+  "video_scenes",
+  "raw-videos",
+  "processed-videos",
+  "WORKER_BASE_URL",
+  "WORKER_SHARED_SECRET",
+  "/health",
+]) if (!videoReadiness.includes(marker)) failures.push(`Video production readiness guard missing: ${marker}`);
+
+const envExample = await text(".env.example");
+for (const marker of ["WORKER_BASE_URL", "WORKER_SHARED_SECRET"]) if (!envExample.includes(marker)) failures.push(`Video deployment environment documentation missing: ${marker}`);
+
 const taxMigration = await text("supabase/migrations/20260824_000006_location_tax_engine.sql");
 for (const marker of ["checkout_tax_determinations", "sales_tax_collected_by_location", "rule_version", "date_verified"]) if (!taxMigration.includes(marker)) failures.push(`Tax evidence schema missing: ${marker}`);
 
@@ -57,4 +93,4 @@ if (failures.length) {
   for (const failure of failures) console.error(`FAIL: ${failure}`);
   process.exit(1);
 }
-console.log("PASS: launch-critical code paths and fail-closed controls are present.");
+console.log("PASS: launch-critical checkout, owner workflow, learner gating, and video readiness controls are present.");
