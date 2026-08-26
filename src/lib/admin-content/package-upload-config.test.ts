@@ -51,10 +51,18 @@ describe("per-package curriculum identity", () => {
     );
   });
 
+  test("uses the explicit default language for canonical curriculum filenames", () => {
+    const resolved = resolvePackageUploadConfig(baseConfig, "RED-L1-001.md") as CourseUploadConfig;
+    assert.deepEqual(
+      { track: resolved.track, level: resolved.level, language: resolved.language },
+      { track: "red", level: "level-1", language: "en" },
+    );
+  });
+
   test("blocks an ambiguous curriculum package instead of inheriting another package identity", () => {
     assert.throws(
       () => resolvePackageUploadConfig(baseConfig, "lesson-bundle.zip"),
-      /Cannot safely classify curriculum package lesson-bundle\.zip: missing color track, level, language/,
+      /Cannot safely classify curriculum package lesson-bundle\.zip: missing color track, level/,
     );
   });
 });
