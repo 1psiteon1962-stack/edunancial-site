@@ -6,7 +6,12 @@ const ORIGINAL_ENV = { ...process.env };
 
 function restoreEnv() {
   for (const key of Object.keys(process.env)) {
-    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_")) {
+    if (
+      key.startsWith("SQUARE_") ||
+      key.startsWith("NEXT_PUBLIC_SQUARE_") ||
+      key === "NEXT_PUBLIC_SUPABASE_URL" ||
+      key === "SUPABASE_SERVICE_ROLE_KEY"
+    ) {
       delete process.env[key];
     }
   }
@@ -30,6 +35,21 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL =
     "https://edunancial.com/api/square/webhook";
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+  process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
+}
+
+function countryAwareFetch(squareHandler: typeof fetch): typeof fetch {
+  return async (input, init) => {
+    const url = String(input);
+    if (url.startsWith("https://test-project.supabase.co/rest/v1/country_launch_controls")) {
+      return new Response("[]", {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+    return squareHandler(input, init);
+  };
 }
 
 beforeEach(() => {
@@ -45,7 +65,7 @@ afterEach(() => {
 test("payment-link route preserves existing membership checkout behavior", async () => {
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (_input, init) => {
+  globalThis.fetch = countryAwareFetch(async (_input, init) => {
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
       unknown
@@ -64,7 +84,7 @@ test("payment-link route preserves existing membership checkout behavior", async
         },
       }
     );
-  };
+  });
 
   const { POST } = await import("../../app/api/square/payment-link/route.js");
   const response = await POST(
@@ -85,6 +105,8 @@ test("payment-link route preserves existing membership checkout behavior", async
 
   assert.equal(order.metadata.catalog_item_id, "membership-basic-monthly");
   assert.equal(order.metadata.membership_plan_id, "basic");
+  assert.equal(order.metadata.country_code, "US");
+  assert.equal(order.metadata.country_launch_state, "ACTIVE");
 });
 
 test("course checkout route remains on the existing success flow", async () => {
@@ -178,7 +200,7 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   let capturedUrl: string | null = null;
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (input, init) => {
+  globalThis.fetch = countryAwareFetch(async (input, init) => {
     capturedUrl = String(input);
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
@@ -196,7 +218,7 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
         headers: { "Content-Type": "application/json" },
       }
     );
-  };
+  });
 
   const { POST } = await import("../../app/api/square/payment-link/route.js");
   const response = await POST(
@@ -228,6 +250,8 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   assert.equal(order.metadata.item_type, "other");
   assert.equal(order.metadata.productId, "square-payment-test-001");
   assert.equal(order.metadata.purpose, "square-payment-test");
+  assert.equal(order.metadata.country_code, "US");
+  assert.equal(order.metadata.country_launch_state, "ACTIVE");
   assert.equal(order.metadata.membership_plan_id, undefined);
   assert.ok(
     checkoutOptions.redirect_url.includes(
