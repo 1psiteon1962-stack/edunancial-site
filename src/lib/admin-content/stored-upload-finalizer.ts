@@ -307,7 +307,11 @@ export async function createIndependentUploadBatchFromStoredFiles(
             entry.normalizedName,
             entry.name,
             upload.originalFilename,
-            validateFileType(entry.normalizedName, detectedMime, entry.data).detectedMime,
+            validateFileType(
+              entry.normalizedName,
+              "application/octet-stream",
+              entry.data,
+            ).detectedMime,
             entry.data,
             source,
             packageUploadConfig,
