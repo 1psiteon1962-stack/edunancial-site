@@ -8,11 +8,6 @@ import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 
-// The browser has already completed the direct-to-storage transfer when this
-// route begins. Finalization may still need to re-read the object, validate and
-// extract an archive, inspect prior batches for conflicts, write audit records,
-// and persist the review batch. Give that work enough room to complete instead
-// of turning a valid 90%-complete upload into a timeout failure.
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -61,14 +56,11 @@ export async function POST(request: NextRequest) {
 
     const uploadConfig = parseUploadConfig(configFormData);
 
-    // Curriculum batches are many independent packages, not one course with
-    // several attachments. Validate every package identity before extraction so
-    // an ambiguous ZIP can never inherit another package's color/level/language.
     const packageIdentities = uploadConfig.destination === "courses"
       ? uploads.map((upload) => ({
           uploadId: upload.uploadId,
           filename: upload.originalFilename,
-          ...inferCurriculumPackageIdentity(upload.originalFilename),
+          ...inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language),
         }))
       : [];
 
@@ -79,6 +71,7 @@ export async function POST(request: NextRequest) {
         status: "STARTED",
         metadata: {
           fileCount: uploads.length,
+          defaultLanguage: uploadConfig.language,
           curriculumPackages: packageIdentities.map((identity) => ({
             uploadId: identity.uploadId,
             filename: identity.filename,
@@ -91,9 +84,6 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // This production path resolves a package-specific configuration before
-    // extracting each stored ZIP. The batch-level configuration is only a base;
-    // it is never used to stamp every curriculum package with the same identity.
     const createdBatch = await createIndependentUploadBatchFromStoredFiles(
       request,
       toActor(auth.session),
@@ -108,9 +98,6 @@ export async function POST(request: NextRequest) {
     );
     const batch = await normalizeMixedLocaleBatch(createdBatch);
 
-    // A direct upload is not successful merely because the object reached storage.
-    // If every supplied object failed validation/extraction, fail finalization and keep
-    // the object available for retry/diagnosis instead of creating an empty batch.
     if (batch.uploads.length === 0 || batch.files.length === 0) {
       const detail = batch.warnings.length
         ? batch.warnings.join(" | ")
@@ -126,6 +113,7 @@ export async function POST(request: NextRequest) {
         fileCount: uploads.length,
         reviewableFiles: batch.files.length,
         independentlyClassifiedPackages: packageIdentities.length,
+        defaultLanguage: uploadConfig.language,
       },
     });
 
