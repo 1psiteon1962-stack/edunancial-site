@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import MarketingShortClient from "@/components/video-studio/MarketingShortClient";
+import VideoStudioReadiness from "@/components/video-studio/VideoStudioReadiness";
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
 
 export default async function VideoStudioPage() {
@@ -28,6 +29,8 @@ export default async function VideoStudioPage() {
             </Link>
           </div>
         </div>
+
+        <VideoStudioReadiness />
 
         <div className="mt-8">
           <MarketingShortClient />
