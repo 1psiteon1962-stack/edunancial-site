@@ -85,12 +85,7 @@ export function inferCurriculumTitleFromFilename(filename: string): string | nul
     if (/^l[1-5]$/i.test(token) || /^level[1-5]$/i.test(token) || /^[1-5]$/.test(token)) return false;
     return true;
   });
-  if (titleTokens.length > 0) return titleTokens.join(" ");
-  const identity = stem
-    .replace(/(?:^|[-_.])(complete|combined|package|curriculum)(?=$|[-_.])/gi, "-")
-    .replace(/[-_.]+/g, " ")
-    .trim();
-  return identity || null;
+  return titleTokens.length > 0 ? titleTokens.join(" ") : null;
 }
 
 export function resolveUploadFileLanguage(configLanguage: UploadLanguage, filename: string): string { return inferUploadLanguageFromFilename(filename) ?? configLanguage; }
