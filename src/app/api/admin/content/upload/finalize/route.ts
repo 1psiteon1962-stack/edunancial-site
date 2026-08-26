@@ -3,7 +3,8 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
-import { createUploadBatchFromStoredFiles, type StoredUploadEntry } from "@/lib/admin-content/service";
+import { type StoredUploadEntry } from "@/lib/admin-content/service";
+import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 
@@ -90,14 +91,21 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    const createdBatch = await createUploadBatchFromStoredFiles(request, toActor(auth.session), {
-      batchId,
-      batchName: String(body.batchName ?? ""),
-      source: String(body.source ?? ""),
-      notes: String(body.notes ?? ""),
-      uploadConfig,
-      uploads,
-    });
+    // This production path resolves a package-specific configuration before
+    // extracting each stored ZIP. The batch-level configuration is only a base;
+    // it is never used to stamp every curriculum package with the same identity.
+    const createdBatch = await createIndependentUploadBatchFromStoredFiles(
+      request,
+      toActor(auth.session),
+      {
+        batchId,
+        batchName: String(body.batchName ?? ""),
+        source: String(body.source ?? ""),
+        notes: String(body.notes ?? ""),
+        uploadConfig,
+        uploads,
+      },
+    );
     const batch = await normalizeMixedLocaleBatch(createdBatch);
 
     // A direct upload is not successful merely because the object reached storage.
