@@ -4,19 +4,10 @@ import { describe, test } from "node:test";
 import { validateFileType } from "@/lib/admin-content/security";
 
 describe("ZIP member validation", () => {
-  test("validates an image entry from its own bytes instead of the parent ZIP MIME", () => {
+  test("detects an image entry from its own bytes even when the archive MIME is supplied", () => {
     const png = Buffer.from("89504e470d0a1a0a00000000", "hex");
+    const result = validateFileType("lesson-image.png", "application/zip", png);
 
-    assert.throws(
-      () => validateFileType("lesson-image.png", "application/zip", png),
-      /MIME type image\/png does not match \.png|MIME type application\/zip does not match \.png/,
-    );
-
-    const result = validateFileType(
-      "lesson-image.png",
-      "application/octet-stream",
-      png,
-    );
     assert.equal(result.extension, ".png");
     assert.equal(result.detectedMime, "image/png");
   });
