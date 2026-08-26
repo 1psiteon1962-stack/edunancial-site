@@ -6,7 +6,12 @@ const ORIGINAL_ENV = { ...process.env };
 
 function restoreEnv() {
   for (const key of Object.keys(process.env)) {
-    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_")) {
+    if (
+      key.startsWith("SQUARE_") ||
+      key.startsWith("NEXT_PUBLIC_SQUARE_") ||
+      key === "NEXT_PUBLIC_SUPABASE_URL" ||
+      key === "SUPABASE_SERVICE_ROLE_KEY"
+    ) {
       delete process.env[key];
     }
   }
@@ -30,6 +35,30 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL =
     "https://edunancial.com/api/square/webhook";
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+  process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
+}
+
+function authorizedCountryResponse(input: RequestInfo | URL): Response | null {
+  if (!String(input).includes("/rest/v1/country_launch_controls")) return null;
+
+  return new Response(
+    JSON.stringify([
+      {
+        country_code: "US",
+        country_name: "United States",
+        region_code: "north-america",
+        launch_state: "ACTIVE",
+        reason: null,
+        updated_by: "test",
+        updated_at: "2026-08-26T00:00:00.000Z",
+      },
+    ]),
+    {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    }
+  );
 }
 
 beforeEach(() => {
@@ -45,7 +74,10 @@ afterEach(() => {
 test("payment-link route preserves existing membership checkout behavior", async () => {
   let capturedPayload: Record<string, unknown> | null = null;
 
-  globalThis.fetch = async (_input, init) => {
+  globalThis.fetch = async (input, init) => {
+    const countryResponse = authorizedCountryResponse(input);
+    if (countryResponse) return countryResponse;
+
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
       unknown
@@ -71,7 +103,7 @@ test("payment-link route preserves existing membership checkout behavior", async
     new Request("https://edunancial.com/api/square/payment-link", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ itemId: "membership-basic-monthly" }),
+      body: JSON.stringify({ itemId: "membership-basic-monthly", countryCode: "US" }),
     })
   );
 
@@ -85,6 +117,8 @@ test("payment-link route preserves existing membership checkout behavior", async
 
   assert.equal(order.metadata.catalog_item_id, "membership-basic-monthly");
   assert.equal(order.metadata.membership_plan_id, "basic");
+  assert.equal(order.metadata.country_code, "US");
+  assert.equal(order.metadata.country_launch_state, "ACTIVE");
 });
 
 test("course checkout route remains on the existing success flow", async () => {
@@ -179,6 +213,9 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   let capturedPayload: Record<string, unknown> | null = null;
 
   globalThis.fetch = async (input, init) => {
+    const countryResponse = authorizedCountryResponse(input);
+    if (countryResponse) return countryResponse;
+
     capturedUrl = String(input);
     capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<
       string,
@@ -203,7 +240,7 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
     new Request("https://edunancial.com/api/square/payment-link", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ itemId: "square-payment-test-001" }),
+      body: JSON.stringify({ itemId: "square-payment-test-001", countryCode: "US" }),
     })
   );
 
@@ -228,10 +265,11 @@ test("payment-link route accepts square-payment-test-001 and sends 100 cents USD
   assert.equal(order.metadata.item_type, "other");
   assert.equal(order.metadata.productId, "square-payment-test-001");
   assert.equal(order.metadata.purpose, "square-payment-test");
+  assert.equal(order.metadata.country_code, "US");
   assert.equal(order.metadata.membership_plan_id, undefined);
   assert.ok(
     checkoutOptions.redirect_url.includes(
-      "/payment/success?item=square-payment-test-001&type=other"
+      "/payment/success?item=square-payment-test-001&type=other&country=US"
     )
   );
 });
