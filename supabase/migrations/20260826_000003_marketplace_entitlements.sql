@@ -10,8 +10,7 @@ create table if not exists public.marketplace_entitlements (
   granted_at timestamptz not null default now(),
   revoked_at timestamptz,
   metadata jsonb not null default '{}'::jsonb,
-  created_at timestamptz not null default now(),
-  unique (user_id, product_id, source, coalesce(provider_payment_id, ''))
+  created_at timestamptz not null default now()
 );
 
 comment on table public.marketplace_entitlements is
@@ -20,6 +19,8 @@ comment on table public.marketplace_entitlements is
 create index if not exists marketplace_entitlements_user_idx on public.marketplace_entitlements(user_id, status, granted_at desc);
 create index if not exists marketplace_entitlements_product_idx on public.marketplace_entitlements(product_id, status);
 create index if not exists marketplace_entitlements_payment_idx on public.marketplace_entitlements(payment_provider, provider_payment_id);
+create unique index if not exists marketplace_entitlements_dedup_idx
+  on public.marketplace_entitlements(user_id, product_id, source, coalesce(provider_payment_id, ''));
 
 alter table public.marketplace_entitlements enable row level security;
 
