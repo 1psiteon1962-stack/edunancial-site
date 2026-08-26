@@ -21,13 +21,13 @@ export function inferCurriculumPackageIdentity(filename: string): PackageIdentit
   const language = inferUploadLanguageFromFilename(filename) as UploadLanguage | null;
   const inferredTitle = inferCurriculumTitleFromFilename(filename);
 
-  const missing = [
-    !track ? "color track" : null,
-    !level ? "level" : null,
-    !language ? "language" : null,
-  ].filter((value): value is string => Boolean(value));
+  if (!track || !level || !language) {
+    const missing = [
+      !track ? "color track" : null,
+      !level ? "level" : null,
+      !language ? "language" : null,
+    ].filter((value): value is string => Boolean(value));
 
-  if (missing.length > 0) {
     throw new Error(
       `Cannot safely classify curriculum package ${filename}: missing ${missing.join(", ")}.`,
     );
