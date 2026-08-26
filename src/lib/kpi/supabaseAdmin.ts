@@ -1,8 +1,8 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-let cached: ReturnType<typeof createClient> | null = null;
+let cached: SupabaseClient<any> | null = null;
 
-export function getKpiSupabaseAdmin() {
+export function getKpiSupabaseAdmin(): SupabaseClient<any> {
   if (cached) return cached;
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
@@ -11,7 +11,7 @@ export function getKpiSupabaseAdmin() {
     throw new Error("KPI data source unavailable: Supabase admin configuration is incomplete.");
   }
 
-  cached = createClient(url, serviceRoleKey, {
+  cached = createClient<any>(url, serviceRoleKey, {
     auth: {
       autoRefreshToken: false,
       persistSession: false,

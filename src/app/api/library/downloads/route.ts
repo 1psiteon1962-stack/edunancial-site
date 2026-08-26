@@ -1,24 +1,35 @@
 import { NextRequest, NextResponse } from "next/server";
+
+import { getAuthenticatedSupabaseUser } from "@/lib/auth/server";
+import { getLibraryItem } from "@/lib/library/libraryData";
 import {
   recordDownload,
   getUserDownloads,
   isUserEntitled,
   grantEntitlement,
 } from "@/lib/library/userLibraryStore";
-import { getLibraryItem } from "@/lib/library/libraryData";
 
-function resolveUserId(request: NextRequest): string {
-  return new URL(request.url).searchParams.get("userId") ?? "demo";
+async function authenticatedUserId() {
+  const user = await getAuthenticatedSupabaseUser();
+  return user?.id ?? null;
 }
 
-export async function GET(request: NextRequest) {
-  const userId = resolveUserId(request);
+export async function GET() {
+  const userId = await authenticatedUserId();
+  if (!userId) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
+
   const downloads = getUserDownloads(userId);
   return NextResponse.json({ downloads });
 }
 
 export async function POST(request: NextRequest) {
-  const userId = resolveUserId(request);
+  const userId = await authenticatedUserId();
+  if (!userId) {
+    return NextResponse.json({ error: "Authentication required." }, { status: 401 });
+  }
+
   const body = await request.json().catch(() => null);
 
   if (!body?.itemId) {
@@ -34,14 +45,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Item is not downloadable" }, { status: 400 });
   }
 
-  // Entitlement check — free items are automatically accessible
   if (item.accessLevel === "free") {
-    // Auto-grant entitlement for free items
     grantEntitlement(userId, item.id, "free");
   } else if (!isUserEntitled(userId, item.id)) {
     return NextResponse.json(
       { error: "Not entitled. Please purchase or subscribe to access this item." },
-      { status: 403 }
+      { status: 403 },
     );
   }
 
@@ -55,7 +64,7 @@ export async function POST(request: NextRequest) {
     item.fileFormat ?? "unknown",
     item.fileSizeBytes,
     ipAddress,
-    userAgent
+    userAgent,
   );
 
   return NextResponse.json({ event, downloadUrl: item.downloadUrl ?? null });
