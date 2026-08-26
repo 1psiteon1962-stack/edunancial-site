@@ -1,72 +1,60 @@
+import { REGION_ARCHITECTURE } from "@/lib/regions/architecture";
+
+const statusLabel = (state: string) => state === "ACTIVE" ? "LIVE" : state;
+
 export default function GlobalLaunchRoadmap() {
-  const phases = [
-    {
-      title: "Phase 1",
-      region: "North America",
-      status: "LIVE",
-      countries: "United States • Canada"
-    },
-    {
-      title: "Phase 2",
-      region: "Africa",
-      status: "COMING SOON",
-      countries: "Uganda • Kenya • Nigeria • Ghana • Tanzania"
-    },
-    {
-      title: "Phase 3",
-      region: "Latin America & Caribbean",
-      status: "PLANNED",
-      countries: "Dominican Republic • Puerto Rico • Mexico • Colombia • Brazil"
-    },
-    {
-      title: "Phase 4",
-      region: "Asia",
-      status: "PLANNED",
-      countries: "Philippines • India • Singapore"
-    },
-    {
-      title: "Phase 5",
-      region: "Middle East",
-      status: "PLANNED",
-      countries: "UAE • Saudi Arabia • Qatar"
-    },
-    {
-      title: "Phase 6",
-      region: "Europe",
-      status: "PLANNED",
-      countries: "Spain • Portugal • France • Germany • Italy"
-    }
-  ];
+  const regions = Object.values(REGION_ARCHITECTURE);
 
   return (
     <section className="mx-auto max-w-7xl px-6 py-20">
-      <h2 className="text-5xl font-black text-white mb-10">
-        Global Rollout Roadmap
-      </h2>
+      <div className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <h2 className="text-5xl font-black text-white">Global Rollout Roadmap</h2>
+          <p className="mt-3 max-w-3xl text-sm text-slate-400">
+            This view reflects the configured operating architecture rather than a separately maintained launch-phase list.
+          </p>
+        </div>
+        <p className="text-sm text-slate-400">{regions.length} operating regions</p>
+      </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
-        {phases.map((phase) => (
-          <div
-            key={phase.title}
-            className="rounded-2xl bg-slate-900 border border-slate-700 p-8"
-          >
-            <div className="text-blue-400 font-bold text-xl">
-              {phase.title}
-            </div>
+      <div className="mt-10 grid gap-6 lg:grid-cols-2">
+        {regions.map((region) => {
+          const activeCountries = region.countries.filter((country) => (country.launchState ?? region.launchState) === "ACTIVE");
+          return (
+            <article key={region.code} className="rounded-2xl border border-slate-700 bg-slate-900 p-8">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-sm font-bold uppercase tracking-wider text-blue-400">{region.code}</p>
+                  <h3 className="mt-2 text-3xl font-black text-white">{region.name}</h3>
+                </div>
+                <p className="font-semibold text-green-400">{statusLabel(region.launchState)}</p>
+              </div>
 
-            <h3 className="text-3xl font-black text-white mt-3">
-              {phase.region}
-            </h3>
+              <div className="mt-5 grid grid-cols-2 gap-4 text-sm text-gray-300">
+                <p>{region.countries.length} configured countries</p>
+                <p>{activeCountries.length} active countries</p>
+                <p>{region.operatingSegments?.length ?? 0} operating segments</p>
+                <p>{region.independentRuntime ? "Independent runtime" : "Shared runtime"}</p>
+              </div>
 
-            <p className="mt-4 text-green-400 font-semibold">
-              {phase.status}
-            </p>
+              {region.operatingSegments?.length ? (
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {region.operatingSegments.map((segment) => (
+                    <span key={segment.code} className="rounded-lg bg-slate-950/60 px-3 py-2 text-xs text-slate-300">
+                      {segment.name}
+                    </span>
+                  ))}
+                </div>
+              ) : null}
 
-            <p className="mt-5 text-gray-300">
-              {phase.countries}
-            </p>
-          </div>
-        ))}
+              {activeCountries.length ? (
+                <p className="mt-5 text-sm text-gray-300">Live: {activeCountries.map((country) => country.name).join(" · ")}</p>
+              ) : (
+                <p className="mt-5 text-sm text-slate-500">No countries are publicly active in this region.</p>
+              )}
+            </article>
+          );
+        })}
       </div>
     </section>
   );
