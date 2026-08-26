@@ -6,49 +6,15 @@ export type LanguageDefinition = {
 };
 
 export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
-  {
-    code: "en-US",
-    label: "English (United States)",
-    nativeLabel: "English (United States)",
-    rtl: false,
-  },
-  {
-    code: "en-GB",
-    label: "English (United Kingdom)",
-    nativeLabel: "English (United Kingdom)",
-    rtl: false,
-  },
+  { code: "en-US", label: "English (United States)", nativeLabel: "English (United States)", rtl: false },
+  { code: "en-GB", label: "English (United Kingdom)", nativeLabel: "English (United Kingdom)", rtl: false },
   { code: "es", label: "Spanish", nativeLabel: "Español", rtl: false },
-  {
-    code: "es-ES",
-    label: "Español (España)",
-    nativeLabel: "Español (España)",
-    rtl: false,
-  },
-  {
-    code: "fr-CA",
-    label: "French (Canada)",
-    nativeLabel: "Français (Canada)",
-    rtl: false,
-  },
-  {
-    code: "fr-FR",
-    label: "French (France)",
-    nativeLabel: "Français (France)",
-    rtl: false,
-  },
-  {
-    code: "pt-BR",
-    label: "Portuguese (Brazil)",
-    nativeLabel: "Português (Brasil)",
-    rtl: false,
-  },
-  {
-    code: "pt-PT",
-    label: "Portuguese (Portugal)",
-    nativeLabel: "Português (Portugal)",
-    rtl: false,
-  },
+  { code: "es-Caribbean", label: "Spanish (Caribbean)", nativeLabel: "Español (Caribe)", rtl: false },
+  { code: "es-ES", label: "Español (España)", nativeLabel: "Español (España)", rtl: false },
+  { code: "fr-CA", label: "French (Canada)", nativeLabel: "Français (Canada)", rtl: false },
+  { code: "fr-FR", label: "French (France)", nativeLabel: "Français (France)", rtl: false },
+  { code: "pt-BR", label: "Portuguese (Brazil)", nativeLabel: "Português (Brasil)", rtl: false },
+  { code: "pt-PT", label: "Portuguese (Portugal)", nativeLabel: "Português (Portugal)", rtl: false },
   { code: "de", label: "German", nativeLabel: "Deutsch", rtl: false },
   { code: "it", label: "Italian", nativeLabel: "Italiano", rtl: false },
   { code: "nl", label: "Dutch", nativeLabel: "Nederlands", rtl: false },
@@ -66,18 +32,8 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "ta", label: "Tamil", nativeLabel: "தமிழ்", rtl: false },
   { code: "bn", label: "Bengali", nativeLabel: "বাংলা", rtl: false },
   { code: "ur", label: "Urdu", nativeLabel: "اردو", rtl: true },
-  {
-    code: "zh-Hans",
-    label: "Chinese (Simplified)",
-    nativeLabel: "中文 (简体)",
-    rtl: false,
-  },
-  {
-    code: "zh-Hant",
-    label: "Chinese (Traditional)",
-    nativeLabel: "中文 (繁體)",
-    rtl: false,
-  },
+  { code: "zh-Hans", label: "Chinese (Simplified)", nativeLabel: "中文 (简体)", rtl: false },
+  { code: "zh-Hant", label: "Chinese (Traditional)", nativeLabel: "中文 (繁體)", rtl: false },
   { code: "ja", label: "Japanese", nativeLabel: "日本語", rtl: false },
   { code: "ko", label: "Korean", nativeLabel: "한국어", rtl: false },
   { code: "cs", label: "Czech", nativeLabel: "Čeština", rtl: false },
@@ -110,6 +66,7 @@ export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
   pt: "pt-BR",
   "pt-br": "pt-BR",
   "pt-pt": "pt-PT",
+  "es-caribbean": "es-Caribbean",
   zh: "zh-Hans",
   "zh-cn": "zh-Hans",
   "zh-sg": "zh-Hans",
@@ -136,194 +93,58 @@ export type LanguageAdminSettings = {
   translationCompleteness: Record<string, number>;
 };
 
-export function getLanguageByCode(code: string) {
-  return LANGUAGE_CATALOG.find((language) => language.code === code);
-}
-
-export function isLanguageSupported(code: string): boolean {
-  return Boolean(getLanguageByCode(code));
-}
-
+export function getLanguageByCode(code: string) { return LANGUAGE_CATALOG.find((language) => language.code === code); }
+export function isLanguageSupported(code: string): boolean { return Boolean(getLanguageByCode(code)); }
 export function canonicalizeLocaleTag(input: string | undefined | null): string | null {
-  if (!input) {
-    return null;
-  }
-
-  const segments = input
-    .trim()
-    .replace(/_/g, "-")
-    .split("-")
-    .filter(Boolean);
-
-  if (segments.length === 0) {
-    return null;
-  }
-
-  return segments
-    .map((segment, index) => {
-      if (index === 0) {
-        return segment.toLowerCase();
-      }
-
-      if (segment.length === 2 || segment.length === 3) {
-        return segment.toUpperCase();
-      }
-
-      if (segment.length === 4) {
-        return `${segment[0]?.toUpperCase() ?? ""}${segment.slice(1).toLowerCase()}`;
-      }
-
-      return segment.toLowerCase();
-    })
-    .join("-");
+  if (!input) return null;
+  const segments = input.trim().replace(/_/g, "-").split("-").filter(Boolean);
+  if (segments.length === 0) return null;
+  return segments.map((segment, index) => {
+    if (index === 0) return segment.toLowerCase();
+    if (segment.length === 2 || segment.length === 3) return segment.toUpperCase();
+    if (segment.length === 4) return `${segment[0]?.toUpperCase() ?? ""}${segment.slice(1).toLowerCase()}`;
+    return segment.toLowerCase();
+  }).join("-");
 }
-
 export function normalizeLanguageCode(input: string | undefined | null): string {
   const canonical = canonicalizeLocaleTag(input);
-
-  if (!canonical) {
-    return DEFAULT_LANGUAGE_CODE;
-  }
-
+  if (!canonical) return DEFAULT_LANGUAGE_CODE;
   const normalized = canonical.toLowerCase();
-
-  const exact = LANGUAGE_CATALOG.find(
-    (language) => language.code.toLowerCase() === normalized
-  );
-
-  if (exact) {
-    return exact.code;
-  }
-
-  if (LANGUAGE_ALIAS_MAP[normalized]) {
-    return LANGUAGE_ALIAS_MAP[normalized];
-  }
-
+  const exact = LANGUAGE_CATALOG.find((language) => language.code.toLowerCase() === normalized);
+  if (exact) return exact.code;
+  if (LANGUAGE_ALIAS_MAP[normalized]) return LANGUAGE_ALIAS_MAP[normalized];
   const base = normalized.split("-")[0];
-
-  if (LANGUAGE_ALIAS_MAP[base]) {
-    return LANGUAGE_ALIAS_MAP[base];
-  }
-
-  const fromBase = LANGUAGE_CATALOG.find((language) => {
-    const languageBase = language.code.toLowerCase().split("-")[0];
-    return languageBase === base;
-  });
-
+  if (LANGUAGE_ALIAS_MAP[base]) return LANGUAGE_ALIAS_MAP[base];
+  const fromBase = LANGUAGE_CATALOG.find((language) => language.code.toLowerCase().split("-")[0] === base);
   return fromBase?.code ?? DEFAULT_LANGUAGE_CODE;
 }
-
-export function getBaseLanguageCode(input: string | undefined | null): string | null {
-  const canonical = canonicalizeLocaleTag(input);
-  return canonical?.split("-")[0] ?? null;
-}
-
+export function getBaseLanguageCode(input: string | undefined | null): string | null { const canonical = canonicalizeLocaleTag(input); return canonical?.split("-")[0] ?? null; }
 export function getLocaleFallbackChain(input: string | undefined | null): string[] {
   const canonical = canonicalizeLocaleTag(input) ?? DEFAULT_LANGUAGE_CODE;
   const resolved = normalizeLanguageCode(canonical);
   const chain: string[] = [canonical];
-
-  if (!chain.includes(resolved)) {
-    chain.push(resolved);
-  }
-
-  const base = getBaseLanguageCode(canonical);
-  if (base && !chain.includes(base)) {
-    chain.push(base);
-  }
-
-  const resolvedBase = getBaseLanguageCode(resolved);
-  if (resolvedBase && !chain.includes(resolvedBase)) {
-    chain.push(resolvedBase);
-  }
-
-  if (!chain.includes(DEFAULT_LANGUAGE_CODE)) {
-    chain.push(DEFAULT_LANGUAGE_CODE);
-  }
-
-  const defaultBase = getBaseLanguageCode(DEFAULT_LANGUAGE_CODE);
-  if (defaultBase && !chain.includes(defaultBase)) {
-    chain.push(defaultBase);
-  }
-
+  if (!chain.includes(resolved)) chain.push(resolved);
+  const base = getBaseLanguageCode(canonical); if (base && !chain.includes(base)) chain.push(base);
+  const resolvedBase = getBaseLanguageCode(resolved); if (resolvedBase && !chain.includes(resolvedBase)) chain.push(resolvedBase);
+  if (!chain.includes(DEFAULT_LANGUAGE_CODE)) chain.push(DEFAULT_LANGUAGE_CODE);
+  const defaultBase = getBaseLanguageCode(DEFAULT_LANGUAGE_CODE); if (defaultBase && !chain.includes(defaultBase)) chain.push(defaultBase);
   return chain;
 }
-
-export function isRtlLanguage(code: string): boolean {
-  return getLanguageByCode(code)?.rtl ?? false;
-}
-
+export function isRtlLanguage(code: string): boolean { return getLanguageByCode(code)?.rtl ?? false; }
 export function getDefaultLanguageAdminSettings(): LanguageAdminSettings {
-  const baseCompleteness = Object.fromEntries(
-    LANGUAGE_CATALOG.map((language) => [
-      language.code,
-      language.code === DEFAULT_LANGUAGE_CODE ? 100 : 0,
-    ])
-  );
-
-  return {
-    enabledLanguages: LANGUAGE_CATALOG.map((language) => language.code),
-    defaultLanguage: DEFAULT_LANGUAGE_CODE,
-    fallbackLanguage: FALLBACK_LANGUAGE_CODE,
-    rtlLanguages: LANGUAGE_CATALOG.filter((language) => language.rtl).map(
-      (language) => language.code
-    ),
-    translationCompleteness: baseCompleteness,
-  };
+  const baseCompleteness = Object.fromEntries(LANGUAGE_CATALOG.map((language) => [language.code, language.code === DEFAULT_LANGUAGE_CODE ? 100 : 0]));
+  return { enabledLanguages: LANGUAGE_CATALOG.map((language) => language.code), defaultLanguage: DEFAULT_LANGUAGE_CODE, fallbackLanguage: FALLBACK_LANGUAGE_CODE, rtlLanguages: LANGUAGE_CATALOG.filter((language) => language.rtl).map((language) => language.code), translationCompleteness: baseCompleteness };
 }
-
 export function getStoredLanguageAdminSettings(): LanguageAdminSettings {
   const defaults = getDefaultLanguageAdminSettings();
-
-  if (typeof window === "undefined") {
-    return defaults;
-  }
-
+  if (typeof window === "undefined") return defaults;
   try {
-    const rawSettings = localStorage.getItem(LANGUAGE_ADMIN_STORAGE_KEY);
-
-    if (!rawSettings) {
-      return defaults;
-    }
-
+    const rawSettings = localStorage.getItem(LANGUAGE_ADMIN_STORAGE_KEY); if (!rawSettings) return defaults;
     const parsedSettings = JSON.parse(rawSettings) as Partial<LanguageAdminSettings>;
-
-    const enabledLanguages =
-      parsedSettings.enabledLanguages
-        ?.map((language) => normalizeLanguageCode(language))
-        .filter(isLanguageSupported) ?? defaults.enabledLanguages;
-
-    const defaultLanguage = normalizeLanguageCode(parsedSettings.defaultLanguage);
-    const fallbackLanguage = normalizeLanguageCode(parsedSettings.fallbackLanguage);
-
-    const rtlLanguages =
-      parsedSettings.rtlLanguages
-        ?.map((language) => normalizeLanguageCode(language))
-        .filter(isLanguageSupported) ?? defaults.rtlLanguages;
-
-    return {
-      enabledLanguages: enabledLanguages.length > 0 ? enabledLanguages : defaults.enabledLanguages,
-      defaultLanguage: isLanguageSupported(defaultLanguage)
-        ? defaultLanguage
-        : defaults.defaultLanguage,
-      fallbackLanguage: isLanguageSupported(fallbackLanguage)
-        ? fallbackLanguage
-        : defaults.fallbackLanguage,
-      rtlLanguages,
-      translationCompleteness: {
-        ...defaults.translationCompleteness,
-        ...(parsedSettings.translationCompleteness ?? {}),
-      },
-    };
-  } catch {
-    return defaults;
-  }
+    const enabledLanguages = parsedSettings.enabledLanguages?.map((language) => normalizeLanguageCode(language)).filter(isLanguageSupported) ?? defaults.enabledLanguages;
+    const defaultLanguage = normalizeLanguageCode(parsedSettings.defaultLanguage); const fallbackLanguage = normalizeLanguageCode(parsedSettings.fallbackLanguage);
+    const rtlLanguages = parsedSettings.rtlLanguages?.map((language) => normalizeLanguageCode(language)).filter(isLanguageSupported) ?? defaults.rtlLanguages;
+    return { enabledLanguages: enabledLanguages.length > 0 ? enabledLanguages : defaults.enabledLanguages, defaultLanguage: isLanguageSupported(defaultLanguage) ? defaultLanguage : defaults.defaultLanguage, fallbackLanguage: isLanguageSupported(fallbackLanguage) ? fallbackLanguage : defaults.fallbackLanguage, rtlLanguages, translationCompleteness: { ...defaults.translationCompleteness, ...(parsedSettings.translationCompleteness ?? {}) } };
+  } catch { return defaults; }
 }
-
-export function persistLanguageAdminSettings(settings: LanguageAdminSettings) {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  localStorage.setItem(LANGUAGE_ADMIN_STORAGE_KEY, JSON.stringify(settings));
-}
+export function persistLanguageAdminSettings(settings: LanguageAdminSettings) { if (typeof window !== "undefined") localStorage.setItem(LANGUAGE_ADMIN_STORAGE_KEY, JSON.stringify(settings)); }
