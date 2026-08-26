@@ -78,7 +78,7 @@ export function inferCurriculumTitleFromFilename(filename: string): string | nul
   const stem = basename(filename, extname(filename));
   const tokens = stem.split(/[-_.\s]+/).filter(Boolean);
   const localeTokens = new Set(CURRICULUM_FILENAME_LOCALES.flatMap((locale) => locale.toLowerCase().split("-")));
-  const metadataTokens = new Set(["complete", "combined", "package", "curriculum", ...Object.keys(TRACK_ALIASES)]);
+  const metadataTokens = new Set(["complete", "combined", "package", "curriculum", "level", ...Object.keys(TRACK_ALIASES)]);
   const titleTokens = tokens.filter((token) => {
     const lower = token.toLowerCase();
     if (metadataTokens.has(lower) || localeTokens.has(lower)) return false;
