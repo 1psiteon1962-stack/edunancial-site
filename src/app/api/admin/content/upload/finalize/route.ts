@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
+import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { createUploadBatchFromStoredFiles, type StoredUploadEntry } from "@/lib/admin-content/service";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
@@ -58,6 +59,37 @@ export async function POST(request: NextRequest) {
     }
 
     const uploadConfig = parseUploadConfig(configFormData);
+
+    // Curriculum batches are many independent packages, not one course with
+    // several attachments. Validate every package identity before extraction so
+    // an ambiguous ZIP can never inherit another package's color/level/language.
+    const packageIdentities = uploadConfig.destination === "courses"
+      ? uploads.map((upload) => ({
+          uploadId: upload.uploadId,
+          filename: upload.originalFilename,
+          ...inferCurriculumPackageIdentity(upload.originalFilename),
+        }))
+      : [];
+
+    if (packageIdentities.length > 0) {
+      await recordUploadOperation({
+        batchId,
+        phase: "FINALIZE",
+        status: "STARTED",
+        metadata: {
+          fileCount: uploads.length,
+          curriculumPackages: packageIdentities.map((identity) => ({
+            uploadId: identity.uploadId,
+            filename: identity.filename,
+            track: identity.track,
+            level: identity.level,
+            language: identity.language,
+            title: identity.title,
+          })),
+        },
+      });
+    }
+
     const createdBatch = await createUploadBatchFromStoredFiles(request, toActor(auth.session), {
       batchId,
       batchName: String(body.batchName ?? ""),
@@ -82,7 +114,11 @@ export async function POST(request: NextRequest) {
       batchId,
       phase: "FINALIZE",
       status: "SUCCEEDED",
-      metadata: { fileCount: uploads.length, reviewableFiles: batch.files.length },
+      metadata: {
+        fileCount: uploads.length,
+        reviewableFiles: batch.files.length,
+        independentlyClassifiedPackages: packageIdentities.length,
+      },
     });
 
     return Response.json(
