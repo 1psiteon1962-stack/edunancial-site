@@ -9,7 +9,12 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { assertValidUploadName } from "@/lib/admin-content/security";
+import { DEFAULT_BATCH_FILE_LIMIT } from "@/lib/admin-content/config";
+import {
+  assertValidUploadName,
+  validateBatchSize,
+  validateFileSize,
+} from "@/lib/admin-content/security";
 import { createAdminSignedUploadUrl } from "@/lib/admin-content/storage/signed-upload";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
@@ -17,6 +22,29 @@ import { createId, slugify } from "@/lib/admin-content/utils";
 
 type FileDescriptor = { name: string; size: number; type: string };
 export const maxDuration = 26;
+
+function validateFileDescriptors(fileDescriptors: FileDescriptor[]) {
+  if (fileDescriptors.length > DEFAULT_BATCH_FILE_LIMIT) {
+    throw new Error(`Upload batch contains too many files (${fileDescriptors.length}). Maximum is ${DEFAULT_BATCH_FILE_LIMIT}.`);
+  }
+
+  let totalBytes = 0;
+  for (const file of fileDescriptors) {
+    if (!file || typeof file.name !== "string" || !file.name.trim()) {
+      throw new Error("Every upload must include a valid filename.");
+    }
+    if (!Number.isFinite(file.size) || file.size < 0) {
+      throw new Error(`Invalid upload size for ${file.name}.`);
+    }
+
+    assertValidUploadName(file.name);
+    validateFileSize(file.size);
+    totalBytes += file.size;
+  }
+  validateBatchSize(totalBytes);
+
+  return totalBytes;
+}
 
 async function checkSupabaseConnectivity(): Promise<void> {
   const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim().replace(/\/+$/u, "");
@@ -51,6 +79,7 @@ export async function POST(request: NextRequest) {
     const body = (await request.json()) as Record<string, unknown> & { files?: unknown };
     const fileDescriptors: FileDescriptor[] = Array.isArray(body.files) ? (body.files as FileDescriptor[]) : [];
     if (!fileDescriptors.length) throw new Error("Select at least one file to upload.");
+    const totalBytes = validateFileDescriptors(fileDescriptors);
 
     const configFormData = new FormData();
     for (const [key, value] of Object.entries(body)) {
@@ -64,7 +93,17 @@ export async function POST(request: NextRequest) {
     const batchSlug = slugify(batchName);
     const contentDestination = String(body.contentDestination ?? "").trim() || "uploads";
 
-    await recordUploadOperation({ batchId, phase: "PRESIGN", status: "STARTED", metadata: { fileCount: fileDescriptors.length, contentDestination, preferredPath: "direct-storage" } });
+    await recordUploadOperation({
+      batchId,
+      phase: "PRESIGN",
+      status: "STARTED",
+      metadata: {
+        fileCount: fileDescriptors.length,
+        totalBytes,
+        contentDestination,
+        preferredPath: "direct-storage",
+      },
+    });
 
     const uploads = await Promise.all(fileDescriptors.map(async (file) => {
       const uploadId = createId("upload");
