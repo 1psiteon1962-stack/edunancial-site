@@ -6,6 +6,7 @@ import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/obs
 import { ensureSquareWebhookSubscription, isSquareVerifiedCheckoutEnabled, squareConfig } from "@/lib/square";
 import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
+import { resolveMarketplaceCatalogItem } from "@/lib/payments/marketplaceCatalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
 import { hasPaymentPersistenceConfig, persistCheckoutInitiation } from "@/lib/payments/persistence";
 import { getCountryByISO, isCountryFeatureEnabled } from "@/lib/countries/country-service";
@@ -29,24 +30,22 @@ export async function POST(request:Request){
   await ensureSquareWebhookSubscription();
   const body=(await request.json()) as PaymentLinkRequestBody; const {itemId="",discountCode,customerEmail}=body;
   if(!itemId)return attachRequestHeaders(NextResponse.json({success:false,error:"itemId is required.",requestId},{status:400}),requestId);
-  const item=resolveCatalogItem(itemId);
+  const item=resolveCatalogItem(itemId) ?? await resolveMarketplaceCatalogItem(itemId);
   if(!item)return attachRequestHeaders(NextResponse.json({success:false,error:"The requested item is not available for purchase.",requestId},{status:400}),requestId);
   if(!item.active)return attachRequestHeaders(NextResponse.json({success:false,error:"This item is not currently available for purchase.",requestId},{status:403}),requestId);
 
   const countryCode=body.countryCode?.trim().toUpperCase()||inferNorthAmericaCountry(item.currency);
+  const restrictedMarket=item.metadata?.marketplace_country_code;
+  if(restrictedMarket&&restrictedMarket!==countryCode)return attachRequestHeaders(NextResponse.json({success:false,error:`This marketplace item is available only in ${restrictedMarket}.`,countryCode,requiredCountry:restrictedMarket,requestId},{status:403}),requestId);
   const country=getCountryByISO(countryCode);
   if(!country||!isCountryFeatureEnabled(countryCode,"paymentsEnabled"))return attachRequestHeaders(NextResponse.json({success:false,error:`Paid checkout is not enabled for country ${countryCode}.`,countryCode,requestId},{status:403}),requestId);
+  if(item.metadata?.marketplace_product_id&&!isCountryFeatureEnabled(countryCode,"marketplaceEnabled"))return attachRequestHeaders(NextResponse.json({success:false,error:`Marketplace purchases are not enabled for country ${countryCode}.`,countryCode,requestId},{status:403}),requestId);
   const itemCurrency=item.currency.trim().toUpperCase();
   const countryCurrency=country.currency.trim().toUpperCase();
   if(itemCurrency!==countryCurrency)return attachRequestHeaders(NextResponse.json({success:false,error:`The selected item is priced in ${itemCurrency}, but ${country.country} checkout requires ${countryCurrency}. A country-specific catalog price must be configured before payment can proceed.`,countryCode,catalogCurrency:itemCurrency,requiredCurrency:countryCurrency,requestId},{status:409}),requestId);
 
   let countryControl:{countryCode:string;launchState:string};
-  try{
-   countryControl=await assertCountryOperationAllowed(countryCode,["ACTIVE","BETA"]);
-  }catch(error){
-   const message=error instanceof Error?error.message:"Checkout is not enabled for this country.";
-   return attachRequestHeaders(NextResponse.json({success:false,error:message,countryCode,requestId},{status:403}),requestId);
-  }
+  try{countryControl=await assertCountryOperationAllowed(countryCode,["ACTIVE","BETA"]);}catch(error){const message=error instanceof Error?error.message:"Checkout is not enabled for this country.";return attachRequestHeaders(NextResponse.json({success:false,error:message,countryCode,requestId},{status:403}),requestId);}
   if(countryControl.countryCode!=="US"&&countryControl.countryCode!=="CA")return attachRequestHeaders(NextResponse.json({success:false,error:`Country ${countryControl.countryCode} is enabled, but Square is not an approved payment provider for this market.`,countryCode:countryControl.countryCode,paymentProvider:"square",requestId},{status:409}),requestId);
 
   let finalPrice=item.price,discountApplied=false,discountDescription:string|undefined;
