@@ -8,6 +8,7 @@ import { enforcePaymentRateLimit } from "@/lib/payments/rateLimiter";
 import { resolveCatalogItem } from "@/lib/payments/catalog";
 import { applyDiscountCode, recordDiscountRedemption } from "@/lib/payments/discounts";
 import { hasPaymentPersistenceConfig, persistCheckoutInitiation } from "@/lib/payments/persistence";
+import { getCountryByISO, isCountryFeatureEnabled } from "@/lib/countries/country-service";
 import { assertCountryOperationAllowed } from "@/lib/regions/runtime-controls";
 import { resolveCheckoutTax } from "@/lib/tax/checkout-tax";
 
@@ -33,6 +34,12 @@ export async function POST(request:Request){
   if(!item.active)return attachRequestHeaders(NextResponse.json({success:false,error:"This item is not currently available for purchase.",requestId},{status:403}),requestId);
 
   const countryCode=body.countryCode?.trim().toUpperCase()||inferNorthAmericaCountry(item.currency);
+  const country=getCountryByISO(countryCode);
+  if(!country||!isCountryFeatureEnabled(countryCode,"paymentsEnabled"))return attachRequestHeaders(NextResponse.json({success:false,error:`Paid checkout is not enabled for country ${countryCode}.`,countryCode,requestId},{status:403}),requestId);
+  const itemCurrency=item.currency.trim().toUpperCase();
+  const countryCurrency=country.currency.trim().toUpperCase();
+  if(itemCurrency!==countryCurrency)return attachRequestHeaders(NextResponse.json({success:false,error:`The selected item is priced in ${itemCurrency}, but ${country.country} checkout requires ${countryCurrency}. A country-specific catalog price must be configured before payment can proceed.`,countryCode,catalogCurrency:itemCurrency,requiredCurrency:countryCurrency,requestId},{status:409}),requestId);
+
   let countryControl:{countryCode:string;launchState:string};
   try{
    countryControl=await assertCountryOperationAllowed(countryCode,["ACTIVE","BETA"]);
