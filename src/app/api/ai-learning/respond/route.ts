@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
-import { mergeAILearningConfig, type AILearningAdminConfig } from "@/lib/ai-learning/config";
+import type { AILearningAdminConfig } from "@/lib/ai-learning/config";
 import type { AILearningContext } from "@/lib/ai-learning/context";
-import { generateAILearningResponse } from "@/lib/ai-learning/service";
+import { runAILearningPipeline } from "@/lib/ai-learning/pipeline";
 
 type RequestPayload = {
   message?: string;
@@ -12,15 +12,13 @@ type RequestPayload = {
 
 export async function POST(request: Request) {
   const payload = (await request.json()) as RequestPayload;
-
-  const message = payload.message?.trim();
   const context = payload.context;
 
-  if (!message || !context) {
+  if (!context) {
     return NextResponse.json(
       {
         enabled: false,
-        message: "Missing message or AI learning context.",
+        message: "Missing AI learning context.",
         suggestions: [],
         disclaimers: [],
         milestone: null,
@@ -30,10 +28,10 @@ export async function POST(request: Request) {
     );
   }
 
-  const response = await generateAILearningResponse({
-    message,
+  const response = await runAILearningPipeline({
+    message: payload.message ?? "",
     context,
-    config: mergeAILearningConfig(payload.config),
+    config: payload.config,
   });
 
   return NextResponse.json(response);
