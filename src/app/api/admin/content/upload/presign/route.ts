@@ -1,10 +1,10 @@
 /**
  * POST /api/admin/content/upload/presign
  *
- * Prefer direct-to-Supabase signed uploads for every file size. The legacy
- * server-proxied multipart route is fallback-only when signed storage is not
- * available; forcing small 50-lesson ZIPs through a serverless request proved
- * unreliable in production.
+ * Bulk curriculum uploads must use direct-to-storage signed URLs as one
+ * coherent batch. A partially presigned batch is rejected instead of silently
+ * downgrading every file to the serverless multipart fallback; that fallback
+ * made otherwise-valid multi-file/50-lesson packages unreliable in production.
  */
 import { NextRequest } from "next/server";
 
@@ -53,20 +53,24 @@ async function checkSupabaseConnectivity(): Promise<void> {
   const checkKey = serviceRoleKey || anonKey;
   const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ?? "";
 
-  if (supabaseUrl && checkKey && bucket) {
-    const response = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
-      method: "GET",
-      headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
-      cache: "no-store",
-    }).catch(() => null);
+  if (!supabaseUrl || !serviceRoleKey || !bucket) {
+    throw new Error("Direct upload storage is not fully configured. NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET are required for reliable bulk uploads.");
+  }
 
-    if (!response) {
-      console.warn("[presign] Supabase connectivity check failed; signed upload may be unavailable and legacy fallback will be used.");
-      return;
-    }
-    if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
-      throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; the Supabase bucket endpoint returned text/html.");
-    }
+  const response = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
+    method: "GET",
+    headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
+    cache: "no-store",
+  }).catch(() => null);
+
+  if (!response) {
+    throw new Error("Supabase upload storage is unreachable. Bulk upload was stopped before any files were transferred.");
+  }
+  if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
+    throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; the Supabase bucket endpoint returned text/html.");
+  }
+  if (!response.ok) {
+    throw new Error(`Supabase upload storage readiness check failed (HTTP ${response.status}). Bulk upload was stopped before transfer.`);
   }
 }
 
@@ -102,24 +106,26 @@ export async function POST(request: NextRequest) {
         totalBytes,
         contentDestination,
         preferredPath: "direct-storage",
+        atomicPresign: true,
       },
     });
 
-    const uploads = await Promise.all(fileDescriptors.map(async (file) => {
+    const uploads = [];
+    for (const file of fileDescriptors) {
       const uploadId = createId("upload");
       const safeName = assertValidUploadName(file.name);
       const storagePath = "uploads/" + contentDestination + "/" + batchId + "/" + uploadId + "-" + safeName;
-      let signedUrl: string | null = null;
       try {
-        signedUrl = await createAdminSignedUploadUrl(storagePath);
+        const signedUrl = await createAdminSignedUploadUrl(storagePath);
+        if (!signedUrl) throw new Error("Signed upload URL was not returned by storage.");
+        uploads.push({ uploadId, storagePath, safeName, signedUrl, directUpload: null });
         await recordUploadOperation({ batchId, uploadId, phase: "PRESIGN", status: "SUCCEEDED", storagePath, fileName: safeName, fileSize: file.size });
       } catch (error) {
         const err = error as Error;
-        console.warn(`[presign] signed upload unavailable for ${storagePath}; legacy fallback enabled`, error);
-        await recordUploadOperation({ batchId, uploadId, phase: "PRESIGN", status: "FALLBACK", storagePath, fileName: safeName, fileSize: file.size, errorCode: err.name, errorMessage: err.message });
+        await recordUploadOperation({ batchId, uploadId, phase: "PRESIGN", status: "FAILED", storagePath, fileName: safeName, fileSize: file.size, errorCode: err.name, errorMessage: err.message });
+        throw new Error(`Bulk upload preparation failed for ${safeName}: ${err.message}. No files should be uploaded from this batch; retry after storage is healthy.`);
       }
-      return { uploadId, storagePath, safeName, signedUrl, directUpload: null };
-    }));
+    }
 
     return Response.json({ success: true, batchId, batchSlug, uploads }, { headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
