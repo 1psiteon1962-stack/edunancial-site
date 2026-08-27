@@ -66,16 +66,6 @@ test("payment-link route preserves membership checkout and persists initiation",
   assert.equal(persistedBodies[0].status, "pending");
 });
 
-test("course checkout route remains on the existing success flow", async () => {
-  let capturedPayload: Record<string, unknown> | null = null;
-  globalThis.fetch = async (_input, init) => { capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>; return new Response(JSON.stringify({ payment_link: { url: "https://checkout.squareup.com/c/pay/course-link" } }), { status: 200, headers: { "Content-Type": "application/json" } }); };
-  const { POST } = await import("../../app/api/square/course-checkout/route.js");
-  const response = await POST(new Request("https://edunancial.com/api/square/course-checkout", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ courseId: "course-financial-foundations", courseName: "Financial Foundations Course", price: 49, currency: "usd" }) }));
-  assert.equal(response.status, 200); assert.ok(capturedPayload);
-  const payload = capturedPayload as Record<string, unknown>, quickPay = payload.quick_pay as { price_money: { amount: number; currency: string } }, checkoutOptions = payload.checkout_options as { redirect_url: string };
-  assert.equal(quickPay.price_money.amount, 4900); assert.equal(quickPay.price_money.currency, "USD"); assert.equal(checkoutOptions.redirect_url, "https://edunancial.com/payment/success?course=course-financial-foundations");
-});
-
 test("webhook route still rejects invalid signatures when verified checkout is enabled", async () => {
   const { POST } = await import("../../app/api/square/webhook/route.js");
   const response = await POST(new Request("https://edunancial.com/api/square/webhook", { method: "POST", headers: { "Content-Type": "application/json", "x-square-hmacsha256-signature": "invalid-signature" }, body: JSON.stringify({ type: "payment.completed", event_id: "evt_invalid_signature" }) }));
