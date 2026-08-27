@@ -5,6 +5,7 @@ import { useState } from "react";
 interface PaymentLinkCheckoutButtonProps {
   itemId: string;
   customerEmail?: string;
+  countryCode?: string;
   label?: string;
   className?: string;
 }
@@ -16,6 +17,7 @@ interface PaymentLinkCheckoutButtonProps {
 export default function PaymentLinkCheckoutButton({
   itemId,
   customerEmail,
+  countryCode,
   label = "Pay Now",
   className = "",
 }: PaymentLinkCheckoutButtonProps) {
@@ -30,7 +32,7 @@ export default function PaymentLinkCheckoutButton({
       const res = await fetch("/api/square/payment-link", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ itemId, customerEmail }),
+        body: JSON.stringify({ itemId, customerEmail, countryCode }),
       });
 
       const data = (await res.json()) as {
