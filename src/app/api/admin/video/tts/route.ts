@@ -7,18 +7,15 @@ const ALLOWED_VOICES = new Set([
   "alloy",
   "ash",
   "ballad",
-  "cedar",
   "coral",
   "echo",
   "fable",
-  "marin",
   "nova",
   "onyx",
   "sage",
   "shimmer",
-  "verse",
 ]);
-const MAX_SCRIPT_CHARS = 4096;
+const MAX_SCRIPT_CHARS = 4000;
 
 function normalizeLocale(value: unknown) {
   const raw = String(value ?? "").trim();
@@ -71,7 +68,7 @@ export async function POST(request: Request) {
 
   const script = String(body?.script ?? "").trim();
   const locale = normalizeLocale(body?.locale);
-  const voice = String(body?.voice ?? "marin").trim().toLowerCase();
+  const voice = String(body?.voice ?? "coral").trim().toLowerCase();
 
   if (!script) {
     return NextResponse.json({ success: false, error: "Narration script is required." }, { status: 400 });
