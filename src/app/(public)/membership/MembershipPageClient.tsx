@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import PaymentLinkCheckoutButton from "@/components/payments/PaymentLinkCheckoutButton";
+import { formatLocalizedPrice, getLocalizedCatalogPrice } from "@/lib/location/pricing";
 import {
   getMembershipFeatureLabel,
   getMembershipPlanCopy,
@@ -12,8 +13,9 @@ import {
 import { publicMembershipPlans } from "@/types/membership";
 
 export default function MembershipPageClient() {
-  const { effectiveLanguage, t } = useInternationalPreferences();
+  const { effectiveLanguage, preferences, t } = useInternationalPreferences();
   const language = resolveMembershipCopyLanguage(effectiveLanguage);
+  const countryCode = (preferences.country || "us").toUpperCase();
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -41,14 +43,24 @@ export default function MembershipPageClient() {
           <div className="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {publicMembershipPlans.map((plan) => {
               const copy = getMembershipPlanCopy(plan.id, language);
+              const localizedPrice = getLocalizedCatalogPrice(plan.id, countryCode);
+              const priceLabel = localizedPrice
+                ? `${formatLocalizedPrice(localizedPrice, effectiveLanguage)} ${localizedPrice.currency}`
+                : `${plan.currency} ${plan.monthlyPrice.toFixed(2)}`;
+
               return (
                 <div key={plan.id} className="rounded-2xl border border-white/10 bg-white p-8 text-slate-950 shadow-xl">
                   <h3 className="text-3xl font-black">{copy.name}</h3>
                   <p className="mt-4 text-sm leading-7 text-slate-600">{copy.description}</p>
                   <div className="mt-6">
-                    <span className="text-5xl font-black">${plan.monthlyPrice.toFixed(2)}</span>
+                    <span className="text-5xl font-black">{priceLabel}</span>
                     <span className="ml-2 text-slate-500">{copy.billingLabel}</span>
                   </div>
+                  {localizedPrice && localizedPrice.currency !== "USD" && (
+                    <p className="mt-2 text-xs text-slate-500">
+                      Local price for {countryCode}. Taxes, where applicable, are calculated at checkout.
+                    </p>
+                  )}
                   <ul className="mt-8 space-y-3 text-left text-sm font-semibold text-slate-700">
                     <li>{plan.assessmentIncluded ? t("membership.yesLabel") : t("membership.noLabel")} - {getMembershipFeatureLabel("assessmentIncluded", language)}</li>
                     <li>{plan.marketplaceIncluded ? t("membership.yesLabel") : t("membership.noLabel")} - {getMembershipFeatureLabel("marketplaceIncluded", language)}</li>
@@ -68,7 +80,7 @@ export default function MembershipPageClient() {
             })}
           </div>
 
-          {/* TEMPORARY TEST ITEM — Square payment verification only, remove before next production content push */}
+          {/* TEMPORARY TEST ITEM — Square payment verification only, remove after end-to-end verification. */}
           <div className="mt-8 rounded-2xl border border-yellow-500/40 bg-yellow-900/10 p-6">
             <p className="mb-1 text-xs font-black uppercase tracking-widest text-yellow-400">
               ⚠ Temporary — Dev / QA Only
@@ -84,6 +96,7 @@ export default function MembershipPageClient() {
             <div className="mt-4">
               <PaymentLinkCheckoutButton
                 itemId="square-payment-test-001"
+                countryCode={countryCode}
                 label="Run $1.00 Square Test"
                 className="inline-flex rounded-xl border border-yellow-500/60 bg-yellow-900/20 px-5 py-3 text-sm font-bold text-yellow-300 hover:bg-yellow-900/40 disabled:opacity-60"
               />
