@@ -53,25 +53,30 @@ async function checkSupabaseConnectivity(): Promise<void> {
   const checkKey = serviceRoleKey || anonKey;
   const bucket = process.env.EDUNANCIAL_UPLOAD_STORAGE_BUCKET ?? process.env.EDUNANCIAL_UPLOAD_STORAGE_KEY ?? "";
 
-  if (!supabaseUrl || !serviceRoleKey || !bucket) {
-    throw new Error("Direct upload storage is not fully configured. NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET are required for reliable bulk uploads.");
+  if (!serviceRoleKey) {
+    throw new Error("Direct upload storage is not fully configured. SUPABASE_SERVICE_ROLE_KEY is required for reliable bulk uploads.");
   }
 
-  const response = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
-    method: "GET",
-    headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
-    cache: "no-store",
-  }).catch(() => null);
+  if (supabaseUrl && checkKey && bucket) {
+    const response = await fetch(`${supabaseUrl}/storage/v1/bucket/${encodeURIComponent(bucket)}`, {
+      method: "GET",
+      headers: { Authorization: "Bearer " + checkKey, apikey: checkKey },
+      cache: "no-store",
+    }).catch(() => null);
 
-  if (!response) {
-    throw new Error("Supabase upload storage is unreachable. Bulk upload was stopped before any files were transferred.");
+    if (!response) {
+      throw new Error("Supabase upload storage is unreachable. Bulk upload was stopped before any files were transferred.");
+    }
+    if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
+      throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; the Supabase bucket endpoint returned text/html.");
+    }
+    if (!response.ok) {
+      throw new Error(`Supabase upload storage readiness check failed (HTTP ${response.status}). Bulk upload was stopped before transfer.`);
+    }
+    return;
   }
-  if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
-    throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or points to the wrong host/Netlify site URL; the Supabase bucket endpoint returned text/html.");
-  }
-  if (!response.ok) {
-    throw new Error(`Supabase upload storage readiness check failed (HTTP ${response.status}). Bulk upload was stopped before transfer.`);
-  }
+
+  throw new Error("Direct upload storage is not fully configured. NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, and EDUNANCIAL_UPLOAD_STORAGE_BUCKET are required for reliable bulk uploads.");
 }
 
 export async function POST(request: NextRequest) {
