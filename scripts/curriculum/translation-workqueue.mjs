@@ -6,13 +6,37 @@ const root = process.cwd();
 const manifestPath = join(root, "content", "generated", "translation-manifest.json");
 const outputPath = join(root, "content", "generated", "translation-workqueue.json");
 
+const LAUNCH_LOCALES = [
+  "en-US",
+  "en-GB",
+  "es-Caribbean",
+  "es-ES",
+  "fr-CA",
+  "fr-FR",
+  "pt-BR",
+  "pt-PT",
+  "de",
+  "it",
+  "nl",
+];
+const DEFAULT_LOCALE = "en-US";
+const TRANSLATION_LOCALES = LAUNCH_LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+
 if (!existsSync(manifestPath)) {
   throw new Error("translation-manifest.json is missing; run curriculum:localization:global first");
 }
 
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 const lessons = manifest.lessons && typeof manifest.lessons === "object" ? manifest.lessons : {};
-const locales = manifest.coverage && typeof manifest.coverage === "object" ? Object.keys(manifest.coverage) : [];
+const manifestLocales = new Set(
+  manifest.coverage && typeof manifest.coverage === "object" ? Object.keys(manifest.coverage) : [],
+);
+
+for (const locale of LAUNCH_LOCALES) {
+  if (!manifestLocales.has(locale)) {
+    throw new Error(`Approved launch locale ${locale} is missing from translation-manifest coverage`);
+  }
+}
 
 function parseLessonId(id) {
   const match = String(id).toUpperCase().match(/^([A-Z]+)-L(\d+)-(\d{3})$/u);
@@ -29,7 +53,7 @@ const byLocale = {};
 const byTrack = {};
 const jobs = [];
 
-for (const locale of locales) {
+for (const locale of TRANSLATION_LOCALES) {
   const missing = [];
   for (const item of canonicalLessons) {
     const translation = item.lesson.translations?.[locale];
@@ -64,11 +88,15 @@ for (const locale of locales) {
 }
 
 const output = {
-  schemaVersion: "1.0",
+  schemaVersion: "1.1",
   generatedAt: new Date().toISOString(),
   sourceManifestGeneratedAt: manifest.generatedAt ?? null,
+  defaultLocale: DEFAULT_LOCALE,
+  launchLocales: LAUNCH_LOCALES,
+  translationLocales: TRANSLATION_LOCALES,
   canonicalLessonCount: canonicalLessons.length,
-  localeCount: locales.length,
+  launchCombinationCount: canonicalLessons.length * LAUNCH_LOCALES.length,
+  translationJobUniverse: canonicalLessons.length * TRANSLATION_LOCALES.length,
   jobCount: jobs.length,
   byLocale,
   byTrack,
@@ -77,4 +105,4 @@ const output = {
 
 mkdirSync(dirname(outputPath), { recursive: true });
 writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Translation work queue: ${output.jobCount} missing/stale lesson-locale jobs across ${output.localeCount} locales.`);
+console.log(`Translation work queue: ${output.jobCount} missing/stale launch lesson-locale jobs across ${output.translationLocales.length} non-default launch locales.`);
