@@ -70,7 +70,7 @@ test("listAcademies keeps all academies and canonical levels available", () => {
 
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.lessons.length, 52);
-  assert.equal(courses.white.lessons.length, 0);
+  assert.equal(courses.white.lessons.length, 50);
   assert.equal(courses.blue.lessons.length, 0);
 });
 
@@ -91,12 +91,12 @@ test("test drive lessons are empty when no sample lesson IDs are configured", ()
   assert.deepEqual(getTestDriveLessons("es"), []);
 });
 
-test("localized course map is locale-aware with RED having 52 published lessons", () => {
+test("localized course map is locale-aware with RED and WHITE published lessons", () => {
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.title, "RED: Bienes raíces");
   assert.equal(courses.white.title, "WHITE: Activos financieros");
   assert.equal(courses.blue.title, "BLUE: Negocios");
   assert.equal(courses.red.lessons.length, 52);
-  assert.equal(courses.white.lessons.length, 0);
+  assert.equal(courses.white.lessons.length, 50);
   assert.equal(courses.blue.lessons.length, 0);
 });

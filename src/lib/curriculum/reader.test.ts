@@ -13,16 +13,17 @@ test("listAcademies returns all eight academies with five levels each", () => {
   assert.ok(academies.every((academy) => academy.levels.length === 5));
 });
 
-test("getTrack returns summaries for WHITE and BLUE with empty levels when no lessons are published", () => {
-  for (const code of ["WHITE", "BLUE"] as const) {
-    const track = getTrack(code);
-    assert.ok(track, `${code} track should exist`);
-    assert.equal(track?.levels.length, 5);
-    assert.ok(
-      track?.levels.every((level) => level.lessonCount === 0),
-      `${code} levels should have zero lessons`,
-    );
-  }
+test("getTrack returns restored WHITE Level 1 and empty BLUE levels before BLUE recovery", () => {
+  const white = getTrack("WHITE");
+  assert.ok(white, "WHITE track should exist");
+  assert.equal(white?.levels.length, 5);
+  assert.equal(white?.levels.find((level) => level.level === 1)?.lessonCount, 50);
+  assert.ok(white?.levels.filter((level) => level.level !== 1).every((level) => level.lessonCount === 0));
+
+  const blue = getTrack("BLUE");
+  assert.ok(blue, "BLUE track should exist");
+  assert.equal(blue?.levels.length, 5);
+  assert.ok(blue?.levels.every((level) => level.lessonCount === 0), "BLUE levels should have zero lessons before recovery");
 });
 
 test("getPlaceholderLessonMeta builds a lesson placeholder for active tracks", () => {

@@ -13,18 +13,18 @@ test("production course catalog always includes the three launch tracks", () => 
     courseList.map((course) => course.id),
     ["red", "white", "blue"],
   );
-  // RED has the restored 50 Level 1 lessons plus the 2 published Level 2 lessons.
+  // RED has 50 Level 1 lessons plus 2 published Level 2 lessons; WHITE has restored Level 1.
   assert.equal(courses.red.lessons.length, 52);
-  assert.equal(courses.white.lessons.length, 0);
+  assert.equal(courses.white.lessons.length, 50);
   assert.equal(courses.blue.lessons.length, 0);
 });
 
-test("getCoursePrimaryHref resolves to first lesson when RED has published lessons", () => {
+test("getCoursePrimaryHref resolves to first lesson when RED and WHITE have published lessons", () => {
   assert.equal(getCoursePrimaryHref(courses.red), "/courses/red/lessons/RED-L1-001");
+  assert.equal(getCoursePrimaryHref(courses.white), "/courses/white/lessons/WHITE-L1-001");
 });
 
 test("getCoursePrimaryHref falls back to the course page when lessons are not published", () => {
-  assert.equal(getCoursePrimaryHref(courses.white), "/courses/white");
   assert.equal(getCoursePrimaryHref(courses.blue), "/courses/blue");
 });
 
@@ -38,8 +38,6 @@ test("getCoursePrimaryHref falls back to the track page when a course has no les
 test("lesson descriptions are non-empty for English locale", () => {
   const lessons = getLocalizedLessonList("en");
   for (const lesson of lessons) {
-    // Only check lessons that have a description in the registry metadata;
-    // blank descriptions are fine when the canonical English source is also blank.
     if (lesson.description) {
       assert.ok(lesson.description.length > 0, `English description should be non-empty for ${lesson.id}`);
     }
@@ -53,12 +51,8 @@ test("lesson descriptions are non-empty for French locale (fallback to English w
   for (let i = 0; i < lessonsEn.length; i++) {
     const en = lessonsEn[i];
     const fr = lessonsFr[i];
-    // When English source has a description, French must not be blank (must fall back to English at minimum).
     if (en.description) {
-      assert.ok(
-        fr.description.length > 0,
-        `French lesson description must not be blank when English source exists (lesson ${fr.id})`,
-      );
+      assert.ok(fr.description.length > 0, `French lesson description must not be blank when English source exists (lesson ${fr.id})`);
     }
   }
 });
@@ -70,10 +64,7 @@ test("lesson descriptions are non-empty for Spanish locale (fallback to English 
     const en = lessonsEn[i];
     const es = lessonsEs[i];
     if (en.description) {
-      assert.ok(
-        es.description.length > 0,
-        `Spanish lesson description must not be blank when English source exists (lesson ${es.id})`,
-      );
+      assert.ok(es.description.length > 0, `Spanish lesson description must not be blank when English source exists (lesson ${es.id})`);
     }
   }
 });
@@ -85,10 +76,7 @@ test("lesson descriptions are non-empty for regional French (fr-CA) locale", () 
     const en = lessonsEn[i];
     const frCA = lessonsFrCA[i];
     if (en.description) {
-      assert.ok(
-        frCA.description.length > 0,
-        `fr-CA lesson description must not be blank when English source exists (lesson ${frCA.id})`,
-      );
+      assert.ok(frCA.description.length > 0, `fr-CA lesson description must not be blank when English source exists (lesson ${frCA.id})`);
     }
   }
 });
@@ -100,10 +88,7 @@ test("lesson descriptions are non-empty for regional Spanish (es-PR) locale", ()
     const en = lessonsEn[i];
     const esPR = lessonsEsPR[i];
     if (en.description) {
-      assert.ok(
-        esPR.description.length > 0,
-        `es-PR lesson description must not be blank when English source exists (lesson ${esPR.id})`,
-      );
+      assert.ok(esPR.description.length > 0, `es-PR lesson description must not be blank when English source exists (lesson ${esPR.id})`);
     }
   }
 });
