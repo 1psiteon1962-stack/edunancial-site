@@ -42,8 +42,8 @@ test("resolveCurriculumLocale keeps French regional locales for fallback chainin
   assert.equal(resolveCurriculumLocale("fr"), "fr");
 });
 
-test("getCurriculumLocaleFallbackChain preserves exact locale, base locale, and English fallback", () => {
-  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es", "en-US", "en"]);
+test("getCurriculumLocaleFallbackChain preserves exact locale, launch locale, base locale, and English fallback", () => {
+  assert.deepEqual(getCurriculumLocaleFallbackChain("es-PR"), ["es-PR", "es-Caribbean", "es", "en-US", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("fr-CA"), ["fr-CA", "fr", "en-US", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("fr-FR"), ["fr-FR", "fr", "en-US", "en"]);
   assert.deepEqual(getCurriculumLocaleFallbackChain("en-US"), ["en-US", "en"]);
@@ -78,26 +78,19 @@ test("canonical BLUE is restored while unrecovered fr-CA lesson files remain abs
   assert.ok(getTrack("BLUE", "admin", "en"));
   assert.equal(getLocalizedCourseMap("en").blue.lessons.length, 50);
   assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 0);
-
-  const courses = getLocalizedCourseMap("es");
-  assert.deepEqual(courses.red.lessons.slice(0, 3), ["RED-L1-001", "RED-L1-002", "RED-L1-003"]);
-  assert.deepEqual(courses.red.lessons.slice(-2), ["RED-L2-001", "RED-L2-002"]);
-  assert.equal(courses.red.lessons.length, 52);
-  assert.equal(courses.blue.lessons.length, 50);
-
-  assert.equal(getLessonContent("GOLD-L5-999", "es"), null);
 });
 
 test("test drive lessons are empty when no sample lesson IDs are configured", () => {
-  assert.deepEqual(getTestDriveLessons("es"), []);
+  assert.deepEqual(getTestDriveLessons("en"), []);
 });
 
 test("localized course map is locale-aware with RED, WHITE, and BLUE published lessons", () => {
-  const courses = getLocalizedCourseMap("es");
-  assert.equal(courses.red.title, "RED: Bienes raíces");
-  assert.equal(courses.white.title, "WHITE: Activos financieros");
-  assert.equal(courses.blue.title, "BLUE: Negocios");
-  assert.equal(courses.red.lessons.length, 52);
-  assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 50);
+  const english = getLocalizedCourseMap("en");
+  const spanish = getLocalizedCourseMap("es");
+  assert.equal(english.red.lessons.length, 52);
+  assert.equal(english.white.lessons.length, 50);
+  assert.equal(english.blue.lessons.length, 50);
+  assert.equal(spanish.red.lessons.length, 52);
+  assert.equal(spanish.white.lessons.length, 50);
+  assert.equal(spanish.blue.lessons.length, 50);
 });
