@@ -5343,6 +5343,506 @@
       "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-050.md",
       "outcome": "duplicate-skipped",
       "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-001",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-001.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-002",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-002.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-003",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-003.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-004",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-004.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-005",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-005.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-006",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-006.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-007",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-007.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-008",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-008.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-009",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-009.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-010",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-010.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-011",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-011.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-012",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-012.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-013",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-013.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-014",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-014.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-015",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-015.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-016",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-016.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-017",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-017.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-018",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-018.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-019",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-019.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-020",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-020.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-021",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-021.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-022",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-022.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-023",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-023.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-024",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-024.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-025",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-025.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-026",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-026.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-027",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-027.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-028",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-028.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-029",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-029.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-030",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-030.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-031",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-031.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-032",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-032.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-033",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-033.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-034",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-034.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-035",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-035.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-036",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-036.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-037",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-037.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-038",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-038.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-039",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-039.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-040",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-040.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-041",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-041.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-042",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-042.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-043",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-043.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-044",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-044.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-045",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-045.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-046",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-046.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-047",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-047.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-048",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-048.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-049",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-049.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
+    },
+    {
+      "ingestionId": "bb82a683-fb68-4ea1-9e75-20c725ba9bed",
+      "timestamp": "2026-08-28T02:29:23.217Z",
+      "operation": "skip",
+      "assetId": "BLUE-L1-050",
+      "assetVersion": "\"1.0\"",
+      "source": "/home/runner/work/edunancial-site/edunancial-site/content/curriculum/BLUE/L1/BLUE-L1-050.md",
+      "outcome": "duplicate-skipped",
+      "reason": "Exact content duplicate"
     }
   ]
 }
