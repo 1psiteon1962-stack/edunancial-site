@@ -368,7 +368,8 @@ export function renderBetaInvitationEmail({
   supportEmail?: string;
   languageCode?: string;
 }): BetaInvitationEmail {
-  if (normalizeLanguageCode(languageCode) === "es") {
+  const normalizedLanguage = normalizeLanguageCode(languageCode);
+  if (normalizedLanguage === "es-Caribbean" || normalizedLanguage === "es-ES") {
     return {
       subject: "Su invitación para probar Edunancial",
       text: `Hola ${testerName},
@@ -424,17 +425,26 @@ Beta Terms: ${termsUrl}`,
 export function recordBetaFeedback(
   invitation: BetaInvitationRecord,
   feedback: Omit<BetaFeedbackSubmission, "invitationId" | "submittedAt">,
-  now = new Date().toISOString(),
-): { invitation: BetaInvitationRecord; submission: BetaFeedbackSubmission } {
+  submittedAt = new Date().toISOString(),
+): {
+  invitation: BetaInvitationRecord;
+  submission: BetaFeedbackSubmission;
+  auditEntry: BetaAuditEntry;
+} {
+  const submission: BetaFeedbackSubmission = {
+    ...feedback,
+    invitationId: invitation.id,
+    submittedAt,
+  };
+
   return {
     invitation: {
       ...invitation,
-      feedbackSubmittedAt: now,
+      feedbackSubmittedAt: submittedAt,
     },
-    submission: {
-      ...feedback,
-      invitationId: invitation.id,
-      submittedAt: now,
-    },
+    submission,
+    auditEntry: createBetaAuditEntry(invitation.id, feedback.email, "beta.feedback.submitted", submittedAt, {
+      rating: feedback.rating,
+    }),
   };
 }
