@@ -27,8 +27,10 @@ function hash(value) {
 
 function canonicalLocale(input) {
   if (!input) return null;
+  const normalized = String(input).trim().replaceAll("_", "-");
+  if (normalized.toLowerCase() === "es-caribbean") return "es-Caribbean";
   try {
-    return Intl.getCanonicalLocales(String(input).trim().replaceAll("_", "-"))[0] ?? null;
+    return Intl.getCanonicalLocales(normalized)[0] ?? null;
   } catch {
     return null;
   }
@@ -153,19 +155,16 @@ function extractTranslationRecords(parsed, path) {
     const id = lessonIdFrom(record.id ?? record.lessonId) ?? lessonIdFrom(path);
     if (!id) continue;
 
-    // Current format: { id, translations: { "pt-BR": { title, summary, body } } }
     if (record.translations && typeof record.translations === "object" && !Array.isArray(record.translations)) {
       for (const [rawLocale, value] of Object.entries(record.translations)) {
         addTranslation({ id, rawLocale, value, path });
       }
     }
 
-    // Normalized/import format: { id|lessonId, locale, title, summary, body }
     if (record.locale) {
       addTranslation({ id, rawLocale: record.locale, value: record, path });
     }
 
-    // Legacy direct format: { id, "de": { title, summary, body }, ... }
     for (const [rawLocale, value] of Object.entries(record)) {
       if (["id", "lessonId", "locale", "translations", "metadata"].includes(rawLocale)) continue;
       const locale = canonicalLocale(rawLocale);
@@ -175,7 +174,6 @@ function extractTranslationRecords(parsed, path) {
   }
 }
 
-// Canonical Markdown remains authoritative during the compatibility phase.
 for (const path of walk(curriculumRoot).filter((candidate) => candidate.endsWith(".md"))) {
   const raw = readFileSync(path, "utf8");
   const id = lessonIdFrom(path) ?? lessonIdFrom(raw);
@@ -188,7 +186,6 @@ for (const path of walk(curriculumRoot).filter((candidate) => candidate.endsWith
   };
 }
 
-// Discover current and legacy translation formats without moving production files.
 for (const path of walk(legacyRoot).filter((candidate) => candidate.endsWith(".json"))) {
   const parsed = readJson(path);
   if (parsed === null) continue;
