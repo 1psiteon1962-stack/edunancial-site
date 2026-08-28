@@ -1,21 +1,28 @@
 /*
   Content-Security-Policy: default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co;
+    script-src 'self' 'unsafe-inline' https://www.paypal.com https://www.paypalobjects.com https://code.tidio.co https://*.tidio.co;
     connect-src 'self' https://api.netlify.com https://*.paypal.com https://www.paypal.com https://www.paypalobjects.com https://*.tidio.co wss://ws.tidio.co https://*.supabase.co https://connect.squareup.com https://connect.squareupsandbox.com;
-    img-src 'self' data: https://*.paypal.com https://www.paypalobjects.com https://*.tidio.co;
+    img-src 'self' data: blob: https://*.paypal.com https://www.paypalobjects.com https://*.tidio.co;
+    media-src 'self' data: blob:;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com;
     frame-src https://www.paypal.com;
-  Referrer-Policy: no-referrer-when-downgrade
+    frame-ancestors 'self';
+    base-uri 'self';
+    object-src 'none';
+    form-action 'self';
+    upgrade-insecure-requests;
+  Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(self)
+  Cross-Origin-Opener-Policy: same-origin
+  X-Permitted-Cross-Domain-Policies: none
   Cache-Control: public, max-age=600
 
 # API routes must never be cached — they return dynamic JSON responses and
-# must be served fresh on every request.  This overrides the Cache-Control
-# set by the /* rule above so that a cached error response (e.g. a prior 404
-# from a misconfigured deployment) can never be served from CDN in place of
-# the correct JSON API response.
+# must be served fresh on every request. This overrides the Cache-Control
+# set by the /* rule above so cached dynamic responses cannot be replayed.
 /api/*
   Cache-Control: no-store, max-age=0
