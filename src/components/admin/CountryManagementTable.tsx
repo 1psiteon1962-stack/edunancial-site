@@ -1,4 +1,4 @@
-import { countries } from "@/lib/countries/country-registry";
+import { countryCatalog } from "@/lib/countries/country-catalog";
 
 export default function CountryManagementTable() {
   return (
@@ -28,7 +28,7 @@ export default function CountryManagementTable() {
 
         <tbody>
 
-          {countries.map((country) => (
+          {countryCatalog.map((country) => (
 
             <tr
               key={country.isoCode}
@@ -44,7 +44,7 @@ export default function CountryManagementTable() {
               </td>
 
               <td>
-                {country.operatingEntity}
+                {country.operatingEntity || "—"}
               </td>
 
               <td>
