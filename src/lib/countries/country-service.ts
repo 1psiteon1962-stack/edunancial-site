@@ -1,4 +1,8 @@
 import { countries } from "./country-registry";
+import {
+  getCountryLaunchAssessment,
+  getGlobalRolloutSnapshot,
+} from "./country-readiness-registry";
 
 export type CountryFeature =
   | "membershipEnabled"
@@ -13,6 +17,7 @@ function normalizeISO(isoCode: string) {
   return isoCode.trim().toUpperCase();
 }
 
+/** Countries present in configuration and enabled for development/runtime use. */
 export function getEnabledCountries() {
   return countries.filter((country) => country.enabled);
 }
@@ -33,4 +38,32 @@ export function getCountriesForFeature(feature: CountryFeature) {
 export function isCountryFeatureEnabled(isoCode: string, feature: CountryFeature) {
   const country = getCountryByISO(isoCode);
   return Boolean(country?.enabled && country[feature]);
+}
+
+/** Countries that have passed every launch-readiness dimension and are beta/live. */
+export function getLaunchReadyCountries() {
+  const ready = new Set(
+    getGlobalRolloutSnapshot()
+      .filter((country) => country.launchReady)
+      .map((country) => country.isoCode),
+  );
+  return countries.filter((country) => ready.has(country.isoCode));
+}
+
+/** Launch-ready countries whose payment configuration is also commercially enabled. */
+export function getCommercialReadyCountries() {
+  const ready = new Set(
+    getGlobalRolloutSnapshot()
+      .filter((country) => country.commercialReady)
+      .map((country) => country.isoCode),
+  );
+  return countries.filter((country) => ready.has(country.isoCode));
+}
+
+export function isCountryLaunchReady(isoCode: string) {
+  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.launchReady);
+}
+
+export function isCountryCommercialReady(isoCode: string) {
+  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.commercialReady);
 }
