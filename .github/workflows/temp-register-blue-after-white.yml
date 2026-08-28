@@ -38,20 +38,7 @@ jobs:
               number=$((10#${id##*-}))
               title=$(head -1 "$dest" | sed -E "s/^# ${id}:[[:space:]]*//" | sed 's/"/\\"/g')
               tmp=$(mktemp)
-              cat > "$tmp" <<EOF
----
-id: ${id}
-track: BLUE
-officialTrackName: Business
-level: 1
-lessonNumber: ${number}
-title: "${title}"
-version: "1.0"
-author: Waldemar M. Caban, JD MA
-date: 2026-08-08
----
-
-EOF
+              printf '%s\n' '---' "id: ${id}" 'track: BLUE' 'officialTrackName: Business' 'level: 1' "lessonNumber: ${number}" "title: \"${title}\"" 'version: "1.0"' 'author: Waldemar M. Caban, JD MA' 'date: 2026-08-08' '---' '' > "$tmp"
               cat "$dest" >> "$tmp"
               mv "$tmp" "$dest"
             fi
