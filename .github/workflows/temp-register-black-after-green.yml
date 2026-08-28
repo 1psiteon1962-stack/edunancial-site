@@ -1,0 +1,39 @@
+name: Temporary Register BLACK After GREEN
+
+on:
+  push:
+    branches:
+      - recover/black-l1-after-green
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: recover/black-l1-after-green
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Register BLACK against current GREEN main metadata
+        run: npm run curriculum:import -- content/curriculum/BLACK/L1
+      - name: Regenerate audit and inventory
+        run: |
+          npm run curriculum:audit
+          npm run curriculum:inventory
+      - name: Commit combined metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add curriculum/registry.json curriculum/ingestion-ledger.json curriculum/inventory.json curriculum/reports
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Register BLACK curriculum after GREEN merge"
+          git push origin HEAD:recover/black-l1-after-green
