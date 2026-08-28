@@ -1,4 +1,4 @@
-import { countries } from "./country-registry";
+import { countryCatalog } from "./country-catalog";
 import {
   getCountryLaunchAssessment,
   getGlobalRolloutSnapshot,
@@ -19,20 +19,20 @@ function normalizeISO(isoCode: string) {
 
 /** Countries present in configuration and enabled for development/runtime use. */
 export function getEnabledCountries() {
-  return countries.filter((country) => country.enabled);
+  return countryCatalog.filter((country) => country.enabled);
 }
 
 export function getDisabledCountries() {
-  return countries.filter((country) => !country.enabled);
+  return countryCatalog.filter((country) => !country.enabled);
 }
 
 export function getCountryByISO(isoCode: string) {
   const normalized = normalizeISO(isoCode);
-  return countries.find((country) => country.isoCode === normalized);
+  return countryCatalog.find((country) => country.isoCode === normalized);
 }
 
 export function getCountriesForFeature(feature: CountryFeature) {
-  return countries.filter((country) => country.enabled && country[feature]);
+  return countryCatalog.filter((country) => country.enabled && country[feature]);
 }
 
 export function isCountryFeatureEnabled(isoCode: string, feature: CountryFeature) {
@@ -47,7 +47,7 @@ export function getLaunchReadyCountries() {
       .filter((country) => country.launchReady)
       .map((country) => country.isoCode),
   );
-  return countries.filter((country) => ready.has(country.isoCode));
+  return countryCatalog.filter((country) => ready.has(country.isoCode));
 }
 
 /** Launch-ready countries whose payment configuration is also commercially enabled. */
@@ -57,7 +57,7 @@ export function getCommercialReadyCountries() {
       .filter((country) => country.commercialReady)
       .map((country) => country.isoCode),
   );
-  return countries.filter((country) => ready.has(country.isoCode));
+  return countryCatalog.filter((country) => ready.has(country.isoCode));
 }
 
 export function isCountryLaunchReady(isoCode: string) {

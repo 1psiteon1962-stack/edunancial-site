@@ -1,4 +1,4 @@
-import { countries } from "./country-registry";
+import { countryCatalog } from "./country-catalog";
 import {
   assessCountryLaunchReadiness,
   type CountryLaunchAssessment,
@@ -36,7 +36,7 @@ const READY: CountryReadiness = {
  * Explicit rollout-readiness records.
  *
  * Fail closed by default: countries not listed here inherit NOT_READY even if
- * they exist in the country registry. This prevents adding a country record or
+ * they exist in the country catalog. This prevents adding a country record or
  * enabling a feature flag from accidentally making that market launch-ready.
  */
 export const countryReadinessProfiles: CountryReadinessProfile[] = [
@@ -81,13 +81,13 @@ export function getCountryReadinessProfile(isoCode: string): CountryReadinessPro
 
 export function getCountryLaunchAssessment(isoCode: string): CountryLaunchAssessment | null {
   const normalized = isoCode.trim().toUpperCase();
-  const country = countries.find((entry) => entry.isoCode.toUpperCase() === normalized);
+  const country = countryCatalog.find((entry) => entry.isoCode.toUpperCase() === normalized);
   if (!country) return null;
   return assessCountryLaunchReadiness(country, getCountryReadinessProfile(normalized).readiness);
 }
 
 export function getGlobalRolloutSnapshot() {
-  return countries.map((country) => {
+  return countryCatalog.map((country) => {
     const profile = getCountryReadinessProfile(country.isoCode);
     const assessment = assessCountryLaunchReadiness(country, profile.readiness);
     return {
