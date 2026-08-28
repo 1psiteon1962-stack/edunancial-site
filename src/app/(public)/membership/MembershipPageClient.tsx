@@ -12,6 +12,16 @@ import {
 } from "@/lib/membershipCopy";
 import { publicMembershipPlans } from "@/types/membership";
 
+function getLocalPriceNote(language: string, countryCode: string) {
+  if (language.startsWith("es")) return `Precio local para ${countryCode}. Los impuestos aplicables se calculan al finalizar la compra.`;
+  if (language.startsWith("fr")) return `Prix local pour ${countryCode}. Les taxes applicables sont calculées lors du paiement.`;
+  if (language.startsWith("pt")) return `Preço local para ${countryCode}. Os impostos aplicáveis são calculados no checkout.`;
+  if (language === "de") return `Lokaler Preis für ${countryCode}. Anfallende Steuern werden beim Bezahlen berechnet.`;
+  if (language === "it") return `Prezzo locale per ${countryCode}. Le imposte applicabili vengono calcolate al pagamento.`;
+  if (language === "nl") return `Lokale prijs voor ${countryCode}. Eventuele belastingen worden bij het afrekenen berekend.`;
+  return `Local price for ${countryCode}. Taxes, where applicable, are calculated at checkout.`;
+}
+
 export default function MembershipPageClient() {
   const { effectiveLanguage, preferences, t } = useInternationalPreferences();
   const language = resolveMembershipCopyLanguage(effectiveLanguage);
@@ -58,7 +68,7 @@ export default function MembershipPageClient() {
                   </div>
                   {localizedPrice && localizedPrice.currency !== "USD" && (
                     <p className="mt-2 text-xs text-slate-500">
-                      Local price for {countryCode}. Taxes, where applicable, are calculated at checkout.
+                      {getLocalPriceNote(effectiveLanguage, countryCode)}
                     </p>
                   )}
                   <ul className="mt-8 space-y-3 text-left text-sm font-semibold text-slate-700">
