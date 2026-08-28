@@ -22,13 +22,40 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Canonicalize recovered BLUE English lessons
+        shell: bash
         run: |
+          set -euo pipefail
           mkdir -p content/curriculum/BLUE/L1
           for f in content/courses/blue/level-1/en/*.md; do
             id=$(sed -n 's/^id:[[:space:]]*//p' "$f" | head -1 | tr -d '\r"')
-            case "$id" in
-              BLUE-L1-[0-9][0-9][0-9]) cp "$f" "content/curriculum/BLUE/L1/${id}.md" ;;
-            esac
+            if [[ ! "$id" =~ ^BLUE-L1-[0-9]{3}$ ]]; then
+              id=$(sed -n 's/^\*\*Lesson ID:\*\*[[:space:]]*//p' "$f" | head -1 | tr -d '\r')
+            fi
+            [[ "$id" =~ ^BLUE-L1-[0-9]{3}$ ]] || continue
+            dest="content/curriculum/BLUE/L1/${id}.md"
+            cp "$f" "$dest"
+            if ! head -1 "$dest" | grep -qx -- '---'; then
+              number=$((10#${id##*-}))
+              title=$(head -1 "$dest" | sed -E "s/^# ${id}:[[:space:]]*//" | sed 's/"/\\"/g')
+              tmp=$(mktemp)
+              cat > "$tmp" <<EOF
+---
+id: ${id}
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: ${number}
+title: "${title}"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+EOF
+              cat "$dest" >> "$tmp"
+              mv "$tmp" "$dest"
+            fi
+            sed -i '0,/^## Main Lesson$/s//## Core Content/' "$dest"
           done
           test "$(find content/curriculum/BLUE/L1 -maxdepth 1 -name 'BLUE-L1-*.md' | wc -l)" -eq 50
       - name: Register BLUE with current importer
