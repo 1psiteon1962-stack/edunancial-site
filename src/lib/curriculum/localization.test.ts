@@ -74,10 +74,11 @@ test("listAcademies keeps all academies and canonical levels available", () => {
   assert.equal(courses.blue.lessons.length, 50);
 });
 
-test("track and lesson queries expose restored BLUE Level 1 and preserve missing-lesson behavior", () => {
-  assert.ok(getTrack("BLUE", "free", "fr-CA"));
-  assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 50);
-  assert.ok(getLessonContent("BLUE-L1-001", "fr-CA"));
+test("canonical BLUE is restored while unrecovered fr-CA lesson files remain absent", () => {
+  const blue = getTrack("BLUE", "admin", "en");
+  assert.ok(blue);
+  assert.equal(blue?.levels.find((level) => level.level === 1)?.lessonCount, 50);
+  assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 0);
 
   const courses = getLocalizedCourseMap("es");
   assert.deepEqual(courses.red.lessons.slice(0, 3), ["RED-L1-001", "RED-L1-002", "RED-L1-003"]);
