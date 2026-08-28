@@ -2,20 +2,11 @@
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import ComingSoon from "@/components/ComingSoon";
-
-const MEMBER_TYPES = [
-  "Students",
-  "Families",
-  "Entrepreneurs",
-  "Veterans",
-  "Professionals",
-  "Small Business Owners",
-  "Young Investors",
-  "Community Leaders",
-] as const;
+import { getSuccessPageCopy } from "@/lib/international/success-page-copy";
 
 export default function SuccessStoriesPageClient() {
-  const { t } = useInternationalPreferences();
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const copy = getSuccessPageCopy(effectiveLanguage);
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -25,17 +16,15 @@ export default function SuccessStoriesPageClient() {
         </p>
 
         <h1 className="mt-6 text-5xl font-black sm:text-6xl">
-          Real People.
-          <br />
-          Real Progress.
+          {copy.successStoriesHeading}
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
           {t("comingSoon.successStories.body")}
         </p>
 
-        <ul className="mt-8 flex flex-wrap gap-3" aria-label="Member types">
-          {MEMBER_TYPES.map((type) => (
+        <ul className="mt-8 flex flex-wrap gap-3" aria-label={copy.memberTypesAriaLabel}>
+          {copy.memberTypes.map((type) => (
             <li
               key={type}
               className="rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium text-slate-300"
