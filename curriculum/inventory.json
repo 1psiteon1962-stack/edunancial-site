@@ -1,18 +1,23 @@
 {
   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
   "summary": {
-    "totalLessons": 52,
-    "totalTracks": 2,
-    "totalLevels": 2,
-    "localizedVariants": 0,
+    "totalLessons": 152,
+    "totalTracks": 3,
+    "totalLevels": 4,
+    "localizedVariants": 740,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
-        "totalLessons": 2,
-        "localizedVariants": 0
+        "totalLessons": 52,
+        "localizedVariants": 740
       },
       "GOLD": {
         "name": "Investing",
+        "totalLessons": 50,
+        "localizedVariants": 0
+      },
+      "ORANGE": {
+        "name": "Sales & Marketing",
         "totalLessons": 50,
         "localizedVariants": 0
       }
@@ -20,7 +25,4408 @@
   },
   "assets": [
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-001.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-001.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-001.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-001.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-001.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-001.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-001",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Real Estate, Really? (Land, Structures, and What You're Actually Buying)",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-001.md",
+      "checksum": "sha256:1209b5841b6bbcb5dce22276756cb985ee34991bf538fdfdce5d13aba1b1dad4",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-002.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-002.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-002.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-002.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-002.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-002.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-002",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Renting vs. Owning: What Changes When You Own",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-002.md",
+      "checksum": "sha256:b7c45f4038cdc9213024348f054feb64b286edc7132221a9345c2b984179dc48",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-003.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-003.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-003.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-003.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-003.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-003.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-003",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Equity in a Home?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-003.md",
+      "checksum": "sha256:79e3299c158868e482f8c36cfca9206a13fb9bced93d0d5a8f529c8ae5860c46",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-004.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-004.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-004.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-004.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-004.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-004.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-004",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Mortgage? (Not Just \"A Loan for a House\")",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-004.md",
+      "checksum": "sha256:7957b77d5c923d5cc37d412d6d15a34f9bbc2d7de8fb54df7f27ffcc5807ef02",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-005.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-005.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-005.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-005.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-005.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-005.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-005",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Principal vs. Interest: Where Your Payment Actually Goes",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-005.md",
+      "checksum": "sha256:ba2f719f1a0f32ed8d48633160ea5fe4521d91c7f9f612605553a99cafcb4442",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-006.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-006.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-006.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-006.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-006.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-006.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-006",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Down Payment, and Why Does It Matter So Much?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-006.md",
+      "checksum": "sha256:4c50983b4cb7b74a4e7e1befd32e11e471843ef556ef401caa2ede3f0126e7cf",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-007.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-007.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-007.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-007.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-007.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-007.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-007",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Fixed-Rate vs. Adjustable-Rate Mortgages",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-007.md",
+      "checksum": "sha256:31080c8b8acbb6e6f3559916277f84fe67a117d4972feea0c6e3fda81fd8693a",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-008.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-008.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-008.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-008.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-008.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-008.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-008",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is PMI (Private Mortgage Insurance) and When Do You Pay It?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-008.md",
+      "checksum": "sha256:842fc7b8444978a5b680a53f5dc5353ce36765ebbbf1090509d6a13ba7016bb6",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-009-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-009.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-009.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-009.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-009.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-009.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-009.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-009",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Property Tax, and Who Sets It?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-009.md",
+      "checksum": "sha256:c7d45622585b28befbbef2e018775e2c819a7ad552428cda42b0d7004eea3c22",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-010-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-010.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-010.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-010.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-010.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-010.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-010.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-010",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Lien on a Property?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-010.md",
+      "checksum": "sha256:738f3afd4fcb8994278b6ee2918bd26d39e3976ed373eaad86aa283b0c8694b9",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-011-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-011.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-011.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-011.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-011.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-011.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-011.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-011",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Tax Lien States vs. Tax Deed States: What's the Real Difference?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-011.md",
+      "checksum": "sha256:eff0b26cc4a08b59e42f3e7c7ebf60c4acfcac3c10b97cac20990ae2589ba242",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-012-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-012.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-012.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-012.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-012.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-012.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-012.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-012",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is an Appraisal, and Why Isn't It the Same as the Price?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-012.md",
+      "checksum": "sha256:64daeebb06ee8662b8e3fbe679a4523652b5df96dc5c825cc19b16c399106e82",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-013-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-013.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-013.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-013.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-013.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-013.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-013.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-013",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Comp? (Comparable Sales, Explained)",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-013.md",
+      "checksum": "sha256:4eccb56923f42b40e6e4a42993299af88d0bbc801d78018ca8bbac83c3003459",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-014-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-014.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-014.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-014.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-014.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-014.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-014.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-014",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Home Inspection Actually Checking For?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-014.md",
+      "checksum": "sha256:3b40049eb8f5483e8a5635e53ac4d1742f35170bee6fc98d045d30ae1e04590a",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-015-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-015.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-015.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-015.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-015.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-015.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-015.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-015",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Title, and Why Does \"Clear Title\" Matter?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-015.md",
+      "checksum": "sha256:ddb0f200f702800b79bde265121fdcdd676ef8e4f35806c96a069cdc3d9e51bc",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-016-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-016.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-016.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-016.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-016.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-016.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-016.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-016",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Title Insurance?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-016.md",
+      "checksum": "sha256:f451d8e5717d49a536aa6dfe8ee42aa69ff165b62ec2e534258459e1b0953669",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-017-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-017.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-017.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-017.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-017.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-017.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-017.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-017",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Escrow?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-017.md",
+      "checksum": "sha256:bc399231bf9249b02dfb7513f0edbe406440574431dd5745879cb984125ddb11",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-018-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-018.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-018.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-018.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-018.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-018.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-018.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-018",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Closing Costs: What Are You Actually Paying For?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-018.md",
+      "checksum": "sha256:a467ca7fc88aa55c8eb0c620bfc66c07744893d3c72d86039b7c7b9a5ca8fa13",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-019-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-019.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-019.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-019.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-019.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-019.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-019.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-019",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a HOA, and What Power Does It Have?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-019.md",
+      "checksum": "sha256:5f85d589c6c1c471a9cb12c4ea521a2f3210220eb077158ed590b50606a89177",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-020-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-020.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-020.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-020.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-020.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-020.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-020.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-020",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Single-Family vs. Multi-Family: What's the Real Difference for an Owner?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-020.md",
+      "checksum": "sha256:caa367be46cc3e362aa79a5f9bf56381c7ab3e237652d3c01cf002ceba735fd9",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-021-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-021.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-021.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-021.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-021.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-021.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-021.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-021",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Commercial Real Estate Fundamentals",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-021.md",
+      "checksum": "sha256:1dd2bfb5340f52eee7cdb351072c7ab082cd919f93849c791815cdd91e5a52cc",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-022-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-022.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-022.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-022.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-022.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-022.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-022.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-022",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Cash Flow in Real Estate?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-022.md",
+      "checksum": "sha256:c1943af0aa8349e5c8c9d518de3a613dd209a303cece7904d6a329c1d2a215a8",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-023-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-023.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-023.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-023.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-023.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-023.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-023.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-023",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Cap Rate? (Introductory Version)",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-023.md",
+      "checksum": "sha256:f8b937cf22e7d57d9afc026f7e6d5a176f797afd9fdeeb52b937529cd6148284",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-024-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-024.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-024.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-024.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-024.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-024.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-024.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-024",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Cash-on-Cash Return?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-024.md",
+      "checksum": "sha256:727cfeb3133111f506a7935ffccb99fcab0458345212f78224592c73ec9e5bac",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-025-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-025.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-025.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-025.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-025.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-025.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-025.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-025",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Appreciation, and Why Isn't It Guaranteed?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-025.md",
+      "checksum": "sha256:9b8497c962db6d42a5a712f32ee6f13e5f091714b56bf92ff9cf7a21ebad3682",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-026-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-026.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-026.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-026.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-026.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-026.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-026.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-026",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Depreciation, and Why Would a Loss on Paper Ever Help You?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-026.md",
+      "checksum": "sha256:530b8698a2f287d7f518cb468265e42b8c0c43bf69a3ccc5fab849d8ce0debad",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-027-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-027.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-027.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-027.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-027.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-027.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-027.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-027",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a 1031 Exchange? (What It Is, in Plain Terms)",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-027.md",
+      "checksum": "sha256:67867b5e785854137c21a3959a5e70d763fef39ebafd6291154f391ac215ff83",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-028-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-028.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-028.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-028.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-028.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-028.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-028.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-028",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Landlord Basics: What Are You Actually Responsible For?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-028.md",
+      "checksum": "sha256:9887f864ac4a39c92200a2aa3c2a4164e50ac5b403e5308dddca0c500f7bc2da",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-029-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-029.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-029.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-029.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-029.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-029.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-029.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-029",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Lease, and What Should Be In One?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-029.md",
+      "checksum": "sha256:95777ab515a853ab50c0596565a8969b692ff1be6292d01a813313d7e333d05d",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-030-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-030.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-030.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-030.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-030.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-030.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-030.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-030",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Security Deposits: What Landlords Can and Can't Do",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-030.md",
+      "checksum": "sha256:b2a905cbba2a7175068935d89075a80b0191f10fff669e9a15d77208983913a0",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-031-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-031.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-031.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-031.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-031.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-031.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-031.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-031",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Eviction, and Why Is It a Last Resort, Not a First Step?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-031.md",
+      "checksum": "sha256:2db9528f9d11ec3d438299ab0e0f9a3525d868e31b97cb4cfe58c2dc03602e8d",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-032-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-032.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-032.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-032.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-032.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-032.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-032.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-032",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Property Manager, and When Do You Need One?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-032.md",
+      "checksum": "sha256:32542766c59be33c9fdcef467d0e67222f45175604817414bc23c7302dd54a0a",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-033-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-033.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-033.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-033.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-033.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-033.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-033.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-033",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Zoning, and Why Can't You Build Whatever You Want, Wherever You Want?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-033.md",
+      "checksum": "sha256:3a0db6e90d5007ed2870a60c11a4fc4f226286866df4c6a2a11bf7d83e6ba4bf",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-034-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-034.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-034.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-034.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-034.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-034.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-034.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-034",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Residential vs. Commercial Real Estate: What Actually Changes?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-034.md",
+      "checksum": "sha256:a72e6247fb289f75c630b8592cdeebc3aa3bfde48db8e585019888a6d5952426",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-035-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-035.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-035.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-035.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-035.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-035.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-035.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-035",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a REIT? (Real Estate Without Owning Property Directly)",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-035.md",
+      "checksum": "sha256:3b8a902d305fba70928ffefcb412b23bc5f9a2e70b58a49efe71af84975d1bee",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-036-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-036.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-036.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-036.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-036.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-036.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-036.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-036",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is House Hacking?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-036.md",
+      "checksum": "sha256:dc130ac7b2a34201da326d39e9df3c60c60bdaa1ba1ecda664779e2aaf052023",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-037-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-037.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-037.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-037.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-037.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-037.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-037.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-037",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Wholesaling in Real Estate?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-037.md",
+      "checksum": "sha256:d72ba2fd6c05be10fb5497c08ab757d368387148d2c1c282762d0aa1d93f8ad8",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-038-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-038.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-038.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-038.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-038.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-038.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-038.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-038",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Flipping, and What Can Go Wrong?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-038.md",
+      "checksum": "sha256:4e20a965acc72ce85baf9346590f963ac5dcbe1c28251bc64957ddeee9ca8382",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-039-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-039.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-039.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-039.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-039.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-039.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-039.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-039",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Contractor Estimate, and Why Do They Vary So Much?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-039.md",
+      "checksum": "sha256:50586dfeb136b9089d0b51d88ba410c994f101b9f0cd7ef3699469f8a8ee991b",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-040-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-040.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-040.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-040.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-040.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-040.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-040.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-040",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is an HOA Special Assessment?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-040.md",
+      "checksum": "sha256:e515edee65fe88e3c77abeb0360cf30564da4d0c0110a066907c8e074fa267dc",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-041-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-041.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-041.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-041.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-041.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-041.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-041.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-041",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Homeowner's Insurance Actually Covering (and Not Covering)?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-041.md",
+      "checksum": "sha256:bcdfa37a13b9bf8851084d536256ec2f2cefa18edd6810bcaaf55b28eb50428a",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-042-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-042.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-042.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-042.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-042.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-042.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-042.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-042",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Flood Insurance, and Why Isn't It Automatic?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-042.md",
+      "checksum": "sha256:74c9cde02fbf6d09fea4548f506cfa4a8504a305999ff22cc2b2e52bd6d64075",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-043-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-043.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-043.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-043.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-043.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-043.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-043.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-043",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Reverse Mortgage?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-043.md",
+      "checksum": "sha256:d896c9a601e41905b89bf1dc11b7b559f265d2920bcaa23947e784a9223c913c",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-044-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-044.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-044.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-044.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-044.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-044.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-044.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-044",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Refinancing, and When Does It Actually Make Sense?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-044.md",
+      "checksum": "sha256:897be1ed8a86c297dea18a4e66d74ee35ad0044e7fb4210cd34b78bcaa37c8a5",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-045-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-045.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-045.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-045.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-045.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-045.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-045.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-045",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is a Home Equity Loan vs. a HELOC?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-045.md",
+      "checksum": "sha256:c69bf31dbfaac7771f92649031ba2666b01d0132b166881673ec89d29da5b2df",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-046-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-046.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-046.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-046.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-046.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-046.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-046.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-046",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Underwater on a Mortgage?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-046.md",
+      "checksum": "sha256:3410c2d345e04520cda263e1c412ae46cfef9f746284e3650ab366ba5b563542",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-047-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-047.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-047.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-047.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-047.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-047.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-047.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-047",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Foreclosure, Step by Step?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-047.md",
+      "checksum": "sha256:fb26bc7896f2d41b43927945c6fb5e5666d5996b01342618cf76ddce59ce8603",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-048-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-048.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-048.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-048.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-048.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-048.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-048.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-048",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "What Is Short Sale, and How Is It Different from Foreclosure?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-048.md",
+      "checksum": "sha256:466c40f2b57ac325a2843d638da2c9db55910d79cd9f06d3254c8224a669c0ee",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-049-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-049.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-049.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-049.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-049.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-049.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-049.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-049",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "Buying Your First Property: What Order Do These Steps Actually Go In?",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-049.md",
+      "checksum": "sha256:f6e822712aefdeb817ec27fda4bef809aea7e8bba3640f6c9520965bf84596a9",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "es",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-009-050-es-translations-only-red-level-1-red-l1-050-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-1/en/red-l1-de-red-l1-050.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-1/en/red-l1-fr-ca-indivdual-red-l1-050.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-1/en/red-l1-fr-fr-indiv-red-l1-050.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-1/en/red-l1-nl-red-l1-050.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/courses/red/level-1/en/red-l1-pt-br-red-l1-050.json",
+          "source": "json"
+        },
+        {
+          "locale": "pt-PT",
+          "path": "content/courses/red/level-1/en/red-l1-pt-pt-red-l1-050.json",
+          "source": "json"
+        }
+      ],
+      "id": "RED-L1-050",
+      "type": "lesson",
+      "track": "RED",
+      "trackName": "Real Estate",
+      "level": 1,
+      "title": "\"Capstone: Walking Through a Real Property Purchase, Start to Finish\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/RED/L1/RED-L1-050.md",
+      "checksum": "sha256:3d73b1e0d68da9bf5e633154760d76f36b4fae897ab352c8e034cc7e10f0e3d9",
+      "importedAt": "2026-08-16T17:52:27.162Z"
+    },
+    {
+      "localizations": [
+        {
+          "locale": "en-US",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-001-translations.json",
+          "source": "json"
+        }
+      ],
       "id": "RED-L2-001",
       "type": "lesson",
       "track": "RED",
@@ -34,7 +4440,58 @@
       "importedAt": "2026-08-13T19:11:48.516Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "en-US",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "en-GB",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-Caribbean",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "ht",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "nl",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "it",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        },
+        {
+          "locale": "de",
+          "path": "content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-002-translations.json",
+          "source": "json"
+        }
+      ],
       "id": "RED-L2-002",
       "type": "lesson",
       "track": "RED",
@@ -746,6 +5203,706 @@
       "path": "content/curriculum/GOLD/L1/GOLD-L1-050.md",
       "checksum": "sha256:9cb7c8f48fb0867fed23e047ea89284f01accce9bcb51b9d4d0cc4ff66d04237",
       "importedAt": "2026-08-10T04:32:53.258Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-001",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"What Is Sales, Really?\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-001.md",
+      "checksum": "sha256:a1457171c3cc2edca5b4e57c7e099755424dcdfbc8789044a14bd08adcf6e7d0",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-002",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Sales vs. Marketing: Two Different Jobs\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-002.md",
+      "checksum": "sha256:25ddc358df4a559f5f13466bd3921a01419008be8161590322b609ea199d577b",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-003",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The Customer's Problem Is the Whole Game\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-003.md",
+      "checksum": "sha256:51a0bdab78ca3da6b0d28137538c9537f9aac8e1f55c4b119f2b43238d5f8832",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-004",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The Sales Funnel: From Stranger to Customer\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-004.md",
+      "checksum": "sha256:3b8fa1c202dd45b99e104aea40e4bfba465a4ebdd6d2c427a97ecc4827b16994",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-005",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"What Makes a Value Proposition Work\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-005.md",
+      "checksum": "sha256:489a1ef9bfbb926038ec697c54185876b7dc807c6ba18b61da4b718450d5c45a",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-006",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Why Marketing Without Sales Fails (and Sales Without Marketing Fails Too)\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-006.md",
+      "checksum": "sha256:c309cc41ab1cf5f79365f90ab9d87fcee6149f7be33b478c9c0acf0617e6d569",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-007",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Needs vs. Wants: What People Actually Buy\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-007.md",
+      "checksum": "sha256:381b8671cf8bfdd05772063b9e1e9fc9c18a1ee44e63df9ea57aad5db3b2210a",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-008",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The Psychology of a Buying Decision\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-008.md",
+      "checksum": "sha256:7606b22f0cb1588e662424399409ac7f7fc8bfc0c944547e1d61f38ff0ddcd79",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-009",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Cold Outreach: Starting the Conversation\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-009.md",
+      "checksum": "sha256:4100d82131d3003087792e3539291e374b6b62157982d3a0c7ae551d137d7243",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-010",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Building an Elevator Pitch That Works\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-010.md",
+      "checksum": "sha256:2e5c86570ed0e81233ab24cf177022552aec599aa8cbd11e4f6e0e7658481d16",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-011",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Handling 'No' as Data, Not Defeat\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-011.md",
+      "checksum": "sha256:ee4a24d939544a37d25fd054d599a10c94e3a3731699635fba8ec5914b483251",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-012",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Building Ethical Urgency\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-012.md",
+      "checksum": "sha256:bd1bb459ccdffc3a289d226bfb100fa47f9c8de48fe3a47616b2517d718f95ff",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-013",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The 'Equal Opportunity' Social Proof Technique\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-013.md",
+      "checksum": "sha256:7937fe82609735555d99d7f29c330ce7d70aa8cb132a6617107a57a4c667e1fb",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-014",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Follow-Up Cadence: Staying in Touch Without Being Annoying\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-014.md",
+      "checksum": "sha256:2a49eff73d304ca902c5b06811e9201decc7d5875ef598fba872626a76d6cc32",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-015",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Brand vs. Product: What People Actually Remember\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-015.md",
+      "checksum": "sha256:56e3e5d28ceab6b71de32c72950cf29e425fa402757a46a62f6e6dd756ba45c4",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-016",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Defining Your Target Audience\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-016.md",
+      "checksum": "sha256:3d541a0380e1fb42a5938ca6d26e460e7d2080deae7bd1fe3cdf61a084822320",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-017",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Organic vs. Paid Reach\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-017.md",
+      "checksum": "sha256:12e1f3564cd14b9d2ddde7b51575d03baff666004f73839137d1c9e4b5b98eed",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-018",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Content Marketing Basics\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-018.md",
+      "checksum": "sha256:7388ee8f7a3a639f9e1dc541be45851605876b5463664625f508ce80e155d6cb",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-019",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Word-of-Mouth as a Growth Engine\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-019.md",
+      "checksum": "sha256:c48e55fb2f8f1449995c2a2be20fa4f752b7d83dbbdf5c82b690dbe260b87440",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-020",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Marketing on a Zero Budget\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-020.md",
+      "checksum": "sha256:bf657b7ac5b2fe6653b8daa7fd3bacb84b186794d7fc30a334b0c44d6f84ef87",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-021",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Building Trust in a Sales Conversation\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-021.md",
+      "checksum": "sha256:602b261a42db73f0317e277429a02d5835d8568e918eb7cebc8007467e686ee0",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-022",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Common Objections and How to Hear Them\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-022.md",
+      "checksum": "sha256:87b47e010961d5f04172f06936e82cc15aa82997eefb40413ff6c810ed352dab",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-023",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The 'Why Now' Question\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-023.md",
+      "checksum": "sha256:253d8836efe893fc4949f27994f1102a0af1acefd01b78aeb5b4ffa44265f64c",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-024",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Price Anchoring Basics\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-024.md",
+      "checksum": "sha256:cd8fbde046d93e773f4928e553a10e067d960252e4ee4482df5574e058393a61",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-025",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Scarcity vs. Manipulation: Where's the Line?\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-025.md",
+      "checksum": "sha256:c13330d474b62ed927012b602cd64f1903674d33abf021c02d26c2bf3d63c519",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-026",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Reading Buying Signals\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-026.md",
+      "checksum": "sha256:30897237eb128e1f8d1b5f9c94d2b638b2cda125f2234fe5742673077d5b3370",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-027",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Negotiation Fundamentals\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-027.md",
+      "checksum": "sha256:aa5a76eba2a32451d956456d94f93707cfe1e715aea498e85083b64aa712c6f7",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-028",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Win-Win Framing\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-028.md",
+      "checksum": "sha256:b0d273718e2332d475485675016e2fe1979f7d0f261ec698940337021b9d87aa",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-029",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"In-Person vs. Digital Sales\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-029.md",
+      "checksum": "sha256:488262bcf7cdbf75889eca81c903d8ec34dd5df23f1b08ce23c55d151e9737e8",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-030",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Social Media as a Sales Channel\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-030.md",
+      "checksum": "sha256:a0b96619759ca421eeec7a61afc49cd3aee2ce87e779453886c04ce00a930940",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-031",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Email as a Sales Tool\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-031.md",
+      "checksum": "sha256:eb983ce004a713cf33132380be0a3e9921bd37f4ab8ace58e88b090b6abcf4c2",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-032",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The CRM Concept (Even a Spreadsheet Counts)\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-032.md",
+      "checksum": "sha256:e5a276bdbe9170b74883991247bef2973012da64fe48ddccf76a59abdd9cefdb",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-033",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Tracking a Pipeline\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-033.md",
+      "checksum": "sha256:cc5de459d75e6231efe54334a0421a05d3653e284a9ed68466877b9303a4108e",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-034",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Measuring Conversion\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-034.md",
+      "checksum": "sha256:1f782bed3f5bbb8a56754f1563bb95a4031eb5d418f4dde2e89de41c40aa103f",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-035",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"A/B Testing Basics\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-035.md",
+      "checksum": "sha256:81e6db0900f7299b048d74f798996b1b418f2f1ca1d7b0ef8198f48b36c10915",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-036",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Building a Simple Sales Script\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-036.md",
+      "checksum": "sha256:1163164af75ebe44a401aae12cd950cea344a4ac5601b092a7a1525fa526f135",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-037",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Role-Playing Rejection\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-037.md",
+      "checksum": "sha256:60825bc4ca4dba2bac102ee966de159b1beb03f8231acfa9e6c4ea7783fb5b8a",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-038",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The 'Yes Ladder' Technique\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-038.md",
+      "checksum": "sha256:85480bd14a98b72ce2de4f34fa9be803e07cc81d5b3a7a400bf29aa0e312b9de",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-039",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Closing Techniques: Soft vs. Hard Close\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-039.md",
+      "checksum": "sha256:f72e239b5bfadda068d4eaaa8f409755fa6cf62c2dc2bd644aa580d73b798acd",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-040",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Post-Sale Relationship: Retention Beats Acquisition\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-040.md",
+      "checksum": "sha256:09bae45f4379b5f1010f86c99cc74f65ea5a724f2e3b4a8e99256ccc3011c850",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-041",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"The Referral Ask\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-041.md",
+      "checksum": "sha256:7479747e6e23d6bfc03fb357aace5be83ef61840657e57cb175dd20f907c1b4f",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-042",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Case Study Application: Pivoting When the Original Plan Falls Through\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-042.md",
+      "checksum": "sha256:2d5a31b8ff8c27e04acaef4626485f76eaa7a026f174e84d5512c38197e165d4",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-043",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Building a Repeatable Sales System\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-043.md",
+      "checksum": "sha256:5d9661deef85b106497a6185717902cb274b28e19f4588a9140db4aaf521f1f2",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-044",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Sales as a Transferable Life Skill\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-044.md",
+      "checksum": "sha256:cac1cf2243a0e7a9aa145c4ba04458b254e709c6ba48e14ec6f15ba227b82d35",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-045",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Reading a Room: Adjusting Your Approach in Real Time\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-045.md",
+      "checksum": "sha256:ad45426ad3e57eab2b895c37d6c305e53f260b34a4a76b33cbcef6ef16b81233",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-046",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"When to Walk Away From a Sale\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-046.md",
+      "checksum": "sha256:0f388979391cce25c782f83418bc25588e124b525d931083eee8efd34c0c700b",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-047",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Partnerships and Cross-Promotion\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-047.md",
+      "checksum": "sha256:982f0f25322e6a598c38fc8f52b60da38bd9d130bb345ace6a18e6a87b92cf56",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-048",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Handling a Prospect Who Went Silent\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-048.md",
+      "checksum": "sha256:e8b513edc9c284f4be32a1fa9a4014cf3d0d847e8d61ca0e8f84125c19543256",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-049",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Designing a Mini Sales Campaign\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-049.md",
+      "checksum": "sha256:904a8c8a1ee8d78ad6b95ff2624010f56606d9400bc4438783622460c5707e04",
+      "importedAt": "2026-08-28T00:25:02.934Z"
+    },
+    {
+      "localizations": [],
+      "id": "ORANGE-L1-050",
+      "type": "lesson",
+      "track": "ORANGE",
+      "trackName": "Sales & Marketing",
+      "level": 1,
+      "title": "\"Capstone: Pulling Sales and Marketing Together\"",
+      "version": "\"1.0\"",
+      "status": "active",
+      "path": "content/curriculum/ORANGE/L1/ORANGE-L1-050.md",
+      "checksum": "sha256:7407b813276c1b980a9a54d1d0c2aa89b5932bcf00011a5f25d6a44054d8ef0f",
+      "importedAt": "2026-08-28T00:25:02.934Z"
     }
   ]
 }
