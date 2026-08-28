@@ -75,9 +75,8 @@ test("listAcademies keeps all academies and canonical levels available", () => {
 });
 
 test("canonical BLUE is restored while unrecovered fr-CA lesson files remain absent", () => {
-  const blue = getTrack("BLUE", "admin", "en");
-  assert.ok(blue);
-  assert.equal(blue?.levels.find((level) => level.level === 1)?.lessonCount, 50);
+  assert.ok(getTrack("BLUE", "admin", "en"));
+  assert.equal(getLocalizedCourseMap("en").blue.lessons.length, 50);
   assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 0);
 
   const courses = getLocalizedCourseMap("es");
