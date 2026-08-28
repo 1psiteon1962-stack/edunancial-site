@@ -2,20 +2,11 @@
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import ComingSoon from "@/components/ComingSoon";
-
-const MEMBER_TYPE_KEYS = [
-  "successStories.memberTypes.students",
-  "successStories.memberTypes.families",
-  "successStories.memberTypes.entrepreneurs",
-  "successStories.memberTypes.veterans",
-  "successStories.memberTypes.professionals",
-  "successStories.memberTypes.smallBusinessOwners",
-  "successStories.memberTypes.youngInvestors",
-  "successStories.memberTypes.communityLeaders",
-] as const;
+import { getSuccessPageCopy } from "@/lib/international/success-page-copy";
 
 export default function SuccessStoriesPageClient() {
-  const { t } = useInternationalPreferences();
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const copy = getSuccessPageCopy(effectiveLanguage);
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -25,20 +16,20 @@ export default function SuccessStoriesPageClient() {
         </p>
 
         <h1 className="mt-6 text-5xl font-black sm:text-6xl">
-          {t("comingSoon.successStories.heading")}
+          {copy.successStoriesHeading}
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
           {t("comingSoon.successStories.body")}
         </p>
 
-        <ul className="mt-8 flex flex-wrap gap-3" aria-label={t("successStories.memberTypes.ariaLabel")}>
-          {MEMBER_TYPE_KEYS.map((key) => (
+        <ul className="mt-8 flex flex-wrap gap-3" aria-label={copy.memberTypesAriaLabel}>
+          {copy.memberTypes.map((type) => (
             <li
-              key={key}
+              key={type}
               className="rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium text-slate-300"
             >
-              {t(key)}
+              {type}
             </li>
           ))}
         </ul>
