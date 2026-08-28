@@ -4,7 +4,7 @@
     "totalLessons": 402,
     "totalTracks": 8,
     "totalLevels": 9,
-    "localizedVariants": 740,
+    "localizedVariants": 890,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
@@ -19,7 +19,7 @@
       "BLUE": {
         "name": "Business",
         "totalLessons": 50,
-        "localizedVariants": 0
+        "localizedVariants": 150
       },
       "GREEN": {
         "name": "Taxes",
@@ -5230,7 +5230,23 @@
       "importedAt": "2026-08-28T01:26:30.209Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-001.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-001.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-001.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-001",
       "type": "lesson",
       "track": "BLUE",
@@ -5244,7 +5260,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-002.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-002.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-002.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-002",
       "type": "lesson",
       "track": "BLUE",
@@ -5258,7 +5290,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-003.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-003.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-003.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-003",
       "type": "lesson",
       "track": "BLUE",
@@ -5272,7 +5320,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-004.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-004.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-004.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-004",
       "type": "lesson",
       "track": "BLUE",
@@ -5286,7 +5350,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-005.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-005.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-005.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-005",
       "type": "lesson",
       "track": "BLUE",
@@ -5300,7 +5380,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-006.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-006.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-006.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-006",
       "type": "lesson",
       "track": "BLUE",
@@ -5314,7 +5410,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-007.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-007.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-007.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-007",
       "type": "lesson",
       "track": "BLUE",
@@ -5328,7 +5440,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-008.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-008.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-008.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-008",
       "type": "lesson",
       "track": "BLUE",
@@ -5342,7 +5470,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-009.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-009.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-009.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-009",
       "type": "lesson",
       "track": "BLUE",
@@ -5356,7 +5500,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-010.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-010.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-010.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-010",
       "type": "lesson",
       "track": "BLUE",
@@ -5370,7 +5530,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-011.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-011.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-011.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-011",
       "type": "lesson",
       "track": "BLUE",
@@ -5384,7 +5560,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-012.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-012.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-012.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-012",
       "type": "lesson",
       "track": "BLUE",
@@ -5398,7 +5590,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-013.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-013.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-013.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-013",
       "type": "lesson",
       "track": "BLUE",
@@ -5412,7 +5620,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-014.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-014.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-014.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-014",
       "type": "lesson",
       "track": "BLUE",
@@ -5426,7 +5650,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-015.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-015.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-015.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-015",
       "type": "lesson",
       "track": "BLUE",
@@ -5440,7 +5680,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-016.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-016.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-016.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-016",
       "type": "lesson",
       "track": "BLUE",
@@ -5454,7 +5710,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-017.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-017.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-017.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-017",
       "type": "lesson",
       "track": "BLUE",
@@ -5468,7 +5740,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-018.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-018.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-018.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-018",
       "type": "lesson",
       "track": "BLUE",
@@ -5482,7 +5770,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-019.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-019.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-019.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-019",
       "type": "lesson",
       "track": "BLUE",
@@ -5496,7 +5800,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-020.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-020.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-020.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-020",
       "type": "lesson",
       "track": "BLUE",
@@ -5510,7 +5830,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-021.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-021.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-021.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-021",
       "type": "lesson",
       "track": "BLUE",
@@ -5524,7 +5860,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-022.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-022.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-022.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-022",
       "type": "lesson",
       "track": "BLUE",
@@ -5538,7 +5890,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-023.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-023.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-023.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-023",
       "type": "lesson",
       "track": "BLUE",
@@ -5552,7 +5920,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-024.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-024.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-024.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-024",
       "type": "lesson",
       "track": "BLUE",
@@ -5566,7 +5950,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-025.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-025.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-025.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-025",
       "type": "lesson",
       "track": "BLUE",
@@ -5580,7 +5980,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-026.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-026.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-026.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-026",
       "type": "lesson",
       "track": "BLUE",
@@ -5594,7 +6010,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-027.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-027.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-027.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-027",
       "type": "lesson",
       "track": "BLUE",
@@ -5608,7 +6040,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-028.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-028.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-028.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-028",
       "type": "lesson",
       "track": "BLUE",
@@ -5622,7 +6070,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-029.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-029.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-029.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-029",
       "type": "lesson",
       "track": "BLUE",
@@ -5636,7 +6100,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-030.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-030.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-030.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-030",
       "type": "lesson",
       "track": "BLUE",
@@ -5650,7 +6130,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-031.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-031.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-031.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-031",
       "type": "lesson",
       "track": "BLUE",
@@ -5664,7 +6160,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-032.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-032.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-032.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-032",
       "type": "lesson",
       "track": "BLUE",
@@ -5678,7 +6190,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-033.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-033.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-033.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-033",
       "type": "lesson",
       "track": "BLUE",
@@ -5692,7 +6220,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-034.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-034.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-034.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-034",
       "type": "lesson",
       "track": "BLUE",
@@ -5706,7 +6250,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-035.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-035.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-035.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-035",
       "type": "lesson",
       "track": "BLUE",
@@ -5720,7 +6280,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-036.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-036.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-036.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-036",
       "type": "lesson",
       "track": "BLUE",
@@ -5734,7 +6310,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-037.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-037.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-037.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-037",
       "type": "lesson",
       "track": "BLUE",
@@ -5748,7 +6340,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-038.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-038.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-038.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-038",
       "type": "lesson",
       "track": "BLUE",
@@ -5762,7 +6370,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-039.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-039.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-039.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-039",
       "type": "lesson",
       "track": "BLUE",
@@ -5776,7 +6400,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-040.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-040.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-040.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-040",
       "type": "lesson",
       "track": "BLUE",
@@ -5790,7 +6430,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-041.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-041.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-041.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-041",
       "type": "lesson",
       "track": "BLUE",
@@ -5804,7 +6460,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-042.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-042.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-042.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-042",
       "type": "lesson",
       "track": "BLUE",
@@ -5818,7 +6490,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-043.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-043.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-043.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-043",
       "type": "lesson",
       "track": "BLUE",
@@ -5832,7 +6520,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-044.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-044.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-044.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-044",
       "type": "lesson",
       "track": "BLUE",
@@ -5846,7 +6550,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-045.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-045.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-045.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-045",
       "type": "lesson",
       "track": "BLUE",
@@ -5860,7 +6580,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-046.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-046.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-046.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-046",
       "type": "lesson",
       "track": "BLUE",
@@ -5874,7 +6610,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-047.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-047.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-047.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-047",
       "type": "lesson",
       "track": "BLUE",
@@ -5888,7 +6640,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-048.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-048.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-048.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-048",
       "type": "lesson",
       "track": "BLUE",
@@ -5902,7 +6670,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-049.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-049.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-049.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-049",
       "type": "lesson",
       "track": "BLUE",
@@ -5916,7 +6700,23 @@
       "importedAt": "2026-08-28T02:23:33.060Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-050.es-ES.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-CA",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-050.fr-CA.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "fr-FR",
+          "path": "content/curriculum/BLUE/L1/BLUE-L1-050.fr-FR.md",
+          "source": "markdown"
+        }
+      ],
       "id": "BLUE-L1-050",
       "type": "lesson",
       "track": "BLUE",
