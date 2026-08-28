@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-050
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 50
+title: "Capstone — Taking a Business Idea from Nothing to a First Sale"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-050: Capstone — Taking a Business Idea from Nothing to a First Sale
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Capstone — Integrative)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: Step One — Idea, Target Market, and Research
 Start by identifying a business idea and, crucially, its target market (BLUE-L1-031) — not "everyone." Conduct low-cost market research (BLUE-L1-037): direct conversations, observing existing behavior, or a small pilot test to gauge real, not just polite, interest.

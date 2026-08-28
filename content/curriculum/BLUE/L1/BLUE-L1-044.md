@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-044
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 44
+title: "\"What Is Customer Service, Functionally? (Beyond \\"Being Nice\\")\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-044: "What Is Customer Service, Functionally? (Beyond \"Being Nice\")"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: Why "Be Nice" Isn't Functional Guidance
 Politeness matters, but it doesn't specify what to actually do when a customer has a problem, a question, or a complaint — functional customer service requires specific, actionable processes, not just a friendly attitude.

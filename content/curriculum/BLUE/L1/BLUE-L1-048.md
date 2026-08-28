@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-048
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 48
+title: "\"What Is a Side Business, and How Is It Different from a Hobby, Legally and Financially?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-048: "What Is a Side Business, and How Is It Different from a Hobby, Legally and Financially?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Actually Distinguishes the Two
 [REGION-SPECIFIC RULE] The distinction between a hobby and a side business is often defined by factors like intent to make a profit, regularity of activity, and how it's treated for tax purposes — not simply by how small the activity is or how the person personally thinks of it.

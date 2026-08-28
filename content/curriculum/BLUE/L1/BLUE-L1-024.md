@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-024
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 24
+title: "What Is a Profit and Loss Statement (P&L)?"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-024: What Is a Profit and Loss Statement (P&L)?
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What a P&L Shows
 A Profit and Loss Statement (also called an income statement) summarizes a business's revenue, costs, and resulting profit or loss over a specific period of time — typically a month, quarter, or year.

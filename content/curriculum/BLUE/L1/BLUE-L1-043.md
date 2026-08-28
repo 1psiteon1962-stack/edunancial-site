@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-043
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 43
+title: "What Is a Standard Operating Procedure (SOP)?"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-043: What Is a Standard Operating Procedure (SOP)?
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What an SOP Is
 A Standard Operating Procedure (SOP) is a written, step-by-step document describing exactly how to perform a specific task or process, intended to produce consistent results regardless of who follows it.

@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-039
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 39
+title: "\"What Are Systems in a Business? (Why \\"You\\" Can't Be the Whole Business Forever)\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-039: "What Are Systems in a Business? (Why \"You\" Can't Be the Whole Business Forever)"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What a Business System Is
 A business system is a documented, repeatable process for handling a specific business function — such as onboarding a new customer, fulfilling an order, or handling a complaint — designed so it can be performed consistently by someone other than the owner.

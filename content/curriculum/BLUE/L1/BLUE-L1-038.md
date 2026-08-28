@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-038
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 38
+title: "\"Self-Employed Growth vs. Business Ownership Growth: Why They Hit Different Ceilings\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-038: "Self-Employed Growth vs. Business Ownership Growth: Why They Hit Different Ceilings"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: A Quick Return to BLUE-L1-001
 Recall the core distinction: self-employment means income depends on the owner's personal, hour-by-hour labor; true business ownership means value gets delivered through people, systems, or technology beyond the owner's direct hours.

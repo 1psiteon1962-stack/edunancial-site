@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-047
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 47
+title: "\"What Is a Business Failure, Really? (And Why Walking Away Can Be the Right Call)\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-047: "What Is a Business Failure, Really? (And Why Walking Away Can Be the Right Call)"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Business Failure Actually Means
 Functionally, a business failure simply means the business stopped operating, typically because it couldn't sustain itself financially — it's a description of an outcome, not necessarily a judgment about the people involved or the decisions they made.

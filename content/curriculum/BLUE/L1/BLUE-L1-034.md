@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-034
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 34
+title: "What Is Customer Acquisition Cost?"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-034: What Is Customer Acquisition Cost?
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Customer Acquisition Cost Measures
 Customer acquisition cost (CAC) measures how much money, on average, a business spends to gain one new customer — including marketing spend, advertising, and related costs, divided by the number of new customers gained.

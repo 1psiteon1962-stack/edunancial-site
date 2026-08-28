@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-027
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 27
+title: "\"What Is a Supplier, and Why Does Reliability Matter More Than Price?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-027: "What Is a Supplier, and Why Does Reliability Matter More Than Price?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What a Supplier Relationship Involves
 A supplier provides the raw materials, components, or products a business needs to operate — the relationship typically involves ongoing orders, agreed pricing, and expectations around delivery timing and quality.

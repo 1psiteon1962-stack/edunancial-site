@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-035
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 35
+title: "\"What Is Customer Retention, and Why Is It Usually Cheaper Than New Sales?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-035: "What Is Customer Retention, and Why Is It Usually Cheaper Than New Sales?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Customer Retention Means
 Customer retention refers to a business's ability to keep existing customers buying or subscribing over time, rather than losing them to competitors, disinterest, or dissatisfaction.

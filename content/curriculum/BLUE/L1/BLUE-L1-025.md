@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-025
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 25
+title: "\"What Is a Balance Sheet, in Plain Terms?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-025: "What Is a Balance Sheet, in Plain Terms?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What a Balance Sheet Shows
 A balance sheet is a financial document showing what a business owns (assets), what it owes (liabilities), and the resulting owner's equity, all as of one specific date — a financial "snapshot" rather than a summary of activity over time.

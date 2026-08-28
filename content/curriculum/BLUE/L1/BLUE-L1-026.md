@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-026
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 26
+title: "\"What Is Inventory, and What Does It Cost You to Hold?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-026: "What Is Inventory, and What Does It Cost You to Hold?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Inventory Is
 Inventory refers to the goods a business holds for the purpose of selling to customers — raw materials, work-in-progress, or finished products waiting to be sold. On a balance sheet (BLUE-L1-025), inventory counts as an asset.

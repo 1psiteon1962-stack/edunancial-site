@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-028
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 28
+title: "\"What Is a Minimum Order Quantity (MOQ), and How Can It Block a Good Idea?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-028: "What Is a Minimum Order Quantity (MOQ), and How Can It Block a Good Idea?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What an MOQ Is
 A minimum order quantity is the smallest amount of product a supplier or manufacturer will agree to produce or sell in a single order, regardless of how much a buyer actually wants.

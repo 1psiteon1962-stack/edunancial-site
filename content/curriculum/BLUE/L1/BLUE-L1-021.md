@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-021
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 21
+title: "What Is an EIN (Employer Identification Number)?"
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-021: What Is an EIN (Employer Identification Number)?
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What an EIN Is
 [REGION-SPECIFIC RULE] An Employer Identification Number (EIN) is a unique number issued by the US federal government to identify a business for tax purposes — functioning similarly to how a Social Security Number identifies an individual.

@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-022
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 22
+title: "\"What Is a Business Bank Account, and Why Not Just Use Your Personal One?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-022: "What Is a Business Bank Account, and Why Not Just Use Your Personal One?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What a Business Bank Account Is
 A business bank account is an account held in the business's name, used exclusively for business income and expenses, separate from the owner's personal accounts.

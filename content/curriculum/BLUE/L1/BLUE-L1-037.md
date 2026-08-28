@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-037
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 37
+title: "\"What Is Market Research, and How Do You Do It Without a Big Budget?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-037: "What Is Market Research, and How Do You Do It Without a Big Budget?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Market Research Actually Involves
 Market research is the process of gathering information about a target market's needs, preferences, and behavior — to test whether a business idea actually solves a real problem people will pay for, rather than assuming it does.

@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-040
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 40
+title: "\"What Is Staffing, and When Does a Business Actually Need Its First Hire?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-040: "What Is Staffing, and When Does a Business Actually Need Its First Hire?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Staffing Involves
 Staffing refers to the process of bringing people into a business to perform work — a decision that involves not just finding someone, but having the systems (BLUE-L1-039), cash flow (BLUE-L1-016), and clear tasks needed for that person to succeed.

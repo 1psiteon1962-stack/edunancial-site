@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-042
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 42
+title: "\"What Is Delegation, and Why Is It Harder Than It Sounds?\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-042: "What Is Delegation, and Why Is It Harder Than It Sounds?"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What Delegation Actually Involves
 Delegation means transferring genuine responsibility and authority for a task to someone else — not just handing off the busywork while still making every decision, but actually letting go of direct control over how it gets done.

@@ -1,3 +1,15 @@
+---
+id: BLUE-L1-046
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 46
+title: "\"What Is OPM (Other People's Money)? (Introductory Version — Full Method in Level 3)\""
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # BLUE-L1-046: "What Is OPM (Other People's Money)? (Introductory Version — Full Method in Level 3)"
 
 **Track:** BLUE (Business)
@@ -29,7 +41,7 @@ Beginner (Level 1)
 
 ---
 
-## Main Lesson
+## Core Content
 
 ### Topic 1: What OPM Means, at a Basic Level
 OPM refers to funding a business using money that belongs to other people or institutions — investors, lenders, or partners — rather than exclusively the owner's own personal resources.
