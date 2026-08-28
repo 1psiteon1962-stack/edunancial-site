@@ -71,18 +71,19 @@ test("listAcademies keeps all academies and canonical levels available", () => {
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 0);
+  assert.equal(courses.blue.lessons.length, 50);
 });
 
-test("track and lesson queries distinguish empty registry tracks, published content, and missing lessons", () => {
+test("track and lesson queries expose restored BLUE Level 1 and preserve missing-lesson behavior", () => {
   assert.ok(getTrack("BLUE", "free", "fr-CA"));
-  assert.deepEqual(getLessonsForLevel("BLUE", 1, "free", "fr-CA"), []);
-  assert.equal(getLessonContent("BLUE-L1-001", "fr-CA"), null);
+  assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 50);
+  assert.ok(getLessonContent("BLUE-L1-001", "fr-CA"));
 
   const courses = getLocalizedCourseMap("es");
   assert.deepEqual(courses.red.lessons.slice(0, 3), ["RED-L1-001", "RED-L1-002", "RED-L1-003"]);
   assert.deepEqual(courses.red.lessons.slice(-2), ["RED-L2-001", "RED-L2-002"]);
   assert.equal(courses.red.lessons.length, 52);
+  assert.equal(courses.blue.lessons.length, 50);
 
   assert.equal(getLessonContent("GOLD-L5-999", "es"), null);
 });
@@ -91,12 +92,12 @@ test("test drive lessons are empty when no sample lesson IDs are configured", ()
   assert.deepEqual(getTestDriveLessons("es"), []);
 });
 
-test("localized course map is locale-aware with RED and WHITE published lessons", () => {
+test("localized course map is locale-aware with RED, WHITE, and BLUE published lessons", () => {
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.title, "RED: Bienes raíces");
   assert.equal(courses.white.title, "WHITE: Activos financieros");
   assert.equal(courses.blue.title, "BLUE: Negocios");
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 0);
+  assert.equal(courses.blue.lessons.length, 50);
 });
