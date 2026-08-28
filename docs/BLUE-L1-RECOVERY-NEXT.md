@@ -1,1 +1,0 @@
-BLUE Level 1 recovery is in progress. Canonical lesson blobs are being remapped from the preserved legacy course path into content/curriculum/BLUE/L1. Do not merge PR #503 until all 50 canonical lesson files and current registry metadata are present and all four validation gates pass on the final head.
