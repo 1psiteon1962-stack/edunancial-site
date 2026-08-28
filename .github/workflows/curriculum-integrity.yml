@@ -70,9 +70,9 @@ jobs:
               for src in files:
                   text = src.read_text(encoding='utf-8').replace('\r\n', '\n')
                   first = text.splitlines()[0].strip()
-                  match = re.match(r'#\s+(BLUE-L1-\d{3}):\s*(.+)', first)
+                  match = re.match(r'#\s+(BLUE-L1-\d{3})\s*:\s*(.+)', first)
                   if not match:
-                      raise SystemExit(f'Cannot parse title/id from {src}')
+                      raise SystemExit(f'Cannot parse title/id from {src}: {first}')
                   lesson_id, title = match.groups()
                   number = int(lesson_id.rsplit('-', 1)[1])
                   lines = text.splitlines()
@@ -85,11 +85,10 @@ jobs:
                           if 'contenido principal' in heading or 'contenu principal' in heading:
                               content_heading_seen = True
                           continue
-                      if content_heading_seen and stripped and not stripped.startswith(('#', '-', '*HECHO', '*FAIT', '*SUPOSICIÓN', '*HYPOTHÈSE')):
-                          summary = stripped
-                          break
-                      if content_heading_seen and stripped.startswith(('*HECHO', '*FAIT', '*SUPOSICIÓN', '*HYPOTHÈSE')):
-                          summary = re.sub(r'^\*[^*]+:\*\s*', '', stripped)
+                      if content_heading_seen and stripped:
+                          cleaned = re.sub(r'^\*[^*]+\s*:\*\s*', '', stripped)
+                          cleaned = re.sub(r'^\*[^*]+:\*\s*', '', cleaned)
+                          summary = cleaned or title
                           break
                   if not summary:
                       summary = title
