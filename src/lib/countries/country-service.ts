@@ -31,13 +31,27 @@ export function getCountryByISO(isoCode: string) {
   return countryCatalog.find((country) => country.isoCode === normalized);
 }
 
+export function isCountryLaunchReady(isoCode: string) {
+  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.launchReady);
+}
+
+export function isCountryCommercialReady(isoCode: string) {
+  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.commercialReady);
+}
+
 export function getCountriesForFeature(feature: CountryFeature) {
-  return countryCatalog.filter((country) => country.enabled && country[feature]);
+  return countryCatalog.filter((country) => {
+    if (!country.enabled || !country[feature]) return false;
+    if (feature === "paymentsEnabled") return isCountryCommercialReady(country.isoCode);
+    return true;
+  });
 }
 
 export function isCountryFeatureEnabled(isoCode: string, feature: CountryFeature) {
   const country = getCountryByISO(isoCode);
-  return Boolean(country?.enabled && country[feature]);
+  if (!country?.enabled || !country[feature]) return false;
+  if (feature === "paymentsEnabled") return isCountryCommercialReady(country.isoCode);
+  return true;
 }
 
 /** Countries that have passed every launch-readiness dimension and are beta/live. */
@@ -58,12 +72,4 @@ export function getCommercialReadyCountries() {
       .map((country) => country.isoCode),
   );
   return countryCatalog.filter((country) => ready.has(country.isoCode));
-}
-
-export function isCountryLaunchReady(isoCode: string) {
-  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.launchReady);
-}
-
-export function isCountryCommercialReady(isoCode: string) {
-  return Boolean(getCountryLaunchAssessment(normalizeISO(isoCode))?.commercialReady);
 }
