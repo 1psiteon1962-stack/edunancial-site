@@ -13,19 +13,16 @@ test("production course catalog always includes the three launch tracks", () => 
     courseList.map((course) => course.id),
     ["red", "white", "blue"],
   );
-  // RED has 50 Level 1 lessons plus 2 published Level 2 lessons; WHITE has restored Level 1.
+  // RED has 50 Level 1 lessons plus 2 published Level 2 lessons; WHITE and BLUE have restored Level 1.
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 0);
+  assert.equal(courses.blue.lessons.length, 50);
 });
 
-test("getCoursePrimaryHref resolves to first lesson when RED and WHITE have published lessons", () => {
+test("getCoursePrimaryHref resolves to first lesson for all three launch tracks", () => {
   assert.equal(getCoursePrimaryHref(courses.red), "/courses/red/lessons/RED-L1-001");
   assert.equal(getCoursePrimaryHref(courses.white), "/courses/white/lessons/WHITE-L1-001");
-});
-
-test("getCoursePrimaryHref falls back to the course page when lessons are not published", () => {
-  assert.equal(getCoursePrimaryHref(courses.blue), "/courses/blue");
+  assert.equal(getCoursePrimaryHref(courses.blue), "/courses/blue/lessons/BLUE-L1-001");
 });
 
 test("getCoursePrimaryHref falls back to the track page when a course has no lessons", () => {
