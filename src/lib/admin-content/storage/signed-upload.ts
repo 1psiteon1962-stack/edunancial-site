@@ -14,6 +14,10 @@ type SignedUploadOptions = {
  * The service-role credential is used only on the server and is never returned.
  * Optional overrides let trusted server routes target dedicated private buckets
  * without duplicating service-role upload logic.
+ *
+ * Uploads fail closed against accidental object replacement by default. A
+ * trusted server caller must explicitly opt into upsert behavior when replacing
+ * an existing object is intentional.
  */
 export async function createAdminSignedUploadUrl(
   storagePath: string,
@@ -35,7 +39,7 @@ export async function createAdminSignedUploadUrl(
 
   const { data, error } = await supabase.storage
     .from(bucket)
-    .createSignedUploadUrl(objectPath, { upsert: options.upsert ?? true });
+    .createSignedUploadUrl(objectPath, { upsert: options.upsert ?? false });
 
   if (error) {
     throw new Error(`Supabase could not create a signed upload URL: ${error.message}`);
