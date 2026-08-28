@@ -31,7 +31,7 @@ on:
       - 'package-lock.json'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   curriculum-integrity:
@@ -40,6 +40,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -49,6 +51,76 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Recover preserved BLUE translations
+        if: github.event_name == 'push' && github.ref == 'refs/heads/recover/blue-l1-translations' && github.actor != 'github-actions[bot]'
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('content/courses/blue/level-1')
+          out = Path('content/curriculum/BLUE/L1')
+          locale_map = {'es_es': 'es-ES', 'fr_ca': 'fr-CA', 'fr_fr': 'fr-FR'}
+
+          for source_dir, locale in locale_map.items():
+              files = sorted((root / source_dir).glob('*.md'))
+              if len(files) != 50:
+                  raise SystemExit(f'{source_dir}: expected 50 files, found {len(files)}')
+              for src in files:
+                  text = src.read_text(encoding='utf-8').replace('\r\n', '\n')
+                  first = text.splitlines()[0].strip()
+                  match = re.match(r'#\s+(BLUE-L1-\d{3}):\s*(.+)', first)
+                  if not match:
+                      raise SystemExit(f'Cannot parse title/id from {src}')
+                  lesson_id, title = match.groups()
+                  number = int(lesson_id.rsplit('-', 1)[1])
+                  lines = text.splitlines()
+                  summary = ''
+                  content_heading_seen = False
+                  for line in lines[1:]:
+                      stripped = line.strip()
+                      if stripped.startswith('## '):
+                          heading = stripped[3:].lower()
+                          if 'contenido principal' in heading or 'contenu principal' in heading:
+                              content_heading_seen = True
+                          continue
+                      if content_heading_seen and stripped and not stripped.startswith(('#', '-', '*HECHO', '*FAIT', '*SUPOSICIÓN', '*HYPOTHÈSE')):
+                          summary = stripped
+                          break
+                      if content_heading_seen and stripped.startswith(('*HECHO', '*FAIT', '*SUPOSICIÓN', '*HYPOTHÈSE')):
+                          summary = re.sub(r'^\*[^*]+:\*\s*', '', stripped)
+                          break
+                  if not summary:
+                      summary = title
+                  summary = summary.replace('"', '\\"')
+                  safe_title = title.replace('"', '\\"')
+                  front = (
+                      '---\n'
+                      f'id: {lesson_id}\n'
+                      'track: BLUE\n'
+                      'officialTrackName: Business\n'
+                      'level: 1\n'
+                      f'lessonNumber: {number}\n'
+                      f'locale: {locale}\n'
+                      f'title: "{safe_title}"\n'
+                      f'summary: "{summary}"\n'
+                      'version: "1.0"\n'
+                      'author: Waldemar M. Caban, JD MA\n'
+                      'date: 2026-08-08\n'
+                      '---\n\n'
+                  )
+                  (out / f'{lesson_id}.{locale}.md').write_text(front + text + '\n', encoding='utf-8')
+          PY
+          npm run curriculum:localization
+          npm run curriculum:inventory
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/curriculum/BLUE/L1 curriculum/inventory.json curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.json curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Recover preserved BLUE Level 1 translations"
+            git push origin HEAD:recover/blue-l1-translations
+          fi
 
       - name: Run curriculum unit tests
         run: npm run curriculum:test
