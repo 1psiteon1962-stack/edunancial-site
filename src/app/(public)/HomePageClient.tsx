@@ -6,8 +6,8 @@ import { useInternationalPreferences } from "@/components/international/Internat
 import { getHomeMarketingCopy } from "@/lib/international/home-marketing-copy";
 
 export default function HomePageClient() {
-  const { preferences, t } = useInternationalPreferences();
-  const copy = getHomeMarketingCopy(preferences.language);
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const copy = getHomeMarketingCopy(effectiveLanguage);
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
