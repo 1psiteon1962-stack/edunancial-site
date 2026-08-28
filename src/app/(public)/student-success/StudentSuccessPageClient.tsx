@@ -1,12 +1,12 @@
 "use client";
 
-import Link from "next/link";
-
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import ComingSoon from "@/components/ComingSoon";
+import { getSuccessPageCopy } from "@/lib/international/success-page-copy";
 
 export default function StudentSuccessPageClient() {
-  const { t } = useInternationalPreferences();
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const copy = getSuccessPageCopy(effectiveLanguage);
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
@@ -14,7 +14,7 @@ export default function StudentSuccessPageClient() {
         <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-400">
           {t("comingSoon.label")}
         </p>
-        <h1 className="mt-6 text-5xl font-black">Student Success</h1>
+        <h1 className="mt-6 text-5xl font-black">{copy.studentSuccessHeading}</h1>
 
         <div className="mt-16">
           <ComingSoon
