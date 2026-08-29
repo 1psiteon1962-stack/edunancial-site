@@ -13,7 +13,11 @@ export const DEFAULT_MAX_EXTRACTED_BYTES = 500 * 1024 * 1024;
 export const DEFAULT_MAX_COMPRESSION_RATIO = 120;
 export const DEFAULT_SESSION_MAX_AGE_SECONDS = 60 * 60 * 8;
 export const DEFAULT_LOGIN_RATE_LIMIT = { maxRequests: 5, windowMs: 15 * 60 * 1000 };
-export const DEFAULT_UPLOAD_RATE_LIMIT = { maxRequests: 10, windowMs: 15 * 60 * 1000 };
+// Direct-to-storage bulk uploads finalize each stored package independently so a
+// single slow ZIP cannot invalidate the entire delivery. This is admin-only and
+// still protected by session + CSRF checks, so allow enough requests for a large
+// curriculum delivery while retaining an abuse ceiling.
+export const DEFAULT_UPLOAD_RATE_LIMIT = { maxRequests: 100, windowMs: 15 * 60 * 1000 };
 export const DEFAULT_BULK_DELETE_LIMIT = 100;
 export const DEFAULT_FAILED_BATCH_DELETE_LIMIT = 250;
 export const WORKSPACE_CLEAR_CONFIRMATION = "DELETE ALL WORKSPACE CONTENT";
