@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { getRegionalActivationReadiness } from "@/lib/regions/activation-readiness";
 import { REGION_ARCHITECTURE, type RegionLaunchState } from "@/lib/regions/architecture";
 import { createClient } from "@supabase/supabase-js";
 
@@ -52,23 +53,39 @@ export async function POST(request: NextRequest) {
 
   const body = (await request.json()) as { countryCode?: string; launchState?: RegionLaunchState; reason?: string };
   const countryCode = body.countryCode?.trim().toUpperCase();
+  const launchState = body.launchState as RegionLaunchState;
   const allowed: RegionLaunchState[] = ["ACTIVE", "PRIVATE", "BETA", "DISABLED"];
-  if (!countryCode || !allowed.includes(body.launchState as RegionLaunchState)) {
+  if (!countryCode || !allowed.includes(launchState)) {
     return NextResponse.json({ error: "Valid countryCode and launchState are required." }, { status: 400 });
   }
   const canonical = canonicalCountries().find((country) => country.countryCode === countryCode);
   if (!canonical) return NextResponse.json({ error: "Country is not in the canonical regional registry." }, { status: 404 });
+
+  // Activation is fail-closed. A future country cannot become commercially
+  // reachable merely because an administrator changes a database flag.
+  // ACTIVE/BETA requires approved pricing plus a live, correctly identified
+  // independent segment runtime. PRIVATE/DISABLED always remain available as
+  // emergency isolation controls even when dependencies are unhealthy.
+  if (launchState === "ACTIVE" || launchState === "BETA") {
+    const readiness = await getRegionalActivationReadiness(countryCode);
+    if (!readiness.ok) {
+      return NextResponse.json(
+        { error: "Country activation blocked by regional isolation readiness.", readiness },
+        { status: 409 },
+      );
+    }
+  }
 
   const db = getAdminDb();
   const { error } = await db.from("country_launch_controls").upsert({
     country_code: countryCode,
     country_name: canonical.countryName,
     region_code: canonical.regionCode,
-    launch_state: body.launchState,
+    launch_state: launchState,
     reason: body.reason?.trim() || null,
     updated_by: auth.session.email,
     updated_at: new Date().toISOString(),
   });
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-  return NextResponse.json({ ok: true, countryCode, launchState: body.launchState });
+  return NextResponse.json({ ok: true, countryCode, launchState });
 }
