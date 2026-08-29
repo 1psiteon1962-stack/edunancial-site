@@ -6,6 +6,7 @@ import {
   CURRICULUM_TRANSLATION_TARGET_LOCALES,
   PUBLIC_CURRICULUM_TRACK_CODES,
 } from "@/lib/curriculum/localization";
+import { getBaseLanguageCode } from "@/lib/international/languages";
 
 export interface TranslationLocaleReadiness {
   locale: string;
@@ -46,15 +47,15 @@ function hasTranslatedBody(
 /**
  * Measures whether the actual lesson body is translated. UI chrome, academy
  * names, titles, and summaries do not count as a completed lesson translation.
- * This prevents the admin dashboard from reporting a locale complete when the
- * public lesson is still falling back to English.
+ * English variants are represented by the canonical English curriculum and are
+ * therefore not counted as translation targets.
  */
 export async function getCurriculumTranslationReadiness(
   level = 1,
   expectedLessonsPerTrack = 50,
 ): Promise<CurriculumTranslationReadinessReport> {
   const targetLocales = Array.from(
-    new Set(CURRICULUM_TRANSLATION_TARGET_LOCALES.filter((locale) => locale !== "en")),
+    new Set(CURRICULUM_TRANSLATION_TARGET_LOCALES.filter((locale) => getBaseLanguageCode(locale) !== "en")),
   );
 
   const englishTracks = await getPublishedTracks("en");
@@ -70,7 +71,6 @@ export async function getCurriculumTranslationReadiness(
     const englishTrack = englishTracks.find((track) => track.code === trackCode);
     const canonicalLessons = (englishTrack?.levels ?? [])
       .find((entry) => entry.level === level)?.lessons ?? [];
-    const canonicalById = byId(canonicalLessons);
 
     const locales = targetLocales.map((locale) => {
       const localizedTrack = localizedTracksByLocale
