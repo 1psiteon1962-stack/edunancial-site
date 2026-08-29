@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "curriculum:import": "node scripts/curriculum/import.mjs",
+    "curriculum:bulk-import": "node scripts/curriculum/bulk-import.mjs",
     "curriculum:validate": "node scripts/curriculum/validate.mjs",
     "curriculum:audit": "node scripts/curriculum/audit.mjs",
     "curriculum:localization": "node scripts/curriculum/localization-report.mjs",
