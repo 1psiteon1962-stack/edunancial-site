@@ -49,13 +49,23 @@ function hasTranslatedBody(
  * names, titles, and summaries do not count as a completed lesson translation.
  * English variants are represented by the canonical English curriculum and are
  * therefore not counted as translation targets.
+ *
+ * targetLocaleScope can be supplied for a regional launch gate (for example,
+ * North America) without weakening or replacing the full global readiness view.
  */
 export async function getCurriculumTranslationReadiness(
   level = 1,
   expectedLessonsPerTrack = 50,
+  targetLocaleScope?: readonly string[],
 ): Promise<CurriculumTranslationReadinessReport> {
+  const requestedLocales = targetLocaleScope ?? CURRICULUM_TRANSLATION_TARGET_LOCALES;
+  const supportedLocaleSet = new Set(CURRICULUM_TRANSLATION_TARGET_LOCALES);
   const targetLocales = Array.from(
-    new Set(CURRICULUM_TRANSLATION_TARGET_LOCALES.filter((locale) => getBaseLanguageCode(locale) !== "en")),
+    new Set(
+      requestedLocales.filter(
+        (locale) => supportedLocaleSet.has(locale) && getBaseLanguageCode(locale) !== "en",
+      ),
+    ),
   );
 
   const englishTracks = await getPublishedTracks("en");
