@@ -7,6 +7,8 @@ import { type StoredUploadEntry } from "@/lib/admin-content/service";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
+import { createId } from "@/lib/admin-content/utils";
+import { getKpiSupabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -21,6 +23,33 @@ type FinalizeBody = {
   [key: string]: unknown;
 };
 
+type FinalizeFailure = {
+  uploadId: string;
+  filename: string;
+  error: string;
+};
+
+async function getFinalizedUploadIds(batchId: string): Promise<Set<string>> {
+  const db = getKpiSupabaseAdmin();
+  const { data, error } = await db
+    .from("admin_upload_operations")
+    .select("upload_id")
+    .eq("batch_id", batchId)
+    .eq("phase", "FINALIZE")
+    .eq("status", "SUCCEEDED");
+
+  if (error) {
+    console.warn("[finalize] unable to read prior finalization audit", error.message);
+    return new Set();
+  }
+
+  return new Set(
+    ((data ?? []) as Array<{ upload_id: string | null }>)
+      .map((row) => row.upload_id)
+      .filter((value): value is string => Boolean(value)),
+  );
+}
+
 export async function POST(request: NextRequest) {
   let batchId: string | null = null;
   try {
@@ -32,13 +61,6 @@ export async function POST(request: NextRequest) {
     const { uploads } = body;
     if (!batchId) throw new Error("batchId is required.");
     if (!Array.isArray(uploads) || !uploads.length) throw new Error("No uploaded files provided.");
-
-    await recordUploadOperation({
-      batchId,
-      phase: "FINALIZE",
-      status: "STARTED",
-      metadata: { fileCount: uploads.length },
-    });
 
     const configFormData = new FormData();
     for (const [key, value] of Object.entries(body)) {
@@ -53,73 +75,137 @@ export async function POST(request: NextRequest) {
         configFormData.append(key, String(value));
       }
     }
-
     const uploadConfig = parseUploadConfig(configFormData);
-
-    const packageIdentities = uploadConfig.destination === "courses"
-      ? uploads.map((upload) => ({
-          uploadId: upload.uploadId,
-          filename: upload.originalFilename,
-          ...inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language),
-        }))
-      : [];
-
-    if (packageIdentities.length > 0) {
-      await recordUploadOperation({
-        batchId,
-        phase: "FINALIZE",
-        status: "STARTED",
-        metadata: {
-          fileCount: uploads.length,
-          defaultLanguage: uploadConfig.language,
-          curriculumPackages: packageIdentities.map((identity) => ({
-            uploadId: identity.uploadId,
-            filename: identity.filename,
-            track: identity.track,
-            level: identity.level,
-            language: identity.language,
-            title: identity.title,
-          })),
-        },
-      });
-    }
-
-    const createdBatch = await createIndependentUploadBatchFromStoredFiles(
-      request,
-      toActor(auth.session),
-      {
-        batchId,
-        batchName: String(body.batchName ?? ""),
-        source: String(body.source ?? ""),
-        notes: String(body.notes ?? ""),
-        uploadConfig,
-        uploads,
-      },
-    );
-    const batch = await normalizeMixedLocaleBatch(createdBatch);
-
-    if (batch.uploads.length === 0 || batch.files.length === 0) {
-      const detail = batch.warnings.length
-        ? batch.warnings.join(" | ")
-        : "No reviewable files were produced from the uploaded object(s).";
-      throw new Error(`Uploaded file reached storage but could not be processed: ${detail}`);
-    }
+    const alreadyFinalized = await getFinalizedUploadIds(batchId);
+    const batches = [] as Awaited<ReturnType<typeof normalizeMixedLocaleBatch>>[];
+    const failures: FinalizeFailure[] = [];
+    let skipped = 0;
 
     await recordUploadOperation({
       batchId,
       phase: "FINALIZE",
-      status: "SUCCEEDED",
+      status: "STARTED",
       metadata: {
         fileCount: uploads.length,
-        reviewableFiles: batch.files.length,
-        independentlyClassifiedPackages: packageIdentities.length,
-        defaultLanguage: uploadConfig.language,
+        mode: "package-by-package",
+        alreadyFinalized: alreadyFinalized.size,
+      },
+    });
+
+    for (const upload of uploads) {
+      if (alreadyFinalized.has(upload.uploadId)) {
+        skipped += 1;
+        continue;
+      }
+
+      const packageIdentity = uploadConfig.destination === "courses"
+        ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language)
+        : null;
+      const reviewBatchId = createId("batch");
+
+      await recordUploadOperation({
+        batchId,
+        uploadId: upload.uploadId,
+        phase: "FINALIZE",
+        status: "STARTED",
+        storagePath: upload.storagePath,
+        fileName: upload.originalFilename,
+        fileSize: upload.sizeBytes,
+        metadata: {
+          mode: "isolated-package",
+          reviewBatchId,
+          packageIdentity,
+        },
+      });
+
+      try {
+        const createdBatch = await createIndependentUploadBatchFromStoredFiles(
+          request,
+          toActor(auth.session),
+          {
+            batchId: reviewBatchId,
+            batchName: `${String(body.batchName ?? "Content upload")} — ${upload.originalFilename}`,
+            source: String(body.source ?? ""),
+            notes: String(body.notes ?? ""),
+            uploadConfig,
+            uploads: [upload],
+          },
+        );
+        const batch = await normalizeMixedLocaleBatch(createdBatch);
+
+        if (batch.uploads.length === 0 || batch.files.length === 0) {
+          const detail = batch.warnings.length
+            ? batch.warnings.join(" | ")
+            : "No reviewable files were produced from the uploaded object.";
+          throw new Error(`Uploaded file reached storage but could not be processed: ${detail}`);
+        }
+
+        batches.push(batch);
+        await recordUploadOperation({
+          batchId,
+          uploadId: upload.uploadId,
+          phase: "FINALIZE",
+          status: "SUCCEEDED",
+          storagePath: upload.storagePath,
+          fileName: upload.originalFilename,
+          fileSize: upload.sizeBytes,
+          metadata: {
+            mode: "isolated-package",
+            reviewBatchId: batch.id,
+            reviewableFiles: batch.files.length,
+            packageIdentity,
+          },
+        });
+      } catch (error) {
+        const err = error as Error;
+        failures.push({ uploadId: upload.uploadId, filename: upload.originalFilename, error: err.message });
+        await recordUploadOperation({
+          batchId,
+          uploadId: upload.uploadId,
+          phase: "FINALIZE",
+          status: "FAILED",
+          storagePath: upload.storagePath,
+          fileName: upload.originalFilename,
+          fileSize: upload.sizeBytes,
+          errorCode: err.name,
+          errorMessage: err.message,
+          metadata: { mode: "isolated-package", reviewBatchId },
+        });
+      }
+    }
+
+    if (batches.length === 0 && failures.length > 0) {
+      throw new Error(`No packages finalized successfully. ${failures.map((failure) => `${failure.filename}: ${failure.error}`).join(" | ")}`);
+    }
+
+    await recordUploadOperation({
+      batchId,
+      phase: "VERIFY",
+      status: failures.length ? "FAILED" : "SUCCEEDED",
+      metadata: {
+        mode: "package-by-package",
+        requested: uploads.length,
+        finalizedNow: batches.length,
+        skippedAlreadyFinalized: skipped,
+        failed: failures.length,
+        reviewBatchIds: batches.map((batch) => batch.id),
       },
     });
 
     return Response.json(
-      { success: true, batch },
-      { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } },
+      {
+        success: failures.length === 0,
+        partial: failures.length > 0,
+        batch: batches[0] ?? null,
+        batches,
+        finalizedCount: batches.length,
+        skippedCount: skipped,
+        failures,
+      },
+      {
+        status: failures.length ? 207 : 201,
+        headers: { "Cache-Control": "private, no-store, max-age=0" },
+      },
     );
   } catch (error) {
     const err = error as Error;
