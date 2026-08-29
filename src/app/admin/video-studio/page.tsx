@@ -24,7 +24,7 @@ export default async function VideoStudioPage() {
             <Link href="/admin/dashboard" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">
               Command Center
             </Link>
-            <Link href="/admin/uploads" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">
+            <Link href="/admin/content/bulk" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">
               Bulk Content Upload
             </Link>
           </div>
