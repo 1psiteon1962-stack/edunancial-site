@@ -13,6 +13,7 @@ export default function RecoveryClient() {
   const [loading, setLoading] = useState(true);
   const [active, setActive] = useState<string | null>(null);
   const [error, setError] = useState("");
+  const [progress, setProgress] = useState("");
 
   async function load() {
     setLoading(true);
@@ -36,18 +37,24 @@ export default function RecoveryClient() {
 
   useEffect(() => { void load(); }, []);
 
+  async function recoverRequest(batchId: string, uploadId: string) {
+    const response = await fetch("/api/admin/content/upload/recover", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
+      body: JSON.stringify({ batchId, uploadId }),
+    });
+    const payload = await response.json();
+    if (!response.ok) throw new Error(payload.error ?? "Recovery failed.");
+    return payload;
+  }
+
   async function recover(batchId: string, uploadId: string) {
     const key = `${batchId}:${uploadId}`;
     setActive(key);
     setError("");
+    setProgress("");
     try {
-      const response = await fetch("/api/admin/content/upload/recover", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
-        body: JSON.stringify({ batchId, uploadId }),
-      });
-      const payload = await response.json();
-      if (!response.ok) throw new Error(payload.error ?? "Recovery failed.");
+      const payload = await recoverRequest(batchId, uploadId);
       router.push(`/admin/content/batches/${payload.batch.id}`);
       router.refresh();
     } catch (err) {
@@ -58,6 +65,31 @@ export default function RecoveryClient() {
     }
   }
 
+  async function recoverAll() {
+    const queue = batches.flatMap((batch) => batch.uploads.map((upload) => ({ batchId: batch.batchId, upload })));
+    if (!queue.length) return;
+    setActive("all");
+    setError("");
+    let recovered = 0;
+    try {
+      for (const item of queue) {
+        setProgress(`Recovering ${recovered + 1} of ${queue.length}: ${item.upload.originalFilename}`);
+        await recoverRequest(item.batchId, item.upload.uploadId);
+        recovered += 1;
+      }
+      setProgress(`Recovered ${recovered} stored package${recovered === 1 ? "" : "s"} into draft review.`);
+      await load();
+      router.refresh();
+    } catch (err) {
+      setError(`${(err as Error).message} ${recovered} of ${queue.length} packages were recovered before the error.`);
+      await load();
+    } finally {
+      setActive(null);
+    }
+  }
+
+  const totalUploads = batches.reduce((sum, batch) => sum + batch.uploads.length, 0);
+
   if (loading) return <p className="text-sm text-slate-400">Checking for interrupted stored uploads...</p>;
 
   return (
@@ -65,10 +97,14 @@ export default function RecoveryClient() {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-black text-amber-100">Recover interrupted uploads</h2>
-          <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery processes one stored package at a time into draft review without uploading it again.</p>
+          <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery processes stored packages sequentially into draft review without uploading them again.</p>
         </div>
-        <button type="button" onClick={() => void load()} className="rounded-lg border border-white/15 px-3 py-2 text-sm font-semibold">Refresh</button>
+        <div className="flex flex-wrap gap-2">
+          {totalUploads > 0 ? <button type="button" disabled={Boolean(active)} onClick={() => void recoverAll()} className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === "all" ? "Recovering all..." : `Recover all ${totalUploads} stored ZIP${totalUploads === 1 ? "" : "s"}`}</button> : null}
+          <button type="button" disabled={Boolean(active)} onClick={() => void load()} className="rounded-lg border border-white/15 px-3 py-2 text-sm font-semibold disabled:opacity-50">Refresh</button>
+        </div>
       </div>
+      {progress ? <p className="mt-4 rounded-lg bg-slate-950/40 p-3 text-sm text-slate-200">{progress}</p> : null}
       {error ? <p className="mt-4 rounded-lg bg-red-950/50 p-3 text-sm text-red-200">{error}</p> : null}
       {!batches.length ? <p className="mt-4 text-sm text-emerald-200">No interrupted stored uploads currently need recovery.</p> : null}
       <div className="mt-4 space-y-4">
