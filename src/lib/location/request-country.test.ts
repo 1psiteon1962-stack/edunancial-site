@@ -1,30 +1,30 @@
-import { describe, expect, it } from "vitest";
+import assert from "node:assert/strict";
+import { describe, test } from "node:test";
 
 import { detectTrustedRequestCountry, resolveRequestCountry } from "./request-country";
 
 describe("request country resolution", () => {
-  it("prefers Netlify country geography", () => {
+  test("prefers Netlify country geography", () => {
     const headers = new Headers({ "x-nf-country": "CO" });
-    expect(detectTrustedRequestCountry(headers)).toEqual({ countryCode: "CO", source: "netlify-country" });
+    assert.deepEqual(detectTrustedRequestCountry(headers), { countryCode: "CO", source: "netlify-country" });
   });
 
-  it("reads Netlify geo JSON when country header is unavailable", () => {
+  test("reads Netlify geo JSON when country header is unavailable", () => {
     const headers = new Headers({ "x-nf-geo": JSON.stringify({ country: { code: "BR" } }) });
-    expect(detectTrustedRequestCountry(headers)).toEqual({ countryCode: "BR", source: "netlify-geo" });
+    assert.deepEqual(detectTrustedRequestCountry(headers), { countryCode: "BR", source: "netlify-geo" });
   });
 
-  it("surfaces client and network country mismatch", () => {
+  test("surfaces client and network country mismatch", () => {
     const headers = new Headers({ "x-nf-country": "MX" });
-    expect(resolveRequestCountry(headers, "US")).toMatchObject({
-      countryCode: "MX",
-      detectedCountryCode: "MX",
-      requestedCountryCode: "US",
-      mismatch: true,
-    });
+    const result = resolveRequestCountry(headers, "US");
+    assert.equal(result?.countryCode, "MX");
+    assert.equal(result?.detectedCountryCode, "MX");
+    assert.equal(result?.requestedCountryCode, "US");
+    assert.equal(result?.mismatch, true);
   });
 
-  it("uses explicit client country only when trusted network geography is absent", () => {
-    expect(resolveRequestCountry(new Headers(), "CA")).toEqual({
+  test("uses explicit client country only when trusted network geography is absent", () => {
+    assert.deepEqual(resolveRequestCountry(new Headers(), "CA"), {
       countryCode: "CA",
       source: "client",
       detectedCountryCode: null,
@@ -33,7 +33,7 @@ describe("request country resolution", () => {
     });
   });
 
-  it("never invents a default country", () => {
-    expect(resolveRequestCountry(new Headers())).toBeNull();
+  test("never invents a default country", () => {
+    assert.equal(resolveRequestCountry(new Headers()), null);
   });
 });
