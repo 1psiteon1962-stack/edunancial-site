@@ -57,7 +57,12 @@ async function getRecoverableUploads(batchId: string): Promise<StoredUploadEntry
 }
 
 export async function GET(request: NextRequest) {
-  const auth = await requireAdminApiSession(request, true);
+  // This endpoint only inspects recovery state. It must require an authenticated
+  // admin session, but GET is not state-changing and therefore must not require
+  // a CSRF header. Requiring CSRF here caused the upload page to display
+  // "Invalid CSRF token" immediately after refresh because the recovery status
+  // request is made while the client is still loading the session token.
+  const auth = await requireAdminApiSession(request, false);
   if (!auth.ok) return auth.response;
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db.from("admin_upload_operations").select("batch_id,phase,status,error_message,metadata").eq("phase", "FINALIZE").in("status", ["STARTED", "FAILED"]).limit(100);
