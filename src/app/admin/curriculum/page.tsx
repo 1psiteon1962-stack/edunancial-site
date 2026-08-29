@@ -85,7 +85,7 @@ export default async function CurriculumDashboardPage() {
               href="/admin/curriculum/translation-readiness"
               className="rounded-xl bg-emerald-700 px-5 py-3 text-sm font-bold text-white hover:bg-emerald-600 transition"
             >
-              L1 Translation Readiness
+              Translation Readiness · L1–L5
             </Link>
             <Link
               href="/curriculum"
