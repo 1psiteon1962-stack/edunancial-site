@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import DiagnosticsPanel from "@/components/admin-content/DiagnosticsPanel";
+import RecoveryClient from "@/components/admin-content/RecoveryClient";
 import UploadClient from "@/components/admin-content/UploadClient";
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
 
@@ -19,6 +20,9 @@ export default async function AdminContentUploadPage() {
         </div>
         <div className="mt-8">
           <DiagnosticsPanel />
+        </div>
+        <div className="mt-8">
+          <RecoveryClient />
         </div>
         <div className="mt-8">
           <UploadClient />
