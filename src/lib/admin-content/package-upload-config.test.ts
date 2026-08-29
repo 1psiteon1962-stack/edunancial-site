@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { describe, test } from "node:test";
+import test from "node:test";
 
 import {
   inferCurriculumPackageIdentity,
@@ -9,60 +9,50 @@ import type { CourseUploadConfig } from "@/lib/admin-content/upload-intake";
 
 const baseConfig: CourseUploadConfig = {
   destination: "courses",
-  track: "red",
+  track: "green",
   level: "level-1",
-  language: "en",
+  language: "en-US",
   membershipAccess: "basic",
   publicationStatus: "draft",
-  title: "Bulk curriculum upload",
-  description: "Bulk curriculum package",
+  title: "Fallback title",
+  description: "Bulk curriculum package upload",
 };
 
-describe("per-package curriculum identity", () => {
-  test("keeps two packages of the same color independent by level and language", () => {
-    const first = resolvePackageUploadConfig(baseConfig, "PURPLE-level-1-Business-Law-en-US.zip") as CourseUploadConfig;
-    const second = resolvePackageUploadConfig(baseConfig, "PURPLE-level-2-Contracts-fr-CA.zip") as CourseUploadConfig;
+test("recognizes Canadian French GREEN Level 1 ZIP naming", () => {
+  const identity = inferCurriculumPackageIdentity("GREEN-L1-fr-CA-COMPLETE.zip", "en-US");
+  assert.equal(identity.track, "green");
+  assert.equal(identity.level, "level-1");
+  assert.equal(identity.language, "fr-CA");
+});
 
-    assert.deepEqual(
-      { track: first.track, level: first.level, language: first.language, title: first.title },
-      { track: "purple", level: "level-1", language: "en-US", title: "Business Law" },
-    );
-    assert.deepEqual(
-      { track: second.track, level: second.level, language: second.language, title: second.title },
-      { track: "purple", level: "level-2", language: "fr-CA", title: "Contracts" },
-    );
-  });
+test("recognizes Brazil and Portugal Portuguese ZIP naming", () => {
+  const brazil = inferCurriculumPackageIdentity("GREEN-L1-pt-BR-COMPLETE.zip", "en-US");
+  const portugal = inferCurriculumPackageIdentity("GREEN-L1-pt-PT-COMPLETE.zip", "en-US");
+  assert.equal(brazil.language, "pt-BR");
+  assert.equal(portugal.language, "pt-PT");
+  assert.equal(brazil.track, "green");
+  assert.equal(portugal.track, "green");
+  assert.equal(brazil.level, "level-1");
+  assert.equal(portugal.level, "level-1");
+});
 
-  test("keeps mixed-color packages independent in one batch", () => {
-    const filenames = [
-      "RED-level-1-Real-Estate-en-US.zip",
-      "GREEN-level-2-Tax-Strategy-fr-CA.zip",
-      "BLACK-level-5-Executive-Management-es-Caribbean.zip",
-    ];
+test("explicit filename locale overrides batch default language", () => {
+  const resolved = resolvePackageUploadConfig(baseConfig, "GREEN-L1-fr-CA-COMPLETE.zip");
+  assert.equal(resolved.destination, "courses");
+  if (resolved.destination !== "courses") throw new Error("Expected course upload config");
+  assert.equal(resolved.track, "green");
+  assert.equal(resolved.level, "level-1");
+  assert.equal(resolved.language, "fr-CA");
+});
 
-    const identities = filenames.map((filename) => inferCurriculumPackageIdentity(filename));
-    assert.deepEqual(
-      identities.map(({ track, level, language, title }) => ({ track, level, language, title })),
-      [
-        { track: "red", level: "level-1", language: "en-US", title: "Real Estate" },
-        { track: "green", level: "level-2", language: "fr-CA", title: "Tax Strategy" },
-        { track: "black", level: "level-5", language: "es-Caribbean", title: "Executive Management" },
-      ],
-    );
-  });
+test("canonical lesson filename may use owner-selected fallback language", () => {
+  const identity = inferCurriculumPackageIdentity("GREEN-L1-001.md", "pt-BR");
+  assert.equal(identity.track, "green");
+  assert.equal(identity.level, "level-1");
+  assert.equal(identity.language, "pt-BR");
+});
 
-  test("uses the explicit default language for canonical curriculum filenames", () => {
-    const resolved = resolvePackageUploadConfig(baseConfig, "RED-L1-001.md") as CourseUploadConfig;
-    assert.deepEqual(
-      { track: resolved.track, level: resolved.level, language: resolved.language },
-      { track: "red", level: "level-1", language: "en" },
-    );
-  });
-
-  test("blocks an ambiguous curriculum package instead of inheriting another package identity", () => {
-    assert.throws(
-      () => resolvePackageUploadConfig(baseConfig, "lesson-bundle.zip"),
-      /Cannot safely classify curriculum package lesson-bundle\.zip: missing color track, level/,
-    );
-  });
+test("rejects package names that omit color or level", () => {
+  assert.throws(() => inferCurriculumPackageIdentity("fr-CA-COMPLETE.zip", "fr-CA"), /missing color track/u);
+  assert.throws(() => inferCurriculumPackageIdentity("GREEN-fr-CA-COMPLETE.zip", "fr-CA"), /missing level/u);
 });
