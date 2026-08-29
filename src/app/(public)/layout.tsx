@@ -1,4 +1,5 @@
 import { InternationalPreferencesProvider } from "@/components/international/InternationalPreferencesProvider";
+import NetworkCountrySync from "@/components/international/NetworkCountrySync";
 import { Providers } from "@/components/Providers";
 import { AILearningProvider } from "@/components/ai-learning/AILearningProvider";
 import SiteChrome from "@/components/layout/SiteChrome";
@@ -14,6 +15,7 @@ export default async function PublicLayout({
   return (
     <Providers>
       <InternationalPreferencesProvider initialLanguage={initialLanguage}>
+        <NetworkCountrySync />
         <AILearningProvider>
           <SiteChrome>{children}</SiteChrome>
         </AILearningProvider>

@@ -50,7 +50,7 @@ test("payment-link route preserves membership checkout and persists initiation",
   }, persistedBodies);
 
   const { POST } = await import("../../app/api/square/payment-link/route.js");
-  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ itemId: "membership-basic-monthly", customerEmail: "Member@Example.com" }) }));
+  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json", "x-nf-country": "US" }, body: JSON.stringify({ itemId: "membership-basic-monthly", customerEmail: "Member@Example.com" }) }));
   assert.equal(response.status, 200);
   assert.ok(capturedPayload);
   const order = (capturedPayload as Record<string, unknown>).order as { metadata: Record<string, string> };
@@ -72,13 +72,13 @@ test("webhook route still rejects invalid signatures when verified checkout is e
   assert.equal(response.status, 401); const body = (await response.json()) as { success: boolean; error: string; requestId: string }; assert.equal(body.success, false); assert.equal(body.error, "Invalid signature"); assert.ok(body.requestId.length > 0);
 });
 
-// TEMPORARY TEST ITEM — Square payment verification only, remove before next production content push
+// OWNER QA ITEM — keep the $1 Square verification path until the owner explicitly requests removal.
 test("payment-link route accepts square-payment-test-001, sends 100 cents, and persists the Square order", async () => {
   let capturedUrl: string | null = null, capturedPayload: Record<string, unknown> | null = null;
   const persistedBodies: Record<string, unknown>[] = [];
   globalThis.fetch = countryAwareFetch(async (input, init) => { capturedUrl = String(input); capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>; return new Response(JSON.stringify({ payment_link: { id: "square-link-1", order_id: "square-order-1", url: "https://checkout.squareup.com/c/pay/test-link" } }), { status: 200, headers: { "Content-Type": "application/json" } }); }, persistedBodies);
   const { POST } = await import("../../app/api/square/payment-link/route.js");
-  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ itemId: "square-payment-test-001" }) }));
+  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json", "x-nf-country": "US" }, body: JSON.stringify({ itemId: "square-payment-test-001" }) }));
   assert.equal(response.status, 200); assert.equal(capturedUrl, "https://connect.squareup.com/v2/online-checkout/payment-links"); assert.ok(capturedPayload);
   const order = (capturedPayload as Record<string, unknown>).order as { line_items: Array<{ base_price_money: { amount: number; currency: string } }>; metadata: Record<string, string> }, checkoutOptions = (capturedPayload as Record<string, unknown>).checkout_options as { redirect_url: string };
   assert.equal(order.line_items[0].base_price_money.amount, 100); assert.equal(order.line_items[0].base_price_money.currency, "USD"); assert.equal(order.metadata.catalog_item_id, "square-payment-test-001"); assert.equal(order.metadata.item_type, "other"); assert.equal(order.metadata.productId, "square-payment-test-001"); assert.equal(order.metadata.purpose, "square-payment-test"); assert.equal(order.metadata.country_code, "US"); assert.equal(order.metadata.country_launch_state, "ACTIVE"); assert.equal(order.metadata.membership_plan_id, undefined); assert.ok(checkoutOptions.redirect_url.includes("/payment/success?item=square-payment-test-001&type=other"));

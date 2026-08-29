@@ -13,8 +13,8 @@ function CheckoutContent() {
   const params = useSearchParams();
   const planId = params.get("plan") ?? "basic";
   const itemId = params.get("item") ?? `membership-${planId}-monthly`;
-  const { effectiveLanguage, preferences } = useInternationalPreferences();
-  const countryCode = (preferences.country || "us").toUpperCase();
+  const { effectiveLanguage, preferences, ready } = useInternationalPreferences();
+  const countryCode = (preferences.country || "").toUpperCase();
 
   const [loading, setLoading] = useState(false);
   const [discountCode, setDiscountCode] = useState("");
@@ -23,14 +23,19 @@ function CheckoutContent() {
 
   const plan = membershipPlans.find((candidate) => candidate.id === planId);
   const displayName = plan?.name ?? "Edunancial Purchase";
-  const localizedPrice = plan ? getLocalizedCatalogPrice(plan.id, countryCode) : null;
+  const localizedPrice = plan && countryCode ? getLocalizedCatalogPrice(plan.id, countryCode) : null;
+  const countryPriceApproved = !plan || Boolean(localizedPrice);
   const displayPrice = localizedPrice
     ? `${formatLocalizedPrice(localizedPrice, effectiveLanguage)} ${localizedPrice.currency}`
     : plan
-      ? `${plan.currency} ${plan.monthlyPrice.toFixed(2)}`
+      ? "Unavailable for this country"
       : "Final price shown at secure checkout";
 
   async function handleCheckout() {
+    if (!ready || !countryCode || !countryPriceApproved) {
+      setError("Checkout is not enabled until an approved price and country configuration are available for your location.");
+      return;
+    }
     if (!authorized) {
       setError("Adult purchaser authorization is required before payment.");
       return;
@@ -74,6 +79,9 @@ function CheckoutContent() {
           {localizedPrice?.currency !== "USD" && localizedPrice && (
             <p className="text-xs text-slate-500">Localized price for {countryCode}. Taxes, where applicable, are calculated at checkout. Payment remains unavailable until an approved {localizedPrice.currency} settlement route is configured.</p>
           )}
+          {plan && !localizedPrice && (
+            <p className="text-xs text-amber-300">Paid access is not currently approved for {countryCode || "your detected country"}. No fallback USD charge will be offered.</p>
+          )}
         </div>
 
         <div className="mb-4">
@@ -88,8 +96,8 @@ function CheckoutContent() {
 
         {error && <div className="mb-4 rounded-lg border border-red-700 bg-red-900/30 px-4 py-3 text-sm text-red-300">{error}</div>}
 
-        <button onClick={() => { void handleCheckout(); }} disabled={loading || !authorized} className="w-full rounded-xl bg-blue-600 px-6 py-4 text-lg font-bold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60">
-          {loading ? "Connecting to Square…" : "Continue to Secure Checkout"}
+        <button onClick={() => { void handleCheckout(); }} disabled={loading || !authorized || !ready || !countryPriceApproved} className="w-full rounded-xl bg-blue-600 px-6 py-4 text-lg font-bold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60">
+          {loading ? "Connecting to Square…" : countryPriceApproved ? "Continue to Secure Checkout" : "Checkout unavailable in this country"}
         </button>
 
         <div className="mt-6 grid grid-cols-3 gap-3 text-center text-xs text-slate-500"><div>🔒 Secure</div><div>📋 Cancel anytime</div><div>✅ Verified payment</div></div>
@@ -97,7 +105,7 @@ function CheckoutContent() {
           <Link href="/membership" className="flex-1 rounded-xl border border-white/20 px-4 py-3 text-center hover:border-white/40">← Back to Plans</Link>
           <Link href="/contact" className="flex-1 rounded-xl border border-white/20 px-4 py-3 text-center hover:border-white/40">Need Help?</Link>
         </div>
-        <p className="mt-4 text-center text-xs text-slate-500">Access is granted only after server-side payment verification.</p>
+        <p className="mt-4 text-center text-xs text-slate-500">Access is granted only after server-side payment, country, and tax verification.</p>
       </div>
     </main>
   );
