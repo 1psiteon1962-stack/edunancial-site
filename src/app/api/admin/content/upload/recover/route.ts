@@ -12,6 +12,9 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
+const RECOVERY_UNAVAILABLE_MESSAGE =
+  "Interrupted-upload recovery is temporarily unavailable because upload audit telemetry could not be read. New uploads can still proceed; do not retry a partially completed upload until recovery telemetry is restored.";
+
 type OperationRow = {
   batch_id: string | null;
   upload_id: string | null;
@@ -57,23 +60,45 @@ async function getRecoverableUploads(batchId: string): Promise<StoredUploadEntry
 }
 
 export async function GET(request: NextRequest) {
-  // This endpoint only inspects recovery state. It must require an authenticated
-  // admin session, but GET is not state-changing and therefore must not require
-  // a CSRF header. Requiring CSRF here caused the upload page to display
-  // "Invalid CSRF token" immediately after refresh because the recovery status
-  // request is made while the client is still loading the session token.
+  // Recovery is auxiliary to new uploads. If its audit table is unavailable,
+  // the upload page should degrade safely instead of failing on refresh.
   const auth = await requireAdminApiSession(request, false);
   if (!auth.ok) return auth.response;
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db.from("admin_upload_operations").select("batch_id,phase,status,error_message,metadata").eq("phase", "FINALIZE").in("status", ["STARTED", "FAILED"]).limit(100);
-  if (error) return Response.json({ success: false, error: error.message }, { status: 500 });
-  const candidateBatchIds = Array.from(new Set(((data ?? []) as Array<{ batch_id: string | null }>).map((row) => row.batch_id).filter((value): value is string => Boolean(value))));
-  const recoverable: Array<{ batchId: string; uploads: StoredUploadEntry[] }> = [];
-  for (const batchId of candidateBatchIds) {
-    const uploads = await getRecoverableUploads(batchId);
-    if (uploads.length) recoverable.push({ batchId, uploads });
+  if (error) {
+    return Response.json(
+      {
+        success: true,
+        recoverable: [],
+        recoveryAvailable: false,
+        warning: RECOVERY_UNAVAILABLE_MESSAGE,
+        telemetryError: error.message,
+      },
+      { headers: { "Cache-Control": "private, no-store" } },
+    );
   }
-  return Response.json({ success: true, recoverable }, { headers: { "Cache-Control": "private, no-store" } });
+
+  try {
+    const candidateBatchIds = Array.from(new Set(((data ?? []) as Array<{ batch_id: string | null }>).map((row) => row.batch_id).filter((value): value is string => Boolean(value))));
+    const recoverable: Array<{ batchId: string; uploads: StoredUploadEntry[] }> = [];
+    for (const batchId of candidateBatchIds) {
+      const uploads = await getRecoverableUploads(batchId);
+      if (uploads.length) recoverable.push({ batchId, uploads });
+    }
+    return Response.json({ success: true, recoverable, recoveryAvailable: true }, { headers: { "Cache-Control": "private, no-store" } });
+  } catch (error) {
+    return Response.json(
+      {
+        success: true,
+        recoverable: [],
+        recoveryAvailable: false,
+        warning: RECOVERY_UNAVAILABLE_MESSAGE,
+        telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable.",
+      },
+      { headers: { "Cache-Control": "private, no-store" } },
+    );
+  }
 }
 
 export async function POST(request: NextRequest) {
@@ -83,7 +108,21 @@ export async function POST(request: NextRequest) {
   const batchId = String(body.batchId ?? "").trim();
   const uploadId = String(body.uploadId ?? "").trim();
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
-  const uploads = await getRecoverableUploads(batchId);
+
+  let uploads: StoredUploadEntry[];
+  try {
+    uploads = await getRecoverableUploads(batchId);
+  } catch (error) {
+    return Response.json(
+      {
+        success: false,
+        error: RECOVERY_UNAVAILABLE_MESSAGE,
+        telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable.",
+      },
+      { status: 503, headers: { "Cache-Control": "private, no-store" } },
+    );
+  }
+
   const upload = uploads.find((entry) => entry.uploadId === uploadId);
   if (!upload) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
 
