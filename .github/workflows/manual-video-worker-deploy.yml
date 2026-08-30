@@ -1,0 +1,56 @@
+name: Manual Video Worker Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: Type DEPLOY-VIDEO-WORKER to continue
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: video-worker-production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ inputs.confirm == 'DEPLOY-VIDEO-WORKER' }}
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 15
+    env:
+      VIDEO_WORKER_DEPLOY_HOOK_URL: ${{ secrets.VIDEO_WORKER_DEPLOY_HOOK_URL }}
+      VIDEO_WORKER_BASE_URL: ${{ secrets.VIDEO_WORKER_BASE_URL }}
+    steps:
+      - name: Validate required secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$VIDEO_WORKER_DEPLOY_HOOK_URL" || { echo "VIDEO_WORKER_DEPLOY_HOOK_URL is missing"; exit 1; }
+          test -n "$VIDEO_WORKER_BASE_URL" || { echo "VIDEO_WORKER_BASE_URL is missing"; exit 1; }
+          case "$VIDEO_WORKER_DEPLOY_HOOK_URL" in https://*) ;; *) echo "Deploy hook must use HTTPS"; exit 1;; esac
+          case "$VIDEO_WORKER_BASE_URL" in https://*) ;; *) echo "Worker base URL must use HTTPS"; exit 1;; esac
+
+      - name: Trigger worker deployment
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --request POST "$VIDEO_WORKER_DEPLOY_HOOK_URL" >/dev/null
+
+      - name: Wait for healthy worker
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent --show-error --max-time 10 "$VIDEO_WORKER_BASE_URL/health" >/tmp/worker-health.json; then
+              cat /tmp/worker-health.json
+              exit 0
+            fi
+            echo "Worker not healthy yet (attempt $attempt/30)"
+            sleep 10
+          done
+          echo "Worker did not become healthy after deployment"
+          exit 1
