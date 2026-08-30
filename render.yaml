@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: edunancial-video-worker
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./video-worker/Dockerfile
+    dockerContext: ./video-worker
+    healthCheckPath: /health
+    autoDeploy: false
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: WORKER_SHARED_SECRET
+        sync: false
+      - key: PORT
+        value: 8080
