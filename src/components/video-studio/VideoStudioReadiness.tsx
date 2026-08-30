@@ -20,7 +20,9 @@ type ReadinessPayload = {
 export default function VideoStudioReadiness() {
   const [payload, setPayload] = useState<ReadinessPayload | null>(null);
   const [loading, setLoading] = useState(true);
+  const [repairing, setRepairing] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [message, setMessage] = useState<string | null>(null);
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -43,6 +45,32 @@ export default function VideoStudioReadiness() {
     void refresh();
   }, [refresh]);
 
+  const storageNeedsRepair = payload?.checks.some((check) => check.id.startsWith("bucket:") && !check.ok) ?? false;
+
+  async function repairStorage() {
+    setRepairing(true);
+    setError(null);
+    setMessage(null);
+    try {
+      const sessionResponse = await fetch("/api/admin/auth/session", { cache: "no-store" });
+      const session = await sessionResponse.json().catch(() => ({})) as { csrfToken?: string };
+      if (!sessionResponse.ok || !session.csrfToken) throw new Error("Could not obtain a valid admin security token.");
+
+      const response = await fetch("/api/admin/video/readiness/storage", {
+        method: "POST",
+        headers: { "x-csrf-token": session.csrfToken },
+      });
+      const data = await response.json().catch(() => ({})) as { success?: boolean; message?: string; error?: string };
+      if (!response.ok || data.success === false) throw new Error(data.error || `Storage repair failed (${response.status}).`);
+      setMessage(data.message || "Video storage repaired.");
+      await refresh();
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "Could not repair Video Studio storage.");
+    } finally {
+      setRepairing(false);
+    }
+  }
+
   return (
     <section className="mt-8 rounded-3xl border border-white/10 bg-white/[0.04] p-6 sm:p-7">
       <div className="flex flex-wrap items-center justify-between gap-4">
@@ -60,19 +88,30 @@ export default function VideoStudioReadiness() {
             This checks the actual database, private video storage, worker configuration, and worker health before a render is attempted.
           </p>
         </div>
-        <button
-          type="button"
-          onClick={() => void refresh()}
-          disabled={loading}
-          className="rounded-xl border border-white/15 px-4 py-2 text-sm font-bold text-slate-200 disabled:opacity-50"
-        >
-          {loading ? "Checking…" : "Run readiness check"}
-        </button>
+        <div className="flex flex-wrap gap-2">
+          {storageNeedsRepair ? (
+            <button
+              type="button"
+              onClick={() => void repairStorage()}
+              disabled={loading || repairing}
+              className="rounded-xl bg-amber-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50"
+            >
+              {repairing ? "Repairing storage…" : "Repair video storage"}
+            </button>
+          ) : null}
+          <button
+            type="button"
+            onClick={() => void refresh()}
+            disabled={loading || repairing}
+            className="rounded-xl border border-white/15 px-4 py-2 text-sm font-bold text-slate-200 disabled:opacity-50"
+          >
+            {loading ? "Checking…" : "Run readiness check"}
+          </button>
+        </div>
       </div>
 
-      {error ? (
-        <div className="mt-5 rounded-xl border border-red-400/30 bg-red-950/30 p-4 text-sm text-red-200">{error}</div>
-      ) : null}
+      {message ? <div className="mt-5 rounded-xl border border-emerald-400/25 bg-emerald-950/20 p-4 text-sm text-emerald-200">{message}</div> : null}
+      {error ? <div className="mt-5 rounded-xl border border-red-400/30 bg-red-950/30 p-4 text-sm text-red-200">{error}</div> : null}
 
       {payload ? (
         <div className="mt-6 grid gap-3 md:grid-cols-2">
