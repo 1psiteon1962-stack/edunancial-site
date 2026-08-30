@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 type Upload = { uploadId: string; originalFilename: string; sizeBytes: number; storagePath: string };
 type RecoverableBatch = { batchId: string; uploads: Upload[] };
+type RecoveryResponse = { recoverable?: RecoverableBatch[]; recoveryAvailable?: boolean; warning?: string; error?: string };
 
 export default function RecoveryClient() {
   const router = useRouter();
@@ -13,22 +14,28 @@ export default function RecoveryClient() {
   const [loading, setLoading] = useState(true);
   const [active, setActive] = useState<string | null>(null);
   const [error, setError] = useState("");
+  const [warning, setWarning] = useState("");
+  const [recoveryAvailable, setRecoveryAvailable] = useState(true);
   const [progress, setProgress] = useState("");
 
   async function load() {
     setLoading(true);
     setError("");
+    setWarning("");
     try {
       const [sessionResponse, recoveryResponse] = await Promise.all([
         fetch("/api/admin/auth/session", { cache: "no-store" }),
         fetch("/api/admin/content/upload/recover", { cache: "no-store" }),
       ]);
       const session = await sessionResponse.json();
-      const recovery = await recoveryResponse.json();
+      const recovery = await recoveryResponse.json() as RecoveryResponse;
       if (!recoveryResponse.ok) throw new Error(recovery.error ?? "Unable to inspect interrupted uploads.");
       setCsrfToken(session.csrfToken ?? "");
       setBatches(recovery.recoverable ?? []);
+      setRecoveryAvailable(recovery.recoveryAvailable !== false);
+      setWarning(recovery.warning ?? "");
     } catch (err) {
+      setRecoveryAvailable(false);
       setError((err as Error).message);
     } finally {
       setLoading(false);
@@ -49,6 +56,7 @@ export default function RecoveryClient() {
   }
 
   async function recover(batchId: string, uploadId: string) {
+    if (!recoveryAvailable) return;
     const key = `${batchId}:${uploadId}`;
     setActive(key);
     setError("");
@@ -66,6 +74,7 @@ export default function RecoveryClient() {
   }
 
   async function recoverAll() {
+    if (!recoveryAvailable) return;
     const queue = batches.flatMap((batch) => batch.uploads.map((upload) => ({ batchId: batch.batchId, upload })));
     if (!queue.length) return;
     setActive("all");
@@ -100,13 +109,15 @@ export default function RecoveryClient() {
           <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery processes stored packages sequentially into draft review without uploading them again.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          {totalUploads > 0 ? <button type="button" disabled={Boolean(active)} onClick={() => void recoverAll()} className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === "all" ? "Recovering all..." : `Recover all ${totalUploads} stored ZIP${totalUploads === 1 ? "" : "s"}`}</button> : null}
+          {recoveryAvailable && totalUploads > 0 ? <button type="button" disabled={Boolean(active)} onClick={() => void recoverAll()} className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === "all" ? "Recovering all..." : `Recover all ${totalUploads} stored ZIP${totalUploads === 1 ? "" : "s"}`}</button> : null}
           <button type="button" disabled={Boolean(active)} onClick={() => void load()} className="rounded-lg border border-white/15 px-3 py-2 text-sm font-semibold disabled:opacity-50">Refresh</button>
         </div>
       </div>
       {progress ? <p className="mt-4 rounded-lg bg-slate-950/40 p-3 text-sm text-slate-200">{progress}</p> : null}
+      {warning ? <p className="mt-4 rounded-lg border border-amber-300/25 bg-amber-950/30 p-3 text-sm text-amber-100">{warning}</p> : null}
       {error ? <p className="mt-4 rounded-lg bg-red-950/50 p-3 text-sm text-red-200">{error}</p> : null}
-      {!batches.length ? <p className="mt-4 text-sm text-emerald-200">No interrupted stored uploads currently need recovery.</p> : null}
+      {recoveryAvailable && !batches.length ? <p className="mt-4 text-sm text-emerald-200">No interrupted stored uploads currently need recovery.</p> : null}
+      {!recoveryAvailable && !warning && !error ? <p className="mt-4 text-sm text-amber-100">Interrupted-upload recovery is temporarily unavailable. New uploads are not blocked by this recovery status.</p> : null}
       <div className="mt-4 space-y-4">
         {batches.map((batch) => (
           <div key={batch.batchId} className="rounded-xl border border-white/10 bg-[#0b1426] p-4">
@@ -116,7 +127,7 @@ export default function RecoveryClient() {
                 const key = `${batch.batchId}:${upload.uploadId}`;
                 return <div key={upload.uploadId} className="flex flex-wrap items-center justify-between gap-3 rounded-lg bg-white/5 p-3">
                   <div><p className="font-semibold text-white">{upload.originalFilename}</p><p className="text-xs text-slate-400">{(upload.sizeBytes / 1024 / 1024).toFixed(1)} MB</p></div>
-                  <button type="button" disabled={Boolean(active)} onClick={() => void recover(batch.batchId, upload.uploadId)} className="rounded-lg bg-amber-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === key ? "Recovering..." : "Recover stored ZIP"}</button>
+                  <button type="button" disabled={Boolean(active) || !recoveryAvailable} onClick={() => void recover(batch.batchId, upload.uploadId)} className="rounded-lg bg-amber-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === key ? "Recovering..." : "Recover stored ZIP"}</button>
                 </div>;
               })}
             </div>
