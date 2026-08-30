@@ -173,8 +173,9 @@ export async function getExecutiveOperationsSnapshot(): Promise<ExecutiveOperati
     const fallbacks = ops?.filter((row) => row.status === "FALLBACK") ?? null;
     const lastFailure = failures?.[0]?.error_message ?? null;
     const uploadProblems = [...staticHealth.upload.problems];
+    if (ur.error) uploadProblems.push("Upload telemetry is unavailable; admin_upload_operations could not be queried.");
     if (failures?.length) uploadProblems.push(`${failures.length} upload pipeline failure(s) recorded in the last 24 hours.`);
-    const uploadStatus: SystemHealthStatus = !staticHealth.upload.signedUploadConfigured ? "BLOCKED" : failures?.length ? "DEGRADED" : "READY";
+    const uploadStatus: SystemHealthStatus = !staticHealth.upload.signedUploadConfigured || ur.error ? "BLOCKED" : failures?.length ? "DEGRADED" : "READY";
 
     const succeeded = jobs?.filter((row) => row.status === "succeeded") ?? null;
     const videoFailed = jobs?.filter((row) => row.status === "failed") ?? null;
@@ -186,8 +187,11 @@ export async function getExecutiveOperationsSnapshot(): Promise<ExecutiveOperati
     const videoProblems: string[] = [];
     if (!staticHealth.video.workerConfigured) videoProblems.push("Video worker configuration is incomplete or unsafe.");
     if (!staticHealth.video.ttsConfigured) videoProblems.push("Multilingual TTS is not configured.");
+    if (vpr.error) videoProblems.push("Video project telemetry is unavailable.");
+    if (vjr.error) videoProblems.push("Video job telemetry is unavailable.");
     if (videoFailed?.length) videoProblems.push(`${videoFailed.length} render job(s) are currently recorded as failed.`);
-    const videoStatus: SystemHealthStatus = !staticHealth.video.workerConfigured || !staticHealth.video.ttsConfigured ? "BLOCKED" : videoFailed?.length ? "DEGRADED" : "READY";
+    const videoTelemetryUnavailable = Boolean(vpr.error || vjr.error);
+    const videoStatus: SystemHealthStatus = !staticHealth.video.workerConfigured || !staticHealth.video.ttsConfigured || videoTelemetryUnavailable ? "BLOCKED" : videoFailed?.length ? "DEGRADED" : "READY";
 
     return {
       asOf,
