@@ -42,9 +42,31 @@ function filenameTokens(filename: string): string[] {
   return stem.split(/[^a-z0-9]+/).filter(Boolean);
 }
 
+const HUMAN_LANGUAGE_ALIASES: Array<[string, UploadLanguage]> = [
+  ["spanish-latin-america-caribbean", "es-Caribbean"],
+  ["spanish-caribbean", "es-Caribbean"],
+  ["portuguese-brazil", "pt-BR"],
+  ["brazilian-portuguese", "pt-BR"],
+  ["portuguese-portugal", "pt-PT"],
+  ["french-canadian", "fr-CA"],
+  ["canadian-french", "fr-CA"],
+  ["french-france", "fr-FR"],
+  ["spanish-spain", "es-ES"],
+  ["english-uk", "en-GB"],
+  ["english-united-kingdom", "en-GB"],
+  ["english-us", "en-US"],
+  ["english-united-states", "en-US"],
+  ["german-germany", "de"],
+  ["italian-italy", "it"],
+  ["dutch-netherlands", "nl"],
+];
+
 export function inferUploadLanguageFromFilename(filename: string): string | null {
   const stem = basename(filename, extname(filename)).toLowerCase();
   const normalized = `-${stem.replaceAll("_", "-").replaceAll(".", "-")}-`;
+  for (const [alias, locale] of HUMAN_LANGUAGE_ALIASES) {
+    if (normalized.includes(`-${alias}-`)) return locale;
+  }
   for (const locale of CURRICULUM_FILENAME_LOCALES) {
     const candidate = locale.toLowerCase();
     if (normalized.includes(`-${candidate}-`)) return locale;
@@ -77,7 +99,12 @@ export function inferCourseLevelFromFilename(filename: string): CourseLevel | nu
 export function inferCurriculumTitleFromFilename(filename: string): string | null {
   const stem = basename(filename, extname(filename));
   const tokens = stem.split(/[-_.\s]+/).filter(Boolean);
-  const localeTokens = new Set(CURRICULUM_FILENAME_LOCALES.flatMap((locale) => locale.toLowerCase().split("-")));
+  const localeTokens = new Set([
+    ...CURRICULUM_FILENAME_LOCALES.flatMap((locale) => locale.toLowerCase().split("-")),
+    "english", "united", "states", "uk", "kingdom", "spanish", "latin", "america", "caribbean", "spain",
+    "french", "canadian", "france", "portuguese", "brazil", "portugal", "brazilian", "german", "germany",
+    "italian", "italy", "dutch", "netherlands",
+  ]);
   const metadataTokens = new Set(["complete", "combined", "package", "curriculum", "level", ...Object.keys(TRACK_ALIASES)]);
   const titleTokens = tokens.filter((token) => {
     const lower = token.toLowerCase();
