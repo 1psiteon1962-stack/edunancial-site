@@ -1,0 +1,33 @@
+name: Video Worker Validation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "video-worker/**"
+      - "render.yaml"
+      - ".github/workflows/video-worker-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "video-worker/**"
+      - "render.yaml"
+      - ".github/workflows/video-worker-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-worker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check worker JavaScript syntax
+        run: node --check video-worker/server.mjs
+
+      - name: Build video worker image
+        run: docker build --file video-worker/Dockerfile video-worker
