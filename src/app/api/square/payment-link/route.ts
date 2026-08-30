@@ -26,7 +26,16 @@ export async function POST(request:Request){
   const ipAddress=request.headers.get("x-forwarded-for")?.split(",")[0]?.trim()||request.headers.get("x-real-ip")||"unknown";
   const rateLimit=enforcePaymentRateLimit({scope:"square-payment-link",key:ipAddress,maxRequests:20,windowMs:60000});
   if(!rateLimit.allowed){const response=NextResponse.json({success:false,error:"Too many checkout requests. Please wait and retry.",requestId},{status:429});response.headers.set("Retry-After",Math.ceil((rateLimit.resetAt-Date.now())/1000).toString());return attachRequestHeaders(response,requestId);}
-  if(!isSquareVerifiedCheckoutEnabled()||!hasPaymentPersistenceConfig())return attachRequestHeaders(NextResponse.json({success:false,error:"Square production checkout is not fully configured.",requestId},{status:503}),requestId);
+  const squareReady=isSquareVerifiedCheckoutEnabled();
+  const persistenceReady=hasPaymentPersistenceConfig();
+  if(!squareReady||!persistenceReady){
+    const error=!squareReady&&!persistenceReady
+      ? "Square production credentials and payment persistence are not fully configured."
+      : !squareReady
+        ? "Square production credentials are incomplete. Confirm the production application ID, location ID, and access token in the hosting environment."
+        : "Square payment persistence is incomplete. Confirm the production Supabase URL and service-role key in the hosting environment.";
+    return attachRequestHeaders(NextResponse.json({success:false,error,readiness:{squareConfigured:squareReady,persistenceConfigured:persistenceReady},requestId},{status:503}),requestId);
+  }
   await ensureSquareWebhookSubscription();
   const body=(await request.json()) as PaymentLinkRequestBody; const {itemId="",discountCode,customerEmail}=body;
   if(!itemId)return attachRequestHeaders(NextResponse.json({success:false,error:"itemId is required.",requestId},{status:400}),requestId);
