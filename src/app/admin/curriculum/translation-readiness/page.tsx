@@ -39,7 +39,7 @@ export default async function TranslationReadinessPage() {
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/curriculum" className="rounded-lg border border-slate-600 px-4 py-2 text-sm font-semibold hover:border-white">← Curriculum</Link>
-            <Link href="/admin/content/bulk" className="rounded-lg bg-emerald-700 px-4 py-2 text-sm font-bold hover:bg-emerald-600">Bulk Upload Content</Link>
+            <Link href="/admin/content/upload" className="rounded-lg bg-emerald-700 px-4 py-2 text-sm font-bold hover:bg-emerald-600">Bulk Upload Content</Link>
           </div>
         </div>
 
