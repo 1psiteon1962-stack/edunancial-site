@@ -5,6 +5,7 @@ import { inferUploadLanguageFromFilename, replaceDestinationLanguage } from "@/l
 import {
   exportPublishedLessonTranslations,
   importPublishedLessonTranslations,
+  upsertPublishedLessonFromRegistry,
 } from "@/lib/curriculum/authoritative-published";
 
 const LESSON_ID = /([A-Z]+-L\d+-\d{3})/u;
@@ -101,12 +102,32 @@ export function extractLocalizedLessonTranslation(
   };
 }
 
-export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+function localizedCandidates(batch: UploadBatch) {
   const archiveByUploadId = new Map(batch.uploads.map((upload) => [upload.id, upload.originalFilename]));
-  const candidates = batch.files
+  return batch.files
     .map((file) => extractLocalizedLessonTranslation(file, archiveByUploadId.get(file.uploadId)))
     .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
+}
 
+/**
+ * The generic canonical publisher historically sees files such as GOLD-L1-001.md
+ * inside a localized ZIP as canonical because the locale lives on the parent ZIP.
+ * Restore the canonical registry copy immediately after that publish before
+ * attaching the localized text as a translation delta.
+ */
+export async function restoreCanonicalLessonsAfterLocalizedPublish(batch: UploadBatch): Promise<{ attempted: number; restored: number; missingRegistryLessonIds: string[] }> {
+  const lessonIds = [...new Set(localizedCandidates(batch).map((candidate) => candidate.lessonId))];
+  let restored = 0;
+  const missingRegistryLessonIds: string[] = [];
+  for (const lessonId of lessonIds) {
+    if (await upsertPublishedLessonFromRegistry(lessonId)) restored += 1;
+    else missingRegistryLessonIds.push(lessonId);
+  }
+  return { attempted: lessonIds.length, restored, missingRegistryLessonIds };
+}
+
+export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+  const candidates = localizedCandidates(batch);
   if (candidates.length === 0) return { repaired: 0, translated: 0, missingLessonIds: [] };
 
   const requestedLessonIds = [...new Set(candidates.map((candidate) => candidate.lessonId))];
