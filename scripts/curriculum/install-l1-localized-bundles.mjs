@@ -25,6 +25,23 @@ for (const name of directoryEntries) {
   chunkGroups.set(key, list);
 }
 
+function gunzipBundle(raw, filename) {
+  if (raw.length >= 2 && raw[0] === 0x1f && raw[1] === 0x8b) {
+    return gunzipSync(raw).toString("utf8");
+  }
+
+  const encoded = raw.toString("utf8").replace(/\s+/gu, "");
+  if (!encoded || !/^[A-Za-z0-9+/]+={0,2}$/u.test(encoded)) {
+    throw new Error(`${filename}: expected gzip bytes or base64-encoded gzip text`);
+  }
+
+  const decoded = Buffer.from(encoded, "base64");
+  if (decoded.length < 2 || decoded[0] !== 0x1f || decoded[1] !== 0x8b) {
+    throw new Error(`${filename}: base64 payload is not gzip data`);
+  }
+  return gunzipSync(decoded).toString("utf8");
+}
+
 function readChunkedBundle(name, parts) {
   const sorted = [...parts].sort((a, b) => a.part - b.part);
   let encoded = "";
@@ -34,7 +51,7 @@ function readChunkedBundle(name, parts) {
     encoded += readFileSync(join(BUNDLE_DIR, partName), "utf8").trim();
     if (encoded.length % 4 !== 0) continue;
     try {
-      const json = gunzipSync(Buffer.from(encoded, "base64")).toString("utf8");
+      const json = gunzipBundle(Buffer.from(encoded, "utf8"), name);
       const parsed = JSON.parse(json);
       if (Array.isArray(parsed.lessons) && parsed.lessons.length === 50) return json;
     } catch (error) {
@@ -50,7 +67,7 @@ const sources = [
     .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
     .map((name) => ({ name, read: () => {
       const raw = readFileSync(join(BUNDLE_DIR, name));
-      return name.endsWith(".gz") ? gunzipSync(raw).toString("utf8") : raw.toString("utf8");
+      return name.endsWith(".gz") ? gunzipBundle(raw, name) : raw.toString("utf8");
     } })),
   ...[...chunkGroups.entries()].map(([name, parts]) => ({
     name,
