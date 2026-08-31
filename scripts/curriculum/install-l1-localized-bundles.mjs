@@ -25,6 +25,26 @@ for (const name of directoryEntries) {
   chunkGroups.set(key, list);
 }
 
+function readChunkedBundle(name, parts) {
+  const sorted = [...parts].sort((a, b) => a.part - b.part);
+  let encoded = "";
+  let lastError = null;
+
+  for (const { name: partName } of sorted) {
+    encoded += readFileSync(join(BUNDLE_DIR, partName), "utf8").trim();
+    if (encoded.length % 4 !== 0) continue;
+    try {
+      const json = gunzipSync(Buffer.from(encoded, "base64")).toString("utf8");
+      const parsed = JSON.parse(json);
+      if (Array.isArray(parsed.lessons) && parsed.lessons.length === 50) return json;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw new Error(`${name}: no valid 50-lesson gzip payload found in chunk prefix${lastError ? ` (${lastError.message})` : ""}`);
+}
+
 const sources = [
   ...directoryEntries
     .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
@@ -34,13 +54,7 @@ const sources = [
     } })),
   ...[...chunkGroups.entries()].map(([name, parts]) => ({
     name,
-    read: () => {
-      const encoded = parts
-        .sort((a, b) => a.part - b.part)
-        .map(({ name: partName }) => readFileSync(join(BUNDLE_DIR, partName), "utf8").trim())
-        .join("");
-      return gunzipSync(Buffer.from(encoded, "base64")).toString("utf8");
-    },
+    read: () => readChunkedBundle(name, parts),
   })),
 ].sort((a, b) => a.name.localeCompare(b.name));
 
