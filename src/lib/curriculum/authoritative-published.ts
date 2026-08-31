@@ -243,11 +243,6 @@ function addTranslationToMap(
     return;
   }
 
-  // Historical imports may leave multiple artifacts for the same lesson and
-  // locale. Treat every artifact as a delta so a later title/summary-only file
-  // can never erase a complete translated body discovered earlier. Newer
-  // non-empty fields may enrich an existing record, while completeness is
-  // preserved independently of filesystem traversal order.
   map.set(key, {
     title: translation.title || existing.title,
     summary: translation.summary || existing.summary,
@@ -371,12 +366,6 @@ function loadBundledTranslationFiles(
       continue;
     }
 
-    // Translation uploads have historically used several filename shapes,
-    // including batch names such as "...titles-summaries-fr-ca.json" rather
-    // than only "*-translations.json". Inspect every JSON artifact under the
-    // course tree and accept it only when its parsed shape contains lesson
-    // translation records. This keeps the loader generic across every track,
-    // level, and locale while safely ignoring unrelated JSON files.
     if (!entry.name.endsWith(".json")) continue;
 
     try {
@@ -422,8 +411,6 @@ function loadSeedTranslations(): Map<string, PublishedLessonTranslation> {
     }
   }
 
-  // Course imports also generate JSON translation artifacts next to the source
-  // lessons. These files were previously committed but never read at runtime.
   loadBundledTranslationFiles(COURSE_CONTENT_DIR, map);
 
   _seedTranslationCache = map;
@@ -444,9 +431,6 @@ function resolveSeedTranslation(
     const baseMatch = seeds.get(`${normalizedLessonId}::${base}`);
     if (baseMatch) return baseMatch;
 
-    // A generic locale such as "es" should be able to consume a bundled
-    // regional translation such as "es-Caribbean" when no plain "es" record
-    // exists. This is especially important for generated course JSON files.
     for (const [key, translation] of seeds) {
       if (!key.startsWith(`${normalizedLessonId}::`)) continue;
       const candidateLocale = key.slice(key.indexOf("::") + 2);
@@ -492,10 +476,6 @@ function resolvePublishedLessonForLocale(
   const storedTranslation = resolveTranslation(lesson.translations, locale);
   const committedTranslation = resolveSeedTranslation(lesson.id, locale);
 
-  // Translation sources are deltas, not all-or-nothing records. A live
-  // published-state translation may contain only title/summary while the
-  // committed seed carries the full body. Merge field-by-field so a partial
-  // stored record cannot suppress valid committed translated fields.
   const translation: PublishedLessonTranslation | undefined =
     storedTranslation || committedTranslation
       ? {
@@ -610,7 +590,12 @@ export async function upsertPublishedLessonsFromBatch(batch: UploadBatch): Promi
       state.batchLessonIds[existingBatchId] = existingLessonIds.filter((id) => id !== lesson.id);
     }
 
-    state.lessons[lesson.id] = { ...lesson, importedAt: new Date().toISOString() };
+    const existingTranslations = state.lessons[lesson.id]?.translations;
+    state.lessons[lesson.id] = {
+      ...lesson,
+      ...(existingTranslations ? { translations: existingTranslations } : {}),
+      importedAt: new Date().toISOString(),
+    };
     lessonIds.add(lesson.id);
   }
 
@@ -629,12 +614,14 @@ export async function importPublishedLessonTranslations(
   const missingLessonIds = [...new Set(
     records.map((record) => record.lessonId.trim().toUpperCase()).filter((lessonId) => !state.lessons[lessonId]),
   )];
-
-  if (missingLessonIds.length > 0) return { updatedRecords: 0, updatedLessonIds: [], missingLessonIds };
+  const missing = new Set(missingLessonIds);
 
   const updatedLessonIds = new Set<string>();
+  let updatedRecords = 0;
   for (const record of records) {
     const lessonId = record.lessonId.trim().toUpperCase();
+    if (missing.has(lessonId)) continue;
+
     const locale = record.locale.trim();
     const lesson = state.lessons[lessonId];
     const existingTranslations = lesson.translations ?? {};
@@ -650,15 +637,18 @@ export async function importPublishedLessonTranslations(
       translations: { ...existingTranslations, [locale]: nextLocaleTranslation },
     };
     updatedLessonIds.add(lessonId);
+    updatedRecords += 1;
   }
 
-  state.updatedAt = new Date().toISOString();
-  await writePublishedState(state);
+  if (updatedRecords > 0) {
+    state.updatedAt = new Date().toISOString();
+    await writePublishedState(state);
+  }
 
   return {
-    updatedRecords: records.length,
+    updatedRecords,
     updatedLessonIds: [...updatedLessonIds].sort(),
-    missingLessonIds: [],
+    missingLessonIds,
   };
 }
 
@@ -821,7 +811,12 @@ export async function upsertPublishedLessonFromRegistry(lessonId: string): Promi
   if (!nextRecord) return false;
 
   const state = await readPublishedState();
-  state.lessons[normalizedLessonId] = { ...nextRecord, importedAt: new Date().toISOString() };
+  const existingTranslations = state.lessons[normalizedLessonId]?.translations;
+  state.lessons[normalizedLessonId] = {
+    ...nextRecord,
+    ...(existingTranslations ? { translations: existingTranslations } : {}),
+    importedAt: new Date().toISOString(),
+  };
   state.updatedAt = new Date().toISOString();
   await writePublishedState(state);
   return true;
