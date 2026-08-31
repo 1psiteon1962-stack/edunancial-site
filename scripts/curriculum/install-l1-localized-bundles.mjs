@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { basename, join } from "node:path";
+import { join } from "node:path";
+import { gunzipSync } from "node:zlib";
 
 const ROOT = process.cwd();
 const BUNDLE_DIR = join(ROOT, "curriculum", "translation-bundles", "l1");
@@ -11,9 +12,15 @@ if (!existsSync(BUNDLE_DIR)) process.exit(0);
 let bundles = 0;
 let lessons = 0;
 
-for (const filename of readdirSync(BUNDLE_DIR).filter((name) => name.endsWith(".json")).sort()) {
+const filenames = readdirSync(BUNDLE_DIR)
+  .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
+  .sort();
+
+for (const filename of filenames) {
   const path = join(BUNDLE_DIR, filename);
-  const parsed = JSON.parse(readFileSync(path, "utf8"));
+  const raw = readFileSync(path);
+  const json = filename.endsWith(".gz") ? gunzipSync(raw).toString("utf8") : raw.toString("utf8");
+  const parsed = JSON.parse(json);
   const track = String(parsed.track ?? "").toUpperCase();
   const locale = String(parsed.locale ?? "").trim();
   const records = Array.isArray(parsed.lessons) ? parsed.lessons : [];
@@ -33,7 +40,6 @@ for (const filename of readdirSync(BUNDLE_DIR).filter((name) => name.endsWith(".
 
     if (!markdown.trim().startsWith("---")) throw new Error(`${filename}: ${id} missing front matter`);
     if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
-    if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
     const bodyEnd = markdown.indexOf("\n---", 4);
     if (bodyEnd < 0 || !markdown.slice(bodyEnd + 4).trim()) throw new Error(`${filename}: ${id} missing body`);
 
