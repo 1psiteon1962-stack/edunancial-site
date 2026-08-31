@@ -3,13 +3,13 @@ import { headers } from "next/headers";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import {
-  getPublishedLesson,
-  getPublishedTrack,
-} from "@/lib/curriculum/authoritative-published";
 import { checkLessonAccess } from "@/lib/curriculum/access-gate";
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
+import {
+  getRuntimePublishedLesson,
+  getRuntimePublishedTrack,
+} from "@/lib/curriculum/runtime-localization";
 import { translate } from "@/lib/international/i18n";
 import { resolveRequestLanguage } from "@/lib/international/server";
 
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     cookieHeader,
     acceptLanguageHeader: headersList.get("accept-language"),
   });
-  const lesson = await getPublishedLesson(lessonParam.toUpperCase(), language);
+  const lesson = await getRuntimePublishedLesson(lessonParam.toUpperCase(), language);
   if (!lesson) return { title: "Lesson Not Found | Edunancial" };
 
   const title = `${lesson.id} — ${lesson.title} | Edunancial`;
@@ -67,10 +67,10 @@ export default async function LessonViewerPage({ params }: Props) {
   });
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
 
-  const lesson = await getPublishedLesson(lessonId, language);
+  const lesson = await getRuntimePublishedLesson(lessonId, language);
   if (!lesson) notFound();
 
-  const track = await getPublishedTrack(trackCode, language);
+  const track = await getRuntimePublishedTrack(trackCode, language);
   if (!track) notFound();
 
   const level = track.levels.find((entry) => entry.level === levelNum);
