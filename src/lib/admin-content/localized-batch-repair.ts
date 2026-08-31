@@ -5,31 +5,101 @@ import { inferUploadLanguageFromFilename, replaceDestinationLanguage } from "@/l
 import { importPublishedLessonTranslations } from "@/lib/curriculum/authoritative-published";
 
 const LESSON_ID = /([A-Z]+-L\d+-\d{3})/u;
+const CANONICAL_ENGLISH = new Set(["en", "en-us"]);
 
-function translatedTitle(raw: string, lessonId: string): string | undefined {
-  const heading = raw.match(/^#\s+(.+)$/mu)?.[1]?.trim();
+function normalizeLocale(locale: string | null | undefined): string | null {
+  const value = locale?.trim();
+  if (!value) return null;
+  if (value.toLowerCase() === "en") return "en-US";
+  return value;
+}
+
+/**
+ * Resolve locale from the strongest available source. Extracted lesson files
+ * often have generic names (BLACK-L1-001.md), while the containing ZIP carries
+ * the actual locale (for example BLACK_L1_pt-BR_50_CURRICULUM.zip). Preserve
+ * that package context all the way through publication.
+ */
+export function resolveLocalizedFileLocale(file: ExtractedFile): string | null {
+  return normalizeLocale(
+    inferUploadLanguageFromFilename(file.originalFilename)
+      ?? inferUploadLanguageFromFilename(file.normalizedFilename)
+      ?? (file.sourceArchiveFilename ? inferUploadLanguageFromFilename(file.sourceArchiveFilename) : null)
+      ?? file.classification.language
+      ?? file.metadata.language,
+  );
+}
+
+function parseTranslatedMarkdown(raw: string): { frontMatter: Record<string, string>; body: string } {
+  const trimmed = raw.trim();
+  if (!trimmed.startsWith("---")) return { frontMatter: {}, body: trimmed };
+  const parts = trimmed.split("---");
+  if (parts.length < 3) return { frontMatter: {}, body: trimmed };
+  const frontMatter: Record<string, string> = {};
+  for (const line of (parts[1] ?? "").split(/\r?\n/u)) {
+    const separator = line.indexOf(":");
+    if (separator < 0) continue;
+    const key = line.slice(0, separator).trim();
+    const value = line.slice(separator + 1).trim().replace(/^['\"]|['\"]$/gu, "");
+    if (key) frontMatter[key] = value;
+  }
+  return { frontMatter, body: parts.slice(2).join("---").trim() };
+}
+
+function translatedTitle(body: string, lessonId: string, frontMatter: Record<string, string>): string | undefined {
+  if (frontMatter.title?.trim()) return frontMatter.title.trim();
+  const heading = body.match(/^#\s+(.+)$/mu)?.[1]?.trim();
   if (!heading) return undefined;
   return heading.replace(new RegExp(`^${lessonId}:?\\s*`, "iu"), "").trim() || undefined;
 }
 
+export function extractLocalizedLessonTranslation(file: ExtractedFile): {
+  file: ExtractedFile;
+  locale: string;
+  lessonId: string;
+  title?: string;
+  summary?: string;
+  body: string;
+} | null {
+  if (file.reviewStatus !== "approved" || file.extension !== ".md") return null;
+
+  const locale = resolveLocalizedFileLocale(file);
+  if (!locale || CANONICAL_ENGLISH.has(locale.toLowerCase())) return null;
+
+  const lessonId = file.originalFilename.toUpperCase().match(LESSON_ID)?.[1]
+    ?? file.normalizedFilename.toUpperCase().match(LESSON_ID)?.[1]
+    ?? file.archivePath?.toUpperCase().match(LESSON_ID)?.[1];
+  if (!lessonId) return null;
+
+  const raw = Buffer.from(file.encodedContent, "base64").toString("utf8").trim();
+  if (!raw) return null;
+
+  const parsed = parseTranslatedMarkdown(raw);
+  if (!parsed.body) return null;
+
+  return {
+    file,
+    locale,
+    lessonId,
+    title: translatedTitle(parsed.body, lessonId, parsed.frontMatter),
+    summary: parsed.frontMatter.summary?.trim() || parsed.frontMatter.description?.trim() || undefined,
+    body: parsed.body,
+  };
+}
+
 export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
-  const candidates = batch.files.flatMap((file) => {
-    if (file.reviewStatus !== "approved" || file.extension !== ".md") return [];
-    const locale = inferUploadLanguageFromFilename(file.originalFilename) ?? inferUploadLanguageFromFilename(file.normalizedFilename);
-    const lessonId = file.originalFilename.toUpperCase().match(LESSON_ID)?.[1] ?? file.normalizedFilename.toUpperCase().match(LESSON_ID)?.[1];
-    if (!locale || !lessonId || locale.toLowerCase().startsWith("en")) return [];
-    const raw = Buffer.from(file.encodedContent, "base64").toString("utf8").trim();
-    if (!raw) return [];
-    return [{ file, locale, lessonId, raw }];
-  });
+  const candidates = batch.files
+    .map(extractLocalizedLessonTranslation)
+    .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
 
   if (candidates.length === 0) return { repaired: 0, translated: 0, missingLessonIds: [] };
 
-  const result = await importPublishedLessonTranslations(candidates.map(({ locale, lessonId, raw }) => ({
+  const result = await importPublishedLessonTranslations(candidates.map(({ locale, lessonId, title, summary, body }) => ({
     lessonId,
     locale,
-    title: translatedTitle(raw, lessonId),
-    body: raw,
+    ...(title ? { title } : {}),
+    ...(summary ? { summary } : {}),
+    body,
   })));
 
   const missing = new Set(result.missingLessonIds);
@@ -44,7 +114,12 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
       ...file,
       conflictStatus: "none",
       duplicateStatus: "new",
-      classification: { ...file.classification, language, destination, reasons: [...file.classification.reasons, `filename-locale:${candidate.locale}`] },
+      classification: {
+        ...file.classification,
+        language,
+        destination,
+        reasons: [...file.classification.reasons, `published-locale:${candidate.locale}`],
+      },
       metadata: { ...file.metadata, language, intendedDestination: destination },
       updatedAt: new Date().toISOString(),
     } satisfies ExtractedFile;
