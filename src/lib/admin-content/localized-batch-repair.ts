@@ -40,7 +40,7 @@ function parseTranslatedMarkdown(raw: string): { frontMatter: Record<string, str
     const separator = line.indexOf(":");
     if (separator < 0) continue;
     const key = line.slice(0, separator).trim();
-    const value = line.slice(separator + 1).trim().replace(/^['\"]|['\"]$/gu, "");
+    const value = line.slice(separator + 1).trim().replace(/^['"]|['"]$/g, "");
     if (key) frontMatter[key] = value;
   }
   return { frontMatter, body: parts.slice(2).join("---").trim() };
