@@ -4,7 +4,17 @@ import { describe, it } from "node:test";
 import type { PublishedLessonRecord } from "@/lib/curriculum/authoritative-published";
 import { addHistoricalTranslation, applyHistoricalTranslation, resolveHistoricalTranslation } from "@/lib/curriculum/runtime-localization";
 
-function index() { return { version: 2, builtAt: "2026-08-30T00:00:00.000Z", batchCount: 0, translationCount: 0, translations: {} }; }
+function index() {
+  return {
+    version: 4,
+    builtAt: "2026-08-30T00:00:00.000Z",
+    batchCount: 0,
+    translationCount: 0,
+    complete: false,
+    processedBatchIds: [],
+    translations: {},
+  };
+}
 
 const lesson: PublishedLessonRecord = {
   id: "BLACK-L1-001", track: "BLACK", trackName: "Leadership & Executive Management", level: 1, lessonNumber: 1,
