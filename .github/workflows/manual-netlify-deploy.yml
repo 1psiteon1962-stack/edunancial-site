@@ -1,6 +1,9 @@
-name: Manual Netlify Production Deploy
+name: Netlify Production Deploy
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       reason:
@@ -12,7 +15,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: manual-netlify-production-deploy
+  group: netlify-production-deploy
   cancel-in-progress: false
 
 jobs:
@@ -34,11 +37,19 @@ jobs:
         shell: bash
         env:
           NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: |
+          trigger_title="GitHub production deploy ${GITHUB_SHA}"
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            trigger_title="Manual GitHub production deploy ${GITHUB_SHA}"
+          fi
+
+          payload="$(printf '{\"trigger_title\":\"%s\"}' "$trigger_title")"
           http_code="$(curl --silent --show-error --output response.json --write-out '%{http_code}' \
             --request POST \
             --header 'Content-Type: application/json' \
-            --data '{"trigger_title":"Manual GitHub production deploy"}' \
+            --data "$payload" \
             "$NETLIFY_BUILD_HOOK")"
 
           if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
@@ -47,4 +58,4 @@ jobs:
             exit 1
           fi
 
-          echo "Netlify accepted the production deploy request (HTTP $http_code)."
+          echo "Netlify accepted production deploy request for ${GITHUB_SHA} (HTTP $http_code)."
