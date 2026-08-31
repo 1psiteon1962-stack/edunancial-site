@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/curriculum/install-l1-localized-bundles.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
