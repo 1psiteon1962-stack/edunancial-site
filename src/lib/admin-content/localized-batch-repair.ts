@@ -14,17 +14,16 @@ function normalizeLocale(locale: string | null | undefined): string | null {
   return value;
 }
 
-/**
- * Resolve locale from the strongest available source. Extracted lesson files
- * often have generic names (BLACK-L1-001.md), while the containing ZIP carries
- * the actual locale (for example BLACK_L1_pt-BR_50_CURRICULUM.zip). Preserve
- * that package context all the way through publication.
- */
-export function resolveLocalizedFileLocale(file: ExtractedFile): string | null {
+/** Resolve locale from the strongest available source. */
+export function resolveLocalizedFileLocale(
+  file: ExtractedFile,
+  parentArchiveFilename?: string | null,
+): string | null {
   return normalizeLocale(
     inferUploadLanguageFromFilename(file.originalFilename)
       ?? inferUploadLanguageFromFilename(file.normalizedFilename)
       ?? (file.sourceArchiveFilename ? inferUploadLanguageFromFilename(file.sourceArchiveFilename) : null)
+      ?? (parentArchiveFilename ? inferUploadLanguageFromFilename(parentArchiveFilename) : null)
       ?? file.classification.language
       ?? file.metadata.language,
   );
@@ -53,7 +52,10 @@ function translatedTitle(body: string, lessonId: string, frontMatter: Record<str
   return heading.replace(new RegExp(`^${lessonId}:?\\s*`, "iu"), "").trim() || undefined;
 }
 
-export function extractLocalizedLessonTranslation(file: ExtractedFile): {
+export function extractLocalizedLessonTranslation(
+  file: ExtractedFile,
+  parentArchiveFilename?: string | null,
+): {
   file: ExtractedFile;
   locale: string;
   lessonId: string;
@@ -63,7 +65,7 @@ export function extractLocalizedLessonTranslation(file: ExtractedFile): {
 } | null {
   if (file.reviewStatus !== "approved" || file.extension !== ".md") return null;
 
-  const locale = resolveLocalizedFileLocale(file);
+  const locale = resolveLocalizedFileLocale(file, parentArchiveFilename);
   if (!locale || CANONICAL_ENGLISH.has(locale.toLowerCase())) return null;
 
   const lessonId = file.originalFilename.toUpperCase().match(LESSON_ID)?.[1]
@@ -88,8 +90,9 @@ export function extractLocalizedLessonTranslation(file: ExtractedFile): {
 }
 
 export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+  const archiveByUploadId = new Map(batch.uploads.map((upload) => [upload.id, upload.originalFilename]));
   const candidates = batch.files
-    .map(extractLocalizedLessonTranslation)
+    .map((file) => extractLocalizedLessonTranslation(file, archiveByUploadId.get(file.uploadId)))
     .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
 
   if (candidates.length === 0) return { repaired: 0, translated: 0, missingLessonIds: [] };
