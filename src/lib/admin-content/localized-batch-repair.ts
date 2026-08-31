@@ -2,7 +2,11 @@ import { deriveBatchStatus } from "@/lib/admin-content/review";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ExtractedFile, SupportedLanguage, UploadBatch } from "@/lib/admin-content/types";
 import { inferUploadLanguageFromFilename, replaceDestinationLanguage } from "@/lib/admin-content/upload-intake";
-import { importPublishedLessonTranslations } from "@/lib/curriculum/authoritative-published";
+import {
+  exportPublishedLessonTranslations,
+  importPublishedLessonTranslations,
+  upsertPublishedLessonFromRegistry,
+} from "@/lib/curriculum/authoritative-published";
 
 const LESSON_ID = /([A-Z]+-L\d+-\d{3})/u;
 const CANONICAL_ENGLISH = new Set(["en", "en-us"]);
@@ -27,6 +31,15 @@ export function resolveLocalizedFileLocale(
       ?? file.classification.language
       ?? file.metadata.language,
   );
+}
+
+export function isLocalizedCurriculumFile(
+  file: ExtractedFile,
+  parentArchiveFilename?: string | null,
+): boolean {
+  if (file.extension !== ".md") return false;
+  const locale = resolveLocalizedFileLocale(file, parentArchiveFilename);
+  return Boolean(locale && !CANONICAL_ENGLISH.has(locale.toLowerCase()));
 }
 
 function parseTranslatedMarkdown(raw: string): { frontMatter: Record<string, string>; body: string } {
@@ -89,23 +102,53 @@ export function extractLocalizedLessonTranslation(
   };
 }
 
-export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+function localizedCandidates(batch: UploadBatch) {
   const archiveByUploadId = new Map(batch.uploads.map((upload) => [upload.id, upload.originalFilename]));
-  const candidates = batch.files
+  return batch.files
     .map((file) => extractLocalizedLessonTranslation(file, archiveByUploadId.get(file.uploadId)))
     .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
+}
 
+/**
+ * The generic canonical publisher historically sees files such as GOLD-L1-001.md
+ * inside a localized ZIP as canonical because the locale lives on the parent ZIP.
+ * Restore the canonical registry copy immediately after that publish before
+ * attaching the localized text as a translation delta.
+ */
+export async function restoreCanonicalLessonsAfterLocalizedPublish(batch: UploadBatch): Promise<{ attempted: number; restored: number; missingRegistryLessonIds: string[] }> {
+  const lessonIds = [...new Set(localizedCandidates(batch).map((candidate) => candidate.lessonId))];
+  let restored = 0;
+  const missingRegistryLessonIds: string[] = [];
+  for (const lessonId of lessonIds) {
+    if (await upsertPublishedLessonFromRegistry(lessonId)) restored += 1;
+    else missingRegistryLessonIds.push(lessonId);
+  }
+  return { attempted: lessonIds.length, restored, missingRegistryLessonIds };
+}
+
+export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+  const candidates = localizedCandidates(batch);
   if (candidates.length === 0) return { repaired: 0, translated: 0, missingLessonIds: [] };
 
-  const result = await importPublishedLessonTranslations(candidates.map(({ locale, lessonId, title, summary, body }) => ({
-    lessonId,
-    locale,
-    ...(title ? { title } : {}),
-    ...(summary ? { summary } : {}),
-    body,
-  })));
+  const requestedLessonIds = [...new Set(candidates.map((candidate) => candidate.lessonId))];
+  const canonical = await exportPublishedLessonTranslations({ lessonIds: requestedLessonIds });
+  const existingLessonIds = new Set(
+    canonical.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()),
+  );
+  const missingLessonIds = requestedLessonIds.filter((lessonId) => !existingLessonIds.has(lessonId));
+  const publishable = candidates.filter((candidate) => existingLessonIds.has(candidate.lessonId));
 
-  const missing = new Set(result.missingLessonIds);
+  const result = publishable.length > 0
+    ? await importPublishedLessonTranslations(publishable.map(({ locale, lessonId, title, summary, body }) => ({
+        lessonId,
+        locale,
+        ...(title ? { title } : {}),
+        ...(summary ? { summary } : {}),
+        body,
+      })))
+    : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
+
+  const missing = new Set(missingLessonIds);
   let repaired = 0;
   batch.files = batch.files.map((file) => {
     const candidate = candidates.find((entry) => entry.file.id === file.id);
@@ -131,5 +174,5 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
   batch.status = deriveBatchStatus(batch.files);
   batch.updatedAt = new Date().toISOString();
   await getAdminContentStorage().updateBatch(batch);
-  return { repaired, translated: result.updatedRecords, missingLessonIds: result.missingLessonIds };
+  return { repaired, translated: result.updatedRecords, missingLessonIds };
 }

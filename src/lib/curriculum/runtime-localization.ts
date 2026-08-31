@@ -18,7 +18,10 @@ import {
 } from "@/lib/curriculum/localization";
 
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
-const INDEX_VERSION = 2;
+// Version 3 deliberately invalidates all pre-systemic-fix indexes. Earlier
+// indexes could be non-empty yet incomplete, which made a stale partial index
+// look valid forever and silently forced many lessons back to English.
+const INDEX_VERSION = 3;
 
 type TranslationIndex = {
   version: number;
@@ -66,8 +69,6 @@ async function readSavedIndex(): Promise<TranslationIndex | null> {
   try {
     const parsed = JSON.parse(buffer.toString("utf8")) as TranslationIndex;
     if (parsed.version !== INDEX_VERSION || !parsed.translations) return null;
-    // Never trust an empty persisted index. Upload history may have changed after
-    // it was written, and an empty cache must not permanently force English.
     if (parsed.translationCount <= 0 || Object.keys(parsed.translations).length === 0) return null;
     return parsed;
   } catch { return null; }
