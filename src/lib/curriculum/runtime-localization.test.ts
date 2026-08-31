@@ -1,4 +1,5 @@
-import { describe, expect, it } from "vitest";
+import assert from "node:assert/strict";
+import { describe, it } from "node:test";
 
 import type { PublishedLessonRecord } from "@/lib/curriculum/authoritative-published";
 import {
@@ -44,24 +45,31 @@ describe("runtime curriculum localization", () => {
       summary: "Resumen en espanol",
       body: "Cuerpo completo en espanol",
     });
-    expect(applyHistoricalTranslation(lesson, "es-Caribbean", value)).toMatchObject({
-      title: "Titulo en espanol",
-      summary: "Resumen en espanol",
-      body: "Cuerpo completo en espanol",
-    });
+    assert.deepEqual(
+      {
+        title: applyHistoricalTranslation(lesson, "es-Caribbean", value).title,
+        summary: applyHistoricalTranslation(lesson, "es-Caribbean", value).summary,
+        body: applyHistoricalTranslation(lesson, "es-Caribbean", value).body,
+      },
+      {
+        title: "Titulo en espanol",
+        summary: "Resumen en espanol",
+        body: "Cuerpo completo en espanol",
+      },
+    );
   });
 
   it("uses a regional translation when a base language is requested", () => {
     const value = index();
     addHistoricalTranslation(value, lesson.id, "pt-BR", { body: "Corpo em portugues" });
-    expect(resolveHistoricalTranslation(value, lesson.id, "pt")?.body).toBe("Corpo em portugues");
+    assert.equal(resolveHistoricalTranslation(value, lesson.id, "pt")?.body, "Corpo em portugues");
   });
 
   it("keeps newer fields while older duplicate batches only fill gaps", () => {
     const value = index();
     addHistoricalTranslation(value, lesson.id, "fr-CA", { title: "Titre recent", body: "Corps recent" });
     addHistoricalTranslation(value, lesson.id, "fr-CA", { title: "Titre ancien", summary: "Resume ancien", body: "Corps ancien" });
-    expect(resolveHistoricalTranslation(value, lesson.id, "fr-CA")).toEqual({
+    assert.deepEqual(resolveHistoricalTranslation(value, lesson.id, "fr-CA"), {
       title: "Titre recent",
       summary: "Resume ancien",
       body: "Corps recent",
