@@ -18,7 +18,7 @@ import {
 } from "@/lib/curriculum/localization";
 
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
-const INDEX_VERSION = 1;
+const INDEX_VERSION = 2;
 
 type TranslationIndex = {
   version: number;
@@ -31,51 +31,25 @@ type TranslationIndex = {
 let cachedIndex: Promise<TranslationIndex> | null = null;
 
 function emptyIndex(): TranslationIndex {
-  return {
-    version: INDEX_VERSION,
-    builtAt: new Date().toISOString(),
-    batchCount: 0,
-    translationCount: 0,
-    translations: {},
-  };
+  return { version: INDEX_VERSION, builtAt: new Date().toISOString(), batchCount: 0, translationCount: 0, translations: {} };
 }
 
-function normalizeLocale(locale: string): string {
-  return resolveCurriculumLocale(locale);
+function normalizeLocale(locale: string): string { return resolveCurriculumLocale(locale); }
+
+function mergeTranslation(existing: PublishedLessonTranslation | undefined, incoming: PublishedLessonTranslation): PublishedLessonTranslation {
+  return { title: existing?.title ?? incoming.title, summary: existing?.summary ?? incoming.summary, body: existing?.body ?? incoming.body };
 }
 
-function mergeTranslation(
-  existing: PublishedLessonTranslation | undefined,
-  incoming: PublishedLessonTranslation,
-): PublishedLessonTranslation {
-  return {
-    title: existing?.title ?? incoming.title,
-    summary: existing?.summary ?? incoming.summary,
-    body: existing?.body ?? incoming.body,
-  };
-}
-
-export function addHistoricalTranslation(
-  index: TranslationIndex,
-  lessonId: string,
-  locale: string,
-  translation: PublishedLessonTranslation,
-): void {
+export function addHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string, translation: PublishedLessonTranslation): void {
   const id = lessonId.trim().toUpperCase();
   const normalizedLocale = normalizeLocale(locale);
   if (!id || !normalizedLocale || normalizedLocale === "en-US" || normalizedLocale === "en") return;
   const byLocale = index.translations[id] ?? {};
-  // Batches are scanned newest-first. Keep newer non-empty fields and only use
-  // older records to fill gaps, never to overwrite newer translated content.
   byLocale[normalizedLocale] = mergeTranslation(byLocale[normalizedLocale], translation);
   index.translations[id] = byLocale;
 }
 
-export function resolveHistoricalTranslation(
-  index: TranslationIndex,
-  lessonId: string,
-  locale: string,
-): PublishedLessonTranslation | undefined {
+export function resolveHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string): PublishedLessonTranslation | undefined {
   const byLocale = index.translations[lessonId.trim().toUpperCase()];
   if (!byLocale) return undefined;
   for (const candidate of getCurriculumLocaleFallbackChain(locale)) {
@@ -87,24 +61,20 @@ export function resolveHistoricalTranslation(
 }
 
 async function readSavedIndex(): Promise<TranslationIndex | null> {
-  const storage = getAdminContentStorage();
-  const buffer = await storage.readBinary(TRANSLATION_INDEX_PATH);
+  const buffer = await getAdminContentStorage().readBinary(TRANSLATION_INDEX_PATH);
   if (!buffer) return null;
   try {
     const parsed = JSON.parse(buffer.toString("utf8")) as TranslationIndex;
     if (parsed.version !== INDEX_VERSION || !parsed.translations) return null;
+    // Never trust an empty persisted index. Upload history may have changed after
+    // it was written, and an empty cache must not permanently force English.
+    if (parsed.translationCount <= 0 || Object.keys(parsed.translations).length === 0) return null;
     return parsed;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function saveIndex(index: TranslationIndex): Promise<void> {
-  await getAdminContentStorage().saveBinary(
-    TRANSLATION_INDEX_PATH,
-    Buffer.from(`${JSON.stringify(index)}\n`, "utf8"),
-    "application/json",
-  );
+  await getAdminContentStorage().saveBinary(TRANSLATION_INDEX_PATH, Buffer.from(`${JSON.stringify(index)}\n`, "utf8"), "application/json");
 }
 
 export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIndex> {
@@ -112,16 +82,15 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
   const summaries = await storage.listBatches();
   const index = emptyIndex();
 
-  // listBatches() is newest-first in both local and Supabase storage. That is
-  // intentional: the newest approved translation wins field-by-field.
   for (const summary of summaries) {
     if (summary.approvedFiles <= 0) continue;
     const batch = await storage.getBatch(summary.id);
     if (!batch) continue;
     index.batchCount += 1;
+    const archiveByUploadId = new Map(batch.uploads.map((upload) => [upload.id, upload.originalFilename]));
 
     for (const file of batch.files) {
-      const candidate = extractLocalizedLessonTranslation(file);
+      const candidate = extractLocalizedLessonTranslation(file, archiveByUploadId.get(file.uploadId));
       if (!candidate) continue;
       addHistoricalTranslation(index, candidate.lessonId, candidate.locale, {
         ...(candidate.title ? { title: candidate.title } : {}),
@@ -131,8 +100,7 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
     }
   }
 
-  index.translationCount = Object.values(index.translations)
-    .reduce((total, translations) => total + Object.keys(translations).length, 0);
+  index.translationCount = Object.values(index.translations).reduce((total, translations) => total + Object.keys(translations).length, 0);
   index.builtAt = new Date().toISOString();
   await saveIndex(index);
   cachedIndex = Promise.resolve(index);
@@ -141,101 +109,50 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
 
 async function getTranslationIndex(): Promise<TranslationIndex> {
   if (cachedIndex) return cachedIndex;
-  cachedIndex = (async () => {
-    const saved = await readSavedIndex();
-    return saved ?? rebuildHistoricalTranslationIndex();
-  })();
+  cachedIndex = (async () => (await readSavedIndex()) ?? rebuildHistoricalTranslationIndex())();
   return cachedIndex;
 }
 
-export function applyHistoricalTranslation(
-  lesson: PublishedLessonRecord,
-  locale: string,
-  index: TranslationIndex,
-): PublishedLessonRecord {
+export function applyHistoricalTranslation(lesson: PublishedLessonRecord, locale: string, index: TranslationIndex): PublishedLessonRecord {
   const normalizedLocale = normalizeLocale(locale);
   if (normalizedLocale === "en-US" || normalizedLocale === "en") return lesson;
   const translation = resolveHistoricalTranslation(index, lesson.id, normalizedLocale);
   if (!translation) return lesson;
-  return {
-    ...lesson,
-    title: translation.title ?? lesson.title,
-    summary: translation.summary ?? lesson.summary,
-    body: translation.body ?? lesson.body,
-  };
+  return { ...lesson, title: translation.title ?? lesson.title, summary: translation.summary ?? lesson.summary, body: translation.body ?? lesson.body };
 }
 
-export async function getRuntimePublishedLesson(
-  lessonId: string,
-  languageOrLocale: string,
-): Promise<PublishedLessonRecord | null> {
+export async function getRuntimePublishedLesson(lessonId: string, languageOrLocale: string): Promise<PublishedLessonRecord | null> {
   const lesson = await getPublishedLesson(lessonId, languageOrLocale);
   if (!lesson) return null;
   const locale = normalizeLocale(languageOrLocale);
   if (locale === "en-US" || locale === "en") return lesson;
-  const index = await getTranslationIndex();
-  return applyHistoricalTranslation(lesson, locale, index);
+  return applyHistoricalTranslation(lesson, locale, await getTranslationIndex());
 }
 
-export async function getRuntimePublishedTrack(
-  trackCode: string,
-  languageOrLocale: string,
-): Promise<PublishedTrackSummary | null> {
+export async function getRuntimePublishedTrack(trackCode: string, languageOrLocale: string): Promise<PublishedTrackSummary | null> {
   const track = await getPublishedTrack(trackCode, languageOrLocale);
   if (!track) return null;
   const locale = normalizeLocale(languageOrLocale);
   if (locale === "en-US" || locale === "en") return track;
   const index = await getTranslationIndex();
-  return {
-    ...track,
-    levels: track.levels.map((level) => ({
-      ...level,
-      lessons: level.lessons.map((lesson) => applyHistoricalTranslation(lesson, locale, index)),
-    })),
-  };
+  return { ...track, levels: track.levels.map((level) => ({ ...level, lessons: level.lessons.map((lesson) => applyHistoricalTranslation(lesson, locale, index)) })) };
 }
 
-export async function reconcilePublishedTranslationsFromHistory(): Promise<{
-  scannedBatches: number;
-  indexedTranslations: number;
-  importedTranslations: number;
-  skippedMissingCanonicalLessons: number;
-}> {
+export async function reconcilePublishedTranslationsFromHistory(): Promise<{ scannedBatches: number; indexedTranslations: number; importedTranslations: number; skippedMissingCanonicalLessons: number }> {
   const index = await rebuildHistoricalTranslationIndex();
   const lessonIds = Object.keys(index.translations);
-  if (lessonIds.length === 0) {
-    return { scannedBatches: index.batchCount, indexedTranslations: 0, importedTranslations: 0, skippedMissingCanonicalLessons: 0 };
-  }
+  if (lessonIds.length === 0) return { scannedBatches: index.batchCount, indexedTranslations: 0, importedTranslations: 0, skippedMissingCanonicalLessons: 0 };
 
   const exported = await exportPublishedLessonTranslations({ lessonIds });
-  const existingIds = new Set(
-    exported.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()),
-  );
+  const existingIds = new Set(exported.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()));
   const records: PublishedLessonTranslationImportRecord[] = [];
   let skippedMissingCanonicalLessons = 0;
-
   for (const [lessonId, translations] of Object.entries(index.translations)) {
-    if (!existingIds.has(lessonId)) {
-      skippedMissingCanonicalLessons += Object.keys(translations).length;
-      continue;
-    }
-    for (const [locale, translation] of Object.entries(translations)) {
-      records.push({ lessonId, locale, ...translation });
-    }
+    if (!existingIds.has(lessonId)) { skippedMissingCanonicalLessons += Object.keys(translations).length; continue; }
+    for (const [locale, translation] of Object.entries(translations)) records.push({ lessonId, locale, ...translation });
   }
-
-  const imported = records.length > 0
-    ? await importPublishedLessonTranslations(records)
-    : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
-
-  return {
-    scannedBatches: index.batchCount,
-    indexedTranslations: index.translationCount,
-    importedTranslations: imported.updatedRecords,
-    skippedMissingCanonicalLessons,
-  };
+  const imported = records.length > 0 ? await importPublishedLessonTranslations(records) : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
+  return { scannedBatches: index.batchCount, indexedTranslations: index.translationCount, importedTranslations: imported.updatedRecords, skippedMissingCanonicalLessons };
 }
 
-export function resetRuntimeTranslationIndexForTests(): void {
-  cachedIndex = null;
-}
+export function resetRuntimeTranslationIndexForTests(): void { cachedIndex = null; }
