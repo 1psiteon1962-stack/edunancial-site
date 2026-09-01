@@ -1,6 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { gunzipSync } from "node:zlib";
+import { gunzipSync, inflateRawSync } from "node:zlib";
 
 const ROOT = process.cwd();
 const BUNDLE_DIR = join(ROOT, "curriculum", "translation-bundles", "l1");
@@ -25,21 +25,58 @@ for (const name of directoryEntries) {
   chunkGroups.set(key, list);
 }
 
-function gunzipBundle(raw, filename) {
-  if (raw.length >= 2 && raw[0] === 0x1f && raw[1] === 0x8b) {
-    return gunzipSync(raw).toString("utf8");
+function inflateGzipPayloadIgnoringTrailer(raw, filename) {
+  if (raw.length < 18 || raw[0] !== 0x1f || raw[1] !== 0x8b || raw[2] !== 8) {
+    throw new Error(`${filename}: invalid gzip structure`);
   }
 
-  const encoded = raw.toString("utf8").replace(/\s+/gu, "");
-  if (!encoded || !/^[A-Za-z0-9+/]+={0,2}$/u.test(encoded)) {
-    throw new Error(`${filename}: expected gzip bytes or base64-encoded gzip text`);
+  const flags = raw[3];
+  if ((flags & 0xe0) !== 0) throw new Error(`${filename}: invalid gzip flags`);
+
+  let offset = 10;
+  const trailerOffset = raw.length - 8;
+
+  if ((flags & 0x04) !== 0) {
+    if (offset + 2 > trailerOffset) throw new Error(`${filename}: truncated gzip extra header`);
+    const extraLength = raw.readUInt16LE(offset);
+    offset += 2 + extraLength;
   }
 
-  const decoded = Buffer.from(encoded, "base64");
-  if (decoded.length < 2 || decoded[0] !== 0x1f || decoded[1] !== 0x8b) {
-    throw new Error(`${filename}: base64 payload is not gzip data`);
+  const skipZeroTerminated = (label) => {
+    while (offset < trailerOffset && raw[offset] !== 0) offset += 1;
+    if (offset >= trailerOffset) throw new Error(`${filename}: truncated gzip ${label}`);
+    offset += 1;
+  };
+
+  if ((flags & 0x08) !== 0) skipZeroTerminated("filename");
+  if ((flags & 0x10) !== 0) skipZeroTerminated("comment");
+  if ((flags & 0x02) !== 0) offset += 2;
+
+  if (offset >= trailerOffset) throw new Error(`${filename}: missing gzip deflate payload`);
+  return inflateRawSync(raw.subarray(offset, trailerOffset)).toString("utf8");
+}
+
+function gunzipBundle(raw, filename, { allowChecksumRecovery = false } = {}) {
+  let decoded = raw;
+  if (!(raw.length >= 2 && raw[0] === 0x1f && raw[1] === 0x8b)) {
+    const encoded = raw.toString("utf8").replace(/\s+/gu, "");
+    if (!encoded || !/^[A-Za-z0-9+/]+={0,2}$/u.test(encoded)) {
+      throw new Error(`${filename}: expected gzip bytes or base64-encoded gzip text`);
+    }
+
+    decoded = Buffer.from(encoded, "base64");
+    if (decoded.length < 2 || decoded[0] !== 0x1f || decoded[1] !== 0x8b) {
+      throw new Error(`${filename}: base64 payload is not gzip data`);
+    }
   }
-  return gunzipSync(decoded).toString("utf8");
+
+  try {
+    return gunzipSync(decoded).toString("utf8");
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    if (!allowChecksumRecovery || !/incorrect data check|incorrect length check/iu.test(message)) throw error;
+    return inflateGzipPayloadIgnoringTrailer(decoded, filename);
+  }
 }
 
 function readChunkedBundle(name, parts) {
@@ -51,7 +88,7 @@ function readChunkedBundle(name, parts) {
     encoded += readFileSync(join(BUNDLE_DIR, partName), "utf8").trim();
     if (encoded.length % 4 !== 0) continue;
     try {
-      const json = gunzipBundle(Buffer.from(encoded, "utf8"), name);
+      const json = gunzipBundle(Buffer.from(encoded, "utf8"), name, { allowChecksumRecovery: true });
       const parsed = JSON.parse(json);
       if (Array.isArray(parsed.lessons) && parsed.lessons.length === 50) return json;
     } catch (error) {
