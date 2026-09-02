@@ -102,6 +102,17 @@ export async function POST(request: NextRequest) {
     } catch (auditError) {
       console.error("[finalize] unable to persist failure audit", auditError);
     }
-    return Response.json({ success: false, error: err.message || "Finalize failed.", reason: err.name || "UnknownError", batchId, uploadId: upload?.uploadId ?? null, uploadReachedStorage: Boolean(batchId && upload), retryable: Boolean(batchId && upload) }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    const body: Record<string, unknown> = {
+      success: false,
+      error: err.message || "Finalize failed.",
+      reason: err.name || "UnknownError",
+      status: 400,
+      batchId,
+      uploadId: upload?.uploadId ?? null,
+      uploadReachedStorage: Boolean(batchId),
+      retryable: Boolean(batchId),
+    };
+    if (process.env.NODE_ENV !== "production") body.stack = err.stack;
+    return Response.json(body, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   }
 }
