@@ -44,7 +44,7 @@ export const membershipPlans: MembershipPlan[] = [
     description:
       "Structured learning resources, guided sessions, practical exercises, and member tools for financial literacy and competency growth.",
     monthlyPrice: 39.99,
-    annualPrice: 299.88,
+    annualPrice: 299,
     currency: "USD",
     featured: true,
     assessmentIncluded: true,
@@ -63,7 +63,7 @@ export const membershipPlans: MembershipPlan[] = [
     description:
       "Expanded member benefits with deeper learning access, downloads, and AI financial coach support.",
     monthlyPrice: 69.99,
-    annualPrice: 479.88,
+    annualPrice: 499,
     currency: "USD",
     featured: false,
     assessmentIncluded: true,
@@ -82,7 +82,7 @@ export const membershipPlans: MembershipPlan[] = [
     description:
       "Full membership access for advanced learners with priority support and premium tools.",
     monthlyPrice: 99.99,
-    annualPrice: 719.88,
+    annualPrice: 699,
     currency: "USD",
     featured: false,
     assessmentIncluded: true,
