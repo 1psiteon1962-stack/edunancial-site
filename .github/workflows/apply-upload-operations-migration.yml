@@ -1,0 +1,57 @@
+name: Apply Upload Operations Production Migration
+
+on:
+  push:
+    branches:
+      - fix/apply-production-upload-migration
+    paths:
+      - .github/workflows/apply-upload-operations-migration.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: upload-operations-production-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 20
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate required secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$SUPABASE_ACCESS_TOKEN" || { echo "SUPABASE_ACCESS_TOKEN is missing"; exit 1; }
+          test -n "$SUPABASE_DB_PASSWORD" || { echo "SUPABASE_DB_PASSWORD is missing"; exit 1; }
+          test -n "$SUPABASE_PROJECT_REF" || { echo "SUPABASE_PROJECT_REF is missing"; exit 1; }
+
+      - name: Install Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Link production project
+        run: supabase link --project-ref "$SUPABASE_PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Show migration state before push
+        run: supabase migration list --linked
+
+      - name: Apply repository migrations
+        run: supabase db push --linked --include-all --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Verify upload operations migration
+        shell: bash
+        run: |
+          set -euo pipefail
+          supabase migration list --linked | tee /tmp/migrations.txt
+          grep -q "20260819_000003" /tmp/migrations.txt || { echo "Upload operations migration not present after push"; exit 1; }
