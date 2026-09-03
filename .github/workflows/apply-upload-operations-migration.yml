@@ -3,7 +3,7 @@ name: Apply Upload Operations Production Migration
 on:
   push:
     branches:
-      - fix/apply-production-upload-migration
+      - fix/run-production-upload-migration
     paths:
       - .github/workflows/apply-upload-operations-migration.yml
 
