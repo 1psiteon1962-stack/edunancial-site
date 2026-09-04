@@ -74,7 +74,10 @@ export async function POST(request: NextRequest) {
       },
       body: payload,
       cache: "no-store",
-      signal: AbortSignal.timeout(8000),
+      // Video rendering is intentionally long-running. Eight seconds was only
+      // enough for dispatch/preflight work and caused the client to abort a
+      // healthy Railway render. Allow up to five minutes for FFmpeg/TTS work.
+      signal: AbortSignal.timeout(300000),
     });
 
     if (!workerResponse.ok) {
