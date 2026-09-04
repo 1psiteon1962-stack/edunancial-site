@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import AutoNarrationBridge from "@/components/video-studio/AutoNarrationBridge";
 import MarketingShortClient from "@/components/video-studio/MarketingShortClient";
 import VideoStudioReadiness from "@/components/video-studio/VideoStudioReadiness";
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
@@ -9,6 +10,7 @@ export default async function VideoStudioPage() {
 
   return (
     <main className="min-h-screen bg-[#08101f] px-6 py-10 text-white">
+      <AutoNarrationBridge />
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
