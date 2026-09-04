@@ -7,7 +7,10 @@ import { signWorkerRequest } from "@/lib/video-pipeline/hmac";
 function validateEditRecipe(value: unknown) {
   const input = value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
   const trimStart = input.trimStart === undefined ? 0 : Number(input.trimStart);
-  const trimEnd = input.trimEnd === undefined ? null : Number(input.trimEnd);
+  // null is the Video Studio sentinel for "render through the natural end".
+  // Do not coerce it with Number(null), which becomes 0 and incorrectly fails
+  // validation when trimStart is also 0.
+  const trimEnd = input.trimEnd === undefined || input.trimEnd === null ? null : Number(input.trimEnd);
   const durationSeconds = input.durationSeconds === undefined ? 6 : Number(input.durationSeconds);
   if (!Number.isFinite(trimStart) || trimStart < 0) throw new Error("trimStart must be a non-negative number.");
   if (trimEnd !== null && (!Number.isFinite(trimEnd) || trimEnd <= trimStart)) throw new Error("trimEnd must be greater than trimStart.");
@@ -38,16 +41,10 @@ export async function POST(request: NextRequest) {
     if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(projectId)) throw new Error("A valid projectId is required.");
     const editRecipe = validateEditRecipe(body.editRecipe);
 
-    // Validate the dispatch configuration before creating a queued job. This
-    // prevents a missing worker URL/secret from leaving a job permanently queued.
     const baseUrl = getWorkerBaseUrl();
     const preflightPath = "/internal/jobs/00000000-0000-4000-8000-000000000000/execute";
     signWorkerRequest("POST", preflightPath, JSON.stringify({ jobId: "00000000-0000-4000-8000-000000000000" }));
 
-    // Composition renders use video_scenes and can begin with either an image or a
-    // video. source_asset_id remains required by the current job schema and is also
-    // used by the worker's legacy single-asset fallback, so choose a deterministic
-    // raw source without incorrectly requiring RAW_VIDEO.
     const { data: rawSources, error: sourceError } = await supabase
       .from("video_assets")
       .select("id,asset_type,created_at")
