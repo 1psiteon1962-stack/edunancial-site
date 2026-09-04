@@ -14,10 +14,7 @@ function controls() {
     const text = button.textContent?.trim() ?? "";
     return text === "Generate narration" || text === "Generating…";
   });
-  const render = buttons.find((button) =>
-    (button.textContent?.trim() ?? "").startsWith("Render "),
-  );
-  return { textarea, generate, render };
+  return { textarea, generate };
 }
 
 function narrationReady(textarea: Element | undefined) {
@@ -29,7 +26,6 @@ function narrationReady(textarea: Element | undefined) {
 export default function AutoNarrationBridge() {
   useEffect(() => {
     let debounce: number | undefined;
-    let replayingRender = false;
 
     const requestNarration = () => {
       const { textarea, generate } = controls();
@@ -48,45 +44,13 @@ export default function AutoNarrationBridge() {
       debounce = window.setTimeout(requestNarration, 600);
     };
 
-    const onClick = (event: MouseEvent) => {
-      if (replayingRender) return;
-      const target = event.target;
-      if (!(target instanceof Element)) return;
-      const clicked = target.closest("button");
-      const { textarea, render } = controls();
-      if (!(clicked instanceof HTMLButtonElement) || clicked !== render) return;
-      if (!(textarea instanceof HTMLTextAreaElement) || !textarea.value.trim()) return;
-      if (narrationReady(textarea)) return;
-
-      event.preventDefault();
-      event.stopPropagation();
-      event.stopImmediatePropagation();
-      requestNarration();
-
-      const started = Date.now();
-      const wait = window.setInterval(() => {
-        const current = controls();
-        if (narrationReady(current.textarea)) {
-          window.clearInterval(wait);
-          if (current.render instanceof HTMLButtonElement) {
-            replayingRender = true;
-            current.render.click();
-            window.setTimeout(() => {
-              replayingRender = false;
-            }, 0);
-          }
-        } else if (Date.now() - started > 30000) {
-          window.clearInterval(wait);
-        }
-      }, 150);
-    };
-
+    // AI narration generation is opportunistic only. Rendering must never be
+    // intercepted or blocked here: microphone narration and silent renders are
+    // valid even when OPENAI_API_KEY is not configured.
     document.addEventListener("input", onInput, true);
-    document.addEventListener("click", onClick, true);
     return () => {
       window.clearTimeout(debounce);
       document.removeEventListener("input", onInput, true);
-      document.removeEventListener("click", onClick, true);
     };
   }, []);
 
