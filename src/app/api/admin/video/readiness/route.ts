@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 export const maxDuration = 15;
 
-type ReadinessCheck = { id: string; label: string; ok: boolean; detail: string };
+type ReadinessCheck = { id: string; label: string; ok: boolean; detail: string; optional?: boolean };
 
 function workerBaseUrl() {
   return process.env.WORKER_BASE_URL?.trim().replace(/\/+$/u, "") ?? "";
@@ -32,16 +32,10 @@ export async function GET(request: NextRequest) {
   for (const bucket of ["raw-videos", "processed-videos"] as const) {
     const exists = !bucketError && bucketNames.has(bucket);
     checks.push({ id: `bucket:${bucket}`, label: `Private storage bucket: ${bucket}`, ok: exists, detail: bucketError ? bucketError.message : exists ? "Available" : "Missing" });
-
     if (exists) {
       const probePath = `.readiness/${crypto.randomUUID()}.probe`;
       const { data, error } = await supabase.storage.from(bucket).createSignedUploadUrl(probePath);
-      checks.push({
-        id: `bucket-write:${bucket}`,
-        label: `Storage upload capability: ${bucket}`,
-        ok: !error && Boolean(data?.signedUrl),
-        detail: error ? error.message : data?.signedUrl ? "Signed upload available" : "Signed upload URL unavailable",
-      });
+      checks.push({ id: `bucket-write:${bucket}`, label: `Storage upload capability: ${bucket}`, ok: !error && Boolean(data?.signedUrl), detail: error ? error.message : data?.signedUrl ? "Signed upload available" : "Signed upload URL unavailable" });
     } else {
       checks.push({ id: `bucket-write:${bucket}`, label: `Storage upload capability: ${bucket}`, ok: false, detail: "Bucket unavailable" });
     }
@@ -49,12 +43,7 @@ export async function GET(request: NextRequest) {
 
   const baseUrl = workerBaseUrl();
   const secret = process.env.WORKER_SHARED_SECRET?.trim() ?? "";
-  checks.push({
-    id: "config:worker-url",
-    label: "Worker URL",
-    ok: Boolean(baseUrl) && (process.env.NODE_ENV !== "production" || /^https:\/\//iu.test(baseUrl)),
-    detail: !baseUrl ? "WORKER_BASE_URL is not configured" : process.env.NODE_ENV === "production" && !/^https:\/\//iu.test(baseUrl) ? "Production worker URL must use HTTPS" : "Configured",
-  });
+  checks.push({ id: "config:worker-url", label: "Worker URL", ok: Boolean(baseUrl) && (process.env.NODE_ENV !== "production" || /^https:\/\//iu.test(baseUrl)), detail: !baseUrl ? "WORKER_BASE_URL is not configured" : process.env.NODE_ENV === "production" && !/^https:\/\//iu.test(baseUrl) ? "Production worker URL must use HTTPS" : "Configured" });
   checks.push({ id: "config:worker-secret", label: "Worker shared secret", ok: secret.length >= 32, detail: secret.length >= 32 ? "Configured" : "WORKER_SHARED_SECRET must be at least 32 characters" });
 
   let signingOk = false;
@@ -72,12 +61,7 @@ export async function GET(request: NextRequest) {
 
   const ttsKey = process.env.OPENAI_API_KEY?.trim() ?? "";
   const ttsModel = process.env.EDUNANCIAL_TTS_MODEL?.trim() || "gpt-4o-mini-tts";
-  checks.push({
-    id: "config:tts-provider",
-    label: "Multilingual text-to-speech",
-    ok: ttsKey.length > 0,
-    detail: ttsKey.length > 0 ? `Configured (${ttsModel})` : "OPENAI_API_KEY is not configured; generated multilingual narration is unavailable",
-  });
+  checks.push({ id: "config:tts-provider", label: "Multilingual text-to-speech (optional)", ok: ttsKey.length > 0, optional: true, detail: ttsKey.length > 0 ? `Configured (${ttsModel})` : "Optional AI narration is unavailable; microphone narration and video rendering remain available" });
 
   let healthOk = false;
   let healthDetail = "Worker URL is not configured";
@@ -93,6 +77,6 @@ export async function GET(request: NextRequest) {
   }
   checks.push({ id: "worker:health", label: "Video worker health", ok: healthOk, detail: healthDetail });
 
-  const ready = checks.every((check) => check.ok);
+  const ready = checks.filter((check) => !check.optional).every((check) => check.ok);
   return Response.json({ success: true, ready, checkedAt: new Date().toISOString(), checks }, { headers: { "Cache-Control": "private, no-store, max-age=0" } });
 }
