@@ -30,7 +30,10 @@ export const DEFAULT_AI_LEARNING_CONFIG: AILearningAdminConfig = {
     "LATAM",
     "MIDDLE-EAST",
   ],
-  supportedLanguages: LANGUAGE_CATALOG.map((language) => language.code),
+  // The server pipeline canonicalizes locale codes to lowercase (for example,
+  // en-US -> en-us). Keep the allow-list in the same canonical form so valid
+  // regional locales are not rejected before the model call.
+  supportedLanguages: LANGUAGE_CATALOG.map((language) => language.code.toLowerCase()),
   publicAssistanceEnabled: true,
 };
 
@@ -56,7 +59,8 @@ export function mergeAILearningConfig(
       candidate.supportedJurisdictions?.map((jurisdiction) => jurisdiction.toUpperCase()) ??
       DEFAULT_AI_LEARNING_CONFIG.supportedJurisdictions,
     supportedLanguages:
-      candidate.supportedLanguages ?? DEFAULT_AI_LEARNING_CONFIG.supportedLanguages,
+      candidate.supportedLanguages?.map((language) => language.toLowerCase()) ??
+      DEFAULT_AI_LEARNING_CONFIG.supportedLanguages,
     publicAssistanceEnabled:
       typeof candidate.publicAssistanceEnabled === "boolean"
         ? candidate.publicAssistanceEnabled
