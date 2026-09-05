@@ -34,12 +34,37 @@ test("returns not-configured response when OPENAI_API_KEY is absent", async () =
       context: buildContext(),
     });
 
-    // Without an API key the system must not silently fail — it must tell the
-    // learner clearly that the coach is not configured.
     assert.equal(response.enabled, false);
     assert.match(response.message, /not yet configured|temporarily unavailable/i);
     assert.equal(typeof response.contextSummary, "string");
     assert.ok(response.contextSummary.length > 0);
+  } finally {
+    if (saved !== undefined) process.env.OPENAI_API_KEY = saved;
+  }
+});
+
+test("normalized regional locale passes configuration gating", async () => {
+  const saved = process.env.OPENAI_API_KEY;
+  delete process.env.OPENAI_API_KEY;
+
+  try {
+    const response = await generateAILearningResponse({
+      message: "Any other property rights?",
+      context: buildContext({
+        pathname: "/curriculum/red/l1/red-l1-001",
+        track: "RED",
+        level: 1,
+        lessonId: "RED-L1-001",
+        language: "en-us",
+      }),
+    });
+
+    // The normalized locale must pass the availability gate. With no key in
+    // this test environment, the next expected response is the configuration
+    // message rather than the lesson/jurisdiction/language unavailable message.
+    assert.equal(response.enabled, false);
+    assert.match(response.message, /not yet configured/i);
+    assert.doesNotMatch(response.message, /lesson, jurisdiction, or language configuration/i);
   } finally {
     if (saved !== undefined) process.env.OPENAI_API_KEY = saved;
   }
@@ -55,8 +80,6 @@ test("blocks specific investment advice with guardrail before calling AI", async
       context: buildContext({ progressPercent: 10 }),
     });
 
-    // Guardrail fires before the AI call, so enabled:true and message reflects
-    // the investment-advice boundary even when the API key is absent.
     assert.equal(response.enabled, true);
     assert.match(response.message, /does not recommend specific stocks/i);
     assert.ok(response.disclaimers.length >= 1);
