@@ -12,7 +12,8 @@ function buildContext(overrides: Partial<AILearningContext> = {}): AILearningCon
     level: 3,
     lessonId: "BLUE-L3-004",
     topic: "Entity selection",
-    language: "en-US",
+    // Contexts reaching the service have already passed through pipeline locale canonicalization.
+    language: "en-us",
     membership: "premium",
     jurisdiction: "US",
     country: "US",
