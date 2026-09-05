@@ -1,29 +1,22 @@
 "use client";
 
 import Link from "next/link";
-
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { getHomeMarketingCopy } from "@/lib/international/home-marketing-copy";
+import { getRecentPositioningCopy } from "@/lib/international/recent-positioning-copy";
 
 export default function HomePageClient() {
   const { effectiveLanguage, t } = useInternationalPreferences();
   const copy = getHomeMarketingCopy(effectiveLanguage);
-  const isEnglish = effectiveLanguage === "en" || effectiveLanguage.startsWith("en-");
-  const pathwayLabel = isEnglish ? "THE EDUNANCIAL PATH™" : copy.colorLabel;
-  const pathwayTitle = isEnglish ? "Eight subjects. Five levels. One goal: financial intelligence." : copy.colorTitle;
-  const journeySteps = isEnglish
-    ? ["Financial literacy", "Financial competency", "Applied decision-making", "Strategic integration", "Financial intelligence"]
-    : copy.journeySteps;
+  const positioning = getRecentPositioningCopy(effectiveLanguage);
+  const { label: pathwayLabel, title: pathwayTitle, steps: journeySteps } = positioning.pathway;
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section aria-labelledby="homepage-hero-heading" className="border-b border-white/10 bg-gradient-to-b from-[#08101f] via-[#0d1730] to-[#08101f]">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28"><div className="mx-auto max-w-5xl text-center">
-          <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">{copy.heroEyebrow}</p>
-          <h1 id="homepage-hero-heading" className="mt-6 text-5xl font-black leading-tight sm:text-6xl md:text-7xl">{copy.heroTitle}</h1>
-          <p className="mx-auto mt-7 max-w-4xl text-xl leading-9 text-slate-200">{copy.heroBody}</p>
-          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row"><Link href="/curriculum" className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 text-lg font-black text-black transition hover:bg-yellow-300">{copy.startFree}</Link><Link href="/assessment" className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold text-white transition hover:bg-blue-700">{copy.takeAssessment}</Link></div>
-          <p className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-slate-400">{copy.freeAccessNote}</p>
+          <p className="text-xs font-black uppercase tracking-[0.45em] text-yellow-300 md:text-sm">{copy.heroEyebrow}</p><h1 id="homepage-hero-heading" className="mt-6 text-5xl font-black leading-tight sm:text-6xl md:text-7xl">{copy.heroTitle}</h1><p className="mx-auto mt-7 max-w-4xl text-xl leading-9 text-slate-200">{copy.heroBody}</p>
+          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row"><Link href="/curriculum" className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 text-lg font-black text-black transition hover:bg-yellow-300">{copy.startFree}</Link><Link href="/assessment" className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold text-white transition hover:bg-blue-700">{copy.takeAssessment}</Link></div><p className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-slate-400">{copy.freeAccessNote}</p>
         </div></div>
       </section>
       <section aria-labelledby="problem-heading" className="mx-auto max-w-7xl px-6 py-16 md:py-20"><div className="mx-auto max-w-5xl text-center"><p className="text-sm font-bold uppercase tracking-[0.4em] text-yellow-400">{copy.whyLabel}</p><h2 id="problem-heading" className="mt-4 text-4xl font-black md:text-5xl">{copy.whyTitle}</h2><p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-slate-300">{copy.whyBody}</p></div><div className="mt-10 grid gap-6 md:grid-cols-3">{copy.barriers.map(([title, body]) => <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-7"><h3 className="text-2xl font-black text-yellow-300">{title}</h3><p className="mt-4 leading-7 text-slate-300">{body}</p></div>)}</div></section>
