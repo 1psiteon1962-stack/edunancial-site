@@ -29,6 +29,10 @@ async function delay(ms: number): Promise<void> {
  * Transient failures are retried first. If retries are exhausted (or the error
  * is permanent), the failed item is reported through onFailure and the queue
  * advances to the next package. Successful results are returned normally.
+ *
+ * If every package fails, rethrow the first terminal error after the queue has
+ * finished. Callers can then display the real failure instead of navigating to
+ * an undefined review batch.
  */
 export async function runSequentialFinalization<T, R>(
   items: readonly T[],
@@ -37,6 +41,7 @@ export async function runSequentialFinalization<T, R>(
   onFailure?: (failure: FinalizeFailure<T>) => void,
 ): Promise<R[]> {
   const results: R[] = [];
+  let firstTerminalError: unknown = null;
   if (items.length === 0) {
     onProgress?.({ completed: 0, total: 0, percent: 100 });
     return results;
@@ -58,6 +63,7 @@ export async function runSequentialFinalization<T, R>(
           continue;
         }
 
+        if (firstTerminalError === null) firstTerminalError = error;
         onFailure?.({ item: items[index], index, error });
         break;
       }
@@ -70,5 +76,10 @@ export async function runSequentialFinalization<T, R>(
       percent: Math.round((completed / items.length) * 100),
     });
   }
+
+  if (results.length === 0 && firstTerminalError !== null) {
+    throw firstTerminalError;
+  }
+
   return results;
 }
