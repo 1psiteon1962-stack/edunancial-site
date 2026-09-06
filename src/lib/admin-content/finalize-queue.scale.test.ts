@@ -35,7 +35,7 @@ describe("runSequentialFinalization scale", () => {
     });
   }
 
-  test("a failure in a 50-package queue stops later work without overlapping finalizers", async () => {
+  test("a transient failure in a 50-package queue retries that package, then stops before later work", async () => {
     const items = Array.from({ length: 50 }, (_, index) => index + 1);
     const visited: number[] = [];
 
@@ -48,6 +48,10 @@ describe("runSequentialFinalization scale", () => {
       /package 26/,
     );
 
-    assert.deepEqual(visited, Array.from({ length: 26 }, (_, index) => index + 1));
+    assert.deepEqual(
+      visited,
+      [...Array.from({ length: 26 }, (_, index) => index + 1), 26, 26],
+    );
+    assert.equal(visited.includes(27), false);
   });
 });

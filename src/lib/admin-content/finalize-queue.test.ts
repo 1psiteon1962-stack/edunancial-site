@@ -27,7 +27,22 @@ describe("runSequentialFinalization", () => {
     assert.deepEqual(progress, [33, 67, 100]);
   });
 
-  test("stops before later packages when one request fails", async () => {
+  test("retries a transient finalization failure without advancing to the next package", async () => {
+    const visited: number[] = [];
+    let attemptsForTwo = 0;
+    const result = await runSequentialFinalization([1, 2, 3], async (item) => {
+      visited.push(item);
+      if (item === 2) {
+        attemptsForTwo += 1;
+        if (attemptsForTwo === 1) throw new Error("HTTP 504");
+      }
+      return item;
+    });
+    assert.deepEqual(result, [1, 2, 3]);
+    assert.deepEqual(visited, [1, 2, 2, 3]);
+  });
+
+  test("stops before later packages after transient retries are exhausted", async () => {
     const visited: number[] = [];
     await assert.rejects(
       runSequentialFinalization([1, 2, 3], async (item) => {
@@ -36,6 +51,19 @@ describe("runSequentialFinalization", () => {
         return item;
       }),
       /504/,
+    );
+    assert.deepEqual(visited, [1, 2, 2, 2]);
+  });
+
+  test("does not retry non-transient validation failures", async () => {
+    const visited: number[] = [];
+    await assert.rejects(
+      runSequentialFinalization([1, 2, 3], async (item) => {
+        visited.push(item);
+        if (item === 2) throw new Error("HTTP 422: invalid curriculum filename");
+        return item;
+      }),
+      /422/,
     );
     assert.deepEqual(visited, [1, 2]);
   });

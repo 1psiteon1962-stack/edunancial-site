@@ -7,15 +7,48 @@ import {
   importPublishedLessonTranslations,
   upsertPublishedLessonFromRegistry,
 } from "@/lib/curriculum/authoritative-published";
+import { getLessonContent } from "@/lib/curriculum/reader";
 
 const LESSON_ID = /([A-Z]+-L\d+-\d{3})/u;
 const CANONICAL_ENGLISH = new Set(["en", "en-us"]);
+const PUBLISHED_STATE_PATH = "published/curriculum-state.json";
 
 function normalizeLocale(locale: string | null | undefined): string | null {
   const value = locale?.trim();
   if (!value) return null;
   if (value.toLowerCase() === "en") return "en-US";
   return value;
+}
+
+function translationKey(lessonId: string, locale: string): string {
+  return `${lessonId.trim().toUpperCase()}::${locale.trim().toLowerCase()}`;
+}
+
+async function readStoredTranslationKeys(): Promise<Set<string>> {
+  const buffer = await getAdminContentStorage().readBinary(PUBLISHED_STATE_PATH);
+  if (!buffer) return new Set();
+  try {
+    const parsed = JSON.parse(buffer.toString("utf8")) as {
+      lessons?: Record<string, { translations?: Record<string, unknown> }>;
+    };
+    const keys = new Set<string>();
+    for (const [lessonId, lesson] of Object.entries(parsed.lessons ?? {})) {
+      for (const locale of Object.keys(lesson.translations ?? {})) {
+        keys.add(translationKey(lessonId, locale));
+      }
+    }
+    return keys;
+  } catch {
+    return new Set();
+  }
+}
+
+function hasExactCommittedTranslation(lessonId: string, locale: string): boolean {
+  const content = getLessonContent(lessonId, locale);
+  if (!content) return false;
+  return content.localization.translated === true
+    && content.localization.resolution === "exact"
+    && content.localization.resolvedLocale.toLowerCase() === locale.toLowerCase();
 }
 
 /** Resolve locale from the strongest available source. */
@@ -126,9 +159,9 @@ export async function restoreCanonicalLessonsAfterLocalizedPublish(batch: Upload
   return { attempted: lessonIds.length, restored, missingRegistryLessonIds };
 }
 
-export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; missingLessonIds: string[] }> {
+export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; skippedExisting: number; missingLessonIds: string[] }> {
   const candidates = localizedCandidates(batch);
-  if (candidates.length === 0) return { repaired: 0, translated: 0, missingLessonIds: [] };
+  if (candidates.length === 0) return { repaired: 0, translated: 0, skippedExisting: 0, missingLessonIds: [] };
 
   const requestedLessonIds = [...new Set(candidates.map((candidate) => candidate.lessonId))];
   const canonical = await exportPublishedLessonTranslations({ lessonIds: requestedLessonIds });
@@ -136,7 +169,19 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
     canonical.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()),
   );
   const missingLessonIds = requestedLessonIds.filter((lessonId) => !existingLessonIds.has(lessonId));
-  const publishable = candidates.filter((candidate) => existingLessonIds.has(candidate.lessonId));
+  const storedTranslationKeys = await readStoredTranslationKeys();
+
+  let skippedExisting = 0;
+  const publishable = candidates.filter((candidate) => {
+    if (!existingLessonIds.has(candidate.lessonId)) return false;
+    const alreadyStored = storedTranslationKeys.has(translationKey(candidate.lessonId, candidate.locale));
+    const alreadyCommitted = hasExactCommittedTranslation(candidate.lessonId, candidate.locale);
+    if (alreadyStored || alreadyCommitted) {
+      skippedExisting += 1;
+      return false;
+    }
+    return true;
+  });
 
   const result = publishable.length > 0
     ? await importPublishedLessonTranslations(publishable.map(({ locale, lessonId, title, summary, body }) => ({
@@ -149,6 +194,7 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
     : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
 
   const missing = new Set(missingLessonIds);
+  const publishableKeys = new Set(publishable.map((candidate) => translationKey(candidate.lessonId, candidate.locale)));
   let repaired = 0;
   batch.files = batch.files.map((file) => {
     const candidate = candidates.find((entry) => entry.file.id === file.id);
@@ -156,15 +202,19 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
     repaired += 1;
     const language = candidate.locale as SupportedLanguage;
     const destination = replaceDestinationLanguage(file.classification.destination, candidate.locale);
+    const imported = publishableKeys.has(translationKey(candidate.lessonId, candidate.locale));
     return {
       ...file,
       conflictStatus: "none",
-      duplicateStatus: "new",
+      duplicateStatus: imported ? "new" : "exact-duplicate",
       classification: {
         ...file.classification,
         language,
         destination,
-        reasons: [...file.classification.reasons, `published-locale:${candidate.locale}`],
+        reasons: [
+          ...file.classification.reasons,
+          imported ? `published-locale:${candidate.locale}` : `skipped-existing-locale:${candidate.locale}`,
+        ],
       },
       metadata: { ...file.metadata, language, intendedDestination: destination },
       updatedAt: new Date().toISOString(),
@@ -174,5 +224,5 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
   batch.status = deriveBatchStatus(batch.files);
   batch.updatedAt = new Date().toISOString();
   await getAdminContentStorage().updateBatch(batch);
-  return { repaired, translated: result.updatedRecords, missingLessonIds };
+  return { repaired, translated: result.updatedRecords, skippedExisting, missingLessonIds };
 }
