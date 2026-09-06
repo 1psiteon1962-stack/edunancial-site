@@ -8,7 +8,7 @@ import { runSequentialFinalization } from "@/lib/admin-content/finalize-queue";
 import { runParallelUploads } from "@/lib/admin-content/parallel-upload";
 
 const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
-const MARKETPLACE_CATEGORIES = ["books","ebooks","pdf-guides","templates","worksheets","forms","downloads","zip-packages","audio","videos","images","software","digital-products","calculators","presentations","spreadsheets","future-products"] as const;
+const MARKETPLACE_CATEGORIES = ["books","ebooks","pdf-guides","templates","worksheets","forms","downloads","zip-packages","audio","videos","images","software","digital-products","calculators","presentations","spreadsheets","flashcards","future-products"] as const;
 type Track = "red"|"white"|"blue"|"green"|"gold"|"purple"|"orange"|"black";
 type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];
 const TRACKS:Array<{value:Track;label:string}>=[{value:"red",label:"🔴 Red — Real Estate"},{value:"white",label:"⚪ White — Paper Assets"},{value:"blue",label:"🔵 Blue — Business"},{value:"green",label:"🟢 Green — Taxes"},{value:"gold",label:"🟡 Gold — Investing"},{value:"purple",label:"🟣 Purple — Law"},{value:"orange",label:"🟠 Orange — Sales & Marketing"},{value:"black",label:"⚫ Black — Leadership & Executive Management"}];

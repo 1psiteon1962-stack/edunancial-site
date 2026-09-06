@@ -8,7 +8,7 @@ export const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level
 export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] as const;
 export { MEMBERSHIP_ACCESS } from "@/lib/admin-content/constants";
 export const SUPPORTED_REGIONS = ["north-america", "latin-america", "caribbean", "europe", "africa", "asia", "middle-east", "oceania", "global"] as const;
-export const MARKETPLACE_CATEGORIES = ["books", "ebooks", "pdf-guides", "templates", "worksheets", "forms", "downloads", "zip-packages", "audio", "videos", "images", "software", "digital-products", "calculators", "presentations", "spreadsheets", "future-products"] as const;
+export const MARKETPLACE_CATEGORIES = ["books", "ebooks", "pdf-guides", "templates", "worksheets", "forms", "downloads", "zip-packages", "audio", "videos", "images", "software", "digital-products", "calculators", "presentations", "spreadsheets", "flashcards", "future-products"] as const;
 export const CURRICULUM_FILENAME_LOCALES = ["es-Caribbean", "en-US", "en-GB", "es-ES", "fr-CA", "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "es", "fr", "pt", "en"] as const;
 export type ContentDestination = (typeof CONTENT_DESTINATIONS)[number];
 export type { CourseTrack } from "@/lib/admin-content/constants";
