@@ -38,7 +38,6 @@ export interface AILearningContextInput {
 }
 
 interface ParsedCurriculumPath { track: string | null; level: number | null; lessonId: string | null; }
-const DEFAULT_JURISDICTION = "US";
 
 export function parseCurriculumPath(pathname: string): ParsedCurriculumPath {
   const match = pathname.match(/^\/curriculum\/([^/]+)(?:\/(l\d+))?(?:\/([^/?#]+))?/i);
@@ -103,9 +102,14 @@ export function safeSaveContextToSessionStorage(context: AILearningContext): voi
   if (typeof window !== "undefined") sessionStorage.setItem(AI_LEARNING_CONTEXT_SESSION_KEY, JSON.stringify(context));
 }
 
+/**
+ * Normalize a jurisdiction only when one is actually known. Empty input remains
+ * empty so jurisdiction-sensitive teaching fails closed instead of silently
+ * applying United States rules to an unknown learner.
+ */
 export function normalizeJurisdiction(value: string | null | undefined): string {
   const normalized = value?.trim().toUpperCase();
-  if (!normalized) return DEFAULT_JURISDICTION;
+  if (!normalized) return "";
   if (normalized.includes("UNITED STATES") || normalized === "USA") return "US";
   if (normalized.includes("CANADA")) return "CA";
   if (normalized.includes("MEXICO")) return "MX";
