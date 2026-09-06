@@ -10,11 +10,25 @@ const securityHeaders = [
   { key: "X-DNS-Prefetch-Control", value: "off" },
 ];
 
+const videoStudioHeaders = securityHeaders.map((header) =>
+  header.key === "Permissions-Policy"
+    ? { ...header, value: "camera=(), microphone=(self), geolocation=(), browsing-topics=()" }
+    : header,
+);
+
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   async headers() {
     return [
+      {
+        source: "/admin/video-studio",
+        headers: videoStudioHeaders,
+      },
+      {
+        source: "/admin/video-studio/:path*",
+        headers: videoStudioHeaders,
+      },
       {
         source: "/:path*",
         headers: securityHeaders,
