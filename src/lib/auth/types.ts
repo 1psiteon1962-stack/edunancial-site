@@ -10,7 +10,12 @@ export interface AuthUser {
   lastName: string;
   membershipTier: MembershipTier;
   joinedDate: string;
+  /** Confirmed country of residence / primary learning jurisdiction. */
   country: string;
+  /** Required where the selected country needs state/province/territory context. */
+  subdivisionCode?: string | null;
+  /** Records that the learner explicitly confirmed the jurisdiction rather than relying on IP inference. */
+  jurisdictionConfirmedAt?: string | null;
   dateOfBirth?: string | null;
   gender?: SelfReportedGender | null;
   genderSelfDescription?: string | null;
@@ -28,7 +33,10 @@ export interface RegisterData {
   lastName: string;
   email: string;
   password: string;
+  /** User-confirmed country; geolocation may prefill this but cannot confirm it. */
   country: string;
+  /** User-confirmed state/province/territory when applicable. */
+  subdivisionCode?: string | null;
   dateOfBirth: string;
   gender?: SelfReportedGender | null;
   genderSelfDescription?: string | null;
