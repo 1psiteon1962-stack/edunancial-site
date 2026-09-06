@@ -18,17 +18,22 @@ export class MemoryJurisdictionRepository implements JurisdictionRepository {
     topics: string[];
     asOf: string;
   }): Promise<JurisdictionRule[]> {
-    const country = input.jurisdiction.toUpperCase();
-    const subdivision = input.subdivisionCode?.toUpperCase();
+    const country = input.jurisdiction.trim().toUpperCase();
+    const subdivision = input.subdivisionCode?.trim().toUpperCase();
     const topics = new Set(input.topics);
+
     return this.rules.filter(rule => {
-      if (rule.countryCode.toUpperCase() !== country) return false;
+      if (rule.jurisdiction.trim().toUpperCase() !== country) return false;
+
       if (subdivision) {
-        if (rule.subdivisionCode && rule.subdivisionCode.toUpperCase() !== subdivision) return false;
+        // Include country-wide rules plus rules for the selected subdivision.
+        if (rule.subdivisionCode && rule.subdivisionCode.trim().toUpperCase() !== subdivision) return false;
       } else if (rule.subdivisionCode) {
+        // Never apply a state/province rule when no subdivision was selected.
         return false;
       }
-      return topics.has(rule.topic);
+
+      return rule.topics.some(topic => topics.has(topic));
     });
   }
 
