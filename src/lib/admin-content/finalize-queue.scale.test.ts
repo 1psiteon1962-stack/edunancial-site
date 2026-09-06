@@ -35,23 +35,31 @@ describe("runSequentialFinalization scale", () => {
     });
   }
 
-  test("a transient failure in a 50-package queue retries that package, then stops before later work", async () => {
+  test("a transient failure in a 50-package queue retries that package and continues through package 50", async () => {
     const items = Array.from({ length: 50 }, (_, index) => index + 1);
     const visited: number[] = [];
+    const progress: Array<{ completed: number; total: number; percent: number }> = [];
 
-    await assert.rejects(
-      runSequentialFinalization(items, async (item) => {
+    const results = await runSequentialFinalization(
+      items,
+      async (item) => {
         visited.push(item);
         if (item === 26) throw new Error("HTTP 504 on package 26");
         return item;
-      }),
-      /package 26/,
+      },
+      (entry) => progress.push(entry),
     );
 
-    assert.deepEqual(
-      visited,
-      [...Array.from({ length: 26 }, (_, index) => index + 1), 26, 26],
-    );
-    assert.equal(visited.includes(27), false);
+    assert.deepEqual(visited, [
+      ...Array.from({ length: 26 }, (_, index) => index + 1),
+      26,
+      26,
+      ...Array.from({ length: 24 }, (_, index) => index + 27),
+    ]);
+    assert.equal(visited.includes(27), true);
+    assert.equal(visited.at(-1), 50);
+    assert.equal(results.length, 49);
+    assert.equal(results.includes(26), false);
+    assert.deepEqual(progress.at(-1), { completed: 50, total: 50, percent: 100 });
   });
 });
