@@ -16,6 +16,7 @@ import {
   getCurriculumLocaleFallbackChain,
   resolveCurriculumLocale,
 } from "@/lib/curriculum/localization";
+import { backfillMissingPublishedLessonsFromRegistry } from "@/lib/curriculum/published-registry-backfill";
 
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
 const INDEX_VERSION = 4;
@@ -203,7 +204,16 @@ export async function getRuntimePublishedTrack(trackCode: string, languageOrLoca
   return { ...track, levels: track.levels.map((level) => ({ ...level, lessons: level.lessons.map((lesson) => applyHistoricalTranslation(lesson, locale, index)) })) };
 }
 
-export async function reconcilePublishedTranslationsFromHistory(): Promise<{ scannedBatches: number; indexedTranslations: number; importedTranslations: number; skippedMissingCanonicalLessons: number; complete: boolean }> {
+export async function reconcilePublishedTranslationsFromHistory(): Promise<{
+  scannedBatches: number;
+  indexedTranslations: number;
+  importedTranslations: number;
+  skippedMissingCanonicalLessons: number;
+  complete: boolean;
+  backfilledCanonicalLessons: number;
+  backfilledByTrack: Record<string, number>;
+}> {
+  const canonicalBackfill = await backfillMissingPublishedLessonsFromRegistry(RECONCILE_TRACKS);
   const index = await rebuildHistoricalTranslationIndex();
   const eligibleEntries = Object.entries(index.translations).filter(([lessonId]) => isReconcileTrack(lessonId));
   const lessonIds = eligibleEntries.map(([lessonId]) => lessonId);
@@ -218,6 +228,8 @@ export async function reconcilePublishedTranslationsFromHistory(): Promise<{ sca
       importedTranslations: 0,
       skippedMissingCanonicalLessons: 0,
       complete: index.complete,
+      backfilledCanonicalLessons: canonicalBackfill.added,
+      backfilledByTrack: canonicalBackfill.byTrack,
     };
   }
 
@@ -241,6 +253,8 @@ export async function reconcilePublishedTranslationsFromHistory(): Promise<{ sca
     importedTranslations: imported.updatedRecords,
     skippedMissingCanonicalLessons,
     complete: index.complete,
+    backfilledCanonicalLessons: canonicalBackfill.added,
+    backfilledByTrack: canonicalBackfill.byTrack,
   };
 }
 
