@@ -63,4 +63,16 @@ describe("runSequentialFinalization", () => {
     assert.deepEqual(visited, [1, 2, 3]);
     assert.deepEqual(results, [1, 3]);
   });
+
+  test("surfaces the original error when every package fails instead of returning an empty result", async () => {
+    const visited: number[] = [];
+    await assert.rejects(
+      runSequentialFinalization([1, 2], async (item) => {
+        visited.push(item);
+        throw new Error(item === 1 ? "HTTP 422: marketplace package invalid" : "HTTP 400: second package invalid");
+      }),
+      /marketplace package invalid/,
+    );
+    assert.deepEqual(visited, [1, 2]);
+  });
 });
