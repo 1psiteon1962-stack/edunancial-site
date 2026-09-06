@@ -4,6 +4,12 @@ export type FinalizeProgress = {
   percent: number;
 };
 
+export type FinalizeFailure<T> = {
+  item: T;
+  index: number;
+  error: unknown;
+};
+
 const DEFAULT_TRANSIENT_RETRIES = 2;
 const BASE_RETRY_DELAY_MS = 1200;
 
@@ -17,23 +23,18 @@ async function delay(ms: number): Promise<void> {
 }
 
 /**
- * Finalize packages one request at a time. Each package therefore receives its
- * own serverless execution budget instead of making one request responsible
- * for extracting and normalizing an entire bulk curriculum selection.
+ * Finalize packages one request at a time. A failure belongs to the individual
+ * package and must never prevent later packages from being processed.
  *
- * Intentionally sequential: ZIP extraction is CPU/memory heavy and running
- * several finalizers concurrently can trade a timeout for resource pressure.
- *
- * Transient gateway/network failures are retried against the same already-
- * uploaded storage object. This avoids forcing the owner to upload large ZIPs
- * again when the storage transfer succeeded but the serverless finalizer was
- * interrupted. The server-side finalizer is idempotency-aware and skips an
- * upload that already recorded a successful FINALIZE operation.
+ * Transient failures are retried first. If retries are exhausted (or the error
+ * is permanent), the failed item is reported through onFailure and the queue
+ * advances to the next package. Successful results are returned normally.
  */
 export async function runSequentialFinalization<T, R>(
   items: readonly T[],
   worker: (item: T, index: number) => Promise<R>,
   onProgress?: (progress: FinalizeProgress) => void,
+  onFailure?: (failure: FinalizeFailure<T>) => void,
 ): Promise<R[]> {
   const results: R[] = [];
   if (items.length === 0) {
@@ -50,10 +51,15 @@ export async function runSequentialFinalization<T, R>(
         results.push(await worker(items[index], index));
         break;
       } catch (error) {
-        if (!isTransientFinalizeError(error) || retriesRemaining <= 0) throw error;
-        attempt += 1;
-        retriesRemaining -= 1;
-        await delay(BASE_RETRY_DELAY_MS * attempt);
+        if (isTransientFinalizeError(error) && retriesRemaining > 0) {
+          attempt += 1;
+          retriesRemaining -= 1;
+          await delay(BASE_RETRY_DELAY_MS * attempt);
+          continue;
+        }
+
+        onFailure?.({ item: items[index], index, error });
+        break;
       }
     }
 
