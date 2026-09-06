@@ -1,4 +1,5 @@
 import { canadaRequiresSubdivision, isCanadaSubdivision } from './canada';
+import { isUnitedStatesSubdivision, unitedStatesRequiresSubdivision } from './united-states';
 import type { JurisdictionSelection } from './types';
 
 export interface JurisdictionPolicyResult {
@@ -15,6 +16,10 @@ export function evaluateJurisdictionSelection(
   const subdivisionCode = selection.subdivisionCode?.trim().toUpperCase();
   const normalized = { ...selection, countryCode, subdivisionCode };
 
+  if (!countryCode) {
+    return { usable: false, selection: normalized, reason: 'A jurisdiction must be selected before jurisdiction-specific guidance can be provided.' };
+  }
+
   if (countryCode === 'CA') {
     if (subdivisionCode && !isCanadaSubdivision(subdivisionCode)) {
       return { usable: false, selection: normalized, reason: 'Invalid Canadian province or territory.' };
@@ -24,6 +29,19 @@ export function evaluateJurisdictionSelection(
         usable: false,
         selection: normalized,
         reason: 'This Canadian topic requires a province or territory before jurisdiction-specific guidance can be provided.',
+      };
+    }
+  }
+
+  if (countryCode === 'US') {
+    if (subdivisionCode && !isUnitedStatesSubdivision(subdivisionCode)) {
+      return { usable: false, selection: normalized, reason: 'Invalid United States state, district, or territory.' };
+    }
+    if (unitedStatesRequiresSubdivision(topics) && !subdivisionCode) {
+      return {
+        usable: false,
+        selection: normalized,
+        reason: 'This United States topic requires a state, district, or territory before state-specific guidance can be provided.',
       };
     }
   }
