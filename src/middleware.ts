@@ -139,25 +139,17 @@ export async function middleware(request: NextRequest) {
   response.headers.set("X-Content-Type-Options", "nosniff");
   response.headers.set(
     "Permissions-Policy",
-    "camera=(), microphone=(), geolocation=(), payment=(self)",
+    "camera=(), microphone=(self), geolocation=(), payment=(self)",
   );
 
   if (isAdminPath || isExecutivePath || isCuPath || isCuApiPath || isContentLoaderPath) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
 
-    // Build connect-src: always include 'self'; additionally include the
-    // Supabase origin so admin pages can POST/PUT file bytes directly to
-    // Supabase Storage (two-phase upload flow).  NEXT_PUBLIC_SUPABASE_URL is a
-    // build-time public env var so it is safely readable from the Edge
-    // middleware.
     const supabaseOrigin = (() => {
       try {
         const raw = process.env.NEXT_PUBLIC_SUPABASE_URL;
         if (!raw) return "";
         const parsed = new URL(raw);
-        // Only accept https: origins that look like Supabase project URLs to
-        // avoid accidentally permitting arbitrary origins via a misconfigured
-        // env var.
         return parsed.protocol === "https:" ? " " + parsed.origin : "";
       } catch {
         return "";
