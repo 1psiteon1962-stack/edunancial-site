@@ -57,6 +57,7 @@ export default function MembershipPageClient() {
               const priceLabel = localizedPrice
                 ? `${formatLocalizedPrice(localizedPrice, effectiveLanguage)} ${localizedPrice.currency}`
                 : `${plan.currency} ${plan.monthlyPrice.toFixed(2)}`;
+              const annualSavings = plan.monthlyPrice * 12 - plan.annualPrice;
 
               return (
                 <div key={plan.id} className="rounded-2xl border border-white/10 bg-white p-8 text-slate-950 shadow-xl">
@@ -66,6 +67,12 @@ export default function MembershipPageClient() {
                     <span className="text-5xl font-black">{priceLabel}</span>
                     <span className="ml-2 text-slate-500">{copy.billingLabel}</span>
                   </div>
+                  {plan.annualPrice > 0 && (
+                    <div className="mt-4 rounded-xl border border-blue-100 bg-blue-50 p-4">
+                      <p className="text-lg font-black text-blue-900">${plan.annualPrice.toFixed(2)} USD / year</p>
+                      <p className="mt-1 text-sm font-semibold text-blue-700">Save ${annualSavings.toFixed(2)} compared with 12 monthly payments</p>
+                    </div>
+                  )}
                   {localizedPrice && localizedPrice.currency !== "USD" && (
                     <p className="mt-2 text-xs text-slate-500">
                       {getLocalPriceNote(effectiveLanguage, countryCode)}
@@ -79,12 +86,20 @@ export default function MembershipPageClient() {
                     <li>{plan.prioritySupport ? t("membership.yesLabel") : t("membership.noLabel")} - {getMembershipFeatureLabel("prioritySupport", language)}</li>
                   </ul>
                   {copy.legalNote && <p className="mt-6 text-xs leading-6 text-slate-500">{copy.legalNote}</p>}
-                  <Link
-                    href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`}
-                    className="mt-10 inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-bold text-white hover:bg-blue-800"
-                  >
-                    {copy.ctaLabel}
-                  </Link>
+                  {plan.showContactOnly ? (
+                    <Link href="/contact" className="mt-10 inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-bold text-white hover:bg-blue-800">
+                      {copy.ctaLabel}
+                    </Link>
+                  ) : (
+                    <div className="mt-10 grid gap-3 sm:grid-cols-2">
+                      <Link href={`/membership/checkout?plan=${plan.id}&billing=monthly`} className="inline-flex w-full justify-center rounded-xl border border-blue-700 px-6 py-4 font-bold text-blue-700 hover:bg-blue-50">
+                        Monthly
+                      </Link>
+                      <Link href={`/membership/checkout?plan=${plan.id}&billing=annual`} className="inline-flex w-full justify-center rounded-xl bg-blue-700 px-6 py-4 font-bold text-white hover:bg-blue-800">
+                        Annual
+                      </Link>
+                    </div>
+                  )}
                 </div>
               );
             })}

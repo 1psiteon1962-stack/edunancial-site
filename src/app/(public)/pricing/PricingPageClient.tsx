@@ -34,6 +34,7 @@ export default function PricingPageClient() {
 
           {publicMembershipPlans.map((plan) => {
             const copy = getMembershipPlanCopy(plan.id, language);
+            const annualSavings = plan.monthlyPrice * 12 - plan.annualPrice;
 
             return (
               <div
@@ -43,11 +44,28 @@ export default function PricingPageClient() {
                 <p className="text-sm font-bold uppercase tracking-[0.25em] text-slate-300">{copy.name}</p>
                 <p className="mt-4 text-4xl font-black">${plan.monthlyPrice.toFixed(2)}</p>
                 <p className="mt-2 text-sm text-slate-400">{copy.billingLabel}</p>
+                {plan.annualPrice > 0 && (
+                  <div className="mt-4 rounded-xl border border-blue-400/30 bg-blue-500/10 p-3">
+                    <p className="font-bold">${plan.annualPrice.toFixed(2)} / year</p>
+                    <p className="mt-1 text-xs text-slate-300">Save ${annualSavings.toFixed(2)} versus 12 monthly payments</p>
+                  </div>
+                )}
                 <p className="mt-4 text-sm leading-7 text-slate-300">{copy.description}</p>
                 {copy.legalNote && <p className="mt-4 text-xs leading-6 text-slate-400">{copy.legalNote}</p>}
-                <Link href={plan.showContactOnly ? "/contact" : `/membership/checkout?plan=${plan.id}`} className="mt-6 inline-flex rounded-xl bg-blue-600 px-5 py-3 font-bold text-white transition hover:bg-blue-700">
-                  {copy.ctaLabel}
-                </Link>
+                {plan.showContactOnly ? (
+                  <Link href="/contact" className="mt-6 inline-flex rounded-xl bg-blue-600 px-5 py-3 font-bold text-white transition hover:bg-blue-700">
+                    {copy.ctaLabel}
+                  </Link>
+                ) : (
+                  <div className="mt-6 flex flex-wrap gap-3">
+                    <Link href={`/membership/checkout?plan=${plan.id}&billing=monthly`} className="inline-flex rounded-xl border border-blue-400 px-5 py-3 font-bold text-blue-200 transition hover:bg-blue-500/10">
+                      Monthly
+                    </Link>
+                    <Link href={`/membership/checkout?plan=${plan.id}&billing=annual`} className="inline-flex rounded-xl bg-blue-600 px-5 py-3 font-bold text-white transition hover:bg-blue-700">
+                      Annual
+                    </Link>
+                  </div>
+                )}
               </div>
             );
           })}
