@@ -21,12 +21,22 @@ type MaintenanceStats = {
   };
 };
 
+type TranslationReconcileResult = {
+  scannedBatches: number;
+  indexedTranslations: number;
+  importedTranslations: number;
+  skippedMissingCanonicalLessons: number;
+  complete: boolean;
+};
+
 export default function MaintenanceClient() {
   const [csrfToken, setCsrfToken] = useState("");
   const [stats, setStats] = useState<MaintenanceStats | null>(null);
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
   const [clearText, setClearText] = useState("");
+  const [reconcilingTranslations, setReconcilingTranslations] = useState(false);
+  const [translationResult, setTranslationResult] = useState<TranslationReconcileResult | null>(null);
 
   async function refresh() {
     const sessionResponse = await fetch("/api/admin/auth/session", { cache: "no-store" });
@@ -46,6 +56,45 @@ export default function MaintenanceClient() {
   useEffect(() => {
     void refresh();
   }, []);
+
+  async function reconcileTranslations() {
+    if (reconcilingTranslations) return;
+    setReconcilingTranslations(true);
+    setTranslationResult(null);
+    setError("");
+    setMessage("Scanning approved historical uploads and reconciling existing translations…");
+
+    try {
+      const response = await fetch("/api/admin/content/maintenance/reconcile-translations", {
+        method: "POST",
+        headers: { "x-csrf-token": csrfToken },
+      });
+      const payload = await response.json();
+      if (!response.ok || payload.success === false) {
+        setError(payload.error ?? "Translation reconciliation failed.");
+        setMessage("");
+        return;
+      }
+
+      const result: TranslationReconcileResult = {
+        scannedBatches: Number(payload.scannedBatches ?? 0),
+        indexedTranslations: Number(payload.indexedTranslations ?? 0),
+        importedTranslations: Number(payload.importedTranslations ?? 0),
+        skippedMissingCanonicalLessons: Number(payload.skippedMissingCanonicalLessons ?? 0),
+        complete: payload.complete === true,
+      };
+      setTranslationResult(result);
+      setMessage(
+        `Translation reconciliation complete: ${result.indexedTranslations} existing translation record(s) found across ${result.scannedBatches} approved batch(es); ${result.importedTranslations} imported into published curriculum.${result.skippedMissingCanonicalLessons > 0 ? ` ${result.skippedMissingCanonicalLessons} skipped because the matching English lesson is not yet published.` : ""}`,
+      );
+      await refresh();
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : "Translation reconciliation failed.");
+      setMessage("");
+    } finally {
+      setReconcilingTranslations(false);
+    }
+  }
 
   async function runDeleteFailed() {
     if (!window.confirm("Delete all failed workspace batches?")) return;
@@ -156,6 +205,28 @@ export default function MaintenanceClient() {
 
         {error ? <p className="mt-6 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">{error}</p> : null}
         {message ? <p className="mt-6 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-200">{message}</p> : null}
+
+        <section className="mt-8 rounded-3xl border border-emerald-500/30 bg-emerald-950/20 p-6">
+          <h2 className="text-2xl font-bold text-emerald-100">Existing curriculum translations</h2>
+          <p className="mt-3 text-sm leading-6 text-emerald-50/85">
+            Scan approved historical upload batches for translations that already exist, match them to their published English lesson IDs, import the reusable translations into the published curriculum, and refresh curriculum routes. This does not generate new content and does not overwrite the canonical English lessons.
+          </p>
+          <button
+            onClick={reconcileTranslations}
+            disabled={reconcilingTranslations || !csrfToken}
+            className="mt-5 rounded-xl bg-emerald-600 px-5 py-3 font-semibold text-white disabled:opacity-50"
+          >
+            {reconcilingTranslations ? "Reconciling Existing Translations…" : "Reconcile Existing Translations"}
+          </button>
+          {translationResult ? (
+            <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <StatCard label="Batches scanned" value={String(translationResult.scannedBatches)} />
+              <StatCard label="Translations found" value={String(translationResult.indexedTranslations)} />
+              <StatCard label="Imported" value={String(translationResult.importedTranslations)} />
+              <StatCard label="Missing English match" value={String(translationResult.skippedMissingCanonicalLessons)} />
+            </div>
+          ) : null}
+        </section>
 
         <section className="mt-8 rounded-3xl border border-white/10 bg-[#101a2f] p-6">
           <h2 className="text-2xl font-bold">Maintenance actions</h2>

@@ -20,6 +20,7 @@ import {
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
 const INDEX_VERSION = 4;
 const REBUILD_CONCURRENCY = 6;
+const RECONCILE_TRACKS = new Set(["GOLD", "GREEN", "PURPLE", "ORANGE", "BLACK"]);
 
 type TranslationIndex = {
   version: number;
@@ -46,6 +47,14 @@ function emptyIndex(): TranslationIndex {
 }
 
 function normalizeLocale(locale: string): string { return resolveCurriculumLocale(locale); }
+
+function lessonTrack(lessonId: string): string {
+  return lessonId.trim().toUpperCase().split("-")[0] ?? "";
+}
+
+function isReconcileTrack(lessonId: string): boolean {
+  return RECONCILE_TRACKS.has(lessonTrack(lessonId));
+}
 
 function mergeTranslation(existing: PublishedLessonTranslation | undefined, incoming: PublishedLessonTranslation): PublishedLessonTranslation {
   return { title: existing?.title ?? incoming.title, summary: existing?.summary ?? incoming.summary, body: existing?.body ?? incoming.body };
@@ -196,7 +205,12 @@ export async function getRuntimePublishedTrack(trackCode: string, languageOrLoca
 
 export async function reconcilePublishedTranslationsFromHistory(): Promise<{ scannedBatches: number; indexedTranslations: number; importedTranslations: number; skippedMissingCanonicalLessons: number; complete: boolean }> {
   const index = await rebuildHistoricalTranslationIndex();
-  const lessonIds = Object.keys(index.translations);
+  const eligibleEntries = Object.entries(index.translations).filter(([lessonId]) => isReconcileTrack(lessonId));
+  const lessonIds = eligibleEntries.map(([lessonId]) => lessonId);
+  const indexedTranslations = eligibleEntries.reduce(
+    (total, [, translations]) => total + Object.keys(translations).length,
+    0,
+  );
   if (lessonIds.length === 0) {
     return {
       scannedBatches: index.batchCount,
@@ -211,7 +225,7 @@ export async function reconcilePublishedTranslationsFromHistory(): Promise<{ sca
   const existingIds = new Set(exported.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()));
   const records: PublishedLessonTranslationImportRecord[] = [];
   let skippedMissingCanonicalLessons = 0;
-  for (const [lessonId, translations] of Object.entries(index.translations)) {
+  for (const [lessonId, translations] of eligibleEntries) {
     if (!existingIds.has(lessonId)) {
       skippedMissingCanonicalLessons += Object.keys(translations).length;
       continue;
@@ -223,7 +237,7 @@ export async function reconcilePublishedTranslationsFromHistory(): Promise<{ sca
     : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
   return {
     scannedBatches: index.batchCount,
-    indexedTranslations: index.translationCount,
+    indexedTranslations,
     importedTranslations: imported.updatedRecords,
     skippedMissingCanonicalLessons,
     complete: index.complete,
