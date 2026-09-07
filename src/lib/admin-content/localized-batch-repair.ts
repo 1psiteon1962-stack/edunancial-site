@@ -7,11 +7,9 @@ import {
   importPublishedLessonTranslations,
   upsertPublishedLessonFromRegistry,
 } from "@/lib/curriculum/authoritative-published";
-import { getLessonContent } from "@/lib/curriculum/reader";
 
 const LESSON_ID = /([A-Z]+-L\d+-\d{3})/u;
 const CANONICAL_ENGLISH = new Set(["en", "en-us"]);
-const PUBLISHED_STATE_PATH = "published/curriculum-state.json";
 
 function normalizeLocale(locale: string | null | undefined): string | null {
   const value = locale?.trim();
@@ -22,33 +20,6 @@ function normalizeLocale(locale: string | null | undefined): string | null {
 
 function translationKey(lessonId: string, locale: string): string {
   return `${lessonId.trim().toUpperCase()}::${locale.trim().toLowerCase()}`;
-}
-
-async function readStoredTranslationKeys(): Promise<Set<string>> {
-  const buffer = await getAdminContentStorage().readBinary(PUBLISHED_STATE_PATH);
-  if (!buffer) return new Set();
-  try {
-    const parsed = JSON.parse(buffer.toString("utf8")) as {
-      lessons?: Record<string, { translations?: Record<string, unknown> }>;
-    };
-    const keys = new Set<string>();
-    for (const [lessonId, lesson] of Object.entries(parsed.lessons ?? {})) {
-      for (const locale of Object.keys(lesson.translations ?? {})) {
-        keys.add(translationKey(lessonId, locale));
-      }
-    }
-    return keys;
-  } catch {
-    return new Set();
-  }
-}
-
-function hasExactCommittedTranslation(lessonId: string, locale: string): boolean {
-  const content = getLessonContent(lessonId, locale);
-  if (!content) return false;
-  return content.localization.translated === true
-    && content.localization.resolution === "exact"
-    && content.localization.resolvedLocale.toLowerCase() === locale.toLowerCase();
 }
 
 /** Resolve locale from the strongest available source. */
@@ -169,19 +140,13 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
     canonical.filter((record) => record.title !== null).map((record) => record.id.toUpperCase()),
   );
   const missingLessonIds = requestedLessonIds.filter((lessonId) => !existingLessonIds.has(lessonId));
-  const storedTranslationKeys = await readStoredTranslationKeys();
 
-  let skippedExisting = 0;
-  const publishable = candidates.filter((candidate) => {
-    if (!existingLessonIds.has(candidate.lessonId)) return false;
-    const alreadyStored = storedTranslationKeys.has(translationKey(candidate.lessonId, candidate.locale));
-    const alreadyCommitted = hasExactCommittedTranslation(candidate.lessonId, candidate.locale);
-    if (alreadyStored || alreadyCommitted) {
-      skippedExisting += 1;
-      return false;
-    }
-    return true;
-  });
+  // A trusted localized ZIP is the authoritative source for the locale it carries.
+  // Do not skip a lesson merely because curriculum-state already has that locale:
+  // older ingestion runs may have stored canonical English or partial fields under
+  // the locale key. Re-importing the uploaded locale is idempotent and repairs
+  // stale/partial translations while preserving every other locale on the lesson.
+  const publishable = candidates.filter((candidate) => existingLessonIds.has(candidate.lessonId));
 
   const result = publishable.length > 0
     ? await importPublishedLessonTranslations(publishable.map(({ locale, lessonId, title, summary, body }) => ({
@@ -213,7 +178,7 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
         destination,
         reasons: [
           ...file.classification.reasons,
-          imported ? `published-locale:${candidate.locale}` : `skipped-existing-locale:${candidate.locale}`,
+          imported ? `published-locale:${candidate.locale}` : `missing-canonical:${candidate.locale}`,
         ],
       },
       metadata: { ...file.metadata, language, intendedDestination: destination },
@@ -224,5 +189,5 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
   batch.status = deriveBatchStatus(batch.files);
   batch.updatedAt = new Date().toISOString();
   await getAdminContentStorage().updateBatch(batch);
-  return { repaired, translated: result.updatedRecords, skippedExisting, missingLessonIds };
+  return { repaired, translated: result.updatedRecords, skippedExisting: 0, missingLessonIds };
 }
