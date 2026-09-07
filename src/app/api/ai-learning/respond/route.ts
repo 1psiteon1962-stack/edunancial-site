@@ -1,13 +1,11 @@
 import { NextResponse } from "next/server";
 
-import type { AILearningAdminConfig } from "@/lib/ai-learning/config";
 import type { AILearningContext } from "@/lib/ai-learning/context";
 import { runAILearningPipeline } from "@/lib/ai-learning/pipeline";
 
 type RequestPayload = {
   message?: string;
   context?: AILearningContext;
-  config?: Partial<AILearningAdminConfig>;
 };
 
 export async function POST(request: Request) {
@@ -28,10 +26,12 @@ export async function POST(request: Request) {
     );
   }
 
+  // Availability and policy configuration is server-authoritative. The browser
+  // supplies learner context only; localStorage/admin payloads cannot enable,
+  // disable, or otherwise alter the AI policy applied to a request.
   const response = await runAILearningPipeline({
     message: payload.message ?? "",
     context,
-    config: payload.config,
   });
 
   return NextResponse.json(response);
