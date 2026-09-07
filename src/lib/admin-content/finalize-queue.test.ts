@@ -102,23 +102,44 @@ describe("runParallelFinalization", () => {
     assert.deepEqual(results, [1, 3, 4, 5]);
   });
 
-  test("retries transient failures without blocking other runners", async () => {
+  test("does not retry ambiguous gateway timeouts while other packages continue", async () => {
     let attemptsForTwo = 0;
+    const failures: number[] = [];
     const visited: number[] = [];
     const results = await runParallelFinalization(
       [1, 2, 3, 4],
       async (item) => {
         visited.push(item);
-        if (item === 2 && attemptsForTwo++ === 0) throw new Error("HTTP 504");
+        if (item === 2) {
+          attemptsForTwo += 1;
+          throw new Error("HTTP 504");
+        }
+        return item;
+      },
+      undefined,
+      ({ item }) => failures.push(item),
+      { concurrency: 2 },
+    );
+    assert.deepEqual(results, [1, 3, 4]);
+    assert.equal(attemptsForTwo, 1, "504 must not trigger a duplicate finalization request");
+    assert.deepEqual(failures, [2]);
+    assert.ok(visited.includes(4), "other stored packages must continue after the ambiguous timeout");
+  });
+
+  test("still retries explicit transient server responses", async () => {
+    let attemptsForTwo = 0;
+    const results = await runParallelFinalization(
+      [1, 2, 3],
+      async (item) => {
+        if (item === 2 && attemptsForTwo++ === 0) throw new Error("HTTP 503");
         return item;
       },
       undefined,
       undefined,
       { concurrency: 2 },
     );
-    assert.deepEqual(results, [1, 2, 3, 4]);
-    assert.equal(visited.filter((item) => item === 2).length, 2);
-    assert.ok(visited.includes(3));
+    assert.deepEqual(results, [1, 2, 3]);
+    assert.equal(attemptsForTwo, 2);
   });
 
   test("surfaces the original error when every package fails", async () => {
