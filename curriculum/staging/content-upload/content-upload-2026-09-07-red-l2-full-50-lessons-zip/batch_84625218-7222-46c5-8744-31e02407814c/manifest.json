@@ -1,0 +1,36 @@
+{
+  "batchId": "batch_84625218-7222-46c5-8744-31e02407814c",
+  "exportId": "export_batch_84625218-7222-46c5-8744-31e02407814c_1788825035301",
+  "uploadTimestamp": "2026-09-07T23:50:39.436Z",
+  "branch": "content/course-upload-20260907-235039-content-upload-2026-09-07-red-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "red-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/red/level-2/en_us/full-50-lessons-red-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "red",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_84625218-7222-46c5-8744-31e02407814c",
+      "uploadTimestamp": "2026-09-07T23:50:14.762Z",
+      "checksum": "sha256:43432e6afce3b4dc9f5f93c7e05ab47ae1b9fc0ff8493a1df8ccc0baaf7bb2d2",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
