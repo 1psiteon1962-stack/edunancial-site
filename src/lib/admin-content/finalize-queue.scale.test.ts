@@ -35,7 +35,7 @@ describe("bulk finalization scale", () => {
     });
   }
 
-  test("a transient failure in a 50-package queue retries that package while later packages continue", async () => {
+  test("an ambiguous gateway timeout is not duplicated while later packages continue", async () => {
     const items = Array.from({ length: 50 }, (_, index) => index + 1);
     const attempts = new Map<number, number>();
     const progress: Array<{ completed: number; total: number; percent: number }> = [];
@@ -50,7 +50,7 @@ describe("bulk finalization scale", () => {
       (entry) => progress.push(entry),
     );
 
-    assert.equal(attempts.get(26), 3);
+    assert.equal(attempts.get(26), 1);
     assert.equal(attempts.has(27), true);
     assert.equal(attempts.has(50), true);
     assert.equal(results.length, 49);
