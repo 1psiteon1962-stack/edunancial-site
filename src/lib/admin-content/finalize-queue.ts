@@ -20,9 +20,28 @@ export const DEFAULT_FINALIZE_CONCURRENCY = 4;
 const MAX_FINALIZE_CONCURRENCY = 6;
 const BASE_RETRY_DELAY_MS = 1200;
 
-function isTransientFinalizeError(error: unknown): boolean {
-  const message = error instanceof Error ? error.message : String(error ?? "");
-  return /HTTP\s+(408|425|429|500|502|503|504)\b|network error|failed to fetch|timeout|timed out|connection reset|temporarily unavailable/iu.test(message);
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error ?? "");
+}
+
+/**
+ * A timeout or lost connection after a finalize request was sent is ambiguous:
+ * the server may still be publishing the package even though the client never
+ * received the response. Retrying immediately can overlap that publication.
+ * Leave these packages stored and let interrupted-upload recovery reconcile
+ * their audit state before another finalization attempt.
+ */
+function isAmbiguousFinalizeError(error: unknown): boolean {
+  return /HTTP\s+(408|504)\b|network error|failed to fetch|timeout|timed out|connection reset/iu.test(
+    errorMessage(error),
+  );
+}
+
+function isSafeTransientFinalizeError(error: unknown): boolean {
+  if (isAmbiguousFinalizeError(error)) return false;
+  return /HTTP\s+(425|429|500|502|503)\b|temporarily unavailable/iu.test(
+    errorMessage(error),
+  );
 }
 
 async function delay(ms: number): Promise<void> {
@@ -42,9 +61,9 @@ function reportFailureSafely<T>(
 
 /**
  * Finalize packages with bounded concurrency. Every package is independent:
- * exhausted retries or a permanent validation failure are recorded for that
- * package while other packages continue. Successful results are checkpointed
- * by the server endpoint as soon as each request completes.
+ * exhausted retries, ambiguous timeouts, or permanent validation failures are
+ * recorded for that package while other packages continue. Successful results
+ * are checkpointed by the server endpoint as soon as each request completes.
  */
 export async function runParallelFinalization<T, R>(
   items: readonly T[],
@@ -58,9 +77,19 @@ export async function runParallelFinalization<T, R>(
     return [];
   }
 
-  const requestedConcurrency = Math.max(1, Math.floor(options.concurrency ?? DEFAULT_FINALIZE_CONCURRENCY));
-  const concurrency = Math.min(MAX_FINALIZE_CONCURRENCY, requestedConcurrency, items.length);
-  const transientRetries = Math.max(0, Math.floor(options.transientRetries ?? DEFAULT_TRANSIENT_RETRIES));
+  const requestedConcurrency = Math.max(
+    1,
+    Math.floor(options.concurrency ?? DEFAULT_FINALIZE_CONCURRENCY),
+  );
+  const concurrency = Math.min(
+    MAX_FINALIZE_CONCURRENCY,
+    requestedConcurrency,
+    items.length,
+  );
+  const transientRetries = Math.max(
+    0,
+    Math.floor(options.transientRetries ?? DEFAULT_TRANSIENT_RETRIES),
+  );
   const resultsByIndex = new Map<number, R>();
   let firstTerminalError: unknown = null;
   let nextIndex = 0;
@@ -79,7 +108,7 @@ export async function runParallelFinalization<T, R>(
           resultsByIndex.set(index, await worker(items[index], index));
           break;
         } catch (error) {
-          if (isTransientFinalizeError(error) && retriesRemaining > 0) {
+          if (isSafeTransientFinalizeError(error) && retriesRemaining > 0) {
             attempt += 1;
             retriesRemaining -= 1;
             await delay(BASE_RETRY_DELAY_MS * attempt);
