@@ -24,13 +24,15 @@ test("trusted localized ingestion is restricted to the five recoverable tracks",
 });
 
 test("trusted localized ingestion is Level 1 only and excludes canonical US English", () => {
-  assert.match(helper, /identity\.level !== "level-1"/u);
-  assert.match(helper, /CANONICAL_ENGLISH\.has\(identity\.language\)/u);
+  assert.match(helper, /identity\.level === "level-1"/u);
+  assert.match(helper, /!CANONICAL_ENGLISH\.has\(identity\.language\)/u);
   assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
 });
 
-test("trusted localized ingestion reuses fill-missing-only translation publication", () => {
+test("trusted localized ingestion republishes and verifies localized translation publication", () => {
   assert.match(helper, /repairAndPublishLocalizedBatch\(batch\)/u);
+  assert.match(helper, /localization\.translated !== approvedFiles/u);
+  assert.match(helper, /localization\.missingLessonIds\.length > 0/u);
   assert.match(helper, /backfillMissingPublishedLessonsFromRegistry\(\[identity\.track\.toUpperCase\(\)\]\)/u);
   assert.match(finalizeRoute, /autoPublishTrustedLocalizedLevel1Batch\(batch, packageIdentity\)/u);
 });

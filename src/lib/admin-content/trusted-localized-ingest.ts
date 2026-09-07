@@ -10,6 +10,13 @@ import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate
 const AUTO_PUBLISH_TRACKS = new Set(["gold", "green", "purple", "orange", "black"]);
 const CANONICAL_ENGLISH = new Set(["en", "en-US"]);
 
+export function isTrustedLocalizedLevel1Identity(identity: PackageIdentity | null): boolean {
+  return Boolean(identity
+    && identity.level === "level-1"
+    && AUTO_PUBLISH_TRACKS.has(identity.track)
+    && !CANONICAL_ENGLISH.has(identity.language));
+}
+
 function lessonMatchesPackage(file: UploadBatch["files"][number], identity: PackageIdentity): boolean {
   if (file.extension !== ".md") return false;
   const track = identity.track.toUpperCase();
@@ -31,10 +38,7 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   skippedExisting: number;
   missingLessonIds: string[];
 }> {
-  if (!identity
-    || identity.level !== "level-1"
-    || !AUTO_PUBLISH_TRACKS.has(identity.track)
-    || CANONICAL_ENGLISH.has(identity.language)) {
+  if (!isTrustedLocalizedLevel1Identity(identity) || !identity) {
     return { attempted: false, approvedFiles: 0, translated: 0, skippedExisting: 0, missingLessonIds: [] };
   }
 
@@ -54,7 +58,7 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   });
 
   if (approvedFiles === 0) {
-    return { attempted: true, approvedFiles: 0, translated: 0, skippedExisting: 0, missingLessonIds: [] };
+    throw new Error(`Localized curriculum package ${identity.track}/${identity.language} contained no valid Level 1 lesson files.`);
   }
 
   batch.status = deriveBatchStatus(batch.files);
@@ -64,9 +68,13 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   await backfillMissingPublishedLessonsFromRegistry([identity.track.toUpperCase()]);
 
   const localization = await repairAndPublishLocalizedBatch(batch);
+  if (localization.missingLessonIds.length > 0 || localization.translated !== approvedFiles) {
+    throw new Error(
+      `Localized publication incomplete for ${identity.track}/${identity.language}: published ${localization.translated} of ${approvedFiles}; missing canonical lessons: ${localization.missingLessonIds.join(", ") || "none"}.`,
+    );
+  }
+
   invalidateRegistryCache();
-  // Keep cache invalidation on the critical path, but limit route revalidation
-  // to the academy that actually changed instead of every academy and level.
   await revalidatePublishedCurriculumRoutes(identity.track);
 
   return {

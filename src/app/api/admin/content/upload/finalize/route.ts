@@ -6,7 +6,7 @@ import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-uplo
 import { isCurriculumPackageAlreadyPublished } from "@/lib/admin-content/published-upload-dedupe";
 import { type StoredUploadEntry } from "@/lib/admin-content/service";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
-import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
+import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identity } from "@/lib/admin-content/trusted-localized-ingest";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
@@ -21,9 +21,6 @@ type FinalizeBody = { batchId: string; batchName?: string; source?: string; note
 async function isAlreadyFinalized(batchId: string, uploadId: string): Promise<boolean> {
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db.from("admin_upload_operations").select("upload_id").eq("batch_id", batchId).eq("upload_id", uploadId).eq("phase", "FINALIZE").eq("status", "SUCCEEDED").limit(1);
-  // The audit table is useful for retry optimization but must never be a hard
-  // dependency of curriculum ingestion. Some production environments predate
-  // this migration. Published-content dedupe below remains authoritative.
   if (error) {
     console.warn("[finalize] upload audit unavailable; continuing safely", error.message);
     return false;
@@ -46,17 +43,18 @@ export async function POST(request: NextRequest) {
     const configFormData = new FormData();
     for (const [key, value] of Object.entries(body)) if (!["batchId", "batchName", "source", "notes", "uploads"].includes(key) && (typeof value === "string" || typeof value === "number")) configFormData.append(key, String(value));
     const uploadConfig = parseUploadConfig(configFormData);
+    const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language) : null;
+    const trustedLocalized = isTrustedLocalizedLevel1Identity(packageIdentity);
 
-    if (await isAlreadyFinalized(batchId, upload.uploadId)) return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    // Localized curriculum packages must run through publication verification.
+    // A prior audit or an existing locale entry is not sufficient evidence that
+    // every title, summary and body from this package reached published state.
+    if (!trustedLocalized && await isAlreadyFinalized(batchId, upload.uploadId)) return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
 
-    // If this complete package is already represented by published lesson files,
-    // it is safe to skip the package. Partial packages continue so missing slots
-    // can still be filled during trusted localized ingestion.
-    if (await isCurriculumPackageAlreadyPublished(upload, uploadConfig)) {
+    if (!trustedLocalized && await isCurriculumPackageAlreadyPublished(upload, uploadConfig)) {
       return Response.json({ success: true, alreadyPublished: true, uploadId: upload.uploadId, finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     }
 
-    const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language) : null;
     const reviewBatchId = createId("batch");
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
 
@@ -67,13 +65,12 @@ export async function POST(request: NextRequest) {
       throw new Error(`Uploaded file reached storage but could not be processed: ${detail}`);
     }
 
-    // Recognized localized L1 ZIPs for GOLD/GREEN/PURPLE/ORANGE/BLACK are an
-    // owner-trusted recovery path. Valid lesson files are published immediately,
-    // existing lesson+locale entries are preserved, and only missing slots are
-    // filled. Everything outside that narrow scope remains in the normal review
-    // workflow.
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
 
+    // VERIFY succeeds only after trusted localized publication has completed.
+    // autoPublishTrustedLocalizedLevel1Batch throws if any approved lesson failed
+    // to reach published state, so an incomplete package can never be reported
+    // to the uploader as a successful finalization.
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization } });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization } });
     return Response.json({ success: true, batch, batches: [batch], trustedLocalization, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
