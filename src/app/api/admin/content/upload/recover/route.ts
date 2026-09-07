@@ -10,7 +10,10 @@ import { createId } from "@/lib/admin-content/utils";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 60;
+// Recovery performs the same stored-package extraction/finalization work as the
+// primary finalizer. Keep the route budget aligned so recovery is not given a
+// shorter deadline than the operation it is designed to recover.
+export const maxDuration = 300;
 
 const RECOVERY_UNAVAILABLE_MESSAGE =
   "Interrupted-upload recovery is temporarily unavailable because upload audit telemetry could not be read. New uploads can still proceed; do not retry a partially completed upload until recovery telemetry is restored.";
