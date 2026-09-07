@@ -44,6 +44,8 @@ export default function ResilientUploadClient(){
   const first=destination==="courses"?inspect(files[0],language):null;const effectiveTitle=destination==="courses"&&first?.track&&first.level?packageTitle(first.track,first.level):title.trim();
   const config:Record<string,string>={batchName:batchName||`Content Upload ${new Date().toISOString().slice(0,10)}`,source,notes,contentDestination:destination,membershipAccess:membership,publicationStatus:publication,title:effectiveTitle,description:destination==="courses"?(description.trim()||"Bulk curriculum package upload; each package is classified and finalized independently."):description.trim(),thumbnailUrl:"",previewUrl:""};
   if(destination==="courses"&&first?.track&&first.level){config.courseTrack=first.track;config.courseLevel=first.level;config.language=language;}else if(destination==="marketplace"){config.language=language;config.marketplaceCategory=category;config.associatedTrack=associatedTrack;config.associatedLevel=associatedLevel;}
+  const finalizationFailures:Array<{filename:string;message:string}>=[];
+  const completedBatchIds:string[]=[];
   try{
    const pre=await fetch("/api/admin/content/upload/presign",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,files:files.map(f=>({name:f.name,size:f.size,type:f.type}))})});
    if(!pre.ok){const p=await pre.json().catch(()=>({}));throw new Error(p.error??`Failed to prepare upload (HTTP ${pre.status}).`);}const presigned=await pre.json() as Presigned;
@@ -51,15 +53,21 @@ export default function ResilientUploadClient(){
    setPhase(`Uploading ${files.length} package${files.length===1?"":"s"} to storage…`);
    await runParallelUploads(files,async(file,i,report)=>{const spec=presigned.uploads[i];if(spec.signedUrl)await uploadDirect(file,spec.signedUrl,"PUT",{"Content-Type":file.type||"application/octet-stream"},report);else if(spec.directUpload)await uploadDirect(file,spec.directUpload.url,"POST",{...spec.directUpload.headers,"Content-Type":file.type||"application/octet-stream"},report);},{sizeOf:f=>f.size,onProgress:({percent})=>setProgress(Math.round(percent*0.9))});
    const stored:StoredUpload[]=files.map((file,i)=>({uploadId:presigned.uploads[i].uploadId,originalFilename:file.name,mimeType:file.type||"application/octet-stream",sizeBytes:file.size,storagePath:presigned.uploads[i].storagePath}));
-   const completedBatchIds:string[]=[];
    await runSequentialFinalization(stored,async(upload,index)=>{
     setPhase(`Processing package ${index+1} of ${stored.length}: ${upload.originalFilename}`);
     const r=await fetch("/api/admin/content/upload/finalize",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,batchId:presigned.batchId,uploads:[upload]})});
-    if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}. ${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} already finalized successfully and will not be discarded.`);}
-    const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization.`);completedBatchIds.push(id);return id;
-   },({completed,total})=>setProgress(90+Math.round((completed/total)*10)));
-   setProgress(100);setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} uploaded and finalized independently. Opening the first review batch.`);setUploading(false);setPhase("");router.push(`/admin/content/batches/${completedBatchIds[0]}`);router.refresh();
-  }catch(err){cancel();setUploading(false);setPhase("");setError((err as Error).message);}
+    if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);}
+    const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);completedBatchIds.push(id);return id;
+   },({completed,total})=>setProgress(90+Math.round((completed/total)*10)),({item,error:failureError})=>finalizationFailures.push({filename:item.originalFilename,message:failureError instanceof Error?failureError.message:String(failureError)}));
+   setProgress(100);setUploading(false);setPhase("");
+   if(finalizationFailures.length){
+    setSuccess(`${completedBatchIds.length} of ${stored.length} packages are confirmed finalized. Confirmed packages were preserved.`);
+    setError(`${finalizationFailures.length} package${finalizationFailures.length===1?" is":"s are"} not confirmed finalized: ${finalizationFailures.map(f=>f.filename).join(", ")}. Do not re-upload the full batch. Use interrupted-upload recovery to reconcile only ${finalizationFailures.length===1?"this package":"these packages"}.`);
+    return;
+   }
+   setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} uploaded and finalized independently. Opening the first review batch.`);
+   if(completedBatchIds[0]){router.push(`/admin/content/batches/${completedBatchIds[0]}`);router.refresh();}
+  }catch(err){cancel();setUploading(false);setPhase("");if(finalizationFailures.length){setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?" is":"s are"} confirmed finalized and preserved.`);setError(`${finalizationFailures.length} package${finalizationFailures.length===1?" was":"s were"} not confirmed finalized. Do not re-upload the full batch. Use interrupted-upload recovery for: ${finalizationFailures.map(f=>f.filename).join(", ")}.`);}else setError((err as Error).message);}
  }
  return <form onSubmit={submit} className="mx-auto max-w-5xl space-y-7">
   <label className="grid gap-2 text-sm font-bold text-slate-200">CONTENT DESTINATION *<select value={destination} onChange={e=>{setDestination(e.target.value as typeof destination);setFiles([]);setError("");}} className="rounded-xl border border-white/10 bg-[#101a2f] px-4 py-3 text-white"><option value="">Select destination</option><option value="courses">COURSES / CURRICULUM</option><option value="marketplace">MARKETPLACE</option></select></label>
