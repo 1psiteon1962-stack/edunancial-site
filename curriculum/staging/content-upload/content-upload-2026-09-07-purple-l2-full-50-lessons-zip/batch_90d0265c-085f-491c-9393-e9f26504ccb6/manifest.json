@@ -1,0 +1,36 @@
+{
+  "batchId": "batch_90d0265c-085f-491c-9393-e9f26504ccb6",
+  "exportId": "export_batch_90d0265c-085f-491c-9393-e9f26504ccb6_1788825577828",
+  "uploadTimestamp": "2026-09-07T23:59:41.947Z",
+  "branch": "content/course-upload-20260907-235941-content-upload-2026-09-07-purple-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "purple-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/purple/level-2/en_us/full-50-lessons-purple-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "purple",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_90d0265c-085f-491c-9393-e9f26504ccb6",
+      "uploadTimestamp": "2026-09-07T23:59:31.677Z",
+      "checksum": "sha256:88170807f9f1ba3bd14418f6b78d7d963fa8fbdf1d87b5264f715d628bd6a9e7",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
