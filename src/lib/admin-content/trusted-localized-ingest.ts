@@ -21,20 +21,6 @@ function lessonMatchesPackage(file: UploadBatch["files"][number], identity: Pack
   return lessonNumber >= 1 && lessonNumber <= 50;
 }
 
-/**
- * Owner-trusted ingestion path for the current Level 1 translation recovery.
- *
- * Scope is intentionally narrow:
- * - GOLD/GREEN/PURPLE/ORANGE/BLACK only
- * - Level 1 only
- * - localized packages only (never canonical US English)
- * - only lesson markdown whose identity matches the package track and L1
- *
- * Valid lesson files are approved and attached directly to published curriculum
- * state. Existing lesson+locale translations are preserved by
- * repairAndPublishLocalizedBatch; only missing slots are filled. RED/WHITE/BLUE
- * and canonical English are never modified by this path.
- */
 export async function autoPublishTrustedLocalizedLevel1Batch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
@@ -75,13 +61,13 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   batch.updatedAt = approvedAt;
   await getAdminContentStorage().updateBatch(batch);
 
-  // Ensure the matching canonical US-English lesson records exist without
-  // touching the protected RED/WHITE/BLUE tracks.
   await backfillMissingPublishedLessonsFromRegistry([identity.track.toUpperCase()]);
 
   const localization = await repairAndPublishLocalizedBatch(batch);
   invalidateRegistryCache();
-  await revalidatePublishedCurriculumRoutes();
+  // Keep cache invalidation on the critical path, but limit route revalidation
+  // to the academy that actually changed instead of every academy and level.
+  await revalidatePublishedCurriculumRoutes(identity.track);
 
   return {
     attempted: true,
