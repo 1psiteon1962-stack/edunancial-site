@@ -17,15 +17,25 @@ export async function buildAILearningGrounding(input: {
   context: AILearningContext;
   message: string;
 }): Promise<AILearningGrounding> {
-  const topics = inferJurisdictionTopics({
-    track: input.context.track,
-    lessonId: input.context.lessonId,
-    topic: input.context.topic,
-    message: input.message,
-  });
+  const topics = inferJurisdictionTopics({ track: input.context.track, lessonId: input.context.lessonId, topic: input.context.topic, message: input.message });
+
+  if (!input.context.jurisdictionConfirmedAt) {
+    return {
+      topics,
+      localization: null,
+      localClaimsAllowed: false,
+      reason: 'Learner jurisdiction has not been explicitly confirmed.',
+      prompt: [
+        'Learner jurisdiction is not confirmed.',
+        'Teach universal educational principles only.',
+        'Session or IP geolocation may be used only to suggest a jurisdiction and must never determine substantive law.',
+        'Do not make jurisdiction-specific legal, tax, regulatory, employment, or property claims until the learner confirms the applicable jurisdiction.',
+      ].join('\n'),
+    };
+  }
 
   const policy = evaluateJurisdictionSelection({
-    countryCode: input.context.country,
+    countryCode: input.context.jurisdiction || input.context.country,
     subdivisionCode: input.context.subdivisionCode,
     language: input.context.language,
     taxResidenceCountryCode: input.context.taxResidenceCountryCode,
@@ -48,13 +58,7 @@ export async function buildAILearningGrounding(input: {
     };
   }
 
-  const localization = await buildLessonLocalizationContext(
-    input.repository,
-    input.context.lessonId ?? 'GENERAL',
-    topics,
-    policy.selection,
-  );
-
+  const localization = await buildLessonLocalizationContext(input.repository, input.context.lessonId ?? 'GENERAL', topics, policy.selection);
   return {
     topics,
     localization,
