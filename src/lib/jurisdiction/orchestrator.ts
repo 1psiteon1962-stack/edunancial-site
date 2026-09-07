@@ -1,9 +1,14 @@
 import type { AILearningContext } from '@/lib/ai-learning/context';
-import { buildJurisdictionPrompt, buildLessonLocalizationContext, type JurisdictionRepository } from './engine';
-import { evaluateJurisdictionSelection } from './policy';
-import { inferJurisdictionTopics } from './topics';
-import type { JurisdictionSelection, LessonLocalizationContext } from './types';
+import { buildAILearningGrounding } from '@/lib/ai-learning/grounding';
+import type { JurisdictionRepository } from './engine';
+import type { LessonLocalizationContext } from './types';
 
+/**
+ * Backward-compatible adapter for callers that still use the older orchestrator.
+ * The AI-learning grounding service is the single authority for whether local
+ * claims are allowed. This prevents structural jurisdiction validity from being
+ * mistaken for verified regulatory grounding.
+ */
 export interface GroundingResult {
   allowed: boolean;
   reason?: string;
@@ -16,37 +21,23 @@ export async function groundAILearningRequest(
   repo: JurisdictionRepository,
   learner: AILearningContext,
   message: string,
-  now = new Date(),
+  _now = new Date(),
 ): Promise<GroundingResult> {
-  const topics = inferJurisdictionTopics({
-    track: learner.track,
-    lessonId: learner.lessonId,
-    topic: learner.topic,
+  const grounding = await buildAILearningGrounding({
+    repository: repo,
+    context: learner,
     message,
   });
-  const selection: JurisdictionSelection = {
-    countryCode: learner.jurisdiction,
-    subdivisionCode: learner.subdivisionCode,
-    language: learner.language,
-    taxResidenceCountryCode: learner.taxResidenceCountryCode,
-    assetCountryCode: learner.assetCountryCode,
-    businessCountryCode: learner.businessCountryCode,
+
+  return {
+    allowed: grounding.localClaimsAllowed,
+    reason: grounding.reason ?? (
+      grounding.localization?.requiresHumanReview
+        ? 'Verified jurisdiction grounding requires human review before local claims are allowed.'
+        : undefined
+    ),
+    topics: grounding.topics,
+    context: grounding.localization ?? undefined,
+    prompt: grounding.prompt,
   };
-  const policy = evaluateJurisdictionSelection(selection, topics);
-  if (!policy.usable) {
-    return {
-      allowed: false,
-      reason: policy.reason,
-      topics,
-      prompt: `Jurisdiction-specific teaching is blocked: ${policy.reason ?? 'jurisdiction selection is incomplete'}`,
-    };
-  }
-  const context = await buildLessonLocalizationContext(
-    repo,
-    learner.lessonId ?? 'GENERAL',
-    topics,
-    policy.selection,
-    now,
-  );
-  return { allowed: true, topics, context, prompt: buildJurisdictionPrompt(context) };
 }
