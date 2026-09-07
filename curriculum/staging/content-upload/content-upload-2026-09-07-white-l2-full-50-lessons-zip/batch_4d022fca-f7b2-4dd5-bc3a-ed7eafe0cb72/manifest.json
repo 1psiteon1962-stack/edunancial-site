@@ -1,0 +1,36 @@
+{
+  "batchId": "batch_4d022fca-f7b2-4dd5-bc3a-ed7eafe0cb72",
+  "exportId": "export_batch_4d022fca-f7b2-4dd5-bc3a-ed7eafe0cb72_1788825271880",
+  "uploadTimestamp": "2026-09-07T23:54:36.532Z",
+  "branch": "content/course-upload-20260907-235436-content-upload-2026-09-07-white-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "white-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/white/level-2/en_us/full-50-lessons-white-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "white",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_4d022fca-f7b2-4dd5-bc3a-ed7eafe0cb72",
+      "uploadTimestamp": "2026-09-07T23:54:15.158Z",
+      "checksum": "sha256:584206e9a13a6f43444d387430591425d3a4a746e3f49d3c806e76d5ce30645d",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
