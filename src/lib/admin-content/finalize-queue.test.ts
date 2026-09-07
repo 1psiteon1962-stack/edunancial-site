@@ -137,18 +137,18 @@ describe("runParallelFinalization", () => {
   });
 });
 
-describe("runSequentialFinalization compatibility", () => {
-  test("retains one-at-a-time behavior for explicit serial callers", async () => {
+describe("deployed uploader compatibility export", () => {
+  test("the historical runSequentialFinalization import now runs four finalizers concurrently", async () => {
     let active = 0;
     let maxActive = 0;
-    const results = await runSequentialFinalization([1, 2, 3], async (item) => {
+    const results = await runSequentialFinalization([1, 2, 3, 4, 5, 6], async (item) => {
       active += 1;
       maxActive = Math.max(maxActive, active);
-      await new Promise((resolve) => setTimeout(resolve, 2));
+      await new Promise((resolve) => setTimeout(resolve, 3));
       active -= 1;
       return item;
     });
-    assert.equal(maxActive, 1);
-    assert.deepEqual(results, [1, 2, 3]);
+    assert.equal(maxActive, 4);
+    assert.deepEqual(results, [1, 2, 3, 4, 5, 6]);
   });
 });
