@@ -10,7 +10,14 @@ export type FinalizeFailure<T> = {
   error: unknown;
 };
 
+export type FinalizeOptions = {
+  concurrency?: number;
+  transientRetries?: number;
+};
+
 const DEFAULT_TRANSIENT_RETRIES = 2;
+export const DEFAULT_FINALIZE_CONCURRENCY = 4;
+const MAX_FINALIZE_CONCURRENCY = 6;
 const BASE_RETRY_DELAY_MS = 1200;
 
 function isTransientFinalizeError(error: unknown): boolean {
@@ -22,17 +29,96 @@ async function delay(ms: number): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function reportFailureSafely<T>(
+  onFailure: ((failure: FinalizeFailure<T>) => void) | undefined,
+  failure: FinalizeFailure<T>,
+): void {
+  try {
+    onFailure?.(failure);
+  } catch {
+    // Reporting must never terminate the finalization queue.
+  }
+}
+
 /**
- * Finalize packages one request at a time. A failure belongs to the individual
- * package and must never prevent later packages from being processed.
+ * Finalize packages with bounded concurrency. Every package is independent:
+ * exhausted retries or a permanent validation failure are recorded for that
+ * package while other packages continue. Successful results are checkpointed
+ * by the server endpoint as soon as each request completes.
  *
- * Transient failures are retried first. If retries are exhausted (or the error
- * is permanent), the failed item is reported through onFailure and the queue
- * advances to the next package. Successful results are returned normally.
- *
- * If every package fails, rethrow the first terminal error after the queue has
- * finished. Callers can then display the real failure instead of navigating to
- * an undefined review batch.
+ * This is deliberately bounded rather than Promise.all(items): finalization can
+ * perform extraction, validation, and publication work, so an unbounded burst
+ * would trade the old serial bottleneck for resource exhaustion.
+ */
+export async function runParallelFinalization<T, R>(
+  items: readonly T[],
+  worker: (item: T, index: number) => Promise<R>,
+  onProgress?: (progress: FinalizeProgress) => void,
+  onFailure?: (failure: FinalizeFailure<T>) => void,
+  options: FinalizeOptions = {},
+): Promise<R[]> {
+  if (items.length === 0) {
+    onProgress?.({ completed: 0, total: 0, percent: 100 });
+    return [];
+  }
+
+  const requestedConcurrency = Math.max(1, Math.floor(options.concurrency ?? DEFAULT_FINALIZE_CONCURRENCY));
+  const concurrency = Math.min(MAX_FINALIZE_CONCURRENCY, requestedConcurrency, items.length);
+  const transientRetries = Math.max(0, Math.floor(options.transientRetries ?? DEFAULT_TRANSIENT_RETRIES));
+  const resultsByIndex = new Map<number, R>();
+  let firstTerminalError: unknown = null;
+  let nextIndex = 0;
+  let completed = 0;
+
+  async function runner(): Promise<void> {
+    while (true) {
+      const index = nextIndex;
+      if (index >= items.length) return;
+      nextIndex += 1;
+
+      let retriesRemaining = transientRetries;
+      let attempt = 0;
+      while (true) {
+        try {
+          resultsByIndex.set(index, await worker(items[index], index));
+          break;
+        } catch (error) {
+          if (isTransientFinalizeError(error) && retriesRemaining > 0) {
+            attempt += 1;
+            retriesRemaining -= 1;
+            await delay(BASE_RETRY_DELAY_MS * attempt);
+            continue;
+          }
+
+          if (firstTerminalError === null) firstTerminalError = error;
+          reportFailureSafely(onFailure, { item: items[index], index, error });
+          break;
+        }
+      }
+
+      completed += 1;
+      onProgress?.({
+        completed,
+        total: items.length,
+        percent: Math.round((completed / items.length) * 100),
+      });
+    }
+  }
+
+  await Promise.all(Array.from({ length: concurrency }, () => runner()));
+
+  if (resultsByIndex.size === 0 && firstTerminalError !== null) {
+    throw firstTerminalError;
+  }
+
+  return [...resultsByIndex.entries()]
+    .sort(([left], [right]) => left - right)
+    .map(([, result]) => result);
+}
+
+/**
+ * Compatibility wrapper retained for callers that intentionally require serial
+ * finalization. Bulk upload uses runParallelFinalization directly.
  */
 export async function runSequentialFinalization<T, R>(
   items: readonly T[],
@@ -40,46 +126,5 @@ export async function runSequentialFinalization<T, R>(
   onProgress?: (progress: FinalizeProgress) => void,
   onFailure?: (failure: FinalizeFailure<T>) => void,
 ): Promise<R[]> {
-  const results: R[] = [];
-  let firstTerminalError: unknown = null;
-  if (items.length === 0) {
-    onProgress?.({ completed: 0, total: 0, percent: 100 });
-    return results;
-  }
-
-  for (let index = 0; index < items.length; index += 1) {
-    let retriesRemaining = DEFAULT_TRANSIENT_RETRIES;
-    let attempt = 0;
-
-    while (true) {
-      try {
-        results.push(await worker(items[index], index));
-        break;
-      } catch (error) {
-        if (isTransientFinalizeError(error) && retriesRemaining > 0) {
-          attempt += 1;
-          retriesRemaining -= 1;
-          await delay(BASE_RETRY_DELAY_MS * attempt);
-          continue;
-        }
-
-        if (firstTerminalError === null) firstTerminalError = error;
-        onFailure?.({ item: items[index], index, error });
-        break;
-      }
-    }
-
-    const completed = index + 1;
-    onProgress?.({
-      completed,
-      total: items.length,
-      percent: Math.round((completed / items.length) * 100),
-    });
-  }
-
-  if (results.length === 0 && firstTerminalError !== null) {
-    throw firstTerminalError;
-  }
-
-  return results;
+  return runParallelFinalization(items, worker, onProgress, onFailure, { concurrency: 1 });
 }
