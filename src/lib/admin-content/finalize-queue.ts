@@ -45,10 +45,6 @@ function reportFailureSafely<T>(
  * exhausted retries or a permanent validation failure are recorded for that
  * package while other packages continue. Successful results are checkpointed
  * by the server endpoint as soon as each request completes.
- *
- * This is deliberately bounded rather than Promise.all(items): finalization can
- * perform extraction, validation, and publication work, so an unbounded burst
- * would trade the old serial bottleneck for resource exhaustion.
  */
 export async function runParallelFinalization<T, R>(
   items: readonly T[],
@@ -117,8 +113,9 @@ export async function runParallelFinalization<T, R>(
 }
 
 /**
- * Compatibility wrapper retained for callers that intentionally require serial
- * finalization. Bulk upload uses runParallelFinalization directly.
+ * Historical export name retained so the deployed uploader receives the repair
+ * without a risky rewrite of the large client component. Bulk finalization is
+ * now bounded-parallel even though older callers import this symbol by name.
  */
 export async function runSequentialFinalization<T, R>(
   items: readonly T[],
@@ -126,5 +123,5 @@ export async function runSequentialFinalization<T, R>(
   onProgress?: (progress: FinalizeProgress) => void,
   onFailure?: (failure: FinalizeFailure<T>) => void,
 ): Promise<R[]> {
-  return runParallelFinalization(items, worker, onProgress, onFailure, { concurrency: 1 });
+  return runParallelFinalization(items, worker, onProgress, onFailure);
 }
