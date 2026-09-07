@@ -6,10 +6,15 @@ export type UploadProgress = {
   percent: number;
 };
 
+export type UploadFailure<T> = {
+  item: T;
+  index: number;
+  error: unknown;
+};
+
 /**
- * Run browser upload jobs with bounded concurrency. This deliberately avoids
- * Promise.all across an entire large curriculum batch so a 50-500 package
- * selection cannot open 50-500 simultaneous storage connections.
+ * Run browser upload jobs with bounded concurrency. Individual package failures
+ * are isolated so a bad file cannot abort the remaining 50-500 package batch.
  */
 export async function runParallelUploads<T>(
   items: readonly T[],
@@ -18,11 +23,12 @@ export async function runParallelUploads<T>(
     concurrency?: number;
     sizeOf: (item: T) => number;
     onProgress?: (progress: UploadProgress) => void;
+    onFailure?: (failure: UploadFailure<T>) => void;
   },
-): Promise<void> {
+): Promise<UploadFailure<T>[]> {
   if (items.length === 0) {
     options.onProgress?.({ completedBytes: 0, totalBytes: 0, percent: 100 });
-    return;
+    return [];
   }
 
   const concurrency = Math.max(
@@ -32,6 +38,7 @@ export async function runParallelUploads<T>(
   const sizes = items.map((item) => Math.max(0, options.sizeOf(item)));
   const loaded = new Array<number>(items.length).fill(0);
   const totalBytes = sizes.reduce((sum, size) => sum + size, 0);
+  const failures: UploadFailure<T>[] = [];
   let cursor = 0;
 
   const publishProgress = () => {
@@ -46,14 +53,24 @@ export async function runParallelUploads<T>(
       if (index >= items.length) return;
       const item = items[index];
       const size = sizes[index];
-      await worker(item, index, (loadedBytes) => {
-        loaded[index] = Math.max(0, Math.min(size, loadedBytes));
-        publishProgress();
-      });
-      loaded[index] = size;
+
+      try {
+        await worker(item, index, (loadedBytes) => {
+          loaded[index] = Math.max(0, Math.min(size, loadedBytes));
+          publishProgress();
+        });
+        loaded[index] = size;
+      } catch (error) {
+        loaded[index] = size;
+        const failure: UploadFailure<T> = { item, index, error };
+        failures.push(failure);
+        options.onFailure?.(failure);
+      }
+
       publishProgress();
     }
   };
 
   await Promise.all(Array.from({ length: concurrency }, () => runner()));
+  return failures.sort((a, b) => a.index - b.index);
 }
