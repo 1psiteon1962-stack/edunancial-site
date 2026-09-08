@@ -3,7 +3,6 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
-import { isCurriculumPackageAlreadyPublished } from "@/lib/admin-content/published-upload-dedupe";
 import { type StoredUploadEntry } from "@/lib/admin-content/service";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identity } from "@/lib/admin-content/trusted-localized-ingest";
@@ -18,14 +17,17 @@ export const maxDuration = 300;
 
 type FinalizeBody = { batchId: string; batchName?: string; source?: string; notes?: string; uploads: StoredUploadEntry[]; [key: string]: unknown };
 
-async function isAlreadyFinalized(batchId: string, uploadId: string): Promise<boolean> {
+async function getAlreadyFinalizedReviewBatchId(batchId: string, uploadId: string): Promise<string | null> {
   const db = getKpiSupabaseAdmin();
-  const { data, error } = await db.from("admin_upload_operations").select("upload_id").eq("batch_id", batchId).eq("upload_id", uploadId).eq("phase", "FINALIZE").eq("status", "SUCCEEDED").limit(1);
+  const { data, error } = await db.from("admin_upload_operations").select("metadata").eq("batch_id", batchId).eq("upload_id", uploadId).eq("phase", "FINALIZE").eq("status", "SUCCEEDED").order("created_at", { ascending: false }).limit(1);
   if (error) {
     console.warn("[finalize] upload audit unavailable; continuing safely", error.message);
-    return false;
+    return null;
   }
-  return Boolean(data?.length);
+  const metadata = data?.[0]?.metadata;
+  if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) return null;
+  const reviewBatchId = (metadata as Record<string, unknown>).reviewBatchId;
+  return typeof reviewBatchId === "string" && reviewBatchId.trim() ? reviewBatchId : null;
 }
 
 export async function POST(request: NextRequest) {
@@ -46,13 +48,15 @@ export async function POST(request: NextRequest) {
     const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language) : null;
     const trustedLocalized = isTrustedLocalizedLevel1Identity(packageIdentity);
 
-    // Localized curriculum packages must run through publication verification.
-    // A prior audit or an existing locale entry is not sufficient evidence that
-    // every title, summary and body from this package reached published state.
-    if (!trustedLocalized && await isAlreadyFinalized(batchId, upload.uploadId)) return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
-
-    if (!trustedLocalized && await isCurriculumPackageAlreadyPublished(upload, uploadConfig)) {
-      return Response.json({ success: true, alreadyPublished: true, uploadId: upload.uploadId, finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    // A retry may arrive after the first finalization succeeded but before the
+    // browser received its response. Return the original review batch identity
+    // so the bulk client records the package as confirmed instead of reporting
+    // a false failure. If old audit rows lack that identity, safely reprocess.
+    if (!trustedLocalized) {
+      const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, upload.uploadId);
+      if (existingReviewBatchId) {
+        return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+      }
     }
 
     const reviewBatchId = createId("batch");
@@ -67,10 +71,6 @@ export async function POST(request: NextRequest) {
 
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
 
-    // VERIFY succeeds only after trusted localized publication has completed.
-    // autoPublishTrustedLocalizedLevel1Batch throws if any approved lesson failed
-    // to reach published state, so an incomplete package can never be reported
-    // to the uploader as a successful finalization.
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization } });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization } });
     return Response.json({ success: true, batch, batches: [batch], trustedLocalization, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
