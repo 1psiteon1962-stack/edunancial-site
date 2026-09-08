@@ -1,4 +1,6 @@
 export const DEFAULT_UPLOAD_CONCURRENCY = 4;
+export const DEFAULT_UPLOAD_RETRIES = 2;
+const BASE_UPLOAD_RETRY_DELAY_MS = 750;
 
 export type UploadProgress = {
   completedBytes: number;
@@ -12,15 +14,24 @@ export type UploadFailure<T> = {
   error: unknown;
 };
 
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 /**
  * Run browser upload jobs with bounded concurrency. Individual package failures
  * are isolated so a bad file cannot abort the remaining 50-500 package batch.
+ * A storage transfer that fails is retried in-place before it is declared
+ * terminal. This is safe because the signed destination identifies the same
+ * stored object; unlike server-side finalization, a retry cannot create a
+ * second curriculum publication operation.
  */
 export async function runParallelUploads<T>(
   items: readonly T[],
   worker: (item: T, index: number, reportLoadedBytes: (loadedBytes: number) => void) => Promise<void>,
   options: {
     concurrency?: number;
+    retries?: number;
     sizeOf: (item: T) => number;
     onProgress?: (progress: UploadProgress) => void;
     onFailure?: (failure: UploadFailure<T>) => void;
@@ -35,6 +46,7 @@ export async function runParallelUploads<T>(
     1,
     Math.min(Math.floor(options.concurrency ?? DEFAULT_UPLOAD_CONCURRENCY), items.length),
   );
+  const retries = Math.max(0, Math.floor(options.retries ?? DEFAULT_UPLOAD_RETRIES));
   const sizes = items.map((item) => Math.max(0, options.sizeOf(item)));
   const loaded = new Array<number>(items.length).fill(0);
   const totalBytes = sizes.reduce((sum, size) => sum + size, 0);
@@ -53,18 +65,36 @@ export async function runParallelUploads<T>(
       if (index >= items.length) return;
       const item = items[index];
       const size = sizes[index];
+      let terminalError: unknown = null;
 
-      try {
-        await worker(item, index, (loadedBytes) => {
-          loaded[index] = Math.max(0, Math.min(size, loadedBytes));
-          publishProgress();
-        });
+      for (let attempt = 0; attempt <= retries; attempt += 1) {
+        try {
+          if (attempt > 0) {
+            loaded[index] = 0;
+            publishProgress();
+            await delay(BASE_UPLOAD_RETRY_DELAY_MS * attempt);
+          }
+          await worker(item, index, (loadedBytes) => {
+            loaded[index] = Math.max(0, Math.min(size, loadedBytes));
+            publishProgress();
+          });
+          loaded[index] = size;
+          terminalError = null;
+          break;
+        } catch (error) {
+          terminalError = error;
+        }
+      }
+
+      if (terminalError !== null) {
         loaded[index] = size;
-      } catch (error) {
-        loaded[index] = size;
-        const failure: UploadFailure<T> = { item, index, error };
+        const failure: UploadFailure<T> = { item, index, error: terminalError };
         failures.push(failure);
-        options.onFailure?.(failure);
+        try {
+          options.onFailure?.(failure);
+        } catch {
+          // Reporting must never terminate the remaining bulk upload.
+        }
       }
 
       publishProgress();
