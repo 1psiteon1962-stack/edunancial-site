@@ -1,6 +1,6 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-import type { PublishedLessonRecord } from "@/lib/curriculum/authoritative-published";
+import type { PublishedLessonRecord, PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
 
 let cached: SupabaseClient | null = null;
 
@@ -36,21 +36,34 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
 export async function upsertAtomicPublishedLessons(batchId: string, lessons: PublishedLessonRecord[]): Promise<boolean> {
   const client = adminClient();
   if (!client) return false;
-  for (const lesson of lessons) {
-    const { error } = await client.rpc("publish_curriculum_lesson", {
-      p_batch_id: batchId,
-      p_lesson_id: lesson.id,
-      p_track: lesson.track,
-      p_level: lesson.level,
-      p_lesson_number: lesson.lessonNumber,
-      p_record: lesson,
-    });
-    if (error) {
-      if (schemaUnavailable(error.message)) return false;
-      throw new Error(`Atomic curriculum publication failed for ${lesson.id}: ${error.message}`);
-    }
+  const { error } = await client.rpc("publish_curriculum_batch", {
+    p_batch_id: batchId,
+    p_lessons: lessons,
+  });
+  if (error) {
+    if (schemaUnavailable(error.message)) return false;
+    throw new Error(`Atomic curriculum batch publication failed: ${error.message}`);
   }
   return true;
+}
+
+export async function upsertAtomicPublishedTranslation(
+  lessonId: string,
+  locale: string,
+  translation: PublishedLessonTranslation,
+): Promise<boolean | null> {
+  const client = adminClient();
+  if (!client) return null;
+  const { data, error } = await client.rpc("publish_curriculum_translation", {
+    p_lesson_id: lessonId,
+    p_locale: locale,
+    p_translation: translation,
+  });
+  if (error) {
+    if (schemaUnavailable(error.message)) return null;
+    throw new Error(`Atomic curriculum translation publication failed for ${lessonId}: ${error.message}`);
+  }
+  return Boolean(data);
 }
 
 export async function removeAtomicPublishedBatch(batchId: string): Promise<boolean> {
