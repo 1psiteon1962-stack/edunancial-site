@@ -1,6 +1,6 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-import type { PublishedLessonRecord } from "@/lib/curriculum/types";
+import type { PublishedLessonRecord } from "@/lib/curriculum/authoritative-published";
 
 let cached: SupabaseClient | null = null;
 
@@ -13,6 +13,10 @@ function adminClient(): SupabaseClient | null {
   return cached;
 }
 
+function schemaUnavailable(message: string): boolean {
+  return /does not exist|schema cache|could not find the function|could not find the table/i.test(message);
+}
+
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
   const client = adminClient();
   if (!client) return null;
@@ -23,7 +27,7 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
     .order("level")
     .order("lesson_number");
   if (error) {
-    if (/does not exist|schema cache/i.test(error.message)) return null;
+    if (schemaUnavailable(error.message)) return null;
     throw new Error(`Atomic curriculum read failed: ${error.message}`);
   }
   return (data ?? []).map((row) => row.record as PublishedLessonRecord);
@@ -42,7 +46,7 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       p_record: lesson,
     });
     if (error) {
-      if (/does not exist|schema cache/i.test(error.message)) return false;
+      if (schemaUnavailable(error.message)) return false;
       throw new Error(`Atomic curriculum publication failed for ${lesson.id}: ${error.message}`);
     }
   }
@@ -54,7 +58,7 @@ export async function removeAtomicPublishedBatch(batchId: string): Promise<boole
   if (!client) return false;
   const { error } = await client.rpc("remove_published_curriculum_batch", { p_batch_id: batchId });
   if (error) {
-    if (/does not exist|schema cache/i.test(error.message)) return false;
+    if (schemaUnavailable(error.message)) return false;
     throw new Error(`Atomic curriculum rollback failed: ${error.message}`);
   }
   return true;
