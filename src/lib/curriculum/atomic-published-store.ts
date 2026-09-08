@@ -20,12 +20,7 @@ function schemaUnavailable(message: string): boolean {
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
   const client = adminClient();
   if (!client) return null;
-  const { data, error } = await client
-    .from("published_curriculum_lessons")
-    .select("record")
-    .order("track")
-    .order("level")
-    .order("lesson_number");
+  const { data, error } = await client.from("published_curriculum_lessons").select("record").order("track").order("level").order("lesson_number");
   if (error) {
     if (schemaUnavailable(error.message)) return null;
     throw new Error(`Atomic curriculum read failed: ${error.message}`);
@@ -36,10 +31,7 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
 export async function upsertAtomicPublishedLessons(batchId: string, lessons: PublishedLessonRecord[]): Promise<boolean> {
   const client = adminClient();
   if (!client) return false;
-  const { error } = await client.rpc("publish_curriculum_batch", {
-    p_batch_id: batchId,
-    p_lessons: lessons,
-  });
+  const { error } = await client.rpc("publish_curriculum_batch", { p_batch_id: batchId, p_lessons: lessons });
   if (error) {
     if (schemaUnavailable(error.message)) return false;
     throw new Error(`Atomic curriculum batch publication failed: ${error.message}`);
@@ -47,18 +39,10 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
   return true;
 }
 
-export async function upsertAtomicPublishedTranslation(
-  lessonId: string,
-  locale: string,
-  translation: PublishedLessonTranslation,
-): Promise<boolean | null> {
+export async function upsertAtomicPublishedTranslation(lessonId: string, locale: string, translation: PublishedLessonTranslation): Promise<boolean | null> {
   const client = adminClient();
   if (!client) return null;
-  const { data, error } = await client.rpc("publish_curriculum_translation", {
-    p_lesson_id: lessonId,
-    p_locale: locale,
-    p_translation: translation,
-  });
+  const { data, error } = await client.rpc("publish_curriculum_translation", { p_lesson_id: lessonId, p_locale: locale, p_translation: translation });
   if (error) {
     if (schemaUnavailable(error.message)) return null;
     throw new Error(`Atomic curriculum translation publication failed for ${lessonId}: ${error.message}`);
@@ -75,4 +59,15 @@ export async function removeAtomicPublishedBatch(batchId: string): Promise<boole
     throw new Error(`Atomic curriculum rollback failed: ${error.message}`);
   }
   return true;
+}
+
+export async function removeAtomicPublishedLesson(lessonId: string): Promise<boolean | null> {
+  const client = adminClient();
+  if (!client) return null;
+  const { data, error } = await client.rpc("remove_published_curriculum_lesson", { p_lesson_id: lessonId });
+  if (error) {
+    if (schemaUnavailable(error.message)) return null;
+    throw new Error(`Atomic curriculum lesson removal failed for ${lessonId}: ${error.message}`);
+  }
+  return Boolean(data);
 }
