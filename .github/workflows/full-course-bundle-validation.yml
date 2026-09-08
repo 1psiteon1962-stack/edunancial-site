@@ -1,0 +1,26 @@
+name: Full Course Bundle Validation
+
+on:
+  pull_request:
+    paths:
+      - "content/courses/**/*.md"
+      - "scripts/curriculum/validate-full-course-bundles.mjs"
+      - ".github/workflows/full-course-bundle-validation.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "content/courses/**/*.md"
+      - "scripts/curriculum/validate-full-course-bundles.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-full-course-bundles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate full-50 curriculum bundles
+        run: node scripts/curriculum/validate-full-course-bundles.mjs
