@@ -1,19 +1,7 @@
 import Link from "next/link";
+import { FLASHCARD_DECKS } from "@/lib/practice/flashcards";
 
-export const metadata = {
-  title: "Practice & Flashcards | Edunancial",
-};
-
-const decks = [
-  { name: "Real Estate", color: "RED" },
-  { name: "Paper Assets", color: "WHITE" },
-  { name: "Business", color: "BLUE" },
-  { name: "Personal Finance & Taxes", color: "GREEN" },
-  { name: "Investing", color: "GOLD" },
-  { name: "Law", color: "PURPLE" },
-  { name: "Sales & Marketing", color: "ORANGE" },
-  { name: "Leadership", color: "BLACK" },
-];
+export const metadata = { title: "Practice & Flashcards | Edunancial" };
 
 export default function FlashCardsPage() {
   return (
@@ -25,21 +13,15 @@ export default function FlashCardsPage() {
           Core Edunancial flashcards are included with your membership. There is no additional charge and no Marketplace purchase is required.
         </p>
         <p className="mt-3 max-w-4xl text-slate-400">
-          Choose a curriculum track to reinforce key concepts. Additional Skills Labs, scenarios, calculators and assessments will live in Practice as they are released.
+          Choose a curriculum track to reinforce key concepts. Skills Labs, scenarios, calculators and assessments also belong in Practice as they are released.
         </p>
-
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {decks.map((deck) => (
-            <section key={deck.color} className="rounded-2xl border border-white/10 bg-slate-900 p-7">
-              <p className="text-xs font-black tracking-[0.2em] text-slate-400">{deck.color}</p>
-              <h2 className="mt-3 text-2xl font-black">{deck.name}</h2>
+          {FLASHCARD_DECKS.map((deck) => (
+            <section key={deck.track} className="rounded-2xl border border-white/10 bg-slate-900 p-7">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-slate-400">{deck.label}</p>
+              <h2 className="mt-3 text-2xl font-black">{deck.subject}</h2>
               <p className="mt-4 text-sm leading-6 text-slate-400">Core member flashcards for this Edunancial track.</p>
-              <Link
-                href={`/flashcards/${deck.color.toLowerCase()}`}
-                className="mt-6 inline-block rounded-lg bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700"
-              >
-                Open deck
-              </Link>
+              <Link href={deck.href} className="mt-6 inline-block rounded-lg bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700">Open deck</Link>
             </section>
           ))}
         </div>
