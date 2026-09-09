@@ -16,16 +16,7 @@ type MarketplaceProduct = {
 
 export const dynamic = "force-dynamic";
 
-const services = [
-  "Attorneys",
-  "Accountants",
-  "Real Estate",
-  "Business Advisors",
-  "Lenders",
-  "Insurance",
-  "Tax Professionals",
-  "Investors",
-];
+const services = ["Attorneys","Accountants","Real Estate","Business Advisors","Lenders","Insurance","Tax Professionals","Investors"];
 
 function money(cents: number, currency: string) {
   return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(cents / 100);
@@ -42,29 +33,25 @@ export default async function MarketplacePage() {
     .select("id,slug,title,description,product_type,status,price_cents,currency,author_name,language_code,category")
     .in("status", ["READY", "PUBLISHED"])
     .order("updated_at", { ascending: false });
-  const products = (data ?? []) as MarketplaceProduct[];
+  const products = ((data ?? []) as MarketplaceProduct[]).filter((product) => product.product_type !== "flashcards");
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section className="mx-auto max-w-7xl px-6 py-20">
         <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-300">Edunancial Marketplace</p>
-        <h1 className="mt-3 text-5xl font-black md:text-7xl">Products & Professional Services</h1>
+        <h1 className="mt-3 text-5xl font-black md:text-7xl">Supplemental Products & Professional Services</h1>
         <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">
-          Build practical financial capability with Edunancial digital products, then connect with professionals who can help you apply what you learn.
+          Find optional educational resources and professionals who can help you apply what you learn. Core Edunancial flashcards are included with membership under Practice and are not sold here.
         </p>
 
         <section className="mt-16" aria-labelledby="marketplace-products">
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h2 id="marketplace-products" className="text-3xl font-black md:text-4xl">Products</h2>
-              <p className="mt-2 text-slate-400">Flashcards, eBooks, workbooks, templates, downloads, courses and business tools.</p>
-            </div>
-          </div>
+          <div className="flex flex-wrap items-end justify-between gap-4"><div>
+            <h2 id="marketplace-products" className="text-3xl font-black md:text-4xl">Supplemental Products</h2>
+            <p className="mt-2 text-slate-400">eBooks, workbooks, templates, downloads, specialty guides and business tools.</p>
+          </div></div>
 
           {error ? (
-            <p className="mt-6 rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-amber-100">
-              The product catalog is temporarily unavailable. Please check back shortly.
-            </p>
+            <p className="mt-6 rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-amber-100">The product catalog is temporarily unavailable. Please check back shortly.</p>
           ) : products.length ? (
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {products.map((product) => (
@@ -85,8 +72,8 @@ export default async function MarketplacePage() {
             </div>
           ) : (
             <div className="mt-8 rounded-2xl border border-white/10 bg-[#101a2f] p-8">
-              <h3 className="text-xl font-black">Products are being prepared for publication.</h3>
-              <p className="mt-2 text-gray-400">Owner-uploaded drafts will appear here after they are marked ready or published.</p>
+              <h3 className="text-xl font-black">Supplemental products are being prepared for publication.</h3>
+              <p className="mt-2 text-gray-400">Core learning tools such as Edunancial flashcards are available through Practice.</p>
             </div>
           )}
         </section>
@@ -94,9 +81,7 @@ export default async function MarketplacePage() {
         <section className="mt-20" aria-labelledby="professional-services">
           <h2 id="professional-services" className="text-3xl font-black md:text-4xl">Professional Services</h2>
           <p className="mt-2 text-slate-400">Connect with professionals who help you apply what you have learned.</p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((title) => <ServiceCard key={title} title={title} />)}
-          </div>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">{services.map((title) => <ServiceCard key={title} title={title} />)}</div>
         </section>
       </section>
     </main>
@@ -104,9 +89,5 @@ export default async function MarketplacePage() {
 }
 
 function ServiceCard({ title }: { title: string }) {
-  return (
-    <div className="rounded-xl bg-slate-900 p-8">
-      <h3 className="text-xl font-bold">{title}</h3>
-    </div>
-  );
+  return <div className="rounded-xl bg-slate-900 p-8"><h3 className="text-xl font-bold">{title}</h3></div>;
 }
