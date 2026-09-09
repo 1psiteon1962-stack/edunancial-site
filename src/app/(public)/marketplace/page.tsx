@@ -11,7 +11,6 @@ type MarketplaceProduct = {
   currency: string;
   author_name: string | null;
   language_code: string;
-  category: string | null;
 };
 
 export const dynamic = "force-dynamic";
@@ -30,7 +29,7 @@ export default async function MarketplacePage() {
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db
     .from("marketplace_products")
-    .select("id,slug,title,description,product_type,status,price_cents,currency,author_name,language_code,category")
+    .select("id,slug,title,description,product_type,status,price_cents,currency,author_name,language_code")
     .in("status", ["READY", "PUBLISHED"])
     .order("updated_at", { ascending: false });
   const products = ((data ?? []) as MarketplaceProduct[]).filter((product) => product.product_type !== "flashcards");
@@ -58,7 +57,6 @@ export default async function MarketplacePage() {
                 <article key={product.id} className="flex min-h-72 flex-col rounded-2xl border border-white/10 bg-[#101a2f] p-6 shadow-lg">
                   <div className="flex flex-wrap gap-2 text-xs font-black uppercase tracking-wide">
                     <span className="rounded-full bg-blue-500/15 px-3 py-1 text-blue-200">{typeLabel(product.product_type)}</span>
-                    {product.category ? <span className="rounded-full bg-white/5 px-3 py-1 text-gray-300">{product.category}</span> : null}
                   </div>
                   <h3 className="mt-5 text-2xl font-black">{product.title}</h3>
                   {product.author_name ? <p className="mt-1 text-sm text-gray-400">By {product.author_name}</p> : null}
