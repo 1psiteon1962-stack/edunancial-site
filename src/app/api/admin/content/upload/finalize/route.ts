@@ -5,6 +5,7 @@ import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-norm
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { type StoredUploadEntry } from "@/lib/admin-content/service";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
+import { autoPublishTrustedCanonicalCurriculumBatch, isTrustedCanonicalCurriculumIdentity } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identity } from "@/lib/admin-content/trusted-localized-ingest";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
@@ -36,6 +37,7 @@ export async function POST(request: NextRequest) {
   try {
     const auth = await requireAdminApiSession(request, true);
     if (!auth.ok) return auth.response;
+    const actor = toActor(auth.session);
     const body = (await request.json()) as FinalizeBody;
     batchId = String(body.batchId ?? "").trim();
     if (!batchId) throw new Error("batchId is required.");
@@ -47,12 +49,9 @@ export async function POST(request: NextRequest) {
     const uploadConfig = parseUploadConfig(configFormData);
     const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language) : null;
     const trustedLocalized = isTrustedLocalizedLevel1Identity(packageIdentity);
+    const trustedCanonical = isTrustedCanonicalCurriculumIdentity(packageIdentity);
 
-    // A retry may arrive after the first finalization succeeded but before the
-    // browser received its response. Return the original review batch identity
-    // so the bulk client records the package as confirmed instead of reporting
-    // a false failure. If old audit rows lack that identity, safely reprocess.
-    if (!trustedLocalized) {
+    if (!trustedLocalized && !trustedCanonical) {
       const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, upload.uploadId);
       if (existingReviewBatchId) {
         return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
@@ -62,7 +61,7 @@ export async function POST(request: NextRequest) {
     const reviewBatchId = createId("batch");
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
 
-    const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, toActor(auth.session), { batchId: reviewBatchId, batchName: `${String(body.batchName ?? "Content upload")} — ${upload.originalFilename}`, source: String(body.source ?? ""), notes: String(body.notes ?? ""), uploadConfig, uploads: [upload] });
+    const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: reviewBatchId, batchName: `${String(body.batchName ?? "Content upload")} — ${upload.originalFilename}`, source: String(body.source ?? ""), notes: String(body.notes ?? ""), uploadConfig, uploads: [upload] });
     const batch = await normalizeMixedLocaleBatch(createdBatch);
     if (batch.uploads.length === 0 || batch.files.length === 0) {
       const detail = batch.warnings.length ? batch.warnings.join(" | ") : "No reviewable files were produced from the uploaded object.";
@@ -70,10 +69,11 @@ export async function POST(request: NextRequest) {
     }
 
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
+    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor);
 
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization } });
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization } });
-    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication } });
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication } });
+    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
