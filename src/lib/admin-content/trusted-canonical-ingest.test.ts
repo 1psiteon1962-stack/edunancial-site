@@ -13,8 +13,9 @@ test("trusted canonical curriculum accepts all eight tracks for US English L2 an
 });
 
 test("trusted canonical curriculum requires a complete 50 lesson package before publication", () => {
-  assert.match(helper, /approvedFiles !== 50/u);
-  assert.match(helper, /must contain exactly 50 canonical lesson files/u);
+  assert.match(helper, /canonical\.length !== 50/u);
+  assert.match(helper, /lessonNumbers\.size !== 50/u);
+  assert.match(helper, /Expected exactly 50 unique lessons/u);
   assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
 });
 
