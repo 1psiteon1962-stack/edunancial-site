@@ -4,30 +4,17 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
+import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { getKpiSupabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 import { createId } from "@/lib/admin-content/utils";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-// Recovery performs the same stored-package extraction/finalization work as the
-// primary finalizer. Keep the route budget aligned so recovery is not given a
-// shorter deadline than the operation it is designed to recover.
 export const maxDuration = 300;
 
-const RECOVERY_UNAVAILABLE_MESSAGE =
-  "Interrupted-upload recovery is temporarily unavailable because upload audit telemetry could not be read. New uploads can still proceed; do not retry a partially completed upload until recovery telemetry is restored.";
-
-type OperationRow = {
-  batch_id: string | null;
-  upload_id: string | null;
-  phase: string;
-  status: string;
-  storage_path: string | null;
-  file_name: string | null;
-  file_size: number | null;
-  metadata?: Record<string, unknown> | null;
-};
+const RECOVERY_UNAVAILABLE_MESSAGE = "Interrupted-upload recovery is temporarily unavailable because upload audit telemetry could not be read. New uploads can still proceed; do not retry a partially completed upload until recovery telemetry is restored.";
+type OperationRow = { batch_id: string | null; upload_id: string | null; phase: string; status: string; storage_path: string | null; file_name: string | null; file_size: number | null; metadata?: Record<string, unknown> | null; };
 
 async function getCompletedUploadIds(batchId: string): Promise<Set<string>> {
   const db = getKpiSupabaseAdmin();
@@ -49,100 +36,43 @@ async function getRecoverableUploads(batchId: string): Promise<StoredUploadEntry
   ]);
   if (error) throw new Error(`Unable to read stored upload audit trail: ${error.message}`);
   const seen = new Set<string>();
-  return ((data ?? []) as OperationRow[])
-    .filter((row) => row.upload_id && row.storage_path && row.file_name)
-    .filter((row) => !completedIds.has(row.upload_id as string))
-    .filter((row) => { const key = row.upload_id as string; if (seen.has(key)) return false; seen.add(key); return true; })
-    .map((row) => ({
-      uploadId: row.upload_id as string,
-      originalFilename: row.file_name as string,
-      mimeType: (row.file_name as string).toLowerCase().endsWith(".zip") ? "application/zip" : "application/octet-stream",
-      sizeBytes: row.file_size ?? 0,
-      storagePath: row.storage_path as string,
-    }));
+  return ((data ?? []) as OperationRow[]).filter((row) => row.upload_id && row.storage_path && row.file_name).filter((row) => !completedIds.has(row.upload_id as string)).filter((row) => { const key = row.upload_id as string; if (seen.has(key)) return false; seen.add(key); return true; }).map((row) => ({ uploadId: row.upload_id as string, originalFilename: row.file_name as string, mimeType: (row.file_name as string).toLowerCase().endsWith(".zip") ? "application/zip" : "application/octet-stream", sizeBytes: row.file_size ?? 0, storagePath: row.storage_path as string }));
 }
 
 export async function GET(request: NextRequest) {
-  // Recovery is auxiliary to new uploads. If its audit table is unavailable,
-  // the upload page should degrade safely instead of failing on refresh.
   const auth = await requireAdminApiSession(request, false);
   if (!auth.ok) return auth.response;
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db.from("admin_upload_operations").select("batch_id,phase,status,error_message,metadata").eq("phase", "FINALIZE").in("status", ["STARTED", "FAILED"]).limit(100);
-  if (error) {
-    return Response.json(
-      {
-        success: true,
-        recoverable: [],
-        recoveryAvailable: false,
-        warning: RECOVERY_UNAVAILABLE_MESSAGE,
-        telemetryError: error.message,
-      },
-      { headers: { "Cache-Control": "private, no-store" } },
-    );
-  }
-
+  if (error) return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error.message }, { headers: { "Cache-Control": "private, no-store" } });
   try {
     const candidateBatchIds = Array.from(new Set(((data ?? []) as Array<{ batch_id: string | null }>).map((row) => row.batch_id).filter((value): value is string => Boolean(value))));
     const recoverable: Array<{ batchId: string; uploads: StoredUploadEntry[] }> = [];
-    for (const batchId of candidateBatchIds) {
-      const uploads = await getRecoverableUploads(batchId);
-      if (uploads.length) recoverable.push({ batchId, uploads });
-    }
+    for (const batchId of candidateBatchIds) { const uploads = await getRecoverableUploads(batchId); if (uploads.length) recoverable.push({ batchId, uploads }); }
     return Response.json({ success: true, recoverable, recoveryAvailable: true }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
-    return Response.json(
-      {
-        success: true,
-        recoverable: [],
-        recoveryAvailable: false,
-        warning: RECOVERY_UNAVAILABLE_MESSAGE,
-        telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable.",
-      },
-      { headers: { "Cache-Control": "private, no-store" } },
-    );
+    return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable." }, { headers: { "Cache-Control": "private, no-store" } });
   }
 }
 
 export async function POST(request: NextRequest) {
   const auth = await requireAdminApiSession(request, true);
   if (!auth.ok) return auth.response;
+  const actor = toActor(auth.session);
   const body = await request.json() as { batchId?: string; uploadId?: string };
   const batchId = String(body.batchId ?? "").trim();
   const uploadId = String(body.uploadId ?? "").trim();
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
-
   let uploads: StoredUploadEntry[];
-  try {
-    uploads = await getRecoverableUploads(batchId);
-  } catch (error) {
-    return Response.json(
-      {
-        success: false,
-        error: RECOVERY_UNAVAILABLE_MESSAGE,
-        telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable.",
-      },
-      { status: 503, headers: { "Cache-Control": "private, no-store" } },
-    );
-  }
-
+  try { uploads = await getRecoverableUploads(batchId); } catch (error) { return Response.json({ success: false, error: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable." }, { status: 503, headers: { "Cache-Control": "private, no-store" } }); }
   const upload = uploads.find((entry) => entry.uploadId === uploadId);
   if (!upload) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
-
   let identity;
-  try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); }
-  catch (error) { return Response.json({ success: false, error: (error as Error).message }, { status: 400 }); }
-
+  try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message }, { status: 400 }); }
   const recoveryBatchId = createId("batch");
-  const batch = await createIndependentUploadBatchFromStoredFiles(request, toActor(auth.session), {
-    batchId: recoveryBatchId,
-    batchName: `Recovered ${upload.originalFilename}`,
-    source: `Recovered from stored upload batch ${batchId}`,
-    notes: "Recovered after the original direct-to-storage upload completed but HTTP finalization was interrupted. No file was re-uploaded.",
-    uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package. Review before publishing." },
-    uploads: [upload],
-  });
+  const batch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered after the original direct-to-storage upload completed but HTTP finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The audit trail exists, but the stored object could not be processed. It may not have completed transfer." }, { status: 409 });
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true } });
-  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
+  const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor);
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedCanonicalPublication } });
+  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedCanonicalPublication }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
