@@ -1,9 +1,8 @@
-import type { Actor } from "@/lib/admin-content/types";
 import type { PackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { deriveBatchStatus } from "@/lib/admin-content/review";
 import { publishBatch } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
-import type { UploadBatch } from "@/lib/admin-content/types";
+import type { ActorContext, UploadBatch } from "@/lib/admin-content/types";
 
 const TRUSTED_TRACKS = new Set(["red", "white", "blue", "green", "gold", "purple", "orange", "black"]);
 const CANONICAL_ENGLISH = new Set(["en", "en-US"]);
@@ -33,7 +32,7 @@ function lessonMatchesPackage(file: UploadBatch["files"][number], identity: Pack
 export async function autoPublishTrustedCanonicalCurriculumBatch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
-  actor: Actor,
+  actor: ActorContext,
 ): Promise<{
   attempted: boolean;
   approvedFiles: number;
