@@ -1,0 +1,35 @@
+name: One-time recover stored curriculum
+
+on:
+  push:
+    branches:
+      - ops/one-time-recover-stored-curriculum
+    paths:
+      - '.github/workflows/one-time-recover-stored-curriculum.yml'
+      - 'scripts/ops/recover-stored-curriculum.mjs'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+  EDUNANCIAL_UPLOAD_STORAGE_BUCKET: ${{ secrets.EDUNANCIAL_UPLOAD_STORAGE_BUCKET }}
+  EDUNANCIAL_GITHUB_OWNER: ${{ github.repository_owner }}
+  EDUNANCIAL_GITHUB_REPO: ${{ github.event.repository.name }}
+  EDUNANCIAL_GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - name: Recover and publish stored curriculum packages
+        run: node scripts/ops/recover-stored-curriculum.mjs
