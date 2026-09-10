@@ -33,11 +33,10 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(batch: UploadBa
 
   const numbered = batch.files.map((file) => ({ file, lessonNumber: lessonNumberForPackage(file, identity) }));
   const canonical = numbered.filter((entry) => entry.lessonNumber !== null);
-  const approvedFiles = canonical.length;
   const lessonNumbers = new Set(canonical.map((entry) => entry.lessonNumber as number));
   const unsafeFiles = batch.files.filter((file) => file.processingStatus === "error" || file.conflictStatus !== "none" || file.duplicateStatus !== "new");
-  if (approvedFiles !== 50 || lessonNumbers.size !== 50 || unsafeFiles.length > 0) {
-    throw new Error(`Trusted curriculum package must contain exactly 50 canonical lesson files with unique lessons 001-050 and no conflicts, duplicates, or processing errors. Found canonical=${approvedFiles}, uniqueLessons=${lessonNumbers.size}, unsafeFiles=${unsafeFiles.length}.`);
+  if (canonical.length !== 50 || lessonNumbers.size !== 50 || unsafeFiles.length > 0) {
+    throw new Error(`Trusted curriculum package ${identity.track}/${identity.level}/${identity.language} failed publication validation: canonical=${canonical.length}, uniqueLessons=${lessonNumbers.size}, unsafeFiles=${unsafeFiles.length}. Expected exactly 50 unique lessons with no conflicts, duplicates, or processing errors.`);
   }
   for (let lesson = 1; lesson <= 50; lesson += 1) if (!lessonNumbers.has(lesson)) throw new Error(`Trusted curriculum package is missing lesson ${String(lesson).padStart(3, "0")}.`);
 
