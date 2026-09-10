@@ -10,3 +10,4 @@ new2='function detected(a:Awaited<ReturnType<typeof detectCurriculumAsset>>,raw:
 if old2 not in s: raise SystemExit('detected() contract not found')
 s=s.replace(old2,new2)
 p.write_text(s)
+# trigger workflow
