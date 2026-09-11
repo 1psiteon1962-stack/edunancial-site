@@ -24,6 +24,34 @@ describe("runParallelFinalization", () => {
     assert.deepEqual(results, Array.from({ length: 12 }, (_, index) => (index + 1) * 10));
   });
 
+  test("35-package regression: a 504 on package 4 preserves and continues the other 34", async () => {
+    const attempted: number[] = [];
+    const failures: number[] = [];
+    let attemptsForFour = 0;
+    const results = await runParallelFinalization(
+      Array.from({ length: 35 }, (_, index) => index + 1),
+      async (item) => {
+        attempted.push(item);
+        if (item === 4) {
+          attemptsForFour += 1;
+          throw new Error("HTTP 504");
+        }
+        return item;
+      },
+      undefined,
+      ({ item }) => failures.push(item),
+      { concurrency: 4 },
+    );
+    assert.equal(new Set(attempted).size, 35);
+    assert.equal(attemptsForFour, 1, "ambiguous 504 must not be retried automatically");
+    assert.deepEqual(failures, [4]);
+    assert.equal(results.length, 34);
+    assert.ok(results.includes(1));
+    assert.ok(results.includes(3));
+    assert.ok(results.includes(5));
+    assert.ok(results.includes(35), "packages after the 504 must still finalize");
+  });
+
   test("21-package regression: package 18 fails and the other 20 complete", async () => {
     const attempted = new Set<number>();
     const failures: number[] = [];
