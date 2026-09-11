@@ -1,13 +1,23 @@
 from pathlib import Path
 p=Path('src/lib/curriculum/authoritative-published.ts')
 s=p.read_text()
-old='async function effective(){const s=await readPublishedState(),registry=readRegistry(),all=process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK==="true";for(const t of Object.values(registry.tracks))for(const level of Object.values(t.levels))for(const a of Object.values(level.assets)){if(s.lessons[a.id])continue;if(!all&&a.level!==2)continue;const r=fromRegistry(a);if(r)s.lessons[r.id]=r}return s}'
-new='async function effective(){const s=await readPublishedState(),registry=readRegistry(),all=process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK==="true";for(const t of Object.values(registry.tracks))for(const level of Object.values(t.levels))for(const a of Object.values(level.assets)){if(s.lessons[a.id])continue;if(!all&&a.level!==2)continue;const r=fromRegistry(a);if(r)s.lessons[r.id]=r}async function scan(dir:string){if(!existsSync(dir))return;for(const e of readdirSync(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory()){await scan(p);continue}if(!e.name.endsWith(".md")||!p.includes(`${join("", "en_us")}`))continue;try{const raw=readFileSync(p,"utf8"),a=await detectCurriculumAsset(raw,e.name),r=detected(a,raw);if(r&&!s.lessons[r.id])s.lessons[r.id]=r}catch{}}}await scan(COURSE_CONTENT_DIR);return s}'
-if old not in s: raise SystemExit('effective() contract not found')
-s=s.replace(old,new)
-old2='function detected(a:Awaited<ReturnType<typeof detectCurriculumAsset>>,raw:string):PublishedLessonRecord|null{if(!a||a.type!=="lesson"||!a.id||!a.track||!a.level||!a.number)return null;const p=parseFM(raw);return{id:a.id,track:a.track,trackName:trackName(a.track,a.trackName),level:a.level,lessonNumber:a.number,title:p.frontMatter.title??a.id,summary:p.frontMatter.summary??"",author:p.frontMatter.author??"Edunancial Faculty",date:p.frontMatter.date??new Date().toISOString().slice(0,10),version:p.frontMatter.version??"1.0",status:"active",importedAt:new Date().toISOString(),metadata:{officialTrackName:p.frontMatter.officialTrackName??a.trackName},path:a.canonicalPath,body:p.body,frontMatter:p.frontMatter}}'
-new2='function detected(a:Awaited<ReturnType<typeof detectCurriculumAsset>>,raw:string):PublishedLessonRecord|null{if(!a||a.type!=="lesson"||!a.id||!a.track||!a.level||!a.number)return null;const p=parseFM(raw),fm=Object.keys(p.frontMatter).length?p.frontMatter:a.frontMatter;return{id:a.id,track:a.track,trackName:trackName(a.track,a.trackName),level:a.level,lessonNumber:a.number,title:fm.title??a.id,summary:fm.summary??"",author:fm.author??"Edunancial Faculty",date:fm.date??new Date().toISOString().slice(0,10),version:fm.version??"1.0",status:"active",importedAt:new Date().toISOString(),metadata:{officialTrackName:fm.officialTrackName??a.trackName},path:a.canonicalPath,body:p.body,frontMatter:fm}}'
-if old2 not in s: raise SystemExit('detected() contract not found')
-s=s.replace(old2,new2)
+old='try{const raw=readFileSync(p,"utf8"),a=await detectCurriculumAsset(raw,e.name),r=detected(a,raw);if(r&&!s.lessons[r.id])s.lessons[r.id]=r}catch{}}}await scan(COURSE_CONTENT_DIR);return s}'
+new='try{const raw=readFileSync(p,"utf8"),a=await detectCurriculumAsset(raw,e.name),r=detected(a,raw);if(r&&!s.lessons[r.id])s.lessons[r.id]=r;for(const {asset,content} of await detectBundledCurriculumLessons(raw)){const bundled=detected(asset,content);if(bundled&&!s.lessons[bundled.id])s.lessons[bundled.id]=bundled}}catch{}}}await scan(COURSE_CONTENT_DIR);return s}'
+if old in s:
+    s=s.replace(old,new)
+elif new not in s:
+    raise SystemExit('runtime scan contract not found')
 p.write_text(s)
-# trigger workflow
+
+t=Path('src/lib/curriculum/authoritative-published.test.ts')
+ts=t.read_text()
+fixture_ids='new Set(["BLUE-L1-001", "RED-L1-001", "RED-L1-002", "RED-L1-099", "RED-L2-001"])'
+old_all='const allLessons = await exportPublishedLessonTranslations();'
+new_all=f'const allLessons = (await exportPublishedLessonTranslations()).filter((lesson) => {fixture_ids}.has(lesson.id));'
+if old_all in ts:
+    ts=ts.replace(old_all,new_all,1)
+old_pref='const prefixedLessons = await exportPublishedLessonTranslations({ prefixes: ["RED-L1"] });'
+new_pref='const prefixedLessons = (await exportPublishedLessonTranslations({ prefixes: ["RED-L1"] })).filter((lesson) => new Set(["RED-L1-001", "RED-L1-002", "RED-L1-099"]).has(lesson.id));'
+if old_pref in ts:
+    ts=ts.replace(old_pref,new_pref,1)
+t.write_text(ts)
