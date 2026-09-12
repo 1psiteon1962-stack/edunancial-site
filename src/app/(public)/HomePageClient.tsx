@@ -1,22 +1,58 @@
 "use client";
-import Link from "next/link";
 
-const goals=["Start a Business","Buy or Invest in Real Estate","Prepare for Retirement","Improve My Finances","Advance My Career","Help My Family","Learn Investing","Understand Legal Topics","Prepare for an AI Future"];
-const benefits=["Real-World Knowledge","Learn at Your Pace","Global Perspective","From Literacy to Financial Intelligence"];
-const tracks=[
-["RED","Real Estate","Understand property, financing, ownership, and real-estate decision making.","/curriculum/red","border-red-400/40"],
-["WHITE","Paper Assets","Understand stocks, bonds, funds, retirement accounts, and financial markets.","/curriculum/white","border-slate-400/40"],
-["BLUE","Business","Learn how businesses create value, operate, compete, and grow.","/curriculum/blue","border-blue-400/40"],
-["GREEN","Personal Finance & Taxes","Build practical skills for budgeting, credit, taxes, and financial planning.","/curriculum/green","border-green-400/40"],
-["GOLD","Investing","Learn the principles, risks, terminology, and analysis behind investing.","/curriculum/gold","border-yellow-400/40"],
-["PURPLE","Law","Understand legal concepts that affect money, business, property, and agreements.","/curriculum/purple","border-purple-400/40"],
-["ORANGE","Sales & Marketing","Learn customer acquisition, communication, positioning, and sustainable growth.","/curriculum/orange","border-orange-400/40"],
-["BLACK","Leadership","Develop decision making, management, accountability, and leadership skills.","/curriculum/black","border-slate-500/40"]
-];
-export default function HomePageClient(){return <main className="min-h-screen bg-[#f7f8fb] text-slate-950">
-<section className="bg-white"><div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-center lg:py-24"><div><p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">Practical financial education for real life</p><h1 className="mt-5 text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">You were taught how to earn money. Now learn how money really works.</h1><p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">Build practical financial knowledge across money, business, real estate, investing, taxes, law, sales, and leadership—so you can make informed decisions for your own goals.</p><div className="mt-8 flex flex-col gap-3 sm:flex-row"><Link href="/curriculum" className="rounded-lg bg-blue-600 px-7 py-4 text-center font-bold text-white">Start Free</Link><Link href="/assessment" className="rounded-lg border border-slate-300 bg-white px-7 py-4 text-center font-bold">Take the Assessment</Link></div></div><div className="rounded-3xl bg-gradient-to-br from-blue-100 via-white to-yellow-100 p-8 shadow-sm"><div className="grid grid-cols-2 gap-4">{["Money","Business","Property","Investing"].map((x,i)=><div key={x} className="flex min-h-36 items-end rounded-2xl bg-white p-5 shadow-sm"><div><p className="text-xs font-black text-blue-600">0{i+1}</p><p className="mt-2 text-xl font-black">{x}</p></div></div>)}</div></div></div></section>
-<section className="border-y bg-white"><div className="mx-auto grid max-w-7xl gap-6 px-6 py-7 sm:grid-cols-2 lg:grid-cols-4">{benefits.map(x=><div key={x} className="font-bold text-slate-700">✓ {x}</div>)}</div></section>
-<section className="mx-auto max-w-7xl px-6 py-16"><div className="text-center"><p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">Choose your path</p><h2 className="mt-3 text-4xl font-black">What are you trying to accomplish?</h2><p className="mx-auto mt-4 max-w-2xl text-slate-600">Start with your goal. We’ll help you identify the knowledge and skills behind it.</p></div><div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{goals.map(g=><Link href="/assessment" key={g} className="rounded-xl border border-slate-200 bg-white p-6 text-lg font-bold shadow-sm transition hover:-translate-y-1 hover:border-blue-400">{g}<span className="float-right text-blue-600">→</span></Link>)}</div><div className="mt-8 text-center"><Link href="/assessment" className="font-bold text-blue-700">Not sure where to start? Take the Financial Intelligence Assessment →</Link></div></section>
-<section className="bg-slate-950 text-white"><div className="mx-auto max-w-7xl px-6 py-16"><div className="text-center"><p className="text-sm font-black uppercase tracking-[.25em] text-yellow-300">Complete learning system</p><h2 className="mt-3 text-4xl font-black">Eight Subjects. One Complete System.</h2><p className="mx-auto mt-4 max-w-3xl text-slate-300">Progress from financial literacy to financial intelligence while exploring the subjects most relevant to your life.</p></div><div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">{tracks.map(([code,title,body,href,border])=><Link href={href} key={code} className={`rounded-2xl border bg-slate-900 p-6 ${border}`}><p className="text-xs font-black tracking-[.3em] text-slate-400">{code}</p><h3 className="mt-3 text-2xl font-black">{title}</h3><p className="mt-3 leading-7 text-slate-300">{body}</p><p className="mt-5 font-bold text-yellow-300">Explore subject →</p></Link>)}</div></div></section>
-<section className="bg-white"><div className="mx-auto max-w-5xl px-6 py-16 text-center"><h2 className="text-4xl font-black">Learn. Apply. Advance.</h2><p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">Begin with free lessons, build competency through structured levels, and return to earlier material whenever you need a refresher.</p><Link href="/curriculum" className="mt-8 inline-block rounded-lg bg-blue-600 px-8 py-4 font-bold text-white">Explore the Curriculum</Link></div></section>
-</main>}
+import Link from "next/link";
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { getHomeMarketingCopy } from "@/lib/international/home-marketing-copy";
+
+export default function HomePageClient() {
+  const { effectiveLanguage } = useInternationalPreferences();
+  const copy = getHomeMarketingCopy(effectiveLanguage);
+
+  return <main className="min-h-screen bg-[#f7f8fb] text-slate-950">
+    <section className="bg-white">
+      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-center lg:py-24">
+        <div>
+          <p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">{copy.whyLabel}</p>
+          <h1 className="mt-5 text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">{copy.whyTitle}</h1>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">{copy.whyBody}</p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Link href="/assessment" className="rounded-lg bg-blue-600 px-7 py-4 text-center font-bold text-white">{copy.takeAssessment}</Link>
+            <Link href="/curriculum" className="rounded-lg border border-slate-300 bg-white px-7 py-4 text-center font-bold">{copy.startFree}</Link>
+          </div>
+          <p className="mt-4 text-sm text-slate-500">{copy.freeAccessNote}</p>
+        </div>
+        <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-100 via-white to-yellow-100 shadow-sm">
+          <img src="/home-human-goals.svg" alt="" className="h-auto w-full" />
+        </div>
+      </div>
+    </section>
+
+    <section className="mx-auto max-w-7xl px-6 py-16">
+      <div className="text-center">
+        <p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">{copy.assessmentLabel}</p>
+        <h2 className="mt-3 text-4xl font-black">{copy.assessmentTitle}</h2>
+        <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">{copy.assessmentBody}</p>
+      </div>
+      <div className="mt-10 grid gap-5 md:grid-cols-3">
+        {copy.barriers.map(([problem, solution]) => <div key={problem} className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+          <p className="text-xl font-black text-slate-950">“{problem}”</p>
+          <p className="mt-4 leading-7 text-slate-600">{solution}</p>
+        </div>)}
+      </div>
+      <div className="mt-8 text-center"><Link href="/assessment" className="inline-block rounded-lg bg-blue-600 px-8 py-4 font-bold text-white">{copy.assessmentCta}</Link></div>
+    </section>
+
+    <section className="bg-slate-950 text-white">
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="text-center"><p className="text-sm font-black uppercase tracking-[.25em] text-yellow-300">{copy.colorLabel}</p><h2 className="mt-3 text-4xl font-black">{copy.colorTitle}</h2><p className="mx-auto mt-4 max-w-3xl text-slate-300">{copy.colorBody}</p></div>
+        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">{copy.tracks.map((track) => <Link href={track.href} key={track.code} className={`rounded-2xl border p-6 ${track.className}`}><p className="text-xs font-black tracking-[.3em] text-slate-400">{track.code}</p><h3 className="mt-3 text-2xl font-black">{track.title}</h3><p className="mt-3 leading-7 text-slate-300">{track.body}</p><p className="mt-5 font-bold text-yellow-300">{copy.explorePathway}</p></Link>)}</div>
+      </div>
+    </section>
+
+    <section className="bg-white"><div className="mx-auto max-w-5xl px-6 py-16 text-center"><p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">{copy.journeyLabel}</p><h2 className="mt-3 text-4xl font-black">{copy.journeyTitle}</h2><p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">{copy.journeyBody}</p><div className="mt-8 flex flex-wrap justify-center gap-3">{copy.journeySteps.map((step, index) => <span key={step} className="rounded-full bg-slate-100 px-5 py-3 font-bold">{index + 1}. {step}</span>)}</div></div></section>
+
+    <section className="mx-auto max-w-7xl px-6 py-16"><div className="grid gap-8 lg:grid-cols-2"><div className="rounded-3xl bg-blue-50 p-8"><p className="text-sm font-black uppercase tracking-[.25em] text-blue-600">{copy.trustLabel}</p><h2 className="mt-3 text-3xl font-black">{copy.trustTitle}</h2><p className="mt-5 leading-8 text-slate-600">{copy.trustBody}</p></div><div className="rounded-3xl bg-amber-50 p-8"><h2 className="text-2xl font-black">{copy.noticeTitle}</h2><p className="mt-5 leading-8 text-slate-600">{copy.noticeBody}</p></div></div></section>
+
+    <section className="bg-slate-950 text-white"><div className="mx-auto max-w-5xl px-6 py-16 text-center"><p className="text-sm font-black uppercase tracking-[.25em] text-yellow-300">{copy.finalLabel}</p><h2 className="mt-3 text-4xl font-black">{copy.finalTitle}</h2><p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-300">{copy.finalBody}</p><div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row"><Link href="/curriculum" className="rounded-lg bg-yellow-300 px-8 py-4 font-bold text-slate-950">{copy.startFree}</Link><Link href="/assessment" className="rounded-lg border border-white/30 px-8 py-4 font-bold">{copy.assessmentCta}</Link></div></div></section>
+  </main>;
+}
