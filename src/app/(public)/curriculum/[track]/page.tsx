@@ -20,6 +20,14 @@ const LEVEL_NAME_KEYS = [
   "curriculum.level5.name",
 ] as const;
 
+const DEFAULT_LEVEL_NAMES = [
+  "Financial Literacy",
+  "Financial Competency",
+  "Applied Reasoning",
+  "Strategic Integration",
+  "Financial Intelligence",
+] as const;
+
 const ACCENT: Record<string, string> = {
   RED: "from-red-950 via-red-900 to-slate-950",
   WHITE: "from-slate-900 via-slate-800 to-slate-950",
@@ -92,7 +100,7 @@ export default async function TrackPage({ params }: Props) {
           {[1, 2, 3, 4, 5].map((n) => {
             const found = track.levels.find((level) => level.level === n);
             const count = found?.lessonCount ?? 0;
-            const levelName = translatedOr(t, LEVEL_NAME_KEYS[n - 1], ["Financial Literacy", "Financial Competency", "Applied Reasoning", "Strategic Integration", "Financial Intelligence"][n - 1]);
+            const levelName = translatedOr(t, LEVEL_NAME_KEYS[n - 1], DEFAULT_LEVEL_NAMES[n - 1]);
             return (
               <Link key={n} href={`/curriculum/${raw}/l${n}`} className="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                 <p className="text-xs font-black uppercase tracking-wider text-blue-700">{translatedOr(t, "curriculum.levelLabel", "Level {{level}}", { level: n })}</p>
