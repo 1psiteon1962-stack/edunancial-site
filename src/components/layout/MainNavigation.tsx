@@ -12,6 +12,8 @@ return(
 
 <Link href="/courses">Courses</Link>
 
+<Link href="/flashcards">Practice</Link>
+
 <Link href="/marketplace">Marketplace</Link>
 
 <Link href="/funding">Funding</Link>
