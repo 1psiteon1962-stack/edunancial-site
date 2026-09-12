@@ -18,12 +18,18 @@ export default function AILearningCoachWidget() {
     enabled: boolean;
   } | null>(null);
 
+  const isLessonContext = Boolean(context?.lessonId);
+
   const contextLabel = useMemo(() => {
     if (!context) return "Context loading…";
     return [context.track, context.level ? `L${context.level}` : null, context.lessonId]
       .filter(Boolean)
-      .join(" · ") || "General learning";
+      .join(" · ");
   }, [context]);
+
+  // The learning coach is lesson-scoped. Do not obstruct marketing,
+  // curriculum, goal-selection, assessment, or other non-lesson pages.
+  if (!isLessonContext) return null;
 
   return (
     <div className="fixed bottom-4 right-4 z-50 w-[92vw] max-w-sm">
