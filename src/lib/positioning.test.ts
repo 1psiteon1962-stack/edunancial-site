@@ -23,7 +23,11 @@ test("publishes only the three paid public membership plans", () => {
   );
   assert.deepEqual(
     publicMembershipPlans.map((plan) => plan.monthlyPrice),
-    [39.99, 69.99, 99.99],
+    [14.99, 24.99, 39.99],
+  );
+  assert.deepEqual(
+    publicMembershipPlans.map((plan) => plan.annualPrice),
+    [119.99, 199.99, 299.99],
   );
   assert.equal(membershipPlans.find((plan) => plan.id === "beta")?.isPublic, false);
 });
