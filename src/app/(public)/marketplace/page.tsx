@@ -11,24 +11,14 @@ type MarketplaceProduct = {
   currency: string;
   author_name: string | null;
   language_code: string;
-  category: string | null;
 };
 
 export const dynamic = "force-dynamic";
 
-const services = [
-  "Attorneys",
-  "Accountants",
-  "Real Estate",
-  "Business Advisors",
-  "Lenders",
-  "Insurance",
-  "Tax Professionals",
-  "Investors",
-];
+const services = ["Attorneys", "Accountants", "Real Estate", "Business Advisors", "Lenders", "Insurance", "Tax Professionals", "Investors"];
 
 function money(cents: number, currency: string) {
-  return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(cents / 100);
+  return new Intl.NumberFormat(undefined, { style: "currency", currency }).format(cents / 100);
 }
 
 function typeLabel(value: string) {
@@ -39,40 +29,28 @@ export default async function MarketplacePage() {
   const db = getKpiSupabaseAdmin();
   const { data, error } = await db
     .from("marketplace_products")
-    .select("id,slug,title,description,product_type,status,price_cents,currency,author_name,language_code,category")
+    .select("id,slug,title,description,product_type,status,price_cents,currency,author_name,language_code")
     .in("status", ["READY", "PUBLISHED"])
     .order("updated_at", { ascending: false });
-  const products = (data ?? []) as MarketplaceProduct[];
+  const products = ((data ?? []) as MarketplaceProduct[]).filter((product) => product.product_type.toLowerCase() !== "flashcards");
 
   return (
     <main className="min-h-screen bg-[#08101f] text-white">
       <section className="mx-auto max-w-7xl px-6 py-20">
         <p className="text-sm font-black uppercase tracking-[0.2em] text-blue-300">Edunancial Marketplace</p>
-        <h1 className="mt-3 text-5xl font-black md:text-7xl">Products & Professional Services</h1>
-        <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">
-          Build practical financial capability with Edunancial digital products, then connect with professionals who can help you apply what you learn.
-        </p>
+        <h1 className="mt-3 text-5xl font-black md:text-7xl">Supplemental Products & Professional Services</h1>
+        <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">Find optional educational resources and professionals who can help you apply what you learn. Core Edunancial flashcards are included with membership under Practice and are not sold here.</p>
 
         <section className="mt-16" aria-labelledby="marketplace-products">
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h2 id="marketplace-products" className="text-3xl font-black md:text-4xl">Products</h2>
-              <p className="mt-2 text-slate-400">Flashcards, eBooks, workbooks, templates, downloads, courses and business tools.</p>
-            </div>
-          </div>
-
+          <h2 id="marketplace-products" className="text-3xl font-black md:text-4xl">Supplemental Products</h2>
+          <p className="mt-2 text-slate-400">eBooks, workbooks, templates, downloads, specialty guides and business tools.</p>
           {error ? (
-            <p className="mt-6 rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-amber-100">
-              The product catalog is temporarily unavailable. Please check back shortly.
-            </p>
+            <p className="mt-6 rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-amber-100">The product catalog is temporarily unavailable. Please check back shortly.</p>
           ) : products.length ? (
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {products.map((product) => (
                 <article key={product.id} className="flex min-h-72 flex-col rounded-2xl border border-white/10 bg-[#101a2f] p-6 shadow-lg">
-                  <div className="flex flex-wrap gap-2 text-xs font-black uppercase tracking-wide">
-                    <span className="rounded-full bg-blue-500/15 px-3 py-1 text-blue-200">{typeLabel(product.product_type)}</span>
-                    {product.category ? <span className="rounded-full bg-white/5 px-3 py-1 text-gray-300">{product.category}</span> : null}
-                  </div>
+                  <span className="w-fit rounded-full bg-blue-500/15 px-3 py-1 text-xs font-black uppercase tracking-wide text-blue-200">{typeLabel(product.product_type)}</span>
                   <h3 className="mt-5 text-2xl font-black">{product.title}</h3>
                   {product.author_name ? <p className="mt-1 text-sm text-gray-400">By {product.author_name}</p> : null}
                   <p className="mt-4 line-clamp-4 flex-1 leading-7 text-gray-300">{product.description || "Edunancial Marketplace digital product."}</p>
@@ -84,29 +62,16 @@ export default async function MarketplacePage() {
               ))}
             </div>
           ) : (
-            <div className="mt-8 rounded-2xl border border-white/10 bg-[#101a2f] p-8">
-              <h3 className="text-xl font-black">Products are being prepared for publication.</h3>
-              <p className="mt-2 text-gray-400">Owner-uploaded drafts will appear here after they are marked ready or published.</p>
-            </div>
+            <div className="mt-8 rounded-2xl border border-white/10 bg-[#101a2f] p-8"><h3 className="text-xl font-black">Supplemental products are being prepared for publication.</h3><p className="mt-2 text-gray-400">Core learning tools such as Edunancial flashcards are available through Practice.</p></div>
           )}
         </section>
 
         <section className="mt-20" aria-labelledby="professional-services">
           <h2 id="professional-services" className="text-3xl font-black md:text-4xl">Professional Services</h2>
           <p className="mt-2 text-slate-400">Connect with professionals who help you apply what you have learned.</p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((title) => <ServiceCard key={title} title={title} />)}
-          </div>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">{services.map((title) => <div key={title} className="rounded-xl bg-slate-900 p-8"><h3 className="text-xl font-bold">{title}</h3></div>)}</div>
         </section>
       </section>
     </main>
-  );
-}
-
-function ServiceCard({ title }: { title: string }) {
-  return (
-    <div className="rounded-xl bg-slate-900 p-8">
-      <h3 className="text-xl font-bold">{title}</h3>
-    </div>
   );
 }
