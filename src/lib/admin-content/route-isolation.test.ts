@@ -228,6 +228,71 @@ describe("admin content upload 404 regression", () => {
     }
   });
 
+  test("presign route handler always returns JSON responses — never HTML", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
+
+    // The handler must never use primitives that can produce an HTML page.
+    // "new Response(" without a Content-Type header defaults to text/plain but
+    // callers may use it to return raw strings; any non-JSON path causes the
+    // client to receive unexpected content.  Response.json() is the only
+    // correct primitive for JSON API routes.
+    assert.doesNotMatch(
+      src,
+      /\bnew\s+Response\s*\(/,
+      "presign route must not use 'new Response(' — use Response.json() to guarantee a JSON Content-Type",
+    );
+    assert.doesNotMatch(
+      src,
+      /NextResponse\.redirect\s*\(/,
+      "presign route must not call NextResponse.redirect() — API routes must return JSON, not redirects",
+    );
+    assert.match(
+      src,
+      /Response\.json\s*\(/,
+      "presign route must use Response.json() for all success and error responses",
+    );
+    assert.match(
+      src,
+      /requireAdminApiSession/,
+      "presign route must call requireAdminApiSession to authenticate every request before processing",
+    );
+  });
+
+  test("finalize route handler always returns JSON responses — never HTML", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/finalize/route.ts");
+
+    assert.doesNotMatch(
+      src,
+      /\bnew\s+Response\s*\(/,
+      "finalize route must not use 'new Response(' — use Response.json() to guarantee a JSON Content-Type",
+    );
+    assert.doesNotMatch(
+      src,
+      /NextResponse\.redirect\s*\(/,
+      "finalize route must not call NextResponse.redirect() — API routes must return JSON, not redirects",
+    );
+    assert.match(
+      src,
+      /Response\.json\s*\(/,
+      "finalize route must use Response.json() for all success and error responses",
+    );
+    assert.match(
+      src,
+      /requireAdminApiSession/,
+      "finalize route must call requireAdminApiSession to authenticate every request before processing",
+    );
+  });
+
+  test("presign route handler is guarded by rate limiting", () => {
+    const src = readSourceFile("src/app/api/admin/content/upload/presign/route.ts");
+
+    assert.match(
+      src,
+      /checkRateLimit/,
+      "presign route must apply rate limiting to prevent upload abuse",
+    );
+  });
+
   test("netlify.toml does not contain a catch-all redirect that intercepts API requests", () => {
     // A catch-all redirect rule such as "from = '/*' to = '/index.html'" in
     // netlify.toml would intercept every request — including POST to
