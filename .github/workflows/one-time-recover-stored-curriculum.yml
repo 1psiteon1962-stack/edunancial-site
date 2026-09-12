@@ -1,5 +1,6 @@
 name: One-time recover stored curriculum
 
+# Recovery rerun requested to restore existing canonical curriculum before any creation.
 on:
   workflow_dispatch:
   push:
