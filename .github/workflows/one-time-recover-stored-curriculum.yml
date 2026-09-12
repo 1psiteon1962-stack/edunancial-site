@@ -1,6 +1,7 @@
 name: One-time recover stored curriculum
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Wait for production route and execute stored-package recovery
+      - name: Execute stored-package recovery
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
