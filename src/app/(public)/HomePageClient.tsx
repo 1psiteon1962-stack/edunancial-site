@@ -3,13 +3,15 @@
 import Link from "next/link";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { getHomeMarketingCopy } from "@/lib/international/home-marketing-copy";
+import { getHomeUiCopy } from "@/lib/international/home-ui-copy";
 
-const features = [["realWorld", "◈"], ["pace", "▱"], ["global", "◎"], ["pathway", "▥"]] as const;
+const featureIcons = ["◈", "▱", "◎", "▥"] as const;
 const goals = ["business", "realEstate", "retirement", "finances", "career", "family"] as const;
 
 export default function HomePageClient() {
-  const { effectiveLanguage, t } = useInternationalPreferences();
+  const { effectiveLanguage } = useInternationalPreferences();
   const copy = getHomeMarketingCopy(effectiveLanguage);
+  const ui = getHomeUiCopy(effectiveLanguage);
 
   return <main className="bg-white text-[#071426]">
     <section className="relative isolate min-h-[360px] overflow-hidden bg-[#08213a] text-white sm:min-h-[390px] lg:min-h-[430px]">
@@ -30,7 +32,7 @@ export default function HomePageClient() {
 
     <section className="border-b border-slate-200 bg-white">
       <div className="mx-auto grid max-w-[1440px] grid-cols-4 divide-x divide-slate-200 px-2 sm:px-4">
-        {features.map(([key, icon]) => <div key={key} className="flex min-h-[70px] flex-col items-center justify-center gap-1 px-1 py-2 text-center sm:flex-row sm:gap-3 sm:px-4 sm:text-left"><span aria-hidden className="text-xl text-sky-500 sm:text-2xl">{icon}</span><div><h2 className="text-[10px] font-black leading-3 sm:text-[14px] sm:leading-4">{t(`home.feature.${key}.title`)}</h2><p className="hidden text-[12px] text-slate-600 sm:block">{t(`home.feature.${key}.body`)}</p></div></div>)}
+        {ui.features.map(([title, body], index) => <div key={title} className="flex min-h-[70px] flex-col items-center justify-center gap-1 px-1 py-2 text-center sm:flex-row sm:gap-3 sm:px-4 sm:text-left"><span aria-hidden className="text-xl text-sky-500 sm:text-2xl">{featureIcons[index]}</span><div><h2 className="text-[10px] font-black leading-3 sm:text-[14px] sm:leading-4">{title}</h2><p className="hidden text-[12px] text-slate-600 sm:block">{body}</p></div></div>)}
       </div>
     </section>
 
@@ -48,8 +50,8 @@ export default function HomePageClient() {
 
     <section className="bg-gradient-to-b from-sky-50 to-white">
       <div className="mx-auto max-w-[1440px] px-5 py-5 sm:px-8 lg:px-16">
-        <div className="text-center"><h2 className="text-[25px] font-black">{t("home.goals.title")}</h2><p className="mt-1 text-[13px] text-slate-600">{t("home.goals.body")}</p></div>
-        <div className="mt-3 grid grid-cols-3 gap-2 lg:grid-cols-6">{goals.map((goal) => <Link href={`/assessment?goal=${goal}`} key={goal} className="min-h-[82px] rounded-md border border-slate-200 bg-white p-3 shadow-sm"><div className="flex justify-between gap-1"><h3 className="text-[11px] font-black leading-4 sm:text-[13px]">{t(`home.goal.${goal}.title`)}</h3><span aria-hidden>→</span></div><p className="mt-1 hidden text-[11px] leading-[14px] text-slate-600 sm:block">{t(`home.goal.${goal}.body`)}</p></Link>)}</div>
+        <div className="text-center"><h2 className="text-[25px] font-black">{ui.goalsTitle}</h2><p className="mt-1 text-[13px] text-slate-600">{ui.goalsBody}</p></div>
+        <div className="mt-3 grid grid-cols-3 gap-2 lg:grid-cols-6">{goals.map((goal) => { const [title, body] = ui.goals[goal]; return <Link href={`/assessment?goal=${goal}`} key={goal} className="min-h-[82px] rounded-md border border-slate-200 bg-white p-3 shadow-sm"><div className="flex justify-between gap-1"><h3 className="text-[11px] font-black leading-4 sm:text-[13px]">{title}</h3><span aria-hidden>→</span></div><p className="mt-1 hidden text-[11px] leading-[14px] text-slate-600 sm:block">{body}</p></Link>; })}</div>
         <div className="mt-3 flex items-center justify-between gap-3 rounded-md bg-sky-100 px-4 py-3 sm:px-8"><div><h3 className="text-[14px] font-black">{copy.assessmentLabel}</h3><p className="hidden text-[12px] text-slate-600 sm:block">{copy.assessmentBody}</p></div><Link href="/assessment" className="shrink-0 rounded-md bg-blue-600 px-5 py-3 text-[12px] font-bold text-white">{copy.assessmentCta}</Link></div>
       </div>
     </section>
