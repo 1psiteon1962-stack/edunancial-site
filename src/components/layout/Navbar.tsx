@@ -1,20 +1,58 @@
 "use client";
+
 import Link from "next/link";
 import { useState } from "react";
+
 import LanguagePreferenceSelector from "@/components/international/LanguagePreferenceSelector";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { useAuth } from "@/lib/authContext";
 
-const navigation=[
- {key:"nav.courses",href:"/courses"},
- {key:"nav.pricing",href:"/pricing"},
- {key:"footer.link.about",href:"/about"},
- {key:"home.dashboard.card8.title",href:"/resources"},
+const navigation = [
+  { key: "nav.courses", href: "/courses" },
+  { key: "nav.pricing", href: "/pricing" },
+  { key: "footer.link.about", href: "/about" },
+  { key: "home.dashboard.card8.title", href: "/resources" },
 ];
 
-export default function Navbar(){
- const[menuOpen,setMenuOpen]=useState(false);
- const[languageOpen,setLanguageOpen]=useState(false);
- const{t}=useInternationalPreferences();
- const{user,logout,loading}=useAuth();
- return <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#071426]/95 backdrop-blur"><div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4"><Link href="/" className="text-2xl font-black tracking-tight text-sky-400">EDUNANCIAL</Link><nav className="hidden items-center gap-7 lg:flex">{navigation.map(i=><Link key={i.key} href={i.href} className="text-sm text-slate-200 hover:text-white">{t(i.key)}</Link>)}</nav><div className="hidden items-center gap-3 lg:flex"><LanguagePreferenceSelector/>{!loading&&(user?<><Link href="/dashboard" className="rounded-lg border border-slate-600 px-4 py-2 font-semibold">{t("nav.dashboard")}</Link><button onClick={()=>void logout()} className="rounded-lg bg-slate-700 px-4 py-2 font-semibold">{t("nav.signOut")}</button></>:<><Link href="/login" className="rounded-lg border border-slate-600 px-4 py-2 font-semibold">{t("nav.login")}</Link><Link href="/register" className="rounded-lg bg-sky-500 px-5 py-2 font-bold text-white">{t("nav.becomeMember")}</Link></>)}</div><div className="flex items-center gap-2 lg:hidden"><button type="button" aria-label={t("selector.globe")} aria-expanded={languageOpen} onClick={()=>setLanguageOpen(v=>!v)} className="rounded-lg px-3 py-2">🌐</button><button type="button" aria-label={t("nav.menu")} aria-expanded={menuOpen} onClick={()=>setMenuOpen(v=>!v)} className="rounded-lg px-3 py-2">☰</button></div></div>{(menuOpen||languageOpen)&&<div className="border-t border-slate-800 px-5 py-4 lg:hidden"><LanguagePreferenceSelector compact/><nav className="mt-3 grid gap-2">{navigation.map(i=><Link key={i.key} href={i.href} className="rounded-md px-3 py-2 text-slate-200">{t(i.key)}</Link>)}{!loading&&!user&&<><Link href="/login" className="rounded-md px-3 py-2 text-slate-200">{t("nav.login")}</Link><Link href="/register" className="rounded-lg bg-sky-500 px-3 py-2 text-center font-bold">{t("nav.becomeMember")}</Link></>}</nav></div>}</header>}
+export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [languageOpen, setLanguageOpen] = useState(false);
+  const { t } = useInternationalPreferences();
+  const { user, logout, loading } = useAuth();
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#071426]/95 text-white backdrop-blur">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+        <Link href="/" className="text-2xl font-black tracking-tight text-sky-400">EDUNANCIAL</Link>
+        <nav className="hidden items-center gap-7 lg:flex">
+          {navigation.map((item) => <Link key={item.key} href={item.href} className="text-sm text-slate-200 hover:text-white">{t(item.key)}</Link>)}
+        </nav>
+        <div className="hidden items-center gap-3 lg:flex">
+          <LanguagePreferenceSelector />
+          {!loading && (user ? <>
+            <Link href="/dashboard" className="rounded-lg border border-slate-600 px-4 py-2 font-semibold">{t("nav.dashboard")}</Link>
+            <button onClick={() => void logout()} className="rounded-lg bg-slate-700 px-4 py-2 font-semibold">{t("nav.signOut")}</button>
+          </> : <>
+            <Link href="/login" className="rounded-lg border border-slate-600 px-4 py-2 font-semibold">{t("nav.login")}</Link>
+            <Link href="/register" className="rounded-lg bg-sky-500 px-5 py-2 font-bold text-white">{t("nav.becomeMember")}</Link>
+          </>)}
+        </div>
+        <div className="flex items-center gap-2 lg:hidden">
+          <Link href="/pricing" aria-label={t("nav.pricing")} className="rounded-lg px-2 py-2 text-sm font-bold text-sky-300">{t("nav.pricing")}</Link>
+          <button type="button" aria-label={t("selector.globe")} aria-expanded={languageOpen} onClick={() => setLanguageOpen((value) => !value)} className="rounded-lg px-2 py-2">🌐</button>
+          <button type="button" aria-label={t("nav.menu")} aria-expanded={menuOpen} onClick={() => setMenuOpen((value) => !value)} className="rounded-lg px-2 py-2">☰</button>
+        </div>
+      </div>
+      {(menuOpen || languageOpen) && <div className="border-t border-slate-800 px-5 py-4 lg:hidden">
+        <LanguagePreferenceSelector compact />
+        <nav className="mt-3 grid gap-2">
+          {navigation.map((item) => <Link key={item.key} href={item.href} className="rounded-md px-3 py-2 text-slate-200">{t(item.key)}</Link>)}
+          {!loading && !user && <>
+            <Link href="/login" className="rounded-md px-3 py-2 text-slate-200">{t("nav.login")}</Link>
+            <Link href="/register" className="rounded-lg bg-sky-500 px-3 py-2 text-center font-bold">{t("nav.becomeMember")}</Link>
+          </>}
+        </nav>
+      </div>}
+    </header>
+  );
+}
