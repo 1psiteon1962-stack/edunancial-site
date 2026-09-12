@@ -1,9 +1,54 @@
 "use client";
+
 import Link from "next/link";
-const tracks=[["RED","Real Estate","Build wealth through property.","🏠","from-red-950 to-red-700"],["WHITE","Paper Assets","Understand stocks, bonds and more.","▤","from-slate-500 to-slate-700"],["BLUE","Business","Turn ideas into opportunity.","🏢","from-sky-700 to-blue-600"],["GREEN","Taxes","Know the rules. Keep more of what you earn.","🌱","from-green-800 to-emerald-600"],["GOLD","Investing","Grow and protect your wealth.","●","from-amber-700 to-yellow-500"],["PURPLE","Law","Understand your rights and reduce risk.","⚖","from-purple-900 to-purple-600"],["ORANGE","Sales & Marketing","Create demand. Increase opportunity.","📣","from-orange-700 to-orange-500"],["BLACK","Leadership","Develop the mindset to go further.","♛","from-slate-950 to-slate-800"]] as const;
-const goals=[["Start a Business","Learn what you don't know yet and avoid costly mistakes.","💻"],["Buy or Invest in Real Estate","Understand financing, cash flow, taxes and risk.","🏡"],["Prepare for Retirement","Plan today for a more secure tomorrow.","🌅"],["Improve My Finances","Get control, reduce debt, and build wealth.","📈"],["Advance My Career","Gain skills that create opportunity.","💼"],["Help My Family","Give your family a stronger financial future.","👨‍👩‍👧"]] as const;
-export default function HomePageClient(){return <main className="bg-white text-[#071426]">
-<section className="relative isolate h-[355px] overflow-hidden bg-[#08213a] text-white sm:h-[390px] lg:h-[430px]"><img src="/home-human-goals.svg" alt="People building financial confidence" className="absolute inset-0 h-full w-full object-cover object-center opacity-70"/><div className="absolute inset-0 bg-gradient-to-r from-[#071426] via-[#071426]/80 to-[#071426]/10"/><div className="relative mx-auto flex h-full max-w-[1440px] items-center px-5 sm:px-8 lg:px-16"><div className="max-w-[520px]"><h1 className="text-[36px] font-black leading-[.98] tracking-[-.035em] sm:text-[44px] lg:text-[48px]">You were taught<br/>how to earn money.<br/>Now learn how<br/><span className="text-sky-400">money really works.</span></h1><p className="mt-3 max-w-[470px] text-[15px] leading-6 sm:text-base">Practical, unbiased financial education to help you make better decisions about your future.</p><div className="mt-4 flex gap-3"><Link href="/curriculum" className="min-w-40 rounded-md bg-yellow-300 px-6 py-3 text-center font-black text-slate-950">Start Free</Link><Link href="/assessment" className="min-w-52 rounded-md border border-white bg-[#071426]/40 px-6 py-3 text-center font-semibold">Take the Assessment</Link></div><p className="mt-3 text-[10px] font-bold uppercase tracking-[.08em]">Knowledge &nbsp; | &nbsp; Confidence &nbsp; | &nbsp; Opportunity &nbsp; | &nbsp; A brighter tomorrow</p></div><div className="absolute right-8 top-1/2 hidden -translate-y-1/2 text-xl font-bold leading-6 lg:block">Financial<br/>literacy to<br/>financial<br/>intelligence.<div className="mt-3 h-1 w-12 bg-sky-400"/></div></div></section>
-<section className="border-b border-slate-200"><div className="mx-auto grid max-w-[1440px] grid-cols-2 divide-x divide-slate-200 px-4 lg:grid-cols-4">{[["⌂","Real-World Knowledge","Practical lessons for real life."],["▱","Learn at Your Pace","Any device, anywhere."],["◎","Global Perspective","Multiple languages."],["▥","From Literacy to Financial Intelligence","A clear, proven pathway."]].map(([icon,title,body])=><div key={title} className="flex min-h-[78px] items-center gap-4 px-5 py-3"><span className="text-3xl text-sky-500">{icon}</span><div><h2 className="text-[15px] font-black leading-5">{title}</h2><p className="text-[13px] text-slate-600">{body}</p></div></div>)}</div></section>
-<section className="mx-auto max-w-[1440px] px-5 py-5 sm:px-8 lg:px-16"><div className="flex items-end justify-between"><div><h2 className="text-[24px] font-black">Eight Subjects. One Complete System.</h2><p className="mt-1 text-[13px] text-slate-600">Explore our curriculum and build the knowledge to create a stronger financial future.</p></div><Link href="/curriculum" className="hidden text-[13px] font-semibold text-sky-600 md:block">View All Courses →</Link></div><div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-8">{tracks.map(([code,title,body,icon,gradient])=><Link href={`/curriculum/${code.toLowerCase()}`} key={code} className={`flex h-[150px] flex-col justify-end rounded-md bg-gradient-to-b ${gradient} p-3 text-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md`}><div className="mb-auto text-center text-3xl">{icon}</div><h3 className="text-[15px] font-black leading-4">{title}</h3><p className="mt-1 text-[12px] leading-[15px]">{body}</p></Link>)}</div></section>
-<section className="bg-gradient-to-b from-sky-50 to-white"><div className="mx-auto max-w-[1440px] px-5 py-3 sm:px-8 lg:px-16"><div className="text-center"><h2 className="text-[27px] font-black">What are you trying to accomplish?</h2><p className="text-[13px] text-slate-600">Choose a goal below and we'll recommend where to start.</p></div><div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-6">{goals.map(([title,body,icon])=><Link href="/assessment" key={title} className="overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"><div className="flex h-[70px] items-center justify-center bg-gradient-to-br from-slate-100 to-sky-100 text-4xl">{icon}</div><div className="p-3"><div className="flex justify-between gap-2"><h3 className="text-[13px] font-black leading-4">{title}</h3><span>→</span></div><p className="mt-1 text-[11px] leading-[14px] text-slate-600">{body}</p></div></Link>)}</div><div className="mt-3 flex items-center justify-between rounded-md bg-sky-100 px-8 py-3"><div><h3 className="text-[16px] font-black">Not sure where to start?</h3><p className="text-[12px] text-slate-600">Take a short assessment and we'll create a personalized learning path for you.</p></div><Link href="/assessment" className="rounded-md bg-blue-600 px-8 py-3 text-[13px] font-bold text-white">Take the Assessment</Link></div></div></section></main>}
+import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { getHomeMarketingCopy } from "@/lib/international/home-marketing-copy";
+
+const features = [
+  ["realWorld", "◈"], ["pace", "▱"], ["global", "◎"], ["pathway", "▥"],
+] as const;
+
+const goals = ["business", "realEstate", "retirement", "finances", "career", "family"] as const;
+
+export default function HomePageClient() {
+  const { effectiveLanguage, t } = useInternationalPreferences();
+  const copy = getHomeMarketingCopy(effectiveLanguage);
+
+  return <main className="bg-white text-[#071426]">
+    <section className="relative isolate h-[355px] overflow-hidden bg-[#08213a] text-white sm:h-[390px] lg:h-[430px]">
+      <img src="/home-human-goals.svg" alt="" className="absolute inset-0 h-full w-full object-cover object-center opacity-70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#071426] via-[#071426]/80 to-[#071426]/10" />
+      <div className="relative mx-auto flex h-full max-w-[1440px] items-center px-5 sm:px-8 lg:px-16">
+        <div className="max-w-[560px]">
+          <h1 className="text-[36px] font-black leading-[.98] tracking-[-.035em] sm:text-[44px] lg:text-[48px]">{copy.heroTitle}</h1>
+          <p className="mt-3 max-w-[500px] text-[15px] leading-6 sm:text-base">{copy.heroBody}</p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/curriculum" className="min-w-40 rounded-md bg-yellow-300 px-6 py-3 text-center font-black text-slate-950">{copy.startFree}</Link>
+            <Link href="/assessment" className="min-w-52 rounded-md border border-white bg-[#071426]/40 px-6 py-3 text-center font-semibold">{copy.takeAssessment}</Link>
+          </div>
+          <p className="mt-3 text-[10px] font-bold uppercase tracking-[.08em]">{copy.heroEyebrow}</p>
+        </div>
+        <div className="absolute right-8 top-1/2 hidden max-w-[210px] -translate-y-1/2 text-xl font-bold leading-6 lg:block">{copy.finalLabel}<div className="mt-3 h-1 w-12 bg-sky-400" /></div>
+      </div>
+    </section>
+
+    <section className="border-b border-slate-200">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-2 divide-x divide-slate-200 px-4 lg:grid-cols-4">
+        {features.map(([key, icon]) => <div key={key} className="flex min-h-[78px] items-center gap-4 px-5 py-3"><span aria-hidden className="text-3xl text-sky-500">{icon}</span><div><h2 className="text-[15px] font-black leading-5">{t(`home.feature.${key}.title`)}</h2><p className="text-[13px] text-slate-600">{t(`home.feature.${key}.body`)}</p></div></div>)}
+      </div>
+    </section>
+
+    <section className="mx-auto max-w-[1440px] px-5 py-5 sm:px-8 lg:px-16">
+      <div className="flex items-end justify-between"><div><h2 className="text-[24px] font-black">{copy.colorTitle}</h2><p className="mt-1 text-[13px] text-slate-600">{copy.colorBody}</p></div><Link href="/curriculum" className="hidden text-[13px] font-semibold text-sky-600 md:block">{copy.explorePathway}</Link></div>
+      <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-8">{copy.tracks.map((track) => <Link href={track.href} key={track.code} className={`flex h-[150px] flex-col justify-end rounded-md border p-3 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md ${track.className}`}><p className="mb-auto text-[10px] font-black tracking-[.15em]">{track.code}</p><h3 className="text-[15px] font-black leading-4">{track.title}</h3><p className="mt-1 text-[12px] leading-[15px]">{track.body}</p></Link>)}</div>
+    </section>
+
+    <section className="bg-gradient-to-b from-sky-50 to-white">
+      <div className="mx-auto max-w-[1440px] px-5 py-3 sm:px-8 lg:px-16">
+        <div className="text-center"><h2 className="text-[27px] font-black">{t("home.goals.title")}</h2><p className="text-[13px] text-slate-600">{t("home.goals.body")}</p></div>
+        <div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-6">{goals.map((goal) => <Link href={`/assessment?goal=${goal}`} key={goal} className="overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"><div className="p-3"><div className="flex justify-between gap-2"><h3 className="text-[13px] font-black leading-4">{t(`home.goal.${goal}.title`)}</h3><span aria-hidden>→</span></div><p className="mt-1 text-[11px] leading-[14px] text-slate-600">{t(`home.goal.${goal}.body`)}</p></div></Link>)}</div>
+        <div className="mt-3 flex flex-col items-start justify-between gap-3 rounded-md bg-sky-100 px-8 py-3 sm:flex-row sm:items-center"><div><h3 className="text-[16px] font-black">{copy.assessmentLabel}</h3><p className="text-[12px] text-slate-600">{copy.assessmentBody}</p></div><Link href="/assessment" className="rounded-md bg-blue-600 px-8 py-3 text-[13px] font-bold text-white">{copy.assessmentCta}</Link></div>
+      </div>
+    </section>
+  </main>;
+}
