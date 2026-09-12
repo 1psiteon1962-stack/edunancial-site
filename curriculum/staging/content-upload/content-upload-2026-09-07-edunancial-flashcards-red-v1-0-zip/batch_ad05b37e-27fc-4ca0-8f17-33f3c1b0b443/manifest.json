@@ -1,0 +1,84 @@
+{
+  "batchId": "batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443",
+  "exportId": "export_batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443_1788742049271",
+  "uploadTimestamp": "2026-09-07T00:47:34.193Z",
+  "branch": "content/course-upload-20260907-004734-content-upload-2026-09-07-edunancial-flashcards-red-v1-0-zip",
+  "files": [
+    {
+      "sourceFilename": "edunancial-flashcards-red-en-us-v1-0.xlsx",
+      "destinationPath": "content/marketplace/flashcards/en_us/edunancial-flashcards-edunancial-flashcards-red-en-us-v1-0.xlsx",
+      "title": "Edunancial Flashcards",
+      "track": "uncategorized",
+      "level": null,
+      "language": "en-US",
+      "region": null,
+      "membership": "uncategorized",
+      "batchId": "batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443",
+      "uploadTimestamp": "2026-09-07T00:46:38.009Z",
+      "checksum": "sha256:45143c7407e2e986f389fd57c3d8d08a3580b6fdc3d915eabc0872bbb5308c40",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    },
+    {
+      "sourceFilename": "edunancial-flashcards-red-es-caribbean-v1-0.xlsx",
+      "destinationPath": "content/marketplace/flashcards/en_us/edunancial-flashcards-edunancial-flashcards-red-es-caribbean-v1-0.xlsx",
+      "title": "Edunancial Flashcards",
+      "track": "uncategorized",
+      "level": null,
+      "language": "en-US",
+      "region": null,
+      "membership": "uncategorized",
+      "batchId": "batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443",
+      "uploadTimestamp": "2026-09-07T00:46:38.009Z",
+      "checksum": "sha256:e15882afea859202fd32ea3051a230f24ccb8feb4a3b24bbe9efce6b35addd57",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    },
+    {
+      "sourceFilename": "edunancial-flashcards-red-en-us-v1-0.pdf",
+      "destinationPath": "content/marketplace/flashcards/en_us/edunancial-flashcards-edunancial-flashcards-red-en-us-v1-0.pdf",
+      "title": "Edunancial Flashcards",
+      "track": "uncategorized",
+      "level": null,
+      "language": "en-US",
+      "region": null,
+      "membership": "uncategorized",
+      "batchId": "batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443",
+      "uploadTimestamp": "2026-09-07T00:46:38.009Z",
+      "checksum": "sha256:8feb130d2fe1a89f82ce8f196b1f67d5469c6bd821dfc8228396bf83c84d4f3a",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    },
+    {
+      "sourceFilename": "edunancial-flashcards-red-es-caribbean-v1-0.pdf",
+      "destinationPath": "content/marketplace/flashcards/en_us/edunancial-flashcards-edunancial-flashcards-red-es-caribbean-v1-0.pdf",
+      "title": "Edunancial Flashcards",
+      "track": "uncategorized",
+      "level": null,
+      "language": "en-US",
+      "region": null,
+      "membership": "uncategorized",
+      "batchId": "batch_ad05b37e-27fc-4ca0-8f17-33f3c1b0b443",
+      "uploadTimestamp": "2026-09-07T00:46:38.009Z",
+      "checksum": "sha256:fa508fa3e53b939313f5836ce7236e4a18e1d091998193626de68a23f2a87d9a",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
