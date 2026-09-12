@@ -56,8 +56,21 @@ test("mergeContextAcrossNavigation persists lesson context across non-curriculum
   assert.equal(merged.lessonId, "WHITE-L1-002");
 });
 
-test("normalizeJurisdiction maps known country labels and defaults", () => {
+test("normalizeJurisdiction maps known labels but never silently defaults to US", () => {
   assert.equal(normalizeJurisdiction("United States"), "US");
   assert.equal(normalizeJurisdiction("Canada"), "CA");
-  assert.equal(normalizeJurisdiction(""), "US");
+  assert.equal(normalizeJurisdiction(""), "");
+  assert.equal(normalizeJurisdiction(undefined), "");
+});
+
+test("unknown learner jurisdiction remains unknown so sensitive guidance can fail closed", () => {
+  const context = buildAILearningContext({
+    pathname: "/curriculum/green/l1/green-l1-001",
+    language: "es",
+    membership: "basic",
+    country: "",
+  });
+
+  assert.equal(context.country, "");
+  assert.equal(context.jurisdiction, "");
 });

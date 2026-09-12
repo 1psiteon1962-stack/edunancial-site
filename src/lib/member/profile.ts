@@ -9,6 +9,8 @@ export interface UserProfileRow {
   last_name: string;
   phone: string | null;
   country: string | null;
+  subdivision_code: string | null;
+  jurisdiction_confirmed_at: string | null;
   bio: string | null;
   membership_tier: MembershipTier;
   assessment_completed: boolean;
@@ -31,13 +33,15 @@ export async function ensureUserProfile(user: User): Promise<UserProfileRow> {
     last_name: getMetadataString(user, "last_name") || getMetadataString(user, "lastName"),
     phone: getMetadataString(user, "phone") || null,
     country: getMetadataString(user, "country") || null,
+    subdivision_code: getMetadataString(user, "subdivision_code") || null,
+    jurisdiction_confirmed_at: getMetadataString(user, "jurisdiction_confirmed_at") || null,
     bio: getMetadataString(user, "bio") || null,
   };
 
   const { data, error } = await admin
     .from("user_profiles")
     .upsert(payload, { onConflict: "user_id", ignoreDuplicates: false })
-    .select("user_id, first_name, last_name, phone, country, bio, membership_tier, assessment_completed, overall_score, created_at, updated_at")
+    .select("user_id, first_name, last_name, phone, country, subdivision_code, jurisdiction_confirmed_at, bio, membership_tier, assessment_completed, overall_score, created_at, updated_at")
     .single();
 
   if (error || !data) {
@@ -56,6 +60,8 @@ export function mapAuthUser(user: User, profile: UserProfileRow): AuthUser {
     membershipTier: profile.membership_tier,
     joinedDate: user.created_at,
     country: profile.country ?? "",
+    subdivisionCode: profile.subdivision_code,
+    jurisdictionConfirmedAt: profile.jurisdiction_confirmed_at,
     phone: profile.phone,
     bio: profile.bio,
     assessmentCompleted: profile.assessment_completed,
@@ -72,12 +78,14 @@ export function sanitizeProfileUpdate(input: Partial<AuthUser>) {
   if (typeof input.firstName === "string") result.first_name = input.firstName.slice(0, 100);
   if (typeof input.lastName === "string") result.last_name = input.lastName.slice(0, 100);
   if (typeof input.phone === "string") result.phone = input.phone.slice(0, 50) || null;
-  if (typeof input.country === "string") result.country = input.country.slice(0, 100) || null;
+  if (typeof input.country === "string") result.country = input.country.trim().toUpperCase().slice(0, 100) || null;
+  if (typeof input.subdivisionCode === "string") result.subdivision_code = input.subdivisionCode.trim().toUpperCase().slice(0, 20) || null;
+  if (typeof input.country === "string" || typeof input.subdivisionCode === "string") {
+    result.jurisdiction_confirmed_at = new Date().toISOString();
+  }
   if (typeof input.bio === "string") result.bio = input.bio.slice(0, 1000) || null;
   if (typeof input.assessmentCompleted === "boolean") result.assessment_completed = input.assessmentCompleted;
-  if (typeof input.overallScore === "number" || input.overallScore === null) {
-    result.overall_score = input.overallScore;
-  }
+  if (typeof input.overallScore === "number" || input.overallScore === null) result.overall_score = input.overallScore;
 
   return result;
 }

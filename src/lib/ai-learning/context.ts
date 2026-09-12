@@ -12,8 +12,20 @@ export interface AILearningContext {
   topic: string | null;
   language: string;
   membership: MembershipStatus;
+  /** Learner-confirmed substantive learning jurisdiction. */
   jurisdiction: string;
+  /** Backward-compatible primary country, also learner-confirmed. */
   country: string;
+  subdivisionCode?: string;
+  jurisdictionConfirmedAt?: string;
+  /** Transient physical/session location signal; never substantive-law authority. */
+  sessionCountryCode?: string;
+  sessionSubdivisionCode?: string;
+  sessionLocationSource?: 'edge' | 'ip' | 'device' | 'unknown';
+  sessionLocationDiffers?: boolean;
+  taxResidenceCountryCode?: string;
+  assetCountryCode?: string;
+  businessCountryCode?: string;
   progressPercent: number;
   completedLessons: string[];
   certificationPath: string | null;
@@ -27,41 +39,33 @@ export interface AILearningContextInput {
   membership: MembershipStatus;
   country: string;
   jurisdiction?: string;
+  subdivisionCode?: string;
+  jurisdictionConfirmedAt?: string;
+  sessionCountryCode?: string;
+  sessionSubdivisionCode?: string;
+  sessionLocationSource?: 'edge' | 'ip' | 'device' | 'unknown';
+  taxResidenceCountryCode?: string;
+  assetCountryCode?: string;
+  businessCountryCode?: string;
 }
 
-interface ParsedCurriculumPath {
-  track: string | null;
-  level: number | null;
-  lessonId: string | null;
-}
-
-const DEFAULT_JURISDICTION = "US";
+interface ParsedCurriculumPath { track: string | null; level: number | null; lessonId: string | null; }
 
 export function parseCurriculumPath(pathname: string): ParsedCurriculumPath {
   const match = pathname.match(/^\/curriculum\/([^/]+)(?:\/(l\d+))?(?:\/([^/?#]+))?/i);
-
-  if (!match) {
-    return { track: null, level: null, lessonId: null };
-  }
-
+  if (!match) return { track: null, level: null, lessonId: null };
   const [, rawTrack, rawLevel, rawLesson] = match;
-
-  return {
-    track: rawTrack?.toUpperCase() ?? null,
-    level: rawLevel ? Number(rawLevel.replace(/^l/i, "")) : null,
-    lessonId: rawLesson ? rawLesson.toUpperCase() : null,
-  };
+  return { track: rawTrack?.toUpperCase() ?? null, level: rawLevel ? Number(rawLevel.replace(/^l/i, "")) : null, lessonId: rawLesson ? rawLesson.toUpperCase() : null };
 }
 
 export function deriveTopicFromLessonId(lessonId: string | null): string | null {
-  if (!lessonId) {
-    return null;
-  }
+  if (!lessonId) return null;
+  return lessonId.replace(/^[A-Z]+-L\d+-/i, "").replace(/-/g, " ").trim() || lessonId;
+}
 
-  return lessonId
-    .replace(/^[A-Z]+-L\d+-/i, "")
-    .replace(/-/g, " ")
-    .trim() || lessonId;
+export function normalizeSubdivision(value: string | null | undefined): string | undefined {
+  const normalized = value?.trim().toUpperCase();
+  return normalized && /^[A-Z0-9-]{1,12}$/.test(normalized) ? normalized : undefined;
 }
 
 export function buildAILearningContext(input: AILearningContextInput): AILearningContext {
@@ -69,112 +73,52 @@ export function buildAILearningContext(input: AILearningContextInput): AILearnin
   const adaptiveProgress = loadAdaptiveLearningProgress();
   const completedLessons = adaptiveProgress?.lessonsCompleted ?? [];
   const progressPercent = adaptiveProgress?.completionPercentage ?? 0;
-  const certificationPath =
-    parsedPath.track && parsedPath.level
-      ? `${parsedPath.track}-L${parsedPath.level}`
-      : adaptiveProgress?.currentColor && adaptiveProgress?.currentLevel
-        ? `${adaptiveProgress.currentColor}-${adaptiveProgress.currentLevel}`
-        : null;
-
-  const lastLogin = adaptiveProgress?.lastLogin
-    ? new Date(adaptiveProgress.lastLogin)
-    : null;
-  const daysSinceLastLogin =
-    lastLogin && !Number.isNaN(lastLogin.getTime())
-      ? Math.floor((Date.now() - lastLogin.getTime()) / (1000 * 60 * 60 * 24))
-      : 0;
+  const certificationPath = parsedPath.track && parsedPath.level ? `${parsedPath.track}-L${parsedPath.level}` : adaptiveProgress?.currentColor && adaptiveProgress?.currentLevel ? `${adaptiveProgress.currentColor}-${adaptiveProgress.currentLevel}` : null;
+  const lastLogin = adaptiveProgress?.lastLogin ? new Date(adaptiveProgress.lastLogin) : null;
+  const daysSinceLastLogin = lastLogin && !Number.isNaN(lastLogin.getTime()) ? Math.floor((Date.now() - lastLogin.getTime()) / (1000 * 60 * 60 * 24)) : 0;
+  const country = normalizeJurisdiction(input.country);
+  const jurisdiction = normalizeJurisdiction(input.jurisdiction ?? country);
+  const subdivisionCode = normalizeSubdivision(input.subdivisionCode);
+  const sessionCountryCode = input.sessionCountryCode ? normalizeJurisdiction(input.sessionCountryCode) : undefined;
+  const sessionSubdivisionCode = normalizeSubdivision(input.sessionSubdivisionCode);
+  const sessionLocationDiffers = Boolean(sessionCountryCode && jurisdiction && (sessionCountryCode !== jurisdiction || (sessionCountryCode === jurisdiction && sessionSubdivisionCode && subdivisionCode && sessionSubdivisionCode !== subdivisionCode)));
 
   return {
-    pathname: input.pathname,
-    track: parsedPath.track,
-    level: parsedPath.level,
-    lessonId: parsedPath.lessonId,
-    topic: deriveTopicFromLessonId(parsedPath.lessonId),
-    language: input.language,
-    membership: input.membership,
-    jurisdiction: normalizeJurisdiction(input.jurisdiction ?? input.country),
-    country: normalizeJurisdiction(input.country),
-    progressPercent,
-    completedLessons,
-    certificationPath,
-    sessionStreakDays: Math.max(0, 7 - daysSinceLastLogin),
-    lastContextUpdateAt: new Date().toISOString(),
+    pathname: input.pathname, track: parsedPath.track, level: parsedPath.level,
+    lessonId: parsedPath.lessonId, topic: deriveTopicFromLessonId(parsedPath.lessonId),
+    language: input.language, membership: input.membership, jurisdiction, country,
+    subdivisionCode, jurisdictionConfirmedAt: input.jurisdictionConfirmedAt,
+    sessionCountryCode, sessionSubdivisionCode, sessionLocationSource: input.sessionLocationSource, sessionLocationDiffers,
+    taxResidenceCountryCode: input.taxResidenceCountryCode ? normalizeJurisdiction(input.taxResidenceCountryCode) : undefined,
+    assetCountryCode: input.assetCountryCode ? normalizeJurisdiction(input.assetCountryCode) : undefined,
+    businessCountryCode: input.businessCountryCode ? normalizeJurisdiction(input.businessCountryCode) : undefined,
+    progressPercent, completedLessons, certificationPath,
+    sessionStreakDays: Math.max(0, 7 - daysSinceLastLogin), lastContextUpdateAt: new Date().toISOString(),
   };
 }
 
-export function mergeContextAcrossNavigation(
-  previous: AILearningContext | null,
-  current: AILearningContext,
-): AILearningContext {
-  if (!previous) {
-    return current;
-  }
-
-  if (current.track || current.lessonId || current.level) {
-    return current;
-  }
-
-  return {
-    ...current,
-    track: previous.track,
-    level: previous.level,
-    lessonId: previous.lessonId,
-    topic: previous.topic,
-    certificationPath: previous.certificationPath,
-  };
+export function mergeContextAcrossNavigation(previous: AILearningContext | null, current: AILearningContext): AILearningContext {
+  if (!previous || current.track || current.lessonId || current.level) return current;
+  return { ...current, track: previous.track, level: previous.level, lessonId: previous.lessonId, topic: previous.topic, certificationPath: previous.certificationPath };
 }
 
 export function safeLoadContextFromSessionStorage(): AILearningContext | null {
-  if (typeof window === "undefined") {
-    return null;
-  }
-
-  try {
-    const raw = sessionStorage.getItem(AI_LEARNING_CONTEXT_SESSION_KEY);
-    if (!raw) {
-      return null;
-    }
-
-    return JSON.parse(raw) as AILearningContext;
-  } catch {
-    return null;
-  }
+  if (typeof window === "undefined") return null;
+  try { const raw = sessionStorage.getItem(AI_LEARNING_CONTEXT_SESSION_KEY); return raw ? JSON.parse(raw) as AILearningContext : null; } catch { return null; }
 }
 
 export function safeSaveContextToSessionStorage(context: AILearningContext): void {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  sessionStorage.setItem(AI_LEARNING_CONTEXT_SESSION_KEY, JSON.stringify(context));
+  if (typeof window !== "undefined") sessionStorage.setItem(AI_LEARNING_CONTEXT_SESSION_KEY, JSON.stringify(context));
 }
 
+/** Empty input stays empty so sensitive teaching fails closed instead of applying US rules. */
 export function normalizeJurisdiction(value: string | null | undefined): string {
   const normalized = value?.trim().toUpperCase();
-
-  if (!normalized) {
-    return DEFAULT_JURISDICTION;
-  }
-
-  if (normalized.includes("UNITED STATES") || normalized === "USA") {
-    return "US";
-  }
-
-  if (normalized.includes("CANADA")) {
-    return "CA";
-  }
-
-  if (normalized.includes("MEXICO")) {
-    return "MX";
-  }
-
-  if (normalized.includes("DOMINICAN")) {
-    return "DO";
-  }
-
-  if (normalized.includes("UNITED KINGDOM") || normalized === "UK") {
-    return "GB";
-  }
-
+  if (!normalized) return "";
+  if (normalized.includes("UNITED STATES") || normalized === "USA") return "US";
+  if (normalized.includes("CANADA")) return "CA";
+  if (normalized.includes("MEXICO")) return "MX";
+  if (normalized.includes("DOMINICAN")) return "DO";
+  if (normalized.includes("UNITED KINGDOM") || normalized === "UK") return "GB";
   return normalized;
 }
