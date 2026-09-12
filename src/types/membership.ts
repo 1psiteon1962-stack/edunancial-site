@@ -41,10 +41,9 @@ export const membershipPlans: MembershipPlan[] = [
   {
     id: "basic",
     name: "Basic Membership",
-    description:
-      "Structured learning resources, guided sessions, practical exercises, and member tools for financial literacy and competency growth.",
-    monthlyPrice: 39.99,
-    annualPrice: 399.99,
+    description: "Structured learning resources, guided sessions, practical exercises, and member tools for financial literacy and competency growth.",
+    monthlyPrice: 14.99,
+    annualPrice: 119.99,
     currency: "USD",
     featured: true,
     assessmentIncluded: true,
@@ -54,16 +53,15 @@ export const membershipPlans: MembershipPlan[] = [
     prioritySupport: false,
     maxCertificates: 12,
     billingLabel: "per month",
-    ctaLabel: "Choose Individual Membership",
+    ctaLabel: "Choose Basic Membership",
     isPublic: true,
   },
   {
     id: "premium",
     name: "Pro Membership",
-    description:
-      "Expanded member benefits with deeper learning access, downloads, and AI financial coach support.",
-    monthlyPrice: 69.99,
-    annualPrice: 699.99,
+    description: "Expanded member benefits with deeper learning access, downloads, and AI financial coach support.",
+    monthlyPrice: 24.99,
+    annualPrice: 199.99,
     currency: "USD",
     featured: false,
     assessmentIncluded: true,
@@ -79,10 +77,9 @@ export const membershipPlans: MembershipPlan[] = [
   {
     id: "enterprise",
     name: "Gold Membership",
-    description:
-      "Full membership access for advanced learners with priority support and premium tools.",
-    monthlyPrice: 99.99,
-    annualPrice: 999.99,
+    description: "Full membership access for advanced learners with priority support and premium tools.",
+    monthlyPrice: 39.99,
+    annualPrice: 299.99,
     currency: "USD",
     featured: false,
     assessmentIncluded: true,
@@ -98,8 +95,7 @@ export const membershipPlans: MembershipPlan[] = [
   {
     id: "beta",
     name: "Trial Membership",
-    description:
-      "Optional starter plan for North America launch campaigns when trial enrollment is enabled.",
+    description: "Optional starter plan for North America launch campaigns when trial enrollment is enabled.",
     monthlyPrice: 0,
     annualPrice: 0,
     currency: "USD",
@@ -119,16 +115,8 @@ export const membershipPlans: MembershipPlan[] = [
 
 export const publicMembershipPlans = membershipPlans.filter((plan) => plan.isPublic);
 
-export function resolveMembershipPlanId(
-  planId: string | undefined
-): MembershipPlanId | undefined {
+export function resolveMembershipPlanId(planId: string | undefined): MembershipPlanId | undefined {
   if (!planId) return undefined;
-
-  if (planId in MEMBERSHIP_PLAN_ALIASES) {
-    return MEMBERSHIP_PLAN_ALIASES[planId as CheckoutMembershipPlanId];
-  }
-
-  return membershipPlans.some((plan) => plan.id === planId)
-    ? (planId as MembershipPlanId)
-    : undefined;
+  if (planId in MEMBERSHIP_PLAN_ALIASES) return MEMBERSHIP_PLAN_ALIASES[planId as CheckoutMembershipPlanId];
+  return membershipPlans.some((plan) => plan.id === planId) ? (planId as MembershipPlanId) : undefined;
 }
