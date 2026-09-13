@@ -119,6 +119,9 @@ test("scanner includes en_us and en locale folders while excluding non-US locale
   const enDir = join(levelDir, "en");
   const enUsDir = join(levelDir, "en_us");
   const esDir = join(levelDir, "es_es");
+  const enDirExisted = existsSync(enDir);
+  const enUsDirExisted = existsSync(enUsDir);
+  const esDirExisted = existsSync(esDir);
   const enPath = join(enDir, "blue-l1-901-locale-en.md");
   const enUsPath = join(enUsDir, "blue-l1-902-locale-en-us.md");
   const esPath = join(esDir, "blue-l1-903-locale-es.md");
@@ -235,6 +238,9 @@ ES locale body.
     rmSync(enUsPath, { force: true });
     rmSync(esPath, { force: true });
     rmSync(bundledPath, { force: true });
+    if (!enDirExisted) rmSync(enDir, { recursive: true, force: true });
+    if (!enUsDirExisted) rmSync(enUsDir, { recursive: true, force: true });
+    if (!esDirExisted) rmSync(esDir, { recursive: true, force: true });
     invalidateRegistryCache();
   }
 });
