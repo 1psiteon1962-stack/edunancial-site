@@ -4,8 +4,8 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#08101f]/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-        <Link href="/" className="text-2xl font-black tracking-[0.18em]">
-          EDUNANCIAL
+        <Link href="/" className="text-2xl font-black tracking-[0.18em]" aria-label="Edunancial home">
+          <span className="text-red-600">EDU</span><span className="text-white">NAN</span><span className="text-blue-600">CIAL</span>
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-bold uppercase tracking-widest text-gray-300 md:flex">
