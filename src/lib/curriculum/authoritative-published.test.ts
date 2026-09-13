@@ -112,6 +112,139 @@ test("published lesson content follows active locale with fr-CA -> fr -> en fall
   assert.equal(britishEnglish.title, "Understanding Net Worth");
 });
 
+test("scanner includes en_us and en locale folders while excluding non-US locales", async () => {
+  const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
+  const originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
+  const levelDir = join(process.cwd(), "content", "courses", "blue", "level-1");
+  const enDir = join(levelDir, "en");
+  const enUsDir = join(levelDir, "en_us");
+  const esDir = join(levelDir, "es_es");
+  const enDirExisted = existsSync(enDir);
+  const enUsDirExisted = existsSync(enUsDir);
+  const esDirExisted = existsSync(esDir);
+  const enPath = join(enDir, "blue-l1-901-locale-en.md");
+  const enUsPath = join(enUsDir, "blue-l1-902-locale-en-us.md");
+  const esPath = join(esDir, "blue-l1-903-locale-es.md");
+  const bundledPath = join(enDir, "blue-l1-904-locale-bundled.md");
+  writeFileSync(REGISTRY_PATH, JSON.stringify({ tracks: {} }, null, 2), "utf8");
+  invalidateRegistryCache();
+  mkdirSync(enDir, { recursive: true });
+  mkdirSync(enUsDir, { recursive: true });
+  mkdirSync(esDir, { recursive: true });
+  writeFileSync(
+    enPath,
+    `---
+id: BLUE-L1-901
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 901
+title: EN locale lesson
+summary: EN locale summary
+author: Locale Scanner
+date: 2026-09-01
+version: 1.0
+---
+
+## Core Content
+
+EN locale body.
+`,
+    "utf8",
+  );
+  writeFileSync(
+    enUsPath,
+    `---
+id: BLUE-L1-902
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 902
+title: EN_US locale lesson
+summary: EN_US locale summary
+author: Locale Scanner
+date: 2026-09-01
+version: 1.0
+---
+
+## Core Content
+
+EN_US locale body.
+`,
+    "utf8",
+  );
+  writeFileSync(
+    esPath,
+    `---
+id: BLUE-L1-903
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 903
+title: ES locale lesson
+summary: ES locale summary
+author: Locale Scanner
+date: 2026-09-01
+version: 1.0
+---
+
+## Core Content
+
+ES locale body.
+`,
+    "utf8",
+  );
+  writeFileSync(
+    bundledPath,
+    [
+      "# BLUE Level 1",
+      "",
+      "## BLUE-L1-904",
+      "### Executive Summary",
+      "Bundled first summary.",
+      "### Core Content",
+      "Bundled first body.",
+      "",
+      "## BLUE-L1-905",
+      "### Executive Summary",
+      "Bundled second summary.",
+      "### Core Content",
+      "Bundled second body.",
+      "",
+    ].join("\n"),
+    "utf8",
+  );
+  try {
+    const enLesson = await getPublishedLesson("BLUE-L1-901", "en");
+    const enUsLesson = await getPublishedLesson("BLUE-L1-902", "en");
+    const esLesson = await getPublishedLesson("BLUE-L1-903", "en");
+    const bundledFirst = await getPublishedLesson("BLUE-L1-904", "en");
+    const bundledSecond = await getPublishedLesson("BLUE-L1-905", "en");
+    assert.ok(enLesson);
+    assert.equal(enLesson.title, "EN locale lesson");
+    assert.ok(enUsLesson);
+    assert.equal(enUsLesson.title, "EN_US locale lesson");
+    assert.equal(esLesson, null);
+    assert.ok(bundledFirst);
+    assert.equal(bundledFirst.title, "Executive Summary");
+    assert.match(bundledFirst.body, /Bundled first body\./u);
+    assert.ok(bundledSecond);
+    assert.equal(bundledSecond.title, "Executive Summary");
+    assert.match(bundledSecond.body, /Bundled second body\./u);
+  } finally {
+    if (originalRegistry === null) rmSync(REGISTRY_PATH, { force: true });
+    else writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
+    rmSync(enPath, { force: true });
+    rmSync(enUsPath, { force: true });
+    rmSync(esPath, { force: true });
+    rmSync(bundledPath, { force: true });
+    if (!enDirExisted) rmSync(enDir, { recursive: true, force: true });
+    if (!enUsDirExisted) rmSync(enUsDir, { recursive: true, force: true });
+    if (!esDirExisted) rmSync(esDir, { recursive: true, force: true });
+    invalidateRegistryCache();
+  }
+});
+
 test("published lesson prefers localized sibling curriculum files for title, summary, and body", async () => {
   const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
   const originalRegistry = existsSync(REGISTRY_PATH) ? readFileSync(REGISTRY_PATH, "utf8") : null;
@@ -204,7 +337,7 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
       "BLUE-L1-001": { id: "BLUE-L1-001", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 1, title: "Blue lesson", summary: "Blue summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-001.md", body: "Blue body", frontMatter: {} },
       "RED-L1-099": { id: "RED-L1-099", track: "RED", trackName: "Real Estate", level: 1, lessonNumber: 99, title: "Later lesson", summary: "Later summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/RED/L1/RED-L1-099.md", body: "Inactive body", frontMatter: {} }
     }, batchLessonIds: {} }, null, 2), "utf8");
-    const allLessons = await exportPublishedLessonTranslations();
+    const allLessons = await exportPublishedLessonTranslations({ lessonIds: ["BLUE-L1-001", "RED-L1-001", "RED-L1-002", "RED-L1-099", "RED-L2-001"] });
     assert.deepEqual(allLessons, [
       { id: "BLUE-L1-001", title: "Blue lesson", summary: "Blue summary", body: "Blue body" },
       { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
