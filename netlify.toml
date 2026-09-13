@@ -37,6 +37,13 @@ NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 # published-state content is layered on top. No lesson files are duplicated.
 EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true"
 
+# The curriculum resolver reads committed Markdown/translation files dynamically
+# at request time. Netlify's Next.js adapter cannot infer recursive filesystem
+# reads, so explicitly include the canonical curriculum sources in the deployed
+# server function instead of relying only on Next.js output-file tracing.
+[functions]
+included_files = ["content/courses/**", "curriculum/seeds/translations/**"]
+
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
