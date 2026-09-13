@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { getPublishedTracks } from "@/lib/curriculum/public-safe";
+import { getPublishedTracks } from "@/lib/curriculum/authoritative-published";
 import { getServerTranslator } from "@/lib/international/server";
 
 export const metadata: Metadata = { title: "Curriculum | Edunancial", description: "Browse the complete Edunancial curriculum." };
