@@ -84,20 +84,20 @@ test("empty store discovers Level 3 lesson 001 for all eight colors", async () =
 });
 
 test("production authoritative track reads do not require admin upload storage env", async () => {
-  const originalNodeEnv = TEST_ENV.NODE_ENV;
-  const originalSupabaseUrl = TEST_ENV.NEXT_PUBLIC_SUPABASE_URL;
-  const originalServiceRoleKey = TEST_ENV.SUPABASE_SERVICE_ROLE_KEY;
-  TEST_ENV.NODE_ENV = "production";
-  delete TEST_ENV.NEXT_PUBLIC_SUPABASE_URL;
-  delete TEST_ENV.SUPABASE_SERVICE_ROLE_KEY;
+  const originalNodeEnv = TEST_ENV["NODE_ENV"];
+  const originalSupabaseUrl = TEST_ENV["NEXT_PUBLIC_SUPABASE_URL"];
+  const originalServiceRoleKey = TEST_ENV["SUPABASE_SERVICE_ROLE_KEY"];
+  TEST_ENV["NODE_ENV"] = "production";
+  delete TEST_ENV["NEXT_PUBLIC_SUPABASE_URL"];
+  delete TEST_ENV["SUPABASE_SERVICE_ROLE_KEY"];
   try {
     const track = await getPublishedTrack("BLUE", "en");
     assert.ok(track, "BLUE track should resolve from authoritative committed curriculum");
     assert.ok(track.lessonCount > 0, "BLUE track should expose committed lessons without admin storage");
   } finally {
-    if (originalNodeEnv === undefined) delete TEST_ENV.NODE_ENV; else TEST_ENV.NODE_ENV = originalNodeEnv;
-    if (originalSupabaseUrl === undefined) delete TEST_ENV.NEXT_PUBLIC_SUPABASE_URL; else TEST_ENV.NEXT_PUBLIC_SUPABASE_URL = originalSupabaseUrl;
-    if (originalServiceRoleKey === undefined) delete TEST_ENV.SUPABASE_SERVICE_ROLE_KEY; else TEST_ENV.SUPABASE_SERVICE_ROLE_KEY = originalServiceRoleKey;
+    if (originalNodeEnv === undefined) delete TEST_ENV["NODE_ENV"]; else TEST_ENV["NODE_ENV"] = originalNodeEnv;
+    if (originalSupabaseUrl === undefined) delete TEST_ENV["NEXT_PUBLIC_SUPABASE_URL"]; else TEST_ENV["NEXT_PUBLIC_SUPABASE_URL"] = originalSupabaseUrl;
+    if (originalServiceRoleKey === undefined) delete TEST_ENV["SUPABASE_SERVICE_ROLE_KEY"]; else TEST_ENV["SUPABASE_SERVICE_ROLE_KEY"] = originalServiceRoleKey;
   }
 });
 
