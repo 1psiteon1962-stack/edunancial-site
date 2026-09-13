@@ -52,3 +52,19 @@ export async function getPublishedLesson(id:string,localeString:string){const lo
 export async function removePublishedLesson(id:string){const n=id.toUpperCase(),atomic=await removeAtomicPublishedLesson(n);if(atomic!==null)return atomic;const s=await readLegacy();if(!s.lessons[n])return false;delete s.lessons[n];for(const[bid,ids]of Object.entries(s.batchLessonIds))s.batchLessonIds[bid]=ids.filter(x=>x!==n);s.updatedAt=new Date().toISOString();await writeLegacy(s);return true}
 export async function upsertPublishedLessonFromRegistry(id:string){const n=id.toUpperCase(),registry=readRegistry();let a:RegistryAsset|null=null;for(const t of Object.values(registry.tracks)){for(const level of Object.values(t.levels)){const c=level.assets[n];if(c?.type==="lesson"){a=c;break}}if(a)break}if(!a)return false;const next=fromRegistry(a);if(!next)return false;if(await upsertAtomicPublishedLessons(`registry:${n}`,[next]))return true;const s=await readLegacy(),t=s.lessons[n]?.translations;s.lessons[n]={...next,...(t?{translations:t}:{}),importedAt:new Date().toISOString()};s.updatedAt=new Date().toISOString();await writeLegacy(s);return true}
 export async function getPublishedCourses(locale:string){const tracks=await getPublishedTracks(locale),colors:Record<string,string>={RED:"bg-red-700",WHITE:"bg-slate-200",BLUE:"bg-blue-700",GREEN:"bg-green-700",GOLD:"bg-yellow-600",PURPLE:"bg-purple-700",ORANGE:"bg-orange-700",BLACK:"bg-slate-700"};return tracks.map(t=>({id:t.code.toLowerCase(),code:t.code,title:`${t.code}: ${t.name}`,subtitle:t.description,description:t.description,category:t.name,difficulty:"Intermediate" as const,color:colors[t.code]??"bg-slate-700",isFree:false,isFeatured:false,lessons:t.levels.flatMap(l=>l.lessons)}))}
+
+export async function diagnosticResolveLesson(input:{trackCode:string;level:number;lessonId?:string}){
+ const state=await effective();
+ const trackCode=input.trackCode.toUpperCase();
+ const levelDir=join(COURSE_CONTENT_DIR,trackCode.toLowerCase(),`level-${input.level}`,"en_us");
+ const trackLessons=Object.entries(state.lessons??{}).filter(([id])=>id.startsWith(`${trackCode}-L${input.level}-`));
+ return{
+  courseContentDirResolved:COURSE_CONTENT_DIR,
+  courseContentDirExists:existsSync(COURSE_CONTENT_DIR),
+  levelDirExists:existsSync(levelDir),
+  filesInLevelDir:existsSync(levelDir)?readdirSync(levelDir):[],
+  matchedLessonsInEffectiveState:trackLessons.map(([id,record])=>({id,record})),
+  specificLessonRequested:input.lessonId?state.lessons?.[input.lessonId.toUpperCase()]??null:null,
+  publishedTrackResult:await getPublishedTrack(trackCode,"en-US"),
+ };
+}
