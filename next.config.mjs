@@ -13,6 +13,17 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+
+  // Curriculum is intentionally read from the repository filesystem at runtime.
+  // Next.js output tracing cannot discover recursive readdir/readFile paths, so
+  // serverless production bundles must explicitly carry these committed files.
+  outputFileTracingIncludes: {
+    "/*": [
+      "./content/courses/**/*",
+      "./curriculum/seeds/translations/**/*",
+    ],
+  },
+
   async headers() {
     return [
       {
@@ -50,9 +61,7 @@ const nextConfig = {
         source: "/api/:path*",
         headers: [
           {
-            key: "Cache-Control",
-            value: "no-store, max-age=0",
-          },
+            key: "Cache-Control", value: "no-store, max-age=0" },
         ],
       },
     ];
