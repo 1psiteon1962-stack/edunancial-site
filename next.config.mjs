@@ -20,6 +20,7 @@ const nextConfig = {
   outputFileTracingIncludes: {
     "/*": [
       "./content/courses/**/*",
+      "./content/courses/*/level-1/**/*",
       "./content/courses/*/level-2/**/*",
       "./content/courses/*/level-3/en_us/**/*",
       "./curriculum/seeds/translations/**/*",
