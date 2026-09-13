@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
-import { getPublishedTrack } from "@/lib/curriculum/public-safe";
+import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
 import { getServerTranslator } from "@/lib/international/server";
 
 export const dynamic = "force-dynamic";
