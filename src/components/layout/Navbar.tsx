@@ -14,6 +14,16 @@ const navigation = [
   { key: "home.dashboard.card8.title", href: "/resources" },
 ];
 
+function EdunancialWordmark() {
+  return (
+    <span aria-label="EDUNANCIAL" className="inline-flex text-2xl font-black tracking-tight">
+      <span className="text-red-500">EDU</span>
+      <span className="text-white">NAN</span>
+      <span className="text-blue-500">CIAL</span>
+    </span>
+  );
+}
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
@@ -23,7 +33,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#071426]/95 text-white backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-        <Link href="/" className="text-2xl font-black tracking-tight text-sky-400">EDUNANCIAL</Link>
+        <Link href="/" aria-label="Edunancial home"><EdunancialWordmark /></Link>
         <nav className="hidden items-center gap-7 lg:flex">
           {navigation.map((item) => <Link key={item.key} href={item.href} className="text-sm text-slate-200 hover:text-white">{t(item.key)}</Link>)}
         </nav>
