@@ -4,13 +4,16 @@ import { getLessonContent, readRegistry } from "@/lib/curriculum/reader";
 /**
  * Transitional repository-backed publication-store adapter.
  *
- * Public curriculum no longer reads Supabase. Level 1 is seeded directly from
- * the committed authoritative registry so production cannot lose the
- * foundational curriculum when legacy storage is unavailable. Levels 2 and 3
- * continue through the authoritative resolver, which combines registry and
- * committed course sources.
+ * Public production curriculum no longer reads Supabase. Level 1 is seeded
+ * directly from the committed authoritative registry in production so the
+ * foundational curriculum remains available. Non-production callers retain
+ * the unavailable-store contract used by upload/deletion tests and local
+ * publication workflows. Levels 2 and 3 continue through the authoritative
+ * resolver, which combines registry and committed course sources.
  */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
+  if (process.env.NODE_ENV !== "production") return null;
+
   const registry = readRegistry();
   const lessons: PublishedLessonRecord[] = [];
 
