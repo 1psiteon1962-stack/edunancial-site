@@ -44,13 +44,7 @@ class SupabaseObjectStorage implements AdminContentStorage {
   private async ensureBucketExists() {
     if (this.bucketVerified) return;
     const runtime = prepareAdminUploadStorageRuntime();
-
-    // Bucket management is an administrative operation and must never run with
-    // an anon key. Production upload routes already require the service-role
-    // key before reaching storage. In tests/development, anon-only object reads
-    // may still proceed without attempting bucket creation.
     if (!runtime.serviceRoleKey) return;
-
     const key = runtime.serviceRoleKey;
     const read = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(this.bucket)}`, { method: "GET", headers: { Authorization: "Bearer " + key, apikey: key }, cache: "no-store" });
     const contentType = read.headers.get("content-type") ?? "";
@@ -79,48 +73,30 @@ class SupabaseObjectStorage implements AdminContentStorage {
   async removeBatch(batchId: string) { await this.deleteBinary(`batches/${batchId}.json`); }
   async updateBatchIndex(summaries: BatchSummary[]) { await this.writeJson(INDEX_FILE, summaries); }
   async listBatches() { return this.readJson<BatchSummary[]>(INDEX_FILE, []); }
-  async getBatch(batchId: string) { return this.readJson<UploadBatch | null>(`batches/${batchId}.json`, null); }
+  async getBatch(batchId: string) { return this.readJson<UploadBatch | null>(`batches/${batchId}.json`), null); }
   async saveBinary(path: string, content: Buffer, contentType: string) { await this.request(this.objectPath(path), { method: "POST", headers: { "content-type": contentType }, body: new Uint8Array(content) }); }
-  async readBinary(path: string) {
-    try {
-      const response = await this.request(this.objectPath(path));
-      return response.status === 404 ? null : Buffer.from(await response.arrayBuffer());
-    } catch (error) {
-      if (OPTIONAL_PUBLIC_CURRICULUM_READS.has(path) && /quota|egress|storage request failed/i.test(error instanceof Error ? error.message : String(error))) return null;
-      throw error;
-    }
-  }
+  async readBinary(path: string) { try { const response = await this.request(this.objectPath(path)); return response.status === 404 ? null : Buffer.from(await response.arrayBuffer()); } catch (error) { if (OPTIONAL_PUBLIC_CURRICULUM_READS.has(path) && /quota|egress|storage request failed/i.test(error instanceof Error ? error.message : String(error))) return null; throw error; } }
   async deleteBinary(path: string) { await this.request(this.objectPath(path), { method: "DELETE" }); }
   async appendAuditEvent(event: AuditEvent) { const current = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); current.unshift(event); await this.writeJson(AUDIT_FILE, current.slice(0, 1000)); }
   async listAuditHistory(batchId?: string) { const all = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); return batchId ? all.filter((e) => e.batchId === batchId) : all; }
   async createExport(exportPackage: ExportPackage, archive: Buffer) { await this.saveBinary(exportPackage.storagePath, archive, "application/zip"); await this.writeJson(`exports/${exportPackage.id}.json`, exportPackage); return exportPackage; }
-  async getSignedUploadUrl(path: string): Promise<string | null> {
-    const runtime = prepareAdminUploadStorageRuntime();
-    if (!runtime.serviceRoleKey) return null;
-    await this.ensureBucketExists();
-    const objectPath = this.objectPath(path); SupabaseObjectStorage.assertSafePath(objectPath); const encoded = objectPath.split("/").map(encodeURIComponent).join("/");
-    const response = await fetch(`${runtime.supabaseUrl}/storage/v1/object/sign/upload/${this.bucket}/${encoded}`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey }, cache: "no-store" });
-    if (!response.ok) return null;
-    const data = await response.json() as { signedURL?: string };
-    const signedPath = data.signedURL?.trim();
-    if (!signedPath) return null;
-    if (/^https?:\/\//i.test(signedPath)) return signedPath; if (signedPath.startsWith("/storage/v1/")) return `${runtime.supabaseUrl}${signedPath}`; if (signedPath.startsWith("storage/v1/")) return `${runtime.supabaseUrl}/${signedPath}`; if (signedPath.startsWith("/")) return `${runtime.supabaseUrl}/storage/v1${signedPath}`; return `${runtime.supabaseUrl}/storage/v1/${signedPath}`;
-  }
+  async getSignedUploadUrl(path: string): Promise<string | null> { const runtime = prepareAdminUploadStorageRuntime(); if (!runtime.serviceRoleKey) return null; await this.ensureBucketExists(); const objectPath = this.objectPath(path); SupabaseObjectStorage.assertSafePath(objectPath); const encoded = objectPath.split("/").map(encodeURIComponent).join("/"); const response = await fetch(`${runtime.supabaseUrl}/storage/v1/object/sign/upload/${this.bucket}/${encoded}`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey }, cache: "no-store" }); if (!response.ok) return null; const data = await response.json() as { signedURL?: string }; const signedPath = data.signedURL?.trim(); if (!signedPath) return null; if (/^https?:\/\//i.test(signedPath)) return signedPath; if (signedPath.startsWith("/storage/v1/")) return `${runtime.supabaseUrl}${signedPath}`; if (signedPath.startsWith("storage/v1/")) return `${runtime.supabaseUrl}/${signedPath}`; if (signedPath.startsWith("/")) return `${runtime.supabaseUrl}/storage/v1${signedPath}`; return `${runtime.supabaseUrl}/storage/v1/${signedPath}`; }
   async listWorkspaceEntries() { const queue = [""]; const files: string[] = []; const visited = new Set<string>(); while (queue.length) { const prefix = queue.shift() ?? ""; if (visited.has(prefix)) continue; visited.add(prefix); const entries = await this.listPrefix(prefix); for (const entry of entries) { if (!entry?.name) continue; const nextPath = `${prefix}${entry.name}`; const isFolder = !entry.id && !entry.metadata; if (isFolder) queue.push(`${nextPath}/`); else files.push(nextPath.replaceAll("\\", "/")); } } return files; }
 }
 
 let cachedStorage: AdminContentStorage | null = null;
 export function getAdminContentStorage(): AdminContentStorage {
   if (cachedStorage) return cachedStorage;
-  if (process.env.NODE_ENV === "production") {
-    const runtime = prepareAdminUploadStorageRuntime();
+  const runtime = prepareAdminUploadStorageRuntime();
+  const key = runtime.serviceRoleKey || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || "";
+  if (runtime.supabaseUrl && key && process.env.EDUNANCIAL_USE_SUPABASE_UPLOAD_STORAGE === "true") {
     cachedStorage = new SupabaseObjectStorage(runtime.bucket, DEFAULT_STORAGE_PREFIX);
     return cachedStorage;
   }
-  const runtime = prepareAdminUploadStorageRuntime();
-  const key = runtime.serviceRoleKey || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || "";
-  if (runtime.supabaseUrl && key) { cachedStorage = new SupabaseObjectStorage(runtime.bucket, DEFAULT_STORAGE_PREFIX); return cachedStorage; }
-  cachedStorage = new LocalAdminContentStorage(); return cachedStorage;
+  // The public curriculum and the normal bulk intake path are repository-backed.
+  // Supabase is optional and must be explicitly opted into; it is never a production prerequisite.
+  cachedStorage = new LocalAdminContentStorage();
+  return cachedStorage;
 }
 export function getLocalAdminStorageFiles() { return existsSync(LOCAL_ROOT) ? readdirSync(LOCAL_ROOT, { recursive: true }) : []; }
 export function resetAdminContentStorage() { cachedStorage = null; rmSync(LOCAL_ROOT, { recursive: true, force: true }); }
