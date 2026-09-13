@@ -1,106 +1,35 @@
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-
 import type { PublishedLessonRecord, PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
 
-let cached: SupabaseClient | null = null;
-
-function adminClient(): SupabaseClient | null {
-  if (process.env.NODE_ENV !== "production") return null;
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
-  if (!url || !key) return null;
-  if (!cached) cached = createClient(url, key, { auth: { autoRefreshToken: false, persistSession: false, detectSessionInUrl: false } });
-  return cached;
-}
-
-function schemaUnavailable(message: string): boolean {
-  return /does not exist|schema cache|could not find the function|could not find the table/i.test(message);
-}
-
-function atomicUnavailable(error: unknown): boolean {
-  if (!error) return false;
-  const message = error instanceof Error ? error.message : String(error);
-  return schemaUnavailable(message) || /fetch failed|failed to fetch|network|timeout|timed out|econn|enotfound|socket|connection|supabase/i.test(message);
-}
-
+/**
+ * Transitional atomic publication-store adapter.
+ *
+ * Edunancial public curriculum no longer uses Supabase. Returning the
+ * unavailable sentinel keeps authoritative curriculum reads on the committed
+ * in-repository curriculum path. The write methods retain their existing
+ * result contracts so callers can fall back to the non-Supabase publication
+ * path without importing or initializing Supabase during Server Component
+ * rendering.
+ */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
-  const client = adminClient();
-  if (!client) return null;
-  try {
-    const { data, error } = await client.from("published_curriculum_lessons").select("record").order("track").order("level").order("lesson_number");
-    if (error) {
-      if (schemaUnavailable(error.message)) return null;
-      throw new Error(`Atomic curriculum read failed: ${error.message}`);
-    }
-    return (data ?? []).map((row) => row.record as PublishedLessonRecord);
-  } catch (error) {
-    // Public curriculum must remain available from the bundled/legacy source even
-    // when the transitional Supabase publication store is unavailable.
-    if (atomicUnavailable(error)) return null;
-    throw error;
-  }
+  return null;
 }
 
-export async function upsertAtomicPublishedLessons(batchId: string, lessons: PublishedLessonRecord[]): Promise<boolean> {
-  const client = adminClient();
-  if (!client) return false;
-  try {
-    const { error } = await client.rpc("publish_curriculum_batch", { p_batch_id: batchId, p_lessons: lessons });
-    if (error) {
-      if (schemaUnavailable(error.message)) return false;
-      throw new Error(`Atomic curriculum batch publication failed: ${error.message}`);
-    }
-    return true;
-  } catch (error) {
-    if (atomicUnavailable(error)) return false;
-    throw error;
-  }
+export async function upsertAtomicPublishedLessons(_batchId: string, _lessons: PublishedLessonRecord[]): Promise<boolean> {
+  return false;
 }
 
-export async function upsertAtomicPublishedTranslation(lessonId: string, locale: string, translation: PublishedLessonTranslation): Promise<boolean | null> {
-  const client = adminClient();
-  if (!client) return null;
-  try {
-    const { data, error } = await client.rpc("publish_curriculum_translation", { p_lesson_id: lessonId, p_locale: locale, p_translation: translation });
-    if (error) {
-      if (schemaUnavailable(error.message)) return null;
-      throw new Error(`Atomic curriculum translation publication failed for ${lessonId}: ${error.message}`);
-    }
-    return Boolean(data);
-  } catch (error) {
-    if (atomicUnavailable(error)) return null;
-    throw error;
-  }
+export async function upsertAtomicPublishedTranslation(
+  _lessonId: string,
+  _locale: string,
+  _translation: PublishedLessonTranslation,
+): Promise<boolean | null> {
+  return null;
 }
 
-export async function removeAtomicPublishedBatch(batchId: string): Promise<boolean> {
-  const client = adminClient();
-  if (!client) return false;
-  try {
-    const { error } = await client.rpc("remove_published_curriculum_batch", { p_batch_id: batchId });
-    if (error) {
-      if (schemaUnavailable(error.message)) return false;
-      throw new Error(`Atomic curriculum rollback failed: ${error.message}`);
-    }
-    return true;
-  } catch (error) {
-    if (atomicUnavailable(error)) return false;
-    throw error;
-  }
+export async function removeAtomicPublishedBatch(_batchId: string): Promise<boolean> {
+  return false;
 }
 
-export async function removeAtomicPublishedLesson(lessonId: string): Promise<boolean | null> {
-  const client = adminClient();
-  if (!client) return null;
-  try {
-    const { data, error } = await client.rpc("remove_published_curriculum_lesson", { p_lesson_id: lessonId });
-    if (error) {
-      if (schemaUnavailable(error.message)) return null;
-      throw new Error(`Atomic curriculum lesson removal failed for ${lessonId}: ${error.message}`);
-    }
-    return Boolean(data);
-  } catch (error) {
-    if (atomicUnavailable(error)) return null;
-    throw error;
-  }
+export async function removeAtomicPublishedLesson(_lessonId: string): Promise<boolean | null> {
+  return null;
 }
