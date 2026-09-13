@@ -1,5 +1,7 @@
 /** Curriculum auto-ingest regression coverage. */
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { describe, test } from "node:test";
 import { buildRegistryEntry, detectBundledCurriculumLessons, detectCurriculumAsset, upsertRegistryEntries } from "@/lib/admin-content/curriculum";
 const VALID_CURRICULUM_CONTENT=["---","id: RED-L1-099","track: RED","officialTrackName: Real Estate","level: 1","lessonNumber: 99","title: Auto-Ingest Test Lesson","version: 1.0","author: Edunancial Faculty","date: 2026-01-01","---","","## What Is This?","A lesson used to validate the pipeline."].join("\n");
@@ -12,5 +14,6 @@ test("parses CONTENT ID combined format",async()=>{const source=["CONTENT ID: WH
 test("parses Claude master headings at Level 2",async()=>{const source=["# RED Level 2","","## RED-L2-001","### Executive Summary","First summary.","### Core Content","First body.","","## RED-L2-002","### Executive Summary","Second summary.","### Core Content","Second body."].join("\n");const lessons=await detectBundledCurriculumLessons(source);assert.equal(lessons.length,2);assert.equal(lessons[1].asset.id,"RED-L2-002")});
 test("supports Levels 3, 4 and 5 without a 50-lesson ceiling",async()=>{for(const level of[3,4,5]){const source=[`## BLUE-L${level}-050`,`### Core Content`,`Fifty.`,`## BLUE-L${level}-051`,`### Core Content`,`Fifty one.`].join("\n");const lessons=await detectBundledCurriculumLessons(source);assert.equal(lessons.length,2);assert.equal(lessons[1].asset.id,`BLUE-L${level}-051`)}});
 test("fails closed on gaps in master IDs",async()=>{const source=["## GOLD-L4-001","### Core Content","One","## GOLD-L4-003","### Core Content","Three"].join("\n");await assert.rejects(()=>detectBundledCurriculumLessons(source),/non-sequential lesson ID/)});
+test("parses committed RED, WHITE, and PURPLE Level 2 master bundles",async()=>{for(const track of["red","white","purple"]){const source=readFileSync(join(process.cwd(),"content","courses",track,"level-2","en_us",`full-50-lessons-${track}-l2-full-50-lessons.md`),"utf8"),lessons=await detectBundledCurriculumLessons(source),code=track.toUpperCase();assert.equal(lessons.length,50);assert.equal(lessons[0].asset.id,`${code}-L2-001`);assert.equal(lessons[49].asset.id,`${code}-L2-050`)}})
 test("builds registry entries",async()=>{const asset=await detectCurriculumAsset(VALID_CURRICULUM_CONTENT);assert.ok(asset);const entry=buildRegistryEntry(asset,Buffer.from(VALID_CURRICULUM_CONTENT),"ingestion","2026-01-01T00:00:00.000Z");assert.equal(entry.id,"RED-L1-099")});
 });

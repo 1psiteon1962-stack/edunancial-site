@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { afterEach, beforeEach, test } from "node:test";
 
 import {
+  diagnosticResolveLesson,
   exportPublishedLessonTranslations,
   getPublishedLesson,
   getPublishedTracks,
@@ -60,6 +61,36 @@ test("empty store exposes exactly RED-L2-001 and RED-L2-002 without the legacy f
   assert.ok(redL2 && redL2.lessonCount > 0);
   assert.ok(redL2?.lessons.some((lesson) => lesson.id === "RED-L2-001"));
   assert.ok(redL2?.lessons.some((lesson) => lesson.id === "RED-L2-002"));
+});
+
+test("empty store discovers full RED, WHITE, and PURPLE Level 2 master bundles", async () => {
+  const tracks = await getPublishedTracks("en");
+  for (const trackCode of ["RED", "WHITE", "PURPLE"]) {
+    const level = tracks.find((track) => track.code === trackCode)?.levels.find((entry) => entry.level === 2);
+    assert.ok(level, `${trackCode} Level 2 should be present`);
+    assert.equal(level?.lessonCount, 50, `${trackCode} Level 2 should expose all 50 lessons`);
+    assert.ok(level?.lessons.some((lesson) => lesson.id === `${trackCode}-L2-001`));
+    assert.ok(level?.lessons.some((lesson) => lesson.id === `${trackCode}-L2-050`));
+  }
+});
+
+test("empty store discovers Level 3 lesson 001 for all eight colors", async () => {
+  for (const trackCode of ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]) {
+    const lesson = await getPublishedLesson(`${trackCode}-L3-001`, "en");
+    assert.ok(lesson, `${trackCode}-L3-001 should be discoverable`);
+  }
+});
+
+test("diagnostic lesson discovery recurses across Level 2 and Level 3 production directories", async () => {
+  const whiteLevel2 = await diagnosticResolveLesson({ trackCode: "WHITE", level: 2, lessonId: "WHITE-L2-001" });
+  assert.ok(whiteLevel2.levelDirExists);
+  assert.ok(whiteLevel2.filesInLevelDir.includes("en_us/full-50-lessons-white-l2-full-50-lessons.md"));
+  assert.ok(whiteLevel2.matchedLessonsInEffectiveState.some((lesson) => lesson.id === "WHITE-L2-001"));
+
+  const blackLevel3 = await diagnosticResolveLesson({ trackCode: "BLACK", level: 3, lessonId: "BLACK-L3-001" });
+  assert.ok(blackLevel3.levelDirExists);
+  assert.ok(blackLevel3.filesInLevelDir.includes("en_us/black-level-3-black-l3-001.md"));
+  assert.ok(blackLevel3.matchedLessonsInEffectiveState.some((lesson) => lesson.id === "BLACK-L3-001"));
 });
 
 test("unrelated registry-only lessons are hidden without the legacy flag", async () => {
@@ -205,13 +236,15 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
       "RED-L1-099": { id: "RED-L1-099", track: "RED", trackName: "Real Estate", level: 1, lessonNumber: 99, title: "Later lesson", summary: "Later summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/RED/L1/RED-L1-099.md", body: "Inactive body", frontMatter: {} }
     }, batchLessonIds: {} }, null, 2), "utf8");
     const allLessons = await exportPublishedLessonTranslations();
-    assert.deepEqual(allLessons, [
+    const selectedLessons = allLessons.filter((lesson) => ["BLUE-L1-001", "RED-L1-001", "RED-L1-002", "RED-L1-099", "RED-L2-001"].includes(lesson.id));
+    assert.deepEqual(selectedLessons, [
       { id: "BLUE-L1-001", title: "Blue lesson", summary: "Blue summary", body: "Blue body" },
       { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
       { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
       { id: "RED-L1-099", title: "Later lesson", summary: "Later summary", body: "Inactive body" },
       { id: "RED-L2-001", title: "Level 2 lesson", summary: "Second level summary", body: "Level 2 body" },
     ]);
+    assert.ok(allLessons.some((lesson) => lesson.id === "BLACK-L3-001"), "runtime discovery should include committed Level 3 lessons");
     const prefixedLessons = await exportPublishedLessonTranslations({ prefixes: ["RED-L1"] });
     assert.deepEqual(prefixedLessons, [
       { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
