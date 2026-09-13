@@ -9,6 +9,7 @@ import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib
 const LOCAL_ROOT = join(process.cwd(), ".admin-content-store");
 const INDEX_FILE = "index.json";
 const AUDIT_FILE = "audit.json";
+const OPTIONAL_PUBLIC_CURRICULUM_READS = new Set(["published/curriculum-state.json", "published/curriculum-translation-index.json"]);
 
 function ensureLocalRoot() { mkdirSync(LOCAL_ROOT, { recursive: true }); }
 function localPath(...parts: string[]) { ensureLocalRoot(); return join(LOCAL_ROOT, ...parts); }
@@ -80,7 +81,15 @@ class SupabaseObjectStorage implements AdminContentStorage {
   async listBatches() { return this.readJson<BatchSummary[]>(INDEX_FILE, []); }
   async getBatch(batchId: string) { return this.readJson<UploadBatch | null>(`batches/${batchId}.json`, null); }
   async saveBinary(path: string, content: Buffer, contentType: string) { await this.request(this.objectPath(path), { method: "POST", headers: { "content-type": contentType }, body: new Uint8Array(content) }); }
-  async readBinary(path: string) { const response = await this.request(this.objectPath(path)); return response.status === 404 ? null : Buffer.from(await response.arrayBuffer()); }
+  async readBinary(path: string) {
+    try {
+      const response = await this.request(this.objectPath(path));
+      return response.status === 404 ? null : Buffer.from(await response.arrayBuffer());
+    } catch (error) {
+      if (OPTIONAL_PUBLIC_CURRICULUM_READS.has(path) && /quota|egress|storage request failed/i.test(error instanceof Error ? error.message : String(error))) return null;
+      throw error;
+    }
+  }
   async deleteBinary(path: string) { await this.request(this.objectPath(path), { method: "DELETE" }); }
   async appendAuditEvent(event: AuditEvent) { const current = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); current.unshift(event); await this.writeJson(AUDIT_FILE, current.slice(0, 1000)); }
   async listAuditHistory(batchId?: string) { const all = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); return batchId ? all.filter((e) => e.batchId === batchId) : all; }
