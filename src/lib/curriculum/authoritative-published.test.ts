@@ -7,6 +7,7 @@ import {
   diagnosticResolveLesson,
   exportPublishedLessonTranslations,
   getPublishedLesson,
+  getPublishedTrack,
   getPublishedTracks,
   importPublishedLessonTranslations,
 } from "@/lib/curriculum/authoritative-published";
@@ -78,6 +79,24 @@ test("empty store discovers Level 3 lesson 001 for all eight colors", async () =
   for (const trackCode of ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]) {
     const lesson = await getPublishedLesson(`${trackCode}-L3-001`, "en");
     assert.ok(lesson, `${trackCode}-L3-001 should be discoverable`);
+  }
+});
+
+test("production authoritative track reads do not require admin upload storage env", async () => {
+  const originalNodeEnv = process.env.NODE_ENV;
+  const originalSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const originalServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  process.env.NODE_ENV = "production";
+  delete process.env.NEXT_PUBLIC_SUPABASE_URL;
+  delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+  try {
+    const track = await getPublishedTrack("BLUE", "en");
+    assert.ok(track, "BLUE track should resolve from authoritative committed curriculum");
+    assert.ok(track.lessonCount > 0, "BLUE track should expose committed lessons without admin storage");
+  } finally {
+    if (originalNodeEnv === undefined) delete process.env.NODE_ENV; else process.env.NODE_ENV = originalNodeEnv;
+    if (originalSupabaseUrl === undefined) delete process.env.NEXT_PUBLIC_SUPABASE_URL; else process.env.NEXT_PUBLIC_SUPABASE_URL = originalSupabaseUrl;
+    if (originalServiceRoleKey === undefined) delete process.env.SUPABASE_SERVICE_ROLE_KEY; else process.env.SUPABASE_SERVICE_ROLE_KEY = originalServiceRoleKey;
   }
 });
 
@@ -153,9 +172,13 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: { "BLUE-L1-003": { id: "BLUE-L1-003", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 3, title: "Cash Flow in Business — Reading the Numbers", summary: "English published summary", author: "Published Author", date: "2026-08-03", version: "9.9", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-003.md", body: "English published body", frontMatter: { title: "Published Front Matter Title", summary: "Published Front Matter Summary" } } }, batchLessonIds: {} }, null, 2), "utf8");
   const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
+  const canonicalLessonPath = join(lessonDir, "BLUE-L1-003.md");
+  const localizedLessonPath = join(lessonDir, "BLUE-L1-003.es.md");
+  const originalCanonicalLesson = existsSync(canonicalLessonPath) ? readFileSync(canonicalLessonPath, "utf8") : null;
+  const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
   mkdirSync(lessonDir, { recursive: true });
-  writeFileSync(join(lessonDir, "BLUE-L1-003.md"), `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
-  writeFileSync(join(lessonDir, "BLUE-L1-003.es.md"), `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
+  writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
+  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
   try {
     const spanish = await getPublishedLesson("BLUE-L1-003", "es");
     assert.ok(spanish);
@@ -166,8 +189,8 @@ test("published lesson prefers localized sibling curriculum files for title, sum
     assert.equal(spanish.version, "9.9");
   } finally {
     if (originalRegistry === null) rmSync(REGISTRY_PATH, { force: true }); else writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
-    rmSync(join(lessonDir, "BLUE-L1-003.md"), { force: true });
-    rmSync(join(lessonDir, "BLUE-L1-003.es.md"), { force: true });
+    if (originalCanonicalLesson === null) rmSync(canonicalLessonPath, { force: true }); else writeFileSync(canonicalLessonPath, originalCanonicalLesson, "utf8");
+    if (originalLocalizedLesson === null) rmSync(localizedLessonPath, { force: true }); else writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
     invalidateRegistryCache();
   }
 });
