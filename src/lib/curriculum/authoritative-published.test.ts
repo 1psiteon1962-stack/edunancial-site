@@ -50,7 +50,7 @@ function findTrackLesson(
     ?.lessons.find((lesson) => lesson.id === lessonId);
 }
 
-test("empty store exposes exactly RED-L2-001 and RED-L2-002 without the legacy flag", async () => {
+test("empty store preserves registry-backed L1/L2 lessons and course-discovered L3 lessons without the legacy flag", async () => {
   const tracks = await getPublishedTracks("en");
   assert.ok(tracks.length > 0, "academy tracks should be returned");
   const redTrack = tracks.find((t) => t.code === "RED");
@@ -60,11 +60,13 @@ test("empty store exposes exactly RED-L2-001 and RED-L2-002 without the legacy f
   assert.ok(redL2 && redL2.lessonCount > 0);
   assert.ok(redL2?.lessons.some((lesson) => lesson.id === "RED-L2-001"));
   assert.ok(redL2?.lessons.some((lesson) => lesson.id === "RED-L2-002"));
+  assert.ok(findTrackLesson(tracks, "GOLD", 1, "GOLD-L1-001"));
+  assert.ok(findTrackLesson(tracks, "BLACK", 3, "BLACK-L3-001"));
 });
 
-test("unrelated registry-only lessons are hidden without the legacy flag", async () => {
+test("active registry lessons remain visible without the legacy flag", async () => {
   const lesson = await getPublishedLesson("GOLD-L1-001", "en");
-  assert.equal(lesson, null);
+  assert.ok(lesson);
 });
 
 test("enabling legacy flag hydrates all active registry lessons", async () => {
@@ -122,9 +124,13 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: { "BLUE-L1-003": { id: "BLUE-L1-003", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 3, title: "Cash Flow in Business — Reading the Numbers", summary: "English published summary", author: "Published Author", date: "2026-08-03", version: "9.9", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-003.md", body: "English published body", frontMatter: { title: "Published Front Matter Title", summary: "Published Front Matter Summary" } } }, batchLessonIds: {} }, null, 2), "utf8");
   const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
+  const canonicalLessonPath = join(lessonDir, "BLUE-L1-003.md");
+  const localizedLessonPath = join(lessonDir, "BLUE-L1-003.es.md");
+  const originalCanonicalLesson = existsSync(canonicalLessonPath) ? readFileSync(canonicalLessonPath, "utf8") : null;
+  const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
   mkdirSync(lessonDir, { recursive: true });
-  writeFileSync(join(lessonDir, "BLUE-L1-003.md"), `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
-  writeFileSync(join(lessonDir, "BLUE-L1-003.es.md"), `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
+  writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
+  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
   try {
     const spanish = await getPublishedLesson("BLUE-L1-003", "es");
     assert.ok(spanish);
@@ -135,8 +141,8 @@ test("published lesson prefers localized sibling curriculum files for title, sum
     assert.equal(spanish.version, "9.9");
   } finally {
     if (originalRegistry === null) rmSync(REGISTRY_PATH, { force: true }); else writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
-    rmSync(join(lessonDir, "BLUE-L1-003.md"), { force: true });
-    rmSync(join(lessonDir, "BLUE-L1-003.es.md"), { force: true });
+    if (originalCanonicalLesson === null) rmSync(canonicalLessonPath, { force: true }); else writeFileSync(canonicalLessonPath, originalCanonicalLesson, "utf8");
+    if (originalLocalizedLesson === null) rmSync(localizedLessonPath, { force: true }); else writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
     invalidateRegistryCache();
   }
 });
@@ -205,13 +211,14 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
       "RED-L1-099": { id: "RED-L1-099", track: "RED", trackName: "Real Estate", level: 1, lessonNumber: 99, title: "Later lesson", summary: "Later summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/RED/L1/RED-L1-099.md", body: "Inactive body", frontMatter: {} }
     }, batchLessonIds: {} }, null, 2), "utf8");
     const allLessons = await exportPublishedLessonTranslations();
-    assert.deepEqual(allLessons, [
+    assert.deepEqual(allLessons.filter((lesson) => ["BLUE-L1-001", "RED-L1-001", "RED-L1-002", "RED-L1-099", "RED-L2-001"].includes(lesson.id)), [
       { id: "BLUE-L1-001", title: "Blue lesson", summary: "Blue summary", body: "Blue body" },
       { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
       { id: "RED-L1-002", title: "Second lesson", summary: "Second summary", body: "Second body" },
       { id: "RED-L1-099", title: "Later lesson", summary: "Later summary", body: "Inactive body" },
       { id: "RED-L2-001", title: "Level 2 lesson", summary: "Second level summary", body: "Level 2 body" },
     ]);
+    assert.ok(allLessons.some((lesson) => lesson.id === "BLACK-L3-001"));
     const prefixedLessons = await exportPublishedLessonTranslations({ prefixes: ["RED-L1"] });
     assert.deepEqual(prefixedLessons, [
       { id: "RED-L1-001", title: "First lesson", summary: "First summary", body: "First body" },
