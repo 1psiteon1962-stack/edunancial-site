@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-14-black-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-14T01:19:54.867Z",
-  "updatedAt": "2026-09-14T01:19:55.877Z",
+  "updatedAt": "2026-09-14T23:36:47.265Z",
   "uploads": [
     {
       "id": "upload_6cdc63de-cb54-4e20-98e8-8faa6db9659a",
@@ -44,7 +44,7 @@
       "sizeBytes": 235785,
       "checksum": "sha256:4d58f55112b4438360919ba6078e4ba73fcc996a7328d05c7050f5259d7f1527",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "EDUNANCIAL — LEVEL 2 — BLACK (LEADERSHIP / EXECUTIVE MANAGEMENT) American English Master Curriculum — Full 50 Lesson Set BLACK L2 FULL TOPIC PROGRESSION (50 lessons) 001. From Doer to Leader: The First Interaction Between Pieces 002. Management vs. Leadership: A Critical Distinction 003. The Systems Epiphany Revisited: Leadership's Role in Scaling (BLACK Meets BLUE) 004. Delegation Revisited: The …",
@@ -74,19 +74,28 @@
         "contentType": "courses",
         "pillar": "black",
         "academyLevel": "level-2",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4d58f55112b4438360919ba6078e4ba73fcc996a7328d05c7050f5259d7f1527",
         "uploadBatchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-14T23:36:45.418Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-14T01:19:55.861Z"
+      "updatedAt": "2026-09-14T23:36:47.265Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_f711e54c-9415-4412-aa3b-22cbcd4994af",
+      "timestamp": "2026-09-14T23:36:47.265Z",
+      "action": "classification-changed",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "fileId": "file_a007ee4a-68dd-46b0-ac3d-b8ee15506737"
+    },
     {
       "id": "audit_dd7210d0-d12b-4e12-9f8f-de74ec580a2a",
       "timestamp": "2026-09-14T01:19:55.876Z",
