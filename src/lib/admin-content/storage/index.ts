@@ -1,15 +1,14 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-import { DEFAULT_STORAGE_PREFIX } from "@/lib/admin-content/config";
-import { prepareAdminUploadStorageRuntime } from "@/lib/admin-content/storage/runtime";
 import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 
 const LOCAL_ROOT = join(process.cwd(), ".admin-content-store");
 const INDEX_FILE = "index.json";
 const AUDIT_FILE = "audit.json";
-const OPTIONAL_PUBLIC_CURRICULUM_READS = new Set(["published/curriculum-state.json", "published/curriculum-translation-index.json"]);
+const STORAGE_BRANCH = "admin-content-storage";
+const STORAGE_ROOT = ".edunancial-admin-content";
 
 function ensureLocalRoot() { mkdirSync(LOCAL_ROOT, { recursive: true }); }
 function localPath(...parts: string[]) { ensureLocalRoot(); return join(LOCAL_ROOT, ...parts); }
@@ -19,108 +18,32 @@ function summarizeBatch(batch: UploadBatch): BatchSummary { return { id: batch.i
 function listLocalWorkspaceEntries() { if (!existsSync(LOCAL_ROOT)) return [] as string[]; return readdirSync(LOCAL_ROOT, { recursive: true }).map(String).filter((entry) => { try { return statSync(join(LOCAL_ROOT, entry)).isFile(); } catch { return false; } }).map((entry) => entry.replaceAll("\\", "/")); }
 
 class LocalAdminContentStorage implements AdminContentStorage {
-  async createBatch(batch: UploadBatch) { await this.updateBatch(batch); return batch; }
-  async updateBatch(batch: UploadBatch) { writeJsonFile(localPath("batches", `${batch.id}.json`), batch); const current = readJsonFile<BatchSummary[]>(localPath(INDEX_FILE), []); const next = current.filter((e) => e.id !== batch.id); next.unshift(summarizeBatch(batch)); writeJsonFile(localPath(INDEX_FILE), next); return batch; }
-  async removeBatch(batchId: string) { await this.deleteBinary(`batches/${batchId}.json`); }
-  async updateBatchIndex(summaries: BatchSummary[]) { writeJsonFile(localPath(INDEX_FILE), summaries); }
-  async listBatches() { return readJsonFile<BatchSummary[]>(localPath(INDEX_FILE), []); }
-  async getBatch(batchId: string) { return readJsonFile<UploadBatch | null>(localPath("batches", `${batchId}.json`), null); }
-  async saveBinary(path: string, content: Buffer, _contentType: string) { const target = localPath(path); mkdirSync(dirname(target), { recursive: true }); writeFileSync(target, content); }
-  async deleteBinary(path: string) { rmSync(localPath(path), { force: true }); }
-  async readBinary(path: string) { const target = localPath(path); return existsSync(target) ? readFileSync(target) : null; }
-  async appendAuditEvent(event: AuditEvent) { const current = readJsonFile<AuditEvent[]>(localPath(AUDIT_FILE), []); current.unshift(event); writeJsonFile(localPath(AUDIT_FILE), current.slice(0, 1000)); }
-  async listAuditHistory(batchId?: string) { const all = readJsonFile<AuditEvent[]>(localPath(AUDIT_FILE), []); return batchId ? all.filter((e) => e.batchId === batchId) : all; }
-  async createExport(exportPackage: ExportPackage, archive: Buffer) { await this.saveBinary(exportPackage.storagePath, archive, "application/zip"); writeJsonFile(localPath("exports", `${exportPackage.id}.json`), exportPackage); return exportPackage; }
-  async getSignedUploadUrl(_path: string): Promise<string | null> { return null; }
-  async listWorkspaceEntries() { return listLocalWorkspaceEntries(); }
+ async createBatch(batch: UploadBatch) { await this.updateBatch(batch); return batch; }
+ async updateBatch(batch: UploadBatch) { writeJsonFile(localPath("batches", `${batch.id}.json`), batch); const current=readJsonFile<BatchSummary[]>(localPath(INDEX_FILE),[]); const next=current.filter(e=>e.id!==batch.id); next.unshift(summarizeBatch(batch)); writeJsonFile(localPath(INDEX_FILE),next); return batch; }
+ async removeBatch(batchId:string){await this.deleteBinary(`batches/${batchId}.json`);} async updateBatchIndex(s:BatchSummary[]){writeJsonFile(localPath(INDEX_FILE),s);} async listBatches(){return readJsonFile<BatchSummary[]>(localPath(INDEX_FILE),[]);} async getBatch(id:string){return readJsonFile<UploadBatch|null>(localPath("batches",`${id}.json`),null);}
+ async saveBinary(path:string,content:Buffer,_type:string){const target=localPath(path);mkdirSync(dirname(target),{recursive:true});writeFileSync(target,content);} async deleteBinary(path:string){rmSync(localPath(path),{force:true});} async readBinary(path:string){const target=localPath(path);return existsSync(target)?readFileSync(target):null;}
+ async appendAuditEvent(event:AuditEvent){const current=readJsonFile<AuditEvent[]>(localPath(AUDIT_FILE),[]);current.unshift(event);writeJsonFile(localPath(AUDIT_FILE),current.slice(0,1000));} async listAuditHistory(batchId?:string){const all=readJsonFile<AuditEvent[]>(localPath(AUDIT_FILE),[]);return batchId?all.filter(e=>e.batchId===batchId):all;}
+ async createExport(p:ExportPackage,a:Buffer){await this.saveBinary(p.storagePath,a,"application/zip");writeJsonFile(localPath("exports",`${p.id}.json`),p);return p;} async getSignedUploadUrl(_path:string):Promise<string|null>{return null;} async listWorkspaceEntries(){return listLocalWorkspaceEntries();}
 }
 
-class SupabaseObjectStorage implements AdminContentStorage {
-  private bucketVerified = false;
-  constructor(private readonly bucket: string, private readonly prefix: string) {}
-  private get baseUrl() { const runtime = prepareAdminUploadStorageRuntime(); const key = runtime.serviceRoleKey || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || ""; if (!runtime.supabaseUrl || !key) throw new Error("Supabase storage is not configured."); return { url: runtime.supabaseUrl, key }; }
-  private objectPath(path: string) { return `${this.prefix}/${path}`; }
-  private static assertSafePath(path: string) { if (!/^[a-zA-Z0-9/\-_.]+$/.test(path)) throw new Error(`Unsafe storage path rejected: ${path}`); }
-  private async ensureBucketExists() {
-    if (this.bucketVerified) return;
-    const runtime = prepareAdminUploadStorageRuntime();
-
-    // Bucket management is an administrative operation and must never run with
-    // an anon key. Production upload routes already require the service-role
-    // key before reaching storage. In tests/development, anon-only object reads
-    // may still proceed without attempting bucket creation.
-    if (!runtime.serviceRoleKey) return;
-
-    const key = runtime.serviceRoleKey;
-    const read = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket/${encodeURIComponent(this.bucket)}`, { method: "GET", headers: { Authorization: "Bearer " + key, apikey: key }, cache: "no-store" });
-    const contentType = read.headers.get("content-type") ?? "";
-    if (contentType.toLowerCase().includes("text/html")) throw new Error("NEXT_PUBLIC_SUPABASE_URL appears to be misconfigured or is the wrong Supabase URL: bucket check returned HTML instead of JSON from the Supabase Storage API.");
-    if (read.ok) { this.bucketVerified = true; return; }
-    const bodyText = await read.text();
-    let missing = read.status === 404;
-    try { const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string; message?: string }; missing = missing || String(body.statusCode ?? "") === "404" || body.error === "Bucket not found" || (body.message ?? "").toLowerCase().includes("bucket not found"); } catch {}
-    if (!missing) throw new Error(`Supabase bucket check failed: ${read.status} ${bodyText}`);
-    const created = await fetch(`${runtime.supabaseUrl}/storage/v1/bucket`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey, "content-type": "application/json" }, body: JSON.stringify({ id: this.bucket, name: this.bucket, public: false }), cache: "no-store" });
-    if (!created.ok) { const text = await created.text(); if (!/already exists|duplicate/i.test(text)) throw new Error(`Supabase bucket setup failed: ${created.status} ${text}`); }
-    this.bucketVerified = true;
-  }
-  private async request(path: string, init: RequestInit = {}) {
-    const { url, key } = this.baseUrl; SupabaseObjectStorage.assertSafePath(path); await this.ensureBucketExists();
-    const encodedPath = path.split("/").map(encodeURIComponent).join("/");
-    const response = await fetch(`${url}/storage/v1/object/${this.bucket}/${encodedPath}`, { ...init, headers: { Authorization: "Bearer " + key, apikey: key, "x-upsert": "true", ...(init.headers ?? {}) }, cache: "no-store" });
-    if (!response.ok && response.status !== 404) { let bodyText = ""; try { bodyText = await response.text(); const body = JSON.parse(bodyText) as { statusCode?: string | number; error?: string }; if (String(body.statusCode) === "404" || body.error === "NoSuchKey") return new Response(bodyText, { status: 404, headers: { "content-type": "application/json" } }); } catch {} throw new Error(`Supabase storage request failed: ${response.status} ${bodyText}`); }
-    return response;
-  }
-  private async listPrefix(prefix: string) { const { url, key } = this.baseUrl; await this.ensureBucketExists(); const response = await fetch(`${url}/storage/v1/object/list/${this.bucket}`, { method: "POST", headers: { Authorization: "Bearer " + key, apikey: key, "content-type": "application/json" }, body: JSON.stringify({ prefix: this.objectPath(prefix), limit: 1000, offset: 0, sortBy: { column: "name", order: "asc" } }), cache: "no-store" }); if (!response.ok) throw new Error(`Supabase storage list failed: ${response.status} ${await response.text().catch(() => "")}`); return await response.json() as Array<{ name: string; id?: string | null; metadata?: Record<string, unknown> | null }>; }
-  private async readJson<T>(path: string, fallback: T) { const response = await this.request(this.objectPath(path)); return response.status === 404 ? fallback : await response.json() as T; }
-  private async writeJson(path: string, value: unknown) { await this.request(this.objectPath(path), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(value) }); }
-  async createBatch(batch: UploadBatch) { await this.updateBatch(batch); return batch; }
-  async updateBatch(batch: UploadBatch) { await this.writeJson(`batches/${batch.id}.json`, batch); const current = await this.readJson<BatchSummary[]>(INDEX_FILE, []); const next = current.filter((e) => e.id !== batch.id); next.unshift(summarizeBatch(batch)); await this.writeJson(INDEX_FILE, next); return batch; }
-  async removeBatch(batchId: string) { await this.deleteBinary(`batches/${batchId}.json`); }
-  async updateBatchIndex(summaries: BatchSummary[]) { await this.writeJson(INDEX_FILE, summaries); }
-  async listBatches() { return this.readJson<BatchSummary[]>(INDEX_FILE, []); }
-  async getBatch(batchId: string) { return this.readJson<UploadBatch | null>(`batches/${batchId}.json`, null); }
-  async saveBinary(path: string, content: Buffer, contentType: string) { await this.request(this.objectPath(path), { method: "POST", headers: { "content-type": contentType }, body: new Uint8Array(content) }); }
-  async readBinary(path: string) {
-    try {
-      const response = await this.request(this.objectPath(path));
-      return response.status === 404 ? null : Buffer.from(await response.arrayBuffer());
-    } catch (error) {
-      if (OPTIONAL_PUBLIC_CURRICULUM_READS.has(path) && /quota|egress|storage request failed/i.test(error instanceof Error ? error.message : String(error))) return null;
-      throw error;
-    }
-  }
-  async deleteBinary(path: string) { await this.request(this.objectPath(path), { method: "DELETE" }); }
-  async appendAuditEvent(event: AuditEvent) { const current = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); current.unshift(event); await this.writeJson(AUDIT_FILE, current.slice(0, 1000)); }
-  async listAuditHistory(batchId?: string) { const all = await this.readJson<AuditEvent[]>(AUDIT_FILE, []); return batchId ? all.filter((e) => e.batchId === batchId) : all; }
-  async createExport(exportPackage: ExportPackage, archive: Buffer) { await this.saveBinary(exportPackage.storagePath, archive, "application/zip"); await this.writeJson(`exports/${exportPackage.id}.json`, exportPackage); return exportPackage; }
-  async getSignedUploadUrl(path: string): Promise<string | null> {
-    const runtime = prepareAdminUploadStorageRuntime();
-    if (!runtime.serviceRoleKey) return null;
-    await this.ensureBucketExists();
-    const objectPath = this.objectPath(path); SupabaseObjectStorage.assertSafePath(objectPath); const encoded = objectPath.split("/").map(encodeURIComponent).join("/");
-    const response = await fetch(`${runtime.supabaseUrl}/storage/v1/object/sign/upload/${this.bucket}/${encoded}`, { method: "POST", headers: { Authorization: "Bearer " + runtime.serviceRoleKey, apikey: runtime.serviceRoleKey }, cache: "no-store" });
-    if (!response.ok) return null;
-    const data = await response.json() as { signedURL?: string };
-    const signedPath = data.signedURL?.trim();
-    if (!signedPath) return null;
-    if (/^https?:\/\//i.test(signedPath)) return signedPath; if (signedPath.startsWith("/storage/v1/")) return `${runtime.supabaseUrl}${signedPath}`; if (signedPath.startsWith("storage/v1/")) return `${runtime.supabaseUrl}/${signedPath}`; if (signedPath.startsWith("/")) return `${runtime.supabaseUrl}/storage/v1${signedPath}`; return `${runtime.supabaseUrl}/storage/v1/${signedPath}`;
-  }
-  async listWorkspaceEntries() { const queue = [""]; const files: string[] = []; const visited = new Set<string>(); while (queue.length) { const prefix = queue.shift() ?? ""; if (visited.has(prefix)) continue; visited.add(prefix); const entries = await this.listPrefix(prefix); for (const entry of entries) { if (!entry?.name) continue; const nextPath = `${prefix}${entry.name}`; const isFolder = !entry.id && !entry.metadata; if (isFolder) queue.push(`${nextPath}/`); else files.push(nextPath.replaceAll("\\", "/")); } } return files; }
+class GithubAdminContentStorage implements AdminContentStorage {
+ private readonly token=process.env.EDUNANCIAL_GITHUB_TOKEN?.trim()||""; private readonly owner=process.env.EDUNANCIAL_GITHUB_OWNER?.trim()||""; private readonly repo=process.env.EDUNANCIAL_GITHUB_REPO?.trim()||""; private branchReady=false;
+ private headers(){if(!this.token||!this.owner||!this.repo)throw new Error("GitHub upload storage is not configured.");return{Accept:"application/vnd.github+json",Authorization:`Bearer ${this.token}`,"X-GitHub-Api-Version":"2022-11-28"};}
+ private api(path:string){return `https://api.github.com/repos/${this.owner}/${this.repo}${path}`;}
+ private key(path:string){return `${STORAGE_ROOT}/${path.replace(/^\/+/,"")}`;}
+ private async ensureBranch(){if(this.branchReady)return;const h=this.headers();let r=await fetch(this.api(`/branches/${encodeURIComponent(STORAGE_BRANCH)}`),{headers:h,cache:"no-store"});if(r.status===404){const base=await fetch(this.api("/git/ref/heads/main"),{headers:h,cache:"no-store"});if(!base.ok)throw new Error(`Unable to read main for upload storage (HTTP ${base.status}).`);const b=await base.json() as {object:{sha:string}};r=await fetch(this.api("/git/refs"),{method:"POST",headers:{...h,"content-type":"application/json"},body:JSON.stringify({ref:`refs/heads/${STORAGE_BRANCH}`,sha:b.object.sha}),cache:"no-store"});if(!r.ok&&r.status!==422)throw new Error(`Unable to create upload storage branch (HTTP ${r.status}).`);}else if(!r.ok)throw new Error(`Unable to access upload storage branch (HTTP ${r.status}).`);this.branchReady=true;}
+ private async getObject(path:string):Promise<{sha:string;content:string}|null>{await this.ensureBranch();const r=await fetch(this.api(`/contents/${this.key(path).split("/").map(encodeURIComponent).join("/")}?ref=${encodeURIComponent(STORAGE_BRANCH)}`),{headers:this.headers(),cache:"no-store"});if(r.status===404)return null;if(!r.ok)throw new Error(`GitHub upload storage read failed (HTTP ${r.status}).`);const d=await r.json() as {sha:string;content:string};return d;}
+ private async put(path:string,content:Buffer,message:string){await this.ensureBranch();const existing=await this.getObject(path);const body:Record<string,string>={message,content:content.toString("base64"),branch:STORAGE_BRANCH};if(existing?.sha)body.sha=existing.sha;const r=await fetch(this.api(`/contents/${this.key(path).split("/").map(encodeURIComponent).join("/")}`),{method:"PUT",headers:{...this.headers(),"content-type":"application/json"},body:JSON.stringify(body),cache:"no-store"});if(!r.ok)throw new Error(`GitHub upload storage write failed (HTTP ${r.status}): ${await r.text().catch(()=>"")}`);}
+ private async readJson<T>(path:string,fallback:T):Promise<T>{const o=await this.getObject(path);return o?JSON.parse(Buffer.from(o.content.replace(/\s/g,""),"base64").toString("utf8")) as T:fallback;} private async writeJson(path:string,value:unknown){await this.put(path,Buffer.from(JSON.stringify(value,null,2),"utf8"),`Persist admin upload state: ${path}`);}
+ async createBatch(batch:UploadBatch){await this.updateBatch(batch);return batch;} async updateBatch(batch:UploadBatch){await this.writeJson(`batches/${batch.id}.json`,batch);const current=await this.readJson<BatchSummary[]>(INDEX_FILE,[]);const next=current.filter(e=>e.id!==batch.id);next.unshift(summarizeBatch(batch));await this.writeJson(INDEX_FILE,next);return batch;}
+ async removeBatch(batchId:string){await this.deleteBinary(`batches/${batchId}.json`);} async updateBatchIndex(s:BatchSummary[]){await this.writeJson(INDEX_FILE,s);} async listBatches(){return this.readJson<BatchSummary[]>(INDEX_FILE,[]);} async getBatch(id:string){return this.readJson<UploadBatch|null>(`batches/${id}.json`,null);}
+ async saveBinary(path:string,content:Buffer,_type:string){await this.put(path,content,`Stage admin upload: ${path.split("/").pop()??"file"}`);} async readBinary(path:string){const o=await this.getObject(path);return o?Buffer.from(o.content.replace(/\s/g,""),"base64"):null;}
+ async deleteBinary(path:string){const o=await this.getObject(path);if(!o)return;const r=await fetch(this.api(`/contents/${this.key(path).split("/").map(encodeURIComponent).join("/")}`),{method:"DELETE",headers:{...this.headers(),"content-type":"application/json"},body:JSON.stringify({message:`Remove admin upload state: ${path}`,sha:o.sha,branch:STORAGE_BRANCH}),cache:"no-store"});if(!r.ok&&r.status!==404)throw new Error(`GitHub upload storage delete failed (HTTP ${r.status}).`);}
+ async appendAuditEvent(event:AuditEvent){const current=await this.readJson<AuditEvent[]>(AUDIT_FILE,[]);current.unshift(event);await this.writeJson(AUDIT_FILE,current.slice(0,1000));} async listAuditHistory(batchId?:string){const all=await this.readJson<AuditEvent[]>(AUDIT_FILE,[]);return batchId?all.filter(e=>e.batchId===batchId):all;}
+ async createExport(p:ExportPackage,a:Buffer){await this.saveBinary(p.storagePath,a,"application/zip");await this.writeJson(`exports/${p.id}.json`,p);return p;} async getSignedUploadUrl(_path:string):Promise<string|null>{return null;}
+ async listWorkspaceEntries(){await this.ensureBranch();const ref=await fetch(this.api(`/git/ref/heads/${encodeURIComponent(STORAGE_BRANCH)}`),{headers:this.headers(),cache:"no-store"});if(!ref.ok)return[];const d=await ref.json() as {object:{sha:string}};const tree=await fetch(this.api(`/git/trees/${d.object.sha}?recursive=1`),{headers:this.headers(),cache:"no-store"});if(!tree.ok)return[];const t=await tree.json() as {tree:Array<{path:string;type:string}>};const prefix=`${STORAGE_ROOT}/`;return t.tree.filter(e=>e.type==="blob"&&e.path.startsWith(prefix)).map(e=>e.path.slice(prefix.length));}
 }
 
-let cachedStorage: AdminContentStorage | null = null;
-export function getAdminContentStorage(): AdminContentStorage {
-  if (cachedStorage) return cachedStorage;
-  if (process.env.NODE_ENV === "production") {
-    const runtime = prepareAdminUploadStorageRuntime();
-    cachedStorage = new SupabaseObjectStorage(runtime.bucket, DEFAULT_STORAGE_PREFIX);
-    return cachedStorage;
-  }
-  const runtime = prepareAdminUploadStorageRuntime();
-  const key = runtime.serviceRoleKey || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || "";
-  if (runtime.supabaseUrl && key) { cachedStorage = new SupabaseObjectStorage(runtime.bucket, DEFAULT_STORAGE_PREFIX); return cachedStorage; }
-  cachedStorage = new LocalAdminContentStorage(); return cachedStorage;
-}
-export function getLocalAdminStorageFiles() { return existsSync(LOCAL_ROOT) ? readdirSync(LOCAL_ROOT, { recursive: true }) : []; }
-export function resetAdminContentStorage() { cachedStorage = null; rmSync(LOCAL_ROOT, { recursive: true, force: true }); }
+let cachedStorage:AdminContentStorage|null=null;
+export function getAdminContentStorage():AdminContentStorage{if(cachedStorage)return cachedStorage;cachedStorage=process.env.NODE_ENV==="production"?new GithubAdminContentStorage():new LocalAdminContentStorage();return cachedStorage;}
+export function getLocalAdminStorageFiles(){return existsSync(LOCAL_ROOT)?readdirSync(LOCAL_ROOT,{recursive:true}):[];} export function resetAdminContentStorage(){cachedStorage=null;rmSync(LOCAL_ROOT,{recursive:true,force:true});}
