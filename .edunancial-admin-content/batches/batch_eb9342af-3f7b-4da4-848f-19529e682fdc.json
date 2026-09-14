@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-14-black-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "exported",
+  "status": "approved",
   "createdAt": "2026-09-14T01:19:54.867Z",
-  "updatedAt": "2026-09-14T23:37:17.131Z",
+  "updatedAt": "2026-09-14T23:53:15.644Z",
   "uploads": [
     {
       "id": "upload_6cdc63de-cb54-4e20-98e8-8faa6db9659a",
@@ -81,12 +81,21 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-14T23:36:45.418Z",
+      "approvedAt": "2026-09-14T23:53:13.100Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-14T23:36:47.265Z"
+      "updatedAt": "2026-09-14T23:53:15.644Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_a3b1b35d-abe5-42bb-9e0c-ce68c5f5b9b0",
+      "timestamp": "2026-09-14T23:53:15.644Z",
+      "action": "classification-changed",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "fileId": "file_a007ee4a-68dd-46b0-ac3d-b8ee15506737"
+    },
     {
       "id": "audit_fb26d703-196d-4273-ab25-8c7bfcaea175",
       "timestamp": "2026-09-14T23:37:17.131Z",
