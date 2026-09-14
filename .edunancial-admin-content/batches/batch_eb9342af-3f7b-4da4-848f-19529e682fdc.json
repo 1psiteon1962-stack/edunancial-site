@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-14-black-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "approved",
+  "status": "exported",
   "createdAt": "2026-09-14T01:19:54.867Z",
-  "updatedAt": "2026-09-14T23:36:47.265Z",
+  "updatedAt": "2026-09-14T23:37:17.131Z",
   "uploads": [
     {
       "id": "upload_6cdc63de-cb54-4e20-98e8-8faa6db9659a",
@@ -88,6 +88,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_fb26d703-196d-4273-ab25-8c7bfcaea175",
+      "timestamp": "2026-09-14T23:37:17.131Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "metadata": {
+        "exportId": "export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408"
+      }
+    },
+    {
       "id": "audit_f711e54c-9415-4412-aa3b-22cbcd4994af",
       "timestamp": "2026-09-14T23:36:47.265Z",
       "action": "classification-changed",
@@ -132,6 +143,25 @@
       "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "fileName": "content-upload-2026-09-14-black-l2-full-50-lessons-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408.zip",
+      "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/rejected-files.json",
+      "createdAt": "2026-09-14T23:37:15.408Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
