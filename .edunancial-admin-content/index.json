@@ -1,0 +1,17 @@
+[
+  {
+    "id": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+    "name": "Content Upload 2026-09-14 — BLACK-L2-FULL-50-Lessons.zip",
+    "slug": "content-upload-2026-09-14-black-l2-full-50-lessons-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-09-14T01:19:54.867Z",
+    "updatedAt": "2026-09-14T01:19:55.877Z",
+    "totalUploads": 1,
+    "totalFiles": 1,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 1,
+    "conflicts": 0
+  }
+]
