@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408",
+  "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+  "fileName": "content-upload-2026-09-14-black-l2-full-50-lessons-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-14-black-l2-full-50-lessons-zip/batch_eb9342af-3f7b-4da4-848f-19529e682fdc/rejected-files.json",
+  "createdAt": "2026-09-14T23:37:15.408Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
