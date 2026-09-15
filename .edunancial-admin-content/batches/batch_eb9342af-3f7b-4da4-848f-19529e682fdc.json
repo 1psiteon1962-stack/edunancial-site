@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-14-black-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "approved",
+  "status": "exported",
   "createdAt": "2026-09-14T01:19:54.867Z",
-  "updatedAt": "2026-09-14T23:53:15.644Z",
+  "updatedAt": "2026-09-15T00:14:41.985Z",
   "uploads": [
     {
       "id": "upload_6cdc63de-cb54-4e20-98e8-8faa6db9659a",
@@ -74,7 +74,7 @@
         "contentType": "courses",
         "pillar": "black",
         "academyLevel": "level-2",
-        "publicationStatus": "approved",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4d58f55112b4438360919ba6078e4ba73fcc996a7328d05c7050f5259d7f1527",
         "uploadBatchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc"
@@ -83,10 +83,45 @@
       "error": null,
       "approvedAt": "2026-09-14T23:53:13.100Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-14T23:53:15.644Z"
+      "updatedAt": "2026-09-15T00:14:41.985Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_51ffc739-4eba-4cde-a7df-649c35c075b5",
+      "timestamp": "2026-09-15T00:14:43.511Z",
+      "action": "batch-published",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "metadata": {
+        "publishedFiles": 1,
+        "publishedLessons": 50,
+        "githubPr": "https://github.com/1psiteon1962-stack/edunancial-site/pull/715"
+      }
+    },
+    {
+      "id": "audit_9ed340fe-47c4-4254-b145-395c6783866d",
+      "timestamp": "2026-09-15T00:14:41.009Z",
+      "action": "github-pr-opened",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "metadata": {
+        "url": "https://github.com/1psiteon1962-stack/edunancial-site/pull/715"
+      }
+    },
+    {
+      "id": "audit_cbcb2e45-a7b8-4b5c-ac67-4ef4052cf62f",
+      "timestamp": "2026-09-15T00:14:40.082Z",
+      "action": "github-branch-created",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "metadata": {
+        "branch": "content/course-upload-20260915-001433-content-upload-2026-09-14-black-l2-full-50-lessons-zip"
+      }
+    },
     {
       "id": "audit_a3b1b35d-abe5-42bb-9e0c-ce68c5f5b9b0",
       "timestamp": "2026-09-14T23:53:15.644Z",
@@ -169,6 +204,13 @@
           "No curriculum-bound markdown files required validation."
         ],
         "errors": []
+      },
+      "github": {
+        "branch": "content/course-upload-20260915-001433-content-upload-2026-09-14-black-l2-full-50-lessons-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/715",
+        "pullRequestNumber": 715,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
       }
     }
   ],
