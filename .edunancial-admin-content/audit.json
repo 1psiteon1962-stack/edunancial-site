@@ -1,5 +1,17 @@
 [
   {
+    "id": "audit_68577924-d286-418c-8889-5b128535e6d5",
+    "timestamp": "2026-09-15T01:42:15.403Z",
+    "action": "bulk-action",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+    "metadata": {
+      "reviewStatus": "approved",
+      "fileCount": 1
+    }
+  },
+  {
     "id": "audit_ecbf33fd-0980-46a8-ad08-90c8ba39411a",
     "timestamp": "2026-09-15T00:49:52.492Z",
     "action": "batch-created",
