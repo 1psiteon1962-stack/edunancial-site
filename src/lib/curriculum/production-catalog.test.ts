@@ -13,10 +13,10 @@ test("production course catalog always includes the three launch tracks", () => 
     courseList.map((course) => course.id),
     ["red", "white", "blue"],
   );
-  // RED has 50 Level 1 lessons plus 2 published Level 2 lessons; WHITE and BLUE have restored Level 1.
+  // Published inventory: RED has 52 lessons, WHITE has 50, and BLUE has 100 across Levels 1-2.
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 50);
+  assert.equal(courses.blue.lessons.length, 100);
 });
 
 test("getCoursePrimaryHref resolves to first lesson for all three launch tracks", () => {
