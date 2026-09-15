@@ -1,0 +1,34 @@
+{
+  "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+  "exportId": "export_batch_eb9342af-3f7b-4da4-848f-19529e682fdc_1789429035408",
+  "uploadTimestamp": "2026-09-15T00:14:33.258Z",
+  "branch": "content/course-upload-20260915-001433-content-upload-2026-09-14-black-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "black-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/black/level-2/en_us/full-50-lessons-black-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "black",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_eb9342af-3f7b-4da4-848f-19529e682fdc",
+      "uploadTimestamp": "2026-09-14T23:53:15.644Z",
+      "checksum": "sha256:4d58f55112b4438360919ba6078e4ba73fcc996a7328d05c7050f5259d7f1527",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [],
+    "errors": []
+  },
+  "registryUpdated": true,
+  "curriculumAssets": 50,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
