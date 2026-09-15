@@ -6,7 +6,7 @@
   "notes": "",
   "status": "approved",
   "createdAt": "2026-09-15T00:49:48.988Z",
-  "updatedAt": "2026-09-15T01:45:37.188Z",
+  "updatedAt": "2026-09-15T01:45:40.508Z",
   "uploads": [
     {
       "id": "upload_a7caa049-8e69-48f6-9ad2-4cd3ac0752e5",
@@ -81,12 +81,24 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-15T01:45:37.188Z",
+      "approvedAt": "2026-09-15T01:45:40.508Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T01:45:37.188Z"
+      "updatedAt": "2026-09-15T01:45:40.508Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_80608738-965b-4d89-8e90-ee3bd9458a4b",
+      "timestamp": "2026-09-15T01:45:40.508Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 1
+      }
+    },
     {
       "id": "audit_c30e088a-ce1f-470f-971b-7084b00e9679",
       "timestamp": "2026-09-15T01:45:37.188Z",
