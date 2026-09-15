@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "exported",
+  "status": "approved",
   "createdAt": "2026-09-15T00:49:48.988Z",
-  "updatedAt": "2026-09-15T01:45:58.360Z",
+  "updatedAt": "2026-09-15T01:46:38.206Z",
   "uploads": [
     {
       "id": "upload_a7caa049-8e69-48f6-9ad2-4cd3ac0752e5",
@@ -81,12 +81,24 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-15T01:45:40.508Z",
+      "approvedAt": "2026-09-15T01:46:38.206Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T01:45:40.508Z"
+      "updatedAt": "2026-09-15T01:46:38.206Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_f8e68196-e742-4af8-9057-7f878435f3e7",
+      "timestamp": "2026-09-15T01:46:38.206Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 1
+      }
+    },
     {
       "id": "audit_701fb380-523e-44f3-971a-be74dac7041b",
       "timestamp": "2026-09-15T01:45:58.360Z",
