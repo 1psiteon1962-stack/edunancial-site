@@ -1,5 +1,24 @@
 [
   {
+    "id": "upload-operation-450a9640-a366-4edc-b2b7-588d9fe368ec",
+    "timestamp": "2026-09-15T09:53:32.729Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "STARTED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null
+    }
+  },
+  {
     "id": "audit_a4edebfe-09db-43e9-b129-aec22650bd30",
     "timestamp": "2026-09-15T09:53:22.128Z",
     "action": "classification-changed",
