@@ -4,14 +4,14 @@
     "name": "Content Upload 2026-09-15 — GOLD-L2-FULL-50-Lessons.zip",
     "slug": "content-upload-2026-09-15-gold-l2-full-50-lessons-zip",
     "source": "Admin dashboard",
-    "status": "ready-for-review",
+    "status": "approved",
     "createdAt": "2026-09-15T00:49:52.492Z",
-    "updatedAt": "2026-09-15T00:49:53.692Z",
+    "updatedAt": "2026-09-15T01:42:15.403Z",
     "totalUploads": 1,
     "totalFiles": 1,
-    "approvedFiles": 0,
+    "approvedFiles": 1,
     "rejectedFiles": 0,
-    "pendingFiles": 1,
+    "pendingFiles": 0,
     "conflicts": 0
   },
   {
