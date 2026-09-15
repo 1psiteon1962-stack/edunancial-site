@@ -6,7 +6,7 @@
   "notes": "",
   "status": "exported",
   "createdAt": "2026-09-15T09:14:02.496Z",
-  "updatedAt": "2026-09-15T09:55:46.038Z",
+  "updatedAt": "2026-09-15T09:56:18.802Z",
   "uploads": [
     {
       "id": "upload_a2ca7653-2e6d-4522-a2d4-4f2fbc46b1cd",
@@ -74,7 +74,7 @@
         "contentType": "courses",
         "pillar": "green",
         "academyLevel": "level-2",
-        "publicationStatus": "approved",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:984fe293108e9bf0eb14b71ce0243c399d657f9999205130255b16fee2035225",
         "uploadBatchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459"
@@ -83,10 +83,45 @@
       "error": null,
       "approvedAt": "2026-09-15T09:55:28.686Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T09:55:29.084Z"
+      "updatedAt": "2026-09-15T09:56:18.802Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_fa99aef9-f272-42ec-8cf1-a1637bd7e922",
+      "timestamp": "2026-09-15T09:56:20.218Z",
+      "action": "batch-published",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "metadata": {
+        "publishedFiles": 1,
+        "publishedLessons": 50,
+        "githubPr": "https://github.com/1psiteon1962-stack/edunancial-site/pull/730"
+      }
+    },
+    {
+      "id": "audit_1cc360bc-3d37-447c-8092-f9bfc7a206fd",
+      "timestamp": "2026-09-15T09:56:17.595Z",
+      "action": "github-pr-opened",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "metadata": {
+        "url": "https://github.com/1psiteon1962-stack/edunancial-site/pull/730"
+      }
+    },
+    {
+      "id": "audit_a1309978-39dc-4235-9665-46f087ba1ce2",
+      "timestamp": "2026-09-15T09:56:15.443Z",
+      "action": "github-branch-created",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "metadata": {
+        "branch": "content/course-upload-20260915-095608-content-upload-2026-09-15-green-l2-full-50-lessons-zip"
+      }
+    },
     {
       "id": "audit_7c07010f-74c9-494a-b8ae-e77f293b780c",
       "timestamp": "2026-09-15T09:55:46.038Z",
@@ -169,6 +204,13 @@
           "No curriculum-bound markdown files required validation."
         ],
         "errors": []
+      },
+      "github": {
+        "branch": "content/course-upload-20260915-095608-content-upload-2026-09-15-green-l2-full-50-lessons-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/730",
+        "pullRequestNumber": 730,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
       }
     }
   ],
