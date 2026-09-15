@@ -24,7 +24,7 @@ Building directly on Lesson 12, this lesson addresses the reverse direction: a l
 
 Common defensive responses that undermine genuine feedback reception include immediately explaining or justifying rather than first genuinely considering the feedback, dismissing feedback based on the messenger's seniority or perceived standing rather than its actual substance, and failing to visibly act on feedback in ways that would demonstrate it was genuinely heard, all of which discourage team members from offering honest feedback in the future, echoing Lesson 9's trust-building discussion.
 
-**3. Worked Example**
+**4. Worked Example**
 Recognizing his own tendency to immediately explain his reasoning whenever a team member offered critical feedback about his leadership approach, a leader deliberately works to pause and genuinely consider such feedback before responding, rather than reflexively justifying his prior decision. When a team member candidly points out that his recent communication style felt overly abrupt during a stressful period, he resists the urge to immediately explain the stress he was under, instead genuinely acknowledging the feedback and visibly adjusting his approach afterward — modeling the kind of feedback receptiveness he hopes to see throughout his broader team culture.
 
 **4. Practice Quiz**
