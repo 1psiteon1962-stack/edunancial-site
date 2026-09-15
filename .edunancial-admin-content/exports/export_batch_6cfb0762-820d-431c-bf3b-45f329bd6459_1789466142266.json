@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266",
+  "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+  "fileName": "content-upload-2026-09-15-green-l2-full-50-lessons-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/rejected-files.json",
+  "createdAt": "2026-09-15T09:55:42.266Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
