@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_fd4f4d15-aed8-43d4-a9ca-88dd7726da87",
+    "name": "Recovered green-l2-full-50-lessons.zip",
+    "slug": "recovered-green-l2-full-50-lessons-zip",
+    "source": "Recovered from stored upload batch batch_c038f207-d4f0-41b4-a48e-5ed83075b863",
+    "status": "ready-for-review",
+    "createdAt": "2026-09-15T09:10:58.461Z",
+    "updatedAt": "2026-09-15T09:10:59.670Z",
+    "totalUploads": 1,
+    "totalFiles": 1,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 1,
+    "conflicts": 0
+  },
+  {
     "id": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
     "name": "Content Upload 2026-09-15 — ORANGE-L2-FULL-50-Lessons.zip",
     "slug": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip",
