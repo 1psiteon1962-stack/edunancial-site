@@ -11,6 +11,9 @@ import DetectedPreferencesBanner from "@/components/international/DetectedPrefer
 export default function SiteChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isAdminWorkspace = pathname.startsWith("/admin");
+  // Lesson URLs use /curriculum/{track}/{level}/{lesson-id}. Keep the coach out
+  // of course listings, marketing pages, dashboards, and every non-lesson page.
+  const isLessonPage = /^\/curriculum\/[^/]+\/l\d+\/[^/]+\/?$/i.test(pathname);
 
   if (isAdminWorkspace) {
     return <>{children}</>;
@@ -22,7 +25,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
       <Navbar />
       <DetectedPreferencesBanner />
       {children}
-      <AILearningCoachWidget />
+      {isLessonPage ? <AILearningCoachWidget /> : null}
       <Footer />
     </>
   );
