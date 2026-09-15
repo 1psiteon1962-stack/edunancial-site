@@ -4,13 +4,13 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { type StoredUploadEntry } from "@/lib/admin-content/service";
+import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch, isTrustedCanonicalCurriculumIdentity } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identity } from "@/lib/admin-content/trusted-localized-ingest";
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
-import { getKpiSupabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,16 +19,18 @@ export const maxDuration = 300;
 type FinalizeBody = { batchId: string; batchName?: string; source?: string; notes?: string; uploads: StoredUploadEntry[]; [key: string]: unknown };
 
 async function getAlreadyFinalizedReviewBatchId(batchId: string, uploadId: string): Promise<string | null> {
-  const db = getKpiSupabaseAdmin();
-  const { data, error } = await db.from("admin_upload_operations").select("metadata").eq("batch_id", batchId).eq("upload_id", uploadId).eq("phase", "FINALIZE").eq("status", "SUCCEEDED").order("created_at", { ascending: false }).limit(1);
-  if (error) {
-    console.warn("[finalize] upload audit unavailable; continuing safely", error.message);
-    return null;
+  try {
+    const events = await getAdminContentStorage().listAuditHistory(batchId);
+    for (const event of events) {
+      const metadata = event.metadata;
+      if (!metadata || metadata.kind !== "upload-operation" || metadata.phase !== "FINALIZE" || metadata.status !== "SUCCEEDED" || metadata.uploadId !== uploadId) continue;
+      const reviewBatchId = metadata.reviewBatchId;
+      if (typeof reviewBatchId === "string" && reviewBatchId.trim()) return reviewBatchId;
+    }
+  } catch (error) {
+    console.warn("[finalize] GitHub-backed upload audit unavailable; continuing safely", error);
   }
-  const metadata = data?.[0]?.metadata;
-  if (!metadata || typeof metadata !== "object" || Array.isArray(metadata)) return null;
-  const reviewBatchId = (metadata as Record<string, unknown>).reviewBatchId;
-  return typeof reviewBatchId === "string" && reviewBatchId.trim() ? reviewBatchId : null;
+  return null;
 }
 
 export async function POST(request: NextRequest) {
@@ -65,7 +67,7 @@ export async function POST(request: NextRequest) {
     const batch = await normalizeMixedLocaleBatch(createdBatch);
     if (batch.uploads.length === 0 || batch.files.length === 0) {
       const detail = batch.warnings.length ? batch.warnings.join(" | ") : "No reviewable files were produced from the uploaded object.";
-      throw new Error(`Uploaded file reached storage but could not be processed: ${detail}`);
+      throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
