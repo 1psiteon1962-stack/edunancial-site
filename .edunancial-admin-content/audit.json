@@ -1,5 +1,18 @@
 [
   {
+    "id": "audit_fa99aef9-f272-42ec-8cf1-a1637bd7e922",
+    "timestamp": "2026-09-15T09:56:20.218Z",
+    "action": "batch-published",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+    "metadata": {
+      "publishedFiles": 1,
+      "publishedLessons": 50,
+      "githubPr": "https://github.com/1psiteon1962-stack/edunancial-site/pull/730"
+    }
+  },
+  {
     "id": "audit_1cc360bc-3d37-447c-8092-f9bfc7a206fd",
     "timestamp": "2026-09-15T09:56:17.595Z",
     "action": "github-pr-opened",
