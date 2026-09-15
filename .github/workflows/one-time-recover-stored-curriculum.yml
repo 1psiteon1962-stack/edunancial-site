@@ -28,6 +28,7 @@ jobs:
           GH_RUN_ID: ${{ github.run_id }}
         run: |
           set -euo pipefail
+          # 2026-09-15 recovery trigger: restore the already-stored BLUE/GREEN/ORANGE L2 packages.
           url="https://edunancial.com/api/admin/content/upload/recover-all"
           for attempt in $(seq 1 24); do
             code=$(curl -sS -o recovery.json -w '%{http_code}' -X POST "$url" \
