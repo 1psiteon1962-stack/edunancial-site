@@ -1,0 +1,34 @@
+{
+  "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+  "exportId": "export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266",
+  "uploadTimestamp": "2026-09-15T09:56:08.166Z",
+  "branch": "content/course-upload-20260915-095608-content-upload-2026-09-15-green-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "green-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/green/level-2/en_us/full-50-lessons-green-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "green",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "uploadTimestamp": "2026-09-15T09:55:29.084Z",
+      "checksum": "sha256:984fe293108e9bf0eb14b71ce0243c399d657f9999205130255b16fee2035225",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [],
+    "errors": []
+  },
+  "registryUpdated": true,
+  "curriculumAssets": 50,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
