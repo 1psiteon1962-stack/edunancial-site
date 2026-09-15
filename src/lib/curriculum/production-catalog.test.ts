@@ -13,7 +13,7 @@ test("production course catalog always includes the three launch tracks", () => 
     courseList.map((course) => course.id),
     ["red", "white", "blue"],
   );
-  // RED has 50 Level 1 lessons plus 2 published Level 2 lessons; WHITE has restored Level 1; BLUE has Level 1 and Level 2.
+  // Published inventory: RED has 52 lessons, WHITE has 50, and BLUE has 100 across Levels 1-2.
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
   assert.equal(courses.blue.lessons.length, 100);
