@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+    "name": "Content Upload 2026-09-15 — GOLD-L2-FULL-50-Lessons.zip",
+    "slug": "content-upload-2026-09-15-gold-l2-full-50-lessons-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-09-15T00:49:52.492Z",
+    "updatedAt": "2026-09-15T00:49:53.692Z",
+    "totalUploads": 1,
+    "totalFiles": 1,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 1,
+    "conflicts": 0
+  },
+  {
     "id": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
     "name": "Content Upload 2026-09-15 — ORANGE-L2-FULL-50-Lessons.zip",
     "slug": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip",
