@@ -1,0 +1,34 @@
+{
+  "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+  "exportId": "export_batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c_1789436555322",
+  "uploadTimestamp": "2026-09-15T01:44:28.776Z",
+  "branch": "content/course-upload-20260915-014428-content-upload-2026-09-15-gold-l2-full-50-lessons-zip",
+  "files": [
+    {
+      "sourceFilename": "gold-l2-full-50-lessons.md",
+      "destinationPath": "content/courses/gold/level-2/en_us/full-50-lessons-gold-l2-full-50-lessons.md",
+      "title": "FULL 50 Lessons",
+      "track": "gold",
+      "level": "level-2",
+      "language": "en-US",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+      "uploadTimestamp": "2026-09-15T01:44:17.972Z",
+      "checksum": "sha256:bc9d410255e7889a0bd75b688ca2b33a8cd455947db18cb22c32ec262d22c588",
+      "curriculumAssetId": null,
+      "curriculumTranslationLessonId": null,
+      "curriculumTranslationLocales": []
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [],
+    "errors": []
+  },
+  "registryUpdated": true,
+  "curriculumAssets": 50,
+  "curriculumTranslations": 0,
+  "curriculumTranslationLocales": 0,
+  "quarantinedCurriculumTranslations": []
+}
