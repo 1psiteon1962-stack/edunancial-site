@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-gold-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-15T00:49:52.492Z",
-  "updatedAt": "2026-09-15T00:49:53.692Z",
+  "updatedAt": "2026-09-15T01:42:15.403Z",
   "uploads": [
     {
       "id": "upload_f0319a74-6107-4a02-8443-bd20b2ea64ab",
@@ -44,7 +44,7 @@
       "sizeBytes": 229614,
       "checksum": "sha256:bc9d410255e7889a0bd75b688ca2b33a8cd455947db18cb22c32ec262d22c588",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "EDUNANCIAL — LEVEL 2 — GOLD (INVESTING / WEALTH BUILDING) American English Master Curriculum — Full 50 Lesson Set GOLD L2 FULL TOPIC PROGRESSION (50 lessons) 001. Wealth Building as a Discipline: The First Interaction Between Pieces 002. Net Worth: The Scorecard Behind Every Wealth Building Decision 003. Assets vs. Liabilities: A Deeper Look at What Builds Wealth 004. Income vs. Wealth: Why High E…",
@@ -74,19 +74,31 @@
         "contentType": "courses",
         "pillar": "gold",
         "academyLevel": "level-2",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:bc9d410255e7889a0bd75b688ca2b33a8cd455947db18cb22c32ec262d22c588",
         "uploadBatchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-15T01:42:15.402Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T00:49:53.678Z"
+      "updatedAt": "2026-09-15T01:42:15.402Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_68577924-d286-418c-8889-5b128535e6d5",
+      "timestamp": "2026-09-15T01:42:15.403Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 1
+      }
+    },
     {
       "id": "audit_1aaf0c23-b499-4a0a-9f58-b4a814817d7b",
       "timestamp": "2026-09-15T00:49:53.692Z",
