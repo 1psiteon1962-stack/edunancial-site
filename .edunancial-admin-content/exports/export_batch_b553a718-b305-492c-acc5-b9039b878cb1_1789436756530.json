@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_b553a718-b305-492c-acc5-b9039b878cb1_1789436756530",
+  "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
+  "fileName": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_b553a718-b305-492c-acc5-b9039b878cb1_1789436756530.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/rejected-files.json",
+  "createdAt": "2026-09-15T01:45:56.530Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
