@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-green-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "approved",
+  "status": "exported",
   "createdAt": "2026-09-15T09:14:02.496Z",
-  "updatedAt": "2026-09-15T09:55:29.084Z",
+  "updatedAt": "2026-09-15T09:55:46.038Z",
   "uploads": [
     {
       "id": "upload_a2ca7653-2e6d-4522-a2d4-4f2fbc46b1cd",
@@ -88,6 +88,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_7c07010f-74c9-494a-b8ae-e77f293b780c",
+      "timestamp": "2026-09-15T09:55:46.038Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "metadata": {
+        "exportId": "export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266"
+      }
+    },
+    {
       "id": "audit_011334b6-7dde-41a1-8fcf-2ff9dd75c24a",
       "timestamp": "2026-09-15T09:55:29.084Z",
       "action": "classification-changed",
@@ -141,6 +152,25 @@
       "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "fileName": "content-upload-2026-09-15-green-l2-full-50-lessons-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266.zip",
+      "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-green-l2-full-50-lessons-zip/batch_6cfb0762-820d-431c-bf3b-45f329bd6459/rejected-files.json",
+      "createdAt": "2026-09-15T09:55:42.266Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
