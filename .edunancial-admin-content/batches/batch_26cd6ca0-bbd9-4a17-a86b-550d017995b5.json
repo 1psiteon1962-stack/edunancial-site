@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-blue-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-15T09:14:06.612Z",
-  "updatedAt": "2026-09-15T09:14:07.767Z",
+  "updatedAt": "2026-09-15T09:53:22.128Z",
   "uploads": [
     {
       "id": "upload_b0f10c92-83e1-40e5-8fad-f253c4719db6",
@@ -44,7 +44,7 @@
       "sizeBytes": 212352,
       "checksum": "sha256:4f30264d3d4132d3b5d5f431eb0836120d88b5b935355f5573df0061b316ba51",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "EDUNANCIAL — LEVEL 2 — BLUE (BUSINESS / ENTREPRENEURSHIP) American English Master Curriculum — Full 50 Lesson Set BLUE L2 FULL TOPIC PROGRESSION (50 lessons) 001. From Idea to Entity: The First Interaction Between Pieces 002. Choosing a Business Structure: Sole Proprietor, Partnership, LLC, Corporation 003. How Entity Choice Changes Liability, Taxes, and Financing 004. Opening a Business Bank Acco…",
@@ -74,19 +74,28 @@
         "contentType": "courses",
         "pillar": "blue",
         "academyLevel": "level-2",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4f30264d3d4132d3b5d5f431eb0836120d88b5b935355f5573df0061b316ba51",
         "uploadBatchId": "batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-15T09:53:21.437Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T09:14:07.762Z"
+      "updatedAt": "2026-09-15T09:53:22.127Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_a4edebfe-09db-43e9-b129-aec22650bd30",
+      "timestamp": "2026-09-15T09:53:22.128Z",
+      "action": "classification-changed",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5",
+      "fileId": "file_63e5f3a1-cf33-4eb5-b859-b8f956d9976a"
+    },
     {
       "id": "audit_2f2f7723-0e0e-4f49-81c2-989eab4e20ec",
       "timestamp": "2026-09-15T09:14:07.767Z",
