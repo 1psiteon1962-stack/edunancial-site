@@ -108,9 +108,9 @@ describe("curriculum auto-ingest pipeline", () => {
   });
   test("curriculum.ts exports detectCurriculumAsset, buildRegistryEntry, upsertRegistryEntries", () => {
     const src = readSourceFile("src/lib/admin-content/curriculum.ts");
-    assert.match(src, /export function detectCurriculumAsset/);
-    assert.match(src, /export function buildRegistryEntry/);
-    assert.match(src, /export function upsertRegistryEntries/);
+    assert.match(src, /export\s+(?:async\s+)?function\s+detectCurriculumAsset/);
+    assert.match(src, /export\s+function\s+buildRegistryEntry/);
+    assert.match(src, /export\s+function\s+upsertRegistryEntries/);
   });
   test("github.ts imports curriculum detection helpers and calls fetchCurrentRegistry + upsertRegistryEntries", () => {
     const src = readSourceFile("src/lib/admin-content/github.ts");
@@ -118,8 +118,9 @@ describe("curriculum auto-ingest pipeline", () => {
     assert.match(src, /fetchCurrentRegistry/);
     assert.match(src, /upsertRegistryEntries/);
   });
-  test("github.ts includes updated registry.json blob in the commit tree when curriculum files are detected", () => {
+  test("github.ts includes the authoritative curriculum registry blob in the commit tree when curriculum files are detected", () => {
     const src = readSourceFile("src/lib/admin-content/github.ts");
-    assert.match(src, /content\/curriculum\/registry\.json/);
+    assert.match(src, /CURRICULUM_REGISTRY_PATH\s*=\s*["']curriculum\/registry\.json["']/);
+    assert.match(src, /path:\s*CURRICULUM_REGISTRY_PATH/);
   });
 });
