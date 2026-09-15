@@ -4,14 +4,14 @@
     "name": "Content Upload 2026-09-15 — BLUE-L2-FULL-50-Lessons.zip",
     "slug": "content-upload-2026-09-15-blue-l2-full-50-lessons-zip",
     "source": "Admin dashboard",
-    "status": "ready-for-review",
+    "status": "approved",
     "createdAt": "2026-09-15T09:14:06.612Z",
-    "updatedAt": "2026-09-15T09:14:07.767Z",
+    "updatedAt": "2026-09-15T09:53:22.128Z",
     "totalUploads": 1,
     "totalFiles": 1,
-    "approvedFiles": 0,
+    "approvedFiles": 1,
     "rejectedFiles": 0,
-    "pendingFiles": 1,
+    "pendingFiles": 0,
     "conflicts": 0
   },
   {
