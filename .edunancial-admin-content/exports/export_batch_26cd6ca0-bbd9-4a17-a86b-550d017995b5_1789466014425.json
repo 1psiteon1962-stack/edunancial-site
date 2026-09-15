@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5_1789466014425",
+  "batchId": "batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5",
+  "fileName": "content-upload-2026-09-15-blue-l2-full-50-lessons-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5_1789466014425.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-blue-l2-full-50-lessons-zip/batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-blue-l2-full-50-lessons-zip/batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-blue-l2-full-50-lessons-zip/batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-blue-l2-full-50-lessons-zip/batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5/rejected-files.json",
+  "createdAt": "2026-09-15T09:53:34.425Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
