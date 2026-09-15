@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "approved",
+  "status": "exported",
   "createdAt": "2026-09-15T00:49:48.988Z",
-  "updatedAt": "2026-09-15T01:45:40.508Z",
+  "updatedAt": "2026-09-15T01:45:58.360Z",
   "uploads": [
     {
       "id": "upload_a7caa049-8e69-48f6-9ad2-4cd3ac0752e5",
@@ -88,6 +88,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_701fb380-523e-44f3-971a-be74dac7041b",
+      "timestamp": "2026-09-15T01:45:58.360Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
+      "metadata": {
+        "exportId": "export_batch_b553a718-b305-492c-acc5-b9039b878cb1_1789436756530"
+      }
+    },
+    {
       "id": "audit_80608738-965b-4d89-8e90-ee3bd9458a4b",
       "timestamp": "2026-09-15T01:45:40.508Z",
       "action": "bulk-action",
@@ -156,6 +167,25 @@
       "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_b553a718-b305-492c-acc5-b9039b878cb1_1789436756530",
+      "batchId": "batch_b553a718-b305-492c-acc5-b9039b878cb1",
+      "fileName": "content-upload-2026-09-15-orange-l2-full-50-lessons-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_b553a718-b305-492c-acc5-b9039b878cb1_1789436756530.zip",
+      "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-orange-l2-full-50-lessons-zip/batch_b553a718-b305-492c-acc5-b9039b878cb1/rejected-files.json",
+      "createdAt": "2026-09-15T01:45:56.530Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
