@@ -4,54 +4,46 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
+import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
-import { getKpiSupabaseAdmin } from "@/lib/kpi/supabaseAdmin";
 import { createId } from "@/lib/admin-content/utils";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
-const RECOVERY_UNAVAILABLE_MESSAGE = "Interrupted-upload recovery is temporarily unavailable because upload audit telemetry could not be read. New uploads can still proceed; do not retry a partially completed upload until recovery telemetry is restored.";
-type OperationRow = { batch_id: string | null; upload_id: string | null; phase: string; status: string; storage_path: string | null; file_name: string | null; file_size: number | null; metadata?: Record<string, unknown> | null; };
+type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
-async function getCompletedUploadIds(batchId: string): Promise<Set<string>> {
-  const db = getKpiSupabaseAdmin();
-  const [{ data: recovered, error: recoveryError }, { data: finalized, error: finalizeError }] = await Promise.all([
-    db.from("admin_upload_operations").select("upload_id").eq("batch_id", batchId).eq("phase", "VERIFY").eq("status", "SUCCEEDED"),
-    db.from("admin_upload_operations").select("upload_id").eq("batch_id", batchId).eq("phase", "FINALIZE").eq("status", "SUCCEEDED"),
-  ]);
-  if (recoveryError) throw new Error(`Unable to read recovery audit trail: ${recoveryError.message}`);
-  if (finalizeError) throw new Error(`Unable to read finalization audit trail: ${finalizeError.message}`);
-  const ids = [...(recovered ?? []), ...(finalized ?? [])] as Array<{ upload_id: string | null }>;
-  return new Set(ids.map((row) => row.upload_id).filter((value): value is string => Boolean(value)));
-}
-
-async function getRecoverableUploads(batchId: string): Promise<StoredUploadEntry[]> {
-  const db = getKpiSupabaseAdmin();
-  const [{ data, error }, completedIds] = await Promise.all([
-    db.from("admin_upload_operations").select("batch_id,upload_id,phase,status,storage_path,file_name,file_size,metadata").eq("batch_id", batchId).eq("phase", "PRESIGN").eq("status", "SUCCEEDED"),
-    getCompletedUploadIds(batchId),
-  ]);
-  if (error) throw new Error(`Unable to read stored upload audit trail: ${error.message}`);
+async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
+  const storage = getAdminContentStorage();
+  const [entries, summaries] = await Promise.all([storage.listWorkspaceEntries(), storage.listBatches()]);
+  const batches = await Promise.all(summaries.map((summary) => storage.getBatch(summary.id)));
+  const claimed = new Set(batches.flatMap((batch) => batch?.uploads.map((upload) => upload.storagePath) ?? []));
+  const candidates: RecoveryCandidate[] = [];
   const seen = new Set<string>();
-  return ((data ?? []) as OperationRow[]).filter((row) => row.upload_id && row.storage_path && row.file_name).filter((row) => !completedIds.has(row.upload_id as string)).filter((row) => { const key = row.upload_id as string; if (seen.has(key)) return false; seen.add(key); return true; }).map((row) => ({ uploadId: row.upload_id as string, originalFilename: row.file_name as string, mimeType: (row.file_name as string).toLowerCase().endsWith(".zip") ? "application/zip" : "application/octet-stream", sizeBytes: row.file_size ?? 0, storagePath: row.storage_path as string }));
+  for (const storagePath of entries) {
+    if (!storagePath.startsWith("uploads/courses/") || !storagePath.toLowerCase().endsWith(".zip")) continue;
+    if (claimed.has(storagePath) || seen.has(storagePath)) continue;
+    const match = storagePath.match(/^uploads\/courses\/(batch_[^/]+)\/(upload_[0-9a-f-]+)-(.+\.zip)$/iu);
+    if (!match) continue;
+    const [, batchId, uploadId, originalFilename] = match;
+    seen.add(storagePath);
+    candidates.push({ batchId, upload: { uploadId, originalFilename, mimeType: "application/zip", sizeBytes: 0, storagePath } });
+  }
+  return candidates;
 }
 
 export async function GET(request: NextRequest) {
   const auth = await requireAdminApiSession(request, false);
   if (!auth.ok) return auth.response;
-  const db = getKpiSupabaseAdmin();
-  const { data, error } = await db.from("admin_upload_operations").select("batch_id,phase,status,error_message,metadata").eq("phase", "FINALIZE").in("status", ["STARTED", "FAILED"]).limit(100);
-  if (error) return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error.message }, { headers: { "Cache-Control": "private, no-store" } });
   try {
-    const candidateBatchIds = Array.from(new Set(((data ?? []) as Array<{ batch_id: string | null }>).map((row) => row.batch_id).filter((value): value is string => Boolean(value))));
-    const recoverable: Array<{ batchId: string; uploads: StoredUploadEntry[] }> = [];
-    for (const batchId of candidateBatchIds) { const uploads = await getRecoverableUploads(batchId); if (uploads.length) recoverable.push({ batchId, uploads }); }
-    return Response.json({ success: true, recoverable, recoveryAvailable: true }, { headers: { "Cache-Control": "private, no-store" } });
+    const candidates = await getRecoverableUploads();
+    const grouped = new Map<string, StoredUploadEntry[]>();
+    for (const candidate of candidates) grouped.set(candidate.batchId, [...(grouped.get(candidate.batchId) ?? []), candidate.upload]);
+    return Response.json({ success: true, recoverable: Array.from(grouped, ([batchId, uploads]) => ({ batchId, uploads })), recoveryAvailable: true, discoverySource: "persistent-storage" }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
-    return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable." }, { headers: { "Cache-Control": "private, no-store" } });
+    return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: "Interrupted-upload recovery could not inspect persistent upload storage.", error: error instanceof Error ? error.message : String(error) }, { headers: { "Cache-Control": "private, no-store" } });
   }
 }
 
@@ -63,16 +55,17 @@ export async function POST(request: NextRequest) {
   const batchId = String(body.batchId ?? "").trim();
   const uploadId = String(body.uploadId ?? "").trim();
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
-  let uploads: StoredUploadEntry[];
-  try { uploads = await getRecoverableUploads(batchId); } catch (error) { return Response.json({ success: false, error: RECOVERY_UNAVAILABLE_MESSAGE, telemetryError: error instanceof Error ? error.message : "Upload recovery telemetry is unavailable." }, { status: 503, headers: { "Cache-Control": "private, no-store" } }); }
-  const upload = uploads.find((entry) => entry.uploadId === uploadId);
-  if (!upload) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
+  let candidates: RecoveryCandidate[];
+  try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error) }, { status: 503 }); }
+  const candidate = candidates.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
+  if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
+  const upload = candidate.upload;
   let identity;
   try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message }, { status: 400 }); }
   const recoveryBatchId = createId("batch");
-  const batch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered after the original direct-to-storage upload completed but HTTP finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
-  if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The audit trail exists, but the stored object could not be processed. It may not have completed transfer." }, { status: 409 });
+  const batch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
+  if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
   const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor);
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedCanonicalPublication } });
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedCanonicalPublication, discoverySource: "persistent-storage" } });
   return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedCanonicalPublication }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
