@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-gold-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "exported",
+  "status": "approved",
   "createdAt": "2026-09-15T00:49:52.492Z",
-  "updatedAt": "2026-09-15T01:42:37.127Z",
+  "updatedAt": "2026-09-15T01:44:14.124Z",
   "uploads": [
     {
       "id": "upload_f0319a74-6107-4a02-8443-bd20b2ea64ab",
@@ -81,12 +81,24 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-15T01:42:15.402Z",
+      "approvedAt": "2026-09-15T01:44:14.124Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T01:42:15.402Z"
+      "updatedAt": "2026-09-15T01:44:14.124Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_16827c1e-6060-4724-8a48-aefff0f3c319",
+      "timestamp": "2026-09-15T01:44:14.124Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 1
+      }
+    },
     {
       "id": "audit_fb664f51-68f5-4af9-ba39-f3ebf28eb742",
       "timestamp": "2026-09-15T01:42:37.127Z",
