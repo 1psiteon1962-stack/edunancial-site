@@ -1,5 +1,24 @@
 [
   {
+    "id": "upload-operation-cd72d6fc-ced7-43cb-8e2d-08b7450aa432",
+    "timestamp": "2026-09-15T09:55:56.976Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "FAILED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": "Error",
+      "errorMessage": "GitHub API request failed (500): "
+    }
+  },
+  {
     "id": "audit_7c07010f-74c9-494a-b8ae-e77f293b780c",
     "timestamp": "2026-09-15T09:55:46.038Z",
     "action": "export-generated",
