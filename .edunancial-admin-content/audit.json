@@ -1,5 +1,42 @@
 [
   {
+    "id": "upload-operation-0c30d269-efe2-436e-a4c3-3bafd48f0000",
+    "timestamp": "2026-09-15T09:56:24.421Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "SUCCEEDED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null,
+      "github": {
+        "branch": "content/course-upload-20260915-095608-content-upload-2026-09-15-green-l2-full-50-lessons-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/730",
+        "pullRequestNumber": 730,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
+      },
+      "canonicalRestore": {
+        "attempted": 0,
+        "restored": 0,
+        "missingRegistryLessonIds": []
+      },
+      "localization": {
+        "repaired": 0,
+        "translated": 0,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      }
+    }
+  },
+  {
     "id": "audit_fa99aef9-f272-42ec-8cf1-a1637bd7e922",
     "timestamp": "2026-09-15T09:56:20.218Z",
     "action": "batch-published",
