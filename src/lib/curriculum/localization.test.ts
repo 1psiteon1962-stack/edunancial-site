@@ -71,12 +71,12 @@ test("listAcademies keeps all academies and canonical levels available", () => {
   const courses = getLocalizedCourseMap("es");
   assert.equal(courses.red.lessons.length, 52);
   assert.equal(courses.white.lessons.length, 50);
-  assert.equal(courses.blue.lessons.length, 50);
+  assert.equal(courses.blue.lessons.length, 100);
 });
 
-test("canonical BLUE is restored while unrecovered fr-CA lesson files remain absent", () => {
+test("canonical BLUE Level 2 is restored while unrecovered fr-CA lesson files remain absent", () => {
   assert.ok(getTrack("BLUE", "admin", "en"));
-  assert.equal(getLocalizedCourseMap("en").blue.lessons.length, 50);
+  assert.equal(getLocalizedCourseMap("en").blue.lessons.length, 100);
   assert.equal(getLessonsForLevel("BLUE", 1, "admin", "fr-CA").length, 0);
 });
 
@@ -89,8 +89,8 @@ test("localized course map is locale-aware with RED, WHITE, and BLUE published l
   const spanish = getLocalizedCourseMap("es");
   assert.equal(english.red.lessons.length, 52);
   assert.equal(english.white.lessons.length, 50);
-  assert.equal(english.blue.lessons.length, 50);
+  assert.equal(english.blue.lessons.length, 100);
   assert.equal(spanish.red.lessons.length, 52);
   assert.equal(spanish.white.lessons.length, 50);
-  assert.equal(spanish.blue.lessons.length, 50);
+  assert.equal(spanish.blue.lessons.length, 100);
 });
