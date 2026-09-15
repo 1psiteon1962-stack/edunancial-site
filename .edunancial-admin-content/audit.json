@@ -1,5 +1,13 @@
 [
   {
+    "id": "audit_ecbf33fd-0980-46a8-ad08-90c8ba39411a",
+    "timestamp": "2026-09-15T00:49:52.492Z",
+    "action": "batch-created",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c"
+  },
+  {
     "id": "audit_b6279781-fabd-4f13-9b0e-62bee0aba033",
     "timestamp": "2026-09-15T00:49:48.988Z",
     "action": "batch-created",
