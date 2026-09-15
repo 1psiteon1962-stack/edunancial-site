@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c_1789436555322",
+  "batchId": "batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c",
+  "fileName": "content-upload-2026-09-15-gold-l2-full-50-lessons-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c_1789436555322.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-09-15-gold-l2-full-50-lessons-zip/batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-09-15-gold-l2-full-50-lessons-zip/batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-09-15-gold-l2-full-50-lessons-zip/batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-09-15-gold-l2-full-50-lessons-zip/batch_7cdc0ed0-4101-4cfb-b1fe-ecfbbb97094c/rejected-files.json",
+  "createdAt": "2026-09-15T01:42:35.322Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
