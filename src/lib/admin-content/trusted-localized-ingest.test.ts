@@ -37,9 +37,9 @@ test("trusted localized ingestion republishes and verifies localized translation
   assert.match(finalizeRoute, /autoPublishTrustedLocalizedLevel1Batch\(batch, packageIdentity\)/u);
 });
 
-test("large presign path uses bounded parallel signing and timeout protection", () => {
-  assert.match(presignRoute, /const PRESIGN_CONCURRENCY = 20/u);
-  assert.match(presignRoute, /const SIGN_TIMEOUT_MS = 4_000/u);
-  assert.match(presignRoute, /createSignedUrlWithRetry/u);
-  assert.match(presignRoute, /AbortController/u);
+test("presign path uses the server-controlled upload endpoint without Supabase credentials", () => {
+  assert.match(presignRoute, /\/api\/admin\/content\/upload\/blob\?/u);
+  assert.match(presignRoute, /"x-csrf-token": csrfToken/u);
+  assert.match(presignRoute, /signedUrl:\s*null/u);
+  assert.doesNotMatch(presignRoute, /SUPABASE|supabase|anonKey|serviceRoleKey/u);
 });
