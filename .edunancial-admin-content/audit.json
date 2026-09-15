@@ -1,5 +1,42 @@
 [
   {
+    "id": "upload-operation-5a2d9894-2a07-463a-89dc-91e0b09d1fa2",
+    "timestamp": "2026-09-15T09:53:53.614Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_26cd6ca0-bbd9-4a17-a86b-550d017995b5",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "SUCCEEDED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null,
+      "github": {
+        "branch": "content/course-upload-20260915-095340-content-upload-2026-09-15-blue-l2-full-50-lessons-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/729",
+        "pullRequestNumber": 729,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
+      },
+      "canonicalRestore": {
+        "attempted": 0,
+        "restored": 0,
+        "missingRegistryLessonIds": []
+      },
+      "localization": {
+        "repaired": 0,
+        "translated": 0,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      }
+    }
+  },
+  {
     "id": "audit_e8cd0e82-3543-400b-9f5f-b7a184aa7d08",
     "timestamp": "2026-09-15T09:53:50.466Z",
     "action": "batch-published",
