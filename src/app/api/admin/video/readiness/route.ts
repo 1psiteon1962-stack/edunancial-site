@@ -19,26 +19,31 @@ export async function GET(request: NextRequest) {
   if (!auth.ok) return auth.response;
 
   const checks: ReadinessCheck[] = [];
-  const supabase = getSupabaseAdminClient();
 
-  const tableNames = ["video_projects", "video_assets", "video_jobs", "video_scenes", "video_audio_tracks"] as const;
-  for (const table of tableNames) {
-    const { error } = await supabase.from(table).select("id", { head: true, count: "exact" }).limit(1);
-    checks.push({ id: `table:${table}`, label: `Database table: ${table}`, ok: !error, detail: error ? error.message : "Available" });
-  }
-
-  const { data: buckets, error: bucketError } = await supabase.storage.listBuckets();
-  const bucketNames = new Set((buckets ?? []).map((bucket) => bucket.name));
-  for (const bucket of ["raw-videos", "processed-videos"] as const) {
-    const exists = !bucketError && bucketNames.has(bucket);
-    checks.push({ id: `bucket:${bucket}`, label: `Private storage bucket: ${bucket}`, ok: exists, detail: bucketError ? bucketError.message : exists ? "Available" : "Missing" });
-    if (exists) {
-      const probePath = `.readiness/${crypto.randomUUID()}.probe`;
-      const { data, error } = await supabase.storage.from(bucket).createSignedUploadUrl(probePath);
-      checks.push({ id: `bucket-write:${bucket}`, label: `Storage upload capability: ${bucket}`, ok: !error && Boolean(data?.signedUrl), detail: error ? error.message : data?.signedUrl ? "Signed upload available" : "Signed upload URL unavailable" });
-    } else {
-      checks.push({ id: `bucket-write:${bucket}`, label: `Storage upload capability: ${bucket}`, ok: false, detail: "Bucket unavailable" });
+  // Supabase is retained as a compatibility/persistence layer for existing video
+  // metadata and media. It must not make the Video Maker appear unusable when the
+  // Railway worker itself is configured and healthy.
+  try {
+    const supabase = getSupabaseAdminClient();
+    const tableNames = ["video_projects", "video_assets", "video_jobs", "video_scenes", "video_audio_tracks"] as const;
+    for (const table of tableNames) {
+      const { error } = await supabase.from(table).select("id", { head: true, count: "exact" }).limit(1);
+      checks.push({ id: `table:${table}`, label: `Compatibility database table: ${table}`, ok: !error, optional: true, detail: error ? `Optional Supabase metadata unavailable: ${error.message}` : "Available" });
     }
+
+    const { data: buckets, error: bucketError } = await supabase.storage.listBuckets();
+    const bucketNames = new Set((buckets ?? []).map((bucket) => bucket.name));
+    for (const bucket of ["raw-videos", "processed-videos"] as const) {
+      const exists = !bucketError && bucketNames.has(bucket);
+      checks.push({ id: `bucket:${bucket}`, label: `Compatibility storage bucket: ${bucket}`, ok: exists, optional: true, detail: bucketError ? `Optional Supabase storage unavailable: ${bucketError.message}` : exists ? "Available" : "Optional bucket missing" });
+      if (exists) {
+        const probePath = `.readiness/${crypto.randomUUID()}.probe`;
+        const { data, error } = await supabase.storage.from(bucket).createSignedUploadUrl(probePath);
+        checks.push({ id: `bucket-write:${bucket}`, label: `Compatibility storage upload: ${bucket}`, ok: !error && Boolean(data?.signedUrl), optional: true, detail: error ? `Optional Supabase upload unavailable: ${error.message}` : data?.signedUrl ? "Signed upload available" : "Optional signed upload URL unavailable" });
+      }
+    }
+  } catch (error) {
+    checks.push({ id: "supabase:compatibility", label: "Supabase compatibility layer", ok: false, optional: true, detail: error instanceof Error ? `Optional compatibility layer unavailable: ${error.message}` : "Optional compatibility layer unavailable" });
   }
 
   const baseUrl = workerBaseUrl();
