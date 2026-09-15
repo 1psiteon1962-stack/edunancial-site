@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-15-green-l2-full-50-lessons-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-15T09:14:02.496Z",
-  "updatedAt": "2026-09-15T09:14:03.831Z",
+  "updatedAt": "2026-09-15T09:55:23.143Z",
   "uploads": [
     {
       "id": "upload_a2ca7653-2e6d-4522-a2d4-4f2fbc46b1cd",
@@ -44,7 +44,7 @@
       "sizeBytes": 218064,
       "checksum": "sha256:984fe293108e9bf0eb14b71ce0243c399d657f9999205130255b16fee2035225",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "EDUNANCIAL — LEVEL 2 — GREEN (PERSONAL FINANCE / TAXES) American English Master Curriculum — Full 50 Lesson Set GREEN L2 FULL TOPIC PROGRESSION (50 lessons) 001. From Income to After Tax Reality: The First Interaction Between Pieces 002. Gross Income vs. Net Income: Where Deductions Happen 003. Marginal vs. Effective Tax Rate: A Critical Distinction 004. Tax Brackets Explained: Why Earning More Do…",
@@ -74,19 +74,28 @@
         "contentType": "courses",
         "pillar": "green",
         "academyLevel": "level-2",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:984fe293108e9bf0eb14b71ce0243c399d657f9999205130255b16fee2035225",
         "uploadBatchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-15T09:55:22.840Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-15T09:14:03.827Z"
+      "updatedAt": "2026-09-15T09:55:23.143Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_24344617-3084-4e7d-ac87-661914ce9851",
+      "timestamp": "2026-09-15T09:55:23.143Z",
+      "action": "classification-changed",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+      "fileId": "file_e2e68a5b-b891-43b1-8f78-b5bfe0f076d8"
+    },
     {
       "id": "audit_c22a8231-472c-483e-ab35-6b2276d67c8e",
       "timestamp": "2026-09-15T09:14:03.831Z",
