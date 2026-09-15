@@ -1,5 +1,16 @@
 [
   {
+    "id": "audit_7c07010f-74c9-494a-b8ae-e77f293b780c",
+    "timestamp": "2026-09-15T09:55:46.038Z",
+    "action": "export-generated",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
+    "metadata": {
+      "exportId": "export_batch_6cfb0762-820d-431c-bf3b-45f329bd6459_1789466142266"
+    }
+  },
+  {
     "id": "upload-operation-dbb316ad-322e-4588-8ca4-39fba4ed64f1",
     "timestamp": "2026-09-15T09:55:40.442Z",
     "action": "system-error",
