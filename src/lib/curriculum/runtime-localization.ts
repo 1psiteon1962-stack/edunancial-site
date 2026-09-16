@@ -3,15 +3,10 @@ import { Buffer } from "node:buffer";
 import { extractLocalizedLessonTranslation } from "@/lib/admin-content/localized-batch-repair";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import {
-  exportPublishedLessonTranslations,
-  getPublishedLesson,
-  getPublishedTrack,
-  importPublishedLessonTranslations,
-  type PublishedLessonRecord,
-  type PublishedLessonTranslation,
-  type PublishedLessonTranslationImportRecord,
-  type PublishedTrackSummary,
+  exportPublishedLessonTranslations, getPublishedLesson, getPublishedTrack, importPublishedLessonTranslations,
+  type PublishedLessonRecord, type PublishedLessonTranslation, type PublishedLessonTranslationImportRecord, type PublishedTrackSummary,
 } from "@/lib/curriculum/authoritative-published";
+import { getCommittedLessonTranslation } from "@/lib/curriculum/committed-translation-fallback";
 import { getCurriculumLocaleFallbackChain, resolveCurriculumLocale } from "@/lib/curriculum/localization";
 import { backfillMissingPublishedLessonsFromRegistry } from "@/lib/curriculum/published-registry-backfill";
 
@@ -19,7 +14,6 @@ const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
 const INDEX_VERSION = 4;
 const REBUILD_CONCURRENCY = 6;
 const RECONCILE_TRACKS = new Set(["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
-
 type TranslationIndex = { version: number; builtAt: string; batchCount: number; translationCount: number; complete: boolean; processedBatchIds: string[]; translations: Record<string, Record<string, PublishedLessonTranslation>> };
 let cachedIndex: Promise<TranslationIndex> | null = null;
 function emptyIndex(): TranslationIndex { return { version: INDEX_VERSION, builtAt: new Date().toISOString(), batchCount: 0, translationCount: 0, complete: false, processedBatchIds: [], translations: {} }; }
@@ -27,53 +21,18 @@ function normalizeLocale(locale: string): string { return resolveCurriculumLocal
 function lessonTrack(lessonId: string): string { return lessonId.trim().toUpperCase().split("-")[0] ?? ""; }
 function isReconcileTrack(lessonId: string): boolean { return RECONCILE_TRACKS.has(lessonTrack(lessonId)); }
 function mergeTranslation(existing: PublishedLessonTranslation | undefined, incoming: PublishedLessonTranslation): PublishedLessonTranslation { return { title: existing?.title ?? incoming.title, summary: existing?.summary ?? incoming.summary, body: existing?.body ?? incoming.body }; }
-
-export function addHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string, translation: PublishedLessonTranslation): void {
-  const id = lessonId.trim().toUpperCase(); const normalizedLocale = normalizeLocale(locale);
-  if (!id || !normalizedLocale || normalizedLocale === "en-US" || normalizedLocale === "en") return;
-  const byLocale = index.translations[id] ?? {}; byLocale[normalizedLocale] = mergeTranslation(byLocale[normalizedLocale], translation); index.translations[id] = byLocale;
-}
-export function resolveHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string): PublishedLessonTranslation | undefined {
-  const byLocale = index.translations[lessonId.trim().toUpperCase()]; if (!byLocale) return undefined;
-  for (const candidate of getCurriculumLocaleFallbackChain(locale)) { const normalized = normalizeLocale(candidate); if (byLocale[normalized]) return byLocale[normalized]; if (byLocale[candidate]) return byLocale[candidate]; }
-  return undefined;
-}
-function refreshIndexCounts(index: TranslationIndex): void { index.batchCount = index.processedBatchIds.length; index.translationCount = Object.values(index.translations).reduce((total, translations) => total + Object.keys(translations).length, 0); index.builtAt = new Date().toISOString(); }
-async function readSavedIndex(): Promise<TranslationIndex | null> {
-  try {
-    const buffer = await getAdminContentStorage().readBinary(TRANSLATION_INDEX_PATH); if (!buffer) return null;
-    const parsed = JSON.parse(buffer.toString("utf8")) as Partial<TranslationIndex>; if (parsed.version !== INDEX_VERSION || !parsed.translations) return null; return { version: INDEX_VERSION, builtAt: typeof parsed.builtAt === "string" ? parsed.builtAt : new Date().toISOString(), batchCount: typeof parsed.batchCount === "number" ? parsed.batchCount : 0, translationCount: typeof parsed.translationCount === "number" ? parsed.translationCount : 0, complete: parsed.complete === true, processedBatchIds: Array.isArray(parsed.processedBatchIds) ? parsed.processedBatchIds.filter((id): id is string => typeof id === "string") : [], translations: parsed.translations };
-  } catch { return null; }
-}
-async function saveIndex(index: TranslationIndex): Promise<void> { refreshIndexCounts(index); await getAdminContentStorage().saveBinary(TRANSLATION_INDEX_PATH, Buffer.from(`${JSON.stringify(index)}\n`, "utf8"), "application/json"); }
-function absorbBatch(index: TranslationIndex, batch: Awaited<ReturnType<ReturnType<typeof getAdminContentStorage>["getBatch"]>>): void {
-  if (!batch) return; const archiveByUploadId = new Map(batch.uploads.map((upload) => [upload.id, upload.originalFilename]));
-  for (const file of batch.files) { const candidate = extractLocalizedLessonTranslation(file, archiveByUploadId.get(file.uploadId)); if (!candidate) continue; addHistoricalTranslation(index, candidate.lessonId, candidate.locale, { ...(candidate.title ? { title: candidate.title } : {}), ...(candidate.summary ? { summary: candidate.summary } : {}), body: candidate.body }); }
-}
-export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIndex> {
-  const storage = getAdminContentStorage(); const summaries = await storage.listBatches(); const saved = await readSavedIndex(); const index = saved ?? emptyIndex(); const processed = new Set(index.processedBatchIds); const pending = summaries.filter((summary) => summary.approvedFiles > 0 && !processed.has(summary.id));
-  index.complete = false; await saveIndex(index);
-  for (let offset = 0; offset < pending.length; offset += REBUILD_CONCURRENCY) { const chunk = pending.slice(offset, offset + REBUILD_CONCURRENCY); const batches = await Promise.all(chunk.map((summary) => storage.getBatch(summary.id))); for (let indexInChunk = 0; indexInChunk < chunk.length; indexInChunk += 1) { const summary = chunk[indexInChunk]; const batch = batches[indexInChunk]; absorbBatch(index, batch); processed.add(summary.id); index.processedBatchIds = [...processed]; } await saveIndex(index); }
-  index.complete = true; await saveIndex(index); cachedIndex = Promise.resolve(index); return index;
-}
-async function getTranslationIndex(): Promise<TranslationIndex> {
-  if (cachedIndex) return cachedIndex;
-  // Runtime rendering must never depend on writable admin-content storage. Read the
-  // already-published index only; maintenance/upload flows are responsible for rebuilding it.
-  // If storage is unavailable, fall back safely to the authoritative published lesson rather
-  // than crashing a public lesson page.
-  cachedIndex = readSavedIndex().then((index) => index ?? emptyIndex()).catch(() => emptyIndex());
-  return cachedIndex;
-}
-export function applyHistoricalTranslation(lesson: PublishedLessonRecord, locale: string, index: TranslationIndex): PublishedLessonRecord { const normalizedLocale = normalizeLocale(locale); if (normalizedLocale === "en-US" || normalizedLocale === "en") return lesson; const translation = resolveHistoricalTranslation(index, lesson.id, normalizedLocale); if (!translation) return lesson; return { ...lesson, title: translation.title ?? lesson.title, summary: translation.summary ?? lesson.summary, body: translation.body ?? lesson.body }; }
-export async function getRuntimePublishedLesson(lessonId: string, languageOrLocale: string): Promise<PublishedLessonRecord | null> { const lesson = await getPublishedLesson(lessonId, languageOrLocale); if (!lesson) return null; const locale = normalizeLocale(languageOrLocale); if (locale === "en-US" || locale === "en") return lesson; return applyHistoricalTranslation(lesson, locale, await getTranslationIndex()); }
-export async function getRuntimePublishedTrack(trackCode: string, languageOrLocale: string): Promise<PublishedTrackSummary | null> { const track = await getPublishedTrack(trackCode, languageOrLocale); if (!track) return null; const locale = normalizeLocale(languageOrLocale); if (locale === "en-US" || locale === "en") return track; const index = await getTranslationIndex(); return { ...track, levels: track.levels.map((level) => ({ ...level, lessons: level.lessons.map((lesson) => applyHistoricalTranslation(lesson, locale, index)) })) }; }
-export async function reconcilePublishedTranslationsFromHistory(): Promise<{ scannedBatches: number; indexedTranslations: number; importedTranslations: number; skippedMissingCanonicalLessons: number; complete: boolean; backfilledCanonicalLessons: number; backfilledByTrack: Record<string, number> }> {
-  const canonicalBackfill = await backfillMissingPublishedLessonsFromRegistry(RECONCILE_TRACKS); const index = await rebuildHistoricalTranslationIndex(); const eligibleEntries = Object.entries(index.translations).filter(([lessonId]) => isReconcileTrack(lessonId)); const lessonIds = eligibleEntries.map(([lessonId]) => lessonId); const indexedTranslations = eligibleEntries.reduce((total, [, translations]) => total + Object.keys(translations).length, 0);
-  if (lessonIds.length === 0) return { scannedBatches: index.batchCount, indexedTranslations: 0, importedTranslations: 0, skippedMissingCanonicalLessons: 0, complete: index.complete, backfilledCanonicalLessons: canonicalBackfill.added, backfilledByTrack: canonicalBackfill.byTrack };
-  const exported = await exportPublishedLessonTranslations({ lessonIds }); const existingIds = new Set(exported.filter((record) => record.title !== null).map((record) => record.id.toUpperCase())); const records: PublishedLessonTranslationImportRecord[] = []; let skippedMissingCanonicalLessons = 0;
-  for (const [lessonId, translations] of eligibleEntries) { if (!existingIds.has(lessonId)) { skippedMissingCanonicalLessons += Object.keys(translations).length; continue; } for (const [locale, translation] of Object.entries(translations)) records.push({ lessonId, locale, ...translation }); }
-  const imported = records.length > 0 ? await importPublishedLessonTranslations(records) : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
-  return { scannedBatches: index.batchCount, indexedTranslations, importedTranslations: imported.updatedRecords, skippedMissingCanonicalLessons, complete: index.complete, backfilledCanonicalLessons: canonicalBackfill.added, backfilledByTrack: canonicalBackfill.byTrack };
-}
-export function resetRuntimeTranslationIndexForTests(): void { cachedIndex = null; }
+export function addHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string, translation: PublishedLessonTranslation): void { const id=lessonId.trim().toUpperCase(), normalizedLocale=normalizeLocale(locale); if(!id||!normalizedLocale||normalizedLocale==="en-US"||normalizedLocale==="en")return; const byLocale=index.translations[id]??{}; byLocale[normalizedLocale]=mergeTranslation(byLocale[normalizedLocale],translation); index.translations[id]=byLocale; }
+export function resolveHistoricalTranslation(index: TranslationIndex, lessonId: string, locale: string): PublishedLessonTranslation | undefined { const byLocale=index.translations[lessonId.trim().toUpperCase()]; if(!byLocale)return undefined; for(const candidate of getCurriculumLocaleFallbackChain(locale)){const normalized=normalizeLocale(candidate);if(byLocale[normalized])return byLocale[normalized];if(byLocale[candidate])return byLocale[candidate];} return undefined; }
+function refreshIndexCounts(index: TranslationIndex): void { index.batchCount=index.processedBatchIds.length; index.translationCount=Object.values(index.translations).reduce((total,translations)=>total+Object.keys(translations).length,0); index.builtAt=new Date().toISOString(); }
+async function readSavedIndex(): Promise<TranslationIndex|null>{try{const buffer=await getAdminContentStorage().readBinary(TRANSLATION_INDEX_PATH);if(!buffer)return null;const parsed=JSON.parse(buffer.toString("utf8")) as Partial<TranslationIndex>;if(parsed.version!==INDEX_VERSION||!parsed.translations)return null;return{version:INDEX_VERSION,builtAt:typeof parsed.builtAt==="string"?parsed.builtAt:new Date().toISOString(),batchCount:typeof parsed.batchCount==="number"?parsed.batchCount:0,translationCount:typeof parsed.translationCount==="number"?parsed.translationCount:0,complete:parsed.complete===true,processedBatchIds:Array.isArray(parsed.processedBatchIds)?parsed.processedBatchIds.filter((id):id is string=>typeof id==="string"):[],translations:parsed.translations};}catch{return null;}}
+async function saveIndex(index:TranslationIndex):Promise<void>{refreshIndexCounts(index);await getAdminContentStorage().saveBinary(TRANSLATION_INDEX_PATH,Buffer.from(`${JSON.stringify(index)}\n`,"utf8"),"application/json");}
+function absorbBatch(index:TranslationIndex,batch:Awaited<ReturnType<ReturnType<typeof getAdminContentStorage>["getBatch"]>>):void{if(!batch)return;const archiveByUploadId=new Map(batch.uploads.map(upload=>[upload.id,upload.originalFilename]));for(const file of batch.files){const candidate=extractLocalizedLessonTranslation(file,archiveByUploadId.get(file.uploadId));if(!candidate)continue;addHistoricalTranslation(index,candidate.lessonId,candidate.locale,{...(candidate.title?{title:candidate.title}:{}),...(candidate.summary?{summary:candidate.summary}:{}),body:candidate.body});}}
+export async function rebuildHistoricalTranslationIndex():Promise<TranslationIndex>{const storage=getAdminContentStorage(),summaries=await storage.listBatches(),saved=await readSavedIndex(),index=saved??emptyIndex(),processed=new Set(index.processedBatchIds),pending=summaries.filter(summary=>summary.approvedFiles>0&&!processed.has(summary.id));index.complete=false;await saveIndex(index);for(let offset=0;offset<pending.length;offset+=REBUILD_CONCURRENCY){const chunk=pending.slice(offset,offset+REBUILD_CONCURRENCY),batches=await Promise.all(chunk.map(summary=>storage.getBatch(summary.id)));for(let i=0;i<chunk.length;i++){absorbBatch(index,batches[i]);processed.add(chunk[i].id);index.processedBatchIds=[...processed];}await saveIndex(index);}index.complete=true;await saveIndex(index);cachedIndex=Promise.resolve(index);return index;}
+async function getTranslationIndex():Promise<TranslationIndex>{if(cachedIndex)return cachedIndex;cachedIndex=readSavedIndex().then(index=>index??emptyIndex()).catch(()=>emptyIndex());return cachedIndex;}
+function applyTranslation(lesson:PublishedLessonRecord,translation:PublishedLessonTranslation|undefined):PublishedLessonRecord{return translation?{...lesson,title:translation.title??lesson.title,summary:translation.summary??lesson.summary,body:translation.body??lesson.body}:lesson;}
+export function applyHistoricalTranslation(lesson:PublishedLessonRecord,locale:string,index:TranslationIndex):PublishedLessonRecord{const normalizedLocale=normalizeLocale(locale);if(normalizedLocale==="en-US"||normalizedLocale==="en")return lesson;return applyTranslation(lesson,resolveHistoricalTranslation(index,lesson.id,normalizedLocale));}
+async function applyRuntimeTranslation(lesson:PublishedLessonRecord,locale:string,index:TranslationIndex):Promise<PublishedLessonRecord>{const historical=resolveHistoricalTranslation(index,lesson.id,locale);if(historical)return applyTranslation(lesson,historical);return applyTranslation(lesson,getCommittedLessonTranslation(lesson.id,locale));}
+export async function getRuntimePublishedLesson(lessonId:string,languageOrLocale:string):Promise<PublishedLessonRecord|null>{const lesson=await getPublishedLesson(lessonId,languageOrLocale);if(!lesson)return null;const locale=normalizeLocale(languageOrLocale);if(locale==="en-US"||locale==="en")return lesson;return applyRuntimeTranslation(lesson,locale,await getTranslationIndex());}
+export async function getRuntimePublishedTrack(trackCode:string,languageOrLocale:string):Promise<PublishedTrackSummary|null>{const track=await getPublishedTrack(trackCode,languageOrLocale);if(!track)return null;const locale=normalizeLocale(languageOrLocale);if(locale==="en-US"||locale==="en")return track;const index=await getTranslationIndex();return{...track,levels:await Promise.all(track.levels.map(async level=>({...level,lessons:await Promise.all(level.lessons.map(lesson=>applyRuntimeTranslation(lesson,locale,index)))})))};}
+export async function reconcilePublishedTranslationsFromHistory():Promise<{scannedBatches:number;indexedTranslations:number;importedTranslations:number;skippedMissingCanonicalLessons:number;complete:boolean;backfilledCanonicalLessons:number;backfilledByTrack:Record<string,number>}>{const canonicalBackfill=await backfillMissingPublishedLessonsFromRegistry(RECONCILE_TRACKS),index=await rebuildHistoricalTranslationIndex(),eligibleEntries=Object.entries(index.translations).filter(([lessonId])=>isReconcileTrack(lessonId)),lessonIds=eligibleEntries.map(([lessonId])=>lessonId),indexedTranslations=eligibleEntries.reduce((total,[,translations])=>total+Object.keys(translations).length,0);if(!lessonIds.length)return{scannedBatches:index.batchCount,indexedTranslations:0,importedTranslations:0,skippedMissingCanonicalLessons:0,complete:index.complete,backfilledCanonicalLessons:canonicalBackfill.added,backfilledByTrack:canonicalBackfill.byTrack};const exported=await exportPublishedLessonTranslations({lessonIds}),existingIds=new Set(exported.filter(record=>record.title!==null).map(record=>record.id.toUpperCase())),records:PublishedLessonTranslationImportRecord[]=[];let skippedMissingCanonicalLessons=0;for(const[lessonId,translations]of eligibleEntries){if(!existingIds.has(lessonId)){skippedMissingCanonicalLessons+=Object.keys(translations).length;continue;}for(const[locale,translation]of Object.entries(translations))records.push({lessonId,locale,...translation});}const imported=records.length?await importPublishedLessonTranslations(records):{updatedRecords:0,updatedLessonIds:[],missingLessonIds:[]};return{scannedBatches:index.batchCount,indexedTranslations,importedTranslations:imported.updatedRecords,skippedMissingCanonicalLessons,complete:index.complete,backfilledCanonicalLessons:canonicalBackfill.added,backfilledByTrack:canonicalBackfill.byTrack};}
+export function resetRuntimeTranslationIndexForTests():void{cachedIndex=null;}
