@@ -19,7 +19,7 @@ test("Netlify server function explicitly bundles both committed curriculum roots
   assert.match(toml, /included_files\s*=\s*\[[^\]]*"content\/curriculum\/\*\*"[^\]]*\]/su);
 });
 
-test("Netlify Next.js adapter is pinned to the production-tested version", () => {
+test("Netlify Next.js adapter remains configured through the supported plugin declaration", () => {
   const toml = read("netlify.toml");
-  assert.match(toml, /package\s*=\s*"@netlify\/plugin-nextjs@5\.15\.13"/u);
+  assert.match(toml, /package\s*=\s*"@netlify\/plugin-nextjs"/u);
 });
