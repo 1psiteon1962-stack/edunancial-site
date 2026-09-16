@@ -12,6 +12,7 @@ const securityHeaders = [
 
 const curriculumRuntimeFiles = [
   "./content/courses/**/*",
+  "./content/curriculum/**/*",
   "./curriculum/registry.json",
   "./curriculum/seeds/translations/**/*",
 ];
