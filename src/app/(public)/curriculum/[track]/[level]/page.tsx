@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { isPublicCurriculumTrack } from "@/lib/curriculum/localization";
-import { getPublishedTrack } from "@/lib/curriculum/authoritative-published";
+import { getRuntimePublishedTrack } from "@/lib/curriculum/runtime-localization";
 import { translate } from "@/lib/international/i18n";
 import { getServerLanguage } from "@/lib/international/server";
 
@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trackCode = trackParam.toUpperCase();
   const levelNum = Number(levelParam.replace(/^l/i, ""));
   const language = await getServerLanguage();
-  const track = await getPublishedTrack(trackCode, language);
+  const track = await getRuntimePublishedTrack(trackCode, language);
   if (!track) return { title: "Level Not Found | Edunancial" };
   const lessonCount = track.levels.find((entry) => entry.level === levelNum)?.lessonCount ?? 0;
   const title = `${track.name} — Level ${levelNum} | Edunancial`;
@@ -35,7 +35,7 @@ export default async function LevelPage({ params }: Props) {
   const language = await getServerLanguage();
   if (!isPublicCurriculumTrack(trackCode)) notFound();
   const t = (key: string, values?: Record<string, string | number>) => translate(language, key, values);
-  const track = await getPublishedTrack(trackCode, language);
+  const track = await getRuntimePublishedTrack(trackCode, language);
   if (!track) notFound();
   const lessons = track.levels.find((entry) => entry.level === levelNum)?.lessons ?? [];
   const colors = TRACK_COLORS[trackCode] ?? DEFAULT_COLORS;
