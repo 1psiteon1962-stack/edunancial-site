@@ -46,14 +46,9 @@ export default async function LessonPage({ params }: Props) {
   const prevLesson = currentIndex > 0 ? courseLessons[currentIndex - 1] : null;
   const nextLesson = currentIndex >= 0 && currentIndex < courseLessons.length - 1 ? courseLessons[currentIndex + 1] : null;
 
-  // ── Server-side access gate ──────────────────────────────────────────────
-  // Reads the signed edu_mt membership cookie (and admin session cookie) to
-  // determine access BEFORE rendering any lesson body content.  This prevents
-  // protected body HTML from ever appearing in page source or serialized props.
-  const session = await getAdminSession();
-  const isAdmin = Boolean(session);
-  const memberSession = await getAuthenticatedMemberSession();
-
+  // Resolve the cookie-only access gate first. Public preview lessons (L1 001-003)
+  // must remain readable even when the optional member-auth backend is unavailable.
+  // Protected lessons still perform full admin/member session verification below.
   const cookieHeader = (await headers()).get("cookie");
   const access = checkLessonAccess(
     lesson.level,
@@ -63,8 +58,14 @@ export default async function LessonPage({ params }: Props) {
     language,
   );
 
-  const sessionAllowed =
-    memberSession.user
+  let isAdmin = access.viewerTier === "admin";
+  let sessionAllowed = false;
+
+  if (!access.allowed) {
+    const session = await getAdminSession();
+    isAdmin = Boolean(session);
+    const memberSession = await getAuthenticatedMemberSession();
+    sessionAllowed = memberSession.user
       ? canAccessCurriculumLesson({
           level: lesson.level,
           lessonNumber: lesson.lessonNumber,
@@ -72,6 +73,7 @@ export default async function LessonPage({ params }: Props) {
           isAdmin,
         })
       : false;
+  }
 
   const serverAllowed = isAdmin || sessionAllowed || access.allowed;
 
