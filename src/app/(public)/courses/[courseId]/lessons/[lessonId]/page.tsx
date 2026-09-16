@@ -8,7 +8,8 @@ import { getAdminSession } from "@/lib/admin-content/auth";
 import { getAuthenticatedMemberSession } from "@/lib/auth/server";
 import { canAccessCurriculumLesson } from "@/lib/curriculum/access";
 import { checkLessonAccess } from "@/lib/curriculum/access-gate";
-import { getPublishedCourses, getPublishedLesson } from "@/lib/curriculum/authoritative-published";
+import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
+import { getRuntimePublishedLesson } from "@/lib/curriculum/runtime-localization";
 import { renderMarkdown } from "@/lib/curriculum/markdown";
 import { translate } from "@/lib/international/i18n";
 import { getServerLanguage } from "@/lib/international/server";
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props) {
   const language = await getServerLanguage();
   const courses = await getPublishedCourses(language);
   const course = courses.find((entry) => entry.id === courseId);
-  const lesson = await getPublishedLesson(lessonId.toUpperCase(), language);
+  const lesson = await getRuntimePublishedLesson(lessonId.toUpperCase(), language);
   if (!course || !lesson) return { title: "Lesson Not Found" };
   return { title: `${lesson.title} | ${course.title} | Edunancial` };
 }
@@ -38,7 +39,7 @@ export default async function LessonPage({ params }: Props) {
   const course = courses.find((entry) => entry.id === courseId);
   if (!course) notFound();
 
-  const lesson = await getPublishedLesson(lessonId.toUpperCase(), language);
+  const lesson = await getRuntimePublishedLesson(lessonId.toUpperCase(), language);
   if (!lesson || !course.lessons.some((entry) => entry.id === lesson.id)) notFound();
 
   const courseLessons = course.lessons;
