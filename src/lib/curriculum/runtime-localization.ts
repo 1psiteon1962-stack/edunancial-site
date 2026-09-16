@@ -21,7 +21,7 @@ import { backfillMissingPublishedLessonsFromRegistry } from "@/lib/curriculum/pu
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
 const INDEX_VERSION = 4;
 const REBUILD_CONCURRENCY = 6;
-const RECONCILE_TRACKS = new Set(["GOLD", "GREEN", "PURPLE", "ORANGE", "BLACK"]);
+const RECONCILE_TRACKS = new Set(["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
 
 type TranslationIndex = {
   version: number;
@@ -129,11 +129,6 @@ function absorbBatch(index: TranslationIndex, batch: Awaited<ReturnType<ReturnTy
   }
 }
 
-/**
- * Explicit maintenance operation only. It resumes from the last checkpoint,
- * fetches batches concurrently in small groups, and checkpoints after every
- * group so a serverless interruption never discards completed work.
- */
 export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIndex> {
   const storage = getAdminContentStorage();
   const summaries = await storage.listBatches();
@@ -148,9 +143,6 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
   for (let offset = 0; offset < pending.length; offset += REBUILD_CONCURRENCY) {
     const chunk = pending.slice(offset, offset + REBUILD_CONCURRENCY);
     const batches = await Promise.all(chunk.map((summary) => storage.getBatch(summary.id)));
-
-    // Keep listBatches() ordering deterministic even though the storage reads
-    // happen in parallel. Newer batches therefore retain precedence.
     for (let indexInChunk = 0; indexInChunk < chunk.length; indexInChunk += 1) {
       const summary = chunk[indexInChunk];
       const batch = batches[indexInChunk];
@@ -158,7 +150,6 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
       processed.add(summary.id);
       index.processedBatchIds = [...processed];
     }
-
     await saveIndex(index);
   }
 
@@ -168,11 +159,6 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
   return index;
 }
 
-/**
- * Normal curriculum requests must never scan upload history. They read the
- * saved index if one exists; otherwise they simply use authoritative published
- * translations and committed translation artifacts.
- */
 async function getTranslationIndex(): Promise<TranslationIndex> {
   if (cachedIndex) return cachedIndex;
   cachedIndex = (async () => (await readSavedIndex()) ?? emptyIndex())();
