@@ -40,8 +40,10 @@ export function resolveHistoricalTranslation(index: TranslationIndex, lessonId: 
 }
 function refreshIndexCounts(index: TranslationIndex): void { index.batchCount = index.processedBatchIds.length; index.translationCount = Object.values(index.translations).reduce((total, translations) => total + Object.keys(translations).length, 0); index.builtAt = new Date().toISOString(); }
 async function readSavedIndex(): Promise<TranslationIndex | null> {
-  const buffer = await getAdminContentStorage().readBinary(TRANSLATION_INDEX_PATH); if (!buffer) return null;
-  try { const parsed = JSON.parse(buffer.toString("utf8")) as Partial<TranslationIndex>; if (parsed.version !== INDEX_VERSION || !parsed.translations) return null; return { version: INDEX_VERSION, builtAt: typeof parsed.builtAt === "string" ? parsed.builtAt : new Date().toISOString(), batchCount: typeof parsed.batchCount === "number" ? parsed.batchCount : 0, translationCount: typeof parsed.translationCount === "number" ? parsed.translationCount : 0, complete: parsed.complete === true, processedBatchIds: Array.isArray(parsed.processedBatchIds) ? parsed.processedBatchIds.filter((id): id is string => typeof id === "string") : [], translations: parsed.translations }; } catch { return null; }
+  try {
+    const buffer = await getAdminContentStorage().readBinary(TRANSLATION_INDEX_PATH); if (!buffer) return null;
+    const parsed = JSON.parse(buffer.toString("utf8")) as Partial<TranslationIndex>; if (parsed.version !== INDEX_VERSION || !parsed.translations) return null; return { version: INDEX_VERSION, builtAt: typeof parsed.builtAt === "string" ? parsed.builtAt : new Date().toISOString(), batchCount: typeof parsed.batchCount === "number" ? parsed.batchCount : 0, translationCount: typeof parsed.translationCount === "number" ? parsed.translationCount : 0, complete: parsed.complete === true, processedBatchIds: Array.isArray(parsed.processedBatchIds) ? parsed.processedBatchIds.filter((id): id is string => typeof id === "string") : [], translations: parsed.translations };
+  } catch { return null; }
 }
 async function saveIndex(index: TranslationIndex): Promise<void> { refreshIndexCounts(index); await getAdminContentStorage().saveBinary(TRANSLATION_INDEX_PATH, Buffer.from(`${JSON.stringify(index)}\n`, "utf8"), "application/json"); }
 function absorbBatch(index: TranslationIndex, batch: Awaited<ReturnType<ReturnType<typeof getAdminContentStorage>["getBatch"]>>): void {
@@ -56,12 +58,11 @@ export async function rebuildHistoricalTranslationIndex(): Promise<TranslationIn
 }
 async function getTranslationIndex(): Promise<TranslationIndex> {
   if (cachedIndex) return cachedIndex;
-  // Reconcile the persisted index with approved upload batches on the first localized
-  // request handled by each server instance. The rebuild is incremental: already
-  // processed batches are retained and only newly approved batches are read. This
-  // prevents a valid translated package from silently falling back to English merely
-  // because the maintenance endpoint was not run after upload/deploy.
-  cachedIndex = rebuildHistoricalTranslationIndex();
+  // Runtime rendering must never depend on writable admin-content storage. Read the
+  // already-published index only; maintenance/upload flows are responsible for rebuilding it.
+  // If storage is unavailable, fall back safely to the authoritative published lesson rather
+  // than crashing a public lesson page.
+  cachedIndex = readSavedIndex().then((index) => index ?? emptyIndex()).catch(() => emptyIndex());
   return cachedIndex;
 }
 export function applyHistoricalTranslation(lesson: PublishedLessonRecord, locale: string, index: TranslationIndex): PublishedLessonRecord { const normalizedLocale = normalizeLocale(locale); if (normalizedLocale === "en-US" || normalizedLocale === "en") return lesson; const translation = resolveHistoricalTranslation(index, lesson.id, normalizedLocale); if (!translation) return lesson; return { ...lesson, title: translation.title ?? lesson.title, summary: translation.summary ?? lesson.summary, body: translation.body ?? lesson.body }; }
