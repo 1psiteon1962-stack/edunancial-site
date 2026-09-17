@@ -10,7 +10,7 @@
  */
 
 import { existsSync, readFileSync } from "node:fs";
-import { join } from "node:path";
+import { basename, dirname, join } from "node:path";
 
 import {
   getCurriculumLocaleFallbackChain,
@@ -738,10 +738,27 @@ function resolveLessonSource(
     const localeDirectoryNames = candidateLocale === "en"
       ? []
       : Array.from(new Set([candidateLocale, candidateLocale.replaceAll("-", "_")]));
-    const canonicalFilename = canonicalPath.split(/[/\\]/u).pop() ?? "";
-    const canonicalDirectory = canonicalPath.slice(0, Math.max(0, canonicalPath.length - canonicalFilename.length));
-    const directoryCandidates = localeDirectoryNames.map((localeDirectory) =>
-      join(canonicalDirectory, localeDirectory, canonicalFilename)
+    const canonicalFilename = basename(canonicalPath);
+    const canonicalDirectory = dirname(canonicalPath);
+    const canonicalDirectoryName = basename(canonicalDirectory).toLowerCase();
+    const levelDirectory = /^(en|en[_-][a-z]{2})$/u.test(canonicalDirectoryName)
+      ? dirname(canonicalDirectory)
+      : canonicalDirectory;
+    const localeFilename = (localeDirectory: string) => {
+      const localeSuffix = localeDirectory.replaceAll("_", "-");
+      const idSlug = asset.id.toLowerCase();
+      const canonicalStem = canonicalFilename.replace(/\.md$/u, "");
+      const stemWithoutEnglishLocale = canonicalStem.replace(/-en(?:-[a-z]{2})?$/u, "");
+      const candidates = [
+        `${stemWithoutEnglishLocale}-${localeSuffix}.md`,
+        `${asset.track.toLowerCase()}-level-${asset.level}-${idSlug}-${localeSuffix}.md`,
+        `${idSlug}-${localeSuffix}.md`,
+        canonicalFilename,
+      ];
+      return candidates;
+    };
+    const directoryCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
+      localeFilename(localeDirectory).map((filename) => join(levelDirectory, localeDirectory, filename))
     );
     const candidatePath = candidateLocale === "en"
       ? canonicalPath
