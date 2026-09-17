@@ -6,6 +6,7 @@ import test from "node:test";
 const ROOT = resolve(import.meta.dirname, "../../..");
 const es = JSON.parse(readFileSync(join(ROOT, "src", "locales", "es.json"), "utf8")) as Record<string, string>;
 const trackPage = readFileSync(join(ROOT, "src", "app", "(public)", "curriculum", "[track]", "page.tsx"), "utf8");
+const italian = JSON.parse(readFileSync(join(ROOT, "src", "locales", "it.json"), "utf8")) as Record<string, string>;
 
 const EXPECTED: Record<string, string> = {
   "nav.curriculum": "Currículo",
@@ -45,4 +46,12 @@ test("TrackPage references the guarded curriculum translation keys", () => {
   for (const key of Object.keys(EXPECTED).filter((key) => key !== "nav.curriculum")) {
     assert.ok(trackPage.includes(`"${key}"`), `TrackPage no longer references expected translation key: ${key}`);
   }
+});
+
+
+test("Italian curriculum track UI contains every key used by TrackPage", () => {
+  const required = ["curriculum.trackLabel","curriculum.tab.overview","curriculum.tab.lessons","curriculum.tab.caseStudies","curriculum.tab.resources","curriculum.tab.flashcards","curriculum.whatYouLearn.title","curriculum.whatYouLearn.body","curriculum.realWorldFocus.title","curriculum.realWorldFocus.body","curriculum.lessonsCurrentlyAvailable","curriculum.lessonsAvailable","curriculum.levelLabel","curriculum.level1.name","curriculum.level2.name","curriculum.level3.name","curriculum.level4.name","curriculum.level5.name","curriculum.previewLessons","curriculum.openLevel","curriculum.inDevelopment"];
+  const missing = required.filter((key) => !(key in italian) || !italian[key]);
+  assert.deepEqual(missing, [], `Missing Italian TrackPage keys: ${missing.join(", ")}`);
+  for (const key of required) assert.notEqual(italian[key], key, `${key} must be translated in Italian`);
 });
