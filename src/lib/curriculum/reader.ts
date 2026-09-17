@@ -732,11 +732,22 @@ function resolveLessonSource(
   const candidateLocales = getCurriculumLocaleFallbackChain(requestedLocale);
 
   for (const [index, candidateLocale] of candidateLocales.entries()) {
-    const candidatePath = candidateLocale === "en"
+    const sidecarPath = candidateLocale === "en"
       ? canonicalPath
       : canonicalPath.replace(/\.md$/u, `.${candidateLocale}.md`);
+    const localeDirectoryNames = candidateLocale === "en"
+      ? []
+      : Array.from(new Set([candidateLocale, candidateLocale.replaceAll("-", "_")]));
+    const canonicalFilename = canonicalPath.split(/[/\\]/u).pop() ?? "";
+    const canonicalDirectory = canonicalPath.slice(0, Math.max(0, canonicalPath.length - canonicalFilename.length));
+    const directoryCandidates = localeDirectoryNames.map((localeDirectory) =>
+      join(canonicalDirectory, localeDirectory, canonicalFilename)
+    );
+    const candidatePath = candidateLocale === "en"
+      ? canonicalPath
+      : [sidecarPath, ...directoryCandidates].find((path) => existsSync(path));
 
-    if (candidateLocale !== "en" && !existsSync(candidatePath)) {
+    if (!candidatePath) {
       continue;
     }
 
