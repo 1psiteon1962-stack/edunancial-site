@@ -15,51 +15,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Add Italian curriculum protocol translations and regression coverage
+      - name: Add Italian curriculum translations
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
-          p=Path('src/locales/it.json')
-          data=json.loads(p.read_text())
-          data.update({
-            'curriculum.trackLabel':'Percorso',
-            'curriculum.tab.overview':'Panoramica',
-            'curriculum.tab.lessons':'Lezioni',
-            'curriculum.tab.caseStudies':'Casi di studio',
-            'curriculum.tab.resources':'Risorse',
-            'curriculum.tab.flashcards':'Schede didattiche',
-            'curriculum.whatYouLearn.title':'Cosa imparerai',
-            'curriculum.whatYouLearn.body':'Sviluppa le tue conoscenze attraverso cinque livelli strutturati, quindi applicale a decisioni finanziarie sempre più realistiche. Il tuo abbonamento determina i livelli disponibili, mentre i livelli precedenti rimangono accessibili per il ripasso.',
-            'curriculum.realWorldFocus.title':'Applicazione nel mondo reale',
-            'curriculum.realWorldFocus.body':'Impara i concetti nel loro contesto e fai pratica applicandoli alle decisioni, senza promesse, previsioni o consulenza personalizzata sugli investimenti.',
-            'curriculum.lessonsCurrentlyAvailable':'{{count}} lezioni attualmente disponibili',
-            'curriculum.levelLabel':'Livello {{level}}',
-            'curriculum.level1.name':'Alfabetizzazione finanziaria',
-            'curriculum.level2.name':'Competenza finanziaria',
-            'curriculum.level3.name':'Ragionamento applicato',
-            'curriculum.level4.name':'Integrazione strategica',
-            'curriculum.level5.name':'Intelligenza finanziaria',
-            'curriculum.lessonsAvailable':'{{count}} lezioni disponibili',
-            'curriculum.inDevelopment':'Programma in fase di sviluppo',
-            'curriculum.previewLessons':'Anteprima / apri lezioni →',
-            'curriculum.openLevel':'Apri livello →'
-          })
+          p=Path('src/locales/it.json'); data=json.loads(p.read_text())
+          data.update({'curriculum.trackLabel':'Percorso','curriculum.tab.overview':'Panoramica','curriculum.tab.lessons':'Lezioni','curriculum.tab.caseStudies':'Casi di studio','curriculum.tab.resources':'Risorse','curriculum.tab.flashcards':'Schede didattiche','curriculum.whatYouLearn.title':'Cosa imparerai','curriculum.whatYouLearn.body':'Sviluppa le tue conoscenze attraverso cinque livelli strutturati, quindi applicale a decisioni finanziarie sempre più realistiche. Il tuo abbonamento determina i livelli disponibili, mentre i livelli precedenti rimangono accessibili per il ripasso.','curriculum.realWorldFocus.title':'Applicazione nel mondo reale','curriculum.realWorldFocus.body':'Impara i concetti nel loro contesto e fai pratica applicandoli alle decisioni, senza promesse, previsioni o consulenza personalizzata sugli investimenti.','curriculum.lessonsCurrentlyAvailable':'{{count}} lezioni attualmente disponibili','curriculum.levelLabel':'Livello {{level}}','curriculum.level1.name':'Alfabetizzazione finanziaria','curriculum.level2.name':'Competenza finanziaria','curriculum.level3.name':'Ragionamento applicato','curriculum.level4.name':'Integrazione strategica','curriculum.level5.name':'Intelligenza finanziaria','curriculum.lessonsAvailable':'{{count}} lezioni disponibili','curriculum.inDevelopment':'Programma in fase di sviluppo','curriculum.previewLessons':'Anteprima / apri lezioni →','curriculum.openLevel':'Apri livello →'})
           p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-          t=Path('scripts/international/tests/curriculum-track-i18n.test.ts')
-          s=t.read_text()
-          marker='describe("curriculum track i18n coverage", () => {'
-          if marker not in s:
-              raise SystemExit('Expected curriculum i18n test suite not found')
-          insert='''\n  it("includes complete Italian curriculum track UI translations", () => {\n    const italian = JSON.parse(readFileSync(join(process.cwd(), "src/locales/it.json"), "utf8")) as Record<string, string>;\n    const required = [\n      "curriculum.trackLabel", "curriculum.tab.overview", "curriculum.tab.lessons",\n      "curriculum.tab.caseStudies", "curriculum.tab.resources", "curriculum.tab.flashcards",\n      "curriculum.whatYouLearn.title", "curriculum.whatYouLearn.body",\n      "curriculum.realWorldFocus.title", "curriculum.realWorldFocus.body",\n      "curriculum.lessonsCurrentlyAvailable", "curriculum.levelLabel",\n      "curriculum.level1.name", "curriculum.level2.name", "curriculum.level3.name",\n      "curriculum.level4.name", "curriculum.level5.name", "curriculum.lessonsAvailable",\n      "curriculum.inDevelopment", "curriculum.previewLessons", "curriculum.openLevel"\n    ];\n    for (const key of required) {\n      expect(italian[key], `missing Italian translation: ${key}`).toBeTruthy();\n      expect(italian[key]).not.toBe(key);\n    }\n  });\n'''
-          s=s.replace(marker,marker+insert,1)
+          t=Path('scripts/international/tests/curriculum-track-i18n.test.ts'); s=t.read_text()
+          anchor='const trackPage = readFileSync(join(ROOT, "src", "app", "(public)", "curriculum", "[track]", "page.tsx"), "utf8");'
+          if anchor not in s: raise SystemExit('TrackPage test anchor missing')
+          s=s.replace(anchor,anchor+'\nconst italian = JSON.parse(readFileSync(join(ROOT, "src", "locales", "it.json"), "utf8")) as Record<string, string>;',1)
+          s+='''\n\ntest("Italian curriculum track UI contains every key used by TrackPage", () => {\n  const required = ["curriculum.trackLabel","curriculum.tab.overview","curriculum.tab.lessons","curriculum.tab.caseStudies","curriculum.tab.resources","curriculum.tab.flashcards","curriculum.whatYouLearn.title","curriculum.whatYouLearn.body","curriculum.realWorldFocus.title","curriculum.realWorldFocus.body","curriculum.lessonsCurrentlyAvailable","curriculum.lessonsAvailable","curriculum.levelLabel","curriculum.level1.name","curriculum.level2.name","curriculum.level3.name","curriculum.level4.name","curriculum.level5.name","curriculum.previewLessons","curriculum.openLevel","curriculum.inDevelopment"];\n  const missing = required.filter((key) => !(key in italian) || !italian[key]);\n  assert.deepEqual(missing, [], `Missing Italian TrackPage keys: ${missing.join(", ")}`);\n  for (const key of required) assert.notEqual(italian[key], key, `${key} must be translated in Italian`);\n});\n'''
           t.write_text(s)
           PY
-      - name: Validate
+      - name: Validate end to end build
         run: |
           npm ci
           npm run typecheck
           npm test -- --runInBand
+          npm run build
       - name: Commit validated fix
         run: |
           git config user.name github-actions[bot]
