@@ -181,7 +181,7 @@ for (const path of walk(curriculumRoot).filter((candidate) => candidate.endsWith
   const relativePath = relative(root, path).replaceAll("\\", "/");
   const localizedMatch = relativePath.match(/\.([A-Za-z]{2}(?:-[A-Za-z0-9]+)?)\.md$/u);
   if (localizedMatch) {
-    const fm = Object.fromEntries([...raw.matchAll(/^([A-Za-z][A-Za-z0-9_-]*):\\s*["\']?(.+?)["\']?\\s*$/gmu)].map((m) => [m[1], m[2]]));
+    const fm = Object.fromEntries([...raw.matchAll(/^([A-Za-z][A-Za-z0-9_-]*):[ \t]*["\']?(.+?)["\']?[ \t]*$/gmu)].map((m) => [m[1], m[2]]));
     const body = raw.replace(/^---[\s\S]*?---\s*/u, "").trim();
     addTranslation({ id, rawLocale: fm.locale ?? localizedMatch[1], value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
     continue;
