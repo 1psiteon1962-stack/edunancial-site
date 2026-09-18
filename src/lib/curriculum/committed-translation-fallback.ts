@@ -75,6 +75,21 @@ function deterministicCandidates(lessonId: string, locale: string): string[] {
   return [...new Set(paths)];
 }
 
+function looksItalian(text: string | undefined): boolean {
+  if (!text) return false;
+  return /\b(che|gli|della|delle|degli|sono|come|perché|obiettivi|contenuto|esempio|risposte|chiave|imparare|lezione|questa|questo|quando|dove|anche|può|più)\b/iu.test(text);
+}
+
+function isCompleteLocaleTranslation(translation: PublishedLessonTranslation, locale: string): boolean {
+  const base = resolveCurriculumLocale(locale).split("-")[0]?.toLowerCase();
+  if (!translation.title?.trim() || !translation.body?.trim()) return false;
+  // Never allow a mixed/English body to override the canonical lesson merely because
+  // a translated heading exists. Italian committed lessons must contain substantive
+  // Italian body text; this also rejects PURPLE's historical partial files.
+  if (base === "it") return looksItalian(translation.body);
+  return true;
+}
+
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
@@ -84,7 +99,7 @@ export function getCommittedLessonTranslation(lessonId: string, languageOrLocale
       try {
         if (!existsSync(path)) continue;
         const translation = parseMarkdown(readFileSync(path, "utf8"), lessonId.trim().toUpperCase());
-        if (translation) return translation;
+        if (translation && isCompleteLocaleTranslation(translation, candidateLocale)) return translation;
       } catch {
         // A missing/unreadable optional translation must never crash a public Server Component.
         continue;
