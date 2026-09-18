@@ -59,8 +59,12 @@ function parseRecords(
     const hasSummary = typeof summary === "string" && summary.trim().length > 0;
     const hasBody = typeof bodyContent === "string" && bodyContent.trim().length > 0;
 
-    if (!hasTitle && !hasSummary && !hasBody) {
-      errors.push(`records[${index}] must include at least one non-empty title, summary, or body`);
+    // Curriculum translations are learner-facing lesson records, not metadata patches.
+    // Reject partial imports for every track/locale so a translated title/summary can
+    // never be reported as a translated lesson while the body silently falls back to English.
+    if (!hasTitle || !hasSummary || !hasBody) {
+      const missing = [!hasTitle ? "title" : null, !hasSummary ? "summary" : null, !hasBody ? "body" : null].filter(Boolean).join(", ");
+      errors.push(`records[${index}] must include a complete curriculum translation; missing: ${missing}`);
     }
     if (title !== undefined && typeof title !== "string") {
       errors.push(`records[${index}].title must be a string when provided`);
@@ -72,7 +76,7 @@ function parseRecords(
       errors.push(`records[${index}].body must be a string when provided`);
     }
 
-    if (lessonId && registeredLocale && registeredLocale.status === "active" && (hasTitle || hasSummary || hasBody)) {
+    if (lessonId && registeredLocale && registeredLocale.status === "active" && hasTitle && hasSummary && hasBody) {
       records.push({
         lessonId,
         locale: canonicalLocale,
