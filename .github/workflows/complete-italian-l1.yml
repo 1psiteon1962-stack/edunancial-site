@@ -1,11 +1,15 @@
 name: Complete Italian L1 translations
 on:
   workflow_dispatch:
+  push:
+    branches: [fix/italian-l1-400-complete]
+    paths: [.github/workflows/complete-italian-l1.yml]
 permissions:
   contents: write
   models: read
 jobs:
   translate:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
