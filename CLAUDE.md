@@ -24,3 +24,18 @@ Intentional removal/depublication is exceptional. It must be documented in `curr
 ### Before modifying curriculum loaders or publication state
 
 Verify that deleting or emptying the dynamic publication-state store does not make existing committed active curriculum disappear. Existing Git/registry curriculum must remain discoverable unless it has been explicitly unpublished through an approved destructive action.
+
+## Mandatory curriculum file naming standard
+
+All agents (Claude, ChatGPT, Copilot, humans, importers, and future automation) must use one canonical naming scheme for committed curriculum Markdown.
+
+- Canonical English lesson: `content/curriculum/<TRACK>/L<LEVEL>/<TRACK>-L<LEVEL>-<NNN>.md`
+- Localized lesson: `content/curriculum/<TRACK>/L<LEVEL>/<TRACK>-L<LEVEL>-<NNN>.<BCP47-LOCALE>.md`
+- Examples: `RED-L5-001.md`, `RED-L5-001.it-IT.md`, `WHITE-L1-023.fr-CA.md`, `BLUE-L2-010.pt-BR.md`.
+- TRACK is uppercase; LEVEL is 1-5; lesson number is three digits; locale uses canonical BCP 47 casing.
+- Do not add descriptive prefixes/suffixes, duplicate track/level names, upload timestamps, words such as `complete`/`final`/`translations`, or alternate underscore locale directories to canonical curriculum files.
+- Legacy files may remain for preservation, but all newly authored or normalized curriculum must use this scheme.
+- Import/export tooling must normalize incoming filenames to this canonical scheme before publication.
+- The permanent lesson ID inside metadata/content must exactly match the filename lesson ID.
+- RED and WHITE completed work is not to be renamed destructively merely to satisfy this convention; migrate only through a validated preservation-safe change.
+
