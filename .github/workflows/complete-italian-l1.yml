@@ -1,6 +1,9 @@
 name: Complete Italian L1 translations
 on:
   workflow_dispatch:
+  push:
+    branches: [fix/italian-l1-400-complete]
+    paths: [.github/workflows/complete-italian-l1.yml, scripts/international/italian-l1-trigger.txt]
 permissions:
   contents: write
   models: read
