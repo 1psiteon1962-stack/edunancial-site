@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 import type { PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
@@ -56,6 +56,21 @@ function deterministicCandidates(lessonId: string, locale: string): string[] {
       `${trackLower}-l${level}-${hyphen}-complete-${idLower}-${hyphen}.md`));
     paths.push(join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore,
       `${idLower}-${hyphen}.md`));
+    // Uploaded curriculum packages are not consistent about their filename prefix.
+    // WHITE uses e.g. white-l1-it-complete-white-l1-001-it.md while PURPLE uses
+    // purple-level-1-purple-l1-001-it.md. Search only the resolved locale directory
+    // and require the exact lesson id + locale suffix, so every track gets the same fallback.
+    const localeDir = join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore);
+    try {
+      for (const filename of readdirSync(localeDir)) {
+        const lower = filename.toLowerCase();
+        if (lower.endsWith(".md") && lower.includes(idLower) && lower.endsWith(`-${hyphen}.md`)) {
+          paths.push(join(localeDir, filename));
+        }
+      }
+    } catch {
+      // Optional historical locale directory may not exist.
+    }
   }
   return [...new Set(paths)];
 }
