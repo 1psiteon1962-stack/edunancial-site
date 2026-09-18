@@ -60,8 +60,13 @@ function deterministicCandidates(lessonId: string, locale: string): string[] {
     // WHITE uses e.g. white-l1-it-complete-white-l1-001-it.md while PURPLE uses
     // purple-level-1-purple-l1-001-it.md. Search only the resolved locale directory
     // and require the exact lesson id + locale suffix, so every track gets the same fallback.
-    const localeDir = join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore);
-    try {
+    const localeDirs = [
+      join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore),
+      join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, hyphen),
+      join(REPO_ROOT, "content", "curriculum", track, `L${level}`, underscore),
+      join(REPO_ROOT, "content", "curriculum", track, `L${level}`, hyphen),
+    ];
+    for (const localeDir of localeDirs) try {
       for (const filename of readdirSync(localeDir)) {
         const lower = filename.toLowerCase();
         if (lower.endsWith(".md") && lower.includes(idLower) && lower.endsWith(`-${hyphen}.md`)) {
