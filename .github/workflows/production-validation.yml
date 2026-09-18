@@ -41,5 +41,11 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Generate localization manifest
+        run: npm run curriculum:localization:global
+
+      - name: Enforce complete Level 1 localization
+        run: npm run curriculum:localization:l1-gate
+
       - name: Build
         run: npm run build
