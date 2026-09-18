@@ -39,3 +39,22 @@ All agents (Claude, ChatGPT, Copilot, humans, importers, and future automation) 
 - The permanent lesson ID inside metadata/content must exactly match the filename lesson ID.
 - RED and WHITE completed work is not to be renamed destructively merely to satisfy this convention; migrate only through a validated preservation-safe change.
 
+
+## Mandatory end-state execution protocol
+
+When instructed to execute, implement, fix, deploy, translate, merge, or otherwise complete an Edunancial task, the requested observable end state is the definition of DONE. Intermediate technical events are not completion.
+
+- Before making changes, determine the complete dependency chain from current state to requested production end state. Work backward from the production acceptance test.
+- Execute the full chain as applicable: diagnose -> modify -> generate/migrate -> validate data/content -> test -> build -> pull request -> merge -> deploy -> production verification.
+- A commit, pull request, passing check, merge, workflow run, or successful deployment is an intermediate event only.
+- Verify prerequisites and inputs before modifying or merging, including branch/ref targets, source data, generated outputs, audits, runtime loaders, and deployment targets when relevant.
+- Use evidence gates. Do not advance until expected artifacts exist and required audits pass.
+- When a resolvable step fails, diagnose, correct, rerun, and continue. Do not stop merely to report an intermediate failure.
+- Do not ask the owner to perform routine intermediate actions available tools can perform.
+- For user-facing changes, verify the same production behavior the learner/customer sees. Repository state, CI, and deployment success alone are insufficient.
+- Use negative testing where appropriate: look deliberately for leakage, stale content, partial translations, broken routes, missing data, and regressions.
+- Do not merge speculative fixes when the required underlying result can be validated pre-merge.
+- If intermediate status is requested, report it as status, not completion.
+- Escalate mid-chain only for owner authorization, credentials, irreversible business decisions, required human approval, or an inaccessible external system that genuinely prevents continuation.
+
+The task is DONE only when the requested observable end state has been validated. If production behavior does not satisfy the request, the task remains unfinished regardless of intermediate successes.
