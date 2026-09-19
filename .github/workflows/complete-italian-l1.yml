@@ -2,19 +2,21 @@ name: Complete unified L1 translations
 on:
   workflow_dispatch:
   push:
-    branches: [fix/execute-complete-l1-localization]
-    paths: [.github/workflows/complete-italian-l1.yml, scripts/international/generate-locale-l1.mjs]
+    branches: [fix/complete-l1-production-localization]
+    paths:
+      - .github/workflows/complete-italian-l1.yml
+      - scripts/international/generate-locale-l1.mjs
 permissions:
   contents: write
   models: read
 jobs:
   translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: fix/execute-complete-l1-localization
+          ref: fix/complete-l1-production-localization
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
@@ -33,4 +35,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content
           git diff --cached --quiet || git commit -m "Complete unified Level 1 translations"
-          git push origin HEAD:fix/execute-complete-l1-localization
+          git push origin HEAD:fix/complete-l1-production-localization
