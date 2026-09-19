@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 const requested=process.argv[2]||"all";
-const localeRegistry=JSON.parse(fs.readFileSync("content/registries/locales.json","utf8"));\nconst supported=localeRegistry.locales.filter(entry=>entry.status==="active"&&!["en-US","en-GB"].includes(entry.locale)).map(entry=>entry.locale);
+const localeRegistry=JSON.parse(fs.readFileSync("content/registries/locales.json","utf8"));
+const supported=localeRegistry.locales.filter(entry=>entry.status==="active"&&!["en-US","en-GB"].includes(entry.locale)).map(entry=>entry.locale);
 const locales=requested==="all"?supported:[requested];
 if(locales.some(locale=>!supported.includes(locale))) throw new Error(`Unsupported locale: ${requested}`);
 const root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
