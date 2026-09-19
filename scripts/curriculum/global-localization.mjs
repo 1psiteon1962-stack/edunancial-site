@@ -194,10 +194,29 @@ for (const path of walk(curriculumRoot).filter((candidate) => candidate.endsWith
   };
 }
 
-for (const path of walk(legacyRoot).filter((candidate) => candidate.endsWith(".json"))) {
-  const parsed = readJson(path);
-  if (parsed === null) continue;
-  extractTranslationRecords(parsed, path);
+for (const path of walk(legacyRoot)) {
+  if (path.endsWith(".json")) {
+    const parsed = readJson(path);
+    if (parsed !== null) extractTranslationRecords(parsed, path);
+    continue;
+  }
+  if (!path.endsWith(".md")) continue;
+  const raw = readFileSync(path, "utf8");
+  const id = lessonIdFrom(path) ?? lessonIdFrom(raw);
+  if (!id) continue;
+  const relativePath = relative(root, path).replaceAll("\\", "/");
+  const segments = relativePath.split("/");
+  const levelIndex = segments.findIndex((segment) => /^level-\d+$/iu.test(segment));
+  const directoryLocale = levelIndex >= 0 ? segments[levelIndex + 1] : null;
+  const filename = segments.at(-1) ?? "";
+  const filenameLower = filename.toLowerCase();
+  const knownTokens = [...knownLocales.keys()].sort((a, b) => b.length - a.length);
+  const filenameLocale = knownTokens.find((locale) => filenameLower.includes("-" + locale.toLowerCase() + "-") || filenameLower.endsWith("-" + locale.toLowerCase() + ".md"));
+  const rawLocale = directoryLocale && canonicalLocale(directoryLocale) ? directoryLocale : filenameLocale;
+  if (!rawLocale) continue;
+  const fm = Object.fromEntries(raw.split("\n").map((line) => line.match(/^([A-Za-z][A-Za-z0-9_-]*):[ \t]*(.*)$/u)).filter(Boolean).map((m) => [m[1], m[2].trim().replace(/^[\"']|[\"']$/g, "")]));
+  const body = raw.replace(/^---[\s\S]*?---\s*/u, "").trim();
+  addTranslation({ id, rawLocale: fm.locale ?? rawLocale, value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
 }
 
 for (const [id, lesson] of Object.entries(lessons)) {
