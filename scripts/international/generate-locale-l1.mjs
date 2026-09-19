@@ -5,7 +5,7 @@ const localeRegistry=JSON.parse(fs.readFileSync("content/registries/locales.json
 const supported=localeRegistry.locales.filter(entry=>entry.status==="active"&&!["en-US","en-GB"].includes(entry.locale)).map(entry=>entry.locale);
 const locales=requested==="all"?supported:[requested];
 if(locales.some(locale=>!supported.includes(locale))) throw new Error(`Unsupported locale: ${requested}`);
-const root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
+const apiKey=process.env.OPENAI_API_KEY?.trim();\nif(!apiKey) throw new Error("OPENAI_API_KEY is required for curriculum localization generation");\nconst model=process.env.EDUNANCIAL_TRANSLATION_MODEL?.trim()||"gpt-4.1-mini";\nconst root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
 const lessons=[];
 for(const track of Object.values(registry.tracks||{})) {
  const level=track.levels?.["1"]; if(!level) continue;
@@ -28,7 +28,7 @@ const outPath=(a,locale)=>path.join(root,"content","curriculum",a.track,"L1",`${
 async function translate(a,raw,locale){
  const p=parse(raw), sourceTitle=p.fm.title||a.title||a.id, sourceSummary=p.fm.summary||a.metadata?.summary||"";
  const prompt=`Translate this complete Edunancial financial-education lesson from English to natural professional ${locale}. Preserve ALL Markdown structure, headings, lists, examples, case studies, quiz questions, answer keys, warnings, factual qualifiers, numbers, formulas, URLs, and the author's meaning. Do not summarize, omit, add investment advice, or leave English instructional prose. Return ONLY valid JSON with keys title, summary, body. body must contain the full translated Markdown lesson body. Lesson ID: ${a.id}\nTITLE:\n${sourceTitle}\nSUMMARY:\n${sourceSummary}\nBODY:\n${p.body}`;
- const res=await fetch("https://models.github.ai/inference/chat/completions",{method:"POST",headers:{"Authorization":`Bearer ${process.env.GH_TOKEN}`,"Content-Type":"application/json"},body:JSON.stringify({model:"openai/gpt-4.1-mini",messages:[{role:"system",content:`You are a precise English-to-${locale} curriculum translator. Output JSON only.`},{role:"user",content:prompt}],temperature:0.1,response_format:{type:"json_object"}})});
+ const res=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Authorization":`Bearer ${apiKey}`,"Content-Type":"application/json"},body:JSON.stringify({model,messages:[{role:"system",content:`You are a precise English-to-${locale} curriculum translator. Output JSON only.`},{role:"user",content:prompt}],temperature:0.1,response_format:{type:"json_object"}})});
  if(!res.ok) throw new Error(`${a.id}: model API ${res.status} ${await res.text()}`);
  const j=await res.json(), text=j.choices?.[0]?.message?.content; if(!text) throw new Error(`${a.id}: empty model response`);
  const t=JSON.parse(text); if(!t.title||!t.body||!good(t.body,locale)) throw new Error(`${a.id}: translation quality gate failed`);
