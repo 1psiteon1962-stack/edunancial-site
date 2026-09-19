@@ -14,7 +14,16 @@ const wanted=new Set(["RED","WHITE","BLUE","GREEN","GOLD","PURPLE","ORANGE","BLA
 const selected=lessons.filter(a=>wanted.has(a.track)).sort((a,b)=>a.track.localeCompare(b.track)||a.lessonNumber-b.lessonNumber);
 if(selected.length!==400) throw new Error(`Expected 400 registry lessons, found ${selected.length}`);
 const parse=raw=>{const m=/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/u.exec(raw);let fm={},body=raw;if(m){body=m[2];for(const line of m[1].split(/\r?\n/u)){const i=line.indexOf(":");if(i>0)fm[line.slice(0,i).trim()]=line.slice(i+1).trim().replace(/^["']|["']$/g,"");}}return{fm,body:body.trim()}};
-const english=/\\b(the|and|this|that|with|from|your|lesson|learning|objectives|example|quiz|answer)\\b/gi;\nconst good=(s,locale)=>{if(!s||s.length<=200)return false;if(locale==="it"){const italian=/\\b(il|lo|la|gli|le|una|che|con|per|della|sono|come|questa|questo|obiettivi|esempio|risposte)\\b/gi;const it=(s.match(italian)||[]).length,en=(s.match(english)||[]).length;return it>=8&&it>=en*1.2;}return true;};
+const english=/\b(the|and|this|that|with|from|your|lesson|learning|objectives|example|quiz|answer)\b/gi;
+const good=(s,locale)=>{
+ if(!s||s.length<=200)return false;
+ if(locale==="it"){
+  const italian=/\b(il|lo|la|gli|le|una|che|con|per|della|sono|come|questa|questo|obiettivi|esempio|risposte)\b/gi;
+  const it=(s.match(italian)||[]).length,en=(s.match(english)||[]).length;
+  return it>=8&&it>=en*1.2;
+ }
+ return true;
+};
 const outPath=(a,locale)=>path.join(root,"content","curriculum",a.track,"L1",`${a.id}.${locale}.md`);
 async function translate(a,raw,locale){
  const p=parse(raw), sourceTitle=p.fm.title||a.title||a.id, sourceSummary=p.fm.summary||a.metadata?.summary||"";
