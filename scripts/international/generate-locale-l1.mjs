@@ -10,9 +10,8 @@ for(const track of Object.values(registry.tracks||{})) {
  const level=track.levels?.["1"]; if(!level) continue;
  for(const a of Object.values(level.assets||{})) if(a.type==="lesson"&&a.status==="active"&&a.lessonNumber>=1&&a.lessonNumber<=50) lessons.push(a);
 }
-const wanted=new Set(["RED","WHITE","BLUE","GREEN","GOLD","PURPLE","ORANGE","BLACK"]);
-const selected=lessons.filter(a=>wanted.has(a.track)).sort((a,b)=>a.track.localeCompare(b.track)||a.lessonNumber-b.lessonNumber);
-if(selected.length!==400) throw new Error(`Expected 400 registry lessons, found ${selected.length}`);
+const selected=lessons.sort((a,b)=>a.track.localeCompare(b.track)||a.lessonNumber-b.lessonNumber);
+if(selected.length===0) throw new Error("No active Level 1 lessons found in curriculum registry");
 const parse=raw=>{const m=/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/u.exec(raw);let fm={},body=raw;if(m){body=m[2];for(const line of m[1].split(/\r?\n/u)){const i=line.indexOf(":");if(i>0)fm[line.slice(0,i).trim()]=line.slice(i+1).trim().replace(/^["']|["']$/g,"");}}return{fm,body:body.trim()}};
 const english=/\b(the|and|this|that|with|from|your|lesson|learning|objectives|example|quiz|answer)\b/gi;
 const good=(s,locale)=>{
@@ -34,10 +33,19 @@ async function translate(a,raw,locale){
  const t=JSON.parse(text); if(!t.title||!t.body||!good(t.body,locale)) throw new Error(`${a.id}: translation quality gate failed`);
  return `---\nid: "${a.id}"\ntitle: "${String(t.title).replaceAll('"','\\\"')}"\nsummary: "${String(t.summary||"").replaceAll('"','\\\"')}"\nlocale: "${locale}"\n---\n\n${t.body.trim()}\n`;
 }
-for(const locale of locales) for(let i=0;i<selected.length;i++){
- const a=selected[i], dest=outPath(a,locale);
- if(fs.existsSync(dest)&&good(fs.readFileSync(dest,"utf8"),locale)) {console.log(`[${locale} ${i+1}/400] keep ${a.id}`);continue;}
- const raw=fs.readFileSync(path.join(root,a.path),"utf8");
- let last; for(let attempt=1;attempt<=4;attempt++){try{const txt=await translate(a,raw,locale);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,txt);last=null;break;}catch(e){last=e;console.error(`attempt ${attempt} ${e.message}`);await new Promise(r=>setTimeout(r,attempt*2500));}}
- if(last) throw last; console.log(`[${locale} ${i+1}/400] translated ${a.id}`);
+for(const locale of locales){
+ let cursor=0;
+ const workers=Array.from({length:Math.min(6,selected.length)},async()=>{
+  while(true){
+   const i=cursor++; if(i>=selected.length)return;
+   const a=selected[i], dest=outPath(a,locale);
+   if(fs.existsSync(dest)&&good(fs.readFileSync(dest,"utf8"),locale)){console.log(`[${locale} ${i+1}/${selected.length}] keep ${a.id}`);continue;}
+   const raw=fs.readFileSync(path.join(root,a.path),"utf8");
+   let last;
+   for(let attempt=1;attempt<=4;attempt++){try{const txt=await translate(a,raw,locale);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,txt);last=null;break;}catch(e){last=e;console.error(`attempt ${attempt} ${e.message}`);await new Promise(r=>setTimeout(r,attempt*2500));}}
+   if(last)throw last;
+   console.log(`[${locale} ${i+1}/${selected.length}] translated ${a.id}`);
+  }
+ });
+ await Promise.all(workers);
 }
