@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 import type { PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
@@ -38,46 +38,53 @@ function localeTokens(locale: string): string[] {
   return [...values].filter((value) => value !== "en" && value !== "en-US");
 }
 
-function deterministicCandidates(lessonId: string, locale: string): string[] {
-  const match = lessonId.toUpperCase().match(LESSON_ID);
-  if (!match) return [];
-  const [, track, level] = match;
-  const trackLower = track.toLowerCase();
-  const idLower = lessonId.toLowerCase();
-  const paths: string[] = [];
-  for (const token of localeTokens(locale)) {
-    const hyphen = token.toLowerCase();
-    const underscore = hyphen.replaceAll("-", "_");
-    // Preferred canonical layout. This is O(1) and works for newly imported translations.
-    paths.push(join(REPO_ROOT, "content", "curriculum", track, `L${level}`, `${lessonId}.${token}.md`));
-    paths.push(join(REPO_ROOT, "content", "curriculum", track, `L${level}`, `${lessonId}.${hyphen}.md`));
-    // Historical L1/L2/L3 packages use a deterministic directory/file convention.
-    paths.push(join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore,
-      `${trackLower}-l${level}-${hyphen}-complete-${idLower}-${hyphen}.md`));
-    paths.push(join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore,
-      `${idLower}-${hyphen}.md`));
-    // Uploaded curriculum packages are not consistent about their filename prefix.
-    // WHITE uses e.g. white-l1-it-complete-white-l1-001-it.md while PURPLE uses
-    // purple-level-1-purple-l1-001-it.md. Search only the resolved locale directory
-    // and require the exact lesson id + locale suffix, so every track gets the same fallback.
-    const localeDirs = [
-      join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, underscore),
-      join(REPO_ROOT, "content", "courses", trackLower, `level-${level}`, hyphen),
-      join(REPO_ROOT, "content", "curriculum", track, `L${level}`, underscore),
-      join(REPO_ROOT, "content", "curriculum", track, `L${level}`, hyphen),
-    ];
-    for (const localeDir of localeDirs) try {
-      for (const filename of readdirSync(localeDir)) {
-        const lower = filename.toLowerCase();
-        if (lower.endsWith(".md") && lower.includes(idLower) && lower.endsWith(`-${hyphen}.md`)) {
-          paths.push(join(localeDir, filename));
-        }
-      }
-    } catch {
-      // Optional historical locale directory may not exist.
+type TranslationEntry = { locale: string; translation: PublishedLessonTranslation };
+let committedIndex: Map<string, TranslationEntry[]> | null = null;
+
+function localeFromPath(path: string, lessonId: string): string | null {
+  const normalizedPath = path.replaceAll("\\", "/");
+  const filename = normalizedPath.split("/").pop() ?? "";
+  const escapedId = lessonId.replaceAll("-", "\\-");
+  const sidecar = filename.match(new RegExp(`${escapedId}\\.([A-Za-z]{2}(?:[-_][A-Za-z]{2})?)\\.md$`, "iu"));
+  if (sidecar?.[1]) return resolveCurriculumLocale(sidecar[1].replaceAll("_", "-"));
+  const segments = normalizedPath.split("/");
+  const levelIndex = segments.findIndex((segment) => /^level-\\d+$/iu.test(segment));
+  const directoryLocale = levelIndex >= 0 ? segments[levelIndex + 1] : undefined;
+  if (directoryLocale && /^[a-z]{2}(?:[-_][a-z]{2})?$/iu.test(directoryLocale)) {
+    return resolveCurriculumLocale(directoryLocale.replaceAll("_", "-"));
+  }
+  const lower = filename.toLowerCase();
+  const known = ["es-caribbean", "es-es", "fr-ca", "fr-fr", "pt-br", "pt-pt", "de", "it", "nl", "es", "fr", "pt"];
+  const token = known.find((candidate) => lower.includes(`-${candidate}-`) || lower.endsWith(`-${candidate}.md`));
+  return token ? resolveCurriculumLocale(token) : null;
+}
+
+function walk(root: string, files: string[] = []): string[] {
+  if (!existsSync(root)) return files;
+  for (const name of readdirSync(root)) {
+    const path = join(root, name);
+    if (statSync(path).isDirectory()) walk(path, files);
+    else if (name.toLowerCase().endsWith(".md")) files.push(path);
+  }
+  return files;
+}
+
+function buildIndex(): Map<string, TranslationEntry[]> {
+  const index = new Map<string, TranslationEntry[]>();
+  for (const root of [join(REPO_ROOT, "content", "curriculum"), join(REPO_ROOT, "content", "courses")]) {
+    for (const path of walk(root)) {
+      const lessonId = path.toUpperCase().match(/([A-Z]+-L\\d+-\\d{3})/u)?.[1];
+      if (!lessonId) continue;
+      const locale = localeFromPath(path, lessonId);
+      if (!locale || locale === "en" || locale === "en-US") continue;
+      const translation = parseMarkdown(readFileSync(path, "utf8"), lessonId);
+      if (!translation || !isCompleteLocaleTranslation(translation, locale)) continue;
+      const entries = index.get(lessonId) ?? [];
+      entries.push({ locale, translation });
+      index.set(lessonId, entries);
     }
   }
-  return [...new Set(paths)];
+  return index;
 }
 
 function looksItalian(text: string | undefined): boolean {
@@ -98,22 +105,21 @@ function isCompleteLocaleTranslation(translation: PublishedLessonTranslation, lo
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
+  committedIndex ??= buildIndex();
+  const entries = committedIndex.get(lessonId.trim().toUpperCase());
+  if (!entries?.length) return undefined;
   for (const candidateLocale of getCurriculumLocaleFallbackChain(requested)) {
     if (candidateLocale === "en" || candidateLocale === "en-US") break;
-    for (const path of deterministicCandidates(lessonId.trim().toUpperCase(), candidateLocale)) {
-      try {
-        if (!existsSync(path)) continue;
-        const translation = parseMarkdown(readFileSync(path, "utf8"), lessonId.trim().toUpperCase());
-        if (translation && isCompleteLocaleTranslation(translation, candidateLocale)) return translation;
-      } catch {
-        // A missing/unreadable optional translation must never crash a public Server Component.
-        continue;
-      }
-    }
+    const normalized = resolveCurriculumLocale(candidateLocale);
+    const exact = entries.find((entry) => entry.locale === normalized);
+    if (exact) return exact.translation;
+    const base = normalized.split("-")[0];
+    const sameBase = entries.find((entry) => entry.locale.split("-")[0] === base);
+    if (sameBase) return sameBase.translation;
   }
   return undefined;
 }
 
 export function resetCommittedTranslationIndexForTests(): void {
-  // Kept for API compatibility. Deterministic lookup has no process-wide mutable index.
+  committedIndex = null;
 }
