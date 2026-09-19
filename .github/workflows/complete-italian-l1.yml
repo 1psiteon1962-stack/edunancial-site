@@ -20,6 +20,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Require translation provider credential
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY repository/environment secret is required."
+            exit 78
+          fi
       - name: Generate complete Level 1 assets
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
