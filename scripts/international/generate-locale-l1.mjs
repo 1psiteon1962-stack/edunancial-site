@@ -1,7 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
-const locale=process.argv[2]||"it";
-if(locale!=="it") throw new Error("This execution targets Italian; generator architecture remains locale-parameterized.");
+const requested=process.argv[2]||"all";
+const supported=["es-Caribbean","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl"];
+const locales=requested==="all"?supported:[requested];
+if(locales.some(locale=>!supported.includes(locale))) throw new Error(`Unsupported locale: ${requested}`);
 const root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
 const lessons=[];
 for(const track of Object.values(registry.tracks||{})) {
@@ -12,23 +14,21 @@ const wanted=new Set(["RED","WHITE","BLUE","GREEN","GOLD","PURPLE","ORANGE","BLA
 const selected=lessons.filter(a=>wanted.has(a.track)).sort((a,b)=>a.track.localeCompare(b.track)||a.lessonNumber-b.lessonNumber);
 if(selected.length!==400) throw new Error(`Expected 400 registry lessons, found ${selected.length}`);
 const parse=raw=>{const m=/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/u.exec(raw);let fm={},body=raw;if(m){body=m[2];for(const line of m[1].split(/\r?\n/u)){const i=line.indexOf(":");if(i>0)fm[line.slice(0,i).trim()]=line.slice(i+1).trim().replace(/^["']|["']$/g,"");}}return{fm,body:body.trim()}};
-const italian=/\b(il|lo|la|gli|le|una|che|con|per|della|sono|come|questa|questo|obiettivi|esempio|risposte)\b/gi;
-const english=/\b(the|and|this|that|with|from|your|lesson|learning|objectives|example|quiz|answer)\b/gi;
-const good=s=>{const it=(s.match(italian)||[]).length,en=(s.match(english)||[]).length;return s.length>200&&it>=8&&it>=en*1.2};
-const outPath=a=>{const cp=path.join(root,a.path);const dir=path.dirname(cp),dn=path.basename(dir).toLowerCase();const level=/^(en|en[_-][a-z]{2})$/u.test(dn)?path.dirname(dir):dir;return path.join(level,locale,`${a.id.toLowerCase()}-${locale}.md`)};
-async function translate(a,raw){
+const english=/\\b(the|and|this|that|with|from|your|lesson|learning|objectives|example|quiz|answer)\\b/gi;\nconst good=(s,locale)=>{if(!s||s.length<=200)return false;if(locale==="it"){const italian=/\\b(il|lo|la|gli|le|una|che|con|per|della|sono|come|questa|questo|obiettivi|esempio|risposte)\\b/gi;const it=(s.match(italian)||[]).length,en=(s.match(english)||[]).length;return it>=8&&it>=en*1.2;}return true;};
+const outPath=(a,locale)=>path.join(root,"content","curriculum",a.track,"L1",`${a.id}.${locale}.md`);
+async function translate(a,raw,locale){
  const p=parse(raw), sourceTitle=p.fm.title||a.title||a.id, sourceSummary=p.fm.summary||a.metadata?.summary||"";
- const prompt=`Translate this complete Edunancial financial-education lesson from English to natural professional Italian. Preserve ALL Markdown structure, headings, lists, examples, case studies, quiz questions, answer keys, warnings, factual qualifiers, numbers, formulas, URLs, and the author's meaning. Do not summarize, omit, add investment advice, or leave English instructional prose. Return ONLY valid JSON with keys title, summary, body. body must contain the full translated Markdown lesson body. Lesson ID: ${a.id}\nTITLE:\n${sourceTitle}\nSUMMARY:\n${sourceSummary}\nBODY:\n${p.body}`;
- const res=await fetch("https://models.github.ai/inference/chat/completions",{method:"POST",headers:{"Authorization":`Bearer ${process.env.GH_TOKEN}`,"Content-Type":"application/json"},body:JSON.stringify({model:"openai/gpt-4.1-mini",messages:[{role:"system",content:"You are a precise English-to-Italian curriculum translator. Output JSON only."},{role:"user",content:prompt}],temperature:0.1,response_format:{type:"json_object"}})});
+ const prompt=`Translate this complete Edunancial financial-education lesson from English to natural professional ${locale}. Preserve ALL Markdown structure, headings, lists, examples, case studies, quiz questions, answer keys, warnings, factual qualifiers, numbers, formulas, URLs, and the author's meaning. Do not summarize, omit, add investment advice, or leave English instructional prose. Return ONLY valid JSON with keys title, summary, body. body must contain the full translated Markdown lesson body. Lesson ID: ${a.id}\nTITLE:\n${sourceTitle}\nSUMMARY:\n${sourceSummary}\nBODY:\n${p.body}`;
+ const res=await fetch("https://models.github.ai/inference/chat/completions",{method:"POST",headers:{"Authorization":`Bearer ${process.env.GH_TOKEN}`,"Content-Type":"application/json"},body:JSON.stringify({model:"openai/gpt-4.1-mini",messages:[{role:"system",content:`You are a precise English-to-${locale} curriculum translator. Output JSON only.`},{role:"user",content:prompt}],temperature:0.1,response_format:{type:"json_object"}})});
  if(!res.ok) throw new Error(`${a.id}: model API ${res.status} ${await res.text()}`);
  const j=await res.json(), text=j.choices?.[0]?.message?.content; if(!text) throw new Error(`${a.id}: empty model response`);
- const t=JSON.parse(text); if(!t.title||!t.body||!good(t.body)) throw new Error(`${a.id}: translation quality gate failed`);
+ const t=JSON.parse(text); if(!t.title||!t.body||!good(t.body,locale)) throw new Error(`${a.id}: translation quality gate failed`);
  return `---\nid: "${a.id}"\ntitle: "${String(t.title).replaceAll('"','\\\"')}"\nsummary: "${String(t.summary||"").replaceAll('"','\\\"')}"\nlocale: "${locale}"\n---\n\n${t.body.trim()}\n`;
 }
-for(let i=0;i<selected.length;i++){
- const a=selected[i], dest=outPath(a);
- if(fs.existsSync(dest)&&good(fs.readFileSync(dest,"utf8"))) {console.log(`[${i+1}/400] keep ${a.id}`);continue;}
+for(const locale of locales) for(let i=0;i<selected.length;i++){
+ const a=selected[i], dest=outPath(a,locale);
+ if(fs.existsSync(dest)&&good(fs.readFileSync(dest,"utf8"),locale)) {console.log(`[${locale} ${i+1}/400] keep ${a.id}`);continue;}
  const raw=fs.readFileSync(path.join(root,a.path),"utf8");
- let last; for(let attempt=1;attempt<=4;attempt++){try{const txt=await translate(a,raw);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,txt);last=null;break;}catch(e){last=e;console.error(`attempt ${attempt} ${e.message}`);await new Promise(r=>setTimeout(r,attempt*2500));}}
- if(last) throw last; console.log(`[${i+1}/400] translated ${a.id}`);
+ let last; for(let attempt=1;attempt<=4;attempt++){try{const txt=await translate(a,raw,locale);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,txt);last=null;break;}catch(e){last=e;console.error(`attempt ${attempt} ${e.message}`);await new Promise(r=>setTimeout(r,attempt*2500));}}
+ if(last) throw last; console.log(`[${locale} ${i+1}/400] translated ${a.id}`);
 }
