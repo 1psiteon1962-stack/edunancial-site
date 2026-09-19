@@ -1,9 +1,9 @@
-name: Complete Italian L1 translations
+name: Complete unified L1 translations
 on:
   workflow_dispatch:
   push:
-    branches: [fix/italian-l1-main-execution]
-    paths: [.github/workflows/complete-italian-l1.yml, scripts/international/italian-l1-main-trigger.txt]
+    branches: [fix/run-unified-l1-generation]
+    paths: [.github/workflows/complete-italian-l1.yml]
 permissions:
   contents: write
   models: read
@@ -14,21 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: fix/italian-l1-main-execution
+          ref: fix/run-unified-l1-generation
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Generate complete Italian Level 1 assets
+      - name: Generate complete Level 1 assets
         env:
           GH_TOKEN: ${{ github.token }}
-        run: node scripts/international/generate-locale-l1.mjs it
-      - name: Audit 400 lessons
-        run: node scripts/international/italian-l1-400-audit.mjs
+        run: node scripts/international/generate-locale-l1.mjs all
+      - name: Generate localization manifest
+        run: npm run curriculum:localization:global
+      - name: Enforce complete Level 1 localization
+        run: npm run curriculum:localization:l1-gate
       - name: Commit generated translations
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content italian-l1-400-audit.json
-          git diff --cached --quiet || git commit -m "Complete Italian Level 1 translations"
-          git push origin HEAD:fix/italian-l1-main-execution
+          git add content
+          git diff --cached --quiet || git commit -m "Complete unified Level 1 translations"
+          git push origin HEAD:fix/run-unified-l1-generation
