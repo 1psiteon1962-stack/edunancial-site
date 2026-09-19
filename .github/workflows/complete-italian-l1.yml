@@ -8,7 +8,6 @@ on:
       - scripts/international/generate-locale-l1.mjs
 permissions:
   contents: write
-  models: read
 jobs:
   translate:
     runs-on: ubuntu-latest
@@ -23,7 +22,8 @@ jobs:
           node-version: 20
       - name: Generate complete Level 1 assets
         env:
-          GH_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
         run: node scripts/international/generate-locale-l1.mjs all
       - name: Generate localization manifest
         run: npm run curriculum:localization:global
