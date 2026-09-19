@@ -5,7 +5,10 @@ const localeRegistry=JSON.parse(fs.readFileSync("content/registries/locales.json
 const supported=localeRegistry.locales.filter(entry=>entry.status==="active"&&!["en-US","en-GB"].includes(entry.locale)).map(entry=>entry.locale);
 const locales=requested==="all"?supported:[requested];
 if(locales.some(locale=>!supported.includes(locale))) throw new Error(`Unsupported locale: ${requested}`);
-const apiKey=process.env.OPENAI_API_KEY?.trim();\nif(!apiKey) throw new Error("OPENAI_API_KEY is required for curriculum localization generation");\nconst model=process.env.EDUNANCIAL_TRANSLATION_MODEL?.trim()||"gpt-4.1-mini";\nconst root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
+const apiKey=process.env.OPENAI_API_KEY?.trim();
+if(!apiKey) throw new Error("OPENAI_API_KEY is required for curriculum localization generation");
+const model=process.env.EDUNANCIAL_TRANSLATION_MODEL?.trim()||"gpt-4.1-mini";
+const root=process.cwd(), registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
 const lessons=[];
 for(const track of Object.values(registry.tracks||{})) {
  const level=track.levels?.["1"]; if(!level) continue;
