@@ -39,7 +39,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validate translator script on pull requests
+        if: github.event_name == 'pull_request'
+        run: node --check scripts/international/generate-locale-l1.mjs
       - name: Require translation provider credential
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
@@ -48,6 +52,7 @@ jobs:
             exit 78
           fi
       - name: Verify funded OpenAI organization and usable API credit
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
@@ -76,6 +81,7 @@ jobs:
           console.log("OpenAI funded-organization preflight passed.");
           NODE
       - name: Generate Level 1 localization
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
@@ -112,11 +118,13 @@ jobs:
           console.log(`Verified generated localization: ${p}`);
           NODE
       - name: Generate localization manifest
+        if: github.event_name == 'workflow_dispatch'
         run: npm run curriculum:localization:global
       - name: Enforce complete Level 1 localization
-        if: github.event_name != 'workflow_dispatch' || inputs.track == '' || inputs.lesson == ''
+        if: github.event_name == 'workflow_dispatch' && (inputs.track == '' || inputs.lesson == '')
         run: npm run curriculum:localization:l1-gate
       - name: Commit generated translations
+        if: github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
