@@ -1,4 +1,18 @@
----\nid: WHITE-L1-049\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 49\nlocale: nl\ntitle: "WHITE-L1-049"\nsummary: "WHITE-L1-049"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-049: Een Langetermijnbeleggingsplan Opstellen
+---
+id: WHITE-L1-049
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 49
+locale: nl
+title: "WHITE-L1-049"
+summary: "WHITE-L1-049"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-049: Een Langetermijnbeleggingsplan Opstellen
 
 ## Leerdoelen
 1. De fundamentele onderdelen van een basisbeleggingsplan identificeren.
