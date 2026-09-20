@@ -1,4 +1,4 @@
-# WHITE-L1-008: Dividend — Betaald Worden Omdat U Eigenaar Bent
+---\nid: WHITE-L1-008\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 8\nlocale: nl\ntitle: "WHITE-L1-008"\nsummary: "WHITE-L1-008"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-008: Dividend — Betaald Worden Omdat U Eigenaar Bent
 
 ## Leerdoelen
 1. Een dividend definiëren.
