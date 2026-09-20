@@ -94,3 +94,14 @@ test("localized course map is locale-aware with RED, WHITE, and BLUE published l
   assert.equal(spanish.white.lessons.length, 50);
   assert.equal(spanish.blue.lessons.length, 100);
 });
+
+
+test("Level 1 reader uses complete committed Italian localization before canonical English fallback", () => {
+  const purple = getLessonContent("PURPLE-L1-001", "it");
+  assert.ok(purple);
+  assert.equal(purple?.localization.translated, true);
+  assert.equal(purple?.localization.resolvedLocale, "it");
+  assert.match(purple?.meta.title ?? "", /legge|diritto/iu);
+  assert.match(purple?.body ?? "", /Obiettivi di apprendimento/iu);
+  assert.doesNotMatch(purple?.body ?? "", /## Learning Objectives/iu);
+});
