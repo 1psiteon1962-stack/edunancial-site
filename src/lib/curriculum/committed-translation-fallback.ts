@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import type { PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
 import { getCurriculumLocaleFallbackChain, resolveCurriculumLocale } from "@/lib/curriculum/localization";
+import { curriculumRuntimeMarkdown } from "@/generated/curriculum-runtime-manifest";
 
 const REPO_ROOT = process.cwd();
 const LESSON_ID = /^([A-Z]+)-L(\d+)-(\d{3})$/u;
@@ -51,6 +52,28 @@ function localeTokens(locale: string): string[] {
 
 type TranslationEntry = { locale: string; translation: PublishedLessonTranslation };
 let committedIndex: Map<string, TranslationEntry[]> | null = null;
+
+function bundledTranslationLookup(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
+  const requested = resolveCurriculumLocale(languageOrLocale);
+  const idNeedle = lessonId.trim().toLowerCase();
+  for (const candidateLocale of getCurriculumLocaleFallbackChain(requested)) {
+    const normalized = resolveCurriculumLocale(candidateLocale);
+    if (normalized === "en" || normalized === "en-US") break;
+    const tokens = localeTokens(normalized).map((token) => token.toLowerCase().replaceAll("_", "-"));
+    for (const record of curriculumRuntimeMarkdown) {
+      const recordPath = record.path.toLowerCase().replaceAll("_", "-");
+      if (!recordPath.includes(idNeedle) || !tokens.some((token) =>
+        recordPath.includes(`/${token}/`) ||
+        recordPath.endsWith(`.${token}.md`) ||
+        recordPath.endsWith(`-${token}.md`) ||
+        recordPath.includes(`-${token}-`)
+      )) continue;
+      const translation = parseMarkdown(record.content, lessonId.trim().toUpperCase());
+      if (translation && isCompleteLocaleTranslation(translation, normalized)) return translation;
+    }
+  }
+  return undefined;
+}
 
 function localeFromPath(path: string, lessonId: string): string | null {
   const normalizedPath = path.replaceAll("\\", "/");
@@ -151,6 +174,8 @@ function isCompleteLocaleTranslation(translation: PublishedLessonTranslation, lo
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
+  const bundled = bundledTranslationLookup(lessonId, requested);
+  if (bundled) return bundled;
   const direct = directTranslationLookup(lessonId, requested);
   if (direct) return direct;
   committedIndex ??= buildIndex();
