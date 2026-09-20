@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-001
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 1
+locale: it
+title: "Cosa Sono gli Attivi di Carta?"
+summary: "Le categorie comuni includono le azioni (capitale proprio), le obbligazioni (reddito fisso), e gli investimenti collettivi (fondi comuni di investimento, ETF) — ciascuna rappresenta un modo diverso di ottenere esposizione finanziaria senza possedere direttamente un attivo fisico."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-001: Cosa Sono gli Attivi di Carta?
 
 ## Obiettivi di Apprendimento

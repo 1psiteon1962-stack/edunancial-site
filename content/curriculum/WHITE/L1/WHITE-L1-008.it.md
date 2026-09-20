@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-008
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 8
+locale: it
+title: "Dividendi — Essere Pagati per Essere Proprietari"
+summary: "*FATTO VERIFICATO:* Rendimento da Dividendo = Dividendo Annuale Per Azione ÷ Prezzo dell'Azione, espresso in percentuale, mostrando il reddito da dividendi rispetto al costo dell'investimento."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-008: Dividendi — Essere Pagati per Essere Proprietari
 
 ## Obiettivi di Apprendimento

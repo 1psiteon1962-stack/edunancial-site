@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-004
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 4
+locale: it
+title: "I Fondi Comuni di Investimento Spiegati"
+summary: "Le quote dei fondi comuni di investimento vengono valutate una volta al giorno in base al **valore patrimoniale netto (VPN)** del fondo — il valore totale delle attività del fondo diviso per il numero di quote in circolazione — a differenza delle azioni individuali, che vengono negoziate continuamente durante il giorno."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-004: I Fondi Comuni di Investimento Spiegati
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-006
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 6
+locale: it
+title: "Cos'è un Conto Titoli?"
+summary: "I tipi comuni di conto includono conti individuali (un unico titolare), conti congiunti (più titolari), e conti pensionistici con vantaggi fiscali (come un 401(k) o un IRA, trattati nelle lezioni successive), ciascuno con un trattamento fiscale e regole diverse."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-006: Cos'è un Conto Titoli?
 
 ## Obiettivi di Apprendimento

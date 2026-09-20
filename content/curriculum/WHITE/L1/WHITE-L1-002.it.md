@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-002
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 2
+locale: it
+title: "Azioni — Essere Proprietari di Una Parte di un'Azienda"
+summary: "Possedere azioni può generare un rendimento in due modi: la **rivalutazione del prezzo** (il prezzo dell'azione sale) e i **dividendi** (una parte dei profitti distribuita agli azionisti, quando un'azienda decide di pagarli)."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-002: Azioni — Essere Proprietari di Una Parte di un'Azienda
 
 ## Obiettivi di Apprendimento

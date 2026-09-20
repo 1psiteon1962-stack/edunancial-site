@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-003
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 3
+locale: it
+title: "Obbligazioni — Prestare i Tuoi Soldi in Cambio di Interessi"
+summary: "*FATTO VERIFICATO:* I prezzi delle obbligazioni e i tassi di interesse si muovono generalmente in modo inverso — quando i tassi di interesse di mercato salgono, i prezzi delle obbligazioni esistenti tendono a scendere, e viceversa, perché le obbligazioni più recenti offrono tassi più competitivi."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-003: Obbligazioni — Prestare i Tuoi Soldi in Cambio di Interessi
 
 ## Obiettivi di Apprendimento

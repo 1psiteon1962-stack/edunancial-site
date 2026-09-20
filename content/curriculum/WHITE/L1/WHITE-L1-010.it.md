@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-010
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 10
+locale: it
+title: "Rischio e Rendimento — La Relazione Base"
+summary: "*ASSUNZIONE:* Il livello di rischio appropriato per un investitore dipende da fattori come l'orizzonte temporale, gli obiettivi finanziari, e la tolleranza personale al rischio — non esiste un unico livello di rischio \"corretto\" per tutti."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-010: Rischio e Rendimento — La Relazione Base
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-005
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 5
+locale: it
+title: "ETF vs. Fondi Comuni di Investimento"
+summary: "*STIMA:* Gli ETF hanno comunemente (anche se non universalmente) rapporti di spesa più bassi rispetto ai fondi comuni di investimento gestiti attivamente, poiché molti ETF seguono passivamente un indice invece di impiegare una selezione attiva di azioni."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-005: ETF vs. Fondi Comuni di Investimento
 
 ## Obiettivi di Apprendimento

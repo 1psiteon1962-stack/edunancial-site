@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-009
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 9
+locale: it
+title: "Plusvalenze vs. Minusvalenze"
+summary: "*REGOLA SPECIFICA DELLA REGIONE:* Il trattamento fiscale delle plusvalenze (aliquote, requisiti di periodo di detenzione) varia significativamente a seconda del paese e persino a seconda di quanto tempo un attivo è stato detenuto — verifica sempre le regole fiscali locali vigenti."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-009: Plusvalenze vs. Minusvalenze
 
 ## Obiettivi di Apprendimento

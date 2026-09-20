@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-007
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 7
+locale: it
+title: "Ordini a Mercato vs. Ordini con Limite"
+summary: "Lezione WHITE-L1-007 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-007: Ordini a Mercato vs. Ordini con Limite
 
 ## Obiettivi di Apprendimento
