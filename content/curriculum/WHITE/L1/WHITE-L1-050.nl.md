@@ -1,4 +1,4 @@
-# WHITE-L1-050: Veelvoorkomende Beleggingsfouten voor Beginners
+---\nid: WHITE-L1-050\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 50\nlocale: nl\ntitle: "WHITE-L1-050"\nsummary: "WHITE-L1-050"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-050: Veelvoorkomende Beleggingsfouten voor Beginners
 
 ## Leerdoelen
 1. Vaak genoemde beleggingsfouten van beginners identificeren.
