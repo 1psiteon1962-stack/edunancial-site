@@ -1,4 +1,4 @@
-# WHITE-L1-033: Wat Is Een Aandelensplitsing?
+---\nid: WHITE-L1-033\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 33\nlocale: nl\ntitle: "WHITE-L1-033"\nsummary: "WHITE-L1-033"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-033: Wat Is Een Aandelensplitsing?
 
 ## Leerdoelen
 1. Een aandelensplitsing definiëren.
