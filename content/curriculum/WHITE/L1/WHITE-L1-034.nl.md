@@ -1,4 +1,4 @@
-# WHITE-L1-034: Preferente Aandelen vs. Gewone Aandelen
+---\nid: WHITE-L1-034\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 34\nlocale: nl\ntitle: "WHITE-L1-034"\nsummary: "WHITE-L1-034"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-034: Preferente Aandelen vs. Gewone Aandelen
 
 ## Leerdoelen
 1. Preferente aandelen onderscheiden van gewone aandelen.
