@@ -1,4 +1,4 @@
-# WHITE-L1-019: Wat Is Een 401(k)?
+---\nid: WHITE-L1-019\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 19\nlocale: nl\ntitle: "WHITE-L1-019"\nsummary: "WHITE-L1-019"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-019: Wat Is Een 401(k)?
 
 ## Leerdoelen
 1. Een 401(k) in algemene bewoordingen definiëren.
