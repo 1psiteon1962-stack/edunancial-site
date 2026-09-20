@@ -1,0 +1,107 @@
+name: One-time L1 Italian canary
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/one-time-l1-canary.yml
+permissions:
+  contents: write
+jobs:
+  canary:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENAI_ORGANIZATION: ${{ vars.OPENAI_ORGANIZATION }}
+      EDUNANCIAL_TRANSLATION_TRACK: PURPLE
+      EDUNANCIAL_TRANSLATION_LESSON: "1"
+      EDUNANCIAL_TRANSLATION_FORCE: "1"
+      EDUNANCIAL_TRANSLATION_LOCALE: it
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: npm ci
+      - name: Require translation provider credential
+        id: translation_provider
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::notice::Skipping one-time Italian canary because OPENAI_API_KEY repository secret is not configured."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "available=true" >> "$GITHUB_OUTPUT"
+      - name: Snapshot baseline curriculum inventory
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:inventory
+          cp curriculum/inventory.json /tmp/curriculum-inventory-before.json
+          git checkout -- curriculum/inventory.json
+      - name: Generate PURPLE L1 lesson 1 in Italian
+        if: steps.translation_provider.outputs.available == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
+        run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
+      - name: Verify generated lesson
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          test -s content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
+          grep -q 'id: "PURPLE-L1-001"' content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
+          grep -q 'locale: "it"' content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
+      - name: Regenerate localization manifest
+        if: steps.translation_provider.outputs.available == 'true'
+        run: npm run curriculum:localization:global
+      - name: Run curriculum integrity validation
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:test
+          npm run curriculum:validate
+      - name: Verify curriculum inventory preserved
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:inventory
+          cp curriculum/inventory.json /tmp/curriculum-inventory-after.json
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const before = JSON.parse(fs.readFileSync('/tmp/curriculum-inventory-before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('/tmp/curriculum-inventory-after.json', 'utf8'));
+          const beforeAssets = new Map(before.assets.map((asset) => [asset.id, new Set((asset.localizations || []).map((entry) => `${entry.locale}:${entry.source}:${entry.path}`))]));
+          const afterAssets = new Map(after.assets.map((asset) => [asset.id, new Set((asset.localizations || []).map((entry) => `${entry.locale}:${entry.source}:${entry.path}`))]));
+          const missingAssets = [];
+          const missingLocalizations = [];
+          for (const [assetId, localizations] of beforeAssets.entries()) {
+            const current = afterAssets.get(assetId);
+            if (!current) {
+              missingAssets.push(assetId);
+              continue;
+            }
+            for (const key of localizations) {
+              if (!current.has(key)) missingLocalizations.push(`${assetId} ${key}`);
+            }
+          }
+          if (missingAssets.length || missingLocalizations.length || after.summary.totalLessons !== before.summary.totalLessons || after.summary.localizedVariants < before.summary.localizedVariants) {
+            if (missingAssets.length) console.error(`Missing lesson IDs: ${missingAssets.join(', ')}`);
+            if (missingLocalizations.length) console.error(`Missing localization variants: ${missingLocalizations.join(', ')}`);
+            if (after.summary.totalLessons !== before.summary.totalLessons) console.error(`Lesson count changed from ${before.summary.totalLessons} to ${after.summary.totalLessons}`);
+            if (after.summary.localizedVariants < before.summary.localizedVariants) console.error(`Localization count regressed from ${before.summary.localizedVariants} to ${after.summary.localizedVariants}`);
+            process.exit(1);
+          }
+          console.log('Curriculum inventory preserved.');
+          NODE
+          git checkout -- curriculum/inventory.json
+      - name: Commit generated Italian canary
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.json curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.md
+          git diff --cached --quiet || git commit -m "Generate PURPLE L1 lesson 1 Italian canary"
+          git push origin HEAD:main
