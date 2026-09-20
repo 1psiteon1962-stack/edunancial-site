@@ -1,4 +1,18 @@
----\nid: WHITE-L1-022\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 22\nlocale: nl\ntitle: "WHITE-L1-022"\nsummary: "WHITE-L1-022"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-022: De Werkgeversbijdrage Uitgelegd
+---
+id: WHITE-L1-022
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 22
+locale: nl
+title: "WHITE-L1-022"
+summary: "WHITE-L1-022"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-022: De Werkgeversbijdrage Uitgelegd
 
 ## Leerdoelen
 1. De werkgeversbijdrage (matching) definiëren in de context van een pensioenregeling.
