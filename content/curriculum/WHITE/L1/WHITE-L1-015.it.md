@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-015
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 15
+locale: it
+title: "L'Interesse Composto e la Crescita"
+summary: "*ASSUNZIONE:* Poiché l'interesse composto si costruisce su se stesso, iniziare prima ha generalmente un impatto sproporzionatamente grande a lungo termine rispetto a contribuire di più in seguito — anche se i risultati reali dipendono dai tassi di rendimento presunti, che non sono mai garantiti."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-015: L'Interesse Composto e la Crescita
 
 ## Obiettivi di Apprendimento

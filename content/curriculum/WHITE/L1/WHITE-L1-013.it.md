@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-013
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 13
+locale: it
+title: "Indici di Borsa (S&P 500 e Altri)"
+summary: "*REGOLA SPECIFICA DELLA REGIONE:* Altri indici importanti seguono mercati o segmenti diversi (per esempio, paesi o dimensioni aziendali diverse) — quale indice è più rilevante dipende da quale segmento di mercato interessa a un investitore."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-013: Indici di Borsa (S&P 500 e Altri)
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-017
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 17
+locale: it
+title: "Azioni Individuali vs. Fondi Indicizzati"
+summary: "*OPINIONE:* Molti educatori finanziari suggeriscono comunemente i fondi indicizzati come un punto di partenza ragionevole per i principianti, data la loro diversificazione incorporata e il minor onere di ricerca — anche se questa è una linea guida generale, non un consiglio personalizzato, e scegliere azioni individuali rimane una strategia valida per investitori informati."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-017: Azioni Individuali vs. Fondi Indicizzati
 
 ## Obiettivi di Apprendimento

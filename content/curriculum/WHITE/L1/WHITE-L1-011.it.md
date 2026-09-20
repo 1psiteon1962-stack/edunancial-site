@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-011
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 11
+locale: it
+title: "Diversificazione — Non Mettere Tutte le Uova nello Stesso Paniere"
+summary: "Lezione WHITE-L1-011 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-011: Diversificazione — Non Mettere Tutte le Uova nello Stesso Paniere
 
 ## Obiettivi di Apprendimento

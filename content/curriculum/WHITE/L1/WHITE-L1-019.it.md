@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-019
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 19
+locale: it
+title: "Cos'è un 401(k)?"
+summary: "*FATTO VERIFICATO:* Un 401(k) permette ai dipendenti di contribuire con una parte del proprio stipendio a un conto di investimento destinato alla pensione, spesso con contributi al lordo delle imposte (riducendo il reddito imponibile attuale) e crescita con imposta differita fino al prelievo in pensione."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-019: Cos'è un 401(k)?
 
 ## Obiettivi di Apprendimento

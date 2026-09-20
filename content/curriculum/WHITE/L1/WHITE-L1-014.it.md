@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-014
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 14
+locale: it
+title: "Mercati Rialzisti vs. Mercati Ribassisti"
+summary: "*ASSUNZIONE:* I cicli di mercato tra periodi rialzisti e ribassisti sono stati storicamente una caratteristica normale e ricorrente degli investimenti — anche se il momento esatto e la durata di ciascun ciclo non possono essere previsti in modo affidabile in anticipo."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-014: Mercati Rialzisti vs. Mercati Ribassisti
 
 ## Obiettivi di Apprendimento

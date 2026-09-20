@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-020
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 20
+locale: it
+title: "Cos'è un IRA?"
+summary: "*FATTO VERIFICATO:* A differenza di un 401(k), che è sponsorizzato dal datore di lavoro, un IRA viene aperto in modo indipendente da un individuo tramite un broker o un'istituzione finanziaria, offrendo risparmio pensionistico con vantaggi fiscali simili ma con limiti di contribuzione e regole diversi."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-020: Cos'è un IRA?
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-012
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 12
+locale: it
+title: "Fondamenti dell'Allocazione degli Attivi"
+summary: "*ASSUNZIONE:* Una tendenza generale comunemente citata è che orizzonti temporali più lunghi possono sostenere allocazioni più alte in azioni, mentre orizzonti più brevi favoriscono spesso più obbligazioni/liquidità — ma questa è una linea guida generale, non una regola applicabile a ogni singola situazione."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-012: Fondamenti dell'Allocazione degli Attivi
 
 ## Obiettivi di Apprendimento

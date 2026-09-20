@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-018
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 18
+locale: it
+title: "Capire i Rapporti di Spesa"
+summary: "*ASSUNZIONE:* Poiché i rapporti di spesa si compongono nel tempo su lunghi periodi di detenzione, anche piccole differenze (come lo 0,05% contro lo 0,5%) possono influire significativamente sui rendimenti a lungo termine — l'impatto esatto dipende dal tasso di crescita dell'investimento e dal periodo di detenzione."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-018: Capire i Rapporti di Spesa
 
 ## Obiettivi di Apprendimento

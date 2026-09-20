@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-016
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 16
+locale: it
+title: "Il Piano di Accumulo del Capitale"
+summary: "*ASSUNZIONE:* Questo metodo non garantisce risultati migliori rispetto a un investimento in un'unica soluzione — storicamente, investire l'intera somma in una volta ha spesso superato questo metodo nei mercati rialzisti, poiché il denaro viene investito (e cresce) prima. Il beneficio principale di questo metodo è ridurre il rischio emotivo e di tempismo, non massimizzare il rendimento in ogni scenario."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-016: Il Piano di Accumulo del Capitale
 
 ## Obiettivi di Apprendimento
