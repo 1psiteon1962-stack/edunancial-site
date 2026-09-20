@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-045
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 45
+locale: it
+title: "La Vendita allo Scoperto Spiegata"
+summary: "Lezione WHITE-L1-045 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-045: La Vendita allo Scoperto Spiegata
 
 ## Obiettivi di Apprendimento

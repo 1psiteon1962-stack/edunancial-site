@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-047
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 47
+locale: it
+title: "I REIT — Immobiliare Senza Possedere Proprietà"
+summary: "Lezione WHITE-L1-047 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-047: I REIT — Immobiliare Senza Possedere Proprietà
 
 ## Obiettivi di Apprendimento

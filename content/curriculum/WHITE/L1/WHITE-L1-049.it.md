@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-049
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 49
+locale: it
+title: "Costruire un Piano di Investimento a Lungo Termine"
+summary: "*ASSUNZIONE:* I piani generalmente beneficiano di una revisione periodica, poiché le circostanze di vita, gli obiettivi, e gli orizzonti temporali possono cambiare — un piano costruito una volta e mai rivisto potrebbe non adattarsi più alla situazione attuale di un investitore."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-049: Costruire un Piano di Investimento a Lungo Termine
 
 ## Obiettivi di Apprendimento

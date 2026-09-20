@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-046
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 46
+locale: it
+title: "Le Basi delle Opzioni — Call e Put"
+summary: "*OPINIONE:* Le opzioni sono generalmente considerate più complesse e a maggior rischio rispetto ad azioni o fondi di base, e molti educatori finanziari raccomandano comunemente di costruire prima una solida comprensione fondamentale dell'investimento di base prima di usare le opzioni — questa lezione fornisce solo un'introduzione superficiale, non una guida sufficiente per negoziare opzioni in modo indipendente."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-046: Le Basi delle Opzioni — Call e Put
 
 ## Obiettivi di Apprendimento

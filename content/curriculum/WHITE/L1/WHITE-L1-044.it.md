@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-044
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 44
+locale: it
+title: "Cos'è una IPO?"
+summary: "*ASSUNZIONE:* Le aziende recentemente quotate possono comportare un rischio e una volatilità elevati rispetto alle aziende quotate consolidate, in parte a causa di una storia limitata di negoziazione pubblica e talvolta di un alto entusiasmo iniziale degli investitori che potrebbe non mantenersi."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-044: Cos'è una IPO?
 
 ## Obiettivi di Apprendimento

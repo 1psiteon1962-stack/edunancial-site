@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-043
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 43
+locale: it
+title: "Come Leggere il Bilancio Annuale di un'Azienda — Le Basi"
+summary: "Un bilancio annuale fornisce generalmente agli azionisti la performance finanziaria e una panoramica del business dell'azienda per l'anno. Le sezioni comuni includono: una lettera della dirigenza, prospetti finanziari (conto economico, stato patrimoniale, rendiconto finanziario), la discussione della direzione sui risultati, e le informative sui rischi."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-043: Come Leggere il Bilancio Annuale di un'Azienda — Le Basi
 
 ## Obiettivi di Apprendimento

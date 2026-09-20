@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-041
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 41
+locale: it
+title: "Capire le Correzioni di Mercato"
+summary: "*ASSUNZIONE:* Le correzioni si sono verificate storicamente con una certa regolarità e sono generalmente considerate una parte normale dei cicli di mercato, anche se il loro momento esatto e la gravità non possono essere previsti in modo affidabile in anticipo."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-041: Capire le Correzioni di Mercato
 
 ## Obiettivi di Apprendimento

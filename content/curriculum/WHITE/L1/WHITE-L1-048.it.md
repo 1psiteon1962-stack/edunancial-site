@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-048
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 48
+locale: it
+title: "L'Investimento Socialmente Responsabile ed ESG"
+summary: "Lezione WHITE-L1-048 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-048: L'Investimento Socialmente Responsabile ed ESG
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-050
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 50
+locale: it
+title: "Errori Comuni di Investimento per Principianti"
+summary: "Lezione WHITE-L1-050 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-050: Errori Comuni di Investimento per Principianti
 
 ## Obiettivi di Apprendimento

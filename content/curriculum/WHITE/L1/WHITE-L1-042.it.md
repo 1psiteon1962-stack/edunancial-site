@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-042
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 42
+locale: it
+title: "Errori Comportamentali di Investimento da Evitare"
+summary: "Lezione WHITE-L1-042 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-042: Errori Comportamentali di Investimento da Evitare
 
 ## Obiettivi di Apprendimento
