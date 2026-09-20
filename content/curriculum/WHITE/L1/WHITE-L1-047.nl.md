@@ -1,4 +1,4 @@
-# WHITE-L1-047: REIT's — Vastgoed Zonder Zelf Eigenaar Te Zijn
+---\nid: WHITE-L1-047\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 47\nlocale: nl\ntitle: "WHITE-L1-047"\nsummary: "WHITE-L1-047"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-047: REIT's — Vastgoed Zonder Zelf Eigenaar Te Zijn
 
 ## Leerdoelen
 1. Een REIT (vastgoedbeleggingsfonds) definiëren.
