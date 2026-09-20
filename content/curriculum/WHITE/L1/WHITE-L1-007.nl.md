@@ -1,4 +1,4 @@
-# WHITE-L1-007: Marktorders vs. Limietorders
+---\nid: WHITE-L1-007\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 7\nlocale: nl\ntitle: "WHITE-L1-007"\nsummary: "WHITE-L1-007"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-007: Marktorders vs. Limietorders
 
 ## Leerdoelen
 1. Een marktorder en een limietorder definiëren.
