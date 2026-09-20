@@ -1,4 +1,4 @@
-# WHITE-L1-001: Wat Zijn Papieren Activa?
+---\nid: WHITE-L1-001\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 1\nlocale: nl\ntitle: "WHITE-L1-001"\nsummary: "WHITE-L1-001"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-001: Wat Zijn Papieren Activa?
 
 ## Leerdoelen
 1. Papieren activa in eenvoudige bewoordingen definiëren.
