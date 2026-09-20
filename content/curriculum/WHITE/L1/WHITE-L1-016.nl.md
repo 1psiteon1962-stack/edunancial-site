@@ -1,4 +1,4 @@
-# WHITE-L1-016: Gemiddelde Kostprijsmethode
+---\nid: WHITE-L1-016\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 16\nlocale: nl\ntitle: "WHITE-L1-016"\nsummary: "WHITE-L1-016"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-016: Gemiddelde Kostprijsmethode
 
 ## Leerdoelen
 1. De gemiddelde kostprijsmethode (dollar-cost averaging) definiëren.
