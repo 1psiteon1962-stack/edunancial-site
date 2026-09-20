@@ -18,7 +18,6 @@ import {
   resolveCurriculumLocale,
   type CurriculumLocale,
 } from "./localization";
-import { getCommittedLessonTranslation } from "./committed-translation-fallback";
 import {
   ACADEMIES,
   ACADEMY_MAP,
@@ -761,9 +760,22 @@ function resolveLessonSource(
     const directoryCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
       localeFilename(localeDirectory).map((filename) => join(levelDirectory, localeDirectory, filename))
     );
+    const legacyCourseCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
+      localeFilename(localeDirectory).map((filename) =>
+        join(
+          REPO_ROOT,
+          "content",
+          "courses",
+          asset.track.toLowerCase(),
+          `level-${asset.level}`,
+          localeDirectory,
+          filename,
+        )
+      )
+    );
     const candidatePath = candidateLocale === "en"
       ? canonicalPath
-      : [sidecarPath, ...directoryCandidates].find((path) => existsSync(path));
+      : [sidecarPath, ...directoryCandidates, ...legacyCourseCandidates].find((path) => existsSync(path));
 
     if (!candidatePath) {
       continue;
@@ -795,35 +807,6 @@ function resolveLessonSource(
         missingFields,
       },
     };
-  }
-
-  if (requestedLocale !== "en" && requestedLocale !== "en-US") {
-    const committed = getCommittedLessonTranslation(asset.id, requestedLocale);
-    if (committed?.title?.trim() && committed?.summary?.trim() && committed?.body?.trim()) {
-      const rawCanonical = readFileSync(canonicalPath, "utf-8");
-      const canonical = parseFrontMatter(rawCanonical);
-      return {
-        frontMatter: {
-          ...canonical.frontMatter,
-          title: committed.title,
-          summary: committed.summary,
-          locale: requestedLocale,
-        },
-        body: committed.body,
-        videos: canonical.videos,
-        localization: {
-          requestedLocale,
-          candidateLocales,
-          resolvedLocale: requestedLocale,
-          resolution: "exact",
-          translated: true,
-          usedFallback: false,
-          canonicalPath,
-          resolvedPath: `committed:${asset.id}:${requestedLocale}`,
-          missingFields: [],
-        },
-      };
-    }
   }
 
   const raw = readFileSync(canonicalPath, "utf-8");
