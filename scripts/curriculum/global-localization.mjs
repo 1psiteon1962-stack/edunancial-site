@@ -94,11 +94,30 @@ function loadLocaleRegistry() {
 
 const { parsed: localeRegistry, localeMap: knownLocales, defaultLocale } = loadLocaleRegistry();
 
+function deriveSummaryFromBody(body) {
+  if (typeof body !== "string") return "";
+  const paragraphs = body
+    .split(/\n\s*\n/u)
+    .map((paragraph) => paragraph.replace(/^#+\s+.*$/gmu, "").trim())
+    .filter((paragraph) =>
+      paragraph.length >= 80 &&
+      !/^(?:[-*+]\s|\d+[.)]\s|>\s)/u.test(paragraph) &&
+      !paragraph.includes("\n- ") &&
+      !paragraph.includes("\n1. "),
+    );
+  return paragraphs[0]?.replace(/\s+/gu, " ").trim() ?? "";
+}
+
 function normalizeTranslationValue(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const title = typeof value.title === "string" ? value.title.trim() : "";
-  const summary = typeof value.summary === "string" ? value.summary.trim() : "";
   const body = typeof value.body === "string" ? value.body.trim() : "";
+  const explicitSummary = typeof value.summary === "string"
+    ? value.summary.trim()
+    : typeof value.description === "string"
+      ? value.description.trim()
+      : "";
+  const summary = explicitSummary || deriveSummaryFromBody(body);
   return { ...value, title, summary, body };
 }
 
@@ -183,7 +202,7 @@ for (const path of walk(curriculumRoot).filter((candidate) => candidate.endsWith
   if (localizedMatch) {
     const fm = Object.fromEntries(raw.split("\n").map((line) => line.match(/^([A-Za-z][A-Za-z0-9_-]*):[ \t]*(.*)$/u)).filter(Boolean).map((m) => [m[1], m[2].trim().replace(/^["\']|["\']$/g, "")]));
     const body = raw.replace(/^---[\s\S]*?---\s*/u, "").trim();
-    addTranslation({ id, rawLocale: fm.locale ?? localizedMatch[1], value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
+    addTranslation({ id, rawLocale: fm.locale ?? localizedMatch[1], value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", description: fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
     continue;
   }
   const versionMatch = raw.match(/^version:\s*["']?([^\n"']+)/mu);
@@ -216,7 +235,7 @@ for (const path of walk(legacyRoot)) {
   if (!rawLocale) continue;
   const fm = Object.fromEntries(raw.split("\n").map((line) => line.match(/^([A-Za-z][A-Za-z0-9_-]*):[ \t]*(.*)$/u)).filter(Boolean).map((m) => [m[1], m[2].trim().replace(/^[\"']|[\"']$/g, "")]));
   const body = raw.replace(/^---[\s\S]*?---\s*/u, "").trim();
-  addTranslation({ id, rawLocale: fm.locale ?? rawLocale, value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
+  addTranslation({ id, rawLocale: fm.locale ?? rawLocale, value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", description: fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
 }
 
 for (const [id, lesson] of Object.entries(lessons)) {
