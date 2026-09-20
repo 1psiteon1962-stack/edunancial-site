@@ -1,4 +1,18 @@
----\nid: WHITE-L1-048\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 48\nlocale: nl\ntitle: "WHITE-L1-048"\nsummary: "WHITE-L1-048"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-048: Maatschappelijk Verantwoord Beleggen en ESG
+---
+id: WHITE-L1-048
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 48
+locale: nl
+title: "WHITE-L1-048"
+summary: "WHITE-L1-048"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-048: Maatschappelijk Verantwoord Beleggen en ESG
 
 ## Leerdoelen
 1. ESG-beleggen definiëren.
