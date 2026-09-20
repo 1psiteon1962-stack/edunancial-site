@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-031
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 31
+locale: it
+title: "Conti con Vantaggi Fiscali vs. Conti Tassabili"
+summary: "*ASSUNZIONE:* Molti investitori usano una combinazione di entrambi — conti con vantaggi fiscali per obiettivi pensionistici a lungo termine, conti tassabili per obiettivi più flessibili e a breve termine — anche se la giusta combinazione dipende dalle circostanze individuali."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-031: Conti con Vantaggi Fiscali vs. Conti Tassabili
 
 ## Obiettivi di Apprendimento

@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-033
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 33
+locale: it
+title: "Cos'è un Frazionamento Azionario?"
+summary: "Lezione WHITE-L1-033 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-033: Cos'è un Frazionamento Azionario?
 
 ## Obiettivi di Apprendimento

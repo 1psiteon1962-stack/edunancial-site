@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-036
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 36
+locale: it
+title: "Titoli del Tesoro USA vs. Obbligazioni Societarie"
+summary: "I **titoli del Tesoro USA** sono emessi dal governo federale degli Stati Uniti e sono generalmente considerati a rischio di insolvenza molto basso, dato il potere del governo di riscuotere tasse e stampare denaro. Le **obbligazioni societarie** sono emesse da aziende e comportano livelli di rischio variabili a seconda della salute finanziaria dell'azienda emittente, offrendo generalmente rendimenti più alti rispetto ai titoli del Tesoro comparabili per compensare quel rischio aggiuntivo."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-036: Titoli del Tesoro USA vs. Obbligazioni Societarie
 
 ## Obiettivi di Apprendimento

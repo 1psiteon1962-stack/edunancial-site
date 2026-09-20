@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-034
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 34
+locale: it
+title: "Azioni Privilegiate vs. Azioni Ordinarie"
+summary: "*FATTO VERIFICATO:* I dividendi privilegiati sono spesso fissi e tipicamente devono essere pagati prima di qualsiasi dividendo di azioni ordinarie — dando agli azionisti privilegiati maggiore prevedibilità di reddito, a costo del maggiore potenziale di crescita che le azioni ordinarie possono offrire."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-034: Azioni Privilegiate vs. Azioni Ordinarie
 
 ## Obiettivi di Apprendimento

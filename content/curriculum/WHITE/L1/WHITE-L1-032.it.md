@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-032
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 32
+locale: it
+title: "Capire le Commissioni di Intermediazione"
+summary: "Lezione WHITE-L1-032 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-032: Capire le Commissioni di Intermediazione
 
 ## Obiettivi di Apprendimento

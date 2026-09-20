@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-035
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 35
+locale: it
+title: "I Rating delle Obbligazioni Spiegati"
+summary: "I rating possono cambiare nel tempo man mano che la salute finanziaria di un emittente migliora o peggiora — un declassamento generalmente segnala un rischio percepito aumentato."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-035: I Rating delle Obbligazioni Spiegati
 
 ## Obiettivi di Apprendimento

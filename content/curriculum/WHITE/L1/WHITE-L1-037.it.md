@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-037
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 37
+locale: it
+title: "Capire il Rendimento"
+summary: "Lezione WHITE-L1-037 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-037: Capire il Rendimento
 
 ## Obiettivi di Apprendimento

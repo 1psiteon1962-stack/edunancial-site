@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-039
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 39
+locale: it
+title: "Il Valore Temporale del Denaro"
+summary: "Lezione WHITE-L1-039 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-039: Il Valore Temporale del Denaro
 
 ## Obiettivi di Apprendimento

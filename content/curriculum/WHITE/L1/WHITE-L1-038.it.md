@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-038
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 38
+locale: it
+title: "L'Inflazione e il Suo Effetto sugli Investimenti"
+summary: "Lezione WHITE-L1-038 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-038: L'Inflazione e il Suo Effetto sugli Investimenti
 
 ## Obiettivi di Apprendimento
