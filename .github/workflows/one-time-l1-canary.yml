@@ -38,6 +38,12 @@ jobs:
             exit 0
           fi
           echo "available=true" >> "$GITHUB_OUTPUT"
+      - name: Snapshot baseline curriculum inventory
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:inventory
+          cp curriculum/inventory.json /tmp/curriculum-inventory-before.json
+          git checkout -- curriculum/inventory.json
       - name: Generate PURPLE L1 lesson 1 in Italian
         if: steps.translation_provider.outputs.available == 'true'
         env:
@@ -58,6 +64,39 @@ jobs:
         run: |
           npm run curriculum:test
           npm run curriculum:validate
+      - name: Verify curriculum inventory preserved
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:inventory
+          cp curriculum/inventory.json /tmp/curriculum-inventory-after.json
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const before = JSON.parse(fs.readFileSync('/tmp/curriculum-inventory-before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('/tmp/curriculum-inventory-after.json', 'utf8'));
+          const beforeAssets = new Map(before.assets.map((asset) => [asset.id, new Set((asset.localizations || []).map((entry) => `${entry.locale}:${entry.source}:${entry.path}`))]));
+          const afterAssets = new Map(after.assets.map((asset) => [asset.id, new Set((asset.localizations || []).map((entry) => `${entry.locale}:${entry.source}:${entry.path}`))]));
+          const missingAssets = [];
+          const missingLocalizations = [];
+          for (const [assetId, localizations] of beforeAssets.entries()) {
+            const current = afterAssets.get(assetId);
+            if (!current) {
+              missingAssets.push(assetId);
+              continue;
+            }
+            for (const key of localizations) {
+              if (!current.has(key)) missingLocalizations.push(`${assetId} ${key}`);
+            }
+          }
+          if (missingAssets.length || missingLocalizations.length || after.summary.totalLessons !== before.summary.totalLessons || after.summary.localizedVariants < before.summary.localizedVariants) {
+            if (missingAssets.length) console.error(`Missing lesson IDs: ${missingAssets.join(', ')}`);
+            if (missingLocalizations.length) console.error(`Missing localization variants: ${missingLocalizations.join(', ')}`);
+            if (after.summary.totalLessons !== before.summary.totalLessons) console.error(`Lesson count changed from ${before.summary.totalLessons} to ${after.summary.totalLessons}`);
+            if (after.summary.localizedVariants < before.summary.localizedVariants) console.error(`Localization count regressed from ${before.summary.localizedVariants} to ${after.summary.localizedVariants}`);
+            process.exit(1);
+          }
+          console.log('Curriculum inventory preserved.');
+          NODE
+          git checkout -- curriculum/inventory.json
       - name: Commit generated Italian canary
         if: steps.translation_provider.outputs.available == 'true'
         run: |
