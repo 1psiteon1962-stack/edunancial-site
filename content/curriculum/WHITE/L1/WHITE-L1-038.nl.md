@@ -1,4 +1,18 @@
----\nid: WHITE-L1-038\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 38\nlocale: nl\ntitle: "WHITE-L1-038"\nsummary: "WHITE-L1-038"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-038: Inflatie en Het Effect Ervan Op Beleggingen
+---
+id: WHITE-L1-038
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 38
+locale: nl
+title: "WHITE-L1-038"
+summary: "WHITE-L1-038"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-038: Inflatie en Het Effect Ervan Op Beleggingen
 
 ## Leerdoelen
 1. Inflatie in algemene bewoordingen definiëren.
