@@ -737,7 +737,12 @@ function resolveLessonSource(
       : canonicalPath.replace(/\.md$/u, `.${candidateLocale}.md`);
     const localeDirectoryNames = candidateLocale === "en"
       ? []
-      : Array.from(new Set([candidateLocale, candidateLocale.replaceAll("-", "_")]));
+      : Array.from(new Set([
+          candidateLocale,
+          candidateLocale.replaceAll("-", "_"),
+          candidateLocale.toLowerCase(),
+          candidateLocale.replaceAll("-", "_").toLowerCase(),
+        ]));
     const canonicalFilename = basename(canonicalPath);
     const canonicalDirectory = dirname(canonicalPath);
     const canonicalDirectoryName = basename(canonicalDirectory).toLowerCase();
