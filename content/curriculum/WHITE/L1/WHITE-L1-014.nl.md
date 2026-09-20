@@ -1,4 +1,4 @@
-# WHITE-L1-014: Stijgende Markten vs. Dalende Markten
+---\nid: WHITE-L1-014\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 14\nlocale: nl\ntitle: "WHITE-L1-014"\nsummary: "WHITE-L1-014"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-014: Stijgende Markten vs. Dalende Markten
 
 ## Leerdoelen
 1. Een stijgende markt (bull market) en een dalende markt (bear market) definiëren.
