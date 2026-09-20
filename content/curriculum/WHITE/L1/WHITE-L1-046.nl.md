@@ -1,4 +1,18 @@
----\nid: WHITE-L1-046\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 46\nlocale: nl\ntitle: "WHITE-L1-046"\nsummary: "WHITE-L1-046"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-046: De Basis van Opties — Calls en Puts
+---
+id: WHITE-L1-046
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 46
+locale: nl
+title: "WHITE-L1-046"
+summary: "WHITE-L1-046"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-046: De Basis van Opties — Calls en Puts
 
 ## Leerdoelen
 1. Een optiecontract in algemene bewoordingen definiëren.
