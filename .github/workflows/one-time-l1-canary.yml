@@ -26,26 +26,33 @@ jobs:
         with:
           node-version: 20
       - name: Require translation provider credential
+        id: translation_provider
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           if [ -z "$OPENAI_API_KEY" ]; then
-            echo "OPENAI_API_KEY repository secret is required."
-            exit 78
+            echo "::notice::Skipping one-time Italian canary because OPENAI_API_KEY repository secret is not configured."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          echo "available=true" >> "$GITHUB_OUTPUT"
       - name: Generate PURPLE L1 lesson 1 in Italian
+        if: steps.translation_provider.outputs.available == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
         run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
       - name: Verify generated lesson
+        if: steps.translation_provider.outputs.available == 'true'
         run: |
           test -s content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
           grep -q 'id: "PURPLE-L1-001"' content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
           grep -q 'locale: "it"' content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
       - name: Regenerate localization manifest
+        if: steps.translation_provider.outputs.available == 'true'
         run: npm run curriculum:localization:global
       - name: Commit generated Italian canary
+        if: steps.translation_provider.outputs.available == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

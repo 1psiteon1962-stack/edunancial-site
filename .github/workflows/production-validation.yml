@@ -52,11 +52,6 @@ jobs:
         run: |
           changed_files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
           printf 'Changed files:\n%s\n' "$changed_files"
-          if printf '%s\n' "$changed_files" | grep -Eq '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/(production-validation|complete-italian-l1|one-time-l1-canary)\.yml$|^package(-lock)?\.json$'; then
-            echo "should_run_manifest=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "should_run_manifest=false" >> "$GITHUB_OUTPUT"
-          fi
           if printf '%s\n' "$changed_files" | grep -Eq '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/(production-validation|complete-italian-l1)\.yml$|^package(-lock)?\.json$'; then
             echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
           else
@@ -64,7 +59,6 @@ jobs:
           fi
 
       - name: Generate localization manifest
-        if: github.event_name != 'pull_request' || steps.localization_changes.outputs.should_run_manifest == 'true'
         run: npm run curriculum:localization:global
 
       - name: Enforce complete Level 1 localization
