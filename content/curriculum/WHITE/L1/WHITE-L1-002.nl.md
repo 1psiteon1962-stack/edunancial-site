@@ -1,4 +1,18 @@
----\nid: WHITE-L1-002\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 2\nlocale: nl\ntitle: "WHITE-L1-002"\nsummary: "WHITE-L1-002"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-002: Aandelen — Eigenaar Zijn van Een Deel van Een Bedrijf
+---
+id: WHITE-L1-002
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 2
+locale: nl
+title: "WHITE-L1-002"
+summary: "WHITE-L1-002"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-002: Aandelen — Eigenaar Zijn van Een Deel van Een Bedrijf
 
 ## Leerdoelen
 1. Een aandeel in eenvoudige bewoordingen definiëren.
