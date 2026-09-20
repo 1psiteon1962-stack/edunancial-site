@@ -54,7 +54,23 @@ jobs:
           printf 'Changed files:\n%s\n' "$changed_files"
           gate_files="$(
             printf '%s\n' "$changed_files" \
-              | grep -E '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/complete-italian-l1\.yml$|^package(-lock)?\.json$' || true
+              | grep -E '^(content/curriculum/|curriculum/registry\.json$)|^\.github/workflows/complete-italian-l1\.yml
+          if [ -n "$gate_files" ]; then
+            echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run_gate=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate localization manifest
+        run: npm run curriculum:localization:global
+
+      - name: Enforce complete Level 1 localization
+        if: github.event_name != 'pull_request' || steps.localization_changes.outputs.should_run_gate == 'true'
+        run: npm run curriculum:localization:l1-gate
+
+      - name: Build
+        run: npm run build
+ || true
           )"
           if [ -n "$gate_files" ]; then
             echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
