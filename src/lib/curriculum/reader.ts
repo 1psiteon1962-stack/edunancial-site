@@ -760,9 +760,22 @@ function resolveLessonSource(
     const directoryCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
       localeFilename(localeDirectory).map((filename) => join(levelDirectory, localeDirectory, filename))
     );
+    const legacyCourseCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
+      localeFilename(localeDirectory).map((filename) =>
+        join(
+          REPO_ROOT,
+          "content",
+          "courses",
+          asset.track.toLowerCase(),
+          `level-${asset.level}`,
+          localeDirectory,
+          filename,
+        )
+      )
+    );
     const candidatePath = candidateLocale === "en"
       ? canonicalPath
-      : [sidecarPath, ...directoryCandidates].find((path) => existsSync(path));
+      : [sidecarPath, ...directoryCandidates, ...legacyCourseCandidates].find((path) => existsSync(path));
 
     if (!candidatePath) {
       continue;

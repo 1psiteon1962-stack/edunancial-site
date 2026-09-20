@@ -94,3 +94,4 @@ test("localized course map is locale-aware with RED, WHITE, and BLUE published l
   assert.equal(spanish.white.lessons.length, 50);
   assert.equal(spanish.blue.lessons.length, 100);
 });
+
