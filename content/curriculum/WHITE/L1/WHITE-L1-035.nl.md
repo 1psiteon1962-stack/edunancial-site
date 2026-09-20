@@ -1,4 +1,18 @@
----\nid: WHITE-L1-035\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 35\nlocale: nl\ntitle: "WHITE-L1-035"\nsummary: "WHITE-L1-035"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-035: Kredietbeoordelingen van Obligaties Uitgelegd
+---
+id: WHITE-L1-035
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 35
+locale: nl
+title: "WHITE-L1-035"
+summary: "WHITE-L1-035"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-035: Kredietbeoordelingen van Obligaties Uitgelegd
 
 ## Leerdoelen
 1. Een kredietbeoordeling van een obligatie definiëren.
