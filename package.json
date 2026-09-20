@@ -30,7 +30,9 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "rm -rf .test-dist && tsc -p tsconfig.test.json && mkdir -p .test-dist/node_modules && ln -sfn ../src .test-dist/node_modules/@ && node --test --test-concurrency=1 $(find .test-dist/src -name '*.test.js' -print | sort)",
     "curriculum:fix-gold-track-name": "node scripts/curriculum/fix-gold-official-track-name.mjs",
-    "curriculum:localization:l1-gate": "node scripts/curriculum/l1-localization-gate.mjs"
+    "curriculum:localization:l1-gate": "node scripts/curriculum/l1-localization-gate.mjs",
+    "curriculum:translate": "node scripts/international/generate-locale-l1.mjs",
+    "curriculum:translate:l1": "EDUNANCIAL_TRANSLATION_LEVEL=1 node scripts/international/generate-locale-l1.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
