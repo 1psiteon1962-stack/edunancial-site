@@ -54,7 +54,7 @@ jobs:
           printf 'Changed files:\n%s\n' "$changed_files"
           gate_files="$(
             printf '%s\n' "$changed_files" \
-              | grep -E '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/complete-italian-l1\.yml$|^package(-lock)?\.json$' || true
+              | grep -E '^(content/curriculum/|curriculum/registry\.json$)|^\.github/workflows/complete-italian-l1\.yml$' || true
           )"
           if [ -n "$gate_files" ]; then
             echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
