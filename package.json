@@ -15,6 +15,7 @@
     "curriculum:localization": "node scripts/curriculum/localization-report.mjs",
     "curriculum:localization:global": "node scripts/curriculum/global-localization.mjs",
     "curriculum:translation-workqueue": "npm run curriculum:localization:global && node scripts/curriculum/translation-workqueue.mjs",
+    "curriculum:translation-batch": "npm run curriculum:localization:global && node scripts/curriculum/export-translation-batch.mjs",
     "curriculum:translation-quality": "node scripts/curriculum/translation-quality-audit.mjs",
     "curriculum:locate": "node scripts/curriculum/locate.mjs",
     "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
