@@ -1,4 +1,18 @@
----\nid: WHITE-L1-036\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 36\nlocale: nl\ntitle: "WHITE-L1-036"\nsummary: "WHITE-L1-036"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-036: Amerikaanse Staatsobligaties vs. Bedrijfsobligaties
+---
+id: WHITE-L1-036
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 36
+locale: nl
+title: "WHITE-L1-036"
+summary: "WHITE-L1-036"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-036: Amerikaanse Staatsobligaties vs. Bedrijfsobligaties
 
 ## Leerdoelen
 1. Amerikaanse staatsobligaties onderscheiden van bedrijfsobligaties.
