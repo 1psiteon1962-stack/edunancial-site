@@ -1,4 +1,4 @@
-# WHITE-L1-009: Vermogenswinst vs. Vermogensverlies
+---\nid: WHITE-L1-009\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 9\nlocale: nl\ntitle: "WHITE-L1-009"\nsummary: "WHITE-L1-009"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-009: Vermogenswinst vs. Vermogensverlies
 
 ## Leerdoelen
 1. Vermogenswinst en vermogensverlies definiëren.
