@@ -1,4 +1,4 @@
-# WHITE-L1-011: Spreiding — Zet Niet Alle Eieren in Één Mandje
+---\nid: WHITE-L1-011\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 11\nlocale: nl\ntitle: "WHITE-L1-011"\nsummary: "WHITE-L1-011"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-011: Spreiding — Zet Niet Alle Eieren in Één Mandje
 
 ## Leerdoelen
 1. Spreiding definiëren.
