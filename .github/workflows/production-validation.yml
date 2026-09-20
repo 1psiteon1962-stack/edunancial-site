@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -41,10 +43,27 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Detect localization-impacting changes
+        id: localization_changes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          changed_files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
+          printf 'Changed files:\n%s\n' "$changed_files"
+          if printf '%s\n' "$changed_files" | grep -Eq '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/(production-validation|complete-italian-l1)\.yml$|^package(-lock)?\.json$'; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Generate localization manifest
+        if: github.event_name != 'pull_request' || steps.localization_changes.outputs.should_run == 'true'
         run: npm run curriculum:localization:global
 
       - name: Enforce complete Level 1 localization
+        if: github.event_name != 'pull_request' || steps.localization_changes.outputs.should_run == 'true'
         run: npm run curriculum:localization:l1-gate
 
       - name: Build
