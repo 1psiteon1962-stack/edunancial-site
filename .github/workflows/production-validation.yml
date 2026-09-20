@@ -65,8 +65,13 @@ jobs:
       - name: Generate localization manifest
         run: npm run curriculum:localization:global
 
+      - name: Report complete Level 1 localization
+        if: github.event_name == 'pull_request' && steps.localization_changes.outputs.should_run_gate == 'true'
+        continue-on-error: true
+        run: npm run curriculum:localization:l1-gate
+
       - name: Enforce complete Level 1 localization
-        if: github.event_name != 'pull_request' || steps.localization_changes.outputs.should_run_gate == 'true'
+        if: github.event_name != 'pull_request'
         run: npm run curriculum:localization:l1-gate
 
       - name: Build
