@@ -1,4 +1,18 @@
----\nid: WHITE-L1-021\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 21\nlocale: nl\ntitle: "WHITE-L1-021"\nsummary: "WHITE-L1-021"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-021: Roth vs. Traditionele Pensioenrekeningen
+---
+id: WHITE-L1-021
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 21
+locale: nl
+title: "WHITE-L1-021"
+summary: "WHITE-L1-021"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-021: Roth vs. Traditionele Pensioenrekeningen
 
 ## Leerdoelen
 1. De fiscale behandeling van Roth en traditionele rekeningen onderscheiden.
