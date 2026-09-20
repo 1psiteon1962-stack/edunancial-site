@@ -1,4 +1,18 @@
----\nid: WHITE-L1-041\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 41\nlocale: nl\ntitle: "WHITE-L1-041"\nsummary: "WHITE-L1-041"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-041: Marktcorrecties Begrijpen
+---
+id: WHITE-L1-041
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 41
+locale: nl
+title: "WHITE-L1-041"
+summary: "WHITE-L1-041"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-041: Marktcorrecties Begrijpen
 
 ## Leerdoelen
 1. Een marktcorrectie definiëren.
