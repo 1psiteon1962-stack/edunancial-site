@@ -1,4 +1,18 @@
----\nid: WHITE-L1-030\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 30\nlocale: nl\ntitle: "WHITE-L1-030"\nsummary: "WHITE-L1-030"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-030: Robo-Adviseurs Uitgelegd
+---
+id: WHITE-L1-030
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 30
+locale: nl
+title: "WHITE-L1-030"
+summary: "WHITE-L1-030"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-030: Robo-Adviseurs Uitgelegd
 
 ## Leerdoelen
 1. Een robo-adviseur definiëren.
