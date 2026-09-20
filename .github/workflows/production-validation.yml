@@ -52,8 +52,12 @@ jobs:
         run: |
           changed_files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
           printf 'Changed files:\n%s\n' "$changed_files"
-          if printf '%s\n' "$changed_files" | grep -Eq '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/(production-validation|complete-italian-l1)\.yml$|^package(-lock)?\.json$'; then
-            echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
+          if printf '%s\n' "$changed_files" | grep -Eq '^(content/curriculum/|curriculum/|scripts/(curriculum|international)/)|^\.github/workflows/(production-validation|complete-italian-l1|one-time-l1-canary)\.yml$|^package(-lock)?\.json$'; then
+            if [ "$changed_files" = ".github/workflows/one-time-l1-canary.yml" ]; then
+              echo "should_run_gate=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run_gate=true" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "should_run_gate=false" >> "$GITHUB_OUTPUT"
           fi
