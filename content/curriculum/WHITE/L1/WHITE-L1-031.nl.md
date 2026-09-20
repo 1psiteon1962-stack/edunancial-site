@@ -1,4 +1,4 @@
-# WHITE-L1-031: Fiscaal Voordelige Rekeningen vs. Belastbare Rekeningen
+---\nid: WHITE-L1-031\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 31\nlocale: nl\ntitle: "WHITE-L1-031"\nsummary: "WHITE-L1-031"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-031: Fiscaal Voordelige Rekeningen vs. Belastbare Rekeningen
 
 ## Leerdoelen
 1. Fiscaal voordelige rekeningen onderscheiden van standaard belastbare effectenrekeningen.
