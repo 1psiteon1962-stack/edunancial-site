@@ -1,4 +1,4 @@
-# WHITE-L1-017: Individuele Aandelen vs. Indexfondsen
+---\nid: WHITE-L1-017\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 17\nlocale: nl\ntitle: "WHITE-L1-017"\nsummary: "WHITE-L1-017"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-017: Individuele Aandelen vs. Indexfondsen
 
 ## Leerdoelen
 1. Het kiezen van individuele aandelen onderscheiden van beleggen in indexfondsen.
