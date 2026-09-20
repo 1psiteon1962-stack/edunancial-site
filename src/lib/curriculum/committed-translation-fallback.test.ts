@@ -35,3 +35,24 @@ test("unsupported committed lesson lookup degrades to undefined instead of throw
   assert.doesNotThrow(() => getCommittedLessonTranslation("NOT-A-LESSON", "es-Caribbean"));
   assert.equal(getCommittedLessonTranslation("NOT-A-LESSON", "es-Caribbean"), undefined);
 });
+
+
+test("legacy localized markdown without front matter derives a summary from body prose", () => {
+  const root = join(process.cwd(), "content", "courses", "white", "level-1", "it");
+  const path = join(root, "white-l1-it-complete-white-l1-999-it.md");
+  mkdirSync(root, { recursive: true });
+
+  try {
+    writeFileSync(
+      path,
+      "# WHITE-L1-999: Lezione di prova\n\n## Obiettivi di Apprendimento\n1. Capire il concetto.\n\n## Contenuto Principale\nQuesta è una spiegazione completa in italiano pensata per verificare che una lezione legacy senza front matter possa comunque produrre un riepilogo utile e una traduzione completa per il runtime.\n\n## Punti Chiave\n- Punto uno.\n",
+      "utf8",
+    );
+
+    const translation = getCommittedLessonTranslation("WHITE-L1-999", "it");
+    assert.ok(translation);
+    assert.match(translation.summary ?? "", /Questa è una spiegazione completa in italiano/u);
+  } finally {
+    rmSync(path, { force: true });
+  }
+});
