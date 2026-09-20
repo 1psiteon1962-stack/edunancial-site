@@ -1,4 +1,18 @@
----\nid: WHITE-L1-004\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 4\nlocale: nl\ntitle: "WHITE-L1-004"\nsummary: "WHITE-L1-004"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-004: Beleggingsfondsen Uitgelegd
+---
+id: WHITE-L1-004
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 4
+locale: nl
+title: "WHITE-L1-004"
+summary: "WHITE-L1-004"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-004: Beleggingsfondsen Uitgelegd
 
 ## Leerdoelen
 1. Een beleggingsfonds definiëren.
