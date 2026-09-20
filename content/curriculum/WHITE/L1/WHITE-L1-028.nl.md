@@ -1,4 +1,4 @@
-# WHITE-L1-028: Volatiliteit Begrijpen
+---\nid: WHITE-L1-028\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 28\nlocale: nl\ntitle: "WHITE-L1-028"\nsummary: "WHITE-L1-028"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-028: Volatiliteit Begrijpen
 
 ## Leerdoelen
 1. Volatiliteit in beleggingstermen definiëren.
