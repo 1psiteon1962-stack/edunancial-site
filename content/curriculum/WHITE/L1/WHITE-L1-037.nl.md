@@ -1,4 +1,18 @@
----\nid: WHITE-L1-037\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 37\nlocale: nl\ntitle: "WHITE-L1-037"\nsummary: "WHITE-L1-037"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-037: Rendement Begrijpen
+---
+id: WHITE-L1-037
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 37
+locale: nl
+title: "WHITE-L1-037"
+summary: "WHITE-L1-037"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-037: Rendement Begrijpen
 
 ## Leerdoelen
 1. Rendement in algemene beleggingstermen definiëren.
