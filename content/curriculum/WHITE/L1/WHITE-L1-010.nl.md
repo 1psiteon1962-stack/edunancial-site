@@ -1,4 +1,18 @@
----\nid: WHITE-L1-010\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 10\nlocale: nl\ntitle: "WHITE-L1-010"\nsummary: "WHITE-L1-010"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-010: Risico en Rendement — De Basisverhouding
+---
+id: WHITE-L1-010
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 10
+locale: nl
+title: "WHITE-L1-010"
+summary: "WHITE-L1-010"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-010: Risico en Rendement — De Basisverhouding
 
 ## Leerdoelen
 1. De algemene relatie tussen risico en potentieel rendement uitleggen.
