@@ -1,4 +1,4 @@
-# WHITE-L1-020: Wat Is Een IRA?
+---\nid: WHITE-L1-020\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 20\nlocale: nl\ntitle: "WHITE-L1-020"\nsummary: "WHITE-L1-020"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-020: Wat Is Een IRA?
 
 ## Leerdoelen
 1. Een IRA (individuele pensioenrekening) definiëren.
