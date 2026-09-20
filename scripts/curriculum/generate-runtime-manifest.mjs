@@ -3,6 +3,7 @@ import { dirname, join, relative } from "node:path";
 
 const ROOT = process.cwd();
 const COURSE_ROOT = join(ROOT, "content", "courses");
+const CURRICULUM_ROOT = join(ROOT, "content", "curriculum");
 const OUTPUT = join(ROOT, "src", "generated", "curriculum-runtime-manifest.ts");
 
 function normalize(path) {
@@ -17,15 +18,26 @@ function isEnglish(name) {
 function isRecoverableMarkdown(path) {
   const normalized = normalize(path);
   if (!normalized.endsWith(".md")) return false;
+
+  // Keep the existing recoverable canonical Level 2/3 sources.
   for (const level of [2, 3]) {
     const marker = `/level-${level}/`;
     if (!normalized.includes(marker)) continue;
     const rest = normalized.split(marker)[1] ?? "";
     const segments = rest.split("/").filter(Boolean);
     if (!segments.length) return false;
-    if (level === 2) return segments.length === 1 || isEnglish(segments[0] ?? "");
-    return segments.length > 1 && isEnglish(segments[0] ?? "");
+    if (level === 2 && (segments.length === 1 || isEnglish(segments[0] ?? ""))) return true;
+    if (level === 3 && segments.length > 1 && isEnglish(segments[0] ?? "")) return true;
   }
+
+  // Bundle committed localized course files so Netlify server functions do not
+  // depend on runtime filesystem layout to discover translations.
+  const courseLocale = normalized.match(/\/level-\d+\/([^/]+)\//u)?.[1];
+  if (courseLocale && !isEnglish(courseLocale)) return true;
+
+  // Bundle normalized curriculum sidecars such as BLACK-L1-001.es-ES.md.
+  if (normalized.includes("/content/curriculum/") && /\.[a-z]{2}(?:-[a-z0-9]+)?\.md$/iu.test(path)) return true;
+
   return false;
 }
 
@@ -39,14 +51,23 @@ function walk(dir, files = []) {
   return files;
 }
 
-const records = walk(COURSE_ROOT)
+const courseRecords = walk(COURSE_ROOT)
   .sort((a, b) => a.localeCompare(b))
   .map((path) => ({
-    path: relative(COURSE_ROOT, path).replaceAll("\\", "/"),
+    path: `courses/${relative(COURSE_ROOT, path).replaceAll("\\", "/")}`,
     content: readFileSync(path, "utf8"),
   }));
 
-if (!records.length) throw new Error("No Level 2/3 curriculum Markdown found for runtime manifest");
+const curriculumRecords = walk(CURRICULUM_ROOT)
+  .sort((a, b) => a.localeCompare(b))
+  .map((path) => ({
+    path: `curriculum/${relative(CURRICULUM_ROOT, path).replaceAll("\\", "/")}`,
+    content: readFileSync(path, "utf8"),
+  }));
+
+const records = [...courseRecords, ...curriculumRecords];
+
+if (!records.length) throw new Error("No curriculum Markdown found for runtime manifest");
 
 mkdirSync(dirname(OUTPUT), { recursive: true });
 writeFileSync(
@@ -55,4 +76,4 @@ writeFileSync(
   "utf8",
 );
 
-console.log(`[curriculum-runtime-manifest] bundled ${records.length} committed Level 2/3 source files`);
+console.log(`[curriculum-runtime-manifest] bundled ${records.length} committed curriculum/runtime files`);
