@@ -1,4 +1,4 @@
-# WHITE-L1-025: Groeiaandelen vs. Waarde-Aandelen
+---\nid: WHITE-L1-025\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 25\nlocale: nl\ntitle: "WHITE-L1-025"\nsummary: "WHITE-L1-025"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-025: Groeiaandelen vs. Waarde-Aandelen
 
 ## Leerdoelen
 1. Groeiaandelen onderscheiden van waarde-aandelen.
