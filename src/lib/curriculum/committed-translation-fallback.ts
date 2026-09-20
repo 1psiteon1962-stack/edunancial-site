@@ -80,6 +80,41 @@ function walk(root: string, files: string[] = []): string[] {
   return files;
 }
 
+function directTranslationLookup(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
+  const match = lessonId.trim().toUpperCase().match(LESSON_ID);
+  if (!match) return undefined;
+  const [, track, level] = match;
+  const requested = resolveCurriculumLocale(languageOrLocale);
+  for (const candidateLocale of getCurriculumLocaleFallbackChain(requested)) {
+    const normalized = resolveCurriculumLocale(candidateLocale);
+    if (normalized === "en" || normalized === "en-US") break;
+    const localeNames = Array.from(new Set([
+      normalized,
+      normalized.toLowerCase(),
+      normalized.replaceAll("-", "_"),
+      normalized.replaceAll("-", "_").toLowerCase(),
+    ]));
+    const currentPath = join(REPO_ROOT, "content", "curriculum", track, `L${level}`, `${lessonId.toUpperCase()}.${normalized}.md`);
+    if (existsSync(currentPath) && statSync(currentPath).isFile()) {
+      const translation = parseMarkdown(readFileSync(currentPath, "utf8"), lessonId.toUpperCase());
+      if (translation && isCompleteLocaleTranslation(translation, normalized)) return translation;
+    }
+    for (const localeName of localeNames) {
+      const legacyDir = join(REPO_ROOT, "content", "courses", track.toLowerCase(), `level-${level}`, localeName);
+      if (!existsSync(legacyDir) || !statSync(legacyDir).isDirectory()) continue;
+      const idNeedle = lessonId.toLowerCase();
+      for (const filename of readdirSync(legacyDir)) {
+        if (!filename.toLowerCase().endsWith(".md") || !filename.toLowerCase().includes(idNeedle)) continue;
+        const path = join(legacyDir, filename);
+        if (!statSync(path).isFile()) continue;
+        const translation = parseMarkdown(readFileSync(path, "utf8"), lessonId.toUpperCase());
+        if (translation && isCompleteLocaleTranslation(translation, normalized)) return translation;
+      }
+    }
+  }
+  return undefined;
+}
+
 function buildIndex(): Map<string, TranslationEntry[]> {
   const index = new Map<string, TranslationEntry[]>();
   for (const root of [join(REPO_ROOT, "content", "curriculum"), join(REPO_ROOT, "content", "courses")]) {
@@ -116,6 +151,8 @@ function isCompleteLocaleTranslation(translation: PublishedLessonTranslation, lo
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
+  const direct = directTranslationLookup(lessonId, requested);
+  if (direct) return direct;
   committedIndex ??= buildIndex();
   const entries = committedIndex.get(lessonId.trim().toUpperCase());
   if (!entries?.length) return undefined;

@@ -56,3 +56,11 @@ test("legacy localized markdown without front matter derives a summary from body
     rmSync(path, { force: true });
   }
 });
+
+
+test("direct lookup resolves a complete WHITE Italian legacy lesson", () => {
+  const translation = getCommittedLessonTranslation("WHITE-L1-001", "it");
+  assert.ok(translation, "WHITE-L1-001 Italian legacy translation should resolve directly");
+  assert.match(translation.title ?? "", /Cosa Sono gli Attivi di Carta/u);
+  assert.match(translation.body ?? "", /Gli attivi di carta sono strumenti finanziari/u);
+});
