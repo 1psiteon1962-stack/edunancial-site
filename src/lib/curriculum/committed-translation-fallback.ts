@@ -25,7 +25,18 @@ function parseMarkdown(raw: string, lessonId: string): PublishedLessonTranslatio
   }
   const heading = body.match(/^#\s+(.+)$/mu)?.[1]?.trim();
   const title = frontMatter.title?.trim() || heading?.replace(new RegExp(`^${lessonId}:?\\s*`, "iu"), "").trim();
-  const summary = frontMatter.summary?.trim() || frontMatter.description?.trim();
+  const explicitSummary = frontMatter.summary?.trim() || frontMatter.description?.trim();
+  const proseParagraphs = body
+    .split(/\n\s*\n/u)
+    .map((paragraph) => paragraph.replace(/^#+\s+.*$/gmu, "").trim())
+    .filter((paragraph) =>
+      paragraph.length >= 80 &&
+      !/^(?:[-*+]\s|\d+[.)]\s|>\s)/u.test(paragraph) &&
+      !paragraph.includes("\n- ") &&
+      !paragraph.includes("\n1. "),
+    );
+  const derivedSummary = proseParagraphs[0]?.replace(/\s+/gu, " ").trim();
+  const summary = explicitSummary || derivedSummary;
   if (!title && !summary && !body) return null;
   return { ...(title ? { title } : {}), ...(summary ? { summary } : {}), ...(body ? { body } : {}) };
 }
