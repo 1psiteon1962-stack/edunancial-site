@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-028
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 28
+locale: it
+title: "Capire la Volatilità"
+summary: "*ASSUNZIONE:* La tolleranza di un investitore alla volatilità varia in base all'orizzonte temporale, alla situazione finanziaria, e al comfort psicologico nel vedere fluttuare il valore del conto — ciò che sembra gestibile per un investitore può sembrare intollerabile per un altro."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-028: Capire la Volatilità
 
 ## Obiettivi di Apprendimento

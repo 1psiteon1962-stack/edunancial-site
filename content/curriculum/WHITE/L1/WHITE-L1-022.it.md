@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-022
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 22
+locale: it
+title: "Il Contributo di Corrispondenza del Datore di Lavoro Spiegato"
+summary: "*OPINIONE:* Poiché il contributo di corrispondenza del datore di lavoro è effettivamente una compensazione aggiuntiva gratuita legata alla partecipazione, molti educatori finanziari suggeriscono comunemente di contribuire almeno abbastanza da sfruttare tutta la corrispondenza del datore di lavoro prima di dare priorità ad altri obiettivi di risparmio — anche se le circostanze finanziarie individuali variano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-022: Il Contributo di Corrispondenza del Datore di Lavoro Spiegato
 
 ## Obiettivi di Apprendimento

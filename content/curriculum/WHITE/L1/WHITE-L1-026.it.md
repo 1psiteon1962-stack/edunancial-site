@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-026
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 26
+locale: it
+title: "Le Azioni \"Blue-Chip\""
+summary: "Lezione WHITE-L1-026 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-026: Le Azioni "Blue-Chip"
 
 ## Obiettivi di Apprendimento

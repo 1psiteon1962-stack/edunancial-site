@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-025
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 25
+locale: it
+title: "Azioni di Crescita vs. Azioni di Valore"
+summary: "*ASSUNZIONE:* Nessuna categoria supera costantemente l'altra in tutti i periodi di tempo — la leadership del mercato è storicamente oscillata tra crescita e valore in momenti diversi, e prevedere quale guiderà in futuro non è affidabile."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-025: Azioni di Crescita vs. Azioni di Valore
 
 ## Obiettivi di Apprendimento

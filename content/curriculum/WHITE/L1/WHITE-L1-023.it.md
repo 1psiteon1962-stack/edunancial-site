@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-023
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 23
+locale: it
+title: "Come Leggere una Quotazione Azionaria"
+summary: "Lezione WHITE-L1-023 in italiano."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-023: Come Leggere una Quotazione Azionaria
 
 ## Obiettivi di Apprendimento

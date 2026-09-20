@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-029
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 29
+locale: it
+title: "Il Ruolo di un Consulente Finanziario"
+summary: "*FATTO VERIFICATO:* I consulenti sono comunemente compensati in modi diversi: **a sola parcella** (pagati direttamente dal cliente, senza commissioni sui prodotti), **a commissione** (guadagnano denaro dai prodotti venduti), o un ibrido di entrambi — la struttura di compensazione può influenzare cosa un consulente è incentivato a raccomandare."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-029: Il Ruolo di un Consulente Finanziario
 
 ## Obiettivi di Apprendimento

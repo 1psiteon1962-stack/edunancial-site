@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-030
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 30
+locale: it
+title: "I Robo-Advisor Spiegati"
+summary: "*ASSUNZIONE:* Il compromesso comporta generalmente una consulenza meno personalizzata per situazioni finanziarie complesse o uniche rispetto a un consulente umano, anche se questo varia a seconda della piattaforma e alcune offrono servizi ibridi di umano più algoritmo."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-030: I Robo-Advisor Spiegati
 
 ## Obiettivi di Apprendimento

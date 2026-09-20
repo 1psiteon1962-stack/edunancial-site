@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-021
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 21
+locale: it
+title: "Roth vs. Conti Pensionistici Tradizionali"
+summary: "*FATTO VERIFICATO:* Un conto **Tradizionale** utilizza contributi al lordo delle imposte (riducendo il reddito imponibile ora) con prelievi tassati in pensione. Un conto **Roth** utilizza contributi al netto delle imposte (nessun beneficio fiscale attuale), ma i prelievi qualificati in pensione sono generalmente esenti da imposte, inclusa la crescita."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-021: Roth vs. Conti Pensionistici Tradizionali
 
 ## Obiettivi di Apprendimento

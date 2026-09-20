@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-024
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 24
+locale: it
+title: "La Capitalizzazione di Mercato Spiegata"
+summary: "*STIMA:* Le categorie comuni (anche se non perfettamente standardizzate) includono grande capitalizzazione (circa $10 miliardi o più), media capitalizzazione (circa $2-10 miliardi), e piccola capitalizzazione (circa $300 milioni-$2 miliardi) — le soglie esatte variano a seconda della fonte."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-024: La Capitalizzazione di Mercato Spiegata
 
 ## Obiettivi di Apprendimento

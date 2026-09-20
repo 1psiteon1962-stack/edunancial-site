@@ -1,3 +1,17 @@
+---
+id: WHITE-L1-027
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 27
+locale: it
+title: "Le Azioni di Pochi Centesimi e i Loro Rischi"
+summary: "*FATTO VERIFICATO:* Le azioni di pochi centesimi comportano generalmente un rischio elevato a causa della bassa liquidità (più difficile comprare/vendere senza muovere il prezzo), delle informazioni pubbliche limitate, e di una maggiore suscettibilità a schemi di manipolazione come il \"pump and dump\", dove i promotori gonfiano artificialmente un prezzo prima di vendere le proprie azioni ad acquirenti ignari."
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
 # WHITE-L1-027: Le Azioni di Pochi Centesimi e i Loro Rischi
 
 ## Obiettivi di Apprendimento
