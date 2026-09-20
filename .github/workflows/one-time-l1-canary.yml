@@ -8,7 +8,7 @@ permissions:
   contents: write
 jobs:
   canary:
-    if: github.actor != 'github-actions[bot]' && github.event.head_commit.message != 'Generate PURPLE L1 lesson 1 Italian canary'
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -51,6 +51,11 @@ jobs:
       - name: Regenerate localization manifest
         if: steps.translation_provider.outputs.available == 'true'
         run: npm run curriculum:localization:global
+      - name: Run curriculum integrity validation
+        if: steps.translation_provider.outputs.available == 'true'
+        run: |
+          npm run curriculum:test
+          npm run curriculum:validate
       - name: Commit generated Italian canary
         if: steps.translation_provider.outputs.available == 'true'
         run: |
