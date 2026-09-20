@@ -3,6 +3,7 @@ import path from "node:path";
 
 const requested=process.argv[2]||"all";
 const requestedTrack=(process.env.EDUNANCIAL_TRANSLATION_TRACK||"").trim().toUpperCase();
+const requestedLevel=(process.env.EDUNANCIAL_TRANSLATION_LEVEL||"1").trim();
 const requestedLesson=(process.env.EDUNANCIAL_TRANSLATION_LESSON||"").trim();
 const force=process.env.EDUNANCIAL_TRANSLATION_FORCE==="1";
 
@@ -22,23 +23,30 @@ const root=process.cwd();
 const registry=JSON.parse(fs.readFileSync("curriculum/registry.json","utf8"));
 const lessons=[];
 for(const track of Object.values(registry.tracks||{})) {
-  const level=track.levels?.["1"];
-  if(!level) continue;
-  for(const a of Object.values(level.assets||{})) {
-    if(a.type==="lesson"&&a.status==="active"&&a.lessonNumber>=1&&a.lessonNumber<=50) lessons.push(a);
+  for(const [levelKey,level] of Object.entries(track.levels||{})) {
+    for(const a of Object.values(level.assets||{})) {
+      if(a.type==="lesson"&&a.status==="active"&&a.lessonNumber>=1&&a.lessonNumber<=50) {
+        lessons.push({...a,level:Number(a.level??levelKey)});
+      }
+    }
   }
 }
 
-let selected=lessons.sort((a,b)=>a.track.localeCompare(b.track)||a.lessonNumber-b.lessonNumber);
+let selected=lessons.sort((a,b)=>a.track.localeCompare(b.track)||(a.level-b.level)||a.lessonNumber-b.lessonNumber);
 if(requestedTrack) selected=selected.filter(a=>String(a.track).toUpperCase()===requestedTrack);
+if(requestedLevel!=="all") {
+  const levelNumber=Number(requestedLevel);
+  if(!Number.isInteger(levelNumber)||levelNumber<1||levelNumber>5) throw new Error(`Unsupported curriculum level: ${requestedLevel}`);
+  selected=selected.filter(a=>Number(a.level)===levelNumber);
+}
 if(requestedLesson) {
   const lessonNumber=Number(requestedLesson);
   selected=selected.filter(a=>String(a.id)===requestedLesson||a.lessonNumber===lessonNumber);
 }
 if(selected.length===0) {
-  throw new Error(`No active Level 1 lessons matched track=${requestedTrack||"ALL"} lesson=${requestedLesson||"ALL"}`);
+  throw new Error(`No active lessons matched track=${requestedTrack||"ALL"} level=${requestedLevel||"ALL"} lesson=${requestedLesson||"ALL"}`);
 }
-console.log(`Localization selection: ${selected.length} lesson(s), locale(s): ${locales.join(", ")}, force=${force}`);
+console.log(`Localization selection: ${selected.length} lesson(s), level(s): ${requestedLevel}, locale(s): ${locales.join(", ")}, force=${force}`);
 
 const parse=raw=>{
   const m=/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/u.exec(raw);
@@ -64,13 +72,13 @@ const good=(s,locale)=>{
   return true;
 };
 
-const outPath=(a,locale)=>path.join(root,"content","curriculum",a.track,"L1",`${a.id}.${locale}.md`);
+const outPath=(a,locale)=>path.join(root,"content","curriculum",a.track,`L${a.level}`,`${a.id}.${locale}.md`);
 
 async function translate(a,raw,locale){
   const p=parse(raw);
   const sourceTitle=p.fm.title||a.title||a.id;
   const sourceSummary=p.fm.summary||a.metadata?.summary||"";
-  const prompt=`Translate this complete Edunancial financial-education lesson from English to natural professional ${locale}. Preserve ALL Markdown structure, headings, lists, examples, case studies, quiz questions, answer keys, warnings, factual qualifiers, numbers, formulas, URLs, and the author's meaning. Do not summarize, omit, add investment advice, or leave English instructional prose. Return ONLY valid JSON with keys title, summary, body. body must contain the full translated Markdown lesson body. Lesson ID: ${a.id}\nTITLE:\n${sourceTitle}\nSUMMARY:\n${sourceSummary}\nBODY:\n${p.body}`;
+  const prompt=`Translate this complete Edunancial financial-education lesson from English to natural professional ${locale}. Preserve ALL Markdown structure, headings, lists, examples, case studies, quiz questions, answer keys, warnings, factual qualifiers, numbers, formulas, URLs, and the author's meaning. Do not summarize, omit, add investment advice, or leave English instructional prose. Return ONLY valid JSON with keys title, summary, body. body must contain the full translated Markdown lesson body. Lesson ID: ${a.id}\nTRACK: ${a.track}\nLEVEL: ${a.level}\nTITLE:\n${sourceTitle}\nSUMMARY:\n${sourceSummary}\nBODY:\n${p.body}`;
   const headers={"Authorization":`Bearer ${apiKey}`,"Content-Type":"application/json"};
   if(organization) headers["OpenAI-Organization"]=organization;
   const res=await fetch("https://api.openai.com/v1/chat/completions",{
