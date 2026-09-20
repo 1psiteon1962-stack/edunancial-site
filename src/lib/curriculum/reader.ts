@@ -9,7 +9,7 @@
  * No code changes are needed when new lessons are added.
  */
 
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { basename, dirname, join } from "node:path";
 
 import {
@@ -760,19 +760,23 @@ function resolveLessonSource(
     const directoryCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
       localeFilename(localeDirectory).map((filename) => join(levelDirectory, localeDirectory, filename))
     );
-    const legacyCourseCandidates = localeDirectoryNames.flatMap((localeDirectory) =>
-      localeFilename(localeDirectory).map((filename) =>
-        join(
-          REPO_ROOT,
-          "content",
-          "courses",
-          asset.track.toLowerCase(),
-          `level-${asset.level}`,
-          localeDirectory,
-          filename,
-        )
-      )
-    );
+    const legacyCourseCandidates = localeDirectoryNames.flatMap((localeDirectory) => {
+      const localeDir = join(
+        REPO_ROOT,
+        "content",
+        "courses",
+        asset.track.toLowerCase(),
+        `level-${asset.level}`,
+        localeDirectory,
+      );
+      const namedCandidates = localeFilename(localeDirectory).map((filename) => join(localeDir, filename));
+      if (!existsSync(localeDir)) return namedCandidates;
+      const idNeedle = asset.id.toLowerCase();
+      const discovered = readdirSync(localeDir)
+        .filter((filename) => filename.toLowerCase().endsWith(".md") && filename.toLowerCase().includes(idNeedle))
+        .map((filename) => join(localeDir, filename));
+      return [...namedCandidates, ...discovered];
+    });
     const candidatePath = candidateLocale === "en"
       ? canonicalPath
       : [sidecarPath, ...directoryCandidates, ...legacyCourseCandidates].find((path) => existsSync(path));
