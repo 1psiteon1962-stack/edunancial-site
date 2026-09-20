@@ -1,4 +1,4 @@
-# WHITE-L1-040: Een Portefeuille Herbalanceren
+---\nid: WHITE-L1-040\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 40\nlocale: nl\ntitle: "WHITE-L1-040"\nsummary: "WHITE-L1-040"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-040: Een Portefeuille Herbalanceren
 
 ## Leerdoelen
 1. Portefeuilleherbalancering definiëren.
