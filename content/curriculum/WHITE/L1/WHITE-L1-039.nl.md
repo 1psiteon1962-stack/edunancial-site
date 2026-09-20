@@ -1,4 +1,4 @@
-# WHITE-L1-039: De Tijdswaarde van Geld
+---\nid: WHITE-L1-039\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 39\nlocale: nl\ntitle: "WHITE-L1-039"\nsummary: "WHITE-L1-039"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-039: De Tijdswaarde van Geld
 
 ## Leerdoelen
 1. Het concept van de tijdswaarde van geld definiëren.
