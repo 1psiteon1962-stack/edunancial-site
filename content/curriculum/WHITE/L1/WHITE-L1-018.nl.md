@@ -1,4 +1,4 @@
-# WHITE-L1-018: Kostenratio's Begrijpen
+---\nid: WHITE-L1-018\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 18\nlocale: nl\ntitle: "WHITE-L1-018"\nsummary: "WHITE-L1-018"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-018: Kostenratio's Begrijpen
 
 ## Leerdoelen
 1. Een kostenratio definiëren.
