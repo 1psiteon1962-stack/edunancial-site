@@ -18,6 +18,7 @@ import {
   resolveCurriculumLocale,
   type CurriculumLocale,
 } from "./localization";
+import { getCommittedLessonTranslation } from "./committed-translation-fallback";
 import {
   ACADEMIES,
   ACADEMY_MAP,
@@ -794,6 +795,35 @@ function resolveLessonSource(
         missingFields,
       },
     };
+  }
+
+  if (requestedLocale !== "en" && requestedLocale !== "en-US") {
+    const committed = getCommittedLessonTranslation(asset.id, requestedLocale);
+    if (committed?.title?.trim() && committed?.summary?.trim() && committed?.body?.trim()) {
+      const rawCanonical = readFileSync(canonicalPath, "utf-8");
+      const canonical = parseFrontMatter(rawCanonical);
+      return {
+        frontMatter: {
+          ...canonical.frontMatter,
+          title: committed.title,
+          summary: committed.summary,
+          locale: requestedLocale,
+        },
+        body: committed.body,
+        videos: canonical.videos,
+        localization: {
+          requestedLocale,
+          candidateLocales,
+          resolvedLocale: requestedLocale,
+          resolution: "exact",
+          translated: true,
+          usedFallback: false,
+          canonicalPath,
+          resolvedPath: `committed:${asset.id}:${requestedLocale}`,
+          missingFields: [],
+        },
+      };
+    }
   }
 
   const raw = readFileSync(canonicalPath, "utf-8");
