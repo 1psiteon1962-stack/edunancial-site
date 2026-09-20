@@ -1,4 +1,4 @@
-# WHITE-L1-023: Hoe Een Aandelenkoers Lezen
+---\nid: WHITE-L1-023\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 23\nlocale: nl\ntitle: "WHITE-L1-023"\nsummary: "WHITE-L1-023"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-023: Hoe Een Aandelenkoers Lezen
 
 ## Leerdoelen
 1. De gangbare elementen identificeren die worden weergegeven in een aandelenkoers.
