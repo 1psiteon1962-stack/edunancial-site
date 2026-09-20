@@ -1,4 +1,18 @@
----\nid: WHITE-L1-043\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 43\nlocale: nl\ntitle: "WHITE-L1-043"\nsummary: "WHITE-L1-043"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-043: Hoe Het Jaarverslag van Een Bedrijf Lezen — De Basis
+---
+id: WHITE-L1-043
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 43
+locale: nl
+title: "WHITE-L1-043"
+summary: "WHITE-L1-043"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-043: Hoe Het Jaarverslag van Een Bedrijf Lezen — De Basis
 
 ## Leerdoelen
 1. Het algemene doel van een jaarverslag identificeren.
