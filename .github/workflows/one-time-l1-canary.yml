@@ -8,6 +8,7 @@ permissions:
   contents: write
 jobs:
   canary:
+    if: github.actor != 'github-actions[bot]' && github.event.head_commit.message != 'Generate PURPLE L1 lesson 1 Italian canary'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
