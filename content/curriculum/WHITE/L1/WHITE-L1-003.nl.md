@@ -1,4 +1,18 @@
----\nid: WHITE-L1-003\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 3\nlocale: nl\ntitle: "WHITE-L1-003"\nsummary: "WHITE-L1-003"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-003: Obligaties — Uw Geld Uitlenen in Ruil voor Rente
+---
+id: WHITE-L1-003
+track: WHITE
+officialTrackName: Paper Assets
+level: 1
+lessonNumber: 3
+locale: nl
+title: "WHITE-L1-003"
+summary: "WHITE-L1-003"
+sourceVersion: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# WHITE-L1-003: Obligaties — Uw Geld Uitlenen in Ruil voor Rente
 
 ## Leerdoelen
 1. Een obligatie in eenvoudige bewoordingen definiëren.
