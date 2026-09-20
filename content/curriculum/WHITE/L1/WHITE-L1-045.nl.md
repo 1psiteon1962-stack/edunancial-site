@@ -1,4 +1,4 @@
-# WHITE-L1-045: Short Selling Uitgelegd
+---\nid: WHITE-L1-045\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 45\nlocale: nl\ntitle: "WHITE-L1-045"\nsummary: "WHITE-L1-045"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-045: Short Selling Uitgelegd
 
 ## Leerdoelen
 1. Short selling definiëren.
