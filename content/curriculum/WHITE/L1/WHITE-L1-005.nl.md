@@ -1,4 +1,4 @@
-# WHITE-L1-005: ETF's vs. Beleggingsfondsen
+---\nid: WHITE-L1-005\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 5\nlocale: nl\ntitle: "WHITE-L1-005"\nsummary: "WHITE-L1-005"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-005: ETF's vs. Beleggingsfondsen
 
 ## Leerdoelen
 1. Een ETF (op de beurs verhandeld fonds) definiëren.
