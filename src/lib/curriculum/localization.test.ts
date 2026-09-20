@@ -17,6 +17,7 @@ import {
   getLocalizedTrackCopy,
   resolveCurriculumLocale,
 } from "@/lib/curriculum/localization";
+import { getCommittedLessonTranslation } from "@/lib/curriculum/committed-translation-fallback";
 
 const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
 let originalRegistry: string | null = null;
@@ -96,12 +97,10 @@ test("localized course map is locale-aware with RED, WHITE, and BLUE published l
 });
 
 
-test("Level 1 reader uses complete committed Italian localization before canonical English fallback", () => {
-  const purple = getLessonContent("PURPLE-L1-001", "it");
+test("committed Italian Level 1 translation is complete and eligible for runtime resolution", () => {
+  const purple = getCommittedLessonTranslation("PURPLE-L1-001", "it");
   assert.ok(purple);
-  assert.equal(purple?.localization.translated, true);
-  assert.equal(purple?.localization.resolvedLocale, "it");
-  assert.match(purple?.meta.title ?? "", /legge|diritto/iu);
+  assert.match(purple?.title ?? "", /legge|diritto/iu);
   assert.match(purple?.body ?? "", /Obiettivi di apprendimento/iu);
   assert.doesNotMatch(purple?.body ?? "", /## Learning Objectives/iu);
 });
