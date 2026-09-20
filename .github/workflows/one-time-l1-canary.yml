@@ -1,0 +1,80 @@
+name: One-time L1 Italian canary
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/one-time-l1-canary.yml
+permissions:
+  contents: write
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENAI_ORGANIZATION: org-5Mmp9o6SiLOFDfUWbzF7xoPI
+      EDUNANCIAL_TRANSLATION_TRACK: PURPLE
+      EDUNANCIAL_TRANSLATION_LESSON: "1"
+      EDUNANCIAL_TRANSLATION_FORCE: "1"
+      EDUNANCIAL_TRANSLATION_LOCALE: it
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Require translation provider credential
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY repository secret is required."
+            exit 78
+          fi
+      - name: Verify funded OpenAI organization and usable API credit
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
+        run: |
+          node - <<'NODE'
+          const key=process.env.OPENAI_API_KEY?.trim();
+          const org=process.env.OPENAI_ORGANIZATION?.trim();
+          const model=process.env.EDUNANCIAL_TRANSLATION_MODEL?.trim()||"gpt-4.1-mini";
+          const headers={"Authorization":`Bearer ${key}`,"Content-Type":"application/json"};
+          if(org) headers["OpenAI-Organization"]=org;
+          const res=await fetch("https://api.openai.com/v1/chat/completions",{
+            method:"POST",
+            headers,
+            body:JSON.stringify({
+              model,
+              messages:[{role:"user",content:"Reply with exactly OK"}],
+              max_tokens:2,
+              temperature:0
+            })
+          });
+          const body=await res.text();
+          if(!res.ok){
+            console.error(`OpenAI preflight failed: HTTP ${res.status} ${body}`);
+            process.exit(1);
+          }
+          console.log("OpenAI funded-organization preflight passed.");
+          NODE
+      - name: Generate PURPLE L1 lesson 1 in Italian
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
+        run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
+      - name: Verify generated lesson
+        run: |
+          test -s content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
+          grep -q 'locale: "it"' content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md
+      - name: Regenerate localization manifest
+        run: npm run curriculum:localization:global
+      - name: Commit generated Italian canary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/curriculum/PURPLE/L1/PURPLE-L1-001.it.md curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.json curriculum/reports/CURRICULUM-LOCALIZATION-COVERAGE.md
+          git diff --cached --quiet || git commit -m "Generate PURPLE L1 lesson 1 Italian canary"
+          git push origin HEAD:main
