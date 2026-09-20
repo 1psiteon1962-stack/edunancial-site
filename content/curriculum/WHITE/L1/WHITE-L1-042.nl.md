@@ -1,4 +1,4 @@
-# WHITE-L1-042: Te Vermijden Gedragsmatige Beleggingsfouten
+---\nid: WHITE-L1-042\ntrack: WHITE\nofficialTrackName: Paper Assets\nlevel: 1\nlessonNumber: 42\nlocale: nl\ntitle: "WHITE-L1-042"\nsummary: "WHITE-L1-042"\nsourceVersion: "1.0"\nauthor: Waldemar M. Caban, JD MA\ndate: 2026-08-08\n---\n\n# WHITE-L1-042: Te Vermijden Gedragsmatige Beleggingsfouten
 
 ## Leerdoelen
 1. Gangbare psychologische vooroordelen identificeren die beleggingsbeslissingen beïnvloeden.
