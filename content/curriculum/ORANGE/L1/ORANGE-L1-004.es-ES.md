@@ -6,53 +6,52 @@ level: 1
 lessonNumber: 4
 locale: es-ES
 title: "El embudo de ventas: de desconocido a cliente"
-summary: "Introduces the sales funnel as a map of how a stranger becomes a paying customer."
+summary: "Introduce el embudo de ventas como un mapa del recorrido que convierte a un desconocido en cliente."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The Sales Funnel: From Stranger to Customer
+# El embudo de ventas: de desconocido a cliente
 
-## Learning Objectives
-- Describe the basic stages of a sales funnel
-- Explain why fewer people move through each stage
-- Identify what stage a given customer interaction represents
+## Objetivos de aprendizaje
+- Describir las etapas básicas de un embudo de ventas.
+- Explicar por qué cada vez menos personas avanzan por cada etapa.
+- Identificar qué etapa representa una interacción determinada con un cliente.
 
-## Core Content
+## Contenido principal
 
-A sales funnel is just a map of how a total stranger becomes a paying customer. It's called a funnel because it's wide at the top and narrow at the bottom — lots of people enter, fewer make it all the way through.
+Un embudo de ventas es simplemente un mapa de cómo un completo desconocido se convierte en cliente de pago. Se llama embudo porque es ancho en la parte superior y estrecho en la inferior: entran muchas personas, pero menos llegan hasta el final.
 
-The four basic stages are: **Awareness** (they find out you exist), **Interest** (they want to know more), **Decision** (they're weighing whether to buy), and **Action** (they actually buy). Not everyone who becomes aware of you gets interested. Not everyone interested reaches a decision. And not everyone who considers buying actually does. That's normal — it's not a sign you're failing.
+Las cuatro etapas básicas son: **Conocimiento** (descubren que existes), **Interés** (quieren saber más), **Decisión** (valoran si comprar) y **Acción** (compran de verdad). No todas las personas que te conocen se interesan. No todas las interesadas llegan a decidir. Y no todas las que consideran comprar terminan haciéndolo. Es normal; no significa que estés fracasando.
 
-Understanding the funnel helps you diagnose problems in your business. If a hundred people see your ad but nobody clicks, your awareness stage is fine but your interest stage is broken — the message isn't compelling. If people are asking lots of questions but not buying, your decision stage needs work — maybe pricing, trust, or clarity is the issue.
+Comprender el embudo ayuda a diagnosticar problemas del negocio. Si cien personas ven tu anuncio pero nadie hace clic, la etapa de conocimiento funciona, pero la de interés está fallando: el mensaje no resulta atractivo. Si muchas personas hacen preguntas pero no compran, debes trabajar la etapa de decisión: quizá el problema sea el precio, la confianza o la claridad.
 
-## Worked Example
+## Ejemplo práctico
 
-A local bakery posts photos of their bread on social media (Awareness). Twenty people comment asking about prices (Interest). Twelve of those people ask follow-up questions like "Do you deliver?" and "Is it vegan?" (Decision). Five of them actually place an order (Action).
+Una panadería local publica fotos de su pan en redes sociales (Conocimiento). Veinte personas comentan preguntando precios (Interés). Doce hacen preguntas adicionales como «¿Hacéis entregas?» o «¿Es vegano?» (Decisión). Cinco realizan un pedido (Acción).
 
-If the bakery owner only looks at the twenty comments and feels good about "engagement," they're missing the real number that matters — five paying customers out of twenty interested people. Improving that decision-stage drop-off (maybe by answering common questions upfront) could turn more of those twelve decision-stage people into buyers.
+Si el propietario solo mira los veinte comentarios y se alegra por la «interacción», está ignorando la cifra que realmente importa: cinco clientes de pago de veinte personas interesadas. Mejorar la caída en la etapa de decisión podría convertir a más de esas doce personas en compradores.
 
-## Practice Quiz
+## Cuestionario práctico
+1. Nombra en orden las cuatro etapas del embudo de ventas.
+2. ¿Por qué el embudo es más ancho arriba que abajo?
+3. Si muchas personas ven tu producto pero nadie pregunta por él, ¿qué etapa probablemente necesita mejorar?
+4. ¿Es normal que las cifras disminuyan en cada etapa?
 
-1. Name the four stages of the sales funnel in order.
-2. Why is the funnel wider at the top than the bottom?
-3. If lots of people see your product but nobody asks questions about it, which stage likely needs work?
-4. Is it normal for the numbers to shrink at each stage?
+## Respuestas
+1. Conocimiento, Interés, Decisión y Acción.
+2. Porque no todas las personas de una etapa avanzan a la siguiente.
+3. Interés: el conocimiento funcionó, pero el mensaje no despierta curiosidad.
+4. Sí, es normal en todos los embudos.
 
-## Answer Key
-1. Awareness, Interest, Decision, Action.
-2. Because not everyone at one stage moves forward to the next — some drop off along the way.
-3. Interest — the awareness worked, but the message isn't sparking curiosity.
-4. Yes, this is expected in every funnel.
+## Respuestas y explicaciones
+1. Esta es la secuencia esencial enseñada en la lección.
+2. La forma del embudo representa visualmente la pérdida natural de personas entre etapas.
+3. Si las personas lo ven pero no interactúan, el problema está en el paso de Conocimiento a Interés.
+4. Que las cifras disminuyan no significa fracaso; es una parte normal del funcionamiento del embudo. El objetivo es mejorar las tasas de conversión.
 
-## Answers and Explanations
-1. This is the core sequence taught in the lesson.
-2. The funnel shape visually represents natural drop-off between each stage.
-3. If people see it but don't engage, the issue is the transition from Awareness to Interest.
-4. Shrinking numbers don't mean failure — they're a normal, expected part of how funnels work, and the goal is to improve conversion rates, not eliminate drop-off entirely.
-
-## Key Takeaways
-- The sales funnel maps how strangers become customers in four stages.
-- Numbers naturally shrink at each stage — that's expected, not a failure.
-- Diagnosing which stage is weak tells you exactly where to focus improvement.
+## Puntos clave
+- El embudo de ventas muestra cómo los desconocidos se convierten en clientes mediante cuatro etapas.
+- Las cifras disminuyen naturalmente en cada etapa; es normal.
+- Identificar qué etapa es débil indica exactamente dónde concentrar las mejoras.
