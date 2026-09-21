@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 28
-title: "Win-Win Framing"
-summary: "Teaches how to frame a deal so both sides genuinely feel they gained something, strengthening long-term relationships."
+locale: fr-FR
+title: "Présenter un accord gagnant-gagnant"
+summary: "Apprend à présenter un accord dans lequel les deux parties gagnent réellement quelque chose, renforçant ainsi la relation à long terme."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Win-Win Framing
+# Présenter un accord gagnant-gagnant
 
 ## Objectifs d’apprentissage
-- Explain why win-win outcomes lead to stronger long-term business relationships
-- Identify the difference between a real win-win and a disguised one-sided win
-- Practice reframing a deal to highlight mutual benefit honestly
+- Expliquer pourquoi les résultats gagnant-gagnant renforcent les relations commerciales à long terme
+- Distinguer un véritable gagnant-gagnant d’une victoire unilatérale déguisée
+- S’exercer à présenter honnêtement le bénéfice mutuel d’un accord
 
 ## Contenu principal
 
-A win-win deal is one where both sides genuinely gain something, not just where one side is told they're winning while actually giving up more than they realize. Real win-win framing depends on the deal actually being fair, not just sounding fair.
+Un accord gagnant-gagnant est un accord dans lequel les deux parties obtiennent réellement quelque chose, et non une situation où l’on dit simplement à l’une qu’elle gagne alors qu’elle cède davantage qu’elle ne le comprend. Une véritable présentation gagnant-gagnant exige que l’accord soit réellement équitable, pas seulement qu’il en ait l’air.
 
-This matters beyond any single transaction because business relationships are rarely one-and-done. A customer who feels genuinely well-treated is far more likely to return, refer others, and speak positively about the business. A customer who later realizes a deal wasn't actually mutual — that they were talked into something lopsided — often becomes a source of negative word-of-mouth instead of positive.
+Cela compte au-delà d’une transaction unique parce que les relations commerciales sont rarement ponctuelles. Un client qui estime avoir été réellement bien traité est beaucoup plus susceptible de revenir, de recommander l’entreprise et d’en parler positivement. Un client qui découvre plus tard que l’accord n’était pas réellement mutuel devient souvent une source de bouche-à-oreille négatif.
 
-Framing a deal honestly as win-win means being able to clearly articulate what the other side is actually gaining, in terms they'd agree with themselves, not just terms convenient to the seller.
+Présenter honnêtement un accord comme gagnant-gagnant signifie pouvoir expliquer clairement ce que l’autre partie obtient réellement, dans des termes qu’elle reconnaîtrait elle-même comme exacts, et non seulement dans les termes qui arrangent le vendeur.
 
 ## Exemple pratique
 
-A supplier offers a smaller business a bulk discount in exchange for a longer contract commitment. Framed dishonestly: "This is a great deal for you" (vague, self-serving). Framed as a genuine win-win: "You get a lower per-unit cost and predictable pricing for the next year, and I get steady, predictable demand I can plan production around — this works well for both of us." The second framing is specific enough that the smaller business can verify for themselves that it's actually true, not just take the seller's word for it.
+Un fournisseur offre à une petite entreprise une remise sur volume en échange d’un engagement contractuel plus long. Présentation vague : « C’est une excellente affaire pour vous. » Présentation véritablement gagnant-gagnant : « Vous obtenez un coût unitaire plus faible et un prix prévisible pendant un an ; de mon côté, j’obtiens une demande régulière qui me permet de planifier ma production. Cela fonctionne bien pour nous deux. » La seconde formulation est suffisamment précise pour que la petite entreprise puisse vérifier elle-même qu’elle est vraie.
 
 ## Quiz pratique
-
-1. What makes a deal a genuine win-win, rather than a disguised one-sided win?
-2. Why does win-win framing matter beyond a single transaction?
-3. What happens when a customer later realizes a deal wasn't actually mutual?
-4. What makes win-win framing honest, according to this lesson?
+1. Qu’est-ce qui rend un accord véritablement gagnant-gagnant ?
+2. Pourquoi cette présentation compte-t-elle au-delà d’une seule transaction ?
+3. Que se passe-t-il lorsqu’un client découvre ensuite que l’accord n’était pas réellement mutuel ?
+4. Qu’est-ce qui rend une présentation gagnant-gagnant honnête ?
 
 ## Corrigé
-1. Both sides genuinely gain something real, not just being told they're winning.
-2. Because business relationships are ongoing, and how a customer feels afterward affects future business and referrals.
-3. They often become a source of negative word-of-mouth rather than positive.
-4. Being specific enough about what the other side gains that they could verify it's true themselves.
+1. Les deux parties obtiennent réellement quelque chose de concret, et ne se contentent pas d’entendre qu’elles gagnent.
+2. Parce que les relations commerciales se poursuivent et que le ressenti du client influence les affaires futures et les recommandations.
+3. Le client peut devenir une source de bouche-à-oreille négatif plutôt que positif.
+4. Expliquer précisément ce que l’autre partie gagne, de façon suffisamment vérifiable pour qu’elle puisse constater elle-même que c’est vrai.
 
 ## Réponses et explications
-1. This distinguishes real mutual benefit from manipulative framing that only sounds mutual.
-2. Long-term relationship health depends on deals actually being fair, not just appearing fair in the moment.
-3. Discovering a lopsided deal after the fact damages trust and can turn a customer into a detractor.
-4. Specificity and verifiability are what separate honest win-win framing from vague reassurance.
+1. Cela distingue un bénéfice mutuel réel d’une présentation manipulatrice qui ne fait qu’en donner l’apparence.
+2. La santé d’une relation à long terme dépend d’accords réellement équitables.
+3. Découvrir après coup un accord déséquilibré détruit la confiance et peut transformer un client en détracteur.
+4. La précision et la vérifiabilité distinguent une présentation honnête d’une simple assurance vague.
 
 ## Points clés
-- A genuine win-win means both sides actually gain something real, verifiable, and specific.
-- Win-win framing matters because business relationships are ongoing, not one-time events.
-- Vague reassurance ("this is a great deal for you") isn't honest framing — specificity is what makes it credible.
+- Un véritable accord gagnant-gagnant apporte aux deux parties un bénéfice réel, précis et vérifiable.
+- Cette approche compte parce que les relations commerciales dépassent généralement une transaction unique.
+- Dire vaguement « c’est une bonne affaire pour vous » ne suffit pas : la précision rend l’affirmation crédible.
