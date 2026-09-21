@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 25
-title: "Scarcity vs. Manipulation: Where's the Line?"
-summary: "Examines the ethical boundary between genuine scarcity and manufactured pressure tactics."
+locale: fr-FR
+title: "Rareté ou manipulation : où se situe la limite ?"
+summary: "Examine la frontière éthique entre une véritable rareté et des tactiques de pression fabriquées."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Scarcity vs. Manipulation: Where's the Line?
+# Rareté ou manipulation : où se situe la limite ?
 
 ## Objectifs d’apprentissage
-- Explain the psychological effect of scarcity on decision-making
-- Identify the ethical line between real and fabricated scarcity
-- Practice communicating genuine scarcity without pressure tactics
+- Expliquer l’effet psychologique de la rareté sur la décision
+- Identifier la frontière éthique entre rareté réelle et fabriquée
+- S’exercer à communiquer une véritable rareté sans tactiques de pression
 
 ## Contenu principal
 
-Scarcity — the idea that something is limited in quantity or availability — makes people value something more and decide faster. This is a real psychological effect, and it's ethical to communicate honestly when scarcity is genuinely true: limited seats in a workshop, a limited batch of a handmade product, a genuinely small number of appointment slots in a week.
+La rareté — l’idée qu’une chose existe en quantité ou disponibilité limitée — augmente sa valeur perçue et pousse à décider plus rapidement. Cet effet psychologique est réel et il est éthique de le communiquer lorsque la rareté est véritable : nombre limité de places dans un atelier, petite série d’un produit artisanal ou nombre réellement restreint de rendez-vous dans une semaine.
 
-The line into manipulation gets crossed when scarcity is fabricated — a fake "only 3 left" counter that resets, a claim of limited availability for something that's actually unlimited. This connects directly to the earlier lesson on ethical urgency: the same honesty test applies. If the scarcity would still be true if the customer came back and checked, it's real. If it magically resets or was never true, it's manipulation.
+La manipulation commence lorsque la rareté est fabriquée : faux compteur « plus que 3 » qui se réinitialise ou affirmation de disponibilité limitée pour quelque chose qui est en réalité illimité. Cela rejoint la leçon sur l’urgence éthique : le même test d’honnêteté s’applique. Si la rareté serait toujours vraie lorsque le client revient vérifier, elle est réelle. Si elle se réinitialise comme par magie ou n’a jamais existé, c’est de la manipulation.
 
-The reason this matters beyond ethics alone is practical: customers increasingly recognize fake scarcity tactics, especially online, and a business caught using them loses credibility fast, sometimes permanently.
+Cela compte aussi pour une raison pratique : les clients reconnaissent de plus en plus les tactiques de fausse rareté, notamment en ligne, et une entreprise prise à les utiliser peut perdre rapidement, parfois définitivement, sa crédibilité.
 
 ## Exemple pratique
 
-A furniture maker builds items by hand and genuinely can only produce eight units per month. Communicating that honestly — "I can only make eight of these a month, so if you want one for this batch, let me know by Friday" — is real, ethical scarcity. It reflects an actual production constraint.
+Un fabricant de meubles construit ses pièces à la main et ne peut réellement produire que huit unités par mois. Dire honnêtement « je ne peux en fabriquer que huit par mois ; si vous en voulez une dans cette série, dites-le-moi avant vendredi » constitue une rareté réelle et éthique, fondée sur une véritable contrainte de production.
 
-Compare that to an online store showing "Only 2 left in stock!" on every single product page regardless of actual inventory, which resets the moment the page refreshes. That's fabricated scarcity, and savvy customers increasingly notice and distrust it.
+À l’inverse, une boutique en ligne affichant « Plus que 2 en stock ! » sur tous ses produits indépendamment du stock réel, puis réinitialisant ce message à chaque actualisation, fabrique une rareté que les clients avertis remarquent et finissent par ne plus croire.
 
 ## Quiz pratique
-
-1. What psychological effect does scarcity create?
-2. What test determines whether scarcity is honest or manipulative?
-3. Give an example of genuine scarcity from the lesson.
-4. Why does fake scarcity risk more than just being "a little dishonest"?
+1. Quel effet psychologique la rareté produit-elle ?
+2. Quel test permet de déterminer si une rareté est honnête ou manipulatrice ?
+3. Donnez un exemple de véritable rareté tiré de la leçon.
+4. Pourquoi une fausse rareté risque-t-elle davantage que d’être simplement « un peu malhonnête » ?
 
 ## Corrigé
-1. It makes something feel more valuable and pushes people to decide faster.
-2. Whether the scarcity would still be true if the customer checked back later.
-3. A handmade product genuinely limited by real production capacity.
-4. Customers increasingly recognize fake scarcity, and getting caught can permanently damage trust in the business.
+1. Elle augmente la valeur perçue et pousse les personnes à décider plus vite.
+2. Vérifier si la rareté serait toujours vraie si le client revenait plus tard.
+3. Un produit artisanal réellement limité par la capacité de production.
+4. Parce que les clients reconnaissent de plus en plus ces tactiques et leur découverte peut durablement détruire la confiance.
 
 ## Réponses et explications
-1. This defines the core psychological mechanism scarcity relies on.
-2. This mirrors the honesty test from the ethical urgency lesson, applied specifically to scarcity claims.
-3. The handmade furniture example demonstrates a real, verifiable production constraint.
-4. The practical cost of getting caught reinforces why honesty isn't just an ethical preference but a business necessity.
+1. Cela définit le mécanisme psychologique central de la rareté.
+2. C’est le même test d’honnêteté que pour l’urgence éthique, appliqué à la rareté.
+3. L’exemple des meubles illustre une véritable contrainte de production vérifiable.
+4. Le coût pratique d’une tromperie découverte montre que l’honnêteté est aussi une nécessité commerciale.
 
 ## Points clés
-- Scarcity is a real psychological driver and ethical to use when genuinely true.
-- The same honesty test as urgency applies: would it still be true if the customer checked back?
-- Fabricated scarcity risks real, sometimes permanent, damage to customer trust once discovered.
+- La rareté est un moteur psychologique réel et son utilisation est éthique lorsqu’elle est véritable.
+- Le même test que pour l’urgence s’applique : l’affirmation resterait-elle vraie si le client revenait vérifier ?
+- Une rareté fabriquée peut causer des dommages réels et durables à la confiance.
