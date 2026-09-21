@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 4
-title: "The Sales Funnel: From Stranger to Customer"
-summary: "Introduces the sales funnel as a map of how a stranger becomes a paying customer."
+locale: fr-FR
+title: "L’entonnoir de vente : de l’inconnu au client"
+summary: "Présente l’entonnoir de vente comme une carte du parcours qui transforme un inconnu en client payant."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The Sales Funnel: From Stranger to Customer
+# L’entonnoir de vente : de l’inconnu au client
 
 ## Objectifs d’apprentissage
-- Describe the basic stages of a sales funnel
-- Explain why fewer people move through each stage
-- Identify what stage a given customer interaction represents
+- Décrire les étapes fondamentales d’un entonnoir de vente
+- Expliquer pourquoi moins de personnes passent à chaque étape suivante
+- Identifier l’étape correspondant à une interaction donnée avec un client
 
 ## Contenu principal
 
-A sales funnel is just a map of how a total stranger becomes a paying customer. It's called a funnel because it's wide at the top and narrow at the bottom — lots of people enter, fewer make it all the way through.
+Un entonnoir de vente est simplement une carte montrant comment un parfait inconnu devient un client payant. On parle d’entonnoir parce qu’il est large en haut et étroit en bas : beaucoup de personnes y entrent, mais moins nombreuses sont celles qui vont jusqu’au bout.
 
-The four basic stages are: **Awareness** (they find out you exist), **Interest** (they want to know more), **Decision** (they're weighing whether to buy), and **Action** (they actually buy). Not everyone who becomes aware of you gets interested. Not everyone interested reaches a decision. And not everyone who considers buying actually does. That's normal — it's not a sign you're failing.
+Les quatre étapes fondamentales sont : **Notoriété** (la personne découvre votre existence), **Intérêt** (elle veut en savoir plus), **Décision** (elle évalue si elle doit acheter) et **Action** (elle achète réellement). Toutes les personnes qui vous découvrent ne deviennent pas intéressées. Toutes les personnes intéressées ne prennent pas une décision. Et toutes celles qui envisagent d’acheter ne passent pas à l’acte. C’est normal : ce n’est pas un signe d’échec.
 
-Understanding the funnel helps you diagnose problems in your business. If a hundred people see your ad but nobody clicks, your awareness stage is fine but your interest stage is broken — the message isn't compelling. If people are asking lots of questions but not buying, your decision stage needs work — maybe pricing, trust, or clarity is the issue.
+Comprendre l’entonnoir vous aide à diagnostiquer les problèmes de votre entreprise. Si cent personnes voient votre publicité mais que personne ne clique, l’étape de notoriété fonctionne, mais celle de l’intérêt pose problème : le message n’est pas assez convaincant. Si les personnes posent beaucoup de questions sans acheter, l’étape de décision doit être améliorée : le prix, la confiance ou la clarté peuvent être en cause.
 
 ## Exemple pratique
 
-A local bakery posts photos of their bread on social media (Awareness). Twenty people comment asking about prices (Interest). Twelve of those people ask follow-up questions like "Do you deliver?" and "Is it vegan?" (Decision). Five of them actually place an order (Action).
+Une boulangerie locale publie des photos de son pain sur les réseaux sociaux (Notoriété). Vingt personnes commentent pour demander les prix (Intérêt). Douze d’entre elles posent ensuite des questions comme « Livrez-vous ? » ou « Est-ce végétalien ? » (Décision). Cinq passent effectivement commande (Action).
 
-If the bakery owner only looks at the twenty comments and feels good about "engagement," they're missing the real number that matters — five paying customers out of twenty interested people. Improving that decision-stage drop-off (maybe by answering common questions upfront) could turn more of those twelve decision-stage people into buyers.
+Si le propriétaire ne regarde que les vingt commentaires et se réjouit de « l’engagement », il passe à côté du chiffre réellement important : cinq clients payants sur vingt personnes intéressées. Réduire cette perte à l’étape de décision, par exemple en répondant à l’avance aux questions fréquentes, pourrait transformer davantage de ces douze personnes en acheteurs.
 
 ## Quiz pratique
-
-1. Name the four stages of the sales funnel in order.
-2. Why is the funnel wider at the top than the bottom?
-3. If lots of people see your product but nobody asks questions about it, which stage likely needs work?
-4. Is it normal for the numbers to shrink at each stage?
+1. Citez dans l’ordre les quatre étapes de l’entonnoir de vente.
+2. Pourquoi l’entonnoir est-il plus large en haut qu’en bas ?
+3. Si beaucoup de personnes voient votre produit mais que personne ne pose de question, quelle étape doit probablement être améliorée ?
+4. Est-il normal que le nombre de personnes diminue à chaque étape ?
 
 ## Corrigé
-1. Awareness, Interest, Decision, Action.
-2. Because not everyone at one stage moves forward to the next — some drop off along the way.
-3. Interest — the awareness worked, but the message isn't sparking curiosity.
-4. Yes, this is expected in every funnel.
+1. Notoriété, Intérêt, Décision, Action.
+2. Parce que toutes les personnes d’une étape ne passent pas à la suivante ; certaines abandonnent en cours de route.
+3. L’Intérêt : la notoriété fonctionne, mais le message ne suscite pas la curiosité.
+4. Oui. C’est attendu dans tout entonnoir.
 
 ## Réponses et explications
-1. This is the core sequence taught in the lesson.
-2. The funnel shape visually represents natural drop-off between each stage.
-3. If people see it but don't engage, the issue is the transition from Awareness to Interest.
-4. Shrinking numbers don't mean failure — they're a normal, expected part of how funnels work, and the goal is to improve conversion rates, not eliminate drop-off entirely.
+1. Il s’agit de la séquence fondamentale enseignée dans la leçon.
+2. La forme de l’entonnoir représente visuellement la diminution naturelle entre chaque étape.
+3. Si les personnes voient l’offre sans interagir, le problème se situe dans le passage de la Notoriété à l’Intérêt.
+4. La diminution des chiffres ne signifie pas un échec : elle fait normalement partie du fonctionnement d’un entonnoir. L’objectif est d’améliorer les taux de conversion, pas d’éliminer toute perte.
 
 ## Points clés
-- The sales funnel maps how strangers become customers in four stages.
-- Numbers naturally shrink at each stage — that's expected, not a failure.
-- Diagnosing which stage is weak tells you exactly where to focus improvement.
+- L’entonnoir de vente décrit en quatre étapes comment des inconnus deviennent des clients.
+- Le nombre de personnes diminue naturellement à chaque étape : c’est attendu, pas un échec.
+- Identifier l’étape faible indique précisément où concentrer les améliorations.
