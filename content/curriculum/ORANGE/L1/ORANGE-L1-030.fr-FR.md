@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 30
-title: "Social Media as a Sales Channel"
-summary: "Explains how social media functions across the sales funnel, not just for awareness."
+locale: fr-FR
+title: "Les réseaux sociaux comme canal de vente"
+summary: "Explique comment les réseaux sociaux interviennent dans tout l’entonnoir de vente et pas seulement au stade de la notoriété."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Social Media as a Sales Channel
+# Les réseaux sociaux comme canal de vente
 
 ## Objectifs d’apprentissage
-- Explain how social media supports multiple stages of the sales funnel
-- Identify the difference between broadcasting and engaging on social media
-- Practice using a social platform to move a prospect toward a decision
+- Expliquer comment les réseaux sociaux soutiennent plusieurs étapes de l’entonnoir de vente
+- Distinguer la simple diffusion de l’engagement réel sur les réseaux sociaux
+- S’exercer à utiliser une plateforme sociale pour faire progresser un prospect vers une décision
 
 ## Contenu principal
 
-Social media is often thought of as purely a marketing tool for the awareness stage — getting attention. But it can support the entire sales funnel, if used deliberately. Comments and direct messages can carry a real sales conversation forward, answering objections and building trust the same way an in-person conversation would.
+Les réseaux sociaux sont souvent considérés uniquement comme un outil marketing destiné à créer de la notoriété. Pourtant, utilisés volontairement, ils peuvent soutenir tout l’entonnoir de vente. Les commentaires et messages privés peuvent faire avancer une véritable conversation commerciale, répondre aux objections et construire la confiance comme le ferait une conversation en personne.
 
-The key distinction is between broadcasting and engaging. Broadcasting means posting content and moving on, treating the platform like a billboard. Engaging means responding to comments, answering questions in direct messages, and treating interested followers like the beginning of a real conversation, not just an audience.
+La distinction essentielle oppose la diffusion à l’engagement. Diffuser signifie publier du contenu puis passer à autre chose, comme si la plateforme était un panneau publicitaire. S’engager signifie répondre aux commentaires, répondre aux questions en message privé et traiter les abonnés intéressés comme le début d’une véritable conversation plutôt que comme un simple public.
 
-Businesses that only broadcast often see engagement (likes, follows) without much revenue, because they're leaving the sales-stage work undone. Businesses that engage turn that same attention into actual conversations that can close.
+Les entreprises qui ne font que diffuser obtiennent souvent de l’engagement — mentions J’aime et abonnements — sans beaucoup de chiffre d’affaires, car elles ne réalisent pas le travail commercial nécessaire. Celles qui s’engagent transforment cette attention en conversations susceptibles de conduire à une vente.
 
 ## Exemple pratique
 
-A small business posts a product photo and gets a comment asking about pricing. A broadcasting-only approach ignores the comment or answers with a generic auto-reply. An engaging approach responds personally, answers the question, and moves the conversation to direct messages where more detailed questions (and eventually a sale) can happen — treating the public comment as the opening of a real sales conversation rather than the end of the interaction.
+Une petite entreprise publie la photo d’un produit et reçoit un commentaire demandant le prix. Une approche fondée uniquement sur la diffusion ignore le commentaire ou répond automatiquement. Une approche engagée répond personnellement, fournit le prix et poursuit la conversation en message privé afin de traiter les questions détaillées et éventuellement conclure la vente. Le commentaire public devient ainsi le début d’une véritable conversation commerciale plutôt que la fin de l’interaction.
 
 ## Quiz pratique
-
-1. What stage of the sales funnel is social media often mistakenly limited to?
-2. What's the difference between broadcasting and engaging on social media?
-3. What often happens to businesses that only broadcast?
-4. In the worked example, how did the business turn a public comment into a sales opportunity?
+1. À quelle étape de l’entonnoir limite-t-on souvent à tort les réseaux sociaux ?
+2. Quelle est la différence entre diffusion et engagement ?
+3. Que se passe-t-il souvent pour les entreprises qui se contentent de diffuser ?
+4. Dans l’exemple, comment l’entreprise transforme-t-elle un commentaire public en occasion commerciale ?
 
 ## Corrigé
-1. Awareness.
-2. Broadcasting posts content without follow-up; engaging responds and continues the conversation.
-3. They generate attention (likes, follows) without converting it into actual revenue.
-4. By responding personally and moving the conversation into direct messages to handle detailed questions.
+1. À la notoriété.
+2. La diffusion publie sans suivi ; l’engagement répond et poursuit la conversation.
+3. Elles génèrent de l’attention sans la convertir suffisamment en chiffre d’affaires.
+4. En répondant personnellement puis en poursuivant la conversation en message privé pour traiter les questions détaillées.
 
 ## Réponses et explications
-1. This corrects the common assumption that social media only serves the top of the funnel.
-2. This distinction determines whether social media drives real sales or just visibility.
-3. Attention without engagement leaves the sales-stage work of the funnel undone.
-4. This shows social media functioning as a real sales channel, not just a marketing broadcast tool.
+1. Cela corrige l’idée selon laquelle les réseaux sociaux ne servent que le sommet de l’entonnoir.
+2. Cette distinction détermine si les réseaux sociaux génèrent des ventes ou seulement de la visibilité.
+3. L’attention sans engagement laisse inachevé le travail commercial de l’entonnoir.
+4. Cela montre les réseaux sociaux utilisés comme véritable canal de vente plutôt que comme simple outil de diffusion.
 
 ## Points clés
-- Social media can support the entire sales funnel, not just awareness, if used deliberately.
-- Engaging (responding, conversing) converts attention into sales far better than broadcasting alone.
-- Treat comments and messages as the start of real sales conversations, not just engagement metrics.
+- Les réseaux sociaux peuvent soutenir tout l’entonnoir de vente lorsqu’ils sont utilisés volontairement.
+- L’engagement transforme bien mieux l’attention en ventes que la simple diffusion.
+- Traitez commentaires et messages comme le début de véritables conversations commerciales, pas seulement comme des statistiques d’engagement.
