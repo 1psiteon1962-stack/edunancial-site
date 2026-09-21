@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 7
-title: "Needs vs. Wants: What People Actually Buy"
-summary: "Teaches the distinction between needs and wants and how both drive real purchasing decisions."
+locale: fr-FR
+title: "Besoins et envies : ce que les gens achètent réellement"
+summary: "Explique la distinction entre besoins et envies et comment les deux influencent les décisions d’achat réelles."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Needs vs. Wants: What People Actually Buy
+# Besoins et envies : ce que les gens achètent réellement
 
 ## Objectifs d’apprentissage
-- Distinguish between a need and a want in a purchasing context
-- Explain why most purchases involve both a need and a want
-- Identify which one is driving a given buying decision
+- Distinguer un besoin d’une envie dans un contexte d’achat
+- Expliquer pourquoi la plupart des achats combinent besoin et envie
+- Identifier lequel des deux motive une décision d’achat donnée
 
 ## Contenu principal
 
-A need is something a person requires to function — food, shelter, basic transportation, medical care. A want is something a person desires beyond that requirement — a specific brand of shoes, a nicer car than necessary, a fancier version of something they could get more cheaply.
+Un besoin est quelque chose dont une personne a besoin pour fonctionner : nourriture, logement, transport de base, soins médicaux. Une envie est quelque chose qu’elle désire au-delà de cette nécessité : une marque précise de chaussures, une voiture plus luxueuse que nécessaire ou une version plus sophistiquée d’un produit disponible moins cher.
 
-Here's what surprises a lot of new sellers: most purchases involve both. Someone needs groceries, but wants a specific brand because it reminds them of their childhood. Someone needs a car to get to work, but wants a certain color or feature set that has nothing to do with function.
+Voici ce qui surprend beaucoup de nouveaux vendeurs : la plupart des achats impliquent les deux. Quelqu’un a besoin de courses alimentaires, mais veut une marque particulière parce qu’elle lui rappelle son enfance. Quelqu’un a besoin d’une voiture pour aller travailler, mais souhaite une couleur ou des équipements sans rapport avec la fonction essentielle.
 
-Selling to a need is usually about removing friction — making the necessary thing as easy, affordable, or fast as possible. Selling to a want is usually about emotion — identity, status, comfort, nostalgia, or self-image. Understanding which one is driving a specific customer's decision changes how you should talk to them. A customer buying out of pure need wants efficiency. A customer buying out of want responds to how the purchase makes them feel.
+Vendre à un besoin consiste généralement à réduire les frictions : rendre la chose nécessaire aussi simple, abordable ou rapide que possible. Vendre à une envie relève davantage de l’émotion : identité, statut, confort, nostalgie ou image de soi. Comprendre ce qui motive un client précis change la manière de lui parler. Un client guidé uniquement par le besoin recherche l’efficacité. Un client guidé par l’envie réagit à ce que l’achat lui fera ressentir.
 
 ## Exemple pratique
 
-A customer walks into a shoe store needing new work boots because their old ones fell apart. That's the need. But once there, they choose a $180 pair over a $60 pair that does the same job, because the $180 pair has a brand they associate with quality and toughness. That's the want layered on top of the need.
+Un client entre dans un magasin de chaussures parce qu’il a besoin de nouvelles chaussures de sécurité : les anciennes sont usées. C’est le besoin. Mais il choisit une paire à 180 $ plutôt qu’une paire à 60 $ qui remplit la même fonction, parce que la marque à 180 $ évoque pour lui la qualité et la robustesse. C’est l’envie qui se superpose au besoin.
 
-A good salesperson recognizes both: they confirm the boots meet the functional requirement (steel toe, waterproof, safety-rated — the need), and they also speak to the brand's reputation and how the customer will feel wearing them on the job (the want).
+Un bon vendeur reconnaît les deux : il confirme que les chaussures satisfont l’exigence fonctionnelle — embout de sécurité, imperméabilité, normes requises — puis parle aussi de la réputation de la marque et de ce que le client ressentira en les portant au travail.
 
 ## Quiz pratique
-
-1. Define a need and a want in your own words.
-2. Do most purchases involve only a need, only a want, or often both?
-3. What should a seller focus on when a need is driving the decision?
-4. What should a seller focus on when a want is driving the decision?
+1. Définissez un besoin et une envie avec vos propres mots.
+2. La plupart des achats impliquent-ils seulement un besoin, seulement une envie ou souvent les deux ?
+3. Sur quoi un vendeur doit-il se concentrer lorsqu’un besoin motive la décision ?
+4. Sur quoi doit-il se concentrer lorsqu’une envie motive la décision ?
 
 ## Corrigé
-1. A need is something required to function; a want is something desired beyond that requirement.
-2. Often both.
-3. Removing friction — efficiency, affordability, ease.
-4. Emotion — identity, status, self-image, comfort.
+1. Un besoin est quelque chose de nécessaire au fonctionnement ; une envie est quelque chose que l’on désire au-delà de cette nécessité.
+2. Souvent les deux.
+3. La réduction des frictions : efficacité, prix abordable, simplicité.
+4. L’émotion : identité, statut, image de soi, confort.
 
 ## Réponses et explications
-1. Any accurate paraphrase capturing the requirement-vs-desire distinction is correct.
-2. The boots example shows how a purely functional need can still carry an emotional want layered on top.
-3. Need-driven buyers respond to practical value — cost, speed, ease.
-4. Want-driven buyers respond to how a purchase makes them feel about themselves.
+1. Toute reformulation exacte de la distinction entre nécessité et désir convient.
+2. L’exemple des chaussures montre qu’un besoin purement fonctionnel peut comporter une envie émotionnelle.
+3. Les acheteurs motivés par le besoin réagissent à la valeur pratique : coût, rapidité et facilité.
+4. Les acheteurs motivés par l’envie réagissent à ce que l’achat leur fait ressentir à propos d’eux-mêmes.
 
 ## Points clés
-- Needs are functional requirements; wants are emotional desires layered on top.
-- Most real purchases involve both at the same time.
-- Recognizing which one is driving a specific customer changes how you should pitch to them.
+- Les besoins sont des exigences fonctionnelles ; les envies sont des désirs émotionnels qui s’y ajoutent.
+- La plupart des achats réels impliquent les deux en même temps.
+- Identifier ce qui motive un client précis change la manière de lui présenter l’offre.
