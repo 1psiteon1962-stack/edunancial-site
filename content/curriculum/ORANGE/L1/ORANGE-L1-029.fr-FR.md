@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 29
-title: "In-Person vs. Digital Sales"
-summary: "Compares the strengths and limitations of in-person and digital sales approaches."
+locale: fr-FR
+title: "Vente en personne ou vente numérique"
+summary: "Compare les forces et les limites des approches de vente en personne et numériques."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# In-Person vs. Digital Sales
+# Vente en personne ou vente numérique
 
 ## Objectifs d’apprentissage
-- Identify the strengths of in-person sales
-- Identify the strengths of digital sales
-- Recognize when each approach is more appropriate
+- Identifier les forces de la vente en personne
+- Identifier les forces de la vente numérique
+- Reconnaître les situations dans lesquelles chaque approche est la plus appropriée
 
 ## Contenu principal
 
-In-person sales happen face-to-face, whether in a store, an office, or a home visit. Digital sales happen through channels like email, social media, video calls, or an online storefront where the customer never meets the seller physically.
+La vente en personne se déroule face à face, dans un magasin, un bureau ou au domicile du client. La vente numérique passe par des canaux comme l’e-mail, les réseaux sociaux, les appels vidéo ou une boutique en ligne où le client ne rencontre jamais physiquement le vendeur.
 
-In-person sales tend to build trust faster, because body language, tone, and immediate back-and-forth reduce ambiguity and let a seller respond in real time to hesitation or confusion. It also tends to work better for higher-priced, more complex decisions where a customer wants reassurance before committing.
+La vente en personne tend à construire la confiance plus rapidement, car le langage corporel, le ton et l’échange immédiat réduisent l’ambiguïté et permettent de répondre en temps réel aux hésitations. Elle convient aussi davantage aux décisions complexes et coûteuses nécessitant davantage de réassurance.
 
-Digital sales scale further, since one seller (or one piece of content) can reach far more people than any single in-person conversation could. It's often better suited to lower-priced, simpler decisions where a customer doesn't need extensive reassurance, or to reaching people across distances an in-person approach couldn't cover at all.
+La vente numérique offre une plus grande portée : un vendeur ou un contenu peut atteindre beaucoup plus de personnes qu’une conversation en personne. Elle convient souvent mieux aux décisions simples et moins coûteuses ou à des clients éloignés géographiquement.
 
-Most modern businesses use a mix: digital channels to reach and inform a wide audience efficiently, and in-person or live conversation (even by phone or video call) at the specific moments where trust-building matters most.
+La plupart des entreprises modernes combinent les deux : le numérique pour atteindre et informer efficacement un large public, puis une conversation en personne ou en direct — téléphone ou vidéo compris — lorsque la confiance devient particulièrement importante.
 
 ## Exemple pratique
 
-A company selling an expensive piece of industrial equipment relies heavily on in-person or live video sales calls, because the purchase is large and complex enough that buyers want direct reassurance and the ability to ask detailed questions in real time. The same company might use digital marketing (a website, case studies, email) to generate and educate leads before that live conversation ever happens — using each channel for what it does best.
+Une entreprise vendant un équipement industriel coûteux s’appuie fortement sur des rendez-vous en personne ou des appels vidéo en direct, car l’achat est suffisamment important et complexe pour que les acheteurs souhaitent poser des questions détaillées et être rassurés en temps réel. La même entreprise peut utiliser son site, des études de cas et l’e-mail pour générer et informer les prospects avant cette conversation, en utilisant chaque canal là où il est le plus fort.
 
 ## Quiz pratique
-
-1. What's a key strength of in-person sales?
-2. What's a key strength of digital sales?
-3. When is in-person sales usually more appropriate?
-4. When is digital sales usually more appropriate?
+1. Quelle est une force essentielle de la vente en personne ?
+2. Quelle est une force essentielle de la vente numérique ?
+3. Quand la vente en personne est-elle généralement plus appropriée ?
+4. Quand la vente numérique est-elle généralement plus appropriée ?
 
 ## Corrigé
-1. It builds trust faster through real-time body language and back-and-forth.
-2. It scales further, reaching more people than any single conversation could.
-3. For higher-priced, more complex decisions where reassurance matters.
-4. For lower-priced, simpler decisions, or reaching people across greater distances.
+1. Elle construit plus rapidement la confiance grâce au langage corporel et aux échanges en temps réel.
+2. Elle permet d’atteindre efficacement beaucoup plus de personnes.
+3. Pour les décisions plus coûteuses et complexes où la réassurance compte davantage.
+4. Pour les décisions plus simples et moins coûteuses ou pour atteindre des personnes éloignées.
 
 ## Réponses et explications
-1. Real-time, in-person interaction reduces ambiguity and builds trust efficiently.
-2. Scale is the core advantage digital channels provide over one-on-one interaction.
-3. Complex or expensive decisions typically warrant the deeper trust-building in-person allows.
-4. Simpler or lower-stakes decisions don't require the same level of reassurance, making digital efficient.
+1. L’interaction en temps réel réduit l’ambiguïté et construit efficacement la confiance.
+2. La capacité de toucher un grand nombre de personnes constitue le principal avantage du numérique.
+3. Les décisions complexes ou coûteuses justifient souvent la construction de confiance plus approfondie permise par l’échange direct.
+4. Les décisions simples ou à moindre enjeu nécessitent moins de réassurance et rendent le numérique efficace.
 
 ## Points clés
-- In-person sales build trust quickly and suit complex, high-stakes decisions.
-- Digital sales scale efficiently and suit simpler decisions or reaching distant audiences.
-- Most businesses combine both, using each channel where it's strongest.
+- La vente en personne construit rapidement la confiance et convient aux décisions complexes et importantes.
+- La vente numérique offre une grande portée et convient aux décisions plus simples ou aux publics éloignés.
+- La plupart des entreprises combinent les deux et utilisent chaque canal là où il est le plus efficace.
