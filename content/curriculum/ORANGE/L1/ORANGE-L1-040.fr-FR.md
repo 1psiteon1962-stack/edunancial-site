@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 40
-title: "Post-Sale Relationship: Retention Beats Acquisition"
-summary: "Explains why keeping an existing customer is usually more valuable and less costly than acquiring a new one."
+locale: fr-FR
+title: "La relation après-vente : la fidélisation vaut mieux que l’acquisition"
+summary: "Explique pourquoi conserver un client existant est généralement plus précieux et moins coûteux que d’en acquérir un nouveau."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Post-Sale Relationship: Retention Beats Acquisition
+# La relation après-vente : la fidélisation vaut mieux que l’acquisition
 
 ## Objectifs d’apprentissage
-- Explain why retaining existing customers is generally more valuable than acquiring new ones
-- Identify practices that support strong post-sale relationships
-- Recognize the mistake of treating the sale as the end of the relationship
+- Expliquer pourquoi fidéliser les clients existants est généralement plus avantageux que d’en acquérir de nouveaux
+- Identifier les pratiques favorisant une solide relation après-vente
+- Reconnaître l’erreur consistant à considérer la vente comme la fin de la relation
 
 ## Contenu principal
 
-A common mistake in sales is treating the close as the finish line. In reality, the sale is the beginning of a relationship, not the end of one — and what happens after the sale often determines whether that customer buys again, refers others, or disappears entirely.
+Une erreur fréquente consiste à considérer la conclusion comme la ligne d’arrivée. En réalité, la vente est le début d’une relation, pas sa fin. Ce qui se passe ensuite détermine souvent si le client achète de nouveau, recommande l’entreprise ou disparaît.
 
-Acquiring a brand-new customer generally costs significantly more time, effort, and marketing spend than keeping an existing one happy enough to return. This is why businesses that focus heavily on retention — following up after the sale, checking in, resolving issues quickly and generously — tend to grow more efficiently than those constantly chasing new customers to replace ones who quietly left.
+Acquérir un nouveau client coûte généralement beaucoup plus de temps, d’efforts et de dépenses marketing que de conserver un client existant satisfait. Les entreprises qui accordent une grande importance à la fidélisation — suivi après la vente, prise de nouvelles, résolution rapide et généreuse des problèmes — peuvent donc croître plus efficacement que celles qui cherchent constamment de nouveaux clients pour remplacer ceux qui partent.
 
-Post-sale practices that build strong relationships include: checking in shortly after the purchase to confirm satisfaction, resolving any problems quickly and without friction, and staying present (without becoming a nuisance) so the business is remembered the next time a related need comes up.
+Parmi les bonnes pratiques après-vente : vérifier peu après l’achat que le client est satisfait, résoudre rapidement et simplement les problèmes et rester présent sans devenir importun afin que l’entreprise soit naturellement rappelée lorsqu’un nouveau besoin apparaît.
 
 ## Exemple pratique
 
-A bookkeeping service signs a new client and immediately moves on to chasing the next lead, never checking in again until it's time to bill. Three months later, the client quietly switches to a competitor after a minor issue went unaddressed. Compare that to a service that checks in a week after onboarding, resolves a small confusion quickly, and reaches out with a helpful tax-season reminder each year — that client stays for years and refers two other businesses.
+Un service de comptabilité signe un nouveau client puis se concentre immédiatement sur le prospect suivant, sans reprendre contact jusqu’à la facturation. Trois mois plus tard, le client passe discrètement chez un concurrent après qu’un petit problème est resté sans réponse. À l’inverse, un service qui prend des nouvelles une semaine après l’intégration, résout rapidement une petite confusion et envoie chaque année un rappel fiscal utile conserve le client pendant des années et reçoit deux recommandations.
 
 ## Quiz pratique
-
-1. Why is treating the sale as the "finish line" a mistake?
-2. Why does retention generally cost less than acquiring new customers?
-3. Name two practices that support strong post-sale relationships.
-4. What ultimately happened to each business in the worked example, and why?
+1. Pourquoi considérer la vente comme la ligne d’arrivée est-il une erreur ?
+2. Pourquoi la fidélisation coûte-t-elle généralement moins cher que l’acquisition ?
+3. Citez deux pratiques favorisant une bonne relation après-vente.
+4. Que s’est-il passé pour les deux entreprises de l’exemple et pourquoi ?
 
 ## Corrigé
-1. Because the sale is the beginning of a relationship, and what happens afterward determines future business and referrals.
-2. Acquiring new customers requires significant time, effort, and marketing spend compared to maintaining existing relationships.
-3. Any two of: checking in after purchase, resolving problems quickly, staying present without being a nuisance.
-4. The neglectful business lost the client to a competitor; the attentive business retained the client and gained referrals, because of how each handled the post-sale relationship.
+1. Parce que la vente commence une relation et que la suite détermine les achats futurs et les recommandations.
+2. Acquérir un nouveau client exige davantage de temps, d’efforts et de marketing que maintenir une relation existante.
+3. Deux parmi : prendre des nouvelles, résoudre rapidement les problèmes, rester présent sans importuner.
+4. L’entreprise négligente a perdu le client ; l’entreprise attentive l’a conservé et a obtenu des recommandations grâce à la qualité de son suivi.
 
 ## Réponses et explications
-1. This reframes the sale as a starting point rather than an endpoint in the customer relationship.
-2. Retention leverages an existing relationship rather than starting from zero trust with someone new.
-3. These practices directly address customer experience after the purchase, which drives loyalty.
-4. This contrast demonstrates the real business cost of neglecting post-sale relationship management.
+1. La vente est repositionnée comme un point de départ plutôt qu’une fin.
+2. La fidélisation exploite une relation et une confiance déjà existantes.
+3. Ces pratiques agissent directement sur l’expérience après achat qui crée la loyauté.
+4. Le contraste montre le coût commercial réel d’un mauvais suivi après-vente.
 
 ## Points clés
-- The sale is the beginning of a relationship, not the end of the sales process.
-- Retaining existing customers is generally more efficient than constantly acquiring new ones.
-- Checking in, resolving problems quickly, and staying appropriately present all build lasting post-sale relationships.
+- La vente commence une relation ; elle ne termine pas le processus commercial.
+- Fidéliser est généralement plus efficace que remplacer constamment des clients perdus.
+- Prendre des nouvelles, résoudre vite les problèmes et rester présent construisent une relation durable.
