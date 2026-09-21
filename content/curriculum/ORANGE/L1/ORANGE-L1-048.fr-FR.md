@@ -4,54 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 48
-title: "Handling a Prospect Who Went Silent"
-summary: "Teaches how to re-engage a prospect who stopped responding without seeming desperate or pushy."
+locale: fr-FR
+title: "Gérer un prospect qui ne répond plus"
+summary: "Apprend à reprendre contact avec un prospect qui a cessé de répondre sans paraître désespéré ni insistant."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Handling a Prospect Who Went Silent
+# Gérer un prospect qui ne répond plus
 
 ## Objectifs d’apprentissage
-- Explain why prospects commonly go silent after showing initial interest
-- Identify an appropriate way to re-engage without seeming desperate
-- Recognize when to stop pursuing a silent prospect
+- Expliquer pourquoi les prospects cessent souvent de répondre après avoir manifesté un intérêt initial
+- Identifier une manière appropriée de reprendre contact sans paraître désespéré
+- Reconnaître quand il faut cesser de poursuivre un prospect silencieux
 
 ## Contenu principal
 
-A prospect who was engaged and interested, then suddenly stops responding, is one of the most common frustrations in sales — and also one of the most misunderstood. Silence rarely means an aggressive "no." More often, it means life got busy, priorities shifted temporarily, or the decision simply isn't urgent enough yet to prioritize responding.
+Un prospect qui était engagé et intéressé puis cesse soudainement de répondre constitue l’une des frustrations les plus courantes dans la vente — et aussi l’une des plus mal comprises. Le silence signifie rarement un « non » agressif. Le plus souvent, la vie est devenue chargée, les priorités ont temporairement changé ou la décision n’est tout simplement pas assez urgente pour que répondre devienne prioritaire.
 
-The instinct to send increasingly desperate or guilt-inducing messages ("just following up... again... please respond") usually backfires, making the seller seem needy rather than professional. A better re-engagement message is brief, low-pressure, and gives the prospect an easy way to either re-engage or clearly opt out.
+L’instinct consistant à envoyer des messages de plus en plus désespérés ou culpabilisants se retourne généralement contre le vendeur et le fait paraître dépendant plutôt que professionnel. Un meilleur message de reprise de contact est bref, sans pression et donne au prospect un moyen simple soit de reprendre la conversation, soit de se retirer clairement.
 
-There's also a point where continued follow-up stops being useful. After a reasonable number of respectful attempts with no response, it's appropriate to send a final, graceful message and then let it go, rather than pursuing indefinitely.
+Il arrive aussi un moment où continuer à relancer n’est plus utile. Après un nombre raisonnable de tentatives respectueuses sans réponse, il convient d’envoyer un dernier message courtois puis de passer à autre chose, plutôt que de poursuivre indéfiniment.
 
 ## Exemple pratique
 
-**Poor re-engagement:** "Hey, following up again... haven't heard back... just wanted to check in... let me know?" (repeated, needy, no new value).
+**Mauvaise relance :** « Bonjour, je vous relance encore... je n’ai pas eu de réponse... je voulais juste vérifier... dites-moi ? » — répétitif, dépendant, sans nouvelle valeur.
 
-**Better re-engagement:** "No worries if the timing isn't right — just let me know if you'd like me to check back in a few months, or if this isn't a fit right now, and I'll leave you be either way." This gives the prospect an easy, respectful way to respond, and shows the seller isn't going to pester them indefinitely.
+**Meilleure relance :** « Aucun problème si le moment n’est pas idéal. Dites-moi simplement si vous souhaitez que je vous recontacte dans quelques mois ou si ce n’est pas adapté pour le moment ; dans les deux cas, je respecterai votre décision. » Cela offre au prospect un moyen simple et respectueux de répondre et montre que le vendeur ne va pas le harceler indéfiniment.
 
 ## Quiz pratique
 
-1. What does silence from a prospect usually mean, according to this lesson?
-2. Why do desperate or guilt-inducing follow-up messages tend to backfire?
-3. What makes a good re-engagement message?
-4. When is it appropriate to stop following up with a silent prospect?
+1. Que signifie généralement le silence d’un prospect, selon cette leçon ?
+2. Pourquoi les messages de suivi désespérés ou culpabilisants se retournent-ils souvent contre le vendeur ?
+3. Qu’est-ce qui caractérise un bon message de reprise de contact ?
+4. Quand convient-il de cesser de relancer un prospect silencieux ?
 
 ## Corrigé
-1. Life got busy, priorities shifted, or the decision isn't urgent enough yet — rarely an aggressive no.
-2. They make the seller seem needy rather than professional, which can actively push the prospect further away.
-3. It's brief, low-pressure, and gives the prospect an easy way to either re-engage or clearly opt out.
-4. After a reasonable number of respectful attempts with no response.
+1. La vie est devenue chargée, les priorités ont changé ou la décision n’est pas encore assez urgente ; il s’agit rarement d’un non agressif.
+2. Ils font paraître le vendeur dépendant plutôt que professionnel et peuvent éloigner davantage le prospect.
+3. Il est bref, sans pression et permet au prospect de reprendre facilement la conversation ou de se retirer clairement.
+4. Après un nombre raisonnable de tentatives respectueuses restées sans réponse.
 
 ## Réponses et explications
-1. This reframes silence as a neutral, common occurrence rather than an implicit rejection.
-2. Repeated, pressuring messages create the opposite of the desired effect.
-3. Respecting the prospect's autonomy while leaving the door open is the key balance struck here.
-4. Recognizing a reasonable stopping point protects the seller's time and the relationship's tone.
+1. Cela repositionne le silence comme un événement courant et neutre plutôt que comme un rejet implicite.
+2. Les messages répétés et pressants produisent l’effet inverse de celui recherché.
+3. Respecter l’autonomie du prospect tout en laissant la porte ouverte constitue l’équilibre essentiel.
+4. Reconnaître un point d’arrêt raisonnable protège le temps du vendeur et la qualité de la relation.
 
 ## Points clés
-- A silent prospect usually reflects shifted priorities, not an aggressive rejection.
-- Desperate, repeated follow-ups tend to backfire — a brief, low-pressure re-engagement works better.
-- There's a reasonable stopping point; continuing indefinitely isn't productive or professional.
+- Le silence d’un prospect reflète généralement un changement de priorités, pas un rejet agressif.
+- Les relances répétées et désespérées se retournent souvent contre le vendeur ; une relance brève et sans pression fonctionne mieux.
+- Il existe un point d’arrêt raisonnable : poursuivre indéfiniment n’est ni productif ni professionnel.
