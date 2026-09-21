@@ -4,56 +4,58 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 38
-title: "The 'Yes Ladder' Technique"
-summary: "Introduces the technique of building agreement gradually through small, easy yeses before a bigger ask."
+locale: fr-FR
+title: "La technique de l’« échelle des oui »"
+summary: "Présente une technique qui construit progressivement l’accord grâce à de petits « oui » avant une demande plus importante."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The "Yes Ladder" Technique
+# La technique de l’« échelle des oui »
 
 ## Objectifs d’apprentissage
-- Define the yes ladder technique
-- Explain the psychology behind why small agreements build toward bigger ones
-- Practice building a yes ladder for a simple sales conversation
+- Définir la technique de l’échelle des oui
+- Expliquer pourquoi de petits accords facilitent des accords plus importants
+- Construire une échelle des oui pour une conversation simple
 
 ## Contenu principal
 
-The yes ladder is a technique where a conversation is structured around a series of small, easy agreements that build momentum toward a larger decision. Each small "yes" makes the next one slightly easier, because people generally want to stay consistent with what they've already agreed to.
+L’échelle des oui structure une conversation autour d’une série de petits accords faciles qui créent un élan vers une décision plus importante. Chaque petit « oui » facilite légèrement le suivant, car les personnes ont généralement tendance à rester cohérentes avec ce qu’elles ont déjà accepté.
 
-This works because of a well-documented psychological tendency: once someone commits to a small position, they're more likely to agree to something consistent with that position later, even if the final ask is larger than what they would have agreed to cold, with no lead-up.
+Cette approche s’appuie sur une tendance psychologique bien documentée : après un petit engagement, une personne est plus susceptible d’accepter ensuite quelque chose de cohérent avec cet engagement, même si la demande finale est plus importante.
 
-Used honestly, this means structuring a conversation around genuine, relevant agreements — confirming the customer does have the problem you solve, confirming they'd want it solved if a good solution existed, confirming your solution addresses what they described — before asking for the sale itself. Used dishonestly, it becomes manipulative small-talk designed to trick someone into a decision unrelated to what they actually agreed to, which crosses back into manipulation rather than honest sales.
+Utilisée honnêtement, la technique consiste à confirmer des éléments réellement pertinents : le client a bien le problème, il souhaiterait le résoudre si une bonne solution existait et votre solution répond bien à ce qu’il a décrit. Utilisée malhonnêtement, elle devient une série de petites questions sans rapport destinée à piéger quelqu’un dans une décision, ce qui relève de la manipulation.
 
 ## Exemple pratique
 
-**Yes 1:** "Would you agree that not knowing your tax number until the last minute is stressful?" ("Yes.")
-**Yes 2:** "And if there were a simple way to know that number every week instead of once a year, that would help?" ("Yes.")
-**Yes 3:** "That's exactly what this service does — want to get started today?"
+**Oui 1 :** « Êtes-vous d’accord pour dire qu’il est stressant de ne connaître votre situation fiscale qu’au dernier moment ? » — « Oui. »
 
-Each yes is genuinely connected to the last, building a logical, honest case rather than tricking the person into anything unrelated.
+**Oui 2 :** « Et si un moyen simple vous permettait de connaître ce chiffre chaque semaine plutôt qu’une fois par an, cela vous aiderait ? » — « Oui. »
+
+**Oui 3 :** « C’est précisément ce que fait ce service. Souhaitez-vous commencer aujourd’hui ? »
+
+Chaque accord est logiquement lié au précédent et construit honnêtement le raisonnement.
 
 ## Quiz pratique
-
-1. Define the yes ladder technique.
-2. What psychological tendency does it rely on?
-3. What makes a yes ladder honest rather than manipulative?
-4. Build a two-step yes ladder for a business that sells home cleaning services.
+1. Définissez l’échelle des oui.
+2. Sur quelle tendance psychologique repose-t-elle ?
+3. Qu’est-ce qui la rend honnête plutôt que manipulatrice ?
+4. Construisez une échelle de deux étapes pour un service de ménage à domicile.
 
 ## Corrigé
-1. Structuring a conversation around small, easy agreements that build toward a larger decision.
-2. People tend to want to stay consistent with agreements they've already made.
-3. Each small yes is genuinely and logically connected to the final ask, not unrelated small talk.
-4. Les réponses peuvent varier (example: "Would you agree that coming home to a clean house after a long week feels great?" → "And if that happened every week without you lifting a finger, that would help?")
+1. Une conversation structurée autour de petits accords qui conduisent vers une décision plus importante.
+2. La tendance à rester cohérent avec ses engagements précédents.
+3. Chaque petit oui doit être réellement et logiquement lié à la décision finale.
+4. Les réponses peuvent varier. Exemple : « Êtes-vous d’accord qu’il est agréable de rentrer dans une maison propre après une longue semaine ? » puis « Si cela arrivait chaque semaine sans que vous ayez à vous en charger, cela vous aiderait ? »
 
 ## Réponses et explications
-1. This defines the structure and purpose of the technique.
-2. Consistency bias is the psychological mechanism the technique leverages.
-3. The lesson draws a clear ethical line based on genuine relevance versus unrelated manipulation.
-4. A correct answer builds two logically connected agreements leading naturally toward the offer.
+1. Cela définit la structure et l’objectif de la technique.
+2. La cohérence avec les engagements antérieurs est le mécanisme psychologique utilisé.
+3. La pertinence réelle distingue une progression honnête d’une manipulation sans rapport.
+4. Une bonne réponse construit deux accords logiquement reliés à l’offre.
 
 ## Points clés
-- The yes ladder builds momentum through small, genuinely connected agreements before a bigger ask.
-- It relies on people's natural tendency to stay consistent with prior commitments.
-- It stays ethical only when each agreement is genuinely relevant to the final decision, not unrelated manipulation.
+- L’échelle des oui construit un élan grâce à de petits accords réellement liés.
+- Elle s’appuie sur la tendance naturelle à rester cohérent avec ses engagements.
+- Elle reste éthique uniquement lorsque chaque accord est réellement pertinent pour la décision finale.
