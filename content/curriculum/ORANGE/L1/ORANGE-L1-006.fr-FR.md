@@ -4,60 +4,60 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 6
-title: "Why Marketing Without Sales Fails (and Sales Without Marketing Fails Too)"
-summary: "Shows how marketing and sales depend on each other and neither works alone."
+locale: fr-FR
+title: "Pourquoi le marketing sans vente échoue (et la vente sans marketing aussi)"
+summary: "Montre comment le marketing et la vente dépendent l’un de l’autre et pourquoi aucun ne fonctionne seul."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Why Marketing Without Sales Fails (and Sales Without Marketing Fails Too)
+# Pourquoi le marketing sans vente échoue (et la vente sans marketing aussi)
 
 ## Objectifs d’apprentissage
-- Explain why marketing alone doesn't generate revenue
-- Explain why sales alone struggles without a pipeline of leads
-- Recognize when a business is over-investing in one function and neglecting the other
+- Expliquer pourquoi le marketing seul ne génère pas de chiffre d’affaires
+- Expliquer pourquoi la vente seule peine sans flux de prospects
+- Reconnaître quand une entreprise investit trop dans une fonction en négligeant l’autre
 
 ## Contenu principal
 
-Marketing and sales are like two legs. A business can't walk very far on just one.
+Le marketing et la vente sont comme deux jambes. Une entreprise ne peut pas aller très loin avec une seule.
 
-Marketing without sales means you're generating attention that goes nowhere. Imagine spending money on ads that bring in a hundred inquiries a week, but nobody follows up with those people, answers their questions, or asks for the order. That attention gets wasted, and the business owner is left wondering why "marketing doesn't work," when the real problem is that nobody closed the loop.
+Le marketing sans vente signifie que vous générez de l’attention qui ne mène nulle part. Imaginez que vous dépensiez de l’argent en publicité et receviez cent demandes par semaine, mais que personne ne recontacte ces personnes, ne réponde à leurs questions ou ne leur demande de passer commande. Cette attention est gaspillée et le dirigeant finit par se demander pourquoi « le marketing ne fonctionne pas », alors que le vrai problème est que personne n’a bouclé le processus.
 
-Sales without marketing means you're relying entirely on personal hustle to find every single customer, one at a time, with no system bringing new people to you. This works for a while — it's how many businesses start — but it doesn't scale. Eventually the seller runs out of hours in the day, and growth stalls because there's no pipeline refilling itself.
+La vente sans marketing signifie que vous dépendez entièrement de vos efforts personnels pour trouver chaque client, un par un, sans système qui amène de nouvelles personnes vers vous. Cela fonctionne un temps — beaucoup d’entreprises commencent ainsi — mais ce n’est pas extensible. Le vendeur finit par manquer d’heures dans la journée et la croissance s’arrête parce qu’aucun flux ne renouvelle le pipeline.
 
-Healthy businesses treat marketing and sales as one connected system: marketing fills the top of the funnel, and sales converts what marketing brings in. Neither function gets to claim success on its own — the only number that really matters is how many people came in the top and became paying customers at the bottom.
+Les entreprises saines considèrent le marketing et la vente comme un seul système connecté : le marketing remplit le haut de l’entonnoir et la vente convertit ce que le marketing apporte. Aucune fonction ne peut revendiquer seule la réussite : le chiffre qui compte vraiment est le nombre de personnes entrées en haut et devenues des clients payants en bas.
 
 ## Exemple pratique
 
-Two entrepreneurs each start a lawn care business.
+Deux entrepreneurs lancent chacun une entreprise d’entretien de pelouses.
 
-Entrepreneur A spends heavily on flyers and social ads, generating fifty phone calls a month. But A never calls anyone back promptly, and most calls go to voicemail. A wonders why business isn't growing despite "great marketing."
+L’entrepreneur A dépense beaucoup en prospectus et publicités sociales et génère cinquante appels par mois. Mais il ne rappelle jamais rapidement et la plupart des appels arrivent sur la messagerie. Il se demande pourquoi son activité ne progresse pas malgré un « excellent marketing ».
 
-Entrepreneur B is a phenomenal salesperson — anyone who talks to B signs up. But B relies entirely on word of mouth and door-knocking, with no consistent way to reach new neighborhoods. B tops out at the same twenty customers for over a year.
+L’entrepreneur B est un vendeur remarquable : presque toute personne qui lui parle s’inscrit. Mais il dépend entièrement du bouche-à-oreille et du porte-à-porte, sans moyen régulier d’atteindre de nouveaux quartiers. Il reste bloqué à vingt clients pendant plus d’un an.
 
-Entrepreneur C does both: runs a small consistent flyer campaign (marketing) and calls every lead back within an hour (sales). C's business grows steadily because the two functions are working together instead of one carrying the whole load.
+L’entrepreneur C fait les deux : il mène une petite campagne régulière de prospectus (marketing) et rappelle chaque prospect dans l’heure (vente). Son entreprise progresse régulièrement parce que les deux fonctions travaillent ensemble au lieu de laisser l’une porter toute la charge.
 
 ## Quiz pratique
-
-1. What happens when a business invests in marketing but neglects sales follow-up?
-2. What happens when a business relies only on sales with no marketing pipeline?
-3. Why does the lesson describe marketing and sales as "two legs"?
-4. In the worked example, why does Entrepreneur C outperform A and B?
+1. Que se passe-t-il lorsqu’une entreprise investit dans le marketing mais néglige le suivi commercial ?
+2. Que se passe-t-il lorsqu’une entreprise dépend uniquement de la vente sans pipeline marketing ?
+3. Pourquoi la leçon décrit-elle le marketing et la vente comme « deux jambes » ?
+4. Dans l’exemple pratique, pourquoi l’entrepreneur C obtient-il de meilleurs résultats que A et B ?
 
 ## Corrigé
-1. Attention is generated but wasted because nobody converts the interest into a sale.
-2. Growth stalls because there's no system refilling the pipeline with new leads.
-3. Because a business can't move forward effectively relying on just one of the two functions.
-4. C combines both functions, so leads generated by marketing actually get converted by consistent sales follow-up.
+1. L’attention est générée mais gaspillée parce que personne ne transforme l’intérêt en vente.
+2. La croissance finit par stagner faute de système renouvelant le pipeline avec de nouveaux prospects.
+3. Parce qu’une entreprise ne peut pas avancer efficacement en s’appuyant sur une seule de ces deux fonctions.
+4. C combine les deux fonctions : les prospects générés par le marketing sont réellement convertis grâce à un suivi commercial régulier.
 
 ## Réponses et explications
-1. Leads without follow-up are wasted marketing spend — the money brought people in, but nobody closed them.
-2. Without a marketing pipeline, sales effort has a ceiling determined by how many people one person can personally reach.
-3. The metaphor emphasizes interdependence — one leg can't carry the business alone for long.
-4. C's system connects the two functions, meaning nothing generated by marketing goes to waste.
+1. Des prospects sans suivi représentent des dépenses marketing gaspillées : l’argent les a attirés, mais personne n’a conclu.
+2. Sans pipeline marketing, l’effort commercial est limité par le nombre de personnes qu’un individu peut contacter lui-même.
+3. La métaphore souligne leur interdépendance : une seule jambe ne peut pas porter longtemps l’entreprise.
+4. Le système de C relie les deux fonctions, de sorte que ce que le marketing génère n’est pas gaspillé.
 
 ## Points clés
-- Marketing generates leads; sales converts them — both are required, not optional.
-- A business can appear to have a "marketing problem" when the real issue is missing sales follow-up, or vice versa.
-- Sustainable growth comes from treating marketing and sales as one connected system, not two separate departments competing for credit.
+- Le marketing génère des prospects ; la vente les convertit : les deux sont nécessaires.
+- Une entreprise peut sembler avoir un « problème de marketing » alors que le vrai problème est l’absence de suivi commercial, ou inversement.
+- Une croissance durable vient d’un marketing et d’une vente traités comme un système connecté, pas comme deux services se disputant le mérite.
