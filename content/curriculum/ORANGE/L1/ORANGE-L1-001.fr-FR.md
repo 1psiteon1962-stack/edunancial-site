@@ -4,61 +4,62 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 1
-title: "What Is Sales, Really?"
-summary: "Breaks down sales as the transfer of belief, not manipulation, and introduces the core skill every business depends on."
+locale: fr-FR
+title: "Qu’est-ce que la vente, au juste ?"
+summary: "Présente la vente comme un transfert de conviction, et non comme de la manipulation, et introduit la compétence fondamentale dont dépend toute entreprise."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# What Is Sales, Really?
+# Qu’est-ce que la vente, au juste ?
 
-## Learning Objectives
-By the end of this lesson, you will be able to:
-- Define sales in plain terms, without the negative stereotypes attached to it
-- Explain why every business, job, and idea depends on someone being sold on something
-- Identify the difference between selling and tricking someone
+## Objectifs d’apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Définir la vente en termes simples, sans les stéréotypes négatifs qui lui sont associés
+- Expliquer pourquoi toute entreprise, tout emploi et toute idée dépendent du fait que quelqu’un soit convaincu de quelque chose
+- Distinguer la vente du fait de tromper quelqu’un
 
-## Core Content
+## Contenu principal
 
-Say the word "sales" to most people, and they picture a pushy car salesman or a telemarketer who won't take no for an answer. That's not what sales actually is. Sales is the act of helping someone see how something solves a problem they have. That's it. If you've ever convinced a friend to try a restaurant, talked your parents into letting you stay out later, or explained to a teacher why you deserved a better grade, you've already made a sale.
+Lorsque l’on prononce le mot « vente », beaucoup de gens imaginent un vendeur automobile insistant ou un télévendeur qui refuse d’accepter un non. Ce n’est pas ce qu’est réellement la vente. Vendre consiste à aider quelqu’un à comprendre comment quelque chose peut résoudre un problème qu’il rencontre. C’est tout. Si vous avez déjà convaincu un ami d’essayer un restaurant, persuadé vos parents de vous laisser rentrer plus tard ou expliqué à un professeur pourquoi vous méritiez une meilleure note, vous avez déjà réalisé une vente.
 
-Every business runs on sales, whether the people doing it call it that or not. A doctor sells you on a treatment plan. A teacher sells you on why the lesson matters. A nonprofit sells donors on a cause. If nobody is convinced of anything, nothing moves. Money doesn't change hands, decisions don't get made, and problems don't get solved.
+Toute entreprise repose sur la vente, même lorsque les personnes qui la pratiquent ne l’appellent pas ainsi. Un médecin vous convainc d’un plan de traitement. Un enseignant vous montre pourquoi une leçon est importante. Une association convainc des donateurs de soutenir une cause. Si personne n’est convaincu de quoi que ce soit, rien n’avance. L’argent ne circule pas, les décisions ne sont pas prises et les problèmes ne sont pas résolus.
 
-Here's the part people miss: good sales and manipulation are opposites, not cousins. Manipulation convinces someone to do something that's bad for them, using pressure, lies, or tricks. Sales, done right, helps someone make a decision that's actually good for them, using honesty and clarity. If what you're offering doesn't genuinely help the person in front of you, no sales technique will fix that — and any technique you use to push it through anyway is manipulation, not sales.
+Voici ce que beaucoup oublient : une bonne vente et la manipulation sont opposées, pas voisines. La manipulation pousse quelqu’un à faire quelque chose qui lui est défavorable en utilisant la pression, le mensonge ou des artifices. La vente, lorsqu’elle est bien pratiquée, aide quelqu’un à prendre une décision qui lui est réellement bénéfique, grâce à l’honnêteté et à la clarté. Si ce que vous proposez n’aide pas véritablement la personne en face de vous, aucune technique de vente ne corrigera ce problème — et toute technique utilisée pour forcer malgré tout la décision relève de la manipulation, pas de la vente.
 
-This distinction matters because it changes how you should feel about learning to sell. You are not learning how to trick people. You're learning how to communicate value clearly enough that people can make good decisions faster.
+Cette distinction est importante, car elle change la manière dont vous devez envisager l’apprentissage de la vente. Vous n’apprenez pas à tromper les gens. Vous apprenez à communiquer la valeur avec suffisamment de clarté pour permettre aux gens de prendre plus rapidement de bonnes décisions.
 
-## Worked Example
+## Exemple pratique
 
-Let's say you make and sell candles. A customer asks, "Why should I buy your candle instead of the one at the grocery store for half the price?"
+Imaginons que vous fabriquiez et vendiez des bougies. Un client demande : « Pourquoi devrais-je acheter votre bougie plutôt que celle du supermarché qui coûte deux fois moins cher ? »
 
-**Bad approach (manipulation):** "Ours is way better, trust me, everyone says so." This is vague, unverifiable, and pressures the person to just believe you.
+**Mauvaise approche (manipulation) :** « Les nôtres sont bien meilleures, faites-moi confiance, tout le monde le dit. » Cette réponse est vague, invérifiable et pousse la personne à vous croire sans preuve.
 
-**Good approach (sales):** "The grocery store candle uses synthetic fragrance oils that can trigger headaches for some people. Mine uses essential oils, and I list every ingredient on the label so you know exactly what you're burning in your house." This gives the customer real information to make their own decision. If they still want the cheaper candle, that's fine — you didn't lie, and you didn't pressure them.
+**Bonne approche (vente) :** « La bougie du supermarché utilise des huiles parfumées synthétiques qui peuvent provoquer des maux de tête chez certaines personnes. La mienne utilise des huiles essentielles, et j’indique tous les ingrédients sur l’étiquette afin que vous sachiez exactement ce que vous brûlez chez vous. » Cela donne au client de vraies informations pour prendre sa propre décision. S’il préfère malgré tout la bougie moins chère, ce n’est pas un problème — vous n’avez ni menti ni exercé de pression.
 
-Notice the second version doesn't insult the competitor or oversell the product. It just gives the customer something true and useful.
+Remarquez que la deuxième version ne dénigre pas le concurrent et n’exagère pas les qualités du produit. Elle donne simplement au client une information vraie et utile.
 
-## Practice Quiz
+## Quiz pratique
 
-1. What is the core definition of sales given in this lesson?
-2. True or False: Manipulation and sales are the same thing, just different names.
-3. Give one example of "selling" that doesn't involve money changing hands.
-4. What makes an approach "manipulation" instead of "sales"?
+1. Quelle est la définition fondamentale de la vente donnée dans cette leçon ?
+2. Vrai ou faux : la manipulation et la vente sont la même chose sous deux noms différents.
+3. Donnez un exemple de « vente » qui n’implique aucun échange d’argent.
+4. Qu’est-ce qui transforme une approche en « manipulation » plutôt qu’en « vente » ?
 
-## Answer Key
-1. Helping someone see how something solves a problem they have.
-2. False
-3. Answers will vary (examples: convincing a friend to try a restaurant, convincing a teacher to raise a grade, convincing parents to change a curfew).
-4. It pressures or misleads someone into a decision that isn't actually good for them.
+## Corrigé
+1. Aider quelqu’un à comprendre comment quelque chose peut résoudre un problème qu’il rencontre.
+2. Faux.
+3. Les réponses peuvent varier : convaincre un ami d’essayer un restaurant, convaincre un professeur de revoir une note ou convaincre ses parents de modifier une heure de rentrée.
+4. Elle pousse ou induit quelqu’un en erreur afin qu’il prenne une décision qui ne lui est pas réellement bénéfique.
 
-## Answers and Explanations
-1. The lesson defines sales as helping someone see a solution to a real problem — not pressure or persuasion for its own sake.
-2. False — sales relies on honesty and genuine value; manipulation relies on pressure or deception. They produce different outcomes for the person being sold to.
-3. Any non-monetary example works, because sales is about influencing a decision, not just closing a transaction.
-4. The key marker is harm and honesty: manipulation pushes someone toward something bad for them using dishonest or coercive means.
+## Réponses et explications
+1. La leçon définit la vente comme le fait d’aider quelqu’un à voir une solution à un problème réel — et non comme de la pression ou de la persuasion pour elle-même.
+2. Faux — la vente repose sur l’honnêteté et une valeur réelle ; la manipulation repose sur la pression ou la tromperie. Elles produisent des résultats différents pour la personne à qui l’on vend.
+3. Tout exemple non monétaire convient, car vendre consiste à influencer une décision, pas seulement à conclure une transaction.
+4. Les critères essentiels sont le préjudice et l’honnêteté : la manipulation pousse quelqu’un vers quelque chose qui lui est défavorable en utilisant des moyens malhonnêtes ou coercitifs.
 
-## Key Takeaways
-- Sales is not inherently sleazy — it's the skill of helping people see real value clearly.
-- Every business, job, and relationship involves some form of selling.
-- The line between sales and manipulation is whether the outcome is genuinely good for the other person and whether you got there honestly.
+## Points clés
+- La vente n’est pas intrinsèquement douteuse — c’est la capacité d’aider les gens à percevoir clairement une valeur réelle.
+- Toute entreprise, tout emploi et toute relation impliquent une certaine forme de vente.
+- La frontière entre vente et manipulation dépend du fait que le résultat soit réellement bénéfique pour l’autre personne et que vous y soyez arrivé honnêtement.
