@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 22
-title: "Common Objections and How to Hear Them"
-summary: "Introduces the major categories of sales objections and reframes them as requests for more information."
+locale: fr-FR
+title: "Les objections courantes et comment les entendre"
+summary: "Présente les grandes catégories d’objections commerciales et les repositionne comme des demandes d’information supplémentaires."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Common Objections and How to Hear Them
+# Les objections courantes et comment les entendre
 
 ## Objectifs d’apprentissage
-- Identify the main categories of sales objections
-- Reframe objections as requests for information rather than rejections
-- Practice responding to an objection without becoming defensive
+- Identifier les principales catégories d’objections commerciales
+- Repositionner les objections comme des demandes d’information plutôt que comme des rejets
+- S’exercer à répondre à une objection sans devenir défensif
 
 ## Contenu principal
 
-An objection is a concern a prospect raises before deciding to buy. New sellers often hear an objection and feel like they're being rejected. Experienced sellers hear an objection and recognize it as useful — it tells you exactly what's standing between the prospect and a yes.
+Une objection est une préoccupation soulevée par un prospect avant de décider d’acheter. Les nouveaux vendeurs l’entendent souvent comme un rejet. Les vendeurs expérimentés y voient une information utile : elle leur indique exactement ce qui sépare encore le prospect d’un « oui ».
 
-Most objections fall into a few common categories: price ("it costs too much"), timing ("not right now"), trust ("I'm not sure this will work for me"), and need ("I'm not sure I actually need this"). Each category calls for a different kind of response — a price objection often needs a value clarification, not a discount; a trust objection often needs evidence or a smaller first step, not more pressure.
+La plupart des objections appartiennent à quelques catégories : prix (« cela coûte trop cher »), moment (« pas maintenant »), confiance (« je ne suis pas sûr que cela fonctionnera pour moi ») et besoin (« je ne suis pas certain d’en avoir vraiment besoin »). Chaque catégorie appelle une réponse différente. Une objection sur le prix exige souvent de clarifier la valeur plutôt que d’accorder une remise ; une objection de confiance nécessite souvent des preuves ou une première étape plus petite, pas davantage de pression.
 
-The most important shift is emotional: an objection is not a closed door, it's a question in disguise. Someone who says "it costs too much" is often really asking, "convince me this is worth it," not "leave me alone."
+Le changement le plus important est émotionnel : une objection n’est pas une porte fermée, mais une question déguisée. Une personne qui dit « cela coûte trop cher » demande souvent en réalité « montrez-moi que cela en vaut la peine », et non « laissez-moi tranquille ».
 
 ## Exemple pratique
 
-A customer says, "That's more than I wanted to spend." A defensive response: "Well, that's the price." A better response treats it as a request for clarity: "I hear you — can I ask what you were expecting to pay, and what's most important to you in this purchase?" This opens a conversation instead of ending one, and often reveals whether the real issue is price, or something else entirely, like uncertainty about value.
+Un client dit : « C’est plus que ce que je voulais dépenser. » Réponse défensive : « Eh bien, c’est le prix. » Une meilleure réponse traite l’objection comme une demande de clarté : « Je comprends. Puis-je vous demander quel budget vous aviez prévu et ce qui compte le plus pour vous dans cet achat ? » Cela ouvre une conversation au lieu de la fermer et révèle souvent si le véritable problème est le prix ou autre chose, comme une incertitude sur la valeur.
 
 ## Quiz pratique
-
-1. What is an objection, in plain terms?
-2. Name the four common objection categories from this lesson.
-3. Why does a price objection often need a value clarification rather than a discount?
-4. How should a seller emotionally interpret an objection, according to this lesson?
+1. Qu’est-ce qu’une objection, en termes simples ?
+2. Citez les quatre catégories courantes d’objections de cette leçon.
+3. Pourquoi une objection sur le prix exige-t-elle souvent de clarifier la valeur plutôt que d’accorder une remise ?
+4. Comment un vendeur doit-il interpréter émotionnellement une objection ?
 
 ## Corrigé
-1. A concern a prospect raises before deciding to buy.
-2. Price, timing, trust, and need.
-3. Because the real issue is often uncertainty about whether the value justifies the cost, not the number itself.
-4. As a question in disguise, not a closed door.
+1. Une préoccupation qu’un prospect soulève avant de décider d’acheter.
+2. Prix, moment, confiance et besoin.
+3. Parce que le véritable problème est souvent de savoir si la valeur justifie le coût, pas le chiffre lui-même.
+4. Comme une question déguisée, pas comme une porte fermée.
 
 ## Réponses et explications
-1. This defines objections as a normal, expected part of the sales process.
-2. These four categories give a practical framework for diagnosing what's actually being said.
-3. Discounting without addressing the underlying value question often doesn't resolve the real concern.
-4. This reframing keeps the seller engaged and curious instead of defensive or discouraged.
+1. Les objections sont une partie normale et attendue du processus commercial.
+2. Ces quatre catégories donnent un cadre pratique pour diagnostiquer ce qui est réellement exprimé.
+3. Accorder une remise sans traiter la question de valeur ne résout souvent pas la vraie préoccupation.
+4. Ce repositionnement aide le vendeur à rester curieux plutôt que défensif ou découragé.
 
 ## Points clés
-- Objections are useful information, not rejections — they reveal exactly what's in the way of a yes.
-- Common categories are price, timing, trust, and need, and each calls for a different response.
-- Treat an objection as a question in disguise, and respond with curiosity instead of defensiveness.
+- Les objections sont des informations utiles, pas des rejets : elles révèlent ce qui empêche encore le « oui ».
+- Les catégories courantes sont le prix, le moment, la confiance et le besoin ; chacune demande une réponse différente.
+- Traitez une objection comme une question déguisée et répondez avec curiosité plutôt qu’avec défensive.
