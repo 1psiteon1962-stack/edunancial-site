@@ -6,55 +6,54 @@ level: 1
 lessonNumber: 3
 locale: es-ES
 title: "El problema del cliente es el centro de todo"
-summary: "Teaches students to center every sales conversation on the customer's actual problem rather than the product's features."
+summary: "Enseña a centrar cada conversación de ventas en el problema real del cliente en lugar de en las características del producto."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The Customer's Problem Is the Whole Game
+# El problema del cliente es el centro de todo
 
-## Learning Objectives
-- Explain why customers buy solutions to problems, not products
-- Practice reframing a product's features as problem-solving statements
-- Identify the customer's underlying problem in a sales scenario
+## Objetivos de aprendizaje
+- Explicar por qué los clientes compran soluciones a problemas, no productos.
+- Practicar cómo convertir características de un producto en afirmaciones que resuelven problemas.
+- Identificar el problema subyacente del cliente en una situación de ventas.
 
-## Core Content
+## Contenido principal
 
-Nobody wakes up wanting a drill. They wake up wanting a hole in the wall so they can hang a picture. The drill is just the tool that gets them there. This is one of the oldest lessons in sales, and it's still true: people don't buy products, they buy solutions to problems.
+Nadie se despierta queriendo un taladro. Se despierta queriendo un agujero en la pared para colgar un cuadro. El taladro es simplemente la herramienta que permite conseguirlo. Esta es una de las lecciones más antiguas de las ventas y sigue siendo cierta: las personas no compran productos; compran soluciones a problemas.
 
-This matters because new sellers often lead with what their product does instead of what problem it solves. "My candles use 100% soy wax" is a feature. "My candles won't leave black soot stains on your walls like paraffin candles do" is a solution to a problem the customer might not have even realized they had.
+Esto importa porque los vendedores nuevos suelen empezar explicando lo que hace su producto en vez del problema que resuelve. «Mis velas utilizan cera de soja al 100 %» es una característica. «Mis velas no dejarán manchas negras de hollín en tus paredes como pueden hacerlo las velas de parafina» es una solución a un problema que quizá el cliente ni siquiera había identificado.
 
-To sell well, you have to know your customer's problem better than they can explain it themselves. That means asking questions before pitching anything. What are they struggling with? What have they already tried that didn't work? What would it mean for them if this problem went away?
+Para vender bien, debes conocer el problema de tu cliente incluso mejor de lo que él puede explicarlo. Eso significa hacer preguntas antes de presentar una oferta. ¿Con qué está teniendo dificultades? ¿Qué ha probado ya y no ha funcionado? ¿Qué supondría para esa persona que el problema desapareciera?
 
-## Worked Example
+## Ejemplo práctico
 
-**Seller:** "So what's been the biggest headache with your current bookkeeping setup?"
-**Customer:** "Honestly, I just don't have time. I'm so behind I don't even know what I owe in taxes right now."
-**Seller:** "That sounds stressful — not knowing your number until it's too late. My service gives you a running total every week, so you're never guessing."
+**Vendedor:** «¿Cuál ha sido el mayor quebradero de cabeza con tu sistema actual de contabilidad?»
+**Cliente:** «Sinceramente, no tengo tiempo. Voy tan atrasado que ni siquiera sé cuánto debo de impuestos ahora mismo».
+**Vendedor:** «Eso debe de ser estresante: no saber la cifra hasta que sea demasiado tarde. Mi servicio te da un total actualizado cada semana para que nunca tengas que adivinar».
 
-Notice the seller didn't start by describing the software's features (cloud-based, automatic categorization, etc.). They started by asking about the problem, then connected the solution directly to what the customer said mattered — not knowing their tax number.
+Observa que el vendedor no empezó describiendo características del software. Comenzó preguntando por el problema y después conectó la solución directamente con lo que al cliente le importaba.
 
-## Practice Quiz
+## Cuestionario práctico
+1. Según esta lección, ¿qué compran realmente los clientes?
+2. ¿Por qué es importante hacer preguntas antes de presentar una oferta?
+3. Convierte esta característica en una solución a un problema: «Nuestra mochila tiene un compartimento acolchado para portátil».
+4. ¿Qué error cometen habitualmente los vendedores nuevos?
 
-1. What do customers actually buy, according to this lesson?
-2. Why is asking questions before pitching important?
-3. Turn this feature into a problem-solving statement: "Our backpack has a padded laptop sleeve."
-4. What mistake do new sellers commonly make?
+## Respuestas
+1. Soluciones a problemas, no los productos en sí.
+2. Porque revela qué importa realmente al cliente y permite abordar directamente esa necesidad.
+3. Ejemplo: «Nuestra mochila protege tu portátil para que no se rompa si la bolsa se cae o recibe golpes».
+4. Empezar por las características del producto en vez del problema que resuelven.
 
-## Answer Key
-1. Solutions to problems, not products themselves.
-2. It reveals what actually matters to the customer so the pitch can address it directly.
-3. Example: "Our backpack protects your laptop from cracking if you drop your bag or it gets knocked around on the bus."
-4. Leading with product features instead of the problem those features solve.
+## Respuestas y explicaciones
+1. El ejemplo del taladro y el agujero demuestra que el producto es un medio para conseguir un resultado, no el resultado en sí.
+2. Sin conocer el problema, una presentación es solo una lista de características esperando que alguna interese.
+3. Es válida cualquier respuesta que conecte el acolchado con la protección de algo que importa al cliente.
+4. Este es el error central que corrige la lección: presentar características en vez de resolver problemas.
 
-## Answers and Explanations
-1. The drill/hole example shows the product is a means to an end, not the end itself.
-2. Without knowing the problem, a pitch is just a list of features hoping something sticks.
-3. Any answer connecting the padding to protecting something the customer cares about (their laptop, their money) is correct.
-4. This is the central error the lesson corrects — pitching features instead of solving problems.
-
-## Key Takeaways
-- Every sale is really about solving a customer's problem, not describing a product.
-- Ask before you pitch — you can't solve a problem you don't understand.
-- Features only matter when connected to the specific problem the customer has.
+## Puntos clave
+- Toda venta consiste realmente en resolver un problema del cliente, no en describir un producto.
+- Pregunta antes de presentar: no puedes resolver un problema que no entiendes.
+- Las características solo importan cuando se conectan con el problema concreto del cliente.
