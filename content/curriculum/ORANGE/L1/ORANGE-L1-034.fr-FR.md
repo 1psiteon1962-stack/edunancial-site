@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 34
-title: "Measuring Conversion"
-summary: "Introduces conversion rate as the key metric for understanding how effectively a sales process actually works."
+locale: fr-FR
+title: "Mesurer la conversion"
+summary: "Présente le taux de conversion comme une mesure essentielle de l’efficacité réelle d’un processus de vente."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Measuring Conversion
+# Mesurer la conversion
 
 ## Objectifs d’apprentissage
-- Define conversion rate and explain how to calculate it
-- Explain why conversion rate matters more than raw activity numbers alone
-- Practice calculating a basic conversion rate from example numbers
+- Définir le taux de conversion et expliquer comment le calculer
+- Expliquer pourquoi il compte davantage que les seuls volumes d’activité
+- Calculer un taux de conversion élémentaire
 
 ## Contenu principal
 
-Conversion rate is the percentage of people who move from one stage to the next — most commonly, the percentage of prospects who become paying customers. It's calculated by dividing the number who converted by the total number who entered that stage, then multiplying by 100 to get a percentage.
+Le taux de conversion est le pourcentage de personnes qui passent d’une étape à la suivante, le plus souvent la proportion de prospects devenant clients payants. On le calcule en divisant le nombre de personnes converties par le nombre total de personnes entrées dans l’étape, puis en multipliant par 100.
 
-Raw activity numbers alone can be misleading. A seller who makes a hundred calls a week sounds busy, but if only one call converts to a sale, that's a 1% conversion rate — a very different story than someone who makes twenty calls and closes five, a 25% conversion rate. Conversion rate reveals actual effectiveness, not just effort or volume.
+Les volumes d’activité peuvent être trompeurs. Un vendeur qui passe cent appels par semaine semble très actif, mais si un seul devient une vente, son taux de conversion est de 1 %. Un autre qui passe vingt appels et conclut cinq ventes atteint 25 %. Le taux de conversion mesure donc l’efficacité réelle, pas seulement l’effort ou le volume.
 
-Tracking conversion rate at each pipeline stage (not just the final sale) helps identify exactly where a process is weak. A low conversion from "Contacted" to "Engaged" points to a different problem than a low conversion from "Proposal Sent" to "Closed."
+Le suivre à chaque étape du pipeline permet d’identifier précisément les faiblesses. Une faible conversion de « Contacté » à « Engagé » révèle un problème différent d’une faible conversion de « Proposition envoyée » à « Clôturé ».
 
 ## Exemple pratique
 
-A seller sends fifty proposals in a month and closes ten of them. Conversion rate: 10 divided by 50, times 100, equals 20%. The next month, they refine their proposal template based on common objections they've been hearing, send forty proposals, and close twelve. Conversion rate: 12 divided by 40, times 100, equals 30%. Even though fewer proposals were sent, the improved conversion rate means more deals closed with less total effort — a clear sign the refinement worked.
+Un vendeur envoie 50 propositions et conclut 10 ventes : 10 ÷ 50 × 100 = 20 %. Le mois suivant, il améliore son modèle de proposition à partir des objections entendues, envoie 40 propositions et conclut 12 ventes : 12 ÷ 40 × 100 = 30 %. Malgré moins de propositions, davantage d’accords sont conclus avec moins d’effort total : l’amélioration a fonctionné.
 
 ## Quiz pratique
-
-1. Define conversion rate and how it's calculated.
-2. Why can raw activity numbers be misleading on their own?
-3. If someone sends 25 proposals and closes 5, what's their conversion rate?
-4. Why is it useful to track conversion at each pipeline stage, not just the final sale?
+1. Définissez le taux de conversion et son calcul.
+2. Pourquoi les volumes d’activité seuls peuvent-ils être trompeurs ?
+3. 25 propositions et 5 ventes donnent quel taux ?
+4. Pourquoi suivre la conversion à chaque étape ?
 
 ## Corrigé
-1. The percentage of people who move from one stage to the next, calculated as (number converted ÷ total entering the stage) × 100.
-2. Because high activity with low effectiveness produces poor results despite looking busy.
-3. 5 ÷ 25 × 100 = 20%.
-4. It reveals exactly where in the process prospects are getting stuck, allowing targeted improvement.
+1. Le pourcentage passant d’une étape à la suivante : (convertis ÷ total entrant) × 100.
+2. Parce qu’une forte activité peut produire de faibles résultats si son efficacité est faible.
+3. 20 %.
+4. Pour repérer précisément l’étape où les prospects se bloquent et cibler l’amélioration.
 
 ## Réponses et explications
-1. This is the core formula and definition the lesson introduces.
-2. Volume alone doesn't indicate whether effort is actually producing results.
-3. Applying the formula directly: 5 divided by 25 is 0.2, times 100 is 20%.
-4. Stage-level tracking pinpoints specific weaknesses rather than just an overall pass/fail number.
+1. C’est la formule fondamentale de la leçon.
+2. Le volume ne dit pas si l’effort produit réellement des résultats.
+3. 5 ÷ 25 = 0,2, soit 20 %.
+4. Le suivi par étape révèle des faiblesses précises plutôt qu’un simple résultat global.
 
 ## Points clés
-- Conversion rate measures effectiveness, calculated as converted divided by total, times 100.
-- High activity doesn't guarantee results — conversion rate reveals actual effectiveness.
-- Tracking conversion at each pipeline stage identifies exactly where a process needs improvement.
+- Le taux de conversion mesure l’efficacité : convertis ÷ total × 100.
+- Une forte activité ne garantit pas de bons résultats.
+- Mesurer chaque étape indique exactement où améliorer le processus.
