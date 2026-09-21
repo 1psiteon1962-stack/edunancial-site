@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 12
-title: "Building Ethical Urgency"
-summary: "Teaches the difference between honest urgency and manipulative pressure tactics."
+locale: fr-FR
+title: "Créer une urgence éthique"
+summary: "Enseigne la différence entre une urgence honnête et des tactiques de pression manipulatrices."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Building Ethical Urgency
+# Créer une urgence éthique
 
 ## Objectifs d’apprentissage
-- Distinguish between honest urgency and manipulative pressure
-- Identify real reasons a decision might genuinely be time-sensitive
-- Recognize fake urgency tactics and why they damage trust
+- Distinguer une urgence honnête d’une pression manipulatrice
+- Identifier de vraies raisons pour lesquelles une décision peut être réellement urgente
+- Reconnaître les fausses tactiques d’urgence et comprendre pourquoi elles détruisent la confiance
 
 ## Contenu principal
 
-Urgency can genuinely help a customer — reminding them that a real deadline exists, or that limited availability is a real constraint, helps them make a timely decision instead of drifting into inaction. But urgency can also be faked, and faking it is one of the fastest ways to destroy trust once a customer figures it out, which they usually do.
+L’urgence peut réellement aider un client : lui rappeler qu’une vraie échéance existe ou que la disponibilité est véritablement limitée l’aide à prendre une décision à temps plutôt que de rester dans l’inaction. Mais l’urgence peut aussi être fabriquée, et la falsifier est l’un des moyens les plus rapides de détruire la confiance lorsqu’un client s’en aperçoit, ce qui arrive généralement.
 
-Honest urgency is based on something true: a seasonal offer that actually ends, limited inventory that's actually limited, a price that's actually increasing on a specific date. Fake urgency invents a deadline or scarcity that doesn't really exist, just to pressure someone into deciding faster than they otherwise would.
+Une urgence honnête repose sur quelque chose de vrai : une offre saisonnière qui se termine réellement, un stock réellement limité ou un prix qui augmentera effectivement à une date précise. Une fausse urgence invente une échéance ou une rareté inexistante uniquement pour pousser quelqu’un à décider plus vite.
 
-The test is simple: if the "urgency" would still be true if the customer checked back in a month, it's honest. If the urgency magically resets or never quite materializes, it's manufactured, and customers who catch on to that stop trusting anything the seller says afterward.
+Le test est simple : si « l’urgence » serait toujours vraie si le client vérifiait un mois plus tard, elle est honnête. Si elle se réinitialise comme par magie ou ne se matérialise jamais, elle est fabriquée. Les clients qui s’en rendent compte cessent ensuite de croire ce que dit le vendeur.
 
 ## Exemple pratique
 
-A seller says, "This price is only good today." If that's genuinely true — the price actually goes up tomorrow for a real reason — that's honest urgency. If the same "today only" price is still being offered next week to a different customer, it was never true, and any customer who compares notes with a friend will notice the deception.
+Un vendeur dit : « Ce prix n’est valable qu’aujourd’hui. » Si c’est réellement vrai — le prix augmente effectivement demain pour une raison réelle — c’est une urgence honnête. Si le même prix « aujourd’hui seulement » est encore proposé la semaine suivante à un autre client, ce n’était jamais vrai, et tout client qui compare avec un ami remarquera la tromperie.
 
 ## Quiz pratique
-
-1. What is the difference between honest urgency and fake urgency?
-2. Give an example of a genuine reason for urgency.
-3. What is the "test" this lesson gives for checking whether urgency is honest?
-4. Why does fake urgency damage trust more than just not creating any urgency at all?
+1. Quelle est la différence entre une urgence honnête et une fausse urgence ?
+2. Donnez un exemple de véritable raison d’urgence.
+3. Quel « test » cette leçon propose-t-elle pour vérifier l’honnêteté d’une urgence ?
+4. Pourquoi une fausse urgence nuit-elle davantage à la confiance que l’absence totale d’urgence ?
 
 ## Corrigé
-1. Honest urgency is based on something true; fake urgency invents a deadline or scarcity that doesn't exist.
-2. Any real example works (limited seasonal inventory, an actual price increase date, a real registration deadline).
-3. Whether the urgency would still be true if the customer checked back later.
-4. Because once discovered, it signals the seller is willing to lie, which undermines trust in everything else they've said.
+1. Une urgence honnête repose sur quelque chose de vrai ; une fausse urgence invente une échéance ou une rareté inexistante.
+2. Toute contrainte réelle convient : stock saisonnier limité, véritable date d’augmentation de prix, vraie date limite d’inscription.
+3. Vérifier si l’urgence serait toujours vraie si le client revenait plus tard.
+4. Parce qu’une fois découverte, elle montre que le vendeur est prêt à mentir et fragilise la confiance dans tout le reste.
 
 ## Réponses et explications
-1. This is the core distinction the lesson draws between ethical and manipulative sales tactics.
-2. A real answer names a genuine time or supply constraint.
-3. This test gives a concrete way to self-check urgency claims before using them.
-4. Fake urgency isn't just neutral — it actively damages credibility once uncovered, which is worse than never using urgency at all.
+1. Il s’agit de la distinction centrale entre techniques commerciales éthiques et manipulatrices.
+2. Une bonne réponse cite une véritable contrainte de temps ou d’approvisionnement.
+3. Ce test donne un moyen concret de vérifier soi-même une affirmation d’urgence avant de l’utiliser.
+4. Une fausse urgence n’est pas neutre : une fois découverte, elle détruit activement la crédibilité.
 
 ## Points clés
-- Urgency is a legitimate sales tool when it's based on something genuinely true.
-- Fake or manufactured urgency destroys trust the moment a customer notices it.
-- A simple honesty test: would the urgency still hold true if the customer checked back later?
+- L’urgence est un outil commercial légitime lorsqu’elle repose sur quelque chose de réellement vrai.
+- Une urgence fausse ou fabriquée détruit la confiance dès qu’un client la remarque.
+- Test simple : l’urgence serait-elle encore vraie si le client vérifiait plus tard ?
