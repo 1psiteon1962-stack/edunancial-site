@@ -4,52 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 47
-title: "Partnerships and Cross-Promotion"
-summary: "Introduces how businesses can grow by partnering with complementary, non-competing businesses."
+locale: fr-FR
+title: "Partenariats et promotion croisée"
+summary: "Présente la manière dont les entreprises peuvent se développer en s’associant à des entreprises complémentaires et non concurrentes."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Partnerships and Cross-Promotion
+# Partenariats et promotion croisée
 
 ## Objectifs d’apprentissage
-- Define cross-promotion and explain why it works
-- Identify what makes a good cross-promotion partner
-- Practice identifying a potential partnership for a simple business
+- Définir la promotion croisée et expliquer pourquoi elle fonctionne
+- Identifier les caractéristiques d’un bon partenaire de promotion croisée
+- S’exercer à identifier un partenariat potentiel pour une entreprise simple
 
 ## Contenu principal
 
-Cross-promotion means two businesses that serve a similar audience, but aren't direct competitors, promote each other to their respective customers. It works because each business gets introduced to an audience that's already relevant and receptive, without needing to build that audience from zero.
+La promotion croisée consiste, pour deux entreprises qui servent un public similaire sans être directement concurrentes, à se promouvoir mutuellement auprès de leurs clients respectifs. Elle fonctionne parce que chaque entreprise est présentée à un public déjà pertinent et réceptif, sans avoir à construire ce public à partir de zéro.
 
-A good cross-promotion partner shares your target audience but doesn't compete with your core offer. A wedding photographer and a wedding venue serve overlapping audiences without competing with each other — a referral from one genuinely helps the other's customers, not just the businesses themselves.
+Un bon partenaire de promotion croisée partage votre public cible sans concurrencer votre offre principale. Un photographe de mariage et un lieu de réception servent des publics qui se recoupent sans se faire concurrence : une recommandation de l’un aide réellement les clients de l’autre, et pas seulement les deux entreprises.
 
-Effective partnerships are built on mutual benefit and genuine quality — recommending a partner whose work you wouldn't actually trust damages your own credibility. The partnership should make sense from the customer's perspective too, not just the two businesses' convenience.
+Les partenariats efficaces reposent sur un bénéfice mutuel et une qualité réelle. Recommander un partenaire dont vous ne feriez pas réellement confiance au travail nuit à votre propre crédibilité. Le partenariat doit aussi avoir du sens du point de vue du client, pas seulement être pratique pour les deux entreprises.
 
 ## Exemple pratique
 
-A bookkeeper and a business attorney both serve small business owners but don't compete with each other's services. They agree to refer clients to each other when relevant — the bookkeeper mentions the attorney when a client needs contract help, and the attorney mentions the bookkeeper when a client needs their finances organized. Both businesses gain qualified leads without any advertising spend, and both clients genuinely benefit from a trusted referral instead of a random search.
+Un comptable et un avocat d’affaires servent tous deux les petites entreprises sans que leurs services se concurrencent. Ils conviennent de se recommander mutuellement lorsque cela est pertinent : le comptable mentionne l’avocat lorsqu’un client a besoin d’aide pour un contrat, et l’avocat recommande le comptable lorsqu’un client doit organiser ses finances. Les deux entreprises obtiennent des prospects qualifiés sans dépenses publicitaires, et les clients bénéficient réellement d’une recommandation de confiance plutôt que d’une recherche au hasard.
 
 ## Quiz pratique
 
-1. Define cross-promotion in your own words.
-2. What makes a good cross-promotion partner?
-3. Why does recommending low-quality partners damage your own credibility?
-4. Identify a potential cross-promotion partner for a personal trainer.
+1. Définissez la promotion croisée avec vos propres mots.
+2. Qu’est-ce qui caractérise un bon partenaire de promotion croisée ?
+3. Pourquoi recommander des partenaires de mauvaise qualité nuit-il à votre propre crédibilité ?
+4. Identifiez un partenaire potentiel de promotion croisée pour un coach sportif.
 
 ## Corrigé
-1. Two non-competing businesses with a shared audience promoting each other.
-2. Sharing your target audience without competing with your core offer, and being genuinely trustworthy.
-3. Because your recommendation reflects on your own judgment — a bad referral makes customers question your other decisions too.
-4. Les réponses peuvent varier (example: a nutritionist, a sports massage therapist, a healthy meal prep service).
+1. Deux entreprises non concurrentes partageant un même public et se faisant mutuellement la promotion.
+2. Partager votre public cible sans concurrencer votre offre principale et être réellement digne de confiance.
+3. Parce que votre recommandation reflète votre propre jugement : une mauvaise recommandation amène aussi les clients à remettre en question vos autres décisions.
+4. Les réponses peuvent varier, par exemple : nutritionniste, masseur sportif, service de préparation de repas équilibrés.
 
 ## Réponses et explications
-1. This defines the core structure of a cross-promotion relationship.
-2. Overlap without competition, plus genuine quality, are the two defining criteria.
-3. Trust is transitive in referrals — a bad partner recommendation undermines your own reputation.
-4. A correct answer identifies a business serving a similar audience without directly competing.
+1. Cela définit la structure fondamentale d’une relation de promotion croisée.
+2. Le chevauchement du public sans concurrence, ainsi qu’une qualité réelle, sont les deux critères essentiels.
+3. La confiance se transfère dans les recommandations : une mauvaise recommandation de partenaire nuit aussi à votre réputation.
+4. Une bonne réponse identifie une entreprise qui sert un public similaire sans être directement concurrente.
 
 ## Points clés
-- Cross-promotion connects two non-competing businesses that share a target audience.
-- Good partners overlap in audience but not in offer, and must be genuinely trustworthy.
-- A bad partner recommendation damages your own credibility, not just theirs.
+- La promotion croisée relie deux entreprises non concurrentes qui partagent un public cible.
+- Les bons partenaires ont un public commun sans avoir la même offre et doivent être réellement dignes de confiance.
+- Une mauvaise recommandation de partenaire nuit à votre crédibilité, pas seulement à la sienne.
