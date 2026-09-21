@@ -4,52 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 45
-title: "Reading a Room: Adjusting Your Approach in Real Time"
-summary: "Teaches how to adjust tone and approach based on real-time feedback during a sales or marketing interaction."
+locale: fr-FR
+title: "Lire la situation : adapter son approche en temps réel"
+summary: "Apprend à adapter le ton et l’approche en fonction des réactions observées en temps réel pendant une interaction de vente ou de marketing."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Reading a Room: Adjusting Your Approach in Real Time
+# Lire la situation : adapter son approche en temps réel
 
 ## Objectifs d’apprentissage
-- Explain why a fixed, one-size-fits-all approach underperforms
-- Identify cues that signal a need to adjust tone or pace
-- Practice adjusting an approach mid-conversation based on feedback
+- Expliquer pourquoi une approche fixe et universelle est moins performante
+- Identifier les signaux indiquant qu’il faut adapter le ton ou le rythme
+- S’exercer à modifier son approche en cours de conversation selon les réactions observées
 
 ## Contenu principal
 
-Even the best script or plan needs to flex based on how the actual person in front of you is responding. Someone who's rushed and stressed needs a faster, more direct approach than someone who's relaxed and wants to chat through details. Ignoring these real-time cues and sticking rigidly to a planned approach, regardless of how the other person is actually reacting, tends to underperform.
+Même le meilleur script ou le meilleur plan doit pouvoir s’adapter à la réaction de la personne réellement en face de vous. Une personne pressée et stressée a besoin d’une approche plus rapide et plus directe qu’une personne détendue qui souhaite discuter des détails. Ignorer ces signaux en temps réel et s’en tenir rigidement à l’approche prévue, quelle que soit la réaction de l’autre personne, donne généralement de moins bons résultats.
 
-Cues worth watching for include: pace of speech (rushed vs. relaxed), the type of questions being asked (detail-oriented vs. big-picture), and body language or tone (engaged and leaning in vs. distracted or short answers). None of these alone are definitive, but together they give a real-time read on how to adjust.
+Parmi les signaux à observer figurent le rythme de parole (pressé ou détendu), le type de questions posées (orientées vers les détails ou vers la vision d’ensemble), ainsi que le langage corporel ou le ton (engagé et attentif, ou distrait avec des réponses brèves). Aucun de ces signaux n’est décisif à lui seul, mais ensemble ils donnent une indication en temps réel sur la manière d’ajuster votre approche.
 
-This isn't about becoming a different person for each conversation — it's about matching pace and depth to what the situation actually calls for, while staying honest and consistent in substance.
+Il ne s’agit pas de devenir une personne différente à chaque conversation, mais d’adapter le rythme et le niveau de détail à ce que la situation exige réellement, tout en restant honnête et cohérent sur le fond.
 
 ## Exemple pratique
 
-A seller has a detailed pitch prepared, but the prospect answers the phone clearly rushed, giving short, quick responses. A rigid approach would push through the full planned pitch anyway. A better approach reads the cue and adjusts: "Sounds like you're in the middle of something — want me to give you the two-sentence version and follow up later with details?" This respects the prospect's actual situation instead of forcing a mismatched approach.
+Un vendeur a préparé une présentation détaillée, mais le prospect répond au téléphone manifestement pressé et donne des réponses courtes et rapides. Une approche rigide consisterait à dérouler malgré tout toute la présentation prévue. Une meilleure approche consiste à reconnaître le signal et à s’adapter : « J’ai l’impression que vous êtes occupé. Voulez-vous que je vous donne la version en deux phrases et que je vous recontacte plus tard avec les détails ? » Cela respecte la situation réelle du prospect au lieu d’imposer une approche mal adaptée.
 
 ## Quiz pratique
 
-1. Why does a fixed, one-size-fits-all approach tend to underperform?
-2. Name two cues that signal how to adjust your approach.
-3. Does reading the room mean becoming a different person for each conversation?
-4. In the worked example, how did the seller adjust based on the cue they noticed?
+1. Pourquoi une approche fixe et universelle est-elle généralement moins performante ?
+2. Citez deux signaux permettant de savoir comment adapter votre approche.
+3. Lire la situation signifie-t-il devenir une personne différente à chaque conversation ?
+4. Dans l’exemple pratique, comment le vendeur a-t-il adapté son approche au signal observé ?
 
 ## Corrigé
-1. Because different people and situations call for different pace and depth, and a rigid approach ignores that.
-2. Any two of: pace of speech, type of questions asked, body language or tone.
-3. No — it means matching pace and depth to the situation while staying honest and consistent in substance.
-4. By offering a shorter version and following up later, respecting the prospect's rushed state.
+1. Parce que les personnes et les situations exigent des rythmes et des niveaux de détail différents, qu’une approche rigide ignore.
+2. Deux réponses parmi : rythme de parole, type de questions posées, langage corporel ou ton.
+3. Non. Il s’agit d’adapter le rythme et le niveau de détail à la situation tout en restant honnête et cohérent sur le fond.
+4. Il a proposé une version plus courte et un suivi ultérieur, respectant ainsi le fait que le prospect était pressé.
 
 ## Réponses et explications
-1. A single fixed approach can't account for the real variation in how different people want to engage.
-2. These cues provide real-time signals about how to calibrate the interaction.
-3. The lesson distinguishes flexible pacing from inauthentic personality shifts.
-4. This shows practical, respectful adaptation based directly on an observed cue.
+1. Une approche unique ne peut pas tenir compte des différences réelles dans la façon dont les personnes souhaitent interagir.
+2. Ces signaux fournissent des indications en temps réel pour calibrer l’interaction.
+3. La leçon distingue l’adaptation du rythme d’un changement de personnalité artificiel.
+4. Cela illustre une adaptation pratique et respectueuse fondée directement sur un signal observé.
 
 ## Points clés
-- A rigid, one-size-fits-all approach underperforms because people and situations genuinely differ.
-- Cues like pace, question type, and tone reveal how to adjust in real time.
-- Reading the room means matching pace and depth to the moment, not changing who you fundamentally are.
+- Une approche rigide et universelle est moins performante parce que les personnes et les situations diffèrent réellement.
+- Des signaux comme le rythme, le type de questions et le ton indiquent comment s’adapter en temps réel.
+- Lire la situation signifie adapter le rythme et la profondeur au moment, pas changer fondamentalement qui vous êtes.
