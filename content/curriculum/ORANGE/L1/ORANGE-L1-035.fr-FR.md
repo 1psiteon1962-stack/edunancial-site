@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 35
-title: "A/B Testing Basics"
-summary: "Introduces A/B testing as a simple way to make marketing decisions based on evidence instead of guesswork."
+locale: fr-FR
+title: "Les bases des tests A/B"
+summary: "Présente les tests A/B comme une méthode simple permettant de prendre des décisions marketing fondées sur des données plutôt que sur des suppositions."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# A/B Testing Basics
+# Les bases des tests A/B
 
 ## Objectifs d’apprentissage
-- Define A/B testing and explain its purpose
-- Identify the requirements for a valid A/B test
-- Practice designing a simple A/B test for a marketing decision
+- Définir un test A/B et son objectif
+- Identifier les conditions nécessaires à un test A/B valable
+- Concevoir un test A/B marketing simple
 
 ## Contenu principal
 
-A/B testing means comparing two versions of something — an ad, an email subject line, a webpage — by showing each version to a similar audience and measuring which one performs better. Instead of guessing which approach will work best, A/B testing lets real results decide.
+Un test A/B compare deux versions d’un élément — publicité, objet d’e-mail ou page web — en montrant chaque version à un public comparable puis en mesurant laquelle fonctionne le mieux. Au lieu de deviner, on laisse les résultats réels décider.
 
-For a test to be valid, it needs to change only one thing at a time. If you change both the subject line and the email content simultaneously, and one version performs better, you won't know which change actually caused the improvement. It also needs a reasonably sized audience for each version — testing with just a handful of people per version makes the results unreliable, since a small sample can look different just by chance.
+Pour être valable, le test doit modifier une seule variable à la fois. Si l’objet et le contenu d’un e-mail changent simultanément, on ne saura pas lequel a causé la différence. Il faut également un échantillon raisonnablement grand : quelques personnes seulement peuvent produire un résultat trompeur par simple hasard.
 
-A/B testing isn't just for large companies with big budgets. A small business can A/B test something as simple as two different social media captions on similar posts, or two subject lines on a small email list, and use what's learned to improve future marketing decisions.
+Les tests A/B ne sont pas réservés aux grandes entreprises. Une petite entreprise peut comparer deux légendes de réseaux sociaux ou deux objets d’e-mail et utiliser les résultats pour améliorer ses décisions futures.
 
 ## Exemple pratique
 
-A business wants to know which email subject line gets more people to open a promotional email. They send Version A ("20% off this week only") to half their list, and Version B ("Your discount is ready") to the other half — same email content, same send time, only the subject line differs. Version A gets opened by 30% of recipients; Version B gets opened by 18%. The business now has real evidence, not a guess, that specificity and urgency in the subject line performed better for this audience.
+Une entreprise compare deux objets pour le même e-mail envoyé au même moment : A, « 20 % de remise cette semaine seulement », et B, « Votre remise est prête ». A est ouvert par 30 % des destinataires contre 18 % pour B. Elle dispose désormais d’une donnée réelle indiquant que, pour ce public, la précision et l’urgence ont mieux fonctionné.
 
 ## Quiz pratique
-
-1. Define A/B testing in your own words.
-2. What's required for an A/B test to give valid, useful results?
-3. Why is testing with a very small audience unreliable?
-4. Is A/B testing only useful for large companies with big budgets?
+1. Définissez un test A/B.
+2. Quelles conditions rendent un test utile ?
+3. Pourquoi un très petit échantillon est-il peu fiable ?
+4. Les tests A/B sont-ils réservés aux grandes entreprises ?
 
 ## Corrigé
-1. Comparing two versions of something to a similar audience to see which performs better.
-2. Changing only one variable at a time, and testing with a reasonably sized audience.
-3. Small samples can produce misleading results just by random chance, not a real performance difference.
-4. No — small businesses can and should use it for decisions like subject lines or captions.
+1. Comparer deux versions auprès de publics similaires pour mesurer laquelle fonctionne le mieux.
+2. Modifier une seule variable à la fois et disposer d’un échantillon suffisamment grand.
+3. Parce que le hasard peut dominer les résultats d’un petit échantillon.
+4. Non. Les petites entreprises peuvent les utiliser pour des objets d’e-mail, légendes et autres décisions simples.
 
 ## Réponses et explications
-1. This defines the core mechanism of A/B testing as evidence-based comparison.
-2. Isolating one variable and having enough data are both required for reliable conclusions.
-3. Statistical noise can overwhelm real signal in small samples, producing false conclusions.
-4. The lesson explicitly counters the assumption that A/B testing requires significant scale or budget.
+1. Le test A/B remplace l’intuition par une comparaison fondée sur les résultats.
+2. Isoler une variable et disposer de suffisamment de données sont nécessaires à une conclusion fiable.
+3. Le bruit aléatoire peut masquer le véritable signal dans un petit échantillon.
+4. Aucun budget important n’est nécessaire pour tester simplement deux variantes.
 
 ## Points clés
-- A/B testing compares two versions to let real results guide marketing decisions instead of guesswork.
-- Valid tests change only one variable and use a large enough audience to trust the results.
-- Small businesses can and should use simple A/B tests to improve their marketing over time.
+- Les tests A/B permettent aux résultats réels de guider les décisions.
+- Un test valable ne change qu’une variable et utilise un échantillon suffisant.
+- Les petites entreprises peuvent elles aussi utiliser des tests simples pour progresser.
