@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 33
-title: "Tracking a Pipeline"
-summary: "Teaches how to organize prospects by stage so a seller always knows where their business stands."
+locale: fr-FR
+title: "Suivre un pipeline commercial"
+summary: "Apprend à organiser les prospects par étape afin qu’un vendeur sache toujours où en est son activité."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Tracking a Pipeline
+# Suivre un pipeline commercial
 
 ## Objectifs d’apprentissage
-- Define a sales pipeline and explain its purpose
-- Identify the basic stages a pipeline usually tracks
-- Practice categorizing prospects into pipeline stages
+- Définir un pipeline commercial et expliquer son objectif
+- Identifier les étapes fondamentales généralement suivies dans un pipeline
+- S’exercer à classer les prospects dans les différentes étapes du pipeline
 
 ## Contenu principal
 
-A sales pipeline is a way of organizing every active prospect by how far along they are in the decision process, so a seller can see, at a glance, exactly where their business stands and what needs attention. It's the practical application of the sales funnel concept from earlier, applied to real, individual prospects instead of just a general concept.
+Un pipeline commercial permet d’organiser chaque prospect actif selon son avancement dans le processus de décision, afin que le vendeur voie immédiatement où en est son activité et ce qui exige son attention. C’est l’application pratique du concept d’entonnoir de vente étudié plus tôt, cette fois à des prospects individuels réels.
 
-Common pipeline stages include: New Lead (just identified, no contact yet), Contacted (initial outreach made), Engaged (having an active back-and-forth conversation), Proposal Sent (a specific offer has been made), and Closed (won or lost). Every prospect sits in exactly one stage at a time, and moves forward (or occasionally backward) as the relationship develops.
+Les étapes courantes comprennent : **Nouveau prospect** (identifié, pas encore contacté), **Contacté** (première prise de contact effectuée), **Engagé** (échange actif en cours), **Proposition envoyée** (offre précise formulée) et **Clôturé** (gagné ou perdu). Chaque prospect se trouve dans une seule étape à la fois et avance — ou parfois recule — à mesure que la relation évolue.
 
-Tracking a pipeline this way answers questions that matter for running a business: how many prospects are close to closing right now? Where are most prospects getting stuck? Is there enough coming in at the top to hit revenue goals later, given how many typically fall out along the way?
+Le suivi du pipeline permet de répondre à des questions essentielles : combien de prospects sont proches d’une conclusion ? Où la majorité se bloque-t-elle ? Y a-t-il suffisamment de nouveaux prospects en haut du pipeline pour atteindre les objectifs de chiffre d’affaires futurs, compte tenu des abandons habituels ?
 
 ## Exemple pratique
 
-A freelance consultant reviews her pipeline weekly. She notices fifteen prospects sitting in "Contacted" for over three weeks with no movement — a clear signal that her follow-up process needs attention. Meanwhile, only two prospects are in "Proposal Sent," which tells her that even if both close, that's not enough to hit her revenue goal for the month. This visibility lets her act — pushing harder on follow-ups and generating more new leads — before the shortfall actually happens.
+Une consultante indépendante examine son pipeline chaque semaine. Elle constate que quinze prospects restent à l’étape « Contacté » depuis plus de trois semaines sans avancer : signal clair que son processus de relance doit être amélioré. Seulement deux prospects sont à l’étape « Proposition envoyée », ce qui signifie que même si les deux concluent, cela ne suffira pas à atteindre son objectif mensuel. Cette visibilité lui permet d’agir — renforcer les relances et générer de nouveaux prospects — avant que le manque de chiffre d’affaires ne se matérialise.
 
 ## Quiz pratique
-
-1. Define a sales pipeline in your own words.
-2. Name three common pipeline stages.
-3. What kind of business questions can pipeline tracking help answer?
-4. In the worked example, what problem did reviewing the pipeline reveal?
+1. Définissez un pipeline commercial avec vos propres mots.
+2. Citez trois étapes courantes d’un pipeline.
+3. À quelles questions commerciales le suivi du pipeline peut-il aider à répondre ?
+4. Dans l’exemple, quel problème l’examen du pipeline a-t-il révélé ?
 
 ## Corrigé
-1. A way of organizing prospects by how far along they are in the decision process.
-2. Any three of: New Lead, Contacted, Engaged, Proposal Sent, Closed.
-3. How many prospects are close to closing, where prospects are getting stuck, and whether enough is coming in to hit future goals.
-4. A stalled group of prospects in "Contacted" and not enough prospects in "Proposal Sent" to hit her revenue goal.
+1. Une manière d’organiser les prospects selon leur avancement dans le processus de décision.
+2. Trois réponses parmi : Nouveau prospect, Contacté, Engagé, Proposition envoyée, Clôturé.
+3. Combien sont proches d’une conclusion, où ils se bloquent et si suffisamment de nouveaux prospects entrent pour atteindre les objectifs futurs.
+4. Un groupe de prospects bloqués à l’étape « Contacté » et trop peu de propositions envoyées pour atteindre l’objectif de chiffre d’affaires.
 
 ## Réponses et explications
-1. This defines the pipeline as an organizational tool applied to real, individual prospects.
-2. These stages represent the practical, trackable version of the funnel concept.
-3. Pipeline visibility supports proactive business decisions rather than reactive surprises.
-4. Reviewing the pipeline surfaced a specific, addressable problem before it became a revenue crisis.
+1. Cela définit le pipeline comme un outil d’organisation appliqué à des prospects individuels réels.
+2. Ces étapes représentent la version concrète et mesurable de l’entonnoir.
+3. La visibilité du pipeline permet des décisions proactives plutôt que des surprises tardives.
+4. L’examen a révélé un problème précis et corrigeable avant qu’il ne devienne une crise de chiffre d’affaires.
 
 ## Points clés
-- A pipeline organizes prospects by stage, applying the funnel concept to real, individual tracking.
-- Common stages include New Lead, Contacted, Engaged, Proposal Sent, and Closed.
-- Reviewing a pipeline regularly reveals problems and opportunities before they become surprises.
+- Un pipeline organise les prospects par étape et applique l’entonnoir à un suivi individuel réel.
+- Les étapes courantes comprennent Nouveau prospect, Contacté, Engagé, Proposition envoyée et Clôturé.
+- Examiner régulièrement le pipeline révèle problèmes et occasions avant qu’ils ne deviennent des surprises.
