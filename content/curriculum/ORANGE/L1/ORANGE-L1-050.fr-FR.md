@@ -4,54 +4,55 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 50
-title: "Capstone: Pulling Sales and Marketing Together"
-summary: "Capstone lesson synthesizing the full Level 1 ORANGE track into one connected framework."
+locale: fr-FR
+title: "Projet final : réunir la vente et le marketing"
+summary: "Leçon finale qui synthétise l’ensemble du parcours ORANGE Niveau 1 dans un cadre cohérent."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Capstone: Pulling Sales and Marketing Together
+# Projet final : réunir la vente et le marketing
 
 ## Objectifs d’apprentissage
-- Synthesize the major concepts covered across ORANGE Level 1
-- Explain how marketing, sales, and post-sale relationship management connect as one system
-- Apply the full framework to a new, original business scenario
+- Synthétiser les principaux concepts étudiés dans ORANGE Niveau 1
+- Expliquer comment le marketing, la vente et la gestion de la relation après-vente s’articulent en un seul système
+- Appliquer l’ensemble du cadre à un nouveau scénario d’entreprise original
 
 ## Contenu principal
 
-Across this track, a few core ideas kept resurfacing in different forms: sales and marketing are two connected functions, not one interchangeable idea; people buy solutions to problems and are driven by both need and emotion; trust is built through small, honest, consistent behaviors, not clever tricks; rejection is data, not a verdict, and persistence through it — ethically, not manipulatively — is often what separates success from giving up too early.
+Tout au long de ce parcours, quelques idées fondamentales sont revenues sous différentes formes : la vente et le marketing sont deux fonctions liées, et non une seule idée interchangeable ; les personnes achètent des solutions à des problèmes et sont motivées à la fois par le besoin et l’émotion ; la confiance se construit par de petits comportements honnêtes et cohérents, pas par des astuces ; le rejet est une donnée, pas un verdict, et persévérer face à lui — de manière éthique, sans manipulation — est souvent ce qui sépare la réussite d’un abandon prématuré.
 
-Put together, a full picture emerges: marketing creates awareness and interest (the funnel's top), sales converts that interest into a decision (the funnel's middle), and post-sale relationship management turns a single sale into an ongoing relationship (retention, referrals, and lifetime value). None of these stages work in isolation — a weakness in any one of them limits what the whole system can achieve, no matter how strong the others are.
+Une fois réunies, ces idées font apparaître une vision complète : le marketing crée la notoriété et l’intérêt, au sommet de l’entonnoir ; la vente transforme cet intérêt en décision, au milieu de l’entonnoir ; et la gestion de la relation après-vente transforme une vente unique en relation durable, grâce à la fidélisation, aux recommandations et à la valeur vie client. Aucune de ces étapes ne fonctionne isolément : une faiblesse dans l’une d’elles limite ce que l’ensemble du système peut accomplir, quelle que soit la force des autres.
 
-The tools covered — value propositions, objection handling, the yes ladder, social proof, negotiation, closing techniques, campaigns — aren't separate tricks to memorize. They're all expressions of the same underlying principle: understand the real person in front of you, communicate honestly, and help them make a good decision, whether or not that decision benefits you in the moment.
+Les outils étudiés — propositions de valeur, traitement des objections, échelle des « oui », preuve sociale, négociation, techniques de conclusion et campagnes — ne sont pas des astuces distinctes à mémoriser. Ils expriment tous le même principe fondamental : comprendre la personne réelle en face de vous, communiquer honnêtement et l’aider à prendre une bonne décision, que cette décision vous avantage ou non sur le moment.
 
 ## Exemple pratique
 
-Revisit the record company outreach case study one final time, now through the whole-system lens. The initial cold outreach was the top of the funnel (awareness). The persistence through dozens of rejections, treating each "no" as data, kept the pipeline alive (interest and decision). The "equal opportunity" social proof technique, used honestly once real momentum existed, moved hesitant prospects toward a decision (close). And the underlying value proposition — genuine airtime and equal opportunity — was true throughout, which is exactly why the technique worked without crossing into manipulation.
+Reprenons une dernière fois l’étude de cas de la prospection des maisons de disques, cette fois à travers l’ensemble du système. La prospection à froid initiale correspondait au sommet de l’entonnoir, la notoriété. La persévérance malgré des dizaines de refus, en traitant chaque « non » comme une donnée, a maintenu le pipeline actif, entre intérêt et décision. La technique de preuve sociale de « l’égalité des chances », utilisée honnêtement une fois qu’une dynamique réelle existait, a rapproché les prospects hésitants de la décision finale. Et la proposition de valeur sous-jacente — un véritable temps d’antenne et une égalité des chances — est restée vraie tout au long du processus, ce qui explique précisément pourquoi la technique a fonctionné sans basculer dans la manipulation.
 
-Every lesson in this track shows up in that one story: needs and wants, objection handling, ethical urgency and scarcity, persistence as data, negotiation, and closing. It's not a coincidence — it's what a complete sales and marketing effort actually looks like in practice.
+Chaque leçon de ce parcours apparaît dans cette seule histoire : besoins et envies, traitement des objections, urgence et rareté éthiques, persévérance fondée sur les données, négociation et conclusion. Ce n’est pas une coïncidence : c’est à cela que ressemble, en pratique, un effort complet de vente et de marketing.
 
 ## Quiz pratique
 
-1. Name the three connected stages this capstone identifies across the full sales and marketing system.
-2. What underlying principle connects nearly every technique covered in this track?
-3. Why does a weakness in one stage (marketing, sales, or retention) limit the whole system?
-4. Design a brief scenario of your own that uses at least three concepts from this track together.
+1. Citez les trois étapes liées que ce projet final identifie dans l’ensemble du système de vente et de marketing.
+2. Quel principe fondamental relie presque toutes les techniques étudiées dans ce parcours ?
+3. Pourquoi une faiblesse dans une étape — marketing, vente ou fidélisation — limite-t-elle l’ensemble du système ?
+4. Concevez un bref scénario de votre choix utilisant ensemble au moins trois concepts de ce parcours.
 
 ## Corrigé
-1. Marketing (awareness), sales (conversion), and post-sale relationship management (retention/referrals).
-2. Understanding the real person, communicating honestly, and helping them make a good decision.
-3. Because each stage depends on people successfully moving through the previous one — strength elsewhere can't fully compensate for a broken stage.
-4. Les réponses peuvent varier but should clearly demonstrate at least three distinct concepts working together.
+1. Marketing (notoriété), vente (conversion) et gestion de la relation après-vente (fidélisation et recommandations).
+2. Comprendre la personne réelle, communiquer honnêtement et l’aider à prendre une bonne décision.
+3. Parce que chaque étape dépend du passage réussi des personnes par l’étape précédente ; la force ailleurs ne peut pas compenser totalement une étape défaillante.
+4. Les réponses peuvent varier, mais doivent clairement montrer au moins trois concepts distincts fonctionnant ensemble.
 
 ## Réponses et explications
-1. This synthesizes the funnel and retention lessons into one connected framework.
-2. This principle ties together nearly every specific technique taught throughout the track.
-3. This reinforces the "two legs" and funnel concepts from earlier in the track, now applied to the full system.
-4. A correct answer shows genuine synthesis rather than restating a single isolated lesson.
+1. Cela synthétise les leçons sur l’entonnoir et la fidélisation dans un seul cadre cohérent.
+2. Ce principe relie presque toutes les techniques particulières enseignées dans le parcours.
+3. Cela renforce les concepts des « deux jambes » et de l’entonnoir étudiés plus tôt, appliqués désormais à l’ensemble du système.
+4. Une bonne réponse montre une véritable synthèse plutôt que la simple répétition d’une leçon isolée.
 
 ## Points clés
-- Marketing, sales, and post-sale relationship management form one connected system, not separate silos.
-- Every specific technique in this track ultimately serves one principle: understand the real person, communicate honestly, help them decide well.
-- A weakness anywhere in the system limits what the whole effort can achieve, regardless of strength elsewhere.
+- Marketing, vente et gestion de la relation après-vente forment un seul système cohérent, et non des silos séparés.
+- Chaque technique de ce parcours sert finalement un même principe : comprendre la personne réelle, communiquer honnêtement et l’aider à bien décider.
+- Une faiblesse n’importe où dans le système limite ce que l’ensemble peut accomplir, quelle que soit la force des autres éléments.
