@@ -4,56 +4,56 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 8
-title: "The Psychology of a Buying Decision"
-summary: "Introduces the emotional and logical factors that combine when someone decides to buy."
+locale: fr-FR
+title: "La psychologie d’une décision d’achat"
+summary: "Présente les facteurs émotionnels et logiques qui se combinent lorsqu’une personne décide d’acheter."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The Psychology of a Buying Decision
+# La psychologie d’une décision d’achat
 
 ## Objectifs d’apprentissage
-- Explain the roles emotion and logic each play in a buying decision
-- Identify common emotional triggers in purchasing (trust, fear of missing out, belonging, relief)
-- Recognize that people justify emotional decisions with logical reasons
+- Expliquer le rôle de l’émotion et celui de la logique dans une décision d’achat
+- Identifier des déclencheurs émotionnels courants : confiance, peur de manquer une occasion, appartenance, soulagement
+- Reconnaître que les personnes justifient souvent par la logique des décisions initialement émotionnelles
 
 ## Contenu principal
 
-A common saying in sales is that people buy on emotion and justify with logic. That doesn't mean people are irrational — it means the initial pull toward a decision is usually emotional, and the reasons they give afterward (to themselves and others) are logical.
+Une formule courante dans la vente dit que les gens achètent avec leurs émotions et justifient avec la logique. Cela ne signifie pas qu’ils sont irrationnels : cela signifie que l’impulsion initiale vers une décision est généralement émotionnelle, tandis que les raisons données ensuite, à soi-même ou aux autres, sont logiques.
 
-Someone might buy a new phone because their old one feels embarrassing to pull out around friends (emotion — social comparison), and then explain the purchase by listing the better camera and battery life (logic — justification). Both are real, but the emotional trigger usually comes first.
+Une personne peut acheter un nouveau téléphone parce qu’elle est gênée de sortir l’ancien devant ses amis — émotion et comparaison sociale — puis expliquer son achat par le meilleur appareil photo et l’autonomie supérieure — logique et justification. Les deux sont réels, mais le déclencheur émotionnel arrive généralement en premier.
 
-Common emotional triggers in buying include: trust (do I believe this person/company is honest), fear of missing out (everyone else has this, or it's running out), belonging (this will make me fit in or stand out in the way I want), and relief (this will finally solve a problem that's been stressing me out).
+Parmi les déclencheurs émotionnels fréquents figurent la confiance (est-ce que je crois que cette personne ou cette entreprise est honnête ?), la peur de manquer une occasion (tout le monde l’a ou il n’en reste presque plus), l’appartenance (cela m’aidera-t-il à m’intégrer ou à me distinguer comme je le souhaite ?) et le soulagement (cela résoudra enfin un problème qui me stresse).
 
-Understanding this doesn't mean manipulating people's emotions dishonestly. It means recognizing that a purely logical, feature-based pitch often falls flat, because it's answering a question the customer isn't actually asking yet. Address the emotional "why" first, then support it with the logical "how."
+Comprendre cela ne signifie pas manipuler malhonnêtement les émotions. Cela signifie reconnaître qu’un argumentaire purement logique fondé sur les caractéristiques tombe souvent à plat, car il répond à une question que le client ne se pose pas encore. Traitez d’abord le « pourquoi » émotionnel, puis appuyez-le avec le « comment » logique.
 
 ## Exemple pratique
 
-A parent is looking at tutoring services for their child. A purely logical pitch: "Our tutors have average student score improvements of 20%." A pitch that acknowledges the emotional layer first: "I know it's stressful watching your kid struggle and not knowing how to help — that's exactly why we built a program that gives you weekly updates, so you're never left wondering if it's working." Then follow with the 20% statistic as support.
+Un parent recherche des cours particuliers pour son enfant. Argumentaire purement logique : « Nos élèves améliorent leurs résultats de 20 % en moyenne. » Argumentaire qui reconnaît d’abord la dimension émotionnelle : « Je sais qu’il est stressant de voir son enfant en difficulté sans savoir comment l’aider. C’est précisément pourquoi notre programme vous donne des nouvelles chaque semaine, afin que vous ne vous demandiez jamais si cela fonctionne. » Ensuite, le chiffre de 20 % vient étayer l’argument.
 
-The second version speaks to the parent's real emotional driver (worry, helplessness) before backing it up with logic.
+La seconde version parle d’abord au véritable moteur émotionnel du parent — inquiétude et sentiment d’impuissance — avant de l’appuyer par la logique.
 
 ## Quiz pratique
-
-1. According to the common sales saying, what do people buy on, and what do they justify with?
-2. Name two emotional triggers discussed in this lesson.
-3. Why does a purely logical, feature-based pitch often fall flat?
-4. Does recognizing emotional triggers mean it's okay to manipulate customers?
+1. Selon la formule courante dans la vente, avec quoi les gens achètent-ils et avec quoi justifient-ils ?
+2. Citez deux déclencheurs émotionnels abordés dans cette leçon.
+3. Pourquoi un argumentaire purement logique et fondé sur les caractéristiques tombe-t-il souvent à plat ?
+4. Reconnaître les déclencheurs émotionnels signifie-t-il qu’il est acceptable de manipuler les clients ?
 
 ## Corrigé
-1. People buy on emotion and justify with logic.
-2. Any two of: trust, fear of missing out, belonging, relief.
-3. Because it doesn't address the emotional reason the customer is actually motivated to buy.
-4. No — recognizing triggers should be used honestly, not to manipulate or deceive.
+1. Les gens achètent avec leurs émotions et justifient avec la logique.
+2. Deux réponses parmi : confiance, peur de manquer une occasion, appartenance, soulagement.
+3. Parce qu’il ne traite pas la raison émotionnelle qui motive réellement le client à acheter.
+4. Non. Les déclencheurs doivent être reconnus et utilisés honnêtement, pas pour manipuler ou tromper.
 
 ## Réponses et explications
-1. This is the core framework the lesson introduces.
-2. Each trigger reflects a different emotional need connected to a buying decision.
-3. Logic alone answers "does this work," but not "why should I care" — the emotional layer usually comes first.
-4. The lesson explicitly draws a line between honest emotional connection and manipulative exploitation of emotion.
+1. Il s’agit du cadre central présenté dans la leçon.
+2. Chaque déclencheur correspond à un besoin émotionnel différent lié à la décision d’achat.
+3. La logique répond à « est-ce que cela fonctionne ? », mais pas à « pourquoi cela m’importe-t-il ? » ; la dimension émotionnelle vient généralement en premier.
+4. La leçon établit explicitement une limite entre une connexion émotionnelle honnête et l’exploitation manipulatrice des émotions.
 
 ## Points clés
-- Buying decisions usually start emotional and get justified with logic afterward.
-- Common emotional triggers include trust, fear of missing out, belonging, and relief.
-- Addressing the emotional "why" before the logical "how" makes a pitch land better — but only when done honestly.
+- Les décisions d’achat commencent généralement par l’émotion et sont ensuite justifiées par la logique.
+- Les déclencheurs fréquents incluent la confiance, la peur de manquer une occasion, l’appartenance et le soulagement.
+- Traiter le « pourquoi » émotionnel avant le « comment » logique rend l’argumentaire plus efficace, mais seulement si cela reste honnête.
