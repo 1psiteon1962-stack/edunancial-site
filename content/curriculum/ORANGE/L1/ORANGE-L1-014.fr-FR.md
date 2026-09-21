@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 14
-title: "Follow-Up Cadence: Staying in Touch Without Being Annoying"
-summary: "Teaches how to follow up persistently without crossing into pestering a prospect."
+locale: fr-FR
+title: "Cadence de relance : rester en contact sans devenir agaçant"
+summary: "Apprend à relancer avec persévérance sans basculer dans le harcèlement du prospect."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Follow-Up Cadence: Staying in Touch Without Being Annoying
+# Cadence de relance : rester en contact sans devenir agaçant
 
 ## Objectifs d’apprentissage
-- Explain why most sales require multiple follow-ups, not just one
-- Identify a healthy follow-up cadence
-- Recognize the difference between persistence and pestering
+- Expliquer pourquoi la plupart des ventes nécessitent plusieurs relances
+- Identifier une cadence de relance raisonnable
+- Reconnaître la différence entre persévérance et harcèlement
 
 ## Contenu principal
 
-Most sales don't close on the first conversation. Studies across many industries consistently show that a large share of sales require multiple touches before a decision gets made — yet most sellers give up after just one or two attempts. That gap between how many follow-ups are actually needed and how many sellers actually do is where a lot of missed business hides.
+La plupart des ventes ne se concluent pas lors de la première conversation. Dans de nombreux secteurs, une grande part des ventes exige plusieurs contacts avant qu’une décision soit prise, alors que beaucoup de vendeurs abandonnent après une ou deux tentatives. C’est dans cet écart entre le nombre de relances réellement nécessaires et celles effectivement réalisées que se cachent de nombreuses occasions perdues.
 
-A healthy follow-up cadence spaces contact out reasonably — not daily, which feels like pressure, but not so sparse that the prospect forgets you exist. A common pattern: follow up a few days after the first conversation, then again after a week or two, then monthly if there's still genuine interest but no urgency yet.
+Une bonne cadence espace raisonnablement les contacts : pas tous les jours, ce qui ressemble à de la pression, mais pas au point que le prospect oublie votre existence. Un schéma courant consiste à relancer quelques jours après la première conversation, puis une ou deux semaines plus tard, puis mensuellement s’il existe toujours un intérêt réel sans urgence particulière.
 
-The difference between persistence and pestering usually comes down to value and respect. Persistence adds something each time — a helpful answer to a question they had, new information, a check-in that respects their time. Pestering just repeats the same ask with no new value and ignores signals that the person needs space.
+La différence entre persévérance et harcèlement tient généralement à la valeur apportée et au respect. La persévérance ajoute quelque chose à chaque contact : une réponse utile, une nouvelle information ou une prise de nouvelles respectueuse du temps du prospect. Le harcèlement répète simplement la même demande sans valeur nouvelle et ignore les signes indiquant que la personne a besoin d’espace.
 
 ## Exemple pratique
 
-A seller follows up three days after a prospect said "let me think about it," offering to answer any new questions. Two weeks later, they follow up again, this time sharing a relevant piece of information the prospect had asked about. A month later, a final check-in: "Still thinking about it, or has this become less of a priority?" Each touch adds something and respects a clear response either way — that's persistence.
+Un vendeur relance trois jours après qu’un prospect a dit « laissez-moi réfléchir », en proposant de répondre à toute nouvelle question. Deux semaines plus tard, il reprend contact avec une information pertinente que le prospect avait demandée. Un mois plus tard, dernière prise de nouvelles : « Vous y réfléchissez toujours ou est-ce devenu moins prioritaire ? » Chaque contact apporte quelque chose et respecte une réponse claire dans un sens ou dans l’autre : c’est de la persévérance.
 
-Compare that to messaging the same prospect every single day asking "did you decide yet?" with nothing new to offer — that's pestering, and it usually drives the prospect away entirely.
+À l’inverse, envoyer chaque jour « avez-vous décidé ? » sans rien apporter de nouveau relève du harcèlement et éloigne généralement le prospect.
 
 ## Quiz pratique
-
-1. Why do most sales require more than one follow-up?
-2. Describe a reasonable follow-up cadence.
-3. What's the key difference between persistence and pestering?
-4. Rewrite this pestering follow-up as a persistent one: "Hey, just checking if you're ready to buy yet."
+1. Pourquoi la plupart des ventes nécessitent-elles plus d’une relance ?
+2. Décrivez une cadence de relance raisonnable.
+3. Quelle est la différence essentielle entre persévérance et harcèlement ?
+4. Reformulez cette relance insistante de manière plus respectueuse : « Bonjour, je voulais juste savoir si vous êtes prêt à acheter. »
 
 ## Corrigé
-1. Because most people don't decide on the first conversation — decisions typically take multiple touches.
-2. A few days after the first contact, then a week or two later, then monthly if interest remains.
-3. Persistence adds value each time; pestering repeats the same ask with nothing new and ignores the prospect's signals.
-4. Example: "Wanted to follow up in case you had any new questions since we last talked — happy to help however's useful."
+1. Parce que la plupart des personnes ne décident pas dès la première conversation ; plusieurs contacts sont généralement nécessaires.
+2. Quelques jours après le premier contact, puis une ou deux semaines plus tard, puis mensuellement si l’intérêt demeure.
+3. La persévérance apporte de la valeur ; le harcèlement répète la même demande et ignore les signaux du prospect.
+4. Exemple : « Je souhaitais reprendre contact au cas où de nouvelles questions seraient apparues depuis notre dernière conversation. Je reste disponible si cela peut vous être utile. »
 
 ## Réponses et explications
-1. This addresses the common mistake of giving up too early in a sales process.
-2. This cadence balances staying present without becoming intrusive.
-3. This distinction is the core lesson concept for maintaining respectful persistence.
-4. A correct rewrite offers something of value instead of just repeating a pressure-based ask.
+1. Cela corrige l’erreur fréquente consistant à abandonner trop tôt.
+2. Cette cadence permet de rester présent sans devenir intrusif.
+3. Cette distinction est au cœur d’une persévérance commerciale respectueuse.
+4. Une bonne reformulation apporte de l’aide plutôt que de répéter une demande fondée sur la pression.
 
 ## Points clés
-- Most sales take multiple follow-ups — giving up after one or two attempts leaves business on the table.
-- A healthy cadence spaces contact out reasonably, without daily pressure or long silence.
-- Persistence adds value each time; pestering repeats the same ask and ignores the prospect's signals.
+- La plupart des ventes demandent plusieurs relances ; abandonner après une ou deux tentatives laisse des occasions inexploitées.
+- Une bonne cadence espace raisonnablement les contacts.
+- La persévérance apporte de la valeur ; le harcèlement répète la même demande et ignore les signaux du prospect.
