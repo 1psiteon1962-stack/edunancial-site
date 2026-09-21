@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 37
-title: "Role-Playing Rejection"
-summary: "Teaches how practicing rejection scenarios in advance builds real confidence and better responses."
+locale: fr-FR
+title: "S’entraîner au rejet par des jeux de rôle"
+summary: "Explique comment la pratique préalable des scénarios de rejet renforce la confiance et améliore les réponses."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Role-Playing Rejection
+# S’entraîner au rejet par des jeux de rôle
 
 ## Objectifs d’apprentissage
-- Explain why practicing rejection scenarios builds real sales confidence
-- Identify common rejection scenarios worth practicing
-- Practice preparing a calm, honest response to a difficult objection
+- Expliquer pourquoi s’entraîner aux rejets renforce la confiance commerciale
+- Identifier les scénarios de rejet courants à pratiquer
+- Préparer une réponse calme et honnête à une objection difficile
 
 ## Contenu principal
 
-Most people freeze up or get flustered the first time they hear a tough objection or rejection in a real sales conversation, simply because they haven't thought through how to respond calmly in the moment. Role-playing — practicing likely rejection scenarios ahead of time, either with another person or even by writing out responses — closes that gap.
+La plupart des personnes se figent ou se troublent lorsqu’elles rencontrent pour la première fois une objection difficile dans une vraie conversation commerciale, simplement parce qu’elles n’ont jamais réfléchi calmement à leur réponse. Le jeu de rôle — avec une autre personne ou même par écrit — réduit cet écart.
 
-This isn't about memorizing a manipulative comeback for every objection. It's about removing the shock and emotional reaction from hearing "no" or a tough question, so that in the real moment, you can respond thoughtfully instead of defensively or anxiously.
+Il ne s’agit pas de mémoriser une réplique manipulatrice pour chaque objection. Il s’agit d’éliminer l’effet de surprise et la réaction émotionnelle face au « non » ou à une question difficile, afin de pouvoir répondre avec réflexion plutôt que sur la défensive.
 
-Common scenarios worth practicing include: a flat "not interested," a price objection, a comparison to a cheaper competitor, and a prospect who goes silent and stops responding after initial interest. Practicing calm, honest responses to each of these in advance means you're not improvising under pressure for the first time when it actually happens.
+Parmi les scénarios utiles à pratiquer : « pas intéressé », objection sur le prix, comparaison avec un concurrent moins cher et prospect qui cesse de répondre après un intérêt initial. Une préparation calme évite d’improviser pour la première fois sous pression.
 
 ## Exemple pratique
 
-Someone new to sales practices responding out loud to the objection "this is too expensive," rehearsing a calm response ahead of time: "I hear you — can I ask what you were comparing it to, so I can explain the difference clearly?" Because they've already said this response out loud before facing a real prospect, they don't freeze or get defensive when the objection actually comes up — it feels familiar rather than threatening.
+Une personne nouvelle dans la vente s’entraîne à répondre à « c’est trop cher » : « Je comprends. Puis-je vous demander à quoi vous le comparez afin que je puisse expliquer clairement la différence ? » Comme elle a déjà prononcé cette réponse à voix haute, elle ne se fige pas lorsque l’objection réelle arrive : la situation lui paraît familière plutôt que menaçante.
 
 ## Quiz pratique
-
-1. Why does role-playing rejection scenarios help in real sales conversations?
-2. Is role-playing about memorizing manipulative comebacks?
-3. Name two common rejection scenarios worth practicing.
-4. What effect does prior practice have when a real objection occurs?
+1. Pourquoi le jeu de rôle aide-t-il dans les conversations réelles ?
+2. S’agit-il de mémoriser des répliques manipulatrices ?
+3. Citez deux scénarios de rejet utiles à pratiquer.
+4. Quel effet la pratique préalable produit-elle face à une vraie objection ?
 
 ## Corrigé
-1. It removes the shock and emotional reaction, allowing a thoughtful response instead of a defensive one.
-2. No — it's about removing the emotional charge from hearing rejection, not manipulation.
-3. Any two of: a flat "not interested," a price objection, a competitor comparison, a prospect going silent.
-4. It feels familiar rather than threatening, allowing a calmer, more effective response.
+1. Elle réduit la surprise et la réaction émotionnelle et permet une réponse réfléchie.
+2. Non. Il s’agit de préparation et de maîtrise émotionnelle, pas de manipulation.
+3. Deux parmi : refus direct, objection sur le prix, comparaison avec un concurrent, silence du prospect.
+4. La situation paraît familière plutôt que menaçante, permettant une réponse plus calme.
 
 ## Réponses et explications
-1. Practicing in advance reduces the surprise factor that causes people to freeze or react poorly.
-2. The lesson explicitly distinguishes practice from manipulation — it's about composure, not tactics.
-3. These scenarios represent the most common forms of rejection or hesitation in sales conversations.
-4. Familiarity from practice replaces panic with a prepared, thoughtful response.
+1. La pratique réduit l’effet de surprise qui fait souvent réagir maladroitement.
+2. La leçon distingue explicitement préparation et manipulation.
+3. Ces situations représentent des formes courantes de rejet ou d’hésitation.
+4. La familiarité remplace la panique par une réponse préparée et réfléchie.
 
 ## Points clés
-- Role-playing rejection in advance removes shock and builds real confidence for actual conversations.
-- It's about composure and preparedness, not memorizing manipulative comebacks.
-- Common scenarios worth practicing include price objections, flat rejections, comparisons, and silence.
+- S’entraîner au rejet réduit l’effet de surprise et renforce la confiance réelle.
+- L’objectif est la maîtrise et la préparation, pas des répliques manipulatrices.
+- Prix, refus direct, concurrence et silence sont des scénarios utiles à pratiquer.
