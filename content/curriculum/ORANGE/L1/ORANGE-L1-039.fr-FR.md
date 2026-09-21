@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 39
-title: "Closing Techniques: Soft vs. Hard Close"
-summary: "Compares gentle and direct closing approaches and when each is appropriate."
+locale: fr-FR
+title: "Techniques de conclusion : approche douce ou directe"
+summary: "Compare les approches de conclusion douces et directes et indique quand chacune est appropriée."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Closing Techniques: Soft vs. Hard Close
+# Techniques de conclusion : approche douce ou directe
 
 ## Objectifs d’apprentissage
-- Distinguish between a soft close and a hard close
-- Identify when each approach is appropriate
-- Practice using a soft close in a low-pressure sales scenario
+- Distinguer une conclusion douce d’une conclusion directe
+- Identifier quand chaque approche est appropriée
+- S’exercer à utiliser une conclusion douce dans une situation à faible pression
 
 ## Contenu principal
 
-Closing is the moment a seller asks directly for the decision. A soft close asks in a low-pressure, easy-to-decline way, often as a question that invites the next step without demanding an immediate yes: "Would it make sense to get started this week?" A hard close is more direct and assumes the decision is close, pushing for a firmer commitment: "Let's go ahead and get you signed up right now."
+La conclusion est le moment où le vendeur demande directement une décision. Une conclusion douce formule une demande peu pressante et facile à refuser, souvent sous forme de question : « Serait-il pertinent de commencer cette semaine ? » Une conclusion directe suppose que la décision est proche et demande un engagement plus ferme : « Allons-y et finalisons votre inscription maintenant. »
 
-Neither approach is inherently better — the right choice depends on where the prospect actually is. A soft close respects a prospect who's still genuinely deciding and avoids pressuring them past where they're comfortable. A hard close can be appropriate when a prospect has already shown strong buying signals and is essentially just needing a nudge to commit.
+Aucune approche n’est intrinsèquement meilleure. Le bon choix dépend de l’état réel du prospect. Une conclusion douce respecte une personne encore en réflexion. Une conclusion directe peut convenir lorsqu’elle a déjà montré de forts signaux d’achat et a seulement besoin d’une impulsion pour s’engager.
 
-Using a hard close on someone who isn't ready tends to create pressure and resentment, potentially losing a sale that could have closed later with patience. Using only soft closes on someone who's clearly ready can leave money on the table by never actually asking directly.
+Une conclusion directe utilisée trop tôt crée pression et ressentiment et peut faire perdre une vente qui aurait abouti plus tard. À l’inverse, utiliser uniquement des conclusions douces avec une personne clairement prête peut laisser une vente non conclue faute d’avoir demandé directement.
 
 ## Exemple pratique
 
-A prospect has asked several detailed logistics questions (a buying signal) and seems ready. A soft close here might undersell the moment: "Let me know whenever you're ready." A more fitting hard close: "It sounds like this is a good fit — let's get you set up today." Conversely, a prospect who's only asked one general question and seems hesitant would likely respond better to a soft close: "No pressure at all — would it help to send over some more information first?"
+Un prospect a posé plusieurs questions logistiques détaillées et semble prêt. Dire simplement « faites-moi signe quand vous serez prêt » peut être trop passif. Une conclusion directe plus adaptée serait : « Cela semble bien vous convenir ; finalisons votre inscription aujourd’hui. » À l’inverse, avec un prospect hésitant qui n’a posé qu’une question générale, une conclusion douce comme « Sans aucune pression, souhaitez-vous que je vous envoie d’abord davantage d’informations ? » sera probablement plus appropriée.
 
 ## Quiz pratique
-
-1. Define a soft close and a hard close.
-2. What determines which approach is appropriate?
-3. What can happen if a hard close is used on someone who isn't ready?
-4. What can happen if only soft closes are used on someone who's clearly ready?
+1. Définissez une conclusion douce et une conclusion directe.
+2. Qu’est-ce qui détermine l’approche appropriée ?
+3. Que peut provoquer une conclusion directe sur une personne qui n’est pas prête ?
+4. Que peut-il arriver si l’on utilise uniquement des conclusions douces avec une personne clairement prête ?
 
 ## Corrigé
-1. A soft close is low-pressure and easy to decline; a hard close is direct and assumes the decision is near.
-2. Where the prospect actually is in their decision process — their buying signals and readiness.
-3. It can create pressure and resentment, potentially losing a sale that might have closed later.
-4. It can leave money on the table by never actually asking directly for the sale.
+1. Une conclusion douce est peu pressante et facile à refuser ; une conclusion directe est plus ferme et suppose que la décision est proche.
+2. Le niveau réel de préparation et les signaux d’achat du prospect.
+3. Pression et ressentiment, avec le risque de perdre une vente qui aurait pu aboutir plus tard.
+4. La vente peut rester non conclue parce que personne ne la demande directement.
 
 ## Réponses et explications
-1. This distinction is the central concept the lesson introduces.
-2. Reading the prospect's actual readiness, not a fixed preference, should guide the choice.
-3. Mismatched pressure can backfire and damage the relationship unnecessarily.
-4. Excessive caution can also cost sales by failing to ask when the prospect was ready.
+1. Cette distinction constitue le concept central de la leçon.
+2. Le choix doit être guidé par la préparation réelle du prospect, pas par une préférence fixe.
+3. Une pression mal adaptée peut inutilement détériorer la relation.
+4. Un excès de prudence peut également coûter des ventes lorsque le prospect était prêt.
 
 ## Points clés
-- A soft close is low-pressure; a hard close is direct and assumes readiness.
-- The right choice depends on the prospect's actual buying signals and readiness, not a fixed preference.
-- Mismatching the close to the prospect's readiness can either create resentment or leave a ready sale unclosed.
+- La conclusion douce est peu pressante ; la conclusion directe suppose davantage de préparation.
+- Le bon choix dépend des signaux d’achat et de la préparation réelle du prospect.
+- Une conclusion mal adaptée peut soit créer du ressentiment, soit laisser une vente prête sans conclusion.
