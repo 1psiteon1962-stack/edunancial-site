@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 32
-title: "The CRM Concept (Even a Spreadsheet Counts)"
-summary: "Introduces customer relationship management as a concept, not a specific expensive tool."
+locale: fr-FR
+title: "Le concept de CRM (même un tableur suffit)"
+summary: "Présente la gestion de la relation client comme un concept et non comme un logiciel coûteux particulier."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# The CRM Concept (Even a Spreadsheet Counts)
+# Le concept de CRM (même un tableur suffit)
 
 ## Objectifs d’apprentissage
-- Define CRM as a concept independent of any specific software
-- Explain why tracking prospects systematically prevents lost sales
-- Practice setting up a basic tracking system for prospects
+- Définir le CRM comme un concept indépendant de tout logiciel précis
+- Expliquer pourquoi le suivi systématique des prospects évite des ventes perdues
+- S’exercer à mettre en place un système élémentaire de suivi des prospects
 
 ## Contenu principal
 
-CRM stands for Customer Relationship Management, and while it's often associated with expensive software, the concept itself is simple: a system for tracking who your prospects and customers are, what stage they're at, and what needs to happen next with each one. A well-organized spreadsheet is a completely legitimate CRM for a small operation — the software is a convenience, not a requirement.
+CRM signifie gestion de la relation client. Même si ce terme est souvent associé à des logiciels coûteux, le concept est simple : disposer d’un système pour suivre qui sont vos prospects et clients, à quelle étape ils se trouvent et ce qui doit se passer ensuite avec chacun. Pour une petite structure, un tableur bien organisé constitue un CRM parfaitement valable : le logiciel est une commodité, pas une obligation.
 
-Without any system, sellers rely on memory, which fails predictably as the number of prospects grows. Follow-ups get forgotten, hot leads go cold because nobody reached back out, and it becomes impossible to see patterns (like which type of prospect converts best) because nothing is recorded.
+Sans système, les vendeurs dépendent de leur mémoire, qui échoue de manière prévisible lorsque le nombre de prospects augmente. Les relances sont oubliées, des prospects prometteurs se refroidissent faute de suivi et il devient impossible de repérer des tendances — par exemple le type de prospect qui se convertit le mieux — parce que rien n’est enregistré.
 
-A basic CRM, even a simple spreadsheet, should track at minimum: the prospect's name and contact info, what stage of the funnel they're in, the date of the last contact, and the next action needed. That alone prevents most of the common ways sales fall through the cracks.
+Un CRM élémentaire, même un simple tableur, doit au minimum suivre le nom et les coordonnées du prospect, son étape dans l’entonnoir, la date du dernier contact et la prochaine action nécessaire. Cela suffit déjà à éviter la plupart des façons courantes dont des ventes passent entre les mailles du filet.
 
 ## Exemple pratique
 
-Someone reaching out to over a hundred record companies for a music video program kept a written list — company name, contact info, whether they'd said yes or no, and follow-up notes. That list was a CRM, even though it wasn't software. It let the caller track exactly who to circle back to, who had already agreed, and who still needed a follow-up call using the "equal opportunity" approach.
+Une personne contactant plus de cent maisons de disques pour une émission de clips musicaux tenait une liste écrite : nom de l’entreprise, coordonnées, réponse positive ou négative et notes de suivi. Cette liste était un CRM, même sans logiciel. Elle permettait de savoir précisément qui rappeler, qui avait déjà accepté et qui nécessitait encore une relance utilisant l’approche de « l’égalité des chances ».
 
 ## Quiz pratique
-
-1. What does CRM stand for, and what is its core purpose?
-2. Does a CRM have to be expensive software?
-3. What happens to sales tracking without any system in place?
-4. Name the four minimum fields a basic CRM should track.
+1. Que signifie CRM et quel est son objectif fondamental ?
+2. Un CRM doit-il obligatoirement être un logiciel coûteux ?
+3. Que se passe-t-il lorsqu’aucun système de suivi commercial n’existe ?
+4. Citez les quatre champs minimums qu’un CRM élémentaire doit suivre.
 
 ## Corrigé
-1. Customer Relationship Management — a system for tracking prospects, their stage, and next steps.
-2. No — a spreadsheet or even an organized written list is a legitimate CRM.
-3. Follow-ups get forgotten and leads go cold, because sellers rely on unreliable memory instead of a system.
-4. Name and contact info, funnel stage, date of last contact, and next action needed.
+1. Gestion de la relation client : un système permettant de suivre les prospects, leur étape et les prochaines actions.
+2. Non. Un tableur ou même une liste écrite organisée peut constituer un CRM valable.
+3. Les relances sont oubliées et les prospects se refroidissent parce que les vendeurs dépendent de leur mémoire.
+4. Nom et coordonnées, étape de l’entonnoir, date du dernier contact et prochaine action nécessaire.
 
 ## Réponses et explications
-1. This defines CRM as a concept, separate from any specific tool or price point.
-2. The lesson explicitly corrects the assumption that CRM requires expensive software.
-3. Memory-based tracking fails predictably as prospect volume grows, causing lost opportunities.
-4. These four fields form the minimum viable structure for tracking prospects effectively.
+1. Cela définit le CRM comme un concept indépendant de tout outil ou niveau de prix particulier.
+2. La leçon corrige explicitement l’idée selon laquelle un CRM nécessite un logiciel coûteux.
+3. Le suivi fondé sur la mémoire échoue lorsque le volume augmente et provoque des occasions perdues.
+4. Ces quatre champs constituent la structure minimale permettant un suivi efficace.
 
 ## Points clés
-- CRM is a concept — tracking prospects and next steps — not a specific expensive tool.
-- Without a tracking system, follow-ups get forgotten and leads go cold.
-- A basic spreadsheet with name, stage, last contact, and next action covers the essentials.
+- Le CRM est un concept de suivi des prospects et prochaines actions, pas un outil coûteux particulier.
+- Sans système, les relances sont oubliées et des prospects se refroidissent.
+- Un simple tableur comprenant nom, étape, dernier contact et prochaine action couvre l’essentiel.
