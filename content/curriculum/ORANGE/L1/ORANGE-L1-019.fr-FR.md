@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 19
-title: "Word-of-Mouth as a Growth Engine"
-summary: "Explains why word-of-mouth remains one of the most powerful and least expensive marketing tools."
+locale: fr-FR
+title: "Le bouche-à-oreille comme moteur de croissance"
+summary: "Explique pourquoi le bouche-à-oreille reste l’un des outils marketing les plus puissants et les moins coûteux."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Word-of-Mouth as a Growth Engine
+# Le bouche-à-oreille comme moteur de croissance
 
 ## Objectifs d’apprentissage
-- Explain why word-of-mouth carries more trust than most other marketing forms
-- Identify what triggers people to recommend a business to others
-- Practice designing an experience worth talking about
+- Expliquer pourquoi le bouche-à-oreille inspire davantage confiance que la plupart des autres formes de marketing
+- Identifier ce qui pousse les personnes à recommander une entreprise
+- S’exercer à concevoir une expérience dont les clients auront envie de parler
 
 ## Contenu principal
 
-Word-of-mouth is when existing customers tell other people about your business, unprompted, because they genuinely want to. It's one of the oldest and still one of the most effective forms of marketing, because a recommendation from someone you trust carries far more weight than any advertisement.
+Le bouche-à-oreille se produit lorsque des clients existants parlent spontanément de votre entreprise à d’autres personnes parce qu’ils en ont réellement envie. C’est l’une des formes de marketing les plus anciennes et toujours l’une des plus efficaces, car la recommandation d’une personne de confiance pèse bien davantage qu’une publicité.
 
-People don't recommend average experiences. They recommend experiences that surprised them in a good way — better than expected, more helpful than expected, or handled with unusual care when something went wrong. This means word-of-mouth isn't something you can force through a marketing campaign alone; it's earned by consistently delivering something worth talking about.
+Les personnes recommandent rarement une expérience simplement moyenne. Elles parlent d’expériences qui les ont agréablement surprises : meilleures que prévu, plus utiles que prévu ou gérées avec un soin inhabituel lorsqu’un problème s’est produit. Le bouche-à-oreille ne peut donc pas être imposé par une campagne marketing : il se mérite en offrant régulièrement quelque chose qui vaut la peine d’être raconté.
 
-Businesses can encourage word-of-mouth without faking it — by making it easy to share (a referral link, a simple way to tag a friend), and by occasionally, genuinely surprising customers with something slightly better than they expected.
+Une entreprise peut encourager le bouche-à-oreille sans le fabriquer : en facilitant le partage, par exemple grâce à un lien de recommandation ou un moyen simple d’identifier un ami, et en surprenant parfois sincèrement les clients avec quelque chose d’un peu meilleur que prévu.
 
 ## Exemple pratique
 
-A small bakery starts including a free small treat with every order, with a handwritten note. Customers didn't ask for this, so it feels like a genuine surprise rather than a marketing gimmick. Several customers post about it online unprompted, simply because the experience exceeded what they expected. That organic sharing brings in more new customers than any single ad the bakery ran that month.
+Une petite boulangerie commence à ajouter une petite gourmandise gratuite à chaque commande, accompagnée d’un mot manuscrit. Les clients ne l’ont pas demandée ; cela ressemble donc à une véritable surprise plutôt qu’à une astuce marketing. Plusieurs clients en parlent spontanément en ligne parce que l’expérience a dépassé leurs attentes. Ce partage organique attire davantage de nouveaux clients que n’importe quelle publicité individuelle de la boulangerie ce mois-là.
 
 ## Quiz pratique
-
-1. What is word-of-mouth marketing?
-2. Why does a personal recommendation carry more weight than an advertisement?
-3. What kind of experiences do people actually recommend to others?
-4. How can a business ethically encourage word-of-mouth?
+1. Qu’est-ce que le marketing par bouche-à-oreille ?
+2. Pourquoi une recommandation personnelle a-t-elle plus de poids qu’une publicité ?
+3. Quel type d’expérience les personnes recommandent-elles réellement ?
+4. Comment une entreprise peut-elle encourager éthiquement le bouche-à-oreille ?
 
 ## Corrigé
-1. Existing customers telling others about a business unprompted, because they want to.
-2. Because it comes from someone the listener already trusts, unlike an ad from a stranger.
-3. Experiences that exceeded expectations in some noticeable way.
-4. By making sharing easy and occasionally, genuinely exceeding what customers expect.
+1. Des clients existants qui parlent spontanément d’une entreprise à d’autres personnes parce qu’ils le souhaitent.
+2. Parce qu’elle vient d’une personne à laquelle l’auditeur fait déjà confiance.
+3. Des expériences qui ont dépassé les attentes de manière perceptible.
+4. En facilitant le partage et en dépassant parfois sincèrement les attentes des clients.
 
 ## Réponses et explications
-1. This defines word-of-mouth as organic, trust-based marketing driven by real customer experience.
-2. Trust transfers from the recommender to the business being recommended.
-3. Only experiences that surprise people positively tend to generate spontaneous recommendations.
-4. The lesson distinguishes genuine encouragement (ease of sharing, real surprise) from manufactured or fake enthusiasm.
+1. Cela définit le bouche-à-oreille comme un marketing organique fondé sur la confiance et l’expérience réelle.
+2. La confiance accordée à la personne qui recommande se transfère à l’entreprise recommandée.
+3. Les expériences qui surprennent positivement génèrent le plus souvent des recommandations spontanées.
+4. La leçon distingue l’encouragement authentique d’un enthousiasme fabriqué.
 
 ## Points clés
-- Word-of-mouth carries exceptional trust because it comes from people the listener already believes.
-- It's earned by delivering experiences that genuinely exceed expectations, not by asking for it directly.
-- Businesses can encourage it ethically by making sharing easy and occasionally surprising customers.
+- Le bouche-à-oreille inspire une confiance exceptionnelle parce qu’il vient de personnes auxquelles l’auditeur croit déjà.
+- Il se mérite en offrant des expériences qui dépassent réellement les attentes.
+- Une entreprise peut l’encourager éthiquement en facilitant le partage et en surprenant parfois ses clients.
