@@ -4,54 +4,54 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 24
-title: "Price Anchoring Basics"
-summary: "Introduces how the first number mentioned in a pricing conversation shapes perception of everything after it."
+locale: fr-FR
+title: "Les bases de l’ancrage des prix"
+summary: "Présente la manière dont le premier nombre mentionné dans une discussion de prix influence la perception de tous ceux qui suivent."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Price Anchoring Basics
+# Les bases de l’ancrage des prix
 
 ## Objectifs d’apprentissage
-- Define price anchoring and explain why it affects perception
-- Identify how anchoring can be used honestly
-- Recognize the ethical line between honest anchoring and misleading anchoring
+- Définir l’ancrage des prix et expliquer pourquoi il influence la perception
+- Identifier comment utiliser honnêtement l’ancrage
+- Reconnaître la frontière éthique entre ancrage honnête et trompeur
 
 ## Contenu principal
 
-Price anchoring is the effect where the first number mentioned in a pricing conversation becomes a reference point that shapes how every number after it feels. If someone hears "$500" first, then hears "$300," the $300 feels like a deal. If they hear "$100" first, then hear "$300," the same $300 now feels expensive — even though the number itself didn't change.
+L’ancrage des prix est l’effet par lequel le premier nombre mentionné dans une discussion devient un point de référence qui influence la perception de tous les nombres suivants. Si quelqu’un entend d’abord « 500 $ », puis « 300 $ », 300 $ semble avantageux. S’il entend d’abord « 100 $ », puis « 300 $ », le même prix de 300 $ paraît cher, alors que le montant n’a pas changé.
 
-This effect is real and well-documented, and it can be used honestly or dishonestly. Honest anchoring shows a genuine comparison — a real original price before a real discount, or a genuine comparison to what a comparable alternative actually costs. Dishonest anchoring invents a fake "original price" that was never real, just to make the actual price look like a bigger deal than it is.
+Cet effet est réel et bien documenté. Il peut être utilisé honnêtement ou malhonnêtement. Un ancrage honnête présente une comparaison réelle : un véritable ancien prix avant une vraie remise, ou le coût réel d’une solution comparable. Un ancrage malhonnête invente un faux « prix d’origine » qui n’a jamais existé uniquement pour rendre le prix réel plus avantageux.
 
-Used honestly, anchoring simply helps a customer understand value in context, the same way knowing a house's neighborhood comps helps you judge whether its price is fair.
+Utilisé honnêtement, l’ancrage aide simplement le client à comprendre la valeur dans son contexte, comme les prix de biens comparables dans un quartier permettent d’évaluer le prix d’une maison.
 
 ## Exemple pratique
 
-A service genuinely used to cost $400 per month, based on real historical pricing, and is now offered at $250 per month due to a real operational efficiency improvement. Presenting both numbers honestly — "this used to run $400, and we've brought it down to $250" — is honest anchoring, because both numbers are true.
+Un service coûtait réellement 400 $ par mois et est désormais proposé à 250 $ grâce à une véritable amélioration de l’efficacité opérationnelle. Dire « cela coûtait auparavant 400 $ et nous avons pu réduire le prix à 250 $ » est un ancrage honnête, car les deux nombres sont vrais.
 
-Compare that to a business that invents a "$400 value" that was never actually charged to anyone, just to make $250 look like a bigger discount. That's dishonest anchoring, and it risks the same trust damage as fake urgency once discovered.
+À l’inverse, une entreprise qui invente une « valeur de 400 $ » jamais facturée à personne uniquement pour faire paraître 250 $ comme une remise plus importante utilise un ancrage malhonnête. Une fois découvert, il risque de détruire la confiance comme une fausse urgence.
 
 ## Quiz pratique
-
-1. Define price anchoring in your own words.
-2. Why does the same price feel different depending on what number came before it?
-3. What makes anchoring honest?
-4. What makes anchoring dishonest?
+1. Définissez l’ancrage des prix avec vos propres mots.
+2. Pourquoi un même prix paraît-il différent selon le nombre qui l’a précédé ?
+3. Qu’est-ce qui rend un ancrage honnête ?
+4. Qu’est-ce qui rend un ancrage malhonnête ?
 
 ## Corrigé
-1. The effect where the first number mentioned shapes how all following numbers are perceived.
-2. Because people judge prices relative to a reference point, not in isolation.
-3. Using genuine, real numbers for comparison — an actual past price or a real competitor's cost.
-4. Inventing a fake comparison number that was never real, just to make the actual price seem like a bigger deal.
+1. L’effet par lequel le premier nombre mentionné influence la perception des nombres suivants.
+2. Parce que les personnes évaluent les prix par rapport à un point de référence plutôt qu’isolément.
+3. L’utilisation de nombres réels et authentiques pour la comparaison : véritable ancien prix ou coût réel d’une solution comparable.
+4. L’invention d’un faux nombre de comparaison uniquement pour faire paraître le prix réel plus avantageux.
 
 ## Réponses et explications
-1. This defines the psychological mechanism behind price anchoring.
-2. Relative comparison, not absolute value, is what drives the perception shift.
-3. Genuine, verifiable numbers keep the technique honest and useful to the customer.
-4. Fabricated comparison numbers cross into the same category of dishonesty as fake urgency.
+1. Cela définit le mécanisme psychologique de l’ancrage des prix.
+2. C’est la comparaison relative, et non seulement la valeur absolue, qui modifie la perception.
+3. Des nombres authentiques et vérifiables rendent la technique honnête et utile.
+4. Des nombres fabriqués relèvent de la même malhonnêteté que la fausse urgence.
 
 ## Points clés
-- Price anchoring means the first number mentioned shapes how every following number feels.
-- Honest anchoring uses real comparison numbers to help a customer understand actual value.
-- Dishonest anchoring invents fake comparison numbers, risking the same trust damage as any other deceptive tactic.
+- Le premier nombre mentionné influence la perception de ceux qui suivent.
+- Un ancrage honnête utilise de vrais nombres comparatifs pour contextualiser la valeur.
+- Un ancrage malhonnête invente de faux nombres et risque de détruire la confiance.
