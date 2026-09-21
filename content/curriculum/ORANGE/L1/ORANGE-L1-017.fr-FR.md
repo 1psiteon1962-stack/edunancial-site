@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 17
-title: "Organic vs. Paid Reach"
-summary: "Explains the difference between free and paid ways of reaching an audience, and when each makes sense."
+locale: fr-FR
+title: "Portée organique ou payante"
+summary: "Explique la différence entre les moyens gratuits et payants d’atteindre un public et les situations où chacun est pertinent."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Organic vs. Paid Reach
+# Portée organique ou payante
 
 ## Objectifs d’apprentissage
-- Distinguish between organic and paid marketing reach
-- Identify the tradeoffs of each approach
-- Recognize when a business should lean on one more than the other
+- Distinguer la portée marketing organique de la portée payante
+- Identifier les compromis propres à chaque approche
+- Reconnaître quand une entreprise devrait privilégier l’une ou l’autre
 
 ## Contenu principal
 
-Organic reach means people see your content or hear about you without you paying to put it in front of them — a social media post that gets shared, a referral from a happy customer, a search result that shows up naturally. Paid reach means you're paying money to guarantee visibility — an ad, a sponsored post, a paid placement.
+La portée organique signifie que les personnes voient votre contenu ou entendent parler de vous sans que vous payiez pour le leur présenter : publication partagée sur les réseaux sociaux, recommandation d’un client satisfait ou résultat de recherche apparaissant naturellement. La portée payante signifie que vous dépensez de l’argent pour garantir de la visibilité : publicité, publication sponsorisée ou placement payant.
 
-Organic reach is generally slower to build and less predictable, but it's often more trusted, because people feel like they found you rather than being sold to. Paid reach is faster and more controllable — you can decide today to spend money and get in front of people tomorrow — but it stops the moment you stop paying, and people are often more skeptical of content they know is an ad.
+La portée organique est généralement plus lente à construire et moins prévisible, mais elle inspire souvent davantage confiance parce que les personnes ont l’impression de vous avoir découvert plutôt que d’avoir été sollicitées. La portée payante est plus rapide et plus contrôlable : vous pouvez décider aujourd’hui de dépenser et apparaître devant des personnes demain. Mais elle s’arrête dès que vous cessez de payer, et les personnes sont souvent plus sceptiques face à un contenu identifié comme publicité.
 
-Most healthy businesses use both. Paid reach can jump-start visibility while organic reach is still building. Organic reach, once established, provides a more stable, lower-cost foundation that doesn't disappear the moment a budget runs out.
+La plupart des entreprises saines utilisent les deux. La portée payante peut accélérer la visibilité pendant que la portée organique se construit. Une fois établie, la portée organique fournit une base plus stable et moins coûteuse qui ne disparaît pas lorsque le budget s’épuise.
 
 ## Exemple pratique
 
-A new business with no existing audience might run a small paid ad campaign to get its first hundred customers, since it has no organic traffic yet to rely on. At the same time, it consistently posts helpful, non-salesy content, slowly building an organic following. A year later, that organic following might be generating steady traffic on its own, while paid ads become a smaller, more targeted part of the strategy rather than the whole strategy.
+Une nouvelle entreprise sans public existant peut lancer une petite campagne publicitaire payante pour obtenir ses cent premiers clients, puisqu’elle ne dispose encore d’aucun trafic organique. En parallèle, elle publie régulièrement du contenu utile et non agressivement commercial afin de construire progressivement une audience organique. Un an plus tard, cette audience peut générer un trafic régulier par elle-même, tandis que la publicité payante devient une partie plus petite et mieux ciblée de la stratégie.
 
 ## Quiz pratique
-
-1. What is the difference between organic and paid reach?
-2. What's an advantage of organic reach over paid?
-3. What's an advantage of paid reach over organic?
-4. Why might a new business use both approaches together?
+1. Quelle est la différence entre portée organique et portée payante ?
+2. Quel est un avantage de la portée organique ?
+3. Quel est un avantage de la portée payante ?
+4. Pourquoi une nouvelle entreprise peut-elle utiliser les deux ensemble ?
 
 ## Corrigé
-1. Organic reach is unpaid visibility; paid reach is visibility you pay to guarantee.
-2. It tends to be more trusted, since people feel like they found you rather than being sold to.
-3. It's faster and more controllable — you can generate visibility immediately.
-4. Paid reach jump-starts visibility early on, while organic reach builds a more stable, lower-cost foundation over time.
+1. La portée organique est une visibilité non payée ; la portée payante est une visibilité achetée.
+2. Elle inspire généralement davantage confiance parce que les personnes ont l’impression de vous avoir trouvé naturellement.
+3. Elle est plus rapide et contrôlable et permet de générer immédiatement de la visibilité.
+4. Le payant accélère la visibilité au départ, tandis que l’organique construit une base plus stable et moins coûteuse à long terme.
 
 ## Réponses et explications
-1. This defines the two core categories of marketing reach.
-2. Trust is a key organic advantage because it doesn't feel like an advertisement.
-3. Speed and control are the key paid advantages, especially for a business with no existing audience.
-4. Combining both leverages paid reach's speed with organic reach's long-term stability.
+1. Cela définit les deux grandes catégories de portée marketing.
+2. La confiance est un avantage important de l’organique parce qu’il ressemble moins à une publicité.
+3. La rapidité et le contrôle sont les principaux avantages du payant.
+4. Combiner les deux associe la vitesse du payant à la stabilité à long terme de l’organique.
 
 ## Points clés
-- Organic reach is free but slower to build; paid reach is fast but stops when spending stops.
-- Organic reach tends to carry more trust; paid reach offers more control and speed.
-- Most healthy businesses use both, often leaning more on paid early and organic over time.
+- La portée organique est gratuite mais plus lente à construire ; la portée payante est rapide mais s’arrête lorsque les dépenses cessent.
+- L’organique inspire généralement davantage confiance ; le payant offre davantage de contrôle et de rapidité.
+- La plupart des entreprises saines utilisent les deux, souvent davantage de payant au départ et davantage d’organique avec le temps.
