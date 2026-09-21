@@ -6,59 +6,58 @@ level: 1
 lessonNumber: 5
 locale: es-ES
 title: "Qué hace que una propuesta de valor funcione"
-summary: "Teaches students how to build a clear, one-sentence statement of why a customer should choose them."
+summary: "Enseña a crear una frase clara que explique por qué un cliente debería elegir una oferta."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# What Makes a Value Proposition Work
+# Qué hace que una propuesta de valor funcione
 
-## Learning Objectives
-- Define a value proposition in plain terms
-- Identify the three components a strong value proposition needs
-- Draft a basic value proposition for a simple business idea
+## Objetivos de aprendizaje
+- Definir una propuesta de valor en términos sencillos.
+- Identificar los tres componentes de una propuesta de valor sólida.
+- Redactar una propuesta de valor básica para una idea de negocio sencilla.
 
-## Core Content
+## Contenido principal
 
-A value proposition is one sentence that answers the question: "Why should I choose you instead of anyone else, including doing nothing at all?" It's not a slogan or a tagline — it's a clear, honest statement of the specific benefit you provide.
+Una propuesta de valor es una frase que responde a la pregunta: «¿Por qué debería elegirte a ti en vez de a cualquier otra opción, incluida la de no hacer nada?». No es un eslogan ni un lema; es una declaración clara y honesta del beneficio concreto que proporcionas.
 
-A strong value proposition has three parts: **who it's for**, **what problem it solves**, and **what makes your solution different**. If any of these three is missing, the statement gets vague, and vague doesn't convince anyone.
+Una propuesta de valor sólida tiene tres partes: **para quién es**, **qué problema resuelve** y **qué hace diferente tu solución**. Si falta alguna de las tres, la afirmación se vuelve imprecisa, y lo impreciso no convence.
 
-A weak example: "We sell great coffee." This doesn't say who it's for, what specific problem it solves, or what's different about it — plenty of places sell coffee.
+Un ejemplo débil: «Vendemos un café excelente». No dice para quién es, qué problema concreto resuelve ni qué lo hace diferente.
 
-A strong example: "For busy commuters who don't have time to wait in line, we deliver fresh coffee to your desk before 8 AM." This names the audience (busy commuters), the problem (no time to wait in line), and the difference (delivered, before a specific time).
+Un ejemplo sólido: «Para quienes van al trabajo con prisa y no tienen tiempo de esperar en una cola, entregamos café recién hecho en tu mesa antes de las 8:00». Identifica al público, el problema y la diferencia.
 
-## Worked Example
+## Ejemplo práctico
 
-Let's build one together for a mobile dog-washing business.
+Construyamos una propuesta para un negocio móvil de lavado de perros.
 
-**Who it's for:** Dog owners who don't have a car or a yard.
-**What problem it solves:** Getting a dog washed usually means driving somewhere and waiting.
-**What makes it different:** The service comes to them, at their home, with no appointment travel needed.
+**Para quién es:** propietarios de perros que no tienen coche o jardín.
+**Qué problema resuelve:** lavar al perro normalmente exige desplazarse y esperar.
+**Qué lo hace diferente:** el servicio va a su domicilio.
 
-Combined: "For dog owners without a car or yard, we bring professional dog washing straight to your door, so you never have to leave home to keep your dog clean."
+Combinado: «Para propietarios de perros sin coche ni jardín, llevamos el lavado profesional de perros directamente a tu puerta para que nunca tengas que salir de casa para mantener limpio a tu perro».
 
-## Practice Quiz
+## Cuestionario práctico
+1. ¿Cuáles son las tres partes que necesita una propuesta de valor?
+2. ¿A qué pregunta responde?
+3. ¿Por qué «vendemos un café excelente» es una propuesta débil?
+4. Crea una propuesta de valor para un negocio de clases de matemáticas en línea para niños.
 
-1. What are the three parts a value proposition needs?
-2. What question does a value proposition answer?
-3. Why is "we sell great coffee" a weak value proposition?
-4. Build a value proposition for a business that tutors kids in math online.
+## Respuestas
+1. Para quién es, qué problema resuelve y qué la hace diferente.
+2. «¿Por qué debería elegirte a ti en vez de cualquier otra opción, incluida la de no hacer nada?»
+3. Porque no especifica público, problema ni diferenciador.
+4. Las respuestas pueden variar, pero deben incluir las tres partes.
 
-## Answer Key
-1. Who it's for, what problem it solves, what makes it different.
-2. "Why should I choose you instead of anyone else, including doing nothing?"
-3. It doesn't specify an audience, a problem, or a differentiator.
-4. Answers will vary but should include all three parts (example: "For parents whose kids are falling behind in math, we offer one-on-one online tutoring that fits around a busy family schedule.")
+## Respuestas y explicaciones
+1. Estos tres componentes obligan a ser específico, que es lo que hace persuasiva una propuesta de valor.
+2. Este enfoque demuestra que la propuesta debe superar tanto a los competidores como a la inacción.
+3. Es genérica y podría aplicarse a casi cualquier cafetería.
+4. Una respuesta correcta identifica un público concreto, un problema real y un elemento diferenciador.
 
-## Answers and Explanations
-1. These three components force specificity, which is what makes a value proposition persuasive.
-2. This framing shows the value proposition has to beat not just competitors, but inaction.
-3. It's generic — it could apply to nearly any coffee shop, so it gives the customer no real reason to choose this one.
-4. A correct answer names a specific audience (parents/students), a real problem (falling behind), and a differentiator (online, flexible scheduling, or similar).
-
-## Key Takeaways
-- A value proposition is one clear sentence, not a slogan.
-- It must name who it's for, what problem it solves, and what makes it different.
-- Vague value propositions fail because they don't give anyone a real reason to choose you.
+## Puntos clave
+- Una propuesta de valor es una frase clara, no un eslogan.
+- Debe indicar para quién es, qué problema resuelve y qué la hace diferente.
+- Las propuestas vagas fracasan porque no dan una razón real para elegirte.
