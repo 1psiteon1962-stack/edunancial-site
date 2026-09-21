@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 26
-title: "Reading Buying Signals"
-summary: "Teaches how to notice verbal and behavioral cues that indicate a prospect is ready to decide."
+locale: fr-FR
+title: "Reconnaître les signaux d’achat"
+summary: "Apprend à remarquer les indices verbaux et comportementaux indiquant qu’un prospect est prêt à décider."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Reading Buying Signals
+# Reconnaître les signaux d’achat
 
 ## Objectifs d’apprentissage
-- Identify common verbal buying signals
-- Identify common behavioral buying signals
-- Practice responding to a buying signal by moving toward a close
+- Identifier les signaux d’achat verbaux courants
+- Identifier les signaux d’achat comportementaux courants
+- S’exercer à répondre à un signal d’achat en avançant vers la conclusion
 
 ## Contenu principal
 
-A buying signal is something a prospect says or does that indicates they're getting close to a decision, even if they haven't said "yes" outright. Missing these signals is a common mistake — sellers sometimes keep pitching well past the point where the customer was already ready to buy, which can actually create doubt where there wasn't any before.
+Un signal d’achat est quelque chose qu’un prospect dit ou fait et qui indique qu’il se rapproche d’une décision, même s’il n’a pas encore dit explicitement « oui ». Ne pas reconnaître ces signaux est une erreur fréquente : certains vendeurs continuent leur argumentaire alors que le client était déjà prêt, créant parfois des doutes qui n’existaient pas auparavant.
 
-Common verbal signals include asking detailed logistical questions ("how soon could this start?", "what does the process look like after I sign up?"), or using possessive language about the product before buying it ("when I have this...", "once I'm using this..."). Common behavioral signals include leaning in, re-reading details closely, or going quiet in a thoughtful rather than disengaged way.
+Les signaux verbaux comprennent des questions logistiques précises (« dans combien de temps cela peut-il commencer ? », « que se passe-t-il après mon inscription ? ») ou un langage possessif avant même l’achat (« quand j’aurai cela... », « lorsque je l’utiliserai... »). Les signaux comportementaux peuvent inclure le fait de se pencher vers l’avant, de relire attentivement les détails ou de devenir silencieux d’une manière réfléchie plutôt que désengagée.
 
-When you notice a buying signal, the right move is usually to stop pitching and start helping them move forward — ask a simple, direct next-step question rather than adding more information they didn't ask for.
+Lorsque vous remarquez un signal d’achat, il est généralement préférable d’arrêter l’argumentaire et d’aider le prospect à avancer : posez une question simple et directe sur la prochaine étape au lieu d’ajouter des informations qu’il n’a pas demandées.
 
 ## Exemple pratique
 
-A prospect asks, "So once I sign up, how long until I actually get access?" This is a strong verbal buying signal — they're already thinking past the decision to what comes after. A seller who misses this and keeps explaining more features risks talking the prospect out of a decision they were already leaning toward. The better response: "Great question — you'd have access within 24 hours. Would you like to go ahead and get started today?"
+Un prospect demande : « Une fois inscrit, combien de temps faut-il avant que j’aie réellement accès au service ? » C’est un signal verbal fort : il pense déjà à ce qui se passe après la décision. Un vendeur qui ne le remarque pas et continue d’énumérer des caractéristiques risque de faire douter un prospect déjà favorable. Meilleure réponse : « Bonne question : vous aurez accès sous 24 heures. Souhaitez-vous commencer aujourd’hui ? »
 
 ## Quiz pratique
-
-1. Define a buying signal in your own words.
-2. Give an example of a verbal buying signal.
-3. Give an example of a behavioral buying signal.
-4. What should a seller do when they notice a buying signal?
+1. Définissez un signal d’achat avec vos propres mots.
+2. Donnez un exemple de signal d’achat verbal.
+3. Donnez un exemple de signal d’achat comportemental.
+4. Que doit faire un vendeur lorsqu’il remarque un signal d’achat ?
 
 ## Corrigé
-1. Something a prospect says or does indicating they're close to deciding, even without saying yes outright.
-2. Asking detailed logistical questions or using possessive language about the product.
-3. Leaning in, re-reading details closely, or thoughtful silence.
-4. Stop pitching and ask a simple, direct next-step question.
+1. Quelque chose qu’un prospect dit ou fait et qui indique qu’il est proche de décider, même sans dire explicitement oui.
+2. Poser des questions logistiques précises ou utiliser un langage possessif à propos du produit.
+3. Se pencher vers l’avant, relire attentivement des détails ou observer un silence réfléchi.
+4. Arrêter l’argumentaire et poser une question simple et directe sur la prochaine étape.
 
 ## Réponses et explications
-1. This defines buying signals as indirect but meaningful indicators of readiness.
-2. Logistical or possessive language reveals the prospect is already mentally past the decision point.
-3. Physical and behavioral cues can indicate genuine consideration rather than disengagement.
-4. Continuing to pitch past a buying signal risks reintroducing doubt instead of moving toward a close.
+1. Cela définit les signaux d’achat comme des indicateurs indirects mais significatifs de préparation.
+2. Le langage logistique ou possessif montre que le prospect se projette déjà au-delà de la décision.
+3. Les indices physiques et comportementaux peuvent révéler une réflexion réelle plutôt qu’un désengagement.
+4. Continuer à argumenter après un signal d’achat risque de réintroduire le doute au lieu d’avancer vers la conclusion.
 
 ## Points clés
-- Buying signals are verbal or behavioral cues that a prospect is close to deciding.
-- Missing these signals and continuing to pitch can accidentally create doubt.
-- The right response to a buying signal is a simple next-step question, not more information.
+- Les signaux d’achat indiquent verbalement ou comportementalement qu’un prospect approche d’une décision.
+- Continuer à argumenter après ces signaux peut créer involontairement du doute.
+- La bonne réponse est une question simple sur la prochaine étape, pas davantage d’informations.
