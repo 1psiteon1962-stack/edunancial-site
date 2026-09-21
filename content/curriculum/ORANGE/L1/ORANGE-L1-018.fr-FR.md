@@ -4,52 +4,52 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 18
-title: "Content Marketing Basics"
-summary: "Introduces content marketing as providing value first to build trust before ever asking for a sale."
+locale: fr-FR
+title: "Les bases du marketing de contenu"
+summary: "Présente le marketing de contenu comme le fait d’apporter d’abord de la valeur afin de construire la confiance avant de demander une vente."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Content Marketing Basics
+# Les bases du marketing de contenu
 
 ## Objectifs d’apprentissage
-- Define content marketing and explain its core logic
-- Distinguish content marketing from direct advertising
-- Identify what makes content genuinely valuable versus disguised advertising
+- Définir le marketing de contenu et expliquer sa logique fondamentale
+- Distinguer le marketing de contenu de la publicité directe
+- Identifier ce qui rend un contenu réellement utile plutôt qu’une publicité déguisée
 
 ## Contenu principal
 
-Content marketing means providing something genuinely useful — information, entertainment, or education — to your audience, without asking for anything in return up front. The idea is that by helping people before you ever sell to them, you build trust and awareness that eventually leads to sales, even though the content itself isn't a direct pitch.
+Le marketing de contenu consiste à fournir à votre public quelque chose de réellement utile — information, divertissement ou éducation — sans demander immédiatement quelque chose en retour. L’idée est qu’en aidant les personnes avant même de leur vendre quoi que ce soit, vous construisez une confiance et une notoriété qui conduiront éventuellement à des ventes, même si le contenu lui-même n’est pas un argumentaire direct.
 
-This works differently from direct advertising, which asks for the sale immediately. Content marketing plays a longer game: a how-to video, a helpful article, a useful tip shared for free, builds a relationship with the audience over time. When that audience eventually needs what you sell, they think of you first, because you already proved you're knowledgeable and generous with what you know.
+Cela fonctionne différemment de la publicité directe, qui demande immédiatement la vente. Le marketing de contenu joue sur le long terme : une vidéo explicative, un article utile ou un conseil gratuit construit progressivement une relation avec le public. Lorsque celui-ci a finalement besoin de ce que vous vendez, il pense d’abord à vous parce que vous avez déjà démontré vos connaissances et votre générosité.
 
-The test for good content marketing is whether it would still be valuable to someone who never buys anything from you. If the "helpful content" is really just a thin disguise for a sales pitch, it doesn't build the same trust, and audiences usually notice the difference.
+Le test d’un bon contenu est de savoir s’il resterait utile à quelqu’un qui ne vous achètera jamais rien. Si le « contenu utile » n’est en réalité qu’un mince déguisement pour un argumentaire commercial, il ne construit pas la même confiance, et le public remarque généralement la différence.
 
 ## Exemple pratique
 
-A bookkeeper posts a short weekly video explaining one common tax mistake small business owners make and how to avoid it — genuinely useful information, free, with no pitch attached. Over months, people who watch regularly start to trust her expertise. When one of them finally needs a bookkeeper, she's the first person they think of, not because she pitched them, but because she'd already proven her value for free.
+Une comptable publie chaque semaine une courte vidéo expliquant une erreur fiscale fréquente chez les petites entreprises et comment l’éviter : information réellement utile, gratuite, sans argumentaire commercial. Au fil des mois, les personnes qui regardent régulièrement commencent à faire confiance à son expertise. Lorsque l’une d’elles a finalement besoin d’une comptable, c’est à elle qu’elle pense en premier, non parce qu’elle lui a vendu quelque chose, mais parce qu’elle avait déjà prouvé gratuitement sa valeur.
 
 ## Quiz pratique
-
-1. Define content marketing in your own words.
-2. How is content marketing different from direct advertising?
-3. What is the test for whether content marketing is genuinely valuable?
-4. Why does content marketing tend to build more trust than direct ads?
+1. Définissez le marketing de contenu avec vos propres mots.
+2. En quoi diffère-t-il de la publicité directe ?
+3. Quel test permet de savoir si un contenu est réellement utile ?
+4. Pourquoi le marketing de contenu tend-il à créer davantage de confiance que les publicités directes ?
 
 ## Corrigé
-1. Providing useful information, education, or entertainment for free to build trust before selling anything.
-2. Direct advertising asks for the sale immediately; content marketing builds trust first, over time.
-3. Whether it would still be valuable to someone who never buys anything.
-4. Because it demonstrates real expertise and generosity before ever asking for anything, rather than leading with a pitch.
+1. Fournir gratuitement des informations, de l’éducation ou du divertissement utiles afin de construire la confiance avant de vendre.
+2. La publicité directe demande immédiatement la vente ; le marketing de contenu construit d’abord la confiance dans le temps.
+3. Se demander si le contenu resterait utile à quelqu’un qui n’achètera jamais rien.
+4. Parce qu’il démontre une véritable expertise et de la générosité avant de demander quoi que ce soit.
 
 ## Réponses et explications
-1. This captures the core "give value first" logic behind content marketing.
-2. This distinction separates content marketing's long-game trust-building from advertising's direct ask.
-3. This test filters out disguised advertising that only pretends to be helpful content.
-4. Trust builds because the audience experiences real value before any sales pressure is introduced.
+1. Cela résume la logique fondamentale : apporter d’abord de la valeur.
+2. Cette distinction oppose la construction de confiance à long terme à la demande directe de la publicité.
+3. Ce test écarte la publicité déguisée qui prétend seulement être utile.
+4. La confiance naît parce que le public reçoit une valeur réelle avant toute pression commerciale.
 
 ## Points clés
-- Content marketing means giving real value first, without an immediate ask, to build trust over time.
-- It differs from direct advertising, which asks for the sale right away.
-- Genuine content marketing would still be valuable to someone who never becomes a customer.
+- Le marketing de contenu consiste à apporter une vraie valeur avant de demander quoi que ce soit afin de construire la confiance.
+- Il diffère de la publicité directe, qui demande immédiatement la vente.
+- Un véritable contenu marketing resterait utile même à une personne qui ne devient jamais cliente.
