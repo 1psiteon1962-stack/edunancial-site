@@ -4,55 +4,56 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 27
-title: "Negotiation Fundamentals"
-summary: "Introduces the basics of negotiating a deal so both sides feel the outcome was fair."
+locale: fr-FR
+title: "Les fondamentaux de la négociation"
+summary: "Présente les bases permettant de négocier un accord dont les deux parties considèrent les conditions comme acceptables."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Negotiation Fundamentals
+# Les fondamentaux de la négociation
 
 ## Objectifs d’apprentissage
-- Define negotiation and explain why it isn't about "winning"
-- Identify the difference between position and interest in a negotiation
-- Practice finding a solution that addresses both sides' underlying interests
+- Définir la négociation et expliquer pourquoi elle ne consiste pas à « gagner »
+- Distinguer position et intérêt dans une négociation
+- S’exercer à trouver une solution répondant aux intérêts sous-jacents des deux parties
 
 ## Contenu principal
 
-Negotiation is the process of two sides working out terms both can accept. New sellers often think of negotiation as a battle to win — get the highest price, give up as little as possible. That mindset tends to backfire, because a "win" that leaves the other side feeling taken advantage of usually damages the relationship and reduces the chance of future business or referrals.
+La négociation est le processus par lequel deux parties recherchent des conditions qu’elles peuvent toutes deux accepter. Les nouveaux vendeurs voient parfois la négociation comme une bataille à gagner : obtenir le prix le plus élevé et céder le moins possible. Cette mentalité se retourne souvent contre eux, car une « victoire » qui laisse l’autre partie avec le sentiment d’avoir été exploitée nuit à la relation et réduit les chances de futures affaires ou recommandations.
 
-A more effective approach separates position from interest. A position is what someone says they want ("I want a 20% discount"). An interest is the underlying reason behind that position (they're worried about cash flow this month, or they've seen a competitor's lower price and want reassurance they're not overpaying). Negotiating the position alone often gets stuck. Understanding the interest behind it usually reveals more creative solutions.
+Une approche plus efficace distingue la position de l’intérêt. La position est ce que quelqu’un dit vouloir (« je veux une remise de 20 % »). L’intérêt est la raison sous-jacente : problème de trésorerie ce mois-ci, prix inférieur vu chez un concurrent ou besoin d’être rassuré sur le fait de ne pas payer trop cher. Négocier uniquement la position conduit souvent à une impasse. Comprendre l’intérêt révèle généralement des solutions plus créatives.
 
-Good negotiation looks for outcomes where both sides get their real underlying interest met, even if neither side gets their exact stated position.
+Une bonne négociation recherche des résultats qui répondent aux intérêts réels des deux parties, même si aucune n’obtient exactement la position qu’elle avait formulée au départ.
 
 ## Exemple pratique
 
-**Position stated:** "I need a 20% discount or I can't move forward."
-**Underlying interest, once asked about:** "Cash is just really tight this month, and I don't want to overcommit."
+**Position exprimée :** « J’ai besoin d’une remise de 20 %, sinon je ne peux pas avancer. »
 
-A seller focused only on the stated position might just cave and discount 20%, cutting into margin unnecessarily. A seller who understands the real interest might instead offer a payment plan spread across two months at full price — solving the actual cash flow concern without discounting the value of the product at all.
+**Intérêt sous-jacent après discussion :** « Ma trésorerie est vraiment serrée ce mois-ci et je ne veux pas trop m’engager. »
+
+Un vendeur concentré uniquement sur la position pourrait céder immédiatement 20 %, réduisant inutilement sa marge. En comprenant l’intérêt réel, il peut proposer un paiement réparti sur deux mois au prix total, résolvant directement le problème de trésorerie sans diminuer la valeur du produit.
 
 ## Quiz pratique
-
-1. Define negotiation in your own words.
-2. What's the difference between a position and an interest?
-3. Why can focusing only on someone's stated position lead to a worse outcome?
-4. In the worked example, what solution addressed the real underlying interest?
+1. Définissez la négociation avec vos propres mots.
+2. Quelle est la différence entre une position et un intérêt ?
+3. Pourquoi se concentrer uniquement sur la position exprimée peut-il conduire à un moins bon résultat ?
+4. Dans l’exemple, quelle solution répondait au véritable intérêt sous-jacent ?
 
 ## Corrigé
-1. The process of two sides working out terms both can accept.
-2. A position is what someone says they want; an interest is the underlying reason behind that request.
-3. Because it can miss creative solutions that would satisfy the real concern without conceding unnecessarily.
-4. Offering a payment plan instead of a discount, which solved the cash flow concern directly.
+1. Le processus par lequel deux parties déterminent des conditions qu’elles peuvent toutes deux accepter.
+2. Une position est ce que quelqu’un dit vouloir ; un intérêt est la raison sous-jacente à cette demande.
+3. Parce que cela peut empêcher de trouver des solutions créatives satisfaisant le véritable besoin sans concessions inutiles.
+4. Proposer un échéancier de paiement plutôt qu’une remise, ce qui résolvait directement le problème de trésorerie.
 
 ## Réponses et explications
-1. Negotiation is framed as collaborative problem-solving, not a battle to win.
-2. This distinction is the central negotiation concept the lesson introduces.
-3. Position-only negotiation can lead to unnecessary concessions or unresolved sticking points.
-4. This example shows how addressing the real interest can produce a better outcome for both sides.
+1. La négociation est présentée comme une résolution collaborative de problème, pas comme une bataille.
+2. Cette distinction constitue le concept central de la leçon.
+3. Négocier seulement les positions peut provoquer des concessions inutiles ou laisser les vrais problèmes sans solution.
+4. L’exemple montre qu’en traitant l’intérêt réel, les deux parties peuvent obtenir un meilleur résultat.
 
 ## Points clés
-- Negotiation works best as collaborative problem-solving, not a battle to win.
-- Distinguish position (what's said) from interest (the real underlying reason).
-- Solutions that address the real interest often beat simply conceding on the stated position.
+- La négociation fonctionne mieux comme résolution collaborative de problème que comme bataille à gagner.
+- Distinguez la position exprimée de l’intérêt réel qui la motive.
+- Répondre à l’intérêt réel produit souvent une meilleure solution que céder simplement sur la position.
