@@ -4,52 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 44
-title: "Sales as a Transferable Life Skill"
-summary: "Reframes sales skill as broadly applicable beyond formal selling situations."
+locale: fr-FR
+title: "La vente comme compétence transférable dans la vie"
+summary: "Repositionne les compétences de vente comme largement applicables au-delà des situations de vente formelles."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Sales as a Transferable Life Skill
+# La vente comme compétence transférable dans la vie
 
 ## Objectifs d’apprentissage
-- Identify non-business situations where sales skills apply
-- Explain why persuasion and clear communication matter beyond formal sales roles
-- Reflect on how the skills covered in this track apply to the student's own life
+- Identifier des situations hors entreprise où les compétences de vente s’appliquent
+- Expliquer pourquoi la persuasion et une communication claire comptent au-delà des fonctions commerciales
+- Réfléchir à la manière dont les compétences de ce parcours s’appliquent à votre propre vie
 
 ## Contenu principal
 
-The skills covered throughout this track — understanding a person's real problem, communicating value clearly, handling objections calmly, building trust, negotiating toward mutual benefit — aren't limited to formal sales jobs. They show up constantly in situations that don't look like "sales" at all: convincing a boss to approve an idea, negotiating a raise, getting a group of friends to agree on a plan, or even getting a teenager to see why a rule matters.
+Les compétences abordées tout au long de ce parcours — comprendre le véritable problème d’une personne, communiquer clairement la valeur, traiter calmement les objections, instaurer la confiance et négocier dans l’intérêt mutuel — ne se limitent pas aux emplois commerciaux. Elles apparaissent constamment dans des situations qui ne ressemblent pas du tout à de la « vente » : convaincre un responsable d’approuver une idée, négocier une augmentation, amener un groupe d’amis à se mettre d’accord sur un projet, ou même aider un adolescent à comprendre pourquoi une règle est importante.
 
-This matters because many people who would never call themselves "a salesperson" avoid learning these skills, assuming they're irrelevant outside of a sales job. In reality, the person who can clearly communicate value, handle pushback calmly, and negotiate toward outcomes that work for everyone involved has an advantage in nearly every area of life, whether or not money is ever involved.
+Cela compte parce que beaucoup de personnes qui ne se qualifieraient jamais de « vendeurs » évitent d’acquérir ces compétences, en supposant qu’elles sont inutiles hors d’un emploi commercial. En réalité, la personne capable de communiquer clairement la valeur, de gérer calmement les objections et de négocier des résultats satisfaisants pour toutes les parties possède un avantage dans presque tous les domaines de la vie, qu’il soit question d’argent ou non.
 
-Recognizing sales as a life skill, not a job title, changes how seriously it's worth learning — not just for anyone who plans to sell a product, but for anyone who wants to be more effective at getting real, honest support for their ideas.
+Considérer la vente comme une compétence de vie plutôt que comme un intitulé de poste change l’importance qu’il convient d’accorder à son apprentissage — non seulement pour quiconque prévoit de vendre un produit, mais aussi pour toute personne souhaitant obtenir plus efficacement un soutien réel et honnête à ses idées.
 
 ## Exemple pratique
 
-Someone needing videos for a bilingual TV program used cold outreach, objection handling, persistence, and social proof — all sales skills — despite never having a "sales job." The same skills that got dozens of record companies to eventually say yes are the exact skills that would help someone negotiate a better deal on a car, convince a landlord to make a repair, or get buy-in from a skeptical group of collaborators on a new idea.
+Une personne qui avait besoin de vidéos pour une émission de télévision bilingue a utilisé la prospection à froid, le traitement des objections, la persévérance et la preuve sociale — toutes des compétences de vente — sans avoir jamais occupé un « poste commercial ». Les mêmes compétences qui ont finalement amené des dizaines de maisons de disques à dire oui aideraient aussi quelqu’un à négocier un meilleur prix pour une voiture, à convaincre un propriétaire d’effectuer une réparation ou à obtenir l’adhésion d’un groupe de collaborateurs sceptiques à une nouvelle idée.
 
 ## Quiz pratique
 
-1. Name two non-business situations where sales skills apply, according to this lesson.
-2. Why do many people avoid learning sales skills unnecessarily?
-3. What advantage does someone with strong sales skills have, even outside formal sales?
-4. Reflect: name one situation in your own life where a skill from this track could help.
+1. Citez deux situations hors entreprise où les compétences de vente s’appliquent, selon cette leçon.
+2. Pourquoi beaucoup de personnes évitent-elles inutilement d’apprendre les compétences de vente ?
+3. Quel avantage possède une personne ayant de solides compétences de vente, même en dehors d’une fonction commerciale ?
+4. Réflexion : citez une situation de votre propre vie dans laquelle une compétence de ce parcours pourrait vous aider.
 
 ## Corrigé
-1. Any two of: negotiating a raise, convincing a boss, group decision-making, persuading a family member.
-2. They assume the skills are only relevant to people with a formal sales job title.
-3. They can communicate value clearly, handle pushback calmly, and negotiate toward mutually beneficial outcomes in nearly any situation.
-4. Les réponses peuvent varier and reflect personal application.
+1. Deux réponses parmi : négocier une augmentation, convaincre un responsable, prendre une décision en groupe, persuader un membre de sa famille.
+2. Elles supposent que ces compétences ne concernent que les personnes ayant officiellement un poste commercial.
+3. Elles peuvent communiquer clairement la valeur, gérer calmement les objections et négocier des résultats mutuellement avantageux dans presque toutes les situations.
+4. Les réponses peuvent varier et doivent refléter une application personnelle.
 
 ## Réponses et explications
-1. These examples show sales skills operating in everyday, non-transactional contexts.
-2. This misconception is directly addressed and corrected by the lesson.
-3. This advantage applies broadly, independent of whether money or a formal sale is involved.
-4. Personal reflection reinforces the transferability of the skills covered throughout the track.
+1. Ces exemples montrent que les compétences de vente fonctionnent dans des contextes quotidiens et non transactionnels.
+2. Cette idée reçue est directement abordée et corrigée par la leçon.
+3. Cet avantage s’applique largement, indépendamment de la présence d’argent ou d’une vente formelle.
+4. La réflexion personnelle renforce le caractère transférable des compétences étudiées tout au long du parcours.
 
 ## Points clés
-- Sales skills — clear communication, objection handling, trust-building, negotiation — apply far beyond formal sales roles.
-- Many people avoid learning these skills by mistakenly assuming they're only relevant to salespeople.
-- Recognizing sales as a broadly transferable life skill makes it worth learning for anyone, regardless of career path.
+- Les compétences de vente — communication claire, traitement des objections, confiance et négociation — s’appliquent bien au-delà des fonctions commerciales.
+- Beaucoup de personnes évitent de les apprendre en supposant à tort qu’elles ne concernent que les vendeurs.
+- Considérer la vente comme une compétence largement transférable dans la vie justifie son apprentissage, quelle que soit la carrière choisie.
