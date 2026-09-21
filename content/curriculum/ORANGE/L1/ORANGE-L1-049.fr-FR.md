@@ -4,52 +4,53 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 49
-title: "Designing a Mini Sales Campaign"
-summary: "Guides students through planning a simple, complete sales campaign from outreach to close."
+locale: fr-FR
+title: "Concevoir une mini-campagne de vente"
+summary: "Guide les étudiants dans la planification d’une campagne de vente simple et complète, de la prospection à la conclusion."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Designing a Mini Sales Campaign
+# Concevoir une mini-campagne de vente
 
 ## Objectifs d’apprentissage
-- Identify the components needed to plan a basic sales campaign
-- Practice sequencing outreach, follow-up, and closing steps
-- Apply lessons from this track into a single connected plan
+- Identifier les éléments nécessaires à la planification d’une campagne de vente de base
+- S’exercer à ordonner la prospection, le suivi et les étapes de conclusion
+- Appliquer les leçons de ce parcours dans un seul plan cohérent
 
 ## Contenu principal
 
-A sales campaign is a planned sequence of outreach and follow-up aimed at a specific group of prospects, over a defined period of time, working toward a specific goal. Rather than reaching out randomly whenever it occurs, a campaign brings structure: who you're targeting, what you're offering, how you'll reach them, and what the follow-up sequence looks like.
+Une campagne de vente est une séquence planifiée de prospection et de suivi visant un groupe précis de prospects, pendant une période définie, afin d’atteindre un objectif précis. Au lieu de contacter des personnes au hasard lorsque l’occasion se présente, une campagne apporte une structure : qui vous ciblez, ce que vous proposez, comment vous les atteignez et à quoi ressemble la séquence de suivi.
 
-A basic campaign plan should answer: Who is the target audience (drawing on the target audience lesson)? What's the value proposition being communicated? What's the first touchpoint (cold outreach, referral, content)? What's the follow-up cadence if there's no response? What does the close look like once someone's ready?
+Un plan de campagne de base doit répondre aux questions suivantes : quel est le public cible ? Quelle proposition de valeur est communiquée ? Quel est le premier point de contact — prospection à froid, recommandation ou contenu ? Quel est le rythme de suivi en l’absence de réponse ? À quoi ressemble la conclusion lorsque la personne est prête ?
 
-Planning a campaign this way turns scattered, reactive selling into an organized, repeatable process — the same principle from the earlier lesson on building a sales system, applied to a specific, time-bound push.
+Planifier une campagne de cette manière transforme une vente dispersée et réactive en un processus organisé et reproductible — le même principe que dans la leçon sur la construction d’un système de vente, appliqué à une action précise et limitée dans le temps.
 
 ## Exemple pratique
 
-A dog-washing business plans a campaign targeting apartment-dwelling dog owners in one neighborhood over one month. Target audience: dog owners without a car or yard. Value proposition: mobile washing that comes to their door. First touchpoint: flyers at local dog parks and a few posts in a neighborhood social media group. Follow-up: anyone who asks a question gets a same-day response and a follow-up two days later if they haven't booked. Close: a simple, direct offer to book the first appointment at a small introductory discount for campaign respondents only, tracked honestly and limited to this specific real campaign.
+Une entreprise de lavage de chiens planifie une campagne d’un mois destinée aux propriétaires de chiens vivant en appartement dans un quartier. Public cible : propriétaires de chiens sans voiture ni jardin. Proposition de valeur : lavage mobile qui vient à leur porte. Premier point de contact : prospectus dans les parcs à chiens locaux et quelques publications dans un groupe de quartier sur les réseaux sociaux. Suivi : toute personne posant une question reçoit une réponse le jour même, puis une relance deux jours plus tard si elle n’a pas réservé. Conclusion : une offre simple et directe pour réserver le premier rendez-vous avec une petite remise de lancement réservée aux personnes répondant à cette campagne, suivie honnêtement et réellement limitée à cette campagne précise.
 
 ## Quiz pratique
 
-1. Define a sales campaign in your own words.
-2. Name the five questions a basic campaign plan should answer.
-3. How does campaign planning relate to the earlier lesson on building a repeatable sales system?
-4. Using the framework, sketch a one-sentence answer for each part of a campaign for a business tutoring high schoolers in math.
+1. Définissez une campagne de vente avec vos propres mots.
+2. Citez les cinq questions auxquelles un plan de campagne de base doit répondre.
+3. Quel est le lien entre la planification d’une campagne et la leçon sur la construction d’un système de vente reproductible ?
+4. À l’aide de ce cadre, donnez une réponse d’une phrase pour chaque partie d’une campagne destinée à une entreprise de soutien scolaire en mathématiques pour lycéens.
 
 ## Corrigé
-1. A planned sequence of outreach and follow-up toward a specific group of prospects and goal, over a set time period.
-2. Who's the target audience, what's the value proposition, what's the first touchpoint, what's the follow-up cadence, what does the close look like.
-3. It applies the same "documented, repeatable process" principle to a specific, time-bound push rather than an ongoing system.
-4. Les réponses peuvent varier but should address each of the five components specifically.
+1. Une séquence planifiée de prospection et de suivi visant un groupe précis de prospects et un objectif donné, pendant une période définie.
+2. Quel est le public cible ? Quelle est la proposition de valeur ? Quel est le premier point de contact ? Quel est le rythme de suivi ? À quoi ressemble la conclusion ?
+3. Elle applique le même principe de processus documenté et reproductible à une action précise et limitée dans le temps plutôt qu’à un système permanent.
+4. Les réponses peuvent varier, mais doivent traiter précisément chacun des cinq éléments.
 
 ## Réponses et explications
-1. This captures the structured, planned nature of a campaign versus reactive, unplanned selling.
-2. These five questions form the practical checklist for planning any basic campaign.
-3. Both concepts rely on documentation and structure rather than relying on improvisation each time.
-4. A correct answer connects each part of the framework to a specific, realistic detail for the tutoring business.
+1. Cela souligne le caractère structuré et planifié d’une campagne, par opposition à une vente réactive et non planifiée.
+2. Ces cinq questions constituent la liste de contrôle pratique pour planifier toute campagne de base.
+3. Les deux concepts reposent sur la documentation et la structure plutôt que sur l’improvisation à chaque fois.
+4. Une bonne réponse relie chaque élément du cadre à un détail précis et réaliste concernant l’activité de soutien scolaire.
 
 ## Points clés
-- A sales campaign brings structure to outreach through a defined audience, offer, timeline, and follow-up plan.
-- Five key questions guide any basic campaign: audience, value proposition, first touchpoint, follow-up, and close.
-- Campaign planning applies the same repeatable-system principle to a specific, time-bound sales push.
+- Une campagne de vente structure la prospection autour d’un public, d’une offre, d’un calendrier et d’un plan de suivi définis.
+- Cinq questions essentielles guident toute campagne de base : public, proposition de valeur, premier point de contact, suivi et conclusion.
+- La planification d’une campagne applique le même principe de système reproductible à une action commerciale précise et limitée dans le temps.
