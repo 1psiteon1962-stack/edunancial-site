@@ -4,60 +4,61 @@ track: ORANGE
 officialTrackName: "Sales & Marketing"
 level: 1
 lessonNumber: 2
-title: "Sales vs. Marketing: Two Different Jobs"
-summary: "Clarifies the distinction between sales and marketing so students stop using the terms interchangeably."
+locale: fr-FR
+title: "Vente et marketing : deux métiers différents"
+summary: "Clarifie la distinction entre vente et marketing afin que les étudiants cessent d’utiliser ces termes comme s’ils étaient interchangeables."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Sales vs. Marketing: Two Different Jobs
+# Vente et marketing : deux métiers différents
 
-## Learning Objectives
-- Distinguish between the function of marketing and the function of sales
-- Explain how the two work together instead of competing
-- Identify which function is happening in a given real-world example
+## Objectifs d’apprentissage
+- Distinguer la fonction du marketing de celle de la vente
+- Expliquer comment les deux travaillent ensemble au lieu de se concurrencer
+- Identifier la fonction à l’œuvre dans un exemple concret
 
-## Core Content
+## Contenu principal
 
-People use "sales and marketing" like it's one word, but they're two different jobs that happen to work on the same team.
+Les gens parlent souvent de « vente et marketing » comme s’il s’agissait d’un seul mot, mais ce sont deux métiers différents qui travaillent dans la même équipe.
 
-Marketing is about getting the right message in front of the right people so they know you exist and understand what you offer. It's the billboard, the social media post, the flyer, the word someone hears from a friend. Marketing's job is awareness and interest — getting someone to raise their hand and say "tell me more."
+Le marketing consiste à présenter le bon message aux bonnes personnes afin qu’elles sachent que vous existez et comprennent ce que vous proposez. C’est le panneau publicitaire, la publication sur les réseaux sociaux, le prospectus ou la recommandation entendue d’un ami. Le rôle du marketing est de créer de la notoriété et de l’intérêt — amener quelqu’un à lever la main et à dire : « Dites-m’en plus. »
 
-Sales is what happens after that hand goes up. Sales is the one-on-one (or small-group) conversation that turns interest into a decision. It's answering questions, addressing hesitations, and helping the person commit.
+La vente intervient après que cette main s’est levée. Elle correspond à la conversation individuelle, ou en petit groupe, qui transforme l’intérêt en décision. Il s’agit de répondre aux questions, de traiter les hésitations et d’aider la personne à s’engager.
 
-Think of it like fishing. Marketing casts a wide net and pulls people toward the boat. Sales is what happens once someone is in the boat — helping them decide to stay.
+Imaginez la pêche. Le marketing jette un large filet et attire les gens vers le bateau. La vente intervient une fois qu’une personne est dans le bateau — elle l’aide à décider d’y rester.
 
-A common mistake new business owners make is assuming that if marketing works well enough, sales won't be necessary. That's rarely true. Even with a perfect marketing message, most people still have questions, doubts, or a need for reassurance before they commit. That conversation is sales, and skipping it costs a lot of business.
+Une erreur fréquente des nouveaux entrepreneurs consiste à penser que si le marketing fonctionne suffisamment bien, la vente ne sera plus nécessaire. C’est rarement vrai. Même avec un message marketing parfait, la plupart des gens ont encore des questions, des doutes ou besoin d’être rassurés avant de s’engager. Cette conversation relève de la vente, et la négliger fait perdre beaucoup d’affaires.
 
-## Worked Example
+## Exemple pratique
 
-Ntege, who runs a small food business in Uganda, posts a video of himself preparing his signature dish and shares it locally. Fifteen people message him asking about prices and how to order. That's marketing working — it got attention and interest.
+Ntege, qui dirige une petite entreprise alimentaire en Ouganda, publie une vidéo où il prépare son plat emblématique et la partage localement. Quinze personnes lui écrivent pour demander les prix et savoir comment commander. C’est le marketing qui fonctionne — il a créé de l’attention et de l’intérêt.
 
-Now those fifteen people are asking questions: "How fresh is it?" "Can you deliver?" "What if I don't like it?" How Ntege answers those questions, builds trust, and closes each conversation into an actual order — that's sales.
+Ces quinze personnes posent maintenant des questions : « Est-ce frais ? », « Livrez-vous ? », « Et si je n’aime pas ? » La manière dont Ntege répond à ces questions, construit la confiance et transforme chaque conversation en commande réelle — c’est la vente.
 
-If Ntege only posted the video and never followed up on the messages, the marketing would have worked, but the sales would have failed, and he'd have wasted the effort of making the video in the first place.
+Si Ntege publiait seulement la vidéo sans jamais répondre aux messages, le marketing aurait fonctionné, mais la vente aurait échoué, et il aurait gaspillé l’effort consacré à la vidéo.
 
-## Practice Quiz
+## Quiz pratique
 
-1. What is the main job of marketing?
-2. What is the main job of sales?
-3. In the fishing metaphor, what does the "net" represent?
-4. Why can't strong marketing alone guarantee a sale?
+1. Quel est le rôle principal du marketing ?
+2. Quel est le rôle principal de la vente ?
+3. Dans la métaphore de la pêche, que représente le « filet » ?
+4. Pourquoi un marketing performant ne peut-il pas, à lui seul, garantir une vente ?
 
-## Answer Key
-1. Getting the right message to the right people to create awareness and interest.
-2. Turning that interest into an actual decision or commitment.
-3. Marketing — the tool that draws people's attention.
-4. Because most people still need questions answered and trust built before committing, which is the sales conversation.
+## Corrigé
+1. Présenter le bon message aux bonnes personnes afin de créer de la notoriété et de l’intérêt.
+2. Transformer cet intérêt en décision ou en engagement réel.
+3. Le marketing — l’outil qui attire l’attention des gens.
+4. Parce que la plupart des gens ont encore besoin de réponses et de confiance avant de s’engager, ce qui relève de la conversation de vente.
 
-## Answers and Explanations
-1. Marketing's role ends once someone is aware and curious — it doesn't need to close anything.
-2. Sales picks up where marketing leaves off, converting curiosity into commitment.
-3. The net (marketing) pulls people toward the boat but doesn't get them to stay in it.
-4. Interest is not the same as certainty — sales handles the certainty part.
+## Réponses et explications
+1. Le rôle du marketing s’arrête lorsque quelqu’un connaît l’offre et devient curieux — il n’a pas besoin de conclure la vente.
+2. La vente prend le relais du marketing et transforme la curiosité en engagement.
+3. Le filet, c’est-à-dire le marketing, attire les gens vers le bateau mais ne les convainc pas d’y rester.
+4. L’intérêt n’est pas la certitude — la vente traite cette étape de certitude.
 
-## Key Takeaways
-- Marketing creates awareness; sales creates commitment.
-- The two functions work in sequence, not in competition.
-- Skipping the sales conversation after marketing succeeds wastes the marketing effort.
+## Points clés
+- Le marketing crée la notoriété ; la vente crée l’engagement.
+- Les deux fonctions se succèdent et ne sont pas en concurrence.
+- Négliger la conversation de vente après un marketing réussi gaspille l’effort marketing.
