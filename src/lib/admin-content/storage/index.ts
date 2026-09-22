@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 
-const LOCAL_ROOT = join(process.cwd(), ".admin-content-store");
+const LOCAL_ROOT = process.env.EDUNANCIAL_CONTENT_STORE_ROOT?.trim() || join(process.cwd(), ".admin-content-store");
 const INDEX_FILE = "index.json";
 const AUDIT_FILE = "audit.json";
 const STORAGE_BRANCH = "admin-content-storage";
