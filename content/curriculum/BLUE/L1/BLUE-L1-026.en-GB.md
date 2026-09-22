@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-026.en-GB
+id: BLUE-L1-026
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 26
 title: "\"What Is Inventory, and What Does It Cost You to Hold?\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
