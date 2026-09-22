@@ -1,9 +1,14 @@
 ---
 id: "GOLD-L1-003"
-track: "GOLD"
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 3
-locale: "es-ES"
+lessonNumber: 3
+locale: es-ES
+version: 1.0
+author: Waldemar M. Caban, JD MA
+difficulty: introductorio
+estimatedTime: 35–50 minutos
 title: "¿Por qué los metales preciosos? Una clase de activo de anclaje"
 summary: "Comprende por qué los metales preciosos una clase de activo de anclaje y cómo encaja en una base sólida de alfabetización inversora."
 ---
