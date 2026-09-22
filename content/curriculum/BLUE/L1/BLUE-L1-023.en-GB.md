@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-023.en-GB
+id: BLUE-L1-023
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 23
 title: "\"What Is Bookkeeping, and Why Do It Even When Business Is Slow?\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
