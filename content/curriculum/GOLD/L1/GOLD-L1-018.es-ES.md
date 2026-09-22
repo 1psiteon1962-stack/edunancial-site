@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-018"
-track: "GOLD"
+id: GOLD-L1-018
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 18
-locale: "es-ES"
+lessonNumber: 18
+locale: es-ES
 title: "Los metales preciosos como cobertura frente a la inflación: una perspectiva histórica"
 summary: "Comprende los metales preciosos como cobertura frente a la inflación: una perspectiva histórica y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Los metales preciosos como cobertura frente a la inflación: una perspectiva histórica

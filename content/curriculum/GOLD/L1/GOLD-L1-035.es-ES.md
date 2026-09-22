@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-035"
-track: "GOLD"
+id: GOLD-L1-035
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 35
-locale: "es-ES"
+lessonNumber: 35
+locale: es-ES
 title: "Fundamentos fiscales de los metales preciosos"
 summary: "Comprende fundamentos fiscales de los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Fundamentos fiscales de los metales preciosos

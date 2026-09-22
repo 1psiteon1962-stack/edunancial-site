@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-046"
-track: "GOLD"
+id: GOLD-L1-046
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 46
-locale: "es-ES"
+lessonNumber: 46
+locale: es-ES
 title: "La relatividad del logro aplicada a la inversión en metales"
 summary: "Comprende la relatividad del logro aplicada a la inversión en metales y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # La relatividad del logro aplicada a la inversión en metales

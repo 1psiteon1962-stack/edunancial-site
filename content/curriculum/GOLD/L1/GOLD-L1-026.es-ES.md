@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-026"
-track: "GOLD"
+id: GOLD-L1-026
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 26
-locale: "es-ES"
+lessonNumber: 26
+locale: es-ES
 title: "Consideraciones de almacenamiento y seguridad"
 summary: "Comprende consideraciones de almacenamiento y seguridad y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Consideraciones de almacenamiento y seguridad

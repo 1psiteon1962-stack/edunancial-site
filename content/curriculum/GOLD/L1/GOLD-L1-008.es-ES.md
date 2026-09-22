@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-008"
+id: GOLD-L1-008
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 8
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "Fundamentos de la diversificación"
 summary: "Comprende fundamentos de la diversificación y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Fundamentos de la diversificación

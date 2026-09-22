@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-039"
-track: "GOLD"
+id: GOLD-L1-039
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 39
-locale: "es-ES"
+lessonNumber: 39
+locale: es-ES
 title: "Crear un plan personal de inversión en metales"
 summary: "Comprende crear un plan personal de inversión en metales y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Crear un plan personal de inversión en metales

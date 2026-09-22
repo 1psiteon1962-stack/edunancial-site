@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-047"
-track: "GOLD"
+id: GOLD-L1-047
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 47
-locale: "es-ES"
+lessonNumber: 47
+locale: es-ES
 title: "Establecer hitos para una posición creciente"
 summary: "Comprende establecer hitos para una posición creciente y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Establecer hitos para una posición creciente

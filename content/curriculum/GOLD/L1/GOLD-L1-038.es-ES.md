@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-038"
-track: "GOLD"
+id: GOLD-L1-038
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 38
-locale: "es-ES"
+lessonNumber: 38
+locale: es-ES
 title: "Errores habituales de los principiantes"
 summary: "Comprende errores habituales de los principiantes y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Errores habituales de los principiantes

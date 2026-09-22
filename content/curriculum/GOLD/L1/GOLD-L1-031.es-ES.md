@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-031"
-track: "GOLD"
+id: GOLD-L1-031
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 31
-locale: "es-ES"
+lessonNumber: 31
+locale: es-ES
 title: "Fundamentos de autenticación y falsificaciones"
 summary: "Comprende fundamentos de autenticación y falsificaciones y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Fundamentos de autenticación y falsificaciones

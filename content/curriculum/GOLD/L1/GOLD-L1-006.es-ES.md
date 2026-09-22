@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-006"
+id: GOLD-L1-006
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 6
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "El crecimiento compuesto explicado de forma sencilla"
 summary: "Comprende el crecimiento compuesto explicado de forma sencilla y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # El crecimiento compuesto explicado de forma sencilla

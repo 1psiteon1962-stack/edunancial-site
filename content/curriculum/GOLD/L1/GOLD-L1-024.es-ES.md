@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-024"
-track: "GOLD"
+id: GOLD-L1-024
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 24
-locale: "es-ES"
+lessonNumber: 24
+locale: es-ES
 title: "Cómo leer noticias básicas del mercado de metales preciosos"
 summary: "Comprende cómo leer noticias básicas del mercado de metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Cómo leer noticias básicas del mercado de metales preciosos

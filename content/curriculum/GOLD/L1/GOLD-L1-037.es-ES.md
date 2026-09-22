@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-037"
-track: "GOLD"
+id: GOLD-L1-037
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 37
-locale: "es-ES"
+lessonNumber: 37
+locale: es-ES
 title: "Metal físico frente a oro en papel: comparación básica"
 summary: "Comprende metal físico frente a oro en papel: comparación básica y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Metal físico frente a oro en papel: comparación básica

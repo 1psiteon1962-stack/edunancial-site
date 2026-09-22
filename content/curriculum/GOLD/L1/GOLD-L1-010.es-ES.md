@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-010"
+id: GOLD-L1-010
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 10
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "Comprender la pureza y las medidas de peso"
 summary: "Comprende comprender la pureza y las medidas de peso y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Comprender la pureza y las medidas de peso

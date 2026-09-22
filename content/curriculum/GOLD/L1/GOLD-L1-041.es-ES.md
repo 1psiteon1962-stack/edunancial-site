@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-041"
-track: "GOLD"
+id: GOLD-L1-041
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 41
-locale: "es-ES"
+lessonNumber: 41
+locale: es-ES
 title: "Crear un plan de inversión periódica paso a paso"
 summary: "Comprende crear un plan de inversión periódica paso a paso y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Crear un plan de inversión periódica paso a paso

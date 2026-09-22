@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-013"
-track: "GOLD"
+id: GOLD-L1-013
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 13
-locale: "es-ES"
+lessonNumber: 13
+locale: es-ES
 title: "Monedas frente a lingotes"
 summary: "Comprende monedas frente a lingotes y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Monedas frente a lingotes

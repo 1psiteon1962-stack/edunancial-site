@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-007"
+id: GOLD-L1-007
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 7
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "Tolerancia al riesgo y horizonte temporal"
 summary: "Comprende tolerancia al riesgo y horizonte temporal y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Tolerancia al riesgo y horizonte temporal

@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-011"
+id: GOLD-L1-011
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 11
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "La diferencia entre invertir y ahorrar para emergencias"
 summary: "Comprende la diferencia entre invertir y ahorrar para emergencias y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # La diferencia entre invertir y ahorrar para emergencias

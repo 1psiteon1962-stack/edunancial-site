@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-036"
-track: "GOLD"
+id: GOLD-L1-036
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 36
-locale: "es-ES"
+lessonNumber: 36
+locale: es-ES
 title: "Diversificación: dónde encajan los metales en un plan más amplio"
 summary: "Comprende diversificación: dónde encajan los metales en un plan más amplio y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Diversificación: dónde encajan los metales en un plan más amplio

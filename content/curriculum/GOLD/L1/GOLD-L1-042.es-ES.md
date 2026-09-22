@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-042"
-track: "GOLD"
+id: GOLD-L1-042
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 42
-locale: "es-ES"
+lessonNumber: 42
+locale: es-ES
 title: "Reflexión sobre un caso práctico: el recorrido completo de los 11 a los 15 años y más allá"
 summary: "Comprende reflexión sobre un caso práctico: el recorrido completo de los 11 a los 15 años y más allá y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Reflexión sobre un caso práctico: el recorrido completo de los 11 a los 15 años y más allá

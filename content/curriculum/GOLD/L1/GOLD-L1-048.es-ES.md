@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-048"
-track: "GOLD"
+id: GOLD-L1-048
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 48
-locale: "es-ES"
+lessonNumber: 48
+locale: es-ES
 title: "Enseñar a la próxima generación: introducción a «Transmitir»"
 summary: "Comprende enseñar a la próxima generación: introducción a «transmitir» y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Enseñar a la próxima generación: introducción a «Transmitir»

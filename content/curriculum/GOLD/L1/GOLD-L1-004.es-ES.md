@@ -1,16 +1,14 @@
 ---
-id: "GOLD-L1-004"
+id: GOLD-L1-004
 track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 4
 locale: es-ES
-version: 1.0
-author: Waldemar M. Caban, JD MA
-difficulty: introductorio
-estimatedTime: 35–50 minutos
 title: "Oro frente a plata: dos metales, funciones diferentes"
 summary: "Comprende oro frente a plata: dos metales, funciones diferentes y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Oro frente a plata: dos metales, funciones diferentes

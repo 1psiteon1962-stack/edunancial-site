@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-040"
-track: "GOLD"
+id: GOLD-L1-040
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 40
-locale: "es-ES"
+lessonNumber: 40
+locale: es-ES
 title: "Revisar y ajustar un plan de metales con el tiempo"
 summary: "Comprende revisar y ajustar un plan de metales con el tiempo y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Revisar y ajustar un plan de metales con el tiempo

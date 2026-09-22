@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-045"
-track: "GOLD"
+id: GOLD-L1-045
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 45
-locale: "es-ES"
+lessonNumber: 45
+locale: es-ES
 title: "Cuándo los metales preciosos pueden no ser adecuados"
 summary: "Comprende cuándo los metales preciosos pueden no ser adecuados y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Cuándo los metales preciosos pueden no ser adecuados

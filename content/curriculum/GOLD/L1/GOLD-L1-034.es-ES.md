@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-034"
-track: "GOLD"
+id: GOLD-L1-034
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 34
-locale: "es-ES"
+lessonNumber: 34
+locale: es-ES
 title: "Cómo identificar a un distribuidor de confianza"
 summary: "Comprende cómo identificar a un distribuidor de confianza y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Cómo identificar a un distribuidor de confianza

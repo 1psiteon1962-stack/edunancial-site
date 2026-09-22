@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-022"
-track: "GOLD"
+id: GOLD-L1-022
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 22
-locale: "es-ES"
+lessonNumber: 22
+locale: es-ES
 title: "Movimientos de divisas y precios de los metales preciosos"
 summary: "Comprende movimientos de divisas y precios de los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Movimientos de divisas y precios de los metales preciosos

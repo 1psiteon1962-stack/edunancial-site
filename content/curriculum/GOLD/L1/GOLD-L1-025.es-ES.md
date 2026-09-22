@@ -1,11 +1,14 @@
 ---
-id: "GOLD-L1-025"
-track: "GOLD"
+id: GOLD-L1-025
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 25
-locale: "es-ES"
+lessonNumber: 25
+locale: es-ES
 title: "Volatilidad de precios en los metales preciosos"
 summary: "Comprende volatilidad de precios en los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
+version: 1.0
+author: Waldemar M. Caban, JD MA
 ---
 
 # Volatilidad de precios en los metales preciosos
