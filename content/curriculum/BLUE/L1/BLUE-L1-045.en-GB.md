@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-045.en-GB
+id: BLUE-L1-045
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 45
 title: "\"What Is a Pivot? (Changing Direction Without Starting Over)\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
