@@ -149,6 +149,12 @@ function addTranslation({ id, rawLocale, value, path }) {
   const lesson = ensureLesson(id);
   const existing = lesson.translations[locale];
   if (existing && existing.checksum !== translationChecksum) {
+    const existingIsCanonicalCurriculum = existing.path.startsWith("content/curriculum/");
+    const incomingIsLegacyCourse = relativePath.startsWith("content/courses/");
+    if (existingIsCanonicalCurriculum && incomingIsLegacyCourse) {
+      warnings.push(`${id} [${locale}]: legacy translation ${relativePath} conflicts with canonical curriculum translation ${existing.path}; canonical curriculum translation retained`);
+      return;
+    }
     errors.push(`${id} [${locale}]: conflicting complete translations (${existing.path} vs ${relativePath})`);
     return;
   }
