@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-041.en-GB
+id: BLUE-L1-041
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 41
 title: "\"What Is an Independent Contractor vs. an Employee?\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
