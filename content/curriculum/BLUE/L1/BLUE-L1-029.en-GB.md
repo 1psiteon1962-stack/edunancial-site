@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-029.en-GB
+id: BLUE-L1-029
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 29
 title: "What Is Drop Shipping?"
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
