@@ -1,9 +1,14 @@
 ---
 id: "GOLD-L1-002"
-track: "GOLD"
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 2
-locale: "es-ES"
+lessonNumber: 2
+locale: es-ES
+version: 1.0
+author: Waldemar M. Caban, JD MA
+difficulty: introductorio
+estimatedTime: 35–50 minutos
 title: "Qué significa realmente invertir"
 summary: "Comprende qué significa realmente invertir y cómo encaja en una base sólida de alfabetización inversora."
 ---
