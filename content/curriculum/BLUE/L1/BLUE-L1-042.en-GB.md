@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-042.en-GB
+id: BLUE-L1-042
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 42
 title: "\"What Is Delegation, and Why Is It Harder Than It Sounds?\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
