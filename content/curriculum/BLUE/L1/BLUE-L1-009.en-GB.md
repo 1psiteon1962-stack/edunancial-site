@@ -1,5 +1,5 @@
 ---
-id: BLUE-L1-009.en-GB
+id: BLUE-L1-009
 track: BLUE
 officialTrackName: Business
 level: 1
