@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-044.en-GB
+id: BLUE-L1-044
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 44
 title: "\"What Is Customer Service, Functionally? (Beyond \\"Being Nice\\")\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
