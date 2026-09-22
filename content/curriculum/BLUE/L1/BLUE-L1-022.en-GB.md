@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-022.en-GB
+id: BLUE-L1-022
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 22
 title: "\"What Is a Business Bank Account, and Why Not Just Use Your Personal One?\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
