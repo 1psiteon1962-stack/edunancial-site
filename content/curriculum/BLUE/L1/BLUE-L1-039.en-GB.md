@@ -1,10 +1,11 @@
 ---
-id: BLUE-L1-039.en-GB
+id: BLUE-L1-039
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 39
 title: "\"What Are Systems in a Business? (Why \\"You\\" Can't Be the Whole Business Forever)\""
+summary: "Learn the core concepts, practical implications, and decision-making principles covered in this business lesson."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
