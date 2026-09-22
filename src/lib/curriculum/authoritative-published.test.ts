@@ -178,9 +178,12 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
   const canonicalLessonPath = join(lessonDir, "BLUE-L1-003.md");
   const localizedLessonPath = join(lessonDir, "BLUE-L1-003.es.md");
+  const localizedEsEsPath = join(lessonDir, "BLUE-L1-003.es-ES.md");
   const originalCanonicalLesson = existsSync(canonicalLessonPath) ? readFileSync(canonicalLessonPath, "utf8") : null;
   const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
+  const originalLocalizedEsEs = existsSync(localizedEsEsPath) ? readFileSync(localizedEsEsPath, "utf8") : null;
   mkdirSync(lessonDir, { recursive: true });
+  rmSync(localizedEsEsPath, { force: true });
   writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
   writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
   try {
@@ -195,6 +198,7 @@ test("published lesson prefers localized sibling curriculum files for title, sum
     if (originalRegistry === null) rmSync(REGISTRY_PATH, { force: true }); else writeFileSync(REGISTRY_PATH, originalRegistry, "utf8");
     if (originalCanonicalLesson === null) rmSync(canonicalLessonPath, { force: true }); else writeFileSync(canonicalLessonPath, originalCanonicalLesson, "utf8");
     if (originalLocalizedLesson === null) rmSync(localizedLessonPath, { force: true }); else writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
+    if (originalLocalizedEsEs === null) rmSync(localizedEsEsPath, { force: true }); else writeFileSync(localizedEsEsPath, originalLocalizedEsEs, "utf8");
     invalidateRegistryCache();
   }
 });
