@@ -202,11 +202,16 @@ test("published lesson prefers localized sibling curriculum files for title, sum
 test("published tracks fall back to stub copy when no localized file or translation map exists", async () => {
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: { "BLUE-L1-005": { id: "BLUE-L1-005", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 5, title: "Key Performance Indicators — Measuring What Matters", summary: "English published summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-005.md", body: "English published body", frontMatter: {} } }, batchLessonIds: {} }, null, 2), "utf8");
+  const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
+  const localizedLessonPath = join(lessonDir, "BLUE-L1-005.es.md");
+  const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
+  rmSync(localizedLessonPath, { force: true });
   const spanish = await getPublishedLesson("BLUE-L1-005", "es");
   assert.ok(spanish);
   assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
   assert.equal(spanish.summary, "English published summary");
   assert.equal(spanish.body, "English published body");
+  if (originalLocalizedLesson !== null) writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
 });
 
 test("importPublishedLessonTranslations merges locale entries into published lessons", async () => {
