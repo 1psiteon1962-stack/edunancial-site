@@ -187,7 +187,7 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
   writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
   try {
-    const spanish = await getPublishedLesson("BLUE-L1-003", "es");
+    const spanish = await getPublishedLesson("BLUE-L1-003", "es-TEST");
     assert.ok(spanish);
     assert.equal(spanish.title, "Flujo de caja en los negocios — leer los números");
     assert.equal(spanish.summary, "Resumen localizado en español");
@@ -210,7 +210,7 @@ test("published tracks fall back to stub copy when no localized file or translat
   const localizedLessonPath = join(lessonDir, "BLUE-L1-005.es.md");
   const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
   rmSync(localizedLessonPath, { force: true });
-  const spanish = await getPublishedLesson("BLUE-L1-005", "es");
+  const spanish = await getPublishedLesson("BLUE-L1-005", "es-TEST");
   assert.ok(spanish);
   assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
   assert.equal(spanish.summary, "English published summary");
