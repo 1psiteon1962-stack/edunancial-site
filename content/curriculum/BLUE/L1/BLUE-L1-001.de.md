@@ -1,9 +1,10 @@
 ---
-id: BLUE-L1-001.de
+id: BLUE-L1-001
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 1
+locale: de
 title: "Was ist ein Unternehmen? (Selbstständigkeit vs. Unternehmenseigentum)"
 summary: Lernen Sie den funktionalen Unterschied zwischen Selbstständigkeit und echtem Unternehmenseigentum kennen und warum nur eines davon skalierbar ist.
 version: "1.0"
