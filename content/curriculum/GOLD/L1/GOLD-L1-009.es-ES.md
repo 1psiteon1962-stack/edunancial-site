@@ -1,9 +1,14 @@
 ---
 id: "GOLD-L1-009"
-track: "GOLD"
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 9
-locale: "es-ES"
+lessonNumber: 9
+locale: es-ES
+version: 1.0
+author: Waldemar M. Caban, JD MA
+difficulty: introductorio
+estimatedTime: 35–50 minutos
 title: "Qué determina los precios de los metales preciosos"
 summary: "Comprende qué determina los precios de los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
 ---
