@@ -778,7 +778,14 @@ function resolveLessonSource(
       if (!existsSync(localeDir)) return namedCandidates;
       const idNeedle = asset.id.toLowerCase();
       const discovered = readdirSync(localeDir)
-        .filter((filename) => filename.toLowerCase().endsWith(".md") && filename.toLowerCase().includes(idNeedle))
+        .filter((filename) => {
+          const lower = filename.toLowerCase();
+          if (!lower.endsWith(".md")) return false;
+          const stem = lower.replace(/\.md$/u, "");
+          return stem === idNeedle
+            || stem.startsWith(`${idNeedle}-`)
+            || stem.startsWith(`${idNeedle}.`);
+        })
         .map((filename) => join(localeDir, filename));
       return [...namedCandidates, ...discovered];
     });
