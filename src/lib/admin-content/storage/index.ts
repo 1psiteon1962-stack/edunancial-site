@@ -4,18 +4,18 @@ import { dirname, join } from "node:path";
 import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib/admin-content/types";
 
-const LOCAL_ROOT = process.env.EDUNANCIAL_CONTENT_STORE_ROOT?.trim() || join(process.cwd(), ".admin-content-store");
+function localRoot() { return process.env.EDUNANCIAL_CONTENT_STORE_ROOT?.trim() || join(process.cwd(), ".admin-content-store"); }
 const INDEX_FILE = "index.json";
 const AUDIT_FILE = "audit.json";
 const STORAGE_BRANCH = "admin-content-storage";
 const STORAGE_ROOT = ".edunancial-admin-content";
 
-function ensureLocalRoot() { mkdirSync(LOCAL_ROOT, { recursive: true }); }
-function localPath(...parts: string[]) { ensureLocalRoot(); return join(LOCAL_ROOT, ...parts); }
+function ensureLocalRoot() { mkdirSync(localRoot(), { recursive: true }); }
+function localPath(...parts: string[]) { ensureLocalRoot(); return join(localRoot(), ...parts); }
 function readJsonFile<T>(path: string, fallback: T): T { return existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) as T : fallback; }
 function writeJsonFile(path: string, data: unknown) { const parent = dirname(path); if (parent) mkdirSync(parent, { recursive: true }); writeFileSync(path, JSON.stringify(data, null, 2)); }
 function summarizeBatch(batch: UploadBatch): BatchSummary { return { id: batch.id, name: batch.name, slug: batch.slug, source: batch.source, status: batch.status, createdAt: batch.createdAt, updatedAt: batch.updatedAt, totalUploads: batch.uploads.length, totalFiles: batch.files.length, approvedFiles: batch.files.filter((f) => f.reviewStatus === "approved").length, rejectedFiles: batch.files.filter((f) => f.reviewStatus === "rejected").length, pendingFiles: batch.files.filter((f) => f.reviewStatus === "pending").length, conflicts: batch.files.filter((f) => f.conflictStatus !== "none").length }; }
-function listLocalWorkspaceEntries() { if (!existsSync(LOCAL_ROOT)) return [] as string[]; return readdirSync(LOCAL_ROOT, { recursive: true }).map(String).filter((entry) => { try { return statSync(join(LOCAL_ROOT, entry)).isFile(); } catch { return false; } }).map((entry) => entry.replaceAll("\\", "/")); }
+function listLocalWorkspaceEntries() { if (!existsSync(localRoot())) return [] as string[]; return readdirSync(localRoot(), { recursive: true }).map(String).filter((entry) => { try { return statSync(join(localRoot(), entry)).isFile(); } catch { return false; } }).map((entry) => entry.replaceAll("\\", "/")); }
 
 class LocalAdminContentStorage implements AdminContentStorage {
  async createBatch(batch: UploadBatch) { await this.updateBatch(batch); return batch; }
@@ -46,4 +46,4 @@ class GithubAdminContentStorage implements AdminContentStorage {
 
 let cachedStorage:AdminContentStorage|null=null;
 export function getAdminContentStorage():AdminContentStorage{if(cachedStorage)return cachedStorage;cachedStorage=process.env.NODE_ENV==="production"?new GithubAdminContentStorage():new LocalAdminContentStorage();return cachedStorage;}
-export function getLocalAdminStorageFiles(){return existsSync(LOCAL_ROOT)?readdirSync(LOCAL_ROOT,{recursive:true}):[];} export function resetAdminContentStorage(){cachedStorage=null;rmSync(LOCAL_ROOT,{recursive:true,force:true});}
+export function getLocalAdminStorageFiles(){return existsSync(localRoot())?readdirSync(localRoot(),{recursive:true}):[];} export function resetAdminContentStorage(){cachedStorage=null;rmSync(localRoot(),{recursive:true,force:true});}
