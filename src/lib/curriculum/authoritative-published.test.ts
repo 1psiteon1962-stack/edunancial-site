@@ -177,7 +177,7 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: { "BLUE-L1-003": { id: "BLUE-L1-003", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 3, title: "Cash Flow in Business — Reading the Numbers", summary: "English published summary", author: "Published Author", date: "2026-08-03", version: "9.9", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-003.md", body: "English published body", frontMatter: { title: "Published Front Matter Title", summary: "Published Front Matter Summary" } } }, batchLessonIds: {} }, null, 2), "utf8");
   const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
   const canonicalLessonPath = join(lessonDir, "BLUE-L1-003.md");
-  const localizedLessonPath = join(lessonDir, "BLUE-L1-003.es.md");
+  const localizedLessonPath = join(lessonDir, "BLUE-L1-003.de.md");
   const localizedEsEsPath = join(lessonDir, "BLUE-L1-003.es-ES.md");
   const originalCanonicalLesson = existsSync(canonicalLessonPath) ? readFileSync(canonicalLessonPath, "utf8") : null;
   const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
@@ -185,13 +185,13 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   mkdirSync(lessonDir, { recursive: true });
   rmSync(localizedEsEsPath, { force: true });
   writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
-  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Flujo de caja en los negocios — leer los números\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Resumen localizado en español\n---\n\n## Learning Objectives\n\n- Comprender los fundamentos del flujo de caja empresarial.\n\n## Core Content\n\nCuerpo localizado en español.\n`, "utf8");
+  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cashflow im Unternehmen — Zahlen lesen\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Lokalisierte deutsche Zusammenfassung\n---\n\n## Learning Objectives\n\n- Grundlagen des betrieblichen Cashflows verstehen.\n\n## Core Content\n\nLokalisierter deutscher Inhalt.\n`, "utf8");
   try {
-    const spanish = await getPublishedLesson("BLUE-L1-003", "es-TEST");
+    const spanish = await getPublishedLesson("BLUE-L1-003", "de");
     assert.ok(spanish);
-    assert.equal(spanish.title, "Flujo de caja en los negocios — leer los números");
-    assert.equal(spanish.summary, "Resumen localizado en español");
-    assert.match(spanish.body, /Cuerpo localizado en español/u);
+    assert.equal(spanish.title, "Cashflow im Unternehmen — Zahlen lesen");
+    assert.equal(spanish.summary, "Lokalisierte deutsche Zusammenfassung");
+    assert.match(spanish.body, /Lokalisierter deutscher Inhalt/u);
     assert.equal(spanish.author, "Published Author");
     assert.equal(spanish.version, "9.9");
   } finally {
@@ -207,10 +207,10 @@ test("published tracks fall back to stub copy when no localized file or translat
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: { "BLUE-L1-005": { id: "BLUE-L1-005", track: "BLUE", trackName: "Business", level: 1, lessonNumber: 5, title: "Key Performance Indicators — Measuring What Matters", summary: "English published summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLUE/L1/BLUE-L1-005.md", body: "English published body", frontMatter: {} } }, batchLessonIds: {} }, null, 2), "utf8");
   const lessonDir = join(process.cwd(), "content", "curriculum", "BLUE", "L1");
-  const localizedLessonPath = join(lessonDir, "BLUE-L1-005.es.md");
+  const localizedLessonPath = join(lessonDir, "BLUE-L1-005.de.md");
   const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
   rmSync(localizedLessonPath, { force: true });
-  const spanish = await getPublishedLesson("BLUE-L1-005", "es-TEST");
+  const spanish = await getPublishedLesson("BLUE-L1-005", "de");
   assert.ok(spanish);
   assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
   assert.equal(spanish.summary, "English published summary");
