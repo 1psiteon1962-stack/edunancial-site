@@ -1,9 +1,14 @@
 ---
 id: "GOLD-L1-005"
-track: "GOLD"
+track: GOLD
+officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
-lesson: 5
-locale: "es-ES"
+lessonNumber: 5
+locale: es-ES
+version: 1.0
+author: Waldemar M. Caban, JD MA
+difficulty: introductorio
+estimatedTime: 35–50 minutos
 title: "Fundamentos del promedio del coste en dólares"
 summary: "Comprende fundamentos del promedio del coste en dólares y cómo encaja en una base sólida de alfabetización inversora."
 ---
