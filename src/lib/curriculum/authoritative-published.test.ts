@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { tmpdir } from "node:os";
 import { afterEach, beforeEach, test } from "node:test";
 
 import {
@@ -13,7 +14,9 @@ import {
 } from "@/lib/curriculum/authoritative-published";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 
-const STORE_ROOT = join(process.cwd(), ".admin-content-store");
+const TEST_STORE_ROOT = mkdtempSync(join(tmpdir(), "edunancial-curriculum-test-"));
+process.env.EDUNANCIAL_CONTENT_STORE_ROOT = TEST_STORE_ROOT;
+const STORE_ROOT = TEST_STORE_ROOT;
 const STATE_PATH = join(STORE_ROOT, "published", "curriculum-state.json");
 const TRANSLATION_TEST_LESSON_ID = "GOLD-L5-099";
 const TEST_ENV = process.env as Record<string, string | undefined>;
