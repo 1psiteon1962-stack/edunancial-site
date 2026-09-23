@@ -6,6 +6,7 @@ level: 1
 lessonNumber: 1
 title: "Las cuatro funciones del dinero: ganar, conservar, hacer crecer y transmitir"
 summary: "Comprender cómo ganar, conservar, hacer crecer y transmitir el dinero mediante objetivos claros, análisis de costes y riesgos, y un proceso disciplinado de toma de decisiones."
+summary: "Comprender cómo ganar, conservar, hacer crecer y transmitir el dinero mediante objetivos claros, análisis de costes y riesgos, y un proceso disciplinado de toma de decisiones."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 difficulty: introductorio
