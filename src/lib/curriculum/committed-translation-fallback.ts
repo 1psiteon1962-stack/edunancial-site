@@ -171,6 +171,18 @@ function isCompleteLocaleTranslation(translation: PublishedLessonTranslation, lo
   return true;
 }
 
+function localeMatchesRequested(entryLocale: string, requestedLocale: string): boolean {
+  const entry = resolveCurriculumLocale(entryLocale);
+  const requested = resolveCurriculumLocale(requestedLocale);
+  if (entry === requested) return true;
+  const entryBase = entry.split("-")[0]?.toLowerCase();
+  const requestedBase = requested.split("-")[0]?.toLowerCase();
+  // Base-language fallback is safe only when the request itself is a base locale.
+  // Do not let es-ES satisfy es-Caribbean (or pt-PT satisfy pt-BR) merely because
+  // another regional translation happens to be indexed first.
+  return !requested.includes("-") && entryBase === requestedBase;
+}
+
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
@@ -186,9 +198,8 @@ export function getCommittedLessonTranslation(lessonId: string, languageOrLocale
     const normalized = resolveCurriculumLocale(candidateLocale);
     const exact = entries.find((entry) => entry.locale === normalized);
     if (exact) return exact.translation;
-    const base = normalized.split("-")[0];
-    const sameBase = entries.find((entry) => entry.locale.split("-")[0] === base);
-    if (sameBase) return sameBase.translation;
+    const sameLocale = entries.find((entry) => localeMatchesRequested(entry.locale, normalized));
+    if (sameLocale) return sameLocale.translation;
   }
   return undefined;
 }
