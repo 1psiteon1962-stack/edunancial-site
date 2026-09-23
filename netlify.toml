@@ -1,3 +1,28 @@
+# ============================================================
+# DEPLOYMENT TARGET: Edunancial production Netlify project
+# Canonical URL: https://edunancial.com
+#
+# This repository must be connected to ONLY the Edunancial
+# production Netlify site.  If deployments are also appearing
+# on a "brilliant-sunflower-*" or any other Netlify site,
+# that means the Netlify GitHub App integration is linked to
+# more than one Netlify project.
+#
+# Required Netlify dashboard action to fix multi-site deploys:
+#   1. Log in to https://app.netlify.com
+#   2. Open the site that should NOT receive deployments
+#      (e.g. the "brilliant-sunflower-*" site).
+#   3. Go to Site configuration → Build & deploy → Continuous deployment.
+#   4. Click "Unlink repository" (or "Disconnect").
+#   5. Confirm you want to unlink the 1psiteon1962-stack/edunancial-site repo.
+#   6. Verify the production Edunancial site still shows this repo under
+#      its own "Build & deploy → Continuous deployment" settings.
+#
+# There must be exactly ONE Netlify site linked to this repository.
+# Preview deploys for pull requests are fine as long as they belong
+# to the production Edunancial site, not to a separate project.
+# ============================================================
+
 [build]
 command = "npm run build"
 publish = ".next"
