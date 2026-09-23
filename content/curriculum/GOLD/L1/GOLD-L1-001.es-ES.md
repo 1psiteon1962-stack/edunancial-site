@@ -4,9 +4,9 @@ track: GOLD
 officialTrackName: Inversión y Construcción de Patrimonio
 level: 1
 lessonNumber: 1
+locale: es-ES
 title: "Las cuatro funciones del dinero: ganar, conservar, hacer crecer y transmitir"
-summary: "Comprender cómo ganar, conservar, hacer crecer y transmitir el dinero mediante objetivos claros, análisis de costes y riesgos, y un proceso disciplinado de toma de decisiones."
-summary: "Comprender cómo ganar, conservar, hacer crecer y transmitir el dinero mediante objetivos claros, análisis de costes y riesgos, y un proceso disciplinado de toma de decisiones."
+summary: "Esta lección desarrolla las cuatro funciones del dinero: ganar, conservar, hacer crecer y transmitir valor, y enseña a aplicar objetivos, costes, riesgo, liquidez y disciplina al proceso de inversión."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 difficulty: introductorio
