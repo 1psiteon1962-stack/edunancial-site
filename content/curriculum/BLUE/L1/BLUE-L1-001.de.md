@@ -4,115 +4,84 @@ track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 1
-locale: de
 title: "Was ist ein Unternehmen? (Selbstständigkeit vs. Unternehmenseigentum)"
 summary: Lernen Sie den funktionalen Unterschied zwischen Selbstständigkeit und echtem Unternehmenseigentum kennen und warum nur eines davon skalierbar ist.
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
+locale: de
 ---
 
 # Was ist ein Unternehmen? (Selbstständigkeit vs. Unternehmenseigentum)
 
 ## Lernziele
 
-By the end of this lesson, you should be able to:
+Am Ende dieser Lektion sollten Sie in der Lage sein:
 
-- Define self-employment and business ownership in functional terms.
-- Apply a simple test to classify any business you know as one or the
-  other.
-- Explain why this distinction determines whether a business can scale.
+- Selbstständigkeit und Unternehmenseigentum funktional zu definieren.
+- Einen einfachen Test anzuwenden, um jedes Ihnen bekannte Unternehmen der einen oder anderen Kategorie zuzuordnen.
+- Zu erklären, warum diese Unterscheidung darüber entscheidet, ob ein Unternehmen skalieren kann.
 
 ## Kerninhalt
 
 ### Die Frage hinter den Begriffen
 
-Ask yourself: if the owner of a business disappeared for a month, what
-would happen to it? Would it keep running, or would it stall out? That
-single question is the real difference between self-employment and true
-business ownership — not what the paperwork says, not what someone calls
-themselves.
+Fragen Sie sich: Wenn der Inhaber eines Unternehmens einen Monat lang verschwinden würde, was würde mit dem Unternehmen geschehen? Würde es weiterlaufen oder zum Stillstand kommen? Genau diese Frage beschreibt den tatsächlichen Unterschied zwischen Selbstständigkeit und echtem Unternehmenseigentum — nicht das, was in den Unterlagen steht, und nicht die Bezeichnung, die jemand für sich selbst verwendet.
 
 ### Die funktionalen Definitionen
 
-**Self-employment**: the business is the person. Revenue stops or drops
-sharply the moment the person stops working — there's no layer of staff
-or system between their labor and the money coming in.
+**Selbstständigkeit**: Das Unternehmen ist die Person. Die Einnahmen hören auf oder sinken stark, sobald die Person nicht mehr arbeitet — zwischen ihrer Arbeitsleistung und den eingehenden Einnahmen gibt es keine Ebene aus Mitarbeitern oder Systemen.
 
-**Business ownership**: the business is a system — staff, process,
-structure — that can generate revenue with reduced or no dependence on
-the owner's hour-by-hour labor.
+**Unternehmenseigentum**: Das Unternehmen ist ein System — Mitarbeiter, Prozesse und Strukturen — das Einnahmen mit geringerer oder ganz ohne Abhängigkeit von der stundenweisen Arbeitsleistung des Inhabers erzielen kann.
 
-Neither is "better." A freelance photographer booking her own clients is
-self-employed by this definition; the same photographer after hiring and
-training an associate to run client work is closer to business
-ownership. Same person, different structure.
+Keines von beiden ist „besser“. Eine freiberufliche Fotografin, die ihre eigenen Kunden bucht, ist nach dieser Definition selbstständig. Dieselbe Fotografin kommt dem Unternehmenseigentum näher, nachdem sie eine Mitarbeiterin eingestellt und geschult hat, die Kundenaufträge übernimmt. Dieselbe Person, eine andere Struktur.
 
-### Warum dies über Skalierbarkeit entscheidet
+### Warum dies darüber entscheidet, ob Sie skalieren können
 
-One person only has so many hours. A self-employed person's income is
-capped by their own hours, no matter how skilled they are. A true
-business, built as a system, isn't capped that way — because it doesn't
-depend on one person's hours to run. This isn't a judgment on
-self-employment, which plenty of people choose deliberately — it's just
-the mechanical reason only one of the two can grow past a certain point.
+Eine einzelne Person hat nur eine begrenzte Anzahl an Stunden zur Verfügung. Das Einkommen einer selbstständigen Person wird durch ihre eigenen verfügbaren Arbeitsstunden begrenzt, unabhängig davon, wie qualifiziert sie ist. Ein echtes Unternehmen, das als System aufgebaut ist, unterliegt dieser Begrenzung nicht auf dieselbe Weise — weil sein Betrieb nicht von den Arbeitsstunden einer einzelnen Person abhängt. Das ist keine Bewertung der Selbstständigkeit, für die sich viele Menschen bewusst entscheiden. Es ist lediglich der mechanische Grund dafür, dass nur eines der beiden Modelle über einen bestimmten Punkt hinaus wachsen kann.
 
-## Durchgearbeitetes Beispiel
+## Praxisbeispiel
 
-Think about Ntege's grandmother, who owns a dress shop in Uganda. By her
-family's framing, she's absolutely a business owner. But ask the
-disappear-for-a-month question: if she didn't open the shop, would it
-still make money that week? For her shop, the answer is no — the
-business is her labor with a storefront around it. That's not a
-criticism. It's just the functional test at work, and it's the first
-rung on a ladder this whole track will keep climbing.
+Denken Sie an Nteges Großmutter, die in Uganda ein Kleidergeschäft besitzt. Aus Sicht ihrer Familie ist sie zweifellos Unternehmerin. Stellen Sie jedoch die Frage, was passieren würde, wenn sie einen Monat lang nicht da wäre: Wenn sie das Geschäft nicht öffnen würde, würde es in dieser Woche trotzdem Geld verdienen? Bei ihrem Geschäft lautet die Antwort nein — das Unternehmen besteht aus ihrer Arbeitsleistung mit einem Ladengeschäft darum herum. Das ist keine Kritik. Es ist lediglich der funktionale Test in der Praxis und die erste Stufe einer Leiter, die wir in diesem gesamten Lernpfad weiter hinaufsteigen werden.
 
 ## Übungsquiz
 
-1. Which question best tests whether something is self-employment or
-   true business ownership?
-   A. How much money does it make?
-   B. What would happen if the owner disappeared for a month?
-   C. Is it legally incorporated?
-   D. How many customers does it have?
+1. Welche Frage eignet sich am besten, um festzustellen, ob es sich um Selbstständigkeit oder echtes Unternehmenseigentum handelt?
+   A. Wie viel Geld verdient das Unternehmen?
+   B. Was würde passieren, wenn der Inhaber einen Monat lang nicht da wäre?
+   C. Ist es rechtlich als Kapitalgesellschaft eingetragen?
+   D. Wie viele Kunden hat es?
 
-2. True or False: Self-employment is always a lesser or failed version
-   of business ownership.
+2. Richtig oder falsch: Selbstständigkeit ist immer eine minderwertige oder gescheiterte Form des Unternehmenseigentums.
 
-3. Why does self-employment have an income ceiling that true business
-   ownership doesn't?
-   A. Self-employed people are less skilled
-   B. Income is capped by one person's available hours
-   C. Self-employed people pay higher taxes
-   D. There is no real ceiling in either case
+3. Warum hat Selbstständigkeit eine Einkommensobergrenze, die bei echtem Unternehmenseigentum nicht in gleicher Weise besteht?
+   A. Selbstständige sind weniger qualifiziert
+   B. Das Einkommen wird durch die verfügbaren Stunden einer einzelnen Person begrenzt
+   C. Selbstständige zahlen höhere Steuern
+   D. In beiden Fällen gibt es keine wirkliche Obergrenze
 
 ## Lösungsschlüssel
 
 1. B
-2. False
+2. Falsch
 3. B
 
 ## Antworten und Erklärungen
 
-### Question 1
+### Frage 1
 
-Correct answer: B. The "disappear for a month" test reveals whether the
-business depends on the owner's continuous labor.
+Richtige Antwort: B. Der Test „einen Monat lang nicht da“ zeigt, ob das Unternehmen von der kontinuierlichen Arbeitsleistung des Inhabers abhängt.
 
-### Question 2
+### Frage 2
 
-Correct answer: False. Self-employment can be a deliberate, valid,
-successful choice — this lesson doesn't rank the two.
+Richtige Antwort: Falsch. Selbstständigkeit kann eine bewusste, legitime und erfolgreiche Entscheidung sein — diese Lektion bewertet die beiden Modelle nicht gegeneinander.
 
-### Question 3
+### Frage 3
 
-Correct answer: B. One person has a fixed number of hours; a system
--based business isn't capped the same way.
+Richtige Antwort: B. Eine einzelne Person verfügt nur über eine begrenzte Anzahl an Stunden; ein systembasiertes Unternehmen ist nicht auf dieselbe Weise begrenzt.
 
 ## Wichtigste Erkenntnisse
 
-- The real test: does the business depend on the owner's continuous
-  labor, or does it run as a system?
-- Legal structure doesn't determine the answer — function does.
-- Only a system-based business can scale beyond the limits of one
-  person's time.
+- Der entscheidende Test lautet: Hängt das Unternehmen von der kontinuierlichen Arbeitsleistung des Inhabers ab oder funktioniert es als System?
+- Die Rechtsform bestimmt die Antwort nicht — entscheidend ist die tatsächliche Funktionsweise.
+- Nur ein systembasiertes Unternehmen kann über die zeitlichen Grenzen einer einzelnen Person hinaus skalieren.
