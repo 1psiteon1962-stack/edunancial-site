@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 1
 title: "As quatro funções do dinheiro: ganhar, conservar, fazer crescer e transmitir"
+summary: "Apresenta a estrutura Make/Keep/Grow/Pass On que organiza toda a trilha GOLD."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
