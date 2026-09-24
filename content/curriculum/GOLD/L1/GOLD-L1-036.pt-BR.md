@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 36
 title: "Diversificação: onde os metais entram em um plano mais amplo"
+summary: "Explica o papel prático dos metais preciosos dentro de uma carteira diversificada, sem exagerar seu peso."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
