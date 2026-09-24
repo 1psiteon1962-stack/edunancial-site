@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
 title: "Fundamentos do investimento periódico (DCA)"
+summary: "Apresenta o investimento periódico como uma abordagem disciplinada e resistente à emoção."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
