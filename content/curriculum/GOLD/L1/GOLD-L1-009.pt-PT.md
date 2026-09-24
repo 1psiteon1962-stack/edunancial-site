@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 9
 title: "O que determina os preços dos metais preciosos"
+summary: "Explica os fatores básicos de oferta e procura que influenciam os preços do ouro e da prata."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
