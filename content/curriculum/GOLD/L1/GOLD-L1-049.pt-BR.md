@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 49
 title: "Preparando-se para o Nível 2: os próximos passos nos investimentos"
+summary: "Antecipa os temas que o Level 2 da trilha GOLD desenvolverá a partir da base estabelecida no Level 1."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
