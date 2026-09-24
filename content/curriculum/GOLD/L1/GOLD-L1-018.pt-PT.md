@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 18
 title: "Metais preciosos como proteção contra a inflação: perspetiva histórica"
+summary: "Analisa a relação histórica entre metais preciosos e inflação, com a devida nuance."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
