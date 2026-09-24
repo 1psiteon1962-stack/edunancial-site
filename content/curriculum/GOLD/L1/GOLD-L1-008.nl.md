@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 8
 title: "De basis van diversificatie"
+summary: "Begrijp hoe spreiding over verschillende activa concentratierisico kan verminderen zonder beleggingsrisico volledig weg te nemen."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
