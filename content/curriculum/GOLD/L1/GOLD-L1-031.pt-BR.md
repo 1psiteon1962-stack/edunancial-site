@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 31
 title: "Autenticação e noções básicas sobre falsificações"
+summary: "Apresenta noções básicas sobre o risco de falsificações e autenticação ao comprar metais preciosos físicos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
