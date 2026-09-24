@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 8
 title: "Fundamentos da diversificação"
+summary: "Apresenta a diversificação como uma forma de gerir o risco ao não depender do desempenho de um único ativo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
