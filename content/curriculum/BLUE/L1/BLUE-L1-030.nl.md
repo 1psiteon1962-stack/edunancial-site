@@ -6,7 +6,7 @@ level: 1
 lessonNumber: 30
 locale: nl
 title: "Wat is brutowinst?"
-summary: "Leer hoe brutowinst wordt berekend en wat dit cijfer vertelt voordat overhead en andere bedrijfskosten worden afgetrokken."
+summary: "Leer brutowinst berekenen en begrijpen wat dit cijfer zegt voordat overhead en andere kosten worden afgetrokken."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
@@ -15,41 +15,39 @@ date: 2026-08-08
 # Wat is brutowinst?
 
 ## Leerdoelen
-Na deze les kun je het kernbegrip definiëren, uitleggen waarom het voor een bedrijf belangrijk is en het toepassen op een praktisch scenario.
+- Het kernbegrip in eenvoudige zakelijke termen definiëren.
+- Uitleggen waarom het voor een bedrijf belangrijk is.
+- Het begrip toepassen op een praktisch scenario.
 
 ## Kerninhoud
-Leer hoe brutowinst wordt berekend en wat dit cijfer vertelt voordat overhead en andere bedrijfskosten worden afgetrokken.
+Leer brutowinst berekenen en begrijpen wat dit cijfer zegt voordat overhead en andere kosten worden afgetrokken.
 
-Deze les bouwt voort op de eerdere BLUE-lessen over bedrijfsstructuur, omzet, winst, cashflow en financiële discipline. Het doel is niet alleen de term te herkennen, maar te begrijpen welke zakelijke beslissing of welk risico ermee samenhangt.
+Dit begrip moet niet geïsoleerd worden bekeken. Het sluit aan op eerdere BLUE-lessen over bedrijfsstructuur, omzet, winst, cashflow, kosten en financiële discipline. De waarde zit niet alleen in het kennen van de definitie, maar in het gebruiken ervan om zakelijke beslissingen en risico's beter te begrijpen.
 
-## Praktische toepassing
-Stel jezelf bij een echt bedrijf de vraag hoe dit begrip zichtbaar wordt in dagelijkse beslissingen. Kijk naar geldstromen, administratie, klanten, kosten en risico's. Het begrip wordt nuttig wanneer het wordt gebruikt om een concrete keuze te beoordelen, niet wanneer het alleen als definitie wordt onthouden.
+## Uitgewerkt voorbeeld
+Stel dat een kleine onderneming haar financiële en operationele gegevens bekijkt voordat de eigenaar een beslissing neemt. Door dit begrip correct toe te passen kan de eigenaar beter zien wat werkelijk gebeurt, welke kosten of risico's relevant zijn en welke aanvullende informatie nodig is.
 
-## Veelgemaakte fout
-Een veelgemaakte fout is het begrip geïsoleerd bekijken. Bedrijfsbegrippen hangen samen: financiële administratie beïnvloedt besluitvorming; kosten beïnvloeden winst; marketing beïnvloedt klantacquisitie; klantervaring beïnvloedt behoud.
+## Veelgemaakte fouten
+- Alleen de term onthouden zonder te begrijpen hoe deze in de praktijk wordt gebruikt.
+- Het begrip los zien van andere financiële of operationele gegevens.
+- Aannemen dat dezelfde regel zonder controle in elk land of iedere sector geldt.
 
 ## Oefenquiz
-1. Wat beschrijft het kernbegrip van deze les het best?
-   A. Een willekeurige administratieve term
-   B. Een praktisch onderdeel van bedrijfsvoering dat financiële of operationele beslissingen ondersteunt
-   C. Alleen iets voor grote corporations
-   D. Iets zonder invloed op bedrijfsresultaten
-2. Waar of niet waar: het begrip moet in samenhang met andere bedrijfsgegevens worden beoordeeld.
-3. Waarom is toepassing belangrijk?
-   A. Omdat een definitie alleen geen zakelijke beslissing neemt
-   B. Omdat cijfers nooit belangrijk zijn
-   C. Omdat alleen juristen bedrijven mogen beoordelen
-   D. Omdat iedere onderneming identiek is
+1. Waarom is dit begrip relevant? A. Alleen theorie B. Het ondersteunt praktische bedrijfsbeslissingen C. Alleen voor grote bedrijven D. Het heeft geen invloed.
+2. Waar of niet waar: zakelijke begrippen moeten vaak in samenhang met andere gegevens worden beoordeeld.
+3. Waarom is praktische toepassing belangrijk? A. Een definitie alleen neemt geen zakelijke beslissing B. Cijfers zijn nooit belangrijk C. Alleen juristen mogen beslissen D. Alle bedrijven zijn identiek.
 
 ## Antwoordsleutel
 1. B
 2. Waar
 3. A
 
-## Belangrijkste punten
-- Leer hoe brutowinst wordt berekend en wat dit cijfer vertelt voordat overhead en andere bedrijfskosten worden afgetrokken.
-- Begrippen uit bedrijfsvoering werken samen en moeten niet geïsoleerd worden bekeken.
-- Gebruik het begrip om echte zakelijke keuzes, prestaties en risico's te beoordelen.
+## Antwoorden en uitleg
+1. B — het begrip is bedoeld om echte zakelijke informatie en keuzes te begrijpen.
+2. Waar — bedrijfsgegevens beïnvloeden elkaar.
+3. A — kennis wordt pas competentie wanneer zij op een echte situatie kan worden toegepast.
 
-## Bronstructuur en lokalisatie
-Deze Nederlandse versie hoort bij BLUE-L1-030 en behoudt dezelfde onderwijsfunctie als de Engelse bronles. Regio- of rechtsgebiedspecifieke regels moeten voor de locatie van de leerling worden gecontroleerd.
+## Belangrijkste punten
+- Leer brutowinst berekenen en begrijpen wat dit cijfer zegt voordat overhead en andere kosten worden afgetrokken.
+- Verbind het begrip met andere financiële en operationele informatie.
+- Controleer regio- of sectorspecifieke regels wanneer die relevant zijn.

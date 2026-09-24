@@ -1,18 +1,18 @@
 ---
-id: BLUE-L1-028
+id: BLUE-L1-032
 track: BLUE
 officialTrackName: Business
 level: 1
-lessonNumber: 28
+lessonNumber: 32
 locale: nl
-title: "Wat zijn vaste en variabele kosten?"
-summary: "Leer vaste en variabele kosten onderscheiden en begrijpen hoe ze reageren op veranderingen in verkoopvolume."
+title: "Wat is een marketingplan?"
+summary: "Leer hoe doelgroep, boodschap, kanalen en budget samen een marketingplan vormen."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Wat zijn vaste en variabele kosten?
+# Wat is een marketingplan?
 
 ## Leerdoelen
 - Het kernbegrip in eenvoudige zakelijke termen definiëren.
@@ -20,7 +20,7 @@ date: 2026-08-08
 - Het begrip toepassen op een praktisch scenario.
 
 ## Kerninhoud
-Leer vaste en variabele kosten onderscheiden en begrijpen hoe ze reageren op veranderingen in verkoopvolume.
+Leer hoe doelgroep, boodschap, kanalen en budget samen een marketingplan vormen.
 
 Dit begrip moet niet geïsoleerd worden bekeken. Het sluit aan op eerdere BLUE-lessen over bedrijfsstructuur, omzet, winst, cashflow, kosten en financiële discipline. De waarde zit niet alleen in het kennen van de definitie, maar in het gebruiken ervan om zakelijke beslissingen en risico's beter te begrijpen.
 
@@ -48,6 +48,6 @@ Stel dat een kleine onderneming haar financiële en operationele gegevens bekijk
 3. A — kennis wordt pas competentie wanneer zij op een echte situatie kan worden toegepast.
 
 ## Belangrijkste punten
-- Leer vaste en variabele kosten onderscheiden en begrijpen hoe ze reageren op veranderingen in verkoopvolume.
+- Leer hoe doelgroep, boodschap, kanalen en budget samen een marketingplan vormen.
 - Verbind het begrip met andere financiële en operationele informatie.
 - Controleer regio- of sectorspecifieke regels wanneer die relevant zijn.
