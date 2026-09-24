@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 39
 title: "Criando um plano pessoal de investimento em metais"
+summary: "Orienta os alunos na elaboração de um plano básico e personalizado de investimento em metais preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
