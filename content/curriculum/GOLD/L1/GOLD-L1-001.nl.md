@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 1
 title: "De vier taken van geld: verdienen, behouden, laten groeien en doorgeven"
+summary: "Leer hoe geld vier verschillende functies heeft — verdienen, behouden, laten groeien en doorgeven — en waarom elke functie andere financiële keuzes vereist."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
