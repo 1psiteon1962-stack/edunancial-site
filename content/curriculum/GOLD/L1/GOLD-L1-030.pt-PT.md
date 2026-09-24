@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 30
 title: "O custo de oportunidade de deter metais"
+summary: "Explica o conceito de custo de oportunidade aplicado à decisão de alocar dinheiro a metais preciosos em vez de outros investimentos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
