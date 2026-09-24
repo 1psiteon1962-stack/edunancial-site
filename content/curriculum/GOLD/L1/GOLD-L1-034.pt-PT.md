@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 34
 title: "Identificar um negociante reputado"
+summary: "Ensina critérios práticos para avaliar se um negociante de metais preciosos é reputado e digno de confiança."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

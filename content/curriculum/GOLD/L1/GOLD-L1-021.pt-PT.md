@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 21
 title: "O ouro como dinheiro ao longo da história"
+summary: "Explora o papel histórico do ouro como forma de dinheiro antes dos sistemas monetários modernos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

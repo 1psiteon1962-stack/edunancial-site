@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 3
 title: "Porquê metais preciosos? Uma classe de ativos de referência"
+summary: "Apresenta os metais preciosos como o ativo de referência concreto usado ao longo desta trilha para ensinar princípios de investimento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

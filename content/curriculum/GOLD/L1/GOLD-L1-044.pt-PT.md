@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 44
 title: "Comparar conceitos da trilha GOLD com investimentos da trilha WHITE"
+summary: "Liga os conceitos de investimento em metais preciosos aos princípios de investimento mais amplos abordados na trilha WHITE."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

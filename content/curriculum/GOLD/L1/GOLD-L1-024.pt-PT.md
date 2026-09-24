@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 24
 title: "Ler notícias básicas sobre o mercado de metais preciosos"
+summary: "Ensina a interpretar notícias e terminologia comuns do mercado de metais preciosos enquanto principiante."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

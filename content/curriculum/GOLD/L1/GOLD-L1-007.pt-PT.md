@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 7
 title: "Tolerância ao risco e horizonte temporal"
+summary: "Explica que o nível de risco adequado depende muito de quando o dinheiro será necessário."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

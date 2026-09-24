@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
 title: "Acompanhar a sua posição ao longo do tempo"
+summary: "Ensina os princípios básicos de registo para uma posição de investimento que se vai acumulando."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

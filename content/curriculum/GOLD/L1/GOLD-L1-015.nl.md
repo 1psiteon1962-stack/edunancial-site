@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
 title: "Je positie door de tijd volgen"
+summary: "Leert de basis van administratie voor een geleidelijk opgebouwde beleggingspositie."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

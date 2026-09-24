@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 32
 title: "Considerações sobre seguro para metais físicos"
+summary: "Apresenta o conceito de seguro para uma coleção física de metais preciosos contra perda ou roubo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

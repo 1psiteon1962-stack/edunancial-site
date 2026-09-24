@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 14
 title: "Opbrengsten herbeleggen of uitgeven"
+summary: "Verkent de keuze om groei opnieuw te beleggen of te gebruiken, en hoe die keuze samengestelde groei beïnvloedt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 33
 title: "Como começar a comprar: primeiros passos"
+summary: "Fornece uma lista prática para quem está a fazer a sua primeira compra de metais preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

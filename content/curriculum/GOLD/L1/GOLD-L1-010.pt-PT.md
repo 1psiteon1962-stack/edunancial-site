@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 10
 title: "Compreender a pureza e as unidades de peso"
+summary: "Apresenta as unidades e medidas de pureza básicas utilizadas no mercado de metais preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

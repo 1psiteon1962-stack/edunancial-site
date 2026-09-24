@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 40
 title: "Revisando e ajustando um plano de metais ao longo do tempo"
+summary: "Explica como e quando um plano de investimento em metais preciosos deve ser revisto com honestidade e, se necessário, ajustado."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

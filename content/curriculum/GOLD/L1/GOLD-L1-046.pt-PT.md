@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 46
 title: "A relatividade das conquistas aplicada ao investimento em metais"
+summary: "Aplica o tema da relatividade da realização deste currículo ao investimento em metais preciosos a partir de diferentes pontos de partida."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

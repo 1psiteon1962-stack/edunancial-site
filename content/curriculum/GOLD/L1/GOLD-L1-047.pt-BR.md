@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 47
 title: "Definindo marcos para uma posição em crescimento"
+summary: "Ensina como definir marcos significativos para uma posição de investimento que cresce gradualmente no longo prazo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

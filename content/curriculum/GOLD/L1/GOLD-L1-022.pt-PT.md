@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 22
 title: "Movimentos cambiais e preços dos metais preciosos"
+summary: "Explica como a força das moedas, especialmente do dólar dos EUA, tende a influenciar os preços dos metais preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

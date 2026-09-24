@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 23
 title: "Fatores de oferta: mineração e escassez"
+summary: "Explora como a oferta mineira e a escassez natural influenciam os preços dos metais preciosos ao longo do tempo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

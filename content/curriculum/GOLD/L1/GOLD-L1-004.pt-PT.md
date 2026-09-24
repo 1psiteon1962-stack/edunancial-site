@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 4
 title: "Ouro e prata: dois metais, funções diferentes"
+summary: "Compara ouro e prata como ativos de investimento e explica por que ambos aparecem no estudo de caso da trilha."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

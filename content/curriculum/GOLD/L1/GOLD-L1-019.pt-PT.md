@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 19
 title: "Definir um orçamento de investimento sustentável"
+summary: "Ensina a determinar um montante sustentável para investir sem comprometer outras necessidades financeiras."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

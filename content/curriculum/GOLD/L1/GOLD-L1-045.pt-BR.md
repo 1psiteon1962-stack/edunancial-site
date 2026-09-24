@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 45
 title: "Quando metais preciosos podem não ser adequados"
+summary: "Apresenta uma visão honesta e equilibrada das situações em que investir em metais preciosos pode não ser adequado às necessidades individuais."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

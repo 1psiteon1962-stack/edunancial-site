@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 11
 title: "Het verschil tussen beleggen en een noodfonds"
+summary: "Verduidelijkt waarom beleggingsgeld en noodspaargeld als afzonderlijke potten met verschillende regels moeten worden behandeld."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 41
 title: "Construindo um plano DCA passo a passo"
+summary: "Fornece uma estrutura concreta, passo a passo, para criar um plano pessoal de aportes regulares."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

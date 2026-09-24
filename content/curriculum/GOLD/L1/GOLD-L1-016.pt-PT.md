@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 16
 title: "A psicologia de acompanhar as oscilações de preços"
+summary: "Aborda o desafio emocional de observar o valor de um investimento subir e descer e como geri-lo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 17
 title: "Inflação e porque é importante para os investidores"
+summary: "Explica a inflação em termos simples e por que é uma razão fundamental para a importância do investimento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"

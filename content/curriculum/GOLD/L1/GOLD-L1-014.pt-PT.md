@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 14
 title: "Reinvestir ou gastar os ganhos"
+summary: "Explora a decisão entre reinvestir o crescimento ou utilizá-lo e como essa escolha afeta a capitalização composta."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
