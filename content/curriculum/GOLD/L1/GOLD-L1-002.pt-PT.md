@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 2
 title: "O que significa realmente investir"
+summary: "Define investimento em termos simples e distingue-o de poupança e especulação."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
