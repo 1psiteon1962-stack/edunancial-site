@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 12
 title: "Prémios, spreads e fundamentos sobre negociantes"
+summary: "Explica a diferença entre o preço spot do metal e o valor que o comprador paga efetivamente."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
