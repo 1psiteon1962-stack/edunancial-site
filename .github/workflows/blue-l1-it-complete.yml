@@ -1,28 +1,10 @@
-name: Complete unified L1 translations
+name: Complete BLUE L1 Italian
 on:
-  workflow_dispatch:
-    inputs:
-      locale:
-        description: "Locale to translate"
-        required: false
-        default: "it"
-      track:
-        description: "Track/color"
-        required: false
-        default: "BLUE"
-      lesson:
-        description: "Optional lesson number"
-        required: false
-        default: ""
-      force:
-        description: "Regenerate existing localized files"
-        required: false
-        default: "true"
-  pull_request:
-    branches: [main]
+  push:
+    branches:
+      - translate/blue-l1-it-001-050
     paths:
-      - .github/workflows/complete-italian-l1.yml
-      - scripts/international/generate-locale-l1.mjs
+      - .github/workflows/blue-l1-it-complete.yml
 permissions:
   contents: write
 jobs:
@@ -39,37 +21,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          ref: translate/blue-l1-it-001-050
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Require translation provider credential
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          test -n "$OPENAI_API_KEY" || (echo "OPENAI_API_KEY repository secret is required" && exit 78)
       - name: Generate all 50 BLUE L1 Italian lessons
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
         run: node scripts/international/generate-locale-l1.mjs it
-      - name: Verify exact BLUE L1 Italian 50/50
+      - name: Verify exact 50 lesson set
         run: |
           node - <<'NODE'
           const fs=require("fs");
           const dir="content/curriculum/BLUE/L1";
-          const files=fs.readdirSync(dir).filter(f=>/^BLUE-L1-\d{3}\.it\.md$/.test(f));
-          if(files.length!==50) throw new Error("Expected 50 Italian lessons, found "+files.length);
-          for(let i=1;i<=50;i++){const f="BLUE-L1-"+String(i).padStart(3,"0")+".it.md";if(!files.includes(f))throw new Error("Missing "+f);}
+          const files=fs.readdirSync(dir).filter(f=>/^BLUE-L1-\\d{3}\\.it\\.md$/.test(f));
+          if(files.length!==50) throw new Error(`Expected 50 Italian lessons, found ${files.length}`);
+          const missing=[];
+          for(let i=1;i<=50;i++){const f=`BLUE-L1-${String(i).padStart(3,"0")}.it.md`;if(!files.includes(f))missing.push(f);}
+          if(missing.length) throw new Error("Missing: "+missing.join(", "));
           console.log("Verified BLUE L1 Italian 50/50");
           NODE
       - name: Generate localization manifest
         run: npm run curriculum:localization:global
-      - name: Commit generated translations to PR branch
+      - name: Commit complete Italian set
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content
+          git add content/curriculum/BLUE/L1 content/generated/translation-manifest.json
           git diff --cached --quiet || git commit -m "Complete BLUE L1 Italian 001-050"
           git push origin HEAD:translate/blue-l1-it-001-050
