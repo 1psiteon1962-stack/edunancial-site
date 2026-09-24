@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 20
 title: "Construir um hábito consistente de investimento"
+summary: "Explica por que, para a maioria das pessoas, a disciplina de investir de forma consistente é mais importante do que escolher o ativo perfeito."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
