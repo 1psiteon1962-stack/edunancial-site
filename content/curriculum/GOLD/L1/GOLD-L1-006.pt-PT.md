@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
 title: "Crescimento composto explicado de forma simples"
+summary: "Apresenta o conceito de capitalização composta e explica por que o tempo é uma das forças mais poderosas no investimento."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
