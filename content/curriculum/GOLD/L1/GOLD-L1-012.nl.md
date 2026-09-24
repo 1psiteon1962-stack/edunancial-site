@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 12
 title: "Premies, spreads en de basis van handelaren"
+summary: "Legt het verschil uit tussen de spotprijs van metaal en wat een koper daadwerkelijk betaalt."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
