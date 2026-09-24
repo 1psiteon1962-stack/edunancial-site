@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 4
 title: "Goud en zilver: twee metalen, verschillende rollen"
+summary: "Vergelijk de verschillende rollen van goud en zilver en begrijp hoe industriële vraag, toegankelijkheid en gebruik hun gedrag beïnvloeden."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
