@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 35
 title: "Noções tributárias básicas sobre metais preciosos"
+summary: "Apresenta considerações tributárias gerais sobre investimentos em metais preciosos, com as devidas ressalvas sobre circunstâncias individuais."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
