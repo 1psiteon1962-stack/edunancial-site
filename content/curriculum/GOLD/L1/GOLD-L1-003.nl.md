@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 3
 title: "Waarom edelmetalen? Een tastbare activaklasse"
+summary: "Ontdek waarom goud en zilver als tastbare voorbeelden worden gebruikt om algemene beleggingsprincipes zoals diversificatie en risicotolerantie te leren."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
