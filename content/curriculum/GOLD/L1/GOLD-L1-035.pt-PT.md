@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 35
 title: "Noções fiscais básicas sobre metais preciosos"
+summary: "Apresenta considerações fiscais gerais sobre o investimento em metais preciosos, com as devidas ressalvas quanto às circunstâncias individuais."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
