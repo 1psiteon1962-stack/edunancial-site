@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 42
 title: "Reflexão sobre o estudo de caso: dos 11 aos 15 anos e além"
+summary: "Reflete sobre todo o arco do estudo de caso biográfico, sintetizando várias lições desta trilha."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
