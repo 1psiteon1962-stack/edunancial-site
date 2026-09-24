@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 9
 title: "Wat bepaalt de prijzen van edelmetalen?"
+summary: "Leer hoe vraag, aanbod, mijnproductie, industriële toepassingen en beleggersgedrag de prijzen van edelmetalen kunnen beïnvloeden."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
