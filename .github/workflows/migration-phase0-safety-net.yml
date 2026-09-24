@@ -1,0 +1,60 @@
+name: Migration Phase 0 Safety Net
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  phase0-safety-net:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Validate curriculum
+        run: npm run curriculum:validate
+
+      - name: Build
+        run: npm run build
+
+      - name: Start production server
+        run: |
+          npm run start -- -p 3000 > /tmp/edunancial-next.log 2>&1 &
+          echo $! > /tmp/edunancial-next.pid
+          for i in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:3000/courses/red/lessons/red-l1-001 > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          cat /tmp/edunancial-next.log
+          exit 1
+
+      - name: Smoke test English lesson rendering
+        run: |
+          curl --fail --silent --show-error             --cookie "edunancial-lang=en"             http://127.0.0.1:3000/courses/red/lessons/red-l1-001             | grep -F "What Is Real Estate, Really?"
+
+      - name: Smoke test translated lesson rendering
+        run: |
+          curl --fail --silent --show-error             --cookie "edunancial-lang=es-ES"             http://127.0.0.1:3000/courses/red/lessons/red-l1-001             | grep -F "¿Qué es realmente un inmueble?"
+
+      - name: Stop production server
+        if: always()
+        run: |
+          if [ -f /tmp/edunancial-next.pid ]; then
+            kill "$(cat /tmp/edunancial-next.pid)" || true
+          fi
