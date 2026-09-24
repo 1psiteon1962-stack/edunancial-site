@@ -5,7 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 48
 title: "Ensinar a próxima geração: introdução a “Transmitir”"
-summary: "Apresenta a quarta função da estrutura Make/Keep/Grow/Pass On como uma antevisão de níveis futuros."
+summary: "Apresenta a quarta função da estrutura Ganhar/Conservar/Fazer crescer/Transmitir como uma antevisão de níveis futuros."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
