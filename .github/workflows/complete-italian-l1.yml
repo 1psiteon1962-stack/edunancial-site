@@ -5,15 +5,15 @@ on:
       locale:
         description: "Locale to translate (for example: it, de, es-ES) or all"
         required: false
-        default: "it"
+        default: "nl"
       track:
         description: "Optional track/color for a canary run (for example: PURPLE)"
         required: false
-        default: "PURPLE"
+        default: "BLUE"
       lesson:
         description: "Optional lesson number or ID for a canary run (for example: 1 or PURPLE-L1-001)"
         required: false
-        default: "1"
+        default: ""
       force:
         description: "Regenerate even if a localized file already exists"
         required: false
