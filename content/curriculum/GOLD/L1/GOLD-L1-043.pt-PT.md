@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 43
 title: "Património geracional e metais preciosos"
+summary: "Explora o conceito de utilização de metais preciosos como parte de uma estratégia de património multigeracional."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
