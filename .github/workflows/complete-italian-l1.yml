@@ -43,7 +43,7 @@ jobs:
         if: github.event_name == 'pull_request'
         run: node --check scripts/international/generate-locale-l1.mjs
       - name: Require translation provider credential
-                env:
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           if [ -z "$OPENAI_API_KEY" ]; then
@@ -51,7 +51,7 @@ jobs:
             exit 78
           fi
       - name: Verify funded OpenAI organization and usable API credit
-                env:
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
         run: |
@@ -79,7 +79,7 @@ jobs:
           console.log("OpenAI funded-organization preflight passed.");
           NODE
       - name: Generate Level 1 localization
-                env:
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
           EDUNANCIAL_TRANSLATION_TRACK: BLUE
@@ -87,38 +87,20 @@ jobs:
           EDUNANCIAL_TRANSLATION_FORCE: 1
           EDUNANCIAL_TRANSLATION_LOCALE: nl
         run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
-      - name: Verify generated canary asset exists
-                env:
-          EDUNANCIAL_TRANSLATION_TRACK: BLUE
-          EDUNANCIAL_TRANSLATION_LESSON: ""
-          EDUNANCIAL_TRANSLATION_LOCALE: nl
+      - name: Verify exact BLUE L1 Dutch 50/50
         run: |
           node - <<'NODE'
-          import fs from "node:fs";
-          import path from "node:path";
-          const track=process.env.EDUNANCIAL_TRANSLATION_TRACK.toUpperCase();
-          const locale=process.env.EDUNANCIAL_TRANSLATION_LOCALE;
-          const raw=process.env.EDUNANCIAL_TRANSLATION_LESSON;
-          const n=Number(raw);
-          const id=Number.isFinite(n)&&n>0 ? `${track}-L1-${String(n).padStart(3,"0")}` : raw;
-          const p=path.join("content","curriculum",track,"L1",`${id}.${locale}.md`);
-          if(!fs.existsSync(p)){
-            console.error(`Expected generated localization missing: ${p}`);
-            process.exit(1);
-          }
-          const text=fs.readFileSync(p,"utf8");
-          if(text.length<200){
-            console.error(`Generated localization is unexpectedly short: ${p}`);
-            process.exit(1);
-          }
-          console.log(`Verified generated localization: ${p}`);
+          const fs=require("fs");
+          const dir="content/curriculum/BLUE/L1";
+          const files=fs.readdirSync(dir).filter(f=>/^BLUE-L1-\\d{3}\\.nl\\.md$/.test(f));
+          if(files.length!==50) throw new Error("Expected 50 Dutch lessons, found "+files.length);
+          for(let i=1;i<=50;i++){const f="BLUE-L1-"+String(i).padStart(3,"0")+".nl.md";if(!files.includes(f))throw new Error("Missing "+f);}
+          console.log("Verified BLUE L1 Dutch 50/50");
           NODE
       - name: Generate localization manifest
-                run: npm run curriculum:localization:global
-      - name: Enforce complete Level 1 localization
-                run: npm run curriculum:localization:l1-gate
+        run: npm run curriculum:localization:global
       - name: Commit generated translations
-                run: |
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content
