@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 11
 title: "A diferença entre investir e manter um fundo de emergência"
+summary: "Esclarece por que o dinheiro destinado a investimentos e a poupança de emergência devem ser tratados como fundos separados, com regras diferentes."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
