@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 29
 title: "Correlação com o mercado de ações"
+summary: "Apresenta o conceito de correlação e como os metais preciosos se relacionaram historicamente com os movimentos do mercado acionista."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
