@@ -43,8 +43,7 @@ jobs:
         if: github.event_name == 'pull_request'
         run: node --check scripts/international/generate-locale-l1.mjs
       - name: Require translation provider credential
-        if: github.event_name == 'workflow_dispatch'
-        env:
+                env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           if [ -z "$OPENAI_API_KEY" ]; then
@@ -52,8 +51,7 @@ jobs:
             exit 78
           fi
       - name: Verify funded OpenAI organization and usable API credit
-        if: github.event_name == 'workflow_dispatch'
-        env:
+                env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
         run: |
@@ -81,21 +79,19 @@ jobs:
           console.log("OpenAI funded-organization preflight passed.");
           NODE
       - name: Generate Level 1 localization
-        if: github.event_name == 'workflow_dispatch'
-        env:
+                env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
-          EDUNANCIAL_TRANSLATION_TRACK: ${{ github.event_name == 'workflow_dispatch' && inputs.track || '' }}
-          EDUNANCIAL_TRANSLATION_LESSON: ${{ github.event_name == 'workflow_dispatch' && inputs.lesson || '' }}
-          EDUNANCIAL_TRANSLATION_FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force == 'true' && '1' || '0' }}
-          EDUNANCIAL_TRANSLATION_LOCALE: ${{ github.event_name == 'workflow_dispatch' && inputs.locale || 'it' }}
+          EDUNANCIAL_TRANSLATION_TRACK: BLUE
+          EDUNANCIAL_TRANSLATION_LESSON: 
+          EDUNANCIAL_TRANSLATION_FORCE: 1
+          EDUNANCIAL_TRANSLATION_LOCALE: nl
         run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
       - name: Verify generated canary asset exists
-        if: github.event_name == 'workflow_dispatch' && inputs.track != '' && inputs.lesson != ''
-        env:
-          EDUNANCIAL_TRANSLATION_TRACK: ${{ inputs.track }}
-          EDUNANCIAL_TRANSLATION_LESSON: ${{ inputs.lesson }}
-          EDUNANCIAL_TRANSLATION_LOCALE: ${{ inputs.locale }}
+                env:
+          EDUNANCIAL_TRANSLATION_TRACK: BLUE
+          EDUNANCIAL_TRANSLATION_LESSON: ""
+          EDUNANCIAL_TRANSLATION_LOCALE: nl
         run: |
           node - <<'NODE'
           import fs from "node:fs";
@@ -118,14 +114,11 @@ jobs:
           console.log(`Verified generated localization: ${p}`);
           NODE
       - name: Generate localization manifest
-        if: github.event_name == 'workflow_dispatch'
-        run: npm run curriculum:localization:global
+                run: npm run curriculum:localization:global
       - name: Enforce complete Level 1 localization
-        if: github.event_name == 'workflow_dispatch' && (inputs.track == '' || inputs.lesson == '')
-        run: npm run curriculum:localization:l1-gate
+                run: npm run curriculum:localization:l1-gate
       - name: Commit generated translations
-        if: github.event_name == 'workflow_dispatch'
-        run: |
+                run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content
