@@ -15,17 +15,35 @@ const curriculumRuntimeFiles = [
   "./content/curriculum/**/*",
   "./curriculum/registry.json",
   "./curriculum/seeds/translations/**/*",
+  "./content/generated/curriculum-runtime-manifest.json",
+];
+
+// Only routes that actually read curriculum from disk get the curriculum files in
+// their trace. Attaching all ~4,200 files to every route ("/**") made the
+// "Collecting build traces" step exceed the V8 heap limit (exit 134).
+// Globs start with "**" so they match with or without the (public) route group.
+const curriculumRoutes = [
+  "**/courses",
+  "**/courses/**",
+  "**/curriculum",
+  "**/curriculum/**",
+  "**/curriculum-diagnostic",
+  "**/reconcile-translations",
+  "**/progress",
+  "**/progress/**",
+  "**/investment-growth",
+  "**/sitemap*",
 ];
 
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
 
-  // Curriculum is repository-backed and read dynamically. Cover every server
-  // route because filesystem reads cannot be inferred by Next output tracing.
-  outputFileTracingIncludes: {
-    "/**": curriculumRuntimeFiles,
-  },
+  // Curriculum is repository-backed and read dynamically. Scope tracing to
+  // routes that actually read curriculum data instead of attaching it globally.
+  outputFileTracingIncludes: Object.fromEntries(
+    curriculumRoutes.map((route) => [route, curriculumRuntimeFiles]),
+  ),
 
   async headers() {
     return [
