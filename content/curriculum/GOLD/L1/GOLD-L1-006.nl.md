@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 6
 title: "Samengestelde groei eenvoudig uitgelegd"
+summary: "Begrijp hoe samengestelde groei ontstaat wanneer eerdere opbrengsten belegd blijven en waarom tijd een belangrijke factor is."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
