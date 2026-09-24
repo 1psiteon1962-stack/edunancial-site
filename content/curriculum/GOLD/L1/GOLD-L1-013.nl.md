@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 13
 title: "Munten versus baren"
+summary: "Vergelijkt twee gangbare fysieke vormen van edelmetalen en hun respectieve afwegingen."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
