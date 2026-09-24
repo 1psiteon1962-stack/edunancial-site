@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 25
 title: "Volatilidade dos preços dos metais preciosos"
+summary: "Explica a volatilidade dos preços como uma característica normal do investimento em metais preciosos, e não como sinal de que algo está errado."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
