@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 50
 title: "Projeto final: aplicando estes princípios além dos metais"
+summary: "Encerra o Level 1 sintetizando a linha central da trilha e reforçando a aplicabilidade de cada conceito abordado além dos metais preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
