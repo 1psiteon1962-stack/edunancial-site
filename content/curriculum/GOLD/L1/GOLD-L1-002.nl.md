@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 2
 title: "Wat beleggen werkelijk betekent"
+summary: "Begrijp wat beleggen onderscheidt van sparen en speculeren, en hoe risico en tijdshorizon de beslissing beïnvloeden."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
