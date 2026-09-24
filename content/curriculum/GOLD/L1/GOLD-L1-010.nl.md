@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 10
 title: "Zuiverheid en gewichtseenheden begrijpen"
+summary: "Begrijp troy ounces, grammen en zuiverheid zodat de werkelijke hoeveelheid edelmetaal in een product correct kan worden beoordeeld."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
