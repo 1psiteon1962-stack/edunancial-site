@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 34
 title: "Identificando um negociante confiável"
+summary: "Ensina critérios práticos para avaliar se um negociante de metais preciosos é confiável e respeitável."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
