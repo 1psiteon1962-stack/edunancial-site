@@ -29,3 +29,7 @@ yarn-error.log*
 
 # Admin CMS runtime data
 .admin-data/
+
+# Generated at prebuild by scripts/curriculum/generate-runtime-manifest.mjs
+content/generated/curriculum-runtime-manifest.json
+src/generated/curriculum-runtime-manifest.ts

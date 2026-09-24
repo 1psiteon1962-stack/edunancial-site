@@ -42,7 +42,7 @@ EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true"
 # reads, so explicitly include the canonical curriculum sources in the deployed
 # server function instead of relying only on Next.js output-file tracing.
 [functions]
-included_files = ["content/courses/**", "content/curriculum/**", "curriculum/seeds/translations/**"]
+included_files = ["content/courses/**", "content/curriculum/**", "content/generated/**", "curriculum/seeds/translations/**"]
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
