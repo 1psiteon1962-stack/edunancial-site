@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 13
 title: "Moedas ou barras"
+summary: "Compara duas formas físicas comuns de metais preciosos e os respetivos compromissos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
