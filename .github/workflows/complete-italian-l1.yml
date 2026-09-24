@@ -18,8 +18,6 @@ on:
         description: "Regenerate even if a localized file already exists"
         required: false
         default: "false"
-  push:
-    branches: [translate/blue-l1-nl-001-050]
   pull_request:
     branches: [main]
     paths:
@@ -45,6 +43,7 @@ jobs:
         if: github.event_name == 'pull_request'
         run: node --check scripts/international/generate-locale-l1.mjs
       - name: Require translation provider credential
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
@@ -53,6 +52,7 @@ jobs:
             exit 78
           fi
       - name: Verify funded OpenAI organization and usable API credit
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
@@ -81,6 +81,7 @@ jobs:
           console.log("OpenAI funded-organization preflight passed.");
           NODE
       - name: Generate Level 1 localization
+        if: github.event_name == 'workflow_dispatch'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
@@ -100,8 +101,10 @@ jobs:
           console.log("Verified BLUE L1 Dutch 50/50");
           NODE
       - name: Generate localization manifest
+        if: github.event_name == 'workflow_dispatch'
         run: npm run curriculum:localization:global
       - name: Commit generated translations
+        if: github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
