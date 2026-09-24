@@ -18,6 +18,8 @@ on:
         description: "Regenerate even if a localized file already exists"
         required: false
         default: "false"
+  push:
+    branches: [translate/blue-l1-nl-001-050]
   pull_request:
     branches: [main]
     paths:
