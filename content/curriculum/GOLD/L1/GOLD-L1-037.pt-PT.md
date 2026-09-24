@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 37
 title: "Metal físico versus ouro em papel: comparação básica"
+summary: "Apresenta, a nível conceptual, a exposição ao ouro através de instrumentos financeiros, como ETFs, comparando-a com a posse física."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
