@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 38
 title: "Erros comuns de iniciantes"
+summary: "Identifica erros comuns cometidos por investidores iniciantes em metais preciosos e como evitá-los."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
