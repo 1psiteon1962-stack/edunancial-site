@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
 title: "De basis van periodiek beleggen (DCA)"
+summary: "Leer hoe periodiek beleggen (DCA) vaste bijdragen gebruikt om timingdruk en emotionele beslissingen te verminderen."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
