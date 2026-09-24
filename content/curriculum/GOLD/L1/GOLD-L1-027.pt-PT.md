@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 27
 title: "Liquidez dos metais preciosos"
+summary: "Explica a liquidez aplicada aos metais preciosos físicos, comparando-a com outros tipos de ativos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
