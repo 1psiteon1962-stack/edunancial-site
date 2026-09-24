@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 26
 title: "Armazenamento e segurança de metais físicos"
+summary: "Apresenta considerações básicas para armazenar metais preciosos físicos com segurança."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
