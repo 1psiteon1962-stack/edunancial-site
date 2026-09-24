@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 28
 title: "Metais preciosos versus outras classes de ativos"
+summary: "Compara metais preciosos com ações, obrigações e dinheiro a um nível conceptual básico."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
