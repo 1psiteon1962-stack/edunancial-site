@@ -5,6 +5,7 @@ officialTrackName: "Investing"
 level: 1
 lessonNumber: 7
 title: "Risicotolerantie en tijdshorizon"
+summary: "Leer risicotolerantie en tijdshorizon samen te beoordelen zodat het gekozen risiconiveau past bij wanneer het geld nodig is."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
