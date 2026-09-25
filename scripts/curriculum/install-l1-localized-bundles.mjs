@@ -11,7 +11,7 @@ const TRACKS = new Set(["BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
 const LESSON_ID = /^([A-Z]+)-L1-(\d{3})$/u;
 const B64_PART = /^(.*\.json\.gz\.b64)\.part(\d+)$/u;
 
-const bundleDirs = [BUNDLE_DIR, ...LEGACY_BUNDLE_DIRS].filter((dir) => existsSync(dir));
+const bundleDirs = [BUNDLE_DIR].filter((dir) => existsSync(dir));
 if (!bundleDirs.length) process.exit(0);
 
 let bundles = 0;
