@@ -4,16 +4,20 @@ import { gunzipSync, inflateRawSync } from "node:zlib";
 
 const ROOT = process.cwd();
 const BUNDLE_DIR = join(ROOT, "curriculum", "translation-bundles", "l1");
-const TRACKS = new Set(["GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
+const LEGACY_BUNDLE_DIRS = [
+  join(ROOT, "content", "courses", "gold", "level-1", "en"),
+];
+const TRACKS = new Set(["BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
 const LESSON_ID = /^([A-Z]+)-L1-(\d{3})$/u;
 const B64_PART = /^(.*\.json\.gz\.b64)\.part(\d+)$/u;
 
-if (!existsSync(BUNDLE_DIR)) process.exit(0);
+const bundleDirs = [BUNDLE_DIR].filter((dir) => existsSync(dir));
+if (!bundleDirs.length) process.exit(0);
 
 let bundles = 0;
 let lessons = 0;
 
-const directoryEntries = readdirSync(BUNDLE_DIR).sort();
+const directoryEntries = existsSync(BUNDLE_DIR) ? readdirSync(BUNDLE_DIR).sort() : [];
 const chunkGroups = new Map();
 for (const name of directoryEntries) {
   const match = name.match(B64_PART);
@@ -26,7 +30,7 @@ for (const name of directoryEntries) {
 }
 
 function inflateGzipPayloadIgnoringTrailer(raw, filename) {
-  if (raw.length < 18 || raw[0] !== 0x1f || raw[1] !== 0x8b || raw[2] !== 8) {
+  if (raw.length < 10 || raw[0] !== 0x1f || raw[1] !== 0x8b || raw[2] !== 8) {
     throw new Error(`${filename}: invalid gzip structure`);
   }
 
@@ -34,17 +38,17 @@ function inflateGzipPayloadIgnoringTrailer(raw, filename) {
   if ((flags & 0xe0) !== 0) throw new Error(`${filename}: invalid gzip flags`);
 
   let offset = 10;
-  const trailerOffset = raw.length - 8;
+  const payloadLimit = raw.length;
 
   if ((flags & 0x04) !== 0) {
-    if (offset + 2 > trailerOffset) throw new Error(`${filename}: truncated gzip extra header`);
+    if (offset + 2 > payloadLimit) throw new Error(`${filename}: truncated gzip extra header`);
     const extraLength = raw.readUInt16LE(offset);
     offset += 2 + extraLength;
   }
 
   const skipZeroTerminated = (label) => {
-    while (offset < trailerOffset && raw[offset] !== 0) offset += 1;
-    if (offset >= trailerOffset) throw new Error(`${filename}: truncated gzip ${label}`);
+    while (offset < payloadLimit && raw[offset] !== 0) offset += 1;
+    if (offset >= payloadLimit) throw new Error(`${filename}: truncated gzip ${label}`);
     offset += 1;
   };
 
@@ -52,8 +56,18 @@ function inflateGzipPayloadIgnoringTrailer(raw, filename) {
   if ((flags & 0x10) !== 0) skipZeroTerminated("comment");
   if ((flags & 0x02) !== 0) offset += 2;
 
-  if (offset >= trailerOffset) throw new Error(`${filename}: missing gzip deflate payload`);
-  return inflateRawSync(raw.subarray(offset, trailerOffset)).toString("utf8");
+  if (offset >= payloadLimit) throw new Error(`${filename}: missing gzip deflate payload`);
+
+  // First try the normal no-checksum path (strip an 8-byte trailer when present).
+  if (raw.length - offset > 8) {
+    try {
+      return inflateRawSync(raw.subarray(offset, raw.length - 8)).toString("utf8");
+    } catch {}
+  }
+  // Historical bundles may have a truncated/missing gzip trailer while the deflate
+  // stream itself is still complete. zlib accepts trailing bytes, so inflate the
+  // remaining payload directly as a final recovery path.
+  return inflateRawSync(raw.subarray(offset)).toString("utf8");
 }
 
 function gunzipBundle(raw, filename, { allowChecksumRecovery = false } = {}) {
@@ -74,7 +88,7 @@ function gunzipBundle(raw, filename, { allowChecksumRecovery = false } = {}) {
     return gunzipSync(decoded).toString("utf8");
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    if (!allowChecksumRecovery || !/incorrect data check|incorrect length check/iu.test(message)) throw error;
+    if (!allowChecksumRecovery || !/incorrect data check|incorrect length check|unexpected end of file/iu.test(message)) throw error;
     return inflateGzipPayloadIgnoringTrailer(decoded, filename);
   }
 }
@@ -100,12 +114,14 @@ function readChunkedBundle(name, parts) {
 }
 
 const sources = [
-  ...directoryEntries
-    .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
-    .map((name) => ({ name, read: () => {
-      const raw = readFileSync(join(BUNDLE_DIR, name));
-      return name.endsWith(".gz") ? gunzipBundle(raw, name) : raw.toString("utf8");
-    } })),
+  ...bundleDirs.flatMap((dir) =>
+    readdirSync(dir)
+      .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
+      .map((name) => ({ name, read: () => {
+        const raw = readFileSync(join(dir, name));
+        return name.endsWith(".gz") ? gunzipBundle(raw, name, { allowChecksumRecovery: true }) : raw.toString("utf8");
+      } }))
+  ),
   ...[...chunkGroups.entries()].map(([name, parts]) => ({
     name,
     read: () => readChunkedBundle(name, parts),
