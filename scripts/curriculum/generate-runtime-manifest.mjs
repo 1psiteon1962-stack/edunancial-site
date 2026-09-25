@@ -18,8 +18,16 @@ function isEnglish(name) {
   return normalized === "en" || normalized === "en_us";
 }
 
-function isRecoverableMarkdown(path) {
+function isRecoverableRuntimeAsset(path) {
   const normalized = normalize(path);
+
+  // Legacy RED Level 1 translation bundles were committed as JSON records under
+  // content/courses/.../level-1/en/. Keep them in the runtime manifest so completed
+  // translations are not lost merely because they predate Markdown locale sidecars.
+  if (normalized.endsWith(".json") && normalized.includes("/content/courses/") && normalized.includes("/level-1/")) {
+    return true;
+  }
+
   if (!normalized.endsWith(".md")) return false;
 
   // Keep the existing recoverable canonical Level 2/3 sources.
@@ -49,7 +57,7 @@ function walk(dir, files = []) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     const path = join(dir, entry.name);
     if (entry.isDirectory()) walk(path, files);
-    else if (isRecoverableMarkdown(path)) files.push(path);
+    else if (isRecoverableRuntimeAsset(path)) files.push(path);
   }
   return files;
 }
@@ -70,7 +78,7 @@ const curriculumRecords = walk(CURRICULUM_ROOT)
 
 const records = [...courseRecords, ...curriculumRecords];
 
-if (!records.length) throw new Error("No curriculum Markdown found for runtime manifest");
+if (!records.length) throw new Error("No curriculum/runtime assets found for runtime manifest");
 
 mkdirSync(dirname(OUTPUT), { recursive: true });
 writeFileSync(OUTPUT, JSON.stringify(records), "utf8");
