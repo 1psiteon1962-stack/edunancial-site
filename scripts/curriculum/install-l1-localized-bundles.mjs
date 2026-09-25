@@ -124,6 +124,63 @@ const sources = [
   })),
 ].sort((a, b) => a.name.localeCompare(b.name));
 
+function yamlString(value) {
+  return JSON.stringify(String(value ?? "").trim());
+}
+
+function fieldFromFrontMatter(markdown, field, fallback = "") {
+  const match = markdown.match(new RegExp("^" + field + ":\\s*(.+)$", "mu"));
+  if (!match) return fallback;
+  const raw = match[1].trim();
+  if ((raw.startsWith('"') && raw.endsWith('"')) || (raw.startsWith("'") && raw.endsWith("'"))) {
+    return raw.slice(1, -1);
+  }
+  return raw;
+}
+
+function recoveredTitle(markdown, id) {
+  const heading = markdown.match(/^#\\s+(.+)$/mu)?.[1]?.trim() ?? id;
+  return heading.replace(new RegExp("^" + id + "\\s*:\\s*", "iu"), "").trim() || id;
+}
+
+function recoveredSummary(markdown, title) {
+  const lines = markdown.split(/\\r?\\n/u).map((line) => line.trim());
+  for (const line of lines) {
+    if (!line || line.startsWith("#") || /^[-*>]/u.test(line) || /^\\d+[.)]\\s/u.test(line)) continue;
+    if (line.length >= 40) return line.replace(/^\\*+|\\*+$/gu, "").trim();
+  }
+  return title;
+}
+
+function normalizeRecoveredMarkdown(markdown, id, track, locale, canonicalPath) {
+  if (markdown.trim().startsWith("---")) return markdown;
+  const canonical = readFileSync(canonicalPath, "utf8");
+  const title = recoveredTitle(markdown, id);
+  const summary = recoveredSummary(markdown, title);
+  const lessonNumber = Number(id.slice(-3));
+  const officialTrackName = fieldFromFrontMatter(canonical, "officialTrackName", track);
+  const version = fieldFromFrontMatter(canonical, "version", "1.0");
+  const author = fieldFromFrontMatter(canonical, "author", "Waldemar M. Caban, JD MA");
+  const date = fieldFromFrontMatter(canonical, "date", "2026-08-09");
+  const frontMatter = [
+    "---",
+    "id: " + id,
+    "track: " + track,
+    "officialTrackName: " + yamlString(officialTrackName),
+    "level: 1",
+    "lessonNumber: " + lessonNumber,
+    "locale: " + locale,
+    "title: " + yamlString(title),
+    "summary: " + yamlString(summary),
+    "version: " + yamlString(version),
+    "author: " + yamlString(author),
+    "date: " + date,
+    "---",
+    "",
+  ].join("\\n");
+  return frontMatter + markdown.trim() + "\\n";
+}
+
 for (const source of sources) {
   const filename = source.name;
   const parsed = JSON.parse(source.read());
@@ -138,21 +195,21 @@ for (const source of sources) {
   const ids = new Set();
   for (const record of records) {
     const id = String(record.id ?? "").toUpperCase();
-    const markdown = String(record.markdown ?? "");
     const match = id.match(LESSON_ID);
     if (!match || match[1] !== track) throw new Error(`${filename}: invalid lesson id ${id}`);
     if (ids.has(id)) throw new Error(`${filename}: duplicate lesson ${id}`);
     ids.add(id);
 
-    if (!markdown.trim().startsWith("---")) throw new Error(`${filename}: ${id} missing front matter`);
+    const destinationDir = join(ROOT, "content", "curriculum", track, "L1");
+    const canonicalPath = join(destinationDir, `${id}.md`);
+    if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
+    const markdown = normalizeRecoveredMarkdown(String(record.markdown ?? ""), id, track, locale, canonicalPath);
+
     if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
     if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
     const bodyEnd = markdown.indexOf("\n---", 4);
     if (bodyEnd < 0 || !markdown.slice(bodyEnd + 4).trim()) throw new Error(`${filename}: ${id} missing body`);
 
-    const destinationDir = join(ROOT, "content", "curriculum", track, "L1");
-    const canonicalPath = join(destinationDir, `${id}.md`);
-    if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
     mkdirSync(destinationDir, { recursive: true });
     writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown.endsWith("\n") ? markdown : `${markdown}\n`, "utf8");
     lessons += 1;
