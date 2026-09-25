@@ -4,11 +4,15 @@ import { gunzipSync, inflateRawSync } from "node:zlib";
 
 const ROOT = process.cwd();
 const BUNDLE_DIR = join(ROOT, "curriculum", "translation-bundles", "l1");
-const TRACKS = new Set(["GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
+const LEGACY_BUNDLE_DIRS = [
+  join(ROOT, "content", "courses", "gold", "level-1", "en"),
+];
+const TRACKS = new Set(["BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
 const LESSON_ID = /^([A-Z]+)-L1-(\d{3})$/u;
 const B64_PART = /^(.*\.json\.gz\.b64)\.part(\d+)$/u;
 
-if (!existsSync(BUNDLE_DIR)) process.exit(0);
+const bundleDirs = [BUNDLE_DIR, ...LEGACY_BUNDLE_DIRS].filter((dir) => existsSync(dir));
+if (!bundleDirs.length) process.exit(0);
 
 let bundles = 0;
 let lessons = 0;
@@ -100,12 +104,14 @@ function readChunkedBundle(name, parts) {
 }
 
 const sources = [
-  ...directoryEntries
-    .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
-    .map((name) => ({ name, read: () => {
-      const raw = readFileSync(join(BUNDLE_DIR, name));
-      return name.endsWith(".gz") ? gunzipBundle(raw, name) : raw.toString("utf8");
-    } })),
+  ...bundleDirs.flatMap((dir) =>
+    readdirSync(dir)
+      .filter((name) => name.endsWith(".json") || name.endsWith(".json.gz"))
+      .map((name) => ({ name, read: () => {
+        const raw = readFileSync(join(dir, name));
+        return name.endsWith(".gz") ? gunzipBundle(raw, name) : raw.toString("utf8");
+      } }))
+  ),
   ...[...chunkGroups.entries()].map(([name, parts]) => ({
     name,
     read: () => readChunkedBundle(name, parts),
