@@ -15,5 +15,5 @@ export async function PUT(request: Request) {
     jurisdictionCode:typeof body.jurisdictionCode==="string"?body.jurisdictionCode.slice(0,24):null,
     preferredLanguage:typeof body.preferredLanguage==="string"?body.preferredLanguage.slice(0,24):"en",
     learningGoals:normalizeLearningGoals(body.learningGoals), aiAssistanceEnabled:body.aiAssistanceEnabled!==false};
-  await upsertLearnerAIPreferences(auth.session.user.id,value); return NextResponse.json({preferences:value});
+  await upsertLearnerAIPreferences(auth.session.user!.id,value); return NextResponse.json({preferences:value});
 }
