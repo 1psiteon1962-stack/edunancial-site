@@ -148,14 +148,14 @@ function frontMatterField(markdown, field, fallback = "") {
 }
 
 function recoveredTitle(markdown, id) {
-  const heading = markdown.match(/^#\\s+(.+)$/mu)?.[1]?.trim() ?? id;
+  const heading = markdown.match(/^#\s+(.+)$/mu)?.[1]?.trim() ?? id;
   return heading.replace(new RegExp("^" + id + "\\s*:\\s*", "iu"), "").trim() || id;
 }
 
 function recoveredSummary(markdown, title) {
-  const lines = markdown.split(/\\r?\\n/u).map((line) => line.trim());
+  const lines = markdown.split(/\r?\n/u).map((line) => line.trim());
   for (const line of lines) {
-    if (!line || line.startsWith("#") || /^[-*>]/u.test(line) || /^\\d+[.)]\\s/u.test(line)) continue;
+    if (!line || line.startsWith("#") || /^[-*>]/u.test(line) || /^\d+[.)]\s/u.test(line)) continue;
     const cleaned = line.replaceAll("*", "").trim();
     if (cleaned.length >= 50) return cleaned;
   }
@@ -224,7 +224,7 @@ function installRecoveryZip(filename) {
   if (!TRACKS.has(track)) throw new Error(`${filename}: unsupported track ${track}`);
   if (!/^[a-z]{2}(?:-[A-Za-z]{2,})?$/u.test(locale)) throw new Error(`${filename}: invalid locale ${locale}`);
 
-  const encoded = readFileSync(join(BUNDLE_DIR, filename), "utf8").replace(/\\s+/gu, "");
+  const encoded = readFileSync(join(BUNDLE_DIR, filename), "utf8").replace(/\s+/gu, "");
   const entries = extractZip(Buffer.from(encoded, "base64"));
   const records = new Map();
 
@@ -249,8 +249,8 @@ function installRecoveryZip(filename) {
     if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
     const markdown = normalizeRecoveredMarkdown(rawMarkdown, id, track, locale, canonicalPath);
 
-    if (!/^title:\\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
-    if (!/^summary:\\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
+    if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
+    if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
 
     mkdirSync(destinationDir, { recursive: true });
     writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown, "utf8");
@@ -283,8 +283,8 @@ for (const source of sources) {
       ids.add(id);
 
       if (!markdown.trim().startsWith("---")) throw new Error(`${filename}: ${id} missing front matter`);
-      if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
-      if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
+    if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
+    if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
       const bodyEnd = markdown.indexOf("\n---", 4);
       if (bodyEnd < 0 || !markdown.slice(bodyEnd + 4).trim()) throw new Error(`${filename}: ${id} missing body`);
 
