@@ -8,6 +8,7 @@ import {
   type AILearningAdminConfig,
 } from "./config";
 import type { AILearningContext } from "./context";
+import { buildIntentInstruction, classifyCoachIntent } from "./intent";
 
 export interface AILearningRequest {
   message: string;
@@ -286,7 +287,8 @@ export async function generateAILearningResponse(
   }
 
   const lessonObjectives = loadLessonObjectives(context.lessonId, context.language);
-  const systemPrompt = buildSystemPrompt(context, lessonObjectives);
+  const intent = classifyCoachIntent(request.message);
+  const systemPrompt = `${buildSystemPrompt(context, lessonObjectives)}\n\nCURRENT TEACHING MODE: ${intent}\n${buildIntentInstruction(intent)}`;
   const aiResponse = await callOpenAIAPI(systemPrompt, request.message);
 
   if (!aiResponse || !aiResponse.message) {

@@ -38,16 +38,16 @@ export default function AILearningCoachWidget() {
           type="button"
           onClick={() => setOpen(true)}
           className="w-full rounded-2xl border border-blue-400/40 bg-[#0b1730] px-4 py-3 text-left text-sm font-semibold text-blue-100 shadow-lg hover:border-blue-300"
-          aria-label="Open AI Learning Coach"
+          aria-label="Open EDUNANCIAL Guide"
         >
-          <div className="text-xs uppercase tracking-[0.2em] text-blue-300">AI Learning Coach</div>
+          <div className="text-xs uppercase tracking-[0.2em] text-blue-300">EDUNANCIAL Guide</div>
           <div className="mt-1 truncate text-slate-300">{contextLabel}</div>
         </button>
       ) : (
         <div className="rounded-2xl border border-slate-700 bg-[#0b1730] shadow-2xl">
           <div className="flex items-start justify-between border-b border-slate-700 px-4 py-3">
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-blue-300">Edunancial AI Learning Network</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-blue-300">EDUNANCIAL Guide</p>
               <p className="mt-1 text-xs text-slate-400">{contextLabel}</p>
             </div>
             <button
@@ -60,6 +60,23 @@ export default function AILearningCoachWidget() {
           </div>
 
           <div className="space-y-3 px-4 py-3">
+            <div className="grid grid-cols-3 gap-2" aria-label="AI learning actions">
+              {[
+                ["Explain this", "Explain the current lesson concept in a simpler way."],
+                ["Give me an example", "Give me a practical example from the current lesson."],
+                ["Test me", "Test me on the current lesson with one question at a time."],
+              ].map(([label, prompt]) => (
+                <button
+                  key={label}
+                  type="button"
+                  onClick={() => setMessage(prompt)}
+                  className="rounded-lg border border-slate-600 px-2 py-2 text-xs font-semibold text-slate-200 hover:border-blue-400 hover:text-blue-200"
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+
             <textarea
               value={message}
               onChange={(event) => setMessage(event.target.value)}
@@ -82,7 +99,7 @@ export default function AILearningCoachWidget() {
               className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white hover:bg-blue-500 disabled:opacity-60"
               disabled={loading}
             >
-              {loading ? "Coaching..." : "Ask AI Coach"}
+              {loading ? "Thinking..." : "Ask EDUNANCIAL"}
             </button>
 
             {response && (
