@@ -4,6 +4,8 @@ import type { AILearningContext, MembershipStatus } from "@/lib/ai-learning/cont
 import { runAILearningPipeline } from "@/lib/ai-learning/pipeline";
 import { getAuthenticatedMemberSession } from "@/lib/auth/server";
 import { getCourseProgressRows } from "@/lib/member/progress";
+import { classifyCoachIntent } from "@/lib/ai-learning/intent";
+import { getNeonSql } from "@/lib/db/neon";
 
 type RequestPayload = {
   message?: string;
@@ -73,10 +75,18 @@ export async function POST(request: Request) {
   // Availability and policy configuration is server-authoritative. The browser
   // supplies non-authoritative navigation/locale context only; localStorage/admin
   // payloads cannot enable, disable, or otherwise alter AI policy.
+  const startedAt = Date.now();
   const response = await runAILearningPipeline({
     message: payload.message ?? "",
     context,
   });
 
+  const sql = getNeonSql();
+  if (sql) {
+    try {
+      await sql`insert into ai_learning_interactions (user_id,lesson_id,track,level,locale,jurisdiction_code,intent,prompt_length,enabled,latency_ms)
+        values (${authenticatedUser?.id ?? null},${context.lessonId},${context.track},${context.level},${context.language},${context.jurisdiction},${classifyCoachIntent(payload.message ?? "")},${(payload.message ?? "").length},${response.enabled},${Date.now()-startedAt})`;
+    } catch { /* telemetry must never take the Guide offline */ }
+  }
   return NextResponse.json(response);
 }
