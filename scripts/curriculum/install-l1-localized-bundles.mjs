@@ -17,7 +17,7 @@ if (!bundleDirs.length) process.exit(0);
 let bundles = 0;
 let lessons = 0;
 
-const directoryEntries = readdirSync(BUNDLE_DIR).sort();
+const directoryEntries = existsSync(BUNDLE_DIR) ? readdirSync(BUNDLE_DIR).sort() : [];
 const chunkGroups = new Map();
 for (const name of directoryEntries) {
   const match = name.match(B64_PART);
