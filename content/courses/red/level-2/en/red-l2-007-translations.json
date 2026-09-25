@@ -1,0 +1,45 @@
+{
+  "id": "RED-L2-007",
+  "translations": {
+    "en-GB": {
+      "title": "The Interaction of Leverage and Risk",
+      "summary": "The Interaction of Leverage and Risk",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "es-ES": {
+      "title": "La interacción entre apalancamiento y riesgo",
+      "summary": "La interacción entre apalancamiento y riesgo",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "es-Caribbean": {
+      "title": "La interacción entre apalancamiento y riesgo",
+      "summary": "La interacción entre apalancamiento y riesgo",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "fr-FR": {
+      "title": "L'interaction entre effet de levier et risque",
+      "summary": "L'interaction entre effet de levier et risque",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "fr-CA": {
+      "title": "L'interaction entre levier financier et risque",
+      "summary": "L'interaction entre levier financier et risque",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "it": {
+      "title": "L'interazione tra leva finanziaria e rischio",
+      "summary": "L'interazione tra leva finanziaria e rischio",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "de": {
+      "title": "Das Zusammenspiel von Hebelwirkung und Risiko",
+      "summary": "Das Zusammenspiel von Hebelwirkung und Risiko",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    },
+    "nl": {
+      "title": "De wisselwerking tussen hefboomwerking en risico",
+      "summary": "De wisselwerking tussen hefboomwerking en risico",
+      "body": "Leverage uses borrowed money to control an asset larger than the investor's cash contribution. It magnifies both gains and losses measured against invested capital. Debt also creates fixed payment obligations that continue during vacancies, repairs and downturns. More leverage therefore reduces room for error unless supported by adequate cash flow and reserves. Level 2 thinking evaluates both upside and survivability rather than viewing leverage only as a way to increase returns."
+    }
+  }
+}
