@@ -22,6 +22,7 @@ import {
   type AILearningAdminConfig,
 } from "@/lib/ai-learning/config";
 import type { AILearningResponse } from "@/lib/ai-learning/service";
+import { saveLearnerAIPreferences } from "@/lib/ai-learning/client";
 
 type AILearningContextValue = {
   context: AILearningContext | null;
@@ -54,7 +55,7 @@ function loadAdminConfig(): AILearningAdminConfig {
 export function AILearningProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const { effectiveLanguage, preferences } = useInternationalPreferences();
-  const { user } = useAuth();
+  const { user, csrfToken } = useAuth();
   const [config, setConfig] = useState<AILearningAdminConfig>(DEFAULT_AI_LEARNING_CONFIG);
   const [context, setContext] = useState<AILearningContext | null>(null);
 
@@ -66,6 +67,16 @@ export function AILearningProvider({ children }: { children: ReactNode }) {
     window.addEventListener("storage", onStorage);
     return () => window.removeEventListener("storage", onStorage);
   }, []);
+
+  useEffect(() => {
+    if (!user || !csrfToken) return;
+    void saveLearnerAIPreferences({
+      countryCode: preferences.country,
+      jurisdictionCode: preferences.country,
+      preferredLanguage: effectiveLanguage,
+      aiAssistanceEnabled: true,
+    }, csrfToken);
+  }, [user, csrfToken, preferences.country, effectiveLanguage]);
 
   useEffect(() => {
     const current = buildAILearningContext({ pathname, language: effectiveLanguage, membership: resolveMembershipStatus(user?.membershipTier), country: preferences.country, jurisdiction: preferences.country });
