@@ -104,7 +104,10 @@ function readChunkedBundle(name, parts) {
     try {
       const json = gunzipBundle(Buffer.from(encoded, "utf8"), name, { allowChecksumRecovery: true });
       const parsed = JSON.parse(json);
-      if (Array.isArray(parsed.lessons) && parsed.lessons.length === 50) return json;
+      const validSingle = Array.isArray(parsed.lessons) && parsed.lessons.length === 50;
+      const validMulti = Array.isArray(parsed.bundles) && parsed.bundles.length > 0 &&
+        parsed.bundles.every((bundle) => Array.isArray(bundle.lessons) && bundle.lessons.length === 50);
+      if (validSingle || validMulti) return json;
     } catch (error) {
       lastError = error;
     }
@@ -131,37 +134,41 @@ const sources = [
 for (const source of sources) {
   const filename = source.name;
   const parsed = JSON.parse(source.read());
-  const track = String(parsed.track ?? "").toUpperCase();
-  const locale = String(parsed.locale ?? "").trim();
-  const records = Array.isArray(parsed.lessons) ? parsed.lessons : [];
+  const sourceBundles = Array.isArray(parsed.bundles) ? parsed.bundles : [parsed];
 
-  if (!TRACKS.has(track)) throw new Error(`${filename}: unsupported track ${track}`);
-  if (!/^[a-z]{2}(?:-[A-Za-z]{2,})?$/u.test(locale)) throw new Error(`${filename}: invalid locale ${locale}`);
-  if (records.length !== 50) throw new Error(`${filename}: expected 50 lessons, found ${records.length}`);
+  for (const bundle of sourceBundles) {
+    const track = String(bundle.track ?? "").toUpperCase();
+    const locale = String(bundle.locale ?? "").trim();
+    const records = Array.isArray(bundle.lessons) ? bundle.lessons : [];
 
-  const ids = new Set();
-  for (const record of records) {
-    const id = String(record.id ?? "").toUpperCase();
-    const markdown = String(record.markdown ?? "");
-    const match = id.match(LESSON_ID);
-    if (!match || match[1] !== track) throw new Error(`${filename}: invalid lesson id ${id}`);
-    if (ids.has(id)) throw new Error(`${filename}: duplicate lesson ${id}`);
-    ids.add(id);
+    if (!TRACKS.has(track)) throw new Error(`${filename}: unsupported track ${track}`);
+    if (!/^[a-z]{2}(?:-[A-Za-z]{2,})?$/u.test(locale)) throw new Error(`${filename}: invalid locale ${locale}`);
+    if (records.length !== 50) throw new Error(`${filename}: expected 50 lessons, found ${records.length}`);
 
-    if (!markdown.trim().startsWith("---")) throw new Error(`${filename}: ${id} missing front matter`);
-    if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
-    if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
-    const bodyEnd = markdown.indexOf("\n---", 4);
-    if (bodyEnd < 0 || !markdown.slice(bodyEnd + 4).trim()) throw new Error(`${filename}: ${id} missing body`);
+    const ids = new Set();
+    for (const record of records) {
+      const id = String(record.id ?? "").toUpperCase();
+      const markdown = String(record.markdown ?? "");
+      const match = id.match(LESSON_ID);
+      if (!match || match[1] !== track) throw new Error(`${filename}: invalid lesson id ${id}`);
+      if (ids.has(id)) throw new Error(`${filename}: duplicate lesson ${id}`);
+      ids.add(id);
 
-    const destinationDir = join(ROOT, "content", "curriculum", track, "L1");
-    const canonicalPath = join(destinationDir, `${id}.md`);
-    if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
-    mkdirSync(destinationDir, { recursive: true });
-    writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown.endsWith("\n") ? markdown : `${markdown}\n`, "utf8");
-    lessons += 1;
+      if (!markdown.trim().startsWith("---")) throw new Error(`${filename}: ${id} missing front matter`);
+      if (!/^title:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
+      if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
+      const bodyEnd = markdown.indexOf("\n---", 4);
+      if (bodyEnd < 0 || !markdown.slice(bodyEnd + 4).trim()) throw new Error(`${filename}: ${id} missing body`);
+
+      const destinationDir = join(ROOT, "content", "curriculum", track, "L1");
+      const canonicalPath = join(destinationDir, `${id}.md`);
+      if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
+      mkdirSync(destinationDir, { recursive: true });
+      writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown.endsWith("\n") ? markdown : `${markdown}\n`, "utf8");
+      lessons += 1;
+    }
+    bundles += 1;
   }
-  bundles += 1;
 }
 
 console.log(`[l1-localization] installed ${lessons} localized lesson files from ${bundles} bundles`);
