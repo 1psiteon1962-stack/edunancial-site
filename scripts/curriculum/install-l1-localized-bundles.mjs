@@ -156,7 +156,7 @@ function recoveredSummary(markdown, title) {
   const lines = markdown.split(/\\r?\\n/u).map((line) => line.trim());
   for (const line of lines) {
     if (!line || line.startsWith("#") || /^[-*>]/u.test(line) || /^\\d+[.)]\\s/u.test(line)) continue;
-    const cleaned = line.replace(/^\\*+|\\*+$/gu, "").trim();
+    const cleaned = line.replaceAll("*", "").trim();
     if (cleaned.length >= 50) return cleaned;
   }
   return title;
