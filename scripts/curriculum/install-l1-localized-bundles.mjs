@@ -58,11 +58,15 @@ function inflateGzipPayloadIgnoringTrailer(raw, filename) {
 
   if (offset >= payloadLimit) throw new Error(`${filename}: missing gzip deflate payload`);
 
+  // First try the normal no-checksum path (strip an 8-byte trailer when present).
   if (raw.length - offset > 8) {
     try {
       return inflateRawSync(raw.subarray(offset, raw.length - 8)).toString("utf8");
     } catch {}
   }
+  // Historical bundles may have a truncated/missing gzip trailer while the deflate
+  // stream itself is still complete. zlib accepts trailing bytes, so inflate the
+  // remaining payload directly as a final recovery path.
   return inflateRawSync(raw.subarray(offset)).toString("utf8");
 }
 
