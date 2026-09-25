@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import { gunzipSync, inflateRawSync } from "node:zlib";
+import { extractZip } from "./lib/zip.mjs";
 
 const ROOT = process.cwd();
 const BUNDLE_DIR = join(ROOT, "curriculum", "translation-bundles", "l1");
@@ -10,6 +11,7 @@ const LEGACY_BUNDLE_DIRS = [
 const TRACKS = new Set(["BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"]);
 const LESSON_ID = /^([A-Z]+)-L1-(\d{3})$/u;
 const B64_PART = /^(.*\.json\.gz\.b64)\.part(\d+)$/u;
+const RECOVERY_ZIP_B64 = /^([a-z]+)-l1-(.+)\.zip\.b64$/u;
 
 const bundleDirs = [BUNDLE_DIR].filter((dir) => existsSync(dir));
 if (!bundleDirs.length) process.exit(0);
@@ -131,6 +133,132 @@ const sources = [
   })),
 ].sort((a, b) => a.name.localeCompare(b.name));
 
+function yamlString(value) {
+  return JSON.stringify(String(value ?? "").trim());
+}
+
+function frontMatterField(markdown, field, fallback = "") {
+  const match = markdown.match(new RegExp("^" + field + ":\\s*(.+)$", "mu"));
+  if (!match) return fallback;
+  const raw = match[1].trim();
+  if ((raw.startsWith('"') && raw.endsWith('"')) || (raw.startsWith("'") && raw.endsWith("'"))) {
+    return raw.slice(1, -1);
+  }
+  return raw;
+}
+
+function recoveredTitle(markdown, id) {
+  const heading = markdown.match(/^#\\s+(.+)$/mu)?.[1]?.trim() ?? id;
+  return heading.replace(new RegExp("^" + id + "\\s*:\\s*", "iu"), "").trim() || id;
+}
+
+function recoveredSummary(markdown, title) {
+  const lines = markdown.split(/\\r?\\n/u).map((line) => line.trim());
+  for (const line of lines) {
+    if (!line || line.startsWith("#") || /^[-*>]/u.test(line) || /^\\d+[.)]\\s/u.test(line)) continue;
+    const cleaned = line.replace(/^\\*+|\\*+$/gu, "").trim();
+    if (cleaned.length >= 50) return cleaned;
+  }
+  return title;
+}
+
+function normalizeRecoveredMarkdown(markdown, id, track, locale, canonicalPath) {
+  const canonical = readFileSync(canonicalPath, "utf8");
+  const canonicalOfficialName = frontMatterField(canonical, "officialTrackName", track);
+  const canonicalVersion = frontMatterField(canonical, "version", "1.0");
+  const canonicalAuthor = frontMatterField(canonical, "author", "Waldemar M. Caban, JD MA");
+  const canonicalDate = frontMatterField(canonical, "date", "2026-08-09");
+
+  let body = markdown.trim();
+  let title = "";
+  let summary = "";
+  let officialTrackName = canonicalOfficialName;
+  let version = canonicalVersion;
+  let author = canonicalAuthor;
+  let date = canonicalDate;
+
+  if (body.startsWith("---")) {
+    const end = body.indexOf("\n---", 4);
+    if (end > 0) {
+      const frontMatter = body.slice(4, end);
+      const originalBody = body.slice(end + 4).trim();
+      title = frontMatterField(frontMatter, "title", "");
+      summary = frontMatterField(frontMatter, "summary", "");
+      officialTrackName = frontMatterField(frontMatter, "officialTrackName", canonicalOfficialName);
+      version = frontMatterField(frontMatter, "version", canonicalVersion);
+      author = frontMatterField(frontMatter, "author", canonicalAuthor);
+      date = frontMatterField(frontMatter, "date", canonicalDate);
+      body = originalBody;
+    }
+  }
+
+  title ||= recoveredTitle(body, id);
+  summary ||= recoveredSummary(body, title);
+
+  const frontMatter = [
+    "---",
+    `id: ${id}`,
+    `track: ${track}`,
+    `officialTrackName: ${yamlString(officialTrackName)}`,
+    "level: 1",
+    `lessonNumber: ${Number(id.slice(-3))}`,
+    `title: ${yamlString(title)}`,
+    `summary: ${yamlString(summary)}`,
+    `locale: ${yamlString(locale)}`,
+    `version: ${yamlString(version)}`,
+    `author: ${yamlString(author)}`,
+    `date: ${date}`,
+    "---",
+    "",
+  ].join("\n");
+
+  return `${frontMatter}${body}\n`;
+}
+
+function installRecoveryZip(filename) {
+  const match = filename.match(RECOVERY_ZIP_B64);
+  if (!match) return;
+
+  const track = match[1].toUpperCase();
+  const locale = match[2];
+  if (!TRACKS.has(track)) throw new Error(`${filename}: unsupported track ${track}`);
+  if (!/^[a-z]{2}(?:-[A-Za-z]{2,})?$/u.test(locale)) throw new Error(`${filename}: invalid locale ${locale}`);
+
+  const encoded = readFileSync(join(BUNDLE_DIR, filename), "utf8").replace(/\\s+/gu, "");
+  const entries = extractZip(Buffer.from(encoded, "base64"));
+  const records = new Map();
+
+  for (const entry of entries) {
+    if (!entry.name.toLowerCase().endsWith(".md")) continue;
+    const idMatch = basename(entry.name).match(new RegExp("^(" + track + "-L1-\\d{3})(?:[-.].*)?\\.md$", "iu"));
+    if (!idMatch) continue;
+    const id = idMatch[1].toUpperCase();
+    if (records.has(id)) throw new Error(`${filename}: duplicate lesson ${id}`);
+    records.set(id, entry.data.toString("utf8"));
+  }
+
+  if (records.size !== 50) throw new Error(`${filename}: expected 50 lessons, found ${records.size}`);
+
+  for (let number = 1; number <= 50; number += 1) {
+    const id = `${track}-L1-${String(number).padStart(3, "0")}`;
+    const rawMarkdown = records.get(id);
+    if (!rawMarkdown) throw new Error(`${filename}: missing lesson ${id}`);
+
+    const destinationDir = join(ROOT, "content", "curriculum", track, "L1");
+    const canonicalPath = join(destinationDir, `${id}.md`);
+    if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
+    const markdown = normalizeRecoveredMarkdown(rawMarkdown, id, track, locale, canonicalPath);
+
+    if (!/^title:\\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing title`);
+    if (!/^summary:\\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
+
+    mkdirSync(destinationDir, { recursive: true });
+    writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown, "utf8");
+    lessons += 1;
+  }
+  bundles += 1;
+}
+
 for (const source of sources) {
   const filename = source.name;
   const parsed = JSON.parse(source.read());
@@ -169,6 +297,10 @@ for (const source of sources) {
     }
     bundles += 1;
   }
+}
+
+for (const filename of directoryEntries.filter((name) => name.endsWith(".zip.b64"))) {
+  installRecoveryZip(filename);
 }
 
 console.log(`[l1-localization] installed ${lessons} localized lesson files from ${bundles} bundles`);
