@@ -12,7 +12,7 @@
 
 | Branch | Owner | Status | PR # | Notes |
 |--------|-------|--------|------|-------|
-| _(none active)_ | — | — | — | — |
+| feature/edunancial-intelligence-phase1 | ChatGPT | Implementation complete; validation/PR in progress | pending | Phase 1 Intelligence Layer: Guide actions, intent routing, additive Neon schema |
 
 ---
 
@@ -106,4 +106,4 @@
 
 | Date | Session | Updated By | Summary |
 |------|---------|-----------|---------|
-| 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |
+| 2026-09-25 | Intelligence Phase 1 | ChatGPT | Started implementation of EDUNANCIAL Intelligence Layer Phase 1. |\n| 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |
