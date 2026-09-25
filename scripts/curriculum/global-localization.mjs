@@ -239,6 +239,27 @@ for (const path of walk(legacyRoot)) {
   const filenameLocale = knownTokens.find((locale) => filenameLower.includes("-" + locale.toLowerCase() + "-") || filenameLower.endsWith("-" + locale.toLowerCase() + ".md"));
   const rawLocale = directoryLocale && canonicalLocale(directoryLocale) ? directoryLocale : filenameLocale;
   if (!rawLocale) continue;
+
+  // Level 2 master curricula are intentionally stored as bundled en_us Markdown
+  // files containing many lesson IDs. Treat every lesson section in those
+  // authoritative English bundles as canonical rather than as a translation of
+  // only the first ID. This matches the preservation and runtime discovery paths.
+  const canonicalDirectoryLocale = canonicalLocale(directoryLocale);
+  if (canonicalDirectoryLocale === defaultLocale && /full-50-lessons/iu.test(filename)) {
+    const ids = [...new Set([...raw.matchAll(/([A-Z]+-L\d+-\d{3})/gu)].map((match) => match[1]))];
+    for (const bundledId of ids) {
+      const lesson = ensureLesson(bundledId);
+      if (!lesson.canonical) {
+        lesson.canonical = {
+          path: relativePath,
+          version: null,
+          checksum: `sha256:${hash(`${bundledId}\n${raw}`)}`,
+        };
+      }
+    }
+    continue;
+  }
+
   const fm = Object.fromEntries(raw.split("\n").map((line) => line.match(/^([A-Za-z][A-Za-z0-9_-]*):[ \t]*(.*)$/u)).filter(Boolean).map((m) => [m[1], m[2].trim().replace(/^[\"']|[\"']$/g, "")]));
   const body = raw.replace(/^---[\s\S]*?---\s*/u, "").trim();
   addTranslation({ id, rawLocale: fm.locale ?? rawLocale, value: { title: fm.title ?? "", summary: fm.summary ?? fm.description ?? "", description: fm.description ?? "", body, sourceVersion: fm.sourceVersion ?? null }, path });
