@@ -3,7 +3,7 @@ import { basename, join } from "node:path";
 
 const ROOT = process.cwd();
 const TRACKS = ["RED","WHITE","BLUE","GOLD","PURPLE","ORANGE","BLACK"];
-const LOCALES = ["en","en-GB","es-ES","es-Caribbean","fr-FR","fr-CA","it","de","nl","pt-PT","pt-BR"];
+const LOCALES = ["en","es-ES","es-Caribbean","fr-FR","fr-CA","it","de","nl","pt-PT","pt-BR"];
 const GREEN_REQUIRED = ["en","es-ES","es-Caribbean","fr-CA"];
 
 function walk(dir, files = []) {
@@ -24,6 +24,13 @@ function normLocale(value) {
 
 function idsFor(track, locale) {
   const ids = new Set();
+  const bundleRoot = join(ROOT,"curriculum","translation-bundles","l1");
+  if (locale !== "en" && existsSync(bundleRoot)) {
+    const prefix = (track+"-l1-"+locale).toLowerCase();
+    if (readdirSync(bundleRoot).some(name => name.toLowerCase().startsWith(prefix))) {
+      for (let n=1;n<=50;n++) ids.add(track+"-L1-"+String(n).padStart(3,"0"));
+    }
+  }
   const canonical = join(ROOT,"content","curriculum",track,"L1");
   for (const p of walk(canonical)) {
     const f = basename(p);
