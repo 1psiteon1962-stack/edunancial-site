@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 import { getNeonSql } from "@/lib/db/neon";
 import { requireOwnerApiSession } from "@/lib/admin-content/auth";
 
-export async function GET() {
- const auth=await requireOwnerApiSession(new Request("http://localhost/api/executive/intelligence"));
+export async function GET(request: Request) {
+ const auth=await requireOwnerApiSession(request);
  if(!auth.ok) return auth.response;
  const sql=getNeonSql(); if(!sql) return NextResponse.json({events:[],aiInteractions:[],funnel:[],configured:false});
  const [events,ai,funnel]=await Promise.all([
