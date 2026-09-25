@@ -1,0 +1,45 @@
+{
+  "id": "RED-L2-005",
+  "translations": {
+    "en-GB": {
+      "title": "Creative Financing II: Lease Options and Subject-To Deals",
+      "summary": "Creative Financing II: Lease Options and Subject-To Deals",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "es-ES": {
+      "title": "Financiación creativa II: opciones de arrendamiento y compras subject-to",
+      "summary": "Financiación creativa II: opciones de arrendamiento y compras subject-to",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "es-Caribbean": {
+      "title": "Financiamiento creativo II: opciones de arrendamiento y compras subject-to",
+      "summary": "Financiamiento creativo II: opciones de arrendamiento y compras subject-to",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "fr-FR": {
+      "title": "Financement créatif II : location avec option et opérations subject-to",
+      "summary": "Financement créatif II : location avec option et opérations subject-to",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "fr-CA": {
+      "title": "Financement créatif II : location avec option et opérations subject-to",
+      "summary": "Financement créatif II : location avec option et opérations subject-to",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "it": {
+      "title": "Finanziamento creativo II: opzioni di locazione e operazioni subject-to",
+      "summary": "Finanziamento creativo II: opzioni di locazione e operazioni subject-to",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "de": {
+      "title": "Kreative Finanzierung II: Mietkaufoptionen und Subject-to-Geschäfte",
+      "summary": "Kreative Finanzierung II: Mietkaufoptionen und Subject-to-Geschäfte",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    },
+    "nl": {
+      "title": "Creatieve financiering II: huurkoopopties en subject-to-transacties",
+      "summary": "Creatieve financiering II: huurkoopopties en subject-to-transacties",
+      "body": "A lease option gives a tenant the right, but not the obligation, to buy later under agreed terms. A subject-to purchase transfers ownership while the seller's existing mortgage remains in the seller's name, creating significant legal and lender risk, including possible due-on-sale enforcement. These structures allocate ownership, financing responsibility, timing and risk differently. They are not shortcuts around due diligence and require careful jurisdiction-specific legal review before use."
+    }
+  }
+}
