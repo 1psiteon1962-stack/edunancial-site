@@ -20,11 +20,6 @@ let lessons = 0;
 const directoryEntries = existsSync(BUNDLE_DIR) ? readdirSync(BUNDLE_DIR).sort() : [];
 const chunkGroups = new Map();
 for (const name of directoryEntries) {
-  // The first BLUE Italian bundle recovered into this branch was malformed.
-  // The verified Italian lesson sidecars are committed directly under
-  // content/curriculum/BLUE/L1, so ignore only that stale bundle group.
-  if (name.startsWith("blue-l1-it.json.gz.b64.part")) continue;
-
   const match = name.match(B64_PART);
   if (!match) continue;
   const key = match[1];
