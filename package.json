@@ -18,7 +18,7 @@
     "curriculum:translation-batch": "npm run curriculum:localization:global && node scripts/curriculum/export-translation-batch.mjs",
     "curriculum:translation-quality": "node scripts/curriculum/translation-quality-audit.mjs",
     "curriculum:locate": "node scripts/curriculum/locate.mjs",
-    "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
+    "curriculum:inventory": "node scripts/curriculum/inventory.mjs",\n    "curriculum:quality-inventory": "node scripts/curriculum/quality-inventory.mjs",
     "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",
     "curriculum:add-lesson": "node scripts/curriculum/add-lesson.mjs",
     "curriculum:export": "node scripts/curriculum/export.mjs",
