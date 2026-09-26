@@ -21,10 +21,10 @@ function isEnglish(name) {
 function isRecoverableRuntimeAsset(path) {
   const normalized = normalize(path);
 
-  // Legacy RED Level 1 translation bundles were committed as JSON records under
-  // content/courses/.../level-1/en/. Keep them in the runtime manifest so completed
-  // translations are not lost merely because they predate Markdown locale sidecars.
-  if (normalized.endsWith(".json") && normalized.includes("/content/courses/") && normalized.includes("/level-1/")) {
+  // Legacy and current translations may be committed as JSON records under
+  // content/courses. Bundle JSON for every level so completed translations do
+  // not disappear merely because they predate canonical Markdown sidecars.
+  if (normalized.endsWith(".json") && normalized.includes("/content/courses/") && /\\/level-\\d+\\//u.test(normalized)) {
     return true;
   }
 
