@@ -19,6 +19,7 @@
     "curriculum:translation-quality": "node scripts/curriculum/translation-quality-audit.mjs",
     "curriculum:locate": "node scripts/curriculum/locate.mjs",
     "curriculum:inventory": "node scripts/curriculum/inventory.mjs",
+    "curriculum:quality-inventory": "node scripts/curriculum/quality-inventory.mjs",
     "curriculum:migrate-legacy": "node scripts/curriculum/migrate-legacy.mjs",
     "curriculum:add-lesson": "node scripts/curriculum/add-lesson.mjs",
     "curriculum:export": "node scripts/curriculum/export.mjs",
