@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
 import { getNeonSql } from "@/lib/db/neon";
-import { getAuthenticatedMemberSession } from "@/lib/auth/server";
+import { requireOwnerApiSession } from "@/lib/admin-content/auth";
 
-export async function GET() {
- const session=await getAuthenticatedMemberSession();
- if(!session.authenticated||!session.user) return NextResponse.json({error:"Authentication required."},{status:401});
+export async function GET(request: Request) {
+ const auth=await requireOwnerApiSession(request);
+ if(!auth.ok) return auth.response;
  const sql=getNeonSql(); if(!sql) return NextResponse.json({events:[],aiInteractions:[],funnel:[],configured:false});
  const [events,ai,funnel]=await Promise.all([
   sql`select event_name,count(*)::int as count from learner_events where occurred_at>=now()-interval '30 days' group by event_name order by count desc`,
