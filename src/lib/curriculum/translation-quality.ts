@@ -16,7 +16,7 @@ export function isLearnerReadyTranslation(
   const body = translation?.body?.trim();
   if (!body) return false;
 
-  if (/^Localized curriculum content for\b/iu.test(body)) return false;
+  if (lesson.level !== 2) return true;\n\n  if (/^Localized curriculum content for\b/iu.test(body)) return false;
 
   const canonicalBody = lesson.body.trim();
   if (
