@@ -53,6 +53,9 @@
     "src/lib/learning-progress/**/*.ts",
     "src/lib/admin-content/**/*.ts",
     "src/lib/cu/**/*.ts",
-    "src/lib/content-loader/**/*.ts"
+    "src/lib/content-loader/**/*.ts",
+    "src/lib/curriculum/contract.ts",
+    "src/lib/curriculum/normalized-reader.ts",
+    "src/lib/curriculum/normalized-reader.test.ts"
   ]
 }

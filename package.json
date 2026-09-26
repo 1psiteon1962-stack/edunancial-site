@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/curriculum/install-l1-localized-bundles.mjs && node scripts/curriculum/assert-l1-preservation.mjs && node scripts/curriculum/assert-l2-preservation.mjs && node scripts/curriculum/generate-runtime-manifest.mjs",
+    "prebuild": "node scripts/curriculum/install-l1-localized-bundles.mjs && node scripts/curriculum/assert-l1-preservation.mjs && node scripts/curriculum/assert-l2-preservation.mjs && node scripts/curriculum/compile-index.mjs && node scripts/curriculum/generate-runtime-manifest.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -36,7 +36,8 @@
     "curriculum:translate": "node scripts/international/generate-locale-l1.mjs",
     "curriculum:translate:l1": "EDUNANCIAL_TRANSLATION_LEVEL=1 node scripts/international/generate-locale-l1.mjs",
     "curriculum:l1-preservation": "node scripts/curriculum/assert-l1-preservation.mjs",
-    "curriculum:l2-preservation": "node scripts/curriculum/assert-l2-preservation.mjs"
+    "curriculum:l2-preservation": "node scripts/curriculum/assert-l2-preservation.mjs",
+    "curriculum:compile-index": "node scripts/curriculum/compile-index.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
