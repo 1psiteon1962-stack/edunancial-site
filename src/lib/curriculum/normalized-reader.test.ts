@@ -11,4 +11,10 @@ test("universal curriculum identity is level data, not level-specific architectu
 test("locale fallback is driven by the central locale registry",()=>{
   assert.deepEqual(curriculumLocaleFallbackChain("es-Caribbean"),["es-Caribbean","es","en-US"]);
   assert.deepEqual(curriculumLocaleFallbackChain("en-GB"),["en-GB","en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("en-US"),["en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("es-ES"),["es-ES","es","en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("pt-BR"),["pt-BR","pt","en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("pt-PT"),["pt-PT","pt","en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("fr-CA"),["fr-CA","fr","en-US"]);
+  assert.deepEqual(curriculumLocaleFallbackChain("fr-FR"),["fr-FR","fr","en-US"]);
 });
