@@ -76,9 +76,7 @@ for (const [track, locales] of Object.entries(required)) {
   }
 }
 if (failures.length) {
-  console.error("[l1-preservation] REGRESSION: completed Level 1 curriculum would be lost:
-"+failures.join("
-"));
+  console.error("[l1-preservation] REGRESSION: completed Level 1 curriculum would be lost:\n"+failures.join("\n"));
   process.exit(1);
 }
 console.log("[l1-preservation] PASS: all protected Level 1 color/locale sets retain 50 lessons");
