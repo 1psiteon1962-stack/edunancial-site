@@ -18,6 +18,7 @@ export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "de", label: "German", nativeLabel: "Deutsch", rtl: false },
   { code: "it", label: "Italian", nativeLabel: "Italiano", rtl: false },
   { code: "nl", label: "Dutch", nativeLabel: "Nederlands", rtl: false },
+  { code: "ht", label: "Haitian Creole", nativeLabel: "Kreyòl ayisyen", rtl: false },
 ] as const;
 
 export const DEFAULT_LANGUAGE_CODE = "en-US";
