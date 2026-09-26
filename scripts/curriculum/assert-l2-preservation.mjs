@@ -63,7 +63,7 @@ for (const color of colors) {
     // Every non-English L2 set is now expected to be complete. This turns the
     // current recovered state into a build invariant rather than allowing a
     // completed locale to silently fall back to a partial set.
-    if (color === "PURPLE" && locale === "es-caribbean" && ids.size === 35) continue;\n    if (ids.size !== 50) failures.push(`${color} L2 ${locale}: ${ids.size}/50`);
+    if (ids.size !== 50) failures.push(`${color} L2 ${locale}: ${ids.size}/50`);
   }
 }
 
@@ -79,7 +79,9 @@ for (const n of ["001","002"]) {
 }
 
 if (failures.length) {
-  console.error("Level 2 preservation gate FAILED:\n"+failures.map(x=>" - "+x).join("\n"));
+  console.error("Level 2 preservation gate FAILED:
+"+failures.map(x=>" - "+x).join("
+"));
   process.exit(1);
 }
 console.log("Level 2 preservation gate passed: all 8 English sets and every protected L2 locale retain 50 lessons.");
