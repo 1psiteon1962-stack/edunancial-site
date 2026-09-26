@@ -7,7 +7,8 @@ import {
   type PublishedLessonRecord, type PublishedLessonTranslation, type PublishedLessonTranslationImportRecord, type PublishedTrackSummary,
 } from "@/lib/curriculum/authoritative-published";
 import { getCommittedLessonTranslation } from "@/lib/curriculum/committed-translation-fallback";
-import { getCurriculumLocaleFallbackChain, resolveCurriculumLocale } from "@/lib/curriculum/localization";\nimport { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
+import { getCurriculumLocaleFallbackChain, resolveCurriculumLocale } from "@/lib/curriculum/localization";
+import { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
 import { backfillMissingPublishedLessonsFromRegistry } from "@/lib/curriculum/published-registry-backfill";
 
 const TRANSLATION_INDEX_PATH = "published/curriculum-translation-index.json";
