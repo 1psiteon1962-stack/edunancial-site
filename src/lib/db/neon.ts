@@ -1,7 +1,7 @@
 import { neon } from "@neondatabase/serverless";
 
 export function readDatabaseUrl(): string | null {
-  const value = process.env.DATABASE_URL?.trim();
+  const value = process.env.DATABASE_URL?.trim() || process.env.NETLIFY_DATABASE_URL?.trim();
   return value || null;
 }
 
