@@ -16,17 +16,16 @@ const presignRoute = readFileSync(
   "utf8",
 );
 
-test("trusted localized ingestion is restricted to the five recoverable tracks", () => {
-  assert.match(helper, /new Set\(\["gold", "green", "purple", "orange", "black"\]\)/u);
-  assert.doesNotMatch(helper, /new Set\([^\n]*"red"/u);
-  assert.doesNotMatch(helper, /new Set\([^\n]*"white"/u);
-  assert.doesNotMatch(helper, /new Set\([^\n]*"blue"/u);
+test("trusted localized ingestion supports all eight curriculum tracks", () => {
+  assert.match(helper, /"red", "white", "blue", "green", "gold", "purple", "orange", "black"/u);
 });
 
 test("trusted localized ingestion supports Levels 1-5 and excludes canonical US English", () => {
-  assert.match(helper, /identity\.level === "level-1"/u);
+  assert.match(helper, /"level-1", "level-2", "level-3", "level-4", "level-5"/u);
   assert.match(helper, /!CANONICAL_ENGLISH\.has\(identity\.language\)/u);
-  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);\n  assert.match(helper, /approvedFiles !== 50/u);\n  assert.match(helper, /lessonNumbers\\.size !== 50/u);
+  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
+  assert.match(helper, /approvedFiles !== 50/u);
+  assert.match(helper, /lessonNumbers\.size !== 50/u);
 });
 
 test("trusted localized ingestion republishes and verifies localized translation publication", () => {
