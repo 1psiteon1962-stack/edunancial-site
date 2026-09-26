@@ -24,7 +24,7 @@ function isRecoverableRuntimeAsset(path) {
   // Legacy and current translations may be committed as JSON records under
   // content/courses. Bundle JSON for every level so completed translations do
   // not disappear merely because they predate canonical Markdown sidecars.
-  if (normalized.endsWith(".json") && normalized.includes("/content/courses/") && /\\/level-\\d+\\//u.test(normalized)) {
+  if (normalized.endsWith(".json") && normalized.includes("/content/courses/") && /\/level-\d+\//u.test(normalized)) {
     return true;
   }
 
