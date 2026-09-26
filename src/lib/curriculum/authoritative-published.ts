@@ -8,7 +8,8 @@ import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { ACADEMIES, ACADEMY_MAP } from "@/lib/curriculum/academies";
 import { getLocalizedLessonDescription, getLocalizedLessonTitle, getLocalizedTrackCopy, resolveCurriculumLocale, type CurriculumLocale } from "@/lib/curriculum/localization";
 import { getLessonContent, readRegistry, type RegistryAsset } from "@/lib/curriculum/reader";
-import { readAtomicPublishedLessons, removeAtomicPublishedBatch, removeAtomicPublishedLesson, upsertAtomicPublishedLessons, upsertAtomicPublishedTranslation } from "@/lib/curriculum/atomic-published-store";\nimport { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
+import { readAtomicPublishedLessons, removeAtomicPublishedBatch, removeAtomicPublishedLesson, upsertAtomicPublishedLessons, upsertAtomicPublishedTranslation } from "@/lib/curriculum/atomic-published-store";
+import { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
 
 const PUBLISHED_STATE_PATH="published/curriculum-state.json";
 const SEEDS_DIR=join(process.cwd(),"curriculum","seeds","translations");
