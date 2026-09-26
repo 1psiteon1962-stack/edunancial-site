@@ -1,6 +1,8 @@
 import { ACADEMIES } from "@/lib/curriculum/academies";
 import { getLocalizedTrackCopy, resolveCurriculumLocale } from "@/lib/curriculum/localization";
 import { getLessonContent, readRegistry, type RegistryAsset } from "@/lib/curriculum/reader";
+import { getNormalizedLesson } from "@/lib/curriculum/normalized-reader";
+import { CURRICULUM_LEVELS, CURRICULUM_TRACKS, type CurriculumLevel, type CurriculumTrack } from "@/lib/curriculum/contract";
 import {
   getPublishedLesson as getRemotePublishedLesson,
   getPublishedTrack as getRemotePublishedTrack,
@@ -66,9 +68,22 @@ export async function getPublishedTrack(code: string, languageOrLocale: string) 
   catch { return bundled; }
 }
 
+function normalizedLessonRecord(id: string, languageOrLocale: string): PublishedLessonRecord | null {
+  const match=id.trim().toUpperCase().match(/^([A-Z]+)-L([1-5])-(\\d{3})$/u);
+  if(!match) return null;
+  const track=match[1] as CurriculumTrack, level=Number(match[2]) as CurriculumLevel, lessonNumber=Number(match[3]);
+  if(!CURRICULUM_TRACKS.includes(track)||!CURRICULUM_LEVELS.includes(level)) return null;
+  const row=getNormalizedLesson(track,level,lessonNumber,languageOrLocale);
+  if(!row) return null;
+  const academy=ACADEMIES.find(a=>a.code===track);
+  return {id:row.id,track,trackName:academy?.name??track,level,lessonNumber:row.lesson,title:row.title,summary:row.summary,author:"Waldemar M. Caban",date:"",version:"1.0",status:"active",importedAt:"",metadata:{qualityStatus:row.status,sourceHash:row.sourceHash,origin:row.origin},path:row.origin,body:row.body,frontMatter:{}};
+}
+
 export async function getPublishedLesson(id: string, languageOrLocale: string) {
   try { const remote=await getRemotePublishedLesson(id,languageOrLocale); if(remote)return remote; } catch {}
   const normalized=id.toUpperCase();
   for(const track of bundledTracks(languageOrLocale)) for(const level of track.levels){const lesson=level.lessons.find(c=>c.id.toUpperCase()===normalized);if(lesson)return lesson;}
-  return null;
+  // Universal compiled index is the final safe fallback. This exposes L4/L5
+  // through the same contract without changing the proven L1-L3 precedence.
+  return normalizedLessonRecord(normalized,languageOrLocale);
 }
