@@ -53,3 +53,23 @@ jobs:
             if ok is distinct from true then raise exception 'heartbeat failed'; end if;
           end $$;
           SQL
+      - name: Verify completion and retry lifecycle
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          do $$
+          declare j video_r2_jobs%rowtype; ok boolean;
+          begin
+            select * into j from video_r2_jobs limit 1;
+            select video_r2_fail_job(j.id,j.lease_token,'CI_RETRY','retry test',true) into ok;
+            if ok is distinct from true then raise exception 'retryable failure rejected'; end if;
+            select * into j from video_r2_jobs where id=j.id;
+            if j.status <> 'queued' or j.attempt_count <> 1 then raise exception 'retry state invalid'; end if;
+            update video_r2_jobs set not_before=now() where id=j.id;
+            perform * from video_r2_claim_job(j.id,'ci-worker-2');
+            select * into j from video_r2_jobs where id=j.id;
+            select video_r2_complete_job(j.id,j.lease_token,'v1/renders/ci/master.mp4',1024,'abc123',1000,'video/mp4') into ok;
+            if ok is distinct from true then raise exception 'completion rejected'; end if;
+            select * into j from video_r2_jobs where id=j.id;
+            if j.status <> 'succeeded' or j.output_asset_id is null then raise exception 'completion state invalid'; end if;
+          end $$;
+          SQL
