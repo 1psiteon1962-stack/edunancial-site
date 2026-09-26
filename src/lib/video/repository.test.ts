@@ -13,3 +13,11 @@ test("Video R2 repository fails closed when database is absent", () => {
   const source = readFileSync("src/lib/video/repository.ts", "utf8");
   assert.match(source, /throw new Error\("Video R2 database is not configured\."\)/);
 });
+
+
+test("Video R2 job creation is owner-scoped and idempotent", () => {
+  const source = readFileSync("src/lib/video/repository.ts", "utf8");
+  assert.match(source, /p\.id = \\?\$\{input\.projectId\}::uuid and p\.owner_email = \\?\$\{input\.ownerEmail\}/);
+  assert.match(source, /on conflict \(idempotency_key\) do nothing/);
+  assert.match(source, /j\.idempotency_key = \\?\$\{input\.idempotencyKey\}/);
+});
