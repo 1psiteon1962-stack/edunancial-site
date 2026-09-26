@@ -6,9 +6,9 @@ import test from "node:test";
 const helper = readFileSync(path.join(process.cwd(), "src/lib/admin-content/trusted-canonical-ingest.ts"), "utf8");
 const finalizeRoute = readFileSync(path.join(process.cwd(), "src/app/api/admin/content/upload/finalize/route.ts"), "utf8");
 
-test("trusted canonical curriculum accepts all eight tracks for US English L2 and L3", () => {
+test("trusted canonical curriculum accepts all eight tracks for US English L1 through L5", () => {
   assert.match(helper, /"red", "white", "blue", "green", "gold", "purple", "orange", "black"/u);
-  assert.match(helper, /"level-2", "level-3"/u);
+  assert.match(helper, /"level-1", "level-2", "level-3", "level-4", "level-5"/u);
   assert.match(helper, /"en", "en-US"/u);
 });
 
