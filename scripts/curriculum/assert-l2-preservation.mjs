@@ -79,9 +79,7 @@ for (const n of ["001","002"]) {
 }
 
 if (failures.length) {
-  console.error("Level 2 preservation gate FAILED:
-"+failures.map(x=>" - "+x).join("
-"));
+  console.error("Level 2 preservation gate FAILED:\\n"+failures.map(x=>" - "+x).join("\\n"));
   process.exit(1);
 }
 console.log("Level 2 preservation gate passed: all 8 English sets and every protected L2 locale retain 50 lessons.");
