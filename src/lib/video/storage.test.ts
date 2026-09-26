@@ -3,14 +3,14 @@ import test from "node:test";
 import { readVideoStorageConfig, videoMasterKey, videoSourceKey } from "./storage";
 
 test("R2 configuration is all-or-nothing", () => {
-  assert.equal(readVideoStorageConfig({} as NodeJS.ProcessEnv), null);
-  assert.equal(readVideoStorageConfig({ VIDEO_R2_ENDPOINT: "https://example.invalid" } as NodeJS.ProcessEnv), null);
+  assert.equal(readVideoStorageConfig({}), null);
+  assert.equal(readVideoStorageConfig({ VIDEO_R2_ENDPOINT: "https://example.invalid" }), null);
   assert.deepEqual(readVideoStorageConfig({
     VIDEO_R2_ENDPOINT: "https://example.invalid",
     VIDEO_R2_BUCKET: "edunancial-video",
     VIDEO_R2_ACCESS_KEY_ID: "key",
     VIDEO_R2_SECRET_ACCESS_KEY: "secret",
-  } as NodeJS.ProcessEnv), {
+  }), {
     endpoint: "https://example.invalid", bucket: "edunancial-video", accessKeyId: "key", secretAccessKey: "secret",
   });
 });
