@@ -62,3 +62,50 @@ export async function getVideoR2Job(jobId: string, ownerEmail: string) {
   `;
   return rows[0] ?? null;
 }
+
+
+export type VideoR2JobInput = {
+  projectId: string;
+  ownerEmail: string;
+  locale: string;
+  outputProfile: "vertical_1080x1920" | "landscape_1920x1080" | "square_1080x1080";
+  composition: unknown;
+  compositionHash: string;
+  idempotencyKey: string;
+};
+
+export async function createVideoR2Job(input: VideoR2JobInput) {
+  const sql = requireSql();
+  const rows = await sql`
+    insert into video_r2_jobs
+      (project_id, locale, output_profile, composition, composition_hash, idempotency_key, created_by)
+    select
+      p.id, ${input.locale}, ${input.outputProfile}, ${JSON.stringify(input.composition)}::jsonb,
+      ${input.compositionHash}, ${input.idempotencyKey}, ${input.ownerEmail}
+    from video_r2_projects p
+    where p.id = ${input.projectId}::uuid and p.owner_email = ${input.ownerEmail}
+    on conflict (idempotency_key) do nothing
+    returning *
+  `;
+  if (rows[0]) return rows[0];
+  const existing = await sql`
+    select j.*
+    from video_r2_jobs j
+    join video_r2_projects p on p.id = j.project_id
+    where j.idempotency_key = ${input.idempotencyKey}
+      and p.owner_email = ${input.ownerEmail}
+    limit 1
+  `;
+  return existing[0] ?? null;
+}
+
+export async function listVideoR2Jobs(projectId: string, ownerEmail: string) {
+  const sql = requireSql();
+  return sql`
+    select j.*
+    from video_r2_jobs j
+    join video_r2_projects p on p.id = j.project_id
+    where j.project_id = ${projectId}::uuid and p.owner_email = ${ownerEmail}
+    order by j.created_at desc
+  `;
+}
