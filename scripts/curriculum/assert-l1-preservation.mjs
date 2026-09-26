@@ -4,7 +4,7 @@ import { basename, join } from "node:path";
 const ROOT = process.cwd();
 const TRACKS = ["RED","WHITE","BLUE","GOLD","PURPLE","ORANGE","BLACK"];
 const LOCALES = ["en","en-GB","es-ES","es-Caribbean","fr-FR","fr-CA","it","de","nl","pt-PT","pt-BR"];
-const GREEN_REQUIRED = ["en","es-ES","es-Caribbean","fr-CA"];
+const GREEN_REQUIRED = ["en","es-ES","es-Caribbean","fr-CA"];\nconst L1_GB_REQUIRED = ["RED","WHITE","BLUE","GOLD","PURPLE"];
 
 function walk(dir, files = []) {
   if (!existsSync(dir)) return files;
@@ -65,7 +65,7 @@ function idsFor(track, locale) {
 }
 
 const required = Object.fromEntries(TRACKS.map(t => [t,LOCALES]));
-required.GREEN = GREEN_REQUIRED;
+required.GREEN = GREEN_REQUIRED;\nfor (const track of L1_GB_REQUIRED) required[track] = [...new Set([...required[track], "en-GB"])];
 const failures = [];
 for (const [track, locales] of Object.entries(required)) {
   for (const locale of locales) {
