@@ -23,10 +23,10 @@ test("trusted localized ingestion is restricted to the five recoverable tracks",
   assert.doesNotMatch(helper, /new Set\([^\n]*"blue"/u);
 });
 
-test("trusted localized ingestion is Level 1 only and excludes canonical US English", () => {
+test("trusted localized ingestion supports Levels 1-5 and excludes canonical US English", () => {
   assert.match(helper, /identity\.level === "level-1"/u);
   assert.match(helper, /!CANONICAL_ENGLISH\.has\(identity\.language\)/u);
-  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
+  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);\n  assert.match(helper, /approvedFiles !== 50/u);\n  assert.match(helper, /lessonNumbers\\.size !== 50/u);
 });
 
 test("trusted localized ingestion republishes and verifies localized translation publication", () => {
