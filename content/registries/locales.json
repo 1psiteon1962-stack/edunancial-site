@@ -39,6 +39,20 @@
       "status": "active"
     },
     {
+      "locale": "es-419",
+      "language": "es",
+      "script": "Latn",
+      "region": "419",
+      "displayName": "Spanish (Latin America)",
+      "nativeName": "Español (Latinoamérica)",
+      "direction": "ltr",
+      "fallbackChain": [
+        "es",
+        "en-US"
+      ],
+      "status": "planned"
+    },
+    {
       "locale": "es-Caribbean",
       "language": "es",
       "script": "Latn",

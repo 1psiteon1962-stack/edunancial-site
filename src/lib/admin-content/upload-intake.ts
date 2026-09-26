@@ -9,7 +9,7 @@ export const PUBLICATION_STATES = ["draft", "review", "published", "archived"] a
 export { MEMBERSHIP_ACCESS } from "@/lib/admin-content/constants";
 export const SUPPORTED_REGIONS = ["north-america", "latin-america", "caribbean", "europe", "africa", "asia", "middle-east", "oceania", "global"] as const;
 export const MARKETPLACE_CATEGORIES = ["books", "ebooks", "pdf-guides", "templates", "worksheets", "forms", "downloads", "zip-packages", "audio", "videos", "images", "software", "digital-products", "calculators", "presentations", "spreadsheets", "flashcards", "future-products"] as const;
-export const CURRICULUM_FILENAME_LOCALES = ["es-Caribbean", "en-US", "en-GB", "es-ES", "fr-CA", "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "es", "fr", "pt", "en"] as const;
+export const CURRICULUM_FILENAME_LOCALES = ["es-Caribbean", "es-419", "en-US", "en-GB", "es-ES", "fr-CA", "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "es", "fr", "pt", "en"] as const;
 export type ContentDestination = (typeof CONTENT_DESTINATIONS)[number];
 export type { CourseTrack } from "@/lib/admin-content/constants";
 export type CourseLevel = (typeof COURSE_LEVELS)[number];
@@ -44,6 +44,8 @@ function filenameTokens(filename: string): string[] {
 
 const HUMAN_LANGUAGE_ALIASES: Array<[string, UploadLanguage]> = [
   ["spanish-latin-america-caribbean", "es-Caribbean"],
+  ["spanish-latin-america", "es-419"],
+  ["latin-american-spanish", "es-419"],
   ["spanish-caribbean", "es-Caribbean"],
   ["portuguese-brazil", "pt-BR"],
   ["brazilian-portuguese", "pt-BR"],
