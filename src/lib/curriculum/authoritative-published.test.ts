@@ -299,3 +299,26 @@ test("exportPublishedLessonTranslations returns deterministic English base conte
     invalidateRegistryCache();
   }
 });
+
+
+test("canonical US English is never replaced by an en-GB seed or template", async () => {
+  const lesson = await getPublishedLesson("BLUE-L2-001", "en-US");
+  assert.ok(lesson);
+  assert.match(lesson.body, /From Idea to Entity|Core Content|Learning Objectives/u);
+  assert.ok(lesson.body.length > 1500, "US English must retain the complete canonical lesson");
+});
+
+test("Level 2 template translations fall back to the complete canonical lesson", async () => {
+  const english = await getPublishedLesson("BLUE-L2-001", "en-US");
+  const german = await getPublishedLesson("BLUE-L2-001", "de");
+  assert.ok(english);
+  assert.ok(german);
+  assert.equal(german.body.trim(), english.body.trim(), "short Level 2 template must not override canonical content");
+});
+
+test("Level 3 administrative file header is metadata, not learner body", async () => {
+  const lesson = await getPublishedLesson("BLUE-L3-001", "en-US");
+  assert.ok(lesson);
+  assert.ok(!lesson.body.startsWith("Filename:"), "learner body must not expose source-file metadata");
+  assert.match(lesson.body, /^## Learning Objectives/u);
+});
