@@ -1,0 +1,31 @@
+{
+  "batchId": "batch_0743fe00-3289-4357-a1bc-51d463a08928",
+  "exportId": "export_batch_0743fe00-3289-4357-a1bc-51d463a08928_1785654235445",
+  "uploadTimestamp": "2026-08-02T07:03:57.798Z",
+  "branch": "content/course-upload-20260802-070357-content-upload-2026-08-02",
+  "files": [
+    {
+      "sourceFilename": "red-level-1-combined.md",
+      "destinationPath": "content/courses/red/level-1/en/red-level-1-combined-red-level-1-combined.md",
+      "title": "Red-Level-1-Combined",
+      "track": "red",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_0743fe00-3289-4357-a1bc-51d463a08928",
+      "uploadTimestamp": "2026-08-02T07:03:29.008Z",
+      "checksum": "sha256:e0d5474d1cf50a550b76f0a0c9fbaf198beeffe5ac0896bf711db8b525fbf44e",
+      "curriculumAssetId": null
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0
+}
