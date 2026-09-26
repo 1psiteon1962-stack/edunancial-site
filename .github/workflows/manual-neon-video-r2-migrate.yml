@@ -1,0 +1,42 @@
+name: Manual Neon Video R2 Migrate
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: Type APPLY-VIDEO-R2-MIGRATION to continue
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: neon-video-r2-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    if: ${{ inputs.confirm == 'APPLY-VIDEO-R2-MIGRATION' }}
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate database secret
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$DATABASE_URL" || { echo "DATABASE_URL is missing"; exit 1; }
+
+      - name: Install PostgreSQL client
+        shell: bash
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+
+      - name: Apply Video Maker R2 migration
+        shell: bash
+        run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
