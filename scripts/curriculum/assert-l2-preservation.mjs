@@ -22,6 +22,28 @@ for (const color of colors) {
   if (canonical < 50 && legacyIds < 50) failures.push(`${color} L2 English: canonical=${canonical}, legacy unique IDs=${legacyIds}`);
 }
 
+// Protect every completed Level 2 locale set, not just two historical RED
+// records. A completed set is 50 direct locale JSON records. Once present it
+// becomes a preservation invariant and may not silently disappear.
+const locales = ["en-gb","es-es","es-caribbean","fr-fr","fr-ca","it","de","nl","pt-pt","pt-br"];
+for (const color of colors) {
+  for (const locale of locales) {
+    const dir = path.join(root,"content","courses",color.toLowerCase(),"level-2",locale);
+    if (!fs.existsSync(dir)) continue;
+    const ids = new Set();
+    for (const file of fs.readdirSync(dir)) {
+      if (!file.endsWith(".json")) continue;
+      try {
+        const row = JSON.parse(fs.readFileSync(path.join(dir,file),"utf8"));
+        const id = String(row.id ?? "").toUpperCase();
+        const rowLocale = String(row.locale ?? "").toLowerCase().replaceAll("_","-");
+        if (id.startsWith(color+"-L2-") && rowLocale === locale && row.title && row.body) ids.add(id);
+      } catch {}
+    }
+    if (ids.size > 0 && ids.size !== 50) failures.push(`${color} L2 ${locale}: incomplete committed set ${ids.size}/50`);
+  }
+}
+
 for (const n of ["001","002"]) {
   const p = `content/courses/red/level-2/en/red-l2-batch-red-level-2-red-l2-${n}-translations.json`;
   if (!exists(p)) { failures.push(`Missing protected RED-L2-${n} translation JSON`); continue; }
