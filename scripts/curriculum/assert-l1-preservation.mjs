@@ -3,7 +3,7 @@ import { basename, join } from "node:path";
 
 const ROOT = process.cwd();
 const TRACKS = ["RED","WHITE","BLUE","GOLD","PURPLE","ORANGE","BLACK"];
-const LOCALES = ["en","es-ES","es-Caribbean","fr-FR","fr-CA","it","de","nl","pt-PT","pt-BR"];
+const LOCALES = ["en","en-GB","es-ES","es-Caribbean","fr-FR","fr-CA","it","de","nl","pt-PT","pt-BR"];
 const GREEN_REQUIRED = ["en","es-ES","es-Caribbean","fr-CA"];
 
 function walk(dir, files = []) {
