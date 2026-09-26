@@ -61,14 +61,27 @@ function collectJsonTranslationVariants() {
       }
 
       const id = String(parsed.id || parsed.lesson_id || parsed.lessonId || '').toUpperCase();
-      if (!id || !assetById.has(id) || !parsed.translations || typeof parsed.translations !== 'object') continue;
+      if (!id || !assetById.has(id)) continue;
 
       const relativePath = relative(process.cwd(), absolutePath);
       const list = variantsById.get(id) || [];
-      for (const locale of Object.keys(parsed.translations)) {
-        list.push({ locale, path: relativePath, source: 'json' });
+
+      // Legacy records keep many locales under a translations map.
+      if (parsed.translations && typeof parsed.translations === 'object') {
+        for (const [locale, value] of Object.entries(parsed.translations)) {
+          if (value && typeof value === 'object' && String(value.title ?? '').trim() && String(value.body ?? '').trim()) {
+            list.push({ locale, path: relativePath, source: 'json' });
+          }
+        }
       }
-      variantsById.set(id, list);
+
+      // Current bulk-upload records are one locale per JSON document.
+      const directLocale = String(parsed.locale || '').trim();
+      if (directLocale && String(parsed.title || '').trim() && String(parsed.body || '').trim()) {
+        list.push({ locale: directLocale, path: relativePath, source: 'json' });
+      }
+
+      if (list.length) variantsById.set(id, list);
     }
   }
 

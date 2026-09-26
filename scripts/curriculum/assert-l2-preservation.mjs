@@ -28,22 +28,42 @@ for (const color of colors) {
 const locales = ["en-gb","es-es","es-caribbean","fr-fr","fr-ca","it","de","nl","pt-pt","pt-br"];
 for (const color of colors) {
   for (const locale of locales) {
-    const dir = path.join(root,"content","courses",color.toLowerCase(),"level-2",locale);
-    if (!fs.existsSync(dir)) continue;
     const ids = new Set();
-    for (const file of fs.readdirSync(dir)) {
-      if (!file.endsWith(".json")) continue;
-      try {
-        const row = JSON.parse(fs.readFileSync(path.join(dir,file),"utf8"));
-        const id = String(row.id ?? "").toUpperCase();
-        const rowLocale = String(row.locale ?? "").toLowerCase().replaceAll("_","-");
-        if (id.startsWith(color+"-L2-") && rowLocale === locale && row.title && row.body) ids.add(id);
-      } catch {}
+    const dir = path.join(root,"content","courses",color.toLowerCase(),"level-2",locale);
+    if (fs.existsSync(dir)) {
+      for (const file of fs.readdirSync(dir)) {
+        if (!file.endsWith(".json")) continue;
+        try {
+          const row = JSON.parse(fs.readFileSync(path.join(dir,file),"utf8"));
+          const id = String(row.id ?? "").toUpperCase();
+          const rowLocale = String(row.locale ?? "").toLowerCase().replaceAll("_","-");
+          if (id.startsWith(color+"-L2-") && rowLocale === locale && row.title && row.body) ids.add(id);
+        } catch {}
+      }
     }
-    // A partial set may legitimately be work in progress. Once a locale reaches
-    // 50, the baseline comparison below prevents regression; do not block builds
-    // merely because another locale is still being completed.
-    if (ids.size > 50) failures.push(`${color} L2 ${locale}: unexpected committed set ${ids.size}/50`);
+    // RED uses an older per-lesson JSON record whose translations map contains
+    // multiple locales. Count those records too so preservation follows content,
+    // not a storage-era convention.
+    const legacyDir = path.join(root,"content","courses",color.toLowerCase(),"level-2","en");
+    if (fs.existsSync(legacyDir)) {
+      for (const file of fs.readdirSync(legacyDir)) {
+        if (!file.endsWith(".json")) continue;
+        try {
+          const row = JSON.parse(fs.readFileSync(path.join(legacyDir,file),"utf8"));
+          const id = String(row.id ?? row.lesson_id ?? row.lessonId ?? "").toUpperCase();
+          if (!id.startsWith(color+"-L2-")) continue;
+          const hit = Object.entries(row.translations ?? {}).find(([key,value]) =>
+            String(key).toLowerCase().replaceAll("_","-") === locale &&
+            value && typeof value === "object" && String(value.title ?? "").trim() && String(value.body ?? "").trim()
+          );
+          if (hit) ids.add(id);
+        } catch {}
+      }
+    }
+    // Every non-English L2 set is now expected to be complete. This turns the
+    // current recovered state into a build invariant rather than allowing a
+    // completed locale to silently fall back to a partial set.
+    if (ids.size !== 50) failures.push(`${color} L2 ${locale}: ${ids.size}/50`);
   }
 }
 
@@ -59,7 +79,7 @@ for (const n of ["001","002"]) {
 }
 
 if (failures.length) {
-  console.error("Level 2 preservation gate FAILED:\n"+failures.map(x=>" - "+x).join("\n"));
+  console.error("Level 2 preservation gate FAILED:\\n"+failures.map(x=>" - "+x).join("\\n"));
   process.exit(1);
 }
-console.log("Level 2 preservation gate passed: 8 English 50-lesson sets and RED L2 001-002 translations are protected.");
+console.log("Level 2 preservation gate passed: all 8 English sets and every protected L2 locale retain 50 lessons.");
