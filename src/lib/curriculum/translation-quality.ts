@@ -16,11 +16,12 @@ export function isLearnerReadyTranslation(
   const body = translation?.body?.trim();
   if (!body) return false;
 
-  if (lesson.level !== 2) return true;\n\n  if (/^Localized curriculum content for\b/iu.test(body)) return false;
+  if (lesson.level !== 2) return true;
+
+  if (/^Localized curriculum content for\b/iu.test(body)) return false;
 
   const canonicalBody = lesson.body.trim();
   if (
-    lesson.level === 2 &&
     canonicalBody.length >= 2000 &&
     body.length < 1500 &&
     body.length < canonicalBody.length * 0.5
