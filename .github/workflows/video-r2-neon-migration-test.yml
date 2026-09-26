@@ -1,0 +1,55 @@
+name: Video R2 Neon Migration Test
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "db/neon/20260926_video_maker_r2.sql"
+      - ".github/workflows/video-r2-neon-migration-test.yml"
+  workflow_dispatch:
+
+jobs:
+  migration-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: edunancial_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d edunancial_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      PGPASSWORD: postgres
+      DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/edunancial_test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply clean migration
+        run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
+      - name: Apply migration a second time
+        run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
+      - name: Verify Video R2 tables and functions
+        run: |
+          test "$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name like 'video_r2_%';")" = "5"
+          test "$(psql "$DATABASE_URL" -Atc "select count(*) from pg_proc where pronamespace='public'::regnamespace and proname in ('video_r2_claim_job','video_r2_heartbeat','video_r2_complete_job','video_r2_fail_job');")" = "4"
+      - name: Verify queue lease lifecycle
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into video_r2_projects (title, owner_email) values ('CI project','ci@example.com');
+          insert into video_r2_jobs (project_id, locale, output_profile, composition, composition_hash, idempotency_key, created_by)
+          select id, 'en-US', 'vertical_1080x1920', '{}'::jsonb, 'ci-hash', 'ci-key', 'ci@example.com' from video_r2_projects limit 1;
+          select * from video_r2_claim_job(null, 'ci-worker');
+          do $$
+          declare j video_r2_jobs%rowtype; ok boolean;
+          begin
+            select * into j from video_r2_jobs limit 1;
+            if j.status <> 'processing' or j.lease_token is null then raise exception 'claim failed'; end if;
+            select video_r2_heartbeat(j.id,j.lease_token) into ok;
+            if ok is distinct from true then raise exception 'heartbeat failed'; end if;
+          end $$;
+          SQL
