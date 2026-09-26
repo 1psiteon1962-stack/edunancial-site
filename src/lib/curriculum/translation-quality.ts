@@ -3,20 +3,20 @@ import type { PublishedLessonRecord, PublishedLessonTranslation } from "@/lib/cu
 /**
  * Transitional learner-safety classifier.
  *
- * The recovered Level 2 locale corpus contains short template/placeholder
- * records that must not outrank the complete canonical lesson. This guard is
- * intentionally conservative and read-only: it does not delete or rewrite
- * any source content. The compiled curriculum architecture will replace this
- * heuristic with explicit quality status in the normalized LessonRecord.
+ * Phase 0 classifies only the recovered Level 2 locale corpus. Existing
+ * localization behavior for every other level remains unchanged, including
+ * valid partial translations whose missing fields fall back to English.
  */
 export function isLearnerReadyTranslation(
   lesson: PublishedLessonRecord,
   translation: PublishedLessonTranslation | undefined,
 ): translation is PublishedLessonTranslation {
-  const body = translation?.body?.trim();
-  if (!body) return false;
+  if (!translation) return false;
 
   if (lesson.level !== 2) return true;
+
+  const body = translation.body?.trim();
+  if (!body) return false;
 
   if (/^Localized curriculum content for\b/iu.test(body)) return false;
 
