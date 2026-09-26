@@ -8,6 +8,7 @@ export type LanguageDefinition = {
 export const LANGUAGE_CATALOG: readonly LanguageDefinition[] = [
   { code: "en-US", label: "English (United States)", nativeLabel: "English (United States)", rtl: false },
   { code: "en-GB", label: "English (United Kingdom)", nativeLabel: "English (United Kingdom)", rtl: false },
+  { code: "es-419", label: "Spanish (Latin America)", nativeLabel: "Español (Latinoamérica)", rtl: false },
   { code: "es-Caribbean", label: "Spanish (Caribbean)", nativeLabel: "Español (Caribe)", rtl: false },
   { code: "es-ES", label: "Spanish (Spain)", nativeLabel: "Español (España)", rtl: false },
   { code: "fr-CA", label: "French (Canada)", nativeLabel: "Français (Canada)", rtl: false },
@@ -30,6 +31,7 @@ export const LANGUAGE_ALIAS_MAP: Record<string, string> = {
   "pt-br": "pt-BR",
   "pt-pt": "pt-PT",
   "es-caribbean": "es-Caribbean",
+  "es-419": "es-419",
 };
 
 // Additional languages remain deferred until their curriculum and site localization are launch-ready.
