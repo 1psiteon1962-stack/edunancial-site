@@ -68,10 +68,32 @@ function parseLegacyTranslationJson(
   try {
     const parsed = JSON.parse(raw) as {
       id?: string;
+      locale?: string;
+      title?: string;
+      summary?: string;
+      body?: string;
       translations?: Record<string, PublishedLessonTranslation>;
     };
     if (parsed.id?.trim().toUpperCase() !== lessonId.trim().toUpperCase()) return null;
     const normalized = resolveCurriculumLocale(locale);
+
+    // Current L2 bulk translations are committed as one direct JSON record per
+    // lesson/locale (id + locale + title/summary/body), while older L1 records
+    // use a translations map. Support both permanently so a storage-format
+    // migration cannot make already committed curriculum disappear.
+    if (
+      parsed.locale &&
+      resolveCurriculumLocale(parsed.locale) === normalized &&
+      parsed.title?.trim() &&
+      parsed.body?.trim()
+    ) {
+      return {
+        title: parsed.title,
+        ...(parsed.summary?.trim() ? { summary: parsed.summary } : {}),
+        body: parsed.body,
+      };
+    }
+
     const candidates = [
       normalized,
       normalized.toLowerCase(),
