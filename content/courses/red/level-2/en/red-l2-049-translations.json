@@ -1,0 +1,45 @@
+{
+  "id": "RED-L2-049",
+  "translations": {
+    "en-GB": {
+      "title": "Building a Real Estate Decision Framework: Questions Before Acting",
+      "summary": "RED-L2-049: Building a Real Estate Decision Framework: Questions Before Acting.",
+      "body": "This RED Level 2 lesson develops practical competency in Building a Real Estate Decision Framework: Questions Before Acting. Learners should compare alternatives, test assumptions and downside scenarios, and consider financing, cash flow, equity, risk, tax, legal structure, time horizon and broader financial goals where relevant. Jurisdiction-specific lending, tax, insurance and legal rules should be verified with qualified local professionals. The objective is informed decision-making, not a recommendation of a particular property, financing method or investment strategy."
+    },
+    "es-ES": {
+      "title": "Construir un marco de decisión inmobiliaria: preguntas antes de actuar",
+      "summary": "RED-L2-049: Construir un marco de decisión inmobiliaria: preguntas antes de actuar.",
+      "body": "Esta lección de RED Nivel 2 desarrolla competencia práctica en Construir un marco de decisión inmobiliaria: preguntas antes de actuar. El alumno debe comparar alternativas, comprobar supuestos y escenarios adversos, y considerar financiación, flujo de caja, patrimonio, riesgo, fiscalidad, estructura jurídica, horizonte temporal y objetivos financieros cuando corresponda. Las normas locales de crédito, impuestos, seguros y derecho deben verificarse con profesionales cualificados. El objetivo es tomar decisiones informadas, no recomendar una propiedad, financiación o estrategia de inversión concreta."
+    },
+    "es-Caribbean": {
+      "title": "Crear un marco de decisión para bienes raíces: preguntas antes de actuar",
+      "summary": "RED-L2-049: Crear un marco de decisión para bienes raíces: preguntas antes de actuar.",
+      "body": "Esta lección de RED Nivel 2 desarrolla competencia práctica en Crear un marco de decisión para bienes raíces: preguntas antes de actuar. El estudiante debe comparar alternativas, poner a prueba sus supuestos y escenarios de riesgo, y considerar financiamiento, flujo de efectivo, patrimonio, riesgo, impuestos, estructura legal, horizonte de tiempo y metas financieras cuando aplique. Las reglas locales de crédito, impuestos, seguros y asuntos legales deben verificarse con profesionales calificados. El objetivo es tomar decisiones informadas, no recomendar una propiedad, método de financiamiento o estrategia de inversión específica."
+    },
+    "fr-FR": {
+      "title": "Construire un cadre de décision immobilière : questions avant d’agir",
+      "summary": "RED-L2-049: Construire un cadre de décision immobilière : questions avant d’agir.",
+      "body": "Cette leçon RED Niveau 2 développe une compétence pratique sur Construire un cadre de décision immobilière : questions avant d’agir. L’apprenant doit comparer les options, tester ses hypothèses et les scénarios défavorables, et tenir compte du financement, des flux de trésorerie, des fonds propres, du risque, de la fiscalité, de la structure juridique, de l’horizon temporel et des objectifs financiers lorsque cela s’applique. Les règles locales doivent être vérifiées auprès de professionnels qualifiés. L’objectif est une décision éclairée, non la recommandation d’un bien ou d’une stratégie particulière."
+    },
+    "fr-CA": {
+      "title": "Bâtir un cadre de décision immobilière : questions avant d’agir",
+      "summary": "RED-L2-049: Bâtir un cadre de décision immobilière : questions avant d’agir.",
+      "body": "Cette leçon RED Niveau 2 développe une compétence pratique sur Bâtir un cadre de décision immobilière : questions avant d’agir. L’apprenant doit comparer les options, mettre à l’épreuve ses hypothèses et les scénarios défavorables, puis considérer le financement, les flux de trésorerie, l’avoir, le risque, la fiscalité, la structure juridique, l’horizon et les objectifs financiers lorsque pertinent. Les règles locales de prêt, d’impôt, d’assurance et de droit doivent être validées avec des professionnels qualifiés. L’objectif est une prise de décision éclairée, et non une recommandation particulière."
+    },
+    "it": {
+      "title": "Costruire un quadro decisionale immobiliare: domande prima di agire",
+      "summary": "RED-L2-049: Costruire un quadro decisionale immobiliare: domande prima di agire.",
+      "body": "Questa lezione RED Livello 2 sviluppa competenze pratiche su Costruire un quadro decisionale immobiliare: domande prima di agire. Lo studente deve confrontare le alternative, verificare ipotesi e scenari negativi e considerare finanziamento, flusso di cassa, patrimonio, rischio, fiscalità, struttura legale, orizzonte temporale e obiettivi finanziari quando pertinenti. Le regole locali su credito, imposte, assicurazioni e diritto vanno verificate con professionisti qualificati. L’obiettivo è prendere decisioni informate, non raccomandare uno specifico immobile o una strategia."
+    },
+    "de": {
+      "title": "Einen Entscheidungsrahmen für Immobilien aufbauen: Fragen vor dem Handeln",
+      "summary": "RED-L2-049: Einen Entscheidungsrahmen für Immobilien aufbauen: Fragen vor dem Handeln.",
+      "body": "Diese RED-Level-2-Lektion entwickelt praktische Kompetenz zu Einen Entscheidungsrahmen für Immobilien aufbauen: Fragen vor dem Handeln. Lernende sollen Alternativen vergleichen, Annahmen und Negativszenarien prüfen und – soweit relevant – Finanzierung, Cashflow, Eigenkapital, Risiko, Steuern, Rechtsstruktur, Zeithorizont und finanzielle Ziele berücksichtigen. Örtliche Kredit-, Steuer-, Versicherungs- und Rechtsvorschriften sind mit qualifizierten Fachleuten zu prüfen. Ziel ist eine fundierte Entscheidung, nicht die Empfehlung einer bestimmten Immobilie, Finanzierung oder Anlagestrategie."
+    },
+    "nl": {
+      "title": "Een besliskader voor vastgoed opbouwen: vragen vóór actie",
+      "summary": "RED-L2-049: Een besliskader voor vastgoed opbouwen: vragen vóór actie.",
+      "body": "Deze RED-niveau-2-les ontwikkelt praktische vaardigheid in Een besliskader voor vastgoed opbouwen: vragen vóór actie. De leerling vergelijkt alternatieven, toetst aannames en negatieve scenario’s en betrekt waar relevant financiering, kasstroom, eigen vermogen, risico, belastingen, juridische structuur, tijdshorizon en financiële doelen. Lokale regels voor krediet, belastingen, verzekeringen en recht moeten met gekwalificeerde professionals worden gecontroleerd. Het doel is geïnformeerde besluitvorming, niet het aanbevelen van een specifieke woning, financiering of beleggingsstrategie."
+    }
+  }
+}
