@@ -35,7 +35,7 @@ async function readPublishedState(){const rows=await readAtomicPublishedLessons(
 async function writeLegacy(s:PublishedCurriculumState){await getAdminContentStorage().saveBinary(PUBLISHED_STATE_PATH,Buffer.from(`${JSON.stringify(s,null,2)}\n`),"application/json")}
 function parseFM(raw:string){
   if(!raw.startsWith("---")){
-    const lines=raw.split(/\\r?\\n/u);
+    const lines=raw.split(/\r?\n/u);
     const labels:Record<string,string>={"Filename":"filename","Folder":"folder","Title":"title","Meta Description":"summary","SEO Keywords":"seoKeywords","Slug":"slug"};
     const frontMatter:Record<string,string>={};
     let index=0, recognized=0;
@@ -49,7 +49,7 @@ function parseFM(raw:string){
       frontMatter[key]=line.slice(colon+1).trim();
       recognized++; index++;
     }
-    if(recognized>=3)return{frontMatter,body:lines.slice(index).join("\\n").trim()};
+    if(recognized>=3)return{frontMatter,body:lines.slice(index).join("\n").trim()};
     return{frontMatter:{} as Record<string,string>,body:raw.trim()};
   }const p=raw.split("---");if(p.length<3)return{frontMatter:{} as Record<string,string>,body:raw.trim()};const f:Record<string,string>={};for(const line of(p[1]??"").split(/\r?\n/u)){const i=line.indexOf(":");if(i>=0){const k=line.slice(0,i).trim();if(k)f[k]=line.slice(i+1).trim()}}return{frontMatter:f,body:p.slice(2).join("---").trim()}}
 function trackName(t:string,f:string){return getLocalizedTrackCopy(t,"en")?.name||f||ACADEMY_MAP.get(t)?.name||t}
