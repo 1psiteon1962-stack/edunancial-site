@@ -458,7 +458,15 @@ function loadFileState() {
     return createDefaultCmsState();
   }
 
-  const parsed = JSON.parse(readFileSync(STORE_PATH, "utf8"));
+  const raw = readFileSync(STORE_PATH, "utf8").trim();
+  if (!raw) return createDefaultCmsState();
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (error) {
+    console.warn(`[cms] Ignoring invalid state file at ${STORE_PATH}; starting from default state.`, error);
+    return createDefaultCmsState();
+  }
   return {
     ...createDefaultCmsState(),
     ...parsed,

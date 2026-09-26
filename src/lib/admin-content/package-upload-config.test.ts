@@ -51,6 +51,29 @@ describe("per-package curriculum identity", () => {
     );
   });
 
+  test("classifies mixed colors, levels, and locales in one bulk upload without cross-package inheritance", () => {
+    const filenames = [
+      "RED-level-3-Real-Estate-en-US.zip",
+      "WHITE-level-4-Paper-Assets-de.zip",
+      "BLUE-level-5-Business-pt-BR.zip",
+      "GOLD-level-2-Investing-fr-FR.zip",
+      "ORANGE-level-1-Sales-es-Caribbean.zip",
+    ];
+    assert.deepEqual(
+      filenames.map((filename) => {
+        const { track, level, language } = inferCurriculumPackageIdentity(filename);
+        return { track, level, language };
+      }),
+      [
+        { track: "red", level: "level-3", language: "en-US" },
+        { track: "white", level: "level-4", language: "de" },
+        { track: "blue", level: "level-5", language: "pt-BR" },
+        { track: "gold", level: "level-2", language: "fr-FR" },
+        { track: "orange", level: "level-1", language: "es-Caribbean" },
+      ],
+    );
+  });
+
   test("uses the explicit default language for canonical curriculum filenames", () => {
     const resolved = resolvePackageUploadConfig(baseConfig, "RED-L1-001.md") as CourseUploadConfig;
     assert.deepEqual(

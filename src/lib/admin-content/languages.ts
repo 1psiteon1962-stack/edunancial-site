@@ -22,6 +22,7 @@ export const ADMIN_CONTENT_LANGUAGES = [
   "de",
   "it",
   "nl",
+  "ht",
 ] as const;
 
 export type AdminContentLanguage = (typeof ADMIN_CONTENT_LANGUAGES)[number];
