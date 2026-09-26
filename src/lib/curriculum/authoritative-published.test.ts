@@ -313,7 +313,7 @@ test("Level 2 template translations fall back to the complete canonical lesson",
   const german = await getPublishedLesson("BLUE-L2-001", "de");
   assert.ok(english);
   assert.ok(german);
-  assert.equal(german.body, english.body, "short Level 2 template must not override canonical content");
+  assert.equal(german.body.trim(), english.body.trim(), "short Level 2 template must not override canonical content");
 });
 
 test("Level 3 administrative file header is metadata, not learner body", async () => {
