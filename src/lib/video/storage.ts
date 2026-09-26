@@ -5,7 +5,7 @@ export type VideoStorageConfig = {
   secretAccessKey: string;
 };
 
-export function readVideoStorageConfig(env: NodeJS.ProcessEnv = process.env): VideoStorageConfig | null {
+export function readVideoStorageConfig(env: Readonly<Record<string, string | undefined>> = process.env): VideoStorageConfig | null {
   const endpoint = env.VIDEO_R2_ENDPOINT?.trim();
   const bucket = env.VIDEO_R2_BUCKET?.trim();
   const accessKeyId = env.VIDEO_R2_ACCESS_KEY_ID?.trim();
@@ -14,7 +14,7 @@ export function readVideoStorageConfig(env: NodeJS.ProcessEnv = process.env): Vi
   return { endpoint, bucket, accessKeyId, secretAccessKey };
 }
 
-export function requireVideoStorageConfig(env: NodeJS.ProcessEnv = process.env): VideoStorageConfig {
+export function requireVideoStorageConfig(env: Readonly<Record<string, string | undefined>> = process.env): VideoStorageConfig {
   const config = readVideoStorageConfig(env);
   if (!config) throw new Error("Video R2 storage is not configured.");
   return config;
