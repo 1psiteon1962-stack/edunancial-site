@@ -11,6 +11,7 @@ export const ADMIN_CONTENT_LANGUAGES = [
   "en-US",
   "en-GB",
   "es",
+  "es-419",
   "es-Caribbean",
   "es-ES",
   "fr",
