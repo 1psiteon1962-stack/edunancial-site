@@ -6,7 +6,7 @@ import type { ActorContext, UploadBatch } from "@/lib/admin-content/types";
 
 const TRUSTED_TRACKS = new Set(["red", "white", "blue", "green", "gold", "purple", "orange", "black"]);
 const CANONICAL_ENGLISH = new Set(["en", "en-US"]);
-const TRUSTED_LEVELS = new Set(["level-2", "level-3"]);
+const TRUSTED_LEVELS = new Set(["level-1", "level-2", "level-3", "level-4", "level-5"]);
 
 export function isTrustedCanonicalCurriculumIdentity(identity: PackageIdentity | null): boolean {
   return Boolean(identity && TRUSTED_TRACKS.has(identity.track) && TRUSTED_LEVELS.has(identity.level) && CANONICAL_ENGLISH.has(identity.language));
@@ -15,7 +15,9 @@ export function isTrustedCanonicalCurriculumIdentity(identity: PackageIdentity |
 function lessonNumberForPackage(file: UploadBatch["files"][number], identity: PackageIdentity): number | null {
   if (file.extension !== ".md") return null;
   const track = identity.track.toUpperCase();
-  const level = identity.level === "level-2" ? "L2" : "L3";
+  const levelMatch = identity.level.match(/^level-([1-5])$/u);
+  if (!levelMatch) return null;
+  const level = `L${levelMatch[1]}`;
   const pattern = new RegExp(`^${track}-${level}-(\\d{3})(?:[.-]|$)`, "u");
   const archivePattern = new RegExp(`(?:^|/)${track}-${level}-(\\d{3})(?:[.-]|$)`, "u");
   const match = file.originalFilename.toUpperCase().match(pattern) ?? file.normalizedFilename.toUpperCase().match(pattern) ?? file.archivePath?.toUpperCase().match(archivePattern);
