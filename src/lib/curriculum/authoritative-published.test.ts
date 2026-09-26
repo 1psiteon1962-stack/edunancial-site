@@ -116,9 +116,10 @@ test("diagnostic lesson discovery recurses across Level 2 and Level 3 production
   assert.ok(blackLevel3.matchedLessonsInEffectiveState.some((lesson) => lesson.id === "BLACK-L3-001"));
 });
 
-test("unrelated registry-only lessons are hidden without the legacy flag", async () => {
+test("committed registry lessons remain visible without a legacy flag", async () => {
   const lesson = await getPublishedLesson("GOLD-L1-001", "en");
-  assert.equal(lesson, null);
+  assert.ok(lesson);
+  assert.equal(lesson.id, "GOLD-L1-001");
 });
 
 test("enabling legacy flag hydrates all active registry lessons", async () => {
