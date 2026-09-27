@@ -4,14 +4,14 @@
     "name": "Recovered red-l3.zip",
     "slug": "recovered-red-l3-zip",
     "source": "Recovered from stored upload batch batch_cb1ba190-58e1-4369-9436-424f5160ee36",
-    "status": "ready-for-review",
+    "status": "approved",
     "createdAt": "2026-09-27T23:52:40.457Z",
-    "updatedAt": "2026-09-27T23:52:41.602Z",
+    "updatedAt": "2026-09-27T23:52:44.060Z",
     "totalUploads": 1,
     "totalFiles": 50,
-    "approvedFiles": 0,
+    "approvedFiles": 50,
     "rejectedFiles": 0,
-    "pendingFiles": 50,
+    "pendingFiles": 0,
     "conflicts": 0
   },
   {
