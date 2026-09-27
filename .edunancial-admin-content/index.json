@@ -4,14 +4,14 @@
     "name": "Content Upload 2026-09-27 — WHITE-L3.zip",
     "slug": "content-upload-2026-09-27-white-l3-zip",
     "source": "Admin dashboard",
-    "status": "ready-for-review",
+    "status": "approved",
     "createdAt": "2026-09-27T23:09:34.047Z",
-    "updatedAt": "2026-09-27T23:09:35.082Z",
+    "updatedAt": "2026-09-27T23:09:37.116Z",
     "totalUploads": 1,
     "totalFiles": 50,
-    "approvedFiles": 0,
+    "approvedFiles": 50,
     "rejectedFiles": 0,
-    "pendingFiles": 50,
+    "pendingFiles": 0,
     "conflicts": 0
   },
   {
