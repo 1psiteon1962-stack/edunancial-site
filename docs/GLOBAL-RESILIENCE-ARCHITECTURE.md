@@ -29,3 +29,21 @@ A region moves inactive -> pilot -> active only after configuration validation f
 
 ## Launch posture
 North America (US/Canada) is the first active region. Latin America and Caribbean can be prepared next. Europe, Africa, Middle East and Asia Pacific remain independently configurable and inactive until approved.
+
+
+## Canonical regional identity
+There must be one region identity model across detection, pricing, payments, compliance, content and marketing. Legacy split identifiers such as `europe-2a`, `europe-2b`, `latin-america-2a`, `latin-america-2b`, `asia` and `oceania` must not become a second control plane. Country-level differences belong in country/market configuration beneath the canonical global region.
+
+Canonical region keys:
+- north-america
+- latin-america
+- caribbean
+- europe
+- africa
+- middle-east
+- asia-pacific
+
+Runtime code must not silently substitute North America when an explicit but unknown region identifier is supplied. Unknown/invalid explicit region configuration is an error or unavailable-region state. North America is only the default when no usable regional signal exists at all.
+
+## Migration rule
+The existing compile-time regional maps are compatibility inputs during migration, not the permanent source of truth. The database regional control plane becomes authoritative after its runtime read path, validation, health checks and rollback are proven. No destructive removal of the legacy maps occurs before parity tests pass.
