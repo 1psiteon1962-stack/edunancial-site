@@ -1,4 +1,4 @@
-import { HeadObjectCommand, S3Client, type S3ClientConfig } from "@aws-sdk/client-s3";
+import { GetObjectCommand, HeadObjectCommand, PutObjectCommand, S3Client, type S3ClientConfig } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { requireVideoStorageConfig, type VideoStorageConfig } from "./storage";
 
@@ -9,6 +9,13 @@ export function createVideoStorageClient(config: VideoStorageConfig = requireVid
     credentials: { accessKeyId: config.accessKeyId, secretAccessKey: config.secretAccessKey },
   };
   return new S3Client(options);
+}
+
+function requireVideoSignedUrlExpiry(expiresIn: number): number {
+  if (!Number.isInteger(expiresIn) || expiresIn < 60 || expiresIn > 3600) {
+    throw new Error("Video signed URL expiry must be between 60 and 3600 seconds.");
+  }
+  return expiresIn;
 }
 
 export async function verifyVideoObject(
@@ -23,11 +30,29 @@ export async function verifyVideoObject(
   return { byteSize, contentType: result.ContentType, etag: result.ETag };
 }
 
-export async function presignVideoCommand(
-  command: Parameters<typeof getSignedUrl>[1],
+export async function presignVideoUpload(
+  key: string,
+  contentType: string,
   expiresIn = 900,
   client: S3Client = createVideoStorageClient(),
+  config: VideoStorageConfig = requireVideoStorageConfig(),
 ): Promise<string> {
-  if (!Number.isInteger(expiresIn) || expiresIn < 60 || expiresIn > 3600) throw new Error("Video signed URL expiry must be between 60 and 3600 seconds.");
-  return getSignedUrl(client, command, { expiresIn });
+  return getSignedUrl(
+    client,
+    new PutObjectCommand({ Bucket: config.bucket, Key: key, ContentType: contentType }),
+    { expiresIn: requireVideoSignedUrlExpiry(expiresIn) },
+  );
+}
+
+export async function presignVideoDownload(
+  key: string,
+  expiresIn = 900,
+  client: S3Client = createVideoStorageClient(),
+  config: VideoStorageConfig = requireVideoStorageConfig(),
+): Promise<string> {
+  return getSignedUrl(
+    client,
+    new GetObjectCommand({ Bucket: config.bucket, Key: key }),
+    { expiresIn: requireVideoSignedUrlExpiry(expiresIn) },
+  );
 }
