@@ -12,13 +12,13 @@ const config: VideoStorageConfig = {
 
 test("presigns direct R2 upload without proxying bytes through the app", async () => {
   const url = await presignVideoUpload("v1/projects/p/sources/a.mp4", "video/mp4", 900, undefined, config);
-  assert.match(url, /^https:\/\/example\.r2\.cloudflarestorage\.com\/edunancial-video\/v1\/projects\/p\/sources\/a\.mp4\?/u);
+  assert.match(url, /^https:\/\/edunancial-video\.example\.r2\.cloudflarestorage\.com\/v1\/projects\/p\/sources\/a\.mp4\?/u);
   assert.match(url, /X-Amz-Signature=/u);
 });
 
 test("presigns direct R2 download", async () => {
   const url = await presignVideoDownload("v1/renders/j/t/master.mp4", 900, undefined, config);
-  assert.match(url, /^https:\/\/example\.r2\.cloudflarestorage\.com\/edunancial-video\/v1\/renders\/j\/t\/master\.mp4\?/u);
+  assert.match(url, /^https:\/\/edunancial-video\.example\.r2\.cloudflarestorage\.com\/v1\/renders\/j\/t\/master\.mp4\?/u);
   assert.match(url, /X-Amz-Signature=/u);
 });
 
