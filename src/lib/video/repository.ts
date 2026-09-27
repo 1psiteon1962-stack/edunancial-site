@@ -109,3 +109,67 @@ export async function listVideoR2Jobs(projectId: string, ownerEmail: string) {
     order by j.created_at desc
   `;
 }
+
+
+export type VideoR2UploadAssetKind = "source_video" | "source_image" | "narration" | "music";
+
+export type VideoR2PendingAssetInput = {
+  id: string;
+  projectId: string;
+  ownerEmail: string;
+  kind: VideoR2UploadAssetKind;
+  storageKey: string;
+  mimeType: string;
+  byteSize: number;
+  locale?: string | null;
+  originalFilename?: string | null;
+};
+
+export async function createVideoR2PendingAsset(input: VideoR2PendingAssetInput) {
+  const sql = requireSql();
+  const rows = await sql`
+    insert into video_r2_assets
+      (id, project_id, kind, storage_key, status, mime_type, byte_size, locale, original_filename)
+    select
+      ${input.id}::uuid, p.id, ${input.kind}, ${input.storageKey}, 'pending_upload',
+      ${input.mimeType}, ${input.byteSize}, ${input.locale ?? null}, ${input.originalFilename ?? null}
+    from video_r2_projects p
+    where p.id = ${input.projectId}::uuid and p.owner_email = ${input.ownerEmail}
+    returning *
+  `;
+  return rows[0] ?? null;
+}
+
+export async function getVideoR2Asset(assetId: string, ownerEmail: string) {
+  const sql = requireSql();
+  const rows = await sql`
+    select a.*
+    from video_r2_assets a
+    join video_r2_projects p on p.id = a.project_id
+    where a.id = ${assetId}::uuid and p.owner_email = ${ownerEmail}
+    limit 1
+  `;
+  return rows[0] ?? null;
+}
+
+export async function markVideoR2AssetReady(
+  assetId: string,
+  ownerEmail: string,
+  verified: { byteSize: number; mimeType?: string; etag?: string },
+) {
+  const sql = requireSql();
+  const rows = await sql`
+    update video_r2_assets a
+    set status = 'ready',
+        byte_size = ${verified.byteSize},
+        mime_type = coalesce(${verified.mimeType ?? null}, a.mime_type),
+        verified_at = now()
+    from video_r2_projects p
+    where a.id = ${assetId}::uuid
+      and a.project_id = p.id
+      and p.owner_email = ${ownerEmail}
+      and a.status = 'pending_upload'
+    returning a.*
+  `;
+  return rows[0] ?? null;
+}
