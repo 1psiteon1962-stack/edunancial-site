@@ -4,9 +4,9 @@
   "slug": "recovered-red-l3-zip",
   "source": "Recovered from stored upload batch batch_cb1ba190-58e1-4369-9436-424f5160ee36",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-27T23:52:40.457Z",
-  "updatedAt": "2026-09-27T23:52:41.602Z",
+  "updatedAt": "2026-09-27T23:52:44.060Z",
   "uploads": [
     {
       "id": "upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1",
@@ -93,7 +93,7 @@
       "sizeBytes": 4250,
       "checksum": "sha256:dc6556b4f902969781cb82606fadad95cbfe2b74ba4aa49e50f62bc649cf7892",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 020.md Folder: /red/level 3/ Title: Why DSCR Loans Judge the Property, Not the Borrower Meta Description: Learn why Debt Service Coverage Ratio loans let real estate investors qualify based on a property's income instead of their personal pay stubs. SEO Keywords: DSCR loan, debt service coverage ratio, real estate investor financing, no income verification loan Slug: red l3 020 ds…",
@@ -130,9 +130,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.550Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_b5d6e66b-e3ad-4f6d-ab9a-88ae5329e694",
@@ -147,7 +147,7 @@
       "sizeBytes": 4962,
       "checksum": "sha256:e6cf59976d0face7c6e741461324f64bc7bb2ae4a61e602b3e91b82801aa6f59",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 008.md Folder: /red/level 3/ Title: Why Refinancing Can Be a Strategic Tool, Not Just a Rate Chase Meta Description: Learn why investors refinance for reasons beyond getting a lower rate — and why a cash out refinance can fund the next deal without selling the first one. SEO Keywords: cash out refinance, refinancing strategy, real estate leverage, pulling equity, BRRRR Slug: red l…",
@@ -184,9 +184,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.557Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_3f2e344d-705b-42be-9683-f1b715dc14d2",
@@ -201,7 +201,7 @@
       "sizeBytes": 3921,
       "checksum": "sha256:802367f1cf9acd2dd2a81b1f37b98ee0c13328476d13b7650359f574a026cadb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 018.md Folder: /red/level 3/ Title: Why Seller Financing Can Beat a Bank Loan in the Right Deal Meta Description: Learn why a property seller acting as the lender can sometimes offer better terms and more flexibility than a traditional mortgage. SEO Keywords: seller financing, owner financing, real estate creative financing, negotiated loan terms Slug: red l3 018 seller financing …",
@@ -238,9 +238,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.558Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_8a1c6d42-ebd4-4dc7-aa3e-b69ac7db577b",
@@ -255,7 +255,7 @@
       "sizeBytes": 5674,
       "checksum": "sha256:3ea67fb876c09cd2d2ee4b6485c0cdae951a88f41fd8cf1e176d602b521487c7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 009.md Folder: /red/level 3/ Title: Why the BRRRR Method Works (and Where It Breaks) Meta Description: Learn why Buy, Rehab, Rent, Refinance, Repeat lets investors recycle the same capital into multiple properties — and the specific point where the strategy can fail. SEO Keywords: BRRRR strategy, real estate investing, cash out refinance, forced appreciation, recycling capital Slu…",
@@ -292,9 +292,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.558Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_e81539d7-f6cb-40bc-9e97-ca7b12619927",
@@ -309,7 +309,7 @@
       "sizeBytes": 4105,
       "checksum": "sha256:4c3ece21f2efee072722e0836426873b3e27fd5c85f3fcbbe42ebf9f9463aa94",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 022.md Folder: /red/level 3/ Title: Why Balloon Payments Create a Hidden Deadline Meta Description: Learn why some loans require a large lump sum payment at the end of a short term, and why that deadline needs to be planned for years in advance. SEO Keywords: balloon payment, commercial loan term, real estate financing risk, loan maturity Slug: red l3 022 balloon payments Learning…",
@@ -346,9 +346,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.558Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_2ee3196d-6e59-42c2-a89f-90c66508ffb1",
@@ -363,7 +363,7 @@
       "sizeBytes": 3768,
       "checksum": "sha256:bc09e3ebef53fcd04e337ebf9f115055a98411ce036e6c24206b3d7c3d57161f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 011.md Folder: /red/level 3/ Title: Why Portfolio Lenders Think Differently Than Retail Banks Meta Description: Learn why lenders who keep loans on their own books evaluate deals differently than banks that sell loans to the secondary market. SEO Keywords: portfolio lender, secondary mortgage market, real estate financing, investment property loans Slug: red l3 011 portfolio lende…",
@@ -400,9 +400,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.559Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_418b3b3c-d684-4944-aaea-4f101ae9b1e7",
@@ -417,7 +417,7 @@
       "sizeBytes": 4362,
       "checksum": "sha256:0784736870f38912358afa56f0b7d278167340401fda2e9f0c6f838a9e227c40",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 027.md Folder: /red/level 3/ Title: Why Recourse vs. Non Recourse Debt Changes Your Risk Exposure Meta Description: Learn the difference between recourse and non recourse loans, and why that distinction determines what a lender can pursue if a loan defaults. SEO Keywords: recourse loan, non recourse loan, personal liability, real estate financing risk Slug: red l3 027 recourse vs …",
@@ -454,9 +454,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.559Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_c6a892df-be94-4aee-b2bd-d52ed7539286",
@@ -471,7 +471,7 @@
       "sizeBytes": 4090,
       "checksum": "sha256:a360451de9474973a3413bd26b884aadeeebf6d7721a7e5ff1c21e1163e3b8f3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 029.md Folder: /red/level 3/ Title: Why Loan Covenants Can Restrict What You Do With a Property Meta Description: Learn why some loans include ongoing conditions the borrower must maintain, and why violating them can trigger consequences beyond a missed payment. SEO Keywords: loan covenants, financial covenants, real estate loan terms, commercial loan conditions Slug: red l3 029 l…",
@@ -508,9 +508,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.560Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_2bf453fb-5896-49fe-9c71-aeec23ad4508",
@@ -525,7 +525,7 @@
       "sizeBytes": 5551,
       "checksum": "sha256:909fc66afbfbab3db85f36330bea147f05456c297fd9106e4c966306314b8707",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 002.md Folder: /red/level 3/ Title: Why Fiat Currency Changes the Math on Fixed Rate Debt Meta Description: Understand why paying back a fixed rate mortgage in fiat currency can quietly work in the borrower's favor over time — and why that only holds under certain conditions. SEO Keywords: fiat currency, inflation and debt, fixed rate mortgage, real estate leverage, borrower advan…",
@@ -562,9 +562,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.561Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_98f51e3b-45e4-46ac-b321-de9d8b1ad735",
@@ -579,7 +579,7 @@
       "sizeBytes": 4286,
       "checksum": "sha256:179acf6d61a48d21133cffbf9c00038cbccf6d153d2514ff93250a6b85f4aa1b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 013.md Folder: /red/level 3/ Title: Why Over Leveraging Kills Otherwise Good Investments Meta Description: Learn why a fundamentally sound property can still fail as an investment if too much debt is stacked on top of it. SEO Keywords: over leveraging, real estate risk, debt stacking, cash flow margin, investment failure Slug: red l3 013 over leveraging risk Learning Objectives By…",
@@ -616,9 +616,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.561Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_a7c502f8-f9e7-403f-b3c4-a35a08e69fb6",
@@ -633,7 +633,7 @@
       "sizeBytes": 4215,
       "checksum": "sha256:74411c77f09be61c2308b92d8473f574a71878ed477e261001b13d350f0c8eb0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 040.md Folder: /red/level 3/ Title: Why Stress Testing Debt Service Coverage Protects You Before a Downturn Meta Description: Learn how to stress test a property's DSCR against rising vacancy or falling rents before committing to a leveraged deal. SEO Keywords: DSCR stress test, real estate underwriting, downside scenario planning, vacancy stress test Slug: red l3 040 stress testi…",
@@ -670,9 +670,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.562Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_90196b46-e27f-492a-ba6f-a04f1f14bb6a",
@@ -687,7 +687,7 @@
       "sizeBytes": 4236,
       "checksum": "sha256:b159320a8bd71744925b5cf3c4b7c10b4db83d13489c80892fb7c94f8eae3f22",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 034.md Folder: /red/level 3/ Title: Why Depreciation and Debt Service Have to Be Modeled Together Meta Description: Learn why a property can show a tax loss on paper while still generating positive cash flow after the mortgage payment — and why that gap matters. SEO Keywords: real estate depreciation, tax loss, cash flow vs taxable income, debt service Slug: red l3 034 depreciatio…",
@@ -724,9 +724,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.562Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_5d25982f-0e95-4ee5-95fc-198c8f738ae3",
@@ -741,7 +741,7 @@
       "sizeBytes": 3794,
       "checksum": "sha256:3bce96da5e9d02e191e4f0ebee9fd0f092c579c68cdc1d1463d42e879388150c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 026.md Folder: /red/level 3/ Title: Why Rate Locks and Buydowns Are Timing Tools, Not Discounts Meta Description: Learn why locking a rate or paying points to buy it down are about managing timing risk, not getting a deal. SEO Keywords: rate lock, mortgage points, rate buydown, real estate financing timing Slug: red l3 026 rate locks and buydowns Learning Objectives By the end of …",
@@ -778,9 +778,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.563Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_340d4af7-2331-47e8-863b-107d4241d447",
@@ -795,7 +795,7 @@
       "sizeBytes": 3992,
       "checksum": "sha256:4b97b444c35a19b930a06902bf4065e12c77d82a05d3e38ecfa63cba6358fe0d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 035.md Folder: /red/level 3/ Title: Why Escrow Impounds Affect Your Real Monthly Cash Flow Meta Description: Learn why part of your mortgage payment might go into an escrow account for taxes and insurance, and why that changes your true monthly cash flow picture. SEO Keywords: escrow account, impound account, property taxes and insurance, mortgage payment breakdown Slug: red l3 03…",
@@ -832,9 +832,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.563Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_9971cafb-bf7f-4c26-a140-5f74eb3b0b11",
@@ -849,7 +849,7 @@
       "sizeBytes": 4399,
       "checksum": "sha256:418822248fee7c70a9da0f3057287e0c44b69f4da0fd9d01db8fa8b9d677885b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 024.md Folder: /red/level 3/ Title: Why Cap Rate and Mortgage Rate Have to Be Compared Together Meta Description: Learn why comparing a property's cap rate to its mortgage rate reveals whether leverage will help or hurt your return. SEO Keywords: cap rate, mortgage rate comparison, positive leverage, real estate return, net operating income Slug: red l3 024 cap rate vs mortgage ra…",
@@ -886,9 +886,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.563Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_6cfd008f-a691-4ec9-9406-e05f9c7d2dd1",
@@ -903,7 +903,7 @@
       "sizeBytes": 3948,
       "checksum": "sha256:7a54b249ba6ce5b5f59fcfca4f2e4418382eebaa68a1e1c5f0a08f028e4aed38",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 021.md Folder: /red/level 3/ Title: Why HELOCs Turn Home Equity into Leverage Meta Description: Learn how a Home Equity Line of Credit works, why it functions differently from a cash out refinance, and the risk it carries. SEO Keywords: HELOC, home equity line of credit, real estate leverage, revolving credit, equity access Slug: red l3 021 helocs and leverage Learning Objectives …",
@@ -940,9 +940,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.564Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_f01ae217-45b4-4681-a8c8-403507339295",
@@ -957,7 +957,7 @@
       "sizeBytes": 4553,
       "checksum": "sha256:e42432d07c9864541558d51fbbdc08d52075b8eba96196f87c166b292e705892",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 038.md Folder: /red/level 3/ Title: Why Understanding Foreclosure Mechanics Changes How You Underwrite Risk Meta Description: Learn the general stages a foreclosure moves through, and why understanding this process should shape how conservatively you leverage a deal. SEO Keywords: foreclosure process, mortgage default, real estate risk underwriting, lender remedies Slug: red l3 03…",
@@ -994,9 +994,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.564Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_c85336b0-be0b-4790-9ea1-429c7f605b57",
@@ -1011,7 +1011,7 @@
       "sizeBytes": 3937,
       "checksum": "sha256:593a463f22679db108dd47c3b0e0e0618a4522353b948c9cf8694816bfc129c9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 023.md Folder: /red/level 3/ Title: Why Prepayment Penalties Change Your Refinance Math Meta Description: Learn why some loans charge a fee for paying them off early, and why that fee needs to be factored into any refinance or sale decision. SEO Keywords: prepayment penalty, refinance cost, loan payoff fee, real estate financing terms Slug: red l3 023 prepayment penalties Learning…",
@@ -1048,9 +1048,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.577Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_b30e780f-6269-4170-9c8e-39b63b1cc92c",
@@ -1065,7 +1065,7 @@
       "sizeBytes": 4510,
       "checksum": "sha256:33cfeac03e7d7fb1e3c86dbdb15abc338406906096348fb730b8514f1bdf6778",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 045.md Folder: /red/level 3/ Title: Why Partnership and JV Debt Structures Split Risk Differently Meta Description: Learn why bringing in a partner changes how debt risk and liability get divided, and why that division needs to be spelled out in writing. SEO Keywords: real estate partnership, joint venture financing, shared liability, partnership agreement Slug: red l3 045 partner…",
@@ -1102,9 +1102,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.578Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_33df1e21-4cbf-4855-b0a7-aa6e7f6364b3",
@@ -1119,7 +1119,7 @@
       "sizeBytes": 6183,
       "checksum": "sha256:39a037049d2092da3edcf30d25e773a6ba609899d2d12600ebd5440890201e3f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 001.md Folder: /red/level 3/ Title: Why Debt Isn't Always Bad: Strategic vs. Consumer Debt Meta Description: Learn why not all debt is the same — and why the debt behind a rental property can build wealth while the debt on a credit card destroys it. SEO Keywords: strategic debt, consumer debt, real estate leverage, good debt vs bad debt, rental property financing Slug: red l3 001 …",
@@ -1156,9 +1156,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.579Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_61667fc1-d8bd-4384-9cee-6d6b06c29d81",
@@ -1173,7 +1173,7 @@
       "sizeBytes": 3961,
       "checksum": "sha256:7716adadce024cae5c91dc5da84ce9531b0ef1f0f6efa512461b31020ac03b40",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 030.md Folder: /red/level 3/ Title: Why Mezzanine Debt Sits Between Equity and a Mortgage Meta Description: Learn what mezzanine debt is, why it carries higher risk and cost than a first mortgage, and where it's typically used. SEO Keywords: mezzanine debt, capital stack, real estate financing layers, subordinate debt Slug: red l3 030 mezzanine debt Learning Objectives By the end …",
@@ -1210,9 +1210,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.579Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_b21b2bd8-452d-4d35-a8ca-71258011d3be",
@@ -1227,7 +1227,7 @@
       "sizeBytes": 4520,
       "checksum": "sha256:788ae2bfd4a3d56f3613f171485efd752ccedf92a7d85fcc7e8e7e454815de83",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 032.md Folder: /red/level 3/ Title: Why Construction Loans Are Structured Differently Than Purchase Loans Meta Description: Learn why financing new construction or a major rehab uses a different loan structure than a standard purchase, disbursed in stages instead of all at once. SEO Keywords: construction loan, draw schedule, real estate development financing, rehab loan Slug: red…",
@@ -1264,9 +1264,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.580Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_5dcf95c4-a838-454d-abc7-be060e90047e",
@@ -1281,7 +1281,7 @@
       "sizeBytes": 3994,
       "checksum": "sha256:6c7608bc0717f899cefd9bc30df1e07cec92e1ec569b2d726ec30348c3e799f0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 028.md Folder: /red/level 3/ Title: Why Lenders Ask for Personal Guarantees Meta Description: Learn why a lender might require a personal guarantee even on a loan structured through an LLC, and what that means for asset protection. SEO Keywords: personal guarantee, LLC financing, asset protection, real estate loan requirements Slug: red l3 028 personal guarantees Learning Objectiv…",
@@ -1318,9 +1318,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.580Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_3dec52cc-9391-46d3-9f15-a34586bdc938",
@@ -1335,7 +1335,7 @@
       "sizeBytes": 4418,
       "checksum": "sha256:4aaf25b7557935459809050aa43452250413a8ebd5ff1caa1d7e67b6354e003b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 041.md Folder: /red/level 3/ Title: Why Interest Only Loans Are a Timing Bet, Not Free Money Meta Description: Learn how interest only loans work, why they lower payments in the short term, and why that low payment eventually ends. SEO Keywords: interest only loan, mortgage payment structure, real estate financing timing Slug: red l3 041 interest only loans Learning Objectives By …",
@@ -1372,9 +1372,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.580Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_909b8316-e3ca-4603-a70a-675bad820d0d",
@@ -1389,7 +1389,7 @@
       "sizeBytes": 4200,
       "checksum": "sha256:526495417e82852d051c7cacc31a0ba123f526b7a9dc9921cc945360453d5bc2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 047.md Folder: /red/level 3/ Title: Why Paying Off Debt vs. Reinvesting Is a Real Trade off, Not a Default Answer Meta Description: Learn why the choice between paying down a mortgage early and reinvesting that money elsewhere depends on specific numbers and goals, not a one size fits all rule. SEO Keywords: pay off mortgage early, reinvest vs debt payoff, real estate strategy tra…",
@@ -1426,9 +1426,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.581Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_0e88807a-6b58-4290-a19d-1569fdcba7a7",
@@ -1443,7 +1443,7 @@
       "sizeBytes": 4494,
       "checksum": "sha256:900b56be80175d0866f6be0ec146652dda86ccb356f9b29c49b48b538177e192",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 025.md Folder: /red/level 3/ Title: Why Negative Leverage Can Still Make Sense (Sometimes) Meta Description: Learn why an investor might knowingly accept negative leverage on a deal, and what has to be true for that choice to be reasonable. SEO Keywords: negative leverage, real estate strategy, appreciation focused investing, risk tolerance Slug: red l3 025 when negative leverage …",
@@ -1480,9 +1480,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.581Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_992a9b01-de6b-47ff-9c59-c17cbbc8adb0",
@@ -1497,7 +1497,7 @@
       "sizeBytes": 4633,
       "checksum": "sha256:35dc32b6667be92a76021a2c64201a1f9a03185ba011f3bbcfe80df3c889ac34",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 048.md Folder: /red/level 3/ Title: Why Leveraged Real Estate Is a Common Generational Wealth Tool Meta Description: Learn why leveraged rental real estate has historically been used as a tool to build wealth across generations, and what has to go right for that to work. SEO Keywords: generational wealth, real estate leverage, long term investing, family wealth building Slug: red …",
@@ -1534,9 +1534,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.581Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_5c6c5c7e-f7ad-4ade-b25d-a256fc0c9491",
@@ -1551,7 +1551,7 @@
       "sizeBytes": 3874,
       "checksum": "sha256:8cf1465099e8f8936f03be97a66efbeb9b7ae918aebbeb1a58ba8500eda6f8ea",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 031.md Folder: /red/level 3/ Title: Why Bridge Loans Exist for the Gap Between Deals Meta Description: Learn why bridge loans exist to solve short term timing gaps between buying one property and closing on another. SEO Keywords: bridge loan, short term financing, real estate timing gap, transitional loan Slug: red l3 031 bridge loans Learning Objectives By the end of this lesson,…",
@@ -1588,9 +1588,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.582Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_cf7d677c-0c51-41c3-be04-af5473134b96",
@@ -1605,7 +1605,7 @@
       "sizeBytes": 5266,
       "checksum": "sha256:a2e44353ee1a1614ce1df5501dd87159e8c3950ca35c2d737c442fde7b6dfad9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 006.md Folder: /red/level 3/ Title: Why Interest Rate Type Matters More as You Scale Meta Description: Learn why the choice between fixed and adjustable interest rates becomes a bigger deal as an investor takes on more properties and more debt. SEO Keywords: fixed rate vs adjustable rate, interest rate risk, real estate portfolio, ARM mortgage, rate risk scaling Slug: red l3 006 i…",
@@ -1642,9 +1642,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.582Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_bf6654f0-3f80-455e-bcce-96ed9d333ab6",
@@ -1659,7 +1659,7 @@
       "sizeBytes": 4366,
       "checksum": "sha256:0fcd265c029b09d6bc56e20e3a9e17887f640255fd413b2930c84f3986909568",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 046.md Folder: /red/level 3/ Title: Why Debt Complicates Estate and Inheritance Planning Meta Description: Learn why leveraged rental properties add complexity to estate planning, and why heirs may inherit both the asset and its debt. SEO Keywords: estate planning, real estate inheritance, mortgage debt transfer, leveraged property inheritance Slug: red l3 046 debt and estate plan…",
@@ -1696,9 +1696,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.582Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_4c688402-11cb-4c75-afdb-51ecf8518f7c",
@@ -1713,7 +1713,7 @@
       "sizeBytes": 3723,
       "checksum": "sha256:b6828601c4626f3f3bf1e60b56d684348918b09d6b7d38e5c1f02b010aecc02d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 012.md Folder: /red/level 3/ Title: Why 1031 Exchanges Change the Leverage Conversation Meta Description: Learn why a 1031 exchange lets an investor move equity from one property to a bigger one without an immediate tax bill — and why that changes leverage decisions. SEO Keywords: 1031 exchange, capital gains deferral, real estate leverage, like kind exchange Slug: red l3 012 1031…",
@@ -1750,9 +1750,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.595Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_9af5ec56-f6f6-462e-a51b-359c5244a5f2",
@@ -1767,7 +1767,7 @@
       "sizeBytes": 3909,
       "checksum": "sha256:d0e7c0b0b05a069db0ff684b1bf528e349b7f0e9cd9ec10a219889d5a08f833c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 042.md Folder: /red/level 3/ Title: Why Adjustable Rate Caps Matter More Than the Teaser Rate Meta Description: Learn why the rate caps on an adjustable rate mortgage matter more for long term risk than the attractive initial rate. SEO Keywords: ARM rate caps, adjustable rate mortgage, interest rate risk, teaser rate Slug: red l3 042 arm rate caps Learning Objectives By the end of…",
@@ -1804,9 +1804,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.596Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_dc09fd3b-6d1d-4e3f-9f4b-57bfaad2a5bb",
@@ -1821,7 +1821,7 @@
       "sizeBytes": 4663,
       "checksum": "sha256:9ce624ed040f26fa156c121a19dc286ed2aff0c70d12e40ece39af509c3ff116",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 050.md Folder: /red/level 3/ Title: Why Mastering Leverage Means Knowing When Not to Use It Meta Description: The closing lesson of this track — why true mastery of real estate leverage includes the discipline to decline it when a deal doesn't warrant the risk. SEO Keywords: real estate leverage discipline, when not to leverage, investment risk management, capstone lesson Slug: re…",
@@ -1858,9 +1858,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.596Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_ec6a4164-5671-4159-90a8-251cc8e9c2d4",
@@ -1875,7 +1875,7 @@
       "sizeBytes": 4027,
       "checksum": "sha256:aee7b3a051755606eb81e3f110ec6d091b992f7e9314fec36ab31c5b106c2d82",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 037.md Folder: /red/level 3/ Title: Why Lien Priority Determines Who Gets Paid First Meta Description: Learn how liens on a property are ranked, why that ranking matters if a property is sold or foreclosed, and how it connects to cross collateralization. SEO Keywords: lien priority, first vs second mortgage, real estate liens, foreclosure order of payment Slug: red l3 037 lien pri…",
@@ -1912,9 +1912,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.596Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_cfd4e385-1905-4a00-9c61-b64b82035356",
@@ -1929,7 +1929,7 @@
       "sizeBytes": 3636,
       "checksum": "sha256:b9da20806b5ffaf68d331f5c8a5f03248804cd78ab486a8a33af13001c36ee34",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 010.md Folder: /red/level 3/ Title: Why Vacancy and Reserves Change Your Real Leverage Risk Meta Description: Learn why the rent a property \"should\" collect and the rent it actually collects are two different numbers — and why reserves protect you from the gap. SEO Keywords: vacancy rate, cash reserves, rental property risk, real estate cash flow planning Slug: red l3 010 vacancy …",
@@ -1966,9 +1966,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.597Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_da5be68b-0877-4e95-8ca3-9297022239b7",
@@ -1983,7 +1983,7 @@
       "sizeBytes": 4087,
       "checksum": "sha256:1e46b05c80fed6bb8f6e9e1268e49d9de4f4f62bbc86dd17d0fad16339bd8770",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 036.md Folder: /red/level 3/ Title: Why a Property Tax Appeal Can Change Your Leverage Position Meta Description: Learn why challenging a property's assessed value can affect both your monthly cash flow and your equity position. SEO Keywords: property tax appeal, assessed value, real estate cash flow, tax assessment Slug: red l3 036 property tax appeals Learning Objectives By the …",
@@ -2020,9 +2020,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.597Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_cc2e5665-aaee-4239-8442-d049d94e80bc",
@@ -2037,7 +2037,7 @@
       "sizeBytes": 4908,
       "checksum": "sha256:63b4b6c73cea5e3619b9113a7639ea9f0f6326971a6f09d2d4c204636fbad2f1",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 007.md Folder: /red/level 3/ Title: Why Amortization Schedules Reveal the Real Cost of a Loan Meta Description: Learn why the first years of a mortgage pay mostly interest, not principal — and why that timing matters for how you plan your exit. SEO Keywords: amortization schedule, mortgage interest vs principal, loan payoff timeline, real estate financing Slug: red l3 007 amortiza…",
@@ -2074,9 +2074,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.597Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_0f98941a-ac20-4d05-8cb5-4778c4b677ef",
@@ -2091,7 +2091,7 @@
       "sizeBytes": 3661,
       "checksum": "sha256:07c6a518d7aa67a69c6369844be3fc67b50de5b6380387bac015066049d823f5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 019.md Folder: /red/level 3/ Title: Why Cross Collateralization Is a Double Edged Sword Meta Description: Learn why using one property as collateral for a loan on another can unlock financing — and why it also puts both properties at risk together. SEO Keywords: cross collateralization, blanket loan, real estate risk, multiple property financing Slug: red l3 019 cross collateraliz…",
@@ -2128,9 +2128,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.598Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_fd2c4c13-eaa7-431f-bebb-ab77db3047c0",
@@ -2145,7 +2145,7 @@
       "sizeBytes": 4736,
       "checksum": "sha256:d35f79613eb6906a34c4fa7094937775e816d8c0889029d51c208f6f94f08cce",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 049.md Folder: /red/level 3/ Title: Why Every Leverage Decision Should Be Tied Back to an Exit Plan Meta Description: A synthesis lesson connecting every major leverage concept in this track back to Lesson 15's core principle: decide your exit before you finance the deal. SEO Keywords: real estate exit strategy, leverage decision framework, financing synthesis, investment planning…",
@@ -2182,9 +2182,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.598Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_e656ef33-da5a-483a-9f34-e3a6934b8eb0",
@@ -2199,7 +2199,7 @@
       "sizeBytes": 5356,
       "checksum": "sha256:ecf726ae216c4208238e36593c9da2898f5abe14b0428b1b887980c5e716f7f7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 003.md Folder: /red/level 3/ Title: Why Leverage Multiplies Both Gains and Losses Meta Description: Learn why using borrowed money to buy real estate can dramatically increase your returns — and just as dramatically increase your risk. SEO Keywords: real estate leverage, return on investment, down payment, risk and reward, mortgage leverage Slug: red l3 003 leverage multiplies gai…",
@@ -2236,9 +2236,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.598Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_2e4b456f-d58b-4609-a635-a184605196d5",
@@ -2253,7 +2253,7 @@
       "sizeBytes": 4352,
       "checksum": "sha256:b8e1687db9426680ab0c0c73bf4b3618de9ec2c5af7aea968f20ff5d97b718a4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 043.md Folder: /red/level 3/ Title: Why Rate Cycles Change Which Financing Strategy Wins Meta Description: Learn why the same financing strategy can be the right or wrong choice depending on where interest rates sit in a broader economic cycle. SEO Keywords: interest rate cycle, real estate financing strategy, market timing, rate environment Slug: red l3 043 rate cycles and strate…",
@@ -2290,9 +2290,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.599Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_cea0e1c9-6c45-4486-b3aa-ed074bbd0a98",
@@ -2307,7 +2307,7 @@
       "sizeBytes": 5625,
       "checksum": "sha256:41d661dc595e6d2f0319924643b064cbfafc3a9b834f4593d915c746fb9fd707",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 014.md Folder: /red/level 3/ Title: Why Rate Shocks Test Every Assumption in a Deal Meta Description: Walk through a realistic economic scenario and see how a sudden interest rate shock exposes every weak assumption in a leveraged real estate deal. SEO Keywords: interest rate shock, real estate stress test, economic scenario, leverage risk, cross sector impact Slug: red l3 014 rat…",
@@ -2344,9 +2344,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.599Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_5786128b-a153-465b-a7a8-9836eea95ab4",
@@ -2361,7 +2361,7 @@
       "sizeBytes": 4997,
       "checksum": "sha256:3321b5d72f51d62580aa71ce9fd1c8925bd39e6391d04fece29b2e70b9ca61e6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 004.md Folder: /red/level 3/ Title: Why Lenders Care About DTI and LTV Ratios Meta Description: Learn why lenders lean on two ratios — debt to income and loan to value — to decide how much they'll lend and how risky a deal is. SEO Keywords: debt to income ratio, loan to value ratio, mortgage underwriting, real estate financing, lender risk Slug: red l3 004 dti and ltv ratios Learn…",
@@ -2398,9 +2398,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.599Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_83da5d32-2102-4823-97c8-0b6b3f345796",
@@ -2415,7 +2415,7 @@
       "sizeBytes": 5333,
       "checksum": "sha256:c16468eac32e5d5d9629997d32e1b955d7d9267959b5b5095dc57d7840dd7e53",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 005.md Folder: /red/level 3/ Title: Why Cash Flow, Not Appreciation, Should Drive the Decision Meta Description: Learn why relying on a property to go up in value is a weaker strategy than relying on monthly cash flow — and why the two aren't the same bet. SEO Keywords: cash flow investing, real estate appreciation, rental property income, investment strategy, cap rate Slug: red l…",
@@ -2452,9 +2452,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.600Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_816f40b3-493a-4015-a618-d95555416404",
@@ -2469,7 +2469,7 @@
       "sizeBytes": 5187,
       "checksum": "sha256:e02ef5d8c69eb1888307811e352c13e41692de882c42f15bc7c0a4586288bd1a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 015.md Folder: /red/level 3/ Title: Why Exit Strategy Should Be Decided Before You Buy Meta Description: Learn why planning how you'll eventually sell, refinance, or hold a property changes the decisions you make on day one of owning it. SEO Keywords: exit strategy, real estate planning, hold vs sell, refinance planning, investment timeline Slug: red l3 015 exit strategy before yo…",
@@ -2506,9 +2506,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.600Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_3e2e3487-3d71-4667-8cbe-139c551957c9",
@@ -2523,7 +2523,7 @@
       "sizeBytes": 4281,
       "checksum": "sha256:82cd7a876f34ea35f920aa8c6ce930848e3b5241020ead770d97c3027846a4c0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 039.md Folder: /red/level 3/ Title: Why Deed in Lieu and Short Sales Are Different Exit Paths Meta Description: Learn about two alternatives to foreclosure — deed in lieu of foreclosure and short sales — and why each can be less damaging than letting a foreclosure proceed. SEO Keywords: deed in lieu of foreclosure, short sale, foreclosure alternatives, real estate distress options…",
@@ -2560,9 +2560,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.601Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_061c5556-ac9d-4699-9ed6-89ff837afea3",
@@ -2577,7 +2577,7 @@
       "sizeBytes": 4276,
       "checksum": "sha256:588579d11327aee811edf4a0db61eeee0be91ad45e9d957b57bff6dbad59d500",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 033.md Folder: /red/level 3/ Title: Why Opportunity Zone Rules Interact with Leverage Decisions Meta Description: Learn what Opportunity Zones are designed to encourage, and why leverage decisions inside one need extra planning around the program's specific rules. SEO Keywords: opportunity zones, capital gains incentive, real estate development, tax advantaged investing Slug: red …",
@@ -2614,9 +2614,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.601Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_54432358-86ce-4d22-9236-d83691e80d1b",
@@ -2631,7 +2631,7 @@
       "sizeBytes": 4200,
       "checksum": "sha256:5c39dec3c549d435e9048acd6cda828c75a438036ab825c0b0f709f5b97c098f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 016.md Folder: /red/level 3/ Title: Why Commercial Lending Rules Differ from Residential Meta Description: Learn why financing a small apartment building or commercial property follows different rules than financing a single family rental. SEO Keywords: commercial real estate loans, residential vs commercial financing, DSCR, commercial lending Slug: red l3 016 commercial vs reside…",
@@ -2668,9 +2668,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.601Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_1d4dde5f-eedb-4962-b304-dcf2fcfe979b",
@@ -2685,7 +2685,7 @@
       "sizeBytes": 4272,
       "checksum": "sha256:434616f7bf32d48be35d02967fc61f0c132843a80fdff3c93c981ae2c302c688",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 017.md Folder: /red/level 3/ Title: Why Hard Money and Private Loans Exist Outside the Bank System Meta Description: Learn why some real estate deals are financed by private lenders instead of banks, and why that financing is faster but more expensive. SEO Keywords: hard money loans, private lending, real estate financing, fix and flip loans, short term financing Slug: red l3 017 …",
@@ -2722,9 +2722,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.602Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     },
     {
       "id": "file_2db7a9a4-8dba-4629-9210-33d09e94f44c",
@@ -2739,7 +2739,7 @@
       "sizeBytes": 4492,
       "checksum": "sha256:deed9d9a07f82ca5c4696511e848dbd938fe139cca35479bc18f8b1abcc0c067",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: RED L3 044.md Folder: /red/level 3/ Title: Why Government Backed Loans Have Limits for Investors Meta Description: Learn why loan programs designed for owner occupants come with restrictions that limit their usefulness for real estate investors. SEO Keywords: government backed loans, owner occupancy requirement, investment property financing limits Slug: red l3 044 government backed loan…",
@@ -2776,9 +2776,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:52:44.060Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:41.602Z"
+      "updatedAt": "2026-09-27T23:52:44.060Z"
     }
   ],
   "auditHistory": [
