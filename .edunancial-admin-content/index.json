@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+    "name": "Recovered red-l3.zip",
+    "slug": "recovered-red-l3-zip",
+    "source": "Recovered from stored upload batch batch_cb1ba190-58e1-4369-9436-424f5160ee36",
+    "status": "ready-for-review",
+    "createdAt": "2026-09-27T23:52:40.457Z",
+    "updatedAt": "2026-09-27T23:52:41.602Z",
+    "totalUploads": 1,
+    "totalFiles": 50,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 50,
+    "conflicts": 0
+  },
+  {
     "id": "batch_0d09371b-b84a-48e3-9672-9a2c8c34c67b",
     "name": "Content Upload 2026-09-27 — WHITE-L3.zip",
     "slug": "content-upload-2026-09-27-white-l3-zip",
