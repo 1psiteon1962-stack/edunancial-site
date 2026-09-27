@@ -19,12 +19,22 @@ async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
   const [entries, summaries] = await Promise.all([storage.listWorkspaceEntries(), storage.listBatches()]);
   const batches = await Promise.all(summaries.map((summary) => storage.getBatch(summary.id)));
-  const claimed = new Set(batches.flatMap((batch) => batch?.uploads.map((upload) => upload.storagePath) ?? []));
+  // A stored object is recoverable until a completed review batch has actually
+  // claimed it. Interrupted finalization may create a partial/draft batch that
+  // references the object; treating every reference as finalized hides exactly
+  // the packages recovery is meant to surface.
+  const finalized = new Set(
+    batches.flatMap((batch) =>
+      batch && batch.files.length > 0
+        ? batch.uploads.map((upload) => upload.storagePath)
+        : [],
+    ),
+  );
   const candidates: RecoveryCandidate[] = [];
   const seen = new Set<string>();
   for (const storagePath of entries) {
     if (!storagePath.startsWith("uploads/courses/") || !storagePath.toLowerCase().endsWith(".zip")) continue;
-    if (claimed.has(storagePath) || seen.has(storagePath)) continue;
+    if (finalized.has(storagePath) || seen.has(storagePath)) continue;
     const match = storagePath.match(/^uploads\/courses\/(batch_[^/]+)\/(upload_[0-9a-f-]+)-(.+\.zip)$/iu);
     if (!match) continue;
     const [, batchId, uploadId, originalFilename] = match;
