@@ -26,7 +26,7 @@ function languageLabel(locale:string){return ADMIN_CONTENT_LANGUAGE_LABELS[local
 function packageTitle(track:Track,level:(typeof COURSE_LEVELS)[number]){const label=TRACKS.find(t=>t.value===track)?.label.replace(/^[^A-Za-z]+/u,"")??track.toUpperCase();return `${label} — ${level.replace("level-","Level ")}`;}
 type Presigned={batchId:string;uploads:Array<{uploadId:string;storagePath:string;safeName:string;signedUrl:string|null;directUpload:{url:string;headers:Record<string,string>}|null}>};
 type StoredUpload={uploadId:string;originalFilename:string;mimeType:string;sizeBytes:number;storagePath:string};
-type FinalizePayload={batch?:{id:string}|null;batches?:Array<{id:string}>;failures?:Array<{filename:string;error:string}>};
+type FinalizePayload={batch?:{id:string}|null;batches?:Array<{id:string}>;failures?:Array<{filename:string;error:string}>;publicationDeferred?:boolean};
 
 export default function ResilientUploadClient(){
  const router=useRouter(),fileInputRef=useRef<HTMLInputElement|null>(null),xhrRefs=useRef<Set<XMLHttpRequest>>(new Set());
@@ -47,6 +47,7 @@ export default function ResilientUploadClient(){
   const finalizationFailures:Array<{filename:string;message:string}>=[];
   const transferFailures:Array<{filename:string;message:string}>=[];
   const completedBatchIds:string[]=[];
+  const deferredPublicationBatchIds:string[]=[];
   try{
    const pre=await fetch("/api/admin/content/upload/presign",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,files:files.map(f=>({name:f.name,size:f.size,type:f.type}))})});
    if(!pre.ok){const p=await pre.json().catch(()=>({}));throw new Error(p.error??`Failed to prepare upload (HTTP ${pre.status}).`);}const presigned=await pre.json() as Presigned;
@@ -59,7 +60,7 @@ export default function ResilientUploadClient(){
     setPhase(`Processing package ${index+1} of ${stored.length}: ${upload.originalFilename}`);
     const r=await fetch("/api/admin/content/upload/finalize",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,batchId:presigned.batchId,uploads:[upload]})});
     if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);}
-    const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);completedBatchIds.push(id);return id;
+    const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(payload.publicationDeferred&&id)deferredPublicationBatchIds.push(id);if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);completedBatchIds.push(id);return id;
    },({completed,total})=>setProgress(90+Math.round((completed/total)*10)),({item,error:failureError})=>finalizationFailures.push({filename:item.originalFilename,message:failureError instanceof Error?failureError.message:String(failureError)}));}
    setProgress(100);setUploading(false);setPhase("");
    if(transferFailures.length||finalizationFailures.length){
@@ -70,7 +71,7 @@ export default function ResilientUploadClient(){
     setError(messages.join(" "));
     return;
    }
-   setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} uploaded and finalized independently. Opening the first review batch.`);
+   setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} uploaded, validated, and finalized independently.${deferredPublicationBatchIds.length?` ${deferredPublicationBatchIds.length} package${deferredPublicationBatchIds.length===1?" is":"s are"} ready for publication from batch review.`:""} Opening the first review batch.`);
    if(completedBatchIds[0]){router.push(`/admin/content/batches/${completedBatchIds[0]}`);router.refresh();}
   }catch(err){cancel();setUploading(false);setPhase("");if(finalizationFailures.length||transferFailures.length){setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?" is":"s are"} confirmed finalized and preserved.`);setError(`${transferFailures.length?`${transferFailures.map(f=>f.filename).join(", ")} failed before storage completed. `:""}${finalizationFailures.length?`Stored packages not confirmed finalized: ${finalizationFailures.map(f=>f.filename).join(", ")}. Use interrupted-upload recovery only for these stored packages.`:""}`);}else setError((err as Error).message);}
  }

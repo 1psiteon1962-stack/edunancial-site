@@ -26,7 +26,7 @@ function lessonNumberForPackage(file: UploadBatch["files"][number], identity: Pa
   return lessonNumber >= 1 && lessonNumber <= 50 ? lessonNumber : null;
 }
 
-export async function autoPublishTrustedCanonicalCurriculumBatch(batch: UploadBatch, identity: PackageIdentity | null, actor: ActorContext): Promise<{ attempted: boolean; approvedFiles: number; pullRequestUrl?: string }> {
+export async function autoPublishTrustedCanonicalCurriculumBatch(batch: UploadBatch, identity: PackageIdentity | null, actor: ActorContext, options: { publish?: boolean } = {}): Promise<{ attempted: boolean; approvedFiles: number; pullRequestUrl?: string }> {
   if (!isTrustedCanonicalCurriculumIdentity(identity) || !identity) return { attempted: false, approvedFiles: 0 };
   if (batch.exports.some((entry) => entry.github?.pullRequestUrl)) {
     const existing = batch.exports.find((entry) => entry.github?.pullRequestUrl)?.github?.pullRequestUrl;
@@ -48,6 +48,13 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(batch: UploadBa
   batch.status = deriveBatchStatus(batch.files);
   batch.updatedAt = approvedAt;
   await getAdminContentStorage().updateBatch(batch);
+
+  // Finalization and publication are deliberately separate durability boundaries.
+  // A 50-lesson ZIP can be safely extracted, validated, approved, and checkpointed
+  // before the slower GitHub branch/PR publication work begins. This prevents a
+  // gateway timeout during publication from making a successfully stored package
+  // look like an interrupted upload that needs recovery.
+  if (options.publish === false) return { attempted: true, approvedFiles: 50 };
 
   const result = await publishBatch(batch.id, actor);
   if (!result.github?.pullRequestUrl) throw new Error(`Trusted curriculum publication for ${identity.track}/${identity.level}/${identity.language} did not create a GitHub pull request.`);

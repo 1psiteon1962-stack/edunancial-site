@@ -71,11 +71,11 @@ export async function POST(request: NextRequest) {
     }
 
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
-    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor);
+    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { publish: false });
 
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication } });
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, publicationDeferred: trustedCanonical } });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication } });
-    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, publicationDeferred: trustedCanonical, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
