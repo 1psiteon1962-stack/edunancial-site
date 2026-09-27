@@ -6,7 +6,7 @@
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
   "status": "approved",
   "createdAt": "2026-09-27T23:52:40.457Z",
-  "updatedAt": "2026-09-27T23:52:44.060Z",
+  "updatedAt": "2026-09-27T23:53:02.425Z",
   "uploads": [
     {
       "id": "upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1",
@@ -123,16 +123,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:dc6556b4f902969781cb82606fadad95cbfe2b74ba4aa49e50f62bc649cf7892",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_b5d6e66b-e3ad-4f6d-ab9a-88ae5329e694",
@@ -177,16 +177,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:e6cf59976d0face7c6e741461324f64bc7bb2ae4a61e602b3e91b82801aa6f59",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_3f2e344d-705b-42be-9683-f1b715dc14d2",
@@ -231,16 +231,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:802367f1cf9acd2dd2a81b1f37b98ee0c13328476d13b7650359f574a026cadb",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_8a1c6d42-ebd4-4dc7-aa3e-b69ac7db577b",
@@ -285,16 +285,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:3ea67fb876c09cd2d2ee4b6485c0cdae951a88f41fd8cf1e176d602b521487c7",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_e81539d7-f6cb-40bc-9e97-ca7b12619927",
@@ -339,16 +339,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4c3ece21f2efee072722e0836426873b3e27fd5c85f3fcbbe42ebf9f9463aa94",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_2ee3196d-6e59-42c2-a89f-90c66508ffb1",
@@ -393,16 +393,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:bc09e3ebef53fcd04e337ebf9f115055a98411ce036e6c24206b3d7c3d57161f",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_418b3b3c-d684-4944-aaea-4f101ae9b1e7",
@@ -447,16 +447,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:0784736870f38912358afa56f0b7d278167340401fda2e9f0c6f838a9e227c40",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_c6a892df-be94-4aee-b2bd-d52ed7539286",
@@ -501,16 +501,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:a360451de9474973a3413bd26b884aadeeebf6d7721a7e5ff1c21e1163e3b8f3",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_2bf453fb-5896-49fe-9c71-aeec23ad4508",
@@ -555,16 +555,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:909fc66afbfbab3db85f36330bea147f05456c297fd9106e4c966306314b8707",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_98f51e3b-45e4-46ac-b321-de9d8b1ad735",
@@ -609,16 +609,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:179acf6d61a48d21133cffbf9c00038cbccf6d153d2514ff93250a6b85f4aa1b",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_a7c502f8-f9e7-403f-b3c4-a35a08e69fb6",
@@ -663,16 +663,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:74411c77f09be61c2308b92d8473f574a71878ed477e261001b13d350f0c8eb0",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_90196b46-e27f-492a-ba6f-a04f1f14bb6a",
@@ -717,16 +717,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:b159320a8bd71744925b5cf3c4b7c10b4db83d13489c80892fb7c94f8eae3f22",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_5d25982f-0e95-4ee5-95fc-198c8f738ae3",
@@ -771,16 +771,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:3bce96da5e9d02e191e4f0ebee9fd0f092c579c68cdc1d1463d42e879388150c",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_340d4af7-2331-47e8-863b-107d4241d447",
@@ -825,16 +825,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4b97b444c35a19b930a06902bf4065e12c77d82a05d3e38ecfa63cba6358fe0d",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_9971cafb-bf7f-4c26-a140-5f74eb3b0b11",
@@ -879,16 +879,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:418822248fee7c70a9da0f3057287e0c44b69f4da0fd9d01db8fa8b9d677885b",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_6cfd008f-a691-4ec9-9406-e05f9c7d2dd1",
@@ -933,16 +933,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:7a54b249ba6ce5b5f59fcfca4f2e4418382eebaa68a1e1c5f0a08f028e4aed38",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_f01ae217-45b4-4681-a8c8-403507339295",
@@ -987,16 +987,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:e42432d07c9864541558d51fbbdc08d52075b8eba96196f87c166b292e705892",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_c85336b0-be0b-4790-9ea1-429c7f605b57",
@@ -1041,16 +1041,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:593a463f22679db108dd47c3b0e0e0618a4522353b948c9cf8694816bfc129c9",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_b30e780f-6269-4170-9c8e-39b63b1cc92c",
@@ -1095,16 +1095,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:33cfeac03e7d7fb1e3c86dbdb15abc338406906096348fb730b8514f1bdf6778",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_33df1e21-4cbf-4855-b0a7-aa6e7f6364b3",
@@ -1149,16 +1149,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:39a037049d2092da3edcf30d25e773a6ba609899d2d12600ebd5440890201e3f",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_61667fc1-d8bd-4384-9cee-6d6b06c29d81",
@@ -1203,16 +1203,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:7716adadce024cae5c91dc5da84ce9531b0ef1f0f6efa512461b31020ac03b40",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_b21b2bd8-452d-4d35-a8ca-71258011d3be",
@@ -1257,16 +1257,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:788ae2bfd4a3d56f3613f171485efd752ccedf92a7d85fcc7e8e7e454815de83",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_5dcf95c4-a838-454d-abc7-be060e90047e",
@@ -1311,16 +1311,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:6c7608bc0717f899cefd9bc30df1e07cec92e1ec569b2d726ec30348c3e799f0",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_3dec52cc-9391-46d3-9f15-a34586bdc938",
@@ -1365,16 +1365,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4aaf25b7557935459809050aa43452250413a8ebd5ff1caa1d7e67b6354e003b",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_909b8316-e3ca-4603-a70a-675bad820d0d",
@@ -1419,16 +1419,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:526495417e82852d051c7cacc31a0ba123f526b7a9dc9921cc945360453d5bc2",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_0e88807a-6b58-4290-a19d-1569fdcba7a7",
@@ -1473,16 +1473,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:900b56be80175d0866f6be0ec146652dda86ccb356f9b29c49b48b538177e192",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_992a9b01-de6b-47ff-9c59-c17cbbc8adb0",
@@ -1527,16 +1527,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:35dc32b6667be92a76021a2c64201a1f9a03185ba011f3bbcfe80df3c889ac34",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_5c6c5c7e-f7ad-4ade-b25d-a256fc0c9491",
@@ -1581,16 +1581,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:8cf1465099e8f8936f03be97a66efbeb9b7ae918aebbeb1a58ba8500eda6f8ea",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_cf7d677c-0c51-41c3-be04-af5473134b96",
@@ -1635,16 +1635,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:a2e44353ee1a1614ce1df5501dd87159e8c3950ca35c2d737c442fde7b6dfad9",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_bf6654f0-3f80-455e-bcce-96ed9d333ab6",
@@ -1689,16 +1689,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:0fcd265c029b09d6bc56e20e3a9e17887f640255fd413b2930c84f3986909568",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_4c688402-11cb-4c75-afdb-51ecf8518f7c",
@@ -1743,16 +1743,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:b6828601c4626f3f3bf1e60b56d684348918b09d6b7d38e5c1f02b010aecc02d",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_9af5ec56-f6f6-462e-a51b-359c5244a5f2",
@@ -1797,16 +1797,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:d0e7c0b0b05a069db0ff684b1bf528e349b7f0e9cd9ec10a219889d5a08f833c",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_dc09fd3b-6d1d-4e3f-9f4b-57bfaad2a5bb",
@@ -1851,16 +1851,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:9ce624ed040f26fa156c121a19dc286ed2aff0c70d12e40ece39af509c3ff116",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_ec6a4164-5671-4159-90a8-251cc8e9c2d4",
@@ -1905,16 +1905,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:aee7b3a051755606eb81e3f110ec6d091b992f7e9314fec36ab31c5b106c2d82",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_cfd4e385-1905-4a00-9c61-b64b82035356",
@@ -1959,16 +1959,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:b9da20806b5ffaf68d331f5c8a5f03248804cd78ab486a8a33af13001c36ee34",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_da5be68b-0877-4e95-8ca3-9297022239b7",
@@ -2013,16 +2013,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:1e46b05c80fed6bb8f6e9e1268e49d9de4f4f62bbc86dd17d0fad16339bd8770",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_cc2e5665-aaee-4239-8442-d049d94e80bc",
@@ -2067,16 +2067,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:63b4b6c73cea5e3619b9113a7639ea9f0f6326971a6f09d2d4c204636fbad2f1",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_0f98941a-ac20-4d05-8cb5-4778c4b677ef",
@@ -2121,16 +2121,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:07c6a518d7aa67a69c6369844be3fc67b50de5b6380387bac015066049d823f5",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_fd2c4c13-eaa7-431f-bebb-ab77db3047c0",
@@ -2175,16 +2175,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:d35f79613eb6906a34c4fa7094937775e816d8c0889029d51c208f6f94f08cce",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_e656ef33-da5a-483a-9f34-e3a6934b8eb0",
@@ -2229,16 +2229,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:ecf726ae216c4208238e36593c9da2898f5abe14b0428b1b887980c5e716f7f7",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_2e4b456f-d58b-4609-a635-a184605196d5",
@@ -2283,16 +2283,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:b8e1687db9426680ab0c0c73bf4b3618de9ec2c5af7aea968f20ff5d97b718a4",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_cea0e1c9-6c45-4486-b3aa-ed074bbd0a98",
@@ -2337,16 +2337,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:41d661dc595e6d2f0319924643b064cbfafc3a9b834f4593d915c746fb9fd707",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_5786128b-a153-465b-a7a8-9836eea95ab4",
@@ -2391,16 +2391,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:3321b5d72f51d62580aa71ce9fd1c8925bd39e6391d04fece29b2e70b9ca61e6",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_83da5d32-2102-4823-97c8-0b6b3f345796",
@@ -2445,16 +2445,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:c16468eac32e5d5d9629997d32e1b955d7d9267959b5b5095dc57d7840dd7e53",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_816f40b3-493a-4015-a618-d95555416404",
@@ -2499,16 +2499,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:e02ef5d8c69eb1888307811e352c13e41692de882c42f15bc7c0a4586288bd1a",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_3e2e3487-3d71-4667-8cbe-139c551957c9",
@@ -2553,16 +2553,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:82cd7a876f34ea35f920aa8c6ce930848e3b5241020ead770d97c3027846a4c0",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_061c5556-ac9d-4699-9ed6-89ff837afea3",
@@ -2607,16 +2607,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:588579d11327aee811edf4a0db61eeee0be91ad45e9d957b57bff6dbad59d500",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_54432358-86ce-4d22-9236-d83691e80d1b",
@@ -2661,16 +2661,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:5c39dec3c549d435e9048acd6cda828c75a438036ab825c0b0f709f5b97c098f",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_1d4dde5f-eedb-4962-b304-dcf2fcfe979b",
@@ -2715,16 +2715,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:434616f7bf32d48be35d02967fc61f0c132843a80fdff3c93c981ae2c302c688",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     },
     {
       "id": "file_2db7a9a4-8dba-4629-9210-33d09e94f44c",
@@ -2769,19 +2769,31 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:deed9d9a07f82ca5c4696511e848dbd938fe139cca35479bc18f8b1abcc0c067",
         "uploadBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:52:44.060Z",
+      "approvedAt": "2026-09-27T23:53:02.425Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:52:44.060Z"
+      "updatedAt": "2026-09-27T23:53:02.425Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_059d838e-9792-4e06-975a-ba803f3081d3",
+      "timestamp": "2026-09-27T23:53:02.426Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 50
+      }
+    },
     {
       "id": "audit_4ba700ce-0a40-476b-9a40-86f8fe76d4a3",
       "timestamp": "2026-09-27T23:52:41.602Z",
