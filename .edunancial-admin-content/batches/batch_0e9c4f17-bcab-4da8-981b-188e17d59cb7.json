@@ -4,9 +4,9 @@
   "slug": "recovered-red-l3-zip",
   "source": "Recovered from stored upload batch batch_cb1ba190-58e1-4369-9436-424f5160ee36",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "approved",
+  "status": "exported",
   "createdAt": "2026-09-27T23:52:40.457Z",
-  "updatedAt": "2026-09-27T23:53:06.904Z",
+  "updatedAt": "2026-09-27T23:53:44.488Z",
   "uploads": [
     {
       "id": "upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1",
@@ -2783,6 +2783,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_6809fda7-f26d-46fd-a627-de366a494cbb",
+      "timestamp": "2026-09-27T23:53:44.488Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+      "metadata": {
+        "exportId": "export_batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7_1790553222160"
+      }
+    },
+    {
       "id": "audit_e00016b1-7bcb-4db6-934e-2d18cecf9347",
       "timestamp": "2026-09-27T23:53:06.904Z",
       "action": "bulk-action",
@@ -2842,6 +2853,25 @@
       "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7_1790553222160",
+      "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+      "fileName": "recovered-red-l3-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7_1790553222160.zip",
+      "manifestPath": "curriculum/staging/content-upload/recovered-red-l3-zip/batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/recovered-red-l3-zip/batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/recovered-red-l3-zip/batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/recovered-red-l3-zip/batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7/rejected-files.json",
+      "createdAt": "2026-09-27T23:53:42.160Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
