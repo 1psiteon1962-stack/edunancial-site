@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-09-27-white-l3-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "approved",
   "createdAt": "2026-09-27T23:09:34.047Z",
-  "updatedAt": "2026-09-27T23:09:35.082Z",
+  "updatedAt": "2026-09-27T23:09:37.116Z",
   "uploads": [
     {
       "id": "upload_48570680-aafc-4db1-b372-a86f469ecad1",
@@ -93,7 +93,7 @@
       "sizeBytes": 4372,
       "checksum": "sha256:8d42f4786d5c596744a8735f2dbbbac326ded21446fe2343ca75bdab96d9bf26",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 014.md Folder: /white/level 3/ Title: Why Rebalancing Forces You to Sell High and Buy Low Automatically Meta Description: Learn how portfolio rebalancing works, and why it builds \"buy low, sell high\" discipline into a mechanical process instead of relying on willpower. SEO Keywords: portfolio rebalancing, asset allocation, disciplined investing, automatic buy low sell high Slug:…",
@@ -130,9 +130,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.023Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_1fad1066-0dcc-45f4-9d18-799c1f89f377",
@@ -147,7 +147,7 @@
       "sizeBytes": 4582,
       "checksum": "sha256:b70287bf5b147183abf125988bb851516a51e254aa9b086e3d3073e936d500cd",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 008.md Folder: /white/level 3/ Title: Why Selling Options Flips the Risk Profile Entirely Meta Description: Learn why selling (writing) an option puts you on the obligation side of the contract, with a very different risk profile than buying one. SEO Keywords: option writing, selling options, covered call, naked option risk Slug: white l3 008 selling options risk profile Learnin…",
@@ -184,9 +184,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.028Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_3fceca25-be6a-4617-8465-41c138c31317",
@@ -201,7 +201,7 @@
       "sizeBytes": 4350,
       "checksum": "sha256:9500c5d18ffe64edec7e44d9db7d874040d50fc1cb05cdedfe5b823602e2fdfc",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 040.md Folder: /white/level 3/ Title: Why Cost Basis Determines Your Real Taxable Gain Meta Description: Learn what cost basis means, why it's not always as simple as the original purchase price, and why tracking it accurately matters. SEO Keywords: cost basis, taxable gain calculation, reinvested dividends, tax record keeping Slug: white l3 040 cost basis Learning Objectives By…",
@@ -238,9 +238,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.038Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_644f0f99-c748-435b-a0aa-fb9cf341d347",
@@ -255,7 +255,7 @@
       "sizeBytes": 4828,
       "checksum": "sha256:ffebe50946af35e5bd78b5f9565797e6ab29e1891079a7b07c1c340f1d29fd81",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 013.md Folder: /white/level 3/ Title: Why Lump Sum Investing Often Outperforms DCA (and Why People Still Choose DCA) Meta Description: Learn why investing all at once statistically tends to outperform dollar cost averaging in rising markets, and why many investors still prefer DCA anyway. SEO Keywords: lump sum investing, dollar cost averaging comparison, market timing, investin…",
@@ -292,9 +292,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.039Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_4c92c8ba-8d85-4a71-9b2a-d74d1407c842",
@@ -309,7 +309,7 @@
       "sizeBytes": 4185,
       "checksum": "sha256:ab595d54b58cab95ebec0a0c5fce8e07e49d4c73ad8473cadf9868eedb25c80f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 007.md Folder: /white/level 3/ Title: Why Time Decay Works Against Option Buyers Meta Description: Learn why an option loses value simply from the passage of time, even if the underlying asset's price doesn't change. SEO Keywords: time decay, theta, options expiration, option value erosion Slug: white l3 007 time decay Learning Objectives By the end of this lesson, you will be a…",
@@ -346,9 +346,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.039Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_1e10bb71-c445-447d-9614-175383ec8041",
@@ -363,7 +363,7 @@
       "sizeBytes": 5003,
       "checksum": "sha256:6158ed1d9140f4664caea5e04135e33c89e1ca894a59e0eaab5e73fb99542c95",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 047.md Folder: /white/level 3/ Title: Why Diversifying Across Asset Classes, Not Just Stocks, Reduces Portfolio Risk Meta Description: Learn why combining stocks with other asset classes like bonds or real estate can reduce overall portfolio risk in a way that diversifying only among stocks cannot. SEO Keywords: asset class diversification, multi asset portfolio, stocks and bond…",
@@ -400,9 +400,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.040Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_be546d7f-9e27-4e41-9eec-dd6e09841746",
@@ -417,7 +417,7 @@
       "sizeBytes": 4469,
       "checksum": "sha256:f6c3e4aafbed5240278b202e62c110b786992689ec0e845108747a5872a74bf5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 021.md Folder: /white/level 3/ Title: Why ETFs and Mutual Funds Differ in Trading, Tax, and Cost Meta Description: Learn the practical differences between ETFs and mutual funds, and why those differences can matter more than their broad similarities. SEO Keywords: ETF vs mutual fund, fund trading differences, tax efficiency, fund expense ratio Slug: white l3 021 etf vs mutual fu…",
@@ -454,9 +454,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.040Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_427ac410-c04c-44f6-bc8d-ef5497c7d0fe",
@@ -471,7 +471,7 @@
       "sizeBytes": 4211,
       "checksum": "sha256:7c81fc610e8ce24ff0b653c535e591fdcc4892dd08ba90c4d2f9b37480c68699",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 026.md Folder: /white/level 3/ Title: Why Behavioral Biases Cost Investors More Than Fees Do Meta Description: Learn why investor psychology, not just fund fees, is often cited as one of the biggest drags on real world investment returns. SEO Keywords: behavioral finance, investor psychology, behavior gap, investing mistakes Slug: white l3 026 behavioral biases cost Learning Obj…",
@@ -508,9 +508,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.041Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_f10c5db5-5ad4-4c77-8bf1-d7dfac30fec8",
@@ -525,7 +525,7 @@
       "sizeBytes": 4231,
       "checksum": "sha256:92ad30d52138e9efba8765ea7646b3defaa36d7a5e5c650301a88fe93cf14946",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 017.md Folder: /white/level 3/ Title: Why Dividends Aren't \"Free Money\" Meta Description: Learn why a dividend payment reduces a stock's price by roughly the same amount, and why dividends are a redistribution of value, not a bonus. SEO Keywords: dividend payments, ex dividend date, total return, dividend investing Slug: white l3 017 dividends not free money Learning Objectives …",
@@ -562,9 +562,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.041Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_0cf50290-7153-49b8-a552-c079ecaaa2f6",
@@ -579,7 +579,7 @@
       "sizeBytes": 4150,
       "checksum": "sha256:9db0037a17b1b65950e501d7486cabf4f63cce24feeadbc954fb36a243e50dfb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 029.md Folder: /white/level 3/ Title: Why Inflation Erodes Purchasing Power Even in a \"Safe\" Portfolio Meta Description: Learn why holding only very stable, low return assets can still lose you purchasing power over time, even without any market losses. SEO Keywords: inflation risk, purchasing power, cash holdings, real return Slug: white l3 029 inflation and safe portfolios Lea…",
@@ -616,9 +616,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.043Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_857e30a2-ed4d-4e82-bcd0-354ec80a7864",
@@ -633,7 +633,7 @@
       "sizeBytes": 4409,
       "checksum": "sha256:3a1318fa5597fd03cf71d660ecdbc48e29084e7c665d58b60a270e335bf28ca3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 001.md Folder: /white/level 3/ Title: Why \"Buy Low, Sell High\" Is Harder to Execute Than to Say Meta Description: Learn why the simplest investing advice is also one of the hardest to follow in practice, and what actually gets in the way. SEO Keywords: buy low sell high, investor psychology, market timing, paper assets investing Slug: white l3 001 buy low sell high Learning Obje…",
@@ -670,9 +670,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.044Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_bc7abd53-380b-44b2-9f32-551f6f15f39c",
@@ -687,7 +687,7 @@
       "sizeBytes": 4213,
       "checksum": "sha256:767de7ddddf2208f87df3d2ca1223446bbc1cac52883324501bd6a954f04cd53",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 046.md Folder: /white/level 3/ Title: Why Beta Measures a Stock's Volatility Relative to the Market Meta Description: Learn what beta measures, why a beta above or below 1.0 tells you something specific about a stock's expected behavior, and what beta doesn't capture. SEO Keywords: beta, stock volatility measure, market risk, relative volatility Slug: white l3 046 beta and relat…",
@@ -724,9 +724,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.044Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_db9d35b3-a26e-44ed-abba-227815fdd7a4",
@@ -741,7 +741,7 @@
       "sizeBytes": 4649,
       "checksum": "sha256:4455a0b5b991ba89481ea97db4484b463e1ffbe3420e09aae237acf8e7ab6385",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 034.md Folder: /white/level 3/ Title: Why Asset Allocation Matters More Than Individual Stock Picking Meta Description: Learn why the mix of asset classes in a portfolio tends to drive long term results more than the specific stocks chosen within each class. SEO Keywords: asset allocation, stock picking, portfolio construction, long term investment returns Slug: white l3 034 ass…",
@@ -778,9 +778,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.045Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_ddcac39d-9033-474e-8dad-36b6d4569c99",
@@ -795,7 +795,7 @@
       "sizeBytes": 4555,
       "checksum": "sha256:b4f722086819e8bf8406332f93009d1a90f646e3e22e05ffd4ac832423243846",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 016.md Folder: /white/level 3/ Title: Why a \"Safe\" Withdrawal Rate Isn't a Guarantee Meta Description: Learn what a safe withdrawal rate is meant to represent, and why it's a historical guideline, not a promise about your specific future. SEO Keywords: safe withdrawal rate, 4 percent rule, retirement income planning, historical backtesting Slug: white l3 016 safe withdrawal rate…",
@@ -832,9 +832,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.045Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_3212b304-6fcc-490f-8eee-76341c01922f",
@@ -849,7 +849,7 @@
       "sizeBytes": 4339,
       "checksum": "sha256:daabce075564c2e55cef57ec94e2e5eb38039eeeb442c20dfbee2802d378962b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 048.md Folder: /white/level 3/ Title: Why Position Sizing Determines How Much a Single Bad Bet Can Hurt You Meta Description: Learn why how much you invest in any single position matters as much as whether that position is a good idea, and why position sizing is a form of risk control. SEO Keywords: position sizing, portfolio risk management, concentration risk, single position …",
@@ -886,9 +886,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.045Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_fe755450-5a7f-4740-809d-7e6fc3006034",
@@ -903,7 +903,7 @@
       "sizeBytes": 4505,
       "checksum": "sha256:ca765137e19e0bb4ccd013a7b9b73d02616363a8f0dc1c2e1134b8c7938dc106",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 031.md Folder: /white/level 3/ Title: Why Currency Risk Affects International Investments Meta Description: Learn why investing in assets denominated in a foreign currency adds a layer of risk separate from the investment's own performance. SEO Keywords: currency risk, foreign exchange risk, international investing, exchange rate fluctuation Slug: white l3 031 currency risk Lear…",
@@ -940,9 +940,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.046Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_35e7d02f-9971-4877-8632-3b70149a62f2",
@@ -957,7 +957,7 @@
       "sizeBytes": 4694,
       "checksum": "sha256:ab379d5c283b170b7c1661056752a0f593266f6f3d08b16ccde4c4f313f6156b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 003.md Folder: /white/level 3/ Title: Why Correlation Determines Real Diversification, Not Just Number of Holdings Meta Description: Learn why owning many investments isn't the same as being truly diversified, and why correlation is the concept that actually determines your risk reduction. SEO Keywords: correlation, portfolio diversification, asset correlation, real diversificat…",
@@ -994,9 +994,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.047Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_9d644266-3aff-42fa-950f-2a5c9a458d89",
@@ -1011,7 +1011,7 @@
       "sizeBytes": 4271,
       "checksum": "sha256:df840c66b2dc4521b98a10e0c0a2b4b0663fd05e6ab4606eaa1049fd187a3d87",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 033.md Folder: /white/level 3/ Title: Why Sector Concentration Increases Risk Even in a Diversified Looking Portfolio Meta Description: Learn why owning many stocks concentrated in the same sector can leave a portfolio more exposed to risk than it appears at first glance. SEO Keywords: sector concentration, industry risk, portfolio diversification, sector exposure Slug: white l3…",
@@ -1048,9 +1048,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.047Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_759f154c-1a91-485b-97fb-a403c44f51b8",
@@ -1065,7 +1065,7 @@
       "sizeBytes": 4268,
       "checksum": "sha256:6d7f5b2003962b2e3b678697f00bbdeffdaed3f44a90d7e72d7ff0bb03ff0b6d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 011.md Folder: /white/level 3/ Title: Why Short Selling Has Theoretically Unlimited Risk Meta Description: Learn how short selling works, why it profits from a falling price, and why its potential loss is structurally unlimited. SEO Keywords: short selling, shorting stocks, unlimited loss risk, borrowed shares Slug: white l3 011 short selling risk Learning Objectives By the end …",
@@ -1102,9 +1102,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.047Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_175f0fb5-3586-419a-b1d1-518f37cc1877",
@@ -1119,7 +1119,7 @@
       "sizeBytes": 4259,
       "checksum": "sha256:c9c47a1f61b171277d09a1b900b4537f319260f8893d486298f7fe6d41ab9479",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 027.md Folder: /white/level 3/ Title: Why Loss Aversion Makes Investors Sell Winners Too Early and Hold Losers Too Long Meta Description: Learn why the pain of a loss tends to feel stronger than the pleasure of an equivalent gain, and how that imbalance distorts investment decisions. SEO Keywords: loss aversion, disposition effect, behavioral finance, investing psychology Slug: …",
@@ -1156,9 +1156,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.048Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_7654deee-135d-4834-aa67-edb724e8bb4c",
@@ -1173,7 +1173,7 @@
       "sizeBytes": 4485,
       "checksum": "sha256:216dc113f89fbbd190efff55f4f6e74b253286e4e568886c71be4061422b3439",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 042.md Folder: /white/level 3/ Title: Why Liquidity Differs Between a Blue Chip Stock and a Thinly Traded One Meta Description: Learn what liquidity means for a security, and why a thinly traded stock can be harder and costlier to buy or sell than its price alone suggests. SEO Keywords: liquidity, trading volume, bid ask spread, thinly traded stock Slug: white l3 042 liquidity d…",
@@ -1210,9 +1210,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.048Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_e34d6496-bb2f-493a-8d07-42d9d15543e1",
@@ -1227,7 +1227,7 @@
       "sizeBytes": 4141,
       "checksum": "sha256:013998ccacbb7fad1269157af33fa35bd17f6d9aefa54330b6ceec4f59ab65d5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 041.md Folder: /white/level 3/ Title: Why a Stop Loss Order Doesn't Guarantee Your Exit Price Meta Description: Learn how a stop loss order works, and why it's a trigger for a market order, not a guarantee of the exact price you'll receive. SEO Keywords: stop loss order, order types, execution risk, gap down Slug: white l3 041 stop loss orders Learning Objectives By the end of t…",
@@ -1264,9 +1264,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.049Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_8de16358-9214-4426-b81d-217bb240b57b",
@@ -1281,7 +1281,7 @@
       "sizeBytes": 4440,
       "checksum": "sha256:ac89cce945f7ff7cb72210d89ac6042142a6d4898887f840a2d43b0d680da49f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 004.md Folder: /white/level 3/ Title: Why Volatility and Risk Aren't Exactly the Same Thing Meta Description: Learn why a bumpy price chart isn't automatically the same as true financial risk, and why the difference matters for how you evaluate an investment. SEO Keywords: volatility vs risk, standard deviation, permanent loss, investment risk definition Slug: white l3 004 volat…",
@@ -1318,9 +1318,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.050Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_79423a9b-5412-4176-8559-2cf69323e67f",
@@ -1335,7 +1335,7 @@
       "sizeBytes": 4118,
       "checksum": "sha256:aa71f36f1f8030387df79a92f5bbffdc3f8449b7dd94be36ad72e8a1bbc163f2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 044.md Folder: /white/level 3/ Title: Why IPOs Carry Unique Risk Compared to Established Public Companies Meta Description: Learn why buying shares in a newly public company differs from investing in an established one, and why limited history adds specific uncertainty. SEO Keywords: IPO risk, initial public offering, newly public company, investment uncertainty Slug: white l3 0…",
@@ -1372,9 +1372,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.058Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_ffa0e2f2-366b-49ac-b00b-d791636a991e",
@@ -1389,7 +1389,7 @@
       "sizeBytes": 4464,
       "checksum": "sha256:d5bc351298caf438f98e866fdc0c35a51a5dee4519fc003eba9ad5d4369ea835",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 020.md Folder: /white/level 3/ Title: Why Credit Risk and Interest Rate Risk Are Different Bond Risks Meta Description: Learn why a bond can lose value for two completely different reasons, and why understanding which one is happening changes how you should think about it. SEO Keywords: credit risk, interest rate risk, bond default, bond rating Slug: white l3 020 credit risk vs …",
@@ -1426,9 +1426,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.059Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_9d979a3f-0939-48ba-9c36-fa1d7bbf28ed",
@@ -1443,7 +1443,7 @@
       "sizeBytes": 4584,
       "checksum": "sha256:7f508c74698bfc179d0d5b4bae7bf412446c2187e825e86fbffb7fd4df85dbda",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 038.md Folder: /white/level 3/ Title: Why the Wash Sale Rule Limits Tax Loss Harvesting Meta Description: Learn what a wash sale is, why it exists, and why it directly limits how tax loss harvesting can be executed. SEO Keywords: wash sale rule, tax loss harvesting limits, substantially identical security, tax compliance Slug: white l3 038 wash sale rule Learning Objectives By t…",
@@ -1480,9 +1480,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.059Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_9a971895-5bf8-457a-9b02-2b056ab3b840",
@@ -1497,7 +1497,7 @@
       "sizeBytes": 4453,
       "checksum": "sha256:083410c8aede444940f202eb21537ef558df8bd78348d72ae79a4add6e0e7a7c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 035.md Folder: /white/level 3/ Title: Why a Glide Path Shifts Risk as You Age Meta Description: Learn why many long term investment strategies gradually shift a portfolio's asset allocation from more aggressive to more conservative over time, and why that timing matters. SEO Keywords: glide path, target date fund, age based asset allocation, retirement investing Slug: white l3 0…",
@@ -1534,9 +1534,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.060Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_42122159-53ed-4d82-96d5-febebf6e22f5",
@@ -1551,7 +1551,7 @@
       "sizeBytes": 4563,
       "checksum": "sha256:aeb71db1a6ba58c9e4fb783aec826e91028d48e0e0dd95fd6288e58b036fd973",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 024.md Folder: /white/level 3/ Title: Why Active Management Has to Overcome Its Own Fees to Add Value Meta Description: Learn why an actively managed fund needs to beat the market by more than just a little to actually deliver a better result than a low cost index fund. SEO Keywords: active management, alpha, fund fees, active vs passive investing Slug: white l3 024 active manag…",
@@ -1588,9 +1588,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.060Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_5ab33b31-e3b7-44f7-8f31-215b84090e37",
@@ -1605,7 +1605,7 @@
       "sizeBytes": 4499,
       "checksum": "sha256:55228d9ab2257939657840cc42f380a9ed8d7d9ed8041282e04409e616f546bd",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 045.md Folder: /white/level 3/ Title: Why Stock Buybacks Affect Shareholders Differently Than Dividends Meta Description: Learn how a stock buyback returns value to shareholders differently than a dividend, and why the tax and share count effects differ. SEO Keywords: stock buyback, share repurchase, dividends comparison, shares outstanding Slug: white l3 045 stock buybacks Lear…",
@@ -1642,9 +1642,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.060Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_45510b42-d9c2-412d-9378-0dcbd930269f",
@@ -1659,7 +1659,7 @@
       "sizeBytes": 4225,
       "checksum": "sha256:64d348849a24bf2616e1e69265b0d594ee2345248280adc49fe7e14394f00828",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 022.md Folder: /white/level 3/ Title: Why Expense Ratios Compound Over Decades Meta Description: Learn why a small looking annual fund fee can cost tens of thousands of dollars over a long investing horizon, and why the effect is easy to underestimate. SEO Keywords: expense ratio, fund fees, compounding costs, long term investing Slug: white l3 022 expense ratios compound Learni…",
@@ -1696,9 +1696,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.061Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_cf7ec146-0ece-4639-bf57-f1fb09ff8aec",
@@ -1713,7 +1713,7 @@
       "sizeBytes": 4368,
       "checksum": "sha256:f11b99af14c9fdc6292701104e7988942d7b678cc8c6c3001a24dd5281053614",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 032.md Folder: /white/level 3/ Title: Why REITs Let You Invest in Real Estate Without Buying Property Meta Description: Learn how Real Estate Investment Trusts work, why they trade like stocks, and how they connect the RED and WHITE tracks of this curriculum. SEO Keywords: REIT, real estate investment trust, real estate stocks, paper asset real estate exposure Slug: white l3 032…",
@@ -1750,9 +1750,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.061Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_84dc90dc-e951-4730-98a2-f31ffd9f7dee",
@@ -1767,7 +1767,7 @@
       "sizeBytes": 4351,
       "checksum": "sha256:4097f7dfa8592e4445aa29ff26b1e23f8ce0d762e662d5cc049c5a92d639e74e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 037.md Folder: /white/level 3/ Title: Why Tax Loss Harvesting Turns a Loss Into a Future Benefit Meta Description: Learn how tax loss harvesting works, why it turns an unrealized loss into a usable tax benefit, and why the process requires care. SEO Keywords: tax loss harvesting, capital losses, realized loss, tax strategy Slug: white l3 037 tax loss harvesting Learning Objectiv…",
@@ -1804,9 +1804,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.061Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_79476e0e-1588-476e-8c5e-c4182a69bec9",
@@ -1821,7 +1821,7 @@
       "sizeBytes": 3969,
       "checksum": "sha256:68b982f8bd637f214c00564718f1325045b8217faeb0d002157aec3c05ef08c2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 009.md Folder: /white/level 3/ Title: Why Margin Amplifies Gains and Losses Like Real Estate Leverage Meta Description: Learn how buying stocks on margin works, and why it multiplies both gains and losses in a way that mirrors real estate leverage. SEO Keywords: margin trading, buying on margin, leverage in stocks, margin risk Slug: white l3 009 margin and leverage Learning Obje…",
@@ -1858,9 +1858,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.062Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_944dd2f2-ae18-4f48-9c4b-444e7b3f1d08",
@@ -1875,7 +1875,7 @@
       "sizeBytes": 4136,
       "checksum": "sha256:4fb5a33c2e4785de4b5b41ada05898512a91cb17a1509a175233321617068363",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 043.md Folder: /white/level 3/ Title: Why Market Orders and Limit Orders Serve Different Purposes Meta Description: Learn the difference between a market order and a limit order, and why choosing the right one depends on what you're actually trying to control. SEO Keywords: market order, limit order, trade execution, order types Slug: white l3 043 market vs limit orders Learning…",
@@ -1912,9 +1912,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.062Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_6eded0bc-8f43-4ccd-a62d-04ddf8e6ce28",
@@ -1929,7 +1929,7 @@
       "sizeBytes": 4388,
       "checksum": "sha256:89c14de0af26f796d0128fb8dc79fe03254eb85a5d7859fa8c41fc530d82ccb2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 039.md Folder: /white/level 3/ Title: Why Capital Gains Are Taxed Differently Based on Holding Period Meta Description: Learn why how long you hold an investment before selling can affect how any gain is taxed, and why this creates a real incentive around timing. SEO Keywords: capital gains, holding period, short term vs long term gains, tax strategy Slug: white l3 039 holding p…",
@@ -1966,9 +1966,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.062Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_65049718-fbde-4b44-9d91-f41d06ef8eb4",
@@ -1983,7 +1983,7 @@
       "sizeBytes": 4136,
       "checksum": "sha256:5461d730974e5cab84217288bfe6ea379a228680616cb6fbe8b5d25f0d46e2c6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 006.md Folder: /white/level 3/ Title: Why a Call Bets on Direction and a Straddle Bets on Movement Meta Description: Learn the difference between a directional options bet and a straddle, which profits from a big move in either direction. SEO Keywords: straddle strategy, call option, put option, directional vs non directional options Slug: white l3 006 call vs straddle Learning …",
@@ -2020,9 +2020,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.064Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_bead9b2c-b5cf-43b9-8bed-76ae54ce5bba",
@@ -2037,7 +2037,7 @@
       "sizeBytes": 4006,
       "checksum": "sha256:3c561838fb18191bc664aa8e862a6d012e911c30eb8284510fb74eb3c026d3e6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 023.md Folder: /white/level 3/ Title: Why Index Investing Bets on the Market, Not a Manager Meta Description: Learn what index investing actually bets on, and why that's a fundamentally different wager than picking individual stocks or active fund managers. SEO Keywords: index investing, passive investing, market efficiency, index fund Slug: white l3 023 index investing Learning…",
@@ -2074,9 +2074,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.064Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_62061c68-942f-42bc-910e-3149e5437a59",
@@ -2091,7 +2091,7 @@
       "sizeBytes": 4409,
       "checksum": "sha256:e1916d3789c83f41b9278ba4bfa17cb5157d5d4d1d83ef2f727f7e76d5917045",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 019.md Folder: /white/level 3/ Title: Why Bond Prices and Interest Rates Move in Opposite Directions Meta Description: Learn the mechanical reason why rising interest rates cause existing bond prices to fall, and why this relationship is predictable, not random. SEO Keywords: bond prices and interest rates, inverse relationship, fixed income basics Slug: white l3 019 bond prices…",
@@ -2128,9 +2128,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.064Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_4b17f92e-c3d0-4c17-9ff8-0f8de64a3397",
@@ -2145,7 +2145,7 @@
       "sizeBytes": 4155,
       "checksum": "sha256:2ed492472da7e090c87d5d812a2fd937a8fc98cf568ffe6dccaf471b50c0a7eb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 028.md Folder: /white/level 3/ Title: Why Recency Bias Distorts Risk Perception After a Market Move Meta Description: Learn why investors tend to overweight recent events when judging risk, and why that can lead to poorly timed decisions. SEO Keywords: recency bias, investor psychology, market risk perception, behavioral finance Slug: white l3 028 recency bias Learning Objective…",
@@ -2182,9 +2182,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.065Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_7249a476-e63c-406a-870d-2b66137d2a6d",
@@ -2199,7 +2199,7 @@
       "sizeBytes": 4760,
       "checksum": "sha256:7b16992b2a572bedbde52ccaf1c3b64986dbb2c9048083cc5dea05e96e10ac2b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 036.md Folder: /white/level 3/ Title: Why Tax Advantaged Accounts Change the After Tax Math on Returns Meta Description: Learn why the account type you invest through can meaningfully change your actual take home return, separate from the investment's own performance. SEO Keywords: tax advantaged accounts, retirement accounts, tax deferred growth, after tax returns Slug: white l…",
@@ -2236,9 +2236,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.065Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_bdfc3a98-0a92-4fe4-b448-bde1998e0dd7",
@@ -2253,7 +2253,7 @@
       "sizeBytes": 4581,
       "checksum": "sha256:f36926a7a7dde2e84c90e93e98b2171a1da6c21cea30749189c1c5077a8a7dde",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 025.md Folder: /white/level 3/ Title: Why Past Fund Performance Doesn't Predict Future Performance Meta Description: Learn why a fund's strong recent track record isn't a reliable signal of how it will perform going forward. SEO Keywords: past performance, fund track record, mean reversion, performance chasing Slug: white l3 025 past performance not predictive Learning Objective…",
@@ -2290,9 +2290,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.065Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_629fcabd-923d-415c-b206-f0e0a1b959fb",
@@ -2307,7 +2307,7 @@
       "sizeBytes": 4594,
       "checksum": "sha256:5c8c138b9656ac63f1c83d6b0eeeb05debe00d3af3c6bf23a83fa23d13dbdc76",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 030.md Folder: /white/level 3/ Title: Why Different Assets Respond Differently to Inflation Meta Description: Learn why some investments tend to hold up better during inflationary periods than others, and why there's no single perfect inflation hedge. SEO Keywords: inflation hedge, real assets, stocks and inflation, bonds and inflation Slug: white l3 030 assets and inflation Lea…",
@@ -2344,9 +2344,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.078Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_69a62db6-fce6-4f5a-8093-30fd696f442e",
@@ -2361,7 +2361,7 @@
       "sizeBytes": 4177,
       "checksum": "sha256:1a387602db793daf02bd91cc339d8e47d740826ca8b1f952ddf89ef69fd001b8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 018.md Folder: /white/level 3/ Title: Why Bond Duration Measures Interest Rate Sensitivity Meta Description: Learn what bond duration measures, why longer duration bonds are more sensitive to interest rate changes, and why this matters for bond investors. SEO Keywords: bond duration, interest rate sensitivity, fixed income risk, bond investing Slug: white l3 018 bond duration Le…",
@@ -2398,9 +2398,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.078Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_9f5f026f-9e27-429a-a4d6-83bd7b4e4f70",
@@ -2415,7 +2415,7 @@
       "sizeBytes": 4326,
       "checksum": "sha256:b1b4e516b2922918cf8790ee4de94ab1335fd4bd62027ae505514907bf6f05c8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 010.md Folder: /white/level 3/ Title: Why a Margin Call Can Force You to Sell at the Worst Possible Time Meta Description: Learn what a margin call is, why it happens automatically, and why it can force selling exactly when prices are already down. SEO Keywords: margin call, forced selling, margin maintenance requirement, leverage risk Slug: white l3 010 margin calls Learning Ob…",
@@ -2452,9 +2452,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.079Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_85af723f-ff5a-4faf-a397-07352f98ea71",
@@ -2469,7 +2469,7 @@
       "sizeBytes": 4224,
       "checksum": "sha256:05a2bd3d55982ce0f4460821fdec3772f27fa91ed79b9b762d3f0d2d4309c36d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 005.md Folder: /white/level 3/ Title: Why Options Give You Rights, Not Obligations — And Why That Costs Something Meta Description: Learn the basic structure of options contracts, why buying an option only gives you a right, and why that right isn't free. SEO Keywords: options basics, call option, put option, options premium Slug: white l3 005 options rights not obligations Lear…",
@@ -2506,9 +2506,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.079Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_70fe1546-3401-421a-8ec2-2f6ee90b9b0e",
@@ -2523,7 +2523,7 @@
       "sizeBytes": 4525,
       "checksum": "sha256:da70bdf0fbeae2ad24b18d5d34c579a3d7d97734ae717b3c32063e8c904ce2b4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 049.md Folder: /white/level 3/ Title: Why a Written Investment Plan Protects You From Your Own Emotions Meta Description: Learn why writing down your investment plan in advance protects against the behavioral mistakes covered throughout this track, made in the heat of the moment. SEO Keywords: written investment plan, investment policy statement, behavioral discipline, decision …",
@@ -2560,9 +2560,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.079Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_4deaf84c-8cce-42b6-a851-ccd3eaae5aa7",
@@ -2577,7 +2577,7 @@
       "sizeBytes": 4702,
       "checksum": "sha256:33bfc47baafe9e389a6a3bea0530e6624ff77a7a61018299a4366cd43c1cb2d1",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 002.md Folder: /white/level 3/ Title: Why Diversification Reduces Risk Without Reducing Expected Return (as Much as You'd Think) Meta Description: Learn why spreading investments across many holdings reduces risk more efficiently than it reduces expected return, and why there's a limit to the benefit. SEO Keywords: diversification, portfolio risk, expected return, unsystematic r…",
@@ -2614,9 +2614,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.080Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_3bef9fbf-85c0-44a8-b0a2-a6c75507e516",
@@ -2631,7 +2631,7 @@
       "sizeBytes": 4005,
       "checksum": "sha256:a5d8e21edf0c965fadf0f85887cd537c5893e11c290fe121849b04cf1249f085",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 012.md Folder: /white/level 3/ Title: Why Dollar Cost Averaging Reduces Timing Risk, Not Investment Risk Meta Description: Learn why investing a fixed amount on a regular schedule reduces the risk of bad timing, without reducing the underlying risk of the investment itself. SEO Keywords: dollar cost averaging, DCA strategy, timing risk, investment risk Slug: white l3 012 dollar …",
@@ -2668,9 +2668,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.080Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_0d43144c-fca2-4077-a351-bfec23903940",
@@ -2685,7 +2685,7 @@
       "sizeBytes": 4913,
       "checksum": "sha256:9ca338fe652e8a45301db9427b0a8252083179f51cc51ccadb866f43f7fa96c6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 050.md Folder: /white/level 3/ Title: Why Mastering Paper Assets Means Knowing What You Don't Need to Predict Meta Description: The closing lesson of this track — why real skill in paper asset investing lies in structuring a plan around uncertainty, not in guessing the market's next move. SEO Keywords: investing discipline, market prediction, capstone lesson, uncertainty in inve…",
@@ -2722,9 +2722,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.081Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     },
     {
       "id": "file_fddc0277-20c7-4455-8b00-3cce31b1abff",
@@ -2739,7 +2739,7 @@
       "sizeBytes": 4531,
       "checksum": "sha256:50e50c8cf9086f21913bd81f6c91ff7d71056b47f67422f3ff3df593d1337064",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "Filename: WHITE L3 015.md Folder: /white/level 3/ Title: Why Sequence of Returns Risk Matters More in Retirement Than Accumulation Meta Description: Learn why the order in which investment returns occur can matter more than the average return itself, especially once you start withdrawing money. SEO Keywords: sequence of returns risk, retirement withdrawal, portfolio drawdown, retirement planning S…",
@@ -2776,9 +2776,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-09-27T23:09:37.116Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:09:35.082Z"
+      "updatedAt": "2026-09-27T23:09:37.116Z"
     }
   ],
   "auditHistory": [
