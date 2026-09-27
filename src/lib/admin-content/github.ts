@@ -6,6 +6,7 @@ import {
   detectCurriculumAsset,
   upsertRegistryEntries,
   validateCurriculumFiles,
+  type ParsedCurriculumAsset,
   type CurriculumRegistry,
 } from "@/lib/admin-content/curriculum";
 import { getAuthoritativePublishedLessonIds } from "@/lib/admin-content/published-canonical";
@@ -126,6 +127,31 @@ function detectTranslationJson(content: string): CurriculumTranslationJson | nul
   return { lessonId, locales };
 }
 
+function yamlScalar(value: string) {
+  return JSON.stringify(value ?? "");
+}
+
+function canonicalPublicationContent(content: string, asset: ParsedCurriculumAsset) {
+  if (/^---\s*\r?\n/u.test(content)) return content;
+  const fm = asset.frontMatter;
+  const header = [
+    "---",
+    `id: ${asset.id}`,
+    `track: ${asset.track}`,
+    `officialTrackName: ${yamlScalar(fm.officialTrackName ?? asset.trackName)}`,
+    `level: ${asset.level}`,
+    `lessonNumber: ${asset.number ?? Number(fm.lessonNumber ?? 0)}`,
+    `title: ${yamlScalar(fm.title ?? asset.id)}`,
+    `summary: ${yamlScalar(fm.summary ?? "")}`,
+    `version: ${yamlScalar(fm.version ?? "1.0")}`,
+    `author: ${yamlScalar(fm.author ?? "Edunancial Faculty")}`,
+    `date: ${yamlScalar(fm.date ?? new Date().toISOString().slice(0, 10))}`,
+    "---",
+    "",
+  ].join("\n");
+  return header + content.trimStart();
+}
+
 export async function createGithubPullRequest(batch: UploadBatch, exportPackage: ExportPackage) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
 
@@ -148,6 +174,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     bundledLessons: Awaited<ReturnType<typeof detectBundledCurriculumLessons>>;
     curriculumTranslation: CurriculumTranslationJson | null;
     translationBlockedReason: string | null;
+    publicationContent: string;
   };
 
   const resolvedCandidates: ResolvedFile[] = await Promise.all(
@@ -172,6 +199,13 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       const resolvedDestination = curriculumAsset
         ? curriculumAsset.destinationPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
+      // Recovered canonical lessons may use the trusted legacy header format.
+      // detectCurriculumAsset can identify those lessons, but the strict export
+      // validator requires canonical YAML front matter. Normalize publication
+      // content here so recovery and a fresh upload use the same export contract.
+      const publicationContent = curriculumAsset && file.extension === ".md"
+        ? canonicalPublicationContent(originalContent, curriculumAsset)
+        : originalContent;
       return {
         ...file,
         resolvedDestination,
@@ -179,6 +213,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         bundledLessons,
         curriculumTranslation,
         translationBlockedReason,
+        publicationContent,
       };
     }),
   );
@@ -228,7 +263,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     [
       ...resolvedFiles.map((file) => ({
         destination: file.resolvedDestination,
-        content: Buffer.from(file.encodedContent, "base64").toString("utf8"),
+        content: file.publicationContent,
       })),
       ...bundledCurriculumFiles.map((file) => ({
         destination: file.destination,
@@ -258,7 +293,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     resolvedFiles.map(async (file) => {
       const blob = await githubRequest("/git/blobs", {
         method: "POST",
-        body: JSON.stringify({ content: Buffer.from(file.encodedContent, "base64").toString("base64"), encoding: "base64" }),
+        body: JSON.stringify({ content: Buffer.from(file.publicationContent, "utf8").toString("base64"), encoding: "base64" }),
       });
       return { path: file.resolvedDestination, mode: "100644", type: "blob", sha: blob.sha as string };
     }),
@@ -290,7 +325,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     const directEntries = curriculumFiles
       .filter((file) => !file.curriculumAsset?.locale)
       .map((file) => {
-        const contentBytes = Buffer.from(file.encodedContent, "base64");
+        const contentBytes = Buffer.from(file.publicationContent, "utf8");
         return buildRegistryEntry(
           file.curriculumAsset!,
           contentBytes,
