@@ -1,5 +1,24 @@
 [
   {
+    "id": "upload-operation-8c1441aa-7086-4fbc-ad59-9b16eefa15f8",
+    "timestamp": "2026-09-27T23:53:48.388Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "FAILED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": "Error",
+      "errorMessage": "GitHub export blocked by curriculum validation: RED-L3-020: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-008: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-018: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-009: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-022: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-011: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-027: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-029: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-002: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-013: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-040: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-034: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-026: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-035: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-024: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-021: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-038: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-023: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-045: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-001: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-030: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-032: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-028: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-041: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-047: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-025: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-048: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-031: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-006: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-046: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-012: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-042: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-050: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-037: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-010: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-036: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-007: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-019: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-049: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-003: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-043: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-014: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-004: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-005: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-015: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-039: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-033: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-016: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-017: Cannot determine asset ID: missing front-matter or \"id\" field; RED-L3-044: Cannot determine asset ID: missing front-matter or \"id\" field"
+    }
+  },
+  {
     "id": "audit_6809fda7-f26d-46fd-a627-de366a494cbb",
     "timestamp": "2026-09-27T23:53:44.488Z",
     "action": "export-generated",
