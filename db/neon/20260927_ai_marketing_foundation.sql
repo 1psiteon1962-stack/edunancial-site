@@ -6,7 +6,7 @@ create table if not exists marketing_campaigns (
   name text not null,
   objective text not null,
   track text,
-  market text not null default 'north-america',
+  market text,
   status text not null default 'draft' check (status in ('draft','review','approved','scheduled','active','paused','complete')),
   approval_required boolean not null default true,
   approved_at timestamptz,
@@ -34,7 +34,7 @@ create table if not exists marketing_content (
 create table if not exists marketing_publications (
   id uuid primary key default gen_random_uuid(),
   content_id uuid not null references marketing_content(id) on delete cascade,
-  platform text not null check (platform in ('linkedin','x','instagram','tiktok','youtube')),
+  platform text not null,
   format text not null,
   platform_copy text not null,
   media_refs jsonb not null default '[]'::jsonb,
