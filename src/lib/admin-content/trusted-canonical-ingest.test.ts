@@ -19,10 +19,11 @@ test("trusted canonical curriculum requires a complete 50 lesson package before 
   assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
 });
 
-test("trusted canonical curriculum publishes automatically and requires a GitHub PR", () => {
+test("trusted canonical curriculum checkpoints before optional GitHub publication", () => {
+  assert.match(helper, /options\.publish === false/u);
   assert.match(helper, /publishBatch\(batch\.id, actor\)/u);
   assert.match(helper, /result\.github\?\.pullRequestUrl/u);
-  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor\)/u);
+  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor, \{ publish: false \}\)/u);
 });
 
 test("finalize retry bypass covers both trusted localized and trusted canonical publication", () => {
