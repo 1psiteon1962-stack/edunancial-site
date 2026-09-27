@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_0d09371b-b84a-48e3-9672-9a2c8c34c67b",
+    "name": "Content Upload 2026-09-27 — WHITE-L3.zip",
+    "slug": "content-upload-2026-09-27-white-l3-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-09-27T23:09:34.047Z",
+    "updatedAt": "2026-09-27T23:09:35.082Z",
+    "totalUploads": 1,
+    "totalFiles": 50,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 50,
+    "conflicts": 0
+  },
+  {
     "id": "batch_6cfb0762-820d-431c-bf3b-45f329bd6459",
     "name": "Content Upload 2026-09-15 — GREEN-L2-FULL-50-Lessons.zip",
     "slug": "content-upload-2026-09-15-green-l2-full-50-lessons-zip",
