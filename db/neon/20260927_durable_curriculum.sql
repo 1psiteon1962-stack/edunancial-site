@@ -52,7 +52,8 @@ create table if not exists curriculum_localizations (
   created_at timestamptz not null default now(),
   approved_at timestamptz,
   published_at timestamptz,
-  unique(lesson_id,locale,revision)
+  unique(lesson_id,locale,revision),
+  unique(id,lesson_id,locale)
 );
 
 create table if not exists curriculum_active_versions (
@@ -61,7 +62,9 @@ create table if not exists curriculum_active_versions (
   revision_id uuid not null,
   activated_at timestamptz not null default now(),
   activated_by text,
-  primary key(lesson_id,locale)
+  primary key(lesson_id,locale),
+  foreign key(revision_id,lesson_id,locale)
+    references curriculum_localizations(id,lesson_id,locale) on delete restrict
 );
 
 create table if not exists curriculum_publish_batches (
@@ -86,7 +89,9 @@ create table if not exists curriculum_publish_batch_items (
     check (status in ('staged','validated','published','failed','rolled_back')),
   prior_revision_id uuid,
   error_detail jsonb not null default '{}'::jsonb,
-  primary key(batch_id,lesson_id,locale)
+  primary key(batch_id,lesson_id,locale),
+  foreign key(revision_id,lesson_id,locale)
+    references curriculum_localizations(id,lesson_id,locale) on delete restrict
 );
 
 create index if not exists curriculum_revision_status_idx on curriculum_revisions(lesson_id,status);
