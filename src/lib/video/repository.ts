@@ -84,7 +84,7 @@ export async function createVideoR2Job(input: VideoR2JobInput) {
       ${input.compositionHash}, ${input.idempotencyKey}, ${input.ownerEmail}
     from video_r2_projects p
     where p.id = ${input.projectId}::uuid and p.owner_email = ${input.ownerEmail}
-    on conflict (idempotency_key) do nothing
+    on conflict (project_id, idempotency_key) where idempotency_key is not null do nothing
     returning *
   `;
   if (rows[0]) return rows[0];
@@ -92,7 +92,8 @@ export async function createVideoR2Job(input: VideoR2JobInput) {
     select j.*
     from video_r2_jobs j
     join video_r2_projects p on p.id = j.project_id
-    where j.idempotency_key = ${input.idempotencyKey}
+    where j.project_id = ${input.projectId}::uuid
+      and j.idempotency_key = ${input.idempotencyKey}
       and p.owner_email = ${input.ownerEmail}
     limit 1
   `;
@@ -108,4 +109,21 @@ export async function listVideoR2Jobs(projectId: string, ownerEmail: string) {
     where j.project_id = ${projectId}::uuid and p.owner_email = ${ownerEmail}
     order by j.created_at desc
   `;
+}
+
+
+export async function getActiveVideoR2Job(projectId: string, ownerEmail: string, locale: string) {
+  const sql = requireSql();
+  const rows = await sql`
+    select j.*
+    from video_r2_jobs j
+    join video_r2_projects p on p.id = j.project_id
+    where j.project_id = ${projectId}::uuid
+      and p.owner_email = ${ownerEmail}
+      and j.locale = ${locale}
+      and j.status in ('queued','processing')
+    order by j.queued_at asc
+    limit 1
+  `;
+  return rows[0] ?? null;
 }
