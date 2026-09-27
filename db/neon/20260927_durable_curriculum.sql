@@ -66,7 +66,7 @@ create table if not exists curriculum_active_versions (
 
 create table if not exists curriculum_publish_batches (
   id uuid primary key default gen_random_uuid(),
-  region_key text references global_regions(key) on delete restrict,
+  region_key text,
   status text not null default 'staged'
     check (status in ('staged','validating','validated','publishing','published','failed','rolled_back')),
   source_batch_ref text,
