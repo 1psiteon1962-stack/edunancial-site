@@ -34,11 +34,12 @@ export async function presignVideoUpload(
   key: string,
   contentType: string,
   expiresIn = 900,
-  client: S3Client = createVideoStorageClient(),
+  client?: S3Client,
   config: VideoStorageConfig = requireVideoStorageConfig(),
 ): Promise<string> {
+  const storageClient = client ?? createVideoStorageClient(config);
   return getSignedUrl(
-    client,
+    storageClient,
     new PutObjectCommand({ Bucket: config.bucket, Key: key, ContentType: contentType }),
     { expiresIn: requireVideoSignedUrlExpiry(expiresIn) },
   );
@@ -47,11 +48,12 @@ export async function presignVideoUpload(
 export async function presignVideoDownload(
   key: string,
   expiresIn = 900,
-  client: S3Client = createVideoStorageClient(),
+  client?: S3Client,
   config: VideoStorageConfig = requireVideoStorageConfig(),
 ): Promise<string> {
+  const storageClient = client ?? createVideoStorageClient(config);
   return getSignedUrl(
-    client,
+    storageClient,
     new GetObjectCommand({ Bucket: config.bucket, Key: key }),
     { expiresIn: requireVideoSignedUrlExpiry(expiresIn) },
   );
