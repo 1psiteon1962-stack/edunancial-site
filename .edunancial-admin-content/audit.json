@@ -1,5 +1,32 @@
 [
   {
+    "id": "upload-operation-0056851e-084a-4d6a-9791-29e5890d1069",
+    "timestamp": "2026-09-27T23:52:46.351Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_cb1ba190-58e1-4369-9436-424f5160ee36",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1",
+      "phase": "VERIFY",
+      "status": "SUCCEEDED",
+      "storagePath": "uploads/courses/batch_cb1ba190-58e1-4369-9436-424f5160ee36/upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1-red-l3.zip",
+      "fileName": "red-l3.zip",
+      "fileSize": 0,
+      "errorCode": null,
+      "errorMessage": null,
+      "recoveryBatchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+      "recoveredWithoutReupload": true,
+      "trustedCanonicalPublication": {
+        "attempted": true,
+        "approvedFiles": 50
+      },
+      "publicationDeferred": true,
+      "discoverySource": "persistent-storage"
+    }
+  },
+  {
     "id": "audit_a091f593-677b-4dc9-8c94-16c8abbd3776",
     "timestamp": "2026-09-27T23:52:40.458Z",
     "action": "batch-created",
