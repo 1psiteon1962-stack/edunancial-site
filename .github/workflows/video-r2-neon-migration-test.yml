@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "db/neon/20260926_video_maker_r2.sql"
+      - "db/neon/20260927_video_maker_r2_job_hardening.sql"
       - ".github/workflows/video-r2-neon-migration-test.yml"
   workflow_dispatch:
 
@@ -33,6 +34,10 @@ jobs:
         run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
       - name: Apply migration a second time
         run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
+      - name: Apply job hardening migration twice
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260927_video_maker_r2_job_hardening.sql
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260927_video_maker_r2_job_hardening.sql
       - name: Verify Video R2 tables and functions
         run: |
           test "$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name like 'video_r2_%';")" = "5"
