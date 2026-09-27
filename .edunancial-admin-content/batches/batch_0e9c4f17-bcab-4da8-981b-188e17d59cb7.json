@@ -6,7 +6,7 @@
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
   "status": "approved",
   "createdAt": "2026-09-27T23:52:40.457Z",
-  "updatedAt": "2026-09-27T23:53:02.425Z",
+  "updatedAt": "2026-09-27T23:53:06.904Z",
   "uploads": [
     {
       "id": "upload_11ef9010-1e1f-4742-83db-a7429fe0b9b1",
@@ -130,9 +130,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_b5d6e66b-e3ad-4f6d-ab9a-88ae5329e694",
@@ -184,9 +184,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_3f2e344d-705b-42be-9683-f1b715dc14d2",
@@ -238,9 +238,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_8a1c6d42-ebd4-4dc7-aa3e-b69ac7db577b",
@@ -292,9 +292,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_e81539d7-f6cb-40bc-9e97-ca7b12619927",
@@ -346,9 +346,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_2ee3196d-6e59-42c2-a89f-90c66508ffb1",
@@ -400,9 +400,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_418b3b3c-d684-4944-aaea-4f101ae9b1e7",
@@ -454,9 +454,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_c6a892df-be94-4aee-b2bd-d52ed7539286",
@@ -508,9 +508,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_2bf453fb-5896-49fe-9c71-aeec23ad4508",
@@ -562,9 +562,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_98f51e3b-45e4-46ac-b321-de9d8b1ad735",
@@ -616,9 +616,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_a7c502f8-f9e7-403f-b3c4-a35a08e69fb6",
@@ -670,9 +670,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_90196b46-e27f-492a-ba6f-a04f1f14bb6a",
@@ -724,9 +724,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_5d25982f-0e95-4ee5-95fc-198c8f738ae3",
@@ -778,9 +778,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_340d4af7-2331-47e8-863b-107d4241d447",
@@ -832,9 +832,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_9971cafb-bf7f-4c26-a140-5f74eb3b0b11",
@@ -886,9 +886,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_6cfd008f-a691-4ec9-9406-e05f9c7d2dd1",
@@ -940,9 +940,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_f01ae217-45b4-4681-a8c8-403507339295",
@@ -994,9 +994,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_c85336b0-be0b-4790-9ea1-429c7f605b57",
@@ -1048,9 +1048,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_b30e780f-6269-4170-9c8e-39b63b1cc92c",
@@ -1102,9 +1102,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_33df1e21-4cbf-4855-b0a7-aa6e7f6364b3",
@@ -1156,9 +1156,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_61667fc1-d8bd-4384-9cee-6d6b06c29d81",
@@ -1210,9 +1210,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_b21b2bd8-452d-4d35-a8ca-71258011d3be",
@@ -1264,9 +1264,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_5dcf95c4-a838-454d-abc7-be060e90047e",
@@ -1318,9 +1318,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_3dec52cc-9391-46d3-9f15-a34586bdc938",
@@ -1372,9 +1372,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_909b8316-e3ca-4603-a70a-675bad820d0d",
@@ -1426,9 +1426,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_0e88807a-6b58-4290-a19d-1569fdcba7a7",
@@ -1480,9 +1480,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_992a9b01-de6b-47ff-9c59-c17cbbc8adb0",
@@ -1534,9 +1534,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_5c6c5c7e-f7ad-4ade-b25d-a256fc0c9491",
@@ -1588,9 +1588,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_cf7d677c-0c51-41c3-be04-af5473134b96",
@@ -1642,9 +1642,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_bf6654f0-3f80-455e-bcce-96ed9d333ab6",
@@ -1696,9 +1696,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_4c688402-11cb-4c75-afdb-51ecf8518f7c",
@@ -1750,9 +1750,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_9af5ec56-f6f6-462e-a51b-359c5244a5f2",
@@ -1804,9 +1804,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_dc09fd3b-6d1d-4e3f-9f4b-57bfaad2a5bb",
@@ -1858,9 +1858,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_ec6a4164-5671-4159-90a8-251cc8e9c2d4",
@@ -1912,9 +1912,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_cfd4e385-1905-4a00-9c61-b64b82035356",
@@ -1966,9 +1966,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_da5be68b-0877-4e95-8ca3-9297022239b7",
@@ -2020,9 +2020,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_cc2e5665-aaee-4239-8442-d049d94e80bc",
@@ -2074,9 +2074,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_0f98941a-ac20-4d05-8cb5-4778c4b677ef",
@@ -2128,9 +2128,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_fd2c4c13-eaa7-431f-bebb-ab77db3047c0",
@@ -2182,9 +2182,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_e656ef33-da5a-483a-9f34-e3a6934b8eb0",
@@ -2236,9 +2236,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_2e4b456f-d58b-4609-a635-a184605196d5",
@@ -2290,9 +2290,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_cea0e1c9-6c45-4486-b3aa-ed074bbd0a98",
@@ -2344,9 +2344,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_5786128b-a153-465b-a7a8-9836eea95ab4",
@@ -2398,9 +2398,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_83da5d32-2102-4823-97c8-0b6b3f345796",
@@ -2452,9 +2452,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_816f40b3-493a-4015-a618-d95555416404",
@@ -2506,9 +2506,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_3e2e3487-3d71-4667-8cbe-139c551957c9",
@@ -2560,9 +2560,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_061c5556-ac9d-4699-9ed6-89ff837afea3",
@@ -2614,9 +2614,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_54432358-86ce-4d22-9236-d83691e80d1b",
@@ -2668,9 +2668,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_1d4dde5f-eedb-4962-b304-dcf2fcfe979b",
@@ -2722,9 +2722,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     },
     {
       "id": "file_2db7a9a4-8dba-4629-9210-33d09e94f44c",
@@ -2776,12 +2776,24 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-09-27T23:53:02.425Z",
+      "approvedAt": "2026-09-27T23:53:06.904Z",
       "rejectedAt": null,
-      "updatedAt": "2026-09-27T23:53:02.425Z"
+      "updatedAt": "2026-09-27T23:53:06.904Z"
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_e00016b1-7bcb-4db6-934e-2d18cecf9347",
+      "timestamp": "2026-09-27T23:53:06.904Z",
+      "action": "bulk-action",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_0e9c4f17-bcab-4da8-981b-188e17d59cb7",
+      "metadata": {
+        "reviewStatus": "approved",
+        "fileCount": 50
+      }
+    },
     {
       "id": "audit_059d838e-9792-4e06-975a-ba803f3081d3",
       "timestamp": "2026-09-27T23:53:02.426Z",
