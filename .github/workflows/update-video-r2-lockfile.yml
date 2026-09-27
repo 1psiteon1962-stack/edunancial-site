@@ -1,6 +1,8 @@
 name: Update Video R2 AWS lockfile
 
 on:
+  pull_request:
+    branches: [main]
   push:
     branches:
       - feat/video-r2-s3-lockfile
