@@ -54,6 +54,7 @@ const ACTIVE_LOCALE_CODES = new Set([
 const PATHS = [
   "",
   "/about",
+  "/blog",
   "/courses",
   "/membership",
   "/levels",
