@@ -1,0 +1,62 @@
+---
+id: RED-L3-016
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 16
+title: "Pourquoi les règles du crédit commercial diffèrent de celles du crédit résidentiel"
+source_title: "Why Commercial Lending Rules Differ from Residential"
+description: "Découvrez pourquoi le financement d'un petit immeuble d'appartements ou d'un bien commercial suit des règles différentes de celles d'une maison individuelle mise en location."
+slug: red-l3-016-commercial-vs-residential-lending
+seo_title: "Pourquoi les règles du crédit commercial diffèrent de celles du crédit résidentiel | Edunancial"
+meta_description: "Découvrez pourquoi le financement d'un petit immeuble d'appartements ou d'un bien commercial suit des règles différentes de celles d'une maison individuelle mise en location."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-016: Pourquoi les règles du crédit commercial diffèrent de celles du crédit résidentiel
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Expliquer le seuil de taille qui sépare généralement le crédit résidentiel du crédit commercial
+- Expliquer pourquoi les prêts commerciaux sont évalués principalement sur les revenus du bien
+- Identifier pourquoi les conditions des prêts commerciaux sont souvent différentes de celles des prêts résidentiels
+
+## Contenu principal
+
+Les règles du crédit résidentiel, y compris la plupart de ce qui a été vu plus tôt dans ce parcours, s'appliquent généralement aux biens de 1 à 4 logements. [VERIFIED FACT] Les biens de 5 logements ou plus, ainsi que la plupart des types de biens non résidentiels, relèvent généralement des règles du crédit commercial, qui suivent un cadre différent.
+
+Voici le « pourquoi » : les prêts résidentiels sont généralement évalués en grande partie sur les revenus personnels et le crédit de l'emprunteur (le DTI, taux d'endettement, vu dans la leçon 4). Les prêts commerciaux déplacent l'accent vers la capacité du bien lui-même à générer des revenus, dans un esprit semblable aux prêts DSCR (ratio de couverture du service de la dette) traités dans une prochaine leçon, mais avec une analyse de financement supplémentaire propre au commercial. Comme les prêts commerciaux sont davantage évalués sur l'actif lui-même, leurs conditions diffèrent souvent sur le plan structurel : des durées de prêt plus courtes (parfois 5 à 10 ans), avec des versements calculés comme si le prêt s'étalait sur une période plus longue, et qui se terminent par un paiement ballon (traité dans une prochaine leçon) plutôt que par un remboursement complet sur 30 ans.
+
+Cette approche d'évaluation différente existe parce que les biens commerciaux et leurs revenus varient beaucoup plus que les maisons individuelles standardisées. Les prêteurs intègrent donc de la souplesse, et une protection contre le risque, dans la structure même du prêt, et pas seulement dans la façon dont ils évaluent l'emprunteur.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur qui achète un immeuble de quatre logements passe par une analyse de financement résidentielle standard, semblable à celle d'un achat de maison individuelle, avec le DTI comme facteur central. Si ce même investisseur achète plutôt un immeuble de 12 appartements, il passe par une analyse de financement commerciale : le prêteur se concentre surtout sur le revenu net d'exploitation de l'immeuble et sur sa couverture du service de la dette, et propose un prêt sur 10 ans avec des versements calculés sur un tableau d'amortissement de 25 ans. Cela signifie qu'un paiement ballon correspondant au solde restant est dû à la fin de la 10e année.
+
+## Quiz d'entraînement
+
+1. Quel seuil de taille sépare généralement le crédit résidentiel du crédit commercial ?
+2. Sur quoi l'analyse de financement commerciale met-elle l'accent, au lieu du DTI personnel de l'emprunteur ?
+3. Pourquoi les prêts commerciaux comportent-ils souvent une structure avec paiement ballon ?
+
+## Corrigé
+
+1. Généralement 5 logements ou plus (ou la plupart des types de biens commerciaux non résidentiels).
+2. La capacité du bien lui-même à générer des revenus et sa couverture du service de la dette.
+3. Parce que la durée des prêts commerciaux est souvent plus courte que la période d'amortissement utilisée pour calculer les versements, ce qui laisse un solde restant dû à la fin du prêt.
+
+## Réponses et explications
+
+1. C'est un seuil factuel utile à connaître avant de comparer les types de prêts.
+2. C'est le changement central de philosophie d'analyse de financement expliqué dans la leçon.
+3. Cette question relie la structure avec paiement ballon (détaillée dans une prochaine leçon) à la durée plus courte des prêts commerciaux.
+
+## Points clés
+- Le crédit résidentiel s'applique généralement aux biens de 1 à 4 logements ; les biens de 5 logements ou plus et la plupart des types de biens commerciaux relèvent du crédit commercial.
+- L'analyse de financement commerciale met l'accent sur les revenus du bien, et pas seulement sur les finances personnelles de l'emprunteur.
+- Les prêts commerciaux ont souvent des durées plus courtes avec un paiement ballon, ce qui reflète l'approche différente du prêteur face au risque de biens plus grands et plus variables.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel autorisé avant de prendre des décisions financières.*

@@ -1,0 +1,62 @@
+---
+id: RED-L3-026
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 26
+title: "Pourquoi le blocage de taux et le rachat de taux sont des outils de calendrier, pas des remises"
+source_title: "Why Rate Locks and Buydowns Are Timing Tools, Not Discounts"
+description: "Comprenez pourquoi bloquer un taux ou payer des points pour le faire baisser sert à gérer un risque de calendrier, et non à faire une bonne affaire."
+slug: red-l3-026-rate-locks-and-buydowns
+seo_title: "Pourquoi le blocage de taux et le rachat de taux sont des outils de calendrier, pas des remises | Edunancial"
+meta_description: "Comprenez pourquoi bloquer un taux ou payer des points pour le faire baisser sert à gérer un risque de calendrier, et non à faire une bonne affaire."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-026: Pourquoi le blocage de taux et le rachat de taux sont des outils de calendrier, pas des remises
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Expliquer ce que fait un blocage de taux et pourquoi le calendrier compte entre la demande de prêt et la signature
+- Expliquer comment fonctionne un rachat de taux (des « points »)
+- Expliquer pourquoi un rachat de taux est un arbitrage, et pas simplement une remise
+
+## Contenu principal
+
+Les taux d'intérêt peuvent bouger entre le jour où vous faites votre demande de prêt et le jour de la signature. Un **blocage de taux** (rate lock) fige le taux d'intérêt qu'on vous a proposé pendant une période donnée. Il vous protège contre les hausses de taux pendant cette période, mais cela signifie aussi que vous ne profiterez pas d'une éventuelle baisse des taux avant la signature, sauf si le blocage comprend une option précise de baisse (float-down).
+
+Un **rachat de taux** (buydown, où l'on paie des « points ») est différent : ce sont des frais payés d'avance à la signature en échange d'un taux d'intérêt plus bas, de façon permanente, sur le prêt. [VERIFIED FACT] Un point coûte généralement 1 % du montant du prêt et fait souvent baisser le taux d'un montant modeste, mais le rapport exact varie selon le prêteur et les conditions du marché.
+
+Voici le « pourquoi » qui compte : un rachat de taux n'est pas une remise. C'est un échange d'argent aujourd'hui contre un versement plus bas au fil du temps. Savoir s'il vaut la peine dépend de la durée pendant laquelle vous comptez garder le prêt, ce qui renvoie directement à la leçon 15 sur la stratégie de sortie. Si vous comptez refinancer ou vendre avant que les économies mensuelles dépassent le coût payé d'avance, le rachat de taux ne se rembourse pas.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] On propose un taux à une investisseuse, et elle peut payer 3 000 $ d'avance pour faire baisser ce taux, ce qui lui ferait économiser [ASSUMPTION] environ 60 $ par mois sur son versement. Il faut donc 50 mois (environ 4 ans) pour atteindre le point mort, c'est-à-dire avant que le rachat de taux « se rembourse ». Si elle prévoit de refinancer d'ici 2 ans dans le cadre d'une stratégie BRRRR (acheter, rénover, louer, refinancer, répéter — leçon 9), le rachat de taux n'en vaut probablement pas la peine. Si elle prévoit de garder le prêt 15 ans ou plus, il en vaut probablement la peine.
+
+## Quiz d'entraînement
+
+1. Contre quoi un blocage de taux protège-t-il, et contre quoi ne protège-t-il pas (sans option de baisse) ?
+2. Comment fonctionne un rachat de taux ?
+3. Pourquoi la stratégie de sortie d'un investisseur influence-t-elle directement l'intérêt d'un rachat de taux ?
+
+## Corrigé
+
+1. Il protège contre les hausses de taux avant la signature ; sans option de baisse, il ne vous permet pas de profiter d'une baisse des taux si elle se produit.
+2. On paie des frais d'avance (des « points ») à la signature en échange d'un taux d'intérêt plus bas, de façon permanente, sur le prêt.
+3. Parce que le coût payé d'avance ne « se rembourse » qu'après suffisamment de mois de versements plus bas ; une courte durée de détention prévue peut ne pas laisser assez de temps pour récupérer ce coût.
+
+## Réponses et explications
+
+1. Cette question teste la limite précise d'un blocage de taux standard, pas seulement son avantage.
+2. C'est la base mécanique du reste de la leçon.
+3. Cette question relie directement la décision au principe de la leçon 15 : la stratégie de sortie doit guider les choix de financement.
+
+## Points clés
+- Un blocage de taux protège contre les hausses de taux avant la signature, mais ne permet généralement pas de profiter d'une baisse, sauf s'il comprend une option de baisse.
+- Un rachat de taux échange de l'argent payé d'avance contre un taux plus bas sur toute la durée du prêt : c'est un arbitrage, pas une remise.
+- L'intérêt d'un rachat de taux dépend fortement de la durée pendant laquelle vous comptez garder le prêt.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel autorisé avant de prendre des décisions financières.*

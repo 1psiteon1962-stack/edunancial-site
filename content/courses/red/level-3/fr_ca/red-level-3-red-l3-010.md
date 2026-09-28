@@ -1,0 +1,62 @@
+---
+id: RED-L3-010
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 10
+title: "Pourquoi l'inoccupation et les réserves changent votre vrai risque lié à l'effet de levier"
+source_title: "Why Vacancy and Reserves Change Your Real Leverage Risk"
+description: "Découvrez pourquoi le loyer qu'un bien « devrait » rapporter et le loyer qu'il encaisse réellement sont deux chiffres différents, et pourquoi les réserves vous protègent de cet écart."
+slug: red-l3-010-vacancy-and-reserves
+seo_title: "Pourquoi l'inoccupation et les réserves changent votre vrai risque lié à l'effet de levier | Edunancial"
+meta_description: "Découvrez pourquoi le loyer qu'un bien « devrait » rapporter et le loyer qu'il encaisse réellement sont deux chiffres différents, et pourquoi les réserves vous protègent de cet écart."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-010: Pourquoi l'inoccupation et les réserves changent votre vrai risque lié à l'effet de levier
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Expliquer pourquoi le loyer prévu et le loyer encaissé ne sont pas le même chiffre
+- Expliquer pourquoi les réserves de trésorerie sont une forme de gestion du risque face à l'effet de levier
+- Calculer une estimation simple du cash-flow ajusté de l'inoccupation
+
+## Contenu principal
+
+Toutes les prévisions de cash-flow des leçons précédentes supposaient que le loyer est payé à temps, chaque mois. En réalité, les logements restent vides entre deux locataires, les locataires paient parfois en retard, et des réparations imprévues surviennent. Pourquoi est-ce si important ici ? Parce que votre versement de prêt hypothécaire ne s'arrête pour aucune de ces raisons : le prêteur attend son paiement, que le logement soit occupé ou non.
+
+C'est pourquoi les investisseurs expérimentés intègrent dès le départ un **taux d'inoccupation** et une **réserve pour entretien** dans leurs prévisions, au lieu de les traiter après coup. [ILLUSTRATIVE EXAMPLE] Prévoir 5 à 8 % d'inoccupation signifie mettre de côté ce pourcentage du loyer attendu, même les mois où le logement est effectivement occupé, pour que l'argent soit là quand une période d'inoccupation finira par arriver, car elle arrivera, tôt ou tard.
+
+Les réserves servent de coussin entre l'obligation fixe d'un bien financé par effet de levier (le versement du prêt hypothécaire) et sa réalité variable (les revenus réellement encaissés). Sans réserves, un investisseur n'est qu'à un mauvais mois de devoir payer le versement de sa poche, ce qui transforme une dette stratégique en dette de consommation, comme vu plus tôt dans ce parcours.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un bien se loue 1 800 $ par mois. Un calcul naïf du cash-flow suppose que 1 800 $ arrivent chaque mois. [ASSUMPTION] Prévoir une réserve pour inoccupation de 7 % revient à mettre de côté 126 $ par mois, ce qui laisse 1 674 $ par mois comme revenu « réel » pour vérifier si le versement du prêt et les dépenses sont couverts : un chiffre plus honnête que le loyer affiché.
+
+## Quiz d'entraînement
+
+1. Pourquoi le loyer affiché n'est-il pas égal à un revenu mensuel fiable ?
+2. À quoi sert une réserve pour inoccupation ?
+3. Qu'arrive-t-il à un investisseur sans réserves quand un logement se retrouve vide ?
+
+## Corrigé
+
+1. Parce que l'inoccupation, les retards de paiement et les périodes entre deux locataires font baisser les revenus réellement encaissés en dessous du loyer affiché.
+2. Elle met de côté une partie des revenus pendant les mois où le logement est occupé, pour que des fonds soient disponibles pendant les mois d'inoccupation inévitables.
+3. Il risque de devoir payer le versement du prêt de sa poche, ce qui peut transformer une dette stratégique en charge payée de sa propre poche.
+
+## Réponses et explications
+
+1. Cette question distingue un chiffre marketing d'un chiffre d'analyse de financement, ce qui est le point central de la leçon.
+2. Cette question confirme que vous comprenez les réserves comme un coussin préventif, et non comme une réaction à une crise.
+3. Cette question relie la leçon à la distinction entre dette stratégique et dette de consommation vue dans la leçon 1.
+
+## Points clés
+- Le loyer affiché et les revenus encaissés de façon fiable ne sont pas le même chiffre.
+- Les réserves pour inoccupation doivent être intégrées aux prévisions dès le départ, et non traitées après coup.
+- Ce sont les réserves qui permettent à un bien financé par effet de levier de continuer à se comporter comme une dette stratégique pendant un mois difficile.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel autorisé avant de prendre des décisions financières.*

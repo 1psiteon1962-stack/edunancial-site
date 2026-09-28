@@ -240,11 +240,24 @@ for (const path of walk(legacyRoot)) {
   const rawLocale = directoryLocale && canonicalLocale(directoryLocale) ? directoryLocale : filenameLocale;
   if (!rawLocale) continue;
 
-  // Level 2 master curricula are intentionally stored as bundled en_us Markdown
-  // files containing many lesson IDs. Treat every lesson section in those
-  // authoritative English bundles as canonical rather than as a translation of
-  // only the first ID. This matches the preservation and runtime discovery paths.
+  // U.S. English files in the authoritative content/courses tree are canonical
+  // curriculum sources. Level 2 may be stored as a 50-lesson bundle, while
+  // Levels 3-5 are commonly stored as one Markdown file per lesson. Treat both
+  // layouts as canonical so localized siblings are never misclassified as
+  // translations without a source lesson.
   const canonicalDirectoryLocale = canonicalLocale(directoryLocale);
+  if (canonicalDirectoryLocale === defaultLocale && !/full-50-lessons/iu.test(filename)) {
+    const lesson = ensureLesson(id);
+    if (!lesson.canonical) {
+      lesson.canonical = {
+        path: relativePath,
+        version: null,
+        checksum: `sha256:${hash(raw)}`,
+      };
+    }
+    continue;
+  }
+
   if (canonicalDirectoryLocale === defaultLocale && /full-50-lessons/iu.test(filename)) {
     const ids = [...new Set([...raw.matchAll(/([A-Z]+-L\d+-\d{3})/gu)].map((match) => match[1]))];
     for (const bundledId of ids) {
