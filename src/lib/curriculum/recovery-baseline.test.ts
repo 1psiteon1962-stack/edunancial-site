@@ -51,6 +51,17 @@ test("all eight committed Level 3 sets remain discoverable", async () => {
   }
 });
 
+test("RED and WHITE Level 3 uploaded lessons survive the deployment manifest boundary", async () => {
+  for (const code of ["RED", "WHITE"] as const) {
+    const track = await getPublishedTrack(code, "en-US");
+    const level = track?.levels.find((entry) => entry.level === 3);
+    assert.equal(level?.lessonCount, 50, `${code} Level 3 must expose all 50 uploaded lessons`);
+    assert.equal(level?.lessons[0]?.id, `${code}-L3-001`);
+    assert.equal(level?.lessons[49]?.id, `${code}-L3-050`);
+    assert.ok(level?.lessons.every((lesson) => lesson.body.trim().length > 0), `${code} Level 3 lessons must include bodies`);
+  }
+});
+
 test("curriculum resolution remains locale-driven rather than language-hardwired", async () => {
   const english = await getPublishedTrack("RED", "en-US");
   const spanish = await getPublishedTrack("RED", "es-ES");
