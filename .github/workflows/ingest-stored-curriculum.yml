@@ -1,0 +1,44 @@
+name: Ingest Stored Curriculum
+on:
+  push:
+    branches: [admin-content-storage]
+    paths: [".edunancial-admin-content/uploads/**"]
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: stored-curriculum-ingest
+  cancel-in-progress: false
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fetch storage branch
+        run: git fetch origin admin-content-storage:refs/remotes/origin/admin-content-storage
+      - name: Ingest stored ZIPs
+        env:
+          EDUNANCIAL_STORAGE_REF: origin/admin-content-storage
+        run: node scripts/curriculum/ingest-stored-zips.mjs
+      - name: Validate curriculum
+        run: npm run curriculum:validate
+      - name: Open publication PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- content/courses .edunancial-admin-content/ingest-ledger.json; then exit 0; fi
+          branch="automation/stored-curriculum-ingest"
+          git config user.name "edunancial-curriculum-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add content/courses .edunancial-admin-content/ingest-ledger.json
+          git commit -m "Ingest stored curriculum packages"
+          git push --force-with-lease origin "$branch"
+          gh pr create --base main --head "$branch" --title "Ingest stored curriculum packages" --body "Repository-authoritative ingestion from admin-content-storage. Validated before publication." || true
+          gh pr merge "$branch" --auto --squash || true

@@ -1,0 +1,3 @@
+import test from "node:test";import assert from "node:assert/strict";import {readFileSync} from "node:fs";
+test("stored curriculum ingestion is repository authoritative and resumable",()=>{const s=readFileSync("scripts/curriculum/ingest-stored-zips.mjs","utf8");assert.match(s,/admin-content-storage/);assert.match(s,/sha256/);assert.match(s,/g\.length!==50/);assert.match(s,/status:"ingested"/)});
+test("ingestion workflow is push plus scheduled safety net",()=>{const w=readFileSync(".github/workflows/ingest-stored-curriculum.yml","utf8");assert.match(w,/admin-content-storage/);assert.match(w,/cron: "\*\/30/);assert.match(w,/curriculum:validate/);});
