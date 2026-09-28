@@ -1,5 +1,13 @@
 [
   {
+    "id": "audit_c465782f-076c-4054-baf0-28f0b17678e0",
+    "timestamp": "2026-09-28T00:52:32.480Z",
+    "action": "batch-created",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_391ff346-181a-484b-8497-2715a3389a3e"
+  },
+  {
     "id": "upload-operation-1c6ae519-5d19-42d3-bd97-fc7789460892",
     "timestamp": "2026-09-28T00:52:31.545Z",
     "action": "system-error",
