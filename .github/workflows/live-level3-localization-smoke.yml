@@ -1,0 +1,38 @@
+name: Live Level 3 Localization Smoke
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Base URL to test
+        required: false
+        default: https://www.edunancial.com
+  schedule:
+    - cron: "27 14 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-level3-localization-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify live Level 3 translations
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://www.edunancial.com' }}
+          RETRY_COUNT: "20"
+          RETRY_DELAY_MS: "30000"
+        run: node scripts/live-level3-localization-smoke.mjs
