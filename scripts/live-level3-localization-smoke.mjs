@@ -20,7 +20,7 @@ function parseLessonMetadata(raw){
       }
     }
   }
-  const heading=raw.match(/^#\s+([A-Z]+-L\d+-\d{3})(?::\s*(.+))?$/mu);
+  const heading=raw.match(/^#\s+([A-Z]+-L\d+-\d{3})\s*(?::\s*(.+))?$/mu);
   if(!out.id&&heading?.[1])out.id=heading[1].trim();
   if(!out.title&&heading?.[2])out.title=heading[2].trim();
   return out;
