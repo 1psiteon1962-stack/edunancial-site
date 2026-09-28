@@ -11,7 +11,8 @@
       "nativeName": "English (United States)",
       "direction": "ltr",
       "fallbackChain": [],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": false
     },
     {
       "locale": "en-GB",
@@ -24,7 +25,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": false
     },
     {
       "locale": "es",
@@ -36,7 +38,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": false
     },
     {
       "locale": "es-419",
@@ -50,7 +53,8 @@
         "es",
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "es-Caribbean",
@@ -63,7 +67,8 @@
         "es",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "es-ES",
@@ -77,7 +82,8 @@
         "es",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "fr-CA",
@@ -91,7 +97,8 @@
         "fr",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "fr-FR",
@@ -105,7 +112,8 @@
         "fr",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "pt-BR",
@@ -119,7 +127,8 @@
         "pt",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "pt-PT",
@@ -133,7 +142,8 @@
         "pt",
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "de",
@@ -145,7 +155,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "it",
@@ -157,7 +168,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "nl",
@@ -169,7 +181,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": true
     },
     {
       "locale": "ht",
@@ -181,7 +194,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "active"
+      "status": "active",
+      "curriculumRequired": false
     },
     {
       "locale": "sw",
@@ -193,7 +207,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "lg",
@@ -205,7 +220,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "ar",
@@ -217,7 +233,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "fa",
@@ -229,7 +246,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "zh-Hans",
@@ -241,7 +259,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "zh-Hant",
@@ -253,7 +272,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "ja",
@@ -265,7 +285,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     },
     {
       "locale": "ko",
@@ -277,7 +298,8 @@
       "fallbackChain": [
         "en-US"
       ],
-      "status": "planned"
+      "status": "planned",
+      "curriculumRequired": false
     }
   ]
 }
