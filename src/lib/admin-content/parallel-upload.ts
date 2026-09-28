@@ -1,6 +1,6 @@
-export const DEFAULT_UPLOAD_CONCURRENCY = 4;
-export const DEFAULT_UPLOAD_RETRIES = 2;
-const BASE_UPLOAD_RETRY_DELAY_MS = 750;
+export const DEFAULT_UPLOAD_CONCURRENCY = 2;
+export const DEFAULT_UPLOAD_RETRIES = 4;
+const BASE_UPLOAD_RETRY_DELAY_MS = 1000;
 
 export type UploadProgress = {
   completedBytes: number;
