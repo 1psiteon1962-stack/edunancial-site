@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-bb88343d-87de-461e-9625-f4445b8f982e",
+    "timestamp": "2026-09-28T00:52:35.619Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_bd851697-7dc0-4825-aa75-40cf2d113e06",
+      "phase": "FINALIZE",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611/upload_bd851697-7dc0-4825-aa75-40cf2d113e06-white-l3-001-050-nl.zip",
+      "fileName": "WHITE-L3-001-050-nl.zip",
+      "fileSize": 106057,
+      "errorCode": "Error",
+      "errorMessage": "Localized curriculum package white/level-3/nl failed publication validation: approved=50, uniqueLessons=0, unsafeFiles=0. Expected exactly 50 unique lessons with no conflicts, duplicates, or processing errors.",
+      "mode": "single-package-request"
+    }
+  },
+  {
     "id": "audit_c465782f-076c-4054-baf0-28f0b17678e0",
     "timestamp": "2026-09-28T00:52:32.480Z",
     "action": "batch-created",
