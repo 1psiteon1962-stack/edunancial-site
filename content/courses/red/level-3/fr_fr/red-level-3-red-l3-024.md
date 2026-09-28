@@ -1,0 +1,62 @@
+---
+id: RED-L3-024
+locale: fr-FR
+source_locale: en-US
+track: RED
+level: 3
+lesson: 24
+title: "Pourquoi le taux de capitalisation et le taux du prêt immobilier doivent être comparés ensemble"
+source_title: "Why Cap Rate and Mortgage Rate Have to Be Compared Together"
+description: "Découvrez pourquoi comparer le taux de capitalisation d'un bien au taux de son prêt immobilier révèle si l'effet de levier va améliorer ou dégrader votre rendement."
+slug: red-l3-024-cap-rate-vs-mortgage-rate
+seo_title: "Pourquoi le taux de capitalisation et le taux du prêt immobilier doivent être comparés ensemble | Edunancial"
+meta_description: "Découvrez pourquoi comparer le taux de capitalisation d'un bien au taux de son prêt immobilier révèle si l'effet de levier va améliorer ou dégrader votre rendement."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-024: Pourquoi le taux de capitalisation et le taux du prêt immobilier doivent être comparés ensemble
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Définir le taux de capitalisation (cap rate)
+- Expliquer pourquoi comparer le taux de capitalisation au taux du prêt immobilier permet de prévoir si l'effet de levier aide ou nuit
+- Identifier le terme utilisé quand cette comparaison est favorable à l'emprunteur
+
+## Contenu principal
+
+Le **taux de capitalisation** (cap rate) est le revenu net d'exploitation d'un bien divisé par son prix d'achat (ou sa valeur actuelle), exprimé en pourcentage. C'est une façon de mesurer le rendement d'un bien comme s'il avait été acheté entièrement au comptant, sans aucun financement.
+
+Voici le « pourquoi » du lien avec l'effet de levier : comparer le taux de capitalisation au taux d'intérêt du prêt immobilier vous indique, de façon générale, si emprunter pour acheter le bien a des chances d'améliorer ou de dégrader votre rendement cash-on-cash (le rendement sur l'argent que vous avez réellement investi, comme présenté dans la leçon 3). Si le taux de capitalisation est supérieur au taux du prêt immobilier, on parle généralement d'**effet de levier positif** : le rendement du bien dépasse le coût de la dette, et emprunter a tendance à porter votre rendement cash-on-cash au-dessus du taux de capitalisation du bien lui-même. Si le taux du prêt immobilier est supérieur au taux de capitalisation, on parle d'**effet de levier négatif** : le coût de la dette dépasse le rendement propre du bien, et emprunter a tendance à faire baisser votre rendement cash-on-cash en dessous du taux de capitalisation (un sujet approfondi dans la leçon suivante).
+
+[VERIFIED FACT] Cette comparaison est un outil de tri utile, et non une analyse de financement complète : le rendement cash-on-cash réel dépend aussi des conditions précises du prêt, du montant de l'apport et des dépenses réelles du bien, des points traités ailleurs dans ce parcours.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un bien a un taux de capitalisation de 7 %. Si les taux des prêts immobiliers pour des biens d'investissement similaires tournent autour de 6 %, on est dans un scénario d'effet de levier positif : emprunter à un taux inférieur au rendement du bien sans levier a tendance à amplifier le rendement cash-on-cash de l'investisseur au-delà de 7 %. Si les taux des prêts immobiliers tournaient plutôt autour de 8 %, on serait dans un scénario d'effet de levier négatif : le coût de la dette dépasse le rendement propre du bien, et le rendement cash-on-cash aurait tendance à tomber en dessous de 7 %, alors que le bien lui-même n'a absolument pas changé.
+
+## Quiz d'entraînement
+
+1. Que mesure le taux de capitalisation, et quelle hypothèse de financement fait-il ?
+2. Que signifie le fait qu'un bien soit en situation d'« effet de levier positif » ?
+3. Pourquoi un même bien peut-il être une opération à « effet de levier positif » à un moment donné et à « effet de levier négatif » à un autre ?
+
+## Corrigé
+
+1. Le revenu net d'exploitation divisé par le prix ou la valeur du bien, en supposant un achat entièrement au comptant, sans financement.
+2. Le taux de capitalisation du bien est supérieur au taux d'intérêt du prêt immobilier, ce qui signifie qu'emprunter a tendance à porter le rendement cash-on-cash de l'investisseur au-dessus du taux de capitalisation du bien lui-même.
+3. Parce que les taux des prêts immobiliers changent avec le temps (et que les taux de capitalisation peuvent aussi évoluer avec les conditions du marché) : la situation de levier d'un même bien dépend des taux d'intérêt en vigueur au moment du financement, et pas seulement du bien lui-même.
+
+## Réponses et explications
+
+1. Cette question pose la référence sans levier à laquelle le reste de la leçon se compare.
+2. C'est la définition centrale autour de laquelle la leçon est construite.
+3. Cette question relie le concept au risque lié aux cycles de taux vu dans la leçon 6 et évoqué dans la leçon 14 : le calcul de l'effet de levier d'un même actif évolue avec les taux d'intérêt du marché.
+
+## Points clés
+- Le taux de capitalisation mesure le rendement sans levier d'un bien, à partir du revenu net d'exploitation et du prix.
+- Comparer le taux de capitalisation au taux du prêt immobilier révèle si l'effet de levier va améliorer (« effet de levier positif ») ou dégrader (« effet de levier négatif ») votre rendement cash-on-cash.
+- Cette comparaison évolue avec les cycles de taux d'intérêt : un même bien peut passer d'un effet de levier positif à un effet de levier négatif à mesure que les taux changent.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, d'investissement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel agréé avant de prendre des décisions financières.*

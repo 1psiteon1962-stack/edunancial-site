@@ -1,0 +1,73 @@
+---
+id: RED-L3-005
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 5
+title: "Pourquoi le cash-flow, et non la plus-value, doit guider la décision"
+source_title: "Why Cash Flow, Not Appreciation, Should Drive the Decision"
+description: "Découvrez pourquoi compter sur la hausse de valeur d'un bien est une stratégie plus fragile que compter sur le cash-flow mensuel, et pourquoi ce ne sont pas du tout les mêmes paris."
+slug: red-l3-005-cash-flow-vs-appreciation
+seo_title: "Pourquoi le cash-flow, et non la plus-value, doit guider la décision | Edunancial"
+meta_description: "Découvrez pourquoi compter sur la hausse de valeur d'un bien est une stratégie plus fragile que compter sur le cash-flow mensuel, et pourquoi ce ne sont pas du tout les mêmes paris."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-005: Pourquoi le cash-flow, et non la plus-value, doit guider la décision
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Distinguer le cash-flow et la plus-value comme sources de rendement immobilier
+- Expliquer pourquoi la plus-value est plus difficile à contrôler ou à prévoir que le cash-flow
+- Expliquer pourquoi un bien à cash-flow négatif est plus risqué, même s'il prend de la valeur
+
+## Contenu principal
+
+Un immeuble à revenus peut vous rapporter de l'argent de deux façons : le cash-flow mensuel (le loyer moins toutes les dépenses, y compris le prêt hypothécaire) et la plus-value (le bien qui vaut plus avec le temps). Les deux sont réels. Ils ne sont pas aussi fiables l'un que l'autre.
+
+Le cash-flow se mesure aujourd'hui. Vous pouvez calculer, avec des chiffres réels, ce qu'un bien vous rapporte net chaque mois. La plus-value est une projection sur l'avenir : elle dépend du marché local, de l'économie en général et d'un calendrier que vous ne contrôlez pas. [VERIFIED FACT] Les marchés immobiliers ont connu, historiquement, à la fois de longues périodes de hausse et des périodes de baisse ou de stagnation, et les performances passées d'un marché ou d'une période ne garantissent pas les résultats futurs d'un autre.
+
+Voici le « pourquoi » qui compte à ce niveau : un bien avec un bon cash-flow mensuel continue de vous payer, que le marché bouge ou non. Un bien qui ne « fonctionne » que parce que vous pariez sur une plus-value est un pari sur une variable qui vous échappe ; et si le marché stagne ou baisse pendant que vous détenez un bien à cash-flow négatif, vous payez de votre poche chaque mois, sans autre moyen d'arrêter l'hémorragie que de vendre, souvent à perte.
+
+Cela ne veut pas dire que la plus-value ne compte pas : elle représente souvent une part importante des rendements immobiliers à long terme. Cela veut dire que la plus-value doit être traitée comme un bonus en plus d'une opération qui fonctionne déjà grâce au cash-flow, et non comme la raison pour laquelle l'opération fonctionne.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux investisseurs achètent chacun un bien de 300 000 $ la même année.
+
+- **Bien A** : loué 2 200 $ par mois ; toutes les dépenses (prêt hypothécaire, taxes municipales, assurance, réserve d'entretien) s'élèvent à 2 000 $ par mois. Cash-flow : +200 $ par mois.
+- **Bien B** : loué 1 800 $ par mois ; toutes les dépenses s'élèvent à 2 300 $ par mois. Cash-flow : -500 $ par mois. L'acheteur l'a accepté parce que le quartier allait « forcément prendre de la valeur ».
+
+[ASSUMPTION] Si le marché local stagne pendant trois ans (prix stables, aucune plus-value), le propriétaire du bien A a encaissé 7 200 $ de cash-flow sur cette période. Le propriétaire du bien B a payé 18 000 $ de sa poche sur la même période, sans aucune plus-value pour compenser. Le pari sur la plus-value ne s'est pas concrétisé dans les délais de ce propriétaire, et il n'avait aucun coussin de cash-flow sur lequel se replier.
+
+## Quiz d'entraînement
+
+1. Quelle est la différence essentielle entre le cash-flow et la plus-value comme sources de rendement ?
+2. Pourquoi un bien à cash-flow négatif est-il considéré comme plus risqué, même sur un marché qui a historiquement pris de la valeur ?
+3. Dans l'exemple pratique, qu'est-ce qui a précisément mal tourné pour le propriétaire du bien B ?
+4. Cette leçon affirme-t-elle que la plus-value n'a pas d'importance ? Pourquoi ?
+
+## Corrigé
+
+1. Le cash-flow est un rendement actuel et mesurable ; la plus-value est une projection sur l'avenir qui dépend de facteurs hors du contrôle de l'investisseur.
+2. Parce que si la plus-value n'arrive pas dans les délais prévus, le propriétaire n'a aucun coussin et paie de sa poche chaque mois, sans gain pour compenser.
+3. Il comptait sur la plus-value pour que l'opération fonctionne, mais le marché a stagné, ce qui lui a laissé des années de pertes payées de sa poche sans aucun gain compensatoire.
+4. Non : la leçon affirme que la plus-value doit être un bonus en plus d'une opération à cash-flow positif, et non la raison pour laquelle on accepte une opération.
+
+## Réponses et explications
+
+1. C'est la distinction centrale de la leçon : contrôle et mesurabilité d'un côté, projection et dépendance au marché de l'autre.
+2. Cette question teste le « pourquoi » du risque : ce n'est pas que la plus-value n'arrive jamais, c'est que miser toute l'opération sur elle supprime votre marge de sécurité.
+3. Cette question vérifie que vous savez relier l'échec précis décrit dans l'exemple au principe de fond.
+4. Cette question évite une conclusion trop simpliste : la leçon n'est pas contre la plus-value, elle porte sur l'ordre dans lequel vous comptez sur chaque source de rendement.
+
+## Points clés
+- Le cash-flow se mesure aujourd'hui ; la plus-value est une projection sur demain.
+- Un bien à cash-flow positif peut traverser un marché stable ou en baisse ; un bien à cash-flow négatif qui parie sur la plus-value ne le peut pas.
+- La plus-value doit être traitée comme un bonus sur une opération qui fonctionne déjà, et non comme la raison d'accepter une opération.
+- Les marchés évoluent par cycles : une opération qui ne fonctionne que si le marché coopère est plus fragile qu'une opération qui fonctionne dans tous les cas.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel autorisé avant de prendre des décisions financières.*

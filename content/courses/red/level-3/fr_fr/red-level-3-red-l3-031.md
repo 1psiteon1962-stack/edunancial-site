@@ -1,0 +1,62 @@
+---
+id: RED-L3-031
+locale: fr-FR
+source_locale: en-US
+track: RED
+level: 3
+lesson: 31
+title: "Pourquoi les prêts relais existent pour combler l'écart entre deux opérations"
+source_title: "Why Bridge Loans Exist for the Gap Between Deals"
+description: "Découvrez pourquoi les prêts relais existent pour résoudre les décalages de calendrier à court terme entre l'achat d'un bien et la finalisation d'une autre opération."
+slug: red-l3-031-bridge-loans
+seo_title: "Pourquoi les prêts relais existent pour combler l'écart entre deux opérations | Edunancial"
+meta_description: "Découvrez pourquoi les prêts relais existent pour résoudre les décalages de calendrier à court terme entre l'achat d'un bien et la finalisation d'une autre opération."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-031: Pourquoi les prêts relais existent pour combler l'écart entre deux opérations
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Expliquer quel problème un prêt relais est conçu pour résoudre
+- Donner un exemple de décalage de calendrier qu'un prêt relais peut couvrir
+- Expliquer le principal risque de compter sur un prêt relais
+
+## Contenu principal
+
+Un **prêt relais** (bridge loan) est un prêt à court terme conçu pour faire le « pont » entre deux événements financiers, le plus souvent entre l'achat d'un nouveau bien et soit la vente d'un bien existant, soit l'obtention d'un financement permanent à long terme. C'est un proche parent des prêts de fonds privés (hard money) et des prêts privés vus dans la leçon 17 : il met lui aussi l'accent sur la rapidité plutôt que sur une analyse de crédit standardisée.
+
+Voici le « pourquoi » des prêts relais : les transactions immobilières tombent rarement parfaitement au bon moment. Un investisseur peut trouver une excellente nouvelle opération avant que son bien actuel soit vendu, ou avoir besoin de conclure rapidement un achat avant de pouvoir organiser un refinancement classique (comme dans la stratégie BRRRR — acheter, rénover, louer, refinancer, répéter — leçon 9). Un prêt relais fournit un capital temporaire pour combler ce décalage, en prévoyant qu'il sera remboursé assez vite grâce à la vente ou au financement permanent vers lequel il fait le « pont ».
+
+[VERIFIED FACT] Les prêts relais ont généralement des taux d'intérêt plus élevés et des durées plus courtes que les financements classiques, ce qui reflète leur objectif à court terme, centré sur le calendrier. Ils dépendent aussi du fait que l'événement prévu (une vente ou un refinancement) se produise vraiment dans les délais.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse trouve un excellent nouveau bien, mais son bien locatif actuel n'est pas encore vendu, et elle ne veut pas perdre la nouvelle opération en attendant que cette vente se conclue. Elle prend un prêt relais à court terme pour financer le nouvel achat, en prévoyant de le rembourser dès que son bien actuel sera vendu. [ASSUMPTION] Si cette vente prend plus de temps que prévu, ou échoue, elle se retrouve avec un prêt à court terme coûteux plus longtemps que prévu. Cela montre le risque de compter sur un événement attendu pour régler une dette à court terme.
+
+## Quiz d'entraînement
+
+1. Quel problème un prêt relais est-il conçu pour résoudre ?
+2. Par quoi le financement relais est-il censé être remplacé, et dans quel délai ?
+3. Quel est le principal risque d'utiliser un prêt relais ?
+
+## Corrigé
+
+1. Un décalage de calendrier entre deux événements financiers, par exemple acheter un nouveau bien avant d'avoir vendu un bien existant ou avant d'avoir organisé un financement permanent.
+2. Il est censé être remplacé assez vite par un financement permanent ou par l'argent de la vente liée à l'événement prévu.
+3. Si l'événement prévu (une vente ou un refinancement) est retardé ou échoue, l'emprunteur peut se retrouver avec une dette à court terme coûteuse plus longtemps que prévu.
+
+## Réponses et explications
+
+1. Cette réponse établit l'objectif précis qui distingue un prêt relais des autres types de financement à court terme.
+2. Cette réponse précise qu'un prêt relais est par nature une solution de transition, pas une solution à long terme.
+3. C'est le risque central de la leçon, qui dépend d'un événement que l'emprunteur ne contrôle pas entièrement.
+
+## Points clés
+- Un prêt relais fournit un capital à court terme pour couvrir un décalage de calendrier entre deux événements financiers.
+- Il est censé être remboursé assez rapidement grâce à une vente ou à un financement permanent.
+- Le principal risque est que l'événement prévu ne se produise pas dans les délais, laissant l'emprunteur avec une dette à court terme coûteuse plus longtemps que prévu.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, d'investissement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel agréé avant de prendre des décisions financières.*
