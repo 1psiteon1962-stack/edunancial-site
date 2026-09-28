@@ -27,6 +27,8 @@ const curriculumRoutes = [
   "**/courses/**",
   "**/curriculum",
   "**/curriculum/**",
+  "**/api/public/curriculum",
+  "**/api/public/curriculum/**",
   "**/curriculum-diagnostic",
   "**/reconcile-translations",
   "**/progress",
