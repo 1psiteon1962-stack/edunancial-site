@@ -1,12 +1,8 @@
 name: Netlify Production Deploy
 
 on:
-  # One-time recovery trigger: this workflow runs on main only when this workflow
-  # file itself changes. It does not run on ordinary application/content pushes.
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/manual-netlify-deploy.yml"
+  # Production deploys are owned by Netlify's Git integration. This workflow is
+  # an explicit fallback only and must not create a second deploy for every main push.
   workflow_dispatch:
     inputs:
       reason:
