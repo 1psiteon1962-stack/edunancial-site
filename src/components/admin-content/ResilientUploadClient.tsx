@@ -14,7 +14,7 @@ type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];
 const TRACKS:Array<{value:Track;label:string}>=[{value:"red",label:"🔴 Red — Real Estate"},{value:"white",label:"⚪ White — Paper Assets"},{value:"blue",label:"🔵 Blue — Business"},{value:"green",label:"🟢 Green — Taxes"},{value:"gold",label:"🟡 Gold — Investing"},{value:"purple",label:"🟣 Purple — Law"},{value:"orange",label:"🟠 Orange — Sales & Marketing"},{value:"black",label:"⚫ Black — Leadership & Executive Management"}];
 const TRACK_VALUES=new Set(TRACKS.map(t=>t.value));
 const HUMAN_LOCALES:Array<[string,AdminContentLanguage]>=[["spanish-latin-america-caribbean","es-Caribbean"],["spanish-caribbean","es-Caribbean"],["portuguese-brazil","pt-BR"],["brazilian-portuguese","pt-BR"],["portuguese-portugal","pt-PT"],["french-canadian","fr-CA"],["canadian-french","fr-CA"],["french-france","fr-FR"],["spanish-spain","es-ES"],["english-uk","en-GB"],["english-united-kingdom","en-GB"],["english-us","en-US"],["english-united-states","en-US"],["german-germany","de"],["italian-italy","it"],["dutch-netherlands","nl"]];
-const CANONICAL_LOCALES=["es-Caribbean","en-US","en-GB","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","es","fr","pt","en"] as const;
+const CANONICAL_LOCALES=["es-Caribbean","en-US","en-GB","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht","es","fr","pt","en"] as const;
 function stem(filename:string){return filename.replace(/\.[^.]+$/u,"");}
 function normalized(filename:string){return `-${stem(filename).toLowerCase().replaceAll("_","-").replaceAll(".","-")}-`;}
 function tokens(filename:string){return stem(filename).toLowerCase().split(/[^a-z0-9]+/u).filter(Boolean);}
