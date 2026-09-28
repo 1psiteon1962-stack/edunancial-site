@@ -1,77 +1,94 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-const baseUrl = (process.env.BASE_URL || "https://www.edunancial.com").replace(/\/$/, "");
-const root = join(process.cwd(), "content", "courses");
-const retryCount = Number(process.env.RETRY_COUNT || "20");
-const retryDelayMs = Number(process.env.RETRY_DELAY_MS || "30000");
+const baseUrl=(process.env.BASE_URL||"https://www.edunancial.com").replace(/\/$/,"");
+const root=join(process.cwd(),"content","courses");
+const retryCount=Number(process.env.RETRY_COUNT||"20");
+const retryDelayMs=Number(process.env.RETRY_DELAY_MS||"30000");
 
-function parseFrontMatter(raw) {
-  if (!raw.startsWith("---")) return {};
-  const parts = raw.split("---");
-  if (parts.length < 3) return {};
-  const out = {};
-  for (const line of (parts[1] || "").split(/\r?\n/u)) {
-    const i = line.indexOf(":");
-    if (i < 0) continue;
-    const key = line.slice(0, i).trim();
-    let value = line.slice(i + 1).trim();
-    if (!key) continue;
-    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
-    out[key] = value.replaceAll('\\\"', '"');
+function parseFrontMatter(raw){
+  if(!raw.startsWith("---"))return{};
+  const parts=raw.split("---"); if(parts.length<3)return{};
+  const out={};
+  for(const line of(parts[1]||"").split(/\r?\n/u)){
+    const i=line.indexOf(":"); if(i<0)continue;
+    const key=line.slice(0,i).trim(); let value=line.slice(i+1).trim();
+    if(!key)continue;
+    if((value.startsWith('"')&&value.endsWith('"'))||(value.startsWith("'")&&value.endsWith("'")))value=value.slice(1,-1);
+    out[key]=value.replaceAll('\\\"','"');
   }
   return out;
 }
 
-function loadExpectations() {
-  const expected = [];
-  for (const track of readdirSync(root)) {
-    const levelDir = join(root, track, "level-3");
-    if (!existsSync(levelDir) || !statSync(levelDir).isDirectory()) continue;
-    for (const localeDir of readdirSync(levelDir)) {
-      if (["en", "en_us", "en-us"].includes(localeDir.toLowerCase())) continue;
-      const dir = join(levelDir, localeDir);
-      if (!statSync(dir).isDirectory()) continue;
-      const files = readdirSync(dir).filter((name) => name.toLowerCase().endsWith(".md")).sort();
-      if (!files.length) continue;
-      const representative = files.find((name) => /(?:^|-)001\.md$/iu.test(name)) || files[0];
-      const fm = parseFrontMatter(readFileSync(join(dir, representative), "utf8"));
-      if (!fm.id || !fm.title) throw new Error(`Missing id/title in ${track}/level-3/${localeDir}/${representative}`);
-      expected.push({ track: track.toUpperCase(), locale: fm.locale || localeDir.replaceAll("_", "-"), id: fm.id.toUpperCase(), title: fm.title });
+function localeFromDir(name){return name.replaceAll("_","-")}
+
+function loadExpectations(){
+  const byLocale=new Map();
+  if(!existsSync(root))throw new Error("content/courses is missing");
+  for(const track of readdirSync(root)){
+    const trackDir=join(root,track); if(!statSync(trackDir).isDirectory())continue;
+    for(const levelName of readdirSync(trackDir)){
+      const m=levelName.match(/^level-([1-5])$/u); if(!m)continue;
+      const levelDir=join(trackDir,levelName); if(!statSync(levelDir).isDirectory())continue;
+      for(const localeDir of readdirSync(levelDir)){
+        const lower=localeDir.toLowerCase();
+        if(["en","en_us","en-us"].includes(lower))continue;
+        const dir=join(levelDir,localeDir); if(!statSync(dir).isDirectory())continue;
+        for(const filename of readdirSync(dir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
+          const fm=parseFrontMatter(readFileSync(join(dir,filename),"utf8"));
+          if(!fm.id||!fm.title)throw new Error(`Missing id/title in ${track}/${levelName}/${localeDir}/${filename}`);
+          const locale=fm.locale||localeFromDir(localeDir);
+          const list=byLocale.get(locale)||[];
+          list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${localeDir}/${filename}`});
+          byLocale.set(locale,list);
+        }
+      }
     }
   }
-  return expected.sort((a, b) => a.track.localeCompare(b.track) || a.locale.localeCompare(b.locale));
+  return byLocale;
 }
 
-const expected = loadExpectations();
-if (!expected.length) throw new Error("No localized Level 3 expectations found");
+const expectations=loadExpectations();
+if(!expectations.size)throw new Error("No localized curriculum expectations found");
 
-async function checkOne(item) {
-  const url = `${baseUrl}/api/public/curriculum/catalog?lang=${encodeURIComponent(item.locale)}`;
-  const response = await fetch(url, { redirect: "follow", headers: { "user-agent": "EdunancialLevel3LocalizationSmoke/1.0" } });
-  if (!response.ok) return { ok: false, message: `${item.track} ${item.locale}: HTTP ${response.status}` };
-  let payload;
-  try { payload = await response.json(); }
-  catch { return { ok: false, message: `${item.track} ${item.locale}: response was not JSON` }; }
-  const lesson = payload?.lessons?.[item.id];
-  if (!lesson) return { ok: false, message: `${item.track} ${item.locale}: ${item.id} missing from live catalog` };
-  if (lesson.title !== item.title) return { ok: false, message: `${item.track} ${item.locale}: expected "${item.title}" but live returned "${lesson.title}"` };
-  return { ok: true, message: `PASS ${item.track} ${item.locale} ${item.id}: ${lesson.title}` };
+async function fetchCatalog(locale){
+  const url=`${baseUrl}/api/public/curriculum/catalog?lang=${encodeURIComponent(locale)}`;
+  try{
+    const response=await fetch(url,{redirect:"follow",headers:{"user-agent":"EdunancialLiveCurriculumSmoke/2.0"}});
+    if(!response.ok)return{ok:false,error:`HTTP ${response.status}`};
+    return{ok:true,payload:await response.json()};
+  }catch(error){
+    return{ok:false,error:error instanceof Error?error.message:String(error)};
+  }
 }
 
-let lastFailures = [];
-for (let attempt = 1; attempt <= retryCount; attempt++) {
-  const results = await Promise.all(expected.map(checkOne));
-  lastFailures = results.filter((result) => !result.ok);
-  for (const result of results.filter((result) => result.ok)) console.log(result.message);
-  if (!lastFailures.length) {
-    console.log(`\nAll ${expected.length} live Level 3 localization checks passed against ${baseUrl}.`);
+async function checkLocale(locale,items){
+  const result=await fetchCatalog(locale);
+  if(!result.ok)return items.map(item=>({ok:false,message:`${item.path}: catalog fetch failed for ${locale}: ${result.error}`}));
+  const lessons=result.payload?.lessons||{};
+  return items.map(item=>{
+    const lesson=lessons[item.id];
+    if(!lesson)return{ok:false,message:`${item.path}: ${item.id} missing from live catalog for ${locale}`};
+    if(lesson.title!==item.title)return{ok:false,message:`${item.path}: expected "${item.title}" but live returned "${lesson.title}"`};
+    return{ok:true,message:`PASS ${item.path}: ${item.id}`};
+  });
+}
+
+let lastFailures=[];
+for(let attempt=1;attempt<=retryCount;attempt++){
+  const results=[];
+  for(const [locale,items] of expectations)results.push(...await checkLocale(locale,items));
+  lastFailures=results.filter(result=>!result.ok);
+  const passed=results.length-lastFailures.length;
+  console.log(`Attempt ${attempt}/${retryCount}: ${passed}/${results.length} localized lessons match live production.`);
+  if(!lastFailures.length){
+    console.log(`All ${results.length} localized curriculum lessons across L1-L5 match ${baseUrl}.`);
     process.exit(0);
   }
-  console.error(`\nAttempt ${attempt}/${retryCount} has ${lastFailures.length} failure(s):`);
-  for (const failure of lastFailures) console.error(`- ${failure.message}`);
-  if (attempt < retryCount) await new Promise((resolve) => setTimeout(resolve, retryDelayMs));
+  for(const failure of lastFailures.slice(0,100))console.error(`- ${failure.message}`);
+  if(lastFailures.length>100)console.error(`- ...and ${lastFailures.length-100} more failure(s)`);
+  if(attempt<retryCount)await new Promise(resolve=>setTimeout(resolve,retryDelayMs));
 }
-console.error("\nLive Level 3 localization smoke test failed:");
-for (const failure of lastFailures) console.error(`- ${failure.message}`);
+
+console.error(`Live curriculum publication failed: ${lastFailures.length} localized lesson(s) do not match production.`);
 process.exit(1);
