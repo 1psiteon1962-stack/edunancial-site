@@ -2,7 +2,8 @@ name: Ingest Stored Curriculum
 on:
   push:
     branches: [admin-content-storage]
-    paths: [".edunancial-admin-content/uploads/**"]
+  pull_request:
+    branches: [main]
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
@@ -18,7 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          # PR runs must test the code being proposed. Storage/schedule runs use main.
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
           fetch-depth: 0
       - name: Fetch storage branch
         run: git fetch origin admin-content-storage:refs/remotes/origin/admin-content-storage

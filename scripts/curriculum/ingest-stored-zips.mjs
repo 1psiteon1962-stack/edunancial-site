@@ -24,7 +24,7 @@ const paths=sh("ls-tree","-r","--name-only",STORAGE_REF,".edunancial-admin-conte
 let wrote=0;
 for(const zp of paths){
  const id=identity(basename(zp)); if(!id)continue;
- const bytes=Buffer.from(sh("show",STORAGE_REF+":"+zp),"binary"); const zh=hash(bytes);
+ const bytes=execFileSync("git",["show",STORAGE_REF+":"+zp],{maxBuffer:64*1024*1024}); const zh=hash(bytes);
  const old=ledger.packages[zh]; if(old?.status==="ingested"||old?.status==="merged"||old?.status==="live")continue;
  const zfile=join(tmpdir(),"edunancial-"+zh+".zip");writeFileSync(zfile,bytes);
  const list=execFileSync("unzip",["-Z1",zfile],{encoding:"utf8"}).split("\n").filter(x=>x.toLowerCase().endsWith(".md"));
