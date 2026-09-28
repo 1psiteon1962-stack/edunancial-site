@@ -33,7 +33,7 @@ async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       if (!batch || batch.files.length === 0) return [];
       return batch.uploads
         .filter((upload) => batch.files.some((file) =>
-          file.uploadId === upload.uploadId ||
+          file.uploadId === upload.id ||
           file.archivePath?.startsWith(upload.originalFilename + "/") ||
           (batch.uploads.length === 1 && batch.files.length > 0),
         ))
