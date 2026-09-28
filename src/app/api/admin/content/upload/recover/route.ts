@@ -23,12 +23,22 @@ async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   // claimed it. Interrupted finalization may create a partial/draft batch that
   // references the object; treating every reference as finalized hides exactly
   // the packages recovery is meant to surface.
+  // Finalization is per stored ZIP, not per batch. A multi-package batch can
+  // partially finalize (for example RED succeeds far enough to create files
+  // while WHITE never finalizes). Only hide an upload when extracted files can
+  // be attributed to that specific upload. Never let one sibling package claim
+  // every storagePath in the original batch.
   const finalized = new Set(
-    batches.flatMap((batch) =>
-      batch && batch.files.length > 0
-        ? batch.uploads.map((upload) => upload.storagePath)
-        : [],
-    ),
+    batches.flatMap((batch) => {
+      if (!batch || batch.files.length === 0) return [];
+      return batch.uploads
+        .filter((upload) => batch.files.some((file) =>
+          file.uploadId === upload.id ||
+          file.archivePath?.startsWith(upload.originalFilename + "/") ||
+          (batch.uploads.length === 1 && batch.files.length > 0),
+        ))
+        .map((upload) => upload.storagePath);
+    }),
   );
   const candidates: RecoveryCandidate[] = [];
   const seen = new Set<string>();
