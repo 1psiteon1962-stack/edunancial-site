@@ -6,6 +6,7 @@ import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
+import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 
@@ -85,7 +86,8 @@ export async function POST(request: NextRequest) {
   const recoveryBatchId = createId("batch");
   const batch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
+  const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity);
   const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor);
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedCanonicalPublication, publicationDeferred: false, discoverySource: "persistent-storage" } });
-  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedCanonicalPublication, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false, discoverySource: "persistent-storage" } });
+  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
