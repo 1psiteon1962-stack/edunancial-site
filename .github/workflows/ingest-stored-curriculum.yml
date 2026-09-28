@@ -1,7 +1,7 @@
 name: Ingest Stored Curriculum
 on:
   push:
-    branches: [admin-content-storage]
+    branches: [main, admin-content-storage]
   pull_request:
     branches: [main]
   schedule:
@@ -34,12 +34,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- content/courses .edunancial-admin-content/ingest-ledger.json; then exit 0; fi
+          git add content/courses .edunancial-admin-content/ingest-ledger.json
+          if git diff --cached --quiet -- content/courses .edunancial-admin-content/ingest-ledger.json; then exit 0; fi
           branch="automation/stored-curriculum-ingest"
           git config user.name "edunancial-curriculum-bot"
           git config user.email "actions@users.noreply.github.com"
           git checkout -B "$branch"
-          git add content/courses .edunancial-admin-content/ingest-ledger.json
           git commit -m "Ingest stored curriculum packages"
           git push --force-with-lease origin "$branch"
           gh pr create --base main --head "$branch" --title "Ingest stored curriculum packages" --body "Repository-authoritative ingestion from admin-content-storage. Validated before publication." || true
