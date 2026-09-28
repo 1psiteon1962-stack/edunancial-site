@@ -1,4 +1,4 @@
-name: Live Level 3 Localization Smoke
+name: Live Curriculum Publication Smoke
 
 on:
   push:
@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: live-level3-localization-smoke
+  group: live-curriculum-publication-smoke
   cancel-in-progress: true
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Verify live Level 3 translations
+      - name: Verify all live localized curriculum
         env:
           BASE_URL: ${{ github.event.inputs.base_url || 'https://www.edunancial.com' }}
           RETRY_COUNT: "20"
