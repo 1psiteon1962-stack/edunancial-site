@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-4b95c8fb-ee58-4c8b-a5d9-071d2bb8d8f3",
+    "timestamp": "2026-09-28T00:52:51.161Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_15c69daf-766d-4c24-928c-c0b0b431a4ff",
+      "phase": "FINALIZE",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611/upload_15c69daf-766d-4c24-928c-c0b0b431a4ff-red-l3-001-050-es-caribbean.zip",
+      "fileName": "RED-L3-001-050-es-Caribbean.zip",
+      "fileSize": 111932,
+      "errorCode": "Error",
+      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at fdfbef81f7877290dfd8bd5b43571445439e83fd but expected f57faa79776e571804a2d60742d43736acee971d\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+      "mode": "single-package-request"
+    }
+  },
+  {
     "id": "upload-operation-95364407-3141-49a6-98e1-19f7828ccf9b",
     "timestamp": "2026-09-28T00:52:49.178Z",
     "action": "system-error",
