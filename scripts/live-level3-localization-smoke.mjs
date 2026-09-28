@@ -6,17 +6,23 @@ const root=join(process.cwd(),"content","courses");
 const retryCount=Number(process.env.RETRY_COUNT||"20");
 const retryDelayMs=Number(process.env.RETRY_DELAY_MS||"30000");
 
-function parseFrontMatter(raw){
-  if(!raw.startsWith("---"))return{};
-  const parts=raw.split("---"); if(parts.length<3)return{};
+function parseLessonMetadata(raw){
   const out={};
-  for(const line of(parts[1]||"").split(/\r?\n/u)){
-    const i=line.indexOf(":"); if(i<0)continue;
-    const key=line.slice(0,i).trim(); let value=line.slice(i+1).trim();
-    if(!key)continue;
-    if((value.startsWith('"')&&value.endsWith('"'))||(value.startsWith("'")&&value.endsWith("'")))value=value.slice(1,-1);
-    out[key]=value.replaceAll('\\\"','"');
+  if(raw.startsWith("---")){
+    const parts=raw.split("---");
+    if(parts.length>=3){
+      for(const line of(parts[1]||"").split(/\r?\n/u)){
+        const i=line.indexOf(":"); if(i<0)continue;
+        const key=line.slice(0,i).trim(); let value=line.slice(i+1).trim();
+        if(!key)continue;
+        if((value.startsWith('"')&&value.endsWith('"'))||(value.startsWith("'")&&value.endsWith("'")))value=value.slice(1,-1);
+        out[key]=value.replaceAll('\\\"','"');
+      }
+    }
   }
+  const heading=raw.match(/^#\s+([A-Z]+-L\d+-\d{3})(?::\s*(.+))?$/mu);
+  if(!out.id&&heading?.[1])out.id=heading[1].trim();
+  if(!out.title&&heading?.[2])out.title=heading[2].trim();
   return out;
 }
 
@@ -35,8 +41,8 @@ function loadExpectations(){
         if(["en","en_us","en-us"].includes(lower))continue;
         const dir=join(levelDir,localeDir); if(!statSync(dir).isDirectory())continue;
         for(const filename of readdirSync(dir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
-          const fm=parseFrontMatter(readFileSync(join(dir,filename),"utf8"));
-          if(!fm.id||!fm.title)throw new Error(`Missing id/title in ${track}/${levelName}/${localeDir}/${filename}`);
+          const fm=parseLessonMetadata(readFileSync(join(dir,filename),"utf8"));
+          if(!fm.id||!fm.title)throw new Error(`Unable to derive lesson id/title from ${track}/${levelName}/${localeDir}/${filename}`);
           const locale=fm.locale||localeFromDir(localeDir);
           const list=byLocale.get(locale)||[];
           list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${localeDir}/${filename}`});
