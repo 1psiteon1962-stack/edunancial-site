@@ -15,8 +15,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Fetch archive branch
-        run: git fetch origin admin-content-storage:refs/remotes/origin/admin-content-storage
+      - name: Prepare forensic refs
+        run: |
+          git branch -f main origin/main
+          git branch -f admin-content-storage origin/admin-content-storage
       - name: Run read-only forensic inventory
         run: npm run curriculum:forensic-inventory -- --json phase1-forensic-inventory.json
       - name: Print forensic summary
