@@ -17,4 +17,4 @@ Do not begin restoration until PRs #1008, #1009, #1010, and this validation PR h
 
 Phase 4 restoration must preserve existing curriculum, restore in protected batches, and verify learner-visible output after each protected merge. It must not re-enable the legacy recovery or full-state write paths as alternate authorities.
 
-<!-- canonical-main: 185e0330a9224056564b61e252f4b693ab2a0096 -->
+<!-- canonical-source: e2fdce4931a7e6e2877c1c8d9eec44523c13b7a3 -->
