@@ -35,6 +35,11 @@ jobs:
       - name: Protect completed Level 2 sets
         run: npm run curriculum:l2-preservation
 
+      - name: Protect all existing curriculum across Levels 1-5
+        env:
+          CURRICULUM_BASE_REF: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || 'HEAD~1' }}
+        run: node scripts/curriculum/preservation-gate.mjs
+
       - name: Compare proposed curriculum with main
         if: github.event_name == 'pull_request'
         env:
