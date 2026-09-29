@@ -38,7 +38,8 @@
     "curriculum:translate:l1": "EDUNANCIAL_TRANSLATION_LEVEL=1 node scripts/international/generate-locale-l1.mjs",
     "curriculum:l1-preservation": "node scripts/curriculum/assert-l1-preservation.mjs",
     "curriculum:l2-preservation": "node scripts/curriculum/assert-l2-preservation.mjs",
-    "curriculum:compile-index": "node scripts/curriculum/compile-index.mjs"
+    "curriculum:compile-index": "node scripts/curriculum/compile-index.mjs",
+    "curriculum:restoration-inventory": "node scripts/curriculum/phase4-restoration-gap-inventory.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
