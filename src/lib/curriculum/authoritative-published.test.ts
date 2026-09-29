@@ -22,12 +22,14 @@ const TRANSLATION_TEST_LESSON_ID = "GOLD-L5-099";
 const TEST_ENV = process.env as Record<string, string | undefined>;
 
 const ORIGINAL_FALLBACK_FLAG = process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
+const ORIGINAL_LEGACY_WRITE_FLAG = process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES;
 let originalState: string | null = null;
 
 beforeEach(() => {
   originalState = existsSync(STATE_PATH) ? readFileSync(STATE_PATH, "utf8") : null;
   rmSync(STATE_PATH, { force: true });
   delete process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
+  process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES = "true";
 });
 
 afterEach(() => {
@@ -41,6 +43,11 @@ afterEach(() => {
     delete process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
   } else {
     process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = ORIGINAL_FALLBACK_FLAG;
+  }
+  if (ORIGINAL_LEGACY_WRITE_FLAG === undefined) {
+    delete process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES;
+  } else {
+    process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES = ORIGINAL_LEGACY_WRITE_FLAG;
   }
 });
 
