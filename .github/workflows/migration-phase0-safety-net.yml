@@ -46,15 +46,19 @@ jobs:
 
       - name: Smoke test English lesson rendering
         run: |
-          curl --fail --silent --show-error \
-            --cookie "edunancial-lang=en-US" \
-            http://127.0.0.1:3000/courses/red/lessons/red-l1-001 \
-            --output /tmp/red-l1-001-en.html
-          if ! grep -F "What Is Real Estate, Really?" /tmp/red-l1-001-en.html; then
-            echo "::error::English lesson rendered without the canonical RED-L1-001 title"
-            grep -o '<h1[^>]*>[^<]*</h1>' /tmp/red-l1-001-en.html | head -5 || true
-            exit 1
-          fi
+          for i in $(seq 1 30); do
+            curl --fail --silent --show-error \
+              --cookie "edunancial-lang=en-US" \
+              http://127.0.0.1:3000/courses/red/lessons/red-l1-001 \
+              --output /tmp/red-l1-001-en.html
+            if grep -F "What Is Real Estate, Really?" /tmp/red-l1-001-en.html; then
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "::error::English lesson never advanced from the loading shell to canonical RED-L1-001 content"
+          grep -o '<h1[^>]*>[^<]*</h1>' /tmp/red-l1-001-en.html | head -5 || true
+          exit 1
 
       - name: Smoke test translated lesson rendering
         run: |
