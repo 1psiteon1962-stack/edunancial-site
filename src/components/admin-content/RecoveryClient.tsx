@@ -73,28 +73,8 @@ export default function RecoveryClient() {
     }
   }
 
-  async function recoverAll() {
-    if (!recoveryAvailable) return;
-    const queue = batches.flatMap((batch) => batch.uploads.map((upload) => ({ batchId: batch.batchId, upload })));
-    if (!queue.length) return;
-    setActive("all");
-    setError("");
-    let recovered = 0;
-    try {
-      for (const item of queue) {
-        setProgress(`Recovering ${recovered + 1} of ${queue.length}: ${item.upload.originalFilename}`);
-        await recoverRequest(item.batchId, item.upload.uploadId);
-        recovered += 1;
-      }
-      setProgress(`Recovered ${recovered} stored package${recovered === 1 ? "" : "s"}. Trusted curriculum packages that passed validation were published automatically.`);
-      await load();
-      router.refresh();
-    } catch (err) {
-      setError(`${(err as Error).message} ${recovered} of ${queue.length} packages were recovered before the error.`);
-      await load();
-    } finally {
-      setActive(null);
-    }
+  function recoverAll() {
+    setError("Recover All is disabled during the curriculum consolidation freeze.");
   }
 
   const totalUploads = batches.reduce((sum, batch) => sum + batch.uploads.length, 0);
@@ -109,7 +89,7 @@ export default function RecoveryClient() {
           <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery finalizes each stored package independently without uploading it again. Trusted 50-lesson curriculum packages publish automatically after validation; a failure in one package does not erase the stored files.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          {recoveryAvailable && totalUploads > 0 ? <button type="button" disabled={Boolean(active)} onClick={() => void recoverAll()} className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === "all" ? "Recovering all..." : `Recover all ${totalUploads} stored ZIP${totalUploads === 1 ? "" : "s"}`}</button> : null}
+          {recoveryAvailable && totalUploads > 0 ? <button type="button" disabled className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">Recover All disabled during consolidation</button> : null}
           <button type="button" disabled={Boolean(active)} onClick={() => void load()} className="rounded-lg border border-white/15 px-3 py-2 text-sm font-semibold disabled:opacity-50">Refresh</button>
         </div>
       </div>
