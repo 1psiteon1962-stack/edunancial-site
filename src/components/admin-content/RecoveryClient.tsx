@@ -73,34 +73,8 @@ export default function RecoveryClient() {
     }
   }
 
-  async function recoverAll() {
+  function recoverAll() {
     setError("Recover All is disabled during the curriculum consolidation freeze.");
-    return;
-    /* PHASE 0 FREEZE
-    if (!recoveryAvailable) return;
-    const queue = batches.flatMap((batch) => batch.uploads.map((upload) => ({ batchId: batch.batchId, upload })));
-    if (!queue.length) return;
-    setActive("all");
-    setError("");
-    let recovered = 0;
-    try {
-      for (const item of queue) {
-        setProgress(`Recovering ${recovered + 1} of ${queue.length}: ${item.upload.originalFilename}`);
-        await recoverRequest(item.batchId, item.upload.uploadId);
-        recovered += 1;
-      }
-      setProgress(`Recovered ${recovered} stored package${recovered === 1 ? "" : "s"}. Trusted curriculum packages that passed validation were published automatically.`);
-      await load();
-      router.refresh();
-    } catch (err) {
-      setError(`${(err as Error).message} ${recovered} of ${queue.length} packages were recovered before the error.`);
-      await load();
-    } finally {
-      setActive(null);
-    }
-  }
-
-    */
   }
 
   const totalUploads = batches.reduce((sum, batch) => sum + batch.uploads.length, 0);
