@@ -1,11 +1,7 @@
 name: Ingest Stored Curriculum
 on:
-  push:
-    branches: [main, admin-content-storage]
-  pull_request:
-    branches: [main]
-  schedule:
-    - cron: "*/5 * * * *"
+  # PHASE 0 FREEZE: automatic stored-curriculum ingestion is disabled.
+  # Do not re-enable until the Git-only single publisher is approved.
   workflow_dispatch:
 permissions:
   contents: write
