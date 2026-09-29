@@ -4,7 +4,7 @@ import { describe, test } from "node:test";
 import { DEFAULT_FINALIZE_CONCURRENCY, runSequentialFinalization } from "@/lib/admin-content/finalize-queue";
 
 describe("bulk finalization scale", () => {
-  for (const size of [25, 50]) {
+  for (const size of [25, 50, 100, 309, 500]) {
     test(`finalizes ${size} packages with bounded parallelism and no loss`, async () => {
       const items = Array.from({ length: size }, (_, index) => index + 1);
       let active = 0;
