@@ -1,0 +1,23 @@
+name: Phase 1 Forensic Curriculum Inventory
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  forensic-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch archive branch
+        run: git fetch origin admin-content-storage:refs/remotes/origin/admin-content-storage
+      - name: Run read-only forensic inventory
+        run: npm run curriculum:forensic-inventory -- --json phase1-forensic-inventory.json
+      - name: Print forensic summary
+        run: node -e "const r=require('./phase1-forensic-inventory.json'); console.log(JSON.stringify(r.summary,null,2)); console.log('Complete cells:',Object.entries(r.highWaterMatrix).filter(([,v])=>v.complete50).map(([k])=>k).join('\\n'));"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phase1-forensic-inventory
+          path: phase1-forensic-inventory.json
+          retention-days: 30
