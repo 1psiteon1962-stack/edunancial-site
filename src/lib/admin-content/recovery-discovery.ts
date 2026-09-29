@@ -9,6 +9,7 @@ export type RecoverableCurriculumPackage = RecoveryCandidate & {
     | ReturnType<typeof inferCurriculumPackageIdentity>
     | null;
   classificationError: string | null;
+  reconciliationKey: string | null;
 };
 
 /**
@@ -72,6 +73,16 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   return candidates;
 }
 
+/**
+ * Stable reconciliation identity shared by every curriculum level and locale.
+ * No level or language allow-list belongs here: validation is delegated to the
+ * central upload/language configuration so L1-L5 and future locales use the
+ * same recovery and restoration machinery.
+ */
+export function toReconciliationKey(identity: ReturnType<typeof inferCurriculumPackageIdentity>) {
+  return `${identity.track.toUpperCase()}:L${identity.level.replace("level-", "")}:${identity.language}`;
+}
+
 export async function getRecoverableCurriculumPackages(): Promise<RecoverableCurriculumPackage[]> {
   const candidates = await getRecoverableUploads();
   return candidates.map((candidate) => {
@@ -80,12 +91,14 @@ export async function getRecoverableCurriculumPackages(): Promise<RecoverableCur
         ...candidate,
         identity: inferCurriculumPackageIdentity(candidate.upload.originalFilename, "en-US"),
         classificationError: null,
+        reconciliationKey: toReconciliationKey(inferCurriculumPackageIdentity(candidate.upload.originalFilename, "en-US")),
       };
     } catch (error) {
       return {
         ...candidate,
         identity: null,
         classificationError: error instanceof Error ? error.message : String(error),
+        reconciliationKey: null,
       };
     }
   });
