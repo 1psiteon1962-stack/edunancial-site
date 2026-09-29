@@ -17,7 +17,7 @@ export const maxDuration = 300;
 
 // Phase 3 consolidation freeze: discovery remains read-only, but no stored
 // package may be republished until the canonical curriculum path is proven.
-const RECOVERY_PUBLICATION_ENABLED = false;
+export const RECOVERY_PUBLICATION_ENABLED = false;
 
 type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
