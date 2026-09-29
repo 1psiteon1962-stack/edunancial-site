@@ -1,6 +1,7 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
+import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
@@ -84,7 +85,11 @@ export async function POST(request: NextRequest) {
   let identity;
   try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message }, { status: 400 }); }
   const recoveryBatchId = createId("batch");
-  const batch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
+  const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
+  // Recovery must use the same mixed-locale normalization gate as normal finalization.
+  // This prevents stored packages from being classified or published differently
+  // simply because they entered through the interrupted-upload recovery route.
+  const batch = await normalizeMixedLocaleBatch(createdBatch);
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
   const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity);
   const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor);
