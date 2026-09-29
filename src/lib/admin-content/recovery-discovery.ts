@@ -73,7 +73,13 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   return candidates;
 }
 
-function toReconciliationKey(identity: ReturnType<typeof inferCurriculumPackageIdentity>) {
+/**
+ * Stable reconciliation identity shared by every curriculum level and locale.
+ * No level or language allow-list belongs here: validation is delegated to the
+ * central upload/language configuration so L1-L5 and future locales use the
+ * same recovery and restoration machinery.
+ */
+export function toReconciliationKey(identity: ReturnType<typeof inferCurriculumPackageIdentity>) {
   return `${identity.track.toUpperCase()}:L${identity.level.replace("level-", "")}:${identity.language}`;
 }
 
