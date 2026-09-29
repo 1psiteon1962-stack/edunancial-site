@@ -1,5 +1,6 @@
 import { repairAndPublishLocalizedBatch } from "@/lib/admin-content/localized-batch-repair";
 import type { PackageIdentity } from "@/lib/admin-content/package-upload-config";
+import { validateCompleteCurriculumPackage } from "@/lib/admin-content/curriculum-package-validation";
 import { deriveBatchStatus } from "@/lib/admin-content/review";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { UploadBatch } from "@/lib/admin-content/types";
@@ -18,22 +19,6 @@ export function isTrustedLocalizedLevel1Identity(identity: PackageIdentity | nul
     && !CANONICAL_ENGLISH.has(identity.language));
 }
 
-function lessonMatchesPackage(file: UploadBatch["files"][number], identity: PackageIdentity): boolean {
-  if (file.extension !== ".md") return false;
-  const track = identity.track.toUpperCase();
-  const levelMatch = identity.level.match(/^level-([1-5])$/u);
-  if (!levelMatch) return false;
-  const prefix = `${track}-L${levelMatch[1]}-`;
-  const pattern = new RegExp(`^${prefix}(\\d{3})(?:[.-]|$)`, "u");
-  const archivePattern = new RegExp(`(?:^|/)${prefix}(\\d{3})(?:[.-]|$)`, "u");
-  const match = file.originalFilename.toUpperCase().match(pattern)
-    ?? file.normalizedFilename.toUpperCase().match(pattern)
-    ?? file.archivePath?.toUpperCase().match(archivePattern);
-  if (!match) return false;
-  const lessonNumber = Number(match[1]);
-  return lessonNumber >= 1 && lessonNumber <= 50;
-}
-
 export async function autoPublishTrustedLocalizedLevel1Batch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
@@ -49,10 +34,11 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   }
 
   const approvedAt = new Date().toISOString();
-  let approvedFiles = 0;
+  const validatedFiles = validateCompleteCurriculumPackage(batch, identity).files;
+  const validatedIds = new Set(validatedFiles.map((file) => file.id));
+  const approvedFiles = validatedFiles.length;
   batch.files = batch.files.map((file) => {
-    if (!lessonMatchesPackage(file, identity)) return file;
-    approvedFiles += 1;
+    if (!validatedIds.has(file.id)) return file;
     return {
       ...file,
       reviewStatus: "approved",
@@ -62,16 +48,6 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
       updatedAt: approvedAt,
     };
   });
-
-  const lessonNumbers = new Set(batch.files.filter((file) => lessonMatchesPackage(file, identity)).map((file) => {
-    const match = `${file.originalFilename} ${file.normalizedFilename} ${file.archivePath ?? ""}`.toUpperCase().match(/-L[1-5]-(\\d{3})/u);
-    return match ? Number(match[1]) : null;
-  }).filter((value): value is number => value !== null));
-  const unsafeFiles = batch.files.filter((file) => file.processingStatus === "error" || file.conflictStatus !== "none" || file.duplicateStatus !== "new");
-  if (approvedFiles !== 50 || lessonNumbers.size !== 50 || unsafeFiles.length > 0) {
-    throw new Error(`Localized curriculum package ${identity.track}/${identity.level}/${identity.language} failed publication validation: approved=${approvedFiles}, uniqueLessons=${lessonNumbers.size}, unsafeFiles=${unsafeFiles.length}. Expected exactly 50 unique lessons with no conflicts, duplicates, or processing errors.`);
-  }
-  for (let lesson = 1; lesson <= 50; lesson += 1) if (!lessonNumbers.has(lesson)) throw new Error(`Localized curriculum package is missing lesson ${String(lesson).padStart(3, "0")}.`);
 
   batch.status = deriveBatchStatus(batch.files);
   batch.updatedAt = approvedAt;
