@@ -26,7 +26,7 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   const canonical = validateCompleteCurriculumPackage(batch, identity).files;
 
   const approvedAt = new Date().toISOString();
-  const canonicalIds = new Set(canonical.map((entry) => entry.file.id));
+  const canonicalIds = new Set(canonical.map((file) => file.id));
   batch.files = batch.files.map((file) => canonicalIds.has(file.id) ? {
     ...file,
     reviewStatus: "approved" as const,
