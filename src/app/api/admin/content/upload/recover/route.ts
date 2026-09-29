@@ -83,12 +83,12 @@ export async function POST(request: NextRequest) {
   const uploadId = String(body.uploadId ?? "").trim();
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
   let candidates: RecoveryCandidate[];
-  try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error) }, { status: 503 }); }
+  try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
   const candidate = candidates.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
-  if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
+  if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered.", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 404 });
   const upload = candidate.upload;
   let identity;
-  try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message }, { status: 400 }); }
+  try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 400 }); }
   const recoveryBatchId = createId("batch");
   const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
   // Recovery must use the same mixed-locale normalization gate as normal finalization.
