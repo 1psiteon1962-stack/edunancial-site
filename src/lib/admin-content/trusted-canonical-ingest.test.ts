@@ -5,6 +5,7 @@ import test from "node:test";
 
 const helper = readFileSync(path.join(process.cwd(), "src/lib/admin-content/trusted-canonical-ingest.ts"), "utf8");
 const finalizeRoute = readFileSync(path.join(process.cwd(), "src/app/api/admin/content/upload/finalize/route.ts"), "utf8");
+const validator = readFileSync(path.join(process.cwd(), "src/lib/admin-content/curriculum-package-validation.ts"), "utf8");
 
 test("trusted canonical curriculum accepts all eight tracks for US English L1 through L5", () => {
   assert.match(helper, /"red", "white", "blue", "green", "gold", "purple", "orange", "black"/u);
@@ -13,10 +14,11 @@ test("trusted canonical curriculum accepts all eight tracks for US English L1 th
 });
 
 test("trusted canonical curriculum requires a complete 50 lesson package before publication", () => {
-  assert.match(helper, /canonical\.length !== 50/u);
-  assert.match(helper, /lessonNumbers\.size !== 50/u);
-  assert.match(helper, /Expected exactly 50 unique lessons/u);
-  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
+  assert.match(helper, /validateCompleteCurriculumPackage\(batch, identity\)/u);
+  assert.match(validator, /files\.length !== 50/u);
+  assert.match(validator, /lessonNumbers\.size !== 50/u);
+  assert.match(validator, /Expected exactly 50 unique lessons/u);
+  assert.match(validator, /number >= 1 && number <= 50/u);
 });
 
 test("trusted canonical curriculum checkpoints and publishes directly to authoritative runtime state", () => {
