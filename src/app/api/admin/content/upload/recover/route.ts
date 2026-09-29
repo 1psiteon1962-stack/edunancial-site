@@ -30,12 +30,13 @@ export async function GET(request: NextRequest) {
       recoverable: Array.from(grouped, ([batchId, packages]) => ({
         batchId,
         uploads: packages.map(({ upload }) => upload),
-        packages: packages.map(({ upload, identity, classificationError }) => ({
+        packages: packages.map(({ upload, identity, classificationError, reconciliationKey }) => ({
           uploadId: upload.uploadId,
           originalFilename: upload.originalFilename,
           storagePath: upload.storagePath,
           identity,
           classificationError,
+          reconciliationKey,
         })),
       })),
       recoveryAvailable: RECOVERY_PUBLICATION_ENABLED,
