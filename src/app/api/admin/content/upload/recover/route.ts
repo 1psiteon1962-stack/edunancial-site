@@ -3,9 +3,8 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
+import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryCandidate } from "@/lib/admin-content/recovery-discovery";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
-import type { StoredUploadEntry } from "@/lib/admin-content/service";
-import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
@@ -19,55 +18,31 @@ export const maxDuration = 300;
 // package may be republished until the canonical curriculum path is proven.
 const RECOVERY_PUBLICATION_ENABLED = false;
 
-type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
-
-async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
-  const storage = getAdminContentStorage();
-  const [entries, summaries] = await Promise.all([storage.listWorkspaceEntries(), storage.listBatches()]);
-  const batches = await Promise.all(summaries.map((summary) => storage.getBatch(summary.id)));
-  // A stored object is recoverable until a completed review batch has actually
-  // claimed it. Interrupted finalization may create a partial/draft batch that
-  // references the object; treating every reference as finalized hides exactly
-  // the packages recovery is meant to surface.
-  // Finalization is per stored ZIP, not per batch. A multi-package batch can
-  // partially finalize (for example RED succeeds far enough to create files
-  // while WHITE never finalizes). Only hide an upload when extracted files can
-  // be attributed to that specific upload. Never let one sibling package claim
-  // every storagePath in the original batch.
-  const finalized = new Set(
-    batches.flatMap((batch) => {
-      if (!batch || batch.files.length === 0) return [];
-      return batch.uploads
-        .filter((upload) => batch.files.some((file) =>
-          file.uploadId === upload.id ||
-          file.archivePath?.startsWith(upload.originalFilename + "/") ||
-          (batch.uploads.length === 1 && batch.files.length > 0),
-        ))
-        .map((upload) => upload.storagePath);
-    }),
-  );
-  const candidates: RecoveryCandidate[] = [];
-  const seen = new Set<string>();
-  for (const storagePath of entries) {
-    if (!storagePath.startsWith("uploads/courses/") || !storagePath.toLowerCase().endsWith(".zip")) continue;
-    if (finalized.has(storagePath) || seen.has(storagePath)) continue;
-    const match = storagePath.match(/^uploads\/courses\/(batch_[^/]+)\/(upload_[0-9a-f-]+)-(.+\.zip)$/iu);
-    if (!match) continue;
-    const [, batchId, uploadId, originalFilename] = match;
-    seen.add(storagePath);
-    candidates.push({ batchId, upload: { uploadId, originalFilename, mimeType: "application/zip", sizeBytes: 0, storagePath } });
-  }
-  return candidates;
-}
-
 export async function GET(request: NextRequest) {
   const auth = await requireAdminApiSession(request, false);
   if (!auth.ok) return auth.response;
   try {
-    const candidates = await getRecoverableUploads();
-    const grouped = new Map<string, StoredUploadEntry[]>();
-    for (const candidate of candidates) grouped.set(candidate.batchId, [...(grouped.get(candidate.batchId) ?? []), candidate.upload]);
-    return Response.json({ success: true, recoverable: Array.from(grouped, ([batchId, uploads]) => ({ batchId, uploads })), recoveryAvailable: RECOVERY_PUBLICATION_ENABLED, recoveryFrozen: !RECOVERY_PUBLICATION_ENABLED, discoverySource: "persistent-storage" }, { headers: { "Cache-Control": "private, no-store" } });
+    const candidates = await getRecoverableCurriculumPackages();
+    const grouped = new Map<string, typeof candidates>();
+    for (const candidate of candidates) grouped.set(candidate.batchId, [...(grouped.get(candidate.batchId) ?? []), candidate]);
+    return Response.json({
+      success: true,
+      recoverable: Array.from(grouped, ([batchId, packages]) => ({
+        batchId,
+        uploads: packages.map(({ upload }) => upload),
+        packages: packages.map(({ upload, identity, classificationError }) => ({
+          uploadId: upload.uploadId,
+          originalFilename: upload.originalFilename,
+          storagePath: upload.storagePath,
+          identity,
+          classificationError,
+        })),
+      })),
+      recoveryAvailable: RECOVERY_PUBLICATION_ENABLED,
+      recoveryFrozen: !RECOVERY_PUBLICATION_ENABLED,
+      discoverySource: "persistent-storage",
+      readOnlyInventory: true,
+    }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: "Interrupted-upload recovery could not inspect persistent upload storage.", error: error instanceof Error ? error.message : String(error) }, { headers: { "Cache-Control": "private, no-store" } });
   }
