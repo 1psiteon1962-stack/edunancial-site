@@ -15,6 +15,10 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
+// Phase 3 consolidation freeze: discovery remains read-only, but no stored
+// package may be republished until the canonical curriculum path is proven.
+const RECOVERY_PUBLICATION_ENABLED = false;
+
 type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
 async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
@@ -63,7 +67,7 @@ export async function GET(request: NextRequest) {
     const candidates = await getRecoverableUploads();
     const grouped = new Map<string, StoredUploadEntry[]>();
     for (const candidate of candidates) grouped.set(candidate.batchId, [...(grouped.get(candidate.batchId) ?? []), candidate.upload]);
-    return Response.json({ success: true, recoverable: Array.from(grouped, ([batchId, uploads]) => ({ batchId, uploads })), recoveryAvailable: true, discoverySource: "persistent-storage" }, { headers: { "Cache-Control": "private, no-store" } });
+    return Response.json({ success: true, recoverable: Array.from(grouped, ([batchId, uploads]) => ({ batchId, uploads })), recoveryAvailable: RECOVERY_PUBLICATION_ENABLED, recoveryFrozen: !RECOVERY_PUBLICATION_ENABLED, discoverySource: "persistent-storage" }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: "Interrupted-upload recovery could not inspect persistent upload storage.", error: error instanceof Error ? error.message : String(error) }, { headers: { "Cache-Control": "private, no-store" } });
   }
@@ -72,6 +76,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   const auth = await requireAdminApiSession(request, true);
   if (!auth.ok) return auth.response;
+  if (!RECOVERY_PUBLICATION_ENABLED) return Response.json({ success: false, error: "Interrupted-upload recovery is disabled during curriculum consolidation.", recoveryFrozen: true }, { status: 423, headers: { "Cache-Control": "private, no-store" } });
   const actor = toActor(auth.session);
   const body = await request.json() as { batchId?: string; uploadId?: string };
   const batchId = String(body.batchId ?? "").trim();
