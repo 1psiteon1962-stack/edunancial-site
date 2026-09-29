@@ -16,3 +16,5 @@ This is the final Phase 3 consolidation gate before curriculum restoration.
 Do not begin restoration until PRs #1008, #1009, #1010, and this validation PR have merged sequentially with required checks green.
 
 Phase 4 restoration must preserve existing curriculum, restore in protected batches, and verify learner-visible output after each protected merge. It must not re-enable the legacy recovery or full-state write paths as alternate authorities.
+
+<!-- canonical-main: 185e0330a9224056564b61e252f4b693ab2a0096 -->
