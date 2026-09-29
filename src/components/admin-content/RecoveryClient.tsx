@@ -86,7 +86,7 @@ export default function RecoveryClient() {
         await recoverRequest(item.batchId, item.upload.uploadId);
         recovered += 1;
       }
-      setProgress(`Recovered ${recovered} stored package${recovered === 1 ? "" : "s"} into draft review.`);
+      setProgress(`Recovered ${recovered} stored package${recovered === 1 ? "" : "s"}. Trusted curriculum packages that passed validation were published automatically.`);
       await load();
       router.refresh();
     } catch (err) {
@@ -106,7 +106,7 @@ export default function RecoveryClient() {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-black text-amber-100">Recover interrupted uploads</h2>
-          <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery processes stored packages sequentially into draft review without uploading them again.</p>
+          <p className="mt-1 max-w-3xl text-sm text-slate-300">These files already reached storage but did not record a successful finalization. Recovery finalizes each stored package independently without uploading it again. Trusted 50-lesson curriculum packages publish automatically after validation; a failure in one package does not erase the stored files.</p>
         </div>
         <div className="flex flex-wrap gap-2">
           {recoveryAvailable && totalUploads > 0 ? <button type="button" disabled={Boolean(active)} onClick={() => void recoverAll()} className="rounded-lg bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 disabled:opacity-50">{active === "all" ? "Recovering all..." : `Recover all ${totalUploads} stored ZIP${totalUploads === 1 ? "" : "s"}`}</button> : null}
