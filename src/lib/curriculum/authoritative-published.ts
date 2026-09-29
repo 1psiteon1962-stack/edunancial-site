@@ -30,10 +30,11 @@ export interface PublishedLessonTranslationImportResult{updatedRecords:number;up
 export interface PublishedLessonTranslationExportRecord{id:string;title:string;summary:string;body:string}
 export interface PublishedLessonTranslationExportOptions{prefixes?:string[];lessonIds?:string[]}
 function empty():PublishedCurriculumState{return{schemaVersion:"1.0",initialized:true,updatedAt:new Date().toISOString(),lessons:{},batchLessonIds:{}}}
+function canWriteLegacyPublishedState(){return process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES?.trim().toLowerCase()==="true"}
 function canReadLegacyPublishedState(){const value=process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE?.trim().toLowerCase();return value===undefined||value===""?true:value==="true"}
 async function readLegacy(){try{const b=await getAdminContentStorage().readBinary(PUBLISHED_STATE_PATH);if(!b)return empty();const p=JSON.parse(b.toString("utf8")) as Partial<PublishedCurriculumState>;return{schemaVersion:"1.0" as const,initialized:Boolean(p.initialized),updatedAt:typeof p.updatedAt==="string"?p.updatedAt:new Date().toISOString(),lessons:p.lessons&&typeof p.lessons==="object"?p.lessons:{},batchLessonIds:p.batchLessonIds&&typeof p.batchLessonIds==="object"?p.batchLessonIds:{}}}catch{return empty()}}
 async function readPublishedState(){const rows=await readAtomicPublishedLessons();if(!canReadLegacyPublishedState()){const s=empty();for(const r of rows??[])s.lessons[r.id]=r;return s}const legacy=await readLegacy();if(rows===null)return legacy;/* Repository Level 1 is authoritative. Do not let stale durable snapshots or translations change established Level 1 rendering. Durable legacy-only Levels 2-5 remain visible. */for(const r of rows)legacy.lessons[r.id]=r;return legacy}
-async function writeLegacy(s:PublishedCurriculumState){await getAdminContentStorage().saveBinary(PUBLISHED_STATE_PATH,Buffer.from(`${JSON.stringify(s,null,2)}\n`),"application/json")}
+async function writeLegacy(s:PublishedCurriculumState){if(!canWriteLegacyPublishedState())throw new Error("Legacy full-state curriculum writes are disabled during canonical consolidation.");await getAdminContentStorage().saveBinary(PUBLISHED_STATE_PATH,Buffer.from(`${JSON.stringify(s,null,2)}\n`),"application/json")}
 function parseFM(raw:string){
   if(!raw.startsWith("---")){
     const lines=raw.split(/\r?\n/u);
