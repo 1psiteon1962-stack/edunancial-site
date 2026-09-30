@@ -9,10 +9,14 @@ import { selectExistingRestorationCandidates } from "@/lib/admin-content/restora
 import { decideRestorationExecution } from "@/lib/admin-content/restoration-execution-gate";
 import { decideControlledRestorationStep } from "@/lib/admin-content/restoration-controlled-execution";
 import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
+import { verifyExistingRestorationPackages } from "@/lib/admin-content/restoration-verification";
+import { orderVerifiedRestorationPackages } from "@/lib/admin-content/restoration-order";
+import { assessRestorationExecutionReadiness } from "@/lib/admin-content/restoration-readiness";
+import { buildRestorationExecutionManifest } from "@/lib/admin-content/restoration-execution-manifest";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
-import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
+import { getVerifiedRecoveryCompletions, recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 
 export const runtime = "nodejs";
@@ -60,10 +64,10 @@ export async function POST(request: NextRequest) {
   if (!auth.ok) return auth.response;
   if (!RECOVERY_PUBLICATION_ENABLED) return Response.json({ success: false, error: "Interrupted-upload recovery is disabled during curriculum consolidation.", recoveryFrozen: true }, { status: 423, headers: { "Cache-Control": "private, no-store" } });
   const actor = toActor(auth.session);
-  const body = await request.json() as { batchId?: string; uploadId?: string; completedSequences?: number[] };
+  const body = await request.json() as { batchId?: string; uploadId?: string };
   const batchId = String(body.batchId ?? "").trim();
   const uploadId = String(body.uploadId ?? "").trim();
-  const completedSequences = new Set((body.completedSequences ?? []).filter((value): value is number => Number.isInteger(value) && value > 0));
+
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
   let candidates: RecoveryCandidate[];
   try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
@@ -77,6 +81,12 @@ export async function POST(request: NextRequest) {
   if (sameCoordinate.length !== 1) return Response.json({ success: false, error: "Restoration requires exactly one recoverable package for this curriculum coordinate.", reconciliationKey: classified?.reconciliationKey, candidateCount: sameCoordinate.length, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const executionDecision = await decideRestorationExecution(recoverablePackages, classified!);
   if (!executionDecision.allowed) return Response.json({ success: false, error: "Restoration is blocked until its verified canonical prerequisite is learner-resolvable.", executionDecision, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+  const verifiedCompletions = await getVerifiedRecoveryCompletions();
+  const verification = verifyExistingRestorationPackages(recoverablePackages);
+  const restorationOrder = orderVerifiedRestorationPackages(verification);
+  const executionReadiness = await assessRestorationExecutionReadiness(restorationOrder);
+  const executionManifest = buildRestorationExecutionManifest(executionReadiness);
+  const completedSequences = new Set(executionManifest.filter((entry) => verifiedCompletions.some((completed) => completed.batchId === entry.batchId && completed.uploadId === entry.uploadId)).map((entry) => entry.sequence));
   const controlledDecision = await decideControlledRestorationStep(recoverablePackages, classified!, completedSequences);
   if (!controlledDecision.allowed) return Response.json({ success: false, error: "Restoration package is not the next verified execution step.", controlledDecision, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const upload = candidate.upload;
