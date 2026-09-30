@@ -7,6 +7,7 @@ import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryC
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
 import { decideRestorationExecution } from "@/lib/admin-content/restoration-execution-gate";
+import { decideControlledRestorationStep } from "@/lib/admin-content/restoration-controlled-execution";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
@@ -58,9 +59,10 @@ export async function POST(request: NextRequest) {
   if (!auth.ok) return auth.response;
   if (!RECOVERY_PUBLICATION_ENABLED) return Response.json({ success: false, error: "Interrupted-upload recovery is disabled during curriculum consolidation.", recoveryFrozen: true }, { status: 423, headers: { "Cache-Control": "private, no-store" } });
   const actor = toActor(auth.session);
-  const body = await request.json() as { batchId?: string; uploadId?: string };
+  const body = await request.json() as { batchId?: string; uploadId?: string; completedSequences?: number[] };
   const batchId = String(body.batchId ?? "").trim();
   const uploadId = String(body.uploadId ?? "").trim();
+  const completedSequences = new Set((body.completedSequences ?? []).filter((value): value is number => Number.isInteger(value) && value > 0));
   if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
   let candidates: RecoveryCandidate[];
   try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
@@ -74,6 +76,8 @@ export async function POST(request: NextRequest) {
   if (sameCoordinate.length !== 1) return Response.json({ success: false, error: "Restoration requires exactly one recoverable package for this curriculum coordinate.", reconciliationKey: classified?.reconciliationKey, candidateCount: sameCoordinate.length, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const executionDecision = await decideRestorationExecution(recoverablePackages, classified!);
   if (!executionDecision.allowed) return Response.json({ success: false, error: "Restoration is blocked until its verified canonical prerequisite is learner-resolvable.", executionDecision, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+  const controlledDecision = await decideControlledRestorationStep(recoverablePackages, classified!, completedSequences);
+  if (!controlledDecision.allowed) return Response.json({ success: false, error: "Restoration package is not the next verified execution step.", controlledDecision, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const upload = candidate.upload;
   let identity;
   try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 400 }); }
