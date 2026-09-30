@@ -5,6 +5,7 @@ import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-d
 import { buildRestorationPlan, type RestorationGap } from "@/lib/admin-content/restoration-plan";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
 import { verifyExistingRestorationPackages } from "@/lib/admin-content/restoration-verification";
+import { orderVerifiedRestorationPackages } from "@/lib/admin-content/restoration-order";
 import { listRestorationCoordinates } from "@/lib/curriculum/restoration-matrix";
 
 export const runtime = "nodejs";
@@ -25,6 +26,7 @@ export async function GET(request: NextRequest) {
   const coordinates = listRestorationCoordinates();
   const executionCandidates = selectExistingRestorationCandidates(packages);
   const verification = verifyExistingRestorationPackages(packages);
+  const restorationOrder = orderVerifiedRestorationPackages(verification);
   const packageKeys = new Set(packages.flatMap((candidate) => candidate.reconciliationKey ? [candidate.reconciliationKey] : []));
   const gaps: RestorationGap[] = coordinates.map((coordinate) => {
     const level = Number(coordinate.level.replace("level-", ""));
@@ -50,6 +52,10 @@ export async function GET(request: NextRequest) {
     executionCandidates,
     verification,
     readyExistingL1L3: verification.filter((entry) => entry.status === "ready-single-package"),
+    restorationOrder,
+    canonicalReady: restorationOrder.filter((entry) => entry.phase === "canonical"),
+    localizedReady: restorationOrder.filter((entry) => entry.phase === "localized" && !entry.blockedByCanonical),
+    localizedBlockedByCanonical: restorationOrder.filter((entry) => entry.phase === "localized" && entry.blockedByCanonical),
     restorable: plan.restorable,
     unresolved: plan.unresolved,
     conflicts: plan.conflicts,
