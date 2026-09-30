@@ -10,6 +10,8 @@ import { assessRestorationExecutionReadiness } from "@/lib/admin-content/restora
 import { buildRestorationExecutionManifest } from "@/lib/admin-content/restoration-execution-manifest";
 import { buildRestorationExecutionSteps } from "@/lib/admin-content/restoration-execution-runner";
 import { listRestorationCoordinates } from "@/lib/curriculum/restoration-matrix";
+import { getVerifiedRecoveryCompletions } from "@/lib/admin-content/upload-operations";
+import { reconcileRestorationExecution } from "@/lib/admin-content/restoration-reconciliation";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -33,6 +35,8 @@ export async function GET(request: NextRequest) {
   const executionReadiness = await assessRestorationExecutionReadiness(restorationOrder);
   const executionManifest = buildRestorationExecutionManifest(executionReadiness);
   const executionSteps = buildRestorationExecutionSteps(executionManifest);
+  const verifiedRecoveryCompletions = await getVerifiedRecoveryCompletions();
+  const reconciliation = reconcileRestorationExecution(executionManifest, verifiedRecoveryCompletions);
   const packageKeys = new Set(packages.flatMap((candidate) => candidate.reconciliationKey ? [candidate.reconciliationKey] : []));
   const gaps: RestorationGap[] = coordinates.map((coordinate) => {
     const level = Number(coordinate.level.replace("level-", ""));
@@ -65,6 +69,7 @@ export async function GET(request: NextRequest) {
     executionReadiness,
     executionManifest,
     executionSteps,
+    reconciliation,
     executionReady: executionReadiness.filter((entry) => entry.executionReady),
     executionBlocked: executionReadiness.filter((entry) => !entry.executionReady),
     restorable: plan.restorable,
