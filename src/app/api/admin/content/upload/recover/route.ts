@@ -4,6 +4,7 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryCandidate } from "@/lib/admin-content/recovery-discovery";
+import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
@@ -14,9 +15,10 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
-// Phase 3 consolidation freeze: discovery remains read-only, but no stored
-// package may be republished until the canonical curriculum path is proven.
-const RECOVERY_PUBLICATION_ENABLED = false;
+// Fail closed. Production restoration requires an explicit deployment-time switch.
+// The switch is global across tracks/levels/locales; package identity and the
+// shared validator enforce the configured curriculum coordinate.
+const RECOVERY_PUBLICATION_ENABLED = recoveryPublicationEnabled();
 
 export async function GET(request: NextRequest) {
   const auth = await requireAdminApiSession(request, false);
