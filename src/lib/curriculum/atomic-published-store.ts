@@ -75,13 +75,15 @@ function registryLevelOne(): PublishedLessonRecord[] {
  */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
   if (process.env.NODE_ENV !== "production") return null;
-  const byId = new Map(registryLevelOne().map((lesson) => [lesson.id.toUpperCase(), lesson]));
   const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+  if (!lessonIds.length) return null;
+  const repositoryLevelOne = new Map(registryLevelOne().map((lesson) => [lesson.id.toUpperCase(), lesson]));
+  const byId = new Map<string, PublishedLessonRecord>();
   for (const lessonId of lessonIds) {
     const lesson = await readJson<PublishedLessonRecord>(lessonPath(lessonId));
     if (!lesson?.id || lesson.status !== "active") continue;
     const id = lesson.id.toUpperCase();
-    const repository = byId.get(id);
+    const repository = repositoryLevelOne.get(id);
     byId.set(id, repository && repository.level === 1
       ? { ...repository, translations: lesson.translations ?? repository.translations }
       : lesson);
