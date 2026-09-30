@@ -8,6 +8,7 @@ import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publica
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
 import { decideRestorationExecution } from "@/lib/admin-content/restoration-execution-gate";
 import { decideControlledRestorationStep } from "@/lib/admin-content/restoration-controlled-execution";
+import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
@@ -90,6 +91,10 @@ export async function POST(request: NextRequest) {
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
   const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
   const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false, discoverySource: "persistent-storage" } });
-  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
+  const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
+    ? await verifyRestoredCanonicalCoordinate(classified!.reconciliationKey!)
+    : null;
+  if (postPublicationVerification && !postPublicationVerification.complete) return Response.json({ success: false, error: "Canonical restoration published but did not resolve all 50 learner lessons.", postPublicationVerification, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
+  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
