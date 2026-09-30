@@ -23,7 +23,7 @@ test("trusted canonical curriculum requires a complete 50 lesson package before 
 
 test("trusted canonical curriculum checkpoints and publishes directly to authoritative runtime state", () => {
   assert.match(helper, /options\.publish === false/u);
-  assert.match(helper, /upsertPublishedLessonsFromBatch\(batch\)/u);
+  assert.match(helper, /upsertPublishedLessonsFromBatch\(batch, \{ requireAtomic: options\.requireAtomic \}\)/u);
   assert.match(helper, /published\.upserted !== 50/u);
   assert.doesNotMatch(helper, /publishBatch\(/u);
   assert.doesNotMatch(helper, /pullRequestUrl/u);
