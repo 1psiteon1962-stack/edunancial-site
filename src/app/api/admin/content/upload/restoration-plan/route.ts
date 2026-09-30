@@ -8,6 +8,7 @@ import { verifyExistingRestorationPackages } from "@/lib/admin-content/restorati
 import { orderVerifiedRestorationPackages } from "@/lib/admin-content/restoration-order";
 import { assessRestorationExecutionReadiness } from "@/lib/admin-content/restoration-readiness";
 import { buildRestorationExecutionManifest } from "@/lib/admin-content/restoration-execution-manifest";
+import { buildRestorationExecutionSteps } from "@/lib/admin-content/restoration-execution-runner";
 import { listRestorationCoordinates } from "@/lib/curriculum/restoration-matrix";
 
 export const runtime = "nodejs";
@@ -31,6 +32,7 @@ export async function GET(request: NextRequest) {
   const restorationOrder = orderVerifiedRestorationPackages(verification);
   const executionReadiness = await assessRestorationExecutionReadiness(restorationOrder);
   const executionManifest = buildRestorationExecutionManifest(executionReadiness);
+  const executionSteps = buildRestorationExecutionSteps(executionManifest);
   const packageKeys = new Set(packages.flatMap((candidate) => candidate.reconciliationKey ? [candidate.reconciliationKey] : []));
   const gaps: RestorationGap[] = coordinates.map((coordinate) => {
     const level = Number(coordinate.level.replace("level-", ""));
@@ -62,6 +64,7 @@ export async function GET(request: NextRequest) {
     localizedBlockedByCanonical: restorationOrder.filter((entry) => entry.phase === "localized" && entry.blockedByCanonical),
     executionReadiness,
     executionManifest,
+    executionSteps,
     executionReady: executionReadiness.filter((entry) => entry.executionReady),
     executionBlocked: executionReadiness.filter((entry) => !entry.executionReady),
     restorable: plan.restorable,
