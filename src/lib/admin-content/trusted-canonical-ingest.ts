@@ -19,7 +19,7 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
   _actor: ActorContext,
-  options: { publish?: boolean } = {},
+  options: { publish?: boolean; requireAtomic?: boolean } = {},
 ): Promise<{ attempted: boolean; approvedFiles: number; publishedLessons?: number }> {
   if (!isTrustedCanonicalCurriculumIdentity(identity) || !identity) return { attempted: false, approvedFiles: 0 };
 
@@ -44,7 +44,7 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   // state used by the learner catalog instead of opening a second GitHub PR.
   if (options.publish === false) return { attempted: true, approvedFiles: 50 };
 
-  const published = await upsertPublishedLessonsFromBatch(batch);
+  const published = await upsertPublishedLessonsFromBatch(batch, { requireAtomic: options.requireAtomic });
   if (published.upserted !== 50) {
     throw new Error(`Trusted curriculum publication for ${identity.track}/${identity.level}/${identity.language} published ${published.upserted} of 50 lessons.`);
   }
