@@ -8,7 +8,7 @@ function pkg(key: string, level: "level-1"|"level-2"|"level-3"|"level-4" = "leve
   return {
     batchId: "batch_test",
     upload: { uploadId: key, originalFilename: key+".zip", mimeType:"application/zip", sizeBytes:0, storagePath:"uploads/courses/"+key+".zip" },
-    identity: { track: track.toLowerCase(), level, language, title:"Test" },
+    identity: { track: track.toLowerCase() as NonNullable<RecoverableCurriculumPackage["identity"]>["track"], level, language: language as NonNullable<RecoverableCurriculumPackage["identity"]>["language"], title:"Test" },
     classificationError:null,
     reconciliationKey:key,
   };
