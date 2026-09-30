@@ -1,0 +1,50 @@
+import { NextRequest } from "next/server";
+
+import { requireAdminApiSession } from "@/lib/admin-content/auth";
+import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-discovery";
+import { buildRestorationPlan, type RestorationGap } from "@/lib/admin-content/restoration-plan";
+import { listRestorationCoordinates } from "@/lib/curriculum/restoration-matrix";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+export const maxDuration = 300;
+
+/**
+ * Read-only global restoration planner. It deliberately covers every centrally
+ * configured track x L1-L5 x locale coordinate, including coordinates that
+ * currently have no canonical registry assets. Future centrally configured
+ * locales therefore enter the plan without restoration-specific code.
+ */
+export async function GET(request: NextRequest) {
+  const auth = await requireAdminApiSession(request, false);
+  if (!auth.ok) return auth.response;
+
+  const packages = await getRecoverableCurriculumPackages();
+  const coordinates = listRestorationCoordinates();
+  const packageKeys = new Set(packages.flatMap((candidate) => candidate.reconciliationKey ? [candidate.reconciliationKey] : []));
+  const gaps: RestorationGap[] = coordinates.map((coordinate) => {
+    const level = Number(coordinate.level.replace("level-", ""));
+    const key = `${coordinate.track.toUpperCase()}:L${level}:${coordinate.locale}`;
+    return {
+      track: coordinate.track,
+      level,
+      locale: coordinate.locale,
+      // This endpoint does not claim canonical completeness. Coordinates with
+      // a recoverable package are candidates; all others remain unresolved
+      // until canonical gap evidence is joined by the restoration executor.
+      classification: packageKeys.has(key) ? "missing-canonical" : "unresolved",
+    };
+  });
+  const plan = buildRestorationPlan(gaps, packages);
+
+  return Response.json({
+    success: true,
+    readOnly: true,
+    matrixCoordinates: coordinates.length,
+    recoverablePackages: packages.length,
+    restorable: plan.restorable,
+    unresolved: plan.unresolved,
+    conflicts: plan.conflicts,
+    unmatchedPackages: plan.unmatchedPackages,
+  }, { headers: { "Cache-Control": "private, no-store" } });
+}
