@@ -56,3 +56,19 @@ export async function recordUploadOperation(input: UploadOperationInput): Promis
     console.warn("[upload-operations] GitHub-backed audit unavailable", error);
   }
 }
+
+
+export async function getVerifiedRecoveryCompletions(): Promise<Array<{ batchId: string; uploadId: string }>> {
+  const events = await getAdminContentStorage().listAuditHistory();
+  const seen = new Set<string>();
+  const completed: Array<{ batchId: string; uploadId: string }> = [];
+  for (const event of events) {
+    if (event.metadata?.kind !== "upload-operation" || event.metadata?.phase !== "VERIFY" || event.metadata?.status !== "SUCCEEDED") continue;
+    if (event.metadata?.recoveredWithoutReupload !== true || !event.batchId || typeof event.metadata?.uploadId !== "string") continue;
+    const key = `${event.batchId}::${event.metadata.uploadId}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    completed.push({ batchId: event.batchId, uploadId: event.metadata.uploadId });
+  }
+  return completed;
+}
