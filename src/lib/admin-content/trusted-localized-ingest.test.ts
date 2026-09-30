@@ -34,10 +34,10 @@ test("trusted localized ingestion supports Levels 1-5 and excludes canonical US 
 });
 
 test("trusted localized ingestion republishes and verifies localized translation publication", () => {
-  assert.match(helper, /repairAndPublishLocalizedBatch\(batch\)/u);
+  assert.match(helper, /repairAndPublishLocalizedBatch\(batch, \{ requireAtomic: options\.requireAtomic \}\)/u);
   assert.match(helper, /localization\.translated !== approvedFiles/u);
   assert.match(helper, /localization\.missingLessonIds\.length > 0/u);
-  assert.match(helper, /backfillMissingPublishedLessonsFromRegistry\(\[identity\.track\.toUpperCase\(\)\]\)/u);
+  assert.doesNotMatch(helper, /backfillMissingPublishedLessonsFromRegistry/u);
   assert.match(finalizeRoute, /autoPublishTrustedLocalizedLevel1Batch\(batch, packageIdentity\)/u);
 });
 

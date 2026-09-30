@@ -4,7 +4,6 @@ import { validateCompleteCurriculumPackage } from "@/lib/admin-content/curriculu
 import { deriveBatchStatus } from "@/lib/admin-content/review";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { UploadBatch } from "@/lib/admin-content/types";
-import { backfillMissingPublishedLessonsFromRegistry } from "@/lib/curriculum/published-registry-backfill";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 
@@ -22,6 +21,7 @@ export function isTrustedLocalizedLevel1Identity(identity: PackageIdentity | nul
 export async function autoPublishTrustedLocalizedLevel1Batch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
+  options: { requireAtomic?: boolean } = {},
 ): Promise<{
   attempted: boolean;
   approvedFiles: number;
@@ -53,9 +53,7 @@ export async function autoPublishTrustedLocalizedLevel1Batch(
   batch.updatedAt = approvedAt;
   await getAdminContentStorage().updateBatch(batch);
 
-  await backfillMissingPublishedLessonsFromRegistry([identity.track.toUpperCase()]);
-
-  const localization = await repairAndPublishLocalizedBatch(batch);
+  const localization = await repairAndPublishLocalizedBatch(batch, { requireAtomic: options.requireAtomic });
   if (localization.missingLessonIds.length > 0 || localization.translated !== approvedFiles) {
     throw new Error(
       `Localized publication incomplete for ${identity.track}/${identity.language}: published ${localization.translated} of ${approvedFiles}; missing canonical lessons: ${localization.missingLessonIds.join(", ") || "none"}.`,

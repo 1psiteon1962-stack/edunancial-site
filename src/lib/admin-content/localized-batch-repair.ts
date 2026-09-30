@@ -130,7 +130,7 @@ export async function restoreCanonicalLessonsAfterLocalizedPublish(batch: Upload
   return { attempted: lessonIds.length, restored, missingRegistryLessonIds };
 }
 
-export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promise<{ repaired: number; translated: number; skippedExisting: number; missingLessonIds: string[] }> {
+export async function repairAndPublishLocalizedBatch(batch: UploadBatch, options: { requireAtomic?: boolean } = {}): Promise<{ repaired: number; translated: number; skippedExisting: number; missingLessonIds: string[] }> {
   const candidates = localizedCandidates(batch);
   if (candidates.length === 0) return { repaired: 0, translated: 0, skippedExisting: 0, missingLessonIds: [] };
 
@@ -155,7 +155,7 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch): Promis
         ...(title ? { title } : {}),
         ...(summary ? { summary } : {}),
         body,
-      })))
+      })), { requireAtomic: options.requireAtomic })
     : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
 
   const missing = new Set(missingLessonIds);
