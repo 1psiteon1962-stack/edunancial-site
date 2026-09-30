@@ -65,7 +65,6 @@ export async function POST(request: NextRequest) {
   try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
   const candidate = candidates.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered.", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 404 });
-  const upload = candidate.upload;
   const classified = (await getRecoverableCurriculumPackages()).find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   const executionCandidate = classified ? selectExistingRestorationCandidates([classified])[0] : null;
   if (!executionCandidate?.eligible) return Response.json({ success: false, error: "Stored package is outside the current existing L1-L3 restoration scope.", reason: executionCandidate?.reason ?? "unclassified", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
