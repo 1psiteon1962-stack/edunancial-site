@@ -74,7 +74,7 @@ function registryLevelOne(): PublishedLessonRecord[] {
  * present; durable atomic rows add recovered L2/L3 and their translations.
  */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
-  if (process.env.NODE_ENV !== "production") return null;
+  if (process.env.NODE_ENV !== "production" || !process.env.EDUNANCIAL_GITHUB_TOKEN?.trim() || !process.env.EDUNANCIAL_GITHUB_OWNER?.trim() || !process.env.EDUNANCIAL_GITHUB_REPO?.trim()) return null;
   const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
   if (!lessonIds.length) return null;
   const repositoryLevelOne = new Map(registryLevelOne().map((lesson) => [lesson.id.toUpperCase(), lesson]));
