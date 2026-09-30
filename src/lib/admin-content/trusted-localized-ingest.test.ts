@@ -15,6 +15,10 @@ const presignRoute = readFileSync(
   path.join(process.cwd(), "src/app/api/admin/content/upload/presign/route.ts"),
   "utf8",
 );
+const validator = readFileSync(
+  path.join(process.cwd(), "src/lib/admin-content/curriculum-package-validation.ts"),
+  "utf8",
+);
 
 test("trusted localized ingestion supports all eight curriculum tracks", () => {
   assert.match(helper, /"red", "white", "blue", "green", "gold", "purple", "orange", "black"/u);
@@ -23,9 +27,10 @@ test("trusted localized ingestion supports all eight curriculum tracks", () => {
 test("trusted localized ingestion supports Levels 1-5 and excludes canonical US English", () => {
   assert.match(helper, /"level-1", "level-2", "level-3", "level-4", "level-5"/u);
   assert.match(helper, /!CANONICAL_ENGLISH\.has\(identity\.language\)/u);
-  assert.match(helper, /lessonNumber >= 1 && lessonNumber <= 50/u);
-  assert.match(helper, /approvedFiles !== 50/u);
-  assert.match(helper, /lessonNumbers\.size !== 50/u);
+  assert.match(helper, /validateCompleteCurriculumPackage\(batch, identity\)/u);
+  assert.match(validator, /number >= 1 && number <= 50/u);
+  assert.match(validator, /files\.length !== 50/u);
+  assert.match(validator, /lessonNumbers\.size !== 50/u);
 });
 
 test("trusted localized ingestion republishes and verifies localized translation publication", () => {
