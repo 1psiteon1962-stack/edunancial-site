@@ -7,6 +7,7 @@ import { getLessonContent, readRegistry } from "@/lib/curriculum/reader";
 const ATOMIC_ROOT = "published/atomic";
 const LESSONS_ROOT = `${ATOMIC_ROOT}/lessons`;
 const BATCHES_ROOT = `${ATOMIC_ROOT}/batches`;
+const LESSON_INDEX_PATH = `${ATOMIC_ROOT}/lesson-index.json`;
 
 function safeKey(value: string): string {
   return value.trim().replace(/[^A-Za-z0-9._-]+/gu, "_");
@@ -75,10 +76,9 @@ function registryLevelOne(): PublishedLessonRecord[] {
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
   if (process.env.NODE_ENV !== "production") return null;
   const byId = new Map(registryLevelOne().map((lesson) => [lesson.id.toUpperCase(), lesson]));
-  const entries = await getAdminContentStorage().listWorkspaceEntries();
-  for (const path of entries) {
-    if (!path.startsWith(`${LESSONS_ROOT}/`) || !path.endsWith(".json")) continue;
-    const lesson = await readJson<PublishedLessonRecord>(path);
+  const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+  for (const lessonId of lessonIds) {
+    const lesson = await readJson<PublishedLessonRecord>(lessonPath(lessonId));
     if (!lesson?.id || lesson.status !== "active") continue;
     const id = lesson.id.toUpperCase();
     const repository = byId.get(id);
@@ -90,6 +90,7 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
 }
 
 export async function upsertAtomicPublishedLessons(batchId: string, lessons: PublishedLessonRecord[]): Promise<boolean> {
+  if (process.env.NODE_ENV !== "production") return false;
   if (!lessons.length) return true;
   try {
     const ids: string[] = [];
@@ -105,6 +106,8 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       ids.push(id);
     }
     await writeJson(batchPath(batchId), [...new Set(ids)].sort());
+    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+    await writeJson(LESSON_INDEX_PATH, [...new Set([...indexed, ...ids])].sort());
     return true;
   } catch {
     return false;
@@ -116,6 +119,7 @@ export async function upsertAtomicPublishedTranslation(
   locale: string,
   translation: PublishedLessonTranslation,
 ): Promise<boolean | null> {
+  if (process.env.NODE_ENV !== "production") return null;
   try {
     const id = lessonId.toUpperCase();
     let lesson = await readJson<PublishedLessonRecord>(lessonPath(id));
@@ -136,11 +140,15 @@ export async function upsertAtomicPublishedTranslation(
 }
 
 export async function removeAtomicPublishedBatch(batchId: string): Promise<boolean> {
+  if (process.env.NODE_ENV !== "production") return false;
   try {
     const ids = await readJson<string[]>(batchPath(batchId));
     if (!ids) return false;
     for (const id of ids) await getAdminContentStorage().deleteBinary(lessonPath(id));
     await getAdminContentStorage().deleteBinary(batchPath(batchId));
+    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+    const removed = new Set(ids.map((id) => id.toUpperCase()));
+    await writeJson(LESSON_INDEX_PATH, indexed.filter((id) => !removed.has(id.toUpperCase())));
     return true;
   } catch {
     return false;
@@ -148,10 +156,13 @@ export async function removeAtomicPublishedBatch(batchId: string): Promise<boole
 }
 
 export async function removeAtomicPublishedLesson(lessonId: string): Promise<boolean | null> {
+  if (process.env.NODE_ENV !== "production") return null;
   try {
     const path = lessonPath(lessonId);
     if (!await getAdminContentStorage().readBinary(path)) return false;
     await getAdminContentStorage().deleteBinary(path);
+    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+    await writeJson(LESSON_INDEX_PATH, indexed.filter((id) => id.toUpperCase() !== lessonId.toUpperCase()));
     return true;
   } catch {
     return null;
