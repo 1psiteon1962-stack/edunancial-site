@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
   // simply because they entered through the interrupted-upload recovery route.
   const batch = await normalizeMixedLocaleBatch(createdBatch);
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
-  const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity);
+  const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
   const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
   await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false, discoverySource: "persistent-storage" } });
   return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
