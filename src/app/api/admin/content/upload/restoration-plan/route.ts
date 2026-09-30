@@ -4,6 +4,7 @@ import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-discovery";
 import { buildRestorationPlan, type RestorationGap } from "@/lib/admin-content/restoration-plan";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
+import { verifyExistingRestorationPackages } from "@/lib/admin-content/restoration-verification";
 import { listRestorationCoordinates } from "@/lib/curriculum/restoration-matrix";
 
 export const runtime = "nodejs";
@@ -23,6 +24,7 @@ export async function GET(request: NextRequest) {
   const packages = await getRecoverableCurriculumPackages();
   const coordinates = listRestorationCoordinates();
   const executionCandidates = selectExistingRestorationCandidates(packages);
+  const verification = verifyExistingRestorationPackages(packages);
   const packageKeys = new Set(packages.flatMap((candidate) => candidate.reconciliationKey ? [candidate.reconciliationKey] : []));
   const gaps: RestorationGap[] = coordinates.map((coordinate) => {
     const level = Number(coordinate.level.replace("level-", ""));
@@ -46,6 +48,8 @@ export async function GET(request: NextRequest) {
     recoverablePackages: packages.length,
     currentRecoveryScope: "existing-l1-l3",
     executionCandidates,
+    verification,
+    readyExistingL1L3: verification.filter((entry) => entry.status === "ready-single-package"),
     restorable: plan.restorable,
     unresolved: plan.unresolved,
     conflicts: plan.conflicts,
