@@ -5,6 +5,7 @@ import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-norm
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryCandidate } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
+import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/trusted-canonical-ingest";
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
@@ -64,6 +65,11 @@ export async function POST(request: NextRequest) {
   try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
   const candidate = candidates.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered.", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 404 });
+  const classified = (await getRecoverableCurriculumPackages()).find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
+  const executionCandidate = classified ? selectExistingRestorationCandidates([classified])[0] : null;
+  if (!executionCandidate?.eligible) return Response.json({ success: false, error: "Stored package is outside the current existing L1-L3 restoration scope.", reason: executionCandidate?.reason ?? "unclassified", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+  const sameCoordinate = (await getRecoverableCurriculumPackages()).filter((entry) => entry.reconciliationKey === classified?.reconciliationKey);
+  if (sameCoordinate.length !== 1) return Response.json({ success: false, error: "Restoration requires exactly one recoverable package for this curriculum coordinate.", reconciliationKey: classified?.reconciliationKey, candidateCount: sameCoordinate.length, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const upload = candidate.upload;
   let identity;
   try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 400 }); }
