@@ -22,8 +22,9 @@ jobs:
       - name: Inspect live production curriculum
         shell: bash
         run: |
-          node <<'NODE'
-          const fs = await import("node:fs");
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+          import path from "node:path";
 
           const baseUrl = "https://www.edunancial.com";
           const locales = [
@@ -33,87 +34,135 @@ jobs:
           const tracks = ["RED","WHITE","BLUE","GREEN","GOLD","PURPLE","ORANGE","BLACK"];
           const levels = [1,2,3];
           const expectedPerLevel = 50;
+          const coursesRoot = path.join(process.cwd(),"content","courses");
 
-          async function getCatalog(locale) {
-            const url = baseUrl + "/api/public/curriculum/catalog?lang=" + encodeURIComponent(locale);
-            const r = await fetch(url, {redirect:"follow", signal: AbortSignal.timeout(15000), headers:{"user-agent":"EdunancialCurriculumMatrix/1.0"}});
-            const text = await r.text();
-            if (!r.ok) throw new Error("HTTP " + r.status + ": " + text.slice(0,300));
-            return JSON.parse(text);
-          }
+          function normalizeLocaleDir(name){ return name.replaceAll("_","-"); }
 
-          function analyze(payload) {
-            const lessons = payload && payload.lessons && typeof payload.lessons === "object" ? payload.lessons : {};
-            const out = {};
-            for (const track of tracks) {
-              out[track] = {};
-              for (const level of levels) {
-                const present = [];
-                for (const [key, lesson] of Object.entries(lessons)) {
-                  const id = String((lesson && lesson.id) || key).toUpperCase();
-                  const m = id.match(/^([A-Z]+)-L([1-3])-(\d{3})$/);
-                  if (!m) continue;
-                  if (m[1] === track && Number(m[2]) === level) {
-                    const n = Number(m[3]);
-                    if (n >= 1 && n <= expectedPerLevel) present.push(n);
-                  }
+          function parseMeta(raw){
+            const out={};
+            if(raw.startsWith("---")){
+              const parts=raw.split("---");
+              if(parts.length>=3){
+                for(const line of (parts[1]||"").split(/\r?\n/u)){
+                  const i=line.indexOf(":"); if(i<0) continue;
+                  const key=line.slice(0,i).trim(); let value=line.slice(i+1).trim();
+                  if(!key) continue;
+                  if((value.startsWith('"')&&value.endsWith('"'))||(value.startsWith("'")&&value.endsWith("'"))) value=value.slice(1,-1);
+                  out[key]=value.replaceAll('\\\"','"');
                 }
-                const unique = [...new Set(present)].sort((a,b)=>a-b);
-                const have = new Set(unique);
-                const missing = [];
-                for (let n=1;n<=expectedPerLevel;n++) if (!have.has(n)) missing.push(n);
-                out[track]["L"+level] = {
-                  count: unique.length,
-                  expected: expectedPerLevel,
-                  status: unique.length === expectedPerLevel ? "COMPLETE" : unique.length === 0 ? "MISSING" : "PARTIAL",
-                  missing
-                };
               }
             }
+            const heading=raw.match(/^#\s+([A-Z]+-L\d+-\d{3})\s*(?::\s*(.+))?$/mu);
+            if(!out.id&&heading?.[1]) out.id=heading[1].trim();
+            if(!out.title&&heading?.[2]) out.title=heading[2].trim();
             return out;
           }
 
-          const report = {
-            generatedAt: new Date().toISOString(),
-            baseUrl,
-            expectedPerLevel,
-            locales: {}
-          };
+          const repo = {};
+          for(const locale of locales){
+            repo[locale]={};
+            for(const t of tracks){ repo[locale][t]={L1:[],L2:[],L3:[]}; }
+          }
 
-          await Promise.all(locales.map(async (locale) => {
-            try {
-              const payload = await getCatalog(locale);
-              report.locales[locale] = {fetch:"OK", matrix: analyze(payload)};
-            } catch (e) {
-              report.locales[locale] = {fetch:"ERROR", error:String(e && e.message || e), matrix:null};
+          for(const trackDirName of fs.readdirSync(coursesRoot)){
+            const track = trackDirName.toUpperCase();
+            if(!tracks.includes(track)) continue;
+            const trackDir=path.join(coursesRoot,trackDirName);
+            if(!fs.statSync(trackDir).isDirectory()) continue;
+            for(const levelName of fs.readdirSync(trackDir)){
+              const lm=levelName.match(/^level-([1-3])$/u);
+              if(!lm) continue;
+              const level=Number(lm[1]);
+              const levelDir=path.join(trackDir,levelName);
+              for(const localeDirName of fs.readdirSync(levelDir)){
+                const localeDir=path.join(levelDir,localeDirName);
+                if(!fs.statSync(localeDir).isDirectory()) continue;
+                const normalized=normalizeLocaleDir(localeDirName);
+                const targetLocale = locales.find(l=>l.toLowerCase()===normalized.toLowerCase());
+                if(!targetLocale) continue;
+                for(const filename of fs.readdirSync(localeDir).filter(x=>x.toLowerCase().endsWith(".md"))){
+                  const raw=fs.readFileSync(path.join(localeDir,filename),"utf8");
+                  const m=parseMeta(raw);
+                  if(!m.id||!m.title) continue;
+                  repo[targetLocale][track]["L"+level].push({id:String(m.id).toUpperCase(),title:String(m.title),path:`${trackDirName}/${levelName}/${localeDirName}/${filename}`});
+                }
+              }
+            }
+          }
+
+          async function fetchCatalog(locale){
+            const url=baseUrl+"/api/public/curriculum/catalog?lang="+encodeURIComponent(locale);
+            const r=await fetch(url,{redirect:"follow",signal:AbortSignal.timeout(45000),headers:{"user-agent":"EdunancialCurriculumMatrix/2.0"}});
+            const text=await r.text();
+            if(!r.ok) throw new Error("HTTP "+r.status+": "+text.slice(0,300));
+            return JSON.parse(text);
+          }
+
+          const report={generatedAt:new Date().toISOString(),baseUrl,expectedPerLevel,locales:{}};
+
+          await Promise.all(locales.map(async locale=>{
+            try{
+              const payload=await fetchCatalog(locale);
+              const lessons=payload?.lessons||{};
+              const matrix={};
+              for(const track of tracks){
+                matrix[track]={};
+                for(const level of levels){
+                  const key="L"+level;
+                  const localizedExpected=repo[locale][track][key];
+                  const localizedById=new Map(localizedExpected.map(x=>[x.id,x]));
+                  const liveIds=[];
+                  for(const [idKey,lesson] of Object.entries(lessons)){
+                    const id=String(lesson?.id||idKey).toUpperCase();
+                    const m=id.match(/^([A-Z]+)-L([1-3])-(\d{3})$/u);
+                    if(m&&m[1]===track&&Number(m[2])===level&&Number(m[3])>=1&&Number(m[3])<=50) liveIds.push(id);
+                  }
+                  const uniqueLive=[...new Set(liveIds)];
+                  let exactLocalized=0;
+                  const mismatched=[];
+                  for(const [id,item] of localizedById){
+                    const live=lessons[id];
+                    if(live?.title===item.title) exactLocalized++;
+                    else mismatched.push({id,expected:item.title,live:live?.title??null});
+                  }
+                  const localizedCount=localizedById.size;
+                  const localizedMissing=Math.max(0,expectedPerLevel-localizedCount);
+                  matrix[track][key]={
+                    liveLessonIds:uniqueLive.length,
+                    localizedFiles:localizedCount,
+                    localizedExactLive:exactLocalized,
+                    localizedMissing,
+                    status: exactLocalized===expectedPerLevel ? "COMPLETE_LOCALIZED" :
+                            exactLocalized===0 ? (localizedCount===0 ? "NO_LOCALIZED_FILES" : "NOT_LIVE") :
+                            "PARTIAL_LOCALIZED",
+                    mismatched:mismatched.slice(0,10)
+                  };
+                }
+              }
+              report.locales[locale]={fetch:"OK",resolvedLanguage:payload?.language??null,matrix};
+            }catch(e){
+              report.locales[locale]={fetch:"ERROR",error:String(e?.message||e),matrix:null};
             }
           }));
 
-          fs.writeFileSync("live-curriculum-matrix.json", JSON.stringify(report,null,2));
+          fs.writeFileSync("live-curriculum-matrix.json",JSON.stringify(report,null,2));
 
-          const lines = [];
-          lines.push("# Live Curriculum Matrix");
-          lines.push("");
-          lines.push("Generated: " + report.generatedAt);
-          lines.push("");
-          for (const locale of locales) {
-            const entry = report.locales[locale];
-            lines.push("## " + locale);
-            if (entry.fetch !== "OK") {
-              lines.push("FETCH ERROR: " + entry.error);
-              lines.push("");
-              continue;
-            }
+          const lines=["# Live Curriculum Matrix","",`Generated: ${report.generatedAt}`,""];
+          for(const locale of locales){
+            const entry=report.locales[locale];
+            lines.push(`## ${locale}`);
+            if(entry.fetch!=="OK"){lines.push(`FETCH ERROR: ${entry.error}`,"");continue;}
+            lines.push(`Resolved language: ${entry.resolvedLanguage}`);
             lines.push("| Track | L1 | L2 | L3 |");
-            lines.push("|---|---:|---:|---:|");
-            for (const track of tracks) {
-              const r = entry.matrix[track];
-              const fmt = x => x.status + " " + x.count + "/" + x.expected + (x.missing.length && x.missing.length <= 10 ? " missing " + x.missing.join(",") : x.missing.length ? " missing " + x.missing.length + " lessons" : "");
-              lines.push("| " + track + " | " + fmt(r.L1) + " | " + fmt(r.L2) + " | " + fmt(r.L3) + " |");
+            lines.push("|---|---|---|---|");
+            for(const track of tracks){
+              const fmt=x=>`${x.status} liveIDs=${x.liveLessonIds}/50 localized=${x.localizedExactLive}/50 repoLocalized=${x.localizedFiles}/50`;
+              const r=entry.matrix[track];
+              lines.push(`| ${track} | ${fmt(r.L1)} | ${fmt(r.L2)} | ${fmt(r.L3)} |`);
             }
             lines.push("");
           }
-          fs.writeFileSync("live-curriculum-matrix.md", lines.join("\n"));
+          fs.writeFileSync("live-curriculum-matrix.md",lines.join("\n"));
           console.log(lines.join("\n"));
           NODE
 
