@@ -12,7 +12,7 @@
 
 | Branch | Owner | Status | PR # | Notes |
 |--------|-------|--------|------|-------|
-| feature/edunancial-intelligence-phase1 | ChatGPT | Implementation complete; validation/PR in progress | pending | Phase 1 Intelligence Layer: Guide actions, intent routing, additive Neon schema |
+| repair/one-time-package-recovery-runner | ChatGPT | Implementation complete; validation/PR in progress | pending | One-package-at-a-time recovery runner and bounded GitHub Actions loop for stored curriculum packages |
 
 ---
 
@@ -52,7 +52,7 @@
 
 | Environment | Status | Last Deploy | Commit | URL |
 |-------------|--------|-------------|--------|-----|
-| Production (`main`) | _(unknown)_ | — | — | https://edunancial.com |
+| Production (`main`) | Ready | 2026-10-01 03:11 UTC | e0a2b4f325dfc97586224319fe5dad7f9b97def6 | https://edunancial.com |
 | Deploy Preview | — | — | — | — |
 
 ---
@@ -98,7 +98,7 @@
 
 | PR # | Branch | Owner | Technical Reason | Business Impact | Required Fix | Next Action | Expected Resolution |
 |------|--------|-------|-----------------|----------------|-------------|------------|---------------------|
-| _(none)_ | — | — | — | — | — | — | — |
+| pending | repair/one-time-package-recovery-runner | ChatGPT | Recovery runner not yet merged/deployed | Stored curriculum restoration cannot run automatically yet | Validate branch, open PR, merge after checks | Merge and verify production recovery workflow | This session |
 
 ---
 
@@ -106,4 +106,4 @@
 
 | Date | Session | Updated By | Summary |
 |------|---------|-----------|---------|
-| 2026-09-25 | Intelligence Phase 1 | ChatGPT | Started implementation of EDUNANCIAL Intelligence Layer Phase 1. |\n| 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |
+| 2026-10-01 | Curriculum recovery | ChatGPT | Added bounded, one-package-at-a-time recovery runner; production main remains ready on #1044. |\n| 2026-09-25 | Intelligence Phase 1 | ChatGPT | Started implementation of EDUNANCIAL Intelligence Layer Phase 1. |\n| 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |
