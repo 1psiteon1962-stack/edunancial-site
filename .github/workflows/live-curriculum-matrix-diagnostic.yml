@@ -36,7 +36,7 @@ jobs:
 
           async function getCatalog(locale) {
             const url = baseUrl + "/api/public/curriculum/catalog?lang=" + encodeURIComponent(locale);
-            const r = await fetch(url, {redirect:"follow", headers:{"user-agent":"EdunancialCurriculumMatrix/1.0"}});
+            const r = await fetch(url, {redirect:"follow", signal: AbortSignal.timeout(15000), headers:{"user-agent":"EdunancialCurriculumMatrix/1.0"}});
             const text = await r.text();
             if (!r.ok) throw new Error("HTTP " + r.status + ": " + text.slice(0,300));
             return JSON.parse(text);
@@ -80,14 +80,14 @@ jobs:
             locales: {}
           };
 
-          for (const locale of locales) {
+          await Promise.all(locales.map(async (locale) => {
             try {
               const payload = await getCatalog(locale);
               report.locales[locale] = {fetch:"OK", matrix: analyze(payload)};
             } catch (e) {
               report.locales[locale] = {fetch:"ERROR", error:String(e && e.message || e), matrix:null};
             }
-          }
+          }));
 
           fs.writeFileSync("live-curriculum-matrix.json", JSON.stringify(report,null,2));
 
