@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486",
+    "name": "Recovered white-l3-001-050-ht.zip",
+    "slug": "recovered-white-l3-001-050-ht-zip",
+    "source": "Recovered from stored upload batch batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-01T13:56:08.683Z",
+    "updatedAt": "2026-10-01T13:56:09.972Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_2d23234f-4445-474a-9b1f-8b1b67f440c3",
     "name": "Recovered white-l3-001-050-fr-fr.zip",
     "slug": "recovered-white-l3-001-050-fr-fr-zip",
