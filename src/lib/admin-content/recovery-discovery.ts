@@ -83,9 +83,14 @@ export function toReconciliationKey(identity: ReturnType<typeof inferCurriculumP
   return `${identity.track.toUpperCase()}:L${identity.level.replace("level-", "")}:${identity.language}`;
 }
 
+const MULTI_LOCALE_BUNDLE = /(?:^|[-_ .])all[-_ ]?(?:locales?|languages?)(?:[-_ .]|$)/iu;
+export const MULTI_LOCALE_BUNDLE_ERROR = "Multi-locale bundle: recover each per-locale package individually.";
+export function isMultiLocaleBundleFilename(filename: string): boolean { return MULTI_LOCALE_BUNDLE.test(filename.replace(/\.zip$/iu, "")); }
+
 export async function getRecoverableCurriculumPackages(): Promise<RecoverableCurriculumPackage[]> {
   const candidates = await getRecoverableUploads();
   return candidates.map((candidate) => {
+    if (isMultiLocaleBundleFilename(candidate.upload.originalFilename)) return { ...candidate, identity: null, classificationError: MULTI_LOCALE_BUNDLE_ERROR, reconciliationKey: null };
     try {
       return {
         ...candidate,
