@@ -1,5 +1,13 @@
 [
   {
+    "id": "audit_6759b238-061e-4e15-a430-4dab33466090",
+    "timestamp": "2026-10-01T13:56:08.683Z",
+    "action": "batch-created",
+    "result": "success",
+    "actor": "github-actions-recovery@edunancial.internal",
+    "batchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
+  },
+  {
     "id": "upload-operation-df35802c-82ee-4675-a2f8-6b19f72560fe",
     "timestamp": "2026-10-01T13:56:01.167Z",
     "action": "system-error",
