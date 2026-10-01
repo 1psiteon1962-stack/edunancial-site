@@ -18,9 +18,9 @@ export default function RecoveryClient() {
   const [recoveryAvailable, setRecoveryAvailable] = useState(true);
   const [progress, setProgress] = useState("");
 
-  async function load() {
+  async function load(options: { preserveError?: boolean } = {}) {
     setLoading(true);
-    setError("");
+    if (!options.preserveError) setError("");
     setWarning("");
     try {
       const [sessionResponse, recoveryResponse] = await Promise.all([
@@ -51,7 +51,10 @@ export default function RecoveryClient() {
       body: JSON.stringify({ batchId, uploadId }),
     });
     const payload = await response.json();
-    if (!response.ok) throw new Error(payload.error ?? "Recovery failed.");
+    if (!response.ok) {
+      const details = [payload.error, payload.reason, payload.detail, payload.controlledDecision?.reason, payload.executionDecision?.reason].filter(Boolean);
+      throw new Error(details.join(" — ") || `Recovery failed (HTTP ${response.status}).`);
+    }
     return payload;
   }
 
@@ -66,8 +69,11 @@ export default function RecoveryClient() {
       router.push(`/admin/content/batches/${payload.batch.id}`);
       router.refresh();
     } catch (err) {
-      setError((err as Error).message);
-      await load();
+      const message = (err as Error).message;
+      setError(message);
+      setProgress("Recovery did not complete. The stored ZIP is preserved; the error below is the server response.");
+      await load({ preserveError: true });
+      setError(message);
     } finally {
       setActive(null);
     }
