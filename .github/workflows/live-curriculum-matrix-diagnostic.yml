@@ -1,0 +1,125 @@
+name: Live Curriculum Matrix Diagnostic
+
+on:
+  push:
+    branches:
+      - diagnostic/live-curriculum-matrix
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Inspect live production curriculum
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("node:fs");
+
+          const baseUrl = "https://www.edunancial.com";
+          const locales = [
+            "en-US","en-GB","es-419","es-Caribbean","es-ES",
+            "fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht"
+          ];
+          const tracks = ["RED","WHITE","BLUE","GREEN","GOLD","PURPLE","ORANGE","BLACK"];
+          const levels = [1,2,3];
+          const expectedPerLevel = 50;
+
+          async function getCatalog(locale) {
+            const url = baseUrl + "/api/public/curriculum/catalog?lang=" + encodeURIComponent(locale);
+            const r = await fetch(url, {redirect:"follow", headers:{"user-agent":"EdunancialCurriculumMatrix/1.0"}});
+            const text = await r.text();
+            if (!r.ok) throw new Error("HTTP " + r.status + ": " + text.slice(0,300));
+            return JSON.parse(text);
+          }
+
+          function analyze(payload) {
+            const lessons = payload && payload.lessons && typeof payload.lessons === "object" ? payload.lessons : {};
+            const out = {};
+            for (const track of tracks) {
+              out[track] = {};
+              for (const level of levels) {
+                const present = [];
+                for (const [key, lesson] of Object.entries(lessons)) {
+                  const id = String((lesson && lesson.id) || key).toUpperCase();
+                  const m = id.match(/^([A-Z]+)-L([1-3])-(\d{3})$/);
+                  if (!m) continue;
+                  if (m[1] === track && Number(m[2]) === level) {
+                    const n = Number(m[3]);
+                    if (n >= 1 && n <= expectedPerLevel) present.push(n);
+                  }
+                }
+                const unique = [...new Set(present)].sort((a,b)=>a-b);
+                const have = new Set(unique);
+                const missing = [];
+                for (let n=1;n<=expectedPerLevel;n++) if (!have.has(n)) missing.push(n);
+                out[track]["L"+level] = {
+                  count: unique.length,
+                  expected: expectedPerLevel,
+                  status: unique.length === expectedPerLevel ? "COMPLETE" : unique.length === 0 ? "MISSING" : "PARTIAL",
+                  missing
+                };
+              }
+            }
+            return out;
+          }
+
+          const report = {
+            generatedAt: new Date().toISOString(),
+            baseUrl,
+            expectedPerLevel,
+            locales: {}
+          };
+
+          for (const locale of locales) {
+            try {
+              const payload = await getCatalog(locale);
+              report.locales[locale] = {fetch:"OK", matrix: analyze(payload)};
+            } catch (e) {
+              report.locales[locale] = {fetch:"ERROR", error:String(e && e.message || e), matrix:null};
+            }
+          }
+
+          fs.writeFileSync("live-curriculum-matrix.json", JSON.stringify(report,null,2));
+
+          const lines = [];
+          lines.push("# Live Curriculum Matrix");
+          lines.push("");
+          lines.push("Generated: " + report.generatedAt);
+          lines.push("");
+          for (const locale of locales) {
+            const entry = report.locales[locale];
+            lines.push("## " + locale);
+            if (entry.fetch !== "OK") {
+              lines.push("FETCH ERROR: " + entry.error);
+              lines.push("");
+              continue;
+            }
+            lines.push("| Track | L1 | L2 | L3 |");
+            lines.push("|---|---:|---:|---:|");
+            for (const track of tracks) {
+              const r = entry.matrix[track];
+              const fmt = x => x.status + " " + x.count + "/" + x.expected + (x.missing.length && x.missing.length <= 10 ? " missing " + x.missing.join(",") : x.missing.length ? " missing " + x.missing.length + " lessons" : "");
+              lines.push("| " + track + " | " + fmt(r.L1) + " | " + fmt(r.L2) + " | " + fmt(r.L3) + " |");
+            }
+            lines.push("");
+          }
+          fs.writeFileSync("live-curriculum-matrix.md", lines.join("\n"));
+          console.log(lines.join("\n"));
+          NODE
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: live-curriculum-matrix
+          path: |
+            live-curriculum-matrix.json
+            live-curriculum-matrix.md
