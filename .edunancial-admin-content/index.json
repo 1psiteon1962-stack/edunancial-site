@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_1982ed9e-05b5-4e5b-813d-4cf6c2361bbd",
+    "name": "Recovered red-l3-001-050-fr-fr.zip",
+    "slug": "recovered-red-l3-001-050-fr-fr-zip",
+    "source": "Recovered from stored upload batch batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-01T13:53:40.923Z",
+    "updatedAt": "2026-10-01T13:53:43.398Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_1ef9ca43-cb95-45aa-b15f-20102df6fbe3",
     "name": "Recovered red-l3-001-050-fr-ca.zip",
     "slug": "recovered-red-l3-001-050-fr-ca-zip",
