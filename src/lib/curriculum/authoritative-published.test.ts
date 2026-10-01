@@ -193,7 +193,7 @@ test("published lesson prefers localized sibling curriculum files for title, sum
   mkdirSync(lessonDir, { recursive: true });
   rmSync(localizedEsEsPath, { force: true });
   writeFileSync(canonicalLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cash Flow in Business — Reading the Numbers\nversion: 1.0\nauthor: Canonical Author\ndate: 2026-08-03\nsummary: English canonical summary\n---\n\n## Learning Objectives\n\n- Read business cash flow basics.\n\n## Core Content\n\nEnglish canonical body.\n`, "utf8");
-  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: Cashflow im Unternehmen — Zahlen lesen\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: Lokalisierte deutsche Zusammenfassung\n---\n\n## Learning Objectives\n\n- Grundlagen des betrieblichen Cashflows verstehen.\n\n## Core Content\n\nLokalisierter deutscher Inhalt.\n`, "utf8");
+  writeFileSync(localizedLessonPath, `---\nid: BLUE-L1-003\ntrack: BLUE\nofficialTrackName: Business\nlevel: 1\nlessonNumber: 3\ntitle: "Cashflow im Unternehmen — Zahlen lesen"\nversion: 1.0\nauthor: Localized Author\ndate: 2026-08-04\nsummary: "Lokalisierte deutsche Zusammenfassung"\n---\n\n## Learning Objectives\n\n- Grundlagen des betrieblichen Cashflows verstehen.\n\n## Core Content\n\nLokalisierter deutscher Inhalt.\n`, "utf8");
   try {
     const spanish = await getPublishedLesson("BLUE-L1-003", "de");
     assert.ok(spanish);
