@@ -4,9 +4,9 @@
   "slug": "recovered-white-l3-001-050-ht-zip",
   "source": "Recovered from stored upload batch batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
   "notes": "Automated one-time package-scoped recovery from persistent upload storage. No file was re-uploaded.",
-  "status": "ready-for-review",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-01T13:56:08.683Z",
-  "updatedAt": "2026-10-01T13:56:09.972Z",
+  "updatedAt": "2026-10-01T13:56:12.714Z",
   "uploads": [
     {
       "id": "upload_a4dd9abb-3444-4e27-97d6-c1c061140059",
@@ -147,7 +147,7 @@
       "sizeBytes": 4669,
       "checksum": "sha256:3c38b49814ebeb42aa81fc465cf54c45ea33db6361cd82769bdb336dbb9ad4bd",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 001 locale: ht source locale: en US track: WHITE level: 3 lesson: 1 title: \"Poukisa \\\"Achte ba, vann wo\\\" pi difisil pou fè pase pou di\" source title: \"Why \\\"Buy Low, Sell High\\\" Is Harder to Execute Than to Say\" description: \"Aprann poukisa konsèy envestisman ki pi senp la se youn nan konsèy ki pi difisil pou swiv an reyalite, ak sa ki vrèman bloke w.\" slug: white l3 001 buy low sell…",
@@ -176,16 +176,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3c38b49814ebeb42aa81fc465cf54c45ea33db6361cd82769bdb336dbb9ad4bd",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.947Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_c8209f0d-cce3-4d79-857c-572442f3f88c",
@@ -200,7 +200,7 @@
       "sizeBytes": 5225,
       "checksum": "sha256:a44113d401223d68b42fd1c95bd6e6c9070a6ec19727c8eb8dce9ec35f225d2d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 002 locale: ht source locale: en US track: WHITE level: 3 lesson: 2 title: \"Poukisa divèsifikasyon diminye risk san li pa diminye rannman ou atann (otan ou ta panse)\" source title: \"Why Diversification Reduces Risk Without Reducing Expected Return (as Much as You'd Think)\" description: \"Aprann poukisa gaye envestisman ou sou anpil pozisyon diminye risk pi efikasman pase li diminye ran…",
@@ -229,16 +229,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a44113d401223d68b42fd1c95bd6e6c9070a6ec19727c8eb8dce9ec35f225d2d",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.947Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_e142ba19-3f02-4979-aa9a-e0f101c77d97",
@@ -253,7 +253,7 @@
       "sizeBytes": 5117,
       "checksum": "sha256:65cf66dd5b1f3be1712576c7a75fbcbf1061699da7a4a3e062bc9ec5955a3407",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 003 locale: ht source locale: en US track: WHITE level: 3 lesson: 3 title: \"Poukisa korelasyon detèmine vrè divèsifikasyon, pa sèlman kantite pozisyon\" source title: \"Why Correlation Determines Real Diversification, Not Just Number of Holdings\" description: \"Aprann poukisa posede anpil envestisman pa menm bagay ak vrèman divèsifye, ak poukisa korelasyon se konsèp ki vrèman detèmine ko…",
@@ -282,16 +282,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:65cf66dd5b1f3be1712576c7a75fbcbf1061699da7a4a3e062bc9ec5955a3407",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.947Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_08123341-77b6-4414-810b-9d75fe0d4dca",
@@ -306,7 +306,7 @@
       "sizeBytes": 4737,
       "checksum": "sha256:39e2d42be67be8da4c7e57ec34b6f6f02c2436e7a24ca3243ce2ca851ba2b075",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 004 locale: ht source locale: en US track: WHITE level: 3 lesson: 4 title: \"Poukisa volatilite ak risk pa egzakteman menm bagay\" source title: \"Why Volatility and Risk Aren't Exactly the Same Thing\" description: \"Aprann poukisa yon grafik pri ki monte desann pa otomatikman menm bagay ak vrè risk finansye, ak poukisa diferans lan enpòtan pou jan ou evalye yon envestisman.\" slug: white …",
@@ -335,16 +335,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:39e2d42be67be8da4c7e57ec34b6f6f02c2436e7a24ca3243ce2ca851ba2b075",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.948Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_da3ec871-40ac-4ee6-bb7d-3a83ba079fa1",
@@ -359,7 +359,7 @@
       "sizeBytes": 4437,
       "checksum": "sha256:01b96a971ea578307cb31489df0f3bb55292047b7a7069c10183159a277f3256",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 005 locale: ht source locale: en US track: WHITE level: 3 lesson: 5 title: \"Poukisa opsyon ba w dwa, pa obligasyon — e poukisa sa koute yon bagay\" source title: \"Why Options Give You Rights, Not Obligations — And Why That Costs Something\" description: \"Aprann estrikti de baz kontra opsyon yo, poukisa achte yon opsyon ba w yon dwa sèlman, ak poukisa dwa sa a pa gratis.\" slug: white l3 …",
@@ -388,16 +388,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:01b96a971ea578307cb31489df0f3bb55292047b7a7069c10183159a277f3256",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.948Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_df5cf818-a72a-45f7-ba6e-8c6fde73d080",
@@ -412,7 +412,7 @@
       "sizeBytes": 4510,
       "checksum": "sha256:72e430684ce40f0a88593f9a6574b6caaa5d5efdb4a12dbfdffa5626e2d86f69",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 006 locale: ht source locale: en US track: WHITE level: 3 lesson: 6 title: \"Poukisa yon call parye sou direksyon e yon straddle parye sou mouvman\" source title: \"Why a Call Bets on Direction and a Straddle Bets on Movement\" description: \"Aprann diferans ant yon paryaj opsyon sou direksyon ak yon straddle, ki fè pwofi sou yon gwo mouvman nan nenpòt direksyon.\" slug: white l3 006 call v…",
@@ -441,16 +441,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:72e430684ce40f0a88593f9a6574b6caaa5d5efdb4a12dbfdffa5626e2d86f69",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.948Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_5fd75273-9f69-4f3b-8a14-f360ae010574",
@@ -465,7 +465,7 @@
       "sizeBytes": 4560,
       "checksum": "sha256:66f201ec6e0ff21373ede443c80a8732e0fa5bcfed1b3ed91175088a46dd9e97",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 007 locale: ht source locale: en US track: WHITE level: 3 lesson: 7 title: \"Poukisa pèt valè avèk tan travay kont moun ki achte opsyon\" source title: \"Why Time Decay Works Against Option Buyers\" description: \"Aprann poukisa yon opsyon pèdi valè senpleman paske tan ap pase, menm si pri byen ki dèyè l la pa chanje.\" slug: white l3 007 time decay seo title: \"Poukisa pèt valè avèk tan tra…",
@@ -494,16 +494,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:66f201ec6e0ff21373ede443c80a8732e0fa5bcfed1b3ed91175088a46dd9e97",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.949Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_3c29a125-c4a2-4869-8326-5e4f194b6841",
@@ -518,7 +518,7 @@
       "sizeBytes": 4665,
       "checksum": "sha256:c43dac3faed5496c37c831e04142d2e3101575bbec4e84b9a7852e6d52cf1c77",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 008 locale: ht source locale: en US track: WHITE level: 3 lesson: 8 title: \"Poukisa vann opsyon ranvèse pwofil risk la nèt\" source title: \"Why Selling Options Flips the Risk Profile Entirely\" description: \"Aprann poukisa vann (ekri) yon opsyon mete w sou bò obligasyon kontra a, ak yon pwofil risk ki diferan anpil de lè w achte youn.\" slug: white l3 008 selling options risk profile seo…",
@@ -547,16 +547,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c43dac3faed5496c37c831e04142d2e3101575bbec4e84b9a7852e6d52cf1c77",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.949Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_0da67660-bd40-4863-9876-b922d00e9230",
@@ -571,7 +571,7 @@
       "sizeBytes": 4462,
       "checksum": "sha256:b369d1fdb7800e4f1d9899bc8cf46d8a7bd0959d1bec714b585ac90e4638b135",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 009 locale: ht source locale: en US track: WHITE level: 3 lesson: 9 title: \"Poukisa maj (margin) grandi pwofi ak pèt menm jan ak efè levye nan imobilye\" source title: \"Why Margin Amplifies Gains and Losses Like Real Estate Leverage\" description: \"Aprann ki jan achte aksyon sou maj mache, ak poukisa li miltipliye ni pwofi ni pèt yon fason ki sanble ak efè levye nan imobilye.\" slug: whi…",
@@ -600,16 +600,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b369d1fdb7800e4f1d9899bc8cf46d8a7bd0959d1bec714b585ac90e4638b135",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.949Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_8a7896ac-6478-4d8b-8dec-6291248ebc36",
@@ -624,7 +624,7 @@
       "sizeBytes": 4495,
       "checksum": "sha256:0cc1cd9fe9a222ac577b28752ebd03a0f8b0be178e122817a451c845da1203ca",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 010 locale: ht source locale: en US track: WHITE level: 3 lesson: 10 title: \"Poukisa yon margin call ka fòse w vann nan pi move moman posib\" source title: \"Why a Margin Call Can Force You to Sell at the Worst Possible Time\" description: \"Aprann kisa yon margin call (apèl maj) ye, poukisa li rive otomatikman, ak poukisa li ka fòse w vann egzakteman lè pri yo deja ba.\" slug: white l3 01…",
@@ -653,16 +653,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0cc1cd9fe9a222ac577b28752ebd03a0f8b0be178e122817a451c845da1203ca",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.950Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_46387949-4d75-421f-9eb1-5dad7937924d",
@@ -677,7 +677,7 @@
       "sizeBytes": 4914,
       "checksum": "sha256:f12d2d23fd9e9292df6f6618dda979620a84db2364a967375605689efb260b0d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 011 locale: ht source locale: en US track: WHITE level: 3 lesson: 11 title: \"Poukisa vant a dekouvè (short selling) gen yon risk ki, an teyori, pa gen limit\" source title: \"Why Short Selling Has Theoretically Unlimited Risk\" description: \"Aprann ki jan vant a dekouvè mache, poukisa li fè pwofi lè pri a desann, ak poukisa pèt potansyèl li pa gen limit nan estrikti li.\" slug: white l3 0…",
@@ -706,16 +706,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f12d2d23fd9e9292df6f6618dda979620a84db2364a967375605689efb260b0d",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.950Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_ca683393-9a24-438f-9d2a-b3d7f34de41b",
@@ -730,7 +730,7 @@
       "sizeBytes": 4282,
       "checksum": "sha256:68cb41323d25203d54c03d755ac7aabae5746b3d4aee22893ee5a09d91e99a52",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 012 locale: ht source locale: en US track: WHITE level: 3 lesson: 12 title: \"Poukisa mwayèn kou an dola diminye risk tan, pa risk envestisman an\" source title: \"Why Dollar Cost Averaging Reduces Timing Risk, Not Investment Risk\" description: \"Aprann poukisa envesti yon kantite lajan fiks sou yon orè regilye diminye risk pou w chwazi move moman, san li pa diminye risk envestisman an li…",
@@ -759,16 +759,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:68cb41323d25203d54c03d755ac7aabae5746b3d4aee22893ee5a09d91e99a52",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.950Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_9c39db09-3bf6-441f-ace0-3e1d091c88f7",
@@ -783,7 +783,7 @@
       "sizeBytes": 5304,
       "checksum": "sha256:6d23ec3e23b740a4ea8fa09de41625a7eb0f5645baf8027730fd8eaa5936fe31",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 013 locale: ht source locale: en US track: WHITE level: 3 lesson: 13 title: \"Poukisa envesti yon sèl kou souvan bay pi bon rezilta pase DCA (e poukisa moun toujou chwazi DCA)\" source title: \"Why Lump Sum Investing Often Outperforms DCA (and Why People Still Choose DCA)\" description: \"Aprann poukisa envesti tout yon sèl kou, selon estatistik, gen tandans bay pi bon rezilta pase mwayèn …",
@@ -812,16 +812,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6d23ec3e23b740a4ea8fa09de41625a7eb0f5645baf8027730fd8eaa5936fe31",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.951Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_23edf0ff-b762-40da-8cdc-4e3b1e1f45d5",
@@ -836,7 +836,7 @@
       "sizeBytes": 4641,
       "checksum": "sha256:f559c59d3ae3b50a63236c96a924558fc49e3df7f59cc46e949a35a4d6c30212",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 014 locale: ht source locale: en US track: WHITE level: 3 lesson: 14 title: \"Poukisa reyekilibraj fòse w vann wo e achte ba otomatikman\" source title: \"Why Rebalancing Forces You to Sell High and Buy Low Automatically\" description: \"Aprann ki jan reyekilibraj yon pòtfolyo mache, ak poukisa li mete disiplin \\\"achte ba, vann wo\\\" nan yon pwosesis mekanik olye li depann de volonte ou.\" s…",
@@ -865,16 +865,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f559c59d3ae3b50a63236c96a924558fc49e3df7f59cc46e949a35a4d6c30212",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.951Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_6865e360-fdf6-4f5c-8478-d9fdca253f4b",
@@ -889,7 +889,7 @@
       "sizeBytes": 4683,
       "checksum": "sha256:94f993995b90e2b0117807e654c9096288827b3591986852bb98347e47929d89",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 015 locale: ht source locale: en US track: WHITE level: 3 lesson: 15 title: \"Poukisa risk lòd rannman yo pi enpòtan nan retrèt pase pandan w ap akimile\" source title: \"Why Sequence of Returns Risk Matters More in Retirement Than Accumulation\" description: \"Aprann poukisa lòd rannman envestisman yo rive a ka pi enpòtan pase rannman mwayèn nan li menm, sitou yon fwa ou kòmanse retire la…",
@@ -918,16 +918,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:94f993995b90e2b0117807e654c9096288827b3591986852bb98347e47929d89",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.951Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_cc924103-0dc7-4d25-8d5d-03e4926569c2",
@@ -942,7 +942,7 @@
       "sizeBytes": 4523,
       "checksum": "sha256:53ad6cde4d7f7d157bd70d11be5192759125d46a15ea485ad53980609e7ce3c8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 016 locale: ht source locale: en US track: WHITE level: 3 lesson: 16 title: \"Poukisa yon to retrè \\\"san danje\\\" pa yon garanti\" source title: \"Why a \\\"Safe\\\" Withdrawal Rate Isn't a Guarantee\" description: \"Aprann kisa yon to retrè san danje sipoze reprezante, ak poukisa se yon gid ki baze sou istwa, pa yon pwomès sou avni pa w espesyalman.\" slug: white l3 016 safe withdrawal rate seo…",
@@ -971,16 +971,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:53ad6cde4d7f7d157bd70d11be5192759125d46a15ea485ad53980609e7ce3c8",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.952Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_3d342e61-2081-4ab0-833e-d2e887d5485a",
@@ -995,7 +995,7 @@
       "sizeBytes": 4535,
       "checksum": "sha256:2a4c8339537d09a4cab64c00d607c9f1a9aaa8bc982d15e4d132b5895f82a3da",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 017 locale: ht source locale: en US track: WHITE level: 3 lesson: 17 title: \"Poukisa dividann pa \\\"lajan gratis\\\"\" source title: \"Why Dividends Aren't \\\"Free Money\\\"\" description: \"Aprann poukisa yon peman dividann fè pri yon aksyon desann apeprè menm kantite a, ak poukisa dividann se yon redistribisyon valè, pa yon bonis.\" slug: white l3 017 dividends not free money seo title: \"Pouki…",
@@ -1024,16 +1024,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2a4c8339537d09a4cab64c00d607c9f1a9aaa8bc982d15e4d132b5895f82a3da",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.960Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_e514bee4-6a2d-4638-834a-3639650a6293",
@@ -1048,7 +1048,7 @@
       "sizeBytes": 4813,
       "checksum": "sha256:90dd1e366d4c3e6f2f78abbb2739bc3648efbd2802012362ecb17349d12a603d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 018 locale: ht source locale: en US track: WHITE level: 3 lesson: 18 title: \"Poukisa dirasyon yon obligasyon mezire sansiblite l a to enterè\" source title: \"Why Bond Duration Measures Interest Rate Sensitivity\" description: \"Aprann kisa dirasyon yon obligasyon mezire, poukisa obligasyon ki gen yon dirasyon pi long pi sansib a chanjman nan to enterè, ak poukisa sa enpòtan pou envestisè…",
@@ -1077,16 +1077,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:90dd1e366d4c3e6f2f78abbb2739bc3648efbd2802012362ecb17349d12a603d",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.961Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_0e8a068e-ee53-41e9-9b31-3ce3b8a5b932",
@@ -1101,7 +1101,7 @@
       "sizeBytes": 4945,
       "checksum": "sha256:4951b25e72d640fb9af850c59f0a8097a5082acd9879d9b38cb6d6b25777ee8b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 019 locale: ht source locale: en US track: WHITE level: 3 lesson: 19 title: \"Poukisa pri obligasyon ak to enterè bouje nan direksyon opoze\" source title: \"Why Bond Prices and Interest Rates Move in Opposite Directions\" description: \"Aprann rezon mekanik ki fè to enterè k ap monte lakòz pri obligasyon ki deja egziste desann, ak poukisa relasyon sa a previzib, li pa o aza.\" slug: white …",
@@ -1130,16 +1130,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4951b25e72d640fb9af850c59f0a8097a5082acd9879d9b38cb6d6b25777ee8b",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.961Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_3fd67726-0e32-4574-a418-8b2fb1102404",
@@ -1154,7 +1154,7 @@
       "sizeBytes": 4803,
       "checksum": "sha256:ba671fee5cba3555ccfc78083cea98272efc580e7a4add89f1c1fdd79862b2e7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 020 locale: ht source locale: en US track: WHITE level: 3 lesson: 20 title: \"Poukisa risk kredi ak risk to enterè se de risk diferan pou obligasyon\" source title: \"Why Credit Risk and Interest Rate Risk Are Different Bond Risks\" description: \"Aprann poukisa yon obligasyon ka pèdi valè pou de rezon totalman diferan, ak poukisa konprann kilès k ap rive a chanje jan ou ta dwe panse sou l…",
@@ -1183,16 +1183,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:ba671fee5cba3555ccfc78083cea98272efc580e7a4add89f1c1fdd79862b2e7",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.961Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_7ebad5df-5ea1-4e1e-9911-365aec0c3732",
@@ -1207,7 +1207,7 @@
       "sizeBytes": 4986,
       "checksum": "sha256:3f2f757b083a815bfa33eb4a833555debbe1db9cfdf35fdfe77a48b7f2b79aa4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 021 locale: ht source locale: en US track: WHITE level: 3 lesson: 21 title: \"Poukisa ETF ak fon mityèl diferan nan komès, taks, ak frè\" source title: \"Why ETFs and Mutual Funds Differ in Trading, Tax, and Cost\" description: \"Aprann diferans pratik ant ETF ak fon mityèl, ak poukisa diferans sa yo ka pi enpòtan pase sa yo genyen an komen an jeneral.\" slug: white l3 021 etf vs mutual fun…",
@@ -1236,16 +1236,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3f2f757b083a815bfa33eb4a833555debbe1db9cfdf35fdfe77a48b7f2b79aa4",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.962Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_d3d2219e-90f0-4c86-aeeb-895af90d095c",
@@ -1260,7 +1260,7 @@
       "sizeBytes": 4647,
       "checksum": "sha256:7fbe78f5de8c9fc39adc3cdcca92ec5e2b58d7480e33beab633680984e18dfe0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 022 locale: ht source locale: en US track: WHITE level: 3 lesson: 22 title: \"Poukisa ratio depans yo akimile sou plizyè deseni\" source title: \"Why Expense Ratios Compound Over Decades\" description: \"Aprann poukisa yon ti frè anyèl fon ki sanble piti ka koute w plizyè di milye dola sou yon orizon envestisman long, ak poukisa li fasil pou w pa bay efè sa a ase enpòtans.\" slug: white l3 …",
@@ -1289,16 +1289,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7fbe78f5de8c9fc39adc3cdcca92ec5e2b58d7480e33beab633680984e18dfe0",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.962Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_8cd06ca2-cb77-4c93-995c-007b1d749ba3",
@@ -1313,7 +1313,7 @@
       "sizeBytes": 4358,
       "checksum": "sha256:c9b00c9aabf1314cf9769712497d9015191f571cbaabc712f14c0a056e0d1ce2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 023 locale: ht source locale: en US track: WHITE level: 3 lesson: 23 title: \"Poukisa envesti nan endèks parye sou mache a, pa sou yon manadjè\" source title: \"Why Index Investing Bets on the Market, Not a Manager\" description: \"Aprann sou kisa envestisman nan endèks vrèman parye, ak poukisa se yon paryaj ki diferan nèt de chwazi aksyon endividyèl oswa manadjè fon aktif.\" slug: white l3…",
@@ -1342,16 +1342,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c9b00c9aabf1314cf9769712497d9015191f571cbaabc712f14c0a056e0d1ce2",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.962Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_36698b33-386b-4c1a-b8ef-834c6ebdce76",
@@ -1366,7 +1366,7 @@
       "sizeBytes": 4921,
       "checksum": "sha256:8fc7c0598d8ddfcc6f999ac5ed3083c9e26aa6459d92f1d3db6c671f4eccaf71",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 024 locale: ht source locale: en US track: WHITE level: 3 lesson: 24 title: \"Poukisa jesyon aktif oblije depase pwòp frè li pou l ajoute valè\" source title: \"Why Active Management Has to Overcome Its Own Fees to Add Value\" description: \"Aprann poukisa yon fon ki jere aktivman bezwen bat mache a pa plis pase yon ti kras pou l vrèman bay yon pi bon rezilta pase yon fon endèks ki pa kout…",
@@ -1395,16 +1395,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8fc7c0598d8ddfcc6f999ac5ed3083c9e26aa6459d92f1d3db6c671f4eccaf71",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.963Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_eac52749-0c67-42ab-8bda-2ecf0971dc33",
@@ -1419,7 +1419,7 @@
       "sizeBytes": 4862,
       "checksum": "sha256:deeaa67f04477104f4f5b45406b2367d10568e4cce1f7b8b54959f590cff8799",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 025 locale: ht source locale: en US track: WHITE level: 3 lesson: 25 title: \"Poukisa pèfòmans sot pase yon fon pa prevwa pèfòmans alavni li\" source title: \"Why Past Fund Performance Doesn't Predict Future Performance\" description: \"Aprann poukisa bon rezilta resan yon fon pa yon siyal ou ka fè konfyans pou konnen ki jan li pral mache pita.\" slug: white l3 025 past performance not pred…",
@@ -1448,16 +1448,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:deeaa67f04477104f4f5b45406b2367d10568e4cce1f7b8b54959f590cff8799",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.963Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_6dec683f-8ff2-4f2e-b359-9992a3592ddd",
@@ -1472,7 +1472,7 @@
       "sizeBytes": 4794,
       "checksum": "sha256:c383da1a9486d1136f17b19b72ecb19bf4d1a313882cd26fe706ccfe406f63eb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 026 locale: ht source locale: en US track: WHITE level: 3 lesson: 26 title: \"Poukisa prejije konpòtman yo koute envestisè yo plis pase frè yo\" source title: \"Why Behavioral Biases Cost Investors More Than Fees Do\" description: \"Aprann poukisa sikoloji envestisè a, pa sèlman frè fon yo, souvan konsidere kòm youn nan pi gwo bagay ki rale rannman envestisman yo desann nan lavi reyèl.\" sl…",
@@ -1501,16 +1501,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c383da1a9486d1136f17b19b72ecb19bf4d1a313882cd26fe706ccfe406f63eb",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.963Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_e9e52f5f-f36f-4fd3-8211-59ceeb6edca3",
@@ -1525,7 +1525,7 @@
       "sizeBytes": 4835,
       "checksum": "sha256:9fd9665e997e46c9d31fd0ac3fc22ff5afab0e6fd845161e8124e048ca82b7b3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 027 locale: ht source locale: en US track: WHITE level: 3 lesson: 27 title: \"Poukisa laperèz pèt fè envestisè yo vann sa k ap genyen twò bonè epi kenbe sa k ap pèdi twò lontan\" source title: \"Why Loss Aversion Makes Investors Sell Winners Too Early and Hold Losers Too Long\" description: \"Aprann poukisa doulè yon pèt souvan santi l pi fò pase plezi yon benefis ki menm gwosè, e kijan de…",
@@ -1554,16 +1554,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:9fd9665e997e46c9d31fd0ac3fc22ff5afab0e6fd845161e8124e048ca82b7b3",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.964Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_0ede6408-b7a6-430c-a86e-6a23c5db8277",
@@ -1578,7 +1578,7 @@
       "sizeBytes": 4665,
       "checksum": "sha256:454f4e5bdc91664497349cc6a0e4dcc090f0bddc17c89ca94134d07f432a5b87",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 028 locale: ht source locale: en US track: WHITE level: 3 lesson: 28 title: \"Poukisa prejije sa ki fèk pase defòme jan ou wè risk apre yon mouvman mache\" source title: \"Why Recency Bias Distorts Risk Perception After a Market Move\" description: \"Aprann poukisa envestisè yo gen tandans bay evènman ki fèk pase twòp pwa lè y ap jije risk, e poukisa sa ka mennen nan desizyon ki pran nan m…",
@@ -1607,16 +1607,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:454f4e5bdc91664497349cc6a0e4dcc090f0bddc17c89ca94134d07f432a5b87",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.964Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_fb97a4b9-f3e0-450e-acb3-cc9b425e29e2",
@@ -1631,7 +1631,7 @@
       "sizeBytes": 4587,
       "checksum": "sha256:7a6cd7b478ea8df70ee866e47a76024fe149ec64b09cb68d1f6232f6b9453470",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 029 locale: ht source locale: en US track: WHITE level: 3 lesson: 29 title: \"Poukisa enflasyon manje pouvwa acha menm nan yon pòtfolyo \\\"san risk\\\"\" source title: \"Why Inflation Erodes Purchasing Power Even in a \\\"Safe\\\" Portfolio\" description: \"Aprann poukisa si ou kenbe sèlman byen ki trè estab e ki bay ti rannman, ou ka toujou pèdi pouvwa acha avèk tan, menm san okenn pèt sou mache…",
@@ -1660,16 +1660,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7a6cd7b478ea8df70ee866e47a76024fe149ec64b09cb68d1f6232f6b9453470",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.964Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_94438665-02df-4f49-87b2-d795c948491c",
@@ -1684,7 +1684,7 @@
       "sizeBytes": 5130,
       "checksum": "sha256:2beaa4c48279a406e16ea4ee6fe734ed11ce303c2a5372e6d915da37fc497bc9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 030 locale: ht source locale: en US track: WHITE level: 3 lesson: 30 title: \"Poukisa diferan byen reyaji diferan fason a enflasyon\" source title: \"Why Different Assets Respond Differently to Inflation\" description: \"Aprann poukisa kèk envestisman gen tandans kenbe pi byen pase lòt pandan peryòd enflasyon, e poukisa pa gen yon sèl pwoteksyon pafè kont enflasyon.\" slug: white l3 030 ass…",
@@ -1713,16 +1713,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2beaa4c48279a406e16ea4ee6fe734ed11ce303c2a5372e6d915da37fc497bc9",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.965Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_458e617d-91fe-4093-9d65-eeec8499f790",
@@ -1737,7 +1737,7 @@
       "sizeBytes": 4795,
       "checksum": "sha256:a6d49793fd03fc581949c54ca813abab342fbb82c3a9dcbefbdf9df4f8868040",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 031 locale: ht source locale: en US track: WHITE level: 3 lesson: 31 title: \"Poukisa risk lajan etranje afekte envestisman entènasyonal yo\" source title: \"Why Currency Risk Affects International Investments\" description: \"Aprann poukisa envesti nan byen ki gen pri yo nan yon lajan etranje ajoute yon kouch risk ki separe de pèfòmans envestisman an li menm.\" slug: white l3 031 currency …",
@@ -1766,16 +1766,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a6d49793fd03fc581949c54ca813abab342fbb82c3a9dcbefbdf9df4f8868040",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.965Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_3bc2f05a-80fd-46ea-8484-a057152cc2c7",
@@ -1790,7 +1790,7 @@
       "sizeBytes": 4806,
       "checksum": "sha256:f887ebf04fddc682251f296fdbad90c533a65018ec27094f04b12f08beebb4ff",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 032 locale: ht source locale: en US track: WHITE level: 3 lesson: 32 title: \"Poukisa REIT yo pèmèt ou envesti nan imobilye san ou pa achte pwopriyete\" source title: \"Why REITs Let You Invest in Real Estate Without Buying Property\" description: \"Aprann kijan REIT (Real Estate Investment Trust) yo mache, poukisa yo achte e vann tankou aksyon, e kijan yo konekte tras RED ak WHITE pwogram…",
@@ -1819,16 +1819,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f887ebf04fddc682251f296fdbad90c533a65018ec27094f04b12f08beebb4ff",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.965Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_50d963e9-af81-4e74-a20d-58a8660cafed",
@@ -1843,7 +1843,7 @@
       "sizeBytes": 4704,
       "checksum": "sha256:c4adbf42e90af03d53d78f73150805c123bbe6588d723c08a9bddf8fc865ba1f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 033 locale: ht source locale: en US track: WHITE level: 3 lesson: 33 title: \"Poukisa konsantrasyon nan yon sèl sektè ogmante risk menm nan yon pòtfolyo ki sanble divèsifye\" source title: \"Why Sector Concentration Increases Risk Even in a Diversified Looking Portfolio\" description: \"Aprann poukisa posede anpil aksyon ki konsantre nan menm sektè a ka kite yon pòtfolyo pi ekspoze a risk …",
@@ -1872,16 +1872,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c4adbf42e90af03d53d78f73150805c123bbe6588d723c08a9bddf8fc865ba1f",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.966Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_f1da1d52-4169-49d7-b21a-564a192e35ef",
@@ -1896,7 +1896,7 @@
       "sizeBytes": 4911,
       "checksum": "sha256:6c7e22f5b5da817c356033306679d4518b988b591db60f3daa0f8ecea9b2be73",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 034 locale: ht source locale: en US track: WHITE level: 3 lesson: 34 title: \"Poukisa repatisyon byen yo pi enpòtan pase chwazi aksyon endividyèl\" source title: \"Why Asset Allocation Matters More Than Individual Stock Picking\" description: \"Aprann poukisa melanj kategori byen nan yon pòtfolyo gen tandans detèmine rezilta alontèm yo plis pase aksyon espesifik ou chwazi nan chak kategori…",
@@ -1925,16 +1925,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6c7e22f5b5da817c356033306679d4518b988b591db60f3daa0f8ecea9b2be73",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.966Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_fa0ac3cc-ae6f-4a4a-923f-0f53835e2fc8",
@@ -1949,7 +1949,7 @@
       "sizeBytes": 4912,
       "checksum": "sha256:6396363bee65508093623c2463f3c6a9ed7ad2a0675b357c4a2f3b33d8310943",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 035 locale: ht source locale: en US track: WHITE level: 3 lesson: 35 title: \"Poukisa yon chemen desant (glide path) deplase risk pandan w ap vin pi gran\" source title: \"Why a Glide Path Shifts Risk as You Age\" description: \"Aprann poukisa anpil estrateji envestisman alontèm chanje repatisyon byen yon pòtfolyo tou dousman, soti nan pi agresif pou rive nan pi konsèvatè avèk tan, e pouki…",
@@ -1978,16 +1978,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6396363bee65508093623c2463f3c6a9ed7ad2a0675b357c4a2f3b33d8310943",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.966Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_e4fb0dd5-4e2d-4d45-b0a7-1349189e4743",
@@ -2002,7 +2002,7 @@
       "sizeBytes": 5006,
       "checksum": "sha256:e89fba23702604cf41e590d2f88e6025c2d18c731ba873b59459c4c1d65775e9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 036 locale: ht source locale: en US track: WHITE level: 3 lesson: 36 title: \"Poukisa kont ki gen avantaj taks chanje kalkil rannman apre taks\" source title: \"Why Tax Advantaged Accounts Change the After Tax Math on Returns\" description: \"Aprann poukisa kalite kont ou itilize pou envesti a ka chanje rannman reyèl ou mete nan pòch ou yon fason ki enpòtan, separe de pèfòmans envestisman …",
@@ -2031,16 +2031,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e89fba23702604cf41e590d2f88e6025c2d18c731ba873b59459c4c1d65775e9",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.967Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_9272b0e9-46e1-4eb5-95b1-b92b37ed043b",
@@ -2055,7 +2055,7 @@
       "sizeBytes": 4951,
       "checksum": "sha256:aa6161de62dc1359a8b3cee0acbaf5f4b257f0bee87381fad288b4f25dd04b5a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 037 locale: ht source locale: en US track: WHITE level: 3 lesson: 37 title: \"Poukisa rekòlt pèt pou taks (tax loss harvesting) fè yon pèt tounen yon avantaj pou pita\" source title: \"Why Tax Loss Harvesting Turns a Loss Into a Future Benefit\" description: \"Aprann kijan rekòlt pèt pou taks mache, poukisa li fè yon pèt ki poko reyalize tounen yon avantaj taks ou ka itilize, e poukisa pwo…",
@@ -2084,16 +2084,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:aa6161de62dc1359a8b3cee0acbaf5f4b257f0bee87381fad288b4f25dd04b5a",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.967Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_75af1f72-7193-4acc-90bd-aefb974d460d",
@@ -2108,7 +2108,7 @@
       "sizeBytes": 4954,
       "checksum": "sha256:2e05a314f7e4815bf9d833c9b8038db85d93f4810accc222808b7a6fa8e6c128",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 038 locale: ht source locale: en US track: WHITE level: 3 lesson: 38 title: \"Poukisa règ wash sale la limite rekòlt pèt pou taks\" source title: \"Why the Wash Sale Rule Limits Tax Loss Harvesting\" description: \"Aprann kisa yon wash sale ye, poukisa règ sa a egziste, e poukisa li limite dirèkteman fason ou ka fè rekòlt pèt pou taks.\" slug: white l3 038 wash sale rule seo title: \"Poukisa…",
@@ -2137,16 +2137,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2e05a314f7e4815bf9d833c9b8038db85d93f4810accc222808b7a6fa8e6c128",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.967Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_0072574f-bd29-468b-add5-9adc9f708a30",
@@ -2161,7 +2161,7 @@
       "sizeBytes": 5010,
       "checksum": "sha256:08bf843882ac3ea89cb2898932798f613bcfef431977e19747b24a755e6c17c3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 039 locale: ht source locale: en US track: WHITE level: 3 lesson: 39 title: \"Poukisa benefis kapital yo peye taks diferan dapre konbyen tan ou kenbe envestisman an\" source title: \"Why Capital Gains Are Taxed Differently Based on Holding Period\" description: \"Aprann poukisa konbyen tan ou kenbe yon envestisman anvan ou vann li ka afekte kijan yo mete taks sou nenpòt benefis, e poukisa …",
@@ -2190,16 +2190,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:08bf843882ac3ea89cb2898932798f613bcfef431977e19747b24a755e6c17c3",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.968Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_6391bf61-3bc1-47c8-aa28-be95268a19f3",
@@ -2214,7 +2214,7 @@
       "sizeBytes": 4622,
       "checksum": "sha256:385f0b5b3503e87befdf31c803ad181995bdbbf8de800d05f07e51b841c2eb13",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 040 locale: ht source locale: en US track: WHITE level: 3 lesson: 40 title: \"Poukisa baz pri (cost basis) detèmine vrè benefis taksab ou\" source title: \"Why Cost Basis Determines Your Real Taxable Gain\" description: \"Aprann kisa baz pri (cost basis) vle di, poukisa li pa toujou senp tankou pri ou te achte a okòmansman, e poukisa li enpòtan pou w swiv li kòrèkteman.\" slug: white l3 040…",
@@ -2243,16 +2243,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:385f0b5b3503e87befdf31c803ad181995bdbbf8de800d05f07e51b841c2eb13",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.968Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_a752446c-d991-49dd-ab01-2e7273c43101",
@@ -2267,7 +2267,7 @@
       "sizeBytes": 4481,
       "checksum": "sha256:05ef4603b46f2732c6d41769856cde1a787b60a669d061dd4c72dc8567656a53",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 041 locale: ht source locale: en US track: WHITE level: 3 lesson: 41 title: \"Poukisa yon lòd stop loss pa garanti pri ou pral soti a\" source title: \"Why a Stop Loss Order Doesn't Guarantee Your Exit Price\" description: \"Aprann kijan yon lòd stop loss mache, e poukisa se yon deklanchè pou yon lòd mache (market order), pa yon garanti pou pri egzak ou pral resevwa a.\" slug: white l3 041 …",
@@ -2296,16 +2296,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:05ef4603b46f2732c6d41769856cde1a787b60a669d061dd4c72dc8567656a53",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.968Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_86a16256-d478-4ad1-ab85-7cea8a7aca1d",
@@ -2320,7 +2320,7 @@
       "sizeBytes": 5307,
       "checksum": "sha256:61a5619679a2b5af6134d9f530c72b89106500f0cf6de2271ae3e33f3969a748",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 042 locale: ht source locale: en US track: WHITE level: 3 lesson: 42 title: \"Poukisa likidite diferan ant yon aksyon gwo konpayi (blue chip) ak yon aksyon moun pa achte e vann anpil\" source title: \"Why Liquidity Differs Between a Blue Chip Stock and a Thinly Traded One\" description: \"Aprann kisa likidite vle di pou yon tit, e poukisa yon aksyon moun pa achte e vann anpil ka pi difisil…",
@@ -2349,16 +2349,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:61a5619679a2b5af6134d9f530c72b89106500f0cf6de2271ae3e33f3969a748",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.969Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_8a80e904-05a4-466a-a2bc-289babd95d14",
@@ -2373,7 +2373,7 @@
       "sizeBytes": 4493,
       "checksum": "sha256:e58a2639cfb4f157c8015de521faf5d0ee8b2281a09d372a828983f3c0766fb9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 043 locale: ht source locale: en US track: WHITE level: 3 lesson: 43 title: \"Poukisa lòd mache ak lòd limit sèvi pou diferan bagay\" source title: \"Why Market Orders and Limit Orders Serve Different Purposes\" description: \"Aprann diferans ant yon lòd mache (market order) ak yon lòd limit (limit order), e poukisa chwazi bon lòd la depann de sa ou vrèman ap eseye kontwole.\" slug: white l…",
@@ -2402,16 +2402,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e58a2639cfb4f157c8015de521faf5d0ee8b2281a09d372a828983f3c0766fb9",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.969Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_8a7bb877-abe5-4b75-883e-dad1c0c57495",
@@ -2426,7 +2426,7 @@
       "sizeBytes": 4592,
       "checksum": "sha256:37d6de972c72f07fe5b1a07da04c784f32372965cc48d38bcf6130a13aea9434",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 044 locale: ht source locale: en US track: WHITE level: 3 lesson: 44 title: \"Poukisa IPO yo gen yon risk espesyal konpare ak konpayi piblik ki deja etabli\" source title: \"Why IPOs Carry Unique Risk Compared to Established Public Companies\" description: \"Aprann poukisa achte aksyon nan yon konpayi ki fèk vin piblik diferan de envesti nan youn ki deja etabli, e poukisa yon istwa ki kout…",
@@ -2455,16 +2455,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:37d6de972c72f07fe5b1a07da04c784f32372965cc48d38bcf6130a13aea9434",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.969Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_4ea1c017-8361-4e7a-aa15-8d26975b795f",
@@ -2479,7 +2479,7 @@
       "sizeBytes": 5007,
       "checksum": "sha256:cf8575d4ed98604d0cf8c1acfacfda2d6758ae1d990e793614f06045940bc112",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 045 locale: ht source locale: en US track: WHITE level: 3 lesson: 45 title: \"Poukisa rachte aksyon (buyback) afekte aksyonè yo diferan de dividann\" source title: \"Why Stock Buybacks Affect Shareholders Differently Than Dividends\" description: \"Aprann kijan yon konpayi ki rachte pwòp aksyon li remèt valè bay aksyonè yo diferan de yon dividann, e poukisa efè sou taks ak sou kantite aksy…",
@@ -2508,16 +2508,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:cf8575d4ed98604d0cf8c1acfacfda2d6758ae1d990e793614f06045940bc112",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.970Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_d27cc591-b567-489b-be8e-8a139e652505",
@@ -2532,7 +2532,7 @@
       "sizeBytes": 4610,
       "checksum": "sha256:adc64befce1665795c42c05c93dcda4f94673e09d6b6e29d13d3a0c269f2aa72",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 046 locale: ht source locale: en US track: WHITE level: 3 lesson: 46 title: \"Poukisa beta mezire volatilite yon aksyon konpare ak mache a\" source title: \"Why Beta Measures a Stock's Volatility Relative to the Market\" description: \"Aprann kisa beta mezire, poukisa yon beta ki pi wo oswa pi ba pase 1.0 di w yon bagay espesifik sou jan yo atann yon aksyon konpòte l, e kisa beta pa kapte.…",
@@ -2561,16 +2561,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:adc64befce1665795c42c05c93dcda4f94673e09d6b6e29d13d3a0c269f2aa72",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.970Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_c22598b7-3f37-495d-a72d-752dd2c79117",
@@ -2585,7 +2585,7 @@
       "sizeBytes": 5331,
       "checksum": "sha256:c165d14c60fe4d418c27ebda1bd0e1384bafec0fadb97d7245d8c9c2534d48d6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 047 locale: ht source locale: en US track: WHITE level: 3 lesson: 47 title: \"Poukisa divèsifye atravè kategori byen, pa sèlman aksyon, diminye risk yon pòtfolyo\" source title: \"Why Diversifying Across Asset Classes, Not Just Stocks, Reduces Portfolio Risk\" description: \"Aprann poukisa konbine aksyon ak lòt kategori byen tankou obligasyon oswa imobilye ka diminye risk total yon pòtfoly…",
@@ -2614,16 +2614,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c165d14c60fe4d418c27ebda1bd0e1384bafec0fadb97d7245d8c9c2534d48d6",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.970Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_8125140a-8f87-4d9d-855e-37270964d7fb",
@@ -2638,7 +2638,7 @@
       "sizeBytes": 4772,
       "checksum": "sha256:be80a9b05d5e3ecb8290d12007cc605bf6bd441746fde165c2e436b2d6ff8c36",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 048 locale: ht source locale: en US track: WHITE level: 3 lesson: 48 title: \"Poukisa gwosè pozisyon ou detèmine konbyen yon sèl move pari ka fè w mal\" source title: \"Why Position Sizing Determines How Much a Single Bad Bet Can Hurt You\" description: \"Aprann poukisa konbyen lajan ou envesti nan yon sèl pozisyon enpòtan otan ke si pozisyon sa a se yon bon lide, e poukisa gwosè pozisyon …",
@@ -2667,16 +2667,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:be80a9b05d5e3ecb8290d12007cc605bf6bd441746fde165c2e436b2d6ff8c36",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.971Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_68a26adc-1929-412a-ad9f-bccb8dc32355",
@@ -2691,7 +2691,7 @@
       "sizeBytes": 4923,
       "checksum": "sha256:fc9a4c296f5d0738c49db98f980a1f22726e9360d308a30baa970b08aa3806e0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 049 locale: ht source locale: en US track: WHITE level: 3 lesson: 49 title: \"Poukisa yon plan envestisman ekri pwoteje w kont pwòp emosyon ou\" source title: \"Why a Written Investment Plan Protects You From Your Own Emotions\" description: \"Aprann poukisa ekri plan envestisman ou davans pwoteje w kont erè konpòtman ki kouvri atravè tras sa a, erè moun fè nan chalè moman an.\" slug: white…",
@@ -2720,16 +2720,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:fc9a4c296f5d0738c49db98f980a1f22726e9360d308a30baa970b08aa3806e0",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.971Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     },
     {
       "id": "file_1753f811-a8f5-4c89-9531-aff521d1d13c",
@@ -2744,7 +2744,7 @@
       "sizeBytes": 5323,
       "checksum": "sha256:a643c935daba1130a6f2fac6c0f71a5967b844a18eb85c697511702a1a101f89",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 050 locale: ht source locale: en US track: WHITE level: 3 lesson: 50 title: \"Poukisa metrize byen an papye vle di konnen sa ou pa bezwen predi\" source title: \"Why Mastering Paper Assets Means Knowing What You Don't Need to Predict\" description: \"Dènye leson tras sa a — poukisa vrè konpetans nan envesti nan byen an papye se nan òganize yon plan otou ensètitid, pa nan devine pwochen mou…",
@@ -2773,16 +2773,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a643c935daba1130a6f2fac6c0f71a5967b844a18eb85c697511702a1a101f89",
         "uploadBatchId": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:56:12.714Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:56:09.971Z"
+      "updatedAt": "2026-10-01T13:56:12.714Z"
     }
   ],
   "auditHistory": [
