@@ -4,9 +4,9 @@
   "slug": "recovered-red-l3-001-050-nl-zip",
   "source": "Recovered from stored upload batch batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611",
   "notes": "Automated one-time package-scoped recovery from persistent upload storage. No file was re-uploaded.",
-  "status": "ready-for-review",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-01T13:54:25.009Z",
-  "updatedAt": "2026-10-01T13:54:26.249Z",
+  "updatedAt": "2026-10-01T13:54:29.067Z",
   "uploads": [
     {
       "id": "upload_25cd02ff-40c0-4c47-aebb-ca5360981cc3",
@@ -147,7 +147,7 @@
       "sizeBytes": 7278,
       "checksum": "sha256:5447f761868394c4480f2c333d014af4996953d34262d021c7cb68c4621539aa",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 001 locale: nl source locale: en US track: RED level: 3 lesson: 1 title: \"Waarom schuld niet altijd slecht is: strategische schuld vs. consumptieve schuld\" source title: \"Why Debt Isn't Always Bad: Strategic vs. Consumer Debt\" description: \"Ontdek waarom niet alle schuld hetzelfde is, en waarom de schuld achter een huurwoning vermogen kan opbouwen terwijl de schuld op een creditcard het…",
@@ -176,16 +176,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5447f761868394c4480f2c333d014af4996953d34262d021c7cb68c4621539aa",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.219Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_293ef989-aa08-46cd-9c16-bfe79081bcd1",
@@ -200,7 +200,7 @@
       "sizeBytes": 6439,
       "checksum": "sha256:7fc688b79ab560eea558a8a1c89a17f2150385493e39b963b0c10b793c043dc3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 002 locale: nl source locale: en US track: RED level: 3 lesson: 2 title: \"Waarom fiatgeld de rekensom van schuld met vaste rente verandert\" source title: \"Why Fiat Currency Changes the Math on Fixed Rate Debt\" description: \"Begrijp waarom het terugbetalen van een hypotheek met vaste rente in fiatgeld op den duur ongemerkt in het voordeel van de lener kan werken, en waarom dat alleen ond…",
@@ -229,16 +229,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7fc688b79ab560eea558a8a1c89a17f2150385493e39b963b0c10b793c043dc3",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.224Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_2a9c4a23-7378-4fca-bc94-0baf7c165629",
@@ -253,7 +253,7 @@
       "sizeBytes": 6331,
       "checksum": "sha256:c60ff2209613c2ad40bf38e404536adcc13b17f975797e9230f7fd74eb13a04a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 003 locale: nl source locale: en US track: RED level: 3 lesson: 3 title: \"Waarom hefboomwerking zowel winst als verlies vergroot\" source title: \"Why Leverage Multiplies Both Gains and Losses\" description: \"Ontdek waarom het gebruik van geleend geld om vastgoed te kopen je rendement flink kan verhogen, en je risico net zo flink.\" slug: red l3 003 leverage multiplies gains and losses seo …",
@@ -282,16 +282,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c60ff2209613c2ad40bf38e404536adcc13b17f975797e9230f7fd74eb13a04a",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.224Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_87a37391-bc6d-41ed-ae26-7157a68c49cb",
@@ -306,7 +306,7 @@
       "sizeBytes": 6241,
       "checksum": "sha256:7c59d813d7f4aa66f86ff37f2f17744c21acbcc0414fad0b3a211a60426dbde8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 004 locale: nl source locale: en US track: RED level: 3 lesson: 4 title: \"Waarom kredietverstrekkers letten op de DTI en LTV ratio\" source title: \"Why Lenders Care About DTI and LTV Ratios\" description: \"Ontdek waarom kredietverstrekkers leunen op twee ratio's, schuld tot inkomen en lening tot waarde, om te bepalen hoeveel ze willen lenen en hoe riskant een deal is.\" slug: red l3 004 dt…",
@@ -335,16 +335,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7c59d813d7f4aa66f86ff37f2f17744c21acbcc0414fad0b3a211a60426dbde8",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.225Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_6fa2b195-ade6-4691-bb68-a3f0df72b25f",
@@ -359,7 +359,7 @@
       "sizeBytes": 6085,
       "checksum": "sha256:948e47df2a84f955492fb0679d4d3d58a500cc0d2ab1b11d1d894ea9afc5d643",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 005 locale: nl source locale: en US track: RED level: 3 lesson: 5 title: \"Waarom kasstroom, niet waardestijging, de beslissing moet sturen\" source title: \"Why Cash Flow, Not Appreciation, Should Drive the Decision\" description: \"Ontdek waarom rekenen op waardestijging van een pand een zwakkere strategie is dan rekenen op maandelijkse kasstroom, en waarom het niet om dezelfde gok gaat.\" …",
@@ -388,16 +388,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:948e47df2a84f955492fb0679d4d3d58a500cc0d2ab1b11d1d894ea9afc5d643",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.225Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_b02a7b02-85fa-46e9-b67c-deb04aa33280",
@@ -412,7 +412,7 @@
       "sizeBytes": 6506,
       "checksum": "sha256:842eb59bcdebbd3a1e204e5e1b2f29b9e4be5baaa406cc6ed985a0619016bb35",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 006 locale: nl source locale: en US track: RED level: 3 lesson: 6 title: \"Waarom het type rente belangrijker wordt naarmate je groeit\" source title: \"Why Interest Rate Type Matters More as You Scale\" description: \"Ontdek waarom de keuze tussen een vaste en een variabele rente zwaarder gaat wegen naarmate een belegger meer panden en meer schuld heeft.\" slug: red l3 006 interest rate type…",
@@ -441,16 +441,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:842eb59bcdebbd3a1e204e5e1b2f29b9e4be5baaa406cc6ed985a0619016bb35",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.225Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_081cf984-18e9-46e1-9d79-6b61b668b915",
@@ -465,7 +465,7 @@
       "sizeBytes": 5685,
       "checksum": "sha256:1b2441eeaae4f3c71daf7afe3cd7bb5702b07dc72b8f2a5662e49ed117b77a0a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 007 locale: nl source locale: en US track: RED level: 3 lesson: 7 title: \"Waarom aflossingsschema's de echte kosten van een lening laten zien\" source title: \"Why Amortization Schedules Reveal the Real Cost of a Loan\" description: \"Ontdek waarom je in de eerste jaren van een hypotheek vooral rente betaalt en weinig aflost, en waarom die timing belangrijk is voor hoe je je exit plant.\" sl…",
@@ -494,16 +494,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:1b2441eeaae4f3c71daf7afe3cd7bb5702b07dc72b8f2a5662e49ed117b77a0a",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.226Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_2ef02f35-8238-4c02-ac61-5aaa7002b9c0",
@@ -518,7 +518,7 @@
       "sizeBytes": 6032,
       "checksum": "sha256:248b7f3db4dc4a4c4c8c4071d828511d184929ad3e120cf8a700fb3ead57d9f0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 008 locale: nl source locale: en US track: RED level: 3 lesson: 8 title: \"Waarom herfinancieren een strategisch instrument kan zijn, niet alleen jagen op een lagere rente\" source title: \"Why Refinancing Can Be a Strategic Tool, Not Just a Rate Chase\" description: \"Ontdek waarom beleggers om meer redenen herfinancieren dan alleen een lagere rente, en waarom een cash out herfinanciering d…",
@@ -547,16 +547,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:248b7f3db4dc4a4c4c8c4071d828511d184929ad3e120cf8a700fb3ead57d9f0",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.226Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_f5314ede-3ea6-4a0e-8ef4-b01be6c91970",
@@ -571,7 +571,7 @@
       "sizeBytes": 7026,
       "checksum": "sha256:908c06f4020681fd5d109dac005b6ec6ef9b0cfbcea729d49c23a48b262aa6fb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 009 locale: nl source locale: en US track: RED level: 3 lesson: 9 title: \"Waarom de BRRRR methode werkt (en waar hij misgaat)\" source title: \"Why the BRRRR Method Works (and Where It Breaks)\" description: \"Ontdek waarom Buy, Rehab, Rent, Refinance, Repeat beleggers hetzelfde kapitaal steeds opnieuw laat inzetten in meerdere panden, en op welk specifiek punt de strategie kan mislukken.\" …",
@@ -600,16 +600,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:908c06f4020681fd5d109dac005b6ec6ef9b0cfbcea729d49c23a48b262aa6fb",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.227Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_5b20cf9c-7192-4757-a413-aba1c272f440",
@@ -624,7 +624,7 @@
       "sizeBytes": 4469,
       "checksum": "sha256:61f68d86ba648e3806cb03e38a45bd57a6779edf421de1a373f3e6e4d48b81c8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 010 locale: nl source locale: en US track: RED level: 3 lesson: 10 title: \"Waarom leegstand en reserves je echte hefboomrisico veranderen\" source title: \"Why Vacancy and Reserves Change Your Real Leverage Risk\" description: \"Ontdek waarom de huur die een pand \\\"zou moeten\\\" opleveren en de huur die het echt oplevert twee verschillende getallen zijn, en waarom reserves je beschermen tege…",
@@ -653,16 +653,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:61f68d86ba648e3806cb03e38a45bd57a6779edf421de1a373f3e6e4d48b81c8",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.228Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_03cc3ba8-5c5b-449a-bdfb-c89419a15e9a",
@@ -677,7 +677,7 @@
       "sizeBytes": 4751,
       "checksum": "sha256:fa7b84feaac9630ec0911cfd5799409e0baaa07ad7758ff66fd56787b16f34b6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 011 locale: nl source locale: en US track: RED level: 3 lesson: 11 title: \"Waarom portefeuillekredietverstrekkers anders denken dan gewone banken\" source title: \"Why Portfolio Lenders Think Differently Than Retail Banks\" description: \"Ontdek waarom kredietverstrekkers die leningen zelf in portefeuille houden deals anders beoordelen dan banken die leningen doorverkopen op de secundaire m…",
@@ -706,16 +706,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:fa7b84feaac9630ec0911cfd5799409e0baaa07ad7758ff66fd56787b16f34b6",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.228Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_2065c86c-5a39-4864-b3ca-e0a56befab42",
@@ -730,7 +730,7 @@
       "sizeBytes": 4807,
       "checksum": "sha256:dfdd7623d167da0d38b19a0b0a8752e67f762d69aac9b0e49d342079b5b9ab97",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 012 locale: nl source locale: en US track: RED level: 3 lesson: 12 title: \"Waarom een 1031 exchange het gesprek over hefboomwerking verandert\" source title: \"Why 1031 Exchanges Change the Leverage Conversation\" description: \"Ontdek waarom een belegger met een 1031 exchange overwaarde van het ene pand naar een groter pand kan verplaatsen zonder direct belasting te betalen, en waarom dat …",
@@ -759,16 +759,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:dfdd7623d167da0d38b19a0b0a8752e67f762d69aac9b0e49d342079b5b9ab97",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.228Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_5ea5fed4-4fa9-4352-92c9-d2b5b9915b00",
@@ -783,7 +783,7 @@
       "sizeBytes": 5213,
       "checksum": "sha256:dcd275a158ab6b9d6bca0ad0a35b61ece2e1cc7e23bf4c45dec5fecae45e78d9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 013 locale: nl source locale: en US track: RED level: 3 lesson: 13 title: \"Waarom te veel hefboomwerking verder goede investeringen de das omdoet\" source title: \"Why Over Leveraging Kills Otherwise Good Investments\" description: \"Ontdek waarom een in de kern gezond pand toch kan mislukken als investering als er te veel schuld op wordt gestapeld.\" slug: red l3 013 over leveraging risk se…",
@@ -812,16 +812,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:dcd275a158ab6b9d6bca0ad0a35b61ece2e1cc7e23bf4c45dec5fecae45e78d9",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.228Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_b93b141d-4c82-48f2-8973-a17bf900a534",
@@ -836,7 +836,7 @@
       "sizeBytes": 6774,
       "checksum": "sha256:4ae4d0c14ecf7cb5b24e8a7be565c4674c60e6f70e9df03b04104f3c7527688e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 014 locale: nl source locale: en US track: RED level: 3 lesson: 14 title: \"Waarom renteschokken elke aanname in een deal op de proef stellen\" source title: \"Why Rate Shocks Test Every Assumption in a Deal\" description: \"Loop door een realistisch economisch scenario en zie hoe een plotselinge renteschok elke zwakke aanname in een vastgoeddeal met hefboomwerking blootlegt.\" slug: red l3 0…",
@@ -865,16 +865,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4ae4d0c14ecf7cb5b24e8a7be565c4674c60e6f70e9df03b04104f3c7527688e",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.229Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_dbaf3113-9f75-4f5a-b50b-103fb394a315",
@@ -889,7 +889,7 @@
       "sizeBytes": 6515,
       "checksum": "sha256:a44ff1216be5c1464e6a60f2fe58636e0932a0365c8b66e6a92066356635da73",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 015 locale: nl source locale: en US track: RED level: 3 lesson: 15 title: \"Waarom je je exitstrategie moet kiezen voordat je koopt\" source title: \"Why Exit Strategy Should Be Decided Before You Buy\" description: \"Ontdek waarom plannen hoe je een pand uiteindelijk verkoopt, herfinanciert of aanhoudt de beslissingen verandert die je op de eerste dag van je eigendom neemt.\" slug: red l3 01…",
@@ -918,16 +918,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a44ff1216be5c1464e6a60f2fe58636e0932a0365c8b66e6a92066356635da73",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.229Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_1d704363-980c-4776-a251-c65a5c62c5f6",
@@ -942,7 +942,7 @@
       "sizeBytes": 5509,
       "checksum": "sha256:a28f6a71aa67707709fc5d039d2d68bfb859d036c41db1ef2fd13e267915d725",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 016 locale: nl source locale: en US track: RED level: 3 lesson: 16 title: \"Waarom de regels voor commerciële leningen anders zijn dan voor woningen\" source title: \"Why Commercial Lending Rules Differ from Residential\" description: \"Ontdek waarom de financiering van een klein appartementengebouw of een commercieel pand andere regels volgt dan de financiering van een huurwoning voor één g…",
@@ -971,16 +971,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a28f6a71aa67707709fc5d039d2d68bfb859d036c41db1ef2fd13e267915d725",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.229Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_45c7f2f6-8c3e-4e3b-8752-6a6ba516fd09",
@@ -995,7 +995,7 @@
       "sizeBytes": 5396,
       "checksum": "sha256:1a730310df00971fc833badf00be9c4c2d2814606e2eee0af7c2bc4071939265",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 017 locale: nl source locale: en US track: RED level: 3 lesson: 17 title: \"Waarom hard money en particuliere leningen buiten het banksysteem bestaan\" source title: \"Why Hard Money and Private Loans Exist Outside the Bank System\" description: \"Ontdek waarom sommige vastgoeddeals door particuliere geldschieters worden gefinancierd in plaats van door banken, en waarom die financiering snel…",
@@ -1024,16 +1024,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:1a730310df00971fc833badf00be9c4c2d2814606e2eee0af7c2bc4071939265",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.229Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_6146d944-293f-4471-9dd1-c19707166892",
@@ -1048,7 +1048,7 @@
       "sizeBytes": 5071,
       "checksum": "sha256:de0a558e609d6c6e004f69a91357f284d845acfa0fcfcff81678438a6df5ed60",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 018 locale: nl source locale: en US track: RED level: 3 lesson: 18 title: \"Waarom verkopersfinanciering in de juiste deal beter kan zijn dan een banklening\" source title: \"Why Seller Financing Can Beat a Bank Loan in the Right Deal\" description: \"Ontdek waarom een verkoper die zelf als geldschieter optreedt soms betere voorwaarden en meer flexibiliteit kan bieden dan een gewone hypothee…",
@@ -1077,16 +1077,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:de0a558e609d6c6e004f69a91357f284d845acfa0fcfcff81678438a6df5ed60",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.230Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_2ebadc32-f67c-4c4c-b2a8-6805d0fa3fee",
@@ -1101,7 +1101,7 @@
       "sizeBytes": 4675,
       "checksum": "sha256:c6bd085f977d61d58f271e95b11f7f8e464f1a3450a80cbc88d44e896bb1232c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 019 locale: nl source locale: en US track: RED level: 3 lesson: 19 title: \"Waarom kruiselingse zekerheidstelling een tweesnijdend zwaard is\" source title: \"Why Cross Collateralization Is a Double Edged Sword\" description: \"Ontdek waarom het gebruik van één pand als onderpand voor een lening op een ander pand financiering mogelijk kan maken, en waarom het ook beide panden samen in gevaar…",
@@ -1130,16 +1130,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c6bd085f977d61d58f271e95b11f7f8e464f1a3450a80cbc88d44e896bb1232c",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.230Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_45b184d4-ef9d-41bb-b613-dbc31b25b226",
@@ -1154,7 +1154,7 @@
       "sizeBytes": 5306,
       "checksum": "sha256:83a72220e92b6edb508cbf24a7fce9a2e2600975be4e9cae456cc1bf4bc0e351",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 020 locale: nl source locale: en US track: RED level: 3 lesson: 20 title: \"Waarom DSCR leningen het pand beoordelen, niet de lener\" source title: \"Why DSCR Loans Judge the Property, Not the Borrower\" description: \"Ontdek waarom vastgoedbeleggers met leningen op basis van de Debt Service Coverage Ratio in aanmerking kunnen komen op basis van de inkomsten van een pand in plaats van hun pe…",
@@ -1183,16 +1183,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:83a72220e92b6edb508cbf24a7fce9a2e2600975be4e9cae456cc1bf4bc0e351",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.230Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_43f33da1-b4cf-44b5-b100-803f3f2fc3c2",
@@ -1207,7 +1207,7 @@
       "sizeBytes": 4777,
       "checksum": "sha256:2890ee951b2f97f131b1f639c245d72a8e3e0e8eb96550e0a5a2a2b7154df2e5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 021 locale: nl source locale: en US track: RED level: 3 lesson: 21 title: \"Waarom een HELOC de overwaarde van je huis omzet in hefboomwerking\" source title: \"Why HELOCs Turn Home Equity into Leverage\" description: \"Ontdek hoe een Home Equity Line of Credit werkt, waarom die anders werkt dan een cash out herfinanciering, en welk risico eraan vastzit.\" slug: red l3 021 helocs and leverage…",
@@ -1236,16 +1236,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2890ee951b2f97f131b1f639c245d72a8e3e0e8eb96550e0a5a2a2b7154df2e5",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.230Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_197f17bc-8dd1-4a45-bc2c-d3ccbf822c67",
@@ -1260,7 +1260,7 @@
       "sizeBytes": 5121,
       "checksum": "sha256:c16dd8b9b4b16b841f58aed63277985d4fc6b52db64121aaa8e9ad05bdbaaf0e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 022 locale: nl source locale: en US track: RED level: 3 lesson: 22 title: \"Waarom een balloon payment een verborgen deadline oplevert\" source title: \"Why Balloon Payments Create a Hidden Deadline\" description: \"Ontdek waarom je bij sommige leningen aan het einde van een korte looptijd een groot bedrag ineens moet betalen, en waarom je die deadline jaren van tevoren moet plannen.\" slug: …",
@@ -1289,16 +1289,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c16dd8b9b4b16b841f58aed63277985d4fc6b52db64121aaa8e9ad05bdbaaf0e",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.230Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_f52785d1-1215-4b2e-af9f-f407fee4c22e",
@@ -1313,7 +1313,7 @@
       "sizeBytes": 5160,
       "checksum": "sha256:f30237db761f6c18377eda6eb87a9c80f9ae7c31124ec31e1ecce245bf08dcd8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 023 locale: nl source locale: en US track: RED level: 3 lesson: 23 title: \"Waarom een boete voor vervroegd aflossen je herfinancieringsberekening verandert\" source title: \"Why Prepayment Penalties Change Your Refinance Math\" description: \"Ontdek waarom je bij sommige leningen kosten betaalt als je ze vroeg aflost, en waarom je die kosten moet meenemen in elke beslissing over herfinancie…",
@@ -1342,16 +1342,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f30237db761f6c18377eda6eb87a9c80f9ae7c31124ec31e1ecce245bf08dcd8",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.231Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_00849cea-a204-4804-b7b3-05a0947a4275",
@@ -1366,7 +1366,7 @@
       "sizeBytes": 5511,
       "checksum": "sha256:35ded7efaa5fd9d22117040cc28e7ed4654366ce7392d877fd605ee28d4073ca",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 024 locale: nl source locale: en US track: RED level: 3 lesson: 24 title: \"Waarom je de kapitalisatievoet en de hypotheekrente samen moet vergelijken\" source title: \"Why Cap Rate and Mortgage Rate Have to Be Compared Together\" description: \"Ontdek waarom het vergelijken van de kapitalisatievoet (cap rate) van een pand met de hypotheekrente laat zien of hefboomwerking je rendement helpt …",
@@ -1395,16 +1395,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:35ded7efaa5fd9d22117040cc28e7ed4654366ce7392d877fd605ee28d4073ca",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.231Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_5011b72a-18b1-49cc-b7d1-270d69a85921",
@@ -1419,7 +1419,7 @@
       "sizeBytes": 5466,
       "checksum": "sha256:f0c5562c4b7bf244ba7c31ad0bfd50abe19e4f4121031bf3f146396805ecd395",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 025 locale: nl source locale: en US track: RED level: 3 lesson: 25 title: \"Waarom negatieve hefboomwerking toch zinvol kan zijn (soms)\" source title: \"Why Negative Leverage Can Still Make Sense (Sometimes)\" description: \"Ontdek waarom een belegger bewust negatieve hefboomwerking bij een deal kan accepteren, en wat er waar moet zijn om die keuze redelijk te maken.\" slug: red l3 025 when …",
@@ -1448,16 +1448,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f0c5562c4b7bf244ba7c31ad0bfd50abe19e4f4121031bf3f146396805ecd395",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.231Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_751e1a14-b299-4f70-aa38-c66e7ebe7fcb",
@@ -1472,7 +1472,7 @@
       "sizeBytes": 4974,
       "checksum": "sha256:d03388fcd74218afe28ebf2433b0910a8c4201ee2f19bcb74889e1b2197ee99f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 026 locale: nl source locale: en US track: RED level: 3 lesson: 26 title: \"Waarom een rentevastzetting en een rente afkoop timinginstrumenten zijn, geen kortingen\" source title: \"Why Rate Locks and Buydowns Are Timing Tools, Not Discounts\" description: \"Leer waarom het vastzetten van een rente of het betalen van punten om die rente omlaag te kopen draait om het beheren van timingrisico,…",
@@ -1501,16 +1501,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d03388fcd74218afe28ebf2433b0910a8c4201ee2f19bcb74889e1b2197ee99f",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.231Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_579de083-8976-4007-9051-32ea863701bb",
@@ -1525,7 +1525,7 @@
       "sizeBytes": 5522,
       "checksum": "sha256:a925adf1c5d3845af717abf62e5e18e7007acdb745c69c8ec76e5380aba3fca3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 027 locale: nl source locale: en US track: RED level: 3 lesson: 27 title: \"Waarom het verschil tussen lening met en zonder persoonlijke aansprakelijkheid je risico verandert\" source title: \"Why Recourse vs. Non Recourse Debt Changes Your Risk Exposure\" description: \"Leer het verschil tussen recourse en non recourse leningen, en waarom dat onderscheid bepaalt wat een geldverstrekker kan …",
@@ -1554,16 +1554,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a925adf1c5d3845af717abf62e5e18e7007acdb745c69c8ec76e5380aba3fca3",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.231Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_5b6c25d4-aea2-42b4-a851-8bf3069a6416",
@@ -1578,7 +1578,7 @@
       "sizeBytes": 4941,
       "checksum": "sha256:25b87238eb8b10b569a32885bff318358db110644f40e1357cdbe0d85da21314",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 028 locale: nl source locale: en US track: RED level: 3 lesson: 28 title: \"Waarom geldverstrekkers om een persoonlijke garantie vragen\" source title: \"Why Lenders Ask for Personal Guarantees\" description: \"Leer waarom een geldverstrekker een persoonlijke garantie kan eisen, zelfs bij een lening via een LLC, en wat dat betekent voor de bescherming van je vermogen.\" slug: red l3 028 perso…",
@@ -1607,16 +1607,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:25b87238eb8b10b569a32885bff318358db110644f40e1357cdbe0d85da21314",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.244Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_220b8c9e-3c3c-4f54-a94c-18a4de98f667",
@@ -1631,7 +1631,7 @@
       "sizeBytes": 5162,
       "checksum": "sha256:efa47210d69bd1e215821f9f0c28f2e95f1fdc588c5d41fe1b2cbd139c94117a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 029 locale: nl source locale: en US track: RED level: 3 lesson: 29 title: \"Waarom leningsconvenanten kunnen beperken wat je met een pand doet\" source title: \"Why Loan Covenants Can Restrict What You Do With a Property\" description: \"Leer waarom sommige leningen doorlopende voorwaarden bevatten waaraan de lener moet blijven voldoen, en waarom het schenden daarvan gevolgen kan hebben die …",
@@ -1660,16 +1660,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:efa47210d69bd1e215821f9f0c28f2e95f1fdc588c5d41fe1b2cbd139c94117a",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.244Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_73fece72-a484-4c52-9e4b-5530d2226599",
@@ -1684,7 +1684,7 @@
       "sizeBytes": 5125,
       "checksum": "sha256:56030fbd888dfe6a89a398cbde9ffb9a603b06173dc7b1db9aa581342ab6d61f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 030 locale: nl source locale: en US track: RED level: 3 lesson: 30 title: \"Waarom mezzaninefinanciering tussen eigen vermogen en een hypotheek in zit\" source title: \"Why Mezzanine Debt Sits Between Equity and a Mortgage\" description: \"Leer wat mezzaninefinanciering is, waarom die meer risico en hogere kosten heeft dan een eerste hypotheek, en waar ze meestal wordt gebruikt.\" slug: red l…",
@@ -1713,16 +1713,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:56030fbd888dfe6a89a398cbde9ffb9a603b06173dc7b1db9aa581342ab6d61f",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.244Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_7e8fe71e-de7e-4dc2-94b5-1d941fdc8c56",
@@ -1737,7 +1737,7 @@
       "sizeBytes": 4878,
       "checksum": "sha256:78bd81bb8e384e744ead6fcb107275d1978753b60bdc9cef3aa5e70395c25f24",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 031 locale: nl source locale: en US track: RED level: 3 lesson: 31 title: \"Waarom overbruggingsleningen bestaan voor het gat tussen twee deals\" source title: \"Why Bridge Loans Exist for the Gap Between Deals\" description: \"Leer waarom overbruggingsleningen bestaan om kortetermijngaten in de timing op te lossen tussen het kopen van het ene pand en de afsluiting van een ander.\" slug: red …",
@@ -1766,16 +1766,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:78bd81bb8e384e744ead6fcb107275d1978753b60bdc9cef3aa5e70395c25f24",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.245Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_a1ece806-52ac-48cd-bd83-212a2b6245bf",
@@ -1790,7 +1790,7 @@
       "sizeBytes": 5461,
       "checksum": "sha256:747d6162a225b50a8bf00d7d62af517b9b368620ff638766c7f9ede83f1f14ee",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 032 locale: nl source locale: en US track: RED level: 3 lesson: 32 title: \"Waarom bouwleningen anders zijn opgezet dan aankoopleningen\" source title: \"Why Construction Loans Are Structured Differently Than Purchase Loans\" description: \"Leer waarom de financiering van nieuwbouw of een grote renovatie een andere leningstructuur gebruikt dan een gewone aankoop: het geld wordt in fases uitb…",
@@ -1819,16 +1819,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:747d6162a225b50a8bf00d7d62af517b9b368620ff638766c7f9ede83f1f14ee",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.245Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_34b0383a-0226-4890-8973-c45e7c72bbc6",
@@ -1843,7 +1843,7 @@
       "sizeBytes": 5363,
       "checksum": "sha256:3ea31863310ab65679a93068aba541976797c9211eb6715c545d60e4c9eb0b0b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 033 locale: nl source locale: en US track: RED level: 3 lesson: 33 title: \"Waarom de regels van Opportunity Zones samenhangen met beslissingen over hefboomwerking\" source title: \"Why Opportunity Zone Rules Interact with Leverage Decisions\" description: \"Leer wat Opportunity Zones willen stimuleren, en waarom beslissingen over hefboomwerking daarbinnen extra planning vragen rond de speci…",
@@ -1872,16 +1872,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3ea31863310ab65679a93068aba541976797c9211eb6715c545d60e4c9eb0b0b",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.245Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_6e598bb8-d356-4fb8-856f-9bd5a9fba874",
@@ -1896,7 +1896,7 @@
       "sizeBytes": 5148,
       "checksum": "sha256:e589e9709011581e4f2636f173f4385b839be2c5b0c8938107940b291b94d896",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 034 locale: nl source locale: en US track: RED level: 3 lesson: 34 title: \"Waarom afschrijving en schuldaflossing samen moeten worden doorgerekend\" source title: \"Why Depreciation and Debt Service Have to Be Modeled Together\" description: \"Leer waarom een pand op papier een fiscaal verlies kan tonen terwijl het na de hypotheekbetaling toch een positieve kasstroom oplevert, en waarom dat…",
@@ -1925,16 +1925,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e589e9709011581e4f2636f173f4385b839be2c5b0c8938107940b291b94d896",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.245Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_57e999d6-f265-4244-9c64-99547dab8781",
@@ -1949,7 +1949,7 @@
       "sizeBytes": 4942,
       "checksum": "sha256:9c665fa297b864d3944bc281dd5460c4fbe8f504395be09c3078639542385792",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 035 locale: nl source locale: en US track: RED level: 3 lesson: 35 title: \"Waarom een escrowrekening je echte maandelijkse kasstroom beïnvloedt\" source title: \"Why Escrow Impounds Affect Your Real Monthly Cash Flow\" description: \"Leer waarom een deel van je hypotheekbetaling naar een escrowrekening voor belastingen en verzekering kan gaan, en waarom dat je echte maandelijkse kasstroom v…",
@@ -1978,16 +1978,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:9c665fa297b864d3944bc281dd5460c4fbe8f504395be09c3078639542385792",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.245Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_146a0838-c98a-4475-8929-01a77560c2eb",
@@ -2002,7 +2002,7 @@
       "sizeBytes": 5107,
       "checksum": "sha256:00a47b1cfa8213f283cd4d60ff596fdf5e01a49ec5f51129064b019f38e9f3f1",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 036 locale: nl source locale: en US track: RED level: 3 lesson: 36 title: \"Waarom bezwaar tegen de onroerendgoedbelasting je hefboompositie kan veranderen\" source title: \"Why a Property Tax Appeal Can Change Your Leverage Position\" description: \"Leer waarom bezwaar maken tegen de getaxeerde waarde van een pand invloed kan hebben op zowel je maandelijkse kasstroom als je eigen vermogen i…",
@@ -2031,16 +2031,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:00a47b1cfa8213f283cd4d60ff596fdf5e01a49ec5f51129064b019f38e9f3f1",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.246Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_c48b4975-2c3c-407b-8b2f-5ab4fc726f06",
@@ -2055,7 +2055,7 @@
       "sizeBytes": 5332,
       "checksum": "sha256:018dc7f096938f449a837cc64e2f3d39c1a72193a178cf23f1c8aa17638eabd7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 037 locale: nl source locale: en US track: RED level: 3 lesson: 37 title: \"Waarom de rangorde van pandrechten bepaalt wie als eerste wordt betaald\" source title: \"Why Lien Priority Determines Who Gets Paid First\" description: \"Leer hoe pandrechten op een pand worden gerangschikt, waarom die rangorde belangrijk is als een pand wordt verkocht of geëxecuteerd, en hoe dit samenhangt met kru…",
@@ -2084,16 +2084,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:018dc7f096938f449a837cc64e2f3d39c1a72193a178cf23f1c8aa17638eabd7",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.246Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_b25be7f3-9ed3-43f0-8497-f7151c6aa5e2",
@@ -2108,7 +2108,7 @@
       "sizeBytes": 5518,
       "checksum": "sha256:4db4120654bbf50707be71942fe0af62300572de0a6d0590aa44499c5bf90e37",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 038 locale: nl source locale: en US track: RED level: 3 lesson: 38 title: \"Waarom kennis van hoe executie werkt verandert hoe je risico beoordeelt\" source title: \"Why Understanding Foreclosure Mechanics Changes How You Underwrite Risk\" description: \"Leer de algemene fases van een executie (foreclosure), en waarom kennis van dit proces moet bepalen hoe voorzichtig je hefboomwerking in ee…",
@@ -2137,16 +2137,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4db4120654bbf50707be71942fe0af62300572de0a6d0590aa44499c5bf90e37",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.246Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_6cb2dfa6-b2aa-4420-b87d-0fb5e111271f",
@@ -2161,7 +2161,7 @@
       "sizeBytes": 5239,
       "checksum": "sha256:d7c3c13db4606fd6ec80bf73a3f6b7fd7e99f0b8835d708930bcc27874513d7c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 039 locale: nl source locale: en US track: RED level: 3 lesson: 39 title: \"Waarom akte in plaats van executie en short sale verschillende uitwegen zijn\" source title: \"Why Deed in Lieu and Short Sales Are Different Exit Paths\" description: \"Leer over twee alternatieven voor executie, de akte in plaats van executie (deed in lieu) en de short sale, en waarom elk minder schade kan doen dan…",
@@ -2190,16 +2190,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d7c3c13db4606fd6ec80bf73a3f6b7fd7e99f0b8835d708930bcc27874513d7c",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.246Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_6b11af75-9681-4c2a-840a-05de1611ab57",
@@ -2214,7 +2214,7 @@
       "sizeBytes": 5248,
       "checksum": "sha256:90dc0d411882690d4ed760fd9104246ec20a70a0f47184bcdd5b4ac4f8853497",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 040 locale: nl source locale: en US track: RED level: 3 lesson: 40 title: \"Waarom een stresstest van de schulddekkingsgraad je beschermt vóór een neergang\" source title: \"Why Stress Testing Debt Service Coverage Protects You Before a Downturn\" description: \"Leer hoe je de DSCR van een pand kunt stresstesten tegen stijgende leegstand of dalende huren voordat je je vastlegt op een deal me…",
@@ -2243,16 +2243,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:90dc0d411882690d4ed760fd9104246ec20a70a0f47184bcdd5b4ac4f8853497",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.247Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_d78550bd-e621-4664-b63f-140a6d7fbeca",
@@ -2267,7 +2267,7 @@
       "sizeBytes": 5255,
       "checksum": "sha256:5609ffa4f0dbc7f8c252161e71af72537e92743ebf6607c01d3a8140d70b52d7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 041 locale: nl source locale: en US track: RED level: 3 lesson: 41 title: \"Waarom aflossingsvrije leningen een gok op timing zijn, geen gratis geld\" source title: \"Why Interest Only Loans Are a Timing Bet, Not Free Money\" description: \"Leer hoe aflossingsvrije leningen werken, waarom ze op korte termijn lagere betalingen geven, en waarom die lage betaling uiteindelijk ophoudt.\" slug: re…",
@@ -2296,16 +2296,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5609ffa4f0dbc7f8c252161e71af72537e92743ebf6607c01d3a8140d70b52d7",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.247Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_8549bf32-7ffc-4687-bcf2-aceb0cb12323",
@@ -2320,7 +2320,7 @@
       "sizeBytes": 5015,
       "checksum": "sha256:c21d3bd4f2b7d4a974a2cfbd35325ab8509057cbff74ee15d21689139aeb95c3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 042 locale: nl source locale: en US track: RED level: 3 lesson: 42 title: \"Waarom renteplafonds bij een variabele rente belangrijker zijn dan de lokrente\" source title: \"Why Adjustable Rate Caps Matter More Than the Teaser Rate\" description: \"Leer waarom de renteplafonds op een hypotheek met variabele rente belangrijker zijn voor het risico op lange termijn dan de aantrekkelijke beginre…",
@@ -2349,16 +2349,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c21d3bd4f2b7d4a974a2cfbd35325ab8509057cbff74ee15d21689139aeb95c3",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.247Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_9711afbf-9b10-476c-90b7-0df549990956",
@@ -2373,7 +2373,7 @@
       "sizeBytes": 5322,
       "checksum": "sha256:6cda0094edb71c46f9a4a4da279002ee26edd8ed0e0587872beef5dd3bdf9f2f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 043 locale: nl source locale: en US track: RED level: 3 lesson: 43 title: \"Waarom rentecycli bepalen welke financieringsstrategie wint\" source title: \"Why Rate Cycles Change Which Financing Strategy Wins\" description: \"Leer waarom dezelfde financieringsstrategie de juiste of de verkeerde keuze kan zijn, afhankelijk van waar de rente staat in een bredere economische cyclus.\" slug: red l3…",
@@ -2402,16 +2402,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6cda0094edb71c46f9a4a4da279002ee26edd8ed0e0587872beef5dd3bdf9f2f",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.247Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_0b9b6c83-fc57-41f0-97b4-c1d65e18fc91",
@@ -2426,7 +2426,7 @@
       "sizeBytes": 5605,
       "checksum": "sha256:56e2b5fbf270d248ad5e2b076b5f1a59761a1f0180b9692ef560f4084745c3d6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 044 locale: nl source locale: en US track: RED level: 3 lesson: 44 title: \"Waarom door de overheid gesteunde leningen beperkingen hebben voor investeerders\" source title: \"Why Government Backed Loans Have Limits for Investors\" description: \"Leer waarom leningprogramma's die bedoeld zijn voor bewoners eigenaren beperkingen hebben die hun nut voor vastgoedinvesteerders begrenzen.\" slug: r…",
@@ -2455,16 +2455,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:56e2b5fbf270d248ad5e2b076b5f1a59761a1f0180b9692ef560f4084745c3d6",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.248Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_adbaece4-481b-4525-bcc2-f6de64ef1743",
@@ -2479,7 +2479,7 @@
       "sizeBytes": 5774,
       "checksum": "sha256:84f9f441b61872474fc07ad84ec8c4d740f8adfc25a9052cf23fa9301b3635d6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 045 locale: nl source locale: en US track: RED level: 3 lesson: 45 title: \"Waarom schuldstructuren bij partnerschappen en joint ventures het risico anders verdelen\" source title: \"Why Partnership and JV Debt Structures Split Risk Differently\" description: \"Leer waarom het binnenhalen van een partner verandert hoe schuldrisico en aansprakelijkheid worden verdeeld, en waarom die verdeling…",
@@ -2508,16 +2508,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:84f9f441b61872474fc07ad84ec8c4d740f8adfc25a9052cf23fa9301b3635d6",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.248Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_cd1e88d3-a90a-4a8a-9302-66d6af916358",
@@ -2532,7 +2532,7 @@
       "sizeBytes": 5360,
       "checksum": "sha256:8645e8cfc764f585b833d7b2d6e3c6176e07c1476d199206673abc9e70286e2b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 046 locale: nl source locale: en US track: RED level: 3 lesson: 46 title: \"Waarom schuld nalatenschaps en erfenisplanning ingewikkelder maakt\" source title: \"Why Debt Complicates Estate and Inheritance Planning\" description: \"Leer waarom huurpanden met hefboomwerking nalatenschapsplanning ingewikkelder maken, en waarom erfgenamen zowel het bezit als de schuld kunnen erven.\" slug: red l3…",
@@ -2561,16 +2561,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8645e8cfc764f585b833d7b2d6e3c6176e07c1476d199206673abc9e70286e2b",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.248Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_de85d95e-deee-4cf3-bfe1-4af286e94775",
@@ -2585,7 +2585,7 @@
       "sizeBytes": 5202,
       "checksum": "sha256:2fcaae51d3d03c510d818efceffbb0cdef95403360f9d47b674b731212d2072d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 047 locale: nl source locale: en US track: RED level: 3 lesson: 47 title: \"Waarom schuld aflossen versus herinvesteren een echte afweging is, geen standaardantwoord\" source title: \"Why Paying Off Debt vs. Reinvesting Is a Real Trade off, Not a Default Answer\" description: \"Leer waarom de keuze tussen je hypotheek vervroegd aflossen en dat geld ergens anders herinvesteren afhangt van con…",
@@ -2614,16 +2614,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2fcaae51d3d03c510d818efceffbb0cdef95403360f9d47b674b731212d2072d",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.248Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_e0a96951-5e6e-4ad1-9dab-a8069711d8ee",
@@ -2638,7 +2638,7 @@
       "sizeBytes": 5780,
       "checksum": "sha256:349b1a0f23c1cde9bc87342de7c6dd38d6809ddbf2a4793f2791a16f5902b0d0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 048 locale: nl source locale: en US track: RED level: 3 lesson: 48 title: \"Waarom vastgoed met hefboomwerking een veelgebruikt instrument is voor vermogen over generaties\" source title: \"Why Leveraged Real Estate Is a Common Generational Wealth Tool\" description: \"Leer waarom huurvastgoed met hefboomwerking historisch is gebruikt als instrument om vermogen over generaties op te bouwen, …",
@@ -2667,16 +2667,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:349b1a0f23c1cde9bc87342de7c6dd38d6809ddbf2a4793f2791a16f5902b0d0",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.248Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_e313a6c5-0e71-4887-ba02-daac372cce23",
@@ -2691,7 +2691,7 @@
       "sizeBytes": 5929,
       "checksum": "sha256:f974a8859652592cfa39ac742d5f79e04e9e3eeb45ba41262f53989d59256c5f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 049 locale: nl source locale: en US track: RED level: 3 lesson: 49 title: \"Waarom elke beslissing over hefboomwerking terug moet te voeren zijn op een exitplan\" source title: \"Why Every Leverage Decision Should Be Tied Back to an Exit Plan\" description: \"Een overzichtsles die elk belangrijk begrip over hefboomwerking in deze leerlijn terugkoppelt aan het kernprincipe uit les 15: bepaal …",
@@ -2720,16 +2720,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f974a8859652592cfa39ac742d5f79e04e9e3eeb45ba41262f53989d59256c5f",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.249Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     },
     {
       "id": "file_1f51cb03-4297-4398-8a4b-d71d498406e9",
@@ -2744,7 +2744,7 @@
       "sizeBytes": 5791,
       "checksum": "sha256:30be2486d59555dcf6e3d638dfd34496886c2d7571affa552f4c32b1f38d8a89",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 050 locale: nl source locale: en US track: RED level: 3 lesson: 50 title: \"Waarom hefboomwerking beheersen betekent dat je weet wanneer je die niet moet gebruiken\" source title: \"Why Mastering Leverage Means Knowing When Not to Use It\" description: \"De afsluitende les van deze leerlijn: waarom echte beheersing van hefboomwerking in vastgoed ook de discipline omvat om die af te wijzen al…",
@@ -2773,16 +2773,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:30be2486d59555dcf6e3d638dfd34496886c2d7571affa552f4c32b1f38d8a89",
         "uploadBatchId": "batch_25aa0e79-bb4c-4624-8216-295c41d42280"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-01T13:54:29.067Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-01T13:54:26.249Z"
+      "updatedAt": "2026-10-01T13:54:29.067Z"
     }
   ],
   "auditHistory": [
