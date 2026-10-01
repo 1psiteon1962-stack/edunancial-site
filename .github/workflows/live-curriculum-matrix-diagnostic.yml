@@ -23,7 +23,7 @@ jobs:
         shell: bash
         run: |
           node <<'NODE'
-          const fs = require("node:fs");
+          const fs = await import("node:fs");
 
           const baseUrl = "https://www.edunancial.com";
           const locales = [
