@@ -1,4 +1,5 @@
 import { deriveBatchStatus } from "@/lib/admin-content/review";
+import { publishTranslationPackages } from "@/lib/curriculum/translation-package-store";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ExtractedFile, SupportedLanguage, UploadBatch } from "@/lib/admin-content/types";
 import { inferUploadLanguageFromFilename, replaceDestinationLanguage } from "@/lib/admin-content/upload-intake";
@@ -148,14 +149,21 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch, options
   // stale/partial translations while preserving every other locale on the lesson.
   const publishable = candidates.filter((candidate) => existingLessonIds.has(candidate.lessonId));
 
+  const translationRecords = publishable.map(({ locale, lessonId, title, summary, body }) => ({
+    lessonId,
+    locale,
+    ...(title ? { title } : {}),
+    ...(summary ? { summary } : {}),
+    body,
+  }));
   const result = publishable.length > 0
-    ? await importPublishedLessonTranslations(publishable.map(({ locale, lessonId, title, summary, body }) => ({
-        lessonId,
-        locale,
-        ...(title ? { title } : {}),
-        ...(summary ? { summary } : {}),
-        body,
-      })), { requireAtomic: options.requireAtomic })
+    ? options.requireAtomic
+      ? await publishTranslationPackages(translationRecords).then(({ written }) => ({
+          updatedRecords: written.length,
+          updatedLessonIds: written,
+          missingLessonIds: [] as string[],
+        }))
+      : await importPublishedLessonTranslations(translationRecords, { requireAtomic: false })
     : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
 
   const missing = new Set(missingLessonIds);
