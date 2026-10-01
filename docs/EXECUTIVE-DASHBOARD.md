@@ -12,6 +12,7 @@
 
 | Branch | Owner | Status | PR # | Notes |
 |--------|-------|--------|------|-------|
+| repair/normalize-localized-frontmatter | ChatGPT | Implementation complete; validation/PR in progress | pending | Normalize quoted localized YAML front-matter values so live learner titles match committed curriculum exactly |
 | repair/one-time-package-recovery-runner | ChatGPT | Implementation complete; validation/PR in progress | pending | One-package-at-a-time recovery runner and bounded GitHub Actions loop for stored curriculum packages |
 
 ---
@@ -98,7 +99,7 @@
 
 | PR # | Branch | Owner | Technical Reason | Business Impact | Required Fix | Next Action | Expected Resolution |
 |------|--------|-------|-----------------|----------------|-------------|------------|---------------------|
-| pending | repair/one-time-package-recovery-runner | ChatGPT | Recovery runner not yet merged/deployed | Stored curriculum restoration cannot run automatically yet | Validate branch, open PR, merge after checks | Merge and verify production recovery workflow | This session |
+| pending | repair/normalize-localized-frontmatter | ChatGPT | Live curriculum smoke reports false mismatches caused by quoted localized front matter | Full production verification cannot distinguish formatting noise from genuine curriculum gaps | Normalize parsed title/summary values and re-run smoke | Merge after all checks, then verify live curriculum | This session |
 
 ---
 
@@ -106,4 +107,5 @@
 
 | Date | Session | Updated By | Summary |
 |------|---------|-----------|---------|
+| 2026-10-01 | Curriculum verification | ChatGPT | Fixed quoted localized front-matter parsing that caused live smoke false mismatches; validation in progress. |
 | 2026-10-01 | Curriculum recovery | ChatGPT | Added bounded, one-package-at-a-time recovery runner; production main remains ready on #1044. |\n| 2026-09-25 | Intelligence Phase 1 | ChatGPT | Started implementation of EDUNANCIAL Intelligence Layer Phase 1. |\n| 2026-07-16 | Initial | Copilot Agent | Dashboard created. No active work items. |

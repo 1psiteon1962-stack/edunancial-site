@@ -902,7 +902,14 @@ function parseFrontMatter(content: string): {
     const colonIdx = line.indexOf(":");
     if (colonIdx < 0) continue;
     const key = line.slice(0, colonIdx).trim();
-    const value = line.slice(colonIdx + 1).trim();
+    let value = line.slice(colonIdx + 1).trim();
+    if (
+      value.length >= 2 &&
+      ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'")))
+    ) {
+      value = value.slice(1, -1);
+    }
+    value = value.replaceAll('\\\"', '"').replaceAll("\\'", "'");
     if (key) fm[key] = value;
   }
   return { frontMatter: fm, body: match[2], videos };
