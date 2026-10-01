@@ -1,0 +1,67 @@
+name: One-time package-scoped curriculum recovery
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/app/api/admin/content/upload/recover-next/route.ts"
+      - ".github/workflows/one-time-package-recovery.yml"
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Recover stored curriculum packages one at a time
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          endpoint="https://edunancial.com/api/admin/content/upload/recover-next"
+
+          for attempt in $(seq 1 80); do
+            code=$(curl -sS -o recovery.json -w '%{http_code}' -X POST "$endpoint"               -H "Authorization: Bearer $GH_TOKEN"               -H "X-GitHub-Repository: $GH_REPOSITORY"               -H "X-GitHub-Run-Id: $GH_RUN_ID" || true)
+
+            if [ "$code" = "404" ] || [ "$code" = "502" ] || [ "$code" = "503" ] || [ "$code" = "504" ]; then
+              echo "Recovery endpoint not ready yet (HTTP $code), attempt $attempt/80."
+              sleep 15
+              continue
+            fi
+
+            cat recovery.json
+            echo
+
+            if [ "$code" != "200" ]; then
+              echo "Recovery stopped on HTTP $code."
+              exit 1
+            fi
+
+            done_value=$(jq -r '.done // false' recovery.json)
+            processed=$(jq -r '.processed // 0' recovery.json)
+            remaining=$(jq -r '.remainingEligible // 0' recovery.json)
+
+            echo "processed=$processed remainingEligible=$remaining done=$done_value"
+
+            if [ "$done_value" = "true" ]; then
+              echo "Stored-package recovery is complete."
+              exit 0
+            fi
+
+            if [ "$processed" != "1" ]; then
+              echo "Recovery made no forward progress."
+              exit 1
+            fi
+
+            sleep 3
+          done
+
+          echo "Recovery did not complete within the bounded run."
+          exit 1
