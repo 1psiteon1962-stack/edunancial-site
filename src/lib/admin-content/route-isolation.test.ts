@@ -124,3 +124,14 @@ describe("curriculum auto-ingest pipeline", () => {
     assert.match(src, /path:\s*CURRICULUM_REGISTRY_PATH/);
   });
 });
+
+describe("canonical curriculum Git export safety", () => {
+  test("localized lesson uploads stay on locale sidecars and cannot create canonical registry identities", () => {
+    const github = readSourceFile("src/lib/admin-content/github.ts");
+    assert.match(github, /localizedCurriculumPath/);
+    assert.match(github, /repositoryLessonIds/);
+    assert.match(github, /orphanLocalizedLessonIds/);
+    assert.match(github, /canonicalCurriculumFiles/);
+    assert.match(github, /canonicalBundledCurriculumFiles/);
+  });
+});
