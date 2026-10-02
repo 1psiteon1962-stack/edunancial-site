@@ -86,3 +86,21 @@ export async function putVideoObject(
   }));
   return { key, byteSize: body.byteLength };
 }
+
+
+export async function openVideoObject(
+  key: string,
+  client?: S3Client,
+  config: VideoStorageConfig = requireVideoStorageConfig(),
+): Promise<{ stream: ReadableStream<Uint8Array>; contentType: string; contentLength?: number }> {
+  const storageClient = client ?? createVideoStorageClient(config);
+  const result = await storageClient.send(new GetObjectCommand({ Bucket: config.bucket, Key: key }));
+  const body = result.Body as { transformToWebStream?: () => ReadableStream<Uint8Array> } | undefined;
+  if (!body?.transformToWebStream) throw new Error("Video object stream is unavailable.");
+  const contentLength = result.ContentLength === undefined ? undefined : Number(result.ContentLength);
+  return {
+    stream: body.transformToWebStream(),
+    contentType: result.ContentType || "application/octet-stream",
+    contentLength: Number.isFinite(contentLength) ? contentLength : undefined,
+  };
+}
