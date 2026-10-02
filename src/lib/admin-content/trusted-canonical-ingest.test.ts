@@ -21,13 +21,15 @@ test("trusted canonical curriculum requires a complete 50 lesson package before 
   assert.match(validator, /number >= 1 && number <= 50/u);
 });
 
-test("trusted canonical curriculum checkpoints and publishes directly to authoritative runtime state", () => {
+test("trusted canonical curriculum checkpoints runtime state and finalize also exports trusted batches to Git", () => {
   assert.match(helper, /options\.publish === false/u);
   assert.match(helper, /upsertPublishedLessonsFromBatch\(batch, \{ requireAtomic: options\.requireAtomic \}\)/u);
   assert.match(helper, /published\.upserted !== 50/u);
   assert.doesNotMatch(helper, /publishBatch\(/u);
-  assert.doesNotMatch(helper, /pullRequestUrl/u);
   assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor, \{ requireAtomic: true \}\)/u);
+  assert.match(finalizeRoute, /trustedPublicationAttempted/u);
+  assert.match(finalizeRoute, /exportBatchToGithub\(batch\.id, actor\)/u);
+  assert.match(finalizeRoute, /githubPublication/u);
 });
 
 test("finalize retry bypass covers both trusted localized and trusted canonical publication", () => {
