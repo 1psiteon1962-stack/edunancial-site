@@ -33,6 +33,6 @@ test("trusted canonical curriculum checkpoints runtime state and finalize also e
 });
 
 test("finalize retry bypass covers both trusted localized and trusted canonical publication", () => {
-  assert.match(finalizeRoute, /const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId\\(batchId, upload\\.uploadId\\);/u);
+  assert.match(finalizeRoute, /const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId\(batchId, upload\.uploadId\);/u);
   assert.doesNotMatch(finalizeRoute, /!trustedLocalized && !trustedCanonical/u);
 });
