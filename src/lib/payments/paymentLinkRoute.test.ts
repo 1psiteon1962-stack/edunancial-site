@@ -6,7 +6,7 @@ const ORIGINAL_ENV = { ...process.env };
 
 function restoreEnv() {
   for (const key of Object.keys(process.env)) {
-    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_") || key === "NEXT_PUBLIC_SUPABASE_URL" || key === "SUPABASE_SERVICE_ROLE_KEY") delete process.env[key];
+    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_") || key === "NEXT_PUBLIC_SUPABASE_URL" || key === "SUPABASE_SERVICE_ROLE_KEY" || key === "DATABASE_URL" || key === "NETLIFY_DATABASE_URL") delete process.env[key];
   }
   for (const [key, value] of Object.entries(ORIGINAL_ENV)) {
     if (value === undefined) delete process.env[key]; else process.env[key] = value;
@@ -23,6 +23,7 @@ function configureSquareEnv() {
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
   process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
   process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
+  process.env.DATABASE_URL = "postgresql://test:test@localhost:5432/edunancial_test";
 }
 
 function countryAwareFetch(squareHandler: typeof fetch, persistedBodies?: Record<string, unknown>[]): typeof fetch {
