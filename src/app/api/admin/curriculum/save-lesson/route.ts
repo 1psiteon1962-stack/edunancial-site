@@ -1,18 +1,9 @@
-import { writeFile } from "node:fs/promises";
-import { join } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { upsertPublishedLessonFromRegistry } from "@/lib/curriculum/authoritative-published";
-import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
-import { invalidateRegistryCache } from "@/lib/curriculum/reader";
+import { createCurriculumLessonPullRequest } from "@/lib/admin-content/github";
 
-function lessonFilePath(id: string): string | null {
-  const match = id.match(/^([A-Z]+)-L(\d+)-(\d{3})$/);
-  if (!match) return null;
-  const [, track, level] = match;
-  return join(process.cwd(), `content/curriculum/${track}/L${level}/${id}.md`);
-}
+function validLessonId(id: string) { return /^[A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,}$/u.test(id); }
 
 export async function POST(request: Request) {
   const auth = await requireAdminApiSession(request, true);
@@ -30,8 +21,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "lessonId and content are required" }, { status: 400 });
   }
 
-  const filePath = lessonFilePath(lessonId);
-  if (!filePath) {
+  if (!validLessonId(lessonId)) {
     return NextResponse.json({ error: "Invalid lesson ID format" }, { status: 400 });
   }
 
@@ -43,10 +33,10 @@ export async function POST(request: Request) {
     );
   }
 
-  await writeFile(filePath, content, "utf8");
-  invalidateRegistryCache();
-  await upsertPublishedLessonFromRegistry(lessonId);
-  await revalidatePublishedCurriculumRoutes();
-
-  return NextResponse.json({ ok: true, message: `Lesson ${lessonId} saved.` });
+  try {
+    const publication = await createCurriculumLessonPullRequest({ lessonId, content, operation: "update" });
+    return NextResponse.json({ ok: true, message: `Lesson ${lessonId} update submitted for canonical publication.`, ...publication });
+  } catch (error) {
+    return NextResponse.json({ error: error instanceof Error ? error.message : String(error) }, { status: 422 });
+  }
 }
