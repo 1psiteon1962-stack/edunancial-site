@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
       created: [],
       bucket: probe.bucket,
       architecture: "object-storage",
-      message: "Configured Video R2 object storage is accessible. No Supabase bucket repair is required.",
+      message: "Configured Video R2 object storage is accessible. No storage repair is required.",
     }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     return Response.json(
