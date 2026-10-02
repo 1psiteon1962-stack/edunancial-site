@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const baseUrl=(process.env.BASE_URL||"https://www.edunancial.com").replace(/\/$/,"");
-const root=join(process.cwd(),"content","courses");
+const root=join(process.cwd(),"content","curriculum");
 const retryCount=Number(process.env.RETRY_COUNT||"20");
 const retryDelayMs=Number(process.env.RETRY_DELAY_MS||"30000");
 
@@ -32,31 +32,26 @@ function normalizeTitle(value){
     title.length>=2 &&
     ((title.startsWith('"')&&title.endsWith('"'))||(title.startsWith("'")&&title.endsWith("'")))
   ) title=title.slice(1,-1).trim();
+  title=title.replace(/^[A-Z]+-L[1-5]-\d{3}\s*:\s*/u,"").trim();
   return title;
 }
 
-function localeFromDir(name){return name.replaceAll("_","-")}
-
 function loadExpectations(){
   const byLocale=new Map();
-  if(!existsSync(root))throw new Error("content/courses is missing");
+  if(!existsSync(root))throw new Error("content/curriculum is missing");
   for(const track of readdirSync(root)){
     const trackDir=join(root,track); if(!statSync(trackDir).isDirectory())continue;
     for(const levelName of readdirSync(trackDir)){
-      const m=levelName.match(/^level-([1-5])$/u); if(!m)continue;
+      const m=levelName.match(/^L([1-5])$/u); if(!m)continue;
       const levelDir=join(trackDir,levelName); if(!statSync(levelDir).isDirectory())continue;
-      for(const localeDir of readdirSync(levelDir)){
-        const lower=localeDir.toLowerCase();
-        if(["en","en_us","en-us"].includes(lower))continue;
-        const dir=join(levelDir,localeDir); if(!statSync(dir).isDirectory())continue;
-        for(const filename of readdirSync(dir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
-          const fm=parseLessonMetadata(readFileSync(join(dir,filename),"utf8"));
-          if(!fm.id||!fm.title)throw new Error(`Unable to derive lesson id/title from ${track}/${levelName}/${localeDir}/${filename}`);
-          const locale=fm.locale||localeFromDir(localeDir);
-          const list=byLocale.get(locale)||[];
-          list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${localeDir}/${filename}`});
-          byLocale.set(locale,list);
-        }
+      for(const filename of readdirSync(levelDir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
+        const fm=parseLessonMetadata(readFileSync(join(levelDir,filename),"utf8"));
+        if(!fm.id||!fm.title||!fm.locale)throw new Error(`Unable to derive lesson id/title/locale from ${track}/${levelName}/${filename}`);
+        const locale=fm.locale;
+        if(["en","en-US","en_us"].includes(locale))continue;
+        const list=byLocale.get(locale)||[];
+        list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${filename}`});
+        byLocale.set(locale,list);
       }
     }
   }
