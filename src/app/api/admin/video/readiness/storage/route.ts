@@ -1,54 +1,46 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { probeVideoStorageAccess } from "@/lib/video/storage-client";
+import { readVideoStorageConfig } from "@/lib/video/storage";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
-
-const REQUIRED_VIDEO_BUCKETS = ["raw-videos", "processed-videos"] as const;
 
 export async function POST(request: NextRequest) {
   const auth = await requireAdminApiSession(request, true);
   if (!auth.ok) return auth.response;
 
-  const supabase = getSupabaseAdminClient();
-  const { data: buckets, error: listError } = await supabase.storage.listBuckets();
-  if (listError) {
-    return Response.json({ success: false, error: `Could not inspect video storage: ${listError.message}` }, { status: 500 });
+  const config = readVideoStorageConfig();
+  if (!config) {
+    return Response.json(
+      {
+        success: false,
+        error: "Video object storage is not configured. Set VIDEO_R2_ENDPOINT, VIDEO_R2_BUCKET, VIDEO_R2_ACCESS_KEY_ID, and VIDEO_R2_SECRET_ACCESS_KEY.",
+        created: [],
+      },
+      { status: 503, headers: { "Cache-Control": "private, no-store" } },
+    );
   }
 
-  const existing = new Set((buckets ?? []).map((bucket) => bucket.name));
-  const created: string[] = [];
-
-  for (const bucket of REQUIRED_VIDEO_BUCKETS) {
-    if (existing.has(bucket)) continue;
-    const { error } = await supabase.storage.createBucket(bucket, { public: false });
-    if (error) {
-      return Response.json(
-        { success: false, error: `Could not create private storage bucket ${bucket}: ${error.message}`, created },
-        { status: 500 },
-      );
-    }
-    created.push(bucket);
+  try {
+    const probe = await probeVideoStorageAccess(undefined, config);
+    return Response.json({
+      success: true,
+      created: [],
+      bucket: probe.bucket,
+      architecture: "object-storage",
+      message: "Configured Video R2 object storage is accessible. No Supabase bucket repair is required.",
+    }, { headers: { "Cache-Control": "private, no-store" } });
+  } catch (error) {
+    return Response.json(
+      {
+        success: false,
+        error: error instanceof Error ? `Video object storage is configured but inaccessible: ${error.message}` : "Video object storage is configured but inaccessible.",
+        created: [],
+        bucket: config.bucket,
+      },
+      { status: 503, headers: { "Cache-Control": "private, no-store" } },
+    );
   }
-
-  const { data: verifiedBuckets, error: verifyError } = await supabase.storage.listBuckets();
-  if (verifyError) {
-    return Response.json({ success: false, error: `Video storage repair ran, but verification failed: ${verifyError.message}`, created }, { status: 500 });
-  }
-
-  const verified = new Set((verifiedBuckets ?? []).map((bucket) => bucket.name));
-  const missing = REQUIRED_VIDEO_BUCKETS.filter((bucket) => !verified.has(bucket));
-  if (missing.length) {
-    return Response.json({ success: false, error: `Required video storage is still missing: ${missing.join(", ")}`, created, missing }, { status: 500 });
-  }
-
-  return Response.json({
-    success: true,
-    created,
-    message: created.length
-      ? `Created private bucket${created.length === 1 ? "" : "s"}: ${created.join(", ")}`
-      : "Required private video storage buckets already exist.",
-  });
 }
