@@ -6,7 +6,7 @@ const ORIGINAL_ENV = { ...process.env };
 
 function restoreEnv() {
   for (const key of Object.keys(process.env)) {
-    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_") || key === "NEXT_PUBLIC_SUPABASE_URL" || key === "SUPABASE_SERVICE_ROLE_KEY") delete process.env[key];
+    if (key.startsWith("SQUARE_") || key.startsWith("NEXT_PUBLIC_SQUARE_") || key === "NEXT_PUBLIC_SUPABASE_URL" || key === "SUPABASE_SERVICE_ROLE_KEY" || key === "EDUNANCIAL_SQUARE_TAX_LINE_ITEM_ENABLED" || key === "EDUNANCIAL_RUNTIME_TAX_ENFORCEMENT_ENABLED") delete process.env[key];
   }
   for (const [key, value] of Object.entries(ORIGINAL_ENV)) {
     if (value === undefined) delete process.env[key]; else process.env[key] = value;
@@ -21,6 +21,8 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_SIGNATURE_KEY = "webhook-secret";
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL = "https://edunancial.com/api/square/webhook";
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+  process.env.EDUNANCIAL_RUNTIME_TAX_ENFORCEMENT_ENABLED = "false";
+  process.env.EDUNANCIAL_SQUARE_TAX_LINE_ITEM_ENABLED = "false";
   process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
   process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
 }
