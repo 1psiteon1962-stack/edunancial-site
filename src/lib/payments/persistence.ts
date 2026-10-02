@@ -1,11 +1,7 @@
 import type { PaymentCatalogItem } from "@/lib/payments/catalog";
 import { getNeonSql, readDatabaseUrl } from "@/lib/db/neon";
 
-export function hasPaymentPersistenceConfig() {
-  return Boolean(readDatabaseUrl());
-}
-
-export async function persistCheckoutInitiation(input: {
+export interface PaymentPersistenceInput {
   item: PaymentCatalogItem;
   customerEmail?: string;
   amountRequested: number;
@@ -16,7 +12,27 @@ export async function persistCheckoutInitiation(input: {
   squareOrderId?: string;
   idempotencyKey: string;
   metadata?: Record<string, unknown>;
-}) {
+}
+
+type PaymentPersistenceTestAdapter = (input: PaymentPersistenceInput) => Promise<unknown>;
+
+let paymentPersistenceTestAdapter: PaymentPersistenceTestAdapter | null = null;
+
+/**
+ * Test-only seam for route tests. Production persistence remains Neon-only.
+ * Passing null restores the real Neon adapter.
+ */
+export function __setPaymentPersistenceTestAdapterForTests(adapter: PaymentPersistenceTestAdapter | null) {
+  paymentPersistenceTestAdapter = adapter;
+}
+
+export function hasPaymentPersistenceConfig() {
+  return Boolean(paymentPersistenceTestAdapter || readDatabaseUrl());
+}
+
+export async function persistCheckoutInitiation(input: PaymentPersistenceInput) {
+  if (paymentPersistenceTestAdapter) return paymentPersistenceTestAdapter(input);
+
   const sql = getNeonSql();
   if (!sql) throw new Error("Square payment persistence is not configured.");
 
