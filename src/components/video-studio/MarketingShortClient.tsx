@@ -768,13 +768,7 @@ export default function MarketingShortClient() {
         {outputUrl ? (
           <div className="mt-5 grid gap-3">
             <a
-              href={outputUrl}
-              download={`${
-                title
-                  .trim()
-                  .replace(/[^a-z0-9]+/giu, "-")
-                  .replace(/^-|-$/gu, "") || "edunancial-short"
-              }.mp4`}
+              href={jobId ? `/api/admin/video/jobs/${jobId}/download` : "#"}
               className="rounded-xl bg-green-400 px-5 py-3 text-center font-black text-slate-950"
             >
               Download MP4
