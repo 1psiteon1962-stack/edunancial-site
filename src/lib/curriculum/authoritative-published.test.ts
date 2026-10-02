@@ -352,12 +352,13 @@ test("canonical US English is never replaced by an en-GB seed or template", asyn
   assert.ok(lesson.body.length > 1500, "US English must retain the complete canonical lesson");
 });
 
-test("Level 2 template translations fall back to the complete canonical lesson", async () => {
+test("Level 2 stored localized content is learner-visible when it is not an explicit placeholder", async () => {
   const english = await getPublishedLesson("BLUE-L2-001", "en-US");
   const german = await getPublishedLesson("BLUE-L2-001", "de");
   assert.ok(english);
   assert.ok(german);
-  assert.equal(german.body.trim(), english.body.trim(), "short Level 2 template must not override canonical content");
+  assert.notEqual(german.body.trim(), english.body.trim(), "stored Level 2 localization must not be hidden by an English length heuristic");
+  assert.match(german.body, /Diese BLUE-Level-2-Lektion/u);
 });
 
 test("Level 3 administrative file header is metadata, not learner body", async () => {
