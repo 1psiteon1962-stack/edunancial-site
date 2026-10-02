@@ -50,7 +50,6 @@ function loadExpectations(){
         const fm=parseLessonMetadata(readFileSync(join(levelDir,filename),"utf8"));
         if(!fm.id||!fm.title)throw new Error(`Unable to derive lesson id/title from ${track}/${levelName}/${filename}`);
         const locale=fm.locale||canonicalName[1]||"en-US";
-        if(["en","en-US","en_us"].includes(locale))continue;
         const list=byLocale.get(locale)||[];
         list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${filename}`});
         byLocale.set(locale,list);
@@ -61,7 +60,7 @@ function loadExpectations(){
 }
 
 const expectations=loadExpectations();
-if(!expectations.size)throw new Error("No localized curriculum expectations found");
+if(!expectations.size)throw new Error("No canonical curriculum expectations found");
 
 async function fetchCatalog(locale){
   const url=`${baseUrl}/api/public/curriculum/catalog?lang=${encodeURIComponent(locale)}`;
@@ -97,9 +96,9 @@ for(let attempt=1;attempt<=retryCount;attempt++){
   )).flat();
   lastFailures=results.filter(result=>!result.ok);
   const passed=results.length-lastFailures.length;
-  console.log(`Attempt ${attempt}/${retryCount}: ${passed}/${results.length} localized lessons match live production.`);
+  console.log(`Attempt ${attempt}/${retryCount}: ${passed}/${results.length} canonical curriculum lessons match live production.`);
   if(!lastFailures.length){
-    console.log(`All ${results.length} localized curriculum lessons across L1-L5 match ${baseUrl}.`);
+    console.log(`All ${results.length} canonical curriculum lessons across L1-L5 match ${baseUrl}.`);
     process.exit(0);
   }
   for(const failure of lastFailures.slice(0,100))console.error(`- ${failure.message}`);
@@ -107,5 +106,5 @@ for(let attempt=1;attempt<=retryCount;attempt++){
   if(attempt<retryCount)await new Promise(resolve=>setTimeout(resolve,retryDelayMs));
 }
 
-console.error(`Live curriculum publication failed: ${lastFailures.length} localized lesson(s) do not match production.`);
+console.error(`Live curriculum publication failed: ${lastFailures.length} canonical curriculum lesson(s) do not match production.`);
 process.exit(1);
