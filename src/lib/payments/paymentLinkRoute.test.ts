@@ -102,6 +102,7 @@ test("webhook route still rejects invalid signatures when verified checkout is e
 });
 
 // OWNER QA ITEM — keep the $1 Square verification path until the owner explicitly requests removal.
+// Neon persistence is mocked above using the driver's HTTP response shape.
 test("payment-link route accepts square-payment-test-001, sends 100 cents, and persists the Square order", async () => {
   let capturedUrl: string | null = null, capturedPayload: Record<string, unknown> | null = null;
   const persistedBodies: Record<string, unknown>[] = [];
