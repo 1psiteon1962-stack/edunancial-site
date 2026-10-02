@@ -1,5 +1,5 @@
 import http from "node:http";
-import { createHash } from "node:crypto";
+import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { mkdtemp, readFile, rm, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -13,6 +13,16 @@ const WORKER_SHARED_SECRET=(process.env.WORKER_SHARED_SECRET||"").trim();
 const endpoint=process.env.VIDEO_R2_ENDPOINT||"",bucket=process.env.VIDEO_R2_BUCKET||"";
 const accessKeyId=process.env.VIDEO_R2_ACCESS_KEY_ID||"",secretAccessKey=process.env.VIDEO_R2_SECRET_ACCESS_KEY||"";
 const worker=process.env.RAILWAY_SERVICE_ID||"railway-video-worker";
+function verifySignedDispatch(req,path,body){
+ const ts=String(req.headers["x-edunancial-timestamp"]||""),requestId=String(req.headers["x-edunancial-request-id"]||""),supplied=String(req.headers["x-edunancial-signature"]||"");
+ if(!WORKER_SHARED_SECRET||WORKER_SHARED_SECRET.length<32)return false;
+ if(!/^\d{10,}$/u.test(ts)||!requestId||!/^[a-f0-9]{64}$/u.test(supplied))return false;
+ const age=Math.abs(Math.floor(Date.now()/1000)-Number(ts));if(!Number.isFinite(age)||age>300)return false;
+ const bodyHash=createHash("sha256").update(body).digest("hex"),canonical=[ts,requestId,"POST",path,bodyHash].join("\n");
+ const expected=createHmac("sha256",WORKER_SHARED_SECRET).update(canonical).digest("hex");
+ const a=Buffer.from(supplied),b=Buffer.from(expected);return a.length===b.length&&timingSafeEqual(a,b);
+}
+
 function config(){if(!DATABASE_URL)throw Error("DATABASE_URL required");if(!endpoint||!bucket||!accessKeyId||!secretAccessKey)throw Error("VIDEO_R2 object storage required");}
 const sql=()=>postgres(DATABASE_URL,{max:2,prepare:false});
 const s3=()=>new S3Client({region:"auto",endpoint,credentials:{accessKeyId,secretAccessKey}});
@@ -50,6 +60,16 @@ async function execute(jobId){
  finally{await db.end({timeout:2})}
 }
 const server=http.createServer(async(req,res)=>{try{const u=new URL(req.url||"/","http://x");if(req.method==="GET"&&u.pathname==="/health"){config();return json(res,200,{ok:true,service:"edunancial-video-r2-worker",backend:"neon+r2+ffmpeg"})}
- if(req.method==="POST"&&u.pathname==="/internal/jobs/execute"){if(WORKER_SHARED_SECRET&&req.headers.authorization!==`Bearer ${WORKER_SHARED_SECRET}`)return json(res,401,{ok:false});let body="";for await(const c of req)body+=c;const p=body?JSON.parse(body):{};return json(res,200,{ok:true,...await execute(p.jobId||null)})}
+ if(req.method==="POST"&&u.pathname==="/internal/jobs/execute"){
+  if(WORKER_SHARED_SECRET&&req.headers.authorization!==`Bearer ${WORKER_SHARED_SECRET}`)return json(res,401,{ok:false});
+  let body="";for await(const c of req)body+=c;const p=body?JSON.parse(body):{};return json(res,200,{ok:true,...await execute(p.jobId||null)})
+ }
+ const signedMatch=req.method==="POST"?u.pathname.match(/^\/internal\/jobs\/([0-9a-f-]{36})\/execute$/iu):null;
+ if(signedMatch){
+  let body="";for await(const c of req)body+=c;
+  if(!verifySignedDispatch(req,u.pathname,body))return json(res,401,{ok:false,error:"invalid worker signature"});
+  const p=body?JSON.parse(body):{},jobId=String(p.jobId||signedMatch[1]);if(jobId!==signedMatch[1])return json(res,400,{ok:false,error:"job id mismatch"});
+  return json(res,200,{ok:true,...await execute(jobId)})
+ }
  return json(res,404,{ok:false})}catch(e){console.error(e);return json(res,500,{ok:false,error:String(e.message||e)})}});
 server.requestTimeout=15*60*1000;server.listen(PORT,"0.0.0.0",()=>console.log("video-r2 worker listening",PORT));
