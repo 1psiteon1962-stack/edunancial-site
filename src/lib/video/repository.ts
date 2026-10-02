@@ -219,45 +219,44 @@ export async function replaceVideoR2Composition(
   const project = await getVideoR2Project(projectId, ownerEmail);
   if (!project) throw new Error("Video project not found.");
 
-  await sql.begin(async (tx) => {
-    await tx`delete from video_r2_scenes where project_id = ${projectId}::uuid`;
-    await tx`delete from video_r2_audio_tracks where project_id = ${projectId}::uuid`;
+  await sql`delete from video_r2_scenes where project_id = ${projectId}::uuid`;
+  await sql`delete from video_r2_audio_tracks where project_id = ${projectId}::uuid`;
 
-    for (let i = 0; i < scenes.length; i++) {
-      const scene = scenes[i];
-      await tx`
-        insert into video_r2_scenes
-          (project_id, scene_order, asset_id, duration_seconds, fit_mode, overlay_text, transition_type, transition_seconds)
-        select
-          p.id, ${i}, a.id, ${scene.durationSeconds}, ${scene.fitMode},
-          ${JSON.stringify(scene.overlayText ? { text: scene.overlayText } : {})}::jsonb,
-          ${scene.transitionType}, ${scene.transitionSeconds}
-        from video_r2_projects p
-        join video_r2_assets a on a.project_id = p.id
-        where p.id = ${projectId}::uuid
-          and p.owner_email = ${ownerEmail}
-          and a.id = ${scene.assetId}::uuid
-          and a.status = 'ready'
-      `;
-    }
+  for (let i = 0; i < scenes.length; i++) {
+    const scene = scenes[i];
+    await sql`
+      insert into video_r2_scenes
+        (project_id, scene_order, asset_id, duration_seconds, fit_mode, overlay_text, transition_type, transition_seconds)
+      select
+        p.id, ${i}, a.id, ${scene.durationSeconds}, ${scene.fitMode},
+        ${JSON.stringify(scene.overlayText ? { text: scene.overlayText } : {})}::jsonb,
+        ${scene.transitionType}, ${scene.transitionSeconds}
+      from video_r2_projects p
+      join video_r2_assets a on a.project_id = p.id
+      where p.id = ${projectId}::uuid
+        and p.owner_email = ${ownerEmail}
+        and a.id = ${scene.assetId}::uuid
+        and a.status = 'ready'
+    `;
+  }
 
-    for (const track of audio) {
-      await tx`
-        insert into video_r2_audio_tracks
-          (project_id, role, locale, asset_id, transcript, volume)
-        select
-          p.id, ${track.role}, ${track.locale}, a.id, ${track.transcript ?? null}, ${track.volume}
-        from video_r2_projects p
-        join video_r2_assets a on a.project_id = p.id
-        where p.id = ${projectId}::uuid
-          and p.owner_email = ${ownerEmail}
-          and a.id = ${track.assetId}::uuid
-          and a.status = 'ready'
-      `;
-    }
+  for (const track of audio) {
+    await sql`
+      insert into video_r2_audio_tracks
+        (project_id, role, locale, asset_id, transcript, volume)
+      select
+        p.id, ${track.role}, ${track.locale}, a.id, ${track.transcript ?? null}, ${track.volume}
+      from video_r2_projects p
+      join video_r2_assets a on a.project_id = p.id
+      where p.id = ${projectId}::uuid
+        and p.owner_email = ${ownerEmail}
+        and a.id = ${track.assetId}::uuid
+        and a.status = 'ready'
+    `;
+  }
 
-    await tx`update video_r2_projects set updated_at = now() where id = ${projectId}::uuid and owner_email = ${ownerEmail}`;
-  });
+  await sql`update video_r2_projects set updated_at = now() where id = ${projectId}::uuid and owner_email = ${ownerEmail}`;
+
 }
 
 export async function getVideoR2FrozenComposition(projectId: string, ownerEmail: string) {
