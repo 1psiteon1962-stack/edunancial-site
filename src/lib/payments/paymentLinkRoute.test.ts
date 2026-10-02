@@ -25,7 +25,7 @@ function configureSquareEnv() {
   process.env.EDUNANCIAL_SQUARE_TAX_LINE_ITEM_ENABLED = "false";
   process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
   process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
-  process.env.DATABASE_URL = "postgresql://test:test@localhost:5432/edunancial_test";
+  process.env.DATABASE_URL = "postgresql://test:test@ep-test.us-east-2.aws.neon.tech/edunancial_test?sslmode=require";
 }
 
 function countryAwareFetch(squareHandler: typeof fetch, persistedBodies?: Record<string, unknown>[]): typeof fetch {
@@ -33,9 +33,35 @@ function countryAwareFetch(squareHandler: typeof fetch, persistedBodies?: Record
     const url = String(input);
     if (url.startsWith("https://test-project.supabase.co/rest/v1/country_launch_controls")) return new Response("[]", { status: 200, headers: { "Content-Type": "application/json" } });
     if (url.startsWith("https://test-project.supabase.co/rest/v1/payment_catalog_items")) return new Response("[]", { status: 200, headers: { "Content-Type": "application/json" } });
-    if (url.startsWith("https://test-project.supabase.co/rest/v1/orders")) {
-      persistedBodies?.push(JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>);
-      return new Response(JSON.stringify({ id: "order-db-1", square_order_id: "square-order-1" }), { status: 200, headers: { "Content-Type": "application/json" } });
+    if (url.includes("neon.tech")) {
+      const body = JSON.parse(String(init?.body ?? "{}")) as { query?: string; params?: unknown[] };
+      const query = body.query ?? "";
+      const params = body.params ?? [];
+      if (query.includes("insert into orders")) {
+        persistedBodies?.push({
+          catalog_item_id: params[0],
+          customer_email: params[1],
+          status: "pending",
+          amount_requested: params[2],
+          currency: params[3],
+          discount_code: params[4],
+          discount_amount: params[5],
+          square_payment_link_id: params[6],
+          square_order_id: params[7],
+          idempotency_key: params[8],
+          metadata: params[9],
+        });
+        return new Response(JSON.stringify({
+          fields: [
+            { name: "id", dataTypeID: 25 },
+            { name: "square_order_id", dataTypeID: 25 },
+          ],
+          rows: [["order-db-1", "square-order-1"]],
+          rowCount: 1,
+          command: "INSERT",
+        }), { status: 200, headers: { "Content-Type": "application/json" } });
+      }
+      return new Response(JSON.stringify({ fields: [], rows: [], rowCount: 1, command: "INSERT" }), { status: 200, headers: { "Content-Type": "application/json" } });
     }
     return squareHandler(input, init);
   };
