@@ -22,6 +22,9 @@ function configureSquareEnv() {
   process.env.SQUARE_WEBHOOK_SIGNATURE_KEY = "webhook-secret";
   process.env.SQUARE_WEBHOOK_NOTIFICATION_URL = "https://edunancial.com/api/square/webhook";
   process.env.SQUARE_VERIFIED_CHECKOUT_ENABLED = "true";
+  // Country launch controls have not migrated yet; keep their existing test fixture.
+  process.env.NEXT_PUBLIC_SUPABASE_URL = "https://test-project.supabase.co";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "test-service-role-key";
 }
 
 function countryAwareFetch(squareHandler: typeof fetch): typeof fetch {
