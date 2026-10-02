@@ -1,4 +1,5 @@
 import { getNeonSql } from "@/lib/db/neon";
+import { insertLegacyKpiEvent, listLegacyKpiEvents } from "@/lib/kpi/legacy-supabase";
 
 export type KpiEventInsert = {
   site_id: string;
@@ -29,30 +30,39 @@ function requireSql() {
 }
 
 export async function insertKpiEvent(input: KpiEventInsert) {
-  const sql = requireSql();
-  const rows = await sql`
-    insert into kpi_events (
-      site_id, site_region, event_name, user_id, session_id, ip_hash, user_agent,
-      path, referrer, utm_source, utm_medium, utm_campaign, utm_term, utm_content,
-      currency, value, sku, order_id, metadata
-    ) values (
-      ${input.site_id}, ${input.site_region}, ${input.event_name}, ${input.user_id}, ${input.session_id},
-      ${input.ip_hash}, ${input.user_agent}, ${input.path}, ${input.referrer}, ${input.utm_source},
-      ${input.utm_medium}, ${input.utm_campaign}, ${input.utm_term}, ${input.utm_content},
-      ${input.currency}, ${input.value}, ${input.sku}, ${input.order_id}, ${JSON.stringify(input.metadata)}::jsonb
-    )
-    returning id, created_at
-  `;
-  return rows[0] ?? null;
+  try {
+    const sql = requireSql();
+    const rows = await sql`
+      insert into kpi_events (
+        site_id, site_region, event_name, user_id, session_id, ip_hash, user_agent,
+        path, referrer, utm_source, utm_medium, utm_campaign, utm_term, utm_content,
+        currency, value, sku, order_id, metadata
+      ) values (
+        ${input.site_id}, ${input.site_region}, ${input.event_name}, ${input.user_id}, ${input.session_id},
+        ${input.ip_hash}, ${input.user_agent}, ${input.path}, ${input.referrer}, ${input.utm_source},
+        ${input.utm_medium}, ${input.utm_campaign}, ${input.utm_term}, ${input.utm_content},
+        ${input.currency}, ${input.value}, ${input.sku}, ${input.order_id}, ${JSON.stringify(input.metadata)}::jsonb
+      )
+      returning id, created_at
+    `;
+    return rows[0] ?? null;
+  } catch {
+    await insertLegacyKpiEvent(input);
+    return null;
+  }
 }
 
 export async function listRecentKpiEvents(limit = 50) {
-  const sql = requireSql();
   const safeLimit = Math.max(1, Math.min(200, Math.trunc(limit)));
-  return sql`
-    select *
-    from kpi_events
-    order by created_at desc, id desc
-    limit ${safeLimit}
-  `;
+  try {
+    const sql = requireSql();
+    return await sql`
+      select *
+      from kpi_events
+      order by created_at desc, id desc
+      limit ${safeLimit}
+    `;
+  } catch {
+    return listLegacyKpiEvents(safeLimit);
+  }
 }
