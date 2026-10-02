@@ -1,1 +1,53 @@
-import { getNeonSql } from "@/lib/db/neon";\n\ninterface WebhookEventRecord {\n  eventId: string;\n  eventType: string;\n  processedAt: string;\n}\n\nconst testEvents = new Map<string, WebhookEventRecord>();\n\nexport function claimWebhookEvent(eventId: string, eventType: string, rawPayload?: unknown): boolean | Promise<boolean> {\n  if (!eventId.trim()) return false;\n  const sql = getNeonSql();\n  if (!sql) {\n    if (testEvents.has(eventId)) return false;\n    testEvents.set(eventId, { eventId, eventType, processedAt: new Date().toISOString() });\n    return true;\n  }\n  return (async () => {\n    const rows = await sql`insert into webhook_events (event_id,event_type,provider,processed,duplicate,raw_payload)\n      values (${eventId},${eventType || "unknown"},\'square\',false,false,${JSON.stringify(rawPayload ?? null)}::jsonb)\n      on conflict (event_id) do nothing returning event_id`;\n    return rows.length > 0;\n  })();\n}\n\nexport function hasProcessedWebhookEvent(eventId: string): boolean | Promise<boolean> {\n  const sql = getNeonSql();\n  if (!sql) return testEvents.has(eventId);\n  return (async () => {\n    const rows = await sql`select event_id from webhook_events where event_id=${eventId} limit 1`;\n    return rows.length > 0;\n  })();\n}\n\nexport function listProcessedWebhookEvents(): WebhookEventRecord[] | Promise<WebhookEventRecord[]> {\n  const sql = getNeonSql();\n  if (!sql) return [...testEvents.values()].sort((a,b) => b.processedAt.localeCompare(a.processedAt));\n  return (async () => {\n    const rows = await sql`select event_id,event_type,processed_at from webhook_events order by processed_at desc limit 500`;\n    return rows.map((row) => ({ eventId:String(row.event_id), eventType:String(row.event_type), processedAt:String(row.processed_at) }));\n  })();\n}\n\nexport async function markWebhookEventProcessed(eventId: string): Promise<void> {\n  const sql = getNeonSql();\n  if (!sql) return;\n  await sql`update webhook_events set processed=true,processed_at=now() where event_id=${eventId}`;\n}\n\nexport function resetWebhookIdempotencyForTests(): void { testEvents.clear(); }\n
+import { getNeonSql } from "@/lib/db/neon";
+
+interface WebhookEventRecord {
+  eventId: string;
+  eventType: string;
+  processedAt: string;
+}
+
+const testEvents = new Map<string, WebhookEventRecord>();
+
+export function claimWebhookEvent(eventId: string, eventType: string, rawPayload?: unknown): boolean | Promise<boolean> {
+  if (!eventId.trim()) return false;
+  const sql = getNeonSql();
+  if (!sql) {
+    if (testEvents.has(eventId)) return false;
+    testEvents.set(eventId, { eventId, eventType: eventType || "unknown", processedAt: new Date().toISOString() });
+    return true;
+  }
+  return (async () => {
+    const rows = await sql`insert into webhook_events (event_id,event_type,provider,processed,duplicate,raw_payload)
+      values (${eventId},${eventType || "unknown"},${"square"},false,false,${JSON.stringify(rawPayload ?? null)}::jsonb)
+      on conflict (event_id) do nothing returning event_id`;
+    return rows.length > 0;
+  })();
+}
+
+export function hasProcessedWebhookEvent(eventId: string): boolean | Promise<boolean> {
+  const sql = getNeonSql();
+  if (!sql) return testEvents.has(eventId);
+  return (async () => {
+    const rows = await sql`select event_id from webhook_events where event_id=${eventId} limit 1`;
+    return rows.length > 0;
+  })();
+}
+
+export function listProcessedWebhookEvents(): WebhookEventRecord[] | Promise<WebhookEventRecord[]> {
+  const sql = getNeonSql();
+  if (!sql) return [...testEvents.values()].sort((a,b) => b.processedAt.localeCompare(a.processedAt));
+  return (async () => {
+    const rows = await sql`select event_id,event_type,processed_at from webhook_events order by processed_at desc limit 500`;
+    return rows.map((row) => ({ eventId:String(row.event_id), eventType:String(row.event_type), processedAt:String(row.processed_at) }));
+  })();
+}
+
+export async function markWebhookEventProcessed(eventId: string): Promise<void> {
+  const sql = getNeonSql();
+  if (!sql) return;
+  await sql`update webhook_events set processed=true,processed_at=now() where event_id=${eventId}`;
+}
+
+export function resetWebhookIdempotencyForTests(): void {
+  testEvents.clear();
+}
