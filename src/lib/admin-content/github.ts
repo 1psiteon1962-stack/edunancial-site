@@ -45,6 +45,14 @@ type CurriculumInventory = {
   assets?: InventoryAsset[];
 };
 
+type GithubRequestTestAdapter = (path: string, init: RequestInit) => Promise<Record<string, unknown>>;
+let githubRequestTestAdapter: GithubRequestTestAdapter | null = null;
+
+/** Test-only seam. Production always uses the real GitHub API transport. */
+export function __setGithubRequestTestAdapterForTests(adapter: GithubRequestTestAdapter | null) {
+  githubRequestTestAdapter = adapter;
+}
+
 function getRequiredGithubConfig() {
   const token = process.env.EDUNANCIAL_GITHUB_TOKEN;
   const owner = process.env.EDUNANCIAL_GITHUB_OWNER;
@@ -59,6 +67,7 @@ function getRequiredGithubConfig() {
 
 async function githubRequest(path: string, init: RequestInit = {}) {
   const { token, owner, repo } = getRequiredGithubConfig();
+  if (githubRequestTestAdapter) return githubRequestTestAdapter(path, init);
 
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}${path}`, {
     ...init,
