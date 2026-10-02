@@ -1,5 +1,5 @@
 import type { PublishedCourse } from "@/lib/curriculum/authoritative-published";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { getNeonSql } from "@/lib/db/neon";
 
 export interface CourseProgressRow {
   id: string;
@@ -57,85 +57,53 @@ export function computeProgressState(input: {
   };
 }
 
-export async function getCourseProgressRows(userId: string): Promise<CourseProgressRow[]> {
-  const admin = getSupabaseAdminClient();
-  const { data, error } = await admin
-    .from("course_progress")
-    .select("id, user_id, course_id, last_lesson_id, completed_lesson_ids, progress_percent, last_position_seconds, completed, started_at, last_activity_at, completed_at, updated_at")
-    .eq("user_id", userId)
-    .order("last_activity_at", { ascending: false });
-
-  if (error) {
-    throw new Error(`Unable to load course progress: ${error.message}`);
-  }
-
-  return (data ?? []) as CourseProgressRow[];
+function requireSql() {
+  const sql = getNeonSql();
+  if (!sql) throw new Error("Course progress persistence is not configured.");
+  return sql;
 }
 
-export async function getCourseProgressRow(userId: string, courseId: string): Promise<CourseProgressRow | null> {
-  const admin = getSupabaseAdminClient();
-  const { data, error } = await admin
-    .from("course_progress")
-    .select("id, user_id, course_id, last_lesson_id, completed_lesson_ids, progress_percent, last_position_seconds, completed, started_at, last_activity_at, completed_at, updated_at")
-    .eq("user_id", userId)
-    .eq("course_id", courseId)
-    .maybeSingle();
+export async function getCourseProgressRows(userId: string): Promise<CourseProgressRow[]> {
+  const sql=requireSql();
+  return await sql`select * from course_progress where user_id=${userId} order by last_activity_at desc` as CourseProgressRow[];
+}
 
-  if (error) {
-    throw new Error(`Unable to load course progress row: ${error.message}`);
-  }
-
-  return (data as CourseProgressRow | null) ?? null;
+export async function getCourseProgressRow(userId:string,courseId:string):Promise<CourseProgressRow|null> {
+  const sql=requireSql();
+  const rows=await sql`select * from course_progress where user_id=${userId} and course_id=${courseId} limit 1`;
+  return (rows[0] as CourseProgressRow | undefined) ?? null;
 }
 
 export async function upsertCourseProgress(input: {
-  userId: string;
-  course: PublishedCourse;
-  activeLessonId: string;
-  completeLesson?: boolean;
-  lastPositionSeconds?: number;
-}): Promise<CourseProgressRow> {
-  const admin = getSupabaseAdminClient();
-  const existing = await getCourseProgressRow(input.userId, input.course.id);
-  const orderedLessonIds = input.course.lessons.map((lesson) => lesson.id.toUpperCase());
-  const existingCompleted = existing?.completed_lesson_ids ?? [];
-  const completedLessonIds = input.completeLesson
-    ? [...existingCompleted, input.activeLessonId]
-    : existingCompleted;
-  const state = computeProgressState({
-    completedLessonIds,
-    totalLessons: orderedLessonIds.length,
-    orderedLessonIds,
-    activeLessonId: input.activeLessonId.toUpperCase(),
-    lastPositionSeconds: input.lastPositionSeconds,
-    startedAt: existing?.started_at,
-    completedAt: existing?.completed_at ?? null,
+  userId:string; course:PublishedCourse; activeLessonId:string; completeLesson?:boolean; lastPositionSeconds?:number;
+}):Promise<CourseProgressRow> {
+  const sql=requireSql();
+  const existing=await getCourseProgressRow(input.userId,input.course.id);
+  const orderedLessonIds=input.course.lessons.map((lesson)=>lesson.id.toUpperCase());
+  const completedLessonIds=input.completeLesson ? [...(existing?.completed_lesson_ids ?? []),input.activeLessonId] : (existing?.completed_lesson_ids ?? []);
+  const state=computeProgressState({
+    completedLessonIds,totalLessons:orderedLessonIds.length,orderedLessonIds,
+    activeLessonId:input.activeLessonId.toUpperCase(),lastPositionSeconds:input.lastPositionSeconds,
+    startedAt:existing?.started_at,completedAt:existing?.completed_at ?? null,
   });
-
-  const payload = {
-    user_id: input.userId,
-    course_id: input.course.id,
-    last_lesson_id: state.lastLessonId,
-    completed_lesson_ids: state.completedLessonIds,
-    progress_percent: state.progressPercent,
-    last_position_seconds: state.lastPositionSeconds,
-    completed: state.completed,
-    started_at: state.startedAt,
-    last_activity_at: new Date().toISOString(),
-    completed_at: state.completedAt,
-  };
-
-  const { data, error } = await admin
-    .from("course_progress")
-    .upsert(payload, { onConflict: "user_id,course_id", ignoreDuplicates: false })
-    .select("id, user_id, course_id, last_lesson_id, completed_lesson_ids, progress_percent, last_position_seconds, completed, started_at, last_activity_at, completed_at, updated_at")
-    .single();
-
-  if (error || !data) {
-    throw new Error(`Unable to update course progress: ${error?.message ?? "unknown error"}`);
-  }
-
-  return data as CourseProgressRow;
+  const lastActivityAt=new Date().toISOString();
+  const rows=await sql`
+    insert into course_progress
+      (user_id,course_id,last_lesson_id,completed_lesson_ids,progress_percent,last_position_seconds,
+       completed,started_at,last_activity_at,completed_at)
+    values
+      (${input.userId},${input.course.id},${state.lastLessonId},${state.completedLessonIds},
+       ${state.progressPercent},${state.lastPositionSeconds},${state.completed},${state.startedAt},
+       ${lastActivityAt},${state.completedAt})
+    on conflict (user_id,course_id) do update set
+      last_lesson_id=excluded.last_lesson_id,completed_lesson_ids=excluded.completed_lesson_ids,
+      progress_percent=excluded.progress_percent,last_position_seconds=excluded.last_position_seconds,
+      completed=excluded.completed,started_at=excluded.started_at,last_activity_at=excluded.last_activity_at,
+      completed_at=excluded.completed_at
+    returning *
+  `;
+  if(!rows[0]) throw new Error("Unable to update course progress: no row returned.");
+  return rows[0] as CourseProgressRow;
 }
 
 export function resolveCourseProgress(row: CourseProgressRow | null, course: PublishedCourse): ResolvedCourseProgress {

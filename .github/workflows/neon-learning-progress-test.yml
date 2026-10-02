@@ -1,0 +1,84 @@
+name: Neon Learning Progress Test
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "db/neon/20261002_learning_progress.sql"
+      - "src/lib/learning-progress/repository.ts"
+      - "src/lib/applied-learning/repository.ts"
+      - "src/lib/member/progress.ts"
+      - ".github/workflows/neon-learning-progress-test.yml"
+  workflow_dispatch:
+
+jobs:
+  migration-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: edunancial_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres -d edunancial_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGPASSWORD: postgres
+      DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/edunancial_test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply migration twice
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_learning_progress.sql
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_learning_progress.sql
+      - name: Verify all five tables
+        run: |
+          test "$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name in ('user_lesson_progress','user_track_progress','course_progress','user_applied_learning_decisions','user_competency_evidence');")" = "5"
+      - name: Verify all eight tracks including GREEN and PURPLE
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into user_track_progress(user_id,track_code) values
+            ('ci','RED'),('ci','WHITE'),('ci','BLUE'),('ci','GREEN'),
+            ('ci','GOLD'),('ci','PURPLE'),('ci','ORANGE'),('ci','BLACK');
+          do $$ begin
+            if (select count(*) from user_track_progress where user_id='ci') <> 8 then
+              raise exception 'all eight tracks were not accepted';
+            end if;
+          end $$;
+          SQL
+      - name: Verify progress upsert keys and advanced learning records
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into user_lesson_progress
+            (user_id,course_id,lesson_id,track_code,level_code,lesson_number,status,progress_percent,seconds_watched,last_position_seconds,access_tier_at_record)
+          values ('00000000-0000-0000-0000-000000000001','RED-L1','RED-L1-001','RED','L1',1,'in_progress',25,60,60,'basic');
+          insert into user_lesson_progress
+            (user_id,course_id,lesson_id,track_code,level_code,lesson_number,status,progress_percent,seconds_watched,last_position_seconds,access_tier_at_record)
+          values ('00000000-0000-0000-0000-000000000001','RED-L1','RED-L1-001','RED','L1',1,'completed',100,120,120,'basic')
+          on conflict(user_id,lesson_id) do update set status=excluded.status,progress_percent=excluded.progress_percent;
+
+          insert into course_progress(user_id,course_id,completed_lesson_ids,progress_percent)
+          values ('00000000-0000-0000-0000-000000000001','RED-L1',array['RED-L1-001'],2.00);
+          insert into course_progress(user_id,course_id,completed_lesson_ids,progress_percent)
+          values ('00000000-0000-0000-0000-000000000001','RED-L1',array['RED-L1-001','RED-L1-002'],4.00)
+          on conflict(user_id,course_id) do update set completed_lesson_ids=excluded.completed_lesson_ids,progress_percent=excluded.progress_percent;
+
+          insert into user_applied_learning_decisions
+            (id,user_id,scenario_id,track_code,level_code,rationale)
+          values ('decision-ci','00000000-0000-0000-0000-000000000001','scenario-ci','PURPLE',2,'CI rationale')
+          on conflict(id) do update set rationale=excluded.rationale;
+
+          insert into user_competency_evidence
+            (id,user_id,track_code,level_code,stage,competency_tag,evidence_type,score)
+          values ('evidence-ci','00000000-0000-0000-0000-000000000001','GREEN',2,'apply','ci-tag','scenario-decision',90)
+          on conflict(id) do update set score=excluded.score;
+
+          do $$ begin
+            if (select count(*) from user_lesson_progress where lesson_id='RED-L1-001') <> 1 then raise exception 'lesson upsert failed'; end if;
+            if (select count(*) from course_progress where course_id='RED-L1') <> 1 then raise exception 'course upsert failed'; end if;
+            if not exists(select 1 from user_applied_learning_decisions where id='decision-ci') then raise exception 'decision persistence failed'; end if;
+            if not exists(select 1 from user_competency_evidence where id='evidence-ci') then raise exception 'evidence persistence failed'; end if;
+          end $$;
+          SQL
