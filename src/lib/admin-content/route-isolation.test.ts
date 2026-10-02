@@ -123,6 +123,14 @@ describe("curriculum auto-ingest pipeline", () => {
     assert.match(src, /CURRICULUM_REGISTRY_PATH\s*=\s*["']curriculum\/registry\.json["']/);
     assert.match(src, /path:\s*CURRICULUM_REGISTRY_PATH/);
   });
+  test("github.ts includes synchronized curriculum inventory and audit artifacts with canonical curriculum publication", () => {
+    const src = readSourceFile("src/lib/admin-content/github.ts");
+    assert.match(src, /CURRICULUM_INVENTORY_PATH\s*=\s*["']curriculum\/inventory\.json["']/);
+    assert.match(src, /CURRICULUM_AUDIT_JSON_PATH\s*=\s*["']curriculum\/reports\/CURRICULUM-AUDIT\.json["']/);
+    assert.match(src, /CURRICULUM_AUDIT_MD_PATH\s*=\s*["']curriculum\/reports\/CURRICULUM-AUDIT\.md["']/);
+    assert.match(src, /buildDerivedCurriculumFiles\(updatedRegistry, currentInventory, localizationAdds\)/);
+    assert.match(src, /Derived curriculum audit\/inventory updated in PR/);
+  });
 });
 
 describe("canonical curriculum Git export safety", () => {
