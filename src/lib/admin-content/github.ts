@@ -152,6 +152,18 @@ function canonicalPublicationContent(content: string, asset: ParsedCurriculumAss
   return header + content.trimStart();
 }
 
+function normalizeCurriculumPublicationLocale(value: string | null | undefined): string | null {
+  const locale = value?.trim().replaceAll("_", "-");
+  if (!locale || locale.toLowerCase() === "en" || locale.toLowerCase() === "en-us") return null;
+  if (!/^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/u.test(locale)) throw new Error(`Unsafe curriculum locale: ${locale}`);
+  return locale;
+}
+
+function localizedCurriculumPath(canonicalPath: string, locale: string): string {
+  if (!canonicalPath.endsWith(".md")) throw new Error(`Canonical curriculum path is not markdown: ${canonicalPath}`);
+  return canonicalPath.replace(/\.md$/u, `.${locale}.md`);
+}
+
 export async function createGithubPullRequest(batch: UploadBatch, exportPackage: ExportPackage) {
   const approvedFiles = batch.files.filter((file) => file.reviewStatus === "approved");
 
@@ -161,7 +173,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
   const { owner, repo } = getRequiredGithubConfig();
   const existingRegistryAtStart = await fetchCurrentRegistry();
-  const existingLessonIds = activeLessonIds(existingRegistryAtStart);
+  const repositoryLessonIds = activeLessonIds(existingRegistryAtStart);
+  const existingLessonIds = new Set(repositoryLessonIds);
   const publishedLessonIds = await getAuthoritativePublishedLessonIds();
   for (const id of publishedLessonIds) existingLessonIds.add(id);
 
@@ -175,6 +188,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     curriculumTranslation: CurriculumTranslationJson | null;
     translationBlockedReason: string | null;
     publicationContent: string;
+    curriculumLocale: string | null;
   };
 
   const resolvedCandidates: ResolvedFile[] = await Promise.all(
@@ -190,6 +204,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       const curriculumTranslation = file.extension === ".json"
         ? detectTranslationJson(originalContent)
         : null;
+      const curriculumLocale = curriculumAsset || bundledLessons.length > 0
+        ? normalizeCurriculumPublicationLocale(curriculumAsset?.locale ?? file.classification.language ?? file.metadata.language)
+        : null;
 
       const translationBlockedReason =
         curriculumTranslation && !existingLessonIds.has(curriculumTranslation.lessonId)
@@ -197,7 +214,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
           : null;
 
       const resolvedDestination = curriculumAsset
-        ? curriculumAsset.destinationPath
+        ? curriculumLocale
+          ? localizedCurriculumPath(curriculumAsset.canonicalPath, curriculumLocale)
+          : curriculumAsset.canonicalPath
         : verifyDestinationPath(file.classification.destination || file.metadata.intendedDestination);
       // Recovered canonical lessons may use the trusted legacy header format.
       // detectCurriculumAsset can identify those lessons, but the strict export
@@ -214,9 +233,20 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         curriculumTranslation,
         translationBlockedReason,
         publicationContent,
+        curriculumLocale,
       };
     }),
   );
+
+  const orphanLocalizedLessonIds = [...new Set(resolvedCandidates.flatMap((file) => {
+    if (!file.curriculumLocale) return [];
+    const ids = [
+      ...(file.curriculumAsset ? [file.curriculumAsset.id] : []),
+      ...file.bundledLessons.map((lesson) => lesson.asset.id),
+    ].map((id) => id.toUpperCase());
+    return ids.filter((id) => !repositoryLessonIds.has(id));
+  }))].sort();
+  if (orphanLocalizedLessonIds.length > 0) throw new Error(`Localized curriculum requires canonical registry lessons first: ${orphanLocalizedLessonIds.join(", ")}`);
 
   // Translation files are overlays only. They may never create canonical lesson
   // identities. Quarantine orphan translations instead of failing the entire
@@ -237,9 +267,10 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   const bundledCurriculumFiles = resolvedFiles.flatMap((file) =>
     file.bundledLessons.map((lesson) => ({
       sourceFileId: file.id,
-      destination: lesson.asset.canonicalPath,
+      destination: file.curriculumLocale ? localizedCurriculumPath(lesson.asset.canonicalPath, file.curriculumLocale) : lesson.asset.canonicalPath,
       content: lesson.content,
       asset: lesson.asset,
+      curriculumLocale: file.curriculumLocale,
     })),
   );
 
@@ -311,6 +342,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   blobs.push(...bundledLessonBlobs);
 
   const curriculumFiles = resolvedFiles.filter((f) => f.curriculumAsset !== null);
+  const canonicalCurriculumFiles = curriculumFiles.filter((file) => !file.curriculumLocale);
+  const canonicalBundledCurriculumFiles = bundledCurriculumFiles.filter((file) => !file.curriculumLocale);
   const curriculumTranslationFiles = resolvedFiles.filter((f) => f.curriculumTranslation !== null);
   const totalCurriculumAssets = curriculumFiles.length + bundledCurriculumFiles.length;
   const totalCurriculumTranslations = curriculumTranslationFiles.length;
@@ -320,10 +353,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   );
   let registryIncludedInPr = false;
 
-  if (totalCurriculumAssets > 0) {
+  if (canonicalCurriculumFiles.length + canonicalBundledCurriculumFiles.length > 0) {
     const existingRegistry = existingRegistryAtStart;
-    const directEntries = curriculumFiles
-      .filter((file) => !file.curriculumAsset?.locale)
+    const directEntries = canonicalCurriculumFiles
       .map((file) => {
         const contentBytes = Buffer.from(file.publicationContent, "utf8");
         return buildRegistryEntry(
@@ -334,7 +366,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
           file.checksum ? `sha256:${file.checksum}` : undefined,
         );
       });
-    const bundledEntries = bundledCurriculumFiles.map((file) => {
+    const bundledEntries = canonicalBundledCurriculumFiles.map((file) => {
       const contentBytes = Buffer.from(file.content, "utf8");
       return buildRegistryEntry(file.asset, contentBytes, ingestionId, ingestionTimestamp);
     });
