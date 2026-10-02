@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { afterEach, describe, test } from "node:test";
+import { afterEach, beforeEach, describe, test } from "node:test";
 
 import {
   getPublishedTracks,
@@ -17,7 +17,12 @@ import {
 import { bulkReview, createUploadBatch, exportBatch, getUploadBatch } from "@/lib/admin-content/service";
 import { getAdminContentStorage, resetAdminContentStorage } from "@/lib/admin-content/storage";
 
+beforeEach(() => {
+  process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES = "true";
+});
+
 afterEach(() => {
+  delete process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES;
   resetAdminContentStorage();
 });
 
