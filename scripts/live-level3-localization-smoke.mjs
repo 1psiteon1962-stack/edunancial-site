@@ -69,7 +69,11 @@ if(!expectations.size)throw new Error("No localized curriculum expectations foun
 async function fetchCatalog(locale){
   const url=`${baseUrl}/api/public/curriculum/catalog?lang=${encodeURIComponent(locale)}`;
   try{
-    const response=await fetch(url,{redirect:"follow",headers:{"user-agent":"EdunancialLiveCurriculumSmoke/2.0"}});
+    const response=await fetch(url,{
+      redirect:"follow",
+      signal:AbortSignal.timeout(45000),
+      headers:{"user-agent":"EdunancialLiveCurriculumSmoke/3.0"},
+    });
     if(!response.ok)return{ok:false,error:`HTTP ${response.status}`};
     return{ok:true,payload:await response.json()};
   }catch(error){
@@ -91,8 +95,9 @@ async function checkLocale(locale,items){
 
 let lastFailures=[];
 for(let attempt=1;attempt<=retryCount;attempt++){
-  const results=[];
-  for(const [locale,items] of expectations)results.push(...await checkLocale(locale,items));
+  const results=(await Promise.all(
+    [...expectations].map(([locale,items])=>checkLocale(locale,items)),
+  )).flat();
   lastFailures=results.filter(result=>!result.ok);
   const passed=results.length-lastFailures.length;
   console.log(`Attempt ${attempt}/${retryCount}: ${passed}/${results.length} localized lessons match live production.`);
