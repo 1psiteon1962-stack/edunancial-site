@@ -70,8 +70,8 @@ export async function POST(request: NextRequest) {
       throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
-    const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity);
-    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor);
+    const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
+    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
 
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, publicationDeferred: false } });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication } });
