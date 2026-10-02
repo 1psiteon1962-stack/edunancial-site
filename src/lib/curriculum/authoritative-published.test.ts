@@ -13,6 +13,7 @@ import {
   importPublishedLessonTranslations,
 } from "@/lib/curriculum/authoritative-published";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
+import { invalidateTranslationPackageCache } from "@/lib/curriculum/translation-package-store";
 
 const TEST_STORE_ROOT = mkdtempSync(join(tmpdir(), "edunancial-curriculum-test-"));
 process.env.EDUNANCIAL_CONTENT_STORE_ROOT = TEST_STORE_ROOT;
@@ -224,6 +225,42 @@ test("published tracks fall back to stub copy when no localized file or translat
   assert.equal(spanish.summary, "English published summary");
   assert.equal(spanish.body, "English published body");
   if (originalLocalizedLesson !== null) writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
+});
+
+test("published track catalogs apply package-scoped translations used by recovered bulk uploads", async () => {
+  mkdirSync(join(STORE_ROOT, "published", "atomic", "translation-packages"), { recursive: true });
+  const lessonId = "RED-L3-001";
+  const key = "RED-L3-es-Caribbean";
+  writeFileSync(
+    join(STORE_ROOT, "published", "atomic", "translation-packages", "index.json"),
+    JSON.stringify([key], null, 2),
+    "utf8",
+  );
+  writeFileSync(
+    join(STORE_ROOT, "published", "atomic", "translation-packages", `${key}.json`),
+    JSON.stringify({
+      key,
+      track: "RED",
+      level: 3,
+      locale: "es-Caribbean",
+      updatedAt: new Date().toISOString(),
+      lessons: {
+        [lessonId]: {
+          title: "Título recuperado desde carga masiva",
+          summary: "Resumen recuperado",
+          body: "## Objetivos de aprendizaje\n\nContenido recuperado.",
+        },
+      },
+    }, null, 2),
+    "utf8",
+  );
+  invalidateTranslationPackageCache();
+  const lesson = findTrackLesson(await getPublishedTracks("es-Caribbean"), "RED", 3, lessonId);
+  assert.ok(lesson);
+  assert.equal(lesson.title, "Título recuperado desde carga masiva");
+  assert.equal(lesson.summary, "Resumen recuperado");
+  assert.match(lesson.body, /Contenido recuperado/u);
+  invalidateTranslationPackageCache();
 });
 
 test("importPublishedLessonTranslations merges locale entries into published lessons", async () => {
