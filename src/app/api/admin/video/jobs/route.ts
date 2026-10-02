@@ -1,19 +1,14 @@
+import { createHash } from "node:crypto";
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import {
+  createVideoR2Job,
+  getActiveVideoR2Job,
+  getVideoR2FrozenComposition,
+  markVideoR2JobDispatchFailed,
+} from "@/lib/video/repository";
 import { signWorkerRequest } from "@/lib/video-pipeline/hmac";
-
-function validateEditRecipe(value: unknown) {
-  const input = value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
-  const trimStart = input.trimStart === undefined ? 0 : Number(input.trimStart);
-  const trimEnd = input.trimEnd === undefined || input.trimEnd === null ? null : Number(input.trimEnd);
-  const durationSeconds = input.durationSeconds === undefined ? 6 : Number(input.durationSeconds);
-  if (!Number.isFinite(trimStart) || trimStart < 0) throw new Error("trimStart must be a non-negative number.");
-  if (trimEnd !== null && (!Number.isFinite(trimEnd) || trimEnd <= trimStart)) throw new Error("trimEnd must be greater than trimStart.");
-  if (!Number.isFinite(durationSeconds) || durationSeconds < 1 || durationSeconds > 60) throw new Error("durationSeconds must be between 1 and 60.");
-  return { trimStart, trimEnd, durationSeconds, musicStoragePath: null };
-}
 
 function getWorkerBaseUrl() {
   const baseUrl = process.env.WORKER_BASE_URL?.trim().replace(/\/+$/u, "");
@@ -27,30 +22,54 @@ export async function POST(request: NextRequest) {
   if (!auth.ok) return auth.response;
 
   let jobId: string | null = null;
-  let projectId = "";
-  const supabase = getSupabaseAdminClient();
   try {
     const body = (await request.json()) as { projectId?: unknown; editRecipe?: unknown };
-    projectId = typeof body.projectId === "string" ? body.projectId.trim() : "";
+    const projectId = typeof body.projectId === "string" ? body.projectId.trim() : "";
     if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(projectId)) throw new Error("A valid projectId is required.");
-    const editRecipe = validateEditRecipe(body.editRecipe);
-    const baseUrl = getWorkerBaseUrl();
 
-    const { data: rawSources, error: sourceError } = await supabase.from("video_assets").select("id,asset_type,created_at").eq("project_id", projectId).in("asset_type", ["RAW_VIDEO", "RAW_IMAGE"]).order("created_at", { ascending: true }).limit(1);
-    const source = rawSources?.[0];
-    if (sourceError || !source) throw new Error("Raw image or video asset not found.");
+    const frozen = await getVideoR2FrozenComposition(projectId, auth.session.email);
+    if (!frozen || !frozen.scenes.length) throw new Error("A saved Video Maker composition is required before rendering.");
 
-    const { data: job, error: jobError } = await supabase.from("video_jobs").upsert({ project_id: projectId, source_asset_id: source.id, stage: "RENDER_MASTER", status: "queued", edit_recipe: editRecipe, last_error: null, completed_at: null }, { onConflict: "project_id,stage" }).select("id,status").single();
-    if (jobError || !job) throw new Error(jobError?.message ?? "Could not queue video job.");
-    jobId = job.id;
-    await supabase.from("video_projects").update({ status: "uploaded", edit_recipe: editRecipe, updated_at: new Date().toISOString() }).eq("id", projectId);
+    const active = await getActiveVideoR2Job(projectId, auth.session.email, frozen.locale);
+    if (active) {
+      return Response.json(
+        { success: true, projectId, jobId: active.id, status: active.status, alreadyQueued: true },
+        { status: 202, headers: { "Cache-Control": "private, no-store" } },
+      );
+    }
 
-    const path = `/internal/jobs/${job.id}/execute`;
-    const payload = JSON.stringify({ jobId: job.id });
+    const composition = {
+      outputProfile: frozen.workerProfile,
+      scenes: frozen.scenes,
+      audio: frozen.audio,
+    };
+    const serialized = JSON.stringify(composition);
+    const compositionHash = createHash("sha256").update(serialized).digest("hex");
+    const idempotencyKey = compositionHash;
+
+    const job = await createVideoR2Job({
+      projectId,
+      ownerEmail: auth.session.email,
+      locale: frozen.locale,
+      outputProfile: frozen.outputProfile as "vertical_1080x1920" | "landscape_1920x1080" | "square_1080x1080",
+      composition,
+      compositionHash,
+      idempotencyKey,
+    });
+    if (!job?.id) throw new Error("Could not queue video job.");
+    jobId = String(job.id);
+
+    const path = `/internal/jobs/${jobId}/execute`;
+    const payload = JSON.stringify({ jobId });
     const signed = signWorkerRequest("POST", path, payload);
-    const workerResponse = await fetch(`${baseUrl}${path}`, {
+    const workerResponse = await fetch(`${getWorkerBaseUrl()}${path}`, {
       method: "POST",
-      headers: { "content-type": "application/json", "x-edunancial-timestamp": signed.timestamp, "x-edunancial-request-id": signed.requestId, "x-edunancial-signature": signed.signature },
+      headers: {
+        "content-type": "application/json",
+        "x-edunancial-timestamp": signed.timestamp,
+        "x-edunancial-request-id": signed.requestId,
+        "x-edunancial-signature": signed.signature,
+      },
       body: payload,
       cache: "no-store",
       signal: AbortSignal.timeout(5000),
@@ -59,14 +78,14 @@ export async function POST(request: NextRequest) {
       const message = (await workerResponse.text()).slice(0, 500);
       throw new Error(`Worker rejected dispatch (${workerResponse.status}): ${message || "no response body"}`);
     }
-    return Response.json({ success: true, projectId, jobId: job.id, status: "queued" }, { status: 202, headers: { "Cache-Control": "private, no-store" } });
+
+    return Response.json(
+      { success: true, projectId, jobId, status: "queued" },
+      { status: 202, headers: { "Cache-Control": "private, no-store" } },
+    );
   } catch (error) {
     const message = error instanceof Error ? error.message : "Could not trigger video worker.";
-    if (jobId) {
-      const completedAt = new Date().toISOString();
-      await supabase.from("video_jobs").update({ status: "failed", last_error: `Dispatch failed: ${message}`.slice(0, 4000), completed_at: completedAt }).eq("id", jobId);
-      if (projectId) await supabase.from("video_projects").update({ status: "failed", updated_at: completedAt }).eq("id", projectId);
-    }
+    if (jobId) await markVideoR2JobDispatchFailed(jobId, auth.session.email, `Dispatch failed: ${message}`);
     return Response.json({ success: false, error: message }, { status: 400, headers: { "Cache-Control": "private, no-store" } });
   }
 }
