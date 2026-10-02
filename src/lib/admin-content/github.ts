@@ -688,3 +688,50 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     repo,
   };
 }
+
+export async function createCurriculumLessonPullRequest(input: { lessonId: string; content: string; operation: "create" | "update" }) {
+  const lessonId = input.lessonId.toUpperCase();
+  if (!CANONICAL_LESSON_ID_RE.test(lessonId)) throw new Error(`Invalid canonical lesson ID: ${lessonId}`);
+  const asset = await detectCurriculumAsset(input.content, `${lessonId}.md`);
+  if (!asset || asset.id.toUpperCase() !== lessonId || asset.type !== "lesson") throw new Error(`Lesson content does not match canonical identity ${lessonId}.`);
+  const validation = await validateCurriculumFiles([{ destination: asset.canonicalPath, content: input.content }]);
+  if (!validation.success) throw new Error(`Curriculum validation failed: ${validation.errors.join("; ")}`);
+
+  const existingRegistry = await fetchCurrentRegistry();
+  const exists = activeLessonIds(existingRegistry).has(lessonId);
+  if (input.operation === "create" && exists) throw new Error(`Lesson ${lessonId} already exists. Use edit instead.`);
+  if (input.operation === "update" && !exists) throw new Error(`Lesson ${lessonId} does not exist in the canonical registry.`);
+
+  const now = new Date(), importedAt = now.toISOString();
+  const entry = buildRegistryEntry(asset, Buffer.from(input.content, "utf8"), `admin-${input.operation}-${Date.now()}`, importedAt);
+  const updatedRegistry = upsertRegistryEntries(existingRegistry, [entry]);
+  const currentInventory = await fetchCurrentJson<CurriculumInventory>(CURRICULUM_INVENTORY_PATH);
+  const derived = buildDerivedCurriculumFiles(updatedRegistry, currentInventory, new Map());
+  const baseBranch = process.env.EDUNANCIAL_GITHUB_BASE_BRANCH || DEFAULT_BASE_BRANCH;
+  const branchName = `content/admin-${input.operation}-${lessonId.toLowerCase()}-${now.toISOString().replace(/[-:.TZ]/g, "").slice(0,14)}`;
+  const refData = await githubRequest(`/git/ref/heads/${baseBranch}`);
+  const baseSha = (refData.object as { sha: string }).sha;
+  await githubRequest("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branchName}`, sha: baseSha }) });
+
+  const files = [
+    [asset.canonicalPath, input.content],
+    [CURRICULUM_REGISTRY_PATH, JSON.stringify(updatedRegistry, null, 2) + "\n"],
+    [CURRICULUM_INVENTORY_PATH, derived.inventory],
+    [CURRICULUM_AUDIT_JSON_PATH, derived.auditJson],
+    [CURRICULUM_AUDIT_MD_PATH, derived.auditMd],
+  ] as const;
+  const tree = [];
+  for (const [filePath, content] of files) {
+    const blob = await githubRequest("/git/blobs", { method: "POST", body: JSON.stringify({ content: Buffer.from(content, "utf8").toString("base64"), encoding: "base64" }) });
+    tree.push({ path: filePath, mode: "100644", type: "blob", sha: blob.sha as string });
+  }
+  const baseCommit = await githubRequest(`/git/commits/${baseSha}`);
+  const newTree = await githubRequest("/git/trees", { method: "POST", body: JSON.stringify({ base_tree: (baseCommit.tree as { sha: string }).sha, tree }) });
+  const commit = await githubRequest("/git/commits", { method: "POST", body: JSON.stringify({ message: `Curriculum ${input.operation}: ${lessonId}`, tree: newTree.sha, parents: [baseSha] }) });
+  await githubRequest(`/git/refs/heads/${branchName}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: false }) });
+  const pr = await githubRequest("/pulls", { method: "POST", body: JSON.stringify({
+    title: `Curriculum ${input.operation}: ${lessonId}`, head: branchName, base: baseBranch,
+    body: [`Canonical admin lesson ${input.operation}.`, `Lesson: ${lessonId}`, `Path: ${asset.canonicalPath}`, `Validation: passed`, "Registry/inventory/audit artifacts updated atomically in this PR."].join("\n"),
+  }) });
+  return { branch: branchName, pullRequestUrl: pr.html_url as string, pullRequestNumber: pr.number as number };
+}
