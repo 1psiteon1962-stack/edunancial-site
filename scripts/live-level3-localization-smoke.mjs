@@ -45,7 +45,7 @@ function loadExpectations(){
       const m=levelName.match(/^L([1-5])$/u); if(!m)continue;
       const levelDir=join(trackDir,levelName); if(!statSync(levelDir).isDirectory())continue;
       for(const filename of readdirSync(levelDir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
-        const canonicalName=filename.match(/^[A-Z]+-L[1-5]-\\d{3}(?:\\.([^.]+))?\\.md$/iu);
+        const canonicalName=filename.match(/^[A-Z]+-L[1-5]-\d{3}(?:\.([^.]+))?\.md$/iu);
         if(!canonicalName)continue;
         const fm=parseLessonMetadata(readFileSync(join(levelDir,filename),"utf8"));
         if(!fm.id||!fm.title)throw new Error(`Unable to derive lesson id/title from ${track}/${levelName}/${filename}`);
