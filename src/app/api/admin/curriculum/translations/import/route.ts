@@ -104,7 +104,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid translation import payload", errors }, { status: 400 });
   }
 
-  const result = await importPublishedLessonTranslations(records);
+  const result = await importPublishedLessonTranslations(records, { requireAtomic: true });
   if (result.missingLessonIds.length > 0) {
     return NextResponse.json(
       {

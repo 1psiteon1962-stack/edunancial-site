@@ -698,7 +698,7 @@ export async function publishBatch(batchId: string, actor: ActorContext) {
   batch.status = "exported";
   batch.updatedAt = nowIso();
 
-  const publishedStateResult = await upsertPublishedLessonsFromBatch(batch);
+  const publishedStateResult = await upsertPublishedLessonsFromBatch(batch, { requireAtomic: true });
 
   await appendBatchAuditEvent(
     batch,
