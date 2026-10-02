@@ -24,6 +24,7 @@ const TEST_ENV = process.env as Record<string, string | undefined>;
 
 const ORIGINAL_FALLBACK_FLAG = process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
 const ORIGINAL_LEGACY_WRITE_FLAG = process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES;
+const ORIGINAL_LEGACY_TEST_WRITE_FLAG = process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES;
 let originalState: string | null = null;
 
 beforeEach(() => {
@@ -31,6 +32,7 @@ beforeEach(() => {
   rmSync(STATE_PATH, { force: true });
   delete process.env.EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK;
   process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES = "true";
+  process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES = "true";
 });
 
 afterEach(() => {
@@ -49,6 +51,11 @@ afterEach(() => {
     delete process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES;
   } else {
     process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE_WRITES = ORIGINAL_LEGACY_WRITE_FLAG;
+  }
+  if (ORIGINAL_LEGACY_TEST_WRITE_FLAG === undefined) {
+    delete process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES;
+  } else {
+    process.env.EDUNANCIAL_ALLOW_LEGACY_PUBLISHED_STATE_TEST_WRITES = ORIGINAL_LEGACY_TEST_WRITE_FLAG;
   }
 });
 
