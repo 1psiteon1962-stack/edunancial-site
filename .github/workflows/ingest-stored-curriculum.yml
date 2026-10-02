@@ -1,64 +1,17 @@
 name: Ingest Stored Curriculum
 on:
-  # PHASE 0 FREEZE: automatic stored-curriculum ingestion is disabled.
-  # Do not re-enable until the Git-only single publisher is approved.
+  # RETIRED LEGACY PUBLISHER: retained only as an explicit fail-closed marker.
+  # Stored curriculum must publish through the admin finalizer -> atomic runtime
+  # state -> canonical Git export path. Never publish to content/courses here.
   workflow_dispatch:
 permissions:
-  contents: write
-  pull-requests: write
-concurrency:
-  group: stored-curriculum-ingest
-  cancel-in-progress: false
+  contents: read
 jobs:
-  ingest:
+  retired:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          # PR runs must test the code being proposed. Storage/schedule runs use main.
-          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
-          fetch-depth: 0
-      - name: Fetch storage branch
-        run: git fetch origin admin-content-storage:refs/remotes/origin/admin-content-storage
-      - name: Ingest stored ZIPs
-        env:
-          EDUNANCIAL_STORAGE_REF: origin/admin-content-storage
-        run: node scripts/curriculum/ingest-stored-zips.mjs
-      - name: Validate curriculum
-        run: npm run curriculum:validate
-      - name: Open publication PR
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Reject legacy stored-curriculum ingestion
         run: |
-          git add content/courses .edunancial-admin-content/ingest-ledger.json
-          if git diff --cached --quiet -- content/courses .edunancial-admin-content/ingest-ledger.json; then
-            echo "No unpublished curriculum changes."
-            exit 0
-          fi
-
-          branch="automation/stored-curriculum-ingest"
-
-          # CRITICAL: never rewrite an active publication PR. The old workflow
-          # force-pushed this branch every five minutes while checks were running,
-          # repeatedly changing the PR head SHA and cancelling/restarting CI.
-          existing_pr="$(gh pr list --base main --head "$branch" --state open --json url --jq '.[0].url // empty')"
-          if [ -n "$existing_pr" ]; then
-            echo "Publication PR already exists and is being left untouched: $existing_pr"
-            echo "A later run will ingest any newly stored packages after that PR reaches main."
-            exit 0
-          fi
-
-          git config user.name "edunancial-curriculum-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git checkout -B "$branch"
-          git commit -m "Ingest stored curriculum packages"
-          git push --force-with-lease origin "$branch"
-
-          if ! pr_url="$(gh pr create --base main --head "$branch" --title "Ingest stored curriculum packages" --body "Repository-authoritative ingestion from admin-content-storage. Validated before publication. This branch is immutable while the PR is open so required checks can finish without being cancelled by the scheduled ingestion job.")"; then
-            echo "::error::Curriculum files were validated and preserved on branch $branch, but GitHub Actions could not create the publication PR."
-            echo "::error::Enable Settings > Actions > General > Workflow permissions > Allow GitHub Actions to create and approve pull requests, or create the PR from $branch to main manually."
-            exit 1
-          fi
-
-          echo "Publication PR created: $pr_url"
-          echo "The publication branch will remain stable until required checks finish."
+          echo "::error::Legacy stored curriculum ingestion is retired."
+          echo "::error::Use the admin bulk uploader/finalizer canonical publication path."
+          exit 1
