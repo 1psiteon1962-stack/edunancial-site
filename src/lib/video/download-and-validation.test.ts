@@ -15,7 +15,7 @@ test("completed Video Maker output has an authenticated MP4 attachment endpoint"
   assert.match(route, /openVideoObject/);
   assert.match(route, /Content-Disposition/);
   assert.match(route, /attachment; filename=/);
-  assert.match(route, /Content-Type.*video\/mp4/s);
+  assert.match(route, /Content-Type[\\s\\S]*video\\/mp4/);
 
   const client = read("src/components/video-studio/MarketingShortClient.tsx");
   assert.match(client, /\/api\/admin\/video\/jobs\/\$\{jobId\}\/download/);
