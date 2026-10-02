@@ -38,7 +38,7 @@ test("trusted localized ingestion republishes and verifies localized translation
   assert.match(helper, /localization\.translated !== approvedFiles/u);
   assert.match(helper, /localization\.missingLessonIds\.length > 0/u);
   assert.doesNotMatch(helper, /backfillMissingPublishedLessonsFromRegistry/u);
-  assert.match(finalizeRoute, /autoPublishTrustedLocalizedLevel1Batch\(batch, packageIdentity\)/u);
+  assert.match(finalizeRoute, /autoPublishTrustedLocalizedLevel1Batch\(batch, packageIdentity, \{ requireAtomic: true \}\)/u);
 });
 
 test("presign path uses the server-controlled upload endpoint without Supabase credentials", () => {

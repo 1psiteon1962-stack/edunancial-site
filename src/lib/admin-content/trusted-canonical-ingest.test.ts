@@ -27,7 +27,7 @@ test("trusted canonical curriculum checkpoints and publishes directly to authori
   assert.match(helper, /published\.upserted !== 50/u);
   assert.doesNotMatch(helper, /publishBatch\(/u);
   assert.doesNotMatch(helper, /pullRequestUrl/u);
-  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor\)/u);
+  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor, \{ requireAtomic: true \}\)/u);
 });
 
 test("finalize retry bypass covers both trusted localized and trusted canonical publication", () => {
