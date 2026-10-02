@@ -1,0 +1,27 @@
+name: Trigger Production Deploy Diagnostic
+
+on:
+  push:
+    branches:
+      - diagnostic/live-curriculum-matrix
+    paths:
+      - '.github/workflows/trigger-production-deploy-diagnostic.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trigger Netlify production deploy from main
+        shell: bash
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          test -n "$NETLIFY_BUILD_HOOK" || { echo "::error::NETLIFY_BUILD_HOOK is not configured"; exit 1; }
+          code="$(curl --silent --show-error --output response.json --write-out '%{http_code}'             --request POST             --header 'Content-Type: application/json'             --data '{"trigger_title":"Deploy main after bulk publication repair #1047"}'             "$NETLIFY_BUILD_HOOK")"
+          cat response.json || true
+          test "$code" -ge 200 -a "$code" -lt 300
+          echo "Netlify accepted production deploy request (HTTP $code)."
