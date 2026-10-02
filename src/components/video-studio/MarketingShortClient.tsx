@@ -311,6 +311,8 @@ export default function MarketingShortClient() {
                 fileName: narrationName,
                 mimeType: mime,
                 byteSize: narration.size,
+                role: "narration",
+                locale: narrationLocale,
               }),
             },
           );
@@ -329,6 +331,8 @@ export default function MarketingShortClient() {
                 fileName: music.name,
                 mimeType: mime,
                 byteSize: music.size,
+                role: "music",
+                locale: "und",
               }),
             },
           );
