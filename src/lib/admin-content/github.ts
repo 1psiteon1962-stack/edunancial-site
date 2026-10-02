@@ -735,3 +735,54 @@ export async function createCurriculumLessonPullRequest(input: { lessonId: strin
   }) });
   return { branch: branchName, pullRequestUrl: pr.html_url as string, pullRequestNumber: pr.number as number };
 }
+
+
+export async function createCurriculumLessonDeletePullRequest(lessonIdInput: string) {
+  const lessonId = lessonIdInput.toUpperCase();
+  if (!CANONICAL_LESSON_ID_RE.test(lessonId)) throw new Error(`Invalid canonical lesson ID: ${lessonId}`);
+  const registry = await fetchCurrentRegistry();
+  let canonicalPath = "";
+  let removed = false;
+  for (const track of Object.values(registry.tracks ?? {})) {
+    for (const level of Object.values(track.levels ?? {})) {
+      const entry = level.assets?.[lessonId];
+      if (!entry || entry.type !== "lesson" || entry.status !== "active") continue;
+      canonicalPath = entry.path;
+      delete level.assets[lessonId];
+      removed = true;
+    }
+  }
+  if (!removed || !canonicalPath) throw new Error(`Lesson ${lessonId} does not exist in the canonical registry.`);
+  registry._generated = new Date().toISOString();
+
+  const currentInventory = await fetchCurrentJson<CurriculumInventory>(CURRICULUM_INVENTORY_PATH);
+  const derived = buildDerivedCurriculumFiles(registry, currentInventory, new Map());
+  const baseBranch = process.env.EDUNANCIAL_GITHUB_BASE_BRANCH || DEFAULT_BASE_BRANCH;
+  const now = new Date();
+  const branchName = `content/admin-delete-${lessonId.toLowerCase()}-${now.toISOString().replace(/[-:.TZ]/g, "").slice(0,14)}`;
+  const refData = await githubRequest(`/git/ref/heads/${baseBranch}`);
+  const baseSha = (refData.object as { sha: string }).sha;
+  await githubRequest("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branchName}`, sha: baseSha }) });
+
+  const tree: Array<{ path: string; mode: string; type: string; sha: string | null }> = [
+    { path: canonicalPath, mode: "100644", type: "blob", sha: null },
+  ];
+  for (const [filePath, content] of [
+    [CURRICULUM_REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n"],
+    [CURRICULUM_INVENTORY_PATH, derived.inventory],
+    [CURRICULUM_AUDIT_JSON_PATH, derived.auditJson],
+    [CURRICULUM_AUDIT_MD_PATH, derived.auditMd],
+  ] as const) {
+    const blob = await githubRequest("/git/blobs", { method: "POST", body: JSON.stringify({ content: Buffer.from(content, "utf8").toString("base64"), encoding: "base64" }) });
+    tree.push({ path: filePath, mode: "100644", type: "blob", sha: blob.sha as string });
+  }
+  const baseCommit = await githubRequest(`/git/commits/${baseSha}`);
+  const newTree = await githubRequest("/git/trees", { method: "POST", body: JSON.stringify({ base_tree: (baseCommit.tree as { sha: string }).sha, tree }) });
+  const commit = await githubRequest("/git/commits", { method: "POST", body: JSON.stringify({ message: `Curriculum delete: ${lessonId}`, tree: newTree.sha, parents: [baseSha] }) });
+  await githubRequest(`/git/refs/heads/${branchName}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: false }) });
+  const pr = await githubRequest("/pulls", { method: "POST", body: JSON.stringify({
+    title: `Curriculum delete: ${lessonId}`, head: branchName, base: baseBranch,
+    body: [`Canonical admin lesson deletion.`, `Lesson: ${lessonId}`, `Path removed: ${canonicalPath}`, "Registry/inventory/audit artifacts updated in the same Git transaction.", "Runtime publication is not removed ahead of canonical Git merge."].join("\n"),
+  }) });
+  return { branch: branchName, pullRequestUrl: pr.html_url as string, pullRequestNumber: pr.number as number };
+}
