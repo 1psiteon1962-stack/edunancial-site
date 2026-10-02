@@ -28,6 +28,17 @@ const sql=()=>postgres(DATABASE_URL,{max:2,prepare:false});
 const s3=()=>new S3Client({region:"auto",endpoint,credentials:{accessKeyId,secretAccessKey}});
 function json(res,n,v){const b=JSON.stringify(v);res.writeHead(n,{"content-type":"application/json","content-length":Buffer.byteLength(b)});res.end(b)}
 function run(cmd,args){return new Promise((ok,no)=>{const p=spawn(cmd,args,{stdio:["ignore","ignore","pipe"]});let e="";p.stderr.on("data",d=>e=(e+d).slice(-6000));p.on("error",no);p.on("close",c=>c===0?ok():no(Error(cmd+" failed: "+e)))})}
+function capture(cmd,args){return new Promise((ok,no)=>{const p=spawn(cmd,args,{stdio:["ignore","pipe","pipe"]});let o="",e="";p.stdout.on("data",d=>o=(o+d).slice(-20000));p.stderr.on("data",d=>e=(e+d).slice(-6000));p.on("error",no);p.on("close",c=>c===0?ok(o):no(Error(cmd+" failed: "+e)))})}
+async function validateMaster(file,composition){
+ const raw=await capture("ffprobe",["-v","error","-show_entries","stream=codec_type,codec_name,width,height","-of","json",file]);
+ const probe=JSON.parse(raw),streams=Array.isArray(probe.streams)?probe.streams:[],video=streams.find(x=>x.codec_type==="video"),audio=streams.find(x=>x.codec_type==="audio");
+ if(!video)throw Error("ffprobe validation failed: video stream missing");
+ if(video.codec_name!=="h264")throw Error(`ffprobe validation failed: expected h264, got ${video.codec_name||"unknown"}`);
+ const profile=composition.outputProfile||"vertical",expected=profile==="landscape"?[1920,1080]:profile==="square"?[1080,1080]:[1080,1920];
+ if(Number(video.width)!==expected[0]||Number(video.height)!==expected[1])throw Error(`ffprobe validation failed: expected ${expected[0]}x${expected[1]}, got ${video.width}x${video.height}`);
+ if((composition.audio||[]).length){if(!audio)throw Error("ffprobe validation failed: requested audio stream missing");if(audio.codec_name!=="aac")throw Error(`ffprobe validation failed: expected aac, got ${audio.codec_name||"unknown"}`)}
+ return {videoCodec:video.codec_name,audioCodec:audio?.codec_name||null,width:Number(video.width),height:Number(video.height)};
+}
 async function bytes(body){const a=[];for await(const c of body)a.push(c);return Buffer.concat(a)}
 async function get(key,file){const r=await s3().send(new GetObjectCommand({Bucket:bucket,Key:key}));await writeFile(file,await bytes(r.Body))}
 async function execute(jobId){
@@ -50,6 +61,7 @@ async function execute(jobId){
    else{const args=["-y","-i",visual],filters=[];for(let i=0;i<audio.length;i++){const a=audio[i],f=join(dir,"a"+i);await get(a.storageKey,f);args.push("-i",f);filters.push(`[${i+1}:a]volume=${Number(a.volume??1)}[a${i}]`)}
     let map="[a0]";if(audio.length>1){filters.push(audio.map((_,i)=>`[a${i}]`).join("")+`amix=inputs=${audio.length}:duration=longest[aout]`);map="[aout]"}
     args.push("-filter_complex",filters.join(";"),"-map","0:v:0","-map",map,"-c:v","copy","-c:a","aac","-shortest","-movflags","+faststart",master);await run("ffmpeg",args)}
+   await validateMaster(master,c);
    const data=await readFile(master),sha=createHash("sha256").update(data).digest("hex"),info=await stat(master),key=`v1/renders/${claim.id}/${claim.lease_token}/master.mp4`;
    await s3().send(new PutObjectCommand({Bucket:bucket,Key:key,Body:data,ContentType:"video/mp4"}));
    const duration=Math.round(c.scenes.reduce((n,x)=>n+Number(x.durationSeconds||0),0)*1000);
