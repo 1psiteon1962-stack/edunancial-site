@@ -28,10 +28,10 @@ import {
   resetWebhookIdempotencyForTests,
 } from "@/lib/payments/webhookIdempotency";
 
-afterEach(() => {
+afterEach(async () => {
   resetMembershipLifecycleForTests();
   resetPaymentEmailEventsForTests();
-  resetWebhookIdempotencyForTests();
+  await resetWebhookIdempotencyForTests();
 });
 
 // ── Monthly membership purchase ──────────────────────────────────────────────
@@ -202,24 +202,24 @@ describe("failed payment and recovery pipeline", () => {
 // ── Webhook idempotency / duplicate protection ────────────────────────────────
 
 describe("webhook idempotency and duplicate protection", () => {
-  test("same event ID is blocked on second claim (replay protection)", () => {
-    const first = claimWebhookEvent("replay-evt-001", "payment.completed");
-    const second = claimWebhookEvent("replay-evt-001", "payment.completed");
+  test("same event ID is blocked on second claim (replay protection)", async () => {
+    const first = await claimWebhookEvent("replay-evt-001", "payment.completed");
+    const second = await claimWebhookEvent("replay-evt-001", "payment.completed");
 
     assert.equal(first, true, "first claim must succeed");
     assert.equal(second, false, "replay must be rejected");
   });
 
-  test("different event IDs are each claimable once", () => {
-    assert.equal(claimWebhookEvent("unique-a", "payment.completed"), true);
-    assert.equal(claimWebhookEvent("unique-b", "subscription.updated"), true);
-    assert.equal(claimWebhookEvent("unique-a", "payment.completed"), false);
+  test("different event IDs are each claimable once", async () => {
+    assert.equal(await claimWebhookEvent("unique-a", "payment.completed"), true);
+    assert.equal(await claimWebhookEvent("unique-b", "subscription.updated"), true);
+    assert.equal(await claimWebhookEvent("unique-a", "payment.completed"), false);
   });
 
-  test("hasProcessedWebhookEvent reflects claimed events accurately", () => {
-    claimWebhookEvent("status-check-001", "payment.completed");
-    assert.equal(hasProcessedWebhookEvent("status-check-001"), true);
-    assert.equal(hasProcessedWebhookEvent("not-yet-seen"), false);
+  test("hasProcessedWebhookEvent reflects claimed events accurately", async () => {
+    await claimWebhookEvent("status-check-001", "payment.completed");
+    assert.equal(await hasProcessedWebhookEvent("status-check-001"), true);
+    assert.equal(await hasProcessedWebhookEvent("not-yet-seen"), false);
   });
 
   test("payment.completed without email does not provision member (server-side guard)", () => {
