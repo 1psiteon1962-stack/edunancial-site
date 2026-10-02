@@ -190,3 +190,134 @@ export async function markVideoR2AssetReady(
   `;
   return rows[0] ?? null;
 }
+
+
+export type VideoR2SceneInput = {
+  assetId: string;
+  durationSeconds: number;
+  overlayText?: string | null;
+  fitMode: "contain" | "cover";
+  transitionType: "cut" | "fade" | "wipeleft" | "wiperight" | "slideleft" | "slideright";
+  transitionSeconds: number;
+};
+
+export type VideoR2AudioInput = {
+  assetId: string;
+  role: "narration" | "music";
+  locale: string;
+  transcript?: string | null;
+  volume: number;
+};
+
+export async function replaceVideoR2Composition(
+  projectId: string,
+  ownerEmail: string,
+  scenes: VideoR2SceneInput[],
+  audio: VideoR2AudioInput[],
+) {
+  const sql = requireSql();
+  const project = await getVideoR2Project(projectId, ownerEmail);
+  if (!project) throw new Error("Video project not found.");
+
+  await sql.begin(async (tx) => {
+    await tx`delete from video_r2_scenes where project_id = ${projectId}::uuid`;
+    await tx`delete from video_r2_audio_tracks where project_id = ${projectId}::uuid`;
+
+    for (let i = 0; i < scenes.length; i++) {
+      const scene = scenes[i];
+      await tx`
+        insert into video_r2_scenes
+          (project_id, scene_order, asset_id, duration_seconds, fit_mode, overlay_text, transition_type, transition_seconds)
+        select
+          p.id, ${i}, a.id, ${scene.durationSeconds}, ${scene.fitMode},
+          ${JSON.stringify(scene.overlayText ? { text: scene.overlayText } : {})}::jsonb,
+          ${scene.transitionType}, ${scene.transitionSeconds}
+        from video_r2_projects p
+        join video_r2_assets a on a.project_id = p.id
+        where p.id = ${projectId}::uuid
+          and p.owner_email = ${ownerEmail}
+          and a.id = ${scene.assetId}::uuid
+          and a.status = 'ready'
+      `;
+    }
+
+    for (const track of audio) {
+      await tx`
+        insert into video_r2_audio_tracks
+          (project_id, role, locale, asset_id, transcript, volume)
+        select
+          p.id, ${track.role}, ${track.locale}, a.id, ${track.transcript ?? null}, ${track.volume}
+        from video_r2_projects p
+        join video_r2_assets a on a.project_id = p.id
+        where p.id = ${projectId}::uuid
+          and p.owner_email = ${ownerEmail}
+          and a.id = ${track.assetId}::uuid
+          and a.status = 'ready'
+      `;
+    }
+
+    await tx`update video_r2_projects set updated_at = now() where id = ${projectId}::uuid and owner_email = ${ownerEmail}`;
+  });
+}
+
+export async function getVideoR2FrozenComposition(projectId: string, ownerEmail: string) {
+  const sql = requireSql();
+  const project = await getVideoR2Project(projectId, ownerEmail) as Record<string, unknown> | null;
+  if (!project) return null;
+
+  const scenes = await sql`
+    select s.scene_order, s.duration_seconds, s.fit_mode, s.overlay_text, s.transition_type, s.transition_seconds,
+           a.id as asset_id, a.storage_key, a.mime_type
+    from video_r2_scenes s
+    join video_r2_assets a on a.id = s.asset_id
+    join video_r2_projects p on p.id = s.project_id
+    where s.project_id = ${projectId}::uuid and p.owner_email = ${ownerEmail} and a.status = 'ready'
+    order by s.scene_order
+  `;
+  const audio = await sql`
+    select t.role, t.locale, t.transcript, t.volume, a.id as asset_id, a.storage_key, a.mime_type
+    from video_r2_audio_tracks t
+    join video_r2_assets a on a.id = t.asset_id
+    join video_r2_projects p on p.id = t.project_id
+    where t.project_id = ${projectId}::uuid and p.owner_email = ${ownerEmail} and a.status = 'ready'
+    order by case when t.role = 'narration' then 0 else 1 end, t.locale
+  `;
+
+  const profile = String(project.output_profile ?? "vertical_1080x1920");
+  return {
+    locale: String(project.default_locale ?? "en-US"),
+    outputProfile: profile,
+    workerProfile: profile.startsWith("landscape") ? "landscape" : profile.startsWith("square") ? "square" : "vertical",
+    scenes: scenes.map((row: Record<string, unknown>) => ({
+      assetId: row.asset_id,
+      storageKey: row.storage_key,
+      mimeType: row.mime_type,
+      durationSeconds: Number(row.duration_seconds),
+      fit: row.fit_mode,
+      overlayText: row.overlay_text,
+      transitionType: row.transition_type,
+      transitionSeconds: Number(row.transition_seconds),
+    })),
+    audio: audio.map((row: Record<string, unknown>) => ({
+      assetId: row.asset_id,
+      storageKey: row.storage_key,
+      mimeType: row.mime_type,
+      role: row.role,
+      locale: row.locale,
+      transcript: row.transcript,
+      volume: Number(row.volume),
+    })),
+  };
+}
+
+export async function markVideoR2JobDispatchFailed(jobId: string, ownerEmail: string, message: string) {
+  const sql = requireSql();
+  const rows = await sql`
+    update video_r2_jobs j
+    set status = 'failed', error_code = 'dispatch_failed', last_error = ${message.slice(0, 4000)}, finished_at = now()
+    from video_r2_projects p
+    where j.id = ${jobId}::uuid and j.project_id = p.id and p.owner_email = ${ownerEmail}
+    returning j.*
+  `;
+  return rows[0] ?? null;
+}
