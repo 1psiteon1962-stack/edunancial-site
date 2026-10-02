@@ -16,7 +16,7 @@ export default async function UploadManagerPage() {
             <p className="mb-1 text-sm font-black uppercase tracking-[0.3em] text-yellow-400">Owner / Admin</p>
             <h1 className="text-4xl font-black sm:text-5xl">Bulk Content Upload</h1>
             <p className="mt-3 max-w-3xl text-slate-300">
-              Upload individual files or large ZIP packages for Courses or Marketplace. Large files use direct private Supabase upload, then route into batch review before publication.
+              Upload individual files or large ZIP packages for Courses or Marketplace. Files and ZIP packages use the protected admin-content upload path. Trusted complete curriculum packages are validated, published to the learner catalog, and exported to Git for durable canonical publication.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -36,11 +36,11 @@ export default async function UploadManagerPage() {
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
             <p className="font-black text-white">2. Review</p>
-            <p className="mt-2 text-sm leading-6 text-slate-400">The system extracts, classifies, checks duplicates/conflicts, and routes the batch to the review screen.</p>
+            <p className="mt-2 text-sm leading-6 text-slate-400">The system stores, extracts, classifies, normalizes locale/track/level, and validates the package before trusted publication.</p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
             <p className="font-black text-white">3. Publish</p>
-            <p className="mt-2 text-sm leading-6 text-slate-400">Approve the accepted files and publish them into the live curriculum state through the existing protected batch workflow.</p>
+            <p className="mt-2 text-sm leading-6 text-slate-400">Trusted complete curriculum packages publish to the live learner state and create the protected Git publication automatically. Other content continues through review.</p>
           </div>
         </div>
 
