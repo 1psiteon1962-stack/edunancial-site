@@ -96,7 +96,7 @@ export default async function CurriculumDashboardPage() {
               View as Member ↗
             </Link>
             <Link
-              href="/admin/uploads"
+              href="/admin/content/upload"
               className="rounded-xl border border-slate-700 px-5 py-3 text-sm font-semibold text-slate-300 hover:text-white hover:border-slate-500 transition"
             >
               Upload Portal
