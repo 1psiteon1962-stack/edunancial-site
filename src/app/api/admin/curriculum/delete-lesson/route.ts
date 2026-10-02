@@ -1,53 +1,10 @@
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { unlink } from "node:fs/promises";
-import { join, resolve, sep } from "node:path";
 import { NextResponse } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { removePublishedLesson } from "@/lib/curriculum/authoritative-published";
-import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
-import { invalidateRegistryCache } from "@/lib/curriculum/reader";
+import { createCurriculumLessonDeletePullRequest } from "@/lib/admin-content/github";
 
-const REGISTRY_PATH = join(process.cwd(), "curriculum", "registry.json");
-const CURRICULUM_ROOT = resolve(process.cwd(), "content", "curriculum");
-
-function lessonFilePath(id: string): string | null {
-  const match = id.match(/^([A-Z]+)-L(\d+)-(\d{3})$/);
-  if (!match) return null;
-  const [, track, level] = match;
-  const candidate = resolve(CURRICULUM_ROOT, track, `L${level}`, `${id}.md`);
-  if (!candidate.startsWith(`${CURRICULUM_ROOT}${sep}`)) {
-    return null;
-  }
-  return candidate;
-}
-
-function removeFromRegistry(lessonId: string) {
-  if (!existsSync(REGISTRY_PATH)) return;
-  const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8")) as {
-    _generated: string;
-    tracks: Record<string, {
-      levels: Record<string, {
-        assets: Record<string, unknown>;
-      }>;
-    }>;
-  };
-
-  let modified = false;
-  for (const track of Object.values(registry.tracks)) {
-    for (const level of Object.values(track.levels)) {
-      if (level.assets[lessonId]) {
-        delete level.assets[lessonId];
-        modified = true;
-      }
-    }
-  }
-
-  if (modified) {
-    registry._generated = new Date().toISOString();
-    writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2), "utf8");
-    invalidateRegistryCache();
-  }
+function validLessonId(id: string) {
+  return /^[A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,}$/u.test(id);
 }
 
 export async function POST(request: Request) {
@@ -61,31 +18,19 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
   }
 
-  const { lessonId } = body;
-  if (!lessonId) {
-    return NextResponse.json({ error: "lessonId is required" }, { status: 400 });
+  const lessonId = body.lessonId?.toUpperCase();
+  if (!lessonId) return NextResponse.json({ error: "lessonId is required" }, { status: 400 });
+  if (!validLessonId(lessonId)) return NextResponse.json({ error: "Invalid lesson ID format" }, { status: 400 });
+
+  try {
+    const publication = await createCurriculumLessonDeletePullRequest(lessonId);
+    return NextResponse.json({
+      ok: true,
+      message: `Lesson ${lessonId} deletion submitted for canonical publication.`,
+      ...publication,
+    });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return NextResponse.json({ error: message }, { status: message.includes("does not exist") ? 404 : 422 });
   }
-
-  const filePath = lessonFilePath(lessonId);
-  if (!filePath) {
-    return NextResponse.json({ error: "Invalid lesson ID format" }, { status: 400 });
-  }
-
-  let fileDeleted = false;
-  if (existsSync(filePath)) {
-    await unlink(filePath);
-    fileDeleted = true;
-  }
-
-  // Remove from registry so it no longer appears in the curriculum
-  removeFromRegistry(lessonId);
-  await removePublishedLesson(lessonId);
-  await revalidatePublishedCurriculumRoutes();
-
-  return NextResponse.json({
-    ok: true,
-    message: fileDeleted
-      ? `Lesson ${lessonId} deleted.`
-      : `Lesson ${lessonId} removed from curriculum records.`,
-  });
 }
