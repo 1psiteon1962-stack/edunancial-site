@@ -270,6 +270,26 @@ test("published track catalogs apply package-scoped translations used by recover
   invalidateTranslationPackageCache();
 });
 
+test("production ignores the legacy test-write opt-in and fails closed", async () => {
+  const originalNodeEnv = TEST_ENV["NODE_ENV"];
+  TEST_ENV["NODE_ENV"] = "production";
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: {
+    [TRANSLATION_TEST_LESSON_ID]: { id: TRANSLATION_TEST_LESSON_ID, track: "GOLD", trackName: "Investing", level: 5, lessonNumber: 99, title: "Understanding Net Worth", summary: "English summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/GOLD/L5/GOLD-L5-099.md", body: "English body", frontMatter: {} }
+  }, batchLessonIds: {} }, null, 2), "utf8");
+  try {
+    await assert.rejects(
+      () => importPublishedLessonTranslations([
+        { lessonId: TRANSLATION_TEST_LESSON_ID, locale: "es", title: "Comprender tu patrimonio neto" },
+      ]),
+      /Atomic translation publication is unavailable; refusing legacy full-state fallback\./u,
+    );
+  } finally {
+    if (originalNodeEnv === undefined) delete TEST_ENV["NODE_ENV"];
+    else TEST_ENV["NODE_ENV"] = originalNodeEnv;
+  }
+});
+
 test("importPublishedLessonTranslations merges locale entries into published lessons", async () => {
   mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
   writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: {
