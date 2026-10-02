@@ -1,0 +1,60 @@
+name: Neon KPI Events Test
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "db/neon/20261002_kpi_events.sql"
+      - "src/lib/kpi/repository.ts"
+      - "src/lib/kpi/legacy-supabase.ts"
+      - "src/app/api/kpi/track/route.ts"
+      - "src/app/admin/kpi/page.tsx"
+      - ".github/workflows/neon-kpi-events-test.yml"
+  workflow_dispatch:
+
+jobs:
+  migration-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: edunancial_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d edunancial_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      PGPASSWORD: postgres
+      DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/edunancial_test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply KPI migration twice
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_kpi_events.sql
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_kpi_events.sql
+      - name: Verify KPI table
+        run: |
+          test "$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name='kpi_events';")" = "1"
+      - name: Verify KPI insert and JSON metadata
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into kpi_events (
+            site_id, site_region, event_name, session_id, path, metadata
+          ) values (
+            'ci-site', 'US', 'page_view', 'ci-session', '/ci', '{"source":"ci"}'::jsonb
+          );
+          do $$
+          begin
+            if (select count(*) from kpi_events where session_id='ci-session') <> 1 then
+              raise exception 'KPI insert failed';
+            end if;
+            if (select metadata->>'source' from kpi_events where session_id='ci-session' limit 1) <> 'ci' then
+              raise exception 'KPI metadata JSON failed';
+            end if;
+          end $$;
+          SQL
