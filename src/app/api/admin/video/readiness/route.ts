@@ -1,8 +1,10 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { getNeonSql, readDatabaseUrl } from "@/lib/db/neon";
 import { signWorkerRequest } from "@/lib/video-pipeline/hmac";
+import { probeVideoStorageAccess } from "@/lib/video/storage-client";
+import { readVideoStorageConfig } from "@/lib/video/storage";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -20,30 +22,71 @@ export async function GET(request: NextRequest) {
 
   const checks: ReadinessCheck[] = [];
 
-  // Supabase is retained as a compatibility/persistence layer for existing video
-  // metadata and media. It must not make the Video Maker appear unusable when the
-  // Railway worker itself is configured and healthy.
-  try {
-    const supabase = getSupabaseAdminClient();
-    const tableNames = ["video_projects", "video_assets", "video_jobs", "video_scenes", "video_audio_tracks"] as const;
-    for (const table of tableNames) {
-      const { error } = await supabase.from(table).select("id", { head: true, count: "exact" }).limit(1);
-      checks.push({ id: `table:${table}`, label: `Compatibility database table: ${table}`, ok: !error, optional: true, detail: error ? `Optional Supabase metadata unavailable: ${error.message}` : "Available" });
-    }
+  const databaseUrl = readDatabaseUrl();
+  checks.push({
+    id: "config:video-database",
+    label: "Video metadata database",
+    ok: Boolean(databaseUrl),
+    detail: databaseUrl ? "Neon/Postgres configured" : "DATABASE_URL or NETLIFY_DATABASE_URL is not configured",
+  });
 
-    const { data: buckets, error: bucketError } = await supabase.storage.listBuckets();
-    const bucketNames = new Set((buckets ?? []).map((bucket) => bucket.name));
-    for (const bucket of ["raw-videos", "processed-videos"] as const) {
-      const exists = !bucketError && bucketNames.has(bucket);
-      checks.push({ id: `bucket:${bucket}`, label: `Compatibility storage bucket: ${bucket}`, ok: exists, optional: true, detail: bucketError ? `Optional Supabase storage unavailable: ${bucketError.message}` : exists ? "Available" : "Optional bucket missing" });
-      if (exists) {
-        const probePath = `.readiness/${crypto.randomUUID()}.probe`;
-        const { data, error } = await supabase.storage.from(bucket).createSignedUploadUrl(probePath);
-        checks.push({ id: `bucket-write:${bucket}`, label: `Compatibility storage upload: ${bucket}`, ok: !error && Boolean(data?.signedUrl), optional: true, detail: error ? `Optional Supabase upload unavailable: ${error.message}` : data?.signedUrl ? "Signed upload available" : "Optional signed upload URL unavailable" });
+  if (databaseUrl) {
+    try {
+      const sql = getNeonSql();
+      if (!sql) throw new Error("Video database client could not be initialized.");
+      const rows = await sql`
+        select
+          to_regclass('public.video_r2_projects')::text as projects,
+          to_regclass('public.video_r2_assets')::text as assets,
+          to_regclass('public.video_r2_scenes')::text as scenes,
+          to_regclass('public.video_r2_audio_tracks')::text as audio_tracks,
+          to_regclass('public.video_r2_jobs')::text as jobs
+      `;
+      const row = rows[0] as Record<string, unknown> | undefined;
+      for (const [key, label] of [
+        ["projects", "video_r2_projects"],
+        ["assets", "video_r2_assets"],
+        ["scenes", "video_r2_scenes"],
+        ["audio_tracks", "video_r2_audio_tracks"],
+        ["jobs", "video_r2_jobs"],
+      ] as const) {
+        const ok = Boolean(row?.[key]);
+        checks.push({
+          id: `table:${label}`,
+          label: `Neon table: ${label}`,
+          ok,
+          detail: ok ? "Available" : "Missing; apply the Video R2 Neon migration",
+        });
       }
+    } catch (error) {
+      checks.push({
+        id: "database:video-r2",
+        label: "Video R2 database connectivity",
+        ok: false,
+        detail: error instanceof Error ? error.message : "Video R2 database check failed",
+      });
     }
-  } catch (error) {
-    checks.push({ id: "supabase:compatibility", label: "Supabase compatibility layer", ok: false, optional: true, detail: error instanceof Error ? `Optional compatibility layer unavailable: ${error.message}` : "Optional compatibility layer unavailable" });
+  }
+
+  const storageConfig = readVideoStorageConfig();
+  checks.push({
+    id: "config:video-storage",
+    label: "Video object storage",
+    ok: Boolean(storageConfig),
+    detail: storageConfig ? `Configured bucket: ${storageConfig.bucket}` : "VIDEO_R2_* storage configuration is incomplete",
+  });
+  if (storageConfig) {
+    try {
+      const probe = await probeVideoStorageAccess(undefined, storageConfig);
+      checks.push({ id: "storage:access", label: "Video object storage access", ok: probe.accessible, detail: `Accessible: ${probe.bucket}` });
+    } catch (error) {
+      checks.push({
+        id: "storage:access",
+        label: "Video object storage access",
+        ok: false,
+        detail: error instanceof Error ? error.message : "Video object storage access check failed",
+      });
+    }
   }
 
   const baseUrl = workerBaseUrl();
@@ -83,5 +126,5 @@ export async function GET(request: NextRequest) {
   checks.push({ id: "worker:health", label: "Video worker health", ok: healthOk, detail: healthDetail });
 
   const ready = checks.filter((check) => !check.optional).every((check) => check.ok);
-  return Response.json({ success: true, ready, checkedAt: new Date().toISOString(), checks }, { headers: { "Cache-Control": "private, no-store, max-age=0" } });
+  return Response.json({ success: true, ready, architecture: "neon+r2+railway", checkedAt: new Date().toISOString(), checks }, { headers: { "Cache-Control": "private, no-store, max-age=0" } });
 }
