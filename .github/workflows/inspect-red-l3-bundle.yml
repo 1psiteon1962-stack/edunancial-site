@@ -1,0 +1,38 @@
+name: Inspect RED L3 All Locales Bundle
+
+on:
+  push:
+    branches:
+      - diagnostic/live-curriculum-matrix
+    paths:
+      - '.github/workflows/inspect-red-l3-bundle.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch storage branch
+        run: git fetch origin admin-content-storage:refs/heads/admin-content-storage
+      - name: Inspect nested bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          path='.edunancial-admin-content/uploads/courses/batch_4c3c7959-e65a-4c4e-b1fb-6c4337fac611/upload_88efc983-1fc6-4942-8278-a4971de3f006-red-l3-all-locales.zip'
+          git show "admin-content-storage:$path" > /tmp/red-l3-all-locales.zip
+          echo "OUTER CONTENTS"
+          unzip -l /tmp/red-l3-all-locales.zip
+          mkdir -p /tmp/red-l3-bundle
+          unzip -q /tmp/red-l3-all-locales.zip -d /tmp/red-l3-bundle
+          echo "NESTED ZIP DETAILS"
+          find /tmp/red-l3-bundle -type f -name '*.zip' -print0 | while IFS= read -r -d '' z; do
+            echo "=== $(basename "$z") ==="
+            unzip -Z1 "$z" | head -20
+            echo "COUNT=$(unzip -Z1 "$z" | grep -Ei '\.(md|json)$' | wc -l)"
+          done
