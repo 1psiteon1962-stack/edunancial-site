@@ -1,4 +1,4 @@
-import { GetObjectCommand, HeadObjectCommand, PutObjectCommand, S3Client, type S3ClientConfig } from "@aws-sdk/client-s3";
+import { GetObjectCommand, HeadObjectCommand, ListObjectsV2Command, PutObjectCommand, S3Client, type S3ClientConfig } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { requireVideoStorageConfig, type VideoStorageConfig } from "./storage";
 
@@ -57,4 +57,14 @@ export async function presignVideoDownload(
     new GetObjectCommand({ Bucket: config.bucket, Key: key }),
     { expiresIn: requireVideoSignedUrlExpiry(expiresIn) },
   );
+}
+
+
+export async function probeVideoStorageAccess(
+  client?: S3Client,
+  config: VideoStorageConfig = requireVideoStorageConfig(),
+): Promise<{ bucket: string; accessible: true }> {
+  const storageClient = client ?? createVideoStorageClient(config);
+  await storageClient.send(new ListObjectsV2Command({ Bucket: config.bucket, MaxKeys: 1 }));
+  return { bucket: config.bucket, accessible: true };
 }
