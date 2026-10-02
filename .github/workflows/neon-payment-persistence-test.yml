@@ -1,0 +1,66 @@
+name: Neon Payment Persistence Test
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "db/neon/20261002_square_payment_persistence.sql"
+      - "src/lib/payments/persistence.ts"
+      - "src/lib/payments/webhookIdempotency.ts"
+      - ".github/workflows/neon-payment-persistence-test.yml"
+  workflow_dispatch:
+
+jobs:
+  migration-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: edunancial_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d edunancial_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      PGPASSWORD: postgres
+      DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/edunancial_test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply payment migration twice
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_square_payment_persistence.sql
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20261002_square_payment_persistence.sql
+      - name: Verify required payment tables
+        run: |
+          test "$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name in ('payment_catalog_items','orders','webhook_events');")" = "3"
+      - name: Verify order idempotency
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into payment_catalog_items (id,name,item_type,price,active) values ('ci-item','CI Item','course',1.00,true);
+          insert into orders (catalog_item_id,amount_requested,idempotency_key) values ('ci-item',1.00,'ci-order');
+          insert into orders (catalog_item_id,amount_requested,idempotency_key) values ('ci-item',1.00,'ci-order')
+            on conflict (idempotency_key) do update set amount_requested=excluded.amount_requested;
+          do $$
+          begin
+            if (select count(*) from orders where idempotency_key='ci-order') <> 1 then
+              raise exception 'order idempotency failed';
+            end if;
+          end $$;
+          SQL
+      - name: Verify webhook duplicate protection
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          insert into webhook_events (event_id,event_type) values ('ci-event','payment.updated');
+          insert into webhook_events (event_id,event_type) values ('ci-event','payment.updated') on conflict (event_id) do nothing;
+          do $$
+          begin
+            if (select count(*) from webhook_events where event_id='ci-event') <> 1 then
+              raise exception 'webhook idempotency failed';
+            end if;
+          end $$;
+          SQL

@@ -1,11 +1,8 @@
 import type { PaymentCatalogItem } from "@/lib/payments/catalog";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { getNeonSql, readDatabaseUrl } from "@/lib/db/neon";
 
 export function hasPaymentPersistenceConfig() {
-  return Boolean(
-    (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").trim() &&
-      (process.env.SUPABASE_SERVICE_ROLE_KEY ?? "").trim(),
-  );
+  return Boolean(readDatabaseUrl());
 }
 
 export async function persistCheckoutInitiation(input: {
@@ -20,56 +17,50 @@ export async function persistCheckoutInitiation(input: {
   idempotencyKey: string;
   metadata?: Record<string, unknown>;
 }) {
-  if (!hasPaymentPersistenceConfig()) {
-    throw new Error("Square payment persistence is not configured.");
-  }
+  const sql = getNeonSql();
+  if (!sql) throw new Error("Square payment persistence is not configured.");
 
-  const admin = getSupabaseAdminClient();
-  const { error: catalogError } = await admin.from("payment_catalog_items").upsert(
-    {
-      id: input.item.id,
-      name: input.item.name,
-      description: input.item.description,
-      item_type: input.item.type,
-      price: input.item.price,
-      currency: input.item.currency.toUpperCase(),
-      is_recurring: input.item.isRecurring,
-      recurring_interval: input.item.recurringInterval ?? null,
-      membership_plan_id: input.item.membershipPlanId ?? null,
-      content_id: input.item.contentId ?? null,
-      active: input.item.active,
-      metadata: input.item.metadata ?? null,
-    },
-    { onConflict: "id" },
-  );
-  if (catalogError) {
-    throw new Error(`Unable to persist Square catalog item: ${catalogError.message}`);
-  }
+  await sql`
+    insert into payment_catalog_items
+      (id,name,description,item_type,price,currency,is_recurring,recurring_interval,
+       membership_plan_id,content_id,active,metadata)
+    values
+      (${input.item.id},${input.item.name},${input.item.description ?? null},${input.item.type},
+       ${input.item.price},${input.item.currency.toUpperCase()},${input.item.isRecurring},
+       ${input.item.recurringInterval ?? null},${input.item.membershipPlanId ?? null},
+       ${input.item.contentId ?? null},${input.item.active},
+       ${JSON.stringify(input.item.metadata ?? null)}::jsonb)
+    on conflict (id) do update set
+      name=excluded.name, description=excluded.description, item_type=excluded.item_type,
+      price=excluded.price, currency=excluded.currency, is_recurring=excluded.is_recurring,
+      recurring_interval=excluded.recurring_interval, membership_plan_id=excluded.membership_plan_id,
+      content_id=excluded.content_id, active=excluded.active, metadata=excluded.metadata,
+      updated_at=now()
+  `;
 
-  const { data, error } = await admin
-    .from("orders")
-    .upsert(
-      {
-        catalog_item_id: input.item.id,
-        customer_email: input.customerEmail?.trim().toLowerCase() || null,
-        status: "pending",
-        amount_requested: input.amountRequested,
-        currency: input.currency.toUpperCase(),
-        discount_code: input.discountCode?.trim() || null,
-        discount_amount: input.discountAmount ?? 0,
-        square_payment_link_id: input.squarePaymentLinkId ?? null,
-        square_order_id: input.squareOrderId ?? null,
-        idempotency_key: input.idempotencyKey,
-        metadata: input.metadata ?? null,
-      },
-      { onConflict: "idempotency_key" },
-    )
-    .select("id,square_order_id")
-    .single();
+  const rows = await sql`
+    insert into orders
+      (catalog_item_id,customer_email,status,amount_requested,currency,discount_code,
+       discount_amount,square_payment_link_id,square_order_id,idempotency_key,metadata)
+    values
+      (${input.item.id},${input.customerEmail?.trim().toLowerCase() || null},'pending',
+       ${input.amountRequested},${input.currency.toUpperCase()},${input.discountCode?.trim() || null},
+       ${input.discountAmount ?? 0},${input.squarePaymentLinkId ?? null},${input.squareOrderId ?? null},
+       ${input.idempotencyKey},${JSON.stringify(input.metadata ?? null)}::jsonb)
+    on conflict (idempotency_key) do update set
+      catalog_item_id=excluded.catalog_item_id,
+      customer_email=excluded.customer_email,
+      amount_requested=excluded.amount_requested,
+      currency=excluded.currency,
+      discount_code=excluded.discount_code,
+      discount_amount=excluded.discount_amount,
+      square_payment_link_id=excluded.square_payment_link_id,
+      square_order_id=excluded.square_order_id,
+      metadata=excluded.metadata,
+      updated_at=now()
+    returning id,square_order_id
+  `;
 
-  if (error || !data) {
-    throw new Error(`Unable to persist Square checkout order: ${error?.message ?? "unknown error"}`);
-  }
-
-  return data;
+  if (!rows[0]) throw new Error("Unable to persist Square checkout order: no row returned.");
+  return rows[0];
 }
