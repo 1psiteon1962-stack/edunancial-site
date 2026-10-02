@@ -45,9 +45,11 @@ function loadExpectations(){
       const m=levelName.match(/^L([1-5])$/u); if(!m)continue;
       const levelDir=join(trackDir,levelName); if(!statSync(levelDir).isDirectory())continue;
       for(const filename of readdirSync(levelDir).filter(name=>name.toLowerCase().endsWith(".md")).sort()){
+        const canonicalName=filename.match(/^[A-Z]+-L[1-5]-\d{3}(?:\.([^.]+))?\.md$/iu);
+        if(!canonicalName)continue;
         const fm=parseLessonMetadata(readFileSync(join(levelDir,filename),"utf8"));
-        if(!fm.id||!fm.title||!fm.locale)throw new Error(`Unable to derive lesson id/title/locale from ${track}/${levelName}/${filename}`);
-        const locale=fm.locale;
+        if(!fm.id||!fm.title)throw new Error(`Unable to derive lesson id/title from ${track}/${levelName}/${filename}`);
+        const locale=fm.locale||canonicalName[1]||"en-US";
         if(["en","en-US","en_us"].includes(locale))continue;
         const list=byLocale.get(locale)||[];
         list.push({track:track.toUpperCase(),level:Number(m[1]),locale,id:fm.id.toUpperCase(),title:fm.title,path:`${track}/${levelName}/${filename}`});
