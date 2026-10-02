@@ -329,13 +329,14 @@ export type StoredUploadEntry = {
 };
 
 /**
- * Finalize an upload batch whose files were already written directly to storage
- * (via signed Supabase upload URLs).  Reads each file from storage, validates
- * it, extracts ZIP contents, and creates the review batch — without requiring
- * the file bytes to pass through the Netlify serverless function request body.
+ * Finalize an upload batch whose files were already written to the configured
+ * persistent upload storage. Reads each file from storage, validates it,
+ * extracts ZIP contents, and creates the review batch without requiring the
+ * file bytes to pass through the Netlify serverless function request body.
  *
- * This is the server-side counterpart to the two-phase upload flow that
- * bypasses Netlify's 6 MB function request-body limit.
+ * This is the server-side counterpart to the GitHub-backed two-phase upload
+ * flow that bypasses Netlify's request-body limit. No Supabase storage service
+ * is required by this finalization path.
  */
 export async function createUploadBatchFromStoredFiles(
   request: Request,
