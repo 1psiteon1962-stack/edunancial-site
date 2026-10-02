@@ -4,18 +4,18 @@ import type { PublishedLessonRecord, PublishedLessonTranslation } from "@/lib/cu
  * Learner-safety classifier for translations already stored in the repository
  * or durable publication stores.
  *
- * A stored translation is publishable when it contains a real body and is not
- * one of the explicit placeholder records used by older recovery tooling.
- * Do not reject an otherwise valid localized lesson merely because its body is
- * shorter than the canonical English lesson. That length heuristic hid large
- * portions of the existing Level 2 corpus and forced English fallback even
- * though localized files were present.
+ * Existing partial-translation behavior for Levels other than 2 is preserved.
+ * For Level 2, require a real body and reject only explicit legacy placeholder
+ * records. Do not hide a real stored Level 2 translation merely because it is
+ * shorter than the canonical English lesson.
  */
 export function isLearnerReadyTranslation(
-  _lesson: PublishedLessonRecord,
+  lesson: PublishedLessonRecord,
   translation: PublishedLessonTranslation | undefined,
 ): translation is PublishedLessonTranslation {
   if (!translation) return false;
+
+  if (lesson.level !== 2) return true;
 
   const body = translation.body?.trim();
   if (!body) return false;
