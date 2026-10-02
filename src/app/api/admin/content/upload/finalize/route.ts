@@ -53,11 +53,12 @@ export async function POST(request: NextRequest) {
     const trustedLocalized = isTrustedLocalizedLevel1Identity(packageIdentity);
     const trustedCanonical = isTrustedCanonicalCurriculumIdentity(packageIdentity);
 
-    if (!trustedLocalized && !trustedCanonical) {
-      const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, upload.uploadId);
-      if (existingReviewBatchId) {
-        return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
-      }
+    // Finalization is idempotent for every stored package, including trusted
+    // curriculum. Retrying a successful trusted upload must not create a second
+    // review batch, atomic publication, or Git publication PR.
+    const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, upload.uploadId);
+    if (existingReviewBatchId) {
+      return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     }
 
     const reviewBatchId = createId("batch");
