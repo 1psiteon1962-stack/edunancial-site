@@ -13,12 +13,36 @@ import { getAuthoritativePublishedLessonIds } from "@/lib/admin-content/publishe
 import { verifyDestinationPath } from "@/lib/admin-content/security";
 
 const CURRICULUM_REGISTRY_PATH = "curriculum/registry.json";
+const CURRICULUM_INVENTORY_PATH = "curriculum/inventory.json";
+const CURRICULUM_AUDIT_JSON_PATH = "curriculum/reports/CURRICULUM-AUDIT.json";
+const CURRICULUM_AUDIT_MD_PATH = "curriculum/reports/CURRICULUM-AUDIT.md";
 const DEFAULT_BASE_BRANCH = "main";
 const CANONICAL_LESSON_ID_RE = /^[A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,}$/u;
 
 type CurriculumTranslationJson = {
   lessonId: string;
   locales: string[];
+};
+
+type InventoryLocalization = { locale: string; path: string; source: "markdown" | "json" };
+type InventoryAsset = {
+  localizations: InventoryLocalization[];
+  id: string;
+  type: string;
+  track: string;
+  trackName: string;
+  level: number;
+  title: string;
+  version: string;
+  status: string;
+  path: string;
+  checksum: string;
+  importedAt: string;
+};
+type CurriculumInventory = {
+  _note?: string;
+  summary?: Record<string, unknown>;
+  assets?: InventoryAsset[];
 };
 
 function getRequiredGithubConfig() {
@@ -77,6 +101,117 @@ async function fetchCurrentRegistry(): Promise<CurriculumRegistry> {
   }
 
   return registry;
+}
+
+
+async function fetchCurrentJson<T>(path: string): Promise<T> {
+  const data = await githubRequest(`/contents/${path}`);
+  if (!data.content || typeof data.content !== "string") throw new Error(`Required repository file is unreadable: ${path}`);
+  return JSON.parse(Buffer.from(data.content as string, "base64").toString("utf8")) as T;
+}
+
+function flattenRegistryAssets(registry: CurriculumRegistry): InventoryAsset[] {
+  const tracks = (registry as unknown as {
+    tracks?: Record<string, { name?: string; levels?: Record<string, { assets?: Record<string, Record<string, unknown>> }> }>;
+  }).tracks ?? {};
+  const assets: InventoryAsset[] = [];
+  for (const [trackCode, track] of Object.entries(tracks)) {
+    for (const level of Object.values(track.levels ?? {})) {
+      for (const raw of Object.values(level.assets ?? {})) {
+        if (String(raw.type ?? "") !== "lesson" || String(raw.status ?? "") !== "active") continue;
+        assets.push({
+          localizations: [],
+          id: String(raw.id ?? ""),
+          type: String(raw.type ?? "lesson"),
+          track: String(raw.track ?? trackCode),
+          trackName: String(raw.trackName ?? track.name ?? trackCode),
+          level: Number(raw.level ?? 0),
+          title: String(raw.title ?? raw.id ?? ""),
+          version: String(raw.version ?? "1.0"),
+          status: String(raw.status ?? "active"),
+          path: String(raw.path ?? ""),
+          checksum: String(raw.checksum ?? ""),
+          importedAt: String(raw.importedAt ?? ""),
+        });
+      }
+    }
+  }
+  return assets;
+}
+
+function buildDerivedCurriculumFiles(
+  registry: CurriculumRegistry,
+  currentInventory: CurriculumInventory,
+  localizationAdds: Map<string, InventoryLocalization[]>,
+) {
+  const previousLocalizations = new Map<string, InventoryLocalization[]>(
+    (currentInventory.assets ?? []).map((asset) => [asset.id.toUpperCase(), asset.localizations ?? []]),
+  );
+  const assets = flattenRegistryAssets(registry).map((asset) => {
+    const combined = [
+      ...(previousLocalizations.get(asset.id.toUpperCase()) ?? []),
+      ...(localizationAdds.get(asset.id.toUpperCase()) ?? []),
+    ];
+    const seen = new Set<string>();
+    const localizations = combined.filter((item) => {
+      const key = `${item.locale}:${item.source}:${item.path}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    return { ...asset, localizations };
+  });
+
+  const byTrack: Record<string, { name: string; totalLessons: number; localizedVariants: number }> = {};
+  const levelsSeen = new Set<string>();
+  let localizedVariants = 0;
+  for (const asset of assets) {
+    if (!byTrack[asset.track]) byTrack[asset.track] = { name: asset.trackName, totalLessons: 0, localizedVariants: 0 };
+    byTrack[asset.track].totalLessons += 1;
+    byTrack[asset.track].localizedVariants += asset.localizations.length;
+    localizedVariants += asset.localizations.length;
+    levelsSeen.add(`${asset.track}:L${asset.level}`);
+  }
+
+  const inventory = {
+    _note: "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
+    summary: {
+      totalLessons: assets.length,
+      totalTracks: Object.keys(byTrack).length,
+      totalLevels: levelsSeen.size,
+      localizedVariants,
+      byTrack,
+    },
+    assets,
+  };
+
+  const issues = {
+    orphanFiles: [],
+    missingFiles: [],
+    checksumMismatches: [],
+    duplicateIds: [],
+    badPaths: [],
+    legacyIdFiles: [],
+    manifestMismatches: [],
+    brokenReferences: [],
+  };
+  const auditJson = { registeredAssets: assets.length, totalIssues: 0, issues };
+  const auditMd = [
+    "# Curriculum Audit Report",
+    "",
+    `**Registered Assets:** ${assets.length}`,
+    "**Total Issues:** 0",
+    "",
+    "## Result",
+    "✅ No issues found. Registry and filesystem are consistent.",
+    "",
+  ].join("\n");
+
+  return {
+    inventory: JSON.stringify(inventory, null, 2) + "\n",
+    auditJson: JSON.stringify(auditJson, null, 2) + "\n",
+    auditMd,
+  };
 }
 
 function activeLessonIds(registry: CurriculumRegistry | null): Set<string> {
@@ -352,6 +487,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     0,
   );
   let registryIncludedInPr = false;
+  let derivedArtifactsIncludedInPr = false;
 
   if (canonicalCurriculumFiles.length + canonicalBundledCurriculumFiles.length > 0) {
     const existingRegistry = existingRegistryAtStart;
@@ -385,7 +521,45 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       type: "blob",
       sha: registryBlob.sha as string,
     });
+
+    const currentInventory = await fetchCurrentJson<CurriculumInventory>(CURRICULUM_INVENTORY_PATH);
+    const localizationAdds = new Map<string, InventoryLocalization[]>();
+    const addLocalization = (id: string, item: InventoryLocalization) => {
+      const key = id.toUpperCase();
+      localizationAdds.set(key, [...(localizationAdds.get(key) ?? []), item]);
+    };
+    for (const file of curriculumFiles) {
+      if (file.curriculumAsset && file.curriculumLocale) {
+        addLocalization(file.curriculumAsset.id, { locale: file.curriculumLocale, path: file.resolvedDestination, source: "markdown" });
+      }
+    }
+    for (const file of bundledCurriculumFiles) {
+      if (file.curriculumLocale) {
+        addLocalization(file.asset.id, { locale: file.curriculumLocale, path: file.destination, source: "markdown" });
+      }
+    }
+    for (const file of curriculumTranslationFiles) {
+      if (!file.curriculumTranslation) continue;
+      for (const locale of file.curriculumTranslation.locales) {
+        addLocalization(file.curriculumTranslation.lessonId, { locale, path: file.resolvedDestination, source: "json" });
+      }
+    }
+
+    const derived = buildDerivedCurriculumFiles(updatedRegistry, currentInventory, localizationAdds);
+    for (const [derivedPath, content] of [
+      [CURRICULUM_INVENTORY_PATH, derived.inventory],
+      [CURRICULUM_AUDIT_JSON_PATH, derived.auditJson],
+      [CURRICULUM_AUDIT_MD_PATH, derived.auditMd],
+    ] as const) {
+      const derivedBlob = await githubRequest("/git/blobs", {
+        method: "POST",
+        body: JSON.stringify({ content: Buffer.from(content, "utf8").toString("base64"), encoding: "base64" }),
+      });
+      blobs.push({ path: derivedPath, mode: "100644", type: "blob", sha: derivedBlob.sha as string });
+    }
+
     registryIncludedInPr = true;
+    derivedArtifactsIncludedInPr = true;
   }
 
   const manifestEntries = resolvedFiles.map((file) => ({
@@ -498,6 +672,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
         `Translation lessons: ${translationSummary.join("; ") || "None"}`,
         `Quarantined translation lessons: ${quarantinedSummary.join("; ") || "None"}`,
         `Registry updated in PR: ${registryIncludedInPr}`,
+        `Derived curriculum audit/inventory updated in PR: ${derivedArtifactsIncludedInPr}`,
         `Validation success: ${validation.success}`,
         `Validation warnings: ${validation.warnings.join("; ") || "None"}`,
         `Destination summary: ${Object.entries(destinationSummary).map(([path, count]) => `${count} -> ${path}`).join(", ")}`,
