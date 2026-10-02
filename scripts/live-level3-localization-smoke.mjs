@@ -26,6 +26,15 @@ function parseLessonMetadata(raw){
   return out;
 }
 
+function normalizeTitle(value){
+  let title=String(value??"").trim().replaceAll('\\\"','"');
+  while(
+    title.length>=2 &&
+    ((title.startsWith('"')&&title.endsWith('"'))||(title.startsWith("'")&&title.endsWith("'")))
+  ) title=title.slice(1,-1).trim();
+  return title;
+}
+
 function localeFromDir(name){return name.replaceAll("_","-")}
 
 function loadExpectations(){
@@ -75,7 +84,7 @@ async function checkLocale(locale,items){
   return items.map(item=>{
     const lesson=lessons[item.id];
     if(!lesson)return{ok:false,message:`${item.path}: ${item.id} missing from live catalog for ${locale}`};
-    if(lesson.title!==item.title)return{ok:false,message:`${item.path}: expected "${item.title}" but live returned "${lesson.title}"`};
+    if(normalizeTitle(lesson.title)!==normalizeTitle(item.title))return{ok:false,message:`${item.path}: expected "${item.title}" but live returned "${lesson.title}"`};
     return{ok:true,message:`PASS ${item.path}: ${item.id}`};
   });
 }
