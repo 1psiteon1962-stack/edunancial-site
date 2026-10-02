@@ -1,5 +1,4 @@
 name: Live Curriculum Matrix Diagnostic
-
 on:
   push:
     branches:
@@ -106,3 +105,5 @@ jobs:
             live-curriculum-matrix.md
 
 # rerun after PR 1048 production deploy
+
+# rerun after production curriculum repairs
