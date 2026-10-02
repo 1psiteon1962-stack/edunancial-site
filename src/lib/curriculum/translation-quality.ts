@@ -1,33 +1,26 @@
 import type { PublishedLessonRecord, PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
 
 /**
- * Transitional learner-safety classifier.
+ * Learner-safety classifier for translations already stored in the repository
+ * or durable publication stores.
  *
- * Phase 0 classifies only the recovered Level 2 locale corpus. Existing
- * localization behavior for every other level remains unchanged, including
- * valid partial translations whose missing fields fall back to English.
+ * A stored translation is publishable when it contains a real body and is not
+ * one of the explicit placeholder records used by older recovery tooling.
+ * Do not reject an otherwise valid localized lesson merely because its body is
+ * shorter than the canonical English lesson. That length heuristic hid large
+ * portions of the existing Level 2 corpus and forced English fallback even
+ * though localized files were present.
  */
 export function isLearnerReadyTranslation(
-  lesson: PublishedLessonRecord,
+  _lesson: PublishedLessonRecord,
   translation: PublishedLessonTranslation | undefined,
 ): translation is PublishedLessonTranslation {
   if (!translation) return false;
-
-  if (lesson.level !== 2) return true;
 
   const body = translation.body?.trim();
   if (!body) return false;
 
   if (/^Localized curriculum content for\b/iu.test(body)) return false;
-
-  const canonicalBody = lesson.body.trim();
-  if (
-    canonicalBody.length >= 2000 &&
-    body.length < 1500 &&
-    body.length < canonicalBody.length * 0.5
-  ) {
-    return false;
-  }
 
   return true;
 }
