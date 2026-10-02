@@ -1,8 +1,9 @@
 import { NextRequest } from "next/server";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
-import { createWorkerMediaUrl } from "@/lib/video/worker-media";
+import { createVideoR2PendingAsset, createVideoR2Project } from "@/lib/video/repository";
+import { presignVideoUpload } from "@/lib/video/storage-client";
+import { videoSourceKey } from "@/lib/video/storage";
 
 export const maxDuration = 26;
 
@@ -11,6 +12,11 @@ function safeFilename(value: string) {
   const safe = base.replace(/[^a-zA-Z0-9._-]/gu, "-").replace(/-+/gu, "-");
   if (!safe || safe.length > 180) throw new Error("Invalid source filename.");
   return safe;
+}
+function extensionFromFilename(fileName: string) {
+  const ext = fileName.includes(".") ? fileName.split(".").pop() ?? "" : "";
+  if (!/^[a-z0-9]{1,10}$/iu.test(ext)) throw new Error("Source filename must include a supported extension.");
+  return ext;
 }
 
 export async function POST(request: NextRequest) {
@@ -26,15 +32,34 @@ export async function POST(request: NextRequest) {
     if (!(mimeType.startsWith("video/") || mimeType.startsWith("image/"))) throw new Error("A supported image or video MIME type is required.");
     if (!Number.isSafeInteger(byteSize) || byteSize <= 0) throw new Error("A valid source byte size is required.");
 
-    const supabase = getSupabaseAdminClient();
-    const { data: project, error: projectError } = await supabase.from("video_projects").insert({ title, created_by: auth.session.email, status: "draft" }).select("id").single();
-    if (projectError || !project) throw new Error(projectError?.message ?? "Could not create video project.");
-    const storagePath = `projects/${project.id}/raw/${crypto.randomUUID()}-${fileName}`;
-    const assetType = mimeType.startsWith("image/") ? "RAW_IMAGE" : "RAW_VIDEO";
-    const { data: asset, error: assetError } = await supabase.from("video_assets").insert({ project_id: project.id, asset_type: assetType, storage_bucket: "worker-media", storage_path: storagePath, original_filename: fileName, mime_type: mimeType, byte_size: byteSize }).select("id").single();
-    if (assetError || !asset) { await supabase.from("video_projects").delete().eq("id", project.id); throw new Error(assetError?.message ?? "Could not create source asset."); }
-    const signedUploadUrl = createWorkerMediaUrl(storagePath, "PUT", 3600);
-    return Response.json({ success: true, projectId: project.id, assetId: asset.id, storagePath, signedUploadUrl }, { headers: { "Cache-Control": "private, no-store" } });
+    const project = await createVideoR2Project({
+      title,
+      ownerEmail: auth.session.email,
+      purpose: "marketing",
+      defaultLocale: "en-US",
+      outputProfile: "vertical_1080x1920",
+    });
+    if (!project?.id) throw new Error("Could not create video project.");
+
+    const assetId = crypto.randomUUID();
+    const storageKey = videoSourceKey(String(project.id), assetId, extensionFromFilename(fileName));
+    const asset = await createVideoR2PendingAsset({
+      id: assetId,
+      projectId: String(project.id),
+      ownerEmail: auth.session.email,
+      kind: mimeType.startsWith("image/") ? "source_image" : "source_video",
+      storageKey,
+      mimeType,
+      byteSize,
+      originalFilename: fileName,
+    });
+    if (!asset?.id) throw new Error("Could not register source asset.");
+
+    const signedUploadUrl = await presignVideoUpload(storageKey, mimeType, 900);
+    return Response.json(
+      { success: true, projectId: project.id, assetId: asset.id, storagePath: storageKey, storageKey, signedUploadUrl },
+      { headers: { "Cache-Control": "private, no-store" } },
+    );
   } catch (error) {
     return Response.json({ success: false, error: error instanceof Error ? error.message : "Video project creation failed." }, { status: 400, headers: { "Cache-Control": "private, no-store" } });
   }
