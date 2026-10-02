@@ -12,6 +12,7 @@
 
 | Branch | Owner | Status | PR # | Notes |
 |--------|-------|--------|------|-------|
+| repair/end-to-end-bulk-publication | ChatGPT | Implementation complete; PR validation pending | pending | Apply recovered translation packages to all learner catalog reads and require durable atomic publication for normal bulk finalization |
 | repair/normalize-localized-frontmatter | ChatGPT | Implementation complete; validation/PR in progress | pending | Normalize quoted localized YAML front-matter values so live learner titles match committed curriculum exactly |
 | repair/one-time-package-recovery-runner | ChatGPT | Implementation complete; validation/PR in progress | pending | One-package-at-a-time recovery runner and bounded GitHub Actions loop for stored curriculum packages |
 
@@ -99,7 +100,7 @@
 
 | PR # | Branch | Owner | Technical Reason | Business Impact | Required Fix | Next Action | Expected Resolution |
 |------|--------|-------|-----------------|----------------|-------------|------------|---------------------|
-| pending | repair/normalize-localized-frontmatter | ChatGPT | Live curriculum smoke reports false mismatches caused by quoted localized front matter | Full production verification cannot distinguish formatting noise from genuine curriculum gaps | Normalize parsed title/summary values and re-run smoke | Merge after all checks, then verify live curriculum | This session |
+| pending | repair/end-to-end-bulk-publication | ChatGPT | Recovered translation packages were visible to individual lesson reads but not track/catalog reads; normal bulk finalize also allowed non-atomic fallback | Bulk uploads could report success while learner catalog still showed English fallback | Overlay package translations in getPublishedTracks and require atomic publication in finalize | Merge after checks; rerun full live matrix; then perform end-to-end bulk durability test | This session |
 
 ---
 
