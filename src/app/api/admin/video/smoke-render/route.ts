@@ -6,12 +6,14 @@ import {
   createVideoR2Job,
   createVideoR2PendingAsset,
   createVideoR2Project,
+  getVideoR2Asset,
+  getVideoR2Job,
   markVideoR2AssetReady,
   markVideoR2JobDispatchFailed,
   replaceVideoR2Composition,
 } from "@/lib/video/repository";
-import { putVideoObject } from "@/lib/video/storage-client";
-import { videoNarrationKey, videoSourceKey } from "@/lib/video/storage";
+import { putVideoObject, verifyVideoObject } from "@/lib/video/storage-client";
+import { videoMusicKey, videoNarrationKey, videoSourceKey } from "@/lib/video/storage";
 import { signWorkerRequest } from "@/lib/video-pipeline/hmac";
 
 export const runtime = "nodejs";
@@ -21,7 +23,6 @@ const SMOKE_PNG = Buffer.from(
   "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
   "base64",
 );
-
 const SMOKE_TRANSCRIPT =
   "Edunancial video pipeline production test. Multilingual narration and vertical rendering are operational.";
 
@@ -32,6 +33,31 @@ function workerBaseUrl() {
     throw new Error("WORKER_BASE_URL must use HTTPS in production.");
   }
   return value;
+}
+
+function createSmokeMusicWav(seconds = 8, sampleRate = 16000) {
+  const samples = seconds * sampleRate;
+  const dataBytes = samples * 2;
+  const out = Buffer.alloc(44 + dataBytes);
+  out.write("RIFF", 0, "ascii");
+  out.writeUInt32LE(36 + dataBytes, 4);
+  out.write("WAVE", 8, "ascii");
+  out.write("fmt ", 12, "ascii");
+  out.writeUInt32LE(16, 16);
+  out.writeUInt16LE(1, 20);
+  out.writeUInt16LE(1, 22);
+  out.writeUInt32LE(sampleRate, 24);
+  out.writeUInt32LE(sampleRate * 2, 28);
+  out.writeUInt16LE(2, 32);
+  out.writeUInt16LE(16, 34);
+  out.write("data", 36, "ascii");
+  out.writeUInt32LE(dataBytes, 40);
+  for (let i = 0; i < samples; i++) {
+    const envelope = Math.min(1, i / (sampleRate * 0.1), (samples - i) / (sampleRate * 0.1));
+    const sample = Math.round(Math.sin((2 * Math.PI * 220 * i) / sampleRate) * 1800 * Math.max(0, envelope));
+    out.writeInt16LE(sample, 44 + i * 2);
+  }
+  return out;
 }
 
 async function generateNarration(locale: string) {
@@ -66,6 +92,7 @@ export async function POST(request: NextRequest) {
 
   try {
     const narration = await generateNarration(locale);
+    const music = createSmokeMusicWav();
 
     const project = await createVideoR2Project({
       title: `Production smoke render ${new Date().toISOString()}`,
@@ -79,11 +106,14 @@ export async function POST(request: NextRequest) {
 
     const imageAssetId = crypto.randomUUID();
     const narrationAssetId = crypto.randomUUID();
+    const musicAssetId = crypto.randomUUID();
     const imageKey = videoSourceKey(projectId, imageAssetId, "png");
     const narrationKey = videoNarrationKey(projectId, narrationAssetId, "mp3");
+    const musicKey = videoMusicKey(projectId, musicAssetId, "wav");
 
     await putVideoObject(imageKey, SMOKE_PNG, "image/png");
     await putVideoObject(narrationKey, narration, "audio/mpeg");
+    await putVideoObject(musicKey, music, "audio/wav");
 
     const imageAsset = await createVideoR2PendingAsset({
       id: imageAssetId,
@@ -106,10 +136,22 @@ export async function POST(request: NextRequest) {
       locale,
       originalFilename: "smoke-narration.mp3",
     });
-    if (!imageAsset?.id || !narrationAsset?.id) throw new Error("Could not register smoke-test assets.");
+    const musicAsset = await createVideoR2PendingAsset({
+      id: musicAssetId,
+      projectId,
+      ownerEmail: auth.session.email,
+      kind: "music",
+      storageKey: musicKey,
+      mimeType: "audio/wav",
+      byteSize: music.length,
+      locale: "und",
+      originalFilename: "smoke-music.wav",
+    });
+    if (!imageAsset?.id || !narrationAsset?.id || !musicAsset?.id) throw new Error("Could not register smoke-test assets.");
 
     await markVideoR2AssetReady(imageAssetId, auth.session.email, { byteSize: SMOKE_PNG.length, mimeType: "image/png" });
     await markVideoR2AssetReady(narrationAssetId, auth.session.email, { byteSize: narration.length, mimeType: "audio/mpeg" });
+    await markVideoR2AssetReady(musicAssetId, auth.session.email, { byteSize: music.length, mimeType: "audio/wav" });
 
     await replaceVideoR2Composition(
       projectId,
@@ -122,13 +164,22 @@ export async function POST(request: NextRequest) {
         transitionType: "cut",
         transitionSeconds: 0.35,
       }],
-      [{
-        assetId: narrationAssetId,
-        role: "narration",
-        locale,
-        transcript: SMOKE_TRANSCRIPT,
-        volume: 1,
-      }],
+      [
+        {
+          assetId: narrationAssetId,
+          role: "narration",
+          locale,
+          transcript: SMOKE_TRANSCRIPT,
+          volume: 1,
+        },
+        {
+          assetId: musicAssetId,
+          role: "music",
+          locale: "und",
+          transcript: null,
+          volume: 0.08,
+        },
+      ],
     );
 
     const composition = {
@@ -143,15 +194,26 @@ export async function POST(request: NextRequest) {
         transitionType: "cut",
         transitionSeconds: 0.35,
       }],
-      audio: [{
-        assetId: narrationAssetId,
-        storageKey: narrationKey,
-        mimeType: "audio/mpeg",
-        role: "narration",
-        locale,
-        transcript: SMOKE_TRANSCRIPT,
-        volume: 1,
-      }],
+      audio: [
+        {
+          assetId: narrationAssetId,
+          storageKey: narrationKey,
+          mimeType: "audio/mpeg",
+          role: "narration",
+          locale,
+          transcript: SMOKE_TRANSCRIPT,
+          volume: 1,
+        },
+        {
+          assetId: musicAssetId,
+          storageKey: musicKey,
+          mimeType: "audio/wav",
+          role: "music",
+          locale: "und",
+          transcript: null,
+          volume: 0.08,
+        },
+      ],
     };
     const serialized = JSON.stringify(composition);
     const compositionHash = createHash("sha256").update(serialized).digest("hex");
@@ -180,11 +242,24 @@ export async function POST(request: NextRequest) {
       },
       body: payload,
       cache: "no-store",
-      signal: AbortSignal.timeout(8000),
+      signal: AbortSignal.timeout(25000),
     });
     if (!workerResponse.ok) {
       const detail = (await workerResponse.text()).slice(0, 500);
       throw new Error(`Worker rejected smoke render (${workerResponse.status}): ${detail || "no response body"}`);
+    }
+
+    const completed = await getVideoR2Job(jobId, auth.session.email) as Record<string, unknown> | null;
+    if (!completed || String(completed.status) !== "succeeded" || typeof completed.output_asset_id !== "string") {
+      throw new Error(`Smoke render did not complete successfully (status: ${String(completed?.status ?? "missing")}).`);
+    }
+    const outputAsset = await getVideoR2Asset(completed.output_asset_id, auth.session.email) as Record<string, unknown> | null;
+    if (!outputAsset?.storage_key || String(outputAsset.mime_type) !== "video/mp4") {
+      throw new Error("Smoke render did not produce a registered MP4 output asset.");
+    }
+    const verified = await verifyVideoObject(String(outputAsset.storage_key));
+    if (verified.byteSize < 1024 || verified.contentType !== "video/mp4") {
+      throw new Error("Smoke render output MP4 failed object validation.");
     }
 
     return Response.json(
@@ -192,16 +267,24 @@ export async function POST(request: NextRequest) {
         success: true,
         projectId,
         jobId,
-        status: "queued",
-        statusUrl: `/api/admin/video/jobs/${jobId}`,
+        status: "succeeded",
         architecture: "neon+r2+railway",
-        expectedOutput: { width: 1080, height: 1920, container: "mp4", narration: locale },
+        downloadUrl: `/api/admin/video/jobs/${jobId}/download`,
+        verifiedOutput: {
+          byteSize: verified.byteSize,
+          contentType: verified.contentType,
+          width: 1080,
+          height: 1920,
+          container: "mp4",
+          narration: locale,
+          backgroundMusic: true,
+        },
       },
-      { status: 202, headers: { "Cache-Control": "private, no-store" } },
+      { status: 200, headers: { "Cache-Control": "private, no-store" } },
     );
   } catch (error) {
     const message = error instanceof Error ? error.message : "Production smoke render failed.";
-    if (jobId) await markVideoR2JobDispatchFailed(jobId, auth.session.email, `Smoke render dispatch failed: ${message}`);
+    if (jobId) await markVideoR2JobDispatchFailed(jobId, auth.session.email, `Smoke render failed: ${message}`);
     return Response.json(
       { success: false, error: message, projectId, jobId },
       { status: 500, headers: { "Cache-Control": "private, no-store" } },
