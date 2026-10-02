@@ -163,7 +163,7 @@ export async function repairAndPublishLocalizedBatch(batch: UploadBatch, options
           updatedLessonIds: written,
           missingLessonIds: [] as string[],
         }))
-      : await importPublishedLessonTranslations(translationRecords, { requireAtomic: false })
+      : await importPublishedLessonTranslations(translationRecords, { requireAtomic: true })
     : { updatedRecords: 0, updatedLessonIds: [], missingLessonIds: [] };
 
   const missing = new Set(missingLessonIds);
