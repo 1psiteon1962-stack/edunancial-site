@@ -62,7 +62,8 @@ jobs:
               ('video_r2_assets'),
               ('video_r2_scenes'),
               ('video_r2_audio'),
-              ('video_r2_jobs')
+              ('video_r2_jobs'),
+              ('kpi_events')
           )
           select e.table_name,
                  case when t.table_name is null then 'MISSING' else 'PRESENT' end as status
@@ -80,7 +81,7 @@ jobs:
               'payment_catalog_items','orders','webhook_events',
               'user_lesson_progress','user_track_progress','course_progress',
               'user_applied_learning_decisions','user_competency_evidence',
-              'video_r2_projects','video_r2_assets','video_r2_scenes','video_r2_audio','video_r2_jobs'
+              'video_r2_projects','video_r2_assets','video_r2_scenes','video_r2_audio','video_r2_jobs','kpi_events'
             )
           order by table_name;
 
