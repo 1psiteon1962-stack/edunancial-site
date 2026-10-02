@@ -104,3 +104,5 @@ jobs:
           path: |
             live-curriculum-matrix.json
             live-curriculum-matrix.md
+
+# rerun after PR 1048 production deploy
