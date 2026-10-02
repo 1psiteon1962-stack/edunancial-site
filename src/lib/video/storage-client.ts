@@ -68,3 +68,21 @@ export async function probeVideoStorageAccess(
   await storageClient.send(new ListObjectsV2Command({ Bucket: config.bucket, MaxKeys: 1 }));
   return { bucket: config.bucket, accessible: true };
 }
+
+
+export async function putVideoObject(
+  key: string,
+  body: Uint8Array,
+  contentType: string,
+  client?: S3Client,
+  config: VideoStorageConfig = requireVideoStorageConfig(),
+): Promise<{ key: string; byteSize: number }> {
+  const storageClient = client ?? createVideoStorageClient(config);
+  await storageClient.send(new PutObjectCommand({
+    Bucket: config.bucket,
+    Key: key,
+    Body: body,
+    ContentType: contentType,
+  }));
+  return { key, byteSize: body.byteLength };
+}
