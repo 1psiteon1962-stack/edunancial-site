@@ -1,0 +1,44 @@
+name: Forensic Curriculum Inventory Diagnostic
+
+on:
+  push:
+    branches:
+      - diagnostic/live-curriculum-matrix
+    paths:
+      - '.github/workflows/forensic-on-demand-diagnostic.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch storage branch
+        run: git fetch origin admin-content-storage:refs/heads/admin-content-storage
+
+      - name: Run forensic inventory
+        run: node scripts/curriculum/forensic-inventory.mjs --json forensic.json
+
+      - name: Print complete-cell matrix
+        run: |
+          node <<'NODE'
+          const r=require('./forensic.json');
+          console.log(JSON.stringify(r.summary,null,2));
+          const complete=Object.entries(r.highWaterMatrix)
+            .filter(([,v])=>v.complete50)
+            .map(([k,v])=>({cell:k,identities:v.identities,candidateVersions:v.candidateVersions}));
+          console.log("COMPLETE CELLS");
+          console.log(JSON.stringify(complete,null,2));
+          NODE
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forensic-curriculum-inventory
+          path: forensic.json
