@@ -7,7 +7,7 @@ import { logStructuredError } from "@/lib/observability/errors";
 import { logger } from "@/lib/observability/logger";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
-import { getSupabaseAdminClient } from "@/lib/supabase/admin";
+import { insertKpiEvent } from "@/lib/kpi/repository";
 
 const ALLOWED_EVENTS = new Set<KPIEventName>([
   "page_view",
@@ -62,8 +62,7 @@ export async function POST(request: Request) {
       metadata,
     };
 
-    const { error } = await getSupabaseAdminClient().from("kpi_events").insert(row);
-    if (error) throw error;
+    await insertKpiEvent(row);
 
     logger.info("kpi.track.persisted", { requestId, eventName: rawName });
     const response = NextResponse.json({ success: true, requestId });
