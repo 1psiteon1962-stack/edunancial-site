@@ -3,6 +3,7 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
+import { exportBatchToGithub } from "@/lib/admin-content/service";
 import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryCandidate } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
@@ -91,7 +92,9 @@ export async function POST(request: NextRequest) {
   const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
     ? await verifyRestoredCanonicalCoordinate(classified!.reconciliationKey!)
     : null;
+  const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
+  const githubPublication = trustedPublicationAttempted ? await exportBatchToGithub(batch.id, actor) : null;
   if (postPublicationVerification && !postPublicationVerification.complete) return Response.json({ success: false, error: "Canonical restoration published but did not resolve all 50 learner lessons.", postPublicationVerification, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
-  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, githubPublication, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
+  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, githubPublication, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }

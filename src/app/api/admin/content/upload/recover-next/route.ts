@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
+import { exportBatchToGithub } from "@/lib/admin-content/service";
 import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
@@ -171,6 +172,8 @@ export async function POST(request: NextRequest) {
     const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
       ? await verifyRestoredCanonicalCoordinate(classified.reconciliationKey!)
       : null;
+    const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
+    const githubPublication = trustedPublicationAttempted ? await exportBatchToGithub(batch.id, actor) : null;
 
     if (postPublicationVerification && !postPublicationVerification.complete) {
       return Response.json(
@@ -198,6 +201,7 @@ export async function POST(request: NextRequest) {
         recoveredWithoutReupload: true,
         trustedLocalization,
         trustedCanonicalPublication,
+        githubPublication,
         postPublicationVerification,
         publicationDeferred: false,
         runner: "github-actions-package-recovery",
@@ -218,6 +222,7 @@ export async function POST(request: NextRequest) {
         reconciliationKey: classified.reconciliationKey,
         trustedLocalization,
         trustedCanonicalPublication,
+        githubPublication,
         postPublicationVerification,
       },
       { status: 200, headers: { "Cache-Control": "private, no-store" } },
