@@ -39,9 +39,9 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   batch.updatedAt = approvedAt;
   await getAdminContentStorage().updateBatch(batch);
 
-  // The upload itself is already durable in admin-content-storage. Publish the
-  // validated canonical lessons into the same authoritative runtime curriculum
-  // state used by the learner catalog instead of opening a second GitHub PR.
+  // Publish immediately into atomic runtime state so the learner catalog updates
+  // without waiting for deployment. The finalize route also exports the same
+  // validated batch to Git, which is the durable canonical publication path.
   if (options.publish === false) return { attempted: true, approvedFiles: 50 };
 
   const published = await upsertPublishedLessonsFromBatch(batch, { requireAtomic: options.requireAtomic });
