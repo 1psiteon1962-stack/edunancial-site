@@ -1,5 +1,28 @@
 [
   {
+    "id": "upload-operation-a45a4d06-8bf6-4bd4-acd7-b714338fa7ac",
+    "timestamp": "2026-10-03T04:30:15.435Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_de97dfcf-2a5c-40b9-9ce2-cd5da5a02298",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PRESIGN",
+      "status": "SUCCEEDED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null,
+      "fileCount": 1,
+      "totalBytes": 99124,
+      "contentDestination": "courses",
+      "preferredPath": "netlify-blobs"
+    }
+  },
+  {
     "id": "upload-operation-17288ba2-0299-4814-9b54-2fd9ead2fd60",
     "timestamp": "2026-10-03T04:30:14.258Z",
     "action": "system-error",
