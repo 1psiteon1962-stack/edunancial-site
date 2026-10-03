@@ -1,5 +1,32 @@
 [
   {
+    "id": "upload-operation-bbac6db1-68ea-4d4a-8518-28037abdc6e2",
+    "timestamp": "2026-10-03T06:12:49.493Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
+      "phase": "FINALIZE",
+      "status": "STARTED",
+      "storagePath": "uploads/courses/batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9/upload_d1311f6a-1738-494f-99a9-b96351e15688-white-l3-001-050-es-caribbean.zip",
+      "fileName": "WHITE-L3-001-050-es-Caribbean.zip",
+      "fileSize": 108601,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_7736080a-87a9-4eec-aeaa-8252b57c8775",
+      "packageIdentity": {
+        "track": "white",
+        "level": "level-3",
+        "language": "es-Caribbean",
+        "title": "001 050"
+      }
+    }
+  },
+  {
     "id": "upload-operation-37433817-94f2-4785-9235-ee32df73e1e3",
     "timestamp": "2026-10-03T06:12:46.376Z",
     "action": "system-error",
