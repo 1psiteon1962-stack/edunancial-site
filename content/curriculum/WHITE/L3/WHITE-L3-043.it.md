@@ -1,0 +1,62 @@
+---
+id: WHITE-L3-043
+track: WHITE
+officialTrackName: "Paper Assets"
+level: 3
+lessonNumber: 43
+title: "\"Perché gli ordini al mercato e gli ordini con limite di prezzo servono a scopi diversi\""
+summary: "\"Scopri la differenza tra un ordine al mercato e un ordine con limite di prezzo, e perché scegliere quello giusto dipende da che cosa vuoi davvero controllare.\""
+version: "1.0"
+author: "\"Waldemar M. Caban, JD MA\""
+date: "2026-10-03"
+locale: "it"
+source_locale: "en-US"
+---
+<!-- Learning Objectives -->
+# WHITE-L3-043: Perché gli ordini al mercato e gli ordini con limite di prezzo servono a scopi diversi
+
+## Obiettivi di apprendimento
+<!-- Core Content -->
+Alla fine di questa lezione, sarai in grado di:
+- Spiegare la differenza tra un ordine al mercato e un ordine con limite di prezzo
+- Spiegare perché ogni tipo di ordine dà la priorità a una variabile diversa: velocità oppure prezzo
+- Collegare questo concetto alla discussione sulla liquidità della Lezione 42
+
+## Contenuto principale
+
+Un **ordine al mercato** chiede a un broker (intermediario) di comprare o vendere un titolo subito, al miglior prezzo disponibile in quel momento. Un **ordine con limite di prezzo** chiede a un broker di comprare o vendere solo a un prezzo indicato o migliore, e può restare in attesa di esecuzione (o non essere eseguito affatto) se quel prezzo non è disponibile.
+
+Ecco il "perché" la scelta tra i due dipende da che cosa metti al primo posto: un ordine al mercato dà la priorità alla velocità e alla certezza di esecuzione. Verrà quasi sempre eseguito in fretta, ma non conosci in anticipo il prezzo esatto, soprattutto per un titolo meno liquido (collegandosi direttamente alla discussione sullo spread denaro-lettera della Lezione 42) o in condizioni di mercato veloci. Un ordine con limite di prezzo dà la priorità al controllo del prezzo (sai qual è il prezzo peggiore che accetterai), ma rinunci alla certezza di esecuzione, perché l'ordine potrebbe non essere eseguito affatto se il mercato non raggiunge mai il prezzo che hai indicato.
+
+[VERIFIED FACT] Per i titoli molto liquidi con spread denaro-lettera stretti, la differenza pratica tra un ordine al mercato e un ordine con limite di prezzo impostato in modo ragionevole è spesso piccola; la distinzione diventa più importante per i titoli meno liquidi, per gli ordini più grandi o nei periodi di alta volatilità, quando l'incertezza sul prezzo con un ordine al mercato può essere più significativa.
+
+## Esempio pratico
+
+[ILLUSTRATIVE EXAMPLE] Un'investitrice vuole comprare azioni di un titolo poco scambiato (come nell'esempio della Lezione 42). Usare un ordine al mercato garantisce che l'acquisto avvenga in fretta, ma lo spread denaro-lettera più ampio significa che potrebbe pagare un prezzo sensibilmente più alto di quanto suggeriva l'ultimo prezzo scambiato. Usare invece un ordine con limite di prezzo, fissato a un prezzo massimo specifico che è disposta a pagare, la protegge da un prezzo di esecuzione inaspettatamente alto; ma se il prezzo dell'azione si allontana dal suo limite prima che ci siano abbastanza azioni disponibili a quel prezzo, il suo ordine potrebbe non essere eseguito affatto, e lei potrebbe perdere l'occasione di comprare.
+
+## Quiz di esercitazione
+
+1. Qual è la differenza principale tra un ordine al mercato e un ordine con limite di prezzo?
+2. A che cosa dà la priorità un ordine al mercato, e a che cosa rinuncia in cambio?
+3. In quali tipi di situazioni la scelta tra ordini al mercato e ordini con limite di prezzo diventa più importante, secondo questa lezione?
+
+## Chiave delle risposte
+
+1. Un ordine al mercato viene eseguito subito al miglior prezzo disponibile; un ordine con limite di prezzo viene eseguito solo a un prezzo indicato o migliore, e potrebbe non essere eseguito affatto.
+2. Dà la priorità alla velocità e alla certezza di esecuzione, rinunciando alla certezza sul prezzo esatto di esecuzione.
+3. Con titoli meno liquidi, ordini di dimensioni maggiori o periodi di alta volatilità: situazioni in cui l'incertezza sul prezzo con un ordine al mercato diventa più significativa, collegandosi alla discussione sulla liquidità della Lezione 42.
+
+## Risposte e spiegazioni
+
+1. Questa è la distinzione di base della lezione.
+2. Questo chiarisce il compromesso specifico degli ordini al mercato.
+3. Questo ricollega direttamente la decisione sul tipo di ordine al concetto di liquidità della lezione precedente.
+
+## Punti chiave
+- Un ordine al mercato dà la priorità alla velocità e alla certezza di esecuzione rispetto alla certezza del prezzo.
+- Un ordine con limite di prezzo dà la priorità al controllo del prezzo, ma rischia di non essere eseguito affatto.
+- Questo compromesso diventa particolarmente importante per i titoli meno liquidi, gli ordini grandi o le condizioni di mercato volatili.
+
+---
+
+*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce consulenza personalizzata finanziaria, di investimento, fiscale o legale. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*
