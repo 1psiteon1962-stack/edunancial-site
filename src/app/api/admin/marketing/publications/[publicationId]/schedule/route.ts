@@ -1,0 +1,3 @@
+import { requireOwnerApiSession } from "@/lib/admin-content/auth";
+import { scheduleMarketingPublication } from "@/lib/marketing/control-plane";
+export async function POST(request:Request,{params}:{params:Promise<{publicationId:string}>}){const auth=await requireOwnerApiSession(request,true);if(!auth.ok)return auth.response;try{const {publicationId}=await params;const body=await request.json() as {scheduledFor?:string};return Response.json(await scheduleMarketingPublication(publicationId,String(body.scheduledFor??""),auth.session.email));}catch(e){return Response.json({error:e instanceof Error?e.message:"Scheduling failed."},{status:400});}}
