@@ -1,27 +1,27 @@
 [
   {
-    "id": "upload-operation-ef0d262c-4563-43a8-8387-1dc668855866",
-    "timestamp": "2026-10-03T17:22:19.531Z",
+    "id": "upload-operation-eebc1172-867f-4173-a66a-f6e330301eb1",
+    "timestamp": "2026-10-03T17:22:19.203Z",
     "action": "system-error",
     "result": "success",
     "actor": "admin-content-uploader",
     "batchId": "batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
     "metadata": {
       "kind": "upload-operation",
-      "uploadId": "upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150",
+      "uploadId": "upload_2798a63f-653f-4147-bb2d-3240732e1d4a",
       "phase": "FINALIZE",
       "status": "STARTED",
-      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150-white-l3-001-050-it.zip",
-      "fileName": "WHITE-L3-001-050-it.zip",
-      "fileSize": 106686,
+      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_2798a63f-653f-4147-bb2d-3240732e1d4a-white-l3-001-050-de.zip",
+      "fileName": "WHITE-L3-001-050-de.zip",
+      "fileSize": 114096,
       "errorCode": null,
       "errorMessage": null,
       "mode": "single-package-request",
-      "reviewBatchId": "batch_a87052e6-7da4-4c03-9862-dbbab817a225",
+      "reviewBatchId": "batch_f10c9f2d-c486-46d9-8997-9298bd9e238b",
       "packageIdentity": {
         "track": "white",
         "level": "level-3",
-        "language": "it",
+        "language": "de",
         "title": "001 050"
       }
     }
