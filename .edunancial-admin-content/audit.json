@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-a27a352a-f3d2-4caf-be0f-b446ea6d72e3",
+    "timestamp": "2026-10-03T07:23:40.459Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "VERIFY",
+      "status": "FAILED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": "Error",
+      "errorMessage": "Localized curriculum requires canonical registry lessons first: WHITE-L3-001, WHITE-L3-002, WHITE-L3-003, WHITE-L3-004, WHITE-L3-005, WHITE-L3-006, WHITE-L3-007, WHITE-L3-008, WHITE-L3-009, WHITE-L3-010, WHITE-L3-011, WHITE-L3-012, WHITE-L3-013, WHITE-L3-014, WHITE-L3-015, WHITE-L3-016, WHITE-L3-017, WHITE-L3-018, WHITE-L3-019, WHITE-L3-020, WHITE-L3-021, WHITE-L3-022, WHITE-L3-023, WHITE-L3-024, WHITE-L3-025, WHITE-L3-026, WHITE-L3-027, WHITE-L3-028, WHITE-L3-029, WHITE-L3-030, WHITE-L3-031, WHITE-L3-032, WHITE-L3-033, WHITE-L3-034, WHITE-L3-035, WHITE-L3-036, WHITE-L3-037, WHITE-L3-038, WHITE-L3-039, WHITE-L3-040, WHITE-L3-041, WHITE-L3-042, WHITE-L3-043, WHITE-L3-044, WHITE-L3-045, WHITE-L3-046, WHITE-L3-047, WHITE-L3-048, WHITE-L3-049, WHITE-L3-050",
+      "operation": "github_export"
+    }
+  },
+  {
     "id": "upload-operation-f5c39bcb-d724-4890-b8e6-353a0a86167e",
     "timestamp": "2026-10-03T07:23:37.839Z",
     "action": "system-error",
