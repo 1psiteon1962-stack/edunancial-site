@@ -4,9 +4,9 @@
   "slug": "recovered-white-l3-001-050-it-zip",
   "source": "Recovered from stored upload batch batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "partially-reviewed",
+  "status": "exported",
   "createdAt": "2026-10-03T17:41:50.690Z",
-  "updatedAt": "2026-10-03T17:41:59.390Z",
+  "updatedAt": "2026-10-03T17:42:05.218Z",
   "uploads": [
     {
       "id": "upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150",
@@ -2837,6 +2837,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_19ba29f7-ee0d-4827-99d3-448bf034d4c4",
+      "timestamp": "2026-10-03T17:42:05.218Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
+      "metadata": {
+        "exportId": "export_batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1_1791049323270"
+      }
+    },
+    {
       "id": "audit_18123ffa-2571-4320-a590-a0eeeb821fd4",
       "timestamp": "2026-10-03T17:41:51.890Z",
       "action": "archive-extracted",
@@ -2872,6 +2883,25 @@
       "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1_1791049323270",
+      "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
+      "fileName": "recovered-white-l3-001-050-it-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1_1791049323270.zip",
+      "manifestPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-it-zip/batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-it-zip/batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-it-zip/batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-it-zip/batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1/rejected-files.json",
+      "createdAt": "2026-10-03T17:42:03.270Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
