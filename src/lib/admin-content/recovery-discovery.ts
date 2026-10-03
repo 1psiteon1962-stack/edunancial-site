@@ -19,27 +19,25 @@ export type RecoverableCurriculumPackage = RecoveryCandidate & {
  */
 export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
-  const [entries, summaries] = await Promise.all([
-    storage.listWorkspaceEntries(),
-    storage.listBatches(),
-  ]);
-  const batches = await Promise.all(
-    summaries.map((summary) => storage.getBatch(summary.id)),
-  );
+  const entries = await storage.listWorkspaceEntries();
 
+  // Only a durable FINALIZE success receipt makes an original stored ZIP
+  // non-recoverable. A derived review batch can exist before finalization has
+  // actually completed (or while its response is lost), so using batch contents
+  // here can strand the upload: the client requests recovery while discovery
+  // incorrectly hides the stored object.
+  const audit = await storage.listAuditHistory();
   const finalized = new Set(
-    batches.flatMap((batch) => {
-      if (!batch || batch.files.length === 0) return [];
-      return batch.uploads
-        .filter((upload) =>
-          batch.files.some(
-            (file) =>
-              file.uploadId === upload.id ||
-              file.archivePath?.startsWith(upload.originalFilename + "/") ||
-              (batch.uploads.length === 1 && batch.files.length > 0),
-          ),
-        )
-        .map((upload) => upload.storagePath);
+    audit.flatMap((event) => {
+      const metadata = event.metadata;
+      if (
+        !metadata ||
+        metadata.kind !== "upload-operation" ||
+        metadata.phase !== "FINALIZE" ||
+        metadata.status !== "SUCCEEDED" ||
+        typeof metadata.storagePath !== "string"
+      ) return [];
+      return [metadata.storagePath];
     }),
   );
 
