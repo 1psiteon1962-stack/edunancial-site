@@ -4,14 +4,14 @@
     "name": "Content Upload 2026-10-03 — WHITE-L3-001-050-nl.zip",
     "slug": "content-upload-2026-10-03-white-l3-001-050-nl-zip",
     "source": "Admin dashboard",
-    "status": "ready-for-review",
+    "status": "partially-reviewed",
     "createdAt": "2026-10-03T17:22:32.370Z",
-    "updatedAt": "2026-10-03T17:22:34.746Z",
+    "updatedAt": "2026-10-03T17:22:40.034Z",
     "totalUploads": 1,
     "totalFiles": 51,
-    "approvedFiles": 0,
+    "approvedFiles": 50,
     "rejectedFiles": 0,
-    "pendingFiles": 51,
+    "pendingFiles": 1,
     "conflicts": 0
   },
   {
