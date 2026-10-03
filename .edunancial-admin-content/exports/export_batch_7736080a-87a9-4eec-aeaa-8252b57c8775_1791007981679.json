@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_7736080a-87a9-4eec-aeaa-8252b57c8775_1791007981679",
+  "batchId": "batch_7736080a-87a9-4eec-aeaa-8252b57c8775",
+  "fileName": "content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_7736080a-87a9-4eec-aeaa-8252b57c8775_1791007981679.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/rejected-files.json",
+  "createdAt": "2026-10-03T06:13:01.679Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
