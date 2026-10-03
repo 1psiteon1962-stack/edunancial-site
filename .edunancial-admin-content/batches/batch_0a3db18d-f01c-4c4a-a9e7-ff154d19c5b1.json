@@ -4,9 +4,9 @@
   "slug": "recovered-white-l3-001-050-es-caribbean-zip",
   "source": "Recovered from stored upload batch batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "partially-reviewed",
+  "status": "exported",
   "createdAt": "2026-10-03T06:25:58.769Z",
-  "updatedAt": "2026-10-03T06:26:07.540Z",
+  "updatedAt": "2026-10-03T06:26:12.633Z",
   "uploads": [
     {
       "id": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
@@ -2837,6 +2837,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_86370a73-20fd-4488-98c3-fd7a7dcc14c7",
+      "timestamp": "2026-10-03T06:26:12.633Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1",
+      "metadata": {
+        "exportId": "export_batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1_1791008770540"
+      }
+    },
+    {
       "id": "audit_9e1ae7cc-9114-448e-a1ed-6d289a759f03",
       "timestamp": "2026-10-03T06:26:00.445Z",
       "action": "archive-extracted",
@@ -2872,6 +2883,25 @@
       "batchId": "batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1_1791008770540",
+      "batchId": "batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1",
+      "fileName": "recovered-white-l3-001-050-es-caribbean-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1_1791008770540.zip",
+      "manifestPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1/rejected-files.json",
+      "createdAt": "2026-10-03T06:26:10.540Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
