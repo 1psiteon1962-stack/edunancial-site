@@ -4,9 +4,9 @@
   "slug": "recovered-white-l3-001-050-it-zip",
   "source": "Recovered from stored upload batch batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "exported",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-03T17:41:50.690Z",
-  "updatedAt": "2026-10-03T17:42:05.218Z",
+  "updatedAt": "2026-10-03T17:41:59.390Z",
   "uploads": [
     {
       "id": "upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150",
@@ -2837,14 +2837,25 @@
   ],
   "auditHistory": [
     {
-      "id": "audit_19ba29f7-ee0d-4827-99d3-448bf034d4c4",
-      "timestamp": "2026-10-03T17:42:05.218Z",
-      "action": "export-generated",
+      "id": "audit_e00a9683-48d1-4da6-951e-732b894e6577",
+      "timestamp": "2026-10-03T17:42:14.155Z",
+      "action": "github-pr-opened",
       "result": "success",
       "actor": "1psiteon1962@gmail.com",
       "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
       "metadata": {
-        "exportId": "export_batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1_1791049323270"
+        "url": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1115"
+      }
+    },
+    {
+      "id": "audit_5b8283ed-f609-4f97-9d5e-dbed4af69c54",
+      "timestamp": "2026-10-03T17:42:13.204Z",
+      "action": "github-branch-created",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
+      "metadata": {
+        "branch": "content/course-upload-20261003-174209-recovered-white-l3-001-050-it-zip"
       }
     },
     {
@@ -2900,6 +2911,13 @@
           "No curriculum-bound markdown files required validation."
         ],
         "errors": []
+      },
+      "github": {
+        "branch": "content/course-upload-20261003-174209-recovered-white-l3-001-050-it-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1115",
+        "pullRequestNumber": 1115,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
       }
     }
   ],
