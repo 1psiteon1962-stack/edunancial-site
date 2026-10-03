@@ -296,24 +296,44 @@ function yamlScalar(value: string) {
 }
 
 function canonicalPublicationContent(content: string, asset: ParsedCurriculumAsset) {
-  if (/^---\s*\r?\n/u.test(content)) return content;
   const fm = asset.frontMatter;
+  const frontMatterMatch = content.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/u);
+  let body = frontMatterMatch ? content.slice(frontMatterMatch[0].length).trimStart() : content.trimStart();
+
+  // Localized curriculum may use translated section headings. Preserve the
+  // translated headings and content, but add canonical section markers so the
+  // strict publication contract remains machine-verifiable without replacing
+  // learner-facing localized text.
+  const localized = Boolean(fm.locale || asset.locale);
+  if (localized && !body.includes("Learning Objectives")) {
+    body = `<!-- Learning Objectives -->\n${body}`;
+  }
+  if (localized && !body.includes("Core Content")) {
+    const headingMatch = body.match(/^##\s+[^\n]+\n/mu);
+    const insertAt = headingMatch && headingMatch.index !== undefined
+      ? headingMatch.index + headingMatch[0].length
+      : 0;
+    body = `${body.slice(0, insertAt)}<!-- Core Content -->\n${body.slice(insertAt)}`;
+  }
+
   const header = [
     "---",
     `id: ${asset.id}`,
     `track: ${asset.track}`,
     `officialTrackName: ${yamlScalar(fm.officialTrackName ?? asset.trackName)}`,
     `level: ${asset.level}`,
-    `lessonNumber: ${asset.number ?? Number(fm.lessonNumber ?? 0)}`,
+    `lessonNumber: ${asset.number ?? Number(fm.lessonNumber ?? fm.lesson ?? 0)}`,
     `title: ${yamlScalar(fm.title ?? asset.id)}`,
-    `summary: ${yamlScalar(fm.summary ?? "")}`,
+    `summary: ${yamlScalar(fm.summary ?? fm.description ?? "")}`,
     `version: ${yamlScalar(fm.version ?? "1.0")}`,
     `author: ${yamlScalar(fm.author ?? "Edunancial Faculty")}`,
     `date: ${yamlScalar(fm.date ?? new Date().toISOString().slice(0, 10))}`,
+    ...(fm.locale ? [`locale: ${yamlScalar(fm.locale)}`] : []),
+    ...(fm.source_locale ? [`source_locale: ${yamlScalar(fm.source_locale)}`] : []),
     "---",
     "",
   ].join("\n");
-  return header + content.trimStart();
+  return header + body;
 }
 
 function normalizeCurriculumPublicationLocale(value: string | null | undefined): string | null {
