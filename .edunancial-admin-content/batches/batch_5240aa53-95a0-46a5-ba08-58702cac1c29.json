@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-03-white-l3-001-050-en-gb-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "partially-reviewed",
+  "status": "exported",
   "createdAt": "2026-10-03T04:30:19.424Z",
-  "updatedAt": "2026-10-03T04:30:28.770Z",
+  "updatedAt": "2026-10-03T04:30:33.912Z",
   "uploads": [
     {
       "id": "upload_674f9e13-3f4d-42ff-9276-db9f1aeb7447",
@@ -2888,6 +2888,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_2c115fd2-84e2-4fcb-8869-8903106aee4f",
+      "timestamp": "2026-10-03T04:30:33.912Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_5240aa53-95a0-46a5-ba08-58702cac1c29",
+      "metadata": {
+        "exportId": "export_batch_5240aa53-95a0-46a5-ba08-58702cac1c29_1791001831762"
+      }
+    },
+    {
       "id": "audit_ed479ff8-9319-4329-af25-12ddbc95f7da",
       "timestamp": "2026-10-03T04:30:20.862Z",
       "action": "archive-extracted",
@@ -2923,6 +2934,25 @@
       "batchId": "batch_5240aa53-95a0-46a5-ba08-58702cac1c29"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_5240aa53-95a0-46a5-ba08-58702cac1c29_1791001831762",
+      "batchId": "batch_5240aa53-95a0-46a5-ba08-58702cac1c29",
+      "fileName": "content-upload-2026-10-03-white-l3-001-050-en-gb-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_5240aa53-95a0-46a5-ba08-58702cac1c29_1791001831762.zip",
+      "manifestPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-en-gb-zip/batch_5240aa53-95a0-46a5-ba08-58702cac1c29/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-en-gb-zip/batch_5240aa53-95a0-46a5-ba08-58702cac1c29/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-en-gb-zip/batch_5240aa53-95a0-46a5-ba08-58702cac1c29/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-en-gb-zip/batch_5240aa53-95a0-46a5-ba08-58702cac1c29/rejected-files.json",
+      "createdAt": "2026-10-03T04:30:31.762Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
