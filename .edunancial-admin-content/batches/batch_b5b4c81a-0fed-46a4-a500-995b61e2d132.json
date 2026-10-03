@@ -6,7 +6,7 @@
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
   "status": "partially-reviewed",
   "createdAt": "2026-10-03T06:45:24.144Z",
-  "updatedAt": "2026-10-03T06:45:27.975Z",
+  "updatedAt": "2026-10-03T06:45:32.825Z",
   "uploads": [
     {
       "id": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
@@ -162,7 +162,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -185,7 +186,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_e5f16820-7dc7-4b7e-9b4e-a8ec4d920170",
@@ -215,7 +216,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -238,7 +240,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_cfbc4308-19fa-4bd4-b859-e588dcc9a78f",
@@ -268,7 +270,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -291,7 +294,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_a4ea3d80-c283-4471-9c2f-df2e0eb6150a",
@@ -321,7 +324,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -344,7 +348,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_b81dfdaa-ca51-4ce0-a9fd-61e640236921",
@@ -374,7 +378,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -397,7 +402,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_665c6d8c-83a0-434a-b216-075365b847d5",
@@ -427,7 +432,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -450,7 +456,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_1188c06f-388c-4d39-b99d-8f4f381ac293",
@@ -480,7 +486,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -503,7 +510,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_d1f7dce4-4e05-4ee5-8ab6-6ab504cb76cf",
@@ -533,7 +540,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -556,7 +564,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_2869471a-81c8-452c-9210-52de3dfb4639",
@@ -586,7 +594,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -609,7 +618,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_a31433d7-dde4-4d88-ab0b-9a09c8e7aaed",
@@ -639,7 +648,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -662,7 +672,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_9db318d0-2ead-4e4f-9814-3c267b51cdc8",
@@ -692,7 +702,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -715,7 +726,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_526ec011-6bc1-4cc6-82d2-414ab6004634",
@@ -745,7 +756,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -768,7 +780,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_c695363d-900e-4d12-bfa3-6024b9700a7f",
@@ -798,7 +810,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -821,7 +834,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_8d6bb35d-0ab9-43e9-a250-93d7d41398a9",
@@ -851,7 +864,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -874,7 +888,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_7c38b7f3-30b1-4aaa-8394-62f0dca2a76e",
@@ -904,7 +918,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -927,7 +942,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_d48feb9b-a702-4964-b915-98799752c51b",
@@ -957,7 +972,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -980,7 +996,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_b7277669-0e0b-40b1-a173-829ec829ecfd",
@@ -1010,7 +1026,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1033,7 +1050,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_6e533764-3c09-475e-9ddd-cde6d3e5e484",
@@ -1063,7 +1080,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1086,7 +1104,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_6a0331f9-b533-4d8c-9170-23a30e0d9ac1",
@@ -1116,7 +1134,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1139,7 +1158,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_c17aea44-29cd-44cd-a437-325db34fd541",
@@ -1169,7 +1188,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1192,7 +1212,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_afbc37a0-8dad-41d6-9c08-c9169f12e7bd",
@@ -1222,7 +1242,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1245,7 +1266,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_3a5679a0-3bad-48d6-8bc1-165647786dc1",
@@ -1275,7 +1296,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1298,7 +1320,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_68cf543b-2870-468b-996c-4af2f8e40668",
@@ -1328,7 +1350,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1351,7 +1374,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_3c2b4caf-390f-4123-abfc-1ae74195adeb",
@@ -1381,7 +1404,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1404,7 +1428,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_e354298c-f010-4bfd-9bf8-3fba3572bbff",
@@ -1434,7 +1458,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1457,7 +1482,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_de187062-7888-4fcb-814d-514d7b8c73ed",
@@ -1487,7 +1512,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1510,7 +1536,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_349acc8d-7798-4849-91f3-1587e210fbcd",
@@ -1540,7 +1566,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1563,7 +1590,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_053e922c-f47e-4da8-961a-9eec8e368789",
@@ -1593,7 +1620,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1616,7 +1644,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_3772aa8c-8bea-4dd8-b2ba-47481bc3fd35",
@@ -1646,7 +1674,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1669,7 +1698,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_c075a891-abc6-4e28-9613-d6e62ace8388",
@@ -1699,7 +1728,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1722,7 +1752,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_7290a58c-c11b-4a82-9178-f8a91f507b67",
@@ -1752,7 +1782,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1775,7 +1806,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_bb0780ad-dabf-4a6f-8688-4451adaeb579",
@@ -1805,7 +1836,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1828,7 +1860,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_5c590d7c-5007-48d2-8116-024be06ed62a",
@@ -1858,7 +1890,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1881,7 +1914,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_ba4064bd-9635-4942-88ad-70428044261d",
@@ -1911,7 +1944,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1934,7 +1968,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_b8e3711d-8b85-4e84-8c2a-9421bdfe7e03",
@@ -1964,7 +1998,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -1987,7 +2022,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_22fc8d57-4927-4d3e-8818-698696fa1712",
@@ -2017,7 +2052,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2040,7 +2076,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_41cf8149-df95-4085-9a0a-913d413ccb5b",
@@ -2070,7 +2106,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2093,7 +2130,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.824Z"
     },
     {
       "id": "file_6bc8c3d9-2414-47f5-a141-75893a445a80",
@@ -2123,7 +2160,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2146,7 +2184,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_9ff5d554-3957-4947-8c40-e13e2b12f6d4",
@@ -2176,7 +2214,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2199,7 +2238,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_7e001e91-2c64-471d-bce3-15a836af74f0",
@@ -2229,7 +2268,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2252,7 +2292,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_14881550-5a13-47db-ade3-91244e20ee82",
@@ -2282,7 +2322,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2305,7 +2346,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_f5c72d79-1f62-42e4-ac4e-146a7f8724d0",
@@ -2335,7 +2376,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2358,7 +2400,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_56da79fc-7e12-4e0e-8550-6c656b8522cb",
@@ -2388,7 +2430,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2411,7 +2454,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_3a83a1d8-8df8-4020-afff-4c5fa2f24688",
@@ -2441,7 +2484,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2464,7 +2508,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_3dc91bc6-115c-485a-b5ac-3ffdd8848b57",
@@ -2494,7 +2538,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2517,7 +2562,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_62424109-e44a-4260-a5d1-735c8b7c61cb",
@@ -2547,7 +2592,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2570,7 +2616,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_125a4c2b-2f35-4621-92ea-324d07b4050c",
@@ -2600,7 +2646,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2623,7 +2670,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_90ff5572-101c-48a3-b360-01316417a6b1",
@@ -2653,7 +2700,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2676,7 +2724,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_b1d74dd4-448a-42d5-88d2-015eb7aa974d",
@@ -2706,7 +2754,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2729,7 +2778,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     },
     {
       "id": "file_5157c58c-c32d-4db5-9627-a402941f77ba",
@@ -2759,7 +2808,8 @@
         "confidence": 0.67,
         "reasons": [
           "filename references level-3",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:es-Caribbean"
         ],
         "pillar": "white"
       },
@@ -2782,7 +2832,7 @@
       "error": null,
       "approvedAt": "2026-10-03T06:45:27.975Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:45:27.975Z"
+      "updatedAt": "2026-10-03T06:45:32.825Z"
     }
   ],
   "auditHistory": [
