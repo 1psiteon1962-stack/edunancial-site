@@ -73,6 +73,19 @@ test("curriculum resolution remains locale-driven rather than language-hardwired
   assert.equal(frenchCanada.levels.find((entry) => entry.level === 1)?.lessonCount, 50);
 });
 
+test("WHITE Level 3 Caribbean Spanish bulk publication resolves all 50 learner lessons", async () => {
+  const english = await getPublishedTrack("WHITE", "en-US");
+  const caribbeanSpanish = await getPublishedTrack("WHITE", "es-Caribbean");
+  assert.ok(english && caribbeanSpanish);
+  const englishLevel = english.levels.find((entry) => entry.level === 3);
+  const localizedLevel = caribbeanSpanish.levels.find((entry) => entry.level === 3);
+  assert.equal(localizedLevel?.lessonCount, 50, "WHITE L3 es-Caribbean must expose all 50 learner lessons");
+  assert.equal(localizedLevel?.lessons[0]?.id, "WHITE-L3-001");
+  assert.equal(localizedLevel?.lessons[49]?.id, "WHITE-L3-050");
+  assert.notEqual(localizedLevel?.lessons[0]?.title, englishLevel?.lessons[0]?.title, "WHITE-L3-001 must resolve the committed Caribbean Spanish title");
+  assert.match(localizedLevel?.lessons[0]?.body ?? "", /\\b(?:lección|aprendizaje|inversión|mercado)\\b/iu, "WHITE-L3-001 must resolve substantive Caribbean Spanish body content");
+});
+
 
 const PROTECTED_L1_TRACKS = ["RED", "WHITE", "BLUE", "GOLD"] as const;
 const PROTECTED_L1_LOCALES = ["es-ES", "es-Caribbean", "fr-FR", "fr-CA", "it", "de", "nl", "pt-PT", "pt-BR"] as const;
