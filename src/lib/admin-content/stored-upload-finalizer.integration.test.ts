@@ -163,4 +163,70 @@ describe("stored mixed curriculum bulk upload", () => {
     assert.equal(imageFiles.length, 3);
     assert.ok(imageFiles.every((file) => file.mimeType === "image/png"));
   });
+
+  test("expands a one-file 50-lesson master ZIP into 50 canonical review files", async () => {
+    resetAdminContentStorage();
+    const storage = getAdminContentStorage();
+    const master = Array.from({ length: 50 }, (_, index) => {
+      const lesson = String(index + 1).padStart(3, "0");
+      return [
+        `# ORANGE-L2-${lesson}`,
+        "",
+        `## Lesson ${index + 1}`,
+        "",
+        `Bundled recovery proof for ORANGE-L2-${lesson}.`,
+        "",
+      ].join("\n");
+    }).join("\n");
+
+    const zip = makeStoredZip([
+      { name: "ORANGE-L2-FULL-50-Lessons.md", data: Buffer.from(master, "utf8") },
+    ]);
+    const storagePath = "uploads/courses/batch_bundle/upload_bundle-orange-l2-full-50-lessons.zip";
+    await storage.saveBinary(storagePath, zip, "application/zip");
+
+    const batch = await createIndependentUploadBatchFromStoredFiles(
+      new Request("https://edunancial.com/api/admin/content/upload/finalize", {
+        headers: { "x-forwarded-for": "127.0.0.1" },
+      }),
+      { email: "owner@edunancial.test" },
+      {
+        batchId: "batch_bundle_recovery",
+        batchName: "ORANGE L2 bundled recovery",
+        source: "recovery-test",
+        notes: "",
+        uploadConfig: {
+          destination: "courses",
+          track: "orange",
+          level: "level-2",
+          language: "en-US",
+          membershipAccess: "basic",
+          publicationStatus: "draft",
+          title: "ORANGE Level 2",
+          description: "Bundled 50-lesson recovery proof",
+        },
+        uploads: [{
+          uploadId: "upload_bundle",
+          originalFilename: "ORANGE-L2-FULL-50-Lessons.zip",
+          mimeType: "application/zip",
+          sizeBytes: zip.length,
+          storagePath,
+        }],
+      },
+    );
+
+    assert.equal(batch.warnings.length, 0);
+    assert.equal(batch.uploads.length, 1);
+    assert.equal(batch.files.length, 50);
+    assert.equal(batch.uploads[0]?.extractedFileIds.length, 50);
+
+    const names = batch.files.map((file) => file.originalFilename);
+    assert.equal(names[0], "ORANGE-L2-001.md");
+    assert.equal(names[49], "ORANGE-L2-050.md");
+    assert.equal(new Set(names).size, 50);
+    assert.ok(batch.files.every((file) => file.classification.pillar === "orange"));
+    assert.ok(batch.files.every((file) => file.classification.academyLevel === "level-2"));
+    assert.ok(batch.files.every((file) => file.classification.language === "en-US"));
+  });
+
 });
