@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-03-white-l3-001-050-nl-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-03T17:22:32.370Z",
-  "updatedAt": "2026-10-03T17:22:34.746Z",
+  "updatedAt": "2026-10-03T17:22:40.034Z",
   "uploads": [
     {
       "id": "upload_a051abe5-3ca2-470f-abfc-f24cbc260109",
@@ -147,7 +147,7 @@
       "sizeBytes": 5077,
       "checksum": "sha256:ab5315ec6ccab771b3d744c55c1120b4e4522788c6d006f354b82195ce9714e7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 001 locale: nl source locale: en US track: WHITE level: 3 lesson: 1 title: \"Waarom \\\"laag kopen, hoog verkopen\\\" moeilijker te doen is dan te zeggen\" source title: \"Why \\\"Buy Low, Sell High\\\" Is Harder to Execute Than to Say\" description: \"Ontdek waarom het eenvoudigste beleggingsadvies in de praktijk ook een van de moeilijkste is om op te volgen, en wat je echt in de weg zit.\" slug: …",
@@ -176,16 +176,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:ab5315ec6ccab771b3d744c55c1120b4e4522788c6d006f354b82195ce9714e7",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.701Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_14efb1ef-19c0-410a-b2c5-7460e3bf551d",
@@ -200,7 +200,7 @@
       "sizeBytes": 5463,
       "checksum": "sha256:26a8a01b21ef5406f8ff843dc7c9a7ca399d9a9b8f6efac7c5c6dca31d8070be",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 002 locale: nl source locale: en US track: WHITE level: 3 lesson: 2 title: \"Waarom spreiding het risico verlaagt zonder het verwachte rendement (zoveel als je denkt) te verlagen\" source title: \"Why Diversification Reduces Risk Without Reducing Expected Return (as Much as You'd Think)\" description: \"Ontdek waarom het spreiden van beleggingen over veel posities het risico efficiënter ve…",
@@ -229,16 +229,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:26a8a01b21ef5406f8ff843dc7c9a7ca399d9a9b8f6efac7c5c6dca31d8070be",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.701Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_e360b004-6293-4fb8-ad0d-29866bc6e819",
@@ -253,7 +253,7 @@
       "sizeBytes": 5568,
       "checksum": "sha256:d9a7993a26f521c5675fbb57b694131216b7ba236417955e7d3714fc203b07ea",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 003 locale: nl source locale: en US track: WHITE level: 3 lesson: 3 title: \"Waarom correlatie bepaalt hoe gespreid je echt bent, niet alleen het aantal posities\" source title: \"Why Correlation Determines Real Diversification, Not Just Number of Holdings\" description: \"Ontdek waarom veel beleggingen bezitten niet hetzelfde is als echt gespreid zijn, en waarom correlatie het begrip is d…",
@@ -282,16 +282,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d9a7993a26f521c5675fbb57b694131216b7ba236417955e7d3714fc203b07ea",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.702Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_1afc6990-9840-4892-b79c-cd42dee7d099",
@@ -306,7 +306,7 @@
       "sizeBytes": 5392,
       "checksum": "sha256:07ad7190a7deb91627e495b86f5b388b40d526c95baeda16a7274a6091f5bcae",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 004 locale: nl source locale: en US track: WHITE level: 3 lesson: 4 title: \"Waarom volatiliteit en risico niet precies hetzelfde zijn\" source title: \"Why Volatility and Risk Aren't Exactly the Same Thing\" description: \"Ontdek waarom een grillige koersgrafiek niet automatisch hetzelfde is als echt financieel risico, en waarom dat verschil belangrijk is voor hoe je een belegging beoorde…",
@@ -335,16 +335,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:07ad7190a7deb91627e495b86f5b388b40d526c95baeda16a7274a6091f5bcae",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.702Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_ac63d962-e933-46a1-b17d-fa2c16537bc7",
@@ -359,7 +359,7 @@
       "sizeBytes": 5159,
       "checksum": "sha256:0a0461b9fbccf00ddca3c19f0bab6f694ed6c8fe4233b8b410defa7e48b01e22",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 005 locale: nl source locale: en US track: WHITE level: 3 lesson: 5 title: \"Waarom opties je rechten geven, geen verplichtingen, en waarom dat iets kost\" source title: \"Why Options Give You Rights, Not Obligations — And Why That Costs Something\" description: \"Leer de basisstructuur van optiecontracten, waarom het kopen van een optie je alleen een recht geeft, en waarom dat recht niet …",
@@ -388,16 +388,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0a0461b9fbccf00ddca3c19f0bab6f694ed6c8fe4233b8b410defa7e48b01e22",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.702Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_071cb99a-93d9-495e-854f-e0bb17e24316",
@@ -412,7 +412,7 @@
       "sizeBytes": 5085,
       "checksum": "sha256:737796c9fcd9ebbe229f01354fc46afa61f1e6f58004c33719bada7d4c6e1edb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 006 locale: nl source locale: en US track: WHITE level: 3 lesson: 6 title: \"Waarom een calloptie op richting gokt en een straddle op beweging\" source title: \"Why a Call Bets on Direction and a Straddle Bets on Movement\" description: \"Leer het verschil tussen een optieweddenschap op richting en een straddle, die winst maakt bij een grote beweging in welke richting dan ook.\" slug: white…",
@@ -441,16 +441,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:737796c9fcd9ebbe229f01354fc46afa61f1e6f58004c33719bada7d4c6e1edb",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.703Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_2c2defae-d679-4cc1-b2a9-0979dac7b526",
@@ -465,7 +465,7 @@
       "sizeBytes": 4898,
       "checksum": "sha256:027430d108ac6fe25a9d8262df0f0710b1cea907bbfdfb6505a583a7b2fe6736",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 007 locale: nl source locale: en US track: WHITE level: 3 lesson: 7 title: \"Waarom tijdsverval tegen optiekopers werkt\" source title: \"Why Time Decay Works Against Option Buyers\" description: \"Ontdek waarom een optie waarde verliest alleen al doordat de tijd verstrijkt, zelfs als de koers van de onderliggende waarde niet verandert.\" slug: white l3 007 time decay seo title: \"Waarom tij…",
@@ -494,16 +494,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:027430d108ac6fe25a9d8262df0f0710b1cea907bbfdfb6505a583a7b2fe6736",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.703Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_ce48c2e8-8373-4193-80f2-42399e865ce1",
@@ -518,7 +518,7 @@
       "sizeBytes": 5591,
       "checksum": "sha256:24f667e22b2e7eebb25a797738a82f8ef79e46587ea6ce15db468ebb3d1532b9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 008 locale: nl source locale: en US track: WHITE level: 3 lesson: 8 title: \"Waarom het verkopen van opties het risicoprofiel volledig omdraait\" source title: \"Why Selling Options Flips the Risk Profile Entirely\" description: \"Ontdek waarom het verkopen (schrijven) van een optie je aan de verplichtingskant van het contract zet, met een heel ander risicoprofiel dan het kopen ervan.\" slu…",
@@ -547,16 +547,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:24f667e22b2e7eebb25a797738a82f8ef79e46587ea6ce15db468ebb3d1532b9",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.703Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_87306c1b-31dd-4f55-aeb4-76896af983ec",
@@ -571,7 +571,7 @@
       "sizeBytes": 4989,
       "checksum": "sha256:27c9de3e703646a29540a90cbcc0fbe5ed0732194ff4bc348d1afea38f4dfc93",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 009 locale: nl source locale: en US track: WHITE level: 3 lesson: 9 title: \"Waarom beleggen met geleend geld winst en verlies vergroot, net als hefboom bij vastgoed\" source title: \"Why Margin Amplifies Gains and Losses Like Real Estate Leverage\" description: \"Ontdek hoe het kopen van aandelen op margin werkt, en waarom het zowel winst als verlies vermenigvuldigt op een manier die lijk…",
@@ -600,16 +600,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:27c9de3e703646a29540a90cbcc0fbe5ed0732194ff4bc348d1afea38f4dfc93",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.704Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_60df8cd9-e1e7-4bd3-a03c-858c4aecc89b",
@@ -624,7 +624,7 @@
       "sizeBytes": 5171,
       "checksum": "sha256:de4e173b3931e3380f12ba29fa0b7b64c098c2b19ffd7299110ab802e1291032",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 010 locale: nl source locale: en US track: WHITE level: 3 lesson: 10 title: \"Waarom een margin call je kan dwingen op het slechtst mogelijke moment te verkopen\" source title: \"Why a Margin Call Can Force You to Sell at the Worst Possible Time\" description: \"Ontdek wat een margin call is, waarom die automatisch gebeurt, en waarom die je kan dwingen te verkopen precies wanneer de koerse…",
@@ -653,16 +653,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:de4e173b3931e3380f12ba29fa0b7b64c098c2b19ffd7299110ab802e1291032",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.704Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_967389b2-a12e-481c-ae5c-a52eb6d68314",
@@ -677,7 +677,7 @@
       "sizeBytes": 5076,
       "checksum": "sha256:121ba6fe224591c769c99a75d3d7174a14d7e463d36b1da874f6fccb6566c207",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 011 locale: nl source locale: en US track: WHITE level: 3 lesson: 11 title: \"Waarom short gaan in theorie een onbeperkt risico heeft\" source title: \"Why Short Selling Has Theoretically Unlimited Risk\" description: \"Ontdek hoe short gaan werkt, waarom het winst maakt op een dalende koers, en waarom het mogelijke verlies door de opbouw ervan onbeperkt is.\" slug: white l3 011 short selli…",
@@ -706,16 +706,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:121ba6fe224591c769c99a75d3d7174a14d7e463d36b1da874f6fccb6566c207",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.705Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_f3697bd3-1209-4428-9131-9b69a58927d9",
@@ -730,7 +730,7 @@
       "sizeBytes": 4752,
       "checksum": "sha256:57308e90664b923353453fb33707212798a01a74c6518abb469a684da69c6f54",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 012 locale: nl source locale: en US track: WHITE level: 3 lesson: 12 title: \"Waarom periodiek beleggen het timingrisico verlaagt, niet het beleggingsrisico\" source title: \"Why Dollar Cost Averaging Reduces Timing Risk, Not Investment Risk\" description: \"Ontdek waarom het beleggen van een vast bedrag volgens een vast schema het risico van slechte timing verlaagt, zonder het onderliggen…",
@@ -759,16 +759,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:57308e90664b923353453fb33707212798a01a74c6518abb469a684da69c6f54",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.706Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_6d56004f-80f7-4f27-b746-568045bf62b4",
@@ -783,7 +783,7 @@
       "sizeBytes": 5751,
       "checksum": "sha256:c94db943f6f861507e4115b4e39f4b21e011a1b42a57dee4420658d1003396c8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 013 locale: nl source locale: en US track: WHITE level: 3 lesson: 13 title: \"Waarom in één keer beleggen vaak beter presteert dan periodiek beleggen (en waarom mensen toch voor DCA kiezen)\" source title: \"Why Lump Sum Investing Often Outperforms DCA (and Why People Still Choose DCA)\" description: \"Ontdek waarom alles in één keer beleggen in stijgende markten statistisch vaak beter pre…",
@@ -812,16 +812,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c94db943f6f861507e4115b4e39f4b21e011a1b42a57dee4420658d1003396c8",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.706Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_33ea229e-c2b2-4aa0-a058-877cfaca5baa",
@@ -836,7 +836,7 @@
       "sizeBytes": 5356,
       "checksum": "sha256:5f11178b79767ae632f9fabf88c7847431a05ca07c2415b93c25cd9c9314d0eb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 014 locale: nl source locale: en US track: WHITE level: 3 lesson: 14 title: \"Waarom herbalanceren je automatisch hoog laat verkopen en laag laat kopen\" source title: \"Why Rebalancing Forces You to Sell High and Buy Low Automatically\" description: \"Ontdek hoe het herbalanceren van je portefeuille werkt, en waarom het de discipline van \\\"laag kopen, hoog verkopen\\\" in een mechanisch pro…",
@@ -865,16 +865,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5f11178b79767ae632f9fabf88c7847431a05ca07c2415b93c25cd9c9314d0eb",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.706Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_06cf6525-2163-4945-a4dd-80c0f0545701",
@@ -889,7 +889,7 @@
       "sizeBytes": 5452,
       "checksum": "sha256:f4e173d69b793353662a79dc6141ac583fab6e33b75b3b3ecff866eaf1aae16c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 015 locale: nl source locale: en US track: WHITE level: 3 lesson: 15 title: \"Waarom volgorderisico van rendementen zwaarder weegt tijdens je pensioen dan tijdens de opbouw\" source title: \"Why Sequence of Returns Risk Matters More in Retirement Than Accumulation\" description: \"Ontdek waarom de volgorde waarin beleggingsrendementen optreden belangrijker kan zijn dan het gemiddelde rende…",
@@ -918,16 +918,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f4e173d69b793353662a79dc6141ac583fab6e33b75b3b3ecff866eaf1aae16c",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.707Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_e6db1d0b-9086-4ad9-94b3-933c8e1a4cfb",
@@ -942,7 +942,7 @@
       "sizeBytes": 5302,
       "checksum": "sha256:87d74c705c7996b4d6f4cb231d9cb13a0d7d84599c72934c4d7a36c9e2336176",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 016 locale: nl source locale: en US track: WHITE level: 3 lesson: 16 title: \"Waarom een \\\"veilig\\\" opnamepercentage geen garantie is\" source title: \"Why a \\\"Safe\\\" Withdrawal Rate Isn't a Guarantee\" description: \"Ontdek wat een veilig opnamepercentage moet voorstellen, en waarom het een historische richtlijn is en geen belofte over jouw specifieke toekomst.\" slug: white l3 016 safe wi…",
@@ -971,16 +971,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:87d74c705c7996b4d6f4cb231d9cb13a0d7d84599c72934c4d7a36c9e2336176",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.707Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_1855cd9c-fefe-400a-a121-2ab524db006c",
@@ -995,7 +995,7 @@
       "sizeBytes": 4883,
       "checksum": "sha256:c743a47fce348e31c839fb7c4ee5c855500f311787315713b757006b5c5d8186",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 017 locale: nl source locale: en US track: WHITE level: 3 lesson: 17 title: \"Waarom dividend geen \\\"gratis geld\\\" is\" source title: \"Why Dividends Aren't \\\"Free Money\\\"\" description: \"Ontdek waarom een dividenduitkering de koers van een aandeel met ongeveer hetzelfde bedrag verlaagt, en waarom dividend een herverdeling van waarde is, geen bonus.\" slug: white l3 017 dividends not free …",
@@ -1024,16 +1024,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c743a47fce348e31c839fb7c4ee5c855500f311787315713b757006b5c5d8186",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.708Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_c3db68da-a7b1-47b3-beee-1c41c606ac68",
@@ -1048,7 +1048,7 @@
       "sizeBytes": 5224,
       "checksum": "sha256:d8ad61df34cbb9437a3b610ae2683c32027359ecb2b93deb83d4a839c6988c8b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 018 locale: nl source locale: en US track: WHITE level: 3 lesson: 18 title: \"Waarom de duration van een obligatie de rentegevoeligheid meet\" source title: \"Why Bond Duration Measures Interest Rate Sensitivity\" description: \"Ontdek wat de duration van een obligatie meet, waarom obligaties met een langere duration gevoeliger zijn voor renteveranderingen, en waarom dat belangrijk is voor…",
@@ -1077,16 +1077,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d8ad61df34cbb9437a3b610ae2683c32027359ecb2b93deb83d4a839c6988c8b",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.708Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_34529359-f7fb-4224-8857-720ca7262712",
@@ -1101,7 +1101,7 @@
       "sizeBytes": 5514,
       "checksum": "sha256:4beaf0621e04227ef36953e8b9be67fd76bbc22d2c99d36319d9dc2a29caab92",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 019 locale: nl source locale: en US track: WHITE level: 3 lesson: 19 title: \"Waarom obligatiekoersen en rente in tegengestelde richting bewegen\" source title: \"Why Bond Prices and Interest Rates Move in Opposite Directions\" description: \"Ontdek de mechanische reden waarom een stijgende rente de koersen van bestaande obligaties laat dalen, en waarom deze relatie voorspelbaar is en niet…",
@@ -1130,16 +1130,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4beaf0621e04227ef36953e8b9be67fd76bbc22d2c99d36319d9dc2a29caab92",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.708Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_c09bce3a-0586-4e1d-b4e2-23d9463a1fe8",
@@ -1154,7 +1154,7 @@
       "sizeBytes": 5379,
       "checksum": "sha256:fe4ceda5ee5bca93239fc2013015f88c7e389c26c2440af4529a3620c488a7ed",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 020 locale: nl source locale: en US track: WHITE level: 3 lesson: 20 title: \"Waarom kredietrisico en renterisico verschillende obligatierisico's zijn\" source title: \"Why Credit Risk and Interest Rate Risk Are Different Bond Risks\" description: \"Ontdek waarom een obligatie om twee totaal verschillende redenen waarde kan verliezen, en waarom het uitmaakt welke van de twee er speelt voor…",
@@ -1183,16 +1183,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:fe4ceda5ee5bca93239fc2013015f88c7e389c26c2440af4529a3620c488a7ed",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.709Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_b75c669a-6ef8-470f-b5e0-7f9356585feb",
@@ -1207,7 +1207,7 @@
       "sizeBytes": 5766,
       "checksum": "sha256:7499d8a50ffa8590951869cb737273402455ae15b58d00ea00f3b8748d635c2e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 021 locale: nl source locale: en US track: WHITE level: 3 lesson: 21 title: \"Waarom ETF's en beleggingsfondsen verschillen in handel, belasting en kosten\" source title: \"Why ETFs and Mutual Funds Differ in Trading, Tax, and Cost\" description: \"Ontdek de praktische verschillen tussen ETF's en beleggingsfondsen, en waarom die verschillen belangrijker kunnen zijn dan hun grote overeenkom…",
@@ -1236,16 +1236,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7499d8a50ffa8590951869cb737273402455ae15b58d00ea00f3b8748d635c2e",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.721Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_60f90bd1-c8c5-45f5-80bc-b8ce5a58bb20",
@@ -1260,7 +1260,7 @@
       "sizeBytes": 5202,
       "checksum": "sha256:674c319bbe2ee95e6bc87f498fdc7204ef01272624981c4d1b1066f3f4cc43a0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 022 locale: nl source locale: en US track: WHITE level: 3 lesson: 22 title: \"Waarom lopende kosten zich over decennia opstapelen\" source title: \"Why Expense Ratios Compound Over Decades\" description: \"Ontdek waarom een klein ogende jaarlijkse fondsvergoeding je over een lange beleggingshorizon tienduizenden dollars kan kosten, en waarom dat effect makkelijk wordt onderschat.\" slug: wh…",
@@ -1289,16 +1289,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:674c319bbe2ee95e6bc87f498fdc7204ef01272624981c4d1b1066f3f4cc43a0",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.722Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_4d7f407b-5164-4b27-a7ae-2db5490e4bb4",
@@ -1313,7 +1313,7 @@
       "sizeBytes": 4828,
       "checksum": "sha256:60ba9cb3eede58e1b7f8e2e1dc98ce847fa5606d3285d4f0c47975171ee22e1e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 023 locale: nl source locale: en US track: WHITE level: 3 lesson: 23 title: \"Waarom beleggen in indexfondsen gokt op de markt, niet op een beheerder\" source title: \"Why Index Investing Bets on the Market, Not a Manager\" description: \"Ontdek waar beleggen in indexfondsen eigenlijk op gokt, en waarom dat een fundamenteel andere weddenschap is dan individuele aandelen of actieve fondsbeh…",
@@ -1342,16 +1342,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:60ba9cb3eede58e1b7f8e2e1dc98ce847fa5606d3285d4f0c47975171ee22e1e",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.723Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_8a46d522-56f6-4c7f-839f-4c37ef50a179",
@@ -1366,7 +1366,7 @@
       "sizeBytes": 5579,
       "checksum": "sha256:484f9e9d8667396584a431f460852aef33825f6c3087a075377d50abb911712f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 024 locale: nl source locale: en US track: WHITE level: 3 lesson: 24 title: \"Waarom actief beheer eerst zijn eigen kosten moet goedmaken om waarde toe te voegen\" source title: \"Why Active Management Has to Overcome Its Own Fees to Add Value\" description: \"Ontdek waarom een actief beheerd fonds de markt met meer dan een klein beetje moet verslaan om echt een beter resultaat op te lever…",
@@ -1395,16 +1395,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:484f9e9d8667396584a431f460852aef33825f6c3087a075377d50abb911712f",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.723Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_22018c47-f9f1-496f-bd02-61006a3a3b0b",
@@ -1419,7 +1419,7 @@
       "sizeBytes": 5672,
       "checksum": "sha256:58b9baf9faf3cf992c7807fe8e599acc268497f832eab5dc077c307a438f52d2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 025 locale: nl source locale: en US track: WHITE level: 3 lesson: 25 title: \"Waarom eerdere fondsprestaties geen toekomstige prestaties voorspellen\" source title: \"Why Past Fund Performance Doesn't Predict Future Performance\" description: \"Ontdek waarom een sterk recent trackrecord van een fonds geen betrouwbaar signaal is voor hoe het in de toekomst zal presteren.\" slug: white l3 025…",
@@ -1448,16 +1448,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:58b9baf9faf3cf992c7807fe8e599acc268497f832eab5dc077c307a438f52d2",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.723Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_41b9f779-89a8-4481-868b-d65dc91e2753",
@@ -1472,7 +1472,7 @@
       "sizeBytes": 5150,
       "checksum": "sha256:fb1ed4e790b7e638b73315d034d49274a5302af4d93185ea4e3ac80112249a2e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 026 locale: nl source locale: en US track: WHITE level: 3 lesson: 26 title: \"Waarom gedragsvalkuilen beleggers meer kosten dan kosten van fondsen\" source title: \"Why Behavioral Biases Cost Investors More Than Fees Do\" description: \"Ontdek waarom de psychologie van beleggers, en niet alleen de kosten van fondsen, vaak wordt genoemd als een van de grootste remmen op het echte rendement …",
@@ -1501,16 +1501,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:fb1ed4e790b7e638b73315d034d49274a5302af4d93185ea4e3ac80112249a2e",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.724Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_be88594f-3725-4e9b-9d84-4285bb4578bb",
@@ -1525,7 +1525,7 @@
       "sizeBytes": 5164,
       "checksum": "sha256:24aa9239ca4aaa78032e28b83bae9b6bea2eee27bd74a422169f58c1057e4a6f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 027 locale: nl source locale: en US track: WHITE level: 3 lesson: 27 title: \"Waarom verliesaversie beleggers winnaars te vroeg laat verkopen en verliezers te lang laat vasthouden\" source title: \"Why Loss Aversion Makes Investors Sell Winners Too Early and Hold Losers Too Long\" description: \"Ontdek waarom de pijn van een verlies meestal sterker voelt dan het plezier van een even grote …",
@@ -1554,16 +1554,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:24aa9239ca4aaa78032e28b83bae9b6bea2eee27bd74a422169f58c1057e4a6f",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.724Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_ae4e9c1e-103f-468f-bf6f-5bccba09a85c",
@@ -1578,7 +1578,7 @@
       "sizeBytes": 5197,
       "checksum": "sha256:e61fe7153599884f095213be3065bb6eff94b10d02e907ab372dbe5984eca2af",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 028 locale: nl source locale: en US track: WHITE level: 3 lesson: 28 title: \"Waarom recency bias je kijk op risico verstoort na een marktbeweging\" source title: \"Why Recency Bias Distorts Risk Perception After a Market Move\" description: \"Ontdek waarom beleggers recente gebeurtenissen te zwaar laten meewegen bij het inschatten van risico, en waarom dat kan leiden tot slecht getimede b…",
@@ -1607,16 +1607,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e61fe7153599884f095213be3065bb6eff94b10d02e907ab372dbe5984eca2af",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.725Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_a322e995-cdc2-42c1-ad49-2a642081b712",
@@ -1631,7 +1631,7 @@
       "sizeBytes": 5014,
       "checksum": "sha256:a9eaeace0a6ff6976516a1cdd2e141c636e68fcbda5039cba1857238f8d31efc",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 029 locale: nl source locale: en US track: WHITE level: 3 lesson: 29 title: \"Waarom inflatie je koopkracht aantast, zelfs in een \\\"veilige\\\" portefeuille\" source title: \"Why Inflation Erodes Purchasing Power Even in a \\\"Safe\\\" Portfolio\" description: \"Ontdek waarom je, als je alleen zeer stabiele bezittingen met een laag rendement aanhoudt, na verloop van tijd toch koopkracht kunt ver…",
@@ -1660,16 +1660,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a9eaeace0a6ff6976516a1cdd2e141c636e68fcbda5039cba1857238f8d31efc",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.725Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_5d86befe-3a53-4381-9327-e4d508206069",
@@ -1684,7 +1684,7 @@
       "sizeBytes": 5749,
       "checksum": "sha256:f6e714b6d83dd9c25c043c5d203f39b138368f017e816774297ceed2d26a89ea",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 030 locale: nl source locale: en US track: WHITE level: 3 lesson: 30 title: \"Waarom verschillende bezittingen verschillend reageren op inflatie\" source title: \"Why Different Assets Respond Differently to Inflation\" description: \"Ontdek waarom sommige beleggingen het in periodes van inflatie meestal beter doen dan andere, en waarom er geen enkele perfecte bescherming tegen inflatie bes…",
@@ -1713,16 +1713,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f6e714b6d83dd9c25c043c5d203f39b138368f017e816774297ceed2d26a89ea",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.725Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_72690406-47be-4769-b7df-d0ebaa13e5d5",
@@ -1737,7 +1737,7 @@
       "sizeBytes": 5362,
       "checksum": "sha256:8406a5329da50a808e8eaad0027e83988b2c5e717951270fe64ff4c7fa1b00fa",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 031 locale: nl source locale: en US track: WHITE level: 3 lesson: 31 title: \"Waarom valutarisico invloed heeft op internationale beleggingen\" source title: \"Why Currency Risk Affects International Investments\" description: \"Ontdek waarom beleggen in bezittingen in een buitenlandse valuta een extra risicolaag toevoegt, los van hoe de belegging zelf presteert.\" slug: white l3 031 curren…",
@@ -1766,16 +1766,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8406a5329da50a808e8eaad0027e83988b2c5e717951270fe64ff4c7fa1b00fa",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.726Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_d41f3f3d-c1c3-4079-9e6c-e2596d1e513d",
@@ -1790,7 +1790,7 @@
       "sizeBytes": 5283,
       "checksum": "sha256:613b30e61c2aa0254e8e81df5d0cb69ba91fb891b212a9305ca7f3cdc771edc3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 032 locale: nl source locale: en US track: WHITE level: 3 lesson: 32 title: \"Waarom je met REITs in vastgoed kunt beleggen zonder zelf een pand te kopen\" source title: \"Why REITs Let You Invest in Real Estate Without Buying Property\" description: \"Ontdek hoe Real Estate Investment Trusts werken, waarom ze worden verhandeld zoals aandelen, en hoe ze de RED en WHITE leerlijnen van dit l…",
@@ -1819,16 +1819,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:613b30e61c2aa0254e8e81df5d0cb69ba91fb891b212a9305ca7f3cdc771edc3",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.726Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_07d0b253-3c47-4803-b248-d84d2e42272a",
@@ -1843,7 +1843,7 @@
       "sizeBytes": 5158,
       "checksum": "sha256:130a8409f35e6090561f37734c950571284bc5c213bc2c8cde6b0d2bb31ba427",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 033 locale: nl source locale: en US track: WHITE level: 3 lesson: 33 title: \"Waarom concentratie in één sector het risico verhoogt, zelfs in een portefeuille die gespreid lijkt\" source title: \"Why Sector Concentration Increases Risk Even in a Diversified Looking Portfolio\" description: \"Ontdek waarom het bezitten van veel aandelen die in dezelfde sector zijn geconcentreerd, een portef…",
@@ -1872,16 +1872,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:130a8409f35e6090561f37734c950571284bc5c213bc2c8cde6b0d2bb31ba427",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.727Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_ae3430fa-22b7-48f5-b9e0-8098efd077bd",
@@ -1896,7 +1896,7 @@
       "sizeBytes": 5803,
       "checksum": "sha256:1d1fcfa42564e171818314396cb9d920a4361c0f8ba1863b8b93af8f4e85ad7b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 034 locale: nl source locale: en US track: WHITE level: 3 lesson: 34 title: \"Waarom assetallocatie belangrijker is dan het kiezen van afzonderlijke aandelen\" source title: \"Why Asset Allocation Matters More Than Individual Stock Picking\" description: \"Ontdek waarom de mix van soorten beleggingen in een portefeuille op lange termijn meestal meer invloed heeft op het resultaat dan de sp…",
@@ -1925,16 +1925,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:1d1fcfa42564e171818314396cb9d920a4361c0f8ba1863b8b93af8f4e85ad7b",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.727Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_8950435a-d32d-48c2-88b7-45cf5a3d4ade",
@@ -1949,7 +1949,7 @@
       "sizeBytes": 5471,
       "checksum": "sha256:d620b7b4a290ca3eb4200e6536aef052dcf4afce229bb442d5569e10026e2a10",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 035 locale: nl source locale: en US track: WHITE level: 3 lesson: 35 title: \"Waarom een glijpad het risico verschuift naarmate je ouder wordt\" source title: \"Why a Glide Path Shifts Risk as You Age\" description: \"Ontdek waarom veel beleggingsstrategieën voor de lange termijn de assetallocatie van een portefeuille in de loop van de tijd geleidelijk verschuiven van offensiever naar defe…",
@@ -1978,16 +1978,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d620b7b4a290ca3eb4200e6536aef052dcf4afce229bb442d5569e10026e2a10",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.727Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_89d11939-95ba-4764-bce3-d6f1885edb26",
@@ -2002,7 +2002,7 @@
       "sizeBytes": 5723,
       "checksum": "sha256:b4d9b1b119eb3f132a23dfb696283d1210e99ec60e8b2e5a4c11e5565a31abb8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 036 locale: nl source locale: en US track: WHITE level: 3 lesson: 36 title: \"Waarom rekeningen met belastingvoordeel de rekensom na belasting veranderen\" source title: \"Why Tax Advantaged Accounts Change the After Tax Math on Returns\" description: \"Ontdek waarom het soort rekening waarmee je belegt, flink kan veranderen wat je echt overhoudt aan rendement, los van hoe de belegging zel…",
@@ -2031,16 +2031,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b4d9b1b119eb3f132a23dfb696283d1210e99ec60e8b2e5a4c11e5565a31abb8",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.728Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_f88e81ea-cdde-48e6-852d-4220b92df770",
@@ -2055,7 +2055,7 @@
       "sizeBytes": 5527,
       "checksum": "sha256:b7f1d84a6f900204ee283f86b4db3eb216e201bd01e04f68c8fe4603b9a17427",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 037 locale: nl source locale: en US track: WHITE level: 3 lesson: 37 title: \"Waarom tax loss harvesting een verlies omzet in een toekomstig voordeel\" source title: \"Why Tax Loss Harvesting Turns a Loss Into a Future Benefit\" description: \"Ontdek hoe tax loss harvesting werkt, waarom het een ongerealiseerd verlies omzet in een bruikbaar belastingvoordeel, en waarom het proces zorgvuldi…",
@@ -2084,16 +2084,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b7f1d84a6f900204ee283f86b4db3eb216e201bd01e04f68c8fe4603b9a17427",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.728Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_020ad46f-185b-49c9-9971-8dc368fd73e0",
@@ -2108,7 +2108,7 @@
       "sizeBytes": 5332,
       "checksum": "sha256:3aa2a3bb1e712834109a8fed249d919668ba56315c926766e5d4ea7206bd68ba",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 038 locale: nl source locale: en US track: WHITE level: 3 lesson: 38 title: \"Waarom de wash sale regel tax loss harvesting beperkt\" source title: \"Why the Wash Sale Rule Limits Tax Loss Harvesting\" description: \"Ontdek wat een wash sale is, waarom de regel bestaat, en waarom die direct beperkt hoe je tax loss harvesting kunt uitvoeren.\" slug: white l3 038 wash sale rule seo title: \"Wa…",
@@ -2137,16 +2137,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3aa2a3bb1e712834109a8fed249d919668ba56315c926766e5d4ea7206bd68ba",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.729Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_8b9c7210-dbd4-43c9-93a2-b17205cde58e",
@@ -2161,7 +2161,7 @@
       "sizeBytes": 5558,
       "checksum": "sha256:8556e7472b722c8393466dea7d6b0d629e0325a9f0a5436e54361c206214022c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 039 locale: nl source locale: en US track: WHITE level: 3 lesson: 39 title: \"Waarom vermogenswinst anders wordt belast afhankelijk van hoe lang je een belegging aanhoudt\" source title: \"Why Capital Gains Are Taxed Differently Based on Holding Period\" description: \"Ontdek waarom de tijd dat je een belegging aanhoudt voordat je verkoopt, invloed kan hebben op hoe een eventuele winst wor…",
@@ -2190,16 +2190,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8556e7472b722c8393466dea7d6b0d629e0325a9f0a5436e54361c206214022c",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.729Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_91734947-e706-4d38-bc85-f5f82fcd9cd9",
@@ -2214,7 +2214,7 @@
       "sizeBytes": 5422,
       "checksum": "sha256:cacf17bf67c17105f358c953969c88f2cc6d93f752ee1c7fd6dcbc90b06c4f32",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 040 locale: nl source locale: en US track: WHITE level: 3 lesson: 40 title: \"Waarom de kostprijsbasis je echte belastbare winst bepaalt\" source title: \"Why Cost Basis Determines Your Real Taxable Gain\" description: \"Ontdek wat de kostprijsbasis betekent, waarom die niet altijd zo simpel is als de oorspronkelijke aankoopprijs, en waarom het belangrijk is om die nauwkeurig bij te houden…",
@@ -2243,16 +2243,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:cacf17bf67c17105f358c953969c88f2cc6d93f752ee1c7fd6dcbc90b06c4f32",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.729Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_d2deaef7-4b40-4b53-b5a8-138382ca768c",
@@ -2267,7 +2267,7 @@
       "sizeBytes": 5039,
       "checksum": "sha256:bf7b2e2a2553ac7fc02e600a1eab3915d6db6cd02b15fe4fd5bdd9423b073382",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 041 locale: nl source locale: en US track: WHITE level: 3 lesson: 41 title: \"Waarom een stop loss order je verkoopprijs niet garandeert\" source title: \"Why a Stop Loss Order Doesn't Guarantee Your Exit Price\" description: \"Ontdek hoe een stop loss order werkt, en waarom die een trigger is voor een marktorder, en geen garantie voor de precieze prijs die je krijgt.\" slug: white l3 041 s…",
@@ -2296,16 +2296,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:bf7b2e2a2553ac7fc02e600a1eab3915d6db6cd02b15fe4fd5bdd9423b073382",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.730Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_b8162e5b-5609-4dd8-84e4-08e55f0d35a8",
@@ -2320,7 +2320,7 @@
       "sizeBytes": 5606,
       "checksum": "sha256:cbdcae15257eee92da012849b8837ec406719ae59bb83139ace1f1dfa86381e7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 042 locale: nl source locale: en US track: WHITE level: 3 lesson: 42 title: \"Waarom de liquiditeit verschilt tussen een blue chip aandeel en een weinig verhandeld aandeel\" source title: \"Why Liquidity Differs Between a Blue Chip Stock and a Thinly Traded One\" description: \"Ontdek wat liquiditeit betekent voor een effect, en waarom een weinig verhandeld aandeel moeilijker en duurder te…",
@@ -2349,16 +2349,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:cbdcae15257eee92da012849b8837ec406719ae59bb83139ace1f1dfa86381e7",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.730Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_ad76524c-5783-438e-90e5-98b482c4f2fb",
@@ -2373,7 +2373,7 @@
       "sizeBytes": 4966,
       "checksum": "sha256:a3b281000e6622f5df153e2350b9578432ce37bd78a9f5e50590476257ec9008",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 043 locale: nl source locale: en US track: WHITE level: 3 lesson: 43 title: \"Waarom marktorders en limietorders verschillende doelen dienen\" source title: \"Why Market Orders and Limit Orders Serve Different Purposes\" description: \"Ontdek het verschil tussen een marktorder en een limietorder, en waarom de juiste keuze afhangt van wat je eigenlijk onder controle wilt houden.\" slug: whit…",
@@ -2402,16 +2402,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a3b281000e6622f5df153e2350b9578432ce37bd78a9f5e50590476257ec9008",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.731Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_2ae51371-c921-4367-b86c-e8f48935b209",
@@ -2426,7 +2426,7 @@
       "sizeBytes": 5209,
       "checksum": "sha256:db4c129344ef49312fb066792d19dd33075a564bfcc541020ea62b646dd73817",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 044 locale: nl source locale: en US track: WHITE level: 3 lesson: 44 title: \"Waarom beursgangen een uniek risico met zich meebrengen vergeleken met gevestigde beursgenoteerde bedrijven\" source title: \"Why IPOs Carry Unique Risk Compared to Established Public Companies\" description: \"Ontdek waarom het kopen van aandelen in een pas beursgenoteerd bedrijf anders is dan beleggen in een ge…",
@@ -2455,16 +2455,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:db4c129344ef49312fb066792d19dd33075a564bfcc541020ea62b646dd73817",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.743Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_252fa2ce-20fc-4b9a-b1d3-122a043ac5a0",
@@ -2479,7 +2479,7 @@
       "sizeBytes": 5559,
       "checksum": "sha256:0da23837ade52c3a6e079a0cab02fcbdf5c0bb5e1802ce5297e2a6432b60d64e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 045 locale: nl source locale: en US track: WHITE level: 3 lesson: 45 title: \"Waarom aandeleninkoop aandeelhouders anders raakt dan dividenden\" source title: \"Why Stock Buybacks Affect Shareholders Differently Than Dividends\" description: \"Ontdek hoe het inkopen van eigen aandelen op een andere manier waarde teruggeeft aan aandeelhouders dan een dividend, en waarom de gevolgen voor bel…",
@@ -2508,16 +2508,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0da23837ade52c3a6e079a0cab02fcbdf5c0bb5e1802ce5297e2a6432b60d64e",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.744Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_e7975115-dc35-446e-bd00-696c37714380",
@@ -2532,7 +2532,7 @@
       "sizeBytes": 5215,
       "checksum": "sha256:c5cbc1b2be79fb3f1106c88ff1396af5464d91733e7887f6fff2827b3de43eae",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 046 locale: nl source locale: en US track: WHITE level: 3 lesson: 46 title: \"Waarom bèta de beweeglijkheid van een aandeel meet ten opzichte van de markt\" source title: \"Why Beta Measures a Stock's Volatility Relative to the Market\" description: \"Ontdek wat bèta meet, waarom een bèta boven of onder 1.0 je iets specifieks vertelt over het verwachte gedrag van een aandeel, en wat bèta n…",
@@ -2561,16 +2561,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c5cbc1b2be79fb3f1106c88ff1396af5464d91733e7887f6fff2827b3de43eae",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.745Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_01ac4d81-c503-442b-afb4-48c3072552a5",
@@ -2585,7 +2585,7 @@
       "sizeBytes": 6126,
       "checksum": "sha256:d22fbd766c4273b9cd11487f2a0646837804720ce9c0d5def7bb8842c03ea522",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 047 locale: nl source locale: en US track: WHITE level: 3 lesson: 47 title: \"Waarom spreiden over soorten beleggingen, en niet alleen over aandelen, het risico van je portefeuille verkleint\" source title: \"Why Diversifying Across Asset Classes, Not Just Stocks, Reduces Portfolio Risk\" description: \"Ontdek waarom het combineren van aandelen met andere soorten beleggingen, zoals obligat…",
@@ -2614,16 +2614,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d22fbd766c4273b9cd11487f2a0646837804720ce9c0d5def7bb8842c03ea522",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.745Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_6c8674a2-68d0-4910-88b7-5570535d812f",
@@ -2638,7 +2638,7 @@
       "sizeBytes": 5112,
       "checksum": "sha256:a6f0dc0236902429f91afda71177c1b610dcf85014cf9b3477d29f7fbc826757",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 048 locale: nl source locale: en US track: WHITE level: 3 lesson: 48 title: \"Waarom de omvang van een positie bepaalt hoeveel één slechte gok je kan schaden\" source title: \"Why Position Sizing Determines How Much a Single Bad Bet Can Hurt You\" description: \"Ontdek waarom hoeveel je in één positie belegt net zo belangrijk is als of die positie een goed idee is, en waarom het bepalen va…",
@@ -2667,16 +2667,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a6f0dc0236902429f91afda71177c1b610dcf85014cf9b3477d29f7fbc826757",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.746Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_bd7192c6-30c5-4cc4-9d3d-42b606a3e267",
@@ -2691,7 +2691,7 @@
       "sizeBytes": 5293,
       "checksum": "sha256:b1048025a58e732ce6b3e1037700e06707087cc32202981420cdca658a379a4b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 049 locale: nl source locale: en US track: WHITE level: 3 lesson: 49 title: \"Waarom een geschreven beleggingsplan je beschermt tegen je eigen emoties\" source title: \"Why a Written Investment Plan Protects You From Your Own Emotions\" description: \"Ontdek waarom het van tevoren opschrijven van je beleggingsplan je beschermt tegen de gedragsfouten uit deze leerlijn die je in het heetst v…",
@@ -2720,16 +2720,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b1048025a58e732ce6b3e1037700e06707087cc32202981420cdca658a379a4b",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.746Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     },
     {
       "id": "file_93cbbc57-dc18-4e62-8dbc-490dfcf64b10",
@@ -2744,7 +2744,7 @@
       "sizeBytes": 5998,
       "checksum": "sha256:9fb9439c082d4987f268405f13f73a6998034620abe22f42707e457289d38ce6",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 050 locale: nl source locale: en US track: WHITE level: 3 lesson: 50 title: \"Waarom papieren bezittingen beheersen betekent weten wat je niet hoeft te voorspellen\" source title: \"Why Mastering Paper Assets Means Knowing What You Don't Need to Predict\" description: \"De afsluitende les van deze leerlijn: waarom echte vaardigheid in beleggen in papieren bezittingen zit in het opbouwen va…",
@@ -2773,16 +2773,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:9fb9439c082d4987f268405f13f73a6998034620abe22f42707e457289d38ce6",
         "uploadBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:40.034Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:34.746Z"
+      "updatedAt": "2026-10-03T17:22:40.034Z"
     }
   ],
   "auditHistory": [
