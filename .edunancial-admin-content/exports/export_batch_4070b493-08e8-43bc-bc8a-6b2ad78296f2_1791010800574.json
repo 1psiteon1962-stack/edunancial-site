@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2_1791010800574",
+  "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+  "fileName": "recovered-white-l3-001-050-es-caribbean-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2_1791010800574.zip",
+  "manifestPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/recovered-white-l3-001-050-es-caribbean-zip/batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2/rejected-files.json",
+  "createdAt": "2026-10-03T07:00:00.574Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
