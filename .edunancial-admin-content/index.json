@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_b5b4c81a-0fed-46a4-a500-995b61e2d132",
+    "name": "Recovered white-l3-001-050-es-caribbean.zip",
+    "slug": "recovered-white-l3-001-050-es-caribbean-zip",
+    "source": "Recovered from stored upload batch batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-03T06:45:24.144Z",
+    "updatedAt": "2026-10-03T06:45:25.504Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_0a3db18d-f01c-4c4a-a9e7-ff154d19c5b1",
     "name": "Recovered white-l3-001-050-es-caribbean.zip",
     "slug": "recovered-white-l3-001-050-es-caribbean-zip",
