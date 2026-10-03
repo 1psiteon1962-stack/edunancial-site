@@ -1,29 +1,22 @@
 [
   {
-    "id": "upload-operation-1639cf52-2f9c-4dff-a2c6-91ddebd21bd1",
-    "timestamp": "2026-10-03T17:22:31.306Z",
+    "id": "upload-operation-a7dae26f-0291-4055-bf75-a91442f62852",
+    "timestamp": "2026-10-03T17:22:31.148Z",
     "action": "system-error",
-    "result": "success",
+    "result": "failure",
     "actor": "admin-content-uploader",
     "batchId": "batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
     "metadata": {
       "kind": "upload-operation",
-      "uploadId": "upload_a051abe5-3ca2-470f-abfc-f24cbc260109",
+      "uploadId": "upload_2798a63f-653f-4147-bb2d-3240732e1d4a",
       "phase": "FINALIZE",
-      "status": "STARTED",
-      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_a051abe5-3ca2-470f-abfc-f24cbc260109-white-l3-001-050-nl.zip",
-      "fileName": "WHITE-L3-001-050-nl.zip",
-      "fileSize": 106057,
-      "errorCode": null,
-      "errorMessage": null,
-      "mode": "single-package-request",
-      "reviewBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6",
-      "packageIdentity": {
-        "track": "white",
-        "level": "level-3",
-        "language": "nl",
-        "title": "001 050"
-      }
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_2798a63f-653f-4147-bb2d-3240732e1d4a-white-l3-001-050-de.zip",
+      "fileName": "WHITE-L3-001-050-de.zip",
+      "fileSize": 114096,
+      "errorCode": "Error",
+      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at 5ae9dfa9a1cc15dc8c30e1a3f739fb87bdc1acc9 but expected c8e8f0fd9ea188563819ad04050d6673fbc370b7\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+      "mode": "single-package-request"
     }
   },
   {
