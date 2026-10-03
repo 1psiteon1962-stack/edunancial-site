@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-03-white-l3-001-050-nl-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "exported",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-03T17:22:32.370Z",
-  "updatedAt": "2026-10-03T17:22:52.216Z",
+  "updatedAt": "2026-10-03T17:22:46.154Z",
   "uploads": [
     {
       "id": "upload_a051abe5-3ca2-470f-abfc-f24cbc260109",
@@ -2837,14 +2837,25 @@
   ],
   "auditHistory": [
     {
-      "id": "audit_fedcf503-be0d-4541-b0b5-f45097af6b70",
-      "timestamp": "2026-10-03T17:22:52.216Z",
-      "action": "export-generated",
+      "id": "audit_b794a1da-b094-4d0a-bb51-024214d2c360",
+      "timestamp": "2026-10-03T17:23:02.456Z",
+      "action": "github-pr-opened",
       "result": "success",
       "actor": "1psiteon1962@gmail.com",
       "batchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6",
       "metadata": {
-        "exportId": "export_batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6_1791048169226"
+        "url": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1113"
+      }
+    },
+    {
+      "id": "audit_149fe4f9-d37f-4a32-9cb8-ad5df940a683",
+      "timestamp": "2026-10-03T17:23:01.419Z",
+      "action": "github-branch-created",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6",
+      "metadata": {
+        "branch": "content/course-upload-20261003-172255-content-upload-2026-10-03-white-l3-001-050-nl-zip"
       }
     },
     {
@@ -2900,6 +2911,13 @@
           "No curriculum-bound markdown files required validation."
         ],
         "errors": []
+      },
+      "github": {
+        "branch": "content/course-upload-20261003-172255-content-upload-2026-10-03-white-l3-001-050-nl-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1113",
+        "pullRequestNumber": 1113,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
       }
     }
   ],
