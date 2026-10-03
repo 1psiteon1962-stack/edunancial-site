@@ -1,8 +1,31 @@
+import ingestLedger from "../../../.edunancial-admin-content/ingest-ledger.json";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
+
+type StoredZipIngestLedger = {
+  packages?: Record<string, { path?: string; status?: string }>;
+};
+
+function normalizeStoredUploadPath(path: string) {
+  return path.replace(/^\.edunancial-admin-content\//u, "");
+}
+
+function getDurablyIngestedStoragePaths() {
+  const packages = (ingestLedger as StoredZipIngestLedger).packages ?? {};
+  return new Set(
+    Object.values(packages).flatMap((entry) => {
+      if (
+        !entry ||
+        typeof entry.path !== "string" ||
+        !["ingested", "merged", "live"].includes(String(entry.status ?? "").toLowerCase())
+      ) return [];
+      return [normalizeStoredUploadPath(entry.path)];
+    }),
+  );
+}
 
 export type RecoverableCurriculumPackage = RecoveryCandidate & {
   identity:
@@ -41,6 +64,12 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
     }),
   );
 
+  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
+  // receipt to the repository ledger. Those packages are already canonical and
+  // must not be offered for recovery even when older runs predate FINALIZE audit
+  // receipts. Invalid/failed ledger entries deliberately remain recoverable.
+  const ingested = getDurablyIngestedStoragePaths();
+
   const candidates: RecoveryCandidate[] = [];
   const seen = new Set<string>();
   for (const storagePath of entries) {
@@ -48,7 +77,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       !storagePath.startsWith("uploads/courses/") ||
       !storagePath.toLowerCase().endsWith(".zip")
     ) continue;
-    if (finalized.has(storagePath) || seen.has(storagePath)) continue;
+    if (finalized.has(storagePath) || ingested.has(storagePath) || seen.has(storagePath)) continue;
 
     const match = storagePath.match(
       /^uploads\/courses\/(batch_[^/]+)\/(upload_[0-9a-f-]+)-(.+\.zip)$/iu,
