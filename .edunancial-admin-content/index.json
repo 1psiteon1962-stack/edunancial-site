@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_5240aa53-95a0-46a5-ba08-58702cac1c29",
+    "name": "Content Upload 2026-10-03 — WHITE-L3-001-050-en-GB.zip",
+    "slug": "content-upload-2026-10-03-white-l3-001-050-en-gb-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-03T04:30:19.424Z",
+    "updatedAt": "2026-10-03T04:30:20.862Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_330b7f71-6c3c-4676-9b84-cce533ad9486",
     "name": "Recovered white-l3-001-050-ht.zip",
     "slug": "recovered-white-l3-001-050-ht-zip",
