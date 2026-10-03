@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-9466dbf1-12dc-412f-b196-1224ee53a8b3",
+    "timestamp": "2026-10-03T04:30:38.381Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_de97dfcf-2a5c-40b9-9ce2-cd5da5a02298",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_674f9e13-3f4d-42ff-9276-db9f1aeb7447",
+      "phase": "FINALIZE",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_de97dfcf-2a5c-40b9-9ce2-cd5da5a02298/upload_674f9e13-3f4d-42ff-9276-db9f1aeb7447-white-l3-001-050-en-gb.zip",
+      "fileName": "WHITE-L3-001-050-en-GB.zip",
+      "fileSize": 99124,
+      "errorCode": "Error",
+      "errorMessage": "Localized curriculum requires canonical registry lessons first: WHITE-L3-001, WHITE-L3-002, WHITE-L3-003, WHITE-L3-004, WHITE-L3-005, WHITE-L3-006, WHITE-L3-007, WHITE-L3-008, WHITE-L3-009, WHITE-L3-010, WHITE-L3-011, WHITE-L3-012, WHITE-L3-013, WHITE-L3-014, WHITE-L3-015, WHITE-L3-016, WHITE-L3-017, WHITE-L3-018, WHITE-L3-019, WHITE-L3-020, WHITE-L3-021, WHITE-L3-022, WHITE-L3-023, WHITE-L3-024, WHITE-L3-025, WHITE-L3-026, WHITE-L3-027, WHITE-L3-028, WHITE-L3-029, WHITE-L3-030, WHITE-L3-031, WHITE-L3-032, WHITE-L3-033, WHITE-L3-034, WHITE-L3-035, WHITE-L3-036, WHITE-L3-037, WHITE-L3-038, WHITE-L3-039, WHITE-L3-040, WHITE-L3-041, WHITE-L3-042, WHITE-L3-043, WHITE-L3-044, WHITE-L3-045, WHITE-L3-046, WHITE-L3-047, WHITE-L3-048, WHITE-L3-049, WHITE-L3-050",
+      "mode": "single-package-request"
+    }
+  },
+  {
     "id": "audit_2c115fd2-84e2-4fcb-8869-8903106aee4f",
     "timestamp": "2026-10-03T04:30:33.912Z",
     "action": "export-generated",
