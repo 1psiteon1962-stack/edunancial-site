@@ -6,7 +6,7 @@
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
   "status": "approved",
   "createdAt": "2026-10-03T06:59:47.452Z",
-  "updatedAt": "2026-10-03T07:01:15.195Z",
+  "updatedAt": "2026-10-03T07:01:15.577Z",
   "uploads": [
     {
       "id": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
@@ -130,9 +130,9 @@
       },
       "warnings": [],
       "error": null,
-      "approvedAt": "2026-10-03T07:01:13.468Z",
+      "approvedAt": "2026-10-03T07:01:13.985Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T07:01:15.195Z"
+      "updatedAt": "2026-10-03T07:01:15.577Z"
     },
     {
       "id": "file_06a455dd-8075-4c68-9b69-46526a5492a1",
@@ -2837,8 +2837,8 @@
   ],
   "auditHistory": [
     {
-      "id": "audit_1988aa9a-d1e6-4078-8d35-7be5293d1267",
-      "timestamp": "2026-10-03T07:01:15.196Z",
+      "id": "audit_6b5ec430-a732-415a-977d-42c2818cd18c",
+      "timestamp": "2026-10-03T07:01:15.577Z",
       "action": "classification-changed",
       "result": "success",
       "actor": "1psiteon1962@gmail.com",
