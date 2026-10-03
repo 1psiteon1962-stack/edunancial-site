@@ -93,8 +93,22 @@ export async function POST(request: NextRequest) {
     ? await verifyRestoredCanonicalCoordinate(classified!.reconciliationKey!)
     : null;
   const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
-  const githubPublication = trustedPublicationAttempted ? await exportBatchToGithub(batch.id, actor) : null;
   if (postPublicationVerification && !postPublicationVerification.complete) return Response.json({ success: false, error: "Canonical restoration published but did not resolve all 50 learner lessons.", postPublicationVerification, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
-  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, githubPublication, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
-  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, githubPublication, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
+
+  // Durable recovery completion must not depend on the slower GitHub export.
+  // exportBatchToGithub performs many remote GitHub calls and can outlive the
+  // serverless response window. Mark the stored package recovered first so an
+  // interrupted response cannot create another recovery batch on retry.
+  await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
+
+  let githubPublication = null;
+  let githubPublicationError: string | null = null;
+  if (trustedPublicationAttempted) {
+    try {
+      githubPublication = await exportBatchToGithub(batch.id, actor);
+    } catch (error) {
+      githubPublicationError = error instanceof Error ? error.message : String(error);
+    }
+  }
+  return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
