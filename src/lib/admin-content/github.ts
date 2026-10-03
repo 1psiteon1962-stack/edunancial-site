@@ -299,7 +299,18 @@ function canonicalPublicationContent(content: string, asset: ParsedCurriculumAss
 function normalizeCurriculumPublicationLocale(value: string | null | undefined): string | null {
   const locale = value?.trim().replaceAll("_", "-");
   if (!locale || locale.toLowerCase() === "en" || locale.toLowerCase() === "en-us") return null;
-  if (!/^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/u.test(locale)) throw new Error(`Unsafe curriculum locale: ${locale}`);
+
+  // Edunancial has intentional descriptive regional locales such as
+  // es-Caribbean. They are curriculum identifiers rather than a claim that
+  // every locale is a strict BCP-47 tag. Keep publication path-safe while
+  // accepting the locale vocabulary already used by canonical curriculum.
+  if (
+    locale.length > 64 ||
+    !/^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,32})*$/u.test(locale) ||
+    locale.includes("..")
+  ) {
+    throw new Error(`Unsafe curriculum locale: ${locale}`);
+  }
   return locale;
 }
 
