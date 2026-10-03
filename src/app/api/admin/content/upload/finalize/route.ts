@@ -74,11 +74,27 @@ export async function POST(request: NextRequest) {
     const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
     const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
     const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
-    const githubPublication = trustedPublicationAttempted ? await exportBatchToGithub(batch.id, actor) : null;
 
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication, publicationDeferred: false } });
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: githubPublication ? "STARTED" : "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : "NOT_REQUIRED" } });
-    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, githubPublication, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : "NOT_REQUIRED", publicationDeferred: Boolean(githubPublication), finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    // Atomic learner publication is the durable finalization boundary. GitHub
+    // export is a second remote operation and must never turn a successfully
+    // stored, validated, and atomically published package back into a failed
+    // upload. Persist FINALIZE success first so a slow/failed GitHub request
+    // cannot strand the stored ZIP or cause a duplicate recovery attempt.
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, publicationDeferred: trustedPublicationAttempted } });
+
+    let githubPublication = null;
+    let githubPublicationError: string | null = null;
+    if (trustedPublicationAttempted) {
+      try {
+        githubPublication = await exportBatchToGithub(batch.id, actor);
+      } catch (error) {
+        githubPublicationError = error instanceof Error ? error.message : String(error);
+      }
+    }
+
+    const githubPublicationPending = trustedPublicationAttempted && !githubPublication;
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: githubPublication ? "STARTED" : trustedPublicationAttempted ? "FAILED" : "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, errorMessage: githubPublicationError ?? undefined, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED" } });
+    return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED", publicationDeferred: trustedPublicationAttempted, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
