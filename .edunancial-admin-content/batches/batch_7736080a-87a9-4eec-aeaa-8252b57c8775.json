@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "partially-reviewed",
+  "status": "exported",
   "createdAt": "2026-10-03T06:12:50.611Z",
-  "updatedAt": "2026-10-03T06:12:58.931Z",
+  "updatedAt": "2026-10-03T06:13:03.524Z",
   "uploads": [
     {
       "id": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
@@ -2837,6 +2837,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_9162161f-5706-4286-bb4b-929df1b9e86e",
+      "timestamp": "2026-10-03T06:13:03.524Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_7736080a-87a9-4eec-aeaa-8252b57c8775",
+      "metadata": {
+        "exportId": "export_batch_7736080a-87a9-4eec-aeaa-8252b57c8775_1791007981679"
+      }
+    },
+    {
       "id": "audit_a6887563-fdae-4928-b326-03269e4be434",
       "timestamp": "2026-10-03T06:12:51.956Z",
       "action": "archive-extracted",
@@ -2872,6 +2883,25 @@
       "batchId": "batch_7736080a-87a9-4eec-aeaa-8252b57c8775"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_7736080a-87a9-4eec-aeaa-8252b57c8775_1791007981679",
+      "batchId": "batch_7736080a-87a9-4eec-aeaa-8252b57c8775",
+      "fileName": "content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_7736080a-87a9-4eec-aeaa-8252b57c8775_1791007981679.zip",
+      "manifestPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-10-03-white-l3-001-050-es-caribbean-zip/batch_7736080a-87a9-4eec-aeaa-8252b57c8775/rejected-files.json",
+      "createdAt": "2026-10-03T06:13:01.679Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
