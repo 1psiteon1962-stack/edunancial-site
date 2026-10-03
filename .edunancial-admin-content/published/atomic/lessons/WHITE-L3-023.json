@@ -1,0 +1,34 @@
+{
+  "id": "WHITE-L3-023",
+  "track": "WHITE",
+  "trackName": "Paper Assets",
+  "level": 3,
+  "lessonNumber": 23,
+  "title": "Perché investire in fondi indicizzati è una scommessa sul mercato, non su un gestore",
+  "summary": "",
+  "author": "Waldemar M. Caban, JD MA",
+  "date": "2026-10-03",
+  "version": "1.0",
+  "status": "active",
+  "importedAt": "2026-10-03T17:43:23.916Z",
+  "metadata": {
+    "officialTrackName": "Paper Assets"
+  },
+  "path": "content/curriculum/WHITE/L3/WHITE-L3-023.md",
+  "body": "# WHITE-L3-023: Perché investire in fondi indicizzati è una scommessa sul mercato, non su un gestore\n\n## Obiettivi di apprendimento\nAlla fine di questa lezione sarai in grado di:\n- Spiegare che cosa fa un fondo indicizzato\n- Spiegare la scommessa specifica che fa chi investe in fondi indicizzati, rispetto a un investitore attivo\n- Spiegare perché questo approccio elimina il rischio legato alla scelta del gestore\n\n## Contenuto principale\n\nUn **fondo indicizzato** è pensato per seguire un indice di mercato specifico (come un indice ampio del mercato azionario) possedendo gli stessi titoli di quell'indice, più o meno nelle stesse proporzioni, invece di avere un gestore che sceglie attivamente quali titoli comprare o vendere nel tentativo di fare meglio dell'indice.\n\nEcco il \"perché\" questa è una scommessa fondamentalmente diversa: chi investe in fondi indicizzati non scommette su una singola azienda, né sull'abilità di un particolare gestore nello scegliere le azioni. Scommette sulla crescita complessiva, nel lungo periodo, del mercato più ampio (o del segmento di mercato) che l'indice rappresenta. Questo elimina un intero livello di rischio che l'investimento attivo comporta: il rischio che le azioni che hai scelto tu, o quelle scelte dal gestore che hai scelto, rendano meno del mercato nel suo complesso.\n\n[VERIFIED FACT] Questo non significa che investire in fondi indicizzati elimini del tutto il rischio: i fondi indicizzati hanno comunque il rischio che il mercato più ampio stesso scenda, perché sono pensati proprio per muoversi con quel mercato, non per proteggere dai suoi cali.\n\n## Esempio pratico\n\n[ILLUSTRATIVE EXAMPLE] Un investitore che sceglie un fondo a gestione attiva sta scommettendo, anche senza dirlo, che il gestore del fondo sappia scegliere singoli titoli che, messi insieme, rendano più del mercato più ampio al netto dei costi: una scommessa sull'abilità e sulle decisioni di quel gestore specifico. Un'investitrice che sceglie invece un fondo indicizzato sul mercato ampio sta scommettendo che il mercato nel suo complesso crescerà nel tempo, senza bisogno di capire quali aziende specifiche o quale gestore specifico faranno le scelte. [ASSUMPTION] Se il mercato più ampio sale durante il periodo in cui tiene l'investimento, l'investitrice nel fondo indicizzato partecipa a quella crescita qualunque siano le singole aziende che l'hanno guidata: non ha bisogno di aver individuato correttamente in anticipo i vincitori specifici.\n\n## Quiz di esercitazione\n\n1. Che cosa cerca di fare un fondo indicizzato?\n2. Quale scommessa specifica fa chi investe in fondi indicizzati, rispetto a chi investe in un fondo attivo?\n3. Investire in fondi indicizzati elimina del tutto il rischio di investimento? Perché sì o perché no?\n\n## Chiave delle risposte\n\n1. Seguire un indice di mercato specifico possedendo gli stessi titoli più o meno nelle stesse proporzioni, invece di avere un gestore che sceglie attivamente i titoli.\n2. Una scommessa sulla crescita complessiva del mercato più ampio o di un segmento di mercato, invece di una scommessa sull'abilità di un gestore o di un investitore specifico nello scegliere le azioni.\n3. No: i fondi indicizzati hanno comunque il rischio che il mercato più ampio scenda, perché sono pensati per seguire l'andamento di quel mercato, non per proteggere dai suoi cali.\n\n## Risposte e spiegazioni\n\n1. Questa è la definizione di base della lezione.\n2. Questa è la distinzione concettuale centrale tra investimento indicizzato e investimento attivo.\n3. Questo è un chiarimento importante contro l'idea sbagliata e troppo semplice che \"i fondi indicizzati sono senza rischi\".\n\n## Punti chiave\n- I fondi indicizzati seguono un indice di mercato invece di affidarsi alla scelta attiva delle azioni da parte di un gestore.\n- Investire in fondi indicizzati è una scommessa sulla crescita del mercato più ampio nel suo complesso, non sull'abilità di un singolo gestore o sulla scelta delle azioni.\n- I fondi indicizzati hanno comunque il rischio di mercato: si muovono con il mercato, anche durante i cali.\n\n---\n\n*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce una consulenza personalizzata in materia finanziaria, di investimento, fiscale o legale. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*",
+  "frontMatter": {
+    "id": "WHITE-L3-023",
+    "locale": "it",
+    "source_locale": "en-US",
+    "track": "WHITE",
+    "level": "3",
+    "lesson": "23",
+    "title": "Perché investire in fondi indicizzati è una scommessa sul mercato, non su un gestore",
+    "source_title": "Why Index Investing Bets on the Market, Not a Manager",
+    "description": "Scopri su che cosa scommette davvero chi investe in fondi indicizzati, e perché è una scommessa fondamentalmente diversa dallo scegliere singole azioni o gestori di fondi attivi.",
+    "slug": "white-l3-023-index-investing",
+    "seo_title": "Perché investire in fondi indicizzati è una scommessa sul mercato, non su un gestore | Edunancial",
+    "meta_description": "Scopri su che cosa scommette davvero chi investe in fondi indicizzati, e perché è una scommessa fondamentalmente diversa dallo scegliere singole azioni o gestori di fondi attivi.",
+    "author": "Waldemar M. Caban, JD MA"
+  }
+}
