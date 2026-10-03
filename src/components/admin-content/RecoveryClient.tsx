@@ -50,11 +50,22 @@ export default function RecoveryClient() {
       headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
       body: JSON.stringify({ batchId, uploadId }),
     });
-    const payload = await response.json();
-    if (!response.ok) {
+    const responseText = await response.text();
+    let payload: any = null;
+    if (responseText.trim()) {
+      try {
+        payload = JSON.parse(responseText);
+      } catch {
+        // A long-running recovery may finish server-side after the HTTP
+        // response is truncated. Treat this as ambiguous and reconcile from
+        // persistent storage rather than reporting a JSON parser failure.
+      }
+    }
+    if (!response.ok && payload) {
       const details = [payload.error, payload.reason, payload.detail, payload.controlledDecision?.reason, payload.executionDecision?.reason].filter(Boolean);
       throw new Error(details.join(" — ") || `Recovery failed (HTTP ${response.status}).`);
     }
+    if (!payload) return { reconciliationRequired: true };
     return payload;
   }
 
@@ -66,6 +77,11 @@ export default function RecoveryClient() {
     setProgress("");
     try {
       const payload = await recoverRequest(batchId, uploadId);
+      if (payload.reconciliationRequired) {
+        setProgress("Recovery response was interrupted. Reconciling the stored package from persistent server state; do not retry or re-upload it.");
+        await load({ preserveError: true });
+        return;
+      }
       router.push(`/admin/content/batches/${payload.batch.id}`);
       router.refresh();
     } catch (err) {
