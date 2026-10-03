@@ -1,5 +1,24 @@
 [
   {
+    "id": "upload-operation-f5138901-d562-4069-8481-ed2874007a4c",
+    "timestamp": "2026-10-03T17:42:57.945Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "PUBLISH",
+      "status": "STARTED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null
+    }
+  },
+  {
     "id": "audit_e00a9683-48d1-4da6-951e-732b894e6577",
     "timestamp": "2026-10-03T17:42:14.155Z",
     "action": "github-pr-opened",
