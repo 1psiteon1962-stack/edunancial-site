@@ -4,6 +4,7 @@ import { appendBatchAuditEvent } from "@/lib/admin-content/audit";
 import { createAuditEvent } from "@/lib/admin-content/auth";
 import { classifyFile } from "@/lib/admin-content/classification/classify";
 import { DEFAULT_UPLOAD_RATE_LIMIT } from "@/lib/admin-content/config";
+import { detectBundledCurriculumLessons } from "@/lib/admin-content/curriculum";
 import { extractPreview } from "@/lib/admin-content/extractors";
 import { resolvePackageUploadConfig } from "@/lib/admin-content/package-upload-config";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
@@ -298,23 +299,54 @@ export async function createIndependentUploadBatchFromStoredFiles(
       let reviewFiles: ExtractedFile[];
       if (extension === ".zip") {
         const entries = extractZipEntries(buffer);
-        reviewFiles = entries.map((entry) =>
-          createReviewFile(
-            batchId,
-            upload.uploadId,
+        reviewFiles = [];
+        for (const entry of entries) {
+          const detected = validateFileType(
             entry.normalizedName,
-            entry.name,
-            upload.originalFilename,
-            validateFileType(
-              entry.normalizedName,
-              "application/octet-stream",
-              entry.data,
-            ).detectedMime,
+            "application/octet-stream",
             entry.data,
-            source,
-            packageUploadConfig,
-          ),
-        );
+          ).detectedMime;
+
+          if (
+            packageUploadConfig.destination === "courses" &&
+            entry.normalizedName.toLowerCase().endsWith(".md")
+          ) {
+            const bundledLessons = await detectBundledCurriculumLessons(entry.data.toString("utf8"));
+            if (bundledLessons.length > 0) {
+              for (const lesson of bundledLessons) {
+                const lessonBuffer = Buffer.from(lesson.content, "utf8");
+                reviewFiles.push(
+                  createReviewFile(
+                    batchId,
+                    upload.uploadId,
+                    `${lesson.asset.id}.md`,
+                    entry.name,
+                    upload.originalFilename,
+                    "text/markdown",
+                    lessonBuffer,
+                    source,
+                    packageUploadConfig,
+                  ),
+                );
+              }
+              continue;
+            }
+          }
+
+          reviewFiles.push(
+            createReviewFile(
+              batchId,
+              upload.uploadId,
+              entry.normalizedName,
+              entry.name,
+              upload.originalFilename,
+              detected,
+              entry.data,
+              source,
+              packageUploadConfig,
+            ),
+          );
+        }
       } else {
         reviewFiles = [
           createReviewFile(
