@@ -358,7 +358,8 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   // localized upload itself to create a canonical lesson identity.
   const localizedScopes = new Map<string, { track: string; level: number }>();
   for (const file of approvedFiles) {
-    const asset = file.extension === ".md" ? await detectCurriculumAsset(file.content, file.originalFilename) : null;
+    const content = Buffer.from(file.encodedContent, "base64").toString("utf8");
+    const asset = file.extension === ".md" ? await detectCurriculumAsset(content, file.originalFilename) : null;
     const locale = asset ? normalizeCurriculumPublicationLocale(asset.locale ?? file.classification.language ?? file.metadata.language) : null;
     if (!asset || !locale) continue;
     localizedScopes.set(`${asset.track.toLowerCase()}:L${asset.level}`, { track: asset.track, level: asset.level });
