@@ -4,14 +4,14 @@
     "name": "Recovered white-l3-001-050-it.zip",
     "slug": "recovered-white-l3-001-050-it-zip",
     "source": "Recovered from stored upload batch batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
-    "status": "ready-for-review",
+    "status": "partially-reviewed",
     "createdAt": "2026-10-03T17:41:50.690Z",
-    "updatedAt": "2026-10-03T17:41:51.890Z",
+    "updatedAt": "2026-10-03T17:41:54.312Z",
     "totalUploads": 1,
     "totalFiles": 51,
-    "approvedFiles": 0,
+    "approvedFiles": 50,
     "rejectedFiles": 0,
-    "pendingFiles": 51,
+    "pendingFiles": 1,
     "conflicts": 0
   },
   {
