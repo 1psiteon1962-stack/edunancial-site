@@ -4,9 +4,9 @@
   "slug": "recovered-white-l3-001-050-es-caribbean-zip",
   "source": "Recovered from stored upload batch batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9",
   "notes": "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.",
-  "status": "exported",
+  "status": "approved",
   "createdAt": "2026-10-03T06:59:47.452Z",
-  "updatedAt": "2026-10-03T07:00:02.886Z",
+  "updatedAt": "2026-10-03T07:01:15.195Z",
   "uploads": [
     {
       "id": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
@@ -94,7 +94,7 @@
       "sizeBytes": 1183,
       "checksum": "sha256:4ae7fa0723632f3f889e74e6aad211d4f22e2f889273238f7381a43825855711",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "WHITE L3 — es Caribbean (Español, Caribe) — Manifiesto Lecciones: de WHITE L3 001 a WHITE L3 050 (50/50) Idioma: es Caribbean | Fuente: en US (versión maestra en inglés de WHITE L3) Autor: Waldemar M. Caban, JD MA Formato: 7 secciones (Objetivos de aprendizaje, Contenido principal, Ejemplo práctico, Prueba de práctica, Clave de respuestas, Respuestas y explicaciones, Puntos clave) + aviso educativ…",
@@ -123,16 +123,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "approved",
         "version": "1.0.0",
         "checksum": "sha256:4ae7fa0723632f3f889e74e6aad211d4f22e2f889273238f7381a43825855711",
         "uploadBatchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T07:01:13.468Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T06:59:48.690Z"
+      "updatedAt": "2026-10-03T07:01:15.195Z"
     },
     {
       "id": "file_06a455dd-8075-4c68-9b69-46526a5492a1",
@@ -2836,6 +2836,15 @@
     }
   ],
   "auditHistory": [
+    {
+      "id": "audit_1988aa9a-d1e6-4078-8d35-7be5293d1267",
+      "timestamp": "2026-10-03T07:01:15.196Z",
+      "action": "classification-changed",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+      "fileId": "file_d99057d2-09dc-41a2-94e5-4a15ffdac421"
+    },
     {
       "id": "audit_e5d9c9c3-e422-42ad-acf2-07132613f413",
       "timestamp": "2026-10-03T07:00:02.886Z",
