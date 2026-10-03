@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_9634c636-ca89-47c7-b4c6-441fab8055ad",
+    "name": "Content Upload 2026-10-03 — WHITE-L3-001-050-fr-FR.zip",
+    "slug": "content-upload-2026-10-03-white-l3-001-050-fr-fr-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-03T17:22:23.685Z",
+    "updatedAt": "2026-10-03T17:22:26.108Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38",
     "name": "Content Upload 2026-10-03 — WHITE-L3-001-050-pt-BR.zip",
     "slug": "content-upload-2026-10-03-white-l3-001-050-pt-br-zip",
