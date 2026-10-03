@@ -399,7 +399,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
       ...(file.curriculumAsset ? [file.curriculumAsset.id] : []),
       ...file.bundledLessons.map((lesson) => lesson.asset.id),
     ].map((id) => id.toUpperCase());
-    return ids.filter((id) => !repositoryLessonIds.has(id));
+    return ids.filter((id) => !existingLessonIds.has(id));
   }))].sort();
   if (orphanLocalizedLessonIds.length > 0) throw new Error(`Localized curriculum requires canonical registry lessons first: ${orphanLocalizedLessonIds.join(", ")}`);
 
