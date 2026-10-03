@@ -99,12 +99,30 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
     for (const lesson of lessons) {
       const id = lesson.id.toUpperCase();
       const existing = await readJson<PublishedLessonRecord>(lessonPath(id));
-      await writeJson(lessonPath(id), {
-        ...lesson,
-        id,
-        ...(existing?.translations ? { translations: existing.translations } : {}),
-        importedAt: new Date().toISOString(),
-      });
+      const locale = lesson.frontMatter?.locale?.trim();
+      const isLocalized = Boolean(locale && locale.toLowerCase() !== "en" && locale.toLowerCase() !== "en-us");
+      if (isLocalized) {
+        const canonical = registryLevelOne().find((entry) => entry.id.toUpperCase() === id)
+          ?? (existing && !existing.frontMatter?.locale ? existing : null);
+        if (!canonical) throw new Error(`Canonical lesson ${id} is unavailable; refusing to publish localized content as the base lesson.`);
+        const translations = existing?.translations ?? canonical.translations ?? {};
+        await writeJson(lessonPath(id), {
+          ...canonical,
+          id,
+          translations: {
+            ...translations,
+            [locale!]: { title: lesson.title, summary: lesson.summary, body: lesson.body },
+          },
+          importedAt: new Date().toISOString(),
+        });
+      } else {
+        await writeJson(lessonPath(id), {
+          ...lesson,
+          id,
+          ...(existing?.translations ? { translations: existing.translations } : {}),
+          importedAt: new Date().toISOString(),
+        });
+      }
       ids.push(id);
     }
     await writeJson(batchPath(batchId), [...new Set(ids)].sort());
