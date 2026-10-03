@@ -1,5 +1,16 @@
 [
   {
+    "id": "audit_ae9668d2-ef43-4bc3-8dec-c906eadac82e",
+    "timestamp": "2026-10-03T04:19:42.372Z",
+    "action": "login-success",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "metadata": {
+      "role": "admin",
+      "usingFallback": false
+    }
+  },
+  {
     "id": "upload-operation-af356efc-7bcf-484a-b6e7-53f4fa413217",
     "timestamp": "2026-10-01T13:56:21.448Z",
     "action": "system-error",
