@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-03-white-l3-001-050-pt-br-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-03T17:22:13.691Z",
-  "updatedAt": "2026-10-03T17:22:15.352Z",
+  "updatedAt": "2026-10-03T17:22:17.566Z",
   "uploads": [
     {
       "id": "upload_85a566c7-5ab8-4122-8190-c35a9c1affcd",
@@ -147,7 +147,7 @@
       "sizeBytes": 5272,
       "checksum": "sha256:6ed79b4e54cf281bcc5f520ac6f5a2758cdb457e2431a2dd473e712ebbe86e76",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 001 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 1 title: \"Por que \\\"comprar na baixa, vender na alta\\\" é mais difícil de fazer do que de falar\" source title: \"Why \\\"Buy Low, Sell High\\\" Is Harder to Execute Than to Say\" description: \"Entenda por que o conselho de investimento mais simples é também um dos mais difíceis de seguir na prática, e o que realmente atrapa…",
@@ -176,16 +176,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6ed79b4e54cf281bcc5f520ac6f5a2758cdb457e2431a2dd473e712ebbe86e76",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.302Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_9faa51ca-201a-4231-aab1-1f46f016edd5",
@@ -200,7 +200,7 @@
       "sizeBytes": 5734,
       "checksum": "sha256:36bfccb5dc681a251a6478b64dbcad1d743f473f3321ac1d25cc1f2ca86f9b10",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 002 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 2 title: \"Por que a diversificação reduz o risco sem reduzir o retorno esperado (tanto quanto você imagina)\" source title: \"Why Diversification Reduces Risk Without Reducing Expected Return (as Much as You'd Think)\" description: \"Entenda por que distribuir seus investimentos entre muitos ativos reduz o risco de forma…",
@@ -229,16 +229,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:36bfccb5dc681a251a6478b64dbcad1d743f473f3321ac1d25cc1f2ca86f9b10",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.304Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_92132a7a-6299-4e54-b4f2-d941592d51b2",
@@ -253,7 +253,7 @@
       "sizeBytes": 5756,
       "checksum": "sha256:3a04fbb8599b8f65a8c1ce8330b50cb83cc9132e82df8ac3e9b700db254fea13",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 003 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 3 title: \"Por que a correlação determina a diversificação real, e não apenas o número de ativos\" source title: \"Why Correlation Determines Real Diversification, Not Just Number of Holdings\" description: \"Entenda por que ter muitos investimentos não é o mesmo que estar realmente diversificado, e por que a correlação é…",
@@ -282,16 +282,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3a04fbb8599b8f65a8c1ce8330b50cb83cc9132e82df8ac3e9b700db254fea13",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.305Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_647f3edc-719b-4eb4-b89b-230c9a3929ec",
@@ -306,7 +306,7 @@
       "sizeBytes": 5496,
       "checksum": "sha256:b132781f10b423841cd5fd1a9ec2044f191ffed31fbe5486603025ed1bd5102d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 004 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 4 title: \"Por que volatilidade e risco não são exatamente a mesma coisa\" source title: \"Why Volatility and Risk Aren't Exactly the Same Thing\" description: \"Entenda por que um gráfico de preços cheio de altos e baixos não é automaticamente o mesmo que risco financeiro real, e por que essa diferença importa na hora de…",
@@ -335,16 +335,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b132781f10b423841cd5fd1a9ec2044f191ffed31fbe5486603025ed1bd5102d",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.305Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_2c8809fa-a343-4c23-8811-fd0fc374ee24",
@@ -359,7 +359,7 @@
       "sizeBytes": 5100,
       "checksum": "sha256:405c0910d0f1894584ecba1a9ae28aa6ae51e79319d34f2afe60edec20699b4a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 005 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 5 title: \"Por que as opções dão direitos, e não obrigações, e por que isso tem um custo\" source title: \"Why Options Give You Rights, Not Obligations — And Why That Costs Something\" description: \"Entenda a estrutura básica dos contratos de opções, por que comprar uma opção dá apenas um direito, e por que esse direito …",
@@ -388,16 +388,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:405c0910d0f1894584ecba1a9ae28aa6ae51e79319d34f2afe60edec20699b4a",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.306Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_90538497-140b-4f71-86a6-d3567e1812a3",
@@ -412,7 +412,7 @@
       "sizeBytes": 4997,
       "checksum": "sha256:07b5a653d429070949d595be901110f967d4fe4568be08f87a2ca7e73c3feca9",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 006 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 6 title: \"Por que uma call aposta na direção e um straddle aposta no movimento\" source title: \"Why a Call Bets on Direction and a Straddle Bets on Movement\" description: \"Entenda a diferença entre uma aposta direcional com opções e um straddle, que lucra com um movimento grande em qualquer direção.\" slug: white l3 00…",
@@ -441,16 +441,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:07b5a653d429070949d595be901110f967d4fe4568be08f87a2ca7e73c3feca9",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.306Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_f109ac47-f0d9-437c-b7ff-74b10ebfc1d9",
@@ -465,7 +465,7 @@
       "sizeBytes": 5274,
       "checksum": "sha256:924f8cbfe41a314511f8d1347dad835478c208d45d792617ab24ba165b7fe948",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 007 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 7 title: \"Por que a perda de valor com o tempo trabalha contra quem compra opções\" source title: \"Why Time Decay Works Against Option Buyers\" description: \"Entenda por que uma opção perde valor simplesmente com a passagem do tempo, mesmo que o preço do ativo objeto não mude.\" slug: white l3 007 time decay seo title: …",
@@ -494,16 +494,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:924f8cbfe41a314511f8d1347dad835478c208d45d792617ab24ba165b7fe948",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.307Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_c5181f74-e706-4aad-80e1-e062e94f16b8",
@@ -518,7 +518,7 @@
       "sizeBytes": 5303,
       "checksum": "sha256:2155e1d220c6c816ba077e1c927706e484021247867af7188a878f97e7863650",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 008 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 8 title: \"Por que vender opções inverte completamente o perfil de risco\" source title: \"Why Selling Options Flips the Risk Profile Entirely\" description: \"Entenda por que vender (lançar) uma opção coloca você no lado da obrigação do contrato, com um perfil de risco muito diferente do de quem compra.\" slug: white l3 0…",
@@ -547,16 +547,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2155e1d220c6c816ba077e1c927706e484021247867af7188a878f97e7863650",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.308Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_839247f7-860b-4010-a6d4-7428c846ee95",
@@ -571,7 +571,7 @@
       "sizeBytes": 5034,
       "checksum": "sha256:a3f7b826fc1526c9ce071e57115bfec7e2af2fffe610eab96b576d6e878b246b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 009 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 9 title: \"Por que a margem amplia ganhos e perdas como a alavancagem imobiliária\" source title: \"Why Margin Amplifies Gains and Losses Like Real Estate Leverage\" description: \"Entenda como funciona comprar ações com margem, e por que isso multiplica tanto os ganhos quanto as perdas de um jeito parecido com a alavanca…",
@@ -600,16 +600,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a3f7b826fc1526c9ce071e57115bfec7e2af2fffe610eab96b576d6e878b246b",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.309Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_cb9dda36-17b6-4baf-aa8b-cdd4a9eb48a5",
@@ -624,7 +624,7 @@
       "sizeBytes": 5508,
       "checksum": "sha256:f74077022821b24e7c52997738dc4784d4f65ed799aca4521febea4fba0cd6b8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 010 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 10 title: \"Por que uma chamada de margem pode obrigar você a vender no pior momento possível\" source title: \"Why a Margin Call Can Force You to Sell at the Worst Possible Time\" description: \"Entenda o que é uma chamada de margem (margin call), por que ela acontece automaticamente, e por que pode obrigar você a vender…",
@@ -653,16 +653,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f74077022821b24e7c52997738dc4784d4f65ed799aca4521febea4fba0cd6b8",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.310Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_d6b54e3e-2a37-4732-9385-1c41c5a705fc",
@@ -677,7 +677,7 @@
       "sizeBytes": 5446,
       "checksum": "sha256:b85b1b0ec3785af6b84fde0fb21ea1476fccb3370dc7480ff08356bad5628849",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 011 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 11 title: \"Por que a venda a descoberto tem risco teoricamente ilimitado\" source title: \"Why Short Selling Has Theoretically Unlimited Risk\" description: \"Entenda como funciona a venda a descoberto, por que ela lucra com a queda do preço, e por que a sua perda potencial é, pela própria estrutura, ilimitada.\" slug: wh…",
@@ -706,16 +706,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b85b1b0ec3785af6b84fde0fb21ea1476fccb3370dc7480ff08356bad5628849",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.310Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_1e04d54d-892a-4087-a796-36ca24f2af7a",
@@ -730,7 +730,7 @@
       "sizeBytes": 5011,
       "checksum": "sha256:f073fd1878a7a27e2d18b8e15247b96221a51fce9005af5c4d74eab62272cb7b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 012 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 12 title: \"Por que os aportes regulares (preço médio) reduzem o risco de momento, e não o risco do investimento\" source title: \"Why Dollar Cost Averaging Reduces Timing Risk, Not Investment Risk\" description: \"Entenda por que investir um valor fixo em um calendário regular reduz o risco de escolher um mau momento, se…",
@@ -759,16 +759,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f073fd1878a7a27e2d18b8e15247b96221a51fce9005af5c4d74eab62272cb7b",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.311Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_b319f70c-edb7-45e8-97fd-f17807d6f357",
@@ -783,7 +783,7 @@
       "sizeBytes": 6005,
       "checksum": "sha256:113efad0e7245ff3c6749b9d23bbbb6f5705beff0dd034e6ff5746fcd5f7085f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 013 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 13 title: \"Por que investir tudo de uma vez muitas vezes supera os aportes regulares (e por que as pessoas ainda escolhem os aportes regulares)\" source title: \"Why Lump Sum Investing Often Outperforms DCA (and Why People Still Choose DCA)\" description: \"Entenda por que investir tudo de uma vez tende, estatisticamente…",
@@ -812,16 +812,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:113efad0e7245ff3c6749b9d23bbbb6f5705beff0dd034e6ff5746fcd5f7085f",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.311Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_b5664fbd-50d8-4002-9041-eda7def76d90",
@@ -836,7 +836,7 @@
       "sizeBytes": 5369,
       "checksum": "sha256:00aa79690fd152fb41326efb09e04a5aa778bef7c1bc895f53c26e9e762442c5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 014 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 14 title: \"Por que o rebalanceamento obriga você a vender na alta e comprar na baixa automaticamente\" source title: \"Why Rebalancing Forces You to Sell High and Buy Low Automatically\" description: \"Entenda como funciona o rebalanceamento da carteira, e por que ele transforma a disciplina de \\\"comprar na baixa, vender…",
@@ -865,16 +865,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:00aa79690fd152fb41326efb09e04a5aa778bef7c1bc895f53c26e9e762442c5",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.311Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_2a0ce01e-f764-4dbe-9808-15490c4e5175",
@@ -889,7 +889,7 @@
       "sizeBytes": 5593,
       "checksum": "sha256:55771f75529224f73371890be343faf5459b63bd4bf37e34a143947a72e2bc8c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 015 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 15 title: \"Por que o risco da sequência de retornos importa mais na aposentadoria do que na fase de acumulação\" source title: \"Why Sequence of Returns Risk Matters More in Retirement Than Accumulation\" description: \"Entenda por que a ordem em que os retornos dos investimentos acontecem pode importar mais do que o pró…",
@@ -918,16 +918,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:55771f75529224f73371890be343faf5459b63bd4bf37e34a143947a72e2bc8c",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.312Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_91c5ffa8-8a9f-4b4e-af7b-6d0661940589",
@@ -942,7 +942,7 @@
       "sizeBytes": 5491,
       "checksum": "sha256:4a247dc3fe2b13d77167c016a0065d619c79d27ff8d4bc4f351f41b2c6fc6643",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 016 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 16 title: \"Por que uma taxa de retirada \\\"segura\\\" não é uma garantia\" source title: \"Why a \\\"Safe\\\" Withdrawal Rate Isn't a Guarantee\" description: \"Entenda o que uma taxa de retirada segura pretende representar, e por que ela é uma referência histórica, e não uma promessa sobre o seu futuro específico.\" slug: white…",
@@ -971,16 +971,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4a247dc3fe2b13d77167c016a0065d619c79d27ff8d4bc4f351f41b2c6fc6643",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.312Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_47819ed2-fd05-4ed8-b958-d00371a5965a",
@@ -995,7 +995,7 @@
       "sizeBytes": 5008,
       "checksum": "sha256:6d3466f0e4103ea46138a7533701acc72fb4ff5687cb37a4bc8ba15fb5e35c67",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 017 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 17 title: \"Por que dividendos não são \\\"dinheiro de graça\\\"\" source title: \"Why Dividends Aren't \\\"Free Money\\\"\" description: \"Entenda por que o pagamento de um dividendo reduz o preço de uma ação em mais ou menos o mesmo valor, e por que os dividendos são uma redistribuição de valor, e não um bônus.\" slug: white l3 …",
@@ -1024,16 +1024,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6d3466f0e4103ea46138a7533701acc72fb4ff5687cb37a4bc8ba15fb5e35c67",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.322Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_bfe13c13-0fed-4f52-96fd-0c35bc5d0dac",
@@ -1048,7 +1048,7 @@
       "sizeBytes": 5401,
       "checksum": "sha256:a06423d5c7922f32cd81b6808981df7b976b03ec281057077e4e31eda20359de",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 018 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 18 title: \"Por que a duration de um título mede a sensibilidade às taxas de juros\" source title: \"Why Bond Duration Measures Interest Rate Sensitivity\" description: \"Entenda o que a duration de um título de renda fixa mede, por que títulos com duration mais longa são mais sensíveis a mudanças nas taxas de juros, e po…",
@@ -1077,16 +1077,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a06423d5c7922f32cd81b6808981df7b976b03ec281057077e4e31eda20359de",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.322Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_31dc74da-4d1d-4df8-912d-27336305b518",
@@ -1101,7 +1101,7 @@
       "sizeBytes": 5724,
       "checksum": "sha256:4250471630093aeeb4d7aa599399e68625192e84ff78311492139c1f89706b9d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 019 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 19 title: \"Por que os preços dos títulos e as taxas de juros se movem em direções opostas\" source title: \"Why Bond Prices and Interest Rates Move in Opposite Directions\" description: \"Entenda o motivo mecânico pelo qual a alta das taxas de juros faz cair o preço dos títulos de renda fixa já existentes, e por que essa…",
@@ -1130,16 +1130,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4250471630093aeeb4d7aa599399e68625192e84ff78311492139c1f89706b9d",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.323Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_54cc938f-bb5a-48ed-b35e-b8694ea7929b",
@@ -1154,7 +1154,7 @@
       "sizeBytes": 5900,
       "checksum": "sha256:87dc83e36e1acb7691ad3604e60c538ec2201492f14d9f6b4276e1169078c7f3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 020 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 20 title: \"Por que o risco de crédito e o risco de taxa de juros são riscos diferentes dos títulos\" source title: \"Why Credit Risk and Interest Rate Risk Are Different Bond Risks\" description: \"Entenda por que um título de renda fixa pode perder valor por dois motivos completamente diferentes, e por que entender qual…",
@@ -1183,16 +1183,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:87dc83e36e1acb7691ad3604e60c538ec2201492f14d9f6b4276e1169078c7f3",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.323Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_8edb67a2-a3ac-4d05-92ca-93fba038f8ba",
@@ -1207,7 +1207,7 @@
       "sizeBytes": 5926,
       "checksum": "sha256:e7652d528b3af271159a2119b3164ff45795167484b26cf9192e4c84bd619afa",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 021 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 21 title: \"Por que ETFs e fundos mútuos são diferentes em negociação, impostos e custo\" source title: \"Why ETFs and Mutual Funds Differ in Trading, Tax, and Cost\" description: \"Entenda as diferenças práticas entre ETFs e fundos mútuos, e por que essas diferenças podem importar mais do que as semelhanças gerais entre …",
@@ -1236,16 +1236,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e7652d528b3af271159a2119b3164ff45795167484b26cf9192e4c84bd619afa",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.324Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_7b48bb0b-3121-4804-b8bb-2af49dda5fa2",
@@ -1260,7 +1260,7 @@
       "sizeBytes": 5396,
       "checksum": "sha256:9c7fde5f591e6bde27e75ad8a8f3216b037908e2dd36d22e31b2ba4f857f4a3a",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 022 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 22 title: \"Por que as taxas de administração se acumulam ao longo de décadas\" source title: \"Why Expense Ratios Compound Over Decades\" description: \"Entenda por que uma taxa anual de fundo que parece pequena pode custar dezenas de milhares de dólares em um horizonte de investimento longo, e por que é fácil subestimar…",
@@ -1289,16 +1289,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:9c7fde5f591e6bde27e75ad8a8f3216b037908e2dd36d22e31b2ba4f857f4a3a",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.324Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_103fd17d-38be-4a49-bd75-be4ad0327d68",
@@ -1313,7 +1313,7 @@
       "sizeBytes": 5132,
       "checksum": "sha256:b18638bce891088714441b191bd57f265d55875335dd849c4fc5bd519cc6f4af",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 023 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 23 title: \"Por que investir em índices é apostar no mercado, e não em um gestor\" source title: \"Why Index Investing Bets on the Market, Not a Manager\" description: \"Entenda em que investir em índices realmente aposta, e por que essa é uma aposta fundamentalmente diferente de escolher ações individuais ou gestores de …",
@@ -1342,16 +1342,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b18638bce891088714441b191bd57f265d55875335dd849c4fc5bd519cc6f4af",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.325Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_5d601dd2-4139-4769-9a6c-5c8ac257568a",
@@ -1366,7 +1366,7 @@
       "sizeBytes": 5922,
       "checksum": "sha256:61c10390c1fd4790df928c36ffd55d77cf54eb94120bfea590aec3a45c986baa",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 024 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 24 title: \"Por que a gestão ativa precisa superar as próprias taxas para agregar valor\" source title: \"Why Active Management Has to Overcome Its Own Fees to Add Value\" description: \"Entenda por que um fundo de gestão ativa precisa superar o mercado por mais do que uma pequena margem para realmente entregar um resulta…",
@@ -1395,16 +1395,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:61c10390c1fd4790df928c36ffd55d77cf54eb94120bfea590aec3a45c986baa",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.325Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_5ffcdee4-fd61-47a3-8031-8964d8893c95",
@@ -1419,7 +1419,7 @@
       "sizeBytes": 5643,
       "checksum": "sha256:8ebc06c84730cd130cab80d993fce4b1806303dac2bf8edb54d17d9103baaeec",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 025 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 25 title: \"Por que o desempenho passado de um fundo não prevê o desempenho futuro\" source title: \"Why Past Fund Performance Doesn't Predict Future Performance\" description: \"Entenda por que um histórico recente forte de um fundo não é um sinal confiável de como ele vai se sair daqui para frente.\" slug: white l3 025 p…",
@@ -1448,16 +1448,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8ebc06c84730cd130cab80d993fce4b1806303dac2bf8edb54d17d9103baaeec",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.326Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_b2e42988-31db-416f-bdc3-d3c04be2e9a1",
@@ -1472,7 +1472,7 @@
       "sizeBytes": 5242,
       "checksum": "sha256:fbab4aa09e371a23fae224d18184f8fc4fbf97ed1944dea312fd266e4cb7763d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 026 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 26 title: \"Por que os vieses comportamentais custam mais aos investidores do que as taxas\" source title: \"Why Behavioral Biases Cost Investors More Than Fees Do\" description: \"Entenda por que a psicologia do investidor, e não só as taxas dos fundos, costuma ser apontada como um dos maiores freios aos retornos reais d…",
@@ -1501,16 +1501,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:fbab4aa09e371a23fae224d18184f8fc4fbf97ed1944dea312fd266e4cb7763d",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.326Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_323bb931-ffd8-4eb0-87e9-594dda1ae0a7",
@@ -1525,7 +1525,7 @@
       "sizeBytes": 5298,
       "checksum": "sha256:c9cc864ca2d84ebfc4cac5e939dd285115f358fb9abd9f7b8ca00034d19331c5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 027 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 27 title: \"Por que a aversão à perda faz os investidores venderem os vencedores cedo demais e segurarem os perdedores por tempo demais\" source title: \"Why Loss Aversion Makes Investors Sell Winners Too Early and Hold Losers Too Long\" description: \"Entenda por que a dor de uma perda costuma ser mais forte do que o pra…",
@@ -1554,16 +1554,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c9cc864ca2d84ebfc4cac5e939dd285115f358fb9abd9f7b8ca00034d19331c5",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.326Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_4900605c-8c69-4b2f-8a16-7e8e8bd2a59b",
@@ -1578,7 +1578,7 @@
       "sizeBytes": 5235,
       "checksum": "sha256:e560811f65591cf99299a9886bbe3815ea3d3d321028cf31321c2618cb916b16",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 028 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 28 title: \"Por que o viés de recência distorce a percepção de risco depois de um movimento do mercado\" source title: \"Why Recency Bias Distorts Risk Perception After a Market Move\" description: \"Entenda por que os investidores tendem a dar peso demais aos acontecimentos recentes ao avaliar o risco, e por que isso pod…",
@@ -1607,16 +1607,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e560811f65591cf99299a9886bbe3815ea3d3d321028cf31321c2618cb916b16",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.342Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_008b4beb-9b88-41f6-a1fb-7c2603d57695",
@@ -1631,7 +1631,7 @@
       "sizeBytes": 5033,
       "checksum": "sha256:7c689c2330dc2f1718a04fc64b7c773a4abd20a9aeecd36ddc52d3466c378bec",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 029 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 29 title: \"Por que a inflação corrói o poder de compra mesmo em uma carteira \\\"segura\\\"\" source title: \"Why Inflation Erodes Purchasing Power Even in a \\\"Safe\\\" Portfolio\" description: \"Entenda por que manter apenas ativos muito estáveis e de baixo retorno ainda pode fazer você perder poder de compra com o tempo, mes…",
@@ -1660,16 +1660,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7c689c2330dc2f1718a04fc64b7c773a4abd20a9aeecd36ddc52d3466c378bec",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.342Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_c3e2f86f-d13b-45a0-9eb2-132175fe5cb7",
@@ -1684,7 +1684,7 @@
       "sizeBytes": 5839,
       "checksum": "sha256:706f1dadb838115bed39a7d038210fb301f7a5ad642ec69b9f3cc32c8422c4e2",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 030 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 30 title: \"Por que ativos diferentes reagem de formas diferentes à inflação\" source title: \"Why Different Assets Respond Differently to Inflation\" description: \"Entenda por que alguns investimentos tendem a resistir melhor em períodos de inflação do que outros, e por que não existe uma proteção perfeita contra a infl…",
@@ -1713,16 +1713,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:706f1dadb838115bed39a7d038210fb301f7a5ad642ec69b9f3cc32c8422c4e2",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.343Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_76ae9b47-7ce0-4eb4-a20b-7f804325e53e",
@@ -1737,7 +1737,7 @@
       "sizeBytes": 5181,
       "checksum": "sha256:0f70a7923e87e3ea8b29ab7c9d4f6b97d7ae7583ad861c67ef869e8e583e4234",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 031 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 31 title: \"Por que o risco cambial afeta os investimentos internacionais\" source title: \"Why Currency Risk Affects International Investments\" description: \"Entenda por que investir em ativos cotados em moeda estrangeira acrescenta uma camada de risco separada do desempenho do próprio investimento.\" slug: white l3 031…",
@@ -1766,16 +1766,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0f70a7923e87e3ea8b29ab7c9d4f6b97d7ae7583ad861c67ef869e8e583e4234",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.343Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_b8ad22c0-30f2-4aad-ae46-4be14956e2fe",
@@ -1790,7 +1790,7 @@
       "sizeBytes": 5395,
       "checksum": "sha256:14639910dc57ed076f71107284fbdb88b79b54c949a4bbd16d5dae168fcf07b4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 032 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 32 title: \"Por que os REITs permitem investir em imóveis sem comprar um imóvel\" source title: \"Why REITs Let You Invest in Real Estate Without Buying Property\" description: \"Entenda como funcionam os fundos de investimento imobiliário (REITs), por que eles são negociados como ações e como ligam as trilhas RED e WHITE…",
@@ -1819,16 +1819,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:14639910dc57ed076f71107284fbdb88b79b54c949a4bbd16d5dae168fcf07b4",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.344Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_e76e7e3b-a398-41bb-8365-695f72365f3e",
@@ -1843,7 +1843,7 @@
       "sizeBytes": 5093,
       "checksum": "sha256:b3a0e5e2cee64d375c0cf222f6dd4145c4dc20f2b4945fe390ff3266ea8760fc",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 033 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 33 title: \"Por que a concentração setorial aumenta o risco mesmo em uma carteira que parece diversificada\" source title: \"Why Sector Concentration Increases Risk Even in a Diversified Looking Portfolio\" description: \"Entenda por que ter muitas ações concentradas no mesmo setor pode deixar uma carteira mais exposta ao…",
@@ -1872,16 +1872,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b3a0e5e2cee64d375c0cf222f6dd4145c4dc20f2b4945fe390ff3266ea8760fc",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.344Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_a1e7f97a-c6bc-4e33-bc28-928442a29237",
@@ -1896,7 +1896,7 @@
       "sizeBytes": 5797,
       "checksum": "sha256:14dc6ba93b68c8c2a10334368efdaaf2cedc44ef7840a09e4ffca9d3427d65db",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 034 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 34 title: \"Por que a alocação de ativos importa mais do que escolher ações individuais\" source title: \"Why Asset Allocation Matters More Than Individual Stock Picking\" description: \"Entenda por que a combinação de classes de ativos em uma carteira tende a determinar os resultados de longo prazo mais do que as ações e…",
@@ -1925,16 +1925,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:14dc6ba93b68c8c2a10334368efdaaf2cedc44ef7840a09e4ffca9d3427d65db",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.344Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_26c5d1c2-29c4-4724-8e20-08a78591fff9",
@@ -1949,7 +1949,7 @@
       "sizeBytes": 5581,
       "checksum": "sha256:06e5a6c4a50022ed51355e2ff668e33f3ae98d67928bcd9d90db5be7710888aa",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 035 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 35 title: \"Por que uma glide path (trajetória de ajuste) reduz o risco conforme você envelhece\" source title: \"Why a Glide Path Shifts Risk as You Age\" description: \"Entenda por que muitas estratégias de investimento de longo prazo mudam aos poucos a alocação de ativos de uma carteira, de mais agressiva para mais con…",
@@ -1978,16 +1978,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:06e5a6c4a50022ed51355e2ff668e33f3ae98d67928bcd9d90db5be7710888aa",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.345Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_1ed11d55-9551-45bc-9be1-50c172ccbf41",
@@ -2002,7 +2002,7 @@
       "sizeBytes": 5785,
       "checksum": "sha256:d3c890f55bf7e39bfbce3a52fe758e999cd02cb9f189eae8d9d133718b5cf686",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 036 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 36 title: \"Por que as contas com vantagens fiscais mudam a conta do retorno depois dos impostos\" source title: \"Why Tax Advantaged Accounts Change the After Tax Math on Returns\" description: \"Entenda por que o tipo de conta pela qual você investe pode mudar bastante o retorno que realmente fica com você, separadament…",
@@ -2031,16 +2031,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d3c890f55bf7e39bfbce3a52fe758e999cd02cb9f189eae8d9d133718b5cf686",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.345Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_954bcdc0-3d23-492b-9854-f7031f0232c5",
@@ -2055,7 +2055,7 @@
       "sizeBytes": 5623,
       "checksum": "sha256:4d024caa46c97502d6e240576f736041b607e4bdbbbb7345258748149fe66c92",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 037 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 37 title: \"Por que o tax loss harvesting (colheita de prejuízos fiscais) transforma uma perda em um benefício futuro\" source title: \"Why Tax Loss Harvesting Turns a Loss Into a Future Benefit\" description: \"Entenda como funciona o tax loss harvesting, por que ele transforma uma perda não realizada em um benefício fis…",
@@ -2084,16 +2084,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4d024caa46c97502d6e240576f736041b607e4bdbbbb7345258748149fe66c92",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.346Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_c5d690a3-f40a-4da8-bd40-9280023ccfd0",
@@ -2108,7 +2108,7 @@
       "sizeBytes": 5560,
       "checksum": "sha256:e14ef817683fca878ca1be022033becb14d0a9a8d962a2269bcc959f31974175",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 038 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 38 title: \"Por que a regra de wash sale (venda de fachada) limita o tax loss harvesting\" source title: \"Why the Wash Sale Rule Limits Tax Loss Harvesting\" description: \"Entenda o que é uma wash sale, por que essa regra existe e por que ela limita diretamente a forma como o tax loss harvesting pode ser feito.\" slug: w…",
@@ -2137,16 +2137,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:e14ef817683fca878ca1be022033becb14d0a9a8d962a2269bcc959f31974175",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.346Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_40891613-e981-4b06-8847-42934fb8e110",
@@ -2161,7 +2161,7 @@
       "sizeBytes": 5735,
       "checksum": "sha256:95c9005968a671c12a5ffbfee25e59d8a327eabc197d92049cf1c3b322b21c73",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 039 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 39 title: \"Por que os ganhos de capital são tributados de forma diferente conforme o prazo de permanência\" source title: \"Why Capital Gains Are Taxed Differently Based on Holding Period\" description: \"Entenda por que o tempo que você mantém um investimento antes de vendê lo pode afetar a forma como o ganho é tributad…",
@@ -2190,16 +2190,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:95c9005968a671c12a5ffbfee25e59d8a327eabc197d92049cf1c3b322b21c73",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.346Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_81426e77-00a1-4e05-85cd-553f0dba6f4d",
@@ -2214,7 +2214,7 @@
       "sizeBytes": 5584,
       "checksum": "sha256:557bb5a6936c43c585a2335594d5a314b7e3e8fd704e8f9419a2fd8490aa06e7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 040 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 40 title: \"Por que o custo de aquisição (cost basis) determina o seu ganho tributável real\" source title: \"Why Cost Basis Determines Your Real Taxable Gain\" description: \"Entenda o que significa custo de aquisição, por que ele nem sempre é tão simples quanto o preço original de compra e por que acompanhá lo com preci…",
@@ -2243,16 +2243,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:557bb5a6936c43c585a2335594d5a314b7e3e8fd704e8f9419a2fd8490aa06e7",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.347Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_79544a48-4325-4639-bc6d-1d9bafa79b22",
@@ -2267,7 +2267,7 @@
       "sizeBytes": 5003,
       "checksum": "sha256:66773c8d2d6be003f3107f8739fb39e145077f7222fbfb0687e26611cd4cd853",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 041 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 41 title: \"Por que uma ordem stop loss não garante o seu preço de saída\" source title: \"Why a Stop Loss Order Doesn't Guarantee Your Exit Price\" description: \"Entenda como funciona uma ordem stop loss e por que ela é um gatilho para uma ordem a mercado, e não uma garantia do preço exato que você vai receber.\" slug: w…",
@@ -2296,16 +2296,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:66773c8d2d6be003f3107f8739fb39e145077f7222fbfb0687e26611cd4cd853",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.348Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_a5ee4022-aca2-4fa1-80f8-86b4da8c7741",
@@ -2320,7 +2320,7 @@
       "sizeBytes": 5570,
       "checksum": "sha256:a17821942cb48edfc056a00a2b2395588c4e4deaf74fc68f0d8a940c050f31f0",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 042 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 42 title: \"Por que a liquidez é diferente entre uma ação blue chip e uma ação pouco negociada\" source title: \"Why Liquidity Differs Between a Blue Chip Stock and a Thinly Traded One\" description: \"Entenda o que liquidez significa para um ativo e por que uma ação pouco negociada pode ser mais difícil e mais cara de co…",
@@ -2349,16 +2349,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:a17821942cb48edfc056a00a2b2395588c4e4deaf74fc68f0d8a940c050f31f0",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.348Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_a5c2a8ab-4561-488f-9b36-03853284168f",
@@ -2373,7 +2373,7 @@
       "sizeBytes": 4952,
       "checksum": "sha256:ffd8e9662af529f77ec4e7f761a927ff508348508b42d90ad8c0dc14c24745fe",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 043 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 43 title: \"Por que ordens a mercado e ordens limitadas servem a propósitos diferentes\" source title: \"Why Market Orders and Limit Orders Serve Different Purposes\" description: \"Entenda a diferença entre uma ordem a mercado e uma ordem limitada, e por que escolher a certa depende do que você realmente quer controlar.\"…",
@@ -2402,16 +2402,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:ffd8e9662af529f77ec4e7f761a927ff508348508b42d90ad8c0dc14c24745fe",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.348Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_714501e0-b48d-4239-9719-241fd82036a1",
@@ -2426,7 +2426,7 @@
       "sizeBytes": 5390,
       "checksum": "sha256:2f91fe44d56a6d2ef819b1a8ae2fe344ab9fd89a5776a261cb80870a9e3a7f19",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 044 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 44 title: \"Por que os IPOs têm um risco próprio em comparação com empresas de capital aberto já estabelecidas\" source title: \"Why IPOs Carry Unique Risk Compared to Established Public Companies\" description: \"Entenda por que comprar ações de uma empresa que acabou de abrir o capital é diferente de investir em uma emp…",
@@ -2455,16 +2455,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2f91fe44d56a6d2ef819b1a8ae2fe344ab9fd89a5776a261cb80870a9e3a7f19",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.349Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_94c49240-8cd0-408a-a2e1-1866406f442b",
@@ -2479,7 +2479,7 @@
       "sizeBytes": 5546,
       "checksum": "sha256:d2781852e033d2f783b6deb8915ac55b208790e83c68d5a4e2b88b45ce1bccb3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 045 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 45 title: \"Por que a recompra de ações afeta os acionistas de forma diferente dos dividendos\" source title: \"Why Stock Buybacks Affect Shareholders Differently Than Dividends\" description: \"Entenda como a recompra de ações devolve valor aos acionistas de forma diferente de um dividendo, e por que os efeitos fiscais e…",
@@ -2508,16 +2508,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d2781852e033d2f783b6deb8915ac55b208790e83c68d5a4e2b88b45ce1bccb3",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.349Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_294f2277-e4af-4c46-9abf-ce175e50160d",
@@ -2532,7 +2532,7 @@
       "sizeBytes": 5099,
       "checksum": "sha256:68b101498daf835bea2a11710be52ae3b9a23de236be55bedd26f7b5b5c0118d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 046 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 46 title: \"Por que o beta mede a volatilidade de uma ação em relação ao mercado\" source title: \"Why Beta Measures a Stock's Volatility Relative to the Market\" description: \"Entenda o que o beta mede, por que um beta acima ou abaixo de 1.0 diz algo específico sobre o comportamento esperado de uma ação e o que o beta n…",
@@ -2561,16 +2561,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:68b101498daf835bea2a11710be52ae3b9a23de236be55bedd26f7b5b5c0118d",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.350Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_421c7187-c4a0-4431-bab5-14cd1faf6c38",
@@ -2585,7 +2585,7 @@
       "sizeBytes": 6122,
       "checksum": "sha256:2533bc4d0bce9230cb8bb2f2d3b813eb2333e932dc38cc929e35085cd71a0307",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 047 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 47 title: \"Por que diversificar entre classes de ativos, e não só entre ações, reduz o risco da carteira\" source title: \"Why Diversifying Across Asset Classes, Not Just Stocks, Reduces Portfolio Risk\" description: \"Entenda por que combinar ações com outras classes de ativos, como títulos de renda fixa ou imóveis, pod…",
@@ -2614,16 +2614,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:2533bc4d0bce9230cb8bb2f2d3b813eb2333e932dc38cc929e35085cd71a0307",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.350Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_1b091b6d-c851-44ba-8877-933321deb015",
@@ -2638,7 +2638,7 @@
       "sizeBytes": 5278,
       "checksum": "sha256:f6d30c4cb72f2d7b7a02bab3d4ad49a5e887ea5fa34e95fb61a17cab1bdcc512",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 048 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 48 title: \"Por que o tamanho da posição determina o quanto uma única aposta ruim pode prejudicar você\" source title: \"Why Position Sizing Determines How Much a Single Bad Bet Can Hurt You\" description: \"Entenda por que o quanto você investe em cada posição importa tanto quanto a posição ser uma boa ideia, e por que o…",
@@ -2667,16 +2667,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f6d30c4cb72f2d7b7a02bab3d4ad49a5e887ea5fa34e95fb61a17cab1bdcc512",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.351Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_e982651f-1f20-4bbe-a675-93554db7a69e",
@@ -2691,7 +2691,7 @@
       "sizeBytes": 5767,
       "checksum": "sha256:358720c72fe7717d84a2a5ab8555c7e45b44f99d4031c5df70fe2c1f4ad244cd",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 049 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 49 title: \"Por que um plano de investimento por escrito protege você das suas próprias emoções\" source title: \"Why a Written Investment Plan Protects You From Your Own Emotions\" description: \"Entenda por que escrever o seu plano de investimento com antecedência protege contra os erros comportamentais vistos ao longo …",
@@ -2720,16 +2720,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:358720c72fe7717d84a2a5ab8555c7e45b44f99d4031c5df70fe2c1f4ad244cd",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.351Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     },
     {
       "id": "file_49f67c92-576c-4975-942d-cdc02cb1fb8c",
@@ -2744,7 +2744,7 @@
       "sizeBytes": 6238,
       "checksum": "sha256:421b1796ee65dbf010c359b15fc171527130640bd75e4f8019dc3983b533da3c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: WHITE L3 050 locale: pt BR source locale: en US track: WHITE level: 3 lesson: 50 title: \"Por que dominar os ativos de papel significa saber o que você não precisa prever\" source title: \"Why Mastering Paper Assets Means Knowing What You Don't Need to Predict\" description: \"A lição de encerramento desta trilha: por que a verdadeira habilidade em investir em ativos de papel está em estruturar um …",
@@ -2773,16 +2773,16 @@
         "contentType": "courses",
         "pillar": "white",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:421b1796ee65dbf010c359b15fc171527130640bd75e4f8019dc3983b533da3c",
         "uploadBatchId": "batch_9b2df0e4-5d00-4de0-a22e-216a6fecca38"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-03T17:22:17.566Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-03T17:22:15.352Z"
+      "updatedAt": "2026-10-03T17:22:17.566Z"
     }
   ],
   "auditHistory": [
