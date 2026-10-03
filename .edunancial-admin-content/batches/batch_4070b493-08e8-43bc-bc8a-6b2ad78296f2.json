@@ -2837,6 +2837,28 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_2a1321d1-f2e7-4eb5-8e0d-899ce0001063",
+      "timestamp": "2026-10-03T08:03:15.284Z",
+      "action": "github-pr-opened",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+      "metadata": {
+        "url": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1103"
+      }
+    },
+    {
+      "id": "audit_2ad4fbfd-3564-4284-8355-eb7af99a7c85",
+      "timestamp": "2026-10-03T08:03:14.097Z",
+      "action": "github-branch-created",
+      "result": "success",
+      "actor": "1psiteon1962@gmail.com",
+      "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+      "metadata": {
+        "branch": "content/course-upload-20261003-080307-recovered-white-l3-001-050-es-caribbean-zip"
+      }
+    },
+    {
       "id": "audit_fd4a9710-7625-4101-9cff-52061d8194db",
       "timestamp": "2026-10-03T07:01:42.936Z",
       "action": "bulk-action",
@@ -2921,6 +2943,13 @@
           "No curriculum-bound markdown files required validation."
         ],
         "errors": []
+      },
+      "github": {
+        "branch": "content/course-upload-20261003-080307-recovered-white-l3-001-050-es-caribbean-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1103",
+        "pullRequestNumber": 1103,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
       }
     }
   ],
