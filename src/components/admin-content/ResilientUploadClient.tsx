@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ADMIN_CONTENT_LANGUAGES, ADMIN_CONTENT_LANGUAGE_LABELS, type AdminContentLanguage } from "@/lib/admin-content/languages";
 import { MEMBERSHIP_ACCESS } from "@/lib/admin-content/constants";
-import { runSequentialFinalization } from "@/lib/admin-content/finalize-queue";
+import { runSequentialFinalization, shouldReconcileAmbiguousFinalizeError } from "@/lib/admin-content/finalize-queue";
 import { runParallelUploads } from "@/lib/admin-content/parallel-upload";
 
 const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
@@ -58,9 +58,23 @@ export default function ResilientUploadClient(){
    const stored:StoredUpload[]=files.flatMap((file,i)=>failedTransferIndexes.has(i)?[]:[{uploadId:presigned.uploads[i].uploadId,originalFilename:file.name,mimeType:file.type||"application/octet-stream",sizeBytes:file.size,storagePath:presigned.uploads[i].storagePath}]);
    if(stored.length){await runSequentialFinalization(stored,async(upload,index)=>{
     setPhase(`Processing package ${index+1} of ${stored.length}: ${upload.originalFilename}`);
-    const r=await fetch("/api/admin/content/upload/finalize",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,batchId:presigned.batchId,uploads:[upload]})});
-    if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);}
-    const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(payload.publicationDeferred&&id)deferredPublicationBatchIds.push(id);if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization. Finalization was not confirmed; the stored package remains available for interrupted-upload recovery.`);completedBatchIds.push(id);return id;
+    try{
+     const r=await fetch("/api/admin/content/upload/finalize",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,batchId:presigned.batchId,uploads:[upload]})});
+     if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}.`);}
+     const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(payload.publicationDeferred&&id)deferredPublicationBatchIds.push(id);if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization.`);completedBatchIds.push(id);return id;
+    }catch(finalizeError){
+     if(!shouldReconcileAmbiguousFinalizeError(finalizeError))throw finalizeError;
+     setPhase(`Confirming server completion for ${upload.originalFilename}…`);
+     for(let attempt=0;attempt<20;attempt+=1){
+      await new Promise(resolve=>setTimeout(resolve,1500));
+      const statusResponse=await fetch(`/api/admin/content/upload/finalize?batchId=${encodeURIComponent(presigned.batchId)}&uploadId=${encodeURIComponent(upload.uploadId)}`,{cache:"no-store",headers:{"x-csrf-token":csrf}});
+      if(!statusResponse.ok)continue;
+      const status=await statusResponse.json() as {status?:string;reviewBatchId?:string|null};
+      if(status.status==="SUCCEEDED"&&status.reviewBatchId){completedBatchIds.push(status.reviewBatchId);return status.reviewBatchId;}
+      if(status.status==="FAILED")throw finalizeError;
+     }
+     throw new Error(`${upload.originalFilename} finalization outcome is still pending after automatic reconciliation. The stored package remains preserved for recovery.`);
+    }
    },({completed,total})=>setProgress(90+Math.round((completed/total)*10)),({item,error:failureError})=>finalizationFailures.push({filename:item.originalFilename,message:failureError instanceof Error?failureError.message:String(failureError)}));}
    setProgress(100);setUploading(false);setPhase("");
    if(transferFailures.length||finalizationFailures.length){

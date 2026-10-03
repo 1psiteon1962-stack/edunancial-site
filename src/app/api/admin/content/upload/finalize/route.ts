@@ -33,6 +33,19 @@ async function getAlreadyFinalizedReviewBatchId(batchId: string, uploadId: strin
   return null;
 }
 
+export async function GET(request: NextRequest) {
+  const auth = await requireAdminApiSession(request, true);
+  if (!auth.ok) return auth.response;
+  const batchId = request.nextUrl.searchParams.get("batchId")?.trim() ?? "";
+  const uploadId = request.nextUrl.searchParams.get("uploadId")?.trim() ?? "";
+  if (!batchId || !uploadId) return Response.json({ success: false, error: "batchId and uploadId are required." }, { status: 400 });
+  const events = await getAdminContentStorage().listAuditHistory(batchId);
+  const operations = events.filter((event) => event.metadata?.kind === "upload-operation" && event.metadata?.phase === "FINALIZE" && event.metadata?.uploadId === uploadId);
+  const latest = operations.at(-1)?.metadata;
+  const reviewBatchId = typeof latest?.reviewBatchId === "string" ? latest.reviewBatchId : null;
+  return Response.json({ success: true, status: latest?.status ?? "NOT_STARTED", reviewBatchId }, { headers: { "Cache-Control": "private, no-store, max-age=0" } });
+}
+
 export async function POST(request: NextRequest) {
   let batchId: string | null = null;
   let upload: StoredUploadEntry | null = null;
