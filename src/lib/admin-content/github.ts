@@ -119,6 +119,26 @@ async function fetchCurrentJson<T>(path: string): Promise<T> {
   return JSON.parse(Buffer.from(data.content as string, "base64").toString("utf8")) as T;
 }
 
+async function fetchGitBackedCanonicalLessonIds(track: string, level: number): Promise<Set<string>> {
+  const directory = `content/courses/${track.toLowerCase()}/level-${level}/en_us`;
+  let entries: Record<string, unknown>[];
+  try {
+    const data = await githubRequest(`/contents/${directory}`);
+    if (!Array.isArray(data)) return new Set();
+    entries = data as unknown as Record<string, unknown>[];
+  } catch {
+    return new Set();
+  }
+
+  const ids = new Set<string>();
+  for (const entry of entries) {
+    if (entry.type !== "file" || typeof entry.name !== "string" || !entry.name.endsWith(".md")) continue;
+    const match = entry.name.toUpperCase().match(/([A-Z][A-Z0-9]*-L[1-9][0-9]*-[0-9]{3,})\.MD$/u);
+    if (match && CANONICAL_LESSON_ID_RE.test(match[1])) ids.add(match[1]);
+  }
+  return ids;
+}
+
 function flattenRegistryAssets(registry: CurriculumRegistry): InventoryAsset[] {
   const tracks = (registry as unknown as {
     tracks?: Record<string, { name?: string; levels?: Record<string, { assets?: Record<string, Record<string, unknown>> }> }>;
@@ -332,6 +352,22 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   const existingLessonIds = new Set(repositoryLessonIds);
   const publishedLessonIds = await getAuthoritativePublishedLessonIds();
   for (const id of publishedLessonIds) existingLessonIds.add(id);
+
+  // Legacy canonical English course files are still Git-backed learner sources.
+  // Recognize their identities for localized overlays without allowing a
+  // localized upload itself to create a canonical lesson identity.
+  const localizedScopes = new Map<string, { track: string; level: number }>();
+  for (const file of approvedFiles) {
+    const content = Buffer.from(file.encodedContent, "base64").toString("utf8");
+    const asset = file.extension === ".md" ? await detectCurriculumAsset(content, file.originalFilename) : null;
+    const locale = asset ? normalizeCurriculumPublicationLocale(asset.locale ?? file.classification.language ?? file.metadata.language) : null;
+    if (!asset || !locale) continue;
+    localizedScopes.set(`${asset.track.toLowerCase()}:L${asset.level}`, { track: asset.track, level: asset.level });
+  }
+  for (const scope of localizedScopes.values()) {
+    const gitBackedLessonIds = await fetchGitBackedCanonicalLessonIds(scope.track, scope.level);
+    for (const id of gitBackedLessonIds) existingLessonIds.add(id);
+  }
 
   const ingestionId = crypto.randomUUID();
   const ingestionTimestamp = new Date().toISOString();
