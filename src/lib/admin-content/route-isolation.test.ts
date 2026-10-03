@@ -139,6 +139,11 @@ describe("canonical curriculum Git export safety", () => {
     assert.match(github, /localizedCurriculumPath/);
     assert.match(github, /repositoryLessonIds/);
     assert.match(github, /existingLessonIds/);
+    assert.match(github, /frontMatterMatch/);
+    assert.match(github, /fm\.lessonNumber \?\? fm\.lesson/);
+    assert.match(github, /fm\.summary \?\? fm\.description/);
+    assert.match(github, /Learning Objectives/);
+    assert.match(github, /Core Content/);
     assert.match(github, /fetchGitBackedCanonicalLessonIds/);
     assert.match(github, /content\/courses\/\$\{track\.toLowerCase\(\)\}\/level-\$\{level\}\/en_us/);
     assert.match(github, /gitBackedLessonIds/);
