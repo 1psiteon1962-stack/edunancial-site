@@ -138,6 +138,8 @@ describe("canonical curriculum Git export safety", () => {
     const github = readSourceFile("src/lib/admin-content/github.ts");
     assert.match(github, /localizedCurriculumPath/);
     assert.match(github, /repositoryLessonIds/);
+    assert.match(github, /existingLessonIds/);
+    assert.match(github, /ids\.filter\(\(id\) => !existingLessonIds\.has\(id\)\)/);
     assert.match(github, /orphanLocalizedLessonIds/);
     assert.match(github, /canonicalCurriculumFiles/);
     assert.match(github, /canonicalBundledCurriculumFiles/);
