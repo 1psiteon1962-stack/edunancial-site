@@ -1,0 +1,34 @@
+{
+  "id": "WHITE-L3-027",
+  "track": "WHITE",
+  "trackName": "Paper Assets",
+  "level": 3,
+  "lessonNumber": 27,
+  "title": "Perché l'avversione alle perdite spinge gli investitori a vendere troppo presto i titoli in guadagno e a tenere troppo a lungo quelli in perdita",
+  "summary": "",
+  "author": "Waldemar M. Caban, JD MA",
+  "date": "2026-10-03",
+  "version": "1.0",
+  "status": "active",
+  "importedAt": "2026-10-03T17:43:28.503Z",
+  "metadata": {
+    "officialTrackName": "Paper Assets"
+  },
+  "path": "content/curriculum/WHITE/L3/WHITE-L3-027.md",
+  "body": "# WHITE-L3-027: Perché l'avversione alle perdite spinge gli investitori a vendere troppo presto i titoli in guadagno e a tenere troppo a lungo quelli in perdita\n\n## Obiettivi di apprendimento\nAlla fine di questa lezione, sarai in grado di:\n- Definire l'avversione alle perdite\n- Spiegare l'\"effetto disposizione\" e come deriva dall'avversione alle perdite\n- Spiegare perché questo schema può danneggiare sistematicamente i rendimenti a lungo termine\n\n## Contenuto principale\n\nL'**avversione alle perdite** descrive uno schema comportamentale ben documentato: per la maggior parte delle persone, il dolore emotivo di perdere una certa somma di denaro tende a sembrare più forte del piacere emotivo di guadagnare la stessa somma. Questa asimmetria, pur essendo una parte normale della psicologia umana, può distorcere le decisioni di investimento in un modo specifico e prevedibile.\n\nEcco il \"perché\" questo porta a un errore comune chiamato **effetto disposizione**: gli investitori influenzati dall'avversione alle perdite tendono a vendere troppo presto gli investimenti in guadagno, incassando un guadagno modesto per \"sentirsi bene\" ed evitare il rischio che quel guadagno sparisca, mentre tengono gli investimenti in perdita molto più a lungo di quanto i fondamentali giustificherebbero, sperando di evitare di \"realizzare\" la perdita semplicemente non vendendo, anche quando le prospettive dell'investimento sono davvero peggiorate.\n\n[VERIFIED FACT] Questo schema è stato documentato su grandi insiemi di dati reali sulle operazioni degli investitori, che mostrano una tendenza generale a vendere i titoli in guadagno con una frequenza maggiore rispetto a quelli in perdita, in rapporto a come ogni posizione sta effettivamente andando. È uno schema che, se seguito con costanza, può danneggiare sistematicamente i rendimenti a lungo termine, perché interrompe presto le posizioni vincenti e lascia correre quelle perdenti.\n\n## Esempio pratico\n\n[ILLUSTRATIVE EXAMPLE] Un'investitrice ha due posizioni: una ha guadagnato il 15%, l'altra ha perso il 15%. Influenzata dall'avversione alle perdite, vende la posizione in guadagno per \"bloccare\" il profitto e provare un senso di soddisfazione, mentre tiene la posizione in perdita, dicendosi che la venderà quando \"tornerà in pari\", così da non dover accettare la perdita. [ASSUMPTION] Se la posizione in guadagno continua ad andare bene dopo che l'ha venduta, e quella in perdita continua a scendere mentre lei la tiene aspettando un rimbalzo che potrebbe non arrivare, questo schema, guidato dall'asimmetria emotiva dell'avversione alle perdite e non dalle prospettive reali di ogni investimento, le è costato più di quanto le sarebbe costata una decisione basata solo sui fondamentali di ciascuna posizione.\n\n## Quiz di esercitazione\n\n1. Che cosa descrive l'avversione alle perdite?\n2. Che cos'è l'\"effetto disposizione\" e come deriva dall'avversione alle perdite?\n3. Perché seguire con costanza questo schema può danneggiare i rendimenti a lungo termine?\n\n## Chiave delle risposte\n\n1. La tendenza per cui il dolore emotivo di una perdita sembra più forte del piacere emotivo di un guadagno equivalente.\n2. La tendenza a vendere troppo presto gli investimenti in guadagno (per fissare una bella sensazione) e a tenere troppo a lungo quelli in perdita (per evitare il disagio di realizzare una perdita): una conseguenza comportamentale diretta dell'avversione alle perdite.\n3. Perché interrompe sistematicamente le posizioni vincenti prima che abbiano fatto il loro corso e permette a quelle perdenti di continuare a scendere, invece di basare le decisioni di vendita sulle prospettive reali di ogni investimento.\n\n## Risposte e spiegazioni\n\n1. Questo è il concetto psicologico di base della lezione.\n2. Questo è lo schema di comportamento specifico, con un nome preciso, che deriva dall'avversione alle perdite.\n3. Questo spiega la conseguenza pratica dello schema, che danneggia i rendimenti.\n\n## Punti chiave\n- L'avversione alle perdite descrive la tendenza per cui le perdite sembrano più dolorose di quanto siano piacevoli guadagni equivalenti.\n- Questo può portare all'effetto disposizione: vendere troppo presto i titoli in guadagno e tenere troppo a lungo quelli in perdita.\n- Questo schema, ben documentato nei dati reali sulle operazioni, può danneggiare sistematicamente i rendimenti a lungo termine se seguito con costanza.\n\n---\n\n*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce consulenza personalizzata finanziaria, di investimento, fiscale o legale. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*",
+  "frontMatter": {
+    "id": "WHITE-L3-027",
+    "locale": "it",
+    "source_locale": "en-US",
+    "track": "WHITE",
+    "level": "3",
+    "lesson": "27",
+    "title": "Perché l'avversione alle perdite spinge gli investitori a vendere troppo presto i titoli in guadagno e a tenere troppo a lungo quelli in perdita",
+    "source_title": "Why Loss Aversion Makes Investors Sell Winners Too Early and Hold Losers Too Long",
+    "description": "Scopri perché il dolore di una perdita tende a sembrare più forte del piacere di un guadagno equivalente, e come questo squilibrio distorce le decisioni di investimento.",
+    "slug": "white-l3-027-loss-aversion",
+    "seo_title": "Perché l'avversione alle perdite spinge gli investitori a vendere troppo presto i titoli in guadagno e a tenere troppo a lungo quelli in perdita | Edunancial",
+    "meta_description": "Scopri perché il dolore di una perdita tende a sembrare più forte del piacere di un guadagno equivalente, e come questo squilibrio distorce le decisioni di investimento.",
+    "author": "Waldemar M. Caban, JD MA"
+  }
+}
