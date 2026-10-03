@@ -1,5 +1,32 @@
 [
   {
+    "id": "upload-operation-a2875db6-1192-412b-8076-ff1672d613b2",
+    "timestamp": "2026-10-03T08:03:18.972Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "VERIFY",
+      "status": "SUCCEEDED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null,
+      "operation": "github_export",
+      "github": {
+        "branch": "content/course-upload-20261003-080307-recovered-white-l3-001-050-es-caribbean-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1103",
+        "pullRequestNumber": 1103,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
+      }
+    }
+  },
+  {
     "id": "audit_2a1321d1-f2e7-4eb5-8e0d-899ce0001063",
     "timestamp": "2026-10-03T08:03:15.284Z",
     "action": "github-pr-opened",
