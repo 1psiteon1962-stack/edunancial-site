@@ -1,0 +1,62 @@
+---
+id: WHITE-L3-047
+track: WHITE
+officialTrackName: "Paper Assets"
+level: 3
+lessonNumber: 47
+title: "\"Perché diversificare tra classi di attività, e non solo tra azioni, riduce il rischio del portafoglio\""
+summary: "\"Scopri perché combinare le azioni con altre classi di attività, come obbligazioni o immobili, può ridurre il rischio complessivo del portafoglio in un modo che la diversificazione solo tra azioni non può ottenere.\""
+version: "1.0"
+author: "\"Waldemar M. Caban, JD MA\""
+date: "2026-10-03"
+locale: "it"
+source_locale: "en-US"
+---
+<!-- Learning Objectives -->
+# WHITE-L3-047: Perché diversificare tra classi di attività, e non solo tra azioni, riduce il rischio del portafoglio
+
+## Obiettivi di apprendimento
+<!-- Core Content -->
+Alla fine di questa lezione, sarai in grado di:
+- Spiegare perché diversificare tra classi di attività affronta un tipo di rischio che la diversificazione solo tra azioni non può affrontare
+- Ricollegare questo concetto alla discussione sulla correlazione della Lezione 3
+- Spiegare perché combinare attività con comportamenti storicamente diversi può rendere più regolare l'andamento complessivo del portafoglio
+
+## Contenuto principale
+
+Le Lezioni 2 e 3 hanno trattato la diversificazione e la correlazione all'interno di una categoria di investimenti simili, soprattutto le azioni. Questa lezione estende la stessa logica di fondo a un livello più ampio: diversificare tra **classi di attività** completamente diverse, cioè azioni, obbligazioni, immobili (per esempio i REIT della Lezione 32), liquidità e altre.
+
+Ecco il "perché" questo affronta un tipo di rischio che la diversificazione solo tra azioni non può affrontare: anche un portafoglio azionario ben diversificato, distribuito su molte aziende e settori, resta esposto al rischio di mercato generale che colpisce le azioni nel loro insieme (come stabilito nella Lezione 2). Un calo generale del mercato azionario colpisce quasi tutte le azioni insieme, per quanto ben diversificata sia la scelta dei titoli. [VERIFIED FACT] Classi di attività diverse hanno mostrato storicamente relazioni variabili tra loro, a volte con correlazione bassa o negativa, in diverse condizioni di mercato. Le obbligazioni, per esempio, a volte hanno avuto un andamento diverso dalle azioni durante i cali del mercato azionario, anche se questa relazione non è fissa né garantita e può cambiare a seconda dello specifico contesto economico (collegandosi alla discussione sui cicli dei tassi della Lezione 43 nel percorso RED).
+
+Combinare classi di attività con comportamenti davvero diversi, invece di diversificare solo all'interno di una classe di attività, affronta il rischio di mercato generale che la diversificazione solo tra azioni, nello specifico, non può ridurre.
+
+## Esempio pratico
+
+[ILLUSTRATIVE EXAMPLE] Un'investitrice possiede un portafoglio ben diversificato di 50 azioni diverse in molti settori. Durante un calo generale del mercato azionario, quasi tutti i suoi titoli scendono insieme, perché il calo riflette un rischio di mercato generale da cui la sua diversificazione tra azioni, per quanto accurata, non può proteggerla. [ASSUMPTION] Se avesse destinato anche una parte del suo portafoglio alle obbligazioni, e quelle obbligazioni avessero avuto un andamento diverso durante quello stesso calo (come è successo in alcuni periodi storici), il calo complessivo del suo portafoglio sarebbe potuto essere sensibilmente minore di quello di un portafoglio di sole azioni, anche di uno estremamente ben diversificato all'interno della sola classe azionaria.
+
+## Quiz di esercitazione
+
+1. Quale tipo di rischio affronta la diversificazione tra classi di attività che la diversificazione solo tra azioni non può affrontare?
+2. Perché anche un portafoglio azionario molto ben diversificato può comunque subire cali significativi durante un calo generale del mercato?
+3. La relazione tra l'andamento di diverse classi di attività durante un calo è fissa e garantita? Perché sì o perché no?
+
+## Chiave delle risposte
+
+1. Il rischio di mercato generale, cioè il rischio che colpisce un'intera classe di attività (come le azioni) nel suo insieme, per quanto diversificati siano i singoli titoli all'interno di quella classe.
+2. Perché il rischio di mercato generale colpisce quasi tutte le azioni insieme, e la diversificazione tra azioni affronta soprattutto il rischio specifico aziendale (Lezione 2), non questo rischio più ampio a livello di mercato.
+3. No: l'andamento relativo di diverse classi di attività in varie condizioni di mercato è cambiato nel corso della storia e non è fisso né garantito, quindi questo beneficio va inteso come una tendenza storica, non come un risultato assicurato.
+
+## Risposte e spiegazioni
+
+1. Questa è la distinzione centrale su cui è costruita la lezione, che estende lo schema delle Lezioni 2 e 3 a una scala più ampia.
+2. Questo rafforza direttamente il concetto di rischio di mercato generale introdotto per la prima volta nella Lezione 2.
+3. Questo è un avvertimento importante e opportunamente prudente contro l'eccessiva fiducia nelle relazioni storiche tra classi di attività.
+
+## Punti chiave
+- Diversificare tra classi di attività affronta il rischio di mercato generale che la diversificazione all'interno di una sola classe di attività (come le azioni) non può affrontare.
+- Classi di attività diverse hanno mostrato storicamente correlazioni variabili tra loro, a volte basse o negative, in condizioni diverse.
+- Questa relazione non è fissa né garantita e può cambiare a seconda del contesto economico generale.
+
+---
+
+*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce consulenza personalizzata finanziaria, di investimento, fiscale o legale. I rendimenti passati non garantiscono risultati futuri. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*
