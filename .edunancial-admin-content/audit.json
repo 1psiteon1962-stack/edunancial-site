@@ -1,5 +1,14 @@
 [
   {
+    "id": "audit_6b5ec430-a732-415a-977d-42c2818cd18c",
+    "timestamp": "2026-10-03T07:01:15.577Z",
+    "action": "classification-changed",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+    "fileId": "file_d99057d2-09dc-41a2-94e5-4a15ffdac421"
+  },
+  {
     "id": "audit_e5d9c9c3-e422-42ad-acf2-07132613f413",
     "timestamp": "2026-10-03T07:00:02.886Z",
     "action": "export-generated",
