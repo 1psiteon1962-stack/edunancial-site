@@ -1,0 +1,34 @@
+{
+  "id": "WHITE-L3-002",
+  "track": "WHITE",
+  "trackName": "Paper Assets",
+  "level": 3,
+  "lessonNumber": 2,
+  "title": "Perché la diversificazione riduce il rischio senza ridurre il rendimento atteso (quanto penseresti)",
+  "summary": "",
+  "author": "Waldemar M. Caban, JD MA",
+  "date": "2026-10-03",
+  "version": "1.0",
+  "status": "active",
+  "importedAt": "2026-10-03T17:43:00.879Z",
+  "metadata": {
+    "officialTrackName": "Paper Assets"
+  },
+  "path": "content/curriculum/WHITE/L3/WHITE-L3-002.md",
+  "body": "# WHITE-L3-002: Perché la diversificazione riduce il rischio senza ridurre il rendimento atteso (quanto penseresti)\n\n## Obiettivi di apprendimento\nAlla fine di questa lezione sarai in grado di:\n- Spiegare perché la diversificazione riduce il rischio senza ridurre in proporzione il rendimento atteso\n- Distinguere tra il rischio specifico di una singola azienda e il rischio che colpisce tutto il mercato\n- Spiegare perché, oltre un certo punto, i vantaggi della diversificazione diminuiscono\n\n## Contenuto principale\n\nPotrebbe sembrare che distribuire i tuoi soldi su molti investimenti, invece di concentrarli in uno solo, distribuisca, e quindi riduca, anche il tuo rendimento atteso. Non funziona proprio così, e capire perché è il cuore di questa lezione.\n\nIl rischio di una singola azione viene da due fonti: il rischio specifico di quell'azienda (una brutta trimestrale, il ritiro di un prodotto, una causa legale) e il rischio che colpisce tutto il mercato (una recessione, cambiamenti generali dei tassi di interesse). La diversificazione, cioè possedere molte azioni diverse invece di una sola, annulla gran parte del rischio specifico delle aziende, perché è improbabile che una cattiva notizia in un'azienda colpisca tutti i tuoi titoli nello stesso momento. Però fa molto poco per annullare il rischio di mercato, perché quello colpisce quasi tutto insieme.\n\nEcco il \"perché\" questo non riduce in proporzione il rendimento atteso: non stai diluendo le tue idee migliori con idee più deboli in un modo che abbassa per forza il risultato medio atteso. Stai eliminando il rischio specifico, e non compensato, della sfortuna di una singola azienda, mantenendo la tua esposizione attesa al rendimento complessivo del mercato. [VERIFIED FACT] Questo vantaggio ha rendimenti decrescenti: il beneficio di riduzione del rischio che ottieni aggiungendo altri titoli cala in modo netto quando un portafoglio arriva a un numero moderato di aziende diverse, perché a quel punto la maggior parte del rischio rimasto è il rischio di mercato, che la diversificazione non può eliminare.\n\n## Esempio pratico\n\n[ILLUSTRATIVE EXAMPLE] Un'investitrice che possiede le azioni di una sola azienda è esposta al rischio specifico di quell'azienda: uno scandalo, un prodotto fallito o una causa legale potrebbero danneggiare seriamente il suo portafoglio anche se il mercato in generale va bene. Un investitore che possiede azioni di 30 aziende diverse in settori diversi è molto meno esposto alle cattive notizie di una singola azienda: un problema in uno dei titoli è un piccolo freno per il portafoglio totale, non una perdita importante. [ASSUMPTION] Passare da 30 titoli a 300 di solito aggiunge molta meno riduzione del rischio rispetto al passaggio da 1 titolo a 30: la maggior parte della riduzione possibile del rischio specifico è già stata ottenuta.\n\n## Quiz di esercitazione\n\n1. Quali sono le due fonti di rischio di una singola azione, come descritte in questa lezione?\n2. Perché la diversificazione non riduce in proporzione il rendimento atteso come riduce il rischio?\n3. Perché aggiungere sempre più titoli alla fine produce vantaggi decrescenti di riduzione del rischio?\n\n## Chiave delle risposte\n\n1. Il rischio specifico dell'azienda (unico per quell'attività) e il rischio di mercato (che colpisce quasi tutto insieme).\n2. Perché la diversificazione elimina soprattutto il rischio specifico dell'azienda, non compensato, invece di diluire l'esposizione attesa complessiva ai rendimenti del mercato.\n3. Perché dopo un numero moderato di titoli la maggior parte del rischio specifico è già ridotta, e il rischio rimasto è in gran parte rischio di mercato, che la diversificazione tra singole azioni non può eliminare.\n\n## Risposte e spiegazioni\n\n1. Questa distinzione è la base su cui si regge tutta la lezione.\n2. Questo è il \"perché\" centrale della lezione, spesso frainteso.\n3. Questo spiega lo schema dei rendimenti decrescenti e anticipa perché la diversificazione tra classi di attività (in una lezione successiva) è importante per il rischio di mercato, che la diversificazione tra singole azioni non può toccare.\n\n## Punti chiave\n- La diversificazione riduce soprattutto il rischio specifico delle aziende, non il rischio di mercato.\n- Per questo può abbassare il rischio senza abbassare in proporzione il rendimento atteso: elimina un rischio in gran parte non compensato, non il potenziale di guadagno.\n- Il beneficio di riduzione del rischio che si ottiene aggiungendo altri titoli diminuisce in modo netto dopo un numero moderato di aziende diverse.\n\n---\n\n*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce una consulenza personalizzata in materia finanziaria, di investimento, fiscale o legale. Tutte le cifre sono stime illustrative, non garanzie. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*",
+  "frontMatter": {
+    "id": "WHITE-L3-002",
+    "locale": "it",
+    "source_locale": "en-US",
+    "track": "WHITE",
+    "level": "3",
+    "lesson": "2",
+    "title": "Perché la diversificazione riduce il rischio senza ridurre il rendimento atteso (quanto penseresti)",
+    "source_title": "Why Diversification Reduces Risk Without Reducing Expected Return (as Much as You'd Think)",
+    "description": "Scopri perché distribuire gli investimenti su molti titoli riduce il rischio in modo più efficiente di quanto riduca il rendimento atteso, e perché questo vantaggio ha un limite.",
+    "slug": "white-l3-002-diversification-and-expected-return",
+    "seo_title": "Perché la diversificazione riduce il rischio senza ridurre il rendimento atteso (quanto penseresti) | Edunancial",
+    "meta_description": "Scopri perché distribuire gli investimenti su molti titoli riduce il rischio in modo più efficiente di quanto riduca il rendimento atteso, e perché questo vantaggio ha un limite.",
+    "author": "Waldemar M. Caban, JD MA"
+  }
+}
