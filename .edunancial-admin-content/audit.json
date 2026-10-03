@@ -1,5 +1,52 @@
 [
   {
+    "id": "upload-operation-148d2ede-ac27-44b6-9b76-ca4b268a134c",
+    "timestamp": "2026-10-03T17:23:05.898Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_a051abe5-3ca2-470f-abfc-f24cbc260109",
+      "phase": "FINALIZE",
+      "status": "SUCCEEDED",
+      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_a051abe5-3ca2-470f-abfc-f24cbc260109-white-l3-001-050-nl.zip",
+      "fileName": "WHITE-L3-001-050-nl.zip",
+      "fileSize": 106057,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_06334dbe-d980-4fb4-b50b-80a65c9f56e6",
+      "reviewableFiles": 51,
+      "packageIdentity": {
+        "track": "white",
+        "level": "level-3",
+        "language": "nl",
+        "title": "001 050"
+      },
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": {
+        "branch": "content/course-upload-20261003-172255-content-upload-2026-10-03-white-l3-001-050-nl-zip",
+        "pullRequestUrl": "https://github.com/1psiteon1962-stack/edunancial-site/pull/1113",
+        "pullRequestNumber": 1113,
+        "owner": "1psiteon1962-stack",
+        "repo": "edunancial-site"
+      },
+      "publicationDeferred": false
+    }
+  },
+  {
     "id": "audit_b794a1da-b094-4d0a-bb51-024214d2c360",
     "timestamp": "2026-10-03T17:23:02.456Z",
     "action": "github-pr-opened",
