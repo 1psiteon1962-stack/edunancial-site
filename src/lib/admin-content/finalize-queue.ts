@@ -37,6 +37,10 @@ function isAmbiguousFinalizeError(error: unknown): boolean {
   );
 }
 
+export function shouldReconcileAmbiguousFinalizeError(error: unknown): boolean {
+  return isAmbiguousFinalizeError(error);
+}
+
 function isSafeTransientFinalizeError(error: unknown): boolean {
   if (isAmbiguousFinalizeError(error)) return false;
   return /HTTP\s+(425|429|500|502|503)\b|temporarily unavailable/iu.test(
