@@ -80,6 +80,7 @@ export default function RecoveryClient() {
       if (payload.reconciliationRequired) {
         setProgress("Recovery response was interrupted. Reconciling the stored package from persistent server state; do not retry or re-upload it.");
         await load({ preserveError: true });
+        setProgress("Recovery response was interrupted. Persistent storage has been reconciled. If the package remains listed, it is preserved for a safe server-side retry; if it disappears, recovery completed durably.");
         return;
       }
       router.push(`/admin/content/batches/${payload.batch.id}`);
