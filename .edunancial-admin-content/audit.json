@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-01dff4c3-0164-4064-af36-5f49283ac99c",
+    "timestamp": "2026-10-03T06:13:07.958Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_d1311f6a-1738-494f-99a9-b96351e15688",
+      "phase": "FINALIZE",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_9d779a6b-d94b-4ab7-95cb-826719f8e5c9/upload_d1311f6a-1738-494f-99a9-b96351e15688-white-l3-001-050-es-caribbean.zip",
+      "fileName": "WHITE-L3-001-050-es-Caribbean.zip",
+      "fileSize": 108601,
+      "errorCode": "Error",
+      "errorMessage": "Unsafe curriculum locale: es-Caribbean",
+      "mode": "single-package-request"
+    }
+  },
+  {
     "id": "audit_9162161f-5706-4286-bb4b-929df1b9e86e",
     "timestamp": "2026-10-03T06:13:03.524Z",
     "action": "export-generated",
