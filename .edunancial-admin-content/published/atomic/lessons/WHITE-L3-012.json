@@ -1,0 +1,34 @@
+{
+  "id": "WHITE-L3-012",
+  "track": "WHITE",
+  "trackName": "Paper Assets",
+  "level": 3,
+  "lessonNumber": 12,
+  "title": "Perché il piano di accumulo riduce il rischio di tempismo, non il rischio dell'investimento",
+  "summary": "",
+  "author": "Waldemar M. Caban, JD MA",
+  "date": "2026-10-03",
+  "version": "1.0",
+  "status": "active",
+  "importedAt": "2026-10-03T17:43:11.831Z",
+  "metadata": {
+    "officialTrackName": "Paper Assets"
+  },
+  "path": "content/curriculum/WHITE/L3/WHITE-L3-012.md",
+  "body": "# WHITE-L3-012: Perché il piano di accumulo riduce il rischio di tempismo, non il rischio dell'investimento\n\n## Obiettivi di apprendimento\nAlla fine di questa lezione sarai in grado di:\n- Spiegare come funziona il piano di accumulo (dollar-cost averaging, DCA)\n- Spiegare quale tipo specifico di rischio riduce il DCA\n- Spiegare perché il DCA non riduce il rischio di fondo dell'investimento stesso\n\n## Contenuto principale\n\nIl **piano di accumulo (dollar-cost averaging, DCA)** significa investire una somma fissa di denaro a intervalli regolari, per esempio ogni mese, qualunque sia il prezzo a ogni intervallo, invece di investire una somma più grande tutta in una volta.\n\nEcco il \"perché\" questo affronta in modo specifico il rischio di tempismo, ricollegandosi alla Lezione 1: visto che compri a molti prezzi diversi nel tempo, eviti il rischio di investire tutta la somma proprio prima di un calo significativo e arrivato nel momento sbagliato. Alcuni acquisti avvengono a prezzi più alti, altri a prezzi più bassi, e il costo medio per azione si livella nel periodo di investimento.\n\n[VERIFIED FACT] Il DCA non riduce il rischio reale o la volatilità dell'investimento di fondo: l'azione, il fondo o l'attività che stai comprando ha sempre le stesse caratteristiche di rischio di base, qualunque sia il modo in cui distribuisci nel tempo i tuoi acquisti. Quello che il DCA cambia è la tua esposizione a un singolo momento di ingresso sbagliato, non il comportamento proprio dell'investimento una volta che lo possiedi.\n\n## Esempio pratico\n\n[ILLUSTRATIVE EXAMPLE] Un investitore ha $12,000 da investire. Investirli tutti in un'unica soluzione proprio prima di un brusco calo del mercato significherebbe esporre subito l'intera somma a quel calo. Investire invece $1,000 al mese per 12 mesi significa che solo i primi versamenti sono esposti a tutto il calo, se questo avviene all'inizio del periodo: i versamenti successivi comprano ai prezzi ormai più bassi, facendo una media del costo complessivo dell'investitore. [ASSUMPTION] Se invece il mercato sale in modo costante per tutti i 12 mesi, il DCA avrebbe portato a un costo medio più alto rispetto a investire subito tutta la somma in un'unica soluzione: il DCA protegge da uno specifico scenario di cattivo tempismo, ma non garantisce un risultato migliore dell'investimento in un'unica soluzione in ogni scenario (un confronto trattato direttamente nella prossima lezione).\n\n## Quiz di esercitazione\n\n1. Come funziona il piano di accumulo?\n2. Quale tipo specifico di rischio affronta il DCA?\n3. Il DCA riduce il rischio di fondo dell'investimento stesso? Perché sì o perché no?\n\n## Chiave delle risposte\n\n1. Investire una somma fissa a intervalli regolari, qualunque sia il prezzo, invece di investire una somma tutta in una volta.\n2. Il rischio di tempismo: il rischio di investire una grossa somma proprio prima di un calo arrivato nel momento sbagliato.\n3. No: le caratteristiche di rischio e di volatilità dell'investimento restano invariate; il DCA cambia solo quanto sei esposto a un singolo momento di ingresso potenzialmente sbagliato.\n\n## Risposte e spiegazioni\n\n1. Questa è la definizione pratica necessaria per il resto della lezione.\n2. Questa è la distinzione centrale e precisa che fa la lezione: il DCA è uno strumento di tempismo, non uno strumento per ridurre il rischio dell'investimento stesso.\n3. Questo rafforza la distinzione e anticipa il compromesso esplorato nella prossima lezione.\n\n## Punti chiave\n- Il DCA consiste nell'investire una somma fissa a intervalli regolari invece che tutta in una volta.\n- Riduce in modo specifico il rischio di tempismo, cioè il rischio di un singolo grande investimento fatto nel momento sbagliato.\n- Il DCA non cambia il rischio di fondo o la volatilità dell'investimento stesso, ma solo la tua esposizione a un momento di ingresso sbagliato.\n\n---\n\n*Questa lezione ha solo scopo di educazione finanziaria generale e non costituisce una consulenza personalizzata in materia finanziaria, di investimento, fiscale o legale. Tutte le cifre sono stime illustrative, non garanzie. Consulta un professionista finanziario abilitato prima di prendere decisioni di investimento.*",
+  "frontMatter": {
+    "id": "WHITE-L3-012",
+    "locale": "it",
+    "source_locale": "en-US",
+    "track": "WHITE",
+    "level": "3",
+    "lesson": "12",
+    "title": "Perché il piano di accumulo riduce il rischio di tempismo, non il rischio dell'investimento",
+    "source_title": "Why Dollar-Cost Averaging Reduces Timing Risk, Not Investment Risk",
+    "description": "Scopri perché investire una somma fissa a intervalli regolari riduce il rischio di un cattivo tempismo, senza ridurre il rischio di fondo dell'investimento stesso.",
+    "slug": "white-l3-012-dollar-cost-averaging",
+    "seo_title": "Perché il piano di accumulo riduce il rischio di tempismo, non il rischio dell'investimento | Edunancial",
+    "meta_description": "Scopri perché investire una somma fissa a intervalli regolari riduce il rischio di un cattivo tempismo, senza ridurre il rischio di fondo dell'investimento stesso.",
+    "author": "Waldemar M. Caban, JD MA"
+  }
+}
