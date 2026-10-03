@@ -1,0 +1,3 @@
+import { requireOwnerApiSession } from "@/lib/admin-content/auth";
+import { queueMarketingDraft } from "@/lib/marketing/generation-queue";
+export async function POST(request:Request){const auth=await requireOwnerApiSession(request,true);if(!auth.ok)return auth.response;try{const body=await request.json() as {campaignId?:string;canonicalMessage?:string;locale?:string;sourceType?:string;sourceRef?:string};return Response.json(await queueMarketingDraft({campaignId:String(body.campaignId??""),canonicalMessage:String(body.canonicalMessage??""),locale:body.locale,sourceType:body.sourceType,sourceRef:body.sourceRef}),{status:201});}catch(e){return Response.json({error:e instanceof Error?e.message:"Could not queue marketing draft."},{status:400});}}
