@@ -1,5 +1,42 @@
 [
   {
+    "id": "upload-operation-6d4b1f2b-6e6e-43bc-8f2c-93ae8834e81f",
+    "timestamp": "2026-10-03T17:42:01.808Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150",
+      "phase": "VERIFY",
+      "status": "SUCCEEDED",
+      "storagePath": "uploads/courses/batch_2c68ce21-958a-4c0d-9427-5d8b63ec6b88/upload_046b89d5-afaf-4e0e-ab87-4e6cac5c5150-white-l3-001-050-it.zip",
+      "fileName": "white-l3-001-050-it.zip",
+      "fileSize": 0,
+      "errorCode": null,
+      "errorMessage": null,
+      "recoveryBatchId": "batch_c65a8c04-d9d7-4941-95ed-5624f3be76d1",
+      "recoveredWithoutReupload": true,
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": null,
+      "githubPublicationPending": true,
+      "postPublicationVerification": null,
+      "publicationDeferred": false,
+      "discoverySource": "persistent-storage"
+    }
+  },
+  {
     "id": "audit_93fa7a1b-0e96-435d-9f8e-8e198668c689",
     "timestamp": "2026-10-03T17:41:50.690Z",
     "action": "batch-created",
