@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-85660446-5c9d-41d0-b828-85bb0ef02a27",
+    "timestamp": "2026-10-03T07:40:31.854Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_4070b493-08e8-43bc-bc8a-6b2ad78296f2",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": null,
+      "phase": "VERIFY",
+      "status": "STARTED",
+      "storagePath": null,
+      "fileName": null,
+      "fileSize": null,
+      "errorCode": null,
+      "errorMessage": null,
+      "operation": "github_export"
+    }
+  },
+  {
     "id": "upload-operation-ea1c9807-6c4f-49d5-9d7f-d97bbfa2faf6",
     "timestamp": "2026-10-03T07:40:22.081Z",
     "action": "system-error",
