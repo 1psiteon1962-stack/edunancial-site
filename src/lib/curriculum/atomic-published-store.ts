@@ -35,36 +35,42 @@ async function writeJson(path: string, value: unknown): Promise<void> {
   );
 }
 
-function registryLevelOne(): PublishedLessonRecord[] {
+function repositoryCanonicalLessons(): PublishedLessonRecord[] {
   const registry = readRegistry();
   const lessons: PublishedLessonRecord[] = [];
   for (const track of Object.values(registry.tracks)) {
     for (const level of Object.values(track.levels)) {
       for (const asset of Object.values(level.assets)) {
-        if (asset.type !== "lesson" || asset.status !== "active" || asset.level !== 1 || typeof asset.lessonNumber !== "number") continue;
+        if (asset.type !== "lesson" || asset.status !== "active" || typeof asset.lessonNumber !== "number") continue;
         const content = getLessonContent(asset.id, "en");
+        if (!content) continue;
         lessons.push({
-          id: asset.id,
-          track: asset.track,
-          trackName: asset.trackName || track.name || asset.track,
-          level: asset.level,
-          lessonNumber: asset.lessonNumber,
-          title: content?.meta.title ?? asset.title,
-          summary: content?.meta.summary ?? asset.metadata?.summary ?? "",
-          author: content?.meta.author ?? asset.author,
-          date: content?.meta.date ?? asset.date,
-          version: content?.meta.version ?? asset.version,
-          status: "active",
-          importedAt: content?.meta.importedAt ?? asset.importedAt,
-          metadata: asset.metadata ?? {},
-          path: asset.path,
-          body: content?.body ?? "",
-          frontMatter: content?.frontMatter ?? {},
+          id: asset.id, track: asset.track, trackName: asset.trackName || track.name || asset.track,
+          level: asset.level, lessonNumber: asset.lessonNumber, title: content.meta.title ?? asset.title,
+          summary: content.meta.summary ?? asset.metadata?.summary ?? "", author: content.meta.author ?? asset.author,
+          date: content.meta.date ?? asset.date, version: content.meta.version ?? asset.version, status: "active",
+          importedAt: content.meta.importedAt ?? asset.importedAt, metadata: asset.metadata ?? {}, path: asset.path,
+          body: content.body ?? "", frontMatter: { ...content.frontMatter, locale: "en" },
         });
       }
     }
   }
   return lessons;
+}
+function normalizedLocale(value: string | undefined): string { return (value ?? "en").trim().toLowerCase().replaceAll("_", "-"); }
+function isCanonicalLocale(value: string | undefined): boolean { const locale=normalizedLocale(value); return locale==="en"||locale==="en-us"; }
+type AtomicBatchEntry = { id: string; locale: string };
+type AtomicBatchRecord = { version: 2; entries: AtomicBatchEntry[] };
+async function updateLessonIndex(mutator:(ids:string[])=>string[]):Promise<void>{
+  const storage=getAdminContentStorage();
+  if(storage.updateBinary){
+    const ok=await storage.updateBinary(LESSON_INDEX_PATH,(current)=>{
+      let ids:string[]=[]; if(current){try{ids=JSON.parse(current.toString("utf8")) as string[];}catch{ids=[];}}
+      return Buffer.from(`${JSON.stringify([...new Set(mutator(ids).map(id=>id.toUpperCase()))].sort(),null,2)}\n`,"utf8");
+    },"Update atomic curriculum lesson index");
+    if(!ok)throw new Error("Unable to update atomic curriculum lesson index."); return;
+  }
+  const indexed=await readJson<string[]>(LESSON_INDEX_PATH)??[]; await writeJson(LESSON_INDEX_PATH,mutator(indexed));
 }
 
 /**
@@ -77,13 +83,13 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
   if (process.env.NODE_ENV !== "production" || !process.env.EDUNANCIAL_GITHUB_TOKEN?.trim() || !process.env.EDUNANCIAL_GITHUB_OWNER?.trim() || !process.env.EDUNANCIAL_GITHUB_REPO?.trim()) return null;
   const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
   if (!lessonIds.length) return null;
-  const repositoryLevelOne = new Map(registryLevelOne().map((lesson) => [lesson.id.toUpperCase(), lesson]));
+  const repositoryCanonical = new Map(repositoryCanonicalLessons().map((lesson) => [lesson.id.toUpperCase(), lesson]));
   const byId = new Map<string, PublishedLessonRecord>();
   for (const lessonId of lessonIds) {
     const lesson = await readJson<PublishedLessonRecord>(lessonPath(lessonId));
     if (!lesson?.id || lesson.status !== "active") continue;
     const id = lesson.id.toUpperCase();
-    const repository = repositoryLevelOne.get(id);
+    const repository = repositoryCanonical.get(id);
     byId.set(id, repository && repository.level === 1
       ? { ...repository, translations: lesson.translations ?? repository.translations }
       : lesson);
@@ -95,14 +101,14 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
   if (process.env.NODE_ENV !== "production") return false;
   if (!lessons.length) return true;
   try {
-    const ids: string[] = [];
+    const entries: AtomicBatchEntry[] = [];
     for (const lesson of lessons) {
       const id = lesson.id.toUpperCase();
       const existing = await readJson<PublishedLessonRecord>(lessonPath(id));
       const locale = lesson.frontMatter?.locale?.trim();
-      const isLocalized = Boolean(locale && locale.toLowerCase() !== "en" && locale.toLowerCase() !== "en-us");
+      const isLocalized = !isCanonicalLocale(locale);
       if (isLocalized) {
-        const canonical = registryLevelOne().find((entry) => entry.id.toUpperCase() === id)
+        const canonical = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === id)
           ?? (existing && !existing.frontMatter?.locale ? existing : null);
         if (!canonical) throw new Error(`Canonical lesson ${id} is unavailable; refusing to publish localized content as the base lesson.`);
         const translations = existing?.translations ?? canonical.translations ?? {};
@@ -123,11 +129,10 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
           importedAt: new Date().toISOString(),
         });
       }
-      ids.push(id);
+      entries.push({ id, locale: normalizedLocale(locale) });
     }
-    await writeJson(batchPath(batchId), [...new Set(ids)].sort());
-    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
-    await writeJson(LESSON_INDEX_PATH, [...new Set([...indexed, ...ids])].sort());
+    await writeJson(batchPath(batchId), { version: 2, entries } satisfies AtomicBatchRecord);
+    await updateLessonIndex((indexed) => [...indexed, ...entries.map((entry) => entry.id)]);
     return true;
   } catch {
     return false;
@@ -144,7 +149,7 @@ export async function upsertAtomicPublishedTranslation(
     const id = lessonId.toUpperCase();
     let lesson = await readJson<PublishedLessonRecord>(lessonPath(id));
     if (!lesson) {
-      lesson = registryLevelOne().find((entry) => entry.id.toUpperCase() === id) ?? null;
+      lesson = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === id) ?? null;
     }
     if (!lesson) return false;
     const translations = lesson.translations ?? {};
@@ -162,17 +167,25 @@ export async function upsertAtomicPublishedTranslation(
 export async function removeAtomicPublishedBatch(batchId: string): Promise<boolean> {
   if (process.env.NODE_ENV !== "production") return false;
   try {
-    const ids = await readJson<string[]>(batchPath(batchId));
-    if (!ids) return false;
-    for (const id of ids) await getAdminContentStorage().deleteBinary(lessonPath(id));
+    const record = await readJson<AtomicBatchRecord | string[]>(batchPath(batchId));
+    if (!record) return false;
+    if (Array.isArray(record)) return false;
+    const canonicalById=new Map(repositoryCanonicalLessons().map(l=>[l.id.toUpperCase(),l]));
+    for(const entry of record.entries){
+      const id=entry.id.toUpperCase(); const existing=await readJson<PublishedLessonRecord>(lessonPath(id)); if(!existing)continue;
+      if(!isCanonicalLocale(entry.locale)){
+        const translations={...(existing.translations??{})};
+        for(const key of Object.keys(translations))if(normalizedLocale(key)===normalizedLocale(entry.locale))delete translations[key];
+        const canonical=canonicalById.get(id);
+        await writeJson(lessonPath(id),canonical?{...canonical,translations}:{...existing,translations});
+      }else{
+        const canonical=canonicalById.get(id);
+        if(canonical)await writeJson(lessonPath(id),{...canonical,translations:existing.translations??canonical.translations});
+      }
+    }
     await getAdminContentStorage().deleteBinary(batchPath(batchId));
-    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
-    const removed = new Set(ids.map((id) => id.toUpperCase()));
-    await writeJson(LESSON_INDEX_PATH, indexed.filter((id) => !removed.has(id.toUpperCase())));
     return true;
-  } catch {
-    return false;
-  }
+  } catch { return false; }
 }
 
 export async function removeAtomicPublishedLesson(lessonId: string): Promise<boolean | null> {
@@ -180,11 +193,10 @@ export async function removeAtomicPublishedLesson(lessonId: string): Promise<boo
   try {
     const path = lessonPath(lessonId);
     if (!await getAdminContentStorage().readBinary(path)) return false;
-    await getAdminContentStorage().deleteBinary(path);
-    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
-    await writeJson(LESSON_INDEX_PATH, indexed.filter((id) => id.toUpperCase() !== lessonId.toUpperCase()));
+    const canonical = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === lessonId.toUpperCase());
+    if (canonical) await writeJson(path, canonical);
+    else await getAdminContentStorage().deleteBinary(path);
+    if (!canonical) await updateLessonIndex((indexed) => indexed.filter((id) => id.toUpperCase() !== lessonId.toUpperCase()));
     return true;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
