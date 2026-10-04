@@ -89,7 +89,7 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
     const lesson = await readJson<PublishedLessonRecord>(lessonPath(lessonId));
     if (!lesson?.id || lesson.status !== "active") continue;
     const id = lesson.id.toUpperCase();
-    const repository = repositoryLevelOne.get(id);
+    const repository = repositoryCanonical.get(id);
     byId.set(id, repository && repository.level === 1
       ? { ...repository, translations: lesson.translations ?? repository.translations }
       : lesson);
@@ -108,7 +108,7 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       const locale = lesson.frontMatter?.locale?.trim();
       const isLocalized = !isCanonicalLocale(locale);
       if (isLocalized) {
-        const canonical = registryLevelOne().find((entry) => entry.id.toUpperCase() === id)
+        const canonical = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === id)
           ?? (existing && !existing.frontMatter?.locale ? existing : null);
         if (!canonical) throw new Error(`Canonical lesson ${id} is unavailable; refusing to publish localized content as the base lesson.`);
         const translations = existing?.translations ?? canonical.translations ?? {};
@@ -131,7 +131,7 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       }
       entries.push({ id, locale: normalizedLocale(locale) });
     }
-    await writeJson(batchPath(batchId), [...new Set(ids)].sort());
+    await writeJson(batchPath(batchId), { version: 2, entries } satisfies AtomicBatchRecord);
     const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
     await writeJson(LESSON_INDEX_PATH, [...new Set([...indexed, ...ids])].sort());
     return true;
