@@ -4,9 +4,9 @@
   "slug": "content-upload-2026-10-04-red-l3-001-050-fr-ca-zip",
   "source": "Admin dashboard",
   "notes": "",
-  "status": "ready-for-review",
+  "status": "partially-reviewed",
   "createdAt": "2026-10-04T16:28:56.475Z",
-  "updatedAt": "2026-10-04T16:28:58.047Z",
+  "updatedAt": "2026-10-04T16:29:00.906Z",
   "uploads": [
     {
       "id": "upload_62af0bff-79c2-4627-a339-cdde8bfb9405",
@@ -147,7 +147,7 @@
       "sizeBytes": 8042,
       "checksum": "sha256:c9eab1f64f767d404aa68899ba352e8f78104a81c52698a5808ed691d17f15b5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 001 locale: fr CA source locale: en US track: RED level: 3 lesson: 1 title: \"Pourquoi la dette n'est pas toujours mauvaise : dette stratégique vs dette de consommation\" source title: \"Why Debt Isn't Always Bad: Strategic vs. Consumer Debt\" description: \"Découvrez pourquoi toutes les dettes ne se valent pas, et pourquoi la dette derrière un immeuble à revenus peut bâtir un patrimoine alo…",
@@ -176,16 +176,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c9eab1f64f767d404aa68899ba352e8f78104a81c52698a5808ed691d17f15b5",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.982Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_824b792f-73a1-4cc5-b061-293f244df158",
@@ -200,7 +200,7 @@
       "sizeBytes": 7107,
       "checksum": "sha256:0af5ade15c748320dbdde75f57192e8099d339ea59ad74e7e2f60e35d9497225",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 002 locale: fr CA source locale: en US track: RED level: 3 lesson: 2 title: \"Pourquoi la monnaie fiduciaire change le calcul de la dette à taux fixe\" source title: \"Why Fiat Currency Changes the Math on Fixed Rate Debt\" description: \"Comprenez pourquoi rembourser un prêt hypothécaire à taux fixe en monnaie fiduciaire peut discrètement jouer en faveur de l'emprunteur avec le temps, et po…",
@@ -229,16 +229,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0af5ade15c748320dbdde75f57192e8099d339ea59ad74e7e2f60e35d9497225",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.986Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_82fee33d-61e0-4440-8348-de9787255d30",
@@ -253,7 +253,7 @@
       "sizeBytes": 6958,
       "checksum": "sha256:58044c5f88897bec4a6bc448bff072db4470028acabd5bd9f519729468e6a39e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 003 locale: fr CA source locale: en US track: RED level: 3 lesson: 3 title: \"Pourquoi l'effet de levier multiplie à la fois les gains et les pertes\" source title: \"Why Leverage Multiplies Both Gains and Losses\" description: \"Découvrez pourquoi utiliser de l'argent emprunté pour acheter de l'immobilier peut augmenter fortement vos rendements, et augmenter tout aussi fortement votre risqu…",
@@ -282,16 +282,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:58044c5f88897bec4a6bc448bff072db4470028acabd5bd9f519729468e6a39e",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.986Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_f7115581-82ed-49b4-be67-892a917f966c",
@@ -306,7 +306,7 @@
       "sizeBytes": 6697,
       "checksum": "sha256:5974b4e1cb2eabd5a98ffdf36730d31954cce982da039920e2311e0e744e6d80",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 004 locale: fr CA source locale: en US track: RED level: 3 lesson: 4 title: \"Pourquoi les prêteurs s'intéressent aux ratios DTI et LTV\" source title: \"Why Lenders Care About DTI and LTV Ratios\" description: \"Découvrez pourquoi les prêteurs s'appuient sur deux ratios, le taux d'endettement et le rapport prêt valeur, pour décider combien ils prêteront et à quel point une opération est ris…",
@@ -335,16 +335,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5974b4e1cb2eabd5a98ffdf36730d31954cce982da039920e2311e0e744e6d80",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.987Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_3f125ce7-0697-4da5-a6c6-63ec6b74fa7c",
@@ -359,7 +359,7 @@
       "sizeBytes": 6632,
       "checksum": "sha256:cafb694f283708314dfd00f0f89f18d5d0f91868317d2437ee8f512e59ca79d8",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 005 locale: fr CA source locale: en US track: RED level: 3 lesson: 5 title: \"Pourquoi le cash flow, et non la plus value, doit guider la décision\" source title: \"Why Cash Flow, Not Appreciation, Should Drive the Decision\" description: \"Découvrez pourquoi compter sur la hausse de valeur d'un bien est une stratégie plus fragile que compter sur le cash flow mensuel, et pourquoi ce ne sont …",
@@ -388,16 +388,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:cafb694f283708314dfd00f0f89f18d5d0f91868317d2437ee8f512e59ca79d8",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.987Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_d8b17b2a-7a17-4990-9618-53725676ba50",
@@ -412,7 +412,7 @@
       "sizeBytes": 7112,
       "checksum": "sha256:6a88eba95bbec96b781533369ac6d3e14490a6cacdcab8e6ab5f460161c94b08",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 006 locale: fr CA source locale: en US track: RED level: 3 lesson: 6 title: \"Pourquoi le type de taux d'intérêt compte davantage à mesure que vous vous développez\" source title: \"Why Interest Rate Type Matters More as You Scale\" description: \"Découvrez pourquoi le choix entre un taux fixe et un taux variable devient un enjeu plus important à mesure qu'un investisseur accumule des biens …",
@@ -441,16 +441,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6a88eba95bbec96b781533369ac6d3e14490a6cacdcab8e6ab5f460161c94b08",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.998Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_64aa8da1-f7a6-489f-8e0d-621b3a83fa6b",
@@ -465,7 +465,7 @@
       "sizeBytes": 6696,
       "checksum": "sha256:bfe43a3d4f26a300901cb2dcd4ec4dde9dbd2d83511a01a5ed56864ec0586a89",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 007 locale: fr CA source locale: en US track: RED level: 3 lesson: 7 title: \"Pourquoi le tableau d'amortissement révèle le vrai coût d'un prêt\" source title: \"Why Amortization Schedules Reveal the Real Cost of a Loan\" description: \"Découvrez pourquoi les premières années d'un prêt hypothécaire servent surtout à payer des intérêts, et non du capital, et pourquoi ce calendrier compte pour…",
@@ -494,16 +494,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:bfe43a3d4f26a300901cb2dcd4ec4dde9dbd2d83511a01a5ed56864ec0586a89",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.998Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_9ea5368d-d93f-495a-8827-a1134246fe69",
@@ -518,7 +518,7 @@
       "sizeBytes": 6964,
       "checksum": "sha256:448d43e01366c1288fe453d6709aae7d27b3dca047adf93d99b2001db51924cc",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 008 locale: fr CA source locale: en US track: RED level: 3 lesson: 8 title: \"Pourquoi le refinancement peut être un outil stratégique, et pas seulement la chasse au meilleur taux\" source title: \"Why Refinancing Can Be a Strategic Tool, Not Just a Rate Chase\" description: \"Découvrez pourquoi les investisseurs refinancent pour d'autres raisons que l'obtention d'un taux plus bas, et pourqu…",
@@ -547,16 +547,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:448d43e01366c1288fe453d6709aae7d27b3dca047adf93d99b2001db51924cc",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:57.999Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_c057900e-72d8-44e4-b6a6-21f8abc1c6b9",
@@ -571,7 +571,7 @@
       "sizeBytes": 7394,
       "checksum": "sha256:4932b827d09e131629c512c87110949b12c679ad0c13d9abc3a8963637a2e96d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 009 locale: fr CA source locale: en US track: RED level: 3 lesson: 9 title: \"Pourquoi la méthode BRRRR fonctionne (et où elle casse)\" source title: \"Why the BRRRR Method Works (and Where It Breaks)\" description: \"Découvrez pourquoi la méthode Buy, Rehab, Rent, Refinance, Repeat permet aux investisseurs de recycler le même capital dans plusieurs biens, et à quel moment précis la stratégi…",
@@ -600,16 +600,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:4932b827d09e131629c512c87110949b12c679ad0c13d9abc3a8963637a2e96d",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.000Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_5c997f49-0b5c-448e-8f8f-c8ed42508822",
@@ -624,7 +624,7 @@
       "sizeBytes": 5051,
       "checksum": "sha256:d411064f203a8f87d54663eaf2b75e07136791917df471d091f2254041e1a81c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 010 locale: fr CA source locale: en US track: RED level: 3 lesson: 10 title: \"Pourquoi l'inoccupation et les réserves changent votre vrai risque lié à l'effet de levier\" source title: \"Why Vacancy and Reserves Change Your Real Leverage Risk\" description: \"Découvrez pourquoi le loyer qu'un bien « devrait » rapporter et le loyer qu'il encaisse réellement sont deux chiffres différents, et …",
@@ -653,16 +653,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d411064f203a8f87d54663eaf2b75e07136791917df471d091f2254041e1a81c",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.001Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_d2e50b57-2669-424a-b1eb-a9cfbfcc52de",
@@ -677,7 +677,7 @@
       "sizeBytes": 5094,
       "checksum": "sha256:69e9db1f93c749191fc4a97f025dd05c5f894a325866ac6c0da46003745366f7",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 011 locale: fr CA source locale: en US track: RED level: 3 lesson: 11 title: \"Pourquoi les prêteurs de portefeuille raisonnent autrement que les banques de détail\" source title: \"Why Portfolio Lenders Think Differently Than Retail Banks\" description: \"Découvrez pourquoi les prêteurs qui gardent les prêts dans leurs propres comptes évaluent les opérations différemment des banques qui rev…",
@@ -706,16 +706,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:69e9db1f93c749191fc4a97f025dd05c5f894a325866ac6c0da46003745366f7",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.001Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_c83b834e-25d3-4a1d-9d26-d96fb504adda",
@@ -730,7 +730,7 @@
       "sizeBytes": 5062,
       "checksum": "sha256:bdf413ff1c1162fbffa5a43120ec7534419cae7d0bdccbf0c718eead89547472",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 012 locale: fr CA source locale: en US track: RED level: 3 lesson: 12 title: \"Pourquoi l'échange 1031 change la réflexion sur l'effet de levier\" source title: \"Why 1031 Exchanges Change the Leverage Conversation\" description: \"Découvrez pourquoi un échange 1031 permet à un investisseur de transférer la valeur nette d'un bien vers un bien plus grand sans impôt immédiat, et pourquoi cela …",
@@ -759,16 +759,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:bdf413ff1c1162fbffa5a43120ec7534419cae7d0bdccbf0c718eead89547472",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.001Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_7804d593-b181-4767-8731-057aa435650a",
@@ -783,7 +783,7 @@
       "sizeBytes": 5538,
       "checksum": "sha256:feb8b9f2f47875d33203aeeca637982e4b9a73b34ca4d07020d071d165812842",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 013 locale: fr CA source locale: en US track: RED level: 3 lesson: 13 title: \"Pourquoi le surendettement tue des placements par ailleurs bons\" source title: \"Why Over Leveraging Kills Otherwise Good Investments\" description: \"Découvrez pourquoi un bien fondamentalement solide peut quand même échouer en tant que placement si l'on empile trop de dettes dessus.\" slug: red l3 013 over lever…",
@@ -812,16 +812,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:feb8b9f2f47875d33203aeeca637982e4b9a73b34ca4d07020d071d165812842",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.002Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_7cff0417-9646-4463-80f9-d63caf5e6bd2",
@@ -836,7 +836,7 @@
       "sizeBytes": 7530,
       "checksum": "sha256:5064ebea41917ea257abb00296dc554f9951c4baa8e4b2e2f5c73a0fa597871e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 014 locale: fr CA source locale: en US track: RED level: 3 lesson: 14 title: \"Pourquoi les chocs de taux mettent à l'épreuve chaque hypothèse d'une opération\" source title: \"Why Rate Shocks Test Every Assumption in a Deal\" description: \"Parcourez un scénario économique réaliste et voyez comment un choc soudain sur les taux d'intérêt révèle chaque hypothèse fragile d'une opération immobi…",
@@ -865,16 +865,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5064ebea41917ea257abb00296dc554f9951c4baa8e4b2e2f5c73a0fa597871e",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.002Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_c68cb574-55be-450c-87c4-d21326eb5eaa",
@@ -889,7 +889,7 @@
       "sizeBytes": 7061,
       "checksum": "sha256:da3331ecdc3f7733ec91343b2d81ee4c4b33ee486a85f55a01cefe35d6685f76",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 015 locale: fr CA source locale: en US track: RED level: 3 lesson: 15 title: \"Pourquoi la stratégie de sortie doit être décidée avant d'acheter\" source title: \"Why Exit Strategy Should Be Decided Before You Buy\" description: \"Découvrez pourquoi prévoir comment vous finirez par vendre, refinancer ou conserver un bien change les décisions que vous prenez dès le premier jour où vous le pos…",
@@ -918,16 +918,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:da3331ecdc3f7733ec91343b2d81ee4c4b33ee486a85f55a01cefe35d6685f76",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.003Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_51b14c2e-368e-455c-87ee-0f52683f2607",
@@ -942,7 +942,7 @@
       "sizeBytes": 5721,
       "checksum": "sha256:97c781803c43f60c39d0d2c0ba6f4ed016466e3e34c72f926db586e9da1a5468",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 016 locale: fr CA source locale: en US track: RED level: 3 lesson: 16 title: \"Pourquoi les règles du crédit commercial diffèrent de celles du crédit résidentiel\" source title: \"Why Commercial Lending Rules Differ from Residential\" description: \"Découvrez pourquoi le financement d'un petit immeuble d'appartements ou d'un bien commercial suit des règles différentes de celles d'une maison …",
@@ -971,16 +971,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:97c781803c43f60c39d0d2c0ba6f4ed016466e3e34c72f926db586e9da1a5468",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.003Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_67e06005-ebaa-433c-b6d0-852050574a18",
@@ -995,7 +995,7 @@
       "sizeBytes": 5969,
       "checksum": "sha256:06772a419c8d1914e0d7e51dbd3ff8a9e776e8918e59a720b989f751bb3a878c",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 017 locale: fr CA source locale: en US track: RED level: 3 lesson: 17 title: \"Pourquoi les prêts hard money et les prêts privés existent en dehors du système bancaire\" source title: \"Why Hard Money and Private Loans Exist Outside the Bank System\" description: \"Découvrez pourquoi certaines opérations immobilières sont financées par des prêteurs privés plutôt que par des banques, et pourq…",
@@ -1024,16 +1024,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:06772a419c8d1914e0d7e51dbd3ff8a9e776e8918e59a720b989f751bb3a878c",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.003Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_81f43ec5-19d1-4b49-b241-644c1482dcf1",
@@ -1048,7 +1048,7 @@
       "sizeBytes": 5527,
       "checksum": "sha256:7732766c17a5e16397d9fe6aeee1c22f28a7518674532fc1be1b86c740065be3",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 018 locale: fr CA source locale: en US track: RED level: 3 lesson: 18 title: \"Pourquoi le financement par le vendeur peut battre un prêt bancaire dans la bonne opération\" source title: \"Why Seller Financing Can Beat a Bank Loan in the Right Deal\" description: \"Découvrez pourquoi un vendeur qui joue le rôle de prêteur peut parfois proposer de meilleures conditions et plus de souplesse qu…",
@@ -1077,16 +1077,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7732766c17a5e16397d9fe6aeee1c22f28a7518674532fc1be1b86c740065be3",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.004Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_27fc5ba6-a92e-4adf-9bcf-499e48a4a315",
@@ -1101,7 +1101,7 @@
       "sizeBytes": 4634,
       "checksum": "sha256:3b85d4801c9c638014f81d048202770a08d74e4e6fab4d2841d371cf1c0a4dbb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 019 locale: fr CA source locale: en US track: RED level: 3 lesson: 19 title: \"Pourquoi la garantie croisée est une arme à double tranchant\" source title: \"Why Cross Collateralization Is a Double Edged Sword\" description: \"Découvrez pourquoi utiliser un bien comme garantie pour un prêt sur un autre bien peut débloquer un financement, et pourquoi cela met aussi les deux biens en danger en…",
@@ -1130,16 +1130,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3b85d4801c9c638014f81d048202770a08d74e4e6fab4d2841d371cf1c0a4dbb",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.004Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_625e599a-1a19-4850-ae0b-bde5304f2b38",
@@ -1154,7 +1154,7 @@
       "sizeBytes": 5897,
       "checksum": "sha256:b18700600683d2f98dd47658ec7549c3ed66e0cd59257818ac57cf169a447014",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 020 locale: fr CA source locale: en US track: RED level: 3 lesson: 20 title: \"Pourquoi les prêts DSCR jugent le bien, et non l'emprunteur\" source title: \"Why DSCR Loans Judge the Property, Not the Borrower\" description: \"Découvrez pourquoi les prêts basés sur le ratio de couverture du service de la dette permettent aux investisseurs immobiliers d'être éligibles grâce aux revenus d'un bi…",
@@ -1183,16 +1183,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b18700600683d2f98dd47658ec7549c3ed66e0cd59257818ac57cf169a447014",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.005Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_5d277875-1095-47fd-a646-3a6e2f6de2d7",
@@ -1207,7 +1207,7 @@
       "sizeBytes": 5446,
       "checksum": "sha256:bb9582db30b289ec3ad1c247fea8d0e067b26d935a50fca6b630ed0d6e4901d5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 021 locale: fr CA source locale: en US track: RED level: 3 lesson: 21 title: \"Pourquoi la HELOC transforme la valeur nette d'un logement en effet de levier\" source title: \"Why HELOCs Turn Home Equity into Leverage\" description: \"Découvrez comment fonctionne une marge de crédit garantie par la valeur nette d'un logement, pourquoi elle diffère d'un refinancement avec retrait de liquidités…",
@@ -1236,16 +1236,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:bb9582db30b289ec3ad1c247fea8d0e067b26d935a50fca6b630ed0d6e4901d5",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.005Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_b0597359-7ee7-4856-a9e1-7e7b964a8a07",
@@ -1260,7 +1260,7 @@
       "sizeBytes": 5358,
       "checksum": "sha256:ef63491f9473e23ea804cb47cc84d96dc1007fa70cae6a153f9a9c6fb22f7078",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 022 locale: fr CA source locale: en US track: RED level: 3 lesson: 22 title: \"Pourquoi le paiement ballon crée une échéance cachée\" source title: \"Why Balloon Payments Create a Hidden Deadline\" description: \"Découvrez pourquoi certains prêts exigent un gros paiement en une seule fois à la fin d'une durée courte, et pourquoi cette échéance doit être préparée des années à l'avance.\" slug:…",
@@ -1289,16 +1289,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:ef63491f9473e23ea804cb47cc84d96dc1007fa70cae6a153f9a9c6fb22f7078",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.017Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_acc9c1b0-fed8-4905-9bfa-6d742169ae17",
@@ -1313,7 +1313,7 @@
       "sizeBytes": 5503,
       "checksum": "sha256:18dd6b3f963f3d8efb621ccfd2710eab934efeb8e768968ead21883f44e295e4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 023 locale: fr CA source locale: en US track: RED level: 3 lesson: 23 title: \"Pourquoi les pénalités de remboursement anticipé changent le calcul de votre refinancement\" source title: \"Why Prepayment Penalties Change Your Refinance Math\" description: \"Découvrez pourquoi certains prêts facturent des frais en cas de remboursement anticipé, et pourquoi ces frais doivent être pris en compte…",
@@ -1342,16 +1342,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:18dd6b3f963f3d8efb621ccfd2710eab934efeb8e768968ead21883f44e295e4",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.018Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_db4654a9-44c1-41b3-b399-4eda2d9c3895",
@@ -1366,7 +1366,7 @@
       "sizeBytes": 6048,
       "checksum": "sha256:7bf413635680f6d83cbce848c2557292449ba826dc35e6aef7acb13d96bcfcab",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 024 locale: fr CA source locale: en US track: RED level: 3 lesson: 24 title: \"Pourquoi le taux de capitalisation et le taux du prêt hypothécaire doivent être comparés ensemble\" source title: \"Why Cap Rate and Mortgage Rate Have to Be Compared Together\" description: \"Découvrez pourquoi comparer le taux de capitalisation d'un bien au taux de son prêt hypothécaire révèle si l'effet de levi…",
@@ -1395,16 +1395,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7bf413635680f6d83cbce848c2557292449ba826dc35e6aef7acb13d96bcfcab",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.019Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_79e221ec-f8b7-4aeb-a0b6-da8f1240e827",
@@ -1419,7 +1419,7 @@
       "sizeBytes": 5988,
       "checksum": "sha256:1c070962ce99f729702fd08ec64b7f8646c22f812e58fe14c3f8653fb565a16d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 025 locale: fr CA source locale: en US track: RED level: 3 lesson: 25 title: \"Pourquoi un effet de levier négatif peut quand même avoir du sens (parfois)\" source title: \"Why Negative Leverage Can Still Make Sense (Sometimes)\" description: \"Découvrez pourquoi un investisseur peut accepter en connaissance de cause un effet de levier négatif sur une opération, et ce qui doit être vrai pour…",
@@ -1448,16 +1448,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:1c070962ce99f729702fd08ec64b7f8646c22f812e58fe14c3f8653fb565a16d",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.019Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_615700bd-6f10-4282-81f4-2cfe7cec0bcc",
@@ -1472,7 +1472,7 @@
       "sizeBytes": 5262,
       "checksum": "sha256:b60206eada746282a9b079a4991a02a7e61734c352671f31c7eeafe7571f57d5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 026 locale: fr CA source locale: en US track: RED level: 3 lesson: 26 title: \"Pourquoi le blocage de taux et le rachat de taux sont des outils de calendrier, pas des remises\" source title: \"Why Rate Locks and Buydowns Are Timing Tools, Not Discounts\" description: \"Comprenez pourquoi bloquer un taux ou payer des points pour le faire baisser sert à gérer un risque de calendrier, et non à …",
@@ -1501,16 +1501,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:b60206eada746282a9b079a4991a02a7e61734c352671f31c7eeafe7571f57d5",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.019Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_a7f3b471-a0c5-4410-aaab-a258dc2d43d2",
@@ -1525,7 +1525,7 @@
       "sizeBytes": 5683,
       "checksum": "sha256:916010502ebb1f38c5e43e6be86af270c991ca4d580f6cdb06c250c6d8564e86",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 027 locale: fr CA source locale: en US track: RED level: 3 lesson: 27 title: \"Pourquoi la dette avec ou sans recours change votre exposition au risque\" source title: \"Why Recourse vs. Non Recourse Debt Changes Your Risk Exposure\" description: \"Découvrez la différence entre les prêts avec recours et sans recours, et pourquoi cette distinction détermine ce qu'un prêteur peut poursuivre en…",
@@ -1554,16 +1554,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:916010502ebb1f38c5e43e6be86af270c991ca4d580f6cdb06c250c6d8564e86",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.020Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_8a96c4f4-870b-463b-b417-6b6f191a401b",
@@ -1578,7 +1578,7 @@
       "sizeBytes": 5077,
       "checksum": "sha256:3c680c60eb09d339fe8312fe3c26f82d3364009adddc60914b7a2c489456da0d",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 028 locale: fr CA source locale: en US track: RED level: 3 lesson: 28 title: \"Pourquoi les prêteurs demandent des garanties personnelles\" source title: \"Why Lenders Ask for Personal Guarantees\" description: \"Découvrez pourquoi un prêteur peut exiger une garantie personnelle même pour un prêt structuré via une LLC, et ce que cela signifie pour la protection de votre patrimoine.\" slug: re…",
@@ -1607,16 +1607,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3c680c60eb09d339fe8312fe3c26f82d3364009adddc60914b7a2c489456da0d",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.020Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_e8cbe997-310b-4e03-93cc-881d6b468697",
@@ -1631,7 +1631,7 @@
       "sizeBytes": 5404,
       "checksum": "sha256:adf59082d3acd9c3503701cba7e752d9286c6a1b27319686d4efc7831128dd9f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 029 locale: fr CA source locale: en US track: RED level: 3 lesson: 29 title: \"Pourquoi les clauses restrictives d'un prêt peuvent limiter ce que vous faites de votre bien\" source title: \"Why Loan Covenants Can Restrict What You Do With a Property\" description: \"Découvrez pourquoi certains prêts contiennent des conditions permanentes que l'emprunteur doit respecter, et pourquoi les enfre…",
@@ -1660,16 +1660,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:adf59082d3acd9c3503701cba7e752d9286c6a1b27319686d4efc7831128dd9f",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.021Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_4d8360e4-ddc2-4b68-92ff-3cc766cab9a7",
@@ -1684,7 +1684,7 @@
       "sizeBytes": 5563,
       "checksum": "sha256:53df28862a7399988af3b93744f9eff4a767ebd6b173c6d423d32b9e06401316",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 030 locale: fr CA source locale: en US track: RED level: 3 lesson: 30 title: \"Pourquoi la dette mezzanine se situe entre les capitaux propres et le prêt hypothécaire\" source title: \"Why Mezzanine Debt Sits Between Equity and a Mortgage\" description: \"Découvrez ce qu'est la dette mezzanine, pourquoi elle est plus risquée et plus chère qu'un prêt hypothécaire de premier rang, et dans quel…",
@@ -1713,16 +1713,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:53df28862a7399988af3b93744f9eff4a767ebd6b173c6d423d32b9e06401316",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.022Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_2bfa268d-ceed-47ea-9c69-a6b45b5e3263",
@@ -1737,7 +1737,7 @@
       "sizeBytes": 5217,
       "checksum": "sha256:daa1fd73e49f4738e4851e761321e7145b8acf0d2dddd53889014bdde64ac6a4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 031 locale: fr CA source locale: en US track: RED level: 3 lesson: 31 title: \"Pourquoi les prêts relais existent pour combler l'écart entre deux opérations\" source title: \"Why Bridge Loans Exist for the Gap Between Deals\" description: \"Découvrez pourquoi les prêts relais existent pour résoudre les décalages de calendrier à court terme entre l'achat d'un bien et la finalisation d'une aut…",
@@ -1766,16 +1766,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:daa1fd73e49f4738e4851e761321e7145b8acf0d2dddd53889014bdde64ac6a4",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.022Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_fbe41722-66c0-4076-80bd-f381273e0461",
@@ -1790,7 +1790,7 @@
       "sizeBytes": 5920,
       "checksum": "sha256:55900c9e971efc9dcc944aa5765551968751998a71a35857b7230f55cccad506",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 032 locale: fr CA source locale: en US track: RED level: 3 lesson: 32 title: \"Pourquoi les prêts de construction sont structurés différemment des prêts d'achat\" source title: \"Why Construction Loans Are Structured Differently Than Purchase Loans\" description: \"Découvrez pourquoi le financement d'une construction neuve ou d'une grosse rénovation utilise une structure de prêt différente d…",
@@ -1819,16 +1819,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:55900c9e971efc9dcc944aa5765551968751998a71a35857b7230f55cccad506",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.023Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_bec9de29-25dd-45cd-9d8d-76adbb48ed6c",
@@ -1843,7 +1843,7 @@
       "sizeBytes": 5835,
       "checksum": "sha256:5eb61875ecbc170f827d4a2f35fd763a6a0f72cbf09e439f562781b63dd42473",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 033 locale: fr CA source locale: en US track: RED level: 3 lesson: 33 title: \"Pourquoi les règles des Opportunity Zones interagissent avec les décisions d'effet de levier\" source title: \"Why Opportunity Zone Rules Interact with Leverage Decisions\" description: \"Découvrez ce que les Opportunity Zones cherchent à encourager, et pourquoi les décisions d'effet de levier dans ces zones deman…",
@@ -1872,16 +1872,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:5eb61875ecbc170f827d4a2f35fd763a6a0f72cbf09e439f562781b63dd42473",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.023Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_867b4a98-b291-4818-9461-90fd3fba9829",
@@ -1896,7 +1896,7 @@
       "sizeBytes": 5667,
       "checksum": "sha256:6cd69c9e16e50e3e560b4d34b6d2260a53d4a650e7ff2acf2208c30fbd5eb1db",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 034 locale: fr CA source locale: en US track: RED level: 3 lesson: 34 title: \"Pourquoi l'amortissement et le service de la dette doivent être modélisés ensemble\" source title: \"Why Depreciation and Debt Service Have to Be Modeled Together\" description: \"Découvrez pourquoi un bien peut afficher une perte fiscale sur le papier tout en générant un flux de trésorerie positif après le versem…",
@@ -1925,16 +1925,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:6cd69c9e16e50e3e560b4d34b6d2260a53d4a650e7ff2acf2208c30fbd5eb1db",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.024Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_a631d96a-4b4e-437f-9f90-7f740ffc1c66",
@@ -1949,7 +1949,7 @@
       "sizeBytes": 5532,
       "checksum": "sha256:ee46d7328216aa09f9f091b7e907a30d377e5726ee5778cfb2778d393667df8e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 035 locale: fr CA source locale: en US track: RED level: 3 lesson: 35 title: \"Pourquoi les comptes en fidéicommis (escrow) influencent votre vrai flux de trésorerie mensuel\" source title: \"Why Escrow Impounds Affect Your Real Monthly Cash Flow\" description: \"Découvrez pourquoi une partie de votre versement de prêt peut aller sur un compte en fidéicommis pour les impôts et l'assurance, e…",
@@ -1978,16 +1978,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:ee46d7328216aa09f9f091b7e907a30d377e5726ee5778cfb2778d393667df8e",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.024Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_0df99a02-0910-40d7-8676-955c59938c8b",
@@ -2002,7 +2002,7 @@
       "sizeBytes": 5577,
       "checksum": "sha256:1e76ef62c1c606425e38f54496cffe1bc1d68c5f3934bf94ba8f2ac731ddd9b5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 036 locale: fr CA source locale: en US track: RED level: 3 lesson: 36 title: \"Pourquoi contester l'impôt foncier peut changer votre position d'effet de levier\" source title: \"Why a Property Tax Appeal Can Change Your Leverage Position\" description: \"Découvrez pourquoi contester la valeur fiscale d'un bien peut influencer à la fois votre flux de trésorerie mensuel et votre niveau de vale…",
@@ -2031,16 +2031,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:1e76ef62c1c606425e38f54496cffe1bc1d68c5f3934bf94ba8f2ac731ddd9b5",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.025Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_c5c7e1ae-a12e-4ac6-b371-c826ad84066f",
@@ -2055,7 +2055,7 @@
       "sizeBytes": 5451,
       "checksum": "sha256:7202f9bf06a2a91e387e70c746f720bb7be53330824533d78cac85af115d2d17",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 037 locale: fr CA source locale: en US track: RED level: 3 lesson: 37 title: \"Pourquoi le rang des sûretés détermine qui est payé en premier\" source title: \"Why Lien Priority Determines Who Gets Paid First\" description: \"Découvrez comment les sûretés sur un bien sont classées, pourquoi ce classement compte si le bien est vendu ou saisi, et quel est le lien avec la garantie croisée.\" slu…",
@@ -2084,16 +2084,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:7202f9bf06a2a91e387e70c746f720bb7be53330824533d78cac85af115d2d17",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.025Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_ac1e5e76-df7c-41de-9e80-3c90917de441",
@@ -2108,7 +2108,7 @@
       "sizeBytes": 6192,
       "checksum": "sha256:d8000980bc023fa6a17e78f8de4c6c361fa7a6517dcafb1c750cbecc0133f902",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 038 locale: fr CA source locale: en US track: RED level: 3 lesson: 38 title: \"Pourquoi comprendre le fonctionnement de la reprise de finance change votre façon d'évaluer le risque\" source title: \"Why Understanding Foreclosure Mechanics Changes How You Underwrite Risk\" description: \"Découvrez les grandes étapes d'une reprise de finance, et pourquoi comprendre ce processus doit vous pouss…",
@@ -2137,16 +2137,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:d8000980bc023fa6a17e78f8de4c6c361fa7a6517dcafb1c750cbecc0133f902",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.038Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_7638401e-c425-4e59-9b4b-a111e867bf03",
@@ -2161,7 +2161,7 @@
       "sizeBytes": 5595,
       "checksum": "sha256:24df4e8757e19ab0e4a7cf95e49f6ae670d67e099e8869d3d1b14fe62eac42f5",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 039 locale: fr CA source locale: en US track: RED level: 3 lesson: 39 title: \"Pourquoi la dation en paiement et la vente à découvert sont des voies de sortie différentes\" source title: \"Why Deed in Lieu and Short Sales Are Different Exit Paths\" description: \"Découvrez deux alternatives à la reprise de finance — la dation en paiement et la vente à découvert — et pourquoi chacune peut êtr…",
@@ -2190,16 +2190,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:24df4e8757e19ab0e4a7cf95e49f6ae670d67e099e8869d3d1b14fe62eac42f5",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.038Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_f61aa4e2-4910-4454-98f0-169de4f30e43",
@@ -2214,7 +2214,7 @@
       "sizeBytes": 5864,
       "checksum": "sha256:0caa7d2bf22ea26d8e57b0a23f6ef0503c269ad5d6f69fb0c6f09df9c79ae579",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 040 locale: fr CA source locale: en US track: RED level: 3 lesson: 40 title: \"Pourquoi tester la résistance de votre couverture de la dette vous protège avant un retournement\" source title: \"Why Stress Testing Debt Service Coverage Protects You Before a Downturn\" description: \"Découvrez comment soumettre le DSCR d'un bien à un test de résistance face à une hausse du taux d'inoccupation …",
@@ -2243,16 +2243,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:0caa7d2bf22ea26d8e57b0a23f6ef0503c269ad5d6f69fb0c6f09df9c79ae579",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.039Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_2e9d56c4-e5fe-4048-b2ad-44e94a26dba9",
@@ -2267,7 +2267,7 @@
       "sizeBytes": 6057,
       "checksum": "sha256:aa79eba16d943ed9c84535b491d1bccf9b6bbe96de72df70e126bb4f91c57431",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 041 locale: fr CA source locale: en US track: RED level: 3 lesson: 41 title: \"Pourquoi les prêts où l'on ne paie que les intérêts sont un pari sur le calendrier, pas de l'argent gratuit\" source title: \"Why Interest Only Loans Are a Timing Bet, Not Free Money\" description: \"Découvrez comment fonctionnent les prêts où l'on ne rembourse que les intérêts, pourquoi ils réduisent les versemen…",
@@ -2296,16 +2296,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:aa79eba16d943ed9c84535b491d1bccf9b6bbe96de72df70e126bb4f91c57431",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.040Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_4e70cc7a-178f-4533-82aa-96bbb0e8fc4e",
@@ -2320,7 +2320,7 @@
       "sizeBytes": 5291,
       "checksum": "sha256:624de5dbe604dd2ba56d28b373a8e8253237c71d2cf211453f1e5a15594f417b",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 042 locale: fr CA source locale: en US track: RED level: 3 lesson: 42 title: \"Pourquoi les plafonds d'un prêt à taux variable comptent plus que le taux d'appel\" source title: \"Why Adjustable Rate Caps Matter More Than the Teaser Rate\" description: \"Découvrez pourquoi les plafonds de taux d'un prêt hypothécaire à taux variable comptent davantage pour le risque à long terme que le taux de…",
@@ -2349,16 +2349,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:624de5dbe604dd2ba56d28b373a8e8253237c71d2cf211453f1e5a15594f417b",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.040Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_703cf9fa-005f-4905-bd05-d49135c6a036",
@@ -2373,7 +2373,7 @@
       "sizeBytes": 5898,
       "checksum": "sha256:826dfde983fc07a5816ce598417a51713b399916aa287bb85cbe36975c9f631e",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 043 locale: fr CA source locale: en US track: RED level: 3 lesson: 43 title: \"Pourquoi les cycles de taux changent la stratégie de financement gagnante\" source title: \"Why Rate Cycles Change Which Financing Strategy Wins\" description: \"Découvrez pourquoi la même stratégie de financement peut être le bon ou le mauvais choix selon la position des taux d'intérêt dans le cycle économique gé…",
@@ -2402,16 +2402,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:826dfde983fc07a5816ce598417a51713b399916aa287bb85cbe36975c9f631e",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.041Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_e737a5ff-f220-4d76-ba87-e964125eaa80",
@@ -2426,7 +2426,7 @@
       "sizeBytes": 6063,
       "checksum": "sha256:9bc2817478c617499bf86a3a7517d8af6e382501dc678a79056981149502eab4",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 044 locale: fr CA source locale: en US track: RED level: 3 lesson: 44 title: \"Pourquoi les prêts garantis par l'État ont des limites pour les investisseurs\" source title: \"Why Government Backed Loans Have Limits for Investors\" description: \"Découvrez pourquoi les programmes de prêt conçus pour les propriétaires occupants comportent des restrictions qui limitent leur utilité pour les inv…",
@@ -2455,16 +2455,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:9bc2817478c617499bf86a3a7517d8af6e382501dc678a79056981149502eab4",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.041Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_2e3214f2-a50e-4e2c-aa9c-06f114dec39e",
@@ -2479,7 +2479,7 @@
       "sizeBytes": 6212,
       "checksum": "sha256:3e2a1515d3923da74e1592935fd4dcb673ef3701ebffd3fc89920e0d1fe75d9f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 045 locale: fr CA source locale: en US track: RED level: 3 lesson: 45 title: \"Pourquoi les structures de dette en association et en coentreprise répartissent le risque différemment\" source title: \"Why Partnership and JV Debt Structures Split Risk Differently\" description: \"Découvrez pourquoi faire entrer un associé change la répartition du risque lié à la dette et de la responsabilité, …",
@@ -2508,16 +2508,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:3e2a1515d3923da74e1592935fd4dcb673ef3701ebffd3fc89920e0d1fe75d9f",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.042Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_f7c4ac82-2f58-4588-a65a-fa83a51b7471",
@@ -2532,7 +2532,7 @@
       "sizeBytes": 5952,
       "checksum": "sha256:f2b805aeefe79244fa39c06f844422fb88b0209187ea561f163129f2dab2f190",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 046 locale: fr CA source locale: en US track: RED level: 3 lesson: 46 title: \"Pourquoi la dette complique la planification successorale et l'héritage\" source title: \"Why Debt Complicates Estate and Inheritance Planning\" description: \"Découvrez pourquoi des biens locatifs financés à crédit compliquent la planification successorale, et pourquoi les héritiers peuvent hériter à la fois du b…",
@@ -2561,16 +2561,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:f2b805aeefe79244fa39c06f844422fb88b0209187ea561f163129f2dab2f190",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.042Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_03d5d8bb-eca0-4050-91eb-704b44e1ce67",
@@ -2585,7 +2585,7 @@
       "sizeBytes": 5677,
       "checksum": "sha256:437eb9835ce807e5c6bebfa05f8dae87df1764bc23ba79d68cf889adecbdf719",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 047 locale: fr CA source locale: en US track: RED level: 3 lesson: 47 title: \"Pourquoi rembourser sa dette ou réinvestir est un vrai arbitrage, pas une réponse par défaut\" source title: \"Why Paying Off Debt vs. Reinvesting Is a Real Trade off, Not a Default Answer\" description: \"Découvrez pourquoi le choix entre rembourser un prêt hypothécaire par anticipation et réinvestir cet argent a…",
@@ -2614,16 +2614,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:437eb9835ce807e5c6bebfa05f8dae87df1764bc23ba79d68cf889adecbdf719",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.043Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_50dbfd7d-32d0-4ae5-9482-dae82f7a2d4a",
@@ -2638,7 +2638,7 @@
       "sizeBytes": 6212,
       "checksum": "sha256:8283740070b3d8c6b6eef9720d5c9eacdb0c50d48ada5fbb879870fa0a5643fb",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 048 locale: fr CA source locale: en US track: RED level: 3 lesson: 48 title: \"Pourquoi l'immobilier financé à crédit est un outil courant de patrimoine intergénérationnel\" source title: \"Why Leveraged Real Estate Is a Common Generational Wealth Tool\" description: \"Découvrez pourquoi l'immobilier locatif financé à crédit a historiquement servi à bâtir un patrimoine sur plusieurs générati…",
@@ -2667,16 +2667,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:8283740070b3d8c6b6eef9720d5c9eacdb0c50d48ada5fbb879870fa0a5643fb",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.043Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_250eeab1-fe35-4214-9fe9-840222d36aed",
@@ -2691,7 +2691,7 @@
       "sizeBytes": 6572,
       "checksum": "sha256:94eb2947c67d9b080989a4f0fe09f6b55b6a8a6cb3d3d6e8f8257b4402e1ba8f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 049 locale: fr CA source locale: en US track: RED level: 3 lesson: 49 title: \"Pourquoi chaque décision d'effet de levier doit être reliée à un plan de sortie\" source title: \"Why Every Leverage Decision Should Be Tied Back to an Exit Plan\" description: \"Une leçon de synthèse qui relie chaque grande notion d'effet de levier de ce parcours au principe central de la leçon 15 : décidez de vo…",
@@ -2720,16 +2720,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:94eb2947c67d9b080989a4f0fe09f6b55b6a8a6cb3d3d6e8f8257b4402e1ba8f",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.046Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     },
     {
       "id": "file_7b72acc3-b011-40a6-bf5d-04a940106d39",
@@ -2744,7 +2744,7 @@
       "sizeBytes": 6248,
       "checksum": "sha256:c68ae17932cdb31edd05b712df40e1ea806b56b711084ad33c808d5213bbd59f",
       "processingStatus": "classified",
-      "reviewStatus": "pending",
+      "reviewStatus": "approved",
       "conflictStatus": "none",
       "duplicateStatus": "new",
       "previewText": "id: RED L3 050 locale: fr CA source locale: en US track: RED level: 3 lesson: 50 title: \"Pourquoi maîtriser l'effet de levier, c'est savoir quand ne pas l'utiliser\" source title: \"Why Mastering Leverage Means Knowing When Not to Use It\" description: \"La leçon de clôture de ce parcours : pourquoi une vraie maîtrise de l'effet de levier immobilier comprend la discipline de le refuser quand une opéra…",
@@ -2773,16 +2773,16 @@
         "contentType": "courses",
         "pillar": "red",
         "academyLevel": "level-3",
-        "publicationStatus": "draft",
+        "publicationStatus": "published",
         "version": "1.0.0",
         "checksum": "sha256:c68ae17932cdb31edd05b712df40e1ea806b56b711084ad33c808d5213bbd59f",
         "uploadBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9"
       },
       "warnings": [],
       "error": null,
-      "approvedAt": null,
+      "approvedAt": "2026-10-04T16:29:00.906Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:28:58.047Z"
+      "updatedAt": "2026-10-04T16:29:00.906Z"
     }
   ],
   "auditHistory": [
