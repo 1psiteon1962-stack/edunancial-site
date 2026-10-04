@@ -1,5 +1,16 @@
 [
   {
+    "id": "audit_c1284c88-5415-48fa-be99-d7ca9a16995d",
+    "timestamp": "2026-10-04T18:18:43.545Z",
+    "action": "export-generated",
+    "result": "success",
+    "actor": "github-actions-recovery@edunancial.internal",
+    "batchId": "batch_a1642de9-0a0f-43ff-9cfc-42532ad56122",
+    "metadata": {
+      "exportId": "export_batch_a1642de9-0a0f-43ff-9cfc-42532ad56122_1791137921243"
+    }
+  },
+  {
     "id": "audit_ec281ac1-ea73-4ae4-8ccf-c52e9368db8b",
     "timestamp": "2026-10-04T18:18:29.004Z",
     "action": "batch-created",
