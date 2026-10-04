@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
 
-import { DEFAULT_FINALIZE_CONCURRENCY, runSequentialFinalization } from "@/lib/admin-content/finalize-queue";
+import { runSequentialFinalization } from "@/lib/admin-content/finalize-queue";
 
 describe("bulk finalization scale", () => {
   for (const size of [25, 50, 100, 309, 500]) {
@@ -25,7 +25,7 @@ describe("bulk finalization scale", () => {
         (entry) => progress.push(entry),
       );
 
-      assert.equal(maxActive, DEFAULT_FINALIZE_CONCURRENCY);
+      assert.equal(maxActive, 1);
       assert.equal(visited.size, size);
       assert.equal(results.length, size);
       assert.equal(results[0], "batch-1");
