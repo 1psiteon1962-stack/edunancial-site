@@ -1,13 +1,29 @@
 [
   {
-    "id": "audit_2580af64-e0d0-40ea-847e-9dfb56e688e0",
-    "timestamp": "2026-10-04T16:29:20.314Z",
-    "action": "export-generated",
+    "id": "upload-operation-861b7317-038f-47f8-a138-9c530602f187",
+    "timestamp": "2026-10-04T16:29:20.703Z",
+    "action": "system-error",
     "result": "success",
-    "actor": "1psiteon1962@gmail.com",
-    "batchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
     "metadata": {
-      "exportId": "export_batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9_1791131358464"
+      "kind": "upload-operation",
+      "uploadId": "upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875",
+      "phase": "FINALIZE",
+      "status": "STARTED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875-red-l3-001-050-de.zip",
+      "fileName": "RED-L3-001-050-de.zip",
+      "fileSize": 121793,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_52d9f9ef-83f8-48e9-86e4-759231ce09b2",
+      "packageIdentity": {
+        "track": "red",
+        "level": "level-3",
+        "language": "de",
+        "title": "001 050"
+      }
     }
   },
   {
