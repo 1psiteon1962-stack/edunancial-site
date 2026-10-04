@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_b169c07c-4540-4e68-a04c-4e17ee5f93dd",
+    "name": "Recovered red-l3-001-050-es-caribbean.zip",
+    "slug": "recovered-red-l3-001-050-es-caribbean-zip",
+    "source": "Recovered from stored upload batch batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-04T18:17:42.778Z",
+    "updatedAt": "2026-10-04T18:17:45.308Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_9e35460c-828a-4d9a-ae19-3ba7f801ce45",
     "name": "Content Upload 2026-10-04 — RED-L3-001-050-fr-FR.zip",
     "slug": "content-upload-2026-10-04-red-l3-001-050-fr-fr-zip",
