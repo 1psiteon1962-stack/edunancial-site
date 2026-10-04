@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
+import { getStore } from "@netlify/blobs";
 
 import type { AdminContentStorage } from "@/lib/admin-content/storage/types";
 import type { AuditEvent, BatchSummary, ExportPackage, UploadBatch } from "@/lib/admin-content/types";
@@ -29,6 +30,20 @@ class LocalAdminContentStorage implements AdminContentStorage {
  async createExport(p:ExportPackage,a:Buffer){await this.saveBinary(p.storagePath,a,"application/zip");writeJsonFile(localPath("exports",`${p.id}.json`),p);return p;} async getSignedUploadUrl(_path:string):Promise<string|null>{return null;} async listWorkspaceEntries(){return listLocalWorkspaceEntries();}
 }
 
+class NetlifyBlobAdminContentStorage implements AdminContentStorage {
+ private store(){return getStore("edunancial-admin-content",{consistency:"strong"});}
+ private async json<T>(path:string,fallback:T):Promise<T>{const v=await this.store().get(path,{type:"json"});return (v??fallback) as T;}
+ async createBatch(batch:UploadBatch){await this.updateBatch(batch);return batch;}
+ async updateBatch(batch:UploadBatch){await this.store().setJSON(`batches/${batch.id}.json`,batch);const current=await this.listBatches();const next=current.filter(e=>e.id!==batch.id);next.unshift(summarizeBatch(batch));await this.store().setJSON(INDEX_FILE,next);return batch;}
+ async removeBatch(id:string){await this.deleteBinary(`batches/${id}.json`);} async updateBatchIndex(s:BatchSummary[]){await this.store().setJSON(INDEX_FILE,s);} async listBatches(){return this.json<BatchSummary[]>(INDEX_FILE,[]);} async getBatch(id:string){return this.json<UploadBatch|null>(`batches/${id}.json`,null);}
+ async saveBinary(path:string,content:Buffer,type:string){await this.store().set(path,new Blob([content],{type}));} async readBinary(path:string){const v=await this.store().get(path,{type:"arrayBuffer"});return v?Buffer.from(v):null;} async deleteBinary(path:string){await this.store().delete(path);}
+ async updateBinary(path:string,mutate:(current:Buffer|null)=>Buffer|null){for(let n=0;n<8;n++){const current=await this.readBinary(path),next=mutate(current);if(!next)return false;if(current&&current.equals(next))return true;await this.saveBinary(path,next,"application/octet-stream");return true;}return false;}
+ async createIfAbsent(path:string,content:Buffer,type:string){if(await this.readBinary(path))return false;await this.saveBinary(path,content,type);return true;} async deleteIfVersion(path:string,expected:Buffer){const current=await this.readBinary(path);if(!current||!current.equals(expected))return false;await this.deleteBinary(path);return true;}
+ async appendAuditEvent(event:AuditEvent){const current=await this.json<AuditEvent[]>(AUDIT_FILE,[]);current.unshift(event);await this.store().setJSON(AUDIT_FILE,current.slice(0,1000));} async listAuditHistory(batchId?:string){const all=await this.json<AuditEvent[]>(AUDIT_FILE,[]);return batchId?all.filter(e=>e.batchId===batchId):all;}
+ async createExport(p:ExportPackage,a:Buffer){await this.saveBinary(p.storagePath,a,"application/zip");await this.store().setJSON(`exports/${p.id}.json`,p);return p;} async getSignedUploadUrl(){return null;}
+ async listWorkspaceEntries(){const r=await this.store().list();return r.blobs.map(b=>b.key);}
+}
+
 class GithubAdminContentStorage implements AdminContentStorage {
  private readonly token=process.env.EDUNANCIAL_GITHUB_TOKEN?.trim()||""; private readonly owner=process.env.EDUNANCIAL_GITHUB_OWNER?.trim()||""; private readonly repo=process.env.EDUNANCIAL_GITHUB_REPO?.trim()||""; private branchReady=false;
  private headers(){if(!this.token||!this.owner||!this.repo)throw new Error("GitHub upload storage is not configured.");return{Accept:"application/vnd.github+json",Authorization:`Bearer ${this.token}`,"X-GitHub-Api-Version":"2022-11-28","User-Agent":"edunancial-admin-content-storage"};}
@@ -51,5 +66,5 @@ class GithubAdminContentStorage implements AdminContentStorage {
 }
 
 let cachedStorage:AdminContentStorage|null=null;
-export function getAdminContentStorage():AdminContentStorage{if(cachedStorage)return cachedStorage;cachedStorage=process.env.NODE_ENV==="production"?new GithubAdminContentStorage():new LocalAdminContentStorage();return cachedStorage;}
+export function getAdminContentStorage():AdminContentStorage{if(cachedStorage)return cachedStorage;cachedStorage=process.env.NODE_ENV==="production"?new NetlifyBlobAdminContentStorage():new LocalAdminContentStorage();return cachedStorage;}
 export function getLocalAdminStorageFiles(){return existsSync(localRoot())?readdirSync(localRoot(),{recursive:true}):[];} export function resetAdminContentStorage(){cachedStorage=null;rmSync(localRoot(),{recursive:true,force:true});}
