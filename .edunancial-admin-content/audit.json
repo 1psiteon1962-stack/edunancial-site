@@ -1,5 +1,32 @@
 [
   {
+    "id": "upload-operation-8784dfbf-8c30-4858-8324-0797f3eecc7a",
+    "timestamp": "2026-10-04T16:29:44.941Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c",
+      "phase": "FINALIZE",
+      "status": "STARTED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c-red-l3-001-050-es-caribbean.zip",
+      "fileName": "RED-L3-001-050-es-Caribbean.zip",
+      "fileSize": 111932,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_3c378cf4-d18d-436d-bebe-d9cf9e626c31",
+      "packageIdentity": {
+        "track": "red",
+        "level": "level-3",
+        "language": "es-Caribbean",
+        "title": "001 050"
+      }
+    }
+  },
+  {
     "id": "audit_ddb344b3-7ef6-4049-90c3-3909af75286b",
     "timestamp": "2026-10-04T16:29:36.993Z",
     "action": "batch-created",
