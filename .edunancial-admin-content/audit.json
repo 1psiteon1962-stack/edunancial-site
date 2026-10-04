@@ -1,37 +1,44 @@
 [
   {
-    "id": "audit_6bf7ffb3-2fd8-4c80-9034-f3ea1337853b",
-    "timestamp": "2026-10-04T16:29:48.271Z",
-    "action": "batch-created",
-    "result": "success",
-    "actor": "1psiteon1962@gmail.com",
-    "batchId": "batch_3c378cf4-d18d-436d-bebe-d9cf9e626c31"
-  },
-  {
-    "id": "upload-operation-8784dfbf-8c30-4858-8324-0797f3eecc7a",
-    "timestamp": "2026-10-04T16:29:44.941Z",
+    "id": "upload-operation-5f24a89f-f015-48fc-b511-063598207efb",
+    "timestamp": "2026-10-04T16:29:47.159Z",
     "action": "system-error",
     "result": "success",
     "actor": "admin-content-uploader",
     "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
     "metadata": {
       "kind": "upload-operation",
-      "uploadId": "upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c",
+      "uploadId": "upload_fb5edd64-354b-4d44-93ca-a908a4153e26",
       "phase": "FINALIZE",
-      "status": "STARTED",
-      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c-red-l3-001-050-es-caribbean.zip",
-      "fileName": "RED-L3-001-050-es-Caribbean.zip",
-      "fileSize": 111932,
+      "status": "SUCCEEDED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_fb5edd64-354b-4d44-93ca-a908a4153e26-red-l3-001-050-fr-fr.zip",
+      "fileName": "RED-L3-001-050-fr-FR.zip",
+      "fileSize": 119349,
       "errorCode": null,
       "errorMessage": null,
       "mode": "single-package-request",
-      "reviewBatchId": "batch_3c378cf4-d18d-436d-bebe-d9cf9e626c31",
+      "reviewBatchId": "batch_94fa8d53-b4f9-489b-8880-d09b9ba0612a",
+      "reviewableFiles": 51,
       "packageIdentity": {
         "track": "red",
         "level": "level-3",
-        "language": "es-Caribbean",
+        "language": "fr-FR",
         "title": "001 050"
-      }
+      },
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": null,
+      "githubPublicationPending": true,
+      "publicationDeferred": true
     }
   },
   {
