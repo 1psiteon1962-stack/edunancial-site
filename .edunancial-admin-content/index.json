@@ -1,5 +1,20 @@
 [
   {
+    "id": "batch_9e35460c-828a-4d9a-ae19-3ba7f801ce45",
+    "name": "Content Upload 2026-10-04 — RED-L3-001-050-fr-FR.zip",
+    "slug": "content-upload-2026-10-04-red-l3-001-050-fr-fr-zip",
+    "source": "Admin dashboard",
+    "status": "ready-for-review",
+    "createdAt": "2026-10-04T16:30:03.492Z",
+    "updatedAt": "2026-10-04T16:30:04.880Z",
+    "totalUploads": 1,
+    "totalFiles": 51,
+    "approvedFiles": 0,
+    "rejectedFiles": 0,
+    "pendingFiles": 51,
+    "conflicts": 0
+  },
+  {
     "id": "batch_ff91df8c-9c8a-40d6-a1f4-3a5513c37c99",
     "name": "Content Upload 2026-10-04 — RED-L3-001-050-en-GB.zip",
     "slug": "content-upload-2026-10-04-red-l3-001-050-en-gb-zip",
