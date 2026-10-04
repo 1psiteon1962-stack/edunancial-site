@@ -12,6 +12,10 @@ export interface AdminContentStorage {
   readBinary(path: string): Promise<Buffer | null>;
   /** Compare-and-swap update for shared indexes; retries re-apply mutate to fresh bytes. */
   updateBinary?(path: string, mutate: (current: Buffer | null) => Buffer | null, message?: string): Promise<boolean>;
+  /** Create only when absent. Returns false when the object already exists. */
+  createIfAbsent?(path: string, content: Buffer, contentType: string, message?: string): Promise<boolean>;
+  /** Delete only when the current bytes still match expected. */
+  deleteIfVersion?(path: string, expected: Buffer, message?: string): Promise<boolean>;
   appendAuditEvent(event: AuditEvent): Promise<void>;
   listAuditHistory(batchId?: string): Promise<AuditEvent[]>;
   createExport(exportPackage: ExportPackage, archive: Buffer): Promise<ExportPackage>;

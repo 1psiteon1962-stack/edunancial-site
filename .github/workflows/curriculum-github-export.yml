@@ -1,0 +1,42 @@
+name: Curriculum canonical Git export queue
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: curriculum-github-export
+  cancel-in-progress: false
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Export published packages to Git one at a time
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          endpoint="https://edunancial.com/api/admin/content/upload/github-export-next"
+          for attempt in $(seq 1 40); do
+            code=$(curl -sS -o export.json -w '%{http_code}' -X POST "$endpoint" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "X-GitHub-Repository: $GH_REPOSITORY" \
+              -H "X-GitHub-Run-Id: $GH_RUN_ID" || echo "000")
+            cat export.json 2>/dev/null || true; echo
+            if [ "$code" = "200" ]; then
+              if [ "$(jq -r '.done // false' export.json)" = "true" ]; then echo "Export queue empty."; exit 0; fi
+              sleep 5; continue
+            fi
+            echo "Export stopped on HTTP $code. Learner publication is unaffected; receipt remains retryable."
+            exit 1
+          done
