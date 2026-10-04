@@ -9,6 +9,11 @@ const LESSONS_ROOT = `${ATOMIC_ROOT}/lessons`;
 const BATCHES_ROOT = `${ATOMIC_ROOT}/batches`;
 const LESSON_INDEX_PATH = `${ATOMIC_ROOT}/lesson-index.json`;
 
+// Atomic reads currently go directly to durable storage. This hook is kept explicit so
+// learner read-back can invalidate safely now and remains the single invalidation point
+// when the bounded last-known-good cache is enabled.
+export function invalidateAtomicPublishedCache(): void {}
+
 function safeKey(value: string): string {
   return value.trim().replace(/[^A-Za-z0-9._-]+/gu, "_");
 }
