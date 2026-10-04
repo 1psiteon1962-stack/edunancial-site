@@ -12,6 +12,7 @@ import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, getUploadReceipt, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -91,8 +92,10 @@ export async function POST(request: NextRequest) {
       throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
-    const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
-    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
+    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${upload.uploadId}`, async () => ({
+      trustedLocalization: await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true }),
+      trustedCanonicalPublication: await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true }),
+    }));
     const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
 
     // Atomic learner publication is the durable finalization boundary. GitHub
@@ -114,8 +117,10 @@ export async function POST(request: NextRequest) {
     const err = error as Error;
     try { if (upload?.uploadId) await markFailed(upload.uploadId, err.message, true); } catch (receiptError) { console.error("[finalize] unable to persist failure receipt", receiptError); }
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
-    const responseBody: Record<string, unknown> = { success: false, error: err.message || "Finalize failed.", reason: err.name || "UnknownError", status: 400, batchId, uploadId: upload?.uploadId ?? null, uploadReachedStorage: Boolean(batchId), retryable: Boolean(batchId) };
+    const busy = error instanceof PublicationBusyError;
+    const status = busy ? 423 : 503;
+    const responseBody: Record<string, unknown> = { success: false, error: err.message || "Finalize failed.", reason: err.name || "UnknownError", status, batchId, uploadId: upload?.uploadId ?? null, uploadReachedStorage: Boolean(batchId), retryable: true };
     if (process.env.NODE_ENV !== "production") responseBody.stack = err.stack;
-    return Response.json(responseBody, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    return Response.json(responseBody, { status, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   }
 }

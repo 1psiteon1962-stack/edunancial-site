@@ -9,5 +9,5 @@ test("admin upload finalization stays within the serverless request window", () 
   assert.match(route, /export const dynamic = "force-dynamic"/);
   assert.match(route, /export const maxDuration = 60/);
   assert.match(route, /uploadReachedStorage: Boolean\(batchId\)/);
-  assert.match(route, /retryable: Boolean\(batchId\)/);
+  assert.match(route, /retryable: true/);
 });
