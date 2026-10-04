@@ -1,21 +1,56 @@
 [
   {
-    "id": "upload-operation-abdf8140-1447-4c36-8955-33ea60b1a875",
-    "timestamp": "2026-10-04T16:29:34.131Z",
+    "id": "audit_ddb344b3-7ef6-4049-90c3-3909af75286b",
+    "timestamp": "2026-10-04T16:29:36.993Z",
+    "action": "batch-created",
+    "result": "success",
+    "actor": "1psiteon1962@gmail.com",
+    "batchId": "batch_a8b3c628-94fd-4496-aefe-daa169ca2c1a"
+  },
+  {
+    "id": "upload-operation-924e2554-4dca-45ba-b7bd-56bcd42008f1",
+    "timestamp": "2026-10-04T16:29:35.871Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_c0e9bc47-d601-495c-b21a-13d2a5df73be",
+      "phase": "FINALIZE",
+      "status": "STARTED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_c0e9bc47-d601-495c-b21a-13d2a5df73be-red-l3-001-050-pt-br.zip",
+      "fileName": "RED-L3-001-050-pt-BR.zip",
+      "fileSize": 110586,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_a8b3c628-94fd-4496-aefe-daa169ca2c1a",
+      "packageIdentity": {
+        "track": "red",
+        "level": "level-3",
+        "language": "pt-BR",
+        "title": "001 050"
+      }
+    }
+  },
+  {
+    "id": "upload-operation-29d61439-1afa-46c9-a28e-cd6e0fa6e81e",
+    "timestamp": "2026-10-04T16:29:32.694Z",
     "action": "system-error",
     "result": "failure",
     "actor": "admin-content-uploader",
     "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
     "metadata": {
       "kind": "upload-operation",
-      "uploadId": "upload_2f807465-1827-40e3-b5d2-4b8870b1ddd1",
+      "uploadId": "upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875",
       "phase": "FINALIZE",
       "status": "FAILED",
-      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_2f807465-1827-40e3-b5d2-4b8870b1ddd1-red-l3-001-050-it.zip",
-      "fileName": "RED-L3-001-050-it.zip",
-      "fileSize": 112883,
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875-red-l3-001-050-de.zip",
+      "fileName": "RED-L3-001-050-de.zip",
+      "fileSize": 121793,
       "errorCode": "Error",
-      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at e42bf83e3dfdfab8b49b90dd199f649c9d39e207 but expected 95ed908d25403f0c7c030f5f3ee7de4ee42b9ee9\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at 95ed908d25403f0c7c030f5f3ee7de4ee42b9ee9 but expected 0d3c274166e0144b7400f56a6acb81a76a73e563\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
       "mode": "single-package-request"
     }
   },
