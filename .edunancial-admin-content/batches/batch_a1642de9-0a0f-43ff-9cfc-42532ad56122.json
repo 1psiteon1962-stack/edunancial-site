@@ -4,9 +4,9 @@
   "slug": "recovered-red-l3-001-050-es-caribbean-zip",
   "source": "Recovered from stored upload batch batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
   "notes": "Automated one-time package-scoped recovery from persistent upload storage. No file was re-uploaded.",
-  "status": "partially-reviewed",
+  "status": "exported",
   "createdAt": "2026-10-04T18:18:29.003Z",
-  "updatedAt": "2026-10-04T18:18:38.177Z",
+  "updatedAt": "2026-10-04T18:18:43.545Z",
   "uploads": [
     {
       "id": "upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c",
@@ -2837,6 +2837,17 @@
   ],
   "auditHistory": [
     {
+      "id": "audit_c1284c88-5415-48fa-be99-d7ca9a16995d",
+      "timestamp": "2026-10-04T18:18:43.545Z",
+      "action": "export-generated",
+      "result": "success",
+      "actor": "github-actions-recovery@edunancial.internal",
+      "batchId": "batch_a1642de9-0a0f-43ff-9cfc-42532ad56122",
+      "metadata": {
+        "exportId": "export_batch_a1642de9-0a0f-43ff-9cfc-42532ad56122_1791137921243"
+      }
+    },
+    {
       "id": "audit_c888b23a-8449-421b-9777-dd845cb05496",
       "timestamp": "2026-10-04T18:18:30.292Z",
       "action": "archive-extracted",
@@ -2872,6 +2883,25 @@
       "batchId": "batch_a1642de9-0a0f-43ff-9cfc-42532ad56122"
     }
   ],
-  "exports": [],
+  "exports": [
+    {
+      "id": "export_batch_a1642de9-0a0f-43ff-9cfc-42532ad56122_1791137921243",
+      "batchId": "batch_a1642de9-0a0f-43ff-9cfc-42532ad56122",
+      "fileName": "recovered-red-l3-001-050-es-caribbean-zip-approved-content.zip",
+      "storagePath": "exports/export_batch_a1642de9-0a0f-43ff-9cfc-42532ad56122_1791137921243.zip",
+      "manifestPath": "curriculum/staging/content-upload/recovered-red-l3-001-050-es-caribbean-zip/batch_a1642de9-0a0f-43ff-9cfc-42532ad56122/manifest.json",
+      "auditSummaryPath": "curriculum/staging/content-upload/recovered-red-l3-001-050-es-caribbean-zip/batch_a1642de9-0a0f-43ff-9cfc-42532ad56122/audit-summary.json",
+      "warningsPath": "curriculum/staging/content-upload/recovered-red-l3-001-050-es-caribbean-zip/batch_a1642de9-0a0f-43ff-9cfc-42532ad56122/warnings.json",
+      "rejectedFilesPath": "curriculum/staging/content-upload/recovered-red-l3-001-050-es-caribbean-zip/batch_a1642de9-0a0f-43ff-9cfc-42532ad56122/rejected-files.json",
+      "createdAt": "2026-10-04T18:18:41.243Z",
+      "validation": {
+        "success": true,
+        "warnings": [
+          "No curriculum-bound markdown files required validation."
+        ],
+        "errors": []
+      }
+    }
+  ],
   "warnings": []
 }
