@@ -1,4 +1,7 @@
 import { NextRequest } from "next/server";
+import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
+import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
@@ -16,40 +19,7 @@ import { createId } from "@/lib/admin-content/utils";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
-
-async function authorizeGithubActions(request: NextRequest) {
-  const auth = request.headers.get("authorization") ?? "";
-  const token = auth.startsWith("Bearer ") ? auth.slice(7).trim() : "";
-  const repository = request.headers.get("x-github-repository") ?? "";
-  const runId = request.headers.get("x-github-run-id") ?? "";
-  const expected = `${process.env.EDUNANCIAL_GITHUB_OWNER}/${process.env.EDUNANCIAL_GITHUB_REPO}`;
-  if (!token || !runId || repository !== expected) return false;
-
-  const response = await fetch(
-    `https://api.github.com/repos/${expected}/actions/runs/${encodeURIComponent(runId)}`,
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        Accept: "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
-      },
-      cache: "no-store",
-    },
-  );
-  if (!response.ok) return false;
-
-  const run = await response.json() as {
-    head_branch?: string;
-    event?: string;
-    status?: string;
-    repository?: { full_name?: string };
-  };
-  return run.repository?.full_name === expected
-    && run.head_branch === "main"
-    && run.event === "push"
-    && run.status === "in_progress";
-}
+export const maxDuration = 60;
 
 function canonicalFirst(a: ReturnType<typeof selectExistingRestorationCandidates>[number], b: ReturnType<typeof selectExistingRestorationCandidates>[number]) {
   const aLanguage = a.package.identity?.language;
@@ -61,7 +31,7 @@ function canonicalFirst(a: ReturnType<typeof selectExistingRestorationCandidates
 }
 
 export async function POST(request: NextRequest) {
-  if (!(await authorizeGithubActions(request))) {
+  if (!(await authorizeGithubActionsRun(request, ["push", "workflow_dispatch"]))) {
     return Response.json({ success: false, error: "Unauthorized recovery runner." }, { status: 401 });
   }
   if (!recoveryPublicationEnabled()) {
@@ -131,6 +101,7 @@ export async function POST(request: NextRequest) {
     const upload = classified.upload;
     const identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US");
     const recoveryBatchId = createId("batch");
+    await beginFinalization({ uploadId: upload.uploadId, originalBatchId: classified.batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: classified.reconciliationKey }, recoveryBatchId, "recovery");
     const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, {
       batchId: recoveryBatchId,
       batchName: `Recovered ${upload.originalFilename}`,
@@ -162,18 +133,24 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
-    const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(
-      batch,
-      identity,
-      actor,
-      { requireAtomic: true },
-    );
+    let trustedLocalization;
+    let trustedCanonicalPublication;
+    try {
+      ({ trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`recovery:${upload.uploadId}`, async () => {
+        const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
+        const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
+        return { trustedLocalization, trustedCanonicalPublication };
+      }));
+    } catch (error) {
+      await markFailed(upload.uploadId, error instanceof Error ? error.message : String(error), true);
+      if (error instanceof PublicationBusyError) return Response.json({ success:false,error:error.message,retryAfterMs:error.retryAfterMs },{status:423,headers:{"Cache-Control":"private, no-store"}});
+      throw error;
+    }
     const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
       ? await verifyRestoredCanonicalCoordinate(classified.reconciliationKey!)
       : null;
     const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
-    const githubPublication = trustedPublicationAttempted ? await exportBatchToGithub(batch.id, actor) : null;
+    const githubPublication = null;
 
     if (postPublicationVerification && !postPublicationVerification.complete) {
       return Response.json(
@@ -188,6 +165,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    await markPublished(upload.uploadId, { reviewBatchId: recoveryBatchId, verification: { learnerVisible: postPublicationVerification?.complete !== false, detail: postPublicationVerification ? "Canonical learner verification completed." : "Localized trusted publication completed." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: true });
     await recordUploadOperation({
       batchId: classified.batchId,
       uploadId: upload.uploadId,

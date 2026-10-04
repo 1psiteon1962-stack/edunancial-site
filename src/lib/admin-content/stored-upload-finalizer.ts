@@ -453,9 +453,9 @@ export async function createIndependentUploadBatchFromStoredFiles(
   try {
     await storage.createBatch(batch);
   } catch (error) {
-    await Promise.allSettled(
-      batch.uploads.map((upload) => storage.deleteBinary(upload.storagePath)),
-    );
+    // Stored packages are the durable recovery source. Never delete them merely
+    // because derived batch persistence failed; a retry/recovery must be able
+    // to consume the exact original bytes.
     throw error;
   }
 
