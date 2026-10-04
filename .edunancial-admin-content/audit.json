@@ -1,22 +1,37 @@
 [
   {
-    "id": "upload-operation-d08cd99c-7763-48ec-af00-32b64bba5dc3",
-    "timestamp": "2026-10-04T16:29:55.753Z",
+    "id": "upload-operation-40987386-afc2-412a-a9ee-aa87a81ddf32",
+    "timestamp": "2026-10-04T16:29:55.857Z",
     "action": "system-error",
     "result": "failure",
     "actor": "admin-content-uploader",
     "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
     "metadata": {
       "kind": "upload-operation",
-      "uploadId": "upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c",
-      "phase": "FINALIZE",
+      "uploadId": "upload_fb5edd64-354b-4d44-93ca-a908a4153e26",
+      "phase": "VERIFY",
       "status": "FAILED",
-      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_efd6887e-0a61-4a93-ae8a-4fa77f9e085c-red-l3-001-050-es-caribbean.zip",
-      "fileName": "RED-L3-001-050-es-Caribbean.zip",
-      "fileSize": 111932,
-      "errorCode": "Error",
-      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at 6b30f58d6d3fbc69ec9f193afc78e9555f878618 but expected 1f238255e671fa650520b2f221ca4ff109096bfa\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
-      "mode": "single-package-request"
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_fb5edd64-354b-4d44-93ca-a908a4153e26-red-l3-001-050-fr-fr.zip",
+      "fileName": "RED-L3-001-050-fr-FR.zip",
+      "fileSize": 119349,
+      "errorCode": null,
+      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at 8c616d621ed83268ebe786dc76fb0a15aa3cdbcf but expected 6b30f58d6d3fbc69ec9f193afc78e9555f878618\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_94fa8d53-b4f9-489b-8880-d09b9ba0612a",
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": null,
+      "githubPublicationPending": true,
+      "canonicalPublicationStatus": "GITHUB_EXPORT_PENDING"
     }
   },
   {
