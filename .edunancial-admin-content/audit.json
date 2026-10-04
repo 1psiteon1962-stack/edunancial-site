@@ -1,5 +1,47 @@
 [
   {
+    "id": "upload-operation-0707f85c-e050-4758-8eea-b14f00686f66",
+    "timestamp": "2026-10-04T16:30:13.781Z",
+    "action": "system-error",
+    "result": "success",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_e4e32db2-16bc-446f-b5c4-1d1ab86d5f30",
+      "phase": "FINALIZE",
+      "status": "SUCCEEDED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_e4e32db2-16bc-446f-b5c4-1d1ab86d5f30-red-l3-001-050-en-gb.zip",
+      "fileName": "RED-L3-001-050-en-GB.zip",
+      "fileSize": 103272,
+      "errorCode": null,
+      "errorMessage": null,
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_ff91df8c-9c8a-40d6-a1f4-3a5513c37c99",
+      "reviewableFiles": 51,
+      "packageIdentity": {
+        "track": "red",
+        "level": "level-3",
+        "language": "en-GB",
+        "title": "001 050"
+      },
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": null,
+      "githubPublicationPending": true,
+      "publicationDeferred": true
+    }
+  },
+  {
     "id": "audit_056bef95-2b9e-4db3-8014-a3ec3ba7ea2e",
     "timestamp": "2026-10-04T16:30:03.492Z",
     "action": "batch-created",
