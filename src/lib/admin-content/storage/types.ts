@@ -10,6 +10,8 @@ export interface AdminContentStorage {
   saveBinary(path: string, content: Buffer, contentType: string): Promise<void>;
   deleteBinary(path: string): Promise<void>;
   readBinary(path: string): Promise<Buffer | null>;
+  /** Compare-and-swap update for shared indexes; retries re-apply mutate to fresh bytes. */
+  updateBinary?(path: string, mutate: (current: Buffer | null) => Buffer | null, message?: string): Promise<boolean>;
   appendAuditEvent(event: AuditEvent): Promise<void>;
   listAuditHistory(batchId?: string): Promise<AuditEvent[]>;
   createExport(exportPackage: ExportPackage, archive: Buffer): Promise<ExportPackage>;
