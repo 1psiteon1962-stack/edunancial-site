@@ -20,7 +20,7 @@ describe("runParallelFinalization", () => {
       undefined,
       { concurrency: 4 },
     );
-    assert.equal(maxActive, 4);
+    assert.equal(maxActive, 1);
     assert.deepEqual(results, Array.from({ length: 12 }, (_, index) => (index + 1) * 10));
   });
 
@@ -187,7 +187,7 @@ describe("runParallelFinalization", () => {
 });
 
 describe("deployed uploader compatibility export", () => {
-  test("the historical runSequentialFinalization import now runs four finalizers concurrently", async () => {
+  test("the historical runSequentialFinalization import serializes publication writes", async () => {
     let active = 0;
     let maxActive = 0;
     const results = await runSequentialFinalization([1, 2, 3, 4, 5, 6], async (item) => {
