@@ -2,6 +2,7 @@ import ingestLedger from "../../../.edunancial-admin-content/ingest-ledger.json"
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/upload-receipts";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
@@ -78,6 +79,12 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       !storagePath.toLowerCase().endsWith(".zip")
     ) continue;
     if (finalized.has(storagePath) || ingested.has(storagePath) || seen.has(storagePath)) continue;
+    const receiptUploadId = uploadIdFromStoragePath(storagePath);
+    if (receiptUploadId) {
+      const receipt = await getUploadReceipt(receiptUploadId);
+      if (receipt?.state === "PUBLISHED") continue;
+      if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
+    }
 
     const match = storagePath.match(
       /^uploads\/courses\/(batch_[^/]+)\/(upload_[0-9a-f-]+)-(.+\.zip)$/iu,
