@@ -14,6 +14,7 @@ type Track = "red"|"white"|"blue"|"green"|"gold"|"purple"|"orange"|"black";
 type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];
 const TRACKS:Array<{value:Track;label:string}>=[{value:"red",label:"🔴 Red — Real Estate"},{value:"white",label:"⚪ White — Paper Assets"},{value:"blue",label:"🔵 Blue — Business"},{value:"green",label:"🟢 Green — Taxes"},{value:"gold",label:"🟡 Gold — Investing"},{value:"purple",label:"🟣 Purple — Law"},{value:"orange",label:"🟠 Orange — Sales & Marketing"},{value:"black",label:"⚫ Black — Leadership & Executive Management"}];
 const TRACK_VALUES=new Set(TRACKS.map(t=>t.value));
+function tokens(filename:string){return filename.replace(/\.[^.]+$/u,"").toLowerCase().split(/[^a-z0-9]+/u).filter(Boolean);}
 function inferLanguage(filename:string):AdminContentLanguage|null{const result=analyzeFilenameLocale(filename);return result.locale as AdminContentLanguage|null;}
 function inferTrack(filename:string):Track|null{for(const token of tokens(filename))if(TRACK_VALUES.has(token as Track))return token as Track;return null;}
 function inferLevel(filename:string):(typeof COURSE_LEVELS)[number]|null{const t=tokens(filename);for(let i=0;i<t.length;i++){const m=t[i].match(/^l([1-5])$/u)??t[i].match(/^level([1-5])$/u);if(m)return `level-${m[1]}` as (typeof COURSE_LEVELS)[number];if(t[i]==="level"&&/^[1-5]$/u.test(t[i+1]??""))return `level-${t[i+1]}` as (typeof COURSE_LEVELS)[number];}return null;}
