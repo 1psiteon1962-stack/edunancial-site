@@ -189,3 +189,15 @@ export async function removeAtomicPublishedBatch(batchId: string): Promise<boole
   } catch { return false; }
 }
 
+export async function removeAtomicPublishedLesson(lessonId: string): Promise<boolean | null> {
+  if (process.env.NODE_ENV !== "production") return null;
+  try {
+    const path = lessonPath(lessonId);
+    if (!await getAdminContentStorage().readBinary(path)) return false;
+    const canonical = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === lessonId.toUpperCase());
+    if (canonical) await writeJson(path, canonical);
+    else await getAdminContentStorage().deleteBinary(path);
+    if (!canonical) await updateLessonIndex((indexed) => indexed.filter((id) => id.toUpperCase() !== lessonId.toUpperCase()));
+    return true;
+  } catch { return null; }
+}
