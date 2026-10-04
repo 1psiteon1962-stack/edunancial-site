@@ -20,7 +20,7 @@ describe("runParallelFinalization", () => {
       undefined,
       { concurrency: 4 },
     );
-    assert.equal(maxActive, 1);
+    assert.equal(maxActive, 4);
     assert.deepEqual(results, Array.from({ length: 12 }, (_, index) => (index + 1) * 10));
   });
 
@@ -197,7 +197,7 @@ describe("deployed uploader compatibility export", () => {
       active -= 1;
       return item;
     });
-    assert.equal(maxActive, 4);
+    assert.equal(maxActive, 1);
     assert.deepEqual(results, [1, 2, 3, 4, 5, 6]);
   });
 });
